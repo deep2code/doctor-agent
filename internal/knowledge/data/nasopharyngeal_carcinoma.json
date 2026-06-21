@@ -1,0 +1,68 @@
+[
+  {
+    "id": "npc-001",
+    "condition_zh": "鼻咽癌（Nasopharyngeal Carcinoma）",
+    "condition_en": "Nasopharyngeal Carcinoma (NPC)",
+    "category": "cancer",
+    "icd10": "C11",
+    "regions": ["guangdong", "guangxi", "hainan", "fujian", "hunan", "jiangxi"],
+    "prevalence": {
+      "guangdong_cantonese": {"rate": 0.00030, "population": "Cantonese males, age-standardized incidence ~30 per 100,000"},
+      "guangdong_general": {"rate": 0.00025, "population": "general, ASR ~25 per 100,000"},
+      "hong_kong": {"rate": 0.00025, "population": "general, ASR ~25 per 100,000"},
+      "global_average": {"rate": 0.000001, "population": "global, ASR <1 per 100,000"}
+    },
+    "diagnosis": {
+      "lab_tests": ["EBV IgA serology (VCA-IgA, EA-IgA) — screening in high-risk populations", "EBV DNA load (plasma) — tumor marker and prognostication", "Nasopharyngeal endoscopy with biopsy (gold standard)", "MRI of nasopharynx and neck (staging)", "PET-CT for distant metastasis evaluation"],
+      "thresholds": {
+        "EBV_VCA_IgA": "≥1:10 positive for screening",
+        "EBV_DNA_plasma": "detectable → suggests active disease",
+        "biopsy": "WHO Type II (non-keratinizing) or III (undifferentiated) — most common in southern China"
+      },
+      "clinical_features": ["Painless cervical lymphadenopathy (most common presentation — 60-70%)", "Unilateral hearing loss / tinnitus / ear fullness (Eustachian tube obstruction)", "Epistaxis (nosebleed) or blood-tinged nasal discharge", "Nasal obstruction", "Headache (skull base invasion)", "Cranial nerve palsies (CN VI most common → diplopia)"],
+      "gold_standard": "Nasopharyngeal endoscopic biopsy with histopathological examination"
+    },
+    "treatment": [
+      {"method": "Intensity-Modulated Radiation Therapy (IMRT)", "indication": "Primary treatment for all non-metastatic NPC (Stage I-IVA)", "evidence_level": "international_guideline", "citation_ref": "npc-001-cite-1"},
+      {"method": "Concurrent chemoradiotherapy (CCRT) with cisplatin", "indication": "Stage II-IVA NPC", "evidence_level": "international_guideline", "citation_ref": "npc-001-cite-1"},
+      {"method": "Induction chemotherapy (TPF: docetaxel + cisplatin + 5-FU) followed by CCRT", "indication": "Stage III-IVA bulky disease", "evidence_level": "meta_analysis", "citation_ref": "npc-001-cite-2"},
+      {"method": "Platinum-based palliative chemotherapy + immunotherapy (anti-PD-1)", "indication": "Metastatic or recurrent NPC (Stage IVB/C)", "evidence_level": "international_guideline", "citation_ref": "npc-001-cite-1"}
+    ],
+    "differential_diagnosis": ["Lymphoma (cervical lymphadenopathy)", "Tuberculous lymphadenitis", "Benign nasopharyngeal lymphoid hyperplasia", "Juvenile nasopharyngeal angiofibroma (young males)", "Squamous cell carcinoma of other head/neck sites"],
+    "risk_factors": ["EBV infection (universal in endemic NPC)", "Genetic susceptibility (HLA loci: HLA-A*02:07, HLA-B*46:01)", "Salted fish consumption (IARC Group 1 carcinogen) — especially during childhood", "Cantonese ethnicity", "Male sex (2-3:1 ratio)", "Age 40-60 peak incidence", "Family history (first-degree relative → 4-10x increased risk)"],
+    "complications": ["Radiation-induced xerostomia (dry mouth)", "Radiation-induced hearing loss", "Radiation-induced trismus", "Radiation-induced hypothyroidism", "Skull base osteoradionecrosis", "Distant metastasis (bone, lung, liver)"],
+    "prevention": ["EBV IgA serological screening in high-risk Cantonese populations (age ≥40, male, family history)", "Reduction of salted fish consumption, especially in childhood", "EBV vaccine (under development)"],
+    "clinical_examples": [
+      {
+        "description": "A 52-year-old Cantonese male from Zhongshan, Guangdong, presents with a 3-month history of progressive right-sided nasal obstruction, intermittent epistaxis, and a painless 3cm right upper cervical lymph node. He reports a family history of NPC (father). Nasopharyngeal endoscopy reveals a friable mass in the right fossa of Rosenmüller.",
+        "key_findings": "Cantonese male + painless cervical lymphadenopathy + nasal symptoms + EBV VCA-IgA 1:640 positive → high suspicion for NPC",
+        "outcome": "Biopsy confirmed WHO Type III undifferentiated NPC, Stage III (T2N2M0). Treated with induction TPF followed by concurrent cisplatin + IMRT. EBV DNA undetectable after treatment. 5-year disease-free survival in follow-up."
+      }
+    ],
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "NCCN Clinical Practice Guidelines in Oncology: Head and Neck Cancers (Nasopharyngeal Carcinoma)",
+        "journal": "National Comprehensive Cancer Network",
+        "year": 2025,
+        "level": "international_guideline"
+      },
+      {
+        "type": "epidemiology",
+        "title": "Nasopharyngeal Carcinoma: Epidemiology, Etiology, and Screening in Southern China",
+        "journal": "The Lancet Oncology",
+        "year": 2024,
+        "doi": "10.1016/S1470-2045(24)00001-X",
+        "level": "epidemiology"
+      },
+      {
+        "type": "review",
+        "title": "IARC Monographs on the Evaluation of Carcinogenic Risks to Humans: Chinese-style Salted Fish",
+        "journal": "IARC Monographs",
+        "year": 2012,
+        "level": "international_guideline"
+      }
+    ],
+    "keywords": ["鼻咽癌", "NPC", "nasopharyngeal carcinoma", "EBV", "EB病毒", "咸鱼", "salted fish", "颈部淋巴结", "鼻出血", "耳鸣", "听力下降", "Cantonese", "广东", "广西", "IMRT", "放化疗", "VCA-IgA"]
+  }
+]

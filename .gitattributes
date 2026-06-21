@@ -1,0 +1,4 @@
+internal/knowledge/data/medical_qa_pairs.json filter=lfs diff=lfs merge=lfs -text
+internal/knowledge/data/huatuo_qa.json filter=lfs diff=lfs merge=lfs -text
+external/kg/Huatuo26M/format_data.jsonl filter=lfs diff=lfs merge=lfs -text
+external/kg/medical_dialogues/IM_内科.csv filter=lfs diff=lfs merge=lfs -text

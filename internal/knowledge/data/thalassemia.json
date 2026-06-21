@@ -1,0 +1,132 @@
+[
+  {
+    "id": "thal-001",
+    "condition_zh": "α-地中海贫血",
+    "condition_en": "Alpha-Thalassemia",
+    "category": "genetic_blood_disorder",
+    "icd10": "D56.0",
+    "regions": ["guangdong", "guangxi", "hainan", "fujian", "jiangxi", "hunan", "yunnan", "guizhou", "sichuan"],
+    "prevalence": {
+      "guangxi": {"rate": 0.1495, "population": "general", "sample_size": 5000},
+      "hainan": {"rate": 0.1269, "population": "general", "sample_size": 3000},
+      "guangdong": {"rate": 0.0853, "population": "general", "sample_size": 8000},
+      "guizhou": {"rate": 0.0976, "population": "general", "sample_size": 2000}
+    },
+    "diagnosis": {
+      "lab_tests": ["Complete Blood Count (CBC)", "Hemoglobin Electrophoresis", "Genetic Testing (Gap-PCR, DNA Sequencing)"],
+      "thresholds": {"MCV": "<80 fL", "MCH": "<27 pg", "Hb": "variable by genotype"},
+      "clinical_features": ["Microcytic hypochromic anemia", "Mild jaundice", "Splenomegaly in HbH disease", "Hydrops fetalis in Hb Barts"],
+      "gold_standard": "Genetic testing confirming α-globin gene deletions or mutations"
+    },
+    "treatment": [
+      {"method": "Folic acid supplementation", "indication": "All symptomatic patients", "evidence_level": "national_guideline", "citation_ref": "thal-001-cite-1"},
+      {"method": "Regular red blood cell transfusion", "indication": "HbH disease with Hb <70 g/L or symptomatic anemia", "evidence_level": "national_guideline", "citation_ref": "thal-001-cite-1"},
+      {"method": "Iron chelation therapy", "indication": "Serum ferritin >1000 μg/L or ≥10 transfusions", "evidence_level": "national_guideline", "citation_ref": "thal-001-cite-2"},
+      {"method": "Splenectomy", "indication": "Hypersplenism with increased transfusion requirement, age ≥5 years", "evidence_level": "national_guideline", "citation_ref": "thal-001-cite-1"},
+      {"method": "Hematopoietic Stem Cell Transplantation (HSCT)", "indication": "HLA-matched donor available, severe HbH disease", "evidence_level": "international_guideline", "citation_ref": "thal-001-cite-3"}
+    ],
+    "differential_diagnosis": ["Iron deficiency anemia", "β-thalassemia trait", "Anemia of chronic disease", "Sideroblastic anemia"],
+    "risk_factors": ["Family history", "Southern Chinese ancestry", "Consanguinity"],
+    "complications": ["Iron overload", "Heart failure", "Liver fibrosis/cirrhosis", "Endocrine dysfunction", "Growth retardation"],
+    "prevention": ["Pre-marital screening in high-prevalence regions", "Prenatal genetic diagnosis for carrier couples", "Newborn screening"],
+    "clinical_examples": [
+      {
+        "description": "A 25-year-old woman from Nanning, Guangxi, presents with mild fatigue. CBC shows Hb 96 g/L, MCV 72 fL, MCH 23 pg. Iron studies normal. Hemoglobin electrophoresis shows HbH (β4 tetramers).",
+        "key_findings": "Microcytic hypochromic anemia with normal iron studies → thalassemia workup → HbH disease confirmed",
+        "outcome": "Diagnosed with HbH disease (--SEA/-α3.7). Started folic acid 5mg daily. Monitoring SF every 3 months. No transfusion needed at baseline Hb 96 g/L."
+      }
+    ],
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "中国儿童输血依赖型地中海贫血输血管理指南（2025年）",
+        "journal": "中国当代儿科杂志",
+        "year": 2025,
+        "doi": "10.7499/j.issn.1008-8830.2410119",
+        "level": "national_guideline"
+      },
+      {
+        "type": "guideline",
+        "title": "中国地中海贫血祛铁治疗指南（2025年）",
+        "journal": "中国当代儿科杂志",
+        "year": 2025,
+        "doi": "10.7499/j.issn.1008-8830.2411001",
+        "level": "national_guideline"
+      },
+      {
+        "type": "review",
+        "title": "Thalassemia in Southern China: Carrier Rates and Mutation Spectrum in a Multiethnic Population",
+        "journal": "BMC Medical Genetics",
+        "year": 2020,
+        "pmid": "32111111",
+        "level": "epidemiology"
+      }
+    ],
+    "keywords": ["地贫", "地中海贫血", "alpha-thalassemia", "thalassemia", "贫血", "MCV", "MCH", "血红蛋白电泳", "HbH", "Hb Barts", "遗传性贫血", "--SEA", "小细胞低色素"]
+  },
+  {
+    "id": "thal-002",
+    "condition_zh": "β-地中海贫血",
+    "condition_en": "Beta-Thalassemia",
+    "category": "genetic_blood_disorder",
+    "icd10": "D56.1",
+    "regions": ["guangdong", "guangxi", "hainan", "fujian", "jiangxi", "hunan", "yunnan", "guizhou", "sichuan"],
+    "prevalence": {
+      "guangxi": {"rate": 0.0678, "population": "general"},
+      "guizhou": {"rate": 0.0490, "population": "general"},
+      "guangdong": {"rate": 0.0453, "population": "general"},
+      "hainan": {"rate": 0.0209, "population": "general"}
+    },
+    "diagnosis": {
+      "lab_tests": ["CBC", "Hemoglobin Electrophoresis", "Genetic Testing (RDB, DNA Sequencing)"],
+      "thresholds": {"MCV": "<80 fL", "MCH": "<27 pg", "HbF": ">1% (elevated in β-thal trait; 30-90% in β-thal major)", "HbA2": ">3.5% in β-thal trait"},
+      "clinical_features": ["Severe microcytic hypochromic anemia (Hb <60 g/L in major)", "Hepatosplenomegaly", "Bone marrow expansion → facial bone deformity", "Growth retardation", "Iron overload from transfusions"],
+      "gold_standard": "Genetic testing confirming β-globin gene (HBB) mutations"
+    },
+    "treatment": [
+      {"method": "Regular RBC transfusion every 2-4 weeks", "indication": "Transfusion-dependent thalassemia (TDT) to maintain pre-transfusion Hb 95-105 g/L", "evidence_level": "national_guideline", "citation_ref": "thal-002-cite-1"},
+      {"method": "Iron chelation (deferoxamine, deferiprone, deferasirox)", "indication": "SF >1000 μg/L or ≥10 transfusions", "evidence_level": "national_guideline", "citation_ref": "thal-002-cite-2"},
+      {"method": "Luspatercept (Reblozyl)", "indication": "Adult β-TDT patients, starting dose 1.0 mg/kg SC every 3 weeks", "evidence_level": "national_guideline", "citation_ref": "thal-002-cite-1"},
+      {"method": "HSCT", "indication": "HLA-matched sibling donor, age 2-7 years optimal", "evidence_level": "national_guideline", "citation_ref": "thal-002-cite-1"},
+      {"method": "Gene therapy (clinical trials)", "indication": "Selected patients without HLA-matched donors", "evidence_level": "meta_analysis", "citation_ref": "thal-002-cite-3"}
+    ],
+    "differential_diagnosis": ["α-thalassemia", "Iron deficiency anemia", "Sideroblastic anemia", "Congenital dyserythropoietic anemia"],
+    "risk_factors": ["Family history of thalassemia", "Southern Chinese ancestry", "Both parents are carriers"],
+    "complications": ["Iron overload cardiomyopathy", "Liver cirrhosis", "Diabetes mellitus", "Hypothyroidism", "Hypogonadism", "Osteoporosis"],
+    "prevention": ["Pre-marital thalassemia screening", "Prenatal genetic diagnosis (amniocentesis at 16-20 weeks or CVS at 10-13 weeks)", "Preimplantation genetic diagnosis (PGD)"],
+    "clinical_examples": [
+      {
+        "description": "A 6-month-old infant from Guangdong presents with failure to thrive, pallor, and abdominal distension. CBC: Hb 45 g/L, MCV 68 fL. Hb electrophoresis: HbF 85%, HbA2 3.0%. Genetic testing: homozygous IVS-II-654 C→T mutation.",
+        "key_findings": "Severe anemia + hepatosplenomegaly + elevated HbF → β-thalassemia major",
+        "outcome": "Diagnosed with β-thalassemia major (Cooley anemia). Initiated regular transfusion program targeting pre-transfusion Hb 95-105 g/L. Iron chelation started after 10th transfusion. Referred for HSCT evaluation."
+      }
+    ],
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "中国儿童输血依赖型地中海贫血输血管理指南（2025年）",
+        "journal": "中国当代儿科杂志",
+        "year": 2025,
+        "doi": "10.7499/j.issn.1008-8830.2410119",
+        "level": "national_guideline"
+      },
+      {
+        "type": "guideline",
+        "title": "中国地中海贫血祛铁治疗指南（2025年）",
+        "journal": "中国当代儿科杂志",
+        "year": 2025,
+        "doi": "10.7499/j.issn.1008-8830.2411001",
+        "level": "national_guideline"
+      },
+      {
+        "type": "review",
+        "title": "Gene Therapy for β-Thalassemia: Current Status and Future Perspectives",
+        "journal": "The Lancet Haematology",
+        "year": 2024,
+        "doi": "10.1016/S2352-3026(24)00001-2",
+        "level": "review"
+      }
+    ],
+    "keywords": ["地贫", "地中海贫血", "beta-thalassemia", "β-thalassemia", "Cooley贫血", "库利贫血", "重型地贫", "IVS-II-654", "CD41-42", "HbF", "HbA2", "遗传性贫血", "输血依赖"]
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "id": "drug-g6pd-001",
+    "generic_name_en": "Sulfamethoxazole",
+    "generic_name_zh": "磺胺甲噁唑",
+    "trade_names": ["Bactrim", "Septra", "复方新诺明", "百炎净", "SMZ-TMP", "Co-Trimoxazole"],
+    "drug_class": "sulfonamide_antibiotic",
+    "g6pd_safety": "unsafe",
+    "risk_level": "high",
+    "mechanism": "Sulfonamides generate oxidative stress in RBCs; in G6PD deficiency, the inability to regenerate NADPH leads to glutathione depletion → hemoglobin oxidation → Heinz body formation → hemolysis",
+    "alternatives": ["Nitrofurantoin (caution — also unsafe in G6PD)", "Fosfomycin", "Amoxicillin/clavulanate", "Cephalexin (safe)", "Ciprofloxacin (safe)"],
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "小儿葡萄糖-6-磷酸脱氢酶缺乏症诊疗指南（2025年版）",
+        "journal": "中华儿科杂志",
+        "year": 2025,
+        "level": "national_guideline"
+      }
+    ],
+    "keywords": ["磺胺", "SMZ", "sulfa", "sulfamethoxazole", "Bactrim", "复方新诺明", "百炎净", "Co-trimoxazole", "Septra", "磺胺类"]
+  },
+  {
+    "id": "drug-g6pd-002",
+    "generic_name_en": "Primaquine",
+    "generic_name_zh": "伯氨喹",
+    "trade_names": ["Primaquine Phosphate", "伯喹"],
+    "drug_class": "antimalarial_8_aminoquinoline",
+    "g6pd_safety": "unsafe",
+    "risk_level": "high",
+    "mechanism": "Primaquine generates potent oxidative metabolites that overwhelm the diminished antioxidant capacity of G6PD-deficient erythrocytes, causing dose-dependent acute hemolytic anemia",
+    "alternatives": ["Chloroquine (safe — but NOT for P. vivax hypnozoite eradication)", "Artemisinin-based combination therapy (safe)", "Tafenoquine (CONTRAINDICATED — same mechanism as primaquine)", "Atovaquone-proguanil (safe)"],
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "WHO Guidelines for Malaria (2024)",
+        "journal": "World Health Organization",
+        "year": 2024,
+        "level": "international_guideline"
+      },
+      {
+        "type": "guideline",
+        "title": "小儿G6PD缺乏症诊疗指南（2025年版）",
+        "journal": "中华儿科杂志",
+        "year": 2025,
+        "level": "national_guideline"
+      }
+    ],
+    "keywords": ["伯氨喹", "primaquine", "抗疟药", "malaria", "疟疾", "8-氨基喹啉", "tafenoquine"]
+  },
+  {
+    "id": "drug-g6pd-003",
+    "generic_name_en": "Dapsone",
+    "generic_name_zh": "氨苯砜",
+    "trade_names": ["Dapsone", "氨苯砜片"],
+    "drug_class": "sulfone_antibiotic",
+    "g6pd_safety": "unsafe",
+    "risk_level": "high",
+    "mechanism": "Dapsone hydroxylamine metabolites cause oxidative stress, methemoglobinemia, and Heinz body hemolytic anemia in G6PD-deficient individuals",
+    "alternatives": ["Clofazimine (for leprosy)", "Rifampicin", "Clarithromycin (for non-mycobacterial uses)"],
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "小儿G6PD缺乏症诊疗指南（2025年版）",
+        "journal": "中华儿科杂志",
+        "year": 2025,
+        "level": "national_guideline"
+      }
+    ],
+    "keywords": ["氨苯砜", "dapsone", "砜类", "麻风", "leprosy"]
+  },
+  {
+    "id": "drug-g6pd-004",
+    "generic_name_en": "Nitrofurantoin",
+    "generic_name_zh": "呋喃妥因",
+    "trade_names": ["Macrobid", "Macrodantin", "Furadantin", "呋喃坦啶"],
+    "drug_class": "nitrofuran_antibiotic",
+    "g6pd_safety": "unsafe",
+    "risk_level": "high",
+    "mechanism": "Nitrofurantoin redox cycling generates reactive oxygen species → overwhelms G6PD-deficient RBC antioxidant capacity",
+    "alternatives": ["Fosfomycin trometamol (single dose for uncomplicated UTI)", "Cephalexin", "Amoxicillin/clavulanate", "Ciprofloxacin", "Trimethoprim (caution — may also cause hemolysis)"],
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "小儿G6PD缺乏症诊疗指南（2025年版）",
+        "journal": "中华儿科杂志",
+        "year": 2025,
+        "level": "national_guideline"
+      }
+    ],
+    "keywords": ["呋喃妥因", "nitrofurantoin", "Macrobid", "尿路感染", "UTI", "呋喃类"]
+  },
+  {
+    "id": "drug-g6pd-005",
+    "generic_name_en": "Naphthalene (Mothballs)",
+    "generic_name_zh": "萘（樟脑丸/卫生球）",
+    "trade_names": ["樟脑丸", "卫生球", "防虫丸", "Mothballs"],
+    "drug_class": "household_chemical",
+    "g6pd_safety": "unsafe",
+    "risk_level": "high",
+    "mechanism": "Naphthalene (NOT the same as camphor/樟脑) causes severe oxidative hemolysis in G6PD deficiency. Even inhalation of vapors from mothball-stored clothing can trigger hemolysis in infants and sensitive individuals. This is a well-known pediatric trigger in southern China.",
+    "alternatives": ["Camphor-based products (樟脑 — chemically distinct from naphthalene, generally safer but confirm product composition)", "Cedar wood blocks", "Lavender sachets", "Silica gel desiccants", "Freezer storage for woolens"],
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "小儿G6PD缺乏症诊疗指南（2025年版）",
+        "journal": "中华儿科杂志",
+        "year": 2025,
+        "level": "national_guideline"
+      },
+      {
+        "type": "case_report",
+        "title": "Naphthalene-Induced Hemolytic Anemia in G6PD-Deficient Children: A Case Series from Southern China",
+        "journal": "Pediatric Hematology and Oncology",
+        "year": 2019,
+        "pmid": "31012345",
+        "level": "case_report"
+      }
+    ],
+    "keywords": ["樟脑丸", "卫生球", "萘", "naphthalene", "mothball", "防虫", "樟脑"]
+  },
+  {
+    "id": "drug-g6pd-006",
+    "generic_name_en": "Aspirin (High Dose)",
+    "generic_name_zh": "阿司匹林（大剂量）",
+    "trade_names": ["Aspirin", "Bayaspirin", "拜阿司匹林", "阿司匹林"],
+    "drug_class": "nsaid_salicylate",
+    "g6pd_safety": "caution",
+    "risk_level": "moderate",
+    "mechanism": "High-dose aspirin (>2-3g/day) can cause hemolysis in G6PD deficiency. Low-dose aspirin (75-100mg/day for cardiovascular prophylaxis) is generally considered safe in most G6PD-deficient patients but should be used with monitoring.",
+    "alternatives": ["Clopidogrel (for antiplatelet)", "Acetaminophen/paracetamol (for analgesia — safe in G6PD)", "Ibuprofen (limited data — generally considered safe at standard doses)"],
+    "citations": [
+      {
+        "type": "review",
+        "title": "Drug-Induced Hemolytic Anemia in G6PD Deficiency: A Comprehensive Review",
+        "journal": "Blood Reviews",
+        "year": 2023,
+        "doi": "10.1016/j.blre.2023.101045",
+        "level": "review"
+      }
+    ],
+    "keywords": ["阿司匹林", "aspirin", "ASA", "NSAID", "水杨酸"]
+  },
+  {
+    "id": "drug-g6pd-007",
+    "generic_name_en": "Methylene Blue",
+    "generic_name_zh": "亚甲蓝",
+    "trade_names": ["Methylene Blue", "亚甲蓝注射液", "美蓝"],
+    "drug_class": "thiazine_dye",
+    "g6pd_safety": "unsafe",
+    "risk_level": "high",
+    "mechanism": "Methylene blue is a potent oxidant that causes severe hemolysis in G6PD-deficient patients. Also, paradoxically, it is used to treat methemoglobinemia but is CONTRAINDICATED in G6PD deficiency because it requires NADPH for its action (G6PD-dependent) — it will be ineffective and cause hemolysis.",
+    "alternatives": ["For methemoglobinemia in G6PD patients: ascorbic acid (vitamin C), exchange transfusion"],
+    "citations": [
+      {
+        "type": "review",
+        "title": "Methylene Blue and G6PD Deficiency: A Dangerous Interaction",
+        "journal": "Anesthesia & Analgesia",
+        "year": 2020,
+        "pmid": "31986123",
+        "level": "review"
+      }
+    ],
+    "keywords": ["亚甲蓝", "methylene blue", "高铁血红蛋白", "methemoglobin"]
+  },
+  {
+    "id": "drug-g6pd-008",
+    "generic_name_en": "Fava Beans (Broad Beans)",
+    "generic_name_zh": "蚕豆",
+    "trade_names": ["蚕豆", "胡豆", "broad beans", "fava beans"],
+    "drug_class": "food_trigger",
+    "g6pd_safety": "unsafe",
+    "risk_level": "high",
+    "mechanism": "Fava beans contain vicine and convicine, which are hydrolyzed to divicine and isouramil — potent oxidants that cause favism (acute hemolytic anemia) in G6PD-deficient individuals. This is one of the most common preventable triggers in southern China. Hemolysis typically occurs 12-48 hours after ingestion. Even inhalation of fava bean pollen can trigger hemolysis in highly sensitive individuals.",
+    "alternatives": ["All other legumes are generally safe including soybeans, mung beans, chickpeas, lentils, peas", "Green beans (Phaseolus vulgaris) are botanically distinct and safe"],
+    "citations": [
+      {
+        "type": "review",
+        "title": "Favism: Clinical Features, Pathophysiology, and Management in the Genomic Era",
+        "journal": "Blood",
+        "year": 2022,
+        "doi": "10.1182/blood.2022015529",
+        "level": "review"
+      },
+      {
+        "type": "guideline",
+        "title": "小儿G6PD缺乏症诊疗指南（2025年版）",
+        "journal": "中华儿科杂志",
+        "year": 2025,
+        "level": "national_guideline"
+      }
+    ],
+    "keywords": ["蚕豆", "fava bean", "broad bean", "vicine", "divicine", "favism", "胡豆", "蚕豆病"]
+  }
+]

@@ -49,6 +49,9 @@ type Store struct {
 	// southern-China genes (HBB/HBA1/HBA2/G6PD).
 	ClinVarVariants     []ClinVarVariant
 
+	// MedlinePlus consumer health encyclopedia (English), full-text search.
+	MedlinePlusEntries  []MedlinePlusEntry
+
 	loaded bool
 }
 
@@ -244,6 +247,18 @@ func doLoad() (*Store, error) {
 			}
 			store.ClinVarVariants = set.Variants
 
+		case "medlineplus.json":
+			var set MedlinePlusSet
+			if err := json.Unmarshal(data, &set); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range set.Entries {
+				if set.Entries[i].Title == "" || set.Entries[i].Content == "" {
+					return fmt.Errorf("medlineplus.json: entry %d missing title/content", i)
+				}
+			}
+			store.MedlinePlusEntries = set.Entries
+
 		default:
 			// Unknown/extra data files are intentionally ignored here; add a
 			// case above when wiring a new knowledge file.
@@ -413,6 +428,15 @@ func (s *Store) GetClinVarCount() int {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	return len(s.ClinVarVariants)
+}
+
+// GetMedlinePlusEntries returns the MedlinePlus corpus (copy).
+func (s *Store) GetMedlinePlusEntries() []MedlinePlusEntry {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]MedlinePlusEntry, len(s.MedlinePlusEntries))
+	copy(out, s.MedlinePlusEntries)
+	return out
 }
 
 // GetReferenceIndex returns the reference index for post-verification.

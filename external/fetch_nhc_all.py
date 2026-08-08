@@ -157,6 +157,7 @@ def main():
             data = fetch(opener, url, referer=BASE + "/")
             html = data.decode("utf-8", "replace")
             content = extract_inline(html)
+            pdf_data = None
             if not looks_like_guide(content):
                 pdfs = re.findall(r'href="([^"]*\.(?:pdf|docx?))"', html)
                 if pdfs:
@@ -169,7 +170,14 @@ def main():
                     except Exception:
                         content = ""
             if not looks_like_guide(content):
-                print(f"[{i}/{len(candidates)}] ⚠️ 跳过(无方案正文/扫描版): {title[:40]}", file=sys.stderr)
+                # 扫描版(无文本层): 保存 PDF 原件供 OCR
+                if pdf_data and pdf_data[:4] == b"%PDF":
+                    scanned = OUT.parent / "scanned"
+                    scanned.mkdir(parents=True, exist_ok=True)
+                    (scanned / f"{slug}.pdf").write_bytes(pdf_data)
+                    print(f"[{i}/{len(candidates)}] 📄 扫描版已存: scanned/{slug}.pdf ({len(pdf_data)//1024}KB)", file=sys.stderr)
+                else:
+                    print(f"[{i}/{len(candidates)}] ⚠️ 跳过(无方案正文): {title[:40]}", file=sys.stderr)
                 continue
             out.write_text(json.dumps(
                 {"title": title, "url": url, "year": year, "content": content},

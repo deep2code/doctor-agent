@@ -53,3 +53,4 @@ external/who_factsheets_structured/
 # Eval artifacts
 evals/report.json
 __pycache__/
+external/nhc/scanned/

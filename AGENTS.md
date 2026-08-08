@@ -1,6 +1,6 @@
 # AGENTS.md — doctor-agent
 
-循证医学 (evidence-based medicine) AI assistant specialized for southern-China populations (地贫, G6PD, 鼻咽癌, 乙肝, etc.). Go module `github.com/doctor-agent` (Go 1.26), Anthropic Claude LLM + embedded JSON knowledge base.
+循证医学 (evidence-based medicine) AI assistant for the Chinese population — everyday health problems first, with southern-China high-burden conditions (地贫, G6PD, 鼻咽癌, 乙肝, 登革热) as an additional layer. Answers structure: 可能的原因 → 相似情况/常见病例 → 家庭护理 → 何时就医. Go module `github.com/doctor-agent` (Go 1.26), pluggable LLM (Anthropic/DeepSeek/OpenAI-compat: Zhipu/Qwen/豆包) + embedded JSON knowledge base.
 
 ## Project
 

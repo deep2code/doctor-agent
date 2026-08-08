@@ -52,6 +52,9 @@ type Store struct {
 	// MedlinePlus consumer health encyclopedia (English), full-text search.
 	MedlinePlusEntries  []MedlinePlusEntry
 
+	// National medical-insurance drug catalogue (国家医保药品目录).
+	MedinsDrugs         []MedinsDrug
+
 	loaded bool
 }
 
@@ -259,6 +262,18 @@ func doLoad() (*Store, error) {
 			}
 			store.MedlinePlusEntries = set.Entries
 
+		case "medins_drugs.json":
+			var set MedinsSet
+			if err := json.Unmarshal(data, &set); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range set.Drugs {
+				if set.Drugs[i].Name == "" {
+					return fmt.Errorf("medins_drugs.json: drug %d missing name", i)
+				}
+			}
+			store.MedinsDrugs = set.Drugs
+
 		default:
 			// Unknown/extra data files are intentionally ignored here; add a
 			// case above when wiring a new knowledge file.
@@ -436,6 +451,15 @@ func (s *Store) GetMedlinePlusEntries() []MedlinePlusEntry {
 	defer s.mu.RUnlock()
 	out := make([]MedlinePlusEntry, len(s.MedlinePlusEntries))
 	copy(out, s.MedlinePlusEntries)
+	return out
+}
+
+// GetMedinsDrugs returns the medical-insurance drug catalogue (copy).
+func (s *Store) GetMedinsDrugs() []MedinsDrug {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]MedinsDrug, len(s.MedinsDrugs))
+	copy(out, s.MedinsDrugs)
 	return out
 }
 

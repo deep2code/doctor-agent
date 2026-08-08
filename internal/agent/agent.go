@@ -71,6 +71,7 @@ func New(cfg *config.Config) (*Agent, error) {
 	registry.Register(tools.NewMSDSearch(store))
 	registry.Register(tools.NewVariantLookup(store))
 	registry.Register(tools.NewMedlineSearch(store))
+	registry.Register(tools.NewDrugLookup(store))
 	registry.Register(tools.NewLabInterpreter())
 
 	postVerifier := safety.NewPostVerifier(store.GetReferenceIndex())

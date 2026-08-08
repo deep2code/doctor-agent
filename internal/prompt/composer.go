@@ -41,6 +41,10 @@ func (c *Composer) ComposeSystemPrompt(retrieved []knowledge.RetrievalResult, pa
 	sb.WriteString(LayerSouthernEnvironment)
 	sb.WriteString("\n\n")
 
+	// Layer 3.5: Everyday health problems (plain-language causes + similar cases)
+	sb.WriteString(LayerEverydayHealth)
+	sb.WriteString("\n\n")
+
 	// Patient context injection (if available)
 	if patientCtx != "" {
 		sb.WriteString("## PATIENT CONTEXT\n\n")

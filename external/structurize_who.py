@@ -95,20 +95,17 @@ SYSTEM_PROMPT = """你是循证医学知识库工程师，负责把 WHO 官方�
 
 USER_TEMPLATE = """请把以下 WHO 官方中文 fact sheet 转成 KnowledgeEntry JSON。
 
-标题: {title_zh}
-分类: {category}
-地区: {regions}
 官方URL: {url}
 英文slug: {slug}
 
 KnowledgeEntry 的 JSON 结构（字段名固定）：
 {{
   "id": "who-{slug_safe}",
-  "condition_zh": "{title_zh}",
-  "condition_en": "<英文病名>",
-  "category": "{category}",
+  "condition_zh": "<从正文确定的中文名，如 糖尿病、哮喘、抑郁症>",
+  "condition_en": "<英文名>",
+  "category": "<从内容判断：infectious_disease/chronic_disease/environmental_health/maternal_child_health/injury_prevention/haematology/mental_health/nutrition/other>",
   "icd10": "<若有>",
-  "regions": ["{regions}"],
+  "regions": ["全国"],
   "prevalence": {{"<地区>": {{"rate": 0.xx, "population": "<人群>"}}}},
   "diagnosis": {{"lab_tests": [...], "clinical_features": [...], "gold_standard": "<若有>"}},
   "treatment": [{{"method": "<方法>", "indication": "<指征>", "evidence_level": "review"}}],
@@ -126,9 +123,8 @@ KnowledgeEntry 的 JSON 结构（字段名固定）：
 -----正文结束-----"""
 
 
-def call_llm(slug, title_zh, category, regions, body):
+def call_llm(slug, body):
     user = USER_TEMPLATE.format(
-        title_zh=title_zh, category=category, regions=regions,
         url=BASE_URL.format(slug=slug),
         slug=slug, slug_safe=re.sub(r"[^a-z0-9]", "-", slug), body=body)
     providers = [("zhipu", f["url"], f["model"], os.environ.get(f["key_env"], ""))
@@ -175,21 +171,18 @@ def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     merged = []
     ok, fail = 0, []
-    for i, (slug, (title_zh, category, regions)) in enumerate(SELECTED.items(), 1):
+    # 全量模式: 扫描所有已抓取的中文版 fact sheets, 跳过已有结构化输出
+    all_slugs = sorted(f.stem for f in SRC.glob("*.md"))
+    for i, slug in enumerate(all_slugs, 1):
         out = OUT_DIR / f"{slug}.json"
         if out.exists():
             merged.append(json.load(open(out)))
             ok += 1
-            print(f"[{i}/{len(SELECTED)}] SKIP {slug} (已存在)", file=sys.stderr)
+            print(f"[{i}/{len(all_slugs)}] SKIP {slug} (已存在)", file=sys.stderr)
             continue
-        src = SRC / f"{slug}.md"
-        if not src.exists():
-            fail.append((slug, "中文版未抓取"))
-            print(f"[{i}/{len(SELECTED)}] FAIL {slug}: 中文版未抓取", file=sys.stderr)
-            continue
-        body = src.read_text(encoding="utf-8")
+        body = (SRC / f"{slug}.md").read_text(encoding="utf-8")
         try:
-            raw = call_llm(slug, title_zh, category, regions, body)
+            raw = call_llm(slug, body)
             entry = parse_json(raw)
             # Basic validation
             for field in ("id", "condition_zh", "category", "keywords"):
@@ -200,10 +193,10 @@ def main():
             out.write_text(json.dumps(entry, ensure_ascii=False, indent=1), encoding="utf-8")
             merged.append(entry)
             ok += 1
-            print(f"[{i}/{len(SELECTED)}] ✅ {slug} ({len(body)} 字符正文)", file=sys.stderr)
+            print(f"[{i}/{len(all_slugs)}] ✅ {slug} ({len(body)} 字符正文)", file=sys.stderr)
         except Exception as e:
             fail.append((slug, str(e)[:100]))
-            print(f"[{i}/{len(SELECTED)}] ❌ {slug}: {str(e)[:100]}", file=sys.stderr)
+            print(f"[{i}/{len(all_slugs)}] ❌ {slug}: {str(e)[:100]}", file=sys.stderr)
         time.sleep(1)
 
     if merged:

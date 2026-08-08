@@ -110,8 +110,23 @@ func scoreMSD(e *MSDEntry, queryLower string, cjkWindows []string, latin []strin
 	return score, matchedAny
 }
 
+// everydaySynonyms maps colloquial daily-life complaints to the MSD Manual's
+// standard topic wording, so "打呼噜" finds the 打鼾 page and "胃胀" finds
+// 消化不良/腹胀.
+var everydaySynonyms = map[string][]string{
+	"打呼噜": {"打鼾"}, "打呼": {"打鼾"},
+	"胃胀": {"消化不良", "腹胀"}, "胀气": {"腹胀", "消化不良"},
+	"拉肚子": {"腹泻"}, "拉稀": {"腹泻"}, "肚子疼": {"腹痛"},
+	"睡不着": {"失眠"}, "睡不好": {"失眠"},
+	"头晕": {"眩晕"}, "头昏": {"眩晕"},
+	"感冒": {"普通感冒"}, "上火": {"口腔溃疡", "咽喉痛"},
+	"黑眼圈": {"过敏", "失眠"},
+}
+
 // cjkWindows returns sliding CJK substrings of the query between minR and
-// maxR runes (windows containing any Han character).
+// maxR runes (windows containing any Han character), minus everyday filler
+// words ("怎么办/怎么/什么") that would match any page mentioning them.
+// Colloquial synonyms ("打呼噜" -> "打鼾") are appended as extra windows.
 func cjkWindows(s string, minR, maxR int) []string {
 	runes := []rune(s)
 	var out []string
@@ -119,7 +134,7 @@ func cjkWindows(s string, minR, maxR int) []string {
 	for size := minR; size <= maxR; size++ {
 		for i := 0; i+size <= len(runes); i++ {
 			win := string(runes[i : i+size])
-			if !hasCJK(win) {
+			if !hasCJK(win) || msdStopWindow[win] {
 				continue
 			}
 			if !seen[win] {
@@ -128,5 +143,23 @@ func cjkWindows(s string, minR, maxR int) []string {
 			}
 		}
 	}
+	// Append colloquial synonyms for the full query and each window.
+	for key, syns := range everydaySynonyms {
+		for _, syn := range syns {
+			if !seen[syn] && strings.Contains(s, key) {
+				seen[syn] = true
+				out = append(out, syn)
+			}
+		}
+	}
 	return out
+}
+
+// msdStopWindow filters everyday filler words that carry no medical signal.
+var msdStopWindow = map[string]bool{
+	"怎么办": true, "怎么": true, "么办": true, "咋办": true, "怎样": true, "咋样": true,
+	"什么": true, "为什么": true, "为啥": true, "如何": true, "哪里": true, "哪儿": true,
+	"需要": true, "应该": true, "可以": true, "时候": true, "多久": true, "几天": true,
+	"是不是": true, "有没有": true, "要不要": true, "会不会": true, "能不能": true,
+	"吃了": true, "怎么治": true, "看什么": true, "什么科": true,
 }

@@ -49,3 +49,23 @@ func TestRetrieveMSD(t *testing.T) {
 		t.Logf("query %q -> %s (score=%.1f)", c.query, res[0].Entry.Title, res[0].Score)
 	}
 }
+
+func TestRetrieveMSDEveryday(t *testing.T) {
+	store, err := Load()
+	if err != nil {
+		t.Fatalf("Load: %v", err)
+	}
+	if store.GetMSDCount() == 0 {
+		t.Skip("msd_manual.json 未嵌入")
+	}
+	// 调试"便秘怎么办"
+	q := "便秘怎么办"
+	windows := cjkWindows(q, 2, 6)
+	t.Logf("query %q windows=%v", q, windows)
+	for _, e := range store.GetMSDEntries() {
+		if e.Title == "便秘" || e.Title == "欺凌" || e.Title == "成人便秘" {
+			s, ok := scoreMSD(&e, q, windows, nil)
+			t.Logf("「%s」(src=%s) score=%.1f ok=%v", e.Title, e.Source, s, ok)
+		}
+	}
+}

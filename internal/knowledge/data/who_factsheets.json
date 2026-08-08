@@ -321,12 +321,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "病毒载量检测"
@@ -978,12 +972,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "所有人"
-   }
-  },
   "diagnosis": {
    "lab_tests": [],
    "clinical_features": [],
@@ -1674,7 +1662,7 @@
   ],
   "prevalence": {
    "全球": {
-    "rate": 1.2,
+    "rate": 0.012,
     "population": "0至18岁儿童"
    }
   },
@@ -2285,12 +2273,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "酶联免疫吸附试验",
@@ -3536,7 +3518,7 @@
   ],
   "prevalence": {
    "全球": {
-    "rate": 27.8,
+    "rate": 0.278,
     "population": "全球人口"
    }
   },
@@ -4207,12 +4189,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "逆转录聚合酶链反应试验",
@@ -4978,12 +4954,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "逆转录聚合酶链反应",
@@ -6109,11 +6079,6 @@
    "华南",
    "全国"
   ],
-  "prevalence": {
-   "全国": {
-    "population": "旅行者及蚊媒活跃地区居民"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "逆转录聚合酶链反应检测病毒RNA",
@@ -6283,12 +6248,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "Asia": {
-    "rate": 0.0,
-    "population": "亚洲不同地区和澳大利亚"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "呼吸道样本、血液或脑脊液（脊椎穿刺）的实时聚合酶链反应（RT-PCR）",
@@ -6432,12 +6391,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球所有年龄和性别的人"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "血清学检测",
@@ -7736,12 +7689,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "西非": {
-    "rate": 0.0,
-    "population": "未指定"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "逆转录聚合酶链反应检测",
@@ -8681,12 +8628,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [],
    "clinical_features": [],
@@ -8750,12 +8691,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全国": {
-    "rate": 0.0,
-    "population": ""
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "氡浓度检测"
@@ -8902,12 +8837,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "血液汞水平检测",
@@ -9941,11 +9870,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "population": "15岁以下儿童占40%"
-   }
-  },
   "diagnosis": {
    "clinical_features": [
     "发烧",
@@ -10348,12 +10272,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [],
    "clinical_features": [],
@@ -10471,12 +10389,6 @@
    "华南边境",
    "全国"
   ],
-  "prevalence": {
-   "全国": {
-    "rate": 0.0,
-    "population": "2024年中国经WHO认证为无疟疾国家，本地传播已中断"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "显微镜检查血涂片",
@@ -11137,12 +11049,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "白喉毒素检测",
@@ -11217,12 +11123,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "血液磷水平检测",
@@ -11474,16 +11374,6 @@
    "华南",
    "全国"
   ],
-  "prevalence": {
-   "华南": {
-    "rate": 0.0,
-    "population": ""
-   },
-   "全国": {
-    "rate": 0.0,
-    "population": ""
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "真菌毒素检测"
@@ -11568,12 +11458,6 @@
    "华南",
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": null,
-    "population": ""
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "显微镜检查",
@@ -11740,7 +11624,7 @@
     "title": "石棉",
     "journal": "",
     "year": 2026,
-    "doi": "https://doi.org/10.1016/j.envint.2023.107980",
+    "doi": "10.1016/j.envint.2023.107980",
     "pmid": "",
     "level": "review",
     "url": "https://www.who.int/zh/news-room/fact-sheets/detail/asbestos"
@@ -11763,12 +11647,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "新生儿"
-   }
-  },
   "diagnosis": {
    "lab_tests": [],
    "clinical_features": [
@@ -11985,12 +11863,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [],
    "clinical_features": [],
@@ -12085,12 +11957,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "病毒检测",
@@ -12794,12 +12660,6 @@
    "华南",
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": ""
-   }
-  },
   "diagnosis": {
    "lab_tests": [],
    "clinical_features": [],
@@ -13176,12 +13036,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "粪便筛检法",
@@ -13412,12 +13266,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": ""
-   }
-  },
   "diagnosis": {
    "lab_tests": [],
    "clinical_features": [
@@ -13607,7 +13455,7 @@
   ],
   "prevalence": {
    "全球": {
-    "rate": 1.71,
+    "rate": 0.0171,
     "population": "全球人口"
    }
   },
@@ -14293,12 +14141,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "腰椎穿刺",
@@ -15182,12 +15024,6 @@
    "长江流域",
    "全国"
   ],
-  "prevalence": {
-   "全国": {
-    "rate": 0.0,
-    "population": "至少2.537亿人需要预防性治疗"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "粪便或尿液中检测寄生虫卵",
@@ -15347,12 +15183,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "逆转录聚合酶链反应试验",
@@ -15458,12 +15288,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "酶联免疫吸附试验（ELISA）",
@@ -15928,12 +15752,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "直接检查瘘管排出的颗粒",
@@ -16956,12 +16774,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球难民和移民人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [],
    "clinical_features": [
@@ -17212,12 +17024,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": ""
-   }
-  },
   "diagnosis": {
    "lab_tests": [],
    "clinical_features": [],
@@ -17553,11 +17359,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全国": {
-    "population": "全人群"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "粪便培养分离沙门氏菌"
@@ -18366,12 +18167,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "抗体捕获酶联免疫吸附试验（ELISA）",
@@ -19103,12 +18898,6 @@
   "regions": [
    "全国"
   ],
-  "prevalence": {
-   "全球": {
-    "rate": 0.0,
-    "population": "全球人口"
-   }
-  },
   "diagnosis": {
    "lab_tests": [
     "淋巴结炎的脓液、血液或痰液样本检测",

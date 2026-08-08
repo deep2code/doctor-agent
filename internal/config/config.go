@@ -9,11 +9,15 @@ import (
 // Config holds all application configuration loaded from environment variables.
 type Config struct {
 	// LLM Provider
-	LLMProvider     string // "anthropic" or "deepseek"
+	LLMProvider     string // "anthropic", "deepseek", or "openai-compat"
 	AnthropicAPIKey string
 	AnthropicModel  string
 	DeepSeekAPIKey  string
 	DeepSeekModel   string
+	// OpenAI-compatible endpoint (Zhipu/Qwen/SiliconFlow/...)
+	OpenAICompatBaseURL string
+	OpenAICompatAPIKey  string
+	OpenAICompatModel   string
 
 	MaxTokens       int
 	Temperature     float64
@@ -59,6 +63,10 @@ func Load() *Config {
 		DeepSeekAPIKey:  getEnv("DEEPSEEK_API_KEY", ""),
 		DeepSeekModel:   getEnv("DEEPSEEK_MODEL", "deepseek-v4-pro"),
 
+		OpenAICompatBaseURL: getEnv("OPENAI_COMPAT_BASE_URL", ""),
+		OpenAICompatAPIKey:  getEnv("OPENAI_COMPAT_API_KEY", ""),
+		OpenAICompatModel:   getEnv("OPENAI_COMPAT_MODEL", ""),
+
 		MaxTokens:       getEnvInt("MAX_TOKENS", 4096),
 		Temperature:     getEnvFloat("TEMPERATURE", 0.3),
 		MaxHistoryTurns: getEnvInt("MAX_HISTORY_TURNS", 20),
@@ -99,8 +107,12 @@ func (c *Config) Validate() error {
 		if c.DeepSeekAPIKey == "" {
 			return fmt.Errorf("DEEPSEEK_API_KEY is required when LLM_PROVIDER=deepseek")
 		}
+	case "openai-compat":
+		if c.OpenAICompatAPIKey == "" || c.OpenAICompatBaseURL == "" {
+			return fmt.Errorf("OPENAI_COMPAT_API_KEY and OPENAI_COMPAT_BASE_URL are required when LLM_PROVIDER=openai-compat")
+		}
 	default:
-		return fmt.Errorf("unknown LLM_PROVIDER: %s (must be 'anthropic' or 'deepseek')", c.LLMProvider)
+		return fmt.Errorf("unknown LLM_PROVIDER: %s (must be 'anthropic', 'deepseek' or 'openai-compat')", c.LLMProvider)
 	}
 
 	if c.VectorDBProvider == "qdrant" && c.EmbeddingProvider == "" {

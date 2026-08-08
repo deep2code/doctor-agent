@@ -1,0 +1,3908 @@
+[
+ {
+  "id": "who-hepatitis-b",
+  "condition_zh": "乙型肝炎",
+  "condition_en": "hepatitis-b",
+  "category": "infectious_disease",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.006,
+    "population": "5岁以下儿童"
+   },
+   "世卫组织非洲区域": {
+    "rate": 0.014,
+    "population": "5岁以下儿童"
+   },
+   "世卫组织东地中海区域": {
+    "rate": 0.005,
+    "population": "5岁以下儿童"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "血液检测"
+   ],
+   "clinical_features": [
+    "皮肤和眼睛发黄",
+    "尿色深",
+    "非常疲倦",
+    "恶心",
+    "呕吐",
+    "腹痛"
+   ],
+   "gold_standard": "实验室检测"
+  },
+  "treatment": [
+   {
+    "method": "替诺福韦",
+    "indication": "慢性乙肝",
+    "evidence_level": "review"
+   },
+   {
+    "method": "恩替卡韦",
+    "indication": "慢性乙肝",
+    "evidence_level": "review"
+   }
+  ],
+  "risk_factors": [
+   "母婴传播",
+   "不安全注射",
+   "共用针头",
+   "多个性伴侣",
+   "医务人员暴露"
+  ],
+  "complications": [
+   "肝硬化",
+   "肝细胞癌",
+   "肝功能衰竭"
+  ],
+  "prevention": [
+   "出生后24小时内接种疫苗",
+   "使用避孕套",
+   "避免共用针头",
+   "彻底洗手",
+   "接种乙肝疫苗"
+  ],
+  "differential_diagnosis": [
+   "其他病毒性肝炎"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "乙型肝炎",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/hepatitis-b"
+   }
+  ],
+  "keywords": [
+   "乙肝",
+   "肝炎",
+   "肝病",
+   "黄疸",
+   "肝硬化",
+   "肝癌",
+   "hepatitis B",
+   "HBV",
+   "liver disease",
+   "jaundice",
+   "乙肝疫苗",
+   "肝功能"
+  ]
+ },
+ {
+  "id": "who-typhoid",
+  "condition_zh": "伤寒",
+  "condition_en": "Typhoid fever",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "prevalence": {
+   "全国": {
+    "rate": 0.011,
+    "population": "全球每年约900万例病例，11万例死亡（2019年估计）"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "血液检查"
+   ],
+   "clinical_features": [
+    "长时间高烧",
+    "疲劳",
+    "头痛",
+    "恶心",
+    "腹痛",
+    "便秘或腹泻",
+    "皮疹"
+   ],
+   "gold_standard": "血液检查"
+  },
+  "treatment": [
+   {
+    "method": "抗生素治疗",
+    "indication": "确诊伤寒感染",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "副伤寒",
+   "其他细菌性肠炎",
+   "疟疾",
+   "登革热",
+   "伤寒样病毒感染"
+  ],
+  "risk_factors": [
+   "缺乏安全饮用水",
+   "卫生设施不足",
+   "儿童",
+   "居住在伤寒流行地区",
+   "抗生素耐药环境"
+  ],
+  "complications": [
+   "严重并发症",
+   "死亡",
+   "带菌状态（粪便持续排菌）"
+  ],
+  "prevention": [
+   "接种伤寒结合疫苗",
+   "保障安全饮用水",
+   "改善环境卫生设施",
+   "食品从业人员讲究卫生",
+   "旅行者接种疫苗",
+   "彻底洗手",
+   "食物充分加热",
+   "避免生奶及未消毒水制品"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "伤寒",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/typhoid"
+   }
+  ],
+  "keywords": [
+   "伤寒",
+   "高烧",
+   "腹痛",
+   "腹泻",
+   "便秘",
+   "皮疹",
+   "Typhoid fever",
+   "Salmonella typhi",
+   "持续发热",
+   "伤寒疫苗",
+   "肠热症"
+  ]
+ },
+ {
+  "id": "who-ringworm--tinea-",
+  "condition_zh": "体癣",
+  "condition_en": "ringworm (tinea)",
+  "category": "infectious_disease",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "prevalence": {
+   "全国": {
+    "rate": 0.5,
+    "population": "全球皮肤真菌感染病例中约一半"
+   },
+   "华南": {
+    "rate": 0.25,
+    "population": "10岁以下小学生"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "皮肤刮片镜检",
+    "真菌培养",
+    "分子诊断"
+   ],
+   "clinical_features": [
+    "环形皮疹、边缘凸起",
+    "瘙痒",
+    "发红",
+    "脱发（头癣）",
+    "指甲变厚变色（甲癣）",
+    "脚趾间脱皮灼烧感（足癣）"
+   ],
+   "gold_standard": "真菌培养"
+  },
+  "treatment": [
+   {
+    "method": "外用抗真菌药",
+    "indication": "大多数体癣、股癣、轻中度足癣和头癣",
+    "evidence_level": "review"
+   },
+   {
+    "method": "口服抗真菌药",
+    "indication": "严重或大面积感染、局部治疗无效、甲癣、脓癣",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "湿疹",
+   "银屑病",
+   "接触性皮炎",
+   "玫瑰糠疹",
+   "梅毒二期皮疹"
+  ],
+  "risk_factors": [
+   "与感染者或患病动物直接接触",
+   "共用毛巾衣物梳子等个人物品",
+   "温暖潮湿环境（如更衣室、游泳池）",
+   "运动员及产业工人",
+   "免疫功能低下",
+   "儿童（尤其学龄期）"
+  ],
+  "complications": [
+   "继发性细菌感染（如蜂窝组织炎）",
+   "脓癣",
+   "永久性脱发",
+   "指甲畸形影响行动能力",
+   "感染扩散至其他部位或他人"
+  ],
+  "prevention": [
+   "保持皮肤清洁干燥",
+   "避免接触感染者或患病动物",
+   "不共用个人物品",
+   "公共区域穿鞋",
+   "定期清洁消毒污染表面",
+   "宠物定期兽医检查"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "体癣",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/ringworm-(tinea)"
+   }
+  ],
+  "keywords": [
+   "脚气",
+   "灰指甲",
+   "头癣",
+   "股癣",
+   "脚癣",
+   "ringworm",
+   "tinea",
+   "皮癣",
+   "真菌感染",
+   "环形皮疹",
+   "皮肤癣",
+   "体癣",
+   "皮肤真菌",
+   "瘙痒"
+  ]
+ },
+ {
+  "id": "who-animal-bites",
+  "condition_zh": "动物咬伤",
+  "condition_en": "animal bites",
+  "category": "injury_prevention",
+  "regions": [
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.0005,
+    "population": "每年500万人被蛇咬伤"
+   }
+  },
+  "diagnosis": {
+   "clinical_features": [
+    "伤口感染",
+    "毒液过敏反应",
+    "呼吸困难",
+    "急性过敏反应"
+   ]
+  },
+  "treatment": [
+   {
+    "method": "抗蛇毒血清",
+    "indication": "毒蛇咬伤",
+    "evidence_level": "review"
+   },
+   {
+    "method": "狂犬病疫苗",
+    "indication": "狗咬伤",
+    "evidence_level": "review"
+   },
+   {
+    "method": "抗生素预防",
+    "indication": "高风险伤口",
+    "evidence_level": "review"
+   },
+   {
+    "method": "破伤风疫苗",
+    "indication": "未接种者",
+    "evidence_level": "review"
+   }
+  ],
+  "risk_factors": [
+   "儿童",
+   "农村地区",
+   "贫困地区",
+   "农民",
+   "旅行者",
+   "动物工作者"
+  ],
+  "complications": [
+   "狂犬病",
+   "残疾",
+   "死亡",
+   "细菌感染",
+   "毒液过敏"
+  ],
+  "prevention": [
+   "穿防护鞋",
+   "储藏区防啮齿动物",
+   "床铺高于地面",
+   "蚊帐下沿塞紧",
+   "避免接触野生动物",
+   "为家猫接种疫苗"
+  ],
+  "differential_diagnosis": [
+   "毒蛇咬伤",
+   "狂犬病暴露",
+   "细菌感染",
+   "过敏反应"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "动物咬伤",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/animal-bites"
+   }
+  ],
+  "keywords": [
+   "蛇咬伤",
+   "狗咬伤",
+   "狂犬病",
+   "动物咬伤",
+   "抗蛇毒血清",
+   "snake bite",
+   "dog bite",
+   "rabies",
+   "animal bite",
+   "antivenom",
+   "咬伤",
+   "抓伤",
+   "动物咬",
+   "伤口处理"
+  ]
+ },
+ {
+  "id": "who-chikungunya",
+  "condition_zh": "基孔肯雅热",
+  "condition_en": "Chikungunya",
+  "category": "infectious_disease",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "prevalence": {},
+  "diagnosis": {
+   "lab_tests": [
+    "逆转录聚合酶链反应（RT-PCR）检测急性期血液病毒RNA",
+    "血清学检测基孔肯雅病毒抗体（IgM/IgG）"
+   ],
+   "clinical_features": [
+    "突发高热",
+    "严重关节痛（常致弯腰体态）",
+    "关节肿胀",
+    "肌肉疼痛",
+    "头痛",
+    "恶心",
+    "疲劳",
+    "皮疹"
+   ],
+   "gold_standard": "逆转录聚合酶链反应（RT-PCR）"
+  },
+  "treatment": [
+   {
+    "method": "扑热息痛（对乙酰氨基酚）退热镇痛",
+    "indication": "缓解发热和关节痛",
+    "evidence_level": "review"
+   },
+   {
+    "method": "充分补液与休息",
+    "indication": "支持治疗",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "登革热",
+   "寨卡病毒感染",
+   "其他蚊媒病毒性关节炎"
+  ],
+  "risk_factors": [
+   "被埃及伊蚊或白纹伊蚊叮咬",
+   "居住或前往流行地区",
+   "婴幼儿及老年人",
+   "存在基础疾病"
+  ],
+  "complications": [
+   "眼部并发症",
+   "心脏并发症",
+   "神经系统并发症",
+   "新生儿重症",
+   "老年人重症"
+  ],
+  "prevention": [
+   "清除积水容器以消除蚊媒滋生地",
+   "使用含避蚊胺/IR3535/埃卡瑞丁的驱虫剂",
+   "安装纱窗纱门",
+   "白天穿着长袖衣物",
+   "药浸蚊帐用于日间防护",
+   "发病第一周避免被蚊叮咬以防传播"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "基孔肯雅热",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/chikungunya"
+   }
+  ],
+  "keywords": [
+   "关节痛",
+   "发烧",
+   "蚊子叮咬",
+   "登革热类似",
+   "chikungunya",
+   "基孔肯雅",
+   "白纹伊蚊",
+   "埃及伊蚊",
+   "RT-PCR检测",
+   "蚊媒",
+   "发烧关节痛"
+  ]
+ },
+ {
+  "id": "who-pre-eclampsia",
+  "condition_zh": "子痫前期",
+  "condition_en": "pre-eclampsia",
+  "category": "maternal_child_health",
+  "icd10": "O14",
+  "regions": [
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.03,
+    "population": "分娩女性"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "血压≥140/90 mm Hg",
+    "蛋白尿（≥0.3 g/24小时）"
+   ],
+   "clinical_features": [
+    "剧烈头痛",
+    "视觉障碍",
+    "上腹部疼痛",
+    "持续性高血压",
+    "蛋白尿",
+    "恶心和呕吐",
+    "手和脸肿胀"
+   ],
+   "gold_standard": "妊娠20周后高血压和蛋白尿"
+  },
+  "treatment": [
+   {
+    "method": "硫酸镁注射",
+    "indication": "预防子痫",
+    "evidence_level": "review"
+   },
+   {
+    "method": "抗高血压药物",
+    "indication": "控制血压",
+    "evidence_level": "review"
+   },
+   {
+    "method": "皮质类固醇",
+    "indication": "加速胎儿肺成熟",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "妊娠高血压",
+   "妊娠糖尿病",
+   "妊娠期肝内胆汁淤积症"
+  ],
+  "risk_factors": [
+   "首次怀孕",
+   "多胎妊娠",
+   "肥胖症",
+   "原有健康问题（如高血压、糖尿病或肾病）",
+   "先兆子痫家族史"
+  ],
+  "complications": [
+   "子痫",
+   "HELLP综合征",
+   "器官损伤",
+   "胎盘早剥",
+   "早产",
+   "胎儿生长受限",
+   "产妇和胎儿死亡"
+  ],
+  "prevention": [
+   "定期产前护理",
+   "监测血压和蛋白尿",
+   "生活方式调整",
+   "管理原有疾病",
+   "低剂量阿司匹林",
+   "孕期补钙",
+   "抗高血压药物治疗原有高血压"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "子痫前期",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/pre-eclampsia"
+   }
+  ],
+  "keywords": [
+   "子痫前期",
+   "pre-eclampsia",
+   "高血压",
+   "妊娠",
+   "硫酸镁",
+   "预防",
+   "怀孕高血压",
+   "孕期水肿",
+   "子痫"
+  ]
+ },
+ {
+  "id": "who-sporotrichosis",
+  "condition_zh": "孢子丝菌病",
+  "condition_en": "sporotrichosis",
+  "category": "infectious_disease",
+  "icd10": "",
+  "regions": [
+   "华南,全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.0025,
+    "population": "10万人"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "显微镜检查",
+    "组织病理学",
+    "培养"
+   ],
+   "clinical_features": [
+    "结节和斑块",
+    "溃疡",
+    "皮肤淋巴管型",
+    "多形性红斑",
+    "关节炎",
+    "呼吸道感染",
+    "脑膜炎"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "口服伊曲康唑",
+    "indication": "皮肤孢子丝菌病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "口服特比萘芬",
+    "indication": "皮肤孢子丝菌病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "口服碘化钾饱和溶液",
+    "indication": "皮肤孢子丝菌病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "静脉输注两性霉素B",
+    "indication": "罕见的全身性孢子丝菌病",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "皮肤利什曼病"
+  ],
+  "risk_factors": [
+   "从事农业或工作中涉及植物或植物材料",
+   "休闲户外活动中皮肤擦伤",
+   "与家猫或野猫接触"
+  ],
+  "complications": [
+   "关节炎",
+   "呼吸道感染",
+   "脑膜炎"
+  ],
+  "prevention": [
+   "及早识别和治疗受感染猫只",
+   "处理玫瑰、干草和泥炭藓时使用手套、防护服和鞋子"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "孢子丝菌病",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/sporotrichosis"
+   }
+  ],
+  "keywords": [
+   "孢子丝菌病",
+   "孢子丝菌",
+   "真菌感染",
+   "皮肤感染",
+   "热带病",
+   "sporotrichosis",
+   "fungal infection",
+   "skin infection",
+   "tropical disease",
+   "皮肤溃烂",
+   "园艺",
+   "玫瑰花刺"
+  ]
+ },
+ {
+  "id": "who-zika-virus",
+  "condition_zh": "寨卡病毒病",
+  "condition_en": "Zika virus disease",
+  "category": "infectious_disease",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [
+    "逆转录聚合酶链反应检测病毒RNA",
+    "IgM抗体检测（需排除黄病毒交叉反应）"
+   ],
+   "clinical_features": [
+    "皮疹",
+    "发烧",
+    "结膜炎",
+    "肌肉和关节疼痛",
+    "不适",
+    "头痛"
+   ],
+   "gold_standard": "RT-PCR检测病毒RNA"
+  },
+  "treatment": [
+   {
+    "method": "对症支持治疗",
+    "indication": "有皮疹、发烧或关节疼痛等症状者",
+    "evidence_level": "review"
+   },
+   {
+    "method": "按登革热标准管理",
+    "indication": "无法排除登革热时",
+    "evidence_level": "review"
+   },
+   {
+    "method": "避免使用非甾体抗炎药",
+    "indication": "登革热未排除前",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "登革热",
+   "基孔肯雅热",
+   "其他虫媒病毒感染",
+   "非虫媒病毒性发热性疾病"
+  ],
+  "risk_factors": [
+   "居住或访问伊蚊活跃地区",
+   "妊娠期感染",
+   "无保护性行为接触感染者",
+   "实验室暴露",
+   "输血或器官移植"
+  ],
+  "complications": [
+   "小头畸形",
+   "先天性寨卡综合征（含肢体挛缩、高肌张力、眼异常、听力损失）",
+   "流产",
+   "死产",
+   "早产",
+   "吉兰—巴雷综合征",
+   "神经病变",
+   "脊髓炎"
+  ],
+  "prevention": [
+   "白天防蚊叮咬（穿长袖浅色衣、驱蚊剂）",
+   "使用纱窗/蚊帐",
+   "清除家庭积水容器",
+   "社区灭蚊环境治理",
+   "安全性行为（尤其孕妇及疫区返回者）",
+   "孕期间全程使用避孕套或禁欲"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "寨卡病毒病",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/zika-virus"
+   }
+  ],
+  "keywords": [
+   "寨卡",
+   "小头症",
+   "伊蚊叮咬",
+   "怀孕感染",
+   "吉兰巴雷",
+   "Zika",
+   "Zika virus",
+   "microcephaly",
+   "Guillain-Barré syndrome",
+   "congenital Zika syndrome",
+   "孕妇发热"
+  ]
+ },
+ {
+  "id": "who-campylobacter",
+  "condition_zh": "弯曲杆菌感染",
+  "condition_en": "Campylobacter infection",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "prevalence": {
+   "全国": {
+    "rate": 0.1,
+    "population": "总人口"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "粪便培养分离弯曲杆菌",
+    "PCR检测弯曲杆菌DNA"
+   ],
+   "clinical_features": [
+    "腹泻（常带血）",
+    "腹痛",
+    "发热",
+    "头痛",
+    "恶心或呕吐",
+    "病程3–6天"
+   ],
+   "gold_standard": "粪便培养"
+  },
+  "treatment": [
+   {
+    "method": "补液及电解质补充",
+    "indication": "所有病例",
+    "evidence_level": "review"
+   },
+   {
+    "method": "抗微生物药物治疗",
+    "indication": "侵袭性病例或需消除带菌状态",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "沙门氏菌感染",
+   "志贺氏菌感染",
+   "产毒性大肠杆菌感染",
+   "阿米巴痢疾",
+   "病毒性胃肠炎"
+  ],
+  "risk_factors": [
+   "食用未煮熟家禽",
+   "饮用未经巴氏消毒的奶",
+   "接触受污染水或冰",
+   "接触感染动物（如家禽、猫狗）",
+   "卫生条件差"
+  ],
+  "complications": [
+   "菌血症",
+   "反应性关节炎",
+   "吉兰—巴雷综合征",
+   "肝炎",
+   "胰腺炎",
+   "流产"
+  ],
+  "prevention": [
+   "彻底加热食物（烹煮/杀菌）",
+   "避免生饮未消毒奶",
+   "使用安全饮用水制冰",
+   "饭前便后及接触动物后洗手",
+   "生熟分开",
+   "水果蔬菜彻底清洗或去皮",
+   "加强家禽养殖生物安全"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "弯曲杆菌感染",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/campylobacter"
+   }
+  ],
+  "keywords": [
+   "弯曲杆菌腹泻",
+   "空肠弯曲菌",
+   "带血腹泻",
+   "食源性腹泻",
+   "吉兰巴雷综合征",
+   "Campylobacter",
+   "Campylobacteriosis",
+   "reactive arthritis",
+   "GBS",
+   "foodborne illness",
+   "腹泻",
+   "鸡鸭肉",
+   "食物中毒"
+  ]
+ },
+ {
+  "id": "who-candidiasis--yeast-infection-",
+  "condition_zh": "念珠菌病",
+  "condition_en": "Candidiasis",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [
+    "真菌培养",
+    "显微镜检查（如KOH涂片）",
+    "血培养（侵袭性感染）"
+   ],
+   "clinical_features": [
+    "口腔白色凝乳状斑块（鹅口疮）",
+    "外阴阴道剧烈瘙痒、白色凝乳状分泌物",
+    "排尿痛、性交痛",
+    "嘴角开裂发红",
+    "吞咽困难",
+    "皮肤潮湿部位红斑糜烂"
+   ],
+   "gold_standard": "真菌培养阳性"
+  },
+  "treatment": [
+   {
+    "method": "局部抗真菌药物（如克霉唑乳膏/栓剂）",
+    "indication": "外阴阴道念珠菌病、轻中度鹅口疮",
+    "evidence_level": "review"
+   },
+   {
+    "method": "口服抗真菌药物（如氟康唑）",
+    "indication": "复发性或重度外阴阴道念珠菌病、鹅口疮、侵袭性念珠菌病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "静脉注射抗真菌药物",
+    "indication": "侵袭性念珠菌病（如血流感染）",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "细菌性阴道病",
+   "滴虫性阴道炎",
+   "接触性皮炎",
+   "疱疹病毒感染",
+   "口腔扁平苔藓",
+   "白塞病"
+  ],
+  "risk_factors": [
+   "免疫功能低下（如HIV感染、癌症治疗）",
+   "长期使用抗生素",
+   "使用类固醇吸入剂",
+   "佩戴假牙",
+   "未控制的糖尿病",
+   "妊娠或激素波动",
+   "静脉导管等侵入性操作"
+  ],
+  "complications": [
+   "侵袭性念珠菌病（血流感染、器官播散）",
+   "食管念珠菌病致吞咽困难",
+   "新生儿播散性感染",
+   "耳念珠菌医院暴发"
+  ],
+  "prevention": [
+   "保持口腔卫生与正确清洁假牙",
+   "控制血糖",
+   "避免不必要的抗生素使用",
+   "穿棉质内衣、避免阴道冲洗",
+   "定期清洁潮湿环境及健身设备",
+   "规范使用类固醇吸入剂"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "念珠菌病（酵母菌感染）",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/candidiasis-(yeast-infection)"
+   }
+  ],
+  "keywords": [
+   "酵母菌感染",
+   "鹅口疮",
+   "阴道瘙痒",
+   "白色分泌物",
+   "口腔白斑",
+   "Candidiasis",
+   "Thrush",
+   "VVC",
+   "Candida infection",
+   "念珠菌",
+   "真菌感染"
+  ]
+ },
+ {
+  "id": "who-hepatitis-e",
+  "condition_zh": "戊型肝炎",
+  "condition_en": "Hepatitis E",
+  "category": "infectious_disease",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.026,
+    "population": "全球人口"
+   },
+   "孕妇（第三孕期）": {
+    "rate": 0.225,
+    "population": "感染戊肝病毒的孕妇"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "检测血清抗HEV IgM抗体",
+    "RT-PCR检测血液或粪便中HEV RNA",
+    "血清ALT、AST和胆红素升高"
+   ],
+   "clinical_features": [
+    "潜伏期2–10周，平均5–6周",
+    "低热、厌食、恶心、呕吐",
+    "腹痛、瘙痒、皮疹或关节痛",
+    "黄疸、尿色深、大便色浅",
+    "肝肿大伴压痛"
+   ],
+   "gold_standard": "血清抗HEV IgM阳性"
+  },
+  "treatment": [
+   {
+    "method": "支持治疗",
+    "indication": "急性戊肝",
+    "evidence_level": "review"
+   },
+   {
+    "method": "住院治疗",
+    "indication": "暴发性肝炎或有症状孕妇",
+    "evidence_level": "review"
+   },
+   {
+    "method": "避免使用肝毒性药物",
+    "indication": "所有戊肝患者",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "甲型肝炎",
+   "乙型肝炎",
+   "丙型肝炎",
+   "丁型肝炎",
+   "钩端螺旋体病",
+   "登革热",
+   "黄热病",
+   "疟疾"
+  ],
+  "risk_factors": [
+   "饮用被粪便污染的水",
+   "居住在环境卫生条件差地区",
+   "食用未煮熟的肉类（尤其基因3/4型）",
+   "孕妇（尤其第二、三孕期）",
+   "免疫抑制状态（如器官移植后）"
+  ],
+  "complications": [
+   "暴发性肝炎（急性肝衰竭）",
+   "孕妇流产",
+   "孕妇死亡（第三孕期高达20–25%）",
+   "慢性戊肝（罕见，见于免疫抑制者）"
+  ],
+  "prevention": [
+   "保障安全饮用水供应",
+   "完善粪便处理系统",
+   "保持良好个人卫生",
+   "避免饮用来源不明的水和冰",
+   "接种HEV 239疫苗（Hecolin®）"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "戊型肝炎",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/hepatitis-e"
+   }
+  ],
+  "keywords": [
+   "戊肝",
+   "HEV",
+   "黄疸",
+   "肝炎",
+   "拉肚子发烧",
+   "孕妇肝炎",
+   "水源性肝炎",
+   "戊型肝炎病毒",
+   "Hepatitis E",
+   "HEV infection",
+   "孕妇黄疸",
+   "吃生食"
+  ]
+ },
+ {
+  "id": "who-japanese-encephalitis",
+  "condition_zh": "日本脑炎",
+  "condition_en": "Japanese encephalitis",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "prevalence": {
+   "全国": {
+    "rate": 0.0001,
+    "population": "亚洲流行国家人群"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "脑脊液或血清JEV特异性IgM抗体ELISA检测",
+    "腰椎穿刺"
+   ],
+   "clinical_features": [
+    "高烧、头痛、颈部僵硬",
+    "定向障碍、昏迷、抽搐",
+    "痉挛性瘫痪",
+    "儿童可有胃肠疼痛和呕吐"
+   ],
+   "gold_standard": "脑脊液JEV IgM ELISA检测"
+  },
+  "treatment": [
+   {
+    "method": "支持性治疗",
+    "indication": "严重临床疾病（如脑炎）",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "登革热",
+   "寨卡病毒病",
+   "西尼罗河病毒感染",
+   "黄热病",
+   "其他病毒性脑炎"
+  ],
+  "risk_factors": [
+   "居住或前往亚洲流行地区",
+   "农村或城郊环境",
+   "接触家猪或水鸟",
+   "雨季及水稻种植区活动",
+   "未接种疫苗"
+  ],
+  "complications": [
+   "病死率高达30%",
+   "永久性神经后遗症",
+   "认知或行为障碍",
+   "听力或视力丧失",
+   "言语语言记忆障碍",
+   "四肢无力"
+  ],
+  "prevention": [
+   "接种WHO预认证JE疫苗",
+   "避免蚊虫叮咬（驱蚊剂、长袖衣物等）",
+   "流行地区纳入国家免疫规划",
+   "旅行前对长期停留者接种疫苗"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "日本脑炎",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/japanese-encephalitis"
+   }
+  ],
+  "keywords": [
+   "日本脑炎",
+   "JE",
+   "蚊子传播脑炎",
+   "三带喙库蚊",
+   "病毒性脑炎",
+   "JEV",
+   "儿童脑炎",
+   "IgM检测",
+   "JE疫苗",
+   "乙脑",
+   "乙脑疫苗",
+   "脑炎"
+  ]
+ },
+ {
+  "id": "who-preterm-birth",
+  "condition_zh": "早产",
+  "condition_en": "preterm birth",
+  "category": "maternal_child_health",
+  "icd10": "O34",
+  "regions": [
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.134,
+    "population": "新生儿总数"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "超声检查"
+   ],
+   "clinical_features": [
+    "宫缩",
+    "出血",
+    "胎膜早破"
+   ],
+   "gold_standard": "无"
+  },
+  "treatment": [
+   {
+    "method": "产前类固醇",
+    "indication": "延迟分娩",
+    "evidence_level": "review"
+   },
+   {
+    "method": "宫缩抑制剂治疗",
+    "indication": "延迟分娩",
+    "evidence_level": "review"
+   },
+   {
+    "method": "抗生素",
+    "indication": "早产胎膜早破",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "过期妊娠",
+   "胎儿发育异常",
+   "胎盘问题"
+  ],
+  "risk_factors": [
+   "多胎妊娠",
+   "感染",
+   "慢性病",
+   "遗传因素"
+  ],
+  "complications": [
+   "呼吸问题",
+   "感染",
+   "视力问题",
+   "听力问题",
+   "学习障碍"
+  ],
+  "prevention": [
+   "产前保健",
+   "健康饮食",
+   "营养咨询",
+   "烟草和物质使用咨询",
+   "早期超声检查",
+   "定期产检"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "早产",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/preterm-birth"
+   }
+  ],
+  "keywords": [
+   "早产",
+   "preterm birth",
+   "宫缩",
+   "胎膜早破",
+   "产前保健",
+   "早产儿",
+   "呼吸问题",
+   "感染",
+   "学习障碍",
+   "提前生",
+   "保胎"
+  ]
+ },
+ {
+  "id": "who-listeriosis",
+  "condition_zh": "李斯特菌病",
+  "condition_en": "Listeriosis",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 1e-05,
+    "population": "一般人群"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "血液培养",
+    "脑脊液培养",
+    "胎盘或新生儿胎粪培养",
+    "聚合酶链反应（PCR）检测"
+   ],
+   "clinical_features": [
+    "发热",
+    "肌痛",
+    "腹泻（非侵袭型）",
+    "败血症",
+    "脑膜炎",
+    "孕妇流产或死胎",
+    "新生儿低出生体重、败血症、脑膜炎"
+   ],
+   "gold_standard": "血液或脑脊液中分离出单核细胞增多性利斯特菌"
+  },
+  "treatment": [
+   {
+    "method": "抗生素治疗",
+    "indication": "严重感染（如脑膜炎、败血症）、孕期感染以预防胎儿/新生儿感染",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "其他细菌性脑膜炎（如肺炎链球菌、脑膜炎奈瑟菌）",
+   "病毒性肠胃炎",
+   "沙门菌病",
+   "弯曲菌病",
+   "败血症（其他病原体所致）"
+  ],
+  "risk_factors": [
+   "妊娠",
+   "年龄≥65岁",
+   "HIV/AIDS",
+   "白血病",
+   "癌症",
+   "器官移植",
+   "长期类固醇治疗",
+   "免疫功能低下"
+  ],
+  "complications": [
+   "流产",
+   "死胎",
+   "新生儿败血症",
+   "新生儿脑膜炎",
+   "脑膜炎",
+   "败血症",
+   "死亡（20%–30%）"
+  ],
+  "prevention": [
+   "完全煮熟食物",
+   "避免食用未经高温消毒的牛奶及制品",
+   "避免食用即食熟肉、软奶酪、冷熏鱼",
+   "生熟分开",
+   "保持清洁",
+   "在安全温度下储存食物",
+   "遵守食品标签保质期与储存温度"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "李斯特菌病",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/listeriosis"
+   }
+  ],
+  "keywords": [
+   "李斯特菌",
+   "listeria",
+   "孕妇发烧腹泻",
+   "新生儿脑膜炎",
+   "吃冷熏鱼发烧",
+   "软奶酪中毒",
+   "冰箱里长细菌",
+   "食源性败血症",
+   "孕妇发热",
+   "冰箱食物"
+  ]
+ },
+ {
+  "id": "who-hantavirus",
+  "condition_zh": "汉坦病毒感染",
+  "condition_en": "Hantavirus infection",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "prevalence": {
+   "全国": {
+    "rate": 0.0001,
+    "population": "全球每年约1万–10万例，东亚（含中国、韩国）负担较重，每年数千例"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "血清学检测汉坦病毒特异性IgM抗体",
+    "急性期IgG滴度升高",
+    "RT-PCR检测病毒RNA"
+   ],
+   "clinical_features": [
+    "发热、头痛、肌肉疼痛",
+    "腹痛、恶心或呕吐",
+    "咳嗽、呼吸急促、肺部积液（心肺综合征）",
+    "低血压、出血、肾衰竭（肾综合征出血热）"
+   ],
+   "gold_standard": "血清学IgM抗体阳性或RT-PCR检出病毒RNA"
+  },
+  "treatment": [
+   {
+    "method": "早期支持性医疗护理",
+    "indication": "所有汉坦病毒感染患者",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "流感",
+   "COVID-19",
+   "病毒性肺炎",
+   "钩端螺旋体病",
+   "登革热",
+   "败血症"
+  ],
+  "risk_factors": [
+   "接触受感染啮齿动物尿液、粪便或唾液",
+   "被啮齿动物咬伤",
+   "清洁封闭/通风不良空间",
+   "农业或林业工作",
+   "在啮齿动物出没住所睡觉"
+  ],
+  "complications": [
+   "急性呼吸窘迫",
+   "休克",
+   "肾衰竭",
+   "出血性疾病",
+   "多器官功能障碍"
+  ],
+  "prevention": [
+   "保持家庭和工作场所清洁",
+   "密封建筑物裂口防鼠进入",
+   "安全储存食物",
+   "湿润后清洁鼠类污染区域",
+   "避免干扫或吸尘鼠粪",
+   "加强手卫生",
+   "标准感染预防措施"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "汉坦病毒感染",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/hantavirus"
+   }
+  ],
+  "keywords": [
+   "老鼠病毒",
+   "出血热",
+   "心肺综合征",
+   "肾综合征出血热",
+   "HFRS",
+   "HPS",
+   "汉坦病毒",
+   "啮齿动物传播",
+   "发热出血",
+   "病毒性肺水肿",
+   "老鼠",
+   "鼠类接触"
+  ]
+ },
+ {
+  "id": "who-drowning",
+  "condition_zh": "溺水",
+  "condition_en": "drowning",
+  "category": "injury_prevention",
+  "icd10": "",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.3,
+    "population": "全球人口"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [],
+   "clinical_features": [],
+   "gold_standard": ""
+  },
+  "risk_factors": [
+   "年龄",
+   "性别",
+   "贫穷和不平等",
+   "职业接触",
+   "气候相关风险",
+   "水路旅行",
+   "移徙和寻求庇护"
+  ],
+  "prevention": [
+   "控制水危害的发生途径",
+   "社区监督照护",
+   "传授游泳和水上安全技能",
+   "有效的政策和法律规定",
+   "制定国家水上安全战略",
+   "加强预防措施",
+   "结合其他公共卫生议程"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "溺水",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/drowning"
+   }
+  ],
+  "keywords": [
+   "溺水",
+   "drowning",
+   "儿童",
+   "青年",
+   "风险因素",
+   "预防",
+   "全球健康问题",
+   "可持续发展",
+   "小孩玩水",
+   "游泳安全",
+   "掉水里",
+   "落水",
+   "玩水",
+   "游泳"
+  ]
+ },
+ {
+  "id": "who-rabies",
+  "condition_zh": "狂犬病",
+  "condition_en": "rabies",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "diagnosis": {
+   "clinical_features": [
+    "发烧",
+    "伤口处异常感觉",
+    "多动",
+    "行为激动",
+    "幻觉",
+    "缺乏协调性",
+    "恐水症",
+    "恐气症",
+    "肌肉逐渐瘫痪"
+   ],
+   "gold_standard": "死后检测受感染组织"
+  },
+  "treatment": [
+   {
+    "method": "暴露后预防",
+    "indication": "被可能感染狂犬病的动物咬伤或抓伤",
+    "evidence_level": "review"
+   },
+   {
+    "method": "彻底清洗伤口",
+    "indication": "暴露后立即",
+    "evidence_level": "review"
+   },
+   {
+    "method": "接种狂犬病疫苗",
+    "indication": "II类和III类暴露",
+    "evidence_level": "review"
+   },
+   {
+    "method": "注射狂犬病免疫球蛋白",
+    "indication": "III类暴露",
+    "evidence_level": "review"
+   }
+  ],
+  "risk_factors": [
+   "犬类咬伤或抓伤",
+   "15岁以下儿童",
+   "边缘人群",
+   "高风险职业",
+   "偏远地区生活"
+  ],
+  "complications": [
+   "进行性脑和脊髓炎症",
+   "神经功能缺损",
+   "心肺停止"
+  ],
+  "prevention": [
+   "犬类疫苗接种",
+   "预防咬伤教育",
+   "暴露前预防用药",
+   "暴露后预防措施"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "狂犬病",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/rabies"
+   }
+  ],
+  "keywords": [
+   "狂犬病",
+   "恐水症",
+   "恐气症",
+   "犬咬伤",
+   "rabies",
+   "狂犬疫苗",
+   "暴露后预防",
+   "神经炎症",
+   "动物传染病",
+   "人畜共患病",
+   "狗咬伤",
+   "被狗咬",
+   "咬伤",
+   "犬伤",
+   "狗抓伤",
+   "打狂犬疫苗"
+  ]
+ },
+ {
+  "id": "who-mpox",
+  "condition_zh": "猴痘",
+  "condition_en": "mpox",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 1e-05,
+    "population": "120多个国家报告实验室确诊病例超10万例"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "聚合酶链反应（PCR）检测病毒DNA",
+    "从皮疹处取样（皮肤、液体或结痂）",
+    "咽部或肛门拭子（无皮肤病变时）"
+   ],
+   "clinical_features": [
+    "皮疹（始于面部，可扩散至手掌、脚底、生殖器等）",
+    "发热",
+    "头痛",
+    "肌痛",
+    "背痛",
+    "乏力",
+    "淋巴结肿大",
+    "咽痛",
+    "直肠疼痛肿胀（直肠炎）",
+    "排尿疼痛困难（排尿困难）",
+    "吞咽疼痛困难"
+   ],
+   "gold_standard": "PCR检测病毒DNA"
+  },
+  "treatment": [
+   {
+    "method": "支持性护理",
+    "indication": "缓解疼痛、发热、营养支持、补水、皮肤护理、预防继发感染",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "水痘",
+   "麻疹",
+   "细菌性皮肤感染",
+   "疥疮",
+   "疱疹",
+   "梅毒",
+   "其他性传播感染",
+   "药物相关过敏"
+  ],
+  "risk_factors": [
+   "与猴痘患者密切皮肤接触",
+   "有多个性伴侣",
+   "接触受污染物品（衣物、床单）",
+   "医疗针刺伤",
+   "接触感染动物",
+   "孕妇",
+   "儿童",
+   "免疫系统较弱者",
+   "未控制的艾滋病毒感染者"
+  ],
+  "complications": [
+   "皮肤细菌感染（脓肿、严重皮肤损伤）",
+   "肺炎",
+   "角膜感染伴视力丧失",
+   "脱水或营养不良",
+   "脓毒症",
+   "脑炎",
+   "心肌炎",
+   "直肠炎",
+   "龟头炎",
+   "尿道炎"
+  ],
+  "prevention": [
+   "接种猴痘疫苗（暴露前/后预防）",
+   "避免与患者密切接触",
+   "佩戴口罩并遮盖病变处",
+   "勤洗手",
+   "消毒共用物品",
+   "性行为中使用避孕套（部分防护）",
+   "隔离至皮疹完全愈合结痂脱落",
+   "卫生工作者使用PPE"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "猴痘",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/mpox"
+   }
+  ],
+  "keywords": [
+   "猴痘",
+   "mpox",
+   "皮疹",
+   "淋巴结肿大",
+   "发热",
+   "性传播",
+   "正痘病毒",
+   "猴痘病毒",
+   "痘病毒",
+   "皮疹痒痛",
+   "发热皮疹"
+  ]
+ },
+ {
+  "id": "who-hepatitis-a",
+  "condition_zh": "甲型肝炎",
+  "condition_en": "Hepatitis A",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.026,
+    "population": "病毒性肝炎死亡人群"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "检测血清甲型肝炎病毒特异性IgM抗体",
+    "逆转录酶聚合酶链反应（RT-PCR）检测HAV RNA"
+   ],
+   "clinical_features": [
+    "潜伏期14–28天",
+    "发热、不适、食欲不振、腹泻、恶心、腹部不适、深色尿、黄疸",
+    "儿童常无症状，成人症状更明显",
+    "可复发性急性发作"
+   ],
+   "gold_standard": "血清抗-HAV IgM抗体检测"
+  },
+  "treatment": [
+   {
+    "method": "支持性治疗",
+    "indication": "缓解症状、维持水分和营养",
+    "evidence_level": "review"
+   },
+   {
+    "method": "住院治疗",
+    "indication": "重症或急性肝功能衰竭",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "乙型肝炎",
+   "丙型肝炎",
+   "戊型肝炎",
+   "药物性肝损伤",
+   "酒精性肝炎"
+  ],
+  "risk_factors": [
+   "缺乏安全用水",
+   "环境卫生条件差",
+   "不良个人卫生（如手脏）",
+   "与感染者共同生活",
+   "口-肛性行为",
+   "注射吸毒",
+   "未接种疫苗赴高流行区旅行"
+  ],
+  "complications": [
+   "暴发性肝炎（急性肝衰竭）",
+   "复发性急性肝炎"
+  ],
+  "prevention": [
+   "接种甲型肝炎疫苗",
+   "保障安全饮用水",
+   "妥善处理污水",
+   "饭前便后洗手",
+   "安全性行为（如使用避孕套、口交保护膜）"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "甲型肝炎",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/hepatitis-a"
+   }
+  ],
+  "keywords": [
+   "甲肝",
+   "肝炎",
+   "黄疸",
+   "拉肚子",
+   "发烧",
+   "Hepatitis A",
+   "HAV",
+   "食物中毒样症状",
+   "粪口传播",
+   "吃生食"
+  ]
+ },
+ {
+  "id": "who-malaria",
+  "condition_zh": "疟疾",
+  "condition_en": "Malaria",
+  "category": "infectious_disease",
+  "regions": [
+   "华南边境",
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [
+    "显微镜检查血涂片",
+    "快速诊断检测（RDT）"
+   ],
+   "clinical_features": [
+    "发热、头痛、寒战",
+    "极度疲劳和倦怠",
+    "意识障碍",
+    "多次抽搐",
+    "呼吸困难",
+    "尿色深或带血",
+    "黄疸",
+    "异常出血"
+   ],
+   "gold_standard": "显微镜检查血涂片"
+  },
+  "treatment": [
+   {
+    "method": "青蒿素为基础的联合治疗（ACT）",
+    "indication": "恶性疟原虫感染",
+    "evidence_level": "review"
+   },
+   {
+    "method": "氯喹",
+    "indication": "间日疟原虫感染（仅在敏感地区）",
+    "evidence_level": "review"
+   },
+   {
+    "method": "伯氨喹",
+    "indication": "防止间日疟原虫和卵形疟原虫复发",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "登革热",
+   "伤寒",
+   "流感",
+   "钩端螺旋体病",
+   "病毒性肝炎"
+  ],
+  "risk_factors": [
+   "被受感染按蚊叮咬",
+   "前往疟疾流行区",
+   "五岁以下儿童",
+   "孕妇",
+   "旅行者",
+   "艾滋病毒感染者",
+   "使用受污染针头或输血"
+  ],
+  "complications": [
+   "严重贫血",
+   "脑型疟疾",
+   "急性肾损伤",
+   "肺水肿",
+   "低血糖",
+   "妊娠期早产",
+   "低出生体重"
+  ],
+  "prevention": [
+   "使用药浸蚊帐",
+   "室内滞留喷洒",
+   "黄昏后使用含避蚊胺/驱蚊酯/埃卡瑞丁驱蚊剂",
+   "穿长袖防护服装",
+   "安装纱窗",
+   "化学预防用药",
+   "RTS,S/AS01疫苗",
+   "R21/Matrix-M疫苗"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "疟疾",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/malaria"
+   }
+  ],
+  "keywords": [
+   "打摆子",
+   "发冷发热",
+   "疟原虫",
+   "蚊子叮咬发烧",
+   "恶性疟",
+   "malaria",
+   "Plasmodium falciparum",
+   "Plasmodium vivax",
+   "fever with chills",
+   "intermittent fever",
+   "疟疾",
+   "发热寒战"
+  ]
+ },
+ {
+  "id": "who-scabies",
+  "condition_zh": "疥疮",
+  "condition_en": "scabies",
+  "category": "infectious_disease",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "prevalence": {
+   "资源匮乏地区儿童": {
+    "rate": 0.5,
+    "population": "儿童"
+   }
+  },
+  "diagnosis": {
+   "clinical_features": [
+    "严重瘙痒（夜间加重）",
+    "手指蹼、手腕、腰带部位线性洞穴和丘疹",
+    "男性阴茎/阴囊、女性乳房凸起结节",
+    "婴幼儿手掌、脚底、头皮广泛皮疹"
+   ],
+   "gold_standard": "皮肤刮片显微镜检出疥螨、卵或粪便"
+  },
+  "treatment": [
+   {
+    "method": "5%氯菊酯乳膏全身涂抹",
+    "indication": "普通疥疮一线治疗",
+    "evidence_level": "review"
+   },
+   {
+    "method": "口服伊维菌素",
+    "indication": "结痂疥疮或外用治疗失败",
+    "evidence_level": "review"
+   },
+   {
+    "method": "0.5%马拉硫磷水溶液",
+    "indication": "氯菊酯禁忌或耐药时替代方案",
+    "evidence_level": "review"
+   },
+   {
+    "method": "10%–25%苯甲酸苄酯乳液",
+    "indication": "资源有限地区替代方案",
+    "evidence_level": "review"
+   },
+   {
+    "method": "5%–10%硫磺软膏",
+    "indication": "婴幼儿、孕妇等特殊人群",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "湿疹",
+   "接触性皮炎",
+   "虱病",
+   "荨麻疹",
+   "银屑病"
+  ],
+  "risk_factors": [
+   "密切皮肤接触",
+   "人口密集居住",
+   "卫生条件差",
+   "免疫抑制（如HIV）",
+   "儿童与老年人"
+  ],
+  "complications": [
+   "脓疱病（皮肤溃疡）",
+   "败血症",
+   "急性链球菌感染后肾小球肾炎",
+   "风湿热",
+   "风湿性心脏病"
+  ],
+  "prevention": [
+   "家庭成员同步治疗",
+   "热水洗涤并暴晒衣物床单",
+   "无法清洗物品密封7天",
+   "避免与感染者皮肤接触",
+   "结痂疥疮患者环境彻底清洁"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "疥疮",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/scabies"
+   }
+  ],
+  "keywords": [
+   "疥虫",
+   "皮肤瘙痒",
+   "疥疮结节",
+   "挪威疥疮",
+   "scabies",
+   "mite infection",
+   "burrow rash",
+   "crusted scabies",
+   "身上痒",
+   "夜间瘙痒"
+  ]
+ },
+ {
+  "id": "who-dengue-and-severe-dengue",
+  "condition_zh": "登革热",
+  "condition_en": "dengue",
+  "category": "infectious_disease",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.39,
+    "population": "热带和亚热带气候地区居民"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "核酸扩增试验",
+    "酶联免疫吸附试验",
+    "快速诊断检测",
+    "病毒分离",
+    "抗原检测"
+   ],
+   "clinical_features": [
+    "高烧",
+    "剧烈头痛",
+    "眼球后疼痛",
+    "肌肉和关节痛",
+    "恶心",
+    "呕吐",
+    "腺体肿胀",
+    "皮疹",
+    "严重腹痛",
+    "持续呕吐",
+    "呼吸急促",
+    "牙龈或鼻出血",
+    "呕血或便血"
+   ]
+  },
+  "treatment": [
+   {
+    "method": "疼痛管理",
+    "indication": "症状缓解",
+    "evidence_level": "review"
+   },
+   {
+    "method": "住院治疗",
+    "indication": "重症登革热",
+    "evidence_level": "review"
+   }
+  ],
+  "risk_factors": [
+   "以前感染过登革热",
+   "快速无序城市化",
+   "储水行为不当",
+   "缺乏防蚊措施",
+   "气候变化"
+  ],
+  "complications": [
+   "重症登革热",
+   "死亡",
+   "早产",
+   "低出生体重",
+   "胎儿窘迫"
+  ],
+  "prevention": [
+   "穿遮盖身体的衣服",
+   "使用驱虫蚊帐",
+   "使用纱窗",
+   "使用驱蚊剂",
+   "清除蚊虫滋生地",
+   "储水容器加盖",
+   "接种疫苗"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "登革热",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+   }
+  ],
+  "keywords": [
+   "断骨热",
+   "登革热病毒",
+   "DENV",
+   "蚊媒传染病",
+   "热带病",
+   "dengue fever",
+   "breakbone fever",
+   "dengue virus",
+   "mosquito-borne",
+   "tropical disease",
+   "登革热",
+   "蚊子咬",
+   "发烧出疹"
+  ]
+ },
+ {
+  "id": "who-mycotoxins",
+  "condition_zh": "真菌毒素",
+  "condition_en": "Mycotoxins",
+  "category": "environmental_health",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [
+    "真菌毒素检测"
+   ],
+   "clinical_features": [
+    "肝脏损伤",
+    "肾脏损伤",
+    "免疫系统中毒",
+    "恶心",
+    "胃肠道紊乱",
+    "呕吐",
+    "不育症",
+    "食管癌"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "药物治疗",
+    "indication": "真菌毒素中毒",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "其他毒素中毒",
+   "肝脏疾病",
+   "肾脏疾病",
+   "免疫系统疾病"
+  ],
+  "risk_factors": [
+   "食物储存不当",
+   "食物污染",
+   "饲料污染",
+   "长期食用受污染食品"
+  ],
+  "complications": [
+   "肝脏损伤",
+   "肾脏损伤",
+   "免疫系统中毒",
+   "不育症",
+   "食管癌",
+   "癌症"
+  ],
+  "prevention": [
+   "检查食物是否有霉菌",
+   "避免食物受损",
+   "购买新鲜谷物和坚果",
+   "确保食物存放得当",
+   "及时食用食物",
+   "饮食多样化"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "真菌毒素",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/mycotoxins"
+   }
+  ],
+  "keywords": [
+   "真菌毒素",
+   "霉菌",
+   "黄曲霉毒素",
+   "赭曲霉毒素A",
+   "棒曲霉素",
+   "镰刀菌毒素",
+   "食物中毒",
+   "食品安全",
+   "黄曲霉",
+   "发霉食物",
+   "发霉"
+  ]
+ },
+ {
+  "id": "who-chromoblastomycosis",
+  "condition_zh": "着色芽生菌病",
+  "condition_en": "chromoblastomycosis",
+  "category": "infectious_disease",
+  "icd10": "",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [
+    "显微镜检查",
+    "培养物"
+   ],
+   "clinical_features": [
+    "疣样损伤",
+    "肢体肿胀",
+    "皮肤斑块",
+    "疼痛",
+    "发痒",
+    "继发性细菌感染",
+    "皮肤癌风险"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "口服伊曲康唑",
+    "indication": "治疗着色芽生菌病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "特比萘芬",
+    "indication": "治疗着色芽生菌病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "伏立康唑",
+    "indication": "治疗着色芽生菌病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "注射用两性霉素B",
+    "indication": "治疗着色芽生菌病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "口服氟胞嘧啶",
+    "indication": "治疗着色芽生菌病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "局部温热",
+    "indication": "治疗着色芽生菌病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "冷冻疗法",
+    "indication": "治疗着色芽生菌病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "光动力疗法",
+    "indication": "治疗着色芽生菌病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "手术切除",
+    "indication": "治疗着色芽生菌病",
+    "evidence_level": "review"
+   }
+  ],
+  "risk_factors": [
+   "农业工人",
+   "皮肤表面擦伤",
+   "穿透性损伤"
+  ],
+  "complications": [
+   "肢体肿胀",
+   "残疾",
+   "皮肤癌",
+   "继发性细菌感染",
+   "社会排斥",
+   "淋巴水肿"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "着色芽生菌病",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/chromoblastomycosis"
+   }
+  ],
+  "keywords": [
+   "着色芽生菌病",
+   "chromoblastomycosis",
+   "真菌感染",
+   "皮肤感染",
+   "热带病",
+   "亚热带病",
+   "裴氏着色霉",
+   "莫诺弗着色霉",
+   "卡氏枝孢瓶霉",
+   "皮肤结节",
+   "皮肤病变"
+  ]
+ },
+ {
+  "id": "who-tetanus",
+  "condition_zh": "破伤风",
+  "condition_en": "Tetanus",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [],
+   "clinical_features": [
+    "下颌痉挛或无法张口",
+    "背部/腹部/四肢肌肉痉挛",
+    "突发性疼痛性肌肉痉挛（声响诱发）",
+    "吞咽困难",
+    "惊厥",
+    "头痛",
+    "发热和出汗",
+    "血压变化或心率加快",
+    "新生儿无法吸吮或吃母乳",
+    "新生儿过度哭闹"
+   ],
+   "gold_standard": "临床诊断，无需实验室确认"
+  },
+  "treatment": [
+   {
+    "method": "住院治疗",
+    "indication": "破伤风医疗紧急情况",
+    "evidence_level": "review"
+   },
+   {
+    "method": "人类破伤风免疫球蛋白",
+    "indication": "立即给药",
+    "evidence_level": "review"
+   },
+   {
+    "method": "积极伤口护理",
+    "indication": "控制感染源",
+    "evidence_level": "review"
+   },
+   {
+    "method": "抗痉挛药物",
+    "indication": "控制肌肉痉挛",
+    "evidence_level": "review"
+   },
+   {
+    "method": "抗生素",
+    "indication": "辅助治疗",
+    "evidence_level": "review"
+   },
+   {
+    "method": "破伤风疫苗接种",
+    "indication": "康复后预防再感染",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "狂犬病",
+   "癫痫",
+   "低钙血症",
+   "脑膜炎",
+   "士的宁中毒"
+  ],
+  "risk_factors": [
+   "未充分接种含破伤风类毒素疫苗",
+   "不洁接生",
+   "脐带处理污染",
+   "使用未灭菌器械剪切脐带",
+   "手部不洁人员接生",
+   "在污染表面分娩",
+   "包皮环切术（青春期及成年男性）"
+  ],
+  "complications": [
+   "呼吸肌痉挛导致窒息",
+   "骨折",
+   "横纹肌溶解",
+   "自主神经功能障碍",
+   "肺炎",
+   "多器官衰竭"
+  ],
+  "prevention": [
+   "接种含破伤风类毒素疫苗",
+   "育龄妇女产前或非孕期接种",
+   "清洁接生",
+   "规范脐带护理",
+   "外科/牙科手术中正确伤口处理",
+   "六剂全程免疫（3剂基础+3剂加强）"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "破伤风",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/tetanus"
+   }
+  ],
+  "keywords": [
+   "破伤风",
+   "锁 jaw",
+   "牙关紧闭",
+   "肌肉痉挛",
+   "新生儿破伤风",
+   "tetanus",
+   "tetanus vaccine",
+   "破伤风梭菌",
+   "孕产妇破伤风",
+   "伤口感染",
+   "破伤风针",
+   "破伤风疫苗"
+  ]
+ },
+ {
+  "id": "who-diabetes",
+  "condition_zh": "糖尿病",
+  "condition_en": "diabetes",
+  "category": "chronic_disease",
+  "icd10": "E10",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.139,
+    "population": "18岁及以上成年人"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "血糖测试"
+   ],
+   "clinical_features": [
+    "感觉渴",
+    "频繁排尿",
+    "视力模糊",
+    "疲倦",
+    "无意中减肥"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "保持健康的生活方式",
+    "indication": "治疗糖尿病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "服用药物",
+    "indication": "控制血糖水平",
+    "evidence_level": "review"
+   },
+   {
+    "method": "注射胰岛素",
+    "indication": "1型糖尿病患者",
+    "evidence_level": "review"
+   },
+   {
+    "method": "足部护理",
+    "indication": "治疗溃疡",
+    "evidence_level": "review"
+   },
+   {
+    "method": "筛查和治疗肾脏疾病",
+    "indication": "降低并发症风险",
+    "evidence_level": "review"
+   },
+   {
+    "method": "筛查和治疗视网膜病",
+    "indication": "降低并发症风险",
+    "evidence_level": "review"
+   }
+  ],
+  "risk_factors": [
+   "超重",
+   "运动不足",
+   "遗传"
+  ],
+  "complications": [
+   "失明",
+   "肾衰竭",
+   "心脏病发作",
+   "中风",
+   "下肢截肢"
+  ],
+  "prevention": [
+   "达到并保持健康的体重",
+   "保持身体活动",
+   "保证健康饮食",
+   "不抽烟"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "糖尿病",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/diabetes"
+   }
+  ],
+  "keywords": [
+   "糖尿病",
+   "高血糖",
+   "胰岛素",
+   "2型糖尿病",
+   "1型糖尿病",
+   "妊娠期糖尿病",
+   "IGT",
+   "IFG",
+   "血糖高",
+   "多饮多尿"
+  ]
+ },
+ {
+  "id": "who-ultraviolet-radiation",
+  "condition_zh": "紫外线辐射",
+  "condition_en": "Ultraviolet Radiation",
+  "category": "environmental_health",
+  "icd10": "",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [],
+   "clinical_features": [],
+   "gold_standard": ""
+  },
+  "risk_factors": [
+   "过度暴露于紫外线辐射",
+   "皮肤白皙",
+   "儿童和青少年",
+   "多痣",
+   "服用光敏药物",
+   "皮肤癌家族史",
+   "职业暴露"
+  ],
+  "complications": [
+   "皮肤癌",
+   "白内障",
+   "翼状胬肉",
+   "眼睛内和眼睛周围的癌症",
+   "老年黄斑变性"
+  ],
+  "prevention": [
+   "限制正午暴晒时间",
+   "寻找阴凉处",
+   "穿防晒服装",
+   "戴宽边帽",
+   "戴环绕式太阳眼镜",
+   "使用广谱防晒霜",
+   "避免使用人工晒黑装置"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "紫外线辐射",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/ultraviolet-radiation"
+   }
+  ],
+  "keywords": [
+   "紫外线",
+   "皮肤癌",
+   "白内障",
+   "防晒",
+   "维生素D",
+   "紫外线辐射",
+   "太阳",
+   "日光浴床",
+   "儿童",
+   "晒伤"
+  ]
+ },
+ {
+  "id": "who-tuberculosis",
+  "condition_zh": "结核病",
+  "condition_en": "Tuberculosis",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "prevalence": {
+   "全国": {
+    "rate": 0.013,
+    "population": "全球估计1070万人罹患，中国占6.5%"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "快速分子检测",
+    "细菌培养",
+    "结核菌素皮肤试验(TST)",
+    "干扰素γ释放试验(IGRA)",
+    "基于抗原的皮肤试验(TBST)"
+   ],
+   "clinical_features": [
+    "长期咳嗽（有时带血）",
+    "胸痛",
+    "虚弱无力",
+    "疲劳",
+    "体重减轻",
+    "发热",
+    "盗汗"
+   ],
+   "gold_standard": "细菌学确认（培养或分子检测）"
+  },
+  "treatment": [
+   {
+    "method": "标准四联抗生素治疗（利福平、异烟肼、吡嗪酰胺、乙胺丁醇）",
+    "indication": "初治活动性结核病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "6个月短程全口服方案（BPaLM/BPaL）",
+    "indication": "耐多药或利福平耐药结核病",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "肺炎",
+   "肺癌",
+   "肺真菌病",
+   "非结核分枝杆菌感染",
+   "慢性支气管炎"
+  ],
+  "risk_factors": [
+   "艾滋病毒感染",
+   "糖尿病",
+   "营养不良",
+   "烟草使用",
+   "有害使用酒精",
+   "免疫系统减弱"
+  ],
+  "complications": [
+   "耐多药结核病",
+   "广泛耐药结核病",
+   "结核性脑膜炎",
+   "脊柱结核",
+   "肾结核"
+  ],
+  "prevention": [
+   "卡介苗接种（婴幼儿）",
+   "预防性抗结核治疗",
+   "早期诊断与规范治疗",
+   "咳嗽礼仪与通风",
+   "高风险人群定期检测"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "结核病",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/tuberculosis"
+   }
+  ],
+  "keywords": [
+   "肺结核",
+   "TB",
+   "咳嗽带血",
+   "长期咳嗽",
+   "盗汗",
+   "结核感染",
+   "耐药结核",
+   "卡介苗",
+   "结核预防",
+   "结核治疗",
+   "咳嗽咳痰",
+   "咳血"
+  ]
+ },
+ {
+  "id": "who-snakebite-envenoming",
+  "condition_zh": "蛇咬伤",
+  "condition_en": "snakebite-envenoming",
+  "category": "injury_prevention",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.00054,
+    "population": "农业工人和儿童"
+   },
+   "亚洲": {
+    "rate": 0.0002,
+    "population": "农村居民"
+   },
+   "非洲": {
+    "rate": 0.000435,
+    "population": "农村居民"
+   }
+  },
+  "diagnosis": {
+   "clinical_features": [
+    "呼吸瘫痪",
+    "出血性疾病",
+    "肾衰竭",
+    "组织损坏"
+   ]
+  },
+  "treatment": [
+   {
+    "method": "抗蛇毒血清",
+    "indication": "毒蛇咬伤",
+    "evidence_level": "review"
+   }
+  ],
+  "risk_factors": [
+   "农业工作",
+   "农村居住",
+   "儿童",
+   "低收入国家"
+  ],
+  "complications": [
+   "永久残疾",
+   "截肢",
+   "死亡"
+  ],
+  "prevention": [
+   "普及抗蛇毒血清",
+   "卫生系统加强",
+   "社区教育"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "蛇咬伤",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/snakebite-envenoming"
+   }
+  ],
+  "keywords": [
+   "毒蛇咬伤",
+   "蛇毒中毒",
+   "抗蛇毒血清",
+   "snakebite",
+   "envenoming",
+   "蛇咬截肢",
+   "农村蛇咬",
+   "蛇咬急救",
+   "被蛇咬",
+   "蛇咬伤",
+   "蛇毒"
+  ]
+ },
+ {
+  "id": "who-schistosomiasis",
+  "condition_zh": "血吸虫病",
+  "condition_en": "schistosomiasis",
+  "category": "infectious_disease",
+  "regions": [
+   "长江流域",
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [
+    "粪便或尿液中检测寄生虫卵",
+    "尿液过滤法检测埃及血吸虫卵",
+    "Kato-Katz法粪检",
+    "循环阴极抗原检测（CCA）",
+    "血清学/免疫学检测抗体或抗原",
+    "化学试剂条检测尿潜血"
+   ],
+   "clinical_features": [
+    "腹痛、腹泻、便血",
+    "血尿",
+    "肝肿大、脾肿大、腹腔积水",
+    "肾脏损伤、膀胱/输尿管纤维化",
+    "女性生殖器损伤、阴道出血、性交疼痛",
+    "男性射精疼痛、血精",
+    "儿童贫血、发育迟缓、学习能力下降"
+   ],
+   "gold_standard": "粪便或尿液标本中检出寄生虫卵"
+  },
+  "treatment": [
+   {
+    "method": "吡喹酮治疗",
+    "indication": "所有类型血吸虫病感染",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "细菌性痢疾",
+   "阿米巴痢疾",
+   "结肠癌",
+   "慢性肾炎",
+   "膀胱癌",
+   "泌尿系结石",
+   "妇科炎症"
+  ],
+  "risk_factors": [
+   "接触疫水（农业、家务、游泳、垂钓）",
+   "缺乏安全饮用水和环卫设施",
+   "儿童不良卫生习惯",
+   "妇女洗衣等家务接触疫水",
+   "生态旅游赴疫区",
+   "人口流动与城市化"
+  ],
+  "complications": [
+   "肝硬化与门脉高压",
+   "脾肿大",
+   "膀胱癌",
+   "肾衰竭",
+   "女性生殖器血吸虫病（外阴结节、异位妊娠）",
+   "男性生殖器病变（精囊/前列腺损伤）",
+   "不育症",
+   "儿童发育迟缓"
+  ],
+  "prevention": [
+   "大规模吡喹酮预防性化疗",
+   "提供安全饮用水",
+   "改善环境卫生",
+   "健康教育与行为干预",
+   "螺类控制（同一健康方法）",
+   "阻断人畜共患传播"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "血吸虫病",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/schistosomiasis"
+   }
+  ],
+  "keywords": [
+   "血吸虫",
+   "钉螺",
+   "便血",
+   "血尿",
+   "肝脾肿大",
+   "schistosomiasis",
+   "bilharzia",
+   "urinary schistosomiasis",
+   "intestinal schistosomiasis",
+   "下水田"
+  ]
+ },
+ {
+  "id": "who-anaemia",
+  "condition_zh": "贫血",
+  "condition_en": "anaemia",
+  "category": "haematology",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.4,
+    "population": "6至59月龄儿童"
+   },
+   "全球孕妇": {
+    "rate": 0.37,
+    "population": "15至49岁孕妇"
+   },
+   "全球妇女": {
+    "rate": 0.3,
+    "population": "15至49岁妇女"
+   }
+  },
+  "diagnosis": {
+   "clinical_features": [
+    "疲劳",
+    "体力下降",
+    "呼吸短促",
+    "头晕或眩晕",
+    "手脚冰凉",
+    "头痛",
+    "粘膜苍白",
+    "皮肤和指甲下苍白",
+    "呼吸急促和心率快",
+    "站立时头晕",
+    "更容易出现瘀伤"
+   ]
+  },
+  "treatment": [
+   {
+    "method": "改变饮食",
+    "indication": "富含铁、叶酸、维生素B12、维生素A的食物",
+    "evidence_level": "review"
+   },
+   {
+    "method": "补充剂",
+    "indication": "卫生保健提供者建议",
+    "evidence_level": "review"
+   },
+   {
+    "method": "预防和治疗疟疾",
+    "indication": "疟疾地区",
+    "evidence_level": "review"
+   },
+   {
+    "method": "预防和治疗寄生虫感染",
+    "indication": "寄生虫感染",
+    "evidence_level": "review"
+   },
+   {
+    "method": "管理慢性疾病",
+    "indication": "肥胖和消化系统问题",
+    "evidence_level": "review"
+   },
+   {
+    "method": "节育措施",
+    "indication": "防止意外怀孕",
+    "evidence_level": "review"
+   },
+   {
+    "method": "治疗经期大量出血",
+    "indication": "经血量大",
+    "evidence_level": "review"
+   },
+   {
+    "method": "延迟脐带钳夹",
+    "indication": "分娩后",
+    "evidence_level": "review"
+   },
+   {
+    "method": "治疗遗传性红血球疾病",
+    "indication": "镰状细胞病和地中海贫血",
+    "evidence_level": "review"
+   }
+  ],
+  "risk_factors": [
+   "膳食中缺铁",
+   "地中海贫血",
+   "镰状细胞性状",
+   "疟疾",
+   "营养不良",
+   "感染",
+   "慢性病",
+   "月经量大",
+   "怀孕问题",
+   "家族史"
+  ],
+  "complications": [
+   "儿童认知和运动发育不良",
+   "孕妇和胎儿问题",
+   "学习成绩影响",
+   "成年生活生产力下降",
+   "早产",
+   "低出生体重",
+   "孕产妇死亡"
+  ],
+  "prevention": [
+   "健康和多样化饮食",
+   "富含铁的食物",
+   "富含维生素C的食物",
+   "避免减慢铁吸收的食物",
+   "用肥皂和水洗手",
+   "使用清洁的卫生间",
+   "预防疟疾",
+   "及时治疗疟疾"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "贫血",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/anaemia"
+   }
+  ],
+  "keywords": [
+   "贫血",
+   "缺铁",
+   "疲劳",
+   "头晕",
+   "呼吸短促",
+   "anaemia",
+   "iron deficiency",
+   "fatigue",
+   "dizziness",
+   "shortness of breath",
+   "头晕乏力",
+   "血红蛋白低",
+   "脸色苍白"
+  ]
+ },
+ {
+  "id": "who-sickle-cell-disease",
+  "condition_zh": "镰状细胞病",
+  "condition_en": "sickle-cell disease",
+  "category": "haematology",
+  "icd10": "D62.0",
+  "regions": [
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.774,
+    "population": "全球人口"
+   },
+   "撒哈拉以南非洲": {
+    "rate": 0.8,
+    "population": "撒哈拉以南非洲人口"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "血液检测",
+    "血红蛋白电泳检测"
+   ],
+   "clinical_features": [
+    "疼痛发作",
+    "贫血",
+    "肿胀",
+    "频繁感染",
+    "发育迟缓",
+    "视力问题"
+   ],
+   "gold_standard": "血液检测"
+  },
+  "treatment": [
+   {
+    "method": "疾病治疗药物",
+    "indication": "治疗镰状细胞病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "疫苗接种",
+    "indication": "预防感染",
+    "evidence_level": "review"
+   },
+   {
+    "method": "羟基脲",
+    "indication": "减少疼痛危象频率和输血需求",
+    "evidence_level": "review"
+   },
+   {
+    "method": "疼痛管理",
+    "indication": "缓解疼痛",
+    "evidence_level": "review"
+   },
+   {
+    "method": "输血",
+    "indication": "治疗严重贫血并预防中风",
+    "evidence_level": "review"
+   },
+   {
+    "method": "骨髓移植",
+    "indication": "治愈某些患者",
+    "evidence_level": "review"
+   },
+   {
+    "method": "基因疗法",
+    "indication": "矫正基因突变",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "贫血",
+   "感染",
+   "神经系统疾病"
+  ],
+  "risk_factors": [
+   "遗传",
+   "HBB基因突变"
+  ],
+  "complications": [
+   "急性疼痛危象",
+   "贫血",
+   "中风",
+   "感染",
+   "肾衰竭",
+   "妊娠相关风险",
+   "早期死亡",
+   "严重感染",
+   "急性胸部综合征",
+   "器官损伤",
+   "下肢溃疡",
+   "阴茎异常勃起",
+   "妊娠并发症"
+  ],
+  "prevention": [
+   "常规疫苗接种",
+   "补充叶酸",
+   "健康生活方式",
+   "教育与支持"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "镰状细胞病",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/sickle-cell-disease"
+   }
+  ],
+  "keywords": [
+   "镰状细胞贫血",
+   "sickle-cell anemia",
+   "血红蛋白S",
+   "HBB基因突变",
+   "疼痛危象",
+   "贫血",
+   "感染",
+   "中风",
+   "肾衰竭",
+   "妊娠并发症",
+   "镰状细胞",
+   "血红蛋白"
+  ]
+ },
+ {
+  "id": "who-cholera",
+  "condition_zh": "霍乱",
+  "condition_en": "Cholera",
+  "category": "infectious_disease",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.00017,
+    "population": "全球人口"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "粪便培养",
+    "血清凝集试验",
+    "聚合酶链反应（PCR）"
+   ],
+   "clinical_features": [
+    "急性水样腹泻",
+    "严重脱水",
+    "无症状或轻症感染"
+   ],
+   "gold_standard": "粪便培养"
+  },
+  "treatment": [
+   {
+    "method": "口服补液治疗",
+    "indication": "大多数轻中度病例",
+    "evidence_level": "review"
+   },
+   {
+    "method": "静脉输液",
+    "indication": "严重脱水或休克患者",
+    "evidence_level": "review"
+   },
+   {
+    "method": "抗生素治疗",
+    "indication": "重症患者",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "其他细菌性腹泻（如产毒性大肠杆菌）",
+   "病毒性胃肠炎",
+   "阿米巴痢疾",
+   "伤寒"
+  ],
+  "risk_factors": [
+   "饮用受污染水源",
+   "缺乏基本环境卫生设施",
+   "不良个人卫生习惯",
+   "冲突或流离失所",
+   "洪水或干旱等气候灾害"
+  ],
+  "complications": [
+   "严重脱水",
+   "低血容量性休克",
+   "肾衰竭",
+   "电解质紊乱"
+  ],
+  "prevention": [
+   "提供安全饮用水",
+   "改善环境卫生和个人卫生",
+   "口服霍乱疫苗接种",
+   "社区风险沟通与参与",
+   "加强疫情监测"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "霍乱",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/cholera"
+   }
+  ],
+  "keywords": [
+   "拉水",
+   "剧烈腹泻",
+   "霍乱弧菌",
+   "脱水",
+   "水样便",
+   "cholera",
+   "Vibrio cholerae",
+   "oral rehydration",
+   "拉肚子",
+   "急性腹泻"
+  ]
+ },
+ {
+  "id": "who-salmonella--non-typhoidal-",
+  "condition_zh": "非伤寒沙门氏菌感染",
+  "condition_en": "Salmonella (non-typhoidal)",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [
+    "粪便培养分离沙门氏菌"
+   ],
+   "clinical_features": [
+    "急性发热",
+    "腹部疼痛",
+    "腹泻",
+    "恶心",
+    "呕吐"
+   ],
+   "gold_standard": "粪便培养"
+  },
+  "treatment": [
+   {
+    "method": "补液和电解质补充",
+    "indication": "重症脱水患者",
+    "evidence_level": "review"
+   },
+   {
+    "method": "抗微生物药物治疗",
+    "indication": "婴儿、老人、免疫低下者或肠外播散感染者",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "其他细菌性胃肠炎（如弯曲杆菌、志贺菌）",
+   "病毒性胃肠炎",
+   "产毒性大肠杆菌感染",
+   "食物中毒（如金黄色葡萄球菌）"
+  ],
+  "risk_factors": [
+   "食用未煮熟蛋、肉、禽、奶制品",
+   "接触感染动物（尤其龟、鸟、猫狗）",
+   "婴幼儿与老年人",
+   "免疫力低下",
+   "饮用未消毒奶或污染水"
+  ],
+  "complications": [
+   "严重脱水",
+   "肠外播散（如败血症、脑膜炎）",
+   "反应性关节炎"
+  ],
+  "prevention": [
+   "彻底煮熟动物源食品",
+   "避免饮用未消毒奶",
+   "安全饮水（煮沸或消毒）",
+   "接触动物后及如厕后用肥皂洗手",
+   "生熟分开，清洗果蔬",
+   "婴幼儿避免接触爬行动物宠物"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "非伤寒沙门氏菌感染",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/salmonella-(non-typhoidal)"
+   }
+  ],
+  "keywords": [
+   "拉肚子",
+   "食物中毒",
+   "发烧肚子痛",
+   "沙门氏菌",
+   "胃肠炎",
+   "Salmonella",
+   "non-typhoidal salmonella",
+   "腹泻发热",
+   "鸡蛋"
+  ]
+ },
+ {
+  "id": "who-rheumatic-heart-disease",
+  "condition_zh": "风湿性心脏病",
+  "condition_en": "Rheumatic Heart Disease",
+  "category": "chronic_disease",
+  "icd10": "I05",
+  "regions": [
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.55,
+    "population": "全球人口"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "抗链球菌抗体检测",
+    "心电图",
+    "超声心动图"
+   ],
+   "clinical_features": [
+    "发热",
+    "关节疼痛",
+    "心脏杂音",
+    "胸痛或不适",
+    "呼吸急促",
+    "腹部、手或脚肿胀",
+    "疲劳",
+    "心跳加快或心律不齐"
+   ],
+   "gold_standard": "超声心动图"
+  },
+  "treatment": [
+   {
+    "method": "心脏瓣膜手术",
+    "indication": "严重瓣膜损伤",
+    "evidence_level": "review"
+   },
+   {
+    "method": "药物治疗",
+    "indication": "心力衰竭或心律失常症状",
+    "evidence_level": "review"
+   },
+   {
+    "method": "血液稀释剂",
+    "indication": "降低血栓风险",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "先天性心脏病",
+   "瓣膜钙化",
+   "感染性心内膜炎"
+  ],
+  "risk_factors": [
+   "链球菌感染",
+   "贫困",
+   "医疗服务受限",
+   "拥挤和恶劣的生活条件",
+   "孕妇"
+  ],
+  "complications": [
+   "心力衰竭",
+   "心律失常",
+   "血栓",
+   "感染性心内膜炎",
+   "瓣膜狭窄或关闭不全"
+  ],
+  "prevention": [
+   "预防链球菌感染",
+   "使用抗生素治疗链球菌性咽喉炎",
+   "长期使用抗生素治疗",
+   "提高生活水平",
+   "扩大筛查和适当护理",
+   "确保抗生素供应",
+   "制定防控计划",
+   "投资于苄星青霉素G的供应"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "风湿性心脏病",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/rheumatic-heart-disease"
+   }
+  ],
+  "keywords": [
+   "风湿性心脏病",
+   "风湿热",
+   "心脏瓣膜损伤",
+   "链球菌感染",
+   "心力衰竭",
+   "心律失常",
+   "预防",
+   "治疗",
+   "WHA71.14",
+   "苄星青霉素G",
+   "心脏病",
+   "链球菌"
+  ]
+ },
+ {
+  "id": "who-foodborne-trematode-infections",
+  "condition_zh": "食源性吸虫感染",
+  "condition_en": "Foodborne trematode infections",
+  "category": "infectious_disease",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "prevalence": {
+   "老挝人民民主共和国高流行村庄": {
+    "rate": 0.8,
+    "population": "部分高流行村庄居民"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "粪便虫卵镜检（改良加藤涂片）",
+    "痰液涂片镜检（并殖吸虫病）",
+    "血清特异性抗体检测",
+    "血清或粪便抗原检测",
+    "PCR分子检测（实验阶段）"
+   ],
+   "clinical_features": [
+    "急性期：发热、右上腹痛、肝肿大、皮疹、腹痛",
+    "慢性期：胆管炎、胆管纤维化、胆管癌、黄疸、贫血、胰腺炎、胆结石",
+    "肺型：慢性咳嗽、血痰、胸痛、呼吸困难、胸腔积液",
+    "脑型：头痛、视力受损、癫痫、脑出血"
+   ],
+   "gold_standard": "粪便/痰液虫卵镜检 + 风险暴露史 + 影像学典型表现"
+  },
+  "treatment": [
+   {
+    "method": "吡喹酮",
+    "indication": "支睾吸虫病、后睾吸虫病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "三氯苯达唑",
+    "indication": "片形吸虫病、并殖吸虫病",
+    "evidence_level": "review"
+   },
+   {
+    "method": "吡喹酮",
+    "indication": "并殖吸虫病（替代方案）",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "结核病",
+   "病毒性肝炎",
+   "胆囊炎",
+   "胆石症",
+   "肺癌",
+   "脑肿瘤",
+   "其他寄生虫感染（如蛔虫、钩虫）"
+  ],
+  "risk_factors": [
+   "生食淡水鱼",
+   "生食淡水甲壳动物（蟹、小龙虾）",
+   "生食受污染水生蔬菜",
+   "饮食文化偏好生食",
+   "环境卫生与食品卫生差",
+   "安全饮用水受限",
+   "家庭/社区食物共享习惯"
+  ],
+  "complications": [
+   "胆管癌（华支睾吸虫、麝猫后睾吸虫）",
+   "肝硬化",
+   "胰腺炎",
+   "胆结石",
+   "胸腔积液",
+   "气胸",
+   "脑出血",
+   "癫痫"
+  ],
+  "prevention": [
+   "避免生食淡水鱼、甲壳动物和水生蔬菜",
+   "加强食品安全教育",
+   "改善供水与环境卫生（WASH）",
+   "兽医公共卫生干预",
+   "一体化卫生（One Health）综合防控",
+   "社区诊断与预防性化疗"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "食源性吸虫感染",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/foodborne-trematode-infections"
+   }
+  ],
+  "keywords": [
+   "肝吸虫",
+   "肺吸虫",
+   "片形吸虫",
+   "生鱼片感染",
+   "吃螃蟹得病",
+   "Clonorchis",
+   "Paragonimus",
+   "Fasciola",
+   "胆管癌原因",
+   "寄生虫病",
+   "生鱼片",
+   "吃鱼生",
+   "生吃淡水鱼"
+  ]
+ },
+ {
+  "id": "who-natural-toxins-in-food",
+  "condition_zh": "食物中的天然毒素",
+  "condition_en": "Natural Toxins in Food",
+  "category": "environmental_health",
+  "icd10": "",
+  "regions": [
+   "全国"
+  ],
+  "prevalence": {},
+  "diagnosis": {
+   "lab_tests": [],
+   "clinical_features": [],
+   "gold_standard": ""
+  },
+  "risk_factors": [
+   "食用受污染的食物",
+   "食用含有毒素的植物或微生物",
+   "食用受霉菌污染的食物"
+  ],
+  "complications": [
+   "急性中毒",
+   "慢性中毒",
+   "癌症",
+   "免疫缺陷"
+  ],
+  "prevention": [
+   "避免食用受污染的食物",
+   "避免食用发霉的食物",
+   "避免食用味道或气味异常的食物",
+   "避免食用未经确认无毒的野生蘑菇或植物"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "食物中的天然毒素",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/natural-toxins-in-food"
+   }
+  ],
+  "keywords": [
+   "食物毒素",
+   "天然毒素",
+   "食品安全",
+   "中毒",
+   "霉菌",
+   "氰苷",
+   "野蘑菇",
+   "农药",
+   "毒蘑菇",
+   "河豚",
+   "食物中毒",
+   "吃野生蘑菇"
+  ]
+ },
+ {
+  "id": "who-climate-change-heat-and-health",
+  "condition_zh": "高温与健康",
+  "condition_en": "Heat and Health",
+  "category": "environmental_health",
+  "icd10": "",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.489,
+    "population": "全球人口"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [],
+   "clinical_features": [
+    "中暑",
+    "慢性疾病加剧",
+    "事故风险增加",
+    "传染病传播风险增加"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "公共卫生和多部门政策与干预措施",
+    "indication": "预防高温对健康的负面影响",
+    "evidence_level": "review"
+   }
+  ],
+  "risk_factors": [
+   "年龄",
+   "健康状况",
+   "职业和社会经济条件",
+   "住房质量",
+   "制冷设施",
+   "性别"
+  ],
+  "complications": [
+   "慢性疾病加剧",
+   "急性肾损伤",
+   "住院和死亡",
+   "卫生服务提供能力丧失",
+   "工作生产力降低",
+   "事故风险增加"
+  ],
+  "prevention": [
+   "远离高温",
+   "保持家中凉爽",
+   "保持身体凉爽和皮肤湿润",
+   "保护婴儿和儿童",
+   "减少温室气体排放以减缓气候变化",
+   "世卫组织的应对措施"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "高温与健康",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/climate-change-heat-and-health"
+   }
+  ],
+  "keywords": [
+   "高温",
+   "健康风险",
+   "气候变化",
+   "热浪",
+   "中暑",
+   "预防",
+   "世卫组织",
+   "高温天气",
+   "头晕"
+  ]
+ },
+ {
+  "id": "who-hypertension",
+  "condition_zh": "高血压",
+  "condition_en": "hypertension",
+  "category": "chronic_disease",
+  "icd10": "I10",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "prevalence": {
+   "全球": {
+    "rate": 0.33,
+    "population": "30-79岁成年人"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "血压测量"
+   ],
+   "clinical_features": [
+    "头痛",
+    "视力模糊",
+    "胸痛",
+    "头晕",
+    "呼吸困难",
+    "恶心",
+    "呕吐",
+    "视力模糊或其他视力变化",
+    "焦虑",
+    "意识混乱",
+    "耳边嗡嗡作响",
+    "流鼻血",
+    "心律异常"
+   ],
+   "gold_standard": "血压测量"
+  },
+  "treatment": [
+   {
+    "method": "改变生活方式",
+    "indication": "降低血压",
+    "evidence_level": "review"
+   },
+   {
+    "method": "药物治疗",
+    "indication": "血压控制",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "其他心血管疾病",
+   "肾脏疾病",
+   "中风"
+  ],
+  "risk_factors": [
+   "年龄较大",
+   "遗传因素",
+   "体重超重或肥胖",
+   "缺乏身体活动",
+   "高盐饮食",
+   "饮酒过量",
+   "空气污染",
+   "高血压家族史",
+   "65岁以上",
+   "糖尿病",
+   "肾病"
+  ],
+  "complications": [
+   "心脏病",
+   "中风",
+   "肾脏损伤",
+   "肾衰竭",
+   "动脉硬化",
+   "心绞痛",
+   "心脏衰竭",
+   "心律不齐",
+   "猝死"
+  ],
+  "prevention": [
+   "多吃蔬菜和水果",
+   "减少静坐",
+   "多运动",
+   "减肥",
+   "按照医疗保健专业人员的处方服用药物",
+   "与你的医疗保健专业人员预约就诊",
+   "降低压力",
+   "定期检查血压",
+   "治疗高血压",
+   "管理其他疾患",
+   "减少接触污染空气"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "高血压",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/hypertension"
+   }
+  ],
+  "keywords": [
+   "高血压",
+   "hypertension",
+   "血压",
+   "心脏病",
+   "中风",
+   "肾脏疾病",
+   "生活方式",
+   "药物治疗",
+   "预防",
+   "血压高",
+   "量血压",
+   "头晕"
+  ]
+ },
+ {
+  "id": "who-leprosy",
+  "condition_zh": "麻风病",
+  "condition_en": "leprosy",
+  "category": "infectious_disease",
+  "regions": [
+   "华南",
+   "全国"
+  ],
+  "prevalence": {
+   "全国": {
+    "rate": 0.0001,
+    "population": "总人口"
+   }
+  },
+  "diagnosis": {
+   "lab_tests": [
+    "裂隙皮肤涂片显微镜检查发现麻风分枝杆菌"
+   ],
+   "clinical_features": [
+    "皮肤色素减退或红色斑块伴感觉丧失",
+    "周围神经增粗伴感觉丧失或肌肉无力"
+   ],
+   "gold_standard": "临床诊断结合至少一个主要体征"
+  },
+  "treatment": [
+   {
+    "method": "多种药物疗法（氨苯砜、利福平、氯法齐明）",
+    "indication": "少菌型持续6个月，多菌型持续12个月",
+    "evidence_level": "review"
+   }
+  ],
+  "differential_diagnosis": [
+   "皮肤真菌感染",
+   "白癜风",
+   "结核性皮肤病",
+   "周围神经炎"
+  ],
+  "risk_factors": [
+   "长期密切接触未经治疗的麻风病患者",
+   "免疫功能低下"
+  ],
+  "complications": [
+   "进行性终身残疾",
+   "肢体畸形",
+   "视力损害",
+   "污名与歧视"
+  ],
+  "prevention": [
+   "接触者筛查",
+   "单剂利福平接触后预防",
+   "早期诊断和及时治疗"
+  ],
+  "citations": [
+   {
+    "type": "who_factsheet",
+    "title": "麻风病",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "review",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/leprosy"
+   }
+  ],
+  "keywords": [
+   "麻风",
+   "汉森氏病",
+   "皮肤白斑",
+   "神经麻木",
+   "手脚畸形",
+   "leprosy",
+   "Hansen's disease",
+   "Mycobacterium leprae",
+   "皮肤麻木",
+   "神经损伤"
+  ]
+ }
+]

@@ -2,6 +2,7 @@ package knowledge
 
 import (
 	"fmt"
+	"strconv"
 	"strings"
 )
 
@@ -90,7 +91,8 @@ func (cf *CitationFormatter) FormatCitationSummary(c *Citation) string {
 }
 
 // BuildCitationMap creates a knowledge-entry-ID -> formatted citation mapping
-// for inclusion in the system prompt.
+// for inclusion in the system prompt. Citations are numbered flatly [1]..[N]
+// so the model can reference them directly.
 func (cf *CitationFormatter) BuildCitationMap(entries []RetrievalResult) string {
 	if len(entries) == 0 {
 		return ""
@@ -98,50 +100,139 @@ func (cf *CitationFormatter) BuildCitationMap(entries []RetrievalResult) string 
 
 	var sb strings.Builder
 	sb.WriteString("## 可引用的循证医学文献\n\n")
-	sb.WriteString("以下是你可以在回答中引用的知识条目和文献来源。每个条目标注引用编号 [N]。\n\n")
+	sb.WriteString("以下是你可以在回答中引用的知识条目和文献来源。每个文献条目有唯一编号 [N]。\n\n")
 
-	for i, result := range entries {
-		e := result.Entry
-		refIdx := i + 1
-		sb.WriteString(fmt.Sprintf("**[%d] %s (%s)**\n", refIdx, e.ConditionZH, e.ConditionEN))
-		sb.WriteString(fmt.Sprintf("  - ICD-10: %s | 分类: %s | 地区: %s\n",
-			e.ICD10, e.Category, strings.Join(e.Regions, ", ")))
-
-		// Prevalence summary
-		if len(e.Prevalence) > 0 {
-			sb.WriteString("  - 流行病学: ")
-			first := true
-			for region, prev := range e.Prevalence {
-				if !first {
-					sb.WriteString("; ")
-				}
-				sb.WriteString(fmt.Sprintf("%s %.1f%%", region, prev.Rate*100))
-				first = false
+	flat := flattenCitations(entries)
+	for _, fc := range flat {
+		c := fc.citation
+		e := fc.result.Entry
+		sb.WriteString(fmt.Sprintf("**[%d] %s** （来自条目: %s）\n", fc.number, c.Title, e.ConditionZH))
+		if c.Journal != "" {
+			sb.WriteString(fmt.Sprintf("  - %s", c.Journal))
+			if c.Year > 0 {
+				sb.WriteString(fmt.Sprintf(" (%d)", c.Year))
 			}
 			sb.WriteString("\n")
 		}
-
-		// Citations with reference numbers
-		if len(e.Citations) > 0 {
-			sb.WriteString("  - 文献来源:\n")
-			for j, c := range e.Citations {
-				sb.WriteString(fmt.Sprintf("    引用 %d.%d: %s. %s (%d)",
-					refIdx, j+1, c.Title, c.Journal, c.Year))
-				if c.DOI != "" {
-					sb.WriteString(fmt.Sprintf(" DOI: %s", c.DOI))
-				}
-				if c.PMID != "" {
-					sb.WriteString(fmt.Sprintf(" PMID: %s", c.PMID))
-				}
-				sb.WriteString(fmt.Sprintf(" [证据等级: %s]", c.Level))
-				sb.WriteString("\n")
-			}
+		if c.DOI != "" {
+			sb.WriteString(fmt.Sprintf("  - DOI: %s\n", c.DOI))
 		}
-
+		if c.PMID != "" {
+			sb.WriteString(fmt.Sprintf("  - PMID: %s\n", c.PMID))
+		}
+		sb.WriteString(fmt.Sprintf("  - 证据等级: %s\n", c.Level))
 		sb.WriteString("\n")
 	}
 
-	sb.WriteString("**重要：每条事实性陈述后面必须标注引用编号，如 [1]、[2]。不要引用上述列表中不存在的文献。只能引用检索到的知识条目中的文献来源。**\n")
+	sb.WriteString("**重要：每条事实性陈述后面必须标注引用编号，如 [1]、[2]。不要引用上述列表中不存在的文献编号。只能引用检索到的知识条目中的文献来源。**\n")
+	return sb.String()
+}
+
+// flatCitation is a citation paired with its flat global number and source entry.
+type flatCitation struct {
+	number   int
+	result   RetrievalResult
+	citation Citation
+}
+
+// flattenCitations assigns a flat 1..N number to every citation across the
+// retrieved entries, preserving order. Used by both the prompt builder and
+// the post-verification source map so numbering always matches.
+func flattenCitations(entries []RetrievalResult) []flatCitation {
+	var flat []flatCitation
+	n := 1
+	for _, r := range entries {
+		for _, c := range r.Entry.Citations {
+			flat = append(flat, flatCitation{number: n, result: r, citation: c})
+			n++
+		}
+	}
+	return flat
+}
+
+// CitedSource provides a citation number -> full source context mapping,
+// used by post-generation verification to check claim-support consistency.
+type CitedSource struct {
+	Number      string   `json:"number"`
+	EntryID     string   `json:"entry_id"`
+	ConditionZH string   `json:"condition_zh"`
+	Citation    Citation `json:"citation"`
+	EntryText   string   `json:"entry_text"`
+}
+
+// BuildCitedSources maps citation numbers "1".."N" (same numbering as
+// BuildCitationMap) to their source context. Empty when nothing was retrieved.
+func BuildCitedSources(entries []RetrievalResult) map[string]CitedSource {
+	sources := make(map[string]CitedSource)
+	for _, fc := range flattenCitations(entries) {
+		num := strconv.Itoa(fc.number)
+		e := fc.result.Entry
+		sources[num] = CitedSource{
+			Number:      num,
+			EntryID:     e.ID,
+			ConditionZH: e.ConditionZH,
+			Citation:    fc.citation,
+			EntryText:   entrySummary(&e),
+		}
+	}
+	return sources
+}
+
+// entrySummary renders a compact evidence summary of a knowledge entry for
+// the semantic verifier to judge claim-support against.
+func entrySummary(e *KnowledgeEntry) string {
+	var sb strings.Builder
+	sb.WriteString(fmt.Sprintf("%s (%s) — 分类: %s", e.ConditionZH, e.ConditionEN, e.Category))
+	if e.ICD10 != "" {
+		sb.WriteString(fmt.Sprintf(", ICD-10: %s", e.ICD10))
+	}
+	sb.WriteString("\n")
+
+	if len(e.Prevalence) > 0 {
+		sb.WriteString("流行病学: ")
+		first := true
+		for region, prev := range e.Prevalence {
+			if !first {
+				sb.WriteString("; ")
+			}
+			sb.WriteString(fmt.Sprintf("%s %.1f%%", region, prev.Rate*100))
+			first = false
+		}
+		sb.WriteString("\n")
+	}
+
+	if e.Diagnosis != nil {
+		d := e.Diagnosis
+		if len(d.LabTests) > 0 {
+			sb.WriteString("诊断检查: " + strings.Join(d.LabTests, ", ") + "\n")
+		}
+		if d.GoldStandard != "" {
+			sb.WriteString("金标准: " + d.GoldStandard + "\n")
+		}
+	}
+
+	if len(e.Treatment) > 0 {
+		sb.WriteString("治疗:")
+		for i, t := range e.Treatment {
+			if i >= 5 {
+				break
+			}
+			sb.WriteString(" " + t.Method)
+			if t.Indication != "" {
+				sb.WriteString("（" + t.Indication + "）")
+			}
+			sb.WriteString(";")
+		}
+		sb.WriteString("\n")
+	}
+
+	if len(e.RiskFactors) > 0 {
+		sb.WriteString("风险因素: " + strings.Join(e.RiskFactors, ", ") + "\n")
+	}
+	if len(e.Prevention) > 0 {
+		sb.WriteString("预防: " + strings.Join(e.Prevention, ", ") + "\n")
+	}
+
 	return sb.String()
 }
 
@@ -167,5 +258,44 @@ func (cf *CitationFormatter) typeLabel(t string) string {
 		return "专家意见"
 	default:
 		return t
+	}
+}
+
+// AddToolSource registers a tool-returned reference (e.g. a literature_search
+// article) as a verifiable citation source. The PMID is used as the citation
+// key when present: PMIDs are pure digits, so a "[PMID]" reference in the
+// response matches the verifier's [N] pattern and resolves here. Articles
+// without a PMID get no number key (the model can't reference them by [N]);
+// their title context is still registered under "doi:" so DOI-style
+// references verify too.
+func AddToolSource(sources map[string]CitedSource, title, doi, pmid string, year int, level string, text string) {
+	if pmid != "" {
+		sources[pmid] = CitedSource{
+			Number:      pmid,
+			ConditionZH: title,
+			Citation: Citation{
+				Title:   title,
+				DOI:     doi,
+				PMID:    pmid,
+				Year:    year,
+				Level:   level,
+				Journal: "",
+			},
+			EntryText: text,
+		}
+	}
+	if doi != "" {
+		sources["doi:"+doi] = CitedSource{
+			Number:      doi,
+			ConditionZH: title,
+			Citation: Citation{
+				Title:   title,
+				DOI:     doi,
+				PMID:    pmid,
+				Year:    year,
+				Level:   level,
+			},
+			EntryText: text,
+		}
 	}
 }

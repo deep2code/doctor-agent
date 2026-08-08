@@ -33,6 +33,22 @@ type Store struct {
 	// Reference index for post-verification: citation ID -> title
 	ReferenceIndex      map[string]string
 
+	// DataVersion describes the knowledge base release and its sources.
+	DataVersion         *DataVersion
+
+	// Literature corpus (Europe PMC abstracts) for reference_lookup-style
+	// retrieval with real DOI/PMID.
+	LiteratureTopics    []LiteratureTopic
+	LiteratureArticles  []LiteratureEntry
+	LiteratureByTopic   map[string][]*LiteratureEntry
+
+	// MSD Manual (默沙东诊疗手册) Chinese consumer pages, full-text search.
+	MSDEntries          []MSDEntry
+
+	// ClinVar subset: pathogenic/likely-pathogenic variants of the core
+	// southern-China genes (HBB/HBA1/HBA2/G6PD).
+	ClinVarVariants     []ClinVarVariant
+
 	loaded bool
 }
 
@@ -59,6 +75,7 @@ func doLoad() (*Store, error) {
 		FoodRiskByID:      make(map[string]*FoodRiskEntry),
 		LabTestByID:       make(map[string]*LabTestReference),
 		ReferenceIndex:    make(map[string]string),
+		LiteratureByTopic: make(map[string][]*LiteratureEntry),
 	}
 
 	err := fs.WalkDir(knowledgeFS, ".", func(path string, d fs.DirEntry, err error) error {
@@ -88,8 +105,8 @@ func doLoad() (*Store, error) {
 				e := &entries[i]
 				store.MedicalEntries = append(store.MedicalEntries, *e)
 				store.MedicalByID[e.ID] = e
-				for _, c := range e.Citations {
-					key := fmt.Sprintf("%s-cite-%d", e.ID, c.Year)
+				for j, c := range e.Citations {
+					key := fmt.Sprintf("%s-cite-%d-%d", e.ID, c.Year, j)
 					store.ReferenceIndex[key] = c.Title
 				}
 			}
@@ -113,6 +130,123 @@ func doLoad() (*Store, error) {
 				return fmt.Errorf("parsing %s: %w", path, err)
 			}
 			store.EmergencyRules = rules
+
+		case "food_risk.json":
+			var entries []FoodRiskEntry
+			if err := json.Unmarshal(data, &entries); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range entries {
+				e := &entries[i]
+				store.FoodRiskEntries = append(store.FoodRiskEntries, *e)
+				store.FoodRiskByID[e.ID] = e
+			}
+
+		case "lab_tests.json":
+			var entries []LabTestReference
+			if err := json.Unmarshal(data, &entries); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range entries {
+				e := &entries[i]
+				store.LabTestReferences = append(store.LabTestReferences, *e)
+				store.LabTestByID[e.ID] = e
+			}
+
+		case "version.json":
+			var v DataVersion
+			if err := json.Unmarshal(data, &v); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			store.DataVersion = &v
+
+		case "literature.json":
+			var ls LiteratureSet
+			if err := json.Unmarshal(data, &ls); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			// Cross-validate the corpus: every article must belong to a
+			// declared topic and carry a traceable DOI or PMID.
+			topicIDs := make(map[string]bool, len(ls.Topics))
+			for _, t := range ls.Topics {
+				topicIDs[t.ID] = true
+			}
+			for i := range ls.Articles {
+				a := &ls.Articles[i]
+				if a.Title == "" {
+					return fmt.Errorf("literature.json: article %s missing title", a.ID)
+				}
+				if !topicIDs[a.Topic] {
+					return fmt.Errorf("literature.json: article %s references unknown topic %q", a.ID, a.Topic)
+				}
+				if a.DOI == "" && a.PMID == "" {
+					return fmt.Errorf("literature.json: article %s has neither DOI nor PMID", a.ID)
+				}
+			}
+			store.LiteratureTopics = ls.Topics
+			store.LiteratureArticles = ls.Articles
+			for i := range ls.Articles {
+				a := &ls.Articles[i]
+				store.LiteratureByTopic[a.Topic] = append(store.LiteratureByTopic[a.Topic], a)
+			}
+
+		case "who_factsheets.json":
+			var entries []KnowledgeEntry
+			if err := json.Unmarshal(data, &entries); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range entries {
+				e := &entries[i]
+				store.MedicalEntries = append(store.MedicalEntries, *e)
+				store.MedicalByID[e.ID] = e
+				for j, c := range e.Citations {
+					key := fmt.Sprintf("%s-cite-%d-%d", e.ID, c.Year, j)
+					store.ReferenceIndex[key] = c.Title
+				}
+			}
+
+		case "who_vaccines.json":
+			var entries []KnowledgeEntry
+			if err := json.Unmarshal(data, &entries); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range entries {
+				e := &entries[i]
+				store.MedicalEntries = append(store.MedicalEntries, *e)
+				store.MedicalByID[e.ID] = e
+				for j, c := range e.Citations {
+					key := fmt.Sprintf("%s-cite-%d-%d", e.ID, c.Year, j)
+					store.ReferenceIndex[key] = c.Title
+				}
+			}
+
+		case "msd_manual.json":
+			var set MSDSet
+			if err := json.Unmarshal(data, &set); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range set.Entries {
+				if set.Entries[i].Title == "" || set.Entries[i].Content == "" {
+					return fmt.Errorf("msd_manual.json: entry %d missing title/content", i)
+				}
+			}
+			store.MSDEntries = set.Entries
+
+		case "clinvar.json":
+			var set ClinVarSet
+			if err := json.Unmarshal(data, &set); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range set.Variants {
+				if set.Variants[i].Variation == "" || set.Variants[i].Gene == "" {
+					return fmt.Errorf("clinvar.json: variant %d missing variation/gene", i)
+				}
+			}
+			store.ClinVarVariants = set.Variants
+
+		default:
+			// Unknown/extra data files are intentionally ignored here; add a
+			// case above when wiring a new knowledge file.
 		}
 
 		return nil
@@ -169,11 +303,116 @@ func (s *Store) GetAllEmergencyRules() []EmergencyRule {
 	return rules
 }
 
+// GetDataVersion returns the knowledge base version metadata, if present.
+func (s *Store) GetDataVersion() *DataVersion {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return s.DataVersion
+}
+
+// FoodEntriesAsKnowledge projects food-risk entries as KnowledgeEntry so the
+// retriever and prompt builder can index them uniformly.
+func (s *Store) FoodEntriesAsKnowledge() []KnowledgeEntry {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]KnowledgeEntry, 0, len(s.FoodRiskEntries))
+	for i := range s.FoodRiskEntries {
+		f := &s.FoodRiskEntries[i]
+		out = append(out, KnowledgeEntry{
+			ID:          f.ID,
+			ConditionZH: f.FoodNameZH,
+			ConditionEN: f.FoodNameEN,
+			Category:    "food_risk",
+			Keywords:    f.Keywords,
+			Citations:   f.Citations,
+		})
+	}
+	return out
+}
+
+// LabEntriesAsKnowledge projects lab-test references as KnowledgeEntry so the
+// retriever and prompt builder can index them uniformly.
+func (s *Store) LabEntriesAsKnowledge() []KnowledgeEntry {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]KnowledgeEntry, 0, len(s.LabTestReferences))
+	for i := range s.LabTestReferences {
+		l := &s.LabTestReferences[i]
+		out = append(out, KnowledgeEntry{
+			ID:          l.ID,
+			ConditionZH: l.TestNameZH,
+			ConditionEN: l.TestNameEN,
+			Category:    "lab_test",
+			Keywords:    l.Keywords,
+			Citations:   l.Citations,
+		})
+	}
+	return out
+}
+
 // IsLoaded returns whether the knowledge store has been loaded.
 func (s *Store) IsLoaded() bool {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	return s.loaded
+}
+
+// GetLiteratureTopics returns the literature topic table.
+func (s *Store) GetLiteratureTopics() []LiteratureTopic {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]LiteratureTopic, len(s.LiteratureTopics))
+	copy(out, s.LiteratureTopics)
+	return out
+}
+
+// GetLiteratureByTopic returns the articles of one topic (nil if unknown).
+func (s *Store) GetLiteratureByTopic(topic string) []*LiteratureEntry {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	arts := s.LiteratureByTopic[topic]
+	out := make([]*LiteratureEntry, len(arts))
+	copy(out, arts)
+	return out
+}
+
+// GetLiteratureCount returns the total number of embedded literature entries.
+func (s *Store) GetLiteratureCount() int {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return len(s.LiteratureArticles)
+}
+
+// GetMSDEntries returns the MSD Manual corpus (copy).
+func (s *Store) GetMSDEntries() []MSDEntry {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]MSDEntry, len(s.MSDEntries))
+	copy(out, s.MSDEntries)
+	return out
+}
+
+// GetMSDCount returns the number of embedded MSD pages.
+func (s *Store) GetMSDCount() int {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return len(s.MSDEntries)
+}
+
+// GetClinVarVariants returns the ClinVar subset (copy).
+func (s *Store) GetClinVarVariants() []ClinVarVariant {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]ClinVarVariant, len(s.ClinVarVariants))
+	copy(out, s.ClinVarVariants)
+	return out
+}
+
+// GetClinVarCount returns the number of embedded ClinVar variants.
+func (s *Store) GetClinVarCount() int {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return len(s.ClinVarVariants)
 }
 
 // GetReferenceIndex returns the reference index for post-verification.

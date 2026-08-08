@@ -29,7 +29,14 @@ func (r *KeywordRetriever) Name() string {
 	return "keyword"
 }
 
-// Retrieve searches medical knowledge entries matching the query.
+// minRelevantScore is the minimum retrieval score for an entry to count as
+// knowledge relevant to the query. Below it the query is treated as "no
+// knowledge match" (so the agent steers instead of improvising). One exact
+// keyword/condition hit scores >= 3; bare region/category hits score <= 2.
+const minRelevantScore = 3.0
+
+// Retrieve searches medical, food-risk and lab-test knowledge entries
+// matching the query.
 func (r *KeywordRetriever) Retrieve(ctx context.Context, query string, topK int) ([]RetrievalResult, error) {
 	if topK <= 0 {
 		topK = 5
@@ -40,18 +47,24 @@ func (r *KeywordRetriever) Retrieve(ctx context.Context, query string, topK int)
 		return nil, nil
 	}
 
+	// Food-risk and lab-test entries are indexed through their KnowledgeEntry
+	// projection so their content reaches the prompt and the verifier too.
 	entries := r.store.GetAllMedical()
+	entries = append(entries, r.store.FoodEntriesAsKnowledge()...)
+	entries = append(entries, r.store.LabEntriesAsKnowledge()...)
+
 	results := make([]RetrievalResult, 0, len(entries))
 
 	for _, entry := range entries {
-		score, matched := r.scoreEntry(&entry, queryTokens)
-		if score > 0 {
-			results = append(results, RetrievalResult{
-				Entry:           entry,
-				Score:           score,
-				MatchedKeywords: matched,
-			})
+		score, matched := r.scoreEntry(&entry, query, queryTokens)
+		if score < minRelevantScore {
+			continue
 		}
+		results = append(results, RetrievalResult{
+			Entry:           entry,
+			Score:           score,
+			MatchedKeywords: matched,
+		})
 	}
 
 	sort.Slice(results, func(i, j int) bool {
@@ -127,51 +140,169 @@ func (r *KeywordRetriever) RetrieveEmergencyRules(symptoms string) []EmergencyRu
 	return matched
 }
 
-func (r *KeywordRetriever) scoreEntry(entry *KnowledgeEntry, queryTokens []string) (float64, []string) {
+// scoreEntry scores an entry against a query. Because tokenize() does not
+// segment Chinese (a whole sentence becomes one token), token equality only
+// works for Latin text; CJK recall relies on substring matching against the
+// entry's Chinese keywords and symptom/risk fields.
+func (r *KeywordRetriever) scoreEntry(entry *KnowledgeEntry, query string, queryTokens []string) (float64, []string) {
 	var totalScore float64
 	var matched []string
+	matchedSet := make(map[string]bool)
+	addMatch := func(kw string) {
+		if !matchedSet[kw] {
+			matchedSet[kw] = true
+			matched = append(matched, kw)
+		}
+	}
 
+	queryLower := strings.ToLower(query)
+
+	// 1. Token equality (works for Latin keywords like "G6PD", "EBV").
 	for _, kw := range entry.Keywords {
 		kwTokens := tokenize(kw)
 		for _, qt := range queryTokens {
 			for _, kt := range kwTokens {
 				if strings.EqualFold(qt, kt) {
 					totalScore += 3.0
-					matched = append(matched, kw)
+					addMatch(kw)
 					break
 				}
 			}
 		}
 	}
 
-	queryLower := strings.ToLower(strings.Join(queryTokens, " "))
+	// 2. Substring match against keywords. CJK keywords (>=2 runes) match any
+	// containing query; Latin keywords need >=3 chars to avoid false hits on
+	// short tokens like "AD".
+	for _, kw := range entry.Keywords {
+		kLower := strings.ToLower(kw)
+		if !substringMatchable(kLower) {
+			continue
+		}
+		if strings.Contains(queryLower, kLower) {
+			totalScore += 3.0
+			addMatch(kw)
+		}
+	}
+
+	// 2b. Bigram overlap for longer CJK keywords. Catches spoken phrasing
+	// with inserted particles ("我一喝牛奶就拉肚子" vs "喝牛奶拉肚子").
+	for _, kw := range entry.Keywords {
+		kLower := strings.ToLower(kw)
+		if !hasCJK(kLower) || len([]rune(kLower)) < 4 {
+			continue
+		}
+		kb := bigrams(kLower)
+		qb := bigrams(queryLower)
+		overlap := bigramOverlap(kb, qb)
+		if overlap >= 2 && float64(overlap)/float64(len(kb)) >= 0.5 {
+			totalScore += 3.0
+			addMatch(kw)
+		}
+	}
+
+	// 3. Condition name containment (kept from the original logic).
 	condZHLower := strings.ToLower(entry.ConditionZH)
 	condENLower := strings.ToLower(entry.ConditionEN)
-
 	if strings.Contains(queryLower, condZHLower) || strings.Contains(condZHLower, queryLower) {
 		totalScore += 5.0
-		matched = append(matched, entry.ConditionZH)
+		addMatch(entry.ConditionZH)
 	}
 	if strings.Contains(queryLower, condENLower) || strings.Contains(condENLower, queryLower) {
 		totalScore += 5.0
-		matched = append(matched, entry.ConditionEN)
+		addMatch(entry.ConditionEN)
 	}
 
-	for _, region := range entry.Regions {
-		for _, qt := range queryTokens {
-			if strings.EqualFold(qt, region) {
-				totalScore += 1.0
-				break
+	// 4. Symptom/risk/complication/differential/prevention field substring
+	// matching — this is what lets symptom-style questions ("我一喝牛奶就
+	// 拉肚子") recall the right entry.
+	fields := [][]string{
+		clinicalFeatures(entry),
+		entry.RiskFactors,
+		entry.Complications,
+		entry.DifferentialDiagnosis,
+		entry.Prevention,
+	}
+	for _, list := range fields {
+		for _, item := range list {
+			iLower := strings.ToLower(item)
+			if !substringMatchable(iLower) {
+				continue
+			}
+			if strings.Contains(queryLower, iLower) {
+				totalScore += 2.0
+				addMatch(item)
 			}
 		}
 	}
 
+	// 5. Region match: query containing the (Latin) region name.
+	for _, region := range entry.Regions {
+		if strings.Contains(queryLower, region) {
+			totalScore += 1.0
+			addMatch(region)
+		}
+	}
+
 	categoryLower := strings.ToLower(entry.Category)
-	if strings.Contains(queryLower, categoryLower) {
+	if entry.Category != "" && strings.Contains(queryLower, categoryLower) {
 		totalScore += 1.0
 	}
 
 	return totalScore, matched
+}
+
+// clinicalFeatures extracts the lab/imaging/clinical feature lists, guarding
+// against a nil DiagnosticCriteria pointer.
+func clinicalFeatures(e *KnowledgeEntry) []string {
+	if e.Diagnosis == nil {
+		return nil
+	}
+	return e.Diagnosis.ClinicalFeatures
+}
+
+// substringMatchable reports whether a keyword/field is safe to substring
+// match: CJK text (>=2 runes) or Latin text of at least 3 chars.
+func substringMatchable(s string) bool {
+	n := len([]rune(s))
+	if n < 2 {
+		return false
+	}
+	if hasCJK(s) {
+		return true
+	}
+	return n >= 3
+}
+
+// hasCJK reports whether the string contains any Han characters.
+func hasCJK(s string) bool {
+	for _, r := range s {
+		if unicode.Is(unicode.Han, r) {
+			return true
+		}
+	}
+	return false
+}
+
+// bigrams returns the set of character bigrams of a string.
+func bigrams(s string) map[string]bool {
+	runes := []rune(s)
+	out := make(map[string]bool)
+	for i := 0; i+1 < len(runes); i++ {
+		out[string(runes[i:i+2])] = true
+	}
+	return out
+}
+
+// bigramOverlap counts how many bigrams of a appear in b.
+func bigramOverlap(a, b map[string]bool) int {
+	n := 0
+	for k := range a {
+		if b[k] {
+			n++
+		}
+	}
+	return n
 }
 
 func (r *KeywordRetriever) scoreDrug(entry *DrugEntry, queryTokens []string) float64 {

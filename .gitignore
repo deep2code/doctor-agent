@@ -31,3 +31,25 @@ Thumbs.db
 
 # Build
 vendor/
+.gocache/
+external/gomodcache/
+# Go module cache sandbox (env restriction) — not source
+
+# Regenerable raw downloads (scripts in external/*.py rebuild these)
+external/pylibs/
+external/medlineplus/
+external/msd_manual/
+external/msd_manual_prof/
+external/position_papers/
+external/evalsets/
+external/hpo/
+external/europepmc/
+external/who_factsheets/
+external/who_factsheets_zh/
+external/clinvar/
+external/pp_structured/
+external/who_factsheets_structured/
+
+# Eval artifacts
+evals/report.json
+__pycache__/

@@ -67,9 +67,20 @@ func New(cfg *config.Config) (*Agent, error) {
 	registry.Register(tools.NewFoodRiskAnalyzer(store))
 	registry.Register(tools.NewSymptomTriage(store))
 	registry.Register(tools.NewReferenceLookup(store))
+	registry.Register(tools.NewLiteratureSearch(store))
+	registry.Register(tools.NewMSDSearch(store))
+	registry.Register(tools.NewVariantLookup(store))
 	registry.Register(tools.NewLabInterpreter())
 
 	postVerifier := safety.NewPostVerifier(store.GetReferenceIndex())
+	if cfg.JudgeEnabled {
+		judge, err := createJudgeProvider(cfg)
+		if err != nil {
+			return nil, fmt.Errorf("creating judge provider: %w", err)
+		}
+		slog.Info("Semantic claim verification enabled", "judge", judge.Name())
+		postVerifier = safety.NewPostVerifierWithJudge(store.GetReferenceIndex(), judge)
+	}
 
 	return &Agent{
 		cfg:               cfg,
@@ -102,6 +113,28 @@ func createProvider(cfg *config.Config) (llm.LLMProvider, error) {
 			cfg.MaxTokens,
 			cfg.Temperature,
 		), nil
+	default:
+		return nil, fmt.Errorf("unknown LLM provider: %s", cfg.LLMProvider)
+	}
+}
+
+// createJudgeProvider builds a low-temperature LLM provider used for
+// claim-support verification. Uses the judge model if configured, otherwise
+// reuses the main model at temperature 0 for deterministic verdicts.
+func createJudgeProvider(cfg *config.Config) (llm.LLMProvider, error) {
+	switch cfg.LLMProvider {
+	case "anthropic":
+		model := cfg.JudgeModel
+		if model == "" {
+			model = cfg.AnthropicModel
+		}
+		return llm.NewAnthropicProvider(cfg.AnthropicAPIKey, model, 2048, 0), nil
+	case "deepseek":
+		model := cfg.JudgeModel
+		if model == "" {
+			model = cfg.DeepSeekModel
+		}
+		return llm.NewDeepSeekProvider(cfg.DeepSeekAPIKey, model, 2048, 0), nil
 	default:
 		return nil, fmt.Errorf("unknown LLM provider: %s", cfg.LLMProvider)
 	}
@@ -143,6 +176,13 @@ func (a *Agent) ProcessMessage(ctx context.Context, sess *session.Session, userM
 	// Build system prompt
 	patientCtx := a.buildPatientContextString(sess)
 	systemPrompt := a.composer.ComposeSystemPrompt(retrieved, patientCtx)
+
+	// When retrieval found nothing, constrain the model to steer instead of
+	// improvising medical content from its own memory (hallucination guard).
+	if a.cfg.KnowledgeEnabled && len(retrieved) == 0 {
+		systemPrompt += "\n\n" + prompt.NoKnowledgeGuidance
+	}
+
 	toolDescs := a.registry.GetToolDescriptions()
 	if len(toolDescs) > 0 {
 		systemPrompt += "\n" + a.composer.ComposeToolPrompt(toolDescs)
@@ -156,6 +196,7 @@ func (a *Agent) ProcessMessage(ctx context.Context, sess *session.Session, userM
 
 	// Agent loop: call LLM, handle tool use, repeat until final response
 	maxIterations := 5
+	var toolRefs []tools.CitationRef // tool-returned sources for post-verification
 	for i := 0; i < maxIterations; i++ {
 		resp, err := a.provider.Chat(ctx, messages, toolDefs, systemPrompt)
 		if err != nil {
@@ -179,6 +220,7 @@ func (a *Agent) ProcessMessage(ctx context.Context, sess *session.Session, userM
 				} else {
 					resultJSON, _ := json.MarshalIndent(result.Data, "", "  ")
 					toolResults.WriteString(fmt.Sprintf("[工具 %s 结果]:\n%s\n", tc.Name, string(resultJSON)))
+					toolRefs = append(toolRefs, result.Citations...)
 				}
 			}
 
@@ -198,9 +240,22 @@ func (a *Agent) ProcessMessage(ctx context.Context, sess *session.Session, userM
 
 		// L3: Post-generation verification
 		if a.cfg.PostVerifyEnabled {
-			verifyResult := a.postVerifier.Verify(responseText)
+			// Map flat citation numbers [N] to their sources for verification.
+			// Tool-returned literature (PMID/DOI) is registered alongside so
+			// [PMID]-style references resolve instead of being flagged.
+			sources := knowledge.BuildCitedSources(retrieved)
+			for _, ref := range toolRefs {
+				text := fmt.Sprintf("文献: %s", ref.Title)
+				if ref.Year > 0 {
+					text += fmt.Sprintf(" (%d)", ref.Year)
+				}
+				knowledge.AddToolSource(sources, ref.Title, ref.DOI, ref.PMID, ref.Year, ref.Level, text)
+			}
+			verifyResult := a.postVerifier.Verify(ctx, responseText, sources)
 			if !verifyResult.Passed {
-				slog.Warn("Response post-verification failed", "warnings", verifyResult.Warnings)
+				slog.Warn("Response post-verification failed",
+					"warnings", verifyResult.Warnings,
+					"unsupported", verifyResult.UnsupportedClaims)
 				if verifyResult.CorrectedResponse != "" {
 					responseText = verifyResult.CorrectedResponse
 				}

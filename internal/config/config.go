@@ -38,6 +38,10 @@ type Config struct {
 	ScopeGuardEnabled bool
 	PostVerifyEnabled bool
 
+	// Semantic claim verification (LLM-as-judge)
+	JudgeEnabled bool
+	JudgeModel   string
+
 	// Server
 	ServerHost string
 	ServerPort string
@@ -73,6 +77,9 @@ func Load() *Config {
 		EmergencyEnabled:  getEnvBool("EMERGENCY_DETECTION_ENABLED", true),
 		ScopeGuardEnabled: getEnvBool("SCOPE_GUARD_ENABLED", true),
 		PostVerifyEnabled: getEnvBool("POST_VERIFY_ENABLED", true),
+
+		JudgeEnabled: getEnvBool("POST_VERIFY_SEMANTIC", true),
+		JudgeModel:   getEnv("POST_VERIFY_JUDGE_MODEL", ""),
 
 		ServerHost: getEnv("SERVER_HOST", "0.0.0.0"),
 		ServerPort: getEnv("SERVER_PORT", "8080"),

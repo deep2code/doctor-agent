@@ -113,6 +113,14 @@ func createProvider(cfg *config.Config) (llm.LLMProvider, error) {
 			cfg.MaxTokens,
 			cfg.Temperature,
 		), nil
+	case "openai-compat":
+		return llm.NewOpenAICompatProvider(
+			cfg.OpenAICompatBaseURL,
+			cfg.OpenAICompatAPIKey,
+			cfg.OpenAICompatModel,
+			cfg.MaxTokens,
+			cfg.Temperature,
+		), nil
 	default:
 		return nil, fmt.Errorf("unknown LLM provider: %s", cfg.LLMProvider)
 	}
@@ -135,6 +143,12 @@ func createJudgeProvider(cfg *config.Config) (llm.LLMProvider, error) {
 			model = cfg.DeepSeekModel
 		}
 		return llm.NewDeepSeekProvider(cfg.DeepSeekAPIKey, model, 2048, 0), nil
+	case "openai-compat":
+		model := cfg.JudgeModel
+		if model == "" {
+			model = cfg.OpenAICompatModel
+		}
+		return llm.NewOpenAICompatProvider(cfg.OpenAICompatBaseURL, cfg.OpenAICompatAPIKey, model, 2048, 0), nil
 	default:
 		return nil, fmt.Errorf("unknown LLM provider: %s", cfg.LLMProvider)
 	}

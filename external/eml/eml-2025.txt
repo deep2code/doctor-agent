@@ -1,0 +1,2074 @@
+
+W H O  T e c h n i c a l  R e p o r t  S e r i e s
+
+1064
+
+The selection and use 
+of essential medicines
+
+Report of the WHO Expert Committee on Selection and Use of Essential 
+Medicines, 2025 (including the 24th WHO Model List of Essential Medicines 
+and the 10th WHO Model List of Essential Medicines for Children)
+
+
+
+The World Health Organization was established in 1948 as a specialized agency of the 
+United Nations serving as the directing and coordinating authority for international 
+health matters and public health. One of WHO’s constitutional functions is to 
+provide objective and reliable information and advice in the field of human health, a 
+responsibility that it fulfils in part through its extensive programme of publications.
+
+The Organization seeks through its publications to support national health strategies 
+and address the most pressing public health concerns of populations around the world. 
+To respond to the needs of Member States at all levels of development, WHO publishes 
+practical manuals, handbooks and training material for specific categories of health 
+workers; internationally applicable guidelines and standards; reviews and analyses of 
+health policies, programmes and research; and state-of-the-art consensus reports that 
+offer technical advice and recommendations for decision-makers. These books are 
+closely tied to the Organization’s priority activities, encompassing disease prevention 
+and control, the development of equitable health systems based on primary health 
+care, and health promotion for individuals and communities. Progress towards better 
+health for all also demands the global dissemination and exchange of information 
+that draws on the knowledge and experience of all WHO’s Member countries and the 
+collaboration of world leaders in public health and the biomedical sciences.
+
+To ensure the widest possible availability of authoritative information and guidance on 
+health matters, WHO secures the broad international distribution of its publications 
+and encourages their translation and adaptation. By helping to promote and protect 
+health and prevent and control disease throughout the world, WHO’s books contribute 
+to achieving the Organization’s principal objective – the attainment by all people of the 
+highest possible level of health.
+
+The WHO Technical Report Series makes available the findings of various international 
+groups of experts that provide WHO with the latest scientific and technical advice on 
+a broad range of medical and public health subjects. Members of such expert groups 
+serve without remuneration in their personal capacities rather than as representatives 
+of governments or other bodies; their views do not necessarily reflect the decisions or 
+the stated policy of WHO.
+
+To purchase WHO publications, please contact: WHO Press, World Health Organization, 
+20 Avenue Appia, 1211 Geneva 27, Switzerland; email: bookorders@who.int; order 
+online: www.who.int/bookorders.
+
+mailto:bookorders%40who.int?subject=
+http://www.who.int/bookorders
+
+
+W H O  T e c h n i c a l  R e p o r t  S e r i e s
+1 0 6 4
+
+The selection and use 
+of essential medicines
+
+Report of the WHO Expert Committee on Selection and Use of Essential 
+Medicines, 2025 (including the 24th WHO Model List of Essential Medicines 
+and the 10th WHO Model List of Essential Medicines for Children)
+
+
+
+© World Health Organization 2025
+
+Some rights reserved. This work is available under the Creative Commons Attribution-NonCommercial-
+ShareAlike 3.0 IGO licence (CC BY-NC-SA 3.0 IGO; https://creativecommons.org/licenses/by-nc-sa/3.0/
+igo).
+
+Under the terms of this licence, you may copy, redistribute and adapt the work for non-commercial 
+purposes, provided the work is appropriately cited, as indicated below. In any use of this work, there 
+should be no suggestion that WHO endorses any specific organization, products or services. The use of 
+the WHO logo is not permitted. If you adapt the work, then you must license your work under the same 
+or equivalent Creative Commons licence. If you create a translation of this work, you should add the 
+following disclaimer along with the suggested citation: “This translation was not created by the World 
+Health Organization (WHO). WHO is not responsible for the content or accuracy of this translation. The 
+original English edition shall be the binding and authentic edition”.
+
+Any mediation relating to disputes arising under the licence shall be conducted in accordance with 
+the mediation rules of the World Intellectual Property Organization (http://www.wipo.int/amc/en/
+mediation/rules/).
+
+Suggested citation. The selection and use of essential medicines: report of the WHO Expert 
+Committee on Selection and Use of Essential Medicines, 2025 (including the 24th WHO Model List of 
+Essential Medicines and the 10th WHO Model List of Essential Medicines for Children). Geneva: World 
+Health Organization; 2025 (WHO Technical Report Series, No. 1064). Licence:  CC BY-NC-SA 3.0 IGO.
+
+Cataloguing-in-Publication (CIP) data. CIP data are available at https://iris.who.int/.
+
+Sales, rights and licensing. To purchase WHO publications, see https://www.who.int/publications/
+book-orders. To submit requests for commercial use and queries on rights and licensing, see https://
+www.who.int/copyright.
+
+Third-party materials. If you wish to reuse material from this work that is attributed to a third party, 
+such as tables, figures or images, it is your responsibility to determine whether permission is needed 
+for that reuse and to obtain permission from the copyright holder. The risk of claims resulting from 
+infringement of any third-party-owned component in the work rests solely with the user.
+
+General disclaimers. The designations employed and the presentation of the material in this 
+publication do not imply the expression of any opinion whatsoever on the part of WHO concerning 
+the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation 
+of its frontiers or boundaries. Dotted and dashed lines on maps represent approximate border lines for 
+which there may not yet be full agreement.
+
+The mention of specific companies or of certain manufacturers’ products does not imply that they 
+are endorsed or recommended by WHO in preference to others of a similar nature that are not 
+mentioned. Errors and omissions excepted, the names of proprietary products are distinguished by 
+initial capital letters.
+
+All reasonable precautions have been taken by WHO to verify the information contained in this 
+publication. However, the published material is being distributed without warranty of any kind, either 
+expressed or implied. The responsibility for the interpretation and use of the material lies with the 
+reader. In no event shall WHO be liable for damages arising from its use.
+
+The selection and use of essential medicines: report of the WHO Expert Committee on Selection and 
+Use of Essential Medicines, 2025 (including the 24th WHO Model List of Essential Medicines and the 
+10th WHO Model List of Essential Medicines for Children)
+
+(WHO Technical Report Series, No. 1064)
+
+ISBN 978-92-4-011974-1 (electronic version)
+ISBN 978-92-4-011975-8 (print version)
+
+ISSN 0512-3054
+
+https://creativecommons.org/licenses/by-nc-sa/3.0/igo
+https://creativecommons.org/licenses/by-nc-sa/3.0/igo
+http://www.wipo.int/amc/en/mediation/rules/
+http://www.wipo.int/amc/en/mediation/rules/
+https://creativecommons.org/licenses/by-nc-sa/3.0/igo
+https://iris.who.int/
+https://www.who.int/publications/book-orders
+https://www.who.int/publications/book-orders
+https://www.who.int/copyright
+https://www.who.int/copyright
+
+
+This publication contains the collective views of an international group of experts and does not 
+necessarily represent the decisions or the policies of WHO.
+
+The recommendations contained in this publication are based on the advice of independent experts, 
+who have considered the best available evidence, a risk–benefit analysis and other factors, as 
+appropriate. This publication may include recommendations on the use of medicinal products for an 
+indication, in a dosage form, dose regimen, population or other use parameters that are not included 
+in the approved labelling. Relevant stakeholders should familiarize themselves with applicable national 
+legal and ethical requirements. WHO does not accept any liability for the procurement, distribution 
+and/or administration of any product for any use.
+
+Layout by Interligar - Branding & Design
+
+
+
+
+
+Contents
+
+Executive summary ix
+
+List of participants lvii
+
+Declaration of interests lix
+
+1. Introduction 1
+
+2. Open session 3
+
+3. General items 5
+
+4. Summary of recommendations 12
+
+5. Applications for the 24th Model List of Essential Medicines and 
+the 10th Model List of Essential Medicines for Children 15
+Section 1: Anaesthetics, preoperative medicines and oxygen 15
+
+1.1 General anaesthetics and oxygen 15
+Halothane – deletion/retention – EML and EMLc 15
+Nitrous oxide – change to listing – EML and EMLc 18
+
+Section 5: Medicines for neurological disorders 20
+Changes to Section 5 20
+
+5.1 Medicines for central nervous system disorders  20
+Risdiplam – addition – EML and EMLc 20
+Prednisolone – new indication – EMLc 33
+Baclofen – addition – EML and EMLc 40
+Carbamazepine – new indication – EML 51
+Eletriptan and naproxen – addition – EML 60
+Ibuprofen – new indication – EML 72
+Amitriptyline – new indication – EML 79
+Bisoprolol – new indication – EML 84
+Fremanezumab – addition – EML 90
+Prednisolone, sumatriptan, and verapamil – new indication – EML 99
+
+Section 6: Anti-infective medicines 106
+6.1 Anthelminthics 106
+
+Moxidectin – addition – EML and EMLc 106
+Arpraziquantel – addition – EMLc 120
+
+6.2 Antibacterials 128
+Imipenem + cilastatin + relebactam – addition – EML 128
+Rifapentine – new formulation – EMLc  140
+
+6.4 Antiviral medicines 145
+Abacavir + dolutegravir + lamivudine – addition – EMLc  145
+Ribavirin – deletion – EMLc 152
+
+6.5 Antiprotozoal medicines 157
+Fexinidazole – new indication – EML and EMLc  157
+
+Section 7: Medicines for cystic fibrosis 164
+Elexacaftor + tezacaftor + ivacaftor – addition – EML and EMLc 164
+
+
+
+vi
+
+Section 8: Immunomodulators and antineoplastics 175
+8.2 Antineoplastics and supportive medicines 175
+
+Temozolomide – addition – EML and EMLc 175
+Panitumumab – addition – EML 185
+Zanubrutinib – addition – EML 196
+Blinatumomab – addition – EMLc  211
+PD-1/PD-L1 immune checkpoint inhibitors – addition – EML  223
+Tislelizumab – addition – EML 273
+Toripalimab – addition – EML 283
+Erythropoiesis-stimulating agents – new indication – EML and EMLc 293
+
+Section 10: Medicines affecting the blood 299
+Changes to Subsection 10.3 299
+
+10.2 Medicines affecting coagulation 299
+Emicizumab – addition – EML and EMLc 299
+Phytomenadione – new formulation – EML and EMLc 318
+
+Section 11: Blood products, coagulation factors and plasma substitutes 323
+11.1 Blood and blood components 323
+
+Cryoprecipitate, pathogen-reduced and non-pathogen-reduced, 
+plasma-derived clotting factor concentrates – changes to listing – 
+EML and EMLc 323
+
+11.3 Coagulation factors 331
+Recombinant coagulation factors – addition – EML and EMLc 331
+
+Section 12: Cardiovascular medicines 343
+12.3 Antihypertensive medicines 343
+
+Triple fixed-dose combinations of antihypertensive medicines – 
+addition – EML 343
+
+Section 13: Dermatological medicines 354
+13.1 Antifungal medicines 354
+
+Ciclopirox hydroxypropyl chitosan – addition – EML 354
+13.4 Medicines affecting skin differentiation and proliferation 363
+
+Adalimumab – new indication – EML and EMLc 363
+Ustekinumab – addition – EML and EMLc 374
+
+13.6 Emollients 388
+Urea- and glycerol-based topical moisturizers – addition – EML and EMLc  388
+
+13.7 Sunscreens, broad-spectrum 395
+Sunscreen – addition – EML and EMLc 395
+
+Section 15: Antiseptics and disinfectants 407
+15.1 Antiseptics 407
+15.2 Disinfectants 407
+
+Hypochlorous acid – addition – EML and EMLc 407
+Section 18: Medicines for endocrine disorders 417
+
+18.1 Adrenal hormones and synthetic substitutes 417
+Prednisolone – new indication – EML and EMLc 417
+
+
+
+vii
+
+18.5 Medicines for diabetes 424
+Insulin, analogue long-acting – new formulation – EML and EMLc 424
+Insulin, analogue rapid-acting – addition – EML and EMLc 427
+Glucagon-like peptide-1 receptor agonists – addition obesity – EML 436
+Glucagon-like peptide-1 receptor agonists – addition diabetes – EML 448
+
+Section 22: Medicines for reproductive health and perinatal care 467
+Changes to Section 22 467
+
+Section 24: Medicines for mental and behavioural disorders 468
+Methylphenidate – addition – EML and EMLc  468
+
+24.1 Medicines used in psychotic disorders 489
+Aripiprazole – addition – EML 489
+
+24.2 Medicines used in mood disorders 501
+Brexpiprazole – addition – EML  501
+
+24.5 Medicines for disorders due to psychoactive substance use 512
+Cytisine – addition – EML  512
+
+Section 27: Vitamins and minerals 520
+Iodine capsules – deletion – EML and EMLc 520
+
+Acknowledgements 523
+
+Annex 1  525
+WHO Model List of Essential Medicines – 24th List (2025) 525
+
+Annex 2  615
+WHO Model List of Essential Medicines for Children – 10th List (2025) 615
+
+Annex 3  679
+Alphabetical list of essential medicines (with ATC codes & section numbers) 679
+
+
+
+
+
+ix
+
+Executive summary
+The meeting of the 25th WHO Expert Committee on the Selection and Use of Essential Medicines 
+took place at WHO headquarters in Geneva, Switzerland, from 5 to 9 May 2025. The aim of the 
+meeting was to review and evaluate applications for the 24th WHO Model List of Essential Medicines 
+(EML) and the 10th WHO Model List of Essential Medicines for Children (EMLc) (the Model Lists).
+
+Essential medicines are those that satisfy the priority health-care needs of a population. They 
+are selected with due regard to disease prevalence and public health relevance, evidence of 
+efficacy and safety, and comparative cost–effectiveness. They are intended to always be available 
+in functioning health systems, in appropriate dosage forms, of assured quality and at prices 
+individuals and health systems can afford.
+
+The WHO Model Lists are updated every 2 years and are intended as a guide for countries or regional 
+authorities to adopt or adapt in accordance with local priorities and treatment guidelines for the 
+development and updating of national essential medicines lists. Selection of a limited number of 
+medicines as essential, taking into consideration national disease burden and clinical need, can 
+lead to improved access through streamlined procurement and distribution of quality-assured 
+medicines, support more rational or appropriate prescribing and use, and lower costs for both 
+health-care systems and patients.
+
+The Expert Committee considered a total of 59 applications, including 31 proposals for the 
+addition of new medicines or medicine classes, 10 proposals for new indications for currently 
+listed medicines, three proposals for the addition of new formulations of currently listed medicines, 
+one proposal for the removal of a currently listed medicine, and 14 other applications relevant to 
+the Model Lists and the WHO AWaRe classification of antibiotics. In accordance with procedures 
+endorsed by the 109th Executive Board in the Report by the Secretariat EB109/8 in 2001, the 
+Expert Committee reviewed and evaluated the scientific evidence for the effectiveness, safety, and 
+comparative cost and cost–effectiveness of the medicines in question. 
+
+In summary, the Expert Committee:
+
+ ■ recommended the addition of 20 new medicines to the EML (16 to the core list and 
+four to the complementary list);
+
+ ■ recommended the addition of 15 new medicines to the EMLc (12 to the core list and 
+three to the complementary list);
+
+ ■ recommended adding additional indications for seven currently listed medicines; 
+
+ ■ recommended the addition of new formulations of 19 medicines on the EML and of 
+49 medicines on the EMLc;
+
+ ■ recommended the deletion of three medicines from the EML and four medicines 
+from the EMLc and the deletion of specific formulations of a further 20 medicines 
+from the EML and 29 medicines from the EMLc; and
+
+ ■ did not recommend proposals for the addition of new medicines or new indications 
+for 24 medicines or medicine classes.
+
+
+
+x
+
+W
+H
+
+O
+ T
+
+ec
+hn
+
+ic
+al
+
+ R
+ep
+
+or
+t S
+
+er
+ie
+
+s, 
+N
+
+o.
+ 1
+
+06
+4,
+
+ 2
+02
+
+5
+The selection and use of essential medicines   Report of the 25th WHO Expert Committee
+
+The recommended changes bring the total number of medicines (including fixed-dose 
+combinations) on the EML to 523 (from 502 in 2023), including 374 on the EMLc (from 361 in 
+2023). These totals do not include medicines recommended on the Model Lists as therapeutic 
+alternatives.
+
+Changes to the Model Lists are shown in Tables 1–3. Applications for proposed changes to the 
+Model Lists that were not recommended are shown in Table 4. Changes to the AWaRe classification 
+of antibiotics are shown in Table 5.
+
+The Expert Committee’s recommendations are briefly described in this document. 
+
+All applications and documents reviewed by the Expert Committee are available on the WHO 
+website (1).
+
+Section 1: Anaesthetics, preoperative medicines and medical gases
+Section 1.1.1 Inhalational medicines
+The Expert Committee recommended:
+
+ ■ the removal of halothane from the EML and EMLc to reinforce the importance of 
+prioritizing alternative inhalational anaesthetic agents (e.g. sevoflurane);
+
+ ■ the inclusion of a note with the listing of nitrous oxide on the EML and EMLc about 
+the preferred supply via point-of-care cylinders instead of centrally supplied (piped) 
+delivery systems.
+
+The Expert Committee recognized that halothane and nitrous oxide are potent greenhouse 
+gases and ozone-depleting substances with significant environmental consequences. These 
+recommendations support efforts to reduce the impact of essential anaesthetic gases on climate 
+change. The Expert Committee considered that substitution of halothane with alternatives that 
+have a lower propensity for environmental impact (e.g. sevoflurane) while delivering high-quality 
+care is an important action for health-care systems. Equally, minimizing system waste by adopting 
+a nitrous oxide waste reduction strategy and transitioning to point-of-care cylinders from centrally 
+piped infrastructure should be encouraged in national health-care systems.
+
+Section 5: Medicines for neurological disorders
+The Expert Committee endorsed changes to the structure of Section 5 of the Model Lists, 
+incorporating the suggestions made by Médecins Sans Frontières in its contribution received during 
+the public consultation period. Additional changes to this section after other recommendations 
+made during the meeting are also endorsed. The changes are summarized in Table 3.
+
+Section 5.1 Medicines for central nervous system disorders and infections
+The Expert Committee did not recommend the inclusion of risdiplam on the EML and EMLc for 
+use in the treatment of spinal muscular atrophy at this time. As was the case when an application 
+for risdiplam was considered by the 2023 Expert Committee, the Committee noted that greater 
+
+
+
+xi
+
+Executive summary
+
+benefits of treatment in terms of motor function were observed in younger children. In particular, 
+the Committee noted the preliminary reporting of positive and relevant outcomes from the 
+RAINBOWFISH trial in presymptomatic infants, but that the trial results have to date only been 
+reported in a conference presentation and have not yet been evaluated by the clinical and 
+scientific community and published in a peer-reviewed journal. As such, the internal and external 
+validity of the results could not be fully assessed by the Expert Committee due to limited available 
+information. The Committee requested that a further update be sought in a resubmission to 
+the 2027 Expert Committee meeting, with the latest published RAINBOWFISH trial results. The 
+Committee also considered that if the preliminary results of the 24-month follow-up of the 
+RAINBOWFISH trial are confirmed for patient-important outcomes (e.g. ability to sit without 
+support, reduced need for respiratory support), if the risk of bias associated with the trial is low, if 
+eligible presymptomatic patients can be identified, and if no evidence emerges against the use 
+of risdiplam in this population (e.g. serious safety concerns), then a positive recommendation to 
+include risdiplam on the EMLc could be possible in the future.
+
+Section 5.1.1 Antiseizure medicines
+The Expert Committee recommended extending the listing for prednisolone on the EMLc to 
+include the new indication of infantile epileptic spasms syndrome, based on clinical need, 
+evidence of favourable effectiveness and safety, lower costs and better cost–effectiveness than 
+alternative first-line treatment options.
+
+Section 5.1.4 Medicines for cerebral palsy
+The Expert Committee recommended the addition of intrathecal baclofen to the EML and EMLc 
+for the treatment of spasticity associated with cerebral palsy based on evidence of a favourable 
+balance of efficacy and harms. Oral baclofen was also recommended for addition in recognition of 
+its use: to assess responsiveness to intrathecal therapy before surgery to install the administration 
+pump; as a complementary therapy during the intrathecal dose titration when the pump is 
+installed; as supportive therapy when intrathecal baclofen therapy is discontinued; and to prevent 
+and treat baclofen withdrawal, which can be severe and life-threatening. 
+
+Section 5.1.5 Medicines for headache disorders
+The Expert Committee did not recommend the inclusion of carbamazepine for the new indication 
+of trigeminal neuralgia because the available clinical evidence was of insufficient quality and 
+therefore confidence in the reported benefits and harms was limited.
+
+Section 5.1.5.1 Medicines for acute migraine attacks
+The Expert Committee recommended the addition of eletriptan, ibuprofen and naproxen to the 
+EML for acute treatment of migraine based on evidence of favourable benefit-to-harm profiles, 
+and the possibility of increasing the choice of medicines for acute migraine for patients, while 
+maintaining a parsimonious number of options at the pharmacological class level. Naproxen is 
+listed as a therapeutic alternative to ibuprofen and eletriptan is listed as a therapeutic alternative 
+to sumatriptan under square box listings. 
+
+
+
+xii
+
+W
+H
+
+O
+ T
+
+ec
+hn
+
+ic
+al
+
+ R
+ep
+
+or
+t S
+
+er
+ie
+
+s, 
+N
+
+o.
+ 1
+
+06
+4,
+
+ 2
+02
+
+5
+The selection and use of essential medicines   Report of the 25th WHO Expert Committee
+
+Section 5.1.5.2 Medicines for migraine prophylaxis
+The Expert Committee did not recommend the inclusion of amitriptyline or bisoprolol for migraine 
+prophylaxis due to inadequate evidence for relative benefit compared with currently listed 
+propranolol. The Committee did not recommend the inclusion of fremanezumab for prophylaxis of 
+high-frequency or chronic migraine. The Committee considered that fremanezumab demonstrated 
+favourable outcomes compared with placebo. However, the absence of direct comparative 
+evidence for fremanezumab versus currently listed propranolol and the resultant uncertainty about 
+the relative benefit made it impossible to adequately justify the substantial cost difference between 
+the two medicines. 
+
+Section 5.1.5.3 Medicines for cluster headache
+The Expert Committee recommended the inclusion of sumatriptan, prednisolone and verapamil 
+in the EML for the acute treatment and prophylaxis of cluster headache based on a favourable 
+balance of benefits to harms, while also noting the key role of rapid-flow oxygen for this indication.
+
+Section 6: Anti-infective medicines
+Section 6.1.2 Antifilarials 
+The Expert Committee recommended the inclusion of moxidectin on the EML and EMLc as a 
+therapeutic alternative to ivermectin for treatment of onchocerciasis and lymphatic filariasis based 
+on evidence of a favourable balance of benefits to harms.
+
+Section 6.1.3 Antischistosomals and other antitrematode medicines
+The Expert Committee recommended the addition of arpraziquantel, a dispersible or orodispersible 
+tablet, on the EMLc for the treatment of schistosomiasis in preschool-aged children based 
+on evidence of similar efficacy and safety when compared with praziquantel. The Committee 
+recognized the medical need for a more palatable, easy-to-administer paediatric formulation 
+of praziquantel and the efforts to develop innovative orodispersible tablet formulations for 
+praziquantel for paediatric use. The Committee noted that arpraziquantel is the active enantiomer 
+of praziquantel. The Committee considered that the proposed formulation was age-appropriate 
+for the target population, allowed precise dosing of children and infants of different body weights 
+and had better palatability and acceptability than praziquantel for this age group. Listing is 
+recommended for arpraziquantel as a therapeutic alternative to praziquantel (which remains the 
+class representative) under a square box listing.
+
+Section 6.2.3 Reserve group antibiotics
+The Expert Committee did not recommend the inclusion of imipenem + cilastatin + relebactam 
+for the treatment of infections caused by multidrug-resistant organisms for the same reasons as 
+given by the previous Expert Committee: imipenem + cilastatin + relebactam lacks in vitro activity 
+against the carbapenemase genotypes most commonly associated with carbapenem resistance 
+in Enterobacterales globally; and other reserve antibiotics with a similar spectrum of activity are 
+already included on the Model Lists. However, the Committee advised that future evaluation of 
+
+
+
+xiii
+
+Executive summary
+
+an application for inclusion of imipenem + cilastatin + relebactam on the Model List could be 
+considered following any changes to the definition of the AWaRe Reserve category arising from 
+the planned revision (see Other matters considered by the Expert Committee).
+
+Section 6.2.5 Antituberculosis medicines
+The Expert Committee recommended the inclusion of a dispersible tablet formulation of 
+rifapentine 150 mg on the EMLc for use in tuberculosis preventive treatment regimens in children 
+in accordance with recommendations in WHO guidelines. 
+
+The Committee recommended the removal of the footnote on limiting the use of rifabutin to 
+patients with human immunodeficiency virus (HIV) receiving protease inhibitors and the transfer 
+the listings of medicines used in multidrug-resistant tuberculosis from the complementary (e.g. 
+secondary care level) to the core list (e.g. primary care level).
+
+Section 6.4.2 Antiretrovirals
+The Expert Committee recommended the inclusion of a fixed-dose combination dispersible tablet 
+formulation of abacavir + dolutegravir + lamivudine on the EMLc for the treatment of children 
+with HIV in accordance with recommendations in WHO guidelines.
+
+Section 6.4.3 Other antivirals
+The Expert Committee recommended the removal of ribavirin from the EML and EMLc as a 
+treatment for viral haemorrhagic fevers. The Committee noted how the interpretation of evidence 
+supporting ribavirin for viral haemorrhagic fevers has shifted significantly since the 1980s. Ribavirin 
+was recommended as a routine treatment based largely on a quasi-experimental study conducted 
+during that time, which suggested potential benefits, particularly in Lassa fever. However, that 
+early evidence was methodologically unsatisfactory, with substantial risks of bias, including lack 
+of randomization, small sample sizes and inadequate control groups. Over time, as standards for 
+evaluating clinical interventions have become more rigorous, the limitations of the original evidence 
+have become more apparent. Recent reviews have highlighted the lack of high-quality randomized 
+controlled trials and have raised concerns about the potential for harm, such as haemolytic anaemia 
+and other adverse effects. The Committee noted that WHO guidance for the clinical management of 
+viral haemorrhagic fevers is currently under development and it is expected that ribavirin treatment 
+will be recommended only within the context of clinical trials to evaluate safety and efficacy.
+
+Section 6.5.5 Antitrypanosomal medicines
+The Expert Committee recommended extending the listing for fexinidazole on the EML and 
+EMLc to include the new indication of treatment for first- and second-stage human African 
+trypanosomiasis due to Trypanosoma brucei rhodesiense in adults and children aged 6 years 
+and older based on evidence of effectiveness and safety compared with alternative treatments. 
+Compared with suramin (for first stage) or melarsoprol (for second stage), fexinidazole is the 
+preferred treatment for both stages of the disease, is administered orally and it is not associated 
+with fatal reactive encephalopathy, a rare but severe and often deadly complication of melarsoprol.
+
+
+
+xiv
+
+W
+H
+
+O
+ T
+
+ec
+hn
+
+ic
+al
+
+ R
+ep
+
+or
+t S
+
+er
+ie
+
+s, 
+N
+
+o.
+ 1
+
+06
+4,
+
+ 2
+02
+
+5
+The selection and use of essential medicines   Report of the 25th WHO Expert Committee
+
+Section 7: Medicines for cystic fibrosis
+The Expert Committee recommended the inclusion of elexacaftor + tezacaftor + ivacaftor 
+fixed-dose combination and single-agent ivacaftor on the core list of the EML and EMLc for the 
+treatment of cystic fibrosis in people aged 2 years and older with at least one F508del mutation or 
+another responsive cystic fibrosis transmembrane conductance regulator (CFTR) mutation based 
+on evidence of a favourable balance of benefits to harms. The Committee acknowledged the 
+relevant benefits across multiple outcomes, including improvement in lung function, reduction in 
+pulmonary exacerbations due to infections or inflammation, improvements in quality of life and 
+potential to prevent or at least delay long-term complications, including premature death. The 
+Committee recognized that the evidence supporting use of elexacaftor + tezacaftor + ivacaftor 
+is solid, as it originates from multiple high-quality randomized controlled trials and post-approval 
+observational studies confirm the effectiveness and safety in more populations than those enrolled 
+in trials. The Committee noted that elexacaftor + tezacaftor + ivacaftor therapy is effective for most 
+patients with cystic fibrosis, significantly expanding the cohort of patients that can benefit from 
+this therapy compared with earlier CFTR modulators, which only benefited smaller subgroups. The 
+Committee acknowledged the high cost and limited availability of the medicines but considered 
+that inclusion could support efforts to expand regulatory approval across countries, stimulate 
+development of generics and promote equitable access and affordability. Listing is recommended 
+in a new section of the Model Lists for medicines for cystic fibrosis. 
+
+Section 8: Immunomodulators and antineoplastics
+Section 8.2.1 Cytotoxic medicines
+The Expert Committee did not recommend the inclusion of temozolomide on the EML and 
+EMLc for the treatment of high-grade glioma (as monotherapy), relapsed or refractory high-
+risk neuroblastoma (in combination with irinotecan or topotecan), relapsed Ewing sarcoma (in 
+combination with irinotecan), or as monotherapy for treatment of other relapsed or refractory 
+paediatric solid tumours as palliative treatment. The Committee noted that temozolomide has 
+not been demonstrated to improve survival in patients with neuroblastoma or Ewing sarcoma 
+and, while the medicine has shown a small survival benefit in some patients with high-grade 
+glioma, the evidence is limited. Temozolomide is also associated with an increased risk of severe 
+haematological toxicity. Thus, the Committee considered that the balance of benefit to harm was 
+not favourable.
+
+Section 8.2.2 Targeted therapies
+The Expert Committee did not recommend the inclusion of panitumumab, a monoclonal antibody 
+targeting the epidermal growth factor receptor (EGFR), on the EML for the treatment of KRAS wild-
+type metastatic colorectal cancer based on evidence of limited survival benefit and risk of harms. 
+The Committee noted that the overall survival benefit in the second- and third-line settings was 
+below the established threshold for EML eligibility (i.e. a minimum overall survival benefit of 4–6 
+months). In the first-line setting the overall survival benefit was modest and not consistent across 
+all patients and may be influenced by factors such as tumour location and additional RAS/BRAF 
+
+
+
+xv
+
+Executive summary
+
+mutations. The Committee noted the need to exclude patients with RAS mutations, given that the 
+addition of panitumumab to chemotherapy in this population has been shown to decrease overall 
+survival. The Committee also noted substantial toxicities.
+
+The Expert Committee recommended the inclusion of zanubrutinib, a Bruton tyrosine kinase 
+inhibitor, on the EML for the treatment of relapsed or refractory chronic lymphocytic leukaemia/
+small lymphocytic lymphoma based on evidence of a survival advantage compared with chemo-
+immunotherapy, and a similar survival benefit to that previously observed for ibrutinib, with 
+fewer side-effects (e.g. less atrial fibrillation and bleeding in some trials). Evidence in the first-
+line setting is promising but is not yet as well established as in the relapsed or refractory setting. 
+An application presenting the evidence for this class of medicines in the first-line treatment of 
+chronic lymphocytic leukaemia/small lymphocytic lymphoma is encouraged for 2027. Listing is 
+recommended for zanubrutinib as a therapeutic alternative to ibrutinib (which remains the class 
+representative) under a square box listing. The Committee acknowledged that ibrutinib remains 
+highly priced in most countries. Ibrutinib may face competition from newer-generation Bruton 
+tyrosine kinase inhibitors such as zanubrutinib, which is more accessible in some countries, has a 
+better domestic cost–effectiveness profile and potentially could better align with local medicine 
+policy priorities.
+
+Section 8.2.3 Immunomodulators
+The Expert Committee recognized that cancer is a growing societal, public health and 
+economic problem globally and is responsible for nearly one in three premature deaths from 
+noncommunicable disease. The proportion of patients with advanced stage at first presentation is 
+still substantial. Solid tumours that are amenable to effective therapy using programmed cell death 
+protein 1/programmed cell death ligand-1 (PD-1/PD-L1) immune checkpoint inhibitors are major 
+causes of the rising burdens with respect to lives lost and cost of management. The Committee 
+noted the rapid pace of innovation in immuno-oncology and emphasized the importance of 
+reducing inequities in cancer care by increasing access to immune checkpoint inhibitors, among 
+other strategies.
+
+In consideration of the application proposing inclusion on the EML of multiple PD-1/PD-L1 
+immune checkpoint inhibitors for multiple cancer indications, the Expert Committee:
+
+ ■ appreciated the approach taken by the WHO Collaborating Centre on Evidence 
+Synthesis and Evaluation of Novel Cancer Therapies at the University of Cologne, 
+Germany to identify the PD-1/PD-L1 immune checkpoint inhibitor–indication 
+pairings proposed for EML listing from among the many approved and available, and 
+noted that the approach was up-to-date, comprehensive, systematic, transparent 
+and evidence-based and provided a solid basis for its decision-making;
+
+ ■ noted that all proposed pairings were approved by the European Medicines Agency 
+for the first-line treatment of adults for the therapeutic indications for which they 
+are proposed, had evidence from randomized trials, and received a score of four or 
+higher on the European Society of Medical Oncology’s Magnitude of Clinical Benefit 
+Scale in the non-curative setting;
+
+
+
+xvi
+
+W
+H
+
+O
+ T
+
+ec
+hn
+
+ic
+al
+
+ R
+ep
+
+or
+t S
+
+er
+ie
+
+s, 
+N
+
+o.
+ 1
+
+06
+4,
+
+ 2
+02
+
+5
+The selection and use of essential medicines   Report of the 25th WHO Expert Committee
+
+ ■ applied the EML principle for cancer medicines to demonstrate at least 4–6 months 
+overall survival gain in randomized controlled trials;
+
+ ■ appreciated and took into consideration the review of the application by the EML 
+Cancer Experts group and the evidence-to-decision frameworks that followed the 
+GRADE approach prepared by the Secretariat.
+
+The Committee favoured pairings where the evidence strongly supported a large benefit-to-risk 
+ratio. The Committee considered monotherapy more positively than combination therapy for 
+indications where both are approved and a trade-off between additional efficacy, toxicity and cost 
+would typically occur.
+
+The Expert Committee recommended the inclusion of the following immune checkpoint inhibitors 
+on the EML:
+
+ ■ pembrolizumab, atezolizumab and cemiplimab as first-line monotherapy of 
+metastatic non-small cell lung cancer with ≥ 50% PD-L1 expression, listing 
+pembrolizumab with a square box as class representative and atezolizumab and 
+cemiplimab as specified therapeutic alternatives;
+
+ ■ pembrolizumab as first-line monotherapy for deficient mismatch repair/
+microsatellite instability-high (dMMR/MSI-H) metastatic colorectal cancer; 
+
+ ■ pembrolizumab, in combination with platinum-based chemotherapy, as first-line 
+treatment of metastatic cervical cancer with ≥ 1% PD-L1 expression.
+
+The Committee considered that these recommendations for inclusion provide the best chance at 
+minimizing financial burden and concentrating expenditure in the areas with the most favourable 
+incremental gain in benefit-to-risk ratio. The Committee noted that use of immune checkpoint 
+inhibitors in adults with solid tumours that have predictive biomarkers (e.g. high PD-L1 expression 
+for non-small cell lung cancer) rather than all patients is the highest priority to enable greater 
+access in settings where budgetary constraints may require prioritization of scenarios that offer 
+the greatest clinical value.
+
+With the recommendation to list pembrolizumab for the above-mentioned indications, the 
+Committee recommended changing the current square box listing of nivolumab as the class 
+representative and pembrolizumab as a specified therapeutic alternative for metastatic melanoma, 
+to make pembrolizumab the class representative with nivolumab as specified therapeutic 
+alternative. This is intended to signal to countries the possibility of aggregating procurement 
+of a single molecule, pembrolizumab, across multiple cancer indications and influencing price 
+negotiations with manufacturers. Limiting procurement fragmentation by focusing on a select 
+few immune checkpoint inhibitors is likely to facilitate central purchasing through competitive 
+tendering and better competition from pembrolizumab biosimilars, thereby increasing access.
+
+In addition to its recommendations on which immune checkpoint inhibitors to prioritize for 
+inclusion on the EML, the Committee also recognized the value and recommended the use of 
+strategies to improve access, particularly in resource-constrained settings, as presented in the report 
+
+
+
+xvii
+
+Executive summary
+
+from the EML cancer experts consultation meeting. The Committee noted that these strategies 
+were based on evaluation of available evidence and pragmatic considerations. The Committee 
+considered the strategies to improve access to care had two components: clinical strategies and 
+health system strategies. The Committee acknowledged that while clinical strategies (over which 
+doctors and patients have greater control) and health system strategies (requiring government-
+led policy legislations and reforms) should complement each other, clinical strategies can be 
+implemented immediately, thereby delivering rapid benefits for access.
+
+Clinical strategies – doctors and patients. The Committee acknowledged the importance of 
+empowering patients to make an informed and consensual decision about their treatment, 
+including information on benefits, harms, accessibility and feasibility of care. This might require 
+comparing alternatives that differ from each other in one or more of the aforementioned 
+dimensions. Strategies that can improve access include: dose optimization according to patient 
+weight (weight-based dosing); rounding down doses to the closest vial size and strength 
+(dose banding); or hybrid dosing regimens that combine the two; and, if relevant, vial sharing. 
+Additionally, longer intervals between treatment administration or shorter durations of treatment 
+can be considered. The Committee also noted that ongoing studies were investigating outcomes 
+with ultra-low dose immunotherapy. If the results are favourable, ultra-low dose immunotherapy 
+could be a viable strategy to further improve access.
+
+Health system strategies – policy-makers. To enable better value procurement through tendering 
+and competition leading to increased access for individuals and health systems, the Committee 
+recommended that national policies should take advantage of similar clinical performance among 
+different immune checkpoint inhibitors, regardless of their biological target (i.e. PD-1 or PD-L1). 
+The Committee opted to recommend four immune checkpoint inhibitors for non-small cell lung 
+cancer using the square box listing, indicating interchangeability at the health system level for 
+this indication. The recommended medicines have different pharmacological properties but are 
+considered therapeutic alternatives. Where there is no relevant difference in terms of efficacy 
+and safety data, the preferred medicine at the country level should be the one that is generally 
+available at the lowest price. At the country level, the interpretation of the square box should 
+be extensive (i.e. a class effect), potentially covering other equally effective and safe immune 
+checkpoint inhibitors of assured quality where these are offered at an advantageous price.
+
+The Committee also recommended that quality-assured biosimilars of the listed immune 
+checkpoint inhibitors be considered therapeutic alternatives to the corresponding reference 
+medicine (even if not yet available), to signal to countries the importance of strategies to encourage 
+rapid entry of biosimilars into markets.
+
+The Committee recognized the need for companion in-vitro diagnostic tests to identify patients 
+eligible for treatment with the recommended immune checkpoint inhibitors. The Committee 
+noted that access to diagnostic capacity is limited in less-resourced settings and may be a barrier 
+to appropriate and optimal use of these medicines. However, the Committee highlighted that 
+this limited capacity is more variable in middle-income countries, where testing for molecular 
+alterations is more readily available and the price associated with tests is a small fraction of the 
+price associated with treatment. The Committee recognized that the requirement for companion 
+
+
+
+xviii
+
+W
+H
+
+O
+ T
+
+ec
+hn
+
+ic
+al
+
+ R
+ep
+
+or
+t S
+
+er
+ie
+
+s, 
+N
+
+o.
+ 1
+
+06
+4,
+
+ 2
+02
+
+5
+The selection and use of essential medicines   Report of the 25th WHO Expert Committee
+
+diagnostics adds additional cost but offers a pathway to limit inappropriate use of immune 
+checkpoint inhibitors (i.e. outside of recommended indications) and serves to prevent the waste 
+of resources with non-essential or lower-value use. 
+
+The Committee considered that countries can apply their own affordability criteria to determine 
+which (if any) of the recommended immune checkpoint inhibitors can be reasonably incorporated 
+into national EMLs and reimbursement schemes. In addition, the Committee considered 
+that countries can apply their own feasibility criteria in assessing health system readiness for 
+implementing immune checkpoint inhibitors, in terms of diagnostic infrastructure, health-care 
+worker training in immuno-oncology, resources for the management of immune-mediated side-
+effects and monitoring capabilities, to ensure their safe and effective use. 
+
+The Expert Committee did not recommend listing for the following immune checkpoint inhibitors:
+
+ ■ cemiplimab, durvalumab plus tremelimumab, nivolumab plus ipilimumab, or 
+pembrolizumab – each in combination with chemotherapy – for the treatment of 
+oncogenic-driver wild-type metastatic non-small cell lung cancer regardless of PD-
+L1 expression;
+
+ ■ tislelizumab in combination with chemotherapy for oncogenic-driver wild-type 
+metastatic non-small cell lung cancer with ≥ 50% PD-L1 expression;
+
+ ■ nivolumab plus ipilimumab for the treatment of dMMR/MSI-H phenotype metastatic 
+colorectal cancer or metastatic melanoma;
+
+ ■ dostarlimab in combination with chemotherapy for dMMR/MSI-H phenotype 
+metastatic endometrial cancer;
+
+ ■ pembrolizumab or nivolumab, in combination with chemotherapy, for first-line 
+treatment of metastatic ERBB2-negative gastric or gastro-oesophageal junction 
+adenocarcinoma with ≥ 1% or ≥ 5% PD-L1 expression, respectively;
+
+ ■ durvalumab in combination with chemotherapy for first-line treatment of biliary 
+tract cancer regardless of PD-L1 expression;
+
+ ■ durvalumab monotherapy, durvalumab plus tremelimumab, or atezolizumab 
+plus bevacizumab for first-line treatment for metastatic hepatocellular carcinoma 
+regardless of PD-L1 expression;
+
+ ■ pembrolizumab in combination with chemotherapy for first-line treatment of 
+metastatic head and neck squamous cell carcinoma;
+
+ ■ pembrolizumab, nivolumab, or nivolumab + ipilimumab – each in combination 
+with chemotherapy – for first-line treatment of metastatic oesophageal squamous 
+cell cancer;
+
+ ■ nivolumab + ipilimumab, pembrolizumab + axitinib, or pembrolizumab + lenvatinib 
+for the first-line treatment of metastatic renal cell carcinoma regardless of PD-L1 
+expression;
+
+
+
+xix
+
+Executive summary
+
+ ■ pembrolizumab in combination with chemotherapy for first-line treatment of triple-
+negative breast cancer with combined positive score (CPS) ≥ 10.
+
+Reasons not to recommend inclusion of these pairings included prioritization of monotherapy 
+over combination therapy, magnitude of overall survival gains of less than 4–6 months, limited 
+or absence of mature overall survival data, unfavourable benefit-to-risk profiles, uncertainty 
+about optimal immune checkpoint inhibitor and tyrosine kinase inhibitor positioning (i.e. 
+in sequence or in combination), and uncertainty about optimal use across different patient 
+cohorts which may vary with the immunogenicity of tumour types.
+
+The Expert Committee did not recommend the inclusion of tislelizumab or toripalimab on the EML 
+for the treatment of oesophageal squamous cell carcinoma at this time. In the first-line setting, 
+the Committee considered that the reported overall survival gains offered by these medicines 
+were relatively consistent (suggesting that these medicines could be considered therapeutic 
+alternatives). However, the Committee judged the overall survival gains to be moderate in size and 
+that the benefit of these gains was offset by the unclear role of PD-L1 expression as a predictive 
+biomarker. The Committee also noted the potential for increased harm in patients with poorer 
+prognosis at baseline and the lack of mature overall survival data. In the second-line setting, the 
+Committee noted that the magnitude of benefit was smaller compared with the first-line setting 
+and did not meet the established 4–6-month threshold. 
+
+The Expert Committee did not recommend the inclusion of toripalimab on the EML for the 
+treatment of nasopharyngeal carcinoma. The Committee considered that toripalimab in 
+combination with chemotherapy showed promising overall survival gains compared with 
+chemotherapy alone in the first-line setting but noted that benefit in the second-line setting 
+was more limited. The Committee also noted that trials of other immune checkpoint inhibitors 
+are ongoing in nasopharyngeal carcinoma. The Committee emphasised that the maturation of 
+additional data, in the context of all immune checkpoint inhibitors approved for nasopharyngeal 
+carcinoma, especially concerning overall survival and quality of life, will be pivotal to inform 
+judgements on whether to include toripalimab on the EML in the future.
+
+The Expert Committee recommended the inclusion of blinatumomab on the EML and EMLc for 
+the treatment of CD-19-positive B-lineage acute lymphoblastic leukaemia based on compelling 
+evidence from randomized clinical trials showing the superiority of blinatumomab over 
+chemotherapy in meaningfully improving: (i) survival in children, adolescents and adults with 
+relapsed B-lineage acute lymphoblastic leukaemia; and (ii) survival in adults with B-lineage acute 
+lymphoblastic leukaemia in the front-line setting; and (iii) disease-free survival in children with 
+B-lineage acute lymphoblastic leukaemia in the front-line setting. Blinatumomab is associated 
+with fewer grade ≥ 3 adverse events compared with chemotherapy but has specific adverse 
+events that would require specialist management and may represent a barrier to implementation 
+in most low-resource settings. Blinatumomab is available as an intravenous formulation. It 
+requires continuous infusion over 28 days per cycle to maintain stable plasma levels due to its 
+very short half-life (about 2 hours). This continuous exposure is crucial to maintain therapeutic 
+efficacy and minimize cytokine release syndrome. The limited feasibility of blinatumomab should 
+be contrasted against the limited feasibility of the comparator – standard chemotherapy – which 
+
+
+
+xx
+
+W
+H
+
+O
+ T
+
+ec
+hn
+
+ic
+al
+
+ R
+ep
+
+or
+t S
+
+er
+ie
+
+s, 
+N
+
+o.
+ 1
+
+06
+4,
+
+ 2
+02
+
+5
+The selection and use of essential medicines   Report of the 25th WHO Expert Committee
+
+involves highly toxic, multi-agent regimens over an extended period. In both paediatric and adult 
+patients, standard chemotherapy requires frequent hospitalizations and supportive care, including 
+for long-term sequelae of prolonged myelosuppression.
+
+Overall, the Committee considered that the balance of benefit to harm of blinatumomab was 
+strongly favourable in a disease where clinical cure is a realistic goal. The Committee noted the 
+current high cost of blinatumomab treatment and that, while it has been determined to be cost-
+effective in some high-income settings, cost–effectiveness studies in other settings have given 
+variable results, depending on patient population and line of therapy. In considering the feasibility 
+of implementing blinatumomab, the Committee recognized that countries in resource-limited 
+settings considering including blinatumomab on their national EMLs must consider their capacity 
+to ensure the requirements for safe administration, management of adverse events and local 
+prioritization of implementation with respect to age and line of treatment.
+
+Section 8.2.5 Supportive medicines
+The Expert Committee did not recommend the expansion of the indications for erythropoiesis 
+stimulating agents (e.g. epoetin alfa) on the EML and EMLc to include supportive management 
+of chemotherapy-induced anaemia, based on an unfavourable and uncertain long-term benefit-
+to-harm profile. The Committee noted that judicious use of erythropoiesis-stimulating agents 
+in patients receiving chemotherapy improves haemoglobin levels, may reduce transfusion 
+requirements and may be associated with improvements in quality of life. However, they 
+have not been shown to improve overall survival, with some clinical studies reporting inferior 
+survival and worse cancer outcomes, as these medicines might stimulate tumour growth 
+directly or affect the tumour microenvironment. The Committee also noted that guidelines from 
+professional societies (e.g. the American Society of Clinical Oncology and the European Society 
+of Medical Oncology) recommend careful patient selection and informed consent about risks 
+and conservative dosing, factors that are important limitations to the feasibility of the use of this 
+class of medicines in this context.
+
+Section 10: Medicines affecting the blood
+Section 10.2 Medicines affecting coagulation
+The Expert Committee recommended the inclusion of emicizumab on the EML and EMLc for 
+prophylactic treatment of haemophilia A with and without factor VIII (FVIII) inhibitors based on 
+a favourable balance of benefits to harms. The Committee also made some important remarks 
+on the implementation of the recommendation depending on the level of available resources. 
+In recognition of the current high price of emicizumab, the Committee highlighted that the 
+value of emicizumab prophylaxis is greatest in people with haemophilia A with FVIII inhibitors, 
+in whom factor replacement is ineffective. In people with severe haemophilia A without FVIII 
+inhibitors, prophylaxis with plasma-derived or recombinant FVIII may be a better value, more 
+affordable treatment option. In considering the inclusion of emicizumab on national EMLs 
+in resource-limited settings, and in line with national needs, decision-makers may wish to 
+prioritize/limit selection and use of emicizumab in the first instance to the population of people 
+
+
+
+xxi
+
+Executive summary
+
+with haemophilia A with FVIII inhibitors. Selection and use could be extended to people with 
+severe haemophilia A without inhibitors when the price of emicizumab is lowered and/or if 
+resources allow.
+
+The Expert Committee recommended the inclusion of phytomenadione mixed micelle 
+solution formulation on the EML and EMLc for the management of haemorrhage due to severe 
+hypoprothrombinaemia, and on the EMLc for the prophylaxis and treatment of haemorrhagic 
+disease of the newborn. The Committee considered that the proposed formulation is an additional 
+effective treatment option that offers flexibility for administration, with evidence of comparable 
+efficacy and safety as currently listed formulations.
+
+Section 10.3 Medicines for haemoglobinopathies 
+The Expert Committee endorsed the proposed changes to Section 10.3 of the Model Lists 
+made by the Secretariat, incorporating the suggestions made by the WHO Department of 
+Maternal, Newborn, Child and Adolescent Health, and Ageing to title the section “Medicines for 
+haemoglobinopathies” and to transfer the listing of hydroxyurea (hydroxycarbamide) from the 
+complementary to the core list.
+
+Section 11: Blood products, coagulation factors, and plasma 
+substitutes 
+Section 11.1 Blood and blood components
+The Expert Committee recommended that non-pathogen-reduced (i.e. native) cryoprecipitate 
+and pathogen-reduced cryoprecipitate be removed from the Model Lists for use in prophylactic 
+treatment of haemophilia A and von Willebrand disease. The Committee recognized the increased 
+risks of transfusion-transmitted infections associated with repeated transfusions in patients with 
+these conditions.
+
+The Expert Committee recommended that non-pathogen-reduced (i.e. native) cryoprecipitate be 
+retained on the EML and EMLc as a therapeutic alternative to pathogen-reduced cryoprecipitate 
+for use in cases of life-threatening major haemorrhage and rapid loss of blood volume (e.g. 
+severe trauma, major surgery, obstetric haemorrhage). The Committee considered that at 
+this time and under the aforementioned clinical circumstances, native cryoprecipitate still 
+represents a therapeutic alternative to coagulation factors or pathogen-reduced cryoprecipitate 
+when these are not available. In such situations, the iatrogenic risks are clearly outweighed 
+by the potential life-saving benefits of native cryoprecipitate. The Committee recognized the 
+importance of preferential use of pathogen-reduced cryoprecipitate over native cryoprecipitate 
+due to the reduced risk of transfusion-transmitted infections. However, the Committee noted 
+that widespread global access to pathogen-reduced cryoprecipitate is currently limited. In 
+settings where pathogen-reduced cryoprecipitate is not available, native cryoprecipitate is a 
+last resort alternative. 
+
+The Expert Committee recommended that the current listings for plasma-derived coagulation 
+factors VIII and IX be transferred from the complementary to the core list of the EML and EMLc. 
+
+
+
+xxii
+
+W
+H
+
+O
+ T
+
+ec
+hn
+
+ic
+al
+
+ R
+ep
+
+or
+t S
+
+er
+ie
+
+s, 
+N
+
+o.
+ 1
+
+06
+4,
+
+ 2
+02
+
+5
+The selection and use of essential medicines   Report of the 25th WHO Expert Committee
+
+For consistency across listings for other medicines used in the treatment of haemophilia and 
+von Willebrand disease, the Committee recommended that the listing for desmopressin also be 
+transferred from the complementary to the core list.
+
+The Expert Committee recommended the removal of coagulation factor IX complex as a therapeutic 
+alternative under the square box listing of plasma-derived coagulation factor IX on the EML and EMLc 
+given the increased risk of thrombosis associated with this product.
+
+Section 11.3 Coagulation factors
+The Expert Committee recommended the inclusion of recombinant coagulation factor VIII for 
+prophylactic treatment and on-demand treatment of acute bleeds in people with haemophilia A, 
+and of recombinant coagulation factor IX for prophylactic treatment and on-demand treatment of 
+acute bleeds in people with haemophilia B to the core list of the EML and EMLc. The recommendation 
+is made based on evidence of equal effectiveness to plasma-derived coagulation factors for 
+outcomes including reduced bleeding rates, percentage of patients without bleeding events, 
+improved joint health scores and improved health-related quality of life measurement scores. 
+Compared with plasma-derived coagulation factors, recombinant coagulation factors are not 
+associated with an increased risk of bloodborne virus transmission. Nevertheless, the Committee 
+recognized that plasma-derived coagulation factors continue to represent an important treatment 
+option, may offer advantages over recombinant products in the context of inhibitor development 
+and may be more affordable in some settings. 
+
+Section 12: Cardiovascular medicines 
+Section 12.3 Antihypertensive medicines
+The Expert Committee recommended the inclusion of triple fixed-dose combination 
+antihypertensive formulations containing an angiotensin converting enzyme inhibitor or 
+angiotensin II receptor blocker, a long-acting dihydropyridine calcium channel blocker and a 
+thiazide or thiazide-like diuretic on the EML based on a favourable balance of benefits to harms 
+in patients with uncontrolled blood pressure on dual therapy or in high-risk patients (e.g. with 
+diabetes, kidney disease, cardiovascular disease). The Committee considered the benefits of triple 
+combination therapy in terms of reductions in systolic and diastolic blood pressure and some 
+evidence of improved adherence and persistence compared with free equivalent combination 
+therapy. The Committee considered that the addition of the triple fixed-dose combinations is part 
+of an overall strategy aimed at: meeting the different needs of both patients and health systems 
+in addressing hypertension; ensuring patients can choose based on preference; and standardizing 
+supply, procurement and training. Adverse effects are generally mild and manageable, and 
+consistent with the known adverse-event profiles of the components. Cost comparisons of fixed-
+dose combinations with the sum of the component monotherapies vary across settings and 
+should be considered in national selection decisions. The Committee reiterated the importance of 
+continued availability of single-agent antihypertensives.
+
+
+
+xxiii
+
+Executive summary
+
+Section 13: Dermatological medicines 
+Section 13.1 Antifungal medicines
+The Expert Committee did not recommend the inclusion of ciclopirox hydroxypropyl chitosan 
+nail hydrolacquer on the EML for the treatment of onychomycosis in adults because of the lack of 
+compelling evidence of comparative benefits and safety versus oral or combined oral and topical 
+antifungal treatments, and unknown cost–effectiveness.
+
+Section 13.4 Medicines affecting skin differentiation and proliferation
+The Expert Committee considered that the inclusion of effective and safe biologics for psoriasis on 
+the EML would address an important public health need and support global advocacy efforts to 
+reduce the global burden of psoriasis, especially in low and middle-income countries. The Committee 
+acknowledged that a large number of biologic disease-modifying medicines for psoriasis are 
+available and that there was a need to prioritize the most effective, tolerable and affordable options. 
+
+The Expert Committee recommended the inclusion of adalimumab and ustekinumab on the 
+complementary list of the EML and EMLc for the treatment of adults and children with moderate-
+to-severe psoriasis, based on evidence of favourable efficacy and safety, as second-line treatment 
+alternatives. This listing complements the non-biologic therapies used in first-line treatment of 
+psoriasis currently listed on the Model Lists (e.g. topical corticosteroids, systemic methotrexate). 
+
+The Committee considered that adalimumab and other tumour necrosis factor alpha inhibitors 
+could be considered therapeutic alternatives to each other in most clinical scenarios and that 
+including multiple within-class alternatives on the Model Lists could support greater competition 
+to lower prices. The Committee therefore recommended adalimumab be listed with a square 
+box as the class representative with certolizumab pegol, etanercept and infliximab as specified 
+therapeutic alternatives.
+
+The Committee recommended the inclusion of ustekinumab in addition to adalimumab because 
+of some advantages ustekinumab has over adalimumab and other tumour necrosis factor alpha 
+inhibitors. When considering the administration schedule, adalimumab is administered every 
+2 weeks while ustekinumab is administered every 12 weeks. Less frequent injections are more 
+convenient, with reduced disruption to daily life for patients and reduced burden and costs for 
+health systems. Ustekinumab is preferred to adalimumab in patients with heart disease and 
+in settings where tuberculosis is endemic as this medicine is associated with a lower risk of 
+tuberculosis reactivation. While ustekinumab is currently more highly priced than adalimumab, 
+biosimilars are becoming increasingly available. For ustekinumab, the Committee did not 
+recommend listing with a square box. The Committee acknowledged the data supporting the 
+similar or better effectiveness of other monoclonal antibodies targeting IL-12 and IL-23 (e.g. 
+guselkumab, risankizumab and tildrakizumab) but considered the alternatives had less supportive 
+evidence, biosimilars were not yet available and no information existed on their costs in most 
+jurisdictions which were assumed to be higher than ustekinumab.
+
+Quality-assured biosimilars are recommended as therapeutic alternatives of both adalimumab 
+(and therapeutic alternatives) and ustekinumab.
+
+
+
+xxiv
+
+W
+H
+
+O
+ T
+
+ec
+hn
+
+ic
+al
+
+ R
+ep
+
+or
+t S
+
+er
+ie
+
+s, 
+N
+
+o.
+ 1
+
+06
+4,
+
+ 2
+02
+
+5
+The selection and use of essential medicines   Report of the 25th WHO Expert Committee
+
+Section 13.6 Moisturizers 
+The Expert Committee recommended the inclusion of urea- and glycerol-based moisturizing 
+creams on the EML and EMLc for the treatment of atopic dermatitis based on evidence of benefit, 
+acceptable safety and public health need. Recommended formulations are creams containing 5% 
+urea and creams containing 15% to 20% glycerol with regulatory approval as emollients.
+
+Section 13.7 Sunscreens, broad spectrum 
+The Expert Committee recommended the inclusion of therapeutic broad-spectrum topical 
+sunscreen on the EML and EMLc for the prevention of skin cancer in people with albinism. The 
+Committee recognized the higher susceptibility to the harmful effects of ultraviolet (UV) radiation, 
+including (but not limited to) non-melanoma skin cancer, among people with albinism and the 
+therapeutic need for effective and safe sun protection products in this population. Therapeutic 
+broad-spectrum sunscreens should contain proven active ingredients in appropriate amounts to 
+absorb or filter UVA and UVB radiation and have a high sun protection factor. The Committee was 
+not able to recommend specific formulations for listing at this time. The Committee considered 
+that listing sunscreens, even without a preferred formulation, was important to stimulate greater 
+investment in research to compare the various formulations available and identify those associated 
+with a better profile. The Committee invited the submission of proposals outlining optimal 
+formulation specifications for future consideration by the Expert Committee.
+
+Section 15: Antiseptics and disinfectants
+The Expert Committee recommended that an explicit listing for hypochlorous acid solution as an 
+environmental disinfectant, separate from its general inclusion as a chlorine-based compound, 
+be included on the EML and EMLc to aid differentiation between hypochlorite and hypochlorous 
+acid products.
+
+The Expert Committee did not recommend the inclusion of hypochlorous acid solution for 
+topical use in antisepsis and wound care because the application did not provide an updated 
+comprehensive review of clinical studies to inform the decision-making, as was the request of the 
+Expert Committee in 2021. As was the case in 2021, the evidence in the application supporting 
+topical use of hypochlorous acid solution in antisepsis and wound care was inconclusive. 
+
+Section 18: Medicines for endocrine disorders 
+Section 18.1 Adrenal hormones and synthetic substitutes
+The Expert Committee recommended the inclusion of prednisolone 1 mg tablets on the core 
+list of the EML and EMLc for treatment of adults and children with adrenal insufficiency based 
+on evidence of an acceptable balance of benefits and harms and potential better affordability in 
+some settings than currently listed hydrocortisone. Listing is recommended for prednisolone with 
+a square box, specifying prednisone as a therapeutic alternative.
+
+
+
+xxv
+
+Executive summary
+
+Section 18.5.1 Insulins
+The Expert Committee recommended the inclusion of rapid-acting insulin analogues (insulin 
+lispro, insulin aspart and insulin glulisine, and their quality-assured biosimilars as therapeutic 
+alternatives) on the core list of the EML and EMLc for the treatment of people with type 1 and type 
+2 diabetes, and people with gestational diabetes. The Committee considered that the available 
+evidence indicates generally comparable efficacy and safety between rapid-acting insulin 
+analogues and regular human insulin. The Committee noted that some studies provide evidence 
+of higher patient satisfaction scores with rapid-acting insulin analogues, and others suggest that 
+rapid-acting insulin analogues may be associated with lower rates of complications, with medicine 
+costs offset by reduced demand for high-cost treatments and health services for complications, 
+particularly in type 1 diabetes. However, the Committee considered these arguments for including 
+rapid-acting insulin analogues in the Model Lists to be tenuous. The Committee recognized that 
+rapid-acting insulin analogues may be more expensive than regular human insulin and may be 
+less affordable in some resource-limited settings. However, in other settings, the prices of rapid-
+acting insulin analogues do not exceed the price of regular human insulin. The Committee’s reason 
+for recommending listing of rapid-acting insulin analogues is to support access, recognizing the 
+progressive withdrawal of regular human insulin from markets, and to signal to countries the need 
+for multipronged policy, pricing and procurement strategies to strengthen affordable access. 
+The inclusion of rapid-acting insulin analogues also enlarges the number of insulin products on 
+the Model Lists and complements the listing of long-acting insulin analogues for use in basal-
+bolus regimens. This is also consistent with the listings for short- and intermediate-acting human 
+insulins. Larger insulin markets could help stabilize prices, secure supply chains of quality-assured 
+products and mitigate the risks of shortages. Countries in which insulin prices are excessive 
+should consider strengthening the regulatory framework and implementing or maintaining price 
+control or reference pricing mechanisms. The outcomes of price controls and reference pricing for 
+essential medicines should be closely monitored as these policies can potentially have unintended 
+consequences. The Committee emphasized the importance of commitment and action from 
+WHO, Member States, insulin producers, procurement agencies and other stakeholders to address 
+the problem of equitable and affordable access to insulin products globally.
+
+The Expert Committee also recommended the inclusion of 10 mL vial formulations of long-acting 
+insulin analogues, in addition to the currently listed 3 mL prefilled pen and cartridge formulations.
+
+Section 18.5.2 Hypoglycaemic agents
+The Expert Committee recommended the inclusion of glucagon-like peptide-1 (GLP-1) 
+receptor agonists (semaglutide, dulaglutide and liraglutide) and GLP-1 and glucose-dependent 
+insulinotropic polypeptide (GIP) dual receptor agonists (tirzepatide) on the core list of the EML 
+as add-on glucose-lowering therapy for adults with type 2 diabetes and with: (i) established 
+cardiovascular disease or chronic kidney disease; and (ii) obesity (body mass index (BMI) ≥ 30kg/m2) 
+which has a significant impact on their physical health and/or quality of life. This recommendation 
+is made based on evidence of a meaningful and favourable balance of benefits to harms in this 
+patient population. Listing is recommended for semaglutide with a square box, with dulaglutide, 
+liraglutide and tirzepatide as specified therapeutic alternatives.
+
+
+
+xxvi
+
+W
+H
+
+O
+ T
+
+ec
+hn
+
+ic
+al
+
+ R
+ep
+
+or
+t S
+
+er
+ie
+
+s, 
+N
+
+o.
+ 1
+
+06
+4,
+
+ 2
+02
+
+5
+The selection and use of essential medicines   Report of the 25th WHO Expert Committee
+
+The Expert Committee did not recommend the inclusion of GLP-1 and GLP-1/GIP dual agonists on 
+the EML for the treatment of people with obesity without the above-mentioned comorbidities (type 
+2 diabetes and established cardiovascular disease or chronic kidney disease) because of limited and 
+less mature evidence of benefit for cardiovascular outcomes and mortality in this population and 
+lack of data on long-term safety.
+
+The Expert Committee considered two separate applications: one for the treatment of adults with 
+type 2 diabetes and established or at high-risk of cardiovascular disease and one for the treatment 
+of adults with obesity.
+
+While keeping the recommendations for the diabetes and obesity applications separate, the 
+Expert Committee evaluated the applications together to better contrast possible differences 
+between benefits and harms in the two conditions and understand the implications of coverage 
+for the two cohorts of patients at global, regional and national levels. The Committee also recalled 
+that previous applications (in 2017, 2021 and 2023) for the inclusion of GLP-1 receptor agonists for 
+use in the treatment of diabetes had been evaluated and not recommended.
+
+The Committee recognized that diabetes and obesity are two major global health challenges, with 
+both conditions reaching epidemic proportions in different populations and regions. According 
+to the Global Burden of Disease Study, more than 500 million people worldwide were living with 
+diabetes in 2021, a number projected to exceed 1.3 billion by 2050, reflecting large increases in all age 
+groups, sexes and countries regardless of income level. Simultaneously, the prevalence of obesity has 
+increased globally – more than doubling in adults since 1990 – and now affects more than 2 billion 
+people. Increase in the prevalence of obesity is most rapid in low- and middle-income countries. 
+Both diabetes and obesity are important contributors to mortality and morbidity and are responsible 
+for significant disability-adjusted life years and straining health systems worldwide. Notably, the 
+relationship between obesity and diabetes is both causal and cyclical; excess adiposity significantly 
+increases the risk of type 2 diabetes through mechanisms involving insulin resistance and chronic 
+inflammation. Furthermore, diabetes and obesity together exacerbate the risk of cardiovascular 
+diseases, forming a triad of interlinked conditions that influence each other and jointly account for 
+a substantial proportion of preventable deaths. The Committee noted that 30% to 50% of people 
+with type 2 diabetes have established cardiovascular disease and obesity, representing a large global 
+cohort with this triad of comorbidities. The Committee also noted that for people with all three of 
+these conditions, the risk of death is much higher than in people with diabetes or obesity alone.
+
+The Committee noted the evidence from multiple large-scale randomized controlled trials and 
+systematic reviews demonstrating the efficacy of GLP-1 receptor agonists and GLP-1/GIP dual 
+agonists compared to placebo in people with diabetes in improving glycaemic control, reducing 
+the risk of major adverse cardiovascular events (cardiovascular death, non-fatal myocardial 
+infarction, non-fatal stroke), reducing the risk of end-stage kidney disease, reducing all-cause 
+mortality, improving health-related quality of life and promoting weight loss. The Committee 
+noted the consistency of benefits across studies. The Committee also acknowledged that, while 
+some degree of benefit is possible across all patients irrespective of their risk of cardiovascular 
+diseases, the cohort of patients with type 2 diabetes with known cardiovascular or chronic kidney 
+disease is a high-risk subgroup that is likely to experience the most relevant benefit, with a 10-
+
+
+
+xxvii
+
+Executive summary
+
+fold decreased risk of premature death compared to the cohort of patients at low risk. The large 
+difference in benefit between those at low risk and those at high risk for premature mortality is 
+an important factor that could be used to identify the patients who should be prioritized on the 
+introduction of these medicines at the country level. 
+
+The Committee noted the evidence from a large systematic review demonstrating the efficacy 
+GLP-1 receptor agonists and GLP-1/GIP dual agonists (particularly subcutaneous semaglutide 
+and tirzepatide) compared with lifestyle modification alone in people with obesity for achieving 
+clinically meaningful weight loss and improving quality of life. However, the Committee agreed 
+that evidence for benefits in cardiovascular outcomes and mortality in people with obesity without 
+diabetes is currently limited to a single, large, randomized controlled trial of semaglutide versus 
+placebo. While the outcomes of this trial for cardiovascular outcomes were positive, there were 
+more discontinuations due to adverse events among people receiving semaglutide. The Committee 
+noted that the trial reported outcomes after almost 40 months of follow-up and considered that the 
+available evidence with respect to mortality outcomes was still at an early stage and limited.
+
+Overall, the Committee considered that the magnitude of benefits and certainty of evidence were 
+greater for people with diabetes than for people with obesity, particularly for important outcomes 
+of cardiovascular events and mortality, upon which the Committee placed greater value compared 
+to outcomes of glycaemic control and weight loss. 
+
+Considering the population of people with type 2 diabetes, the Committee identified patients 
+with established comorbid cardiovascular or chronic kidney disease as being the cohort for whom 
+the net benefit of treatment was the greatest. The Committee then decided to include comorbid 
+obesity (BMI ≥ 30 kg/m2) as an additional eligibility criterion, thereby establishing a defined 
+high-risk cohort of people for whom these medicines are listed as essential. The Committee 
+considered the following reasons supported a triple target population: (i) obesity is a condition 
+that can negatively affect both the mental and physical health of people with diabetes, stalling or 
+worsening their health status; (ii) certain molecules within the pharmacological classes of GLP-1 
+receptor agonists and GLP-1/GIP dual agonists have an important effect on body weight, being 
+associated with major weight reductions far exceeding the weight reductions associated with 
+other hypoglycaemic agents on the EML (e.g. sodium-glucose cotransporter 2 inhibitors); and (iii) 
+there is a need to highlight the importance of obesity as a public health priority – one that requires 
+effective treatment and commitment at both scientific and policy levels.
+
+The Committee noted that all proposed GLP-1 (semaglutide, liraglutide and dulaglutide) and GLP-
+1/GIP dual agonists (tirzepatide) were associated with important cardiovascular benefits in patients 
+with type 2 diabetes. However, the Committee noted that there were important differences 
+between these medicines for weight loss, with semaglutide and tirzepatide being associated with 
+greater body weight reductions compared with the other molecules. The Committee noted that 
+availability and use of semaglutide and tirzepatide were constrained by a price that currently limits 
+their use to only well-resourced health-care systems.
+
+The Committee acknowledged the current high price of these medicines and noted reported cost–
+effectiveness ratios that exceeded willingness-to-pay thresholds in many settings, particularly 
+when used in low-risk patients. The Committee also noted the recent or upcoming patent expiry 
+
+
+
+xxviii
+
+W
+H
+
+O
+ T
+
+ec
+hn
+
+ic
+al
+
+ R
+ep
+
+or
+t S
+
+er
+ie
+
+s, 
+N
+
+o.
+ 1
+
+06
+4,
+
+ 2
+02
+
+5
+The selection and use of essential medicines   Report of the 25th WHO Expert Committee
+
+for liraglutide and semaglutide, which will introduce the possibility for entry of generics, increased 
+competition and lower prices. The Expert Committee believed that significant price reductions 
+could be achieved with generic entry and competition, given the size and ubiquity of the market 
+for these medicines. The Committee noted that when a large eligible patient population exists, 
+robust generic competition has consistently proven to be more reliable at sustainably reducing 
+prices than other price-reduction mechanisms. The Committee’s decision to recommend a square 
+box listing for semaglutide, with dulaglutide, liraglutide and tirzepatide as therapeutic alternatives, 
+aims to foster competition among available alternatives. The Committee hoped that having 
+multiple EML-listed options would serve to facilitate the rapid introduction of prequalified generic 
+formulations and would support countries in negotiating lower medicine prices and selecting the 
+product that is the best value option.
+
+The Expert Committee recommended listing of GLP-1 and GLP-1/GIP agonists in the core list 
+to emphasize the importance of these medicines being available in the primary care setting. 
+Type 2 diabetes and its complications, including obesity, are managed primarily in primary 
+care. Delaying access by requiring hospital referral can reduce benefits associated with early 
+intervention, add costs and limit availability in rural areas or underserved communities.
+
+In recognition of the financial implications of including GLP-1 receptor agonists and GLP-1/GIP dual 
+agonists in national health systems at their current prices, particularly in resource-limited settings, 
+the Committee emphasized the importance of targeting use in the first instance to patients in 
+whom the greatest value health benefit can be realized. The Committee also recommended that 
+WHO continue to monitor the evolving landscape of this class of medicines, including benefits 
+associated with use in people with obesity, potential long-term toxicities and approval of oral 
+formulations. The Committee also recommended that WHO work on existing approaches for 
+managing prices and evaluate alternative strategies to improve affordability and access to reduce 
+the global burden of diabetes.
+
+Section 19: Immunologicals
+Section 19.3 Vaccines
+The Expert Committee endorsed the inclusion of vaccines for Ebola and mpox on the core list 
+of the EML and EMLc, vaccines for hepatitis E and respiratory syncytial virus on the core list of 
+the EML, and vaccines for malaria on the core list of the EMLc, in line with recommendations of 
+the WHO Strategic Advisory Group of Experts (SAGE) on Immunization and corresponding WHO 
+vaccine position papers.
+
+Section 22: Medicines for reproductive health and perinatal care
+Section 22.3 Uterotonics
+The Expert Committee accepted the rationale presented in the application and endorsed the 
+proposed changes to Section 22.3 of the Model Lists, as summarized in Table 3. 
+
+The Expert Committee also noted the advice of the decision by WHO to remove the boxed text 
+associated with the listing for mifepristone and misoprostol.
+
+
+
+xxix
+
+Executive summary
+
+Section 24: Medicines for mental and behavioural disorders
+The Expert Committee did not recommend the inclusion of methylphenidate on the EML and 
+EMLc for the treatment of children and adolescents with attention-deficit hyperactivity disorder 
+(ADHD) because of limitations in the available evidence on the benefits and safety of long-term 
+use, which reduced confidence in the estimates of prolonged beneficial effect. 
+
+The Committee acknowledged that methylphenidate is widely recommended and used in many 
+countries as the standard of care for children and adolescents with ADHD and has wide regulatory 
+approval and market availability. Furthermore, it is already included in the national essential 
+medicines lists of some countries. The Committee noted there were currently no medicines for 
+ADHD on the Model Lists.
+
+The Committee recalled the recommendation of the 2021 Expert Committee to not include 
+methylphenidate on the Model Lists because of persistent uncertainty about the benefit-to-
+harm ratio of the long-term use of this medicine. The 2021 Committee also recommended that 
+any future consideration of methylphenidate should address: evidence of the effectiveness and 
+safety of methylphenidate in the treatment of ADHD of at least 52 weeks duration; outcomes of 
+the revision of the WHO mhGAP guidelines; and evaluation of health system capacity to provide 
+appropriate diagnostic, non-pharmacological and pharmacological treatment and monitoring in 
+low-resource settings. 
+
+The 2025 Expert Committee appreciated the efforts of the applicants of the current application in 
+presenting evidence and information to address the 2021 Committee’s concerns and the gaps in 
+the evidence previously proposed for evaluation.
+
+In consideration of the evidence presented in the current application for longer-term efficacy 
+and safety of methylphenidate, the Committee noted that randomized controlled trials 
+evaluating long-term treatment (> 6 months) were few and all had some methodological 
+limitations. Selected pharmacoepidemiologic studies presented some real-world evidence 
+of benefit in functional outcomes and reductions in all-cause mortality and unintentional 
+injuries associated with long-term use of methylphenidate. However, these studies also 
+had intrinsic methodological limitations. In particular, the Committee noted the findings 
+of the 1999 Multimodal Treatment Study of Children with Attention-Deficit/Hyperactivity 
+Disorder (MTA study), in which ADHD treatment with stimulant medication (not limited only 
+to methylphenidate) was associated with greater improvements in ADHD symptoms when 
+compared with behavioural management over a period of 14 months, as rated by parents, 
+teachers or independent investigators. Stimulant treatment was not associated with an increase 
+in serious adverse events. The Committee noted evidence identified during the review process 
+from follow-up analyses of the MTA study which showed that the magnitude of benefit of 
+stimulant treatment compared with behavioural management seen at 14 months reduced over 
+time (after 2 years, 3 years, and into adulthood). The Committee noted that at longer follow-up 
+the advantage associated with methylphenidate in symptom control was not retained when 
+compared with other strategies, including behavioural therapy alone or community care. 
+The Committee was unable to discern if the loss in sustained benefits was due to tolerance, 
+less adherence, cross-over between different strategies, and if the change in effectiveness 
+
+
+
+xxx
+
+W
+H
+
+O
+ T
+
+ec
+hn
+
+ic
+al
+
+ R
+ep
+
+or
+t S
+
+er
+ie
+
+s, 
+N
+
+o.
+ 1
+
+06
+4,
+
+ 2
+02
+
+5
+The selection and use of essential medicines   Report of the 25th WHO Expert Committee
+
+was associated with characteristics of the children and adolescents or of the syndrome, such 
+as baseline severity. Regarding long-term safety, the Committee noted mixed evidence of a 
+potential association between methylphenidate use and effects on growth (height and weight) 
+and the potential for adverse cardiovascular effects.
+
+The Committee considered the conditional recommendation in the 2023 WHO mhGAP guidelines, 
+based on low certainty of evidence, that methylphenidate may be considered for use in children 
+(from 6 years) and adolescents with ADHD under clearly specified circumstances. The Committee 
+considered that the mhGAP guidelines provide an important framework for supporting and 
+increasing health system capacity to ensure the appropriate use of methylphenidate in children 
+and adolescents. The Committee noted that the guidelines highlight, among other things: the 
+limited evidence of efficacy and tolerability of methylphenidate beyond 12 weeks of treatment; 
+that specialist reassessment of the patient’s ADHD management plan should occur at least 
+once a year; and the need for methylphenidate treatment to be offered only in the context of a 
+comprehensive management plan. The Committee expressed concern about the current capacity 
+of some health systems to ensure appropriate diagnosis, treatment (both pharmacological and 
+non-pharmacological) and management of ADHD, particularly in low- and middle-income 
+settings where reported rates of mental health workers for children and adolescents are low and 
+among whom specialist psychiatrists are few.
+
+Section 24.1 Medicines used in psychotic disorders 
+The Expert Committee recommended the inclusion of aripiprazole once-monthly long-acting 
+injection on the core list of the EML for the treatment of adults with schizophrenia based on 
+acceptable evidence for similar efficacy and a potentially lower risk of metabolic adverse effects 
+compared with other long-acting injectable antipsychotics currently included on the EML (i.e. 
+paliperidone, risperidone). Listing is recommended for aripiprazole as a therapeutic alternative 
+under the square box listing for paliperidone once-monthly long-acting injection. 
+
+Section 24.2 Medicines used in mood disorders 
+The Expert Committee did not recommend the inclusion of brexpiprazole on the EML for 
+adjunctive treatment of major depressive disorder in adults based on evidence from short-term 
+studies showing only modest incremental benefits compared with placebo and noting that 
+other atypical antipsychotics and lithium had similar or superior gains. The Committee noted that 
+the EML does not currently include any medicines for adjunctive treatment of major depressive 
+disorder and advised that any future application should present a comprehensive evaluation of 
+the evidence for all relevant treatment options for this indication, in preference to an application 
+that focuses on a single medicine. 
+
+Section 24.5.2 Medicines for nicotine use disorders 
+The Expert Committee recommended the inclusion of cytisine (International Nonproprietary 
+Name: cytisinicline) on the core list of the EML as an aid to stopping smoking and tobacco use, 
+based on a favourable balance of benefits and harms, in an area of great public health need. The 
+
+
+
+xxxi
+
+Executive summary
+
+Committee considered that the availability of different smoking cessation treatments provides 
+valuable options and choice for patients and clinicians, could facilitate market competition, 
+reduces costs and improves access to effective smoking and tobacco cessation treatments for 
+national health systems.
+
+Section 27: Vitamins and minerals
+The Expert Committee recommended deletion of iodine capsules from the EML and EMLc for 
+prevention and treatment of iodine deficiency, noting that the formulation is no longer marketed 
+or used in iodine supplementation programmes in any countries.
+
+Other matters considered by the Expert Committee
+Age-appropriateness of formulations of essential medicines for children 
+In consideration of the review of the age-appropriateness of formulations of medicines on the 
+EMLc, the Expert Committee recommended changes to the EMLc for addition of new, age-
+appropriate formulations and strengths of existing essential medicines, deletion of unavailable or 
+age-inappropriate formulations and strengths, and other listing modifications as proposed in the 
+review. Corresponding changes to the EML were made for consistency, as appropriate. All changes 
+are reported in Tables 1, 2 and 3. The Committee also noted the proposals made in the review for 
+consideration by the Global Accelerator for Paediatric Formulations (GAP-f ) network, where gaps 
+in the availability of age-appropriate formulations of essential medicines for children exist.
+
+Revision of AWaRe (Access, Watch, Reserve) definitions, classification and 
+reclassification of antibiotics
+The Expert Committee considered the applications proposing:
+
+ ■ a revision of the current AWaRe definitions for AWaRe classification and criteria for 
+inclusion of AWaRe antibiotics on the Model Lists;
+
+ ■ classification of antibiotics not currently included in the WHO AWaRe classification 
+database; and
+
+ ■ reclassification of cefoperazone + sulbactam from “not recommended” to the 
+AWaRe Watch group.
+
+The Committee acknowledged the growing importance and adoption of AWaRe as a global 
+tool for antibiotic selection, stewardship, surveillance and policy development, and its strong 
+relationship with the WHO Model Lists of Essential Medicines.
+
+The Committee noted that the definitions of AWaRe groups were developed between 2017 and 
+2019, reflecting the evaluation of antibiotics that were recommended for inclusion in the Model 
+Lists. The Committee accepted that the current definition of Reserve antibiotics – intended for use 
+as so-called last resort options in life-threatening infections due to multidrug-resistant bacteria 
+should adapt to the needs of changing public health policies and priorities. The Committee 
+
+
+
+xxxii
+
+W
+H
+
+O
+ T
+
+ec
+hn
+
+ic
+al
+
+ R
+ep
+
+or
+t S
+
+er
+ie
+
+s, 
+N
+
+o.
+ 1
+
+06
+4,
+
+ 2
+02
+
+5
+The selection and use of essential medicines   Report of the 25th WHO Expert Committee
+
+considered that several aspects of the current definition could evolve, expand or be modified. 
+These include expanding guidance on the level of evidence required to demonstrate so-called 
+proven activity against WHO priority pathogens, clarifying whether the relationship between 
+the Reserve definition and the WHO Bacterial Priority Pathogens List is binding, and developing 
+standardized definitions for multidrug resistance. The Committee also recognized the limited 
+clinical evidence available to guide empiric use of Reserve antibiotics, particularly in low-resource 
+settings. The Committee determined that there was also a need to consider additional dimensions 
+in the selection of Reserve antibiotics for the Model Lists, including innovation criteria, access 
+challenges and strategies to increase access, and the role of real-world evidence. 
+
+The Committee noted a growing debate about how the definition of Reserve antibiotics should 
+evolve. The Committee also noted the comments of the WHO Technical Advisory Group on 
+AWaRe (TAG-AWaRe) calling for a comprehensive reassessment of all AWaRe categories, with 
+the establishment of clear criteria for AWaRe classification groups. This reassessment should 
+consider a number of dimensions, including efficacy, safety, impact on the emergence and 
+spread of resistance, and impact on the microbiome. The reassessment  should also link to other 
+WHO products, including (but not limited to) the Bacterial Priority Pathogens Lists, the Medically 
+Important Antimicrobial List and the report of antibacterial agents in clinical and preclinical 
+development.
+
+Given the complexity of refining definitions for all AWaRe categories, the Expert Committee 
+requested the WHO Secretariat to coordinate a structured, inclusive review process, involving 
+broad stakeholder consultation and a review of available evidence, with the aim of strengthening 
+the AWaRe framework as a cornerstone of global antimicrobial stewardship and access policy. 
+The recommendations of this review should be submitted for consideration by the 2027 Expert 
+Committee. Therefore, the Committee did not recommend any changes to the current AWaRe 
+definitions.
+
+Consequently, until such time as the definitions of AWaRe categories are revised, the Committee 
+did not recommend any change to the current classification of cefoperazone + sulbactam. The 
+Committee also noted that numerous other beta-lactam + beta-lactamase inhibitor combinations 
+are also currently classified as “not recommended” and considered that reclassifying only one such 
+combination at this time would introduce inconsistency.
+
+In consideration of the request to classify antibiotics not currently included in the AWaRe 
+classification, the Expert Committee accepted the rationale presented in the application and 
+recommended the antibiotics identified in the application be classified as Access, Watch, Reserve, 
+not recommended, or remain unclassified, as proposed (Table 5).
+
+Commemoration of the 50th anniversary of the WHO Model List of Essential 
+Medicines in 2027
+The Expert Committee noted the report of the meeting on revising the procedures for updating 
+the Model Lists of Essential Medicines, convened by WHO at its headquarters in Geneva in 
+November 2023 (2). The Committee welcomed and endorsed all following key messages that 
+emerged during the meeting.
+
+
+
+xxxiii
+
+Executive summary
+
+ ■ The importance of strengthening alignment and integration of the EML with related WHO 
+guidelines and products to reduce redundant efforts, mitigate contradicting messages 
+and facilitate coordinated evidence-based policy-making. This involves harmonizing 
+procedures and identifying and then addressing situations of discordance.
+
+ ■ The importance of improving dissemination strategies related to the selection of 
+medicines. This includes providing information not only about medicines that are 
+listed but also those that have not been recommended for listing. Rejections can be 
+informative, as medicines rejected for addition to the EML might have drawbacks 
+in terms of efficacy and safety, equity, feasibility, cost–effectiveness or access, with 
+implications for national EMLs. 
+
+ ■ The value of developing a structured process for prioritizing disease areas and medicines 
+for EML applications to ensure an orderly, proactive approach, particularly in overlooked 
+disease areas. Coordinated applications could be developed by utilizing partnerships 
+with professional societies. 
+
+ ■ The need to improve the extent and quality of information on price, cost and cost–
+effectiveness considered in EML selection. This requires, among other strategies, 
+incorporating data on pricing of medicines (including generics and biosimilars and their 
+availability) and the financial impact on patients in terms of out-of-pocket expenditure. 
+
+ ■ Modernizing and investigating resources that can aid the selection process. Electronic 
+support systems such as digital submission forms, artificial intelligence to increase 
+efficiency and precision in administrative processes, and more human resources to 
+enable the Secretariat to improve the quality of the selection process were proposed. 
+
+ ■ The need to ensure sustained progress in improving access. This requires tackling 
+systemic barriers beyond medicine selection. It is crucial to study the accessibility of 
+certain medicines once they have been listed in the EMLs to evaluate if their essential 
+medicine status contributes to improved access, and understand the role of pricing 
+opacity, production barriers limiting generic availability, and inconsistent supply and 
+delivery and inappropriate marketing influences.
+
+The Committee considered that many of these recommendations relate directly to activities that 
+address WHO’s mandate to advise Member States on the selection and procurement of essential 
+medicines that offer the best value health outcomes. 
+
+The Committee highlighted that the 50th anniversary of the WHO EML presents a valuable 
+opportunity for Member States to actively participate in commemorating the EML and recognizing 
+its impact on national policies and essential medicines lists. The Committee considered that 
+updates of national lists in 2027 should be a main activity of the commemorations. These updates 
+should not be aimed solely at adding new medicines to national lists but should also aim to achieve 
+greater alignment between national EMLs and national reimbursement lists, with transparent 
+reporting of what is made available as part of universal health coverage policies. Consideration 
+should be given to strengthening national EMLs by developing lists that specify the indications for 
+which medicines are considered essential.
+
+
+
+xxxiv
+
+W
+H
+
+O
+ T
+
+ec
+hn
+
+ic
+al
+
+ R
+ep
+
+or
+t S
+
+er
+ie
+
+s, 
+N
+
+o.
+ 1
+
+06
+4,
+
+ 2
+02
+
+5
+The selection and use of essential medicines   Report of the 25th WHO Expert Committee
+
+Other important elements of the commemoration updates include: 
+
+ ■ transparent inclusion of medicines and age-appropriate formulations for children – 
+disappointingly, less than 15% of countries prioritize medicines and formulations for 
+children in their national lists (3);
+
+ ■ clear reporting of priority formulations to guide supply and procurement and to limit 
+fragmentation;
+
+ ■ optimizing interpretation and implementation of guidance on therapeutic alternative 
+(square box listings) in the EMLs.
+
+The 50th anniversary of the WHO EML is an important opportunity for Member States to reaffirm 
+the fundamental right to access essential medicines. By participating in the celebration, updating 
+national tools, promoting public engagement and strengthening policies, countries can help 
+ensure that essential medicines remain a living, evolving and effective instrument for health equity.
+
+Improving the quality of EML applications 
+The Expert Committee noted a general improvement in the quality of applications under evaluation 
+at the current meeting, although considerable variability remained between applications. 
+
+The Committee expressed appreciation for the open and participatory nature of the application 
+process, where applications may be submitted by individuals, institutions, public and private 
+sector organizations and other stakeholders. However, in many cases, applications are developed 
+on an ad hoc and voluntary basis and sometimes lack sufficient scientific rigour (e.g. management 
+of inherent biases), fail to present benefits across different patient subgroups, and often lack 
+comprehensive analyses of feasibility, cost–effectiveness and budget impact in different settings. 
+The Committee considered that applications for the EML would benefit from following a process 
+similar to that of WHO’s guideline development processes, which should also facilitate alignment 
+of the recommendations in these two WHO tools, and orient selection and appropriate use of 
+medicines recommended by WHO.
+
+The Committee commended two applications for exemplifying a high standard of scrutiny and 
+comprehensive evaluation of 

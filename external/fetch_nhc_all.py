@@ -22,9 +22,15 @@ CHROME = os.path.expanduser(
     "Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
 BASE = "https://www.nhc.gov.cn"
-MAX_PAGES = 8  # per section
+MAX_PAGES = 15  # per section
 
-COLS = ["ylyjs/zcwj", "ylyjs/gzdt", "yzygj/c100068", "yzygj/c100067"]
+COLS = [
+    "ylyjs/zcwj", "ylyjs/gzdt",          # 医疗应急司: 传染病诊疗方案
+    "yzygj/c100068", "yzygj/c100067",    # 医政司: 肿瘤/慢病/罕见病诊疗指南
+    "fys/c100077", "fys/c100078",        # 妇幼司: 妇幼保健规范
+    "jws/c100072", "jws/c100073",        # 基层司: 基层医疗规范
+    "zyjks/c100152", "zyjks/c100153",    # 职业健康司: 职业病/健康标准
+]
 GUIDE_RE = re.compile(r"(诊疗方案|诊疗指南|防治指南|防控方案|防控指南|救治规范|技术规范|操作规程|诊疗规范|防治规范|管理指南)")
 SKIP_TITLE_RE = re.compile(r"(解读|宣传|活动|倡议书|表彰|公告|通报|名单|培训|试点|名单|公示)")
 

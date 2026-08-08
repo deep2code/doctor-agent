@@ -34,9 +34,10 @@ external/
 | Europe PMC | ✅ 完成并接入 | 4425 篇摘要已嵌入知识库（`literature.json` 8.8MB） | 新增 `literature_search` 工具；`RetrieveLiterature` 主题预过滤+英文子串匹配，自动带 PMID/DOI |
 | MedlinePlus 索引 | ✅ 完成 | 2033 主题（EN 1017） | — |
 | MedlinePlus 正文 | ✅ 完成并接入 | 1017/1017 页（`medlineplus.json` 5.8MB），`medline_search` 工具已注册 | 英文健康百科全文检索（标题短语+15 加权） |
-| WHO fact sheets | ✅ 完成并接入 | 中文版 234/241 抓取；精选 40 条结构化入库（`who_factsheets.json`，URL 引用） | `fetch_who_factsheets_zh.py` + `structurize_who.py` 管线已就绪，可扩展全量 |
+| WHO fact sheets | ✅ 完成并接入 | **全量 232 条**中文版入库（`who_factsheets.json`），覆盖全体中国人日常主题 | `fetch_who_factsheets_zh.py`(234 中文版) + `structurize_who.py`(全量模式) |
 | WHO 疫苗立场文件 | ✅ 完成并接入 | 12 条（狂犬病/乙脑/HPV/乙肝/登革热/流感/伤寒/霍乱/破伤风/轮状/麻疹/肺炎球菌），`who_vaccines.json` | `fetch_position_papers.py`(IRIS API) + `structurize_pp.py`；流感有官方中文版，其余为英文→中文结构化 |
 | 默沙东诊疗手册 | ✅ 完成并接入 | **6086 页**（大众版 3296 + 专业版 2790，`msd_manual.json` 43.6MB），`msd_search` 工具已注册 | 大众版 35 个失效 URL、专业版 14 个代理错误页未抓（<1%）；`fetch_msd.py [home|professional]`（幂等）+ `merge_msd.py` |
+| 国家卫健委指南 | ✅ 完成并接入 | **35 个中文指南**（26 文字版 + 9 OCR 版，`source=nhc`） | `fetch_nhc_all.py`(playwright 绕 WAF) + `ocr_nhc_scanned.py`(my-ocr) |
 | ClinVar 基因变异 | ✅ 完成并接入 | HBB/HBA1/HBA2/G6PD 致病及可能致病变异 1399 条（`clinvar.json` 376KB），`variant_lookup` 工具已注册 | 200 条 6 位旧 id 结构变异（CNV）esummary 不可达，已放弃；`fetch_clinvar.py` 幂等可补 |
 | HPO | ✅ 已下载 | hp-base.obo 11.2MB/20413 术语 | **暂缓**：纯英文无中文映射，与 MSD 症状知识重叠；若做需设计"症状规范化"工具+中英映射 |
 | CMeKG | ⛔ 不可自动获取 | 数据本体不公开批量下载 | 放弃 |

@@ -24,7 +24,7 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like 
 BASE = "https://www.nhc.gov.cn"
 MAX_PAGES = 8  # per section
 
-COLS = ["ylyjs/zcwj", "ylyjs/gzdt"]
+COLS = ["ylyjs/zcwj", "ylyjs/gzdt", "yzygj/c100068", "yzygj/c100067"]
 GUIDE_RE = re.compile(r"(诊疗方案|诊疗指南|防治指南|防控方案|防控指南|救治规范|技术规范|操作规程|诊疗规范|防治规范|管理指南)")
 SKIP_TITLE_RE = re.compile(r"(解读|宣传|活动|倡议书|表彰|公告|通报|名单|培训|试点|名单|公示)")
 

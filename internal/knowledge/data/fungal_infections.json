@@ -5,29 +5,104 @@
     "condition_en": "Tinea Pedis (Athlete's Foot)",
     "category": "infectious_disease",
     "icd10": "B35.3",
-    "regions": ["guangdong", "guangxi", "hainan", "fujian", "hunan", "jiangxi", "yunnan", "guizhou", "sichuan"],
+    "regions": [
+      "guangdong",
+      "guangxi",
+      "hainan",
+      "fujian",
+      "hunan",
+      "jiangxi",
+      "yunnan",
+      "guizhou",
+      "sichuan"
+    ],
     "prevalence": {
-      "southern_china": {"rate": 0.35, "population": "general adult population in humid southern regions (estimated 25-45%)"},
-      "tropical_climate": {"rate": 0.50, "population": "tropical climates globally"}
+      "southern_china": {
+        "rate": 0.35,
+        "population": "general adult population in humid southern regions (estimated 25-45%)"
+      },
+      "tropical_climate": {
+        "rate": 0.5,
+        "population": "tropical climates globally"
+      }
     },
     "diagnosis": {
-      "lab_tests": ["KOH preparation (direct microscopy) — hyphae visualization", "Fungal culture (Sabouraud agar)", "PCR-based fungal identification (for refractory/recurrent cases)", "Wood lamp examination (limited utility for dermatophytes)"],
+      "lab_tests": [
+        "KOH preparation (direct microscopy) — hyphae visualization",
+        "Fungal culture (Sabouraud agar)",
+        "PCR-based fungal identification (for refractory/recurrent cases)",
+        "Wood lamp examination (limited utility for dermatophytes)"
+      ],
       "thresholds": {
         "koh_prep": "Positive if septate hyphae visualized"
       },
-      "clinical_features": ["Interdigital maceration, scaling, fissuring", "Intense itching", "Malodorous feet", "Vesicular or bullous lesions (inflammatory tinea)", "Moccasin-type (chronic hyperkeratotic, diffuse scaling on soles)", "Onychomycosis (nail involvement in chronic cases)"],
+      "clinical_features": [
+        "Interdigital maceration, scaling, fissuring",
+        "Intense itching",
+        "Malodorous feet",
+        "Vesicular or bullous lesions (inflammatory tinea)",
+        "Moccasin-type (chronic hyperkeratotic, diffuse scaling on soles)",
+        "Onychomycosis (nail involvement in chronic cases)"
+      ],
       "gold_standard": "KOH preparation + fungal culture"
     },
     "treatment": [
-      {"method": "Topical terbinafine 1% cream BID for 1-2 weeks", "indication": "Mild-moderate interdigital tinea pedis", "evidence_level": "meta_analysis", "citation_ref": "fung-001-cite-1"},
-      {"method": "Topical clotrimazole / miconazole BID for 4 weeks", "indication": "Alternative first-line topical antifungal", "evidence_level": "international_guideline", "citation_ref": "fung-001-cite-1"},
-      {"method": "Oral terbinafine 250mg daily for 2-6 weeks", "indication": "Severe, refractory, moccasin-type, or nail involvement", "evidence_level": "meta_analysis", "citation_ref": "fung-001-cite-1"},
-      {"method": "Foot hygiene: keep feet dry, change socks daily, breathable footwear", "indication": "All patients — essential for treatment success and recurrence prevention", "evidence_level": "international_guideline", "citation_ref": "fung-001-cite-2"}
+      {
+        "method": "Topical terbinafine 1% cream BID for 1-2 weeks",
+        "indication": "Mild-moderate interdigital tinea pedis",
+        "evidence_level": "meta_analysis",
+        "citation_ref": "fung-001-cite-1"
+      },
+      {
+        "method": "Topical clotrimazole / miconazole BID for 4 weeks",
+        "indication": "Alternative first-line topical antifungal",
+        "evidence_level": "international_guideline",
+        "citation_ref": "fung-001-cite-1"
+      },
+      {
+        "method": "Oral terbinafine 250mg daily for 2-6 weeks",
+        "indication": "Severe, refractory, moccasin-type, or nail involvement",
+        "evidence_level": "meta_analysis",
+        "citation_ref": "fung-001-cite-1"
+      },
+      {
+        "method": "Foot hygiene: keep feet dry, change socks daily, breathable footwear",
+        "indication": "All patients — essential for treatment success and recurrence prevention",
+        "evidence_level": "international_guideline",
+        "citation_ref": "fung-001-cite-2"
+      }
     ],
-    "differential_diagnosis": ["Bacterial intertrigo", "Contact dermatitis", "Psoriasis (especially palmoplantar)", "Dyshidrotic eczema", "Pitted keratolysis (Corynebacterium)", "Erythrasma"],
-    "risk_factors": ["Humid subtropical climate (southern China)", "Occlusive footwear in warm weather", "Hyperhidrosis (excessive sweating)", "Public swimming pools, gyms, shared showers", "Diabetes mellitus", "Immunosuppression"],
-    "complications": ["Secondary bacterial infection (cellulitis — especially in diabetic patients)", "Onychomycosis", "Tinea cruris (spread to groin)", "Chronic lymphangitis", "Erysipelas"],
-    "prevention": ["Keep feet clean and thoroughly dry (especially between toes)", "Change socks daily or more often if sweaty", "Alternate shoes to allow complete drying", "Wear breathable footwear (leather, mesh)", "Use antifungal powder in shoes as prophylaxis if recurrent", "Avoid walking barefoot in public wet areas (pools, gyms)"],
+    "differential_diagnosis": [
+      "Bacterial intertrigo",
+      "Contact dermatitis",
+      "Psoriasis (especially palmoplantar)",
+      "Dyshidrotic eczema",
+      "Pitted keratolysis (Corynebacterium)",
+      "Erythrasma"
+    ],
+    "risk_factors": [
+      "Humid subtropical climate (southern China)",
+      "Occlusive footwear in warm weather",
+      "Hyperhidrosis (excessive sweating)",
+      "Public swimming pools, gyms, shared showers",
+      "Diabetes mellitus",
+      "Immunosuppression"
+    ],
+    "complications": [
+      "Secondary bacterial infection (cellulitis — especially in diabetic patients)",
+      "Onychomycosis",
+      "Tinea cruris (spread to groin)",
+      "Chronic lymphangitis",
+      "Erysipelas"
+    ],
+    "prevention": [
+      "Keep feet clean and thoroughly dry (especially between toes)",
+      "Change socks daily or more often if sweaty",
+      "Alternate shoes to allow complete drying",
+      "Wear breathable footwear (leather, mesh)",
+      "Use antifungal powder in shoes as prophylaxis if recurrent",
+      "Avoid walking barefoot in public wet areas (pools, gyms)"
+    ],
     "clinical_examples": [
       {
         "description": "A 40-year-old male construction worker in Shenzhen presents with 2 years of chronic, itchy, scaling feet. Physical exam: diffuse scaling on both soles (moccasin pattern), thick yellowish toenails (great toes bilaterally). KOH prep: numerous septate hyphae. Fungal culture: Trichophyton rubrum.",
@@ -47,12 +122,26 @@
       {
         "type": "guideline",
         "title": "British Association of Dermatologists' Guidelines for the Management of Tinea Capitis and Tinea Pedis",
-        "journal": "British Journal of Dermatology",
+        "journal": "",
         "year": 2020,
         "level": "international_guideline"
       }
     ],
-    "keywords": ["脚气", "足癣", "tinea pedis", "athlete's foot", "香港脚", "脚痒", "真菌", "fungal", "terbinafine", "特比萘芬", "脚臭", "脚趾缝", "潮湿"]
+    "keywords": [
+      "脚气",
+      "足癣",
+      "tinea pedis",
+      "athlete's foot",
+      "香港脚",
+      "脚痒",
+      "真菌",
+      "fungal",
+      "terbinafine",
+      "特比萘芬",
+      "脚臭",
+      "脚趾缝",
+      "潮湿"
+    ]
   },
   {
     "id": "fung-002",
@@ -60,26 +149,94 @@
     "condition_en": "Eczema / Atopic Dermatitis",
     "category": "dermatologic_disorder",
     "icd10": "L20",
-    "regions": ["guangdong", "guangxi", "hainan", "fujian", "hunan", "jiangxi", "yunnan", "guizhou", "sichuan"],
+    "regions": [
+      "guangdong",
+      "guangxi",
+      "hainan",
+      "fujian",
+      "hunan",
+      "jiangxi",
+      "yunnan",
+      "guizhou",
+      "sichuan"
+    ],
     "prevalence": {
-      "southern_china_humid_areas": {"rate": 0.15, "population": "general adult population in humid southern China (estimated higher due to humidity and allergens)"}
+      "southern_china_humid_areas": {
+        "rate": 0.15,
+        "population": "general adult population in humid southern China (estimated higher due to humidity and allergens)"
+      }
     },
     "diagnosis": {
-      "lab_tests": ["Clinical diagnosis (no specific lab test required)", "Serum IgE (often elevated but non-specific)", "Skin prick testing / specific IgE (for trigger identification)", "Bacterial culture (if signs of secondary infection)"],
+      "lab_tests": [
+        "Clinical diagnosis (no specific lab test required)",
+        "Serum IgE (often elevated but non-specific)",
+        "Skin prick testing / specific IgE (for trigger identification)",
+        "Bacterial culture (if signs of secondary infection)"
+      ],
       "thresholds": {},
-      "clinical_features": ["Pruritic, erythematous, scaly patches/plaques", "Flexural distribution (antecubital, popliteal fossae)", "Xerosis (dry skin)", "Chronic relapsing course", "Lichenification from chronic scratching", "Weeping/oozing when acute and severe"],
+      "clinical_features": [
+        "Pruritic, erythematous, scaly patches/plaques",
+        "Flexural distribution (antecubital, popliteal fossae)",
+        "Xerosis (dry skin)",
+        "Chronic relapsing course",
+        "Lichenification from chronic scratching",
+        "Weeping/oozing when acute and severe"
+      ],
       "gold_standard": "Clinical diagnosis based on Hanifin & Rajka criteria or UK Working Party diagnostic criteria"
     },
     "treatment": [
-      {"method": "Emollients (moisturizers) — liberal and frequent application", "indication": "All eczema patients — cornerstone of management", "evidence_level": "international_guideline", "citation_ref": "fung-002-cite-1"},
-      {"method": "Topical corticosteroids (potency matched to severity and body site)", "indication": "Active flare — mild: hydrocortisone 1%, moderate: triamcinolone, severe: clobetasol (short course)", "evidence_level": "international_guideline", "citation_ref": "fung-002-cite-1"},
-      {"method": "Topical calcineurin inhibitors (tacrolimus, pimecrolimus)", "indication": "Face/neck/intertriginous areas — steroid-sparing", "evidence_level": "international_guideline", "citation_ref": "fung-002-cite-1"},
-      {"method": "Dupilumab (anti-IL-4Rα) 300mg SC every 2 weeks", "indication": "Moderate-severe atopic dermatitis refractory to topicals", "evidence_level": "rct", "citation_ref": "fung-002-cite-1"}
+      {
+        "method": "Emollients (moisturizers) — liberal and frequent application",
+        "indication": "All eczema patients — cornerstone of management",
+        "evidence_level": "international_guideline",
+        "citation_ref": "fung-002-cite-1"
+      },
+      {
+        "method": "Topical corticosteroids (potency matched to severity and body site)",
+        "indication": "Active flare — mild: hydrocortisone 1%, moderate: triamcinolone, severe: clobetasol (short course)",
+        "evidence_level": "international_guideline",
+        "citation_ref": "fung-002-cite-1"
+      },
+      {
+        "method": "Topical calcineurin inhibitors (tacrolimus, pimecrolimus)",
+        "indication": "Face/neck/intertriginous areas — steroid-sparing",
+        "evidence_level": "international_guideline",
+        "citation_ref": "fung-002-cite-1"
+      },
+      {
+        "method": "Dupilumab (anti-IL-4Rα) 300mg SC every 2 weeks",
+        "indication": "Moderate-severe atopic dermatitis refractory to topicals",
+        "evidence_level": "rct",
+        "citation_ref": "fung-002-cite-1"
+      }
     ],
-    "differential_diagnosis": ["Contact dermatitis", "Seborrheic dermatitis", "Psoriasis", "Scabies", "Cutaneous T-cell lymphoma (mycosis fungoides)"],
-    "risk_factors": ["Southern China humid climate (sweating, mold exposure)", "Family history of atopy (atopic dermatitis, asthma, allergic rhinitis)", "Filaggrin gene (FLG) mutations", "Urban living", "Dust mite allergy (major trigger in humid environments)"],
-    "complications": ["Secondary bacterial infection (S. aureus — impetiginization)", "Eczema herpeticum (HSV superinfection — Kaposi varicelliform eruption)", "Sleep disturbance", "Psychosocial impact"],
-    "prevention": ["Regular emollient use to maintain skin barrier", "Avoid known triggers (dust mites, certain foods if confirmed allergic)", "Maintain indoor humidity <60% with dehumidifier in southern China", "Short lukewarm showers (not hot)", "Cotton clothing (avoid wool/synthetic)"],
+    "differential_diagnosis": [
+      "Contact dermatitis",
+      "Seborrheic dermatitis",
+      "Psoriasis",
+      "Scabies",
+      "Cutaneous T-cell lymphoma (mycosis fungoides)"
+    ],
+    "risk_factors": [
+      "Southern China humid climate (sweating, mold exposure)",
+      "Family history of atopy (atopic dermatitis, asthma, allergic rhinitis)",
+      "Filaggrin gene (FLG) mutations",
+      "Urban living",
+      "Dust mite allergy (major trigger in humid environments)"
+    ],
+    "complications": [
+      "Secondary bacterial infection (S. aureus — impetiginization)",
+      "Eczema herpeticum (HSV superinfection — Kaposi varicelliform eruption)",
+      "Sleep disturbance",
+      "Psychosocial impact"
+    ],
+    "prevention": [
+      "Regular emollient use to maintain skin barrier",
+      "Avoid known triggers (dust mites, certain foods if confirmed allergic)",
+      "Maintain indoor humidity <60% with dehumidifier in southern China",
+      "Short lukewarm showers (not hot)",
+      "Cotton clothing (avoid wool/synthetic)"
+    ],
     "clinical_examples": [
       {
         "description": "A 6-year-old boy from humid coastal Fujian presents with a 3-year history of recurrent itchy rash in the antecubital and popliteal fossae. Symptoms worsen in summer (sweating, humidity). Family history: father with allergic rhinitis. Exam: erythematous, lichenified plaques in flexural areas with excoriations.",
@@ -105,6 +262,20 @@
         "level": "meta_analysis"
       }
     ],
-    "keywords": ["湿疹", "eczema", "atopic dermatitis", "特应性皮炎", "AD", "皮肤痒", "皮疹", "潮湿", "过敏", "dupilumab", "保湿", "类固醇", "激素"]
+    "keywords": [
+      "湿疹",
+      "eczema",
+      "atopic dermatitis",
+      "特应性皮炎",
+      "AD",
+      "皮肤痒",
+      "皮疹",
+      "潮湿",
+      "过敏",
+      "dupilumab",
+      "保湿",
+      "类固醇",
+      "激素"
+    ]
   }
 ]

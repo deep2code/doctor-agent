@@ -69,7 +69,9 @@ Environment:
   ANTHROPIC_MODEL                  Model name (default: claude-sonnet-4-20250514)
   SERVER_HOST                      Server host (default: 0.0.0.0)
   SERVER_PORT                      Server port (default: 8080)
-  LOG_LEVEL                        Log level: debug, info, warn, error (default: info)`)
+  LOG_LEVEL                        Log level: debug, info, warn, error (default: info)
+  POST_VERIFY_SEMANTIC             Semantic claim verification (default: true)
+  POST_VERIFY_JUDGE_MODEL          Judge model for verification (default: reuse main model)`)
 }
 
 func runChat(cfg *config.Config) {
@@ -176,27 +178,21 @@ func runVerifyKnowledge() {
 	}
 
 	fmt.Println("✅ 知识库加载成功")
-	fmt.Printf("   - 医学知识条目: %d\n", len(store.GetAllMedical()))
-	fmt.Printf("   - 药物条目: %d\n", len(store.GetAllDrugs()))
-	fmt.Printf("   - 紧急分诊规则: %d\n", len(store.GetAllEmergencyRules()))
-	fmt.Printf("   - 引用索引条目: %d\n", len(store.GetReferenceIndex()))
+	fmt.Println()
+	fmt.Println("━━━ 知识库完整性校验 ━━━")
+	fmt.Println()
 
-	// Validate citations
-	medicalEntries := store.GetAllMedical()
-	totalCitations := 0
-	entriesWithNoCitations := 0
-	for _, entry := range medicalEntries {
-		if len(entry.Citations) == 0 {
-			fmt.Printf("   ⚠️  条目 '%s' 缺少引用文献\n", entry.ConditionZH)
-			entriesWithNoCitations++
-		}
-		totalCitations += len(entry.Citations)
+	report := knowledge.VerifyData(store)
+	fmt.Print(knowledge.ReportText(report))
+
+	if len(report.Errors) > 0 || len(report.EntryIDIssues) > 0 || len(report.CitationIssues) > 0 {
+		fmt.Println()
+		fmt.Println("⚠️  校验发现错误，请修复后再发布。")
+		os.Exit(1)
 	}
-	fmt.Printf("   - 总引用文献数: %d\n", totalCitations)
-	if entriesWithNoCitations > 0 {
-		fmt.Printf("   ⚠️  有 %d 个条目缺少引用文献\n", entriesWithNoCitations)
-	} else {
-		fmt.Println("   ✅ 所有医学条目均包含引用文献")
+	if len(report.Warnings) > 0 {
+		fmt.Println()
+		fmt.Println("⚠️  校验存在警告（不影响可用性），建议完善数据。")
 	}
 }
 

@@ -1,0 +1,153 @@
+[
+  {
+    "id": "lab-mcv",
+    "test_name_zh": "平均红细胞体积",
+    "test_name_en": "MCV (Mean Corpuscular Volume)",
+    "category": "hematology",
+    "normal_ranges": {"adult": "80-100 fL"},
+    "units": "fL",
+    "high_meaning": "大细胞性：维生素B12/叶酸缺乏（巨幼细胞性贫血）、酒精性肝病、药物、骨髓增生异常综合征、甲减、网织红细胞增多",
+    "low_meaning": "小细胞性：缺铁性贫血（最常见）、地中海贫血、慢性病贫血、铁粒幼细胞性贫血",
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "中国儿童输血依赖型地中海贫血输血管理指南（2025年）",
+        "journal": "中国当代儿科杂志",
+        "year": 2025,
+        "doi": "10.7499/j.issn.1008-8830.2410119",
+        "level": "national_guideline"
+      }
+    ],
+    "keywords": ["MCV", "平均红细胞体积", "小细胞", "地贫筛查", "贫血"]
+  },
+  {
+    "id": "lab-mch",
+    "test_name_zh": "平均红细胞血红蛋白量",
+    "test_name_en": "MCH (Mean Corpuscular Hemoglobin)",
+    "category": "hematology",
+    "normal_ranges": {"adult": "27-34 pg"},
+    "units": "pg",
+    "high_meaning": "高色素：巨幼细胞性贫血或新生儿",
+    "low_meaning": "低色素：缺铁性贫血、地中海贫血（南方人群地贫筛查重点指标）",
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "中国儿童输血依赖型地中海贫血输血管理指南（2025年）",
+        "journal": "中国当代儿科杂志",
+        "year": 2025,
+        "doi": "10.7499/j.issn.1008-8830.2410119",
+        "level": "national_guideline"
+      }
+    ],
+    "keywords": ["MCH", "平均红细胞血红蛋白", "地贫", "低色素"]
+  },
+  {
+    "id": "lab-hb",
+    "test_name_zh": "血红蛋白",
+    "test_name_en": "Hemoglobin (Hb)",
+    "category": "hematology",
+    "normal_ranges": {"female": "120-160 g/L", "male": "130-175 g/L"},
+    "units": "g/L",
+    "high_meaning": "红细胞增多症、脱水、慢性缺氧",
+    "low_meaning": "贫血（<120女/<130男）。<90中度，<70重度。南方人群小细胞低色素需排查地贫",
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "中国儿童输血依赖型地中海贫血输血管理指南（2025年）",
+        "journal": "中国当代儿科杂志",
+        "year": 2025,
+        "doi": "10.7499/j.issn.1008-8830.2410119",
+        "level": "national_guideline"
+      }
+    ],
+    "keywords": ["血红蛋白", "Hb", "贫血", "血红蛋白电泳"]
+  },
+  {
+    "id": "lab-platelet",
+    "test_name_zh": "血小板计数",
+    "test_name_en": "Platelet Count (PLT)",
+    "category": "hematology",
+    "normal_ranges": {"adult": "125-350 ×10⁹/L"},
+    "units": "×10⁹/L",
+    "high_meaning": "血小板增多：感染/炎症反应、缺铁、脾切除后、骨髓增殖性疾病",
+    "low_meaning": "血小板减少：登革热（南方高发，需警惕出血）、病毒感染、免疫性血小板减少、骨髓抑制",
+    "critical_low": 50,
+    "citations": [
+      {
+        "type": "epidemiology",
+        "title": "Dengue Epidemiology in Guangdong Province, China",
+        "journal": "BMC Infectious Diseases",
+        "year": 2022,
+        "doi": "10.1186/s12879-022-07123-4",
+        "level": "cohort"
+      }
+    ],
+    "keywords": ["血小板", "PLT", "登革热", "出血", "血小板减少"]
+  },
+  {
+    "id": "lab-alt",
+    "test_name_zh": "丙氨酸氨基转移酶",
+    "test_name_en": "ALT (Alanine Aminotransferase)",
+    "category": "hepatology",
+    "normal_ranges": {"female": "≤40 U/L", "male": "≤50 U/L"},
+    "units": "U/L",
+    "high_meaning": "显著升高（>3倍上限）：急性病毒性肝炎、药物性肝损伤、缺血性肝炎，南方需考虑登革热肝炎、EBV肝炎",
+    "low_meaning": "",
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "AASLD 2018 Hepatitis B Guidance: Update on Prevention, Diagnosis, and Treatment",
+        "journal": "Hepatology",
+        "year": 2018,
+        "doi": "10.1002/hep.29800",
+        "level": "international_guideline"
+      }
+    ],
+    "keywords": ["ALT", "转氨酶", "乙肝", "肝损伤", "肝功能"]
+  },
+  {
+    "id": "lab-g6pd",
+    "test_name_zh": "葡萄糖-6-磷酸脱氢酶活性",
+    "test_name_en": "G6PD Enzyme Activity",
+    "category": "genetics",
+    "normal_ranges": {"adult": ">60% of normal mean (WHO Class C/D)"},
+    "units": "% of normal mean",
+    "high_meaning": "",
+    "low_meaning": "<20% 重度缺乏(WHO A/B，慢性/间歇严重溶血风险)；20-45% 中度缺乏；45-60% 临界/轻度降低（杂合子女性或Class C，建议基因检测）。终身规避蚕豆、磺胺、伯氨喹、樟脑丸、亚甲蓝",
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "小儿G6PD缺乏症诊疗指南（2025年版）",
+        "year": 2025,
+        "level": "national_guideline"
+      }
+    ],
+    "keywords": ["G6PD", "葡萄糖-6-磷酸脱氢酶", "蚕豆病", "酶活性"]
+  },
+  {
+    "id": "lab-hba1c",
+    "test_name_zh": "糖化血红蛋白",
+    "test_name_en": "HbA1c (Glycated Hemoglobin)",
+    "category": "endocrinology",
+    "normal_ranges": {"adult": "<5.7% (正常); 5.7-6.4% (糖尿病前期); ≥6.5% (糖尿病)"},
+    "units": "%",
+    "high_meaning": "≥6.5% 提示糖尿病；5.7-6.4% 糖尿病前期。反映近2-3个月平均血糖",
+    "low_meaning": "低血糖症、溶血性贫血、近期大量失血（可假性降低）",
+    "citations": [],
+    "keywords": ["糖化血红蛋白", "HbA1c", "糖尿病", "血糖"]
+  },
+  {
+    "id": "lab-tsh",
+    "test_name_zh": "促甲状腺激素",
+    "test_name_en": "TSH (Thyroid Stimulating Hormone)",
+    "category": "endocrinology",
+    "normal_ranges": {"adult": "0.4-4.0 mIU/L"},
+    "units": "mIU/L",
+    "high_meaning": ">4.0 轻度升高（亚临床甲减，查FT4/TPO抗体）；>10 显著升高（原发性甲减）",
+    "low_meaning": "<0.4 轻度抑制（亚临床甲亢）；<0.1 严重抑制（原发性甲亢，查FT3/FT4/TRAb）",
+    "critical_high": 10,
+    "critical_low": 0.1,
+    "citations": [],
+    "keywords": ["TSH", "促甲状腺激素", "甲亢", "甲减", "甲状腺"]
+  }
+]

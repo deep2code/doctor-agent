@@ -8,7 +8,7 @@
 external/
 ├── fetch_europepmc.py          # Europe PMC 批量拉取脚本（✅ 完成）
 ├── fetch_who_factsheets.py     # WHO fact sheets 抓取脚本（✅ 已修复并完成 241/241）
-├── fetch_medlineplus_pages.py  # MedlinePlus 正文抓取脚本（⏳ 后台续跑中）
+├── fetch_medlineplus_pages.py  # MedlinePlus 正文抓取脚本（✅ 1017/1017 页完成）
 ├── convert_europepmc.py        # ✅ Europe PMC → internal/knowledge/data/literature.json（新增）
 ├── convert_evalsets.py         # ✅ MedQA/PubMedQA → evals/questions_en.json（新增）
 ├── europepmc/                  # ✅ 16 主题 × 300 条 = 4800 条摘要（JSON）
@@ -36,6 +36,9 @@ external/
 | MedlinePlus 正文 | ✅ 完成并接入 | 1017/1017 页（`medlineplus.json` 5.8MB），`medline_search` 工具已注册 | 英文健康百科全文检索（标题短语+15 加权） |
 | WHO fact sheets | ✅ 完成并接入 | **全量 232 条**中文版入库（`who_factsheets.json`），覆盖全体中国人日常主题 | `fetch_who_factsheets_zh.py`(234 中文版) + `structurize_who.py`(全量模式) |
 | WHO 疫苗立场文件 | ✅ 完成并接入 | 12 条（狂犬病/乙脑/HPV/乙肝/登革热/流感/伤寒/霍乱/破伤风/轮状/麻疹/肺炎球菌），`who_vaccines.json` | `fetch_position_papers.py`(IRIS API) + `structurize_pp.py`；流感有官方中文版，其余为英文→中文结构化 |
+| WHO 基本药物清单 (EML) | ✅ 完成并接入 | **第24版 564 种药物**（`who_eml.json`，core 441/complementary 123，含剂型+一线/二线适应症），`eml_lookup` 工具 | `external/parse_eml.py`（PDF 文本解析）；`name_zh` 全量 LLM 翻译待办（检索已内置 ~200 常用中文药名映射） |
+| FDA 药品标签 (DailyMed) | ✅ 完成并接入 | **344 种常用药中文要点**（`fda_drug_labels.json`，适应症/禁忌/警告/相互作用/不良反应/剂量，URL 引用），`drug_label_lookup` 工具（第 13 个） | `fetch_dailymed.py`（EML 药 → RxNorm RXCUI → OpenFDA label sections；OpenFDA 无 openfda.rxcui、generic_name 子串匹配→limit=5 打分选纯品、sort=submission_status 非法 400、setid 用 label["id"]）+ `structurize_dailymed.py`（**仅 Zhipu glm-4.7-flash 免费，需 `thinking:{"type":"disabled"}` 关闭推理模式**；Qwen/SiliconFlow fallback 已移除防付费）+ `clean_fda_labels.py`（keywords 单串拆分、死 URL 修复）。3 个正文过短放弃（deferoxamine/nitrous_oxide/oxygen） |
+| 中国疾控中心 (China CDC) | ✅ 完成并接入 | jkts 健康提示 → 26 条按疾病合并条目（`cdc_entries.json`，含预防/症状/就医指征，URL 引用） | `fetch_cdc.py`（✅ 已验证：列表页 `./{yyyymm}/t{...}.html` 单引号链接、标题在 #articleCon 前 h5、正文容器 trs_editor_view、旧文章 404 跳过）；`structurize_cdc.py`（LLM 按疾病拆分，Zhipu glm-4-flash）+ `convert_cdc.py`（月度重复疾病合并+剔除通用症状关键词，避免挤占专病条目检索）。注意 jkkp 等栏目为 JS 渲染需浏览器 |
 | 默沙东诊疗手册 | ✅ 完成并接入 | **6086 页**（大众版 3296 + 专业版 2790，`msd_manual.json` 43.6MB），`msd_search` 工具已注册 | 大众版 35 个失效 URL、专业版 14 个代理错误页未抓（<1%）；`fetch_msd.py [home|professional]`（幂等）+ `merge_msd.py` |
 | 国家卫健委指南 | ✅ 完成并接入 | **35 个中文指南**（26 文字版 + 9 OCR 版，`source=nhc`） | `fetch_nhc_all.py`(playwright 绕 WAF) + `ocr_nhc_scanned.py`(my-ocr) |
 | ClinVar 基因变异 | ✅ 完成并接入 | HBB/HBA1/HBA2/G6PD 致病及可能致病变异 1399 条（`clinvar.json` 376KB），`variant_lookup` 工具已注册 | 200 条 6 位旧 id 结构变异（CNV）esummary 不可达，已放弃；`fetch_clinvar.py` 幂等可补 |

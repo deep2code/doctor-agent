@@ -5,7 +5,7 @@
     "food_name_en": "Fava Bean / Broad Bean",
     "risk_category": "G6PD触发食物 — 急性溶血性贫血风险",
     "risk_detail": "蚕豆含蚕豆嘧啶（vicine）和伴蚕豆嘧啶（convicine），在G6PD缺乏症患者体内代谢为强氧化剂，导致血红蛋白氧化变性、Heinz小体形成和急性血管内溶血。溶血通常在食用后12-48小时发生，严重者可致急性肾功能衰竭；高度敏感个体吸入蚕豆花粉也可能诱发。",
-    "affected_population": "G6PD缺乏症患者（南方人群携带率：广西约17.5%，广东约4%，海南约3.7%）",
+    "affected_population": "G6PD缺乏症患者（携带率：广西约17.5%，广东约4%，海南约3.7%，南方高发）",
     "severity": "high",
     "citations": [
       {

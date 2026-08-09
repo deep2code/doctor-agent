@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"strconv"
+	"strings"
 )
 
 // Config holds all application configuration loaded from environment variables.
@@ -50,6 +51,18 @@ type Config struct {
 	ServerHost string
 	ServerPort string
 
+	// Server security
+	// APIKey enables Bearer-token auth on /chat endpoints when non-empty.
+	APIKey string
+	// CORSOrigins is an allowlist of origins (empty = allow all with "*").
+	CORSOrigins []string
+	// RateLimit caps requests per IP per minute; 0 disables rate limiting.
+	RateLimit int
+
+	// SessionDir persists conversation snapshots as JSON files under this
+	// directory; empty disables persistence (in-memory sessions only).
+	SessionDir string
+
 	// Logging
 	LogLevel string
 }
@@ -57,7 +70,7 @@ type Config struct {
 // Load reads configuration from environment variables with sensible defaults.
 func Load() *Config {
 	return &Config{
-		LLMProvider:     getEnv("LLM_PROVIDER", "anthropic"),
+		LLMProvider:     getEnv("LLM_PROVIDER", "deepseek"),
 		AnthropicAPIKey: getEnv("ANTHROPIC_API_KEY", ""),
 		AnthropicModel:  getEnv("ANTHROPIC_MODEL", "claude-sonnet-4-20250514"),
 		DeepSeekAPIKey:  getEnv("DEEPSEEK_API_KEY", ""),
@@ -86,14 +99,36 @@ func Load() *Config {
 		ScopeGuardEnabled: getEnvBool("SCOPE_GUARD_ENABLED", true),
 		PostVerifyEnabled: getEnvBool("POST_VERIFY_ENABLED", true),
 
-		JudgeEnabled: getEnvBool("POST_VERIFY_SEMANTIC", true),
+		JudgeEnabled: getEnvBool("POST_VERIFY_SEMANTIC", false),
 		JudgeModel:   getEnv("POST_VERIFY_JUDGE_MODEL", ""),
 
 		ServerHost: getEnv("SERVER_HOST", "0.0.0.0"),
 		ServerPort: getEnv("SERVER_PORT", "8080"),
 
+		APIKey:      getEnv("API_KEY", ""),
+		CORSOrigins: splitCSV(getEnv("CORS_ORIGINS", "")),
+		RateLimit:   getEnvInt("RATE_LIMIT", 0),
+
+		SessionDir: getEnv("SESSION_DIR", ""),
+
 		LogLevel: getEnv("LOG_LEVEL", "info"),
 	}
+}
+
+// splitCSV splits a comma-separated list, trimming whitespace and dropping
+// empty entries (used for CORS_ORIGINS).
+func splitCSV(s string) []string {
+	if s == "" {
+		return nil
+	}
+	parts := strings.Split(s, ",")
+	out := make([]string, 0, len(parts))
+	for _, p := range parts {
+		if p = strings.TrimSpace(p); p != "" {
+			out = append(out, p)
+		}
+	}
+	return out
 }
 
 // Validate checks that required configuration values are set based on the selected provider.

@@ -54,6 +54,7 @@ type KnowledgeEntry struct {
 	RiskFactors            []string            `json:"risk_factors,omitempty"`
 	Complications          []string            `json:"complications,omitempty"`
 	Prevention             []string            `json:"prevention,omitempty"`
+	WhenToSeekCare         []string            `json:"when_to_seek_care,omitempty"`
 	ClinicalExamples       []ClinicalExample   `json:"clinical_examples,omitempty"`
 	Citations              []Citation          `json:"citations"`
 	Keywords               []string            `json:"keywords"`

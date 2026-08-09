@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download ClinVar pathogenic/likely-pathogenic variants for southern-China
+"""Download ClinVar pathogenic/likely-pathogenic variants for China high-burden
 core genes (HBB/HBA1/HBA2/G6PD — thalassemia & G6PD deficiency) via NCBI
 E-Utilities, then merge into internal/knowledge/data/clinvar.json.
 

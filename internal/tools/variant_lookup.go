@@ -9,7 +9,7 @@ import (
 )
 
 // VariantLookup queries the embedded ClinVar subset: pathogenic /
-// likely-pathogenic variants of the core southern-China genes (HBB, HBA1,
+// likely-pathogenic variants of the core China high-burden genes (HBB, HBA1,
 // HBA2, G6PD — thalassemia & G6PD deficiency).
 type VariantLookup struct {
 	retriever *knowledge.KeywordRetriever

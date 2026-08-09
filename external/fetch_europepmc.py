@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Batch-fetch PubMed abstracts from Europe PMC for southern-China medical topics.
+"""Batch-fetch PubMed abstracts from Europe PMC for China-focused medical topics.
 Each topic becomes external/europepmc/{slug}.json with fields:
 id, pmid, doi, title, journal, year, authors, abstract, topic.
 """

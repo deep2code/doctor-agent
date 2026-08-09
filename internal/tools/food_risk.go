@@ -8,7 +8,8 @@ import (
 	"github.com/doctor-agent/internal/knowledge"
 )
 
-// FoodRiskAnalyzer analyzes food-related health risks for southern Chinese populations.
+// FoodRiskAnalyzer analyzes food-related health risks for the Chinese
+// population, with emphasis on dietary patterns common in southern China.
 type FoodRiskAnalyzer struct {
 	store *knowledge.Store
 }
@@ -23,7 +24,7 @@ func (t *FoodRiskAnalyzer) Name() string {
 }
 
 func (t *FoodRiskAnalyzer) Description() string {
-	return "分析特定食物或饮食模式对中国南方人群的健康风险。评估因素包括：G6PD安全性（蚕豆等）、嘌呤含量（痛风风险）、亚硝胺（咸鱼/NPC风险）、乳糖含量、常见过敏原、黄曲霉毒素风险（潮湿气候霉变食物）。"
+	return "分析特定食物或饮食模式对中国人群的健康风险（涵盖南方常见饮食模式）。评估因素包括：G6PD安全性（蚕豆等）、嘌呤含量（痛风风险）、亚硝胺（咸鱼/NPC风险）、乳糖含量、常见过敏原、黄曲霉毒素风险（潮湿气候霉变食物）。"
 }
 
 func (t *FoodRiskAnalyzer) Schema() map[string]any {
@@ -66,7 +67,7 @@ func (t *FoodRiskAnalyzer) analyze(foodName string) *ToolResult {
 				"risk_category":  "G6PD触发食物 — 急性溶血性贫血风险",
 				"risk_level":     "high",
 				"detail":         "蚕豆含有蚕豆嘧啶（vicine）和伴蚕豆嘧啶（convicine），在G6PD缺乏症患者体内被代谢为强氧化剂divicine和isouramil，导致血红蛋白氧化变性、Heinz小体形成和急性血管内溶血。溶血通常在食用后12-48小时发生，严重者可致急性肾功能衰竭。即使吸入蚕豆花粉也可能在高度敏感个体中诱发溶血。",
-				"affected_population": "G6PD缺乏症患者（南方人群携带率：广西~17.5%，广东~4%，海南~3.7%）",
+				"affected_population": "G6PD缺乏症患者（携带率：广西~17.5%，广东~4%，海南~3.7%，南方高发）",
 				"severity":           "高 — 可危及生命",
 				"safe_alternatives":  []string{"黄豆（大豆）", "绿豆", "鹰嘴豆", "扁豆", "豌豆", "四季豆（菜豆属，与蚕豆属不同）"},
 			},
@@ -156,9 +157,9 @@ func (t *FoodRiskAnalyzer) analyze(foodName string) *ToolResult {
 		Success: true,
 		Data: map[string]any{
 			"food_name":     foodName,
-			"risk_category": "未在南方特异性食物风险数据库中找到",
+			"risk_category": "未在特异性食物风险数据库中找到",
 			"risk_level":    "unknown",
-			"detail":        fmt.Sprintf("'%s' 未匹配到已知的南方人群特异性食物风险模式。如需进一步分析，可以提供更多信息（食材成分、烹饪方式、食用频率）。常规食物安全建议：确保食物新鲜、彻底烹煮、避免霉变（华南潮湿气候下黄曲霉毒素风险增加）。", foodName),
+			"detail":        fmt.Sprintf("'%s' 未匹配到已知的特异性食物风险模式。如需进一步分析，可以提供更多信息（食材成分、烹饪方式、食用频率）。常规食物安全建议：确保食物新鲜、彻底烹煮、避免霉变（华南潮湿气候下黄曲霉毒素风险增加）。", foodName),
 		},
 	}
 }

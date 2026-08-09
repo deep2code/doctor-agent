@@ -4,19 +4,20 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anthropics/anthropic-sdk-go"
+	"github.com/doctor-agent/internal/llm"
 )
 
 // Session manages a single conversation's state and message history.
+// Fields are JSON-serializable so sessions can be persisted to disk.
 type Session struct {
-	mu             sync.RWMutex
-	ID             string
-	Messages       []anthropic.MessageParam
-	ContextSummary string
-	CreatedAt      time.Time
-	UpdatedAt      time.Time
-	PatientContext *PatientContext
-	DisclaimerSent bool
+	mu             sync.RWMutex `json:"-"`
+	ID             string       `json:"id"`
+	Messages       []llm.Message `json:"messages"`
+	ContextSummary string       `json:"context_summary,omitempty"`
+	CreatedAt      time.Time    `json:"created_at"`
+	UpdatedAt      time.Time    `json:"updated_at"`
+	PatientContext *PatientContext `json:"patient_context,omitempty"`
+	DisclaimerSent bool         `json:"disclaimer_sent"`
 }
 
 // PatientContext holds optional structured patient-level context
@@ -38,7 +39,7 @@ func New(id string) *Session {
 	now := time.Now()
 	return &Session{
 		ID:        id,
-		Messages:  make([]anthropic.MessageParam, 0),
+		Messages:  make([]llm.Message, 0),
 		CreatedAt: now,
 		UpdatedAt: now,
 	}
@@ -49,8 +50,7 @@ func (s *Session) AddUserMessage(content string) {
 	s.mu.Lock()
 	defer s.mu.Unlock()
 
-	s.Messages = append(s.Messages,
-		anthropic.NewUserMessage(anthropic.NewTextBlock(content)))
+	s.Messages = append(s.Messages, llm.Message{Role: "user", Content: content})
 	s.UpdatedAt = time.Now()
 }
 
@@ -59,32 +59,27 @@ func (s *Session) AddAssistantMessage(content string) {
 	s.mu.Lock()
 	defer s.mu.Unlock()
 
-	s.Messages = append(s.Messages,
-		anthropic.NewAssistantMessage(anthropic.NewTextBlock(content)))
-	s.UpdatedAt = time.Now()
-}
-
-// AddToolUseTurn appends an assistant tool_use block and its tool_result.
-func (s *Session) AddToolUseTurn(
-	toolBlocks []anthropic.ContentBlockParamUnion,
-	toolResults []anthropic.ContentBlockParamUnion,
-) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-
-	s.Messages = append(s.Messages, anthropic.NewAssistantMessage(toolBlocks...))
-	s.Messages = append(s.Messages, anthropic.NewUserMessage(toolResults...))
+	s.Messages = append(s.Messages, llm.Message{Role: "assistant", Content: content})
 	s.UpdatedAt = time.Now()
 }
 
 // GetMessages returns a copy of the current message history.
-func (s *Session) GetMessages() []anthropic.MessageParam {
+func (s *Session) GetMessages() []llm.Message {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 
-	msgs := make([]anthropic.MessageParam, len(s.Messages))
+	msgs := make([]llm.Message, len(s.Messages))
 	copy(msgs, s.Messages)
 	return msgs
+}
+
+// Clear resets the conversation history (keeps ID and patient context).
+func (s *Session) Clear() {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	s.Messages = make([]llm.Message, 0)
+	s.DisclaimerSent = false
+	s.UpdatedAt = time.Now()
 }
 
 // TrimHistory keeps only the most recent N turns.

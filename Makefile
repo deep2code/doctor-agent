@@ -2,7 +2,7 @@
 
 # Build the binary
 build:
-	go build -o bin/doctor-agent ./cmd/doctor-agent
+	go build -o bin/doctor-agent .
 
 # Run in CLI chat mode
 chat: build
@@ -48,7 +48,11 @@ deps:
 
 # Verify knowledge JSON files
 verify-knowledge:
-	go run ./cmd/doctor-agent verify-knowledge
+	go run . verify-knowledge
+
+# Regenerate gzip-embedded knowledge files (run after editing data/*.json)
+gz:
+	python3 external/make_gz.py
 
 # Help
 help:

@@ -93,14 +93,14 @@ curl -N -X POST http://localhost:8080/chat/stream \   # SSE 流式
   ├─ [L2 范围检查] 排除兽医/法医/偏方/自残
   ├─ [知识检索] 关键词(BM25+CJK) + 可选向量/混合检索，命中嵌入式知识库
   ├─ [提示词组装] 5层系统提示词 + 检索知识注入
-  ├─ [Agent循环] LLM Provider(流式) ← → 13个医疗工具
+  ├─ [Agent循环] LLM Provider(流式) ← → 16个医疗工具
   ├─ [L3 引用验证] 引用真实性核查 + 诊断断言检查
   └─ [L4 免责声明] 返回 响应 + 引用列表 + 免责声明
 ```
 
 HTTP 层另有可选安全中间件：Bearer 鉴权 → 每 IP 限流 → CORS 白名单。
 
-## 🛠️ 13个医疗工具
+## 🛠️ 16个医疗工具
 
 1. **drug_safety_check** — G6PD药物禁忌查询（安全/不安全/谨慎/未知）
 2. **genetic_risk_calculator** — 地贫遗传概率计算（Punnett方阵）
@@ -114,7 +114,10 @@ HTTP 层另有可选安全中间件：Bearer 鉴权 → 每 IP 限流 → CORS �
 10. **drug_lookup** — 国家医保药品目录查询（2024版）
 11. **eml_lookup** — WHO基本药物清单查询（第24版，564种）
 12. **drug_label_lookup** — FDA药品标签中文摘要查询（344条）
-13. **lab_interpreter** — 实验室检查解读（含地贫筛查注意事项）
+13. **nhc_search** — 国家卫健委诊疗方案/指南全文检索（39篇中文）
+14. **fhs_search** — 香港卫生署家庭健康服务育儿知识检索（103页中文）
+15. **aap_search** — 美国儿科学会 healthychildren 育儿百科检索（英文）
+16. **lab_interpreter** — 实验室检查解读（含地贫筛查注意事项）
 
 ## 📁 项目结构
 
@@ -129,7 +132,7 @@ doctor-agent/
 │   ├── knowledge/                    # 知识库(gzip embed) + 检索器 + 引用系统
 │   │   ├── data/                     # 23个源JSON（编辑后运行 make gz）
 │   │   └── gz/                       # gzip 压缩的嵌入文件（go:embed）
-│   ├── tools/                        # 13个医疗工具 + 注册表
+│   ├── tools/                        # 16个医疗工具 + 注册表
 │   ├── safety/                       # 4层安全防护
 │   └── server/                       # HTTP API Server（鉴权/限流/CORS）
 ├── evals/                           # 防幻觉黄金评测集（中文36题 + 英文299题）

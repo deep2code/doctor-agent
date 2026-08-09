@@ -3,8 +3,10 @@ package server
 import (
 	"context"
 	"crypto/subtle"
+	_ "embed"
 	"encoding/json"
 	"fmt"
+	"io"
 	"log/slog"
 	"net"
 	"net/http"
@@ -16,6 +18,9 @@ import (
 	"github.com/doctor-agent/internal/config"
 	"github.com/doctor-agent/internal/session"
 )
+
+//go:embed web/index.html
+var webUIIndex string
 
 // Server wraps the HTTP API server for the doctor agent.
 type Server struct {
@@ -34,6 +39,7 @@ func New(cfg *config.Config, ag *agent.Agent) *Server {
 	}
 
 	mux := http.NewServeMux()
+	mux.HandleFunc("/", s.handleWebUI)
 	mux.HandleFunc("/health", s.handleHealth)
 	mux.HandleFunc("/chat", s.handleChat)
 	mux.HandleFunc("/chat/stream", s.handleChatStream)
@@ -58,6 +64,21 @@ func (s *Server) Start() error {
 // Shutdown gracefully stops the server.
 func (s *Server) Shutdown(ctx context.Context) error {
 	return s.http.Shutdown(ctx)
+}
+
+// handleWebUI serves the built-in chat web interface (embedded single-file
+// HTML — no build step, no external assets; works offline).
+func (s *Server) handleWebUI(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+	if r.URL.Path != "/" {
+		http.NotFound(w, r)
+		return
+	}
+	w.Header().Set("Content-Type", "text/html; charset=utf-8")
+	_, _ = io.WriteString(w, webUIIndex)
 }
 
 // handleHealth responds with server health status.
@@ -235,8 +256,8 @@ func (s *Server) withMiddleware(h http.Handler) http.Handler {
 			return
 		}
 
-		// /health stays open for load-balancer probes; everything else is gated.
-		if r.URL.Path != "/health" {
+		// /health and the UI page stay open for probes/browsers; the API is gated.
+		if r.URL.Path != "/health" && r.URL.Path != "/" {
 			if !s.limiter.allow(clientIP(r)) {
 				slog.Warn("Rate limit exceeded", "ip", clientIP(r), "path", r.URL.Path)
 				writeJSON(w, http.StatusTooManyRequests, map[string]any{"error": "rate limit exceeded"})

@@ -84,6 +84,25 @@ func TestHealthOpen(t *testing.T) {
 	}
 }
 
+func TestWebUIServed(t *testing.T) {
+	s := newTestServer(t, nil)
+	rec := doRequest(t, s, http.MethodGet, "/", "", "", "")
+	if rec.Code != http.StatusOK {
+		t.Fatalf("GET / status = %d, want 200", rec.Code)
+	}
+	if ct := rec.Header().Get("Content-Type"); !strings.HasPrefix(ct, "text/html") {
+		t.Errorf("Content-Type = %q, want text/html", ct)
+	}
+	body := rec.Body.String()
+	if !strings.Contains(body, "Doctor Agent") || !strings.Contains(body, "/chat/stream") {
+		t.Error("UI page is missing expected content (title or stream endpoint)")
+	}
+	// Unknown paths 404 instead of serving the SPA shell.
+	if rec := doRequest(t, s, http.MethodGet, "/nope", "", "", ""); rec.Code != http.StatusNotFound {
+		t.Errorf("GET /nope = %d, want 404", rec.Code)
+	}
+}
+
 func TestAuthRequired(t *testing.T) {
 	s := newTestServer(t, func(c *config.Config) { c.APIKey = "secret" })
 

@@ -240,6 +240,8 @@ func (cf *CitationFormatter) typeLabel(t string) string {
 	switch t {
 	case "guideline":
 		return "临床指南"
+	case "national_guideline":
+		return "国家级指南"
 	case "epidemiology":
 		return "流行病学研究"
 	case "meta_analysis":

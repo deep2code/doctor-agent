@@ -65,6 +65,15 @@ type Store struct {
 	// FDA drug labels (DailyMed/OpenFDA), curated Chinese summaries.
 	FDALabels           []FDALabelEntry
 
+	// NHC official 诊疗方案/指南 (国家卫健委), Chinese full text.
+	NHCGuides           []NHCGuide
+
+	// FHS parenting pages (香港卫生署家庭健康服务), Simplified Chinese full text.
+	FHSGuides           []FHSGuide
+
+	// AAP parenting articles (healthychildren.org), English full text.
+	AAPEntries          []AAPEntry
+
 	loaded bool
 }
 
@@ -253,6 +262,36 @@ func doLoad() (*Store, error) {
 				}
 			}
 
+		case "china_vaccines.json":
+			var entries []KnowledgeEntry
+			if err := json.Unmarshal(data, &entries); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range entries {
+				e := &entries[i]
+				store.MedicalEntries = append(store.MedicalEntries, *e)
+				store.MedicalByID[e.ID] = e
+				for j, c := range e.Citations {
+					key := fmt.Sprintf("%s-cite-%d-%d", e.ID, c.Year, j)
+					store.ReferenceIndex[key] = c.Title
+				}
+			}
+
+		case "feeding_guidelines.json":
+			var entries []KnowledgeEntry
+			if err := json.Unmarshal(data, &entries); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range entries {
+				e := &entries[i]
+				store.MedicalEntries = append(store.MedicalEntries, *e)
+				store.MedicalByID[e.ID] = e
+				for j, c := range e.Citations {
+					key := fmt.Sprintf("%s-cite-%d-%d", e.ID, c.Year, j)
+					store.ReferenceIndex[key] = c.Title
+				}
+			}
+
 		case "cdc_entries.json":
 			var entries []KnowledgeEntry
 			if err := json.Unmarshal(data, &entries); err != nil {
@@ -339,6 +378,42 @@ func doLoad() (*Store, error) {
 				}
 			}
 			store.FDALabels = set.Drugs
+
+		case "nhc_guides.json":
+			var set NHCGuideSet
+			if err := json.Unmarshal(data, &set); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range set.Entries {
+				if set.Entries[i].Title == "" || set.Entries[i].Content == "" {
+					return fmt.Errorf("nhc_guides.json: entry %d missing title/content", i)
+				}
+			}
+			store.NHCGuides = set.Entries
+
+		case "fhs_guides.json":
+			var set FHSGuideSet
+			if err := json.Unmarshal(data, &set); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range set.Entries {
+				if set.Entries[i].Title == "" || set.Entries[i].Content == "" {
+					return fmt.Errorf("fhs_guides.json: entry %d missing title/content", i)
+				}
+			}
+			store.FHSGuides = set.Entries
+
+		case "aap_articles.json":
+			var set AAPSet
+			if err := json.Unmarshal(data, &set); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range set.Entries {
+				if set.Entries[i].Title == "" || set.Entries[i].Content == "" {
+					return fmt.Errorf("aap_articles.json: entry %d missing title/content", i)
+				}
+			}
+			store.AAPEntries = set.Entries
 
 		default:
 			// Unknown/extra data files are intentionally ignored here; add a
@@ -545,6 +620,54 @@ func (s *Store) GetFDALabels() []FDALabelEntry {
 	out := make([]FDALabelEntry, len(s.FDALabels))
 	copy(out, s.FDALabels)
 	return out
+}
+
+// GetNHCGuides returns the NHC guideline corpus (copy).
+func (s *Store) GetNHCGuides() []NHCGuide {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]NHCGuide, len(s.NHCGuides))
+	copy(out, s.NHCGuides)
+	return out
+}
+
+// GetNHCGuideCount returns the number of embedded NHC guidelines.
+func (s *Store) GetNHCGuideCount() int {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return len(s.NHCGuides)
+}
+
+// GetFHSGuides returns the FHS parenting corpus (copy).
+func (s *Store) GetFHSGuides() []FHSGuide {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]FHSGuide, len(s.FHSGuides))
+	copy(out, s.FHSGuides)
+	return out
+}
+
+// GetFHSGuideCount returns the number of embedded FHS pages.
+func (s *Store) GetFHSGuideCount() int {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return len(s.FHSGuides)
+}
+
+// GetAAPEntries returns the AAP corpus (copy).
+func (s *Store) GetAAPEntries() []AAPEntry {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]AAPEntry, len(s.AAPEntries))
+	copy(out, s.AAPEntries)
+	return out
+}
+
+// GetAAPCount returns the number of embedded AAP articles.
+func (s *Store) GetAAPCount() int {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return len(s.AAPEntries)
 }
 
 // GetReferenceIndex returns the reference index for post-verification.

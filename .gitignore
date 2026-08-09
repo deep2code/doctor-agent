@@ -55,6 +55,11 @@ evals/report.json
 __pycache__/
 external/nhc/scanned/
 
+# Regenerable raw downloads (2026-08-09 additions; scripts rebuild these)
+external/aap/
+external/fhs/pages/
+external/immunization/
+
 # Pipeline intermediates & logs (regenerable; scripts in external/*.py)
 external/cdc/jkts/
 external/cdc_structured/

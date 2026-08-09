@@ -75,6 +75,9 @@ func New(cfg *config.Config) (*Agent, error) {
 	registry.Register(tools.NewDrugLookup(store))
 	registry.Register(tools.NewEMLLookup(store))
 	registry.Register(tools.NewDrugLabelLookup(store))
+	registry.Register(tools.NewNhcSearch(store))
+	registry.Register(tools.NewFhsSearch(store))
+	registry.Register(tools.NewAapSearch(store))
 	registry.Register(tools.NewLabInterpreter())
 
 	postVerifier := safety.NewPostVerifier(store.GetReferenceIndex())

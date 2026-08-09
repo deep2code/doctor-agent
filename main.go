@@ -190,7 +190,9 @@ func runServe(cfg *config.Config) {
 	go func() {
 		<-sigCh
 		slog.Info("Shutting down...")
-		srv.Shutdown(context.Background())
+		if err := srv.Shutdown(context.Background()); err != nil {
+			slog.Warn("Graceful shutdown error", "error", err)
+		}
 	}()
 
 	if err := srv.Start(); err != nil {

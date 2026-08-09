@@ -24,34 +24,28 @@
 | 登革热 | 南方省份为主（广东/广西/海南/云南） | ✅ 诊断+分诊 |
 | 湿疹/真菌感染 | 全国常见（南方湿热地区更易发） | ✅ 诊断+治疗 |
 
-## 🚀 快速开始
+## 🚀 快速开始（零配置）
 
-只需 2~3 条命令，默认 **DeepSeek**（国内模型），零额外配置：
+**不用装 Go、不用配环境变量，下载就能用：**
 
-```bash
-# 1. 配置（一次性）：复制示例配置，填入你的 API Key
-cp .env.example .env          # 然后编辑 .env，把 DEEPSEEK_API_KEY 改成你的 key
+1. **下载程序**：打开 [GitHub Releases](https://github.com/deep2code/doctor-agent/releases) 页面，下载对应你系统的文件（macOS / Windows / Linux）
+2. **解压**，双击 `start-chat`（Windows 是 `start-chat.bat`，macOS/Linux 是 `start-chat.sh`）
+3. **首次运行**会问你一个 API Key——推荐 **智谱 glm-4-flash（免费）**，去 [open.bigmodel.cn](https://open.bigmodel.cn) 注册免费获取，粘贴一次自动保存，之后永不再问
+4. **直接输入问题**，回车即答
 
-# 2. 命令行聊天
-go run . chat
+> 💡 想用别的模型？设置环境变量即可覆盖：`DEEPSEEK_API_KEY=sk-...` 等（详见下方「🔧 配置」）。
 
-# 3. 或者起 HTTP 服务（默认 http://localhost:8080）
-go run . serve
-```
-
-**要求**：Go 1.26.2+、一个 [DeepSeek API Key](https://platform.deepseek.com)（免费注册、国内直连）。
-
-> 💡 不想建 `.env`？直接 `export DEEPSEEK_API_KEY=sk-...` 再 `go run . chat` 也行。
-
-### 更多命令（不常用，用到再看）
+### 开发者用（源码运行）
 
 <details>
-<summary>编译二进制 / 校验知识库 / 跑评测（点击展开）</summary>
+<summary>源码构建 / 校验 / 评测（点击展开）</summary>
 
 ```bash
-go build -o bin/doctor-agent .   # 编译出可执行文件（之后 ./bin/doctor-agent chat）
-go run . verify-knowledge        # 校验知识库完整性（改数据后跑）
-go run ./evals                   # 离线防幻觉评测
+cp .env.example .env          # 或用首次运行引导（推荐）
+go run . chat                 # 命令行聊天（首次同样会引导填 key）
+go run . serve                # HTTP 服务 http://localhost:8080
+go run . verify-knowledge     # 校验知识库
+go run ./evals                # 离线防幻觉评测
 ```
 </details>
 

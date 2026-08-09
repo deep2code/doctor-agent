@@ -123,9 +123,21 @@ do_install() {
     # 确保目标目录存在
     mkdir -p "$GOBIN"
 
+    # 先删除旧文件再复制：macOS 上覆盖写入刚编译的 ad-hoc 签名二进制后
+    # 立即运行，偶发触发内核 "Code Signature Invalid" (SIGKILL)。删除旧的
+    # 可避免覆盖式写入产生的签名页缓存不一致。
+    rm -f "$GOBIN/$BINARY_NAME"
+
     # 复制
     cp "$binary_path" "$GOBIN/$BINARY_NAME"
     chmod +x "$GOBIN/$BINARY_NAME"
+
+    # macOS: 安装后强制重新 ad-hoc 签名，彻底消除 Invalid Page 被杀问题。
+    if [ "$(uname)" = "Darwin" ] && command -v codesign &>/dev/null; then
+        codesign --force --sign - "$GOBIN/$BINARY_NAME" 2>/dev/null \
+            && success "已重新签名 (adhoc)" \
+            || warn "重新签名失败（可忽略；若运行报 Code Signature Invalid 再手动执行 codesign --force --sign -）"
+    fi
 
     success "已安装到: $GOBIN/$BINARY_NAME"
 

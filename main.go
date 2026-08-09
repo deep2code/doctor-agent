@@ -1,11 +1,13 @@
 package main
 
 import (
+	"bufio"
 	"context"
 	"fmt"
 	"log/slog"
 	"os"
 	"os/signal"
+	"path/filepath"
 	"strings"
 	"syscall"
 	"time"
@@ -27,6 +29,11 @@ func main() {
 	// Load .env file if present (silently ignore if not found)
 	if err := loadDotenv(); err != nil {
 		slog.Debug("No .env file loaded", "error", err)
+	}
+	// Load the user-level config (~/.doctor-agent/config.env) — lowest
+	// priority, so real environment variables and .env always win.
+	if err := loadUserConfig(); err != nil {
+		slog.Debug("No user config loaded", "error", err)
 	}
 
 	cfg := config.Load()
@@ -95,6 +102,16 @@ func runChat(cfg *config.Config) {
 	fmt.Println("   专注全中国人群 · 纯循证医学 · 每条回答有据可查")
 	fmt.Println("   输入 'quit' 或 'exit' 退出 | 输入 'help' 查看帮助")
 	fmt.Println()
+
+	// 首次运行引导：缺 API Key 时，交互式配置一次并保存，之后免配置。
+	if err := cfg.Validate(); err != nil {
+		if setupErr := setupAPIKey(); setupErr != nil {
+			slog.Error("API Key 配置失败", "error", setupErr)
+			os.Exit(1)
+		}
+		_ = loadUserConfig() // 把刚保存的配置读进环境变量
+		cfg = config.Load()
+	}
 
 	ag, err := agent.New(cfg)
 	if err != nil {
@@ -175,6 +192,13 @@ Chat simply by typing your medical question. The agent will:
 }
 
 func runServe(cfg *config.Config) {
+	if err := cfg.Validate(); err != nil {
+		fmt.Fprintf(os.Stderr, "❌ 配置不完整: %v\n", err)
+		fmt.Fprintln(os.Stderr, "请先运行一次 `doctor-agent chat` 完成交互配置（只需一次），")
+		fmt.Fprintln(os.Stderr, "或编辑 ~/.doctor-agent/config.env，或设置环境变量。")
+		os.Exit(1)
+	}
+
 	ag, err := agent.New(cfg)
 	if err != nil {
 		slog.Error("Failed to initialize agent", "error", err)
@@ -240,6 +264,102 @@ func runVerifyKnowledge(checkURLs bool) {
 		fmt.Println()
 		fmt.Println("⚠️  校验存在警告（不影响可用性），建议完善数据。")
 	}
+}
+
+// userConfigPath returns the user-level config file path
+// (~/.doctor-agent/config.env), where the first-run setup stores the API key.
+func userConfigPath() string {
+	home, err := os.UserHomeDir()
+	if err != nil {
+		return ""
+	}
+	return filepath.Join(home, ".doctor-agent", "config.env")
+}
+
+// loadUserConfig reads ~/.doctor-agent/config.env and applies it to the
+// environment with the LOWEST priority: real environment variables and the
+// project .env always win (we only set keys that are still empty).
+func loadUserConfig() error {
+	path := userConfigPath()
+	if path == "" {
+		return nil
+	}
+	data, err := os.ReadFile(path)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return nil
+		}
+		return err
+	}
+	for _, line := range strings.Split(string(data), "\n") {
+		line = strings.TrimSpace(line)
+		if line == "" || strings.HasPrefix(line, "#") {
+			continue
+		}
+		key, val, ok := strings.Cut(line, "=")
+		if !ok || key == "" {
+			continue
+		}
+		key = strings.TrimSpace(key)
+		val = strings.TrimSpace(val)
+		if os.Getenv(key) == "" {
+			_ = os.Setenv(key, val)
+		}
+	}
+	return nil
+}
+
+// setupAPIKey is the first-run interactive setup: it asks the user for an API
+// key (recommending the free 智谱 glm-4-flash option), persists it to
+// ~/.doctor-agent/config.env and never asks again.
+func setupAPIKey() error {
+	reader := bufio.NewReader(os.Stdin)
+
+	fmt.Println()
+	fmt.Println("🔑 首次使用：配置一个 API Key（只需这一次，之后免配置）")
+	fmt.Println()
+	fmt.Println("推荐：智谱 glm-4-flash —— 免费、国内直连")
+	fmt.Println("      获取: https://open.bigmodel.cn 注册 → 控制台 → API Keys")
+	fmt.Println("备选：DeepSeek —— https://platform.deepseek.com")
+	fmt.Println()
+	fmt.Print("选择模型 [1=智谱 glm-4-flash(推荐), 2=DeepSeek]（默认 1）: ")
+	choice, _ := reader.ReadString('\n')
+	choice = strings.TrimSpace(choice)
+
+	fmt.Print("请粘贴你的 API Key（粘贴后回车）: ")
+	key, _ := reader.ReadString('\n')
+	key = strings.TrimSpace(key)
+	if key == "" {
+		return fmt.Errorf("API Key 不能为空")
+	}
+
+	var content string
+	if strings.HasPrefix(choice, "2") {
+		content = "# doctor-agent user config (created by first-run setup)\n" +
+			"LLM_PROVIDER=deepseek\n" +
+			"DEEPSEEK_API_KEY=" + key + "\n"
+	} else {
+		content = "# doctor-agent user config (created by first-run setup)\n" +
+			"LLM_PROVIDER=openai-compat\n" +
+			"OPENAI_COMPAT_BASE_URL=https://open.bigmodel.cn/api/paas/v4\n" +
+			"OPENAI_COMPAT_API_KEY=" + key + "\n" +
+			"OPENAI_COMPAT_MODEL=glm-4-flash\n"
+	}
+
+	path := userConfigPath()
+	if path == "" {
+		return fmt.Errorf("无法确定用户主目录")
+	}
+	if err := os.MkdirAll(filepath.Dir(path), 0o700); err != nil {
+		return fmt.Errorf("创建配置目录: %w", err)
+	}
+	if err := os.WriteFile(path, []byte(content), 0o600); err != nil {
+		return fmt.Errorf("保存配置: %w", err)
+	}
+
+	fmt.Printf("✅ 已保存到 %s，之后无需再配置。\n", path)
+	fmt.Println()
+	return nil
 }
 
 // loadDotenv reads a .env file in the current directory and sets environment

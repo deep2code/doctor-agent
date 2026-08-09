@@ -56,6 +56,15 @@ jobs:
             -X main.buildTime=${BUILD_TIME}" \
             -o "dist/doctor-agent-${VERSION}-${{ matrix.os }}-${{ matrix.arch }}${EXT}" .
 
+          # 一键启动脚本：解压后双击即可进入对话（首次运行会引导填 API Key）
+          BIN="doctor-agent-${VERSION}-${{ matrix.os }}-${{ matrix.arch }}"
+          if [ "${{ matrix.os }}" = "windows" ]; then
+            printf '@echo off\r\ncd /d %%~dp0\r\n%s.exe chat\r\npause\r\n' "${BIN}" > dist/start-chat.bat
+          else
+            printf '#!/bin/sh\ncd "$(dirname "$0")"\nexec ./%s chat\n' "${BIN}" > dist/start-chat.sh
+            chmod +x dist/start-chat.sh
+          fi
+
       - name: Checksums
         run: |
           cd dist

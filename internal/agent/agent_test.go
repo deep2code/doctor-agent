@@ -20,12 +20,14 @@ type fakeProvider struct {
 	responses []*llm.ChatResponse
 	streamed  [][]string // deltas forwarded on each StreamChat call
 	chatCalls int
+	captured  [][]llm.Message // messages seen on each call (for assertions)
 }
 
 func (f *fakeProvider) Name() string { return "fake" }
 
-func (f *fakeProvider) Chat(_ context.Context, _ []llm.Message, _ []llm.ToolDefinition, _ string) (*llm.ChatResponse, error) {
+func (f *fakeProvider) Chat(_ context.Context, messages []llm.Message, _ []llm.ToolDefinition, _ string) (*llm.ChatResponse, error) {
 	f.chatCalls++
+	f.captured = append(f.captured, append([]llm.Message(nil), messages...))
 	if len(f.responses) == 0 {
 		return &llm.ChatResponse{}, nil
 	}
@@ -300,5 +302,45 @@ func TestEmergencyStepEmitted(t *testing.T) {
 	}
 	if len(steps) != 1 || steps[0].Type != "emergency" {
 		t.Errorf("steps = %+v, want single emergency step", steps)
+	}
+}
+
+// TestToolLoopCarriesToolCallsToNextTurn guards against the Zhipu/OpenAI 400
+// "Invalid assistant message: content or tool_calls must be set": the
+// assistant tool-use message sent on the next round must carry ToolCalls.
+func TestToolLoopCarriesToolCallsToNextTurn(t *testing.T) {
+	cfg := testConfig()
+	p := &fakeProvider{
+		responses: []*llm.ChatResponse{
+			{ToolCalls: []llm.ToolCall{{ID: "c1", Name: "echo", Arguments: map[string]any{"a": "1"}}}},
+			{Text: "最终回答"},
+		},
+		streamed: [][]string{nil, {"最终回答"}},
+	}
+	ag := newTestAgent(cfg, p)
+	ag.registry.Register(echoTool{})
+	sess := session.New("toolcalls-1")
+
+	if _, err := ag.ProcessMessageStream(context.Background(), sess, "帮我查", nil, nil); err != nil {
+		t.Fatalf("ProcessMessageStream: %v", err)
+	}
+
+	if len(p.captured) != 2 {
+		t.Fatalf("LLM calls = %d, want 2", len(p.captured))
+	}
+	// 第二轮中应有一条 assistant 消息携带 ToolCalls（在工具结果 user 消息之前）
+	second := p.captured[1]
+	var assistant *llm.Message
+	for i := range second {
+		if second[i].Role == "assistant" && len(second[i].ToolCalls) > 0 {
+			assistant = &second[i]
+			break
+		}
+	}
+	if assistant == nil {
+		t.Fatal("second round has no assistant message with ToolCalls")
+	}
+	if len(assistant.ToolCalls) != 1 || assistant.ToolCalls[0].Name != "echo" {
+		t.Errorf("assistant ToolCalls = %+v, want [echo]", assistant.ToolCalls)
 	}
 }

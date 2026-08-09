@@ -276,7 +276,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		// Check for tool calls
 		if len(resp.ToolCalls) > 0 {
 			// Build assistant message with text + tool_calls
-			assistantMsg := llm.Message{Role: "assistant", Content: resp.Text}
+			assistantMsg := llm.Message{Role: "assistant", Content: resp.Text, ToolCalls: resp.ToolCalls}
 
 			// Execute tools and collect results
 			var toolResults strings.Builder

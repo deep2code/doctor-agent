@@ -6,6 +6,10 @@ import "context"
 type Message struct {
 	Role    string // "system", "user", "assistant"
 	Content string
+	// ToolCalls is set on assistant messages that requested tool use.
+	// Providers translate it into their native tool-call format (tool_use
+	// blocks for Anthropic, tool_calls for OpenAI-compatible endpoints).
+	ToolCalls []ToolCall `json:"tool_calls,omitempty"`
 }
 
 // ToolDefinition describes a tool available to the LLM.

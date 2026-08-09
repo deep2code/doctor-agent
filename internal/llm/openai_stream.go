@@ -56,7 +56,29 @@ func openAIStreamingChat(
 		openAIMsgs = append(openAIMsgs, openAIMessage{Role: "system", Content: systemPrompt})
 	}
 	for _, msg := range messages {
-		openAIMsgs = append(openAIMsgs, openAIMessage{Role: msg.Role, Content: msg.Content})
+		m := openAIMessage{Role: msg.Role, Content: msg.Content}
+		// Assistant tool-call messages must carry tool_calls (OpenAI-compatible
+		// endpoints reject assistant messages with neither content nor
+		// tool_calls; empty content is omitted by the omitempty tag).
+		if msg.Role == "assistant" && len(msg.ToolCalls) > 0 {
+			tcs := make([]openAIToolCall, 0, len(msg.ToolCalls))
+			for _, tc := range msg.ToolCalls {
+				args, err := json.Marshal(tc.Arguments)
+				if err != nil {
+					args = []byte("{}")
+				}
+				tcs = append(tcs, openAIToolCall{
+					ID:   tc.ID,
+					Type: "function",
+					Function: openAIFunctionCall{
+						Name:      tc.Name,
+						Arguments: string(args),
+					},
+				})
+			}
+			m.ToolCalls = tcs
+		}
+		openAIMsgs = append(openAIMsgs, m)
 	}
 
 	openAITools := make([]openAITool, 0, len(tools))

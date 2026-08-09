@@ -35,7 +35,7 @@
 3. **首次运行**会问你一个 API Key——推荐 **智谱 glm-4-flash（免费）**，去 [open.bigmodel.cn](https://open.bigmodel.cn) 注册免费获取，粘贴一次自动保存，之后永不再问
 4. **直接输入问题**，回车即答
 
-> 💡 想用别的模型？设置环境变量即可覆盖：`DEEPSEEK_API_KEY=sk-...` 等（详见下方「🔧 配置」）。
+> 💡 想用别的模型？设置环境变量即可覆盖：`DEEPSEEK_API_KEY=sk-...`、豆包/智谱走 `LLM_PROVIDER=openai-compat`（详见 `.env.example` 与下方「🔧 配置」）。首次运行引导也已内置 **智谱 / DeepSeek / 豆包** 三选一。
 
 ### 开发者用（源码运行）
 

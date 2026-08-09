@@ -193,7 +193,7 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 
 	sendEvent := func(event string, payload any) {
 		data, _ := json.Marshal(payload)
-		fmt.Fprintf(w, "event: %s\ndata: %s\n\n", event, data)
+		_, _ = fmt.Fprintf(w, "event: %s\ndata: %s\n\n", event, data)
 		flusher.Flush()
 	}
 

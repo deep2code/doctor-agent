@@ -189,25 +189,25 @@ func (v *PostVerifier) verifySemanticClaims(ctx context.Context, body string, so
 
 	for i, c := range claims {
 		idx := i + 1
-		sb.WriteString(fmt.Sprintf("陈述 %d: <<< %s >>>\n", idx, c.text))
+		fmt.Fprintf(&sb, "陈述 %d: <<< %s >>>\n", idx, c.text)
 		for _, num := range c.numbers {
 			src := sources[num]
-			sb.WriteString(fmt.Sprintf("陈述 %d 引用的编号 %s 对应文献: %s", idx, num, src.Citation.Title))
+			fmt.Fprintf(&sb, "陈述 %d 引用的编号 %s 对应文献: %s", idx, num, src.Citation.Title)
 			if src.Citation.Journal != "" {
-				sb.WriteString(fmt.Sprintf(" (%s)", src.Citation.Journal))
+				fmt.Fprintf(&sb, " (%s)", src.Citation.Journal)
 			}
 			if src.Citation.Year > 0 {
-				sb.WriteString(fmt.Sprintf(", %d", src.Citation.Year))
+				fmt.Fprintf(&sb, ", %d", src.Citation.Year)
 			}
 			if src.Citation.DOI != "" {
-				sb.WriteString(fmt.Sprintf(" DOI:%s", src.Citation.DOI))
+				fmt.Fprintf(&sb, " DOI:%s", src.Citation.DOI)
 			}
 			if src.Citation.PMID != "" {
-				sb.WriteString(fmt.Sprintf(" PMID:%s", src.Citation.PMID))
+				fmt.Fprintf(&sb, " PMID:%s", src.Citation.PMID)
 			}
 			sb.WriteString("\n")
-			sb.WriteString(fmt.Sprintf("编号 %s 文献内容（条目: %s）: %s\n\n",
-				num, src.ConditionZH, truncateRunes(src.EntryText, 1200)))
+			fmt.Fprintf(&sb, "编号 %s 文献内容（条目: %s）: %s\n\n",
+				num, src.ConditionZH, truncateRunes(src.EntryText, 1200))
 		}
 	}
 
@@ -372,13 +372,13 @@ func (v *PostVerifier) buildCorrection(original string, result *PostVerifyResult
 	sb.WriteString("本回答经自动核查，发现以下需注意的问题：\n\n")
 
 	for i, warning := range result.Warnings {
-		sb.WriteString(fmt.Sprintf("%d. ⚠️ %s\n", i+1, warning))
+		fmt.Fprintf(&sb, "%d. ⚠️ %s\n", i+1, warning)
 	}
 
 	if len(result.UnverifiedClaims) > 0 {
 		sb.WriteString("\n**未验证的引用/陈述：**\n")
 		for _, claim := range result.UnverifiedClaims {
-			sb.WriteString(fmt.Sprintf("- %s\n", claim))
+			fmt.Fprintf(&sb, "- %s\n", claim)
 		}
 	}
 

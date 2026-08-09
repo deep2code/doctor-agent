@@ -78,9 +78,10 @@ func (t *EMLLookup) Execute(ctx context.Context, input map[string]any) (*ToolRes
 		indications := make([]string, 0, len(e.Indications))
 		for _, ind := range e.Indications {
 			choiceLabel := "一线"
-			if ind.Choice == "second" {
+			switch ind.Choice {
+			case "second":
 				choiceLabel = "二线"
-			} else if ind.Choice == "both" {
+			case "both":
 				choiceLabel = "一线/二线"
 			}
 			indications = append(indications, fmt.Sprintf("%s: %s", choiceLabel, ind.Text))

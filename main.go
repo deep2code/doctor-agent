@@ -266,7 +266,7 @@ func loadDotenv() error {
 		val = strings.TrimSpace(val)
 		// Only set if not already present in the environment
 		if os.Getenv(key) == "" {
-			os.Setenv(key, val)
+			_ = os.Setenv(key, val)
 		}
 	}
 	return nil

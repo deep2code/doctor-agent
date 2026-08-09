@@ -99,7 +99,7 @@ func openAIStreamingChat(
 	if err != nil {
 		return nil, fmt.Errorf("openai-compatible API request: %w", err)
 	}
-	defer resp.Body.Close()
+	defer func() { _ = resp.Body.Close() }()
 
 	if resp.StatusCode != http.StatusOK {
 		respBytes, _ := io.ReadAll(resp.Body)

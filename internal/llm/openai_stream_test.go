@@ -43,7 +43,7 @@ func TestOpenAIStreamingChat(t *testing.T) {
 
 		// Non-streaming path: plain JSON body, no SSE framing.
 		w.Header().Set("Content-Type", "application/json")
-		w.Write([]byte(`{"choices":[{"message":{"role":"assistant","content":"一次性回答"}}]}`))
+		_, _ = w.Write([]byte(`{"choices":[{"message":{"role":"assistant","content":"一次性回答"}}]}`))
 	}))
 	defer srv.Close()
 

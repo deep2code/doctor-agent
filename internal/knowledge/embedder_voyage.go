@@ -85,7 +85,7 @@ func (e *VoyageEmbedder) EmbedBatch(ctx context.Context, texts []string) ([][]fl
 	if err != nil {
 		return nil, fmt.Errorf("voyage API: %w", err)
 	}
-	defer resp.Body.Close()
+	defer func() { _ = resp.Body.Close() }()
 
 	respBytes, err := io.ReadAll(resp.Body)
 	if err != nil {

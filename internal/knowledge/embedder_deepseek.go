@@ -75,7 +75,7 @@ func (e *DeepSeekEmbedder) EmbedBatch(ctx context.Context, texts []string) ([][]
 	if err != nil {
 		return nil, fmt.Errorf("deepseek embed API: %w", err)
 	}
-	defer resp.Body.Close()
+	defer func() { _ = resp.Body.Close() }()
 
 	respBytes, err := io.ReadAll(resp.Body)
 	if err != nil {

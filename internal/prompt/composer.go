@@ -83,7 +83,7 @@ func (c *Composer) ComposeToolPrompt(toolDescriptions []string) string {
 	sb.WriteString("工具返回的结果包含可靠的循证引用。\n\n")
 
 	for i, desc := range toolDescriptions {
-		sb.WriteString(fmt.Sprintf("%d. %s\n", i+1, desc))
+		fmt.Fprintf(&sb, "%d. %s\n", i+1, desc)
 	}
 	sb.WriteString("\n使用工具的时机：\n")
 	sb.WriteString("- 需要查询G6PD药物安全性时 → drug_safety_check\n")
@@ -107,16 +107,16 @@ func BuildPatientContext(pc *PatientContextSummary) string {
 	sb.WriteString("以下是与当前用户相关的背景信息（用户自行提供）：\n")
 
 	if pc.Region != "" {
-		sb.WriteString(fmt.Sprintf("- 居住/来源地区: %s\n", pc.Region))
+		fmt.Fprintf(&sb, "- 居住/来源地区: %s\n", pc.Region)
 	}
 	if pc.G6PDStatus != "" {
-		sb.WriteString(fmt.Sprintf("- G6PD状态: %s\n", pc.G6PDStatus))
+		fmt.Fprintf(&sb, "- G6PD状态: %s\n", pc.G6PDStatus)
 	}
 	if pc.ThalassemiaTrait != "" {
-		sb.WriteString(fmt.Sprintf("- 地中海贫血携带情况: %s\n", pc.ThalassemiaTrait))
+		fmt.Fprintf(&sb, "- 地中海贫血携带情况: %s\n", pc.ThalassemiaTrait)
 	}
 	if len(pc.KnownConditions) > 0 {
-		sb.WriteString(fmt.Sprintf("- 已知疾病: %s\n", strings.Join(pc.KnownConditions, "、")))
+		fmt.Fprintf(&sb, "- 已知疾病: %s\n", strings.Join(pc.KnownConditions, "、"))
 	}
 
 	sb.WriteString("\n请结合这些背景信息进行风险评估和临床分析，但仍需遵循循证医学原则。\n")

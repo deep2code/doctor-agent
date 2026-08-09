@@ -40,7 +40,7 @@ func NewQdrantStore(ctx context.Context, cfg QdrantConfig) (*QdrantStore, error)
 	}
 
 	if err := store.ensureCollection(ctx); err != nil {
-		client.Close()
+		_ = client.Close()
 		return nil, fmt.Errorf("qdrant ensure collection: %w", err)
 	}
 

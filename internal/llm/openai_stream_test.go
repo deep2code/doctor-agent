@@ -104,3 +104,47 @@ func writeSSE(t *testing.T, w http.ResponseWriter, f http.Flusher, data string) 
 	}
 	f.Flush()
 }
+
+// TestOpenAIStreamingChatCarriesToolCalls verifies that assistant messages
+// with tool calls are serialized into the request as tool_calls — required by
+// OpenAI-compatible endpoints (they reject assistant messages that have
+// neither content nor tool_calls, e.g. Zhipu's 400 "content or tool_calls
+// must be set").
+func TestOpenAIStreamingChatCarriesToolCalls(t *testing.T) {
+	var gotReq openAIChatRequest
+	srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		if err := json.NewDecoder(r.Body).Decode(&gotReq); err != nil {
+			t.Fatalf("decode request: %v", err)
+		}
+		_, _ = w.Write([]byte(`{"choices":[{"message":{"role":"assistant","content":"好"}}]}`))
+	}))
+	defer srv.Close()
+
+	messages := []Message{
+		{Role: "user", Content: "问题"},
+		{Role: "assistant", ToolCalls: []ToolCall{{ID: "call_9", Name: "msd_search", Arguments: map[string]any{"query": "脚气"}}}},
+	}
+	client := &http.Client{}
+	if _, err := openAIStreamingChat(context.Background(), client, srv.URL+"/chat/completions",
+		"key", "model", 1024, 0.3, messages, nil, "", nil); err != nil {
+		t.Fatalf("openAIStreamingChat: %v", err)
+	}
+
+	if len(gotReq.Messages) != 2 {
+		t.Fatalf("messages = %d, want 2", len(gotReq.Messages))
+	}
+	assistant := gotReq.Messages[1]
+	if assistant.Role != "assistant" {
+		t.Fatalf("msg[1].Role = %q", assistant.Role)
+	}
+	if len(assistant.ToolCalls) != 1 {
+		t.Fatalf("assistant tool_calls = %d, want 1", len(assistant.ToolCalls))
+	}
+	tc := assistant.ToolCalls[0]
+	if tc.ID != "call_9" || tc.Function.Name != "msd_search" {
+		t.Errorf("tool call = %+v", tc)
+	}
+	if tc.Function.Arguments != `{"query":"脚气"}` {
+		t.Errorf("arguments = %q", tc.Function.Arguments)
+	}
+}

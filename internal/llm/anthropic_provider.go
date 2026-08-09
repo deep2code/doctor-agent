@@ -119,8 +119,22 @@ func (p *AnthropicProvider) buildParams(messages []Message, tools []ToolDefiniti
 			anthropicMessages = append(anthropicMessages,
 				anthropic.NewUserMessage(anthropic.NewTextBlock(msg.Content)))
 		case "assistant":
-			anthropicMessages = append(anthropicMessages,
-				anthropic.NewAssistantMessage(anthropic.NewTextBlock(msg.Content)))
+			if len(msg.ToolCalls) > 0 {
+				// Assistant tool-use turn: text (if any) + tool_use blocks.
+				// Anthropic rejects assistant messages with neither content
+				// nor tool_use, so empty text is omitted.
+				var blocks []anthropic.ContentBlockParamUnion
+				if msg.Content != "" {
+					blocks = append(blocks, anthropic.NewTextBlock(msg.Content))
+				}
+				for _, tc := range msg.ToolCalls {
+					blocks = append(blocks, anthropic.NewToolUseBlock(tc.ID, tc.Arguments, tc.Name))
+				}
+				anthropicMessages = append(anthropicMessages, anthropic.NewAssistantMessage(blocks...))
+			} else {
+				anthropicMessages = append(anthropicMessages,
+					anthropic.NewAssistantMessage(anthropic.NewTextBlock(msg.Content)))
+			}
 		}
 	}
 

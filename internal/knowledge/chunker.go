@@ -89,7 +89,6 @@ func (c *Chunker) ChunkDocument(doc *Document) []Chunk {
 	// Flush remaining content
 	if currentChunk.Len() > 0 {
 		chunks = append(chunks, c.buildChunk(doc, currentChunk.String(), chunkIndex))
-		chunkIndex++
 	}
 
 	// Update total counts

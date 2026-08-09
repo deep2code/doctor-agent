@@ -219,7 +219,9 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 func writeJSON(w http.ResponseWriter, status int, data any) {
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
 	w.WriteHeader(status)
-	json.NewEncoder(w).Encode(data)
+	if err := json.NewEncoder(w).Encode(data); err != nil {
+		slog.Warn("Failed to encode JSON response", "error", err)
+	}
 }
 
 // withMiddleware adds security + logging middleware to the handler.

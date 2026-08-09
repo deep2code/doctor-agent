@@ -53,7 +53,8 @@ jobs:
       - name: Run lint
         run: |
           set +e
-          "$(go env GOPATH)/bin/golangci-lint run --timeout=5m" > /tmp/lint.log 2>&1
+          GOLANGCI="$(go env GOPATH)/bin/golangci-lint"
+          "$GOLANGCI" run --timeout=5m > /tmp/lint.log 2>&1
           code=$?
           echo "LINT_EXIT=$code"
           cat /tmp/lint.log

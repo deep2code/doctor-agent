@@ -98,6 +98,35 @@
     .bubble { max-width: 88%; }
     #welcome { padding: 40px 12px 24px; }
   }
+
+  /* 会话列表侧边栏 */
+  #sidebar {
+    position: fixed; left: 0; top: 0; bottom: 0; width: 260px;
+    background: var(--card); border-right: 1px solid var(--border);
+    display: flex; flex-direction: column; z-index: 100;
+  }
+  .sidebar-head { padding: 14px 16px; font-weight: 700; border-bottom: 1px solid var(--border); font-size: 15px; }
+  #conv-list { flex: 1; overflow-y: auto; padding: 8px; list-style: none; margin: 0; }
+  #conv-list li { padding: 9px 12px; border-radius: 8px; cursor: pointer; font-size: 14px; display: flex; justify-content: space-between; align-items: center; gap: 6px; }
+  #conv-list li:hover { background: #f3f4f6; }
+  #conv-list li.active { background: #e8efff; color: var(--accent); font-weight: 600; }
+  #conv-list .conv-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
+  #conv-list .conv-del { opacity: 0; border: none; background: none; cursor: pointer; color: var(--muted); font-size: 13px; padding: 0 2px; }
+  #conv-list li:hover .conv-del { opacity: 1; }
+  #conv-list .empty { color: var(--muted); text-align: center; padding: 20px 0; font-size: 13px; }
+  .sidebar-foot { padding: 10px 16px; font-size: 11px; color: var(--muted); border-top: 1px solid var(--border); }
+  #mask { position: fixed; inset: 0; background: rgba(0,0,0,.4); z-index: 90; display: none; }
+  #menu-btn { display: none; border: none; background: none; font-size: 22px; cursor: pointer; line-height: 1; padding: 0 4px; }
+  @media (min-width: 769px) {
+    body { margin-left: 260px; }
+  }
+  @media (max-width: 768px) {
+    body { margin-left: 0; }
+    #sidebar { transform: translateX(-100%); transition: transform .25s; box-shadow: 2px 0 12px rgba(0,0,0,.15); }
+    #sidebar.open { transform: translateX(0); }
+    #menu-btn { display: block; }
+  }
+
 </style>
 <script>
 /* marked v4.3.0 (MIT) - inlined for offline use */
@@ -110,7 +139,14 @@
 </script>
 </head>
 <body>
+<aside id="sidebar">
+  <div class="sidebar-head">🩺 历史会话</div>
+  <ul id="conv-list"></ul>
+  <div class="sidebar-foot">会话保存在本浏览器（localStorage）</div>
+</aside>
+<div id="mask"></div>
 <header>
+  <button id="menu-btn">☰</button>
   <div class="logo"><span>🩺</span> Doctor Agent</div>
   <div class="subtitle">循证医学AI助手 · 每条回答有据可查</div>
   <button id="new-chat">＋ 新对话</button>
@@ -144,8 +180,9 @@
 <script>
 (function () {
   "use strict";
-  var CONV_KEY = "doctor-agent-conv";
-  var MSG_KEY = "doctor-agent-msgs";
+  var CONV_KEY = "doctor-agent-conv";   // 当前会话 id
+  var MSG_KEY = "doctor-agent-msgs";    // 旧版单会话存储（迁移用）
+  var CONVS_KEY = "doctor-agent-convs"; // 会话列表 [{id,title,updated,messages}]
 
   var $ = function (id) { return document.getElementById(id); };
   var input = $("input"), sendBtn = $("send"), messagesEl = $("messages"),
@@ -202,21 +239,112 @@
   function showError(msg) { errorTip.style.display = "block"; errorTip.textContent = msg; }
   function clearError() { errorTip.style.display = "none"; }
 
-  /* ---- 会话持久化（刷新不丢） ---- */
+  /* ---- 会话持久化：多会话列表（localStorage） ---- */
+  function loadConvs() {
+    var convs;
+    try { convs = JSON.parse(localStorage.getItem(CONVS_KEY) || "[]"); } catch (e) { convs = []; }
+    if (!Array.isArray(convs)) convs = [];
+    // 旧版单会话数据迁移（首次升级时把历史并入列表）
+    if (!convs.length && state.convId) {
+      var items;
+      try { items = JSON.parse(localStorage.getItem(MSG_KEY) || "[]"); } catch (e) { items = []; }
+      if (items.length) {
+        convs.push({ id: state.convId, title: titleOf(items), updated: Date.now(), messages: items });
+        saveConvs(convs);
+      }
+    }
+    return convs;
+  }
+  function saveConvs(convs) { try { localStorage.setItem(CONVS_KEY, JSON.stringify(convs)); } catch (e) {} }
+  function titleOf(items) {
+    for (var i = 0; i < items.length; i++) if (items[i].role === "user") return items[i].text.slice(0, 20);
+    return "新对话";
+  }
+  function currentConv(convs) {
+    for (var i = 0; i < convs.length; i++) if (convs[i].id === state.convId) return convs[i];
+    return null;
+  }
   function saveHistory() {
     var items = [];
     messagesEl.querySelectorAll(".msg").forEach(function (el) {
       items.push({ role: el.classList.contains("user") ? "user" : "ai", text: el.querySelector(".bubble").textContent });
     });
-    try { localStorage.setItem(MSG_KEY, JSON.stringify(items)); } catch (e) {}
+    if (!state.convId) return;
+    var convs = loadConvs();
+    var c = currentConv(convs);
+    if (!c) { c = { id: state.convId, title: "新对话", updated: Date.now(), messages: [] }; convs.unshift(c); }
+    c.messages = items;
+    if (items.length) c.title = titleOf(items);
+    c.updated = Date.now();
+    saveConvs(convs);
+    renderConvList();
   }
   function restoreHistory() {
-    var items;
-    try { items = JSON.parse(localStorage.getItem(MSG_KEY) || "[]"); } catch (e) { items = []; }
-    if (!items.length || !state.convId) return;
-    welcomeEl.style.display = "none";
-    items.forEach(function (it) { addMessage(it.role, it.text); });
+    var c = currentConv(loadConvs());
+    if (c && c.messages && c.messages.length) {
+      welcomeEl.style.display = "none";
+      c.messages.forEach(function (it) { addMessage(it.role, it.text); });
+    }
+    renderConvList();
   }
+  function renderConvList() {
+    var ul = $("conv-list");
+    var convs = loadConvs();
+    ul.innerHTML = "";
+    if (!convs.length) { ul.innerHTML = '<li class="empty">暂无历史会话<br>开始一个新对话吧</li>'; return; }
+    convs.forEach(function (c) {
+      var li = document.createElement("li");
+      if (c.id === state.convId) li.className = "active";
+      var title = document.createElement("span");
+      title.className = "conv-title";
+      title.textContent = c.title || "新对话";
+      title.addEventListener("click", function () { switchConv(c.id); });
+      var del = document.createElement("button");
+      del.className = "conv-del";
+      del.textContent = "✕";
+      del.title = "删除该会话";
+      del.addEventListener("click", function (e) { e.stopPropagation(); deleteConv(c.id); });
+      li.appendChild(title); li.appendChild(del);
+      ul.appendChild(li);
+    });
+  }
+  function switchConv(id) {
+    saveHistory(); // 保存当前会话
+    state.convId = id;
+    localStorage.setItem(CONV_KEY, id);
+    messagesEl.innerHTML = "";
+    var c = currentConv(loadConvs());
+    if (c && c.messages && c.messages.length) {
+      welcomeEl.style.display = "none";
+      c.messages.forEach(function (it) { addMessage(it.role, it.text); });
+    } else {
+      welcomeEl.style.display = "";
+    }
+    renderConvList();
+    closeSidebar();
+  }
+  function deleteConv(id) {
+    var convs = loadConvs().filter(function (c) { return c.id !== id; });
+    saveConvs(convs);
+    if (state.convId === id) {
+      state.convId = "";
+      localStorage.removeItem(CONV_KEY);
+      messagesEl.innerHTML = "";
+      welcomeEl.style.display = "";
+    }
+    renderConvList();
+  }
+  function newConv() {
+    saveHistory();
+    state.convId = genId();
+    localStorage.setItem(CONV_KEY, state.convId);
+    messagesEl.innerHTML = "";
+    welcomeEl.style.display = "";
+    renderConvList();
+    closeSidebar();
+  }
+  function openSidebar() { var s = $("sidebar"); s.classList.add("open"); $("mask").style.display = "block"; }
+  function closeSidebar() { var s = $("sidebar"); s.classList.remove("open"); $("mask").style.display = "none"; }
 
   /* ---- SSE 流式请求 ---- */
   function parseSSE(buf, handlers) {
@@ -340,13 +468,9 @@
   document.querySelectorAll(".chip").forEach(function (chip) {
     chip.addEventListener("click", function () { input.value = chip.textContent; send(); });
   });
-  $("new-chat").addEventListener("click", function () {
-    state.convId = genId();
-    localStorage.setItem(CONV_KEY, state.convId);
-    localStorage.removeItem(MSG_KEY);
-    messagesEl.innerHTML = "";
-    welcomeEl.style.display = "";
-  });
+  $("new-chat").addEventListener("click", newConv);
+  $("menu-btn").addEventListener("click", openSidebar);
+  $("mask").addEventListener("click", closeSidebar);
 
   restoreHistory();
   input.focus();

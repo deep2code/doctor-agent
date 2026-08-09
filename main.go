@@ -31,7 +31,7 @@ func main() {
 		slog.Debug("No .env file loaded", "error", err)
 	}
 	// Load the user-level config (~/.doctor-agent/config.env) — lowest
-	// priority, so real environment variables and .env always win.
+	// priority: project .env (highest) and global env vars both win.
 	if err := loadUserConfig(); err != nil {
 		slog.Debug("No user config loaded", "error", err)
 	}
@@ -311,8 +311,8 @@ func userConfigPath() string {
 }
 
 // loadUserConfig reads ~/.doctor-agent/config.env and applies it to the
-// environment with the LOWEST priority: real environment variables and the
-// project .env always win (we only set keys that are still empty).
+// environment with the LOWEST priority: the project .env (overriding) and
+// real environment variables always win (we only set keys that are empty).
 func loadUserConfig() error {
 	path := userConfigPath()
 	if path == "" {
@@ -406,7 +406,9 @@ func setupAPIKey() error {
 }
 
 // loadDotenv reads a .env file in the current directory and sets environment
-// variables. Returns nil if the file does not exist.
+// variables, OVERRIDING any values already present in the process environment.
+// Priority: project .env > global env vars > ~/.doctor-agent/config.env.
+// Returns nil if the file does not exist.
 func loadDotenv() error {
 	data, err := os.ReadFile(".env")
 	if err != nil {
@@ -427,10 +429,8 @@ func loadDotenv() error {
 		}
 		key = strings.TrimSpace(key)
 		val = strings.TrimSpace(val)
-		// Only set if not already present in the environment
-		if os.Getenv(key) == "" {
-			_ = os.Setenv(key, val)
-		}
+		// Highest priority: always apply, even if already set globally.
+		_ = os.Setenv(key, val)
 	}
 	return nil
 }

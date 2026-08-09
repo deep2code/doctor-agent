@@ -26,52 +26,58 @@
 
 ## 🚀 快速开始
 
-### 环境要求
-- Go 1.26.2+
-- LLM API Key（通过 `LLM_PROVIDER` 选择，默认 **DeepSeek** 国内模型）：
-  - **DeepSeek**（默认）：`DEEPSEEK_API_KEY`（不设 `LLM_PROVIDER` 时自动启用）
-  - **OpenAI 兼容端点**（智谱 Zhipu / 豆包 / Qwen 等国内服务）：`LLM_PROVIDER=openai-compat` + `OPENAI_COMPAT_BASE_URL/API_KEY/MODEL`
-
-### 安装与运行
+只需 2~3 条命令，默认 **DeepSeek**（国内模型），零额外配置：
 
 ```bash
-# 设置 API Key（以 DeepSeek 为例；其他 provider 见 .env.example）
-export DEEPSEEK_API_KEY=sk-...
+# 1. 配置（一次性）：复制示例配置，填入你的 API Key
+cp .env.example .env          # 然后编辑 .env，把 DEEPSEEK_API_KEY 改成你的 key
 
-# CLI 交互模式
+# 2. 命令行聊天
 go run . chat
 
-# HTTP 服务器模式
+# 3. 或者起 HTTP 服务（默认 http://localhost:8080）
 go run . serve
-# 然后 POST http://localhost:8080/chat
-# Body: {"message": "我吃了蚕豆后脸色发黄、尿色深，是怎么回事？"}
-
-# 验证知识库
-go run . verify-knowledge
-
-# 编译二进制
-go build -o bin/doctor-agent .
-./bin/doctor-agent chat
 ```
+
+**要求**：Go 1.26.2+、一个 [DeepSeek API Key](https://platform.deepseek.com)（免费注册、国内直连）。
+
+> 💡 不想建 `.env`？直接 `export DEEPSEEK_API_KEY=sk-...` 再 `go run . chat` 也行。
+
+### 更多命令（不常用，用到再看）
+
+<details>
+<summary>编译二进制 / 校验知识库 / 跑评测（点击展开）</summary>
+
+```bash
+go build -o bin/doctor-agent .   # 编译出可执行文件（之后 ./bin/doctor-agent chat）
+go run . verify-knowledge        # 校验知识库完整性（改数据后跑）
+go run ./evals                   # 离线防幻觉评测
+```
+</details>
 
 ### HTTP API
 
-```bash
-# 健康检查
-curl http://localhost:8080/health
+<details>
+<summary>curl 示例（点击展开）</summary>
 
-# 对话
+```bash
+curl http://localhost:8080/health          # 健康检查
+
 curl -X POST http://localhost:8080/chat \
   -H "Content-Type: application/json" \
-  -d '{"message": "我来自广西，准备结婚，需要做什么遗传病筛查？"}'
+  -d '{"message": "我吃了蚕豆后脸色发黄，是怎么回事？"}'
 
-# 流式对话（SSE：delta 事件推送增量文本，done 事件返回完整结果）
-curl -N -X POST http://localhost:8080/chat/stream \
+curl -N -X POST http://localhost:8080/chat/stream \   # SSE 流式
   -H "Content-Type: application/json" \
   -d '{"message": "我一喝牛奶就拉肚子，是乳糖不耐受吗？"}'
 ```
+</details>
 
-若设置了 `API_KEY`，所有 `/chat*` 请求需携带 `Authorization: Bearer <API_KEY>` 头（`/health` 免鉴权）。
+> 🔒 若设置了 `API_KEY`，所有 `/chat*` 请求需携带 `Authorization: Bearer <API_KEY>` 头（`/health` 免鉴权）。
+
+### 想换模型 / 开高级功能？
+
+默认 DeepSeek 开箱即用。换国内其他模型（智谱 / 豆包 / Qwen）、开鉴权限流、会话持久化等，见下方「🔧 配置」表和 `.env.example` 里的注释——**都是可选项，不配也能用**。
 
 ## 🔧 配置（环境变量，详见 .env.example）
 

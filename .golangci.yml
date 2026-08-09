@@ -1,25 +1,22 @@
 # golangci-lint configuration (make lint)
-# Conservative: the default linter set (errcheck, govet, staticcheck, unused,
-# ineffassign, ...) plus a few safe additions. Keep it green in CI.
+# v2 format — requires golangci-lint v2.x (local: v2.12.2; CI installs the same).
+# Conservative: the standard linter set plus a few safe additions.
+version: "2"
+
 run:
   timeout: 5m
   tests: true
 
 linters:
+  default: standard
   enable:
-    - errcheck
-    - govet
-    - ineffassign
-    - staticcheck
-    - unused
     - misspell
     - gocritic
-
-linters-settings:
-  gocritic:
-    disabled-checks:
-      - ifElseChain
-      - singleCaseSwitch
+  settings:
+    gocritic:
+      disabled-checks:
+        - ifElseChain
+        - singleCaseSwitch
 
 issues:
   exclude-rules:

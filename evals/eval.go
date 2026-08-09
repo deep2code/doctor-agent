@@ -34,9 +34,9 @@ type Question struct {
 
 // QuestionSet is the full golden set.
 type QuestionSet struct {
-	Meta                Meta
-	DefaultMustNot      []string `json:"default_must_not_contain"`
-	Questions           []Question
+	Meta           Meta
+	DefaultMustNot []string `json:"default_must_not_contain"`
+	Questions      []Question
 }
 
 // LoadQuestionSet reads the golden set from a JSON file.
@@ -198,7 +198,7 @@ func evaluate(q Question, answer string, defaultMustNot []string) ItemResult {
 	if q.ExpectedOption != "" {
 		optOK := optionPresent(q.ExpectedOption, answer)
 		res.Checks = append(res.Checks, CheckResult{
-			Name: "正确答案",
+			Name:   "正确答案",
 			Passed: optOK,
 			Detail: map[bool]string{
 				true:  fmt.Sprintf("命中正确选项 %q", q.ExpectedOption),
@@ -303,16 +303,16 @@ func FormatReport(r *Report) string {
 	if r.Total > 0 {
 		rate = float64(r.Passed) / float64(r.Total) * 100
 	}
-	sb.WriteString(fmt.Sprintf("总题数: %d    通过: %d    通过率: %.1f%%\n", r.Total, r.Passed, rate))
+	fmt.Fprintf(&sb, "总题数: %d    通过: %d    通过率: %.1f%%\n", r.Total, r.Passed, rate)
 	if r.RefuseTotal > 0 {
-		sb.WriteString(fmt.Sprintf("拒答类问题: %d/%d 正确拒答\n", r.RefuseCorrect, r.RefuseTotal))
+		fmt.Fprintf(&sb, "拒答类问题: %d/%d 正确拒答\n", r.RefuseCorrect, r.RefuseTotal)
 	}
-	sb.WriteString(fmt.Sprintf("知识库内问题过度拒答: %d\n", r.OverRefusal))
-	sb.WriteString(fmt.Sprintf("禁用表达违规（幻觉信号）: %d\n", r.MustNotViolations))
-	sb.WriteString(fmt.Sprintf("事实性回答带引用标注: %d 题\n", r.CitationsTotal))
+	fmt.Fprintf(&sb, "知识库内问题过度拒答: %d\n", r.OverRefusal)
+	fmt.Fprintf(&sb, "禁用表达违规（幻觉信号）: %d\n", r.MustNotViolations)
+	fmt.Fprintf(&sb, "事实性回答带引用标注: %d 题\n", r.CitationsTotal)
 	if r.KeywordTotal > 0 {
-		sb.WriteString(fmt.Sprintf("要点关键词覆盖率: %d/%d (%.1f%%)\n",
-			r.KeywordHits, r.KeywordTotal, float64(r.KeywordHits)/float64(r.KeywordTotal)*100))
+		fmt.Fprintf(&sb, "要点关键词覆盖率: %d/%d (%.1f%%)\n",
+			r.KeywordHits, r.KeywordTotal, float64(r.KeywordHits)/float64(r.KeywordTotal)*100)
 	}
 	sb.WriteString("================================\n\n")
 
@@ -321,7 +321,7 @@ func FormatReport(r *Report) string {
 		if !item.Passed {
 			mark = "❌"
 		}
-		sb.WriteString(fmt.Sprintf("%s %s\n", mark, item.ID))
+		fmt.Fprintf(&sb, "%s %s\n", mark, item.ID)
 		for _, c := range item.Checks {
 			cm := "✅"
 			if !c.Passed {

@@ -268,27 +268,27 @@ func ReportText(report *VerificationReport) string {
 	var sb strings.Builder
 
 	if report.DataVersion != nil {
-		sb.WriteString(fmt.Sprintf("知识库版本: %s (更新于 %s)\n", report.DataVersion.Version, report.DataVersion.Updated))
+		fmt.Fprintf(&sb, "知识库版本: %s (更新于 %s)\n", report.DataVersion.Version, report.DataVersion.Updated)
 		if report.DataVersion.Description != "" {
-			sb.WriteString(fmt.Sprintf("说明: %s\n", report.DataVersion.Description))
+			fmt.Fprintf(&sb, "说明: %s\n", report.DataVersion.Description)
 		}
 		if len(report.DataVersion.Sources) > 0 {
 			sb.WriteString("数据来源:\n")
 			for _, s := range report.DataVersion.Sources {
-				sb.WriteString(fmt.Sprintf("  - %s\n", s))
+				fmt.Fprintf(&sb, "  - %s\n", s)
 			}
 		}
 		sb.WriteString("\n")
 	}
 
-	sb.WriteString(fmt.Sprintf("医学知识条目: %d\n", report.MedicalEntries))
-	sb.WriteString(fmt.Sprintf("药物条目: %d\n", report.DrugEntries))
-	sb.WriteString(fmt.Sprintf("食物风险条目: %d\n", report.FoodRiskEntries))
-	sb.WriteString(fmt.Sprintf("紧急分诊规则: %d\n", report.EmergencyRules))
-	sb.WriteString(fmt.Sprintf("实验室检查条目: %d\n", report.LabTestReferences))
-	sb.WriteString(fmt.Sprintf("引用总数: %d (DOI: %d, PMID: %d, URL: %d)\n",
-		report.TotalCitations, report.CitationsWithDOI, report.CitationsWithPMID, report.CitationsWithURL))
-	sb.WriteString(fmt.Sprintf("引用可溯源率 (DOI/PMID): %.1f%%\n", report.CitationTraceability()*100))
+	fmt.Fprintf(&sb, "医学知识条目: %d\n", report.MedicalEntries)
+	fmt.Fprintf(&sb, "药物条目: %d\n", report.DrugEntries)
+	fmt.Fprintf(&sb, "食物风险条目: %d\n", report.FoodRiskEntries)
+	fmt.Fprintf(&sb, "紧急分诊规则: %d\n", report.EmergencyRules)
+	fmt.Fprintf(&sb, "实验室检查条目: %d\n", report.LabTestReferences)
+	fmt.Fprintf(&sb, "引用总数: %d (DOI: %d, PMID: %d, URL: %d)\n",
+		report.TotalCitations, report.CitationsWithDOI, report.CitationsWithPMID, report.CitationsWithURL)
+	fmt.Fprintf(&sb, "引用可溯源率 (DOI/PMID): %.1f%%\n", report.CitationTraceability()*100)
 
 	if len(report.EntryIDIssues) == 0 && len(report.CitationIssues) == 0 && len(report.Warnings) == 0 && len(report.Errors) == 0 {
 		sb.WriteString("\n✅ 知识库校验全部通过\n")
@@ -392,7 +392,7 @@ func probeURL(client *http.Client, url string) error {
 		if err != nil {
 			return 0, err
 		}
-		defer resp.Body.Close()
+		defer func() { _ = resp.Body.Close() }()
 		// Drain a little to allow connection reuse, then close.
 		_, _ = io.CopyN(io.Discard, resp.Body, 4096)
 		return resp.StatusCode, nil

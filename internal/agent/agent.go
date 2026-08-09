@@ -254,12 +254,12 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 				slog.Info("Tool use requested", "tool", tc.Name, "id", tc.ID)
 				result, err := a.registry.Dispatch(ctx, tc.Name, tc.Arguments)
 				if err != nil {
-					toolResults.WriteString(fmt.Sprintf("[工具 %s 执行错误: %v]\n", tc.Name, err))
+					fmt.Fprintf(&toolResults, "[工具 %s 执行错误: %v]\n", tc.Name, err)
 				} else if !result.Success {
-					toolResults.WriteString(fmt.Sprintf("[工具 %s 返回错误: %s]\n", tc.Name, result.Error))
+					fmt.Fprintf(&toolResults, "[工具 %s 返回错误: %s]\n", tc.Name, result.Error)
 				} else {
 					resultJSON, _ := json.MarshalIndent(result.Data, "", "  ")
-					toolResults.WriteString(fmt.Sprintf("[工具 %s 结果]:\n%s\n", tc.Name, string(resultJSON)))
+					fmt.Fprintf(&toolResults, "[工具 %s 结果]:\n%s\n", tc.Name, string(resultJSON))
 					toolRefs = append(toolRefs, result.Citations...)
 				}
 			}

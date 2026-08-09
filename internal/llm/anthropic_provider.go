@@ -51,7 +51,7 @@ func (p *AnthropicProvider) Chat(ctx context.Context, messages []Message, tools 
 // their incremental JSON and returned in the final ChatResponse.
 func (p *AnthropicProvider) StreamChat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string, onDelta func(string)) (*ChatResponse, error) {
 	stream := p.client.Messages.NewStreaming(ctx, p.buildParams(messages, tools, systemPrompt))
-	defer stream.Close()
+	defer func() { _ = stream.Close() }()
 
 	chatResp := &ChatResponse{}
 

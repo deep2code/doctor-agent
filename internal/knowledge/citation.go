@@ -18,7 +18,7 @@ func NewCitationFormatter() *CitationFormatter {
 func (cf *CitationFormatter) FormatReference(c *Citation, index int) string {
 	var sb strings.Builder
 
-	sb.WriteString(fmt.Sprintf("[%d] ", index))
+	fmt.Fprintf(&sb, "[%d] ", index)
 
 	// Type prefix
 	typeLabel := "[" + cf.typeLabel(c.Type) + "] "
@@ -31,26 +31,26 @@ func (cf *CitationFormatter) FormatReference(c *Citation, index int) string {
 		sb.WriteString(". ")
 		sb.WriteString(c.Journal)
 		if c.Year > 0 {
-			sb.WriteString(fmt.Sprintf(". %d", c.Year))
+			fmt.Fprintf(&sb, ". %d", c.Year)
 		}
 		sb.WriteString(".")
 	} else {
 		// Non-journal reference (guideline, report, etc.)
 		sb.WriteString(c.Title)
 		if c.Year > 0 {
-			sb.WriteString(fmt.Sprintf(" (%d)", c.Year))
+			fmt.Fprintf(&sb, " (%d)", c.Year)
 		}
 		sb.WriteString(".")
 	}
 
 	// DOI
 	if c.DOI != "" {
-		sb.WriteString(fmt.Sprintf(" DOI: %s", c.DOI))
+		fmt.Fprintf(&sb, " DOI: %s", c.DOI)
 	}
 
 	// PMID
 	if c.PMID != "" {
-		sb.WriteString(fmt.Sprintf(" PMID: %s", c.PMID))
+		fmt.Fprintf(&sb, " PMID: %s", c.PMID)
 	}
 
 	return sb.String()
@@ -78,13 +78,13 @@ func (cf *CitationFormatter) FormatCitationSummary(c *Citation) string {
 	sb.WriteString(cf.typeLabel(c.Type))
 
 	if c.Year > 0 {
-		sb.WriteString(fmt.Sprintf(" (%d)", c.Year))
+		fmt.Fprintf(&sb, " (%d)", c.Year)
 	}
 
 	if c.DOI != "" {
-		sb.WriteString(fmt.Sprintf(" — DOI: %s", c.DOI))
+		fmt.Fprintf(&sb, " — DOI: %s", c.DOI)
 	} else if c.PMID != "" {
-		sb.WriteString(fmt.Sprintf(" — PMID: %s", c.PMID))
+		fmt.Fprintf(&sb, " — PMID: %s", c.PMID)
 	}
 
 	return sb.String()
@@ -106,21 +106,21 @@ func (cf *CitationFormatter) BuildCitationMap(entries []RetrievalResult) string 
 	for _, fc := range flat {
 		c := fc.citation
 		e := fc.result.Entry
-		sb.WriteString(fmt.Sprintf("**[%d] %s** （来自条目: %s）\n", fc.number, c.Title, e.ConditionZH))
+		fmt.Fprintf(&sb, "**[%d] %s** （来自条目: %s）\n", fc.number, c.Title, e.ConditionZH)
 		if c.Journal != "" {
-			sb.WriteString(fmt.Sprintf("  - %s", c.Journal))
+			fmt.Fprintf(&sb, "  - %s", c.Journal)
 			if c.Year > 0 {
-				sb.WriteString(fmt.Sprintf(" (%d)", c.Year))
+				fmt.Fprintf(&sb, " (%d)", c.Year)
 			}
 			sb.WriteString("\n")
 		}
 		if c.DOI != "" {
-			sb.WriteString(fmt.Sprintf("  - DOI: %s\n", c.DOI))
+			fmt.Fprintf(&sb, "  - DOI: %s\n", c.DOI)
 		}
 		if c.PMID != "" {
-			sb.WriteString(fmt.Sprintf("  - PMID: %s\n", c.PMID))
+			fmt.Fprintf(&sb, "  - PMID: %s\n", c.PMID)
 		}
-		sb.WriteString(fmt.Sprintf("  - 证据等级: %s\n", c.Level))
+		fmt.Fprintf(&sb, "  - 证据等级: %s\n", c.Level)
 		sb.WriteString("\n")
 	}
 
@@ -182,9 +182,9 @@ func BuildCitedSources(entries []RetrievalResult) map[string]CitedSource {
 // the semantic verifier to judge claim-support against.
 func entrySummary(e *KnowledgeEntry) string {
 	var sb strings.Builder
-	sb.WriteString(fmt.Sprintf("%s (%s) — 分类: %s", e.ConditionZH, e.ConditionEN, e.Category))
+	fmt.Fprintf(&sb, "%s (%s) — 分类: %s", e.ConditionZH, e.ConditionEN, e.Category)
 	if e.ICD10 != "" {
-		sb.WriteString(fmt.Sprintf(", ICD-10: %s", e.ICD10))
+		fmt.Fprintf(&sb, ", ICD-10: %s", e.ICD10)
 	}
 	sb.WriteString("\n")
 
@@ -195,7 +195,7 @@ func entrySummary(e *KnowledgeEntry) string {
 			if !first {
 				sb.WriteString("; ")
 			}
-			sb.WriteString(fmt.Sprintf("%s %.1f%%", region, prev.Rate*100))
+			fmt.Fprintf(&sb, "%s %.1f%%", region, prev.Rate*100)
 			first = false
 		}
 		sb.WriteString("\n")
@@ -289,11 +289,11 @@ func AddToolSource(sources map[string]CitedSource, title, doi, pmid string, year
 			Number:      doi,
 			ConditionZH: title,
 			Citation: Citation{
-				Title:   title,
-				DOI:     doi,
-				PMID:    pmid,
-				Year:    year,
-				Level:   level,
+				Title: title,
+				DOI:   doi,
+				PMID:  pmid,
+				Year:  year,
+				Level: level,
 			},
 			EntryText: text,
 		}

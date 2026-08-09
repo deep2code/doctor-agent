@@ -355,8 +355,9 @@ func setupAPIKey() error {
 	fmt.Println("推荐：智谱 glm-4-flash —— 免费、国内直连")
 	fmt.Println("      获取: https://open.bigmodel.cn 注册 → 控制台 → API Keys")
 	fmt.Println("备选：DeepSeek —— https://platform.deepseek.com")
+	fmt.Println("      豆包(火山方舟) —— https://console.volcengine.com/ark 开通")
 	fmt.Println()
-	fmt.Print("选择模型 [1=智谱 glm-4-flash(推荐), 2=DeepSeek]（默认 1）: ")
+	fmt.Print("选择模型 [1=智谱 glm-4-flash(推荐), 2=DeepSeek, 3=豆包]（默认 1）: ")
 	choice, _ := reader.ReadString('\n')
 	choice = strings.TrimSpace(choice)
 
@@ -368,11 +369,19 @@ func setupAPIKey() error {
 	}
 
 	var content string
-	if strings.HasPrefix(choice, "2") {
+	switch {
+	case strings.HasPrefix(choice, "3"):
+		// 豆包（火山方舟）— OpenAI 兼容端点，model 可直接用模型名
+		content = "# doctor-agent user config (created by first-run setup)\n" +
+			"LLM_PROVIDER=openai-compat\n" +
+			"OPENAI_COMPAT_BASE_URL=https://ark.cn-beijing.volces.com/api/v3\n" +
+			"OPENAI_COMPAT_API_KEY=" + key + "\n" +
+			"OPENAI_COMPAT_MODEL=doubao-seed-2-1-pro-260628\n"
+	case strings.HasPrefix(choice, "2"):
 		content = "# doctor-agent user config (created by first-run setup)\n" +
 			"LLM_PROVIDER=deepseek\n" +
 			"DEEPSEEK_API_KEY=" + key + "\n"
-	} else {
+	default:
 		content = "# doctor-agent user config (created by first-run setup)\n" +
 			"LLM_PROVIDER=openai-compat\n" +
 			"OPENAI_COMPAT_BASE_URL=https://open.bigmodel.cn/api/paas/v4\n" +

@@ -222,7 +222,11 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 		sendEvent("delta", map[string]any{"text": chunk})
 	}
 
-	resp, err := s.agent.ProcessMessageStream(ctx, sess, req.Message, onDelta)
+	onStep := func(ev agent.StepEvent) {
+		sendEvent("step", ev)
+	}
+
+	resp, err := s.agent.ProcessMessageStream(ctx, sess, req.Message, onDelta, onStep)
 	if err != nil {
 		sendEvent("error", map[string]any{"error": "internal processing error"})
 		return

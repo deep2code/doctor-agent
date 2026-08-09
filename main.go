@@ -405,16 +405,26 @@ func setupAPIKey() error {
 	return nil
 }
 
-// loadDotenv reads a .env file in the current directory and sets environment
-// variables, OVERRIDING any values already present in the process environment.
-// Priority: project .env > global env vars > ~/.doctor-agent/config.env.
-// Returns nil if the file does not exist.
+// loadDotenv reads a .env file and sets environment variables, OVERRIDING any
+// values already present in the process environment.
+// Priority: project .env (current dir) > user home ~/.env > global env vars
+// > ~/.doctor-agent/config.env. Only ONE .env is used (file-level fallback:
+// if ./.env exists it wins; otherwise ~/.env is tried). Returns nil when
+// neither file exists.
 func loadDotenv() error {
 	data, err := os.ReadFile(".env")
-	if err != nil {
-		if os.IsNotExist(err) {
+	if err != nil && os.IsNotExist(err) {
+		// Fall back to the user's home directory.
+		if home, herr := os.UserHomeDir(); herr == nil {
+			data, err = os.ReadFile(filepath.Join(home, ".env"))
+			if err != nil && os.IsNotExist(err) {
+				return nil
+			}
+		} else {
 			return nil
 		}
+	}
+	if err != nil {
 		return err
 	}
 	for _, line := range strings.Split(string(data), "\n") {

@@ -115,7 +115,7 @@ func BuildPatientContext(pc *PatientContextSummary) string {
 	if pc.ThalassemiaTrait != "" {
 		sb.WriteString(fmt.Sprintf("- 地中海贫血携带情况: %s\n", pc.ThalassemiaTrait))
 	}
-	if pc.KnownConditions != nil && len(pc.KnownConditions) > 0 {
+	if len(pc.KnownConditions) > 0 {
 		sb.WriteString(fmt.Sprintf("- 已知疾病: %s\n", strings.Join(pc.KnownConditions, "、")))
 	}
 

@@ -6,6 +6,7 @@ import (
 	"testing"
 
 	"github.com/doctor-agent/internal/config"
+	"github.com/doctor-agent/internal/knowledge"
 	"github.com/doctor-agent/internal/llm"
 	"github.com/doctor-agent/internal/prompt"
 	"github.com/doctor-agent/internal/safety"
@@ -93,7 +94,7 @@ func TestProcessMessageStreamDeliversDeltas(t *testing.T) {
 	var got []string
 	resp, err := ag.ProcessMessageStream(context.Background(), sess, "测试问题", func(d string) {
 		got = append(got, d)
-	})
+	}, nil)
 	if err != nil {
 		t.Fatalf("ProcessMessageStream: %v", err)
 	}
@@ -126,7 +127,7 @@ func TestProcessMessageStreamToolLoop(t *testing.T) {
 	sess := session.New("t2")
 
 	var deltas []string
-	resp, err := ag.ProcessMessageStream(context.Background(), sess, "帮我查一下", func(d string) { deltas = append(deltas, d) })
+	resp, err := ag.ProcessMessageStream(context.Background(), sess, "帮我查一下", func(d string) { deltas = append(deltas, d) }, nil)
 	if err != nil {
 		t.Fatalf("ProcessMessageStream: %v", err)
 	}
@@ -144,8 +145,7 @@ func TestProcessMessageStreamToolLoop(t *testing.T) {
 	}
 }
 
-func TestEmergencyBypassesLLM(t *testing.T) {
-	cfg := testConfig()
+func TestEmergencyBypassesLLM(t *testing.T) {	cfg := testConfig()
 	cfg.EmergencyEnabled = true
 	p := &fakeProvider{}
 	ag := newTestAgent(cfg, p)
@@ -154,7 +154,7 @@ func TestEmergencyBypassesLLM(t *testing.T) {
 	var deltas []string
 	resp, err := ag.ProcessMessageStream(context.Background(), sess, "我突然胸口剧痛，喘不上气", func(d string) {
 		deltas = append(deltas, d)
-	})
+	}, nil)
 	if err != nil {
 		t.Fatalf("ProcessMessageStream: %v", err)
 	}
@@ -189,7 +189,7 @@ func TestSessionPersistenceDuringProcessing(t *testing.T) {
 	ag.fileStore = fs
 
 	sess := session.New("persist-1")
-	if _, err := ag.ProcessMessageStream(context.Background(), sess, "问题", nil); err != nil {
+	if _, err := ag.ProcessMessageStream(context.Background(), sess, "问题", nil, nil); err != nil {
 		t.Fatalf("ProcessMessageStream: %v", err)
 	}
 
@@ -229,5 +229,76 @@ func TestGetOrCreateSessionRestoresFromDisk(t *testing.T) {
 	// Same instance is served from memory on the second call.
 	if sess2 := ag.GetOrCreateSession("restored-1"); sess2 != sess {
 		t.Error("second GetOrCreateSession returned a different instance")
+	}
+}
+
+// fakeRetriever returns a trivial hit so retrieve steps can be exercised.
+type fakeRetriever struct{}
+
+func (fakeRetriever) Retrieve(_ context.Context, _ string, _ int) ([]knowledge.RetrievalResult, error) {
+	return []knowledge.RetrievalResult{{Score: 0.9}}, nil
+}
+func (fakeRetriever) RetrieveDrugs(_ context.Context, _ string, _ int) ([]knowledge.DrugRetrievalResult, error) {
+	return nil, nil
+}
+func (fakeRetriever) Name() string { return "fake-retriever" }
+
+func TestProcessMessageStreamEmitsSteps(t *testing.T) {
+	cfg := testConfig()
+	cfg.KnowledgeEnabled = true // 触发 retrieve 事件
+	p := &fakeProvider{
+		responses: []*llm.ChatResponse{
+			{ToolCalls: []llm.ToolCall{{ID: "c1", Name: "echo", Arguments: map[string]any{}}}},
+			{Text: "最终回答"},
+		},
+		streamed: [][]string{nil, {"最终回答"}},
+	}
+	ag := newTestAgent(cfg, p)
+	ag.retriever = fakeRetriever{}
+	ag.registry.Register(echoTool{})
+	sess := session.New("steps-1")
+
+	var steps []StepEvent
+	if _, err := ag.ProcessMessageStream(context.Background(), sess, "帮我查", nil, func(ev StepEvent) {
+		steps = append(steps, ev)
+	}); err != nil {
+		t.Fatalf("ProcessMessageStream: %v", err)
+	}
+
+	var types []string
+	for _, s := range steps {
+		types = append(types, s.Type)
+	}
+	// 预期顺序：retrieve → generate → tool_call → tool_result → generate
+	want := []string{"retrieve", "generate", "tool_call", "tool_result", "generate"}
+	if strings.Join(types, ",") != strings.Join(want, ",") {
+		t.Errorf("step types = %v, want %v", types, want)
+	}
+	// 摘要为中文、可读
+	if len(steps) > 0 && steps[0].Summary == "" {
+		t.Error("step summary must not be empty")
+	}
+	// 工具名随事件携带
+	for _, s := range steps {
+		if s.Type == "tool_call" && s.Tool != "echo" {
+			t.Errorf("tool_call step Tool = %q, want echo", s.Tool)
+		}
+	}
+}
+
+func TestEmergencyStepEmitted(t *testing.T) {
+	cfg := testConfig()
+	cfg.EmergencyEnabled = true
+	ag := newTestAgent(cfg, &fakeProvider{})
+	sess := session.New("steps-2")
+
+	var steps []StepEvent
+	if _, err := ag.ProcessMessageStream(context.Background(), sess, "我突然胸口剧痛，喘不上气", nil, func(ev StepEvent) {
+		steps = append(steps, ev)
+	}); err != nil {
+		t.Fatalf("ProcessMessageStream: %v", err)
+	}
+	if len(steps) != 1 || steps[0].Type != "emergency" {
+		t.Errorf("steps = %+v, want single emergency step", steps)
 	}
 }

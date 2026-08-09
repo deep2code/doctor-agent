@@ -156,10 +156,22 @@ func runChat(cfg *config.Config) {
 		fmt.Println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 
 		var sb strings.Builder
-		resp, err := ag.ProcessMessageStream(ctx, sess, line, func(chunk string) {
-			sb.WriteString(chunk)
-			fmt.Print(chunk)
-		})
+		stepIcons := map[string]string{
+			"emergency": "🚨", "refuse": "🚫", "retrieve": "🔍",
+			"tool_call": "🛠️", "tool_result": "✅", "generate": "✍️", "verify": "🛡️",
+		}
+		resp, err := ag.ProcessMessageStream(ctx, sess, line,
+			func(chunk string) {
+				sb.WriteString(chunk)
+				fmt.Print(chunk)
+			},
+			func(ev agent.StepEvent) {
+				icon := stepIcons[ev.Type]
+				if icon == "" {
+					icon = "·"
+				}
+				fmt.Printf("\n  \x1b[90m%s %s\x1b[0m\n", icon, ev.Summary)
+			})
 		fmt.Println()
 		fmt.Println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 		fmt.Println()

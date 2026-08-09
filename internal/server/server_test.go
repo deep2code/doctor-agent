@@ -190,11 +190,17 @@ func TestChatStreamSSE(t *testing.T) {
 	}
 	// The done event carries a JSON ChatResponse with the emergency text.
 	var done ChatResponse
+	var curEvent string
 	for _, line := range strings.Split(body, "\n") {
-		if strings.HasPrefix(line, "data: ") {
-			if err := json.Unmarshal([]byte(strings.TrimPrefix(line, "data: ")), &done); err == nil {
-				break
+		if strings.HasPrefix(line, "event: ") {
+			curEvent = strings.TrimPrefix(line, "event: ")
+			continue
+		}
+		if curEvent == "done" && strings.HasPrefix(line, "data: ") {
+			if err := json.Unmarshal([]byte(strings.TrimPrefix(line, "data: ")), &done); err != nil {
+				t.Fatalf("parse done data: %v", err)
 			}
+			break
 		}
 	}
 	if !done.IsEmergency {
@@ -202,5 +208,9 @@ func TestChatStreamSSE(t *testing.T) {
 	}
 	if done.Reply == "" {
 		t.Error("done event Reply is empty")
+	}
+	// The emergency step is surfaced as a `step` SSE event before `done`.
+	if !strings.Contains(body, "event: step") || !strings.Contains(body, "紧急") {
+		t.Error("SSE body missing emergency step event")
 	}
 }

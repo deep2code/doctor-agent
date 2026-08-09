@@ -171,21 +171,39 @@ func createJudgeProvider(cfg *config.Config) (llm.LLMProvider, error) {
 }
 
 // ProcessMessage handles a single user message within a conversation session
-// without streaming (equivalent to ProcessMessageStream with a nil callback).
+// without streaming (equivalent to ProcessMessageStream with nil callbacks).
 func (a *Agent) ProcessMessage(ctx context.Context, sess *session.Session, userMessage string) (*Response, error) {
-	return a.ProcessMessageStream(ctx, sess, userMessage, nil)
+	return a.ProcessMessageStream(ctx, sess, userMessage, nil, nil)
+}
+
+// StepEvent describes one visible step of the agent's pipeline (retrieval,
+// tool use, generation, verification). Clients (web UI / CLI) subscribe via
+// the onStep callback of ProcessMessageStream to show the user what the agent
+// is doing while it works.
+type StepEvent struct {
+	Type    string `json:"type"` // "emergency" | "refuse" | "retrieve" | "tool_call" | "tool_result" | "generate" | "verify"
+	Tool    string `json:"tool,omitempty"`
+	Summary string `json:"summary"` // Chinese, human-readable
 }
 
 // ProcessMessageStream handles a single user message within a conversation
 // session, forwarding every generated text chunk to onDelta (may be nil) as it
-// is produced. The final text is still returned in Response.Text; callers that
-// render onDelta should prefer the returned text (post-verification may adjust
-// the final response, in which case a small trailing difference is possible).
-func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session, userMessage string, onDelta func(string)) (*Response, error) {
+// is produced, and every pipeline step to onStep (may be nil). The final text
+// is still returned in Response.Text; callers that render onDelta should
+// prefer the returned text (post-verification may adjust the final response,
+// in which case a small trailing difference is possible).
+func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session, userMessage string, onDelta func(string), onStep func(StepEvent)) (*Response, error) {
+	step := func(ev StepEvent) {
+		if onStep != nil {
+			onStep(ev)
+		}
+	}
+
 	// L1: Emergency detection
 	if a.cfg.EmergencyEnabled {
 		if emerg := a.emergencyDetector.Detect(userMessage); emerg != nil {
 			slog.Warn("Emergency detected", "matched", emerg.Matched)
+			step(StepEvent{Type: "emergency", Summary: "检测到紧急情况，直接给出急救响应"})
 			return &Response{
 				Text:           safety.EmergencyResponseZH(emerg),
 				IsEmergency:    true,
@@ -198,6 +216,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 	if a.cfg.ScopeGuardEnabled {
 		if scope := a.scopeGuard.Check(userMessage); !scope.InScope {
 			slog.Info("Out-of-scope query rejected", "reason", scope.Reason)
+			step(StepEvent{Type: "refuse", Summary: "该问题超出医学咨询范围，拒绝回答并引导"})
 			return &Response{
 				Text:           scope.Redirect,
 				IsOutOfScope:   true,
@@ -211,6 +230,11 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 	if a.cfg.KnowledgeEnabled {
 		retrieved, _ = a.retriever.Retrieve(ctx, userMessage, a.cfg.KnowledgeTopK)
 		slog.Debug("Knowledge retrieved", "count", len(retrieved))
+		if len(retrieved) > 0 {
+			step(StepEvent{Type: "retrieve", Summary: fmt.Sprintf("检索知识库，命中 %d 条相关条目", len(retrieved))})
+		} else {
+			step(StepEvent{Type: "retrieve", Summary: "知识库未检索到相关条目，将如实告知并引导"})
+		}
 	}
 
 	// Build system prompt
@@ -238,6 +262,12 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 	maxIterations := 5
 	var toolRefs []tools.CitationRef // tool-returned sources for post-verification
 	for i := 0; i < maxIterations; i++ {
+		if i == 0 {
+			step(StepEvent{Type: "generate", Summary: "正在思考…"})
+		} else {
+			step(StepEvent{Type: "generate", Summary: "正在根据工具结果组织回答…"})
+		}
+
 		resp, err := a.provider.StreamChat(ctx, messages, toolDefs, systemPrompt, onDelta)
 		if err != nil {
 			return nil, fmt.Errorf("LLM error: %w", err)
@@ -252,15 +282,19 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 			var toolResults strings.Builder
 			for _, tc := range resp.ToolCalls {
 				slog.Info("Tool use requested", "tool", tc.Name, "id", tc.ID)
+				step(StepEvent{Type: "tool_call", Tool: tc.Name, Summary: fmt.Sprintf("调用工具「%s」", tc.Name)})
 				result, err := a.registry.Dispatch(ctx, tc.Name, tc.Arguments)
 				if err != nil {
 					fmt.Fprintf(&toolResults, "[工具 %s 执行错误: %v]\n", tc.Name, err)
+					step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」执行出错：%v", tc.Name, err)})
 				} else if !result.Success {
 					fmt.Fprintf(&toolResults, "[工具 %s 返回错误: %s]\n", tc.Name, result.Error)
+					step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」返回错误：%s", tc.Name, result.Error)})
 				} else {
 					resultJSON, _ := json.MarshalIndent(result.Data, "", "  ")
 					fmt.Fprintf(&toolResults, "[工具 %s 结果]:\n%s\n", tc.Name, string(resultJSON))
 					toolRefs = append(toolRefs, result.Citations...)
+					step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」返回结果（%d 条引用）", tc.Name, len(result.Citations))})
 				}
 			}
 
@@ -281,6 +315,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 
 		// L3: Post-generation verification
 		if a.cfg.PostVerifyEnabled {
+			step(StepEvent{Type: "verify", Summary: "正在校验回答的引用与安全性…"})
 			// Map flat citation numbers [N] to their sources for verification.
 			// Tool-returned literature (PMID/DOI) is registered alongside so
 			// [PMID]-style references resolve instead of being flagged.

@@ -50,4 +50,17 @@ jobs:
           curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b "$(go env GOPATH)/bin" v1.64.2
 
       - name: Run lint
-        run: "$(go env GOPATH)/bin/golangci-lint run --timeout=5m"
+        run: |
+          set +e
+          "$(go env GOPATH)/bin/golangci-lint run --timeout=5m" > /tmp/lint.log 2>&1
+          code=$?
+          echo "LINT_EXIT=$code"
+          cat /tmp/lint.log
+          exit $code
+
+      - name: Upload lint log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lint-log
+          path: /tmp/lint.log

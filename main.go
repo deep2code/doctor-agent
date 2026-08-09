@@ -48,9 +48,10 @@ func main() {
 	})))
 
 	// Parse subcommand
+	// 无参数 = 默认启动网页版（用户友好：双击即可用，浏览器打开 localhost:8080）
 	if len(os.Args) < 2 {
-		printUsage()
-		os.Exit(1)
+		startWebUI(cfg)
+		return
 	}
 
 	cmd := os.Args[1]
@@ -189,6 +190,27 @@ Chat simply by typing your medical question. The agent will:
 2. Retrieve relevant evidence-based knowledge
 3. Provide structured clinical analysis with citations
 4. Add disclaimers and safety warnings`)
+}
+
+// startWebUI is the default entry for double-clicked binaries: it runs the
+// HTTP server (with embedded web chat UI) after a one-time key setup.
+func startWebUI(cfg *config.Config) {
+	fmt.Println("🩺 Doctor Agent — 循证医学AI助手（网页版）")
+	fmt.Println()
+
+	if err := cfg.Validate(); err != nil {
+		if setupErr := setupAPIKey(); setupErr != nil {
+			slog.Error("API Key 配置失败", "error", setupErr)
+			os.Exit(1)
+		}
+		_ = loadUserConfig()
+		cfg = config.Load()
+	}
+
+	fmt.Println("   正在启动… 请用浏览器打开:  http://localhost:8080")
+	fmt.Println("   按 Ctrl+C 退出")
+	fmt.Println()
+	runServe(cfg)
 }
 
 func runServe(cfg *config.Config) {

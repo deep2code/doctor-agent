@@ -29,7 +29,9 @@
 **不用装 Go、不用配环境变量，下载就能用：**
 
 1. **下载程序**：打开 [GitHub Releases](https://github.com/deep2code/doctor-agent/releases) 页面，下载对应你系统的文件（macOS / Windows / Linux）
-2. **解压**，双击 `start-chat`（Windows 是 `start-chat.bat`，macOS/Linux 是 `start-chat.sh`）
+2. **解压**，任选一种方式开始：
+   - **网页版（推荐）**：运行 `doctor-agent` 可执行文件（Windows 双击 `doctor-agent.exe`，mac/Linux 终端执行 `./doctor-agent`），然后浏览器打开 **http://localhost:8080** —— 就是聊天界面，类似国内大模型网页版
+   - **命令行版**：双击 `start-chat`（`.bat` / `.sh`）
 3. **首次运行**会问你一个 API Key——推荐 **智谱 glm-4-flash（免费）**，去 [open.bigmodel.cn](https://open.bigmodel.cn) 注册免费获取，粘贴一次自动保存，之后永不再问
 4. **直接输入问题**，回车即答
 
@@ -41,9 +43,8 @@
 <summary>源码构建 / 校验 / 评测（点击展开）</summary>
 
 ```bash
-cp .env.example .env          # 或用首次运行引导（推荐）
 go run . chat                 # 命令行聊天（首次同样会引导填 key）
-go run . serve                # HTTP 服务 http://localhost:8080
+go run . serve                # 启动后浏览器打开 http://localhost:8080 即网页版
 go run . verify-knowledge     # 校验知识库
 go run ./evals                # 离线防幻觉评测
 ```

@@ -1,0 +1,29 @@
+# golangci-lint configuration (make lint)
+# Conservative: the default linter set (errcheck, govet, staticcheck, unused,
+# ineffassign, ...) plus a few safe additions. Keep it green in CI.
+run:
+  timeout: 5m
+  tests: true
+
+linters:
+  enable:
+    - errcheck
+    - govet
+    - ineffassign
+    - staticcheck
+    - unused
+    - misspell
+    - gocritic
+
+linters-settings:
+  gocritic:
+    disabled-checks:
+      - ifElseChain
+      - singleCaseSwitch
+
+issues:
+  exclude-rules:
+    # Test helpers are allowed to ignore errors where the test fails anyway.
+    - path: _test\.go
+      linters:
+        - errcheck

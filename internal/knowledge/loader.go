@@ -1,15 +1,19 @@
 package knowledge
 
 import (
+	"bytes"
+	"compress/gzip"
 	"embed"
 	"encoding/json"
 	"fmt"
+	"io"
 	"io/fs"
 	"path/filepath"
+	"strings"
 	"sync"
 )
 
-//go:embed data/*.json
+//go:embed gz/*.gz
 var knowledgeFS embed.FS
 
 // Store holds all loaded medical knowledge entries in memory.
@@ -46,7 +50,7 @@ type Store struct {
 	MSDEntries          []MSDEntry
 
 	// ClinVar subset: pathogenic/likely-pathogenic variants of the core
-	// southern-China genes (HBB/HBA1/HBA2/G6PD).
+	// China high-burden genes (HBB/HBA1/HBA2/G6PD).
 	ClinVarVariants     []ClinVarVariant
 
 	// MedlinePlus consumer health encyclopedia (English), full-text search.
@@ -54,6 +58,12 @@ type Store struct {
 
 	// National medical-insurance drug catalogue (国家医保药品目录).
 	MedinsDrugs         []MedinsDrug
+
+	// WHO Model List of Essential Medicines (24th list, 2025).
+	EMLEntries          []EMLEntry
+
+	// FDA drug labels (DailyMed/OpenFDA), curated Chinese summaries.
+	FDALabels           []FDALabelEntry
 
 	loaded bool
 }
@@ -97,7 +107,24 @@ func doLoad() (*Store, error) {
 			return fmt.Errorf("reading %s: %w", path, err)
 		}
 
-		base := filepath.Base(path)
+		// Embedded files are gzip-compressed (see external/make_gz.py);
+		// decompress before parsing. The switch below matches the source
+		// filename without the ".gz" suffix.
+		zr, err := gzip.NewReader(bytes.NewReader(data))
+		if err != nil {
+			return fmt.Errorf("opening gzip %s: %w", path, err)
+		}
+		raw, readErr := io.ReadAll(zr)
+		closeErr := zr.Close()
+		if readErr != nil {
+			return fmt.Errorf("decompressing %s: %w", path, readErr)
+		}
+		if closeErr != nil {
+			return fmt.Errorf("closing gzip %s: %w", path, closeErr)
+		}
+		data = raw
+
+		base := strings.TrimSuffix(filepath.Base(path), ".gz")
 		switch base {
 		case "thalassemia.json", "g6pd_deficiency.json",
 			"nasopharyngeal_carcinoma.json", "hepatitis_b.json",
@@ -226,6 +253,21 @@ func doLoad() (*Store, error) {
 				}
 			}
 
+		case "cdc_entries.json":
+			var entries []KnowledgeEntry
+			if err := json.Unmarshal(data, &entries); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range entries {
+				e := &entries[i]
+				store.MedicalEntries = append(store.MedicalEntries, *e)
+				store.MedicalByID[e.ID] = e
+				for j, c := range e.Citations {
+					key := fmt.Sprintf("%s-cite-%d-%d", e.ID, c.Year, j)
+					store.ReferenceIndex[key] = c.Title
+				}
+			}
+
 		case "msd_manual.json":
 			var set MSDSet
 			if err := json.Unmarshal(data, &set); err != nil {
@@ -273,6 +315,30 @@ func doLoad() (*Store, error) {
 				}
 			}
 			store.MedinsDrugs = set.Drugs
+
+		case "who_eml.json":
+			var set EMLSet
+			if err := json.Unmarshal(data, &set); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range set.Entries {
+				if set.Entries[i].Name == "" {
+					return fmt.Errorf("who_eml.json: entry %d missing name", i)
+				}
+			}
+			store.EMLEntries = set.Entries
+
+		case "fda_drug_labels.json":
+			var set FDALabelSet
+			if err := json.Unmarshal(data, &set); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range set.Drugs {
+				if set.Drugs[i].NameZH == "" {
+					return fmt.Errorf("fda_drug_labels.json: drug %d missing name_zh", i)
+				}
+			}
+			store.FDALabels = set.Drugs
 
 		default:
 			// Unknown/extra data files are intentionally ignored here; add a
@@ -460,6 +526,24 @@ func (s *Store) GetMedinsDrugs() []MedinsDrug {
 	defer s.mu.RUnlock()
 	out := make([]MedinsDrug, len(s.MedinsDrugs))
 	copy(out, s.MedinsDrugs)
+	return out
+}
+
+// GetEMLEntries returns the WHO Essential Medicines List entries (copy).
+func (s *Store) GetEMLEntries() []EMLEntry {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]EMLEntry, len(s.EMLEntries))
+	copy(out, s.EMLEntries)
+	return out
+}
+
+// GetFDALabels returns the FDA-label entries (copy).
+func (s *Store) GetFDALabels() []FDALabelEntry {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]FDALabelEntry, len(s.FDALabels))
+	copy(out, s.FDALabels)
 	return out
 }
 

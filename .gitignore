@@ -54,3 +54,13 @@ external/who_factsheets_structured/
 evals/report.json
 __pycache__/
 external/nhc/scanned/
+
+# Pipeline intermediates & logs (regenerable; scripts in external/*.py)
+external/cdc/jkts/
+external/cdc_structured/
+external/cdc_struct.log
+external/dailymed/
+external/dailymed_fetch.log
+external/dailymed_struct.log
+external/dailymed_structured/
+external/eml/

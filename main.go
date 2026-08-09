@@ -8,11 +8,19 @@ import (
 	"os/signal"
 	"strings"
 	"syscall"
+	"time"
 
 	"github.com/doctor-agent/internal/agent"
 	"github.com/doctor-agent/internal/config"
 	"github.com/doctor-agent/internal/knowledge"
 	"github.com/doctor-agent/internal/server"
+)
+
+// Build-time version metadata, injected via:
+//   go build -ldflags "-X main.gitCommit=... -X main.buildTime=..."
+var (
+	gitCommit = "unknown"
+	buildTime = "unknown"
 )
 
 func main() {
@@ -45,9 +53,11 @@ func main() {
 	case "serve":
 		runServe(cfg)
 	case "verify-knowledge":
-		runVerifyKnowledge()
+		// Optional flag: go run . verify-knowledge -urls  (online URL liveness check)
+		checkURLs := len(os.Args) > 2 && os.Args[2] == "-urls"
+		runVerifyKnowledge(checkURLs)
 	case "version":
-		fmt.Println("doctor-agent v1.0.0")
+		fmt.Printf("doctor-agent v1.0.0 (commit %s, built %s)\n", gitCommit, buildTime)
 	default:
 		fmt.Fprintf(os.Stderr, "Unknown command: %s\n", cmd)
 		printUsage()
@@ -62,21 +72,27 @@ Usage:
   doctor-agent chat               Interactive CLI chat mode
   doctor-agent serve              Start HTTP API server
   doctor-agent verify-knowledge   Validate knowledge base files
+  doctor-agent verify-knowledge -urls   Also probe citation URLs (online)
   doctor-agent version            Print version
 
 Environment:
-  ANTHROPIC_API_KEY               Anthropic API key (required)
-  ANTHROPIC_MODEL                  Model name (default: claude-sonnet-4-20250514)
-  SERVER_HOST                      Server host (default: 0.0.0.0)
+  LLM_PROVIDER                       LLM provider: deepseek (default) | openai-compat
+  DEEPSEEK_API_KEY                   DeepSeek API key (required when LLM_PROVIDER=deepseek)
+  DEEPSEEK_MODEL                     DeepSeek model (default: deepseek-v4-pro)
+  SERVER_HOST                        Server host (default: 0.0.0.0)
   SERVER_PORT                      Server port (default: 8080)
+  API_KEY                          Bearer token for /chat endpoints (default: empty = no auth)
+  CORS_ORIGINS                     Comma-separated allowed origins (default: * = all)
+  RATE_LIMIT                       Max requests per IP per minute (default: 0 = unlimited)
+  SESSION_DIR                      Directory for JSON session snapshots (default: empty = in-memory only)
   LOG_LEVEL                        Log level: debug, info, warn, error (default: info)
-  POST_VERIFY_SEMANTIC             Semantic claim verification (default: true)
+  POST_VERIFY_SEMANTIC             Semantic claim verification (default: false)
   POST_VERIFY_JUDGE_MODEL          Judge model for verification (default: reuse main model)`)
 }
 
 func runChat(cfg *config.Config) {
 	fmt.Println("🔬 Doctor Agent — 循证医学AI助手 (Evidence-Based Medical AI Assistant)")
-	fmt.Println("   专注于中国南方人群 · 纯循证医学 · 每条回答有据可查")
+	fmt.Println("   专注全中国人群 · 纯循证医学 · 每条回答有据可查")
 	fmt.Println("   输入 'quit' 或 'exit' 退出 | 输入 'help' 查看帮助")
 	fmt.Println()
 
@@ -110,21 +126,34 @@ func runChat(cfg *config.Config) {
 		case "help", "h":
 			printChatHelp()
 			continue
+		case "clear":
+			sess.Clear()
+			fmt.Println("🧹 对话历史已清除。")
+			continue
 		}
 
 		ctx := context.Background()
-		resp, err := ag.ProcessMessage(ctx, sess, line)
+		fmt.Println()
+		fmt.Println("🤖 医生智能体:")
+		fmt.Println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+
+		var sb strings.Builder
+		resp, err := ag.ProcessMessageStream(ctx, sess, line, func(chunk string) {
+			sb.WriteString(chunk)
+			fmt.Print(chunk)
+		})
+		fmt.Println()
+		fmt.Println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+		fmt.Println()
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "❌ 错误: %v\n", err)
 			continue
 		}
-
-		fmt.Println()
-		fmt.Println("🤖 医生智能体:")
-		fmt.Println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-		fmt.Println(resp.Text)
-		fmt.Println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-		fmt.Println()
+		// Non-streaming paths (emergency / scope guard) produce no deltas;
+		// fall back to the returned text so the response is still shown.
+		if sb.Len() == 0 && resp != nil && resp.Text != "" {
+			fmt.Println(resp.Text)
+		}
 	}
 }
 
@@ -170,7 +199,7 @@ func runServe(cfg *config.Config) {
 	}
 }
 
-func runVerifyKnowledge() {
+func runVerifyKnowledge(checkURLs bool) {
 	store, err := knowledge.Load()
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "❌ 知识库加载失败: %v\n", err)
@@ -184,6 +213,21 @@ func runVerifyKnowledge() {
 
 	report := knowledge.VerifyData(store)
 	fmt.Print(knowledge.ReportText(report))
+
+	if checkURLs {
+		fmt.Println()
+		fmt.Println("━━━ URL 可达性检查 ━━━")
+		fmt.Println("正在探测引用 URL（每个超时 10s，并发 8）...")
+		issues := knowledge.CheckURLLiveness(store, 10*time.Second, 8)
+		if len(issues) == 0 {
+			fmt.Println("✅ 所有引用 URL 均可达")
+		} else {
+			fmt.Printf("⚠️  %d 个 URL 不可达:\n", len(issues))
+			for _, it := range issues {
+				fmt.Printf("  - [%s] %s → %v\n", it.ID, it.URL, it.Err)
+			}
+		}
+	}
 
 	if len(report.Errors) > 0 || len(report.EntryIDIssues) > 0 || len(report.CitationIssues) > 0 {
 		fmt.Println()

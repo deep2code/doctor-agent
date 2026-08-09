@@ -11,7 +11,8 @@ type ScopeResult struct {
 
 // ScopeGuard detects queries that fall outside the agent's domain.
 // The agent is specialized in evidence-based clinical medicine for
-// southern Chinese populations. Queries about veterinary medicine,
+// Chinese populations (with emphasis on high-burden conditions in southern
+// provinces). Queries about veterinary medicine,
 // legal advice, drug manufacturing, self-harm, etc. are rejected.
 type ScopeGuard struct {
 	blockedPatterns []scopePattern

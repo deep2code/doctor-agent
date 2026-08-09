@@ -7,7 +7,8 @@ import (
 )
 
 // LabInterpreter provides evidence-based interpretation of common lab tests.
-// It includes southern-China-specific considerations (e.g., MCV/MCH for thalassemia screening).
+// It includes region-specific considerations (e.g., MCV/MCH for thalassemia
+// screening in high-prevalence southern provinces).
 type LabInterpreter struct{}
 
 // NewLabInterpreter creates the lab interpreter tool.
@@ -20,7 +21,7 @@ func (t *LabInterpreter) Name() string {
 }
 
 func (t *LabInterpreter) Description() string {
-	return "解读常见实验室检查结果。提供正常参考范围、异常值的临床意义、鉴别诊断方向，以及南方人群特别注意事项（如MCV/MCH地贫筛查、G6PD活性检测等）。所有参考范围基于中国人群数据和国际指南。"
+	return "解读常见实验室检查结果。提供正常参考范围、异常值的临床意义、鉴别诊断方向，以及高发区人群特别注意事项（如MCV/MCH地贫筛查、G6PD活性检测等）。所有参考范围基于中国人群数据和国际指南。"
 }
 
 func (t *LabInterpreter) Schema() map[string]any {
@@ -49,7 +50,7 @@ func (t *LabInterpreter) Schema() map[string]any {
 			},
 			"is_southern_chinese": map[string]any{
 				"type":        "boolean",
-				"description": "是否为南方中国人（影响地贫筛查等解读）",
+				"description": "患者是否来自地贫/G6PD高发区（如两广/海南等南方省份，影响地贫筛查等解读）",
 			},
 		},
 		"required": []string{"test_name", "value", "unit"},
@@ -114,8 +115,8 @@ func (t *LabInterpreter) interpretMCV(value float64, unit string, isSouthern boo
 		interpretation = fmt.Sprintf("MCV %.1f fL — **小细胞性**（低于正常下限80 fL）", value)
 		ddx = append(ddx, "缺铁性贫血（最常见）", "地中海贫血（α或β型）", "慢性病贫血", "铁粒幼细胞性贫血")
 		if isSouthern {
-			interpretation += "\n\n**南方人群特别提示**：南方地区地贫携带率极高（广西α-地贫~15%，β-地贫~7%）。对于小细胞性贫血，在排除缺铁后应高度怀疑地中海贫血。建议加做：血清铁蛋白 + 血红蛋白电泳 + 地贫基因检测。若MCH也低（<27 pg），地贫可能性进一步增加。"
-			ddx = append([]string{"**地中海贫血（重点排查）** — 南方人群地贫是微小红细胞的首要遗传原因之一"}, ddx...)
+			interpretation += "\n\n**地贫高发区特别提示**：两广/海南等南方省份地贫携带率极高（广西α-地贫~15%，β-地贫~7%）。对于小细胞性贫血，在排除缺铁后应高度怀疑地中海贫血。建议加做：血清铁蛋白 + 血红蛋白电泳 + 地贫基因检测。若MCH也低（<27 pg），地贫可能性进一步增加。"
+			ddx = append([]string{"**地中海贫血（重点排查）** — 地贫（南方高发区尤甚）是微小红细胞的首要遗传原因之一"}, ddx...)
 		}
 	} else if value > 100 {
 		interpretation = fmt.Sprintf("MCV %.1f fL — **大细胞性**（高于正常上限100 fL）", value)
@@ -145,7 +146,7 @@ func (t *LabInterpreter) interpretMCH(value float64, unit string, isSouthern boo
 	interpretation := ""
 
 	if value < 27 {
-		interpretation = fmt.Sprintf("MCH %.1f pg — **低色素性**（低于正常下限27 pg）。结合MCV：若MCV也低，高度提示缺铁性贫血或地中海贫血。在南方人群（特别是广西、广东、海南），地贫是需要优先考虑的鉴别诊断。建议检查：血清铁蛋白 + 血红蛋白电泳。", value)
+		interpretation = fmt.Sprintf("MCH %.1f pg — **低色素性**（低于正常下限27 pg）。结合MCV：若MCV也低，高度提示缺铁性贫血或地中海贫血。在地贫高发区（特别是广西、广东、海南），地贫是需要优先考虑的鉴别诊断。建议检查：血清铁蛋白 + 血红蛋白电泳。", value)
 	} else if value > 34 {
 		interpretation = fmt.Sprintf("MCH %.1f pg — 高于正常范围。可见于巨幼细胞性贫血或新生儿。", value)
 	} else {

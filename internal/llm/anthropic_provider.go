@@ -4,6 +4,8 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"sort"
+	"strings"
 
 	"github.com/anthropics/anthropic-sdk-go"
 	"github.com/anthropics/anthropic-sdk-go/option"
@@ -36,6 +38,79 @@ func (p *AnthropicProvider) Name() string {
 }
 
 func (p *AnthropicProvider) Chat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string) (*ChatResponse, error) {
+	resp, err := p.client.Messages.New(ctx, p.buildParams(messages, tools, systemPrompt))
+	if err != nil {
+		return nil, fmt.Errorf("anthropic API error: %w", err)
+	}
+
+	return responseFromAnthropicMessage(resp.Content), nil
+}
+
+// StreamChat streams the response via the Anthropic streaming API: visible
+// text deltas are forwarded to onDelta, tool_use blocks are accumulated from
+// their incremental JSON and returned in the final ChatResponse.
+func (p *AnthropicProvider) StreamChat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string, onDelta func(string)) (*ChatResponse, error) {
+	stream := p.client.Messages.NewStreaming(ctx, p.buildParams(messages, tools, systemPrompt))
+	defer stream.Close()
+
+	chatResp := &ChatResponse{}
+
+	// Accumulate tool_use blocks: content-block index -> {id, name, args}
+	type toolAcc struct {
+		id        string
+		name      string
+		args      strings.Builder
+	}
+	accs := map[int64]*toolAcc{}
+
+	for stream.Next() {
+		switch v := stream.Current().AsAny().(type) {
+		case anthropic.ContentBlockStartEvent:
+			// Bound the accumulated tool_use map: only accept sane block
+			// indexes and cap the number of concurrent tool calls.
+			if v.ContentBlock.Type == "tool_use" && v.Index >= 0 && v.Index < 64 && len(accs) < 32 {
+				accs[v.Index] = &toolAcc{id: v.ContentBlock.ID, name: v.ContentBlock.Name}
+			}
+		case anthropic.ContentBlockDeltaEvent:
+			switch v.Delta.Type {
+			case "text_delta":
+				if v.Delta.Text != "" {
+					chatResp.Text += v.Delta.Text
+					if onDelta != nil {
+						onDelta(v.Delta.Text)
+					}
+				}
+			case "input_json_delta":
+				if acc, ok := accs[v.Index]; ok && acc.args.Len() < 64<<10 {
+					acc.args.WriteString(v.Delta.PartialJSON)
+				}
+			}
+		}
+	}
+	if err := stream.Err(); err != nil {
+		return nil, fmt.Errorf("anthropic stream error: %w", err)
+	}
+
+	// Assemble tool calls in block-index order for deterministic output.
+	indexes := make([]int, 0, len(accs))
+	for i := range accs {
+		indexes = append(indexes, int(i))
+	}
+	sort.Ints(indexes)
+	for _, i := range indexes {
+		acc := accs[int64(i)]
+		chatResp.ToolCalls = append(chatResp.ToolCalls, ToolCall{
+			ID:        acc.id,
+			Name:      acc.name,
+			Arguments: parseJSONObject(json.RawMessage(acc.args.String())),
+		})
+	}
+	return chatResp, nil
+}
+
+// buildParams converts provider-agnostic messages/tools/system into an
+// Anthropic MessageNewParams (shared by Chat and StreamChat).
+func (p *AnthropicProvider) buildParams(messages []Message, tools []ToolDefinition, systemPrompt string) anthropic.MessageNewParams {
 	// Convert internal messages to Anthropic format
 	anthropicMessages := make([]anthropic.MessageParam, 0, len(messages))
 	for _, msg := range messages {
@@ -54,26 +129,21 @@ func (p *AnthropicProvider) Chat(ctx context.Context, messages []Message, tools 
 		{Text: systemPrompt},
 	}
 
-	// Build tool definitions
-	anthropicTools := p.convertTools(tools)
-
-	params := anthropic.MessageNewParams{
+	return anthropic.MessageNewParams{
 		Model:       anthropic.Model(p.model),
 		MaxTokens:   p.maxTokens,
 		Messages:    anthropicMessages,
 		System:      systemBlocks,
 		Temperature: param.Opt[float64]{Value: p.temperature},
-		Tools:       anthropicTools,
+		Tools:       p.convertTools(tools),
 	}
+}
 
-	resp, err := p.client.Messages.New(ctx, params)
-	if err != nil {
-		return nil, fmt.Errorf("anthropic API error: %w", err)
-	}
-
-	// Parse response
+// responseFromAnthropicMessage parses a completed Anthropic message content
+// into a provider-agnostic ChatResponse.
+func responseFromAnthropicMessage(content []anthropic.ContentBlockUnion) *ChatResponse {
 	chatResp := &ChatResponse{}
-	for _, block := range resp.Content {
+	for _, block := range content {
 		switch block.Type {
 		case "text":
 			if block.Text != "" {
@@ -88,8 +158,7 @@ func (p *AnthropicProvider) Chat(ctx context.Context, messages []Message, tools 
 			})
 		}
 	}
-
-	return chatResp, nil
+	return chatResp
 }
 
 func (p *AnthropicProvider) convertTools(tools []ToolDefinition) []anthropic.ToolUnionParam {

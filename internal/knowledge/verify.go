@@ -2,8 +2,12 @@ package knowledge
 
 import (
 	"fmt"
+	"io"
+	"net/http"
 	"regexp"
 	"strings"
+	"sync"
+	"time"
 )
 
 // VerificationReport is the result of a full knowledge-base integrity check.
@@ -305,4 +309,110 @@ func ReportText(report *VerificationReport) string {
 		sb.WriteString(formatReportLine(true, "警告: "+w) + "\n")
 	}
 	return sb.String()
+}
+
+// URLCheckIssue records a citation URL that could not be reached.
+type URLCheckIssue struct {
+	ID  string
+	URL string
+	Err string
+}
+
+// CheckURLLiveness probes every citation URL with HTTP HEAD requests (falling
+// back to GET when the server rejects HEAD) and returns the unreachable ones.
+// The check is concurrent but bounded by maxConcurrent, and every URL gets a
+// per-request timeout. URLs that are not http(s) are skipped.
+func CheckURLLiveness(store *Store, timeout time.Duration, maxConcurrent int) []URLCheckIssue {
+	if maxConcurrent <= 0 {
+		maxConcurrent = 8
+	}
+	client := &http.Client{Timeout: timeout}
+
+	// Collect (id, url) references from every citation-bearing entry type.
+	type urlRef struct{ id, url string }
+	var refs []urlRef
+	seen := make(map[string]bool)
+	add := func(id string, citations []Citation) {
+		for _, c := range citations {
+			if c.URL == "" || seen[c.URL] {
+				continue
+			}
+			seen[c.URL] = true
+			refs = append(refs, urlRef{id: id, url: c.URL})
+		}
+	}
+	for _, e := range store.MedicalEntries {
+		add(e.ID, e.Citations)
+	}
+	for _, d := range store.DrugEntries {
+		add(d.ID, d.Citations)
+	}
+	for _, f := range store.FoodRiskEntries {
+		add(f.ID, f.Citations)
+	}
+	for _, l := range store.LabTestReferences {
+		add(l.ID, l.Citations)
+	}
+
+	sem := make(chan struct{}, maxConcurrent)
+	var mu sync.Mutex
+	var issues []URLCheckIssue
+	var wg sync.WaitGroup
+
+	for _, ref := range refs {
+		wg.Add(1)
+		sem <- struct{}{}
+		go func(ref urlRef) {
+			defer wg.Done()
+			defer func() { <-sem }()
+			if err := probeURL(client, ref.url); err != nil {
+				mu.Lock()
+				issues = append(issues, URLCheckIssue{ID: ref.id, URL: ref.url, Err: err.Error()})
+				mu.Unlock()
+			}
+		}(ref)
+	}
+	wg.Wait()
+	return issues
+}
+
+// probeURL performs HEAD with a GET fallback; any non-2xx/3xx status or
+// transport error is reported.
+func probeURL(client *http.Client, url string) error {
+	if !strings.HasPrefix(url, "http://") && !strings.HasPrefix(url, "https://") {
+		return nil
+	}
+	do := func(method string) (int, error) {
+		req, err := http.NewRequest(method, url, nil)
+		if err != nil {
+			return 0, err
+		}
+		req.Header.Set("User-Agent", "doctor-agent-verify/1.0")
+		resp, err := client.Do(req)
+		if err != nil {
+			return 0, err
+		}
+		defer resp.Body.Close()
+		// Drain a little to allow connection reuse, then close.
+		_, _ = io.CopyN(io.Discard, resp.Body, 4096)
+		return resp.StatusCode, nil
+	}
+
+	code, err := do(http.MethodHead)
+	if err == nil && code < 400 {
+		return nil
+	}
+	// HEAD unsupported (405/501) or transport error → retry with GET.
+	if err != nil {
+		if code, err2 := do(http.MethodGet); err2 == nil && code < 400 {
+			return nil
+		}
+		return err
+	}
+	if code == http.StatusMethodNotAllowed || code == http.StatusNotImplemented {
+		if code2, err2 := do(http.MethodGet); err2 == nil && code2 < 400 {
+			return nil
+		}
+	}
+	return fmt.Errorf("status %d", code)
 }

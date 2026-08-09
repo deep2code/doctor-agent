@@ -28,7 +28,7 @@
     "normal_ranges": {"adult": "27-34 pg"},
     "units": "pg",
     "high_meaning": "高色素：巨幼细胞性贫血或新生儿",
-    "low_meaning": "低色素：缺铁性贫血、地中海贫血（南方人群地贫筛查重点指标）",
+    "low_meaning": "低色素：缺铁性贫血、地中海贫血（地贫筛查重点指标，南方高发区尤需关注）",
     "citations": [
       {
         "type": "guideline",
@@ -49,7 +49,7 @@
     "normal_ranges": {"female": "120-160 g/L", "male": "130-175 g/L"},
     "units": "g/L",
     "high_meaning": "红细胞增多症、脱水、慢性缺氧",
-    "low_meaning": "贫血（<120女/<130男）。<90中度，<70重度。南方人群小细胞低色素需排查地贫",
+    "low_meaning": "贫血（<120女/<130男）。<90中度，<70重度。小细胞低色素需排查地贫（南方高发区尤需关注）",
     "citations": [
       {
         "type": "guideline",

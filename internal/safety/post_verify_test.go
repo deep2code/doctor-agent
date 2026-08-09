@@ -15,6 +15,13 @@ type fakeJudge struct{ text string }
 func (f *fakeJudge) Chat(ctx context.Context, messages []llm.Message, tools []llm.ToolDefinition, systemPrompt string) (*llm.ChatResponse, error) {
 	return &llm.ChatResponse{Text: f.text}, nil
 }
+
+func (f *fakeJudge) StreamChat(ctx context.Context, messages []llm.Message, tools []llm.ToolDefinition, systemPrompt string, onDelta func(string)) (*llm.ChatResponse, error) {
+	if onDelta != nil {
+		onDelta(f.text)
+	}
+	return &llm.ChatResponse{Text: f.text}, nil
+}
 func (f *fakeJudge) Name() string { return "fake-judge" }
 
 // sampleSources builds a sources map with citation numbers "1".."2".

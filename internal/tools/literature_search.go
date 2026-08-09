@@ -9,7 +9,7 @@ import (
 )
 
 // LiteratureSearch searches the embedded Europe PMC literature corpus
-// (16 southern-China-relevant topics, 4400+ abstracts with real DOI/PMID).
+// (16 China high-burden topics, 4400+ abstracts with real DOI/PMID).
 type LiteratureSearch struct {
 	retriever *knowledge.KeywordRetriever
 }
@@ -26,7 +26,7 @@ func (t *LiteratureSearch) Name() string {
 }
 
 func (t *LiteratureSearch) Description() string {
-	return "在 Europe PMC 文献库中检索医学文献摘要（覆盖地中海贫血、G6PD缺乏症、鼻咽癌、乙肝、登革热、狂犬病、中暑、乳糖不耐受等16个南方人群相关主题，共4400余篇，均含真实DOI/PMID）。输入疾病名或主题词（中文或英文），返回文献列表。当知识库条目需要更强文献证据时使用。"
+	return "在 Europe PMC 文献库中检索医学文献摘要（覆盖地中海贫血、G6PD缺乏症、鼻咽癌、乙肝、登革热、狂犬病、中暑、乳糖不耐受等16个中国重点疾病相关主题，共4400余篇，均含真实DOI/PMID）。输入疾病名或主题词（中文或英文），返回文献列表。当知识库条目需要更强文献证据时使用。"
 }
 
 func (t *LiteratureSearch) Schema() map[string]any {

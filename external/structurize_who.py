@@ -35,7 +35,7 @@ FALLBACKS = [
      "model": "deepseek-ai/DeepSeek-V3", "key_env": "SILICONFLOW_API_KEY"},
 ]
 
-# Selected topics: southern-China high-burden / complementary to the existing
+# Selected topics: China high-burden / complementary to the existing
 # 10 conditions. slug -> (中文标题, 分类, 地区)
 SELECTED = {
     "anaemia": ("贫血", "haematology", "华南,全国"),

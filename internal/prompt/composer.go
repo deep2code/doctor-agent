@@ -20,7 +20,8 @@ func NewComposer() *Composer {
 }
 
 // ComposeSystemPrompt assembles the full system prompt by layering foundation,
-// clinical reasoning, southern genetics, southern environment, and safety rules,
+// clinical reasoning, China genetic epidemiology, environmental & dietary risks,
+// and safety rules,
 // then injecting retrieved knowledge and tool definitions.
 func (c *Composer) ComposeSystemPrompt(retrieved []knowledge.RetrievalResult, patientCtx string) string {
 	var sb strings.Builder
@@ -33,11 +34,11 @@ func (c *Composer) ComposeSystemPrompt(retrieved []knowledge.RetrievalResult, pa
 	sb.WriteString(LayerClinicalReasoning)
 	sb.WriteString("\n\n")
 
-	// Layer 2: Southern Genetics
+	// Layer 2: China Genetics (southern provinces highest burden)
 	sb.WriteString(LayerSouthernGenetics)
 	sb.WriteString("\n\n")
 
-	// Layer 3: Southern Environment & Diet
+	// Layer 3: China Environment & Diet
 	sb.WriteString(LayerSouthernEnvironment)
 	sb.WriteString("\n\n")
 

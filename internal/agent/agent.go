@@ -6,8 +6,7 @@ import (
 	"fmt"
 	"log/slog"
 	"strings"
-
-	"github.com/anthropics/anthropic-sdk-go"
+	"sync"
 
 	"github.com/doctor-agent/internal/config"
 	"github.com/doctor-agent/internal/knowledge"
@@ -32,7 +31,9 @@ type Agent struct {
 	disclaimerService *safety.DisclaimerService
 	postVerifier      *safety.PostVerifier
 
-	sessions map[string]*session.Session
+	sessionsMu sync.RWMutex
+	sessions   map[string]*session.Session
+	fileStore  *session.FileStore // optional on-disk snapshot store
 }
 
 // New creates a fully initialized Agent.
@@ -72,6 +73,8 @@ func New(cfg *config.Config) (*Agent, error) {
 	registry.Register(tools.NewVariantLookup(store))
 	registry.Register(tools.NewMedlineSearch(store))
 	registry.Register(tools.NewDrugLookup(store))
+	registry.Register(tools.NewEMLLookup(store))
+	registry.Register(tools.NewDrugLabelLookup(store))
 	registry.Register(tools.NewLabInterpreter())
 
 	postVerifier := safety.NewPostVerifier(store.GetReferenceIndex())
@@ -82,6 +85,16 @@ func New(cfg *config.Config) (*Agent, error) {
 		}
 		slog.Info("Semantic claim verification enabled", "judge", judge.Name())
 		postVerifier = safety.NewPostVerifierWithJudge(store.GetReferenceIndex(), judge)
+	}
+
+	// Optional on-disk session persistence.
+	var fileStore *session.FileStore
+	if cfg.SessionDir != "" {
+		fileStore, err = session.NewFileStore(cfg.SessionDir)
+		if err != nil {
+			return nil, fmt.Errorf("initializing session store: %w", err)
+		}
+		slog.Info("Session persistence enabled", "dir", cfg.SessionDir)
 	}
 
 	return &Agent{
@@ -96,6 +109,7 @@ func New(cfg *config.Config) (*Agent, error) {
 		disclaimerService: safety.NewDisclaimerService(),
 		postVerifier:      postVerifier,
 		sessions:          make(map[string]*session.Session),
+		fileStore:         fileStore,
 	}, nil
 }
 
@@ -156,8 +170,18 @@ func createJudgeProvider(cfg *config.Config) (llm.LLMProvider, error) {
 	}
 }
 
-// ProcessMessage handles a single user message within a conversation session.
+// ProcessMessage handles a single user message within a conversation session
+// without streaming (equivalent to ProcessMessageStream with a nil callback).
 func (a *Agent) ProcessMessage(ctx context.Context, sess *session.Session, userMessage string) (*Response, error) {
+	return a.ProcessMessageStream(ctx, sess, userMessage, nil)
+}
+
+// ProcessMessageStream handles a single user message within a conversation
+// session, forwarding every generated text chunk to onDelta (may be nil) as it
+// is produced. The final text is still returned in Response.Text; callers that
+// render onDelta should prefer the returned text (post-verification may adjust
+// the final response, in which case a small trailing difference is possible).
+func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session, userMessage string, onDelta func(string)) (*Response, error) {
 	// L1: Emergency detection
 	if a.cfg.EmergencyEnabled {
 		if emerg := a.emergencyDetector.Detect(userMessage); emerg != nil {
@@ -214,7 +238,7 @@ func (a *Agent) ProcessMessage(ctx context.Context, sess *session.Session, userM
 	maxIterations := 5
 	var toolRefs []tools.CitationRef // tool-returned sources for post-verification
 	for i := 0; i < maxIterations; i++ {
-		resp, err := a.provider.Chat(ctx, messages, toolDefs, systemPrompt)
+		resp, err := a.provider.StreamChat(ctx, messages, toolDefs, systemPrompt, onDelta)
 		if err != nil {
 			return nil, fmt.Errorf("LLM error: %w", err)
 		}
@@ -253,6 +277,7 @@ func (a *Agent) ProcessMessage(ctx context.Context, sess *session.Session, userM
 
 		// Update session
 		sess.AddUserMessage(userMessage)
+		a.saveSession(sess)
 
 		// L3: Post-generation verification
 		if a.cfg.PostVerifyEnabled {
@@ -287,6 +312,7 @@ func (a *Agent) ProcessMessage(ctx context.Context, sess *session.Session, userM
 		}
 
 		sess.AddAssistantMessage(responseText)
+		a.saveSession(sess)
 		sess.TrimHistory(a.cfg.MaxHistoryTurns)
 
 		return &Response{
@@ -298,73 +324,55 @@ func (a *Agent) ProcessMessage(ctx context.Context, sess *session.Session, userM
 	return nil, fmt.Errorf("exceeded maximum tool-use iterations (%d)", maxIterations)
 }
 
-// sessionToMessages converts session history to provider-agnostic messages.
+// sessionToMessages returns the session history in provider-agnostic form.
+// Sessions now store llm.Message directly, so no conversion is needed.
 func (a *Agent) sessionToMessages(sess *session.Session) []llm.Message {
-	anthropicMsgs := sess.GetMessages()
-	msgs := make([]llm.Message, 0, len(anthropicMsgs))
-
-	for _, m := range anthropicMsgs {
-		// Extract the role and text content from Anthropic-specific message params
-		msg := llm.Message{}
-		switch {
-		case m.Role == "user":
-			msg.Role = "user"
-		case m.Role == "assistant":
-			msg.Role = "assistant"
-		default:
-			continue
-		}
-
-		// Extract text from content blocks (simplified: concatenate all text)
-		if m.Content != nil {
-			// Content is a complex union type; extract text heuristically
-			msg.Content = extractTextContent(m)
-		}
-
-		if msg.Content != "" {
-			msgs = append(msgs, msg)
-		}
-	}
-
-	return msgs
-}
-
-// extractTextContent extracts text from an Anthropic message's content union.
-// This handles the common cases; for full fidelity, use the SDK's AsAny() methods.
-func extractTextContent(m anthropic.MessageParam) string {
-	// The Content field is []ContentBlockParamUnion, but it's stored as a
-	// complex union type. For simplicity, we serialize and extract text.
-	// In practice, messages built by our session manager always use
-	// NewTextBlock, making this straightforward.
-	data, err := json.Marshal(m.Content)
-	if err != nil {
-		return ""
-	}
-
-	// Simple heuristic: find "text" fields in the JSON
-	var contentBlocks []map[string]any
-	if err := json.Unmarshal(data, &contentBlocks); err != nil {
-		return ""
-	}
-
-	var texts []string
-	for _, block := range contentBlocks {
-		if t, ok := block["text"].(string); ok && t != "" {
-			texts = append(texts, t)
-		}
-	}
-
-	return strings.Join(texts, "\n")
+	return sess.GetMessages()
 }
 
 // GetOrCreateSession returns an existing session or creates a new one.
+// When a file store is configured, sessions not in memory are first restored
+// from disk (so conversations survive restarts).
 func (a *Agent) GetOrCreateSession(sessionID string) *session.Session {
-	if sess, ok := a.sessions[sessionID]; ok {
+	a.sessionsMu.RLock()
+	sess, ok := a.sessions[sessionID]
+	a.sessionsMu.RUnlock()
+	if ok {
 		return sess
 	}
-	sess := session.New(sessionID)
+
+	// Try to restore from disk before creating a fresh session.
+	if a.fileStore != nil {
+		if restored, err := a.fileStore.Load(sessionID); err != nil {
+			slog.Warn("Failed to restore session", "id", sessionID, "error", err)
+		} else if restored != nil {
+			a.sessionsMu.Lock()
+			a.sessions[sessionID] = restored
+			a.sessionsMu.Unlock()
+			return restored
+		}
+	}
+
+	sess = session.New(sessionID)
+	a.sessionsMu.Lock()
+	if existing, ok := a.sessions[sessionID]; ok {
+		a.sessionsMu.Unlock()
+		return existing
+	}
 	a.sessions[sessionID] = sess
+	a.sessionsMu.Unlock()
 	return sess
+}
+
+// saveSession persists a session snapshot when a file store is configured.
+// Snapshotting happens after user/assistant messages are appended.
+func (a *Agent) saveSession(sess *session.Session) {
+	if a.fileStore == nil {
+		return
+	}
+	if err := a.fileStore.Save(sess); err != nil {
+		slog.Warn("Failed to persist session", "id", sess.ID, "error", err)
+	}
 }
 
 func (a *Agent) buildPatientContextString(sess *session.Session) string {

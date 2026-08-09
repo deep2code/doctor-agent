@@ -38,6 +38,12 @@ type LLMProvider interface {
 	// handling (e.g., Anthropic's top-level system param vs OpenAI's system role).
 	Chat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string) (*ChatResponse, error)
 
+	// StreamChat streams the response: each incremental text chunk is passed to
+	// onDelta (which may be nil) as it is generated, and the final complete
+	// response (full text + any tool calls) is returned when finished.
+	// Tool-call arguments are never streamed via onDelta — only visible text.
+	StreamChat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string, onDelta func(string)) (*ChatResponse, error)
+
 	// Name returns a human-readable identifier for this provider (e.g., "Anthropic Claude", "DeepSeek V4").
 	Name() string
 }

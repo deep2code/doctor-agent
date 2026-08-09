@@ -46,6 +46,10 @@ func (c *Composer) ComposeSystemPrompt(retrieved []knowledge.RetrievalResult, pa
 	sb.WriteString(LayerEverydayHealth)
 	sb.WriteString("\n\n")
 
+	// Layer 3.75: Answer formatting (tables, mermaid, plain language, 专业原理)
+	sb.WriteString(LayerFormatting)
+	sb.WriteString("\n\n")
+
 	// Patient context injection (if available)
 	if patientCtx != "" {
 		sb.WriteString("## PATIENT CONTEXT\n\n")

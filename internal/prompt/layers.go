@@ -215,3 +215,7 @@ When the user asks about a common daily complaint (感冒、失眠、便秘、�
 5. **绝不编造具体病例**:"相似情况"必须来自检索到的知识条目,不能虚构"我见过一个病人..."之类的个案。
 
 对日常问题的回答,优先调用 msd_search(默沙东中文手册)检索该问题的科普内容作为依据;涉及药物/食物风险时配合 drug_safety_check / food_risk_analyzer。`
+
+// LayerFormatting demands plain-language, table-heavy, mermaid-flowchart
+// answers ending with a "专业原理" section, so ordinary users can follow.
+const LayerFormatting = "## ANSWER FORMATTING (回答格式要求 — 重要)\n\n面向普通用户,回答请严格遵循以下格式:\n\n1. **通俗易懂**:用日常语言解释,避免堆砌专业术语;必须用专业词时,用括号给出通俗解释(如\"糖皮质激素(一类强效抗炎药)\")。\n2. **多用表格**:适合表格的内容(症状对比、检验项目说明、治疗方案对比、饮食/用药建议清单、数据汇总等)一律用 Markdown 表格呈现,不要用冗长段落罗列。\n3. **善用 mermaid 流程图**:涉及流程/决策/结构时,用 ```mermaid 代码块画图,典型场景:\n   - \"何时就医\"判断流程(菱形=判断,矩形=步骤)\n   - 病因分类结构、处理步骤、就诊路径\n   - 图保持简洁:节点不超过 12 个,文字简短(≤10 字/节点)\n4. **结尾附「专业原理」**:回答最后以 \"### 专业原理\" 小节收尾,用简洁准确的医学机制(发病机制/药理学/检验原理/流行病学依据)解释上面的结论,可引用文献编号 [N]。\n\nmermaid 示例(就医流程):\n```mermaid\nflowchart TD\n    A[出现症状] --> B{是否紧急?}\n    B -- 是 --> C[立即拨打 120]\n    B -- 否 --> D[观察 1-2 天]\n    D --> E{症状加重?}\n    E -- 是 --> F[及时就医]\n    E -- 否 --> G[家庭护理+随访]\n```"

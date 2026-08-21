@@ -324,5 +324,70 @@
       "胡豆",
       "蚕豆病"
     ]
+  },
+  {
+    "id": "drug-g6pd-009",
+    "generic_name_en": "Shuanghuanglian (TCM)",
+    "generic_name_zh": "双黄连注射液",
+    "trade_names": ["双黄连注射液", "双黄连口服液"],
+    "drug_class": "tcm_injection",
+    "g6pd_safety": "unsafe",
+    "risk_level": "high",
+    "mechanism": "双黄连主要成分(金银花/黄芩/连翘)中的绿原酸等成分可诱导氧化应激，在G6PD缺乏患者中可能诱发急性溶血性贫血。注射给药风险更高。",
+    "alternatives": ["板蓝根颗粒(口服，相对安全但需谨慎)", "蒲地蓝消炎口服液", "蓝芩口服液"],
+    "citations": [{"type": "guideline", "title": "小儿G6PD缺乏症诊疗指南（2025年版）", "journal": "", "year": 2025, "level": "national_guideline"}],
+    "keywords": ["双黄连", "双黄连注射液", "金银花", "黄芩", "连翘", "绿原酸", "中药注射剂", "溶血"]
+  },
+  {
+    "id": "drug-g6pd-010",
+    "generic_name_en": "Danshen (TCM)",
+    "generic_name_zh": "丹参(注射液)",
+    "trade_names": ["丹参注射液", "丹参川芎嗪注射液", "复方丹参滴丸"],
+    "drug_class": "tcm_injection",
+    "g6pd_safety": "unsafe",
+    "risk_level": "high",
+    "mechanism": "丹参中的隐丹参酮、丹参酮等成分具有氧化性，在G6PD缺乏患者中可能诱发氧化损伤和溶血。丹参注射液风险最高。",
+    "alternatives": ["口服复方丹参滴丸(风险较低但需谨慎)", "银杏叶提取物(口服)", "西医抗血小板方案(阿司匹林等)"],
+    "citations": [{"type": "guideline", "title": "小儿G6PD缺乏症诊疗指南（2025年版）", "journal": "", "year": 2025, "level": "national_guideline"}],
+    "keywords": ["丹参", "丹参注射液", "复方丹参", "隐丹参酮", "活血化瘀", "中药注射剂", "溶血"]
+  },
+  {
+    "id": "drug-g6pd-011",
+    "generic_name_en": "Niqing (TCM)",
+    "generic_name_zh": "牛黄解毒片/丸",
+    "trade_names": ["牛黄解毒片", "牛黄解毒丸", "牛黄上清片"],
+    "drug_class": "tcm_oral",
+    "g6pd_safety": "caution",
+    "risk_level": "moderate",
+    "mechanism": "牛黄解毒片含雄黄(主要成分As4S4)，砷化物可诱导氧化应激并抑制G6PD活性，G6PD缺乏患者存在溶血风险。长期或大量服用风险增加。",
+    "alternatives": ["黄连上清片(不含雄黄)", "一清颗粒", "蓝芩口服液"],
+    "citations": [{"type": "guideline", "title": "小儿G6PD缺乏症诊疗指南（2025年版）", "journal": "", "year": 2025, "level": "national_guideline"}],
+    "keywords": ["牛黄解毒", "雄黄", "砷", "清热解毒", "上火", "烂嘴角"]
+  },
+  {
+    "id": "drug-g6pd-012",
+    "generic_name_en": "Chuanxiong (TCM)",
+    "generic_name_zh": "川芎嗪注射液",
+    "trade_names": ["川芎嗪注射液", "磷酸川芎嗪注射液"],
+    "drug_class": "tcm_injection",
+    "g6pd_safety": "unsafe",
+    "risk_level": "high",
+    "mechanism": "川芎嗪(四甲基吡嗪)具有氧化性，注射给药时血药浓度高，在G6PD缺乏患者中可能诱发急性溶血。",
+    "alternatives": ["口服活血化瘀中药(需医生评估)", "西医抗血小板/改善循环方案"],
+    "citations": [{"type": "guideline", "title": "小儿G6PD缺乏症诊疗指南（2025年版）", "journal": "", "year": 2025, "level": "national_guideline"}],
+    "keywords": ["川芎嗪", "川芎", "活血化瘀", "中药注射剂", "溶血"]
+  },
+  {
+    "id": "drug-g6pd-013",
+    "generic_name_en": "Huoxiang Zhengqi (TCM)",
+    "generic_name_zh": "藿香正气水/口服液",
+    "trade_names": ["藿香正气水", "藿香正气口服液", "藿香正气液"],
+    "drug_class": "tcm_oral",
+    "g6pd_safety": "caution",
+    "risk_level": "moderate",
+    "mechanism": "藿香正气水含酒精(40-50%)，酒精代谢消耗NADPH，G6PD缺乏患者中可能降低红细胞抗氧化能力。口服液(无酒精)风险较低但成分复杂需谨慎。",
+    "alternatives": ["藿香正气口服液(无酒精型)", "十滴水(含酒精需避免)", "西医对症处理"],
+    "citations": [{"type": "review", "title": "G6PD deficiency and traditional Chinese medicine", "journal": "Chinese Journal of Evidence-Based Medicine", "year": 2023, "level": "review"}],
+    "keywords": ["藿香正气", "藿香正气水", "中暑", "肠胃型感冒", "酒精"]
   }
 ]

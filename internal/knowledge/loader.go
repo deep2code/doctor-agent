@@ -74,6 +74,38 @@ type Store struct {
 	// AAP parenting articles (healthychildren.org), English full text.
 	AAPEntries          []AAPEntry
 
+	// Health myths and misconceptions (日常错误观念/习惯).
+	HealthMyths         []HealthMyth
+
+	// China National Essential Medicines List (国家基本药物目录).
+	EssentialMedicines  []EssentialMedicine
+
+	// ICD-10 disease classification (国家临床版2.0疾病诊断编码).
+	ICD10Diseases       []ICD10Disease
+	ICD10ByCode         map[string]*ICD10Disease
+
+	// NMPA drug catalogue (国家药品编码本位码信息).
+	NMPADrugs           []NMPADrug
+	NMPAByName          map[string]*NMPADrug
+
+	// Medical knowledge graph triples (OpenCMKG).
+	MedicalKGTriples    []MedicalKGTriple
+
+	// Medical dialogue seeds (MedicalGPT-zh).
+	MedicalDialogues    []MedicalDialogue
+
+	// Disease encyclopedias (CMeKG/QASystemOnMedicalKG).
+	DiseaseEncyclopedias    []DiseaseEncyclopedia
+	DiseaseEncyclopediasByName map[string]*DiseaseEncyclopedia
+
+	// CPubMed-KG triples.
+	CPubMedTriples     []CPubMedTriple
+	CPubMedByHead      map[string][]*CPubMedTriple
+	CPubMedByRelation  map[string][]*CPubMedTriple
+
+	// Huatuo26M-Lite QA pairs (华佗26M医疗问答).
+	HuatuoQAPairs      *HuatuoQAPairs
+
 	loaded bool
 }
 
@@ -101,6 +133,11 @@ func doLoad() (*Store, error) {
 		LabTestByID:       make(map[string]*LabTestReference),
 		ReferenceIndex:    make(map[string]string),
 		LiteratureByTopic: make(map[string][]*LiteratureEntry),
+		ICD10ByCode:       make(map[string]*ICD10Disease),
+		NMPAByName:        make(map[string]*NMPADrug),
+		DiseaseEncyclopediasByName: make(map[string]*DiseaseEncyclopedia),
+		CPubMedByHead:     make(map[string][]*CPubMedTriple),
+		CPubMedByRelation: make(map[string][]*CPubMedTriple),
 	}
 
 	err := fs.WalkDir(knowledgeFS, ".", func(path string, d fs.DirEntry, err error) error {
@@ -292,7 +329,11 @@ func doLoad() (*Store, error) {
 				}
 			}
 
-		case "cdc_entries.json":
+		case "cdc_entries.json",
+			"diabetes.json", "hypertension.json", "cardiovascular.json",
+			"copd.json", "tuberculosis.json", "hp_infection.json",
+			"common_diseases.json", "common_diseases_batch2.json",
+			"common_diseases_batch3.json", "common_diseases_batch4.json":
 			var entries []KnowledgeEntry
 			if err := json.Unmarshal(data, &entries); err != nil {
 				return fmt.Errorf("parsing %s: %w", path, err)
@@ -414,6 +455,91 @@ func doLoad() (*Store, error) {
 				}
 			}
 			store.AAPEntries = set.Entries
+
+		case "health_myths.json":
+			var myths []HealthMyth
+			if err := json.Unmarshal(data, &myths); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			store.HealthMyths = myths
+
+		case "essential_medicines.json":
+			var drugs []EssentialMedicine
+			if err := json.Unmarshal(data, &drugs); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range drugs {
+				if drugs[i].NameZH == "" {
+					return fmt.Errorf("essential_medicines.json: drug %d missing name_zh", i)
+				}
+			}
+			store.EssentialMedicines = drugs
+
+		case "icd10_diseases.json":
+			var set ICD10DiseaseSet
+			if err := json.Unmarshal(data, &set); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range set.Diseases {
+				d := &set.Diseases[i]
+				store.ICD10Diseases = append(store.ICD10Diseases, *d)
+				store.ICD10ByCode[d.Code] = d
+			}
+
+		case "nmpa_drugs.json":
+			var set NMPADrugSet
+			if err := json.Unmarshal(data, &set); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range set.Drugs {
+				d := &set.Drugs[i]
+				store.NMPADrugs = append(store.NMPADrugs, *d)
+				store.NMPAByName[d.NameZH] = d
+			}
+
+		case "medical_kg_triples.json":
+			var set MedicalKGSet
+			if err := json.Unmarshal(data, &set); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			store.MedicalKGTriples = set.Triples
+
+		case "medical_dialogues.json":
+			var set MedicalDialogueSet
+			if err := json.Unmarshal(data, &set); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			store.MedicalDialogues = set.Dialogues
+
+		case "disease_encyclopedias.json":
+			var set DiseaseEncyclopediaSet
+			if err := json.Unmarshal(data, &set); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range set.Diseases {
+				d := &set.Diseases[i]
+				store.DiseaseEncyclopedias = append(store.DiseaseEncyclopedias, *d)
+				store.DiseaseEncyclopediasByName[d.NameZH] = d
+			}
+
+		case "cpubmed_kg.json":
+			var set CPubMedKGSet
+			if err := json.Unmarshal(data, &set); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			for i := range set.Triples {
+				t := &set.Triples[i]
+				store.CPubMedTriples = append(store.CPubMedTriples, *t)
+				store.CPubMedByHead[t.Head] = append(store.CPubMedByHead[t.Head], t)
+				store.CPubMedByRelation[t.Relation] = append(store.CPubMedByRelation[t.Relation], t)
+			}
+
+		case "huatuo_qa.json":
+			var hp HuatuoQAPairs
+			if err := json.Unmarshal(data, &hp); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			store.HuatuoQAPairs = &hp
 
 		default:
 			// Unknown/extra data files are intentionally ignored here; add a
@@ -679,4 +805,188 @@ func (s *Store) GetReferenceIndex() map[string]string {
 		idx[k] = v
 	}
 	return idx
+}
+
+// GetICD10DiseaseByCode retrieves an ICD-10 disease by code.
+func (s *Store) GetICD10DiseaseByCode(code string) *ICD10Disease {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	if d, ok := s.ICD10ByCode[code]; ok {
+		return d
+	}
+	return nil
+}
+
+// SearchICD10Diseases searches ICD-10 diseases by name substring.
+func (s *Store) SearchICD10Diseases(query string, limit int) []ICD10Disease {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	var matches []ICD10Disease
+	for _, d := range s.ICD10Diseases {
+		if strings.Contains(d.NameZH, query) || strings.Contains(strings.ToLower(d.Code), strings.ToLower(query)) {
+			matches = append(matches, d)
+			if len(matches) >= limit {
+				break
+			}
+		}
+	}
+	return matches
+}
+
+// GetICD10Count returns the number of ICD-10 diseases.
+func (s *Store) GetICD10Count() int {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return len(s.ICD10Diseases)
+}
+
+// GetNMPADrugByName retrieves an NMPA drug by name.
+func (s *Store) GetNMPADrugByName(name string) *NMPADrug {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	if d, ok := s.NMPAByName[name]; ok {
+		return d
+	}
+	return nil
+}
+
+// SearchNMPADrugs searches NMPA drugs by name substring.
+func (s *Store) SearchNMPADrugs(query string, limit int) []NMPADrug {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	var matches []NMPADrug
+	for _, d := range s.NMPADrugs {
+		if strings.Contains(d.NameZH, query) {
+			matches = append(matches, d)
+			if len(matches) >= limit {
+				break
+			}
+		}
+	}
+	return matches
+}
+
+// GetNMPADrugCount returns the number of NMPA drugs.
+func (s *Store) GetNMPADrugCount() int {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return len(s.NMPADrugs)
+}
+
+// SearchMedicalKG searches medical knowledge graph triples by entity.
+func (s *Store) SearchMedicalKG(entity string, relation string, limit int) []MedicalKGTriple {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	var matches []MedicalKGTriple
+	for _, triple := range s.MedicalKGTriples {
+		if strings.Contains(triple.Entity1, entity) || strings.Contains(triple.Entity2, entity) {
+			if relation == "" || triple.Relation == relation {
+				matches = append(matches, triple)
+				if len(matches) >= limit {
+					break
+				}
+			}
+		}
+	}
+	return matches
+}
+
+// GetMedicalKGCount returns the number of medical KG triples.
+func (s *Store) GetMedicalKGCount() int {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return len(s.MedicalKGTriples)
+}
+
+// GetMedicalDialogues returns the medical dialogue seeds (copy).
+func (s *Store) GetMedicalDialogues() []MedicalDialogue {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]MedicalDialogue, len(s.MedicalDialogues))
+	copy(out, s.MedicalDialogues)
+	return out
+}
+
+// GetMedicalDialogueCount returns the number of medical dialogues.
+func (s *Store) GetMedicalDialogueCount() int {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return len(s.MedicalDialogues)
+}
+
+// GetDiseaseEncyclopediaByName retrieves a disease encyclopedia entry by name.
+func (s *Store) GetDiseaseEncyclopediaByName(name string) *DiseaseEncyclopedia {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	if d, ok := s.DiseaseEncyclopediasByName[name]; ok {
+		return d
+	}
+	return nil
+}
+
+// SearchDiseaseEncyclopedias searches disease encyclopedias by name substring.
+func (s *Store) SearchDiseaseEncyclopedias(query string, limit int) []DiseaseEncyclopedia {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	var matches []DiseaseEncyclopedia
+	for _, d := range s.DiseaseEncyclopedias {
+		if strings.Contains(d.NameZH, query) {
+			matches = append(matches, d)
+			if len(matches) >= limit {
+				break
+			}
+		}
+	}
+	return matches
+}
+
+// GetDiseaseEncyclopediaCount returns the number of disease encyclopedias.
+func (s *Store) GetDiseaseEncyclopediaCount() int {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return len(s.DiseaseEncyclopedias)
+}
+
+// GetCPubMedTriplesByHead retrieves CPubMed triples by head entity.
+func (s *Store) GetCPubMedTriplesByHead(head string) []*CPubMedTriple {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return s.CPubMedByHead[head]
+}
+
+// SearchCPubMedTriples searches CPubMed triples by head entity substring.
+func (s *Store) SearchCPubMedTriples(query string, limit int) []*CPubMedTriple {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	var matches []*CPubMedTriple
+	for head, triples := range s.CPubMedByHead {
+		if strings.Contains(head, query) {
+			matches = append(matches, triples...)
+			if len(matches) >= limit {
+				break
+			}
+		}
+	}
+	return matches
+}
+
+// GetCPubMedTriplesByRelation retrieves CPubMed triples by relation type.
+func (s *Store) GetCPubMedTriplesByRelation(relation string) []*CPubMedTriple {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return s.CPubMedByRelation[relation]
+}
+
+// GetCPubMedTripleCount returns the number of CPubMed triples.
+func (s *Store) GetCPubMedTripleCount() int {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return len(s.CPubMedTriples)
+}
+
+// GetHuatuoQA returns the Huatuo26M-Lite QA pairs.
+func (s *Store) GetHuatuoQA() *HuatuoQAPairs {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return s.HuatuoQAPairs
 }

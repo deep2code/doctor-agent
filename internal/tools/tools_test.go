@@ -142,6 +142,11 @@ var allToolConstructors = []struct {
 	{"fhs_search", func() Tool { return NewFhsSearch(nil) }},
 	{"aap_search", func() Tool { return NewAapSearch(nil) }},
 	{"lab_interpreter", func() Tool { return NewLabInterpreter() }},
+	{"icd10_lookup", func() Tool { return NewICD10Lookup(nil) }},
+	{"nmpa_drug_lookup", func() Tool { return NewNMPADrugLookup(nil) }},
+	{"medical_kg_lookup", func() Tool { return NewMedicalKGLookup(nil) }},
+	{"disease_encyclopedia_lookup", func() Tool { return NewDiseaseEncyclopediaLookup(nil) }},
+	{"cpubmed_kg_lookup", func() Tool { return NewCPubMedKGLookup(nil) }},
 }
 
 func TestToolInterfaceCompliance(t *testing.T) {

@@ -88,7 +88,7 @@ func TestRetrieverNoRecallForUnrelated(t *testing.T) {
 	r := NewRetriever(newTestStore(t))
 	cases := []string{
 		"今天股市怎么样",
-		"我今天感冒了怎么办",     // 感冒不在知识库
+		"我家猫最近不吃东西",     // 宠物不在知识库
 		"广东的天气怎么样",      // 仅地区命中，低于相关阈值
 		"推荐一家好吃的餐厅",
 	}

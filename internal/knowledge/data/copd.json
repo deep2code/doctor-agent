@@ -1,0 +1,43 @@
+[
+  {
+    "id": "copd-001",
+    "condition_zh": "慢性阻塞性肺疾病",
+    "condition_en": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "category": "respiratory_disease",
+    "icd10": "J44",
+    "regions": ["全国"],
+    "prevalence": {
+      "china_2023": {"rate": 0.137, "population": "≥40岁成人(约1亿)"},
+      "china_underdiagnosed": {"rate": 0.70, "population": "知晓率不足30%"}
+    },
+    "diagnosis": {
+      "lab_tests": ["肺功能检查(FEV1/FVC)", "血气分析", "血常规", "痰培养"],
+      "imaging": ["胸部X线(排除其他)", "胸部CT(评估肺气肿/肺大泡)"],
+      "thresholds": {
+        "FEV1_FVC": "吸入支气管扩张剂后 FEV1/FVC <0.70",
+        "GOLD分级": "GOLD1(≥80%预计值)/GOLD2(50-79%)/GOLD3(30-49%)/GOLD4(<30%)"
+      },
+      "clinical_features": ["慢性咳嗽(晨起为主)", "咳痰(白色黏液痰)", "活动后气促(进行性加重)", "喘息/胸闷", "晚期桶状胸/紫绀", "急性加重(感染诱发)"],
+      "gold_standard": "吸入支气管扩张剂后 FEV1/FVC <0.70 确认气流受限"
+    },
+    "treatment": [
+      {"method": "戒烟(最重要干预)", "indication": "所有COPD患者", "evidence_level": "national_guideline"},
+      {"method": "长效支气管扩张剂(LABA/LAMA)", "indication": "GOLD2-4期基础用药(沙美特罗/噻托溴铵/格隆溴铵)", "evidence_level": "national_guideline"},
+      {"method": "吸入糖皮质激素(ICS)+LABA", "indication": "GOLD3-4期反复急性加重(eos≥300)", "evidence_level": "national_guideline"},
+      {"method": "PDE4抑制剂(罗氟司特)", "indication": "FEV1<50%+慢性支气管炎+反复急性加重", "evidence_level": "international_guideline"},
+      {"method": "家庭氧疗(≥15h/日)", "indication": "PaO2≤55mmHg或SaO2≤88%", "evidence_level": "national_guideline"},
+      {"method": "肺康复训练", "indication": "所有有症状的COPD患者", "evidence_level": "national_guideline"},
+      {"method": "急性加重期:短效支扩剂+抗生素+全身激素", "indication": "急性加重(AECOPD)", "evidence_level": "national_guideline"}
+    ],
+    "differential_diagnosis": ["支气管哮喘", "支气管扩张", "肺结核", "间质性肺病", "肺癌", "心力衰竭(心源性气促)"],
+    "risk_factors": ["吸烟(80-90%由吸烟引起)", "职业粉尘/化学物质", "室内空气污染(生物燃料/柴火)", "室外空气污染", "儿童期呼吸道感染", "α1-抗胰蛋白酶缺乏(少数)"],
+    "complications": ["慢性呼吸衰竭", "肺源性心脏病(肺心病)", "右心衰竭", "自发性气胸", "继发性红细胞增多", "骨质疏松", "肺癌风险增加"],
+    "prevention": ["戒烟(最有效)", "职业防护(粉尘/化学物质)", "减少室内空气污染", "流感/肺炎球菌疫苗接种", "避免室内外空气污染暴露"],
+    "when_to_seek_care": ["气促突然加重", "痰量增多/脓痰", "发热", "下肢水肿", "意识模糊", "嘴唇/指甲发紫"],
+    "citations": [
+      {"type": "guideline", "title": "慢性阻塞性肺疾病诊治指南(2024年修订版)", "journal": "中华结核和呼吸杂志", "year": 2024, "level": "national_guideline"},
+      {"type": "guideline", "title": "GOLD 2025 Report: Global Strategy for the Diagnosis, Management, and Prevention of COPD", "journal": "", "year": 2025, "level": "international_guideline"}
+    ],
+    "keywords": ["慢阻肺", "COPD", "慢性支气管炎", "肺气肿", "肺功能", "FEV1", "气促", "呼吸困难", "吸烟", "戒烟", "吸入剂", "支气管扩张剂", "急性加重", "AECOPD", "桶状胸", "氧疗", "肺炎疫苗"]
+  }
+]

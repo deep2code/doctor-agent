@@ -79,6 +79,12 @@ func New(cfg *config.Config) (*Agent, error) {
 	registry.Register(tools.NewFhsSearch(store))
 	registry.Register(tools.NewAapSearch(store))
 	registry.Register(tools.NewLabInterpreter())
+	registry.Register(tools.NewICD10Lookup(store))
+	registry.Register(tools.NewNMPADrugLookup(store))
+	registry.Register(tools.NewMedicalKGLookup(store))
+	registry.Register(tools.NewDiseaseEncyclopediaLookup(store))
+	registry.Register(tools.NewCPubMedKGLookup(store))
+	registry.Register(tools.NewHuatuoQALookupTool(store))
 
 	postVerifier := safety.NewPostVerifier(store.GetReferenceIndex())
 	if cfg.JudgeEnabled {

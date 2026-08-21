@@ -1,0 +1,305 @@
+您的密钥是
+7b5219508aba2ba332df06b5742b33b87f148be69c68d7d894c66c027d623496
+协议须知
+调用API时，请遵循以下规则。
+
+规则	描述
+传输方式	HTTP
+请求方式	GET/POST
+字符编码	统一使用UTF-8-编码
+请求格式	表单
+响应格式	JSON
+接口使用示例
+http://cpubmed.openi.org.cn/graph/schema?entity=库欣病&sign=7b5219508aba2ba332df06b5742b33b87f148be69c68d7d894c66c027d623496
+获取实体相关三元组API
+应用地址：
+http://cpubmed.openi.org.cn/graph/schema
+接口调用参数
+调用API需要向接口发送以下字段来访问服务。
+
+字段名	类型	含义	必填	备注
+entity	text	实体名称	True	支持模糊匹配最接近实体
+sign	text	密钥	True	每个账号一个独有的密钥
+返回结果
+字段名	类型	含义	备注
+entity_schema	dict	与查询实体相关联的三元组	{实体名称:[关系1:{[尾实体,三元组ID],...},关系2...]}
+示例
+    接口调用
+      
+      http://cpubmed.openi.org.cn/graph/schema?
+      entity=糖尿病
+      &sign=7b5219508aba2ba332df06b5742b33b87f148be69c68d7d894c66c027d623496      
+    返回结果
+    { 
+        "糖尿病": { 
+        "辅助检查": [[ "生化检验", "2420" ],[ "眼底荧光造影检查", "84106" ],...],
+        "病因": [[ "饮食不规律", "44484" ],[ "胰岛功能减退", "81235" ],...],
+        "药物治疗": [[ "依帕司他", "696" ], [ "甲钴胺", "697" ],...],
+        "并发症": [ [ "尿毒症", "1086" ], [ "冠心病", "1352" ],...],
+        ...
+        }
+    }
+获取三元组信息API
+应用地址：
+http://cpubmed.openi.org.cn/graph/triple-info
+接口调用参数
+调用API需要向接口发送以下字段来访问服务。
+
+字段名	类型	含义	必填	备注
+ID	text	三元组ID	True	一般为几个数字
+sign	text	密钥	True	每个账号一个独有的密钥
+返回结果
+字段名	类型	含义	备注
+triple	Array	三元组内容	[三元组id,头实体,关系,尾实体]
+text	text	来源文本	三元组抽取的来源文本
+doc_num	integer	文献数量	得到这个知识的文献数量
+doc_title	Array	来源文献标题	所有来源文献的标题
+示例
+    接口调用
+      http://cpubmed.openi.org.cn/graph/triple-info?
+      ID=14529
+      &sign=7b5219508aba2ba332df06b5742b33b87f148be69c68d7d894c66c027d623496      
+      
+    返回结果
+    {
+        "triple_id": "14529",
+        "doc_id": "46790947,22917575,...",
+        "text": "糖尿病大鼠血管平滑肌细胞内质网应激因子GRP78和caspase12的表达及阿托伐他汀的干预作用",
+        "doc_num": 198,
+        "doctitle": ["糖尿病大鼠血管平滑肌细...", "阿托伐他汀对2型糖尿病鼠...", ...]
+    }   
+医学分词API
+应用地址：
+http://cpubmed.openi.org.cn/graph/cut
+接口调用参数
+调用API需要向接口发送以下字段来访问服务。
+
+字段名	类型	含义	必填	备注
+query	text	待分词的句子	True	中文
+sign	text	密钥	True	每个账号一个独有的密钥
+返回结果
+字段名	类型	含义	备注
+cut_result	array	分词结果	[[词，词类别]，[词，词类别]，...]
+示例
+    接口调用
+      
+      http://cpubmed.openi.org.cn/graph/cut?
+      query=肝癌的发生是多因素作用的结果,其中乙型、丙型肝炎病毒和黄曲霉毒素B1是发生肝癌的主要危险因素.
+      &sign=7b5219508aba2ba332df06b5742b33b87f148be69c68d7d894c66c027d623496      
+    返回结果
+    [
+        ["肝癌", "疾病"],
+        ["的", "停用词"],
+        ["发生", "停用词"],
+        ["是", "停用词"],
+        ...
+    ]
+三元组匹配API
+应用地址：
+http://cpubmed.openi.org.cn/graph/match
+接口调用参数
+调用API需要向接口发送以下字段来访问服务。
+
+字段名	类型	含义	必填	备注
+query	text	输入句子	True	用于匹配三元组的文本
+sign	text	密钥	True	每个账号一个独有的密钥
+返回结果
+字段名	类型	含义	备注
+match_result	array	匹配结果	[[三元组id，头实体，关系，尾实体]，[三元组id，头实体，关系，尾实体]，...]
+示例
+    接口调用
+      
+      http://cpubmed.openi.org.cn/graph/match?
+      query=肝癌的发生是多因素作用的结果,其中乙型、丙型肝炎病毒和黄曲霉毒素B1是发生肝癌的主要危险因素.
+      &sign=7b5219508aba2ba332df06b5742b33b87f148be69c68d7d894c66c027d623496      
+    返回结果
+    [
+        ["8024214", "肝癌", "高危因素", "抑郁程度高"],
+        ["62505", "肝癌", "高危因素", "年龄"], 
+        ["8928743", "肝癌", "高危因素", "合并高血压"],
+        ["12505", "肝癌", "高危因素", "糖尿病"],
+        ...
+    ]
+医学文献检索API
+应用地址：
+http://cpubmed.openi.org.cn/graph/retrieve
+接口调用参数
+调用API需要向接口发送以下字段来访问服务。
+
+字段名	类型	含义	必填	备注
+query	text	查询文本	True	用于文献检索的句子
+sign	text	密钥	True	每个账号一个独有的密钥
+返回结果
+字段名	类型	含义	备注
+docid	text	文献编号	文献的唯一标识符
+title	text	文献标题	
+keywords	array	关键词	[关键词1，关键词2,...]
+abstract	text	摘要	文献摘要
+示例
+    接口调用
+      http://cpubmed.openi.org.cn/graph/retrieve?
+      query=肝癌
+      &sign=7b5219508aba2ba332df06b5742b33b87f148be69c68d7d894c66c027d623496      
+      
+    返回结果
+    [
+        {
+            "f_ID": "13262879",
+            "f_Title": "晚期肝癌介入置管埋泵化疗的常见并发症及护理对策",
+            "f_keyword": "肝癌%介入%置管%化疗泵%护理",
+            "f_Abstract": "回顾性分析30例晚期肝癌患者施,娴熟的注射...",
+        },
+        {
+            ,,,
+        },
+        ...
+    ]
+查找实体间三元组路径API
+应用地址：
+http://cpubmed.openi.org.cn/graph/path
+接口调用参数
+调用API需要向接口发送以下字段来访问服务。
+
+字段名	类型	含义	必填	备注
+source-entity	text	源实体	True	查找路径的开始实体
+target-entity	text	目标实体	True	查找路径的结束实体
+sign	text	密钥	True	每个账号一个独有的密钥
+返回结果
+字段名	类型	含义	备注
+path-result	array	路径队列	[路径1，路径2，路径3,...]
+示例
+    接口调用
+      http://cpubmed.openi.org.cn/graph/path?
+      source-entity=心脏病&target-entity=糖尿病
+      &sign=7b5219508aba2ba332df06b5742b33b87f148be69c68d7d894c66c027d623496      
+      
+    返回结果
+    [
+        [
+            ["心脏病",相关（导致）,心律失常],[心律失常,高危因素,"糖尿病"]
+        ],
+        [
+            ["心脏病",病理分型,主动脉夹层],[主动脉夹层,病因,"糖尿病"]
+        ],
+        [
+            ["心脏病",病因,感染],[感染,高危因素,"糖尿病"]
+        ],
+        ...
+    ]
+实体相似度计算API
+应用地址：
+http://cpubmed.openi.org.cn/graph/similarity
+接口调用参数
+调用API需要向接口发送以下字段来访问服务。
+
+字段名	类型	含义	必填	备注
+ent1	text	实体词	True	用于计算相似度的实体词
+ent2	text	实体词	True	用于计算相似度的实体词
+sign	text	密钥	True	每个账号一个独有的密钥
+返回结果
+字段名	类型	含义	备注
+score	float	相似度距离	距离越小，相似度越大，距离最小为0。
+示例
+    接口调用
+      
+      http://cpubmed.openi.org.cn/graph/similarity?
+      &ent1=心脏病&ent2=糖尿病
+      &sign=7b5219508aba2ba332df06b5742b33b87f148be69c68d7d894c66c027d623496      
+    返回结果
+        45.75966703459426
+获取疾病相关辅助检查项 API
+应用地址：
+http://120.24.161.253:8586/graph/auxiliary-tests
+接口调用方法
+使用 POST 方法进行调用。
+
+接口调用参数
+字段名	类型	含义	必填	备注
+diseases	JSON Array of Strings	疾病名称列表	True	必须为 JSON 数组格式，例如：["糖尿病", "高血压"]
+sign	text	密钥	True	每个账号一个独有的密钥
+返回结果
+字段名	类型	含义	备注
+[疾病名]	List of Strings	对应疾病的相关辅助检查项	键为标准化后的疾病名，值为其关联的检查项列表
+示例请求（推荐方式）
+POST http://120.24.161.253:8586/graph/auxiliary-tests
+Content-Type: application/json
+
+{
+  "diseases": ["糖尿病", "高血压"],
+  "sign": "your_signature_here"
+}
+示例响应
+{
+    "糖尿病": ["眼底检查", "神经传导速度"],
+    "高血压": ["心脏超声", "肾功能检测"]
+}
+获取实体具体关系详细信息API
+应用地址：
+http://cpubmed.openi.org.cn/graph/triple-sp
+接口调用参数
+调用API需要向接口发送以下字段来访问服务。
+
+字段名	类型	含义	必填	备注
+header	text	头实体名称	True	支持模糊匹配最接近实体
+relation	text	关系类型	True	实体间的特定关系
+sign	text	密钥	True	每个账号一个独有的密钥
+返回结果
+字段名	类型	含义	备注
+header	text	头实体名称	查询的实体名称
+relation	text	关系类型	查询的关系类型
+triples	Array	三元组详细信息	包含尾实体和来源信息的数组
+end_entity	text	尾实体名称	三元组中的尾实体
+triple_id	text	三元组ID	唯一标识符
+source	Object	来源信息	包含文献详细信息的对象
+返回示例
+{
+                        "header": "库欣病",
+                        "relation": "病理分型",
+                        "triples": [
+                          {
+                            "end_entity": "微腺瘤",
+                            "source": {
+                              "triple_id": "3602323",
+                              "doc_id": "2735201",
+                              "text": "方法回顾性分析本院1985年～1996年76例库欣病患者,其中包括大腺瘤患者12例和微腺瘤患者64例."
+                            }
+                          },
+                          {
+                            "end_entity": "大腺瘤",
+                            "source": {
+                              "triple_id": "3602324",
+                              "doc_id": "2735201",
+                              "text": "方法回顾性分析本院1985年～1996年76例库欣病患者,其中包括大腺瘤患者12例和微腺瘤患者64例."
+                            }
+                          },
+                          {
+                            "end_entity": "未缓解组",
+                            "source": {
+                              "triple_id": "10649957",
+                              "doc_id": "41631167",
+                              "text": "根据术后血皮质醇水平将208例库欣病患者分为内分泌早期缓解组(简称早期缓解组,143例)和未缓解组(65例)."
+                            }
+                          }
+                        ]
+                      }
+获取相近的实体词API
+应用地址：
+http://cpubmed.openi.org.cn/graph/similar-entity
+接口调用参数
+调用API需要向接口发送以下字段来访问服务。
+
+字段名	类型	含义	必填	备注
+entity	text	实体词	True	获取与该实体接近的实体词列表
+sign	text	密钥	True	每个账号一个独有的密钥
+返回结果
+字段名	类型	含义	备注
+entities	array	实体列表	[实体1，实体2，...]
+示例
+    接口调用
+      
+      http://cpubmed.openi.org.cn/graph/similar-entity?
+      entity=心脏病
+      &sign=7b5219508aba2ba332df06b5742b33b87f148be69c68d7d894c66c027d623496      
+    返回结果
+        [ "心脏病", "无心脏病", "心脏疾病", "肺心脏病", "心脏病变" ]
+                

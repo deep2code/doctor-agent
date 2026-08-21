@@ -50,6 +50,10 @@ func (c *Composer) ComposeSystemPrompt(retrieved []knowledge.RetrievalResult, pa
 	sb.WriteString(LayerFormatting)
 	sb.WriteString("\n\n")
 
+	// Layer 3.8: Dual output (通俗版/医生版)
+	sb.WriteString(LayerDualOutput)
+	sb.WriteString("\n\n")
+
 	// Patient context injection (if available)
 	if patientCtx != "" {
 		sb.WriteString("## PATIENT CONTEXT\n\n")

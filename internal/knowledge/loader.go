@@ -106,6 +106,15 @@ type Store struct {
 	// Huatuo26M-Lite QA pairs (华佗26M医疗问答).
 	HuatuoQAPairs      *HuatuoQAPairs
 
+	// Medical QA pairs (中文医疗对话数据集).
+	MedicalQAData      *MedicalQAData
+
+	// TTD data (Therapeutic Target Database).
+	TTDData            *TTDData
+
+	// SIDER drug side effects and indications.
+	SIDERData          *SIDERDataSet
+
 	loaded bool
 }
 
@@ -541,6 +550,27 @@ func doLoad() (*Store, error) {
 			}
 			store.HuatuoQAPairs = &hp
 
+		case "medical_qa_pairs.json":
+			var mq MedicalQAData
+			if err := json.Unmarshal(data, &mq); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			store.MedicalQAData = &mq
+
+		case "ttd_data.json":
+			var ttd TTDData
+			if err := json.Unmarshal(data, &ttd); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			store.TTDData = &ttd
+
+		case "sider_drugs.json":
+			var sider SIDERDataSet
+			if err := json.Unmarshal(data, &sider); err != nil {
+				return fmt.Errorf("parsing %s: %w", path, err)
+			}
+			store.SIDERData = &sider
+
 		default:
 			// Unknown/extra data files are intentionally ignored here; add a
 			// case above when wiring a new knowledge file.
@@ -647,13 +677,6 @@ func (s *Store) LabEntriesAsKnowledge() []KnowledgeEntry {
 	return out
 }
 
-// IsLoaded returns whether the knowledge store has been loaded.
-func (s *Store) IsLoaded() bool {
-	s.mu.RLock()
-	defer s.mu.RUnlock()
-	return s.loaded
-}
-
 // GetLiteratureTopics returns the literature topic table.
 func (s *Store) GetLiteratureTopics() []LiteratureTopic {
 	s.mu.RLock()
@@ -694,15 +717,6 @@ func (s *Store) GetMSDCount() int {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	return len(s.MSDEntries)
-}
-
-// GetClinVarVariants returns the ClinVar subset (copy).
-func (s *Store) GetClinVarVariants() []ClinVarVariant {
-	s.mu.RLock()
-	defer s.mu.RUnlock()
-	out := make([]ClinVarVariant, len(s.ClinVarVariants))
-	copy(out, s.ClinVarVariants)
-	return out
 }
 
 // GetClinVarCount returns the number of embedded ClinVar variants.
@@ -757,13 +771,6 @@ func (s *Store) GetNHCGuides() []NHCGuide {
 	return out
 }
 
-// GetNHCGuideCount returns the number of embedded NHC guidelines.
-func (s *Store) GetNHCGuideCount() int {
-	s.mu.RLock()
-	defer s.mu.RUnlock()
-	return len(s.NHCGuides)
-}
-
 // GetFHSGuides returns the FHS parenting corpus (copy).
 func (s *Store) GetFHSGuides() []FHSGuide {
 	s.mu.RLock()
@@ -773,13 +780,6 @@ func (s *Store) GetFHSGuides() []FHSGuide {
 	return out
 }
 
-// GetFHSGuideCount returns the number of embedded FHS pages.
-func (s *Store) GetFHSGuideCount() int {
-	s.mu.RLock()
-	defer s.mu.RUnlock()
-	return len(s.FHSGuides)
-}
-
 // GetAAPEntries returns the AAP corpus (copy).
 func (s *Store) GetAAPEntries() []AAPEntry {
 	s.mu.RLock()
@@ -787,13 +787,6 @@ func (s *Store) GetAAPEntries() []AAPEntry {
 	out := make([]AAPEntry, len(s.AAPEntries))
 	copy(out, s.AAPEntries)
 	return out
-}
-
-// GetAAPCount returns the number of embedded AAP articles.
-func (s *Store) GetAAPCount() int {
-	s.mu.RLock()
-	defer s.mu.RUnlock()
-	return len(s.AAPEntries)
 }
 
 // GetReferenceIndex returns the reference index for post-verification.
@@ -833,13 +826,6 @@ func (s *Store) SearchICD10Diseases(query string, limit int) []ICD10Disease {
 	return matches
 }
 
-// GetICD10Count returns the number of ICD-10 diseases.
-func (s *Store) GetICD10Count() int {
-	s.mu.RLock()
-	defer s.mu.RUnlock()
-	return len(s.ICD10Diseases)
-}
-
 // GetNMPADrugByName retrieves an NMPA drug by name.
 func (s *Store) GetNMPADrugByName(name string) *NMPADrug {
 	s.mu.RLock()
@@ -866,13 +852,6 @@ func (s *Store) SearchNMPADrugs(query string, limit int) []NMPADrug {
 	return matches
 }
 
-// GetNMPADrugCount returns the number of NMPA drugs.
-func (s *Store) GetNMPADrugCount() int {
-	s.mu.RLock()
-	defer s.mu.RUnlock()
-	return len(s.NMPADrugs)
-}
-
 // SearchMedicalKG searches medical knowledge graph triples by entity.
 func (s *Store) SearchMedicalKG(entity string, relation string, limit int) []MedicalKGTriple {
 	s.mu.RLock()
@@ -889,29 +868,6 @@ func (s *Store) SearchMedicalKG(entity string, relation string, limit int) []Med
 		}
 	}
 	return matches
-}
-
-// GetMedicalKGCount returns the number of medical KG triples.
-func (s *Store) GetMedicalKGCount() int {
-	s.mu.RLock()
-	defer s.mu.RUnlock()
-	return len(s.MedicalKGTriples)
-}
-
-// GetMedicalDialogues returns the medical dialogue seeds (copy).
-func (s *Store) GetMedicalDialogues() []MedicalDialogue {
-	s.mu.RLock()
-	defer s.mu.RUnlock()
-	out := make([]MedicalDialogue, len(s.MedicalDialogues))
-	copy(out, s.MedicalDialogues)
-	return out
-}
-
-// GetMedicalDialogueCount returns the number of medical dialogues.
-func (s *Store) GetMedicalDialogueCount() int {
-	s.mu.RLock()
-	defer s.mu.RUnlock()
-	return len(s.MedicalDialogues)
 }
 
 // GetDiseaseEncyclopediaByName retrieves a disease encyclopedia entry by name.
@@ -940,13 +896,6 @@ func (s *Store) SearchDiseaseEncyclopedias(query string, limit int) []DiseaseEnc
 	return matches
 }
 
-// GetDiseaseEncyclopediaCount returns the number of disease encyclopedias.
-func (s *Store) GetDiseaseEncyclopediaCount() int {
-	s.mu.RLock()
-	defer s.mu.RUnlock()
-	return len(s.DiseaseEncyclopedias)
-}
-
 // GetCPubMedTriplesByHead retrieves CPubMed triples by head entity.
 func (s *Store) GetCPubMedTriplesByHead(head string) []*CPubMedTriple {
 	s.mu.RLock()
@@ -970,23 +919,47 @@ func (s *Store) SearchCPubMedTriples(query string, limit int) []*CPubMedTriple {
 	return matches
 }
 
-// GetCPubMedTriplesByRelation retrieves CPubMed triples by relation type.
-func (s *Store) GetCPubMedTriplesByRelation(relation string) []*CPubMedTriple {
-	s.mu.RLock()
-	defer s.mu.RUnlock()
-	return s.CPubMedByRelation[relation]
-}
-
-// GetCPubMedTripleCount returns the number of CPubMed triples.
-func (s *Store) GetCPubMedTripleCount() int {
-	s.mu.RLock()
-	defer s.mu.RUnlock()
-	return len(s.CPubMedTriples)
-}
-
 // GetHuatuoQA returns the Huatuo26M-Lite QA pairs.
 func (s *Store) GetHuatuoQA() *HuatuoQAPairs {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	return s.HuatuoQAPairs
+}
+
+// GetMedicalQA returns the Medical QA data.
+func (s *Store) GetMedicalQA() *MedicalQAData {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return s.MedicalQAData
+}
+
+// GetTTDData returns the TTD data.
+func (s *Store) GetTTDData() *TTDData {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return s.TTDData
+}
+
+// GetSIDERData returns the SIDER drug side effects data.
+func (s *Store) GetSIDERData() *SIDERDataSet {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return s.SIDERData
+}
+
+// SearchSIDERDrugs searches SIDER drugs by ID.
+func (s *Store) SearchSIDERDrugs(query string, limit int) []SIDERDrug {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	var matches []SIDERDrug
+	query = strings.ToLower(query)
+	for _, drug := range s.SIDERData.Drugs {
+		if strings.Contains(strings.ToLower(drug.ID), query) {
+			matches = append(matches, drug)
+			if len(matches) >= limit {
+				break
+			}
+		}
+	}
+	return matches
 }

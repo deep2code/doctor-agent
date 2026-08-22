@@ -85,6 +85,13 @@ func New(cfg *config.Config) (*Agent, error) {
 	registry.Register(tools.NewDiseaseEncyclopediaLookup(store))
 	registry.Register(tools.NewCPubMedKGLookup(store))
 	registry.Register(tools.NewHuatuoQALookupTool(store))
+	registry.Register(tools.NewMedicalQALookupTool(store))
+	registry.Register(tools.NewTTDLookupTool(store))
+	registry.Register(tools.NewDrugInteractionCheckTool(store))
+	registry.Register(tools.NewDiseaseSymptomLookupTool(store))
+	registry.Register(tools.NewTargetDiseaseLookupTool(store))
+	registry.Register(tools.NewDiseaseDrugLookupTool(store))
+	registry.Register(tools.NewSIDERLookupTool(store))
 
 	postVerifier := safety.NewPostVerifier(store.GetReferenceIndex())
 	if cfg.JudgeEnabled {

@@ -56,40 +56,6 @@ func (cf *CitationFormatter) FormatReference(c *Citation, index int) string {
 	return sb.String()
 }
 
-// FormatAllReferences formats a slice of citations into numbered references.
-func (cf *CitationFormatter) FormatAllReferences(citations []Citation) string {
-	if len(citations) == 0 {
-		return ""
-	}
-
-	var sb strings.Builder
-	sb.WriteString("### 参考文献\n\n")
-	for i, c := range citations {
-		sb.WriteString(cf.FormatReference(&c, i+1))
-		sb.WriteString("\n")
-	}
-	return sb.String()
-}
-
-// FormatCitationSummary creates a compact inline citation summary.
-// Example: "[国家指南(2025)] DOI: 10.xxx" for a single citation.
-func (cf *CitationFormatter) FormatCitationSummary(c *Citation) string {
-	var sb strings.Builder
-	sb.WriteString(cf.typeLabel(c.Type))
-
-	if c.Year > 0 {
-		fmt.Fprintf(&sb, " (%d)", c.Year)
-	}
-
-	if c.DOI != "" {
-		fmt.Fprintf(&sb, " — DOI: %s", c.DOI)
-	} else if c.PMID != "" {
-		fmt.Fprintf(&sb, " — PMID: %s", c.PMID)
-	}
-
-	return sb.String()
-}
-
 // BuildCitationMap creates a knowledge-entry-ID -> formatted citation mapping
 // for inclusion in the system prompt. Citations are numbered flatly [1]..[N]
 // so the model can reference them directly.

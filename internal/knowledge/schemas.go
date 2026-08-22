@@ -351,3 +351,18 @@ type CPubMedKGSet struct {
 	DiseaseCount int            `json:"disease_count"`
 	Diseases    []string        `json:"diseases"`
 }
+
+// SIDERDrug represents a drug entry from SIDER with side effects and indications.
+type SIDERDrug struct {
+	ID           string   `json:"id"`
+	SideEffects  []string `json:"side_effects"`
+	Indications  []string `json:"indications"`
+}
+
+// SIDERDataSet wraps SIDER drug data.
+type SIDERDataSet struct {
+	Source      string      `json:"source"`
+	Description string      `json:"description"`
+	DrugCount   int         `json:"drug_count"`
+	Drugs       []SIDERDrug `json:"drugs"`
+}

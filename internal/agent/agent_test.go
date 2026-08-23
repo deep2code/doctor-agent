@@ -188,7 +188,7 @@ func TestSessionPersistenceDuringProcessing(t *testing.T) {
 	if err != nil {
 		t.Fatalf("NewFileStore: %v", err)
 	}
-	ag.fileStore = fs
+	ag.sessionStore = fs
 
 	sess := session.New("persist-1")
 	if _, err := ag.ProcessMessageStream(context.Background(), sess, "问题", nil, nil); err != nil {
@@ -221,7 +221,7 @@ func TestGetOrCreateSessionRestoresFromDisk(t *testing.T) {
 	}
 
 	ag := newTestAgent(cfg, &fakeProvider{})
-	ag.fileStore = fs
+	ag.sessionStore = fs
 
 	sess := ag.GetOrCreateSession("restored-1")
 	if len(sess.GetMessages()) != 2 {

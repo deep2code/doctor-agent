@@ -51,34 +51,70 @@ func openAIStreamingChat(
 	systemPrompt string,
 	onDelta func(string),
 ) (*ChatResponse, error) {
-	openAIMsgs := make([]openAIMessage, 0, len(messages)+1)
+	openAIMsgs := make([]any, 0, len(messages)+1)
 	if systemPrompt != "" {
 		openAIMsgs = append(openAIMsgs, openAIMessage{Role: "system", Content: systemPrompt})
 	}
 	for _, msg := range messages {
-		m := openAIMessage{Role: msg.Role, Content: msg.Content}
-		// Assistant tool-call messages must carry tool_calls (OpenAI-compatible
-		// endpoints reject assistant messages with neither content nor
-		// tool_calls; empty content is omitted by the omitempty tag).
-		if msg.Role == "assistant" && len(msg.ToolCalls) > 0 {
-			tcs := make([]openAIToolCall, 0, len(msg.ToolCalls))
-			for _, tc := range msg.ToolCalls {
-				args, err := json.Marshal(tc.Arguments)
-				if err != nil {
-					args = []byte("{}")
-				}
-				tcs = append(tcs, openAIToolCall{
-					ID:   tc.ID,
-					Type: "function",
-					Function: openAIFunctionCall{
-						Name:      tc.Name,
-						Arguments: string(args),
-					},
-				})
+		// Handle multimodal content
+		if msg.HasImages() {
+			var parts []openAIContentPart
+			// Add text content if present
+			if msg.Content != "" {
+				parts = append(parts, openAIContentPart{Type: "text", Text: msg.Content})
 			}
-			m.ToolCalls = tcs
+			// Add image parts
+			for _, part := range msg.Parts {
+				if part.Type == "image" && part.Image != nil {
+					var imgURL string
+					if part.Image.Base64Data != "" {
+						imgURL = fmt.Sprintf("data:%s;base64,%s", part.Image.MediaType, part.Image.Base64Data)
+					} else if part.Image.URL != "" {
+						imgURL = part.Image.URL
+					}
+					if imgURL != "" {
+						parts = append(parts, openAIContentPart{
+							Type:     "image_url",
+							ImageURL: &openAIImageURL{URL: imgURL},
+						})
+					}
+				}
+			}
+			// Add any text parts from msg.Parts
+			for _, part := range msg.Parts {
+				if part.Type == "text" && part.Text != "" {
+					parts = append(parts, openAIContentPart{Type: "text", Text: part.Text})
+				}
+			}
+			openAIMsgs = append(openAIMsgs, openAIMessageWithParts{
+				Role:    msg.Role,
+				Content: parts,
+			})
+		} else {
+			m := openAIMessage{Role: msg.Role, Content: msg.Content}
+			// Assistant tool-call messages must carry tool_calls (OpenAI-compatible
+			// endpoints reject assistant messages with neither content nor
+			// tool_calls; empty content is omitted by the omitempty tag).
+			if msg.Role == "assistant" && len(msg.ToolCalls) > 0 {
+				tcs := make([]openAIToolCall, 0, len(msg.ToolCalls))
+				for _, tc := range msg.ToolCalls {
+					args, err := json.Marshal(tc.Arguments)
+					if err != nil {
+						args = []byte("{}")
+					}
+					tcs = append(tcs, openAIToolCall{
+						ID:   tc.ID,
+						Type: "function",
+						Function: openAIFunctionCall{
+							Name:      tc.Name,
+							Arguments: string(args),
+						},
+					})
+				}
+				m.ToolCalls = tcs
+			}
+			openAIMsgs = append(openAIMsgs, m)
 		}
-		openAIMsgs = append(openAIMsgs, m)
 	}
 
 	openAITools := make([]openAITool, 0, len(tools))

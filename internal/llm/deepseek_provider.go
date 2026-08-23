@@ -39,12 +39,29 @@ func (p *DeepSeekProvider) Name() string {
 // --- OpenAI-compatible request/response types ---
 
 type openAIChatRequest struct {
-	Model       string          `json:"model"`
-	Messages    []openAIMessage `json:"messages"`
-	Tools       []openAITool    `json:"tools,omitempty"`
-	Temperature float64         `json:"temperature"`
-	MaxTokens   int             `json:"max_tokens"`
-	Stream      bool            `json:"stream,omitempty"`
+	Model       string `json:"model"`
+	Messages    any    `json:"messages"` // Can be []openAIMessage or []any for multimodal
+	Tools       []openAITool `json:"tools,omitempty"`
+	Temperature float64 `json:"temperature"`
+	MaxTokens   int     `json:"max_tokens"`
+	Stream      bool    `json:"stream,omitempty"`
+}
+
+// openAIMessageContent handles both string and multimodal content.
+type openAIMessageContent struct {
+	Content      string
+	Parts        []openAIContentPart
+	IsMultimodal bool
+}
+
+type openAIContentPart struct {
+	Type     string            `json:"type"`
+	Text     string            `json:"text,omitempty"`
+	ImageURL *openAIImageURL   `json:"image_url,omitempty"`
+}
+
+type openAIImageURL struct {
+	URL string `json:"url"`
 }
 
 type openAIMessage struct {
@@ -52,6 +69,14 @@ type openAIMessage struct {
 	Content    string           `json:"content,omitempty"`
 	ToolCalls  []openAIToolCall `json:"tool_calls,omitempty"`
 	ToolCallID string           `json:"tool_call_id,omitempty"`
+}
+
+// openAIMessageWithParts is used for multimodal content.
+type openAIMessageWithParts struct {
+	Role       string              `json:"role"`
+	Content    []openAIContentPart `json:"content"`
+	ToolCalls  []openAIToolCall    `json:"tool_calls,omitempty"`
+	ToolCallID string              `json:"tool_call_id,omitempty"`
 }
 
 type openAITool struct {

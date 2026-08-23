@@ -1,0 +1,245 @@
+package knowledge
+
+import (
+	"context"
+	"fmt"
+	"log/slog"
+	"time"
+
+	"github.com/qdrant/go-client/qdrant"
+)
+
+// VectorStore manages vector storage and retrieval using Qdrant.
+type VectorStore struct {
+	client     *qdrant.Client
+	collection string
+	dimensions int
+}
+
+// VectorStoreConfig holds Qdrant configuration.
+type VectorStoreConfig struct {
+	Host       string
+	Port       int
+	Collection string
+	Dimensions int
+}
+
+// NewVectorStore creates a new Qdrant vector store.
+func NewVectorStore(cfg VectorStoreConfig) (*VectorStore, error) {
+	if cfg.Collection == "" {
+		cfg.Collection = "medical_knowledge"
+	}
+	if cfg.Dimensions == 0 {
+		cfg.Dimensions = 1024
+	}
+
+	client, err := qdrant.NewClient(&qdrant.Config{
+		Host: cfg.Host,
+		Port: cfg.Port,
+	})
+	if err != nil {
+		return nil, fmt.Errorf("creating qdrant client: %w", err)
+	}
+
+	store := &VectorStore{
+		client:     client,
+		collection: cfg.Collection,
+		dimensions: cfg.Dimensions,
+	}
+
+	// Ensure collection exists
+	if err := store.ensureCollection(); err != nil {
+		client.Close()
+		return nil, fmt.Errorf("ensuring collection: %w", err)
+	}
+
+	slog.Info("Vector store initialized", "host", cfg.Host, "port", cfg.Port, "collection", cfg.Collection)
+	return store, nil
+}
+
+// ensureCollection creates the collection if it doesn't exist.
+func (s *VectorStore) ensureCollection() error {
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
+
+	// Check if collection exists
+	exists, err := s.client.CollectionExists(ctx, s.collection)
+	if err != nil {
+		return fmt.Errorf("checking collection: %w", err)
+	}
+
+	if exists {
+		return nil
+	}
+
+	// Create collection
+	err = s.client.CreateCollection(ctx, &qdrant.CreateCollection{
+		CollectionName: s.collection,
+		VectorsConfig: qdrant.NewVectorsConfig(&qdrant.VectorParams{
+			Size:     uint64(s.dimensions),
+			Distance: qdrant.Distance_Cosine,
+		}),
+	})
+	if err != nil {
+		return fmt.Errorf("creating collection: %w", err)
+	}
+
+	slog.Info("Created Qdrant collection", "collection", s.collection, "dimensions", s.dimensions)
+	return nil
+}
+
+// VectorPoint represents a point in vector space.
+type VectorPoint struct {
+	ID      string            `json:"id"`
+	Vector  []float32         `json:"vector"`
+	Payload map[string]string `json:"payload"`
+}
+
+// Upsert adds or updates vectors in the store.
+func (s *VectorStore) Upsert(ctx context.Context, points []VectorPoint) error {
+	if len(points) == 0 {
+		return nil
+	}
+
+	qdrantPoints := make([]*qdrant.PointStruct, len(points))
+	for i, p := range points {
+		payload := make(map[string]*qdrant.Value)
+		for k, v := range p.Payload {
+			payload[k] = qdrant.NewValueString(v)
+		}
+
+		qdrantPoints[i] = &qdrant.PointStruct{
+			Id:      qdrant.NewIDUUID(p.ID),
+			Vectors: qdrant.NewVectors(p.Vector...),
+			Payload: payload,
+		}
+	}
+
+	_, err := s.client.Upsert(ctx, &qdrant.UpsertPoints{
+		CollectionName: s.collection,
+		Points:         qdrantPoints,
+	})
+	if err != nil {
+		return fmt.Errorf("upserting points: %w", err)
+	}
+
+	return nil
+}
+
+// SearchQuery represents a search query.
+type SearchQuery struct {
+	Vector    []float32
+	TopK      int
+	Filter    map[string]string
+	Threshold float64 // Minimum similarity score (0-1)
+}
+
+// SearchResult represents a search result.
+type SearchResult struct {
+	ID      string            `json:"id"`
+	Score   float64           `json:"score"`
+	Payload map[string]string `json:"payload"`
+}
+
+// Search performs vector similarity search.
+func (s *VectorStore) Search(ctx context.Context, query SearchQuery) ([]SearchResult, error) {
+	if query.TopK <= 0 {
+		query.TopK = 5
+	}
+	if query.Threshold == 0 {
+		query.Threshold = 0.5
+	}
+
+	// Build filter
+	var filter *qdrant.Filter
+	if len(query.Filter) > 0 {
+		must := make([]*qdrant.Condition, 0)
+		for k, v := range query.Filter {
+			must = append(must, qdrant.NewMatchKeyword(k, v))
+		}
+		filter = &qdrant.Filter{Must: must}
+	}
+
+	// Convert threshold to float32
+	threshold := float32(query.Threshold)
+
+	req := &qdrant.QueryPoints{
+		CollectionName: s.collection,
+		Query:          qdrant.NewQuery(query.Vector...),
+		Limit:          qdrant.PtrOf(uint64(query.TopK)),
+		ScoreThreshold: &threshold,
+		Filter:         filter,
+		WithPayload:    qdrant.NewWithPayload(true),
+	}
+
+	resp, err := s.client.Query(ctx, req)
+	if err != nil {
+		return nil, fmt.Errorf("searching vectors: %w", err)
+	}
+
+	results := make([]SearchResult, len(resp))
+	for i, point := range resp {
+		payload := make(map[string]string)
+		if point.Payload != nil {
+			for k, v := range point.Payload {
+				if v.Kind != nil {
+					if strVal, ok := v.Kind.(*qdrant.Value_StringValue); ok {
+						payload[k] = strVal.StringValue
+					}
+				}
+			}
+		}
+
+		results[i] = SearchResult{
+			ID:      point.Id.GetUuid(),
+			Score:   float64(point.Score),
+			Payload: payload,
+		}
+	}
+
+	return results, nil
+}
+
+// Delete removes points by IDs.
+func (s *VectorStore) Delete(ctx context.Context, ids []string) error {
+	if len(ids) == 0 {
+		return nil
+	}
+
+	pointIDs := make([]*qdrant.PointId, len(ids))
+	for i, id := range ids {
+		pointIDs[i] = qdrant.NewIDUUID(id)
+	}
+
+	_, err := s.client.Delete(ctx, &qdrant.DeletePoints{
+		CollectionName: s.collection,
+		Points: &qdrant.PointsSelector{
+			PointsSelectorOneOf: &qdrant.PointsSelector_Points{
+				Points: &qdrant.PointsIdsList{
+					Ids: pointIDs,
+				},
+			},
+		},
+	})
+	if err != nil {
+		return fmt.Errorf("deleting points: %w", err)
+	}
+
+	return nil
+}
+
+// Count returns the number of points in the collection.
+func (s *VectorStore) Count(ctx context.Context) (int, error) {
+	count, err := s.client.Count(ctx, &qdrant.CountPoints{
+		CollectionName: s.collection,
+	})
+	if err != nil {
+		return 0, fmt.Errorf("counting points: %w", err)
+	}
+	return int(count), nil
+}
+
+// Close closes the client connection.
+func (s *VectorStore) Close() error {
+	return s.client.Close()
+}

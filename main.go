@@ -13,7 +13,9 @@ import (
 	"time"
 
 	"github.com/doctor-agent/internal/agent"
+	"github.com/doctor-agent/internal/auth"
 	"github.com/doctor-agent/internal/config"
+	"github.com/doctor-agent/internal/database"
 	"github.com/doctor-agent/internal/knowledge"
 	"github.com/doctor-agent/internal/server"
 )
@@ -233,13 +235,27 @@ func runServe(cfg *config.Config) {
 		os.Exit(1)
 	}
 
+	// Initialize database
+	db, err := database.New(database.Config{Path: cfg.DatabasePath})
+	if err != nil {
+		slog.Error("Failed to initialize database", "error", err)
+		os.Exit(1)
+	}
+	defer db.Close()
+
+	// Initialize auth service
+	authSvc := auth.NewService(db)
+
+	// Create initial admin if no users exist
+	createInitialAdmin(db, authSvc, cfg)
+
 	ag, err := agent.New(cfg)
 	if err != nil {
 		slog.Error("Failed to initialize agent", "error", err)
 		os.Exit(1)
 	}
 
-	srv := server.New(cfg, ag)
+	srv := server.New(cfg, ag, authSvc)
 
 	// Graceful shutdown
 	sigCh := make(chan os.Signal, 1)
@@ -257,6 +273,49 @@ func runServe(cfg *config.Config) {
 		slog.Error("Server error", "error", err)
 		os.Exit(1)
 	}
+}
+
+// createInitialAdmin creates an admin user if no users exist.
+func createInitialAdmin(db *database.DB, authSvc *auth.Service, cfg *config.Config) {
+	// Check if any users exist
+	user, err := db.GetUserByUsername("admin")
+	if err != nil {
+		slog.Error("Failed to check for admin user", "error", err)
+		return
+	}
+
+	if user != nil {
+		// Admin already exists
+		return
+	}
+
+	// Create initial admin user
+	adminPassword := cfg.AdminPassword
+	if adminPassword == "" {
+		adminPassword = "admin123" // Default password
+	}
+
+	input := &auth.AdminCreateUserInput{
+		Username: "admin",
+		Password: adminPassword,
+		Nickname: "管理员",
+		IsAdmin:  true,
+	}
+
+	// Create a virtual admin for the creation process
+	virtualAdmin := &database.User{
+		ID:       "system",
+		Username: "system",
+		IsAdmin:  true,
+	}
+
+	_, err = authSvc.AdminCreateUser(input, virtualAdmin)
+	if err != nil {
+		slog.Error("Failed to create initial admin user", "error", err)
+		return
+	}
+
+	slog.Info("Initial admin user created", "username", "admin")
 }
 
 func runVerifyKnowledge(checkURLs bool) {

@@ -63,6 +63,23 @@ type Config struct {
 	// directory; empty disables persistence (in-memory sessions only).
 	SessionDir string
 
+	// Database
+	DatabasePath string // SQLite database file path
+
+	// Admin
+	AdminPassword string // Initial admin password
+
+	// Vector Store
+	VectorStoreEnabled bool
+	VectorStoreHost    string
+	VectorStorePort    int
+	VectorCollection   string
+
+	// Embedding
+	EmbeddingEnabled bool
+	EmbeddingBaseURL string
+	EmbeddingAPIKey  string
+
 	// Logging
 	LogLevel string
 }
@@ -110,6 +127,19 @@ func Load() *Config {
 		RateLimit:   getEnvInt("RATE_LIMIT", 0),
 
 		SessionDir: getEnv("SESSION_DIR", ""),
+
+		DatabasePath: getEnv("DATABASE_PATH", "doctor-agent.db"),
+
+		AdminPassword: getEnv("ADMIN_PASSWORD", ""),
+
+		VectorStoreEnabled: getEnvBool("VECTOR_STORE_ENABLED", false),
+		VectorStoreHost:    getEnv("VECTOR_STORE_HOST", "localhost"),
+		VectorStorePort:    getEnvInt("VECTOR_STORE_PORT", 6333),
+		VectorCollection:   getEnv("VECTOR_COLLECTION", "medical_knowledge"),
+
+		EmbeddingEnabled: getEnvBool("EMBEDDING_ENABLED", false),
+		EmbeddingBaseURL: getEnv("EMBEDDING_BASE_URL", ""),
+		EmbeddingAPIKey:  getEnv("EMBEDDING_API_KEY", ""),
 
 		LogLevel: getEnv("LOG_LEVEL", "info"),
 	}

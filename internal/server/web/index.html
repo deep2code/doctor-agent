@@ -91,6 +91,29 @@
     padding: 12px 22px; font-size: 15px; cursor: pointer; flex-shrink: 0;
   }
   #send:disabled { background: var(--border); color: var(--muted); cursor: not-allowed; }
+  #img-btn {
+    background: none; border: 1px solid var(--border); border-radius: 12px;
+    padding: 10px 12px; cursor: pointer; flex-shrink: 0; font-size: 18px;
+    display: flex; align-items: center; justify-content: center; color: var(--muted);
+  }
+  #img-btn:hover { border-color: var(--accent); color: var(--accent); }
+  #file-input { display: none; }
+  #img-preview-bar {
+    max-width: 820px; margin: 0 auto; display: none; gap: 8px; padding: 8px 0 0;
+    flex-wrap: wrap;
+  }
+  #img-preview-bar.has-images { display: flex; }
+  .img-preview-item {
+    position: relative; width: 72px; height: 72px; border-radius: 8px;
+    border: 1px solid var(--border); overflow: hidden; flex-shrink: 0;
+  }
+  .img-preview-item img { width: 100%; height: 100%; object-fit: cover; }
+  .img-preview-item .img-rm {
+    position: absolute; top: 2px; right: 2px; background: rgba(0,0,0,.5);
+    color: #fff; border: none; border-radius: 50%; width: 20px; height: 20px;
+    font-size: 12px; cursor: pointer; display: flex; align-items: center;
+    justify-content: center; line-height: 1;
+  }
   .hint { max-width: 820px; margin: 8px auto 0; text-align: center; font-size: 12px; color: var(--muted); }
   .error-tip { color: #dc2626; font-size: 13px; text-align: center; margin-top: 6px; display: none; }
   @media (max-width: 640px) {
@@ -1753,9 +1776,12 @@ Licensed under The MIT License (http://opensource.org/licenses/MIT)
 
 <footer>
   <div id="input-area">
+    <button id="img-btn" title="上传图片（X光/CT/化验单等）">📷</button>
+    <input type="file" id="file-input" accept="image/jpeg,image/png,image/gif,image/webp" multiple />
     <textarea id="input" rows="1" placeholder="输入你的健康问题，Enter 发送，Shift+Enter 换行"></textarea>
     <button id="send">发送</button>
   </div>
+  <div id="img-preview-bar"></div>
   <div class="error-tip" id="error-tip"></div>
   <p class="hint">AI 回答仅供医学教育和信息参考，不能替代执业医师诊断；紧急情况请立即拨打 120</p>
 </footer>
@@ -1772,8 +1798,55 @@ Licensed under The MIT License (http://opensource.org/licenses/MIT)
       welcomeEl = $("welcome"), scrollArea = $("scroll-area"), errorTip = $("error-tip");
 
   var state = { convId: localStorage.getItem(CONV_KEY) || "", sending: false };
+  var pendingImages = []; // [{base64, mediaType, dataUrl}]
 
   function genId() { return "conv-" + Date.now().toString(36) + Math.random().toString(36).slice(2, 8); }
+
+  /* ---- 图片上传 ---- */
+  var imgBtn = $("img-btn"), fileInput = $("file-input"), previewBar = $("img-preview-bar");
+
+  function renderPreviews() {
+    previewBar.innerHTML = "";
+    previewBar.classList.toggle("has-images", pendingImages.length > 0);
+    pendingImages.forEach(function (img, i) {
+      var div = document.createElement("div");
+      div.className = "img-preview-item";
+      div.innerHTML = '<img src="' + img.dataUrl + '" alt="preview">' +
+        '<button class="img-rm" data-idx="' + i + '">&times;</button>';
+      previewBar.appendChild(div);
+    });
+    previewBar.querySelectorAll(".img-rm").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        pendingImages.splice(parseInt(btn.dataset.idx), 1);
+        renderPreviews();
+      });
+    });
+  }
+
+  var ALLOWED_TYPES = ["image/jpeg", "image/png", "image/gif", "image/webp"];
+  var MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB
+
+  function handleFiles(files) {
+    Array.from(files).forEach(function (file) {
+      if (pendingImages.length >= 4) return;
+      if (!ALLOWED_TYPES.includes(file.type)) { showError("仅支持 JPG/PNG/GIF/WebP 图片"); return; }
+      if (file.size > MAX_FILE_SIZE) { showError("图片大小不能超过 10MB"); return; }
+      var reader = new FileReader();
+      reader.onload = function (e) {
+        var dataUrl = e.target.result;
+        var base64 = dataUrl.split(",")[1];
+        pendingImages.push({ base64: base64, mediaType: file.type, dataUrl: dataUrl });
+        renderPreviews();
+      };
+      reader.readAsDataURL(file);
+    });
+  }
+
+  imgBtn.addEventListener("click", function () { fileInput.click(); });
+  fileInput.addEventListener("change", function () {
+    if (fileInput.files.length) handleFiles(fileInput.files);
+    fileInput.value = "";
+  });
 
   /* ---- 极简 Markdown 渲染（加粗/标题/列表/引用/换行，回答里常用的几种） ---- */
   function esc(s) {
@@ -1807,7 +1880,7 @@ Licensed under The MIT License (http://opensource.org/licenses/MIT)
     });
   }
 
-  function addMessage(role, text) {
+  function addMessage(role, text, images) {
     if (welcomeEl.style.display !== "none") welcomeEl.style.display = "none";
     var div = document.createElement("div");
     div.className = "msg " + role;
@@ -1816,7 +1889,19 @@ Licensed under The MIT License (http://opensource.org/licenses/MIT)
     avatar.textContent = role === "user" ? "我" : "🩺";
     var bubble = document.createElement("div");
     bubble.className = "bubble";
-    if (text !== "") bubble.innerHTML = renderMD(text);
+    if (images && images.length) {
+      var imgRow = document.createElement("div");
+      imgRow.style.display = "flex"; imgRow.style.gap = "6px"; imgRow.style.flexWrap = "wrap";
+      imgRow.style.marginBottom = text ? "6px" : "0";
+      images.forEach(function (img) {
+        var thumb = document.createElement("img");
+        thumb.src = "data:" + img.media_type + ";base64," + img.base64_data;
+        thumb.style.cssText = "width:80px;height:80px;object-fit:cover;border-radius:6px;border:1px solid var(--border)";
+        imgRow.appendChild(thumb);
+      });
+      bubble.appendChild(imgRow);
+    }
+    if (text !== "") bubble.innerHTML += renderMD(text);
     div.appendChild(avatar); div.appendChild(bubble);
     messagesEl.appendChild(div);
     scrollToBottom();
@@ -1961,12 +2046,24 @@ Licensed under The MIT License (http://opensource.org/licenses/MIT)
 
   async function send() {
     var text = input.value.trim();
-    if (!text || state.sending) return;
+    var hasImages = pendingImages.length > 0;
+    if ((!text && !hasImages) || state.sending) return;
     clearError();
 
     if (!state.convId) { state.convId = genId(); localStorage.setItem(CONV_KEY, state.convId); }
     input.value = ""; autoResize();
-    addMessage("user", text);
+
+    // Build images array for user bubble display & API
+    var apiImages = [];
+    if (hasImages) {
+      pendingImages.forEach(function (img) {
+        apiImages.push({ base64_data: img.base64, media_type: img.mediaType });
+      });
+      pendingImages = [];
+      renderPreviews();
+    }
+
+    addMessage("user", text, apiImages);
     var bubble = addMessage("ai", "");
     var stepsEl = document.createElement("div");
     stepsEl.className = "steps";
@@ -1996,7 +2093,7 @@ Licensed under The MIT License (http://opensource.org/licenses/MIT)
       var resp = await fetch("/chat/stream", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: text, conversation_id: state.convId })
+        body: JSON.stringify({ message: text || "请分析上传的图片", conversation_id: state.convId, images: apiImages.length ? apiImages : undefined })
       });
       if (!resp.ok) {
         if (resp.status === 401) throw new Error("服务端开启了 API Key 鉴权，请先在环境变量或配置中设置后再访问");

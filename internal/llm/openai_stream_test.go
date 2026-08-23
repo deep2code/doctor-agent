@@ -130,21 +130,50 @@ func TestOpenAIStreamingChatCarriesToolCalls(t *testing.T) {
 		t.Fatalf("openAIStreamingChat: %v", err)
 	}
 
-	if len(gotReq.Messages) != 2 {
-		t.Fatalf("messages = %d, want 2", len(gotReq.Messages))
+	// Messages is an interface{} after JSON decoding, need to handle it properly
+	msgsRaw, ok := gotReq.Messages.([]interface{})
+	if !ok {
+		t.Fatalf("messages is not []interface{}, got %T", gotReq.Messages)
 	}
-	assistant := gotReq.Messages[1]
-	if assistant.Role != "assistant" {
-		t.Fatalf("msg[1].Role = %q", assistant.Role)
+	if len(msgsRaw) != 2 {
+		t.Fatalf("messages = %d, want 2", len(msgsRaw))
 	}
-	if len(assistant.ToolCalls) != 1 {
-		t.Fatalf("assistant tool_calls = %d, want 1", len(assistant.ToolCalls))
+
+	// Parse the second message (assistant) from raw interface
+	assistantRaw, ok := msgsRaw[1].(map[string]interface{})
+	if !ok {
+		t.Fatalf("messages[1] is not map[string]interface{}")
 	}
-	tc := assistant.ToolCalls[0]
-	if tc.ID != "call_9" || tc.Function.Name != "msd_search" {
-		t.Errorf("tool call = %+v", tc)
+	role, _ := assistantRaw["role"].(string)
+	if role != "assistant" {
+		t.Fatalf("msg[1].Role = %q", role)
 	}
-	if tc.Function.Arguments != `{"query":"脚气"}` {
-		t.Errorf("arguments = %q", tc.Function.Arguments)
+
+	// Check tool_calls
+	toolCallsRaw, ok := assistantRaw["tool_calls"].([]interface{})
+	if !ok {
+		t.Fatalf("assistant tool_calls is not []interface{}")
+	}
+	if len(toolCallsRaw) != 1 {
+		t.Fatalf("assistant tool_calls = %d, want 1", len(toolCallsRaw))
+	}
+
+	tcRaw, ok := toolCallsRaw[0].(map[string]interface{})
+	if !ok {
+		t.Fatalf("tool_call is not map[string]interface{}")
+	}
+	tcID, _ := tcRaw["id"].(string)
+	funcRaw, ok := tcRaw["function"].(map[string]interface{})
+	if !ok {
+		t.Fatalf("function is not map[string]interface{}")
+	}
+	funcName, _ := funcRaw["name"].(string)
+	funcArgs, _ := funcRaw["arguments"].(string)
+
+	if tcID != "call_9" || funcName != "msd_search" {
+		t.Errorf("tool call id=%q name=%q", tcID, funcName)
+	}
+	if funcArgs != `{"query":"脚气"}` {
+		t.Errorf("arguments = %q", funcArgs)
 	}
 }

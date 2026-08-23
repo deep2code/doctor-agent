@@ -31,9 +31,9 @@ type Agent struct {
 	disclaimerService *safety.DisclaimerService
 	postVerifier      *safety.PostVerifier
 
-	sessionsMu sync.RWMutex
-	sessions   map[string]*session.Session
-	fileStore  *session.FileStore // optional on-disk snapshot store
+	sessionsMu    sync.RWMutex
+	sessions      map[string]*session.Session
+	sessionStore  session.Store // optional on-disk or database session store
 }
 
 // New creates a fully initialized Agent.
@@ -92,6 +92,9 @@ func New(cfg *config.Config) (*Agent, error) {
 	registry.Register(tools.NewTargetDiseaseLookupTool(store))
 	registry.Register(tools.NewDiseaseDrugLookupTool(store))
 	registry.Register(tools.NewSIDERLookupTool(store))
+	registry.Register(tools.NewTriageDepartmentTool(store))
+	registry.Register(tools.NewLabReportInterpretTool(store))
+	registry.Register(tools.NewMedicalImageAnalyze(provider))
 
 	postVerifier := safety.NewPostVerifier(store.GetReferenceIndex())
 	if cfg.JudgeEnabled {
@@ -103,14 +106,15 @@ func New(cfg *config.Config) (*Agent, error) {
 		postVerifier = safety.NewPostVerifierWithJudge(store.GetReferenceIndex(), judge)
 	}
 
-	// Optional on-disk session persistence.
-	var fileStore *session.FileStore
+	// Optional session persistence (file or database).
+	var sessionStore session.Store
 	if cfg.SessionDir != "" {
-		fileStore, err = session.NewFileStore(cfg.SessionDir)
+		fileStore, err := session.NewFileStore(cfg.SessionDir)
 		if err != nil {
 			return nil, fmt.Errorf("initializing session store: %w", err)
 		}
-		slog.Info("Session persistence enabled", "dir", cfg.SessionDir)
+		sessionStore = fileStore
+		slog.Info("Session persistence enabled", "type", "file", "dir", cfg.SessionDir)
 	}
 
 	return &Agent{
@@ -125,7 +129,7 @@ func New(cfg *config.Config) (*Agent, error) {
 		disclaimerService: safety.NewDisclaimerService(),
 		postVerifier:      postVerifier,
 		sessions:          make(map[string]*session.Session),
-		fileStore:         fileStore,
+		sessionStore:      sessionStore,
 	}, nil
 }
 
@@ -190,6 +194,11 @@ func createJudgeProvider(cfg *config.Config) (llm.LLMProvider, error) {
 // without streaming (equivalent to ProcessMessageStream with nil callbacks).
 func (a *Agent) ProcessMessage(ctx context.Context, sess *session.Session, userMessage string) (*Response, error) {
 	return a.ProcessMessageStream(ctx, sess, userMessage, nil, nil)
+}
+
+// ProcessMessageWithImages handles a user message with attached images.
+func (a *Agent) ProcessMessageWithImages(ctx context.Context, sess *session.Session, userMessage string, images []llm.ImageInput) (*Response, error) {
+	return a.ProcessMessageStreamWithImages(ctx, sess, userMessage, images, nil, nil)
 }
 
 // StepEvent describes one visible step of the agent's pipeline (retrieval,
@@ -375,6 +384,197 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 	return nil, fmt.Errorf("exceeded maximum tool-use iterations (%d)", maxIterations)
 }
 
+// ProcessMessageStreamWithImages handles a user message with attached images.
+func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *session.Session, userMessage string, images []llm.ImageInput, onDelta func(string), onStep func(StepEvent)) (*Response, error) {
+	step := func(ev StepEvent) {
+		if onStep != nil {
+			onStep(ev)
+		}
+	}
+
+	// L1: Emergency detection (skip for image messages - images may contain medical reports)
+	if len(images) == 0 && a.cfg.EmergencyEnabled {
+		if emerg := a.emergencyDetector.Detect(userMessage); emerg != nil {
+			slog.Warn("Emergency detected", "matched", emerg.Matched)
+			step(StepEvent{Type: "emergency", Summary: "检测到紧急情况，直接给出急救响应"})
+			return &Response{
+				Text:           safety.EmergencyResponseZH(emerg),
+				IsEmergency:    true,
+				DisclaimerSent: true,
+			}, nil
+		}
+	}
+
+	// L2: Scope guard
+	if a.cfg.ScopeGuardEnabled {
+		if scope := a.scopeGuard.Check(userMessage); !scope.InScope {
+			slog.Info("Out-of-scope query rejected", "reason", scope.Reason)
+			step(StepEvent{Type: "refuse", Summary: "该问题超出医学咨询范围，拒绝回答并引导"})
+			return &Response{
+				Text:           scope.Redirect,
+				IsOutOfScope:   true,
+				DisclaimerSent: true,
+			}, nil
+		}
+	}
+
+	// Knowledge retrieval
+	var retrieved []knowledge.RetrievalResult
+	if a.cfg.KnowledgeEnabled {
+		retrieved, _ = a.retriever.Retrieve(ctx, userMessage, a.cfg.KnowledgeTopK)
+		slog.Debug("Knowledge retrieved", "count", len(retrieved))
+		if len(retrieved) > 0 {
+			step(StepEvent{Type: "retrieve", Summary: fmt.Sprintf("检索知识库，命中 %d 条相关条目", len(retrieved))})
+		} else {
+			step(StepEvent{Type: "retrieve", Summary: "知识库未检索到相关条目，将如实告知并引导"})
+		}
+	}
+
+	// Build system prompt
+	patientCtx := a.buildPatientContextString(sess)
+	systemPrompt := a.composer.ComposeSystemPrompt(retrieved, patientCtx)
+
+	// When retrieval found nothing, constrain the model to steer instead of
+	// improvising medical content from its own memory (hallucination guard).
+	if a.cfg.KnowledgeEnabled && len(retrieved) == 0 {
+		systemPrompt += "\n\n" + prompt.NoKnowledgeGuidance
+	}
+
+	toolDescs := a.registry.GetToolDescriptions()
+	if len(toolDescs) > 0 {
+		systemPrompt += "\n" + a.composer.ComposeToolPrompt(toolDescs)
+	}
+
+	// Build messages in provider-agnostic format with images
+	messages := a.sessionToMessages(sess)
+	
+	// Create user message with images
+	userMsg := llm.Message{Role: "user", Content: userMessage}
+	if len(images) > 0 {
+		// Add text part
+		userMsg.Parts = append(userMsg.Parts, llm.ContentPart{
+			Type: "text",
+			Text: userMessage,
+		})
+		// Add image parts
+		for _, img := range images {
+			userMsg.Parts = append(userMsg.Parts, llm.ContentPart{
+				Type:  "image",
+				Image: &img,
+			})
+		}
+		// Clear Content since we're using Parts
+		userMsg.Content = ""
+	}
+	messages = append(messages, userMsg)
+
+	toolDefs := a.registry.GetGenericToolDefinitions()
+
+	// Agent loop: call LLM, handle tool use, repeat until final response
+	maxIterations := 5
+	var toolRefs []tools.CitationRef // tool-returned sources for post-verification
+	for i := 0; i < maxIterations; i++ {
+		if i == 0 {
+			step(StepEvent{Type: "generate", Summary: "正在思考…"})
+		} else {
+			step(StepEvent{Type: "generate", Summary: "正在根据工具结果组织回答…"})
+		}
+
+		var llmResp *llm.ChatResponse
+		var llmErr error
+		if onDelta != nil {
+			llmResp, llmErr = a.provider.StreamChat(ctx, messages, toolDefs, systemPrompt, onDelta)
+		} else {
+			llmResp, llmErr = a.provider.Chat(ctx, messages, toolDefs, systemPrompt)
+		}
+		if llmErr != nil {
+			return nil, fmt.Errorf("LLM call: %w", llmErr)
+		}
+
+		// No tool calls → final answer
+		if len(llmResp.ToolCalls) == 0 {
+			responseText := llmResp.Text
+
+			// L3: Citation post-verification
+			if a.postVerifier != nil {
+				sources := knowledge.BuildCitedSources(retrieved)
+				// Also register tool-returned citation refs
+				for _, ref := range toolRefs {
+					text := ref.Title
+					if ref.DOI != "" {
+						text += " DOI:" + ref.DOI
+					}
+					if ref.Year > 0 {
+						text += fmt.Sprintf(" (%d)", ref.Year)
+					}
+					knowledge.AddToolSource(sources, ref.Title, ref.DOI, ref.PMID, ref.Year, ref.Level, text)
+				}
+				verifyResult := a.postVerifier.Verify(ctx, responseText, sources)
+				if !verifyResult.Passed {
+					slog.Warn("Response post-verification failed",
+						"warnings", verifyResult.Warnings,
+						"unsupported", verifyResult.UnsupportedClaims)
+					if verifyResult.CorrectedResponse != "" {
+						responseText = verifyResult.CorrectedResponse
+					}
+				}
+			}
+
+			// L4: Apply disclaimer
+			disclaimerSent := false
+			if !sess.DisclaimerSent {
+				responseText = a.disclaimerService.Apply(sess.ID, responseText)
+				sess.DisclaimerSent = true
+				disclaimerSent = true
+			}
+
+			sess.AddAssistantMessage(responseText)
+			a.saveSession(sess)
+			sess.TrimHistory(a.cfg.MaxHistoryTurns)
+
+			return &Response{
+				Text:           responseText,
+				DisclaimerSent: disclaimerSent,
+			}, nil
+		}
+
+		// Execute tool calls and build continuation messages
+		messages = append(messages, llm.Message{
+			Role:      "assistant",
+			Content:   llmResp.Text,
+			ToolCalls: llmResp.ToolCalls,
+		})
+
+		// Build tool results for next iteration
+		var toolResults strings.Builder
+		for _, tc := range llmResp.ToolCalls {
+			step(StepEvent{Type: "tool_call", Tool: tc.Name, Summary: fmt.Sprintf("调用工具 %s", tc.Name)})
+			toolResult, err := a.registry.Dispatch(ctx, tc.Name, tc.Arguments)
+			if err != nil {
+				fmt.Fprintf(&toolResults, "[工具 %s 执行错误: %v]\n", tc.Name, err)
+				step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具 %s 执行出错: %v", tc.Name, err)})
+				continue
+			}
+			toolRefs = append(toolRefs, toolResult.Citations...)
+			step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具 %s 返回结果", tc.Name)})
+
+			if toolResult.Success {
+				resultJSON, _ := json.MarshalIndent(toolResult.Data, "", "  ")
+				fmt.Fprintf(&toolResults, "[工具 %s 结果]:\n%s\n", tc.Name, string(resultJSON))
+			} else {
+				fmt.Fprintf(&toolResults, "[工具 %s 返回错误: %s]\n", tc.Name, toolResult.Error)
+			}
+		}
+
+		messages = append(messages, llm.Message{
+			Role:    "user",
+			Content: fmt.Sprintf("工具执行结果如下。请基于这些结果继续回答用户的问题。\n\n%s", toolResults.String()),
+		})
+	}
+
+	return nil, fmt.Errorf("exceeded maximum tool-use iterations (%d)", maxIterations)
+}
+
 // sessionToMessages returns the session history in provider-agnostic form.
 // Sessions now store llm.Message directly, so no conversion is needed.
 func (a *Agent) sessionToMessages(sess *session.Session) []llm.Message {
@@ -392,9 +592,9 @@ func (a *Agent) GetOrCreateSession(sessionID string) *session.Session {
 		return sess
 	}
 
-	// Try to restore from disk before creating a fresh session.
-	if a.fileStore != nil {
-		if restored, err := a.fileStore.Load(sessionID); err != nil {
+	// Try to restore from store before creating a fresh session.
+	if a.sessionStore != nil {
+		if restored, err := a.sessionStore.Load(sessionID); err != nil {
 			slog.Warn("Failed to restore session", "id", sessionID, "error", err)
 		} else if restored != nil {
 			a.sessionsMu.Lock()
@@ -415,13 +615,13 @@ func (a *Agent) GetOrCreateSession(sessionID string) *session.Session {
 	return sess
 }
 
-// saveSession persists a session snapshot when a file store is configured.
+// saveSession persists a session snapshot when a store is configured.
 // Snapshotting happens after user/assistant messages are appended.
 func (a *Agent) saveSession(sess *session.Session) {
-	if a.fileStore == nil {
+	if a.sessionStore == nil {
 		return
 	}
-	if err := a.fileStore.Save(sess); err != nil {
+	if err := a.sessionStore.Save(sess); err != nil {
 		slog.Warn("Failed to persist session", "id", sess.ID, "error", err)
 	}
 }

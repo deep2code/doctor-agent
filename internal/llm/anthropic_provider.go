@@ -116,8 +116,40 @@ func (p *AnthropicProvider) buildParams(messages []Message, tools []ToolDefiniti
 	for _, msg := range messages {
 		switch msg.Role {
 		case "user":
-			anthropicMessages = append(anthropicMessages,
-				anthropic.NewUserMessage(anthropic.NewTextBlock(msg.Content)))
+			// Handle multimodal content (text + images)
+			if msg.HasImages() {
+				var blocks []anthropic.ContentBlockParamUnion
+				for _, part := range msg.Parts {
+					switch part.Type {
+					case "text":
+						if part.Text != "" {
+							blocks = append(blocks, anthropic.NewTextBlock(part.Text))
+						}
+					case "image":
+						if part.Image != nil {
+							// Anthropic image block
+							blocks = append(blocks, anthropic.ContentBlockParamUnion{
+								OfImage: &anthropic.ImageBlockParam{
+									Source: anthropic.ImageBlockParamSourceUnion{
+										OfBase64: &anthropic.Base64ImageSourceParam{
+											Data:      part.Image.Base64Data,
+											MediaType: anthropic.Base64ImageSourceMediaType(part.Image.MediaType),
+										},
+									},
+								},
+							})
+						}
+					}
+				}
+				// Fallback to text content if no parts
+				if len(blocks) == 0 && msg.Content != "" {
+					blocks = append(blocks, anthropic.NewTextBlock(msg.Content))
+				}
+				anthropicMessages = append(anthropicMessages, anthropic.NewUserMessage(blocks...))
+			} else {
+				anthropicMessages = append(anthropicMessages,
+					anthropic.NewUserMessage(anthropic.NewTextBlock(msg.Content)))
+			}
 		case "assistant":
 			if len(msg.ToolCalls) > 0 {
 				// Assistant tool-use turn: text (if any) + tool_use blocks.

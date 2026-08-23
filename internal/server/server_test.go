@@ -50,7 +50,7 @@ func newTestServer(t *testing.T, mutate func(*config.Config)) *Server {
 	if mutate != nil {
 		mutate(cfg)
 	}
-	return New(cfg, sharedAgent(t))
+	return New(cfg, sharedAgent(t), nil)
 }
 
 // emergencyMessage triggers the L1 short-circuit so no LLM call is made.

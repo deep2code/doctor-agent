@@ -1,0 +1,19 @@
+services:
+  doctor-agent:
+    build: .
+    container_name: doctor-agent
+    restart: always
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    environment:
+      - DATABASE_PATH=/app/data/doctor-agent.db
+      - SESSION_DIR=/app/sessions
+    volumes:
+      - doctor-data:/app/data
+      - doctor-sessions:/app/sessions
+
+volumes:
+  doctor-data:
+  doctor-sessions:

@@ -2,14 +2,40 @@ package llm
 
 import "context"
 
+// ContentPart represents a part of a multimodal message.
+type ContentPart struct {
+	Type     string      `json:"type"` // "text", "image"
+	Text     string      `json:"text,omitempty"`
+	Image    *ImageInput `json:"image,omitempty"`
+}
+
+// ImageInput represents an image input.
+type ImageInput struct {
+	Base64Data string `json:"base64_data,omitempty"` // Base64 encoded image
+	MediaType  string `json:"media_type"`            // e.g., "image/jpeg", "image/png"
+	URL        string `json:"url,omitempty"`         // Optional URL
+}
+
 // Message represents a single chat message.
 type Message struct {
 	Role    string // "system", "user", "assistant"
 	Content string
+	// Parts supports multimodal content (text + images).
+	Parts []ContentPart `json:"parts,omitempty"`
 	// ToolCalls is set on assistant messages that requested tool use.
 	// Providers translate it into their native tool-call format (tool_use
 	// blocks for Anthropic, tool_calls for OpenAI-compatible endpoints).
 	ToolCalls []ToolCall `json:"tool_calls,omitempty"`
+}
+
+// HasImages reports whether the message contains image parts.
+func (m *Message) HasImages() bool {
+	for _, p := range m.Parts {
+		if p.Type == "image" && p.Image != nil {
+			return true
+		}
+	}
+	return false
 }
 
 // ToolDefinition describes a tool available to the LLM.

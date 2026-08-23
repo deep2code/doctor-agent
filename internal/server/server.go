@@ -15,7 +15,10 @@ import (
 	"time"
 
 	"github.com/doctor-agent/internal/agent"
+	"github.com/doctor-agent/internal/auth"
 	"github.com/doctor-agent/internal/config"
+	"github.com/doctor-agent/internal/database"
+	"github.com/doctor-agent/internal/llm"
 	"github.com/doctor-agent/internal/session"
 )
 
@@ -26,15 +29,17 @@ var webUIIndex string
 type Server struct {
 	cfg    *config.Config
 	agent  *agent.Agent
+	auth   *auth.Service
 	http   *http.Server
 	limiter *rateLimiter
 }
 
 // New creates a new HTTP server.
-func New(cfg *config.Config, ag *agent.Agent) *Server {
+func New(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service) *Server {
 	s := &Server{
 		cfg:     cfg,
 		agent:   ag,
+		auth:    authSvc,
 		limiter: newRateLimiter(cfg.RateLimit),
 	}
 
@@ -43,6 +48,10 @@ func New(cfg *config.Config, ag *agent.Agent) *Server {
 	mux.HandleFunc("/health", s.handleHealth)
 	mux.HandleFunc("/chat", s.handleChat)
 	mux.HandleFunc("/chat/stream", s.handleChatStream)
+	mux.HandleFunc("/feedback", s.handleFeedback)
+	// Admin endpoints
+	mux.HandleFunc("/admin/users", s.handleAdminUsers)
+	mux.HandleFunc("/admin/users/", s.handleAdminUser)
 
 	s.http = &http.Server{
 		Addr:         fmt.Sprintf("%s:%s", cfg.ServerHost, cfg.ServerPort),
@@ -93,10 +102,17 @@ func (s *Server) handleHealth(w http.ResponseWriter, r *http.Request) {
 	})
 }
 
+// ChatImage represents an uploaded image in a chat message.
+type ChatImage struct {
+	Base64Data string `json:"base64_data"`
+	MediaType  string `json:"media_type"`
+}
+
 // ChatRequest is the JSON body for /chat endpoints.
 type ChatRequest struct {
-	Message        string `json:"message"`
-	ConversationID string `json:"conversation_id,omitempty"`
+	Message        string       `json:"message"`
+	ConversationID string       `json:"conversation_id,omitempty"`
+	Images         []ChatImage  `json:"images,omitempty"`
 }
 
 // ChatResponse is the JSON response for /chat.
@@ -115,7 +131,8 @@ func (s *Server) handleChat(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// Cap the request body to bound memory use; reject oversized messages.
-	r.Body = http.MaxBytesReader(w, r.Body, 64<<10) // 64 KiB
+	// Allow up to 10MB for image uploads
+	r.Body = http.MaxBytesReader(w, r.Body, 10<<20) // 10 MB
 	var req ChatRequest
 	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
 		writeJSON(w, http.StatusBadRequest, map[string]any{
@@ -146,7 +163,22 @@ func (s *Server) handleChat(w http.ResponseWriter, r *http.Request) {
 	ctx, cancel := context.WithTimeout(r.Context(), 60*time.Second)
 	defer cancel()
 
-	resp, err := s.agent.ProcessMessage(ctx, sess, req.Message)
+	// Convert images to llm.ImageInput format
+	var images []llm.ImageInput
+	for _, img := range req.Images {
+		images = append(images, llm.ImageInput{
+			Base64Data: img.Base64Data,
+			MediaType:  img.MediaType,
+		})
+	}
+
+	var resp *agent.Response
+	var err error
+	if len(images) > 0 {
+		resp, err = s.agent.ProcessMessageWithImages(ctx, sess, req.Message, images)
+	} else {
+		resp, err = s.agent.ProcessMessage(ctx, sess, req.Message)
+	}
 	if err != nil {
 		slog.Error("Agent processing error", "error", err)
 		writeJSON(w, http.StatusInternalServerError, map[string]any{
@@ -174,7 +206,8 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	r.Body = http.MaxBytesReader(w, r.Body, 64<<10) // 64 KiB
+	// Allow up to 10MB for image uploads
+	r.Body = http.MaxBytesReader(w, r.Body, 10<<20) // 10 MB
 	var req ChatRequest
 	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
 		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request"})
@@ -226,7 +259,22 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 		sendEvent("step", ev)
 	}
 
-	resp, err := s.agent.ProcessMessageStream(ctx, sess, req.Message, onDelta, onStep)
+	// Convert images to llm.ImageInput format
+	var images []llm.ImageInput
+	for _, img := range req.Images {
+		images = append(images, llm.ImageInput{
+			Base64Data: img.Base64Data,
+			MediaType:  img.MediaType,
+		})
+	}
+
+	var resp *agent.Response
+	var err error
+	if len(images) > 0 {
+		resp, err = s.agent.ProcessMessageStreamWithImages(ctx, sess, req.Message, images, onDelta, onStep)
+	} else {
+		resp, err = s.agent.ProcessMessageStream(ctx, sess, req.Message, onDelta, onStep)
+	}
 	if err != nil {
 		sendEvent("error", map[string]any{"error": "internal processing error"})
 		return
@@ -247,6 +295,159 @@ func writeJSON(w http.ResponseWriter, status int, data any) {
 	if err := json.NewEncoder(w).Encode(data); err != nil {
 		slog.Warn("Failed to encode JSON response", "error", err)
 	}
+}
+
+// handleFeedback collects user feedback (thumbs up/down) for responses.
+func (s *Server) handleFeedback(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodPost {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+
+	r.Body = http.MaxBytesReader(w, r.Body, 4<<10) // 4 KiB
+	var req struct {
+		SessionID string `json:"session_id"`
+		MessageID string `json:"message_id"`
+		Rating    string `json:"rating"` // "up" or "down"
+		Comment   string `json:"comment"`
+	}
+	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
+		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request"})
+		return
+	}
+
+	if req.Rating != "up" && req.Rating != "down" {
+		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "rating must be 'up' or 'down'"})
+		return
+	}
+
+	// Log feedback for now (could persist to database later)
+	slog.Info("User feedback received",
+		"session_id", req.SessionID,
+		"message_id", req.MessageID,
+		"rating", req.Rating,
+		"comment", req.Comment,
+		"ip", clientIP(r),
+	)
+
+	writeJSON(w, http.StatusOK, map[string]any{"status": "ok"})
+}
+
+// handleAdminUsers handles admin user management (create list users).
+func (s *Server) handleAdminUsers(w http.ResponseWriter, r *http.Request) {
+	// Check admin authentication
+	admin := s.getAdminFromRequest(r)
+	if admin == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	switch r.Method {
+	case http.MethodPost:
+		// Create user
+		var input auth.AdminCreateUserInput
+		if err := json.NewDecoder(r.Body).Decode(&input); err != nil {
+			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request body"})
+			return
+		}
+
+		user, err := s.auth.AdminCreateUser(&input, admin)
+		if err != nil {
+			writeJSON(w, http.StatusBadRequest, map[string]any{"error": err.Error()})
+			return
+		}
+
+		writeJSON(w, http.StatusCreated, map[string]any{
+			"id":        user.ID,
+			"username":  user.Username,
+			"nickname":  user.Nickname,
+			"is_admin":  user.IsAdmin,
+			"message":   "用户创建成功",
+		})
+
+	default:
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+	}
+}
+
+// handleAdminUser handles single user operations.
+func (s *Server) handleAdminUser(w http.ResponseWriter, r *http.Request) {
+	// Check admin authentication
+	admin := s.getAdminFromRequest(r)
+	if admin == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	// Extract user ID from path
+	userID := strings.TrimPrefix(r.URL.Path, "/admin/users/")
+	if userID == "" {
+		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "用户ID不能为空"})
+		return
+	}
+
+	switch r.Method {
+	case http.MethodGet:
+		// Get user
+		user, err := s.auth.GetUserByID(userID)
+		if err != nil {
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			return
+		}
+		if user == nil {
+			writeJSON(w, http.StatusNotFound, map[string]any{"error": "用户不存在"})
+			return
+		}
+
+		writeJSON(w, http.StatusOK, map[string]any{
+			"id":        user.ID,
+			"username":  user.Username,
+			"nickname":  user.Nickname,
+			"is_admin":  user.IsAdmin,
+			"created_at": user.CreatedAt,
+		})
+
+	case http.MethodDelete:
+		// Delete user
+		if err := s.auth.DeleteUser(userID); err != nil {
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			return
+		}
+
+		writeJSON(w, http.StatusOK, map[string]any{"message": "用户删除成功"})
+
+	default:
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+	}
+}
+
+// getAdminFromRequest extracts admin user from request (checks API key or token).
+func (s *Server) getAdminFromRequest(r *http.Request) *database.User {
+	// Check for API key
+	apiKey := r.Header.Get("Authorization")
+	if strings.HasPrefix(apiKey, "Bearer ") {
+		apiKey = strings.TrimPrefix(apiKey, "Bearer ")
+	}
+
+	// If API key matches, return admin user
+	if s.cfg.APIKey != "" && subtle.ConstantTimeCompare([]byte(apiKey), []byte(s.cfg.APIKey)) == 1 {
+		// For API key auth, return a virtual admin user
+		return &database.User{
+			ID:       "admin-api",
+			Username: "admin",
+			IsAdmin:  true,
+		}
+	}
+
+	// Check for token-based auth
+	if s.auth != nil {
+		user, err := s.auth.GetUserByToken(apiKey)
+		if err == nil && user != nil && user.IsAdmin {
+			return user
+		}
+	}
+
+	return nil
 }
 
 // withMiddleware adds security + logging middleware to the handler.

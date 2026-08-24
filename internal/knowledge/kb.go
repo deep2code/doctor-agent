@@ -1,8 +1,11 @@
 package knowledge
 
 import (
+	"bytes"
+	"compress/gzip"
 	"database/sql"
 	"fmt"
+	"io"
 	"strings"
 	"sync"
 
@@ -86,6 +89,39 @@ func OpenKB(path string) (*KB, error) {
 	return kb, nil
 }
 
+// compressData gzip-compresses a document before storage to keep the database
+// file small (the uncompressed JSON corpus is ~500MB+). Decompression is
+// transparent in Get/All/Search; the gzip magic-byte check makes reads
+// backward-compatible with any uncompressed rows left by older seeds.
+func compressData(b []byte) []byte {
+	if len(b) == 0 {
+		return b
+	}
+	var buf bytes.Buffer
+	w := gzip.NewWriter(&buf)
+	if _, err := w.Write(b); err != nil {
+		return b
+	}
+	if err := w.Close(); err != nil {
+		return b
+	}
+	return buf.Bytes()
+}
+
+// decompressData reverses compressData. If the bytes are not gzip (no magic
+// header), they are returned as-is so pre-compression rows still read.
+func decompressData(b []byte) ([]byte, error) {
+	if len(b) < 2 || b[0] != 0x1f || b[1] != 0x8b {
+		return b, nil
+	}
+	r, err := gzip.NewReader(bytes.NewReader(b))
+	if err != nil {
+		return b, nil
+	}
+	defer r.Close()
+	return io.ReadAll(r)
+}
+
 // Close closes the database connection.
 func (kb *KB) Close() error {
 	kb.mu.Lock()
@@ -98,7 +134,6 @@ func (kb *KB) migrate() error {
 		`CREATE TABLE IF NOT EXISTS kb_items (
 			dataset TEXT NOT NULL,
 			key     TEXT NOT NULL,
-			search_text TEXT NOT NULL,
 			data    BLOB NOT NULL,
 			PRIMARY KEY (dataset, key)
 		)`,
@@ -119,8 +154,8 @@ func (kb *KB) Insert(dataset, key, searchText string, data []byte) error {
 	kb.mu.Lock()
 	defer kb.mu.Unlock()
 	_, err := kb.conn.Exec(
-		`INSERT OR REPLACE INTO kb_items (dataset, key, search_text, data) VALUES (?, ?, ?, ?)`,
-		dataset, key, strings.ToLower(searchText), data,
+		`INSERT OR REPLACE INTO kb_items (dataset, key, data) VALUES (?, ?, ?)`,
+		dataset, key, compressData(data),
 	)
 	return err
 }
@@ -134,14 +169,14 @@ func (kb *KB) InsertBatch(dataset string, rows []KBRow) error {
 	if err != nil {
 		return err
 	}
-	stmt, err := tx.Prepare(`INSERT OR REPLACE INTO kb_items (dataset, key, search_text, data) VALUES (?, ?, ?, ?)`)
+	stmt, err := tx.Prepare(`INSERT OR REPLACE INTO kb_items (dataset, key, data) VALUES (?, ?, ?)`)
 	if err != nil {
 		_ = tx.Rollback()
 		return err
 	}
 	defer stmt.Close()
 	for _, r := range rows {
-		if _, err := stmt.Exec(dataset, r.Key, strings.ToLower(r.SearchText), r.Data); err != nil {
+		if _, err := stmt.Exec(dataset, r.Key, compressData(r.Data)); err != nil {
 			_ = tx.Rollback()
 			return err
 		}
@@ -178,7 +213,7 @@ func (kb *KB) Get(dataset, key string) ([]byte, error) {
 	if err != nil {
 		return nil, err
 	}
-	return data, nil
+	return decompressData(data)
 }
 
 // All returns every item's raw JSON for a dataset.
@@ -198,43 +233,58 @@ func (kb *KB) All(dataset string) ([][]byte, error) {
 		if err := rows.Scan(&data); err != nil {
 			return nil, err
 		}
-		out = append(out, data)
+		d, err := decompressData(data)
+		if err != nil {
+			return nil, err
+		}
+		out = append(out, d)
 	}
 	return out, rows.Err()
 }
 
-// Search returns candidate raw JSON documents whose search_text contains any of
-// the supplied lower-cased terms. It is used for incremental/candidate
-// filtering; the caller still runs the precise (BM25/CJK) scorer over results.
+// Search returns candidate raw JSON documents whose searchable text contains any
+// of the supplied lower-cased terms. The search_text column is not persisted (it
+// would roughly double the database size); instead it is rebuilt in Go from the
+// decompressed document. This is used only for the optional vector-retrieval
+// candidate path, so a full scan + rebuild per query is acceptable.
 func (kb *KB) Search(dataset string, terms []string) ([][]byte, error) {
 	if len(terms) == 0 {
 		return nil, nil
 	}
 	kb.mu.RLock()
 	defer kb.mu.RUnlock()
-	query := strings.Builder{}
-	query.WriteString("SELECT data FROM kb_items WHERE dataset = ? AND (")
-	args := []any{dataset}
-	for i, t := range terms {
-		if i > 0 {
-			query.WriteString(" OR ")
-		}
-		query.WriteString("search_text LIKE ?")
-		args = append(args, "%"+strings.ToLower(t)+"%")
-	}
-	query.WriteString(")")
-	rows, err := kb.conn.Query(query.String(), args...)
+	rows, err := kb.conn.Query(
+		`SELECT data FROM kb_items WHERE dataset = ? ORDER BY rowid`, dataset,
+	)
 	if err != nil {
 		return nil, err
 	}
 	defer rows.Close()
+	lowered := make([]string, len(terms))
+	for i, t := range terms {
+		lowered[i] = strings.ToLower(t)
+	}
 	var out [][]byte
 	for rows.Next() {
 		var data []byte
 		if err := rows.Scan(&data); err != nil {
 			return nil, err
 		}
-		out = append(out, data)
+		raw, err := decompressData(data)
+		if err != nil {
+			return nil, err
+		}
+		text := buildSearchText(raw)
+		hit := false
+		for _, t := range lowered {
+			if strings.Contains(text, t) {
+				hit = true
+				break
+			}
+		}
+		if hit {
+			out = append(out, raw)
+		}
 	}
 	return out, rows.Err()
 }

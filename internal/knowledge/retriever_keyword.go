@@ -148,11 +148,23 @@ func (r *KeywordRetriever) scoreEntry(entry *KnowledgeEntry, query string, query
 	var totalScore float64
 	var matched []string
 	matchedSet := make(map[string]bool)
+	scored := make(map[string]bool)
 	addMatch := func(kw string) {
 		if !matchedSet[kw] {
 			matchedSet[kw] = true
 			matched = append(matched, kw)
 		}
+	}
+	// scoreKW adds the per-keyword match score exactly once, even when the
+	// same keyword is matched by several strategies below (token equality,
+	// substring, bigram overlap) — preventing double-counting of one keyword.
+	scoreKW := func(kw string) {
+		if scored[kw] {
+			return
+		}
+		scored[kw] = true
+		totalScore += 3.0
+		addMatch(kw)
 	}
 
 	queryLower := strings.ToLower(query)
@@ -163,8 +175,7 @@ func (r *KeywordRetriever) scoreEntry(entry *KnowledgeEntry, query string, query
 		for _, qt := range queryTokens {
 			for _, kt := range kwTokens {
 				if strings.EqualFold(qt, kt) {
-					totalScore += 3.0
-					addMatch(kw)
+					scoreKW(kw)
 					break
 				}
 			}
@@ -180,8 +191,7 @@ func (r *KeywordRetriever) scoreEntry(entry *KnowledgeEntry, query string, query
 			continue
 		}
 		if strings.Contains(queryLower, kLower) {
-			totalScore += 3.0
-			addMatch(kw)
+			scoreKW(kw)
 		}
 	}
 
@@ -196,8 +206,7 @@ func (r *KeywordRetriever) scoreEntry(entry *KnowledgeEntry, query string, query
 		qb := bigrams(queryLower)
 		overlap := bigramOverlap(kb, qb)
 		if overlap >= 2 && float64(overlap)/float64(len(kb)) >= 0.5 {
-			totalScore += 3.0
-			addMatch(kw)
+			scoreKW(kw)
 		}
 	}
 

@@ -257,8 +257,14 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 		flusher.Flush()
 	}
 
+	// Collect deltas during generation; the live, pre-verification text must
+	// NOT be streamed to the client. L3 citation verification and L4 disclaimer
+	// run inside the agent only after the full response is produced, so we
+	// buffer and then stream the VERIFIED text below (otherwise post-
+	// verification corrections reach the user unguarded via raw deltas).
+	var rawDelta strings.Builder
 	onDelta := func(chunk string) {
-		sendEvent("delta", map[string]any{"text": chunk})
+		rawDelta.WriteString(chunk)
 	}
 
 	onStep := func(ev agent.StepEvent) {
@@ -286,6 +292,14 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	// Stream the post-verification, disclaimer-applied response (resp.Text) so
+	// the client only ever renders safe content, preserving token-level
+	// streaming UX without exposing unverified model output. Emergency
+	// short-circuits stay atomic (no deltas), matching the prior contract.
+	if !resp.IsEmergency {
+		streamVerifiedText(sendEvent, resp.Text)
+	}
+
 	sendEvent("done", ChatResponse{
 		ConversationID: req.ConversationID,
 		Reply:          resp.Text,
@@ -293,6 +307,21 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 		IsOutOfScope:   resp.IsOutOfScope,
 		Timestamp:      time.Now().UTC().Format(time.RFC3339),
 	})
+}
+
+// streamVerifiedText emits the (already post-verification / disclaimer-applied)
+// text as SSE delta chunks so the client never sees unverified model output
+// during generation.
+func streamVerifiedText(send func(string, any), text string) {
+	const chunkSize = 24
+	runes := []rune(text)
+	for i := 0; i < len(runes); i += chunkSize {
+		end := i + chunkSize
+		if end > len(runes) {
+			end = len(runes)
+		}
+		send("delta", map[string]any{"text": string(runes[i:end])})
+	}
 }
 
 func writeJSON(w http.ResponseWriter, status int, data any) {

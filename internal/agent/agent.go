@@ -34,6 +34,7 @@ type Agent struct {
 	sessionsMu    sync.RWMutex
 	sessions      map[string]*session.Session
 	sessionStore  session.Store // optional on-disk or database session store
+	sessLocks     sync.Map      // sessionID -> *sync.Mutex, serializes turns per session
 }
 
 // New creates a fully initialized Agent.
@@ -217,12 +218,28 @@ type StepEvent struct {
 // is still returned in Response.Text; callers that render onDelta should
 // prefer the returned text (post-verification may adjust the final response,
 // in which case a small trailing difference is possible).
+
+// sessionLock returns the per-session turn lock, creating it on first use.
+// Holding it for the duration of a turn serializes concurrent requests that
+// share a session ID, preventing message interleaving and the DisclaimerSent
+// data race in ProcessMessageStream.
+func (a *Agent) sessionLock(id string) *sync.Mutex {
+	m, _ := a.sessLocks.LoadOrStore(id, &sync.Mutex{})
+	return m.(*sync.Mutex)
+}
+
 func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session, userMessage string, onDelta func(string), onStep func(StepEvent)) (*Response, error) {
 	step := func(ev StepEvent) {
 		if onStep != nil {
 			onStep(ev)
 		}
 	}
+
+	// Serialize turns per session so concurrent requests for the same
+	// conversation don't interleave messages or race on DisclaimerSent.
+	lock := a.sessionLock(sess.ID)
+	lock.Lock()
+	defer lock.Unlock()
 
 	// L1: Emergency detection
 	if a.cfg.EmergencyEnabled {
@@ -391,6 +408,11 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 			onStep(ev)
 		}
 	}
+
+	// Serialize turns per session (same rationale as ProcessMessageStream).
+	lock := a.sessionLock(sess.ID)
+	lock.Lock()
+	defer lock.Unlock()
 
 	// L1: Emergency detection (skip for image messages - images may contain medical reports)
 	if len(images) == 0 && a.cfg.EmergencyEnabled {

@@ -53,8 +53,10 @@ func NewPostVerifierWithJudge(refIndex map[string]string, judge llm.LLMProvider)
 	return &PostVerifier{ReferenceIndex: refIndex, judge: judge}
 }
 
-// citationPattern matches [N] style citations.
-var citationPattern = regexp.MustCompile(`\[(\d+)\]`)
+// citationPattern matches [N] (sequential) as well as [PMID:...] and
+// [doi:...] style citations, so tool-returned literature references are also
+// verified (or flagged when absent) instead of being silently ignored.
+var citationPattern = regexp.MustCompile(`\[(\d+|PMID:\d+|doi:[^\]]+)\]`)
 
 // forbiddenDiagnosticPattern matches forbidden diagnostic assertions.
 var forbiddenDiagnosticPattern = regexp.MustCompile(
@@ -98,12 +100,15 @@ func (v *PostVerifier) Verify(ctx context.Context, response string, sources map[
 		seenIDs := make(map[string]bool)
 		for _, match := range citationMatches {
 			citationID := match[1]
-			if seenIDs[citationID] {
+			// Normalize "PMID:12345" to the bare "12345" key used by
+			// AddToolSource; "doi:..." keys are kept as-is.
+			key := strings.TrimPrefix(citationID, "PMID:")
+			if seenIDs[key] {
 				continue
 			}
-			seenIDs[citationID] = true
+			seenIDs[key] = true
 
-			if _, ok := sources[citationID]; !ok {
+			if _, ok := sources[key]; !ok {
 				result.UnverifiedClaims = append(result.UnverifiedClaims,
 					fmt.Sprintf("引用 [%s] 未在本次检索到的知识条目中找到对应文献", citationID))
 				result.Passed = false
@@ -148,11 +153,25 @@ func (v *PostVerifier) Verify(ctx context.Context, response string, sources map[
 	return result
 }
 
+// referenceMarkers are the possible headers that introduce the model's
+// renumbered reference tail. Everything from the earliest one onward is
+// trimmed so rule checks never scan it.
+var referenceMarkers = []string{
+	"参考文献", "参考资料", "引用文献", "参考来源",
+	"References", "REFERENCES", "References:", "references:",
+}
+
 // responseBody trims everything from the reference-list header onward, so
 // rule checks never scan the model's renumbered reference tail.
 func responseBody(response string) string {
-	if i := strings.Index(response, "参考文献"); i >= 0 {
-		return response[:i]
+	cut := -1
+	for _, m := range referenceMarkers {
+		if i := strings.Index(response, m); i >= 0 && (cut == -1 || i < cut) {
+			cut = i
+		}
+	}
+	if cut >= 0 {
+		return response[:cut]
 	}
 	return response
 }

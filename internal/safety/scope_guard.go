@@ -63,9 +63,30 @@ func NewScopeGuard() *ScopeGuard {
 	}
 }
 
+// medicalOverrideKeywords: when present in a query it is treated as in-scope
+// even if it also matches a blocked pattern, because it describes the user's
+// own medical situation. This prevents wrongly refusing core medical questions
+// such as rabies/post-exposure care ("狗咬了要打狂犬疫苗吗") as veterinary advice.
+var medicalOverrideKeywords = []string{
+	"疫苗", "咬伤", "抓伤", "狂犬病", "暴露", "破伤风", "过敏", "中毒",
+	"发热", "胸痛", "呼吸困难", "出血", "昏迷", "抽搐", "中风", "心梗",
+	"休克", "窒息", "腹痛", "腹泻", "呕吐", "症状", "诊断", "治疗",
+	"用药", "剂量", "就医", "就诊", "急诊", "门诊", "医院", "医生", "护理", "康复",
+	"咬", "抓",
+	"bite", "scratch", "rabies", "vaccine", "vaccination",
+}
+
 // Check evaluates whether a user query falls within the agent's scope.
 func (g *ScopeGuard) Check(text string) *ScopeResult {
 	lower := strings.ToLower(text)
+
+	// If the query describes the user's own medical situation, never block it
+	// as out-of-scope (e.g. animal-bite / rabies questions are core medicine).
+	for _, o := range medicalOverrideKeywords {
+		if strings.Contains(lower, strings.ToLower(o)) {
+			return &ScopeResult{InScope: true}
+		}
+	}
 
 	for _, p := range g.blockedPatterns {
 		for _, kw := range p.keywords {

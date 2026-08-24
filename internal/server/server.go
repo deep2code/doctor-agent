@@ -30,10 +30,10 @@ var webUIIndex string
 
 // Server wraps the HTTP API server for the doctor agent.
 type Server struct {
-	cfg    *config.Config
-	agent  *agent.Agent
-	auth   *auth.Service
-	http   *http.Server
+	cfg     *config.Config
+	agent   *agent.Agent
+	auth    *auth.Service
+	http    *http.Server
 	limiter *rateLimiter
 }
 
@@ -116,9 +116,9 @@ type ChatImage struct {
 
 // ChatRequest is the JSON body for /chat endpoints.
 type ChatRequest struct {
-	Message        string       `json:"message"`
-	ConversationID string       `json:"conversation_id,omitempty"`
-	Images         []ChatImage  `json:"images,omitempty"`
+	Message        string      `json:"message"`
+	ConversationID string      `json:"conversation_id,omitempty"`
+	Images         []ChatImage `json:"images,omitempty"`
 }
 
 // ChatResponse is the JSON response for /chat.
@@ -393,11 +393,11 @@ func (s *Server) handleAdminUsers(w http.ResponseWriter, r *http.Request) {
 		}
 
 		writeJSON(w, http.StatusCreated, map[string]any{
-			"id":        user.ID,
-			"username":  user.Username,
-			"nickname":  user.Nickname,
-			"is_admin":  user.IsAdmin,
-			"message":   "用户创建成功",
+			"id":       user.ID,
+			"username": user.Username,
+			"nickname": user.Nickname,
+			"is_admin": user.IsAdmin,
+			"message":  "用户创建成功",
 		})
 
 	default:
@@ -435,10 +435,10 @@ func (s *Server) handleAdminUser(w http.ResponseWriter, r *http.Request) {
 		}
 
 		writeJSON(w, http.StatusOK, map[string]any{
-			"id":        user.ID,
-			"username":  user.Username,
-			"nickname":  user.Nickname,
-			"is_admin":  user.IsAdmin,
+			"id":         user.ID,
+			"username":   user.Username,
+			"nickname":   user.Nickname,
+			"is_admin":   user.IsAdmin,
 			"created_at": user.CreatedAt,
 		})
 
@@ -709,12 +709,7 @@ func (s *Server) handleAdminSync(w http.ResponseWriter, r *http.Request) {
 		}
 	}()
 
-	embedder, err := embedding.NewOpenAICompat(embedding.Config{
-		Provider: "openai-compat",
-		BaseURL:  s.cfg.EmbeddingBaseURL,
-		APIKey:   s.cfg.EmbeddingAPIKey,
-		Model:    s.cfg.EmbeddingModel,
-	})
+	embedder, err := embedding.NewDefault(s.cfg.EmbeddingBaseURL, s.cfg.EmbeddingAPIKey, s.cfg.EmbeddingModel)
 	if err != nil {
 		writeJSON(w, http.StatusInternalServerError, map[string]any{
 			"error": fmt.Sprintf("failed to init embedding: %v", err),

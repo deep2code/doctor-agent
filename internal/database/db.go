@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	_ "modernc.org/sqlite"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 // DB wraps the SQLite database connection.
@@ -18,16 +18,16 @@ type DB struct {
 
 // Config holds database configuration.
 type Config struct {
-	Path string // SQLite database file path (e.g., "data/doctor-agent.db")
+	DSN string // Go MySQL driver DSN for the application database
 }
 
 // New creates a new database connection and initializes tables.
 func New(cfg Config) (*DB, error) {
-	if cfg.Path == "" {
-		cfg.Path = "doctor-agent.db"
+	if cfg.DSN == "" {
+		return nil, fmt.Errorf("database DSN is required")
 	}
 
-	conn, err := sql.Open("sqlite", cfg.Path+"?_journal_mode=WAL&_busy_timeout=5000")
+	conn, err := sql.Open("mysql", cfg.DSN)
 	if err != nil {
 		return nil, fmt.Errorf("opening database: %w", err)
 	}
@@ -50,7 +50,7 @@ func New(cfg Config) (*DB, error) {
 		return nil, fmt.Errorf("migrating database: %w", err)
 	}
 
-	slog.Info("Database initialized", "path", cfg.Path)
+	slog.Info("Database initialized", "dsn", cfg.DSN)
 	return db, nil
 }
 
@@ -66,12 +66,12 @@ func (db *DB) migrate() error {
 	queries := []string{
 		// Users table
 		`CREATE TABLE IF NOT EXISTS users (
-			id TEXT PRIMARY KEY,
-			username TEXT UNIQUE NOT NULL,
+			id VARCHAR(64) PRIMARY KEY,
+			username VARCHAR(255) UNIQUE NOT NULL,
 			password_hash TEXT NOT NULL,
 			nickname TEXT,
-			phone TEXT,
-			email TEXT,
+			phone VARCHAR(64),
+			email VARCHAR(255),
 			is_admin BOOLEAN DEFAULT 0,
 			created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
 			updated_at DATETIME DEFAULT CURRENT_TIMESTAMP,
@@ -79,8 +79,8 @@ func (db *DB) migrate() error {
 		)`,
 		// Sessions table
 		`CREATE TABLE IF NOT EXISTS sessions (
-			id TEXT PRIMARY KEY,
-			user_id TEXT,
+			id VARCHAR(64) PRIMARY KEY,
+			user_id VARCHAR(64),
 			title TEXT,
 			created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
 			updated_at DATETIME DEFAULT CURRENT_TIMESTAMP,
@@ -88,9 +88,9 @@ func (db *DB) migrate() error {
 		)`,
 		// Messages table
 		`CREATE TABLE IF NOT EXISTS messages (
-			id INTEGER PRIMARY KEY AUTOINCREMENT,
-			session_id TEXT NOT NULL,
-			role TEXT NOT NULL,
+			id BIGINT AUTO_INCREMENT PRIMARY KEY,
+			session_id VARCHAR(64) NOT NULL,
+			role VARCHAR(32) NOT NULL,
 			content TEXT NOT NULL,
 			tool_calls TEXT,
 			created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
@@ -98,12 +98,12 @@ func (db *DB) migrate() error {
 		)`,
 		// Feedback table
 		`CREATE TABLE IF NOT EXISTS feedback (
-			id INTEGER PRIMARY KEY AUTOINCREMENT,
-			session_id TEXT,
-			message_id TEXT,
-			rating TEXT NOT NULL CHECK(rating IN ('up', 'down')),
+			id BIGINT AUTO_INCREMENT PRIMARY KEY,
+			session_id VARCHAR(64),
+			message_id VARCHAR(64),
+			rating VARCHAR(8) NOT NULL CHECK(rating IN ('up', 'down')),
 			comment TEXT,
-			user_id TEXT,
+			user_id VARCHAR(64),
 			created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 		)`,
 		// Indexes

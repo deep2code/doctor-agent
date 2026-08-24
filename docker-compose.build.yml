@@ -1,26 +1,11 @@
-# doctor-agent — 纯镜像版(服务器零源码,一个 compose 全跑起来)
+# doctor-agent — 源码构建版(用于在本机/CI 构建镜像)
 #
-# 前提:服务器上已经存在镜像 doctor-agent:latest(以下任一方式获得):
-#   A) 从公开/私有仓库拉取:把 IMAGE_NAME 指向你的仓库,例如
-#        echo "IMAGE_NAME=docker.io/你的用户名/doctor-agent:latest" > .env
-#      然后本 compose 直接拉取。
-#   B) 本机 docker save 成 tar 包传到服务器后 docker load:
-#        docker save doctor-agent:latest -o doctor-agent.tar
-#        # 服务器上: docker load -i doctor-agent.tar
-#      此时 IMAGE_NAME 保持默认 doctor-agent:latest(本地镜像)即可。
+# 适用:你有一份完整项目源码(含 Dockerfile、internal/knowledge/gz/* 等),
+#       想在本机把镜像 build 出来,再 push 到镜像仓库或 docker save 成 tar 包。
 #
-# 启动(只此一条):
-#   cp .env.example .env        # 仅需改 DEEPSEEK_API_KEY 等极少数项
-#   docker compose up -d
-#
-# 说明:
-#   - 采用「数据基础镜像」架构:50 个 gz 知识库单独在 doctor-agent-data 镜像,
-#     app 镜像只含编译好的二进制(瘦镜像)。源码改动只重建很小的 app 镜像,
-#     知识库层不动、不重烤。
-#   - 知识库(doctor_knowledge)与业务库(doctor_agent)共用同一 MariaDB 实例,
-#     由 app 启动时自动建库(无需外部 init SQL)。
-#   - 首次启动自动 seed-knowledge(若 kb_items 已非空则跳过) + sync-knowledge。
-#   - 数据通过 volume 持久化,重启不丢。Qdrant 不可用时自动降级关键词检索。
+# 用法:
+#   docker compose -f docker-compose.build.yml build
+#   docker compose -f docker-compose.build.yml push   # 若已打标签到你的仓库
 
 services:
   mariadb:
@@ -30,6 +15,7 @@ services:
       MARIADB_ROOT_PASSWORD: ${MARIA_DB_ROOT_PASSWORD:-changeme}
     volumes:
       - mariadb_data:/var/lib/mysql
+      - ./docker/mariadb-init:/docker-entrypoint-initdb.d:ro
     healthcheck:
       test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
       interval: 5s
@@ -46,16 +32,20 @@ services:
       - qdrant_data:/qdrant/storage
     restart: unless-stopped
 
-  # 知识库数据基础镜像:把 50 个 gz 拷入命名卷,供 app 挂载(数据层独立、不重烤)
+  # 知识库数据基础镜像(本地构建):50 个 gz 拷入命名卷,供 app 挂载
   knowledge-data:
-    image: ${DATA_IMAGE:-crpi-0xi5k79l9j4opzta.cn-hangzhou.personal.cr.aliyuncs.com/codeup2026/doctor-agent-data:latest}
+    build:
+      context: .
+      dockerfile: Dockerfile.data
+    image: ${DATA_IMAGE:-doctor-agent-data:latest}
     command: ["sh", "-c", "cp -r /opt/knowledge/gz/* /data/ && echo 'knowledge data ready'"]
     volumes:
       - knowledge_data:/data
     restart: "no"
 
   app:
-    image: ${IMAGE_NAME:-crpi-0xi5k79l9j4opzta.cn-hangzhou.personal.cr.aliyuncs.com/codeup2026/doctor-agent:latest}
+    build: .
+    image: ${IMAGE_NAME:-doctor-agent:latest}
     container_name: doctor-agent
     ports:
       - "7071:7071"

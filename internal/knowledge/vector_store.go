@@ -47,21 +47,23 @@ func NewVectorStore(cfg VectorStoreConfig) (*VectorStore, error) {
 		dimensions: cfg.Dimensions,
 	}
 
-	// Ensure collection exists
-	if err := store.ensureCollection(); err != nil {
-		if closeErr := client.Close(); closeErr != nil {
-			slog.Warn("Failed to close vector store client after error", "error", closeErr)
-		}
-		return nil, fmt.Errorf("ensuring collection: %w", err)
-	}
-
-	slog.Info("Vector store initialized", "host", cfg.Host, "port", cfg.Port, "collection", cfg.Collection)
+	// Connection is lazy: the collection is created on demand via EnsureCollection
+	// (called by the syncer before upserting) so that agent startup never blocks
+	// on Qdrant being reachable. When Qdrant is absent, retrieval simply falls
+	// back to keyword search.
+	slog.Info("Vector store client created (lazy)", "host", cfg.Host, "port", cfg.Port, "collection", cfg.Collection)
 	return store, nil
 }
 
+// EnsureCollection creates the collection if it doesn't exist. Called by the
+// syncer before upserting; safe to call even when the collection already exists.
+func (s *VectorStore) EnsureCollection(ctx context.Context) error {
+	return s.ensureCollection(ctx)
+}
+
 // ensureCollection creates the collection if it doesn't exist.
-func (s *VectorStore) ensureCollection() error {
-	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+func (s *VectorStore) ensureCollection(ctx context.Context) error {
+	ctx, cancel := context.WithTimeout(ctx, 10*time.Second)
 	defer cancel()
 
 	// Check if collection exists

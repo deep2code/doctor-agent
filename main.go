@@ -52,7 +52,7 @@ func main() {
 	})))
 
 	// Parse subcommand
-	// 无参数 = 默认启动网页版（用户友好：双击即可用，浏览器打开 localhost:8080）
+	// 无参数 = 默认启动网页版（用户友好：双击即可用，浏览器打开 localhost:7071）
 	if len(os.Args) < 2 {
 		startWebUI(cfg)
 		return
@@ -101,7 +101,7 @@ Environment:
   DEEPSEEK_API_KEY                   DeepSeek API key (required when LLM_PROVIDER=deepseek)
   DEEPSEEK_MODEL                     DeepSeek model (default: deepseek-v4-pro)
   SERVER_HOST                        Server host (default: 0.0.0.0)
-  SERVER_PORT                      Server port (default: 8080)
+  SERVER_PORT                      Server port (default: 7071)
   API_KEY                          Bearer token for /chat endpoints (default: empty = no auth)
   CORS_ORIGINS                     Comma-separated allowed origins (default: * = all)
   RATE_LIMIT                       Max requests per IP per minute (default: 0 = unlimited)
@@ -111,15 +111,15 @@ Environment:
   POST_VERIFY_JUDGE_MODEL          Judge model for verification (default: reuse main model)
 
 Vector Database:
-  VECTOR_STORE_ENABLED             Enable vector database (default: false)
+  VECTOR_STORE_ENABLED             Enable vector database (default: true)
   VECTOR_STORE_HOST                Vector store host (default: localhost)
   VECTOR_STORE_PORT                Vector store port (default: 6333)
   VECTOR_COLLECTION                Vector collection name (default: medical_knowledge)
 
 Embedding:
-  EMBEDDING_ENABLED                Enable embedding service (default: false)
-  EMBEDDING_BASE_URL               Embedding API base URL
-  EMBEDDING_API_KEY                Embedding API key
+  EMBEDDING_ENABLED                Enable embedding service (default: true)
+  EMBEDDING_BASE_URL               Embedding API base URL (empty = in-process local embedder)
+  EMBEDDING_API_KEY                Embedding API key (empty = in-process local embedder)
   EMBEDDING_MODEL                  Embedding model (default: text-embedding-v3)
 
 Sync Command:
@@ -250,7 +250,7 @@ func startWebUI(cfg *config.Config) {
 		cfg = config.Load()
 	}
 
-	fmt.Println("   正在启动… 请用浏览器打开:  http://localhost:8080")
+	fmt.Println("   正在启动… 请用浏览器打开:  http://localhost:7071")
 	fmt.Println("   按 Ctrl+C 退出")
 	fmt.Println()
 	runServe(cfg)
@@ -264,8 +264,14 @@ func runServe(cfg *config.Config) {
 		os.Exit(1)
 	}
 
+	// Ensure application database exists, then initialize it.
+	if err := cfg.EnsureAppDB(); err != nil {
+		slog.Error("Failed to ensure application database", "error", err)
+		os.Exit(1)
+	}
+
 	// Initialize database
-	db, err := database.New(database.Config{Path: cfg.DatabasePath})
+	db, err := database.New(database.Config{DSN: cfg.AppDBDSN()})
 	if err != nil {
 		slog.Error("Failed to initialize database", "error", err)
 		os.Exit(1)
@@ -393,10 +399,7 @@ func runVerifyKnowledge(checkURLs bool) {
 }
 
 func runSeedKnowledge() {
-	dbPath := os.Getenv("KNOWLEDGE_DB")
-	if dbPath == "" {
-		dbPath = "knowledge.db"
-	}
+	dbPath := config.Load().KnowledgeDBDSN()
 	gzDir := "internal/knowledge/gz"
 	for _, a := range os.Args[2:] {
 		if v, ok := strings.CutPrefix(a, "--db="); ok {
@@ -457,14 +460,10 @@ func runSyncKnowledge(cfg *config.Config) {
 		}
 	}()
 
-	// Initialize embedding provider
+	// Initialize embedding provider (defaults to the in-process local provider
+	// when no remote credentials are configured, so sync works fully offline).
 	fmt.Println("🔗 初始化嵌入服务...")
-	embedder, err := embedding.NewOpenAICompat(embedding.Config{
-		Provider: "openai-compat",
-		BaseURL:  cfg.EmbeddingBaseURL,
-		APIKey:   cfg.EmbeddingAPIKey,
-		Model:    cfg.EmbeddingModel,
-	})
+	embedder, err := embedding.NewDefault(cfg.EmbeddingBaseURL, cfg.EmbeddingAPIKey, cfg.EmbeddingModel)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "❌ 嵌入服务初始化失败: %v\n", err)
 		return

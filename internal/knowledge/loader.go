@@ -3,10 +3,10 @@ package knowledge
 import (
 	"encoding/json"
 	"fmt"
-	"os"
-	"path/filepath"
 	"strings"
 	"sync"
+
+	"github.com/doctor-agent/internal/config"
 )
 
 // Store holds all loaded medical knowledge. Data is NOT embedded: the compiled
@@ -121,14 +121,19 @@ var loadOnce sync.Once
 var loadErr error
 
 // Load opens the knowledge database and returns a (lazily populated) Store.
-// The database path is taken from KNOWLEDGE_DB, falling back to "knowledge.db".
-// No knowledge data is embedded in the binary; datasets are fetched from the
-// database on first use.
+// The DSN is taken from config (MARIA_DB_* / KNOWLEDGE_DB_DSN), so datasets are
+// fetched from MariaDB on first use. No knowledge data is embedded in the
+// binary.
 func Load() (*Store, error) {
 	loadOnce.Do(func() {
-		path := resolveKBPath()
+		cfg := config.Load()
+		if err := cfg.EnsureKnowledgeDB(); err != nil {
+			loadErr = fmt.Errorf("ensure knowledge database: %w", err)
+			return
+		}
+		dsn := resolveKBPath()
 		var kb *KB
-		kb, loadErr = OpenKB(path)
+		kb, loadErr = OpenKB(dsn)
 		if loadErr == nil {
 			globalStore = &Store{
 				kb:                         kb,
@@ -153,29 +158,10 @@ func Load() (*Store, error) {
 	return globalStore, nil
 }
 
-// resolveKBPath finds the knowledge database. An explicit KNOWLEDGE_DB env var
-// wins; otherwise we walk up from the current working directory looking for
-// knowledge.db so tests (run from package subdirs) and the server (run from the
-// repo root) both locate a single seeded database.
+// resolveKBPath returns the knowledge-store DSN. An explicit KNOWLEDGE_DB_DSN
+// env var wins; otherwise the DSN is composed from the MariaDB configuration.
 func resolveKBPath() string {
-	if p := os.Getenv("KNOWLEDGE_DB"); p != "" {
-		return p
-	}
-	dir, err := os.Getwd()
-	if err == nil {
-		for {
-			candidate := filepath.Join(dir, "knowledge.db")
-			if _, statErr := os.Stat(candidate); statErr == nil {
-				return candidate
-			}
-			parent := filepath.Dir(dir)
-			if parent == dir {
-				break
-			}
-			dir = parent
-		}
-	}
-	return "knowledge.db"
+	return config.Load().KnowledgeDBDSN()
 }
 
 // Close releases the underlying database connection.

@@ -17,12 +17,12 @@ import (
 
 // SyncStatus represents the status of a sync operation.
 type SyncStatus struct {
-	LastSync      time.Time `json:"last_sync"`
-	TotalRecords  int       `json:"total_records"`
-	SyncedRecords int       `json:"synced_records"`
-	PendingRecords int      `json:"pending_records"`
-	Errors        []string  `json:"errors,omitempty"`
-	InProgress    bool      `json:"in_progress"`
+	LastSync       time.Time `json:"last_sync"`
+	TotalRecords   int       `json:"total_records"`
+	SyncedRecords  int       `json:"synced_records"`
+	PendingRecords int       `json:"pending_records"`
+	Errors         []string  `json:"errors,omitempty"`
+	InProgress     bool      `json:"in_progress"`
 }
 
 // SyncMetadata stores metadata about synced records for incremental sync.
@@ -32,12 +32,12 @@ type SyncMetadata struct {
 
 // Syncer manages synchronization between JSON data and vector database.
 type Syncer struct {
-	store     *Store
-	vecStore  *VectorStore
-	embedder  embedding.Provider
-	metadata  SyncMetadata
-	mu        sync.RWMutex
-	status    SyncStatus
+	store    *Store
+	vecStore *VectorStore
+	embedder embedding.Provider
+	metadata SyncMetadata
+	mu       sync.RWMutex
+	status   SyncStatus
 }
 
 // NewSyncer creates a new knowledge syncer.
@@ -63,6 +63,9 @@ type SyncConfig struct {
 // FullSync performs a complete synchronization of all knowledge to vector database.
 func (s *Syncer) FullSync(ctx context.Context, cfg SyncConfig) (*SyncStatus, error) {
 	s.store.ensureAll()
+	if err := s.vecStore.EnsureCollection(ctx); err != nil {
+		return nil, fmt.Errorf("ensuring vector collection: %w", err)
+	}
 	s.mu.Lock()
 	s.status = SyncStatus{InProgress: true}
 	s.mu.Unlock()
@@ -195,6 +198,9 @@ func (s *Syncer) FullSync(ctx context.Context, cfg SyncConfig) (*SyncStatus, err
 // IncrementalSync performs an incremental sync of changed records.
 func (s *Syncer) IncrementalSync(ctx context.Context, cfg SyncConfig) (*SyncStatus, error) {
 	s.store.ensureAll()
+	if err := s.vecStore.EnsureCollection(ctx); err != nil {
+		return nil, fmt.Errorf("ensuring vector collection: %w", err)
+	}
 	s.mu.Lock()
 	s.status = SyncStatus{InProgress: true}
 	s.mu.Unlock()

@@ -9,6 +9,7 @@ import (
 	"sync"
 
 	"github.com/doctor-agent/internal/config"
+	"github.com/doctor-agent/internal/embedding"
 	"github.com/doctor-agent/internal/knowledge"
 	"github.com/doctor-agent/internal/llm"
 	"github.com/doctor-agent/internal/prompt"
@@ -31,10 +32,10 @@ type Agent struct {
 	disclaimerService *safety.DisclaimerService
 	postVerifier      *safety.PostVerifier
 
-	sessionsMu    sync.RWMutex
-	sessions      map[string]*session.Session
-	sessionStore  session.Store // optional on-disk or database session store
-	sessLocks     sync.Map      // sessionID -> *sync.Mutex, serializes turns per session
+	sessionsMu   sync.RWMutex
+	sessions     map[string]*session.Session
+	sessionStore session.Store // optional on-disk or database session store
+	sessLocks    sync.Map      // sessionID -> *sync.Mutex, serializes turns per session
 }
 
 // New creates a fully initialized Agent.
@@ -59,7 +60,30 @@ func New(cfg *config.Config) (*Agent, error) {
 	}
 	slog.Info("LLM provider initialized", "provider", provider.Name())
 
-	retriever := knowledge.NewRetriever(store)
+	keywordRetriever := knowledge.NewRetriever(store)
+	var retriever knowledge.Retriever = keywordRetriever
+
+	if cfg.VectorStoreEnabled && cfg.EmbeddingEnabled {
+		embedder, embedErr := embedding.NewDefault(cfg.EmbeddingBaseURL, cfg.EmbeddingAPIKey, cfg.EmbeddingModel)
+		if embedErr != nil {
+			slog.Warn("Embedding provider unavailable; using keyword-only retrieval", "error", embedErr)
+		} else {
+			vecStore, vecErr := knowledge.NewVectorStore(knowledge.VectorStoreConfig{
+				Host:       cfg.VectorStoreHost,
+				Port:       cfg.VectorStorePort,
+				Collection: cfg.VectorCollection,
+				Dimensions: embedder.Dimensions(),
+			})
+			if vecErr != nil {
+				slog.Warn("Vector store unavailable; using keyword-only retrieval", "error", vecErr)
+			} else {
+				vectorRetriever := knowledge.NewVectorRetriever(vecStore, embedder, store)
+				retriever = knowledge.NewHybridRetriever(keywordRetriever, vectorRetriever, 0.4)
+				slog.Info("Hybrid retrieval enabled (keyword + vector)",
+					"embedder", embedder.Name(), "collection", cfg.VectorCollection)
+			}
+		}
+	}
 	composer := prompt.NewComposer()
 	registry := tools.NewRegistry()
 
@@ -469,7 +493,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 
 	// Build messages in provider-agnostic format with images
 	messages := a.sessionToMessages(sess)
-	
+
 	// Create user message with images
 	userMsg := llm.Message{Role: "user", Content: userMessage}
 	if len(images) > 0 {

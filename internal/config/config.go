@@ -1,10 +1,13 @@
 package config
 
 import (
+	"database/sql"
 	"fmt"
 	"os"
 	"strconv"
 	"strings"
+
+	_ "github.com/go-sql-driver/mysql"
 )
 
 // Config holds all application configuration loaded from environment variables.
@@ -63,8 +66,13 @@ type Config struct {
 	// directory; empty disables persistence (in-memory sessions only).
 	SessionDir string
 
-	// Database
-	DatabasePath string // SQLite database file path
+	// MariaDB (shared instance; knowledge store + app store as two databases)
+	MariaDBHost        string
+	MariaDBPort        int
+	MariaDBUser        string
+	MariaDBPassword    string
+	MariaDBKnowledgeDB string // knowledge store database name
+	MariaDBAppDB       string // users/sessions/feedback database name
 
 	// Admin
 	AdminPassword string // Initial admin password
@@ -120,7 +128,7 @@ func Load() *Config {
 		JudgeModel:   getEnv("POST_VERIFY_JUDGE_MODEL", ""),
 
 		ServerHost: getEnv("SERVER_HOST", "0.0.0.0"),
-		ServerPort: getEnv("SERVER_PORT", "8080"),
+		ServerPort: getEnv("SERVER_PORT", "7071"),
 
 		APIKey:      getEnv("API_KEY", ""),
 		CORSOrigins: splitCSV(getEnv("CORS_ORIGINS", "")),
@@ -128,16 +136,21 @@ func Load() *Config {
 
 		SessionDir: getEnv("SESSION_DIR", ""),
 
-		DatabasePath: getEnv("DATABASE_PATH", "doctor-agent.db"),
+		MariaDBHost:        getEnv("MARIA_DB_HOST", "localhost"),
+		MariaDBPort:        getEnvInt("MARIA_DB_PORT", 3306),
+		MariaDBUser:        getEnv("MARIA_DB_USER", "root"),
+		MariaDBPassword:    getEnv("MARIA_DB_PASSWORD", ""),
+		MariaDBKnowledgeDB: getEnv("MARIA_DB_KNOWLEDGE_DB", "doctor_knowledge"),
+		MariaDBAppDB:       getEnv("MARIA_DB_APP_DB", "doctor_agent"),
 
 		AdminPassword: getEnv("ADMIN_PASSWORD", ""),
 
-		VectorStoreEnabled: getEnvBool("VECTOR_STORE_ENABLED", false),
+		VectorStoreEnabled: getEnvBool("VECTOR_STORE_ENABLED", true),
 		VectorStoreHost:    getEnv("VECTOR_STORE_HOST", "localhost"),
 		VectorStorePort:    getEnvInt("VECTOR_STORE_PORT", 6333),
 		VectorCollection:   getEnv("VECTOR_COLLECTION", "medical_knowledge"),
 
-		EmbeddingEnabled: getEnvBool("EMBEDDING_ENABLED", false),
+		EmbeddingEnabled: getEnvBool("EMBEDDING_ENABLED", true),
 		EmbeddingBaseURL: getEnv("EMBEDDING_BASE_URL", ""),
 		EmbeddingAPIKey:  getEnv("EMBEDDING_API_KEY", ""),
 
@@ -184,6 +197,60 @@ func (c *Config) Validate() error {
 		return fmt.Errorf("EMBEDDING_PROVIDER is required when VECTOR_DB_PROVIDER=qdrant")
 	}
 
+	return nil
+}
+
+// MariaDBDSN builds a Go MySQL driver DSN for the given database name.
+func (c *Config) MariaDBDSN(database string) string {
+	return fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?parseTime=true&charset=utf8mb4&collation=utf8mb4_unicode_ci",
+		c.MariaDBUser, c.MariaDBPassword, c.MariaDBHost, c.MariaDBPort, database)
+}
+
+// KnowledgeDBDSN returns the DSN for the knowledge store. An explicit
+// KNOWLEDGE_DB_DSN env var overrides the composed MariaDB DSN.
+func (c *Config) KnowledgeDBDSN() string {
+	if d := os.Getenv("KNOWLEDGE_DB_DSN"); d != "" {
+		return d
+	}
+	return c.MariaDBDSN(c.MariaDBKnowledgeDB)
+}
+
+// AppDBDSN returns the DSN for the application store (users/sessions/feedback).
+func (c *Config) AppDBDSN() string {
+	if d := os.Getenv("APP_DB_DSN"); d != "" {
+		return d
+	}
+	return c.MariaDBDSN(c.MariaDBAppDB)
+}
+
+// MariaDBServerDSN returns a DSN without a database name, used to create
+// databases at startup (so deployment needs no external init SQL).
+func (c *Config) MariaDBServerDSN() string {
+	return fmt.Sprintf("%s:%s@tcp(%s:%d)/?parseTime=true&charset=utf8mb4&collation=utf8mb4_unicode_ci",
+		c.MariaDBUser, c.MariaDBPassword, c.MariaDBHost, c.MariaDBPort)
+}
+
+// EnsureKnowledgeDB creates the knowledge database if it does not exist.
+func (c *Config) EnsureKnowledgeDB() error {
+	return ensureDatabase(c.MariaDBServerDSN(), c.MariaDBKnowledgeDB)
+}
+
+// EnsureAppDB creates the application database if it does not exist.
+func (c *Config) EnsureAppDB() error {
+	return ensureDatabase(c.MariaDBServerDSN(), c.MariaDBAppDB)
+}
+
+func ensureDatabase(serverDSN, dbName string) error {
+	conn, err := sql.Open("mysql", serverDSN)
+	if err != nil {
+		return fmt.Errorf("open server connection: %w", err)
+	}
+	defer conn.Close()
+	if _, err := conn.Exec(fmt.Sprintf(
+		"CREATE DATABASE IF NOT EXISTS `%s` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci",
+		dbName)); err != nil {
+		return fmt.Errorf("create database %s: %w", dbName, err)
+	}
 	return nil
 }
 

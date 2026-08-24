@@ -1,0 +1,15 @@
+# 构建上下文排除（减小 docker build 体积与传输时间）
+external/
+bin/
+.git/
+*.md
+.env
+.env.example
+knowledge.db
+knowledge.db-*
+doctor-agent
+build/
+
+# 本地开发缓存
+**/gomodcache/
+.DS_Store

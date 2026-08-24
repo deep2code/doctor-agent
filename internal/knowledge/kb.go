@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	_ "modernc.org/sqlite"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 // KB is the SQLite-backed knowledge store. It replaces the previous
@@ -57,12 +57,14 @@ const (
 	DSVersion          = "version"
 )
 
-// OpenKB opens (and migrates) the knowledge database at the given path.
-func OpenKB(path string) (*KB, error) {
-	if path == "" {
-		path = "knowledge.db"
+// OpenKB opens (and migrates) the knowledge database using the given DSN.
+// The DSN is a Go MySQL driver data source name, e.g.
+// "user:pass@tcp(host:3306)/doctor_knowledge?parseTime=true".
+func OpenKB(dsn string) (*KB, error) {
+	if dsn == "" {
+		dsn = "root@tcp(localhost:3306)/doctor_knowledge?parseTime=true"
 	}
-	conn, err := sql.Open("sqlite", path+"?_journal_mode=WAL&_busy_timeout=5000")
+	conn, err := sql.Open("mysql", dsn)
 	if err != nil {
 		return nil, fmt.Errorf("opening knowledge db: %w", err)
 	}
@@ -70,17 +72,9 @@ func OpenKB(path string) (*KB, error) {
 		_ = conn.Close()
 		return nil, fmt.Errorf("pinging knowledge db: %w", err)
 	}
-	// Tune for bulk seeding throughput and read concurrency.
-	for _, p := range []string{
-		"PRAGMA synchronous=NORMAL",
-		"PRAGMA cache_size=-131072", // 128 MB page cache
-		"PRAGMA busy_timeout=10000",
-	} {
-		if _, err := conn.Exec(p); err != nil {
-			_ = conn.Close()
-			return nil, fmt.Errorf("setting pragma %q: %w", p, err)
-		}
-	}
+	// Reasonable connection pool for concurrent retrieval.
+	conn.SetMaxOpenConns(50)
+	conn.SetMaxIdleConns(10)
 	kb := &KB{conn: conn}
 	if err := kb.migrate(); err != nil {
 		_ = conn.Close()
@@ -132,11 +126,13 @@ func (kb *KB) Close() error {
 func (kb *KB) migrate() error {
 	queries := []string{
 		`CREATE TABLE IF NOT EXISTS kb_items (
-			dataset TEXT NOT NULL,
-			key     TEXT NOT NULL,
-			data    BLOB NOT NULL,
-			PRIMARY KEY (dataset, key)
-		)`,
+			id      BIGINT NOT NULL AUTO_INCREMENT,
+			dataset VARCHAR(64) NOT NULL,
+			` + "`key`" + ` VARCHAR(255) NOT NULL,
+			data    MEDIUMBLOB NOT NULL,
+			PRIMARY KEY (id),
+			UNIQUE KEY uq_kb_dataset_key (dataset, ` + "`key`" + `)
+		) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`,
 		`CREATE INDEX IF NOT EXISTS idx_kb_dataset ON kb_items(dataset)`,
 	}
 	for _, q := range queries {
@@ -154,7 +150,7 @@ func (kb *KB) Insert(dataset, key, searchText string, data []byte) error {
 	kb.mu.Lock()
 	defer kb.mu.Unlock()
 	_, err := kb.conn.Exec(
-		`INSERT OR REPLACE INTO kb_items (dataset, key, data) VALUES (?, ?, ?)`,
+		"INSERT INTO kb_items (dataset, `key`, data) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE data = VALUES(data)",
 		dataset, key, compressData(data),
 	)
 	return err
@@ -169,7 +165,7 @@ func (kb *KB) InsertBatch(dataset string, rows []KBRow) error {
 	if err != nil {
 		return err
 	}
-	stmt, err := tx.Prepare(`INSERT OR REPLACE INTO kb_items (dataset, key, data) VALUES (?, ?, ?)`)
+	stmt, err := tx.Prepare("INSERT INTO kb_items (dataset, `key`, data) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE data = VALUES(data)")
 	if err != nil {
 		_ = tx.Rollback()
 		return err
@@ -205,7 +201,7 @@ func (kb *KB) Get(dataset, key string) ([]byte, error) {
 	defer kb.mu.RUnlock()
 	var data []byte
 	err := kb.conn.QueryRow(
-		`SELECT data FROM kb_items WHERE dataset = ? AND key = ?`, dataset, key,
+		"SELECT `data` FROM kb_items WHERE `dataset` = ? AND `key` = ?", dataset, key,
 	).Scan(&data)
 	if err == sql.ErrNoRows {
 		return nil, nil
@@ -221,7 +217,7 @@ func (kb *KB) All(dataset string) ([][]byte, error) {
 	kb.mu.RLock()
 	defer kb.mu.RUnlock()
 	rows, err := kb.conn.Query(
-		`SELECT data FROM kb_items WHERE dataset = ? ORDER BY rowid`, dataset,
+		`SELECT data FROM kb_items WHERE dataset = ? ORDER BY id`, dataset,
 	)
 	if err != nil {
 		return nil, err
@@ -254,7 +250,7 @@ func (kb *KB) Search(dataset string, terms []string) ([][]byte, error) {
 	kb.mu.RLock()
 	defer kb.mu.RUnlock()
 	rows, err := kb.conn.Query(
-		`SELECT data FROM kb_items WHERE dataset = ? ORDER BY rowid`, dataset,
+		`SELECT data FROM kb_items WHERE dataset = ? ORDER BY id`, dataset,
 	)
 	if err != nil {
 		return nil, err

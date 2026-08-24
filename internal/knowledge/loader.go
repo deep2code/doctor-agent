@@ -1,131 +1,151 @@
 package knowledge
 
 import (
-	"bytes"
-	"compress/gzip"
-	"embed"
 	"encoding/json"
 	"fmt"
-	"io"
-	"io/fs"
+	"os"
 	"path/filepath"
 	"strings"
 	"sync"
 )
 
-//go:embed gz/*.gz
-var knowledgeFS embed.FS
-
-// Store holds all loaded medical knowledge entries in memory.
+// Store holds all loaded medical knowledge. Data is NOT embedded: the compiled
+// binary contains only logic. Each dataset is loaded lazily from an external
+// SQLite database (knowledge.db) the first time a retriever or tool needs it
+// (see the ensure* helpers), then cached in memory for the process lifetime.
+// Cold reads therefore hit the database directly; warm reads stay fast.
 type Store struct {
 	mu sync.RWMutex
 
-	MedicalEntries      []KnowledgeEntry
-	MedicalByID         map[string]*KnowledgeEntry
+	kb    *KB
+	onces sync.Map // dataset name -> *sync.Once
 
-	DrugEntries         []DrugEntry
-	DrugByID            map[string]*DrugEntry
-	DrugByGenericName   map[string]*DrugEntry
+	MedicalEntries []KnowledgeEntry
+	MedicalByID    map[string]*KnowledgeEntry
 
-	FoodRiskEntries     []FoodRiskEntry
-	FoodRiskByID        map[string]*FoodRiskEntry
+	DrugEntries       []DrugEntry
+	DrugByID          map[string]*DrugEntry
+	DrugByGenericName map[string]*DrugEntry
 
-	EmergencyRules      []EmergencyRule
-	LabTestReferences   []LabTestReference
-	LabTestByID         map[string]*LabTestReference
+	FoodRiskEntries []FoodRiskEntry
+	FoodRiskByID    map[string]*FoodRiskEntry
+
+	EmergencyRules    []EmergencyRule
+	LabTestReferences []LabTestReference
+	LabTestByID       map[string]*LabTestReference
 
 	// Reference index for post-verification: citation ID -> title
-	ReferenceIndex      map[string]string
+	ReferenceIndex map[string]string
 
 	// DataVersion describes the knowledge base release and its sources.
-	DataVersion         *DataVersion
+	DataVersion *DataVersion
 
 	// Literature corpus (Europe PMC abstracts) for reference_lookup-style
 	// retrieval with real DOI/PMID.
-	LiteratureTopics    []LiteratureTopic
-	LiteratureArticles  []LiteratureEntry
-	LiteratureByTopic   map[string][]*LiteratureEntry
+	LiteratureTopics   []LiteratureTopic
+	LiteratureArticles []LiteratureEntry
+	LiteratureByTopic  map[string][]*LiteratureEntry
 
 	// MSD Manual (默沙东诊疗手册) Chinese consumer pages, full-text search.
-	MSDEntries          []MSDEntry
+	MSDEntries []MSDEntry
 
 	// ClinVar subset: pathogenic/likely-pathogenic variants of the core
 	// China high-burden genes (HBB/HBA1/HBA2/G6PD).
-	ClinVarVariants     []ClinVarVariant
+	ClinVarVariants []ClinVarVariant
 
 	// MedlinePlus consumer health encyclopedia (English), full-text search.
-	MedlinePlusEntries  []MedlinePlusEntry
+	MedlinePlusEntries []MedlinePlusEntry
 
 	// National medical-insurance drug catalogue (国家医保药品目录).
-	MedinsDrugs         []MedinsDrug
+	MedinsDrugs []MedinsDrug
 
 	// WHO Model List of Essential Medicines (24th list, 2025).
-	EMLEntries          []EMLEntry
+	EMLEntries []EMLEntry
 
 	// FDA drug labels (DailyMed/OpenFDA), curated Chinese summaries.
-	FDALabels           []FDALabelEntry
+	FDALabels []FDALabelEntry
 
 	// NHC official 诊疗方案/指南 (国家卫健委), Chinese full text.
-	NHCGuides           []NHCGuide
+	NHCGuides []NHCGuide
 
 	// FHS parenting pages (香港卫生署家庭健康服务), Simplified Chinese full text.
-	FHSGuides           []FHSGuide
+	FHSGuides []FHSGuide
 
 	// AAP parenting articles (healthychildren.org), English full text.
-	AAPEntries          []AAPEntry
+	AAPEntries []AAPEntry
 
 	// Health myths and misconceptions (日常错误观念/习惯).
-	HealthMyths         []HealthMyth
+	HealthMyths []HealthMyth
 
 	// China National Essential Medicines List (国家基本药物目录).
-	EssentialMedicines  []EssentialMedicine
+	EssentialMedicines []EssentialMedicine
 
 	// ICD-10 disease classification (国家临床版2.0疾病诊断编码).
-	ICD10Diseases       []ICD10Disease
-	ICD10ByCode         map[string]*ICD10Disease
+	ICD10Diseases []ICD10Disease
+	ICD10ByCode   map[string]*ICD10Disease
 
 	// NMPA drug catalogue (国家药品编码本位码信息).
-	NMPADrugs           []NMPADrug
-	NMPAByName          map[string]*NMPADrug
+	NMPADrugs  []NMPADrug
+	NMPAByName map[string]*NMPADrug
 
 	// Medical knowledge graph triples (OpenCMKG).
-	MedicalKGTriples    []MedicalKGTriple
+	MedicalKGTriples []MedicalKGTriple
 
 	// Medical dialogue seeds (MedicalGPT-zh).
-	MedicalDialogues    []MedicalDialogue
+	MedicalDialogues []MedicalDialogue
 
 	// Disease encyclopedias (CMeKG/QASystemOnMedicalKG).
-	DiseaseEncyclopedias    []DiseaseEncyclopedia
+	DiseaseEncyclopedias       []DiseaseEncyclopedia
 	DiseaseEncyclopediasByName map[string]*DiseaseEncyclopedia
 
 	// CPubMed-KG triples.
-	CPubMedTriples     []CPubMedTriple
-	CPubMedByHead      map[string][]*CPubMedTriple
-	CPubMedByRelation  map[string][]*CPubMedTriple
+	CPubMedTriples    []CPubMedTriple
+	CPubMedByHead     map[string][]*CPubMedTriple
+	CPubMedByRelation map[string][]*CPubMedTriple
 
 	// Huatuo26M-Lite QA pairs (华佗26M医疗问答).
-	HuatuoQAPairs      *HuatuoQAPairs
+	HuatuoQAPairs *HuatuoQAPairs
 
 	// Medical QA pairs (中文医疗对话数据集).
-	MedicalQAData      *MedicalQAData
+	MedicalQAData *MedicalQAData
 
 	// TTD data (Therapeutic Target Database).
-	TTDData            *TTDData
+	TTDData *TTDData
 
 	// SIDER drug side effects and indications.
-	SIDERData          *SIDERDataSet
-
-	loaded bool
+	SIDERData *SIDERDataSet
 }
 
 var globalStore *Store
 var loadOnce sync.Once
 var loadErr error
 
-// Load loads all knowledge files from the embedded filesystem.
+// Load opens the knowledge database and returns a (lazily populated) Store.
+// The database path is taken from KNOWLEDGE_DB, falling back to "knowledge.db".
+// No knowledge data is embedded in the binary; datasets are fetched from the
+// database on first use.
 func Load() (*Store, error) {
 	loadOnce.Do(func() {
-		globalStore, loadErr = doLoad()
+		path := resolveKBPath()
+		var kb *KB
+		kb, loadErr = OpenKB(path)
+		if loadErr == nil {
+			globalStore = &Store{
+				kb:                         kb,
+				MedicalByID:                make(map[string]*KnowledgeEntry),
+				DrugByID:                   make(map[string]*DrugEntry),
+				DrugByGenericName:          make(map[string]*DrugEntry),
+				FoodRiskByID:               make(map[string]*FoodRiskEntry),
+				LabTestByID:                make(map[string]*LabTestReference),
+				ReferenceIndex:             make(map[string]string),
+				LiteratureByTopic:          make(map[string][]*LiteratureEntry),
+				ICD10ByCode:                make(map[string]*ICD10Disease),
+				NMPAByName:                 make(map[string]*NMPADrug),
+				DiseaseEncyclopediasByName: make(map[string]*DiseaseEncyclopedia),
+				CPubMedByHead:              make(map[string][]*CPubMedTriple),
+				CPubMedByRelation:          make(map[string][]*CPubMedTriple),
+			}
+		}
 	})
 	if loadErr != nil {
 		return nil, loadErr
@@ -133,461 +153,394 @@ func Load() (*Store, error) {
 	return globalStore, nil
 }
 
-func doLoad() (*Store, error) {
-	store := &Store{
-		MedicalByID:       make(map[string]*KnowledgeEntry),
-		DrugByID:          make(map[string]*DrugEntry),
-		DrugByGenericName: make(map[string]*DrugEntry),
-		FoodRiskByID:      make(map[string]*FoodRiskEntry),
-		LabTestByID:       make(map[string]*LabTestReference),
-		ReferenceIndex:    make(map[string]string),
-		LiteratureByTopic: make(map[string][]*LiteratureEntry),
-		ICD10ByCode:       make(map[string]*ICD10Disease),
-		NMPAByName:        make(map[string]*NMPADrug),
-		DiseaseEncyclopediasByName: make(map[string]*DiseaseEncyclopedia),
-		CPubMedByHead:     make(map[string][]*CPubMedTriple),
-		CPubMedByRelation: make(map[string][]*CPubMedTriple),
+// resolveKBPath finds the knowledge database. An explicit KNOWLEDGE_DB env var
+// wins; otherwise we walk up from the current working directory looking for
+// knowledge.db so tests (run from package subdirs) and the server (run from the
+// repo root) both locate a single seeded database.
+func resolveKBPath() string {
+	if p := os.Getenv("KNOWLEDGE_DB"); p != "" {
+		return p
 	}
+	dir, err := os.Getwd()
+	if err == nil {
+		for {
+			candidate := filepath.Join(dir, "knowledge.db")
+			if _, statErr := os.Stat(candidate); statErr == nil {
+				return candidate
+			}
+			parent := filepath.Dir(dir)
+			if parent == dir {
+				break
+			}
+			dir = parent
+		}
+	}
+	return "knowledge.db"
+}
 
-	err := fs.WalkDir(knowledgeFS, ".", func(path string, d fs.DirEntry, err error) error {
-		if err != nil {
+// Close releases the underlying database connection.
+func (s *Store) Close() error {
+	if s.kb == nil {
+		return nil
+	}
+	return s.kb.Close()
+}
+
+// once returns the sync.Once associated with a dataset name.
+func (s *Store) once(name string) *sync.Once {
+	actual, _ := s.onces.LoadOrStore(name, &sync.Once{})
+	return actual.(*sync.Once)
+}
+
+// ensure runs fn exactly once per dataset name.
+func (s *Store) ensure(name string, fn func() error) error {
+	var err error
+	s.once(name).Do(func() { err = fn() })
+	return err
+}
+
+// loadDataset reads every row of a dataset from the database and ingests it.
+func (s *Store) loadDataset(name string) error {
+	rows, err := s.kb.All(name)
+	if err != nil {
+		return err
+	}
+	for _, raw := range rows {
+		if err := s.ingest(name, raw); err != nil {
+			return fmt.Errorf("ingesting %s: %w", name, err)
+		}
+	}
+	return nil
+}
+
+// ingest appends a single database row to the appropriate Store field.
+func (s *Store) ingest(name string, raw []byte) error {
+	switch name {
+	case DSMedical:
+		var e KnowledgeEntry
+		if err := json.Unmarshal(raw, &e); err != nil {
 			return err
 		}
-		if d.IsDir() {
+		s.MedicalEntries = append(s.MedicalEntries, e)
+		s.MedicalByID[e.ID] = &s.MedicalEntries[len(s.MedicalEntries)-1]
+		for j, c := range e.Citations {
+			s.ReferenceIndex[fmt.Sprintf("%s-cite-%d-%d", e.ID, c.Year, j)] = c.Title
+		}
+	case DSDrug:
+		var e DrugEntry
+		if err := json.Unmarshal(raw, &e); err != nil {
+			return err
+		}
+		s.DrugEntries = append(s.DrugEntries, e)
+		s.DrugByID[e.ID] = &s.DrugEntries[len(s.DrugEntries)-1]
+		s.DrugByGenericName[e.GenericNameEN] = &s.DrugEntries[len(s.DrugEntries)-1]
+		s.DrugByGenericName[e.GenericNameZH] = &s.DrugEntries[len(s.DrugEntries)-1]
+	case DSEmergency:
+		var rules []EmergencyRule
+		if err := json.Unmarshal(raw, &rules); err != nil {
+			return err
+		}
+		s.EmergencyRules = rules
+	case DSFoodRisk:
+		var e FoodRiskEntry
+		if err := json.Unmarshal(raw, &e); err != nil {
+			return err
+		}
+		s.FoodRiskEntries = append(s.FoodRiskEntries, e)
+		s.FoodRiskByID[e.ID] = &s.FoodRiskEntries[len(s.FoodRiskEntries)-1]
+	case DSLabTest:
+		var e LabTestReference
+		if err := json.Unmarshal(raw, &e); err != nil {
+			return err
+		}
+		s.LabTestReferences = append(s.LabTestReferences, e)
+		s.LabTestByID[e.ID] = &s.LabTestReferences[len(s.LabTestReferences)-1]
+	case DSLiterature:
+		// Topics are stored as a single row keyed "topics"; articles as rows
+		// keyed by their ID.
+		var topics []LiteratureTopic
+		if err := json.Unmarshal(raw, &topics); err == nil && len(topics) > 0 {
+			s.LiteratureTopics = topics
 			return nil
 		}
-
-		data, err := knowledgeFS.ReadFile(path)
-		if err != nil {
-			return fmt.Errorf("reading %s: %w", path, err)
+		var a LiteratureEntry
+		if err := json.Unmarshal(raw, &a); err != nil {
+			return err
 		}
-
-		// Embedded files are gzip-compressed (see external/make_gz.py);
-		// decompress before parsing. The switch below matches the source
-		// filename without the ".gz" suffix.
-		zr, err := gzip.NewReader(bytes.NewReader(data))
-		if err != nil {
-			return fmt.Errorf("opening gzip %s: %w", path, err)
+		s.LiteratureArticles = append(s.LiteratureArticles, a)
+		s.LiteratureByTopic[a.Topic] = append(s.LiteratureByTopic[a.Topic], &s.LiteratureArticles[len(s.LiteratureArticles)-1])
+	case DSMSD:
+		var e MSDEntry
+		if err := json.Unmarshal(raw, &e); err != nil {
+			return err
 		}
-		raw, readErr := io.ReadAll(zr)
-		closeErr := zr.Close()
-		if readErr != nil {
-			return fmt.Errorf("decompressing %s: %w", path, readErr)
+		s.MSDEntries = append(s.MSDEntries, e)
+	case DSClinVar:
+		var v ClinVarVariant
+		if err := json.Unmarshal(raw, &v); err != nil {
+			return err
 		}
-		if closeErr != nil {
-			return fmt.Errorf("closing gzip %s: %w", path, closeErr)
+		s.ClinVarVariants = append(s.ClinVarVariants, v)
+	case DSMedlinePlus:
+		var e MedlinePlusEntry
+		if err := json.Unmarshal(raw, &e); err != nil {
+			return err
 		}
-		data = raw
-
-		base := strings.TrimSuffix(filepath.Base(path), ".gz")
-		switch base {
-		case "thalassemia.json", "g6pd_deficiency.json",
-			"nasopharyngeal_carcinoma.json", "hepatitis_b.json",
-			"lactose_intolerance.json", "aldh2_deficiency.json",
-			"dengue.json", "fungal_infections.json":
-			var entries []KnowledgeEntry
-			if err := json.Unmarshal(data, &entries); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range entries {
-				e := &entries[i]
-				store.MedicalEntries = append(store.MedicalEntries, *e)
-				store.MedicalByID[e.ID] = e
-				for j, c := range e.Citations {
-					key := fmt.Sprintf("%s-cite-%d-%d", e.ID, c.Year, j)
-					store.ReferenceIndex[key] = c.Title
-				}
-			}
-
-		case "drug_contraindications.json":
-			var entries []DrugEntry
-			if err := json.Unmarshal(data, &entries); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range entries {
-				e := &entries[i]
-				store.DrugEntries = append(store.DrugEntries, *e)
-				store.DrugByID[e.ID] = e
-				store.DrugByGenericName[e.GenericNameEN] = e
-				store.DrugByGenericName[e.GenericNameZH] = e
-			}
-
-		case "emergency_triage.json":
-			var rules []EmergencyRule
-			if err := json.Unmarshal(data, &rules); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			store.EmergencyRules = rules
-
-		case "food_risk.json":
-			var entries []FoodRiskEntry
-			if err := json.Unmarshal(data, &entries); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range entries {
-				e := &entries[i]
-				store.FoodRiskEntries = append(store.FoodRiskEntries, *e)
-				store.FoodRiskByID[e.ID] = e
-			}
-
-		case "lab_tests.json":
-			var entries []LabTestReference
-			if err := json.Unmarshal(data, &entries); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range entries {
-				e := &entries[i]
-				store.LabTestReferences = append(store.LabTestReferences, *e)
-				store.LabTestByID[e.ID] = e
-			}
-
-		case "version.json":
-			var v DataVersion
-			if err := json.Unmarshal(data, &v); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			store.DataVersion = &v
-
-		case "literature.json":
-			var ls LiteratureSet
-			if err := json.Unmarshal(data, &ls); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			// Cross-validate the corpus: every article must belong to a
-			// declared topic and carry a traceable DOI or PMID.
-			topicIDs := make(map[string]bool, len(ls.Topics))
-			for _, t := range ls.Topics {
-				topicIDs[t.ID] = true
-			}
-			for i := range ls.Articles {
-				a := &ls.Articles[i]
-				if a.Title == "" {
-					return fmt.Errorf("literature.json: article %s missing title", a.ID)
-				}
-				if !topicIDs[a.Topic] {
-					return fmt.Errorf("literature.json: article %s references unknown topic %q", a.ID, a.Topic)
-				}
-				if a.DOI == "" && a.PMID == "" {
-					return fmt.Errorf("literature.json: article %s has neither DOI nor PMID", a.ID)
-				}
-			}
-			store.LiteratureTopics = ls.Topics
-			store.LiteratureArticles = ls.Articles
-			for i := range ls.Articles {
-				a := &ls.Articles[i]
-				store.LiteratureByTopic[a.Topic] = append(store.LiteratureByTopic[a.Topic], a)
-			}
-
-		case "who_factsheets.json":
-			var entries []KnowledgeEntry
-			if err := json.Unmarshal(data, &entries); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range entries {
-				e := &entries[i]
-				store.MedicalEntries = append(store.MedicalEntries, *e)
-				store.MedicalByID[e.ID] = e
-				for j, c := range e.Citations {
-					key := fmt.Sprintf("%s-cite-%d-%d", e.ID, c.Year, j)
-					store.ReferenceIndex[key] = c.Title
-				}
-			}
-
-		case "who_vaccines.json":
-			var entries []KnowledgeEntry
-			if err := json.Unmarshal(data, &entries); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range entries {
-				e := &entries[i]
-				store.MedicalEntries = append(store.MedicalEntries, *e)
-				store.MedicalByID[e.ID] = e
-				for j, c := range e.Citations {
-					key := fmt.Sprintf("%s-cite-%d-%d", e.ID, c.Year, j)
-					store.ReferenceIndex[key] = c.Title
-				}
-			}
-
-		case "china_vaccines.json":
-			var entries []KnowledgeEntry
-			if err := json.Unmarshal(data, &entries); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range entries {
-				e := &entries[i]
-				store.MedicalEntries = append(store.MedicalEntries, *e)
-				store.MedicalByID[e.ID] = e
-				for j, c := range e.Citations {
-					key := fmt.Sprintf("%s-cite-%d-%d", e.ID, c.Year, j)
-					store.ReferenceIndex[key] = c.Title
-				}
-			}
-
-		case "feeding_guidelines.json":
-			var entries []KnowledgeEntry
-			if err := json.Unmarshal(data, &entries); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range entries {
-				e := &entries[i]
-				store.MedicalEntries = append(store.MedicalEntries, *e)
-				store.MedicalByID[e.ID] = e
-				for j, c := range e.Citations {
-					key := fmt.Sprintf("%s-cite-%d-%d", e.ID, c.Year, j)
-					store.ReferenceIndex[key] = c.Title
-				}
-			}
-
-		case "cdc_entries.json",
-			"diabetes.json", "hypertension.json", "cardiovascular.json",
-			"copd.json", "tuberculosis.json", "hp_infection.json",
-			"common_diseases.json", "common_diseases_batch2.json",
-			"common_diseases_batch3.json", "common_diseases_batch4.json":
-			var entries []KnowledgeEntry
-			if err := json.Unmarshal(data, &entries); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range entries {
-				e := &entries[i]
-				store.MedicalEntries = append(store.MedicalEntries, *e)
-				store.MedicalByID[e.ID] = e
-				for j, c := range e.Citations {
-					key := fmt.Sprintf("%s-cite-%d-%d", e.ID, c.Year, j)
-					store.ReferenceIndex[key] = c.Title
-				}
-			}
-
-		case "msd_manual.json":
-			var set MSDSet
-			if err := json.Unmarshal(data, &set); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range set.Entries {
-				if set.Entries[i].Title == "" || set.Entries[i].Content == "" {
-					return fmt.Errorf("msd_manual.json: entry %d missing title/content", i)
-				}
-			}
-			store.MSDEntries = set.Entries
-
-		case "clinvar.json":
-			var set ClinVarSet
-			if err := json.Unmarshal(data, &set); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range set.Variants {
-				if set.Variants[i].Variation == "" || set.Variants[i].Gene == "" {
-					return fmt.Errorf("clinvar.json: variant %d missing variation/gene", i)
-				}
-			}
-			store.ClinVarVariants = set.Variants
-
-		case "medlineplus.json":
-			var set MedlinePlusSet
-			if err := json.Unmarshal(data, &set); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range set.Entries {
-				if set.Entries[i].Title == "" || set.Entries[i].Content == "" {
-					return fmt.Errorf("medlineplus.json: entry %d missing title/content", i)
-				}
-			}
-			store.MedlinePlusEntries = set.Entries
-
-		case "medins_drugs.json":
-			var set MedinsSet
-			if err := json.Unmarshal(data, &set); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range set.Drugs {
-				if set.Drugs[i].Name == "" {
-					return fmt.Errorf("medins_drugs.json: drug %d missing name", i)
-				}
-			}
-			store.MedinsDrugs = set.Drugs
-
-		case "who_eml.json":
-			var set EMLSet
-			if err := json.Unmarshal(data, &set); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range set.Entries {
-				if set.Entries[i].Name == "" {
-					return fmt.Errorf("who_eml.json: entry %d missing name", i)
-				}
-			}
-			store.EMLEntries = set.Entries
-
-		case "fda_drug_labels.json":
-			var set FDALabelSet
-			if err := json.Unmarshal(data, &set); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range set.Drugs {
-				if set.Drugs[i].NameZH == "" {
-					return fmt.Errorf("fda_drug_labels.json: drug %d missing name_zh", i)
-				}
-			}
-			store.FDALabels = set.Drugs
-
-		case "nhc_guides.json":
-			var set NHCGuideSet
-			if err := json.Unmarshal(data, &set); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range set.Entries {
-				if set.Entries[i].Title == "" || set.Entries[i].Content == "" {
-					return fmt.Errorf("nhc_guides.json: entry %d missing title/content", i)
-				}
-			}
-			store.NHCGuides = set.Entries
-
-		case "fhs_guides.json":
-			var set FHSGuideSet
-			if err := json.Unmarshal(data, &set); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range set.Entries {
-				if set.Entries[i].Title == "" || set.Entries[i].Content == "" {
-					return fmt.Errorf("fhs_guides.json: entry %d missing title/content", i)
-				}
-			}
-			store.FHSGuides = set.Entries
-
-		case "aap_articles.json":
-			var set AAPSet
-			if err := json.Unmarshal(data, &set); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range set.Entries {
-				if set.Entries[i].Title == "" || set.Entries[i].Content == "" {
-					return fmt.Errorf("aap_articles.json: entry %d missing title/content", i)
-				}
-			}
-			store.AAPEntries = set.Entries
-
-		case "health_myths.json":
-			var myths []HealthMyth
-			if err := json.Unmarshal(data, &myths); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			store.HealthMyths = myths
-
-		case "essential_medicines.json":
-			var drugs []EssentialMedicine
-			if err := json.Unmarshal(data, &drugs); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range drugs {
-				if drugs[i].NameZH == "" {
-					return fmt.Errorf("essential_medicines.json: drug %d missing name_zh", i)
-				}
-			}
-			store.EssentialMedicines = drugs
-
-		case "icd10_diseases.json":
-			var set ICD10DiseaseSet
-			if err := json.Unmarshal(data, &set); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range set.Diseases {
-				d := &set.Diseases[i]
-				store.ICD10Diseases = append(store.ICD10Diseases, *d)
-				store.ICD10ByCode[d.Code] = d
-			}
-
-		case "nmpa_drugs.json":
-			var set NMPADrugSet
-			if err := json.Unmarshal(data, &set); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range set.Drugs {
-				d := &set.Drugs[i]
-				store.NMPADrugs = append(store.NMPADrugs, *d)
-				store.NMPAByName[d.NameZH] = d
-			}
-
-		case "medical_kg_triples.json":
-			var set MedicalKGSet
-			if err := json.Unmarshal(data, &set); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			store.MedicalKGTriples = set.Triples
-
-		case "medical_dialogues.json":
-			var set MedicalDialogueSet
-			if err := json.Unmarshal(data, &set); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			store.MedicalDialogues = set.Dialogues
-
-		case "disease_encyclopedias.json":
-			var set DiseaseEncyclopediaSet
-			if err := json.Unmarshal(data, &set); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range set.Diseases {
-				d := &set.Diseases[i]
-				store.DiseaseEncyclopedias = append(store.DiseaseEncyclopedias, *d)
-				store.DiseaseEncyclopediasByName[d.NameZH] = d
-			}
-
-		case "cpubmed_kg.json":
-			var set CPubMedKGSet
-			if err := json.Unmarshal(data, &set); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			for i := range set.Triples {
-				t := &set.Triples[i]
-				store.CPubMedTriples = append(store.CPubMedTriples, *t)
-				store.CPubMedByHead[t.Head] = append(store.CPubMedByHead[t.Head], t)
-				store.CPubMedByRelation[t.Relation] = append(store.CPubMedByRelation[t.Relation], t)
-			}
-
-		case "huatuo_qa.json":
-			var hp HuatuoQAPairs
-			if err := json.Unmarshal(data, &hp); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			store.HuatuoQAPairs = &hp
-
-		case "medical_qa_pairs.json":
-			var mq MedicalQAData
-			if err := json.Unmarshal(data, &mq); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			store.MedicalQAData = &mq
-
-		case "ttd_data.json":
-			var ttd TTDData
-			if err := json.Unmarshal(data, &ttd); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			store.TTDData = &ttd
-
-		case "sider_drugs.json":
-			var sider SIDERDataSet
-			if err := json.Unmarshal(data, &sider); err != nil {
-				return fmt.Errorf("parsing %s: %w", path, err)
-			}
-			store.SIDERData = &sider
-
-		default:
-			// Unknown/extra data files are intentionally ignored here; add a
-			// case above when wiring a new knowledge file.
+		s.MedlinePlusEntries = append(s.MedlinePlusEntries, e)
+	case DSMedins:
+		var d MedinsDrug
+		if err := json.Unmarshal(raw, &d); err != nil {
+			return err
 		}
-
-		return nil
-	})
-	if err != nil {
-		return nil, fmt.Errorf("loading knowledge: %w", err)
+		s.MedinsDrugs = append(s.MedinsDrugs, d)
+	case DSEML:
+		var e EMLEntry
+		if err := json.Unmarshal(raw, &e); err != nil {
+			return err
+		}
+		s.EMLEntries = append(s.EMLEntries, e)
+	case DSFDA:
+		var e FDALabelEntry
+		if err := json.Unmarshal(raw, &e); err != nil {
+			return err
+		}
+		s.FDALabels = append(s.FDALabels, e)
+	case DSNHC:
+		var e NHCGuide
+		if err := json.Unmarshal(raw, &e); err != nil {
+			return err
+		}
+		s.NHCGuides = append(s.NHCGuides, e)
+	case DSFHS:
+		var e FHSGuide
+		if err := json.Unmarshal(raw, &e); err != nil {
+			return err
+		}
+		s.FHSGuides = append(s.FHSGuides, e)
+	case DSAAP:
+		var e AAPEntry
+		if err := json.Unmarshal(raw, &e); err != nil {
+			return err
+		}
+		s.AAPEntries = append(s.AAPEntries, e)
+	case DSHealthMyths:
+		var m HealthMyth
+		if err := json.Unmarshal(raw, &m); err != nil {
+			return err
+		}
+		s.HealthMyths = append(s.HealthMyths, m)
+	case DSEssential:
+		var d EssentialMedicine
+		if err := json.Unmarshal(raw, &d); err != nil {
+			return err
+		}
+		s.EssentialMedicines = append(s.EssentialMedicines, d)
+	case DSICD10:
+		var d ICD10Disease
+		if err := json.Unmarshal(raw, &d); err != nil {
+			return err
+		}
+		s.ICD10Diseases = append(s.ICD10Diseases, d)
+		s.ICD10ByCode[d.Code] = &s.ICD10Diseases[len(s.ICD10Diseases)-1]
+	case DSNMPA:
+		var d NMPADrug
+		if err := json.Unmarshal(raw, &d); err != nil {
+			return err
+		}
+		s.NMPADrugs = append(s.NMPADrugs, d)
+		s.NMPAByName[d.NameZH] = &s.NMPADrugs[len(s.NMPADrugs)-1]
+	case DSMedicalKG:
+		var t MedicalKGTriple
+		if err := json.Unmarshal(raw, &t); err != nil {
+			return err
+		}
+		s.MedicalKGTriples = append(s.MedicalKGTriples, t)
+	case DSMedicalDialogues:
+		var d MedicalDialogue
+		if err := json.Unmarshal(raw, &d); err != nil {
+			return err
+		}
+		s.MedicalDialogues = append(s.MedicalDialogues, d)
+	case DSDiseaseEnc:
+		var d DiseaseEncyclopedia
+		if err := json.Unmarshal(raw, &d); err != nil {
+			return err
+		}
+		s.DiseaseEncyclopedias = append(s.DiseaseEncyclopedias, d)
+		s.DiseaseEncyclopediasByName[d.NameZH] = &s.DiseaseEncyclopedias[len(s.DiseaseEncyclopedias)-1]
+	case DSCPubMed:
+		var t CPubMedTriple
+		if err := json.Unmarshal(raw, &t); err != nil {
+			return err
+		}
+		s.CPubMedTriples = append(s.CPubMedTriples, t)
+		s.CPubMedByHead[t.Head] = append(s.CPubMedByHead[t.Head], &s.CPubMedTriples[len(s.CPubMedTriples)-1])
+		s.CPubMedByRelation[t.Relation] = append(s.CPubMedByRelation[t.Relation], &s.CPubMedTriples[len(s.CPubMedTriples)-1])
+	case DSHuatuo:
+		var qa HuatuoQA
+		if err := json.Unmarshal(raw, &qa); err != nil {
+			return err
+		}
+		if s.HuatuoQAPairs == nil {
+			s.HuatuoQAPairs = &HuatuoQAPairs{}
+		}
+		s.HuatuoQAPairs.QAPairs = append(s.HuatuoQAPairs.QAPairs, qa)
+	case DSMedicalQA:
+		var qa MedicalQAPair
+		if err := json.Unmarshal(raw, &qa); err != nil {
+			return err
+		}
+		if s.MedicalQAData == nil {
+			s.MedicalQAData = &MedicalQAData{}
+		}
+		s.MedicalQAData.QAPairs = append(s.MedicalQAData.QAPairs, qa)
+	case DSTTD:
+		var ttd TTDData
+		if err := json.Unmarshal(raw, &ttd); err != nil {
+			return err
+		}
+		s.TTDData = &ttd
+	case DSSIDER:
+		var sider SIDERDataSet
+		if err := json.Unmarshal(raw, &sider); err != nil {
+			return err
+		}
+		s.SIDERData = &sider
+	case DSVersion:
+		var v DataVersion
+		if err := json.Unmarshal(raw, &v); err != nil {
+			return err
+		}
+		s.DataVersion = &v
+	default:
+		// Unknown dataset — ignore.
 	}
+	return nil
+}
 
-	store.loaded = true
-	return store, nil
+// ensure* load a single dataset from the database on first use.
+func (s *Store) ensureMedical() error {
+	return s.ensure(DSMedical, func() error { return s.loadDataset(DSMedical) })
+}
+func (s *Store) ensureDrug() error {
+	return s.ensure(DSDrug, func() error { return s.loadDataset(DSDrug) })
+}
+func (s *Store) ensureEmergency() error {
+	return s.ensure(DSEmergency, func() error { return s.loadDataset(DSEmergency) })
+}
+func (s *Store) ensureFoodRisk() error {
+	return s.ensure(DSFoodRisk, func() error { return s.loadDataset(DSFoodRisk) })
+}
+func (s *Store) ensureLabTest() error {
+	return s.ensure(DSLabTest, func() error { return s.loadDataset(DSLabTest) })
+}
+func (s *Store) ensureLiterature() error {
+	return s.ensure(DSLiterature, func() error { return s.loadDataset(DSLiterature) })
+}
+func (s *Store) ensureMSD() error {
+	return s.ensure(DSMSD, func() error { return s.loadDataset(DSMSD) })
+}
+func (s *Store) ensureClinVar() error {
+	return s.ensure(DSClinVar, func() error { return s.loadDataset(DSClinVar) })
+}
+func (s *Store) ensureMedlinePlus() error {
+	return s.ensure(DSMedlinePlus, func() error { return s.loadDataset(DSMedlinePlus) })
+}
+func (s *Store) ensureMedins() error {
+	return s.ensure(DSMedins, func() error { return s.loadDataset(DSMedins) })
+}
+func (s *Store) ensureEML() error {
+	return s.ensure(DSEML, func() error { return s.loadDataset(DSEML) })
+}
+func (s *Store) ensureFDA() error {
+	return s.ensure(DSFDA, func() error { return s.loadDataset(DSFDA) })
+}
+func (s *Store) ensureNHC() error {
+	return s.ensure(DSNHC, func() error { return s.loadDataset(DSNHC) })
+}
+func (s *Store) ensureFHS() error {
+	return s.ensure(DSFHS, func() error { return s.loadDataset(DSFHS) })
+}
+func (s *Store) ensureAAP() error {
+	return s.ensure(DSAAP, func() error { return s.loadDataset(DSAAP) })
+}
+func (s *Store) ensureHealthMyths() error {
+	return s.ensure(DSHealthMyths, func() error { return s.loadDataset(DSHealthMyths) })
+}
+func (s *Store) ensureEssential() error {
+	return s.ensure(DSEssential, func() error { return s.loadDataset(DSEssential) })
+}
+func (s *Store) ensureICD10() error {
+	return s.ensure(DSICD10, func() error { return s.loadDataset(DSICD10) })
+}
+func (s *Store) ensureNMPA() error {
+	return s.ensure(DSNMPA, func() error { return s.loadDataset(DSNMPA) })
+}
+func (s *Store) ensureMedicalKG() error {
+	return s.ensure(DSMedicalKG, func() error { return s.loadDataset(DSMedicalKG) })
+}
+func (s *Store) ensureMedicalDialogues() error {
+	return s.ensure(DSMedicalDialogues, func() error { return s.loadDataset(DSMedicalDialogues) })
+}
+func (s *Store) ensureDiseaseEnc() error {
+	return s.ensure(DSDiseaseEnc, func() error { return s.loadDataset(DSDiseaseEnc) })
+}
+func (s *Store) ensureCPubMed() error {
+	return s.ensure(DSCPubMed, func() error { return s.loadDataset(DSCPubMed) })
+}
+func (s *Store) ensureHuatuo() error {
+	return s.ensure(DSHuatuo, func() error { return s.loadDataset(DSHuatuo) })
+}
+func (s *Store) ensureMedicalQA() error {
+	return s.ensure(DSMedicalQA, func() error { return s.loadDataset(DSMedicalQA) })
+}
+func (s *Store) ensureTTD() error {
+	return s.ensure(DSTTD, func() error { return s.loadDataset(DSTTD) })
+}
+func (s *Store) ensureSIDER() error {
+	return s.ensure(DSSIDER, func() error { return s.loadDataset(DSSIDER) })
+}
+func (s *Store) ensureVersion() error {
+	return s.ensure(DSVersion, func() error { return s.loadDataset(DSVersion) })
+}
+
+// ensureAll loads every dataset from the database into memory. It is intended
+// for maintenance paths (knowledge verification, vector sync) that must operate
+// over the whole corpus at once; runtime retrieval uses per-dataset lazy loads.
+func (s *Store) ensureAll() {
+	_ = s.ensureMedical()
+	_ = s.ensureDrug()
+	_ = s.ensureEmergency()
+	_ = s.ensureFoodRisk()
+	_ = s.ensureLabTest()
+	_ = s.ensureLiterature()
+	_ = s.ensureMSD()
+	_ = s.ensureNHC()
+	_ = s.ensureFHS()
+	_ = s.ensureAAP()
+	_ = s.ensureClinVar()
+	_ = s.ensureMedlinePlus()
+	_ = s.ensureMedins()
+	_ = s.ensureEML()
+	_ = s.ensureFDA()
+	_ = s.ensureICD10()
+	_ = s.ensureNMPA()
+	_ = s.ensureMedicalKG()
+	_ = s.ensureMedicalDialogues()
+	_ = s.ensureDiseaseEnc()
+	_ = s.ensureCPubMed()
+	_ = s.ensureHuatuo()
+	_ = s.ensureMedicalQA()
+	_ = s.ensureTTD()
+	_ = s.ensureSIDER()
+	_ = s.ensureHealthMyths()
+	_ = s.ensureEssential()
+	_ = s.ensureVersion()
 }
 
 // GetMedicalByID retrieves a medical knowledge entry by ID.
 func (s *Store) GetMedicalByID(id string) *KnowledgeEntry {
+	_ = s.ensureMedical()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	return s.MedicalByID[id]
@@ -595,6 +548,7 @@ func (s *Store) GetMedicalByID(id string) *KnowledgeEntry {
 
 // GetDrugByName retrieves a drug entry by generic name (EN or ZH).
 func (s *Store) GetDrugByName(name string) *DrugEntry {
+	_ = s.ensureDrug()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	if e, ok := s.DrugByGenericName[name]; ok {
@@ -605,6 +559,7 @@ func (s *Store) GetDrugByName(name string) *DrugEntry {
 
 // GetAllMedical returns all medical knowledge entries.
 func (s *Store) GetAllMedical() []KnowledgeEntry {
+	_ = s.ensureMedical()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	entries := make([]KnowledgeEntry, len(s.MedicalEntries))
@@ -614,6 +569,7 @@ func (s *Store) GetAllMedical() []KnowledgeEntry {
 
 // GetAllDrugs returns all drug entries.
 func (s *Store) GetAllDrugs() []DrugEntry {
+	_ = s.ensureDrug()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	entries := make([]DrugEntry, len(s.DrugEntries))
@@ -623,6 +579,7 @@ func (s *Store) GetAllDrugs() []DrugEntry {
 
 // GetAllEmergencyRules returns all emergency triage rules.
 func (s *Store) GetAllEmergencyRules() []EmergencyRule {
+	_ = s.ensureEmergency()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	rules := make([]EmergencyRule, len(s.EmergencyRules))
@@ -632,6 +589,7 @@ func (s *Store) GetAllEmergencyRules() []EmergencyRule {
 
 // GetDataVersion returns the knowledge base version metadata, if present.
 func (s *Store) GetDataVersion() *DataVersion {
+	_ = s.ensureVersion()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	return s.DataVersion
@@ -640,6 +598,7 @@ func (s *Store) GetDataVersion() *DataVersion {
 // FoodEntriesAsKnowledge projects food-risk entries as KnowledgeEntry so the
 // retriever and prompt builder can index them uniformly.
 func (s *Store) FoodEntriesAsKnowledge() []KnowledgeEntry {
+	_ = s.ensureFoodRisk()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	out := make([]KnowledgeEntry, 0, len(s.FoodRiskEntries))
@@ -660,6 +619,7 @@ func (s *Store) FoodEntriesAsKnowledge() []KnowledgeEntry {
 // LabEntriesAsKnowledge projects lab-test references as KnowledgeEntry so the
 // retriever and prompt builder can index them uniformly.
 func (s *Store) LabEntriesAsKnowledge() []KnowledgeEntry {
+	_ = s.ensureLabTest()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	out := make([]KnowledgeEntry, 0, len(s.LabTestReferences))
@@ -679,6 +639,7 @@ func (s *Store) LabEntriesAsKnowledge() []KnowledgeEntry {
 
 // GetLiteratureTopics returns the literature topic table.
 func (s *Store) GetLiteratureTopics() []LiteratureTopic {
+	_ = s.ensureLiterature()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	out := make([]LiteratureTopic, len(s.LiteratureTopics))
@@ -688,6 +649,7 @@ func (s *Store) GetLiteratureTopics() []LiteratureTopic {
 
 // GetLiteratureByTopic returns the articles of one topic (nil if unknown).
 func (s *Store) GetLiteratureByTopic(topic string) []*LiteratureEntry {
+	_ = s.ensureLiterature()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	arts := s.LiteratureByTopic[topic]
@@ -698,6 +660,7 @@ func (s *Store) GetLiteratureByTopic(topic string) []*LiteratureEntry {
 
 // GetLiteratureCount returns the total number of embedded literature entries.
 func (s *Store) GetLiteratureCount() int {
+	_ = s.ensureLiterature()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	return len(s.LiteratureArticles)
@@ -705,6 +668,7 @@ func (s *Store) GetLiteratureCount() int {
 
 // GetMSDEntries returns the MSD Manual corpus (copy).
 func (s *Store) GetMSDEntries() []MSDEntry {
+	_ = s.ensureMSD()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	out := make([]MSDEntry, len(s.MSDEntries))
@@ -714,6 +678,7 @@ func (s *Store) GetMSDEntries() []MSDEntry {
 
 // GetMSDCount returns the number of embedded MSD pages.
 func (s *Store) GetMSDCount() int {
+	_ = s.ensureMSD()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	return len(s.MSDEntries)
@@ -721,6 +686,7 @@ func (s *Store) GetMSDCount() int {
 
 // GetClinVarCount returns the number of embedded ClinVar variants.
 func (s *Store) GetClinVarCount() int {
+	_ = s.ensureClinVar()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	return len(s.ClinVarVariants)
@@ -728,6 +694,7 @@ func (s *Store) GetClinVarCount() int {
 
 // GetMedlinePlusEntries returns the MedlinePlus corpus (copy).
 func (s *Store) GetMedlinePlusEntries() []MedlinePlusEntry {
+	_ = s.ensureMedlinePlus()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	out := make([]MedlinePlusEntry, len(s.MedlinePlusEntries))
@@ -737,6 +704,7 @@ func (s *Store) GetMedlinePlusEntries() []MedlinePlusEntry {
 
 // GetMedinsDrugs returns the medical-insurance drug catalogue (copy).
 func (s *Store) GetMedinsDrugs() []MedinsDrug {
+	_ = s.ensureMedins()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	out := make([]MedinsDrug, len(s.MedinsDrugs))
@@ -746,6 +714,7 @@ func (s *Store) GetMedinsDrugs() []MedinsDrug {
 
 // GetEMLEntries returns the WHO Essential Medicines List entries (copy).
 func (s *Store) GetEMLEntries() []EMLEntry {
+	_ = s.ensureEML()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	out := make([]EMLEntry, len(s.EMLEntries))
@@ -755,6 +724,7 @@ func (s *Store) GetEMLEntries() []EMLEntry {
 
 // GetFDALabels returns the FDA-label entries (copy).
 func (s *Store) GetFDALabels() []FDALabelEntry {
+	_ = s.ensureFDA()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	out := make([]FDALabelEntry, len(s.FDALabels))
@@ -764,6 +734,7 @@ func (s *Store) GetFDALabels() []FDALabelEntry {
 
 // GetNHCGuides returns the NHC guideline corpus (copy).
 func (s *Store) GetNHCGuides() []NHCGuide {
+	_ = s.ensureNHC()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	out := make([]NHCGuide, len(s.NHCGuides))
@@ -773,6 +744,7 @@ func (s *Store) GetNHCGuides() []NHCGuide {
 
 // GetFHSGuides returns the FHS parenting corpus (copy).
 func (s *Store) GetFHSGuides() []FHSGuide {
+	_ = s.ensureFHS()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	out := make([]FHSGuide, len(s.FHSGuides))
@@ -782,6 +754,7 @@ func (s *Store) GetFHSGuides() []FHSGuide {
 
 // GetAAPEntries returns the AAP corpus (copy).
 func (s *Store) GetAAPEntries() []AAPEntry {
+	_ = s.ensureAAP()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	out := make([]AAPEntry, len(s.AAPEntries))
@@ -791,6 +764,7 @@ func (s *Store) GetAAPEntries() []AAPEntry {
 
 // GetReferenceIndex returns the reference index for post-verification.
 func (s *Store) GetReferenceIndex() map[string]string {
+	_ = s.ensureMedical()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	idx := make(map[string]string, len(s.ReferenceIndex))
@@ -802,6 +776,7 @@ func (s *Store) GetReferenceIndex() map[string]string {
 
 // GetICD10DiseaseByCode retrieves an ICD-10 disease by code.
 func (s *Store) GetICD10DiseaseByCode(code string) *ICD10Disease {
+	_ = s.ensureICD10()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	if d, ok := s.ICD10ByCode[code]; ok {
@@ -812,6 +787,7 @@ func (s *Store) GetICD10DiseaseByCode(code string) *ICD10Disease {
 
 // SearchICD10Diseases searches ICD-10 diseases by name substring.
 func (s *Store) SearchICD10Diseases(query string, limit int) []ICD10Disease {
+	_ = s.ensureICD10()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	var matches []ICD10Disease
@@ -828,6 +804,7 @@ func (s *Store) SearchICD10Diseases(query string, limit int) []ICD10Disease {
 
 // GetNMPADrugByName retrieves an NMPA drug by name.
 func (s *Store) GetNMPADrugByName(name string) *NMPADrug {
+	_ = s.ensureNMPA()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	if d, ok := s.NMPAByName[name]; ok {
@@ -838,6 +815,7 @@ func (s *Store) GetNMPADrugByName(name string) *NMPADrug {
 
 // SearchNMPADrugs searches NMPA drugs by name substring.
 func (s *Store) SearchNMPADrugs(query string, limit int) []NMPADrug {
+	_ = s.ensureNMPA()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	var matches []NMPADrug
@@ -854,6 +832,7 @@ func (s *Store) SearchNMPADrugs(query string, limit int) []NMPADrug {
 
 // SearchMedicalKG searches medical knowledge graph triples by entity.
 func (s *Store) SearchMedicalKG(entity string, relation string, limit int) []MedicalKGTriple {
+	_ = s.ensureMedicalKG()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	var matches []MedicalKGTriple
@@ -872,6 +851,7 @@ func (s *Store) SearchMedicalKG(entity string, relation string, limit int) []Med
 
 // GetDiseaseEncyclopediaByName retrieves a disease encyclopedia entry by name.
 func (s *Store) GetDiseaseEncyclopediaByName(name string) *DiseaseEncyclopedia {
+	_ = s.ensureDiseaseEnc()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	if d, ok := s.DiseaseEncyclopediasByName[name]; ok {
@@ -882,6 +862,7 @@ func (s *Store) GetDiseaseEncyclopediaByName(name string) *DiseaseEncyclopedia {
 
 // SearchDiseaseEncyclopedias searches disease encyclopedias by name substring.
 func (s *Store) SearchDiseaseEncyclopedias(query string, limit int) []DiseaseEncyclopedia {
+	_ = s.ensureDiseaseEnc()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	var matches []DiseaseEncyclopedia
@@ -898,6 +879,7 @@ func (s *Store) SearchDiseaseEncyclopedias(query string, limit int) []DiseaseEnc
 
 // GetCPubMedTriplesByHead retrieves CPubMed triples by head entity.
 func (s *Store) GetCPubMedTriplesByHead(head string) []*CPubMedTriple {
+	_ = s.ensureCPubMed()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	return s.CPubMedByHead[head]
@@ -905,6 +887,7 @@ func (s *Store) GetCPubMedTriplesByHead(head string) []*CPubMedTriple {
 
 // SearchCPubMedTriples searches CPubMed triples by head entity substring.
 func (s *Store) SearchCPubMedTriples(query string, limit int) []*CPubMedTriple {
+	_ = s.ensureCPubMed()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	var matches []*CPubMedTriple
@@ -921,6 +904,7 @@ func (s *Store) SearchCPubMedTriples(query string, limit int) []*CPubMedTriple {
 
 // GetHuatuoQA returns the Huatuo26M-Lite QA pairs.
 func (s *Store) GetHuatuoQA() *HuatuoQAPairs {
+	_ = s.ensureHuatuo()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	return s.HuatuoQAPairs
@@ -928,6 +912,7 @@ func (s *Store) GetHuatuoQA() *HuatuoQAPairs {
 
 // GetMedicalQA returns the Medical QA data.
 func (s *Store) GetMedicalQA() *MedicalQAData {
+	_ = s.ensureMedicalQA()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	return s.MedicalQAData
@@ -935,6 +920,7 @@ func (s *Store) GetMedicalQA() *MedicalQAData {
 
 // GetTTDData returns the TTD data.
 func (s *Store) GetTTDData() *TTDData {
+	_ = s.ensureTTD()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	return s.TTDData
@@ -942,6 +928,7 @@ func (s *Store) GetTTDData() *TTDData {
 
 // GetSIDERData returns the SIDER drug side effects data.
 func (s *Store) GetSIDERData() *SIDERDataSet {
+	_ = s.ensureSIDER()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	return s.SIDERData
@@ -949,6 +936,7 @@ func (s *Store) GetSIDERData() *SIDERDataSet {
 
 // SearchSIDERDrugs searches SIDER drugs by ID.
 func (s *Store) SearchSIDERDrugs(query string, limit int) []SIDERDrug {
+	_ = s.ensureSIDER()
 	s.mu.RLock()
 	defer s.mu.RUnlock()
 	var matches []SIDERDrug

@@ -57,6 +57,7 @@ func (r *KeywordRetriever) RetrieveLiterature(ctx context.Context, query string,
 
 	// 2b. No topic hit -> global title/abstract match (English queries).
 	var results []LiteratureResult
+	r.store.ensureLiterature()
 	for _, art := range r.store.LiteratureArticles {
 		score := artScore(art, queryLower, tokens)
 		if score > 0 {

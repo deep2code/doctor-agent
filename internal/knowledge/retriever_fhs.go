@@ -44,6 +44,7 @@ func (r *KeywordRetriever) RetrieveFHSGuide(ctx context.Context, query string, t
 	}
 
 	var results []FHSGuideResult
+	r.store.ensureFHS()
 	for _, g := range r.store.FHSGuides {
 		score, ok := scoreFHS(&g, queryLower, windows, latin)
 		if !ok || score < minFHSScore {

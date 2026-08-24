@@ -22,6 +22,7 @@ func (r *KeywordRetriever) RetrieveMedinsDrug(ctx context.Context, query string,
 	qLower := strings.ToLower(query)
 
 	var results []MedinsResult
+	r.store.ensureMedins()
 	for _, d := range r.store.MedinsDrugs {
 		nameLower := strings.ToLower(d.Name)
 		score, ok := 0.0, false

@@ -292,6 +292,7 @@ func (r *KeywordRetriever) RetrieveEMLDrug(ctx context.Context, query string, to
 	}
 
 	var results []EMLResult
+	r.store.ensureEML()
 	for i := range r.store.EMLEntries {
 		e := &r.store.EMLEntries[i]
 		nameLower := strings.ToLower(e.Name)

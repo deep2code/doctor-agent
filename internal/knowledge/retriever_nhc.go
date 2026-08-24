@@ -47,6 +47,7 @@ func (r *KeywordRetriever) RetrieveNHCGuide(ctx context.Context, query string, t
 	}
 
 	var results []NHCGuideResult
+	r.store.ensureNHC()
 	for _, g := range r.store.NHCGuides {
 		score, ok := scoreNHC(&g, queryLower, windows, latin)
 		if !ok || score < minNHCScore {

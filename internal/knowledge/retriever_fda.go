@@ -23,6 +23,7 @@ func (r *KeywordRetriever) RetrieveFDALabel(ctx context.Context, query string, t
 	qLower := strings.ToLower(query)
 
 	var results []FDALabelResult
+	r.store.ensureFDA()
 	for _, d := range r.store.FDALabels {
 		score, ok := 0.0, false
 		nameZHLower := strings.ToLower(d.NameZH)

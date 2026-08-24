@@ -31,6 +31,7 @@ func (r *KeywordRetriever) RetrieveAAP(ctx context.Context, query string, topK i
 		return nil, nil
 	}
 
+	r.store.ensureAAP()
 	var results []AAPResult
 	for _, e := range r.store.AAPEntries {
 		score, ok := scoreAAP(&e, qLower, words)

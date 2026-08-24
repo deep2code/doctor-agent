@@ -65,6 +65,7 @@ var (
 // identifier uniqueness, citation completeness/format, traceability
 // (DOI/PMID/URL presence), and structural sanity.
 func VerifyData(store *Store) *VerificationReport {
+	store.ensureAll()
 	report := &VerificationReport{
 		DataVersion: store.GetDataVersion(),
 	}
@@ -323,6 +324,7 @@ type URLCheckIssue struct {
 // The check is concurrent but bounded by maxConcurrent, and every URL gets a
 // per-request timeout. URLs that are not http(s) are skipped.
 func CheckURLLiveness(store *Store, timeout time.Duration, maxConcurrent int) []URLCheckIssue {
+	store.ensureAll()
 	if maxConcurrent <= 0 {
 		maxConcurrent = 8
 	}

@@ -22,7 +22,8 @@ import (
 )
 
 // Build-time version metadata, injected via:
-//   go build -ldflags "-X main.gitCommit=... -X main.buildTime=..."
+//
+//	go build -ldflags "-X main.gitCommit=... -X main.buildTime=..."
 var (
 	gitCommit = "unknown"
 	buildTime = "unknown"
@@ -69,6 +70,11 @@ func main() {
 		runVerifyKnowledge(checkURLs)
 	case "sync-knowledge":
 		runSyncKnowledge(cfg)
+	case "seed-knowledge":
+		// Materialise the gzip knowledge sources into an external SQLite
+		// database (knowledge.db). The binary itself embeds no data.
+		//   go run . seed-knowledge [--db=knowledge.db] [--src=internal/knowledge/gz]
+		runSeedKnowledge()
 	case "version":
 		fmt.Printf("doctor-agent v1.0.0 (commit %s, built %s)\n", gitCommit, buildTime)
 	default:
@@ -84,10 +90,11 @@ func printUsage() {
 Usage:
   doctor-agent chat               Interactive CLI chat mode
   doctor-agent serve              Start HTTP API server
-  doctor-agent verify-knowledge   Validate knowledge base files
-  doctor-agent verify-knowledge -urls   Also probe citation URLs (online)
-  doctor-agent sync-knowledge     Sync knowledge to vector database
-  doctor-agent version            Print version
+	doctor-agent verify-knowledge   Validate knowledge base files
+	doctor-agent verify-knowledge -urls   Also probe citation URLs (online)
+	doctor-agent sync-knowledge     Sync knowledge to vector database
+	doctor-agent seed-knowledge     Build knowledge.db from gzip sources
+	doctor-agent version            Print version
 
 Environment:
   LLM_PROVIDER                       LLM provider: deepseek (default) | openai-compat
@@ -385,6 +392,28 @@ func runVerifyKnowledge(checkURLs bool) {
 	}
 }
 
+func runSeedKnowledge() {
+	dbPath := os.Getenv("KNOWLEDGE_DB")
+	if dbPath == "" {
+		dbPath = "knowledge.db"
+	}
+	gzDir := "internal/knowledge/gz"
+	for _, a := range os.Args[2:] {
+		if v, ok := strings.CutPrefix(a, "--db="); ok {
+			dbPath = v
+		}
+		if v, ok := strings.CutPrefix(a, "--src="); ok {
+			gzDir = v
+		}
+	}
+	fmt.Printf("🌱 从 %s 构建知识库 %s ...\n", gzDir, dbPath)
+	if err := knowledge.Seed(dbPath, gzDir); err != nil {
+		fmt.Fprintf(os.Stderr, "❌ seed 失败: %v\n", err)
+		os.Exit(1)
+	}
+	fmt.Printf("✅ 知识库已生成: %s\n", dbPath)
+}
+
 func runSyncKnowledge(cfg *config.Config) {
 	fmt.Println("🔄 知识库同步到向量数据库")
 	fmt.Println()
@@ -409,7 +438,7 @@ func runSyncKnowledge(cfg *config.Config) {
 		os.Exit(1)
 	}
 	fmt.Printf("✅ 知识库加载成功: %d 医学条目, %d 药品条目\n",
-		len(store.GetAllMedical()), len(store.DrugEntries))
+		len(store.GetAllMedical()), len(store.GetAllDrugs()))
 
 	// Initialize vector store
 	fmt.Println("🗄️  初始化向量数据库...")

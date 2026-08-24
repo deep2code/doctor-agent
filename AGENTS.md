@@ -4,7 +4,7 @@
 
 ## Project
 
-- **Entry point**: root `main.go` (package `main` at module root) — NOT `./cmd/doctor-agent`. Subcommands: `chat`, `serve`, `verify-knowledge`, `version`.
+- **Entry point**: root `main.go` (package `main` at module root) — NOT `./cmd/doctor-agent`. Subcommands: `chat`, `serve`, `verify-knowledge`, `version`, `seed-knowledge`.
 - Stack: stdlib `net/http` server, `log/slog` logging, `github.com/anthropics/anthropic-sdk-go` (Claude), `github.com/qdrant/go-client` (optional vector retrieval). No external logger/framework.
 - Config: env vars (see `.env.example`); `main.go` `loadDotenv()` loads `.env` if present; `internal/config.Load()` applies defaults.
 - Domain content is Chinese; code identifiers/comments are English.
@@ -20,6 +20,8 @@ go run . chat                                    # interactive CLI (streaming ou
 go run . serve                                   # HTTP on 0.0.0.0:8080 (/health, /chat, /chat/stream real SSE)
 go run . verify-knowledge                        # knowledge-base integrity check (DOI/PMID format, uniqueness, traceability, version)
 go run . verify-knowledge -urls                 # also probe citation URL liveness (online, slow)
+go run . seed-knowledge                         # build knowledge.db from internal/knowledge/gz/*.gz
+go run . seed-knowledge --db=knowledge.db --src=internal/knowledge/gz
 go run ./evals                                  # offline eval on sample_answers.json (26-question golden set)
 go run ./evals -online                          # online eval: runs real agent per question (needs API key; slow)
 go run ./evals -answers my.json -report out.json # eval custom answers + JSON report; exit 1 on any failure (CI-friendly)
@@ -35,7 +37,7 @@ make gz                                          # regenerate internal/knowledge
 Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessage` is a non-streaming wrapper): L1 emergency detection → L2 scope guard → knowledge retrieval → layered system prompt → agent loop (≤5 iterations, tool-use, streaming deltas) → L3 citation post-verification → L4 disclaimer. Sessions live in a mutex-guarded `map[string]*Session`; with `SESSION_DIR` set they are snapshotted to JSON files and restored across restarts.
 
 - `internal/agent` — orchestrator `Agent`; builds provider-agnostic messages, dispatches tools, applies safety layers.
-- `internal/knowledge` — `//go:embed gz/*.gz` (23 source JSONs in `data/` are gzip-compressed into `gz/` by `external/make_gz.py`; binary 95MB→52MB) → `Store` (sync.Once singleton, RWMutex-guarded maps); `Retriever` interface with `retriever_keyword` (BM25 + CJK substring/bigram matching), `vector_store.go` (Qdrant vector storage + retrieval), `retriever_vector.go` (semantic search via embeddings), `retriever_hybrid` (RRF fusion); `CitationFormatter`, schemas in `schemas.go`. `verify.go` also hosts `CheckURLLiveness` (probes citation URLs).
+- `internal/knowledge` — **database-backed (no embedded data)**: the compiled binary contains ONLY logic. Every dataset lives in an external SQLite `knowledge.db` (opened via `KNOWLEDGE_DB` env, default `knowledge.db`; `modernc.org/sqlite`, WAL). `kb.go` is the `KB` layer (`kb_items(dataset,key,search_text,data)` + `InsertBatch`/`All`/`Search`/`Clear`); `loader.go` `Store` is a sync.Once singleton whose `ensureXxx()` methods load a dataset **lazily from the DB on first use** and cache it in RWMutex-guarded maps (runtime retrieval = "检索时直接查库"; cold read hits the DB, warm read cached). `seed.go` `Seed()` reads `gz/*.gz` and bulk-inserts rows (`seed-knowledge` CLI). Source JSONs in `data/` are gzip-compressed into `gz/` by `external/make_gz.py` (still required as seed inputs). `Retriever` interface with `retriever_keyword` (BM25 + CJK substring/bigram matching), `vector_store.go` (Qdrant vector storage + retrieval), `retriever_vector.go` (semantic search via embeddings), `retriever_hybrid` (RRF fusion); `CitationFormatter`, schemas in `schemas.go`. `verify.go` also hosts `CheckURLLiveness` (probes citation URLs).
 - `internal/llm` — `LLMProvider` interface (`Chat`, `StreamChat(ctx, messages, tools, systemPrompt, onDelta)`, `Name()`); `anthropic_provider.go` (NewStreaming), `deepseek_provider.go` + `openai_compat_provider.go` sharing `openai_stream.go` (SSE parsing + tool-call fragment accumulation); provider-agnostic `Message`/`ToolDefinition`/`ToolCall`; **multimodal support** (`ContentPart`/`ImageInput` for medical image analysis).
 - `internal/tools` — `Tool` interface (`Name/Description/Schema/Execute` → `*ToolResult{Success, Data, Error, Citations}`) + `Registry` (mutex, insertion-ordered). 34 tools: drug_safety_check, genetic_risk_calculator, food_risk_analyzer, symptom_triage, reference_lookup, lab_interpreter, literature_search, msd_search, variant_lookup, medline_search, drug_lookup, eml_lookup, drug_label_lookup, nhc_search, fhs_search, aap_search, icd10_lookup, nmpa_drug_lookup, medical_kg_lookup, disease_encyclopedia_lookup, cpubmed_kg_lookup, huatuo_qa_lookup, ttd_lookup, drug_interaction_check, disease_symptom_lookup, target_disease_lookup, disease_drug_lookup, medical_qa_lookup, sider_lookup, triage_department, lab_report_interpret, medical_image_analyze.
 - `internal/safety` — `EmergencyDetector`, `ScopeGuard`, `PostVerifier` (citation realness + optional LLM-as-judge claim-support check via `POST_VERIFY_SEMANTIC`), `DisclaimerService`.
@@ -57,7 +59,7 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
 - Concurrency: `sync.RWMutex` for Store/Registry reads, `sync.Once` for the knowledge singleton; channels + goroutines in hybrid retriever. New shared state must be mutex-guarded.
 - Tools: JSON-schema `Schema()` (snake_case keys), `Execute` returns `ToolResult` — never returns raw data without `Success`/`Citations`.
 - Config changes: add to `config.Config` + `Load()` + `.env.example` + `printUsage()` in `main.go`.
-- New knowledge: add JSON to `internal/knowledge/data/` AND register its filename in `knowledge/loader.go` `doLoad()` switch, or it is silently ignored. Then run `make gz` (or `python3 external/make_gz.py`) to regenerate the embedded compressed copies. Update `data/version.json` sources on data changes.
+- New knowledge: add JSON to `internal/knowledge/data/` AND register its filename in `knowledge/seed.go` `seedFile()` switch (classify → dataset + rows), or it is silently ignored. Then run `make gz` (or `python3 external/make_gz.py`) to regenerate the compressed `gz/` copies, then `go run . seed-knowledge` to rebuild `knowledge.db`. Ensure a matching lazy loader exists: add an `ensureXxx()` + `loadXxx()` pair in `loader.go` and a getter that calls `ensureXxx()` so runtime retrieval populates it from the DB. Update `data/version.json` sources on data changes.
 - Retrieval gotcha: `tokenize()` does NOT segment Chinese — CJK recall depends on substring + bigram matching against keywords/symptom fields in `retriever_keyword.go`. Symptom-style questions ("我一喝牛奶就拉肚子") now recall correctly (probe: 12/12); keep new entries' `keywords` in Chinese symptom vocabulary.
 - Institutional publications (WHO/IARC/NCCN/中国指南) have no DOI/PMID by design — leave their `journal` empty so `verify-knowledge` doesn't flag them as untraceable journal articles.
 - Keep UI strings Chinese; don't translate domain content to English.
@@ -65,6 +67,7 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
 ## Notes
 
 - (add quick notes here — e.g. decisions, gotchas, future work)
+- **Knowledge base externalised to SQLite (2026-08-24)**: all `//go:embed` knowledge JSON removed; data now lives in an external `knowledge.db` (built by `go run . seed-knowledge` from `gz/*.gz`). Binary dropped 95MB→43MB and contains only logic. Loading is **lazy per dataset** at retrieval time (`Store.ensureXxx()` → SQLite read → in-memory cache). `KNOWLEDGE_DB` env selects the DB path; `Load()` walks up from cwd to find it so tests/serve locate one seeded DB. `knowledge.db` is gitignored (regenerable). Future optimisation: gzip-compress the `data` BLOB to shrink the ~900MB DB toward the 52MB gz size.
 - Git history: single commit `e0f6e2f`.
 - ✅ Fixed: `Makefile`/`README.md` stale `cmd/doctor-agent` path (2026-08-09) — both now use root `main.go`; `make build/chat/serve/verify-knowledge` work again.
 - `verify-knowledge` now passes clean (0 warnings): 50 medical entries, 90 citations (28 DOI + 7 PMID + 40 WHO URL; DOI/PMID traceability 35.6%).

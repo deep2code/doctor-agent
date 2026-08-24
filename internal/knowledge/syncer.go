@@ -62,6 +62,7 @@ type SyncConfig struct {
 
 // FullSync performs a complete synchronization of all knowledge to vector database.
 func (s *Syncer) FullSync(ctx context.Context, cfg SyncConfig) (*SyncStatus, error) {
+	s.store.ensureAll()
 	s.mu.Lock()
 	s.status = SyncStatus{InProgress: true}
 	s.mu.Unlock()
@@ -193,6 +194,7 @@ func (s *Syncer) FullSync(ctx context.Context, cfg SyncConfig) (*SyncStatus, err
 
 // IncrementalSync performs an incremental sync of changed records.
 func (s *Syncer) IncrementalSync(ctx context.Context, cfg SyncConfig) (*SyncStatus, error) {
+	s.store.ensureAll()
 	s.mu.Lock()
 	s.status = SyncStatus{InProgress: true}
 	s.mu.Unlock()

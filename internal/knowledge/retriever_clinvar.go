@@ -24,6 +24,7 @@ func (r *KeywordRetriever) RetrieveClinVar(ctx context.Context, query string, to
 	qRunes := []rune(strings.ToLower(query))
 
 	var results []ClinVarResult
+	r.store.ensureClinVar()
 	for _, v := range r.store.ClinVarVariants {
 		score, ok := scoreClinVar(&v, qLower, qRunes)
 		if !ok || score < minClinVarScore {

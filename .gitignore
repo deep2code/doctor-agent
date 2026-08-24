@@ -29,6 +29,13 @@ go.work
 .DS_Store
 Thumbs.db
 
+# Generated knowledge database (built via `go run . seed-knowledge` from gz sources)
+knowledge.db
+knowledge.db-wal
+knowledge.db-shm
+
+*.csv
+
 # Build
 vendor/
 .gocache/

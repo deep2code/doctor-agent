@@ -33,6 +33,7 @@ func (r *KeywordRetriever) RetrieveMedlinePlus(ctx context.Context, query string
 	}
 
 	var results []MedlinePlusResult
+	r.store.ensureMedlinePlus()
 	for _, e := range r.store.MedlinePlusEntries {
 		score, ok := scoreMedline(&e, qLower, words)
 		if !ok || score < minMedlineScore {

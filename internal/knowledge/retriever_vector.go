@@ -195,6 +195,8 @@ func (r *VectorRetriever) IndexDrugEntry(ctx context.Context, entry DrugEntry) e
 
 // IndexAllKnowledge indexes all knowledge entries.
 func (r *VectorRetriever) IndexAllKnowledge(ctx context.Context) error {
+	r.storeData.ensureMedical()
+	r.storeData.ensureDrug()
 	slog.Info("Starting knowledge indexing", "entries", len(r.storeData.MedicalEntries), "drugs", len(r.storeData.DrugEntries))
 
 	// Index knowledge entries

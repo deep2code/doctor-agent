@@ -129,10 +129,10 @@ func (t *MedicalQALookupTool) Execute(ctx context.Context, args map[string]inter
 	}
 
 	var sb strings.Builder
-	sb.WriteString(fmt.Sprintf("找到 %d 条相关问答:\n\n", len(results)))
+	fmt.Fprintf(&sb, "找到 %d 条相关问答:\n\n", len(results))
 	for i, r := range results {
-		sb.WriteString(fmt.Sprintf("%d. [%s] %s\n", i+1, r.Dept, truncateStr(r.Question, 100)))
-		sb.WriteString(fmt.Sprintf("   回答: %s\n\n", truncateStr(r.Answer, 300)))
+		fmt.Fprintf(&sb, "%d. [%s] %s\n", i+1, r.Dept, truncateStr(r.Question, 100))
+		fmt.Fprintf(&sb, "   回答: %s\n\n", truncateStr(r.Answer, 300))
 	}
 
 	return &ToolResult{

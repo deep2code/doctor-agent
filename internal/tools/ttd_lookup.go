@@ -118,25 +118,25 @@ func (t *TTDLookupTool) Execute(ctx context.Context, args map[string]interface{}
 	var sb strings.Builder
 
 	if len(targetResults) > 0 {
-		sb.WriteString(fmt.Sprintf("找到 %d 个靶点:\n\n", len(targetResults)))
+		fmt.Fprintf(&sb, "找到 %d 个靶点:\n\n", len(targetResults))
 		for i, t := range targetResults {
-			sb.WriteString(fmt.Sprintf("%d. %s (%s)\n", i+1, t.Name, t.ID))
+			fmt.Fprintf(&sb, "%d. %s (%s)\n", i+1, t.Name, t.ID)
 			if t.Uniprot != "" {
-				sb.WriteString(fmt.Sprintf("   UniProt: %s\n", t.Uniprot))
+				fmt.Fprintf(&sb, "   UniProt: %s\n", t.Uniprot)
 			}
 			if t.Type != "" {
-				sb.WriteString(fmt.Sprintf("   类型: %s\n", t.Type))
+				fmt.Fprintf(&sb, "   类型: %s\n", t.Type)
 			}
 			sb.WriteString("\n")
 		}
 	}
 
 	if len(drugResults) > 0 {
-		sb.WriteString(fmt.Sprintf("找到 %d 种药物:\n\n", len(drugResults)))
+		fmt.Fprintf(&sb, "找到 %d 种药物:\n\n", len(drugResults))
 		for i, d := range drugResults {
-			sb.WriteString(fmt.Sprintf("%d. %s (%s)\n", i+1, d.Name, d.ID))
+			fmt.Fprintf(&sb, "%d. %s (%s)\n", i+1, d.Name, d.ID)
 			if len(d.Synonyms) > 0 {
-				sb.WriteString(fmt.Sprintf("   别名: %s\n", strings.Join(d.Synonyms[:min(5, len(d.Synonyms))], ", ")))
+				fmt.Fprintf(&sb, "   别名: %s\n", strings.Join(d.Synonyms[:min(5, len(d.Synonyms))], ", "))
 			}
 			sb.WriteString("\n")
 		}

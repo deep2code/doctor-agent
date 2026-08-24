@@ -10,6 +10,7 @@ import (
 	"log/slog"
 	"net"
 	"net/http"
+	"os"
 	"strings"
 	"sync"
 	"time"
@@ -18,6 +19,8 @@ import (
 	"github.com/doctor-agent/internal/auth"
 	"github.com/doctor-agent/internal/config"
 	"github.com/doctor-agent/internal/database"
+	"github.com/doctor-agent/internal/embedding"
+	"github.com/doctor-agent/internal/knowledge"
 	"github.com/doctor-agent/internal/llm"
 	"github.com/doctor-agent/internal/session"
 )
@@ -52,6 +55,9 @@ func New(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service) *Server {
 	// Admin endpoints
 	mux.HandleFunc("/admin/users", s.handleAdminUsers)
 	mux.HandleFunc("/admin/users/", s.handleAdminUser)
+	// Sync endpoints
+	mux.HandleFunc("/admin/sync", s.handleAdminSync)
+	mux.HandleFunc("/admin/sync/status", s.handleAdminSyncStatus)
 
 	s.http = &http.Server{
 		Addr:         fmt.Sprintf("%s:%s", cfg.ServerHost, cfg.ServerPort),
@@ -424,10 +430,7 @@ func (s *Server) handleAdminUser(w http.ResponseWriter, r *http.Request) {
 // getAdminFromRequest extracts admin user from request (checks API key or token).
 func (s *Server) getAdminFromRequest(r *http.Request) *database.User {
 	// Check for API key
-	apiKey := r.Header.Get("Authorization")
-	if strings.HasPrefix(apiKey, "Bearer ") {
-		apiKey = strings.TrimPrefix(apiKey, "Bearer ")
-	}
+	apiKey := strings.TrimPrefix(r.Header.Get("Authorization"), "Bearer ")
 
 	// If API key matches, return admin user
 	if s.cfg.APIKey != "" && subtle.ConstantTimeCompare([]byte(apiKey), []byte(s.cfg.APIKey)) == 1 {
@@ -575,4 +578,214 @@ func (rl *rateLimiter) allow(ip string) bool {
 		}
 	}
 	return allowed
+}
+
+// handleAdminSync handles POST /admin/sync for file upload sync.
+func (s *Server) handleAdminSync(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodPost {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+
+	// Check admin authentication
+	admin := s.getAdminFromRequest(r)
+	if admin == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	// Parse multipart form (10MB max)
+	if err := r.ParseMultipartForm(10 << 20); err != nil {
+		writeJSON(w, http.StatusBadRequest, map[string]any{
+			"error": fmt.Sprintf("failed to parse form: %v", err),
+		})
+		return
+	}
+
+	// Get uploaded file
+	file, handler, err := r.FormFile("file")
+	if err != nil {
+		writeJSON(w, http.StatusBadRequest, map[string]any{
+			"error": fmt.Sprintf("failed to get file: %v", err),
+		})
+		return
+	}
+	defer func() {
+		if err := file.Close(); err != nil {
+			slog.Debug("Failed to close uploaded file", "error", err)
+		}
+	}()
+
+	// Create temp file
+	tempFile, err := os.CreateTemp("", "sync-*.json")
+	if err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{
+			"error": fmt.Sprintf("failed to create temp file: %v", err),
+		})
+		return
+	}
+	defer func() {
+		if err := os.Remove(tempFile.Name()); err != nil {
+			slog.Debug("Failed to remove temp file", "path", tempFile.Name(), "error", err)
+		}
+	}()
+
+	// Copy uploaded file to temp file
+	if _, err := io.Copy(tempFile, file); err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{
+			"error": fmt.Sprintf("failed to save file: %v", err),
+		})
+		return
+	}
+	if err := tempFile.Close(); err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{
+			"error": fmt.Sprintf("failed to close temp file: %v", err),
+		})
+		return
+	}
+
+	// Get source parameter
+	source := r.FormValue("source")
+	if source == "" {
+		source = strings.TrimSuffix(handler.Filename, ".json")
+		source = strings.TrimSuffix(source, ".json")
+	}
+
+	// Get full sync parameter
+	fullSync := r.FormValue("full") == "true"
+
+	// Initialize sync components
+	store, err := knowledge.Load()
+	if err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{
+			"error": fmt.Sprintf("failed to load knowledge: %v", err),
+		})
+		return
+	}
+
+	vecStore, err := knowledge.NewVectorStore(knowledge.VectorStoreConfig{
+		Host:       s.cfg.VectorStoreHost,
+		Port:       s.cfg.VectorStorePort,
+		Collection: s.cfg.VectorCollection,
+	})
+	if err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{
+			"error": fmt.Sprintf("failed to connect to vector store: %v", err),
+		})
+		return
+	}
+	defer func() {
+		if err := vecStore.Close(); err != nil {
+			slog.Debug("Failed to close vector store", "error", err)
+		}
+	}()
+
+	embedder, err := embedding.NewOpenAICompat(embedding.Config{
+		Provider: "openai-compat",
+		BaseURL:  s.cfg.EmbeddingBaseURL,
+		APIKey:   s.cfg.EmbeddingAPIKey,
+		Model:    s.cfg.EmbeddingModel,
+	})
+	if err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{
+			"error": fmt.Sprintf("failed to init embedding: %v", err),
+		})
+		return
+	}
+
+	syncer := knowledge.NewSyncer(store, vecStore, embedder)
+
+	// Perform sync
+	ctx := context.Background()
+	cfg := knowledge.SyncConfig{
+		Full:      fullSync,
+		Source:    source,
+		FilePath:  tempFile.Name(),
+		BatchSize: 100,
+	}
+
+	var status *knowledge.SyncStatus
+	if fullSync {
+		status, err = syncer.FullSync(ctx, cfg)
+	} else {
+		status, err = syncer.IncrementalSync(ctx, cfg)
+	}
+	if err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{
+			"error": fmt.Sprintf("sync failed: %v", err),
+		})
+		return
+	}
+
+	writeJSON(w, http.StatusOK, map[string]any{
+		"status":  "ok",
+		"message": "sync completed",
+		"sync":    status,
+	})
+}
+
+// handleAdminSyncStatus handles GET /admin/sync/status.
+func (s *Server) handleAdminSyncStatus(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+
+	// Check admin authentication
+	admin := s.getAdminFromRequest(r)
+	if admin == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	// Check if vector store is enabled
+	if !s.cfg.VectorStoreEnabled {
+		writeJSON(w, http.StatusOK, map[string]any{
+			"status":  "disabled",
+			"message": "vector store not enabled",
+		})
+		return
+	}
+
+	// Connect to vector store
+	vecStore, err := knowledge.NewVectorStore(knowledge.VectorStoreConfig{
+		Host:       s.cfg.VectorStoreHost,
+		Port:       s.cfg.VectorStorePort,
+		Collection: s.cfg.VectorCollection,
+	})
+	if err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{
+			"error": fmt.Sprintf("failed to connect to vector store: %v", err),
+		})
+		return
+	}
+	defer func() {
+		if err := vecStore.Close(); err != nil {
+			slog.Debug("Failed to close vector store", "error", err)
+		}
+	}()
+
+	// Get stats
+	ctx := context.Background()
+	stats, err := vecStore.GetSyncStats(ctx)
+	if err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{
+			"error": fmt.Sprintf("failed to get stats: %v", err),
+		})
+		return
+	}
+
+	total, err := vecStore.Count(ctx)
+	if err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{
+			"error": fmt.Sprintf("failed to count points: %v", err),
+		})
+		return
+	}
+
+	writeJSON(w, http.StatusOK, map[string]any{
+		"status": "ok",
+		"total":  total,
+		"stats":  stats,
+	})
 }

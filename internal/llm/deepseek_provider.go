@@ -47,13 +47,6 @@ type openAIChatRequest struct {
 	Stream      bool    `json:"stream,omitempty"`
 }
 
-// openAIMessageContent handles both string and multimodal content.
-type openAIMessageContent struct {
-	Content      string
-	Parts        []openAIContentPart
-	IsMultimodal bool
-}
-
 type openAIContentPart struct {
 	Type     string            `json:"type"`
 	Text     string            `json:"text,omitempty"`

@@ -147,7 +147,7 @@ func (t *LabReportInterpretTool) Execute(ctx context.Context, args map[string]in
 	}
 
 	var sb strings.Builder
-	sb.WriteString(fmt.Sprintf("【%s检验报告解读】\n\n", testName))
+	fmt.Fprintf(&sb, "【%s检验报告解读】\n\n", testName)
 
 	abnormalItems := []string{}
 	highItems := []string{}
@@ -160,9 +160,10 @@ func (t *LabReportInterpretTool) Execute(ctx context.Context, args map[string]in
 		}
 
 		min, max := ref.Min, ref.Max
-		if gender == "男" {
+		switch gender {
+		case "男":
 			min, max = ref.MaleMin, ref.MaleMax
-		} else if gender == "女" {
+		case "女":
 			min, max = ref.FemaleMin, ref.FemaleMax
 		}
 
@@ -177,8 +178,8 @@ func (t *LabReportInterpretTool) Execute(ctx context.Context, args map[string]in
 			abnormalItems = append(abnormalItems, itemName)
 		}
 
-		sb.WriteString(fmt.Sprintf("• %s: %.2f %s (参考范围: %.2f-%.2f) %s\n",
-			itemName, value, ref.Unit, min, max, status))
+		fmt.Fprintf(&sb, "• %s: %.2f %s (参考范围: %.2f-%.2f) %s\n",
+			itemName, value, ref.Unit, min, max, status)
 	}
 
 	sb.WriteString("\n")
@@ -188,10 +189,10 @@ func (t *LabReportInterpretTool) Execute(ctx context.Context, args map[string]in
 	} else {
 		sb.WriteString("【异常提示】\n")
 		if len(highItems) > 0 {
-			sb.WriteString(fmt.Sprintf("• 偏高项目: %s\n", strings.Join(highItems, ", ")))
+			fmt.Fprintf(&sb, "• 偏高项目: %s\n", strings.Join(highItems, ", "))
 		}
 		if len(lowItems) > 0 {
-			sb.WriteString(fmt.Sprintf("• 偏低项目: %s\n", strings.Join(lowItems, ", ")))
+			fmt.Fprintf(&sb, "• 偏低项目: %s\n", strings.Join(lowItems, ", "))
 		}
 		sb.WriteString("\n")
 		sb.WriteString("【建议】\n")

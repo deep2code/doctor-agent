@@ -84,18 +84,18 @@ func (t *TargetDiseaseLookupTool) Execute(ctx context.Context, args map[string]i
 	}
 
 	var sb strings.Builder
-	sb.WriteString(fmt.Sprintf("靶点「%s」相关信息:\n\n", target))
+	fmt.Fprintf(&sb, "靶点「%s」相关信息:\n\n", target)
 
 	for i, t := range matchedTargets {
-		sb.WriteString(fmt.Sprintf("%d. %s\n", i+1, t.Name))
+		fmt.Fprintf(&sb, "%d. %s\n", i+1, t.Name)
 		if t.ID != "" {
-			sb.WriteString(fmt.Sprintf("   ID: %s\n", t.ID))
+			fmt.Fprintf(&sb, "   ID: %s\n", t.ID)
 		}
 		if t.Uniprot != "" {
-			sb.WriteString(fmt.Sprintf("   UniProt: %s\n", t.Uniprot))
+			fmt.Fprintf(&sb, "   UniProt: %s\n", t.Uniprot)
 		}
 		if t.Type != "" {
-			sb.WriteString(fmt.Sprintf("   类型: %s\n", t.Type))
+			fmt.Fprintf(&sb, "   类型: %s\n", t.Type)
 		}
 		sb.WriteString("\n")
 	}

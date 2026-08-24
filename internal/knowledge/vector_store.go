@@ -49,7 +49,9 @@ func NewVectorStore(cfg VectorStoreConfig) (*VectorStore, error) {
 
 	// Ensure collection exists
 	if err := store.ensureCollection(); err != nil {
-		client.Close()
+		if closeErr := client.Close(); closeErr != nil {
+			slog.Warn("Failed to close vector store client after error", "error", closeErr)
+		}
 		return nil, fmt.Errorf("ensuring collection: %w", err)
 	}
 
@@ -242,4 +244,138 @@ func (s *VectorStore) Count(ctx context.Context) (int, error) {
 // Close closes the client connection.
 func (s *VectorStore) Close() error {
 	return s.client.Close()
+}
+
+// DeleteBySource removes all points with a specific source in their payload.
+func (s *VectorStore) DeleteBySource(ctx context.Context, source string) error {
+	filter := &qdrant.Filter{
+		Must: []*qdrant.Condition{
+			qdrant.NewMatchKeyword("source", source),
+		},
+	}
+
+	_, err := s.client.Delete(ctx, &qdrant.DeletePoints{
+		CollectionName: s.collection,
+		Points: &qdrant.PointsSelector{
+			PointsSelectorOneOf: &qdrant.PointsSelector_Filter{
+				Filter: filter,
+			},
+		},
+	})
+	if err != nil {
+		return fmt.Errorf("deleting points by source: %w", err)
+	}
+
+	return nil
+}
+
+// BatchUpsert performs batch upsert with progress callback.
+func (s *VectorStore) BatchUpsert(ctx context.Context, points []VectorPoint, onProgress func(processed, total int)) error {
+	if len(points) == 0 {
+		return nil
+	}
+
+	const batchSize = 100
+	total := len(points)
+
+	for i := 0; i < total; i += batchSize {
+		end := i + batchSize
+		if end > total {
+			end = total
+		}
+		batch := points[i:end]
+
+		if err := s.Upsert(ctx, batch); err != nil {
+			return fmt.Errorf("batch upsert at %d: %w", i, err)
+		}
+
+		if onProgress != nil {
+			onProgress(end, total)
+		}
+	}
+
+	return nil
+}
+
+// CountBySource returns the number of points with a specific source.
+func (s *VectorStore) CountBySource(ctx context.Context, source string) (int, error) {
+	filter := &qdrant.Filter{
+		Must: []*qdrant.Condition{
+			qdrant.NewMatchKeyword("source", source),
+		},
+	}
+
+	count, err := s.client.Count(ctx, &qdrant.CountPoints{
+		CollectionName: s.collection,
+		Filter:         filter,
+	})
+	if err != nil {
+		return 0, fmt.Errorf("counting points by source: %w", err)
+	}
+
+	return int(count), nil
+}
+
+// GetAllSources returns a list of all unique sources in the collection.
+func (s *VectorStore) GetAllSources(ctx context.Context) ([]string, error) {
+	// Scroll through all points to collect unique sources
+	var sources []string
+	sourceSet := make(map[string]bool)
+
+	scrollReq := &qdrant.ScrollPoints{
+		CollectionName: s.collection,
+		Limit:          qdrant.PtrOf(uint32(1000)),
+		WithPayload:    qdrant.NewWithPayload(true),
+	}
+
+	for {
+		resp, nextOffset, err := s.client.ScrollAndOffset(ctx, scrollReq)
+		if err != nil {
+			return nil, fmt.Errorf("scrolling points: %w", err)
+		}
+
+		for _, point := range resp {
+			if point.Payload != nil {
+				if sourceVal, ok := point.Payload["source"]; ok {
+					if sourceVal.Kind != nil {
+						if strVal, ok := sourceVal.Kind.(*qdrant.Value_StringValue); ok {
+							source := strVal.StringValue
+							if !sourceSet[source] {
+								sourceSet[source] = true
+								sources = append(sources, source)
+							}
+						}
+					}
+				}
+			}
+		}
+
+		if nextOffset == nil {
+			break
+		}
+
+		// Move to next page
+		scrollReq.Offset = nextOffset
+	}
+
+	return sources, nil
+}
+
+// GetSyncStats returns statistics about synced data.
+func (s *VectorStore) GetSyncStats(ctx context.Context) (map[string]int, error) {
+	sources, err := s.GetAllSources(ctx)
+	if err != nil {
+		return nil, err
+	}
+
+	stats := make(map[string]int)
+	for _, source := range sources {
+		count, err := s.CountBySource(ctx, source)
+		if err != nil {
+			return nil, err
+		}
+		stats[source] = count
+	}
+
+	return stats, nil
 }

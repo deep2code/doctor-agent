@@ -34,7 +34,9 @@ func New(cfg Config) (*DB, error) {
 
 	// Test connection
 	if err := conn.Ping(); err != nil {
-		conn.Close()
+		if closeErr := conn.Close(); closeErr != nil {
+			slog.Warn("Failed to close database connection after ping error", "error", closeErr)
+		}
 		return nil, fmt.Errorf("pinging database: %w", err)
 	}
 
@@ -42,7 +44,9 @@ func New(cfg Config) (*DB, error) {
 
 	// Initialize tables
 	if err := db.migrate(); err != nil {
-		conn.Close()
+		if closeErr := conn.Close(); closeErr != nil {
+			slog.Warn("Failed to close database connection after migrate error", "error", closeErr)
+		}
 		return nil, fmt.Errorf("migrating database: %w", err)
 	}
 
@@ -280,7 +284,11 @@ func (db *DB) ListUserSessions(userID string, limit int) ([]SessionRecord, error
 	if err != nil {
 		return nil, err
 	}
-	defer rows.Close()
+	defer func() {
+		if err := rows.Close(); err != nil {
+			slog.Warn("Failed to close rows", "error", err)
+		}
+	}()
 
 	var sessions []SessionRecord
 	for rows.Next() {
@@ -350,7 +358,11 @@ func (db *DB) GetSessionMessages(sessionID string) ([]MessageRecord, error) {
 	if err != nil {
 		return nil, err
 	}
-	defer rows.Close()
+	defer func() {
+		if err := rows.Close(); err != nil {
+			slog.Warn("Failed to close rows", "error", err)
+		}
+	}()
 
 	var messages []MessageRecord
 	for rows.Next() {

@@ -54,7 +54,7 @@ func NewOpenAICompat(cfg Config) (*OpenAICompatProvider, error) {
 		baseURL:    cfg.BaseURL,
 		apiKey:     cfg.APIKey,
 		model:      cfg.Model,
-		dimensions: 1024, // Default for most models
+		dimensions: 0, // Will be detected from first embedding response
 		client: &http.Client{
 			Timeout: 60 * time.Second,
 		},
@@ -116,7 +116,12 @@ func (p *OpenAICompatProvider) EmbedBatch(texts []string) ([][]float32, error) {
 	if err != nil {
 		return nil, fmt.Errorf("sending request: %w", err)
 	}
-	defer resp.Body.Close()
+	defer func() {
+		if err := resp.Body.Close(); err != nil {
+			// Log but don't fail - we already have the body
+			fmt.Printf("Warning: failed to close response body: %v\n", err)
+		}
+	}()
 
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {

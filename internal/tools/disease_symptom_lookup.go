@@ -67,21 +67,21 @@ func (t *DiseaseSymptomLookupTool) Execute(ctx context.Context, args map[string]
 	}
 
 	var sb strings.Builder
-	sb.WriteString(fmt.Sprintf("与症状「%s」相关的疾病:\n\n", symptom))
+	fmt.Fprintf(&sb, "与症状「%s」相关的疾病:\n\n", symptom)
 
 	for i, d := range diseases {
-		sb.WriteString(fmt.Sprintf("%d. %s\n", i+1, d.NameZH))
+		fmt.Fprintf(&sb, "%d. %s\n", i+1, d.NameZH)
 
 		if len(d.Symptoms) > 0 {
-			sb.WriteString(fmt.Sprintf("   常见症状: %s\n", strings.Join(d.Symptoms[:min(3, len(d.Symptoms))], ", ")))
+			fmt.Fprintf(&sb, "   常见症状: %s\n", strings.Join(d.Symptoms[:min(3, len(d.Symptoms))], ", "))
 		}
 
 		if len(d.TreatmentMethods) > 0 {
-			sb.WriteString(fmt.Sprintf("   治疗方法: %s\n", strings.Join(d.TreatmentMethods[:min(2, len(d.TreatmentMethods))], ", ")))
+			fmt.Fprintf(&sb, "   治疗方法: %s\n", strings.Join(d.TreatmentMethods[:min(2, len(d.TreatmentMethods))], ", "))
 		}
 
 		if d.CureRate != "" {
-			sb.WriteString(fmt.Sprintf("   治愈率: %s\n", d.CureRate))
+			fmt.Fprintf(&sb, "   治愈率: %s\n", d.CureRate)
 		}
 
 		sb.WriteString("\n")

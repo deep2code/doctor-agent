@@ -127,11 +127,11 @@ func (t *MedicalImageAnalyze) buildAnalysisPrompt(imageType, bodyPart, clinicalC
 	sb.WriteString("请分析这张医学影像：\n\n")
 
 	if bodyPart != "" {
-		sb.WriteString(fmt.Sprintf("检查部位: %s\n", bodyPart))
+		fmt.Fprintf(&sb, "检查部位: %s\n", bodyPart)
 	}
 
 	if clinicalContext != "" {
-		sb.WriteString(fmt.Sprintf("临床背景: %s\n", clinicalContext))
+		fmt.Fprintf(&sb, "临床背景: %s\n", clinicalContext)
 	}
 
 	sb.WriteString("\n请提供以下分析：\n")

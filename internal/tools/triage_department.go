@@ -122,7 +122,6 @@ func (t *TriageDepartmentTool) Execute(ctx context.Context, args map[string]inte
 			if strings.Contains(symptom, keyword) || strings.Contains(keyword, symptom) {
 				for _, dept := range depts {
 					deptCount[dept]++
-					deptCount[dept] = deptCount[dept]
 					matchedSymptoms[dept] = append(matchedSymptoms[dept], symptom)
 				}
 			}
@@ -186,9 +185,9 @@ func (t *TriageDepartmentTool) Execute(ctx context.Context, args map[string]inte
 
 	// Primary recommendation
 	if len(sorted) > 0 {
-		sb.WriteString(fmt.Sprintf("▶ 首选科室: %s\n", sorted[0].dept))
+		fmt.Fprintf(&sb, "▶ 首选科室: %s\n", sorted[0].dept)
 		if symptoms, ok := matchedSymptoms[sorted[0].dept]; ok && len(symptoms) > 0 {
-			sb.WriteString(fmt.Sprintf("  相关症状: %s\n", strings.Join(symptoms, ", ")))
+			fmt.Fprintf(&sb, "  相关症状: %s\n", strings.Join(symptoms, ", "))
 		}
 		sb.WriteString("\n")
 	}
@@ -197,7 +196,7 @@ func (t *TriageDepartmentTool) Execute(ctx context.Context, args map[string]inte
 	if len(sorted) > 1 {
 		sb.WriteString("其他可选科室:\n")
 		for i := 1; i < min(3, len(sorted)); i++ {
-			sb.WriteString(fmt.Sprintf("  %d. %s\n", i+1, sorted[i].dept))
+			fmt.Fprintf(&sb, "  %d. %s\n", i+1, sorted[i].dept)
 		}
 		sb.WriteString("\n")
 	}

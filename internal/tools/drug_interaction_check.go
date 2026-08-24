@@ -107,30 +107,30 @@ func (t *DrugInteractionCheckTool) Execute(ctx context.Context, args map[string]
 
 	// Build response
 	var sb strings.Builder
-	sb.WriteString(fmt.Sprintf("药物相互作用分析: %s vs %s\n\n", drug1, drug2))
+	fmt.Fprintf(&sb, "药物相互作用分析: %s vs %s\n\n", drug1, drug2)
 
-	sb.WriteString(fmt.Sprintf("【%s】信息:\n", drug1))
+	fmt.Fprintf(&sb, "【%s】信息:\n", drug1)
 	if found1.ID != "" {
-		sb.WriteString(fmt.Sprintf("  ID: %s\n", found1.ID))
+		fmt.Fprintf(&sb, "  ID: %s\n", found1.ID)
 	}
 	if len(found1.Synonyms) > 0 {
-		sb.WriteString(fmt.Sprintf("  别名: %s\n", strings.Join(found1.Synonyms[:min(3, len(found1.Synonyms))], ", ")))
+		fmt.Fprintf(&sb, "  别名: %s\n", strings.Join(found1.Synonyms[:min(3, len(found1.Synonyms))], ", "))
 	}
 	sb.WriteString("\n")
 
-	sb.WriteString(fmt.Sprintf("【%s】信息:\n", drug2))
+	fmt.Fprintf(&sb, "【%s】信息:\n", drug2)
 	if found2.ID != "" {
-		sb.WriteString(fmt.Sprintf("  ID: %s\n", found2.ID))
+		fmt.Fprintf(&sb, "  ID: %s\n", found2.ID)
 	}
 	if len(found2.Synonyms) > 0 {
-		sb.WriteString(fmt.Sprintf("  别名: %s\n", strings.Join(found2.Synonyms[:min(3, len(found2.Synonyms))], ", ")))
+		fmt.Fprintf(&sb, "  别名: %s\n", strings.Join(found2.Synonyms[:min(3, len(found2.Synonyms))], ", "))
 	}
 	sb.WriteString("\n")
 
 	if len(commonTargets) > 0 {
 		sb.WriteString("⚠️ 共同靶点:\n")
 		for _, target := range commonTargets {
-			sb.WriteString(fmt.Sprintf("  - %s\n", target))
+			fmt.Fprintf(&sb, "  - %s\n", target)
 		}
 		sb.WriteString("\n提示: 两种药物作用于相同靶点，可能存在协同或拮抗作用，建议咨询医生。\n")
 	} else {

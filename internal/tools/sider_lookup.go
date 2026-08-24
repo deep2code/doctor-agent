@@ -85,19 +85,19 @@ func (t *SIDERLookupTool) Execute(ctx context.Context, args map[string]interface
 	sb.WriteString("SIDER药物信息:\n\n")
 
 	for i, drug := range matches {
-		sb.WriteString(fmt.Sprintf("%d. 药物ID: %s\n", i+1, drug.ID))
+		fmt.Fprintf(&sb, "%d. 药物ID: %s\n", i+1, drug.ID)
 
 		if len(drug.SideEffects) > 0 {
 			sb.WriteString("   常见副作用:\n")
 			for _, se := range drug.SideEffects[:min(10, len(drug.SideEffects))] {
-				sb.WriteString(fmt.Sprintf("   - %s\n", se))
+				fmt.Fprintf(&sb, "   - %s\n", se)
 			}
 		}
 
 		if len(drug.Indications) > 0 {
 			sb.WriteString("   适应症:\n")
 			for _, ind := range drug.Indications[:min(5, len(drug.Indications))] {
-				sb.WriteString(fmt.Sprintf("   - %s\n", ind))
+				fmt.Fprintf(&sb, "   - %s\n", ind)
 			}
 		}
 		sb.WriteString("\n")

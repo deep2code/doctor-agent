@@ -16,6 +16,7 @@ import (
 	"github.com/doctor-agent/internal/auth"
 	"github.com/doctor-agent/internal/config"
 	"github.com/doctor-agent/internal/database"
+	"github.com/doctor-agent/internal/embedding"
 	"github.com/doctor-agent/internal/knowledge"
 	"github.com/doctor-agent/internal/server"
 )
@@ -66,6 +67,8 @@ func main() {
 		// Optional flag: go run . verify-knowledge -urls  (online URL liveness check)
 		checkURLs := len(os.Args) > 2 && os.Args[2] == "-urls"
 		runVerifyKnowledge(checkURLs)
+	case "sync-knowledge":
+		runSyncKnowledge(cfg)
 	case "version":
 		fmt.Printf("doctor-agent v1.0.0 (commit %s, built %s)\n", gitCommit, buildTime)
 	default:
@@ -83,6 +86,7 @@ Usage:
   doctor-agent serve              Start HTTP API server
   doctor-agent verify-knowledge   Validate knowledge base files
   doctor-agent verify-knowledge -urls   Also probe citation URLs (online)
+  doctor-agent sync-knowledge     Sync knowledge to vector database
   doctor-agent version            Print version
 
 Environment:
@@ -97,7 +101,25 @@ Environment:
   SESSION_DIR                      Directory for JSON session snapshots (default: empty = in-memory only)
   LOG_LEVEL                        Log level: debug, info, warn, error (default: info)
   POST_VERIFY_SEMANTIC             Semantic claim verification (default: false)
-  POST_VERIFY_JUDGE_MODEL          Judge model for verification (default: reuse main model)`)
+  POST_VERIFY_JUDGE_MODEL          Judge model for verification (default: reuse main model)
+
+Vector Database:
+  VECTOR_STORE_ENABLED             Enable vector database (default: false)
+  VECTOR_STORE_HOST                Vector store host (default: localhost)
+  VECTOR_STORE_PORT                Vector store port (default: 6333)
+  VECTOR_COLLECTION                Vector collection name (default: medical_knowledge)
+
+Embedding:
+  EMBEDDING_ENABLED                Enable embedding service (default: false)
+  EMBEDDING_BASE_URL               Embedding API base URL
+  EMBEDDING_API_KEY                Embedding API key
+  EMBEDDING_MODEL                  Embedding model (default: text-embedding-v3)
+
+Sync Command:
+  --full, -f                       Full sync (rebuild all vectors)
+  --source, -s <source>            Sync specific source (medical, drugs, literature, etc.)
+  --file <path>                    Sync specific JSON file
+  --batch-size, -b <size>          Batch size for embedding (default: 100)`)
 }
 
 func runChat(cfg *config.Config) {
@@ -241,7 +263,11 @@ func runServe(cfg *config.Config) {
 		slog.Error("Failed to initialize database", "error", err)
 		os.Exit(1)
 	}
-	defer db.Close()
+	defer func() {
+		if err := db.Close(); err != nil {
+			slog.Warn("Failed to close database", "error", err)
+		}
+	}()
 
 	// Initialize auth service
 	authSvc := auth.NewService(db)
@@ -252,7 +278,7 @@ func runServe(cfg *config.Config) {
 	ag, err := agent.New(cfg)
 	if err != nil {
 		slog.Error("Failed to initialize agent", "error", err)
-		os.Exit(1)
+		return
 	}
 
 	srv := server.New(cfg, ag, authSvc)
@@ -271,7 +297,7 @@ func runServe(cfg *config.Config) {
 
 	if err := srv.Start(); err != nil {
 		slog.Error("Server error", "error", err)
-		os.Exit(1)
+		return
 	}
 }
 
@@ -356,6 +382,152 @@ func runVerifyKnowledge(checkURLs bool) {
 	if len(report.Warnings) > 0 {
 		fmt.Println()
 		fmt.Println("⚠️  校验存在警告（不影响可用性），建议完善数据。")
+	}
+}
+
+func runSyncKnowledge(cfg *config.Config) {
+	fmt.Println("🔄 知识库同步到向量数据库")
+	fmt.Println()
+
+	// Check if vector store is enabled
+	if !cfg.VectorStoreEnabled {
+		fmt.Fprintf(os.Stderr, "❌ 向量数据库未启用，请设置 VECTOR_STORE_ENABLED=true\n")
+		os.Exit(1)
+	}
+
+	// Check if embedding is enabled
+	if !cfg.EmbeddingEnabled {
+		fmt.Fprintf(os.Stderr, "❌ 嵌入服务未启用，请设置 EMBEDDING_ENABLED=true\n")
+		os.Exit(1)
+	}
+
+	// Load knowledge base
+	fmt.Println("📚 加载知识库...")
+	store, err := knowledge.Load()
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "❌ 知识库加载失败: %v\n", err)
+		os.Exit(1)
+	}
+	fmt.Printf("✅ 知识库加载成功: %d 医学条目, %d 药品条目\n",
+		len(store.GetAllMedical()), len(store.DrugEntries))
+
+	// Initialize vector store
+	fmt.Println("🗄️  初始化向量数据库...")
+	vecStore, err := knowledge.NewVectorStore(knowledge.VectorStoreConfig{
+		Host:       cfg.VectorStoreHost,
+		Port:       cfg.VectorStorePort,
+		Collection: cfg.VectorCollection,
+	})
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "❌ 向量数据库连接失败: %v\n", err)
+		os.Exit(1)
+	}
+	defer func() {
+		if err := vecStore.Close(); err != nil {
+			fmt.Printf("Warning: failed to close vector store: %v\n", err)
+		}
+	}()
+
+	// Initialize embedding provider
+	fmt.Println("🔗 初始化嵌入服务...")
+	embedder, err := embedding.NewOpenAICompat(embedding.Config{
+		Provider: "openai-compat",
+		BaseURL:  cfg.EmbeddingBaseURL,
+		APIKey:   cfg.EmbeddingAPIKey,
+		Model:    cfg.EmbeddingModel,
+	})
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "❌ 嵌入服务初始化失败: %v\n", err)
+		return
+	}
+
+	// Create syncer
+	syncer := knowledge.NewSyncer(store, vecStore, embedder)
+
+	// Parse flags
+	fullSync := false
+	source := ""
+	filePath := ""
+	batchSize := 100
+
+	for i := 2; i < len(os.Args); i++ {
+		switch os.Args[i] {
+		case "--full", "-f":
+			fullSync = true
+		case "--source", "-s":
+			if i+1 < len(os.Args) {
+				i++
+				source = os.Args[i]
+			}
+		case "--file":
+			if i+1 < len(os.Args) {
+				i++
+				filePath = os.Args[i]
+			}
+		case "--batch-size", "-b":
+			if i+1 < len(os.Args) {
+				i++
+				if _, err := fmt.Sscanf(os.Args[i], "%d", &batchSize); err != nil {
+					fmt.Fprintf(os.Stderr, "⚠️  无效的 batch-size: %s, 使用默认值 100\n", os.Args[i])
+					batchSize = 100
+				}
+			}
+		}
+	}
+
+	// Perform sync
+	fmt.Println()
+	if fullSync {
+		fmt.Println("🔄 执行全量同步...")
+	} else {
+		fmt.Println("🔄 执行增量同步...")
+	}
+
+	ctx := context.Background()
+	cfgSync := knowledge.SyncConfig{
+		Full:      fullSync,
+		Source:    source,
+		FilePath:  filePath,
+		BatchSize: batchSize,
+	}
+
+	var syncStatus *knowledge.SyncStatus
+	if fullSync {
+		syncStatus, err = syncer.FullSync(ctx, cfgSync)
+	} else {
+		syncStatus, err = syncer.IncrementalSync(ctx, cfgSync)
+	}
+
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "❌ 同步失败: %v\n", err)
+		return
+	}
+
+	// Print results
+	fmt.Println()
+	fmt.Println("━━━ 同步完成 ━━━")
+	fmt.Printf("✅ 同步时间: %s\n", syncStatus.LastSync.Format("2006-01-02 15:04:05"))
+	fmt.Printf("✅ 同步记录: %d / %d\n", syncStatus.SyncedRecords, syncStatus.TotalRecords)
+
+	if len(syncStatus.Errors) > 0 {
+		fmt.Printf("⚠️  错误数量: %d\n", len(syncStatus.Errors))
+		for _, e := range syncStatus.Errors {
+			fmt.Printf("  - %s\n", e)
+		}
+	}
+
+	// Show vector store stats
+	fmt.Println()
+	fmt.Println("━━━ 向量库统计 ━━━")
+	stats, err := vecStore.GetSyncStats(ctx)
+	if err != nil {
+		fmt.Printf("⚠️  获取统计失败: %v\n", err)
+	} else {
+		for source, count := range stats {
+			fmt.Printf("  %s: %d 条\n", source, count)
+		}
+		total, _ := vecStore.Count(ctx)
+		fmt.Printf("  总计: %d 条\n", total)
 	}
 }
 

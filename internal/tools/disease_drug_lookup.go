@@ -55,21 +55,21 @@ func (t *DiseaseDrugLookupTool) Execute(ctx context.Context, args map[string]int
 	}
 
 	var sb strings.Builder
-	sb.WriteString(fmt.Sprintf("疾病「%s」相关药物:\n\n", disease))
+	fmt.Fprintf(&sb, "疾病「%s」相关药物:\n\n", disease)
 
 	for i, d := range diseases {
-		sb.WriteString(fmt.Sprintf("%d. %s\n", i+1, d.NameZH))
+		fmt.Fprintf(&sb, "%d. %s\n", i+1, d.NameZH)
 
 		if len(d.CommonDrugs) > 0 {
-			sb.WriteString(fmt.Sprintf("   常用药物: %s\n", strings.Join(d.CommonDrugs[:min(5, len(d.CommonDrugs))], ", ")))
+			fmt.Fprintf(&sb, "   常用药物: %s\n", strings.Join(d.CommonDrugs[:min(5, len(d.CommonDrugs))], ", "))
 		}
 
 		if len(d.RecommendedDrugs) > 0 {
-			sb.WriteString(fmt.Sprintf("   推荐药物: %s\n", strings.Join(d.RecommendedDrugs[:min(5, len(d.RecommendedDrugs))], ", ")))
+			fmt.Fprintf(&sb, "   推荐药物: %s\n", strings.Join(d.RecommendedDrugs[:min(5, len(d.RecommendedDrugs))], ", "))
 		}
 
 		if len(d.TreatmentMethods) > 0 {
-			sb.WriteString(fmt.Sprintf("   治疗方法: %s\n", strings.Join(d.TreatmentMethods[:min(3, len(d.TreatmentMethods))], ", ")))
+			fmt.Fprintf(&sb, "   治疗方法: %s\n", strings.Join(d.TreatmentMethods[:min(3, len(d.TreatmentMethods))], ", "))
 		}
 
 		sb.WriteString("\n")

@@ -366,16 +366,25 @@ func truncateRunes(s string, max int) string {
 
 // isFactualResponse checks if the response contains substantive medical claims
 // rather than just conversational or procedural text.
+// Only responses that present clinical findings, statistics, or recommendations
+// (not just acknowledgements or procedural text) require citations.
 func (v *PostVerifier) isFactualResponse(response string) bool {
-	// Heuristic: check if response has clinical analysis content
-	indicators := []string{
-		"鉴别诊断", "诊断", "治疗", "clinical analysis",
-		"建议检查", "流行病学", "prevalence", "指南推荐",
-		"循证", "evidence-based", "GRADE",
+	// Only flag as factual if the response contains specific clinical content:
+	// - Numeric prevalence/statistics (e.g. "14.95%", "约8%")
+	// - Diagnostic criteria or thresholds
+	// - Specific treatment efficacy claims
+	// - Guideline recommendation with specifics
+	// We avoid generic words like "治疗" alone (too common in all medical responses)
+	factualIndicators := []string{
+		`\d+[．.]\d+%`,      // numeric prevalence/rates like 14.95%
+		"流行率", "发病率", "患病率", "携带率",
+		"诊断标准", "诊断依据", "金标准",
+		"禁忌", "适应症", "不良反应",
+		"指南推荐", "RCT", "Meta", "循证",
 	}
-
-	for _, indicator := range indicators {
-		if strings.Contains(strings.ToLower(response), strings.ToLower(indicator)) {
+	for _, indicator := range factualIndicators {
+		matched, _ := regexp.MatchString(indicator, response)
+		if matched {
 			return true
 		}
 	}

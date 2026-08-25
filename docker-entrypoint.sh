@@ -67,7 +67,7 @@ if [ "$SEED_SKIP" = "1" ]; then
   echo "Knowledge store already seeded ($CNT rows); skipping seed-knowledge."
 else
   echo "Seeding knowledge store (MariaDB) from $KNOWLEDGE_SRC ..."
-  "$APP_BIN" seed-knowledge --src "$KNOWLEDGE_SRC" \
+  "$APP_BIN" seed-knowledge --src="$KNOWLEDGE_SRC" \
     || echo "WARN: knowledge seeding failed (server will still start)"
 fi
 

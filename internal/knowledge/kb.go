@@ -12,12 +12,10 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-// KB is the SQLite-backed knowledge store. It replaces the previous
-// //go:embed approach: the compiled binary contains no knowledge data; every
-// dataset is read from an external SQLite database file (knowledge.db) on
-// demand. Datasets are loaded lazily (the first time a retriever or tool
-// needs them) and cached in the Store, so cold reads hit the database
-// directly while warm reads stay fast.
+// KB is the MariaDB-backed knowledge store. The compiled binary contains
+// no embedded knowledge; every dataset is read from MariaDB on demand.
+// Datasets are loaded lazily (the first time a retriever or tool needs them)
+// and cached in memory for the process lifetime.
 type KB struct {
 	conn *sql.DB
 	mu   sync.RWMutex

@@ -68,12 +68,17 @@ func NewScopeGuard() *ScopeGuard {
 // own medical situation. This prevents wrongly refusing core medical questions
 // such as rabies/post-exposure care ("狗咬了要打狂犬疫苗吗") as veterinary advice.
 var medicalOverrideKeywords = []string{
+	// Emergency/acute symptoms
 	"疫苗", "咬伤", "抓伤", "狂犬病", "暴露", "破伤风", "过敏", "中毒",
 	"发热", "胸痛", "呼吸困难", "出血", "昏迷", "抽搐", "中风", "心梗",
-	"休克", "窒息", "腹痛", "腹泻", "呕吐", "症状", "诊断", "治疗",
-	"用药", "剂量", "就医", "就诊", "急诊", "门诊", "医院", "医生", "护理", "康复",
+	"休克", "窒息", "腹痛", "腹泻", "呕吐", "就医", "就诊", "急诊", "门诊",
+	// Clinical actions (only when combined with legitimate medical context)
+	"症状", "诊断", "治疗方案", "用药建议", "检查项目", "检验结果",
+	"医院", "医生", "护理", "康复", "处方", "药物", "药品",
+	// Animal-related injuries (rabies risk)
 	"咬", "抓",
-	"bite", "scratch", "rabies", "vaccine", "vaccination",
+	// English (rabies/animal exposure)
+	"bite", "scratch", "rabies", "vaccination", "exposure",
 }
 
 // Check evaluates whether a user query falls within the agent's scope.

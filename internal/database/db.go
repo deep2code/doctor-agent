@@ -10,7 +10,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-// DB wraps the SQLite database connection.
+// DB wraps the MariaDB database connection.
 type DB struct {
 	conn *sql.DB
 	mu   sync.RWMutex

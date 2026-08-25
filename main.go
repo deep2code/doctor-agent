@@ -71,9 +71,9 @@ func main() {
 	case "sync-knowledge":
 		runSyncKnowledge(cfg)
 	case "seed-knowledge":
-		// Materialise the gzip knowledge sources into an external SQLite
-		// database (knowledge.db). The binary itself embeds no data.
-		//   go run . seed-knowledge [--db=knowledge.db] [--src=internal/knowledge/gz]
+		// Materialise the gzip knowledge sources into the MariaDB knowledge
+		// database (doctor_knowledge). The binary itself embeds no data.
+		//   go run . seed-knowledge [--src=internal/knowledge/gz]
 		runSeedKnowledge()
 	case "version":
 		fmt.Printf("doctor-agent v1.0.0 (commit %s, built %s)\n", gitCommit, buildTime)
@@ -93,7 +93,7 @@ Usage:
 	doctor-agent verify-knowledge   Validate knowledge base files
 	doctor-agent verify-knowledge -urls   Also probe citation URLs (online)
 	doctor-agent sync-knowledge     Sync knowledge to vector database
-	doctor-agent seed-knowledge     Build knowledge.db from gzip sources
+	doctor-agent seed-knowledge     Build knowledge base in MariaDB from gzip sources
 	doctor-agent version            Print version
 
 Environment:
@@ -331,7 +331,8 @@ func createInitialAdmin(db *database.DB, authSvc *auth.Service, cfg *config.Conf
 	// Create initial admin user
 	adminPassword := cfg.AdminPassword
 	if adminPassword == "" {
-		adminPassword = "admin123" // Default password
+		adminPassword = "admin123"
+		slog.Warn("Using default admin password — set ADMIN_PASSWORD env var in production")
 	}
 
 	input := &auth.AdminCreateUserInput{
@@ -399,7 +400,12 @@ func runVerifyKnowledge(checkURLs bool) {
 }
 
 func runSeedKnowledge() {
-	dbPath := config.Load().KnowledgeDBDSN()
+	cfg := config.Load()
+	if err := cfg.EnsureKnowledgeDB(); err != nil {
+		fmt.Fprintf(os.Stderr, "❌ 建库失败: %v\n", err)
+		os.Exit(1)
+	}
+	dbPath := cfg.KnowledgeDBDSN()
 	gzDir := "internal/knowledge/gz"
 	for _, a := range os.Args[2:] {
 		if v, ok := strings.CutPrefix(a, "--db="); ok {

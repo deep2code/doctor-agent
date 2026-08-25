@@ -66,16 +66,17 @@ func (t *MedicalImageAnalyze) Execute(ctx context.Context, params map[string]any
 		}, nil
 	}
 
-	// Validate base64
-	if _, err := base64.StdEncoding.DecodeString(imageBase64); err != nil {
+	// Validate base64 and detect media type in one decode pass
+	data, err := base64.StdEncoding.DecodeString(imageBase64)
+	if err != nil {
 		return &ToolResult{
 			Success: false,
 			Error:   "无效的Base64编码图片",
 		}, nil
 	}
 
-	// Detect media type
-	mediaType := detectMediaType(imageBase64)
+	// Detect media type from decoded bytes
+	mediaType := detectMediaTypeFromBytes(data)
 
 	// Build analysis prompt
 	prompt := t.buildAnalysisPrompt(imageType, bodyPart, clinicalContext)
@@ -144,10 +145,8 @@ func (t *MedicalImageAnalyze) buildAnalysisPrompt(imageType, bodyPart, clinicalC
 	return sb.String()
 }
 
-func detectMediaType(base64Data string) string {
-	// Check magic bytes
-	data, err := base64.StdEncoding.DecodeString(base64Data)
-	if err != nil || len(data) < 4 {
+func detectMediaTypeFromBytes(data []byte) string {
+	if len(data) < 4 {
 		return "image/jpeg"
 	}
 

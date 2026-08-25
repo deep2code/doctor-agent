@@ -12,9 +12,9 @@ import (
 )
 
 // Seed reads every gzip-compressed knowledge file in gzDir and inserts its
-// contents into the knowledge database at dbPath. The compiled binary embeds
-// nothing; this command (run at build/release time) materialises the data into
-// an external SQLite file (knowledge.db) that ships alongside the binary.
+// contents into the MariaDB knowledge database at dbPath. The compiled binary
+// embeds nothing; this command (run at build/release time) materialises the
+// data into the MariaDB doctor_knowledge database.
 //
 // Each source file maps to one dataset; its entries become individual rows keyed
 // by a stable id (or running index), with a lower-cased search_text column used

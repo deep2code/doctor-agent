@@ -67,7 +67,7 @@ chmod +x doctor-agent          # macOS / Linux
 
 浏览器打开 `http://localhost:8080`，首次运行引导配置 API Key（推荐智谱 glm-4-flash 免费）。
 
-> 📁 数据库 `doctor-agent.db` 在当前目录自动创建，无需手动建库。可通过 `DATABASE_PATH` 环境变量指定路径。
+> 📁 MariaDB 数据库（`doctor_agent`）在首次启动时自动创建，无需手动建库。连接参数通过 `APP_DB_DSN` 环境变量配置。
 
 ---
 
@@ -112,7 +112,7 @@ DEEPSEEK_API_KEY=sk-你的密钥
 API_KEY=自定义一个复杂的访问密钥
 
 # 数据库
-DATABASE_PATH=/opt/doctor-agent/data/doctor-agent.db
+APP_DB_DSN=root:your_password@tcp(localhost:3306)/doctor_agent
 
 # 会话持久化
 SESSION_DIR=/opt/doctor-agent/sessions
@@ -340,7 +340,7 @@ docker compose up -d --build    # 重新构建并启动
 | `OPENAI_COMPAT_BASE_URL` | - | OpenAI 兼容端点 URL |
 | `OPENAI_COMPAT_MODEL` | - | OpenAI 兼容模型名 |
 | `API_KEY` | 空 | 访问鉴权密钥，空=不鉴权 |
-| `DATABASE_PATH` | `doctor-agent.db` | SQLite 数据库路径 |
+| `APP_DB_DSN` | `root:@tcp(localhost:3306)/doctor_agent` | MariaDB 应用库 DSN（也可设 `KNOWLEDGE_DB_DSN` 知识库） |
 | `SESSION_DIR` | 空 | 会话持久化目录，空=仅内存 |
 | `CORS_ORIGINS` | `*` | 允许的跨域来源 |
 | `RATE_LIMIT` | `0` | 每 IP 每分钟请求数限制，0=不限 |
@@ -361,13 +361,15 @@ sudo systemctl status doctor-agent     # 状态
 sudo journalctl -u doctor-agent -f     # 实时日志
 sudo tail -f /opt/doctor-agent/logs/access.log
 
-# 数据库操作
-sqlite3 /opt/doctor-agent/data/doctor-agent.db ".tables"           # 查看表
-sqlite3 /opt/doctor-agent/data/doctor-agent.db "SELECT * FROM users;"  # 查看用户
+# 数据库操作（MariaDB）
+mysql -h localhost -u root -p doctor_agent -e "SHOW TABLES;"              # 查看表
+mysql -h localhost -u root -p doctor_agent -e "SELECT * FROM users;"     # 查看用户
+mysql -h localhost -u root -p doctor_agent -e "SELECT * FROM sessions;"   # 查看会话
 
 # 备份恢复
 sudo systemctl stop doctor-agent
-cp /opt/doctor-agent/backups/db_20260822_030000.db /opt/doctor-agent/data/doctor-agent.db
+mysqldump -h localhost -u root -p doctor_agent > /opt/doctor-agent/backups/db_$(date +%Y%m%d_%H%M%S).sql
+mysql -h localhost -u root -p doctor_agent < /opt/doctor-agent/backups/db_backup.sql
 sudo systemctl start doctor-agent
 
 # 更新版本

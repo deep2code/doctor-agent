@@ -26,6 +26,7 @@ type Config struct {
 	MaxTokens       int
 	Temperature     float64
 	MaxHistoryTurns int
+	MaxToolIterations int // max LLM tool-use loops per message (default 5)
 
 	// Knowledge Retrieval
 	KnowledgeTopK    int
@@ -105,9 +106,10 @@ func Load() *Config {
 		OpenAICompatAPIKey:  getEnv("OPENAI_COMPAT_API_KEY", ""),
 		OpenAICompatModel:   getEnv("OPENAI_COMPAT_MODEL", ""),
 
-		MaxTokens:       getEnvInt("MAX_TOKENS", 4096),
-		Temperature:     getEnvFloat("TEMPERATURE", 0.3),
-		MaxHistoryTurns: getEnvInt("MAX_HISTORY_TURNS", 20),
+		MaxTokens:        getEnvInt("MAX_TOKENS", 4096),
+		Temperature:      getEnvFloat("TEMPERATURE", 0.3),
+		MaxHistoryTurns:  getEnvInt("MAX_HISTORY_TURNS", 20),
+		MaxToolIterations: getEnvInt("MAX_TOOL_ITERATIONS", 5),
 
 		KnowledgeTopK:    getEnvInt("KNOWLEDGE_TOP_K", 5),
 		KnowledgeEnabled: getEnvBool("KNOWLEDGE_RETRIEVAL_ENABLED", true),

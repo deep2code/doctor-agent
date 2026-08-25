@@ -325,7 +325,10 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 	toolDefs := a.registry.GetGenericToolDefinitions()
 
 	// Agent loop: call LLM, handle tool use, repeat until final response
-	maxIterations := 5
+	maxIterations := a.cfg.MaxToolIterations
+	if maxIterations <= 0 {
+		maxIterations = 5
+	}
 	var toolRefs []tools.CitationRef // tool-returned sources for post-verification
 	for i := 0; i < maxIterations; i++ {
 		if i == 0 {
@@ -517,7 +520,10 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 	toolDefs := a.registry.GetGenericToolDefinitions()
 
 	// Agent loop: call LLM, handle tool use, repeat until final response
-	maxIterations := 5
+	maxIterations := a.cfg.MaxToolIterations
+	if maxIterations <= 0 {
+		maxIterations = 5
+	}
 	var toolRefs []tools.CitationRef // tool-returned sources for post-verification
 	for i := 0; i < maxIterations; i++ {
 		if i == 0 {

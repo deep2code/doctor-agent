@@ -135,9 +135,8 @@ func (t *LabInterpreter) interpretMCV(value float64, unit string, isSouthern boo
 			"interpretation":  interpretation,
 			"differential_diagnosis": ddx,
 		},
-		Citations: []CitationRef{
-			{Title: "中国儿童输血依赖型地中海贫血输血管理指南（2025年）", DOI: "10.7499/j.issn.1008-8830.2410119", Level: "national_guideline", Year: 2025},
-		},
+		// 注：实验室检查参考范围基于中国人群数据和国际指南（CLSI标准）。
+		// 循证引用通过知识库检索工具（lab_interpreter → medline_search / literature_search）获取。
 	}
 }
 
@@ -265,10 +264,8 @@ func (t *LabInterpreter) interpretG6PD(value float64, unit string) *ToolResult {
 			"normal_range":   normalRange,
 			"interpretation": interpretation,
 		},
-		Citations: []CitationRef{
-			{Title: "WHO Revised Classification of G6PD Deficiency (2024)", Level: "international_guideline", Year: 2024},
-			{Title: "小儿G6PD缺乏症诊疗指南（2025年版）", Level: "national_guideline", Year: 2025},
-		},
+		// G6PD分类标准参考WHO 2024年修订分类及中国指南。
+		// 具体文献引用通过 drug_safety_check / literature_search 工具检索获取。
 	}
 }
 
@@ -318,9 +315,8 @@ func (t *LabInterpreter) interpretHbA1c(value float64, unit string) *ToolResult 
 			"normal_range":   "<5.7% (normal); 5.7-6.4% (prediabetes); ≥6.5% (diabetes)",
 			"interpretation": interpretation,
 		},
-		Citations: []CitationRef{
-			{Title: "ADA Standards of Care in Diabetes — 2025", DOI: "10.2337/dc25-S002", Level: "international_guideline", Year: 2025},
-		},
+		// HbA1c诊断切点基于ADA 2025标准及中国糖尿病指南。
+		// 具体文献引用通过 literature_search 工具检索获取。
 	}
 }
 

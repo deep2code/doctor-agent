@@ -68,7 +68,7 @@ services:
       MARIA_DB_APP_DB: doctor_agent
       VECTOR_STORE_ENABLED: "true"
       VECTOR_STORE_HOST: qdrant
-      VECTOR_STORE_PORT: "6333"
+      VECTOR_STORE_PORT: "6334"
       VECTOR_COLLECTION: medical_knowledge
       EMBEDDING_ENABLED: "true"
       LOG_LEVEL: ${LOG_LEVEL:-info}

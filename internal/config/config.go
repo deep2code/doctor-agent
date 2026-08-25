@@ -149,7 +149,7 @@ func Load() *Config {
 
 		VectorStoreEnabled: getEnvBool("VECTOR_STORE_ENABLED", true),
 		VectorStoreHost:    getEnv("VECTOR_STORE_HOST", "localhost"),
-		VectorStorePort:    getEnvInt("VECTOR_STORE_PORT", 6333),
+		VectorStorePort:    getEnvInt("VECTOR_STORE_PORT", 6334),
 		VectorCollection:   getEnv("VECTOR_COLLECTION", "medical_knowledge"),
 
 		EmbeddingEnabled: getEnvBool("EMBEDDING_ENABLED", true),

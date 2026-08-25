@@ -1,0 +1,5 @@
+# 数据镜像只需要 gz 文件，排除其余一切（白名单模式，context 最小化）
+*
+!internal/
+!internal/knowledge/
+!internal/knowledge/gz/

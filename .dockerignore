@@ -1,15 +1,22 @@
 # 构建上下文排除（减小 docker build 体积与传输时间）
+.git/
 external/
 bin/
-.git/
+build/
+.gocache/
+**/gomodcache/
+.DS_Store
+
+# 应用镜像不需要知识库数据：
+#   data/ 是 gz 的源 JSON（仅 make gz 时用）
+#   gz/   运行时由 volume 从数据镜像挂载
+internal/knowledge/data/
+internal/knowledge/gz/
+
+# 文档/环境/产物
 *.md
 .env
 .env.example
 knowledge.db
 knowledge.db-*
 doctor-agent
-build/
-
-# 本地开发缓存
-**/gomodcache/
-.DS_Store

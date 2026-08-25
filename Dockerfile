@@ -2,7 +2,11 @@
 
 # ---------- build stage ----------
 FROM golang:1.26-alpine AS build
-RUN apk add --no-cache ca-certificates git
+
+# China-accessible Alpine mirror (dl-cdn.alpinelinux.org is slow/blocked on CN networks)
+RUN sed -i 's#dl-cdn.alpinelinux.org#mirrors.aliyun.com#g' /etc/apk/repositories \
+    && apk add --no-cache ca-certificates git
+
 WORKDIR /src
 
 # China-accessible module proxy (proxy.golang.org is blocked on CN networks);
@@ -10,17 +14,21 @@ WORKDIR /src
 ENV GOPROXY=https://goproxy.cn,direct
 ENV GOSUMDB=off
 
-# Cache module downloads
+# Cache module downloads (BuildKit cache mount survives across builds)
 COPY go.mod go.sum ./
-RUN go mod download
+RUN --mount=type=cache,target=/go/pkg/mod \
+    go mod download
 
 # Build the static binary (no CGO; go-sql-driver/mysql is pure Go)
 COPY . .
-RUN CGO_ENABLED=0 GOOS=linux go build -ldflags "-s -w" -o /out/doctor-agent .
+RUN --mount=type=cache,target=/go/pkg/mod \
+    --mount=type=cache,target=/root/.cache/go-build \
+    CGO_ENABLED=0 GOOS=linux go build -ldflags "-s -w" -o /out/doctor-agent .
 
 # ---------- runtime stage ----------
 FROM alpine:3.20
-RUN apk add --no-cache ca-certificates curl mariadb-client
+RUN sed -i 's#dl-cdn.alpinelinux.org#mirrors.aliyun.com#g' /etc/apk/repositories \
+    && apk add --no-cache ca-certificates curl mariadb-client
 WORKDIR /app
 
 COPY --from=build /out/doctor-agent /usr/local/bin/doctor-agent

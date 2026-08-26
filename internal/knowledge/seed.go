@@ -410,3 +410,78 @@ func valueToString(v interface{}) string {
 		return ""
 	}
 }
+
+// IngestUpload classifies an uploaded knowledge file (JSON or gzip-compressed
+// JSON, named like the source datasets, e.g. diabetes.json or medical.json.gz)
+// and upserts its rows into the MariaDB knowledge store, replacing any
+// previous rows for the same dataset. It powers the admin upload API.
+// Returns the target dataset and the number of rows written.
+func IngestUpload(dsn, filename string, raw []byte) (string, int, error) {
+	data := raw
+	// Transparently decompress .gz uploads.
+	if strings.HasSuffix(filename, ".gz") || strings.HasSuffix(filename, ".gzip") {
+		zr, err := gzip.NewReader(bytes.NewReader(raw))
+		if err != nil {
+			return "", 0, fmt.Errorf("not a valid gzip file: %w", err)
+		}
+		defer zr.Close()
+		if data, err = io.ReadAll(zr); err != nil {
+			return "", 0, fmt.Errorf("decompressing upload: %w", err)
+		}
+		filename = strings.TrimSuffix(filename, filepath.Ext(filename))
+	}
+
+	base := strings.TrimSuffix(strings.TrimSuffix(filename, ".gz"), ".json")
+	if base == "" {
+		return "", 0, fmt.Errorf("filename must be like <dataset>.json or <dataset>.json.gz")
+	}
+
+	// seedFile's switch matches the full source name including the .json suffix
+	// (e.g. "hp_infection.json"), mirroring Seed()'s call convention.
+	ds, rows, err := seedFile(base+".json", data)
+	if err != nil {
+		return "", 0, fmt.Errorf("classifying %s: %w", base, err)
+	}
+	if ds == "" || len(rows) == 0 {
+		return "", 0, fmt.Errorf("unsupported or empty dataset: %s", base)
+	}
+
+	kb, err := OpenKB(dsn)
+	if err != nil {
+		return "", 0, err
+	}
+	defer kb.Close()
+	if err := kb.Clear(ds); err != nil {
+		return "", 0, fmt.Errorf("clearing %s: %w", ds, err)
+	}
+	if err := kb.InsertBatch(ds, rows); err != nil {
+		return "", 0, fmt.Errorf("inserting %s: %w", ds, err)
+	}
+	return ds, len(rows), nil
+}
+
+// DatasetStats returns the row count per dataset in the knowledge store,
+// used by the admin dashboard to show what is currently loaded.
+func DatasetStats(dsn string) (map[string]int, error) {
+	kb, err := OpenKB(dsn)
+	if err != nil {
+		return nil, err
+	}
+	defer kb.Close()
+	rows, err := kb.conn.Query(
+		"SELECT dataset, COUNT(*) FROM kb_items GROUP BY dataset ORDER BY dataset")
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+	stats := make(map[string]int)
+	for rows.Next() {
+		var ds string
+		var n int
+		if err := rows.Scan(&ds, &n); err != nil {
+			return nil, err
+		}
+		stats[ds] = n
+	}
+	return stats, rows.Err()
+}

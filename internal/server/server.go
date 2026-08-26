@@ -28,6 +28,9 @@ import (
 //go:embed web/index.html
 var webUIIndex string
 
+//go:embed web/admin.html
+var adminUIIndex string
+
 // Server wraps the HTTP API server for the doctor agent.
 type Server struct {
 	cfg   *config.Config
@@ -71,6 +74,11 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 	// Sync endpoints
 	mux.HandleFunc("/admin/sync", s.handleAdminSync)
 	mux.HandleFunc("/admin/sync/status", s.handleAdminSyncStatus)
+	// Knowledge management (upload/update medical knowledge)
+	mux.HandleFunc("/admin/knowledge", s.handleAdminKnowledge)
+	mux.HandleFunc("/admin/knowledge/stats", s.handleAdminKnowledgeStats)
+	// Admin UI (single-file page, Basic-auth guarded by the browser)
+	mux.HandleFunc("/admin", s.handleAdminUI)
 
 	s.http = &http.Server{
 		Addr:         fmt.Sprintf("%s:%s", cfg.ServerHost, cfg.ServerPort),
@@ -570,7 +578,20 @@ func (s *Server) handleAdminUser(w http.ResponseWriter, r *http.Request) {
 
 // getAdminFromRequest extracts admin user from request (checks API key or token).
 func (s *Server) getAdminFromRequest(r *http.Request) *database.User {
-	// Check for API key
+	// 1) Basic auth (admin console): base64 user:pass → Login check.
+	if u, p, ok := r.BasicAuth(); ok {
+		if s.auth == nil {
+			return nil
+		}
+		user, err := s.auth.Login(&auth.LoginInput{Username: u, Password: p})
+		if err == nil && user != nil && user.IsAdmin {
+			return user
+		}
+		// Fall through: a non-admin login is still rejected.
+		return nil
+	}
+
+	// 2) Bearer API key: matches the configured API key → virtual admin.
 	apiKey := strings.TrimPrefix(r.Header.Get("Authorization"), "Bearer ")
 
 	// If API key matches, return admin user
@@ -583,7 +604,7 @@ func (s *Server) getAdminFromRequest(r *http.Request) *database.User {
 		}
 	}
 
-	// Check for token-based auth
+	// 3) Token-based auth
 	if s.auth != nil {
 		user, err := s.auth.GetUserByToken(apiKey)
 		if err == nil && user != nil && user.IsAdmin {
@@ -787,7 +808,10 @@ func (s *Server) handleAdminSync(w http.ResponseWriter, r *http.Request) {
 
 	// Get source parameter
 	source := r.FormValue("source")
-	if source == "" {
+	if source == "" || source == "all" {
+		// "all" (or absent) means sync every dataset; no filename fallback.
+		source = ""
+	} else if source == "auto" {
 		source = strings.TrimSuffix(handler.Filename, ".json")
 		source = strings.TrimSuffix(source, ".json")
 	}
@@ -924,4 +948,90 @@ func (s *Server) handleAdminSyncStatus(w http.ResponseWriter, r *http.Request) {
 		"total":  total,
 		"stats":  stats,
 	})
+}
+
+// handleAdminUI serves the single-file admin console (embedded HTML).
+// The page itself asks for admin credentials and calls the admin APIs with
+// Basic auth; no server-side session is involved.
+func (s *Server) handleAdminUI(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+	w.Header().Set("Content-Type", "text/html; charset=utf-8")
+	_, _ = io.WriteString(w, adminUIIndex)
+}
+
+// handleAdminKnowledge handles uploading/updating a medical knowledge dataset.
+// POST multipart with a "file" part: <dataset>.json or <dataset>.json.gz.
+// The file is classified, replaces the existing dataset rows in MariaDB, and
+// the in-memory store is refreshed so running queries see the update.
+func (s *Server) handleAdminKnowledge(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodPost {
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+		return
+	}
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	if err := r.ParseMultipartForm(200 << 20); err != nil { // 200MB headroom for big JSON.gz
+		writeJSON(w, http.StatusBadRequest, map[string]any{"error": fmt.Sprintf("failed to parse form: %v", err)})
+		return
+	}
+	file, handler, err := r.FormFile("file")
+	if err != nil {
+		writeJSON(w, http.StatusBadRequest, map[string]any{"error": fmt.Sprintf("failed to get file: %v", err)})
+		return
+	}
+	defer file.Close()
+
+	raw, err := io.ReadAll(file)
+	if err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": fmt.Sprintf("reading upload: %v", err)})
+		return
+	}
+	if len(raw) == 0 {
+		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "empty file"})
+		return
+	}
+
+	ds, n, err := knowledge.IngestUpload(s.cfg.KnowledgeDBDSN(), handler.Filename, raw)
+	if err != nil {
+		writeJSON(w, http.StatusBadRequest, map[string]any{"error": err.Error()})
+		return
+	}
+
+	// Refresh the in-memory store so the running agent sees the new data.
+	knowledge.Reload()
+
+	slog.Info("Admin updated knowledge dataset", "dataset", ds, "rows", n, "file", handler.Filename, "ip", clientIP(r))
+	writeJSON(w, http.StatusOK, map[string]any{
+		"status":  "ok",
+		"message": fmt.Sprintf("数据集 %s 已更新（%d 条）", ds, n),
+		"dataset": ds,
+		"rows":    n,
+	})
+}
+
+// handleAdminKnowledgeStats reports per-dataset row counts in the knowledge
+// store (MariaDB). GET /admin/knowledge/stats
+func (s *Server) handleAdminKnowledgeStats(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+		return
+	}
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	stats, err := knowledge.DatasetStats(s.cfg.KnowledgeDBDSN())
+	if err != nil {
+		slog.Error("Admin knowledge stats", "error", err)
+		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": "failed to read stats"})
+		return
+	}
+	writeJSON(w, http.StatusOK, map[string]any{"stats": stats})
 }

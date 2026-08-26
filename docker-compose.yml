@@ -84,7 +84,7 @@ services:
       VECTOR_STORE_PORT: "6334"
       VECTOR_COLLECTION: medical_knowledge
       EMBEDDING_ENABLED: "true"
-      LOG_LEVEL: ${LOG_LEVEL:-info}
+      LOG_LEVEL: ${LOG_LEVEL:-warn}
     depends_on:
       mariadb:
         condition: service_healthy

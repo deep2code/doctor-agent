@@ -3,6 +3,7 @@ package knowledge
 import (
 	"encoding/json"
 	"fmt"
+	"log/slog"
 	"strings"
 	"sync"
 
@@ -10,9 +11,9 @@ import (
 )
 
 // Store holds all loaded medical knowledge. Data is NOT embedded: the compiled
-// binary contains only logic. Each dataset is loaded lazily from an external
-// SQLite database (knowledge.db) the first time a retriever or tool needs it
-// (see the ensure* helpers), then cached in memory for the process lifetime.
+// binary contains only logic. Each dataset is loaded lazily from MariaDB the
+// first time a retriever or tool needs it (see the ensure* helpers), then
+// cached in memory for the process lifetime.
 // Cold reads therefore hit the database directly; warm reads stay fast.
 type Store struct {
 	mu sync.RWMutex
@@ -120,37 +121,55 @@ var globalStore *Store
 var loadOnce sync.Once
 var loadErr error
 
+// Reload rebuilds the in-memory knowledge store from MariaDB. It is called
+// after the admin API updates a dataset so running queries see the new rows.
+// The old store is replaced atomically; per-dataset lazy loaders are reset.
+func Reload() {
+	newStore, err := buildStore()
+	if err != nil {
+		slog.Error("Knowledge reload failed; keeping previous store", "error", err)
+		return
+	}
+	globalStore = newStore
+	loadOnce = sync.Once{}
+	loadErr = nil
+}
+
+// buildStore opens the KB and constructs a fresh Store (shared by Load/Reload).
+func buildStore() (*Store, error) {
+	cfg := config.Load()
+	if err := cfg.EnsureKnowledgeDB(); err != nil {
+		return nil, fmt.Errorf("ensure knowledge database: %w", err)
+	}
+	dsn := resolveKBPath()
+	kb, err := OpenKB(dsn)
+	if err != nil {
+		return nil, err
+	}
+	return &Store{
+		kb:                         kb,
+		MedicalByID:                make(map[string]*KnowledgeEntry),
+		DrugByID:                   make(map[string]*DrugEntry),
+		DrugByGenericName:          make(map[string]*DrugEntry),
+		FoodRiskByID:               make(map[string]*FoodRiskEntry),
+		LabTestByID:                make(map[string]*LabTestReference),
+		ReferenceIndex:             make(map[string]string),
+		LiteratureByTopic:          make(map[string][]*LiteratureEntry),
+		ICD10ByCode:                make(map[string]*ICD10Disease),
+		NMPAByName:                 make(map[string]*NMPADrug),
+		DiseaseEncyclopediasByName: make(map[string]*DiseaseEncyclopedia),
+		CPubMedByHead:              make(map[string][]*CPubMedTriple),
+		CPubMedByRelation:          make(map[string][]*CPubMedTriple),
+	}, nil
+}
+
 // Load opens the knowledge database and returns a (lazily populated) Store.
 // The DSN is taken from config (MARIA_DB_* / KNOWLEDGE_DB_DSN), so datasets are
 // fetched from MariaDB on first use. No knowledge data is embedded in the
 // binary.
 func Load() (*Store, error) {
 	loadOnce.Do(func() {
-		cfg := config.Load()
-		if err := cfg.EnsureKnowledgeDB(); err != nil {
-			loadErr = fmt.Errorf("ensure knowledge database: %w", err)
-			return
-		}
-		dsn := resolveKBPath()
-		var kb *KB
-		kb, loadErr = OpenKB(dsn)
-		if loadErr == nil {
-			globalStore = &Store{
-				kb:                         kb,
-				MedicalByID:                make(map[string]*KnowledgeEntry),
-				DrugByID:                   make(map[string]*DrugEntry),
-				DrugByGenericName:          make(map[string]*DrugEntry),
-				FoodRiskByID:               make(map[string]*FoodRiskEntry),
-				LabTestByID:                make(map[string]*LabTestReference),
-				ReferenceIndex:             make(map[string]string),
-				LiteratureByTopic:          make(map[string][]*LiteratureEntry),
-				ICD10ByCode:                make(map[string]*ICD10Disease),
-				NMPAByName:                 make(map[string]*NMPADrug),
-				DiseaseEncyclopediasByName: make(map[string]*DiseaseEncyclopedia),
-				CPubMedByHead:              make(map[string][]*CPubMedTriple),
-				CPubMedByRelation:          make(map[string][]*CPubMedTriple),
-			}
-		}
+		globalStore, loadErr = buildStore()
 	})
 	if loadErr != nil {
 		return nil, loadErr

@@ -44,9 +44,14 @@ func main() {
 	cfg := config.Load()
 
 	// Setup structured logging
-	level := slog.LevelInfo
-	if cfg.LogLevel == "debug" {
+	var level slog.Level = slog.LevelInfo
+	switch cfg.LogLevel {
+	case "debug":
 		level = slog.LevelDebug
+	case "warn", "warning":
+		level = slog.LevelWarn
+	case "error":
+		level = slog.LevelError
 	}
 	slog.SetDefault(slog.New(slog.NewTextHandler(os.Stderr, &slog.HandlerOptions{
 		Level: level,

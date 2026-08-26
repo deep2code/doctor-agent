@@ -8,7 +8,9 @@ import (
 	"io"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
+	"sync"
 )
 
 // Seed reads every gzip-compressed knowledge file in gzDir and inserts its
@@ -56,16 +58,51 @@ func Seed(dbPath, gzDir string) error {
 		byDataset[ds] = append(byDataset[ds], rows...)
 	}
 
-	for ds, rows := range byDataset {
-		if err := kb.Clear(ds); err != nil {
-			return fmt.Errorf("clearing %s: %w", ds, err)
-		}
-		if err := kb.InsertBatch(ds, rows); err != nil {
-			return fmt.Errorf("inserting %s: %w", ds, err)
-		}
-		fmt.Printf("seeded %s (%d rows)\n", ds, len(rows))
+	// Seed datasets in parallel (bounded worker pool). Each dataset is
+	// independent — Clear + InsertBatch touch disjoint key ranges — so
+	// parallelism is safe and cuts wall time on the large tables
+	// (medicalqa 506k, nmpa 167k, cpubmed 105k rows).
+	const seedWorkers = 4
+	datasets := make([]string, 0, len(byDataset))
+	for ds := range byDataset {
+		datasets = append(datasets, ds)
 	}
-	return nil
+	sort.Strings(datasets)
+
+	var (
+		wg   sync.WaitGroup
+		mu   sync.Mutex
+		werr error
+	)
+	sem := make(chan struct{}, seedWorkers)
+	for _, ds := range datasets {
+		rows := byDataset[ds]
+		wg.Add(1)
+		sem <- struct{}{}
+		go func(ds string, rows []KBRow) {
+			defer wg.Done()
+			defer func() { <-sem }()
+			if err := kb.Clear(ds); err != nil {
+				mu.Lock()
+				if werr == nil {
+					werr = fmt.Errorf("clearing %s: %w", ds, err)
+				}
+				mu.Unlock()
+				return
+			}
+			if err := kb.InsertBatch(ds, rows); err != nil {
+				mu.Lock()
+				if werr == nil {
+					werr = fmt.Errorf("inserting %s: %w", ds, err)
+				}
+				mu.Unlock()
+				return
+			}
+			fmt.Printf("seeded %s (%d rows)\n", ds, len(rows))
+		}(ds, rows)
+	}
+	wg.Wait()
+	return werr
 }
 
 func decompressFile(path string) ([]byte, error) {

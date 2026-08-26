@@ -11,6 +11,9 @@ services:
   mariadb:
     image: mariadb:11.4
     container_name: doctor-agent-mariadb
+    command:
+      - --innodb-flush-log-at-trx-commit=2
+      - --sync-binlog=0
     environment:
       MARIADB_ROOT_PASSWORD: ${MARIA_DB_ROOT_PASSWORD:-changeme}
     volumes:

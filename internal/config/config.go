@@ -203,8 +203,10 @@ func (c *Config) Validate() error {
 }
 
 // MariaDBDSN builds a Go MySQL driver DSN for the given database name.
+// interpolateParams avoids a server-side prepare round-trip per statement,
+// which matters for the multi-row INSERTs used during seed-knowledge.
 func (c *Config) MariaDBDSN(database string) string {
-	return fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?parseTime=true&charset=utf8mb4&collation=utf8mb4_unicode_ci",
+	return fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?parseTime=true&charset=utf8mb4&collation=utf8mb4_unicode_ci&interpolateParams=true",
 		c.MariaDBUser, c.MariaDBPassword, c.MariaDBHost, c.MariaDBPort, database)
 }
 
@@ -228,7 +230,7 @@ func (c *Config) AppDBDSN() string {
 // MariaDBServerDSN returns a DSN without a database name, used to create
 // databases at startup (so deployment needs no external init SQL).
 func (c *Config) MariaDBServerDSN() string {
-	return fmt.Sprintf("%s:%s@tcp(%s:%d)/?parseTime=true&charset=utf8mb4&collation=utf8mb4_unicode_ci",
+	return fmt.Sprintf("%s:%s@tcp(%s:%d)/?parseTime=true&charset=utf8mb4&collation=utf8mb4_unicode_ci&interpolateParams=true",
 		c.MariaDBUser, c.MariaDBPassword, c.MariaDBHost, c.MariaDBPort)
 }
 

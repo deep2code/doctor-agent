@@ -61,7 +61,7 @@ const (
 // "user:pass@tcp(host:3306)/doctor_knowledge?parseTime=true".
 func OpenKB(dsn string) (*KB, error) {
 	if dsn == "" {
-		dsn = "root@tcp(localhost:3306)/doctor_knowledge?parseTime=true"
+		dsn = "root@tcp(localhost:3306)/doctor_knowledge?parseTime=true&interpolateParams=true"
 	}
 	conn, err := sql.Open("mysql", dsn)
 	if err != nil {
@@ -83,15 +83,20 @@ func OpenKB(dsn string) (*KB, error) {
 }
 
 // compressData gzip-compresses a document before storage to keep the database
-// file small (the uncompressed JSON corpus is ~500MB+). Decompression is
-// transparent in Get/All/Search; the gzip magic-byte check makes reads
-// backward-compatible with any uncompressed rows left by older seeds.
+// file small (the uncompressed JSON corpus is ~500MB+). BestSpeed keeps the
+// seed fast — the corpus is compressed once at seed time but read many times
+// at runtime, so speed beats ratio here. Decompression is transparent in
+// Get/All/Search; the gzip magic-byte check makes reads backward-compatible
+// with any uncompressed rows left by older seeds.
 func compressData(b []byte) []byte {
 	if len(b) == 0 {
 		return b
 	}
 	var buf bytes.Buffer
-	w := gzip.NewWriter(&buf)
+	w, err := gzip.NewWriterLevel(&buf, gzip.BestSpeed)
+	if err != nil {
+		return b
+	}
 	if _, err := w.Write(b); err != nil {
 		return b
 	}
@@ -181,19 +186,24 @@ func (kb *KB) InsertBatch(dataset string, rows []KBRow) error {
 	}
 	wg.Wait()
 
-	tx, err := kb.conn.Begin()
-	if err != nil {
-		return err
-	}
-	defer func() {
-		if err != nil {
-			_ = tx.Rollback()
-		}
-	}()
-
-	const chunk = 200
+	// Insert in chunks of rows per transaction. A single ~500k-row transaction
+	// would balloon InnoDB redo/undo logs; 20k-row transactions stay small and
+	// are safe because INSERT ... ON DUPLICATE KEY UPDATE is idempotent.
+	const (
+		chunk        = 200 // rows per INSERT statement
+		rowsPerTx    = 20000
+	)
 	var sb strings.Builder
+	var tx *sql.Tx
+	var err error
+	inserted := 0
 	for i := 0; i < len(rows); i += chunk {
+		if inserted == 0 {
+			tx, err = kb.conn.Begin()
+			if err != nil {
+				return err
+			}
+		}
 		end := i + chunk
 		if end > len(rows) {
 			end = len(rows)
@@ -209,10 +219,23 @@ func (kb *KB) InsertBatch(dataset string, rows []KBRow) error {
 			args = append(args, dataset, rows[j].Key, compressed[j])
 		}
 		if _, err = tx.Exec(sb.String(), args...); err != nil {
+			_ = tx.Rollback()
 			return fmt.Errorf("inserting chunk %d-%d: %w", i, end, err)
 		}
+		inserted += end - i
+		if inserted >= rowsPerTx {
+			if err = tx.Commit(); err != nil {
+				return fmt.Errorf("committing batch: %w", err)
+			}
+			inserted = 0
+		}
 	}
-	return tx.Commit()
+	if inserted > 0 {
+		if err = tx.Commit(); err != nil {
+			return fmt.Errorf("committing final batch: %w", err)
+		}
+	}
+	return nil
 }
 
 // KBRow is one row passed to InsertBatch.

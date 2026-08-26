@@ -19,6 +19,7 @@ import (
 	"github.com/doctor-agent/internal/embedding"
 	"github.com/doctor-agent/internal/knowledge"
 	"github.com/doctor-agent/internal/server"
+	"github.com/doctor-agent/internal/session"
 )
 
 // Build-time version metadata, injected via:
@@ -294,7 +295,12 @@ func runServe(cfg *config.Config) {
 		return
 	}
 
-	srv := server.New(cfg, ag, authSvc)
+	// Persist every conversation to MariaDB (server-side sessions). This is
+	// independent of SESSION_DIR file persistence — the web UI's history list
+	// is served from the database via /sessions.
+	ag.SetSessionStore(session.NewDBStore(db))
+
+	srv := server.NewWithDB(cfg, ag, authSvc, db)
 
 	// Graceful shutdown
 	sigCh := make(chan os.Signal, 1)

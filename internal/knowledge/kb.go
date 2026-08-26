@@ -4,13 +4,14 @@ import (
 	"bytes"
 	"compress/gzip"
 	"database/sql"
+	"errors"
 	"fmt"
 	"io"
 	"runtime"
 	"strings"
 	"sync"
 
-	_ "github.com/go-sql-driver/mysql"
+	"github.com/go-sql-driver/mysql"
 )
 
 // KB is the MariaDB-backed knowledge store. The compiled binary contains
@@ -137,10 +138,13 @@ func (kb *KB) migrate() error {
 			PRIMARY KEY (id),
 			UNIQUE KEY uq_kb_dataset_key (dataset, ` + "`key`" + `)
 		) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`,
-		`CREATE INDEX IF NOT EXISTS idx_kb_dataset ON kb_items(dataset)`,
+		`CREATE INDEX idx_kb_dataset ON kb_items(dataset)`,
 	}
 	for _, q := range queries {
 		if _, err := kb.conn.Exec(q); err != nil {
+			if isDuplicateIndexError(err) {
+				continue
+			}
 			return fmt.Errorf("migrating kb_items: %w", err)
 		}
 	}
@@ -339,4 +343,19 @@ func (kb *KB) Search(dataset string, terms []string) ([][]byte, error) {
 		}
 	}
 	return out, rows.Err()
+}
+
+// isDuplicateIndexError reports whether err is MySQL/MariaDB error 1061
+// (ER_DUP_KEYNAME) — raised when CREATE INDEX targets an existing index.
+// Kept in this package (rather than shared) to avoid a knowledge→database
+// dependency; the check is a single error-number comparison.
+func isDuplicateIndexError(err error) bool {
+	if err == nil {
+		return false
+	}
+	var me *mysql.MySQLError
+	if errors.As(err, &me) {
+		return me.Number == 1061
+	}
+	return false
 }

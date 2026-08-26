@@ -35,6 +35,19 @@
   #welcome h1 { font-size: 26px; margin-bottom: 12px; }
   #welcome p { color: var(--muted); margin-bottom: 28px; }
   .suggestions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+  .suggestions .chip-group {
+    display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;
+    animation: chipFade .5s ease;
+  }
+  @keyframes chipFade {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .suggestions .dots { display: flex; gap: 6px; justify-content: center; margin-top: 14px; }
+  .suggestions .dots span {
+    width: 7px; height: 7px; border-radius: 50%; background: var(--border); cursor: pointer;
+  }
+  .suggestions .dots span.on { background: var(--accent); }
   .chip {
     background: var(--card); border: 1px solid var(--border); border-radius: 20px;
     padding: 10px 18px; font-size: 14px; cursor: pointer; color: var(--text); max-width: 360px;
@@ -1748,7 +1761,7 @@ Licensed under The MIT License (http://opensource.org/licenses/MIT)
 <aside id="sidebar">
   <div class="sidebar-head">🩺 历史会话</div>
   <ul id="conv-list"></ul>
-  <div class="sidebar-foot">会话保存在本浏览器（localStorage）</div>
+  <div class="sidebar-foot">会话保存在服务器（MariaDB）</div>
 </aside>
 <div id="mask"></div>
 <header>
@@ -1763,12 +1776,7 @@ Licensed under The MIT License (http://opensource.org/licenses/MIT)
     <div id="welcome">
       <h1>你好，我是 Doctor Agent 👋</h1>
       <p>循证医学AI助手，覆盖中国人群常见健康问题。身体不适，随时问我。</p>
-      <div class="suggestions">
-        <button class="chip">我一喝牛奶就拉肚子，是乳糖不耐受吗？</button>
-        <button class="chip">我在广东生活，耳鸣鼻塞，会是鼻咽癌吗？</button>
-        <button class="chip">G6PD 缺乏的人能吃哪些药？</button>
-        <button class="chip">我和丈夫都是地贫携带者，孩子会得地贫吗？</button>
-      </div>
+      <div class="suggestions" id="suggestions"></div>
     </div>
     <div id="messages"></div>
   </div>
@@ -1789,15 +1797,12 @@ Licensed under The MIT License (http://opensource.org/licenses/MIT)
 <script>
 (function () {
   "use strict";
-  var CONV_KEY = "doctor-agent-conv";   // 当前会话 id
-  var MSG_KEY = "doctor-agent-msgs";    // 旧版单会话存储（迁移用）
-  var CONVS_KEY = "doctor-agent-convs"; // 会话列表 [{id,title,updated,messages}]
 
   var $ = function (id) { return document.getElementById(id); };
   var input = $("input"), sendBtn = $("send"), messagesEl = $("messages"),
       welcomeEl = $("welcome"), scrollArea = $("scroll-area"), errorTip = $("error-tip");
 
-  var state = { convId: localStorage.getItem(CONV_KEY) || "", sending: false };
+  var state = { convId: "", sending: false }; // 会话 id 仅存内存，历史全部由服务器保存
   var pendingImages = []; // [{base64, mediaType, dataUrl}]
 
   function genId() { return "conv-" + Date.now().toString(36) + Math.random().toString(36).slice(2, 8); }
@@ -1920,23 +1925,12 @@ Licensed under The MIT License (http://opensource.org/licenses/MIT)
   function showError(msg) { errorTip.style.display = "block"; errorTip.textContent = msg; }
   function clearError() { errorTip.style.display = "none"; }
 
-  /* ---- 会话持久化：多会话列表（localStorage） ---- */
-  function loadConvs() {
-    var convs;
-    try { convs = JSON.parse(localStorage.getItem(CONVS_KEY) || "[]"); } catch (e) { convs = []; }
-    if (!Array.isArray(convs)) convs = [];
-    // 旧版单会话数据迁移（首次升级时把历史并入列表）
-    if (!convs.length && state.convId) {
-      var items;
-      try { items = JSON.parse(localStorage.getItem(MSG_KEY) || "[]"); } catch (e) { items = []; }
-      if (items.length) {
-        convs.push({ id: state.convId, title: titleOf(items), updated: Date.now(), messages: items });
-        saveConvs(convs);
-      }
-    }
-    return convs;
-  }
-  function saveConvs(convs) { try { localStorage.setItem(CONVS_KEY, JSON.stringify(convs)); } catch (e) {} }
+  /* ---- 会话持久化：服务器端（MariaDB）----
+   * 会话列表与消息历史全部由服务器 /sessions API 保存，不再写入浏览器
+   * localStorage。当前会话 id 仅保存在内存中（刷新后回到欢迎页，可从
+   * 左侧历史列表重新打开）。
+   */
+  var convsCache = [];
   function titleOf(items) {
     for (var i = 0; i < items.length; i++) if (items[i].role === "user") return items[i].text.slice(0, 20);
     return "新对话";
@@ -1945,33 +1939,56 @@ Licensed under The MIT License (http://opensource.org/licenses/MIT)
     for (var i = 0; i < convs.length; i++) if (convs[i].id === state.convId) return convs[i];
     return null;
   }
-  function saveHistory() {
-    var items = [];
-    messagesEl.querySelectorAll(".msg").forEach(function (el) {
-      items.push({ role: el.classList.contains("user") ? "user" : "ai", text: el.querySelector(".bubble").textContent });
-    });
-    if (!state.convId) return;
-    var convs = loadConvs();
-    var c = currentConv(convs);
-    if (!c) { c = { id: state.convId, title: "新对话", updated: Date.now(), messages: [] }; convs.unshift(c); }
-    c.messages = items;
-    if (items.length) c.title = titleOf(items);
-    c.updated = Date.now();
-    saveConvs(convs);
+
+  // 拉取服务器会话列表
+  async function loadConvs() {
+    try {
+      var resp = await fetch("/sessions", { headers: { "Content-Type": "application/json" } });
+      if (!resp.ok) { convsCache = []; return convsCache; }
+      var data = await resp.json();
+      convsCache = (data && data.sessions) ? data.sessions : [];
+    } catch (e) { convsCache = []; }
+    return convsCache;
+  }
+  function saveConvs() { /* 会话由服务器保存，前端无需写 localStorage */ }
+
+  // 加载某个会话的消息历史
+  async function loadSession(id) {
+    var resp = await fetch("/sessions/" + encodeURIComponent(id));
+    if (!resp.ok) throw new Error("加载会话失败（" + resp.status + "）");
+    return await resp.json();
+  }
+
+  // 删除服务器会话
+  async function apiDeleteConv(id) {
+    var resp = await fetch("/sessions/" + encodeURIComponent(id), { method: "DELETE" });
+    if (!resp.ok) throw new Error("删除失败（" + resp.status + "）");
+  }
+
+  // 发送完成后刷新列表（会话已在服务器保存）
+  async function saveHistory() {
+    await loadConvs();
     renderConvList();
   }
-  function restoreHistory() {
-    var c = currentConv(loadConvs());
-    if (c && c.messages && c.messages.length) {
-      welcomeEl.style.display = "none";
-      c.messages.forEach(function (it) { addMessage(it.role, it.text); });
-    }
-    renderMermaid(messagesEl);
+
+  async function restoreHistory() {
+    // 历史完全来自服务器；若内存中已有当前会话 id，则尝试恢复其消息
+    await loadConvs();
     renderConvList();
+    if (state.convId) {
+      try {
+        var c = await loadSession(state.convId);
+        if (c && c.messages && c.messages.length) {
+          welcomeEl.style.display = "none";
+          c.messages.forEach(function (it) { addMessage(it.role, it.content); });
+          renderMermaid(messagesEl);
+        }
+      } catch (e) { /* 会话可能已被删除，忽略 */ }
+    }
   }
   function renderConvList() {
     var ul = $("conv-list");
-    var convs = loadConvs();
+    var convs = convsCache;
     ul.innerHTML = "";
     if (!convs.length) { ul.innerHTML = '<li class="empty">暂无历史会话<br>开始一个新对话吧</li>'; return; }
     convs.forEach(function (c) {
@@ -1990,36 +2007,41 @@ Licensed under The MIT License (http://opensource.org/licenses/MIT)
       ul.appendChild(li);
     });
   }
-  function switchConv(id) {
-    saveHistory(); // 保存当前会话
+  async function switchConv(id) {
     state.convId = id;
-    localStorage.setItem(CONV_KEY, id);
     messagesEl.innerHTML = "";
-    var c = currentConv(loadConvs());
-    if (c && c.messages && c.messages.length) {
-      welcomeEl.style.display = "none";
-      c.messages.forEach(function (it) { addMessage(it.role, it.text); });
-    } else {
+    try {
+      var c = await loadSession(id);
+      if (c && c.messages && c.messages.length) {
+        welcomeEl.style.display = "none";
+        c.messages.forEach(function (it) { addMessage(it.role, it.content); });
+        renderMermaid(messagesEl);
+      } else {
+        welcomeEl.style.display = "";
+      }
+    } catch (e) {
       welcomeEl.style.display = "";
+      showError("⚠️ " + e.message);
     }
     renderConvList();
     closeSidebar();
   }
-  function deleteConv(id) {
-    var convs = loadConvs().filter(function (c) { return c.id !== id; });
-    saveConvs(convs);
+  async function deleteConv(id) {
+    try {
+      await apiDeleteConv(id);
+    } catch (e) {
+      showError("⚠️ " + e.message);
+    }
     if (state.convId === id) {
       state.convId = "";
-      localStorage.removeItem(CONV_KEY);
       messagesEl.innerHTML = "";
       welcomeEl.style.display = "";
     }
+    await loadConvs();
     renderConvList();
   }
   function newConv() {
-    saveHistory();
     state.convId = genId();
-    localStorage.setItem(CONV_KEY, state.convId);
     messagesEl.innerHTML = "";
     welcomeEl.style.display = "";
     renderConvList();
@@ -2050,7 +2072,7 @@ Licensed under The MIT License (http://opensource.org/licenses/MIT)
     if ((!text && !hasImages) || state.sending) return;
     clearError();
 
-    if (!state.convId) { state.convId = genId(); localStorage.setItem(CONV_KEY, state.convId); }
+    if (!state.convId) { state.convId = genId(); }
     input.value = ""; autoResize();
 
     // Build images array for user bubble display & API
@@ -2160,9 +2182,48 @@ Licensed under The MIT License (http://opensource.org/licenses/MIT)
     input.style.height = "auto";
     input.style.height = Math.min(input.scrollHeight, 160) + "px";
   }
-  document.querySelectorAll(".chip").forEach(function (chip) {
-    chip.addEventListener("click", function () { input.value = chip.textContent; send(); });
-  });
+
+  /* ---- 建议问题：多组循环轮播 ---- */
+  var SUGGESTIONS = [
+    ["我一喝牛奶就拉肚子，是乳糖不耐受吗？", "我在广东生活，耳鸣鼻塞，会是鼻咽癌吗？", "G6PD 缺乏的人能吃哪些药？", "我和丈夫都是地贫携带者，孩子会得地贫吗？"],
+    ["饭后血糖经常偏高，怎么调整饮食？", "血压 145/95 需要吃降压药吗？", "体检报告说幽门螺杆菌阳性，要治疗吗？", "长期咳嗽有痰，会不会是慢阻肺？"],
+    ["乙肝两对半第二项阳性是什么意思？", "被蚊子咬了会得登革热吗？", "孩子发烧该什么时候去医院？", "肺结核会通过共餐传染吗？"],
+    ["药物性肝损伤有哪些表现？", "孕妇能接种哪些疫苗？", "海鲜和维生素C同吃会中毒吗？", "体检发现甲状腺结节怎么办？"],
+    ["感冒和流感怎么区分？", "体检尿酸高就是痛风吗？", "安眠药能长期吃吗？", "老人跌倒后该先做什么？"]
+  ];
+  var sugIdx = 0;
+  function renderSuggestions() {
+    var wrap = $("suggestions");
+    if (!wrap) return;
+    wrap.innerHTML = "";
+    var group = document.createElement("div");
+    group.className = "chip-group";
+    SUGGESTIONS[sugIdx].forEach(function (q) {
+      var btn = document.createElement("button");
+      btn.className = "chip";
+      btn.textContent = q;
+      btn.addEventListener("click", function () { input.value = q; send(); });
+      group.appendChild(btn);
+    });
+    wrap.appendChild(group);
+    var dots = document.createElement("div");
+    dots.className = "dots";
+    SUGGESTIONS.forEach(function (_, i) {
+      var d = document.createElement("span");
+      if (i === sugIdx) d.className = "on";
+      d.addEventListener("click", function () { sugIdx = i; renderSuggestions(); });
+      dots.appendChild(d);
+    });
+    wrap.appendChild(dots);
+  }
+  renderSuggestions();
+  // 每 6 秒切到下一组，循环滚动
+  setInterval(function () {
+    if (welcomeEl.style.display === "none") return; // 对话中不滚动
+    sugIdx = (sugIdx + 1) % SUGGESTIONS.length;
+    renderSuggestions();
+  }, 6000);
+
   $("new-chat").addEventListener("click", newConv);
   $("menu-btn").addEventListener("click", openSidebar);
   $("mask").addEventListener("click", closeSidebar);

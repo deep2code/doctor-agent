@@ -30,19 +30,27 @@ var webUIIndex string
 
 // Server wraps the HTTP API server for the doctor agent.
 type Server struct {
-	cfg     *config.Config
-	agent   *agent.Agent
-	auth    *auth.Service
-	http    *http.Server
+	cfg   *config.Config
+	agent *agent.Agent
+	auth  *auth.Service
+	db    *database.DB
+	http  *http.Server
 	limiter *rateLimiter
 }
 
 // New creates a new HTTP server.
 func New(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service) *Server {
+	return NewWithDB(cfg, ag, authSvc, nil)
+}
+
+// NewWithDB creates a new HTTP server with access to the application
+// database, enabling server-side session persistence and session APIs.
+func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *database.DB) *Server {
 	s := &Server{
 		cfg:     cfg,
 		agent:   ag,
 		auth:    authSvc,
+		db:      db,
 		limiter: newRateLimiter(cfg.RateLimit),
 	}
 
@@ -52,6 +60,11 @@ func New(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service) *Server {
 	mux.HandleFunc("/chat", s.handleChat)
 	mux.HandleFunc("/chat/stream", s.handleChatStream)
 	mux.HandleFunc("/feedback", s.handleFeedback)
+	// Session APIs (server-side persistence for the chat UI)
+	if db != nil {
+		mux.HandleFunc("/sessions", s.handleSessions)
+		mux.HandleFunc("/sessions/", s.handleSessionByID)
+	}
 	// Admin endpoints
 	mux.HandleFunc("/admin/users", s.handleAdminUsers)
 	mux.HandleFunc("/admin/users/", s.handleAdminUser)
@@ -366,6 +379,105 @@ func (s *Server) handleFeedback(w http.ResponseWriter, r *http.Request) {
 	)
 
 	writeJSON(w, http.StatusOK, map[string]any{"status": "ok"})
+}
+
+// handleSessions lists persisted conversations (most recently updated first).
+// GET /sessions
+func (s *Server) handleSessions(w http.ResponseWriter, r *http.Request) {
+	if s.db == nil {
+		writeJSON(w, http.StatusServiceUnavailable, map[string]any{"error": "session persistence disabled"})
+		return
+	}
+	if r.Method != http.MethodGet {
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+		return
+	}
+
+	recs, err := s.db.ListAllSessions(200)
+	if err != nil {
+		slog.Error("Listing sessions", "error", err)
+		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": "failed to list sessions"})
+		return
+	}
+
+	type item struct {
+		ID        string `json:"id"`
+		Title     string `json:"title"`
+		UpdatedAt string `json:"updated_at"`
+		CreatedAt string `json:"created_at"`
+	}
+	out := make([]item, 0, len(recs))
+	for _, r2 := range recs {
+		if r2.ID == "" {
+			continue
+		}
+		out = append(out, item{
+			ID:        r2.ID,
+			Title:     r2.Title,
+			UpdatedAt: r2.UpdatedAt.Format(time.RFC3339),
+			CreatedAt: r2.CreatedAt.Format(time.RFC3339),
+		})
+	}
+	writeJSON(w, http.StatusOK, map[string]any{"sessions": out})
+}
+
+// handleSessionByID reads or deletes one persisted conversation.
+//   GET    /sessions/{id}  → {id, title, messages:[{role, content}]}
+//   DELETE /sessions/{id}  → 204
+func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
+	if s.db == nil {
+		writeJSON(w, http.StatusServiceUnavailable, map[string]any{"error": "session persistence disabled"})
+		return
+	}
+	id := strings.TrimPrefix(r.URL.Path, "/sessions/")
+	if id == "" || !session.ValidID(id) {
+		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid session id"})
+		return
+	}
+
+	switch r.Method {
+	case http.MethodGet:
+		rec, err := s.db.GetSession(id)
+		if err != nil {
+			slog.Error("Getting session", "id", id, "error", err)
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": "failed to get session"})
+			return
+		}
+		if rec == nil {
+			writeJSON(w, http.StatusNotFound, map[string]any{"error": "session not found"})
+			return
+		}
+		msgs, err := s.db.GetSessionMessages(id)
+		if err != nil {
+			slog.Error("Getting session messages", "id", id, "error", err)
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": "failed to get session messages"})
+			return
+		}
+		type m struct {
+			Role    string `json:"role"`
+			Content string `json:"content"`
+		}
+		out := make([]m, 0, len(msgs))
+		for _, msg := range msgs {
+			out = append(out, m{Role: msg.Role, Content: msg.Content})
+		}
+		writeJSON(w, http.StatusOK, map[string]any{
+			"id":       rec.ID,
+			"title":    rec.Title,
+			"messages": out,
+		})
+	case http.MethodDelete:
+		if err := s.db.DeleteSession(id); err != nil {
+			slog.Error("Deleting session", "id", id, "error", err)
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": "failed to delete session"})
+			return
+		}
+		// Drop the in-memory copy too, so a stale agent session can't resurrect it.
+		s.agent.DeleteSession(id)
+		w.WriteHeader(http.StatusNoContent)
+	default:
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+	}
 }
 
 // handleAdminUsers handles admin user management (create list users).

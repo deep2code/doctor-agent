@@ -2,12 +2,13 @@ package session
 
 import (
 	"fmt"
+	"strings"
 
 	"github.com/doctor-agent/internal/database"
 	"github.com/doctor-agent/internal/llm"
 )
 
-// DBStore persists sessions to SQLite database.
+// DBStore persists sessions to the MariaDB application database.
 type DBStore struct {
 	db *database.DB
 }
@@ -31,15 +32,19 @@ func (s *DBStore) Save(sess *Session) error {
 	}
 
 	if existing == nil {
-		// Create new session
+		// Create new session, deriving the title from the first user message.
 		err = s.db.CreateSession(&database.SessionRecord{
 			ID:     sess.ID,
-			Title:  sess.ContextSummary,
+			Title:  titleOf(messages),
 			UserID: "",
 		})
 		if err != nil {
 			return fmt.Errorf("creating session: %w", err)
 		}
+	} else if t := titleOf(messages); t != "" && existing.Title != t {
+		// Keep the stored title fresh (first user message usually set at creation,
+		// but a session created without messages gets its title here).
+		_ = s.db.UpdateSessionTitle(sess.ID, t)
 	}
 
 	// Get existing message count
@@ -84,9 +89,10 @@ func (s *DBStore) Load(id string) (*Session, error) {
 
 	// Convert to llm.Message format
 	sess := &Session{
-		ID:        record.ID,
-		CreatedAt: record.CreatedAt,
-		UpdatedAt: record.UpdatedAt,
+		ID:             record.ID,
+		ContextSummary: record.Title,
+		CreatedAt:      record.CreatedAt,
+		UpdatedAt:      record.UpdatedAt,
 	}
 
 	for _, msg := range messages {
@@ -99,9 +105,17 @@ func (s *DBStore) Load(id string) (*Session, error) {
 	return sess, nil
 }
 
-// List returns all persisted session IDs.
+// List returns all persisted session IDs, most recently updated first.
 func (s *DBStore) List() ([]string, error) {
-	return []string{}, nil
+	recs, err := s.db.ListAllSessions(200)
+	if err != nil {
+		return nil, fmt.Errorf("listing sessions: %w", err)
+	}
+	ids := make([]string, 0, len(recs))
+	for _, r := range recs {
+		ids = append(ids, r.ID)
+	}
+	return ids, nil
 }
 
 // Delete removes a session from the database.
@@ -118,4 +132,23 @@ type Store interface {
 	Load(id string) (*Session, error)
 	List() ([]string, error)
 	Delete(id string) error
+}
+
+// titleOf derives a conversation title from the first user message.
+func titleOf(messages []llm.Message) string {
+	for _, m := range messages {
+		if m.Role == "user" {
+			t := strings.TrimSpace(m.Content)
+			if t == "" {
+				continue
+			}
+			// Keep titles short for the sidebar.
+			runes := []rune(t)
+			if len(runes) > 24 {
+				t = string(runes[:24]) + "…"
+			}
+			return t
+		}
+	}
+	return ""
 }

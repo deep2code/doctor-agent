@@ -2,12 +2,13 @@ package database
 
 import (
 	"database/sql"
+	"errors"
 	"fmt"
 	"log/slog"
 	"sync"
 	"time"
 
-	_ "github.com/go-sql-driver/mysql"
+	"github.com/go-sql-driver/mysql"
 )
 
 // DB wraps the MariaDB database connection.
@@ -106,20 +107,39 @@ func (db *DB) migrate() error {
 			user_id VARCHAR(64),
 			created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 		)`,
-		// Indexes
-		`CREATE INDEX IF NOT EXISTS idx_sessions_user_id ON sessions(user_id)`,
-		`CREATE INDEX IF NOT EXISTS idx_messages_session_id ON messages(session_id)`,
-		`CREATE INDEX IF NOT EXISTS idx_feedback_session_id ON feedback(session_id)`,
-		`CREATE INDEX IF NOT EXISTS idx_feedback_rating ON feedback(rating)`,
+		// Indexes (CREATE INDEX IF NOT EXISTS is MariaDB-only; MySQL 8+ rejects it.
+		// Tolerate "duplicate key name" so both engines migrate cleanly.)
+		`CREATE INDEX idx_sessions_user_id ON sessions(user_id)`,
+		`CREATE INDEX idx_messages_session_id ON messages(session_id)`,
+		`CREATE INDEX idx_feedback_session_id ON feedback(session_id)`,
+		`CREATE INDEX idx_feedback_rating ON feedback(rating)`,
 	}
 
 	for _, q := range queries {
 		if _, err := db.conn.Exec(q); err != nil {
+			// Ignore duplicate-index errors on re-runs (error 1061: Duplicate key name).
+			if isDuplicateIndexError(err) {
+				continue
+			}
 			return fmt.Errorf("executing migration: %w", err)
 		}
 	}
 
 	return nil
+}
+
+// isDuplicateIndexError reports whether err is MySQL/MariaDB error 1061
+// (ER_DUP_KEYNAME, "Duplicate key name") — raised when CREATE INDEX targets an
+// index that already exists.
+func isDuplicateIndexError(err error) bool {
+	if err == nil {
+		return false
+	}
+	var me *mysql.MySQLError
+	if errors.As(err, &me) {
+		return me.Number == 1061
+	}
+	return false
 }
 
 // Health checks database connectivity.
@@ -235,9 +255,15 @@ func (db *DB) CreateSession(session *SessionRecord) error {
 	db.mu.Lock()
 	defer db.mu.Unlock()
 
+	// Anonymous chat-UI sessions have no user: store NULL so the FK to
+	// users(id) is not violated (an empty string would fail).
+	userID := any(nil)
+	if session.UserID != "" {
+		userID = session.UserID
+	}
 	_, err := db.conn.Exec(
 		`INSERT INTO sessions (id, user_id, title) VALUES (?, ?, ?)`,
-		session.ID, session.UserID, session.Title,
+		session.ID, userID, session.Title,
 	)
 	return err
 }
@@ -249,7 +275,7 @@ func (db *DB) GetSession(id string) (*SessionRecord, error) {
 
 	session := &SessionRecord{}
 	err := db.conn.QueryRow(
-		`SELECT id, user_id, title, created_at, updated_at FROM sessions WHERE id = ?`, id,
+		`SELECT id, COALESCE(user_id,''), title, created_at, updated_at FROM sessions WHERE id = ?`, id,
 	).Scan(&session.ID, &session.UserID, &session.Title, &session.CreatedAt, &session.UpdatedAt)
 	if err == sql.ErrNoRows {
 		return nil, nil
@@ -278,8 +304,42 @@ func (db *DB) ListUserSessions(userID string, limit int) ([]SessionRecord, error
 	}
 
 	rows, err := db.conn.Query(
-		`SELECT id, user_id, title, created_at, updated_at 
+		`SELECT id, COALESCE(user_id,''), title, created_at, updated_at 
 		 FROM sessions WHERE user_id = ? ORDER BY updated_at DESC LIMIT ?`, userID, limit,
+	)
+	if err != nil {
+		return nil, err
+	}
+	defer func() {
+		if err := rows.Close(); err != nil {
+			slog.Warn("Failed to close rows", "error", err)
+		}
+	}()
+
+	var sessions []SessionRecord
+	for rows.Next() {
+		var s SessionRecord
+		if err := rows.Scan(&s.ID, &s.UserID, &s.Title, &s.CreatedAt, &s.UpdatedAt); err != nil {
+			return nil, err
+		}
+		sessions = append(sessions, s)
+	}
+	return sessions, nil
+}
+
+// ListAllSessions lists all sessions (anonymous chat UI), most recently
+// updated first, capped at limit.
+func (db *DB) ListAllSessions(limit int) ([]SessionRecord, error) {
+	db.mu.RLock()
+	defer db.mu.RUnlock()
+
+	if limit <= 0 {
+		limit = 50
+	}
+
+	rows, err := db.conn.Query(
+		`SELECT id, COALESCE(user_id,''), title, created_at, updated_at 
+		 FROM sessions ORDER BY updated_at DESC LIMIT ?`, limit,
 	)
 	if err != nil {
 		return nil, err

@@ -667,6 +667,29 @@ func (a *Agent) GetOrCreateSession(sessionID string) *session.Session {
 	return sess
 }
 
+// SetSessionStore enables session persistence (file or database) after
+// construction. Used by the HTTP server to persist sessions to MariaDB even
+// when no SESSION_DIR is configured.
+func (a *Agent) SetSessionStore(store session.Store) {
+	a.sessionStore = store
+	if store != nil {
+		slog.Info("Session persistence enabled", "type", "database")
+	}
+}
+
+// DeleteSession removes a session from memory (and the configured store).
+// Used by the HTTP layer when a conversation is deleted via the session API.
+func (a *Agent) DeleteSession(sessionID string) {
+	a.sessionsMu.Lock()
+	delete(a.sessions, sessionID)
+	a.sessionsMu.Unlock()
+	if a.sessionStore != nil {
+		if err := a.sessionStore.Delete(sessionID); err != nil {
+			slog.Warn("Failed to delete session from store", "id", sessionID, "error", err)
+		}
+	}
+}
+
 // saveSession persists a session snapshot when a store is configured.
 // Snapshotting happens after user/assistant messages are appended.
 func (a *Agent) saveSession(sess *session.Session) {

@@ -966,10 +966,13 @@ func embedBatch[T any](ctx context.Context, embedder embedding.Provider, source 
 	// Create vector points
 	points := make([]VectorPoint, len(entries))
 	for i, entry := range entries {
-		// Generate ID based on source and content hash
+		// Generate a deterministic UUID from source + content hash. Qdrant point
+		// IDs must be valid UUIDs; a raw "source_hash" string (e.g. drug_4870c5…)
+		// fails with "Unable to parse UUID". Deriving a UUID from the hash keeps
+		// IDs deterministic and stable across syncs while satisfying Qdrant.
 		entryJSON, _ := json.Marshal(entry)
 		hash := sha256.Sum256(entryJSON)
-		id := fmt.Sprintf("%s_%x", source, hash[:8])
+		id := uuidFromSourceHash(source, hash[:])
 
 		// Create payload with metadata
 		payload := map[string]string{
@@ -987,6 +990,19 @@ func embedBatch[T any](ctx context.Context, embedder embedding.Provider, source 
 	}
 
 	return points, nil
+}
+
+// uuidFromSourceHash derives a deterministic UUIDv5-style point ID from the
+// source name and a content hash. Qdrant point IDs must be valid UUIDs, so we
+// fold the source into the hash and format the first 16 bytes as a UUID.
+// Same source+content always yields the same ID (stable across re-syncs).
+func uuidFromSourceHash(source string, contentHash []byte) string {
+	sh := sha256.Sum256(append([]byte(source+"|"), contentHash...))
+	b := sh[:16]
+	// Set version (4) and variant bits so the result is a valid RFC 4122 UUID.
+	b[6] = (b[6] & 0x0f) | 0x40
+	b[8] = (b[8] & 0x3f) | 0x80
+	return fmt.Sprintf("%x-%x-%x-%x-%x", b[0:4], b[4:6], b[6:8], b[8:10], b[10:16])
 }
 
 // computeBatchHash computes a hash for a batch of entries.

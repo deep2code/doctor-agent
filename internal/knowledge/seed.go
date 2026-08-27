@@ -485,3 +485,44 @@ func DatasetStats(dsn string) (map[string]int, error) {
 	}
 	return stats, rows.Err()
 }
+
+// ExportDataset exports all items from a dataset as a JSON array.
+func ExportDataset(dsn, dataset string) ([]byte, error) {
+	kb, err := OpenKB(dsn)
+	if err != nil {
+		return nil, err
+	}
+	defer kb.Close()
+	rows, err := kb.conn.Query(
+		"SELECT key, data FROM kb_items WHERE dataset = ? ORDER BY id", dataset)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var items []map[string]any
+	for rows.Next() {
+		var key string
+		var data []byte
+		if err := rows.Scan(&key, &data); err != nil {
+			return nil, err
+		}
+		// Decompress gzip if needed
+		if len(data) >= 2 && data[0] == 0x1f && data[1] == 0x8b {
+			gz, err := gzip.NewReader(bytes.NewReader(data))
+			if err == nil {
+				decompressed, err := io.ReadAll(gz)
+				gz.Close()
+				if err == nil {
+					data = decompressed
+				}
+			}
+		}
+		var item map[string]any
+		if err := json.Unmarshal(data, &item); err != nil {
+			continue // skip malformed entries
+		}
+		items = append(items, item)
+	}
+	return json.MarshalIndent(items, "", "  ")
+}

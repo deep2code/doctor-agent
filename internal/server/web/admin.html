@@ -21,7 +21,7 @@
   }
   header .logo { font-size: 18px; font-weight: 600; }
   header .sub { font-size: 12px; color: var(--muted); margin-left: 10px; }
-  .container { max-width: 900px; margin: 24px auto; padding: 0 20px; }
+  .container { max-width: 1100px; margin: 24px auto; padding: 0 20px; }
   .card {
     background: var(--card); border: 1px solid var(--border); border-radius: 10px;
     padding: 20px; margin-bottom: 20px;
@@ -34,10 +34,13 @@
   .btn:hover { background: var(--accent-dark); }
   .btn:disabled { opacity: .5; cursor: not-allowed; }
   .btn.ghost { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
-  input[type=text], input[type=password], input[type=file] {
+  .btn.danger { background: var(--err); }
+  .btn.danger:hover { background: #b91c1c; }
+  input[type=text], input[type=password], input[type=file], select, textarea {
     width: 100%; padding: 10px; border: 1px solid var(--border); border-radius: 6px;
     font-size: 14px; margin-bottom: 12px;
   }
+  textarea { min-height: 100px; resize: vertical; }
   .msg { padding: 10px 14px; border-radius: 6px; font-size: 14px; margin: 10px 0; display: none; }
   .msg.ok { background: #f0fdf4; color: var(--ok); border: 1px solid #bbf7d0; }
   .msg.err { background: #fef2f2; color: var(--err); border: 1px solid #fecaca; }
@@ -47,6 +50,7 @@
   .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 12px; }
   .badge.ok { background: #f0fdf4; color: var(--ok); }
   .badge.warn { background: #fffbeb; color: var(--warn); }
+  .badge.err { background: #fef2f2; color: var(--err); }
   .drop {
     border: 2px dashed var(--border); border-radius: 8px; padding: 26px; text-align: center;
     color: var(--muted); cursor: pointer; transition: border-color .2s;
@@ -55,13 +59,34 @@
   #login-wrap { max-width: 380px; margin: 80px auto; }
   .hint { font-size: 12px; color: var(--muted); margin-top: 10px; text-align: center; }
   .logout { font-size: 13px; color: var(--muted); cursor: pointer; text-decoration: underline; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap; }
+  .tab { padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 14px; background: var(--card); border: 1px solid var(--border); }
+  .tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .tab:hover { background: #e5e7eb; }
+  .tab.active:hover { background: var(--accent-dark); }
+  .section { display: none; }
+  .section.active { display: block; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+  .stat-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 16px; text-align: center; }
+  .stat-card .value { font-size: 28px; font-weight: 600; color: var(--accent); }
+  .stat-card .label { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .flex { display: flex; gap: 10px; align-items: center; }
+  .flex-wrap { flex-wrap: wrap; }
+  .mt-10 { margin-top: 10px; }
+  .mt-20 { margin-top: 20px; }
+  .mb-10 { margin-bottom: 10px; }
+  .truncate { max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .code { font-family: monospace; background: #f3f4f6; padding: 2px 6px; border-radius: 4px; font-size: 12px; }
+  pre { background: #1f2937; color: #e5e7eb; padding: 16px; border-radius: 8px; overflow-x: auto; font-size: 12px; max-height: 400px; }
+  .pagination { display: flex; gap: 8px; margin-top: 16px; justify-content: center; }
+  .pagination button { padding: 6px 12px; }
 </style>
 </head>
 <body>
 
 <div id="login-wrap" style="display:none">
   <div class="card">
-    <h2 style="text-align:center;font-size:20px;margin-bottom:20px">🩺 Doctor Agent 管理后台</h2>
+    <h2 style="text-align:center;font-size:20px;margin-bottom:20px">Doctor Agent 管理后台</h2>
     <input type="text" id="login-user" placeholder="用户名" value="admin" autocomplete="username">
     <input type="password" id="login-pass" placeholder="密码" autocomplete="current-password">
     <button class="btn" id="login-btn" style="width:100%">登录</button>
@@ -72,36 +97,238 @@
 
 <div id="main-wrap" style="display:none">
   <header>
-    <div><span class="logo">🩺 Doctor Agent</span><span class="sub">知识管理后台</span></div>
+    <div><span class="logo">Doctor Agent</span><span class="sub">知识管理后台</span></div>
     <span class="logout" id="logout-btn">退出登录</span>
   </header>
   <div class="container">
 
-    <div class="card">
-      <h2>📤 上传 / 更新医学知识</h2>
-      <div class="drop" id="drop">
-        点击或拖拽 JSON / JSON.gz 文件到此处<br>
-        <span style="font-size:12px">支持数据集：medical / drug / labtest / foodrisk / 指南类等（文件名即数据集名，如 diabetes.json、drug_contraindications.json）</span>
-      </div>
-      <input type="file" id="file-input" accept=".json,.gz" style="display:none">
-      <div style="margin-top:12px;display:flex;gap:10px;align-items:center">
-        <button class="btn" id="upload-btn" disabled>上传并更新</button>
-        <span id="upload-name" style="font-size:13px;color:var(--muted)"></span>
-      </div>
-      <div class="msg" id="upload-msg"></div>
+    <!-- Tab Navigation -->
+    <div class="tabs">
+      <div class="tab active" data-tab="knowledge">知识库管理</div>
+      <div class="tab" data-tab="sessions">会话管理</div>
+      <div class="tab" data-tab="feedback">反馈统计</div>
+      <div class="tab" data-tab="analytics">用户分析</div>
+      <div class="tab" data-tab="api-stats">API统计</div>
+      <div class="tab" data-tab="config">系统配置</div>
+      <div class="tab" data-tab="audit">审计日志</div>
+      <div class="tab" data-tab="export">数据导出</div>
     </div>
 
-    <div class="card">
-      <h2>📊 知识库统计 <span id="stats-total" style="font-size:13px;color:var(--muted);margin-left:8px"></span></h2>
-      <table>
-        <thead><tr><th>数据集</th><th>条目数</th></tr></thead>
-        <tbody id="stats-body"><tr><td colspan="2" style="color:var(--muted)">加载中…</td></tr></tbody>
-      </table>
-      <div style="margin-top:14px">
-        <button class="btn ghost" id="refresh-btn">刷新统计</button>
-        <button class="btn" id="sync-btn" style="margin-left:8px">🔄 全量同步到向量库</button>
+    <!-- Knowledge Management Section -->
+    <div id="section-knowledge" class="section active">
+      <div class="card">
+        <h2>上传 / 更新医学知识</h2>
+        <div class="drop" id="drop">
+          点击或拖拽 JSON / JSON.gz 文件到此处<br>
+          <span style="font-size:12px">支持数据集：medical / drug / labtest / foodrisk / 指南类等</span>
+        </div>
+        <input type="file" id="file-input" accept=".json,.gz" style="display:none">
+        <div class="mt-10 flex">
+          <button class="btn" id="upload-btn" disabled>上传并更新</button>
+          <span id="upload-name" style="font-size:13px;color:var(--muted)"></span>
+        </div>
+        <div class="msg" id="upload-msg"></div>
       </div>
-      <div class="msg" id="sync-msg"></div>
+
+      <div class="card">
+        <h2>知识库统计</h2>
+        <table>
+          <thead><tr><th>数据集</th><th>条目数</th><th>版本</th><th>操作</th></tr></thead>
+          <tbody id="stats-body"><tr><td colspan="4" style="color:var(--muted)">加载中...</td></tr></tbody>
+        </table>
+        <div class="mt-10 flex">
+          <button class="btn ghost" id="refresh-btn">刷新统计</button>
+          <button class="btn" id="sync-btn">全量同步到向量库</button>
+          <button class="btn ghost" id="batch-upload-btn">批量上传</button>
+        </div>
+        <div class="msg" id="sync-msg"></div>
+      </div>
+    </div>
+
+    <!-- Session Management Section -->
+    <div id="section-sessions" class="section">
+      <div class="card">
+        <h2>会话管理</h2>
+        <table>
+          <thead><tr><th>ID</th><th>标题</th><th>消息数</th><th>创建时间</th><th>操作</th></tr></thead>
+          <tbody id="sessions-body"><tr><td colspan="5" style="color:var(--muted)">加载中...</td></tr></tbody>
+        </table>
+        <div class="mt-10 flex">
+          <button class="btn ghost" id="refresh-sessions-btn">刷新</button>
+          <button class="btn danger" id="batch-delete-sessions-btn">批量删除选中</button>
+        </div>
+        <div class="pagination" id="sessions-pagination"></div>
+      </div>
+    </div>
+
+    <!-- Feedback Section -->
+    <div id="section-feedback" class="section">
+      <div class="card">
+        <h2>反馈统计</h2>
+        <div class="grid mb-10">
+          <div class="stat-card">
+            <div class="value" id="feedback-up-count">0</div>
+            <div class="label">好评数</div>
+          </div>
+          <div class="stat-card">
+            <div class="value" id="feedback-down-count">0</div>
+            <div class="label">差评数</div>
+          </div>
+          <div class="stat-card">
+            <div class="value" id="feedback-rate">0%</div>
+            <div class="label">好评率</div>
+          </div>
+        </div>
+        <div class="flex mb-10">
+          <select id="feedback-period" style="width:auto">
+            <option value="day">按天</option>
+            <option value="week">按周</option>
+            <option value="month">按月</option>
+          </select>
+          <button class="btn ghost" id="refresh-feedback-btn">刷新</button>
+        </div>
+        <table>
+          <thead><tr><th>时间</th><th>好评</th><th>差评</th><th>总计</th></tr></thead>
+          <tbody id="feedback-stats-body"></tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <h2>反馈详情</h2>
+        <table>
+          <thead><tr><th>时间</th><th>评分</th><th>会话</th><th>评论</th></tr></thead>
+          <tbody id="feedback-detail-body"><tr><td colspan="4" style="color:var(--muted)">加载中...</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- User Analytics Section -->
+    <div id="section-analytics" class="section">
+      <div class="card">
+        <h2>用户行为分析</h2>
+        <div class="grid mb-10">
+          <div class="stat-card">
+            <div class="value" id="analytics-sessions">0</div>
+            <div class="label">总会话数</div>
+          </div>
+          <div class="stat-card">
+            <div class="value" id="analytics-messages">0</div>
+            <div class="label">总消息数</div>
+          </div>
+          <div class="stat-card">
+            <div class="value" id="analytics-avg">0</div>
+            <div class="label">平均消息/会话</div>
+          </div>
+          <div class="stat-card">
+            <div class="value" id="analytics-active">0</div>
+            <div class="label">7日活跃用户</div>
+          </div>
+        </div>
+        <button class="btn ghost" id="refresh-analytics-btn">刷新</button>
+      </div>
+
+      <div class="card">
+        <h2>热门问题</h2>
+        <table>
+          <thead><tr><th>问题</th><th>次数</th></tr></thead>
+          <tbody id="analytics-questions-body"><tr><td colspan="2" style="color:var(--muted)">加载中...</td></tr></tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <h2>访问时段分布</h2>
+        <div id="analytics-hourly" style="display:flex;gap:2px;align-items:flex-end;height:100px"></div>
+        <div class="flex mt-10" style="justify-content:space-between;font-size:10px;color:var(--muted)">
+          <span>0时</span><span>6时</span><span>12时</span><span>18时</span><span>23时</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- API Stats Section -->
+    <div id="section-api-stats" class="section">
+      <div class="card">
+        <h2>API 调用统计</h2>
+        <div class="grid mb-10">
+          <div class="stat-card">
+            <div class="value" id="api-total">0</div>
+            <div class="label">总请求数</div>
+          </div>
+          <div class="stat-card">
+            <div class="value" id="api-avg-time">0ms</div>
+            <div class="label">平均响应时间</div>
+          </div>
+          <div class="stat-card">
+            <div class="value" id="api-errors">0</div>
+            <div class="label">错误数</div>
+          </div>
+          <div class="stat-card">
+            <div class="value" id="api-error-rate">0%</div>
+            <div class="label">错误率</div>
+          </div>
+        </div>
+        <div class="flex mb-10">
+          <select id="api-stats-hours" style="width:auto">
+            <option value="1">最近1小时</option>
+            <option value="24" selected>最近24小时</option>
+            <option value="168">最近7天</option>
+          </select>
+          <button class="btn ghost" id="refresh-api-stats-btn">刷新</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>热门端点</h2>
+        <table>
+          <thead><tr><th>端点</th><th>请求数</th><th>平均响应时间</th></tr></thead>
+          <tbody id="api-endpoints-body"><tr><td colspan="3" style="color:var(--muted)">加载中...</td></tr></tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <h2>请求趋势</h2>
+        <div id="api-hourly" style="display:flex;gap:2px;align-items:flex-end;height:100px"></div>
+        <div class="flex mt-10" style="justify-content:space-between;font-size:10px;color:var(--muted)">
+          <span>24小时前</span><span>12小时前</span><span>现在</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- System Config Section -->
+    <div id="section-config" class="section">
+      <div class="card">
+        <h2>系统配置</h2>
+        <table>
+          <thead><tr><th>配置项</th><th>值</th><th>说明</th><th>更新时间</th><th>操作</th></tr></thead>
+          <tbody id="config-body"><tr><td colspan="5" style="color:var(--muted)">加载中...</td></tr></tbody>
+        </table>
+        <button class="btn mt-10" id="add-config-btn">添加配置</button>
+      </div>
+    </div>
+
+    <!-- Audit Logs Section -->
+    <div id="section-audit" class="section">
+      <div class="card">
+        <h2>审计日志</h2>
+        <table>
+          <thead><tr><th>时间</th><th>管理员</th><th>操作</th><th>目标</th><th>详情</th><th>IP</th></tr></thead>
+          <tbody id="audit-body"><tr><td colspan="6" style="color:var(--muted)">加载中...</td></tr></tbody>
+        </table>
+        <div class="pagination" id="audit-pagination"></div>
+      </div>
+    </div>
+
+    <!-- Data Export Section -->
+    <div id="section-export" class="section">
+      <div class="card">
+        <h2>数据导出</h2>
+        <p class="mb-10" style="color:var(--muted)">导出系统数据为 JSON 文件</p>
+        <div class="flex flex-wrap">
+          <button class="btn ghost" onclick="exportData('sessions')">导出会话数据</button>
+          <button class="btn ghost" onclick="exportData('feedback')">导出反馈数据</button>
+          <button class="btn ghost" onclick="exportData('audit_logs')">导出审计日志</button>
+          <button class="btn ghost" onclick="exportData('config')">导出系统配置</button>
+        </div>
+      </div>
     </div>
 
   </div>
@@ -111,7 +338,7 @@
 (function () {
   "use strict";
   var $ = function (id) { return document.getElementById(id); };
-  var creds = sessionStorage.getItem("admin_auth") || ""; // base64 user:pass
+  var creds = sessionStorage.getItem("admin_auth") || "";
 
   function api(path, opts) {
     opts = opts || {};
@@ -123,8 +350,37 @@
     el.className = "msg " + (ok ? "ok" : "err");
     el.style.display = "block";
   }
+  function escapeHtml(s) {
+    var div = document.createElement("div");
+    div.textContent = s;
+    return div.innerHTML;
+  }
 
-  // ---- 登录 ----
+  // Tab switching
+  document.querySelectorAll(".tab").forEach(function(tab) {
+    tab.addEventListener("click", function() {
+      document.querySelectorAll(".tab").forEach(function(t) { t.classList.remove("active"); });
+      document.querySelectorAll(".section").forEach(function(s) { s.classList.remove("active"); });
+      tab.classList.add("active");
+      $("section-" + tab.dataset.tab).classList.add("active");
+      // Load data for the tab
+      loadTabData(tab.dataset.tab);
+    });
+  });
+
+  function loadTabData(tab) {
+    switch(tab) {
+      case "knowledge": loadStats(); break;
+      case "sessions": loadSessions(); break;
+      case "feedback": loadFeedback(); break;
+      case "analytics": loadAnalytics(); break;
+      case "api-stats": loadAPIStats(); break;
+      case "config": loadConfig(); break;
+      case "audit": loadAuditLogs(); break;
+    }
+  }
+
+  // Login
   $("login-btn").addEventListener("click", async function () {
     var u = $("login-user").value.trim(), p = $("login-pass").value;
     if (!u || !p) { showMsg($("login-msg"), "请输入用户名和密码", false); return; }
@@ -142,7 +398,7 @@
     $("main-wrap").style.display = "none"; $("login-wrap").style.display = "block";
   });
 
-  // ---- 上传 ----
+  // Upload
   var drop = $("drop"), fileInput = $("file-input");
   drop.addEventListener("click", function () { fileInput.click(); });
   ["dragenter", "dragover"].forEach(function (ev) {
@@ -167,7 +423,7 @@
     var fd = new FormData();
     fd.append("file", f);
     var msgEl = $("upload-msg");
-    showMsg(msgEl, "上传中：分类并写入知识库…", true);
+    showMsg(msgEl, "上传中...", true);
     try {
       var resp = await api("/admin/knowledge", { method: "POST", body: fd });
       var data = await resp.json().catch(function () { return {}; });
@@ -181,34 +437,32 @@
     btn.disabled = false;
   });
 
-  // ---- 统计 ----
+  // Knowledge Stats
   async function loadStats() {
     try {
       var resp = await api("/admin/knowledge/stats");
       if (!resp.ok) throw new Error(resp.status);
       var data = await resp.json();
-      var total = 0, body = $("stats-body");
+      var body = $("stats-body");
       body.innerHTML = "";
       var keys = Object.keys(data.stats || {}).sort();
-      if (!keys.length) { body.innerHTML = '<tr><td colspan="2" style="color:var(--muted)">知识库为空</td></tr>'; }
+      if (!keys.length) { body.innerHTML = '<tr><td colspan="4" style="color:var(--muted)">知识库为空</td></tr>'; return; }
       keys.forEach(function (k) {
-        var n = data.stats[k]; total += n;
         var tr = document.createElement("tr");
-        tr.innerHTML = '<td>' + k + '</td><td>' + n.toLocaleString() + '</td>';
+        tr.innerHTML = '<td>' + escapeHtml(k) + '</td><td>' + (data.stats[k] || 0).toLocaleString() + '</td><td>-</td><td><button class="btn ghost" onclick="exportKnowledge(\'' + escapeHtml(k) + '\')">导出</button></td>';
         body.appendChild(tr);
       });
-      $("stats-total").textContent = "（共 " + total.toLocaleString() + " 条）";
     } catch (e) {
-      $("stats-body").innerHTML = '<tr><td colspan="2" style="color:var(--err)">统计加载失败</td></tr>';
+      $("stats-body").innerHTML = '<tr><td colspan="4" style="color:var(--err)">加载失败</td></tr>';
     }
   }
   $("refresh-btn").addEventListener("click", loadStats);
 
-  // ---- 全量向量同步 ----
+  // Sync
   $("sync-btn").addEventListener("click", async function () {
-    var btn = $("sync-btn"); btn.disabled = true; btn.textContent = "同步中…";
+    var btn = $("sync-btn"); btn.disabled = true; btn.textContent = "同步中...";
     var msgEl = $("sync-msg");
-    showMsg(msgEl, "全量同步开始，大库可能需要几分钟…", true);
+    showMsg(msgEl, "全量同步开始...", true);
     try {
       var resp = await api("/admin/sync", { method: "POST", body: (function () {
         var fd = new FormData(); fd.append("full", "true"); fd.append("source", "all");
@@ -217,14 +471,232 @@
       })() });
       var data = await resp.json().catch(function () { return {}; });
       if (resp.ok) {
-        var st = data.sync || {};
-        showMsg(msgEl, "✅ 同步完成：总 " + st.total_records + "，成功 " + st.synced_records + (st.errors && st.errors.length ? "，错误 " + st.errors.length : ""), true);
+        showMsg(msgEl, "✅ 同步完成", true);
       } else {
-        showMsg(msgEl, "❌ " + (data.error || ("失败（" + resp.status + "）")), false);
+        showMsg(msgEl, "❌ " + (data.error || "失败"), false);
       }
     } catch (e) { showMsg(msgEl, "❌ 网络错误", false); }
-    btn.disabled = false; btn.textContent = "🔄 全量同步到向量库";
+    btn.disabled = false; btn.textContent = "全量同步到向量库";
   });
+
+  // Sessions
+  var sessionsPage = 0;
+  async function loadSessions() {
+    try {
+      var resp = await api("/admin/sessions?limit=20&offset=" + (sessionsPage * 20));
+      if (!resp.ok) throw new Error(resp.status);
+      var data = await resp.json();
+      var body = $("sessions-body");
+      body.innerHTML = "";
+      var sessions = data.sessions || [];
+      if (!sessions.length) { body.innerHTML = '<tr><td colspan="5" style="color:var(--muted)">暂无会话</td></tr>'; return; }
+      sessions.forEach(function (s) {
+        var tr = document.createElement("tr");
+        tr.innerHTML = '<td class="code">' + escapeHtml(s.id.substring(0, 16)) + '...</td><td class="truncate">' + escapeHtml(s.title || '-') + '</td><td>' + (s.message_count || 0) + '</td><td>' + new Date(s.created_at).toLocaleString() + '</td><td><button class="btn ghost" onclick="viewSession(\'' + escapeHtml(s.id) + '\')">查看</button> <button class="btn danger" onclick="deleteSession(\'' + escapeHtml(s.id) + '\')">删除</button></td>';
+        body.appendChild(tr);
+      });
+    } catch (e) {
+      $("sessions-body").innerHTML = '<tr><td colspan="5" style="color:var(--err)">加载失败</td></tr>';
+    }
+  }
+  $("refresh-sessions-btn").addEventListener("click", loadSessions);
+
+  window.viewSession = async function(id) {
+    try {
+      var resp = await api("/admin/sessions/" + id);
+      var data = await resp.json();
+      var msgs = (data.messages || []).map(function(m) { return m.role + ": " + m.content; }).join("\n\n");
+      alert("会话: " + data.title + "\n\n" + msgs);
+    } catch (e) { alert("加载失败"); }
+  };
+
+  window.deleteSession = async function(id) {
+    if (!confirm("确定删除此会话？")) return;
+    try {
+      await api("/admin/sessions/" + id, { method: "DELETE" });
+      loadSessions();
+    } catch (e) { alert("删除失败"); }
+  };
+
+  // Feedback
+  async function loadFeedback() {
+    try {
+      var period = $("feedback-period").value;
+      var resp = await api("/admin/feedback/stats?period=" + period);
+      if (!resp.ok) throw new Error(resp.status);
+      var data = await resp.json();
+      var overall = data.overall || {};
+      $("feedback-up-count").textContent = overall.up || 0;
+      $("feedback-down-count").textContent = overall.down || 0;
+      var total = (overall.up || 0) + (overall.down || 0);
+      $("feedback-rate").textContent = total > 0 ? Math.round((overall.up || 0) / total * 100) + "%" : "N/A";
+      
+      var body = $("feedback-stats-body");
+      body.innerHTML = "";
+      (data.by_period || []).forEach(function(p) {
+        var tr = document.createElement("tr");
+        tr.innerHTML = '<td>' + escapeHtml(p.period) + '</td><td><span class="badge ok">' + p.up_count + '</span></td><td><span class="badge err">' + p.down_count + '</span></td><td>' + p.total + '</td>';
+        body.appendChild(tr);
+      });
+
+      // Load details
+      var resp2 = await api("/admin/feedback?limit=50");
+      var data2 = await resp2.json();
+      var detailBody = $("feedback-detail-body");
+      detailBody.innerHTML = "";
+      (data2.feedback || []).forEach(function(f) {
+        var tr = document.createElement("tr");
+        tr.innerHTML = '<td>' + new Date(f.created_at).toLocaleString() + '</td><td><span class="badge ' + (f.rating === 'up' ? 'ok' : 'err') + '">' + (f.rating === 'up' ? '好评' : '差评') + '</span></td><td class="truncate">' + escapeHtml(f.session_title || '-') + '</td><td>' + escapeHtml(f.comment || '-') + '</td>';
+        detailBody.appendChild(tr);
+      });
+    } catch (e) { console.error(e); }
+  }
+  $("refresh-feedback-btn").addEventListener("click", loadFeedback);
+  $("feedback-period").addEventListener("change", loadFeedback);
+
+  // Analytics
+  async function loadAnalytics() {
+    try {
+      var resp = await api("/admin/analytics");
+      if (!resp.ok) throw new Error(resp.status);
+      var data = await resp.json();
+      $("analytics-sessions").textContent = (data.total_sessions || 0).toLocaleString();
+      $("analytics-messages").textContent = (data.total_messages || 0).toLocaleString();
+      $("analytics-avg").textContent = (data.avg_messages_per_session || 0).toFixed(1);
+      $("analytics-active").textContent = data.active_users_7d || 0;
+
+      var qBody = $("analytics-questions-body");
+      qBody.innerHTML = "";
+      (data.top_questions || []).slice(0, 10).forEach(function(q) {
+        var tr = document.createElement("tr");
+        tr.innerHTML = '<td class="truncate">' + escapeHtml(q.title) + '</td><td>' + q.count + '</td>';
+        qBody.appendChild(tr);
+      });
+
+      // Hourly chart
+      var hourlyDiv = $("analytics-hourly");
+      hourlyDiv.innerHTML = "";
+      var hourlyData = data.sessions_by_hour || [];
+      var maxCount = Math.max.apply(null, hourlyData.map(function(h) { return h.count; })) || 1;
+      for (var i = 0; i < 24; i++) {
+        var item = hourlyData.find(function(h) { return h.hour === i; });
+        var count = item ? item.count : 0;
+        var bar = document.createElement("div");
+        bar.style.cssText = "flex:1;background:var(--accent);height:" + (count/maxCount*100) + "%;min-width:8px;border-radius:2px 2px 0 0";
+        bar.title = i + "时: " + count + "次";
+        hourlyDiv.appendChild(bar);
+      }
+    } catch (e) { console.error(e); }
+  }
+  $("refresh-analytics-btn").addEventListener("click", loadAnalytics);
+
+  // API Stats
+  async function loadAPIStats() {
+    try {
+      var hours = $("api-stats-hours").value;
+      var resp = await api("/admin/api-stats/summary?hours=" + hours);
+      if (!resp.ok) throw new Error(resp.status);
+      var data = await resp.json();
+      $("api-total").textContent = (data.total_requests || 0).toLocaleString();
+      $("api-avg-time").textContent = Math.round(data.avg_response_time_ms || 0) + "ms";
+      $("api-errors").textContent = data.error_count || 0;
+      $("api-error-rate").textContent = (data.error_rate || 0).toFixed(1) + "%";
+
+      var eBody = $("api-endpoints-body");
+      eBody.innerHTML = "";
+      (data.top_endpoints || []).forEach(function(e) {
+        var tr = document.createElement("tr");
+        tr.innerHTML = '<td class="code">' + escapeHtml(e.endpoint) + '</td><td>' + e.count + '</td><td>' + Math.round(e.avg_time) + 'ms</td>';
+        eBody.appendChild(tr);
+      });
+
+      // Hourly chart
+      var hourlyDiv = $("api-hourly");
+      hourlyDiv.innerHTML = "";
+      var hourlyData = data.hourly_requests || [];
+      var maxCount = Math.max.apply(null, hourlyData.map(function(h) { return h.count; })) || 1;
+      hourlyData.forEach(function(h) {
+        var bar = document.createElement("div");
+        bar.style.cssText = "flex:1;background:var(--accent);height:" + (h.count/maxCount*100) + "%;min-width:4px;border-radius:2px 2px 0 0";
+        bar.title = h.hour + ": " + h.count + "次";
+        hourlyDiv.appendChild(bar);
+      });
+    } catch (e) { console.error(e); }
+  }
+  $("refresh-api-stats-btn").addEventListener("click", loadAPIStats);
+  $("api-stats-hours").addEventListener("change", loadAPIStats);
+
+  // Config
+  async function loadConfig() {
+    try {
+      var resp = await api("/admin/config");
+      if (!resp.ok) throw new Error(resp.status);
+      var data = await resp.json();
+      var body = $("config-body");
+      body.innerHTML = "";
+      var configs = data.configs || [];
+      if (!configs.length) { body.innerHTML = '<tr><td colspan="5" style="color:var(--muted)">暂无配置</td></tr>'; return; }
+      configs.forEach(function(c) {
+        var tr = document.createElement("tr");
+        tr.innerHTML = '<td class="code">' + escapeHtml(c.key) + '</td><td>' + escapeHtml(c.value) + '</td><td>' + escapeHtml(c.description || '-') + '</td><td>' + new Date(c.updated_at).toLocaleString() + '</td><td><button class="btn danger" onclick="deleteConfig(\'' + escapeHtml(c.key) + '\')">删除</button></td>';
+        body.appendChild(tr);
+      });
+    } catch (e) {
+      $("config-body").innerHTML = '<tr><td colspan="5" style="color:var(--err)">加载失败</td></tr>';
+    }
+  }
+
+  window.deleteConfig = async function(key) {
+    if (!confirm("确定删除配置 " + key + "？")) return;
+    try {
+      await api("/admin/config/" + key, { method: "DELETE" });
+      loadConfig();
+    } catch (e) { alert("删除失败"); }
+  };
+
+  $("add-config-btn").addEventListener("click", function() {
+    var key = prompt("配置项名称:");
+    if (!key) return;
+    var value = prompt("配置值:");
+    if (value === null) return;
+    var desc = prompt("说明 (可选):") || "";
+    api("/admin/config", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ key: key, value: value, description: desc })
+    }).then(function() { loadConfig(); });
+  });
+
+  // Audit Logs
+  var auditPage = 0;
+  async function loadAuditLogs() {
+    try {
+      var resp = await api("/admin/audit-logs?limit=20&offset=" + (auditPage * 20));
+      if (!resp.ok) throw new Error(resp.status);
+      var data = await resp.json();
+      var body = $("audit-body");
+      body.innerHTML = "";
+      var logs = data.logs || [];
+      if (!logs.length) { body.innerHTML = '<tr><td colspan="6" style="color:var(--muted)">暂无日志</td></tr>'; return; }
+      logs.forEach(function(l) {
+        var tr = document.createElement("tr");
+        tr.innerHTML = '<td>' + new Date(l.created_at).toLocaleString() + '</td><td>' + escapeHtml(l.admin_username) + '</td><td><span class="badge">' + escapeHtml(l.action) + '</span></td><td>' + escapeHtml(l.target_type || '-') + '</td><td class="truncate">' + escapeHtml(l.details || '-') + '</td><td>' + escapeHtml(l.ip_address || '-') + '</td>';
+        body.appendChild(tr);
+      });
+    } catch (e) {
+      $("audit-body").innerHTML = '<tr><td colspan="6" style="color:var(--err)">加载失败</td></tr>';
+    }
+  }
+  loadAuditLogs();
+
+  // Export
+  window.exportData = function(type) {
+    window.open("/admin/export?type=" + type, "_blank");
+  };
+
+  window.exportKnowledge = function(dataset) {
+    window.open("/admin/knowledge/export?dataset=" + dataset, "_blank");
+  };
 
   function enterAdmin() {
     $("login-wrap").style.display = "none";
@@ -232,7 +704,6 @@
     loadStats();
   }
 
-  // 已登录则直接进入
   if (creds) {
     api("/admin/knowledge/stats").then(function (r) {
       if (r.ok) enterAdmin();

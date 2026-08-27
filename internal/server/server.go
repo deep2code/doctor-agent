@@ -77,6 +77,29 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 	// Knowledge management (upload/update medical knowledge)
 	mux.HandleFunc("/admin/knowledge", s.handleAdminKnowledge)
 	mux.HandleFunc("/admin/knowledge/stats", s.handleAdminKnowledgeStats)
+	mux.HandleFunc("/admin/knowledge/export", s.handleAdminKnowledgeExport)
+	mux.HandleFunc("/admin/knowledge/versions", s.handleAdminKnowledgeVersions)
+	// Session management
+	mux.HandleFunc("/admin/sessions", s.handleAdminSessions)
+	mux.HandleFunc("/admin/sessions/", s.handleAdminSessionByID)
+	// Feedback with details
+	mux.HandleFunc("/admin/feedback", s.handleAdminFeedback)
+	mux.HandleFunc("/admin/feedback/stats", s.handleAdminFeedbackStats)
+	// Audit logs
+	mux.HandleFunc("/admin/audit-logs", s.handleAdminAuditLogs)
+	// System config
+	mux.HandleFunc("/admin/config", s.handleAdminConfig)
+	mux.HandleFunc("/admin/config/", s.handleAdminConfigByKey)
+	// API stats
+	mux.HandleFunc("/admin/api-stats", s.handleAdminAPIStats)
+	mux.HandleFunc("/admin/api-stats/summary", s.handleAdminAPIStatsSummary)
+	// User behavior analysis
+	mux.HandleFunc("/admin/analytics", s.handleAdminAnalytics)
+	// Batch operations
+	mux.HandleFunc("/admin/batch/users", s.handleAdminBatchUsers)
+	mux.HandleFunc("/admin/batch/knowledge", s.handleAdminBatchKnowledge)
+	// Data export
+	mux.HandleFunc("/admin/export", s.handleAdminExport)
 	// Admin UI (single-file page, Basic-auth guarded by the browser)
 	mux.HandleFunc("/admin", s.handleAdminUI)
 
@@ -1034,4 +1057,719 @@ func (s *Server) handleAdminKnowledgeStats(w http.ResponseWriter, r *http.Reques
 		return
 	}
 	writeJSON(w, http.StatusOK, map[string]any{"stats": stats})
+}
+
+// handleAdminKnowledgeExport exports a knowledge dataset as JSON.
+func (s *Server) handleAdminKnowledgeExport(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+		return
+	}
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	dataset := r.URL.Query().Get("dataset")
+	if dataset == "" {
+		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "dataset parameter required"})
+		return
+	}
+
+	data, err := knowledge.ExportDataset(s.cfg.KnowledgeDBDSN(), dataset)
+	if err != nil {
+		slog.Error("Admin knowledge export", "error", err)
+		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json; charset=utf-8")
+	w.Header().Set("Content-Disposition", fmt.Sprintf("attachment; filename=%s.json", dataset))
+	_, _ = w.Write(data)
+}
+
+// handleAdminKnowledgeVersions handles knowledge version management.
+func (s *Server) handleAdminKnowledgeVersions(w http.ResponseWriter, r *http.Request) {
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	switch r.Method {
+	case http.MethodGet:
+		dataset := r.URL.Query().Get("dataset")
+		if dataset == "" {
+			// List all datasets with version counts
+			datasets, err := s.db.ListAllKnowledgeDatasets()
+			if err != nil {
+				writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+				return
+			}
+			writeJSON(w, http.StatusOK, map[string]any{"datasets": datasets})
+			return
+		}
+		versions, err := s.db.ListKnowledgeVersions(dataset)
+		if err != nil {
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			return
+		}
+		writeJSON(w, http.StatusOK, map[string]any{"versions": versions})
+
+	case http.MethodPost:
+		// Record a new version
+		var input struct {
+			Dataset    string `json:"dataset"`
+			EntryCount int    `json:"entry_count"`
+			Checksum   string `json:"checksum"`
+		}
+		if err := json.NewDecoder(r.Body).Decode(&input); err != nil {
+			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request body"})
+			return
+		}
+		admin := s.getAdminFromRequest(r)
+		// Get latest version
+		latest, _ := s.db.GetLatestKnowledgeVersion(input.Dataset)
+		newVersion := 1
+		if latest != nil {
+			newVersion = latest.Version + 1
+		}
+		record := &database.KnowledgeVersionRecord{
+			Dataset:    input.Dataset,
+			Version:    newVersion,
+			EntryCount: input.EntryCount,
+			Checksum:   input.Checksum,
+			CreatedBy:  admin.Username,
+		}
+		if err := s.db.AddKnowledgeVersion(record); err != nil {
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			return
+		}
+		writeJSON(w, http.StatusOK, map[string]any{"status": "ok", "version": record})
+
+	default:
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+	}
+}
+
+// handleAdminSessions handles session management.
+func (s *Server) handleAdminSessions(w http.ResponseWriter, r *http.Request) {
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	switch r.Method {
+	case http.MethodGet:
+		// Get pagination params
+		limit := 50
+		offset := 0
+		if v := r.URL.Query().Get("limit"); v != "" {
+			fmt.Sscanf(v, "%d", &limit)
+		}
+		if v := r.URL.Query().Get("offset"); v != "" {
+			fmt.Sscanf(v, "%d", &offset)
+		}
+
+		recs, err := s.db.ListAllSessions(limit)
+		if err != nil {
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			return
+		}
+
+		// Get message counts for each session
+		type sessionWithCount struct {
+			database.SessionRecord
+			MessageCount int `json:"message_count"`
+		}
+		var sessions []sessionWithCount
+		for _, rec := range recs {
+			msgs, _ := s.db.GetSessionMessages(rec.ID)
+			sessions = append(sessions, sessionWithCount{
+				SessionRecord: rec,
+				MessageCount:  len(msgs),
+			})
+		}
+		writeJSON(w, http.StatusOK, map[string]any{"sessions": sessions})
+
+	case http.MethodDelete:
+		// Bulk delete sessions
+		var input struct {
+			SessionIDs []string `json:"session_ids"`
+		}
+		if err := json.NewDecoder(r.Body).Decode(&input); err != nil {
+			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request body"})
+			return
+		}
+		var deleted int
+		for _, id := range input.SessionIDs {
+			if err := s.db.DeleteSession(id); err == nil {
+				s.agent.DeleteSession(id)
+				deleted++
+			}
+		}
+		// Record audit log
+		admin := s.getAdminFromRequest(r)
+		if admin != nil {
+			_ = s.db.AddAuditLog(&database.AuditLogRecord{
+				AdminID:      admin.ID,
+				AdminUsername: admin.Username,
+				Action:       "batch_delete_sessions",
+				TargetType:   "session",
+				Details:      fmt.Sprintf("deleted %d sessions", deleted),
+				IPAddress:    clientIP(r),
+			})
+		}
+		writeJSON(w, http.StatusOK, map[string]any{"status": "ok", "deleted": deleted})
+
+	default:
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+	}
+}
+
+// handleAdminSessionByID handles single session operations.
+func (s *Server) handleAdminSessionByID(w http.ResponseWriter, r *http.Request) {
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	id := strings.TrimPrefix(r.URL.Path, "/admin/sessions/")
+	if id == "" {
+		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "session id required"})
+		return
+	}
+
+	switch r.Method {
+	case http.MethodGet:
+		// Get session with messages
+		rec, err := s.db.GetSession(id)
+		if err != nil {
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			return
+		}
+		if rec == nil {
+			writeJSON(w, http.StatusNotFound, map[string]any{"error": "session not found"})
+			return
+		}
+		msgs, err := s.db.GetSessionMessages(id)
+		if err != nil {
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			return
+		}
+		type msg struct {
+			Role    string `json:"role"`
+			Content string `json:"content"`
+		}
+		var messages []msg
+		for _, m := range msgs {
+			messages = append(messages, msg{Role: m.Role, Content: m.Content})
+		}
+		writeJSON(w, http.StatusOK, map[string]any{
+			"id":       rec.ID,
+			"title":    rec.Title,
+			"messages": messages,
+		})
+
+	case http.MethodDelete:
+		if err := s.db.DeleteSession(id); err != nil {
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			return
+		}
+		s.agent.DeleteSession(id)
+		// Record audit log
+		admin := s.getAdminFromRequest(r)
+		if admin != nil {
+			_ = s.db.AddAuditLog(&database.AuditLogRecord{
+				AdminID:      admin.ID,
+				AdminUsername: admin.Username,
+				Action:       "delete_session",
+				TargetType:   "session",
+				TargetID:     id,
+				IPAddress:    clientIP(r),
+			})
+		}
+		writeJSON(w, http.StatusOK, map[string]any{"status": "ok"})
+
+	default:
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+	}
+}
+
+// handleAdminFeedback handles feedback management.
+func (s *Server) handleAdminFeedback(w http.ResponseWriter, r *http.Request) {
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	if r.Method != http.MethodGet {
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+		return
+	}
+
+	limit := 50
+	offset := 0
+	if v := r.URL.Query().Get("limit"); v != "" {
+		fmt.Sscanf(v, "%d", &limit)
+	}
+	if v := r.URL.Query().Get("offset"); v != "" {
+		fmt.Sscanf(v, "%d", &offset)
+	}
+
+	feedback, err := s.db.GetFeedbackWithDetails(limit, offset)
+	if err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+		return
+	}
+	writeJSON(w, http.StatusOK, map[string]any{"feedback": feedback})
+}
+
+// handleAdminFeedbackStats handles feedback statistics.
+func (s *Server) handleAdminFeedbackStats(w http.ResponseWriter, r *http.Request) {
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	if r.Method != http.MethodGet {
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+		return
+	}
+
+	period := r.URL.Query().Get("period")
+	if period == "" {
+		period = "day"
+	}
+
+	stats, err := s.db.GetFeedbackStatsByPeriod(period)
+	if err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+		return
+	}
+
+	// Get overall stats
+	up, down, _ := s.db.GetFeedbackStats()
+	writeJSON(w, http.StatusOK, map[string]any{
+		"overall": map[string]any{"up": up, "down": down},
+		"by_period": stats,
+	})
+}
+
+// handleAdminAuditLogs handles audit log management.
+func (s *Server) handleAdminAuditLogs(w http.ResponseWriter, r *http.Request) {
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	if r.Method != http.MethodGet {
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+		return
+	}
+
+	limit := 50
+	offset := 0
+	if v := r.URL.Query().Get("limit"); v != "" {
+		fmt.Sscanf(v, "%d", &limit)
+	}
+	if v := r.URL.Query().Get("offset"); v != "" {
+		fmt.Sscanf(v, "%d", &offset)
+	}
+
+	logs, err := s.db.ListAuditLogs(limit, offset)
+	if err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+		return
+	}
+	total, _ := s.db.GetAuditLogsCount()
+	writeJSON(w, http.StatusOK, map[string]any{"logs": logs, "total": total})
+}
+
+// handleAdminConfig handles system configuration.
+func (s *Server) handleAdminConfig(w http.ResponseWriter, r *http.Request) {
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	switch r.Method {
+	case http.MethodGet:
+		configs, err := s.db.ListSystemConfigs()
+		if err != nil {
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			return
+		}
+		writeJSON(w, http.StatusOK, map[string]any{"configs": configs})
+
+	case http.MethodPost:
+		var input struct {
+			Key         string `json:"key"`
+			Value       string `json:"value"`
+			Description string `json:"description"`
+		}
+		if err := json.NewDecoder(r.Body).Decode(&input); err != nil {
+			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request body"})
+			return
+		}
+		admin := s.getAdminFromRequest(r)
+		if err := s.db.SetSystemConfig(input.Key, input.Value, input.Description, admin.Username); err != nil {
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			return
+		}
+		// Record audit log
+		_ = s.db.AddAuditLog(&database.AuditLogRecord{
+			AdminID:      admin.ID,
+			AdminUsername: admin.Username,
+			Action:       "set_config",
+			TargetType:   "config",
+			TargetID:     input.Key,
+			Details:      input.Value,
+			IPAddress:    clientIP(r),
+		})
+		writeJSON(w, http.StatusOK, map[string]any{"status": "ok"})
+
+	default:
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+	}
+}
+
+// handleAdminConfigByKey handles single config operations.
+func (s *Server) handleAdminConfigByKey(w http.ResponseWriter, r *http.Request) {
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	key := strings.TrimPrefix(r.URL.Path, "/admin/config/")
+	if key == "" {
+		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "config key required"})
+		return
+	}
+
+	switch r.Method {
+	case http.MethodGet:
+		value, err := s.db.GetSystemConfig(key)
+		if err != nil {
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			return
+		}
+		writeJSON(w, http.StatusOK, map[string]any{"key": key, "value": value})
+
+	case http.MethodDelete:
+		if err := s.db.DeleteSystemConfig(key); err != nil {
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			return
+		}
+		// Record audit log
+		admin := s.getAdminFromRequest(r)
+		if admin != nil {
+			_ = s.db.AddAuditLog(&database.AuditLogRecord{
+				AdminID:      admin.ID,
+				AdminUsername: admin.Username,
+				Action:       "delete_config",
+				TargetType:   "config",
+				TargetID:     key,
+				IPAddress:    clientIP(r),
+			})
+		}
+		writeJSON(w, http.StatusOK, map[string]any{"status": "ok"})
+
+	default:
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+	}
+}
+
+// handleAdminAPIStats handles API usage statistics.
+func (s *Server) handleAdminAPIStats(w http.ResponseWriter, r *http.Request) {
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	if r.Method != http.MethodGet {
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+		return
+	}
+
+	limit := 50
+	offset := 0
+	if v := r.URL.Query().Get("limit"); v != "" {
+		fmt.Sscanf(v, "%d", &limit)
+	}
+	if v := r.URL.Query().Get("offset"); v != "" {
+		fmt.Sscanf(v, "%d", &offset)
+	}
+
+	stats, err := s.db.ListAPIStats(limit, offset)
+	if err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+		return
+	}
+	writeJSON(w, http.StatusOK, map[string]any{"stats": stats})
+}
+
+// handleAdminAPIStatsSummary handles API statistics summary.
+func (s *Server) handleAdminAPIStatsSummary(w http.ResponseWriter, r *http.Request) {
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	if r.Method != http.MethodGet {
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+		return
+	}
+
+	hours := 24
+	if v := r.URL.Query().Get("hours"); v != "" {
+		fmt.Sscanf(v, "%d", &hours)
+	}
+
+	summary, err := s.db.GetAPIStatsSummary(hours)
+	if err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+		return
+	}
+	writeJSON(w, http.StatusOK, summary)
+}
+
+// handleAdminAnalytics handles user behavior analysis.
+func (s *Server) handleAdminAnalytics(w http.ResponseWriter, r *http.Request) {
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	if r.Method != http.MethodGet {
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+		return
+	}
+
+	stats, err := s.db.GetUserBehaviorStats()
+	if err != nil {
+		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+		return
+	}
+	writeJSON(w, http.StatusOK, stats)
+}
+
+// handleAdminBatchUsers handles batch user operations.
+func (s *Server) handleAdminBatchUsers(w http.ResponseWriter, r *http.Request) {
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	switch r.Method {
+	case http.MethodPost:
+		// Batch create users
+		var input struct {
+			Users []struct {
+				Username string `json:"username"`
+				Password string `json:"password"`
+				Nickname string `json:"nickname"`
+				IsAdmin  bool   `json:"is_admin"`
+			} `json:"users"`
+		}
+		if err := json.NewDecoder(r.Body).Decode(&input); err != nil {
+			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request body"})
+			return
+		}
+
+		admin := s.getAdminFromRequest(r)
+		var created, failed int
+		for _, u := range input.Users {
+			_, err := s.auth.AdminCreateUser(&auth.AdminCreateUserInput{
+				Username: u.Username,
+				Password: u.Password,
+				Nickname: u.Nickname,
+				IsAdmin:  u.IsAdmin,
+			}, admin)
+			if err == nil {
+				created++
+			} else {
+				failed++
+			}
+		}
+		// Record audit log
+		_ = s.db.AddAuditLog(&database.AuditLogRecord{
+			AdminID:      admin.ID,
+			AdminUsername: admin.Username,
+			Action:       "batch_create_users",
+			TargetType:   "user",
+			Details:      fmt.Sprintf("created %d, failed %d", created, failed),
+			IPAddress:    clientIP(r),
+		})
+		writeJSON(w, http.StatusOK, map[string]any{"status": "ok", "created": created, "failed": failed})
+
+	case http.MethodDelete:
+		// Batch delete users
+		var input struct {
+			UserIDs []string `json:"user_ids"`
+		}
+		if err := json.NewDecoder(r.Body).Decode(&input); err != nil {
+			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request body"})
+			return
+		}
+		var deleted int
+		for _, id := range input.UserIDs {
+			if err := s.auth.DeleteUser(id); err == nil {
+				deleted++
+			}
+		}
+		// Record audit log
+		admin := s.getAdminFromRequest(r)
+		if admin != nil {
+			_ = s.db.AddAuditLog(&database.AuditLogRecord{
+				AdminID:      admin.ID,
+				AdminUsername: admin.Username,
+				Action:       "batch_delete_users",
+				TargetType:   "user",
+				Details:      fmt.Sprintf("deleted %d users", deleted),
+				IPAddress:    clientIP(r),
+			})
+		}
+		writeJSON(w, http.StatusOK, map[string]any{"status": "ok", "deleted": deleted})
+
+	default:
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+	}
+}
+
+// handleAdminBatchKnowledge handles batch knowledge operations.
+func (s *Server) handleAdminBatchKnowledge(w http.ResponseWriter, r *http.Request) {
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	if r.Method != http.MethodPost {
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+		return
+	}
+
+	// Parse multipart form (200MB max for multiple files)
+	if err := r.ParseMultipartForm(200 << 20); err != nil {
+		writeJSON(w, http.StatusBadRequest, map[string]any{"error": fmt.Sprintf("failed to parse form: %v", err)})
+		return
+	}
+
+	files := r.MultipartForm.File["files"]
+	if len(files) == 0 {
+		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "no files provided"})
+		return
+	}
+
+	type result struct {
+		Filename string `json:"filename"`
+		Dataset  string `json:"dataset,omitempty"`
+		Rows     int    `json:"rows,omitempty"`
+		Error    string `json:"error,omitempty"`
+	}
+	var results []result
+
+	for _, fileHeader := range files {
+		file, err := fileHeader.Open()
+		if err != nil {
+			results = append(results, result{Filename: fileHeader.Filename, Error: err.Error()})
+			continue
+		}
+
+		raw, err := io.ReadAll(file)
+		file.Close()
+		if err != nil {
+			results = append(results, result{Filename: fileHeader.Filename, Error: err.Error()})
+			continue
+		}
+
+		ds, n, err := knowledge.IngestUpload(s.cfg.KnowledgeDBDSN(), fileHeader.Filename, raw)
+		if err != nil {
+			results = append(results, result{Filename: fileHeader.Filename, Error: err.Error()})
+			continue
+		}
+
+		results = append(results, result{Filename: fileHeader.Filename, Dataset: ds, Rows: n})
+	}
+
+	// Refresh knowledge store
+	knowledge.Reload()
+
+	// Record audit log
+	admin := s.getAdminFromRequest(r)
+	if admin != nil {
+		_ = s.db.AddAuditLog(&database.AuditLogRecord{
+			AdminID:      admin.ID,
+			AdminUsername: admin.Username,
+			Action:       "batch_upload_knowledge",
+			TargetType:   "knowledge",
+			Details:      fmt.Sprintf("uploaded %d files", len(files)),
+			IPAddress:    clientIP(r),
+		})
+	}
+
+	writeJSON(w, http.StatusOK, map[string]any{"status": "ok", "results": results})
+}
+
+// handleAdminExport handles data export.
+func (s *Server) handleAdminExport(w http.ResponseWriter, r *http.Request) {
+	if s.getAdminFromRequest(r) == nil {
+		writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "需要管理员权限"})
+		return
+	}
+
+	if r.Method != http.MethodGet {
+		writeJSON(w, http.StatusMethodNotAllowed, map[string]any{"error": "method not allowed"})
+		return
+	}
+
+	exportType := r.URL.Query().Get("type")
+	if exportType == "" {
+		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "type parameter required (sessions, feedback, audit_logs, config)"})
+		return
+	}
+
+	switch exportType {
+	case "sessions":
+		sessions, err := s.db.ListAllSessions(10000)
+		if err != nil {
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			return
+		}
+		w.Header().Set("Content-Type", "application/json; charset=utf-8")
+		w.Header().Set("Content-Disposition", "attachment; filename=sessions.json")
+		json.NewEncoder(w).Encode(sessions)
+
+	case "feedback":
+		feedback, err := s.db.GetFeedbackWithDetails(10000, 0)
+		if err != nil {
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			return
+		}
+		w.Header().Set("Content-Type", "application/json; charset=utf-8")
+		w.Header().Set("Content-Disposition", "attachment; filename=feedback.json")
+		json.NewEncoder(w).Encode(feedback)
+
+	case "audit_logs":
+		logs, err := s.db.ListAuditLogs(10000, 0)
+		if err != nil {
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			return
+		}
+		w.Header().Set("Content-Type", "application/json; charset=utf-8")
+		w.Header().Set("Content-Disposition", "attachment; filename=audit_logs.json")
+		json.NewEncoder(w).Encode(logs)
+
+	case "config":
+		configs, err := s.db.ListSystemConfigs()
+		if err != nil {
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			return
+		}
+		w.Header().Set("Content-Type", "application/json; charset=utf-8")
+		w.Header().Set("Content-Disposition", "attachment; filename=config.json")
+		json.NewEncoder(w).Encode(configs)
+
+	default:
+		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "unknown export type"})
+	}
 }

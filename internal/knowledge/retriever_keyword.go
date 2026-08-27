@@ -371,8 +371,9 @@ func tokenize(text string) []string {
 
 // IDF calculation for BM25-like scoring (simplified).
 type IDF struct {
-	docFreq   map[string]int
-	totalDocs int
+	docFreq       map[string]int
+	totalDocs     int
+	avgDocLength  float64 // average document length across the corpus
 }
 
 func BM25Score(queryTokens []string, docTokens []string, idf *IDF, k1, b float64) float64 {
@@ -380,10 +381,14 @@ func BM25Score(queryTokens []string, docTokens []string, idf *IDF, k1, b float64
 		return 0
 	}
 
-	avgDocLen := float64(idf.totalDocs)
 	docLen := float64(len(docTokens))
 	if docLen == 0 {
 		return 0
+	}
+
+	avgDocLen := idf.avgDocLength
+	if avgDocLen == 0 {
+		avgDocLen = 1 // fallback to avoid division by zero
 	}
 
 	var score float64

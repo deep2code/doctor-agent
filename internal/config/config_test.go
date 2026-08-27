@@ -40,8 +40,8 @@ func TestLoadDefaults(t *testing.T) {
 	if cfg.LLMProvider != "deepseek" {
 		t.Errorf("LLMProvider = %q, want deepseek", cfg.LLMProvider)
 	}
-	if cfg.ServerPort != "8080" {
-		t.Errorf("ServerPort = %q, want 8080", cfg.ServerPort)
+	if cfg.ServerPort != "7071" {
+		t.Errorf("ServerPort = %q, want 7071", cfg.ServerPort)
 	}
 	if cfg.APIKey != "" {
 		t.Errorf("APIKey = %q, want empty", cfg.APIKey)

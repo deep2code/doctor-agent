@@ -92,6 +92,9 @@ func (s *Session) TrimHistory(maxTurns int) {
 	}
 
 	keep := maxTurns * 2
+	if keep <= 0 {
+		return
+	}
 	s.Messages = s.Messages[len(s.Messages)-keep:]
 }
 

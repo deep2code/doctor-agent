@@ -94,7 +94,7 @@ func TestWebUIServed(t *testing.T) {
 		t.Errorf("Content-Type = %q, want text/html", ct)
 	}
 	body := rec.Body.String()
-	if !strings.Contains(body, "Doctor Agent") || !strings.Contains(body, "/chat/stream") {
+	if !strings.Contains(body, "家庭医生") || !strings.Contains(body, "/chat/stream") {
 		t.Error("UI page is missing expected content (title or stream endpoint)")
 	}
 	// Unknown paths 404 instead of serving the SPA shell.

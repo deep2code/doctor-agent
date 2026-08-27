@@ -72,3 +72,5 @@ external/dailymed_fetch.log
 external/dailymed_struct.log
 external/dailymed_structured/
 external/eml/
+
+.cowork-temp/

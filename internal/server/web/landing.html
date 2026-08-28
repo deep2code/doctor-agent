@@ -275,6 +275,8 @@
   .src-item span { display: block; font-size: 12px; color: var(--text); line-height: 1.65; }
   .src-item.caveat { border-left-color: var(--amber); }
   .src-item.caveat b { color: var(--amber); }
+  .src-note { font-size: 12px; color: var(--amber); line-height: 1.65; margin: 0 0 14px; }
+  .src-note b { font-weight: 600; }
   @media (max-width: 980px){ .src-list { grid-template-columns: 1fr; } }
 
   @media (max-width: 980px) {
@@ -543,7 +545,7 @@
     <div class="sec-center">
       <span class="eyebrow">疾病数据洞察</span>
       <h2 class="title">中国人发病全景</h2>
-      <p class="sec-desc">从年份、地区到人群与生活方式，多维度看见疾病分布。点选下方标签切换视角——其中 <strong>年份 / 地区 / 男女 / 年龄 / 中国人发病变化</strong> 5 个维度已接入<strong>真实权威数据</strong>（国家疾控、《中国心血管健康与疾病报告2021》、中国政府网《新中国75年成就报告》等）；<strong>按收入 / 按职业</strong>因公开权威分层数据不足，保留为方法示意，不编造数字。</p>
+      <p class="sec-desc">从年份、地区到人群与生活方式，多维度看见疾病分布。点选下方标签切换视角——<strong>7 个维度全部为真实权威数据</strong>（国家疾控、国家卫生健康委统计公报、《中国心血管健康与疾病报告2021》、中国政府网《新中国75年成就报告》等）。其中「按教育程度」为<strong>社会经济地位的代理指标</strong>：全国慢病监测未将收入列为分层变量，故不编造收入分层数字。</p>
     </div>
     <div class="stats-tabs" id="statsTabs">
       <button class="stat-tab active" data-key="china">中国人发病变化</button>
@@ -551,7 +553,7 @@
       <button class="stat-tab" data-key="region">按地区</button>
       <button class="stat-tab" data-key="gender">按男女</button>
       <button class="stat-tab" data-key="age">按年龄</button>
-      <button class="stat-tab" data-key="income">按收入</button>
+      <button class="stat-tab" data-key="edu">按教育程度</button>
       <button class="stat-tab" data-key="occ">按职业</button>
     </div>
     <div class="stats-panel">
@@ -568,6 +570,7 @@
 
     <div class="stats-sources">
       <h4><span class="src-badge">数据来源</span>本板块的真实数字均可溯源；切换上方标签时，每张图会显示其具体出处与年份。</h4>
+      <p class="src-note"><b>关于「按收入」：</b>全国慢性病及危险因素监测未将收入列为分层变量，故不编造收入分层数字，改用<u>受教育程度</u>作为社会经济地位的代理指标。</p>
       <div class="src-list">
         <div class="src-item">
           <b>《中国心血管健康与疾病报告2021》</b>
@@ -586,12 +589,12 @@
           <span>国家卫健委：分年龄段高血压患病率（按年龄）</span>
         </div>
         <div class="src-item">
-          <b>IHME GBD 2021</b>
-          <span>全球疾病负担研究（模型估算值，非原始监测数），可用于国际对比与不确定区间</span>
+          <b>国家卫生健康委《2023年我国卫生健康事业发展统计公报》</b>
+          <span>全国报告职业病新病例 12087 例及分类构成（按职业）</span>
         </div>
-        <div class="src-item caveat">
-          <b>按收入 / 按职业 · 示意</b>
-          <span>公开权威来源缺乏按收入、职业分层的发病率统计，故不编造数字，仅保留方法示意</span>
+        <div class="src-item">
+          <b>《中国高血压防治现状蓝皮书2018版》</b>
+          <span>按受教育程度的高血压患病率（按教育程度，社会经济地位代理指标）</span>
         </div>
       </div>
     </div>
@@ -742,8 +745,8 @@ provs.forEach(p=>p.addEventListener('click',()=>showProv(p.getAttribute('data-na
     region: {type:'bar', title:'按地区 · 城乡差异', sub:'高血压患病率 城乡（%，真实）', note:'* 真实数据：2012–2015 中国高血压调查，农村粗率 28.8% 首次超过城市 26.9%；总体北方高于南方。来源：《中国心血管健康与疾病报告2021》。', labels:['城市','农村'], values:[26.9,28.8], color:'#2563EB'},
     gender: {type:'bar', title:'按男女 · 吸烟率', sub:'15岁+ 吸烟率（%，真实）', note:'* 真实数据：2022 中国成人烟草调查，男性 45.3%、女性 2.3%。来源：中国疾控慢病中心 & 北京医院。', labels:['男','女'], values:[45.3,2.3], colors:['#2563EB','#7C3AED']},
     age:    {type:'bar', title:'按年龄 · 高血压患病率', sub:'分年龄（%，真实）', note:'* 真实数据：2020《中国居民营养与慢性病状况报告》，18–44岁 13.3%、45–59岁 37.8%、60岁及以上 59.2%。', labels:['18-44','45-59','60+'], values:[13.3,37.8,59.2], color:'#2563EB'},
-    income: {type:'bar', title:'按收入 · 发病率', sub:'每 10 万人（示意）', note:'* 示意数据：公开权威来源缺乏按收入分层的发病率统计，本图仅为方法示意，非真实数字。', labels:['低','中','中高','高'], values:[350,300,260,210], color:'#2563EB'},
-    occ:    {type:'bar', title:'按职业 · 发病率', sub:'每 10 万人（示意）', note:'* 示意数据：公开权威来源缺乏按职业分层的发病率统计，本图仅为方法示意，非真实数字。', labels:['久坐','体力','医护','教师','司机'], values:[280,180,220,200,240], color:'#2563EB'}
+    edu:    {type:'bar', title:'按教育程度 · 高血压患病率', sub:'社会经济地位代理指标（%，真实）', note:'* 真实数据：小学文化 36.5%、初中 18.7%、高中及以上 9.5%。全国慢性病及危险因素监测未将收入列为分层变量，故不编造收入分层数字，改用受教育程度作为社会经济地位的代理指标。来源：《中国高血压防治现状蓝皮书2018版》。注：未调整年龄，教育程度与年龄高度相关。', labels:['小学','初中','高中及以上'], values:[36.5,18.7,9.5], color:'#2563EB'},
+    occ:    {type:'bar', title:'按职业 · 职业病构成', sub:'2023 年全国报告新病例（例，真实）', note:'* 真实数据：2023 年全国共报告各类职业病新病例 12087 例，其中职业性尘肺病及其他呼吸系统疾病 8105 例（含尘肺病 8051 例，占 66.7%）、职业性耳鼻喉口腔疾病 2228 例（18.4%）、职业性传染病 625 例、物理因素所致 577 例、职业性化学中毒 367 例。来源：国家卫生健康委《2023年我国卫生健康事业发展统计公报》。注：为法定职业病报告病例构成，非全人群发病率。', labels:['尘肺及呼吸系统','耳鼻喉口腔','传染病','物理因素','化学中毒'], values:[8105,2228,625,577,367], color:'#2563EB'}
   };
   function n(v){ return Number(v).toFixed(1); }
   function H_(el){ return el.clientHeight || 320; }

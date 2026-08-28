@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>医答 · 循证医学 AI 助手</title>
+<meta name="description" content="基于权威医学知识库与 34+ 项专业工具，给你有依据、可溯源的健康解答——从日常小病，到中国高发慢病。" />
+<style>
+  :root {
+    --navy: #0A1B36;
+    --navy-2: #071526;
+    --ink: #0F1E33;
+    --blue: #2563EB;
+    --blue-dark: #1D4ED8;
+    --cyan: #06B6D4;
+    --blue-soft: #E6F2FE;
+    --green: #16A34A;
+    --green-soft: #ECFDF5;
+    --amber: #D97706;
+    --amber-soft: #FEF3E6;
+    --violet-soft: #EDEBFE;
+    --pink-soft: #FFE4E6;
+    --bg-soft: #F4F8FC;
+    --card-soft: #F7FAFE;
+    --text: #5B6B82;
+    --muted: #8A98AD;
+    --line: #E3ECF5;
+    --white: #FFFFFF;
+    --radius: 16px;
+    --shadow-sm: 0 1px 3px rgba(15,30,51,.06), 0 1px 2px rgba(15,30,51,.04);
+    --shadow-md: 0 12px 28px rgba(15,30,51,.10);
+    --shadow-lg: 0 18px 40px rgba(4,27,74,.12);
+    --shadow-blue: 0 12px 24px rgba(37,99,235,.30);
+    --font: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Hiragino Sans GB", "Source Han Sans SC", "WenQuanYi Micro Hei", sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--font);
+    color: var(--ink);
+    background: var(--white);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { text-decoration: none; color: inherit; }
+  .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+  /* ---------- Buttons ---------- */
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    font-weight: 700; font-size: 16px; border-radius: 12px; cursor: pointer;
+    padding: 14px 26px; transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+    border: none; white-space: nowrap;
+  }
+  .btn-primary { background: var(--blue); color: #fff; box-shadow: var(--shadow-blue); }
+  .btn-primary:hover { background: var(--blue-dark); transform: translateY(-1px); }
+  .btn-ghost { background: #fff; color: var(--ink); border: 1px solid var(--line); }
+  .btn-ghost:hover { border-color: var(--blue); color: var(--blue); }
+  .btn-dark { background: var(--navy); color: #fff; }
+  .btn-dark:hover { background: #0d234a; }
+
+  /* ---------- Header ---------- */
+  header {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(255,255,255,.9); backdrop-filter: saturate(180%) blur(12px);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav { display: flex; align-items: center; justify-content: space-between; height: 72px; }
+  .brand { display: flex; align-items: center; gap: 10px; }
+  .brand .logo-box {
+    width: 34px; height: 34px; border-radius: 9px; background: var(--blue);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .brand .name { font-size: 21px; font-weight: 800; color: var(--ink); letter-spacing: .5px; }
+  .nav-links { display: flex; align-items: center; gap: 34px; }
+  .nav-links a { font-size: 15px; color: var(--text); transition: color .15s; }
+  .nav-links a:hover { color: var(--blue); }
+  .nav-right { display: flex; align-items: center; gap: 22px; }
+  .nav-login { font-size: 15px; font-weight: 600; color: var(--ink); }
+  .nav-login:hover { color: var(--blue); }
+
+  /* ---------- Hero ---------- */
+  .hero { padding: 76px 0; }
+  .hero-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 56px; align-items: center; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--blue-soft); color: var(--blue-dark);
+    font-size: 13px; font-weight: 600; padding: 7px 14px; border-radius: 999px;
+  }
+  .badge .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--blue); }
+  .hero h1 {
+    font-size: clamp(38px, 4.4vw, 54px); font-weight: 800; color: var(--ink);
+    line-height: 1.18; margin: 22px 0 20px; letter-spacing: -.5px;
+  }
+  .hero .sub { font-size: 18px; color: var(--text); line-height: 1.65; max-width: 600px; }
+  .hero-cta { display: flex; gap: 16px; margin: 32px 0 18px; flex-wrap: wrap; }
+  .trust-line { font-size: 14px; color: var(--muted); }
+
+  .chat-card {
+    background: #fff; border: 1px solid var(--line); border-radius: 20px;
+    padding: 20px; box-shadow: var(--shadow-lg); width: 100%; max-width: 460px; margin-left: auto;
+  }
+  .chat-head { display: flex; align-items: center; gap: 10px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+  .chat-head .ava { width: 36px; height: 36px; border-radius: 10px; background: var(--blue-soft); }
+  .chat-head .t { font-size: 14px; font-weight: 700; color: var(--ink); }
+  .bubble-user { background: #F1F5F9; border-radius: 12px; padding: 12px; font-size: 14px; color: var(--ink); margin: 14px 0; text-align: right; }
+  .bubble-ai { background: #EFF5FD; border-radius: 12px; padding: 14px; font-size: 14px; color: #1E293B; line-height: 1.55; }
+  .cite { display: inline-flex; align-items: center; gap: 6px; margin-top: 10px; background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: 5px 10px; font-size: 11px; font-weight: 600; color: var(--blue); }
+
+  /* ---------- Section shell ---------- */
+  section { padding: 92px 0; }
+  .sec-center { text-align: center; max-width: 760px; margin: 0 auto 52px; }
+  .eyebrow {
+    display: inline-flex; align-items: center; font-size: 13px; font-weight: 600;
+    padding: 6px 14px; border-radius: 999px; background: var(--blue-soft); color: var(--blue-dark);
+  }
+  .eyebrow.dark { background: #1E3A5F; color: #60A5FA; }
+  h2.title { font-size: clamp(30px, 3.4vw, 40px); font-weight: 800; color: var(--ink); margin: 16px 0; letter-spacing: -.5px; }
+  .sec-desc { font-size: 18px; color: var(--text); line-height: 1.6; }
+
+  /* ---------- Principles ---------- */
+  .how { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .step {
+    background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 28px; transition: box-shadow .2s, transform .2s;
+  }
+  .step:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
+  .step .num { width: 48px; height: 48px; border-radius: 24px; background: var(--blue-soft); display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 800; color: var(--blue); margin-bottom: 14px; }
+  .step h3 { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+  .step p { font-size: 15px; color: var(--text); line-height: 1.6; }
+
+  /* ---------- Core features ---------- */
+  .feature {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;
+    background: var(--card-soft); border: 1px solid var(--line); border-radius: 20px;
+    padding: 36px; margin-bottom: 24px;
+  }
+  .feature:last-child { margin-bottom: 0; }
+  .feature .f-eyebrow { display: inline-flex; font-size: 13px; font-weight: 600; padding: 6px 12px; border-radius: 999px; }
+  .feature h3 { font-size: 26px; font-weight: 700; margin: 14px 0; letter-spacing: -.3px; }
+  .feature p { font-size: 16px; color: var(--text); line-height: 1.65; }
+  .feature .f-visual {
+    background: #fff; border: 1px solid var(--line); border-radius: 14px;
+    aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; overflow: hidden;
+  }
+  .feature .f-visual svg { width: 100%; height: 100%; }
+
+  /* ---------- Feature grid ---------- */
+  .grid-tools { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .tool {
+    background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 24px;
+    transition: box-shadow .2s, transform .2s;
+  }
+  .tool:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
+  .tool .ic { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 12px; }
+  .tool h4 { font-size: 17px; font-weight: 600; margin-bottom: 6px; }
+  .tool p { font-size: 14px; color: var(--text); line-height: 1.5; }
+
+  /* ---------- Social proof (dark) ---------- */
+  .proof { background: var(--navy); color: #fff; }
+  .proof h2.title { color: #fff; }
+  .proof .sec-desc { color: #94A3B8; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; max-width: 1000px; margin: 16px auto 56px; }
+  .stat { text-align: center; padding: 8px 12px; }
+  .stat .n { font-size: 48px; font-weight: 800; line-height: 1; }
+  .stat .l { font-size: 15px; color: #94A3B8; margin-top: 8px; }
+  .stat:nth-child(1) .n { color: var(--blue); }
+  .stat:nth-child(2) .n { color: var(--cyan); }
+  .stat:nth-child(3) .n { color: var(--green); }
+  .stat:nth-child(4) .n { color: #F59E0B; }
+  .sample {
+    background: #0E2544; border: 1px solid rgba(15,38,69,.6); border-radius: 20px;
+    padding: 32px; max-width: 900px; margin: 0 auto;
+  }
+  .sample .q { font-size: 17px; font-weight: 600; color: #E2E8F0; }
+  .sample .a { font-size: 15px; color: #94A3B8; line-height: 1.6; margin-top: 12px; }
+  .sample .cites { display: flex; gap: 12px; margin-top: 16px; flex-wrap: wrap; }
+  .sample .cites span { font-size: 13px; font-weight: 500; color: #60A5FA; }
+
+  /* ---------- FAQ ---------- */
+  .faq-list { max-width: 1000px; margin: 0 auto; display: grid; gap: 16px; }
+  .qa { background: var(--card-soft); border-radius: 14px; padding: 24px; }
+  .qa .q { font-size: 17px; font-weight: 700; margin-bottom: 10px; }
+  .qa .a { font-size: 15px; color: var(--text); line-height: 1.6; }
+
+  /* ---------- Final CTA ---------- */
+  .cta-final { background: var(--navy); color: #fff; text-align: center; }
+  .cta-final h2 { font-size: clamp(32px, 3.6vw, 44px); font-weight: 800; }
+  .cta-final .sub { font-size: 18px; color: #94A3B8; max-width: 700px; margin: 18px auto 30px; }
+  .cta-final .trust { font-size: 14px; color: #64748B; margin-top: 16px; }
+
+  /* ---------- Footer ---------- */
+  footer { background: var(--navy-2); color: #64748B; padding: 60px 0; }
+  .foot-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 48px; }
+  .foot-brand .logo-box { width: 28px; height: 28px; border-radius: 8px; background: var(--blue); display: inline-flex; align-items: center; justify-content: center; vertical-align: middle; }
+  .foot-brand .name { font-size: 18px; font-weight: 800; color: #fff; margin-left: 8px; }
+  .foot-brand .tag { font-size: 14px; margin-top: 12px; }
+  .foot-col h5 { font-size: 14px; font-weight: 700; color: #fff; margin-bottom: 14px; }
+  .foot-col a { display: block; font-size: 14px; color: #64748B; padding: 5px 0; }
+  .foot-col a:hover { color: #94A3B8; }
+  .foot-bottom { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #15233b; margin-top: 40px; padding-top: 24px; font-size: 13px; }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 980px) {
+    .hero-grid { grid-template-columns: 1fr; }
+    .chat-card { margin: 0 auto; }
+    .feature { grid-template-columns: 1fr; }
+    .how, .grid-tools { grid-template-columns: 1fr 1fr; }
+    .stats { grid-template-columns: 1fr 1fr; gap: 24px 0; }
+    .foot-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+    .nav-links { display: none; }
+  }
+  @media (max-width: 620px) {
+    section { padding: 64px 0; }
+    .hero { padding: 48px 0; }
+    .how, .grid-tools, .stats { grid-template-columns: 1fr; }
+    .hero-cta .btn { flex: 1; }
+    .foot-grid { grid-template-columns: 1fr; }
+    .foot-bottom { flex-direction: column; gap: 10px; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header>
+  <div class="container nav">
+    <a class="brand" href="/">
+      <span class="logo-box">
+        <svg width="20" height="20" viewBox="0 0 32 32" fill="none"><path d="M13.5 7h5v6.5H25v5h-6.5V25h-5v-6.5H7v-5h6.5V7z" fill="#FFFFFF"/></svg>
+      </span>
+      <span class="name">医答</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#features">核心能力</a>
+      <a href="#tools">功能矩阵</a>
+      <a href="#proof">循证可信</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+    <div class="nav-right">
+      <a class="nav-login" href="/app">登录</a>
+      <a class="btn btn-primary" href="/app" style="padding:10px 20px;font-size:15px;">问我</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-left">
+      <span class="badge"><span class="dot"></span>循证医学 · 公益项目 · 每个答案都有出处</span>
+      <h1>健康问题，先问一个<br/>靠谱的 AI 医生</h1>
+      <p class="sub">面向中国全人群免费的循证健康助手。基于权威医学知识库与 34+ 项专业工具，提供有依据、可溯源的健康解答——从日常小病，到中国高发慢病。</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="/app">问我</a>
+        <a class="btn btn-ghost" href="#how">查看工作原理</a>
+      </div>
+      <p class="trust-line">由 急诊识别 · 安全护栏 · 引用核验 三层守护</p>
+    </div>
+    <div class="hero-right">
+      <div class="chat-card">
+        <div class="chat-head">
+          <span class="ava"></span>
+          <span class="t">医答 · 循证医学助手</span>
+        </div>
+        <div class="bubble-user">孩子反复低烧三天，要紧吗？</div>
+        <div class="bubble-ai">
+          可能的常见原因有病毒感染、幼儿急疹等。居家先观察体温与精神状态；若出现高热不退、精神萎靡或抽搐，请尽快就医。
+          <br/><span class="cite">[1] 儿童发热诊疗指南&nbsp;&nbsp;[2] 儿科急诊分诊</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRINCIPLES / 工作原理 ============ -->
+<section id="how" style="background:var(--bg-soft);">
+  <div class="container">
+    <div class="sec-center">
+      <span class="eyebrow">工作原理</span>
+      <h2 class="title">不是搜出来的，是推理出来的</h2>
+      <p class="sec-desc">你描述的每一条症状，都会经过 检索 → 推理 → 核验 的闭环，再给出结构化、可溯源的建议。</p>
+    </div>
+    <div class="how">
+      <div class="step">
+        <div class="num">01</div>
+        <h3>描述症状</h3>
+        <p>用自然语言说出不适，或上传化验单，无需医学术语。</p>
+      </div>
+      <div class="step">
+        <div class="num">02</div>
+        <h3>检索与推理</h3>
+        <p>调取权威知识库，调用 34+ 项专业工具交叉验证。</p>
+      </div>
+      <div class="step">
+        <div class="num">03</div>
+        <h3>附出处作答</h3>
+        <p>按 原因→病例→护理→就医 给出可溯源的建议。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CORE FEATURES / 核心能力 ============ -->
+<section id="features">
+  <div class="container">
+    <div class="sec-center">
+      <span class="eyebrow">核心能力</span>
+      <h2 class="title">为什么医答更值得信赖</h2>
+      <p class="sec-desc">循证、专注中国人群、安全兜底——三个维度构筑可信的健康参考。</p>
+    </div>
+
+    <!-- Feature 1: 循证可信 -->
+    <div class="feature">
+      <div>
+        <span class="f-eyebrow" style="background:var(--blue-soft);color:var(--blue-dark);">循证可信</span>
+        <h3>引用权威指南与文献，每条建议可溯源</h3>
+        <p>所有回答均附 DOI/PMID 编号，支持点击跳转原始文献。引用核验层自动检测虚假引用，确保每条依据真实可查。</p>
+      </div>
+      <div class="f-visual">
+        <svg viewBox="0 0 480 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="480" height="270" fill="#EFF5FD"/>
+          <rect x="60" y="50" width="150" height="180" rx="12" fill="#fff" stroke="#C9DEFB"/>
+          <line x1="80" y1="80" x2="190" y2="80" stroke="#2563EB" stroke-width="6" stroke-linecap="round"/>
+          <line x1="80" y1="105" x2="170" y2="105" stroke="#BFE0FB" stroke-width="6" stroke-linecap="round"/>
+          <line x1="80" y1="130" x2="190" y2="130" stroke="#BFE0FB" stroke-width="6" stroke-linecap="round"/>
+          <line x1="80" y1="155" x2="160" y2="155" stroke="#BFE0FB" stroke-width="6" stroke-linecap="round"/>
+          <line x1="80" y1="180" x2="185" y2="180" stroke="#BFE0FB" stroke-width="6" stroke-linecap="round"/>
+          <circle cx="350" cy="120" r="46" fill="#2563EB" opacity="0.12"/>
+          <circle cx="350" cy="120" r="28" fill="none" stroke="#2563EB" stroke-width="5"/>
+          <line x1="370" y1="140" x2="392" y2="162" stroke="#2563EB" stroke-width="6" stroke-linecap="round"/>
+          <path d="M120 230 C 200 200, 280 200, 350 166" stroke="#06B6D4" stroke-width="3" stroke-dasharray="6 6" fill="none"/>
+          <circle cx="350" cy="166" r="6" fill="#06B6D4"/>
+          <rect x="300" y="180" width="120" height="40" rx="10" fill="#fff" stroke="#06B6D4" stroke-width="2"/>
+          <text x="360" y="205" font-family="sans-serif" font-size="14" fill="#0F1E33" text-anchor="middle" font-weight="700">DOI · PMID</text>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Feature 2: 专项覆盖 -->
+    <div class="feature">
+      <div>
+        <span class="f-eyebrow" style="background:var(--green-soft);color:var(--green);">专项覆盖</span>
+        <h3>中国高发疾病专项知识库</h3>
+        <p>针对地贫、G6PD、鼻咽癌、乙肝、乳糖不耐受、登革热等中国高发疾病构建专项数据集，覆盖南方省份尤为关注的健康问题。</p>
+      </div>
+      <div class="f-visual">
+        <svg viewBox="0 0 480 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="480" height="270" fill="#EFF5FD"/>
+          <path d="M150 60 C 200 40, 280 45, 330 70 C 360 90, 350 120, 370 150 C 390 180, 350 210, 300 215 C 250 220, 200 235, 160 210 C 120 185, 100 160, 120 125 C 135 95, 110 80, 150 60 Z" fill="#0A1B36" opacity="0.85"/>
+          <g fill="#06B6D4">
+            <circle cx="200" cy="110" r="6"/><circle cx="250" cy="95" r="5"/><circle cx="300" cy="130" r="7"/>
+            <circle cx="230" cy="155" r="5"/><circle cx="280" cy="175" r="6"/><circle cx="175" cy="150" r="4"/>
+            <circle cx="320" cy="100" r="5"/>
+          </g>
+          <g fill="#F59E0B">
+            <circle cx="265" cy="120" r="4"/><circle cx="210" cy="135" r="4"/>
+          </g>
+          <circle cx="265" cy="120" r="16" fill="none" stroke="#06B6D4" stroke-width="2" opacity="0.6"/>
+          <text x="240" y="245" font-family="sans-serif" font-size="13" fill="#0F1E33" text-anchor="middle" font-weight="700">中国高发疾病 · 区域覆盖</text>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Feature 3: 四层防护 -->
+    <div class="feature">
+      <div>
+        <span class="f-eyebrow" style="background:var(--amber-soft);color:var(--amber);">四层防护</span>
+        <h3>安全守护，先救命后答疑</h3>
+        <p>遇到胸痛、呼吸困难等紧急症状立即提示就医；超出医疗范围的问题主动拒绝；所有回答附免责声明。四层防护让你用得放心。</p>
+      </div>
+      <div class="f-visual">
+        <svg viewBox="0 0 480 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="480" height="270" fill="#EFF5FD"/>
+          <path d="M240 40 L320 70 V130 C320 180 285 215 240 230 C195 215 160 180 160 130 V70 Z" fill="#fff" stroke="#2563EB" stroke-width="2"/>
+          <path d="M240 70 L295 92 V132 C295 168 268 193 240 205 C212 193 185 168 185 132 V92 Z" fill="#E6F2FE" stroke="#06B6D4" stroke-width="2"/>
+          <path d="M240 100 L272 116 V142 C272 162 256 178 240 186 C224 178 208 162 208 142 V116 Z" fill="#ECFDF5" stroke="#16A34A" stroke-width="2"/>
+          <path d="M240 124 L258 134 V150 C258 160 250 168 240 172 C230 168 222 160 222 150 V134 Z" fill="#0A1B36"/>
+          <circle cx="240" cy="40" r="9" fill="#DC2626"/>
+          <text x="240" y="258" font-family="sans-serif" font-size="13" fill="#0F1E33" text-anchor="middle" font-weight="700">急诊识别 → 范围护栏 → 引用核验 → 免责声明</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURE GRID / 功能矩阵 ============ -->
+<section id="tools" style="background:var(--bg-soft);">
+  <div class="container">
+    <div class="sec-center">
+      <h2 class="title">34+ 项专业医学工具，随时调用</h2>
+      <p class="sec-desc">从用药安全到检验解读，从分诊到遗传风险评估，覆盖日常健康咨询的关键场景。</p>
+    </div>
+    <div class="grid-tools">
+      <div class="tool">
+        <div class="ic" style="background:var(--blue-soft);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round"><path d="M10.5 13.5l3-3M8 8h4a3 3 0 010 6H8V8z"/><path d="M16 16v-4a3 3 0 00-3-3"/></svg>
+        </div>
+        <h4>用药安全核查</h4>
+        <p>检查药物相互作用、禁忌症与剂量安全性</p>
+      </div>
+      <div class="tool">
+        <div class="ic" style="background:var(--green-soft);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/><circle cx="19" cy="18" r="2"/></svg>
+        </div>
+        <h4>症状分诊</h4>
+        <p>根据症状描述推荐就诊科室与紧急程度</p>
+      </div>
+      <div class="tool">
+        <div class="ic" style="background:var(--amber-soft);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round"><path d="M8 4c0 4 8 4 8 8s-8 4-8 8M16 4c0 4-8 4-8 8s8 4 8 8"/></svg>
+        </div>
+        <h4>遗传病风险计算</h4>
+        <p>基于家族史与表型评估遗传性疾病携带风险</p>
+      </div>
+      <div class="tool">
+        <div class="ic" style="background:var(--violet-soft);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6D28D9" stroke-width="2" stroke-linecap="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>
+        </div>
+        <h4>检验单解读</h4>
+        <p>上传化验单图片，逐项解释指标含义与异常</p>
+      </div>
+      <div class="tool">
+        <div class="ic" style="background:var(--pink-soft);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E11D48" stroke-width="2" stroke-linecap="round"><circle cx="8" cy="8" r="3"/><circle cx="16" cy="16" r="3"/><path d="M11 8h2a3 3 0 013 3v2"/></svg>
+        </div>
+        <h4>药物相互作用</h4>
+        <p>检测多药并用时的潜在冲突与不良反应风险</p>
+      </div>
+      <div class="tool">
+        <div class="ic" style="background:var(--blue-soft);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+        </div>
+        <h4>药物查询</h4>
+        <p>检索药品说明书、适应症、副作用与医保信息</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOCIAL PROOF / 循证可信 ============ -->
+<section id="proof" class="proof">
+  <div class="container">
+    <div class="sec-center">
+      <span class="eyebrow dark">循证可信</span>
+      <h2 class="title">每个答案，都有据可查</h2>
+      <p class="sec-desc">我们不相信"AI 幻觉"——每条关键结论都经过引用核验，确保来源真实可追溯。</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="n">34+</div><div class="l">项专业工具</div></div>
+      <div class="stat"><div class="n">权威</div><div class="l">医学知识库</div></div>
+      <div class="stat"><div class="n">4</div><div class="l">层安全防护</div></div>
+      <div class="stat"><div class="n">100%</div><div class="l">可溯源引用</div></div>
+    </div>
+    <div class="sample">
+      <div class="q">Q：孩子反复低烧三天怎么办？</div>
+      <div class="a">可能的常见原因包括病毒感染、幼儿急疹等。居家护理：监测体温与精神状态；若出现高热不退或精神萎靡，请尽快就医。</div>
+      <div class="cites">
+        <span>[1] 儿童发热诊疗指南 (DOI: 10.xxxx)</span>
+        <span>[2] 儿科急诊分诊标准 (PMID: xxxxx)</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq">
+  <div class="container">
+    <div class="sec-center">
+      <h2 class="title">常见问题</h2>
+      <p class="sec-desc">关于医答，你可能想知道的</p>
+    </div>
+    <div class="faq-list">
+      <div class="qa">
+        <div class="q">医答能代替医生吗？</div>
+        <div class="a">不能。医答是循证医学辅助工具，提供基于证据的健康参考，不能替代专业医生的诊断与治疗。紧急情况请拨打 120 或前往急诊。</div>
+      </div>
+      <div class="qa">
+        <div class="q">我的健康数据隐私如何保障？</div>
+        <div class="a">对话内容仅用于当前会话，不会存储个人身份信息。支持本地部署模式，数据完全自控。</div>
+      </div>
+      <div class="qa">
+        <div class="q">回答的"出处"是什么？</div>
+        <div class="a">每条关键结论都附带权威来源编号（如临床指南 DOI、PubMed 文献 PMID），可点击验证原始出处。</div>
+      </div>
+      <div class="qa">
+        <div class="q">支持哪些疾病范围？</div>
+        <div class="a">覆盖日常健康问题及中国高发疾病（地贫、G6PD、鼻咽癌、乙肝等），持续扩展中。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="cta-final">
+  <div class="container">
+    <h2>下一个健康问题，先问医答</h2>
+    <p class="sub">完全免费、无需注册，面向所有人的健康参考工具。非诊断工具，紧急情况请拨打 120。</p>
+    <a class="btn btn-primary" href="/app">问我</a>
+    <div class="trust">仅供健康参考 · 不能替代专业医疗诊断</div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <span class="logo-box"><svg width="16" height="16" viewBox="0 0 32 32" fill="none"><path d="M13.5 7h5v6.5H25v5h-6.5V25h-5v-6.5H7v-5h6.5V7z" fill="#FFFFFF"/></svg></span>
+        <span class="name">医答</span>
+        <div class="tag">循证医学 AI 助手</div>
+      </div>
+      <div class="foot-col">
+        <h5>产品</h5>
+        <a href="#features">核心能力</a>
+        <a href="#tools">功能矩阵</a>
+        <a href="#how">工作原理</a>
+      </div>
+      <div class="foot-col">
+        <h5>资源</h5>
+        <a href="#">知识库说明</a>
+        <a href="#">API 文档</a>
+        <a href="#">开源代码</a>
+      </div>
+      <div class="foot-col">
+        <h5>法律</h5>
+        <a href="#">服务条款</a>
+        <a href="#">隐私政策</a>
+        <a href="#">免责声明</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 医答 Doctor Agent</span>
+      <span>仅供健康参考，不能替代专业医疗诊断</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

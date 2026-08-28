@@ -256,7 +256,8 @@ func startWebUI(cfg *config.Config) {
 		cfg = config.Load()
 	}
 
-	fmt.Println("   正在启动… 请用浏览器打开:  http://localhost:7071")
+	fmt.Println("   正在启动… 请用浏览器打开:  http://localhost:7071  (落地页)")
+	fmt.Println("   进入咨询台:               http://localhost:7071/app")
 	fmt.Println("   按 Ctrl+C 退出")
 	fmt.Println()
 	runServe(cfg)

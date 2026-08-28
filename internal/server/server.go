@@ -31,6 +31,9 @@ var webUIIndex string
 //go:embed web/admin.html
 var adminUIIndex string
 
+//go:embed web/landing.html
+var landingPage string
+
 // Server wraps the HTTP API server for the doctor agent.
 type Server struct {
 	cfg   *config.Config
@@ -58,7 +61,8 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 	}
 
 	mux := http.NewServeMux()
-	mux.HandleFunc("/", s.handleWebUI)
+	mux.HandleFunc("/", s.handleLanding)
+	mux.HandleFunc("/app", s.handleAppUI)
 	mux.HandleFunc("/health", s.handleHealth)
 	mux.HandleFunc("/chat", s.handleChat)
 	mux.HandleFunc("/chat/stream", s.handleChatStream)
@@ -125,14 +129,30 @@ func (s *Server) Shutdown(ctx context.Context) error {
 	return s.http.Shutdown(ctx)
 }
 
-// handleWebUI serves the built-in chat web interface (embedded single-file
-// HTML — no build step, no external assets; works offline).
-func (s *Server) handleWebUI(w http.ResponseWriter, r *http.Request) {
+// handleLanding serves the marketing landing page (embedded single-file HTML,
+// no external assets; works offline). It is the site's front door at "/".
+func (s *Server) handleLanding(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodGet {
 		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
 		return
 	}
-	if r.URL.Path != "/" {
+	if r.URL.Path != "/" && r.URL.Path != "/index.html" {
+		http.NotFound(w, r)
+		return
+	}
+	w.Header().Set("Content-Type", "text/html; charset=utf-8")
+	_, _ = io.WriteString(w, landingPage)
+}
+
+// handleAppUI serves the built-in chat web interface (embedded single-file HTML
+// — no build step, no external assets; works offline) at "/app". The chat APIs
+// (/chat, /chat/stream, /sessions, ...) remain on their own paths.
+func (s *Server) handleAppUI(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+	if r.URL.Path != "/app" {
 		http.NotFound(w, r)
 		return
 	}

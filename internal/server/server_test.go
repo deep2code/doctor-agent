@@ -84,8 +84,10 @@ func TestHealthOpen(t *testing.T) {
 	}
 }
 
-func TestWebUIServed(t *testing.T) {
+func TestPagesServed(t *testing.T) {
 	s := newTestServer(t, nil)
+
+	// Root "/" serves the marketing landing page.
 	rec := doRequest(t, s, http.MethodGet, "/", "", "", "")
 	if rec.Code != http.StatusOK {
 		t.Fatalf("GET / status = %d, want 200", rec.Code)
@@ -93,11 +95,22 @@ func TestWebUIServed(t *testing.T) {
 	if ct := rec.Header().Get("Content-Type"); !strings.HasPrefix(ct, "text/html") {
 		t.Errorf("Content-Type = %q, want text/html", ct)
 	}
-	body := rec.Body.String()
-	if !strings.Contains(body, "家庭医生") || !strings.Contains(body, "/chat/stream") {
-		t.Error("UI page is missing expected content (title or stream endpoint)")
+	landing := rec.Body.String()
+	if !strings.Contains(landing, "医答") || !strings.Contains(landing, "/app") {
+		t.Error("landing page is missing expected content (brand or /app link)")
 	}
-	// Unknown paths 404 instead of serving the SPA shell.
+
+	// "/app" serves the chat web interface (embedded single-file UI).
+	app := doRequest(t, s, http.MethodGet, "/app", "", "", "")
+	if app.Code != http.StatusOK {
+		t.Fatalf("GET /app status = %d, want 200", app.Code)
+	}
+	appBody := app.Body.String()
+	if !strings.Contains(appBody, "家庭医生") || !strings.Contains(appBody, "/chat/stream") {
+		t.Error("chat UI is missing expected content (title or stream endpoint)")
+	}
+
+	// Unknown paths 404 instead of serving the landing shell.
 	if rec := doRequest(t, s, http.MethodGet, "/nope", "", "", ""); rec.Code != http.StatusNotFound {
 		t.Errorf("GET /nope = %d, want 404", rec.Code)
 	}

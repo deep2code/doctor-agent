@@ -241,6 +241,13 @@
   .mp-list{list-style:none;display:flex;flex-direction:column;gap:10px;margin:0 0 18px;padding:0;}
   .mp-list li{background:#F4F8FC;border-radius:10px;padding:10px 14px;font-size:14px;color:#334155;}
   .mp-btn{margin-top:auto;width:100%;box-sizing:border-box;}
+  .mp-rate{margin-top:16px;padding-top:14px;border-top:1px dashed var(--line);}
+  .mp-rate-row{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-size:13px;margin-bottom:7px;}
+  .mp-rate-label{color:#5B6B82;}
+  .mp-rate-val{font-weight:600;font-size:13px;}
+  .mp-rate-src{font-size:11px;color:#A9B4C3;line-height:1.55;margin:9px 0 0;}
+  .mp-rate-link{display:inline-block;margin-top:9px;font-size:12.5px;color:var(--blue);text-decoration:none;}
+  .mp-rate-link:hover{text-decoration:underline;}
 
   /* ---------- Disease Stats (tabbed) ---------- */
   .stats-tabs { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 8px 0 28px; }
@@ -531,6 +538,7 @@
         <div class="map-panel-detail" id="mapDetail" hidden>
           <div class="mp-head"><span class="mp-name" id="mpName"></span><span class="mp-cat" id="mpCat"></span></div>
           <ul class="mp-list" id="mpList"></ul>
+          <div class="mp-rate" id="mpRate" hidden></div>
           <a class="btn btn-primary mp-btn" href="/app">就这个症状问我</a>
         </div>
       </aside>
@@ -545,16 +553,19 @@
     <div class="sec-center">
       <span class="eyebrow">疾病数据洞察</span>
       <h2 class="title">中国人发病全景</h2>
-      <p class="sec-desc">从年份、地区到人群与生活方式，多维度看见疾病分布。点选下方标签切换视角——<strong>7 个维度全部为真实权威数据</strong>（国家疾控、国家卫生健康委统计公报、《中国心血管健康与疾病报告2021》、中国政府网《新中国75年成就报告》等）。其中「按教育程度」为<strong>社会经济地位的代理指标</strong>：全国慢病监测未将收入列为分层变量，故不编造收入分层数字。</p>
+      <p class="sec-desc">从年份、地区到人群与生活方式，多维度看见疾病分布。点选下方标签切换视角——<strong>10 个维度全部为真实权威数据</strong>（国家疾控、国家卫生健康委统计公报、《中国心血管健康与疾病报告2021》、中国政府网《新中国75年成就报告》等）。其中「按教育程度」为<strong>社会经济地位的代理指标</strong>：全国慢病监测未将收入列为分层变量，故不编造收入分层数字。</p>
     </div>
     <div class="stats-tabs" id="statsTabs">
       <button class="stat-tab active" data-key="china">中国人发病变化</button>
+      <button class="stat-tab" data-key="disease">按病种</button>
       <button class="stat-tab" data-key="year">按年份</button>
       <button class="stat-tab" data-key="region">按地区</button>
+      <button class="stat-tab" data-key="province">按省份</button>
       <button class="stat-tab" data-key="gender">按男女</button>
       <button class="stat-tab" data-key="age">按年龄</button>
       <button class="stat-tab" data-key="edu">按教育程度</button>
       <button class="stat-tab" data-key="occ">按职业</button>
+      <button class="stat-tab" data-key="mental">精神健康</button>
     </div>
     <div class="stats-panel">
       <div class="stats-chart-card">
@@ -574,27 +585,47 @@
       <div class="src-list">
         <div class="src-item">
           <b>《中国心血管健康与疾病报告2021》</b>
-          <span>国家心血管病中心：1959–2018 历次全国高血压抽样调查（按年份）、城乡差异（按地区）</span>
+          <span>国家心血管病中心：1959–2018 历次全国高血压抽样调查（按年份）</span>
         </div>
         <div class="src-item">
           <b>中国政府网《新中国75年经济社会发展成就报告》(2024)</b>
           <span>甲乙类传染病报告发病率与死亡率长期序列（1955→2023）</span>
         </div>
         <div class="src-item">
-          <b>中国疾控中心慢病中心 &amp; 北京医院</b>
-          <span>2022 中国成人烟草调查：15 岁及以上分性别吸烟率（按男女）</span>
+          <b>中国疾控中心慢病中心</b>
+          <span>2018 年全国慢性病及危险因素监测（按男女、按地区）；2023 年糖尿病患病人数 2.33 亿及分省地域差异（按病种、按省份）</span>
         </div>
         <div class="src-item">
           <b>《中国居民营养与慢性病状况报告（2020年）》</b>
-          <span>国家卫健委：分年龄段高血压患病率（按年龄）</span>
+          <span>国家卫健委：分年龄段高血压患病率（按年龄）；抑郁症 2.1%、焦虑障碍 4.98%（精神健康）</span>
         </div>
         <div class="src-item">
-          <b>国家卫生健康委《2023年我国卫生健康事业发展统计公报》</b>
-          <span>全国报告职业病新病例 12087 例及分类构成（按职业）</span>
+          <b>国家卫生健康委《2025年我国卫生健康事业发展统计公报》</b>
+          <span>2016—2025 年全国职业病新病例逐年序列；最新年度（2025）报告 10237 例（按职业）</span>
         </div>
         <div class="src-item">
           <b>《中国高血压防治现状蓝皮书2018版》</b>
           <span>按受教育程度的高血压患病率（按教育程度，社会经济地位代理指标）</span>
+        </div>
+        <div class="src-item">
+          <b>国家心血管病中心《中国心血管健康与疾病报告2022》</b>
+          <span>心血管病现患 3.3 亿及主要病种构成（按病种）</span>
+        </div>
+        <div class="src-item">
+          <b>国家癌症中心（JNCC 2024）</b>
+          <span>2022 年恶性肿瘤新发 482.47 万例、死亡 257.42 万例，肺癌居首</span>
+        </div>
+        <div class="src-item">
+          <b>《柳叶刀》</b>
+          <span>慢阻肺 9990 万（2018 中国成人肺部健康研究）、慢性肾病 1.52 亿（2025）</span>
+        </div>
+        <div class="src-item">
+          <b>国家卫生健康委《成人高尿酸血症与痛风食养指南》(2023)</b>
+          <span>高尿酸血症总体患病率 13.3%、痛风 0.86%–2.20%（按病种）</span>
+        </div>
+        <div class="src-item">
+          <b>国家心血管病中心 中国高血压调查(2012–2015)</b>
+          <span>31 省 45 万余人，分省市高血压患病率（按省份）</span>
         </div>
       </div>
     </div>
@@ -707,6 +738,15 @@ const PRIM={"广东省": "遗传代谢", "广西壮族自治区": "遗传代谢"
 const provs=[...document.querySelectorAll('#mapCanvas .prov')];
 const def=document.getElementById('mapDefault');
 const detail=document.getElementById('mapDetail');
+const TIER_HIGH=["北京市","天津市","上海市","辽宁省","云南省","广东省","黑龙江省"];
+const TIER_MID=["吉林省","山西省","江苏省","西藏自治区","河南省","福建省","四川省","贵州省","河北省","浙江省"];
+const TIER_LOW=["湖南省","新疆维吾尔自治区","青海省","甘肃省","宁夏回族自治区","内蒙古自治区","陕西省","山东省","湖北省","安徽省","江西省","广西壮族自治区","海南省","重庆市"];
+const PROV_EXACT={"北京市":{bp:35.9,dm:28.45},"天津市":{bp:34.5,dm:25.78},"上海市":{bp:29.1,dm:22.04},"湖南省":{bp:15.6}};
+const TIER_META={high:{t:'较高',c:'#DC2626'},mid:{t:'中等',c:'#F59E0B'},low:{t:'较低',c:'#10B981'}};
+window.jumpProvince=function(){
+  var t=document.querySelector('#statsTabs .stat-tab[data-key="province"]');
+  if(t) t.click();
+};
 function showProv(name){
   const ds=DISEASE_MAP[name]; if(!ds) return;
   const cat=PRIM[name]||'肿瘤';
@@ -714,6 +754,22 @@ function showProv(name){
   const c=document.getElementById('mpCat'); c.textContent=CAT_LABEL[cat]||cat; c.style.background=CAT_COLOR[cat]||'#64748B';
   const list=document.getElementById('mpList'); list.innerHTML='';
   ds.forEach(d=>{const li=document.createElement('li');li.textContent=d;list.appendChild(li);});
+  const rateBox=document.getElementById('mpRate');
+  const tier = TIER_HIGH.includes(name)?'high' : TIER_MID.includes(name)?'mid' : TIER_LOW.includes(name)?'low' : null;
+  if(tier){
+    const m=TIER_META[tier], ex=PROV_EXACT[name]||{};
+    let h='<div class="mp-rate-row"><span class="mp-rate-label">成人高血压患病率</span>'
+      + '<span class="mp-rate-val" style="color:'+m.c+'">'+m.t+(ex.bp?'（'+ex.bp+'%）':'')+'</span></div>';
+    if(ex.dm) h+='<div class="mp-rate-row"><span class="mp-rate-label">糖尿病患病率</span>'
+      + '<span class="mp-rate-val" style="color:#7C3AED">'+ex.dm+'%</span></div>';
+    h+='<p class="mp-rate-src">来源：2012–2015 年中国高血压调查（国家心血管病中心阜外医院，31 省 45 万余人）发布的三梯队分档'
+      + (ex.bp?'；括号内为已公布的精确值':'；本省未公布精确值，仅显示分档')
+      + (ex.dm?'；糖尿病为 2023 年中国疾控中心慢病中心数据':'')
+      + '。</p><a class="mp-rate-link" href="#stats" onclick="jumpProvince()">查看分省数据 →</a>';
+    rateBox.innerHTML=h; rateBox.hidden=false;
+  } else {
+    rateBox.innerHTML=''; rateBox.hidden=true;
+  }
   def.hidden=true; detail.hidden=false;
   provs.forEach(p=>p.classList.toggle('active',p.getAttribute('data-name')===name));
 }
@@ -727,26 +783,71 @@ provs.forEach(p=>p.addEventListener('click',()=>showProv(p.getAttribute('data-na
     china: {
       type:'dual',
       title:'中国人发病变化',
-      sub:'慢病持续上升 · 传染病显著下降（真实趋势 · 指数 1955/1959=100）',
-      note:'* 真实数据 · 指数化（1955/1959=100）：慢病以成人高血压患病率 5.1%(1959)→27.5%(2018) 计；传染病以甲乙类报告发病率 2139.7/10万(1955)→198.2/10万(2023) 计。来源：《中国心血管健康与疾病报告2021》；中国政府网《新中国75年经济社会发展成就报告》(2024)。',
-      labels:['1955','1980','2000','2023'],
+      sub:'慢病上升 · 传染病下降（两端真实值 · 各自指数化 = 100）',
+      note:'* 真实数据，仅端点为实测值：慢病以成人高血压患病率计，1959 年 5.1% → 2018 年 27.5%（指数 100 → 539）；传染病以甲乙类法定传染病报告发病率计，1955 年 2139.7/10万 → 2023 年 198.2/10万（指数 100 → 9，降 90.7%）。两条线的起止年份与量纲均不同，故各自指数化；因缺乏连续的全国逐年序列，中间不做插值、不绘虚构数据点。来源：《中国心血管健康与疾病报告2021》；中国政府网《新中国75年经济社会发展成就报告》(2024)。',
+      labels:['起始年','最新年'],
       series:[
-        {name:'慢病负担指数', color:'#2563EB', values:[100,151,369,539]},
-        {name:'传染病指数', color:'#06B6D4', values:[100,28,14,9]}
+        {name:'慢病（高血压患病率 1959→2018）', color:'#2563EB', values:[100,539]},
+        {name:'传染病（甲乙类发病率 1955→2023）', color:'#06B6D4', values:[100,9]}
       ],
       milestones:[
         {year:'1955', label:'传染病高发', desc:'鼠疫、霍乱、结核居死因前列；甲乙类发病率 2139.7/10万'},
-        {year:'1978', label:'计划免疫普及', desc:'疫苗可预防传染病发病率降至历史最低'},
-        {year:'2000', label:'无本土脊灰', desc:'2017 无本地疟疾病例；慢病负担持续上升'},
+        {year:'1978', label:'计划免疫普及', desc:'历史事件标注，非本图数据点'},
+        {year:'2000', label:'无本土脊灰', desc:'历史事件标注，非本图数据点（2017 年无本地疟疾病例）'},
         {year:'2023', label:'慢病主导', desc:'慢病占全部死因约 88%（国家卫健委口径）'}
       ]
     },
-    year:   {type:'line', title:'按年份 · 高血压患病率', sub:'中国成人高血压患病率（%，真实）', note:'* 真实数据。来源：《中国心血管健康与疾病报告2021》历次全国高血压抽样调查（1959–2018）。', labels:['1959','1979','1991','2002','2012','2018'], values:[5.1,7.7,13.6,18.8,25.2,27.5], color:'#2563EB'},
-    region: {type:'bar', title:'按地区 · 城乡差异', sub:'高血压患病率 城乡（%，真实）', note:'* 真实数据：2012–2015 中国高血压调查，农村粗率 28.8% 首次超过城市 26.9%；总体北方高于南方。来源：《中国心血管健康与疾病报告2021》。', labels:['城市','农村'], values:[26.9,28.8], color:'#2563EB'},
-    gender: {type:'bar', title:'按男女 · 吸烟率', sub:'15岁+ 吸烟率（%，真实）', note:'* 真实数据：2022 中国成人烟草调查，男性 45.3%、女性 2.3%。来源：中国疾控慢病中心 & 北京医院。', labels:['男','女'], values:[45.3,2.3], colors:['#2563EB','#7C3AED']},
-    age:    {type:'bar', title:'按年龄 · 高血压患病率', sub:'分年龄（%，真实）', note:'* 真实数据：2020《中国居民营养与慢性病状况报告》，18–44岁 13.3%、45–59岁 37.8%、60岁及以上 59.2%。', labels:['18-44','45-59','60+'], values:[13.3,37.8,59.2], color:'#2563EB'},
-    edu:    {type:'bar', title:'按教育程度 · 高血压患病率', sub:'社会经济地位代理指标（%，真实）', note:'* 真实数据：小学文化 36.5%、初中 18.7%、高中及以上 9.5%。全国慢性病及危险因素监测未将收入列为分层变量，故不编造收入分层数字，改用受教育程度作为社会经济地位的代理指标。来源：《中国高血压防治现状蓝皮书2018版》。注：未调整年龄，教育程度与年龄高度相关。', labels:['小学','初中','高中及以上'], values:[36.5,18.7,9.5], color:'#2563EB'},
-    occ:    {type:'bar', title:'按职业 · 职业病构成', sub:'2023 年全国报告新病例（例，真实）', note:'* 真实数据：2023 年全国共报告各类职业病新病例 12087 例，其中职业性尘肺病及其他呼吸系统疾病 8105 例（含尘肺病 8051 例，占 66.7%）、职业性耳鼻喉口腔疾病 2228 例（18.4%）、职业性传染病 625 例、物理因素所致 577 例、职业性化学中毒 367 例。来源：国家卫生健康委《2023年我国卫生健康事业发展统计公报》。注：为法定职业病报告病例构成，非全人群发病率。', labels:['尘肺及呼吸系统','耳鼻喉口腔','传染病','物理因素','化学中毒'], values:[8105,2228,625,577,367], color:'#2563EB'}
+    disease: {
+      type:'bar', unit:'亿人',
+      title:'按病种 · 中国主要慢病负担',
+      sub:'患病人数（亿人，真实）',
+      note:'* 真实数据：心血管病现患 3.3 亿（含高血压 2.45 亿、脑卒中 1300 万、冠心病 1139 万、心衰 890 万等），来源《中国心血管健康与疾病报告2022》（国家心血管病中心）；糖尿病 2.33 亿（2023 年，年龄标化患病率 13.7%，较 2005 年 8848 万增长 163%），来源 中国疾控中心慢病中心（Military Medical Research, 2025）；慢性肾病 1.52 亿，来源《柳叶刀》2025；慢阻肺 9990 万（40 岁以上患病率 13.7%、60 岁以上超 27%），来源《柳叶刀》2018「中国成人肺部健康研究」（王辰团队）；高尿酸血症总体患病率 13.3%（痛风 0.86%–2.20%），按全国人口推算约 1.8 亿，来源 国家卫生健康委《成人高尿酸血症与痛风食养指南》（2023）及中华医学会《中国高尿酸血症与痛风诊疗指南》（2019）。注：各病种调查年份与口径不同，且存在共病（同一人可患多病），各项不可简单相加。',
+      labels:['心血管病','糖尿病','慢性肾病','高尿酸血症','慢阻肺'],
+      values:[3.3,2.33,1.52,1.8,1.0],
+      color:'#2563EB',
+      milestones:[
+        {year:'2022', label:'恶性肿瘤', desc:'年新发 482.47 万例、死亡 257.42 万例；肺癌居首 106.06 万例（国家癌症中心 JNCC 2024）'},
+        {year:'2023', label:'糖尿病激增', desc:'患者 2.33 亿，较 2005 年增长 163%；约半数中青年患者未被诊断'},
+        {year:'2018', label:'慢阻肺被忽视', desc:'患者约 1 亿，但不足 3% 的慢阻肺患者知道自己患病，知晓率极低'}
+      ]
+    },
+    province: {
+      type:'bar', unit:'%',
+      title:'按省份 · 高血压患病率',
+      sub:'最高三省市 vs 最低省（%，真实）',
+      note:'* 真实数据：2012—2015 年中国高血压调查（国家心血管病中心阜外医院高润霖院士牵头，31 省 45 万余人，发表于《Circulation》），北京 35.9%、天津 34.5%、上海 29.1% 居全国前三，湖南最低 15.6%，最高与最低相差约 2.3 倍。糖尿病呈同样的地区格局：2023 年北京、天津、上海患病率均超 20% 居前三，西藏、广西、贵州低于 10%；且经济发展水平与糖尿病负担正相关——人类发展指数最高地区患病率 16.33%、最低地区 8.10%（中国疾控中心慢病中心周脉耕等）。注：两项调查年份与口径不同，此处并列用于说明地区格局，数值不可直接相减比较。',
+      labels:['北京','天津','上海','湖南'],
+      values:[35.9,34.5,29.1,15.6],
+      color:'#2563EB',
+      milestones:[
+        {year:'地图', label:'按省查看', desc:'<a href="#map" style="color:#2563EB">在全国高发病地图上查看各省高发疾病 →</a>'}
+      ]
+    },
+    mental: {
+      type:'bar', unit:'%',
+      title:'精神健康 · 常见精神障碍患病率',
+      sub:'12 个月患病率（%，2019 年真实数据）',
+      note:'* 真实数据：2019 年数据显示我国抑郁症患病率 2.1%、焦虑障碍患病率 4.98%，两者合计接近 7%；严重精神障碍患病率超过 4.5‰（即 0.45%）。来源：国家卫生健康委《中国居民营养与慢性病状况报告（2020年）》及 2020-12-23 国务院新闻办新闻发布会（国家卫健委疾控局局长常继乐）。注：均为 12 个月患病率；我国抑郁症就诊率不足 10%，实际疾病负担显著高于报告数字。',
+      labels:['焦虑障碍','抑郁症','严重精神障碍'],
+      values:[4.98,2.1,0.45],
+      color:'#7C3AED'
+    },
+    year:   {type:'line', unit:'%', title:'按年份 · 高血压患病率', sub:'中国成人高血压患病率（%，真实）', note:'* 真实数据：历次全国高血压抽样调查（1959–2018）。来源：《中国心血管健康与疾病报告2021》。注：各时点调查方法与口径不完全一致；同一监测体系（中国慢性病及危险因素监测 2004–2018，n=642 523）的年龄标化患病率显示，18–69 岁人群由 2004 年 20.8% 升至 2010 年 29.6% 后回落至 2018 年 24.7%（BMJ 2023;380:e071952），近年并非单调上升。', labels:['1959','1979','1991','2002','2012','2018'], values:[5.1,7.7,13.6,18.8,25.2,27.5], color:'#2563EB'},
+    region: {type:'bar', unit:'%', title:'按地区 · 城乡差异', sub:'高血压患病率 城乡（%，真实）', note:'* 真实数据：2018 年中国慢性病及危险因素监测（31 省 298 个县区，n=179 873），城市 25.7%（95%CI 24.4–27.1）、农村 29.4%（95%CI 28.4–30.3），农村高于城市（P<0.0001）；七大区域中华北 33.3%、东北 32.7% 最高。来源：张梅等，《中华流行病学杂志》2021;42(10):1780-1789（中国疾控中心慢病中心）。', labels:['城市','农村'], values:[25.7,29.4], color:'#2563EB'},
+    gender: {type:'bar', unit:'%', title:'按男女 · 高血压患病率', sub:'18 岁及以上（%，真实）', note:'* 真实数据：2018 年中国慢性病及危险因素监测（n=179 873），男性 30.8%（95%CI 29.8–31.9）、女性 24.2%（95%CI 23.3–25.1），男性高于女性（P<0.0001）。来源：张梅等，《中华流行病学杂志》2021;42(10):1780-1789（中国疾控中心慢病中心）。', labels:['男','女'], values:[30.8,24.2], colors:['#2563EB','#7C3AED']},
+    age:    {type:'bar', unit:'%', title:'按年龄 · 高血压患病率', sub:'分年龄（%，真实）', note:'* 真实数据：2020《中国居民营养与慢性病状况报告》，18–44岁 13.3%、45–59岁 37.8%、60岁及以上 59.2%。', labels:['18-44','45-59','60+'], values:[13.3,37.8,59.2], color:'#2563EB'},
+    edu:    {type:'bar', unit:'%', title:'按教育程度 · 高血压患病率', sub:'社会经济地位代理指标（%，真实）', note:'* 真实数据：小学文化 36.5%、初中 18.7%、高中及以上 9.5%。全国慢性病及危险因素监测未将收入列为分层变量，故不编造收入分层数字，改用受教育程度作为社会经济地位的代理指标。来源：《中国高血压防治现状蓝皮书2018版》。注：未调整年龄，教育程度与年龄高度相关。', labels:['小学','初中','高中及以上'], values:[36.5,18.7,9.5], color:'#2563EB'},
+    occ:    {type:'dual', title:'按职业 · 职业病变化趋势', sub:'2016 → 2025 年新发病例（例，真实）', note:'* 真实数据：职业性尘肺病由 2016 年 27992 例降至 2025 年 6153 例（-78.0%）；职业性耳鼻喉口腔疾病（以噪声聋为主）由 1276 例升至 2083 例（+63.2%），是十年间唯一持续增长的主要病种。同期全国职业病报告总数由 31789 例降至 10237 例（-67.8%）。来源：国家卫生健康委《2025年我国卫生健康事业发展统计公报》（2026-08-28 发布）及《中国卫生健康统计年鉴》历年数据。注：为法定职业病报告病例数，非全人群发病率。',
+      labels:['2016','2017','2018','2019','2020','2021','2022','2023','2024','2025'],
+      series:[
+        {name:'职业性尘肺病', color:'#2563EB', values:[27992,22701,19468,15898,14367,11809,7577,8051,7251,6153]},
+        {name:'耳鼻喉口腔（噪声聋）', color:'#F59E0B', values:[1276,1608,1528,1623,1310,2123,1879,2228,2227,2083]}
+      ],
+      milestones:[
+        {year:'2016', label:'十年峰值', desc:'报告 31789 例，尘肺病占 88.1%，粉尘危害主导'},
+        {year:'2022', label:'降至谷底', desc:'报告 11108 例；尘肺病首次跌破 8000 例'},
+        {year:'2025', label:'结构转变', desc:'尘肺病占比降至 60.1%，噪声聋升至 20.3%'}
+      ]}
   };
   function n(v){ return Number(v).toFixed(1); }
   function H_(el){ return el.clientHeight || 320; }
@@ -761,7 +862,7 @@ provs.forEach(p=>p.addEventListener('click',()=>showProv(p.getAttribute('data-na
       var h = d.values[i]/max*ph, x = padL+gap*i+(gap-bw)/2, y = padT+ph-h;
       var col = (d.colors && d.colors[i]) ? d.colors[i] : d.color;
       s += '<rect x="'+n(x)+'" y="'+n(y)+'" width="'+n(bw)+'" height="'+n(h)+'" rx="5" fill="'+col+'"/>';
-      s += '<text x="'+n(x+bw/2)+'" y="'+n(y-7)+'" font-size="11" fill="#5B6B82" text-anchor="middle">'+d.values[i]+'</text>';
+      s += '<text x="'+n(x+bw/2)+'" y="'+n(y-7)+'" font-size="11" fill="#5B6B82" text-anchor="middle">'+d.values[i]+(d.unit||'')+'</text>';
       s += '<text x="'+n(x+bw/2)+'" y="'+n(padT+ph+18)+'" font-size="11" fill="#8A98AD" text-anchor="middle">'+d.labels[i]+'</text>';
     }
     s += '</svg>'; el.innerHTML = s;
@@ -777,7 +878,7 @@ provs.forEach(p=>p.addEventListener('click',()=>showProv(p.getAttribute('data-na
     s += '<polyline points="'+pts.map(function(p){return n(p[0])+','+n(p[1]);}).join(' ')+'" fill="none" stroke="'+d.color+'" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>';
     pts.forEach(function(p){ s += '<circle cx="'+n(p[0])+'" cy="'+n(p[1])+'" r="4" fill="'+d.color+'"/>'; });
     var last = pts[nN-1];
-    s += '<text x="'+n(last[0])+'" y="'+n(last[1]-10)+'" font-size="11" fill="'+d.color+'" text-anchor="end">'+d.values[nN-1]+'%</text>';
+    s += '<text x="'+n(last[0])+'" y="'+n(last[1]-10)+'" font-size="11" fill="'+d.color+'" text-anchor="end">'+d.values[nN-1]+(d.unit||'')+'</text>';
     if(nN>1){ s += '<text x="'+padL+'" y="'+n(padT+ph+18)+'" font-size="11" fill="#8A98AD" text-anchor="middle">'+d.labels[0]+'</text>'; s += '<text x="'+(W-padR)+'" y="'+n(padT+ph+18)+'" font-size="11" fill="#8A98AD" text-anchor="middle">'+d.labels[nN-1]+'</text>'; }
     s += '</svg>'; el.innerHTML = s;
   }

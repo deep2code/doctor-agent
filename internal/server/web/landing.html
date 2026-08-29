@@ -239,7 +239,12 @@
   .mp-name{font-size:20px;font-weight:700;color:#0F1E33;}
   .mp-cat{font-size:12px;font-weight:600;color:#fff;padding:3px 10px;border-radius:999px;}
   .mp-list{list-style:none;display:flex;flex-direction:column;gap:10px;margin:0 0 18px;padding:0;}
-  .mp-list li{background:#F4F8FC;border-radius:10px;padding:10px 14px;font-size:14px;color:#334155;}
+  .mp-list li{background:#F4F8FC;border-radius:10px;padding:0;font-size:14px;color:#334155;}
+  .map-panel .mp-hint{font-size:11.5px;color:#A9B4C3;margin:0 0 10px;line-height:1.5;}
+  .mp-list a.mp-ask{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 14px;text-decoration:none;color:#334155;border-radius:10px;transition:background .15s,color .15s;}
+  .mp-list a.mp-ask:hover{background:var(--blue-soft);color:var(--blue-dark);}
+  .mp-list a.mp-ask::after{content:'\2192';color:var(--blue);font-size:13px;flex:none;opacity:0;transition:opacity .15s;}
+  .mp-list a.mp-ask:hover::after{opacity:1;}
   .mp-btn{margin-top:auto;width:100%;box-sizing:border-box;}
   .mp-rate{margin-top:16px;padding-top:14px;border-top:1px dashed var(--line);}
   .mp-rate-row{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-size:13px;margin-bottom:7px;}
@@ -273,6 +278,57 @@
   .ms-desc { font-size: 12px; color: var(--muted); line-height: 1.5; }
   .stats-note { text-align: center; font-size: 12px; color: #A9B4C3; margin-top: 16px; }
   /* ---------- Stats: data sources ---------- */
+
+  /* ---------- Body map ---------- */
+  .bm-wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:start;margin-top:12px;}
+  .bm-panel{background:var(--bg-soft);border:1px solid var(--line);border-radius:var(--radius);padding:20px;}
+  .bm-controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:8px;}
+  .bm-seg{display:inline-flex;background:#fff;border:1px solid var(--line);border-radius:999px;padding:3px;}
+  .bm-opt{border:0;background:transparent;font:inherit;font-size:13px;font-weight:600;color:var(--text);padding:5px 14px;border-radius:999px;cursor:pointer;transition:background .18s,color .18s;}
+  .bm-opt:hover{color:var(--blue);}
+  .bm-opt.active{background:var(--blue);color:#fff;}
+  .bm-viewport{perspective:1200px;animation:bmFloat 5s ease-in-out infinite;}
+  @keyframes bmFloat{0%,100%{transform:translateY(0);}50%{transform:translateY(-7px);}}
+  @media (prefers-reduced-motion:reduce){.bm-viewport{animation:none;}}
+  .bm-flipper{position:relative;transform-style:preserve-3d;transition:transform .75s cubic-bezier(.4,.05,.2,1);}
+  .bm-flipper.is-back{transform:rotateY(180deg);}
+  .bm-face{width:100%;height:auto;display:block;backface-visibility:hidden;-webkit-backface-visibility:hidden;}
+  .bm-face.bm-back{position:absolute;top:0;left:0;transform:rotateY(180deg);}
+  .bm-body{fill:#E6EDF6;stroke:#D3E0EE;stroke-width:1.5;}
+  .bm-limb{fill:none;stroke:#E6EDF6;stroke-linecap:round;stroke-linejoin:round;}
+  .bm-limb-edge{fill:none;stroke:#D3E0EE;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+  .bm-region{cursor:pointer;outline:none;}
+  .bm-region>rect,.bm-region>ellipse,.bm-region>circle{fill:rgba(37,99,235,0);stroke:none;pointer-events:all;transition:fill .18s;}
+  .bm-region>.bm-stroke{fill:none;stroke:rgba(37,99,235,0);stroke-linecap:round;pointer-events:stroke;transition:stroke .18s;}
+  .bm-region:hover>rect,.bm-region:hover>ellipse,.bm-region:hover>circle{fill:rgba(37,99,235,.20);}
+  .bm-region:hover>.bm-stroke{stroke:rgba(37,99,235,.20);}
+  .bm-region:focus-visible>rect,.bm-region:focus-visible>ellipse,.bm-region:focus-visible>circle{fill:rgba(37,99,235,.20);}
+  .bm-region.is-sel>rect,.bm-region.is-sel>ellipse,.bm-region.is-sel>circle{fill:rgba(37,99,235,.45);}
+  .bm-region.is-sel>.bm-stroke{stroke:rgba(37,99,235,.45);}
+
+  .bm-conds{margin-top:10px;}
+  .bm-flag{margin:0 0 8px;padding:8px 10px;background:#FEF2F2;border:1px solid #FECACA;border-radius:8px;font-size:12px;line-height:1.55;color:#B91C1C;}
+  .bm-cond-label{margin:0 0 6px;font-size:11.5px;color:var(--muted);}
+  .bm-cond-row{display:flex;flex-wrap:wrap;gap:6px;}
+  .bm-cond{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 12px;font:inherit;font-size:12.5px;color:var(--text);cursor:pointer;transition:border-color .18s,color .18s,background .18s;}
+  .bm-cond:hover{border-color:var(--blue);color:var(--blue);}
+  .bm-cond.is-on{background:var(--blue-soft);border-color:var(--blue);color:var(--blue-dark);font-weight:600;}
+  .bm-readout{margin:14px 0 0;font-size:13.5px;color:var(--text);min-height:22px;}
+  .bm-readout b{color:var(--blue);}
+  .bm-side h3{font-size:20px;color:var(--ink);margin:0 0 14px;}
+  .bm-side ul{list-style:none;padding:0;margin:0 0 20px;display:flex;flex-direction:column;gap:12px;}
+  .bm-side li{font-size:14px;color:var(--text);line-height:1.6;padding-left:22px;position:relative;}
+  .bm-side li::before{content:'';position:absolute;left:0;top:8px;width:8px;height:8px;border-radius:50%;background:var(--blue-soft);border:2px solid var(--blue);}
+  @media (max-width:980px){.bm-wrap{grid-template-columns:1fr;gap:28px;}}
+  /* chat composer variant */
+  .bm-chat-panel{position:absolute;left:12px;right:12px;bottom:calc(100% + 10px);background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 40px rgba(4,27,74,.14);padding:14px 16px 16px;z-index:40;}
+  .bm-chat-panel[hidden]{display:none;}
+  .bm-panel-head{display:flex;align-items:center;justify-content:space-between;font-size:13.5px;font-weight:600;color:var(--ink);margin-bottom:10px;}
+  .bm-panel-head button{border:0;background:transparent;font-size:15px;line-height:1;color:var(--muted);cursor:pointer;padding:2px 4px;}
+  .bm-chat-panel .bm-viewport{max-width:220px;margin:0 auto;}
+  #bm-toggle{background:transparent;border:1px solid var(--line);border-radius:10px;cursor:pointer;font-size:16px;line-height:1;padding:6px 9px;color:var(--text);}
+  #bm-toggle:hover{border-color:var(--blue);color:var(--blue);}
+
   .stats-sources { margin-top: 26px; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 22px; box-shadow: var(--shadow-sm); }
   .stats-sources h4 { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; font-size: 13.5px; font-weight: 600; color: var(--ink); line-height: 1.5; }
   .src-badge { display: inline-block; flex: none; font-size: 11px; font-weight: 600; color: var(--blue); background: var(--blue-soft); border-radius: 999px; padding: 3px 10px; letter-spacing: .2px; }
@@ -513,6 +569,41 @@
 </section>
 
 
+<!-- ============ BODY MAP / 症状定位 ============ -->
+<section id="bodymap" style="background:var(--white);padding:96px 0;">
+  <div class="container">
+    <div class="sec-center">
+      <span class="eyebrow">说不清哪里痛？</span>
+      <h2 class="title">指一指，就够了</h2>
+      <p class="sec-desc">绝大多数人描述不清部位——一句"肚子痛"背后可能是十几种完全不同的情况。切换性别与正 / 背面，直接点击不舒服的位置，医答帮你把问题问清楚。</p>
+    </div>
+    <div class="bm-wrap">
+      <div class="bm-panel">
+        <div class="bm-controls">
+          <div class="bm-seg">
+            <button type="button" class="bm-opt active" data-gender="male">男</button>
+            <button type="button" class="bm-opt" data-gender="female">女</button>
+          </div>
+          <div class="bm-seg">
+            <button type="button" class="bm-opt active" data-view="front">正面</button>
+            <button type="button" class="bm-opt" data-view="back">背面</button>
+          </div>
+        </div>
+        <div class="bm-viewport"><div class="bm-flipper" id="bmFlipLanding"></div></div>
+        <p class="bm-readout" id="bmOutLanding">点击身体上不舒服的位置</p>
+      </div>
+      <div class="bm-side">
+        <h3>为什么"指位置"比"说"更靠谱</h3>
+        <ul>
+          <li>腹部按九分法区分，<b>右下腹痛</b>与<b>右上腹痛</b>指向的病因完全不同，靠语言很难说准。</li>
+          <li>腰、背、臀的疼痛常被笼统称"腰痛"，但<b>下背</b>、<b>骶尾部</b>、<b>肾区</b>的处理路径差别很大。</li>
+          <li>选好部位后，问题会自动带上准确描述进入咨询台，省去反复追问的几轮对话。</li>
+        </ul>
+        <a class="btn btn-primary" id="bmCtaLanding" href="/app">先描述我的情况</a>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- ============ DISEASE MAP / 全国高发病地图 ============ -->
 <section id="map" style="background:var(--bg-soft);">
   <div class="container">
@@ -537,9 +628,10 @@
         </div>
         <div class="map-panel-detail" id="mapDetail" hidden>
           <div class="mp-head"><span class="mp-name" id="mpName"></span><span class="mp-cat" id="mpCat"></span></div>
+          <p class="mp-hint">点击任一疾病，即可带着问题直接进入咨询台</p>
           <ul class="mp-list" id="mpList"></ul>
           <div class="mp-rate" id="mpRate" hidden></div>
-          <a class="btn btn-primary mp-btn" href="/app">就这个症状问我</a>
+          <a class="btn btn-primary mp-btn" href="/app">描述我的具体情况</a>
         </div>
       </aside>
     </div>
@@ -753,7 +845,15 @@ function showProv(name){
   document.getElementById('mpName').textContent=name;
   const c=document.getElementById('mpCat'); c.textContent=CAT_LABEL[cat]||cat; c.style.background=CAT_COLOR[cat]||'#64748B';
   const list=document.getElementById('mpList'); list.innerHTML='';
-  ds.forEach(d=>{const li=document.createElement('li');li.textContent=d;list.appendChild(li);});
+  ds.forEach(d=>{
+    const li=document.createElement('li');
+    const a=document.createElement('a');
+    a.className='mp-ask';
+    a.href='/app?q='+encodeURIComponent('我想了解「'+d+'」：可能的原因有哪些、需要做哪些检查、日常要注意什么，以及什么情况下需要就医？');
+    a.textContent=d;
+    a.setAttribute('aria-label','就'+d+'向医答提问');
+    li.appendChild(a); list.appendChild(li);
+  });
   const rateBox=document.getElementById('mpRate');
   const tier = TIER_HIGH.includes(name)?'high' : TIER_MID.includes(name)?'mid' : TIER_LOW.includes(name)?'low' : null;
   if(tier){
@@ -925,5 +1025,201 @@ provs.forEach(p=>p.addEventListener('click',()=>showProv(p.getAttribute('data-na
 })();
 </script>
 
+<script>
+
+/* ---------------- Symptom body map ---------------- */
+var BM_GEO={male:{sh:50,wh:34,hh:38,armW:21,legW:30,headRx:23,headRy:27},
+            female:{sh:44,wh:28,hh:44,armW:18,legW:27,headRx:21,headRy:25}};
+var BM_CX=130;
+var BM_LABEL={head:'头 / 面部',neck:'颈',chest:'胸',
+  abd_ur:'右上腹',abd_ul:'左上腹',abd_lr:'右下腹',abd_ll:'左下腹',
+  shoulder:'肩',arm_up:'上臂',elbow:'肘',hand:'前臂 / 手腕',
+  groin:'髋 / 腹股沟',thigh:'大腿',knee:'膝',calf:'小腿',foot:'踝 / 足',
+  head_b:'后脑 / 头',neck_b:'项部（颈后）',back_up:'上背',back_low:'下背 / 腰',
+  buttock:'臀 / 骶尾部',shoulder_b:'肩后',arm_up_b:'上臂后侧',elbow_b:'肘后',
+  hand_b:'前臂 / 手背',thigh_b:'大腿后侧',knee_b:'腘窝（膝后）',calf_b:'小腿后侧',foot_b:'足跟'};
+function bmBodyPath(g){var c=BM_CX,sy=92,wy=170,hy=218,hb=244;
+  return 'M'+(c-g.sh)+','+sy
+   +'Q'+(c-g.sh+3)+','+(sy-16)+' '+(c-19)+','+(sy-16)
+   +'L'+(c+19)+','+(sy-16)
+   +'Q'+(c+g.sh-3)+','+(sy-16)+' '+(c+g.sh)+','+sy
+   +'Q'+(c+g.wh+5)+','+(wy-6)+' '+(c+g.wh)+','+wy
+   +'Q'+(c+g.hh)+','+(hy-28)+' '+(c+g.hh)+','+hy
+   +'L'+(c+g.hh)+','+hb+'L'+(c-g.hh)+','+hb+'L'+(c-g.hh)+','+hy
+   +'Q'+(c-g.hh)+','+(hy-28)+' '+(c-g.wh)+','+wy
+   +'Q'+(c-g.wh-5)+','+(wy-6)+' '+(c-g.sh)+','+sy+'Z';}
+function bmArmPath(g,s){var c=BM_CX;var sx=c+s*(g.sh-6),ex=c+s*(g.sh+1),wx=c+s*(g.sh+6);
+  return 'M'+sx+',100 Q'+(c+s*(g.sh+4))+',158 '+ex+',212 Q'+(c+s*(g.sh+5))+',250 '+wx+',288';}
+function bmLegPath(g,s){var c=BM_CX,hx=c+s*Math.round(g.hh*0.48),kx=c+s*Math.round(g.hh*0.44),ax=c+s*Math.round(g.hh*0.46);
+  return 'M'+hx+',246 Q'+(c+s*Math.round(g.hh*0.46))+',300 '+kx+',352 Q'+(c+s*Math.round(g.hh*0.45))+',400 '+ax+',452';}
+function bmPt(g,s,which){var c=BM_CX;
+  if(which=='sh')return [c+s*(g.sh-8),99];
+  if(which=='el')return [c+s*(g.sh+1),212];
+  if(which=='wr')return [c+s*(g.sh+6),288];
+  if(which=='hp')return [c+s*Math.round(g.hh*0.48),246];
+  if(which=='kn')return [c+s*Math.round(g.hh*0.44),352];
+  return [c+s*Math.round(g.hh*0.46),452];}
+function bmSeg(g,s,a,b,w){var p1=bmPt(g,s,a),p2=bmPt(g,s,b);
+  return '<path class="bm-stroke" style="stroke-width:'+w+'" d="M'+p1[0]+','+p1[1]+' L'+p2[0]+','+p2[1]+'"/>';}
+function bmR(id,side,inner){var lb=BM_LABEL[id]||id;
+  return '<g class="bm-region" data-part="'+id+'" data-side="'+side+'" tabindex="0" role="button" aria-label="选择部位：'+lb+'">'+inner+'</g>';}
+function bmRegions(g,view){
+  var c=BM_CX,o=[],s;
+  if(view=='front'){
+    o.push(bmR('head',0,'<ellipse cx="'+c+'" cy="46" rx="'+g.headRx+'" ry="'+g.headRy+'"/>'));
+    o.push(bmR('neck',0,'<rect x="'+(c-12)+'" y="68" width="24" height="26" rx="6"/>'));
+    o.push(bmR('chest',0,'<rect x="'+(c-30)+'" y="98" width="60" height="42" rx="9"/>'));
+    /* MIRROR: front view -> patient RIGHT is on the VIEWER'S LEFT */
+    o.push(bmR('abd_ur',0,'<rect x="'+(c-30)+'" y="142" width="28" height="28" rx="6"/>'));
+    o.push(bmR('abd_ul',0,'<rect x="'+(c+2)+'" y="142" width="28" height="28" rx="6"/>'));
+    o.push(bmR('abd_lr',0,'<rect x="'+(c-30)+'" y="172" width="28" height="26" rx="6"/>'));
+    o.push(bmR('abd_ll',0,'<rect x="'+(c+2)+'" y="172" width="28" height="26" rx="6"/>'));
+    o.push(bmR('groin',0,'<rect x="'+(c-32)+'" y="202" width="64" height="40" rx="10"/>'));
+  }else{
+    o.push(bmR('head_b',0,'<ellipse cx="'+c+'" cy="46" rx="'+g.headRx+'" ry="'+g.headRy+'"/>'));
+    o.push(bmR('neck_b',0,'<rect x="'+(c-12)+'" y="68" width="24" height="26" rx="6"/>'));
+    o.push(bmR('back_up',0,'<rect x="'+(c-32)+'" y="98" width="64" height="46" rx="9"/>'));
+    o.push(bmR('back_low',0,'<rect x="'+(c-30)+'" y="146" width="60" height="54" rx="9"/>'));
+    o.push(bmR('buttock',0,'<rect x="'+(c-g.hh+2)+'" y="202" width="'+(2*g.hh-4)+'" height="40" rx="12"/>'));
+  }
+  var shId=view=='front'?'shoulder':'shoulder_b';
+  var auId=view=='front'?'arm_up':'arm_up_b';
+  var elId=view=='front'?'elbow':'elbow_b';
+  var hdId=view=='front'?'hand':'hand_b';
+  for(var i=0;i<2;i++){s=i?1:-1;var p=bmPt(g,s,'sh');
+    o.push(bmR(shId,s,'<circle cx="'+p[0]+'" cy="'+p[1]+'" r="'+(g.armW*0.62)+'"/>'));
+    o.push(bmR(auId,s,bmSeg(g,s,'sh','el',g.armW)));
+    var pe=bmPt(g,s,'el');
+    o.push(bmR(elId,s,'<circle cx="'+pe[0]+'" cy="'+pe[1]+'" r="'+(g.armW*0.55)+'"/>'));
+    o.push(bmR(hdId,s,bmSeg(g,s,'el','wr',g.armW*0.92)));
+  }
+  var thId=view=='front'?'thigh':'thigh_b';
+  var knId=view=='front'?'knee':'knee_b';
+  var cfId=view=='front'?'calf':'calf_b';
+  var ftId=view=='front'?'foot':'foot_b';
+  for(var j=0;j<2;j++){s=j?1:-1;
+    o.push(bmR(thId,s,bmSeg(g,s,'hp','kn',g.legW)));
+    var pk=bmPt(g,s,'kn');
+    o.push(bmR(knId,s,'<circle cx="'+pk[0]+'" cy="'+pk[1]+'" r="'+(g.legW*0.6)+'"/>'));
+    o.push(bmR(cfId,s,bmSeg(g,s,'kn','an',g.legW*0.85)));
+    var pa=bmPt(g,s,'an');
+    o.push(bmR(ftId,s,'<ellipse cx="'+pa[0]+'" cy="'+(pa[1]+12)+'" rx="'+(g.legW*0.42)+'" ry="11"/>'));
+  }
+  return o;
+}
+function bmFace(gender,view){
+  var g=BM_GEO[gender],p=[];
+  p.push('<path class="bm-body" d="'+bmBodyPath(g)+'"/>');
+  p.push('<path class="bm-limb" style="stroke-width:'+g.armW+'" d="'+bmArmPath(g,-1)+'"/>');
+  p.push('<path class="bm-limb" style="stroke-width:'+g.armW+'" d="'+bmArmPath(g,1)+'"/>');
+  p.push('<path class="bm-limb" style="stroke-width:'+g.legW+'" d="'+bmLegPath(g,-1)+'"/>');
+  p.push('<path class="bm-limb" style="stroke-width:'+g.legW+'" d="'+bmLegPath(g,1)+'"/>');
+  p.push('<ellipse class="bm-body" cx="'+BM_CX+'" cy="46" rx="'+g.headRx+'" ry="'+g.headRy+'"/>');
+  p.push('<rect class="bm-body" x="'+(BM_CX-12)+'" y="68" width="24" height="26" rx="6"/>');
+  p=p.concat(bmRegions(g,view));
+  return '<svg class="bm-face bm-'+view+'" viewBox="0 0 260 500" xmlns="http://www.w3.org/2000/svg" aria-label="'+
+    (gender=='male'?'男性':'女性')+(view=='front'?'正面':'背面')+'人体部位图">'+p.join('')+'</svg>';
+}
+
+var BM_CONDITIONS={
+ head:{flag:'突发"一生中最剧烈的头痛"、伴呕吐或意识改变，立即就医。',list:['偏头痛','紧张型头痛','高血压相关头痛','鼻窦炎','三叉神经痛']},
+ neck:{list:['颈椎病','落枕 / 颈肌劳损','颈部淋巴结肿大','甲状腺不适']},
+ chest:{flag:'突发压榨性胸痛、伴冷汗或向左臂/下颌放射，立即拨打 120。',list:['心绞痛 / 冠心病','胃食管反流','肋间神经痛','支气管炎 / 肺炎','乳腺不适']},
+ abd_ur:{list:['胆囊炎 / 胆结石','肝炎 / 肝区不适','十二指肠溃疡','肋间神经痛']},
+ abd_ul:{list:['胃炎 / 胃溃疡','胰腺炎（常向背部放射）','功能性消化不良','脾区不适']},
+ abd_lr:{flag:'转移性右下腹痛伴发热，需尽快就医排除阑尾炎。',list:['阑尾炎','右侧输尿管结石','右侧附件问题','肠系膜淋巴结炎']},
+ abd_ll:{list:['结肠炎 / 肠易激','左侧输尿管结石','左侧附件问题','便秘相关腹痛']},
+ groin:{list:['腹股沟疝','髋关节问题','泌尿系统不适','腹股沟淋巴结肿大']},
+ shoulder:{list:['肩周炎','肩袖损伤','颈椎病放射痛','胆囊疾病牵涉痛（右肩）']},
+ arm_up:{list:['肌肉拉伤','颈椎神经根放射痛','上肢血管 / 血栓问题']},
+ elbow:{list:['网球肘（外上髁炎）','高尔夫球肘（内上髁炎）','肘关节劳损']},
+ hand:{list:['腱鞘炎','腕管综合征','桡骨茎突狭窄性腱鞘炎','手腕扭伤']},
+ thigh:{list:['肌肉拉伤','股外侧皮神经炎','腰椎间盘放射痛']},
+ knee:{list:['膝骨关节炎','半月板损伤','韧带损伤','痛风性关节炎']},
+ calf:{flag:'单侧小腿突发肿胀疼痛，警惕深静脉血栓，尽早就医。',list:['肌肉痉挛 / 抽筋','下肢静脉曲张','深静脉血栓（需警惕）','胫骨应力综合征']},
+ foot:{list:['踝关节扭伤','足底筋膜炎','痛风（大脚趾常见）','跟腱炎']},
+ head_b:{list:['紧张型头痛','枕神经痛','颈椎相关头痛']},
+ neck_b:{list:['颈椎病','颈肌劳损','落枕']},
+ back_up:{list:['肌筋膜疼痛','胸椎小关节紊乱','肩胛间区劳损']},
+ back_low:{list:['腰肌劳损','腰椎间盘突出','腰椎管狭窄','肾结石 / 肾盂肾炎（肾区叩痛）']},
+ buttock:{list:['梨状肌综合征','坐骨神经痛','骶髂关节问题','尾骨痛 / 肛周不适']},
+ shoulder_b:{list:['肩周炎','肩胛胸壁疼痛','颈椎放射痛']},
+ arm_up_b:{list:['三头肌劳损','颈椎神经根放射痛']},
+ elbow_b:{list:['鹰嘴滑囊炎','尺神经卡压','肘关节劳损']},
+ hand_b:{list:['腱鞘炎','伸肌腱劳损','手背外伤']},
+ thigh_b:{list:['腘绳肌拉伤','坐骨神经放射痛']},
+ knee_b:{list:['腘窝囊肿','半月板后角损伤','腘肌劳损']},
+ calf_b:{flag:'单侧小腿突发肿胀疼痛，警惕深静脉血栓，尽早就医。',list:['腓肠肌拉伤','跟腱问题','深静脉血栓（需警惕）']},
+ foot_b:{list:['足底筋膜炎','跟腱炎','跟骨骨刺']}
+};
+
+function bmQuestion(part,cond){var lb=BM_LABEL[part]||part;
+  if(cond)return '我'+lb+'不舒服，可能是'+cond+'吗？想了解它的典型表现、需要做什么检查，以及什么情况下需要就医？';
+  return '我'+lb+'不舒服，可能的原因有哪些、需要做哪些检查、日常要注意什么，以及什么情况下需要就医？';}
+function bmInit(flipId,outId,onPick){
+  var flip=document.getElementById(flipId),out=document.getElementById(outId);
+  if(!flip)return;
+  var gender='male',view='front',sel=null,cond=null;
+  function condsBox(){
+    var b=document.getElementById(flipId+'_conds');
+    if(!b){b=document.createElement('div');b.className='bm-conds';b.id=flipId+'_conds';
+      if(out&&out.parentNode)out.parentNode.insertBefore(b,out.nextSibling);}
+    return b;
+  }
+  function renderConds(part){
+    var c=BM_CONDITIONS[part],box=condsBox();
+    if(!c){box.innerHTML='';return;}
+    var h='';
+    if(c.flag)h+='<p class="bm-flag">'+c.flag+'</p>';
+    h+='<p class="bm-cond-label">该部位常见情况（仅供参考，非诊断）</p><div class="bm-cond-row">';
+    c.list.forEach(function(t){
+      h+='<button type="button" class="bm-cond" data-cond="'+t+'">'+t+'</button>';});
+    h+='</div>';
+    box.innerHTML=h;
+    box.querySelectorAll('.bm-cond').forEach(function(bt){
+      bt.addEventListener('click',function(){
+        box.querySelectorAll('.bm-cond').forEach(function(x){x.classList.remove('is-on');});
+        bt.classList.add('is-on');
+        cond=bt.getAttribute('data-cond');
+        if(out)out.innerHTML='已选择：<b>'+(BM_LABEL[sel]||sel)+'</b> \u00b7 '+cond;
+        if(onPick)onPick(sel,BM_LABEL[sel]||sel,bmQuestion(sel,cond));
+      });
+    });
+  }
+  function draw(){
+    flip.innerHTML=bmFace(gender,'front')+bmFace(gender,'back');
+    flip.classList.toggle('is-back',view==='back');
+    if(sel){var n=flip.querySelector('.bm-region[data-part="'+sel+'"]');if(n)n.classList.add('is-sel');}
+    flip.querySelectorAll('.bm-region').forEach(function(r){
+      function pick(){sel=r.getAttribute('data-part');cond=null;
+        flip.querySelectorAll('.bm-region').forEach(function(x){x.classList.remove('is-sel');});
+        r.classList.add('is-sel');
+        var lb=BM_LABEL[sel]||sel;
+        if(out)out.innerHTML='已选择：<b>'+lb+'</b>';
+        renderConds(sel);
+        if(onPick)onPick(sel,lb,bmQuestion(sel,null));}
+      r.addEventListener('click',pick);
+      r.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();pick();}});
+    });
+  }
+  function bar(){
+    var box=flip.parentNode.parentNode;
+    box.querySelectorAll('.bm-opt').forEach(function(b){
+      b.addEventListener('click',function(){
+        if(b.hasAttribute('data-gender')){gender=b.getAttribute('data-gender');}
+        if(b.hasAttribute('data-view')){view=b.getAttribute('data-view');}
+        box.querySelectorAll('.bm-opt').forEach(function(x){x.classList.remove('active');});
+        box.querySelectorAll('.bm-opt[data-gender="'+gender+'"],.bm-opt[data-view="'+view+'"]').forEach(function(x){x.classList.add('active');});
+        draw();});
+    });
+  }
+  draw();bar();
+}
+
+bmInit('bmFlipLanding','bmOutLanding',function(part,label,q){
+  var a=document.getElementById('bmCtaLanding');
+  if(a){a.setAttribute('href','/app?q='+encodeURIComponent(q));a.textContent='就「'+label+'」去问医答';}
+});
+</script>
 </body>
 </html>

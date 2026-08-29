@@ -20,10 +20,15 @@ RUN --mount=type=cache,target=/go/pkg/mod \
     go mod download
 
 # Build the static binary (no CGO; go-sql-driver/mysql is pure Go)
+# Version info injected via build args (compatible with Makefile/builder.sh)
+ARG GIT_COMMIT=unknown
+ARG BUILD_TIME=unknown
 COPY . .
 RUN --mount=type=cache,target=/go/pkg/mod \
     --mount=type=cache,target=/root/.cache/go-build \
-    CGO_ENABLED=0 GOOS=linux go build -ldflags "-s -w" -o /out/doctor-agent .
+    CGO_ENABLED=0 GOOS=linux go build \
+      -ldflags "-s -w -X main.gitCommit=${GIT_COMMIT} -X main.buildTime=${BUILD_TIME}" \
+      -o /out/doctor-agent .
 
 # ---------- runtime stage ----------
 FROM alpine:3.20

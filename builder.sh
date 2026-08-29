@@ -3,10 +3,10 @@
 # doctor-agent 编译 & 安装脚本
 #
 # 用法:
-#   ./build.sh           编译并安装到 $GOPATH/bin
-#   ./build.sh -l        仅编译（输出到当前目录）
-#   ./build.sh -c        清理编译产物
-#   ./build.sh -h        显示帮助
+#   ./builder.sh           编译并安装到 $GOPATH/bin
+#   ./builder.sh -l        仅编译（输出到当前目录）
+#   ./builder.sh -c        清理编译产物
+#   ./builder.sh -h        显示帮助
 #
 # 安装后可在任意目录直接执行: doctor-agent
 # ============================================================================

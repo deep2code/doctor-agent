@@ -75,3 +75,4 @@ external/eml/
 
 .cowork-temp/
 .workbuddy/
+remote-deploy.sh

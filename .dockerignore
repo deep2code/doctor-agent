@@ -6,6 +6,8 @@ build/
 .gocache/
 **/gomodcache/
 .DS_Store
+.cowork-temp/
+.workbuddy/
 
 # 应用镜像不需要知识库数据：
 #   data/ 是 gz 的源 JSON（仅 make gz 时用）
@@ -20,3 +22,17 @@ internal/knowledge/gz/
 knowledge.db
 knowledge.db-*
 doctor-agent
+
+# 构建脚本与 CI 配置（运行时镜像不需要）
+builder.sh
+build.sh
+Makefile
+.golangci.yml
+.gitattributes
+.gitignore
+cpubmed.txt
+
+# 评测和文档目录（运行时不需要）
+evals/
+docs/
+.github/

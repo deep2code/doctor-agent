@@ -44,9 +44,33 @@ jobs:
         with:
           go-version: "1.26"
       - name: Build binary
-        run: go build -o bin/doctor-agent .
+        run: |
+          go build \
+            -ldflags "-s -w -X main.gitCommit=${{ github.sha }} -X main.buildTime=$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            -o bin/doctor-agent .
       - name: Verify knowledge
         run: go run . verify-knowledge
+
+  docker:
+    name: Docker Build
+    runs-on: ubuntu-latest
+    needs: [lint, test]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.26"
+      - name: Regenerate gz
+        run: python3 external/make_gz.py
+      - name: Build app image
+        run: |
+          docker build \
+            --build-arg GIT_COMMIT=test \
+            --build-arg BUILD_TIME="$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            -f Dockerfile \
+            .
+      - name: Build data image
+        run: docker build -f Dockerfile.data .
 
   verify-gz:
     name: Verify embedded data

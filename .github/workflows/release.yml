@@ -9,9 +9,23 @@ permissions:
   contents: write
 
 jobs:
-  release:
-    name: Build and Release
+  build:
+    name: Build ${{ matrix.goos }}/${{ matrix.goarch }}
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - goos: linux
+            goarch: amd64
+          - goos: linux
+            goarch: arm64
+          - goos: darwin
+            goarch: amd64
+          - goos: darwin
+            goarch: arm64
+          - goos: windows
+            goarch: amd64
     steps:
       - uses: actions/checkout@v4
         with:
@@ -21,83 +35,87 @@ jobs:
         with:
           go-version: "1.26"
 
+      - name: Build binary
+        env:
+          GOOS: ${{ matrix.goos }}
+          GOARCH: ${{ matrix.goarch }}
+          CGO_ENABLED: "0"
+        run: |
+          BINARY="dist/doctor-agent-${{ matrix.goos }}-${{ matrix.goarch }}"
+          if [ "${{ matrix.goos }}" = "windows" ]; then
+            BINARY="${BINARY}.exe"
+          fi
+          go build \
+            -ldflags "-s -w -X main.gitCommit=${{ github.sha }} -X main.buildTime=$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            -o "$BINARY" .
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: doctor-agent-${{ matrix.goos }}-${{ matrix.goarch }}
+          path: dist/*
+
+  release:
+    name: Create Release
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Get version from tag
         id: version
         run: echo "tag=${GITHUB_REF#refs/tags/}" >> "$GITHUB_OUTPUT"
 
-      - name: Build Linux amd64
-        run: |
-          GOOS=linux GOARCH=amd64 go build -ldflags "-X main.gitCommit=${{ github.sha }} -X main.buildTime=$(date -u +%Y-%m-%dT%H:%M:%SZ)" -o dist/doctor-agent-linux-amd64 .
-
-      - name: Build Linux arm64
-        run: |
-          GOOS=linux GOARCH=arm64 go build -ldflags "-X main.gitCommit=${{ github.sha }} -X main.buildTime=$(date -u +%Y-%m-%dT%H:%M:%SZ)" -o dist/doctor-agent-linux-arm64 .
-
-      - name: Build macOS amd64
-        run: |
-          GOOS=darwin GOARCH=amd64 go build -ldflags "-X main.gitCommit=${{ github.sha }} -X main.buildTime=$(date -u +%Y-%m-%dT%H:%M:%SZ)" -o dist/doctor-agent-darwin-amd64 .
-
-      - name: Build macOS arm64
-        run: |
-          GOOS=darwin GOARCH=arm64 go build -ldflags "-X main.gitCommit=${{ github.sha }} -X main.buildTime=$(date -u +%Y-%m-%dT%H:%M:%SZ)" -o dist/doctor-agent-darwin-arm64 .
-
-      - name: Build Windows amd64
-        run: |
-          GOOS=windows GOARCH=amd64 go build -ldflags "-X main.gitCommit=${{ github.sha }} -X main.buildTime=$(date -u +%Y-%m-%dT%H:%M:%SZ)" -o dist/doctor-agent-windows-amd64.exe .
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
 
       - name: Create start-chat scripts
         run: |
-          # Linux/macOS start script
-          cat > dist/start-chat << 'STARTSCRIPT'
+          mkdir -p dist
+          cat > dist/start-chat << 'EOF'
           #!/bin/bash
           # doctor-agent 一键启动脚本
           set -e
-
           SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-
-          # Detect platform
           OS="$(uname -s)"
           ARCH="$(uname -m)"
-
           case "$OS" in
             Linux)  PLATFORM="linux" ;;
             Darwin) PLATFORM="darwin" ;;
-            *)      echo "❌ 不支持的操作系统: $OS"; exit 1 ;;
+            *)      echo "不支持的操作系统: $OS"; exit 1 ;;
           esac
-
           case "$ARCH" in
             x86_64|amd64) ARCH_NAME="amd64" ;;
             aarch64|arm64) ARCH_NAME="arm64" ;;
-            *)            echo "❌ 不支持的架构: $ARCH"; exit 1 ;;
+            *)            echo "不支持的架构: $ARCH"; exit 1 ;;
           esac
-
           BINARY="$SCRIPT_DIR/doctor-agent-${PLATFORM}-${ARCH_NAME}"
           if [ ! -f "$BINARY" ]; then
-            echo "❌ 找不到二进制文件: $BINARY"
+            echo "找不到二进制文件: $BINARY"
             exit 1
           fi
-
           chmod +x "$BINARY"
           exec "$BINARY" "$@"
-          STARTSCRIPT
+          EOF
           chmod +x dist/start-chat
 
-          # Windows start script
-          cat > dist/start-chat.bat << 'BATSCRIPT'
+          cat > dist/start-chat.bat << 'EOF'
           @echo off
           REM doctor-agent 一键启动脚本
           setlocal
-
           set SCRIPT_DIR=%~dp0
           set BINARY=%SCRIPT_DIR%doctor-agent-windows-amd64.exe
-
           if not exist "%BINARY%" (
             echo 找不到二进制文件: %BINARY%
             exit /b 1
           )
-
           "%BINARY%" %*
-          BATSCRIPT
+          EOF
 
       - name: Generate checksums
         run: |

@@ -66,6 +66,7 @@ func TestLoadEnvOverrides(t *testing.T) {
 	t.Setenv("RATE_LIMIT", "30")
 	t.Setenv("SESSION_DIR", "/tmp/sess")
 	t.Setenv("POST_VERIFY_SEMANTIC", "true")
+	t.Setenv("PUBLIC_BASE_URL", "https://yida.example.com/")
 
 	cfg := Load()
 	if cfg.APIKey != "secret" {
@@ -82,6 +83,9 @@ func TestLoadEnvOverrides(t *testing.T) {
 	}
 	if !cfg.JudgeEnabled {
 		t.Error("JudgeEnabled should be true when POST_VERIFY_SEMANTIC=true")
+	}
+	if cfg.PublicBaseURL != "https://yida.example.com" {
+		t.Errorf("PublicBaseURL = %q, want trailing slash trimmed", cfg.PublicBaseURL)
 	}
 }
 

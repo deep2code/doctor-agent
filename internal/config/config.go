@@ -62,6 +62,12 @@ type Config struct {
 	CORSOrigins []string
 	// RateLimit caps requests per IP per minute; 0 disables rate limiting.
 	RateLimit int
+	// PublicBaseURL is the site's canonical public origin
+	// ("https://yida.example.com"), used to build absolute URLs for
+	// sitemap.xml, robots.txt, llms.txt and the pages' canonical/og:url
+	// tags. When empty: crawler text files fall back to per-request Host
+	// inference, and canonical/og:url tags are omitted from pages.
+	PublicBaseURL string
 
 	// SessionDir persists conversation snapshots as JSON files under this
 	// directory; empty disables persistence (in-memory sessions only).
@@ -135,6 +141,7 @@ func Load() *Config {
 		APIKey:      getEnv("API_KEY", ""),
 		CORSOrigins: splitCSV(getEnv("CORS_ORIGINS", "")),
 		RateLimit:   getEnvInt("RATE_LIMIT", 0),
+		PublicBaseURL: strings.TrimRight(getEnv("PUBLIC_BASE_URL", ""), "/"),
 
 		SessionDir: getEnv("SESSION_DIR", ""),
 

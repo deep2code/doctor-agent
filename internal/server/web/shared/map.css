@@ -1,0 +1,32 @@
+  /* ---------- Disease Map ---------- */
+  .map-wrap{display:grid;grid-template-columns:1.55fr 1fr;gap:32px;align-items:stretch;margin-top:8px;}
+  .map-canvas{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:16px;}
+  .map-canvas svg{display:block;width:100%;height:auto;}
+  .map-canvas .prov{stroke:#fff;stroke-width:0.6;cursor:pointer;transition:fill .15s,stroke .15s;}
+  .map-canvas .prov:hover{stroke:#0A1B36;stroke-width:1.4;}
+  .map-canvas .prov.active{stroke:#0A1B36;stroke-width:1.8;}
+  .map-canvas .jd{fill:none;stroke:#94A3B8;stroke-width:1;stroke-dasharray:4 3;}
+  .map-panel{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px;display:flex;flex-direction:column;}
+  .map-panel h3{font-size:18px;margin-bottom:8px;color:#0F1E33;}
+  .map-panel p{color:#5B6B82;font-size:14px;line-height:1.6;}
+  .legend{margin-top:20px;display:flex;flex-direction:column;gap:10px;}
+  .legend span{display:flex;align-items:center;gap:8px;font-size:13px;color:#5B6B82;}
+  .legend i{width:12px;height:12px;border-radius:3px;display:inline-block;flex:none;}
+  .mp-head{display:flex;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap;}
+  .mp-name{font-size:20px;font-weight:700;color:#0F1E33;}
+  .mp-cat{font-size:12px;font-weight:600;color:#fff;padding:3px 10px;border-radius:999px;}
+  .mp-list{list-style:none;display:flex;flex-direction:column;gap:10px;margin:0 0 18px;padding:0;}
+  .mp-list li{background:#F4F8FC;border-radius:10px;padding:0;font-size:14px;color:#334155;}
+  .map-panel .mp-hint{font-size:11.5px;color:#A9B4C3;margin:0 0 10px;line-height:1.5;}
+  .mp-list a.mp-ask{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 14px;text-decoration:none;color:#334155;border-radius:10px;transition:background .15s,color .15s;}
+  .mp-list a.mp-ask:hover{background:var(--blue-soft);color:var(--blue-dark);}
+  .mp-list a.mp-ask::after{content:'\2192';color:var(--blue);font-size:13px;flex:none;opacity:0;transition:opacity .15s;}
+  .mp-list a.mp-ask:hover::after{opacity:1;}
+  .mp-btn{margin-top:auto;width:100%;box-sizing:border-box;}
+  .mp-rate{margin-top:16px;padding-top:14px;border-top:1px dashed var(--line);}
+  .mp-rate-row{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-size:13px;margin-bottom:7px;}
+  .mp-rate-label{color:#5B6B82;}
+  .mp-rate-val{font-weight:600;font-size:13px;}
+  .mp-rate-src{font-size:11px;color:#A9B4C3;line-height:1.55;margin:9px 0 0;}
+  .mp-rate-link{display:inline-block;margin-top:9px;font-size:12.5px;color:var(--blue);text-decoration:none;}
+  .mp-rate-link:hover{text-decoration:underline;}

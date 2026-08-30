@@ -53,6 +53,17 @@ func newTestServer(t *testing.T, mutate func(*config.Config)) *Server {
 	return New(cfg, sharedAgent(t), nil)
 }
 
+// newPageTestServer builds a server without the knowledge-base agent: the
+// page/crawler handlers never touch it, so these tests run without MariaDB.
+func newPageTestServer(t *testing.T, mutate func(*config.Config)) *Server {
+	t.Helper()
+	cfg := baseCfg()
+	if mutate != nil {
+		mutate(cfg)
+	}
+	return New(cfg, nil, nil)
+}
+
 // emergencyMessage triggers the L1 short-circuit so no LLM call is made.
 const emergencyMessage = "我突然胸口剧痛，喘不上气"
 
@@ -85,7 +96,7 @@ func TestHealthOpen(t *testing.T) {
 }
 
 func TestPagesServed(t *testing.T) {
-	s := newTestServer(t, nil)
+	s := newPageTestServer(t, nil)
 
 	// Root "/" serves the marketing landing page.
 	rec := doRequest(t, s, http.MethodGet, "/", "", "", "")
@@ -113,6 +124,101 @@ func TestPagesServed(t *testing.T) {
 	// Unknown paths 404 instead of serving the landing shell.
 	if rec := doRequest(t, s, http.MethodGet, "/nope", "", "", ""); rec.Code != http.StatusNotFound {
 		t.Errorf("GET /nope = %d, want 404", rec.Code)
+	}
+
+	// "/map" serves the disease-map page (interactive SVG + crawlable table).
+	mp := doRequest(t, s, http.MethodGet, "/map", "", "", "")
+	if mp.Code != http.StatusOK {
+		t.Fatalf("GET /map status = %d, want 200", mp.Code)
+	}
+	mapBody := mp.Body.String()
+	if !strings.Contains(mapBody, "高发病地图") || !strings.Contains(mapBody, "广东") {
+		t.Error("map page is missing expected content (title or province data)")
+	}
+
+	// "/stats" serves the statistics page (tabs + crawlable tables).
+	st := doRequest(t, s, http.MethodGet, "/stats", "", "", "")
+	if st.Code != http.StatusOK {
+		t.Fatalf("GET /stats status = %d, want 200", st.Code)
+	}
+	statsBody := st.Body.String()
+	if !strings.Contains(statsBody, "发病全景") || !strings.Contains(statsBody, "statsTabs") {
+		t.Error("stats page is missing expected content (title or tabs)")
+	}
+	// Shared CSS must be inlined (placeholders resolved), scoped per page.
+	checkCSSInlined(t, "landing", landing, ".bm-flipper")
+	checkCSSInlined(t, "map", mapBody, ".map-panel")
+	checkCSSInlined(t, "stats", statsBody, ".stat-tab")
+}
+
+// checkCSSInlined asserts a rendered page has no leftover /*__CSS__*/ style
+// placeholder and does carry the CSS classes its interactive section needs.
+func checkCSSInlined(t *testing.T, name, body, wantCls string) {
+	t.Helper()
+	if strings.Contains(body, "__CSS__") || !strings.Contains(body, wantCls) {
+		t.Errorf("%s page: CSS not inlined (placeholder left or %q class missing)", name, wantCls)
+	}
+}
+
+func TestPublicCrawlerFiles(t *testing.T) {
+	s := newPageTestServer(t, nil)
+
+	robots := doRequest(t, s, http.MethodGet, "/robots.txt", "", "", "")
+	if robots.Code != http.StatusOK {
+		t.Fatalf("GET /robots.txt = %d, want 200", robots.Code)
+	}
+	if ct := robots.Header().Get("Content-Type"); !strings.HasPrefix(ct, "text/plain") {
+		t.Errorf("robots.txt Content-Type = %q, want text/plain", ct)
+	}
+	if rb := robots.Body.String(); !strings.Contains(rb, "Sitemap:") || !strings.Contains(rb, "GPTBot") || !strings.Contains(rb, "Disallow: /admin") {
+		t.Error("robots.txt is missing Sitemap line, AI crawler rules or admin disallow")
+	}
+
+	sm := doRequest(t, s, http.MethodGet, "/sitemap.xml", "", "", "")
+	if sm.Code != http.StatusOK {
+		t.Fatalf("GET /sitemap.xml = %d, want 200", sm.Code)
+	}
+	if ct := sm.Header().Get("Content-Type"); !strings.HasPrefix(ct, "application/xml") {
+		t.Errorf("sitemap.xml Content-Type = %q, want application/xml", ct)
+	}
+	if n := strings.Count(sm.Body.String(), "<loc>"); n != 3 {
+		t.Errorf("sitemap.xml has %d <loc> entries, want 3", n)
+	}
+
+	llms := doRequest(t, s, http.MethodGet, "/llms.txt", "", "", "")
+	if llms.Code != http.StatusOK {
+		t.Fatalf("GET /llms.txt = %d, want 200", llms.Code)
+	}
+	if lb := llms.Body.String(); !strings.Contains(lb, "医答") || !strings.Contains(lb, "/map") {
+		t.Error("llms.txt is missing site name or page links")
+	}
+}
+
+func TestAuthPublicPaths(t *testing.T) {
+	s := newPageTestServer(t, func(c *config.Config) {
+		c.APIKey = "secret"
+		c.PublicBaseURL = "https://yida.example.com"
+	})
+
+	// Public marketing/crawler pages stay reachable without a token, so
+	// crawlers are not locked out when an API key is configured.
+	for _, p := range []string{"/", "/index.html", "/map", "/stats", "/robots.txt", "/sitemap.xml", "/llms.txt"} {
+		if rec := doRequest(t, s, http.MethodGet, p, "", "", ""); rec.Code != http.StatusOK {
+			t.Errorf("GET %s (no token) = %d, want 200", p, rec.Code)
+		}
+	}
+	// The API itself stays gated.
+	if rec := doRequest(t, s, http.MethodPost, "/chat", `{"message":"x"}`, "", ""); rec.Code != http.StatusUnauthorized {
+		t.Errorf("POST /chat (no token) = %d, want 401", rec.Code)
+	}
+	// With PUBLIC_BASE_URL set, pages carry canonical and sitemap absolute locs.
+	rec := doRequest(t, s, http.MethodGet, "/", "", "", "")
+	if body := rec.Body.String(); !strings.Contains(body, `rel="canonical" href="https://yida.example.com/"`) {
+		t.Error("landing page missing canonical URL from PublicBaseURL")
+	}
+	sm := doRequest(t, s, http.MethodGet, "/sitemap.xml", "", "", "")
+	if body := sm.Body.String(); !strings.Contains(body, "<loc>https://yida.example.com/map</loc>") {
+		t.Error("sitemap.xml missing absolute /map loc from PublicBaseURL")
 	}
 }
 

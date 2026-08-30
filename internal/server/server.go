@@ -32,7 +32,30 @@ var webUIIndex string
 var adminUIIndex string
 
 //go:embed web/landing.html
-var landingPage string
+var landingTmpl string
+
+//go:embed web/map.html
+var mapTmpl string
+
+//go:embed web/stats.html
+var statsTmpl string
+
+// Shared stylesheets for the public marketing pages, split out of the old
+// single landing <style> block. They are inlined into each page at startup
+// (see buildPage) so pages stay single-file: no external assets, works
+// offline, no file server needed.
+//
+//go:embed web/shared/base.css
+var cssBase string
+
+//go:embed web/shared/map.css
+var cssMap string
+
+//go:embed web/shared/stats.css
+var cssStats string
+
+//go:embed web/shared/bm.css
+var cssBM string
 
 // Server wraps the HTTP API server for the doctor agent.
 type Server struct {
@@ -42,6 +65,12 @@ type Server struct {
 	db    *database.DB
 	http  *http.Server
 	limiter *rateLimiter
+
+	// Pre-rendered public pages (shared CSS inlined + canonical/og:url
+	// injected once per process in New; see buildPage).
+	pageLanding string
+	pageMap     string
+	pageStats   string
 }
 
 // New creates a new HTTP server.
@@ -60,8 +89,19 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 		limiter: newRateLimiter(cfg.RateLimit),
 	}
 
+	// Pre-render the public pages once: shared CSS inlined into each page's
+	// style placeholder, plus canonical/og:url tags when PublicBaseURL is set.
+	s.pageLanding = buildPage(landingTmpl, cssBM, cfg.PublicBaseURL, "/")
+	s.pageMap = buildPage(mapTmpl, cssMap, cfg.PublicBaseURL, "/map")
+	s.pageStats = buildPage(statsTmpl, cssStats, cfg.PublicBaseURL, "/stats")
+
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", s.handleLanding)
+	mux.HandleFunc("/map", s.handleMapPage)
+	mux.HandleFunc("/stats", s.handleStatsPage)
+	mux.HandleFunc("/robots.txt", s.handleRobots)
+	mux.HandleFunc("/sitemap.xml", s.handleSitemap)
+	mux.HandleFunc("/llms.txt", s.handleLLMsTxt)
 	mux.HandleFunc("/app", s.handleAppUI)
 	mux.HandleFunc("/health", s.handleHealth)
 	mux.HandleFunc("/chat", s.handleChat)
@@ -140,9 +180,187 @@ func (s *Server) handleLanding(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	w.Header().Set("Content-Type", "text/html; charset=utf-8")
-	_, _ = io.WriteString(w, landingPage)
+	serveHTML(w, r, s.pageLanding)
 }
+
+// handleMapPage serves the disease-map marketing page (province-level
+// prevalence data; see also the crawlable data table in the page).
+func (s *Server) handleMapPage(w http.ResponseWriter, r *http.Request) {
+	if r.URL.Path != "/map" {
+		http.NotFound(w, r)
+		return
+	}
+	serveHTML(w, r, s.pageMap)
+}
+
+// handleStatsPage serves the health-statistics marketing page.
+func (s *Server) handleStatsPage(w http.ResponseWriter, r *http.Request) {
+	if r.URL.Path != "/stats" {
+		http.NotFound(w, r)
+		return
+	}
+	serveHTML(w, r, s.pageStats)
+}
+
+// serveHTML writes a pre-rendered page with the house style (GET-only).
+func serveHTML(w http.ResponseWriter, r *http.Request, page string) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+	w.Header().Set("Content-Type", "text/html; charset=utf-8")
+	_, _ = io.WriteString(w, page)
+}
+
+// buildPage resolves a page template once per process: the shared base CSS
+// plus the page-specific CSS replace the /*__CSS__*/ style placeholder, and
+// canonical/og:url tags replace <!--__HEAD_URL__--> when base is configured
+// (omitted otherwise — a wrong guessed canonical is worse than none).
+func buildPage(tmpl, pageCSS, base, path string) string {
+	html := strings.Replace(tmpl, "/*__CSS__*/", cssBase+pageCSS, 1)
+	var head strings.Builder
+	if base != "" {
+		fmt.Fprintf(&head, "<link rel=\"canonical\" href=\"%s%s\" />\n", base, path)
+		fmt.Fprintf(&head, "<meta property=\"og:url\" content=\"%s%s\" />", base, path)
+	}
+	return strings.Replace(html, "<!--__HEAD_URL__-->", head.String(), 1)
+}
+
+// publicBaseURL returns the absolute origin for crawler files: the configured
+// PUBLIC_BASE_URL when set, else inferred from the request (scheme from TLS /
+// X-Forwarded-Proto, host from r.Host) so sitemap.xml etc. still carry valid
+// absolute URLs on self-hosted deployments behind a reverse proxy.
+func (s *Server) publicBaseURL(r *http.Request) string {
+	if s.cfg.PublicBaseURL != "" {
+		return s.cfg.PublicBaseURL
+	}
+	scheme := "http"
+	if r.TLS != nil {
+		scheme = "https"
+	}
+	if p := r.Header.Get("X-Forwarded-Proto"); p != "" {
+		scheme = p
+	}
+	return scheme + "://" + r.Host
+}
+
+// handleRobots serves robots.txt: public marketing pages are open to search
+// engines and AI crawlers alike; the API and admin surface stay disallowed.
+func (s *Server) handleRobots(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+	w.Header().Set("Content-Type", "text/plain; charset=utf-8")
+	_, _ = io.WriteString(w, strings.Replace(robotsTXT, "{BASE}", s.publicBaseURL(r), 1))
+}
+
+// handleSitemap serves sitemap.xml for the public marketing pages.
+func (s *Server) handleSitemap(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+	base := s.publicBaseURL(r)
+	w.Header().Set("Content-Type", "application/xml; charset=utf-8")
+	_, _ = fmt.Fprintf(w, sitemapXML, base+"/", base+"/map", base+"/stats")
+}
+
+// handleLLMsTxt serves llms.txt (https://llmstxt.org): a markdown overview of
+// the site written for LLM crawlers — pages, tools, knowledge sources.
+func (s *Server) handleLLMsTxt(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+	w.Header().Set("Content-Type", "text/plain; charset=utf-8")
+	_, _ = io.WriteString(w, strings.ReplaceAll(llmsTXT, "{BASE}", s.publicBaseURL(r)))
+}
+
+// robotsTXT is the robots.txt template; {BASE} is replaced per request.
+const robotsTXT = `# robots.txt — 医答 Doctor Agent
+# 公开内容页（/ /map /stats）对搜索引擎与 AI 爬虫开放；API 与管理端一律禁止。
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /chat
+Disallow: /sessions
+Disallow: /feedback
+Disallow: /app
+
+# AI / LLM 爬虫：显式欢迎公开内容页
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: Google-Extended
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: Amazonbot
+User-agent: meta-externalagent
+User-agent: Applebot-Extended
+User-agent: DuckAssistBot
+Allow: /
+Disallow: /admin
+Disallow: /chat
+Disallow: /sessions
+Disallow: /feedback
+Disallow: /app
+
+Sitemap: {BASE}/sitemap.xml
+`
+
+// sitemapXML is the sitemap template; the three %s verbs are filled with the
+// site base + page paths per request.
+const sitemapXML = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>%s</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>%s</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>%s</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+</urlset>
+`
+
+// llmsTXT is the llms.txt template; {BASE} occurrences are replaced per request.
+const llmsTXT = `# 医答 Doctor Agent
+
+> 医答是面向中国全人群的免费循证医学 AI 问答助手：基于权威医学知识库与 35+ 项专业医学工具，提供有依据、可溯源的健康解答——从日常小病到中国高发慢病，每个关键结论均附出处（临床指南、PubMed 文献等）。
+
+医答（Doctor Agent）是可自部署的单二进制医聊 AI。回答经过「检索 → 推理 → 核验」闭环，由急诊识别、安全护栏、引用核验三层守护。
+
+重要声明：医答是循证医学辅助工具，仅供健康参考，不能替代专业医生的诊断与治疗；紧急情况请拨打 120 或前往急诊。
+
+## Pages
+
+- [首页]({BASE}/): 产品概览——核心能力、工作原理、35+ 项专业医学工具矩阵、人体部位自诊、常见问题。
+- [疾病地图]({BASE}/map): 全国 34 个省级行政区高发疾病分布，按主导类别（遗传代谢 / 肿瘤 / 传染 / 慢病 / 营养寄生）着色，含分省高血压、糖尿病患病率数据。
+- [数据洞察]({BASE}/stats): 中国人发病全景 10 个维度的真实权威数据——按病种、年份、地区、省份、性别、年龄、教育程度、职业与精神健康，全部标注出处。
+
+## Tools
+
+- 用药安全核查：检查药物相互作用、禁忌症与剂量安全性
+- 症状分诊：根据症状描述推荐就诊科室与紧急程度
+- 遗传病风险计算：基于家族史与表型评估遗传性疾病携带风险
+- 检验单解读：上传化验单图片，逐项解释指标含义与异常
+- 药物相互作用：检测多药并用时的潜在冲突与不良反应风险
+- 药物查询：检索药品说明书、适应症、副作用与医保信息
+
+## Knowledge Sources
+
+- 《中国心血管健康与疾病报告 2021/2022》（国家心血管病中心）：历次全国高血压抽样调查（1959–2018）；心血管病现患 3.3 亿
+- 中国疾控中心慢病中心：2018 年全国慢性病及危险因素监测；2023 年糖尿病患病人数 2.33 亿及分省差异
+- 国家卫生健康委《中国居民营养与慢性病状况报告（2020 年）》：分年龄段高血压患病率；抑郁症 2.1%、焦虑障碍 4.98%
+- 国家癌症中心（JNCC 2024）：2022 年恶性肿瘤新发 482.47 万例、死亡 257.42 万例，肺癌居首
+- 中国政府网《新中国 75 年经济社会发展成就报告》(2024)：甲乙类传染病报告发病率长期序列（1955→2023）
+- 《柳叶刀》：慢阻肺 9990 万（2018 中国成人肺部健康研究）；慢性肾病 1.52 亿（2025）
+
+## Usage
+
+对话入口为浏览器应用（{BASE}/app），需交互式使用；本站内容页均可自由抓取与引用，引用时请保留来源标注。
+`
 
 // handleAppUI serves the built-in chat web interface (embedded single-file HTML
 // — no build step, no external assets; works offline) at "/app". The chat APIs
@@ -658,6 +876,20 @@ func (s *Server) getAdminFromRequest(r *http.Request) *database.User {
 	return nil
 }
 
+// publicPaths are reachable without auth (and without rate limiting):
+// marketing pages, crawler files and the health probe. Everything else —
+// chat/session/admin APIs — stays behind the APIKey gate when one is set.
+var publicPaths = map[string]struct{}{
+	"/health":      {},
+	"/":            {},
+	"/index.html":  {}, // served by handleLanding
+	"/map":         {},
+	"/stats":       {},
+	"/robots.txt":  {},
+	"/sitemap.xml": {},
+	"/llms.txt":    {},
+}
+
 // withMiddleware adds security + logging middleware to the handler.
 // Order: CORS headers → OPTIONS short-circuit → rate limit → auth → logging.
 func (s *Server) withMiddleware(h http.Handler) http.Handler {
@@ -669,8 +901,9 @@ func (s *Server) withMiddleware(h http.Handler) http.Handler {
 			return
 		}
 
-		// /health and the UI page stay open for probes/browsers; the API is gated.
-		if r.URL.Path != "/health" && r.URL.Path != "/" {
+		// Public pages stay open for browsers, health probes and web/AI
+		// crawlers even when APIKey is configured; the API stays gated.
+		if _, public := publicPaths[r.URL.Path]; !public {
 			if !s.limiter.allow(clientIP(r)) {
 				slog.Warn("Rate limit exceeded", "ip", clientIP(r), "path", r.URL.Path)
 				writeJSON(w, http.StatusTooManyRequests, map[string]any{"error": "rate limit exceeded"})

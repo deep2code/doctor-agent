@@ -4,6 +4,7 @@ external/
 bin/
 build/
 .gocache/
+.cache/
 **/gomodcache/
 .DS_Store
 .cowork-temp/
@@ -37,5 +38,4 @@ evals/
 docs/
 .github/
 
-# RAG 镜像独立 context（app 镜像不需要；gz 由 docker/qdrant-context/build.sh 构建时同步）
-docker/qdrant-context/
+# RAG 镜像有自己的 Dockerfile.qdrant + 专属白名单 dockerignore，不受本文件影响

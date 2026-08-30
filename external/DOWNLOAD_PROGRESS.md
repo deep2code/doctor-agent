@@ -76,6 +76,6 @@ external/
 ## 环境备注
 
 - 网络：europepmc/medlineplus/who/gitee 直连可用；huggingface.co 超时，须用 hf-mirror.com；GitHub API/raw 直连可用（HPO 用 raw.githubusercontent.com）
-- Go 编译：`export GOMODCACHE="$PWD/external/gomodcache"`（沙箱禁写系统 GOPATH）
-- pip 装包：沙箱禁止写系统 site-packages，用 `pip3 install --target external/pylibs <pkg>` + `PYTHONPATH=external/pylibs`
-- 磁盘：42GB 可用（external/ 约 130MB + gomodcache）
+- Go 编译：`export GOMODCACHE="$PWD/.cache/gomodcache"`（2026-08-30 起缓存收于项目内 .cache/，见 AGENTS.md；当前环境走默认 GOPATH 即可）
+- pip 装包：沙箱禁止写系统 site-packages，用 `pip3 install --target $PWD/.cache/pylibs <pkg>` + `PYTHONPATH=$PWD/.cache/pylibs`
+- 磁盘：42GB 可用（external/ 约 500MB，构建缓存已移到项目内 .cache/）

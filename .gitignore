@@ -35,11 +35,10 @@ Thumbs.db
 # Build
 vendor/
 .gocache/
-external/gomodcache/
-# Go module cache sandbox (env restriction) — not source
+# 项目构建缓存（Go module cache + Python deps，2026-08-30 起收于项目内）
+.cache/
 
 # Regenerable raw downloads (scripts in external/*.py rebuild these)
-external/pylibs/
 external/medlineplus/
 external/msd_manual/
 external/msd_manual_prof/

@@ -55,12 +55,16 @@ build_app() {
 }
 
 build_qdrant() {
-  echo "[qdrant] 构建 RAG 镜像（独立 context：gz 知识库 + Qdrant + 烘好的向量）..."
+  echo "[qdrant] 构建 RAG 镜像（根目录构建：gz 知识库 + Qdrant + 烘好的向量）..."
   if [[ ! -d "internal/knowledge/gz" ]] || [[ -z "$(ls internal/knowledge/gz/*.json.*z* 2>/dev/null)" ]]; then
     echo "  错误: internal/knowledge/gz 为空，先运行 python3 external/make_gz.py 生成知识库压缩包"
     exit 1
   fi
-  docker/qdrant-context/build.sh "$QDRANT_IMAGE"
+  docker build --platform linux/amd64 \
+    -t "$QDRANT_IMAGE" \
+    -f Dockerfile.qdrant \
+    --provenance false \
+    .
 }
 
 push_image() {

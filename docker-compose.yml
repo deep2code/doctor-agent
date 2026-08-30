@@ -20,7 +20,7 @@
 #
 # 说明：
 #   - qdrant 服务使用【自带知识数据的 RAG 镜像】（构建期 vector-bake 注入，
-#     见 docker/qdrant-context/）。首次启动即可语义检索，无 seed/sync 等待。
+#     见根目录 Dockerfile.qdrant）。首次启动即可语义检索，无 seed/sync 等待。
 #   - app 启动时自动建业务库 doctor_agent；知识检索走 Qdrant。
 #   - 可选：若仍需 MariaDB 关键词兜底，把 qdrant 镜像内的 /opt/knowledge/gz
 #     挂出并让 entrypoint seed（SEED_MARIADB_KB=true），默认不启用。

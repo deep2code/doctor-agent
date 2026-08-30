@@ -1,0 +1,912 @@
+[
+  {
+    "id": "common-048",
+    "condition_zh": "社区获得性肺炎",
+    "condition_en": "Community-Acquired Pneumonia",
+    "category": "呼吸系统",
+    "icd10": "J18",
+    "regions": [
+      "global"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国成人CAP年发病率约5-11/1000",
+        "rate": 0.05
+      }
+    },
+    "diagnosis": {
+      "clinical_features": [
+        "发热+咳嗽+咳痰",
+        "呼吸困难/气促",
+        "胸痛(呼吸加重)",
+        "肺部湿啰音"
+      ],
+      "gold_standard": "胸部X线/CT(新出现浸润影) + 临床症状",
+      "lab_tests": [
+        "胸部X线(首选)/CT",
+        "血常规(WBC/CRP/PCT)",
+        "痰培养+药敏",
+        "血培养(重症)"
+      ]
+    },
+    "treatment": [
+      {
+        "citation_ref": "BTS 2015",
+        "evidence_level": "A",
+        "indication": "门诊轻症",
+        "method": "阿莫西林/阿莫西林克拉维酸",
+        "notes": "5-7天"
+      },
+      {
+        "citation_ref": "BTS 2015",
+        "evidence_level": "A",
+        "indication": "青霉素过敏/非典型病原体",
+        "method": "大环内酯类(阿奇霉素)",
+        "notes": "覆盖支原体/衣原体"
+      },
+      {
+        "citation_ref": "IDSA/ATS 2019",
+        "evidence_level": "A",
+        "indication": "门诊有合并症/住院",
+        "method": "呼吸喹诺酮(左氧氟沙星)",
+        "notes": "广谱覆盖"
+      },
+      {
+        "citation_ref": "IDSA/ATS 2019",
+        "evidence_level": "A",
+        "indication": "住院患者",
+        "method": "头孢曲松+阿奇霉素",
+        "notes": "联合覆盖典型+非典型"
+      }
+    ],
+    "risk_factors": [
+      "高龄(>65岁)",
+      "吸烟",
+      "COPD/哮喘",
+      "糖尿病",
+      "免疫功能低下"
+    ],
+    "complications": [
+      "脓胸/肺脓肿",
+      "感染性休克",
+      "呼吸衰竭"
+    ],
+    "prevention": [
+      "肺炎疫苗",
+      "流感疫苗",
+      "戒烟",
+      "手卫生"
+    ],
+    "when_to_seek_care": [
+      "高热不退>3天",
+      "呼吸困难加重",
+      "胸痛/咯血",
+      "血氧<93%"
+    ],
+    "keywords": [
+      "肺炎",
+      "CAP",
+      "发热",
+      "咳嗽",
+      "咳痰",
+      "肺部感染"
+    ]
+  },
+  {
+    "id": "common-049",
+    "condition_zh": "肺栓塞",
+    "condition_en": "Pulmonary Embolism",
+    "category": "心血管/呼吸",
+    "icd10": "I26",
+    "regions": [
+      "global"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国住院患者PE检出率约0.1-1%",
+        "rate": 0.001
+      }
+    },
+    "diagnosis": {
+      "clinical_features": [
+        "突发呼吸困难",
+        "胸痛(胸膜性)",
+        "咯血",
+        "心动过速",
+        "下肢肿胀(DVT)"
+      ],
+      "gold_standard": "CTPA(CT肺动脉造影) + 临床概率评估(Wells/Geneva)",
+      "lab_tests": [
+        "D-二聚体(阴性排除价值高)",
+        "CTPA(确诊)",
+        "下肢静脉超声(找DVT)"
+      ]
+    },
+    "treatment": [
+      {
+        "citation_ref": "ESC 2019",
+        "evidence_level": "A",
+        "indication": "所有确诊PE(无禁忌)",
+        "method": "抗凝(核心)",
+        "notes": "NOAC首选(利伐沙班/阿哌沙班)"
+      },
+      {
+        "citation_ref": "ESC 2019",
+        "evidence_level": "A",
+        "indication": "大面积PE(休克/低血压)",
+        "method": "溶栓(阿替普酶)",
+        "notes": "100mg/2h"
+      },
+      {
+        "citation_ref": "ESC 2019",
+        "evidence_level": "B",
+        "indication": "抗凝禁忌",
+        "method": "下腔静脉滤器",
+        "notes": "可回收型"
+      }
+    ],
+    "risk_factors": [
+      "DVT(最常见)",
+      "制动/卧床>3天",
+      "手术/创伤",
+      "恶性肿瘤",
+      "口服避孕药",
+      "妊娠/产后"
+    ],
+    "complications": [
+      "右心衰竭",
+      "复发性PE",
+      "CTEPH"
+    ],
+    "prevention": [
+      "术后早期活动",
+      "高危患者药物预防",
+      "长途旅行穿弹力袜"
+    ],
+    "when_to_seek_care": [
+      "突发呼吸困难+胸痛",
+      "咯血",
+      "晕厥",
+      "单侧下肢肿胀疼痛"
+    ],
+    "keywords": [
+      "肺栓塞",
+      "PE",
+      "呼吸困难",
+      "胸痛",
+      "咯血",
+      "D-二聚体",
+      "CTPA",
+      "抗凝",
+      "DVT"
+    ]
+  },
+  {
+    "id": "common-050",
+    "condition_zh": "深静脉血栓形成",
+    "condition_en": "Deep Vein Thrombosis",
+    "category": "血管外科",
+    "icd10": "I82",
+    "regions": [
+      "global"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国DVT年发病率约1-2/1000",
+        "rate": 0.001
+      }
+    },
+    "diagnosis": {
+      "clinical_features": [
+        "单侧下肢肿胀/疼痛",
+        "小腿围度差>3cm",
+        "Homans征阳性",
+        "皮肤发红/发热"
+      ],
+      "gold_standard": "下肢静脉超声(加压超声不能压闭=确诊)",
+      "lab_tests": [
+        "D-二聚体(筛查)",
+        "下肢静脉加压超声(首选确诊)",
+        "Wells评分"
+      ]
+    },
+    "treatment": [
+      {
+        "citation_ref": "ASH 2021",
+        "evidence_level": "A",
+        "indication": "所有确诊DVT",
+        "method": "抗凝(核心)",
+        "notes": "NOAC首选或华法林(INR 2-3)"
+      },
+      {
+        "citation_ref": "ASH 2021",
+        "evidence_level": "B",
+        "indication": "急性期后",
+        "method": "弹力袜",
+        "notes": "2级压力(30-40mmHg)，至少2年"
+      },
+      {
+        "citation_ref": "ASH 2021",
+        "evidence_level": "B",
+        "indication": "髂股DVT(严重)",
+        "method": "导管溶栓/取栓",
+        "notes": "降低PTS风险"
+      }
+    ],
+    "risk_factors": [
+      "制动/卧床",
+      "手术/创伤",
+      "恶性肿瘤",
+      "口服避孕药",
+      "肥胖"
+    ],
+    "complications": [
+      "肺栓塞(致命)",
+      "血栓后综合征(PTS)"
+    ],
+    "prevention": [
+      "术后早期活动",
+      "高危患者药物预防",
+      "弹力袜"
+    ],
+    "when_to_seek_care": [
+      "单侧下肢突然肿胀疼痛",
+      "伴呼吸困难/胸痛(PE?)",
+      "皮肤破溃/溃疡"
+    ],
+    "keywords": [
+      "DVT",
+      "深静脉血栓",
+      "下肢肿胀",
+      "腿疼",
+      "血栓",
+      "抗凝",
+      "弹力袜"
+    ]
+  },
+  {
+    "id": "common-051",
+    "condition_zh": "甲状腺结节",
+    "condition_en": "Thyroid Nodules",
+    "category": "内分泌科",
+    "icd10": "E04",
+    "regions": [
+      "global"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国成人超声检出率约20-76%",
+        "rate": 0.2
+      }
+    },
+    "diagnosis": {
+      "clinical_features": [
+        "多数无症状(偶然发现)",
+        "颈部肿块/吞咽不适",
+        "声音嘶哑(压迫喉返神经)"
+      ],
+      "gold_standard": "超声+TI-RADS分类 + 细针穿刺活检(FNA)",
+      "lab_tests": [
+        "甲状腺超声(TI-RADS)",
+        "TSH",
+        "FNA(TI-RADS 4-5类)"
+      ]
+    },
+    "treatment": [
+      {
+        "citation_ref": "ATA 2021",
+        "evidence_level": "A",
+        "indication": "良性/TI-RADS 1-3",
+        "method": "观察随访",
+        "notes": "6-12月超声随访"
+      },
+      {
+        "citation_ref": "ATA 2021",
+        "evidence_level": "A",
+        "indication": "TI-RADS 4-5类",
+        "method": "超声引导下FNA",
+        "notes": "Bethesda分类指导下一步"
+      },
+      {
+        "citation_ref": "ATA 2021",
+        "evidence_level": "A",
+        "indication": "确诊/高度怀疑恶性",
+        "method": "手术(甲状腺叶切/全切)",
+        "notes": "乳头状癌<1cm可主动监测"
+      }
+    ],
+    "risk_factors": [
+      "女性(3-4倍)",
+      "颈部放射史",
+      "碘缺乏/过量",
+      "家族史"
+    ],
+    "complications": [
+      "恶性转化(5-15%)",
+      "压迫症状(气管/食管)"
+    ],
+    "prevention": [
+      "适碘饮食",
+      "避免不必要的颈部放射",
+      "定期超声(高危人群)"
+    ],
+    "when_to_seek_care": [
+      "新发颈部肿块迅速增大",
+      "声音嘶哑",
+      "吞咽困难",
+      "超声提示TI-RADS 4-5"
+    ],
+    "keywords": [
+      "甲状腺结节",
+      "甲状腺",
+      "TI-RADS",
+      "FNA",
+      "超声",
+      "颈部肿块"
+    ]
+  },
+  {
+    "id": "common-052",
+    "condition_zh": "原发性痛经",
+    "condition_en": "Primary Dysmenorrhea",
+    "category": "妇科",
+    "icd10": "N94.4",
+    "regions": [
+      "global"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国女性痛经患病率约33%",
+        "rate": 0.33
+      }
+    },
+    "diagnosis": {
+      "clinical_features": [
+        "月经来潮后6-12月内起病",
+        "经期下腹痉挛性疼痛",
+        "可放射至腰/大腿内侧",
+        "恶心/呕吐/腹泻/头痛"
+      ],
+      "gold_standard": "临床诊断(经期痛+盆腔检查正常) + 排除继发性",
+      "lab_tests": [
+        "盆腔检查(排除器质性病变)",
+        "超声(排除内异症/腺肌症)"
+      ]
+    },
+    "treatment": [
+      {
+        "citation_ref": "ACOG 2018",
+        "evidence_level": "A",
+        "indication": "痛经发作时/预防性",
+        "method": "NSAIDs(一线)",
+        "notes": "布洛芬/萘普生，连用2-3天"
+      },
+      {
+        "citation_ref": "ACOG 2018",
+        "evidence_level": "A",
+        "indication": "NSAIDs无效/需避孕",
+        "method": "口服避孕药(复方)",
+        "notes": "抑制排卵"
+      },
+      {
+        "citation_ref": "Cochrane 2019",
+        "evidence_level": "B",
+        "indication": "辅助治疗",
+        "method": "热敷/运动",
+        "notes": "热敷效果与NSAIDs相当"
+      }
+    ],
+    "risk_factors": [
+      "初潮早(<11岁)",
+      "月经量多",
+      "未产",
+      "家族史",
+      "吸烟"
+    ],
+    "complications": [
+      "生活质量下降",
+      "缺课/缺勤",
+      "合并焦虑/抑郁"
+    ],
+    "prevention": [
+      "规律运动",
+      "热敷",
+      "戒烟"
+    ],
+    "when_to_seek_care": [
+      "痛经进行性加重(排除内异症?)",
+      "25岁后新发痛经",
+      "常规止痛无效",
+      "伴不孕"
+    ],
+    "keywords": [
+      "痛经",
+      "经期腹痛",
+      "月经痛",
+      "布洛芬",
+      "口服避孕药",
+      "内异症"
+    ]
+  },
+  {
+    "id": "common-053",
+    "condition_zh": "多囊卵巢综合征",
+    "condition_en": "Polycystic Ovary Syndrome",
+    "category": "妇科/内分泌",
+    "icd10": "E28.2",
+    "regions": [
+      "global"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国育龄女性PCOS患病率约5-10%",
+        "rate": 0.05
+      }
+    },
+    "diagnosis": {
+      "clinical_features": [
+        "月经稀发/闭经",
+        "高雄激素表现(多毛/痤疮/脱发)",
+        "超声多囊卵巢形态",
+        "肥胖(50%)",
+        "黑棘皮(胰岛素抵抗)"
+      ],
+      "gold_standard": "鹿特丹标准(满足3项中2项+排除其他病因)",
+      "lab_tests": [
+        "睾酮/游离睾酮",
+        "LH/FSH(比值常>2-3)",
+        "超声(PCOM)",
+        "OGTT+胰岛素"
+      ]
+    },
+    "treatment": [
+      {
+        "citation_ref": "国际PCOS指南2023",
+        "evidence_level": "A",
+        "indication": "所有PCOS(尤其超重)",
+        "method": "生活方式干预(核心)",
+        "notes": "减重5-10%可恢复排卵"
+      },
+      {
+        "citation_ref": "国际PCOS指南2023",
+        "evidence_level": "A",
+        "indication": "高雄+月经紊乱(无生育需求)",
+        "method": "口服避孕药(达英-35)",
+        "notes": "降雄+调经"
+      },
+      {
+        "citation_ref": "国际PCOS指南2023",
+        "evidence_level": "A",
+        "indication": "胰岛素抵抗/代谢异常",
+        "method": "二甲双胍",
+        "notes": "500-2000mg/日"
+      },
+      {
+        "citation_ref": "国际PCOS指南2023",
+        "evidence_level": "A",
+        "indication": "有生育需求",
+        "method": "来曲唑(促排卵)",
+        "notes": "一线促排(优于克罗米芬)"
+      }
+    ],
+    "risk_factors": [
+      "遗传(多基因)",
+      "肥胖",
+      "胰岛素抵抗"
+    ],
+    "complications": [
+      "不孕",
+      "2型糖尿病(40%进展)",
+      "子宫内膜增生/癌",
+      "心血管疾病"
+    ],
+    "prevention": [
+      "维持健康体重",
+      "规律运动",
+      "低GI饮食"
+    ],
+    "when_to_seek_care": [
+      "月经稀发/闭经",
+      "多毛/痤疮加重",
+      "备孕困难",
+      "体重快速增加"
+    ],
+    "keywords": [
+      "PCOS",
+      "多囊卵巢",
+      "月经不调",
+      "多毛",
+      "痤疮",
+      "不孕",
+      "胰岛素抵抗",
+      "达英-35"
+    ]
+  },
+  {
+    "id": "common-054",
+    "condition_zh": "阿尔茨海默病",
+    "condition_en": "Alzheimer's Disease",
+    "category": "神经科",
+    "icd10": "G30",
+    "regions": [
+      "global"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国65岁以上AD患病率约3-5%",
+        "rate": 0.03
+      }
+    },
+    "diagnosis": {
+      "clinical_features": [
+        "隐匿起病的进行性记忆障碍",
+        "语言障碍(找词困难)",
+        "定向力障碍",
+        "执行功能下降",
+        "行为改变(淡漠/激越)"
+      ],
+      "gold_standard": "临床诊断(NIA-AA标准) + 影像学 + 排除可逆性原因",
+      "lab_tests": [
+        "头颅MRI(海马萎缩)",
+        "MMSE/MoCA(认知筛查)",
+        "排除可逆性(甲减/B12/叶酸)"
+      ]
+    },
+    "treatment": [
+      {
+        "citation_ref": "NIA-AA 2023",
+        "evidence_level": "A",
+        "indication": "轻中度AD(一线)",
+        "method": "胆碱酯酶抑制剂(多奈哌齐)",
+        "notes": "改善认知+日常功能"
+      },
+      {
+        "citation_ref": "NIA-AA 2023",
+        "evidence_level": "A",
+        "indication": "中重度AD",
+        "method": "美金刚",
+        "notes": "可与胆碱酯酶抑制剂联用"
+      },
+      {
+        "citation_ref": "Clarity AD 2023",
+        "evidence_level": "A",
+        "indication": "早期AD(淀粉样蛋白阳性)",
+        "method": "仑卡奈单抗(Lecanemab)",
+        "notes": "抗Aβ单抗，减缓认知下降27-35%"
+      },
+      {
+        "citation_ref": "Lancet Commission 2024",
+        "evidence_level": "B",
+        "indication": "所有AD/MCI",
+        "method": "认知训练+社会参与",
+        "notes": "12个可调控危险因素干预"
+      }
+    ],
+    "risk_factors": [
+      "高龄(最强)",
+      "APOE ε4携带",
+      "低教育水平",
+      "心血管危险因素",
+      "抑郁",
+      "社会孤立",
+      "听力下降"
+    ],
+    "complications": [
+      "跌倒/骨折",
+      "吸入性肺炎",
+      "营养不良",
+      "照护者倦怠"
+    ],
+    "prevention": [
+      "12个可调控因素",
+      "规律运动",
+      "社交活动",
+      "认知训练",
+      "地中海饮食"
+    ],
+    "when_to_seek_care": [
+      "记忆力明显下降影响生活",
+      "重复提问/迷路",
+      "性格改变",
+      "日常生活能力下降"
+    ],
+    "keywords": [
+      "阿尔茨海默",
+      "老年痴呆",
+      "AD",
+      "认知障碍",
+      "失智",
+      "记忆力下降",
+      "多奈哌齐",
+      "仑卡奈单抗"
+    ]
+  },
+  {
+    "id": "common-055",
+    "condition_zh": "带状疱疹",
+    "condition_en": "Herpes Zoster",
+    "category": "皮肤科/感染科",
+    "icd10": "B02",
+    "regions": [
+      "global"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国成人年发病率约3-5/1000(50岁以上上升)",
+        "rate": 0.003
+      }
+    },
+    "diagnosis": {
+      "clinical_features": [
+        "单侧沿神经分布的疼痛",
+        "红斑基础上成簇水疱(带状分布)",
+        "剧烈神经痛(烧灼/针刺/电击样)"
+      ],
+      "gold_standard": "临床表现(皮疹+疼痛分布特征)",
+      "lab_tests": [
+        "临床诊断为主",
+        "PCR(不典型时鉴别单纯疱疹)"
+      ]
+    },
+    "treatment": [
+      {
+        "citation_ref": "IDSA 2023",
+        "evidence_level": "A",
+        "indication": "72h内开始(越早越好)",
+        "method": "抗病毒(伐昔洛韦)",
+        "notes": "1g tid×7天(肾功能调整)"
+      },
+      {
+        "citation_ref": "NICE 2023",
+        "evidence_level": "A",
+        "indication": "神经痛控制",
+        "method": "镇痛(急性期)",
+        "notes": "加巴喷丁/普瑞巴林(一线)"
+      },
+      {
+        "citation_ref": "NICE 2023",
+        "evidence_level": "A",
+        "indication": "疼痛持续>3月",
+        "method": "PHN管理",
+        "notes": "普瑞巴林/度洛西汀/利多卡因贴片"
+      },
+      {
+        "citation_ref": "ACIP 2023",
+        "evidence_level": "A",
+        "indication": "50岁以上/免疫低下",
+        "method": "疫苗(RZV)",
+        "notes": "Shingrix 2剂，保护效力>90%"
+      }
+    ],
+    "risk_factors": [
+      "高龄(50岁↑)",
+      "免疫功能低下",
+      "水痘病史",
+      "应激/疲劳"
+    ],
+    "complications": [
+      "带状疱疹后神经痛(PHN)(10-20%)",
+      "眼带状疱疹(可致失明)",
+      "Ramsay Hunt综合征"
+    ],
+    "prevention": [
+      "重组带状疱疹疫苗(RZV)",
+      "增强免疫力"
+    ],
+    "when_to_seek_care": [
+      "皮疹累及眼睛/眼周",
+      "免疫功能低下",
+      "皮疹>2周不愈合",
+      "剧烈疼痛影响生活"
+    ],
+    "keywords": [
+      "带状疱疹",
+      "蛇盘疮",
+      "缠腰龙",
+      "神经痛",
+      "水疱",
+      "伐昔洛韦",
+      "疫苗",
+      "PHN"
+    ]
+  },
+  {
+    "id": "common-056",
+    "condition_zh": "急性结膜炎",
+    "condition_en": "Acute Conjunctivitis",
+    "category": "眼科",
+    "icd10": "H10",
+    "regions": [
+      "global"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "年发病率约5-7/1000(春夏高发)",
+        "rate": 0.05
+      }
+    },
+    "diagnosis": {
+      "clinical_features": [
+        "眼红(结膜充血)",
+        "分泌物(浆液性/脓性)",
+        "异物感/灼热感",
+        "晨起眼睑粘连"
+      ],
+      "gold_standard": "临床表现 + 裂隙灯检查",
+      "lab_tests": [
+        "裂隙灯检查(排除角膜受累)",
+        "结膜分泌物涂片/培养(细菌性)"
+      ]
+    },
+    "treatment": [
+      {
+        "citation_ref": "AAO 2023",
+        "evidence_level": "A",
+        "indication": "所有类型",
+        "method": "人工泪液",
+        "notes": "每2-4小时一次"
+      },
+      {
+        "citation_ref": "AAO 2023",
+        "evidence_level": "A",
+        "indication": "细菌性(脓性分泌物)",
+        "method": "抗生素滴眼液",
+        "notes": "5-7天"
+      },
+      {
+        "citation_ref": "AAO 2023",
+        "evidence_level": "B",
+        "indication": "病毒性(水样分泌物)",
+        "method": "抗病毒(更昔洛韦)",
+        "notes": "自限性(7-14天)"
+      },
+      {
+        "citation_ref": "AAO 2023",
+        "evidence_level": "A",
+        "indication": "过敏性(痒+水样分泌物)",
+        "method": "抗过敏(奥洛他定)",
+        "notes": "每日2次"
+      }
+    ],
+    "risk_factors": [
+      "接触传染",
+      "过敏体质",
+      "游泳池",
+      "隐形眼镜佩戴"
+    ],
+    "complications": [
+      "角膜炎(病毒性可致溃疡)",
+      "角膜穿孔(淋球菌性-急症)"
+    ],
+    "prevention": [
+      "勤洗手",
+      "不揉眼",
+      "不共用毛巾/眼药水",
+      "游泳戴泳镜"
+    ],
+    "when_to_seek_care": [
+      "视力下降(提示角膜受累)",
+      "剧烈眼痛",
+      "大量脓性分泌物(淋球菌?)",
+      "光敏/虹视(青光眼?)"
+    ],
+    "keywords": [
+      "结膜炎",
+      "红眼病",
+      "眼红",
+      "眼屎多",
+      "分泌物",
+      "游泳眼",
+      "角膜炎",
+      "过敏"
+    ]
+  },
+  {
+    "id": "common-057",
+    "condition_zh": "2型糖尿病",
+    "condition_en": "Type 2 Diabetes Mellitus",
+    "category": "内分泌代谢",
+    "icd10": "E11",
+    "regions": [
+      "global"
+    ],
+    "prevalence": {
+      "china": {
+        "rate": 0.137,
+        "population": "中国成人糖尿病患病率13.7%(2023年,约2.33亿)"
+      }
+    },
+    "diagnosis": {
+      "clinical_features": [
+        "三多一少(多饮多尿多食体重下降)",
+        "疲乏无力",
+        "视物模糊",
+        "伤口愈合慢",
+        "部分无症状(体检发现)"
+      ],
+      "gold_standard": "空腹血糖≥7.0 或 OGTT 2h≥11.1 或 HbA1c≥6.5%",
+      "lab_tests": [
+        "空腹血糖",
+        "OGTT",
+        "HbA1c",
+        "胰岛功能(C肽)",
+        "尿白蛋白/肌酐比",
+        "眼底检查"
+      ]
+    },
+    "treatment": [
+      {
+        "citation_ref": "CDS 2024",
+        "evidence_level": "A",
+        "indication": "所有T2DM",
+        "method": "生活方式干预(核心)",
+        "notes": "饮食+运动(150min/周)+减重(5-10%)"
+      },
+      {
+        "citation_ref": "ADA 2024",
+        "evidence_level": "A",
+        "indication": "确诊T2DM(无禁忌)",
+        "method": "二甲双胍(一线)",
+        "notes": "500-2000mg/日，eGFR<30禁用"
+      },
+      {
+        "citation_ref": "ADA 2024",
+        "evidence_level": "A",
+        "indication": "合并ASCVD/心衰/CKD",
+        "method": "SGLT2抑制剂",
+        "notes": "独立于降糖的心肾保护"
+      },
+      {
+        "citation_ref": "ADA 2024",
+        "evidence_level": "A",
+        "indication": "合并ASCVD/肥胖",
+        "method": "GLP-1受体激动剂",
+        "notes": "减重+心血管保护"
+      },
+      {
+        "citation_ref": "ADA 2024",
+        "evidence_level": "A",
+        "indication": "HbA1c>10%/有症状/口服药无效",
+        "method": "胰岛素",
+        "notes": "基础胰岛素起始"
+      }
+    ],
+    "risk_factors": [
+      "肥胖(尤其腹型)",
+      "家族史",
+      "年龄>45岁",
+      "妊娠糖尿病史",
+      "久坐不动"
+    ],
+    "complications": [
+      "视网膜病变(致盲)",
+      "肾病(终末期肾衰)",
+      "神经病变(足部溃疡截肢)",
+      "心血管疾病"
+    ],
+    "prevention": [
+      "维持健康体重(BMI<24)",
+      "规律运动(150min/周)",
+      "低GI饮食",
+      "戒烟",
+      "筛查(45岁起)"
+    ],
+    "when_to_seek_care": [
+      "血糖持续>16.7mmol/L",
+      "酮症酸中毒",
+      "低血糖(<3.9)",
+      "足部溃疡/感染"
+    ],
+    "keywords": [
+      "糖尿病",
+      "T2DM",
+      "血糖",
+      "HbA1c",
+      "二甲双胍",
+      "胰岛素",
+      "SGLT2",
+      "GLP-1",
+      "并发症"
+    ]
+  }
+]

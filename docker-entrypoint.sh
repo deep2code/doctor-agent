@@ -62,7 +62,7 @@ fi
 # Default OFF: knowledge lives in the Qdrant data image (baked at build time).
 # Enable with SEED_MARIADB_KB=true when you mount a gz volume to KNOWLEDGE_SRC.
 if echo "$SEED_MARIADB_KB" | grep -qiE "^(1|true|yes|on)$"; then
-  if [ -d "$KNOWLEDGE_SRC" ] && ls "$KNOWLEDGE_SRC"/*.gz >/dev/null 2>&1; then
+  if [ -d "$KNOWLEDGE_SRC" ] && ls "$KNOWLEDGE_SRC"/*.json.*z* >/dev/null 2>&1; then
     SEED_SKIP=0
     CNT=""
     if command -v mysql >/dev/null 2>&1; then

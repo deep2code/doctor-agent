@@ -1,0 +1,329 @@
+[
+  {
+    "id": "chd-001",
+    "condition_zh": "冠状动脉粥样硬化性心脏病",
+    "condition_en": "Coronary Artery Disease (CAD)",
+    "category": "cardiovascular_disease",
+    "icd10": "I25",
+    "regions": [
+      "全国"
+    ],
+    "prevalence": {
+      "china_2022": {
+        "rate": 0.011,
+        "population": "≥15岁(约1139万)"
+      },
+      "china_mortality": {
+        "rate": 0.00113,
+        "population": "年龄标化死亡率(/10万)"
+      }
+    },
+    "diagnosis": {
+      "lab_tests": [
+        "心肌肌钙蛋白(cTnI/cTnT)",
+        "CK-MB",
+        "NT-proBNP",
+        "血脂全套",
+        "空腹血糖",
+        "hs-CRP"
+      ],
+      "imaging": [
+        "心电图(静息/运动负荷)",
+        "超声心动图",
+        "冠状动脉CT造影(CTA)",
+        "冠状动脉造影(金标准)",
+        "冠脉内超声(IVUS)"
+      ],
+      "thresholds": {
+        "cTnI_99th": "升高提示心肌损伤(ACS)",
+        "LDL-C达标": "极高危<1.4 mmol/L; 高危<2.6 mmol/L",
+        "hsCRP": ">3 mg/L 提示活动性炎症"
+      },
+      "clinical_features": [
+        "稳定性心绞痛(劳力性胸骨后压榨感)",
+        "不稳定性心绞痛(静息发作)",
+        "急性心肌梗死(持续剧烈胸痛>30min)",
+        "猝死(室颤)",
+        "心力衰竭",
+        "心律失常"
+      ],
+      "gold_standard": "冠状动脉造影显示狭窄≥50%"
+    },
+    "treatment": [
+      {
+        "method": "阿司匹林100mg/日(长期)",
+        "indication": "所有确诊CAD患者二级预防",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "他汀类(阿托伐他汀/瑞舒伐他汀)强化降脂",
+        "indication": "LDL-C达标(极高危<1.4 mmol/L)",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "P2Y12抑制剂(氯吡格雷/替格瑞洛)",
+        "indication": "ACS或PCI术后双联抗血小板(DAPT)12个月",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "β受体阻滞剂",
+        "indication": "心梗后/心绞痛/心衰",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "ACEI/ARB",
+        "indication": "合并高血压/糖尿病/心衰/左室功能不全",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "经皮冠状动脉介入治疗(PCI)",
+        "indication": "ACS或药物控制不佳的稳定性心绞痛",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "冠状动脉旁路移植术(CABG)",
+        "indication": "左主干/三支病变/合并糖尿病的多支病变",
+        "evidence_level": "national_guideline"
+      }
+    ],
+    "differential_diagnosis": [
+      "急性肺栓塞",
+      "主动脉夹层",
+      "气胸",
+      "心包炎",
+      "食管痉挛/反流",
+      "肋软骨炎",
+      "焦虑/惊恐发作"
+    ],
+    "risk_factors": [
+      "高血压",
+      "糖尿病",
+      "血脂异常(LDL-C升高)",
+      "吸烟",
+      "肥胖(BMI≥28)",
+      "家族史(男<55岁/女<65岁早发CAD)",
+      "久坐生活方式"
+    ],
+    "complications": [
+      "急性心肌梗死",
+      "心力衰竭",
+      "恶性心律失常(室速/室颤)",
+      "心脏骤停/猝死",
+      "室壁瘤",
+      "心源性休克"
+    ],
+    "prevention": [
+      "戒烟",
+      "控制血压<130/80 mmHg",
+      "LDL-C达标",
+      "HbA1c<7%",
+      "每周≥150分钟运动",
+      "控制体重(BMI<24)"
+    ],
+    "when_to_seek_care": [
+      "胸痛持续>5分钟不缓解",
+      "含服硝酸甘油无效",
+      "伴大汗/恶心/濒死感",
+      "突发呼吸困难",
+      "晕厥"
+    ],
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "稳定性冠心病诊断和治疗指南",
+        "journal": "中华心血管病杂志",
+        "year": 2023,
+        "level": "national_guideline"
+      },
+      {
+        "type": "guideline",
+        "title": "急性冠脉综合征急诊快速诊疗指南",
+        "journal": "中华急诊医学杂志",
+        "year": 2023,
+        "level": "national_guideline"
+      }
+    ],
+    "keywords": [
+      "冠心病",
+      "冠状动脉粥样硬化",
+      "心绞痛",
+      "心肌梗死",
+      "PCI",
+      "支架",
+      "CABG",
+      "搭桥",
+      "阿司匹林",
+      "他汀",
+      "硝酸甘油",
+      "胸痛",
+      "胸闷",
+      "心电图",
+      "冠脉造影",
+      "DAPT",
+      "氯吡格雷",
+      "替格瑞洛"
+    ]
+  },
+  {
+    "id": "stroke-001",
+    "condition_zh": "脑卒中(中风)",
+    "condition_en": "Stroke (Cerebrovascular Accident)",
+    "category": "cardiovascular_disease",
+    "icd10": "I63/I61/I60",
+    "regions": [
+      "全国"
+    ],
+    "prevalence": {
+      "china_mortality": {
+        "rate": 0.00034,
+        "population": "年龄标化死亡率"
+      },
+      "china_2022": {
+        "rate": 0.00415,
+        "population": "年龄标化患病率(约1300万)"
+      }
+    },
+    "diagnosis": {
+      "lab_tests": [
+        "血常规",
+        "凝血功能",
+        "血糖",
+        "血脂",
+        "肝肾功能",
+        "心电图"
+      ],
+      "imaging": [
+        "头颅CT(急诊排除出血)",
+        "头颅MRI+DWI(缺血灶)",
+        "CTA/MRA(血管评估)",
+        "颈部血管超声"
+      ],
+      "thresholds": {
+        "NIHSS": "0-42分(神经功能缺损评分)",
+        "血压急性期": "不急于降压(除非>220/120或需溶栓<185/110)",
+        "溶栓时间窗": "发病4.5小时内(阿替普酶)"
+      },
+      "clinical_features": [
+        "突发一侧肢体无力/麻木",
+        "言语含糊/失语",
+        "面瘫(口角歪斜)",
+        "视野缺损",
+        "共济失调",
+        "意识障碍",
+        "剧烈头痛(出血性)"
+      ],
+      "gold_standard": "影像学(CT/MRI)确认缺血性或出血性卒中"
+    },
+    "treatment": [
+      {
+        "method": "静脉溶栓(阿替普酶0.9mg/kg)",
+        "indication": "急性缺血性卒中发病4.5小时内，无禁忌证",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "血管内取栓",
+        "indication": "大血管闭塞(前循环)，发病6-24小时内(影像筛选)",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "抗血小板(阿司匹林+氯吡格雷双抗21天)",
+        "indication": "轻型卒中/TIA(CHA2DS2-VASc评分指导)",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "他汀类强化降脂",
+        "indication": "所有缺血性卒中(LDL-C<1.8 mmol/L)",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "血压管理",
+        "indication": "急性期后长期控制<130/80 mmHg",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "康复训练",
+        "indication": "病情稳定后尽早开始(48小时内)",
+        "evidence_level": "national_guideline"
+      }
+    ],
+    "differential_diagnosis": [
+      "低血糖",
+      "脑肿瘤",
+      "硬膜下血肿",
+      "偏头痛先兆",
+      "癫痫发作后Todd麻痹",
+      "脑炎"
+    ],
+    "risk_factors": [
+      "高血压(首位)",
+      "心房颤动",
+      "糖尿病",
+      "血脂异常",
+      "吸烟",
+      "肥胖",
+      "饮酒",
+      "颈动脉狭窄",
+      "高同型半胱氨酸血症"
+    ],
+    "complications": [
+      "偏瘫/残疾",
+      "吞咽困难/误吸",
+      "深静脉血栓/肺栓塞",
+      "压疮",
+      "肺炎",
+      "抑郁",
+      "卒中复发"
+    ],
+    "prevention": [
+      "控制血压(最重要)",
+      "房颤患者抗凝(华法林/NOAC)",
+      "戒烟限酒",
+      "控制血糖血脂",
+      "每周≥150分钟运动",
+      "低盐低脂饮食",
+      "房颤筛查(≥65岁)"
+    ],
+    "when_to_seek_care": [
+      "突发肢体无力/麻木",
+      "突发言语障碍",
+      "突发面瘫",
+      "突发剧烈头痛",
+      "突发意识障碍",
+      "出现FAST征象(Face/Arm/Speech/Time)"
+    ],
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "中国急性缺血性脑卒中诊治指南(2024年)",
+        "journal": "中华神经科杂志",
+        "year": 2024,
+        "level": "national_guideline"
+      },
+      {
+        "type": "guideline",
+        "title": "中国脑血管病一级预防指南(2024年)",
+        "journal": "中华神经科杂志",
+        "year": 2024,
+        "level": "national_guideline"
+      }
+    ],
+    "keywords": [
+      "脑卒中",
+      "中风",
+      "脑梗死",
+      "脑出血",
+      "偏瘫",
+      "面瘫",
+      "言语障碍",
+      "溶栓",
+      "取栓",
+      "阿替普酶",
+      "FAST",
+      "卒中中心",
+      "康复",
+      "房颤",
+      "抗凝",
+      "二级预防"
+    ]
+  }
+]

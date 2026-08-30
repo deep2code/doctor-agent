@@ -1,0 +1,1410 @@
+[
+  {
+    "category": "心血管系统",
+    "complications": [
+      "缺血性脑卒中(5倍风险)",
+      "心力衰竭",
+      "认知功能下降",
+      "生活质量下降"
+    ],
+    "condition_en": "Atrial Fibrillation",
+    "condition_zh": "心房颤动",
+    "diagnosis": {
+      "clinical_features": [
+        "心悸/心跳不规则",
+        "乏力/活动耐量下降",
+        "头晕/胸闷",
+        "部分无症状(隐匿性)",
+        "脉搏绝对不齐"
+      ],
+      "gold_standard": "12导联心电图(无P波，f波，RR间期不等)",
+      "lab_tests": [
+        "12导联ECG(确诊)",
+        "24h Holter(阵发性)",
+        "超声心动图(评估心脏结构)",
+        "甲状腺功能(排除甲亢)",
+        "CHA₂DS₂-VASc评分(卒中风险)"
+      ]
+    },
+    "icd10": "I48",
+    "id": "common-035",
+    "keywords": [
+      "房颤",
+      "心房颤动",
+      "心律不齐",
+      "心悸",
+      "抗凝",
+      "华法林",
+      "NOAC",
+      "脑卒中",
+      "CHA2DS2"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国成人房颤患病率",
+        "rate": 0.016,
+        "sample_size": 73000
+      }
+    },
+    "prevention": [
+      "控制血压/血糖/血脂",
+      "戒酒",
+      "减重",
+      "治疗OSA",
+      "规律运动"
+    ],
+    "regions": [
+      "global"
+    ],
+    "risk_factors": [
+      "高血压(最常见)",
+      "心力衰竭",
+      "瓣膜病",
+      "甲亢",
+      "糖尿病",
+      "肥胖",
+      "阻塞性睡眠呼吸暂停",
+      "饮酒",
+      "家族史"
+    ],
+    "treatment": [
+      {
+        "citation_ref": "ESC 2024",
+        "evidence_level": "A",
+        "indication": "CHA₂DS₂-VASc≥2(男)/≥3(女)",
+        "method": "抗凝治疗(核心)",
+        "notes": "NOAC首选(达比加群/利伐沙班/艾多沙班/阿哌沙班)，华法林需INR 2-3"
+      },
+      {
+        "citation_ref": "ESC 2024",
+        "evidence_level": "A",
+        "indication": "持续性/永久性房颤",
+        "method": "心室率控制(β阻滞剂/CCB)",
+        "notes": "目标静息心率<110次/分(宽松)或<80次/分(严格)"
+      },
+      {
+        "citation_ref": "ESC 2024",
+        "evidence_level": "A",
+        "indication": "症状明显/心衰相关",
+        "method": "节律控制(胺碘酮/导管消融)",
+        "notes": "导管消融优于药物维持窦律"
+      },
+      {
+        "citation_ref": "ESC 2024",
+        "evidence_level": "B",
+        "indication": "NOAC禁忌/高出血风险",
+        "method": "左心耳封堵",
+        "notes": "WATCHMAN装置"
+      }
+    ],
+    "when_to_seek_care": [
+      "突发心悸不缓解",
+      "伴胸痛/呼吸困难",
+      "伴单侧肢体无力/言语不清(卒中?)",
+      "晕厥"
+    ]
+  },
+  {
+    "category": "心血管系统",
+    "complications": [
+      "急性失代偿(急诊/住院)",
+      "恶性心律失常",
+      "心源性猝死",
+      "肾功能恶化(心肾综合征)"
+    ],
+    "condition_en": "Chronic Heart Failure",
+    "condition_zh": "慢性心力衰竭",
+    "diagnosis": {
+      "clinical_features": [
+        "呼吸困难(劳力性→端坐呼吸→夜间阵发性)",
+        "下肢水肿",
+        "乏力/活动耐量下降",
+        "夜间憋醒",
+        "颈静脉怒张"
+      ],
+      "gold_standard": "症状+体征 + BNP/NT-proBNP升高 + 超声心动图(EF值)",
+      "lab_tests": [
+        "BNP(>100pg/ml)/NT-proBNP(>300pg/ml)",
+        "超声心动图(EF/舒张功能)",
+        "胸部X线(心影增大/肺淤血)",
+        "血常规/肾功能/电解质"
+      ]
+    },
+    "icd10": "I50",
+    "id": "common-036",
+    "keywords": [
+      "心衰",
+      "心力衰竭",
+      "呼吸困难",
+      "水肿",
+      "BNP",
+      "射血分数",
+      "HFrEF",
+      "HFpEF",
+      "EF"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国35岁以上成人心衰患病率",
+        "rate": 0.013000000000000001
+      }
+    },
+    "prevention": [
+      "控制血压/血糖/血脂",
+      "戒烟",
+      "限盐(<5g/日)",
+      "限液(重度心衰)",
+      "规律运动(心脏康复)",
+      "避免感染/劳累/情绪激动"
+    ],
+    "regions": [
+      "global"
+    ],
+    "risk_factors": [
+      "冠心病/心梗",
+      "高血压",
+      "瓣膜病",
+      "心肌病",
+      "糖尿病",
+      "房颤",
+      "肥胖"
+    ],
+    "treatment": [
+      {
+        "citation_ref": "中国心衰指南2024",
+        "evidence_level": "A",
+        "indication": "HFrEF一线基石",
+        "method": "ARNI(沙库巴曲缬沙坦)",
+        "notes": "ARNI优于ACEI(PARADIGM-HF)"
+      },
+      {
+        "citation_ref": "中国心衰指南2024",
+        "evidence_level": "A",
+        "indication": "HFrEF标准治疗",
+        "method": "β受体阻滞剂(比索洛尔/卡维地洛)",
+        "notes": "小剂量起始，缓慢加量"
+      },
+      {
+        "citation_ref": "中国心衰指南2024",
+        "evidence_level": "A",
+        "indication": "HFrEF/HFpEF均适用",
+        "method": "SGLT2抑制剂(达格列净)",
+        "notes": "不管有无糖尿病均可获益"
+      },
+      {
+        "citation_ref": "中国心衰指南2024",
+        "evidence_level": "A",
+        "indication": "NYHA II-IV + EF≤35%",
+        "method": "醛固酮受体拮抗剂(螺内酯)",
+        "notes": "注意血钾监测"
+      },
+      {
+        "citation_ref": "中国心衰指南2024",
+        "evidence_level": "A",
+        "indication": "液体潴留",
+        "method": "利尿剂(呋塞米/托拉塞米)",
+        "notes": "按体重/症状调整剂量"
+      }
+    ],
+    "when_to_seek_care": [
+      "夜间不能平卧",
+      "下肢水肿突然加重",
+      "体重3天增加>2kg",
+      "运动耐量急剧下降",
+      "晕厥"
+    ]
+  },
+  {
+    "category": "骨骼肌肉/自身免疫",
+    "complications": [
+      "关节畸形/残疾",
+      "肺间质病变",
+      "心血管疾病",
+      "骨质疏松(药物性)",
+      "感染风险增加"
+    ],
+    "condition_en": "Rheumatoid Arthritis",
+    "condition_zh": "类风湿关节炎",
+    "diagnosis": {
+      "clinical_features": [
+        "对称性小关节肿痛(掌指/近端指间/腕)",
+        "晨僵>30分钟",
+        "关节压痛/肿胀",
+        "晚期关节畸形/功能丧失"
+      ],
+      "gold_standard": "2010 ACR/EULAR分类标准(≥6分) + RF/抗CCP抗体 + 影像学",
+      "lab_tests": [
+        "RF(类风湿因子)",
+        "抗CCP抗体(特异性>95%)",
+        "ESR/CRP(炎症活动)",
+        "双手X线/MRI(骨侵蚀)"
+      ]
+    },
+    "icd10": "M05-M06",
+    "id": "common-037",
+    "keywords": [
+      "类风湿",
+      "RA",
+      "关节炎",
+      "晨僵",
+      "小关节",
+      "对称性",
+      "RF",
+      "抗CCP",
+      "甲氨蝶呤",
+      "MTX"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国成人RA患病率0.42%(约500万)",
+        "rate": 0.0042
+      }
+    },
+    "prevention": [
+      "早诊早治(窗口期3-6月)",
+      "戒烟",
+      "规律随访",
+      "功能锻炼"
+    ],
+    "regions": [
+      "global"
+    ],
+    "risk_factors": [
+      "女性(3倍)",
+      "HLA-DR4",
+      "吸烟",
+      "牙周病",
+      "家族史"
+    ],
+    "treatment": [
+      {
+        "citation_ref": "EULAR 2023",
+        "evidence_level": "A",
+        "indication": "一线csDMARD(确诊即用)",
+        "method": "甲氨蝶呤(MTX)",
+        "notes": "15-25mg/周+叶酸5mg，2-3月评估疗效"
+      },
+      {
+        "citation_ref": "EULAR 2023",
+        "evidence_level": "A",
+        "indication": "MTX禁忌/不耐受/联合",
+        "method": "来氟米特/柳氮磺吡啶/羟氯喹",
+        "notes": "羟氯喹适合轻症+抗CCP阳性"
+      },
+      {
+        "citation_ref": "EULAR 2023",
+        "evidence_level": "A",
+        "indication": "csDMARDs反应不足",
+        "method": "生物制剂(TNF/IL-6抑制剂)",
+        "notes": "阿达木单抗/托珠单抗，需筛查结核/乙肝"
+      },
+      {
+        "citation_ref": "EULAR 2023",
+        "evidence_level": "A",
+        "indication": "bDMARDs禁忌/不耐受",
+        "method": "JAK抑制剂(托法替布)",
+        "notes": "口服方便，注意血栓风险"
+      },
+      {
+        "citation_ref": "EULAR 2023",
+        "evidence_level": "B",
+        "indication": "活动期短期控制",
+        "method": "低剂量糖皮质激素(桥接)",
+        "notes": "泼尼松≤10mg/日，尽快减停(≤3月)"
+      }
+    ],
+    "when_to_seek_care": [
+      "关节突然红肿热痛(感染?)",
+      "手指苍白/发紫(血管炎?)",
+      "药物副作用(感染/血细胞减少)"
+    ],
+    "citations": [
+      {
+        "type": "report",
+        "title": "中国类风湿关节炎发展报告2020",
+        "year": 2020,
+        "url": "https://www.cacm.org.cn/spskl/item?item_id=10007",
+        "level": "national_report"
+      }
+    ]
+  },
+  {
+    "category": "骨骼肌肉/自身免疫",
+    "complications": [
+      "脊柱强直/驼背",
+      "髋关节受累",
+      "虹膜炎(25%)",
+      "骨质疏松",
+      "心血管风险增加"
+    ],
+    "condition_en": "Ankylosing Spondylitis",
+    "condition_zh": "强直性脊柱炎",
+    "diagnosis": {
+      "clinical_features": [
+        "炎性腰背痛(隐匿起病/晨僵>30min/活动改善/休息不缓解)",
+        "年龄<40岁起病",
+        "交替性臀区痛",
+        "外周关节炎(膝/踝)",
+        "虹膜炎"
+      ],
+      "gold_standard": "临床(炎性腰背痛) + HLA-B27 + 骶髂关节MRI/X线",
+      "lab_tests": [
+        "HLA-B27(约90%阳性)",
+        "ESR/CRP",
+        "骶髂关节MRI(早期骨髓水肿)",
+        "骶髂关节X线(II-IV级)"
+      ]
+    },
+    "icd10": "M45",
+    "id": "common-038",
+    "keywords": [
+      "强直",
+      "AS",
+      "脊柱炎",
+      "腰背痛",
+      "HLA-B27",
+      "骶髂关节",
+      "炎性腰痛",
+      "晨僵",
+      "生物制剂"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国成人AS患病率约0.3%",
+        "rate": 0.003
+      }
+    },
+    "prevention": [
+      "坚持功能锻炼(最重要)",
+      "保持正确姿势",
+      "戒烟",
+      "规律使用NSAIDs"
+    ],
+    "regions": [
+      "global"
+    ],
+    "risk_factors": [
+      "HLA-B27阳性",
+      "男性(2-3倍)",
+      "家族史",
+      "肠道感染(触发)"
+    ],
+    "treatment": [
+      {
+        "citation_ref": "ASAS 2022",
+        "evidence_level": "A",
+        "indication": "一线治疗",
+        "method": "NSAIDs(持续使用)",
+        "notes": "塞来昔布/依托考昔，症状缓解后减量但不停"
+      },
+      {
+        "citation_ref": "ASAS 2022",
+        "evidence_level": "B",
+        "indication": "外周关节炎为主",
+        "method": "csDMARDs(柳氮磺吡啶)",
+        "notes": "对中轴症状效果有限"
+      },
+      {
+        "citation_ref": "ASAS 2022",
+        "evidence_level": "A",
+        "indication": "NSAIDs反应不足(BASDAI≥4)",
+        "method": "生物制剂(TNF抑制剂)",
+        "notes": "阿达木单抗/司库奇尤单抗/依那西普"
+      },
+      {
+        "citation_ref": "ASAS 2022",
+        "evidence_level": "A",
+        "indication": "TNFi不耐受/无效",
+        "method": "IL-17抑制剂(司库奇尤单抗)",
+        "notes": "对中轴症状效果优"
+      },
+      {
+        "citation_ref": "ASAS 2022",
+        "evidence_level": "A",
+        "indication": "所有AS患者",
+        "method": "功能锻炼(核心)",
+        "notes": "游泳/瑜伽/伸展运动，保持脊柱灵活性"
+      }
+    ],
+    "when_to_seek_care": [
+      "突发视力下降/眼红(虹膜炎?)",
+      "胸痛/呼吸困难(主动脉根部扩张?)",
+      "脊柱骨折(外伤后)"
+    ],
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "强直性脊柱炎诊疗规范(2022)",
+        "year": 2022,
+        "level": "national_guideline"
+      }
+    ]
+  },
+  {
+    "category": "皮肤科",
+    "complications": [
+      "银屑病关节炎(20-30%)",
+      "代谢综合征",
+      "心血管疾病",
+      "抑郁/焦虑"
+    ],
+    "condition_en": "Psoriasis",
+    "condition_zh": "银屑病",
+    "diagnosis": {
+      "clinical_features": [
+        "境界清楚的红斑/斑块",
+        "银白色鳞屑(蜡滴/薄膜/点状出血)",
+        "头皮/肘/膝/骶部好发",
+        "指甲改变(顶针样凹陷)",
+        "关节症状(银屑病关节炎20-30%)"
+      ],
+      "gold_standard": "临床表现(典型皮损无需活检)",
+      "lab_tests": [
+        "皮肤活检(不典型时)",
+        "PASI评分",
+        "排除真菌感染(刮片镜检)"
+      ]
+    },
+    "icd10": "L40",
+    "id": "common-039",
+    "keywords": [
+      "银屑病",
+      "牛皮癣",
+      "红斑",
+      "鳞屑",
+      "PASI",
+      "生物制剂",
+      "司库奇尤",
+      "达力士"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国成人银屑病患病率0.47%(约650万)",
+        "rate": 0.0047
+      }
+    },
+    "prevention": [
+      "避免搔抓/创伤(Koebner)",
+      "控制体重",
+      "戒烟限酒",
+      "管理应激"
+    ],
+    "regions": [
+      "global"
+    ],
+    "risk_factors": [
+      "遗传(HLA-Cw6)",
+      "链球菌感染(点滴型)",
+      "应激",
+      "创伤(Koebner现象)",
+      "药物(锂/β阻滞剂)",
+      "肥胖",
+      "吸烟"
+    ],
+    "treatment": [
+      {
+        "citation_ref": "NICE 2024",
+        "evidence_level": "A",
+        "indication": "轻度(BSA<3%)",
+        "method": "外用TCS+维生素D3衍生物",
+        "notes": "卡泊三醇/倍他米松复方"
+      },
+      {
+        "citation_ref": "NICE 2024",
+        "evidence_level": "A",
+        "indication": "中度(3-10%)",
+        "method": "光疗(NB-UVB)",
+        "notes": "每周2-3次，20-30次一疗程"
+      },
+      {
+        "citation_ref": "NICE 2024",
+        "evidence_level": "A",
+        "indication": "中重度",
+        "method": "甲氨蝶呤/环孢素",
+        "notes": "MTX 7.5-25mg/周+叶酸"
+      },
+      {
+        "citation_ref": "NICE 2024",
+        "evidence_level": "A",
+        "indication": "重度(PASI≥10)",
+        "method": "生物制剂(TNF/IL-17/IL-23)",
+        "notes": "司库奇尤单抗/古塞奇尤单抗/阿达木单抗"
+      },
+      {
+        "citation_ref": "中国银屑病指南2023",
+        "evidence_level": "A",
+        "indication": "脓疱型/红皮病型",
+        "method": "阿维A(维A酸类)",
+        "notes": "致畸，育龄女性避孕"
+      }
+    ],
+    "when_to_seek_care": [
+      "关节肿痛",
+      "皮疹突然加重/泛发",
+      "脓疱型/红皮病型表现"
+    ],
+    "citations": [
+      {
+        "type": "report",
+        "title": "我国银屑病患病率约0.47%(2012年全国流行病学调查)",
+        "year": 2012,
+        "url": "https://www.peopleapp.com/rmharticle/30022398236",
+        "level": "national_survey"
+      }
+    ]
+  },
+  {
+    "category": "神经科",
+    "complications": [
+      "意外伤害/溺水/烧伤",
+      "猝死(SUDEP 1/1000患者年)",
+      "认知功能下降",
+      "抑郁/焦虑"
+    ],
+    "condition_en": "Epilepsy",
+    "condition_zh": "癫痫",
+    "diagnosis": {
+      "clinical_features": [
+        "反复发作性意识障碍/肢体抽搐",
+        "突发突止",
+        "可伴尿失禁/舌咬伤",
+        "发作后意识模糊/嗜睡",
+        "部分性或全面性发作"
+      ],
+      "gold_standard": "临床发作描述 + 脑电图(EEG) + 排除其他发作性事件",
+      "lab_tests": [
+        "脑电图(常规/视频/长程)",
+        "头颅MRI(排除结构性病因)",
+        "血常规/电解质/血糖(排除代谢性)"
+      ]
+    },
+    "icd10": "G40",
+    "id": "common-040",
+    "keywords": [
+      "癫痫",
+      "抽搐",
+      "发作",
+      "脑电图",
+      "EEG",
+      "抗癫痫药",
+      "卡马西平",
+      "丙戊酸",
+      "左乙拉西坦"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国癫痫患病率约7‰(近1000万)",
+        "rate": 0.007
+      }
+    },
+    "prevention": [
+      "规律服药(不要自行停药)",
+      "避免诱发因素(睡眠不足/饮酒/闪光刺激)",
+      "避免高空作业/游泳(未控制时)"
+    ],
+    "regions": [
+      "global"
+    ],
+    "risk_factors": [
+      "脑外伤史",
+      "脑卒中",
+      "脑肿瘤",
+      "围产期脑损伤",
+      "热性惊厥史",
+      "家族史"
+    ],
+    "treatment": [
+      {
+        "citation_ref": "ILAE 2024",
+        "evidence_level": "A",
+        "indication": "确诊癫痫(≥2次非诱发性发作)",
+        "method": "抗癫痫药物(AEDs)",
+        "notes": "局灶性:卡马西平/奥卡西平;全面性:丙戊酸/左乙拉西坦"
+      },
+      {
+        "citation_ref": "ILAE 2024",
+        "evidence_level": "A",
+        "indication": "首选单药足量",
+        "method": "单药治疗原则",
+        "notes": "60-70%单药可控"
+      },
+      {
+        "citation_ref": "ILAE 2024",
+        "evidence_level": "A",
+        "indication": "单药失败(2种单药失败=药物难治性)",
+        "method": "联合治疗",
+        "notes": "选择不同机制药物联合"
+      },
+      {
+        "citation_ref": "ILAE 2024",
+        "evidence_level": "A",
+        "indication": "药物难治性癫痫",
+        "method": "手术评估",
+        "notes": "颞叶内侧海马硬化手术效果最佳(60-80%无发作)"
+      }
+    ],
+    "when_to_seek_care": [
+      "首次发作",
+      "发作持续>5分钟(癫痫持续状态→急救)",
+      "发作频率增加",
+      "药物副作用(皮疹/肝损害)"
+    ],
+    "citations": [
+      {
+        "type": "report",
+        "title": "我国癫痫患病率约7‰患者近1000万(中国抗癫痫协会)",
+        "year": 2026,
+        "url": "https://www.jjckb.cn/20260204/cda084a58aa8474086fd5b15965cbe1d/c.html",
+        "level": "national_report"
+      }
+    ]
+  },
+  {
+    "category": "神经科",
+    "complications": [
+      "跌倒(晚期)",
+      "吞咽困难/误吸",
+      "痴呆(30-40%)",
+      "抑郁/焦虑",
+      "幻觉(药物相关)"
+    ],
+    "condition_en": "Parkinson's Disease",
+    "condition_zh": "帕金森病",
+    "diagnosis": {
+      "clinical_features": [
+        "静止性震颤(搓丸样)",
+        "肌强直(铅管样/齿轮样)",
+        "运动迟缓(核心症状)",
+        "姿势不稳(晚期)",
+        "非运动症状(便秘/嗅觉减退/RBD/抑郁)"
+      ],
+      "gold_standard": "临床诊断(MDS标准) + 对左旋多巴反应良好",
+      "lab_tests": [
+        "头颅MRI(排除其他帕金森综合征)",
+        "DAT-SPECT(多巴胺转运体显像)",
+        "嗅觉检测"
+      ]
+    },
+    "icd10": "G20",
+    "id": "common-041",
+    "keywords": [
+      "帕金森",
+      "PD",
+      "震颤",
+      "手抖",
+      "僵硬",
+      "动作慢",
+      "左旋多巴",
+      "美多芭",
+      "DBS"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国65岁以上PD患病率约1.7%",
+        "rate": 0.017
+      }
+    },
+    "prevention": [
+      "尚无明确预防方法",
+      "规律运动(可能降低风险)",
+      "咖啡(流行病学关联)"
+    ],
+    "regions": [
+      "global"
+    ],
+    "risk_factors": [
+      "年龄(主要)",
+      "男性(1.5倍)",
+      "家族史(10-15%)",
+      "农药暴露",
+      "脑外伤"
+    ],
+    "treatment": [
+      {
+        "citation_ref": "MDS 2019",
+        "evidence_level": "A",
+        "indication": "金标准(尤其>65岁首选)",
+        "method": "左旋多巴/苄丝肼(美多芭)",
+        "notes": "小剂量起始(62.5mg tid)，不要回避"
+      },
+      {
+        "citation_ref": "NICE 2017",
+        "evidence_level": "A",
+        "indication": "年轻患者(<65岁)早期",
+        "method": "多巴胺受体激动剂(普拉克索)",
+        "notes": "延缓运动并发症，注意精神副作用"
+      },
+      {
+        "citation_ref": "MDS 2019",
+        "evidence_level": "B",
+        "indication": "早期辅助",
+        "method": "MAO-B抑制剂(司来吉兰)",
+        "notes": "可能有神经保护作用"
+      },
+      {
+        "citation_ref": "MDS 2019",
+        "evidence_level": "A",
+        "indication": "药物难治性运动并发症",
+        "method": "DBS(脑深部电刺激)",
+        "notes": "丘脑底核(STN)或苍白球(GPi)"
+      },
+      {
+        "citation_ref": "MDS 2019",
+        "evidence_level": "A",
+        "indication": "所有PD患者",
+        "method": "康复治疗(核心辅助)",
+        "notes": "太极/舞蹈/步态训练/言语治疗"
+      }
+    ],
+    "when_to_seek_care": [
+      "新发震颤/动作迟缓",
+      "药物疗效减退/波动",
+      "幻觉/精神症状",
+      "吞咽困难/体重下降"
+    ],
+    "citations": [
+      {
+        "type": "article",
+        "title": "1990—2021年中国特发性癫痫疾病负担变化趋势预测及分析",
+        "year": 2024,
+        "url": "https://yxxz.whuznhmedj.com/journal/6809.html",
+        "level": "journal"
+      }
+    ]
+  },
+  {
+    "category": "肾脏科",
+    "complications": [
+      "心血管疾病(主要死因)",
+      "贫血",
+      "矿物质骨代谢紊乱(CKD-MBD)",
+      "代谢性酸中毒",
+      "高钾血症",
+      "尿毒症"
+    ],
+    "condition_en": "Chronic Kidney Disease",
+    "condition_zh": "慢性肾脏病",
+    "diagnosis": {
+      "clinical_features": [
+        "早期无症状(沉默)",
+        "泡沫尿(蛋白尿)",
+        "夜尿增多",
+        "下肢水肿",
+        "高血压(常合并)",
+        "晚期恶心/乏力/贫血"
+      ],
+      "gold_standard": "eGFR<60 ml/min/1.73m² 和/或 ACR≥30mg/g 持续≥3个月",
+      "lab_tests": [
+        "血肌酐→计算eGFR",
+        "尿ACR",
+        "尿常规",
+        "血电解质/钙磷/PTH",
+        "肾脏超声"
+      ]
+    },
+    "icd10": "N18",
+    "id": "common-042",
+    "keywords": [
+      "肾病",
+      "CKD",
+      "慢性肾衰",
+      "eGFR",
+      "蛋白尿",
+      "肌酐",
+      "透析",
+      "肾移植",
+      "SGLT2"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国成人CKD患病率(eGFR<60或白蛋白尿)",
+        "rate": 0.10800000000000001
+      }
+    },
+    "prevention": [
+      "控制血糖(HbA1c<7%)",
+      "控制血压(<130/80)",
+      "避免肾毒性药物",
+      "充足饮水",
+      "避免高蛋白饮食"
+    ],
+    "regions": [
+      "global"
+    ],
+    "risk_factors": [
+      "糖尿病(首位)",
+      "高血压(第二位)",
+      "肾小球肾炎",
+      "多囊肾",
+      "药物(NSAIDs/马兜铃酸)",
+      "高龄"
+    ],
+    "treatment": [
+      {
+        "citation_ref": "KDIGO 2024",
+        "evidence_level": "A",
+        "indication": "CKD合并蛋白尿(ACR>300)",
+        "method": "RAAS阻断(ACEI/ARB)",
+        "notes": "厄贝沙坦/缬沙坦，允许eGFR降30%"
+      },
+      {
+        "citation_ref": "KDIGO 2024",
+        "evidence_level": "A",
+        "indication": "eGFR≥20的CKD(无论有无糖尿病)",
+        "method": "SGLT2抑制剂(达格列净)",
+        "notes": "DAPA-CKD：降低肾终点+心血管死亡44%"
+      },
+      {
+        "citation_ref": "KDIGO 2024",
+        "evidence_level": "A",
+        "indication": "2型糖尿病CKD(ACR>30)",
+        "method": "非甾体MRA(非奈利酮)",
+        "notes": "FIDELIO-DKD：降低肾进展"
+      },
+      {
+        "citation_ref": "KDIGO 2024",
+        "evidence_level": "A",
+        "indication": "所有CKD",
+        "method": "血压控制(<130/80)",
+        "notes": "ACEI/ARB为首选降压药"
+      },
+      {
+        "citation_ref": "KDIGO 2024",
+        "evidence_level": "B",
+        "indication": "CKD 3-5期(未透析)",
+        "method": "低蛋白饮食(0.6-0.8g/kg/日)",
+        "notes": "需营养师指导"
+      },
+      {
+        "citation_ref": "KDIGO 2024",
+        "evidence_level": "A",
+        "indication": "CKD 5期(eGFR<15)",
+        "method": "透析/肾移植",
+        "notes": "肾移植为首选"
+      }
+    ],
+    "when_to_seek_care": [
+      "尿量明显减少",
+      "严重水肿",
+      "恶心呕吐加重",
+      "呼吸困难(酸中毒/容量过负荷)",
+      "意识改变"
+    ]
+  },
+  {
+    "category": "内分泌代谢/骨骼",
+    "complications": [
+      "髋部骨折(1年死亡率20-30%)",
+      "椎体压缩骨折",
+      "生活质量下降",
+      "肺部感染/深静脉血栓(卧床)"
+    ],
+    "condition_en": "Osteoporosis",
+    "condition_zh": "骨质疏松症",
+    "diagnosis": {
+      "clinical_features": [
+        "多数无症状(沉默)",
+        "身高变矮/驼背(椎体压缩)",
+        "脆性骨折(髋/椎/腕)"
+      ],
+      "gold_standard": "DEXA骨密度(T值≤-2.5)",
+      "lab_tests": [
+        "DEXA(T值)",
+        "血钙/磷/25(OH)D",
+        "PTH",
+        "骨转换标志物(CTX/P1NP)",
+        "FRAX"
+      ]
+    },
+    "icd10": "M80-M81",
+    "id": "common-043",
+    "keywords": [
+      "骨质疏松",
+      "骨密度",
+      "DEXA",
+      "T值",
+      "骨折",
+      "钙",
+      "维生素D",
+      "双膦酸盐",
+      "地舒单抗",
+      "绝经"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国50岁以上女性骨质疏松患病率(DEXA)",
+        "rate": 0.192
+      }
+    },
+    "prevention": [
+      "补钙+维D",
+      "负重运动",
+      "防跌倒(改善照明/防滑)",
+      "戒烟限酒",
+      "筛查(65+/绝经后女性DEXA)"
+    ],
+    "regions": [
+      "global"
+    ],
+    "risk_factors": [
+      "女性绝经后",
+      "高龄",
+      "低体重(BMI<19)",
+      "骨折家族史",
+      "长期糖皮质激素",
+      "吸烟/过量饮酒",
+      "维D缺乏"
+    ],
+    "treatment": [
+      {
+        "citation_ref": "IOF 2023",
+        "evidence_level": "A",
+        "indication": "所有骨质疏松",
+        "method": "钙+维生素D(基础)",
+        "notes": "钙1000-1200mg/日+维D 800-1200IU/日"
+      },
+      {
+        "citation_ref": "IOF 2023",
+        "evidence_level": "A",
+        "indication": "一线抗骨质疏松",
+        "method": "双膦酸盐(阿仑膦酸钠)",
+        "notes": "70mg/周，晨起空腹+200ml水+直立30min"
+      },
+      {
+        "citation_ref": "IOF 2023",
+        "evidence_level": "A",
+        "indication": "双膦酸盐不耐受/高骨折风险",
+        "method": "地舒单抗(RANKL抑制剂)",
+        "notes": "60mg皮下注射/6月"
+      },
+      {
+        "citation_ref": "IOF 2023",
+        "evidence_level": "A",
+        "indication": "严重骨质疏松(椎体/多发骨折)",
+        "method": "特立帕肽(PTH类似物)",
+        "notes": "20μg/日皮下注射，最长24月"
+      },
+      {
+        "citation_ref": "IOF 2023",
+        "evidence_level": "A",
+        "indication": "所有骨质疏松",
+        "method": "运动(负重/抗阻)",
+        "notes": "步行/慢跑/哑铃，避免弯腰/扭转/高冲击"
+      }
+    ],
+    "when_to_seek_care": [
+      "脆性骨折(跌倒后骨折)",
+      "身高变矮>3cm",
+      "慢性腰背痛",
+      "长期使用糖皮质激素"
+    ]
+  },
+  {
+    "category": "神经科",
+    "complications": [
+      "恢复不完全(20-30%残留)",
+      "面肌联动(误再生)",
+      "角膜损伤(护理不当)",
+      "鳄鱼泪(联动)"
+    ],
+    "condition_en": "Bell's Palsy",
+    "condition_zh": "面神经麻痹",
+    "diagnosis": {
+      "clinical_features": [
+        "急性起病(数小时-3天)的单侧周围性面瘫",
+        "额纹消失(中枢性保留额纹!)",
+        "口角歪斜/闭眼不全",
+        "味觉减退(前2/3舌)",
+        "听觉过敏",
+        "耳后疼痛(Hunt征)"
+      ],
+      "gold_standard": "临床诊断(排除中枢性/其他病因)",
+      "lab_tests": [
+        "排除中枢性(额纹存在→脑卒中!)",
+        "必要时头颅MRI",
+        "肌电图(评估预后)"
+      ]
+    },
+    "icd10": "G51.0",
+    "id": "common-044",
+    "keywords": [
+      "面瘫",
+      "贝尔麻痹",
+      "面神经",
+      "口角歪斜",
+      "嘴歪",
+      "眼睛闭不上",
+      "激素",
+      "泼尼松"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "年发病率约20-30/10万",
+        "rate": 0.03
+      }
+    },
+    "prevention": [
+      "尚无明确预防方法",
+      "控制糖尿病/血压"
+    ],
+    "regions": [
+      "global"
+    ],
+    "risk_factors": [
+      "糖尿病(4倍)",
+      "高血压",
+      "妊娠/产后",
+      "上呼吸道感染",
+      "免疫功能低下"
+    ],
+    "treatment": [
+      {
+        "citation_ref": "NICE 2020",
+        "evidence_level": "A",
+        "indication": "72h内开始(核心治疗)",
+        "method": "糖皮质激素(泼尼松)",
+        "notes": "60mg/日×5天→5天减量，共10天"
+      },
+      {
+        "citation_ref": "NICE 2020",
+        "evidence_level": "B",
+        "indication": "联合激素(Hunt征/严重面瘫)",
+        "method": "抗病毒(阿昔洛韦/伐昔洛韦)",
+        "notes": "单独使用无效，联合激素可能获益"
+      },
+      {
+        "citation_ref": "NICE 2020",
+        "evidence_level": "A",
+        "indication": "闭眼不全(角膜保护)",
+        "method": "人工泪液+眼罩",
+        "notes": "日间人工泪液+夜间眼膏+眼罩"
+      },
+      {
+        "citation_ref": "Cochrane 2019",
+        "evidence_level": "B",
+        "indication": "恢复期(发病2周后)",
+        "method": "面部康复训练",
+        "notes": "皱眉/闭眼/鼓腮/吹口哨训练"
+      }
+    ],
+    "when_to_seek_care": [
+      "急性面瘫+额纹存在(→排除脑卒中!)",
+      "双侧面瘫(GBS?)",
+      "伴听力下降/眩晕(Hunt综合征?)",
+      "恢复后复发"
+    ]
+  },
+  {
+    "category": "骨骼肌肉",
+    "complications": [
+      "永久性感觉丧失",
+      "大鱼际肌萎缩/无力",
+      "握力下降影响日常活动"
+    ],
+    "condition_en": "Carpal Tunnel Syndrome",
+    "condition_zh": "腕管综合征",
+    "diagnosis": {
+      "clinical_features": [
+        "拇指/食指/中指麻木/刺痛(夜间加重)",
+        "甩手可缓解(Phalen征)",
+        "正中神经分布区感觉减退",
+        "大鱼际肌萎缩(晚期)",
+        "Tinel征阳性"
+      ],
+      "gold_standard": "临床症状 + 神经电生理检查(正中神经传导减慢)",
+      "lab_tests": [
+        "正中神经传导速度(诊断金标准)",
+        "超声(腕横韧带/正中神经横截面积)",
+        "排除甲状腺功能减退/糖尿病神经病变"
+      ]
+    },
+    "icd10": "G56.0",
+    "id": "common-045",
+    "keywords": [
+      "腕管综合征",
+      "鼠标手",
+      "正中神经",
+      "手麻",
+      "夜间手麻",
+      "Tinel征",
+      "Phalen",
+      "支具"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "成人患病率(女性3-4倍)",
+        "rate": 0.02
+      }
+    },
+    "prevention": [
+      "避免长时间重复腕部动作",
+      "使用人体工学工具",
+      "间歇休息/伸展",
+      "夜间保持腕中立位"
+    ],
+    "regions": [
+      "global"
+    ],
+    "risk_factors": [
+      "女性(3-4倍)",
+      "妊娠/产后",
+      "糖尿病",
+      "甲状腺功能减退",
+      "重复性腕部劳动",
+      "腕部骨折/脱位史"
+    ],
+    "treatment": [
+      {
+        "citation_ref": "AAOS 2023",
+        "evidence_level": "A",
+        "indication": "轻度/早期",
+        "method": "腕关节支具(夜间佩戴)",
+        "notes": "中立位腕关节支具，夜间佩戴6-8周"
+      },
+      {
+        "citation_ref": "AAOS 2023",
+        "evidence_level": "A",
+        "indication": "轻中度/术前过渡",
+        "method": "局部糖皮质激素注射",
+        "notes": "腕管内注射，效果可持续数月"
+      },
+      {
+        "citation_ref": "AAN 2020",
+        "evidence_level": "B",
+        "indication": "辅助",
+        "method": "口服营养神经(甲钴胺)",
+        "notes": "甲钴胺500μg tid"
+      },
+      {
+        "citation_ref": "AAOS 2023",
+        "evidence_level": "A",
+        "indication": "中重度/保守无效/肌萎缩",
+        "method": "手术(腕横韧带切开松解)",
+        "notes": "开放或内镜手术，成功率>90%"
+      }
+    ],
+    "when_to_seek_care": [
+      "持续麻木不缓解",
+      "大鱼际肌萎缩",
+      "握力明显下降",
+      "夜间频繁痛醒"
+    ]
+  },
+  {
+    "category": "泌尿科",
+    "complications": [
+      "反复尿路感染",
+      "皮肤问题(尿失禁)",
+      "睡眠障碍",
+      "焦虑/抑郁",
+      "跌倒(夜尿)"
+    ],
+    "condition_en": "Overactive Bladder",
+    "condition_zh": "膀胱过度活动症",
+    "diagnosis": {
+      "clinical_features": [
+        "尿急(核心症状)",
+        "伴或不伴急迫性尿失禁",
+        "尿频(日间≥8次)",
+        "夜尿≥2次"
+      ],
+      "gold_standard": "临床症状(OABSS评分≥3分)",
+      "lab_tests": [
+        "排尿日记(3天)",
+        "OABSS评分",
+        "尿常规(排除感染)",
+        "残余尿超声(排除尿潴留)"
+      ]
+    },
+    "icd10": "N39.4",
+    "id": "common-046",
+    "keywords": [
+      "膀胱过度活动",
+      "OAB",
+      "尿急",
+      "尿频",
+      "尿失禁",
+      "急迫性",
+      "夜尿",
+      "托特罗定",
+      "索利那新",
+      "盆底肌"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国成人OAB患病率",
+        "rate": 0.06
+      }
+    },
+    "prevention": [
+      "盆底肌训练(产后/围绝经期)",
+      "控制体重",
+      "限制咖啡因/酒精",
+      "规律排尿习惯"
+    ],
+    "regions": [
+      "global"
+    ],
+    "risk_factors": [
+      "女性",
+      "年龄增长",
+      "经产/多产",
+      "肥胖",
+      "糖尿病",
+      "脑卒中/帕金森"
+    ],
+    "treatment": [
+      {
+        "citation_ref": "ICS 2023",
+        "evidence_level": "A",
+        "indication": "所有OAB患者",
+        "method": "膀胱训练(一线)",
+        "notes": "定时排尿+延迟排尿(逐渐延长至3-4h)"
+      },
+      {
+        "citation_ref": "ICS 2023",
+        "evidence_level": "A",
+        "indication": "急迫性尿失禁",
+        "method": "盆底肌训练(Kegel)",
+        "notes": "每日3组×10次收缩，持续≥3月"
+      },
+      {
+        "citation_ref": "ICS 2023",
+        "evidence_level": "A",
+        "indication": "一线药物",
+        "method": "M受体拮抗剂(托特罗定/索利那新)",
+        "notes": "口干/便秘常见，缓释剂型耐受性更好"
+      },
+      {
+        "citation_ref": "ICS 2023",
+        "evidence_level": "A",
+        "indication": "M受体拮抗剂不耐受/无效",
+        "method": "β3受体激动剂(米拉贝隆)",
+        "notes": "口干发生率低，注意升血压"
+      },
+      {
+        "citation_ref": "ICS 2023",
+        "evidence_level": "A",
+        "indication": "药物难治性OAB",
+        "method": "A型肉毒毒素膀胱壁注射",
+        "notes": "效果维持6-9月，注意尿潴留风险"
+      }
+    ],
+    "when_to_seek_care": [
+      "尿失禁影响生活",
+      "血尿",
+      "反复尿路感染",
+      "药物副作用无法耐受"
+    ]
+  },
+  {
+    "category": "泌尿科",
+    "complications": [
+      "急性尿潴留(急症)",
+      "反复尿路感染",
+      "膀胱结石",
+      "肾积水(上尿路扩张)",
+      "膀胱功能损害"
+    ],
+    "condition_en": "Benign Prostatic Hyperplasia",
+    "condition_zh": "良性前列腺增生",
+    "diagnosis": {
+      "clinical_features": [
+        "排尿踌躇/等待",
+        "尿线变细/分叉",
+        "排尿费力/间断",
+        "尿不尽感/滴沥",
+        "尿频/夜尿增多",
+        "急性尿潴留(急症)"
+      ],
+      "gold_standard": "临床症状(IPSS评分) + 直肠指检 + 超声(前列腺体积+残余尿)",
+      "lab_tests": [
+        "IPSS评分(0-35分,≥7有临床意义)",
+        "直肠指检(DRE)",
+        "PSA(排除前列腺癌)",
+        "超声(前列腺体积+残余尿)",
+        "尿流率"
+      ]
+    },
+    "icd10": "N40",
+    "id": "common-047",
+    "keywords": [
+      "前列腺增生",
+      "BPH",
+      "排尿困难",
+      "尿频",
+      "夜尿",
+      "尿潴留",
+      "坦索罗辛",
+      "非那雄胺",
+      "TURP",
+      "前列腺"
+    ],
+    "prevalence": {
+      "china": {
+        "population": "中国60岁以上男性BPH组织学患病率",
+        "rate": 0.5
+      }
+    },
+    "prevention": [
+      "避免久坐/憋尿",
+      "限制晚间液体摄入",
+      "限制酒精/咖啡因",
+      "规律排尿",
+      "适度运动"
+    ],
+    "regions": [
+      "global"
+    ],
+    "risk_factors": [
+      "年龄(>50岁)",
+      "雄激素(睾酮)",
+      "家族史",
+      "肥胖",
+      "代谢综合征"
+    ],
+    "treatment": [
+      {
+        "citation_ref": "EAU 2024",
+        "evidence_level": "B",
+        "indication": "轻度症状",
+        "method": "观察等待(IPSS≤7)",
+        "notes": "生活方式调整+定期随访"
+      },
+      {
+        "citation_ref": "EAU 2024",
+        "evidence_level": "A",
+        "indication": "中重度症状(一线药物)",
+        "method": "α1受体阻滞剂(坦索罗辛)",
+        "notes": "0.2mg qn，起效快(48h)，注意体位性低血压"
+      },
+      {
+        "citation_ref": "EAU 2024",
+        "evidence_level": "A",
+        "indication": "前列腺体积>30-40ml",
+        "method": "5α还原酶抑制剂(非那雄胺)",
+        "notes": "缩小前列腺体积30%，起效慢(3-6月)"
+      },
+      {
+        "citation_ref": "EAU 2024",
+        "evidence_level": "A",
+        "indication": "前列腺大+症状重",
+        "method": "α阻滞剂+5α还原酶联合",
+        "notes": "症状控制+长期缩小体积"
+      },
+      {
+        "citation_ref": "EAU 2024",
+        "evidence_level": "A",
+        "indication": "药物无效/并发症(尿潴留/反复血尿/肾积水)",
+        "method": "手术(TURP/钬激光/绿激光)",
+        "notes": "TURP为金标准，注意逆行射精(30%)"
+      }
+    ],
+    "when_to_seek_care": [
+      "无法排尿(急性尿潴留→急诊导尿)",
+      "血尿",
+      "反复尿路感染",
+      "肾功能下降"
+    ]
+  }
+]

@@ -313,10 +313,12 @@ API_KEY=自定义访问密钥
 > **架构说明（2026-08-30 起，双镜像）**：`doctor-agent-qdrant` 是一个镜像 = **纯 gz
 > 知识库（alpine 层，51 数据集）+ 标准 Qdrant + 构建期烘好的向量**，启动即用、零灌入
 > 等待。MariaDB 只做业务库（用户/会话/消息/反馈），知识检索走 Qdrant。
-> 本地重新烘焙知识镜像（先构建 app，再从 app 取 vector-bake 二进制）：
+> 本地重新构建并推送知识镜像（烘焙工具已独立，不依赖 app 镜像）：
 > ```bash
-> make docker-build          # 先构建 app 镜像
-> ./docker/qdrant-context/build.sh doctor-agent-qdrant:latest doctor-agent:latest
+> python3 external/make_gz.py  # data/*.json 变更后先重新压缩
+> ./build.sh qdrant        # 只构建+推送 RAG 镜像
+> ./build.sh               # 改代码时：只构建+推送 app 镜像
+> ./build.sh full          # 全量：app + qdrant
 > ```
 
 #### 2. 启动
@@ -532,7 +534,7 @@ doctor-agent/
 │   ├── session/                      # 会话管理 + JSON 文件持久化
 │   ├── prompt/                       # 5层系统提示词
 │   ├── knowledge/                    # 知识库(MariaDB/Qdrant) + 检索器 + 引用系统
-│   │   ├── data/                     # 51个源JSON（编辑后运行 make gz）
+│   │   ├── data/                     # 51个源JSON（编辑后运行 python3 external/make_gz.py → gz/*.zst）
 │   │   └── gz/                       # gzip 压缩的种子文件（seed/bake 输入）
 │   ├── tools/                        # 35个医疗工具 + 注册表
 │   ├── safety/                       # 4层安全防护

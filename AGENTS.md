@@ -20,16 +20,18 @@ go run . chat                                    # interactive CLI (streaming ou
 go run . serve                                   # HTTP on 0.0.0.0:8080 (/health, /chat, /chat/stream real SSE)
 go run . verify-knowledge                        # knowledge-base integrity check (DOI/PMID format, uniqueness, traceability, version)
 go run . verify-knowledge -urls                 # also probe citation URL liveness (online, slow)
-go run . seed-knowledge                         # build knowledge store (MariaDB) from internal/knowledge/gz/*.gz
+go run . seed-knowledge                         # build knowledge store (MariaDB) from internal/knowledge/gz/*.json.*z*
 go run . seed-knowledge --db='root:pass@tcp(localhost:3306)/doctor_knowledge?parseTime=true' --src=internal/knowledge/gz
-go run . vector-bake                            # offline gz -> Qdrant bake (RAG data image; no MariaDB needed)
+go run ./cmd/vector-bake                      # offline gz -> Qdrant bake (RAG data image; no MariaDB needed)
 go run ./evals                                  # offline eval on sample_answers.json (26-question golden set)
 go run ./evals -online                          # online eval: runs real agent per question (needs API key; slow)
 go run ./evals -answers my.json -report out.json # eval custom answers + JSON report; exit 1 on any failure (CI-friendly)
-./builder.sh [-l|-c]                             # install script: builds to $GOPATH/bin or ./build
-make lint                                        # golangci-lint v2.12.2 (installed at /Users/junjunyi/gopath/bin; .golangci.yml is v2 format, same version in CI)
-make gz                                          # regenerate internal/knowledge/gz/*.json.gz after editing data/*.json
+./build.sh [app|qdrant|full]                       # 唯一打包入口: 构建+推送镜像到阿里云
+golangci-lint run ./...                            # lint (v2.12.2 installed at /Users/junjunyi/gopath/bin; .golangci.yml is v2 format, same version in CI)
+python3 external/make_gz.py                        # regenerate internal/knowledge/gz/*.json.zst after editing data/*.json
 ```
+
+⚠️ Makefile was removed 2026-08-30 (local-dev targets folded into plain go/lint commands above; Docker packaging lives solely in `./build.sh`).
 
 ⚠️ **Fixed 2026-08-09**: `Makefile` and `README.md` previously referenced `./cmd/doctor-agent` (nonexistent) — `make build/chat/serve` failed. Both now use root `main.go` (`go build -o bin/doctor-agent .`, `go run . chat/serve/verify-knowledge`).
 
@@ -38,7 +40,7 @@ make gz                                          # regenerate internal/knowledge
 Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessage` is a non-streaming wrapper): L1 emergency detection → L2 scope guard → knowledge retrieval → layered system prompt → agent loop (≤5 iterations, tool-use, streaming deltas) → L3 citation post-verification → L4 disclaimer. Sessions live in a mutex-guarded `map[string]*Session`; with `SESSION_DIR` set they are snapshotted to JSON files and restored across restarts.
 
 - `internal/agent` — orchestrator `Agent`; builds provider-agnostic messages, dispatches tools, applies safety layers.
-- `internal/knowledge` — **database-backed (no embedded data)**: the compiled binary contains ONLY logic. Every dataset lives in an external **MariaDB** knowledge store (`doctor_knowledge` database; DSN via `MARIA_DB_*` env or explicit `KNOWLEDGE_DB_DSN`). `kb.go` is the `KB` layer (`kb_items(id, dataset, key, data MEDIUMBLOB)` + `InsertBatch`/`All`/`Search`/`Clear`; upsert via `INSERT ... ON DUPLICATE KEY UPDATE`; `data` column gzip-compressed); `loader.go` `Store` is a sync.Once singleton whose `ensureXxx()` methods load a dataset **lazily from the DB on first use** and cache it in RWMutex-guarded maps (runtime retrieval = "检索时直接查库"; cold read hits MariaDB, warm read cached). `seed.go` `Seed()` reads `gz/*.gz` and bulk-inserts rows (`seed-knowledge` CLI). Source JSONs in `data/` are gzip-compressed into `gz/` by `external/make_gz.py` (still required as seed inputs). `Retriever` interface with `retriever_keyword` (BM25 + CJK substring/bigram matching), `vector_store.go` (Qdrant vector storage + retrieval), `retriever_vector.go` (semantic search via embeddings), `retriever_hybrid` (RRF fusion); `CitationFormatter`, schemas in `schemas.go`. `verify.go` also hosts `CheckURLLiveness` (probes citation URLs).
+- `internal/knowledge` — **database-backed (no embedded data)**: the compiled binary contains ONLY logic. Every dataset lives in an external **MariaDB** knowledge store (`doctor_knowledge` database; DSN via `MARIA_DB_*` env or explicit `KNOWLEDGE_DB_DSN`). `kb.go` is the `KB` layer (`kb_items(id, dataset, key, data MEDIUMBLOB)` + `InsertBatch`/`All`/`Search`/`Clear`; upsert via `INSERT ... ON DUPLICATE KEY UPDATE`; `data` column gzip-compressed); `loader.go` `Store` is a sync.Once singleton whose `ensureXxx()` methods load a dataset **lazily from the DB on first use** and cache it in RWMutex-guarded maps (runtime retrieval = "检索时直接查库"; cold read hits MariaDB, warm read cached). `seed.go` `Seed()` reads `gz/` archives (`.json.gz` legacy gzip / `.json.zst` zstd-19, auto-detected by magic bytes) and bulk-inserts rows (`seed-knowledge` CLI). Source JSONs in `data/` are zstd-compressed (level 19) into `gz/` by `external/make_gz.py` (~38% smaller than the old gzip-9); LFS-pointer sources are skipped. Go loaders read both formats via magic-byte detection (`internal/knowledge/archive.go`). `Retriever` interface with `retriever_keyword` (BM25 + CJK substring/bigram matching), `vector_store.go` (Qdrant vector storage + retrieval), `retriever_vector.go` (semantic search via embeddings), `retriever_hybrid` (RRF fusion); `CitationFormatter`, schemas in `schemas.go`. `verify.go` also hosts `CheckURLLiveness` (probes citation URLs).
 - `internal/llm` — `LLMProvider` interface (`Chat`, `StreamChat(ctx, messages, tools, systemPrompt, onDelta)`, `Name()`); `anthropic_provider.go` (NewStreaming), `deepseek_provider.go` + `openai_compat_provider.go` sharing `openai_stream.go` (SSE parsing + tool-call fragment accumulation); provider-agnostic `Message`/`ToolDefinition`/`ToolCall`; **multimodal support** (`ContentPart`/`ImageInput` for medical image analysis).
 - `internal/tools` — `Tool` interface (`Name/Description/Schema/Execute` → `*ToolResult{Success, Data, Error, Citations}`) + `Registry` (mutex, insertion-ordered). 35 tools: drug_safety_check, genetic_risk_calculator, food_risk_analyzer, symptom_triage, reference_lookup, lab_interpreter, literature_search, msd_search, variant_lookup, medline_search, drug_lookup, eml_lookup, drug_label_lookup, nhc_search, fhs_search, aap_search, icd10_lookup, nmpa_drug_lookup, medical_kg_lookup, disease_encyclopedia_lookup, cpubmed_kg_lookup, huatuo_qa_lookup, ttd_lookup, drug_interaction_check, disease_symptom_lookup, target_disease_lookup, disease_drug_lookup, medical_qa_lookup, sider_lookup, triage_department, body_part_lookup, lab_report_interpret, medical_image_analyze.
 - `internal/safety` — `EmergencyDetector`, `ScopeGuard`, `PostVerifier` (citation realness + optional LLM-as-judge claim-support check via `POST_VERIFY_SEMANTIC`), `DisclaimerService`.
@@ -60,7 +62,7 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
 - Concurrency: `sync.RWMutex` for Store/Registry reads, `sync.Once` for the knowledge singleton; channels + goroutines in hybrid retriever. New shared state must be mutex-guarded.
 - Tools: JSON-schema `Schema()` (snake_case keys), `Execute` returns `ToolResult` — never returns raw data without `Success`/`Citations`.
 - Config changes: add to `config.Config` + `Load()` + `.env.example` + `printUsage()` in `main.go`.
-- New knowledge: add JSON to `internal/knowledge/data/` AND register its filename in `knowledge/seed.go` `seedFile()` switch (classify → dataset + rows), or it is silently ignored. Then run `make gz` (or `python3 external/make_gz.py`) to regenerate the compressed `gz/` copies, then `go run . seed-knowledge` to seed the MariaDB knowledge store. Ensure a matching lazy loader exists: add an `ensureXxx()` + `loadXxx()` pair in `loader.go` and a getter that calls `ensureXxx()` so runtime retrieval populates it from MariaDB. Update `data/version.json` sources on data changes.
+- New knowledge: add JSON to `internal/knowledge/data/` AND register its filename in `knowledge/seed.go` `seedFile()` switch (classify → dataset + rows), or it is silently ignored. Then run `python3 external/make_gz.py` to regenerate the compressed `gz/` copies, then `go run . seed-knowledge` to seed the MariaDB knowledge store. Ensure a matching lazy loader exists: add an `ensureXxx()` + `loadXxx()` pair in `loader.go` and a getter that calls `ensureXxx()` so runtime retrieval populates it from MariaDB. Update `data/version.json` sources on data changes.
 - Retrieval gotcha: `tokenize()` does NOT segment Chinese — CJK recall depends on substring + bigram matching against keywords/symptom fields in `retriever_keyword.go`. Symptom-style questions ("我一喝牛奶就拉肚子") now recall correctly (probe: 12/12); keep new entries' `keywords` in Chinese symptom vocabulary.
 - Institutional publications (WHO/IARC/NCCN/中国指南) have no DOI/PMID by design — leave their `journal` empty so `verify-knowledge` doesn't flag them as untraceable journal articles.
 - Keep UI strings Chinese; don't translate domain content to English.
@@ -68,7 +70,7 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
 ## Notes
 
 - (add quick notes here — e.g. decisions, gotchas, future work)
-- **Knowledge base in MariaDB (2026-08-24)**: all `//go:embed` knowledge JSON removed; data lives in **MariaDB** (`doctor_knowledge` database; DSN via `MARIA_DB_*` env or `KNOWLEDGE_DB_DSN`), seeded by `go run . seed-knowledge` from `gz/*.gz`. Binary dropped 95MB→43MB and contains only logic. Loading is **lazy per dataset** at retrieval time (`Store.ensureXxx()` → MariaDB read → in-memory cache). `config.KnowledgeDBDSN()` composes the DSN from `MARIA_DB_*` (an explicit `KNOWLEDGE_DB_DSN` env overrides). Storage: `kb_items(id, dataset, key, data MEDIUMBLOB)` with gzip-compressed `data` (magic-byte check allows back-compat reads); upsert via `INSERT ... ON DUPLICATE KEY UPDATE`. The `search_text` column was dropped and rebuilt in Go inside `KB.Search` (only the optional vector-retrieval candidate path uses it). Business store (users/sessions/messages/feedback) is also MariaDB (`doctor_agent` database, `config.AppDBDSN()`). Docker Compose bundles a `mariadb` service alongside Qdrant and the app.
+- **Knowledge base in MariaDB (2026-08-24)**: all `//go:embed` knowledge JSON removed; data lives in **MariaDB** (`doctor_knowledge` database; DSN via `MARIA_DB_*` env or `KNOWLEDGE_DB_DSN`), seeded by `go run . seed-knowledge` from `gz/` archives (zstd, magic-byte-detected). Binary dropped 95MB→43MB and contains only logic. Loading is **lazy per dataset** at retrieval time (`Store.ensureXxx()` → MariaDB read → in-memory cache). `config.KnowledgeDBDSN()` composes the DSN from `MARIA_DB_*` (an explicit `KNOWLEDGE_DB_DSN` env overrides). Storage: `kb_items(id, dataset, key, data MEDIUMBLOB)` with gzip-compressed `data` (magic-byte check allows back-compat reads); upsert via `INSERT ... ON DUPLICATE KEY UPDATE`. The `search_text` column was dropped and rebuilt in Go inside `KB.Search` (only the optional vector-retrieval candidate path uses it). Business store (users/sessions/messages/feedback) is also MariaDB (`doctor_agent` database, `config.AppDBDSN()`). Docker Compose bundles a `mariadb` service alongside Qdrant and the app.
 - **Vector retrieval 默认开启 + 本地无模型 embedding (2026-08-24)**: `VECTOR_STORE_ENABLED`/`EMBEDDING_ENABLED` 默认值改为 `true`。检索在 `agent.New` 中默认构建 **HybridRetriever**(keyword + vector, RRF 融合, vectorWeight=0.4)。向量库仍用 Qdrant(`internal/knowledge/vector_store.go`, `NewVectorStore` 改为**懒连接**——创建时不 ping,`EnsureCollection` 由 syncer 在 `FullSync`/`IncrementalSync` 前调用,故启动不阻塞;Qdrant 不可达时 `VectorRetriever.Retrieve` 报错 → `HybridRetriever` 自动降级为关键词检索,无报错)。embedding 默认 `internal/embedding/local.go` 的 `LocalProvider`=进程内 FNV 哈希词向量(CJK 单字+bigram + Latin 词 token,L2 归一化固定 1024 维,零模型/零网络/纯 Go),由 `embedding.NewDefault(baseURL,apiKey,model)` 选择:有 `EMBEDDING_BASE_URL`+`EMBEDDING_API_KEY` 才走 OpenAI 兼容远程,否则本地。语义召回属"弱语义≈词面重叠"(用户确认的方案)。**激活向量召回需手动跑一次 `go run . sync-knowledge`**(本地 embedding 离线可跑,约 1.2M 文档;首次为空集合时向量腿返回空,检索退化为关键词)。server.go:712 与 main.go:462 的 sync 路径已改用 `embedding.NewDefault`。
 - ✅ Fixed: `Makefile`/`README.md` stale `cmd/doctor-agent` path (2026-08-09) — both now use root `main.go`; `make build/chat/serve/verify-knowledge` work again.
 - `verify-knowledge` now passes clean (0 warnings): 50 medical entries, 90 citations (28 DOI + 7 PMID + 40 WHO URL; DOI/PMID traceability 35.6%).
@@ -125,33 +127,40 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
 - `doctor-agent-qdrant` (docker/qdrant-context/Dockerfile + build.sh): ONE image
   = pure gz knowledge base (alpine layer, 51 datasets at `/opt/knowledge/gz`) +
   standard Qdrant + vectors baked at build time. Built from an **independent
-  context** (`docker/qdrant-context`, only gz + Dockerfile), because the root
-  `.dockerignore` excludes `internal/knowledge/gz` (to slim the app image) —
-  building from the repo root would COPY an empty dir. vector-bake binary comes
-  from the app image via `COPY --from` (ARG APP_IMAGE), so Go code changes do
-  NOT trigger a qdrant rebuild. Rebuild ONLY when knowledge changes:
-  `./docker/qdrant-context/build.sh doctor-agent-qdrant:latest doctor-agent:latest`.
+  context** (`docker/qdrant-context`, only gz + src + Dockerfile), because the
+  root `.dockerignore` excludes `internal/knowledge/gz` (to slim the app image)
+  — building from the repo root would COPY an empty dir. The bake tool is the
+  standalone business-free command `./cmd/vector-bake` (2026-08-30 split from
+  root main.go), compiled at build time inside the image from the synced
+  `src/` closure (cmd/vector-bake + internal/{config,embedding,knowledge},
+  derived automatically via `go list -deps`). It does NOT depend on the app
+  image — no `COPY --from` — so building the qdrant image no longer requires
+  building doctor-agent first. Rebuild ONLY when knowledge (or bake tool)
+  changes: `./docker/qdrant-context/build.sh doctor-agent-qdrant:latest`.
 - `doctor-agent` (Dockerfile): Go source + frontend (HTML embedded via
   `go:embed web/*.html`). `.dockerignore` excludes gz/data/external etc. Rebuild
   only when code/frontend changes.
 - `doctor-agent-data` was removed 2026-08-30 — gz knowledge merged into the
   qdrant image. Only two images remain.
-- `build.sh` / Makefile (`docker-build`, `docker-build-qdrant`) follow the order
-  app → qdrant; `docker compose build` for build.yml uses the independent
-  qdrant context. This env has no buildx → no `--ignorefile`; independent
-  contexts are the portable approach.
+- Packaging is consolidated (2026-08-30): `./build.sh` is the single entry;
+  Makefile docker-* targets, builder.sh and docker-compose.build.yml were
+  removed as duplicates. This env has no buildx → no `--ignorefile`;
+  independent contexts are the portable approach.
 
 ## Build & remote deploy (2026-08-30)
 
-- `build.sh [app|full]` — build mode matters:
+- `build.sh [app|qdrant|full]` — the single packaging entry:
   - `./build.sh` (default `app`): build+push ONLY the app image (code/frontend
     changes). Fast; qdrant untouched.
-  - `./build.sh full`: build+push app THEN qdrant (gz knowledge changes; slow —
-    bakes 51 datasets into Qdrant inside the build). qdrant-context/build.sh
-    pulls the vector-bake binary from the app image (`COPY --from`), so app
-    must be built first (script checks).
-- `remote-deploy.sh [app|full|--dry-run]` — build-machine mode (server holds
+  - `./build.sh qdrant`: build+push ONLY the qdrant image (gz knowledge
+    changes; bake tool compiles itself, no app-image dependency).
+  - `./build.sh full`: build+push app THEN qdrant (both changed; slow —
+    bakes 51 datasets into Qdrant inside the build).
+  Local dev binary: `go build -o bin/doctor-agent .` (Makefile removed
+  2026-08-30; no wrapper needed).
+- `remote-deploy.sh [app|qdrant|full|--dry-run]` — build-machine mode (server holds
   the repo): ssh → git pull → **git lfs pull** (the two big corpora
-  huatuo_qa/medical_qa_pairs are Git-LFS; without this, make gz + vector-bake
-  would process LFS pointer text and fail) → make gz → ./build.sh MODE →
-  docker compose up -d. `--dry-run` prints the remote command without running.
+  huatuo_qa/medical_qa_pairs are Git-LFS; without this, make_gz.py + vector-bake
+  would process LFS pointer text and fail) → python3 external/make_gz.py →
+  ./build.sh MODE → docker compose up -d. `--dry-run` prints the remote command
+  without running.

@@ -1,0 +1,387 @@
+[
+  {
+    "id": "bp-001",
+    "part_key": "head",
+    "part_zh": "头部",
+    "aliases": ["头", "头痛", "头部不适", "头疼"],
+    "side": "front",
+    "conditions": ["偏头痛", "紧张型头痛", "高血压相关头痛", "鼻窦炎", "三叉神经痛"],
+    "red_flags": "突发\"一生中最剧烈的头痛\"、伴呕吐或意识改变，立即就医。",
+    "departments": ["神经内科", "急诊科"],
+    "self_care": ["记录头痛发作时间/诱因/伴随症状", "保证睡眠，避免咖啡因过量", "监测血压"],
+    "citations": [
+      {"type": "guideline", "title": "中国偏头痛诊治指南(2023)", "year": 2023, "level": "national_guideline"},
+      {"type": "guideline", "title": "ICHD-3 国际头痛分类(第3版)", "year": 2018, "level": "international_guideline"}
+    ]
+  },
+  {
+    "id": "bp-002",
+    "part_key": "neck",
+    "part_zh": "颈部",
+    "aliases": ["颈", "脖子", "颈痛", "颈部不适"],
+    "side": "front",
+    "conditions": ["颈椎病", "落枕/颈肌劳损", "颈部淋巴结肿大", "甲状腺不适"],
+    "red_flags": "",
+    "departments": ["骨科", "康复科", "普外科"],
+    "self_care": ["避免长时间低头", "热敷颈部", "颈部拉伸放松"],
+    "citations": [
+      {"type": "guideline", "title": "颈椎病诊治与康复指南", "year": 2018, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-003",
+    "part_key": "chest",
+    "part_zh": "胸部",
+    "aliases": ["胸", "胸口", "胸痛", "胸闷", "乳房", "乳腺"],
+    "side": "front",
+    "conditions": ["心绞痛/冠心病", "胃食管反流", "肋间神经痛", "支气管炎/肺炎", "乳腺不适"],
+    "red_flags": "突发压榨性胸痛、伴冷汗或向左臂/下颌放射，立即拨打 120。",
+    "departments": ["心内科", "急诊科", "呼吸内科"],
+    "self_care": ["胸痛时立即停止活动休息", "记录疼痛诱因/持续时间", "如有心脏病史备好硝酸甘油"],
+    "citations": [
+      {"type": "guideline", "title": "急性胸痛急诊诊疗专家共识", "year": 2019, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-004",
+    "part_key": "abd_ur",
+    "part_zh": "右上腹",
+    "aliases": ["右上腹", "右上腹痛", "右侧上腹部", "肝区"],
+    "side": "front",
+    "conditions": ["胆囊炎/胆结石", "肝炎/肝区不适", "十二指肠溃疡", "肋间神经痛"],
+    "red_flags": "右上腹剧痛伴发热、黄疸（皮肤/巩膜变黄），尽快就医。",
+    "departments": ["消化内科", "肝胆外科", "急诊科"],
+    "self_care": ["避免油腻饮食", "观察是否发热/皮肤发黄", "不要自行服用止痛药掩盖症状"],
+    "citations": [
+      {"type": "guideline", "title": "急性胆道系统感染的诊断和治疗指南", "year": 2011, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-005",
+    "part_key": "abd_ul",
+    "part_zh": "左上腹",
+    "aliases": ["左上腹", "左上腹痛", "左侧上腹部"],
+    "side": "front",
+    "conditions": ["胃炎/胃溃疡", "胰腺炎（常向背部放射）", "功能性消化不良", "脾区不适"],
+    "red_flags": "左上腹剧痛向背部放射、伴呕吐，警惕急性胰腺炎，尽快就医。",
+    "departments": ["消化内科", "急诊科"],
+    "self_care": ["进食清淡易消化食物", "避免暴饮暴食和大量饮酒", "观察疼痛是否向背部放射"],
+    "citations": [
+      {"type": "guideline", "title": "中国急性胰腺炎诊治指南(2021)", "year": 2021, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-006",
+    "part_key": "abd_lr",
+    "part_zh": "右下腹",
+    "aliases": ["右下腹", "右下腹痛", "右侧下腹部"],
+    "side": "front",
+    "conditions": ["阑尾炎", "右侧输尿管结石", "右侧附件问题", "肠系膜淋巴结炎"],
+    "red_flags": "转移性右下腹痛伴发热，需尽快就医排除阑尾炎。",
+    "departments": ["普外科", "急诊科", "泌尿外科"],
+    "self_care": ["右下腹痛不要按摩腹部", "不要自行服用止痛药", "观察是否发热/恶心呕吐"],
+    "citations": [
+      {"type": "guideline", "title": "急性阑尾炎诊疗指南", "year": 2016, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-007",
+    "part_key": "abd_ll",
+    "part_zh": "左下腹",
+    "aliases": ["左下腹", "左下腹痛", "左侧下腹部"],
+    "side": "front",
+    "conditions": ["结肠炎/肠易激", "左侧输尿管结石", "左侧附件问题", "便秘相关腹痛"],
+    "red_flags": "",
+    "departments": ["消化内科", "泌尿外科", "妇科"],
+    "self_care": ["观察排便习惯改变", "多饮水", "记录疼痛与进食/排便的关系"],
+    "citations": [
+      {"type": "guideline", "title": "中国慢性便秘诊治指南", "year": 2019, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-008",
+    "part_key": "groin",
+    "part_zh": "腹股沟",
+    "aliases": ["腹股沟", "大腿根部", "腹股沟痛", "鼠蹊"],
+    "side": "front",
+    "conditions": ["腹股沟疝", "髋关节问题", "泌尿系统不适", "腹股沟淋巴结肿大"],
+    "red_flags": "腹股沟包块突然变硬、剧痛、无法回纳，警惕嵌顿疝，立即就医。",
+    "departments": ["普外科", "泌尿外科", "骨科"],
+    "self_care": ["避免久站/负重增加腹压", "观察包块可否回纳"],
+    "citations": [
+      {"type": "guideline", "title": "成人腹股沟疝诊疗指南(2018版)", "year": 2018, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-009",
+    "part_key": "shoulder",
+    "part_zh": "肩部",
+    "aliases": ["肩", "肩膀", "肩痛", "肩部不适"],
+    "side": "front",
+    "conditions": ["肩周炎", "肩袖损伤", "颈椎病放射痛", "胆囊疾病牵涉痛（右肩）"],
+    "red_flags": "右肩痛伴右上腹不适、发热，警惕胆道问题。",
+    "departments": ["骨科", "康复科", "疼痛科"],
+    "self_care": ["避免提重物", "肩部功能锻炼（钟摆运动）", "热敷"],
+    "citations": [
+      {"type": "guideline", "title": "肩关节周围炎诊疗指南", "year": 2019, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-010",
+    "part_key": "arm_up",
+    "part_zh": "上臂",
+    "aliases": ["上臂", "大臂", "手臂", "上臂痛"],
+    "side": "front",
+    "conditions": ["肌肉拉伤", "颈椎神经根放射痛", "上肢血管/血栓问题"],
+    "red_flags": "单侧手臂突发肿胀、发凉、疼痛，警惕血管问题，尽快就医。",
+    "departments": ["骨科", "神经内科", "血管外科"],
+    "self_care": ["休息制动", "观察有无肿胀/麻木"],
+    "citations": []
+  },
+  {
+    "id": "bp-011",
+    "part_key": "elbow",
+    "part_zh": "肘部",
+    "aliases": ["肘", "肘部", "肘痛", "手肘"],
+    "side": "front",
+    "conditions": ["网球肘（外上髁炎）", "高尔夫球肘（内上髁炎）", "肘关节劳损"],
+    "red_flags": "",
+    "departments": ["骨科", "康复科"],
+    "self_care": ["减少反复屈伸手腕的动作", "佩戴护肘", "冰敷急性期"],
+    "citations": [
+      {"type": "guideline", "title": "肘关节周围软组织损伤康复指南", "year": 2020, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-012",
+    "part_key": "hand",
+    "part_zh": "手/腕",
+    "aliases": ["手", "手腕", "手指", "手痛", "腕痛"],
+    "side": "front",
+    "conditions": ["腱鞘炎", "腕管综合征", "桡骨茎突狭窄性腱鞘炎", "手腕扭伤"],
+    "red_flags": "手部突发麻木/无力，尽快就医。",
+    "departments": ["骨科", "手外科", "神经内科"],
+    "self_care": ["减少重复性手部动作", "佩戴护腕", "休息时抬高患肢"],
+    "citations": [
+      {"type": "guideline", "title": "腕管综合征诊治专家共识", "year": 2021, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-013",
+    "part_key": "thigh",
+    "part_zh": "大腿",
+    "aliases": ["大腿", "大腿痛", "大腿前侧"],
+    "side": "front",
+    "conditions": ["肌肉拉伤", "股外侧皮神经炎", "腰椎间盘放射痛"],
+    "red_flags": "",
+    "departments": ["骨科", "神经内科"],
+    "self_care": ["休息", "观察有无感觉异常/麻木", "逐渐恢复活动"],
+    "citations": []
+  },
+  {
+    "id": "bp-014",
+    "part_key": "knee",
+    "part_zh": "膝部",
+    "aliases": ["膝", "膝盖", "膝关节", "膝痛"],
+    "side": "front",
+    "conditions": ["膝骨关节炎", "半月板损伤", "韧带损伤", "痛风性关节炎"],
+    "red_flags": "膝关节突发剧痛、无法负重、明显肿胀，尽快就医。",
+    "departments": ["骨科", "风湿免疫科"],
+    "self_care": ["减少上下楼梯/深蹲", "急性期冰敷", "控制体重"],
+    "citations": [
+      {"type": "guideline", "title": "膝骨关节炎阶梯治疗专家共识", "year": 2018, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-015",
+    "part_key": "calf",
+    "part_zh": "小腿",
+    "aliases": ["小腿", "小腿痛", "小腿肚"],
+    "side": "front",
+    "conditions": ["肌肉痉挛/抽筋", "下肢静脉曲张", "深静脉血栓（需警惕）", "胫骨应力综合征"],
+    "red_flags": "单侧小腿突发肿胀疼痛，警惕深静脉血栓，尽早就医。",
+    "departments": ["血管外科", "骨科", "急诊科"],
+    "self_care": ["抽筋时伸直膝关节勾脚尖", "避免久坐久站", "穿弹力袜（静脉曲张）"],
+    "citations": [
+      {"type": "guideline", "title": "中国深静脉血栓形成的诊断和治疗指南", "year": 2018, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-016",
+    "part_key": "foot",
+    "part_zh": "足部",
+    "aliases": ["脚", "脚踝", "足", "脚痛", "足痛", "脚底"],
+    "side": "front",
+    "conditions": ["踝关节扭伤", "足底筋膜炎", "痛风（大脚趾常见）", "跟腱炎"],
+    "red_flags": "踝关节严重肿胀畸形、无法负重，尽快就医排除骨折。",
+    "departments": ["骨科", "足踝外科"],
+    "self_care": ["扭伤急性期 RICE（休息/冰敷/加压/抬高）", "穿合适鞋子", "足底筋膜拉伸"],
+    "citations": [
+      {"type": "guideline", "title": "中国踝关节扭伤诊治专家共识", "year": 2020, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-017",
+    "part_key": "head_b",
+    "part_zh": "后脑",
+    "aliases": ["后脑", "后脑勺", "后枕部", "后脑痛"],
+    "side": "back",
+    "conditions": ["紧张型头痛", "枕神经痛", "颈椎相关头痛"],
+    "red_flags": "后脑剧痛伴颈项强直（脖子发硬），警惕颅内问题，立即就医。",
+    "departments": ["神经内科", "急诊科"],
+    "self_care": ["热敷后颈部", "纠正低头姿势", "监测血压"],
+    "citations": [
+      {"type": "guideline", "title": "枕神经痛诊疗规范", "year": 2020, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-018",
+    "part_key": "neck_b",
+    "part_zh": "项部",
+    "aliases": ["后颈", "项部", "脖子后面", "后颈部"],
+    "side": "back",
+    "conditions": ["颈椎病", "颈肌劳损", "落枕"],
+    "red_flags": "",
+    "departments": ["骨科", "康复科"],
+    "self_care": ["热敷", "避免高枕", "颈部米字操"],
+    "citations": []
+  },
+  {
+    "id": "bp-019",
+    "part_key": "back_up",
+    "part_zh": "上背部",
+    "aliases": ["上背", "后背", "背部", "背痛", "肩胛骨"],
+    "side": "back",
+    "conditions": ["肌筋膜疼痛", "胸椎小关节紊乱", "肩胛间区劳损"],
+    "red_flags": "上背痛伴胸闷气短，排除心肺问题后再按肌肉处理。",
+    "departments": ["骨科", "康复科", "疼痛科"],
+    "self_care": ["纠正含胸驼背姿势", "热敷", "背部拉伸"],
+    "citations": []
+  },
+  {
+    "id": "bp-020",
+    "part_key": "back_low",
+    "part_zh": "下背部/腰",
+    "aliases": ["腰", "腰痛", "下背", "腰部", "腰骶"],
+    "side": "back",
+    "conditions": ["腰肌劳损", "腰椎间盘突出", "腰椎管狭窄", "肾结石/肾盂肾炎（肾区叩痛）"],
+    "red_flags": "腰痛伴发热/尿频尿痛/下肢麻木无力，尽快就医。",
+    "departments": ["骨科", "泌尿外科", "康复科"],
+    "self_care": ["避免弯腰搬重物", "急性期卧硬板床休息", "疼痛缓解后加强核心肌群训练"],
+    "citations": [
+      {"type": "guideline", "title": "中国腰痛诊疗专家共识", "year": 2022, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-021",
+    "part_key": "buttock",
+    "part_zh": "臀部",
+    "aliases": ["臀", "屁股", "臀部痛", "髋部后侧"],
+    "side": "back",
+    "conditions": ["梨状肌综合征", "坐骨神经痛", "骶髂关节问题", "尾骨痛/肛周不适"],
+    "red_flags": "臀痛伴下肢放射痛/麻木，警惕腰椎间盘突出压迫神经。",
+    "departments": ["骨科", "康复科", "疼痛科"],
+    "self_care": ["避免久坐硬板凳", "梨状肌拉伸", "观察有无下肢放射痛"],
+    "citations": [
+      {"type": "guideline", "title": "腰椎间盘突出症诊疗指南", "year": 2020, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-022",
+    "part_key": "shoulder_b",
+    "part_zh": "肩后",
+    "aliases": ["肩后", "后肩", "肩胛", "肩后痛"],
+    "side": "back",
+    "conditions": ["肩周炎", "肩胛胸壁疼痛", "颈椎放射痛"],
+    "red_flags": "",
+    "departments": ["骨科", "康复科"],
+    "self_care": ["肩部拉伸", "热敷", "避免突然用力"],
+    "citations": []
+  },
+  {
+    "id": "bp-023",
+    "part_key": "arm_up_b",
+    "part_zh": "上臂后",
+    "aliases": ["上臂后", "上臂后面", "三头肌"],
+    "side": "back",
+    "conditions": ["三头肌劳损", "颈椎神经根放射痛"],
+    "red_flags": "",
+    "departments": ["骨科", "神经内科"],
+    "self_care": ["休息制动", "观察有无麻木"],
+    "citations": []
+  },
+  {
+    "id": "bp-024",
+    "part_key": "elbow_b",
+    "part_zh": "肘后",
+    "aliases": ["肘后", "手肘后面", "鹰嘴"],
+    "side": "back",
+    "conditions": ["鹰嘴滑囊炎", "尺神经卡压", "肘关节劳损"],
+    "red_flags": "肘后突发红肿热痛，警惕感染性滑囊炎。",
+    "departments": ["骨科", "皮肤科"],
+    "self_care": ["避免肘部受压", "冰敷", "观察有无发热"],
+    "citations": []
+  },
+  {
+    "id": "bp-025",
+    "part_key": "hand_b",
+    "part_zh": "手背",
+    "aliases": ["手背", "手背痛", "伸肌腱"],
+    "side": "back",
+    "conditions": ["腱鞘炎", "伸肌腱劳损", "手背外伤"],
+    "red_flags": "手背伤口红肿热痛加重，警惕感染，尽快就医。",
+    "departments": ["骨科", "手外科"],
+    "self_care": ["减少重复动作", "伤口保持清洁", "抬高患肢"],
+    "citations": []
+  },
+  {
+    "id": "bp-026",
+    "part_key": "thigh_b",
+    "part_zh": "大腿后",
+    "aliases": ["大腿后", "腘绳肌", "大腿后侧"],
+    "side": "back",
+    "conditions": ["腘绳肌拉伤", "坐骨神经放射痛"],
+    "red_flags": "",
+    "departments": ["骨科", "康复科"],
+    "self_care": ["急性期冰敷", "避免剧烈拉伸", "逐步恢复"],
+    "citations": []
+  },
+  {
+    "id": "bp-027",
+    "part_key": "knee_b",
+    "part_zh": "膝后/腘窝",
+    "aliases": ["膝后", "腘窝", "膝盖后面", "膝后痛"],
+    "side": "back",
+    "conditions": ["腘窝囊肿", "半月板后角损伤", "腘肌劳损"],
+    "red_flags": "腘窝突发剧痛、小腿肿胀，警惕深静脉血栓或囊肿破裂，尽快就医。",
+    "departments": ["骨科", "血管外科"],
+    "self_care": ["减少深蹲", "观察小腿有无肿胀"],
+    "citations": []
+  },
+  {
+    "id": "bp-028",
+    "part_key": "calf_b",
+    "part_zh": "小腿后",
+    "aliases": ["小腿后", "腿肚子", "腓肠肌", "小腿肚"],
+    "side": "back",
+    "conditions": ["腓肠肌拉伤", "跟腱问题", "深静脉血栓（需警惕）"],
+    "red_flags": "单侧小腿突发肿胀疼痛，警惕深静脉血栓，尽早就医。",
+    "departments": ["血管外科", "骨科", "急诊科"],
+    "self_care": ["避免剧烈运动", "观察有无单侧肿胀", "久坐后活动下肢"],
+    "citations": [
+      {"type": "guideline", "title": "中国深静脉血栓形成的诊断和治疗指南", "year": 2018, "level": "national_guideline"}
+    ]
+  },
+  {
+    "id": "bp-029",
+    "part_key": "foot_b",
+    "part_zh": "足跟",
+    "aliases": ["足跟", "脚后跟", "跟腱", "足跟痛"],
+    "side": "back",
+    "conditions": ["足底筋膜炎", "跟腱炎", "跟骨骨刺"],
+    "red_flags": "足跟痛伴足底麻木/无力，尽快就医。",
+    "departments": ["骨科", "足踝外科"],
+    "self_care": ["减少长时间站立", "拉伸小腿/足底", "选择缓冲好的鞋"],
+    "citations": []
+  }
+]

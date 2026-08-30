@@ -1,0 +1,163 @@
+[
+  {
+    "id": "diabetes-001",
+    "condition_zh": "2型糖尿病",
+    "condition_en": "Type 2 Diabetes Mellitus",
+    "category": "endocrine_disorder",
+    "icd10": "E11",
+    "regions": [
+      "全国"
+    ],
+    "prevalence": {
+      "china_2023": {
+        "rate": 0.137,
+        "population": "≥18岁成人(2023年,约2.33亿,年龄标化患病率13.7%)"
+      },
+      "china_prediabetes": {
+        "rate": 0.155,
+        "population": "糖尿病前期人群"
+      }
+    },
+    "diagnosis": {
+      "lab_tests": [
+        "空腹血糖(FPG)",
+        "口服葡萄糖耐量试验(OGTT)",
+        "糖化血红蛋白(HbA1c)",
+        "空腹胰岛素",
+        "C肽"
+      ],
+      "thresholds": {
+        "FPG": "≥7.0 mmol/L (126 mg/dL)",
+        "OGTT_2h": "≥11.1 mmol/L (200 mg/dL)",
+        "HbA1c": "≥6.5%",
+        "random_glucose": "≥11.1 mmol/L + 典型症状"
+      },
+      "clinical_features": [
+        "三多一少(多饮多食多尿体重下降)",
+        "疲乏无力",
+        "视物模糊",
+        "反复感染(皮肤/泌尿/阴道)",
+        "伤口愈合延迟",
+        "部分患者无症状(体检发现)"
+      ],
+      "gold_standard": "OGTT 或 FPG 达到诊断阈值，需不同日两次确认(除非有明确高血糖症状)"
+    },
+    "treatment": [
+      {
+        "method": "生活方式干预(饮食+运动+减重)",
+        "indication": "所有患者基础治疗",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "二甲双胍 500-2000mg/日",
+        "indication": "一线口服降糖药(无禁忌证时首选)",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "SGLT2抑制剂(达格列净/恩格列净)",
+        "indication": "合并心血管疾病/心衰/CKD 的2型糖尿病",
+        "evidence_level": "international_guideline"
+      },
+      {
+        "method": "GLP-1受体激动剂(司美格鲁肽/利拉鲁肽)",
+        "indication": "合并ASCVD/肥胖/需减重的2型糖尿病",
+        "evidence_level": "international_guideline"
+      },
+      {
+        "method": "胰岛素(基础/餐时/预混)",
+        "indication": "口服药控制不佳、新诊断HbA1c≥9%、急性并发症、围手术期",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "HbA1c监测(每3个月)",
+        "indication": "所有糖尿病患者",
+        "evidence_level": "national_guideline"
+      }
+    ],
+    "differential_diagnosis": [
+      "1型糖尿病",
+      "LADA(成人隐匿性自身免疫糖尿病)",
+      "继发性糖尿病(甲亢/库欣/药物)",
+      "妊娠糖尿病"
+    ],
+    "risk_factors": [
+      "肥胖(BMI≥24)",
+      "家族史(一级亲属)",
+      "年龄≥40岁",
+      "妊娠糖尿病史",
+      "多囊卵巢综合征",
+      "高血压/血脂异常",
+      "久坐生活方式"
+    ],
+    "complications": [
+      "糖尿病视网膜病变(致盲主因之一)",
+      "糖尿病肾病(终末期肾病主因之一)",
+      "糖尿病周围神经病变",
+      "糖尿病足(截肢主因)",
+      "动脉粥样硬化性心血管疾病(ASCVD)",
+      "糖尿病酮症酸中毒(DKA)",
+      "高渗高血糖状态(HHS)"
+    ],
+    "prevention": [
+      "控制体重(BMI<24)",
+      "每周≥150分钟中等强度运动",
+      "减少精制碳水/含糖饮料",
+      "高危人群每年筛查FPG/HbA1c",
+      "妊娠糖尿病产后随访"
+    ],
+    "when_to_seek_care": [
+      "反复酮症/酮体阳性",
+      "血糖持续>16.7 mmol/L",
+      "意识改变/昏迷",
+      "严重低血糖(<3.9 mmol/L)",
+      "足部溃疡/感染",
+      "视力急剧下降"
+    ],
+    "clinical_examples": [
+      {
+        "description": "45岁男性，BMI 28.5，体检发现FPG 8.2 mmol/L，HbA1c 7.8%，无明显症状。父亲有糖尿病。",
+        "key_findings": "肥胖+家族史+FPG和HbA1c均达诊断标准 → 新诊断2型糖尿病",
+        "outcome": "生活方式干预+二甲双胍500mg bid起始，3个月后HbA1c降至6.8%。继续监测。"
+      }
+    ],
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "中国2型糖尿病防治指南(2024年版)",
+        "journal": "中华糖尿病杂志",
+        "year": 2024,
+        "level": "national_guideline"
+      },
+      {
+        "type": "guideline",
+        "title": "ADA Standards of Care in Diabetes — 2025",
+        "journal": "Diabetes Care",
+        "year": 2025,
+        "doi": "10.2337/dc25-S002",
+        "level": "international_guideline"
+      }
+    ],
+    "keywords": [
+      "糖尿病",
+      "2型糖尿病",
+      "高血糖",
+      "胰岛素抵抗",
+      "二甲双胍",
+      "血糖",
+      "HbA1c",
+      "糖化血红蛋白",
+      "糖尿病并发症",
+      "糖尿病视网膜病变",
+      "糖尿病肾病",
+      "糖尿病足",
+      "多饮多食多尿",
+      "三多一少",
+      "降糖药",
+      "SGLT2",
+      "GLP-1",
+      "达格列净",
+      "恩格列净",
+      "司美格鲁肽"
+    ]
+  }
+]

@@ -127,26 +127,41 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
   in-memory MariaDB store for legacy runtime-synced indexes.
 - `docker-compose.yml`: qdrant service uses `QDRANT_IMAGE` (default public
   repo `doctor-agent-qdrant:latest`); app depends on mariadb + qdrant only;
-  optional MariaDB keyword fallback = mount gz volume + `SEED_MARIADB_KB=true`
-  (see `docker-entrypoint.sh`).
+  optional MariaDB keyword fallback = mount an external gz volume +
+  `SEED_MARIADB_KB=true` (see `docker-entrypoint.sh`; the qdrant image itself
+  no longer ships gz).
 
 ## Image layering (2026-08-30, v18) — 双镜像触发条件解耦
 
 - `doctor-agent-qdrant` (root `Dockerfile.qdrant`): ONE image
-  = pure gz knowledge base (alpine layer, 51 datasets at `/opt/knowledge/gz`) +
-  standard Qdrant + vectors baked at build time. Built from the repo root
-  (`docker build -f Dockerfile.qdrant .`), using a per-Dockerfile whitelist
-  ignore file `Dockerfile.qdrant.dockerignore` (BuildKit picks it up
-  automatically) that re-includes cmd/ + internal/ + internal/knowledge/gz,
-  overriding the root `.dockerignore` which excludes gz to slim the app image.
+  = standard Qdrant + vectors baked at build time. The gz sources are a
+  build-time input only (final image has NO gz layer). Bake WAL is cleared at
+  build end (empty dirs kept — qdrant needs the dir to exist; data is already
+  materialised in segments), so the storage layer is ~6.2GB of segments, not
+  13GB, and startup loads segments directly with no WAL replay (~45s).
+  Built from the repo root (`docker build -f Dockerfile.qdrant .`), using a
+  per-Dockerfile whitelist ignore file `Dockerfile.qdrant.dockerignore`
+  (BuildKit picks it up automatically) that re-includes cmd/ + internal/ +
+  internal/knowledge/gz, overriding the root `.dockerignore` which excludes gz
+  to slim the app image.
   The bake tool is the standalone business-free command `./cmd/vector-bake`
   (2026-08-30 split from root main.go), compiled at build time inside the
   image. It does NOT depend on the app image — no `COPY --from` — so building
   the qdrant image no longer requires building doctor-agent first. Rebuild
-  ONLY when knowledge (or bake tool) changes: `./build.sh qdrant`.
+  ONLY when knowledge (or bake tool) changes: `./build.sh qdrant` (local dev
+  machine — baking 1.37M vectors needs more than the builder's 1.6GB RAM).
   (The old `docker/qdrant-context/` independent context + src-sync machinery
   was removed 2026-08-30 in favour of this; `docker/mariadb-init/` deleted as
   unreferenced.)
+- **Read-only deploy mode (2026-08-30)**: compose mounts NO volume for
+  qdrant — vectors live in the image layer, so a container re-create just
+  re-reads the image (no 13GB volume-copy, no double disk usage). WAL goes to
+  `/tmp` via `QDRANT__STORAGE__WAL_PATH` (container writable layer). Total
+  disk need ≈ image (~6.5GB uncompressed) + small writable layer ⇒ ~10GB free
+  is enough (NOT the 26GB a volume would need). Do NOT write to qdrant via
+  this setup (data would not survive container re-create); it is for
+  read-only RAG serving. If MariaDB keyword fallback is needed, mount an
+  external gz volume + `SEED_MARIADB_KB=true` (the image itself ships no gz).
 - `doctor-agent` (Dockerfile): Go source + frontend (HTML embedded via
   `go:embed web/*.html`). `.dockerignore` excludes gz/data/external etc. Rebuild
   only when code/frontend changes.
@@ -170,14 +185,15 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
     bakes 51 datasets into Qdrant inside the build).
   Local dev binary: `go build -o bin/doctor-agent .` (Makefile removed
   2026-08-30; no wrapper needed).
-- `remote-deploy.sh [app|qdrant|full|--dry-run]` — dev-machine mode (2026-08-30):
-  run from the dev machine; the builder/deployer is 114.55.170.79. Local phase:
-  `git fetch` + upstream check — aborts if local has unpushed commits (builder
-  pulls from git, so it can only build pushed code), warns on uncommitted
-  changes. Remote phase: `git checkout -- internal/knowledge/data/` (drop any
-  scp-overwritten LFS entities, else `M` status blocks pull) → git pull →
-  **git lfs pull** (the two big corpora huatuo_qa/medical_qa_pairs are
-  Git-LFS; without this, make_gz.py + vector-bake would process LFS pointer
-  text and fail) → python3 external/make_gz.py → ./build.sh MODE → docker
-  compose up -d. `--dry-run` prints local checks + remote command without
-  running.
+- `remote-deploy.sh [app|--dry-run]` — builder-machine mode (2026-08-30, later
+  re-scoped): run from the dev machine; the builder is 114.55.170.79 and it
+  builds ONLY the app image. qdrant/full args are rejected with a hint to run
+  `./build.sh qdrant` locally (baking 8GB vectors needs more than the
+  builder's 1.6GB RAM). No auto-deploy — deploy manually:
+  `docker compose pull && docker compose up -d` on the target machine. Local
+  phase: `git fetch` + upstream check — aborts if local has unpushed commits
+  (builder pulls from git, so it can only build pushed code), warns on
+  uncommitted changes. Remote phase: `git checkout -- internal/knowledge/
+  data/` + gz self-heal (drop scp-overwritten LFS entities / untracked gz,
+  else `M`/untracked status blocks pull) → git pull → ./build.sh app.
+  `--dry-run` prints local checks + remote command without running.

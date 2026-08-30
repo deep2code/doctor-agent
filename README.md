@@ -310,9 +310,11 @@ API_KEY=自定义访问密钥
 # QDRANT_IMAGE=docker.io/你的用户名/doctor-agent-qdrant:latest
 ```
 
-> **架构说明（2026-08-30 起，双镜像）**：`doctor-agent-qdrant` 是一个镜像 = **纯 gz
-> 知识库（alpine 层，51 数据集）+ 标准 Qdrant + 构建期烘好的向量**，启动即用、零灌入
-> 等待。MariaDB 只做业务库（用户/会话/消息/反馈），知识检索走 Qdrant。
+> **架构说明（2026-08-30 起，双镜像）**：`doctor-agent-qdrant` 是一个镜像 = **标准
+> Qdrant + 构建期烘好的向量**（gz 知识源仅作构建期输入，不在最终镜像内；bake WAL 已
+> 清理），启动即用、零灌入等待。**只读部署**：compose 不挂 qdrant 卷，向量直接读镜像层
+> （容器重建即恢复，无 13GB 卷复制），磁盘需求约 10GB 可用即可；如需写入 Qdrant 请
+> 自行挂卷。MariaDB 只做业务库（用户/会话/消息/反馈），知识检索走 Qdrant。
 > 本地重新构建并推送知识镜像（烘焙工具已独立，不依赖 app 镜像）：
 > ```bash
 > python3 external/make_gz.py  # data/*.json 变更后先重新压缩

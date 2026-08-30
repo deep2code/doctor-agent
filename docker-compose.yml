@@ -2,12 +2,12 @@
 #
 # 架构（2026-08-30）：
 #   MariaDB → 只做普通商业行为（业务库 doctor_agent：用户/会话/消息/反馈）
-#   Qdrant  → 专业 RAG：doctor-agent-qdrant 镜像自带【纯 gz 知识库(51 数据集)
-#             + 构建期烘好的向量】，启动即用、零灌入等待。
+#   Qdrant  → 专业 RAG：doctor-agent-qdrant 镜像自带【构建期烘好的向量】，
+#             启动即用、零灌入等待（gz 知识源不在镜像内，仅作构建期输入）。
 #
 # 双镜像（触发条件解耦）：
-#   doctor-agent-qdrant  纯 gz 知识库 + 标准 Qdrant + 向量 → 知识库变化才更新
-#   doctor-agent         Go 源码 + 前端                     → 代码变化才更新
+#   doctor-agent-qdrant  标准 Qdrant + 烘好的向量 → 知识库变化才更新
+#   doctor-agent         Go 源码 + 前端            → 代码变化才更新
 #
 # 前提：服务器上已存在镜像（以下任一方式获得）：
 #   A) 从仓库拉取：echo "IMAGE_NAME=docker.io/你的用户名/doctor-agent:latest
@@ -19,11 +19,11 @@
 #   docker compose up -d
 #
 # 说明：
-#   - qdrant 服务使用【自带知识数据的 RAG 镜像】（构建期 vector-bake 注入，
+#   - qdrant 服务使用【自带烘焙向量的 RAG 镜像】（构建期 vector-bake 注入，
 #     见根目录 Dockerfile.qdrant）。首次启动即可语义检索，无 seed/sync 等待。
 #   - app 启动时自动建业务库 doctor_agent；知识检索走 Qdrant。
-#   - 可选：若仍需 MariaDB 关键词兜底，把 qdrant 镜像内的 /opt/knowledge/gz
-#     挂出并让 entrypoint seed（SEED_MARIADB_KB=true），默认不启用。
+#   - 可选：若仍需 MariaDB 关键词兜底，把外部 gz 目录挂到 qdrant 容器并让
+#     entrypoint seed（SEED_MARIADB_KB=true），默认不启用。
 
 services:
   mariadb:
@@ -43,14 +43,16 @@ services:
       retries: 30
     restart: unless-stopped
 
-  # 专业 RAG：纯 gz 知识库(51 数据集) + 标准 Qdrant + 构建期烘好的向量
+  # 专业 RAG：标准 Qdrant + 构建期烘好的向量（无 gz 数据层）
+  # 只读部署模式（2026-08-30）：不挂持久卷——向量数据在镜像内（/qdrant/storage），
+  # 容器重建即从镜像恢复，无需卷初始化复制（省一半磁盘）。WAL 写到 /tmp（容器可写层）。
   qdrant:
     image: ${QDRANT_IMAGE:-crpi-0xi5k79l9j4opzta.cn-hangzhou.personal.cr.aliyuncs.com/codeup2026/doctor-agent-qdrant:latest}
     container_name: doctor-agent-qdrant
     ports:
       - "6333:6333"
-    volumes:
-      - qdrant_data:/qdrant/storage
+    environment:
+      QDRANT__STORAGE__WAL_PATH: /tmp/wal
     restart: unless-stopped
 
   app:
@@ -88,4 +90,4 @@ services:
 
 volumes:
   mariadb_data:
-  qdrant_data:
+  # qdrant_data 卷已移除（2026-08-30）：只读场景不挂卷，向量数据直接读镜像层

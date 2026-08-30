@@ -1,12 +1,13 @@
-# doctor-agent 知识库 RAG 镜像 —— 一个镜像 = 纯 gz 知识库 + 标准 Qdrant + 烘好的向量
+# doctor-agent 知识库 RAG 镜像 —— 标准 Qdrant + 烘好的向量（不含 gz 知识数据层）
 #
 # 架构（2026-08-30）：
 #   只有两个镜像：
-#     doctor-agent-qdrant   本镜像：alpine(gz 知识库 51 数据集) + Qdrant + 向量
+#     doctor-agent-qdrant   本镜像：标准 Qdrant + 向量（51 数据集已烘焙）
 #                           → 只有知识库变化才更新
 #     doctor-agent          Go 源码 + 前端（go:embed web/*.html）
 #                           → 只有代码变化才更新
-#   （doctor-agent-data 已废弃合并进本镜像）
+#   （doctor-agent-data 已废弃合并进本镜像；gz 源数据仅作构建期 bake 输入，
+#     2026-08-30 从最终镜像移除——向量已固化在 storage 里，运行时不再需要 gz）
 #
 # 构建方式（2026-08-30 方案 A，取代原 docker/qdrant-context 独立 context）：
 #   docker build -f Dockerfile.qdrant .
@@ -21,9 +22,9 @@
 #   完全不触发本镜像重建；本镜像也不需要 app 镜像先行构建。
 #
 # 最终镜像内容：
-#   /opt/knowledge/gz     纯 gz 知识库（51 数据集，alpine 数据层）
 #   /qdrant/storage       烘好的 Qdrant 向量（构建期 vector-bake 注入）
 #   qdrant 服务            容器启动即加载知识，零灌入等待
+#   （gz 知识源不在镜像内；如需关键词兜底可自行挂载外部 gz 目录）
 
 # syntax=docker/dockerfile:1
 
@@ -52,7 +53,7 @@ RUN --mount=type=cache,target=/go/pkg/mod \
       -o /out/vector-bake ./cmd/vector-bake
 
 # ---------- stage 2: 数据层（纯 gz 知识库，alpine） ----------
-# 独立小层，供最终镜像 COPY --from 取 gz；也作为镜像里的"纯 gz 知识库"。
+# 仅作为 stage 3 烘焙的输入；不进入最终镜像（向量已固化，运行时不需要 gz）。
 FROM alpine:3.20 AS datalayer
 RUN sed -i 's#dl-cdn.alpinelinux.org#mirrors.aliyun.com#g' /etc/apk/repositories \
     && apk add --no-cache ca-certificates
@@ -76,13 +77,12 @@ RUN sh -c ' \
     RC=$?; \
     sleep 2; \
     kill $QPID 2>/dev/null; wait $QPID 2>/dev/null; \
+    echo "== clearing bake WAL (keep empty dirs; data already in segments) ==" && \
+    find /qdrant/storage -type d -name wal -exec sh -c 'find "$1" -mindepth 1 -delete' _ {} + 2>/dev/null; \
     exit $RC'
 
-# ---------- stage 4: 最终镜像 = 纯 gz 知识库 + 标准 Qdrant + 烘好的向量 ----------
+# ---------- stage 4: 最终镜像 = 标准 Qdrant + 烘好的向量（无 gz 数据层） ----------
 FROM qdrant/qdrant:latest
-
-# 纯 gz 知识库（51 数据集）—— 供挂载/关键词兜底用
-COPY --from=datalayer /opt/knowledge/gz /opt/knowledge/gz
 
 # 烘好的向量（构建期已注入）
 COPY --from=bake /qdrant/storage /qdrant/storage

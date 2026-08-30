@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>医答 · 循证医学 AI 助手</title>
-<meta name="description" content="基于权威医学知识库与 34+ 项专业工具，给你有依据、可溯源的健康解答——从日常小病，到中国高发慢病。" />
+<meta name="description" content="基于权威医学知识库与 35+ 项专业工具，给你有依据、可溯源的健康解答——从日常小病，到中国高发慢病。" />
 <style>
   :root {
     --navy: #0A1B36;
@@ -313,6 +313,15 @@
   .bm-cond{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 12px;font:inherit;font-size:12.5px;color:var(--text);cursor:pointer;transition:border-color .18s,color .18s,background .18s;}
   .bm-cond:hover{border-color:var(--blue);color:var(--blue);}
   .bm-cond.is-on{background:var(--blue-soft);border-color:var(--blue);color:var(--blue-dark);font-weight:600;}
+
+  .bm-prof{margin-top:12px;border-top:1px dashed var(--line);padding-top:10px;}
+  .bm-prof-label{margin:0 0 8px;font-size:11.5px;color:var(--muted);}
+  .bm-prof-group{display:flex;align-items:flex-start;gap:8px;margin-bottom:7px;}
+  .bm-prof-key{flex:0 0 64px;font-size:12px;color:var(--muted);padding-top:5px;}
+  .bm-prof-row{display:flex;flex-wrap:wrap;gap:6px;flex:1;}
+  .bm-prof-opt{border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 11px;font:inherit;font-size:12px;color:var(--text);cursor:pointer;transition:border-color .18s,color .18s,background .18s;}
+  .bm-prof-opt:hover{border-color:var(--blue);color:var(--blue);}
+  .bm-prof-opt.is-on{background:var(--blue-soft);border-color:var(--blue);color:var(--blue-dark);font-weight:600;}
   .bm-readout{margin:14px 0 0;font-size:13.5px;color:var(--text);min-height:22px;}
   .bm-readout b{color:var(--blue);}
   .bm-side h3{font-size:20px;color:var(--ink);margin:0 0 14px;}
@@ -380,7 +389,7 @@
     <div class="hero-left">
       <span class="badge"><span class="dot"></span>循证医学 · 公益项目 · 每个答案都有出处</span>
       <h1>健康问题，先问一个<br/>靠谱的 AI 医生</h1>
-      <p class="sub">面向中国全人群免费的循证健康助手。基于权威医学知识库与 34+ 项专业工具，提供有依据、可溯源的健康解答——从日常小病，到中国高发慢病。</p>
+      <p class="sub">面向中国全人群免费的循证健康助手。基于权威医学知识库与 35+ 项专业工具，提供有依据、可溯源的健康解答——从日常小病，到中国高发慢病。</p>
       <div class="hero-cta">
         <a class="btn btn-primary" href="/app">问我</a>
         <a class="btn btn-ghost" href="#how">查看工作原理</a>
@@ -420,7 +429,7 @@
       <div class="step">
         <div class="num">02</div>
         <h3>检索与推理</h3>
-        <p>调取权威知识库，调用 34+ 项专业工具交叉验证。</p>
+        <p>调取权威知识库，调用 35+ 项专业工具交叉验证。</p>
       </div>
       <div class="step">
         <div class="num">03</div>
@@ -518,7 +527,7 @@
 <section id="tools" style="background:var(--bg-soft);">
   <div class="container">
     <div class="sec-center">
-      <h2 class="title">34+ 项专业医学工具，随时调用</h2>
+      <h2 class="title">35+ 项专业医学工具，随时调用</h2>
       <p class="sec-desc">从用药安全到检验解读，从分诊到遗传风险评估，覆盖日常健康咨询的关键场景。</p>
     </div>
     <div class="grid-tools">
@@ -732,7 +741,7 @@
       <p class="sec-desc">我们不相信"AI 幻觉"——每条关键结论都经过引用核验，确保来源真实可追溯。</p>
     </div>
     <div class="stats">
-      <div class="stat"><div class="n">34+</div><div class="l">项专业工具</div></div>
+      <div class="stat"><div class="n">35+</div><div class="l">项专业工具</div></div>
       <div class="stat"><div class="n">权威</div><div class="l">医学知识库</div></div>
       <div class="stat"><div class="n">4</div><div class="l">层安全防护</div></div>
       <div class="stat"><div class="n">100%</div><div class="l">可溯源引用</div></div>
@@ -1125,41 +1134,91 @@ var BM_CONDITIONS={
  head:{flag:'突发"一生中最剧烈的头痛"、伴呕吐或意识改变，立即就医。',list:['偏头痛','紧张型头痛','高血压相关头痛','鼻窦炎','三叉神经痛']},
  neck:{list:['颈椎病','落枕 / 颈肌劳损','颈部淋巴结肿大','甲状腺不适']},
  chest:{flag:'突发压榨性胸痛、伴冷汗或向左臂/下颌放射，立即拨打 120。',list:['心绞痛 / 冠心病','胃食管反流','肋间神经痛','支气管炎 / 肺炎','乳腺不适']},
- abd_ur:{list:['胆囊炎 / 胆结石','肝炎 / 肝区不适','十二指肠溃疡','肋间神经痛']},
- abd_ul:{list:['胃炎 / 胃溃疡','胰腺炎（常向背部放射）','功能性消化不良','脾区不适']},
+ abd_ur:{flag:'右上腹剧痛伴发热、黄疸（皮肤/巩膜变黄），尽快就医。',list:['胆囊炎 / 胆结石','肝炎 / 肝区不适','十二指肠溃疡','肋间神经痛']},
+ abd_ul:{flag:'左上腹剧痛向背部放射、伴呕吐，警惕急性胰腺炎，尽快就医。',list:['胃炎 / 胃溃疡','胰腺炎（常向背部放射）','功能性消化不良','脾区不适']},
  abd_lr:{flag:'转移性右下腹痛伴发热，需尽快就医排除阑尾炎。',list:['阑尾炎','右侧输尿管结石','右侧附件问题','肠系膜淋巴结炎']},
  abd_ll:{list:['结肠炎 / 肠易激','左侧输尿管结石','左侧附件问题','便秘相关腹痛']},
- groin:{list:['腹股沟疝','髋关节问题','泌尿系统不适','腹股沟淋巴结肿大']},
- shoulder:{list:['肩周炎','肩袖损伤','颈椎病放射痛','胆囊疾病牵涉痛（右肩）']},
- arm_up:{list:['肌肉拉伤','颈椎神经根放射痛','上肢血管 / 血栓问题']},
+ groin:{flag:'腹股沟包块突然变硬、剧痛、无法回纳，警惕嵌顿疝，立即就医。',list:['腹股沟疝','髋关节问题','泌尿系统不适','腹股沟淋巴结肿大']},
+ shoulder:{flag:'右肩痛伴右上腹不适、发热，警惕胆道问题。',list:['肩周炎','肩袖损伤','颈椎病放射痛','胆囊疾病牵涉痛（右肩）']},
+ arm_up:{flag:'单侧手臂突发肿胀、发凉、疼痛，警惕血管问题，尽快就医。',list:['肌肉拉伤','颈椎神经根放射痛','上肢血管 / 血栓问题']},
  elbow:{list:['网球肘（外上髁炎）','高尔夫球肘（内上髁炎）','肘关节劳损']},
- hand:{list:['腱鞘炎','腕管综合征','桡骨茎突狭窄性腱鞘炎','手腕扭伤']},
+ hand:{flag:'手部突发麻木/无力，尽快就医。',list:['腱鞘炎','腕管综合征','桡骨茎突狭窄性腱鞘炎','手腕扭伤']},
  thigh:{list:['肌肉拉伤','股外侧皮神经炎','腰椎间盘放射痛']},
- knee:{list:['膝骨关节炎','半月板损伤','韧带损伤','痛风性关节炎']},
+ knee:{flag:'膝关节突发剧痛、无法负重、明显肿胀，尽快就医。',list:['膝骨关节炎','半月板损伤','韧带损伤','痛风性关节炎']},
  calf:{flag:'单侧小腿突发肿胀疼痛，警惕深静脉血栓，尽早就医。',list:['肌肉痉挛 / 抽筋','下肢静脉曲张','深静脉血栓（需警惕）','胫骨应力综合征']},
- foot:{list:['踝关节扭伤','足底筋膜炎','痛风（大脚趾常见）','跟腱炎']},
- head_b:{list:['紧张型头痛','枕神经痛','颈椎相关头痛']},
+ foot:{flag:'踝关节严重肿胀畸形、无法负重，尽快就医排除骨折。',list:['踝关节扭伤','足底筋膜炎','痛风（大脚趾常见）','跟腱炎']},
+ head_b:{flag:'后脑剧痛伴颈项强直（脖子发硬），警惕颅内问题，立即就医。',list:['紧张型头痛','枕神经痛','颈椎相关头痛']},
  neck_b:{list:['颈椎病','颈肌劳损','落枕']},
- back_up:{list:['肌筋膜疼痛','胸椎小关节紊乱','肩胛间区劳损']},
- back_low:{list:['腰肌劳损','腰椎间盘突出','腰椎管狭窄','肾结石 / 肾盂肾炎（肾区叩痛）']},
- buttock:{list:['梨状肌综合征','坐骨神经痛','骶髂关节问题','尾骨痛 / 肛周不适']},
+ back_up:{flag:'上背痛伴胸闷气短，排除心肺问题后再按肌肉处理。',list:['肌筋膜疼痛','胸椎小关节紊乱','肩胛间区劳损']},
+ back_low:{flag:'腰痛伴发热/尿频尿痛/下肢麻木无力，尽快就医。',list:['腰肌劳损','腰椎间盘突出','腰椎管狭窄','肾结石 / 肾盂肾炎（肾区叩痛）']},
+ buttock:{flag:'臀痛伴下肢放射痛/麻木，警惕腰椎间盘突出压迫神经。',list:['梨状肌综合征','坐骨神经痛','骶髂关节问题','尾骨痛 / 肛周不适']},
  shoulder_b:{list:['肩周炎','肩胛胸壁疼痛','颈椎放射痛']},
  arm_up_b:{list:['三头肌劳损','颈椎神经根放射痛']},
- elbow_b:{list:['鹰嘴滑囊炎','尺神经卡压','肘关节劳损']},
- hand_b:{list:['腱鞘炎','伸肌腱劳损','手背外伤']},
+ elbow_b:{flag:'肘后突发红肿热痛，警惕感染性滑囊炎。',list:['鹰嘴滑囊炎','尺神经卡压','肘关节劳损']},
+ hand_b:{flag:'手背伤口红肿热痛加重，警惕感染，尽快就医。',list:['腱鞘炎','伸肌腱劳损','手背外伤']},
  thigh_b:{list:['腘绳肌拉伤','坐骨神经放射痛']},
- knee_b:{list:['腘窝囊肿','半月板后角损伤','腘肌劳损']},
+ knee_b:{flag:'腘窝突发剧痛、小腿肿胀，警惕深静脉血栓或囊肿破裂，尽快就医。',list:['腘窝囊肿','半月板后角损伤','腘肌劳损']},
  calf_b:{flag:'单侧小腿突发肿胀疼痛，警惕深静脉血栓，尽早就医。',list:['腓肠肌拉伤','跟腱问题','深静脉血栓（需警惕）']},
- foot_b:{list:['足底筋膜炎','跟腱炎','跟骨骨刺']}
+ foot_b:{flag:'足跟痛伴足底麻木/无力，尽快就医。',list:['足底筋膜炎','跟腱炎','跟骨骨刺']}
 };
 
-function bmQuestion(part,cond){var lb=BM_LABEL[part]||part;
-  if(cond)return '我'+lb+'不舒服，可能是'+cond+'吗？想了解它的典型表现、需要做什么检查，以及什么情况下需要就医？';
-  return '我'+lb+'不舒服，可能的原因有哪些、需要做哪些检查、日常要注意什么，以及什么情况下需要就医？';}
+var bmProf={nature:null,duration:null,severity:null,radiate:null,accompany:[]};
+function bmProfText(){var p=bmProf,t=[];
+  if(p.nature)t.push('性质为'+p.nature);
+  if(p.duration)t.push('持续'+p.duration);
+  if(p.severity)t.push('程度'+p.severity);
+  if(p.radiate&&p.radiate!=='无')t.push('放射至'+p.radiate);
+  if(p.accompany&&p.accompany.length)t.push('伴'+p.accompany.join('、'));
+  return t.length?('，'+t.join('，')):'';}
+function bmQuestion(part,cond){var lb=BM_LABEL[part]||part,prof=bmProfText();
+  if(cond)return '我'+lb+'不舒服'+prof+'，可能是'+cond+'吗？想了解它的典型表现、需要做什么检查，以及什么情况下需要就医？';
+  return '我'+lb+'不舒服'+prof+'，可能的原因有哪些、需要做哪些检查、日常要注意什么，以及什么情况下需要就医？';}
 function bmInit(flipId,outId,onPick){
   var flip=document.getElementById(flipId),out=document.getElementById(outId);
   if(!flip)return;
   var gender='male',view='front',sel=null,cond=null;
+  function profileBox(){
+    var b=document.getElementById(flipId+'_prof');
+    if(!b){b=document.createElement('div');b.className='bm-prof';b.id=flipId+'_prof';
+      if(out&&out.parentNode)out.parentNode.insertBefore(b,out.nextSibling);}
+    return b;
+  }
+  function fire(){
+    if(onPick&&sel)onPick(sel,BM_LABEL[sel]||sel,bmQuestion(sel,cond));
+  }
+  function renderProfile(part){
+    var box=profileBox();
+    if(!BM_CONDITIONS[part]){box.innerHTML='';return;}
+    var groups=[
+      ['nature','疼痛性质',['钝痛','刺痛','绞痛','烧灼感','胀痛','酸痛'],false],
+      ['duration','持续时间',['几小时','1-3天','3天以上','反复发作'],false],
+      ['severity','严重程度',['轻(能忍)','中(影响活动)','重(难忍)'],false],
+      ['radiate','放射到哪',['无','肩臂','背部','下肢'],false],
+      ['accompany','伴随症状',['发热','恶心呕吐','出汗','头晕','乏力'],true]
+    ];
+    var h='<p class="bm-prof-label">症状刻画（可选，补充越准，判断越准）</p>';
+    groups.forEach(function(g){
+      h+='<div class="bm-prof-group"><span class="bm-prof-key">'+g[1]+'</span><div class="bm-prof-row">';
+      g[3].forEach(function(opt){h+='<button type="button" class="bm-prof-opt" data-g="'+g[0]+'" data-v="'+opt+'">'+opt+'</button>';});
+      h+='</div></div>';
+    });
+    box.innerHTML=h;
+    box.querySelectorAll('.bm-prof-opt').forEach(function(bt){
+      bt.addEventListener('click',function(){
+        var g=bt.getAttribute('data-g'),v=bt.getAttribute('data-v');
+        if(g==='accompany'){
+          bt.classList.toggle('is-on');
+          bmProf[g]=[].slice.call(box.querySelectorAll('.bm-prof-opt[data-g="accompany"].is-on'))
+            .map(function(x){return x.getAttribute('data-v');});
+        }else{
+          box.querySelectorAll('.bm-prof-opt[data-g="'+g+'"]').forEach(function(x){x.classList.remove('is-on');});
+          bt.classList.add('is-on');
+          bmProf[g]=v;
+        }
+        fire();
+      });
+    });
+  }
   function condsBox(){
     var b=document.getElementById(flipId+'_conds');
     if(!b){b=document.createElement('div');b.className='bm-conds';b.id=flipId+'_conds';
@@ -1192,11 +1251,13 @@ function bmInit(flipId,outId,onPick){
     if(sel){var n=flip.querySelector('.bm-region[data-part="'+sel+'"]');if(n)n.classList.add('is-sel');}
     flip.querySelectorAll('.bm-region').forEach(function(r){
       function pick(){sel=r.getAttribute('data-part');cond=null;
+        bmProf={nature:null,duration:null,severity:null,radiate:null,accompany:[]};
         flip.querySelectorAll('.bm-region').forEach(function(x){x.classList.remove('is-sel');});
         r.classList.add('is-sel');
         var lb=BM_LABEL[sel]||sel;
         if(out)out.innerHTML='已选择：<b>'+lb+'</b>';
         renderConds(sel);
+        renderProfile(sel);
         if(onPick)onPick(sel,lb,bmQuestion(sel,null));}
       r.addEventListener('click',pick);
       r.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();pick();}});

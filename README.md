@@ -9,7 +9,7 @@
 - **每条回答有据可查**：事实性陈述必须标注引用编号 `[N]`，附DOI/PMID和证据等级
 - **全人群覆盖**：覆盖地贫、G6PD缺乏症、鼻咽癌、乙肝、乳糖不耐受、ALDH2酒精代谢缺陷等中国重点高发疾病
 - **4层安全防护**：紧急检测(零延迟120响应) → 范围检查 → 引用验证 → 免责声明
-- **超大知识库**：48个数据源，358+医学条目，177K+医患问答，23个专业工具
+- **超大知识库**：51个数据源，358+医学条目，177K+医患问答，35个专业工具
 
 ## 📋 中国重点疾病覆盖
 
@@ -40,7 +40,7 @@
 | 默沙东诊疗手册 | 6,086 | 大众版+专业版 |
 | MedlinePlus | 1,017 | 英文健康百科 |
 | WHO 知识库 | 232 | 官方中文fact sheets |
-| 工具总数 | **23** | 覆盖诊断/治疗/用药/遗传 |
+| 工具总数 | **35** | 覆盖诊断/治疗/用药/遗传/人体部位分诊 |
 
 ## 🚀 快速开始（零配置）
 
@@ -306,7 +306,18 @@ cp .env.example .env
 LLM_PROVIDER=deepseek
 DEEPSEEK_API_KEY=sk-你的密钥
 API_KEY=自定义访问密钥
+# 可选：RAG 数据镜像（默认使用公共仓库镜像）
+# QDRANT_IMAGE=docker.io/你的用户名/doctor-agent-qdrant:latest
 ```
+
+> **架构说明（2026-08-30 起，双镜像）**：`doctor-agent-qdrant` 是一个镜像 = **纯 gz
+> 知识库（alpine 层，51 数据集）+ 标准 Qdrant + 构建期烘好的向量**，启动即用、零灌入
+> 等待。MariaDB 只做业务库（用户/会话/消息/反馈），知识检索走 Qdrant。
+> 本地重新烘焙知识镜像（先构建 app，再从 app 取 vector-bake 二进制）：
+> ```bash
+> make docker-build          # 先构建 app 镜像
+> ./docker/qdrant-context/build.sh doctor-agent-qdrant:latest doctor-agent:latest
+> ```
 
 #### 2. 启动
 
@@ -476,16 +487,16 @@ curl -N -X POST http://localhost:8080/chat/stream \   # SSE 流式
 用户输入
   ├─ [L1 紧急检测] 关键词匹配 → 120响应（零LLM延迟）
   ├─ [L2 范围检查] 排除兽医/法医/偏方/自残
-  ├─ [知识检索] 关键词(BM25+CJK) + 可选向量/混合检索，命中嵌入式知识库
+  ├─ [知识检索] 关键词(BM25+CJK) + 向量/混合检索，命中 MariaDB 知识库 / Qdrant RAG
   ├─ [提示词组装] 5层系统提示词 + 检索知识注入
-  ├─ [Agent循环] LLM Provider(流式) ← → 23个医疗工具
+  ├─ [Agent循环] LLM Provider(流式) ← → 35个医疗工具
   ├─ [L3 引用验证] 引用真实性核查 + 诊断断言检查
   └─ [L4 免责声明] 返回 响应 + 引用列表 + 免责声明
 ```
 
 HTTP 层另有可选安全中间件：Bearer 鉴权 → 每 IP 限流 → CORS 白名单。
 
-## 🛠️ 23个医疗工具
+## 🛠️ 35个医疗工具
 
 1. **drug_safety_check** — G6PD药物禁忌查询（安全/不安全/谨慎/未知）
 2. **genetic_risk_calculator** — 地贫遗传概率计算（Punnett方阵）
@@ -520,10 +531,10 @@ doctor-agent/
 │   ├── config/                       # 配置加载
 │   ├── session/                      # 会话管理 + JSON 文件持久化
 │   ├── prompt/                       # 5层系统提示词
-│   ├── knowledge/                    # 知识库(gzip embed) + 检索器 + 引用系统
-│   │   ├── data/                     # 48个源JSON（编辑后运行 make gz）
-│   │   └── gz/                       # gzip 压缩的嵌入文件（go:embed）
-│   ├── tools/                        # 23个医疗工具 + 注册表
+│   ├── knowledge/                    # 知识库(MariaDB/Qdrant) + 检索器 + 引用系统
+│   │   ├── data/                     # 51个源JSON（编辑后运行 make gz）
+│   │   └── gz/                       # gzip 压缩的种子文件（seed/bake 输入）
+│   ├── tools/                        # 35个医疗工具 + 注册表
 │   ├── safety/                       # 4层安全防护
 │   └── server/                       # HTTP API Server（鉴权/限流/CORS）
 ├── evals/                           # 防幻觉黄金评测集（中文36题 + 英文299题）

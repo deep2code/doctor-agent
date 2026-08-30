@@ -3,6 +3,11 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
+# ── 模式 ──────────────────────────────────────────
+#   ./build.sh          = app（默认）：只构建 app 镜像（代码/前端变化）
+#   ./build.sh full     = full：构建 app + qdrant 全量（知识库也变化）
+MODE="${1:-app}"
+
 # ── 版本信息 ──────────────────────────────────────
 GIT_COMMIT="$(git rev-parse --short HEAD 2>/dev/null || echo unknown)"
 BUILD_TIME="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
@@ -21,19 +26,20 @@ fi
 
 APP_IMAGE="${REGISTRY}/doctor-agent:${GIT_TAG}"
 APP_IMAGE_LATEST="${REGISTRY}/doctor-agent:latest"
-DATA_IMAGE="${REGISTRY}/doctor-agent-data:latest"
+QDRANT_IMAGE="${REGISTRY}/doctor-agent-qdrant:latest"
 
 echo "============================================"
-echo "  doctor-agent 打包"
-echo "  版本:    ${GIT_TAG} (commit ${GIT_COMMIT})"
-echo "  构建时间: ${BUILD_TIME}"
-echo "  应用镜像: ${APP_IMAGE}"
-echo "            ${APP_IMAGE_LATEST}"
-echo "  数据镜像: ${DATA_IMAGE}"
+echo "  doctor-agent 打包（双镜像）"
+echo "  模式:      ${MODE}"
+echo "  版本:      ${GIT_TAG} (commit ${GIT_COMMIT})"
+echo "  构建时间:  ${BUILD_TIME}"
+echo "  应用镜像:  ${APP_IMAGE}          ← Go 源码+前端，代码变化才更新"
+echo "              ${APP_IMAGE_LATEST}"
+echo "  RAG 镜像:  ${QDRANT_IMAGE}        ← gz知识库+Qdrant+向量，知识库变化才更新"
 echo "============================================"
 
 echo ""
-echo "[1/3] 构建应用镜像 ..."
+echo "[1/2] 构建应用镜像（Go 源码 + 前端，.dockerignore 排除 gz）..."
 docker build --platform linux/amd64 \
   --build-arg GIT_COMMIT="${GIT_COMMIT}" \
   --build-arg BUILD_TIME="${BUILD_TIME}" \
@@ -43,32 +49,35 @@ docker build --platform linux/amd64 \
   --provenance false \
   .
 
-echo ""
-echo "[2/3] 构建知识库数据镜像 ..."
-if [[ ! -d "internal/knowledge/gz" ]] || [[ -z "$(ls internal/knowledge/gz/*.gz 2>/dev/null)" ]]; then
-  echo "  警告: gz 目录为空，跳过数据镜像"
+# RAG 镜像只在 full 模式构建（知识库变化才需要重烤向量）
+if [[ "$MODE" == "full" ]]; then
+  echo ""
+  echo "[2/2] 构建 RAG 镜像（独立 context：gz 知识库 + 标准 Qdrant + 烘好的向量）..."
+  if [[ ! -d "internal/knowledge/gz" ]] || [[ -z "$(ls internal/knowledge/gz/*.gz 2>/dev/null)" ]]; then
+    echo "  警告: gz 目录为空，跳过 RAG 镜像"
+  else
+    docker/qdrant-context/build.sh "$QDRANT_IMAGE" "$APP_IMAGE_LATEST"
+  fi
 else
-  docker build --platform linux/amd64 \
-    -t "$DATA_IMAGE" \
-    -f Dockerfile.data \
-    --provenance false \
-    .
+  echo ""
+  echo "[2/2] 跳过 RAG 镜像（模式=app；知识库变化时用 ./build.sh full 全量重建）"
 fi
 
 echo ""
-echo "[3/3] 推送镜像 ..."
+echo "推送镜像 ..."
 echo "  推送: $APP_IMAGE"
 docker push "$APP_IMAGE"
 echo "  推送: $APP_IMAGE_LATEST"
 docker push "$APP_IMAGE_LATEST"
 
-if docker image inspect "$DATA_IMAGE" &>/dev/null; then
-  echo "  推送: $DATA_IMAGE"
-  docker push "$DATA_IMAGE"
+if [[ "$MODE" == "full" ]] && docker image inspect "$QDRANT_IMAGE" &>/dev/null; then
+  echo "  推送: $QDRANT_IMAGE"
+  docker push "$QDRANT_IMAGE"
 fi
 
 echo ""
 echo "============================================"
 echo "  打包完成"
 echo "  版本标签: ${GIT_TAG}"
+echo "  触发关系: 改 gz → ./build.sh full；改代码 → ./build.sh (app)"
 echo "============================================"

@@ -1,4 +1,4 @@
-.PHONY: build run test lint clean chat serve docker-build docker-push release
+.PHONY: build run test lint clean chat serve docker-build docker-build-qdrant docker-push release
 
 # ── 版本信息（git 注入，兜底 unknown）──────────────────────────
 GIT_COMMIT := $(shell git rev-parse --short HEAD 2>/dev/null || echo "unknown")
@@ -10,8 +10,8 @@ LDFLAGS := -s -w \
 	-X main.buildTime=$(BUILD_TIME)
 
 # ── Docker 镜像仓库（可用环境变量覆盖）──────────────────────
-IMAGE_NAME  ?= doctor-agent:latest
-DATA_IMAGE  ?= doctor-agent-data:latest
+IMAGE_NAME   ?= doctor-agent:latest
+QDRANT_IMAGE ?= doctor-agent-qdrant:latest
 
 # Build the binary (with version injection + stripped symbols)
 build:
@@ -68,7 +68,7 @@ gz:
 	python3 external/make_gz.py
 
 # ── Docker 构建 ──────────────────────────────────────────────
-# 构建应用镜像（瘦镜像，不含知识库数据）
+# 构建应用镜像（瘦镜像，不含知识库数据；Go 源码 + 前端变化才更新）
 docker-build:
 	docker build \
 	  --build-arg GIT_COMMIT=$(GIT_COMMIT) \
@@ -77,15 +77,16 @@ docker-build:
 	  -f Dockerfile \
 	  .
 
-# 构建知识库数据镜像（137M gz，极少变动）
-docker-build-data:
-	docker build -t $(DATA_IMAGE) -f Dockerfile.data .
+# 构建知识库 RAG 镜像（独立 context：纯 gz 知识库 + 标准 Qdrant + 烘好的向量；
+# 知识库变化才更新；依赖已构建的 app 镜像提供 vector-bake 二进制）
+docker-build-qdrant:
+	./docker/qdrant-context/build.sh $(QDRANT_IMAGE) $(IMAGE_NAME)
 
 # 推送镜像到仓库
 docker-push:
 	docker push $(IMAGE_NAME)
-	@if docker image inspect $(DATA_IMAGE) >/dev/null 2>&1; then \
-		docker push $(DATA_IMAGE); \
+	@if docker image inspect $(QDRANT_IMAGE) >/dev/null 2>&1; then \
+		docker push $(QDRANT_IMAGE); \
 	fi
 
 # Help
@@ -103,6 +104,6 @@ help:
 	@echo "make deps             - Install and tidy dependencies"
 	@echo "make verify-knowledge - Verify knowledge JSON files"
 	@echo "make gz               - Regenerate gzip knowledge files"
-	@echo "make docker-build     - Build app Docker image"
-	@echo "make docker-build-data - Build knowledge data Docker image"
+	@echo "make docker-build     - Build app Docker image (code changes only)"
+	@echo "make docker-build-qdrant - Build RAG Qdrant image (gz knowledge + Qdrant, knowledge changes only)"
 	@echo "make docker-push      - Push Docker images to registry"

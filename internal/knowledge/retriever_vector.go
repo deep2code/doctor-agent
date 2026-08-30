@@ -2,6 +2,7 @@ package knowledge
 
 import (
 	"context"
+	"encoding/json"
 	"fmt"
 	"log/slog"
 	"strings"
@@ -54,6 +55,20 @@ func (r *VectorRetriever) Retrieve(ctx context.Context, query string, topK int) 
 	// Convert to RetrievalResult
 	var retrievalResults []RetrievalResult
 	for _, result := range results {
+		// Self-contained mode (baked data image): the full entry JSON lives in
+		// the payload, so retrieval works even when MariaDB only holds business
+		// data. Fall back to the in-memory store for runtime-synced indexes.
+		if raw, ok := result.Payload["data"]; ok && raw != "" {
+			var e KnowledgeEntry
+			if err := json.Unmarshal([]byte(raw), &e); err == nil && e.ID != "" {
+				retrievalResults = append(retrievalResults, RetrievalResult{Entry: e, Score: result.Score})
+				if len(retrievalResults) >= topK {
+					break
+				}
+				continue
+			}
+		}
+
 		// Get entry ID from payload
 		entryID, ok := result.Payload["entry_id"]
 		if !ok {

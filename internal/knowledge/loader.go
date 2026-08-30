@@ -78,6 +78,10 @@ type Store struct {
 	// Health myths and misconceptions (日常错误观念/习惯).
 	HealthMyths []HealthMyth
 
+	// Body-part triage (人体部位分诊): region -> common conditions / red flags.
+	BodyParts      []BodyPartTriage
+	BodyPartByKey  map[string]*BodyPartTriage
+
 	// China National Essential Medicines List (国家基本药物目录).
 	EssentialMedicines []EssentialMedicine
 
@@ -153,6 +157,7 @@ func buildStore() (*Store, error) {
 		DrugByGenericName:          make(map[string]*DrugEntry),
 		FoodRiskByID:               make(map[string]*FoodRiskEntry),
 		LabTestByID:                make(map[string]*LabTestReference),
+		BodyPartByKey:              make(map[string]*BodyPartTriage),
 		ReferenceIndex:             make(map[string]string),
 		LiteratureByTopic:          make(map[string][]*LiteratureEntry),
 		ICD10ByCode:                make(map[string]*ICD10Disease),
@@ -334,6 +339,13 @@ func (s *Store) ingest(name string, raw []byte) error {
 			return err
 		}
 		s.HealthMyths = append(s.HealthMyths, m)
+	case DSBodyPart:
+		var b BodyPartTriage
+		if err := json.Unmarshal(raw, &b); err != nil {
+			return err
+		}
+		s.BodyParts = append(s.BodyParts, b)
+		s.BodyPartByKey[b.PartKey] = &s.BodyParts[len(s.BodyParts)-1]
 	case DSEssential:
 		var d EssentialMedicine
 		if err := json.Unmarshal(raw, &d); err != nil {
@@ -472,6 +484,9 @@ func (s *Store) ensureAAP() error {
 func (s *Store) ensureHealthMyths() error {
 	return s.ensure(DSHealthMyths, func() error { return s.loadDataset(DSHealthMyths) })
 }
+func (s *Store) ensureBodyPart() error {
+	return s.ensure(DSBodyPart, func() error { return s.loadDataset(DSBodyPart) })
+}
 func (s *Store) ensureEssential() error {
 	return s.ensure(DSEssential, func() error { return s.loadDataset(DSEssential) })
 }
@@ -539,6 +554,7 @@ func (s *Store) ensureAll() {
 	_ = s.ensureTTD()
 	_ = s.ensureSIDER()
 	_ = s.ensureHealthMyths()
+	_ = s.ensureBodyPart()
 	_ = s.ensureEssential()
 	_ = s.ensureVersion()
 }
@@ -563,6 +579,7 @@ func (s *Store) GetDrugByName(name string) *DrugEntry {
 }
 
 // GetAllMedical returns all medical knowledge entries.
+// GetAllMedical returns all medical knowledge entries.
 func (s *Store) GetAllMedical() []KnowledgeEntry {
 	_ = s.ensureMedical()
 	s.mu.RLock()
@@ -570,6 +587,24 @@ func (s *Store) GetAllMedical() []KnowledgeEntry {
 	entries := make([]KnowledgeEntry, len(s.MedicalEntries))
 	copy(entries, s.MedicalEntries)
 	return entries
+}
+
+// GetAllBodyParts returns all body-part triage entries (人体部位分诊).
+func (s *Store) GetAllBodyParts() []BodyPartTriage {
+	_ = s.ensureBodyPart()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	parts := make([]BodyPartTriage, len(s.BodyParts))
+	copy(parts, s.BodyParts)
+	return parts
+}
+
+// GetBodyPartByKey returns one body-part triage entry by part_key.
+func (s *Store) GetBodyPartByKey(key string) *BodyPartTriage {
+	_ = s.ensureBodyPart()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return s.BodyPartByKey[key]
 }
 
 // GetAllDrugs returns all drug entries.

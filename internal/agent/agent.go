@@ -118,6 +118,7 @@ func New(cfg *config.Config) (*Agent, error) {
 	registry.Register(tools.NewDiseaseDrugLookupTool(store))
 	registry.Register(tools.NewSIDERLookupTool(store))
 	registry.Register(tools.NewTriageDepartmentTool(store))
+	registry.Register(tools.NewBodyPartLookup(store))
 	registry.Register(tools.NewLabReportInterpretTool(store))
 	registry.Register(tools.NewMedicalImageAnalyze(provider))
 

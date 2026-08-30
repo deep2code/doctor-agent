@@ -36,3 +36,6 @@ cpubmed.txt
 evals/
 docs/
 .github/
+
+# RAG 镜像独立 context（app 镜像不需要；gz 由 docker/qdrant-context/build.sh 构建时同步）
+docker/qdrant-context/

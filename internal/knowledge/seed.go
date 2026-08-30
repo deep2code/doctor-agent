@@ -236,6 +236,13 @@ func seedFile(base string, raw []byte) (string, []KBRow, error) {
 		}
 		rows, err := seedEntries(myths)
 		return DSHealthMyths, rows, err
+	case "body_part_triage.json":
+		var parts []BodyPartTriage
+		if err := json.Unmarshal(raw, &parts); err != nil {
+			return "", nil, err
+		}
+		rows, err := seedEntries(parts)
+		return DSBodyPart, rows, err
 	case "essential_medicines.json":
 		var drugs []EssentialMedicine
 		if err := json.Unmarshal(raw, &drugs); err != nil {
@@ -378,6 +385,9 @@ func buildSearchText(raw []byte) string {
 		"department", "Department", "description", "Description",
 		"definition", "Definition", "head", "Head", "entity1", "Entity1",
 		"entity2", "Entity2", "variation", "Variation", "synonyms", "Synonyms",
+		"part_key", "PartKey", "part_zh", "PartZH", "aliases", "Aliases",
+		"conditions", "Conditions", "red_flags", "RedFlags", "self_care", "SelfCare",
+		"departments", "Departments",
 	}
 	var b strings.Builder
 	for _, k := range keys {

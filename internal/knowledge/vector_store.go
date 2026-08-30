@@ -243,6 +243,30 @@ func (s *VectorStore) Count(ctx context.Context) (int, error) {
 	return int(count), nil
 }
 
+// WaitReady polls until Qdrant is reachable (or timeout). It retries a cheap
+// gRPC healthcheck via the client connection so callers (e.g. the Dockerfile
+// bake stage, which starts qdrant in the same build step) don't have to guess
+// a sleep duration.
+func (s *VectorStore) WaitReady(ctx context.Context, timeout time.Duration) error {
+	deadline := time.Now().Add(timeout)
+	for {
+		// CollectionExists is a cheap round trip; failing means Qdrant isn't
+		// accepting requests yet.
+		_, err := s.client.CollectionExists(ctx, s.collection)
+		if err == nil {
+			return nil
+		}
+		if time.Now().After(deadline) {
+			return fmt.Errorf("qdrant not ready after %s: %w", timeout, err)
+		}
+		select {
+		case <-ctx.Done():
+			return ctx.Err()
+		case <-time.After(2 * time.Second):
+		}
+	}
+}
+
 // Close closes the client connection.
 func (s *VectorStore) Close() error {
 	return s.client.Close()

@@ -225,6 +225,23 @@ type HealthMythSet struct {
 	Myths []HealthMyth `json:"myths"`
 }
 
+// BodyPartTriage maps a human body region (as shown on the interactive body
+// map) to common conditions, red-flag symptoms, suggested departments and
+// home-care advice. It powers body_part_lookup so users who can only point to
+// where it hurts still get evidence-based guidance.
+type BodyPartTriage struct {
+	ID          string     `json:"id"`
+	PartKey     string     `json:"part_key"`
+	PartZH      string     `json:"part_zh"`
+	Aliases     []string   `json:"aliases,omitempty"`
+	Side        string     `json:"side"` // front | back
+	Conditions  []string   `json:"conditions,omitempty"`
+	RedFlags    string     `json:"red_flags,omitempty"`
+	Departments []string   `json:"departments,omitempty"`
+	SelfCare    []string   `json:"self_care,omitempty"`
+	Citations   []Citation `json:"citations,omitempty"`
+}
+
 // EssentialMedicine represents a drug on the China National Essential
 // Medicines List (国家基本药物目录), focused on patient-facing information.
 type EssentialMedicine struct {

@@ -81,6 +81,12 @@ func main() {
 		// database (doctor_knowledge). The binary itself embeds no data.
 		//   go run . seed-knowledge [--src=internal/knowledge/gz]
 		runSeedKnowledge()
+	case "vector-bake":
+		// Offline gz -> Qdrant bake: builds a self-contained RAG knowledge
+		// store (used to produce the doctor-agent-qdrant data image). Reads
+		// gz directly; does NOT require MariaDB.
+		//   doctor-agent vector-bake [--src=internal/knowledge/gz] [--host=qdrant] [--port=6334] [--collection=medical_knowledge]
+		runVectorBake(cfg)
 	case "version":
 		fmt.Printf("doctor-agent v1.0.0 (commit %s, built %s)\n", gitCommit, buildTime)
 	default:
@@ -99,6 +105,7 @@ Usage:
 	doctor-agent verify-knowledge   Validate knowledge base files
 	doctor-agent verify-knowledge -urls   Also probe citation URLs (online)
 	doctor-agent sync-knowledge     Sync knowledge to vector database
+	doctor-agent vector-bake        Bake gz knowledge into Qdrant (RAG data image)
 	doctor-agent seed-knowledge     Build knowledge base in MariaDB from gzip sources
 	doctor-agent version            Print version
 
@@ -433,6 +440,107 @@ func runSeedKnowledge() {
 		os.Exit(1)
 	}
 	fmt.Printf("✅ 知识库已生成: %s\n", dbPath)
+}
+
+// runVectorBake bakes the gz knowledge sources directly into Qdrant (offline,
+// no MariaDB required). It produces the self-contained RAG store that gets
+// baked into the doctor-agent-qdrant data image.
+//
+//	doctor-agent vector-bake [--src=internal/knowledge/gz] [--host=qdrant] [--port=6334] [--collection=medical_knowledge] [--batch-size=100] [--workers=4]
+func runVectorBake(cfg *config.Config) {
+	gzDir := "internal/knowledge/gz"
+	host := cfg.VectorStoreHost
+	port := cfg.VectorStorePort
+	collection := cfg.VectorCollection
+	batchSize := 100
+	workers := 4
+
+	for _, a := range os.Args[2:] {
+		switch {
+		case strings.HasPrefix(a, "--src="):
+			gzDir = strings.TrimPrefix(a, "--src=")
+		case strings.HasPrefix(a, "--host="):
+			host = strings.TrimPrefix(a, "--host=")
+		case strings.HasPrefix(a, "--port="):
+			_ = sscanfInt(a, "--port=", &port)
+		case strings.HasPrefix(a, "--collection="):
+			collection = strings.TrimPrefix(a, "--collection=")
+		case strings.HasPrefix(a, "--batch-size="):
+			_ = sscanfInt(a, "--batch-size=", &batchSize)
+		case strings.HasPrefix(a, "--workers="):
+			_ = sscanfInt(a, "--workers=", &workers)
+		}
+	}
+
+	if host == "" {
+		host = "localhost"
+	}
+	if collection == "" {
+		collection = "medical_knowledge"
+	}
+
+	fmt.Printf("🧱 离线烘焙知识库 gz -> Qdrant\n")
+	fmt.Printf("   gz 源:       %s\n", gzDir)
+	fmt.Printf("   Qdrant:      %s:%d (%s)\n", host, port, collection)
+	fmt.Printf("   embedding:   %s\n", defaultEmbedderName(cfg))
+
+	vecStore, err := knowledge.NewVectorStore(knowledge.VectorStoreConfig{
+		Host:       host,
+		Port:       port,
+		Collection: collection,
+	})
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "❌ 连接 Qdrant 失败: %v\n", err)
+		os.Exit(1)
+	}
+	defer func() { _ = vecStore.Close() }()
+
+	fmt.Printf("   waiting for Qdrant at %s:%d ...\n", host, port)
+	ctx, cancel := context.WithTimeout(context.Background(), 120*time.Second)
+	defer cancel()
+	if err := vecStore.WaitReady(ctx, 120*time.Second); err != nil {
+		fmt.Fprintf(os.Stderr, "❌ Qdrant 未就绪: %v\n", err)
+		os.Exit(1)
+	}
+
+	embedder, err := embedding.NewDefault(cfg.EmbeddingBaseURL, cfg.EmbeddingAPIKey, cfg.EmbeddingModel)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "❌ 初始化 embedding 失败: %v\n", err)
+		os.Exit(1)
+	}
+
+	res, err := knowledge.Bake(context.Background(), vecStore, embedder, knowledge.BakeConfig{
+		GzDir:      gzDir,
+		Collection: collection,
+		BatchSize:  batchSize,
+		Workers:    workers,
+	})
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "❌ 烘焙失败: %v\n", err)
+		os.Exit(1)
+	}
+	fmt.Printf("✅ 烘焙完成: %d 个数据集, %d 个向量点, 用时 %s\n", res.Datasets, res.Points, res.Duration)
+	if len(res.Errors) > 0 {
+		fmt.Fprintf(os.Stderr, "⚠️  %d 个批次错误(可重跑覆盖):\n", len(res.Errors))
+		for _, e := range res.Errors[:min(10, len(res.Errors))] {
+			fmt.Fprintf(os.Stderr, "   - %s\n", e)
+		}
+	}
+}
+
+// sscanfInt parses --key=VAL into *dst; returns error on failure.
+func sscanfInt(arg, prefix string, dst *int) error {
+	v := strings.TrimPrefix(arg, prefix)
+	_, err := fmt.Sscanf(v, "%d", dst)
+	return err
+}
+
+// defaultEmbedderName reports which embedder will be used for bake/sync.
+func defaultEmbedderName(cfg *config.Config) string {
+	if cfg.EmbeddingBaseURL != "" && cfg.EmbeddingAPIKey != "" {
+		return cfg.EmbeddingModel + " (remote)"
+	}
+	return "local-hash (offline, 1024d)"
 }
 
 func runSyncKnowledge(cfg *config.Config) {

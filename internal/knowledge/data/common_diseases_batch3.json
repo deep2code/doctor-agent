@@ -80,7 +80,7 @@
         "evidence_level": "A",
         "indication": "持续性/永久性房颤",
         "method": "心室率控制(β阻滞剂/CCB)",
-        "notes": "目标静息心率\u003c110次/分(宽松)或\u003c80次/分(严格)"
+        "notes": "目标静息心率<110次/分(宽松)或<80次/分(严格)"
       },
       {
         "citation_ref": "ESC 2024",
@@ -124,7 +124,7 @@
       ],
       "gold_standard": "症状+体征 + BNP/NT-proBNP升高 + 超声心动图(EF值)",
       "lab_tests": [
-        "BNP(\u003e100pg/ml)/NT-proBNP(\u003e300pg/ml)",
+        "BNP(>100pg/ml)/NT-proBNP(>300pg/ml)",
         "超声心动图(EF/舒张功能)",
         "胸部X线(心影增大/肺淤血)",
         "血常规/肾功能/电解质"
@@ -152,7 +152,7 @@
     "prevention": [
       "控制血压/血糖/血脂",
       "戒烟",
-      "限盐(\u003c5g/日)",
+      "限盐(<5g/日)",
       "限液(重度心衰)",
       "规律运动(心脏康复)",
       "避免感染/劳累/情绪激动"
@@ -209,7 +209,7 @@
     "when_to_seek_care": [
       "夜间不能平卧",
       "下肢水肿突然加重",
-      "体重3天增加\u003e2kg",
+      "体重3天增加>2kg",
       "运动耐量急剧下降",
       "晕厥"
     ]
@@ -228,14 +228,14 @@
     "diagnosis": {
       "clinical_features": [
         "对称性小关节肿痛(掌指/近端指间/腕)",
-        "晨僵\u003e30分钟",
+        "晨僵>30分钟",
         "关节压痛/肿胀",
         "晚期关节畸形/功能丧失"
       ],
       "gold_standard": "2010 ACR/EULAR分类标准(≥6分) + RF/抗CCP抗体 + 影像学",
       "lab_tests": [
         "RF(类风湿因子)",
-        "抗CCP抗体(特异性\u003e95%)",
+        "抗CCP抗体(特异性>95%)",
         "ESR/CRP(炎症活动)",
         "双手X线/MRI(骨侵蚀)"
       ]
@@ -256,8 +256,8 @@
     ],
     "prevalence": {
       "china": {
-        "population": "中国成人RA患病率",
-        "rate": 0.42
+        "population": "中国成人RA患病率0.42%(约500万)",
+        "rate": 0.0042
       }
     },
     "prevention": [
@@ -317,6 +317,15 @@
       "关节突然红肿热痛(感染?)",
       "手指苍白/发紫(血管炎?)",
       "药物副作用(感染/血细胞减少)"
+    ],
+    "citations": [
+      {
+        "type": "report",
+        "title": "中国类风湿关节炎发展报告2020",
+        "year": 2020,
+        "url": "https://www.cacm.org.cn/spskl/item?item_id=10007",
+        "level": "national_report"
+      }
     ]
   },
   {
@@ -332,8 +341,8 @@
     "condition_zh": "强直性脊柱炎",
     "diagnosis": {
       "clinical_features": [
-        "炎性腰背痛(隐匿起病/晨僵\u003e30min/活动改善/休息不缓解)",
-        "年龄\u003c40岁起病",
+        "炎性腰背痛(隐匿起病/晨僵>30min/活动改善/休息不缓解)",
+        "年龄<40岁起病",
         "交替性臀区痛",
         "外周关节炎(膝/踝)",
         "虹膜炎"
@@ -361,8 +370,8 @@
     ],
     "prevalence": {
       "china": {
-        "population": "中国成人AS患病率",
-        "rate": 0.3
+        "population": "中国成人AS患病率约0.3%",
+        "rate": 0.003
       }
     },
     "prevention": [
@@ -421,6 +430,14 @@
       "突发视力下降/眼红(虹膜炎?)",
       "胸痛/呼吸困难(主动脉根部扩张?)",
       "脊柱骨折(外伤后)"
+    ],
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "强直性脊柱炎诊疗规范(2022)",
+        "year": 2022,
+        "level": "national_guideline"
+      }
     ]
   },
   {
@@ -462,8 +479,8 @@
     ],
     "prevalence": {
       "china": {
-        "population": "中国成人银屑病患病率",
-        "rate": 0.5
+        "population": "中国成人银屑病患病率0.47%(约650万)",
+        "rate": 0.0047
       }
     },
     "prevention": [
@@ -488,7 +505,7 @@
       {
         "citation_ref": "NICE 2024",
         "evidence_level": "A",
-        "indication": "轻度(BSA\u003c3%)",
+        "indication": "轻度(BSA<3%)",
         "method": "外用TCS+维生素D3衍生物",
         "notes": "卡泊三醇/倍他米松复方"
       },
@@ -525,6 +542,15 @@
       "关节肿痛",
       "皮疹突然加重/泛发",
       "脓疱型/红皮病型表现"
+    ],
+    "citations": [
+      {
+        "type": "report",
+        "title": "我国银屑病患病率约0.47%(2012年全国流行病学调查)",
+        "year": 2012,
+        "url": "https://www.peopleapp.com/rmharticle/30022398236",
+        "level": "national_survey"
+      }
     ]
   },
   {
@@ -567,8 +593,8 @@
     ],
     "prevalence": {
       "china": {
-        "population": "中国成人癫痫患病率",
-        "rate": 0.5
+        "population": "中国癫痫患病率约7‰(近1000万)",
+        "rate": 0.007
       }
     },
     "prevention": [
@@ -619,9 +645,18 @@
     ],
     "when_to_seek_care": [
       "首次发作",
-      "发作持续\u003e5分钟(癫痫持续状态→急救)",
+      "发作持续>5分钟(癫痫持续状态→急救)",
       "发作频率增加",
       "药物副作用(皮疹/肝损害)"
+    ],
+    "citations": [
+      {
+        "type": "report",
+        "title": "我国癫痫患病率约7‰患者近1000万(中国抗癫痫协会)",
+        "year": 2026,
+        "url": "https://www.jjckb.cn/20260204/cda084a58aa8474086fd5b15965cbe1d/c.html",
+        "level": "national_report"
+      }
     ]
   },
   {
@@ -666,7 +701,7 @@
     "prevalence": {
       "china": {
         "population": "中国65岁以上PD患病率约1.7%",
-        "rate": 0.2
+        "rate": 0.017
       }
     },
     "prevention": [
@@ -688,14 +723,14 @@
       {
         "citation_ref": "MDS 2019",
         "evidence_level": "A",
-        "indication": "金标准(尤其\u003e65岁首选)",
+        "indication": "金标准(尤其>65岁首选)",
         "method": "左旋多巴/苄丝肼(美多芭)",
         "notes": "小剂量起始(62.5mg tid)，不要回避"
       },
       {
         "citation_ref": "NICE 2017",
         "evidence_level": "A",
-        "indication": "年轻患者(\u003c65岁)早期",
+        "indication": "年轻患者(<65岁)早期",
         "method": "多巴胺受体激动剂(普拉克索)",
         "notes": "延缓运动并发症，注意精神副作用"
       },
@@ -726,6 +761,15 @@
       "药物疗效减退/波动",
       "幻觉/精神症状",
       "吞咽困难/体重下降"
+    ],
+    "citations": [
+      {
+        "type": "article",
+        "title": "1990—2021年中国特发性癫痫疾病负担变化趋势预测及分析",
+        "year": 2024,
+        "url": "https://yxxz.whuznhmedj.com/journal/6809.html",
+        "level": "journal"
+      }
     ]
   },
   {
@@ -749,7 +793,7 @@
         "高血压(常合并)",
         "晚期恶心/乏力/贫血"
       ],
-      "gold_standard": "eGFR\u003c60 ml/min/1.73m² 和/或 ACR≥30mg/g 持续≥3个月",
+      "gold_standard": "eGFR<60 ml/min/1.73m² 和/或 ACR≥30mg/g 持续≥3个月",
       "lab_tests": [
         "血肌酐→计算eGFR",
         "尿ACR",
@@ -773,13 +817,13 @@
     ],
     "prevalence": {
       "china": {
-        "population": "中国成人CKD患病率(eGFR\u003c60或白蛋白尿)",
+        "population": "中国成人CKD患病率(eGFR<60或白蛋白尿)",
         "rate": 0.10800000000000001
       }
     },
     "prevention": [
-      "控制血糖(HbA1c\u003c7%)",
-      "控制血压(\u003c130/80)",
+      "控制血糖(HbA1c<7%)",
+      "控制血压(<130/80)",
       "避免肾毒性药物",
       "充足饮水",
       "避免高蛋白饮食"
@@ -799,7 +843,7 @@
       {
         "citation_ref": "KDIGO 2024",
         "evidence_level": "A",
-        "indication": "CKD合并蛋白尿(ACR\u003e300)",
+        "indication": "CKD合并蛋白尿(ACR>300)",
         "method": "RAAS阻断(ACEI/ARB)",
         "notes": "厄贝沙坦/缬沙坦，允许eGFR降30%"
       },
@@ -813,7 +857,7 @@
       {
         "citation_ref": "KDIGO 2024",
         "evidence_level": "A",
-        "indication": "2型糖尿病CKD(ACR\u003e30)",
+        "indication": "2型糖尿病CKD(ACR>30)",
         "method": "非甾体MRA(非奈利酮)",
         "notes": "FIDELIO-DKD：降低肾进展"
       },
@@ -821,7 +865,7 @@
         "citation_ref": "KDIGO 2024",
         "evidence_level": "A",
         "indication": "所有CKD",
-        "method": "血压控制(\u003c130/80)",
+        "method": "血压控制(<130/80)",
         "notes": "ACEI/ARB为首选降压药"
       },
       {
@@ -834,7 +878,7 @@
       {
         "citation_ref": "KDIGO 2024",
         "evidence_level": "A",
-        "indication": "CKD 5期(eGFR\u003c15)",
+        "indication": "CKD 5期(eGFR<15)",
         "method": "透析/肾移植",
         "notes": "肾移植为首选"
       }
@@ -905,7 +949,7 @@
     "risk_factors": [
       "女性绝经后",
       "高龄",
-      "低体重(BMI\u003c19)",
+      "低体重(BMI<19)",
       "骨折家族史",
       "长期糖皮质激素",
       "吸烟/过量饮酒",
@@ -950,7 +994,7 @@
     ],
     "when_to_seek_care": [
       "脆性骨折(跌倒后骨折)",
-      "身高变矮\u003e3cm",
+      "身高变矮>3cm",
       "慢性腰背痛",
       "长期使用糖皮质激素"
     ]
@@ -1136,7 +1180,7 @@
         "evidence_level": "A",
         "indication": "中重度/保守无效/肌萎缩",
         "method": "手术(腕横韧带切开松解)",
-        "notes": "开放或内镜手术，成功率\u003e90%"
+        "notes": "开放或内镜手术，成功率>90%"
       }
     ],
     "when_to_seek_care": [
@@ -1313,7 +1357,7 @@
       "global"
     ],
     "risk_factors": [
-      "年龄(\u003e50岁)",
+      "年龄(>50岁)",
       "雄激素(睾酮)",
       "家族史",
       "肥胖",
@@ -1337,7 +1381,7 @@
       {
         "citation_ref": "EAU 2024",
         "evidence_level": "A",
-        "indication": "前列腺体积\u003e30-40ml",
+        "indication": "前列腺体积>30-40ml",
         "method": "5α还原酶抑制剂(非那雄胺)",
         "notes": "缩小前列腺体积30%，起效慢(3-6月)"
       },

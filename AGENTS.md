@@ -22,6 +22,7 @@ go run . verify-knowledge                        # knowledge-base integrity chec
 go run . verify-knowledge -urls                 # also probe citation URL liveness (online, slow)
 go run . seed-knowledge                         # build knowledge store (MariaDB) from internal/knowledge/gz/*.gz
 go run . seed-knowledge --db='root:pass@tcp(localhost:3306)/doctor_knowledge?parseTime=true' --src=internal/knowledge/gz
+go run . vector-bake                            # offline gz -> Qdrant bake (RAG data image; no MariaDB needed)
 go run ./evals                                  # offline eval on sample_answers.json (26-question golden set)
 go run ./evals -online                          # online eval: runs real agent per question (needs API key; slow)
 go run ./evals -answers my.json -report out.json # eval custom answers + JSON report; exit 1 on any failure (CI-friendly)
@@ -39,7 +40,7 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
 - `internal/agent` — orchestrator `Agent`; builds provider-agnostic messages, dispatches tools, applies safety layers.
 - `internal/knowledge` — **database-backed (no embedded data)**: the compiled binary contains ONLY logic. Every dataset lives in an external **MariaDB** knowledge store (`doctor_knowledge` database; DSN via `MARIA_DB_*` env or explicit `KNOWLEDGE_DB_DSN`). `kb.go` is the `KB` layer (`kb_items(id, dataset, key, data MEDIUMBLOB)` + `InsertBatch`/`All`/`Search`/`Clear`; upsert via `INSERT ... ON DUPLICATE KEY UPDATE`; `data` column gzip-compressed); `loader.go` `Store` is a sync.Once singleton whose `ensureXxx()` methods load a dataset **lazily from the DB on first use** and cache it in RWMutex-guarded maps (runtime retrieval = "检索时直接查库"; cold read hits MariaDB, warm read cached). `seed.go` `Seed()` reads `gz/*.gz` and bulk-inserts rows (`seed-knowledge` CLI). Source JSONs in `data/` are gzip-compressed into `gz/` by `external/make_gz.py` (still required as seed inputs). `Retriever` interface with `retriever_keyword` (BM25 + CJK substring/bigram matching), `vector_store.go` (Qdrant vector storage + retrieval), `retriever_vector.go` (semantic search via embeddings), `retriever_hybrid` (RRF fusion); `CitationFormatter`, schemas in `schemas.go`. `verify.go` also hosts `CheckURLLiveness` (probes citation URLs).
 - `internal/llm` — `LLMProvider` interface (`Chat`, `StreamChat(ctx, messages, tools, systemPrompt, onDelta)`, `Name()`); `anthropic_provider.go` (NewStreaming), `deepseek_provider.go` + `openai_compat_provider.go` sharing `openai_stream.go` (SSE parsing + tool-call fragment accumulation); provider-agnostic `Message`/`ToolDefinition`/`ToolCall`; **multimodal support** (`ContentPart`/`ImageInput` for medical image analysis).
-- `internal/tools` — `Tool` interface (`Name/Description/Schema/Execute` → `*ToolResult{Success, Data, Error, Citations}`) + `Registry` (mutex, insertion-ordered). 34 tools: drug_safety_check, genetic_risk_calculator, food_risk_analyzer, symptom_triage, reference_lookup, lab_interpreter, literature_search, msd_search, variant_lookup, medline_search, drug_lookup, eml_lookup, drug_label_lookup, nhc_search, fhs_search, aap_search, icd10_lookup, nmpa_drug_lookup, medical_kg_lookup, disease_encyclopedia_lookup, cpubmed_kg_lookup, huatuo_qa_lookup, ttd_lookup, drug_interaction_check, disease_symptom_lookup, target_disease_lookup, disease_drug_lookup, medical_qa_lookup, sider_lookup, triage_department, lab_report_interpret, medical_image_analyze.
+- `internal/tools` — `Tool` interface (`Name/Description/Schema/Execute` → `*ToolResult{Success, Data, Error, Citations}`) + `Registry` (mutex, insertion-ordered). 35 tools: drug_safety_check, genetic_risk_calculator, food_risk_analyzer, symptom_triage, reference_lookup, lab_interpreter, literature_search, msd_search, variant_lookup, medline_search, drug_lookup, eml_lookup, drug_label_lookup, nhc_search, fhs_search, aap_search, icd10_lookup, nmpa_drug_lookup, medical_kg_lookup, disease_encyclopedia_lookup, cpubmed_kg_lookup, huatuo_qa_lookup, ttd_lookup, drug_interaction_check, disease_symptom_lookup, target_disease_lookup, disease_drug_lookup, medical_qa_lookup, sider_lookup, triage_department, body_part_lookup, lab_report_interpret, medical_image_analyze.
 - `internal/safety` — `EmergencyDetector`, `ScopeGuard`, `PostVerifier` (citation realness + optional LLM-as-judge claim-support check via `POST_VERIFY_SEMANTIC`), `DisclaimerService`.
 - `internal/knowledge` — also hosts `verify.go` (`VerifyData` integrity report, `ReportText`) and `BuildCitedSources` (flat citation-number → source map for post-verification).
 - `evals/` — anti-hallucination golden set (`questions.json`, 26 questions) + `main.go` CLI (offline/online modes, keyword/refusal/citation/must-not checks). Add new questions here; run before changing prompts or knowledge data.
@@ -102,3 +103,55 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
 - **CMeKG 疾病百科 (2026-08-10)**: `internal/knowledge/data/disease_encyclopedias.json` — 8,807 种疾病百科(症状/病因/预防/治疗/药物/食物/并发症/检查/科室/费用等 24 字段)。数据源: [liuhuanyong/QASystemOnMedicalKG](https://github.com/liuhuanyong/QASystemOnMedicalKG) medical.json(45MB NDJSON) → Python 转换 → JSON。`disease_encyclopedia_lookup` 工具(第 21 个):查询疾病百科数据库。Go 结构体 `DiseaseEncyclopedia` 在 `schemas.go`。gzip 压缩后嵌入(58.4MB→4.5MB)。
 - **CPubMed-KG 医学知识图谱 (2026-08-21)**: `internal/knowledge/data/cpubmed_kg.json` — 77,265 条医学三元组(药物治疗 16,366/辅助治疗 15,493/实验室检查 13,069/临床表现 5,518/影像学检查 5,097 等 15+ 关系类型),覆盖 48 种疾病(高血压/糖尿病/冠心病/脑卒中/慢阻肺/慢性肾病/肝硬化/肺癌/抑郁症/癫痫/帕金森病/痛风/贫血/肺炎等)。数据源: CPubMed-KG API (`cpubmed.openi.org.cn`) → Python 抓取。`cpubmed_kg_lookup` 工具(第 22 个):查询 PubMed 文献挖掘的知识三元组。Go 结构体 `CPubMedTriple` 在 `schemas.go`。gzip 压缩后嵌入(6.06MB→1.45MB)。
 - **Huatuo26M-Lite 医疗问答 (2026-08-21)**: `internal/knowledge/data/huatuo_qa.json` — 177,703 条真实医患问答(16 科室: 妇产科 34K/内科 30K/皮肤科 25K/儿科 21K 等,覆盖 2,701 种疾病)。数据源: [FreedomIntelligence/Huatuo26M-Lite](https://huggingface.co/datasets/FreedomIntelligence/Huatuo26M-Lite) (Apache 2.0)。`huatuo_qa_lookup` 工具(第 23 个):支持关键词+科室筛选,按相关性评分排序。Go 结构体 `HuatuoQAPairs` 在 `huatuo_types.go`。gzip 压缩后嵌入(140.6MB→~30MB)。注意:该数据集是社区贡献的 QA 对,非结构化知识条目,适用于患者教育和症状问答场景。
+
+## Data-image architecture (2026-08-29)
+
+- **MariaDB = business only** (users/sessions/messages/feedback, DB `doctor_agent`).
+- **Qdrant = professional RAG**: the `doctor-agent-qdrant` image bakes all 51
+  gz datasets into Qdrant storage **at build time** via `doctor-agent vector-bake`
+  (`internal/knowledge/bake.go`: reads gz → `seedFile` classification → offline
+  `LocalProvider` embedding → upsert with full entry JSON in payload `data`).
+  The image is self-contained: start → retrieval works, no seed/sync wait.
+- `vector-bake` does NOT need MariaDB. `VectorRetriever.Retrieve` prefers the
+  self-contained payload `data` (JSON → entry) and only falls back to the
+  in-memory MariaDB store for legacy runtime-synced indexes.
+- `docker-compose.yml`: qdrant service uses `QDRANT_IMAGE` (default public
+  repo `doctor-agent-qdrant:latest`); app depends on mariadb + qdrant only;
+  optional MariaDB keyword fallback = mount gz volume + `SEED_MARIADB_KB=true`
+  (see `docker-entrypoint.sh`).
+
+## Image layering (2026-08-30, v18) — 双镜像触发条件解耦
+
+- `doctor-agent-qdrant` (docker/qdrant-context/Dockerfile + build.sh): ONE image
+  = pure gz knowledge base (alpine layer, 51 datasets at `/opt/knowledge/gz`) +
+  standard Qdrant + vectors baked at build time. Built from an **independent
+  context** (`docker/qdrant-context`, only gz + Dockerfile), because the root
+  `.dockerignore` excludes `internal/knowledge/gz` (to slim the app image) —
+  building from the repo root would COPY an empty dir. vector-bake binary comes
+  from the app image via `COPY --from` (ARG APP_IMAGE), so Go code changes do
+  NOT trigger a qdrant rebuild. Rebuild ONLY when knowledge changes:
+  `./docker/qdrant-context/build.sh doctor-agent-qdrant:latest doctor-agent:latest`.
+- `doctor-agent` (Dockerfile): Go source + frontend (HTML embedded via
+  `go:embed web/*.html`). `.dockerignore` excludes gz/data/external etc. Rebuild
+  only when code/frontend changes.
+- `doctor-agent-data` was removed 2026-08-30 — gz knowledge merged into the
+  qdrant image. Only two images remain.
+- `build.sh` / Makefile (`docker-build`, `docker-build-qdrant`) follow the order
+  app → qdrant; `docker compose build` for build.yml uses the independent
+  qdrant context. This env has no buildx → no `--ignorefile`; independent
+  contexts are the portable approach.
+
+## Build & remote deploy (2026-08-30)
+
+- `build.sh [app|full]` — build mode matters:
+  - `./build.sh` (default `app`): build+push ONLY the app image (code/frontend
+    changes). Fast; qdrant untouched.
+  - `./build.sh full`: build+push app THEN qdrant (gz knowledge changes; slow —
+    bakes 51 datasets into Qdrant inside the build). qdrant-context/build.sh
+    pulls the vector-bake binary from the app image (`COPY --from`), so app
+    must be built first (script checks).
+- `remote-deploy.sh [app|full|--dry-run]` — build-machine mode (server holds
+  the repo): ssh → git pull → **git lfs pull** (the two big corpora
+  huatuo_qa/medical_qa_pairs are Git-LFS; without this, make gz + vector-bake
+  would process LFS pointer text and fail) → make gz → ./build.sh MODE →
+  docker compose up -d. `--dry-run` prints the remote command without running.

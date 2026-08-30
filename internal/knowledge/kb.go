@@ -54,6 +54,7 @@ const (
 	DSMedicalQA        = "medicalqa"
 	DSTTD              = "ttd"
 	DSSIDER            = "sider"
+	DSBodyPart         = "bodypart"
 	DSVersion          = "version"
 )
 

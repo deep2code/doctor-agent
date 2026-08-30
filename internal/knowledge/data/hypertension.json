@@ -5,13 +5,32 @@
     "condition_en": "Essential Hypertension",
     "category": "cardiovascular_disease",
     "icd10": "I10",
-    "regions": ["全国"],
+    "regions": [
+      "全国"
+    ],
     "prevalence": {
-      "china_2023": {"rate": 0.275, "population": "≥18岁成人(约2.45亿)", "sample_size": 450000},
-      "china_control_rate": {"rate": 0.168, "population": "知晓并控制达标比例"}
+      "china_control_rate": {
+        "rate": 0.168,
+        "population": "知晓并控制达标比例"
+      },
+      "china_2018": {
+        "rate": 0.275,
+        "population": "≥18岁成人(2018年CCDRFS,约2.45亿)",
+        "sample_size": 450000
+      }
     },
     "diagnosis": {
-      "lab_tests": ["诊室血压(非同日3次)", "24小时动态血压(ABPM)", "家庭自测血压(HBPM)", "尿常规", "血肌酐/eGFR", "血脂", "空腹血糖", "心电图", "眼底检查"],
+      "lab_tests": [
+        "诊室血压(非同日3次)",
+        "24小时动态血压(ABPM)",
+        "家庭自测血压(HBPM)",
+        "尿常规",
+        "血肌酐/eGFR",
+        "血脂",
+        "空腹血糖",
+        "心电图",
+        "眼底检查"
+      ],
       "thresholds": {
         "正常血压": "SBP<120 且 DBP<80 mmHg",
         "正常高值": "SBP 120-139 或 DBP 80-89 mmHg",
@@ -19,22 +38,89 @@
         "2级高血压": "SBP 160-179 或 DBP 100-109 mmHg",
         "3级高血压": "SBP≥180 或 DBP≥110 mmHg"
       },
-      "clinical_features": ["多数无症状(沉默杀手)", "头痛(枕部搏动性)", "头晕", "耳鸣", "心悸", "视物模糊", "鼻衄"],
+      "clinical_features": [
+        "多数无症状(沉默杀手)",
+        "头痛(枕部搏动性)",
+        "头晕",
+        "耳鸣",
+        "心悸",
+        "视物模糊",
+        "鼻衄"
+      ],
       "gold_standard": "非同日3次诊室血压≥140/90 mmHg，或ABPM 24h均值≥130/80 mmHg"
     },
     "treatment": [
-      {"method": "生活方式干预(减盐<5g/日、DASH饮食、运动、减重、限酒、戒烟)", "indication": "所有高血压患者基础治疗", "evidence_level": "national_guideline"},
-      {"method": "ACEI(依那普利/培哚普利)或ARB(缬沙坦/厄贝沙坦)", "indication": "一线降压药(合并糖尿病/蛋白尿/心衰优先)", "evidence_level": "national_guideline"},
-      {"method": "CCB(氨氯地平/非洛地平)", "indication": "一线降压药(老年/单纯收缩期高血压优先)", "evidence_level": "national_guideline"},
-      {"method": "噻嗪类利尿剂(氢氯噻嗪/吲达帕胺)", "indication": "一线或联合用药(盐敏感性高血压/心衰)", "evidence_level": "national_guideline"},
-      {"method": "β受体阻滞剂(美托洛尔/比索洛尔)", "indication": "合并冠心病/心衰/快速心律失常/交感兴奋", "evidence_level": "national_guideline"},
-      {"method": "联合用药(二联/三联)", "indication": "单药未达标(血压≥160/100起始可直接联合)", "evidence_level": "national_guideline"}
+      {
+        "method": "生活方式干预(减盐<5g/日、DASH饮食、运动、减重、限酒、戒烟)",
+        "indication": "所有高血压患者基础治疗",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "ACEI(依那普利/培哚普利)或ARB(缬沙坦/厄贝沙坦)",
+        "indication": "一线降压药(合并糖尿病/蛋白尿/心衰优先)",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "CCB(氨氯地平/非洛地平)",
+        "indication": "一线降压药(老年/单纯收缩期高血压优先)",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "噻嗪类利尿剂(氢氯噻嗪/吲达帕胺)",
+        "indication": "一线或联合用药(盐敏感性高血压/心衰)",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "β受体阻滞剂(美托洛尔/比索洛尔)",
+        "indication": "合并冠心病/心衰/快速心律失常/交感兴奋",
+        "evidence_level": "national_guideline"
+      },
+      {
+        "method": "联合用药(二联/三联)",
+        "indication": "单药未达标(血压≥160/100起始可直接联合)",
+        "evidence_level": "national_guideline"
+      }
     ],
-    "differential_diagnosis": ["继发性高血压(肾实质性/肾动脉狭窄/原发性醛固酮增多症/嗜铬细胞瘤/皮质醇增多症/主动脉缩窄)", "白大衣高血压", "隐匿性高血压"],
-    "risk_factors": ["高钠饮食(中国人均摄盐>10g/日)", "超重/肥胖", "饮酒", "家族史", "年龄增长", "低钾饮食", "精神紧张/压力", "睡眠呼吸暂停综合征"],
-    "complications": ["脑卒中(出血性/缺血性 — 中国高血压致死首因)", "冠心病", "心力衰竭", "高血压肾病(慢性肾功能不全)", "高血压视网膜病变", "主动脉夹层", "认知功能下降/血管性痴呆"],
-    "prevention": ["减盐至<5g/日(中国人均需减半)", "增加钾摄入(新鲜蔬果)", "维持BMI 18.5-23.9", "每周≥150分钟中等强度运动", "限制饮酒(男性<25g/日酒精)", "戒烟", "每年至少测量1次血压"],
-    "when_to_seek_care": ["血压≥180/120 mmHg", "剧烈头痛伴视力障碍", "胸痛/呼吸困难", "肢体无力/言语不清(疑似卒中)", "恶心呕吐伴血压急剧升高"],
+    "differential_diagnosis": [
+      "继发性高血压(肾实质性/肾动脉狭窄/原发性醛固酮增多症/嗜铬细胞瘤/皮质醇增多症/主动脉缩窄)",
+      "白大衣高血压",
+      "隐匿性高血压"
+    ],
+    "risk_factors": [
+      "高钠饮食(中国人均摄盐>10g/日)",
+      "超重/肥胖",
+      "饮酒",
+      "家族史",
+      "年龄增长",
+      "低钾饮食",
+      "精神紧张/压力",
+      "睡眠呼吸暂停综合征"
+    ],
+    "complications": [
+      "脑卒中(出血性/缺血性 — 中国高血压致死首因)",
+      "冠心病",
+      "心力衰竭",
+      "高血压肾病(慢性肾功能不全)",
+      "高血压视网膜病变",
+      "主动脉夹层",
+      "认知功能下降/血管性痴呆"
+    ],
+    "prevention": [
+      "减盐至<5g/日(中国人均需减半)",
+      "增加钾摄入(新鲜蔬果)",
+      "维持BMI 18.5-23.9",
+      "每周≥150分钟中等强度运动",
+      "限制饮酒(男性<25g/日酒精)",
+      "戒烟",
+      "每年至少测量1次血压"
+    ],
+    "when_to_seek_care": [
+      "血压≥180/120 mmHg",
+      "剧烈头痛伴视力障碍",
+      "胸痛/呼吸困难",
+      "肢体无力/言语不清(疑似卒中)",
+      "恶心呕吐伴血压急剧升高"
+    ],
     "clinical_examples": [
       {
         "description": "52岁男性，BMI 26.8，体检发现血压158/96 mmHg(非同日3次)。父亲脑出血。否认吸烟饮酒。",
@@ -59,6 +145,26 @@
         "level": "international_guideline"
       }
     ],
-    "keywords": ["高血压", "血压", "降压药", "ARB", "ACEI", "CCB", "氨氯地平", "缬沙坦", "脑卒中", "中风", "冠心病", "减盐", "DASH饮食", "收缩压", "舒张压", "高血压肾病", "高血压并发症", "白大衣高血压", "继发性高血压"]
+    "keywords": [
+      "高血压",
+      "血压",
+      "降压药",
+      "ARB",
+      "ACEI",
+      "CCB",
+      "氨氯地平",
+      "缬沙坦",
+      "脑卒中",
+      "中风",
+      "冠心病",
+      "减盐",
+      "DASH饮食",
+      "收缩压",
+      "舒张压",
+      "高血压肾病",
+      "高血压并发症",
+      "白大衣高血压",
+      "继发性高血压"
+    ]
   }
 ]

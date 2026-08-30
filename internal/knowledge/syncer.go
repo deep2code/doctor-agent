@@ -974,9 +974,15 @@ func embedBatch[T any](ctx context.Context, embedder embedding.Provider, source 
 		hash := sha256.Sum256(entryJSON)
 		id := uuidFromSourceHash(source, hash[:])
 
-		// Create payload with metadata
+		// Create payload with metadata. `type` mirrors the bake path so
+		// RetrieveDrugs' filter (type=drug) works for both injection routes.
+		typ := "knowledge"
+		if source == "drug" {
+			typ = "drug"
+		}
 		payload := map[string]string{
 			"source":    source,
+			"type":      typ,
 			"entry_id":  id,
 			"text":      texts[i],
 			"timestamp": time.Now().Format(time.RFC3339),

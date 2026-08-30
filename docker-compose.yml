@@ -1,26 +1,29 @@
-# doctor-agent — 纯镜像版(服务器零源码,一个 compose 全跑起来)
+# doctor-agent — 双镜像版 compose
 #
-# 前提:服务器上已经存在镜像 doctor-agent:latest(以下任一方式获得):
-#   A) 从公开/私有仓库拉取:把 IMAGE_NAME 指向你的仓库,例如
-#        echo "IMAGE_NAME=docker.io/你的用户名/doctor-agent:latest" > .env
-#      然后本 compose 直接拉取。
-#   B) 本机 docker save 成 tar 包传到服务器后 docker load:
-#        docker save doctor-agent:latest -o doctor-agent.tar
-#        # 服务器上: docker load -i doctor-agent.tar
-#      此时 IMAGE_NAME 保持默认 doctor-agent:latest(本地镜像)即可。
+# 架构（2026-08-30）：
+#   MariaDB → 只做普通商业行为（业务库 doctor_agent：用户/会话/消息/反馈）
+#   Qdrant  → 专业 RAG：doctor-agent-qdrant 镜像自带【纯 gz 知识库(51 数据集)
+#             + 构建期烘好的向量】，启动即用、零灌入等待。
 #
-# 启动(只此一条):
-#   cp .env.example .env        # 仅需改 DEEPSEEK_API_KEY 等极少数项
+# 双镜像（触发条件解耦）：
+#   doctor-agent-qdrant  纯 gz 知识库 + 标准 Qdrant + 向量 → 知识库变化才更新
+#   doctor-agent         Go 源码 + 前端                     → 代码变化才更新
+#
+# 前提：服务器上已存在镜像（以下任一方式获得）：
+#   A) 从仓库拉取：echo "IMAGE_NAME=docker.io/你的用户名/doctor-agent:latest
+#                    QDRANT_IMAGE=docker.io/你的用户名/doctor-agent-qdrant:latest" > .env
+#   B) 本机 docker save/load（QDRANT_IMAGE 保持默认本地镜像名即可）
+#
+# 启动：
+#   cp .env.example .env
 #   docker compose up -d
 #
-# 说明:
-#   - 采用「数据基础镜像」架构:50 个 gz 知识库单独在 doctor-agent-data 镜像,
-#     app 镜像只含编译好的二进制(瘦镜像)。源码改动只重建很小的 app 镜像,
-#     知识库层不动、不重烤。
-#   - 知识库(doctor_knowledge)与业务库(doctor_agent)共用同一 MariaDB 实例,
-#     由 app 启动时自动建库(无需外部 init SQL)。
-#   - 首次启动自动 seed-knowledge(若 kb_items 已非空则跳过) + sync-knowledge。
-#   - 数据通过 volume 持久化,重启不丢。Qdrant 不可用时自动降级关键词检索。
+# 说明：
+#   - qdrant 服务使用【自带知识数据的 RAG 镜像】（构建期 vector-bake 注入，
+#     见 docker/qdrant-context/）。首次启动即可语义检索，无 seed/sync 等待。
+#   - app 启动时自动建业务库 doctor_agent；知识检索走 Qdrant。
+#   - 可选：若仍需 MariaDB 关键词兜底，把 qdrant 镜像内的 /opt/knowledge/gz
+#     挂出并让 entrypoint seed（SEED_MARIADB_KB=true），默认不启用。
 
 services:
   mariadb:
@@ -40,8 +43,9 @@ services:
       retries: 30
     restart: unless-stopped
 
+  # 专业 RAG：纯 gz 知识库(51 数据集) + 标准 Qdrant + 构建期烘好的向量
   qdrant:
-    image: qdrant/qdrant:latest
+    image: ${QDRANT_IMAGE:-crpi-0xi5k79l9j4opzta.cn-hangzhou.personal.cr.aliyuncs.com/codeup2026/doctor-agent-qdrant:latest}
     container_name: doctor-agent-qdrant
     ports:
       - "6333:6333"
@@ -49,21 +53,11 @@ services:
       - qdrant_data:/qdrant/storage
     restart: unless-stopped
 
-  # 知识库数据基础镜像:把 50 个 gz 拷入命名卷,供 app 挂载(数据层独立、不重烤)
-  knowledge-data:
-    image: ${DATA_IMAGE:-crpi-0xi5k79l9j4opzta.cn-hangzhou.personal.cr.aliyuncs.com/codeup2026/doctor-agent-data:latest}
-    command: ["sh", "-c", "cp -r /opt/knowledge/gz/* /data/ && echo 'knowledge data ready'"]
-    volumes:
-      - knowledge_data:/data
-    restart: "no"
-
   app:
     image: ${IMAGE_NAME:-crpi-0xi5k79l9j4opzta.cn-hangzhou.personal.cr.aliyuncs.com/codeup2026/doctor-agent:latest}
     container_name: doctor-agent
     ports:
       - "7071:7071"
-    volumes:
-      - knowledge_data:/opt/knowledge/gz
     environment:
       LLM_PROVIDER: ${LLM_PROVIDER:-deepseek}
       DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
@@ -90,11 +84,8 @@ services:
         condition: service_healthy
       qdrant:
         condition: service_started
-      knowledge-data:
-        condition: service_completed_successfully
     restart: unless-stopped
 
 volumes:
   mariadb_data:
   qdrant_data:
-  knowledge_data:

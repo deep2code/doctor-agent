@@ -26,10 +26,47 @@ type BakeConfig struct {
 
 // BakeResult summarizes what was written.
 type BakeResult struct {
-	Datasets int   `json:"datasets"`
-	Points   int   `json:"points"`
-	Duration string `json:"duration"`
+	Datasets int      `json:"datasets"`
+	Points   int      `json:"points"`
+	Duration string   `json:"duration"`
 	Errors   []string `json:"errors,omitempty"`
+	Skipped  []string `json:"skipped,omitempty"` // datasets excluded by vectorSkipDatasets
+}
+
+// vectorSkipDatasets lists structured datasets served by dedicated lookup
+// tools (medical_kg_lookup / nmpa_drug_lookup / cpubmed_kg_lookup /
+// icd10_lookup). Their rows are exact-match entities (KG triples, drug
+// records, ICD codes) rather than free text, so vectorizing them adds no
+// retrieval value — and they account for ~664k of the 1.37M baked points,
+// roughly half the Qdrant image size. The runtime Syncer applies the same
+// set so admin syncs cannot re-add them.
+var vectorSkipDatasets = map[string]bool{
+	DSMedicalKG: true, // 354,766 rows
+	DSNMPA:      true, // 167,615 rows
+	DSCPubMed:   true, // 105,416 rows
+	DSICD10:     true, // 35,862 rows
+}
+
+// vectorBakeEligible reports whether a dataset should be vectorized.
+func vectorBakeEligible(ds string) bool { return !vectorSkipDatasets[ds] }
+
+// bakePayload builds the point payload stored in Qdrant. Only fields
+// retrieval actually consumes are kept: VectorRetriever prefers the
+// self-contained "data" JSON and falls back to "entry_id"; admin stats read
+// "source" and drug filtering reads "type". The former "text" (a duplicate
+// of data) and "timestamp" fields had no consumers and were dropped to
+// shrink the baked image.
+func bakePayload(dataset, key string, data []byte) map[string]string {
+	typ := "knowledge"
+	if dataset == DSDrug {
+		typ = "drug"
+	}
+	return map[string]string{
+		"source":   dataset,
+		"type":     typ,
+		"entry_id": key,
+		"data":     string(data),
+	}
 }
 
 // Bake reads every gz knowledge file, classifies it via seedFile (the same
@@ -71,6 +108,7 @@ func Bake(ctx context.Context, vecStore *VectorStore, embedder embedding.Provide
 		rows    []KBRow
 	}
 	classified := make([]fileRows, 0, len(files))
+	var skipped []string
 	for _, f := range files {
 		base := archiveBaseName(f)
 		raw, err := decompressFile(f)
@@ -83,6 +121,11 @@ func Bake(ctx context.Context, vecStore *VectorStore, embedder embedding.Provide
 		}
 		if ds == "" {
 			fmt.Printf("  skip %s (unsupported)\n", base)
+			continue
+		}
+		if !vectorBakeEligible(ds) {
+			fmt.Printf("  skip %s (lookup-tool covered)\n", base)
+			skipped = append(skipped, ds)
 			continue
 		}
 		classified = append(classified, fileRows{dataset: ds, rows: rows})
@@ -120,8 +163,9 @@ func Bake(ctx context.Context, vecStore *VectorStore, embedder embedding.Provide
 		Points:   total,
 		Duration: time.Since(start).Round(time.Millisecond).String(),
 		Errors:   bakeErrs,
+		Skipped:  skipped,
 	}
-	slog.Info("Bake finished", "datasets", res.Datasets, "points", res.Points, "duration", res.Duration, "errors", len(res.Errors))
+	slog.Info("Bake finished", "datasets", res.Datasets, "points", res.Points, "duration", res.Duration, "errors", len(res.Errors), "skipped", len(res.Skipped))
 	return res, nil
 }
 
@@ -156,21 +200,10 @@ func bakeDataset(ctx context.Context, vecStore *VectorStore, embedder embedding.
 		for j, r := range batch {
 			entryHash := sha256.Sum256(r.Data)
 			id := uuidFromSourceHash(dataset+"|"+r.Key, entryHash[:])
-			typ := "knowledge"
-			if dataset == DSDrug {
-				typ = "drug"
-			}
 			points[j] = VectorPoint{
-				ID:     id,
-				Vector: vectors[j],
-				Payload: map[string]string{
-					"source":    dataset,
-					"type":      typ,
-					"entry_id":  r.Key,
-					"text":      texts[j],
-					"data":      string(r.Data),
-					"timestamp": time.Now().Format(time.RFC3339),
-				},
+				ID:      id,
+				Vector:  vectors[j],
+				Payload: bakePayload(dataset, r.Key, r.Data),
 			}
 		}
 

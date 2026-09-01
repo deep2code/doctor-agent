@@ -6,6 +6,7 @@
 //
 //	vector-bake [--src=internal/knowledge/gz] [--host=127.0.0.1] [--port=6334]
 //	            [--collection=medical_knowledge] [--batch-size=100] [--workers=4]
+//	            [--recreate] [--wait-green=600]
 //
 // Kept separate from the doctor-agent application binary on purpose:
 // the RAG image only needs this small tool, so building it must NOT
@@ -30,6 +31,8 @@ func main() {
 	collection := "medical_knowledge"
 	batchSize := 100
 	workers := 4
+	recreate := false
+	waitGreen := 0 // seconds to wait for collection status=green (0 = skip)
 
 	for _, a := range os.Args[1:] {
 		switch {
@@ -45,6 +48,10 @@ func main() {
 			_ = sscanfInt(a, "--batch-size=", &batchSize)
 		case strings.HasPrefix(a, "--workers="):
 			_ = sscanfInt(a, "--workers=", &workers)
+		case a == "--recreate":
+			recreate = true
+		case strings.HasPrefix(a, "--wait-green="):
+			_ = sscanfInt(a, "--wait-green=", &waitGreen)
 		}
 	}
 
@@ -84,6 +91,15 @@ func main() {
 		os.Exit(1)
 	}
 
+	// --recreate: drop the collection first so re-bakes start clean (stale
+	// points from skipped/shrunk datasets would otherwise survive upserts).
+	if recreate {
+		fmt.Printf("   --recreate: deleting collection %s ...\n", collection)
+		if err := vecStore.DeleteCollection(ctx); err != nil {
+			fmt.Fprintf(os.Stderr, "⚠️  删除 collection 失败(可能不存在,继续): %v\n", err)
+		}
+	}
+
 	res, err := knowledge.Bake(context.Background(), vecStore, embedder, knowledge.BakeConfig{
 		GzDir:      gzDir,
 		Collection: collection,
@@ -101,6 +117,56 @@ func main() {
 			fmt.Fprintf(os.Stderr, "   - %s\n", e)
 		}
 	}
+
+	// --wait-green: block until qdrant reports the collection green, i.e.
+	// all WAL entries are flushed into segments. Best-effort: on timeout we
+	// warn and continue — the hard gate is the point-count verification
+	// below. (Under emulated builds optimization can exceed the timeout
+	// while the data is in fact complete.)
+	if waitGreen > 0 {
+		fmt.Printf("   waiting up to %ds for collection to turn green ...\n", waitGreen)
+		if err := vecStore.WaitGreen(context.Background(), time.Duration(waitGreen)*time.Second); err != nil {
+			fmt.Fprintf(os.Stderr, "⚠️  %v (continuing — count verification follows)\n", err)
+		} else {
+			fmt.Printf("   collection is green — WAL fully flushed into segments\n")
+		}
+	}
+
+	// Verify the upserts actually landed (ACKs alone are not proof of
+	// durability — FUSE-mounted storage lost tail points in testing) and
+	// re-run the idempotent upserts once if points went missing. A second
+	// shortfall aborts the build: no crippled images.
+	ensureBakedCount(context.Background(), vecStore, embedder, knowledge.BakeConfig{
+		GzDir:      gzDir,
+		Collection: collection,
+		BatchSize:  batchSize,
+		Workers:    workers,
+	}, res.Points)
+}
+
+// ensureBakedCount verifies the stored point count matches what Bake
+// reported and re-runs the (idempotent, deterministic-UUID) upserts once if
+// points went missing. Still short after the re-bake -> exit 1.
+func ensureBakedCount(ctx context.Context, vecStore *knowledge.VectorStore, embedder embedding.Provider, cfg knowledge.BakeConfig, baked int) {
+	n, err := vecStore.Count(ctx)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "⚠️  count check skipped: %v\n", err)
+		return
+	}
+	if n >= baked {
+		fmt.Printf("   verified: %d points stored\n", n)
+		return
+	}
+	fmt.Printf("⚠️  stored %d < baked %d points — re-running idempotent upserts once\n", n, baked)
+	if _, err := knowledge.Bake(ctx, vecStore, embedder, cfg); err != nil {
+		fmt.Fprintf(os.Stderr, "❌ re-bake: %v\n", err)
+		os.Exit(1)
+	}
+	if n, err := vecStore.Count(ctx); err != nil || n < baked {
+		fmt.Fprintf(os.Stderr, "❌ stored=%d baked=%d after re-bake — aborting (FUSE-mounted storage is a known cause of lost points)\n", n, baked)
+		os.Exit(1)
+	}
+	fmt.Printf("   verified after re-bake: %d points stored\n", n)
 }
 
 // sscanfInt parses --key=VAL into *dst; returns error on failure.

@@ -69,8 +69,9 @@ jobs:
             --build-arg BUILD_TIME="$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
             -f Dockerfile \
             .
-      - name: Build data image
-        run: docker build -f Dockerfile.data .
+        # NOTE: the qdrant RAG image (Dockerfile.qdrant) is intentionally NOT
+        # built in CI — baking ~743k vectors needs more RAM/time than a CI
+        # runner should spend; build it locally via ./build.sh qdrant.
 
   verify-gz:
     name: Verify embedded data

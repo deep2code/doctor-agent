@@ -16,6 +16,14 @@
 # （BuildKit 自动识别，与根 .dockerignore 互不干扰），上下文里只有
 # go.mod/go.sum + cmd/ + internal/（不含 data/ 源 JSON）。
 #
+# 镜像瘦身（2026-08-31）：
+#   - qdrant 版本 pin 到 v1.19.0（不再用 latest，保证烘焙产物可复现）
+#   - collection 用 datatype=float16 存储（向量磁盘占用减半）
+#   - vector-bake 跳过已有专用 lookup 工具的结构化数据集
+#     （medkg/nmpa/cpubmed/icd10，约 66.4 万行）：烘焙点数 1.37M → ~743k
+#   - payload 去掉无消费方的 text/timestamp 字段
+#   → 镜像从 ~6.5GB 降到 ~2-2.5GB（以实测为准）
+#
 # 烘焙工具 = ./cmd/vector-bake（独立于业务代码的小工具）：
 #   本镜像在构建期用 golang 编译它并执行 vector-bake，把 51 个 gz 离线
 #   灌入 Qdrant storage。不依赖 doctor-agent app 镜像 → 业务代码变化
@@ -60,7 +68,7 @@ RUN sed -i 's#dl-cdn.alpinelinux.org#mirrors.aliyun.com#g' /etc/apk/repositories
 COPY internal/knowledge/gz /opt/knowledge/gz
 
 # ---------- stage 3: 烘焙（构建期把 51 个 gz 灌入 Qdrant storage） ----------
-FROM qdrant/qdrant:latest AS bake
+FROM qdrant/qdrant:v1.19.0 AS bake
 
 COPY --from=build /out/vector-bake /usr/local/bin/vector-bake
 COPY --from=datalayer /opt/knowledge/gz /opt/knowledge/gz
@@ -73,16 +81,15 @@ RUN sh -c ' \
     echo "== starting qdrant for bake ==" && \
     QDRANT__STORAGE__STORAGE_PATH=/qdrant/storage /qdrant/qdrant & \
     QPID=$!; \
-    /usr/local/bin/vector-bake --src=/opt/knowledge/gz --host=127.0.0.1 --port=6334 --collection=medical_knowledge --workers=4; \
+    /usr/local/bin/vector-bake --src=/opt/knowledge/gz --host=127.0.0.1 --port=6334 --collection=medical_knowledge --workers=4 --wait-green=600; \
     RC=$?; \
-    sleep 2; \
     kill $QPID 2>/dev/null; wait $QPID 2>/dev/null; \
     echo "== clearing bake WAL (keep empty dirs; data already in segments) ==" && \
-    find /qdrant/storage -type d -name wal -exec sh -c 'find "$1" -mindepth 1 -delete' _ {} + 2>/dev/null; \
+    find /qdrant/storage -path '*/wal/*' -type f -delete 2>/dev/null; \
     exit $RC'
 
 # ---------- stage 4: 最终镜像 = 标准 Qdrant + 烘好的向量（无 gz 数据层） ----------
-FROM qdrant/qdrant:latest
+FROM qdrant/qdrant:v1.19.0
 
 # 烘好的向量（构建期已注入）
 COPY --from=bake /qdrant/storage /qdrant/storage

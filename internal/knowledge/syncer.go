@@ -141,8 +141,10 @@ func (s *Syncer) FullSync(ctx context.Context, cfg SyncConfig) (*SyncStatus, err
 		errors = append(errors, errs...)
 	}
 
-	// Sync CPubMed KG triples
-	if cfg.Source == "" || cfg.Source == "cpubmed_kg" {
+	// Sync CPubMed KG triples — skipped: structured data served by the
+	// cpubmed_kg_lookup tool, excluded from the vector store via
+	// vectorSkipDatasets to keep the baked image small (same rule as Bake).
+	if (cfg.Source == "" || cfg.Source == "cpubmed_kg") && vectorBakeEligible(DSCPubMed) {
 		count, errs := s.syncCPubMedKG(ctx, cfg.BatchSize)
 		totalPoints += count
 		totalAttempted += count + len(errs)*cfg.BatchSize

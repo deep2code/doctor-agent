@@ -131,14 +131,25 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
   `SEED_MARIADB_KB=true` (see `docker-entrypoint.sh`; the qdrant image itself
   no longer ships gz).
 
-## Image layering (2026-08-30, v18) — 双镜像触发条件解耦
+## Image layering (2026-08-30, v18; slimmed 2026-08-31) — 双镜像触发条件解耦
 
 - `doctor-agent-qdrant` (root `Dockerfile.qdrant`): ONE image
-  = standard Qdrant + vectors baked at build time. The gz sources are a
-  build-time input only (final image has NO gz layer). Bake WAL is cleared at
-  build end (empty dirs kept — qdrant needs the dir to exist; data is already
-  materialised in segments), so the storage layer is ~6.2GB of segments, not
-  13GB, and startup loads segments directly with no WAL replay (~45s).
+  = standard Qdrant (pinned `qdrant/qdrant:v1.19.0`) + vectors baked at
+  build time. The gz sources are a build-time input only (final image has
+  NO gz layer). Bake WAL is cleared at build end (empty dirs kept — qdrant
+  needs the dir to exist; data is already materialised in segments), so
+  startup loads segments directly with no WAL replay (~45s).
+  **2026-08-31 slimming** (image was measured at 10.8GB, storage layer
+  9.81GB): bake now (a) skips structured datasets covered by dedicated
+  lookup tools via `vectorSkipDatasets` in `internal/knowledge/bake.go`
+  (medkg/nmpa/cpubmed/icd10 ≈ 664k rows) — 1.37M → ~743k points, (b) the
+  runtime Syncer applies the same skip so admin syncs can't re-add them,
+  (c) `ensureCollection` creates the collection with `datatype=float16`
+  (halves on-disk vectors; scalar quantization deliberately NOT used — it
+  saves RAM only, originals stay on disk), (d) bake payload dropped the
+  consumer-less `text`/`timestamp` fields. Target image ≈ 2-2.5GB.
+  `vector-bake` gained `--recreate` (drop collection first) for clean
+  local re-bakes.
   Built from the repo root (`docker build -f Dockerfile.qdrant .`), using a
   per-Dockerfile whitelist ignore file `Dockerfile.qdrant.dockerignore`
   (BuildKit picks it up automatically) that re-includes cmd/ + internal/ +
@@ -149,16 +160,16 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
   image. It does NOT depend on the app image — no `COPY --from` — so building
   the qdrant image no longer requires building doctor-agent first. Rebuild
   ONLY when knowledge (or bake tool) changes: `./build.sh qdrant` (local dev
-  machine — baking 1.37M vectors needs more than the builder's 1.6GB RAM).
+  machine — baking ~743k vectors needs more than the builder's 1.6GB RAM).
   (The old `docker/qdrant-context/` independent context + src-sync machinery
   was removed 2026-08-30 in favour of this; `docker/mariadb-init/` deleted as
   unreferenced.)
 - **Read-only deploy mode (2026-08-30)**: compose mounts NO volume for
   qdrant — vectors live in the image layer, so a container re-create just
-  re-reads the image (no 13GB volume-copy, no double disk usage). WAL goes to
-  `/tmp` via `QDRANT__STORAGE__WAL_PATH` (container writable layer). Total
-  disk need ≈ image (~6.5GB uncompressed) + small writable layer ⇒ ~10GB free
-  is enough (NOT the 26GB a volume would need). Do NOT write to qdrant via
+  re-reads the image (no volume-copy, no double disk usage). WAL goes to
+  `/tmp` via `QDRANT__STORAGE__WAL_PATH` (container writable layer). After
+  the 2026-08-31 slimming the image is ~2-2.5GB uncompressed (was 10.8GB),
+  so ~5GB free disk is enough. Do NOT write to qdrant via
   this setup (data would not survive container re-create); it is for
   read-only RAG serving. If MariaDB keyword fallback is needed, mount an
   external gz volume + `SEED_MARIADB_KB=true` (the image itself ships no gz).
@@ -188,7 +199,7 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
 - `remote-deploy.sh [app|--dry-run]` — builder-machine mode (2026-08-30, later
   re-scoped): run from the dev machine; the builder is 114.55.170.79 and it
   builds ONLY the app image. qdrant/full args are rejected with a hint to run
-  `./build.sh qdrant` locally (baking 8GB vectors needs more than the
+  `./build.sh qdrant` locally (baking ~743k vectors needs more than the
   builder's 1.6GB RAM). No auto-deploy — deploy manually:
   `docker compose pull && docker compose up -d` on the target machine. Local
   phase: `git fetch` + upstream check — aborts if local has unpushed commits

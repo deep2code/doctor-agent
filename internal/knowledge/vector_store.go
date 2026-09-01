@@ -77,11 +77,17 @@ func (s *VectorStore) ensureCollection(ctx context.Context) error {
 	}
 
 	// Create collection
+	// Datatype Float16 halves on-disk vector storage vs the default float32
+	// with no retrieval-quality impact for the hashed lexical vectors.
+	// (Scalar quantization was considered but only saves RAM — originals
+	// stay on disk — so it is deliberately not enabled.)
+	dt := qdrant.Datatype_Float16
 	err = s.client.CreateCollection(ctx, &qdrant.CreateCollection{
 		CollectionName: s.collection,
 		VectorsConfig: qdrant.NewVectorsConfig(&qdrant.VectorParams{
 			Size:     uint64(s.dimensions),
 			Distance: qdrant.Distance_Cosine,
+			Datatype: &dt,
 		}),
 	})
 	if err != nil {
@@ -270,6 +276,40 @@ func (s *VectorStore) WaitReady(ctx context.Context, timeout time.Duration) erro
 // Close closes the client connection.
 func (s *VectorStore) Close() error {
 	return s.client.Close()
+}
+
+// DeleteCollection removes the whole collection including all points.
+// Used by vector-bake --recreate so local re-bakes start clean instead of
+// leaving stale points from datasets that are no longer baked.
+func (s *VectorStore) DeleteCollection(ctx context.Context) error {
+	ctx, cancel := context.WithTimeout(ctx, 60*time.Second)
+	defer cancel()
+	return s.client.DeleteCollection(ctx, s.collection)
+}
+
+// WaitGreen blocks until the collection reports green (all pending
+// optimizations flushed from WAL into segments) or the timeout elapses.
+// vector-bake uses it before the bake container is killed: killing earlier
+// and then clearing the WAL loses the not-yet-optimized tail points.
+func (s *VectorStore) WaitGreen(ctx context.Context, timeout time.Duration) error {
+	deadline := time.Now().Add(timeout)
+	for {
+		info, err := s.client.GetCollectionInfo(ctx, s.collection)
+		if err == nil && info.Status == qdrant.CollectionStatus_Green {
+			return nil
+		}
+		if time.Now().After(deadline) {
+			if err != nil {
+				return fmt.Errorf("collection %s not green after %s: %w", s.collection, timeout, err)
+			}
+			return fmt.Errorf("collection %s not green after %s (status %s)", s.collection, timeout, info.Status)
+		}
+		select {
+		case <-ctx.Done():
+			return ctx.Err()
+		case <-time.After(2 * time.Second):
+		}
+	}
 }
 
 // DeleteBySource removes all points with a specific source in their payload.

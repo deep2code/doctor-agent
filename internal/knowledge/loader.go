@@ -79,8 +79,19 @@ type Store struct {
 	HealthMyths []HealthMyth
 
 	// Body-part triage (人体部位分诊): region -> common conditions / red flags.
-	BodyParts      []BodyPartTriage
-	BodyPartByKey  map[string]*BodyPartTriage
+	BodyParts     []BodyPartTriage
+	BodyPartByKey map[string]*BodyPartTriage
+
+	// Pediatric growth standards (WHO + 中国 WS/T 423-2022), one whole doc.
+	GrowthStandards *GrowthStandardsDoc
+
+	// CDC developmental milestones by age (12 checklists).
+	MilestoneAges       []MilestoneAge
+	MilestoneByMonth    map[int]*MilestoneAge
+	MilestoneDefinition string
+
+	// Newborn care: WHO preterm/LBW recommendations + China screening.
+	NewbornCare *NewbornCareDoc
 
 	// China National Essential Medicines List (国家基本药物目录).
 	EssentialMedicines []EssentialMedicine
@@ -165,6 +176,7 @@ func buildStore() (*Store, error) {
 		DiseaseEncyclopediasByName: make(map[string]*DiseaseEncyclopedia),
 		CPubMedByHead:              make(map[string][]*CPubMedTriple),
 		CPubMedByRelation:          make(map[string][]*CPubMedTriple),
+		MilestoneByMonth:           make(map[int]*MilestoneAge),
 	}, nil
 }
 
@@ -346,6 +358,36 @@ func (s *Store) ingest(name string, raw []byte) error {
 		}
 		s.BodyParts = append(s.BodyParts, b)
 		s.BodyPartByKey[b.PartKey] = &s.BodyParts[len(s.BodyParts)-1]
+	case DSGrowth:
+		var doc GrowthStandardsDoc
+		if err := json.Unmarshal(raw, &doc); err != nil {
+			return err
+		}
+		s.GrowthStandards = &doc
+	case DSMilestones:
+		// Rows keyed by age_key, plus one "meta" row (source/definition).
+		var age MilestoneAge
+		if err := json.Unmarshal(raw, &age); err == nil && age.AgeKey != "" {
+			s.MilestoneAges = append(s.MilestoneAges, age)
+			if m := milestoneAgeToMonth(age.AgeKey); m >= 0 {
+				s.MilestoneByMonth[m] = &s.MilestoneAges[len(s.MilestoneAges)-1]
+			}
+			return nil
+		}
+		var meta struct {
+			Source     string `json:"source"`
+			Definition string `json:"definition"`
+		}
+		if err := json.Unmarshal(raw, &meta); err != nil {
+			return err
+		}
+		s.MilestoneDefinition = meta.Definition
+	case DSNewborn:
+		var doc NewbornCareDoc
+		if err := json.Unmarshal(raw, &doc); err != nil {
+			return err
+		}
+		s.NewbornCare = &doc
 	case DSEssential:
 		var d EssentialMedicine
 		if err := json.Unmarshal(raw, &d); err != nil {
@@ -486,6 +528,15 @@ func (s *Store) ensureHealthMyths() error {
 }
 func (s *Store) ensureBodyPart() error {
 	return s.ensure(DSBodyPart, func() error { return s.loadDataset(DSBodyPart) })
+}
+func (s *Store) ensureGrowth() error {
+	return s.ensure(DSGrowth, func() error { return s.loadDataset(DSGrowth) })
+}
+func (s *Store) ensureMilestones() error {
+	return s.ensure(DSMilestones, func() error { return s.loadDataset(DSMilestones) })
+}
+func (s *Store) ensureNewborn() error {
+	return s.ensure(DSNewborn, func() error { return s.loadDataset(DSNewborn) })
 }
 func (s *Store) ensureEssential() error {
 	return s.ensure(DSEssential, func() error { return s.loadDataset(DSEssential) })

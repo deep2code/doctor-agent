@@ -229,6 +229,24 @@ func seedFile(base string, raw []byte) (string, []KBRow, error) {
 		}
 		rows, err := seedEntries(parts)
 		return DSBodyPart, rows, err
+	case "growth_standards.json":
+		return DSGrowth, []KBRow{seedSingleton("data", raw)}, nil
+	case "development_milestones.json":
+		var doc MilestonesDoc
+		if err := json.Unmarshal(raw, &doc); err != nil {
+			return "", nil, err
+		}
+		meta, _ := json.Marshal(map[string]string{
+			"source": doc.Source, "definition": doc.Definition,
+		})
+		rows := []KBRow{{Key: "meta", SearchText: buildSearchText(meta), Data: meta}}
+		for i := range doc.Ages {
+			b, _ := json.Marshal(doc.Ages[i])
+			rows = append(rows, KBRow{Key: doc.Ages[i].AgeKey, SearchText: buildSearchText(b), Data: b})
+		}
+		return DSMilestones, rows, nil
+	case "newborn_care.json":
+		return DSNewborn, []KBRow{seedSingleton("data", raw)}, nil
 	case "essential_medicines.json":
 		var drugs []EssentialMedicine
 		if err := json.Unmarshal(raw, &drugs); err != nil {
@@ -310,10 +328,23 @@ func seedList(raw []byte) ([]KBRow, error) {
 		return nil, err
 	}
 	rows := make([]KBRow, 0, len(items))
+	seen := make(map[string]int, len(items))
 	for i, it := range items {
-		rows = append(rows, KBRow{Key: extractKey(it, i), SearchText: buildSearchText(it), Data: it})
+		key := dedupeKey(seen, extractKey(it, i))
+		rows = append(rows, KBRow{Key: key, SearchText: buildSearchText(it), Data: it})
 	}
 	return rows, nil
+}
+
+// dedupeKey appends a running suffix when the same key was already produced
+// (e.g. FDA labels sharing one generic name), keeping the unique index happy.
+func dedupeKey(seen map[string]int, key string) string {
+	n := seen[key]
+	seen[key] = n + 1
+	if n == 0 {
+		return key
+	}
+	return fmt.Sprintf("%s-%d", key, n+1)
 }
 
 // seedEntries builds rows from a typed slice by re-marshalling each element.
@@ -327,8 +358,10 @@ func seedEntries(items interface{}) ([]KBRow, error) {
 		return nil, err
 	}
 	rows := make([]KBRow, 0, len(arr))
+	seen := make(map[string]int, len(arr))
 	for i, it := range arr {
-		rows = append(rows, KBRow{Key: extractKey(it, i), SearchText: buildSearchText(it), Data: it})
+		key := dedupeKey(seen, extractKey(it, i))
+		rows = append(rows, KBRow{Key: key, SearchText: buildSearchText(it), Data: it})
 	}
 	return rows, nil
 }
@@ -345,7 +378,7 @@ func extractKey(raw json.RawMessage, idx int) string {
 	if err := json.Unmarshal(raw, &m); err != nil {
 		return fmt.Sprintf("idx-%d", idx)
 	}
-	for _, k := range []string{"id", "ID", "code", "Code", "name", "Name", "name_zh", "NameZH", "title", "Title", "variation", "Variation"} {
+	for _, k := range []string{"id", "ID", "clinvar_id", "icd10_code", "code", "Code", "name", "Name", "name_zh", "NameZH", "title", "Title", "variation", "Variation"} {
 		if v, ok := m[k]; ok {
 			if s, ok := v.(string); ok && s != "" {
 				return s

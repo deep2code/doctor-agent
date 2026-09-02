@@ -77,11 +77,14 @@ COPY --from=datalayer /opt/knowledge/gz /opt/knowledge/gz
 # vector-bake 内部自带 Qdrant 就绪等待（最多 120s）。
 # 注: 新版 qdrant 镜像移除了 --storage-path CLI 参数，改用 env 配置
 #     （QDRANT__STORAGE__STORAGE_PATH 对新旧版本均有效）。
+# 内存优化（2026-09-02）：bake.go 改为流式处理（逐文件读取→处理→释放），
+#   不再一次性加载全部 gz 到内存；配合 GOMEMLIMIT=512MiB + GOGC=50
+#   压制 Go 堆增长，避免在 ~1.6GB RAM 构建机上 OOM（exit 137）。
 RUN sh -c ' \
     echo "== starting qdrant for bake ==" && \
     QDRANT__STORAGE__STORAGE_PATH=/qdrant/storage /qdrant/qdrant & \
     QPID=$!; \
-    /usr/local/bin/vector-bake --src=/opt/knowledge/gz --host=127.0.0.1 --port=6334 --collection=medical_knowledge --workers=4 --wait-green=600; \
+    GOMEMLIMIT=512MiB GOGC=50 /usr/local/bin/vector-bake --src=/opt/knowledge/gz --host=127.0.0.1 --port=6334 --collection=medical_knowledge --workers=1 --wait-green=600; \
     RC=$?; \
     kill $QPID 2>/dev/null; wait $QPID 2>/dev/null; \
     echo "== clearing bake WAL (keep empty dirs; data already in segments) ==" && \

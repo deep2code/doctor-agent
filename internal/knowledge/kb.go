@@ -55,6 +55,9 @@ const (
 	DSTTD              = "ttd"
 	DSSIDER            = "sider"
 	DSBodyPart         = "bodypart"
+	DSGrowth           = "growth"
+	DSMilestones       = "milestones"
+	DSNewborn          = "newborn"
 	DSVersion          = "version"
 )
 
@@ -133,8 +136,8 @@ func (kb *KB) migrate() error {
 	queries := []string{
 		`CREATE TABLE IF NOT EXISTS kb_items (
 			id      BIGINT NOT NULL AUTO_INCREMENT,
-			dataset VARCHAR(64) NOT NULL,
-			` + "`key`" + ` VARCHAR(255) NOT NULL,
+			dataset VARCHAR(64) NOT NULL COLLATE utf8mb4_bin,
+			` + "`key`" + ` VARCHAR(255) NOT NULL COLLATE utf8mb4_bin,
 			data    MEDIUMBLOB NOT NULL,
 			PRIMARY KEY (id),
 			UNIQUE KEY uq_kb_dataset_key (dataset, ` + "`key`" + `)
@@ -223,7 +226,10 @@ func (kb *KB) InsertBatch(dataset string, rows []KBRow) error {
 			sb.WriteString("(?,?,?)")
 			args = append(args, dataset, rows[j].Key, compressed[j])
 		}
-		if _, err = tx.Exec(sb.String(), args...); err != nil {
+		// Idempotent upsert: a re-run of a partially seeded dataset (or a
+		// full-width/half-width key collision folded by a legacy ci collation)
+		// updates the row instead of aborting the batch.
+		if _, err = tx.Exec(sb.String()+" ON DUPLICATE KEY UPDATE data = VALUES(data)", args...); err != nil {
 			_ = tx.Rollback()
 			return fmt.Errorf("inserting chunk %d-%d: %w", i, end, err)
 		}

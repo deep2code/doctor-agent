@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"log/slog"
 	"path/filepath"
+	"runtime"
 	"sort"
-	"sync"
 	"time"
 
 	"github.com/doctor-agent/internal/embedding"
@@ -21,7 +21,7 @@ type BakeConfig struct {
 	GzDir      string // source dir of *.json.gz (internal/knowledge/gz)
 	Collection string // Qdrant collection (default medical_knowledge)
 	BatchSize  int    // embedding batch size (default 100)
-	Workers    int    // parallel dataset workers (default 4)
+	Workers    int    // legacy: parallel workers (unused in streaming mode, kept for API compat)
 }
 
 // BakeResult summarizes what was written.
@@ -101,14 +101,24 @@ func Bake(ctx context.Context, vecStore *VectorStore, embedder embedding.Provide
 		return nil, fmt.Errorf("ensuring collection: %w", err)
 	}
 
-	// Classify every file into rows first (same as seed.go). Each row carries
-	// the full entry JSON, so Qdrant payloads are self-contained.
-	type fileRows struct {
-		dataset string
-		rows    []KBRow
-	}
-	classified := make([]fileRows, 0, len(files))
-	var skipped []string
+	// Sort files for deterministic processing order (point IDs are
+	// content-hashed UUIDs so upsert order does not affect the final
+	// storage, but a stable order makes build logs reproducible).
+	sort.Strings(files)
+
+	// Stream processing: handle one file at a time instead of loading all
+	// decompressed data into memory before processing. The previous
+	// "load-all-then-parallel" approach held ~743k entries (each with full
+	// JSON payload) in a single slice, which caused OOM kills (exit 137)
+	// on memory-constrained build hosts (~1.6 GB RAM). Streaming keeps
+	// only one dataset's data in memory at any time.
+	var (
+		datasets int
+		total    int
+		bakeErrs []string
+		skipped  []string
+	)
+
 	for _, f := range files {
 		base := archiveBaseName(f)
 		raw, err := decompressFile(f)
@@ -128,38 +138,19 @@ func Bake(ctx context.Context, vecStore *VectorStore, embedder embedding.Provide
 			skipped = append(skipped, ds)
 			continue
 		}
-		classified = append(classified, fileRows{dataset: ds, rows: rows})
+
+		n, errs := bakeDataset(ctx, vecStore, embedder, ds, rows, cfg.BatchSize)
+		total += n
+		bakeErrs = append(bakeErrs, errs...)
+		datasets++
+		fmt.Printf("  baked %-16s %6d points\n", ds, n)
+
+		// Promptly reclaim the decompressed data before the next file.
+		runtime.GC()
 	}
-
-	// Sort so datasets are baked in a deterministic order.
-	sort.Slice(classified, func(i, j int) bool { return classified[i].dataset < classified[j].dataset })
-
-	var (
-		wg        sync.WaitGroup
-		mu        sync.Mutex
-		total     int
-		bakeErrs  []string
-	)
-	sem := make(chan struct{}, cfg.Workers)
-
-	for _, fr := range classified {
-		wg.Add(1)
-		sem <- struct{}{}
-		go func(ds string, rows []KBRow) {
-			defer wg.Done()
-			defer func() { <-sem }()
-			n, errs := bakeDataset(ctx, vecStore, embedder, ds, rows, cfg.BatchSize)
-			mu.Lock()
-			total += n
-			bakeErrs = append(bakeErrs, errs...)
-			mu.Unlock()
-			fmt.Printf("  baked %-16s %6d points\n", ds, n)
-		}(fr.dataset, fr.rows)
-	}
-	wg.Wait()
 
 	res := &BakeResult{
-		Datasets: len(classified),
+		Datasets: datasets,
 		Points:   total,
 		Duration: time.Since(start).Round(time.Millisecond).String(),
 		Errors:   bakeErrs,

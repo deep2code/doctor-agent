@@ -81,7 +81,6 @@ services:
       VECTOR_COLLECTION: medical_knowledge
       EMBEDDING_ENABLED: "true"
       LOG_LEVEL: ${LOG_LEVEL:-warn}
-      LOG_FILE: /app/logs/doctor-agent.log
     volumes:
       - ./logs:/app/logs
     depends_on:

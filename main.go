@@ -19,6 +19,7 @@ import (
 	"github.com/doctor-agent/internal/database"
 	"github.com/doctor-agent/internal/embedding"
 	"github.com/doctor-agent/internal/knowledge"
+	"github.com/doctor-agent/internal/logging"
 	"github.com/doctor-agent/internal/server"
 	"github.com/doctor-agent/internal/session"
 )
@@ -44,7 +45,7 @@ func main() {
 
 	cfg := config.Load()
 
-	// Setup structured logging (stderr + optional file)
+	// Setup structured logging (stderr + rotating file in logs/ dir)
 	var level slog.Level = slog.LevelInfo
 	switch cfg.LogLevel {
 	case "debug":
@@ -55,22 +56,18 @@ func main() {
 		level = slog.LevelError
 	}
 	logOutput := io.Writer(os.Stderr)
-	logFile := os.Getenv("LOG_FILE")
-	if logFile != "" {
-		if dir := filepath.Dir(logFile); dir != "." && dir != "/" {
-			os.MkdirAll(dir, 0755)
-		}
-		f, err := os.OpenFile(logFile, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
-		if err != nil {
-			// file open failed — fall back to stderr only
-			fmt.Fprintf(os.Stderr, "WARNING: cannot open log file %s: %v (using stderr only)\n", logFile, err)
-		} else {
-			logOutput = io.MultiWriter(os.Stderr, f)
-		}
+	rotWriter, err := logging.NewRotatingWriter("logs", "doctor-agent.log", 10, 7)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "WARNING: file logging unavailable: %v (stderr only)\n", err)
+	} else {
+		logOutput = io.MultiWriter(os.Stderr, rotWriter)
 	}
 	slog.SetDefault(slog.New(slog.NewTextHandler(logOutput, &slog.HandlerOptions{
 		Level: level,
 	})))
+	if rotWriter != nil {
+		slog.Info("File logging enabled", "dir", "logs", "file", "doctor-agent.log", "maxSizeMB", 10, "maxAgeDays", 7)
+	}
 
 	// Parse subcommand
 	// 无参数 = 默认启动网页版（用户友好：双击即可用，浏览器打开 localhost:7071）

@@ -389,13 +389,21 @@
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 医答 Doctor Agent</span>
+      <span id="version-info">© 2026 医答 Doctor Agent</span>
       <span>仅供健康参考，不能替代专业医疗诊断</span>
     </div>
   </div>
 </footer>
 
 <script>
+/* ---- 版本信息（从 /health 拉取 git hash + 打包时间） ---- */
+fetch("/health").then(function(r){return r.json();}).then(function(d){
+  var el = document.getElementById("version-info");
+  var parts = ["© 2026 医答 Doctor Agent"];
+  if(d.git_commit && d.git_commit !== "unknown") parts.push(d.git_commit);
+  if(d.build_time && d.build_time !== "unknown") parts.push(d.build_time);
+  el.textContent = parts.join(" · ");
+}).catch(function(){});
 
 /* ---------------- Symptom body map ---------------- */
 var BM_GEO={male:{sh:50,wh:34,hh:38,armW:21,legW:30,headRx:23,headRy:27},

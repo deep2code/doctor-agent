@@ -235,13 +235,13 @@
     display: flex; align-items: center; justify-content: center; line-height: 1;
   }
   .hint {
+    display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap;
     max-width: 860px; margin: 10px auto 0; text-align: center; font-size: 12px; color: var(--muted);
     background: rgba(246,168,33,.08); border: 1px solid rgba(246,168,33,.25);
     border-radius: 10px; padding: 6px 12px;
   }
   .version-info {
-    max-width: 860px; margin: 8px auto 0; text-align: center; font-size: 11px;
-    color: var(--muted); opacity: .7;
+    font-size: 11px; color: var(--muted); opacity: .7;
   }
 
   /* body-map palette shim: chat UI uses --accent teal, body-map CSS expects landing vars */
@@ -696,8 +696,7 @@
   </div>
   <div id="img-preview-bar"></div>
   <div class="error-tip" id="error-tip"></div>
-  <p class="hint">AI 回答仅供参考，不能替代专业医生诊断；紧急情况请拨打 120</p>
-  <p class="version-info" id="version-info">© 2026 医答 Doctor Agent</p>
+  <p class="hint"><span>AI 回答仅供参考，不能替代专业医生诊断；紧急情况请拨打 120</span><span class="version-info" id="version-info">© 2026 医答 Doctor Agent</span></p>
 </footer>
 
 <script>

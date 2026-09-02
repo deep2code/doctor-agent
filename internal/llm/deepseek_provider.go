@@ -39,12 +39,27 @@ func (p *DeepSeekProvider) Name() string {
 // --- OpenAI-compatible request/response types ---
 
 type openAIChatRequest struct {
-	Model       string `json:"model"`
-	Messages    any    `json:"messages"` // Can be []openAIMessage or []any for multimodal
-	Tools       []openAITool `json:"tools,omitempty"`
-	Temperature float64 `json:"temperature"`
-	MaxTokens   int     `json:"max_tokens"`
-	Stream      bool    `json:"stream,omitempty"`
+	Model               string               `json:"model"`
+	Messages            any                  `json:"messages"` // Can be []openAIMessage or []any for multimodal
+	Tools               []openAITool         `json:"tools,omitempty"`
+	Temperature         float64              `json:"temperature,omitempty"`
+	MaxTokens           int                  `json:"max_tokens,omitempty"`
+	MaxCompletionTokens int                  `json:"max_completion_tokens,omitempty"`
+	Stream              bool                 `json:"stream,omitempty"`
+	StreamOptions       *openAIStreamOptions `json:"stream_options,omitempty"`
+	ParallelToolCalls   *bool                `json:"parallel_tool_calls,omitempty"`
+}
+
+// openAIStreamOptions controls streaming behavior (OpenAI 2024+ protocol).
+type openAIStreamOptions struct {
+	IncludeUsage bool `json:"include_usage"`
+}
+
+// openAIUsage carries token usage statistics from the API response.
+type openAIUsage struct {
+	PromptTokens     int `json:"prompt_tokens"`
+	CompletionTokens int `json:"completion_tokens"`
+	TotalTokens      int `json:"total_tokens"`
 }
 
 type openAIContentPart struct {
@@ -81,6 +96,7 @@ type openAIFunctionDef struct {
 	Name        string         `json:"name"`
 	Description string         `json:"description"`
 	Parameters  map[string]any `json:"parameters"`
+	Strict      *bool          `json:"strict,omitempty"`
 }
 
 type openAIToolCall struct {
@@ -96,10 +112,12 @@ type openAIFunctionCall struct {
 
 type openAIChatResponse struct {
 	Choices []openAIChoice `json:"choices"`
+	Usage   *openAIUsage   `json:"usage,omitempty"`
 }
 
 type openAIChoice struct {
-	Message openAIMessage `json:"message"`
+	Message      openAIMessage `json:"message"`
+	FinishReason string        `json:"finish_reason,omitempty"`
 }
 
 func (p *DeepSeekProvider) Chat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string) (*ChatResponse, error) {

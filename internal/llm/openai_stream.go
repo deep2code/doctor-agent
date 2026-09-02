@@ -31,6 +31,7 @@ type openAIStreamChunk struct {
 		} `json:"delta"`
 		FinishReason string `json:"finish_reason"`
 	} `json:"choices"`
+	Usage *openAIUsage `json:"usage,omitempty"`
 }
 
 // openAIStreamingChat calls an OpenAI-compatible /chat/completions endpoint
@@ -119,27 +120,36 @@ func openAIStreamingChat(
 
 	openAITools := make([]openAITool, 0, len(tools))
 	for _, t := range tools {
+		required := t.Required
+		if required == nil {
+			required = []string{}
+		}
 		openAITools = append(openAITools, openAITool{
 			Type: "function",
 			Function: openAIFunctionDef{
 				Name:        t.Name,
 				Description: t.Description,
 				Parameters: map[string]any{
-					"type":       "object",
-					"properties": t.Parameters,
-					"required":   t.Required,
+					"type":                 "object",
+					"properties":           t.Parameters,
+					"required":             required,
+					"additionalProperties": false,
 				},
 			},
 		})
 	}
 
 	reqBody := openAIChatRequest{
-		Model:       model,
-		Messages:    openAIMsgs,
-		Tools:       openAITools,
-		Temperature: temperature,
-		MaxTokens:   maxTokens,
-		Stream:      onDelta != nil,
+		Model:               model,
+		Messages:            openAIMsgs,
+		Tools:               openAITools,
+		Temperature:         temperature,
+		MaxTokens:           maxTokens,
+		MaxCompletionTokens: maxTokens,
+		Stream:              onDelta != nil,
+	}
+	if onDelta != nil {
+		reqBody.StreamOptions = &openAIStreamOptions{IncludeUsage: true}
 	}
 	bodyBytes, err := json.Marshal(reqBody)
 	if err != nil {

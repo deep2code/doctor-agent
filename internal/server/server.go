@@ -76,11 +76,22 @@ type Server struct {
 	http  *http.Server
 	limiter *rateLimiter
 
+	// Build metadata (injected from main.go via SetBuildInfo).
+	gitCommit string
+	buildTime string
+
 	// Pre-rendered public pages (shared CSS inlined + canonical/og:url
 	// injected once per process in New; see buildPage).
 	pageLanding string
 	pageMap     string
 	pageStats   string
+}
+
+// SetBuildInfo injects the git commit hash and build timestamp from main.go
+// (populated via -ldflags at build time). Call once after construction.
+func (s *Server) SetBuildInfo(commit, built string) {
+	s.gitCommit = commit
+	s.buildTime = built
 }
 
 // New creates a new HTTP server.
@@ -418,8 +429,10 @@ func (s *Server) handleHealth(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	writeJSON(w, http.StatusOK, map[string]any{
-		"status":    "healthy",
-		"timestamp": time.Now().UTC().Format(time.RFC3339),
+		"status":     "healthy",
+		"timestamp":  time.Now().UTC().Format(time.RFC3339),
+		"git_commit": s.gitCommit,
+		"build_time": s.buildTime,
 	})
 }
 

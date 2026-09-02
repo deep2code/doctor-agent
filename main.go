@@ -325,6 +325,7 @@ func runServe(cfg *config.Config) {
 	ag.SetSessionStore(session.NewDBStore(db))
 
 	srv := server.NewWithDB(cfg, ag, authSvc, db)
+	srv.SetBuildInfo(gitCommit, buildTime)
 
 	// Graceful shutdown
 	sigCh := make(chan os.Signal, 1)

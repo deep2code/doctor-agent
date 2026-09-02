@@ -343,6 +343,12 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 
 		resp, err := a.provider.StreamChat(ctx, messages, toolDefs, systemPrompt, onDelta)
 		if err != nil {
+			slog.Error("LLM StreamChat failed",
+				"error", err,
+				"conversation_id", sess.ID,
+				"iteration", i,
+				"max_iterations", maxIterations,
+			)
 			return nil, fmt.Errorf("LLM error: %w", err)
 		}
 
@@ -429,6 +435,10 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		}, nil
 	}
 
+	slog.Error("Agent exceeded maximum tool-use iterations",
+		"conversation_id", sess.ID,
+		"max_iterations", maxIterations,
+	)
 	return nil, fmt.Errorf("exceeded maximum tool-use iterations (%d)", maxIterations)
 }
 
@@ -544,6 +554,13 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 			llmResp, llmErr = a.provider.Chat(ctx, messages, toolDefs, systemPrompt)
 		}
 		if llmErr != nil {
+			slog.Error("LLM call failed",
+				"error", llmErr,
+				"conversation_id", sess.ID,
+				"iteration", i,
+				"max_iterations", maxIterations,
+				"has_images", len(images) > 0,
+			)
 			return nil, fmt.Errorf("LLM call: %w", llmErr)
 		}
 
@@ -628,6 +645,11 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		})
 	}
 
+	slog.Error("Agent exceeded maximum tool-use iterations",
+		"conversation_id", sess.ID,
+		"max_iterations", maxIterations,
+		"has_images", len(images) > 0,
+	)
 	return nil, fmt.Errorf("exceeded maximum tool-use iterations (%d)", maxIterations)
 }
 

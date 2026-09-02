@@ -468,7 +468,13 @@ func (s *Server) handleChat(w http.ResponseWriter, r *http.Request) {
 		resp, err = s.agent.ProcessMessage(ctx, sess, req.Message)
 	}
 	if err != nil {
-		slog.Error("Agent processing error", "error", err)
+		slog.Error("Agent processing error",
+			"error", err,
+			"endpoint", "/chat",
+			"conversation_id", req.ConversationID,
+			"message_len", len(req.Message),
+			"has_images", len(images) > 0,
+		)
 		writeJSON(w, http.StatusInternalServerError, map[string]any{
 			"error": "internal processing error",
 		})
@@ -570,6 +576,13 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 		resp, err = s.agent.ProcessMessageStream(ctx, sess, req.Message, onDelta, onStep)
 	}
 	if err != nil {
+		slog.Error("Agent stream processing error",
+			"error", err,
+			"endpoint", "/chat/stream",
+			"conversation_id", req.ConversationID,
+			"message_len", len(req.Message),
+			"has_images", len(images) > 0,
+		)
 		sendEvent("error", map[string]any{"error": "internal processing error"})
 		return
 	}

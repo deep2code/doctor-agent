@@ -117,7 +117,7 @@ func TestPagesServed(t *testing.T) {
 		t.Fatalf("GET /app status = %d, want 200", app.Code)
 	}
 	appBody := app.Body.String()
-	if !strings.Contains(appBody, "家庭医生") || !strings.Contains(appBody, "/chat/stream") {
+	if !strings.Contains(appBody, "医答") || !strings.Contains(appBody, "/chat/stream") {
 		t.Error("chat UI is missing expected content (title or stream endpoint)")
 	}
 

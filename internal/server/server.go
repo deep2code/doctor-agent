@@ -57,6 +57,16 @@ var cssStats string
 //go:embed web/shared/bm.css
 var cssBM string
 
+// Lazy-loaded JavaScript libraries for the chat UI (extracted from the
+// monolithic index.html to reduce first-paint payload). Served as static
+// assets; the HTML references them via <script src="...">.
+//
+//go:embed web/mermaid.min.js
+var jsMermaid string
+
+//go:embed web/three.min.js
+var jsThree string
+
 // Server wraps the HTTP API server for the doctor agent.
 type Server struct {
 	cfg   *config.Config
@@ -103,6 +113,9 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 	mux.HandleFunc("/sitemap.xml", s.handleSitemap)
 	mux.HandleFunc("/llms.txt", s.handleLLMsTxt)
 	mux.HandleFunc("/app", s.handleAppUI)
+	// Lazy-loaded JS assets for the chat UI (extracted to cut first-paint).
+	mux.HandleFunc("/mermaid.min.js", s.handleMermaidJS)
+	mux.HandleFunc("/three.min.js", s.handleThreeJS)
 	mux.HandleFunc("/health", s.handleHealth)
 	mux.HandleFunc("/chat", s.handleChat)
 	mux.HandleFunc("/chat/stream", s.handleChatStream)
@@ -376,6 +389,26 @@ func (s *Server) handleAppUI(w http.ResponseWriter, r *http.Request) {
 	}
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 	_, _ = io.WriteString(w, webUIIndex)
+}
+
+func (s *Server) handleMermaidJS(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+	w.Header().Set("Content-Type", "application/javascript; charset=utf-8")
+	w.Header().Set("Cache-Control", "public, max-age=86400")
+	_, _ = io.WriteString(w, jsMermaid)
+}
+
+func (s *Server) handleThreeJS(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+	w.Header().Set("Content-Type", "application/javascript; charset=utf-8")
+	w.Header().Set("Cache-Control", "public, max-age=86400")
+	_, _ = io.WriteString(w, jsThree)
 }
 
 // handleHealth responds with server health status.

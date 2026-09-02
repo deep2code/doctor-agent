@@ -45,13 +45,6 @@ QDRANT_IMAGE="${REGISTRY}/doctor-agent-qdrant:latest"
 build_app() {
   echo "[app] 构建应用镜像（Go 源码 + 前端，.dockerignore 排除 gz）..."
 
-  # 自动构建预烘焙基础镜像（首次/新机器时构建，后续复用）
-  BASE_IMAGE="doctor-runtime:3.20"
-  if ! docker image inspect "$BASE_IMAGE" >/dev/null 2>&1; then
-    echo "  基础镜像 $BASE_IMAGE 不存在，从 base.Dockerfile 构建..."
-    docker build --platform linux/amd64 -t "$BASE_IMAGE" -f base.Dockerfile .
-  fi
-
   docker build --platform linux/amd64 \
     --build-arg GIT_COMMIT="${GIT_COMMIT}" \
     --build-arg BUILD_TIME="${BUILD_TIME}" \

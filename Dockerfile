@@ -1,5 +1,13 @@
 # syntax=docker/dockerfile:1
 
+# ---------- runtime base stage ----------
+# Inlined base (was base.Dockerfile): alpine:3.20 + ca-certificates curl mariadb-client.
+# BuildKit caches this layer — apk only runs once, same as pre-baked approach,
+# but without the Docker Hub metadata resolution problem of a local FROM image.
+FROM alpine:3.20 AS base
+RUN sed -i 's#dl-cdn.alpinelinux.org#mirrors.aliyun.com#g' /etc/apk/repositories \
+    && apk add --no-cache ca-certificates curl mariadb-client
+
 # ---------- build stage ----------
 FROM golang:1.26-alpine AS build
 
@@ -31,9 +39,7 @@ RUN --mount=type=cache,target=/go/pkg/mod \
       -o /out/doctor-agent .
 
 # ---------- runtime stage ----------
-# Pre-baked base (base.Dockerfile): alpine:3.20 + ca-certificates curl mariadb-client.
-# build.sh 会自动检测并构建此基础镜像（首次构建/新机器时）。
-FROM doctor-runtime:3.20
+FROM base
 WORKDIR /app
 
 COPY --from=build /out/doctor-agent /usr/local/bin/doctor-agent

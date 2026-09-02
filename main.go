@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"context"
 	"fmt"
+	"io"
 	"log/slog"
 	"os"
 	"os/signal"
@@ -43,7 +44,7 @@ func main() {
 
 	cfg := config.Load()
 
-	// Setup structured logging
+	// Setup structured logging (stderr + optional file)
 	var level slog.Level = slog.LevelInfo
 	switch cfg.LogLevel {
 	case "debug":
@@ -53,7 +54,21 @@ func main() {
 	case "error":
 		level = slog.LevelError
 	}
-	slog.SetDefault(slog.New(slog.NewTextHandler(os.Stderr, &slog.HandlerOptions{
+	logOutput := io.Writer(os.Stderr)
+	logFile := os.Getenv("LOG_FILE")
+	if logFile != "" {
+		if dir := filepath.Dir(logFile); dir != "." && dir != "/" {
+			os.MkdirAll(dir, 0755)
+		}
+		f, err := os.OpenFile(logFile, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
+		if err != nil {
+			// file open failed — fall back to stderr only
+			fmt.Fprintf(os.Stderr, "WARNING: cannot open log file %s: %v (using stderr only)\n", logFile, err)
+		} else {
+			logOutput = io.MultiWriter(os.Stderr, f)
+		}
+	}
+	slog.SetDefault(slog.New(slog.NewTextHandler(logOutput, &slog.HandlerOptions{
 		Level: level,
 	})))
 

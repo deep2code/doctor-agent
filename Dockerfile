@@ -31,9 +31,9 @@ RUN --mount=type=cache,target=/go/pkg/mod \
       -o /out/doctor-agent .
 
 # ---------- runtime stage ----------
-FROM alpine:3.20
-RUN sed -i 's#dl-cdn.alpinelinux.org#mirrors.aliyun.com#g' /etc/apk/repositories \
-    && apk add --no-cache ca-certificates curl mariadb-client
+# Pre-baked base (base.Dockerfile): alpine:3.20 + ca-certificates curl mariadb-client.
+# build.sh 会自动检测并构建此基础镜像（首次构建/新机器时）。
+FROM doctor-runtime:3.20
 WORKDIR /app
 
 COPY --from=build /out/doctor-agent /usr/local/bin/doctor-agent

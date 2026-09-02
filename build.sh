@@ -46,6 +46,7 @@ build_app() {
   echo "[app] 构建应用镜像（Go 源码 + 前端，.dockerignore 排除 gz）..."
 
   docker build --platform linux/amd64 \
+    --pull=never \
     --build-arg GIT_COMMIT="${GIT_COMMIT}" \
     --build-arg BUILD_TIME="${BUILD_TIME}" \
     -t "$APP_IMAGE" \
@@ -62,6 +63,7 @@ build_qdrant() {
     exit 1
   fi
   docker build --platform linux/amd64 \
+    --pull=never \
     -t "$QDRANT_IMAGE" \
     -f Dockerfile.qdrant \
     --provenance false \

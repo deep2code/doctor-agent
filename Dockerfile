@@ -31,9 +31,9 @@ RUN --mount=type=cache,target=/go/pkg/mod \
       -o /out/doctor-agent .
 
 # ---------- runtime stage ----------
-# Pre-baked base (base.Dockerfile): alpine:3.20 + ca-certificates curl mariadb-client.
-# One-time on packer: docker build -f base.Dockerfile -t doctor-runtime:3.20 .
-FROM doctor-runtime:3.20
+FROM alpine:3.20
+RUN sed -i 's#dl-cdn.alpinelinux.org#mirrors.aliyun.com#g' /etc/apk/repositories \
+    && apk add --no-cache ca-certificates curl mariadb-client
 WORKDIR /app
 
 COPY --from=build /out/doctor-agent /usr/local/bin/doctor-agent

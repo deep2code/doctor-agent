@@ -20,8 +20,9 @@ type GrowthAssessment struct {
 	Unit        string  `json:"unit"`
 
 	// Results per standard (nil when the standard lacks this indicator/age).
-	WHO   *GrowthZResult `json:"who,omitempty"`
-	China *GrowthZResult `json:"china,omitempty"`
+	WHO       *GrowthZResult       `json:"who,omitempty"`
+	China     *GrowthZResult       `json:"china,omitempty"`
+	SchoolAge *SchoolAgeAssessment `json:"school_age,omitempty"` // 6-18 岁筛查
 }
 
 // GrowthZResult is the interpolated evaluation against one standard.
@@ -44,7 +45,7 @@ var growthIndicatorKeys = map[string]struct{ who, cn, zh, unit string }{
 	"weight":             {"weight_for_age", "weight_for_age", "年龄别体重", "kg"},
 	"length_height":      {"length_height_for_age", "length_height_for_age", "年龄别身长/身高", "cm"},
 	"head_circumference": {"head_circumference_for_age", "head_circumference_for_age", "年龄别头围", "cm"},
-	"bmi":                {"", "bmi_for_age", "年龄别 BMI", "kg/m²"},
+	"bmi":                {"bmi_for_age", "bmi_for_age", "年龄别 BMI", "kg/m²"},
 	"weight_for_length":  {"", "weight_for_length", "身长别体重(0-2岁)", "kg"},
 	"weight_for_height":  {"", "weight_for_height", "身高别体重(2-7岁)", "kg"},
 }
@@ -97,6 +98,8 @@ func (r *KeywordRetriever) AssessGrowth(ctx context.Context, sex string, ageMont
 			ind = doc.Who.LengthHeightForAge
 		case "head_circumference_for_age":
 			ind = doc.Who.HeadCircumferenceForAge
+		case "bmi_for_age":
+			ind = doc.Who.BMIForAge
 		}
 		if ind != nil {
 			rows := ind.Boys
@@ -112,10 +115,216 @@ func (r *KeywordRetriever) AssessGrowth(ctx context.Context, sex string, ageMont
 			}
 		}
 	}
+	// 学龄段（6-18 岁）走 WS/T 456-2014 + WS/T 586-2018 合并筛查表：
+	// 身高按生长迟缓界值、BMI 按消瘦/超重/肥胖分档；无 SD 表，只出判定。
+	if doc.SchoolAge != nil && ageMonths >= 72 && ageMonths <= 216 &&
+		(indicator == "length_height" || indicator == "bmi") {
+		if sa := assessSchoolAge(doc.SchoolAge, isGirl, ageMonths, indicator, value); sa != nil {
+			out.SchoolAge = sa
+			return out, nil
+		}
+	}
 	if out.China == nil && out.WHO == nil {
-		return nil, fmt.Errorf("no standard covers %s at %d months (中国标准 0-84 月，WHO 0-60 月)", keys.zh, ageMonths)
+		return nil, fmt.Errorf("no standard covers %s at %d months (中国 0-84 月 / WHO 0-60 月 / 学龄筛查 6-18 岁)", keys.zh, ageMonths)
 	}
 	return out, nil
+}
+
+// SchoolAgeAssessment is the 6-18 岁筛查结果（界值表，无 z 分数）。
+type SchoolAgeAssessment struct {
+	Standard    string  `json:"standard"` // "WS/T 456-2014 + WS/T 586-2018"
+	AgeYears    string  `json:"age_years"`
+	IndicatorZH string  `json:"indicator_zh"`
+	Value       float64 `json:"value"`
+	Unit        string  `json:"unit"`
+	Verdict     string  `json:"verdict"` // 生长迟缓/正常/消瘦/超重/肥胖
+	CutOff      string  `json:"cut_off"` // 命中的界值说明
+	Note        string  `json:"note"`
+}
+
+// assessSchoolAge evaluates one measurement against the 6-18 岁合并筛查表.
+func assessSchoolAge(sa *SchoolAgeDoc, isGirl bool, ageMonths int, indicator string, value float64) *SchoolAgeAssessment {
+	out := &SchoolAgeAssessment{Standard: "WS/T 456-2014 + WS/T 586-2018 学龄合并筛查", Value: value}
+	switch indicator {
+	case "length_height":
+		table := sa.StuntingHeightCM.Boys
+		if isGirl {
+			table = sa.StuntingHeightCM.Girls
+		}
+		age, cut := nearestSchoolAgeKey(table, ageMonths)
+		if age == "" {
+			return nil
+		}
+		out.AgeYears, out.Unit, out.IndicatorZH = age, "cm", "年龄别身高"
+		if value <= cut {
+			out.Verdict = "生长迟缓"
+			out.CutOff = fmt.Sprintf("身高 %.1f cm ≤ %s 岁界值 %.1f cm", value, age, cut)
+			out.Note = "提示长期性营养不良，建议儿保/儿科就诊评估"
+		} else {
+			out.Verdict = "正常（未达生长迟缓界值）"
+			out.CutOff = fmt.Sprintf("%s 岁生长迟缓界值 %.1f cm", age, cut)
+		}
+		return out
+	case "bmi":
+		table := sa.BMIBands.Boys
+		if isGirl {
+			table = sa.BMIBands.Girls
+		}
+		age, band := nearestSchoolAgeBand(table, ageMonths)
+		if age == "" {
+			return nil
+		}
+		out.AgeYears, out.Unit, out.IndicatorZH = age, "kg/m²", "年龄别 BMI"
+		switch {
+		case value <= band.WastingMax:
+			out.Verdict = "消瘦"
+			out.CutOff = fmt.Sprintf("BMI %.1f ≤ 消瘦界值 %.1f", value, band.WastingMax)
+			out.Note = "提示现时性营养不良，建议就医评估"
+		case value <= band.NormalMax:
+			out.Verdict = "正常"
+			out.CutOff = fmt.Sprintf("%s 岁正常范围 %.1f~%.1f", age, band.WastingMax, band.NormalMax)
+		case value <= band.OverweightMax:
+			out.Verdict = "超重"
+			out.CutOff = fmt.Sprintf("BMI %.1f 超过超重界值 %.1f", value, band.NormalMax)
+			out.Note = "建议饮食运动干预并随诊"
+		default:
+			out.Verdict = "肥胖"
+			out.CutOff = fmt.Sprintf("BMI %.1f ≥ 肥胖界值 %.1f", value, band.OverweightMax)
+			out.Note = "建议儿科/内分泌就诊评估"
+		}
+		return out
+	}
+	return nil
+}
+
+// nearestSchoolAgeKey finds the tabulated age key (半岁档 "6.5") closest at or
+// below the child's age.
+func nearestSchoolAgeKey(table map[string]float64, ageMonths int) (string, float64) {
+	bestAge, bestCut := "", 0.0
+	years := float64(ageMonths) / 12
+	for k, cut := range table {
+		var v float64
+		if _, err := fmt.Sscanf(k, "%f", &v); err != nil {
+			continue
+		}
+		if v <= years && (bestAge == "" || v > schoolAgeKeyVal(bestAge)) {
+			bestAge, bestCut = k, cut
+		}
+	}
+	return bestAge, bestCut
+}
+
+func schoolAgeKeyVal(k string) float64 {
+	var v float64
+	fmt.Sscanf(k, "%f", &v)
+	return v
+}
+
+func nearestSchoolAgeBand(table map[string]SchoolAgeBand, ageMonths int) (string, SchoolAgeBand) {
+	years := ageMonths / 12
+	if years > 17 {
+		years = 17
+	}
+	for y := years; y >= 6; y-- {
+		if b, ok := table[fmt.Sprintf("%d", y)]; ok {
+			return fmt.Sprintf("%d", y), b
+		}
+	}
+	return "", SchoolAgeBand{}
+}
+
+// GrowthVelocityAssessment evaluates one measured increment against the WHO
+// 2009 growth velocity standards (1/2/3/4/6-month windows).
+type GrowthVelocityAssessment struct {
+	Sex         string         `json:"sex"`
+	Indicator   string         `json:"indicator"` // weight|length|head_circumference
+	IndicatorZH string         `json:"indicator_zh"`
+	FromMonth   int            `json:"from_month"`
+	Interval    int            `json:"interval"` // months: 1|2|3|4|6
+	Delta       float64        `json:"delta"`
+	Unit        string         `json:"unit"`
+	Result      *GrowthZResult `json:"result"`
+}
+
+var velocityIndicators = map[string]struct {
+	zh, unit string
+	get      func(v *WHOVelocityDoc) map[string]map[string][]GrowthVelocityRow
+}{
+	"weight":             {"体重增速", "g", func(v *WHOVelocityDoc) map[string]map[string][]GrowthVelocityRow { return v.Weight }},
+	"length":             {"身长增速", "cm", func(v *WHOVelocityDoc) map[string]map[string][]GrowthVelocityRow { return v.Length }},
+	"head_circumference": {"头围增速", "cm", func(v *WHOVelocityDoc) map[string]map[string][]GrowthVelocityRow { return v.HeadCircumference }},
+}
+
+// AssessGrowthVelocity maps one measured increment onto the WHO velocity
+// z-ladder. intervalMonths must be one of the tabulated windows; the row is
+// chosen by interval start month.
+func (r *KeywordRetriever) AssessGrowthVelocity(ctx context.Context, sex string, fromMonth, intervalMonths int, indicator string, delta float64) (*GrowthVelocityAssessment, error) {
+	r.store.ensureGrowth()
+	doc := r.store.GrowthStandards
+	if doc == nil || doc.WhoVelocity == nil {
+		return nil, fmt.Errorf("growth velocity standards not loaded")
+	}
+	spec, ok := velocityIndicators[indicator]
+	if !ok {
+		return nil, fmt.Errorf("unknown velocity indicator %q (weight|length|head_circumference)", indicator)
+	}
+	isGirl := sex == "女" || sex == "female" || sex == "girl" || sex == "f"
+	if !isGirl && !(sex == "男" || sex == "male" || sex == "boy" || sex == "m") {
+		return nil, fmt.Errorf("unrecognised sex %q", sex)
+	}
+	windows := spec.get(doc.WhoVelocity)
+	bySex, ok := windows[fmt.Sprintf("%d", intervalMonths)]
+	if !ok {
+		return nil, fmt.Errorf("WHO 速度表窗口为 1/2/3/4/6 月，got %d", intervalMonths)
+	}
+	rows := bySex["boys"]
+	if isGirl {
+		rows = bySex["girls"]
+	}
+	row := pickVelocityRow(rows, fromMonth)
+	if row == nil {
+		return nil, fmt.Errorf("no velocity window covers start month %d for %s", fromMonth, spec.zh)
+	}
+	sd := row.SD
+	z := math.Round(interpolateZ(sd, delta)*10) / 10
+	res := &GrowthZResult{
+		Standard: "WHO Growth Velocity Standards (2009)",
+		ZScore:   z, ZScoreText: fmt.Sprintf("%+.1f", z),
+		Row: sd, P50: sd[3],
+	}
+	res.SDBand = sdBand(z)
+	switch {
+	case z < -2:
+		res.Verdict = "增长不足（<-2 SD）"
+		res.Note = "提示该时段生长过慢，建议复查测量并咨询医生"
+	case z > 2:
+		res.Verdict = "增长过快（>+2 SD）"
+		res.Note = "提示该时段增重/增长过快，建议评估喂养"
+	default:
+		res.Verdict = "增速正常"
+	}
+	return &GrowthVelocityAssessment{
+		Sex:       map[bool]string{true: "女", false: "男"}[isGirl],
+		Indicator: indicator, IndicatorZH: spec.zh,
+		FromMonth: fromMonth, Interval: intervalMonths,
+		Delta: delta, Unit: spec.unit, Result: res,
+	}, nil
+}
+
+// pickVelocityRow chooses the window row whose start month equals fromMonth,
+// falling back to the closest start ≤ fromMonth.
+func pickVelocityRow(rows []GrowthVelocityRow, fromMonth int) *GrowthVelocityRow {
+	var best *GrowthVelocityRow
+	for i := range rows {
+		r := &rows[i]
+		if r.From == fromMonth {
+			return r
+		}
+		if r.From <= fromMonth && (best == nil || r.From > best.From) {
+			best = r
+		}
+	}
+	return best
 }
 
 // assessAgainst linearly interpolates the z-score of value against the 7-point

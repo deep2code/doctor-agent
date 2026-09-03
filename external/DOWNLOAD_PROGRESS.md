@@ -65,6 +65,8 @@ external/
 
 | 新生儿/儿童成长（2026-09-02） | ✅ 完成并接入 | **三数据集**：① `growth_standards.json`（WHO 儿童生长标准 0-60 月 SD 表 男女×3指标 + WS/T 423-2022 附录B 12 张 SD 表含判定规则）→ `growth_assessment` 工具（双标准 z 分数线性插值，修复 hcfa/lhfa xlsx 多一列 SD 的解析 bug）② `development_milestones.json`（CDC 里程碑 2022 修订版 12 年龄档 159 条四域，中文 LLM 翻译 159/159）→ `milestone_lookup` 工具 ③ `newborn_care.json`（WHO 早产/LBW 护理建议 26 条中英 + 中国新生儿筛查 3 项）→ `newborn_care_lookup` 工具。共 3 个新工具（第 17-19 个），版本 1.32.0 | 管线：`convert_growth.py`（WHO xlsx 表头名索引取列 + PDF 表 B 状态机解析）+ `convert_milestones.py`（glm-4-flash 按年龄批量翻译，长度对齐校验）+ `convert_newborn.py`（LLM 清洗表格文本流+翻译，缓存 external/newborn/who_cache/）；CDC 页面 Akamai 拦 curl 须走 web_reader 服务端抓取；WS/T 423-2022 官方 PDF 在 wsbz.nhc.gov.cn 标准库附件（GB18030 页面相对路径上溯 5 级）。seed 修复：key 列改 `utf8mb4_bin` collation（unicode_ci 全半角折叠致 MSD 中英 title 撞唯一键）+ InsertBatch 改 ON DUPLICATE KEY UPDATE 幂等 + extractKey 加 clinvar_id/icd10_code + dedupeKey 后缀去重；新 CLI `cmd/kbseed` 本地 seed 入口 |
 
+| 生长评估扩展（2026-09-03） | ✅ 完成并接入 | growth_standards.json 60KB→120KB：① WHO 生长速度标准 2009（体重 1/2/3/4/6 月窗 + 身长/头围 2/3/4/6 月窗，男女 z 表，1 月窗含 "0 – 4 wks" 周/月混合 interval 需归一）② WHO BMI-for-age 0-60 月（页面在 /toolkits/ 路径非 /tools/，0-2 岁男 xlsx 官方 URL 拼写 zcores 少 s）③ 中国学龄 6-18 岁：WS/T 456-2014 附录A 生长迟缓界值（半岁档，文字流与 423 的 2-5 岁 -2SD 表互验一致）+ 456/586 整岁合并 BMI 筛查表（消瘦/正常/超重/肥胖）。growth_assessment 工具新增 velocity 模式（from_month/interval/delta）与 school_age 分支，覆盖 0-18 岁 | 坑：586 官方半岁档界值表全网仅图片形式，未入库半岁精确值（整岁合并表为体检通用版，数据自洽）；WS/T 456 附录数值来自 31ppt/豆丁文字流，已用 423 表交叉验证 2-5 岁段 |
+
 ## 接下来（按序）
 
 1. **MedlinePlus 内容利用**：1017 页无官方中文，暂缓或极精选（如需做，走 WHO 同款 LLM 结构化管线）。

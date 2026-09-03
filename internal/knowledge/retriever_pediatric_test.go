@@ -100,11 +100,11 @@ func TestAssessGrowthBMIOverweight(t *testing.T) {
 	if res.China.ZScore <= 2 {
 		t.Errorf("BMI 18 at 60mo z = %v, want >2", res.China.ZScore)
 	}
-	// 中国标准 0-84 月，WHO 无 BMI 表
-	if res.WHO != nil {
-		t.Errorf("WHO should not have BMI table, got %+v", res.WHO)
+	// WHO BMI 表 0-60 月现已接入：60 月应有 WHO 结果
+	if res.WHO == nil {
+		t.Fatal("WHO BMI table missing at 60mo")
 	}
-	t.Logf("60mo boy BMI 19: CN z=%v (%s)", res.China.ZScore, res.China.Verdict)
+	t.Logf("60mo boy BMI 19: CN z=%v (%s), WHO z=%v (%s)", res.China.ZScore, res.China.Verdict, res.WHO.ZScore, res.WHO.Verdict)
 }
 
 func TestAssessGrowthErrors(t *testing.T) {
@@ -229,4 +229,78 @@ func firstID(rs []NewbornResult) string {
 		return ""
 	}
 	return rs[0].ID
+}
+
+func TestAssessGrowthVelocity(t *testing.T) {
+	store, err := Load()
+	if err != nil {
+		t.Fatalf("Load: %v", err)
+	}
+	r := NewRetriever(store)
+	// WHO 速度表男 0-2 月增重中位 2216g → z≈0
+	res, err := r.AssessGrowthVelocity(context.Background(), "男", 0, 2, "weight", 2216)
+	if err != nil {
+		t.Fatalf("velocity: %v", err)
+	}
+	if math.Abs(res.Result.ZScore) > 0.1 {
+		t.Errorf("median weight velocity z = %v, want ≈0", res.Result.ZScore)
+	}
+	if res.Result.Verdict != "增速正常" {
+		t.Errorf("verdict = %q", res.Result.Verdict)
+	}
+	// 男 0-2 月增重 900g → 低于 -2SD(1285) → 增长不足
+	res2, _ := r.AssessGrowthVelocity(context.Background(), "男", 0, 2, "weight", 900)
+	if res2.Result.ZScore > -2 {
+		t.Errorf("900g z = %v, want <-2", res2.Result.ZScore)
+	}
+	if res2.Result.Verdict != "增长不足（<-2 SD）" {
+		t.Errorf("verdict = %q, want 增长不足", res2.Result.Verdict)
+	}
+	// 头围 0-6 月女 +1cm 中位 8.3 → z≈0
+	res3, _ := r.AssessGrowthVelocity(context.Background(), "女", 0, 6, "head_circumference", 8.3)
+	if math.Abs(res3.Result.ZScore) > 0.1 {
+		t.Errorf("hc velocity z = %v, want ≈0", res3.Result.ZScore)
+	}
+	// 非法窗口报错
+	if _, err := r.AssessGrowthVelocity(context.Background(), "男", 0, 5, "weight", 1000); err == nil {
+		t.Error("5-month window should error")
+	}
+	t.Logf("w 0-2mo 2216g z=%v; hc 0-6mo girl 8.3cm z=%v", res.Result.ZScore, res3.Result.ZScore)
+}
+
+func TestAssessGrowthSchoolAge(t *testing.T) {
+	store, err := Load()
+	if err != nil {
+		t.Fatalf("Load: %v", err)
+	}
+	r := NewRetriever(store)
+	// 男 12 岁(144月) 身高 131cm ≤ 界值 133.1 → 生长迟缓
+	res, err := r.AssessGrowth(context.Background(), "男", 144, "length_height", 131.0)
+	if err != nil {
+		t.Fatalf("school-age: %v", err)
+	}
+	if res.SchoolAge == nil {
+		t.Fatal("school-age result missing")
+	}
+	if res.SchoolAge.Verdict != "生长迟缓" {
+		t.Errorf("verdict = %q, want 生长迟缓", res.SchoolAge.Verdict)
+	}
+	// 女 10 岁(120月) BMI 21 → 超重（女10 正常上限 19.9，超重上限 22.0）
+	res2, _ := r.AssessGrowth(context.Background(), "女", 120, "bmi", 21.0)
+	if res2.SchoolAge == nil {
+		t.Fatal("school-age bmi missing")
+	}
+	if res2.SchoolAge.Verdict != "超重" {
+		t.Errorf("verdict = %q, want 超重", res2.SchoolAge.Verdict)
+	}
+	// 男 17 岁 BMI 28 → 肥胖（上限 27.7）
+	res3, _ := r.AssessGrowth(context.Background(), "男", 204, "bmi", 28.0)
+	if res3.SchoolAge.Verdict != "肥胖" {
+		t.Errorf("verdict = %q, want 肥胖", res3.SchoolAge.Verdict)
+	}
+	// 超龄报错
+	if _, err := r.AssessGrowth(context.Background(), "男", 220, "bmi", 20); err == nil {
+		t.Error("220mo should error")
+	}
+	t.Logf("boy 144mo 131cm: %s; girl 120mo BMI21: %s", res.SchoolAge.CutOff, res2.SchoolAge.CutOff)
 }

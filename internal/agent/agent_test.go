@@ -145,6 +145,21 @@ func TestProcessMessageStreamToolLoop(t *testing.T) {
 	if msgs := sess.GetMessages(); len(msgs) != 2 {
 		t.Errorf("session messages = %d, want 2", len(msgs))
 	}
+	// Second LLM call must see: user + assistant(tool_calls) + tool message
+	// answering the tool_call_id — OpenAI-compatible endpoints 400 otherwise.
+	if len(p.captured) != 2 {
+		t.Fatalf("captured calls = %d, want 2", len(p.captured))
+	}
+	second := p.captured[1]
+	if len(second) != 3 {
+		t.Fatalf("second call messages = %d, want 3 (user + assistant + tool)", len(second))
+	}
+	if second[1].Role != "assistant" || len(second[1].ToolCalls) != 1 || second[1].ToolCalls[0].ID != "c1" {
+		t.Errorf("second call msg[1] = %+v, want assistant with tool_call c1", second[1])
+	}
+	if second[2].Role != "tool" || second[2].ToolCallID != "c1" || second[2].Content == "" {
+		t.Errorf("second call msg[2] = %+v, want tool message with ToolCallID c1 and content", second[2])
+	}
 }
 
 func TestEmergencyBypassesLLM(t *testing.T) {	cfg := testConfig()

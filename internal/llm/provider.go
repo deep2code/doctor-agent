@@ -26,6 +26,10 @@ type Message struct {
 	// Providers translate it into their native tool-call format (tool_use
 	// blocks for Anthropic, tool_calls for OpenAI-compatible endpoints).
 	ToolCalls []ToolCall `json:"tool_calls,omitempty"`
+	// ToolCallID is set on tool-role messages (Role "tool") to correlate a
+	// single tool result with the assistant tool call it answers (OpenAI
+	// tool_call_id / Anthropic tool_result tool_use_id).
+	ToolCallID string `json:"tool_call_id,omitempty"`
 }
 
 // HasImages reports whether the message contains image parts.

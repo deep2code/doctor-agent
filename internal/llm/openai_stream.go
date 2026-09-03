@@ -92,7 +92,7 @@ func openAIStreamingChat(
 				Content: parts,
 			})
 		} else {
-			m := openAIMessage{Role: msg.Role, Content: msg.Content}
+			m := openAIMessage{Role: msg.Role, Content: msg.Content, ToolCallID: msg.ToolCallID}
 			// Assistant tool-call messages must carry tool_calls (OpenAI-compatible
 			// endpoints reject assistant messages with neither content nor
 			// tool_calls; empty content is omitted by the omitempty tag).

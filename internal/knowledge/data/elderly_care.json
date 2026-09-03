@@ -1,0 +1,678 @@
+[
+ {
+  "id": "elderly-alzheimer-2019-1",
+  "condition_zh": "阿尔茨海默病预防",
+  "condition_en": "Alzheimer's disease",
+  "category": "elderly_care",
+  "prevention": [
+   "形成健康生活方式",
+   "培养运动习惯和兴趣爱好",
+   "健康饮食",
+   "戒烟限酒",
+   "多学习，多用脑",
+   "多参加社交活动",
+   "保持乐观的心态",
+   "避免与社会隔离"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "阿尔茨海默病预防与干预核心信息(国卫办老龄函〔2019〕738号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.crsi.com.cn/Html/News/Articles/642.html"
+   }
+  ],
+  "keywords": [
+   "阿尔茨海默病，预防，健康生活方式，运动，饮食，戒烟，社交，乐观"
+  ]
+ },
+ {
+  "id": "elderly-alzheimer-2019-2",
+  "condition_zh": "阿尔茨海默病风险降低",
+  "condition_en": "Risk reduction for Alzheimer's disease",
+  "category": "elderly_care",
+  "risk_factors": [
+   "中年肥胖",
+   "高血压",
+   "糖尿病",
+   "卒中",
+   "抑郁症",
+   "听力损失",
+   "有痴呆症家族史"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "阿尔茨海默病预防与干预核心信息(国卫办老龄函〔2019〕738号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.crsi.com.cn/Html/News/Articles/642.html"
+   }
+  ],
+  "keywords": [
+   "阿尔茨海默病，风险，肥胖，高血压，糖尿病，卒中，抑郁症，听力损失，家族史"
+  ]
+ },
+ {
+  "id": "elderly-alzheimer-2019-3",
+  "condition_zh": "阿尔茨海默病早期迹象",
+  "condition_en": "Early signs of Alzheimer's disease",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "很快忘掉刚刚发生的事情",
+    "完成原本熟悉的事务变得困难",
+    "对所处的时间、地点判断混乱",
+    "说话、书写困难",
+    "变得不爱社交，对原来的爱好失去兴趣",
+    "性格或行为出现变化"
+   ]
+  },
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "阿尔茨海默病预防与干预核心信息(国卫办老龄函〔2019〕738号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.crsi.com.cn/Html/News/Articles/642.html"
+   }
+  ],
+  "keywords": [
+   "阿尔茨海默病，早期迹象，记忆减退，思维混乱，判断力下降，性格行为改变"
+  ]
+ },
+ {
+  "id": "elderly-alzheimer-2019-4",
+  "condition_zh": "阿尔茨海默病及时就医",
+  "condition_en": "Seek medical care for Alzheimer's disease promptly",
+  "category": "elderly_care",
+  "when_to_seek_care": [
+   "老年人若出现阿尔茨海默病早期迹象，家人应当及时陪同到综合医院的老年病科、神经内科、精神/心理科、记忆门诊或精神卫生专科医院就诊"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "阿尔茨海默病预防与干预核心信息(国卫办老龄函〔2019〕738号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.crsi.com.cn/Html/News/Articles/642.html"
+   }
+  ],
+  "keywords": [
+   "阿尔茨海默病，就医，早期迹象，老年病科，神经内科，精神/心理科"
+  ]
+ },
+ {
+  "id": "elderly-alzheimer-2019-5",
+  "condition_zh": "阿尔茨海默病积极治疗",
+  "condition_en": "Active treatment for Alzheimer's disease",
+  "category": "elderly_care",
+  "treatment": [
+   {
+    "name": "药物治疗",
+    "details": "药物治疗和非药物治疗可以帮助患者改善认知功能，减少并发症，提高生活质量，减轻照护人员负担"
+   }
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "阿尔茨海默病预防与干预核心信息(国卫办老龄函〔2019〕738号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.crsi.com.cn/Html/News/Articles/642.html"
+   }
+  ],
+  "keywords": [
+   "阿尔茨海默病，治疗，药物治疗，非药物治疗，认知功能，生活质量"
+  ]
+ },
+ {
+  "id": "elderly-alzheimer-2019-6",
+  "condition_zh": "阿尔茨海默病家庭照护",
+  "condition_en": "Family care for Alzheimer's disease",
+  "category": "elderly_care",
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "阿尔茨海默病预防与干预核心信息(国卫办老龄函〔2019〕738号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.crsi.com.cn/Html/News/Articles/642.html"
+   }
+  ],
+  "keywords": [
+   "阿尔茨海默病，家庭照护，沟通技巧，照护技能，不良情绪调适，安全环境"
+  ]
+ },
+ {
+  "id": "elderly-alzheimer-2019-7",
+  "condition_zh": "阿尔茨海默病患者尊严与权利",
+  "condition_en": "Dignity and basic rights of Alzheimer's disease patients",
+  "category": "elderly_care",
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "阿尔茨海默病预防与干预核心信息(国卫办老龄函〔2019〕738号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.crsi.com.cn/Html/News/Articles/642.html"
+   }
+  ],
+  "keywords": [
+   "阿尔茨海默病，患者尊严，情感支持，自尊心，沟通，自主自由"
+  ]
+ },
+ {
+  "id": "elderly-alzheimer-2019-8",
+  "condition_zh": "阿尔茨海默病关爱照护人员",
+  "condition_en": "Care for caregivers of Alzheimer's disease patients",
+  "category": "elderly_care",
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "阿尔茨海默病预防与干预核心信息(国卫办老龄函〔2019〕738号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.crsi.com.cn/Html/News/Articles/642.html"
+   }
+  ],
+  "keywords": [
+   "阿尔茨海默病，照护人员，身心压力，专业培训，支持服务"
+  ]
+ },
+ {
+  "id": "elderly-alzheimer-2019-9",
+  "condition_zh": "阿尔茨海默病友善社会氛围",
+  "condition_en": "Friendly social atmosphere for Alzheimer's disease",
+  "category": "elderly_care",
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "阿尔茨海默病预防与干预核心信息(国卫办老龄函〔2019〕738号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.crsi.com.cn/Html/News/Articles/642.html"
+   }
+  ],
+  "keywords": [
+   "阿尔茨海默病，社会宣传，歧视减少，关爱，友好社会环境"
+  ]
+ },
+ {
+  "id": "elderly-elderly-dietary-2022-1",
+  "condition_zh": "一般老年人膳食指南",
+  "condition_en": "General Elderly Dietary Guidelines",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "食物品种丰富",
+    "动物性食物充足",
+    "常吃大豆制品",
+    "鼓励共同进餐",
+    "保持良好食欲",
+    "积极户外活动",
+    "延缓肌肉衰减",
+    "保持适宜体重",
+    "定期健康体检",
+    "测评营养状况",
+    "预防营养缺乏"
+   ]
+  },
+  "risk_factors": [
+   "缺乏营养",
+   "不良饮食习惯",
+   "缺乏运动"
+  ],
+  "prevention": [
+   "食物多样",
+   "动物性食物充足",
+   "常吃大豆制品",
+   "鼓励共同进餐",
+   "保持良好食欲",
+   "积极户外活动",
+   "保持适宜体重",
+   "定期健康体检",
+   "测评营养状况",
+   "预防营养缺乏"
+  ],
+  "treatment": [
+   {
+    "name": "膳食调整",
+    "details": "食物品种丰富，动物性食物充足，常吃大豆制品"
+   }
+  ],
+  "when_to_seek_care": [
+   "食欲下降",
+   "体重明显下降",
+   "营养状况不佳"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "中国老年人膳食指南(2022)核心推荐",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/op9MZtpBQHehHCo0SSqsmw.html"
+   }
+  ],
+  "keywords": [
+   "一般老年人膳食",
+   "食物多样",
+   "动物性食物",
+   "大豆制品",
+   "共同进餐",
+   "良好食欲",
+   "户外活动",
+   "肌肉衰减",
+   "适宜体重",
+   "健康体检",
+   "营养状况",
+   "预防营养缺乏"
+  ]
+ },
+ {
+  "id": "elderly-elderly-dietary-2022-2",
+  "condition_zh": "高龄老年人膳食指南",
+  "condition_en": "High-Age Elderly Dietary Guidelines",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "食物多样",
+    "鼓励多种方式进食",
+    "选择质地细软",
+    "能量和营养素密度高",
+    "多吃鱼禽肉蛋奶和豆",
+    "适量蔬菜配水果",
+    "关注体重丢失",
+    "定期营养筛查评估",
+    "预防营养不良",
+    "适时合理补充营养",
+    "提高生活质量",
+    "坚持健身与益智活动",
+    "促进身心健康"
+   ]
+  },
+  "risk_factors": [
+   "营养不良",
+   "饮食习惯不良",
+   "缺乏运动"
+  ],
+  "prevention": [
+   "食物多样",
+   "鼓励多种方式进食",
+   "选择质地细软",
+   "能量和营养素密度高",
+   "多吃鱼禽肉蛋奶和豆",
+   "适量蔬菜配水果",
+   "关注体重丢失",
+   "定期营养筛查评估",
+   "预防营养不良",
+   "适时合理补充营养",
+   "提高生活质量",
+   "坚持健身与益智活动",
+   "促进身心健康"
+  ],
+  "treatment": [
+   {
+    "name": "膳食调整",
+    "details": "食物多样，鼓励多种方式进食，选择质地细软，能量和营养素密度高"
+   }
+  ],
+  "when_to_seek_care": [
+   "体重丢失",
+   "营养不良",
+   "生活质量下降"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "中国老年人膳食指南(2022)核心推荐",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/op9MZtpBQHehHCo0SSqsmw.html"
+   }
+  ],
+  "keywords": [
+   "高龄老年人膳食",
+   "食物多样",
+   "多种方式进食",
+   "质地细软",
+   "能量密度",
+   "营养素密度",
+   "鱼禽肉蛋奶豆",
+   "蔬菜水果",
+   "体重丢失",
+   "营养筛查",
+   "预防营养不良",
+   "补充营养",
+   "生活质量",
+   "健身益智活动",
+   "身心健康"
+  ]
+ },
+ {
+  "id": "elderly-osteoporosis-2011-1",
+  "condition_zh": "骨质疏松症",
+  "condition_en": "Osteoporosis",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "疼痛、驼背、身高降低和骨折"
+   ]
+  },
+  "risk_factors": [
+   "老龄、女性绝经、母系家族史、低体重、性激素低下、吸烟、过度饮酒或咖啡、体力活动少、饮食中钙和/或维生素D缺乏、有影响骨代谢的疾病、应用影响骨代谢的药物"
+  ],
+  "prevention": [
+   "均衡饮食、适量运动、增加日光照射"
+  ],
+  "treatment": [
+   {
+    "name": "药物治疗",
+    "details": "抗骨吸收药物、促进骨形成药物以及一些多重机制的药物"
+   }
+  ],
+  "when_to_seek_care": [
+   "轻微碰撞或跌倒后伤到骨骼、连续3个月以上服用激素类药品、身高降低、过度饮酒、吸烟、腹泻、家族髋部骨折史、女士45岁前绝经、男士阳痿或缺乏性欲、连续12个月以上无月经（非怀孕期间）"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防治骨质疏松知识要点(卫办疾控函〔2011〕542号)",
+    "journal": "",
+    "year": 2011,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.bjchy.gov.cn/affair/domain/yl/8a24fe83302019b101311d7b75e80e4e.html"
+   }
+  ],
+  "keywords": [
+   "骨质疏松症、骨密度、预防、治疗、高危人群"
+  ]
+ },
+ {
+  "id": "elderly-osteoporosis-2011-2",
+  "condition_zh": "骨质疏松症危害",
+  "condition_en": "Harm of Osteoporosis",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "骨折、残疾、死亡率高"
+   ]
+  },
+  "risk_factors": [
+   "骨质疏松症"
+  ],
+  "prevention": [
+   "早诊断、规范治疗"
+  ],
+  "treatment": [
+   {
+    "name": "药物治疗",
+    "details": "抗骨吸收药物、促进骨形成药物以及一些多重机制的药物"
+   }
+  ],
+  "when_to_seek_care": [
+   "骨折、残疾、死亡率高"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防治骨质疏松知识要点(卫办疾控函〔2011〕542号)",
+    "journal": "",
+    "year": 2011,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.bjchy.gov.cn/affair/domain/yl/8a24fe83302019b101311d7b75e80e4e.html"
+   }
+  ],
+  "keywords": [
+   "骨质疏松症、骨折、残疾、死亡率、预防、治疗"
+  ]
+ },
+ {
+  "id": "elderly-osteoporosis-2011-3",
+  "condition_zh": "骨质疏松症病因",
+  "condition_en": "Causes of Osteoporosis",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "先天因素、后天因素"
+   ]
+  },
+  "risk_factors": [
+   "种族、性别、年龄、家族史、药物、疾病、营养、生活方式"
+  ],
+  "prevention": [
+   "均衡饮食、适量运动、增加日光照射"
+  ],
+  "treatment": [
+   {
+    "name": "药物治疗",
+    "details": "抗骨吸收药物、促进骨形成药物以及一些多重机制的药物"
+   }
+  ],
+  "when_to_seek_care": [
+   "骨质疏松症症状"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防治骨质疏松知识要点(卫办疾控函〔2011〕542号)",
+    "journal": "",
+    "year": 2011,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.bjchy.gov.cn/affair/domain/yl/8a24fe83302019b101311d7b75e80e4e.html"
+   }
+  ],
+  "keywords": [
+   "骨质疏松症、病因、预防、治疗"
+  ]
+ },
+ {
+  "id": "elderly-osteoporosis-2011-4",
+  "condition_zh": "骨质疏松症高危人群",
+  "condition_en": "High-risk Groups of Osteoporosis",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "老龄、女性绝经、母系家族史、低体重、性激素低下、吸烟、过度饮酒或咖啡、体力活动少、饮食中钙和/或维生素D缺乏、有影响骨代谢的疾病、应用影响骨代谢的药物"
+   ]
+  },
+  "risk_factors": [
+   "老龄、女性绝经、母系家族史、低体重、性激素低下、吸烟、过度饮酒或咖啡、体力活动少、饮食中钙和/或维生素D缺乏、有影响骨代谢的疾病、应用影响骨代谢的药物"
+  ],
+  "prevention": [
+   "早诊断、规范治疗"
+  ],
+  "treatment": [
+   {
+    "name": "药物治疗",
+    "details": "抗骨吸收药物、促进骨形成药物以及一些多重机制的药物"
+   }
+  ],
+  "when_to_seek_care": [
+   "骨质疏松症症状"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防治骨质疏松知识要点(卫办疾控函〔2011〕542号)",
+    "journal": "",
+    "year": 2011,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.bjchy.gov.cn/affair/domain/yl/8a24fe83302019b101311d7b75e80e4e.html"
+   }
+  ],
+  "keywords": [
+   "骨质疏松症、高危人群、预防、治疗"
+  ]
+ },
+ {
+  "id": "elderly-osteoporosis-2011-5",
+  "condition_zh": "骨质疏松症预防",
+  "condition_en": "Prevention of Osteoporosis",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "均衡饮食、适量运动、增加日光照射"
+   ]
+  },
+  "risk_factors": [
+   "老龄、女性绝经、母系家族史、低体重、性激素低下、吸烟、过度饮酒或咖啡、体力活动少、饮食中钙和/或维生素D缺乏、有影响骨代谢的疾病、应用影响骨代谢的药物"
+  ],
+  "prevention": [
+   "均衡饮食、适量运动、增加日光照射"
+  ],
+  "treatment": [
+   {
+    "name": "药物治疗",
+    "details": "抗骨吸收药物、促进骨形成药物以及一些多重机制的药物"
+   }
+  ],
+  "when_to_seek_care": [
+   "骨质疏松症症状"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防治骨质疏松知识要点(卫办疾控函〔2011〕542号)",
+    "journal": "",
+    "year": 2011,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.bjchy.gov.cn/affair/domain/yl/8a24fe83302019b101311d7b75e80e4e.html"
+   }
+  ],
+  "keywords": [
+   "骨质疏松症、预防、治疗"
+  ]
+ },
+ {
+  "id": "elderly-osteoporosis-2011-6",
+  "condition_zh": "骨质疏松症治疗",
+  "condition_en": "Treatment of Osteoporosis",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "药物治疗、基础措施"
+   ]
+  },
+  "risk_factors": [
+   "老龄、女性绝经、母系家族史、低体重、性激素低下、吸烟、过度饮酒或咖啡、体力活动少、饮食中钙和/或维生素D缺乏、有影响骨代谢的疾病、应用影响骨代谢的药物"
+  ],
+  "prevention": [
+   "均衡饮食、适量运动、增加日光照射"
+  ],
+  "treatment": [
+   {
+    "name": "药物治疗",
+    "details": "抗骨吸收药物、促进骨形成药物以及一些多重机制的药物"
+   },
+   {
+    "name": "基础措施",
+    "details": "调整生活方式、骨健康基本补充剂"
+   }
+  ],
+  "when_to_seek_care": [
+   "骨质疏松症症状"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防治骨质疏松知识要点(卫办疾控函〔2011〕542号)",
+    "journal": "",
+    "year": 2011,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.bjchy.gov.cn/affair/domain/yl/8a24fe83302019b101311d7b75e80e4e.html"
+   }
+  ],
+  "keywords": [
+   "骨质疏松症、治疗、预防"
+  ]
+ },
+ {
+  "id": "elderly-osteoporosis-2011-7",
+  "condition_zh": "骨质疏松症误区",
+  "condition_en": "Misconceptions about Osteoporosis",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "误区认知"
+   ]
+  },
+  "risk_factors": [
+   "误区认知"
+  ],
+  "prevention": [
+   "正确认知、正规治疗"
+  ],
+  "treatment": [
+   {
+    "name": "药物治疗",
+    "details": "抗骨吸收药物、促进骨形成药物以及一些多重机制的药物"
+   }
+  ],
+  "when_to_seek_care": [
+   "误区认知"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防治骨质疏松知识要点(卫办疾控函〔2011〕542号)",
+    "journal": "",
+    "year": 2011,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.bjchy.gov.cn/affair/domain/yl/8a24fe83302019b101311d7b75e80e4e.html"
+   }
+  ],
+  "keywords": [
+   "骨质疏松症、误区、正确认知、正规治疗"
+  ]
+ }
+]

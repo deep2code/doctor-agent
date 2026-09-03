@@ -5,7 +5,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"log/slog"
-	"strings"
 	"sync"
 
 	"github.com/doctor-agent/internal/config"
@@ -357,31 +356,33 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 			// Build assistant message with text + tool_calls
 			assistantMsg := llm.Message{Role: "assistant", Content: resp.Text, ToolCalls: resp.ToolCalls}
 
-			// Execute tools and collect results
-			var toolResults strings.Builder
+			// Execute tools; each result becomes a tool-role message that
+			// answers its tool_call_id. OpenAI-compatible endpoints reject
+			// tool_calls not followed by matching tool messages, and
+			// Anthropic expects the equivalent tool_result blocks.
+			var toolMsgs []llm.Message
 			for _, tc := range resp.ToolCalls {
 				slog.Info("Tool use requested", "tool", tc.Name, "id", tc.ID)
 				step(StepEvent{Type: "tool_call", Tool: tc.Name, Summary: fmt.Sprintf("调用工具「%s」", tc.Name)})
 				result, err := a.registry.Dispatch(ctx, tc.Name, tc.Arguments)
+				var content string
 				if err != nil {
-					fmt.Fprintf(&toolResults, "[工具 %s 执行错误: %v]\n", tc.Name, err)
+					content = fmt.Sprintf("[工具 %s 执行错误: %v]", tc.Name, err)
 					step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」执行出错：%v", tc.Name, err)})
 				} else if !result.Success {
-					fmt.Fprintf(&toolResults, "[工具 %s 返回错误: %s]\n", tc.Name, result.Error)
+					content = fmt.Sprintf("[工具 %s 返回错误: %s]", tc.Name, result.Error)
 					step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」返回错误：%s", tc.Name, result.Error)})
 				} else {
 					resultJSON, _ := json.MarshalIndent(result.Data, "", "  ")
-					fmt.Fprintf(&toolResults, "[工具 %s 结果]:\n%s\n", tc.Name, string(resultJSON))
+					content = string(resultJSON)
 					toolRefs = append(toolRefs, result.Citations...)
 					step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」返回结果（%d 条引用）", tc.Name, len(result.Citations))})
 				}
+				toolMsgs = append(toolMsgs, llm.Message{Role: "tool", ToolCallID: tc.ID, Content: content})
 			}
 
 			messages = append(messages, assistantMsg)
-			messages = append(messages, llm.Message{
-				Role:    "user",
-				Content: fmt.Sprintf("工具执行结果如下。请基于这些结果继续回答用户的问题。\n\n%s", toolResults.String()),
-			})
+			messages = append(messages, toolMsgs...)
 			continue
 		}
 
@@ -618,31 +619,30 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 			ToolCalls: llmResp.ToolCalls,
 		})
 
-		// Build tool results for next iteration
-		var toolResults strings.Builder
+		// Each result becomes a tool-role message answering its tool_call_id
+		// (required by OpenAI-compatible endpoints; Anthropic gets the
+		// equivalent tool_result blocks).
+		var toolMsgs []llm.Message
 		for _, tc := range llmResp.ToolCalls {
 			step(StepEvent{Type: "tool_call", Tool: tc.Name, Summary: fmt.Sprintf("调用工具 %s", tc.Name)})
 			toolResult, err := a.registry.Dispatch(ctx, tc.Name, tc.Arguments)
+			var content string
 			if err != nil {
-				fmt.Fprintf(&toolResults, "[工具 %s 执行错误: %v]\n", tc.Name, err)
+				content = fmt.Sprintf("[工具 %s 执行错误: %v]", tc.Name, err)
 				step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具 %s 执行出错: %v", tc.Name, err)})
-				continue
-			}
-			toolRefs = append(toolRefs, toolResult.Citations...)
-			step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具 %s 返回结果", tc.Name)})
-
-			if toolResult.Success {
-				resultJSON, _ := json.MarshalIndent(toolResult.Data, "", "  ")
-				fmt.Fprintf(&toolResults, "[工具 %s 结果]:\n%s\n", tc.Name, string(resultJSON))
 			} else {
-				fmt.Fprintf(&toolResults, "[工具 %s 返回错误: %s]\n", tc.Name, toolResult.Error)
+				toolRefs = append(toolRefs, toolResult.Citations...)
+				step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具 %s 返回结果", tc.Name)})
+				if toolResult.Success {
+					resultJSON, _ := json.MarshalIndent(toolResult.Data, "", "  ")
+					content = string(resultJSON)
+				} else {
+					content = fmt.Sprintf("[工具 %s 返回错误: %s]", tc.Name, toolResult.Error)
+				}
 			}
+			toolMsgs = append(toolMsgs, llm.Message{Role: "tool", ToolCallID: tc.ID, Content: content})
 		}
-
-		messages = append(messages, llm.Message{
-			Role:    "user",
-			Content: fmt.Sprintf("工具执行结果如下。请基于这些结果继续回答用户的问题。\n\n%s", toolResults.String()),
-		})
+		messages = append(messages, toolMsgs...)
 	}
 
 	slog.Error("Agent exceeded maximum tool-use iterations",

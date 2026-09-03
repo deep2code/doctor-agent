@@ -113,8 +113,19 @@ func (p *AnthropicProvider) StreamChat(ctx context.Context, messages []Message, 
 func (p *AnthropicProvider) buildParams(messages []Message, tools []ToolDefinition, systemPrompt string) anthropic.MessageNewParams {
 	// Convert internal messages to Anthropic format
 	anthropicMessages := make([]anthropic.MessageParam, 0, len(messages))
-	for _, msg := range messages {
+	for i := 0; i < len(messages); i++ {
+		msg := messages[i]
 		switch msg.Role {
+		case "tool":
+			// Consecutive tool results merge into a single user turn of
+			// tool_result blocks — Anthropic requires every tool_use id to
+			// be answered by a tool_result block in the following user turn.
+			var blocks []anthropic.ContentBlockParamUnion
+			for ; i < len(messages) && messages[i].Role == "tool"; i++ {
+				blocks = append(blocks, anthropic.NewToolResultBlock(messages[i].ToolCallID, messages[i].Content, false))
+			}
+			i-- // compensate the outer loop increment
+			anthropicMessages = append(anthropicMessages, anthropic.NewUserMessage(blocks...))
 		case "user":
 			// Handle multimodal content (text + images)
 			if msg.HasImages() {

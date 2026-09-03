@@ -353,8 +353,34 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 
 		// Check for tool calls
 		if len(resp.ToolCalls) > 0 {
-			// Build assistant message with text + tool_calls
-			assistantMsg := llm.Message{Role: "assistant", Content: resp.Text, ToolCalls: resp.ToolCalls}
+			// Ensure every tool call has a unique ID. Some OpenAI-compatible
+			// providers (e.g. Zhipu glm in streaming mode) omit the tool_call
+			// id field or send it only in the first delta chunk which may be
+			// split across SSE lines. When id is empty, the tool result
+			// message's tool_call_id is omitted (omitempty), causing the API
+			// to report "insufficient tool messages following tool_calls".
+			missingIDs := 0
+			for idx := range resp.ToolCalls {
+				if resp.ToolCalls[idx].ID == "" {
+					missingIDs++
+					resp.ToolCalls[idx].ID = fmt.Sprintf("call_%d_%d", i, idx)
+				}
+			}
+			if missingIDs > 0 {
+				slog.Warn("Tool call IDs were missing from LLM response, generated fallback IDs",
+					"conversation_id", sess.ID,
+					"iteration", i,
+					"total_calls", len(resp.ToolCalls),
+					"missing_ids", missingIDs,
+				)
+			}
+			// Build assistant message with text + tool_calls + reasoning
+			assistantMsg := llm.Message{
+				Role:             "assistant",
+				Content:          resp.Text,
+				ReasoningContent: resp.ReasoningContent,
+				ToolCalls:        resp.ToolCalls,
+			}
 
 			// Execute tools; each result becomes a tool-role message that
 			// answers its tool_call_id. OpenAI-compatible endpoints reject
@@ -613,10 +639,29 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		}
 
 		// Execute tool calls and build continuation messages
+		// Ensure every tool call has a unique ID (same fix as
+		// ProcessMessageStream — see comment there).
+		missingIDs := 0
+		for idx := range llmResp.ToolCalls {
+			if llmResp.ToolCalls[idx].ID == "" {
+				missingIDs++
+				llmResp.ToolCalls[idx].ID = fmt.Sprintf("call_%d_%d", i, idx)
+			}
+		}
+		if missingIDs > 0 {
+			slog.Warn("Tool call IDs were missing from LLM response, generated fallback IDs",
+				"conversation_id", sess.ID,
+				"iteration", i,
+				"total_calls", len(llmResp.ToolCalls),
+				"missing_ids", missingIDs,
+				"has_images", len(images) > 0,
+			)
+		}
 		messages = append(messages, llm.Message{
-			Role:      "assistant",
-			Content:   llmResp.Text,
-			ToolCalls: llmResp.ToolCalls,
+			Role:             "assistant",
+			Content:          llmResp.Text,
+			ReasoningContent: llmResp.ReasoningContent,
+			ToolCalls:        llmResp.ToolCalls,
 		})
 
 		// Each result becomes a tool-role message answering its tool_call_id

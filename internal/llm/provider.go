@@ -20,6 +20,11 @@ type ImageInput struct {
 type Message struct {
 	Role    string // "system", "user", "assistant"
 	Content string
+	// ReasoningContent stores the thinking/reasoning trace that some
+	// providers (e.g. DeepSeek V4) include alongside tool_calls. It MUST
+	// be passed back to the API in multi-turn tool-call conversations or
+	// the provider returns HTTP 400.
+	ReasoningContent string `json:"reasoning_content,omitempty"`
 	// Parts supports multimodal content (text + images).
 	Parts []ContentPart `json:"parts,omitempty"`
 	// ToolCalls is set on assistant messages that requested tool use.
@@ -59,8 +64,9 @@ type ToolCall struct {
 
 // ChatResponse wraps the LLM's response.
 type ChatResponse struct {
-	Text      string
-	ToolCalls []ToolCall
+	Text             string
+	ToolCalls        []ToolCall
+	ReasoningContent string // thinking trace from providers like DeepSeek V4
 }
 
 // LLMProvider is the interface all LLM backends must implement.

@@ -26,8 +26,9 @@ type openAIStreamToolCall struct {
 type openAIStreamChunk struct {
 	Choices []struct {
 		Delta struct {
-			Content   string                `json:"content"`
-			ToolCalls []openAIStreamToolCall `json:"tool_calls"`
+			Content          string                `json:"content"`
+			ReasoningContent string                `json:"reasoning_content"`
+			ToolCalls        []openAIStreamToolCall `json:"tool_calls"`
 		} `json:"delta"`
 		FinishReason string `json:"finish_reason"`
 	} `json:"choices"`
@@ -92,7 +93,12 @@ func openAIStreamingChat(
 				Content: parts,
 			})
 		} else {
-			m := openAIMessage{Role: msg.Role, Content: msg.Content, ToolCallID: msg.ToolCallID}
+			m := openAIMessage{
+				Role:             msg.Role,
+				Content:          msg.Content,
+				ReasoningContent: msg.ReasoningContent,
+				ToolCallID:       msg.ToolCallID,
+			}
 			// Assistant tool-call messages must carry tool_calls (OpenAI-compatible
 			// endpoints reject assistant messages with neither content nor
 			// tool_calls; empty content is omitted by the omitempty tag).
@@ -202,6 +208,7 @@ func responseFromOpenAIChoice(chatResp openAIChatResponse) *ChatResponse {
 	}
 	choice := chatResp.Choices[0].Message
 	response.Text = choice.Content
+	response.ReasoningContent = choice.ReasoningContent
 	for _, tc := range choice.ToolCalls {
 		var args map[string]any
 		if err := json.Unmarshal([]byte(tc.Function.Arguments), &args); err != nil {
@@ -250,6 +257,13 @@ func parseOpenAIStream(body io.Reader, onDelta func(string)) (*ChatResponse, err
 		if delta.Content != "" {
 			response.Text += delta.Content
 			onDelta(delta.Content)
+		}
+		// DeepSeek V4 (thinking mode) sends reasoning_content as a
+		// separate field. We accumulate it and pass it back in the
+		// assistant message so the API can validate multi-turn tool
+		// conversations (otherwise it returns HTTP 400).
+		if delta.ReasoningContent != "" {
+			response.ReasoningContent += delta.ReasoningContent
 		}
 		for _, tc := range delta.ToolCalls {
 			acc, ok := accs[tc.Index]

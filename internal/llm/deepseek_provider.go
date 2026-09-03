@@ -73,18 +73,20 @@ type openAIImageURL struct {
 }
 
 type openAIMessage struct {
-	Role       string           `json:"role"`
-	Content    string           `json:"content,omitempty"`
-	ToolCalls  []openAIToolCall `json:"tool_calls,omitempty"`
-	ToolCallID string           `json:"tool_call_id,omitempty"`
+	Role             string           `json:"role"`
+	Content          string           `json:"content,omitempty"`
+	ReasoningContent string           `json:"reasoning_content,omitempty"`
+	ToolCalls        []openAIToolCall `json:"tool_calls,omitempty"`
+	ToolCallID       string           `json:"tool_call_id,omitempty"`
 }
 
 // openAIMessageWithParts is used for multimodal content.
 type openAIMessageWithParts struct {
-	Role       string              `json:"role"`
-	Content    []openAIContentPart `json:"content"`
-	ToolCalls  []openAIToolCall    `json:"tool_calls,omitempty"`
-	ToolCallID string              `json:"tool_call_id,omitempty"`
+	Role             string              `json:"role"`
+	Content          []openAIContentPart `json:"content"`
+	ReasoningContent string              `json:"reasoning_content,omitempty"`
+	ToolCalls        []openAIToolCall    `json:"tool_calls,omitempty"`
+	ToolCallID       string              `json:"tool_call_id,omitempty"`
 }
 
 type openAITool struct {

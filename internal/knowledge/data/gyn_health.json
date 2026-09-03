@@ -1,0 +1,877 @@
+[
+ {
+  "id": "gyn-breast-screening-2021-1",
+  "condition_zh": "乳腺癌筛查策略",
+  "condition_en": "Breast Cancer Screening Strategy",
+  "category": "gyn_health",
+  "diagnosis": {
+   "clinical_features": [
+    "乳腺体检、乳腺彩超检查、乳腺 X 线检查"
+   ]
+  },
+  "risk_factors": [
+   "家族史、月经初潮过早、绝经较晚、未育、晚育及未哺乳、长期服用外源性雌激素、乳腺不典型增生、绝经后肥胖、长期过量饮酒"
+  ],
+  "prevention": [
+   "筛查对象为 35-64 周岁妇女",
+   "乳腺超声与乳腺 X 线(钼靶)为主要筛查方法",
+   "定期筛查、乳腺自查不能替代专业筛查",
+   "适龄生育、母乳喂养、控制体重"
+  ],
+  "treatment": [
+   {
+    "name": "乳腺活检及组织病理学检查",
+    "details": "对BI-RADS分类为4类或5类者进行"
+   }
+  ],
+  "when_to_seek_care": [
+   "筛查结果异常或可疑时"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "乳腺癌筛查工作方案(国卫办妇幼函〔2021〕635号)",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nwccw.gov.cn/2022/02/17/99337480.html"
+   }
+  ],
+  "keywords": [
+   "乳腺癌筛查",
+   "BI-RADS",
+   "乳腺活检",
+   "高危因素",
+   "预防措施",
+   "两癌筛查",
+   "钼靶",
+   "乳腺X光",
+   "乳腺彩超",
+   "breast cancer screening"
+  ]
+ },
+ {
+  "id": "gyn-breast-screening-2021-2",
+  "condition_zh": "筛查异常管理与随访",
+  "condition_en": "Management and Follow-up of Abnormal Screening",
+  "category": "gyn_health",
+  "diagnosis": {
+   "clinical_features": [
+    "乳腺体检异常、BI-RADS分类0类或3类及以上、乳腺 X 线检查BI-RADS分类0类或3类及以上、病理学检查为恶性病变"
+   ]
+  },
+  "risk_factors": [
+   "筛查结果异常"
+  ],
+  "prevention": [
+   "追踪随访、督促接受进一步诊断及治疗、记录病例相关情况"
+  ],
+  "treatment": [
+   {
+    "name": "进一步诊断及治疗",
+    "details": "督促其尽早接受"
+   }
+  ],
+  "when_to_seek_care": [
+   "筛查结果异常时"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "乳腺癌筛查工作方案(国卫办妇幼函〔2021〕635号)",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nwccw.gov.cn/2022/02/17/99337480.html"
+   }
+  ],
+  "keywords": [
+   "乳腺癌筛查",
+   "异常管理",
+   "随访",
+   "进一步诊断",
+   "治疗"
+  ]
+ },
+ {
+  "id": "gyn-breast-screening-2021-3",
+  "condition_zh": "乳腺癌防治健康教育",
+  "condition_en": "Breast Cancer Prevention and Control Health Education",
+  "category": "gyn_health",
+  "diagnosis": {
+   "clinical_features": [
+    "乳腺癌防治相关政策和核心信息"
+   ]
+  },
+  "risk_factors": [
+   "缺乏乳腺癌防治知识"
+  ],
+  "prevention": [
+   "广泛开展宣传教育、增强妇女健康意识、开展自我健康管理、接受筛查、指导高风险人群筛查"
+  ],
+  "treatment": [],
+  "when_to_seek_care": [
+   "任何时间"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "乳腺癌筛查工作方案(国卫办妇幼函〔2021〕635号)",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nwccw.gov.cn/2022/02/17/99337480.html"
+   }
+  ],
+  "keywords": [
+   "乳腺癌防治",
+   "健康教育",
+   "宣传教育",
+   "健康意识",
+   "自我管理"
+  ]
+ },
+ {
+  "id": "gyn-breast-screening-2021-4",
+  "condition_zh": "高危人群",
+  "condition_en": "High-risk Population",
+  "category": "gyn_health",
+  "diagnosis": {
+   "clinical_features": [
+    "有乳腺癌或卵巢癌家族史、月经初潮过早、绝经较晚、未育、晚育及未哺乳、长期服用外源性雌激素、乳腺不典型增生、绝经后肥胖、长期过量饮酒"
+   ]
+  },
+  "risk_factors": [
+   "高危因素"
+  ],
+  "prevention": [
+   "主动到医疗机构接受筛查"
+  ],
+  "treatment": [],
+  "when_to_seek_care": [
+   "任何时间"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "乳腺癌筛查工作方案(国卫办妇幼函〔2021〕635号)",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nwccw.gov.cn/2022/02/17/99337480.html"
+   }
+  ],
+  "keywords": [
+   "高危人群",
+   "乳腺癌",
+   "筛查",
+   "预防"
+  ]
+ },
+ {
+  "id": "gyn-cervical-screening-2021-1",
+  "condition_zh": "宫颈癌筛查策略",
+  "condition_en": "Cervical Cancer Screening Strategy",
+  "category": "gyn_health",
+  "diagnosis": {
+   "clinical_features": [
+    "妇科检查",
+    "宫颈细胞学检查",
+    "高危型HPV检测",
+    "阴道镜检查",
+    "组织病理学检查"
+   ]
+  },
+  "risk_factors": [
+   "高危型HPV持续感染",
+   "宫颈癌家族史",
+   "性生活过早",
+   "过早生育",
+   "免疫抑制剂治疗",
+   "多个性伴",
+   "HIV感染",
+   "其他性传播疾病",
+   "吸烟、吸毒者"
+  ],
+  "prevention": [
+   "筛查对象为 35-64 周岁妇女",
+   "主要筛查方法为宫颈细胞学检查(TCT)与高危型 HPV 检测",
+   "接种 HPV 疫苗",
+   "安全性行为"
+  ],
+  "treatment": [
+   {
+    "name": "宫颈癌治疗",
+    "details": "根据病变程度，采取手术、放疗、化疗等综合治疗"
+   }
+  ],
+  "when_to_seek_care": [
+   "出现不规则出血、排液等症状时",
+   "筛查结果异常时",
+   "高风险人群"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "宫颈癌筛查工作方案(国卫办妇幼函〔2021〕635号)",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nwccw.gov.cn/2022/02/17/99337480.html"
+   }
+  ],
+  "keywords": [
+   "宫颈癌",
+   "筛查",
+   "HPV",
+   "预防",
+   "治疗",
+   "健康教育",
+   "疫苗接种",
+   "高危因素",
+   "筛查策略",
+   "两癌筛查",
+   "TCT",
+   "宫颈癌筛查年龄",
+   "cervical cancer screening"
+  ]
+ },
+ {
+  "id": "gyn-cervical-screening-2021-2",
+  "condition_zh": "筛查异常管理与随访",
+  "condition_en": "Management and Follow-up of Abnormal Screening",
+  "category": "gyn_health",
+  "diagnosis": {
+   "clinical_features": [
+    "宫颈细胞学检查TBS报告结果ASC-US及以上",
+    "高危型HPV检测结果阳性",
+    "肉眼检查异常或可疑",
+    "阴道镜检查异常或可疑",
+    "组织病理学检查结果宫颈高级别病变及以上"
+   ]
+  },
+  "risk_factors": [
+   "筛查异常"
+  ],
+  "prevention": [
+   "追踪随访",
+   "督促进一步诊断及治疗",
+   "记录病例相关情况"
+  ],
+  "treatment": [
+   {
+    "name": "进一步诊断及治疗",
+    "details": "根据具体病情制定治疗方案"
+   }
+  ],
+  "when_to_seek_care": [
+   "筛查结果异常时"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "宫颈癌筛查工作方案(国卫办妇幼函〔2021〕635号)",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nwccw.gov.cn/2022/02/17/99337480.html"
+   }
+  ],
+  "keywords": [
+   "筛查异常",
+   "随访",
+   "诊断",
+   "治疗",
+   "管理",
+   "宫颈癌"
+  ]
+ },
+ {
+  "id": "gyn-cervical-screening-2021-3",
+  "condition_zh": "宫颈癌防治健康教育",
+  "condition_en": "Cervical Cancer Prevention and Control Health Education",
+  "category": "gyn_health",
+  "diagnosis": {
+   "clinical_features": [
+    "宫颈癌防治相关政策和核心信息"
+   ]
+  },
+  "risk_factors": [
+   "缺乏防治知识",
+   "意识不足"
+  ],
+  "prevention": [
+   "宣传教育",
+   "增强自我健康管理意识",
+   "动员接受筛查",
+   "指导高风险人群接受筛查"
+  ],
+  "treatment": [],
+  "when_to_seek_care": [
+   "任何妇女"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "宫颈癌筛查工作方案(国卫办妇幼函〔2021〕635号)",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nwccw.gov.cn/2022/02/17/99337480.html"
+   }
+  ],
+  "keywords": [
+   "健康教育",
+   "防治知识",
+   "意识",
+   "筛查",
+   "宫颈癌"
+  ]
+ },
+ {
+  "id": "gyn-cervical-screening-2021-4",
+  "condition_zh": "HPV疫苗接种要点",
+  "condition_en": "HPV Vaccination Key Points",
+  "category": "gyn_health",
+  "diagnosis": {
+   "clinical_features": [
+    "预防宫颈癌"
+   ]
+  },
+  "risk_factors": [
+   "HPV感染"
+  ],
+  "prevention": [
+   "9-45周岁女性均可接种",
+   "9-15周岁女性是重点人群",
+   "接种越早保护效果越好"
+  ],
+  "treatment": [],
+  "when_to_seek_care": [
+   "9-45周岁女性"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "宫颈癌筛查工作方案(国卫办妇幼函〔2021〕635号)",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nwccw.gov.cn/2022/02/17/99337480.html"
+   }
+  ],
+  "keywords": [
+   "HPV疫苗",
+   "预防",
+   "宫颈癌",
+   "接种",
+   "重点人群"
+  ]
+ },
+ {
+  "id": "gyn-menopause-2025-1",
+  "condition_zh": "更年期保健",
+  "condition_en": "menopausal health care",
+  "category": "gyn_health",
+  "prevention": [
+   "做好更年期保健，为老年期健康奠定基础"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "更年期女性健康教育核心信息(国家妇幼健康中心 2025)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.sxcdc.cn/zxzx/rdjd/art/2025/art_cdfa05da8e2247f3baf9f2cfadb4836b.html"
+   }
+  ],
+  "keywords": [
+   "更年期保健",
+   "老年期健康",
+   "基础保健",
+   "更年期",
+   "绝经",
+   "围绝经期",
+   "潮热",
+   "盗汗",
+   "脾气暴躁",
+   "menopause"
+  ]
+ },
+ {
+  "id": "gyn-menopause-2025-2",
+  "condition_zh": "膳食营养",
+  "condition_en": "dietary nutrition",
+  "category": "gyn_health",
+  "prevention": [
+   "平衡膳食，维持适宜体重和骨骼健康"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "更年期女性健康教育核心信息(国家妇幼健康中心 2025)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.sxcdc.cn/zxzx/rdjd/art/2025/art_cdfa05da8e2247f3baf9f2cfadb4836b.html"
+   }
+  ],
+  "keywords": [
+   "平衡膳食",
+   "适宜体重",
+   "骨骼健康",
+   "更年期",
+   "绝经",
+   "围绝经期",
+   "潮热",
+   "盗汗",
+   "脾气暴躁",
+   "menopause"
+  ]
+ },
+ {
+  "id": "gyn-menopause-2025-3",
+  "condition_zh": "运动",
+  "condition_en": "exercise",
+  "category": "gyn_health",
+  "prevention": [
+   "适当运动，促进身心健康"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "更年期女性健康教育核心信息(国家妇幼健康中心 2025)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.sxcdc.cn/zxzx/rdjd/art/2025/art_cdfa05da8e2247f3baf9f2cfadb4836b.html"
+   }
+  ],
+  "keywords": [
+   "适当运动",
+   "身心健康",
+   "更年期",
+   "绝经",
+   "围绝经期",
+   "潮热",
+   "盗汗",
+   "脾气暴躁",
+   "menopause"
+  ]
+ },
+ {
+  "id": "gyn-menopause-2025-4",
+  "condition_zh": "眼健康",
+  "condition_en": "eye health",
+  "category": "gyn_health",
+  "prevention": [
+   "合理用眼，保护眼健康"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "更年期女性健康教育核心信息(国家妇幼健康中心 2025)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.sxcdc.cn/zxzx/rdjd/art/2025/art_cdfa05da8e2247f3baf9f2cfadb4836b.html"
+   }
+  ],
+  "keywords": [
+   "合理用眼",
+   "眼健康",
+   "更年期",
+   "绝经",
+   "围绝经期",
+   "潮热",
+   "盗汗",
+   "脾气暴躁",
+   "menopause"
+  ]
+ },
+ {
+  "id": "gyn-menopause-2025-5",
+  "condition_zh": "口腔保健",
+  "condition_en": "oral health",
+  "category": "gyn_health",
+  "prevention": [
+   "提高口腔保健意识，保持口腔健康"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "更年期女性健康教育核心信息(国家妇幼健康中心 2025)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.sxcdc.cn/zxzx/rdjd/art/2025/art_cdfa05da8e2247f3baf9f2cfadb4836b.html"
+   }
+  ],
+  "keywords": [
+   "口腔保健",
+   "口腔健康",
+   "更年期",
+   "绝经",
+   "围绝经期",
+   "潮热",
+   "盗汗",
+   "脾气暴躁",
+   "menopause"
+  ]
+ },
+ {
+  "id": "gyn-menopause-2025-6",
+  "condition_zh": "耳保健",
+  "condition_en": "ear health",
+  "category": "gyn_health",
+  "prevention": [
+   "科学用耳，加强耳保健"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "更年期女性健康教育核心信息(国家妇幼健康中心 2025)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.sxcdc.cn/zxzx/rdjd/art/2025/art_cdfa05da8e2247f3baf9f2cfadb4836b.html"
+   }
+  ],
+  "keywords": [
+   "科学用耳",
+   "耳保健",
+   "更年期",
+   "绝经",
+   "围绝经期",
+   "潮热",
+   "盗汗",
+   "脾气暴躁",
+   "menopause"
+  ]
+ },
+ {
+  "id": "gyn-menopause-2025-7",
+  "condition_zh": "避孕措施",
+  "condition_en": "contraception",
+  "category": "gyn_health",
+  "prevention": [
+   "未绝经的更年期女性仍需继续采取避孕措施"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "更年期女性健康教育核心信息(国家妇幼健康中心 2025)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.sxcdc.cn/zxzx/rdjd/art/2025/art_cdfa05da8e2247f3baf9f2cfadb4836b.html"
+   }
+  ],
+  "keywords": [
+   "避孕措施",
+   "更年期女性",
+   "更年期",
+   "绝经",
+   "围绝经期",
+   "潮热",
+   "盗汗",
+   "脾气暴躁",
+   "menopause"
+  ]
+ },
+ {
+  "id": "gyn-menopause-2025-8",
+  "condition_zh": "健康体检",
+  "condition_en": "health check-up",
+  "category": "gyn_health",
+  "prevention": [
+   "定期健康体检，关注重点疾病"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "更年期女性健康教育核心信息(国家妇幼健康中心 2025)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.sxcdc.cn/zxzx/rdjd/art/2025/art_cdfa05da8e2247f3baf9f2cfadb4836b.html"
+   }
+  ],
+  "keywords": [
+   "健康体检",
+   "重点疾病",
+   "更年期",
+   "绝经",
+   "围绝经期",
+   "潮热",
+   "盗汗",
+   "脾气暴躁",
+   "menopause"
+  ]
+ },
+ {
+  "id": "gyn-menopause-2025-9",
+  "condition_zh": "慢性疾病",
+  "condition_en": "chronic disease",
+  "category": "gyn_health",
+  "prevention": [
+   "坚持自我健康管理，防治慢性疾病"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "更年期女性健康教育核心信息(国家妇幼健康中心 2025)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.sxcdc.cn/zxzx/rdjd/art/2025/art_cdfa05da8e2247f3baf9f2cfadb4836b.html"
+   }
+  ],
+  "keywords": [
+   "自我管理",
+   "慢性疾病",
+   "更年期",
+   "绝经",
+   "围绝经期",
+   "潮热",
+   "盗汗",
+   "脾气暴躁",
+   "menopause"
+  ]
+ },
+ {
+  "id": "gyn-menopause-2025-10",
+  "condition_zh": "心理保健",
+  "condition_en": "mental health care",
+  "category": "gyn_health",
+  "prevention": [
+   "加强心理保健，预防和减少心理健康问题"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "更年期女性健康教育核心信息(国家妇幼健康中心 2025)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.sxcdc.cn/zxzx/rdjd/art/2025/art_cdfa05da8e2247f3baf9f2cfadb4836b.html"
+   }
+  ],
+  "keywords": [
+   "心理保健",
+   "心理健康问题",
+   "更年期",
+   "绝经",
+   "围绝经期",
+   "潮热",
+   "盗汗",
+   "脾气暴躁",
+   "menopause"
+  ]
+ },
+ {
+  "id": "gyn-menopause-2025-11",
+  "condition_zh": "就医指征",
+  "condition_en": "medical consultation indication",
+  "category": "gyn_health",
+  "when_to_seek_care": [
+   "更年期相关症状明显者，应及时就医"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "更年期女性健康教育核心信息(国家妇幼健康中心 2025)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.sxcdc.cn/zxzx/rdjd/art/2025/art_cdfa05da8e2247f3baf9f2cfadb4836b.html"
+   }
+  ],
+  "keywords": [
+   "更年期症状",
+   "及时就医",
+   "更年期",
+   "绝经",
+   "围绝经期",
+   "潮热",
+   "盗汗",
+   "脾气暴躁",
+   "menopause"
+  ]
+ },
+ {
+  "id": "gyn-menopause-2025-12",
+  "condition_zh": "月经异常",
+  "condition_en": "menstrual irregularity",
+  "category": "gyn_health",
+  "when_to_seek_care": [
+   "重视月经异常，必要时进行治疗"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "更年期女性健康教育核心信息(国家妇幼健康中心 2025)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.sxcdc.cn/zxzx/rdjd/art/2025/art_cdfa05da8e2247f3baf9f2cfadb4836b.html"
+   }
+  ],
+  "keywords": [
+   "月经异常",
+   "治疗",
+   "更年期",
+   "绝经",
+   "围绝经期",
+   "潮热",
+   "盗汗",
+   "脾气暴躁",
+   "menopause"
+  ]
+ },
+ {
+  "id": "gyn-menopause-2025-13",
+  "condition_zh": "盆底健康",
+  "condition_en": "pelvic floor health",
+  "category": "gyn_health",
+  "when_to_seek_care": [
+   "关注盆底健康，及时处理尿失禁和外阴、阴道萎缩症状"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "更年期女性健康教育核心信息(国家妇幼健康中心 2025)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.sxcdc.cn/zxzx/rdjd/art/2025/art_cdfa05da8e2247f3baf9f2cfadb4836b.html"
+   }
+  ],
+  "keywords": [
+   "盆底健康",
+   "尿失禁",
+   "外阴阴道萎缩",
+   "更年期",
+   "绝经",
+   "围绝经期",
+   "潮热",
+   "盗汗",
+   "脾气暴躁",
+   "menopause"
+  ]
+ },
+ {
+  "id": "gyn-menopause-2025-14",
+  "condition_zh": "绝经激素治疗",
+  "condition_en": "menopausal hormone therapy",
+  "category": "gyn_health",
+  "treatment": [
+   {
+    "name": "绝经激素治疗",
+    "details": "规范的绝经激素治疗，可有效改善更年期症状"
+   }
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "更年期女性健康教育核心信息(国家妇幼健康中心 2025)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.sxcdc.cn/zxzx/rdjd/art/2025/art_cdfa05da8e2247f3baf9f2cfadb4836b.html"
+   }
+  ],
+  "keywords": [
+   "绝经激素治疗",
+   "改善更年期症状",
+   "更年期",
+   "绝经",
+   "围绝经期",
+   "潮热",
+   "盗汗",
+   "脾气暴躁",
+   "menopause"
+  ]
+ },
+ {
+  "id": "gyn-menopause-2025-15",
+  "condition_zh": "中医药",
+  "condition_en": "traditional Chinese medicine",
+  "category": "gyn_health",
+  "treatment": [
+   {
+    "name": "中医辨证论治",
+    "details": "中医辨证论治有助于改善更年期症状，平稳度过更年期"
+   }
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "更年期女性健康教育核心信息(国家妇幼健康中心 2025)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.sxcdc.cn/zxzx/rdjd/art/2025/art_cdfa05da8e2247f3baf9f2cfadb4836b.html"
+   }
+  ],
+  "keywords": [
+   "中医药",
+   "改善更年期症状",
+   "平稳度过更年期",
+   "更年期",
+   "绝经",
+   "围绝经期",
+   "潮热",
+   "盗汗",
+   "脾气暴躁",
+   "menopause"
+  ]
+ }
+]

@@ -1042,3 +1042,108 @@ func (s *Store) SearchSIDERDrugs(query string, limit int) []SIDERDrug {
 	}
 	return matches
 }
+
+// FindDiseasesBySymptom performs a reverse lookup: given a symptom string,
+// find all diseases in the OpenCMKG that have this symptom. It searches
+// triples with relation "disease_has_symptom" where Entity2 (the symptom)
+// matches the query. Returns a map of disease name → vote count (number
+// of matching symptom tokens). This is the Level-1 KG router: symptom →
+// disease candidates, inspired by MedRAG's knowledge-graph-elicited
+// reasoning (WWW 2025).
+func (s *Store) FindDiseasesBySymptom(symptom string, limit int) map[string]int {
+	_ = s.ensureMedicalKG()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+
+	votes := make(map[string]int)
+	symptom = strings.ToLower(strings.TrimSpace(symptom))
+	if symptom == "" {
+		return votes
+	}
+
+	for _, triple := range s.MedicalKGTriples {
+		if triple.Relation != "disease_has_symptom" {
+			continue
+		}
+		// Entity2 is the symptom; Entity1 is the disease.
+		if strings.Contains(strings.ToLower(triple.Entity2), symptom) {
+			votes[triple.Entity1]++
+		}
+	}
+
+	// Also search DiseaseEncyclopedia.Symptoms for richer coverage.
+	_ = s.ensureDiseaseEnc()
+	for _, d := range s.DiseaseEncyclopedias {
+		for _, sym := range d.Symptoms {
+			if strings.Contains(strings.ToLower(sym), symptom) {
+				votes[d.NameZH]++
+				break // one vote per disease from encyclopedia
+			}
+		}
+	}
+
+	// Trim to limit by top votes.
+	if len(votes) > limit {
+		type kv struct {
+			key   string
+			value int
+		}
+		var sorted []kv
+		for k, v := range votes {
+			sorted = append(sorted, kv{k, v})
+		}
+		// Simple selection: keep top `limit` by value.
+		for i := 0; i < len(sorted); i++ {
+			for j := i + 1; j < len(sorted); j++ {
+				if sorted[j].value > sorted[i].value {
+					sorted[i], sorted[j] = sorted[j], sorted[i]
+				}
+			}
+		}
+		trimmed := make(map[string]int, limit)
+		for i := 0; i < limit && i < len(sorted); i++ {
+			trimmed[sorted[i].key] = sorted[i].value
+		}
+		return trimmed
+	}
+
+	return votes
+}
+
+// GetDiseaseKGRelations returns all KG triples for a given disease entity,
+// grouped by relation type. This is the Level-2 KG router input: disease →
+// available relations → tool group mapping. It searches OpenCMKG triples
+// where Entity1 matches the disease name.
+func (s *Store) GetDiseaseKGRelations(disease string) map[string][]string {
+	_ = s.ensureMedicalKG()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+
+	result := make(map[string][]string)
+	disease = strings.ToLower(strings.TrimSpace(disease))
+
+	for _, triple := range s.MedicalKGTriples {
+		if strings.EqualFold(triple.Entity1, disease) {
+			result[triple.Relation] = append(result[triple.Relation], triple.Entity2)
+		}
+	}
+
+	// Also check CPubMed-KG for additional relations.
+	_ = s.ensureCPubMed()
+	for head, triples := range s.CPubMedByHead {
+		if strings.Contains(strings.ToLower(head), disease) {
+			for _, t := range triples {
+				result[t.Relation] = append(result[t.Relation], t.Tail)
+			}
+		}
+	}
+
+	return result
+}
+
+// GetDiseaseEncyclopedia returns the encyclopedia entry for a disease,
+// including symptoms, common drugs, diagnostic tests, treatment departments.
+// This supplements the KG triples with structured fields for tool routing.
+func (s *Store) GetDiseaseEncyclopedia(name string) *DiseaseEncyclopedia {
+	return s.GetDiseaseEncyclopediaByName(name)
+}

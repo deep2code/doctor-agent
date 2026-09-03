@@ -26,6 +26,7 @@ type Agent struct {
 	composer  *prompt.Composer
 	registry  *tools.Registry
 
+	router            *tools.Router
 	emergencyDetector *safety.EmergencyDetector
 	scopeGuard        *safety.ScopeGuard
 	disclaimerService *safety.DisclaimerService
@@ -85,6 +86,7 @@ func New(cfg *config.Config) (*Agent, error) {
 	}
 	composer := prompt.NewComposer()
 	registry := tools.NewRegistry()
+	router := tools.NewRouter()
 
 	// Register all medical tools
 	registry.Register(tools.NewDrugSafetyCheck(store))
@@ -152,6 +154,7 @@ func New(cfg *config.Config) (*Agent, error) {
 		retriever:         retriever,
 		composer:          composer,
 		registry:          registry,
+		router:            router,
 		emergencyDetector: safety.NewEmergencyDetector(),
 		scopeGuard:        safety.NewScopeGuard(),
 		disclaimerService: safety.NewDisclaimerService(),
@@ -316,7 +319,12 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		systemPrompt += "\n\n" + prompt.NoKnowledgeGuidance
 	}
 
-	toolDescs := a.registry.GetToolDescriptions()
+	// Route: select only relevant tools based on query classification.
+	// This reduces the LLM's decision space from 35 to <=10 tools.
+	selectedToolNames := a.router.ClassifyKG(userMessage, a.store)
+	slog.Debug("Tool routing (KG-guided)", "query", userMessage, "selected", selectedToolNames)
+
+	toolDescs := a.registry.GetToolDescriptionsByNames(selectedToolNames)
 	if len(toolDescs) > 0 {
 		systemPrompt += "\n" + a.composer.ComposeToolPrompt(toolDescs)
 	}
@@ -325,7 +333,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 	messages := a.sessionToMessages(sess)
 	messages = append(messages, llm.Message{Role: "user", Content: userMessage})
 
-	toolDefs := a.registry.GetGenericToolDefinitions()
+	toolDefs := a.registry.GetGenericToolDefinitionsByNames(selectedToolNames)
 
 	// Agent loop: call LLM, handle tool use, repeat until final response
 	maxIterations := a.cfg.MaxToolIterations
@@ -333,6 +341,12 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		maxIterations = 5
 	}
 	var toolRefs []tools.CitationRef // tool-returned sources for post-verification
+
+	// Duplicate tool call detection and tool call budget.
+	calledTools := make(map[string]int) // "toolName:paramsHash" -> count
+	toolCallCount := 0
+	maxToolCalls := 3                      // budget: after 3 successful calls, force text answer
+	toolBudgetExceeded := false
 	for i := 0; i < maxIterations; i++ {
 		if i == 0 {
 			step(StepEvent{Type: "generate", Summary: "正在思考…"})
@@ -340,7 +354,16 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 			step(StepEvent{Type: "generate", Summary: "正在根据工具结果组织回答…"})
 		}
 
-		resp, err := a.provider.StreamChat(ctx, messages, toolDefs, systemPrompt, onDelta)
+		// Last iteration or tool budget exceeded: strip tools so the
+		// LLM must produce a text answer instead of calling more tools.
+		iterTools := toolDefs
+		iterPrompt := systemPrompt
+		if i == maxIterations-1 || toolBudgetExceeded {
+			iterTools = nil
+			iterPrompt = systemPrompt + "\n\n你已经调用了多次工具。请基于已获取的工具返回信息，给出最终的完整回答，不要再调用任何工具。"
+		}
+
+		resp, err := a.provider.StreamChat(ctx, messages, iterTools, iterPrompt, onDelta)
 		if err != nil {
 			slog.Error("LLM StreamChat failed",
 				"error", err,
@@ -388,6 +411,22 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 			// Anthropic expects the equivalent tool_result blocks.
 			var toolMsgs []llm.Message
 			for _, tc := range resp.ToolCalls {
+				// Duplicate detection: skip if same tool + same params
+				// was already called in this turn.
+				dedupeKey := tc.Name + ":" + tools.ParamsHash(tc.Name, tc.Arguments)
+				if calledTools[dedupeKey] >= 1 {
+					slog.Warn("Duplicate tool call detected, skipping",
+						"tool", tc.Name, "conversation_id", sess.ID, "iteration", i)
+					step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」重复调用已拦截", tc.Name)})
+					toolMsgs = append(toolMsgs, llm.Message{
+						Role: "tool", ToolCallID: tc.ID,
+						Content: fmt.Sprintf("[工具 %s 已用相同参数调用过，请勿重复调用。请基于已有结果给出回答。]", tc.Name),
+					})
+					continue
+				}
+				calledTools[dedupeKey]++
+				toolCallCount++
+
 				slog.Info("Tool use requested", "tool", tc.Name, "id", tc.ID)
 				step(StepEvent{Type: "tool_call", Tool: tc.Name, Summary: fmt.Sprintf("调用工具「%s」", tc.Name)})
 				result, err := a.registry.Dispatch(ctx, tc.Name, tc.Arguments)
@@ -405,6 +444,11 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 					step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」返回结果（%d 条引用）", tc.Name, len(result.Citations))})
 				}
 				toolMsgs = append(toolMsgs, llm.Message{Role: "tool", ToolCallID: tc.ID, Content: content})
+			}
+
+			// Check tool budget after this batch of tool calls.
+			if toolCallCount >= maxToolCalls {
+				toolBudgetExceeded = true
 			}
 
 			messages = append(messages, assistantMsg)
@@ -462,11 +506,66 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		}, nil
 	}
 
-	slog.Error("Agent exceeded maximum tool-use iterations",
+	// Max iterations exceeded — force a final text response without tools
+	// so the LLM must summarize what it found instead of erroring out.
+	slog.Warn("Agent exceeded maximum tool-use iterations, forcing final response without tools",
 		"conversation_id", sess.ID,
 		"max_iterations", maxIterations,
 	)
-	return nil, fmt.Errorf("exceeded maximum tool-use iterations (%d)", maxIterations)
+	step(StepEvent{Type: "generate", Summary: "正在根据已有信息组织最终回答…"})
+	finalResp, err := a.provider.StreamChat(ctx, messages, nil,
+		systemPrompt+"\n\n你已经调用了多次工具，请基于已获取的工具返回信息，给出最终的完整回答，不要再调用任何工具。",
+		onDelta)
+	if err != nil {
+		slog.Error("Final LLM call after max iterations failed",
+			"error", err,
+			"conversation_id", sess.ID,
+		)
+		return nil, fmt.Errorf("LLM final response: %w", err)
+	}
+	responseText := finalResp.Text
+
+	// Update session
+	sess.AddUserMessage(userMessage)
+	a.saveSession(sess)
+
+	// L3: Post-generation verification
+	if a.cfg.PostVerifyEnabled {
+		sources := knowledge.BuildCitedSources(retrieved)
+		for _, ref := range toolRefs {
+			text := fmt.Sprintf("文献: %s", ref.Title)
+			if ref.Year > 0 {
+				text += fmt.Sprintf(" (%d)", ref.Year)
+			}
+			knowledge.AddToolSource(sources, ref.Title, ref.DOI, ref.PMID, ref.Year, ref.Level, text)
+		}
+		verifyResult := a.postVerifier.Verify(ctx, responseText, sources)
+		if !verifyResult.Passed {
+			slog.Warn("Response post-verification failed",
+				"warnings", verifyResult.Warnings,
+				"unsupported", verifyResult.UnsupportedClaims)
+			if verifyResult.CorrectedResponse != "" {
+				responseText = verifyResult.CorrectedResponse
+			}
+		}
+	}
+
+	// L4: Apply disclaimer
+	disclaimerSent := false
+	if !sess.DisclaimerSent {
+		responseText = a.disclaimerService.Apply(sess.ID, responseText)
+		sess.DisclaimerSent = true
+		disclaimerSent = true
+	}
+
+	sess.AddAssistantMessage(responseText)
+	a.saveSession(sess)
+	sess.TrimHistory(a.cfg.MaxHistoryTurns)
+
+	return &Response{
+		Text:           responseText,
+		DisclaimerSent: disclaimerSent,
+	}, nil
 }
 
 // ProcessMessageStreamWithImages handles a user message with attached images.
@@ -530,7 +629,24 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		systemPrompt += "\n\n" + prompt.NoKnowledgeGuidance
 	}
 
-	toolDescs := a.registry.GetToolDescriptions()
+	// Route: select only relevant tools via KG-guided classification.
+	selectedToolNames := a.router.ClassifyKG(userMessage, a.store)
+	// When images are attached, always include the image analysis tool.
+	if len(images) > 0 {
+		hasImageTool := false
+		for _, n := range selectedToolNames {
+			if n == "medical_image_analyze" {
+				hasImageTool = true
+				break
+			}
+		}
+		if !hasImageTool {
+			selectedToolNames = append(selectedToolNames, "medical_image_analyze")
+		}
+	}
+	slog.Debug("Tool routing", "query", userMessage, "selected", selectedToolNames, "has_images", len(images) > 0)
+
+	toolDescs := a.registry.GetToolDescriptionsByNames(selectedToolNames)
 	if len(toolDescs) > 0 {
 		systemPrompt += "\n" + a.composer.ComposeToolPrompt(toolDescs)
 	}
@@ -558,7 +674,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 	}
 	messages = append(messages, userMsg)
 
-	toolDefs := a.registry.GetGenericToolDefinitions()
+	toolDefs := a.registry.GetGenericToolDefinitionsByNames(selectedToolNames)
 
 	// Agent loop: call LLM, handle tool use, repeat until final response
 	maxIterations := a.cfg.MaxToolIterations
@@ -566,6 +682,12 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		maxIterations = 5
 	}
 	var toolRefs []tools.CitationRef // tool-returned sources for post-verification
+
+	// Duplicate tool call detection and tool call budget.
+	calledTools := make(map[string]int) // "toolName:paramsHash" -> count
+	toolCallCount := 0
+	maxToolCalls := 3                      // budget: after 3 successful calls, force text answer
+	toolBudgetExceeded := false
 	for i := 0; i < maxIterations; i++ {
 		if i == 0 {
 			step(StepEvent{Type: "generate", Summary: "正在思考…"})
@@ -573,12 +695,21 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 			step(StepEvent{Type: "generate", Summary: "正在根据工具结果组织回答…"})
 		}
 
+		// Last iteration or tool budget exceeded: strip tools so the
+		// LLM must produce a text answer instead of calling more tools.
+		iterTools := toolDefs
+		iterPrompt := systemPrompt
+		if i == maxIterations-1 || toolBudgetExceeded {
+			iterTools = nil
+			iterPrompt = systemPrompt + "\n\n你已经调用了多次工具。请基于已获取的工具返回信息，给出最终的完整回答，不要再调用任何工具。"
+		}
+
 		var llmResp *llm.ChatResponse
 		var llmErr error
 		if onDelta != nil {
-			llmResp, llmErr = a.provider.StreamChat(ctx, messages, toolDefs, systemPrompt, onDelta)
+			llmResp, llmErr = a.provider.StreamChat(ctx, messages, iterTools, iterPrompt, onDelta)
 		} else {
-			llmResp, llmErr = a.provider.Chat(ctx, messages, toolDefs, systemPrompt)
+			llmResp, llmErr = a.provider.Chat(ctx, messages, iterTools, iterPrompt)
 		}
 		if llmErr != nil {
 			slog.Error("LLM call failed",
@@ -669,6 +800,22 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		// equivalent tool_result blocks).
 		var toolMsgs []llm.Message
 		for _, tc := range llmResp.ToolCalls {
+			// Duplicate detection: skip if same tool + same params
+			// was already called in this turn.
+			dedupeKey := tc.Name + ":" + tools.ParamsHash(tc.Name, tc.Arguments)
+			if calledTools[dedupeKey] >= 1 {
+				slog.Warn("Duplicate tool call detected, skipping",
+					"tool", tc.Name, "conversation_id", sess.ID, "iteration", i)
+				step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具 %s 重复调用已拦截", tc.Name)})
+				toolMsgs = append(toolMsgs, llm.Message{
+					Role: "tool", ToolCallID: tc.ID,
+					Content: fmt.Sprintf("[工具 %s 已用相同参数调用过，请勿重复调用。请基于已有结果给出回答。]", tc.Name),
+				})
+				continue
+			}
+			calledTools[dedupeKey]++
+			toolCallCount++
+
 			step(StepEvent{Type: "tool_call", Tool: tc.Name, Summary: fmt.Sprintf("调用工具 %s", tc.Name)})
 			toolResult, err := a.registry.Dispatch(ctx, tc.Name, tc.Arguments)
 			var content string
@@ -687,15 +834,76 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 			}
 			toolMsgs = append(toolMsgs, llm.Message{Role: "tool", ToolCallID: tc.ID, Content: content})
 		}
+
+		// Check tool budget after this batch of tool calls.
+		if toolCallCount >= maxToolCalls {
+			toolBudgetExceeded = true
+		}
+
 		messages = append(messages, toolMsgs...)
 	}
 
-	slog.Error("Agent exceeded maximum tool-use iterations",
+	// Max iterations exceeded — force a final text response without tools
+	// so the LLM must summarize what it found instead of erroring out.
+	slog.Warn("Agent exceeded maximum tool-use iterations, forcing final response without tools",
 		"conversation_id", sess.ID,
 		"max_iterations", maxIterations,
 		"has_images", len(images) > 0,
 	)
-	return nil, fmt.Errorf("exceeded maximum tool-use iterations (%d)", maxIterations)
+	step(StepEvent{Type: "generate", Summary: "正在根据已有信息组织最终回答…"})
+	finalResp, err := a.provider.StreamChat(ctx, messages, nil,
+		systemPrompt+"\n\n你已经调用了多次工具，请基于已获取的工具返回信息，给出最终的完整回答，不要再调用任何工具。",
+		onDelta)
+	if err != nil {
+		slog.Error("Final LLM call after max iterations failed",
+			"error", err,
+			"conversation_id", sess.ID,
+			"has_images", len(images) > 0,
+		)
+		return nil, fmt.Errorf("LLM final response: %w", err)
+	}
+	responseText := finalResp.Text
+
+	// L3: Citation post-verification
+	if a.postVerifier != nil {
+		sources := knowledge.BuildCitedSources(retrieved)
+		for _, ref := range toolRefs {
+			text := ref.Title
+			if ref.DOI != "" {
+				text += " DOI:" + ref.DOI
+			}
+			if ref.Year > 0 {
+				text += fmt.Sprintf(" (%d)", ref.Year)
+			}
+			knowledge.AddToolSource(sources, ref.Title, ref.DOI, ref.PMID, ref.Year, ref.Level, text)
+		}
+		verifyResult := a.postVerifier.Verify(ctx, responseText, sources)
+		if !verifyResult.Passed {
+			slog.Warn("Response post-verification failed",
+				"warnings", verifyResult.Warnings,
+				"unsupported", verifyResult.UnsupportedClaims)
+			if verifyResult.CorrectedResponse != "" {
+				responseText = verifyResult.CorrectedResponse
+			}
+		}
+	}
+
+	// L4: Apply disclaimer
+	disclaimerSent := false
+	if !sess.DisclaimerSent {
+		responseText = a.disclaimerService.Apply(sess.ID, responseText)
+		sess.DisclaimerSent = true
+		disclaimerSent = true
+	}
+
+	sess.AddAssistantMessage(responseText)
+	a.saveSession(sess)
+	sess.TrimHistory(a.cfg.MaxHistoryTurns)
+
+	return &Response{
+		Text:           responseText,
+		DisclaimerSent: disclaimerSent,
+	}, nil
 }
 
 // sessionToMessages returns the session history in provider-agnostic form.

@@ -26,7 +26,7 @@ esac
 
 # ── 版本信息 ──────────────────────────────────────
 GIT_COMMIT="$(git rev-parse --short HEAD 2>/dev/null || echo unknown)"
-BUILD_TIME="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+BUILD_TIME="$(TZ=Asia/Shanghai date '+%Y-%m-%dT%H:%M:%S+08:00')"
 GIT_TAG="$(git describe --tags --abbrev=0 2>/dev/null || echo latest)"
 
 # ── 镜像仓库（唯一定义处；Linux 推送机走内网）─────

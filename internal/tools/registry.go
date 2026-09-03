@@ -110,6 +110,66 @@ func (r *Registry) GetGenericToolDefinitions() []llm.ToolDefinition {
 	return defs
 }
 
+// GetGenericToolDefinitionsByNames returns tool definitions only for the
+// specified tool names, preserving registry insertion order. Unknown names
+// are silently skipped. Used by the Router to inject a relevant subset
+// instead of all 35 tools.
+func (r *Registry) GetGenericToolDefinitionsByNames(names []string) []llm.ToolDefinition {
+	r.mu.RLock()
+	defer r.mu.RUnlock()
+
+	nameSet := make(map[string]bool, len(names))
+	for _, n := range names {
+		nameSet[n] = true
+	}
+
+	defs := make([]llm.ToolDefinition, 0, len(names))
+	for _, name := range r.order {
+		if !nameSet[name] {
+			continue
+		}
+		tool, ok := r.tools[name]
+		if !ok {
+			continue
+		}
+		schema := tool.Schema()
+		required := toStringSlice(schema["required"])
+		props, _ := schema["properties"].(map[string]any)
+		defs = append(defs, llm.ToolDefinition{
+			Name:        name,
+			Description: tool.Description(),
+			Parameters:  props,
+			Required:    required,
+		})
+	}
+	return defs
+}
+
+// GetToolDescriptionsByNames returns human-readable descriptions for the
+// specified subset of tools, preserving registry insertion order.
+func (r *Registry) GetToolDescriptionsByNames(names []string) []string {
+	r.mu.RLock()
+	defer r.mu.RUnlock()
+
+	nameSet := make(map[string]bool, len(names))
+	for _, n := range names {
+		nameSet[n] = true
+	}
+
+	descs := make([]string, 0, len(names))
+	for _, name := range r.order {
+		if !nameSet[name] {
+			continue
+		}
+		tool, ok := r.tools[name]
+		if !ok {
+			continue
+		}
+		descs = append(descs, fmt.Sprintf("**%s**: %s", tool.Name(), tool.Description()))
+	}
+	return descs
+}
+
 // GetTool returns a registered tool by name.
 func (r *Registry) GetTool(name string) (Tool, bool) {
 	r.mu.RLock()

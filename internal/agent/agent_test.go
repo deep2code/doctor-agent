@@ -17,17 +17,19 @@ import (
 // fakeProvider returns preset responses in order; StreamChat forwards the
 // per-call deltas (streamed[i] belongs to the i-th LLM call).
 type fakeProvider struct {
-	responses []*llm.ChatResponse
-	streamed  [][]string // deltas forwarded on each StreamChat call
-	chatCalls int
-	captured  [][]llm.Message // messages seen on each call (for assertions)
+	responses     []*llm.ChatResponse
+	streamed      [][]string // deltas forwarded on each StreamChat call
+	chatCalls     int
+	captured      [][]llm.Message // messages seen on each call (for assertions)
+	capturedTools [][]llm.ToolDefinition // tools passed on each call
 }
 
 func (f *fakeProvider) Name() string { return "fake" }
 
-func (f *fakeProvider) Chat(_ context.Context, messages []llm.Message, _ []llm.ToolDefinition, _ string) (*llm.ChatResponse, error) {
+func (f *fakeProvider) Chat(_ context.Context, messages []llm.Message, tools []llm.ToolDefinition, _ string) (*llm.ChatResponse, error) {
 	f.chatCalls++
 	f.captured = append(f.captured, append([]llm.Message(nil), messages...))
+	f.capturedTools = append(f.capturedTools, tools)
 	if len(f.responses) == 0 {
 		return &llm.ChatResponse{}, nil
 	}
@@ -159,6 +161,43 @@ func TestProcessMessageStreamToolLoop(t *testing.T) {
 	}
 	if second[2].Role != "tool" || second[2].ToolCallID != "c1" || second[2].Content == "" {
 		t.Errorf("second call msg[2] = %+v, want tool message with ToolCallID c1 and content", second[2])
+	}
+}
+
+func TestProcessMessageStreamMaxIterationsFallback(t *testing.T) {
+	cfg := testConfig()
+	// LLM calls tools for 4 iterations; on the 5th (last) iteration tools
+	// are stripped, so LLM returns a text answer directly — no fallback needed.
+	toolResp := &llm.ChatResponse{ToolCalls: []llm.ToolCall{{ID: "c1", Name: "echo", Arguments: map[string]any{"a": "1"}}}}
+	p := &fakeProvider{
+		responses: []*llm.ChatResponse{
+			toolResp, toolResp, toolResp, toolResp, // 4 tool-call rounds
+			{Text: "根据已有信息的最终回答"}, // 5th round (nil tools → text)
+		},
+		streamed: [][]string{nil, nil, nil, nil, {"根据已有信息的最终回答"}},
+	}
+	ag := newTestAgent(cfg, p)
+	ag.registry.Register(echoTool{})
+	sess := session.New("maxiter")
+
+	var deltas []string
+	resp, err := ag.ProcessMessageStream(context.Background(), sess, "反复查询", func(d string) { deltas = append(deltas, d) }, nil)
+	if err != nil {
+		t.Fatalf("ProcessMessageStream should not error on max iterations, got: %v", err)
+	}
+	if !strings.HasPrefix(resp.Text, "根据已有信息的最终回答") {
+		t.Errorf("resp.Text = %q, want fallback text", resp.Text)
+	}
+	// 4 tool rounds + 1 final text round = 5 LLM calls (no 6th fallback)
+	if p.chatCalls != 5 {
+		t.Errorf("LLM calls = %d, want 5 (4 tool + 1 final-text)", p.chatCalls)
+	}
+	// The 5th call (last iteration) must have nil/empty tools
+	if len(p.capturedTools) != 5 {
+		t.Fatalf("capturedTools = %d entries, want 5", len(p.capturedTools))
+	}
+	if lastTools := p.capturedTools[4]; len(lastTools) != 0 {
+		t.Errorf("last iteration tools = %v, want nil/empty (tools stripped)", lastTools)
 	}
 }
 

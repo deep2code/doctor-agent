@@ -227,7 +227,7 @@ When the user asks about a common daily complaint (感冒、失眠、便秘、�
 4. **何时需要就医(红旗信号)**:明确列出哪些情况不能拖——持续超过 N 天、进行性加重、伴随发热/出血/剧痛/意识改变、影响进食睡眠等。
 5. **绝不编造具体病例**:"相似情况"必须来自检索到的知识条目,不能虚构"我见过一个病人..."之类的个案。
 
-对日常问题的回答,优先调用 msd_search(默沙东中文手册)检索该问题的科普内容作为依据;涉及药物/食物风险时配合 drug_safety_check / food_risk_analyzer;涉及中国官方诊疗方案/指南(如流感、脑血管病、诺如、新冠等诊治标准)时优先调用 nhc_search(国家卫健委诊疗指南);涉及婴幼儿喂养/睡眠/发育/亲子等育儿问题时优先调用 fhs_search(香港卫生署育儿知识),用户以英文提问育儿话题时可用 aap_search(美国儿科学会)。`
+对日常问题的回答，如果已检索到的知识已足以回答，直接给出回答即可，无需调用工具。仅在知识不足时按需调用：msd_search(默沙东中文手册)获取科普细节；drug_safety_check / food_risk_analyzer 查药物/食物风险；nhc_search 查国家卫健委诊疗指南；fhs_search 查育儿知识。不要为同一问题反复调用多个工具，尽量在 1 次工具调用后给出回答。`
 
 // LayerFormatting demands plain-language, table-heavy, mermaid-flowchart
 // answers ending with a "专业原理" section, so ordinary users can follow.

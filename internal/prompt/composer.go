@@ -80,6 +80,8 @@ func (c *Composer) ComposeSystemPrompt(retrieved []knowledge.RetrievalResult, pa
 }
 
 // ComposeToolPrompt generates the prompt segment describing available tools.
+// Only the tools pre-selected by the Router are listed here, keeping the
+// prompt focused and reducing the LLM's decision space.
 func (c *Composer) ComposeToolPrompt(toolDescriptions []string) string {
 	if len(toolDescriptions) == 0 {
 		return ""
@@ -93,14 +95,12 @@ func (c *Composer) ComposeToolPrompt(toolDescriptions []string) string {
 	for i, desc := range toolDescriptions {
 		fmt.Fprintf(&sb, "%d. %s\n", i+1, desc)
 	}
-	sb.WriteString("\n使用工具的时机：\n")
-	sb.WriteString("- 需要查询G6PD药物安全性时 → drug_safety_check\n")
-	sb.WriteString("- 需要计算地贫遗传风险时 → genetic_risk_calculator\n")
-	sb.WriteString("- 需要分析食物健康风险时 → food_risk_analyzer\n")
-	sb.WriteString("- 需要紧急分诊评估时 → symptom_triage\n")
-	sb.WriteString("- 需要检索特定医学文献时 → reference_lookup\n")
-	sb.WriteString("- 需要解读实验室检查结果时 → lab_interpreter\n")
-	sb.WriteString("\n工具返回的数据可以直接在你的回答中引用。\n")
+	sb.WriteString("\n使用原则：\n")
+	sb.WriteString("- 先根据已有知识和检索结果判断，能直接回答的简单问题无需调用工具。\n")
+	sb.WriteString("- 需要查精确数据（药品信息、基因变异、化验指标等）时才调用对应工具。\n")
+	sb.WriteString("- 尽量在 1-2 次工具调用后给出回答，不要连续调用超过 3 个工具。\n")
+	sb.WriteString("- 如果工具返回的信息已足够回答用户问题，请立即给出最终回答，不要继续调用工具。\n")
+	sb.WriteString("- 不要用相同参数重复调用同一个工具。\n")
 
 	return sb.String()
 }

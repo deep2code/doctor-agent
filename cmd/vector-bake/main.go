@@ -6,7 +6,7 @@
 //
 //	vector-bake [--src=internal/knowledge/gz] [--host=127.0.0.1] [--port=6334]
 //	            [--collection=medical_knowledge] [--batch-size=100] [--workers=4]
-//	            [--recreate] [--wait-green=600]
+//	            [--max-text-chars=1024] [--recreate] [--wait-green=600]
 //
 // Kept separate from the doctor-agent application binary on purpose:
 // the RAG image only needs this small tool, so building it must NOT
@@ -17,6 +17,7 @@ import (
 	"context"
 	"fmt"
 	"os"
+	"strconv"
 	"strings"
 	"time"
 
@@ -31,6 +32,7 @@ func main() {
 	collection := "medical_knowledge"
 	batchSize := 100
 	workers := 4
+	maxTextChars := 0 // 0 = bake default (1024 runes)
 	recreate := false
 	waitGreen := 0 // seconds to wait for collection status=green (0 = skip)
 
@@ -48,6 +50,8 @@ func main() {
 			_ = sscanfInt(a, "--batch-size=", &batchSize)
 		case strings.HasPrefix(a, "--workers="):
 			_ = sscanfInt(a, "--workers=", &workers)
+		case strings.HasPrefix(a, "--max-text-chars="):
+			_ = sscanfInt(a, "--max-text-chars=", &maxTextChars)
 		case a == "--recreate":
 			recreate = true
 		case strings.HasPrefix(a, "--wait-green="):
@@ -60,6 +64,12 @@ func main() {
 	baseURL := os.Getenv("EMBEDDING_BASE_URL")
 	apiKey := os.Getenv("EMBEDDING_API_KEY")
 	model := os.Getenv("EMBEDDING_MODEL")
+	dimensions := 0
+	if d := os.Getenv("EMBEDDING_DIMENSIONS"); d != "" {
+		if v, err := strconv.Atoi(d); err == nil {
+			dimensions = v
+		}
+	}
 
 	fmt.Printf("🧱 离线烘焙知识库 gz -> Qdrant\n")
 	fmt.Printf("   gz 源:       %s\n", gzDir)
@@ -85,7 +95,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	embedder, err := embedding.NewDefault(baseURL, apiKey, model)
+	embedder, err := embedding.NewDefault(baseURL, apiKey, model, dimensions)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "❌ 初始化 embedding 失败: %v\n", err)
 		os.Exit(1)
@@ -101,10 +111,11 @@ func main() {
 	}
 
 	res, err := knowledge.Bake(context.Background(), vecStore, embedder, knowledge.BakeConfig{
-		GzDir:      gzDir,
-		Collection: collection,
-		BatchSize:  batchSize,
-		Workers:    workers,
+		GzDir:        gzDir,
+		Collection:   collection,
+		BatchSize:    batchSize,
+		Workers:      workers,
+		MaxTextChars: maxTextChars,
 	})
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "❌ 烘焙失败: %v\n", err)
@@ -137,10 +148,11 @@ func main() {
 	// re-run the idempotent upserts once if points went missing. A second
 	// shortfall aborts the build: no crippled images.
 	ensureBakedCount(context.Background(), vecStore, embedder, knowledge.BakeConfig{
-		GzDir:      gzDir,
-		Collection: collection,
-		BatchSize:  batchSize,
-		Workers:    workers,
+		GzDir:        gzDir,
+		Collection:   collection,
+		BatchSize:    batchSize,
+		Workers:      workers,
+		MaxTextChars: maxTextChars,
 	}, res.Points)
 }
 
@@ -178,8 +190,15 @@ func sscanfInt(arg, prefix string, dst *int) error {
 
 // embedderName reports which embedder will be used for bake.
 func embedderName(baseURL, apiKey, model string) string {
-	if baseURL != "" && apiKey != "" {
-		return model + " (remote)"
+	if baseURL != "" {
+		name := model
+		if name == "" {
+			name = "text-embedding-v3"
+		}
+		if apiKey != "" {
+			return name + " (remote)"
+		}
+		return name + " (local API)"
 	}
 	return "local-hash (offline, 1024d)"
 }

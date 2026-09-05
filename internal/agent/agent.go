@@ -64,7 +64,7 @@ func New(cfg *config.Config) (*Agent, error) {
 	var retriever knowledge.Retriever = keywordRetriever
 
 	if cfg.VectorStoreEnabled && cfg.EmbeddingEnabled {
-		embedder, embedErr := embedding.NewDefault(cfg.EmbeddingBaseURL, cfg.EmbeddingAPIKey, cfg.EmbeddingModel)
+		embedder, embedErr := embedding.NewDefault(cfg.EmbeddingBaseURL, cfg.EmbeddingAPIKey, cfg.EmbeddingModel, cfg.EmbeddingDimensions)
 		if embedErr != nil {
 			slog.Warn("Embedding provider unavailable; using keyword-only retrieval", "error", embedErr)
 		} else {
@@ -88,43 +88,17 @@ func New(cfg *config.Config) (*Agent, error) {
 	registry := tools.NewRegistry()
 	router := tools.NewRouter()
 
-	// Register all medical tools
+	// Register unified tools (8 total: 6 action + 2 unified retrieval/lookup).
+	// Action tools — computation / cross-reference, not replaceable by RAG.
 	registry.Register(tools.NewDrugSafetyCheck(store))
 	registry.Register(tools.NewGeneticRiskCalculator(store))
 	registry.Register(tools.NewFoodRiskAnalyzer(store))
 	registry.Register(tools.NewSymptomTriage(store))
-	registry.Register(tools.NewReferenceLookup(store))
-	registry.Register(tools.NewLiteratureSearch(store))
-	registry.Register(tools.NewMSDSearch(store))
-	registry.Register(tools.NewVariantLookup(store))
-	registry.Register(tools.NewMedlineSearch(store))
-	registry.Register(tools.NewDrugLookup(store))
-	registry.Register(tools.NewEMLLookup(store))
-	registry.Register(tools.NewDrugLabelLookup(store))
-	registry.Register(tools.NewNhcSearch(store))
-	registry.Register(tools.NewFhsSearch(store))
-	registry.Register(tools.NewAapSearch(store))
-	registry.Register(tools.NewGrowthAssessment(store))
-	registry.Register(tools.NewMilestoneLookup(store))
-	registry.Register(tools.NewNewbornCareLookup(store))
-	registry.Register(tools.NewLabInterpreter())
-	registry.Register(tools.NewICD10Lookup(store))
-	registry.Register(tools.NewNMPADrugLookup(store))
-	registry.Register(tools.NewMedicalKGLookup(store))
-	registry.Register(tools.NewDiseaseEncyclopediaLookup(store))
-	registry.Register(tools.NewCPubMedKGLookup(store))
-	registry.Register(tools.NewHuatuoQALookupTool(store))
-	registry.Register(tools.NewMedicalQALookupTool(store))
-	registry.Register(tools.NewTTDLookupTool(store))
 	registry.Register(tools.NewDrugInteractionCheckTool(store))
-	registry.Register(tools.NewDiseaseSymptomLookupTool(store))
-	registry.Register(tools.NewTargetDiseaseLookupTool(store))
-	registry.Register(tools.NewDiseaseDrugLookupTool(store))
-	registry.Register(tools.NewSIDERLookupTool(store))
-	registry.Register(tools.NewTriageDepartmentTool(store))
-	registry.Register(tools.NewBodyPartLookup(store))
-	registry.Register(tools.NewLabReportInterpretTool(store))
 	registry.Register(tools.NewMedicalImageAnalyze(provider))
+	// Unified retrieval / lookup — replace ~28 retired specialized tools.
+	registry.Register(tools.NewKnowledgeSearch(store, retriever))
+	registry.Register(tools.NewExactLookup(store))
 
 	postVerifier := safety.NewPostVerifier(store.GetReferenceIndex())
 	if cfg.JudgeEnabled {
@@ -321,7 +295,10 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 
 	// Route: select only relevant tools based on query classification.
 	// This reduces the LLM's decision space from 35 to <=10 tools.
-	selectedToolNames := a.router.ClassifyKG(userMessage, a.store)
+	var selectedToolNames []string
+	if a.router != nil {
+		selectedToolNames = a.router.ClassifyKG(userMessage, a.store)
+	}
 	slog.Debug("Tool routing (KG-guided)", "query", userMessage, "selected", selectedToolNames)
 
 	toolDescs := a.registry.GetToolDescriptionsByNames(selectedToolNames)
@@ -630,7 +607,10 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 	}
 
 	// Route: select only relevant tools via KG-guided classification.
-	selectedToolNames := a.router.ClassifyKG(userMessage, a.store)
+	var selectedToolNames []string
+	if a.router != nil {
+		selectedToolNames = a.router.ClassifyKG(userMessage, a.store)
+	}
 	// When images are attached, always include the image analysis tool.
 	if len(images) > 0 {
 		hasImageTool := false

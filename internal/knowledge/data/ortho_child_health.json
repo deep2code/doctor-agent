@@ -17,8 +17,10 @@
   ],
   "treatment": [
    {
-    "name": "初筛",
-    "details": "1岁以内婴儿期4次，1至3岁幼儿期4次，学龄前期3次"
+    "method": "初筛",
+    "indication": "",
+    "evidence_level": "",
+    "notes": "1岁以内婴儿期4次，1至3岁幼儿期4次，学龄前期3次"
    }
   ],
   "when_to_seek_care": [
@@ -44,13 +46,22 @@
    "兴趣狭隘",
    "行为重复刻板",
    "儿童健康",
-   "Autism Screening",
-   "Early Detection",
-   "11 Screenings",
-   "Social Communication Disorder",
-   "Narrowed Interests",
-   "Repetitive and Stereotyped Behavior",
-   "Child Health"
+   "Autism",
+   "Screening",
+   "Early",
+   "Detection",
+   "Screenings",
+   "Social",
+   "Communication",
+   "Disorder",
+   "Narrowed",
+   "Interests",
+   "Repetitive",
+   "and",
+   "Stereotyped",
+   "Behavior",
+   "Child",
+   "Health"
   ]
  },
  {
@@ -60,7 +71,18 @@
   "category": "child_health",
   "diagnosis": {
    "clinical_features": [
-    "3月：对很大声音没有反应，逗引时不发音或不会微笑，不会伸手抓物，不注视人脸，不追视移动人或物品，俯卧时不会抬头，不能扶坐；6月：发音少，不会笑出声，不会区分生人和熟人，不会模仿“再见”或“欢迎”动作，不会伸手抓物，不会用拇食指对捏小物品，不会独坐，不会扶物站立；8月：听到声音无应答；12月：呼唤名字无反应，不会区分生人和熟人，不会模仿“再见”或“欢迎”动作，不会双手间传递玩具，不会用拇食指对捏小物品，不会独坐，不会扶物站立；18月：不会有意识叫“爸爸”或“妈妈”；24月：不会说3个物品的名称，不会按要求指人或物，不会按吩咐做简单事情，与人无目光交流，不会用勺吃饭，不会独走，不会扶栏上楼梯/台阶；30月：不会说2—3个字的短语；36月：不会说自己的名字，兴趣单一、刻板，不会示意大小便，不会模仿画圆，不会跑，不会双脚跳；4岁：不会说带形容词的句子；5岁：不能简单叙说事情经过，不能按要求等待或轮流，不知道自己的性别，不会独立穿衣，不会用筷子吃饭，不会单脚站立，不会单脚跳；6岁：不会表达自己的感受或想法，不会玩角色扮演的集体游戏，不会画方形，不会奔跑"
+    "3月龄:对很大声音没有反应/逗引时不发音或不会微笑/不注视人脸、不追视移动人或物品/俯卧时不会抬头",
+    "6月龄:发音少不会笑出声/不会伸手抓物/紧握拳松不开/不能扶坐",
+    "8月龄:听到声音无应答/不会区分生人和熟人/双手间不会传递玩具/不会独坐",
+    "12月龄:呼唤名字无反应/不会模仿再见或欢迎动作/不会用拇食指对捏小物品/不会扶物站立",
+    "18月龄:不会有意识叫爸爸妈妈/不会按要求指人或物/与人无目光交流/不会独走",
+    "24月龄:不会说3个物品的名称/不会按吩咐做简单事情/不会用勺吃饭/不会扶栏上楼梯台阶",
+    "30月龄:不会说2-3个字的短语/兴趣单一刻板/不会示意大小便/不会跑",
+    "36月龄:不会说自己的名字/不会玩拿棍当马骑等假想游戏/不会模仿画圆/不会双脚跳",
+    "4岁:不会说带形容词的句子/不能按要求等待或轮流/不会独立穿衣/不会单脚站立",
+    "5岁:不能简单叙说事情经过/不知道自己的性别/不会用筷子吃饭/不会单脚跳",
+    "6岁:不会表达自己的感受或想法/不会玩角色扮演的集体游戏/不会画方形/不会奔跑",
+    "任何一条预警征象阳性提示发育偏异可能,应转诊复筛"
    ]
   },
   "risk_factors": [
@@ -92,13 +114,34 @@
    "社交沟通障碍",
    "兴趣狭隘",
    "行为重复刻板",
-   "Child Psychological and Behavioral Development",
-   "Warning Signs",
-   "Age Grouping",
-   "Social Communication Disorder",
-   "Narrowed Interests",
-   "Repetitive and Stereotyped Behavior",
-   "Child Health"
+   "Child",
+   "Psychological",
+   "and",
+   "Behavioral",
+   "Development",
+   "Warning",
+   "Signs",
+   "Age",
+   "Grouping",
+   "Social",
+   "Communication",
+   "Disorder",
+   "Narrowed",
+   "Interests",
+   "Repetitive",
+   "Stereotyped",
+   "Behavior",
+   "Health",
+   "不会说话",
+   "不理人",
+   "叫名字没反应",
+   "自闭症",
+   "语言发育落后",
+   "目光对视差",
+   "发育落后",
+   "孩子不交流",
+   "孤独症表现",
+   "autism"
   ]
  },
  {
@@ -141,14 +184,19 @@
    "病史询问",
    "孤独症筛查量表",
    "发育量表",
-   "Child Health",
+   "Child",
+   "Health",
    "Re-screening",
    "Diagnosis",
    "Referral",
-   "Initial Screening Abnormality",
-   "Medical History",
-   "Autism Screening Scale",
-   "Developmental Scale"
+   "Initial",
+   "Screening",
+   "Abnormality",
+   "Medical",
+   "History",
+   "Autism",
+   "Scale",
+   "Developmental"
   ]
  },
  {
@@ -191,14 +239,19 @@
    "长程高强度",
    "基层为主",
    "家庭参与",
-   "Child Health",
-   "Intervention and Rehabilitation",
-   "Early Intervention",
-   "Individualized Intervention",
+   "Child",
+   "Health",
+   "Intervention",
+   "and",
+   "Rehabilitation",
+   "Early",
+   "Individualized",
    "Evidence-Based",
-   "Long-term Intensive",
+   "Long-term",
+   "Intensive",
    "Community-Based",
-   "Family Involvement"
+   "Family",
+   "Involvement"
   ]
  },
  {
@@ -236,13 +289,23 @@
   "keywords": [
    "家长健康教育",
    "孤独症基本知识",
-   "筛查、诊断、干预措施",
+   "筛查",
+   "诊断",
+   "干预措施",
    "科学知识知晓率",
-   "Child Health",
-   "Parental Health Education",
-   "Autism Basic Knowledge",
-   "Screening, Diagnosis, Intervention Measures",
-   "Scientific Knowledge Awareness"
+   "Child",
+   "Health",
+   "Parental",
+   "Education",
+   "Autism",
+   "Basic",
+   "Knowledge",
+   "Screening",
+   "Diagnosis",
+   "Intervention",
+   "Measures",
+   "Scientific",
+   "Awareness"
   ]
  }
 ]

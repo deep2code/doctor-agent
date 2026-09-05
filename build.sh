@@ -13,9 +13,10 @@ cd "$(dirname "$0")"
 #
 # 双镜像架构:
 #   doctor-agent         Go 源码 + 前端        → 代码变化才更新
-#   doctor-agent-qdrant  gz 知识库+Qdrant+向量 → 知识库变化才更新
-#                          (烘焙工具 cmd/vector-bake 在镜像内自行编译，
-#                           不依赖 app 镜像)
+#   doctor-agent-qdrant  Qdrant + 烘好的向量    → 知识库变化才更新
+#   macOS 流程: 有 qdrant-storage 产物 → 直接打包; 无 → bake-local.sh 本机烘焙 → 打包
+#               (有产物时不提供强制重烘选项; 要重烘先手动删产物或跑 bake-local.sh)
+#   Linux  流程: Dockerfile.qdrant 内编译+烘焙(FNV hash)
 # ============================================================================
 
 MODE="${1:-app}"
@@ -45,7 +46,7 @@ QDRANT_IMAGE="${REGISTRY}/doctor-agent-qdrant:latest"
 build_app() {
   echo "[app] 构建应用镜像（Go 源码 + 前端，.dockerignore 排除 gz）..."
 
-  docker build --platform linux/amd64 \
+  docker build --progress=plain --platform linux/amd64 \
     --pull=false \
     --build-arg GIT_COMMIT="${GIT_COMMIT}" \
     --build-arg BUILD_TIME="${BUILD_TIME}" \
@@ -57,17 +58,70 @@ build_app() {
 }
 
 build_qdrant() {
-  echo "[qdrant] 构建 RAG 镜像（根目录构建：gz 知识库 + Qdrant + 烘好的向量）..."
+  echo "[qdrant] 构建 RAG 镜像..."
   if [[ ! -d "internal/knowledge/gz" ]] || [[ -z "$(ls internal/knowledge/gz/*.json.*z* 2>/dev/null)" ]]; then
     echo "  错误: internal/knowledge/gz 为空，先运行 python3 external/make_gz.py 生成知识库压缩包"
     exit 1
   fi
-  docker build --platform linux/amd64 \
-    --pull=false \
-    -t "$QDRANT_IMAGE" \
-    -f Dockerfile.qdrant \
-    --provenance false \
-    .
+
+  # macOS：本机烘焙 + slim 镜像打包（全量真向量，不省资源）
+  #
+  # 两步流程：
+  #   1. bake-local.sh — Mac 本机直跑 vector-bake，直连 localhost:11434
+  #      （无 Docker 网络开销），OLLAMA_NUM_PARALLEL=8 + workers=8 + batch=128，
+  #      bake.go 按文本长度排序消除 padding 浪费。
+  #      全部 743k 条数据用 bge-m3 生成真实语义向量（不跳过任何数据集）。
+  #   2. Dockerfile.qdrant.slim — 只 COPY 预烘焙 storage 到 Qdrant 基础镜像
+  #      （~30 秒纯 COPY，无编译无烘焙）。
+  #
+  # 对比旧方案（Docker 内烘焙）：
+  #   - 消除 host.docker.internal 网络开销
+  #   - 消除 BuildKit 输出缓冲（看不到进度）
+  #   - 消除 Docker 内存限制（16GB 全可用）
+  #   - 文本长度排序 3-5x 加速（padding 浪费消除）
+  #   - OLLAMA_NUM_PARALLEL=8 embedding 并发（无 KV cache，几乎零额外内存）
+  if [[ "$(uname -s)" == "Darwin" ]]; then
+    echo "  macOS → RAG 镜像（有烘焙产物直接打包，无产物才本机烘焙）"
+
+    # Step 1: 烘焙产物检测 — 有产物直接打包，不允许强制重烘
+    #   ./build.sh qdrant    本机已有 qdrant-storage → 直接打包；没有 → 本机烘焙
+    if [[ -d "qdrant-storage/collections/medical_knowledge" ]]; then
+      echo "  [1/2] 检测到已有烘焙产物 → 跳过烘焙，直接打包"
+    else
+      echo "  [1/2] 无烘焙产物，本机烘焙..."
+      # 传递 BAKE_RECREATE 和自定义参数
+      export EMBEDDING_MODEL="${EMBEDDING_MODEL:-bge-m3}"
+      export BAKE_WORKERS="${BAKE_WORKERS:-8}"
+      export BAKE_BATCH_SIZE="${BAKE_BATCH_SIZE:-128}"
+      ./bake-local.sh
+
+      # 检查烘焙产物
+      if [[ ! -d "qdrant-storage" ]] || [[ -z "$(ls qdrant-storage/ 2>/dev/null)" ]]; then
+        echo "  错误: 烘焙产物 qdrant-storage/ 为空"
+        exit 1
+      fi
+    fi
+
+    # Step 2: slim 镜像打包（只 COPY storage）
+    echo "  [2/2] 打包 slim 镜像（Dockerfile.qdrant.slim）..."
+    docker build --progress=plain --platform linux/amd64 \
+      --pull=false \
+      -t "$QDRANT_IMAGE" \
+      -f Dockerfile.qdrant.slim \
+      --provenance false \
+      .
+
+    # 清理本机烘焙产物（镜像已包含 storage）
+    rm -rf qdrant-storage
+  else
+    echo "  Linux → Docker 内烘焙（FNV hash 离线 embedding，无 Ollama）"
+    docker build --progress=plain --platform linux/amd64 \
+      --pull=false \
+      -t "$QDRANT_IMAGE" \
+      -f Dockerfile.qdrant \
+      --provenance false \
+      .
+  fi
 }
 
 push_image() {

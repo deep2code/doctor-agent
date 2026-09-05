@@ -76,3 +76,9 @@ external/eml/
 .workbuddy/
 remote-deploy.sh
 .dumate/
+
+# bake-local.sh 产物（烘焙后 COPY 进 Docker 镜像，不需要版本管理）
+qdrant-storage/
+
+# 本机 ONNX 导出产物（bge-m3 fp32 约 2.3GB，external/export_onnx.py 生成）
+bge-m3-onnx/

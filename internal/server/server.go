@@ -1180,7 +1180,7 @@ func (s *Server) handleAdminSync(w http.ResponseWriter, r *http.Request) {
 		}
 	}()
 
-	embedder, err := embedding.NewDefault(s.cfg.EmbeddingBaseURL, s.cfg.EmbeddingAPIKey, s.cfg.EmbeddingModel)
+	embedder, err := embedding.NewDefault(s.cfg.EmbeddingBaseURL, s.cfg.EmbeddingAPIKey, s.cfg.EmbeddingModel, s.cfg.EmbeddingDimensions)
 	if err != nil {
 		writeJSON(w, http.StatusInternalServerError, map[string]any{
 			"error": fmt.Sprintf("failed to init embedding: %v", err),

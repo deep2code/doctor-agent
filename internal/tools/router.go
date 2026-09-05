@@ -26,50 +26,43 @@ const (
 )
 
 // toolGroups maps each category to relevant tool names.
-// Each group is capped at ~8 tools to prevent LLM decision paralysis.
+// With the unified 8-tool set, routing selects which action tools and
+// unified retrieval/lookup tools are most relevant to the query domain.
 var toolGroups = map[QueryCategory][]string{
 	CatDrug: {
-		"drug_safety_check", "drug_lookup", "drug_interaction_check",
-		"eml_lookup", "nmpa_drug_lookup", "drug_label_lookup",
-		"sider_lookup", "disease_drug_lookup",
+		"drug_safety_check", "drug_interaction_check",
+		"exact_lookup", "knowledge_search",
 	},
 	CatSymptom: {
-		"symptom_triage", "triage_department", "body_part_lookup",
-		"disease_symptom_lookup", "disease_encyclopedia_lookup",
-		"msd_search", "huatuo_qa_lookup",
+		"symptom_triage", "knowledge_search",
 	},
 	CatGenetic: {
-		"genetic_risk_calculator", "variant_lookup",
-		"drug_safety_check", "food_risk_analyzer",
+		"genetic_risk_calculator", "drug_safety_check",
+		"food_risk_analyzer", "exact_lookup",
 	},
 	CatLab: {
-		"lab_interpreter", "lab_report_interpret", "icd10_lookup",
+		"knowledge_search", "exact_lookup",
 	},
 	CatChildcare: {
-		"fhs_search", "aap_search", "growth_assessment",
-		"milestone_lookup", "newborn_care_lookup", "nhc_search",
+		"knowledge_search",
 	},
 	CatDisease: {
-		"disease_encyclopedia_lookup", "medical_kg_lookup",
-		"cpubmed_kg_lookup", "icd10_lookup", "msd_search",
-		"nhc_search", "target_disease_lookup", "disease_symptom_lookup",
+		"knowledge_search", "exact_lookup", "symptom_triage",
 	},
 	CatLitera: {
-		"literature_search", "medline_search", "reference_lookup",
-		"huatuo_qa_lookup", "medical_qa_lookup",
+		"knowledge_search",
 	},
 	CatImage: {
 		"medical_image_analyze",
 	},
 	CatGeneral: {
-		"symptom_triage", "disease_encyclopedia_lookup", "msd_search",
-		"drug_safety_check", "icd10_lookup", "huatuo_qa_lookup",
+		"knowledge_search", "symptom_triage", "drug_safety_check",
 	},
 }
 
 // Router classifies user queries and selects a relevant tool subset.
-// This prevents the LLM from seeing all 35 tools at once, which causes
-// decision paralysis and tool-call loops.
+// With only 8 tools, routing is lightweight: it ensures the LLM sees the
+// most relevant action tools + unified retrieval for the query domain.
 type Router struct {
 	keywords map[QueryCategory][]string
 }
@@ -123,8 +116,8 @@ func NewRouter() *Router {
 }
 
 // ClassifyMulti determines which tool groups are relevant to the query.
-// It merges tools from all matched categories, deduplicates, and caps at 10.
-// Falls back to CatGeneral (6 core tools) when no keywords match.
+// It merges tools from all matched categories, deduplicates, and caps at 8.
+// Falls back to CatGeneral when no keywords match.
 func (r *Router) ClassifyMulti(query string) []string {
 	q := strings.ToLower(query)
 
@@ -154,9 +147,9 @@ func (r *Router) ClassifyMulti(query string) []string {
 		}
 	}
 
-	// Cap at 10 tools to keep the LLM decision space manageable.
-	if len(result) > 10 {
-		result = result[:10]
+	// Cap at 8 tools to keep the LLM decision space manageable.
+	if len(result) > 8 {
+		result = result[:8]
 	}
 
 	if len(result) == 0 {
@@ -185,22 +178,24 @@ func ParamsHash(toolName string, args map[string]any) string {
 //
 //   Level 2: for each disease candidate, inspect available KG relations
 //            (recommand_drug, need_check, belong_department, ...) → map
-//            relation types to tool groups → merge and cap at 10.
+//            relation types to tool groups → merge and cap at 8.
 //
 // Falls back to keyword-based ClassifyMulti when KG lookup yields nothing.
 
-// relationToTools maps OpenCMKG relation types to relevant tool groups.
+// relationToTools maps OpenCMKG relation types to relevant tools.
+// With the unified 8-tool set, KG relations map to action tools + unified
+// retrieval rather than individual specialized tools.
 var relationToTools = map[string][]string{
-	"disease_has_symptom":     {"symptom_triage", "disease_symptom_lookup", "disease_encyclopedia_lookup"},
-	"disease_recommand_drug":  {"drug_safety_check", "drug_lookup", "drug_interaction_check", "eml_lookup", "disease_drug_lookup"},
-	"disease_common_drug":     {"drug_safety_check", "drug_lookup", "nmpa_drug_lookup", "sider_lookup", "disease_drug_lookup"},
+	"disease_has_symptom":     {"symptom_triage", "knowledge_search"},
+	"disease_recommand_drug":  {"drug_safety_check", "drug_interaction_check", "knowledge_search"},
+	"disease_common_drug":     {"drug_safety_check", "drug_interaction_check", "exact_lookup", "knowledge_search"},
 	"disease_recommand_food":  {"food_risk_analyzer"},
 	"disease_noteat_food":     {"food_risk_analyzer"},
 	"disease_eat_food":        {"food_risk_analyzer"},
-	"disease_need_check":      {"lab_interpreter", "lab_report_interpret", "icd10_lookup"},
-	"disease_need_treatment": {"disease_encyclopedia_lookup", "nhc_search", "msd_search"},
-	"disease_belong_department": {"triage_department", "body_part_lookup"},
-	"disease_acompany_disease": {"disease_encyclopedia_lookup", "medical_kg_lookup", "cpubmed_kg_lookup"},
+	"disease_need_check":      {"knowledge_search", "exact_lookup"},
+	"disease_need_treatment": {"knowledge_search"},
+	"disease_belong_department": {"symptom_triage", "knowledge_search"},
+	"disease_acompany_disease": {"knowledge_search"},
 }
 
 // symptomVocabulary is a broader symptom lexicon for KG routing, extending
@@ -226,9 +221,12 @@ var symptomVocabulary = []string{
 //   1. Extract symptom keywords from query.
 //   2. Reverse-lookup disease candidates via store.FindDiseasesBySymptom.
 //   3. For top disease candidates, inspect KG relations → map to tools.
-//   4. Merge, deduplicate, cap at 10.
+//   4. Merge, deduplicate, cap at 8.
 // Returns tool names; falls back to ClassifyMulti when KG yields nothing.
 func (r *Router) ClassifyKG(query string, store *knowledge.Store) []string {
+	if store == nil {
+		return r.ClassifyMulti(query)
+	}
 	q := strings.ToLower(query)
 
 	// --- Level 1: symptom → disease candidates ---
@@ -294,7 +292,7 @@ func (r *Router) ClassifyKG(query string, store *knowledge.Store) []string {
 
 	// Always include core tools for any medical query.
 	coreTools := []string{
-		"disease_encyclopedia_lookup", "medical_kg_lookup", "msd_search",
+		"knowledge_search", "exact_lookup",
 	}
 	for _, t := range coreTools {
 		if !seen[t] {
@@ -322,7 +320,7 @@ func (r *Router) ClassifyKG(query string, store *knowledge.Store) []string {
 		enc := store.GetDiseaseEncyclopedia(disease)
 		if enc != nil {
 			if len(enc.CommonDrugs) > 0 || len(enc.RecommendedDrugs) > 0 {
-				for _, t := range []string{"drug_safety_check", "drug_lookup", "disease_drug_lookup"} {
+				for _, t := range []string{"drug_safety_check", "drug_interaction_check", "exact_lookup"} {
 					if !seen[t] {
 						seen[t] = true
 						result = append(result, t)
@@ -330,11 +328,13 @@ func (r *Router) ClassifyKG(query string, store *knowledge.Store) []string {
 				}
 			}
 			if len(enc.DiagnosticTests) > 0 {
-				for _, t := range []string{"lab_interpreter", "icd10_lookup"} {
-					if !seen[t] {
-						seen[t] = true
-						result = append(result, t)
-					}
+				if !seen["knowledge_search"] {
+					seen["knowledge_search"] = true
+					result = append(result, "knowledge_search")
+				}
+				if !seen["exact_lookup"] {
+					seen["exact_lookup"] = true
+					result = append(result, "exact_lookup")
 				}
 			}
 			if len(enc.FoodsToAvoid) > 0 || len(enc.RecommendedFoods) > 0 {
@@ -344,21 +344,21 @@ func (r *Router) ClassifyKG(query string, store *knowledge.Store) []string {
 				}
 			}
 			if len(enc.TreatmentDepartments) > 0 {
-				if !seen["triage_department"] {
-					seen["triage_department"] = true
-					result = append(result, "triage_department")
+				if !seen["symptom_triage"] {
+					seen["symptom_triage"] = true
+					result = append(result, "symptom_triage")
 				}
 			}
 		}
 
-		// Cap at 10 tools to keep the LLM decision space manageable.
-		if len(result) >= 10 {
+		// Cap at 8 tools to keep the LLM decision space manageable.
+		if len(result) >= 8 {
 			break
 		}
 	}
 
-	if len(result) > 10 {
-		result = result[:10]
+	if len(result) > 8 {
+		result = result[:8]
 	}
 
 	if len(result) == 0 {

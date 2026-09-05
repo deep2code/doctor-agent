@@ -42,14 +42,33 @@ EXTRA = {
     "menopause-2025": {
         "append_keywords": ["更年期", "绝经", "围绝经期", "潮热", "盗汗", "脾气暴躁", "menopause"],
     },
-    "disability-prevention": {
-        "append_keywords": ["老年失能", "失能老人", "卧床老人", "照护老人", "elderly disability"],
+    "disability-prevention-2019-4": {
+        "append_keywords": ["老人疫苗", "老年人打疫苗", "打疫苗", "疫苗", "预防肺炎", "老人接种"],
+    },
+    "elderly-dietary": {
+        "append_keywords": ["老人营养", "老年营养", "吃饭没胃口", "肌肉流失", "肌少症",
+                            "吃不下饭", "没食欲", "不爱吃饭", "消瘦", "体重下降", "营养不良"],
+    },
+    "autism-screening-2022-2": {
+        "append_keywords": ["不会说话", "不理人", "叫名字没反应", "自闭症", "语言发育落后",
+                            "目光对视差", "发育落后", "孩子不交流", "孤独症表现", "autism"],
+        "patch": {"diagnosis": {"clinical_features": [
+            "3月龄:对很大声音没有反应/逗引时不发音或不会微笑/不注视人脸、不追视移动人或物品/俯卧时不会抬头",
+            "6月龄:发音少不会笑出声/不会伸手抓物/紧握拳松不开/不能扶坐",
+            "8月龄:听到声音无应答/不会区分生人和熟人/双手间不会传递玩具/不会独坐",
+            "12月龄:呼唤名字无反应/不会模仿再见或欢迎动作/不会用拇食指对捏小物品/不会扶物站立",
+            "18月龄:不会有意识叫爸爸妈妈/不会按要求指人或物/与人无目光交流/不会独走",
+            "24月龄:不会说3个物品的名称/不会按吩咐做简单事情/不会用勺吃饭/不会扶栏上楼梯台阶",
+            "30月龄:不会说2-3个字的短语/兴趣单一刻板/不会示意大小便/不会跑",
+            "36月龄:不会说自己的名字/不会玩拿棍当马骑等假想游戏/不会模仿画圆/不会双脚跳",
+            "4岁:不会说带形容词的句子/不能按要求等待或轮流/不会独立穿衣/不会单脚站立",
+            "5岁:不能简单叙说事情经过/不知道自己的性别/不会用筷子吃饭/不会单脚跳",
+            "6岁:不会表达自己的感受或想法/不会玩角色扮演的集体游戏/不会画方形/不会奔跑",
+            "任何一条预警征象阳性提示发育偏异可能,应转诊复筛",
+        ]}},
     },
     "alzheimer": {
         "append_keywords": ["老年痴呆", "失智症", "记性变差", "认知下降", "Alzheimer"],
-    },
-    "elderly-dietary": {
-        "append_keywords": ["老人营养", "老年营养", "吃饭没胃口", "肌肉流失", "肌少症"],
     },
     "osteoporosis": {
         "append_keywords": ["骨松", "骨头脆", "驼背", "一摔就骨折", "osteoporosis"],
@@ -82,7 +101,13 @@ def split_keywords(kws: list[str]) -> list[str]:
     out = []
     for k in kws:
         parts = re.split(r"[、,，;；\s]+", k.strip())
-        out.extend(p for p in parts if len(p) >= 2)
+        for p in parts:
+            if len(p) < 2:
+                continue
+            # drop bare English stopwords from LLM phrase splitting
+            if p.isascii() and len(p) < 3 and p.lower() not in ("hpv", "tct"):
+                continue
+            out.append(p)
     return list(dict.fromkeys(out))
 
 

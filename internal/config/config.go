@@ -38,9 +38,10 @@ type Config struct {
 	QdrantPort       int
 
 	// Embedding
-	EmbeddingProvider string // "deepseek", "voyage", or "" (no embedding)
-	EmbeddingModel    string
-	VoyageAPIKey      string
+	EmbeddingProvider   string // "deepseek", "voyage", or "" (no embedding)
+	EmbeddingModel      string
+	EmbeddingDimensions int // 0 = API default; 1024 forces 1024 for embedding-3-pro
+	VoyageAPIKey        string
 
 	// Safety
 	EmergencyEnabled  bool
@@ -124,9 +125,10 @@ func Load() *Config {
 		QdrantHost:       getEnv("QDRANT_HOST", "localhost"),
 		QdrantPort:       getEnvInt("QDRANT_PORT", 6334),
 
-		EmbeddingProvider: getEnv("EMBEDDING_PROVIDER", ""),
-		EmbeddingModel:    getEnv("EMBEDDING_MODEL", "voyage-multilingual-2"),
-		VoyageAPIKey:      getEnv("VOYAGE_API_KEY", ""),
+		EmbeddingProvider:   getEnv("EMBEDDING_PROVIDER", ""),
+		EmbeddingModel:      getEnv("EMBEDDING_MODEL", "bge-m3"),
+		EmbeddingDimensions: getEnvInt("EMBEDDING_DIMENSIONS", 0),
+		VoyageAPIKey:        getEnv("VOYAGE_API_KEY", ""),
 
 		EmergencyEnabled:  getEnvBool("EMERGENCY_DETECTION_ENABLED", true),
 		ScopeGuardEnabled: getEnvBool("SCOPE_GUARD_ENABLED", true),

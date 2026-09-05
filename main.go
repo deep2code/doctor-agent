@@ -142,9 +142,12 @@ Vector Database:
 
 Embedding:
   EMBEDDING_ENABLED                Enable embedding service (default: true)
-  EMBEDDING_BASE_URL               Embedding API base URL (empty = in-process local embedder)
-  EMBEDDING_API_KEY                Embedding API key (empty = in-process local embedder)
-  EMBEDDING_MODEL                  Embedding model (default: text-embedding-v3)
+  EMBEDDING_BASE_URL               Embedding API base URL (empty = in-process local hash embedder)
+                                   Ollama local: http://localhost:11434/v1
+                                   Zhipu remote: https://open.bigmodel.cn/api/paas/v4
+  EMBEDDING_API_KEY                Embedding API key (optional — local Ollama needs no key)
+  EMBEDDING_MODEL                  Embedding model (default: bge-m3; Zhipu: embedding-3-pro)
+  EMBEDDING_DIMENSIONS             Output dimensions (0 = API default; 1024 needed for embedding-3-pro)
 
 Sync Command:
   --full, -f                       Full sync (rebuild all vectors)
@@ -503,7 +506,7 @@ func runSyncKnowledge(cfg *config.Config) {
 	// Initialize embedding provider (defaults to the in-process local provider
 	// when no remote credentials are configured, so sync works fully offline).
 	fmt.Println("🔗 初始化嵌入服务...")
-	embedder, err := embedding.NewDefault(cfg.EmbeddingBaseURL, cfg.EmbeddingAPIKey, cfg.EmbeddingModel)
+	embedder, err := embedding.NewDefault(cfg.EmbeddingBaseURL, cfg.EmbeddingAPIKey, cfg.EmbeddingModel, cfg.EmbeddingDimensions)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "❌ 嵌入服务初始化失败: %v\n", err)
 		return

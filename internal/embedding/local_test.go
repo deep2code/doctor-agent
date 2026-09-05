@@ -65,11 +65,24 @@ func TestLocalProviderSimilarity(t *testing.T) {
 
 func TestNewDefaultFallsBackToLocal(t *testing.T) {
 	// No remote credentials -> local provider.
-	p, err := NewDefault("", "", "")
+	p, err := NewDefault("", "", "", 0)
 	if err != nil {
 		t.Fatalf("NewDefault: %v", err)
 	}
 	if p.Name() != "local-hash" {
 		t.Fatalf("expected local-hash, got %s", p.Name())
+	}
+}
+
+func TestNewDefaultWithBaseURLOnly(t *testing.T) {
+	// baseURL set but no apiKey (e.g. local Ollama) -> OpenAICompat provider.
+	// We can't actually call it without a running server, but the constructor
+	// should succeed and Name should reflect the model.
+	p, err := NewDefault("http://localhost:11434/v1", "", "bge-m3", 0)
+	if err != nil {
+		t.Fatalf("NewDefault with baseURL only: %v", err)
+	}
+	if p.Name() != "openai-compat:bge-m3" {
+		t.Fatalf("expected openai-compat:bge-m3, got %s", p.Name())
 	}
 }

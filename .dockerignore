@@ -39,3 +39,5 @@ docs/
 .github/
 
 # RAG 镜像有自己的 Dockerfile.qdrant + 专属白名单 dockerignore，不受本文件影响
+# bake-local.sh 烘焙产物（只给 Dockerfile.qdrant.slim 用，slim 有专属白名单放行）
+qdrant-storage/

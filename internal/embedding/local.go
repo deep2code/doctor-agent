@@ -62,15 +62,25 @@ func (p *LocalProvider) EmbedBatch(texts []string) ([][]float32, error) {
 	return out, nil
 }
 
-// NewDefault selects an embedding provider: an OpenAI-compatible remote provider
-// when both BaseURL and APIKey are configured, otherwise the in-process local
-// provider (no model, no network). This lets sync and retrieval work offline by
-// default while still supporting a real embedding model when credentials exist.
-func NewDefault(baseURL, apiKey, model string) (Provider, error) {
-	if baseURL != "" && apiKey != "" {
-		return NewOpenAICompat(Config{BaseURL: baseURL, APIKey: apiKey, Model: model})
+// NewDefault selects an embedding provider: an OpenAI-compatible provider
+// when baseURL is configured (apiKey optional — local services like Ollama
+// need no key), otherwise the in-process local hash provider (no model, no
+// network). dimensions >0 requests a specific output dimension (needed for
+// Zhipu embedding-3-pro which defaults to 2048 but can return 1024).
+func NewDefault(baseURL, apiKey, model string, dimensions int) (Provider, error) {
+	if baseURL != "" {
+		return NewOpenAICompat(Config{
+			BaseURL:    baseURL,
+			APIKey:     apiKey,
+			Model:      model,
+			Dimensions: dimensions,
+		})
 	}
-	return NewLocal(LocalConfig{Dimensions: 1024})
+	dim := dimensions
+	if dim <= 0 {
+		dim = 1024
+	}
+	return NewLocal(LocalConfig{Dimensions: dim})
 }
 
 func l2Normalize(v []float32) {

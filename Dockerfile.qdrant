@@ -35,9 +35,16 @@
 #   （gz 知识源不在镜像内；如需关键词兜底可自行挂载外部 gz 目录）
 
 # syntax=docker/dockerfile:1
+#
+# 跨平台构建策略（2026-09-04）：
+#   build / datalayer / bake 阶段用 --platform=$BUILDPLATFORM（原生运行，
+#   Mac 上走 arm64 不经 QEMU，烘焙 ~743k 点快几十倍）。
+#   final 阶段不加 --platform（默认 $TARGETPLATFORM = linux/amd64）。
+#   Qdrant storage 是平台无关的二进制 segment 文件（float16 向量 + JSON
+#   payload），arm64 烘焙的 storage 可直接拷入 amd64 最终镜像。
 
 # ---------- stage 1: 编译独立烘焙工具 ./cmd/vector-bake（不依赖 app 镜像） ----------
-FROM golang:1.26-alpine AS build
+FROM --platform=$BUILDPLATFORM golang:1.26-alpine AS build
 
 RUN sed -i 's#dl-cdn.alpinelinux.org#mirrors.aliyun.com#g' /etc/apk/repositories \
     && apk add --no-cache ca-certificates git
@@ -62,29 +69,52 @@ RUN --mount=type=cache,target=/go/pkg/mod \
 
 # ---------- stage 2: 数据层（纯 gz 知识库，alpine） ----------
 # 仅作为 stage 3 烘焙的输入；不进入最终镜像（向量已固化，运行时不需要 gz）。
-FROM alpine:3.20 AS datalayer
+FROM --platform=$BUILDPLATFORM alpine:3.20 AS datalayer
 RUN sed -i 's#dl-cdn.alpinelinux.org#mirrors.aliyun.com#g' /etc/apk/repositories \
     && apk add --no-cache ca-certificates
 COPY internal/knowledge/gz /opt/knowledge/gz
 
 # ---------- stage 3: 烘焙（构建期把 51 个 gz 灌入 Qdrant storage） ----------
-FROM qdrant/qdrant:v1.19.0 AS bake
+FROM --platform=$BUILDPLATFORM qdrant/qdrant:v1.19.0 AS bake
 
 COPY --from=build /out/vector-bake /usr/local/bin/vector-bake
 COPY --from=datalayer /opt/knowledge/gz /opt/knowledge/gz
+
+# Embedding 配置（构建期传入，build.sh 在 Mac 上自动设置）：
+#   默认空 → vector-bake 走本地 FNV hash（离线，无需外部服务）
+#   设了 BASE_URL → 走 OpenAI 兼容 API（如 Ollama bge-m3 真实向量）
+ARG EMBEDDING_BASE_URL=
+ARG EMBEDDING_API_KEY=
+ARG EMBEDDING_MODEL=
+ENV EMBEDDING_BASE_URL=${EMBEDDING_BASE_URL}
+ENV EMBEDDING_API_KEY=${EMBEDDING_API_KEY}
+ENV EMBEDDING_MODEL=${EMBEDDING_MODEL}
+
+# 烘焙参数（Mac 构建默认 4 worker + batch 64 → Ollama 并发 embedding。
+#   batch 不能太大：Ollama /v1/embeddings 把整个 input 数组 padding 到
+#   最长文本再算，batch 500 + 长短不一的医疗文本会把大量算力浪费在
+#   padding 上；配合 vector-bake 默认 1024 rune 截断，64 是吞吐甜点。
+#   低内存 Linux 构建机可 --build-arg BAKE_WORKERS=1 BAKE_BATCH_SIZE=100 回退）
+ARG BAKE_WORKERS=4
+ARG BAKE_BATCH_SIZE=64
+ARG BAKE_GOMEMLIMIT=2GiB
+# BAKE_RECREATE=1 → 烘焙前删除 collection，完全从零开始（默认增量覆盖）
+ARG BAKE_RECREATE=
 
 # vector-bake 默认走本地离线 hash embedding（1024 维），无需外部 API；
 # vector-bake 内部自带 Qdrant 就绪等待（最多 120s）。
 # 注: 新版 qdrant 镜像移除了 --storage-path CLI 参数，改用 env 配置
 #     （QDRANT__STORAGE__STORAGE_PATH 对新旧版本均有效）。
 # 内存优化（2026-09-02）：bake.go 改为流式处理（逐文件读取→处理→释放），
-#   不再一次性加载全部 gz 到内存；配合 GOMEMLIMIT=512MiB + GOGC=50
-#   压制 Go 堆增长，避免在 ~1.6GB RAM 构建机上 OOM（exit 137）。
+#   不再一次性加载全部 gz 到内存；配合 GOMEMLIMIT + GOGC=50
+#   压制 Go 堆增长，避免在低内存构建机上 OOM（exit 137）。
+# 并行加速（2026-09-04）：4 worker pool + batch 64 → Ollama
+#   并发 embedding + 单次处理更多文本 → ~15-20x 加速。
 RUN sh -c ' \
     echo "== starting qdrant for bake ==" && \
     QDRANT__STORAGE__STORAGE_PATH=/qdrant/storage /qdrant/qdrant & \
     QPID=$!; \
-    GOMEMLIMIT=512MiB GOGC=50 /usr/local/bin/vector-bake --src=/opt/knowledge/gz --host=127.0.0.1 --port=6334 --collection=medical_knowledge --workers=1 --wait-green=600; \
+    GOMEMLIMIT=${BAKE_GOMEMLIMIT} GOGC=50 /usr/local/bin/vector-bake --src=/opt/knowledge/gz --host=127.0.0.1 --port=6334 --collection=medical_knowledge --workers=${BAKE_WORKERS} --batch-size=${BAKE_BATCH_SIZE} ${BAKE_RECREATE:+--recreate} --wait-green=600; \
     RC=$?; \
     kill $QPID 2>/dev/null; wait $QPID 2>/dev/null; \
     echo "== clearing bake WAL (keep empty dirs; data already in segments) ==" && \

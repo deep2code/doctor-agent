@@ -77,6 +77,7 @@ func newTestAgent(cfg *config.Config, p llm.LLMProvider) *Agent {
 		provider:          p,
 		composer:          prompt.NewComposer(),
 		registry:          tools.NewRegistry(),
+		router:            tools.NewRouter(),
 		emergencyDetector: safety.NewEmergencyDetector(),
 		scopeGuard:        safety.NewScopeGuard(),
 		disclaimerService: safety.NewDisclaimerService(),

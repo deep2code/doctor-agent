@@ -8,6 +8,8 @@ import (
 	"path/filepath"
 	"runtime"
 	"sort"
+	"sync"
+	"sync/atomic"
 	"time"
 
 	"github.com/doctor-agent/internal/embedding"
@@ -21,7 +23,13 @@ type BakeConfig struct {
 	GzDir      string // source dir of *.json.gz (internal/knowledge/gz)
 	Collection string // Qdrant collection (default medical_knowledge)
 	BatchSize  int    // embedding batch size (default 100)
-	Workers    int    // legacy: parallel workers (unused in streaming mode, kept for API compat)
+	Workers    int    // parallel embedding workers (default 4; 1 = sequential)
+	// MaxTextChars truncates each embed text to N runes before sending it to
+	// the provider (0 = default 1024). Critical for Ollama: /v1/embeddings
+	// pads the whole batch to the longest input, so one long text makes all
+	// 500 siblings pay full-length compute. 1024 runes covers bge-m3
+	// retrieval-quality context and matches runtime query lengths.
+	MaxTextChars int
 }
 
 // BakeResult summarizes what was written.
@@ -85,6 +93,9 @@ func Bake(ctx context.Context, vecStore *VectorStore, embedder embedding.Provide
 	if cfg.Workers <= 0 {
 		cfg.Workers = 4
 	}
+	if cfg.MaxTextChars <= 0 {
+		cfg.MaxTextChars = 1024
+	}
 
 	files, err := filepath.Glob(filepath.Join(cfg.GzDir, archiveGlob))
 	if err != nil {
@@ -95,7 +106,7 @@ func Bake(ctx context.Context, vecStore *VectorStore, embedder embedding.Provide
 	}
 
 	start := time.Now()
-	slog.Info("Starting gz -> Qdrant bake", "gz_dir", cfg.GzDir, "collection", cfg.Collection, "files", len(files))
+	slog.Info("Starting gz -> Qdrant bake", "gz_dir", cfg.GzDir, "collection", cfg.Collection, "files", len(files), "batch_size", cfg.BatchSize, "workers", cfg.Workers)
 
 	if err := vecStore.EnsureCollection(ctx); err != nil {
 		return nil, fmt.Errorf("ensuring collection: %w", err)
@@ -139,11 +150,12 @@ func Bake(ctx context.Context, vecStore *VectorStore, embedder embedding.Provide
 			continue
 		}
 
-		n, errs := bakeDataset(ctx, vecStore, embedder, ds, rows, cfg.BatchSize)
+		fmt.Printf("  baking %-16s %6d rows (%d batches, %d workers)...\n", ds, len(rows), (len(rows)+cfg.BatchSize-1)/cfg.BatchSize, cfg.Workers)
+		n, errs := bakeDataset(ctx, vecStore, embedder, ds, rows, cfg.BatchSize, cfg.Workers, cfg.MaxTextChars)
 		total += n
 		bakeErrs = append(bakeErrs, errs...)
 		datasets++
-		fmt.Printf("  baked %-16s %6d points\n", ds, n)
+		fmt.Printf("  baked  %-16s %6d points\n", ds, n)
 
 		// Promptly reclaim the decompressed data before the next file.
 		runtime.GC()
@@ -160,49 +172,129 @@ func Bake(ctx context.Context, vecStore *VectorStore, embedder embedding.Provide
 	return res, nil
 }
 
-// bakeDataset embeds and upserts one dataset's rows.
-func bakeDataset(ctx context.Context, vecStore *VectorStore, embedder embedding.Provider, dataset string, rows []KBRow, batchSize int) (int, []string) {
+// bakeDataset embeds and upserts one dataset's rows. When workers > 1,
+// batches are processed by a pool of goroutines sending concurrent embedding
+// requests to the provider (e.g. Ollama), dramatically reducing wall time
+// for large datasets. Point IDs are content-hashed UUIDs so concurrent
+// upsert order does not affect the final storage state.
+func bakeDataset(ctx context.Context, vecStore *VectorStore, embedder embedding.Provider, dataset string, rows []KBRow, batchSize, workers, maxTextChars int) (int, []string) {
 	var errs []string
 	if len(rows) == 0 {
 		return 0, nil
 	}
-	total := 0
+
+	// Sort rows by text length (ascending) before batching.
+	//
+	// Ollama /v1/embeddings pads every text in the input array to the
+	// longest one. A batch mixing 10-char titles with 5000-char articles
+	// wastes ~99% of GPU compute on padding tokens. Grouping similar-length
+	// texts into the same batch eliminates this waste — typically 3-5x
+	// throughput improvement for heterogeneous datasets (e.g. huatuo 177k
+	// rows range from 20 to 8000 chars).
+	//
+	// Point IDs are content-hashed UUIDs, so reordering does not affect the
+	// final storage state.
+	sort.Slice(rows, func(i, j int) bool {
+		return len(rows[i].SearchText) < len(rows[j].SearchText)
+	})
+
+	// Pre-slice all batches so workers can index without slicing under lock.
+	batches := make([][]KBRow, 0, (len(rows)+batchSize-1)/batchSize)
 	for i := 0; i < len(rows); i += batchSize {
 		end := i + batchSize
 		if end > len(rows) {
 			end = len(rows)
 		}
-		batch := rows[i:end]
-
-		texts := make([]string, len(batch))
-		for j, r := range batch {
-			texts[j] = r.SearchText
-			if texts[j] == "" {
-				texts[j] = string(r.Data)
-			}
-		}
-		vectors, err := embedder.EmbedBatch(texts)
-		if err != nil {
-			errs = append(errs, fmt.Sprintf("%s batch %d: %v", dataset, i/batchSize, err))
-			continue
-		}
-
-		points := make([]VectorPoint, len(batch))
-		for j, r := range batch {
-			entryHash := sha256.Sum256(r.Data)
-			id := uuidFromSourceHash(dataset+"|"+r.Key, entryHash[:])
-			points[j] = VectorPoint{
-				ID:      id,
-				Vector:  vectors[j],
-				Payload: bakePayload(dataset, r.Key, r.Data),
-			}
-		}
-
-		if err := vecStore.Upsert(ctx, points); err != nil {
-			errs = append(errs, fmt.Sprintf("%s upsert batch %d: %v", dataset, i/batchSize, err))
-			continue
-		}
-		total += len(points)
+		batches = append(batches, rows[i:end])
 	}
-	return total, errs
+
+	if workers <= 1 {
+		// Sequential path (original behavior, for workers<=1 or debugging).
+		total := 0
+		nBatches := len(batches)
+		for idx, batch := range batches {
+			n, msg := bakeBatch(ctx, vecStore, embedder, dataset, idx, batch, maxTextChars)
+			if msg != "" {
+				errs = append(errs, msg)
+			}
+			total += n
+			if nBatches > 20 && ((idx+1)%10 == 0 || idx+1 == nBatches) {
+				fmt.Printf("    progress %-16s %d/%d batches (%.0f%%)\n", dataset, idx+1, nBatches, float64(idx+1)*100/float64(nBatches))
+			}
+		}
+		return total, errs
+	}
+
+	// Parallel path: worker pool with concurrent embedding + upsert.
+	var (
+		mu       sync.Mutex
+		total    atomic.Int64
+		done     atomic.Int64
+		wg       sync.WaitGroup
+		nBatches = int64(len(batches))
+	)
+
+	batchCh := make(chan int)
+	for w := 0; w < workers; w++ {
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+			for idx := range batchCh {
+				n, msg := bakeBatch(ctx, vecStore, embedder, dataset, idx, batches[idx], maxTextChars)
+				mu.Lock()
+				if msg != "" {
+					errs = append(errs, msg)
+				}
+				mu.Unlock()
+				total.Add(int64(n))
+				d := done.Add(1)
+				if nBatches > 20 && (d%10 == 0 || d == nBatches) {
+					fmt.Printf("    progress %-16s %d/%d batches (%.0f%%)\n", dataset, d, nBatches, float64(d)*100/float64(nBatches))
+				}
+			}
+		}()
+	}
+	for i := range batches {
+		batchCh <- i
+	}
+	close(batchCh)
+	wg.Wait()
+
+	return int(total.Load()), errs
+}
+
+// bakeBatch processes a single batch: embed texts, build points, upsert.
+// Embed texts are truncated to maxTextChars runes (rune-safe) before hitting
+// the provider — byte slicing would split CJK runes and send invalid UTF-8.
+func bakeBatch(ctx context.Context, vecStore *VectorStore, embedder embedding.Provider, dataset string, idx int, batch []KBRow, maxTextChars int) (int, string) {
+	texts := make([]string, len(batch))
+	for j, r := range batch {
+		texts[j] = r.SearchText
+		if texts[j] == "" {
+			texts[j] = string(r.Data)
+		}
+		if maxTextChars > 0 {
+			if rs := []rune(texts[j]); len(rs) > maxTextChars {
+				texts[j] = string(rs[:maxTextChars])
+			}
+		}
+	}
+	vectors, err := embedder.EmbedBatch(texts)
+	if err != nil {
+		return 0, fmt.Sprintf("%s batch %d: %v", dataset, idx, err)
+	}
+	points := make([]VectorPoint, len(batch))
+	for j, r := range batch {
+		entryHash := sha256.Sum256(r.Data)
+		id := uuidFromSourceHash(dataset+"|"+r.Key, entryHash[:])
+		points[j] = VectorPoint{
+			ID:      id,
+			Vector:  vectors[j],
+			Payload: bakePayload(dataset, r.Key, r.Data),
+		}
+	}
+	if err := vecStore.Upsert(ctx, points); err != nil {
+		return 0, fmt.Sprintf("%s upsert batch %d: %v", dataset, idx, err)
+	}
+	return len(points), ""
 }

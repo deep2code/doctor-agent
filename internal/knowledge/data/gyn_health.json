@@ -20,8 +20,10 @@
   ],
   "treatment": [
    {
-    "name": "乳腺活检及组织病理学检查",
-    "details": "对BI-RADS分类为4类或5类者进行"
+    "method": "乳腺活检及组织病理学检查",
+    "indication": "",
+    "evidence_level": "",
+    "notes": "对BI-RADS分类为4类或5类者进行"
    }
   ],
   "when_to_seek_care": [
@@ -49,6 +51,9 @@
    "钼靶",
    "乳腺X光",
    "乳腺彩超",
+   "breast",
+   "cancer",
+   "screening",
    "breast cancer screening"
   ]
  },
@@ -70,8 +75,10 @@
   ],
   "treatment": [
    {
-    "name": "进一步诊断及治疗",
-    "details": "督促其尽早接受"
+    "method": "进一步诊断及治疗",
+    "indication": "",
+    "evidence_level": "",
+    "notes": "督促其尽早接受"
    }
   ],
   "when_to_seek_care": [
@@ -209,8 +216,10 @@
   ],
   "treatment": [
    {
-    "name": "宫颈癌治疗",
-    "details": "根据病变程度，采取手术、放疗、化疗等综合治疗"
+    "method": "宫颈癌治疗",
+    "indication": "",
+    "evidence_level": "",
+    "notes": "根据病变程度，采取手术、放疗、化疗等综合治疗"
    }
   ],
   "when_to_seek_care": [
@@ -243,6 +252,9 @@
    "两癌筛查",
    "TCT",
    "宫颈癌筛查年龄",
+   "cervical",
+   "cancer",
+   "screening",
    "cervical cancer screening"
   ]
  },
@@ -270,8 +282,10 @@
   ],
   "treatment": [
    {
-    "name": "进一步诊断及治疗",
-    "details": "根据具体病情制定治疗方案"
+    "method": "进一步诊断及治疗",
+    "indication": "",
+    "evidence_level": "",
+    "notes": "根据具体病情制定治疗方案"
    }
   ],
   "when_to_seek_care": [
@@ -810,8 +824,10 @@
   "category": "gyn_health",
   "treatment": [
    {
-    "name": "绝经激素治疗",
-    "details": "规范的绝经激素治疗，可有效改善更年期症状"
+    "method": "绝经激素治疗",
+    "indication": "",
+    "evidence_level": "",
+    "notes": "规范的绝经激素治疗，可有效改善更年期症状"
    }
   ],
   "citations": [
@@ -845,8 +861,10 @@
   "category": "gyn_health",
   "treatment": [
    {
-    "name": "中医辨证论治",
-    "details": "中医辨证论治有助于改善更年期症状，平稳度过更年期"
+    "method": "中医辨证论治",
+    "indication": "",
+    "evidence_level": "",
+    "notes": "中医辨证论治有助于改善更年期症状，平稳度过更年期"
    }
   ],
   "citations": [

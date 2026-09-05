@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"strings"
 	"time"
 )
 
@@ -23,10 +24,11 @@ type Provider interface {
 
 // Config holds embedding provider configuration.
 type Config struct {
-	Provider string // "openai-compat"
-	BaseURL  string
-	APIKey   string
-	Model    string
+	Provider   string // "openai-compat"
+	BaseURL    string
+	APIKey     string
+	Model      string
+	Dimensions int // 0 = use API default; 1024 forces 1024 for embedding-3-pro
 }
 
 // OpenAICompatProvider implements embedding using OpenAI-compatible API.
@@ -39,32 +41,31 @@ type OpenAICompatProvider struct {
 }
 
 // NewOpenAICompat creates a new OpenAI-compatible embedding provider.
+// apiKey is optional (e.g. Ollama local endpoint needs no auth).
 func NewOpenAICompat(cfg Config) (*OpenAICompatProvider, error) {
 	if cfg.BaseURL == "" {
 		return nil, fmt.Errorf("base_url is required")
-	}
-	if cfg.APIKey == "" {
-		return nil, fmt.Errorf("api_key is required")
 	}
 	if cfg.Model == "" {
 		cfg.Model = "text-embedding-v3"
 	}
 
 	return &OpenAICompatProvider{
-		baseURL:    cfg.BaseURL,
-		apiKey:     cfg.APIKey,
+		baseURL:    strings.TrimRight(cfg.BaseURL, "/"),
+		apiKey:     cfg.APIKey, // may be empty for local Ollama
 		model:      cfg.Model,
-		dimensions: 0, // Will be detected from first embedding response
+		dimensions: cfg.Dimensions, // 0 = API default; >0 = request specific dims
 		client: &http.Client{
-			Timeout: 60 * time.Second,
+			Timeout: 120 * time.Second,
 		},
 	}, nil
 }
 
 // embeddingRequest represents the API request.
 type embeddingRequest struct {
-	Model string   `json:"model"`
-	Input []string `json:"input"`
+	Model      string   `json:"model"`
+	Input      []string `json:"input"`
+	Dimensions int      `json:"dimensions,omitempty"` // only sent when >0
 }
 
 // embeddingResponse represents the API response.
@@ -95,8 +96,9 @@ func (p *OpenAICompatProvider) Embed(text string) ([]float32, error) {
 // EmbedBatch converts multiple texts to vectors.
 func (p *OpenAICompatProvider) EmbedBatch(texts []string) ([][]float32, error) {
 	reqBody := embeddingRequest{
-		Model: p.model,
-		Input: texts,
+		Model:      p.model,
+		Input:      texts,
+		Dimensions: p.dimensions,
 	}
 
 	jsonData, err := json.Marshal(reqBody)
@@ -104,13 +106,15 @@ func (p *OpenAICompatProvider) EmbedBatch(texts []string) ([][]float32, error) {
 		return nil, fmt.Errorf("marshaling request: %w", err)
 	}
 
-	req, err := http.NewRequest("POST", p.baseURL+"/v1/embeddings", bytes.NewReader(jsonData))
+	req, err := http.NewRequest("POST", p.baseURL+"/embeddings", bytes.NewReader(jsonData))
 	if err != nil {
 		return nil, fmt.Errorf("creating request: %w", err)
 	}
 
 	req.Header.Set("Content-Type", "application/json")
-	req.Header.Set("Authorization", "Bearer "+p.apiKey)
+	if p.apiKey != "" {
+		req.Header.Set("Authorization", "Bearer "+p.apiKey)
+	}
 
 	resp, err := p.client.Do(req)
 	if err != nil {
@@ -145,10 +149,10 @@ func (p *OpenAICompatProvider) EmbedBatch(texts []string) ([][]float32, error) {
 		}
 	}
 
-	// Update dimensions from first result
-	if len(results) > 0 && len(results[0]) > 0 {
-		p.dimensions = len(results[0])
-	}
+	// Dimensions are set at construction time; do not auto-update from
+	// responses to avoid data races when EmbedBatch is called concurrently
+	// by a worker pool (e.g. parallel bake). The value returned by the API
+	// is deterministic for a given model.
 
 	return results, nil
 }

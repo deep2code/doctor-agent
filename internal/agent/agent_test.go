@@ -20,7 +20,7 @@ type fakeProvider struct {
 	responses     []*llm.ChatResponse
 	streamed      [][]string // deltas forwarded on each StreamChat call
 	chatCalls     int
-	captured      [][]llm.Message // messages seen on each call (for assertions)
+	captured      [][]llm.Message        // messages seen on each call (for assertions)
 	capturedTools [][]llm.ToolDefinition // tools passed on each call
 }
 
@@ -201,7 +201,8 @@ func TestProcessMessageStreamMaxIterationsFallback(t *testing.T) {
 	}
 }
 
-func TestEmergencyBypassesLLM(t *testing.T) {	cfg := testConfig()
+func TestEmergencyBypassesLLM(t *testing.T) {
+	cfg := testConfig()
 	cfg.EmergencyEnabled = true
 	p := &fakeProvider{}
 	ag := newTestAgent(cfg, p)

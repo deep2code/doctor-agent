@@ -9,6 +9,11 @@ build/
 .DS_Store
 .cowork-temp/
 .workbuddy/
+.dumate/
+logs/
+
+# embed 模型不进 app 上下文 (542MB INT8 + 17MB tokenizer; 自有白名单 Dockerfile.embed.dockerignore)
+bge-m3-onnx/
 
 # 应用镜像不需要知识库数据：
 #   data/ 是 gz 的源 JSON（仅 make gz 时用）

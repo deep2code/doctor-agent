@@ -32,6 +32,17 @@ type Config struct {
 	KnowledgeTopK    int
 	KnowledgeEnabled bool
 
+	// Colloquial→clinical query understanding: every user message passes an
+	// LLM step that extracts structured clinical concepts and generates
+	// multiple retrieval queries (recall-oriented; ambiguity becomes extra
+	// recall branches). UnderstandModel optionally routes this step to a
+	// cheaper/faster OpenAI-compatible model (empty = main provider).
+	// AliasMapPath points at an optional JSON dictionary (alias → standard
+	// terms) loaded into query expansion at startup.
+	QueryUnderstandingEnabled bool
+	UnderstandModel           string
+	AliasMapPath              string
+
 	// Vector Database
 	VectorDBProvider string // "qdrant" or "" (keyword-only)
 	QdrantHost       string
@@ -120,6 +131,10 @@ func Load() *Config {
 
 		KnowledgeTopK:    getEnvInt("KNOWLEDGE_TOP_K", 5),
 		KnowledgeEnabled: getEnvBool("KNOWLEDGE_RETRIEVAL_ENABLED", true),
+
+		QueryUnderstandingEnabled: getEnvBool("QUERY_UNDERSTANDING_ENABLED", true),
+		UnderstandModel:           getEnv("UNDERSTAND_MODEL", ""),
+		AliasMapPath:              getEnv("ALIAS_MAP_PATH", "data/alias_map.json"),
 
 		VectorDBProvider: getEnv("VECTOR_DB_PROVIDER", ""),
 		QdrantHost:       getEnv("QDRANT_HOST", "localhost"),

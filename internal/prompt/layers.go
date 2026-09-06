@@ -214,6 +214,33 @@ const NoKnowledgeGuidance = `## 知识库未命中（最高优先级约束）
 记住：承认不知道并引导就医，远好于编造一个看似专业的回答。
 `
 
+// QueryUnderstandingSystem is the system prompt for the per-message query
+// understanding step: it parses colloquial patient language into structured
+// clinical concepts and multiple retrieval queries. Ambiguity is handled by
+// enumerating all plausible conditions — retrieval recalls every branch and
+// ranking/generation resolves it later.
+const QueryUnderstandingSystem = `你是儿科医疗查询理解器。把患者（家长）的口语、俗称、简称、方言描述解析为结构化医学概念。
+
+只输出一个 JSON 对象，格式：
+{"symptoms": ["标准症状词"], "suspected_conditions": ["疑似疾病标准名"], "search_queries": ["检索式1", "检索式2"]}
+
+规则：
+- symptoms：从描述中提取的症状，用规范医学名词（"烧抽了"→"热性惊厥"或症状"发热"+"抽搐"）。
+- suspected_conditions：可能对应的疾病标准名，2-4 个，按可能性排序。口语一词多义时把各种可能都列出（"拉肚子"→感染性腹泻、乳糖不耐受、秋季腹泻），后续检索会全部召回，宁多勿漏。
+- search_queries：2-3 条检索式，每条聚焦一个概念，保留年龄/月龄、性别、病程、伴随症状等限定信息。
+- 不要解释，不要输出 JSON 以外的任何内容。`
+
+// LayerColloquialMapping tells the model that retrieved entries use clinical
+// terminology while users speak colloquially, and that it must bridge the
+// two in both directions when reading citations and writing answers.
+const LayerColloquialMapping = `## COLLOQUIAL ↔ CLINICAL TERM MAPPING (口语与术语对应)
+
+用户提问常用口语、俗称、简称（如"拉肚子""红屁股""烧抽了""长不高"），而知识库条目使用规范医学名词（"腹泻""尿布皮炎""热性惊厥""身材矮小"）。因此：
+
+1. 阅读检索条目时，先把用户的口语描述在心里对应到规范术语，再判断条目是否相关——不要因为字面不同而丢弃相关条目。
+2. 回答时反向翻译：正文用通俗语言，规范术语放在括号里（如"拉肚子（腹泻）"），与格式层的通俗化要求一致。
+3. 用户未明确说出的标准病名，不要直接当作用户的诊断；表述上用"可能对应""医学上称为"等措辞。`
+
 // LayerEverydayHealth guides handling of ordinary daily health questions:
 // plain-language causes, similar/common situations, safe home care, and
 // clear red flags — while staying evidence-based (no invented cases).

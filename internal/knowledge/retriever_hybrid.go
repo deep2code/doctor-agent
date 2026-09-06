@@ -35,7 +35,31 @@ func (r *HybridRetriever) Name() string {
 		r.keywordRetriever.Name(), r.vectorRetriever.Name(), r.vectorWeight)
 }
 
+// fetchResult carries one retriever call's outcome.
+type fetchResult struct {
+	results []RetrievalResult
+	err     error
+}
+
+// retrieveAsync runs one retriever in a goroutine.
+func (r *HybridRetriever) retrieveAsync(ctx context.Context, retriever Retriever, query string, topK int) <-chan fetchResult {
+	ch := make(chan fetchResult, 1)
+	go func() {
+		res, err := retriever.Retrieve(ctx, query, topK)
+		ch <- fetchResult{results: res, err: err}
+	}()
+	return ch
+}
+
 // Retrieve performs hybrid retrieval with RRF fusion.
+//
+// Four-way recall for colloquial queries: the query runs through keyword and
+// vector retrieval verbatim, and — when ExpandQuery maps it to a different
+// string — also through both retrievers with the synonym-expanded query.
+// Colloquial input ("突然大哭") often shares no surface form with indexed
+// clinical terms ("哭闹"), so the expanded lists recall what the verbatim
+// lists miss. Expanded lists enter the fusion at half weight: verbatim
+// matches keep priority over synonym-only matches.
 func (r *HybridRetriever) Retrieve(ctx context.Context, query string, topK int) ([]RetrievalResult, error) {
 	if topK <= 0 {
 		topK = 5
@@ -44,24 +68,16 @@ func (r *HybridRetriever) Retrieve(ctx context.Context, query string, topK int) 
 	// Fetch more from each source to ensure good coverage after fusion
 	fetchK := topK * 3
 
-	// Run keyword and vector retrieval concurrently
-	type fetchResult struct {
-		results []RetrievalResult
-		err     error
+	kwCh := r.retrieveAsync(ctx, r.keywordRetriever, query, fetchK)
+	vecCh := r.retrieveAsync(ctx, r.vectorRetriever, query, fetchK)
+
+	expanded := ExpandQuery(query)
+	hasExpanded := expanded != query
+	var expKwCh, expVecCh <-chan fetchResult
+	if hasExpanded {
+		expKwCh = r.retrieveAsync(ctx, r.keywordRetriever, expanded, fetchK)
+		expVecCh = r.retrieveAsync(ctx, r.vectorRetriever, expanded, fetchK)
 	}
-
-	kwCh := make(chan fetchResult, 1)
-	vecCh := make(chan fetchResult, 1)
-
-	go func() {
-		res, err := r.keywordRetriever.Retrieve(ctx, query, fetchK)
-		kwCh <- fetchResult{results: res, err: err}
-	}()
-
-	go func() {
-		res, err := r.vectorRetriever.Retrieve(ctx, query, fetchK)
-		vecCh <- fetchResult{results: res, err: err}
-	}()
 
 	kwResult := <-kwCh
 	vecResult := <-vecCh
@@ -71,14 +87,39 @@ func (r *HybridRetriever) Retrieve(ctx context.Context, query string, topK int) 
 		if kwResult.err != nil {
 			return nil, kwResult.err
 		}
-		return kwResult.results[:min(topK, len(kwResult.results))], nil
+		out := kwResult.results
+		if len(out) > topK {
+			out = out[:topK]
+		}
+		return out, nil
 	}
 	if kwResult.err != nil {
-		return vecResult.results[:min(topK, len(vecResult.results))], nil
+		out := vecResult.results
+		if len(out) > topK {
+			out = out[:topK]
+		}
+		return out, nil
 	}
 
-	// RRF fusion
-	fused := r.rrfFusion(kwResult.results, vecResult.results, r.vectorWeight)
+	// RRF fusion. Expanded-query errors are non-fatal: those lists only add
+	// recall, so on failure they are simply omitted.
+	const expandDecay = 0.5
+	sources := []rankSource{
+		{results: kwResult.results, weight: 1 - r.vectorWeight},
+		{results: vecResult.results, weight: r.vectorWeight},
+	}
+	if hasExpanded {
+		expKw := <-expKwCh
+		expVec := <-expVecCh
+		if expKw.err == nil && len(expKw.results) > 0 {
+			sources = append(sources, rankSource{results: expKw.results, weight: (1 - r.vectorWeight) * expandDecay})
+		}
+		if expVec.err == nil && len(expVec.results) > 0 {
+			sources = append(sources, rankSource{results: expVec.results, weight: r.vectorWeight * expandDecay})
+		}
+	}
+
+	fused := rrfFuse(sources)
 
 	if len(fused) > topK {
 		fused = fused[:topK]
@@ -92,41 +133,31 @@ func (r *HybridRetriever) RetrieveDrugs(ctx context.Context, query string, topK 
 	return r.keywordRetriever.RetrieveDrugs(ctx, query, topK)
 }
 
-// rrfFusion implements Reciprocal Rank Fusion between two ranked result sets.
+// rankSource is one ranked list entering the RRF fusion, with the total
+// fusion weight of that list.
+type rankSource struct {
+	results []RetrievalResult
+	weight  float64
+}
+
+// rrfFuse implements Reciprocal Rank Fusion across N ranked lists.
 // Reference: Cormack et al. "Reciprocal Rank Fusion outperforms Condorcet and
 // individual rank learning methods" (SIGIR 2009).
-func (r *HybridRetriever) rrfFusion(kwResults, vecResults []RetrievalResult, vectorWeight float64) []RetrievalResult {
+func rrfFuse(sources []rankSource) []RetrievalResult {
 	const k = 60.0 // RRF constant
 
-	// Track best score and merged data per entry ID
-	type fusedData struct {
-		entry  KnowledgeEntry
-		score  float64
-		kwRank int
-		vecRank int
-	}
 	entryMap := make(map[string]*fusedData)
 
-	// Process keyword results
-	for i, res := range kwResults {
-		id := res.Entry.ID
-		if _, ok := entryMap[id]; !ok {
-			entryMap[id] = &fusedData{entry: res.Entry, kwRank: -1, vecRank: -1}
+	for _, src := range sources {
+		for i, res := range src.results {
+			id := res.Entry.ID
+			fd, ok := entryMap[id]
+			if !ok {
+				fd = &fusedData{entry: res.Entry}
+				entryMap[id] = fd
+			}
+			fd.score += src.weight / (k + float64(i+1)) // 1-indexed rank
 		}
-		entryMap[id].kwRank = i + 1 // 1-indexed rank
-		rrfScore := (1 - vectorWeight) / (k + float64(i+1))
-		entryMap[id].score += rrfScore
-	}
-
-	// Process vector results
-	for i, res := range vecResults {
-		id := res.Entry.ID
-		if _, ok := entryMap[id]; !ok {
-			entryMap[id] = &fusedData{entry: res.Entry, kwRank: -1, vecRank: -1}
-		}
-		entryMap[id].vecRank = i + 1
-		rrfScore := vectorWeight / (k + float64(i+1))
-		entryMap[id].score += rrfScore
 	}
 
 	// Convert to slice and sort
@@ -143,4 +174,10 @@ func (r *HybridRetriever) rrfFusion(kwResults, vecResults []RetrievalResult, vec
 	})
 
 	return fused
+}
+
+// fusedData accumulates the RRF score for one entry across lists.
+type fusedData struct {
+	entry KnowledgeEntry
+	score float64
 }

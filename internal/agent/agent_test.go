@@ -73,15 +73,16 @@ func testConfig() *config.Config {
 
 func newTestAgent(cfg *config.Config, p llm.LLMProvider) *Agent {
 	ag := &Agent{
-		cfg:               cfg,
-		provider:          p,
-		composer:          prompt.NewComposer(),
-		registry:          tools.NewRegistry(),
-		router:            tools.NewRouter(),
-		emergencyDetector: safety.NewEmergencyDetector(),
-		scopeGuard:        safety.NewScopeGuard(),
-		postVerifier:      safety.NewPostVerifier(map[string]string{}),
-		sessions:          make(map[string]*session.Session),
+		cfg:                cfg,
+		provider:           p,
+		understandProvider: p,
+		composer:           prompt.NewComposer(),
+		registry:           tools.NewRegistry(),
+		router:             tools.NewRouter(),
+		emergencyDetector:  safety.NewEmergencyDetector(),
+		scopeGuard:         safety.NewScopeGuard(),
+		postVerifier:       safety.NewPostVerifier(map[string]string{}),
+		sessions:           make(map[string]*session.Session),
 	}
 	return ag
 }

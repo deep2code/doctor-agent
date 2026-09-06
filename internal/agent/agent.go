@@ -90,7 +90,8 @@ func New(cfg *config.Config) (*Agent, error) {
 	registry := tools.NewRegistry()
 	router := tools.NewRouter()
 
-	// Register unified tools (8 total: 6 action + 2 unified retrieval/lookup).
+	// Register unified tools (10 total: 6 action + 2 unified retrieval/lookup
+	// + 2 knowledge-graph lookup).
 	// Action tools — computation / cross-reference, not replaceable by RAG.
 	registry.Register(tools.NewDrugSafetyCheck(store))
 	registry.Register(tools.NewGeneticRiskCalculator(store))
@@ -101,6 +102,10 @@ func New(cfg *config.Config) (*Agent, error) {
 	// Unified retrieval / lookup — replace ~28 retired specialized tools.
 	registry.Register(tools.NewKnowledgeSearch(store, retriever))
 	registry.Register(tools.NewExactLookup(store))
+	// Knowledge-graph triple lookup (OpenCMKG 354k, CPubMed-KG 37k) —
+	// exact-match entity/relation queries, not replaceable by RAG.
+	registry.Register(tools.NewMedicalKGLookup(store))
+	registry.Register(tools.NewCPubMedKGLookup(store))
 
 	postVerifier := safety.NewPostVerifier(store.GetReferenceIndex())
 	if cfg.JudgeEnabled {

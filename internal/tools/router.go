@@ -31,10 +31,10 @@ const (
 var toolGroups = map[QueryCategory][]string{
 	CatDrug: {
 		"drug_safety_check", "drug_interaction_check",
-		"exact_lookup", "knowledge_search",
+		"exact_lookup", "knowledge_search", "medical_kg_lookup",
 	},
 	CatSymptom: {
-		"symptom_triage", "knowledge_search",
+		"symptom_triage", "knowledge_search", "medical_kg_lookup",
 	},
 	CatGenetic: {
 		"genetic_risk_calculator", "drug_safety_check",
@@ -48,6 +48,7 @@ var toolGroups = map[QueryCategory][]string{
 	},
 	CatDisease: {
 		"knowledge_search", "exact_lookup", "symptom_triage",
+		"medical_kg_lookup", "cpubmed_kg_lookup",
 	},
 	CatLitera: {
 		"knowledge_search",
@@ -186,16 +187,16 @@ func ParamsHash(toolName string, args map[string]any) string {
 // With the unified 8-tool set, KG relations map to action tools + unified
 // retrieval rather than individual specialized tools.
 var relationToTools = map[string][]string{
-	"disease_has_symptom":     {"symptom_triage", "knowledge_search"},
-	"disease_recommand_drug":  {"drug_safety_check", "drug_interaction_check", "knowledge_search"},
-	"disease_common_drug":     {"drug_safety_check", "drug_interaction_check", "exact_lookup", "knowledge_search"},
+	"disease_has_symptom":     {"symptom_triage", "knowledge_search", "medical_kg_lookup"},
+	"disease_recommand_drug":  {"drug_safety_check", "drug_interaction_check", "knowledge_search", "medical_kg_lookup"},
+	"disease_common_drug":     {"drug_safety_check", "drug_interaction_check", "exact_lookup", "knowledge_search", "medical_kg_lookup"},
 	"disease_recommand_food":  {"food_risk_analyzer"},
 	"disease_noteat_food":     {"food_risk_analyzer"},
 	"disease_eat_food":        {"food_risk_analyzer"},
-	"disease_need_check":      {"knowledge_search", "exact_lookup"},
-	"disease_need_treatment": {"knowledge_search"},
+	"disease_need_check":      {"knowledge_search", "exact_lookup", "cpubmed_kg_lookup"},
+	"disease_need_treatment": {"knowledge_search", "cpubmed_kg_lookup"},
 	"disease_belong_department": {"symptom_triage", "knowledge_search"},
-	"disease_acompany_disease": {"knowledge_search"},
+	"disease_acompany_disease": {"knowledge_search", "cpubmed_kg_lookup"},
 }
 
 // symptomVocabulary is a broader symptom lexicon for KG routing, extending

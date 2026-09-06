@@ -5,7 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"log/slog"
+	"strings"
 	"sync"
+	"time"
 
 	"github.com/doctor-agent/internal/config"
 	"github.com/doctor-agent/internal/embedding"
@@ -216,6 +218,57 @@ type StepEvent struct {
 	Summary string `json:"summary"` // Chinese, human-readable
 }
 
+// streamWithRetry wraps provider.StreamChat with a short backoff retry for
+// transient provider failures (HTTP 429 rate limits, 5xx, dropped
+// connections). Retrying is skipped once any delta has already been emitted
+// to the user, because a fresh stream would replay the partial answer.
+func (a *Agent) streamWithRetry(ctx context.Context, messages []llm.Message, tools []llm.ToolDefinition, systemPrompt string, onDelta func(string)) (*llm.ChatResponse, error) {
+	var emitted bool
+	wrapped := onDelta
+	if onDelta != nil {
+		wrapped = func(d string) {
+			emitted = true
+			onDelta(d)
+		}
+	}
+	var lastErr error
+	for attempt := 0; attempt < 3; attempt++ {
+		if attempt > 0 {
+			wait := time.Duration(attempt) * 1500 * time.Millisecond
+			slog.Warn("Transient LLM error, retrying", "attempt", attempt, "wait", wait, "error", lastErr)
+			select {
+			case <-ctx.Done():
+				return nil, ctx.Err()
+			case <-time.After(wait):
+			}
+		}
+		resp, err := a.provider.StreamChat(ctx, messages, tools, systemPrompt, wrapped)
+		if err == nil {
+			return resp, nil
+		}
+		lastErr = err
+		if emitted || !isTransientLLMError(err) {
+			return nil, fmt.Errorf("LLM error: %w", err)
+		}
+	}
+	return nil, fmt.Errorf("LLM error after retries: %w", lastErr)
+}
+
+// isTransientLLMError reports whether the error looks like a temporary
+// provider-side failure that a retry can fix.
+func isTransientLLMError(err error) bool {
+	if err == nil {
+		return false
+	}
+	msg := strings.ToLower(err.Error())
+	for _, s := range []string{"429", "rate limit", "1305", "502", "503", "504", "timeout", "connection reset", "eof"} {
+		if strings.Contains(msg, s) {
+			return true
+		}
+	}
+	return false
+}
+
 // ProcessMessageStream handles a single user message within a conversation
 // session, forwarding every generated text chunk to onDelta (may be nil) as it
 // is produced, and every pipeline step to onStep (may be nil). The final text
@@ -322,7 +375,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 	// Duplicate tool call detection and tool call budget.
 	calledTools := make(map[string]int) // "toolName:paramsHash" -> count
 	toolCallCount := 0
-	maxToolCalls := 3                      // budget: after 3 successful calls, force text answer
+	maxToolCalls := 3 // budget: after 3 successful calls, force text answer
 	toolBudgetExceeded := false
 	for i := 0; i < maxIterations; i++ {
 		if i == 0 {
@@ -340,7 +393,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 			iterPrompt = systemPrompt + "\n\n你已经调用了多次工具。请基于已获取的工具返回信息，给出最终的完整回答，不要再调用任何工具。"
 		}
 
-		resp, err := a.provider.StreamChat(ctx, messages, iterTools, iterPrompt, onDelta)
+		resp, err := a.streamWithRetry(ctx, messages, iterTools, iterPrompt, onDelta)
 		if err != nil {
 			slog.Error("LLM StreamChat failed",
 				"error", err,
@@ -348,7 +401,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 				"iteration", i,
 				"max_iterations", maxIterations,
 			)
-			return nil, fmt.Errorf("LLM error: %w", err)
+			return nil, err
 		}
 
 		// Check for tool calls
@@ -666,7 +719,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 	// Duplicate tool call detection and tool call budget.
 	calledTools := make(map[string]int) // "toolName:paramsHash" -> count
 	toolCallCount := 0
-	maxToolCalls := 3                      // budget: after 3 successful calls, force text answer
+	maxToolCalls := 3 // budget: after 3 successful calls, force text answer
 	toolBudgetExceeded := false
 	for i := 0; i < maxIterations; i++ {
 		if i == 0 {
@@ -687,7 +740,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		var llmResp *llm.ChatResponse
 		var llmErr error
 		if onDelta != nil {
-			llmResp, llmErr = a.provider.StreamChat(ctx, messages, iterTools, iterPrompt, onDelta)
+			llmResp, llmErr = a.streamWithRetry(ctx, messages, iterTools, iterPrompt, onDelta)
 		} else {
 			llmResp, llmErr = a.provider.Chat(ctx, messages, iterTools, iterPrompt)
 		}

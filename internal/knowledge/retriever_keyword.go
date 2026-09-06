@@ -37,9 +37,60 @@ const minRelevantScore = 3.0
 
 // Retrieve searches medical, food-risk and lab-test knowledge entries
 // matching the query.
+//
+// Two-pass: pass 1 uses the query verbatim (behaviour identical to the
+// original retriever — no regression risk for queries that already recall).
+// Only when pass 1 finds zero relevant entries does pass 2 retry with
+// synonym-expanded query text, so colloquial phrasings ("突然大哭" vs the
+// indexed "哭闹") still recall.
 func (r *KeywordRetriever) Retrieve(ctx context.Context, query string, topK int) ([]RetrievalResult, error) {
 	if topK <= 0 {
 		topK = 5
+	}
+
+	base, err := r.retrieveOnce(ctx, query, topK, false)
+	if err != nil {
+		return nil, err
+	}
+	precise := 0
+	for _, rr := range base {
+		if rr.Score >= minRelevantScore {
+			precise++
+		}
+	}
+	if precise > 0 {
+		return base, nil
+	}
+
+	expanded := ExpandQuery(query)
+	if expanded == query {
+		return base, nil
+	}
+	extra, err := r.retrieveOnce(ctx, expanded, topK, true)
+	if err != nil {
+		return base, nil
+	}
+	// De-dup: expanded pass may re-recall a base entry (base wins).
+	seen := make(map[string]bool, len(base))
+	for _, rr := range base {
+		seen[rr.Entry.ID] = true
+	}
+	out := base
+	for _, rr := range extra {
+		if !seen[rr.Entry.ID] {
+			out = append(out, rr)
+		}
+	}
+	return out, nil
+}
+
+// retrieveOnce scores all entries against the given query text. When fallback
+// is true the query is synonym-expanded and prose-body matching (strategy 6)
+// is enabled; scores from this pass are kept low so verbatim matches always
+// rank above them.
+func (r *KeywordRetriever) retrieveOnce(ctx context.Context, query string, topK int, fallback bool) ([]RetrievalResult, error) {
+	if fallback {
+		query = ExpandQuery(query)
 	}
 
 	queryTokens := tokenize(query)
@@ -49,14 +100,18 @@ func (r *KeywordRetriever) Retrieve(ctx context.Context, query string, topK int)
 
 	// Food-risk and lab-test entries are indexed through their KnowledgeEntry
 	// projection so their content reaches the prompt and the verifier too.
+	// Prose corpora (FHS parenting / MSD Manual / MedlinePlus) are projected
+	// with the article in Body and recalled via bigram-overlap matching.
 	entries := r.store.GetAllMedical()
 	entries = append(entries, r.store.FoodEntriesAsKnowledge()...)
 	entries = append(entries, r.store.LabEntriesAsKnowledge()...)
+	entries = append(entries, r.store.FHSGuidesAsKnowledge()...)
+	entries = append(entries, r.store.MSDAsKnowledge()...)
 
 	results := make([]RetrievalResult, 0, len(entries))
 
 	for _, entry := range entries {
-		score, matched := r.scoreEntry(&entry, query, queryTokens)
+		score, matched := r.scoreEntry(&entry, query, queryTokens, fallback)
 		if score < minRelevantScore {
 			continue
 		}
@@ -144,7 +199,7 @@ func (r *KeywordRetriever) RetrieveEmergencyRules(symptoms string) []EmergencyRu
 // segment Chinese (a whole sentence becomes one token), token equality only
 // works for Latin text; CJK recall relies on substring matching against the
 // entry's Chinese keywords and symptom/risk fields.
-func (r *KeywordRetriever) scoreEntry(entry *KnowledgeEntry, query string, queryTokens []string) (float64, []string) {
+func (r *KeywordRetriever) scoreEntry(entry *KnowledgeEntry, query string, queryTokens []string, fallback bool) (float64, []string) {
 	var totalScore float64
 	var matched []string
 	matchedSet := make(map[string]bool)
@@ -210,14 +265,16 @@ func (r *KeywordRetriever) scoreEntry(entry *KnowledgeEntry, query string, query
 		}
 	}
 
-	// 3. Condition name containment (kept from the original logic).
+	// 3. Condition name containment (kept from the original logic). Guard
+	// against empty names: Contains(anything, "") is always true, which made
+	// every entry with an empty ConditionEN/ConditionZH a universal match.
 	condZHLower := strings.ToLower(entry.ConditionZH)
 	condENLower := strings.ToLower(entry.ConditionEN)
-	if strings.Contains(queryLower, condZHLower) || strings.Contains(condZHLower, queryLower) {
+	if condZHLower != "" && substringMatchable(condZHLower) && (strings.Contains(queryLower, condZHLower) || strings.Contains(condZHLower, queryLower)) {
 		totalScore += 5.0
 		addMatch(entry.ConditionZH)
 	}
-	if strings.Contains(queryLower, condENLower) || strings.Contains(condENLower, queryLower) {
+	if condENLower != "" && substringMatchable(condENLower) && (strings.Contains(queryLower, condENLower) || strings.Contains(condENLower, queryLower)) {
 		totalScore += 5.0
 		addMatch(entry.ConditionEN)
 	}
@@ -250,6 +307,25 @@ func (r *KeywordRetriever) scoreEntry(entry *KnowledgeEntry, query string, query
 		if strings.Contains(queryLower, region) {
 			totalScore += 1.0
 			addMatch(region)
+		}
+	}
+
+	// 6. Prose body bigram overlap (projected FHS/MSD/MedlinePlus articles).
+	// Fallback only: evaluated when no curated-keyword strategy matched, so
+	// precise entries always outrank long articles whose body merely contains
+	// common characters. Score is kept below a single keyword hit (3.0).
+	if fallback && totalScore == 0 && entry.Body != "" {
+		bodyLower := strings.ToLower(entry.Body)
+		qb := bigrams(queryLower)
+		overlap := 0
+		for bg := range qb {
+			if strings.Contains(bodyLower, bg) {
+				overlap++
+			}
+		}
+		if overlap >= 10 && float64(overlap)/float64(len(qb)) >= 0.3 {
+			totalScore += 2.0
+			addMatch(entry.ConditionZH)
 		}
 	}
 
@@ -371,9 +447,9 @@ func tokenize(text string) []string {
 
 // IDF calculation for BM25-like scoring (simplified).
 type IDF struct {
-	docFreq       map[string]int
-	totalDocs     int
-	avgDocLength  float64 // average document length across the corpus
+	docFreq      map[string]int
+	totalDocs    int
+	avgDocLength float64 // average document length across the corpus
 }
 
 func BM25Score(queryTokens []string, docTokens []string, idf *IDF, k1, b float64) float64 {

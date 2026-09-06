@@ -1,3 +1,50 @@
 time=2026-09-04T08:32:51.287+08:00 level=INFO msg="File logging enabled" dir=logs file=doctor-agent.log maxSizeMB=10 maxAgeDays=7
 time=2026-09-04T08:33:14.897+08:00 level=INFO msg="File logging enabled" dir=logs file=doctor-agent.log maxSizeMB=10 maxAgeDays=7
 time=2026-09-04T08:34:00.791+08:00 level=INFO msg="File logging enabled" dir=logs file=doctor-agent.log maxSizeMB=10 maxAgeDays=7
+time=2026-09-06T16:14:55.520+08:00 level=INFO msg="File logging enabled" dir=logs file=doctor-agent.log maxSizeMB=10 maxAgeDays=7
+time=2026-09-06T16:14:55.523+08:00 level=ERROR msg="Failed to ensure application database" error="create database doctor_agent: dial tcp [::1]:3306: connect: connection refused"
+time=2026-09-06T16:22:07.474+08:00 level=INFO msg="File logging enabled" dir=logs file=doctor-agent.log maxSizeMB=10 maxAgeDays=7
+time=2026-09-06T16:22:07.702+08:00 level=INFO msg="Database initialized" dsn="root:@tcp(localhost:3306)/doctor_agent?parseTime=true&charset=utf8mb4&collation=utf8mb4_unicode_ci&interpolateParams=true"
+time=2026-09-06T16:22:07.703+08:00 level=WARN msg="Using default admin password — set ADMIN_PASSWORD env var in production"
+time=2026-09-06T16:22:07.705+08:00 level=INFO msg="Initial admin user created" username=admin
+time=2026-09-06T16:22:07.732+08:00 level=INFO msg="Knowledge base loaded" medical_entries=0 drug_entries=0 emergency_rules=0
+time=2026-09-06T16:22:07.733+08:00 level=INFO msg="LLM provider initialized" provider="OpenAI-compatible (glm-4.7-flash)"
+time=2026-09-06T16:22:07.733+08:00 level=WARN msg="Embedding provider unavailable; using keyword-only retrieval (set EMBEDDING_BASE_URL to enable semantic retrieval)" error="EMBEDDING_BASE_URL is required: semantic retrieval needs a real embedding model matching the baked vectors (bge-m3)"
+time=2026-09-06T16:22:07.733+08:00 level=INFO msg="Session persistence enabled" type=file dir=/tmp/da-sessions
+time=2026-09-06T16:22:07.733+08:00 level=INFO msg="Session persistence enabled" type=database
+time=2026-09-06T16:22:07.735+08:00 level=INFO msg="Starting HTTP server" addr=0.0.0.0:7071
+time=2026-09-06T16:22:15.498+08:00 level=INFO msg="HTTP request" method=GET path=/health duration=31.917µs
+time=2026-09-06T16:22:24.436+08:00 level=INFO msg="HTTP request" method=POST path=/api/chat/completions duration=8.542µs
+time=2026-09-06T16:22:59.461+08:00 level=ERROR msg="LLM StreamChat failed" error="openai-compatible API error (status 429): {\"error\":{\"code\":\"1305\",\"message\":\"该模型当前访问量过大，请您稍后再试\"}}" conversation_id=repro-1 iteration=0 max_iterations=5
+time=2026-09-06T16:22:59.462+08:00 level=ERROR msg="Agent stream processing error" error="LLM error: openai-compatible API error (status 429): {\"error\":{\"code\":\"1305\",\"message\":\"该模型当前访问量过大，请您稍后再试\"}}" endpoint=/chat/stream conversation_id=repro-1 message_len=40 has_images=false
+time=2026-09-06T16:22:59.462+08:00 level=INFO msg="HTTP request" method=POST path=/chat/stream duration=156.310833ms
+time=2026-09-06T16:26:57.507+08:00 level=INFO msg="File logging enabled" dir=logs file=doctor-agent.log maxSizeMB=10 maxAgeDays=7
+time=2026-09-06T16:29:41.316+08:00 level=INFO msg="File logging enabled" dir=logs file=doctor-agent.log maxSizeMB=10 maxAgeDays=7
+time=2026-09-06T16:55:36.940+08:00 level=INFO msg="Shutting down..."
+time=2026-09-06T16:55:36.943+08:00 level=ERROR msg="Server error" error="http: Server closed"
+time=2026-09-06T16:55:39.855+08:00 level=INFO msg="File logging enabled" dir=logs file=doctor-agent.log maxSizeMB=10 maxAgeDays=7
+time=2026-09-06T16:55:39.965+08:00 level=INFO msg="Database initialized" dsn="root:@tcp(localhost:3306)/doctor_agent?parseTime=true&charset=utf8mb4&collation=utf8mb4_unicode_ci&interpolateParams=true"
+time=2026-09-06T16:55:40.000+08:00 level=INFO msg="Knowledge base loaded" medical_entries=420 drug_entries=13 emergency_rules=12
+time=2026-09-06T16:55:40.000+08:00 level=INFO msg="LLM provider initialized" provider="OpenAI-compatible (glm-4.7-flash)"
+time=2026-09-06T16:55:40.000+08:00 level=WARN msg="Embedding provider unavailable; using keyword-only retrieval (set EMBEDDING_BASE_URL to enable semantic retrieval)" error="EMBEDDING_BASE_URL is required: semantic retrieval needs a real embedding model matching the baked vectors (bge-m3)"
+time=2026-09-06T16:55:40.000+08:00 level=INFO msg="Session persistence enabled" type=file dir=/tmp/da-sessions
+time=2026-09-06T16:55:40.000+08:00 level=INFO msg="Session persistence enabled" type=database
+time=2026-09-06T16:55:40.001+08:00 level=INFO msg="Starting HTTP server" addr=0.0.0.0:7071
+time=2026-09-06T16:55:49.361+08:00 level=WARN msg="Transient LLM error, retrying" attempt=1 wait=1.5s error="openai-compatible API error (status 429): {\"error\":{\"code\":\"1302\",\"message\":\"您的账户已达到速率限制，请您控制请求频率\"}}"
+time=2026-09-06T16:55:50.968+08:00 level=WARN msg="Transient LLM error, retrying" attempt=2 wait=3s error="openai-compatible API error (status 429): {\"error\":{\"code\":\"1305\",\"message\":\"该模型当前访问量过大，请您稍后再试\"}}"
+time=2026-09-06T16:55:54.067+08:00 level=ERROR msg="LLM StreamChat failed" error="LLM error after retries: openai-compatible API error (status 429): {\"error\":{\"code\":\"1302\",\"message\":\"您的账户已达到速率限制，请您控制请求频率\"}}" conversation_id=repro-2 iteration=0 max_iterations=5
+time=2026-09-06T16:55:54.067+08:00 level=ERROR msg="Agent stream processing error" error="LLM error after retries: openai-compatible API error (status 429): {\"error\":{\"code\":\"1302\",\"message\":\"您的账户已达到速率限制，请您控制请求频率\"}}" endpoint=/chat/stream conversation_id=repro-2 message_len=40 has_images=false
+time=2026-09-06T16:55:54.067+08:00 level=INFO msg="HTTP request" method=POST path=/chat/stream duration=6.932713792s
+time=2026-09-06T16:56:21.072+08:00 level=INFO msg="Shutting down..."
+time=2026-09-06T16:56:21.072+08:00 level=ERROR msg="Server error" error="http: Server closed"
+time=2026-09-06T16:56:22.103+08:00 level=INFO msg="File logging enabled" dir=logs file=doctor-agent.log maxSizeMB=10 maxAgeDays=7
+time=2026-09-06T16:56:22.205+08:00 level=INFO msg="Database initialized" dsn="root:@tcp(localhost:3306)/doctor_agent?parseTime=true&charset=utf8mb4&collation=utf8mb4_unicode_ci&interpolateParams=true"
+time=2026-09-06T16:56:22.237+08:00 level=INFO msg="Knowledge base loaded" medical_entries=420 drug_entries=13 emergency_rules=12
+time=2026-09-06T16:56:22.237+08:00 level=INFO msg="LLM provider initialized" provider="OpenAI-compatible (glm-4-flash)"
+time=2026-09-06T16:56:22.237+08:00 level=WARN msg="Embedding provider unavailable; using keyword-only retrieval (set EMBEDDING_BASE_URL to enable semantic retrieval)" error="EMBEDDING_BASE_URL is required: semantic retrieval needs a real embedding model matching the baked vectors (bge-m3)"
+time=2026-09-06T16:56:22.237+08:00 level=INFO msg="Session persistence enabled" type=file dir=/tmp/da-sessions
+time=2026-09-06T16:56:22.237+08:00 level=INFO msg="Session persistence enabled" type=database
+time=2026-09-06T16:56:22.237+08:00 level=INFO msg="Starting HTTP server" addr=0.0.0.0:7071
+time=2026-09-06T16:56:50.031+08:00 level=INFO msg="HTTP request" method=POST path=/chat/stream duration=19.861081s
+time=2026-09-06T16:57:58.625+08:00 level=INFO msg="Shutting down..."
+time=2026-09-06T16:57:58.625+08:00 level=ERROR msg="Server error" error="http: Server closed"

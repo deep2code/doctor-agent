@@ -728,6 +728,67 @@ func (s *Store) LabEntriesAsKnowledge() []KnowledgeEntry {
 	return out
 }
 
+// FHSGuidesAsKnowledge projects the FHS parenting corpus (母乳/睡眠/发育等
+// 育儿全文) as KnowledgeEntry with the article in Body, so colloquial
+// parenting questions ("宝宝晚上突然大哭") recall it via body bigram matching.
+func (s *Store) FHSGuidesAsKnowledge() []KnowledgeEntry {
+	_ = s.ensureFHS()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]KnowledgeEntry, 0, len(s.FHSGuides))
+	for i := range s.FHSGuides {
+		g := &s.FHSGuides[i]
+		out = append(out, KnowledgeEntry{
+			ID:          fmt.Sprintf("fhs-%03d", i+1),
+			ConditionZH: g.Title,
+			Category:    "fhs_parenting",
+			Keywords:    []string{g.Title},
+			Body:        g.Title + "\n" + g.Content,
+			Citations:   []Citation{{Title: "香港卫生署家庭健康服务：" + g.Title, URL: g.URL}},
+		})
+	}
+	return out
+}
+
+// MSDAsKnowledge projects the MSD Manual consumer/professional articles as
+// KnowledgeEntry bodies for retrieval.
+func (s *Store) MSDAsKnowledge() []KnowledgeEntry {
+	_ = s.ensureMSD()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]KnowledgeEntry, 0, len(s.MSDEntries))
+	for i := range s.MSDEntries {
+		m := &s.MSDEntries[i]
+		out = append(out, KnowledgeEntry{
+			ID:          fmt.Sprintf("msd-%04d", i+1),
+			ConditionZH: m.Title,
+			Category:    "msd_manual",
+			Keywords:    []string{m.Title},
+			Body:        m.Title + "\n" + m.Content,
+		})
+	}
+	return out
+}
+
+// MedlinePlusAsKnowledge projects MedlinePlus medical encyclopedia pages.
+func (s *Store) MedlinePlusAsKnowledge() []KnowledgeEntry {
+	_ = s.ensureMedlinePlus()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]KnowledgeEntry, 0, len(s.MedlinePlusEntries))
+	for i := range s.MedlinePlusEntries {
+		m := &s.MedlinePlusEntries[i]
+		out = append(out, KnowledgeEntry{
+			ID:          fmt.Sprintf("mlp-%04d", i+1),
+			ConditionZH: m.Title,
+			Category:    "medlineplus",
+			Keywords:    []string{m.Title},
+			Body:        m.Title + "\n" + m.Content,
+		})
+	}
+	return out
+}
+
 // GetLiteratureTopics returns the literature topic table.
 func (s *Store) GetLiteratureTopics() []LiteratureTopic {
 	_ = s.ensureLiterature()

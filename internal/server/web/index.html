@@ -77,6 +77,17 @@
   .welcome-body .pickable.sel .limb { stroke: rgba(14,124,134,.55); }
   .welcome-body .pickable.sel .olabel { fill: #fff; font-weight: 800; }
   .welcome-examples { display: flex; flex-direction: column; gap: 10px; max-width: 430px; margin: 6px auto 0; width: 100%; }
+  .upload-cta {
+    display: flex; align-items: center; gap: 14px; text-align: left; font: inherit; cursor: pointer;
+    width: 100%; max-width: 430px; margin: 18px auto 22px;
+    background: rgba(255,255,255,.75); border: 2px dashed rgba(14,124,134,.45); border-radius: 14px;
+    padding: 14px 18px; transition: border-color .2s, background .2s, transform .2s;
+  }
+  .upload-cta:hover { border-color: var(--accent); background: #fff; transform: translateY(-1px); }
+  .uc-icon { font-size: 28px; flex-shrink: 0; }
+  .uc-text { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+  .uc-text b { font-size: 15.5px; color: #0a5f68; }
+  .uc-text i { font-style: normal; font-size: 12.5px; color: var(--muted); line-height: 1.5; }
   .ex-title { font-size: 13px; color: var(--muted); }
   .ex-q {
     text-align: left; font: inherit; font-size: 14.5px; line-height: 1.6; cursor: pointer;
@@ -176,11 +187,27 @@
   #send:disabled { background: #cbd5d5; color: #94a3a3; cursor: not-allowed; box-shadow: none; }
   #img-btn {
     background: rgba(255,255,255,.9); border: 2px solid rgba(14,124,134,.2); border-radius: 14px;
-    padding: 12px 14px; cursor: pointer; flex-shrink: 0; font-size: 20px;
-    display: flex; align-items: center; justify-content: center; color: var(--muted); transition: all .2s;
+    padding: 12px 16px; cursor: pointer; flex-shrink: 0; font-size: 18px;
+    display: flex; align-items: center; gap: 6px; justify-content: center; color: #0a5f68; transition: all .2s;
     box-shadow: 0 2px 8px rgba(14,124,134,.1);
   }
-  #img-btn:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
+  #img-btn .ib-text { font-size: 14px; font-weight: 700; }
+  #img-btn:hover { border-color: var(--accent); background: var(--accent-light); transform: translateY(-1px); }
+  @media (max-width: 560px) { #img-btn .ib-text { display: none; } #img-btn { padding: 12px 14px; } }
+  #drop-mask {
+    position: fixed; inset: 0; z-index: 300; display: none; align-items: center; justify-content: center;
+    background: rgba(10,95,104,.55); backdrop-filter: blur(2px);
+  }
+  #drop-mask.on { display: flex; }
+  #drop-mask span {
+    color: #fff; font-size: 22px; font-weight: 800; letter-spacing: 1px;
+    background: rgba(14,124,134,.9); border: 2px dashed rgba(255,255,255,.8);
+    border-radius: 18px; padding: 28px 44px;
+  }
+  .pv-hint {
+    align-self: center; font-size: 13px; color: #0a5f68; background: var(--accent-light);
+    border-radius: 999px; padding: 6px 14px; font-weight: 600;
+  }
   #file-input { display: none; }
   #img-preview-bar { max-width: 860px; margin: 0 auto; display: none; gap: 8px; padding: 8px 0 0; flex-wrap: wrap; }
   #img-preview-bar.has-images { display: flex; }
@@ -445,6 +472,10 @@
           <div class="welcome-body-cap">点击器官或肢体选中，再点一次取消</div>
         </div>
         <div class="welcome-side">
+          <button type="button" class="upload-cta" id="upload-cta">
+            <span class="uc-icon">📋</span>
+            <span class="uc-text"><b>上传检查报告</b><i>化验单、X光、CT 报告拍照发给我，帮您解读</i></span>
+          </button>
           <div class="welcome-examples">
             <div class="ex-title">可以这样问</div>
             <button type="button" class="ex-q">我一喝牛奶就拉肚子，是乳糖不耐受吗？</button>
@@ -465,13 +496,14 @@
       <button type="button" id="body-pick-clear" aria-label="取消选择">✕</button></span>
   </div>
     <div id="input-area">
-        <button id="img-btn" title="上传检查图片（X光/CT/化验单等）">📷</button>
+        <button id="img-btn" title="上传检查报告（化验单/X光/CT）"><span class="ib-icon">📷</span><span class="ib-text">报告</span></button>
     <input type="file" id="file-input" accept="image/jpeg,image/png,image/gif,image/webp" multiple />
-    <textarea id="input" rows="1" placeholder="描述您的症状，Enter 发送，Shift+Enter 换行"></textarea>
+    <textarea id="input" rows="1" placeholder="描述症状，或发化验单 / 报告的照片…"></textarea>
     <button id="send">发送</button>
   </div>
   <div id="img-preview-bar"></div>
   <div class="error-tip" id="error-tip"></div>
+  <div id="drop-mask" aria-hidden="true"><span>松开，上传检查报告</span></div>
   <p class="hint"><span>AI 回答仅供参考，不能替代专业医生诊断；紧急情况请拨打 120</span><span class="version-info" id="version-info">© 2026 医答 Doctor Agent</span></p>
 </footer>
 
@@ -665,6 +697,12 @@
         '<button class="img-rm" data-idx="' + i + '">&times;</button>';
       previewBar.appendChild(div);
     });
+    if (pendingImages.length) {
+      var hint = document.createElement("span");
+      hint.className = "pv-hint";
+      hint.textContent = "已加 " + pendingImages.length + " 张，发送后帮您解读";
+      previewBar.appendChild(hint);
+    }
     previewBar.querySelectorAll(".img-rm").forEach(function (btn) {
       btn.addEventListener("click", function () {
         pendingImages.splice(parseInt(btn.dataset.idx), 1);
@@ -692,6 +730,32 @@
   fileInput.addEventListener("change", function () {
     if (fileInput.files.length) handleFiles(fileInput.files);
     fileInput.value = "";
+  });
+  /* 欢迎页上传入口 + 粘贴 + 拖拽 */
+  var uploadCta = document.getElementById("upload-cta");
+  if (uploadCta) uploadCta.addEventListener("click", function () { fileInput.click(); });
+  document.addEventListener("paste", function (e) {
+    var files = e.clipboardData && e.clipboardData.files;
+    if (files && files.length) { e.preventDefault(); handleFiles(files); }
+  });
+  var dropMask = document.getElementById("drop-mask"), dragDepth = 0;
+  window.addEventListener("dragenter", function (e) {
+    if (!e.dataTransfer || Array.prototype.indexOf.call(e.dataTransfer.types || [], "Files") < 0) return;
+    e.preventDefault();
+    dragDepth++;
+    dropMask.classList.add("on");
+  });
+  window.addEventListener("dragleave", function (e) {
+    e.preventDefault();
+    dragDepth = Math.max(0, dragDepth - 1);
+    if (!dragDepth) dropMask.classList.remove("on");
+  });
+  window.addEventListener("dragover", function (e) { e.preventDefault(); });
+  window.addEventListener("drop", function (e) {
+    e.preventDefault();
+    dragDepth = 0;
+    dropMask.classList.remove("on");
+    if (e.dataTransfer && e.dataTransfer.files.length) handleFiles(e.dataTransfer.files);
   });
 
   /* ---- Markdown ---- */

@@ -58,6 +58,11 @@ type KnowledgeEntry struct {
 	ClinicalExamples       []ClinicalExample   `json:"clinical_examples,omitempty"`
 	Citations              []Citation          `json:"citations"`
 	Keywords               []string            `json:"keywords"`
+	// Body carries full article text for prose corpora (FHS/MSD/MedlinePlus
+	// projections). It is matched by bigram overlap, not substring, and is
+	// NOT sent to the prompt as-is (the prompt builder uses structured fields
+	// plus a truncated excerpt — see buildKnowledgeBlock).
+	Body string `json:"body,omitempty"`
 }
 
 // ClinicalExample provides a real-world case illustration.

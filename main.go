@@ -142,7 +142,7 @@ Vector Database:
 
 Embedding:
   EMBEDDING_ENABLED                Enable embedding service (default: true)
-  EMBEDDING_BASE_URL               Embedding API base URL (empty = in-process local hash embedder)
+  EMBEDDING_BASE_URL               Embedding API base URL (REQUIRED — no fallback; must match baked model)
                                    Ollama local: http://localhost:11434/v1
                                    Zhipu remote: https://open.bigmodel.cn/api/paas/v4
   EMBEDDING_API_KEY                Embedding API key (optional — local Ollama needs no key)
@@ -503,12 +503,12 @@ func runSyncKnowledge(cfg *config.Config) {
 		}
 	}()
 
-	// Initialize embedding provider (defaults to the in-process local provider
-	// when no remote credentials are configured, so sync works fully offline).
+	// Initialize embedding provider. EMBEDDING_BASE_URL is required: baked
+	// Qdrant vectors come from bge-m3, and the query side must match.
 	fmt.Println("🔗 初始化嵌入服务...")
 	embedder, err := embedding.NewDefault(cfg.EmbeddingBaseURL, cfg.EmbeddingAPIKey, cfg.EmbeddingModel, cfg.EmbeddingDimensions)
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "❌ 嵌入服务初始化失败: %v\n", err)
+		fmt.Fprintf(os.Stderr, "❌ 嵌入服务初始化失败: %v\n  请配置 EMBEDDING_BASE_URL / EMBEDDING_MODEL (与烘焙同模型, 如 bge-m3)\n", err)
 		return
 	}
 

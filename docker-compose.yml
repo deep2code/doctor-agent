@@ -55,6 +55,19 @@ services:
       QDRANT__STORAGE__WAL_PATH: /tmp/wal
     restart: unless-stopped
 
+  # 查询端 embedding: bge-m3 INT8 CPU (与烘焙向量同模型同空间)。
+  # 模型已打进镜像 —— 打包机构建推送, 运行机直接拉, 无需模型文件。
+  embed:
+    image: ${EMBED_IMAGE:-crpi-0xi5k79l9j4opzta.cn-hangzhou.personal.cr.aliyuncs.com/codeup2026/doctor-agent-embed:latest}
+    container_name: doctor-agent-embed
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import urllib.request;urllib.request.urlopen('http://localhost:18080/healthz')"]
+      interval: 30s
+      timeout: 5s
+      retries: 10
+      start_period: 60s
+    restart: unless-stopped
+
   app:
     image: ${IMAGE_NAME:-crpi-0xi5k79l9j4opzta.cn-hangzhou.personal.cr.aliyuncs.com/codeup2026/doctor-agent:latest}
     container_name: doctor-agent
@@ -80,6 +93,8 @@ services:
       VECTOR_STORE_PORT: "6334"
       VECTOR_COLLECTION: medical_knowledge
       EMBEDDING_ENABLED: "true"
+      EMBEDDING_BASE_URL: http://embed:18080/v1
+      EMBEDDING_MODEL: model
       LOG_LEVEL: ${LOG_LEVEL:-warn}
     volumes:
       - ./logs:/app/logs
@@ -87,6 +102,8 @@ services:
       mariadb:
         condition: service_healthy
       qdrant:
+        condition: service_started
+      embed:
         condition: service_started
     restart: unless-stopped
 

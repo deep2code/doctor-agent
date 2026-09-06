@@ -21,8 +21,8 @@ cd "$(dirname "$0")"
 
 MODE="${1:-app}"
 case "$MODE" in
-  app|qdrant|full) ;;
-  *) echo "用法: $0 [app|qdrant|full]"; exit 1 ;;
+  app|qdrant|embed|full) ;;
+  *) echo "用法: $0 [app|qdrant|embed|full]"; exit 1 ;;
 esac
 
 # ── 版本信息 ──────────────────────────────────────
@@ -42,6 +42,21 @@ fi
 APP_IMAGE="${REGISTRY}/doctor-agent:${GIT_TAG}"
 APP_IMAGE_LATEST="${REGISTRY}/doctor-agent:latest"
 QDRANT_IMAGE="${REGISTRY}/doctor-agent-qdrant:latest"
+EMBED_IMAGE="${REGISTRY}/doctor-agent-embed:latest"
+
+build_embed() {
+  echo "[embed] 构建 embedding 查询服务镜像 (bge-m3 INT8 模型打入镜像)..."
+  [[ -f "bge-m3-onnx/model.int8.onnx" ]] || {
+    echo "  错误: bge-m3-onnx/model.int8.onnx 不存在, 先运行 python3 external/export_onnx.py --int8"
+    exit 1
+  }
+  docker build --progress=plain --platform linux/amd64 \
+    --pull=false \
+    -t "$EMBED_IMAGE" \
+    -f Dockerfile.embed \
+    --provenance false \
+    .
+}
 
 build_app() {
   echo "[app] 构建应用镜像（Go 源码 + 前端，.dockerignore 排除 gz）..."
@@ -148,12 +163,18 @@ case "$MODE" in
     build_qdrant
     push_image "$QDRANT_IMAGE"
     ;;
+  embed)
+    build_embed
+    push_image "$EMBED_IMAGE"
+    ;;
   full)
     build_app
     push_image "$APP_IMAGE"
     push_image "$APP_IMAGE_LATEST"
     build_qdrant
     push_image "$QDRANT_IMAGE"
+    build_embed
+    push_image "$EMBED_IMAGE"
     ;;
 esac
 

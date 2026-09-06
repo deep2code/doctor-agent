@@ -61,6 +61,24 @@ func NewOpenAICompat(cfg Config) (*OpenAICompatProvider, error) {
 	}, nil
 }
 
+// NewDefault selects an embedding provider from environment-style config:
+// an OpenAI-compatible provider when baseURL is configured (apiKey optional —
+// local services like Ollama need no key). An empty baseURL is an error:
+// semantic retrieval must use the same model the vectors were baked with
+// (bge-m3) — there is deliberately no offline fallback, because hashed
+// lexical vectors would silently mismatch the baked vector space.
+func NewDefault(baseURL, apiKey, model string, dimensions int) (Provider, error) {
+	if baseURL == "" {
+		return nil, fmt.Errorf("EMBEDDING_BASE_URL is required: semantic retrieval needs a real embedding model matching the baked vectors (bge-m3)")
+	}
+	return NewOpenAICompat(Config{
+		BaseURL:    baseURL,
+		APIKey:     apiKey,
+		Model:      model,
+		Dimensions: dimensions,
+	})
+}
+
 // embeddingRequest represents the API request.
 type embeddingRequest struct {
 	Model      string   `json:"model"`

@@ -80,9 +80,10 @@ FROM --platform=$BUILDPLATFORM qdrant/qdrant:v1.19.0 AS bake
 COPY --from=build /out/vector-bake /usr/local/bin/vector-bake
 COPY --from=datalayer /opt/knowledge/gz /opt/knowledge/gz
 
-# Embedding 配置（构建期传入，build.sh 在 Mac 上自动设置）：
-#   默认空 → vector-bake 走本地 FNV hash（离线，无需外部服务）
-#   设了 BASE_URL → 走 OpenAI 兼容 API（如 Ollama bge-m3 真实向量）
+# Embedding 配置（构建期传入）：
+#   必须设 EMBEDDING_BASE_URL → 走 OpenAI 兼容 API（如 Ollama bge-m3 真实向量）。
+#   默认空 → vector-bake 会直接报错退出（2026-09-06 起无本地 hash 回退，
+#   查询端/烘焙端必须与烘焙向量同模型）。
 ARG EMBEDDING_BASE_URL=
 ARG EMBEDDING_API_KEY=
 ARG EMBEDDING_MODEL=
@@ -101,7 +102,8 @@ ARG BAKE_GOMEMLIMIT=2GiB
 # BAKE_RECREATE=1 → 烘焙前删除 collection，完全从零开始（默认增量覆盖）
 ARG BAKE_RECREATE=
 
-# vector-bake 默认走本地离线 hash embedding（1024 维），无需外部 API；
+# vector-bake 需要 EMBEDDING_BASE_URL 指向 bge-m3 兼容服务（无离线回退，
+# 留空会在烘焙阶段显式失败而不是静默烘出不可用的哈希向量）；
 # vector-bake 内部自带 Qdrant 就绪等待（最多 120s）。
 # 注: 新版 qdrant 镜像移除了 --storage-path CLI 参数，改用 env 配置
 #     （QDRANT__STORAGE__STORAGE_PATH 对新旧版本均有效）。

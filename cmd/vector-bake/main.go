@@ -59,8 +59,8 @@ func main() {
 		}
 	}
 
-	// Remote embedding is optional: with no base URL/key configured the
-	// local deterministic hash embedder (1024 dims) is used — fully offline.
+	// Embedding must match the model the vectors were baked with (bge-m3);
+	// there is no offline hash fallback. EMBEDDING_BASE_URL is required.
 	baseURL := os.Getenv("EMBEDDING_BASE_URL")
 	apiKey := os.Getenv("EMBEDDING_API_KEY")
 	model := os.Getenv("EMBEDDING_MODEL")
@@ -188,17 +188,18 @@ func sscanfInt(arg, prefix string, dst *int) error {
 	return err
 }
 
-// embedderName reports which embedder will be used for bake.
+// embedderName reports which embedder will be used for bake. An empty
+// baseURL means NewDefault will refuse to start — say so up front.
 func embedderName(baseURL, apiKey, model string) string {
-	if baseURL != "" {
-		name := model
-		if name == "" {
-			name = "text-embedding-v3"
-		}
-		if apiKey != "" {
-			return name + " (remote)"
-		}
-		return name + " (local API)"
+	if baseURL == "" {
+		return "未配置 (EMBEDDING_BASE_URL 必填, 将拒绝启动)"
 	}
-	return "local-hash (offline, 1024d)"
+	name := model
+	if name == "" {
+		name = "text-embedding-v3"
+	}
+	if apiKey != "" {
+		return name + " (remote)"
+	}
+	return name + " (local API)"
 }

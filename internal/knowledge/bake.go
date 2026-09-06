@@ -79,8 +79,9 @@ func bakePayload(dataset, key string, data []byte) map[string]string {
 
 // Bake reads every gz knowledge file, classifies it via seedFile (the same
 // classification the MariaDB seeder uses, so dataset boundaries stay
-// identical), embeds each row's search text offline (local-hash provider by
-// default) and upserts the vector + full entry JSON into Qdrant. The Qdrant
+// identical), embeds each row's search text with the injected provider
+// (must be the same model the query side uses, e.g. bge-m3) and upserts the
+// vector + full entry JSON into Qdrant. The Qdrant
 // storage produced here is what gets baked into the doctor-agent-qdrant data
 // image, making the vector store a complete RAG knowledge source on its own.
 func Bake(ctx context.Context, vecStore *VectorStore, embedder embedding.Provider, cfg BakeConfig) (*BakeResult, error) {

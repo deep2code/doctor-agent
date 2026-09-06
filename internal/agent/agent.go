@@ -66,7 +66,7 @@ func New(cfg *config.Config) (*Agent, error) {
 	if cfg.VectorStoreEnabled && cfg.EmbeddingEnabled {
 		embedder, embedErr := embedding.NewDefault(cfg.EmbeddingBaseURL, cfg.EmbeddingAPIKey, cfg.EmbeddingModel, cfg.EmbeddingDimensions)
 		if embedErr != nil {
-			slog.Warn("Embedding provider unavailable; using keyword-only retrieval", "error", embedErr)
+			slog.Warn("Embedding provider unavailable; using keyword-only retrieval (set EMBEDDING_BASE_URL to enable semantic retrieval)", "error", embedErr)
 		} else {
 			vecStore, vecErr := knowledge.NewVectorStore(knowledge.VectorStoreConfig{
 				Host:       cfg.VectorStoreHost,

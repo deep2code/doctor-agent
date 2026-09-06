@@ -76,6 +76,37 @@
   .welcome-body .pickable.sel .foot { fill: rgba(14,124,134,.75); stroke: #0a5f68; }
   .welcome-body .pickable.sel .limb { stroke: rgba(14,124,134,.55); }
   .welcome-body .pickable.sel .olabel { fill: #fff; font-weight: 800; }
+  /* 区域放大面板：细分部位逐级选择 */
+  #body-zoom { margin-top: 8px; text-align: left; }
+  #body-zoom .bz-head { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+  #body-zoom .bz-head b { font-size: 13px; color: var(--accent-dark); }
+  #body-zoom-back {
+    font-size: 12px; border: 1px solid var(--border); background: #fff; color: var(--muted);
+    border-radius: 9px; padding: 2px 9px; cursor: pointer;
+  }
+  #body-zoom-back:hover { color: var(--accent-dark); border-color: var(--accent); }
+  #body-zoom-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+  #body-zoom-chips button {
+    font-size: 12px; border: 1px solid #cfe9e7; background: #f4fbfa; color: #0f6b74;
+    border-radius: 10px; padding: 3px 10px; cursor: pointer; animation: stepIn .25s ease both;
+  }
+  #body-zoom-chips button:hover { background: #e8f6f5; }
+  #body-zoom-chips button.sel { background: var(--accent); border-color: var(--accent-dark); color: #fff; font-weight: 700; }
+
+  /* ---- 人体运行图：发病机制系统视图 ---- */
+  .run-svg { width: 100%; max-width: 300px; display: block; margin: 0 auto; }
+  .run-svg .sil { fill: #eef4f5; stroke: #c9dcde; stroke-width: 2; }
+  .run-svg .sys-flow { stroke: #9fc4c8; stroke-width: 1.6; stroke-dasharray: 5 4; fill: none; animation: runflow 1.6s linear infinite; }
+  .run-svg .sys-node { fill: #fff; stroke: #b7d2d5; stroke-width: 1.4; }
+  .run-svg .sys-node.on { fill: var(--accent-light, #e3f4f4); stroke: var(--accent, #0e7c86); stroke-width: 2; }
+  .run-svg .sys-node.on text { font-weight: 800; }
+  .run-svg .sys-on-pulse { animation: runpulse 1.8s ease-in-out infinite; }
+  .run-svg text { font-size: 11px; fill: #40606a; text-anchor: middle; }
+  .run-svg .sys-node.on text { fill: #0a5f68; }
+  @keyframes runflow { to { stroke-dashoffset: -18; } }
+  @keyframes runpulse { 0%, 100% { opacity: 1; } 50% { opacity: .55; } }
+  .run-legend { font-size: 12.5px; color: var(--muted); margin-top: 8px; line-height: 1.7; }
+  .run-legend b { color: #0f6b74; }
   .welcome-examples { display: flex; flex-direction: column; gap: 10px; max-width: 430px; margin: 6px auto 0; width: 100%; }
   .upload-cta {
     display: flex; align-items: center; gap: 14px; text-align: left; font: inherit; cursor: pointer;
@@ -319,6 +350,27 @@
     font-size: 11px; color: #0f6b74; background: #e8f6f5; border: 1px solid #cfe9e7;
     border-radius: 10px; padding: 2px 9px; animation: stepIn .3s ease both;
   }
+  .line-steps .stp.active {
+    background: #fff; border-color: var(--accent); font-weight: 700;
+    box-shadow: 0 0 0 3px rgba(14,124,134,.12);
+  }
+  .line-steps .stp.active::before {
+    content: ""; display: inline-block; width: 9px; height: 9px; margin-right: 5px;
+    vertical-align: -1px; border: 2px solid var(--accent); border-top-color: transparent;
+    border-radius: 50%; animation: spin .8s linear infinite;
+  }
+  /* 发送后、首个 SSE 事件前的"工作中"动画，避免误以为卡死 */
+  .think-row { display: flex; align-items: center; gap: 8px; margin-top: 7px; font-size: 12px; color: var(--muted); }
+  .think-row .think-dot { display: inline-flex; gap: 4px; }
+  .think-row .think-dot i {
+    width: 6px; height: 6px; border-radius: 50%; background: var(--accent);
+    opacity: .35; animation: tdot 1.2s ease-in-out infinite;
+  }
+  .think-row .think-dot i:nth-child(2) { animation-delay: .2s; }
+  .think-row .think-dot i:nth-child(3) { animation-delay: .4s; }
+  .think-row .think-timer { font-variant-numeric: tabular-nums; color: #7c8b93; }
+  @keyframes tdot { 0%, 100% { opacity: .25; transform: translateY(0); } 50% { opacity: 1; transform: translateY(-3px); } }
+  @keyframes spin { to { transform: rotate(360deg); } }
 
   /* ---- 回答展示：结论横幅 + 图文并行 + 折叠抽屉 ---- */
   .line.ai .line-say {
@@ -469,7 +521,14 @@
       <div class="welcome-grid">
         <div class="welcome-body">
           <div id="welcome-body-svg"></div>
-          <div class="welcome-body-cap">点击器官或肢体选中，再点一次取消</div>
+          <div id="body-zoom" hidden>
+            <div class="bz-head">
+              <button type="button" id="body-zoom-back">← 全身</button>
+              <b id="body-zoom-name"></b>
+            </div>
+            <div id="body-zoom-chips"></div>
+          </div>
+          <div class="welcome-body-cap">点部位放大，再选细分位置；再点一次取消</div>
         </div>
         <div class="welcome-side">
           <button type="button" class="upload-cta" id="upload-cta">
@@ -496,9 +555,9 @@
       <button type="button" id="body-pick-clear" aria-label="取消选择">✕</button></span>
   </div>
     <div id="input-area">
-        <button id="img-btn" title="上传检查报告（化验单/X光/CT）"><span class="ib-icon">📷</span><span class="ib-text">报告</span></button>
+        <button id="img-btn" title="上传检查报告（化验单/X光/CT）"><span class="ib-icon">📷</span><span class="ib-text">检查报告</span></button>
     <input type="file" id="file-input" accept="image/jpeg,image/png,image/gif,image/webp" multiple />
-    <textarea id="input" rows="1" placeholder="描述症状，或发化验单 / 报告的照片…"></textarea>
+    <textarea id="input" rows="1" placeholder="描述症状，或发化验单 / 检查报告的照片…"></textarea>
     <button id="send">发送</button>
   </div>
   <div id="img-preview-bar"></div>
@@ -560,7 +619,7 @@
     line.className = "line " + role;
     var who = document.createElement("div");
     who.className = "line-who";
-    who.innerHTML = role === "user" ? "我" : persona.name + ' <span class="line-role">AI 助手</span>';
+    who.innerHTML = role === "user" ? "问题" : persona.name + ' <span class="line-role">AI 助手</span>';
     var say = document.createElement("div");
     say.className = "line-say";
     if (role === "user") {
@@ -639,6 +698,66 @@
     };
   }
 
+  /* ---- 人体运行图：回答涉及病因/机制时展示，八大系统关系 + 高亮受影响系统 ---- */
+  var BODY_SYSTEMS = [
+    { id: "nerve",  name: "神经",   desc: "传导信号，调控痛觉、体温与反应", unit: "head",     x: 230, y: 64 },
+    { id: "endo",   name: "内分泌", desc: "激素调节代谢与生长发育",         unit: "thyroid",  x: 318, y: 118 },
+    { id: "resp",   name: "呼吸",   desc: "吸入氧气，排出二氧化碳",         unit: "lungs",    x: 142, y: 172 },
+    { id: "circ",   name: "循环",   desc: "输送氧气与养分，带走代谢废物",   unit: "heart",    x: 318, y: 226 },
+    { id: "digest", name: "消化",   desc: "分解食物，吸收营养",             unit: "stomach",  x: 142, y: 306 },
+    { id: "immune", name: "免疫",   desc: "识别并清除病原与异常细胞",       unit: "spleen",   x: 318, y: 352 },
+    { id: "uri",    name: "泌尿",   desc: "过滤血液，排泄废物，平衡水电解质", unit: "bladder", x: 142, y: 442 },
+    { id: "motion", name: "运动",   desc: "骨骼肌肉支撑身体、完成活动",     unit: "legs",     x: 318, y: 500 }
+  ];
+  var SYSTEM_OF_UNIT = { head: "nerve", thyroid: "endo", airway: "resp", lungs: "resp", heart: "circ",
+    liver: "digest", gallbladder: "digest", stomach: "digest", spleen: "immune", pancreas: "digest",
+    kidneys: "uri", intestine: "digest", colon: "digest", appendix: "digest", bladder: "uri",
+    arms: "motion", legs: "motion" };
+  function bodyRunSVG(hits) {
+    var on = {};
+    (hits || "").split(",").forEach(function (u) {
+      var s = SYSTEM_OF_UNIT[u.trim()];
+      if (s) on[s] = 1;
+    });
+    var W = 460, H = 560;
+    var s = '<svg class="run-svg" viewBox="0 0 ' + W + " " + H + '" xmlns="http://www.w3.org/2000/svg" aria-label="人体运行图：八大系统关系">';
+    /* 人体剪影 */
+    s += '<g class="sil" opacity=".55">';
+    s += '<circle cx="230" cy="66" r="34"/>';
+    s += '<path d="M186,112 Q230,96 274,112 Q288,150 276,208 Q268,252 278,292 L282,420 Q280,452 252,456 L208,456 Q180,452 178,420 L182,292 Q192,252 184,208 Q172,150 186,112 Z"/>';
+    s += '<path d="M188,120 L150,220 M272,120 L310,220" style="fill:none;stroke-width:16;stroke:#eef4f5"/>';
+    s += '<path d="M210,458 L206,540 M250,458 L254,540" style="fill:none;stroke-width:20;stroke:#eef4f5"/>';
+    s += '</g>';
+    /* 系统间流动连线（循环→各系统的物质/信号交换） */
+    var circ = BODY_SYSTEMS[3];
+    BODY_SYSTEMS.forEach(function (n) {
+      if (n.id === "circ") return;
+      s += '<path class="sys-flow" d="M' + circ.x + "," + circ.y + " Q" + ((circ.x + n.x) / 2 + (n.x < circ.x ? -30 : 30)) + "," + ((circ.y + n.y) / 2) + " " + n.x + "," + n.y + '"/>';
+    });
+    /* 系统节点 */
+    BODY_SYSTEMS.forEach(function (n) {
+      var cls = "sys-node" + (on[n.id] ? " on sys-on-pulse" : "");
+      s += '<g class="' + cls + '">';
+      s += '<rect x="' + (n.x - 34) + '" y="' + (n.y - 17) + '" width="68" height="34" rx="10"/>';
+      s += '<text x="' + n.x + '" y="' + (n.y + 4) + '">' + n.name + "</text></g>";
+    });
+    s += "</svg>";
+    var names = BODY_SYSTEMS.filter(function (n) { return on[n.id]; });
+    var legend;
+    if (names.length) {
+      legend = "结合问题，受影响较直接的是 <b>" + names.map(function (n) { return n.name; }).join("、") +
+        "</b> 系统：" + names.map(function (n) { return "<b>" + n.name + "</b>（" + n.desc + "）"; }).join("；") +
+        "。其他系统通过血液循环与神经信号协同参与。";
+    } else {
+      legend = "循环系统把氧气养分送往全身，神经与内分泌系统发出调控信号，消化、呼吸、泌尿系统负责物质进出，免疫系统巡逻防御——各系统协同维持运转。";
+    }
+    return '<div class="ans-media-cap">八大系统如何协同运行（高亮 = 与问题直接相关）</div>' + s +
+      '<div class="run-legend">' + legend + "</div>";
+  }
+  function hasCauseContent(md) {
+    return /(病因|发病|致病|病理机制|发生机制|机制|什么原因|什么引起的|为什么会)/.test(md || "");
+  }
+
   function renderAnswer(md) {
     if (!md) return "";
     var sec = splitSections(md);
@@ -669,8 +788,11 @@
     out += '<div class="ans-grid"><div class="ans-main">' + renderMD(detailMd) + "</div>";
     if (hits) out += '<div class="ans-media">' + bodyFigure(hits) + "</div>";
     out += "</div>";
-    /* 3. 专业描述 / 参考引用：默认折叠 */
+    /* 3. 专业描述 / 参考引用 / 人体运行图：默认折叠 */
     out += drawer("🔬", "专业描述", renderMD(joinTitles(sec.prof)), "prof");
+    if (hasCauseContent(md)) {
+      out += drawer("🫀", "人体运行图（发病机制）", bodyRunSVG(hits), "run");
+    }
     out += drawer("📚", "参考引用", renderMD(joinPlain(sec.refs)), "refs");
     return out || renderMD(md);
   }
@@ -771,6 +893,16 @@
       .replace(/href\s*=\s*["']javascript:[^"']*["']/gi, 'href="#"');
   }
   var mermaidSeq = 0;
+  /* LLM 常在节点标签里写括号（如 A[发热(38.5°C)]、B{是否紧急(车祸)?}），
+     mermaid 解析器直接报错。兜底：给含括号的标签自动补引号后重试一次。 */
+  function mermaidFixLabels(text) {
+    return text.replace(/([A-Za-z0-9_一-鿿])(\[[^\][{}"\n]*\]|\{[^{}[\]"\n]*\})/g,
+      function (m, id, seg) {
+        var body = seg.slice(1, -1);
+        if (/^".*"$/.test(body) || !/[（）(){}\[\]]/.test(body)) return m;
+        return id + seg[0] + '"' + body.replace(/"/g, "”") + '"' + seg[seg.length - 1];
+      });
+  }
   function renderMermaid(container) {
     if (!container) return;
     if (!window.mermaid) {
@@ -781,19 +913,32 @@
       var preEl = codeEl.parentNode;
       var text = codeEl.textContent;
       var id = "mmd-" + (++mermaidSeq);
-      function applyMermaid(res) {
-        // mermaid v9 render() 同步返回 svg 字符串；v10 返回 Promise<{svg}>
-        var svg = typeof res === "string" ? res : (res && res.svg) || "";
-        if (svg && preEl.parentNode) preEl.outerHTML = svg;
-      }
-      try {
-        var out = window.mermaid.render(id, text);
-        if (out && typeof out.then === "function") {
-          out.then(applyMermaid).catch(function () {});
-        } else {
-          applyMermaid(out);
+      function attempt(src, onFail) {
+        function applyMermaid(res) {
+          // mermaid v9 render() 同步返回 svg 字符串；v10 返回 Promise<{svg}>
+          var svg = typeof res === "string" ? res : (res && res.svg) || "";
+          if (svg && preEl.parentNode) preEl.outerHTML = svg;
+          else if (onFail) onFail();
         }
-      } catch (e) {}
+        try {
+          var out = window.mermaid.render(id, src);
+          if (out && typeof out.then === "function") {
+            out.then(applyMermaid).catch(function (e) {
+              console.warn("mermaid render failed:", e && e.message);
+              if (onFail) onFail();
+            });
+          } else {
+            applyMermaid(out);
+          }
+        } catch (e) {
+          console.warn("mermaid render failed:", e && e.message);
+          if (onFail) onFail();
+        }
+      }
+      attempt(text, function () {
+        var fixed = mermaidFixLabels(text);
+        if (fixed !== text) attempt(fixed, null);
+      });
     });
   }
 
@@ -846,7 +991,7 @@
       var extra = pad ? '<circle class="hitpad" fill="transparent" cx="' + pad[0] + '" cy="' + pad[1] + '" r="' + pad[2] + '"/>' : "";
       return '<g class="pickable' + selCls + '" data-unit="' + unit + '" tabindex="0" role="button" aria-label="选择 ' + (BODY_UNITS[unit] || unit) + '">' + extra + inner + '</g>';
     }
-    var s = '<svg class="ans-body" viewBox="70 24 320 616" xmlns="http://www.w3.org/2000/svg" aria-label="人体解剖示意图">';
+    var s = '<svg class="ans-body" viewBox="' + (opts.vb || "70 24 320 616") + '" xmlns="http://www.w3.org/2000/svg" aria-label="人体解剖示意图">';
     /* 躯干轮廓 */
     s += '<g class="silhouette">';
     s += '<ellipse cx="230" cy="58" rx="33" ry="37"/>';
@@ -940,35 +1085,96 @@
 
   /* ---- 欢迎屏：点选人体部位 -> 引用提问 ---- */
   var bodyPick = "";
+  var bodyPickLabel = "";
+  /* 区域放大：点击部位先放大到区域视图，再选细分位置，逐级精确 */
+  var BODY_GROUPS = {
+    head:    { name: "头部", units: ["head"], box: "165,8,130,115",
+               subs: [["太阳穴"], ["眼"], ["耳"], ["鼻"], ["口腔/牙"], ["咽喉"], ["后脑"], ["整个头部", "head"]] },
+    neck:    { name: "颈喉", units: ["thyroid", "airway"], box: "158,64,144,105",
+               subs: [["甲状腺", "thyroid"], ["咽喉"], ["气管", "airway"], ["颈椎"], ["颈侧淋巴结"], ["整个颈部", "thyroid"]] },
+    chest:   { name: "胸部", units: ["heart", "lungs"], box: "90,116,280,180",
+               subs: [["心脏", "heart"], ["心前区", "heart"], ["胸骨后", "heart"], ["气管", "airway"], ["支气管", "lungs"], ["左肺", "lungs"], ["右肺", "lungs"], ["胸壁/肋骨"], ["乳房"]] },
+    abdomen: { name: "腹部", units: ["liver", "gallbladder", "stomach", "spleen", "pancreas", "kidneys", "intestine", "colon", "appendix", "bladder"], box: "88,270,284,245",
+               subs: [["肝", "liver"], ["胆囊", "gallbladder"], ["胃", "stomach"], ["脾", "spleen"], ["胰腺", "pancreas"], ["小肠", "intestine"], ["大肠", "colon"], ["阑尾", "appendix"], ["肾", "kidneys"], ["膀胱", "bladder"], ["肚脐周"], ["整个腹部"]] },
+    arms:    { name: "上肢", units: ["arms"], box: "30,140,380,235",
+               subs: [["肩"], ["上臂"], ["肘"], ["前臂"], ["手腕"], ["手/手指"]] },
+    legs:    { name: "下肢", units: ["legs"], box: "120,452,220,200",
+               subs: [["髋/腹股沟"], ["大腿"], ["膝"], ["小腿"], ["踝"], ["脚背"], ["脚底/脚趾"]] }
+  };
+  var UNIT_GROUP = {};
+  Object.keys(BODY_GROUPS).forEach(function (g) {
+    BODY_GROUPS[g].units.forEach(function (u) { UNIT_GROUP[u] = g; });
+  });
+  var bodyZoom = "";
+  function bodyZoomPanel() {
+    var panel = document.getElementById("body-zoom");
+    if (!panel) return;
+    if (!bodyZoom) { panel.hidden = true; return; }
+    var g = BODY_GROUPS[bodyZoom];
+    panel.hidden = false;
+    document.getElementById("body-zoom-name").textContent = g.name;
+    var chips = document.getElementById("body-zoom-chips");
+    chips.innerHTML = "";
+    g.subs.forEach(function (sub) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.textContent = sub[0];
+      if (bodyPick && sub[0] === bodyPickLabel) b.classList.add("sel");
+      b.addEventListener("click", function () {
+        var unit = sub[1] || g.units[0];
+        if (bodyPick === unit && bodyPickLabel === sub[0]) { clearBodyPick(); return; }
+        setBodyPick(unit, sub[0]);
+      });
+      chips.appendChild(b);
+    });
+  }
   function renderWelcomeBody() {
     var el = document.getElementById("welcome-body-svg");
-    if (el) el.innerHTML = ansBodySVG(bodyPick, { interactive: true });
+    if (el) {
+      var g = bodyZoom ? BODY_GROUPS[bodyZoom] : null;
+      el.innerHTML = ansBodySVG(bodyPick, { interactive: true, vb: g ? g.box : "" });
+    }
+    bodyZoomPanel();
   }
   function updatePickBar() {
     var bar = document.getElementById("body-pick-bar");
     if (!bar) return;
     if (bodyPick) {
       bar.hidden = false;
-      document.getElementById("body-pick-name").textContent = BODY_UNITS[bodyPick] || bodyPick;
+      document.getElementById("body-pick-name").textContent = bodyPickLabel || BODY_UNITS[bodyPick] || bodyPick;
     } else {
       bar.hidden = true;
     }
   }
-  function setBodyPick(unit) {
-    bodyPick = (bodyPick === unit) ? "" : unit;
+  function setBodyPick(unit, label) {
+    var nextLabel = label || "";
+    if (bodyPick === unit && bodyPickLabel === nextLabel) { clearBodyPick(); return; }
+    bodyPick = unit;
+    bodyPickLabel = nextLabel;
     renderWelcomeBody();
     updatePickBar();
     if (bodyPick && typeof input !== "undefined" && input) input.focus();
   }
+  function activateBodyUnit(unit) {
+    if (!unit) return;
+    var g = UNIT_GROUP[unit] || "";
+    if (!bodyZoom) { bodyZoom = g; renderWelcomeBody(); return; }   // 第一击：放大到区域
+    if (g && g !== bodyZoom) { bodyZoom = g; renderWelcomeBody(); return; } // 放大态点其他区域：切换
+    setBodyPick(unit, "");                                          // 同组：直接选中该器官
+  }
   function clearBodyPick() {
-    if (!bodyPick) return;
+    if (!bodyPick && !bodyZoom) return;
     bodyPick = "";
+    bodyPickLabel = "";
+    bodyZoom = "";
     renderWelcomeBody();
     updatePickBar();
   }
   document.addEventListener("click", function (e) {
     var t = e.target.closest ? e.target.closest("#welcome-body-svg .pickable") : null;
-    if (t) setBodyPick(t.getAttribute("data-unit"));
+    if (t) activateBodyUnit(t.getAttribute("data-unit"));
+    var zb = e.target.closest ? e.target.closest("#body-zoom-back") : null;
+    if (zb) { bodyZoom = ""; renderWelcomeBody(); }
     var ex = e.target.closest ? e.target.closest(".ex-q") : null;
     if (ex && typeof input !== "undefined" && input && typeof send === "function") {
       input.value = ex.textContent;
@@ -978,7 +1184,7 @@
   document.addEventListener("keydown", function (e) {
     if (e.key !== "Enter" && e.key !== " ") return;
     var t = e.target && e.target.closest ? e.target.closest("#welcome-body-svg .pickable") : null;
-    if (t) { e.preventDefault(); setBodyPick(t.getAttribute("data-unit")); }
+    if (t) { e.preventDefault(); activateBodyUnit(t.getAttribute("data-unit")); }
   });
   var pickClearBtn = document.getElementById("body-pick-clear");
   if (pickClearBtn) pickClearBtn.addEventListener("click", clearBodyPick);
@@ -1134,7 +1340,7 @@
 
     var rawText = text;
     if (bodyPick) {
-      var bpName = BODY_UNITS[bodyPick] || bodyPick;
+      var bpName = bodyPickLabel || BODY_UNITS[bodyPick] || bodyPick;
       text = text ? ("【不适部位：" + bpName + "】" + text)
                   : ("【不适部位：" + bpName + "】请帮我分析可能的原因和注意事项。");
       clearBodyPick();
@@ -1155,7 +1361,29 @@
     var cursor = document.createElement("span");
     cursor.className = "cursor";
     say.appendChild(cursor);
-    line.appendChild(who); line.appendChild(stepsWrap); line.appendChild(say);
+    /* "工作中"动画：发送即出现，首个 SSE 事件到达后移除 */
+    var thinkRow = document.createElement("div");
+    thinkRow.className = "think-row";
+    thinkRow.innerHTML = '<span class="think-dot"><i></i><i></i><i></i></span>' +
+      '<span class="think-msg">正在理解您的问题…</span><span class="think-timer"></span>';
+    var thinkMsg = thinkRow.querySelector(".think-msg");
+    var thinkTimer = thinkRow.querySelector(".think-timer");
+    var thinkStart = Date.now();
+    var thinkTick = setInterval(function () {
+      var sec = Math.floor((Date.now() - thinkStart) / 1000);
+      thinkTimer.textContent = sec > 0 ? sec + "s" : "";
+    }, 500);
+    var THINK_MSGS = ["正在理解您的问题…", "检索循证知识库…", "比对临床资料…", "组织回答…"];
+    var thinkIdx = 0;
+    var thinkCycle = setInterval(function () {
+      thinkIdx = (thinkIdx + 1) % THINK_MSGS.length;
+      thinkMsg.textContent = THINK_MSGS[thinkIdx];
+    }, 4000);
+    function stopThinking() {
+      clearInterval(thinkTick); clearInterval(thinkCycle);
+      if (thinkRow.parentNode) thinkRow.parentNode.removeChild(thinkRow);
+    }
+    line.appendChild(who); line.appendChild(stepsWrap); line.appendChild(thinkRow); line.appendChild(say);
     transcript.appendChild(line);
 
     var STEP_TEXT = {
@@ -1168,8 +1396,12 @@
       verify: "🛡️ 正在校验引用与安全性"
     };
     function addStep(ev) {
+      stopThinking();
+      stepsWrap.querySelectorAll(".stp.active").forEach(function (el) { el.classList.remove("active"); });
       var chip = document.createElement("span");
       chip.className = "stp";
+      var known = !!STEP_TEXT[ev.type];
+      if (known) chip.classList.add("active");
       chip.textContent = STEP_TEXT[ev.type] || ("· " + (ev.summary || ""));
       stepsWrap.appendChild(chip);
       setDocStatus(STEP_TEXT[ev.type] || ev.summary || "");
@@ -1197,6 +1429,7 @@
         buf += decoder.decode(r.value, { stream: true });
         buf = parseSSE(buf, {
           delta: function (d) {
+            stopThinking();
             try { full += JSON.parse(d).text || ""; } catch (e) {}
             say.innerHTML = renderAnswer(full);
             say.appendChild(cursor);
@@ -1228,10 +1461,12 @@
       setSpeech("ai", plainText(full) || "（无响应）");
       saveHistory();
     } catch (e) {
+      stopThinking();
       if (cursor.parentNode === say) say.removeChild(cursor);
       say.textContent = "";
       showError("⚠️ " + e.message);
     } finally {
+      stopThinking();
       setSending(false);
       setDocStatus("");
       input.focus();
@@ -1254,7 +1489,6 @@
   }
 
   $("new-chat").addEventListener("click", newConv);
-("click", newConv);
   $("menu-btn").addEventListener("click", openSidebar);
   $("mask").addEventListener("click", closeAll);
 

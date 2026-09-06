@@ -80,7 +80,6 @@ func newTestAgent(cfg *config.Config, p llm.LLMProvider) *Agent {
 		router:            tools.NewRouter(),
 		emergencyDetector: safety.NewEmergencyDetector(),
 		scopeGuard:        safety.NewScopeGuard(),
-		disclaimerService: safety.NewDisclaimerService(),
 		postVerifier:      safety.NewPostVerifier(map[string]string{}),
 		sessions:          make(map[string]*session.Session),
 	}
@@ -109,8 +108,8 @@ func TestProcessMessageStreamDeliversDeltas(t *testing.T) {
 	if !strings.HasPrefix(resp.Text, "你好世界") {
 		t.Errorf("resp.Text = %q, want prefix 你好世界", resp.Text)
 	}
-	if !resp.DisclaimerSent {
-		t.Error("first response should carry the disclaimer")
+	if resp.DisclaimerSent {
+		t.Error("disclaimer injection removed; flag should stay false")
 	}
 	// User + assistant messages recorded once each.
 	if msgs := sess.GetMessages(); len(msgs) != 2 {
@@ -257,8 +256,8 @@ func TestSessionPersistenceDuringProcessing(t *testing.T) {
 	if msgs := restored.GetMessages(); len(msgs) != 2 {
 		t.Errorf("persisted messages = %d, want 2", len(msgs))
 	}
-	if !restored.DisclaimerSent {
-		t.Error("disclaimer flag not persisted")
+	if restored.DisclaimerSent {
+		t.Error("disclaimer no longer injected; flag should stay false")
 	}
 }
 

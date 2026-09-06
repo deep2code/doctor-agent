@@ -29,7 +29,7 @@
 #   MODEL_SOURCE=auto  auto|upload|remote
 #                     upload: 上传本地 fp32 模型 (~2.3GB, rsync 断点续传)
 #                     remote: GPU 服务器自己从 HF 导出 (国内机器配 HF_ENDPOINT 镜像)
-#   GPU_BATCH_SIZE=256               CUDA 批大小
+#   GPU_BATCH_SIZE=48                CUDA 批大小 (3080 Ti 12G 跑 256 会 CUDA OOM, 48 稳)
 #   HF_ENDPOINT=https://hf-mirror.com  远程 HuggingFace 镜像
 #   PIP_INDEX_URL=                   远程 pip 镜像 (如 https://pypi.tuna.tsinghua.edu.cn/simple)
 #   GH_PROXY=                        GitHub 加速前缀 (如 https://ghfast.top/), 远程下 qdrant 二进制用
@@ -55,7 +55,7 @@ GPU_SSH_OPTS="${GPU_SSH_OPTS:-}"
 REMOTE_DIR="${REMOTE_DIR:-}"   # 留空 = 自动选 (AutoDL 有数据盘 /root/autodl-tmp 就用数据盘)
 MODEL_DIR="${MODEL_DIR:-./bge-m3-onnx}"
 MODEL_SOURCE="${MODEL_SOURCE:-auto}"
-GPU_BATCH_SIZE="${GPU_BATCH_SIZE:-256}"
+GPU_BATCH_SIZE="${GPU_BATCH_SIZE:-48}"
 HF_ENDPOINT="${HF_ENDPOINT:-https://hf-mirror.com}"
 PIP_INDEX_URL="${PIP_INDEX_URL:-}"
 GH_PROXY="${GH_PROXY:-}"
@@ -268,7 +268,8 @@ do_log() {
   rsh "tail -f -n 30 $REMOTE_DIR/$BAKE_LOG"
 }
 do_stop() {
-  rsh "pkill -f bake_onnx.py 2>/dev/null && echo 已停止 || echo 无进程"
+  # [b] 括号技巧: 防止 pkill 匹配到自身 ssh 命令行 (否则自杀, ssh 退出码 255)
+  rsh "pkill -f '[b]ake_onnx.py' 2>/dev/null && echo 已停止 || echo 无进程"
 }
 
 # ── fetch ──
@@ -288,7 +289,7 @@ do_fetch() {
   echo "============================================"
   echo "  ✅ GPU 烘焙产物已就位: $STORAGE_DIR ($size, $segs 个 segment 文件)"
   echo "  下一步: ./build.sh qdrant   (Dockerfile.qdrant.slim 打包)"
-  echo "  退租前清理: ./bake-gpu.sh clean"
+  echo "  退租: AutoDL 控制台关机/释放即销毁远程数据 (无 clean 命令)"
   echo "============================================"
 }
 

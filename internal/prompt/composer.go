@@ -46,6 +46,10 @@ func (c *Composer) ComposeSystemPrompt(retrieved []knowledge.RetrievalResult, pa
 	sb.WriteString(LayerEverydayHealth)
 	sb.WriteString("\n\n")
 
+	// Layer 3.55: Colloquial ↔ clinical term mapping (口语/俗称对应规范术语)
+	sb.WriteString(LayerColloquialMapping)
+	sb.WriteString("\n\n")
+
 	// Layer 3.75: Answer formatting (tables, mermaid, plain language, 专业原理)
 	sb.WriteString(LayerFormatting)
 	sb.WriteString("\n\n")

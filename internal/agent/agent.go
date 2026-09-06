@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"log/slog"
+	"sort"
 	"strings"
 	"sync"
 	"time"
@@ -27,6 +28,10 @@ type Agent struct {
 	retriever knowledge.Retriever
 	composer  *prompt.Composer
 	registry  *tools.Registry
+	// understandProvider runs the per-message colloquial→clinical query
+	// understanding step (cheaper/faster model than the main loop when
+	// UNDERSTAND_MODEL is configured; same provider otherwise).
+	understandProvider llm.LLMProvider
 
 	router            *tools.Router
 	emergencyDetector *safety.EmergencyDetector
@@ -53,6 +58,13 @@ func New(cfg *config.Config) (*Agent, error) {
 		"medical_entries", len(store.GetAllMedical()),
 		"drug_entries", len(store.GetAllDrugs()),
 		"emergency_rules", len(store.GetAllEmergencyRules()))
+
+	// Optional external alias dictionary for colloquial→clinical query
+	// expansion ("兔唇" → 唇腭裂/唇裂/腭裂). Missing file is fine: the
+	// built-in synonym groups still apply.
+	if err := knowledge.LoadAliasFile(cfg.AliasMapPath); err != nil {
+		slog.Warn("Alias map failed to load; using built-in synonyms only", "path", cfg.AliasMapPath, "error", err)
+	}
 
 	// Create LLM provider based on config
 	provider, err := createProvider(cfg)
@@ -88,6 +100,19 @@ func New(cfg *config.Config) (*Agent, error) {
 	composer := prompt.NewComposer()
 	registry := tools.NewRegistry()
 	router := tools.NewRouter()
+
+	// Query-understanding provider: optionally a cheaper/faster
+	// OpenAI-compatible model than the main conversation loop.
+	understandProvider := provider
+	if cfg.UnderstandModel != "" {
+		if cfg.LLMProvider == "openai-compat" {
+			understandProvider = llm.NewOpenAICompatProvider(
+				cfg.OpenAICompatBaseURL, cfg.OpenAICompatAPIKey, cfg.UnderstandModel, 1024, 0.1)
+			slog.Info("Query understanding uses dedicated model", "model", cfg.UnderstandModel)
+		} else {
+			slog.Info("UNDERSTAND_MODEL ignored: only openai-compat supports a separate understanding model")
+		}
+	}
 
 	// Register unified tools (10 total: 6 action + 2 unified retrieval/lookup
 	// + 2 knowledge-graph lookup).
@@ -128,11 +153,12 @@ func New(cfg *config.Config) (*Agent, error) {
 	}
 
 	return &Agent{
-		cfg:               cfg,
-		provider:          provider,
-		store:             store,
-		retriever:         retriever,
-		composer:          composer,
+		cfg:                cfg,
+		provider:           provider,
+		understandProvider: understandProvider,
+		store:              store,
+		retriever:          retriever,
+		composer:           composer,
 		registry:          registry,
 		router:            router,
 		emergencyDetector: safety.NewEmergencyDetector(),
@@ -259,6 +285,173 @@ func (a *Agent) streamWithRetry(ctx context.Context, messages []llm.Message, too
 
 // isTransientLLMError reports whether the error looks like a temporary
 // provider-side failure that a retry can fix.
+// queryUnderstanding is the parsed output of the per-message understanding
+// step: structured clinical concepts extracted from colloquial patient
+// language.
+type queryUnderstanding struct {
+	Symptoms            []string `json:"symptoms"`
+	SuspectedConditions []string `json:"suspected_conditions"`
+	SearchQueries       []string `json:"search_queries"`
+}
+
+// retrieveWithUnderstanding retrieves knowledge for a user message. The
+// verbatim query runs first (never blocked on the LLM); in parallel an LLM
+// step parses the colloquial phrasing into structured clinical concepts, and
+// each concept becomes its own retrieval branch. One ambiguous colloquialism
+// ("拉肚子" = 感染性腹泻 or 乳糖不耐受 or 秋季腹泻…) thus fans out to all
+// plausible standard concepts instead of betting on a single mapping —
+// enumerating, not disambiguating; ranking and the generation layer resolve
+// ambiguity later with full conversational context. Any failure of the
+// understanding step degrades silently to verbatim-only retrieval.
+func (a *Agent) retrieveWithUnderstanding(ctx context.Context, userMessage string, step func(StepEvent)) []knowledge.RetrievalResult {
+	base, err := a.retriever.Retrieve(ctx, userMessage, a.cfg.KnowledgeTopK)
+	if err != nil {
+		slog.Warn("Knowledge retrieval failed", "error", err)
+		base = nil
+	}
+	if !a.cfg.QueryUnderstandingEnabled {
+		return base
+	}
+
+	understood := a.understandQuery(ctx, userMessage)
+	if understood == nil {
+		return base
+	}
+
+	queries := understood.SearchQueries
+	if len(queries) == 0 && len(understood.SuspectedConditions) > 0 {
+		// Prompt asks for search_queries; build them from conditions as a
+		// fallback when the model omitted that field.
+		joined := strings.Join(understood.Symptoms, " ")
+		for _, c := range understood.SuspectedConditions {
+			queries = append(queries, strings.TrimSpace(c+" "+joined))
+		}
+	}
+	if len(queries) > maxUnderstandingBranches {
+		queries = queries[:maxUnderstandingBranches]
+	}
+	if len(queries) == 0 {
+		return base
+	}
+
+	step(StepEvent{Type: "retrieve", Summary: fmt.Sprintf("口语解析出 %d 条检索式，多路并行检索中", len(queries))})
+
+	type branchResult struct {
+		results []knowledge.RetrievalResult
+	}
+	branches := make(chan branchResult, len(queries))
+	for _, q := range queries {
+		go func(q string) {
+			res, err := a.retriever.Retrieve(ctx, q, a.cfg.KnowledgeTopK)
+			if err != nil {
+				slog.Warn("Understanding-branch retrieval failed", "query", q, "error", err)
+			}
+			branches <- branchResult{results: res}
+		}(q)
+	}
+	paths := make([][]knowledge.RetrievalResult, 0, len(queries))
+	for range queries {
+		if b := <-branches; len(b.results) > 0 {
+			paths = append(paths, b.results)
+		}
+	}
+
+	merged := mergeRetrievalBranches(base, paths, a.cfg.KnowledgeTopK)
+	slog.Debug("Knowledge retrieved", "count", len(merged), "branches", len(paths))
+	return merged
+}
+
+// maxUnderstandingBranches caps the parallel retrieval branches spawned from
+// one message's understanding output.
+const maxUnderstandingBranches = 3
+
+// understandQuery runs the LLM understanding step and parses its JSON
+// output. Returns nil on any failure — callers fall back to verbatim-only
+// retrieval, so an unavailable understanding model must never break search.
+func (a *Agent) understandQuery(ctx context.Context, userMessage string) *queryUnderstanding {
+	uctx, cancel := context.WithTimeout(ctx, 10*time.Second)
+	defer cancel()
+	resp, err := a.understandProvider.Chat(uctx,
+		[]llm.Message{{Role: "user", Content: userMessage}},
+		nil, prompt.QueryUnderstandingSystem)
+	if err != nil {
+		slog.Warn("Query understanding failed; using verbatim retrieval only", "error", err)
+		return nil
+	}
+	raw := extractJSONObject(resp.Text)
+	if raw == "" {
+		slog.Warn("Query understanding produced no JSON object; skipping branches")
+		return nil
+	}
+	var u queryUnderstanding
+	if err := json.Unmarshal([]byte(raw), &u); err != nil {
+		slog.Warn("Query understanding JSON parse failed; skipping branches", "error", err)
+		return nil
+	}
+	return &u
+}
+
+// extractJSONObject pulls the outermost {...} span out of an LLM response,
+// tolerating markdown fences or stray prose (some providers emit them even
+// when told not to).
+func extractJSONObject(s string) string {
+	start := strings.Index(s, "{")
+	end := strings.LastIndex(s, "}")
+	if start < 0 || end <= start {
+		return ""
+	}
+	return s[start : end+1]
+}
+
+// mergeRetrievalBranches fuses understanding-branch results with a small RRF
+// pass (earlier branches weigh slightly more, mirroring the LLM's confidence
+// order), then appends branch-only entries after the verbatim-path results.
+// Total is capped at 2×topK so the prompt gains the extra recall without
+// drowning in citations.
+func mergeRetrievalBranches(base []knowledge.RetrievalResult, paths [][]knowledge.RetrievalResult, topK int) []knowledge.RetrievalResult {
+	const (
+		k            = 60.0 // RRF constant (Cormack et al., SIGIR 2009)
+		branchWeight = 0.5  // branches rank below verbatim-path hits
+	)
+
+	scores := make(map[string]float64)
+	entries := make(map[string]knowledge.KnowledgeEntry)
+	for i, path := range paths {
+		w := branchWeight * float64(len(paths)-i) / float64(len(paths))
+		for rank, r := range path {
+			id := r.Entry.ID
+			if _, ok := entries[id]; !ok {
+				entries[id] = r.Entry
+			}
+			scores[id] += w / (k + float64(rank+1))
+		}
+	}
+
+	out := make([]knowledge.RetrievalResult, 0, len(base)+len(scores))
+	seen := make(map[string]bool, len(base)+len(scores))
+	for _, r := range base {
+		if !seen[r.Entry.ID] {
+			seen[r.Entry.ID] = true
+			out = append(out, r)
+		}
+	}
+
+	ids := make([]string, 0, len(scores))
+	for id := range scores {
+		if !seen[id] {
+			ids = append(ids, id)
+		}
+	}
+	sort.Slice(ids, func(i, j int) bool { return scores[ids[i]] > scores[ids[j]] })
+	for _, id := range ids {
+		if len(out) >= 2*topK {
+			break
+		}
+		out = append(out, knowledge.RetrievalResult{Entry: entries[id], Score: scores[id]})
+	}
+	return out
+}
+
 func isTransientLLMError(err error) bool {
 	if err == nil {
 		return false
@@ -330,7 +523,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 	// Knowledge retrieval
 	var retrieved []knowledge.RetrievalResult
 	if a.cfg.KnowledgeEnabled {
-		retrieved, _ = a.retriever.Retrieve(ctx, userMessage, a.cfg.KnowledgeTopK)
+		retrieved = a.retrieveWithUnderstanding(ctx, userMessage, step)
 		slog.Debug("Knowledge retrieved", "count", len(retrieved))
 		if len(retrieved) > 0 {
 			step(StepEvent{Type: "retrieve", Summary: fmt.Sprintf("检索知识库，命中 %d 条相关条目", len(retrieved))})
@@ -633,7 +826,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 	// Knowledge retrieval
 	var retrieved []knowledge.RetrievalResult
 	if a.cfg.KnowledgeEnabled {
-		retrieved, _ = a.retriever.Retrieve(ctx, userMessage, a.cfg.KnowledgeTopK)
+		retrieved = a.retrieveWithUnderstanding(ctx, userMessage, step)
 		slog.Debug("Knowledge retrieved", "count", len(retrieved))
 		if len(retrieved) > 0 {
 			step(StepEvent{Type: "retrieve", Summary: fmt.Sprintf("检索知识库，命中 %d 条相关条目", len(retrieved))})

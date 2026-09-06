@@ -53,10 +53,10 @@
   #new-chat:hover { background: #fff; color: var(--accent-dark); border-color: #fff; transform: translateY(-1px); }
 
   main { flex: 1; overflow-y: auto; padding: 24px 0 12px; position: relative; z-index: 1; scroll-behavior: smooth; }
-  #chat { max-width: 860px; margin: 0 auto; padding: 0 20px; }
+  #chat { padding: 0 clamp(16px, 2.5vw, 36px); }
 
   /* ---- 欢迎页 ---- */
-  #welcome { padding: 30px 10px 14px; }
+  #welcome { max-width: 1150px; margin: 0 auto; padding: 30px 10px 14px; }
   .welcome-hero h1 { font-size: 30px; font-weight: 800; color: #123f46; letter-spacing: .5px; }
   .welcome-hero p { color: var(--muted); margin-top: 9px; font-size: 15px; }
   .welcome-grid { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 30px; align-items: start; margin-top: 26px; }
@@ -200,7 +200,7 @@
     border-top: 2px solid rgba(14,124,134,.15); padding: 16px 20px 14px; flex-shrink: 0;
     box-shadow: 0 -8px 32px rgba(10,80,90,.12);
   }
-  #input-area { max-width: 860px; margin: 0 auto; display: flex; gap: 12px; align-items: flex-end; }
+  #input-area { display: flex; gap: 12px; align-items: flex-end; }
   textarea {
     flex: 1; resize: none; border: 2px solid rgba(14,124,134,.25); border-radius: 18px;
     padding: 14px 20px; font-size: 16px; font-family: inherit; line-height: 1.5; max-height: 160px;
@@ -240,7 +240,7 @@
     border-radius: 999px; padding: 6px 14px; font-weight: 600;
   }
   #file-input { display: none; }
-  #img-preview-bar { max-width: 860px; margin: 0 auto; display: none; gap: 8px; padding: 8px 0 0; flex-wrap: wrap; }
+  #img-preview-bar { display: none; gap: 8px; padding: 8px 0 0; flex-wrap: wrap; }
   #img-preview-bar.has-images { display: flex; }
   .img-preview-item { position: relative; width: 72px; height: 72px; border-radius: 8px; border: 1px solid var(--border); overflow: hidden; flex-shrink: 0; }
   .img-preview-item img { width: 100%; height: 100%; object-fit: cover; }
@@ -251,7 +251,7 @@
   }
   .hint {
     display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap;
-    max-width: 860px; margin: 10px auto 0; text-align: center; font-size: 12px; color: var(--muted);
+    margin: 10px 0 0; text-align: center; font-size: 12px; color: var(--muted);
     background: rgba(246,168,33,.08); border: 1px solid rgba(246,168,33,.25);
     border-radius: 10px; padding: 6px 12px;
   }
@@ -267,9 +267,24 @@
     background: rgba(255,255,255,.97); border-right: 1px solid var(--border);
     display: flex; flex-direction: column; z-index: 100; box-shadow: 2px 0 16px rgba(10,70,80,.08);
   }
+  #sb-collapse {
+    border: none; background: none; cursor: pointer; color: var(--muted);
+    font-size: 13px; padding: 2px 7px; border-radius: 6px; flex-shrink: 0; line-height: 1.4;
+  }
+  #sb-collapse:hover { background: #e8f6f5; color: var(--accent-dark); }
+  /* 折叠后桌面端左缘的展开按钮 */
+  #sb-expand {
+    display: none; position: fixed; left: 0; top: 14px; z-index: 101;
+    width: 30px; height: 36px; border: 1px solid var(--border); border-left: none;
+    border-radius: 0 10px 10px 0; background: #fff; color: var(--accent-dark);
+    font-size: 14px; cursor: pointer; align-items: center; justify-content: center;
+    box-shadow: 2px 2px 10px rgba(10,70,80,.12);
+  }
+  #sb-expand:hover { background: #f0f7f6; }
   .sidebar-head {
     padding: 14px 16px; font-weight: 800; border-bottom: 1px solid var(--border);
     font-size: 15px; color: var(--accent-dark); background: linear-gradient(180deg, #f2faf9, #fff);
+    display: flex; justify-content: space-between; align-items: center;
   }
   #conv-list { flex: 1; overflow-y: auto; padding: 8px; list-style: none; margin: 0; }
   #conv-list li {
@@ -287,7 +302,11 @@
   #menu-btn { display: none; border: none; background: none; font-size: 22px; cursor: pointer; line-height: 1; padding: 0 4px; color: #fff; }
 
   @media (min-width: 769px) {
-    body { margin-left: 260px; }
+    body { margin-left: 260px; transition: margin-left .25s; }
+    #sidebar { transition: transform .25s; }
+    body.sb-collapsed { margin-left: 0; }
+    body.sb-collapsed #sidebar { transform: translateX(-100%); box-shadow: none; }
+    body.sb-collapsed #sb-expand { display: flex; }
   }
   @media (max-width: 768px) {
     body { margin-left: 0; }
@@ -322,7 +341,6 @@
 <style>
   /* ===== V2 诊室场景 ===== */
   :root { --doc-accent: #0e7c86; }
-  #chat { max-width: 960px; }
 
   /* ---- 对话记录（剧本式，非气泡） ---- */
   #transcript { padding: 4px 4px 22px; }
@@ -487,21 +505,13 @@
   @media (max-width: 768px) {
     #chat { padding: 0 12px; }
   }
- { margin: 0 -12px 14px; height: 240px; }
-    .scene-window { width: 96px; right: 8px; }
-    .scene-monitor { width: 82px; left: 8px; top: 14px; }
-    .scene-plant { left: 96px; font-size: 30px; }
-    .speech { width: 82%; bottom: 36px; }
-    .speech-text { max-height: 76px; font-size: 13.5px; }
-    .char-name { font-size: 12px; }
-    .panel-grid { grid-template-columns: repeat(2, 1fr); }
-  }
 </style>
 
 <aside id="sidebar">
-  <div class="sidebar-head">历史对话</div>
+  <div class="sidebar-head"><span>历史对话</span><button type="button" id="sb-collapse" title="收起侧栏">◀ 收起</button></div>
   <ul id="conv-list"></ul>
 </aside>
+<button type="button" id="sb-expand" title="展开侧栏">▶</button>
 <div id="mask"></div>
 
 <header>
@@ -1491,6 +1501,17 @@
   $("new-chat").addEventListener("click", newConv);
   $("menu-btn").addEventListener("click", openSidebar);
   $("mask").addEventListener("click", closeAll);
+
+  /* 桌面端侧栏折叠：默认展开，状态记忆 */
+  var sbCollapsed = false;
+  try { sbCollapsed = localStorage.getItem("sb-collapsed") === "1"; } catch (e) {}
+  function applySb() {
+    document.body.classList.toggle("sb-collapsed", sbCollapsed);
+    try { localStorage.setItem("sb-collapsed", sbCollapsed ? "1" : "0"); } catch (e) {}
+  }
+  $("sb-collapse").addEventListener("click", function () { sbCollapsed = true; applySb(); });
+  $("sb-expand").addEventListener("click", function () { sbCollapsed = false; applySb(); });
+  applySb();
 
   /* mermaid lazy-load (2.7MB) */
   var _mermaidLoaded = false;

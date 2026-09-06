@@ -2,9 +2,46 @@ package knowledge
 
 import (
 	"context"
+	"os"
+	"path/filepath"
 	"strings"
 	"testing"
 )
+
+func TestLoadAliasFileAndExpand(t *testing.T) {
+	f := filepath.Join(t.TempDir(), "alias.json")
+	content := `{"兔唇": ["唇腭裂", "唇裂"], "唇腭裂": ["兔唇", "唇裂"]}`
+	if err := os.WriteFile(f, []byte(content), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	if err := LoadAliasFile(f); err != nil {
+		t.Fatalf("LoadAliasFile: %v", err)
+	}
+	t.Cleanup(func() {
+		aliasMu.Lock()
+		aliasMap = map[string][]string{}
+		aliasMu.Unlock()
+	})
+
+	// Alias side expands to standard terms.
+	if got := ExpandQuery("宝宝有兔唇"); !strings.Contains(got, "唇腭裂") {
+		t.Errorf("alias 命中应扩展出标准词，实际: %q", got)
+	}
+	// Standard-term side expands back to aliases (双向).
+	if got := ExpandQuery("唇腭裂术后复查"); !strings.Contains(got, "兔唇") {
+		t.Errorf("标准词命中应扩展出俗称，实际: %q", got)
+	}
+	// No hit → unchanged.
+	if got := ExpandQuery("今天天气不错"); got != "今天天气不错" {
+		t.Errorf("无命中时不应改写，实际: %q", got)
+	}
+}
+
+func TestLoadAliasFileMissingIsNoop(t *testing.T) {
+	if err := LoadAliasFile(filepath.Join(t.TempDir(), "absent.json")); err != nil {
+		t.Errorf("缺失文件应为 no-op，得到错误: %v", err)
+	}
+}
 
 func TestExpandQueryAppendsSynonyms(t *testing.T) {
 	got := ExpandQuery("9个月女婴，晚上总是突然大哭")

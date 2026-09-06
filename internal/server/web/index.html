@@ -19,32 +19,9 @@
     background:
       radial-gradient(1100px 520px at 88% -8%, rgba(255,255,255,.95), transparent 60%),
       radial-gradient(900px 480px at -10% 108%, rgba(14,124,134,.14), transparent 55%),
-      radial-gradient(700px 380px at 50% 120%, rgba(246,168,33,.06), transparent 60%),
       linear-gradient(165deg, #f4faf9 0%, #e6f2f1 42%, #d8eae9 100%);
     background-attachment: fixed;
     color: var(--text); display: flex; flex-direction: column; height: 100vh;
-  }
-  /* 极淡的网格纹理 */
-  body::before {
-    content: ""; position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: .5;
-    background-image:
-      linear-gradient(rgba(14,124,134,.05) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(14,124,134,.05) 1px, transparent 1px);
-    background-size: 44px 44px;
-  }
-  /* 漂浮气泡粒子 */
-  .bg-particles { position: fixed; inset: 0; pointer-events: none; z-index: 0; overflow: hidden; }
-  .bg-particles span {
-    position: absolute; bottom: -26px; border-radius: 50%;
-    background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.95), rgba(255,255,255,.25));
-    box-shadow: 0 0 6px rgba(255,255,255,.45); opacity: 0;
-    animation: floatUp linear infinite;
-  }
-  @keyframes floatUp {
-    0% { transform: translateY(0) translateX(0); opacity: 0; }
-    10% { opacity: .85; }
-    90% { opacity: .45; }
-    100% { transform: translateY(-108vh) translateX(16px); opacity: 0; }
   }
 
   /* ---- 顶部导航栏 ---- */
@@ -335,7 +312,6 @@
 
   @media (min-width: 769px) {
     body { margin-left: 260px; }
-    .bg-particles, body::before { left: 260px; }
   }
   @media (max-width: 768px) {
     body { margin-left: 0; }
@@ -483,20 +459,106 @@
     border-radius: 10px; padding: 2px 9px; animation: stepIn .3s ease both;
   }
 
-  /* ---- 回答分节卡片 ---- */
-  .sec-card {
-    border: 1px solid var(--border); border-left: 4px solid #94a3b8; border-radius: 12px;
-    margin: 10px 0; padding: 12px 15px; background: #fff;
-    box-shadow: 0 2px 8px rgba(15,60,70,.05);
+  /* ---- 回答展示：结论横幅 + 图文并行 + 折叠抽屉 ---- */
+  .line.ai .line-say {
+    background: #fff; border: 1px solid var(--border); border-radius: 16px;
+    padding: 14px 16px 12px; box-shadow: 0 4px 16px rgba(15,60,70,.06);
   }
-  .sec-card.summary { border-left-color: #f6a821; background: linear-gradient(180deg, #fffdf4, #fff); }
-  .sec-card.detail { border-left-color: var(--accent); }
-  .sec-card.prof { border-left-color: #7c6fd8; }
-  .sec-card.refs { border-left-color: #94a3b8; background: #f8fafc; }
-  .sec-head { font-weight: 800; font-size: 14px; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
-  .sec-card.summary .sec-body { font-size: 16px; line-height: 1.85; }
-  .sec-card.summary .sec-body p:first-child { margin-top: 0; }
-  .sec-card.refs .sec-body { font-size: 12.5px; color: #475569; }
+  .ans-banner {
+    position: relative; margin: 4px 0 12px; padding: 14px 18px 15px;
+    border-radius: 14px; overflow: hidden;
+    background: linear-gradient(118deg, #0a5f68 0%, #0e7c86 74%, #14939b 100%);
+    color: #fff; box-shadow: 0 10px 24px rgba(10,95,104,.28);
+  }
+  .ans-banner::before {
+    content: ""; position: absolute; left: 0; top: 0; right: 0; height: 4px;
+    background: linear-gradient(90deg, #f6a821, #ffd270);
+  }
+  .ans-banner-cap {
+    display: flex; align-items: center; gap: 6px;
+    font-size: 12px; font-weight: 600; color: rgba(255,255,255,.82); margin-bottom: 5px;
+  }
+  .ans-banner-body { font-size: 19px; line-height: 1.72; font-weight: 600; }
+  .ans-banner-body p { margin: 0; }
+  .ans-banner-body strong { color: #ffe1a3; font-weight: 800; }
+
+  .ans-grid { display: grid; grid-template-columns: minmax(0, 1fr) 188px; gap: 14px; align-items: start; }
+  .ans-main { min-width: 0; font-size: 15.5px; line-height: 1.85; color: #253440; }
+  .ans-main p { margin: 9px 0; }
+  .ans-main ul, .ans-main ol { margin: 9px 0 9px 4px; padding-left: 20px; }
+  .ans-main li { margin: 5px 0; }
+  .ans-main h3, .ans-main h4 { font-size: 16px; margin: 14px 0 6px; color: #0a5f68; }
+  .ans-main strong { font-weight: 700; color: #0a4a52; }
+  .ans-main blockquote { border-left: 3px solid var(--accent-light); color: var(--muted); padding-left: 12px; margin: 9px 0; font-size: 13.5px; }
+  .ans-main table { border-collapse: collapse; margin: 10px 0; width: 100%; }
+  .ans-main th, .ans-main td { border: 1px solid var(--border); padding: 7px 10px; font-size: 14px; text-align: left; }
+  .ans-main th { background: #f0f7f6; font-weight: 700; }
+  .ans-main pre { background: #f6f8fa; border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; overflow-x: auto; font-size: 13px; margin: 9px 0; }
+  .ans-main code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .ans-main :not(pre) > code { background: #f0f7f6; border-radius: 4px; padding: 1px 5px; font-size: 13px; }
+  .ans-main a { color: var(--accent); text-decoration: none; }
+  .ans-main a:hover { text-decoration: underline; }
+  /* 右栏图形：人体图 / 流程图 */
+  .ans-media {
+    background: var(--accent-light); border: 1px solid rgba(14,124,134,.18);
+    border-radius: 14px; padding: 10px 8px 8px; text-align: center;
+  }
+  .ans-media .bm-face { max-width: 168px; margin: 0 auto; }
+  .ans-media .ans-body { max-width: 196px; margin: 0 auto; display: block; }
+  .ans-media-cap { font-size: 11.5px; color: var(--accent-dark); margin-top: 4px; font-weight: 600; }
+  .ans-media svg:not(.bm-face) { max-width: 100%; height: auto; }
+  .ans-media .mermaid-svg, .ans-media > svg { background: #fff; border-radius: 10px; }
+  /* 解剖插画：器官常显（浅）+ 命中高亮（teal） */
+  .ans-body .silhouette { fill: #f4fafa; stroke: #d5e7e8; stroke-width: 1.5; }
+  .ans-body .limb { fill: none; stroke: #e3eff0; stroke-linecap: round; }
+  .ans-body .limb.on { stroke: rgba(14,124,134,.32); }
+  .ans-body .foot { fill: #e3eff0; }
+  .ans-body .foot.on { fill: rgba(14,124,134,.32); }
+  .ans-body .organ { fill: #c6dcdf; stroke: #b0cccf; stroke-width: 1; transition: fill .18s, stroke .18s; }
+  .ans-body .organ.on { fill: rgba(14,124,134,.72); stroke: #0a5f68; }
+  .ans-body .organ-line { fill: none; stroke: #b0cccf; stroke-width: 1.2; }
+  .ans-body .organ-line.on { stroke: rgba(255,255,255,.75); }
+  .ans-body .olabel { font-size: 13px; fill: #5b8288; text-anchor: middle; dominant-baseline: middle; pointer-events: none; }
+  .ans-body .olabel.on { fill: #fff; font-weight: 800; }
+  .ans-body .olabel.side { font-size: 11.5px; fill: #7fa0a5; }
+  .ans-body .olabel.side.on { fill: #0a5f68; }
+  .ans-body .lead { stroke: #c3d9db; stroke-width: 1; }
+  .ans-body .lead.on { stroke: #0a5f68; }
+  /* 人体图高亮部位（复用 bm-region 结构，答案侧配色） */
+  .ans-media .bm-region { pointer-events: none; }
+  .ans-media .bm-region>rect, .ans-media .bm-region>ellipse, .ans-media .bm-region>circle {
+    fill: rgba(14,124,134,0); transition: fill .18s;
+  }
+  .ans-media .bm-region>.bm-stroke { stroke: rgba(14,124,134,0); transition: stroke .18s; }
+  .ans-media .bm-region.is-hit>rect, .ans-media .bm-region.is-hit>ellipse, .ans-media .bm-region.is-hit>circle { fill: rgba(14,124,134,.55); }
+  .ans-media .bm-region.is-hit>.bm-stroke { stroke: rgba(14,124,134,.6); }
+  .ans-media .bm-tags { display: flex; flex-wrap: wrap; gap: 4px; justify-content: center; margin-top: 8px; }
+  .ans-media .bm-tag {
+    font-size: 11px; font-weight: 700; color: #0a5f68;
+    background: #fff; border: 1px solid rgba(14,124,134,.3);
+    border-radius: 999px; padding: 2px 9px;
+  }
+  /* 折叠抽屉：专业描述 / 参考引用 */
+  .ans-drawer { border: 1px solid var(--border); border-radius: 12px; margin-top: 10px; background: #fbfdfd; }
+  .ans-drawer + .ans-drawer { margin-top: 8px; }
+  .ans-drawer-toggle {
+    width: 100%; display: flex; align-items: center; gap: 7px; border: 0; background: transparent;
+    font: inherit; font-size: 13.5px; font-weight: 700; color: var(--muted);
+    padding: 10px 14px; cursor: pointer; text-align: left;
+  }
+  .ans-drawer-toggle .chev { margin-left: auto; transition: transform .2s; font-size: 11px; }
+  .ans-drawer.open .ans-drawer-toggle .chev { transform: rotate(90deg); }
+  .ans-drawer-toggle:hover { color: var(--accent-dark); }
+  .ans-drawer-body { display: none; padding: 2px 16px 12px; font-size: 14px; line-height: 1.8; color: #33495a; }
+  .ans-drawer.open .ans-drawer-body { display: block; }
+  .ans-drawer.prof .ans-drawer-body h3, .ans-drawer.prof .ans-drawer-body h4 { font-size: 14.5px; color: #5b54b8; }
+  .ans-drawer.refs { background: #f8fafc; }
+  .ans-drawer.refs .ans-drawer-body { font-size: 12.5px; color: #475569; }
+  @media (max-width: 700px) {
+    .ans-grid { grid-template-columns: 1fr; }
+    .ans-media { max-width: 240px; margin: 0 auto; }
+    .ans-banner-body { font-size: 17.5px; }
+  }
 
   /* ---- 回答风格选择 ---- */
   .persona-pick { margin-top: 22px; }
@@ -595,19 +657,6 @@
   <button id="persona-btn" title="更换回答风格"></button>
   <button id="new-chat">新对话</button>
 </header>
-
-<div class="bg-particles" aria-hidden="true">
-  <span style="left:5%;width:9px;height:9px;animation-duration:13s;animation-delay:0s"></span>
-  <span style="left:13%;width:6px;height:6px;animation-duration:17s;animation-delay:2.2s"></span>
-  <span style="left:24%;width:11px;height:11px;animation-duration:15s;animation-delay:4.5s"></span>
-  <span style="left:36%;width:7px;height:7px;animation-duration:19s;animation-delay:1.1s"></span>
-  <span style="left:47%;width:5px;height:5px;animation-duration:14s;animation-delay:6s"></span>
-  <span style="left:58%;width:10px;height:10px;animation-duration:16s;animation-delay:3.3s"></span>
-  <span style="left:68%;width:6px;height:6px;animation-duration:20s;animation-delay:0.8s"></span>
-  <span style="left:76%;width:8px;height:8px;animation-duration:13.5s;animation-delay:5.2s"></span>
-  <span style="left:85%;width:12px;height:12px;animation-duration:18s;animation-delay:2.8s"></span>
-  <span style="left:93%;width:6px;height:6px;animation-duration:15.5s;animation-delay:7s"></span>
-</div>
 
 <main id="scroll-area">
   <div id="chat">
@@ -1215,21 +1264,33 @@ function bmInit(flipId,outId,onPick){
     var has = sec.summary.length || sec.detail.length || sec.prof.length || sec.refs.length;
     if (!has) sec = heuristicSections(md);
     var out = "";
-    function card(icon, title, mdText, cls) {
-      if (!mdText || !mdText.trim()) return "";
-      return '<div class="sec-card ' + cls + '"><div class="sec-head">' + icon + " " + title +
-        '</div><div class="sec-body">' + renderMD(mdText) + "</div></div>";
-    }
     function joinTitles(arr) {
       return arr.map(function (s) { return (s.title ? "### " + s.title + "\n\n" : "") + s.content; }).join("\n\n");
     }
     function joinPlain(arr) {
       return arr.map(function (s) { return s.content; }).join("\n\n");
     }
-    out += card("💬", "一句话总结", joinPlain(sec.summary), "summary");
-    out += card("🔍", "详细解释与推理", joinTitles(sec.detail), "detail");
-    out += card("🧬", "专业描述", joinTitles(sec.prof), "prof");
-    out += card("📚", "参考引用", joinPlain(sec.refs), "refs");
+    function drawer(icon, title, bodyHtml, cls) {
+      if (!bodyHtml || !bodyHtml.trim()) return "";
+      return '<div class="ans-drawer ' + cls + '"><button type="button" class="ans-drawer-toggle">' +
+        icon + " " + title + '<span class="chev">▶</span></button>' +
+        '<div class="ans-drawer-body">' + bodyHtml + "</div></div>";
+    }
+    /* 1. 一句话结论：全宽横幅，页面唯一重色块 */
+    var sum = joinPlain(sec.summary);
+    if (sum && sum.trim()) {
+      out += '<div class="ans-banner"><div class="ans-banner-cap">💡 一句话结论</div>' +
+        '<div class="ans-banner-body">' + renderMD(sum) + "</div></div>";
+    }
+    /* 2. 图文并行：左文字，右人体图（命中部位时） */
+    var detailMd = joinTitles(sec.detail);
+    var hits = bodyHint(detailMd);
+    out += '<div class="ans-grid"><div class="ans-main">' + renderMD(detailMd) + "</div>";
+    if (hits) out += '<div class="ans-media">' + bodyFigure(hits) + "</div>";
+    out += "</div>";
+    /* 3. 专业描述 / 参考引用：默认折叠 */
+    out += drawer("🔬", "专业描述", renderMD(joinTitles(sec.prof)), "prof");
+    out += drawer("📚", "参考引用", renderMD(joinPlain(sec.refs)), "refs");
     return out || renderMD(md);
   }
 
@@ -1307,10 +1368,118 @@ function bmInit(flipId,outId,onPick){
       var preEl = codeEl.parentNode;
       var text = codeEl.textContent;
       var id = "mmd-" + (++mermaidSeq);
-      window.mermaid.render(id, text).then(function (svg) {
-        if (preEl.parentNode) preEl.outerHTML = svg;
-      }).catch(function () {});
+      function applyMermaid(res) {
+        // mermaid v9 render() 同步返回 svg 字符串；v10 返回 Promise<{svg}>
+        var svg = typeof res === "string" ? res : (res && res.svg) || "";
+        if (svg && preEl.parentNode) preEl.outerHTML = svg;
+      }
+      try {
+        var out = window.mermaid.render(id, text);
+        if (out && typeof out.then === "function") {
+          out.then(applyMermaid).catch(function () {});
+        } else {
+          applyMermaid(out);
+        }
+      } catch (e) {}
     });
+  }
+
+  /* ---- 答案侧人体图：解剖插画风，器官常显+命中高亮 ---- */
+  var BODY_UNITS = {
+    head: "头部", thyroid: "甲状腺", heart: "心脏", lungs: "肺", liver: "肝",
+    gallbladder: "胆囊", stomach: "胃", spleen: "脾", kidneys: "肾", intestine: "肠",
+    appendix: "阑尾", bladder: "膀胱", arms: "上肢", legs: "下肢", hips: "髋 / 臀"
+  };
+  var BODY_HINTS = [
+    ["head", ["头痛", "头晕", "偏头", "脑袋", "头皮", "头部", "眩晕", "头"]],
+    ["thyroid", ["甲状腺", "咽喉", "喉咙", "脖子", "颈椎", "颈部", "颈"]],
+    ["heart", ["心口", "心前区", "心绞痛", "心悸", "心脏", "胸闷"]],
+    ["lungs", ["肺", "咳嗽", "哮喘", "呼吸", "气短", "支气管"]],
+    ["heart,lungs", ["胸口", "胸"]],
+    ["liver,gallbladder", ["右上腹", "胆囊", "胆", "肝"]],
+    ["stomach,spleen", ["胃", "胰腺", "脾"]],
+    ["appendix", ["阑尾", "右下腹"]],
+    ["intestine", ["左下腹", "结肠"]],
+    ["stomach,intestine", ["腹部", "腹痛", "肚子", "肚脐", "肠胃", "拉肚子", "腹泻", "便秘", "消化"]],
+    ["bladder,hips", ["腹股沟", "疝", "髋"]],
+    ["hips", ["尾骨", "屁股", "臀部", "臀"]],
+    ["kidneys", ["肾", "腰椎", "腰部", "下背", "腰"]],
+    ["arms", ["肩", "上臂", "胳膊", "手臂", "肘", "手指", "手腕", "手背", "腕", "手"]],
+    ["legs", ["大腿", "膝盖", "膝关节", "膝", "小腿", "腿抽筋", "抽筋", "脚趾", "足底", "脚踝", "脚", "足", "踝"]]
+  ];
+  function bodyHint(text) {
+    if (!text) return "";
+    var hits = [];
+    BODY_HINTS.forEach(function (h) {
+      for (var i = 0; i < h[1].length; i++) {
+        if (text.indexOf(h[1][i]) >= 0) {
+          h[0].split(",").forEach(function (p) { if (hits.indexOf(p) < 0) hits.push(p); });
+          return;
+        }
+      }
+    });
+    return hits.join(",");
+  }
+  function ansBodySVG(hits) {
+    var on = {};
+    (hits || "").split(",").forEach(function (p) { if (p) on[p] = 1; });
+    function cls(id) { return on[id] ? " on" : ""; }
+    var s = '<svg class="ans-body" viewBox="60 8 178 505" xmlns="http://www.w3.org/2000/svg" aria-label="人体主要器官示意图">';
+    s += '<g class="silhouette">';
+    s += '<ellipse cx="150" cy="50" rx="29" ry="33"/>';
+    s += '<rect x="138" y="78" width="24" height="28" rx="7"/>';
+    s += '<path d="M96,112 Q150,94 204,112 Q214,152 191,198 Q184,242 189,302 L111,302 Q116,242 109,198 Q86,152 96,112 Z"/>';
+    s += '</g>';
+    s += '<path class="limb' + cls("arms") + '" style="stroke-width:19" d="M93,120 Q77,190 73,262"/>';
+    s += '<path class="limb' + cls("arms") + '" style="stroke-width:19" d="M207,120 Q223,190 227,262"/>';
+    s += '<path class="limb' + cls("legs") + '" style="stroke-width:25" d="M129,304 Q124,385 127,472"/>';
+    s += '<path class="limb' + cls("legs") + '" style="stroke-width:25" d="M171,304 Q176,385 173,472"/>';
+    s += '<ellipse class="foot' + cls("legs") + '" cx="126" cy="489" rx="12" ry="8"/>';
+    s += '<ellipse class="foot' + cls("legs") + '" cx="174" cy="489" rx="12" ry="8"/>';
+    /* 器官（画面左 = 患者右） */
+    s += '<ellipse class="organ' + cls("head") + '" cx="150" cy="46" rx="17" ry="13"/>';
+    s += '<text class="olabel' + cls("head") + '" x="150" y="50">脑</text>';
+    s += '<path class="organ' + cls("thyroid") + '" d="M143,89 Q140,84 137,88 Q135,94 143,95 L150,92 L157,95 Q165,94 163,88 Q160,84 157,89 Z"/>';
+    s += '<text class="olabel side' + cls("thyroid") + '" x="216" y="92">甲状腺</text>';
+    s += '<line class="lead' + cls("thyroid") + '" x1="166" y1="90" x2="212" y2="90"/>';
+    s += '<path class="organ' + cls("lungs") + '" d="M132,116 Q116,118 114,142 Q113,164 126,170 Q135,172 136,158 L137,124 Z"/>';
+    s += '<path class="organ' + cls("lungs") + '" d="M156,116 Q172,118 174,142 Q175,164 162,170 Q153,172 152,158 L151,124 Z"/>';
+    s += '<text class="olabel' + cls("lungs") + '" x="125" y="148">肺</text>';
+    s += '<path class="organ' + cls("heart") + '" d="M158,134 Q170,128 174,140 Q177,152 166,160 Q158,165 154,156 Q151,142 158,134 Z"/>';
+    s += '<text class="olabel' + cls("heart") + '" x="162" y="148">心</text>';
+    s += '<path class="organ' + cls("liver") + '" d="M116,192 Q138,184 156,192 Q158,204 148,212 Q128,218 118,208 Q112,198 116,192 Z"/>';
+    s += '<text class="olabel' + cls("liver") + '" x="133" y="205">肝</text>';
+    s += '<circle class="organ' + cls("gallbladder") + '" cx="143" cy="216" r="5"/>';
+    s += '<text class="olabel side' + cls("gallbladder") + '" x="98" y="224">胆囊</text>';
+    s += '<line class="lead' + cls("gallbladder") + '" x1="112" y1="221" x2="99" y2="222"/>';
+    s += '<path class="organ' + cls("stomach") + '" d="M158,190 Q176,188 182,200 Q186,212 174,220 Q160,224 155,212 Q152,198 158,190 Z"/>';
+    s += '<text class="olabel' + cls("stomach") + '" x="167" y="207">胃</text>';
+    s += '<ellipse class="organ' + cls("spleen") + '" cx="188" cy="196" rx="6" ry="9"/>';
+    s += '<text class="olabel side' + cls("spleen") + '" x="204" y="192">脾</text>';
+    s += '<line class="lead' + cls("spleen") + '" x1="196" y1="196" x2="202" y2="194"/>';
+    s += '<path class="organ' + cls("kidneys") + '" d="M117,236 Q112,232 111,240 Q111,250 117,248 Q121,246 121,240 Q120,237 117,236 Z"/>';
+    s += '<path class="organ' + cls("kidneys") + '" d="M183,236 Q188,232 189,240 Q189,250 183,248 Q179,246 179,240 Q180,237 183,236 Z"/>';
+    s += '<text class="olabel side' + cls("kidneys") + '" x="97" y="246">肾</text>';
+    s += '<text class="olabel side' + cls("kidneys") + '" x="196" y="246">肾</text>';
+    s += '<line class="lead' + cls("kidneys") + '" x1="112" y1="242" x2="104" y2="244"/>';
+    s += '<line class="lead' + cls("kidneys") + '" x1="188" y1="242" x2="196" y2="244"/>';
+    s += '<ellipse class="organ' + cls("intestine") + '" cx="150" cy="258" rx="29" ry="22"/>';
+    s += '<path class="organ-line' + cls("intestine") + '" d="M136,250 Q150,242 164,250 Q170,258 160,266 Q148,272 138,264 Q132,256 140,252"/>';
+    s += '<text class="olabel' + cls("intestine") + '" x="150" y="262">肠</text>';
+    s += '<circle class="organ' + cls("appendix") + '" cx="130" cy="286" r="4"/>';
+    s += '<text class="olabel side' + cls("appendix") + '" x="98" y="296">阑尾</text>';
+    s += '<line class="lead' + cls("appendix") + '" x1="112" y1="290" x2="99" y2="293"/>';
+    s += '<circle class="organ' + cls("bladder") + '" cx="150" cy="296" r="7"/>';
+    s += '<text class="olabel side' + cls("bladder") + '" x="190" y="308">膀胱</text>';
+    s += '<line class="lead' + cls("bladder") + '" x1="158" y1="300" x2="188" y2="305"/>';
+    s += '</svg>';
+    var tags = (hits || "").split(",").filter(function (p) { return p; })
+      .map(function (p) { return '<span class="bm-tag">' + (BODY_UNITS[p] || p) + "</span>"; }).join("");
+    return s + '<div class="bm-tags">' + tags + '</div><div class="ans-media-cap">相关器官与部位</div>';
+  }
+  function bodyFigure(hitParts) {
+    if (!hitParts) return "";
+    return ansBodySVG(hitParts);
   }
 
   /* ================= 会话 ================= */
@@ -1565,6 +1734,10 @@ function bmInit(flipId,outId,onPick){
   }
 
   /* ================= 事件 ================= */
+  transcript.addEventListener("click", function (e) {
+    var t = e.target.closest ? e.target.closest(".ans-drawer-toggle") : null;
+    if (t && t.parentNode) t.parentNode.classList.toggle("open");
+  });
   sendBtn.addEventListener("click", send);
   input.addEventListener("keydown", function (e) {
     if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(); }

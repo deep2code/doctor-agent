@@ -59,12 +59,19 @@ build_embed() {
 }
 
 build_app() {
-  echo "[app] 构建应用镜像（Go 源码 + 前端，.dockerignore 排除 gz）..."
+  echo "[app] 宿主机交叉编译（复用本机 Go 缓存, 暖构建秒级）..."
+  command -v go >/dev/null 2>&1 || { echo "  错误: 打包机需要 Go 1.26+ (host compile 模式)"; exit 1; }
+  export GOPROXY="${GOPROXY:-https://goproxy.cn,direct}"
+  # 静态二进制: 无 CGO (go-sql-driver/mysql 纯 Go), 目标 linux/amd64
+  # 版本信息在此注入 (原 Dockerfile 构建层的等价逻辑)
+  CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -trimpath \
+    -ldflags "-s -w -X main.gitCommit=${GIT_COMMIT} -X main.buildTime=${BUILD_TIME}" \
+    -o doctor-agent-linux .
+  echo "  编译完成: $(du -h doctor-agent-linux | cut -f1)"
 
+  echo "[app] 打包镜像（只 COPY 二进制, 秒级）..."
   docker build --progress=plain --platform linux/amd64 \
     --pull=false \
-    --build-arg GIT_COMMIT="${GIT_COMMIT}" \
-    --build-arg BUILD_TIME="${BUILD_TIME}" \
     -t "$APP_IMAGE" \
     -t "$APP_IMAGE_LATEST" \
     -f Dockerfile \

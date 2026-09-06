@@ -1,5 +1,6 @@
 # Binaries
 doctor-agent
+doctor-agent-linux
 *.exe
 *.exe~
 *.dll

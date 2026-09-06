@@ -31,7 +31,6 @@ type Agent struct {
 	router            *tools.Router
 	emergencyDetector *safety.EmergencyDetector
 	scopeGuard        *safety.ScopeGuard
-	disclaimerService *safety.DisclaimerService
 	postVerifier      *safety.PostVerifier
 
 	sessionsMu   sync.RWMutex
@@ -138,7 +137,6 @@ func New(cfg *config.Config) (*Agent, error) {
 		router:            router,
 		emergencyDetector: safety.NewEmergencyDetector(),
 		scopeGuard:        safety.NewScopeGuard(),
-		disclaimerService: safety.NewDisclaimerService(),
 		postVerifier:      postVerifier,
 		sessions:          make(map[string]*session.Session),
 		sessionStore:      sessionStore,
@@ -523,13 +521,8 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 			}
 		}
 
-		// L4: Apply disclaimer
+		// L4: Disclaimer injection removed from answers (2026-09-06).
 		disclaimerSent := false
-		if !sess.DisclaimerSent {
-			responseText = a.disclaimerService.Apply(sess.ID, responseText)
-			sess.DisclaimerSent = true
-			disclaimerSent = true
-		}
 
 		sess.AddAssistantMessage(responseText)
 		a.saveSession(sess)
@@ -585,13 +578,8 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		}
 	}
 
-	// L4: Apply disclaimer
+	// L4: Disclaimer injection removed from answers (2026-09-06).
 	disclaimerSent := false
-	if !sess.DisclaimerSent {
-		responseText = a.disclaimerService.Apply(sess.ID, responseText)
-		sess.DisclaimerSent = true
-		disclaimerSent = true
-	}
 
 	sess.AddAssistantMessage(responseText)
 	a.saveSession(sess)
@@ -789,13 +777,8 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 				}
 			}
 
-			// L4: Apply disclaimer
+			// L4: Disclaimer injection removed from answers (2026-09-06).
 			disclaimerSent := false
-			if !sess.DisclaimerSent {
-				responseText = a.disclaimerService.Apply(sess.ID, responseText)
-				sess.DisclaimerSent = true
-				disclaimerSent = true
-			}
 
 			sess.AddAssistantMessage(responseText)
 			a.saveSession(sess)
@@ -926,13 +909,8 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		}
 	}
 
-	// L4: Apply disclaimer
+	// L4: Disclaimer injection removed from answers (2026-09-06).
 	disclaimerSent := false
-	if !sess.DisclaimerSent {
-		responseText = a.disclaimerService.Apply(sess.ID, responseText)
-		sess.DisclaimerSent = true
-		disclaimerSent = true
-	}
 
 	sess.AddAssistantMessage(responseText)
 	a.saveSession(sess)

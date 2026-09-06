@@ -59,8 +59,20 @@ build_embed() {
 }
 
 build_app() {
-  echo "[app] 宿主机交叉编译（复用本机 Go 缓存, 暖构建秒级）..."
-  command -v go >/dev/null 2>&1 || { echo "  错误: 打包机需要 Go 1.26+ (host compile 模式)"; exit 1; }
+  echo "[app] 宿主机编译（复用本机 Go 缓存, 暖构建秒级）..."
+  # go 常不在非交互 shell 的 PATH 里 (bashrc 的 PATH 只对交互终端生效), 探测常见位置
+  if ! command -v go >/dev/null 2>&1; then
+    for d in /usr/local/go/bin "$HOME/go/bin" /usr/lib/go/bin /usr/local/bin "$HOME/.local/bin"; do
+      [ -x "$d/go" ] && export PATH="$d:$PATH" && break
+    done
+  fi
+  command -v go >/dev/null 2>&1 || {
+    echo "  错误: 打包机找不到 go (host compile 模式)。装 Go 1.21+ 后重试:"
+    echo "    wget -qO- https://golang.google.cn/dl/go1.26.0.linux-amd64.tar.gz | tar xz -C /usr/local"
+    echo "    并确认 /usr/local/go/bin/go 存在 (脚本会自动探测该路径)"
+    exit 1
+  }
+  echo "  go: $(go version | awk '{print $3}')"
   export GOPROXY="${GOPROXY:-https://goproxy.cn,direct}"
   # 静态二进制: 无 CGO (go-sql-driver/mysql 纯 Go), 目标 linux/amd64
   # 版本信息在此注入 (原 Dockerfile 构建层的等价逻辑)

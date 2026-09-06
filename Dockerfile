@@ -1,50 +1,26 @@
 # syntax=docker/dockerfile:1
 
-# ---------- runtime base stage ----------
-# Inlined base (was base.Dockerfile): alpine:3.20 + ca-certificates curl mariadb-client.
-# BuildKit caches this layer — apk only runs once, same as pre-baked approach,
-# but without the Docker Hub metadata resolution problem of a local FROM image.
-FROM alpine:3.20 AS base
+# ============================================================================
+# doctor-agent 应用镜像 —— 宿主机编译版
+#
+# Go 二进制由打包机宿主机编译 (build.sh build_app):
+#   CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o doctor-agent-linux .
+# 宿主机 Go 缓存直接复用 (暖构建 ~2s), 不再依赖 Docker builder 的 cache mount。
+#
+# 前提: 打包机需装 Go 1.26+。本镜像只 COPY 二进制 + entrypoint, 秒级完成。
+# ============================================================================
+
+# China-accessible Alpine mirror (dl-cdn.alpinelinux.org is slow/blocked on CN networks)
+# BuildKit caches this layer — apk only runs once.
+FROM alpine:3.20
 RUN sed -i 's#dl-cdn.alpinelinux.org#mirrors.aliyun.com#g' /etc/apk/repositories \
     && apk add --no-cache ca-certificates curl mariadb-client
 
-# ---------- build stage ----------
-FROM golang:1.26-alpine AS build
-
-# China-accessible Alpine mirror (dl-cdn.alpinelinux.org is slow/blocked on CN networks)
-RUN sed -i 's#dl-cdn.alpinelinux.org#mirrors.aliyun.com#g' /etc/apk/repositories \
-    && apk add --no-cache ca-certificates git
-
-WORKDIR /src
-
-# China-accessible module proxy (proxy.golang.org is blocked on CN networks);
-# disable the blocked Go checksum database as well.
-ENV GOPROXY=https://goproxy.cn,direct
-ENV GOSUMDB=off
-
-# Cache module downloads (BuildKit cache mount survives across builds)
-COPY go.mod go.sum ./
-RUN --mount=type=cache,target=/go/pkg/mod \
-    go mod download
-
-# Build the static binary (no CGO; go-sql-driver/mysql is pure Go)
-# Version info injected via build args (compatible with Makefile/builder.sh)
-ARG GIT_COMMIT=unknown
-ARG BUILD_TIME=unknown
-COPY . .
-RUN --mount=type=cache,target=/go/pkg/mod \
-    --mount=type=cache,target=/root/.cache/go-build \
-    CGO_ENABLED=0 GOOS=linux go build \
-      -ldflags "-s -w -X main.gitCommit=${GIT_COMMIT} -X main.buildTime=${BUILD_TIME}" \
-      -o /out/doctor-agent .
-
-# ---------- runtime stage ----------
-FROM base
 WORKDIR /app
 
-COPY --from=build /out/doctor-agent /usr/local/bin/doctor-agent
+COPY doctor-agent-linux /usr/local/bin/doctor-agent
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
-RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+RUN chmod +x /usr/local/bin/doctor-agent /usr/local/bin/docker-entrypoint.sh
 
 EXPOSE 7071
 

@@ -56,59 +56,39 @@
   #chat { max-width: 860px; margin: 0 auto; padding: 0 20px; }
 
   /* ---- 欢迎页 ---- */
-  #welcome { text-align: center; padding: 32px 20px 20px; }
-  .doctor-card {
-    display: inline-flex; align-items: center; gap: 18px;
-    background: rgba(255,255,255,.94); border: 1px solid rgba(14,124,134,.15);
-    border-radius: 20px; padding: 18px 32px 18px 20px;
-    box-shadow: 0 12px 32px rgba(15,80,90,.12);
-    animation: cardIn .6s cubic-bezier(.22,.9,.35,1.12) both;
+  #welcome { padding: 30px 10px 14px; }
+  .welcome-hero h1 { font-size: 30px; font-weight: 800; color: #123f46; letter-spacing: .5px; }
+  .welcome-hero p { color: var(--muted); margin-top: 9px; font-size: 15px; }
+  .welcome-grid { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 30px; align-items: start; margin-top: 26px; }
+  .welcome-body {
+    background: #fff; border: 1px solid var(--border); border-radius: 18px;
+    padding: 16px 12px 12px; box-shadow: 0 6px 20px rgba(15,60,70,.07);
   }
-  @keyframes cardIn { from { opacity: 0; transform: translateY(18px) scale(.97); } to { opacity: 1; transform: none; } }
-  .doctor-avatar { position: relative; width: 76px; height: 76px; flex-shrink: 0; }
-  .ring { position: absolute; inset: 0; border-radius: 50%; border: 2px solid rgba(14,124,134,.3); animation: ringPulse 2.4s ease-out infinite; }
-  .avatar-inner {
-    position: absolute; inset: 4px; border-radius: 50%;
-    background: linear-gradient(145deg, #ffffff, #dff2f1);
-    border: 2px solid var(--accent);
-    display: flex; align-items: center; justify-content: center; font-size: 38px;
-    box-shadow: inset 0 -6px 14px rgba(14,124,134,.15), 0 6px 16px rgba(14,124,134,.22);
-    animation: breathe 3.4s ease-in-out infinite;
+  .welcome-body #welcome-body-svg .ans-body { width: 100%; max-width: 252px; margin: 0 auto; display: block; }
+  .welcome-body-cap { font-size: 12.5px; color: var(--muted); margin-top: 8px; }
+  .welcome-body .pickable { cursor: pointer; }
+  .welcome-body .pickable:focus-visible { outline: none; }
+  .welcome-body .pickable:hover .organ,
+  .welcome-body .pickable:hover .foot { fill: rgba(14,124,134,.5); stroke: #0a5f68; }
+  .welcome-body .pickable:hover .limb { stroke: rgba(14,124,134,.5); }
+  .welcome-body .pickable:hover .olabel { fill: #fff; font-weight: 800; }
+  .welcome-body .pickable.sel .organ,
+  .welcome-body .pickable.sel .foot { fill: rgba(14,124,134,.75); stroke: #0a5f68; }
+  .welcome-body .pickable.sel .limb { stroke: rgba(14,124,134,.55); }
+  .welcome-body .pickable.sel .olabel { fill: #fff; font-weight: 800; }
+  .welcome-examples { display: flex; flex-direction: column; gap: 10px; max-width: 430px; margin: 6px auto 0; width: 100%; }
+  .ex-title { font-size: 13px; color: var(--muted); }
+  .ex-q {
+    text-align: left; font: inherit; font-size: 14.5px; line-height: 1.6; cursor: pointer;
+    background: #fff; border: 1px solid var(--border); border-radius: 12px;
+    padding: 12px 16px; color: #253440; transition: border-color .18s, transform .18s;
   }
-  @keyframes breathe { 0%,100% { transform: scale(1); } 50% { transform: scale(1.045); } }
-  @keyframes ringPulse { 0% { transform: scale(.95); opacity: 1; } 100% { transform: scale(1.34); opacity: 0; } }
-  .online-dot { position: absolute; right: 2px; bottom: 2px; width: 14px; height: 14px; border-radius: 50%; background: #22c55e; border: 2px solid #fff; z-index: 2; }
-  .online-dot::after { content: ""; position: absolute; inset: -4px; border-radius: 50%; border: 2px solid rgba(34,197,94,.5); animation: ringPulse 1.8s ease-out infinite; }
-  .doctor-info { text-align: left; }
-  .doctor-name { font-size: 20px; font-weight: 800; }
-  .dept {
-    font-size: 12px; color: var(--accent-dark); background: var(--accent-light);
-    display: inline-block; padding: 3px 10px; border-radius: 10px; margin: 6px 0; font-weight: 600;
+  .ex-q:hover { border-color: var(--accent); transform: translateY(-1px); }
+  @media (max-width: 700px) {
+    .welcome-grid { grid-template-columns: 1fr; }
+    .welcome-body { max-width: 250px; margin: 0 auto; }
+    .welcome-hero h1 { font-size: 24px; }
   }
-  .status { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
-  .pulse-dot { width: 7px; height: 7px; border-radius: 50%; background: #22c55e; animation: blink 1.2s infinite; }
-  .consult-tip {
-    margin: 16px auto 4px; max-width: 520px; font-size: 13px; color: var(--muted); line-height: 1.8;
-    background: rgba(255,255,255,.7); border: 1px dashed rgba(14,124,134,.3);
-    border-radius: 12px; padding: 10px 18px; backdrop-filter: blur(4px);
-    animation: cardIn .6s .12s both;
-  }
-  .suggestions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 16px; }
-  .suggestions .chip-group {
-    display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;
-    animation: chipFade .5s ease;
-  }
-  @keyframes chipFade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
-  .suggestions .dots { display: flex; gap: 6px; justify-content: center; margin-top: 12px; }
-  .suggestions .dots span { width: 7px; height: 7px; border-radius: 50%; background: rgba(14,124,134,.22); cursor: pointer; transition: background .2s; }
-  .suggestions .dots span.on { background: var(--accent); }
-  .chip {
-    background: rgba(255,255,255,.94); border: 1px solid rgba(14,124,134,.25); color: var(--text);
-    border-radius: 20px; padding: 10px 16px; font-size: 13px; cursor: pointer; max-width: 340px;
-    box-shadow: 0 2px 8px rgba(15,80,90,.06); transition: all .22s;
-  }
-  .chip:hover { border-color: var(--accent); color: var(--accent-dark); transform: translateY(-2px); box-shadow: 0 6px 16px rgba(14,124,134,.15); }
-
   /* ---- 消息区 ---- */
   .msg { display: flex; margin: 24px 0; align-items: flex-start; animation: msgIn .45s cubic-bezier(.22,.9,.35,1.1) both; }
   @keyframes msgIn { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
@@ -221,68 +201,6 @@
     font-size: 11px; color: var(--muted); opacity: .7;
   }
 
-  /* body-map palette shim: chat UI uses --accent teal, body-map CSS expects landing vars */
-  #bm-panel,#bm-toggle{--blue:var(--accent);--blue-dark:var(--accent-dark);--blue-soft:var(--accent-light);--line:var(--border);--ink:var(--text);--bg-soft:var(--accent-light);--white:var(--card);--radius:14px;}
-
-  /* ---------- Body map ---------- */
-  .bm-wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:start;margin-top:12px;}
-  .bm-panel{background:var(--bg-soft);border:1px solid var(--line);border-radius:var(--radius);padding:20px;}
-  .bm-controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:8px;}
-  .bm-seg{display:inline-flex;background:#fff;border:1px solid var(--line);border-radius:999px;padding:3px;}
-  .bm-opt{border:0;background:transparent;font:inherit;font-size:13px;font-weight:600;color:var(--text);padding:5px 14px;border-radius:999px;cursor:pointer;transition:background .18s,color .18s;}
-  .bm-opt:hover{color:var(--blue);}
-  .bm-opt.active{background:var(--blue);color:#fff;}
-  .bm-viewport{perspective:1200px;animation:bmFloat 5s ease-in-out infinite;}
-  @keyframes bmFloat{0%,100%{transform:translateY(0);}50%{transform:translateY(-7px);}}
-  @media (prefers-reduced-motion:reduce){.bm-viewport{animation:none;}}
-  .bm-flipper{position:relative;transform-style:preserve-3d;transition:transform .75s cubic-bezier(.4,.05,.2,1);}
-  .bm-flipper.is-back{transform:rotateY(180deg);}
-  .bm-face{width:100%;height:auto;display:block;backface-visibility:hidden;-webkit-backface-visibility:hidden;}
-  .bm-face.bm-back{position:absolute;top:0;left:0;transform:rotateY(180deg);}
-  .bm-body{fill:#E6EDF6;stroke:#D3E0EE;stroke-width:1.5;}
-  .bm-limb{fill:none;stroke:#E6EDF6;stroke-linecap:round;stroke-linejoin:round;}
-  .bm-limb-edge{fill:none;stroke:#D3E0EE;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
-  .bm-region{cursor:pointer;outline:none;}
-  .bm-region>rect,.bm-region>ellipse,.bm-region>circle{fill:rgba(37,99,235,0);stroke:none;pointer-events:all;transition:fill .18s;}
-  .bm-region>.bm-stroke{fill:none;stroke:rgba(37,99,235,0);stroke-linecap:round;pointer-events:stroke;transition:stroke .18s;}
-  .bm-region:hover>rect,.bm-region:hover>ellipse,.bm-region:hover>circle{fill:rgba(37,99,235,.20);}
-  .bm-region:hover>.bm-stroke{stroke:rgba(37,99,235,.20);}
-  .bm-region:focus-visible>rect,.bm-region:focus-visible>ellipse,.bm-region:focus-visible>circle{fill:rgba(37,99,235,.20);}
-  .bm-region.is-sel>rect,.bm-region.is-sel>ellipse,.bm-region.is-sel>circle{fill:rgba(37,99,235,.45);}
-  .bm-region.is-sel>.bm-stroke{stroke:rgba(37,99,235,.45);}
-
-  .bm-conds{margin-top:10px;}
-  .bm-flag{margin:0 0 8px;padding:8px 10px;background:#FEF2F2;border:1px solid #FECACA;border-radius:8px;font-size:12px;line-height:1.55;color:#B91C1C;}
-  .bm-cond-label{margin:0 0 6px;font-size:11.5px;color:var(--muted);}
-  .bm-cond-row{display:flex;flex-wrap:wrap;gap:6px;}
-  .bm-cond{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 12px;font:inherit;font-size:12.5px;color:var(--text);cursor:pointer;transition:border-color .18s,color .18s,background .18s;}
-  .bm-cond:hover{border-color:var(--blue);color:var(--blue);}
-  .bm-cond.is-on{background:var(--blue-soft);border-color:var(--blue);color:var(--blue-dark);font-weight:600;}
-
-  .bm-prof{margin-top:12px;border-top:1px dashed var(--line);padding-top:10px;}
-  .bm-prof-label{margin:0 0 8px;font-size:11.5px;color:var(--muted);}
-  .bm-prof-group{display:flex;align-items:flex-start;gap:8px;margin-bottom:7px;}
-  .bm-prof-key{flex:0 0 64px;font-size:12px;color:var(--muted);padding-top:5px;}
-  .bm-prof-row{display:flex;flex-wrap:wrap;gap:6px;flex:1;}
-  .bm-prof-opt{border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 11px;font:inherit;font-size:12px;color:var(--text);cursor:pointer;transition:border-color .18s,color .18s,background .18s;}
-  .bm-prof-opt:hover{border-color:var(--blue);color:var(--blue);}
-  .bm-prof-opt.is-on{background:var(--blue-soft);border-color:var(--blue);color:var(--blue-dark);font-weight:600;}
-  .bm-readout{margin:14px 0 0;font-size:13.5px;color:var(--text);min-height:22px;}
-  .bm-readout b{color:var(--blue);}
-  .bm-side h3{font-size:20px;color:var(--ink);margin:0 0 14px;}
-  .bm-side ul{list-style:none;padding:0;margin:0 0 20px;display:flex;flex-direction:column;gap:12px;}
-  .bm-side li{font-size:14px;color:var(--text);line-height:1.6;padding-left:22px;position:relative;}
-  .bm-side li::before{content:'';position:absolute;left:0;top:8px;width:8px;height:8px;border-radius:50%;background:var(--blue-soft);border:2px solid var(--blue);}
-  @media (max-width:980px){.bm-wrap{grid-template-columns:1fr;gap:28px;}}
-  /* chat composer variant */
-  .bm-chat-panel{position:absolute;left:12px;right:12px;bottom:calc(100% + 10px);background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 40px rgba(4,27,74,.14);padding:14px 16px 16px;z-index:40;}
-  .bm-chat-panel[hidden]{display:none;}
-  .bm-panel-head{display:flex;align-items:center;justify-content:space-between;font-size:13.5px;font-weight:600;color:var(--ink);margin-bottom:10px;}
-  .bm-panel-head button{border:0;background:transparent;font-size:15px;line-height:1;color:var(--muted);cursor:pointer;padding:2px 4px;}
-  .bm-chat-panel .bm-viewport{max-width:220px;margin:0 auto;}
-  #bm-toggle{background:transparent;border:1px solid var(--line);border-radius:10px;cursor:pointer;font-size:16px;line-height:1;padding:6px 9px;color:var(--text);}
-  #bm-toggle:hover{border-color:var(--blue);color:var(--blue);}
-
   .error-tip { color: #dc2626; font-size: 13px; text-align: center; margin-top: 6px; display: none; }
 
   /* ---- 对话列表侧边栏 ---- */
@@ -347,90 +265,6 @@
   /* ===== V2 诊室场景 ===== */
   :root { --doc-accent: #0e7c86; }
   #chat { max-width: 960px; }
-
-  /* ---- 对话场景（贴顶舞台） ---- */
-  #scene {
-    position: sticky; top: 0; z-index: 5;
-    height: clamp(225px, 33vh, 315px);
-    margin: 0 -20px 16px; border-radius: 0 0 24px 24px; overflow: hidden;
-    background:
-      radial-gradient(400px 200px at 75% 0%, rgba(255,255,255,.5), transparent 60%),
-      linear-gradient(180deg, #e2f0f1 0%, #cfE3e6 55%, #b6d2d7 100%);
-    box-shadow: 0 6px 22px rgba(15,60,70,.14);
-    border-bottom: 1px solid rgba(14,124,134,.18);
-  }
-  .scene-bg { position: absolute; inset: 0; pointer-events: none; }
-  .scene-window { position: absolute; top: 16px; right: 22px; width: 150px; opacity: .95; }
-  .scene-monitor {
-    position: absolute; left: 20px; top: 22px; width: 118px;
-    background: #0b2530; border-radius: 10px; padding: 6px 6px 4px;
-    box-shadow: 0 5px 12px rgba(0,0,0,.28);
-  }
-  .scene-monitor svg { width: 100%; display: block; }
-  .scene-monitor .ecg-path { stroke: #4ade80; stroke-dasharray: 200; stroke-dashoffset: 200; animation: ecg 1.6s linear infinite; }
-  .scene-plant { position: absolute; left: 150px; bottom: 34px; font-size: 42px; filter: drop-shadow(0 4px 6px rgba(0,0,0,.18)); animation: sway 4.2s ease-in-out infinite; transform-origin: bottom center; }
-  @keyframes sway { 0%,100% { transform: rotate(-5deg); } 50% { transform: rotate(6deg); } }
-  .desk {
-    position: absolute; left: 5%; right: 5%; bottom: 0; height: 28px;
-    background: linear-gradient(180deg, #dcc9a6, #bfa67f); border-radius: 14px 14px 0 0;
-    box-shadow: 0 -3px 10px rgba(0,0,0,.1);
-  }
-  .desk::before { content: ""; position: absolute; top: 6px; left: 12%; right: 12%; height: 2px; background: rgba(255,255,255,.45); border-radius: 2px; }
-  .scene-char { position: absolute; bottom: 40px; display: flex; flex-direction: column; align-items: center; }
-  .scene-char.doctor { left: 8%; }
-  .scene-char.user { right: 8%; }
-  .scene-char .char-avatar {
-  width: clamp(100px, 12vw, 132px); height: clamp(100px, 12vw, 132px);
-  border-radius: 50%; padding: 7px; overflow: hidden;
-  background: linear-gradient(160deg, #ffffff, #dcefed);
-  border: 3px solid var(--doc-accent);
-  box-shadow: 0 12px 20px rgba(20,60,70,.32), inset 0 0 0 2px rgba(255,255,255,.65);
-  display: flex; align-items: center; justify-content: center;
-  animation: idle 3.8s ease-in-out infinite;
-}
-  .scene-char.user .char-avatar { border-color: #94a3b8; background: linear-gradient(160deg, #ffffff, #eef1f2); }
-.scene-char.user .char-avatar { border-color: #94a3b8; background: linear-gradient(160deg, #ffffff, #eef1f2); }
-.scene-char.user .char-avatar svg { transform: scaleX(-1); }
-  .scene-char .char-avatar svg { width: 100%; height: 100%; display: block; border-radius: 50%; }
-.scene-char::after {
-  content: ""; position: absolute; bottom: -4px; left: 50%; transform: translateX(-50%);
-  width: 78%; height: 15px; border-radius: 50%;
-  background: radial-gradient(ellipse at center, rgba(20,60,70,.32) 0%, rgba(20,60,70,0) 70%);
-}
-  @keyframes idle { 0%,100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-6px) rotate(.5deg); } }
-  .scene-char.speaking .char-avatar { animation: talk 0.85s ease-in-out infinite; }
-  @keyframes talk {
-    0%,100% { transform: translateY(0) scale(1); }
-    30% { transform: translateY(-9px) scale(1.03); }
-    60% { transform: translateY(-2px) scale(1); }
-  }
-  .scene-char.thinking .char-avatar { animation: think 0.5s ease-in-out infinite; }
-  @keyframes think { 0%,100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-2px) rotate(-2deg); } }
-  .char-name {
-    margin-top: 7px; background: rgba(255,255,255,.95); padding: 3px 13px; border-radius: 13px;
-    font-size: 13px; font-weight: 800; color: #0f3a42;
-    border: 2px solid var(--doc-accent); box-shadow: 0 2px 7px rgba(0,0,0,.12); white-space: nowrap;
-  }
-  .char-tag { font-size: 11px; color: #4b6a70; margin-top: 4px; background: rgba(255,255,255,.65); padding: 1px 9px; border-radius: 9px; white-space: nowrap; }
-  .doc-status {
-    position: absolute; top: -12px; left: 50%; transform: translateX(-50%);
-    font-size: 11px; color: #0f6b74; background: rgba(255,255,255,.96);
-    border: 1px dashed var(--doc-accent); padding: 2px 11px; border-radius: 11px;
-    white-space: nowrap; opacity: 0; transition: opacity .25s; z-index: 2;
-  }
-  .doc-status.busy { opacity: 1; }
-  .speech {
-    position: absolute; left: 50%; bottom: 42px; transform: translateX(-50%);
-    width: min(560px, 76%);
-    background: rgba(255,255,255,.97); border: 2px solid var(--doc-accent);
-    border-radius: 16px 16px 16px 5px; padding: 10px 15px 11px;
-    box-shadow: 0 12px 30px rgba(15,60,70,.24); animation: popIn .3s ease;
-  }
-  .speech.user { border-color: #94a3b8; border-radius: 16px 16px 5px 16px; }
-  @keyframes popIn { from { transform: translateX(-50%) scale(.96); opacity: 0; } to { transform: translateX(-50%) scale(1); opacity: 1; } }
-  .speech-who { font-size: 12px; font-weight: 800; color: var(--doc-accent); margin-bottom: 3px; }
-  .speech.user .speech-who { color: #64748b; }
-  .speech-text { font-size: 14.5px; line-height: 1.65; color: #1f2d33; max-height: 100px; overflow-y: auto; white-space: pre-wrap; word-break: break-word; }
 
   /* ---- 对话记录（剧本式，非气泡） ---- */
   #transcript { padding: 4px 4px 22px; }
@@ -516,11 +350,22 @@
   .ans-body .foot.on { fill: rgba(14,124,134,.32); }
   .ans-body .organ { fill: #c6dcdf; stroke: #b0cccf; stroke-width: 1; transition: fill .18s, stroke .18s; }
   .ans-body .organ.on { fill: rgba(14,124,134,.72); stroke: #0a5f68; }
+  .ans-body .organ.back { fill: rgba(198,220,223,.45); stroke-dasharray: 3 2; }
+  .ans-body .organ.back.on { fill: rgba(14,124,134,.4); stroke-dasharray: 3 2; stroke: #0a5f68; }
+  .ans-body .vessel { fill: #c6dcdf; stroke: #b0cccf; stroke-width: 1; }
+  .ans-body .vessel.on { fill: rgba(14,124,134,.6); stroke: #0a5f68; }
   .ans-body .organ-line { fill: none; stroke: #b0cccf; stroke-width: 1.2; }
   .ans-body .organ-line.on { stroke: rgba(255,255,255,.75); }
-  .ans-body .olabel { font-size: 13px; fill: #5b8288; text-anchor: middle; dominant-baseline: middle; pointer-events: none; }
+  .ans-body .organ-line2 { fill: none; stroke: #b0cccf; stroke-width: 1.5; }
+  .ans-body .organ-line2.on { stroke: rgba(14,124,134,.72); }
+  .ans-body .organ2 { fill: none; stroke: #b0cccf; stroke-width: 1.5; }
+  .ans-body .organ2.on { stroke: rgba(14,124,134,.72); stroke-width: 2; }
+  .ans-body .ureter { fill: none; stroke: #b0cccf; stroke-width: 2; stroke-dasharray: 3 3; }
+  .ans-body .ureter.on { stroke: rgba(14,124,134,.6); }
+  .ans-body .bone { fill: none; stroke: #cfe0e2; stroke-width: 2.5; stroke-linecap: round; }
+  .ans-body .olabel { font-size: 14px; fill: #5b8288; text-anchor: middle; dominant-baseline: middle; pointer-events: none; }
   .ans-body .olabel.on { fill: #fff; font-weight: 800; }
-  .ans-body .olabel.side { font-size: 11.5px; fill: #7fa0a5; }
+  .ans-body .olabel.side { font-size: 12px; fill: #7fa0a5; }
   .ans-body .olabel.side.on { fill: #0a5f68; }
   .ans-body .lead { stroke: #c3d9db; stroke-width: 1; }
   .ans-body .lead.on { stroke: #0a5f68; }
@@ -560,61 +405,10 @@
     .ans-banner-body { font-size: 17.5px; }
   }
 
-  /* ---- 回答风格选择 ---- */
-  .persona-pick { margin-top: 22px; }
-  .pick-title { font-size: 13px; color: var(--muted); margin-bottom: 11px; }
-  .pick-grid { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
-  .persona {
-    position: relative; width: 112px; background: rgba(255,255,255,.92);
-    border: 2px solid var(--border); border-radius: 16px; padding: 10px 8px 9px;
-    cursor: pointer; transition: all .22s; text-align: center;
-  }
-  .persona:hover { transform: translateY(-3px); box-shadow: 0 8px 18px rgba(15,80,90,.16); }
-  .persona.on { border-color: var(--p-accent, var(--doc-accent)); background: #fff; }
-  .persona.on::after {
-    content: "✓"; position: absolute; top: 6px; right: 7px; width: 18px; height: 18px;
-    border-radius: 50%; background: var(--p-accent, var(--doc-accent)); color: #fff;
-    font-size: 12px; font-weight: 800; display: flex; align-items: center; justify-content: center;
-  }
-  .persona .p-avatar {
-  width: 72px; height: 84px; margin: 0 auto 7px; border-radius: 14px; overflow: hidden;
-  background: linear-gradient(160deg, #ffffff, #e4f1f0); border: 1px solid rgba(14,124,134,.18);
-}
-  .persona .p-avatar svg { width: 100%; height: 100%; display: block; }
-  .p-name { font-size: 13px; font-weight: 800; }
-  .p-style { font-size: 11px; color: var(--muted); margin-top: 2px; }
-
-  /* 头部风格切换按钮 */
-  #persona-btn {
-    width: 42px; height: 42px; border-radius: 50%; border: 2px solid rgba(255,255,255,.65);
-    background: rgba(255,255,255,.2); cursor: pointer; padding: 3px; flex-shrink: 0;
-    transition: all .25s; box-shadow: 0 2px 8px rgba(0,0,0,.18);
-  }
-  #persona-btn:hover { transform: scale(1.1); border-color: #fff; }
-  #persona-btn svg { width: 100%; height: 100%; display: block; border-radius: 50%; }
-#persona-btn { overflow: hidden; }
-#persona-btn { overflow: hidden; }
-
-  /* 风格选择弹窗 */
-  #persona-modal { position: fixed; inset: 0; z-index: 120; display: none; align-items: center; justify-content: center; padding: 20px; }
-  #persona-modal.open { display: flex; }
-  .persona-panel {
-    background: #fff; border-radius: 20px; padding: 24px; max-width: 500px; width: 100%;
-    box-shadow: 0 24px 60px rgba(10,60,70,.32); animation: popIn2 .3s ease; position: relative;
-  }
-  @keyframes popIn2 { from { opacity: 0; transform: translateY(16px) scale(.97); } to { opacity: 1; transform: none; } }
-  .panel-title { font-size: 16px; font-weight: 800; margin-bottom: 16px; text-align: center; }
-  .panel-close { position: absolute; top: 12px; right: 14px; border: none; background: none; font-size: 20px; cursor: pointer; color: var(--muted); }
-  .panel-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
-
-  /* 欢迎卡中的头像适配 SVG */
-  .doctor-card .avatar-inner { font-size: 0; padding: 0; }
-  .doctor-card .avatar-inner { overflow: hidden; }
-.doctor-card .avatar-inner { overflow: hidden; }
-.doctor-card .avatar-inner svg { width: 100%; height: 100%; border-radius: 50%; }
-
   @media (max-width: 768px) {
-    #scene { margin: 0 -12px 14px; height: 240px; }
+    #chat { padding: 0 12px; }
+  }
+ { margin: 0 -12px 14px; height: 240px; }
     .scene-window { width: 96px; right: 8px; }
     .scene-monitor { width: 82px; left: 8px; top: 14px; }
     .scene-plant { left: 96px; font-size: 30px; }
@@ -631,89 +425,34 @@
 </aside>
 <div id="mask"></div>
 
-<!-- 回答风格选择弹窗 -->
-<div id="persona-modal">
-  <div class="persona-panel">
-    <button class="panel-close" id="persona-close" title="关闭">✕</button>
-    <div class="panel-title">选择回答风格</div>
-    <div class="panel-grid" id="persona-modal-grid"></div>
-  </div>
-</div>
-
 <header>
   <button id="menu-btn">☰</button>
-  <div class="hosp-brand">
-    <div class="hosp-logo">
-      <svg class="ecg-svg" viewBox="0 0 46 30" preserveAspectRatio="none" aria-hidden="true">
-        <polyline class="ecg-path" points="2,15 9,15 12,6 15,24 18,15 30,15 33,9 36,19 39,15 44,15"/>
-      </svg>
-      <span>🏥</span>
-    </div>
-    <div class="hosp-titles">
-      <div class="logo">医答</div>
-      <div class="subtitle">循证医学 AI 助手 · 有据可查</div>
-    </div>
-  </div>
-  <button id="persona-btn" title="更换回答风格"></button>
+  <div class="hosp-brand"><div class="logo">医答</div></div>
   <button id="new-chat">新对话</button>
 </header>
 
 <main id="scroll-area">
   <div id="chat">
 
-    <div id="scene">
-      <div class="scene-bg">
-        <svg class="scene-window" viewBox="0 0 160 110" aria-hidden="true">
-          <rect x="4" y="4" width="152" height="102" rx="10" fill="#dceef4"/>
-          <rect x="4" y="4" width="152" height="102" rx="10" fill="none" stroke="#ffffff" stroke-width="5"/>
-          <path d="M80 4 V106 M4 55 H156" stroke="#c2dde6" stroke-width="3"/>
-          <circle cx="122" cy="30" r="13" fill="#ffe28a"/>
-          <path d="M8 96 Q30 72 52 92 Q74 66 96 90 Q118 70 138 92 L152 84 V106 H8 Z" fill="#bfe3c9"/>
-        </svg>
-        <div class="scene-monitor">
-          <svg viewBox="0 0 120 60" aria-hidden="true">
-            <rect x="2" y="2" width="116" height="56" rx="8" fill="#0b2530"/>
-            <polyline class="ecg-path" points="4,30 22,30 27,17 33,44 39,30 62,30 68,20 74,39 80,30 116,30"/>
-          </svg>
-        </div>
-        <div class="scene-plant">🌿</div>
-        <div class="desk"></div>
-      </div>
-      <div class="doc-status" id="doc-status"></div>
-      <div class="scene-char doctor" id="scene-doctor">
-        <div class="char-avatar" id="doc-avatar"></div>
-        <div class="char-name" id="doc-name">助手</div>
-        <div class="char-tag" id="doc-tag">健康助手</div>
-      </div>
-      <div class="scene-char user" id="scene-user">
-        <div class="char-avatar" id="user-avatar"></div>
-        <div class="char-name">我</div>
-      </div>
-      <div class="speech" id="speech">
-        <div class="speech-who" id="speech-who">助手</div>
-        <div class="speech-text" id="speech-text"></div>
-      </div>
-    </div>
-
     <div id="welcome">
-      <div class="doctor-card">
-        <div class="doctor-avatar">
-          <div class="ring"></div>
-          <div class="avatar-inner" id="welcome-avatar"></div>
-          <span class="online-dot"></span>
+      <div class="welcome-hero">
+        <h1>今天哪里不舒服？</h1>
+        <p>直接描述症状，或点旁边人体图选择部位，我会给出有依据的解答。</p>
+      </div>
+      <div class="welcome-grid">
+        <div class="welcome-body">
+          <div id="welcome-body-svg"></div>
+          <div class="welcome-body-cap">点击器官或肢体选中，再点一次取消</div>
         </div>
-        <div class="doctor-info">
-          <div class="doctor-name" id="welcome-name">助手</div>
-          <div class="dept" id="welcome-style">健康助手</div>
-          <div class="status"><span class="pulse-dot"></span> 随时可以问我</div>
+        <div class="welcome-side">
+          <div class="welcome-examples">
+            <div class="ex-title">可以这样问</div>
+            <button type="button" class="ex-q">我一喝牛奶就拉肚子，是乳糖不耐受吗？</button>
+            <button type="button" class="ex-q">孩子发烧 38.9°C，要马上去医院吗？</button>
+            <button type="button" class="ex-q">体检发现甲状腺结节，接下来该怎么办？</button>
+          </div>
         </div>
       </div>
-      <p class="consult-tip">有任何健康疑问都可以问我，我会用专业知识帮你理解。</p>
-      <div class="persona-pick">
-        <div class="pick-title">选择回答风格</div>
-        <div class="pick-grid" id="persona-pick"></div>
-      </div>
-      <div class="suggestions" id="suggestions"></div>
     </div>
 
     <div id="transcript"></div>
@@ -721,24 +460,12 @@
 </main>
 
 <footer>
-  <div id="bm-panel" class="bm-chat-panel" hidden>
-    <div class="bm-panel-head"><span>指出不舒服的位置</span><button type="button" id="bm-close" aria-label="关闭">✕</button></div>
-    <div class="bm-controls">
-      <div class="bm-seg">
-        <button type="button" class="bm-opt active" data-gender="male">男</button>
-        <button type="button" class="bm-opt" data-gender="female">女</button>
-      </div>
-      <div class="bm-seg">
-        <button type="button" class="bm-opt active" data-view="front">正面</button>
-        <button type="button" class="bm-opt" data-view="back">背面</button>
-      </div>
-    </div>
-    <div class="bm-viewport"><div class="bm-flipper" id="bmFlipChat"></div></div>
-    <p class="bm-readout" id="bmOutChat">点击身体上不舒服的位置</p>
+  <div id="body-pick-bar" hidden>
+    <span class="pick-chip">📍 不适部位：<b id="body-pick-name"></b>
+      <button type="button" id="body-pick-clear" aria-label="取消选择">✕</button></span>
   </div>
-  <div id="input-area">
-    <button id="bm-toggle" title="指出不舒服的身体部位">📍</button>
-    <button id="img-btn" title="上传检查图片（X光/CT/化验单等）">📷</button>
+    <div id="input-area">
+        <button id="img-btn" title="上传检查图片（X光/CT/化验单等）">📷</button>
     <input type="file" id="file-input" accept="image/jpeg,image/png,image/gif,image/webp" multiple />
     <textarea id="input" rows="1" placeholder="描述您的症状，Enter 发送，Shift+Enter 换行"></textarea>
     <button id="send">发送</button>
@@ -748,298 +475,9 @@
   <p class="hint"><span>AI 回答仅供参考，不能替代专业医生诊断；紧急情况请拨打 120</span><span class="version-info" id="version-info">© 2026 医答 Doctor Agent</span></p>
 </footer>
 
-<script>
-var BM_GEO={male:{sh:50,wh:34,hh:38,armW:21,legW:30,headRx:23,headRy:27},
-            female:{sh:44,wh:28,hh:44,armW:18,legW:27,headRx:21,headRy:25}};
-var BM_CX=130;
-var BM_LABEL={head:'头 / 面部',neck:'颈',chest:'胸',
-  abd_ur:'右上腹',abd_ul:'左上腹',abd_lr:'右下腹',abd_ll:'左下腹',
-  shoulder:'肩',arm_up:'上臂',elbow:'肘',hand:'前臂 / 手腕',
-  groin:'髋 / 腹股沟',thigh:'大腿',knee:'膝',calf:'小腿',foot:'踝 / 足',
-  head_b:'后脑 / 头',neck_b:'项部（颈后）',back_up:'上背',back_low:'下背 / 腰',
-  buttock:'臀 / 骶尾部',shoulder_b:'肩后',arm_up_b:'上臂后侧',elbow_b:'肘后',
-  hand_b:'前臂 / 手背',thigh_b:'大腿后侧',knee_b:'腘窝（膝后）',calf_b:'小腿后侧',foot_b:'足跟'};
-function bmBodyPath(g){var c=BM_CX,sy=92,wy=170,hy=218,hb=244;
-  return 'M'+(c-g.sh)+','+sy
-   +'Q'+(c-g.sh+3)+','+(sy-16)+' '+(c-19)+','+(sy-16)
-   +'L'+(c+19)+','+(sy-16)
-   +'Q'+(c+g.sh-3)+','+(sy-16)+' '+(c+g.sh)+','+sy
-   +'Q'+(c+g.wh+5)+','+(wy-6)+' '+(c+g.wh)+','+wy
-   +'Q'+(c+g.hh)+','+(hy-28)+' '+(c+g.hh)+','+hy
-   +'L'+(c+g.hh)+','+hb+'L'+(c-g.hh)+','+hb+'L'+(c-g.hh)+','+hy
-   +'Q'+(c-g.hh)+','+(hy-28)+' '+(c-g.wh)+','+wy
-   +'Q'+(c-g.wh-5)+','+(wy-6)+' '+(c-g.sh)+','+sy+'Z';}
-function bmArmPath(g,s){var c=BM_CX;var sx=c+s*(g.sh-6),ex=c+s*(g.sh+1),wx=c+s*(g.sh+6);
-  return 'M'+sx+',100 Q'+(c+s*(g.sh+4))+',158 '+ex+',212 Q'+(c+s*(g.sh+5))+',250 '+wx+',288';}
-function bmLegPath(g,s){var c=BM_CX,hx=c+s*Math.round(g.hh*0.48),kx=c+s*Math.round(g.hh*0.44),ax=c+s*Math.round(g.hh*0.46);
-  return 'M'+hx+',246 Q'+(c+s*Math.round(g.hh*0.46))+',300 '+kx+',352 Q'+(c+s*Math.round(g.hh*0.45))+',400 '+ax+',452';}
-function bmPt(g,s,which){var c=BM_CX;
-  if(which=='sh')return [c+s*(g.sh-8),99];
-  if(which=='el')return [c+s*(g.sh+1),212];
-  if(which=='wr')return [c+s*(g.sh+6),288];
-  if(which=='hp')return [c+s*Math.round(g.hh*0.48),246];
-  if(which=='kn')return [c+s*Math.round(g.hh*0.44),352];
-  return [c+s*Math.round(g.hh*0.46),452];}
-function bmSeg(g,s,a,b,w){var p1=bmPt(g,s,a),p2=bmPt(g,s,b);
-  return '<path class="bm-stroke" style="stroke-width:'+w+'" d="M'+p1[0]+','+p1[1]+' L'+p2[0]+','+p2[1]+'"/>';}
-function bmR(id,side,inner){var lb=BM_LABEL[id]||id;
-  return '<g class="bm-region" data-part="'+id+'" data-side="'+side+'" tabindex="0" role="button" aria-label="选择部位：'+lb+'">'+inner+'</g>';}
-function bmRegions(g,view){
-  var c=BM_CX,o=[],s;
-  if(view=='front'){
-    o.push(bmR('head',0,'<ellipse cx="'+c+'" cy="46" rx="'+g.headRx+'" ry="'+g.headRy+'"/>'));
-    o.push(bmR('neck',0,'<rect x="'+(c-12)+'" y="68" width="24" height="26" rx="6"/>'));
-    o.push(bmR('chest',0,'<rect x="'+(c-30)+'" y="98" width="60" height="42" rx="9"/>'));
-    /* MIRROR: front view -> patient RIGHT is on the VIEWER'S LEFT */
-    o.push(bmR('abd_ur',0,'<rect x="'+(c-30)+'" y="142" width="28" height="28" rx="6"/>'));
-    o.push(bmR('abd_ul',0,'<rect x="'+(c+2)+'" y="142" width="28" height="28" rx="6"/>'));
-    o.push(bmR('abd_lr',0,'<rect x="'+(c-30)+'" y="172" width="28" height="26" rx="6"/>'));
-    o.push(bmR('abd_ll',0,'<rect x="'+(c+2)+'" y="172" width="28" height="26" rx="6"/>'));
-    o.push(bmR('groin',0,'<rect x="'+(c-32)+'" y="202" width="64" height="40" rx="10"/>'));
-  }else{
-    o.push(bmR('head_b',0,'<ellipse cx="'+c+'" cy="46" rx="'+g.headRx+'" ry="'+g.headRy+'"/>'));
-    o.push(bmR('neck_b',0,'<rect x="'+(c-12)+'" y="68" width="24" height="26" rx="6"/>'));
-    o.push(bmR('back_up',0,'<rect x="'+(c-32)+'" y="98" width="64" height="46" rx="9"/>'));
-    o.push(bmR('back_low',0,'<rect x="'+(c-30)+'" y="146" width="60" height="54" rx="9"/>'));
-    o.push(bmR('buttock',0,'<rect x="'+(c-g.hh+2)+'" y="202" width="'+(2*g.hh-4)+'" height="40" rx="12"/>'));
-  }
-  var shId=view=='front'?'shoulder':'shoulder_b';
-  var auId=view=='front'?'arm_up':'arm_up_b';
-  var elId=view=='front'?'elbow':'elbow_b';
-  var hdId=view=='front'?'hand':'hand_b';
-  for(var i=0;i<2;i++){s=i?1:-1;var p=bmPt(g,s,'sh');
-    o.push(bmR(shId,s,'<circle cx="'+p[0]+'" cy="'+p[1]+'" r="'+(g.armW*0.62)+'"/>'));
-    o.push(bmR(auId,s,bmSeg(g,s,'sh','el',g.armW)));
-    var pe=bmPt(g,s,'el');
-    o.push(bmR(elId,s,'<circle cx="'+pe[0]+'" cy="'+pe[1]+'" r="'+(g.armW*0.55)+'"/>'));
-    o.push(bmR(hdId,s,bmSeg(g,s,'el','wr',g.armW*0.92)));
-  }
-  var thId=view=='front'?'thigh':'thigh_b';
-  var knId=view=='front'?'knee':'knee_b';
-  var cfId=view=='front'?'calf':'calf_b';
-  var ftId=view=='front'?'foot':'foot_b';
-  for(var j=0;j<2;j++){s=j?1:-1;
-    o.push(bmR(thId,s,bmSeg(g,s,'hp','kn',g.legW)));
-    var pk=bmPt(g,s,'kn');
-    o.push(bmR(knId,s,'<circle cx="'+pk[0]+'" cy="'+pk[1]+'" r="'+(g.legW*0.6)+'"/>'));
-    o.push(bmR(cfId,s,bmSeg(g,s,'kn','an',g.legW*0.85)));
-    var pa=bmPt(g,s,'an');
-    o.push(bmR(ftId,s,'<ellipse cx="'+pa[0]+'" cy="'+(pa[1]+12)+'" rx="'+(g.legW*0.42)+'" ry="11"/>'));
-  }
-  return o;
-}
-function bmFace(gender,view){
-  var g=BM_GEO[gender],p=[];
-  p.push('<path class="bm-body" d="'+bmBodyPath(g)+'"/>');
-  p.push('<path class="bm-limb" style="stroke-width:'+g.armW+'" d="'+bmArmPath(g,-1)+'"/>');
-  p.push('<path class="bm-limb" style="stroke-width:'+g.armW+'" d="'+bmArmPath(g,1)+'"/>');
-  p.push('<path class="bm-limb" style="stroke-width:'+g.legW+'" d="'+bmLegPath(g,-1)+'"/>');
-  p.push('<path class="bm-limb" style="stroke-width:'+g.legW+'" d="'+bmLegPath(g,1)+'"/>');
-  p.push('<ellipse class="bm-body" cx="'+BM_CX+'" cy="46" rx="'+g.headRx+'" ry="'+g.headRy+'"/>');
-  p.push('<rect class="bm-body" x="'+(BM_CX-12)+'" y="68" width="24" height="26" rx="6"/>');
-  p=p.concat(bmRegions(g,view));
-  return '<svg class="bm-face bm-'+view+'" viewBox="0 0 260 500" xmlns="http://www.w3.org/2000/svg" aria-label="'+
-    (gender=='male'?'男性':'女性')+(view=='front'?'正面':'背面')+'人体部位图">'+p.join('')+'</svg>';
-}
 
-var BM_CONDITIONS={
- head:{flag:'突发"一生中最剧烈的头痛"、伴呕吐或意识改变，立即就医。',list:['偏头痛','紧张型头痛','高血压相关头痛','鼻窦炎','三叉神经痛']},
- neck:{list:['颈椎病','落枕 / 颈肌劳损','颈部淋巴结肿大','甲状腺不适']},
- chest:{flag:'突发压榨性胸痛、伴冷汗或向左臂/下颌放射，立即拨打 120。',list:['心绞痛 / 冠心病','胃食管反流','肋间神经痛','支气管炎 / 肺炎','乳腺不适']},
- abd_ur:{flag:'右上腹剧痛伴发热、黄疸（皮肤/巩膜变黄），尽快就医。',list:['胆囊炎 / 胆结石','肝炎 / 肝区不适','十二指肠溃疡','肋间神经痛']},
- abd_ul:{flag:'左上腹剧痛向背部放射、伴呕吐，警惕急性胰腺炎，尽快就医。',list:['胃炎 / 胃溃疡','胰腺炎（常向背部放射）','功能性消化不良','脾区不适']},
- abd_lr:{flag:'转移性右下腹痛伴发热，需尽快就医排除阑尾炎。',list:['阑尾炎','右侧输尿管结石','右侧附件问题','肠系膜淋巴结炎']},
- abd_ll:{list:['结肠炎 / 肠易激','左侧输尿管结石','左侧附件问题','便秘相关腹痛']},
- groin:{flag:'腹股沟包块突然变硬、剧痛、无法回纳，警惕嵌顿疝，立即就医。',list:['腹股沟疝','髋关节问题','泌尿系统不适','腹股沟淋巴结肿大']},
- shoulder:{flag:'右肩痛伴右上腹不适、发热，警惕胆道问题。',list:['肩周炎','肩袖损伤','颈椎病放射痛','胆囊疾病牵涉痛（右肩）']},
- arm_up:{flag:'单侧手臂突发肿胀、发凉、疼痛，警惕血管问题，尽快就医。',list:['肌肉拉伤','颈椎神经根放射痛','上肢血管 / 血栓问题']},
- elbow:{list:['网球肘（外上髁炎）','高尔夫球肘（内上髁炎）','肘关节劳损']},
- hand:{flag:'手部突发麻木/无力，尽快就医。',list:['腱鞘炎','腕管综合征','桡骨茎突狭窄性腱鞘炎','手腕扭伤']},
- thigh:{list:['肌肉拉伤','股外侧皮神经炎','腰椎间盘放射痛']},
- knee:{flag:'膝关节突发剧痛、无法负重、明显肿胀，尽快就医。',list:['膝骨关节炎','半月板损伤','韧带损伤','痛风性关节炎']},
- calf:{flag:'单侧小腿突发肿胀疼痛，警惕深静脉血栓，尽早就医。',list:['肌肉痉挛 / 抽筋','下肢静脉曲张','深静脉血栓（需警惕）','胫骨应力综合征']},
- foot:{flag:'踝关节严重肿胀畸形、无法负重，尽快就医排除骨折。',list:['踝关节扭伤','足底筋膜炎','痛风（大脚趾常见）','跟腱炎']},
- head_b:{flag:'后脑剧痛伴颈项强直（脖子发硬），警惕颅内问题，立即就医。',list:['紧张型头痛','枕神经痛','颈椎相关头痛']},
- neck_b:{list:['颈椎病','颈肌劳损','落枕']},
- back_up:{flag:'上背痛伴胸闷气短，排除心肺问题后再按肌肉处理。',list:['肌筋膜疼痛','胸椎小关节紊乱','肩胛间区劳损']},
- back_low:{flag:'腰痛伴发热/尿频尿痛/下肢麻木无力，尽快就医。',list:['腰肌劳损','腰椎间盘突出','腰椎管狭窄','肾结石 / 肾盂肾炎（肾区叩痛）']},
- buttock:{flag:'臀痛伴下肢放射痛/麻木，警惕腰椎间盘突出压迫神经。',list:['梨状肌综合征','坐骨神经痛','骶髂关节问题','尾骨痛 / 肛周不适']},
- shoulder_b:{list:['肩周炎','肩胛胸壁疼痛','颈椎放射痛']},
- arm_up_b:{list:['三头肌劳损','颈椎神经根放射痛']},
- elbow_b:{flag:'肘后突发红肿热痛，警惕感染性滑囊炎。',list:['鹰嘴滑囊炎','尺神经卡压','肘关节劳损']},
- hand_b:{flag:'手背伤口红肿热痛加重，警惕感染，尽快就医。',list:['腱鞘炎','伸肌腱劳损','手背外伤']},
- thigh_b:{list:['腘绳肌拉伤','坐骨神经放射痛']},
- knee_b:{flag:'腘窝突发剧痛、小腿肿胀，警惕深静脉血栓或囊肿破裂，尽快就医。',list:['腘窝囊肿','半月板后角损伤','腘肌劳损']},
- calf_b:{flag:'单侧小腿突发肿胀疼痛，警惕深静脉血栓，尽早就医。',list:['腓肠肌拉伤','跟腱问题','深静脉血栓（需警惕）']},
- foot_b:{flag:'足跟痛伴足底麻木/无力，尽快就医。',list:['足底筋膜炎','跟腱炎','跟骨骨刺']}
-};
 
-var bmProf={nature:null,duration:null,severity:null,radiate:null,accompany:[]};
-function bmProfText(){var p=bmProf,t=[];
-  if(p.nature)t.push('性质为'+p.nature);
-  if(p.duration)t.push('持续'+p.duration);
-  if(p.severity)t.push('程度'+p.severity);
-  if(p.radiate&&p.radiate!=='无')t.push('放射至'+p.radiate);
-  if(p.accompany&&p.accompany.length)t.push('伴'+p.accompany.join('、'));
-  return t.length?('，'+t.join('，')):'';}
-function bmQuestion(part,cond){var lb=BM_LABEL[part]||part,prof=bmProfText();
-  if(cond)return '我'+lb+'不舒服'+prof+'，可能是'+cond+'吗？想了解它的典型表现、需要做什么检查，以及什么情况下需要就医？';
-  return '我'+lb+'不舒服'+prof+'，可能的原因有哪些、需要做哪些检查、日常要注意什么，以及什么情况下需要就医？';}
-function bmInit(flipId,outId,onPick){
-  var flip=document.getElementById(flipId),out=document.getElementById(outId);
-  if(!flip)return;
-  var gender='male',view='front',sel=null,cond=null;
-  function profileBox(){
-    var b=document.getElementById(flipId+'_prof');
-    if(!b){b=document.createElement('div');b.className='bm-prof';b.id=flipId+'_prof';
-      if(out&&out.parentNode)out.parentNode.insertBefore(b,out.nextSibling);}
-    return b;
-  }
-  function fire(){
-    if(onPick&&sel)onPick(sel,BM_LABEL[sel]||sel,bmQuestion(sel,cond));
-  }
-  function renderProfile(part){
-    var box=profileBox();
-    if(!BM_CONDITIONS[part]){box.innerHTML='';return;}
-    var groups=[
-      ['nature','疼痛性质',['钝痛','刺痛','绞痛','烧灼感','胀痛','酸痛'],false],
-      ['duration','持续时间',['几小时','1-3天','3天以上','反复发作'],false],
-      ['severity','严重程度',['轻(能忍)','中(影响活动)','重(难忍)'],false],
-      ['radiate','放射到哪',['无','肩臂','背部','下肢'],false],
-      ['accompany','伴随症状',['发热','恶心呕吐','出汗','头晕','乏力'],true]
-    ];
-    var h='<p class="bm-prof-label">症状刻画（可选，补充越准，判断越准）</p>';
-    groups.forEach(function(g){
-      h+='<div class="bm-prof-group"><span class="bm-prof-key">'+g[1]+'</span><div class="bm-prof-row">';
-      g[3].forEach(function(opt){h+='<button type="button" class="bm-prof-opt" data-g="'+g[0]+'" data-v="'+opt+'">'+opt+'</button>';});
-      h+='</div></div>';
-    });
-    box.innerHTML=h;
-    box.querySelectorAll('.bm-prof-opt').forEach(function(bt){
-      bt.addEventListener('click',function(){
-        var g=bt.getAttribute('data-g'),v=bt.getAttribute('data-v');
-        if(g==='accompany'){
-          bt.classList.toggle('is-on');
-          bmProf[g]=[].slice.call(box.querySelectorAll('.bm-prof-opt[data-g="accompany"].is-on'))
-            .map(function(x){return x.getAttribute('data-v');});
-        }else{
-          box.querySelectorAll('.bm-prof-opt[data-g="'+g+'"]').forEach(function(x){x.classList.remove('is-on');});
-          bt.classList.add('is-on');
-          bmProf[g]=v;
-        }
-        fire();
-      });
-    });
-  }
-  function condsBox(){
-    var b=document.getElementById(flipId+'_conds');
-    if(!b){b=document.createElement('div');b.className='bm-conds';b.id=flipId+'_conds';
-      if(out&&out.parentNode)out.parentNode.insertBefore(b,out.nextSibling);}
-    return b;
-  }
-  function renderConds(part){
-    var c=BM_CONDITIONS[part],box=condsBox();
-    if(!c){box.innerHTML='';return;}
-    var h='';
-    if(c.flag)h+='<p class="bm-flag">'+c.flag+'</p>';
-    h+='<p class="bm-cond-label">该部位常见情况（仅供参考，非诊断）</p><div class="bm-cond-row">';
-    c.list.forEach(function(t){
-      h+='<button type="button" class="bm-cond" data-cond="'+t+'">'+t+'</button>';});
-    h+='</div>';
-    box.innerHTML=h;
-    box.querySelectorAll('.bm-cond').forEach(function(bt){
-      bt.addEventListener('click',function(){
-        box.querySelectorAll('.bm-cond').forEach(function(x){x.classList.remove('is-on');});
-        bt.classList.add('is-on');
-        cond=bt.getAttribute('data-cond');
-        if(out)out.innerHTML='已选择：<b>'+(BM_LABEL[sel]||sel)+'</b> \u00b7 '+cond;
-        if(onPick)onPick(sel,BM_LABEL[sel]||sel,bmQuestion(sel,cond));
-      });
-    });
-  }
-  function draw(){
-    flip.innerHTML=bmFace(gender,'front')+bmFace(gender,'back');
-    flip.classList.toggle('is-back',view==='back');
-    if(sel){var n=flip.querySelector('.bm-region[data-part="'+sel+'"]');if(n)n.classList.add('is-sel');}
-    flip.querySelectorAll('.bm-region').forEach(function(r){
-      function pick(){sel=r.getAttribute('data-part');cond=null;
-        bmProf={nature:null,duration:null,severity:null,radiate:null,accompany:[]};
-        flip.querySelectorAll('.bm-region').forEach(function(x){x.classList.remove('is-sel');});
-        r.classList.add('is-sel');
-        var lb=BM_LABEL[sel]||sel;
-        if(out)out.innerHTML='已选择：<b>'+lb+'</b>';
-        renderConds(sel);
-        renderProfile(sel);
-        if(onPick)onPick(sel,lb,bmQuestion(sel,null));}
-      r.addEventListener('click',pick);
-      r.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();pick();}});
-    });
-  }
-  function bar(){
-    var box=flip.parentNode.parentNode;
-    box.querySelectorAll('.bm-opt').forEach(function(b){
-      b.addEventListener('click',function(){
-        if(b.hasAttribute('data-gender')){gender=b.getAttribute('data-gender');}
-        if(b.hasAttribute('data-view')){view=b.getAttribute('data-view');}
-        box.querySelectorAll('.bm-opt').forEach(function(x){x.classList.remove('active');});
-        box.querySelectorAll('.bm-opt[data-gender="'+gender+'"],.bm-opt[data-view="'+view+'"]').forEach(function(x){x.classList.add('active');});
-        draw();});
-    });
-  }
-  draw();bar();
-}
 
-(function(){
-  var panel=document.getElementById('bm-panel');
-  var tog=document.getElementById('bm-toggle');
-  var close=document.getElementById('bm-close');
-  if(!panel||!tog)return;
-  function open(){panel.hidden=false;if(close)close.focus();}
-  function shut(){panel.hidden=true;}
-  tog.addEventListener('click',function(){panel.hidden?open():shut();});
-  if(close)close.addEventListener('click',shut);
-  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!panel.hidden)shut();});
-  document.addEventListener('click',function(e){
-    if(panel.hidden)return;
-    if(panel.contains(e.target)||tog.contains(e.target))return;
-    shut();
-  });
-  bmInit('bmFlipChat','bmOutChat',function(part,label,q){
-    var inp=document.getElementById('input');
-    if(inp){inp.value=q;inp.dispatchEvent(new Event('input'));inp.focus();}
-    shut();
-  });
-})();
-</script>
-<script id="three-lazy">
-  (function(){
-    var _loaded=false;
-    window.loadThreeJS=function(cb){
-      if(_loaded){cb&&cb();return;}
-      var s=document.createElement("script");
-      s.src="/three.min.js";
-      s.onload=function(){_loaded=true;cb&&cb();};
-      document.head.appendChild(s);
-    };
-  })();
-</script>
-<style>
-  /* ===== 3D 医生 ===== */
-  #doc-avatar { position: relative; width: 190px; height: 235px; cursor: grab; touch-action: none; }
-  #doc-avatar canvas { display: block; width: 100% !important; height: 100% !important; }
-  #doc-avatar.dragging { cursor: grabbing; }
-  .scene-char.doctor .char-avatar {
-    background: transparent !important; border: none !important; padding: 0 !important;
-    overflow: visible !important; box-shadow: none !important; animation: none !important;
-  }
-  .scene-char.doctor { bottom: 30px; }
-  @media (min-width: 769px) { #scene { height: clamp(250px, 34vh, 330px); } }
-  @media (max-width: 768px) {
-    #scene { height: 252px; }
-    #doc-avatar { width: 148px; height: 184px; }
-    .scene-char.doctor { bottom: 22px; }
-  }
-</style>
 <script>
 (function () {
   "use strict";
@@ -1063,102 +501,13 @@ function bmInit(flipId,outId,onPick){
   function genId() { return "conv-" + Date.now().toString(36) + Math.random().toString(36).slice(2, 8); }
 
   /* ================= 医生形象（可多选） ================= */
-  var PERSONAS = [
-    {
-      id: "cute", name: "乐乐", style: "活泼亲切", dept: "健康助手", accent: "#ff6b9d",
-      svg: '<svg viewBox="0 0 140 150" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">\n<defs>\n  <radialGradient id="cute-skin" cx="34%" cy="26%" r="90%">\n    <stop offset="0%" stop-color="#ffdfc8"/><stop offset="62%" stop-color="#ffc9a6"/><stop offset="100%" stop-color="#e8a27e"/>\n  </radialGradient>\n  <radialGradient id="cute-shade" cx="50%" cy="28%" r="78%">\n    <stop offset="52%" stop-color="rgba(140,90,60,0)"/><stop offset="100%" stop-color="rgba(140,90,60,.30)"/>\n  </radialGradient>\n  <linearGradient id="cute-hair" x1="0" y1="0" x2="0" y2="1">\n    <stop offset="0%" stop-color="#c98a5e"/><stop offset="100%" stop-color="#7e4c30"/>\n  </linearGradient>\n  <linearGradient id="cute-coat" x1="0" y1="0" x2="0" y2="1">\n    <stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#d7e4e7"/>\n  </linearGradient>\n  <linearGradient id="cute-metal" x1="0" y1="0" x2="1" y2="1">\n    <stop offset="0%" stop-color="#c3d6dc"/><stop offset="100%" stop-color="#546e7a"/>\n  </linearGradient>\n  <radialGradient id="cute-iris" cx="40%" cy="34%" r="85%">\n    <stop offset="0%" stop-color="#5a3d2a"/><stop offset="100%" stop-color="#221410"/>\n  </radialGradient>\n</defs>\n<!-- 白大褂 -->\n<path d="M15 150 Q13 115 34 109 L60 103 L80 103 L106 109 Q127 115 125 150 Z" fill="url(#cute-coat)" stroke="#b6c7cb" stroke-width="1.5"/>\n<path d="M38 109 L62 133 L86 109 L95 118 L62 149 L29 118 Z" fill="#eef5f6" stroke="#c4d3d6" stroke-width="1"/>\n<path d="M70 124 L70 150" stroke="#dbe7ea" stroke-width="1.5"/>\n<!-- 衣领阴影 + 听诊器 -->\n<path d="M56 106 L70 122 L84 106 L70 140 Z" fill="rgba(115,145,150,.28)"/>\n<path d="M62 118 Q60 138 50 141 Q42 143 40 135" fill="none" stroke="url(#cute-metal)" stroke-width="3.5" stroke-linecap="round"/>\n<circle cx="39.5" cy="134.5" r="6" fill="#ffffff" stroke="url(#cute-metal)" stroke-width="3"/>\n<path d="M76 124 Q84 124 86 130" fill="none" stroke="url(#cute-metal)" stroke-width="3" stroke-linecap="round"/>\n<g transform="translate(90 133)"><rect x="0" y="3" width="13" height="3.2" rx="1.6" fill="#e0555d"/><rect x="4.9" y="-2" width="3.2" height="13" rx="1.6" fill="#e0555d"/></g>\n<!-- 后发 -->\n<path d="M39 44 Q36 17 70 13 Q104 17 101 44 Q103 62 99 74 Q96 84 89 82 L89 58 Q83 50 70 50 Q57 50 51 58 L51 82 Q44 84 41 74 Q37 62 39 44 Z" fill="url(#cute-hair)"/>\n<!-- 脖子 + 头 -->\n<rect x="56" y="76" width="28" height="36" rx="11" fill="url(#cute-skin)"/>\n<ellipse cx="70" cy="79" rx="15" ry="7" fill="rgba(140,90,60,.20)"/>\n<circle cx="70" cy="47" r="31" fill="url(#cute-skin)"/>\n<circle cx="70" cy="56" r="30" fill="url(#cute-shade)"/>\n<ellipse cx="38" cy="51" rx="7" ry="9" fill="url(#cute-skin)"/>\n<ellipse cx="102" cy="51" rx="7" ry="9" fill="url(#cute-skin)"/>\n<path d="M38 51 Q37 55 39 57" stroke="rgba(140,90,60,.35)" stroke-width="1.6" fill="none"/>\n<path d="M102 51 Q103 55 101 57" stroke="rgba(140,90,60,.35)" stroke-width="1.6" fill="none"/>\n<!-- 脸部 -->\n<ellipse cx="55" cy="52" rx="4.6" ry="5.6" fill="url(#cute-iris)"/>\n<ellipse cx="85" cy="52" rx="4.6" ry="5.6" fill="url(#cute-iris)"/>\n<circle cx="53.3" cy="49.6" r="1.7" fill="#ffffff"/>\n<circle cx="83.3" cy="49.6" r="1.7" fill="#ffffff"/>\n<circle cx="56.8" cy="54.6" r="1" fill="rgba(255,255,255,.8)"/>\n<circle cx="86.8" cy="54.6" r="1" fill="rgba(255,255,255,.8)"/>\n<path d="M49 47.5 Q55 43.5 61 47.5" stroke="rgba(90,60,40,.55)" stroke-width="2.4" fill="none" stroke-linecap="round"/>\n<path d="M79 47.5 Q85 43.5 91 47.5" stroke="rgba(90,60,40,.55)" stroke-width="2.4" fill="none" stroke-linecap="round"/>\n<path d="M68 62 Q70 64 72 63" stroke="rgba(140,90,60,.40)" stroke-width="2.4" fill="none" stroke-linecap="round"/>\n<ellipse cx="45" cy="62" rx="6.5" ry="4" fill="rgba(255,118,140,.5)"/>\n<ellipse cx="95" cy="62" rx="6.5" ry="4" fill="rgba(255,118,140,.5)"/>\n<path d="M60 70 Q70 77 80 70" stroke="#a85c48" stroke-width="3" fill="none" stroke-linecap="round"/>\n<path d="M62 74 Q70 79 78 74" stroke="rgba(168,92,72,.25)" stroke-width="2" fill="none"/>\n<!-- 前发 + 配件 -->\n<path d="M39 42 Q36 15 70 12 Q104 15 101 42 Q102 53 96 51 Q92 33 70 31 Q48 33 44 51 Q38 53 39 42 Z" fill="url(#cute-hair)"/><path d="M68 12 Q65 2 74 -1 Q69 11 72 12 Z" fill="url(#cute-hair)"/><path d="M70 33 Q72 26 76 24" stroke="rgba(255,255,255,.5)" stroke-width="2.4" fill="none" stroke-linecap="round"/>\n\n</svg>'
-    },
-    {
-      id: "handsome", name: "陈昊", style: "专业严谨", dept: "健康助手", accent: "#0e7c86",
-      svg: '<svg viewBox="0 0 140 150" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">\n<defs>\n  <radialGradient id="hand-skin" cx="34%" cy="26%" r="90%">\n    <stop offset="0%" stop-color="#f7c9a0"/><stop offset="62%" stop-color="#edb185"/><stop offset="100%" stop-color="#c98a5f"/>\n  </radialGradient>\n  <radialGradient id="hand-shade" cx="50%" cy="28%" r="78%">\n    <stop offset="52%" stop-color="rgba(140,90,60,0)"/><stop offset="100%" stop-color="rgba(140,90,60,.30)"/>\n  </radialGradient>\n  <linearGradient id="hand-hair" x1="0" y1="0" x2="0" y2="1">\n    <stop offset="0%" stop-color="#3d332c"/><stop offset="100%" stop-color="#14100c"/>\n  </linearGradient>\n  <linearGradient id="hand-coat" x1="0" y1="0" x2="0" y2="1">\n    <stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#d7e4e7"/>\n  </linearGradient>\n  <linearGradient id="hand-metal" x1="0" y1="0" x2="1" y2="1">\n    <stop offset="0%" stop-color="#c3d6dc"/><stop offset="100%" stop-color="#546e7a"/>\n  </linearGradient>\n  <radialGradient id="hand-iris" cx="40%" cy="34%" r="85%">\n    <stop offset="0%" stop-color="#5a3d2a"/><stop offset="100%" stop-color="#221410"/>\n  </radialGradient>\n</defs>\n<!-- 白大褂 -->\n<path d="M15 150 Q13 115 34 109 L60 103 L80 103 L106 109 Q127 115 125 150 Z" fill="url(#hand-coat)" stroke="#b6c7cb" stroke-width="1.5"/>\n<path d="M38 109 L62 133 L86 109 L95 118 L62 149 L29 118 Z" fill="#eef5f6" stroke="#c4d3d6" stroke-width="1"/>\n<path d="M70 124 L70 150" stroke="#dbe7ea" stroke-width="1.5"/>\n<!-- 衣领阴影 + 听诊器 -->\n<path d="M56 106 L70 122 L84 106 L70 140 Z" fill="rgba(115,145,150,.28)"/>\n<path d="M62 118 Q60 138 50 141 Q42 143 40 135" fill="none" stroke="url(#hand-metal)" stroke-width="3.5" stroke-linecap="round"/>\n<circle cx="39.5" cy="134.5" r="6" fill="#ffffff" stroke="url(#hand-metal)" stroke-width="3"/>\n<path d="M76 124 Q84 124 86 130" fill="none" stroke="url(#hand-metal)" stroke-width="3" stroke-linecap="round"/>\n<g transform="translate(90 133)"><rect x="0" y="3" width="13" height="3.2" rx="1.6" fill="#e0555d"/><rect x="4.9" y="-2" width="3.2" height="13" rx="1.6" fill="#e0555d"/></g>\n<!-- 后发 -->\n<path d="M41 46 Q38 17 70 14 Q102 17 99 46 Q100 55 95 53 Q92 36 70 34 Q48 36 45 53 Q40 55 41 46 Z" fill="url(#hand-hair)"/>\n<!-- 脖子 + 头 -->\n<rect x="56" y="76" width="28" height="36" rx="11" fill="url(#hand-skin)"/>\n<ellipse cx="70" cy="79" rx="15" ry="7" fill="rgba(140,90,60,.20)"/>\n<circle cx="70" cy="47" r="31" fill="url(#hand-skin)"/>\n<circle cx="70" cy="56" r="30" fill="url(#hand-shade)"/>\n<ellipse cx="38" cy="51" rx="7" ry="9" fill="url(#hand-skin)"/>\n<ellipse cx="102" cy="51" rx="7" ry="9" fill="url(#hand-skin)"/>\n<path d="M38 51 Q37 55 39 57" stroke="rgba(140,90,60,.35)" stroke-width="1.6" fill="none"/>\n<path d="M102 51 Q103 55 101 57" stroke="rgba(140,90,60,.35)" stroke-width="1.6" fill="none"/>\n<!-- 脸部 -->\n<ellipse cx="55" cy="52" rx="4.6" ry="5.6" fill="url(#hand-iris)"/>\n<ellipse cx="85" cy="52" rx="4.6" ry="5.6" fill="url(#hand-iris)"/>\n<circle cx="53.3" cy="49.6" r="1.7" fill="#ffffff"/>\n<circle cx="83.3" cy="49.6" r="1.7" fill="#ffffff"/>\n<circle cx="56.8" cy="54.6" r="1" fill="rgba(255,255,255,.8)"/>\n<circle cx="86.8" cy="54.6" r="1" fill="rgba(255,255,255,.8)"/>\n<path d="M49 47.5 Q55 43.5 61 47.5" stroke="rgba(90,60,40,.55)" stroke-width="2.4" fill="none" stroke-linecap="round"/>\n<path d="M79 47.5 Q85 43.5 91 47.5" stroke="rgba(90,60,40,.55)" stroke-width="2.4" fill="none" stroke-linecap="round"/>\n<path d="M68 62 Q70 64 72 63" stroke="rgba(140,90,60,.40)" stroke-width="2.4" fill="none" stroke-linecap="round"/>\n<path d="M48 45 Q55 41.5 62 44" stroke="rgba(45,32,22,.6)" stroke-width="2.6" fill="none" stroke-linecap="round"/>\n<path d="M78 44 Q85 41.5 92 45" stroke="rgba(45,32,22,.6)" stroke-width="2.6" fill="none" stroke-linecap="round"/>\n<path d="M60 70 Q70 77 80 70" stroke="#a85c48" stroke-width="3" fill="none" stroke-linecap="round"/>\n<path d="M62 74 Q70 79 78 74" stroke="rgba(168,92,72,.25)" stroke-width="2" fill="none"/>\n<!-- 前发 + 配件 -->\n<path d="M39 43 Q36 15 70 12 Q104 15 101 43 L101 35 Q93 27 83 30 L70 21 L57 30 Q47 27 39 35 Z" fill="url(#hand-hair)"/><path d="M70 25 Q78 30 84 28" stroke="rgba(255,255,255,.35)" stroke-width="2.2" fill="none" stroke-linecap="round"/>\n\n</svg>'
-    },
-    {
-      id: "gentle", name: "林悦", style: "温柔耐心", dept: "健康助手", accent: "#7c6fd8",
-      svg: '<svg viewBox="0 0 140 150" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">\n<defs>\n  <radialGradient id="gentle-skin" cx="34%" cy="26%" r="90%">\n    <stop offset="0%" stop-color="#ffe0c4"/><stop offset="62%" stop-color="#fbc79f"/><stop offset="100%" stop-color="#d99a70"/>\n  </radialGradient>\n  <radialGradient id="gentle-shade" cx="50%" cy="28%" r="78%">\n    <stop offset="52%" stop-color="rgba(140,90,60,0)"/><stop offset="100%" stop-color="rgba(140,90,60,.30)"/>\n  </radialGradient>\n  <linearGradient id="gentle-hair" x1="0" y1="0" x2="0" y2="1">\n    <stop offset="0%" stop-color="#9a6b48"/><stop offset="100%" stop-color="#543624"/>\n  </linearGradient>\n  <linearGradient id="gentle-coat" x1="0" y1="0" x2="0" y2="1">\n    <stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#d7e4e7"/>\n  </linearGradient>\n  <linearGradient id="gentle-metal" x1="0" y1="0" x2="1" y2="1">\n    <stop offset="0%" stop-color="#c3d6dc"/><stop offset="100%" stop-color="#546e7a"/>\n  </linearGradient>\n  <radialGradient id="gentle-iris" cx="40%" cy="34%" r="85%">\n    <stop offset="0%" stop-color="#5a3d2a"/><stop offset="100%" stop-color="#221410"/>\n  </radialGradient>\n</defs>\n<!-- 白大褂 -->\n<path d="M15 150 Q13 115 34 109 L60 103 L80 103 L106 109 Q127 115 125 150 Z" fill="url(#gentle-coat)" stroke="#b6c7cb" stroke-width="1.5"/>\n<path d="M38 109 L62 133 L86 109 L95 118 L62 149 L29 118 Z" fill="#eef5f6" stroke="#c4d3d6" stroke-width="1"/>\n<path d="M70 124 L70 150" stroke="#dbe7ea" stroke-width="1.5"/>\n<!-- 衣领阴影 + 听诊器 -->\n<path d="M56 106 L70 122 L84 106 L70 140 Z" fill="rgba(115,145,150,.28)"/>\n<path d="M62 118 Q60 138 50 141 Q42 143 40 135" fill="none" stroke="url(#gentle-metal)" stroke-width="3.5" stroke-linecap="round"/>\n<circle cx="39.5" cy="134.5" r="6" fill="#ffffff" stroke="url(#gentle-metal)" stroke-width="3"/>\n<path d="M76 124 Q84 124 86 130" fill="none" stroke="url(#gentle-metal)" stroke-width="3" stroke-linecap="round"/>\n<g transform="translate(90 133)"><rect x="0" y="3" width="13" height="3.2" rx="1.6" fill="#e0555d"/><rect x="4.9" y="-2" width="3.2" height="13" rx="1.6" fill="#e0555d"/></g>\n<!-- 后发 -->\n<path d="M40 44 Q36 17 70 13 Q104 17 101 44 L101 80 Q101 98 89 100 L89 62 Q83 54 70 54 Q57 54 51 62 L51 100 Q39 98 39 80 Z" fill="url(#gentle-hair)"/>\n<!-- 脖子 + 头 -->\n<rect x="56" y="76" width="28" height="36" rx="11" fill="url(#gentle-skin)"/>\n<ellipse cx="70" cy="79" rx="15" ry="7" fill="rgba(140,90,60,.20)"/>\n<circle cx="70" cy="47" r="31" fill="url(#gentle-skin)"/>\n<circle cx="70" cy="56" r="30" fill="url(#gentle-shade)"/>\n<ellipse cx="38" cy="51" rx="7" ry="9" fill="url(#gentle-skin)"/>\n<ellipse cx="102" cy="51" rx="7" ry="9" fill="url(#gentle-skin)"/>\n<path d="M38 51 Q37 55 39 57" stroke="rgba(140,90,60,.35)" stroke-width="1.6" fill="none"/>\n<path d="M102 51 Q103 55 101 57" stroke="rgba(140,90,60,.35)" stroke-width="1.6" fill="none"/>\n<!-- 脸部 -->\n<ellipse cx="55" cy="52" rx="4.6" ry="5.6" fill="url(#gentle-iris)"/>\n<ellipse cx="85" cy="52" rx="4.6" ry="5.6" fill="url(#gentle-iris)"/>\n<circle cx="53.3" cy="49.6" r="1.7" fill="#ffffff"/>\n<circle cx="83.3" cy="49.6" r="1.7" fill="#ffffff"/>\n<circle cx="56.8" cy="54.6" r="1" fill="rgba(255,255,255,.8)"/>\n<circle cx="86.8" cy="54.6" r="1" fill="rgba(255,255,255,.8)"/>\n<path d="M49 47.5 Q55 43.5 61 47.5" stroke="rgba(90,60,40,.55)" stroke-width="2.4" fill="none" stroke-linecap="round"/>\n<path d="M79 47.5 Q85 43.5 91 47.5" stroke="rgba(90,60,40,.55)" stroke-width="2.4" fill="none" stroke-linecap="round"/>\n<path d="M68 62 Q70 64 72 63" stroke="rgba(140,90,60,.40)" stroke-width="2.4" fill="none" stroke-linecap="round"/>\n<path d="M45.5 45 Q42 42 39 43.5" stroke="rgba(60,40,28,.55)" stroke-width="2.2" fill="none" stroke-linecap="round"/>\n<path d="M94.5 43.5 Q97 42 100.5 45" stroke="rgba(60,40,28,.55)" stroke-width="2.2" fill="none" stroke-linecap="round"/>\n<ellipse cx="45" cy="62" rx="6" ry="3.6" fill="rgba(255,120,145,.42)"/>\n<ellipse cx="95" cy="62" rx="6" ry="3.6" fill="rgba(255,120,145,.42)"/>\n<path d="M60 70 Q70 77 80 70" stroke="#a85c48" stroke-width="3" fill="none" stroke-linecap="round"/>\n<path d="M62 74 Q70 79 78 74" stroke="rgba(168,92,72,.25)" stroke-width="2" fill="none"/>\n<!-- 前发 + 配件 -->\n<path d="M39 42 Q36 17 70 14 Q104 17 101 42 L101 36 Q93 28 83 32 L70 24 L57 32 Q47 28 39 36 Z" fill="url(#gentle-hair)"/><path d="M47 46 Q43 62 45 80 Q46 86 50 84 L50 56 Z" fill="url(#gentle-hair)"/><path d="M93 46 Q97 62 95 80 Q94 86 90 84 L90 56 Z" fill="url(#gentle-hair)"/>\n\n</svg>'
-    },
-    {
-      id: "expert", name: "王志远主任", style: "资深专家", dept: "全科 · 主任医师", accent: "#b7791f",
-      svg: '<svg viewBox="0 0 140 150" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">\n<defs>\n  <radialGradient id="expert-skin" cx="34%" cy="26%" r="90%">\n    <stop offset="0%" stop-color="#f2c093"/><stop offset="62%" stop-color="#e3a675"/><stop offset="100%" stop-color="#b97d50"/>\n  </radialGradient>\n  <radialGradient id="expert-shade" cx="50%" cy="28%" r="78%">\n    <stop offset="52%" stop-color="rgba(140,90,60,0)"/><stop offset="100%" stop-color="rgba(140,90,60,.30)"/>\n  </radialGradient>\n  <linearGradient id="expert-hair" x1="0" y1="0" x2="0" y2="1">\n    <stop offset="0%" stop-color="#e8ebec"/><stop offset="100%" stop-color="#9aa6ab"/>\n  </linearGradient>\n  <linearGradient id="expert-coat" x1="0" y1="0" x2="0" y2="1">\n    <stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#d7e4e7"/>\n  </linearGradient>\n  <linearGradient id="expert-metal" x1="0" y1="0" x2="1" y2="1">\n    <stop offset="0%" stop-color="#c3d6dc"/><stop offset="100%" stop-color="#546e7a"/>\n  </linearGradient>\n  <radialGradient id="expert-iris" cx="40%" cy="34%" r="85%">\n    <stop offset="0%" stop-color="#5a3d2a"/><stop offset="100%" stop-color="#221410"/>\n  </radialGradient>\n</defs>\n<!-- 白大褂 -->\n<path d="M15 150 Q13 115 34 109 L60 103 L80 103 L106 109 Q127 115 125 150 Z" fill="url(#expert-coat)" stroke="#b6c7cb" stroke-width="1.5"/>\n<path d="M38 109 L62 133 L86 109 L95 118 L62 149 L29 118 Z" fill="#eef5f6" stroke="#c4d3d6" stroke-width="1"/>\n<path d="M70 124 L70 150" stroke="#dbe7ea" stroke-width="1.5"/>\n<!-- 衣领阴影 + 听诊器 -->\n<path d="M56 106 L70 122 L84 106 L70 140 Z" fill="rgba(115,145,150,.28)"/>\n<path d="M62 118 Q60 138 50 141 Q42 143 40 135" fill="none" stroke="url(#expert-metal)" stroke-width="3.5" stroke-linecap="round"/>\n<circle cx="39.5" cy="134.5" r="6" fill="#ffffff" stroke="url(#expert-metal)" stroke-width="3"/>\n<path d="M76 124 Q84 124 86 130" fill="none" stroke="url(#expert-metal)" stroke-width="3" stroke-linecap="round"/>\n<g transform="translate(90 133)"><rect x="0" y="3" width="13" height="3.2" rx="1.6" fill="#e0555d"/><rect x="4.9" y="-2" width="3.2" height="13" rx="1.6" fill="#e0555d"/></g>\n<!-- 后发 -->\n<path d="M41 46 Q38 17 70 14 Q102 17 99 46 Q100 55 95 53 Q92 36 70 34 Q48 36 45 53 Q40 55 41 46 Z" fill="url(#expert-hair)"/>\n<!-- 脖子 + 头 -->\n<rect x="56" y="76" width="28" height="36" rx="11" fill="url(#expert-skin)"/>\n<ellipse cx="70" cy="79" rx="15" ry="7" fill="rgba(140,90,60,.20)"/>\n<circle cx="70" cy="47" r="31" fill="url(#expert-skin)"/>\n<circle cx="70" cy="56" r="30" fill="url(#expert-shade)"/>\n<ellipse cx="38" cy="51" rx="7" ry="9" fill="url(#expert-skin)"/>\n<ellipse cx="102" cy="51" rx="7" ry="9" fill="url(#expert-skin)"/>\n<path d="M38 51 Q37 55 39 57" stroke="rgba(140,90,60,.35)" stroke-width="1.6" fill="none"/>\n<path d="M102 51 Q103 55 101 57" stroke="rgba(140,90,60,.35)" stroke-width="1.6" fill="none"/>\n<!-- 脸部 -->\n<ellipse cx="55" cy="52" rx="4.6" ry="5.6" fill="url(#expert-iris)"/>\n<ellipse cx="85" cy="52" rx="4.6" ry="5.6" fill="url(#expert-iris)"/>\n<circle cx="53.3" cy="49.6" r="1.7" fill="#ffffff"/>\n<circle cx="83.3" cy="49.6" r="1.7" fill="#ffffff"/>\n<circle cx="56.8" cy="54.6" r="1" fill="rgba(255,255,255,.8)"/>\n<circle cx="86.8" cy="54.6" r="1" fill="rgba(255,255,255,.8)"/>\n<path d="M49 47.5 Q55 43.5 61 47.5" stroke="rgba(90,60,40,.55)" stroke-width="2.4" fill="none" stroke-linecap="round"/>\n<path d="M79 47.5 Q85 43.5 91 47.5" stroke="rgba(90,60,40,.55)" stroke-width="2.4" fill="none" stroke-linecap="round"/>\n<path d="M68 62 Q70 64 72 63" stroke="rgba(140,90,60,.40)" stroke-width="2.4" fill="none" stroke-linecap="round"/>\n<path d="M48 45 Q55 42 62 44.5" stroke="rgba(70,55,45,.6)" stroke-width="2.4" fill="none" stroke-linecap="round"/>\n<path d="M78 44.5 Q85 42 92 45" stroke="rgba(70,55,45,.6)" stroke-width="2.4" fill="none" stroke-linecap="round"/>\n<path d="M58 62 Q70 67 82 62" stroke="#c9d2d5" stroke-width="3.4" fill="none" stroke-linecap="round"/>\n<path d="M60 70 Q70 77 80 70" stroke="#a85c48" stroke-width="3" fill="none" stroke-linecap="round"/>\n<path d="M62 74 Q70 79 78 74" stroke="rgba(168,92,72,.25)" stroke-width="2" fill="none"/>\n<!-- 前发 + 配件 -->\n<path d="M39 43 Q36 15 70 12 Q104 15 101 43 L101 38 Q94 30 84 33 L70 26 L56 33 Q46 30 39 38 Z" fill="url(#expert-hair)"/>\n<circle cx="55" cy="52" r="8" fill="rgba(255,255,255,.18)" stroke="#46525c" stroke-width="2.2"/><circle cx="85" cy="52" r="8" fill="rgba(255,255,255,.18)" stroke="#46525c" stroke-width="2.2"/><path d="M63 52 L77 52" stroke="#46525c" stroke-width="2.2"/><path d="M47 52 L41 50" stroke="#46525c" stroke-width="2.2"/><path d="M93 52 L99 50" stroke="#46525c" stroke-width="2.2"/>\n</svg>'
-    }
-  ];
+  var PERSONAS = [{ id: "default", name: "医答", style: "循证专业", dept: "健康助手", accent: "#0e7c86", svg: "" }];
 
-  var USER_SVG = '<svg viewBox="0 0 120 140" xmlns="http://www.w3.org/2000/svg">' +
-    '<circle cx="60" cy="42" r="25" fill="#f2c79e"/>' +
-    '<path d="M38 40 Q36 16 60 16 Q84 16 82 40 Q82 46 76 45 Q74 33 60 31 Q46 33 44 45 Q38 46 38 40 Z" fill="#4a3728"/>' +
-    '<circle cx="50" cy="41" r="2.8" fill="#2f2620"/><circle cx="70" cy="41" r="2.8" fill="#2f2620"/>' +
-    '<path d="M54 50 Q60 55 66 50" stroke="#b06a4e" stroke-width="2.5" fill="none" stroke-linecap="round"/>' +
-    '<rect x="33" y="70" width="54" height="46" rx="13" fill="#0e7c86"/>' +
-    '<rect x="33" y="70" width="54" height="15" rx="7.5" fill="#0a5f66"/>' +
-    '<rect x="51" y="100" width="18" height="4" rx="2" fill="#ffffff" opacity=".85"/></svg>';
-
-  var persona = PERSONAS[0];
-  try {
-    var saved = localStorage.getItem("da_persona");
-    if (saved) {
-      var found = PERSONAS.filter(function (p) { return p.id === saved; });
-      if (found.length) persona = found[0];
-    }
-  } catch (e) {}
-
-  function personaCard(p) {
-    var d = document.createElement("div");
-    d.className = "persona";
-    d.dataset.id = p.id;
-    d.style.setProperty("--p-accent", p.accent);
-    d.innerHTML = '<div class="p-avatar">' + p.svg + '</div>' +
-      '<div class="p-name">' + p.name + '</div><div class="p-style">' + p.style + "</div>";
-    d.addEventListener("click", function () { setPersona(p.id); closeAll(); });
-    return d;
-  }
-  function renderPersonaGrids() {
-    var g1 = $("persona-pick"), g2 = $("persona-modal-grid");
-    g1.innerHTML = ""; g2.innerHTML = "";
-    PERSONAS.forEach(function (p) {
-      g1.appendChild(personaCard(p));
-      g2.appendChild(personaCard(p));
-    });
-    syncPersonaSelected();
-  }
-  function syncPersonaSelected() {
-    document.querySelectorAll(".persona").forEach(function (el) {
-      el.classList.toggle("on", el.dataset.id === persona.id);
-    });
-  }
-  function setPersona(id, silent) {
-    var p = PERSONAS.filter(function (x) { return x.id === id; })[0];
-    if (!p) return;
-    persona = p;
-    try { localStorage.setItem("da_persona", id); } catch (e) {}
-    document.documentElement.style.setProperty("--doc-accent", p.accent);
-    if (doc3d) doc3d.applyPersona(p);
-    else $("doc-avatar").innerHTML = p.svg;
-    $("doc-name").textContent = p.name;
-    $("doc-tag").textContent = p.style + " · " + p.dept;
-    $("welcome-avatar").innerHTML = p.svg;
-    $("welcome-name").textContent = p.name;
-    $("welcome-style").textContent = p.style + " · " + p.dept;
-    $("persona-btn").innerHTML = p.svg;
-    syncPersonaSelected();
-    if (!silent) setSpeech("ai", "您好，我是" + p.name + "。有什么健康问题想了解？随时问我。");
-  }
-
+  var persona = { name: "医答" };
+  function setPersona() {}
   /* ================= 场景对白 ================= */
-  function setSpeech(role, text) {
-    $("speech-who").textContent = role === "user" ? "我" : persona.name;
-    var st = $("speech-text");
-    st.textContent = text;
-    st.scrollTop = st.scrollHeight;
-    $("speech").classList.toggle("user", role === "user");
-    $("speech").classList.toggle("doctor", role === "ai");
-    $("scene-doctor").classList.toggle("speaking", role === "ai");
-    if (doc3d) doc3d.setSpeaking(role === "ai");
-    $("scene-user").classList.toggle("speaking", role === "user");
-  }
-  function setDocStatus(t) {
-    var s = $("doc-status");
-    s.textContent = t || "";
-    s.classList.toggle("busy", !!t);
-  }
+  function setSpeech() {}
+  function setDocStatus() {}
 
   /* ================= 对话记录（剧本式） ================= */
   function imgRow(images) {
@@ -1384,23 +733,25 @@ function bmInit(flipId,outId,onPick){
     });
   }
 
-  /* ---- 答案侧人体图：解剖插画风，器官常显+命中高亮 ---- */
+    /* ---- 答案侧人体图：教科书解剖图，真实器官+规范名称+引线标注 ---- */
   var BODY_UNITS = {
-    head: "头部", thyroid: "甲状腺", heart: "心脏", lungs: "肺", liver: "肝",
-    gallbladder: "胆囊", stomach: "胃", spleen: "脾", kidneys: "肾", intestine: "肠",
-    appendix: "阑尾", bladder: "膀胱", arms: "上肢", legs: "下肢", hips: "髋 / 臀"
+    head: "大脑", thyroid: "甲状腺", airway: "气管", lungs: "肺", heart: "心脏",
+    liver: "肝", gallbladder: "胆囊", stomach: "胃", spleen: "脾", pancreas: "胰腺",
+    kidneys: "肾", intestine: "小肠", colon: "大肠", appendix: "阑尾", bladder: "膀胱",
+    arms: "上肢", legs: "下肢"
   };
   var BODY_HINTS = [
     ["head", ["头痛", "头晕", "偏头", "脑袋", "头皮", "头部", "眩晕", "头"]],
     ["thyroid", ["甲状腺", "咽喉", "喉咙", "脖子", "颈椎", "颈部", "颈"]],
     ["heart", ["心口", "心前区", "心绞痛", "心悸", "心脏", "胸闷"]],
-    ["lungs", ["肺", "咳嗽", "哮喘", "呼吸", "气短", "支气管"]],
+    ["lungs", ["肺", "咳嗽", "哮喘", "气短", "支气管", "呼吸"]],
     ["heart,lungs", ["胸口", "胸"]],
     ["liver,gallbladder", ["右上腹", "胆囊", "胆", "肝"]],
-    ["stomach,spleen", ["胃", "胰腺", "脾"]],
-    ["appendix", ["阑尾", "右下腹"]],
-    ["intestine", ["左下腹", "结肠"]],
-    ["stomach,intestine", ["腹部", "腹痛", "肚子", "肚脐", "肠胃", "拉肚子", "腹泻", "便秘", "消化"]],
+    ["stomach,pancreas,spleen", ["胃", "胰腺", "脾"]],
+    ["appendix,colon", ["阑尾", "右下腹"]],
+    ["colon", ["左下腹", "结肠"]],
+    ["stomach,intestine,colon", ["腹部", "腹痛", "肚子", "肚脐", "肠胃", "拉肚子", "腹泻", "便秘", "消化"]],
+    ["bladder", ["膀胱", "尿频", "尿急", "排尿"]],
     ["bladder,hips", ["腹股沟", "疝", "髋"]],
     ["hips", ["尾骨", "屁股", "臀部", "臀"]],
     ["kidneys", ["肾", "腰椎", "腰部", "下背", "腰"]],
@@ -1420,59 +771,100 @@ function bmInit(flipId,outId,onPick){
     });
     return hits.join(",");
   }
-  function ansBodySVG(hits) {
+  function ansBodySVG(hits, opts) {
+    opts = opts || {};
     var on = {};
     (hits || "").split(",").forEach(function (p) { if (p) on[p] = 1; });
     function cls(id) { return on[id] ? " on" : ""; }
-    var s = '<svg class="ans-body" viewBox="60 8 178 505" xmlns="http://www.w3.org/2000/svg" aria-label="人体主要器官示意图">';
+    function wrap(unit, inner, pad) {
+      if (!opts.interactive) return inner;
+      var selCls = on[unit] ? " sel" : "";
+      var extra = pad ? '<circle class="hitpad" fill="transparent" cx="' + pad[0] + '" cy="' + pad[1] + '" r="' + pad[2] + '"/>' : "";
+      return '<g class="pickable' + selCls + '" data-unit="' + unit + '" tabindex="0" role="button" aria-label="选择 ' + (BODY_UNITS[unit] || unit) + '">' + extra + inner + '</g>';
+    }
+    var s = '<svg class="ans-body" viewBox="70 24 320 616" xmlns="http://www.w3.org/2000/svg" aria-label="人体解剖示意图">';
+    /* 躯干轮廓 */
     s += '<g class="silhouette">';
-    s += '<ellipse cx="150" cy="50" rx="29" ry="33"/>';
-    s += '<rect x="138" y="78" width="24" height="28" rx="7"/>';
-    s += '<path d="M96,112 Q150,94 204,112 Q214,152 191,198 Q184,242 189,302 L111,302 Q116,242 109,198 Q86,152 96,112 Z"/>';
+    s += '<ellipse cx="230" cy="58" rx="33" ry="37"/>';
+    s += '<path d="M216,88 L216,116 Q214,130 196,136 M244,88 L244,116 Q246,130 264,136"/>';
+    s += '<path d="M120,168 Q230,136 340,168 Q352,214 330,262 Q322,300 335,330 L338,452 Q335,478 310,482 L150,482 Q125,478 122,452 L125,330 Q138,300 130,262 Q108,214 120,168 Z"/>';
     s += '</g>';
-    s += '<path class="limb' + cls("arms") + '" style="stroke-width:19" d="M93,120 Q77,190 73,262"/>';
-    s += '<path class="limb' + cls("arms") + '" style="stroke-width:19" d="M207,120 Q223,190 227,262"/>';
-    s += '<path class="limb' + cls("legs") + '" style="stroke-width:25" d="M129,304 Q124,385 127,472"/>';
-    s += '<path class="limb' + cls("legs") + '" style="stroke-width:25" d="M171,304 Q176,385 173,472"/>';
-    s += '<ellipse class="foot' + cls("legs") + '" cx="126" cy="489" rx="12" ry="8"/>';
-    s += '<ellipse class="foot' + cls("legs") + '" cx="174" cy="489" rx="12" ry="8"/>';
-    /* 器官（画面左 = 患者右） */
-    s += '<ellipse class="organ' + cls("head") + '" cx="150" cy="46" rx="17" ry="13"/>';
-    s += '<text class="olabel' + cls("head") + '" x="150" y="50">脑</text>';
-    s += '<path class="organ' + cls("thyroid") + '" d="M143,89 Q140,84 137,88 Q135,94 143,95 L150,92 L157,95 Q165,94 163,88 Q160,84 157,89 Z"/>';
-    s += '<text class="olabel side' + cls("thyroid") + '" x="216" y="92">甲状腺</text>';
-    s += '<line class="lead' + cls("thyroid") + '" x1="166" y1="90" x2="212" y2="90"/>';
-    s += '<path class="organ' + cls("lungs") + '" d="M132,116 Q116,118 114,142 Q113,164 126,170 Q135,172 136,158 L137,124 Z"/>';
-    s += '<path class="organ' + cls("lungs") + '" d="M156,116 Q172,118 174,142 Q175,164 162,170 Q153,172 152,158 L151,124 Z"/>';
-    s += '<text class="olabel' + cls("lungs") + '" x="125" y="148">肺</text>';
-    s += '<path class="organ' + cls("heart") + '" d="M158,134 Q170,128 174,140 Q177,152 166,160 Q158,165 154,156 Q151,142 158,134 Z"/>';
-    s += '<text class="olabel' + cls("heart") + '" x="162" y="148">心</text>';
-    s += '<path class="organ' + cls("liver") + '" d="M116,192 Q138,184 156,192 Q158,204 148,212 Q128,218 118,208 Q112,198 116,192 Z"/>';
-    s += '<text class="olabel' + cls("liver") + '" x="133" y="205">肝</text>';
-    s += '<circle class="organ' + cls("gallbladder") + '" cx="143" cy="216" r="5"/>';
-    s += '<text class="olabel side' + cls("gallbladder") + '" x="98" y="224">胆囊</text>';
-    s += '<line class="lead' + cls("gallbladder") + '" x1="112" y1="221" x2="99" y2="222"/>';
-    s += '<path class="organ' + cls("stomach") + '" d="M158,190 Q176,188 182,200 Q186,212 174,220 Q160,224 155,212 Q152,198 158,190 Z"/>';
-    s += '<text class="olabel' + cls("stomach") + '" x="167" y="207">胃</text>';
-    s += '<ellipse class="organ' + cls("spleen") + '" cx="188" cy="196" rx="6" ry="9"/>';
-    s += '<text class="olabel side' + cls("spleen") + '" x="204" y="192">脾</text>';
-    s += '<line class="lead' + cls("spleen") + '" x1="196" y1="196" x2="202" y2="194"/>';
-    s += '<path class="organ' + cls("kidneys") + '" d="M117,236 Q112,232 111,240 Q111,250 117,248 Q121,246 121,240 Q120,237 117,236 Z"/>';
-    s += '<path class="organ' + cls("kidneys") + '" d="M183,236 Q188,232 189,240 Q189,250 183,248 Q179,246 179,240 Q180,237 183,236 Z"/>';
-    s += '<text class="olabel side' + cls("kidneys") + '" x="97" y="246">肾</text>';
-    s += '<text class="olabel side' + cls("kidneys") + '" x="196" y="246">肾</text>';
-    s += '<line class="lead' + cls("kidneys") + '" x1="112" y1="242" x2="104" y2="244"/>';
-    s += '<line class="lead' + cls("kidneys") + '" x1="188" y1="242" x2="196" y2="244"/>';
-    s += '<ellipse class="organ' + cls("intestine") + '" cx="150" cy="258" rx="29" ry="22"/>';
-    s += '<path class="organ-line' + cls("intestine") + '" d="M136,250 Q150,242 164,250 Q170,258 160,266 Q148,272 138,264 Q132,256 140,252"/>';
-    s += '<text class="olabel' + cls("intestine") + '" x="150" y="262">肠</text>';
-    s += '<circle class="organ' + cls("appendix") + '" cx="130" cy="286" r="4"/>';
-    s += '<text class="olabel side' + cls("appendix") + '" x="98" y="296">阑尾</text>';
-    s += '<line class="lead' + cls("appendix") + '" x1="112" y1="290" x2="99" y2="293"/>';
-    s += '<circle class="organ' + cls("bladder") + '" cx="150" cy="296" r="7"/>';
-    s += '<text class="olabel side' + cls("bladder") + '" x="190" y="308">膀胱</text>';
-    s += '<line class="lead' + cls("bladder") + '" x1="158" y1="300" x2="188" y2="305"/>';
+    s += '<path class="limb' + cls("arms") + '" style="stroke-width:19" d="M126,178 Q96,262 88,352"/>';
+    s += '<path class="limb' + cls("arms") + '" style="stroke-width:19" d="M334,178 Q364,262 372,352"/>';
+    s += '<path class="limb' + cls("legs") + '" style="stroke-width:26" d="M172,486 Q164,562 168,630"/>';
+    s += '<path class="limb' + cls("legs") + '" style="stroke-width:26" d="M288,486 Q296,562 292,630"/>';
+    s += '<ellipse class="foot' + cls("legs") + '" cx="167" cy="638" rx="13" ry="8"/>';
+    s += '<ellipse class="foot' + cls("legs") + '" cx="293" cy="638" rx="13" ry="8"/>';
+    s += '<path class="bone" d="M172,178 Q196,170 218,176 M288,178 Q264,170 242,176"/>';
+    /* 脑 */
+    s += wrap("head", '<path class="organ' + cls("head") + '" d="M208,44 C206,32 216,25 230,25 C244,25 254,32 252,44 C254,56 244,63 230,63 C216,63 206,56 208,44 Z"/><path class="organ-line' + cls("head") + '" d="M216,38 C222,33 230,33 234,38 M218,50 C226,45 236,45 244,50"/>', [230, 44, 26]);
+    s += '<text class="olabel' + cls("head") + '" x="230" y="47">大脑</text>';
+    /* 气管 + 主支气管 */
+    s += wrap("airway", '<rect class="organ' + cls("airway") + '" x="223" y="96" width="14" height="58" rx="6"/><path class="organ-line' + cls("airway") + '" d="M223,108 L237,108 M223,120 L237,120 M223,132 L237,132 M223,144 L237,144"/><path class="organ' + cls("airway") + '" d="M226,152 L204,174 M234,152 L256,174"/>', [230, 120, 16]);
+    s += '<text class="olabel side' + cls("airway") + '" x="302" y="146">气管</text>';
+    s += '<line class="lead' + cls("airway") + '" x1="240" y1="140" x2="296" y2="144"/>';
+    /* 甲状腺（蝶形两叶包绕气管） */
+    s += wrap("thyroid", '<path class="organ' + cls("thyroid") + '" d="M217,102 C210,95 198,97 194,109 C191,119 196,128 206,128 C213,128 218,121 219,115 L222,112 L224,112 L227,115 C228,121 233,128 240,128 C250,128 255,119 252,109 C248,97 236,95 229,102 L230,112 L217,112 Z"/>', [213, 112, 13]);
+    s += '<text class="olabel side' + cls("thyroid") + '" x="150" y="112">甲状腺</text>';
+    s += '<line class="lead' + cls("thyroid") + '" x1="156" y1="112" x2="196" y2="112"/>';
+    /* 右肺（三叶+叶间裂） */
+    s += wrap("lungs", '<path class="organ' + cls("lungs") + '" d="M144,158 C126,166 116,196 118,226 C120,254 132,270 154,267 C172,264 180,248 182,226 L184,172 C176,160 156,152 144,158 Z"/><path class="organ-line' + cls("lungs") + '" d="M130,232 L172,200 M136,250 L176,222"/>');
+    /* 左肺（两叶+心切迹） */
+    s += wrap("lungs", '<path class="organ' + cls("lungs") + '" d="M316,158 C334,166 344,196 342,226 C340,254 328,270 306,267 C286,264 276,250 272,236 C269,225 278,220 284,212 C289,205 287,192 283,182 L281,172 C288,160 305,152 316,158 Z"/><path class="organ-line' + cls("lungs") + '" d="M330,240 L292,206"/>');
+    s += '<text class="olabel' + cls("lungs") + '" x="150" y="214">右肺</text>';
+    s += '<text class="olabel' + cls("lungs") + '" x="310" y="204">左肺</text>';
+    /* 心脏（心底大血管+心尖朝左下） */
+    s += wrap("heart", '<path class="vessel' + cls("heart") + '" d="M250,194 C258,178 282,178 290,194 L294,216 L282,222 L288,196 C280,188 264,188 258,200 Z"/><path class="organ' + cls("heart") + '" d="M254,198 C244,192 234,200 236,216 C238,242 250,272 268,282 C282,288 292,276 294,258 C296,240 296,222 292,208 C286,196 268,190 254,198 Z"/>', [264, 236, 24]);
+    s += '<text class="olabel' + cls("heart") + '" x="264" y="240">心脏</text>';
+    /* 肝 */
+    s += wrap("liver", '<path class="organ' + cls("liver") + '" d="M132,298 C160,282 202,280 234,290 C246,294 250,302 244,312 C238,328 220,340 198,344 C170,348 144,338 134,320 C129,310 127,302 132,298 Z"/><path class="organ-line' + cls("liver") + '" d="M210,288 C214,300 212,318 204,336"/>', [180, 314, 44]);
+    s += '<text class="olabel' + cls("liver") + '" x="180" y="316">肝</text>';
+    /* 胆囊 */
+    s += wrap("gallbladder", '<path class="organ' + cls("gallbladder") + '" d="M196,340 C206,337 213,343 211,353 C209,362 198,365 191,358 C186,352 189,344 196,340 Z"/>', [201, 351, 12]);
+    s += '<text class="olabel side' + cls("gallbladder") + '" x="150" y="378">胆囊</text>';
+    s += '<line class="lead' + cls("gallbladder") + '" x1="192" y1="356" x2="156" y2="372"/>';
+    /* 胃 */
+    s += wrap("stomach", '<path class="organ' + cls("stomach") + '" d="M254,290 C250,283 254,275 260,273 C269,270 276,274 278,281 C293,280 306,291 309,306 C312,324 307,342 295,352 C283,361 265,359 257,349 C249,339 248,320 250,306 C251,300 252,294 254,290 Z"/>', [279, 316, 30]);
+    s += '<text class="olabel' + cls("stomach") + '" x="279" y="318">胃</text>';
+    /* 脾 */
+    s += wrap("spleen", '<ellipse class="organ' + cls("spleen") + '" cx="322" cy="310" rx="14" ry="22"/>', [322, 310, 17]);
+    s += '<text class="olabel side' + cls("spleen") + '" x="338" y="282">脾</text>';
+    s += '<line class="lead' + cls("spleen") + '" x1="330" y1="288" x2="326" y2="292"/>';
+    /* 胰 */
+    s += wrap("pancreas", '<path class="organ' + cls("pancreas") + '" d="M220,364 C218,354 228,346 242,346 C268,344 292,348 312,356 C318,358 318,364 312,364 C292,358 268,356 246,360 C232,362 224,368 220,364 Z"/>', [266, 354, 30]);
+    s += '<text class="olabel side' + cls("pancreas") + '" x="346" y="362">胰腺</text>';
+    s += '<line class="lead' + cls("pancreas") + '" x1="342" y1="358" x2="314" y2="358"/>';
+    /* 十二指肠 */
+    s += wrap("intestine", '<path class="organ-line2' + cls("intestine") + '" d="M232,340 C214,344 206,358 210,374 C214,388 224,394 234,392" style="stroke-width:9"/>');
+    /* 肾 + 输尿管 */
+    s += wrap("kidneys", '<path class="organ back' + cls("kidneys") + '" d="M138,306 C128,302 120,310 120,324 C120,338 130,348 140,344 C148,340 150,328 147,316 C145,310 142,307 138,306 Z"/><path class="ureter' + cls("kidneys") + '" d="M140,346 C152,382 176,424 208,466"/>', [134, 326, 16]);
+    s += wrap("kidneys", '<path class="organ back' + cls("kidneys") + '" d="M322,296 C332,292 340,300 340,314 C340,328 330,338 320,334 C312,330 310,318 313,306 C315,300 318,297 322,296 Z"/><path class="ureter' + cls("kidneys") + '" d="M320,336 C308,376 286,426 252,468"/>', [326, 316, 16]);
+    s += '<text class="olabel side' + cls("kidneys") + '" x="110" y="302">右肾</text>';
+    s += '<line class="lead' + cls("kidneys") + '" x1="116" y1="306" x2="124" y2="312"/>';
+    s += '<text class="olabel side' + cls("kidneys") + '" x="344" y="296">左肾</text>';
+    s += '<line class="lead' + cls("kidneys") + '" x1="342" y1="300" x2="334" y2="306"/>';
+    /* 结肠框 */
+    s += wrap("colon", '<path class="organ2' + cls("colon") + '" d="M158,372 C154,396 152,424 156,446 C158,456 168,458 172,450 C178,428 176,398 174,376 C172,366 160,362 158,372 Z"/><path class="organ-line' + cls("colon") + '" d="M162,392 L172,390 M160,412 L170,410 M158,432 L168,430"/>', [164, 410, 18]);
+    s += wrap("colon", '<path class="organ2' + cls("colon") + '" d="M186,362 C220,378 266,380 300,362 C308,358 316,360 318,368 C318,376 310,382 300,380 C268,394 222,392 192,378 C182,374 180,366 186,362 Z"/>', [244, 372, 34]);
+    s += wrap("colon", '<path class="organ2' + cls("colon") + '" d="M302,372 C308,396 310,424 306,446 C304,456 294,458 290,450 C284,428 286,398 288,378 C289,370 298,364 302,372 Z"/><path class="organ-line' + cls("colon") + '" d="M292,392 L302,390 M294,412 L304,410 M296,432 L306,430"/>', [298, 410, 18]);
+    s += wrap("colon", '<path class="organ2' + cls("colon") + '" d="M304,452 C310,470 300,484 284,482 C270,480 264,468 272,458 C280,448 298,446 306,452 Z"/>', [288, 468, 18]);
+    s += '<text class="olabel side' + cls("colon") + '" x="118" y="404">升结肠</text>';
+    s += '<line class="lead' + cls("colon") + '" x1="126" y1="406" x2="148" y2="408"/>';
+    s += '<text class="olabel side' + cls("colon") + '" x="342" y="404">降结肠</text>';
+    s += '<line class="lead' + cls("colon") + '" x1="338" y1="406" x2="314" y2="408"/>';
+    /* 小肠 */
+    s += wrap("intestine", '<path class="organ2' + cls("intestine") + '" d="M196,394 C226,384 258,390 260,408 C262,424 232,430 216,422 C204,416 206,404 218,400 M210,438 C240,448 274,440 276,418 C277,402 262,394 252,398 M226,452 C252,460 280,450 282,430" style="stroke-width:11"/>', [240, 420, 42]);
+    s += '<text class="olabel' + cls("intestine") + '" x="238" y="424">小肠</text>';
+    /* 阑尾 */
+    s += wrap("appendix", '<path class="organ2' + cls("appendix") + '" d="M168,452 C162,462 166,472 176,474" style="stroke-width:8"/>', [170, 462, 12]);
+    s += '<text class="olabel side' + cls("appendix") + '" x="164" y="496">阑尾</text>';
+    s += '<line class="lead' + cls("appendix") + '" x1="172" y1="478" x2="166" y2="486"/>';
+    /* 膀胱 */
+    s += wrap("bladder", '<path class="organ' + cls("bladder") + '" d="M206,480 C206,468 216,462 230,462 C244,462 254,468 254,480 C254,490 244,496 230,496 C216,496 206,490 206,480 Z"/>', [230, 479, 15]);
+    s += '<text class="olabel side' + cls("bladder") + '" x="286" y="500">膀胱</text>';
+    s += '<line class="lead' + cls("bladder") + '" x1="256" y1="482" x2="270" y2="496"/>';
     s += '</svg>';
+    if (opts.interactive) return s;
     var tags = (hits || "").split(",").filter(function (p) { return p; })
       .map(function (p) { return '<span class="bm-tag">' + (BODY_UNITS[p] || p) + "</span>"; }).join("");
     return s + '<div class="bm-tags">' + tags + '</div><div class="ans-media-cap">相关器官与部位</div>';
@@ -1482,7 +874,52 @@ function bmInit(flipId,outId,onPick){
     return ansBodySVG(hitParts);
   }
 
-  /* ================= 会话 ================= */
+  /* ---- 欢迎屏：点选人体部位 -> 引用提问 ---- */
+  var bodyPick = "";
+  function renderWelcomeBody() {
+    var el = document.getElementById("welcome-body-svg");
+    if (el) el.innerHTML = ansBodySVG(bodyPick, { interactive: true });
+  }
+  function updatePickBar() {
+    var bar = document.getElementById("body-pick-bar");
+    if (!bar) return;
+    if (bodyPick) {
+      bar.hidden = false;
+      document.getElementById("body-pick-name").textContent = BODY_UNITS[bodyPick] || bodyPick;
+    } else {
+      bar.hidden = true;
+    }
+  }
+  function setBodyPick(unit) {
+    bodyPick = (bodyPick === unit) ? "" : unit;
+    renderWelcomeBody();
+    updatePickBar();
+    if (bodyPick && typeof input !== "undefined" && input) input.focus();
+  }
+  function clearBodyPick() {
+    if (!bodyPick) return;
+    bodyPick = "";
+    renderWelcomeBody();
+    updatePickBar();
+  }
+  document.addEventListener("click", function (e) {
+    var t = e.target.closest ? e.target.closest("#welcome-body-svg .pickable") : null;
+    if (t) setBodyPick(t.getAttribute("data-unit"));
+    var ex = e.target.closest ? e.target.closest(".ex-q") : null;
+    if (ex && typeof input !== "undefined" && input && typeof send === "function") {
+      input.value = ex.textContent;
+      send();
+    }
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    var t = e.target && e.target.closest ? e.target.closest("#welcome-body-svg .pickable") : null;
+    if (t) { e.preventDefault(); setBodyPick(t.getAttribute("data-unit")); }
+  });
+  var pickClearBtn = document.getElementById("body-pick-clear");
+  if (pickClearBtn) pickClearBtn.addEventListener("click", clearBodyPick);
+  renderWelcomeBody();
+
   var convsCache = [];
   function titleOf(items) {
     for (var i = 0; i < items.length; i++) if (items[i].role === "user") return items[i].text.slice(0, 20);
@@ -1590,13 +1027,13 @@ function bmInit(flipId,outId,onPick){
     state.convId = genId();
     transcript.innerHTML = "";
     welcomeEl.style.display = "";
+    clearBodyPick();
     renderConvList();
     closeAll();
   }
   function openSidebar() { $("sidebar").classList.add("open"); $("mask").style.display = "block"; }
   function closeSidebar() { $("sidebar").classList.remove("open"); $("mask").style.display = "none"; }
   function closeAll() {
-    $("persona-modal").classList.remove("open");
     closeSidebar();
   }
 
@@ -1631,8 +1068,16 @@ function bmInit(flipId,outId,onPick){
       renderPreviews();
     }
 
+    var rawText = text;
+    if (bodyPick) {
+      var bpName = BODY_UNITS[bodyPick] || bodyPick;
+      text = text ? ("【不适部位：" + bpName + "】" + text)
+                  : ("【不适部位：" + bpName + "】请帮我分析可能的原因和注意事项。");
+      clearBodyPick();
+    }
+
     addLine("user", text, apiImages);
-    setSpeech("user", text || "（上传了检查图片）");
+    setSpeech("user", rawText || "（上传了检查图片）");
 
     var line = document.createElement("div");
     line.className = "line ai";
@@ -1668,8 +1113,6 @@ function bmInit(flipId,outId,onPick){
     }
 
     setSending(true);
-    $("scene-doctor").classList.add("thinking");
-    if (doc3d) doc3d.setThinking(true);
     var full = "";
     try {
       var resp = await fetch("/chat/stream", {
@@ -1727,8 +1170,6 @@ function bmInit(flipId,outId,onPick){
     } finally {
       setSending(false);
       setDocStatus("");
-      $("scene-doctor").classList.remove("thinking");
-      if (doc3d) doc3d.setThinking(false);
       input.focus();
     }
   }
@@ -1748,56 +1189,9 @@ function bmInit(flipId,outId,onPick){
     input.style.height = Math.min(input.scrollHeight, 160) + "px";
   }
 
-  var SUGGESTIONS = [
-    ["我一喝牛奶就拉肚子，是乳糖不耐受吗？", "我在广东生活，耳鸣鼻塞，会是鼻咽癌吗？", "G6PD 缺乏的人能吃哪些药？", "我和丈夫都是地贫携带者，孩子会得地贫吗？"],
-    ["饭后血糖经常偏高，怎么调整饮食？", "血压 145/95 需要吃降压药吗？", "体检报告说幽门螺杆菌阳性，要治疗吗？", "长期咳嗽有痰，会不会是慢阻肺？"],
-    ["乙肝两对半第二项阳性是什么意思？", "被蚊子咬了会得登革热吗？", "孩子发烧该什么时候去医院？", "肺结核会通过共餐传染吗？"],
-    ["药物性肝损伤有哪些表现？", "孕妇能接种哪些疫苗？", "海鲜和维生素C同吃会中毒吗？", "体检发现甲状腺结节怎么办？"],
-    ["感冒和流感怎么区分？", "体检尿酸高就是痛风吗？", "安眠药能长期吃吗？", "老人跌倒后该先做什么？"]
-  ];
-  var sugIdx = 0;
-  function renderSuggestions() {
-    var wrap = $("suggestions");
-    if (!wrap) return;
-    wrap.innerHTML = "";
-    var group = document.createElement("div");
-    group.className = "chip-group";
-    SUGGESTIONS[sugIdx].forEach(function (q) {
-      var btn = document.createElement("button");
-      btn.className = "chip";
-      btn.textContent = q;
-      btn.addEventListener("click", function () { input.value = q; send(); });
-      group.appendChild(btn);
-    });
-    wrap.appendChild(group);
-    var dots = document.createElement("div");
-    dots.className = "dots";
-    SUGGESTIONS.forEach(function (_, i) {
-      var d = document.createElement("span");
-      if (i === sugIdx) d.className = "on";
-      d.addEventListener("click", function () { sugIdx = i; renderSuggestions(); });
-      dots.appendChild(d);
-    });
-    wrap.appendChild(dots);
-  }
-  renderSuggestions();
-  setInterval(function () {
-    if (welcomeEl.style.display === "none") return;
-    sugIdx = (sugIdx + 1) % SUGGESTIONS.length;
-    renderSuggestions();
-  }, 6000);
-
   $("new-chat").addEventListener("click", newConv);
+("click", newConv);
   $("menu-btn").addEventListener("click", openSidebar);
-  $("persona-btn").addEventListener("click", function () {
-    renderPersonaGrids();
-    $("persona-modal").classList.add("open");
-    $("mask").style.display = "block";
-  });
-  $("persona-close").addEventListener("click", closeAll);
-  $("persona-modal").addEventListener("click", function (e) {
-    if (e.target === $("persona-modal")) closeAll();
-  });
   $("mask").addEventListener("click", closeAll);
 
   /* mermaid lazy-load (2.7MB) */
@@ -1814,255 +1208,8 @@ function bmInit(flipId,outId,onPick){
     document.head.appendChild(s);
   }
 
-  /* ================= 真 3D 立体医生（Three.js） ================= */
-  var DOC3D_CONFIG = {
-    cute:     { skin: 0xffcfae, hair: 0xb07a52, style: "cute",  glasses: false, blush: true },
-    handsome: { skin: 0xf0c49b, hair: 0x2f2a28, style: "short", glasses: false, blush: false },
-    gentle:   { skin: 0xf6cba8, hair: 0x7a563e, style: "long",  glasses: false, blush: true },
-    expert:   { skin: 0xe8b98a, hair: 0xcfd6d9, style: "gray",  glasses: true,  blush: false }
-  };
-  var doc3d = null;
-  function initDoc3D() {
-    var mount = $("doc-avatar");
-    if (!mount || !window.THREE) return;
-    try {
-      var renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
-      renderer.shadowMap.enabled = true;
-      renderer.shadowMap.type = THREE.PCFSoftShadowMap;
-      renderer.outputEncoding = THREE.sRGBEncoding;
-      mount.appendChild(renderer.domElement);
-
-      var W = mount.clientWidth || 190, H = mount.clientHeight || 235;
-      renderer.setSize(W, H);
-      var scene = new THREE.Scene();
-      var camera = new THREE.PerspectiveCamera(32, W / H, 0.1, 50);
-      camera.position.set(0, 2.0, 6.3);
-      camera.lookAt(0, 1.8, 0);
-
-      scene.add(new THREE.HemisphereLight(0xffffff, 0xcfe3e8, 0.8));
-      var key = new THREE.DirectionalLight(0xffffff, 1.05);
-      key.position.set(3, 6, 4);
-      key.castShadow = true;
-      key.shadow.mapSize.set(1024, 1024);
-      key.shadow.camera.left = -3; key.shadow.camera.right = 3;
-      key.shadow.camera.top = 4.5; key.shadow.camera.bottom = -1;
-      scene.add(key);
-      var rim = new THREE.DirectionalLight(0xbfe8ff, 0.45);
-      rim.position.set(-3, 3, -3);
-      scene.add(rim);
-
-      var ground = new THREE.Mesh(new THREE.CircleGeometry(1.8, 48), new THREE.ShadowMaterial({ opacity: 0.34 }));
-      ground.rotation.x = -Math.PI / 2;
-      ground.position.y = 0.001;
-      ground.receiveShadow = true;
-      scene.add(ground);
-
-      var root = new THREE.Group();
-      scene.add(root);
-
-      function mat(color, opt) {
-        return new THREE.MeshStandardMaterial(Object.assign({ color: color, roughness: 0.62, metalness: 0.02 }, opt || {}));
-      }
-      var mats = {
-        skin: mat(0xf0c49b, { roughness: 0.5 }),
-        coat: mat(0xf7fafb, { roughness: 0.78 }),
-        coatShade: mat(0xdbe8eb, { roughness: 0.85 }),
-        pants: mat(0x2b3a44, { roughness: 0.85 }),
-        shoe: mat(0x1b2328, { roughness: 0.55 }),
-        hair: mat(0x2f2a28, { roughness: 0.65 }),
-        iris: mat(0x2a1a10, { roughness: 0.2 }),
-        white: mat(0xffffff, { roughness: 0.45 }),
-        metal: mat(0x8fa3ad, { metalness: 0.75, roughness: 0.35 }),
-        blush: new THREE.MeshStandardMaterial({ color: 0xff9db0, transparent: true, opacity: 0.55, roughness: 0.6 }),
-        frame: mat(0x3a444d, { roughness: 0.4 }),
-        lens: new THREE.MeshStandardMaterial({ color: 0x9fc4d0, transparent: true, opacity: 0.16, roughness: 0.1, metalness: 0.4 })
-      };
-      function add(mesh) { root.add(mesh); return mesh; }
-      function sphere(r, m, x, y, z, sx, sy, sz) {
-        var s = new THREE.Mesh(new THREE.SphereGeometry(r, 28, 22), m);
-        s.position.set(x, y, z);
-        s.scale.set(sx || 1, sy || 1, sz || 1);
-        s.castShadow = true;
-        return add(s);
-      }
-      function cyl(rt, rb, h, m, x, y, z, seg) {
-        var s = new THREE.Mesh(new THREE.CylinderGeometry(rt, rb, h, seg || 20), m);
-        s.position.set(x, y, z);
-        s.castShadow = true;
-        return add(s);
-      }
-      function box(w, h, d, m, x, y, z) {
-        var s = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), m);
-        s.position.set(x, y, z);
-        s.castShadow = true;
-        return add(s);
-      }
-
-      // ---- 身体 ----
-      cyl(0.15, 0.15, 0.9, mats.pants, -0.17, 0.45, 0);
-      cyl(0.15, 0.15, 0.9, mats.pants, 0.17, 0.45, 0);
-      box(0.34, 0.13, 0.6, mats.shoe, -0.17, 0.065, 0.07);
-      box(0.34, 0.13, 0.6, mats.shoe, 0.17, 0.065, 0.07);
-      var torso = cyl(0.37, 0.44, 0.95, mats.coat, 0, 1.42, 0, 24);
-      cyl(0.42, 0.6, 0.45, mats.coatShade, 0, 1.05, 0, 24);
-      box(0.46, 0.14, 0.22, mats.coat, 0, 1.94, 0.1);
-      var armL = cyl(0.12, 0.12, 0.85, mats.coat, -0.5, 1.55, 0);
-      armL.rotation.z = 0.1;
-      var armR = cyl(0.12, 0.12, 0.85, mats.coat, 0.5, 1.55, 0);
-      armR.rotation.z = -0.1;
-      sphere(0.11, mats.skin, -0.55, 1.12, 0);
-      sphere(0.11, mats.skin, 0.55, 1.12, 0);
-      // 听诊器
-      sphere(0.045, mats.metal, -0.13, 1.9, 0.17);
-      sphere(0.045, mats.metal, 0.13, 1.9, 0.17);
-      var tube = cyl(0.022, 0.022, 0.55, mats.metal, 0, 1.59, 0.27, 10);
-      tube.rotation.x = 0.22;
-      var chest = cyl(0.055, 0.055, 0.12, mats.white, 0, 1.3, 0.39, 14);
-      chest.rotation.x = 1.35;
-      // 脖子
-      cyl(0.11, 0.13, 0.22, mats.skin, 0, 2.06, 0, 16);
-
-      // ---- 头组 ----
-      var head = new THREE.Group();
-      head.position.set(0, 2.34, 0);
-      root.add(head);
-      function hAdd(mesh) { head.add(mesh); mesh.castShadow = true; return mesh; }
-      var headBall = new THREE.Mesh(new THREE.SphereGeometry(0.34, 32, 26), mats.skin);
-      hAdd(headBall);
-      var earL = new THREE.Mesh(new THREE.SphereGeometry(0.07, 16, 12), mats.skin);
-      earL.position.set(-0.34, -0.04, 0); earL.scale.set(0.5, 0.7, 0.5); earL.castShadow = true; head.add(earL);
-      var earR = earL.clone(); earR.position.x = 0.34; head.add(earR);
-
-      // 眼睛
-      var eyeL = new THREE.Group(); eyeL.position.set(-0.13, 0.04, 0.285); head.add(eyeL);
-      var eyeR = new THREE.Group(); eyeR.position.set(0.13, 0.04, 0.285); head.add(eyeR);
-      function buildEye(g) {
-        var s = new THREE.Mesh(new THREE.SphereGeometry(0.085, 20, 16), mats.white);
-        s.scale.set(1, 0.9, 0.55); g.add(s);
-        var ir = new THREE.Mesh(new THREE.SphereGeometry(0.052, 20, 16), mats.iris);
-        ir.position.z = 0.035; ir.scale.set(1, 1.15, 0.5); g.add(ir);
-        var hl = new THREE.Mesh(new THREE.SphereGeometry(0.018, 10, 8), mats.white);
-        hl.position.set(0.02, 0.025, 0.085); g.add(hl);
-      }
-      buildEye(eyeL); buildEye(eyeR);
-      // 鼻子 / 嘴巴
-      var nose = new THREE.Mesh(new THREE.SphereGeometry(0.05, 14, 10), mats.skin);
-      nose.position.set(0, -0.06, 0.335); nose.scale.set(1, 0.9, 0.7); nose.castShadow = true; head.add(nose);
-      var mouth = new THREE.Mesh(new THREE.SphereGeometry(0.045, 14, 10), mat(0xc4706a, { roughness: 0.5 }));
-      mouth.position.set(0, -0.17, 0.335); mouth.scale.set(1.25, 0.5, 0.5); head.add(mouth);
-      // 腮红
-      var blushL = new THREE.Mesh(new THREE.SphereGeometry(0.05, 12, 10), mats.blush);
-      blushL.position.set(-0.19, -0.06, 0.31); blushL.scale.set(1, 0.7, 0.5); head.add(blushL);
-      var blushR = blushL.clone(); blushR.position.x = 0.19; head.add(blushR);
-      // 眼镜（专家）
-      var glasses = new THREE.Group(); head.add(glasses);
-      function gframe(x) {
-        var t = new THREE.Mesh(new THREE.TorusGeometry(0.085, 0.014, 10, 24), mats.frame);
-        t.position.set(x, 0.08, 0.345); glasses.add(t);
-        var lens = new THREE.Mesh(new THREE.CircleGeometry(0.072, 22), mats.lens);
-        lens.position.set(x, 0.08, 0.36); glasses.add(lens);
-      }
-      gframe(-0.13); gframe(0.13);
-      var bridge = new THREE.Mesh(new THREE.BoxGeometry(0.09, 0.02, 0.02), mats.frame);
-      bridge.position.set(0, 0.08, 0.35); glasses.add(bridge);
-      var templeL = new THREE.Mesh(new THREE.BoxGeometry(0.11, 0.015, 0.015), mats.frame);
-      templeL.position.set(-0.215, 0.08, 0.33); glasses.add(templeL);
-      var templeR = templeL.clone(); templeR.position.x = 0.215; glasses.add(templeR);
-      glasses.visible = false;
-      // 头发组 / 眉毛组
-      var hairGroup = new THREE.Group(); head.add(hairGroup);
-      var browGroup = new THREE.Group(); head.add(browGroup);
-      function clearGroup(g) { while (g.children.length) g.remove(g.children[0]); }
-      function rebuildHair(color, style) {
-        clearGroup(hairGroup); clearGroup(browGroup);
-        mats.hair.color.set(color);
-        var cap = new THREE.Mesh(new THREE.SphereGeometry(0.35, 28, 18, 0, Math.PI * 2, 0, Math.PI * 0.5), mats.hair);
-        cap.position.set(0, 0.03, 0); cap.castShadow = true; hairGroup.add(cap);
-        var fringe = new THREE.Mesh(new THREE.BoxGeometry(0.52, 0.13, 0.18), mats.hair);
-        fringe.position.set(0, 0.24, 0.25); fringe.castShadow = true; hairGroup.add(fringe);
-        if (style === "cute") {
-          var spike = new THREE.Mesh(new THREE.ConeGeometry(0.05, 0.2, 10), mats.hair);
-          spike.position.set(0.03, 0.34, 0.06); spike.rotation.z = 0.35; spike.castShadow = true; hairGroup.add(spike);
-          var tuftL = new THREE.Mesh(new THREE.SphereGeometry(0.085, 12, 10), mats.hair);
-          tuftL.position.set(-0.2, 0.3, 0.05); tuftL.scale.set(1, 0.55, 0.7); tuftL.castShadow = true; hairGroup.add(tuftL);
-          var tuftR = tuftL.clone(); tuftR.position.x = 0.2; hairGroup.add(tuftR);
-        } else if (style === "long") {
-          var sideL = new THREE.Mesh(new THREE.CylinderGeometry(0.1, 0.12, 0.95, 14), mats.hair);
-          sideL.position.set(-0.36, -0.32, 0); sideL.castShadow = true; hairGroup.add(sideL);
-          var sideR = sideL.clone(); sideR.position.x = 0.36; hairGroup.add(sideR);
-        }
-        var b1 = new THREE.Mesh(new THREE.BoxGeometry(0.17, 0.03, 0.03), mats.hair);
-        b1.position.set(-0.13, 0.16, 0.32); browGroup.add(b1);
-        var b2 = b1.clone(); b2.position.x = 0.13; browGroup.add(b2);
-      }
-
-      // ---- 动画状态 ----
-      var st = { speaking: false, thinking: false };
-      var rotY = 0, targetRotY = 0, dragging = false, lastX = 0;
-      renderer.domElement.addEventListener("pointerdown", function (e) {
-        dragging = true; lastX = e.clientX;
-        mount.classList.add("dragging");
-      });
-      window.addEventListener("pointermove", function (e) {
-        if (!dragging) return;
-        targetRotY += (e.clientX - lastX) * 0.01;
-        lastX = e.clientX;
-      });
-      window.addEventListener("pointerup", function () { dragging = false; mount.classList.remove("dragging"); });
-
-      function resize() {
-        var w = mount.clientWidth, h = mount.clientHeight;
-        if (!w || !h) return;
-        renderer.setSize(w, h);
-        camera.aspect = w / h;
-        camera.updateProjectionMatrix();
-      }
-      window.addEventListener("resize", resize);
-
-      var clock = new THREE.Clock();
-      var nextBlink = 2.5;
-      (function animate() {
-        requestAnimationFrame(animate);
-        var t = clock.getElapsedTime();
-        root.position.y = Math.sin(t * 1.3) * 0.03;
-        torso.scale.y = 1 + Math.sin(t * 2.1) * 0.02;
-        rotY += (targetRotY - rotY) * 0.08;
-        root.rotation.y = Math.sin(t * 0.45) * 0.14 + rotY;
-        if (t > nextBlink) nextBlink = t + 2.2 + Math.random() * 3.2;
-        var blink = Math.max(0, 1 - Math.max(0, Math.abs(t - nextBlink - 0.5) - 0.4) * 6);
-        eyeL.scale.y = 1 - blink * 0.93;
-        eyeR.scale.y = 1 - blink * 0.93;
-        var ms = st.speaking ? 0.55 + 0.45 * Math.abs(Math.sin(t * 9)) : 1;
-        mouth.scale.set(1.25, 0.5 * ms, 0.5);
-        head.rotation.z = st.thinking ? Math.sin(t * 5) * 0.07 : (st.speaking ? Math.sin(t * 4) * 0.03 : 0);
-        renderer.render(scene, camera);
-      })();
-
-      function applyPersona(p) {
-        var cfg = DOC3D_CONFIG[p.id] || DOC3D_CONFIG.handsome;
-        mats.skin.color.set(cfg.skin);
-        rebuildHair(cfg.hair, cfg.style);
-        glasses.visible = !!cfg.glasses;
-        blushL.visible = blushR.visible = !!cfg.blush;
-      }
-
-      doc3d = {
-        applyPersona: applyPersona,
-        setSpeaking: function (v) { st.speaking = !!v; },
-        setThinking: function (v) { st.thinking = !!v; }
-      };
-    } catch (e) {
-      console.error("3D doctor init failed:", e);
-    }
-  }
-  loadThreeJS(initDoc3D);
-
   /* ================= 启动 ================= */
-  $("user-avatar").innerHTML = USER_SVG;
-  renderPersonaGrids();
-  setPersona(persona.id, true);
-  setSpeech("ai", "您好，我是" + persona.name + "。有什么健康问题想了解？随时问我。");
+  renderWelcomeBody();
   restoreHistory();
   var _q = new URLSearchParams(location.search).get('q');
   if (_q) { input.value = _q; autoResize(); }

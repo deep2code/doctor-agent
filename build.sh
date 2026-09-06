@@ -111,8 +111,8 @@ build_qdrant() {
       --provenance false \
       .
 
-    # 清理本机烘焙产物（镜像已包含 storage）
-    rm -rf qdrant-storage
+    # 不自动删 qdrant-storage: 产物来之不易 (GPU 烘焙 ~1 小时 + 手动恢复过),
+    # 留在本机作为镜像之外的第二副本, 要清理请手动删。
   else
     echo "  Linux → Docker 内烘焙（FNV hash 离线 embedding，无 Ollama）"
     docker build --progress=plain --platform linux/amd64 \

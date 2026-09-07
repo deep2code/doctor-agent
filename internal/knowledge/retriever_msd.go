@@ -39,12 +39,14 @@ func (r *KeywordRetriever) RetrieveMSD(ctx context.Context, query string, topK i
 	}
 
 	var results []MSDResult
-	for _, e := range r.store.GetMSDEntries() {
-		score, ok := scoreMSD(&e, queryLower, cjkWindows, latin)
+	r.store.ensureMSD()
+	for i := range r.store.MSDEntries {
+		e := &r.store.MSDEntries[i]
+		score, ok := scoreMSD(e, queryLower, cjkWindows, latin)
 		if !ok || score < minMSDScore {
 			continue
 		}
-		results = append(results, MSDResult{Entry: e, Score: score})
+		results = append(results, MSDResult{Entry: *e, Score: score})
 	}
 
 	sort.Slice(results, func(i, j int) bool { return results[i].Score > results[j].Score })
@@ -54,60 +56,12 @@ func (r *KeywordRetriever) RetrieveMSD(ctx context.Context, query string, topK i
 	return results, nil
 }
 
-// scoreMSD scores one MSD page. The full CJK query matched against the title
-// dominates; longer windows outrank short 2-rune windows; Latin tokens match
-// case-insensitively. This keeps e.g. "荨麻疹" on the urticaria page instead
-// of any page merely containing "麻疹".
+// scoreMSD scores one MSD page via the shared prose scorer with legacy
+// two-zone semantics (title +20 / body +8, CJK full query only). Kept as a
+// named wrapper — tests and callers reference it directly. Specificity rule
+// intact: "荨麻疹" lands on the urticaria page, not any page mentioning 麻疹.
 func scoreMSD(e *MSDEntry, queryLower string, cjkWindows []string, latin []string) (float64, bool) {
-	titleLower := strings.ToLower(e.Title)
-	bodyLower := strings.ToLower(e.Content)
-	var score float64
-	matchedAny := false
-
-	// Full query in title/body (specificity: exact phrase beats fragments).
-	if q := strings.TrimSpace(queryLower); len([]rune(q)) >= 2 && hasCJK(q) {
-		if strings.Contains(titleLower, q) {
-			score += 20
-			matchedAny = true
-		} else if strings.Contains(bodyLower, q) {
-			score += 8
-			matchedAny = true
-		}
-	}
-
-	// CJK window hits: longer windows are more specific.
-	for _, w := range cjkWindows {
-		w := strings.ToLower(w)
-		r := len([]rune(w))
-		var weight float64
-		switch {
-		case r >= 4:
-			weight = 8
-		case r == 3:
-			weight = 5
-		default:
-			weight = 2 // 2-rune window: weak signal
-		}
-		if strings.Contains(titleLower, w) {
-			score += weight * 2
-			matchedAny = true
-		} else if strings.Contains(bodyLower, w) {
-			score += weight
-			matchedAny = true
-		}
-	}
-
-	// Latin token hits.
-	for _, t := range latin {
-		if strings.Contains(titleLower, t) {
-			score += 4
-			matchedAny = true
-		} else if strings.Contains(bodyLower, t) {
-			score += 2
-			matchedAny = true
-		}
-	}
-	return score, matchedAny
+	return scoreProse(e.Title, e.Content, queryLower, cjkWindows, latin, proseScoreOpts{})
 }
 
 // everydaySynonyms maps colloquial daily-life complaints to the MSD Manual's

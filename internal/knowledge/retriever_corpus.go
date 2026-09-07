@@ -96,34 +96,49 @@ var corpusSynonyms = map[string][]string{
 	"先天性甲状腺功能减低": {"congenital hypothyroidism"},
 }
 
-// scoreCorpus scores one corpus document: full query title +20 / summary +10 /
-// body +6; CJK windows 4+ runes +8, 3 +5, 2 +2 (title zone double); English
-// phrases +8 title zone / +3 body zone; Latin tokens +4 / +2.
-// Title zone = Title, TitleZH and Keywords; body zone = Summary and Body.
-func scoreCorpus(d *CorpusDoc, queryLower string, cjkWindows, phrases, latin []string) (float64, bool) {
-	titleLower := strings.ToLower(d.Title + " " + d.TitleZH)
-	for _, k := range d.Keywords {
-		titleLower += " " + strings.ToLower(k)
-	}
-	summaryLower := strings.ToLower(d.Summary)
-	bodyLower := strings.ToLower(d.Body)
+// proseScoreOpts tunes scoreProse per corpus family. The zero value
+// reproduces the legacy MSD/NHC two-zone behaviour (title +20 / body +8,
+// no phrases, no exact-title bonus); CorpusDoc retrieval sets the flags.
+type proseScoreOpts struct {
+	Summary        string   // optional middle zone: +10 on full query, empty = legacy two-zone
+	Phrases        []string // English phrase bridges (zh→en), +8 title zone / +3 body zone
+	ExactTitle     string   // bare doc title; when it equals the whole query, +15 (CorpusDoc only)
+	LatinFullQuery bool     // let a Latin full query hit the +20/+10/+6 containment ladder
+}
+
+// scoreProse is the single scoring family for all prose corpora (MSD/NHC/
+// unified CorpusDoc): full query against the title zone dominates, longer
+// CJK windows outrank 2-rune windows (title zone double), English phrases
+// and Latin tokens match case-insensitively.
+// Legacy scores preserved: title +20 / body +8 (two-zone, opts zero value)
+// and title +20 / summary +10 / body +6 (CorpusDoc three-zone).
+func scoreProse(titleZone, body string, queryLower string, cjkWindows, latin []string, o proseScoreOpts) (float64, bool) {
+	summaryZone := o.Summary
+	titleLower := strings.ToLower(titleZone)
+	bodyLower := strings.ToLower(body)
 	var score float64
 	matchedAny := false
 
-	// Full-query containment (CJK or Latin, 2+ runes).
+	// Full-query containment (CJK always; Latin only when enabled).
 	if q := strings.TrimSpace(queryLower); len([]rune(q)) >= 2 {
-		if strings.Contains(titleLower, q) {
-			score += 20
-			matchedAny = true
-		} else if strings.Contains(summaryLower, q) {
-			score += 10
-			matchedAny = true
-		} else if strings.Contains(bodyLower, q) {
-			score += 6
-			matchedAny = true
+		if hasCJK(q) || o.LatinFullQuery {
+			if strings.Contains(titleLower, q) {
+				score += 20
+				matchedAny = true
+			} else if summaryZone != "" && strings.Contains(strings.ToLower(summaryZone), q) {
+				score += 10
+				matchedAny = true
+			} else if strings.Contains(bodyLower, q) {
+				if summaryZone != "" {
+					score += 6
+				} else {
+					score += 8
+				}
+				matchedAny = true
+			}
 		}
 		// Exact title match outranks substring hits ("Asthma" > "Allergic asthma").
-		if strings.TrimSpace(strings.ToLower(d.Title)) == q {
+		if o.ExactTitle != "" && strings.TrimSpace(strings.ToLower(o.ExactTitle)) == q {
 			score += 15
 		}
 	}
@@ -142,18 +157,18 @@ func scoreCorpus(d *CorpusDoc, queryLower string, cjkWindows, phrases, latin []s
 		if strings.Contains(titleLower, w) {
 			score += weight * 2
 			matchedAny = true
-		} else if strings.Contains(summaryLower, w) || strings.Contains(bodyLower, w) {
+		} else if (summaryZone != "" && strings.Contains(strings.ToLower(summaryZone), w)) || strings.Contains(bodyLower, w) {
 			score += weight
 			matchedAny = true
 		}
 	}
 
-	for _, p := range phrases {
+	for _, p := range o.Phrases {
 		p := strings.ToLower(p)
 		if strings.Contains(titleLower, p) {
 			score += 8
 			matchedAny = true
-		} else if strings.Contains(summaryLower, p) || strings.Contains(bodyLower, p) {
+		} else if (summaryZone != "" && strings.Contains(strings.ToLower(summaryZone), p)) || strings.Contains(bodyLower, p) {
 			score += 3
 			matchedAny = true
 		}
@@ -163,12 +178,59 @@ func scoreCorpus(d *CorpusDoc, queryLower string, cjkWindows, phrases, latin []s
 		if strings.Contains(titleLower, t) {
 			score += 4
 			matchedAny = true
-		} else if strings.Contains(summaryLower, t) || strings.Contains(bodyLower, t) {
+		} else if (summaryZone != "" && strings.Contains(strings.ToLower(summaryZone), t)) || strings.Contains(bodyLower, t) {
 			score += 2
 			matchedAny = true
 		}
 	}
 	return score, matchedAny
+}
+
+// scoreCorpus scores one corpus document: full query title +20 / summary +10 /
+// body +6; CJK windows 4+ runes +8, 3 +5, 2 +2 (title zone double); English
+// phrases +8 title zone / +3 body zone; Latin tokens +4 / +2.
+// Title zone = Title, TitleZH and Keywords; body zone = Summary and Body.
+func scoreCorpus(d *CorpusDoc, queryLower string, cjkWindows, phrases, latin []string) (float64, bool) {
+	titleZone := d.Title + " " + d.TitleZH
+	for _, k := range d.Keywords {
+		titleZone += " " + k
+	}
+	return scoreProse(titleZone, d.Body, queryLower, cjkWindows, latin, proseScoreOpts{
+		Summary:        d.Summary,
+		Phrases:        phrases,
+		ExactTitle:     d.Title,
+		LatinFullQuery: true,
+	})
+}
+
+// scoreEnglish is the single scoring family for English prose corpora
+// (AAP / MedlinePlus): full phrase hits title +15 / body +5, word hits
+// (>=3 chars, pre-filtered by the caller) title +4 / body +1.
+func scoreEnglish(title, body, qLower string, words []string) (float64, bool) {
+	titleLower := strings.ToLower(title)
+	bodyLower := strings.ToLower(body)
+	var score float64
+	matched := false
+	if len([]rune(qLower)) >= 5 {
+		if strings.Contains(titleLower, qLower) {
+			score += 15
+			matched = true
+		}
+		if strings.Contains(bodyLower, qLower) {
+			score += 5
+			matched = true
+		}
+	}
+	for _, w := range words {
+		if strings.Contains(titleLower, w) {
+			score += 4
+			matched = true
+		} else if strings.Contains(bodyLower, w) {
+			score += 1
+			matched = true
+		}
+	}
+	return score, matched
 }
 
 // corpusExcerpt cuts a ±700-rune window of Body around the earliest term

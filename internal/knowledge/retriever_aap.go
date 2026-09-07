@@ -48,27 +48,5 @@ func (r *KeywordRetriever) RetrieveAAP(ctx context.Context, query string, topK i
 }
 
 func scoreAAP(e *AAPEntry, qLower string, words []string) (float64, bool) {
-	titleLower := strings.ToLower(e.Title)
-	bodyLower := strings.ToLower(e.Content)
-	var score float64
-	matched := false
-
-	if len([]rune(qLower)) >= 5 && strings.Contains(titleLower, qLower) {
-		score += 15
-		matched = true
-	}
-	if len([]rune(qLower)) >= 5 && strings.Contains(bodyLower, qLower) {
-		score += 5
-		matched = true
-	}
-	for _, w := range words {
-		if strings.Contains(titleLower, w) {
-			score += 4
-			matched = true
-		} else if strings.Contains(bodyLower, w) {
-			score += 1
-			matched = true
-		}
-	}
-	return score, matched
+	return scoreEnglish(e.Title, e.Content, qLower, words)
 }

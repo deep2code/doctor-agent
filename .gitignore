@@ -83,3 +83,11 @@ qdrant-storage/
 
 # 本机 ONNX 导出产物（bge-m3 fp32 约 2.3GB，external/export_onnx.py 生成）
 bge-m3-onnx/
+external/statpearls/
+external/lactmed/
+external/gomodcache/
+external/medgen/
+external/icd11/
+external/.cache/
+internal/knowledge/data/corpus_statpearls.json
+logs/*.log

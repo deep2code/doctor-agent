@@ -48,6 +48,45 @@ func TestCorpusToolSmoke(t *testing.T) {
 	}
 }
 
+// TestTryICDCode covers the exact-code auto-dispatch: ICD-10/ICD-11 shaped
+// queries hit the classification stores; free text never hijacks the switch.
+func TestTryICDCode(t *testing.T) {
+	store, err := knowledge.Load()
+	if err != nil {
+		t.Fatalf("Load: %v", err)
+	}
+	ks := NewKnowledgeSearch(store, nil)
+
+	res, handled := ks.tryICDCode("1A00")
+	if !handled {
+		t.Fatalf("1A00 应被识别为 ICD 码")
+	}
+	b, _ := json.Marshal(res.Data)
+	if !containsFold(string(b), "霍乱") {
+		t.Errorf("1A00 应命中霍乱: %s", b)
+	}
+
+	res, handled = ks.tryICDCode("j45.9")
+	if !handled {
+		t.Fatalf("J45.9（小写）应被识别为 ICD-10 码")
+	}
+	b, _ = json.Marshal(res.Data)
+	// 国家临床版为 6 位扩展码：J45.9 前缀命中 J45.900（哮喘）
+	if !containsFold(string(b), "J45.900") || !containsFold(string(b), "哮喘") {
+		t.Errorf("J45.9 应前缀命中 J45.900 哮喘: %s", b)
+	}
+
+	if _, handled := ks.tryICDCode("G6PD"); handled {
+		t.Errorf("G6PD 不是 ICD 码，不应拦截")
+	}
+	if _, handled := ks.tryICDCode("哮喘"); handled {
+		t.Errorf("中文词不应被拦截")
+	}
+	if _, handled := ks.tryICDCode("asthma"); handled {
+		t.Errorf("英文词不应被拦截")
+	}
+}
+
 func containsFold(s, sub string) bool {
 	n := len(sub)
 	if n == 0 {

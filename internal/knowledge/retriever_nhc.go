@@ -82,10 +82,10 @@ func containsStr(ss []string, s string) bool {
 // NHC guideline titles, so 2-char queries that are not a contiguous substring
 // of the title (流行性感冒 contains no 流感) still match the right guideline.
 var nhcSynonyms = map[string][]string{
-	"流感": {"流行性感冒"},
-	"新冠": {"新型冠状病毒"},
-	"甲流": {"流行性感冒"},
-	"乙肝": {"乙型病毒性肝炎"},
+	"流感":  {"流行性感冒"},
+	"新冠":  {"新型冠状病毒"},
+	"甲流":  {"流行性感冒"},
+	"乙肝":  {"乙型病毒性肝炎"},
 	"手足口": {"手足口病"},
 }
 
@@ -103,12 +103,12 @@ func nhcSynonymList(query string) []string {
 // fhsSynonyms maps mainland colloquial parenting terms to Hong Kong FHS
 // wording (辅食→固体食物, 睡姿→仰睡, 发烧→发热 etc.).
 var fhsSynonyms = map[string][]string{
-	"辅食":   {"固体食物"},
-	"睡姿":   {"仰睡", "睡眠"},
-	"发烧":   {"发热"},
-	"宝宝":   {"婴儿", "幼儿"},
+	"辅食":  {"固体食物"},
+	"睡姿":  {"仰睡", "睡眠"},
+	"发烧":  {"发热"},
+	"宝宝":  {"婴儿", "幼儿"},
 	"拉肚子": {"腹泻"},
-	"喂奶":   {"母乳"},
+	"喂奶":  {"母乳"},
 }
 
 // fhsSynonymList expands query against fhsSynonyms.
@@ -122,53 +122,9 @@ func fhsSynonymList(query string) []string {
 	return out
 }
 
-// scoreNHC scores one guideline: full query in title +20 / body +8; CJK
-// windows 4+ runes +8, 3 runes +5, 2 runes +2 (title hits double); Latin
-// tokens +4 title / +2 body.
+// scoreNHC scores one guideline via the shared prose scorer with legacy
+// two-zone semantics (identical to MSD scoring; "Same scoring as MSD" note
+// upstream). Kept as a named wrapper — tests and callers reference it.
 func scoreNHC(g *NHCGuide, queryLower string, cjkWindows []string, latin []string) (float64, bool) {
-	titleLower := strings.ToLower(g.Title)
-	bodyLower := strings.ToLower(g.Content)
-	var score float64
-	matchedAny := false
-
-	if q := strings.TrimSpace(queryLower); len([]rune(q)) >= 2 && hasCJK(q) {
-		if strings.Contains(titleLower, q) {
-			score += 20
-			matchedAny = true
-		} else if strings.Contains(bodyLower, q) {
-			score += 8
-			matchedAny = true
-		}
-	}
-
-	for _, w := range cjkWindows {
-		w := strings.ToLower(w)
-		var weight float64
-		switch r := len([]rune(w)); {
-		case r >= 4:
-			weight = 8
-		case r == 3:
-			weight = 5
-		default:
-			weight = 2
-		}
-		if strings.Contains(titleLower, w) {
-			score += weight * 2
-			matchedAny = true
-		} else if strings.Contains(bodyLower, w) {
-			score += weight
-			matchedAny = true
-		}
-	}
-
-	for _, t := range latin {
-		if strings.Contains(titleLower, t) {
-			score += 4
-			matchedAny = true
-		} else if strings.Contains(bodyLower, t) {
-			score += 2
-			matchedAny = true
-		}
-	}
-	return score, matchedAny
+	return scoreProse(g.Title, g.Content, queryLower, cjkWindows, latin, proseScoreOpts{})
 }

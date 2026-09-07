@@ -65,51 +65,9 @@ func (r *KeywordRetriever) RetrieveFHSGuide(ctx context.Context, query string, t
 	return results, nil
 }
 
-// scoreFHS scores one FHS page (identical to scoreNHC).
+// scoreFHS scores one FHS page via the shared prose scorer with legacy
+// two-zone semantics (identical to scoreNHC/scoreMSD). Kept as a named
+// wrapper — callers reference it.
 func scoreFHS(g *FHSGuide, queryLower string, cjkWindows []string, latin []string) (float64, bool) {
-	titleLower := strings.ToLower(g.Title)
-	bodyLower := strings.ToLower(g.Content)
-	var score float64
-	matchedAny := false
-
-	if q := strings.TrimSpace(queryLower); len([]rune(q)) >= 2 && hasCJK(q) {
-		if strings.Contains(titleLower, q) {
-			score += 20
-			matchedAny = true
-		} else if strings.Contains(bodyLower, q) {
-			score += 8
-			matchedAny = true
-		}
-	}
-
-	for _, w := range cjkWindows {
-		w := strings.ToLower(w)
-		var weight float64
-		switch r := len([]rune(w)); {
-		case r >= 4:
-			weight = 8
-		case r == 3:
-			weight = 5
-		default:
-			weight = 2
-		}
-		if strings.Contains(titleLower, w) {
-			score += weight * 2
-			matchedAny = true
-		} else if strings.Contains(bodyLower, w) {
-			score += weight
-			matchedAny = true
-		}
-	}
-
-	for _, t := range latin {
-		if strings.Contains(titleLower, t) {
-			score += 4
-			matchedAny = true
-		} else if strings.Contains(bodyLower, t) {
-			score += 2
-			matchedAny = true
-		}
-	}
-	return score, matchedAny
+	return scoreProse(g.Title, g.Content, queryLower, cjkWindows, latin, proseScoreOpts{})
 }

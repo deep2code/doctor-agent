@@ -951,6 +951,28 @@ func (s *Store) GetICD11Term(code string) *ICD11Term {
 	return s.ICD11ByCode[code]
 }
 
+// SearchICD10CodePrefix finds ICD-10 (national clinical edition) entries by
+// code prefix — WHO short codes extend to 6 digits (J45.9 -> J45.900).
+func (s *Store) SearchICD10CodePrefix(prefix string, limit int) []ICD10Disease {
+	_ = s.ensureICD10()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	p := strings.ToUpper(strings.TrimSpace(prefix))
+	if p == "" {
+		return nil
+	}
+	var out []ICD10Disease
+	for i := range s.ICD10Diseases {
+		if strings.HasPrefix(s.ICD10Diseases[i].Code, p) {
+			out = append(out, s.ICD10Diseases[i])
+			if len(out) >= limit {
+				break
+			}
+		}
+	}
+	return out
+}
+
 // SearchICD11 finds ICD-11 terms by code prefix or zh/en title substring.
 func (s *Store) SearchICD11(query string, limit int) []ICD11Term {
 	_ = s.ensureICD11()

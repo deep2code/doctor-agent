@@ -3,6 +3,8 @@ package tools
 import (
 	"context"
 	"fmt"
+	"regexp"
+	"sort"
 	"strings"
 
 	"github.com/doctor-agent/internal/knowledge"
@@ -19,7 +21,7 @@ import (
 // medical knowledge and the keyword retriever for specialized corpora.
 type KnowledgeSearch struct {
 	store            *knowledge.Store
-	retriever        knowledge.Retriever   // hybrid retriever for general medical knowledge
+	retriever        knowledge.Retriever         // hybrid retriever for general medical knowledge
 	keywordRetriever *knowledge.KeywordRetriever // for specialized corpora (MSD, NHC, etc.)
 }
 
@@ -83,6 +85,13 @@ func (t *KnowledgeSearch) Execute(ctx context.Context, input map[string]any) (*T
 	}
 	query = strings.TrimSpace(query)
 
+	// Exact-code auto-dispatch: a query shaped like an ICD-10/ICD-11 code
+	// (J45.9 / I10 / 1A00 / 5A11) goes straight to the classification stores
+	// before any dataset switch — a safety net when the LLM skips exact_lookup.
+	if res, handled := t.tryICDCode(query); handled {
+		return res, nil
+	}
+
 	dataset, _ := input["dataset"].(string)
 	if dataset == "" {
 		dataset = "medical"
@@ -135,6 +144,67 @@ func (t *KnowledgeSearch) Execute(ctx context.Context, input map[string]any) (*T
 }
 
 // ---- dataset-specific search methods ----
+
+// icd10Pattern matches ICD-10 codes: letter + 2 digits + optional .sub
+// (I10, J45.9, E11.9). icd11Pattern matches ICD-11 codes: digit + letter +
+// 2 alnum + optional .sub (1A00, 5A11, 9C00.0). Both anchored — free text
+// like "G6PD" or "新冠" never matches.
+var (
+	icd10Pattern = regexp.MustCompile(`(?i)^[A-Z]\d{2}(\.\d{1,4})?$`)
+	icd11Pattern = regexp.MustCompile(`^\d[A-Z][0-9A-Z]{2}(\.[0-9A-Z]{1,4})?$`)
+)
+
+// tryICDCode handles code-shaped queries via the ICD-10/ICD-11 exact stores.
+// handled=false means the query is not a code — fall through to normal search.
+func (t *KnowledgeSearch) tryICDCode(query string) (*ToolResult, bool) {
+	code := strings.ToUpper(strings.TrimSpace(query))
+	if !icd10Pattern.MatchString(code) && !icd11Pattern.MatchString(code) {
+		return nil, false
+	}
+	var results []map[string]any
+	if d := t.store.GetICD11Term(code); d != nil {
+		results = append(results, map[string]any{
+			"icd11_code": d.ICD11Code, "title_zh": d.TitleZH, "title_en": d.TitleEN,
+			"chapter": d.Chapter, "match_type": "icd11_exact",
+		})
+		if d.ICD10Map != "" {
+			results[0]["icd10_map"] = d.ICD10Map
+		}
+	}
+	if d := t.store.GetICD10DiseaseByCode(code); d != nil {
+		results = append(results, map[string]any{
+			"icd10_code": d.Code, "name_zh": d.NameZH, "category": d.Category,
+			"match_type": "icd10_exact",
+		})
+	} else if len(results) == 0 {
+		// WHO short codes extend in the national clinical edition (J45.9 ->
+		// J45.900) — fall back to code-prefix matching.
+		for _, d := range t.store.SearchICD10CodePrefix(code, 5) {
+			dd := d
+			results = append(results, map[string]any{
+				"icd10_code": dd.Code, "name_zh": dd.NameZH, "category": dd.Category,
+				"match_type": "icd10_prefix",
+			})
+		}
+	}
+	if len(results) == 0 {
+		// Code-shaped but unknown — still answer as exact miss, not semantic fuzz.
+		return &ToolResult{
+			Success: true,
+			Data: map[string]any{
+				"query": query, "dataset": "icd_exact", "result_count": 0,
+				"message": fmt.Sprintf("'%s' 形似 ICD 编码但在 ICD-10/ICD-11 编码库中均未找到，请核对编码。", query),
+			},
+		}, true
+	}
+	return &ToolResult{
+		Success: true,
+		Data: map[string]any{
+			"query": query, "dataset": "icd_exact", "result_count": len(results),
+			"results": results,
+		},
+	}, true
+}
 
 // searchMedical uses the hybrid retriever for general medical knowledge.
 func (t *KnowledgeSearch) searchMedical(ctx context.Context, query string, topK int) (*ToolResult, error) {
@@ -461,26 +531,7 @@ func (t *KnowledgeSearch) searchHuatuoQA(query, dept string, limit int) (*ToolRe
 		if dept != "" && qa.Department != dept {
 			continue
 		}
-		score := 0
-		q := strings.ToLower(qa.Question)
-		a := strings.ToLower(qa.Answer)
-		d := strings.ToLower(qa.RelatedDiseases)
-		if strings.Contains(q, lq) || strings.Contains(d, lq) {
-			score += 10
-		}
-		if strings.Contains(a, lq) {
-			score += 5
-		}
-		for _, word := range strings.Fields(lq) {
-			if len(word) >= 2 {
-				if strings.Contains(q, word) {
-					score += 3
-				}
-				if strings.Contains(d, word) {
-					score += 2
-				}
-			}
-		}
+		score := scoreQAPair(qa.Question, qa.Answer, qa.RelatedDiseases, lq)
 		if score > 0 {
 			results = append(results, qaResult{
 				ID: qa.ID, Question: qa.Question, Answer: qa.Answer,
@@ -489,14 +540,7 @@ func (t *KnowledgeSearch) searchHuatuoQA(query, dept string, limit int) (*ToolRe
 		}
 	}
 
-	// Selection sort by score descending
-	for i := 0; i < len(results); i++ {
-		for j := i + 1; j < len(results); j++ {
-			if results[j].Score > results[i].Score {
-				results[i], results[j] = results[j], results[i]
-			}
-		}
-	}
+	sort.SliceStable(results, func(i, j int) bool { return results[i].Score > results[j].Score })
 	if len(results) > limit {
 		results = results[:limit]
 	}
@@ -507,12 +551,12 @@ func (t *KnowledgeSearch) searchHuatuoQA(query, dept string, limit int) (*ToolRe
 	items := make([]map[string]any, 0, len(results))
 	for _, r := range results {
 		items = append(items, map[string]any{
-			"id":            r.ID,
-			"department":    r.Dept,
-			"question":      truncate(r.Question, 100),
-			"answer":        truncate(r.Answer, 300),
+			"id":              r.ID,
+			"department":      r.Dept,
+			"question":        truncate(r.Question, 100),
+			"answer":          truncate(r.Answer, 300),
 			"related_disease": r.Disease,
-			"score":          r.Score,
+			"score":           r.Score,
 		})
 	}
 	return &ToolResult{
@@ -552,20 +596,7 @@ func (t *KnowledgeSearch) searchMedicalQA(query, dept string, limit int) (*ToolR
 		if dept != "" && qa.Department != dept {
 			continue
 		}
-		score := 0
-		q := strings.ToLower(qa.Question)
-		a := strings.ToLower(qa.Answer)
-		if strings.Contains(q, lq) {
-			score += 10
-		}
-		if strings.Contains(a, lq) {
-			score += 5
-		}
-		for _, word := range strings.Fields(lq) {
-			if len(word) >= 2 && strings.Contains(q, word) {
-				score += 3
-			}
-		}
+		score := scoreQAPair(qa.Question, qa.Answer, "", lq)
 		if score > 0 {
 			results = append(results, qaResult{
 				Question: qa.Question, Answer: qa.Answer,
@@ -574,13 +605,7 @@ func (t *KnowledgeSearch) searchMedicalQA(query, dept string, limit int) (*ToolR
 		}
 	}
 
-	for i := 0; i < len(results); i++ {
-		for j := i + 1; j < len(results); j++ {
-			if results[j].Score > results[i].Score {
-				results[i], results[j] = results[j], results[i]
-			}
-		}
-	}
+	sort.SliceStable(results, func(i, j int) bool { return results[i].Score > results[j].Score })
 	if len(results) > limit {
 		results = results[:limit]
 	}

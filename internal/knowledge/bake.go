@@ -53,6 +53,8 @@ var vectorSkipDatasets = map[string]bool{
 	DSNMPA:      true, // 167,615 rows
 	DSCPubMed:   true, // 105,416 rows
 	DSICD10:     true, // 35,862 rows
+	DSICD11:     true, // 35,339 rows — exact-match codes like ICD-10
+	DSCorpus:    true, // medkb corpora: keyword full-text layer suffices; keeps bake cost flat
 }
 
 // vectorBakeEligible reports whether a dataset should be vectorized.

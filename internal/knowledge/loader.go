@@ -75,6 +75,14 @@ type Store struct {
 	// AAP parenting articles (healthychildren.org), English full text.
 	AAPEntries []AAPEntry
 
+	// Unified medkb corpora (StatPearls / MedlinePlus Genetics / LactMed, …),
+	// one CorpusDoc shape for every source.
+	CorpusDocs []CorpusDoc
+
+	// WHO ICD-11 MMS terms (zh + en titles, ICD-10 map) for exact lookup.
+	ICD11Terms  []ICD11Term
+	ICD11ByCode map[string]*ICD11Term
+
 	// Health myths and misconceptions (日常错误观念/习惯).
 	HealthMyths []HealthMyth
 
@@ -172,6 +180,7 @@ func buildStore() (*Store, error) {
 		ReferenceIndex:             make(map[string]string),
 		LiteratureByTopic:          make(map[string][]*LiteratureEntry),
 		ICD10ByCode:                make(map[string]*ICD10Disease),
+		ICD11ByCode:                make(map[string]*ICD11Term),
 		NMPAByName:                 make(map[string]*NMPADrug),
 		DiseaseEncyclopediasByName: make(map[string]*DiseaseEncyclopedia),
 		CPubMedByHead:              make(map[string][]*CPubMedTriple),
@@ -345,6 +354,20 @@ func (s *Store) ingest(name string, raw []byte) error {
 			return err
 		}
 		s.AAPEntries = append(s.AAPEntries, e)
+	case DSCorpus:
+		var d CorpusDoc
+		if err := json.Unmarshal(raw, &d); err != nil {
+			return err
+		}
+		s.CorpusDocs = append(s.CorpusDocs, d)
+	case DSICD11:
+		var t ICD11Term
+		if err := json.Unmarshal(raw, &t); err != nil {
+			return err
+		}
+		tt := t
+		s.ICD11Terms = append(s.ICD11Terms, t)
+		s.ICD11ByCode[t.ICD11Code] = &tt
 	case DSHealthMyths:
 		var m HealthMyth
 		if err := json.Unmarshal(raw, &m); err != nil {
@@ -522,6 +545,12 @@ func (s *Store) ensureFHS() error {
 }
 func (s *Store) ensureAAP() error {
 	return s.ensure(DSAAP, func() error { return s.loadDataset(DSAAP) })
+}
+func (s *Store) ensureCorpus() error {
+	return s.ensure(DSCorpus, func() error { return s.loadDataset(DSCorpus) })
+}
+func (s *Store) ensureICD11() error {
+	return s.ensure(DSICD11, func() error { return s.loadDataset(DSICD11) })
 }
 func (s *Store) ensureHealthMyths() error {
 	return s.ensure(DSHealthMyths, func() error { return s.loadDataset(DSHealthMyths) })
@@ -912,6 +941,46 @@ func (s *Store) GetAAPEntries() []AAPEntry {
 	out := make([]AAPEntry, len(s.AAPEntries))
 	copy(out, s.AAPEntries)
 	return out
+}
+
+// GetICD11Term returns one ICD-11 term by code (exact lookup; nil if absent).
+func (s *Store) GetICD11Term(code string) *ICD11Term {
+	_ = s.ensureICD11()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return s.ICD11ByCode[code]
+}
+
+// SearchICD11 finds ICD-11 terms by code prefix or zh/en title substring.
+func (s *Store) SearchICD11(query string, limit int) []ICD11Term {
+	_ = s.ensureICD11()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	q := strings.ToLower(strings.TrimSpace(query))
+	if q == "" {
+		return nil
+	}
+	var out []ICD11Term
+	for i := range s.ICD11Terms {
+		t := &s.ICD11Terms[i]
+		if strings.HasPrefix(t.ICD11Code, q) ||
+			strings.Contains(strings.ToLower(t.TitleEN), q) ||
+			strings.Contains(t.TitleZH, query) {
+			out = append(out, *t)
+			if len(out) >= limit {
+				break
+			}
+		}
+	}
+	return out
+}
+
+// GetCorpusDocCount returns the number of loaded unified-corpus documents.
+func (s *Store) GetCorpusDocCount() int {
+	_ = s.ensureCorpus()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return len(s.CorpusDocs)
 }
 
 // GetReferenceIndex returns the reference index for post-verification.

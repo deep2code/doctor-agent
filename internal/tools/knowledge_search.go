@@ -57,7 +57,7 @@ func (t *KnowledgeSearch) Schema() map[string]any {
 			},
 			"dataset": map[string]any{
 				"type":        "string",
-				"description": "检索数据集（默认 medical）: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care",
+				"description": "检索数据集（默认 medical）: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care, statpearls, medgen, lactmed",
 			},
 			"top_k": map[string]any{
 				"type":        "integer",
@@ -110,6 +110,8 @@ func (t *KnowledgeSearch) Execute(ctx context.Context, input map[string]any) (*T
 		return t.searchFHS(ctx, query, topK)
 	case "aap":
 		return t.searchAAP(ctx, query, topK)
+	case "statpearls", "medgen", "lactmed":
+		return t.searchCorpus(ctx, query, topK, dataset)
 	case "medline":
 		return t.searchMedline(ctx, query, topK)
 	case "literature":
@@ -128,7 +130,7 @@ func (t *KnowledgeSearch) Execute(ctx context.Context, input map[string]any) (*T
 		return t.searchNewbornCare(ctx, query, topK)
 	default:
 		return &ToolResult{Success: false, Error: fmt.Sprintf(
-			"未知数据集 '%s'，支持: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care", dataset)}, nil
+			"未知数据集 '%s'，支持: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care, statpearls, medgen, lactmed", dataset)}, nil
 	}
 }
 
@@ -297,6 +299,35 @@ func (t *KnowledgeSearch) searchAAP(ctx context.Context, query string, topK int)
 		})
 	}
 	return successResult(query, "aap", pages), nil
+}
+
+// searchCorpus searches the unified medkb corpora (statpearls / medgen /
+// lactmed) — one CorpusDoc shape, filtered by source.
+func (t *KnowledgeSearch) searchCorpus(ctx context.Context, query string, topK int, source string) (*ToolResult, error) {
+	results, _ := t.keywordRetriever.RetrieveCorpus(ctx, query, topK, source)
+	if len(results) == 0 {
+		return emptyResult(query, source, "语料库中未找到与 '%s' 直接相关的条目。")
+	}
+	pages := make([]map[string]any, 0, len(results))
+	for _, r := range results {
+		page := map[string]any{
+			"title":     r.Doc.Title,
+			"kind":      r.Doc.Kind,
+			"url":       r.Doc.URL,
+			"lang":      r.Doc.Lang,
+			"summary":   r.Doc.Summary,
+			"excerpt":   truncateRunes(r.Excerpt, 2000),
+			"relevance": r.Score,
+		}
+		if r.Doc.TitleZH != "" {
+			page["title_zh"] = r.Doc.TitleZH
+		}
+		if len(r.Doc.Sections) > 0 {
+			page["sections"] = r.Doc.Sections
+		}
+		pages = append(pages, page)
+	}
+	return successResult(query, source, pages), nil
 }
 
 // searchMedline searches MedlinePlus medical encyclopedia.

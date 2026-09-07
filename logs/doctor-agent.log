@@ -48,3 +48,8 @@ time=2026-09-06T16:56:22.237+08:00 level=INFO msg="Starting HTTP server" addr=0.
 time=2026-09-06T16:56:50.031+08:00 level=INFO msg="HTTP request" method=POST path=/chat/stream duration=19.861081s
 time=2026-09-06T16:57:58.625+08:00 level=INFO msg="Shutting down..."
 time=2026-09-06T16:57:58.625+08:00 level=ERROR msg="Server error" error="http: Server closed"
+time=2026-09-07T11:45:27.071+08:00 level=INFO msg="File logging enabled" dir=logs file=doctor-agent.log maxSizeMB=10 maxAgeDays=7
+time=2026-09-07T11:48:47.280+08:00 level=INFO msg="File logging enabled" dir=logs file=doctor-agent.log maxSizeMB=10 maxAgeDays=7
+time=2026-09-07T11:55:38.782+08:00 level=INFO msg="File logging enabled" dir=logs file=doctor-agent.log maxSizeMB=10 maxAgeDays=7
+time=2026-09-07T12:40:58.667+08:00 level=INFO msg="File logging enabled" dir=logs file=doctor-agent.log maxSizeMB=10 maxAgeDays=7
+time=2026-09-07T12:47:06.980+08:00 level=INFO msg="File logging enabled" dir=logs file=doctor-agent.log maxSizeMB=10 maxAgeDays=7

@@ -108,6 +108,15 @@ func Seed(dbPath, gzDir string) error {
 // target dataset plus its rows. The classification mirrors the previous embedded
 // loader so dataset boundaries stay identical.
 func seedFile(base string, raw []byte) (string, []KBRow, error) {
+	// Unified medkb corpora: corpus_<source>.json files all land in DSCorpus.
+	if strings.HasPrefix(base, "corpus_") {
+		var set CorpusSet
+		if err := json.Unmarshal(raw, &set); err != nil {
+			return "", nil, err
+		}
+		rows, err := seedEntries(set.Entries)
+		return DSCorpus, rows, err
+	}
 	switch base {
 	case "thalassemia.json", "g6pd_deficiency.json",
 		"nasopharyngeal_carcinoma.json", "hepatitis_b.json",
@@ -262,6 +271,13 @@ func seedFile(base string, raw []byte) (string, []KBRow, error) {
 		}
 		rows, err := seedEntries(set.Diseases)
 		return DSICD10, rows, err
+	case "icd11_terms.json":
+		var set ICD11TermSet
+		if err := json.Unmarshal(raw, &set); err != nil {
+			return "", nil, err
+		}
+		rows, err := seedEntries(set.Terms)
+		return DSICD11, rows, err
 	case "nmpa_drugs.json":
 		var set NMPADrugSet
 		if err := json.Unmarshal(raw, &set); err != nil {

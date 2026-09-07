@@ -42,7 +42,7 @@ func (t *ExactLookup) Name() string { return "exact_lookup" }
 
 func (t *ExactLookup) Description() string {
 	return "统一精确查询工具，按数据集类型做字段精确/子串匹配查询。" +
-		"支持类型: icd10=ICD-10疾病编码(35862条), nmpa=NMPA药品目录(167615种), " +
+		"支持类型: icd10=ICD-10疾病编码(35862条), icd11=WHO ICD-11疾病编码(中文,35339条), nmpa=NMPA药品目录(167615种), " +
 		"variant=ClinVar基因变异(HBB/HBA1/HBA2/G6PD致病变异), " +
 		"eml=WHO基本药物清单(第24版564种), fda_label=FDA药品标签中文要点(344种), " +
 		"ttd=治疗靶点数据库(4299靶点+29782药物), sider=药物副作用(1430种药物), " +
@@ -60,7 +60,7 @@ func (t *ExactLookup) Schema() map[string]any {
 			},
 			"type": map[string]any{
 				"type":        "string",
-				"description": "查询类型: icd10, nmpa, variant, eml, fda_label, ttd, sider, medins",
+				"description": "查询类型: icd10, icd11, nmpa, variant, eml, fda_label, ttd, sider, medins",
 			},
 			"top_k": map[string]any{
 				"type":        "integer",
@@ -84,7 +84,7 @@ func (t *ExactLookup) Execute(ctx context.Context, input map[string]any) (*ToolR
 
 	lookupType, _ := input["type"].(string)
 	if lookupType == "" {
-		return &ToolResult{Success: false, Error: "请提供查询类型 type (icd10/nmpa/variant/eml/fda_label/ttd/sider/medins)"}, nil
+		return &ToolResult{Success: false, Error: "请提供查询类型 type (icd10/icd11/nmpa/variant/eml/fda_label/ttd/sider/medins)"}, nil
 	}
 
 	topK := 5
@@ -97,6 +97,8 @@ func (t *ExactLookup) Execute(ctx context.Context, input map[string]any) (*ToolR
 	switch lookupType {
 	case "icd10":
 		return t.lookupICD10(ctx, query, topK)
+	case "icd11":
+		return t.lookupICD11(ctx, query, topK)
 	case "nmpa":
 		return t.lookupNMPA(ctx, query, topK)
 	case "variant":
@@ -114,7 +116,7 @@ func (t *ExactLookup) Execute(ctx context.Context, input map[string]any) (*ToolR
 	default:
 		return &ToolResult{
 			Success: false,
-			Error:   fmt.Sprintf("不支持的类型 '%s'，可选: icd10, nmpa, variant, eml, fda_label, ttd, sider, medins", lookupType),
+			Error:   fmt.Sprintf("不支持的类型 '%s'，可选: icd10, icd11, nmpa, variant, eml, fda_label, ttd, sider, medins", lookupType),
 		}, nil
 	}
 }
@@ -167,6 +169,57 @@ func (t *ExactLookup) lookupICD10(_ context.Context, query string, _ int) (*Tool
 			"query": query, "type": "icd10", "result_count": len(results), "results": results,
 		},
 	}, nil
+}
+
+// ---------------------------------------------------------------------------
+// WHO ICD-11 MMS classification (35,339 coded entries, zh + en, ICD-10 map)
+// ---------------------------------------------------------------------------
+
+func (t *ExactLookup) lookupICD11(_ context.Context, query string, topK int) (*ToolResult, error) {
+	// Direct code lookup first (e.g. "1A00", "5A11").
+	if d := t.store.GetICD11Term(query); d != nil {
+		return &ToolResult{
+			Success: true,
+			Data: map[string]any{
+				"query": query, "type": "icd11", "result_count": 1,
+				"results": []map[string]any{icd11TermToMap(d)},
+			},
+		}, nil
+	}
+	// Code prefix / zh-en title substring search.
+	terms := t.store.SearchICD11(query, topK)
+	if len(terms) == 0 {
+		return &ToolResult{
+			Success: true,
+			Data: map[string]any{
+				"query": query, "type": "icd11", "result_count": 0,
+				"message": fmt.Sprintf("ICD-11编码库(35,339条, WHO 2025-01中文版)中未找到 '%s'。请确认疾病名称或编码。", query),
+			},
+		}, nil
+	}
+	results := make([]map[string]any, 0, len(terms))
+	for i := range terms {
+		results = append(results, icd11TermToMap(&terms[i]))
+	}
+	return &ToolResult{
+		Success: true,
+		Data: map[string]any{
+			"query": query, "type": "icd11", "result_count": len(results), "results": results,
+		},
+	}, nil
+}
+
+func icd11TermToMap(d *knowledge.ICD11Term) map[string]any {
+	m := map[string]any{
+		"icd11_code": d.ICD11Code,
+		"title_zh":   d.TitleZH,
+		"title_en":   d.TitleEN,
+		"chapter":    d.Chapter,
+	}
+	if d.ICD10Map != "" {
+		m["icd10_map"] = d.ICD10Map
+	}
+	return m
 }
 
 // ---------------------------------------------------------------------------

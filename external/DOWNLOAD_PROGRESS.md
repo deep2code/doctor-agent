@@ -79,6 +79,18 @@ external/
 6. 疫苗立场文件扩展（可选）：`fetch_position_papers.py` 的 VACCINES 表加条目（如乙肝 2025 新版/水痘/流感中文版已含）后重跑。
 7. NHC 指南扩展（可选）：`fetch_nhc_all.py` 已抓 39 篇；`convert_nhc.py` 幂等可重跑，新抓指南放入 `external/nhc/guides/` 或 `guides_ocr/` 后重跑即可自动并入。
 
+## 统一语料管线 medkb（2026-09-07）
+
+**一个工具** `external/medkb/`（`python3 -m medkb fetch|convert|validate|stats <source|all>`）+ **一个格式** CorpusDoc（Go 侧 `internal/knowledge/corpus.go` ↔ Python 侧 `plugins/../schema.py` 镜像同步）。`corpus_<source>.json` 经 seedFile 前缀分支 → dataset `corpus`，**新 prose 源零 Go 改动**。
+
+| 源 | 状态 | 数据 | 说明 |
+|---|---|---|---|
+| MedlinePlus Genetics | ✅ 完成并接入 | 2830 条（遗传病 1305/基因 1500/染色体 25，`corpus_medgen.json` 5.6MB），`knowledge_search dataset=medgen` | 官方单文件汇总 `https://medlineplus.gov/download/ghr-summaries.xml`（~8MB，公有领域） |
+| LactMed 哺乳期用药 | ✅ 完成并接入 | ~1700 药物 JATS 记录（`corpus_lactmed.json`），`dataset=lactmed`；110 常用药内置中文映射补 title_zh | LitArch tar 直链两步发现（书页 grep `litarch` 目录→列表取 *.tar.gz）；NCBI 并发限制见 AGENTS.md 坑 |
+| StatPearls | ✅ 完成并接入 | ~8000+ 章英文专业全书（`corpus_statpearls.json`，body 24KB 截断），`dataset=statpearls` | CC BY-NC-ND（自用）；同 LactMed 管线；`--max-chapters` 试跑 |
+| WHO ICD-11 中文编码库 | ✅ 完成并接入 | **35339 编码条目**（zh/en 双语标题 + 12160 条 ICD-10 映射，`icd11_terms.json` 4.9MB），`exact_lookup type=icd11` | `icdcdn.who.int/static/releasefiles/2025-01/SimpleTabulation-ICD-11-MMS-zh.zip` + `mapping.zip`；TSV 表格引号转义 |
+
+
 ## 环境备注
 
 - 网络：europepmc/medlineplus/who/gitee 直连可用；huggingface.co 超时，须用 hf-mirror.com；GitHub API/raw 直连可用（HPO 用 raw.githubusercontent.com）

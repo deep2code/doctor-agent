@@ -58,6 +58,8 @@ const (
 	DSGrowth           = "growth"
 	DSMilestones       = "milestones"
 	DSNewborn          = "newborn"
+	DSCorpus           = "corpus" // unified medkb corpora (corpus_<source>.json)
+	DSICD11            = "icd11"
 	DSVersion          = "version"
 )
 

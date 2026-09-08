@@ -73,6 +73,9 @@ var jsThree string
 //go:embed web/anatomy.js
 var jsAnatomy string
 
+//go:embed web/anatomy-anim.js
+var jsAnatomyAnim string
+
 // Server wraps the HTTP API server for the doctor agent.
 type Server struct {
 	cfg   *config.Config
@@ -139,6 +142,7 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 	mux.HandleFunc("/mermaid.min.js", s.handleMermaidJS)
 	mux.HandleFunc("/three.min.js", s.handleThreeJS)
 	mux.HandleFunc("/anatomy.js", s.handleAnatomyJS)
+	mux.HandleFunc("/anatomy-anim.js", s.handleAnatomyAnimJS)
 	mux.HandleFunc("/health", s.handleHealth)
 	mux.HandleFunc("/chat", s.handleChat)
 	mux.HandleFunc("/chat/stream", s.handleChatStream)
@@ -447,6 +451,17 @@ func (s *Server) handleAnatomyJS(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/javascript; charset=utf-8")
 	w.Header().Set("Cache-Control", "public, max-age=86400")
 	_, _ = io.WriteString(w, jsAnatomy)
+}
+
+// handleAnatomyAnimJS 解剖图动画播放器（生理 + 病理动画）。
+func (s *Server) handleAnatomyAnimJS(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+	w.Header().Set("Content-Type", "application/javascript; charset=utf-8")
+	w.Header().Set("Cache-Control", "public, max-age=86400")
+	_, _ = io.WriteString(w, jsAnatomyAnim)
 }
 
 // handleHealth responds with server health status.

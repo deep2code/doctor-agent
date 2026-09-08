@@ -163,6 +163,32 @@
   .anat-modal-body .anat-svg { height: calc(94vh - 132px); max-height: 640px; width: auto; max-width: 100%; touch-action: none; }
   .anat-modal-foot { border-top: 1px solid var(--border); padding: 8px 14px 10px; min-height: 56px; }
   .anat-info-hint { color: var(--muted); font-size: 12.5px; padding: 6px 0; }
+  /* 动画 chips 与播放控件 */
+  .anat-anim-chips { display: flex; gap: 8px; flex-wrap: wrap; padding: 8px 14px 0; }
+  .anat-anim-chips[hidden] { display: none; }
+  .anat-anim-chip {
+    border: 1px solid var(--border); background: #fff; color: var(--muted); border-radius: 999px;
+    font: inherit; font-size: 12.5px; padding: 4px 12px; cursor: pointer;
+  }
+  .anat-anim-chip:hover { color: var(--accent-dark); border-color: var(--accent-dark); }
+  .anat-anim-chip.active { background: var(--accent, #0e7c86); border-color: var(--accent, #0e7c86); color: #fff; }
+  .anat-anim-ctl { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 4px 0; }
+  .anat-btn-toggle, .anat-btn-replay {
+    border: 1px solid var(--border); background: #fff; color: var(--accent-dark); border-radius: 8px;
+    font: inherit; font-size: 12.5px; padding: 3px 10px; cursor: pointer; white-space: nowrap;
+  }
+  .anat-anim-cap { flex: 1; min-width: 200px; font-size: 13px; line-height: 1.65; color: #33495a; }
+  .anat-anim-step { font-size: 12px; color: var(--muted); white-space: nowrap; }
+  /* 面包屑 */
+  .anat-crumbs { display: flex; align-items: center; gap: 4px; font-size: 13.5px; }
+  .anat-crumbs button {
+    border: 0; background: transparent; font: inherit; font-size: 13.5px; color: var(--accent-dark);
+    cursor: pointer; padding: 2px 4px; border-radius: 6px;
+  }
+  .anat-crumbs button:hover { background: #eef6f8; }
+  .anat-crumbs button.cur { color: var(--ink); font-weight: 700; cursor: default; }
+  .anat-crumbs button.cur:hover { background: transparent; }
+  .anat-crumbs .sep { color: var(--muted); }
   .welcome-examples { display: flex; flex-direction: column; gap: 10px; max-width: 430px; margin: 6px auto 0; width: 100%; }
   .upload-cta {
     display: flex; align-items: center; gap: 14px; text-align: left; font: inherit; cursor: pointer;
@@ -664,6 +690,7 @@
 
 
 <script src="/anatomy.js"></script>
+<script src="/anatomy-anim.js"></script>
 <script>
 (function () {
   "use strict";

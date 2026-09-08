@@ -517,6 +517,7 @@
 <header>
   <button id="menu-btn">☰</button>
   <div class="hosp-brand"><div class="logo">医答</div></div>
+  <button id="family-btn" title="家庭健康档案">👪 <span id="family-current">我</span></button>
   <button id="new-chat">新对话</button>
 </header>
 
@@ -568,13 +569,29 @@
         <button id="img-btn" title="上传检查报告（化验单/X光/CT）"><span class="ib-icon">📷</span><span class="ib-text">检查报告</span></button>
     <input type="file" id="file-input" accept="image/jpeg,image/png,image/gif,image/webp" multiple />
     <textarea id="input" rows="1" placeholder="描述症状，或发化验单 / 检查报告的照片…"></textarea>
+    <button id="mic-btn" title="语音输入（说普通话，再点一次结束）" aria-label="语音输入">🎤</button>
     <button id="send">发送</button>
   </div>
   <div id="img-preview-bar"></div>
   <div class="error-tip" id="error-tip"></div>
   <div id="drop-mask" aria-hidden="true"><span>松开，上传检查报告</span></div>
   <p class="hint"><span>AI 回答仅供参考，不能替代专业医生诊断；紧急情况请拨打 120</span><span class="version-info" id="version-info">© 2026 医答 Doctor Agent</span></p>
+  <button type="button" id="elder-toggle" title="放大字体，更适合长辈阅读">🔠 大字模式</button>
 </footer>
+
+<style>
+  #mic-btn { border: 1px solid var(--border, #d1d5db); background: transparent; border-radius: 10px; padding: 8px 10px; cursor: pointer; font-size: 16px; }
+  #mic-btn.rec { background: #fee2e2; border-color: #ef4444; animation: mic-pulse 1.2s infinite; }
+  @keyframes mic-pulse { 0%,100% { opacity: 1; } 50% { opacity: .55; } }
+  #elder-toggle { position: fixed; right: 14px; bottom: 96px; z-index: 60; border: 1px solid var(--border, #d1d5db); background: var(--card, #fff); color: inherit; border-radius: 999px; padding: 8px 14px; cursor: pointer; font-size: 13px; box-shadow: 0 4px 14px rgba(0,0,0,.12); }
+  body.elder { zoom: 1.35; }
+  body.elder textarea, body.elder button, body.elder input { font-size: 1.05em; }
+  @media print {
+    header, footer, #sidebar, #sb-expand, #mask, #family-modal, #elder-toggle, #mic-btn { display: none !important; }
+    #scroll-area { overflow: visible !important; }
+    .msg { break-inside: avoid; }
+  }
+</style>
 
 
 
@@ -1533,6 +1550,206 @@
   var _q = new URLSearchParams(location.search).get('q');
   if (_q) { input.value = _q; autoResize(); }
   input.focus();
+})();
+</script>
+<style>
+  #family-modal { position: fixed; inset: 0; z-index: 90; display: none; align-items: center; justify-content: center; background: rgba(0,0,0,.4); }
+  #family-modal.open { display: flex; }
+  .fm-card { background: var(--card, #fff); color: inherit; border-radius: 14px; width: min(560px, 94vw); max-height: 86vh; overflow: auto; padding: 18px 20px; box-shadow: 0 12px 40px rgba(0,0,0,.25); }
+  .fm-card h3 { margin: 0 0 10px; font-size: 17px; }
+  .fm-list { list-style: none; margin: 0 0 12px; padding: 0; }
+  .fm-list li { display: flex; align-items: center; gap: 8px; padding: 8px 10px; border: 1px solid var(--border, #e5e7eb); border-radius: 10px; margin-bottom: 8px; font-size: 14px; }
+  .fm-list li .fm-meta { flex: 1; color: var(--muted, #6b7280); font-size: 12px; }
+  .fm-list li.active { border-color: var(--accent, #2563eb); box-shadow: 0 0 0 1px var(--accent, #2563eb) inset; }
+  .fm-form { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 13px; }
+  .fm-form label { display: grid; gap: 3px; }
+  .fm-form .fm-full { grid-column: 1 / -1; }
+  .fm-form input, .fm-form textarea { border: 1px solid var(--border, #d1d5db); border-radius: 8px; padding: 6px 8px; font: inherit; background: transparent; color: inherit; }
+  .fm-actions { grid-column: 1 / -1; display: flex; gap: 8px; margin-top: 4px; }
+  .fm-btn { border: 1px solid var(--border, #d1d5db); background: transparent; color: inherit; border-radius: 8px; padding: 6px 12px; cursor: pointer; font-size: 13px; }
+  .fm-btn.primary { background: var(--accent, #2563eb); border-color: var(--accent, #2563eb); color: #fff; }
+  .fm-hint { font-size: 12px; color: var(--muted, #6b7280); margin: 8px 0 0; }
+</style>
+
+<div id="family-modal" role="dialog" aria-label="家庭健康档案">
+  <div class="fm-card">
+    <h3>👪 家庭健康档案 <button type="button" class="fm-btn" id="fm-close" style="float:right">关闭</button></h3>
+    <p class="fm-hint">选择提问对象后，回答会自动考虑 TA 的年龄、基础病、过敏和用药。信息仅保存在本机数据库。</p>
+    <ul class="fm-list" id="fm-list"></ul>
+    <form class="fm-form" id="fm-form">
+      <label>称呼 *<input name="name" required placeholder="我 / 爸爸 / 小明"></label>
+      <label>关系<input name="relation" placeholder="本人 / 父亲 / 儿子"></label>
+      <label>性别
+        <select name="gender" style="border:1px solid var(--border,#d1d5db);border-radius:8px;padding:6px 8px;font:inherit;background:transparent;color:inherit">
+          <option value="">未填</option><option value="男">男</option><option value="女">女</option>
+        </select>
+      </label>
+      <label>出生年份<input name="birth_year" type="number" min="1900" max="2026" placeholder="1958"></label>
+      <label class="fm-full">居住地区<input name="region" placeholder="如：广西（用于地方病风险评估）"></label>
+      <label class="fm-full">慢性病 / 既往史<textarea name="conditions" rows="2" placeholder="高血压、糖尿病…（顿号或换行分隔）"></textarea></label>
+      <label class="fm-full">过敏（药物/食物）<textarea name="allergies" rows="2" placeholder="青霉素…"></textarea></label>
+      <label class="fm-full">长期用药<textarea name="medications" rows="2" placeholder="氨氯地平 5mg 每日一次…"></textarea></label>
+      <div class="fm-actions"><button type="submit" class="fm-btn primary">添加成员</button></div>
+    </form>
+  </div>
+</div>
+
+<script>
+// 家庭健康档案: 独立模块 (追加式, 不侵入既有 JS)
+(function () {
+  var modal = document.getElementById("family-modal");
+  if (!modal) return;
+  var listEl = document.getElementById("fm-list");
+  var form = document.getElementById("fm-form");
+  var currentEl = document.getElementById("family-current");
+
+  function currentId() { return parseInt(localStorage.getItem("memberId") || "0", 10) || 0; }
+  function currentName() { return localStorage.getItem("memberName") || "我"; }
+
+  function renderCurrent() { currentEl.textContent = currentName(); }
+
+  function esc(s) {
+    return String(s || "").replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  function load() {
+    fetch("/family").then(function (r) { return r.json(); }).then(function (data) {
+      var members = (data && data.members) || [];
+      listEl.innerHTML = "";
+      var opt = document.createElement("li");
+      var cur = currentId();
+      if (!cur) opt.className = "active";
+      opt.innerHTML = '<button type="button" class="fm-btn primary" data-id="0">使用</button>' +
+        '<b>我（不使用档案）</b>';
+      opt.querySelector("button").onclick = function () { pick(0, "我"); };
+      listEl.appendChild(opt);
+      members.forEach(function (m) {
+        var li = document.createElement("li");
+        if (m.id === cur) li.className = "active";
+        var meta = [];
+        if (m.gender) meta.push(m.gender);
+        if (m.birth_year) meta.push(String(m.birth_year) + "年生");
+        if (m.conditions) meta.push(esc(m.conditions));
+        if (m.allergies) meta.push("过敏: " + esc(m.allergies));
+        if (m.medications) meta.push("用药: " + esc(m.medications));
+        li.innerHTML =
+          '<button type="button" class="fm-btn primary" data-id="' + m.id + '">使用</button>' +
+          '<b>' + esc(m.name) + '</b>' +
+          '<span class="fm-meta">' + meta.join(" · ") + '</span>' +
+          '<button type="button" class="fm-btn" data-del="' + m.id + '" title="删除">🗑</button>';
+        li.querySelector("[data-id]").onclick = function () { pick(m.id, m.name); };
+        li.querySelector("[data-del]").onclick = function () {
+          if (!confirm("删除成员「" + m.name + "」？")) return;
+          fetch("/family/" + m.id, { method: "DELETE" }).then(load);
+        };
+        listEl.appendChild(li);
+      });
+      renderCurrent();
+    });
+  }
+
+  function pick(id, name) {
+    if (id) { localStorage.setItem("memberId", String(id)); localStorage.setItem("memberName", name); }
+    else { localStorage.removeItem("memberId"); localStorage.removeItem("memberName"); }
+    renderCurrent();
+    load();
+  }
+
+  document.getElementById("family-btn").onclick = function () { modal.classList.add("open"); load(); };
+  document.getElementById("fm-close").onclick = function () { modal.classList.remove("open"); };
+  modal.addEventListener("click", function (e) { if (e.target === modal) modal.classList.remove("open"); });
+
+  form.onsubmit = function (e) {
+    e.preventDefault();
+    var fd = new FormData(form);
+    var body = {};
+    ["name", "relation", "gender", "region", "conditions", "allergies", "medications"].forEach(function (k) {
+      var v = (fd.get(k) || "").toString().trim();
+      if (v) body[k] = v;
+    });
+    var by = parseInt(fd.get("birth_year"), 10);
+    if (by) body.birth_year = by;
+    fetch("/family", {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body)
+    }).then(function (r) { if (r.ok) { form.reset(); load(); } });
+  };
+
+  // 注入 member_id 到聊天请求 (拦截 fetch, 不改既有发送逻辑)
+  var _origFetch = window.fetch;
+  window.fetch = function (url, opts) {
+    if (typeof url === "string" && url.indexOf("/chat/stream") === 0 && opts && opts.body) {
+      try {
+        var b = JSON.parse(opts.body);
+        var mid = currentId();
+        if (mid) b.member_id = mid;
+        opts.body = JSON.stringify(b);
+      } catch (e) {}
+    }
+    return _origFetch.apply(this, arguments);
+  };
+
+  renderCurrent();
+})();
+</script>
+
+<script>
+// 适老模式 (大字) + 语音输入: 独立追加模块
+(function () {
+  // ── 大字模式 ──
+  var elderBtn = document.getElementById("elder-toggle");
+  function applyElder(on) {
+    document.body.classList.toggle("elder", on);
+    if (elderBtn) elderBtn.textContent = on ? "🔠 正常字号" : "🔠 大字模式";
+  }
+  try { applyElder(localStorage.getItem("elder") === "1"); } catch (e) {}
+  if (elderBtn) elderBtn.onclick = function () {
+    var on = !document.body.classList.contains("elder");
+    applyElder(on);
+    try { localStorage.setItem("elder", on ? "1" : "0"); } catch (e) {}
+  };
+
+  // ── 语音输入 (Chrome/Edge Web Speech API, zh-CN) ──
+  var micBtn = document.getElementById("mic-btn");
+  var SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!micBtn || !SR) {
+    if (micBtn) { micBtn.title = "当前浏览器不支持语音输入，请用 Chrome/Edge"; micBtn.style.opacity = ".45"; }
+    return;
+  }
+  var rec = null, listening = false, baseText = "";
+  micBtn.onclick = function () {
+    if (listening) { rec.stop(); return; }
+    rec = new SR();
+    rec.lang = "zh-CN";
+    rec.interimResults = true;
+    rec.continuous = true;
+    var inputEl = document.getElementById("input");
+    baseText = inputEl.value ? inputEl.value + " " : "";
+    var finalText = "";
+    rec.onresult = function (ev) {
+      var interim = "";
+      for (var i = ev.resultIndex; i < ev.results.length; i++) {
+        var t = ev.results[i][0].transcript;
+        if (ev.results[i].isFinal) finalText += t;
+        else interim += t;
+      }
+      inputEl.value = baseText + finalText + interim;
+      inputEl.dispatchEvent(new Event("input"));
+    };
+    rec.onend = function () {
+      listening = false;
+      micBtn.classList.remove("rec");
+      if (inputEl.value.trim()) inputEl.focus();
+    };
+    rec.onerror = function () {
+      listening = false;
+      micBtn.classList.remove("rec");
+    };
+    listening = true;
+    micBtn.classList.add("rec");
+    try { rec.start(); } catch (e) { listening = false; micBtn.classList.remove("rec"); }
+  };
 })();
 </script>
 </body>

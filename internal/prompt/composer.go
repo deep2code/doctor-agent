@@ -130,6 +130,15 @@ func BuildPatientContext(pc *PatientContextSummary) string {
 	if len(pc.KnownConditions) > 0 {
 		fmt.Fprintf(&sb, "- 已知疾病: %s\n", strings.Join(pc.KnownConditions, "、"))
 	}
+	if len(pc.KnownAllergies) > 0 {
+		fmt.Fprintf(&sb, "- 已知过敏: %s\n", strings.Join(pc.KnownAllergies, "、"))
+	}
+	if len(pc.Medications) > 0 {
+		fmt.Fprintf(&sb, "- 正在用药: %s\n", strings.Join(pc.Medications, "；"))
+	}
+	if pc.ProfileSummary != "" {
+		fmt.Fprintf(&sb, "- 档案摘要: %s\n", pc.ProfileSummary)
+	}
 
 	sb.WriteString("\n请结合这些背景信息进行风险评估和临床分析，但仍需遵循循证医学原则。\n")
 	return sb.String()
@@ -141,4 +150,7 @@ type PatientContextSummary struct {
 	G6PDStatus       string
 	ThalassemiaTrait string
 	KnownConditions  []string
+	KnownAllergies   []string
+	Medications      []string
+	ProfileSummary   string
 }

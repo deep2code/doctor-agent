@@ -123,6 +123,10 @@ func New(cfg *config.Config) (*Agent, error) {
 	registry.Register(tools.NewSymptomTriage(store))
 	registry.Register(tools.NewDrugInteractionCheckTool(store))
 	registry.Register(tools.NewMedicalImageAnalyze(provider))
+	registry.Register(tools.NewLabReportAnalyze())
+	registry.Register(tools.NewVisitPrep())
+	// FDA 标签中文要点 (344 常用药: 禁忌/警告/相互作用/剂量) — 用药安全问答核心
+	registry.Register(tools.NewDrugLabelLookup(store))
 	// Unified retrieval / lookup — replace ~28 retired specialized tools.
 	registry.Register(tools.NewKnowledgeSearch(store, retriever))
 	registry.Register(tools.NewExactLookup(store))
@@ -1199,6 +1203,9 @@ func (a *Agent) buildPatientContextString(sess *session.Session) string {
 		G6PDStatus:       pc.G6PDStatus,
 		ThalassemiaTrait: pc.ThalassemiaTrait,
 		KnownConditions:  pc.KnownConditions,
+		KnownAllergies:   pc.KnownAllergies,
+		Medications:      pc.CurrentMedications,
+		ProfileSummary:   pc.ProfileSummary,
 	})
 }
 

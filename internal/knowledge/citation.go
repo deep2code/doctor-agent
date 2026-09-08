@@ -87,11 +87,54 @@ func (cf *CitationFormatter) BuildCitationMap(entries []RetrievalResult) string 
 			fmt.Fprintf(&sb, "  - PMID: %s\n", c.PMID)
 		}
 		fmt.Fprintf(&sb, "  - 证据等级: %s\n", c.Level)
+		fmt.Fprintf(&sb, "  - 来源分级: %s\n", SourceTierLabel(&c))
 		sb.WriteString("\n")
 	}
 
-	sb.WriteString("**重要：每条事实性陈述后面必须标注引用编号，如 [1]、[2]。不要引用上述列表中不存在的文献编号。只能引用检索到的知识条目中的文献来源。**\n")
+	sb.WriteString("**重要：每条事实性陈述后面必须标注引用编号，如 [1]、[2]。不要引用上述列表中不存在的文献编号。只能引用检索到的知识条目中的文献来源。**\n\n")
+	sb.WriteString("**面向普通用户：回答结尾用一行「本回答主要依据：…」用大白话概括依据来源的级别（如「国家卫健委官方指南」「世界卫生组织(WHO)资料」「国际权威指南」「默沙东医学手册」「临床研究文献」），不要罗列 DOI/PMID 等专业编号。**\n")
 	return sb.String()
+}
+
+// SourceTierLabel 把引用来源映射为普通人能理解的来源分级一句话。
+// 供系统提示词与展示层共用：优先按机构/出版物关键词精确归类，
+// 再按证据类型 level 兜底。
+func SourceTierLabel(c *Citation) string {
+	text := c.Title + " " + c.Journal + " " + c.Type
+	contains := func(keys ...string) bool {
+		for _, k := range keys {
+			if strings.Contains(text, k) {
+				return true
+			}
+		}
+		return false
+	}
+	switch {
+	case contains("国家卫健委", "卫生健康委", "国家卫生计生委", "NHC", "国家疾控", "中国疾控"):
+		return "🏛 国家官方指南/文件（国家卫健委或中国疾控发布）"
+	case contains("WHO", "世界卫生组织"):
+		return "🌍 WHO 官方资料（世界卫生组织权威建议）"
+	case contains("默沙东", "MSD"):
+		return "📖 权威医学手册（默沙东诊疗手册）"
+	case contains("MedlinePlus", "StatPearls", "LactMed"):
+		return "📚 医学百科/循证参考（国际权威医学资料库）"
+	case contains("NHS", "AAP", "美国儿科学会", "USPSTF", "FDA"):
+		return "🌍 国际权威机构（政府或专业学会发布）"
+	}
+	switch c.Level {
+	case "national_guideline", "official_guideline", "national_report", "national_survey":
+		return "🏛 国家官方指南/文件"
+	case "international_guideline":
+		return "🌍 国际权威指南"
+	case "meta_analysis":
+		return "📚 系统评价/Meta分析（多项研究综合结论，证据最强）"
+	case "review":
+		return "🔬 医学综述"
+	case "emergency", "urgent":
+		return "🚨 急救权威共识"
+	default:
+		return "🔬 临床研究文献"
+	}
 }
 
 // flatCitation is a citation paired with its flat global number and source entry.

@@ -135,6 +135,8 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 	if db != nil {
 		mux.HandleFunc("/sessions", s.handleSessions)
 		mux.HandleFunc("/sessions/", s.handleSessionByID)
+		mux.HandleFunc("/family", s.handleFamily)
+		mux.HandleFunc("/family/", s.handleFamilyByID)
 	}
 	// Admin endpoints
 	mux.HandleFunc("/admin/users", s.handleAdminUsers)
@@ -447,6 +449,7 @@ type ChatRequest struct {
 	Message        string      `json:"message"`
 	ConversationID string      `json:"conversation_id,omitempty"`
 	Images         []ChatImage `json:"images,omitempty"`
+	MemberID       int64       `json:"member_id,omitempty"` // 家庭健康档案成员
 }
 
 // ChatResponse is the JSON response for /chat.
@@ -493,6 +496,14 @@ func (s *Server) handleChat(w http.ResponseWriter, r *http.Request) {
 	}
 
 	sess := s.agent.GetOrCreateSession(req.ConversationID)
+
+	// 家庭健康档案注入: 本次问答自动带上成员背景 (基础病/过敏/用药)
+	if req.MemberID > 0 && s.db != nil {
+		if err := s.applyFamilyMember(sess, req.MemberID); err != nil {
+			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "member not found"})
+			return
+		}
+	}
 
 	ctx, cancel := context.WithTimeout(r.Context(), 60*time.Second)
 	defer cancel()

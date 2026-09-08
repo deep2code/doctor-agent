@@ -59,7 +59,7 @@ func (t *KnowledgeSearch) Schema() map[string]any {
 			},
 			"dataset": map[string]any{
 				"type":        "string",
-				"description": "检索数据集（默认 medical）: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care, statpearls, medgen, lactmed",
+				"description": "检索数据集（默认 medical）: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care, statpearls, medgen, lactmed, otc_safety, medlinezh, cdc_kp",
 			},
 			"top_k": map[string]any{
 				"type":        "integer",
@@ -119,7 +119,7 @@ func (t *KnowledgeSearch) Execute(ctx context.Context, input map[string]any) (*T
 		return t.searchFHS(ctx, query, topK)
 	case "aap":
 		return t.searchAAP(ctx, query, topK)
-	case "statpearls", "medgen", "lactmed":
+	case "statpearls", "medgen", "lactmed", "otc_safety", "medlinezh", "cdc_kp":
 		return t.searchCorpus(ctx, query, topK, dataset)
 	case "medline":
 		return t.searchMedline(ctx, query, topK)
@@ -139,7 +139,7 @@ func (t *KnowledgeSearch) Execute(ctx context.Context, input map[string]any) (*T
 		return t.searchNewbornCare(ctx, query, topK)
 	default:
 		return &ToolResult{Success: false, Error: fmt.Sprintf(
-			"未知数据集 '%s'，支持: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care, statpearls, medgen, lactmed", dataset)}, nil
+			"未知数据集 '%s'，支持: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care, statpearls, medgen, lactmed, otc_safety, medlinezh, cdc_kp", dataset)}, nil
 	}
 }
 
@@ -323,12 +323,14 @@ func (t *KnowledgeSearch) searchNHC(ctx context.Context, query string, topK int)
 	}
 	pages := make([]map[string]any, 0, len(results))
 	for _, r := range results {
+		// 合编指南（如 121/86 病种罕见病合编）取查询相关段落，而非开头。
+		content := knowledge.ExcerptAround(r.Guide.Content, query, 4800)
 		pages = append(pages, map[string]any{
 			"title":     r.Guide.Title,
 			"url":       r.Guide.URL,
 			"year":      r.Guide.Year,
 			"source":    r.Guide.Source,
-			"content":   truncateRunes(r.Guide.Content, 2000),
+			"content":   truncateRunes(content, 3400),
 			"relevance": r.Score,
 		})
 	}

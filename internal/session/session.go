@@ -32,6 +32,9 @@ type PatientContext struct {
 	KnownAllergies     []string `json:"known_allergies,omitempty"`
 	KnownConditions    []string `json:"known_conditions,omitempty"`
 	CurrentMedications []string `json:"current_medications,omitempty"`
+	// ProfileSummary 是家庭档案的一句话背景（称呼/年龄/性别/用药/备注），
+	// 由 /family 档案注入，仅存在于会话层。
+	ProfileSummary string `json:"profile_summary,omitempty"`
 }
 
 // New creates a new conversation session.

@@ -26,7 +26,7 @@ func (t *NhcSearch) Name() string {
 }
 
 func (t *NhcSearch) Description() string {
-	return "检索中国国家卫健委（NHC）官方诊疗方案与诊疗指南全文（39 篇中文：流感/脑血管病/肝癌/诺如病毒/猴痘/拉沙热/基孔肯雅热/儿童支原体肺炎/新冠/罕见病等）。输入疾病名或症状，返回官方指南的病因、诊断、治疗、预防等原文。当用户询问中国官方诊疗标准、某病在中国如何诊治、或需要国家级指南依据时使用。"
+	return "检索中国国家卫健委（NHC）官方诊疗方案与诊疗指南全文（45 篇中文：流感/脑血管病/肝癌/诺如病毒/猴痘/拉沙热/基孔肯雅热/儿童支原体肺炎/新冠/罕见病诊疗指南（121+86 病种，2019/2025 版）等）。输入疾病名或症状，返回官方指南的病因、诊断、治疗、预防等原文。当用户询问中国官方诊疗标准、某病在中国如何诊治、或需要国家级指南依据时使用。"
 }
 
 func (t *NhcSearch) Schema() map[string]any {
@@ -69,9 +69,11 @@ func (t *NhcSearch) Execute(ctx context.Context, input map[string]any) (*ToolRes
 
 	guides := make([]map[string]any, 0, len(results))
 	for _, r := range results {
-		content := r.Guide.Content
-		if len([]rune(content)) > 2000 {
-			content = string([]rune(content)[:2000]) + "…"
+		// 合编指南（如 121/86 病种罕见病合编）单篇数十万字，取与查询
+		// 相关的段落而非开头，否则命中也读不到对应病种的章节。
+		content := knowledge.ExcerptAround(r.Guide.Content, query, 4800)
+		if len([]rune(content)) > 3400 {
+			content = string([]rune(content)[:3400]) + "…"
 		}
 		guides = append(guides, map[string]any{
 			"title":   r.Guide.Title,

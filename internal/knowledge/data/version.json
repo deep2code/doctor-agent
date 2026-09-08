@@ -1,7 +1,7 @@
 {
-  "version": "1.34.0",
-  "updated": "2026-09-07",
-  "description": "统一医学语料管线 medkb：StatPearls/MedlinePlus Genetics/LactMed 统一 CorpusDoc 格式 + WHO ICD-11 中文编码库",
+  "version": "1.35.0",
+  "updated": "2026-09-08",
+  "description": "46+ 篇 NHC 指南(罕见病121/86病种合编+基本公卫规范第三版+健康素养66条释义) + 三个新语料: medlinezh 中文健康材料201篇 / cdc_kp 疾控科普 / otc_safety 家庭用药安全",
   "sources": [
     "核心疾病 8 条 + 常见病 58 条 + 健康观念 16 条 + 基本药物 20 种",
     "心血管: 高血压/冠心病/脑卒中/房颤/心衰/高脂血症/肺栓塞/DVT",
@@ -25,6 +25,12 @@
     "2026-09-02 新增: CDC发育里程碑2022修订版12年龄档159条(四域中英) → milestone_lookup 工具",
     "2026-09-02 新增: WHO早产/低出生体重儿护理建议26条(中英+推荐强度) + 中国新生儿筛查3项(足跟血/听力/先心脉氧) → newborn_care_lookup 工具",
     "2026-09-03 扩展: WHO生长速度标准2009(体重1/2/3/4/6月窗+身长/头围2/3/4/6月窗, 男女z表) + WHO BMI-for-age 0-60月 + WS/T 456-2014学龄营养不良筛查(生长迟缓半岁档6-18岁) + WS/T 586-2018超重肥胖界值(整岁合并表) → growth_assessment 工具增加速度评估模式与学龄筛查, 覆盖 0-18 岁",
-    "2026-09-07 新增: 统一语料管线 external/medkb(fetch/convert/validate/stats, CorpusDoc 统一格式) + WHO ICD-11 MMS 2025-01 中文编码库 35339 条(exact_lookup type=icd11, 含ICD-10映射) + MedlinePlus Genetics 2830 条(遗传病/基因/染色体) + LactMed 哺乳期用药(knowledge_search dataset=lactmed) + StatPearls 英文专业全书(knowledge_search dataset=statpearls)"
+    "2026-09-07 新增: 统一语料管线 external/medkb(fetch/convert/validate/stats, CorpusDoc 统一格式) + WHO ICD-11 MMS 2025-01 中文编码库 35339 条(exact_lookup type=icd11, 含ICD-10映射) + MedlinePlus Genetics 2830 条(遗传病/基因/染色体) + LactMed 哺乳期用药(knowledge_search dataset=lactmed) + StatPearls 英文专业全书(knowledge_search dataset=statpearls)",
+    "罕见病诊疗指南2019(121病种,57万字,相关段落截取)",
+    "国家基本公共卫生服务规范(第三版)全文",
+    "中国公民健康素养释义2024(66条)",
+    "medlinezh: MedlinePlus多语言中文材料201篇(Health Infotranslations)",
+    "cdc_kp: 中国疾控科普文章(健康提示/慢病等栏目)",
+    "otc_safety: 家庭用药安全8篇(复方感冒药叠加/孕期红线/儿童剂量/酒精)"
   ]
 }

@@ -151,6 +151,24 @@ func (db *DB) migrate() error {
 			error_message TEXT,
 			created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 		)`,
+		// Family health profiles (家庭健康档案)
+		`CREATE TABLE IF NOT EXISTS family_members (
+			id BIGINT AUTO_INCREMENT PRIMARY KEY,
+			user_id VARCHAR(64),
+			name VARCHAR(64) NOT NULL,
+			relation VARCHAR(32),
+			birth_year INT,
+			gender VARCHAR(8),
+			height_cm DECIMAL(5,1),
+			weight_kg DECIMAL(5,1),
+			region VARCHAR(64),
+			conditions TEXT,
+			allergies TEXT,
+			medications TEXT,
+			notes TEXT,
+			created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+			updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+		)`,
 		// Indexes (CREATE INDEX IF NOT EXISTS is MariaDB-only; MySQL 8+ rejects it.
 		// Tolerate "duplicate key name" so both engines migrate cleanly.)
 		`CREATE INDEX idx_sessions_user_id ON sessions(user_id)`,

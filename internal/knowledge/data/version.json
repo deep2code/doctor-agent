@@ -1,5 +1,5 @@
 {
-  "version": "1.35.0",
+  "version": "1.36.0",
   "updated": "2026-09-08",
   "description": "46+ 篇 NHC 指南(罕见病121/86病种合编+基本公卫规范第三版+健康素养66条释义) + 三个新语料: medlinezh 中文健康材料201篇 / cdc_kp 疾控科普 / otc_safety 家庭用药安全",
   "sources": [
@@ -31,6 +31,7 @@
     "中国公民健康素养释义2024(66条)",
     "medlinezh: MedlinePlus多语言中文材料201篇(Health Infotranslations)",
     "cdc_kp: 中国疾控科普文章(健康提示/慢病等栏目)",
-    "otc_safety: 家庭用药安全8篇(复方感冒药叠加/孕期红线/儿童剂量/酒精)"
+    "otc_safety: 家庭用药安全8篇(复方感冒药叠加/孕期红线/儿童剂量/酒精)",
+    "otc_labels: NMPA 处方药转非处方药公告+说明书范本 24 篇(2024-2026, 广东省局镜像 .doc 直链)"
   ]
 }

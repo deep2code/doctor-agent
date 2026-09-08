@@ -94,3 +94,4 @@ logs/*.log
 
 # 下载的原始 PDF 素材 (可由 external/fetch_medlinezh.py 重新下载)
 external/medlinezh/
+external/otc_labels/raw/

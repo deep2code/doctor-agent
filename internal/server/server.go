@@ -40,6 +40,9 @@ var mapTmpl string
 //go:embed web/stats.html
 var statsTmpl string
 
+//go:embed web/share.html
+var sharePageTmpl string
+
 // Shared stylesheets for the public marketing pages, split out of the old
 // single landing <style> block. They are inlined into each page at startup
 // (see buildPage) so pages stay single-file: no external assets, works
@@ -67,6 +70,9 @@ var jsMermaid string
 //go:embed web/three.min.js
 var jsThree string
 
+//go:embed web/anatomy.js
+var jsAnatomy string
+
 // Server wraps the HTTP API server for the doctor agent.
 type Server struct {
 	cfg   *config.Config
@@ -85,6 +91,8 @@ type Server struct {
 	pageLanding string
 	pageMap     string
 	pageStats   string
+	// 分享页模板（/s/{id}），payload 每请求注入。
+	pageShareTmpl string
 }
 
 // SetBuildInfo injects the git commit hash and build timestamp from main.go
@@ -108,6 +116,9 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 		auth:    authSvc,
 		db:      db,
 		limiter: newRateLimiter(cfg.RateLimit),
+
+		// 分享页模板：payload 按请求注入（见 handleSharePage），不预渲染。
+		pageShareTmpl: sharePageTmpl,
 	}
 
 	// Pre-render the public pages once: shared CSS inlined into each page's
@@ -127,6 +138,7 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 	// Lazy-loaded JS assets for the chat UI (extracted to cut first-paint).
 	mux.HandleFunc("/mermaid.min.js", s.handleMermaidJS)
 	mux.HandleFunc("/three.min.js", s.handleThreeJS)
+	mux.HandleFunc("/anatomy.js", s.handleAnatomyJS)
 	mux.HandleFunc("/health", s.handleHealth)
 	mux.HandleFunc("/chat", s.handleChat)
 	mux.HandleFunc("/chat/stream", s.handleChatStream)
@@ -137,6 +149,8 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 		mux.HandleFunc("/sessions/", s.handleSessionByID)
 		mux.HandleFunc("/family", s.handleFamily)
 		mux.HandleFunc("/family/", s.handleFamilyByID)
+		mux.HandleFunc("/share", s.handleShare)
+		mux.HandleFunc("/s/", s.handleSharePage)
 	}
 	// Admin endpoints
 	mux.HandleFunc("/admin/users", s.handleAdminUsers)
@@ -424,6 +438,17 @@ func (s *Server) handleThreeJS(w http.ResponseWriter, r *http.Request) {
 	_, _ = io.WriteString(w, jsThree)
 }
 
+// handleAnatomyJS 人体解剖图组件（分层 SVG + 缩放弹窗）。
+func (s *Server) handleAnatomyJS(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+	w.Header().Set("Content-Type", "application/javascript; charset=utf-8")
+	w.Header().Set("Cache-Control", "public, max-age=86400")
+	_, _ = io.WriteString(w, jsAnatomy)
+}
+
 // handleHealth responds with server health status.
 func (s *Server) handleHealth(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodGet {
@@ -459,6 +484,11 @@ type ChatResponse struct {
 	IsEmergency    bool   `json:"is_emergency"`
 	IsOutOfScope   bool   `json:"is_out_of_scope"`
 	Timestamp      string `json:"timestamp"`
+	// 本次回答的 token 消耗与估算成本（未知模型价格时 cost 为 0）
+	Usage   *llm.TokenUsage `json:"usage,omitempty"`
+	CostUSD float64         `json:"cost_usd,omitempty"`
+	CostCNY float64         `json:"cost_cny,omitempty"`
+	Model   string          `json:"model,omitempty"`
 }
 
 func (s *Server) handleChat(w http.ResponseWriter, r *http.Request) {
@@ -538,13 +568,21 @@ func (s *Server) handleChat(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	writeJSON(w, http.StatusOK, ChatResponse{
+	chatResp := ChatResponse{
 		ConversationID: req.ConversationID,
 		Reply:          resp.Text,
 		IsEmergency:    resp.IsEmergency,
 		IsOutOfScope:   resp.IsOutOfScope,
 		Timestamp:      time.Now().UTC().Format(time.RFC3339),
-	})
+	}
+	if resp.Usage.PromptTokens > 0 || resp.Usage.CompletionTokens > 0 {
+		u := resp.Usage
+		chatResp.Usage = &u
+		chatResp.CostUSD = resp.CostUSD
+		chatResp.CostCNY = resp.CostCNY
+		chatResp.Model = resp.Model
+	}
+	writeJSON(w, http.StatusOK, chatResp)
 }
 
 // handleChatStream streams the agent's response as SSE events:
@@ -652,13 +690,21 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 		streamVerifiedText(sendEvent, resp.Text)
 	}
 
-	sendEvent("done", ChatResponse{
+	doneResp := ChatResponse{
 		ConversationID: req.ConversationID,
 		Reply:          resp.Text,
 		IsEmergency:    resp.IsEmergency,
 		IsOutOfScope:   resp.IsOutOfScope,
 		Timestamp:      time.Now().UTC().Format(time.RFC3339),
-	})
+	}
+	if resp.Usage.PromptTokens > 0 || resp.Usage.CompletionTokens > 0 {
+		u := resp.Usage
+		doneResp.Usage = &u
+		doneResp.CostUSD = resp.CostUSD
+		doneResp.CostCNY = resp.CostCNY
+		doneResp.Model = resp.Model
+	}
+	sendEvent("done", doneResp)
 }
 
 // streamVerifiedText emits the (already post-verification / disclaimer-applied)

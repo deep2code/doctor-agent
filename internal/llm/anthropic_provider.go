@@ -37,13 +37,21 @@ func (p *AnthropicProvider) Name() string {
 	return fmt.Sprintf("Anthropic Claude (%s)", p.model)
 }
 
+// Model returns the raw model identifier (used for cost calculation).
+func (p *AnthropicProvider) Model() string { return p.model }
+
 func (p *AnthropicProvider) Chat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string) (*ChatResponse, error) {
 	resp, err := p.client.Messages.New(ctx, p.buildParams(messages, tools, systemPrompt))
 	if err != nil {
 		return nil, fmt.Errorf("anthropic API error: %w", err)
 	}
 
-	return responseFromAnthropicMessage(resp.Content), nil
+	chatResp := responseFromAnthropicMessage(resp.Content)
+	chatResp.Usage = TokenUsage{
+		PromptTokens:     int(resp.Usage.InputTokens),
+		CompletionTokens: int(resp.Usage.OutputTokens),
+	}
+	return chatResp, nil
 }
 
 // StreamChat streams the response via the Anthropic streaming API: visible
@@ -65,6 +73,16 @@ func (p *AnthropicProvider) StreamChat(ctx context.Context, messages []Message, 
 
 	for stream.Next() {
 		switch v := stream.Current().AsAny().(type) {
+		case anthropic.MessageStartEvent:
+			// message_start carries the input-side usage (prompt tokens).
+			chatResp.Usage.PromptTokens = int(v.Message.Usage.InputTokens)
+			chatResp.Usage.CompletionTokens = int(v.Message.Usage.OutputTokens)
+		case anthropic.MessageDeltaEvent:
+			// message_delta carries cumulative output tokens as generation
+			// progresses; the final event holds the complete count.
+			if v.Usage.OutputTokens > 0 {
+				chatResp.Usage.CompletionTokens = int(v.Usage.OutputTokens)
+			}
 		case anthropic.ContentBlockStartEvent:
 			// Bound the accumulated tool_use map: only accept sane block
 			// indexes and cap the number of concurrent tool calls.

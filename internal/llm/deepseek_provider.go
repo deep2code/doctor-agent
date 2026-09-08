@@ -44,6 +44,9 @@ func (p *DeepSeekProvider) Name() string {
 	return fmt.Sprintf("DeepSeek (%s)", p.model)
 }
 
+// Model returns the raw model identifier (used for cost calculation).
+func (p *DeepSeekProvider) Model() string { return p.model }
+
 // effectiveModel picks the vision model when any message carries an image.
 func (p *DeepSeekProvider) effectiveModel(messages []Message) string {
 	if p.visionModel == "" {

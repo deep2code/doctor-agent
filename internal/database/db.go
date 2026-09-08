@@ -169,6 +169,14 @@ func (db *DB) migrate() error {
 			created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
 			updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 		)`,
+		// Share snapshots (会话/单条回答的只读分享快照)
+		`CREATE TABLE IF NOT EXISTS shares (
+			id VARCHAR(32) PRIMARY KEY,
+			kind VARCHAR(8) NOT NULL,
+			title TEXT,
+			payload MEDIUMTEXT NOT NULL,
+			created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+		)`,
 		// Indexes (CREATE INDEX IF NOT EXISTS is MariaDB-only; MySQL 8+ rejects it.
 		// Tolerate "duplicate key name" so both engines migrate cleanly.)
 		`CREATE INDEX idx_sessions_user_id ON sessions(user_id)`,
@@ -182,6 +190,7 @@ func (db *DB) migrate() error {
 		`CREATE INDEX idx_knowledge_versions_dataset ON knowledge_versions(dataset)`,
 		`CREATE INDEX idx_api_stats_endpoint ON api_stats(endpoint)`,
 		`CREATE INDEX idx_api_stats_created_at ON api_stats(created_at)`,
+		`CREATE INDEX idx_shares_created_at ON shares(created_at)`,
 	}
 
 	for _, q := range queries {

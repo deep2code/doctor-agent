@@ -107,6 +107,62 @@
   @keyframes runpulse { 0%, 100% { opacity: 1; } 50% { opacity: .55; } }
   .run-legend { font-size: 12.5px; color: var(--muted); margin-top: 8px; line-height: 1.7; }
   .run-legend b { color: #0f6b74; }
+
+  /* 解剖图组件（anatomy.js） */
+  .anat-slot:empty { min-height: 200px; }
+  .anat-inline { text-align: center; }
+  .anat-inline .anat-svg { width: 100%; max-width: 320px; height: auto; cursor: zoom-in; touch-action: none; }
+  .anat-cap { font-size: 11.5px; color: var(--accent-dark); margin-top: 4px; font-weight: 600; }
+  .anat-zoom-hint { cursor: pointer; text-decoration: underline dotted; }
+  .anat-svg .anat-body { fill: #f2f8f9; stroke: #c9dcde; stroke-width: 2; }
+  .anat-svg .anat-body path, .anat-svg .anat-body ellipse { fill: #f2f8f9; }
+  /* 骨骼层 */
+  .anat-skel .anat-part { fill: rgba(138,151,165,.28); stroke: #93a3b1; stroke-width: 2.6; }
+  .anat-skel .anat-part path[fill="none"], .anat-skel .anat-part g[fill="none"] path { fill: none; }
+  /* 血管层 */
+  .anat-vess .anat-part { fill: none; stroke-width: 4; }
+  .anat-vess .sys-circ { stroke: #dc2626; }
+  .anat-vess .sys-resp { stroke: #0ea5e9; }
+  /* 器官层：按系统配色 */
+  .anat-org .anat-part { stroke-width: 2; }
+  .anat-org .sys-nerve  { fill: #ede9fe; stroke: #8b5cf6; }
+  .anat-org .sys-endo   { fill: #fef3c7; stroke: #d97706; }
+  .anat-org .sys-resp   { fill: #e0f2fe; stroke: #0ea5e9; }
+  .anat-org .sys-circ   { fill: #fee2e2; stroke: #dc2626; }
+  .anat-org .sys-digest { fill: #ffedd5; stroke: #ea580c; }
+  .anat-org .sys-immune { fill: #dcfce7; stroke: #16a34a; }
+  .anat-org .sys-uri    { fill: #ccfbf1; stroke: #0d9488; }
+  .anat-org .sys-motion { fill: #e2e8f0; stroke: #8a97a5; }
+  .anat-org .anat-part path[fill="none"], .anat-org .anat-part g[fill="none"] path { fill: none; }
+  /* 命中高亮 */
+  .anat-svg .anat-part { cursor: pointer; transition: filter .18s; }
+  .anat-svg .anat-part:hover { filter: brightness(.94); }
+  .anat-svg .anat-part.is-hit { stroke-width: 3.4; filter: drop-shadow(0 0 3px rgba(14,124,134,.85)); animation: anatpulse 1.8s ease-in-out infinite; }
+  @keyframes anatpulse { 50% { filter: drop-shadow(0 0 6px rgba(14,124,134,.45)); } }
+  /* 标注层 */
+  .anat-labels line { stroke: #9db4bd; stroke-width: 1; }
+  .anat-labels text { font-size: 11px; fill: #40606a; }
+  .anat-labels .is-hit line { stroke: var(--accent, #0e7c86); stroke-width: 1.6; }
+  .anat-labels .is-hit text { fill: #0a5f68; font-weight: 700; }
+  /* 详情卡 */
+  .anat-info { background: #f4fafa; border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; margin-top: 8px; text-align: left; font-size: 13px; }
+  .anat-info-head b { color: var(--accent-dark); }
+  .anat-info-head i { color: var(--muted); margin-left: 6px; font-size: 12px; }
+  .anat-info-sys { color: var(--muted); font-size: 12px; margin: 2px 0 4px; display: flex; align-items: center; gap: 5px; }
+  .anat-dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+  /* 全屏弹窗 */
+  .anat-modal { display: none; position: fixed; inset: 0; z-index: 1200; background: rgba(12,32,38,.62); align-items: center; justify-content: center; padding: 14px; }
+  .anat-modal.open { display: flex; }
+  .anat-modal-panel { background: #fff; border-radius: 16px; width: min(980px, 96vw); max-height: 94vh; display: flex; flex-direction: column; overflow: hidden; }
+  .anat-modal-head { display: flex; align-items: center; gap: 10px; padding: 10px 14px; border-bottom: 1px solid var(--border); font-size: 14px; }
+  .anat-toggles { display: flex; gap: 10px; margin-left: auto; font-size: 12.5px; color: var(--muted); }
+  .anat-toggles label { display: flex; align-items: center; gap: 3px; cursor: pointer; }
+  .anat-reset, .anat-close { border: 1px solid var(--border); background: #fff; border-radius: 8px; font: inherit; font-size: 12.5px; padding: 3px 10px; cursor: pointer; color: var(--muted); }
+  .anat-close:hover, .anat-reset:hover { color: var(--accent-dark); border-color: var(--accent-dark); }
+  .anat-modal-body { flex: 1; display: flex; align-items: center; justify-content: center; overflow: hidden; background: #fbfdfd; min-height: 0; }
+  .anat-modal-body .anat-svg { height: calc(94vh - 132px); max-height: 640px; width: auto; max-width: 100%; touch-action: none; }
+  .anat-modal-foot { border-top: 1px solid var(--border); padding: 8px 14px 10px; min-height: 56px; }
+  .anat-info-hint { color: var(--muted); font-size: 12.5px; padding: 6px 0; }
   .welcome-examples { display: flex; flex-direction: column; gap: 10px; max-width: 430px; margin: 6px auto 0; width: 100%; }
   .upload-cta {
     display: flex; align-items: center; gap: 14px; text-align: left; font: inherit; cursor: pointer;
@@ -502,6 +558,16 @@
     .ans-banner-body { font-size: 17.5px; }
   }
 
+  /* 回答底部：本次花费 + 分享 */
+  .ans-foot { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
+  .cost-info { font-size: 12px; color: var(--muted); }
+  .ans-share, #share-conv {
+    border: 1px solid var(--border); background: #fff; color: var(--muted); border-radius: 999px;
+    font: inherit; font-size: 12.5px; padding: 4px 12px; cursor: pointer;
+  }
+  .ans-share:hover, #share-conv:hover { color: var(--accent-dark); border-color: var(--accent-dark); }
+  .ans-share[disabled] { opacity: .55; cursor: default; }
+
   @media (max-width: 768px) {
     #chat { padding: 0 12px; }
   }
@@ -518,6 +584,7 @@
   <button id="menu-btn">☰</button>
   <div class="hosp-brand"><div class="logo">医答</div></div>
   <button id="family-btn" title="家庭健康档案">👪 <span id="family-current">我</span></button>
+  <button id="share-conv" title="复制整个会话的分享链接">🔗 分享</button>
   <button id="new-chat">新对话</button>
 </header>
 
@@ -575,7 +642,7 @@
   <div id="img-preview-bar"></div>
   <div class="error-tip" id="error-tip"></div>
   <div id="drop-mask" aria-hidden="true"><span>松开，上传检查报告</span></div>
-  <p class="hint"><span>AI 回答仅供参考，不能替代专业医生诊断；紧急情况请拨打 120</span><span class="version-info" id="version-info">© 2026 医答 Doctor Agent</span></p>
+  <p class="hint"><span class="version-info" id="version-info">© 2026 医答 Doctor Agent</span></p>
   <button type="button" id="elder-toggle" title="放大字体，更适合长辈阅读">🔠 大字模式</button>
 </footer>
 
@@ -596,6 +663,7 @@
 
 
 
+<script src="/anatomy.js"></script>
 <script>
 (function () {
   "use strict";
@@ -657,6 +725,7 @@
     }
     line.appendChild(who); line.appendChild(say);
     transcript.appendChild(line);
+    mountAnatomy(say);
     scrollToBottom();
     return say;
   }
@@ -672,6 +741,65 @@
 
   function showError(msg) { errorTip.style.display = "block"; errorTip.textContent = msg; }
   function clearError() { errorTip.style.display = "none"; }
+
+  /* ================= 分享：单条回答 / 整个会话 ================= */
+  function fmtCost(meta) {
+    if (!meta || !meta.usage) return "";
+    var u = meta.usage, t = "⚡ 输入 " + (u.prompt_tokens || 0) + " · 输出 " + (u.completion_tokens || 0) + " tokens";
+    if (meta.cost_usd > 0) {
+      t += " · 约 ¥" + meta.cost_cny.toFixed(4) + "（$" + meta.cost_usd.toFixed(4) + "）";
+      if (meta.model) t += " · " + meta.model;
+    }
+    return t;
+  }
+  function attachShareFooter(line, pairIndex, meta) {
+    var old = line.querySelector(".ans-foot");
+    if (old) old.remove();
+    var foot = document.createElement("div");
+    foot.className = "ans-foot";
+    var cost = fmtCost(meta);
+    if (cost) {
+      var c = document.createElement("span");
+      c.className = "cost-info";
+      c.textContent = cost;
+      foot.appendChild(c);
+    }
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "ans-share";
+    btn.textContent = "🔗 分享";
+    btn.title = "复制这条问答的只读分享链接";
+    btn.addEventListener("click", function () { doShare("answer", pairIndex, btn); });
+    foot.appendChild(btn);
+    line.appendChild(foot);
+  }
+  async function doShare(scope, index, btn) {
+    if (!state.convId) { showError("⚠️ 还没有可分享的对话"); return; }
+    var oldText = btn.textContent;
+    btn.disabled = true; btn.textContent = "生成中…";
+    try {
+      var resp = await fetch("/share", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ scope: scope, conversation_id: state.convId, index: index })
+      });
+      var obj = await resp.json();
+      if (!resp.ok) throw new Error(obj.error || "分享失败（" + resp.status + "）");
+      var url = location.origin + obj.url;
+      var copied = false;
+      try { await navigator.clipboard.writeText(url); copied = true; } catch (e) {}
+      if (copied) {
+        btn.textContent = "✅ 链接已复制";
+        setTimeout(function () { btn.textContent = oldText; btn.disabled = false; }, 1600);
+      } else {
+        window.prompt("复制分享链接", url);
+        btn.textContent = oldText; btn.disabled = false;
+      }
+    } catch (e) {
+      showError("⚠️ " + e.message);
+      btn.textContent = oldText; btn.disabled = false;
+    }
+  }
 
   /* ================= 回答分节渲染：人话总结 → 详细推理 → 专业描述 → 参考引用 ================= */
   function splitSections(md) {
@@ -746,29 +874,7 @@
       var s = SYSTEM_OF_UNIT[u.trim()];
       if (s) on[s] = 1;
     });
-    var W = 460, H = 560;
-    var s = '<svg class="run-svg" viewBox="0 0 ' + W + " " + H + '" xmlns="http://www.w3.org/2000/svg" aria-label="人体运行图：八大系统关系">';
-    /* 人体剪影 */
-    s += '<g class="sil" opacity=".55">';
-    s += '<circle cx="230" cy="66" r="34"/>';
-    s += '<path d="M186,112 Q230,96 274,112 Q288,150 276,208 Q268,252 278,292 L282,420 Q280,452 252,456 L208,456 Q180,452 178,420 L182,292 Q192,252 184,208 Q172,150 186,112 Z"/>';
-    s += '<path d="M188,120 L150,220 M272,120 L310,220" style="fill:none;stroke-width:16;stroke:#eef4f5"/>';
-    s += '<path d="M210,458 L206,540 M250,458 L254,540" style="fill:none;stroke-width:20;stroke:#eef4f5"/>';
-    s += '</g>';
-    /* 系统间流动连线（循环→各系统的物质/信号交换） */
-    var circ = BODY_SYSTEMS[3];
-    BODY_SYSTEMS.forEach(function (n) {
-      if (n.id === "circ") return;
-      s += '<path class="sys-flow" d="M' + circ.x + "," + circ.y + " Q" + ((circ.x + n.x) / 2 + (n.x < circ.x ? -30 : 30)) + "," + ((circ.y + n.y) / 2) + " " + n.x + "," + n.y + '"/>';
-    });
-    /* 系统节点 */
-    BODY_SYSTEMS.forEach(function (n) {
-      var cls = "sys-node" + (on[n.id] ? " on sys-on-pulse" : "");
-      s += '<g class="' + cls + '">';
-      s += '<rect x="' + (n.x - 34) + '" y="' + (n.y - 17) + '" width="68" height="34" rx="10"/>';
-      s += '<text x="' + n.x + '" y="' + (n.y + 4) + '">' + n.name + "</text></g>";
-    });
-    s += "</svg>";
+    var slot = '<div class="anat-slot" data-hits="' + (hits || "") + '"></div>';
     var names = BODY_SYSTEMS.filter(function (n) { return on[n.id]; });
     var legend;
     if (names.length) {
@@ -778,7 +884,7 @@
     } else {
       legend = "循环系统把氧气养分送往全身，神经与内分泌系统发出调控信号，消化、呼吸、泌尿系统负责物质进出，免疫系统巡逻防御——各系统协同维持运转。";
     }
-    return '<div class="ans-media-cap">八大系统如何协同运行（高亮 = 与问题直接相关）</div>' + s +
+    return '<div class="ans-media-cap">人体解剖图 · 分层可缩放（高亮 = 与问题直接相关）</div>' + slot +
       '<div class="run-legend">' + legend + "</div>";
   }
   function hasCauseContent(md) {
@@ -1107,7 +1213,19 @@
   }
   function bodyFigure(hitParts) {
     if (!hitParts) return "";
-    return ansBodySVG(hitParts);
+    var tags = (hitParts || "").split(",").filter(function (p) { return p; })
+      .map(function (p) { return '<span class="bm-tag">' + (BODY_UNITS[p] || p) + "</span>"; }).join("");
+    return '<div class="anat-slot" data-hits="' + hitParts + '"></div>' +
+      '<div class="bm-tags">' + tags + '</div><div class="ans-media-cap">相关器官与部位</div>';
+  }
+  /* 把 anat-slot 挂载为可缩放解剖图（innerHTML 渲染后调用） */
+  function mountAnatomy(root) {
+    if (!window.AnatomyView || !root) return;
+    root.querySelectorAll(".anat-slot").forEach(function (slot) {
+      if (slot.dataset.mounted) return;
+      slot.dataset.mounted = "1";
+      slot.appendChild(window.AnatomyView.inline(slot.dataset.hits || ""));
+    });
   }
 
   /* ---- 欢迎屏：点选人体部位 -> 引用提问 ---- */
@@ -1251,7 +1369,11 @@
   }
   function replayMessages(messages) {
     transcript.innerHTML = "";
-    messages.forEach(function (it) { addLine(it.role, it.content); });
+    var aiIdx = 0;
+    messages.forEach(function (it) {
+      addLine(it.role, it.content);
+      if ((it.role === "assistant" || it.role === "ai") && it.content) attachShareFooter(transcript.lastElementChild, aiIdx++, null);
+    });
     renderMermaid(transcript);
     if (messages.length) {
       var last = messages[messages.length - 1];
@@ -1412,6 +1534,9 @@
     }
     line.appendChild(who); line.appendChild(stepsWrap); line.appendChild(thinkRow); line.appendChild(say);
     transcript.appendChild(line);
+    /* 本次回答在会话问答对中的序号（供分享接口定位） */
+    var pairIndex = transcript.querySelectorAll(".line.ai").length - 1;
+    var lastMeta = null;
 
     var STEP_TEXT = {
       emergency: "🚨 识别到紧急情况，需立即就医",
@@ -1468,6 +1593,7 @@
             try {
               var obj = JSON.parse(d);
               if (!full && obj.reply) full = obj.reply;
+              if (obj.usage) lastMeta = obj;
             } catch (e) {}
           },
           error: function (d) {
@@ -1482,7 +1608,11 @@
         full = say.textContent;
       }
       if (cursor.parentNode === say) say.removeChild(cursor);
-      if (full) say.innerHTML = renderAnswer(full);
+      if (full) {
+        say.innerHTML = renderAnswer(full);
+        mountAnatomy(say);
+        attachShareFooter(line, pairIndex, lastMeta);
+      }
       else say.textContent = "（无响应）";
       renderMermaid(say);
       setSpeech("ai", plainText(full) || "（无响应）");
@@ -1518,6 +1648,7 @@
   $("new-chat").addEventListener("click", newConv);
   $("menu-btn").addEventListener("click", openSidebar);
   $("mask").addEventListener("click", closeAll);
+  $("share-conv").addEventListener("click", function () { doShare("session", 0, this); });
 
   /* 桌面端侧栏折叠：默认展开，状态记忆 */
   var sbCollapsed = false;

@@ -203,6 +203,12 @@ func parseOpenAIResponse(body io.Reader) (*ChatResponse, error) {
 // provider-agnostic ChatResponse.
 func responseFromOpenAIChoice(chatResp openAIChatResponse) *ChatResponse {
 	response := &ChatResponse{}
+	if chatResp.Usage != nil {
+		response.Usage = TokenUsage{
+			PromptTokens:     chatResp.Usage.PromptTokens,
+			CompletionTokens: chatResp.Usage.CompletionTokens,
+		}
+	}
 	if len(chatResp.Choices) == 0 {
 		return response
 	}
@@ -249,6 +255,14 @@ func parseOpenAIStream(body io.Reader, onDelta func(string)) (*ChatResponse, err
 		var chunk openAIStreamChunk
 		if err := json.Unmarshal([]byte(data), &chunk); err != nil {
 			continue // tolerate keep-alive / partial lines
+		}
+		// Usage arrives on a dedicated final chunk (stream_options.include_usage)
+		// with an empty choices array — capture before the choices check.
+		if chunk.Usage != nil {
+			response.Usage = TokenUsage{
+				PromptTokens:     chunk.Usage.PromptTokens,
+				CompletionTokens: chunk.Usage.CompletionTokens,
+			}
 		}
 		if len(chunk.Choices) == 0 {
 			continue

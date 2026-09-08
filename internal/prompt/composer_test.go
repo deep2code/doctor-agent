@@ -12,7 +12,7 @@ import (
 func TestComposeSystemPromptIncludesFormatting(t *testing.T) {
 	c := NewComposer()
 	p := c.ComposeSystemPrompt(nil, "")
-	for _, want := range []string{"回答格式要求", "专业原理", "mermaid", "表格"} {
+	for _, want := range []string{"回答格式要求", "专业描述", "mermaid", "表格"} {
 		if !strings.Contains(p, want) {
 			t.Errorf("system prompt missing %q", want)
 		}

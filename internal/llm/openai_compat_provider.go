@@ -47,6 +47,9 @@ func (p *OpenAICompatProvider) Name() string {
 	return fmt.Sprintf("OpenAI-compatible (%s)", p.model)
 }
 
+// Model returns the raw model identifier (used for cost calculation).
+func (p *OpenAICompatProvider) Model() string { return p.model }
+
 // effectiveModel picks the vision model when any message carries an image.
 func (p *OpenAICompatProvider) effectiveModel(messages []Message) string {
 	if p.visionModel == "" {

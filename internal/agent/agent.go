@@ -573,6 +573,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		maxIterations = 5
 	}
 	var toolRefs []tools.CitationRef // tool-returned sources for post-verification
+	var totalUsage llm.TokenUsage    // accumulated token usage across all LLM calls
 
 	// Duplicate tool call detection and tool call budget.
 	calledTools := make(map[string]int) // "toolName:paramsHash" -> count
@@ -605,6 +606,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 			)
 			return nil, err
 		}
+		totalUsage = totalUsage.Add(resp.Usage)
 
 		// Check for tool calls
 		if len(resp.ToolCalls) > 0 {
@@ -714,9 +716,9 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 				slog.Warn("Response post-verification failed",
 					"warnings", verifyResult.Warnings,
 					"unsupported", verifyResult.UnsupportedClaims)
-				if verifyResult.CorrectedResponse != "" {
-					responseText = verifyResult.CorrectedResponse
-				}
+				// 核查结果仅记录日志，不再把"内容质量核查"块追加进回答，
+				// 避免影响用户判断 (2026-09-08)。
+				_ = verifyResult.CorrectedResponse
 			}
 		}
 
@@ -730,6 +732,10 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		return &Response{
 			Text:           responseText,
 			DisclaimerSent: disclaimerSent,
+			Usage:          totalUsage,
+			CostUSD:        llm.CostUSD(a.providerModel(), totalUsage),
+			CostCNY:        llm.CostUSD(a.providerModel(), totalUsage) * llm.USDToCNY,
+			Model:          a.providerModel(),
 		}, nil
 	}
 
@@ -751,6 +757,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		return nil, fmt.Errorf("LLM final response: %w", err)
 	}
 	responseText := finalResp.Text
+	totalUsage = totalUsage.Add(finalResp.Usage)
 
 	// Update session
 	sess.AddUserMessage(userMessage)
@@ -771,9 +778,9 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 			slog.Warn("Response post-verification failed",
 				"warnings", verifyResult.Warnings,
 				"unsupported", verifyResult.UnsupportedClaims)
-			if verifyResult.CorrectedResponse != "" {
-				responseText = verifyResult.CorrectedResponse
-			}
+			// 核查结果仅记录日志，不再把"内容质量核查"块追加进回答，
+			// 避免影响用户判断 (2026-09-08)。
+			_ = verifyResult.CorrectedResponse
 		}
 	}
 
@@ -787,6 +794,10 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 	return &Response{
 		Text:           responseText,
 		DisclaimerSent: disclaimerSent,
+		Usage:          totalUsage,
+		CostUSD:        llm.CostUSD(a.providerModel(), totalUsage),
+		CostCNY:        llm.CostUSD(a.providerModel(), totalUsage) * llm.USDToCNY,
+		Model:          a.providerModel(),
 	}, nil
 }
 
@@ -907,6 +918,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		maxIterations = 5
 	}
 	var toolRefs []tools.CitationRef // tool-returned sources for post-verification
+	var totalUsage llm.TokenUsage    // accumulated token usage across all LLM calls
 
 	// Duplicate tool call detection and tool call budget.
 	calledTools := make(map[string]int) // "toolName:paramsHash" -> count
@@ -946,6 +958,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 			)
 			return nil, fmt.Errorf("LLM call: %w", llmErr)
 		}
+		totalUsage = totalUsage.Add(llmResp.Usage)
 
 		// No tool calls → final answer
 		if len(llmResp.ToolCalls) == 0 {
@@ -986,6 +999,10 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 			return &Response{
 				Text:           responseText,
 				DisclaimerSent: disclaimerSent,
+				Usage:          totalUsage,
+				CostUSD:        llm.CostUSD(a.providerModel(), totalUsage),
+				CostCNY:        llm.CostUSD(a.providerModel(), totalUsage) * llm.USDToCNY,
+				Model:          a.providerModel(),
 			}, nil
 		}
 
@@ -1083,6 +1100,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		return nil, fmt.Errorf("LLM final response: %w", err)
 	}
 	responseText := finalResp.Text
+	totalUsage = totalUsage.Add(finalResp.Usage)
 
 	// L3: Citation post-verification
 	if a.postVerifier != nil {
@@ -1118,6 +1136,10 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 	return &Response{
 		Text:           responseText,
 		DisclaimerSent: disclaimerSent,
+		Usage:          totalUsage,
+		CostUSD:        llm.CostUSD(a.providerModel(), totalUsage),
+		CostCNY:        llm.CostUSD(a.providerModel(), totalUsage) * llm.USDToCNY,
+		Model:          a.providerModel(),
 	}, nil
 }
 
@@ -1218,4 +1240,20 @@ type Response struct {
 	IsOutOfScope   bool   `json:"is_out_of_scope"`
 	QualityWarning string `json:"quality_warning,omitempty"`
 	DisclaimerSent bool   `json:"disclaimer_sent"`
+	// Usage/Cost: token consumption and estimated cost of generating this
+	// answer (summed across all LLM calls in the turn). Cost is 0 when the
+	// model has no known list price.
+	Usage   llm.TokenUsage `json:"usage,omitempty"`
+	CostUSD float64        `json:"cost_usd,omitempty"`
+	CostCNY float64        `json:"cost_cny,omitempty"`
+	Model   string         `json:"model,omitempty"`
+}
+
+// providerModel returns the underlying model identifier when the provider
+// exposes it (optional interface — fakes in tests don't).
+func (a *Agent) providerModel() string {
+	if nm, ok := a.provider.(interface{ Model() string }); ok {
+		return nm.Model()
+	}
+	return ""
 }

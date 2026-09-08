@@ -62,11 +62,26 @@ type ToolCall struct {
 	Arguments map[string]any
 }
 
+// TokenUsage carries token usage statistics for one LLM call.
+type TokenUsage struct {
+	PromptTokens     int `json:"prompt_tokens"`
+	CompletionTokens int `json:"completion_tokens"`
+}
+
+// Add returns the sum of two usage records (multi-call accumulation).
+func (u TokenUsage) Add(other TokenUsage) TokenUsage {
+	return TokenUsage{
+		PromptTokens:     u.PromptTokens + other.PromptTokens,
+		CompletionTokens: u.CompletionTokens + other.CompletionTokens,
+	}
+}
+
 // ChatResponse wraps the LLM's response.
 type ChatResponse struct {
 	Text             string
 	ToolCalls        []ToolCall
 	ReasoningContent string // thinking trace from providers like DeepSeek V4
+	Usage            TokenUsage // token consumption of this single call (zero if unknown)
 }
 
 // LLMProvider is the interface all LLM backends must implement.

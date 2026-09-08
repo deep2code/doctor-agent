@@ -177,3 +177,38 @@ func TestOpenAIStreamingChatCarriesToolCalls(t *testing.T) {
 		t.Errorf("arguments = %q", funcArgs)
 	}
 }
+
+// TestVisionModelRouting verifies that image-carrying requests are routed to
+// the configured vision model while text-only requests use the main model,
+// and that an empty vision model leaves routing untouched.
+func TestVisionModelRouting(t *testing.T) {
+	imageMsg := Message{Role: "user", Parts: []ContentPart{
+		{Type: "image", Image: &ImageInput{Base64Data: "aGk=", MediaType: "image/png"}},
+	}}
+	textMsg := Message{Role: "user", Content: "文字消息"}
+
+	tests := []struct {
+		name        string
+		model       string
+		visionModel string
+		messages    []Message
+		want        string
+	}{
+		{"text uses main model", "main", "vision", []Message{textMsg}, "main"},
+		{"image routes to vision model", "main", "vision", []Message{imageMsg}, "vision"},
+		{"empty vision model keeps main", "main", "", []Message{imageMsg}, "main"},
+		{"same model no reroute", "same", "same", []Message{imageMsg}, "same"},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			ds := &DeepSeekProvider{model: tt.model, visionModel: tt.visionModel}
+			if got := ds.effectiveModel(tt.messages); got != tt.want {
+				t.Errorf("DeepSeek effectiveModel = %q, want %q", got, tt.want)
+			}
+			oc := &OpenAICompatProvider{model: tt.model, visionModel: tt.visionModel}
+			if got := oc.effectiveModel(tt.messages); got != tt.want {
+				t.Errorf("OpenAICompat effectiveModel = %q, want %q", got, tt.want)
+			}
+		})
+	}
+}

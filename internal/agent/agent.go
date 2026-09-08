@@ -107,7 +107,7 @@ func New(cfg *config.Config) (*Agent, error) {
 	if cfg.UnderstandModel != "" {
 		if cfg.LLMProvider == "openai-compat" {
 			understandProvider = llm.NewOpenAICompatProvider(
-				cfg.OpenAICompatBaseURL, cfg.OpenAICompatAPIKey, cfg.UnderstandModel, 1024, 0.1)
+				cfg.OpenAICompatBaseURL, cfg.OpenAICompatAPIKey, cfg.UnderstandModel, "", 1024, 0.1)
 			slog.Info("Query understanding uses dedicated model", "model", cfg.UnderstandModel)
 		} else {
 			slog.Info("UNDERSTAND_MODEL ignored: only openai-compat supports a separate understanding model")
@@ -186,6 +186,7 @@ func createProvider(cfg *config.Config) (llm.LLMProvider, error) {
 		return llm.NewDeepSeekProvider(
 			cfg.DeepSeekAPIKey,
 			cfg.DeepSeekModel,
+			cfg.DeepSeekVisionModel,
 			cfg.MaxTokens,
 			cfg.Temperature,
 		), nil
@@ -194,6 +195,7 @@ func createProvider(cfg *config.Config) (llm.LLMProvider, error) {
 			cfg.OpenAICompatBaseURL,
 			cfg.OpenAICompatAPIKey,
 			cfg.OpenAICompatModel,
+			cfg.OpenAICompatVisionModel,
 			cfg.MaxTokens,
 			cfg.Temperature,
 		), nil
@@ -218,13 +220,13 @@ func createJudgeProvider(cfg *config.Config) (llm.LLMProvider, error) {
 		if model == "" {
 			model = cfg.DeepSeekModel
 		}
-		return llm.NewDeepSeekProvider(cfg.DeepSeekAPIKey, model, 2048, 0), nil
+		return llm.NewDeepSeekProvider(cfg.DeepSeekAPIKey, model, "", 2048, 0), nil
 	case "openai-compat":
 		model := cfg.JudgeModel
 		if model == "" {
 			model = cfg.OpenAICompatModel
 		}
-		return llm.NewOpenAICompatProvider(cfg.OpenAICompatBaseURL, cfg.OpenAICompatAPIKey, model, 2048, 0), nil
+		return llm.NewOpenAICompatProvider(cfg.OpenAICompatBaseURL, cfg.OpenAICompatAPIKey, model, "", 2048, 0), nil
 	default:
 		return nil, fmt.Errorf("unknown LLM provider: %s", cfg.LLMProvider)
 	}

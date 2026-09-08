@@ -18,10 +18,17 @@ type Config struct {
 	AnthropicModel  string
 	DeepSeekAPIKey  string
 	DeepSeekModel   string
+	// DeepSeekVisionModel handles requests that carry images. DeepSeek's
+	// mainline text models reject image input; only the vision variant
+	// accepts it.
+	DeepSeekVisionModel string
 	// OpenAI-compatible endpoint (Zhipu/Qwen/SiliconFlow/...)
 	OpenAICompatBaseURL string
 	OpenAICompatAPIKey  string
 	OpenAICompatModel   string
+	// OpenAICompatVisionModel handles image-carrying requests when the main
+	// model is text-only. Empty = route images to the main model as-is.
+	OpenAICompatVisionModel string
 
 	MaxTokens       int
 	Temperature     float64
@@ -117,12 +124,14 @@ func Load() *Config {
 		LLMProvider:     getEnv("LLM_PROVIDER", "deepseek"),
 		AnthropicAPIKey: getEnv("ANTHROPIC_API_KEY", ""),
 		AnthropicModel:  getEnv("ANTHROPIC_MODEL", "claude-sonnet-4-20250514"),
-		DeepSeekAPIKey:  getEnv("DEEPSEEK_API_KEY", ""),
-		DeepSeekModel:   getEnv("DEEPSEEK_MODEL", "deepseek-v4-pro"),
+		DeepSeekAPIKey:      getEnv("DEEPSEEK_API_KEY", ""),
+		DeepSeekModel:       getEnv("DEEPSEEK_MODEL", "deepseek-v4-flash"),
+		DeepSeekVisionModel: getEnv("DEEPSEEK_VISION_MODEL", "deepseek-v4-flash-vision-exp"),
 
-		OpenAICompatBaseURL: getEnv("OPENAI_COMPAT_BASE_URL", ""),
-		OpenAICompatAPIKey:  getEnv("OPENAI_COMPAT_API_KEY", ""),
-		OpenAICompatModel:   getEnv("OPENAI_COMPAT_MODEL", ""),
+		OpenAICompatBaseURL:     getEnv("OPENAI_COMPAT_BASE_URL", ""),
+		OpenAICompatAPIKey:      getEnv("OPENAI_COMPAT_API_KEY", ""),
+		OpenAICompatModel:       getEnv("OPENAI_COMPAT_MODEL", ""),
+		OpenAICompatVisionModel: getEnv("OPENAI_COMPAT_VISION_MODEL", ""),
 
 		MaxTokens:        getEnvInt("MAX_TOKENS", 4096),
 		Temperature:      getEnvFloat("TEMPERATURE", 0.3),

@@ -12,18 +12,23 @@ const deepseekBaseURL = "https://api.deepseek.com/v1"
 // DeepSeekProvider implements LLMProvider using the DeepSeek API.
 // DeepSeek follows an OpenAI-compatible format.
 type DeepSeekProvider struct {
-	apiKey      string
-	model       string
+	apiKey string
+	model  string
+	// visionModel handles image-carrying requests (DeepSeek mainline text
+	// models reject image input). Empty = send images to the main model.
+	visionModel string
 	maxTokens   int
 	temperature float64
 	httpClient  *http.Client
 }
 
 // NewDeepSeekProvider creates a DeepSeek-backed LLM provider.
-func NewDeepSeekProvider(apiKey, model string, maxTokens int, temperature float64) *DeepSeekProvider {
+// visionModel may be empty to route images to the main model.
+func NewDeepSeekProvider(apiKey, model, visionModel string, maxTokens int, temperature float64) *DeepSeekProvider {
 	return &DeepSeekProvider{
 		apiKey:      apiKey,
 		model:       model,
+		visionModel: visionModel,
 		maxTokens:   maxTokens,
 		temperature: temperature,
 		httpClient: &http.Client{
@@ -33,7 +38,23 @@ func NewDeepSeekProvider(apiKey, model string, maxTokens int, temperature float6
 }
 
 func (p *DeepSeekProvider) Name() string {
+	if p.visionModel != "" && p.visionModel != p.model {
+		return fmt.Sprintf("DeepSeek (%s, vision: %s)", p.model, p.visionModel)
+	}
 	return fmt.Sprintf("DeepSeek (%s)", p.model)
+}
+
+// effectiveModel picks the vision model when any message carries an image.
+func (p *DeepSeekProvider) effectiveModel(messages []Message) string {
+	if p.visionModel == "" {
+		return p.model
+	}
+	for i := range messages {
+		if messages[i].HasImages() {
+			return p.visionModel
+		}
+	}
+	return p.model
 }
 
 // --- OpenAI-compatible request/response types ---
@@ -124,11 +145,11 @@ type openAIChoice struct {
 
 func (p *DeepSeekProvider) Chat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string) (*ChatResponse, error) {
 	return openAIStreamingChat(ctx, p.httpClient, deepseekBaseURL+"/chat/completions",
-		p.apiKey, p.model, p.maxTokens, p.temperature, messages, tools, systemPrompt, nil)
+		p.apiKey, p.effectiveModel(messages), p.maxTokens, p.temperature, messages, tools, systemPrompt, nil)
 }
 
 // StreamChat streams the response, forwarding text deltas to onDelta.
 func (p *DeepSeekProvider) StreamChat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string, onDelta func(string)) (*ChatResponse, error) {
 	return openAIStreamingChat(ctx, p.httpClient, deepseekBaseURL+"/chat/completions",
-		p.apiKey, p.model, p.maxTokens, p.temperature, messages, tools, systemPrompt, onDelta)
+		p.apiKey, p.effectiveModel(messages), p.maxTokens, p.temperature, messages, tools, systemPrompt, onDelta)
 }

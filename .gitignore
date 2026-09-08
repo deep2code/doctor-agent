@@ -95,3 +95,5 @@ logs/*.log
 # 下载的原始 PDF 素材 (可由 external/fetch_medlinezh.py 重新下载)
 external/medlinezh/
 external/otc_labels/raw/
+# KB 数据镜像的 dump 产物 (397MB, 由 build.sh kb 从本地库导出)
+docker/kb/init-doctor_knowledge.sql.gz

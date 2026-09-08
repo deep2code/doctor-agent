@@ -21,6 +21,9 @@ bge-m3-onnx/
 internal/knowledge/data/
 internal/knowledge/gz/
 
+# KB 数据镜像的 dump 只进 Dockerfile.kb (专属白名单 Dockerfile.kb.dockerignore)
+docker/kb/
+
 # 文档/环境/产物
 *.md
 .env

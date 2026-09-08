@@ -21,8 +21,8 @@ cd "$(dirname "$0")"
 
 MODE="${1:-app}"
 case "$MODE" in
-  app|qdrant|embed|full) ;;
-  *) echo "用法: $0 [app|qdrant|embed|full]"; exit 1 ;;
+  app|qdrant|embed|kb|full) ;;
+  *) echo "用法: $0 [app|qdrant|embed|kb|full]"; exit 1 ;;
 esac
 
 # ── 版本信息 ──────────────────────────────────────
@@ -43,6 +43,9 @@ APP_IMAGE="${REGISTRY}/doctor-agent:${GIT_TAG}"
 APP_IMAGE_LATEST="${REGISTRY}/doctor-agent:latest"
 QDRANT_IMAGE="${REGISTRY}/doctor-agent-qdrant:latest"
 EMBED_IMAGE="${REGISTRY}/doctor-agent-embed:latest"
+KB_IMAGE_TAG="$(python3 -c "import json;print(json.load(open('internal/knowledge/data/version.json'))['version'])" 2>/dev/null || echo latest)"
+KB_IMAGE="${REGISTRY}/doctor-agent-kb:${KB_IMAGE_TAG}"
+KB_IMAGE_LATEST="${REGISTRY}/doctor-agent-kb:latest"
 
 build_embed() {
   echo "[embed] 构建 embedding 查询服务镜像 (bge-m3 INT8 模型打入镜像)..."
@@ -163,6 +166,26 @@ push_image() {
   docker push "$1"
 }
 
+# build_kb: 打包预灌知识的 MariaDB 数据镜像 (doctor-agent-kb).
+# 前置: docker/kb/init-doctor_knowledge.sql.gz 存在 (从已灌库导出, 见 docker/Dockerfile.kb 头注释).
+# 空洞兜底: 无 dump 则现场从本地 3307 测试容器导出.
+build_kb() {
+  [[ -s "docker/kb/init-doctor_knowledge.sql.gz" ]] || {
+    echo "[kb] 无 dump, 从本地 doctor-kb-test 容器导出..."
+    mkdir -p docker/kb
+    docker exec doctor-kb-test mariadb-dump -uroot --quick --single-transaction --hex-blob \
+      --default-character-set=utf8mb4 --databases doctor_knowledge 2>/dev/null \
+      | gzip > docker/kb/init-doctor_knowledge.sql.gz
+  }
+  echo "[kb] 构建数据镜像 (tag: ${KB_IMAGE_TAG})..."
+  docker build --platform linux/amd64 \
+    -t "$KB_IMAGE" \
+    -t "$KB_IMAGE_LATEST" \
+    -f docker/Dockerfile.kb \
+    --provenance false \
+    .
+}
+
 echo "============================================"
 echo "  doctor-agent 打包（模式: ${MODE}）"
 echo "  版本:      ${GIT_TAG} (commit ${GIT_COMMIT})"
@@ -186,6 +209,11 @@ case "$MODE" in
     build_embed
     push_image "$EMBED_IMAGE"
     ;;
+  kb)
+    build_kb
+    push_image "$KB_IMAGE"
+    push_image "$KB_IMAGE_LATEST"
+    ;;
   full)
     build_app
     push_image "$APP_IMAGE"
@@ -194,6 +222,9 @@ case "$MODE" in
     push_image "$QDRANT_IMAGE"
     build_embed
     push_image "$EMBED_IMAGE"
+    build_kb
+    push_image "$KB_IMAGE"
+    push_image "$KB_IMAGE_LATEST"
     ;;
 esac
 

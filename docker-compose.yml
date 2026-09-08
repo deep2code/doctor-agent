@@ -27,7 +27,9 @@
 
 services:
   mariadb:
-    image: mariadb:11.4
+    # 预灌全部医学知识(1.36.0, 142万行)的数据镜像——首启自动导入, 运行时零 seed
+    # 如需空库自灌, 改回 mariadb:11.4 并给 app 设 SEED_MARIADB_KB=true + 挂 gz 卷
+    image: ${KB_IMAGE:-crpi-0xi5k79l9j4opzta.cn-hangzhou.personal.cr.aliyuncs.com/codeup2026/doctor-agent-kb:latest}
     container_name: doctor-agent-mariadb
     command:
       - --innodb-flush-log-at-trx-commit=2

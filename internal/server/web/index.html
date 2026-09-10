@@ -1508,6 +1508,11 @@ async function apiDeleteConv(id) {
   function apiExportConv(id) {
     window.location.href = "/sessions/" + encodeURIComponent(id) + "?export=1";
   }
+  // 导出为 PDF（使用浏览器打印功能）
+  function exportToPDF(id) {
+    // 打开打印对话框，用户可选择"另存为 PDF"
+    window.open("/sessions/" + encodeURIComponent(id) + "?export=pdf", "_blank");
+  }
   async function saveHistory() {
     await loadConvs();
     renderConvList();
@@ -1562,8 +1567,8 @@ var ul = $("conv-list");
       var exportBtn = document.createElement("button");
       exportBtn.className = "conv-op conv-export";
       exportBtn.textContent = "📥";
-      exportBtn.title = "导出为 JSON";
-      exportBtn.addEventListener("click", function (e) { e.stopPropagation(); apiExportConv(c.id); });
+      exportBtn.title = "导出为 PDF";
+      exportBtn.addEventListener("click", function (e) { e.stopPropagation(); exportToPDF(c.id); });
       // 删除按钮
       var del = document.createElement("button");
       del.className = "conv-op conv-del";

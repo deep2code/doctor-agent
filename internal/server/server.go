@@ -46,6 +46,9 @@ var statsTmpl string
 //go:embed web/share.html
 var sharePageTmpl string
 
+//go:embed web/export_pdf.html
+var exportPDFTmpl string
+
 // Shared stylesheets for the public marketing pages, split out of the old
 // single landing <style> block. They are inlined into each page at startup
 // (see buildPage) so pages stay single-file: no external assets, works
@@ -266,6 +269,91 @@ func serveHTML(w http.ResponseWriter, r *http.Request, page string) {
 	}
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 	_, _ = io.WriteString(w, page)
+}
+
+// escapeHTML 转义 HTML 特殊字符。
+func escapeHTML(s string) string {
+	s = strings.ReplaceAll(s, "&", "&amp;")
+	s = strings.ReplaceAll(s, "<", "&lt;")
+	s = strings.ReplaceAll(s, ">", "&gt;")
+	s = strings.ReplaceAll(s, "\"", "&quot;")
+	s = strings.ReplaceAll(s, "'", "&#39;")
+	return s
+}
+
+// renderMarkdown 简单的 Markdown 转 HTML（用于 PDF 导出）。
+func renderMarkdown(md string) string {
+	// 转义 HTML
+	md = escapeHTML(md)
+	// 代码块
+	re := regexp.MustCompile("```(\\w*)\\n([\\s\\S]*?)```")
+	md = re.ReplaceAllString(md, "<pre><code>$2</code></pre>")
+	// 行内代码
+	re = regexp.MustCompile("`([^`]+)`")
+	md = re.ReplaceAllString(md, "<code>$1</code>")
+	// 标题
+	for i := 4; i >= 1; i-- {
+		re = regexp.MustCompile("(?m)^" + strings.Repeat("#", i) + " (.+)$")
+		md = re.ReplaceAllString(md, "<h"+fmt.Sprint(i+1)+">$1</h"+fmt.Sprint(i+1)+">")
+	}
+	// 粗体
+	re = regexp.MustCompile("\\*\\*([^*]+)\\*\\*")
+	md = re.ReplaceAllString(md, "<strong>$1</strong>")
+	// 斜体
+	re = regexp.MustCompile("\\*([^*]+)\\*")
+	md = re.ReplaceAllString(md, "<em>$1</em>")
+	// 链接
+	re = regexp.MustCompile("\\[([^\\]]+)\\]\\(([^\\)]+)\\)")
+	md = re.ReplaceAllString(md, "<a href=\"$2\" target=\"_blank\">$1</a>")
+	// 列表
+	re = regexp.MustCompile("(?m)^[-*] (.+)$")
+	md = re.ReplaceAllString(md, "<li>$1</li>")
+	md = strings.ReplaceAll(md, "</li>\n<li>", "</li>\n<li>")
+	re = regexp.MustCompile("(<li>.*</li>)")
+	md = re.ReplaceAllString(md, "<ul>$1</ul>")
+	// 数字列表
+	re = regexp.MustCompile("(?m)^\\d+\\. (.+)$")
+	md = re.ReplaceAllString(md, "<li>$1</li>")
+	// 表格（简单支持）
+	re = regexp.MustCompile("(?m)^\\|(.+)\\|$")
+	md = re.ReplaceAllString(md, "$1")
+	// 换行
+	lines := strings.Split(md, "\n")
+	var out []string
+	inPre := false
+	inUl := false
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+		if strings.HasPrefix(line, "<pre>") {
+			inPre = true
+		}
+		if strings.HasSuffix(line, "</pre>") {
+			inPre = false
+		}
+		if inPre {
+			out = append(out, line)
+			continue
+		}
+		if strings.HasPrefix(line, "<h") || strings.HasPrefix(line, "<ul") || strings.HasPrefix(line, "<ol") || strings.HasPrefix(line, "<pre") {
+			out = append(out, line)
+			continue
+		}
+		if strings.HasPrefix(line, "<li>") {
+			if !inUl {
+				inUl = true
+				out = append(out, "<ul>")
+			}
+			out = append(out, line)
+			continue
+		} else if inUl {
+			inUl = false
+			out = append(out, "</ul>")
+		}
+		if line != "" {
+			out = append(out, "<p>"+line+"</p>")
+		}
+	}
+	return strings.Join(out, "\n")
 }
 
 // buildPage resolves a page template once per process: the shared base CSS
@@ -898,9 +986,46 @@ func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
 
 	switch r.Method {
 	case http.MethodGet:
-		// 检查是否有 export=1 参数
-		if r.URL.Query().Get("export") == "1" {
-			// 导出会话为 JSON 文件
+		// 检查是否有 export 参数
+		exportType := r.URL.Query().Get("export")
+		if exportType == "pdf" {
+			// 导出会话为 PDF 打印页面
+			rec, err := s.db.GetSession(id)
+			if err != nil || rec == nil {
+				http.Error(w, "session not found", http.StatusNotFound)
+				return
+			}
+			msgs, err := s.db.GetSessionMessages(id)
+			if err != nil {
+				slog.Error("Getting session messages for PDF export", "id", id, "error", err)
+				http.Error(w, "failed to get session messages", http.StatusInternalServerError)
+				return
+			}
+			// 构建 HTML 内容
+			var content string
+			for _, m := range msgs {
+				if m.Role == "user" {
+					content += `<div class="qa"><div class="q">` + escapeHTML(m.Content) + `</div></div>`
+				} else {
+					// AI 回复，渲染 markdown
+					content += `<div class="a">` + renderMarkdown(m.Content) + `</div>`
+				}
+			}
+			title := rec.Title
+			if title == "" {
+				title = "新对话"
+			}
+			html := exportPDFTmpl
+			html = strings.Replace(html, "__TITLE__", title, 1)
+			html = strings.Replace(html, "__EXPORT_TIME__", time.Now().Format("2006-01-02 15:04:05"), 1)
+			html = strings.Replace(html, "__CONTENT__", content, 1)
+			w.Header().Set("Content-Type", "text/html; charset=utf-8")
+			w.Header().Set("Cache-Control", "no-cache")
+			_, _ = io.WriteString(w, html)
+			return
+		}
+		if exportType == "1" || exportType == "json" {
+			// 导出会话为 JSON 文件（保留以兼容旧版）
 			rec, err := s.db.GetSession(id)
 			if err != nil || rec == nil {
 				http.Error(w, "session not found", http.StatusNotFound)

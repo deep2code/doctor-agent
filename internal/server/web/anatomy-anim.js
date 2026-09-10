@@ -650,7 +650,44 @@
     }
   }
 
+  /* ---------- 3D 渲染视频（scripts/bake-3d.sh 产出，/media/ 提供） ----------
+  /* ---------- 3D 渲染视频（scripts/bake-3d.sh 产出，/media/ 提供） ----------
+   * key = 关键词（匹配部位 id），value = 媒体文件名。构建后由 bake-3d.sh 产出。
+   * 视频来源: Z-Anatomy 模型 (CC BY-SA 4.0) 渲染 — 见 external/z-anatomy/ATTRIBUTION.md
+   */
+  var MEDIA3D = {
+    heart: "heart.webm",
+    lungs: "lungs.webm",
+    brain: "brain.webm",
+    liver: "liver.webm",
+    stomach: "stomach.webm",
+    kidneys: "kidneys.webm"
+  };
+
   /* ---------- chips 绑定（由 anatomy.js 的 renderModal 调用） ---------- */
+  function mediaForSystem(sys) {
+    var keys = [];
+    window.AnatomyView.PARTS.forEach(function (p) {
+      if (sys && p.sys !== sys) return;
+      [p.id, p.unit].forEach(function (k) {
+        if (MEDIA3D[k] && keys.indexOf(k) < 0) keys.push(k);
+      });
+    });
+    return keys.map(function (k) { return { key: k, file: MEDIA3D[k] }; });
+  }
+  function playMedia(name, slot) {
+    stop();
+    slot.innerHTML =
+      '<video class="anat-video" src="/media/' + name + '" controls autoplay loop muted playsinline></video>' +
+      '<div class="anat-media-credit">3D 模型渲染 · Z-Anatomy (CC BY-SA 4.0) / BodyParts3D · <a href="https://github.com/Z-Anatomy" target="_blank" rel="noopener">来源</a></div>';
+    var v = slot.querySelector("video");
+    if (v) {
+      v.addEventListener("error", function () {
+        slot.innerHTML = '<div class="anat-info-hint">该 3D 动画尚未生成 — 运行 scripts/bake-3d.sh ' + name.replace(".webm", "") + ' 烘焙</div>';
+      }, true);
+    }
+  }
+
   function forSystem(sys) {
     return ANIMS.filter(function (a) { return a.sys === sys; })
       .map(function (a) { return { id: a.id, name: a.name, kind: a.kind }; });
@@ -658,7 +695,7 @@
   function all() {
     return ANIMS.map(function (a) { return { id: a.id, name: a.name, kind: a.kind, sys: a.sys }; });
   }
-  function bindChips(chipsEl, svg, footEl) {
+  function bindChips(chipsEl, svg, footEl, sys) {
     chipsEl.querySelectorAll("[data-anim]").forEach(function (btn) {
       btn.addEventListener("click", function () {
         var infoSlot = footEl.querySelector(".anat-info-slot");
@@ -667,7 +704,15 @@
         btn.classList.add("active");
       });
     });
+    chipsEl.querySelectorAll("[data-media]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var infoSlot = footEl.querySelector(".anat-info-slot");
+        playMedia(btn.getAttribute("data-media"), infoSlot);
+        chipsEl.querySelectorAll(".anat-anim-chip").forEach(function (b) { b.classList.remove("active"); });
+        btn.classList.add("active");
+      });
+    });
   }
 
-  window.AnatomyAnim = { play: play, stop: stop, forSystem: forSystem, all: all, bindChips: bindChips };
+  window.AnatomyAnim = { play: play, stop: stop, forSystem: forSystem, all: all, mediaForSystem: mediaForSystem, bindChips: bindChips };
 })();

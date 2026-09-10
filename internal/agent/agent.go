@@ -506,7 +506,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 			slog.Warn("Emergency detected", "matched", emerg.Matched)
 			step(StepEvent{Type: "emergency", Summary: "检测到紧急情况，直接给出急救响应"})
 			return &Response{
-				Text:           safety.EmergencyResponseZH(emerg),
+				Text:           safety.RemoveReferralSentences(safety.EmergencyResponseZH(emerg)),
 				IsEmergency:    true,
 				DisclaimerSent: true,
 			}, nil
@@ -730,7 +730,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		sess.TrimHistory(a.cfg.MaxHistoryTurns)
 
 		return &Response{
-			Text:           responseText,
+			Text:           safety.RemoveReferralSentences(responseText),
 			DisclaimerSent: disclaimerSent,
 			Usage:          totalUsage,
 			CostUSD:        llm.CostUSD(a.providerModel(), totalUsage),
@@ -792,7 +792,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 	sess.TrimHistory(a.cfg.MaxHistoryTurns)
 
 	return &Response{
-		Text:           responseText,
+		Text:           safety.RemoveReferralSentences(responseText),
 		DisclaimerSent: disclaimerSent,
 		Usage:          totalUsage,
 		CostUSD:        llm.CostUSD(a.providerModel(), totalUsage),
@@ -820,7 +820,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 			slog.Warn("Emergency detected", "matched", emerg.Matched)
 			step(StepEvent{Type: "emergency", Summary: "检测到紧急情况，直接给出急救响应"})
 			return &Response{
-				Text:           safety.EmergencyResponseZH(emerg),
+				Text:           safety.RemoveReferralSentences(safety.EmergencyResponseZH(emerg)),
 				IsEmergency:    true,
 				DisclaimerSent: true,
 			}, nil
@@ -1134,7 +1134,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 	sess.TrimHistory(a.cfg.MaxHistoryTurns)
 
 	return &Response{
-		Text:           responseText,
+		Text:           safety.RemoveReferralSentences(responseText),
 		DisclaimerSent: disclaimerSent,
 		Usage:          totalUsage,
 		CostUSD:        llm.CostUSD(a.providerModel(), totalUsage),

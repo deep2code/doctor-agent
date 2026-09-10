@@ -50,6 +50,9 @@ type Config struct {
 	UnderstandModel           string
 	AliasMapPath              string
 
+	// Media (3D 渲染动画 webm 磁盘目录)
+	MediaDir string // 由 /media/ 提供服务，默认 data/media
+
 	// Vector Database
 	VectorDBProvider string // "qdrant" or "" (keyword-only)
 	QdrantHost       string
@@ -144,6 +147,7 @@ func Load() *Config {
 		QueryUnderstandingEnabled: getEnvBool("QUERY_UNDERSTANDING_ENABLED", true),
 		UnderstandModel:           getEnv("UNDERSTAND_MODEL", ""),
 		AliasMapPath:              getEnv("ALIAS_MAP_PATH", "data/alias_map.json"),
+		MediaDir:                  getEnv("MEDIA_DIR", "data/media"),
 
 		VectorDBProvider: getEnv("VECTOR_DB_PROVIDER", ""),
 		QdrantHost:       getEnv("QDRANT_HOST", "localhost"),

@@ -60,6 +60,7 @@ external/china_tcm/
 
 # Z-Anatomy 3D 模型（可再生下载，86MB zip；授权见 external/z-anatomy/ATTRIBUTION.md）
 external/z-anatomy/*.zip
+external/z-anatomy/*.zip.*
 external/z-anatomy/work/
 data/media/
 external/clinvar/
@@ -90,6 +91,9 @@ external/eml/
 .workbuddy/
 remote-deploy.sh
 .dumate/
+
+# 脚本目录（本地工具脚本，不需要版本管理）
+scripts/
 
 # bake-local.sh 产物（烘焙后 COPY 进 Docker 镜像，不需要版本管理）
 qdrant-storage/

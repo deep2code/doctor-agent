@@ -467,14 +467,17 @@
 
   function animChipsHTML() {
     if (!window.AnatomyAnim) return "";
-    var list = nav.view === "whole"
-      ? window.AnatomyAnim.all()
-      : window.AnatomyAnim.forSystem(nav.view);
-    if (!list.length) return "";
-    return list.map(function (a) {
+    var sys = nav.view === "whole" ? null : nav.view;
+    var list = window.AnatomyAnim.forSystem(nav.view);
+    var chips = list.map(function (a) {
       return '<button type="button" class="anat-anim-chip" data-anim="' + a.id + '">' +
         (a.kind === "patho" ? "🩺 " : "▶️ ") + a.name + "</button>";
-    }).join("");
+    });
+    window.AnatomyAnim.mediaForSystem(sys).forEach(function (m) {
+      chips.push('<button type="button" class="anat-anim-chip" data-media="' + m.file + '">🎬 3D · ' + m.key + "</button>");
+    });
+    if (!chips.length) return "";
+    return chips.join("");
   }
 
   function renderModal(sysId) {

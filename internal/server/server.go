@@ -11,6 +11,9 @@ import (
 	"net"
 	"net/http"
 	"os"
+	"path"
+	"path/filepath"
+	"regexp"
 	"strings"
 	"sync"
 	"time"
@@ -143,6 +146,7 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 	mux.HandleFunc("/three.min.js", s.handleThreeJS)
 	mux.HandleFunc("/anatomy.js", s.handleAnatomyJS)
 	mux.HandleFunc("/anatomy-anim.js", s.handleAnatomyAnimJS)
+	mux.HandleFunc("/media/", s.handleMedia)
 	mux.HandleFunc("/health", s.handleHealth)
 	mux.HandleFunc("/chat", s.handleChat)
 	mux.HandleFunc("/chat/stream", s.handleChatStream)
@@ -462,6 +466,31 @@ func (s *Server) handleAnatomyAnimJS(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/javascript; charset=utf-8")
 	w.Header().Set("Cache-Control", "public, max-age=86400")
 	_, _ = io.WriteString(w, jsAnatomyAnim)
+}
+
+// mediaNameRe 限制媒体文件名为单级安全文件名。
+var mediaNameRe = regexp.MustCompile(`^[a-z0-9][a-z0-9_-]*\.(webm|mp4|png|jpg)$`)
+
+// handleMedia 提供磁盘媒体文件（3D 渲染动画 webm 等，MEDIA_DIR 目录）。
+// 只允许单级文件名（无子目录/路径穿越），带长缓存。
+func (s *Server) handleMedia(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+	name := strings.TrimPrefix(r.URL.Path, "/media/")
+	if name == "" || name != path.Base(name) || !mediaNameRe.MatchString(name) {
+		http.Error(w, "invalid media name", http.StatusBadRequest)
+		return
+	}
+	full := filepath.Join(s.cfg.MediaDir, name)
+	info, err := os.Stat(full)
+	if err != nil || info.IsDir() {
+		http.Error(w, "media not found", http.StatusNotFound)
+		return
+	}
+	w.Header().Set("Cache-Control", "public, max-age=86400")
+	http.ServeFile(w, r, full)
 }
 
 // handleHealth responds with server health status.

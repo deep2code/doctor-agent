@@ -79,6 +79,9 @@ var jsAnatomy string
 //go:embed web/anatomy-anim.js
 var jsAnatomyAnim string
 
+//go:embed web/qrcode.min.js
+var jsQRCode string
+
 // Server wraps the HTTP API server for the doctor agent.
 type Server struct {
 	cfg   *config.Config
@@ -146,6 +149,7 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 	mux.HandleFunc("/three.min.js", s.handleThreeJS)
 	mux.HandleFunc("/anatomy.js", s.handleAnatomyJS)
 	mux.HandleFunc("/anatomy-anim.js", s.handleAnatomyAnimJS)
+	mux.HandleFunc("/qrcode.min.js", s.handleQRCodeJS)
 	mux.HandleFunc("/media/", s.handleMedia)
 	mux.HandleFunc("/health", s.handleHealth)
 	mux.HandleFunc("/chat", s.handleChat)
@@ -466,6 +470,17 @@ func (s *Server) handleAnatomyAnimJS(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/javascript; charset=utf-8")
 	w.Header().Set("Cache-Control", "public, max-age=86400")
 	_, _ = io.WriteString(w, jsAnatomyAnim)
+}
+
+// handleQRCodeJS 二维码生成库。
+func (s *Server) handleQRCodeJS(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+	w.Header().Set("Content-Type", "application/javascript; charset=utf-8")
+	w.Header().Set("Cache-Control", "public, max-age=86400")
+	_, _ = io.WriteString(w, jsQRCode)
 }
 
 // mediaNameRe 限制媒体文件名为单级安全文件名。

@@ -729,14 +729,16 @@
   }
   /* 分享弹窗 */
   .share-modal-overlay { position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; padding: 20px; }
-  .share-modal { background: #fff; border-radius: 12px; padding: 20px; max-width: 280px; width: 100%; text-align: center; }
-  .share-modal-qr { margin-bottom: 12px; }
-  .share-modal-qr canvas, .share-modal-qr img { border-radius: 8px; }
-  .share-modal-link { display: flex; gap: 8px; margin-bottom: 12px; }
-  .share-modal-link input { flex: 1; padding: 8px; border: 1px solid var(--border); border-radius: 6px; font-size: 12px; }
-  .share-modal-copy, .share-modal-close { padding: 8px 16px; border-radius: 6px; font-size: 14px; cursor: pointer; border: 1px solid var(--border); background: #fff; }
+  .share-modal { background: #fff; border-radius: 16px; padding: 32px; max-width: 420px; width: 100%; text-align: center; position: relative; }
+  .share-modal-qr { margin-bottom: 16px; }
+  .share-modal-qr canvas, .share-modal-qr img { border-radius: 12px; }
+  .share-modal-link { display: flex; gap: 10px; margin-bottom: 16px; }
+  .share-modal-link input { flex: 1; padding: 10px 14px; border: 1px solid var(--border); border-radius: 8px; font-size: 14px; }
+  .share-modal-copy, .share-modal-close { padding: 10px 20px; border-radius: 8px; font-size: 15px; cursor: pointer; border: 1px solid var(--border); background: #fff; }
   .share-modal-copy { background: var(--accent); color: #fff; border-color: var(--accent); }
-  .share-modal-qr-fallback { padding: 40px; color: var(--muted); }
+  .share-modal-close { position: absolute; top: 12px; right: 12px; width: 32px; height: 32px; padding: 0; font-size: 18px; border: none; background: transparent; color: var(--muted); }
+  .share-modal-close:hover { color: var(--text); }
+  .share-modal-qr-fallback { padding: 60px; color: var(--muted); }
 </style>
 
 
@@ -859,12 +861,12 @@
     modal.className = "share-modal-overlay";
     modal.innerHTML =
       '<div class="share-modal">' +
+      '<button type="button" class="share-modal-close">✕</button>' +
       '<div class="share-modal-qr"></div>' +
       '<div class="share-modal-link">' +
       '<input type="text" readonly value="' + url.replace(/"/g, '&quot;') + '" />' +
       '<button type="button" class="share-modal-copy">复制链接</button>' +
       '</div>' +
-      '<button type="button" class="share-modal-close">关闭</button>' +
       '</div>';
     document.body.appendChild(modal);
     // 生成二维码
@@ -874,8 +876,8 @@
         qrContainer.innerHTML = "";
         new window.QRCode(qrContainer, {
           text: url,
-          width: 180,
-          height: 180,
+          width: 360,
+          height: 360,
           colorDark: "#0e7c86",
           colorLight: "#ffffff",
           correctLevel: window.QRCode.CorrectLevel.H
@@ -888,8 +890,8 @@
           qrContainer.innerHTML = "";
           new window.QRCode(qrContainer, {
             text: url,
-            width: 180,
-            height: 180,
+            width: 360,
+            height: 360,
             colorDark: "#0e7c86",
             colorLight: "#ffffff",
             correctLevel: window.QRCode.CorrectLevel.H

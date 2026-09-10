@@ -1,0 +1,51 @@
+{
+  "name": "CSCO诊疗指南汇总",
+  "version": "2024",
+  "total_count": 11,
+  "guidelines": [
+    {
+      "cancer_type": "非小细胞肺癌",
+      "version": "2024"
+    },
+    {
+      "cancer_type": "小细胞肺癌",
+      "version": "2024"
+    },
+    {
+      "cancer_type": "乳腺癌",
+      "version": "2024"
+    },
+    {
+      "cancer_type": "胃癌",
+      "version": "2024"
+    },
+    {
+      "cancer_type": "结直肠癌",
+      "version": "2024"
+    },
+    {
+      "cancer_type": "肝细胞癌",
+      "version": "2024"
+    },
+    {
+      "cancer_type": "食管癌",
+      "version": "2024"
+    },
+    {
+      "cancer_type": "弥漫大B细胞淋巴瘤",
+      "version": "2024"
+    },
+    {
+      "cancer_type": "宫颈癌",
+      "version": "2024"
+    },
+    {
+      "cancer_type": "胰腺癌",
+      "version": "2024"
+    },
+    {
+      "cancer_type": "鼻咽癌",
+      "version": "2024"
+    }
+  ]
+}

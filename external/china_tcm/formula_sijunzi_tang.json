@@ -1,0 +1,15 @@
+{
+  "name": "四君子汤",
+  "name_pinyin": "sijunzi tang",
+  "category": "补益剂",
+  "composition": "人参9g 白术9g 茯苓9g 甘草6g",
+  "source": "《太平惠民和剂局方》",
+  "indications": "脾胃气虚证。面色萎白，语声低微，气短乏力，食少便溏，舌淡苔白，脉虚数。",
+  "effects": "益气健脾。",
+  "dosage": "水煎服，日一剂，分二次温服。",
+  "modifications": [
+    "加陈皮为异功散",
+    "加半夏、陈皮为六君子汤",
+    "再加木香、砂仁为香砂六君子汤"
+  ]
+}

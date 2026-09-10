@@ -1,0 +1,43 @@
+{
+  "name": "中国居民平衡膳食宝塔",
+  "version": "2022",
+  "source": "中国营养学会",
+  "levels": [
+    {
+      "level": 1,
+      "name": "谷薯类",
+      "amount": "200-300g",
+      "recommendations": "全谷物和杂豆50-150g，薯类50-100g"
+    },
+    {
+      "level": 2,
+      "name": "蔬菜水果类",
+      "amount": "300-500g蔬菜+200-350g水果",
+      "recommendations": "深色蔬菜占1/2，天天吃水果"
+    },
+    {
+      "level": 3,
+      "name": "动物性食物",
+      "amount": "120-200g",
+      "recommendations": "每天一个蛋，适量选择鱼禽肉"
+    },
+    {
+      "level": 4,
+      "name": "奶类大豆坚果",
+      "amount": "300-500ml奶+25-35g大豆+10-15g坚果",
+      "recommendations": "吃各种各样的奶制品"
+    },
+    {
+      "level": 5,
+      "name": "烹调油盐",
+      "amount": "25-30g油+<5g盐",
+      "recommendations": "培养清淡口味"
+    },
+    {
+      "level": 6,
+      "name": "身体活动和水",
+      "amount": "1500-1700ml水+6000步",
+      "recommendations": "主动身体活动"
+    }
+  ]
+}

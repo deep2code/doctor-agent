@@ -1,0 +1,71 @@
+{
+  "year": 2022,
+  "month": null,
+  "source": "中国疾病预防控制中心",
+  "source_url": "https://www.chinacdc.cn",
+  "total": {
+    "cases": 9509327,
+    "deaths": 3182,
+    "incidence_rate": 672.82,
+    "mortality_rate": 2.25
+  },
+  "by_category": {
+    "甲类传染病": {
+      "cases": 0,
+      "deaths": 0,
+      "diseases": {}
+    },
+    "乙类传染病": {
+      "cases": 2825853,
+      "deaths": 2873,
+      "diseases": {
+        "病毒性肝炎": {
+          "cases": 2698492,
+          "deaths": 542
+        },
+        "肺结核": {
+          "cases": 471780,
+          "deaths": 1765
+        },
+        "梅毒": {
+          "cases": 521258,
+          "deaths": 53
+        },
+        "淋病": {
+          "cases": 116939,
+          "deaths": 5
+        },
+        "艾滋病": {
+          "cases": 51523,
+          "deaths": 18876
+        },
+        "新冠": {
+          "cases": 1362327,
+          "deaths": 13486
+        }
+      }
+    },
+    "丙类传染病": {
+      "cases": 6683474,
+      "deaths": 309,
+      "diseases": {
+        "手足口病": {
+          "cases": 1758832,
+          "deaths": 18
+        },
+        "流行性感冒": {
+          "cases": 4119328,
+          "deaths": 263
+        },
+        "感染性腹泻病": {
+          "cases": 725643,
+          "deaths": 22
+        },
+        "流行性腮腺炎": {
+          "cases": 80671,
+          "deaths": 6
+        }
+      }
+    }
+  }
+}

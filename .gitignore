@@ -49,6 +49,19 @@ external/hpo/
 external/europepmc/
 external/who_factsheets/
 external/who_factsheets_zh/
+
+# 中国医学数据外部原始数据（可由 external/fetch_china_*.py 重新抓取）
+external/china_cdc/
+external/china_clinical_pathways/
+external/china_cso/
+external/china_dietary/
+external/china_stats/
+external/china_tcm/
+
+# Z-Anatomy 3D 模型（可再生下载，86MB zip；授权见 external/z-anatomy/ATTRIBUTION.md）
+external/z-anatomy/*.zip
+external/z-anatomy/work/
+data/media/
 external/clinvar/
 external/pp_structured/
 external/who_factsheets_structured/

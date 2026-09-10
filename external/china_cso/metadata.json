@@ -1,0 +1,21 @@
+{
+  "name": "中国临床肿瘤学会(CSCO)诊疗指南",
+  "name_en": "CSCO Cancer Treatment Guidelines",
+  "source": "中国临床肿瘤学会",
+  "source_url": "https://www.csco.org.cn",
+  "description": "CSCO常见恶性肿瘤诊疗指南要点汇总",
+  "cancer_types": [
+    "肺癌",
+    "乳腺癌",
+    "胃癌",
+    "结直肠癌",
+    "肝癌",
+    "食管癌",
+    "胰腺癌",
+    "淋巴瘤",
+    "头颈部肿瘤",
+    "妇科肿瘤"
+  ],
+  "version": "2024",
+  "note": "指南要点基于公开资料整理，详细内容请参考官方出版物"
+}

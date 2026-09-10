@@ -1,0 +1,54 @@
+{
+  "year": 2020,
+  "month": null,
+  "source": "中国疾病预防控制中心",
+  "source_url": "https://www.chinacdc.cn",
+  "total": {
+    "cases": 5806728,
+    "deaths": 26874,
+    "incidence_rate": 412.49,
+    "mortality_rate": 19.08
+  },
+  "by_category": {
+    "乙类传染病": {
+      "cases": 2673153,
+      "deaths": 26874,
+      "diseases": {
+        "病毒性肝炎": {
+          "cases": 2507402,
+          "deaths": 588
+        },
+        "肺结核": {
+          "cases": 670538,
+          "deaths": 1919
+        },
+        "艾滋病": {
+          "cases": 62133,
+          "deaths": 18819
+        },
+        "新冠": {
+          "cases": 87071,
+          "deaths": 4634
+        }
+      }
+    },
+    "丙类传染病": {
+      "cases": 3133575,
+      "deaths": 0,
+      "diseases": {
+        "手足口病": {
+          "cases": 1775123,
+          "deaths": 2
+        },
+        "流行性感冒": {
+          "cases": 1145268,
+          "deaths": 68
+        },
+        "感染性腹泻病": {
+          "cases": 213184,
+          "deaths": 2
+        }
+      }
+    }
+  }
+}

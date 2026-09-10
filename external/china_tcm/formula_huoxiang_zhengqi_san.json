@@ -1,0 +1,13 @@
+{
+  "name": "藿香正气散",
+  "name_pinyin": "huoxiang zhengqi san",
+  "category": "和解剂",
+  "composition": "大腹皮9g 白芷9g 紫苏9g 茯苓9g 半夏曲9g 白术9g 厚朴12g 桔梗12g 藿香18g 甘草12g",
+  "source": "《太平惠民和剂局方》",
+  "indications": "外感风寒，内伤湿滞证。恶寒发热，头痛，胸膈满闷，脘腹疼痛，恶心呕吐，肠鸣泄泻，舌苔白腻，脉浮或濡缓。",
+  "effects": "解表化湿，理气和中。",
+  "dosage": "水煎服，日一剂，分二次温服。",
+  "modifications": [
+    "改用藿香正气丸、藿香正气水、藿香正气胶囊等中成药"
+  ]
+}

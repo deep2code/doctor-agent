@@ -59,8 +59,16 @@ const (
 	DSMilestones       = "milestones"
 	DSNewborn          = "newborn"
 	DSCorpus           = "corpus" // unified medkb corpora (corpus_<source>.json)
-	DSICD11            = "icd11"
+DSICD11            = "icd11"
 	DSVersion          = "version"
+
+	// 中国医学数据集
+	DSChinaStats           = "china_stats"           // 卫生统计年鉴
+	DSChinaClinicalPathways = "china_clinical_pathways" // 临床路径
+	DSChinaCDC             = "china_cdc"             // 法定传染病
+	DSChinaTCM             = "china_tcm"             // 中医药知识库
+	DSChinaCSO             = "china_cso"             // CSCO肿瘤指南
+	DSChinaDietary         = "china_dietary"         // 膳食指南
 )
 
 // OpenKB opens (and migrates) the knowledge database using the given DSN.

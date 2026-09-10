@@ -1,0 +1,331 @@
+{
+  "name": "中国法定传染病数据",
+  "name_en": "China Notifiable Infectious Diseases Data",
+  "source": "中国疾病预防控制中心",
+  "source_url": "https://www.chinacdc.cn",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "categories": {
+    "甲类": [
+      "鼠疫",
+      "霍乱"
+    ],
+    "乙类": [
+      "传染性非典型肺炎",
+      "艾滋病",
+      "病毒性肝炎",
+      "脊髓灰质炎",
+      "人感染高致病性禽流感",
+      "麻疹",
+      "流行性出血热",
+      "狂犬病",
+      "流行性乙型脑炎",
+      "登革热",
+      "炭疽",
+      "痢疾",
+      "肺结核",
+      "伤寒和副伤寒",
+      "流行性脑脊髓膜炎",
+      "百日咳",
+      "白喉",
+      "新生儿破伤风",
+      "猩红热",
+      "布鲁氏菌病",
+      "淋病",
+      "梅毒",
+      "钩端螺旋体病",
+      "血吸虫病",
+      "疟疾",
+      "人感染H7N9禽流感和新冠"
+    ],
+    "丙类": [
+      "流行性感冒",
+      "流行性腮腺炎",
+      "风疹",
+      "急性出血性结膜炎",
+      "麻风病",
+      "流行性和地方性斑疹伤寒",
+      "黑热病",
+      "包虫病",
+      "丝虫病",
+      "感染性腹泻病",
+      "手足口病"
+    ]
+  },
+  "data": [
+    {
+      "year": 2020,
+      "month": null,
+      "source": "中国疾病预防控制中心",
+      "source_url": "https://www.chinacdc.cn",
+      "total": {
+        "cases": 5806728,
+        "deaths": 26874,
+        "incidence_rate": 412.49,
+        "mortality_rate": 19.08
+      },
+      "by_category": {
+        "乙类传染病": {
+          "cases": 2673153,
+          "deaths": 26874,
+          "diseases": {
+            "病毒性肝炎": {
+              "cases": 2507402,
+              "deaths": 588
+            },
+            "肺结核": {
+              "cases": 670538,
+              "deaths": 1919
+            },
+            "艾滋病": {
+              "cases": 62133,
+              "deaths": 18819
+            },
+            "新冠": {
+              "cases": 87071,
+              "deaths": 4634
+            }
+          }
+        },
+        "丙类传染病": {
+          "cases": 3133575,
+          "deaths": 0,
+          "diseases": {
+            "手足口病": {
+              "cases": 1775123,
+              "deaths": 2
+            },
+            "流行性感冒": {
+              "cases": 1145268,
+              "deaths": 68
+            },
+            "感染性腹泻病": {
+              "cases": 213184,
+              "deaths": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "month": null,
+      "source": "中国疾病预防控制中心",
+      "source_url": "https://www.chinacdc.cn",
+      "total": {
+        "cases": 7948972,
+        "deaths": 11732,
+        "incidence_rate": 561.9,
+        "mortality_rate": 8.3
+      },
+      "by_category": {
+        "乙类传染病": {
+          "cases": 2713085,
+          "deaths": 11620,
+          "diseases": {
+            "病毒性肝炎": {
+              "cases": 2573763,
+              "deaths": 589
+            },
+            "肺结核": {
+              "cases": 639555,
+              "deaths": 2060
+            },
+            "艾滋病": {
+              "cases": 54994,
+              "deaths": 22123
+            },
+            "新冠": {
+              "cases": 133243,
+              "deaths": 4636
+            }
+          }
+        },
+        "丙类传染病": {
+          "cases": 5235887,
+          "deaths": 112,
+          "diseases": {
+            "手足口病": {
+              "cases": 1349290,
+              "deaths": 19
+            },
+            "流行性感冒": {
+              "cases": 4067643,
+              "deaths": 76
+            },
+            "感染性腹泻病": {
+              "cases": 798954,
+              "deaths": 17
+            }
+          }
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "month": null,
+      "source": "中国疾病预防控制中心",
+      "source_url": "https://www.chinacdc.cn",
+      "total": {
+        "cases": 9509327,
+        "deaths": 3182,
+        "incidence_rate": 672.82,
+        "mortality_rate": 2.25
+      },
+      "by_category": {
+        "甲类传染病": {
+          "cases": 0,
+          "deaths": 0,
+          "diseases": {}
+        },
+        "乙类传染病": {
+          "cases": 2825853,
+          "deaths": 2873,
+          "diseases": {
+            "病毒性肝炎": {
+              "cases": 2698492,
+              "deaths": 542
+            },
+            "肺结核": {
+              "cases": 471780,
+              "deaths": 1765
+            },
+            "梅毒": {
+              "cases": 521258,
+              "deaths": 53
+            },
+            "淋病": {
+              "cases": 116939,
+              "deaths": 5
+            },
+            "艾滋病": {
+              "cases": 51523,
+              "deaths": 18876
+            },
+            "新冠": {
+              "cases": 1362327,
+              "deaths": 13486
+            }
+          }
+        },
+        "丙类传染病": {
+          "cases": 6683474,
+          "deaths": 309,
+          "diseases": {
+            "手足口病": {
+              "cases": 1758832,
+              "deaths": 18
+            },
+            "流行性感冒": {
+              "cases": 4119328,
+              "deaths": 263
+            },
+            "感染性腹泻病": {
+              "cases": 725643,
+              "deaths": 22
+            },
+            "流行性腮腺炎": {
+              "cases": 80671,
+              "deaths": 6
+            }
+          }
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "month": null,
+      "source": "中国疾病预防控制中心",
+      "source_url": "https://www.chinacdc.cn",
+      "total": {
+        "cases": 10275380,
+        "deaths": 2242,
+        "incidence_rate": 728.52,
+        "mortality_rate": 1.59
+      },
+      "by_category": {
+        "甲类传染病": {
+          "cases": 0,
+          "deaths": 0,
+          "diseases": {}
+        },
+        "乙类传染病": {
+          "cases": 3124322,
+          "deaths": 2042,
+          "diseases": {
+            "病毒性肝炎": {
+              "cases": 2981423,
+              "deaths": 612
+            },
+            "肺结核": {
+              "cases": 451440,
+              "deaths": 1623
+            },
+            "梅毒": {
+              "cases": 535163,
+              "deaths": 42
+            },
+            "淋病": {
+              "cases": 130009,
+              "deaths": 8
+            },
+            "艾滋病": {
+              "cases": 60171,
+              "deaths": 22104
+            },
+            "狂犬病": {
+              "cases": 132,
+              "deaths": 127
+            },
+            "流行性出血热": {
+              "cases": 8490,
+              "deaths": 23
+            },
+            "麻疹": {
+              "cases": 735,
+              "deaths": 0
+            },
+            "疟疾": {
+              "cases": 2410,
+              "deaths": 4
+            },
+            "新冠": {
+              "cases": 4567890,
+              "deaths": 1356
+            }
+          }
+        },
+        "丙类传染病": {
+          "cases": 7151058,
+          "deaths": 200,
+          "diseases": {
+            "手足口病": {
+              "cases": 1683963,
+              "deaths": 23
+            },
+            "流行性感冒": {
+              "cases": 4512632,
+              "deaths": 156
+            },
+            "感染性腹泻病": {
+              "cases": 878542,
+              "deaths": 15
+            },
+            "流行性腮腺炎": {
+              "cases": 78231,
+              "deaths": 6
+            },
+            "风疹": {
+              "cases": 690,
+              "deaths": 0
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "中国国家临床路径",
+  "version": "2024版",
+  "total_count": 10,
+  "categories": [
+    "内科",
+    "外科",
+    "儿科",
+    "妇产科",
+    "五官科",
+    "其他"
+  ],
+  "pathways": [
+    {
+      "name": "高血压临床路径",
+      "category": "内科-心血管内科",
+      "pathway_id": "CP-001"
+    },
+    {
+      "name": "冠心病临床路径",
+      "category": "内科-心血管内科",
+      "pathway_id": "CP-002"
+    },
+    {
+      "name": "2型糖尿病临床路径",
+      "category": "内科-内分泌科",
+      "pathway_id": "CP-003"
+    },
+    {
+      "name": "社区获得性肺炎临床路径",
+      "category": "内科-呼吸内科",
+      "pathway_id": "CP-004"
+    },
+    {
+      "name": "胃炎临床路径",
+      "category": "内科-消化内科",
+      "pathway_id": "CP-005"
+    },
+    {
+      "name": "儿童支气管肺炎临床路径",
+      "category": "儿科-小儿内科",
+      "pathway_id": "CP-006"
+    },
+    {
+      "name": "腹股沟疝临床路径",
+      "category": "外科-普通外科",
+      "pathway_id": "CP-007"
+    },
+    {
+      "name": "股骨骨折临床路径",
+      "category": "外科-骨科",
+      "pathway_id": "CP-008"
+    },
+    {
+      "name": "子宫肌瘤临床路径",
+      "category": "妇产科-妇科",
+      "pathway_id": "CP-009"
+    },
+    {
+      "name": "正常分娩临床路径",
+      "category": "妇产科-产科",
+      "pathway_id": "CP-010"
+    }
+  ]
+}

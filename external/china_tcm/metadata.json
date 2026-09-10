@@ -1,0 +1,90 @@
+{
+  "name": "中国中医药知识库",
+  "name_en": "Traditional Chinese Medicine Knowledge Base",
+  "source": "《中国药典》2020年版、《太平惠民和剂局方》、《温病条辨》等",
+  "description": "包含中药、方剂、经络穴位等中医药知识",
+  "categories": {
+    "中药": [
+      "清热药",
+      "温里药",
+      "理气药",
+      "活血化瘀药",
+      "补益药",
+      "安神药",
+      "平肝息风药",
+      "收涩药",
+      "泻下药",
+      "驱虫药"
+    ],
+    "方剂": [
+      "解表剂",
+      "泻下剂",
+      "和解剂",
+      "清热剂",
+      "温里剂",
+      "补益剂",
+      "固涩剂",
+      "安神剂",
+      "理气剂",
+      "理血剂"
+    ],
+    "经络": [
+      "十二正经",
+      "奇经八脉",
+      "十五络脉",
+      "十二经别"
+    ],
+    "穴位": [
+      "头颈部穴位",
+      "胸腹部穴位",
+      "背腰部穴位",
+      "四肢穴位"
+    ]
+  },
+  "data_types": {
+    "中药": {
+      "fields": [
+        "name",
+        "name_zhuyin",
+        "name_latin",
+        "category",
+        "properties",
+        "effects",
+        "indications",
+        "dosage",
+        "contraindications",
+        "source"
+      ],
+      "count": 10
+    },
+    "方剂": {
+      "fields": [
+        "name",
+        "name_pinyin",
+        "category",
+        "composition",
+        "source",
+        "indications",
+        "effects",
+        "dosage",
+        "modifications"
+      ],
+      "count": 8
+    },
+    "穴位": {
+      "fields": [
+        "name",
+        "name_pinyin",
+        "code",
+        "category",
+        "location",
+        "indications",
+        "effects",
+        "moxibustion",
+        "category_secondary"
+      ],
+      "count": 6
+    }
+  },
+  "note": "示例数据，基于公开中医药典籍"
+}

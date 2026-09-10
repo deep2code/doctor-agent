@@ -327,10 +327,29 @@ func seedFile(base string, raw []byte) (string, []KBRow, error) {
 		}
 		rows, err := seedEntries(mq.QAPairs)
 		return DSMedicalQA, rows, err
-	case "ttd_data.json":
+case "ttd_data.json":
 		return DSTTD, []KBRow{seedSingleton("data", raw)}, nil
 	case "sider_drugs.json":
 		return DSSIDER, []KBRow{seedSingleton("data", raw)}, nil
+	// 中国医学数据集
+	case "china_stats.json":
+		rows, err := seedList(raw)
+		return DSChinaStats, rows, err
+	case "china_clinical_pathways.json":
+		rows, err := seedList(raw)
+		return DSChinaClinicalPathways, rows, err
+	case "china_cdc.json":
+		rows, err := seedList(raw)
+		return DSChinaCDC, rows, err
+	case "china_tcm.json":
+		rows, err := seedList(raw)
+		return DSChinaTCM, rows, err
+	case "china_cso.json":
+		rows, err := seedList(raw)
+		return DSChinaCSO, rows, err
+	case "china_dietary.json":
+		rows, err := seedList(raw)
+		return DSChinaDietary, rows, err
 	default:
 		// Unknown file — skip silently (mirrors the embedded loader).
 		return "", nil, nil

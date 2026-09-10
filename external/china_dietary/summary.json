@@ -1,0 +1,12 @@
+{
+  "name": "中国居民膳食指南数据汇总",
+  "version": "2022",
+  "total_files": 5,
+  "files": [
+    "general_guidelines.json - 一般人群膳食指南",
+    "special_groups.json - 特定人群膳食指南",
+    "balanced_diet.json - 平衡膳食模式",
+    "nutrition_standards.json - 营养素参考摄入量",
+    "food_pyramid.json - 膳食宝塔"
+  ]
+}

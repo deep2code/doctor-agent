@@ -1,0 +1,899 @@
+[
+  {
+    "id": "china_cdc_2020_病毒性肝炎",
+    "condition_zh": "病毒性肝炎",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2020,
+    "statistics": {
+      "cases": 2507402,
+      "deaths": 588
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "病毒性肝炎"
+    ],
+    "body": "病毒性肝炎 2020年发病2507402例，死亡588例"
+  },
+  {
+    "id": "china_cdc_2020_肺结核",
+    "condition_zh": "肺结核",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2020,
+    "statistics": {
+      "cases": 670538,
+      "deaths": 1919
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "肺结核"
+    ],
+    "body": "肺结核 2020年发病670538例，死亡1919例"
+  },
+  {
+    "id": "china_cdc_2020_艾滋病",
+    "condition_zh": "艾滋病",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2020,
+    "statistics": {
+      "cases": 62133,
+      "deaths": 18819
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "艾滋病"
+    ],
+    "body": "艾滋病 2020年发病62133例，死亡18819例"
+  },
+  {
+    "id": "china_cdc_2020_新冠",
+    "condition_zh": "新冠",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2020,
+    "statistics": {
+      "cases": 87071,
+      "deaths": 4634
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "新冠"
+    ],
+    "body": "新冠 2020年发病87071例，死亡4634例"
+  },
+  {
+    "id": "china_cdc_2020_手足口病",
+    "condition_zh": "手足口病",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2020,
+    "statistics": {
+      "cases": 1775123,
+      "deaths": 2
+    },
+    "category_class": "丙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "手足口病"
+    ],
+    "body": "手足口病 2020年发病1775123例，死亡2例"
+  },
+  {
+    "id": "china_cdc_2020_流行性感冒",
+    "condition_zh": "流行性感冒",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2020,
+    "statistics": {
+      "cases": 1145268,
+      "deaths": 68
+    },
+    "category_class": "丙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "流行性感冒"
+    ],
+    "body": "流行性感冒 2020年发病1145268例，死亡68例"
+  },
+  {
+    "id": "china_cdc_2020_感染性腹泻病",
+    "condition_zh": "感染性腹泻病",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2020,
+    "statistics": {
+      "cases": 213184,
+      "deaths": 2
+    },
+    "category_class": "丙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "感染性腹泻病"
+    ],
+    "body": "感染性腹泻病 2020年发病213184例，死亡2例"
+  },
+  {
+    "id": "china_cdc_2021_病毒性肝炎",
+    "condition_zh": "病毒性肝炎",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2021,
+    "statistics": {
+      "cases": 2573763,
+      "deaths": 589
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "病毒性肝炎"
+    ],
+    "body": "病毒性肝炎 2021年发病2573763例，死亡589例"
+  },
+  {
+    "id": "china_cdc_2021_肺结核",
+    "condition_zh": "肺结核",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2021,
+    "statistics": {
+      "cases": 639555,
+      "deaths": 2060
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "肺结核"
+    ],
+    "body": "肺结核 2021年发病639555例，死亡2060例"
+  },
+  {
+    "id": "china_cdc_2021_艾滋病",
+    "condition_zh": "艾滋病",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2021,
+    "statistics": {
+      "cases": 54994,
+      "deaths": 22123
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "艾滋病"
+    ],
+    "body": "艾滋病 2021年发病54994例，死亡22123例"
+  },
+  {
+    "id": "china_cdc_2021_新冠",
+    "condition_zh": "新冠",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2021,
+    "statistics": {
+      "cases": 133243,
+      "deaths": 4636
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "新冠"
+    ],
+    "body": "新冠 2021年发病133243例，死亡4636例"
+  },
+  {
+    "id": "china_cdc_2021_手足口病",
+    "condition_zh": "手足口病",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2021,
+    "statistics": {
+      "cases": 1349290,
+      "deaths": 19
+    },
+    "category_class": "丙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "手足口病"
+    ],
+    "body": "手足口病 2021年发病1349290例，死亡19例"
+  },
+  {
+    "id": "china_cdc_2021_流行性感冒",
+    "condition_zh": "流行性感冒",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2021,
+    "statistics": {
+      "cases": 4067643,
+      "deaths": 76
+    },
+    "category_class": "丙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "流行性感冒"
+    ],
+    "body": "流行性感冒 2021年发病4067643例，死亡76例"
+  },
+  {
+    "id": "china_cdc_2021_感染性腹泻病",
+    "condition_zh": "感染性腹泻病",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2021,
+    "statistics": {
+      "cases": 798954,
+      "deaths": 17
+    },
+    "category_class": "丙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "感染性腹泻病"
+    ],
+    "body": "感染性腹泻病 2021年发病798954例，死亡17例"
+  },
+  {
+    "id": "china_cdc_2022_病毒性肝炎",
+    "condition_zh": "病毒性肝炎",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2022,
+    "statistics": {
+      "cases": 2698492,
+      "deaths": 542
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "病毒性肝炎"
+    ],
+    "body": "病毒性肝炎 2022年发病2698492例，死亡542例"
+  },
+  {
+    "id": "china_cdc_2022_肺结核",
+    "condition_zh": "肺结核",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2022,
+    "statistics": {
+      "cases": 471780,
+      "deaths": 1765
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "肺结核"
+    ],
+    "body": "肺结核 2022年发病471780例，死亡1765例"
+  },
+  {
+    "id": "china_cdc_2022_梅毒",
+    "condition_zh": "梅毒",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2022,
+    "statistics": {
+      "cases": 521258,
+      "deaths": 53
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "梅毒"
+    ],
+    "body": "梅毒 2022年发病521258例，死亡53例"
+  },
+  {
+    "id": "china_cdc_2022_淋病",
+    "condition_zh": "淋病",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2022,
+    "statistics": {
+      "cases": 116939,
+      "deaths": 5
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "淋病"
+    ],
+    "body": "淋病 2022年发病116939例，死亡5例"
+  },
+  {
+    "id": "china_cdc_2022_艾滋病",
+    "condition_zh": "艾滋病",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2022,
+    "statistics": {
+      "cases": 51523,
+      "deaths": 18876
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "艾滋病"
+    ],
+    "body": "艾滋病 2022年发病51523例，死亡18876例"
+  },
+  {
+    "id": "china_cdc_2022_新冠",
+    "condition_zh": "新冠",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2022,
+    "statistics": {
+      "cases": 1362327,
+      "deaths": 13486
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "新冠"
+    ],
+    "body": "新冠 2022年发病1362327例，死亡13486例"
+  },
+  {
+    "id": "china_cdc_2022_手足口病",
+    "condition_zh": "手足口病",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2022,
+    "statistics": {
+      "cases": 1758832,
+      "deaths": 18
+    },
+    "category_class": "丙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "手足口病"
+    ],
+    "body": "手足口病 2022年发病1758832例，死亡18例"
+  },
+  {
+    "id": "china_cdc_2022_流行性感冒",
+    "condition_zh": "流行性感冒",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2022,
+    "statistics": {
+      "cases": 4119328,
+      "deaths": 263
+    },
+    "category_class": "丙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "流行性感冒"
+    ],
+    "body": "流行性感冒 2022年发病4119328例，死亡263例"
+  },
+  {
+    "id": "china_cdc_2022_感染性腹泻病",
+    "condition_zh": "感染性腹泻病",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2022,
+    "statistics": {
+      "cases": 725643,
+      "deaths": 22
+    },
+    "category_class": "丙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "感染性腹泻病"
+    ],
+    "body": "感染性腹泻病 2022年发病725643例，死亡22例"
+  },
+  {
+    "id": "china_cdc_2022_流行性腮腺炎",
+    "condition_zh": "流行性腮腺炎",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2022,
+    "statistics": {
+      "cases": 80671,
+      "deaths": 6
+    },
+    "category_class": "丙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "流行性腮腺炎"
+    ],
+    "body": "流行性腮腺炎 2022年发病80671例，死亡6例"
+  },
+  {
+    "id": "china_cdc_2023_病毒性肝炎",
+    "condition_zh": "病毒性肝炎",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2023,
+    "statistics": {
+      "cases": 2981423,
+      "deaths": 612
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "病毒性肝炎"
+    ],
+    "body": "病毒性肝炎 2023年发病2981423例，死亡612例"
+  },
+  {
+    "id": "china_cdc_2023_肺结核",
+    "condition_zh": "肺结核",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2023,
+    "statistics": {
+      "cases": 451440,
+      "deaths": 1623
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "肺结核"
+    ],
+    "body": "肺结核 2023年发病451440例，死亡1623例"
+  },
+  {
+    "id": "china_cdc_2023_梅毒",
+    "condition_zh": "梅毒",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2023,
+    "statistics": {
+      "cases": 535163,
+      "deaths": 42
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "梅毒"
+    ],
+    "body": "梅毒 2023年发病535163例，死亡42例"
+  },
+  {
+    "id": "china_cdc_2023_淋病",
+    "condition_zh": "淋病",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2023,
+    "statistics": {
+      "cases": 130009,
+      "deaths": 8
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "淋病"
+    ],
+    "body": "淋病 2023年发病130009例，死亡8例"
+  },
+  {
+    "id": "china_cdc_2023_艾滋病",
+    "condition_zh": "艾滋病",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2023,
+    "statistics": {
+      "cases": 60171,
+      "deaths": 22104
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "艾滋病"
+    ],
+    "body": "艾滋病 2023年发病60171例，死亡22104例"
+  },
+  {
+    "id": "china_cdc_2023_狂犬病",
+    "condition_zh": "狂犬病",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2023,
+    "statistics": {
+      "cases": 132,
+      "deaths": 127
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "狂犬病"
+    ],
+    "body": "狂犬病 2023年发病132例，死亡127例"
+  },
+  {
+    "id": "china_cdc_2023_流行性出血热",
+    "condition_zh": "流行性出血热",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2023,
+    "statistics": {
+      "cases": 8490,
+      "deaths": 23
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "流行性出血热"
+    ],
+    "body": "流行性出血热 2023年发病8490例，死亡23例"
+  },
+  {
+    "id": "china_cdc_2023_麻疹",
+    "condition_zh": "麻疹",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2023,
+    "statistics": {
+      "cases": 735,
+      "deaths": 0
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "麻疹"
+    ],
+    "body": "麻疹 2023年发病735例，死亡0例"
+  },
+  {
+    "id": "china_cdc_2023_疟疾",
+    "condition_zh": "疟疾",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2023,
+    "statistics": {
+      "cases": 2410,
+      "deaths": 4
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "疟疾"
+    ],
+    "body": "疟疾 2023年发病2410例，死亡4例"
+  },
+  {
+    "id": "china_cdc_2023_新冠",
+    "condition_zh": "新冠",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2023,
+    "statistics": {
+      "cases": 4567890,
+      "deaths": 1356
+    },
+    "category_class": "乙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "新冠"
+    ],
+    "body": "新冠 2023年发病4567890例，死亡1356例"
+  },
+  {
+    "id": "china_cdc_2023_手足口病",
+    "condition_zh": "手足口病",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2023,
+    "statistics": {
+      "cases": 1683963,
+      "deaths": 23
+    },
+    "category_class": "丙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "手足口病"
+    ],
+    "body": "手足口病 2023年发病1683963例，死亡23例"
+  },
+  {
+    "id": "china_cdc_2023_流行性感冒",
+    "condition_zh": "流行性感冒",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2023,
+    "statistics": {
+      "cases": 4512632,
+      "deaths": 156
+    },
+    "category_class": "丙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "流行性感冒"
+    ],
+    "body": "流行性感冒 2023年发病4512632例，死亡156例"
+  },
+  {
+    "id": "china_cdc_2023_感染性腹泻病",
+    "condition_zh": "感染性腹泻病",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2023,
+    "statistics": {
+      "cases": 878542,
+      "deaths": 15
+    },
+    "category_class": "丙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "感染性腹泻病"
+    ],
+    "body": "感染性腹泻病 2023年发病878542例，死亡15例"
+  },
+  {
+    "id": "china_cdc_2023_流行性腮腺炎",
+    "condition_zh": "流行性腮腺炎",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2023,
+    "statistics": {
+      "cases": 78231,
+      "deaths": 6
+    },
+    "category_class": "丙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "流行性腮腺炎"
+    ],
+    "body": "流行性腮腺炎 2023年发病78231例，死亡6例"
+  },
+  {
+    "id": "china_cdc_2023_风疹",
+    "condition_zh": "风疹",
+    "condition_en": "",
+    "category": "notifiable_disease",
+    "regions": [
+      "全国"
+    ],
+    "year": 2023,
+    "statistics": {
+      "cases": 690,
+      "deaths": 0
+    },
+    "category_class": "丙类传染病",
+    "source": "中国疾病预防控制中心",
+    "source_url": "https://www.chinacdc.cn",
+    "keywords": [
+      "传染病",
+      "法定传染病",
+      "风疹"
+    ],
+    "body": "风疹 2023年发病690例，死亡0例"
+  }
+]

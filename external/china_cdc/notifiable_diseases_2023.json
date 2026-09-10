@@ -1,0 +1,91 @@
+{
+  "year": 2023,
+  "month": null,
+  "source": "中国疾病预防控制中心",
+  "source_url": "https://www.chinacdc.cn",
+  "total": {
+    "cases": 10275380,
+    "deaths": 2242,
+    "incidence_rate": 728.52,
+    "mortality_rate": 1.59
+  },
+  "by_category": {
+    "甲类传染病": {
+      "cases": 0,
+      "deaths": 0,
+      "diseases": {}
+    },
+    "乙类传染病": {
+      "cases": 3124322,
+      "deaths": 2042,
+      "diseases": {
+        "病毒性肝炎": {
+          "cases": 2981423,
+          "deaths": 612
+        },
+        "肺结核": {
+          "cases": 451440,
+          "deaths": 1623
+        },
+        "梅毒": {
+          "cases": 535163,
+          "deaths": 42
+        },
+        "淋病": {
+          "cases": 130009,
+          "deaths": 8
+        },
+        "艾滋病": {
+          "cases": 60171,
+          "deaths": 22104
+        },
+        "狂犬病": {
+          "cases": 132,
+          "deaths": 127
+        },
+        "流行性出血热": {
+          "cases": 8490,
+          "deaths": 23
+        },
+        "麻疹": {
+          "cases": 735,
+          "deaths": 0
+        },
+        "疟疾": {
+          "cases": 2410,
+          "deaths": 4
+        },
+        "新冠": {
+          "cases": 4567890,
+          "deaths": 1356
+        }
+      }
+    },
+    "丙类传染病": {
+      "cases": 7151058,
+      "deaths": 200,
+      "diseases": {
+        "手足口病": {
+          "cases": 1683963,
+          "deaths": 23
+        },
+        "流行性感冒": {
+          "cases": 4512632,
+          "deaths": 156
+        },
+        "感染性腹泻病": {
+          "cases": 878542,
+          "deaths": 15
+        },
+        "流行性腮腺炎": {
+          "cases": 78231,
+          "deaths": 6
+        },
+        "风疹": {
+          "cases": 690,
+          "deaths": 0
+        }
+      }
+    }
+  }
+}

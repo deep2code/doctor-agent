@@ -896,6 +896,12 @@
     generateQR();
     // 复制二维码按钮
     copyBtn.addEventListener("click", function () {
+      // 检查 clipboard API 是否可用
+      if (!navigator.clipboard || !navigator.clipboard.write) {
+        copyBtn.textContent = "❌ 浏览器不支持";
+        setTimeout(function() { copyBtn.textContent = "📋 复制二维码"; }, 2000);
+        return;
+      }
       // 从二维码容器获取图片
       var canvas = qrContainer.querySelector("canvas");
       var img = qrContainer.querySelector("img");
@@ -905,6 +911,11 @@
         c.height = target.height;
         c.getContext("2d").drawImage(target, 0, 0);
         c.toBlob(function(blob) {
+          if (!blob) {
+            copyBtn.textContent = "❌ 复制失败";
+            setTimeout(function() { copyBtn.textContent = "📋 复制二维码"; }, 2000);
+            return;
+          }
           navigator.clipboard.write([new ClipboardItem({"image/png": blob})]).then(function() {
             copyBtn.textContent = "✅ 已复制";
             setTimeout(function() { copyBtn.textContent = "📋 复制二维码"; }, 2000);

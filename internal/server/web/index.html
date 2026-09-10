@@ -622,11 +622,6 @@
   .share-modal-qr canvas, .share-modal-qr img { display: block; }
   .share-modal-qr-fallback { color: var(--muted); font-size: 13px; padding: 20px; }
   .share-modal-tip { font-size: 13px; color: var(--muted); margin-bottom: 16px; }
-  .share-modal-link { display: flex; gap: 8px; margin-bottom: 16px; }
-  .share-modal-link input {
-    flex: 1; border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px;
-    font-size: 12px; color: var(--text); background: #f8fafa; min-width: 0;
-  }
   .share-modal-copy {
     background: var(--accent); color: #fff; border: none; border-radius: 8px;
     padding: 8px 14px; font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap;
@@ -730,17 +725,18 @@
   }
   /* 分享弹窗 */
   .share-modal-overlay { position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; padding: 20px; }
-  .share-modal { background: #fff; border-radius: 16px; padding: 28px; max-width: 440px; width: 100%; text-align: center; position: relative; }
-  .share-modal-qr { margin-bottom: 16px; position: relative; display: inline-block; }
+  .share-modal { background: #fff; border-radius: 20px; padding: 24px; max-width: 320px; width: 100%; text-align: center; position: relative; box-shadow: 0 20px 60px rgba(0,0,0,0.15); }
+  .share-modal-title { font-size: 18px; font-weight: 600; color: var(--text); margin-bottom: 16px; }
+  .share-modal-qr { margin: 0 auto 16px; display: flex; flex-direction: column; align-items: center; }
+  .share-modal-qr > div { border-radius: 12px; overflow: hidden; }
   .share-modal-qr canvas, .share-modal-qr img { border-radius: 12px; }
-  .share-modal-qr-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 32px; font-weight: 800; color: #0e7c86; pointer-events: none; text-shadow: 0 0 4px #fff; }
-  .share-modal-link { display: flex; gap: 10px; margin-bottom: 16px; }
-  .share-modal-link input { flex: 1; padding: 10px 14px; border: 1px solid var(--border); border-radius: 8px; font-size: 14px; }
-  .share-modal-copy, .share-modal-close { padding: 10px 20px; border-radius: 8px; font-size: 15px; cursor: pointer; border: 1px solid var(--border); background: #fff; }
+  .share-modal-qr-text { font-size: 14px; font-weight: 600; color: #0e7c86; margin-top: 8px; }
+  .share-modal-copy, .share-modal-close { padding: 10px 16px; border-radius: 8px; font-size: 14px; cursor: pointer; border: 1px solid var(--border); background: #fff; }
   .share-modal-copy { background: var(--accent); color: #fff; border-color: var(--accent); }
-  .share-modal-close { position: absolute; top: 12px; right: 12px; width: 32px; height: 32px; padding: 0; font-size: 18px; border: none; background: transparent; color: var(--muted); }
+  .share-modal-close { position: absolute; top: 12px; right: 12px; width: 28px; height: 28px; padding: 0; font-size: 16px; border: none; background: transparent; color: var(--muted); }
   .share-modal-close:hover { color: var(--text); }
-  .share-modal-qr-fallback { padding: 60px; color: var(--muted); }
+  .share-modal-qr-fallback { padding: 40px; color: var(--muted); }
+  .share-modal-hint { font-size: 12px; color: var(--muted); margin-top: 8px; }
 </style>
 
 
@@ -864,39 +860,36 @@
     modal.innerHTML =
       '<div class="share-modal">' +
       '<button type="button" class="share-modal-close">✕</button>' +
-      '<div class="share-modal-qr"><div class="share-modal-qr-text">医答</div></div>' +
-      '<div class="share-modal-link">' +
-      '<input type="text" readonly value="' + url.replace(/"/g, '&quot;') + '" />' +
-      '<button type="button" class="share-modal-copy">复制链接</button>' +
-      '</div>' +
+      '<div class="share-modal-title">🔗 分享问答</div>' +
+      '<div class="share-modal-qr"><div></div><div class="share-modal-qr-text">扫码阅读</div></div>' +
+      '<button type="button" class="share-modal-copy">📋 复制二维码</button>' +
+      '<div class="share-modal-hint">扫描二维码即可分享给好友</div>' +
       '</div>';
     document.body.appendChild(modal);
     // 生成二维码
-    var qrContainer = modal.querySelector(".share-modal-qr");
+    var qrContainer = modal.querySelector(".share-modal-qr > div");
     function generateQR() {
       if (window.QRCode) {
-        qrContainer.innerHTML = '<div class="share-modal-qr-text">医答</div>';
         new window.QRCode(qrContainer, {
           text: url,
-          width: 380,
-          height: 380,
+          width: 180,
+          height: 180,
           colorDark: "#0e7c86",
           colorLight: "#ffffff",
-          correctLevel: window.QRCode.CorrectLevel.H
+          correctLevel: window.QRCode.CorrectLevel.M
         });
       } else {
         qrContainer.innerHTML = '<div class="share-modal-qr-fallback">加载中...</div>';
         var script = document.createElement("script");
         script.src = "/qrcode.min.js";
         script.onload = function() {
-          qrContainer.innerHTML = '<div class="share-modal-qr-text">医答</div>';
           new window.QRCode(qrContainer, {
             text: url,
-            width: 380,
-            height: 380,
+            width: 180,
+            height: 180,
             colorDark: "#0e7c86",
             colorLight: "#ffffff",
-            correctLevel: window.QRCode.CorrectLevel.H
+            correctLevel: window.QRCode.CorrectLevel.M
           });
         };
         script.onerror = function() { qrContainer.innerHTML = '<div class="share-modal-qr-fallback">加载失败</div>'; };
@@ -904,12 +897,41 @@
       }
     }
     generateQR();
-    // 复制链接按钮
+    // 复制二维码按钮
     modal.querySelector(".share-modal-copy").addEventListener("click", function () {
-      navigator.clipboard.writeText(url).then(function () {
-        this.textContent = "已复制";
-        setTimeout(function () { this.textContent = "复制链接"; }, 2000);
-      }.bind(this));
+      var canvas = qrContainer.querySelector("canvas");
+      if (canvas) {
+        canvas.toBlob(function(blob) {
+          navigator.clipboard.write([new ClipboardItem({"image/png": blob})]).then(function() {
+            var btn = modal.querySelector(".share-modal-copy");
+            btn.textContent = "✅ 已复制";
+            setTimeout(function() { btn.textContent = "📋 复制二维码"; }, 2000);
+          }).catch(function() {
+            var btn = modal.querySelector(".share-modal-copy");
+            btn.textContent = "❌ 复制失败";
+            setTimeout(function() { btn.textContent = "📋 复制二维码"; }, 2000);
+          });
+        }, "image/png");
+      } else {
+        var img = qrContainer.querySelector("img");
+        if (img) {
+          var canvas = document.createElement("canvas");
+          canvas.width = img.width;
+          canvas.height = img.height;
+          canvas.getContext("2d").drawImage(img, 0, 0);
+          canvas.toBlob(function(blob) {
+            navigator.clipboard.write([new ClipboardItem({"image/png": blob})]).then(function() {
+              var btn = modal.querySelector(".share-modal-copy");
+              btn.textContent = "✅ 已复制";
+              setTimeout(function() { btn.textContent = "📋 复制二维码"; }, 2000);
+            }).catch(function() {
+              var btn = modal.querySelector(".share-modal-copy");
+              btn.textContent = "❌ 复制失败";
+              setTimeout(function() { btn.textContent = "📋 复制二维码"; }, 2000);
+            });
+          }, "image/png");
+        }
+      }
     });
     modal.querySelector(".share-modal-close").addEventListener("click", function () { modal.remove(); });
     modal.addEventListener("click", function (e) { if (e.target === modal) modal.remove(); });

@@ -14,6 +14,7 @@ import (
 	"path"
 	"path/filepath"
 	"regexp"
+	"runtime"
 	"strings"
 	"sync"
 	"time"
@@ -282,6 +283,37 @@ func escapeHTML(s string) string {
 	return s
 }
 
+// getChineseFontPath 返回系统中文字体路径
+func getChineseFontPath() string {
+	switch runtime.GOOS {
+	case "darwin":
+		// macOS
+		return "/System/Library/Fonts/Hiragino Sans GB.ttc"
+	case "linux":
+		// Linux 常见中文字体路径
+		paths := []string{
+			"/usr/share/fonts/truetype/wqy/wqy-microhei.ttc",
+			"/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc",
+			"/usr/share/fonts/opentype/noto/NotoSansSC-Regular.otf",
+			"/usr/share/fonts/noto-cjk/NotoSansSC-Regular.otf",
+			"/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf",
+			"/usr/share/fonts/truetype/arphic/uming.ttc",
+		}
+		for _, p := range paths {
+			if _, err := os.Stat(p); err == nil {
+				return p
+			}
+		}
+		// 回退到 Droid Sans Fallback
+		return "/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf"
+	case "windows":
+		// Windows
+		return "C:/Windows/Fonts/simhei.ttf"
+	default:
+		return ""
+	}
+}
+
 // renderMarkdown 简单的 Markdown 转 HTML（用于 PDF 导出）。
 func renderMarkdown(md string) string {
 	lines := strings.Split(md, "\n")
@@ -481,13 +513,13 @@ func renderMarkdownToPDF(pdf *gofpdf.Fpdf, md string) {
 			colWidth := 180.0 / float64(colCount)
 
 			// 绘制表头
-			pdf.SetFont("Helvetica", "B", 9)
+			pdf.SetFont("NotoSansSC", "B", 9)
 			pdf.SetFillColor(238, 246, 248)
 			for _, cell := range tableRows[0] {
 				pdf.CellFormat(colWidth, 6, cell, "1", 0, "C", true, 0, "")
 			}
 			pdf.Ln(-1)
-			pdf.SetFont("Helvetica", "", 9)
+			pdf.SetFont("NotoSansSC", "", 9)
 			pdf.SetFillColor(255, 255, 255)
 
 			// 绘制数据行
@@ -557,7 +589,7 @@ func renderMarkdownToPDF(pdf *gofpdf.Fpdf, md string) {
 				if fontSize < 10 {
 					fontSize = 10
 				}
-				pdf.SetFont("Helvetica", "B", float64(fontSize))
+				pdf.SetFont("NotoSansSC", "B", float64(fontSize))
 				pdf.Cell(180, 7, text)
 				pdf.Ln(6)
 			}
@@ -576,7 +608,7 @@ func renderMarkdownToPDF(pdf *gofpdf.Fpdf, md string) {
 			item := strings.TrimPrefix(strings.TrimPrefix(line, "- "), "* ")
 			// 处理粗体
 			item = strings.ReplaceAll(item, "**", "")
-			pdf.SetFont("Helvetica", "", 10)
+			pdf.SetFont("NotoSansSC", "", 10)
 			pdf.Cell(8, 5, "•")
 			pdf.Cell(170, 5, item)
 			pdf.Ln(5)
@@ -594,7 +626,7 @@ func renderMarkdownToPDF(pdf *gofpdf.Fpdf, md string) {
 				inList = true
 				listType = "ol"
 			}
-			pdf.SetFont("Helvetica", "", 10)
+			pdf.SetFont("NotoSansSC", "", 10)
 			pdf.Cell(8, 5, m[1]+".")
 			pdf.Cell(170, 5, m[2])
 			pdf.Ln(5)
@@ -625,7 +657,7 @@ func renderMarkdownToPDF(pdf *gofpdf.Fpdf, md string) {
 		// 普通段落
 		flushList()
 		flushTable()
-		pdf.SetFont("Helvetica", "", 10)
+		pdf.SetFont("NotoSansSC", "", 10)
 		pdf.MultiCell(180, 5, line, "", "L", false)
 	}
 
@@ -1285,16 +1317,19 @@ func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
 
 			// 生成 PDF
 			pdf := gofpdf.New("P", "mm", "A4", "")
-			pdf.SetFont("Helvetica", "", 11)
+			// 使用系统中文字体
+			fontPath := getChineseFontPath()
+			pdf.AddUTF8Font("NotoSansSC", "", fontPath)
+			pdf.SetFont("NotoSansSC", "", 11)
 			pdf.AddPage()
 
 			// 标题
-			pdf.SetFont("Helvetica", "B", 16)
+			pdf.SetFont("NotoSansSC", "B", 16)
 			pdf.Cell(190, 10, title)
 			pdf.Ln(8)
 
 			// 导出时间
-			pdf.SetFont("Helvetica", "", 9)
+			pdf.SetFont("NotoSansSC", "", 9)
 			pdf.SetTextColor(128, 128, 128)
 			pdf.Cell(190, 6, "导出时间："+time.Now().Format("2006-01-02 15:04:05"))
 			pdf.Ln(10)
@@ -1304,21 +1339,21 @@ func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
 			for _, m := range msgs {
 				if m.Role == "user" {
 					// 用户问题
-					pdf.SetFont("Helvetica", "B", 11)
+					pdf.SetFont("NotoSansSC", "B", 11)
 					pdf.SetTextColor(14, 124, 134)
 					pdf.Cell(190, 8, "问：")
 					pdf.Ln(6)
-					pdf.SetFont("Helvetica", "", 10)
+					pdf.SetFont("NotoSansSC", "", 10)
 					pdf.SetTextColor(0, 0, 0)
 					pdf.MultiCell(180, 5, m.Content, "", "L", false)
 					pdf.Ln(4)
 				} else {
 					// AI 回答 - 解析 Markdown 并渲染
-					pdf.SetFont("Helvetica", "B", 11)
+					pdf.SetFont("NotoSansSC", "B", 11)
 					pdf.SetTextColor(14, 124, 134)
 					pdf.Cell(190, 8, "答：")
 					pdf.Ln(6)
-					pdf.SetFont("Helvetica", "", 10)
+					pdf.SetFont("NotoSansSC", "", 10)
 					pdf.SetTextColor(0, 0, 0)
 					renderMarkdownToPDF(pdf, m.Content)
 					pdf.Ln(8)

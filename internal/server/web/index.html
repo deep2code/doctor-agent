@@ -730,9 +730,10 @@
   }
   /* 分享弹窗 */
   .share-modal-overlay { position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; padding: 20px; }
-  .share-modal { background: #fff; border-radius: 16px; padding: 32px; max-width: 420px; width: 100%; text-align: center; position: relative; }
-  .share-modal-qr { margin-bottom: 16px; }
+  .share-modal { background: #fff; border-radius: 16px; padding: 28px; max-width: 440px; width: 100%; text-align: center; position: relative; }
+  .share-modal-qr { margin-bottom: 16px; position: relative; display: inline-block; }
   .share-modal-qr canvas, .share-modal-qr img { border-radius: 12px; }
+  .share-modal-qr-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 32px; font-weight: 800; color: #0e7c86; pointer-events: none; text-shadow: 0 0 4px #fff; }
   .share-modal-link { display: flex; gap: 10px; margin-bottom: 16px; }
   .share-modal-link input { flex: 1; padding: 10px 14px; border: 1px solid var(--border); border-radius: 8px; font-size: 14px; }
   .share-modal-copy, .share-modal-close { padding: 10px 20px; border-radius: 8px; font-size: 15px; cursor: pointer; border: 1px solid var(--border); background: #fff; }
@@ -863,7 +864,7 @@
     modal.innerHTML =
       '<div class="share-modal">' +
       '<button type="button" class="share-modal-close">✕</button>' +
-      '<div class="share-modal-qr"></div>' +
+      '<div class="share-modal-qr"><div class="share-modal-qr-text">医答</div></div>' +
       '<div class="share-modal-link">' +
       '<input type="text" readonly value="' + url.replace(/"/g, '&quot;') + '" />' +
       '<button type="button" class="share-modal-copy">复制链接</button>' +
@@ -874,11 +875,11 @@
     var qrContainer = modal.querySelector(".share-modal-qr");
     function generateQR() {
       if (window.QRCode) {
-        qrContainer.innerHTML = "";
+        qrContainer.innerHTML = '<div class="share-modal-qr-text">医答</div>';
         new window.QRCode(qrContainer, {
           text: url,
-          width: 360,
-          height: 360,
+          width: 380,
+          height: 380,
           colorDark: "#0e7c86",
           colorLight: "#ffffff",
           correctLevel: window.QRCode.CorrectLevel.H
@@ -888,11 +889,11 @@
         var script = document.createElement("script");
         script.src = "/qrcode.min.js";
         script.onload = function() {
-          qrContainer.innerHTML = "";
+          qrContainer.innerHTML = '<div class="share-modal-qr-text">医答</div>';
           new window.QRCode(qrContainer, {
             text: url,
-            width: 360,
-            height: 360,
+            width: 380,
+            height: 380,
             colorDark: "#0e7c86",
             colorLight: "#ffffff",
             correctLevel: window.QRCode.CorrectLevel.H

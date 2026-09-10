@@ -26,6 +26,7 @@ import (
 	"github.com/doctor-agent/internal/knowledge"
 	"github.com/doctor-agent/internal/llm"
 	"github.com/doctor-agent/internal/session"
+	"github.com/jung-kurt/gofpdf"
 )
 
 //go:embed web/index.html
@@ -449,6 +450,187 @@ func renderMarkdown(md string) string {
 	flushTable()
 
 	return strings.Join(out, "\n")
+}
+
+// renderMarkdownToPDF 将 Markdown 渲染到 PDF 中
+func renderMarkdownToPDF(pdf *gofpdf.Fpdf, md string) {
+	lines := strings.Split(md, "\n")
+	var inList bool
+	var listType string
+	var inTable bool
+	var tableRows [][]string
+
+	flushList := func() {
+		if inList {
+			pdf.Ln(4)
+			inList = false
+		}
+	}
+
+	flushTable := func() {
+		if len(tableRows) > 0 {
+			pdf.Ln(4)
+			// 计算列宽
+			colCount := 0
+			if len(tableRows) > 0 {
+				colCount = len(tableRows[0])
+			}
+			if colCount == 0 {
+				colCount = 3
+			}
+			colWidth := 180.0 / float64(colCount)
+
+			// 绘制表头
+			pdf.SetFont("Helvetica", "B", 9)
+			pdf.SetFillColor(238, 246, 248)
+			for _, cell := range tableRows[0] {
+				pdf.CellFormat(colWidth, 6, cell, "1", 0, "C", true, 0, "")
+			}
+			pdf.Ln(-1)
+			pdf.SetFont("Helvetica", "", 9)
+			pdf.SetFillColor(255, 255, 255)
+
+			// 绘制数据行
+			for i := 1; i < len(tableRows); i++ {
+				for _, cell := range tableRows[i] {
+					pdf.CellFormat(colWidth, 6, cell, "1", 0, "L", false, 0, "")
+				}
+				pdf.Ln(-1)
+			}
+			pdf.Ln(4)
+			tableRows = nil
+			inTable = false
+		}
+	}
+
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+
+		// 跳过 mermaid 代码块
+		if strings.HasPrefix(line, "```mermaid") || strings.HasPrefix(line, "```") && strings.Contains(line, "mermaid") {
+			continue
+		}
+
+		// 跳过空代码块
+		if strings.HasPrefix(line, "```") {
+			continue
+		}
+
+		// 跳过表格分隔线
+		if strings.HasPrefix(line, "|") && strings.Contains(line, "---") {
+			continue
+		}
+
+		// 表格
+		if strings.HasPrefix(line, "|") {
+			flushList()
+			cells := strings.Split(strings.Trim(line, "|"), "|")
+			var row []string
+			for _, cell := range cells {
+				cell = strings.TrimSpace(cell)
+				row = append(row, cell)
+			}
+			if len(row) > 0 && !(len(row) == 1 && row[0] == "") {
+				tableRows = append(tableRows, row)
+			}
+			inTable = true
+			continue
+		} else if inTable {
+			flushTable()
+		}
+
+		if line == "" {
+			flushList()
+			flushTable()
+			pdf.Ln(3)
+			continue
+		}
+
+		// 标题
+		if strings.HasPrefix(line, "##") {
+			flushList()
+			flushTable()
+			level := strings.Index(line, " ")
+			if level > 0 {
+				text := strings.TrimSpace(line[level:])
+				fontSize := 14 - (level - 2)
+				if fontSize < 10 {
+					fontSize = 10
+				}
+				pdf.SetFont("Helvetica", "B", float64(fontSize))
+				pdf.Cell(180, 7, text)
+				pdf.Ln(6)
+			}
+			continue
+		}
+
+		// 无序列表
+		if strings.HasPrefix(line, "- ") || strings.HasPrefix(line, "* ") {
+			flushTable()
+			if !inList || listType != "ul" {
+				flushList()
+				pdf.Ln(2)
+				inList = true
+				listType = "ul"
+			}
+			item := strings.TrimPrefix(strings.TrimPrefix(line, "- "), "* ")
+			// 处理粗体
+			item = strings.ReplaceAll(item, "**", "")
+			pdf.SetFont("Helvetica", "", 10)
+			pdf.Cell(8, 5, "•")
+			pdf.Cell(170, 5, item)
+			pdf.Ln(5)
+			continue
+		}
+
+		// 有序列表
+		re := regexp.MustCompile(`^(\d+)\.\s+(.+)$`)
+		m := re.FindStringSubmatch(line)
+		if m != nil {
+			flushTable()
+			if !inList || listType != "ol" {
+				flushList()
+				pdf.Ln(2)
+				inList = true
+				listType = "ol"
+			}
+			pdf.SetFont("Helvetica", "", 10)
+			pdf.Cell(8, 5, m[1]+".")
+			pdf.Cell(170, 5, m[2])
+			pdf.Ln(5)
+			continue
+		}
+
+		// 分割线
+		if strings.HasPrefix(line, "---") || strings.HasPrefix(line, "***") {
+			flushList()
+			flushTable()
+			pdf.Ln(4)
+			pdf.Line(10, pdf.GetY(), 200, pdf.GetY())
+			pdf.Ln(4)
+			continue
+		}
+
+		// 清理 Markdown 格式
+		// 移除代码标记
+		line = strings.ReplaceAll(line, "`", "")
+		// 移除粗体标记
+		line = strings.ReplaceAll(line, "**", "")
+		// 移除斜体标记
+		line = strings.ReplaceAll(line, "*", "")
+		// 处理链接 [text](url) -> text
+		re = regexp.MustCompile(`\[([^\]]+)\]\([^)]+\)`)
+		line = re.ReplaceAllString(line, "$1")
+
+		// 普通段落
+		flushList()
+		flushTable()
+		pdf.SetFont("Helvetica", "", 10)
+		pdf.MultiCell(180, 5, line, "", "L", false)
+	}
+
+	flushList()
+	flushTable()
 }
 
 // buildPage resolves a page template once per process: the shared base CSS
@@ -1084,7 +1266,7 @@ func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
 		// 检查是否有 export 参数
 		exportType := r.URL.Query().Get("export")
 		if exportType == "pdf" {
-			// 导出会话为 PDF 打印页面
+			// 导出会话为真正的 PDF 文件
 			rec, err := s.db.GetSession(id)
 			if err != nil || rec == nil {
 				http.Error(w, "session not found", http.StatusNotFound)
@@ -1096,27 +1278,58 @@ func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
 				http.Error(w, "failed to get session messages", http.StatusInternalServerError)
 				return
 			}
-			// 构建 HTML 内容
-			var content string
-			for _, m := range msgs {
-				if m.Role == "user" {
-					content += `<div class="qa"><div class="q">` + escapeHTML(m.Content) + `</div></div>`
-				} else {
-					// AI 回复，渲染 markdown
-					content += `<div class="a">` + renderMarkdown(m.Content) + `</div>`
-				}
-			}
 			title := rec.Title
 			if title == "" {
 				title = "新对话"
 			}
-			html := exportPDFTmpl
-			html = strings.Replace(html, "__TITLE__", title, 1)
-			html = strings.Replace(html, "__EXPORT_TIME__", time.Now().Format("2006-01-02 15:04:05"), 1)
-			html = strings.Replace(html, "__CONTENT__", content, 1)
-			w.Header().Set("Content-Type", "text/html; charset=utf-8")
+
+			// 生成 PDF
+			pdf := gofpdf.New("P", "mm", "A4", "")
+			pdf.SetFont("Helvetica", "", 11)
+			pdf.AddPage()
+
+			// 标题
+			pdf.SetFont("Helvetica", "B", 16)
+			pdf.Cell(190, 10, title)
+			pdf.Ln(8)
+
+			// 导出时间
+			pdf.SetFont("Helvetica", "", 9)
+			pdf.SetTextColor(128, 128, 128)
+			pdf.Cell(190, 6, "导出时间："+time.Now().Format("2006-01-02 15:04:05"))
+			pdf.Ln(10)
+			pdf.SetTextColor(0, 0, 0)
+
+			// 遍历消息
+			for _, m := range msgs {
+				if m.Role == "user" {
+					// 用户问题
+					pdf.SetFont("Helvetica", "B", 11)
+					pdf.SetTextColor(14, 124, 134)
+					pdf.Cell(190, 8, "问：")
+					pdf.Ln(6)
+					pdf.SetFont("Helvetica", "", 10)
+					pdf.SetTextColor(0, 0, 0)
+					pdf.MultiCell(180, 5, m.Content, "", "L", false)
+					pdf.Ln(4)
+				} else {
+					// AI 回答 - 解析 Markdown 并渲染
+					pdf.SetFont("Helvetica", "B", 11)
+					pdf.SetTextColor(14, 124, 134)
+					pdf.Cell(190, 8, "答：")
+					pdf.Ln(6)
+					pdf.SetFont("Helvetica", "", 10)
+					pdf.SetTextColor(0, 0, 0)
+					renderMarkdownToPDF(pdf, m.Content)
+					pdf.Ln(8)
+				}
+			}
+
+			// 输出 PDF
+			w.Header().Set("Content-Type", "application/pdf")
+			w.Header().Set("Content-Disposition", "attachment; filename=\""+title+".pdf\"")
 			w.Header().Set("Cache-Control", "no-cache")
-			_, _ = io.WriteString(w, html)
+			pdf.Output(w)
 			return
 		}
 		if exportType == "1" || exportType == "json" {

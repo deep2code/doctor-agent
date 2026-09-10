@@ -25,17 +25,26 @@
   pre { background:#f0f5f7; border-radius:8px; padding:12px; overflow-x:auto; }
   pre code { background:none; padding:0; }
   blockquote { border-left:3px solid var(--brand); margin:10px 0; padding:2px 12px; color:var(--muted); }
-  footer { text-align:center; color:var(--muted); font-size:12px; padding:20px; border-top:1px solid var(--line); background:var(--card); }
   .err { text-align:center; color:var(--muted); padding:60px 0; }
+  .mermaid { background:#fff; border-radius:10px; padding:16px; margin:12px 0; text-align:center; }
+  .mermaid svg { max-width:100%; height:auto; }
 </style>
 </head>
 <body>
 <header>医答 · 分享阅读<div class="sub">__TITLE__</div></header>
 <main id="app"><div class="err">加载中…</div></main>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>
-var SHARE = __PAYLOAD__;
+mermaid.initialize({ startOnLoad: false, theme: "default", securityLevel: "loose" });
 
-/* 极简 Markdown 渲染：标题/表格/列表/引用/粗体/行内代码/代码块 */
+var mermaidSeq = 0;
+
+/* 修复 mermaid 标签中缺少引号的问题 */
+function mermaidFixLabels(text) {
+  return text.replace(/([a-zA-Z]+)=([^"\s]+)/g, '$1="$2"');
+}
+
+/* 极简 Markdown 渲染：标题/表格/列表/引用/粗体/行内代码/代码块 + mermaid */
 (function () {
   function esc(s) {
     return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -48,12 +57,29 @@ var SHARE = __PAYLOAD__;
       .replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
   }
   function render(md) {
-    var lines = md.split("\n"), out = [], i = 0, inCode = false, codeBuf = [];
+    var lines = md.split("\n"), out = [], i = 0, inCode = false, codeBuf = [], codeLang = "";
     for (; i < lines.length; i++) {
       var l = lines[i];
-      if (/^```/.test(l.trim())) {
-        if (inCode) { out.push("<pre><code>" + esc(codeBuf.join("\n")) + "</code></pre>"); codeBuf = []; inCode = false; }
-        else inCode = true;
+      var codeMatch = l.trim().match(/^```(\w*)$/);
+      if (codeMatch) {
+        if (inCode) {
+          // 代码块结束
+          if (codeLang === "mermaid") {
+            // mermaid 代码块
+            var id = "mmd-" + (++mermaidSeq);
+            var src = mermaidFixLabels(codeBuf.join("\n"));
+            out.push('<div class="mermaid" id="' + id + '">' + esc(src) + '</div>');
+          } else {
+            out.push("<pre><code>" + esc(codeBuf.join("\n")) + "</code></pre>");
+          }
+          codeBuf = [];
+          codeLang = "";
+          inCode = false;
+        } else {
+          // 代码块开始
+          codeLang = codeMatch[1] || "";
+          inCode = true;
+        }
         continue;
       }
       if (inCode) { codeBuf.push(l); continue; }
@@ -107,6 +133,25 @@ var SHARE = __PAYLOAD__;
     html += '<div class="a">' + render(pair.a) + "</div></div>";
   });
   app.innerHTML = html;
+
+  // 渲染 mermaid 图表
+  if (window.mermaid) {
+    document.querySelectorAll(".mermaid").forEach(function (el) {
+      var id = el.id;
+      var src = el.textContent;
+      try {
+        window.mermaid.render(id, src).then(function (result) {
+          el.innerHTML = result.svg;
+        }).catch(function (e) {
+          console.warn("mermaid render failed:", e && e.message);
+          el.innerHTML = "<pre>" + esc(src) + "</pre>";
+        });
+      } catch (e) {
+        console.warn("mermaid render failed:", e && e.message);
+        el.innerHTML = "<pre>" + esc(src) + "</pre>";
+      }
+    });
+  }
 })();
 </script>
 </body>

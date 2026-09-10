@@ -5,6 +5,7 @@ go 1.26.2
 require (
 	github.com/anthropics/anthropic-sdk-go v1.51.0
 	github.com/go-sql-driver/mysql v1.10.0
+	github.com/jung-kurt/gofpdf v1.16.2
 	github.com/klauspost/compress v1.19.2
 	github.com/qdrant/go-client v1.18.2
 )

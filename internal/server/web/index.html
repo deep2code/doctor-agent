@@ -728,40 +728,15 @@
     .msg { break-inside: avoid; }
   }
   /* 分享弹窗 */
-  .share-modal-overlay {
-    position: fixed; inset: 0; z-index: 1000;
-    background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center;
-    padding: 20px;
-  }
-  .share-modal {
-    background: #fff; border-radius: 16px; padding: 24px; max-width: 360px; width: 100%;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.2); text-align: center;
-  }
-  .share-modal-icon { margin-bottom: 12px; }
-  .share-modal-icon svg { display: block; margin: 0 auto; }
-  .share-modal-title { font-size: 18px; font-weight: 600; color: var(--text); margin-bottom: 16px; }
-  .share-modal-qr { display: flex; justify-content: center; margin-bottom: 12px; }
+  .share-modal-overlay { position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; padding: 20px; }
+  .share-modal { background: #fff; border-radius: 12px; padding: 20px; max-width: 280px; width: 100%; text-align: center; }
+  .share-modal-qr { margin-bottom: 12px; }
   .share-modal-qr canvas, .share-modal-qr img { border-radius: 8px; }
-  .share-modal-tip { font-size: 13px; color: var(--muted); margin-bottom: 16px; }
   .share-modal-link { display: flex; gap: 8px; margin-bottom: 12px; }
-  .share-modal-link input {
-    flex: 1; padding: 8px 12px; border: 1px solid var(--border); border-radius: 8px;
-    font-size: 13px; color: var(--text); background: #f9fafb;
-  }
-  .share-modal-copy, .share-modal-copy-qr, .share-modal-close {
-    padding: 8px 16px; border-radius: 8px; font-size: 14px; cursor: pointer; border: 1px solid var(--border); background: #fff; color: var(--text);
-  }
-  .share-modal-copy:hover, .share-modal-copy-qr:hover, .share-modal-close:hover {
-    background: #f3f4f6;
-  }
+  .share-modal-link input { flex: 1; padding: 8px; border: 1px solid var(--border); border-radius: 6px; font-size: 12px; }
+  .share-modal-copy, .share-modal-close { padding: 8px 16px; border-radius: 6px; font-size: 14px; cursor: pointer; border: 1px solid var(--border); background: #fff; }
   .share-modal-copy { background: var(--accent); color: #fff; border-color: var(--accent); }
-  .share-modal-copy:hover { background: var(--accent-dark); }
-  .share-modal-qr-fallback { padding: 40px; color: var(--muted); font-size: 13px; }
-  .share-modal .share-modal-icon {
-    display: inline-block; background: linear-gradient(135deg, #0e7c86, #0a6169);
-    color: #fff; font-size: 20px; font-weight: 800; padding: 10px 16px;
-    border-radius: 10px; margin-bottom: 8px; letter-spacing: 2px;
-  }
+  .share-modal-qr-fallback { padding: 40px; color: var(--muted); }
 </style>
 
 
@@ -878,31 +853,26 @@
     foot.appendChild(btn);
     line.appendChild(foot);
   }
-// 分享弹窗：显示网站图标 + 二维码
+// 分享弹窗：显示二维码 + 复制按钮
   function showShareModal(url) {
     var modal = document.createElement("div");
     modal.className = "share-modal-overlay";
     modal.innerHTML =
       '<div class="share-modal">' +
-      '<div class="share-modal-icon">医答</div>' +
-      '<div class="share-modal-title">分享对话</div>' +
       '<div class="share-modal-qr"></div>' +
-      '<div class="share-modal-tip">扫一扫打开分享链接</div>' +
       '<div class="share-modal-link">' +
       '<input type="text" readonly value="' + url.replace(/"/g, '&quot;') + '" />' +
       '<button type="button" class="share-modal-copy">复制链接</button>' +
       '</div>' +
-      '<button type="button" class="share-modal-copy-qr">复制二维码图片</button>' +
       '<button type="button" class="share-modal-close">关闭</button>' +
       '</div>';
     document.body.appendChild(modal);
     // 生成二维码
     var qrContainer = modal.querySelector(".share-modal-qr");
-    var qrCodeInstance = null;
     function generateQR() {
       if (window.QRCode) {
         qrContainer.innerHTML = "";
-        qrCodeInstance = new window.QRCode(qrContainer, {
+        new window.QRCode(qrContainer, {
           text: url,
           width: 180,
           height: 180,
@@ -911,11 +881,12 @@
           correctLevel: window.QRCode.CorrectLevel.H
         });
       } else {
-        qrContainer.innerHTML = '<div class="share-modal-qr-fallback">二维码库加载中...</div>';
-        fetch("https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js").then(function (r) { return r.text(); }).then(function (js) {
-          eval(js);
+        qrContainer.innerHTML = '<div class="share-modal-qr-fallback">加载中...</div>';
+        var script = document.createElement("script");
+        script.src = "/qrcode.min.js";
+        script.onload = function() {
           qrContainer.innerHTML = "";
-          qrCodeInstance = new window.QRCode(qrContainer, {
+          new window.QRCode(qrContainer, {
             text: url,
             width: 180,
             height: 180,
@@ -923,7 +894,9 @@
             colorLight: "#ffffff",
             correctLevel: window.QRCode.CorrectLevel.H
           });
-        }).catch(function () { qrContainer.innerHTML = '<div class="share-modal-qr-fallback">二维码加载失败</div>'; });
+        };
+        script.onerror = function() { qrContainer.innerHTML = '<div class="share-modal-qr-fallback">加载失败</div>'; };
+        document.head.appendChild(script);
       }
     }
     generateQR();
@@ -933,38 +906,6 @@
         this.textContent = "已复制";
         setTimeout(function () { this.textContent = "复制链接"; }, 2000);
       }.bind(this));
-    });
-    // 复制二维码图片按钮
-    modal.querySelector(".share-modal-copy-qr").addEventListener("click", function () {
-      var canvas = qrContainer.querySelector("canvas");
-      if (!canvas) {
-        var img = qrContainer.querySelector("img");
-        if (img) {
-          canvas = document.createElement("canvas");
-          canvas.width = img.width;
-          canvas.height = img.height;
-          var ctx = canvas.getContext("2d");
-          ctx.fillStyle = "#ffffff";
-          ctx.fillRect(0, 0, canvas.width, canvas.height);
-          ctx.drawImage(img, 0, 0);
-        }
-      }
-      if (canvas) {
-        canvas.toBlob(function (blob) {
-          if (blob) {
-            navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]).then(function () {
-              modal.querySelector(".share-modal-copy-qr").textContent = "已复制";
-              setTimeout(function () { modal.querySelector(".share-modal-copy-qr").textContent = "复制二维码图片"; }, 2000);
-            }).catch(function () {
-              showError("⚠️ 复制失败，请手动截图");
-            });
-          } else {
-            showError("⚠️ 无法生成二维码图片");
-          }
-        });
-      } else {
-        showError("⚠️ 请先等待二维码生成");
-      }
     });
     modal.querySelector(".share-modal-close").addEventListener("click", function () { modal.remove(); });
     modal.addEventListener("click", function (e) { if (e.target === modal) modal.remove(); });

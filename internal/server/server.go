@@ -283,76 +283,171 @@ func escapeHTML(s string) string {
 
 // renderMarkdown 简单的 Markdown 转 HTML（用于 PDF 导出）。
 func renderMarkdown(md string) string {
-	// 转义 HTML
-	md = escapeHTML(md)
-	// 代码块
-	re := regexp.MustCompile("```(\\w*)\\n([\\s\\S]*?)```")
-	md = re.ReplaceAllString(md, "<pre><code>$2</code></pre>")
-	// 行内代码
-	re = regexp.MustCompile("`([^`]+)`")
-	md = re.ReplaceAllString(md, "<code>$1</code>")
-	// 标题
-	for i := 4; i >= 1; i-- {
-		re = regexp.MustCompile("(?m)^" + strings.Repeat("#", i) + " (.+)$")
-		md = re.ReplaceAllString(md, "<h"+fmt.Sprint(i+1)+">$1</h"+fmt.Sprint(i+1)+">")
-	}
-	// 粗体
-	re = regexp.MustCompile("\\*\\*([^*]+)\\*\\*")
-	md = re.ReplaceAllString(md, "<strong>$1</strong>")
-	// 斜体
-	re = regexp.MustCompile("\\*([^*]+)\\*")
-	md = re.ReplaceAllString(md, "<em>$1</em>")
-	// 链接
-	re = regexp.MustCompile("\\[([^\\]]+)\\]\\(([^\\)]+)\\)")
-	md = re.ReplaceAllString(md, "<a href=\"$2\" target=\"_blank\">$1</a>")
-	// 列表
-	re = regexp.MustCompile("(?m)^[-*] (.+)$")
-	md = re.ReplaceAllString(md, "<li>$1</li>")
-	md = strings.ReplaceAll(md, "</li>\n<li>", "</li>\n<li>")
-	re = regexp.MustCompile("(<li>.*</li>)")
-	md = re.ReplaceAllString(md, "<ul>$1</ul>")
-	// 数字列表
-	re = regexp.MustCompile("(?m)^\\d+\\. (.+)$")
-	md = re.ReplaceAllString(md, "<li>$1</li>")
-	// 表格（简单支持）
-	re = regexp.MustCompile("(?m)^\\|(.+)\\|$")
-	md = re.ReplaceAllString(md, "$1")
-	// 换行
 	lines := strings.Split(md, "\n")
 	var out []string
-	inPre := false
-	inUl := false
-	for _, line := range lines {
-		line = strings.TrimSpace(line)
-		if strings.HasPrefix(line, "<pre>") {
-			inPre = true
-		}
-		if strings.HasSuffix(line, "</pre>") {
-			inPre = false
-		}
-		if inPre {
-			out = append(out, line)
-			continue
-		}
-		if strings.HasPrefix(line, "<h") || strings.HasPrefix(line, "<ul") || strings.HasPrefix(line, "<ol") || strings.HasPrefix(line, "<pre") {
-			out = append(out, line)
-			continue
-		}
-		if strings.HasPrefix(line, "<li>") {
-			if !inUl {
-				inUl = true
-				out = append(out, "<ul>")
-			}
-			out = append(out, line)
-			continue
-		} else if inUl {
-			inUl = false
+	var inCodeBlock bool
+	var codeContent []string
+	var inList bool
+	var listType string
+	var inTable bool
+	var tableRows [][]string
+
+	flushList := func() {
+		if inList {
 			out = append(out, "</ul>")
-		}
-		if line != "" {
-			out = append(out, "<p>"+line+"</p>")
+			inList = false
 		}
 	}
+
+	flushTable := func() {
+		if len(tableRows) > 0 {
+			out = append(out, "<table>")
+			for i, row := range tableRows {
+				tag := "td"
+				if i == 0 {
+					tag = "th"
+				}
+				out = append(out, "<tr>")
+				for _, cell := range row {
+					cell = strings.TrimSpace(cell)
+					out = append(out, "<"+tag+">"+cell+"</"+tag+">")
+				}
+				out = append(out, "</tr>")
+			}
+			out = append(out, "</table>")
+			tableRows = nil
+		}
+	}
+
+	for _, line := range lines {
+		// 代码块
+		if strings.HasPrefix(strings.TrimSpace(line), "```") {
+			if inCodeBlock {
+				out = append(out, "<pre><code>"+strings.Join(codeContent, "\n")+"</code></pre>")
+				codeContent = nil
+				inCodeBlock = false
+			} else {
+				inCodeBlock = true
+			}
+			continue
+		}
+		if inCodeBlock {
+			codeContent = append(codeContent, line)
+			continue
+		}
+
+		line = strings.TrimSpace(line)
+		if line == "" {
+			flushList()
+			flushTable()
+			continue
+		}
+
+		// 跳过 Markdown 表格分隔线
+		if strings.HasPrefix(line, "|") && strings.Contains(line, "---") {
+			continue
+		}
+
+		// 表格
+		if strings.HasPrefix(line, "|") {
+			flushList()
+			cells := strings.Split(strings.Trim(line, "|"), "|")
+			var row []string
+			for _, cell := range cells {
+				cell = strings.TrimSpace(cell)
+				row = append(row, cell)
+			}
+			if len(row) > 0 {
+				tableRows = append(tableRows, row)
+			}
+			inTable = true
+			continue
+		} else if inTable {
+			flushTable()
+			inTable = false
+		}
+
+		// 标题
+		if strings.HasPrefix(line, "#") {
+			flushList()
+			re := regexp.MustCompile(`^(#{1,6})\s+(.+)$`)
+			m := re.FindStringSubmatch(line)
+			if m != nil {
+				level := len(m[1])
+				out = append(out, "<h"+fmt.Sprint(level)+">"+m[2]+"</h"+fmt.Sprint(level)+">")
+				continue
+			}
+		}
+
+		// 粗体
+		if strings.Contains(line, "**") {
+			re := regexp.MustCompile(`\*\*([^*]+)\*\*`)
+			line = re.ReplaceAllString(line, "<strong>$1</strong>")
+		}
+
+		// 斜体
+		if strings.Contains(line, "*") && !strings.HasPrefix(line, "-") && !strings.HasPrefix(line, "*") {
+			re := regexp.MustCompile(`\*([^*]+)\*`)
+			line = re.ReplaceAllString(line, "<em>$1</em>")
+		}
+
+		// 行内代码
+		re := regexp.MustCompile("`([^`]+)`")
+		line = re.ReplaceAllString(line, "<code>$1</code>")
+
+		// 链接
+		re = regexp.MustCompile(`\[([^\]]+)\]\(([^)]+)\)`)
+		line = re.ReplaceAllString(line, "<a href=\"$2\" target=\"_blank\">$1</a>")
+
+		// 无序列表
+		if strings.HasPrefix(line, "- ") || strings.HasPrefix(line, "* ") {
+			flushList()
+			if !inList || listType != "ul" {
+				flushList()
+				out = append(out, "<ul>")
+				inList = true
+				listType = "ul"
+			}
+			item := strings.TrimPrefix(strings.TrimPrefix(line, "- "), "* ")
+			out = append(out, "<li>"+item+"</li>")
+			continue
+		}
+
+		// 有序列表
+		re = regexp.MustCompile(`^(\d+)\.\s+(.+)$`)
+		m := re.FindStringSubmatch(line)
+		if m != nil {
+			flushList()
+			if !inList || listType != "ol" {
+				flushList()
+				out = append(out, "<ol>")
+				inList = true
+				listType = "ol"
+			}
+			out = append(out, "<li>"+m[2]+"</li>")
+			continue
+		}
+
+		// 分割线
+		if strings.HasPrefix(line, "---") || strings.HasPrefix(line, "***") {
+			out = append(out, "<hr>")
+			continue
+		}
+
+		// 引用
+		if strings.HasPrefix(line, "> ") {
+			out = append(out, "<blockquote>"+strings.TrimPrefix(line, "> ")+"</blockquote>")
+			continue
+		}
+
+		// 普通段落
+		flushList()
+		out = append(out, "<p>"+line+"</p>")
+	}
+
+	flushList()
+	flushTable()
+
 	return strings.Join(out, "\n")
 }
 

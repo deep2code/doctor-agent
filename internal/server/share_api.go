@@ -160,7 +160,11 @@ id := strings.TrimPrefix(r.URL.Path, "/share/")
 	safePayload := strings.ReplaceAll(snap.Payload, "</", `<\/`)
 
 	page := strings.Replace(s.pageShareTmpl, "__PAYLOAD__", safePayload, 1)
-	page = strings.Replace(page, "__TITLE__", html.EscapeString(snap.Title), 2)
+title := snap.Title
+	if title == "" {
+		title = "健康问答分享"
+	}
+	page = strings.Replace(page, "__TITLE__", html.EscapeString(title), 2)
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 	_, _ = fmt.Fprint(w, page)
 }

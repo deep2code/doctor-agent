@@ -1,0 +1,204 @@
+{
+  "resources": [
+    {
+      "id": "pub_ncbi_bookshelf",
+      "name_zh": "NCBI Bookshelf",
+      "name_en": "NCBI Bookshelf",
+      "category": "教科书",
+      "description_zh": "美国国家医学图书馆提供的免费在线生物医学书籍库，收录超过13,000本书籍和文档",
+      "description_en": "Free online access to books and documents in life science and healthcare",
+      "url": "https://www.ncbi.nlm.nih.gov/books",
+      "keywords": ["教科书", "医学书籍", "生物医学", "免费", "NCBI", "NLM"]
+    },
+    {
+      "id": "pub_openstax",
+      "name_zh": "OpenStax 免费教科书",
+      "name_en": "OpenStax Free Textbooks",
+      "category": "教科书",
+      "description_zh": "免费大学教科书，包括生物学、解剖学、生理学等医学相关课程",
+      "description_en": "Free college textbooks including biology, anatomy, physiology",
+      "url": "https://openstax.org",
+      "keywords": ["教科书", "免费", "生物学", "解剖学", "生理学", "大学教材"]
+    },
+    {
+      "id": "pub_osmosis",
+      "name_zh": "Osmosis 医学教学平台",
+      "name_en": "Osmosis Medical Education",
+      "category": "教学视频",
+      "description_zh": "爱思唯尔旗下的可视化医学学习平台，包含1,800+医学动画视频、22,000道习题",
+      "description_en": "Visual learning platform with 1800+ medical animation videos",
+      "url": "https://www.osmosis.org",
+      "keywords": ["教学视频", "医学动画", "习题", "备考", "Osmosis"]
+    },
+    {
+      "id": "pub_osmosis_bilibili",
+      "name_zh": "Osmosis 中文站 (B站)",
+      "name_en": "Osmosis Chinese (Bilibili)",
+      "category": "教学视频",
+      "description_zh": "Osmosis 中文翻译站，由中国医学生自发运营，已翻译200+视频",
+      "description_en": "Osmosis Chinese translation station on Bilibili",
+      "url": "https://space.bilibili.com/3938491",
+      "keywords": ["教学视频", "医学动画", "中文", "B站", "Osmosis"]
+    },
+    {
+      "id": "pub_open163",
+      "name_zh": "网易公开课",
+      "name_en": "NetEase Open Course",
+      "category": "公开课",
+      "description_zh": "翻译自哈佛、MIT、斯坦福等世界名校的医学课程视频",
+      "description_en": "Translated medical courses from Harvard, MIT, Stanford",
+      "url": "https://open.163.com",
+      "keywords": ["公开课", "网易", "医学课程", "视频", "名校"]
+    },
+    {
+      "id": "pub_icourses",
+      "name_zh": "爱课程",
+      "name_en": "iCourses",
+      "category": "公开课",
+      "description_zh": "教育部国家精品课程平台，提供中国大学视频公开课",
+      "description_en": "Ministry of Education premium courses platform",
+      "url": "https://www.icourses.cn",
+      "keywords": ["公开课", "中国大学", "精品课程", "教育部"]
+    },
+    {
+      "id": "pub_ccmtv",
+      "name_zh": "CCMTV 临床频道",
+      "name_en": "CCMTV Clinical Channel",
+      "category": "教学视频",
+      "description_zh": "医学专业视频平台，包括病例讨论、手术视频、医学会议",
+      "description_en": "Medical video platform with case discussions, surgery videos, conferences",
+      "url": "https://www.ccmtv.cn",
+      "keywords": ["手术视频", "病例讨论", "医学会议", "临床"]
+    },
+    {
+      "id": "pub_med66",
+      "name_zh": "医学教育网",
+      "name_en": "Medical Education Network",
+      "category": "教学视频",
+      "description_zh": "医学考试培训网站，提供执业医师考试等视频课程",
+      "description_en": "Medical exam preparation video courses",
+      "url": "https://www.med66.com",
+      "keywords": ["医学教育", "考试", "执业医师", "视频课程"]
+    },
+    {
+      "id": "pub_pubmed_central",
+      "name_zh": "PubMed Central (PMC)",
+      "name_en": "PubMed Central",
+      "category": "文献数据库",
+      "description_zh": "NIH提供的免费生物医学文献全文数据库",
+      "description_en": "Free full-text biomedical literature archive by NIH",
+      "url": "https://pubmed.ncbi.nlm.nih.gov",
+      "keywords": ["文献", "PubMed", "免费", "全文", "生物医学"]
+    },
+    {
+      "id": "pub_highwire",
+      "name_zh": "HighWire Press",
+      "name_en": "HighWire Press",
+      "category": "文献数据库",
+      "description_zh": "斯坦福大学出版的免费医学文献平台",
+      "description_en": "Free medical literature by Stanford University",
+      "url": "https://highwire.stanford.edu",
+      "keywords": ["文献", "斯坦福", "免费", "医学"]
+    },
+    {
+      "id": "pub_medlineplus",
+      "name_zh": "MedlinePlus",
+      "name_en": "MedlinePlus",
+      "category": "科普",
+      "description_zh": "NIH面向公众的健康信息网站，提供医学百科和科普视频",
+      "description_en": "NIH health information for patients",
+      "url": "https://medlineplus.gov",
+      "keywords": ["科普", "健康", "NIH", "医学百科", "公众"]
+    },
+    {
+      "id": "pub_merck_manual",
+      "name_zh": "默克诊疗手册",
+      "name_en": "Merck Manual",
+      "category": "教科书",
+      "description_zh": "全球最权威的医学参考手册之一，有专业版和公众版",
+      "description_en": "One of the most authoritative medical reference manuals",
+      "url": "https://www.merckmanuals.com",
+      "keywords": ["默克", "诊疗手册", "医学参考", "教科书"]
+    },
+    {
+      "id": "pub_who",
+      "name_zh": "世界卫生组织 (WHO)",
+      "name_en": "World Health Organization",
+      "category": "指南",
+      "description_zh": "WHO官方指南、报告和培训材料",
+      "description_en": "Official WHO guidelines, reports and training materials",
+      "url": "https://www.who.int",
+      "keywords": ["WHO", "世界卫生组织", "指南", "全球健康"]
+    },
+    {
+      "id": "pub_bilibili_medical",
+      "name_zh": "B站医学频道",
+      "name_en": "Bilibili Medical Channel",
+      "category": "科普视频",
+      "description_zh": "B站医学科普视频合集",
+      "description_en": "Medical popular science videos on Bilibili",
+      "url": "https://search.bilibili.com/article?keyword=%E5%8C%BB%E5%AD%A6",
+      "keywords": ["B站", "医学科普", "视频", "科普"]
+    },
+    {
+      "id": "pub_youtube_medical",
+      "name_zh": "YouTube 医学教育频道",
+      "name_en": "YouTube Medical Education",
+      "category": "教学视频",
+      "description_zh": "YouTube上的医学教育视频频道推荐",
+      "description_en": "Medical education channels on YouTube",
+      "url": "https://www.youtube.com/results?search_query=medical+education",
+      "keywords": ["YouTube", "医学教育", "视频", "教学"]
+    },
+    {
+      "id": "pub_med2",
+      "name_zh": "医学视频网",
+      "name_en": "Medical Video Network",
+      "category": "教学视频",
+      "description_zh": "医学视频资源下载网站，包含各学科教学视频",
+      "description_en": "Medical video download site",
+      "url": "https://www.med2.cn",
+      "keywords": ["医学视频", "下载", "教学"]
+    },
+    {
+      "id": "pub_coursera_medical",
+      "name_zh": "Coursera 医学课程",
+      "name_en": "Coursera Medical Courses",
+      "category": "公开课",
+      "description_zh": "Coursera上的医学相关课程",
+      "description_en": "Medical related courses on Coursera",
+      "url": "https://www.coursera.org/browse/healthcare",
+      "keywords": ["Coursera", "公开课", "医学课程", "在线学习"]
+    },
+    {
+      "id": "pub_edx_medical",
+      "name_zh": "edX 医学课程",
+      "name_en": "edX Medical Courses",
+      "category": "公开课",
+      "description_zh": "edX上的医学相关课程",
+      "description_en": "Medical related courses on edX",
+      "url": "https://www.edx.org/learn/healthcare",
+      "keywords": ["edX", "公开课", "医学课程", "在线学习"]
+    },
+    {
+      "id": "pub_clinicaltrials",
+      "name_zh": "ClinicalTrials.gov",
+      "name_en": "ClinicalTrials.gov",
+      "category": "临床试验",
+      "description_zh": "美国国立医学图书馆的临床试验数据库",
+      "description_en": "Clinical trial database by NLM",
+      "url": "https://clinicaltrials.gov",
+      "keywords": ["临床试验", "研究", "NIH", "NLM"]
+    },
+    {
+      "id": "pub_gov_cn",
+      "name_zh": "国家卫生健康委员会",
+      "name_en": "National Health Commission",
+      "category": "指南",
+      "description_zh": "中国国家卫生健康委员会官方发布的指南和政策",
+      "description_en": "Official guidelines and policies from China NHC",
+      "url": "https://www.nhc.gov.cn",
+      "keywords": ["国家卫健委", "指南", "政策", "中国"]
+    }
+  ]
+}

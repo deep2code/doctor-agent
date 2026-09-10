@@ -68,7 +68,10 @@ DSICD11            = "icd11"
 	DSChinaCDC             = "china_cdc"             // 法定传染病
 	DSChinaTCM             = "china_tcm"             // 中医药知识库
 	DSChinaCSO             = "china_cso"             // CSCO肿瘤指南
-	DSChinaDietary         = "china_dietary"         // 膳食指南
+DSChinaDietary         = "china_dietary"         // 膳食指南
+
+	// 公共医学资源
+	DSPublicResources = "public_resources" // 公共医学资料库（教科书、视频、科普等）
 )
 
 // OpenKB opens (and migrates) the knowledge database using the given DSN.

@@ -157,8 +157,8 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 		mux.HandleFunc("/sessions/", s.handleSessionByID)
 		mux.HandleFunc("/family", s.handleFamily)
 		mux.HandleFunc("/family/", s.handleFamilyByID)
-		mux.HandleFunc("/share", s.handleShare)
-		mux.HandleFunc("/s/", s.handleSharePage)
+mux.HandleFunc("/share", s.handleShare)
+		mux.HandleFunc("/share/", s.handleSharePage)
 	}
 	// Admin endpoints
 	mux.HandleFunc("/admin/users", s.handleAdminUsers)
@@ -850,9 +850,11 @@ func (s *Server) handleSessions(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, map[string]any{"sessions": out})
 }
 
-// handleSessionByID reads or deletes one persisted conversation.
-//   GET    /sessions/{id}  → {id, title, messages:[{role, content}]}
-//   DELETE /sessions/{id}  → 204
+// handleSessionByID reads, updates, deletes or exports one persisted conversation.
+//   GET    /sessions/{id}          → {id, title, messages:[{role, content}]}
+//   GET    /sessions/{id}?export=1 → 下载 JSON 文件
+//   PUT    /sessions/{id}          → 重命名会话 {title: "新标题"}
+//   DELETE /sessions/{id}          → 204
 func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
 	if s.db == nil {
 		writeJSON(w, http.StatusServiceUnavailable, map[string]any{"error": "session persistence disabled"})
@@ -866,6 +868,56 @@ func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
 
 	switch r.Method {
 	case http.MethodGet:
+		// 检查是否有 export=1 参数
+		if r.URL.Query().Get("export") == "1" {
+			// 导出会话为 JSON 文件
+			rec, err := s.db.GetSession(id)
+			if err != nil || rec == nil {
+				http.Error(w, "session not found", http.StatusNotFound)
+				return
+			}
+			msgs, err := s.db.GetSessionMessages(id)
+			if err != nil {
+				slog.Error("Getting session messages for export", "id", id, "error", err)
+				writeJSON(w, http.StatusInternalServerError, map[string]any{"error": "failed to get session messages"})
+				return
+			}
+			// 构建导出数据
+			type exportMsg struct {
+				Role    string `json:"role"`
+				Content string `json:"content"`
+			}
+			exportData := map[string]any{
+				"id":         rec.ID,
+				"title":      rec.Title,
+				"created_at": rec.CreatedAt.Format(time.RFC3339),
+				"updated_at": rec.UpdatedAt.Format(time.RFC3339),
+				"messages":   msgs,
+			}
+			data, err := json.MarshalIndent(exportData, "", "  ")
+			if err != nil {
+				writeJSON(w, http.StatusInternalServerError, map[string]any{"error": "failed to marshal session"})
+				return
+			}
+			// 生成下载文件名
+			filename := rec.Title
+			if filename == "" {
+				filename = "对话"
+			}
+			// 清理文件名
+			invalidChars := []string{"/", "\\", ":", "*", "?", "\"", "<", ">", "|"}
+			for _, c := range invalidChars {
+				filename = strings.ReplaceAll(filename, c, "-")
+			}
+			filename += ".json"
+
+			w.Header().Set("Content-Type", "application/json; charset=utf-8")
+			w.Header().Set("Content-Disposition", "attachment; filename=\""+filename+"\"")
+			w.Header().Set("Cache-Control", "no-cache")
+			_, _ = w.Write(data)
+			return
+		}
+		// 普通获取会话
 		rec, err := s.db.GetSession(id)
 		if err != nil {
 			slog.Error("Getting session", "id", id, "error", err)
@@ -895,6 +947,25 @@ func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
 			"title":    rec.Title,
 			"messages": out,
 		})
+	case http.MethodPut:
+		// 重命名会话
+		var req struct {
+			Title string `json:"title"`
+		}
+		if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
+			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request"})
+			return
+		}
+		if req.Title == "" {
+			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "title cannot be empty"})
+			return
+		}
+		if err := s.db.UpdateSessionTitle(id, req.Title); err != nil {
+			slog.Error("Renaming session", "id", id, "error", err)
+			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": "failed to rename session"})
+			return
+		}
+		writeJSON(w, http.StatusOK, map[string]any{"id": id, "title": req.Title})
 	case http.MethodDelete:
 		if err := s.db.DeleteSession(id); err != nil {
 			slog.Error("Deleting session", "id", id, "error", err)

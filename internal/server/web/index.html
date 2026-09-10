@@ -379,9 +379,12 @@
   }
   #conv-list li:hover { background: #f0f7f6; }
   #conv-list li.active { background: var(--accent-light); color: var(--accent-dark); font-weight: 600; }
-  #conv-list .conv-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
-  #conv-list .conv-del { opacity: 0; border: none; background: none; cursor: pointer; color: var(--muted); font-size: 13px; padding: 0 2px; }
-  #conv-list li:hover .conv-del { opacity: 1; }
+#conv-list .conv-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
+  #conv-list .conv-ops { display: flex; gap: 4px; opacity: 0; transition: opacity .18s; }
+  #conv-list li:hover .conv-ops { opacity: 1; }
+  #conv-list .conv-op { border: none; background: none; cursor: pointer; color: var(--muted); font-size: 13px; padding: 2px 4px; border-radius: 4px; }
+  #conv-list .conv-op:hover { background: rgba(14,124,134,.1); color: var(--accent-dark); }
+  #conv-list .conv-del:hover { background: rgba(220,38,38,.1); color: #dc2626; }
   #conv-list .empty { color: var(--muted); text-align: center; padding: 20px 0; font-size: 13px; }
   .sidebar-foot { padding: 10px 16px; font-size: 11px; color: var(--muted); border-top: 1px solid var(--border); }
   #mask { position: fixed; inset: 0; background: rgba(0,0,0,.4); z-index: 90; display: none; }
@@ -596,7 +599,43 @@
     font: inherit; font-size: 12.5px; padding: 4px 12px; cursor: pointer;
   }
   .ans-share:hover, #share-conv:hover { color: var(--accent-dark); border-color: var(--accent-dark); }
-  .ans-share[disabled] { opacity: .55; cursor: default; }
+.ans-share[disabled] { opacity: .55; cursor: default; }
+
+/* 分享弹窗样式 */
+  .share-modal-overlay {
+    position: fixed; inset: 0; z-index: 1000;
+    background: rgba(10, 40, 50, 0.5); backdrop-filter: blur(4px);
+    display: flex; align-items: center; justify-content: center;
+    animation: fadeIn .2s ease;
+  }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .share-modal {
+    background: #fff; border-radius: 20px; padding: 28px 32px;
+    box-shadow: 0 12px 48px rgba(10, 80, 90, 0.25); min-width: 280px; max-width: 90vw;
+    animation: slideUp .25s ease; text-align: center;
+  }
+  @keyframes slideUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+  .share-modal-icon { font-size: 48px; line-height: 1; margin-bottom: 8px; }
+  .share-modal-title { font-size: 18px; font-weight: 700; color: var(--accent-dark); margin-bottom: 16px; }
+  .share-modal-qr { display: inline-block; padding: 12px; background: #f8fafa; border-radius: 12px; margin-bottom: 12px; }
+  .share-modal-qr canvas, .share-modal-qr img { display: block; }
+  .share-modal-qr-fallback { color: var(--muted); font-size: 13px; padding: 20px; }
+  .share-modal-tip { font-size: 13px; color: var(--muted); margin-bottom: 16px; }
+  .share-modal-link { display: flex; gap: 8px; margin-bottom: 16px; }
+  .share-modal-link input {
+    flex: 1; border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px;
+    font-size: 12px; color: var(--text); background: #f8fafa; min-width: 0;
+  }
+  .share-modal-copy {
+    background: var(--accent); color: #fff; border: none; border-radius: 8px;
+    padding: 8px 14px; font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap;
+  }
+  .share-modal-copy:hover { background: var(--accent-dark); }
+  .share-modal-close {
+    display: block; width: 100%; border: 1px solid var(--border); background: #fff;
+    color: var(--muted); border-radius: 10px; padding: 10px; font-size: 14px; cursor: pointer;
+  }
+  .share-modal-close:hover { background: #f8fafa; color: var(--text); }
 
   @media (max-width: 768px) {
     #chat { padding: 0 12px; }
@@ -804,6 +843,45 @@
     foot.appendChild(btn);
     line.appendChild(foot);
   }
+// 分享弹窗：显示网站图标 + 二维码
+  function showShareModal(url) {
+    var modal = document.createElement("div");
+    modal.className = "share-modal-overlay";
+    modal.innerHTML =
+      '<div class="share-modal">' +
+      '<div class="share-modal-icon">🏥</div>' +
+      '<div class="share-modal-title">分享问诊记录</div>' +
+      '<div class="share-modal-qr"></div>' +
+      '<div class="share-modal-tip">扫一扫打开分享链接</div>' +
+      '<div class="share-modal-link">' +
+      '<input type="text" readonly value="' + url.replace(/"/g, '&quot;') + '" />' +
+      '<button type="button" class="share-modal-copy">复制链接</button>' +
+      '</div>' +
+      '<button type="button" class="share-modal-close">关闭</button>' +
+      '</div>';
+    document.body.appendChild(modal);
+    // 生成二维码
+    var qrContainer = modal.querySelector(".share-modal-qr");
+    if (window.QRCode) {
+      new window.QRCode(qrContainer, { text: url, width: 180, height: 180, colorDark: "#0e7c86", colorLight: "#ffffff", correctLevel: window.QRCode.CorrectLevel.H });
+    } else {
+      qrContainer.innerHTML = '<div class="share-modal-qr-fallback">二维码库加载中...</div>';
+      fetch("https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js").then(function (r) { return r.text(); }).then(function (js) {
+        eval(js);
+        qrContainer.innerHTML = "";
+        new window.QRCode(qrContainer, { text: url, width: 180, height: 180, colorDark: "#0e7c86", colorLight: "#ffffff", correctLevel: window.QRCode.CorrectLevel.H });
+      }).catch(function () { qrContainer.innerHTML = '<div class="share-modal-qr-fallback">二维码加载失败</div>'; });
+    }
+    // 绑定复制按钮
+    modal.querySelector(".share-modal-copy").addEventListener("click", function () {
+      navigator.clipboard.writeText(url).then(function () {
+        this.textContent = "已复制";
+        setTimeout(function () { this.textContent = "复制链接"; }, 2000);
+      }.bind(this));
+    });
+    modal.querySelector(".share-modal-close").addEventListener("click", function () { modal.remove(); });
+    modal.addEventListener("click", function (e) { if (e.target === modal) modal.remove(); });
+  }
   async function doShare(scope, index, btn) {
     if (!state.convId) { showError("⚠️ 还没有可分享的对话"); return; }
     var oldText = btn.textContent;
@@ -817,17 +895,10 @@
       var obj = await resp.json();
       if (!resp.ok) throw new Error(obj.error || "分享失败（" + resp.status + "）");
       var url = location.origin + obj.url;
-      var copied = false;
-      try { await navigator.clipboard.writeText(url); copied = true; } catch (e) {}
-      if (copied) {
-        btn.textContent = "✅ 链接已复制";
-        setTimeout(function () { btn.textContent = oldText; btn.disabled = false; }, 1600);
-      } else {
-        window.prompt("复制分享链接", url);
-        btn.textContent = oldText; btn.disabled = false;
-      }
+      showShareModal(url);
     } catch (e) {
       showError("⚠️ " + e.message);
+    } finally {
       btn.textContent = oldText; btn.disabled = false;
     }
   }
@@ -1390,9 +1461,21 @@
     if (!resp.ok) throw new Error("加载对话失败（" + resp.status + "）");
     return await resp.json();
   }
-  async function apiDeleteConv(id) {
+async function apiDeleteConv(id) {
     var resp = await fetch("/sessions/" + encodeURIComponent(id), { method: "DELETE" });
     if (!resp.ok) throw new Error("删除失败（" + resp.status + "）");
+  }
+  async function apiRenameConv(id, newTitle) {
+    var resp = await fetch("/sessions/" + encodeURIComponent(id), {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ title: newTitle })
+    });
+    if (!resp.ok) throw new Error("重命名失败（" + resp.status + "）");
+    return await resp.json();
+  }
+  function apiExportConv(id) {
+    window.location.href = "/sessions/" + encodeURIComponent(id) + "?export=1";
   }
   async function saveHistory() {
     await loadConvs();
@@ -1425,7 +1508,7 @@
     }
   }
   function renderConvList() {
-    var ul = $("conv-list");
+var ul = $("conv-list");
     ul.innerHTML = "";
     if (!convsCache.length) {       ul.innerHTML = '<li class="empty">暂无历史对话<br>开始新的对话</li>'; return; }
     convsCache.forEach(function (c) {
@@ -1435,15 +1518,51 @@
       title.className = "conv-title";
       title.textContent = c.title || "新对话";
       title.addEventListener("click", function () { switchConv(c.id); });
+      // 右侧操作按钮容器
+      var ops = document.createElement("span");
+      ops.className = "conv-ops";
+      // 重命名按钮
+      var renameBtn = document.createElement("button");
+      renameBtn.className = "conv-op conv-rename";
+      renameBtn.textContent = "✏️";
+      renameBtn.title = "重命名";
+      renameBtn.addEventListener("click", function (e) { e.stopPropagation(); promptRenameConv(c.id, c.title); });
+      // 导出按钮
+      var exportBtn = document.createElement("button");
+      exportBtn.className = "conv-op conv-export";
+      exportBtn.textContent = "📥";
+      exportBtn.title = "导出为 JSON";
+      exportBtn.addEventListener("click", function (e) { e.stopPropagation(); apiExportConv(c.id); });
+      // 删除按钮
       var del = document.createElement("button");
-      del.className = "conv-del";
+      del.className = "conv-op conv-del";
       del.textContent = "✕";
       del.title = "删除该对话";
       del.addEventListener("click", function (e) { e.stopPropagation(); deleteConv(c.id); });
-      li.appendChild(title); li.appendChild(del);
+      ops.appendChild(renameBtn); ops.appendChild(exportBtn); ops.appendChild(del);
+      li.appendChild(title); li.appendChild(ops);
       ul.appendChild(li);
     });
   }
+  // 重命名会话
+  async function promptRenameConv(id, currentTitle) {
+    var newTitle = prompt("请输入新的对话标题：", currentTitle || "");
+    if (newTitle === null || newTitle === "") return;
+    newTitle = newTitle.trim();
+    if (newTitle === (currentTitle || "")) return;
+    try {
+      await apiRenameConv(id, newTitle);
+      await loadConvs();
+      renderConvList();
+      // 如果是当前会话，更新标题显示
+      if (state.convId === id) {
+        var currentTitleEl = document.querySelector(".conv-title");
+        if (currentTitleEl) currentTitleEl.textContent = newTitle;
+      }
+    } catch (e) {
+      showError("⚠️ " + e.message);
+    }
+}
   async function switchConv(id) {
     state.convId = id;
     transcript.innerHTML = "";

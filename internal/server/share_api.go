@@ -127,10 +127,10 @@ func (s *Server) handleShare(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	writeJSON(w, http.StatusOK, map[string]any{"id": shareID, "url": "/s/" + shareID})
+// 返回专用分享链接格式：/share/{id}，一眼可辨为分享链接
+	writeJSON(w, http.StatusOK, map[string]any{"id": shareID, "url": "/share/" + shareID})
 }
-
-// handleSharePage 渲染只读分享页：GET /s/{id}。
+// handleSharePage 渲染只读分享页：GET /share/{id}。
 func (s *Server) handleSharePage(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodGet {
 		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
@@ -140,7 +140,7 @@ func (s *Server) handleSharePage(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "分享功能需要数据库", http.StatusServiceUnavailable)
 		return
 	}
-	id := strings.TrimPrefix(r.URL.Path, "/s/")
+id := strings.TrimPrefix(r.URL.Path, "/share/")
 	if len(id) != 32 || !isHex(id) {
 		http.Error(w, "分享链接无效", http.StatusBadRequest)
 		return

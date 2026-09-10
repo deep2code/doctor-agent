@@ -30,9 +30,9 @@ type Config struct {
 	// model is text-only. Empty = route images to the main model as-is.
 	OpenAICompatVisionModel string
 
-	MaxTokens       int
-	Temperature     float64
-	MaxHistoryTurns int
+	MaxTokens         int
+	Temperature       float64
+	MaxHistoryTurns   int
 	MaxToolIterations int // max LLM tool-use loops per message (default 5)
 
 	// Knowledge Retrieval
@@ -124,21 +124,21 @@ type Config struct {
 // Load reads configuration from environment variables with sensible defaults.
 func Load() *Config {
 	return &Config{
-		LLMProvider:     getEnv("LLM_PROVIDER", "deepseek"),
-		AnthropicAPIKey: getEnv("ANTHROPIC_API_KEY", ""),
-		AnthropicModel:  getEnv("ANTHROPIC_MODEL", "claude-sonnet-4-20250514"),
+		LLMProvider:         getEnv("LLM_PROVIDER", "deepseek"),
+		AnthropicAPIKey:     getEnv("ANTHROPIC_API_KEY", ""),
+		AnthropicModel:      getEnv("ANTHROPIC_MODEL", "claude-sonnet-4-20250514"),
 		DeepSeekAPIKey:      getEnv("DEEPSEEK_API_KEY", ""),
-		DeepSeekModel:       getEnv("DEEPSEEK_MODEL", "deepseek-v4-flash"),
-		DeepSeekVisionModel: getEnv("DEEPSEEK_VISION_MODEL", "deepseek-v4-flash-vision-exp"),
+		DeepSeekModel:       getEnv("DEEPSEEK_MODEL", "deepseek-flash"),
+		DeepSeekVisionModel: getEnv("DEEPSEEK_VISION_MODEL", "deepseek-flash"),
 
 		OpenAICompatBaseURL:     getEnv("OPENAI_COMPAT_BASE_URL", ""),
 		OpenAICompatAPIKey:      getEnv("OPENAI_COMPAT_API_KEY", ""),
 		OpenAICompatModel:       getEnv("OPENAI_COMPAT_MODEL", ""),
 		OpenAICompatVisionModel: getEnv("OPENAI_COMPAT_VISION_MODEL", ""),
 
-		MaxTokens:        getEnvInt("MAX_TOKENS", 4096),
-		Temperature:      getEnvFloat("TEMPERATURE", 0.3),
-		MaxHistoryTurns:  getEnvInt("MAX_HISTORY_TURNS", 20),
+		MaxTokens:         getEnvInt("MAX_TOKENS", 4096),
+		Temperature:       getEnvFloat("TEMPERATURE", 0.3),
+		MaxHistoryTurns:   getEnvInt("MAX_HISTORY_TURNS", 20),
 		MaxToolIterations: getEnvInt("MAX_TOOL_ITERATIONS", 5),
 
 		KnowledgeTopK:    getEnvInt("KNOWLEDGE_TOP_K", 5),
@@ -168,9 +168,9 @@ func Load() *Config {
 		ServerHost: getEnv("SERVER_HOST", "0.0.0.0"),
 		ServerPort: getEnv("SERVER_PORT", "7071"),
 
-		APIKey:      getEnv("API_KEY", ""),
-		CORSOrigins: splitCSV(getEnv("CORS_ORIGINS", "")),
-		RateLimit:   getEnvInt("RATE_LIMIT", 0),
+		APIKey:        getEnv("API_KEY", ""),
+		CORSOrigins:   splitCSV(getEnv("CORS_ORIGINS", "")),
+		RateLimit:     getEnvInt("RATE_LIMIT", 0),
 		PublicBaseURL: strings.TrimRight(getEnv("PUBLIC_BASE_URL", ""), "/"),
 
 		SessionDir: getEnv("SESSION_DIR", ""),

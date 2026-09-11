@@ -136,8 +136,11 @@ type Store struct {
 	// TTD data (Therapeutic Target Database).
 	TTDData *TTDData
 
-	// SIDER drug side effects and indications.
+// SIDER drug side effects and indications.
 	SIDERData *SIDERDataSet
+
+	// Public resources: textbooks, videos, educational websites.
+	PublicResources []PublicResource
 }
 
 var globalStore *Store
@@ -494,6 +497,12 @@ func (s *Store) ingest(name string, raw []byte) error {
 			return err
 		}
 		s.DataVersion = &v
+	case DSPublicResources:
+		var r PublicResource
+		if err := json.Unmarshal(raw, &r); err != nil {
+			return err
+		}
+		s.PublicResources = append(s.PublicResources, r)
 	default:
 		// Unknown dataset — ignore.
 	}
@@ -600,6 +609,9 @@ func (s *Store) ensureTTD() error {
 func (s *Store) ensureSIDER() error {
 	return s.ensure(DSSIDER, func() error { return s.loadDataset(DSSIDER) })
 }
+func (s *Store) ensurePublicResources() error {
+	return s.ensure(DSPublicResources, func() error { return s.loadDataset(DSPublicResources) })
+}
 func (s *Store) ensureVersion() error {
 	return s.ensure(DSVersion, func() error { return s.loadDataset(DSVersion) })
 }
@@ -636,6 +648,7 @@ func (s *Store) ensureAll() {
 	_ = s.ensureHealthMyths()
 	_ = s.ensureBodyPart()
 	_ = s.ensureEssential()
+	_ = s.ensurePublicResources()
 	_ = s.ensureVersion()
 }
 

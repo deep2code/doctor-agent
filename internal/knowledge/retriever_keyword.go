@@ -491,3 +491,124 @@ func BM25Score(queryTokens []string, docTokens []string, idf *IDF, k1, b float64
 
 	return score
 }
+
+// minPublicResourceScore is the minimum score for a public resource to count as a match.
+const minPublicResourceScore = 1.0
+
+// RetrievePublicResources searches the public medical education resources.
+func (r *KeywordRetriever) RetrievePublicResources(ctx context.Context, query string, topK int) ([]PublicResourceResult, error) {
+	if topK <= 0 {
+		topK = 5
+	}
+	query = strings.TrimSpace(query)
+	if query == "" {
+		return nil, nil
+	}
+
+	queryLower := strings.ToLower(query)
+	// CJK substrings to search for: 2-6 rune windows covering the query.
+	cjkWindows := cjkWindows(query, 2, 6)
+	// Latin tokens for exact-ish matching.
+	tokens := tokenize(query)
+	var latin []string
+	for _, t := range tokens {
+		if !hasCJK(t) && len([]rune(t)) >= 2 {
+			latin = append(latin, t)
+		}
+	}
+	if len(cjkWindows) == 0 && len(latin) == 0 {
+		return nil, nil
+	}
+
+	var results []PublicResourceResult
+	r.store.ensurePublicResources()
+	for i := range r.store.PublicResources {
+		e := &r.store.PublicResources[i]
+		score, ok := scorePublicResource(e, queryLower, cjkWindows, latin)
+		if !ok || score < minPublicResourceScore {
+			continue
+		}
+		results = append(results, PublicResourceResult{Resource: *e, Score: score})
+	}
+
+	sort.Slice(results, func(i, j int) bool { return results[i].Score > results[j].Score })
+	if len(results) > topK {
+		results = results[:topK]
+	}
+	return results, nil
+}
+
+// scorePublicResource scores one public resource via keyword matching.
+// Uses prose-style scoring: name gets higher weight, category/keywords get medium weight,
+// description gets lower weight.
+func scorePublicResource(e *PublicResource, queryLower string, cjkWindows, latin []string) (float64, bool) {
+	var score float64
+	matchedAny := false
+
+	// 1. Full query match in name (highest priority)
+	nameLower := strings.ToLower(e.NameZH)
+	nameENLower := strings.ToLower(e.NameEN)
+	if strings.Contains(nameLower, queryLower) {
+		score += 20
+		matchedAny = true
+	} else if strings.Contains(nameENLower, queryLower) {
+		score += 18
+		matchedAny = true
+	}
+
+	// 2. Category match (high priority)
+	categoryLower := strings.ToLower(e.Category)
+	if strings.Contains(categoryLower, queryLower) {
+		score += 15
+		matchedAny = true
+	}
+
+	// 3. Keyword match (high priority)
+	keywordsLower := strings.ToLower(strings.Join(e.Keywords, " "))
+	if strings.Contains(keywordsLower, queryLower) {
+		score += 15
+		matchedAny = true
+	}
+
+	// 4. CJK substring matching in name (medium-high priority)
+	for _, cw := range cjkWindows {
+		if strings.Contains(nameLower, cw) {
+			score += 8
+			matchedAny = true
+		}
+		if strings.Contains(nameENLower, cw) {
+			score += 6
+			matchedAny = true
+		}
+	}
+
+	// 5. CJK matching in description (medium priority)
+	descLower := strings.ToLower(e.DescriptionZH)
+	descENLower := strings.ToLower(e.DescriptionEN)
+	for _, cw := range cjkWindows {
+		if strings.Contains(descLower, cw) {
+			score += 4
+			matchedAny = true
+		}
+		if strings.Contains(descENLower, cw) {
+			score += 3
+			matchedAny = true
+		}
+	}
+
+	// 6. Latin token matching (medium priority)
+	for _, lt := range latin {
+		if strings.Contains(nameLower, lt) || strings.Contains(nameENLower, lt) {
+			score += 6
+			matchedAny = true
+		} else if strings.Contains(keywordsLower, lt) {
+			score += 5
+			matchedAny = true
+		} else if strings.Contains(descLower, lt) || strings.Contains(descENLower, lt) {
+			score += 2
+			matchedAny = true
+		}
+	}
+
+	return score, matchedAny
+}

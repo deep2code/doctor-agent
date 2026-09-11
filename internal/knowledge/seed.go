@@ -264,6 +264,15 @@ func seedFile(base string, raw []byte) (string, []KBRow, error) {
 		}
 		rows, err := seedEntries(drugs)
 		return DSEssential, rows, err
+	case "public_resources.json":
+		var doc struct {
+			Resources []PublicResource `json:"resources"`
+		}
+		if err := json.Unmarshal(raw, &doc); err != nil {
+			return "", nil, err
+		}
+		rows, err := seedEntries(doc.Resources)
+		return DSPublicResources, rows, err
 	case "icd10_diseases.json":
 		var set ICD10DiseaseSet
 		if err := json.Unmarshal(raw, &set); err != nil {

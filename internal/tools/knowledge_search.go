@@ -46,7 +46,8 @@ func (t *KnowledgeSearch) Description() string {
 		"aap=美国儿科学会育儿百科, medline=MedlinePlus医学百科, literature=欧洲PMC文献, " +
 		"disease_encyclopedia=疾病百科(CMeKG 8807种疾病), huatuo_qa=华佗医疗问答(177K条), " +
 		"medical_qa=中文医疗问答(50万条), body_part=人体部位分诊, " +
-		"milestone=儿童发育里程碑, newborn_care=新生儿护理与筛查。"
+		"milestone=儿童发育里程碑, newborn_care=新生儿护理与筛查, " +
+		"public_resources=公共医学资源(教科书/视频/科普网站)。"
 }
 
 func (t *KnowledgeSearch) Schema() map[string]any {
@@ -825,4 +826,27 @@ func successResult(query, dataset string, results []map[string]any) *ToolResult 
 			"results":      results,
 		},
 	}
+}
+
+// searchPublicResources searches public medical education resources.
+func (t *KnowledgeSearch) searchPublicResources(ctx context.Context, query string, topK int) (*ToolResult, error) {
+	results, _ := t.keywordRetriever.RetrievePublicResources(ctx, query, topK)
+	if len(results) == 0 {
+		return emptyResult(query, "public_resources", "公共医学资源中未找到与 '%s' 直接相关的资源。")
+	}
+	resources := make([]map[string]any, 0, len(results))
+	for _, r := range results {
+		resources = append(resources, map[string]any{
+			"id":              r.Resource.ID,
+			"name_zh":        r.Resource.NameZH,
+			"name_en":        r.Resource.NameEN,
+			"category":       r.Resource.Category,
+			"description_zh": r.Resource.DescriptionZH,
+			"description_en": r.Resource.DescriptionEN,
+			"url":            r.Resource.URL,
+			"keywords":       r.Resource.Keywords,
+			"relevance":      r.Score,
+		})
+	}
+	return successResult(query, "public_resources", resources), nil
 }

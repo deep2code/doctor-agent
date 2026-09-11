@@ -199,6 +199,276 @@
       "description_en": "Official guidelines and policies from China NHC",
       "url": "https://www.nhc.gov.cn",
       "keywords": ["国家卫健委", "指南", "政策", "中国"]
+    },
+    {
+      "id": "pub_uptodate",
+      "name_zh": "UpToDate",
+      "name_en": "UpToDate",
+      "category": "教科书",
+      "description_zh": "基于循证医学的临床决策支持资源",
+      "description_en": "Evidence-based clinical decision support resource",
+      "url": "https://www.uptodate.com",
+      "keywords": ["UpToDate", "循证医学", "临床决策", "教科书"]
+    },
+    {
+      "id": "pub_cda",
+      "name_zh": "丁香园",
+      "name_en": "DXY (Dingxiangyuan)",
+      "category": "科普",
+      "description_zh": "中国最大的医学专业社区，提供医学资讯、病例讨论",
+      "description_en": "China's largest medical professional community",
+      "url": "https://www.dxy.cn",
+      "keywords": ["丁香园", "医学社区", "病例讨论", "医学资讯"]
+    },
+    {
+      "id": "pub_yaolan",
+      "name_zh": "育儿网",
+      "name_en": "Yaolan.com",
+      "category": "科普",
+      "description_zh": "育儿知识科普平台",
+      "description_en": "Parenting knowledge platform",
+      "url": "https://www.yaolan.com",
+      "keywords": ["育儿", "母婴", "科普", "健康"]
+    },
+    {
+      "id": "pub_39net",
+      "name_zh": "39健康网",
+      "name_en": "39 Health",
+      "category": "科普",
+      "description_zh": "健康科普门户",
+      "description_en": "Health popular science portal",
+      "url": "https://www.39.net",
+      "keywords": ["健康", "科普", "疾病", "医疗"]
+    },
+    {
+      "id": "pub_120",
+      "name_zh": "120健康网",
+      "name_en": "120 Health",
+      "category": "科普",
+      "description_zh": "健康科普资讯网站",
+      "description_en": "Health information website",
+      "url": "https://www.120.net",
+      "keywords": ["健康", "科普", "疾病", "养生"]
+    },
+    {
+      "id": "pub_baike",
+      "name_zh": "医学百科",
+      "name_en": "Medical Encyclopedia",
+      "category": "科普",
+      "description_zh": "医学知识百科全书",
+      "description_en": "Medical knowledge encyclopedia",
+      "url": "https://www.wiki8.com",
+      "keywords": ["医学百科", "wiki", "知识库", "科普"]
+    },
+    {
+      "id": "pub_zhihu",
+      "name_zh": "知乎医学专栏",
+      "name_en": "Zhihu Medical Column",
+      "category": "科普",
+      "description_zh": "知乎医学话题下的专业回答",
+      "description_en": "Professional medical answers on Zhihu",
+      "url": "https://www.zhihu.com/topic/医学",
+      "keywords": ["知乎", "医学", "科普", "问答"]
+    },
+    {
+      "id": "pub_bmj",
+      "name_zh": "BMJ 循证医学",
+      "name_en": "BMJ Best Practice",
+      "category": "教科书",
+      "description_zh": "BMJ循证医学临床决策工具",
+      "description_en": "BMJ evidence-based clinical decision support",
+      "url": "https://bestpractice.bmj.com",
+      "keywords": ["BMJ", "循证医学", "临床决策", "教科书"]
+    },
+    {
+      "id": "pub_medsci",
+      "name_zh": "梅斯医学",
+      "name_en": "MedSci",
+      "category": "科普",
+      "description_zh": "医学学术资讯平台",
+      "description_en": "Medical academic information platform",
+      "url": "https://www.medsci.cn",
+      "keywords": ["医学", "学术", "研究", "科普"]
+    },
+    {
+      "id": "pub_guideline",
+      "name_zh": "临床指南库",
+      "name_en": "Clinical Guidelines",
+      "category": "指南",
+      "description_zh": "国内外临床指南汇总",
+      "description_en": "Collection of domestic and international clinical guidelines",
+      "url": "https://www.guideline.gov",
+      "keywords": ["指南", "临床", "诊疗规范", "循证"]
+    },
+    {
+      "id": "pub_cnki",
+      "name_zh": "中国知网",
+      "name_en": "CNKI",
+      "category": "文献数据库",
+      "description_zh": "中国最大的学术文献数据库",
+      "description_en": "China's largest academic literature database",
+      "url": "https://www.cnki.net",
+      "keywords": ["知网", "文献", "论文", "学术"]
+    },
+    {
+      "id": "pub_wanfang",
+      "name_zh": "万方数据",
+      "name_en": "Wanfang Data",
+      "category": "文献数据库",
+      "description_zh": "中国学术文献数据库",
+      "description_en": "Chinese academic literature database",
+      "url": "https://www.wanfangdata.com.cn",
+      "keywords": ["万方", "文献", "论文", "学术"]
+    },
+    {
+      "id": "pub_nejm",
+      "name_zh": "新英格兰医学杂志",
+      "name_en": "NEJM",
+      "category": "文献数据库",
+      "description_zh": "NEJM 官方网站的医学研究文章",
+      "description_en": "Medical research articles from NEJM",
+      "url": "https://www.nejm.org",
+      "keywords": ["NEJM", "新英格兰", "医学杂志", "研究"]
+    },
+    {
+      "id": "pub_lancet",
+      "name_zh": "柳叶刀",
+      "name_en": "The Lancet",
+      "category": "文献数据库",
+      "description_zh": "The Lancet 官方网站的医学研究文章",
+      "description_en": "Medical research articles from The Lancet",
+      "url": "https://www.thelancet.com",
+      "keywords": ["柳叶刀", "Lancet", "医学杂志", "研究"]
+    },
+    {
+      "id": "pub_jama",
+      "name_zh": "JAMA",
+      "name_en": "JAMA Network",
+      "category": "文献数据库",
+      "description_zh": "JAMA 网络的医学研究文章",
+      "description_en": "Medical research articles from JAMA Network",
+      "url": "https://jamanetwork.com",
+      "keywords": ["JAMA", "美国医学会", "医学杂志", "研究"]
+    },
+    {
+      "id": "pub_ Cochran",
+      "name_zh": "Cochrane 图书馆",
+      "name_en": "Cochrane Library",
+      "category": "文献数据库",
+      "description_zh": "Cochrane 系统评价数据库",
+      "description_en": "Cochrane systematic review database",
+      "url": "https://www.cochranelibrary.com",
+      "keywords": ["Cochrane", "系统评价", "循证医学", "meta分析"]
+    },
+    {
+      "id": "pub_mayoclinic",
+      "name_zh": "Mayo Clinic",
+      "name_en": "Mayo Clinic",
+      "category": "科普",
+      "description_zh": "Mayo Clinic 官方健康信息",
+      "description_en": "Mayo Clinic official health information",
+      "url": "https://www.mayoclinic.org",
+      "keywords": ["Mayo Clinic", "健康信息", "疾病", "科普"]
+    },
+    {
+      "id": "pub_webmd",
+      "name_zh": "WebMD",
+      "name_en": "WebMD",
+      "category": "科普",
+      "description_zh": "美国领先的健康信息网站",
+      "description_en": "Leading US health information website",
+      "url": "https://www.webmd.com",
+      "keywords": ["WebMD", "健康信息", "疾病", "科普"]
+    },
+    {
+      "id": "pub_healthline",
+      "name_zh": "Healthline",
+      "name_en": "Healthline",
+      "category": "科普",
+      "description_zh": "美国健康信息网站",
+      "description_en": "US health information website",
+      "url": "https://www.healthline.com",
+      "keywords": ["Healthline", "健康信息", "疾病", "科普"]
+    },
+    {
+      "id": "pub_默沙东中国",
+      "name_zh": "MSD 中国",
+      "name_en": "MSD China",
+      "category": "科普",
+      "description_zh": "默沙东中国官网的患者教育资料",
+      "description_en": "MSD China patient education materials",
+      "url": "https://www.msdchina.com.cn",
+      "keywords": ["默沙东", "MSD", "患者教育", "药品信息"]
+    },
+    {
+      "id": "pub_丁香医生",
+      "name_zh": "丁香医生",
+      "name_en": "DXY Doctor",
+      "category": "科普",
+      "description_zh": "丁香园旗下面向大众的健康科普平台",
+      "description_en": "DXY's health popular science platform for the public",
+      "url": "https://www.dxy.cn/bbs",
+      "keywords": ["丁香医生", "健康科普", "在线问诊", "医疗"]
+    },
+    {
+      "id": "pub_春雨医生",
+      "name_zh": "春雨医生",
+      "name_en": "Chunyu Doctor",
+      "category": "科普",
+      "description_zh": "在线健康咨询平台",
+      "description_en": "Online health consultation platform",
+      "url": "https://www.chunyuyisheng.com",
+      "keywords": ["春雨医生", "在线问诊", "健康咨询", "科普"]
+    },
+    {
+      "id": "pub_好大夫",
+      "name_zh": "好大夫在线",
+      "name_en": "Haodf",
+      "category": "科普",
+      "description_zh": "在线医疗咨询平台",
+      "description_en": "Online medical consultation platform",
+      "url": "https://www.haodf.com",
+      "keywords": ["好大夫", "在线问诊", "挂号", "医疗"]
+    },
+    {
+      "id": "pub_微医",
+      "name_zh": "微医",
+      "name_en": "WeDoctor",
+      "category": "科普",
+      "description_zh": "在线医疗健康服务平台",
+      "description_en": "Online medical health service platform",
+      "url": "https://www.guahao.com",
+      "keywords": ["微医", "挂号", "在线问诊", "医疗"]
+    },
+    {
+      "id": "pub_医学慕课",
+      "name_zh": "医学慕课网",
+      "name_en": "MOOE",
+      "category": "公开课",
+      "description_zh": "医学MOOC平台",
+      "description_en": "Medical MOOC platform",
+      "url": "https://www.mooe.cn",
+      "keywords": ["MOOC", "医学课程", "在线学习", "公开课"]
+    },
+    {
+      "id": "pub_人卫慕课",
+      "name_zh": "人卫慕课",
+      "name_en": "PHEP MOOC",
+      "category": "公开课",
+      "description_zh": "人民卫生出版社医学在线教育平台",
+      "description_en": "People's Medical Publishing House MOOC platform",
+      "url": "https://www.pmphmooc.com",
+      "keywords": ["人卫", "慕课", "医学课程", "在线学习"]
+    },
+    {
+      "id": "pub_中医古籍",
+      "name_zh": "中医古籍数据库",
+      "name_en": "TCM Classics Database",
+      "category": "教科书",
+      "description_zh": "中医经典古籍数据库",
+      "description_en": "Traditional Chinese Medicine classics database",
+      "url": "https://www.zhongyiguji.com",
+      "keywords": ["中医", "古籍", "经典", "中医药"]
     }
   ]
 }

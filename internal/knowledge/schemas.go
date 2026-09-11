@@ -388,3 +388,21 @@ type SIDERDataSet struct {
 	DrugCount   int         `json:"drug_count"`
 	Drugs       []SIDERDrug `json:"drugs"`
 }
+
+// PublicResource represents a public medical education resource.
+type PublicResource struct {
+	ID            string   `json:"id"`
+	NameZH        string   `json:"name_zh"`
+	NameEN        string   `json:"name_en"`
+	Category      string   `json:"category"`
+	DescriptionZH string   `json:"description_zh"`
+	DescriptionEN string   `json:"description_en"`
+	URL           string   `json:"url"`
+	Keywords      []string `json:"keywords"`
+}
+
+// PublicResourceResult wraps a public resource with its relevance score.
+type PublicResourceResult struct {
+	Resource PublicResource `json:"resource"`
+	Score    float64        `json:"score"`
+}

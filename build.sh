@@ -71,7 +71,7 @@ build_app() {
   fi
   command -v go >/dev/null 2>&1 || {
     echo "  错误: 打包机找不到 go (host compile 模式)。装 Go 1.21+ 后重试:"
-    echo "    wget -qO- https://golang.google.cn/dl/go1.26.0.linux-amd64.tar.gz | tar xz -C /usr/local"
+    echo "    wget -qO- https://golang.google.cn/dl/go1.27.1.linux-amd64.tar.gz | tar xz -C /usr/local"
     echo "    并确认 /usr/local/go/bin/go 存在 (脚本会自动探测该路径)"
     exit 1
   }

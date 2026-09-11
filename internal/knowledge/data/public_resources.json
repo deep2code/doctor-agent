@@ -469,6 +469,176 @@
       "description_en": "Traditional Chinese Medicine classics database",
       "url": "https://www.zhongyiguji.com",
       "keywords": ["中医", "古籍", "经典", "中医药"]
+    },
+    {
+      "id": "pub_medlive_guideline",
+      "name_zh": "医脉通临床指南库",
+      "name_en": "MedLive Clinical Guidelines",
+      "category": "指南",
+      "description_zh": "中华医学会等官方机构发布的临床诊疗指南数据库，包含最新2024-2025年指南",
+      "description_en": "Clinical guidelines database from Chinese Medical Association and other official bodies",
+      "url": "https://guide.medlive.cn",
+      "keywords": ["临床指南", "医脉通", "中华医学会", "诊疗规范", "2024", "2025"]
+    },
+    {
+      "id": "pub_yaozh_cpg",
+      "name_zh": "药智数据临床指南数据库",
+      "name_en": "Yaozh Clinical Practice Guidelines",
+      "category": "指南",
+      "description_zh": "国内外临床指南汇总数据库，包含CSCO指南、中华医学会指南等",
+      "description_en": "Domestic and international clinical guidelines database",
+      "url": "https://db.yaozh.com/cpg",
+      "keywords": ["临床指南", "CSCO", "中华医学会", "诊疗规范", "药智"]
+    },
+    {
+      "id": "pub_chinacdc_flu",
+      "name_zh": "中国疾控中心流感疫苗接种指南",
+      "name_en": "China CDC Flu Vaccination Guidelines",
+      "category": "指南",
+      "description_zh": "中国疾病预防控制中心发布的年度流感疫苗预防接种技术指南",
+      "description_en": "Annual flu vaccination technical guidelines from China CDC",
+      "url": "https://www.chinacdc.cn",
+      "keywords": ["流感疫苗", "接种指南", "中国疾控中心", "疫苗接种"]
+    },
+    {
+      "id": "pub_who_guidelines",
+      "name_zh": "WHO指南数据库",
+      "name_en": "WHO Guidelines Database",
+      "category": "指南",
+      "description_zh": "世界卫生组织官方指南数据库，包含全球健康指南、报告和培训材料",
+      "description_en": "WHO official guidelines database with global health guidelines",
+      "url": "https://www.who.int/publications/i/guidelines",
+      "keywords": ["WHO", "世界卫生组织", "指南", "全球健康", "国际指南"]
+    },
+    {
+      "id": "pub_nmpa_database",
+      "name_zh": "国家药监局数据查询",
+      "name_en": "NMPA Data Query",
+      "category": "数据库",
+      "description_zh": "国家药品监督管理局官方数据查询平台，可查询药品、医疗器械、化妆品注册信息",
+      "description_en": "Official NMPA data query platform for drugs, medical devices, cosmetics",
+      "url": "https://www.nmpa.gov.cn/datasearch/home-index.html",
+      "keywords": ["国家药监局", "NMPA", "药品查询", "医疗器械", "数据查询"]
+    },
+    {
+      "id": "pub_fda_guidelines",
+      "name_zh": "FDA指南数据库",
+      "name_en": "FDA Guidelines Database",
+      "category": "指南",
+      "description_zh": "美国食品药品监督管理局官方指南数据库，包含药物、器械、食品安全指南",
+      "description_en": "FDA official guidelines database for drugs, devices, food safety",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents",
+      "keywords": ["FDA", "美国药监局", "指南", "药物指南", "医疗器械指南"]
+    },
+    {
+      "id": "pub_aids_guideline",
+      "name_zh": "中国艾滋病诊疗指南2024",
+      "name_en": "China AIDS Diagnosis and Treatment Guidelines 2024",
+      "category": "指南",
+      "description_zh": "中华医学会感染病学分会发布的艾滋病诊疗指南2024版",
+      "description_en": "AIDS diagnosis and treatment guidelines 2024 by Chinese Medical Association",
+      "url": "https://nmcid.huashan.org.cn",
+      "keywords": ["艾滋病", "HIV", "诊疗指南", "中华医学会", "2024"]
+    },
+    {
+      "id": "pub_obesity_guideline_2024",
+      "name_zh": "肥胖症诊疗指南2024",
+      "name_en": "Obesity Diagnosis and Treatment Guidelines 2024",
+      "category": "指南",
+      "description_zh": "国家卫健委发布的肥胖症诊疗指南(2024年版)，规范肥胖症临床诊疗",
+      "description_en": "NHC obesity diagnosis and treatment guidelines 2024",
+      "url": "https://www.nhc.gov.cn",
+      "keywords": ["肥胖症", "诊疗指南", "国家卫健委", "体重管理", "2024"]
+    },
+    {
+      "id": "pub_cirrhosis_guideline_2025",
+      "name_zh": "肝硬化临床诊治管理指南2025",
+      "name_en": "Cirrhosis Clinical Diagnosis and Treatment Guidelines 2025",
+      "category": "指南",
+      "description_zh": "中华医学会肝病学分会发布的肝硬化临床诊治管理指南2025版",
+      "description_en": "Cirrhosis clinical guidelines 2025 by Chinese Medical Association Hepatology Society",
+      "url": "https://guide.medlive.cn/guide_v2/1/36867",
+      "keywords": ["肝硬化", "诊疗指南", "中华医学会", "肝病", "2025"]
+    },
+    {
+      "id": "pub_hypertension_guideline_2024",
+      "name_zh": "中国高血压防治指南2024",
+      "name_en": "China Hypertension Prevention Guidelines 2024",
+      "category": "指南",
+      "description_zh": "中国高血压防治指南修订委员会发布的高血压防治指南2024年修订版",
+      "description_en": "China hypertension prevention and treatment guidelines 2024",
+      "url": "https://m.medlive.cn/guide",
+      "keywords": ["高血压", "诊疗指南", "心血管", "血压管理", "2024"]
+    },
+    {
+      "id": "pub_diabetes_guideline_2024",
+      "name_zh": "中国糖尿病防治指南2024",
+      "name_en": "China Diabetes Prevention Guidelines 2024",
+      "category": "指南",
+      "description_zh": "中华医学会糖尿病学分会发布的中国糖尿病防治指南2024版",
+      "description_en": "China diabetes prevention and treatment guidelines 2024",
+      "url": "https://diab.cma.org.cn",
+      "keywords": ["糖尿病", "诊疗指南", "中华医学会", "血糖管理", "2024"]
+    },
+    {
+      "id": "pub_lung_cancer_guideline_2025",
+      "name_zh": "中华医学会肺癌临床诊疗指南2025",
+      "name_en": "Lung Cancer Clinical Diagnosis Guidelines 2025",
+      "category": "指南",
+      "description_zh": "中华医学会肺癌临床诊疗指南2025版，包含最新肺癌诊疗方案",
+      "description_en": "Lung cancer clinical guidelines 2025 by Chinese Medical Association",
+      "url": "https://www.caivd-org.cn",
+      "keywords": ["肺癌", "诊疗指南", "中华医学会", "肿瘤", "2025"]
+    },
+    {
+      "id": "pub_flu_2025",
+      "name_zh": "流行性感冒诊疗方案2025",
+      "name_en": "Influenza Diagnosis and Treatment Protocol 2025",
+      "category": "指南",
+      "description_zh": "国家卫健委发布的流行性感冒诊疗方案2025年版",
+      "description_en": "Influenza diagnosis and treatment protocol 2025 by NHC",
+      "url": "https://www.nhc.gov.cn",
+      "keywords": ["流感", "诊疗方案", "国家卫健委", "甲流", "2025"]
+    },
+    {
+      "id": "pub_who_atlas_mental_health",
+      "name_zh": "WHO心理健康地图集2024",
+      "name_en": "WHO Mental Health Atlas 2024",
+      "category": "指南",
+      "description_zh": "世界卫生组织对各国心理健康政策和计划的定期调查和报告",
+      "description_en": "WHO periodic survey on mental health policies and programs worldwide",
+      "url": "https://www.who.int/publications/i/item/mental-health-atlas-2022",
+      "keywords": ["心理健康", "WHO", "精神卫生", "Atlas", "2024"]
+    },
+    {
+      "id": "pub_who_tb_report_2024",
+      "name_zh": "WHO全球结核病报告2024",
+      "name_en": "WHO Global Tuberculosis Report 2024",
+      "category": "报告",
+      "description_zh": "世界卫生组织发布的2024年全球结核病流行情况报告",
+      "description_en": "WHO global tuberculosis epidemic report 2024",
+      "url": "https://www.who.int/publications/i/item/9789240101531",
+      "keywords": ["结核病", "TB", "WHO", "全球报告", "2024"]
+    },
+    {
+      "id": "pub_who_patient_safety_2024",
+      "name_zh": "WHO全球患者安全报告2024",
+      "name_en": "WHO Global Patient Safety Report 2024",
+      "category": "报告",
+      "description_zh": "世界卫生组织发布的2024年全球患者安全报告",
+      "description_en": "WHO global patient safety report 2024",
+      "url": "https://www.who.int/publications/i/item/9789240095458",
+      "keywords": ["患者安全", "WHO", "医疗安全", "全球报告", "2024"]
+    },
+    {
+      "id": "pub_cde",
+      "name_zh": "国家药品审评中心",
+      "name_en": "CDE NMPA",
+      "category": "数据库",
+      "description_zh": "国家药品监督管理局药品审评中心官方网站，发布药品审评动态和指导原则",
+      "description_en": "China Drug Evaluation official website",
+      "url": "https://www.cde.org.cn",
+      "keywords": ["药品审评", "CDE", "国家药监局", "新药", "审评"]
     }
   ]
 }

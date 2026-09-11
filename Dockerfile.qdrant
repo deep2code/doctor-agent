@@ -44,7 +44,7 @@
 #   payload），arm64 烘焙的 storage 可直接拷入 amd64 最终镜像。
 
 # ---------- stage 1: 编译独立烘焙工具 ./cmd/vector-bake（不依赖 app 镜像） ----------
-FROM --platform=$BUILDPLATFORM golang:1.26-alpine AS build
+FROM --platform=$BUILDPLATFORM golang:1.27-alpine AS build
 
 RUN sed -i 's#dl-cdn.alpinelinux.org#mirrors.aliyun.com#g' /etc/apk/repositories \
     && apk add --no-cache ca-certificates git

@@ -639,6 +639,106 @@
       "description_en": "China Drug Evaluation official website",
       "url": "https://www.cde.org.cn",
       "keywords": ["药品审评", "CDE", "国家药监局", "新药", "审评"]
+    },
+    {
+      "id": "pub_chp_2025",
+      "name_zh": "中国药典2025网络版",
+      "name_en": "Chinese Pharmacopoeia 2025 Online",
+      "category": "数据库",
+      "description_zh": "国家药典委员会官方发布的2025年版《中华人民共和国药典》网络版，面向公众免费开放查询",
+      "description_en": "Official 2025 Chinese Pharmacopoeia online database by National Pharmacopoeia Commission",
+      "url": "https://2025.chp.org.cn",
+      "keywords": ["中国药典", "药典", "2025", "药品标准", "国家药典委"]
+    },
+    {
+      "id": "pub_essential_medicines_2018",
+      "name_zh": "国家基本药物目录2018",
+      "name_en": "National Essential Medicines List 2018",
+      "category": "数据库",
+      "description_zh": "国家卫健委发布的国家基本药物目录，包含685种药品(西药417种、中成药268种)",
+      "description_en": "NHC national essential medicines list with 685 drugs",
+      "url": "https://www.nmpa.gov.cn/datasearch/home-index.html?79QlcAyHig6m=1658898341929#category=yp",
+      "keywords": ["基本药物目录", "基药", "医保", "药品目录", "2018"]
+    },
+    {
+      "id": "pub_insurance_drugs_2024",
+      "name_zh": "国家医保药品目录2024",
+      "name_en": "National Medical Insurance Drug Catalogue 2024",
+      "category": "数据库",
+      "description_zh": "国家医保局发布的国家基本医疗保险药品目录，可通过医保服务平台查询",
+      "description_en": "National medical insurance drug catalogue 2024 by China NHSA",
+      "url": "https://www.nhsa.gov.cn",
+      "keywords": ["医保药品目录", "医保", "药品报销", "国家医保局", "2024"]
+    },
+    {
+      "id": "pub_nccn_china",
+      "name_zh": "NCCN指南中文版",
+      "name_en": "NCCN Guidelines Chinese Version",
+      "category": "指南",
+      "description_zh": "美国国家综合癌症网络(NCCN)肿瘤临床实践指南中文版，由医脉通翻译授权",
+      "description_en": "NCCN cancer clinical practice guidelines in Chinese, translated by MedLive",
+      "url": "https://guide.medlive.cn/guideline",
+      "keywords": ["NCCN", "肿瘤指南", "癌症", "临床指南", "中文"]
+    },
+    {
+      "id": "pub_csco_guidelines",
+      "name_zh": "CSCO肿瘤诊疗指南",
+      "name_en": "CSCO Cancer Treatment Guidelines",
+      "category": "指南",
+      "description_zh": "中国临床肿瘤学会(CSCO)发布的肿瘤诊疗指南，被誉为中国的NCCN指南",
+      "description_en": "CSCO cancer treatment guidelines, Chinese equivalent of NCCN",
+      "url": "https://www.csco.org.cn",
+      "keywords": ["CSCO", "肿瘤指南", "癌症", "临床指南", "中国临床肿瘤学会"]
+    },
+    {
+      "id": "pub_lab_reference_standards",
+      "name_zh": "临床检验参考区间标准",
+      "name_en": "Clinical Laboratory Reference Intervals",
+      "category": "标准",
+      "description_zh": "国家卫健委发布的临床检验项目参考区间行业标准，包含血常规、生化、免疫等15项标准",
+      "description_en": "NHC clinical laboratory reference interval standards",
+      "url": "https://www.nhc.gov.cn",
+      "keywords": ["检验参考值", "正常值", "血常规", "生化", "行业标准"]
+    },
+    {
+      "id": "pub_nmpa_drug_standards",
+      "name_zh": "药品标准数据库",
+      "name_en": "NMPA Drug Standards Database",
+      "category": "数据库",
+      "description_zh": "国家药品监督管理局药品标准信息查询系统",
+      "description_en": "NMPA drug standards information query system",
+      "url": "https://www.nmpa.gov.cn/datasearch/home-index.html",
+      "keywords": ["药品标准", "药典标准", "NMPA", "标准查询"]
+    },
+    {
+      "id": "pub_nmpa_approved",
+      "name_zh": "药品批准文号查询",
+      "name_en": "NMPA Drug Approval Number Query",
+      "category": "数据库",
+      "description_zh": "国家药品监督管理局国产药品和进口药品批准文号查询",
+      "description_en": "NMPA domestic and imported drug approval number query",
+      "url": "https://www.nmpa.gov.cn/datasearch/app-search.html?searchTab=1",
+      "keywords": ["批准文号", "药品注册", "国药准字", "药品查询"]
+    },
+    {
+      "id": "pub_nmpa_medical_devices",
+      "name_zh": "医疗器械注册查询",
+      "name_en": "NMPA Medical Device Registration Query",
+      "category": "数据库",
+      "description_zh": "国家药品监督管理局医疗器械注册信息查询",
+      "description_en": "NMPA medical device registration information query",
+      "url": "https://www.nmpa.gov.cn/datasearch/home-index.html?79QlcAyHig6m=1659676758519#category=ylqx",
+      "keywords": ["医疗器械", "注册证", "NMPA", "器械查询"]
+    },
+    {
+      "id": "pub_china_cdc_guidelines",
+      "name_zh": "中国疾控中心防控指南",
+      "name_en": "China CDC Disease Control Guidelines",
+      "category": "指南",
+      "description_zh": "中国疾病预防控制中心发布的传染病防控指南和技术方案",
+      "description_en": "China CDC infectious disease control guidelines and technical protocols",
+      "url": "https://www.chinacdc.cn",
+      "keywords": ["中国疾控中心", "传染病", "防控指南", "CDC"]
     }
   ]
 }

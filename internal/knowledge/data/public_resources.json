@@ -8,7 +8,14 @@
       "description_zh": "美国国家医学图书馆提供的免费在线生物医学书籍库，收录超过13,000本书籍和文档",
       "description_en": "Free online access to books and documents in life science and healthcare",
       "url": "https://www.ncbi.nlm.nih.gov/books",
-      "keywords": ["教科书", "医学书籍", "生物医学", "免费", "NCBI", "NLM"]
+      "keywords": [
+        "教科书",
+        "医学书籍",
+        "生物医学",
+        "免费",
+        "NCBI",
+        "NLM"
+      ]
     },
     {
       "id": "pub_openstax",
@@ -18,7 +25,14 @@
       "description_zh": "免费大学教科书，包括生物学、解剖学、生理学等医学相关课程",
       "description_en": "Free college textbooks including biology, anatomy, physiology",
       "url": "https://openstax.org",
-      "keywords": ["教科书", "免费", "生物学", "解剖学", "生理学", "大学教材"]
+      "keywords": [
+        "教科书",
+        "免费",
+        "生物学",
+        "解剖学",
+        "生理学",
+        "大学教材"
+      ]
     },
     {
       "id": "pub_osmosis",
@@ -28,7 +42,13 @@
       "description_zh": "爱思唯尔旗下的可视化医学学习平台，包含1,800+医学动画视频、22,000道习题",
       "description_en": "Visual learning platform with 1800+ medical animation videos",
       "url": "https://www.osmosis.org",
-      "keywords": ["教学视频", "医学动画", "习题", "备考", "Osmosis"]
+      "keywords": [
+        "教学视频",
+        "医学动画",
+        "习题",
+        "备考",
+        "Osmosis"
+      ]
     },
     {
       "id": "pub_osmosis_bilibili",
@@ -38,7 +58,13 @@
       "description_zh": "Osmosis 中文翻译站，由中国医学生自发运营，已翻译200+视频",
       "description_en": "Osmosis Chinese translation station on Bilibili",
       "url": "https://space.bilibili.com/3938491",
-      "keywords": ["教学视频", "医学动画", "中文", "B站", "Osmosis"]
+      "keywords": [
+        "教学视频",
+        "医学动画",
+        "中文",
+        "B站",
+        "Osmosis"
+      ]
     },
     {
       "id": "pub_open163",
@@ -48,7 +74,13 @@
       "description_zh": "翻译自哈佛、MIT、斯坦福等世界名校的医学课程视频",
       "description_en": "Translated medical courses from Harvard, MIT, Stanford",
       "url": "https://open.163.com",
-      "keywords": ["公开课", "网易", "医学课程", "视频", "名校"]
+      "keywords": [
+        "公开课",
+        "网易",
+        "医学课程",
+        "视频",
+        "名校"
+      ]
     },
     {
       "id": "pub_icourses",
@@ -58,7 +90,12 @@
       "description_zh": "教育部国家精品课程平台，提供中国大学视频公开课",
       "description_en": "Ministry of Education premium courses platform",
       "url": "https://www.icourses.cn",
-      "keywords": ["公开课", "中国大学", "精品课程", "教育部"]
+      "keywords": [
+        "公开课",
+        "中国大学",
+        "精品课程",
+        "教育部"
+      ]
     },
     {
       "id": "pub_ccmtv",
@@ -68,7 +105,12 @@
       "description_zh": "医学专业视频平台，包括病例讨论、手术视频、医学会议",
       "description_en": "Medical video platform with case discussions, surgery videos, conferences",
       "url": "https://www.ccmtv.cn",
-      "keywords": ["手术视频", "病例讨论", "医学会议", "临床"]
+      "keywords": [
+        "手术视频",
+        "病例讨论",
+        "医学会议",
+        "临床"
+      ]
     },
     {
       "id": "pub_med66",
@@ -78,7 +120,12 @@
       "description_zh": "医学考试培训网站，提供执业医师考试等视频课程",
       "description_en": "Medical exam preparation video courses",
       "url": "https://www.med66.com",
-      "keywords": ["医学教育", "考试", "执业医师", "视频课程"]
+      "keywords": [
+        "医学教育",
+        "考试",
+        "执业医师",
+        "视频课程"
+      ]
     },
     {
       "id": "pub_pubmed_central",
@@ -88,7 +135,13 @@
       "description_zh": "NIH提供的免费生物医学文献全文数据库",
       "description_en": "Free full-text biomedical literature archive by NIH",
       "url": "https://pubmed.ncbi.nlm.nih.gov",
-      "keywords": ["文献", "PubMed", "免费", "全文", "生物医学"]
+      "keywords": [
+        "文献",
+        "PubMed",
+        "免费",
+        "全文",
+        "生物医学"
+      ]
     },
     {
       "id": "pub_highwire",
@@ -98,7 +151,12 @@
       "description_zh": "斯坦福大学出版的免费医学文献平台",
       "description_en": "Free medical literature by Stanford University",
       "url": "https://highwire.stanford.edu",
-      "keywords": ["文献", "斯坦福", "免费", "医学"]
+      "keywords": [
+        "文献",
+        "斯坦福",
+        "免费",
+        "医学"
+      ]
     },
     {
       "id": "pub_medlineplus",
@@ -108,7 +166,13 @@
       "description_zh": "NIH面向公众的健康信息网站，提供医学百科和科普视频",
       "description_en": "NIH health information for patients",
       "url": "https://medlineplus.gov",
-      "keywords": ["科普", "健康", "NIH", "医学百科", "公众"]
+      "keywords": [
+        "科普",
+        "健康",
+        "NIH",
+        "医学百科",
+        "公众"
+      ]
     },
     {
       "id": "pub_merck_manual",
@@ -118,7 +182,12 @@
       "description_zh": "全球最权威的医学参考手册之一，有专业版和公众版",
       "description_en": "One of the most authoritative medical reference manuals",
       "url": "https://www.merckmanuals.com",
-      "keywords": ["默克", "诊疗手册", "医学参考", "教科书"]
+      "keywords": [
+        "默克",
+        "诊疗手册",
+        "医学参考",
+        "教科书"
+      ]
     },
     {
       "id": "pub_who",
@@ -128,7 +197,12 @@
       "description_zh": "WHO官方指南、报告和培训材料",
       "description_en": "Official WHO guidelines, reports and training materials",
       "url": "https://www.who.int",
-      "keywords": ["WHO", "世界卫生组织", "指南", "全球健康"]
+      "keywords": [
+        "WHO",
+        "世界卫生组织",
+        "指南",
+        "全球健康"
+      ]
     },
     {
       "id": "pub_bilibili_medical",
@@ -138,7 +212,12 @@
       "description_zh": "B站医学科普视频合集",
       "description_en": "Medical popular science videos on Bilibili",
       "url": "https://search.bilibili.com/article?keyword=%E5%8C%BB%E5%AD%A6",
-      "keywords": ["B站", "医学科普", "视频", "科普"]
+      "keywords": [
+        "B站",
+        "医学科普",
+        "视频",
+        "科普"
+      ]
     },
     {
       "id": "pub_youtube_medical",
@@ -148,7 +227,12 @@
       "description_zh": "YouTube上的医学教育视频频道推荐",
       "description_en": "Medical education channels on YouTube",
       "url": "https://www.youtube.com/results?search_query=medical+education",
-      "keywords": ["YouTube", "医学教育", "视频", "教学"]
+      "keywords": [
+        "YouTube",
+        "医学教育",
+        "视频",
+        "教学"
+      ]
     },
     {
       "id": "pub_med2",
@@ -158,7 +242,11 @@
       "description_zh": "医学视频资源下载网站，包含各学科教学视频",
       "description_en": "Medical video download site",
       "url": "https://www.med2.cn",
-      "keywords": ["医学视频", "下载", "教学"]
+      "keywords": [
+        "医学视频",
+        "下载",
+        "教学"
+      ]
     },
     {
       "id": "pub_coursera_medical",
@@ -168,7 +256,12 @@
       "description_zh": "Coursera上的医学相关课程",
       "description_en": "Medical related courses on Coursera",
       "url": "https://www.coursera.org/browse/healthcare",
-      "keywords": ["Coursera", "公开课", "医学课程", "在线学习"]
+      "keywords": [
+        "Coursera",
+        "公开课",
+        "医学课程",
+        "在线学习"
+      ]
     },
     {
       "id": "pub_edx_medical",
@@ -178,7 +271,12 @@
       "description_zh": "edX上的医学相关课程",
       "description_en": "Medical related courses on edX",
       "url": "https://www.edx.org/learn/healthcare",
-      "keywords": ["edX", "公开课", "医学课程", "在线学习"]
+      "keywords": [
+        "edX",
+        "公开课",
+        "医学课程",
+        "在线学习"
+      ]
     },
     {
       "id": "pub_clinicaltrials",
@@ -188,7 +286,12 @@
       "description_zh": "美国国立医学图书馆的临床试验数据库",
       "description_en": "Clinical trial database by NLM",
       "url": "https://clinicaltrials.gov",
-      "keywords": ["临床试验", "研究", "NIH", "NLM"]
+      "keywords": [
+        "临床试验",
+        "研究",
+        "NIH",
+        "NLM"
+      ]
     },
     {
       "id": "pub_gov_cn",
@@ -198,7 +301,12 @@
       "description_zh": "中国国家卫生健康委员会官方发布的指南和政策",
       "description_en": "Official guidelines and policies from China NHC",
       "url": "https://www.nhc.gov.cn",
-      "keywords": ["国家卫健委", "指南", "政策", "中国"]
+      "keywords": [
+        "国家卫健委",
+        "指南",
+        "政策",
+        "中国"
+      ]
     },
     {
       "id": "pub_uptodate",
@@ -208,7 +316,12 @@
       "description_zh": "基于循证医学的临床决策支持资源",
       "description_en": "Evidence-based clinical decision support resource",
       "url": "https://www.uptodate.com",
-      "keywords": ["UpToDate", "循证医学", "临床决策", "教科书"]
+      "keywords": [
+        "UpToDate",
+        "循证医学",
+        "临床决策",
+        "教科书"
+      ]
     },
     {
       "id": "pub_cda",
@@ -218,7 +331,12 @@
       "description_zh": "中国最大的医学专业社区，提供医学资讯、病例讨论",
       "description_en": "China's largest medical professional community",
       "url": "https://www.dxy.cn",
-      "keywords": ["丁香园", "医学社区", "病例讨论", "医学资讯"]
+      "keywords": [
+        "丁香园",
+        "医学社区",
+        "病例讨论",
+        "医学资讯"
+      ]
     },
     {
       "id": "pub_yaolan",
@@ -228,7 +346,12 @@
       "description_zh": "育儿知识科普平台",
       "description_en": "Parenting knowledge platform",
       "url": "https://www.yaolan.com",
-      "keywords": ["育儿", "母婴", "科普", "健康"]
+      "keywords": [
+        "育儿",
+        "母婴",
+        "科普",
+        "健康"
+      ]
     },
     {
       "id": "pub_39net",
@@ -238,7 +361,12 @@
       "description_zh": "健康科普门户",
       "description_en": "Health popular science portal",
       "url": "https://www.39.net",
-      "keywords": ["健康", "科普", "疾病", "医疗"]
+      "keywords": [
+        "健康",
+        "科普",
+        "疾病",
+        "医疗"
+      ]
     },
     {
       "id": "pub_120",
@@ -248,7 +376,12 @@
       "description_zh": "健康科普资讯网站",
       "description_en": "Health information website",
       "url": "https://www.120.net",
-      "keywords": ["健康", "科普", "疾病", "养生"]
+      "keywords": [
+        "健康",
+        "科普",
+        "疾病",
+        "养生"
+      ]
     },
     {
       "id": "pub_baike",
@@ -258,7 +391,12 @@
       "description_zh": "医学知识百科全书",
       "description_en": "Medical knowledge encyclopedia",
       "url": "https://www.wiki8.com",
-      "keywords": ["医学百科", "wiki", "知识库", "科普"]
+      "keywords": [
+        "医学百科",
+        "wiki",
+        "知识库",
+        "科普"
+      ]
     },
     {
       "id": "pub_zhihu",
@@ -268,7 +406,12 @@
       "description_zh": "知乎医学话题下的专业回答",
       "description_en": "Professional medical answers on Zhihu",
       "url": "https://www.zhihu.com/topic/医学",
-      "keywords": ["知乎", "医学", "科普", "问答"]
+      "keywords": [
+        "知乎",
+        "医学",
+        "科普",
+        "问答"
+      ]
     },
     {
       "id": "pub_bmj",
@@ -278,7 +421,12 @@
       "description_zh": "BMJ循证医学临床决策工具",
       "description_en": "BMJ evidence-based clinical decision support",
       "url": "https://bestpractice.bmj.com",
-      "keywords": ["BMJ", "循证医学", "临床决策", "教科书"]
+      "keywords": [
+        "BMJ",
+        "循证医学",
+        "临床决策",
+        "教科书"
+      ]
     },
     {
       "id": "pub_medsci",
@@ -288,7 +436,12 @@
       "description_zh": "医学学术资讯平台",
       "description_en": "Medical academic information platform",
       "url": "https://www.medsci.cn",
-      "keywords": ["医学", "学术", "研究", "科普"]
+      "keywords": [
+        "医学",
+        "学术",
+        "研究",
+        "科普"
+      ]
     },
     {
       "id": "pub_guideline",
@@ -298,7 +451,12 @@
       "description_zh": "国内外临床指南汇总",
       "description_en": "Collection of domestic and international clinical guidelines",
       "url": "https://www.guideline.gov",
-      "keywords": ["指南", "临床", "诊疗规范", "循证"]
+      "keywords": [
+        "指南",
+        "临床",
+        "诊疗规范",
+        "循证"
+      ]
     },
     {
       "id": "pub_cnki",
@@ -308,7 +466,12 @@
       "description_zh": "中国最大的学术文献数据库",
       "description_en": "China's largest academic literature database",
       "url": "https://www.cnki.net",
-      "keywords": ["知网", "文献", "论文", "学术"]
+      "keywords": [
+        "知网",
+        "文献",
+        "论文",
+        "学术"
+      ]
     },
     {
       "id": "pub_wanfang",
@@ -318,7 +481,12 @@
       "description_zh": "中国学术文献数据库",
       "description_en": "Chinese academic literature database",
       "url": "https://www.wanfangdata.com.cn",
-      "keywords": ["万方", "文献", "论文", "学术"]
+      "keywords": [
+        "万方",
+        "文献",
+        "论文",
+        "学术"
+      ]
     },
     {
       "id": "pub_nejm",
@@ -328,7 +496,12 @@
       "description_zh": "NEJM 官方网站的医学研究文章",
       "description_en": "Medical research articles from NEJM",
       "url": "https://www.nejm.org",
-      "keywords": ["NEJM", "新英格兰", "医学杂志", "研究"]
+      "keywords": [
+        "NEJM",
+        "新英格兰",
+        "医学杂志",
+        "研究"
+      ]
     },
     {
       "id": "pub_lancet",
@@ -338,7 +511,12 @@
       "description_zh": "The Lancet 官方网站的医学研究文章",
       "description_en": "Medical research articles from The Lancet",
       "url": "https://www.thelancet.com",
-      "keywords": ["柳叶刀", "Lancet", "医学杂志", "研究"]
+      "keywords": [
+        "柳叶刀",
+        "Lancet",
+        "医学杂志",
+        "研究"
+      ]
     },
     {
       "id": "pub_jama",
@@ -348,7 +526,12 @@
       "description_zh": "JAMA 网络的医学研究文章",
       "description_en": "Medical research articles from JAMA Network",
       "url": "https://jamanetwork.com",
-      "keywords": ["JAMA", "美国医学会", "医学杂志", "研究"]
+      "keywords": [
+        "JAMA",
+        "美国医学会",
+        "医学杂志",
+        "研究"
+      ]
     },
     {
       "id": "pub_ Cochran",
@@ -358,7 +541,12 @@
       "description_zh": "Cochrane 系统评价数据库",
       "description_en": "Cochrane systematic review database",
       "url": "https://www.cochranelibrary.com",
-      "keywords": ["Cochrane", "系统评价", "循证医学", "meta分析"]
+      "keywords": [
+        "Cochrane",
+        "系统评价",
+        "循证医学",
+        "meta分析"
+      ]
     },
     {
       "id": "pub_mayoclinic",
@@ -368,7 +556,12 @@
       "description_zh": "Mayo Clinic 官方健康信息",
       "description_en": "Mayo Clinic official health information",
       "url": "https://www.mayoclinic.org",
-      "keywords": ["Mayo Clinic", "健康信息", "疾病", "科普"]
+      "keywords": [
+        "Mayo Clinic",
+        "健康信息",
+        "疾病",
+        "科普"
+      ]
     },
     {
       "id": "pub_webmd",
@@ -378,7 +571,12 @@
       "description_zh": "美国领先的健康信息网站",
       "description_en": "Leading US health information website",
       "url": "https://www.webmd.com",
-      "keywords": ["WebMD", "健康信息", "疾病", "科普"]
+      "keywords": [
+        "WebMD",
+        "健康信息",
+        "疾病",
+        "科普"
+      ]
     },
     {
       "id": "pub_healthline",
@@ -388,7 +586,12 @@
       "description_zh": "美国健康信息网站",
       "description_en": "US health information website",
       "url": "https://www.healthline.com",
-      "keywords": ["Healthline", "健康信息", "疾病", "科普"]
+      "keywords": [
+        "Healthline",
+        "健康信息",
+        "疾病",
+        "科普"
+      ]
     },
     {
       "id": "pub_默沙东中国",
@@ -398,7 +601,12 @@
       "description_zh": "默沙东中国官网的患者教育资料",
       "description_en": "MSD China patient education materials",
       "url": "https://www.msdchina.com.cn",
-      "keywords": ["默沙东", "MSD", "患者教育", "药品信息"]
+      "keywords": [
+        "默沙东",
+        "MSD",
+        "患者教育",
+        "药品信息"
+      ]
     },
     {
       "id": "pub_丁香医生",
@@ -408,7 +616,12 @@
       "description_zh": "丁香园旗下面向大众的健康科普平台",
       "description_en": "DXY's health popular science platform for the public",
       "url": "https://www.dxy.cn/bbs",
-      "keywords": ["丁香医生", "健康科普", "在线问诊", "医疗"]
+      "keywords": [
+        "丁香医生",
+        "健康科普",
+        "在线问诊",
+        "医疗"
+      ]
     },
     {
       "id": "pub_春雨医生",
@@ -418,7 +631,12 @@
       "description_zh": "在线健康咨询平台",
       "description_en": "Online health consultation platform",
       "url": "https://www.chunyuyisheng.com",
-      "keywords": ["春雨医生", "在线问诊", "健康咨询", "科普"]
+      "keywords": [
+        "春雨医生",
+        "在线问诊",
+        "健康咨询",
+        "科普"
+      ]
     },
     {
       "id": "pub_好大夫",
@@ -428,7 +646,12 @@
       "description_zh": "在线医疗咨询平台",
       "description_en": "Online medical consultation platform",
       "url": "https://www.haodf.com",
-      "keywords": ["好大夫", "在线问诊", "挂号", "医疗"]
+      "keywords": [
+        "好大夫",
+        "在线问诊",
+        "挂号",
+        "医疗"
+      ]
     },
     {
       "id": "pub_微医",
@@ -438,7 +661,12 @@
       "description_zh": "在线医疗健康服务平台",
       "description_en": "Online medical health service platform",
       "url": "https://www.guahao.com",
-      "keywords": ["微医", "挂号", "在线问诊", "医疗"]
+      "keywords": [
+        "微医",
+        "挂号",
+        "在线问诊",
+        "医疗"
+      ]
     },
     {
       "id": "pub_医学慕课",
@@ -448,7 +676,12 @@
       "description_zh": "医学MOOC平台",
       "description_en": "Medical MOOC platform",
       "url": "https://www.mooe.cn",
-      "keywords": ["MOOC", "医学课程", "在线学习", "公开课"]
+      "keywords": [
+        "MOOC",
+        "医学课程",
+        "在线学习",
+        "公开课"
+      ]
     },
     {
       "id": "pub_人卫慕课",
@@ -458,7 +691,12 @@
       "description_zh": "人民卫生出版社医学在线教育平台",
       "description_en": "People's Medical Publishing House MOOC platform",
       "url": "https://www.pmphmooc.com",
-      "keywords": ["人卫", "慕课", "医学课程", "在线学习"]
+      "keywords": [
+        "人卫",
+        "慕课",
+        "医学课程",
+        "在线学习"
+      ]
     },
     {
       "id": "pub_中医古籍",
@@ -468,7 +706,12 @@
       "description_zh": "中医经典古籍数据库",
       "description_en": "Traditional Chinese Medicine classics database",
       "url": "https://www.zhongyiguji.com",
-      "keywords": ["中医", "古籍", "经典", "中医药"]
+      "keywords": [
+        "中医",
+        "古籍",
+        "经典",
+        "中医药"
+      ]
     },
     {
       "id": "pub_medlive_guideline",
@@ -478,7 +721,14 @@
       "description_zh": "中华医学会等官方机构发布的临床诊疗指南数据库，包含最新2024-2025年指南",
       "description_en": "Clinical guidelines database from Chinese Medical Association and other official bodies",
       "url": "https://guide.medlive.cn",
-      "keywords": ["临床指南", "医脉通", "中华医学会", "诊疗规范", "2024", "2025"]
+      "keywords": [
+        "临床指南",
+        "医脉通",
+        "中华医学会",
+        "诊疗规范",
+        "2024",
+        "2025"
+      ]
     },
     {
       "id": "pub_yaozh_cpg",
@@ -488,7 +738,13 @@
       "description_zh": "国内外临床指南汇总数据库，包含CSCO指南、中华医学会指南等",
       "description_en": "Domestic and international clinical guidelines database",
       "url": "https://db.yaozh.com/cpg",
-      "keywords": ["临床指南", "CSCO", "中华医学会", "诊疗规范", "药智"]
+      "keywords": [
+        "临床指南",
+        "CSCO",
+        "中华医学会",
+        "诊疗规范",
+        "药智"
+      ]
     },
     {
       "id": "pub_chinacdc_flu",
@@ -498,7 +754,12 @@
       "description_zh": "中国疾病预防控制中心发布的年度流感疫苗预防接种技术指南",
       "description_en": "Annual flu vaccination technical guidelines from China CDC",
       "url": "https://www.chinacdc.cn",
-      "keywords": ["流感疫苗", "接种指南", "中国疾控中心", "疫苗接种"]
+      "keywords": [
+        "流感疫苗",
+        "接种指南",
+        "中国疾控中心",
+        "疫苗接种"
+      ]
     },
     {
       "id": "pub_who_guidelines",
@@ -508,7 +769,13 @@
       "description_zh": "世界卫生组织官方指南数据库，包含全球健康指南、报告和培训材料",
       "description_en": "WHO official guidelines database with global health guidelines",
       "url": "https://www.who.int/publications/i/guidelines",
-      "keywords": ["WHO", "世界卫生组织", "指南", "全球健康", "国际指南"]
+      "keywords": [
+        "WHO",
+        "世界卫生组织",
+        "指南",
+        "全球健康",
+        "国际指南"
+      ]
     },
     {
       "id": "pub_nmpa_database",
@@ -518,7 +785,13 @@
       "description_zh": "国家药品监督管理局官方数据查询平台，可查询药品、医疗器械、化妆品注册信息",
       "description_en": "Official NMPA data query platform for drugs, medical devices, cosmetics",
       "url": "https://www.nmpa.gov.cn/datasearch/home-index.html",
-      "keywords": ["国家药监局", "NMPA", "药品查询", "医疗器械", "数据查询"]
+      "keywords": [
+        "国家药监局",
+        "NMPA",
+        "药品查询",
+        "医疗器械",
+        "数据查询"
+      ]
     },
     {
       "id": "pub_fda_guidelines",
@@ -528,7 +801,13 @@
       "description_zh": "美国食品药品监督管理局官方指南数据库，包含药物、器械、食品安全指南",
       "description_en": "FDA official guidelines database for drugs, devices, food safety",
       "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents",
-      "keywords": ["FDA", "美国药监局", "指南", "药物指南", "医疗器械指南"]
+      "keywords": [
+        "FDA",
+        "美国药监局",
+        "指南",
+        "药物指南",
+        "医疗器械指南"
+      ]
     },
     {
       "id": "pub_aids_guideline",
@@ -538,7 +817,13 @@
       "description_zh": "中华医学会感染病学分会发布的艾滋病诊疗指南2024版",
       "description_en": "AIDS diagnosis and treatment guidelines 2024 by Chinese Medical Association",
       "url": "https://nmcid.huashan.org.cn",
-      "keywords": ["艾滋病", "HIV", "诊疗指南", "中华医学会", "2024"]
+      "keywords": [
+        "艾滋病",
+        "HIV",
+        "诊疗指南",
+        "中华医学会",
+        "2024"
+      ]
     },
     {
       "id": "pub_obesity_guideline_2024",
@@ -548,7 +833,13 @@
       "description_zh": "国家卫健委发布的肥胖症诊疗指南(2024年版)，规范肥胖症临床诊疗",
       "description_en": "NHC obesity diagnosis and treatment guidelines 2024",
       "url": "https://www.nhc.gov.cn",
-      "keywords": ["肥胖症", "诊疗指南", "国家卫健委", "体重管理", "2024"]
+      "keywords": [
+        "肥胖症",
+        "诊疗指南",
+        "国家卫健委",
+        "体重管理",
+        "2024"
+      ]
     },
     {
       "id": "pub_cirrhosis_guideline_2025",
@@ -558,7 +849,13 @@
       "description_zh": "中华医学会肝病学分会发布的肝硬化临床诊治管理指南2025版",
       "description_en": "Cirrhosis clinical guidelines 2025 by Chinese Medical Association Hepatology Society",
       "url": "https://guide.medlive.cn/guide_v2/1/36867",
-      "keywords": ["肝硬化", "诊疗指南", "中华医学会", "肝病", "2025"]
+      "keywords": [
+        "肝硬化",
+        "诊疗指南",
+        "中华医学会",
+        "肝病",
+        "2025"
+      ]
     },
     {
       "id": "pub_hypertension_guideline_2024",
@@ -568,7 +865,13 @@
       "description_zh": "中国高血压防治指南修订委员会发布的高血压防治指南2024年修订版",
       "description_en": "China hypertension prevention and treatment guidelines 2024",
       "url": "https://m.medlive.cn/guide",
-      "keywords": ["高血压", "诊疗指南", "心血管", "血压管理", "2024"]
+      "keywords": [
+        "高血压",
+        "诊疗指南",
+        "心血管",
+        "血压管理",
+        "2024"
+      ]
     },
     {
       "id": "pub_diabetes_guideline_2024",
@@ -578,7 +881,13 @@
       "description_zh": "中华医学会糖尿病学分会发布的中国糖尿病防治指南2024版",
       "description_en": "China diabetes prevention and treatment guidelines 2024",
       "url": "https://diab.cma.org.cn",
-      "keywords": ["糖尿病", "诊疗指南", "中华医学会", "血糖管理", "2024"]
+      "keywords": [
+        "糖尿病",
+        "诊疗指南",
+        "中华医学会",
+        "血糖管理",
+        "2024"
+      ]
     },
     {
       "id": "pub_lung_cancer_guideline_2025",
@@ -588,7 +897,13 @@
       "description_zh": "中华医学会肺癌临床诊疗指南2025版，包含最新肺癌诊疗方案",
       "description_en": "Lung cancer clinical guidelines 2025 by Chinese Medical Association",
       "url": "https://www.caivd-org.cn",
-      "keywords": ["肺癌", "诊疗指南", "中华医学会", "肿瘤", "2025"]
+      "keywords": [
+        "肺癌",
+        "诊疗指南",
+        "中华医学会",
+        "肿瘤",
+        "2025"
+      ]
     },
     {
       "id": "pub_flu_2025",
@@ -598,7 +913,13 @@
       "description_zh": "国家卫健委发布的流行性感冒诊疗方案2025年版",
       "description_en": "Influenza diagnosis and treatment protocol 2025 by NHC",
       "url": "https://www.nhc.gov.cn",
-      "keywords": ["流感", "诊疗方案", "国家卫健委", "甲流", "2025"]
+      "keywords": [
+        "流感",
+        "诊疗方案",
+        "国家卫健委",
+        "甲流",
+        "2025"
+      ]
     },
     {
       "id": "pub_who_atlas_mental_health",
@@ -608,7 +929,13 @@
       "description_zh": "世界卫生组织对各国心理健康政策和计划的定期调查和报告",
       "description_en": "WHO periodic survey on mental health policies and programs worldwide",
       "url": "https://www.who.int/publications/i/item/mental-health-atlas-2022",
-      "keywords": ["心理健康", "WHO", "精神卫生", "Atlas", "2024"]
+      "keywords": [
+        "心理健康",
+        "WHO",
+        "精神卫生",
+        "Atlas",
+        "2024"
+      ]
     },
     {
       "id": "pub_who_tb_report_2024",
@@ -618,7 +945,13 @@
       "description_zh": "世界卫生组织发布的2024年全球结核病流行情况报告",
       "description_en": "WHO global tuberculosis epidemic report 2024",
       "url": "https://www.who.int/publications/i/item/9789240101531",
-      "keywords": ["结核病", "TB", "WHO", "全球报告", "2024"]
+      "keywords": [
+        "结核病",
+        "TB",
+        "WHO",
+        "全球报告",
+        "2024"
+      ]
     },
     {
       "id": "pub_who_patient_safety_2024",
@@ -628,7 +961,13 @@
       "description_zh": "世界卫生组织发布的2024年全球患者安全报告",
       "description_en": "WHO global patient safety report 2024",
       "url": "https://www.who.int/publications/i/item/9789240095458",
-      "keywords": ["患者安全", "WHO", "医疗安全", "全球报告", "2024"]
+      "keywords": [
+        "患者安全",
+        "WHO",
+        "医疗安全",
+        "全球报告",
+        "2024"
+      ]
     },
     {
       "id": "pub_cde",
@@ -638,7 +977,13 @@
       "description_zh": "国家药品监督管理局药品审评中心官方网站，发布药品审评动态和指导原则",
       "description_en": "China Drug Evaluation official website",
       "url": "https://www.cde.org.cn",
-      "keywords": ["药品审评", "CDE", "国家药监局", "新药", "审评"]
+      "keywords": [
+        "药品审评",
+        "CDE",
+        "国家药监局",
+        "新药",
+        "审评"
+      ]
     },
     {
       "id": "pub_chp_2025",
@@ -648,7 +993,13 @@
       "description_zh": "国家药典委员会官方发布的2025年版《中华人民共和国药典》网络版，面向公众免费开放查询",
       "description_en": "Official 2025 Chinese Pharmacopoeia online database by National Pharmacopoeia Commission",
       "url": "https://2025.chp.org.cn",
-      "keywords": ["中国药典", "药典", "2025", "药品标准", "国家药典委"]
+      "keywords": [
+        "中国药典",
+        "药典",
+        "2025",
+        "药品标准",
+        "国家药典委"
+      ]
     },
     {
       "id": "pub_essential_medicines_2018",
@@ -658,7 +1009,13 @@
       "description_zh": "国家卫健委发布的国家基本药物目录，包含685种药品(西药417种、中成药268种)",
       "description_en": "NHC national essential medicines list with 685 drugs",
       "url": "https://www.nmpa.gov.cn/datasearch/home-index.html?79QlcAyHig6m=1658898341929#category=yp",
-      "keywords": ["基本药物目录", "基药", "医保", "药品目录", "2018"]
+      "keywords": [
+        "基本药物目录",
+        "基药",
+        "医保",
+        "药品目录",
+        "2018"
+      ]
     },
     {
       "id": "pub_insurance_drugs_2024",
@@ -668,7 +1025,13 @@
       "description_zh": "国家医保局发布的国家基本医疗保险药品目录，可通过医保服务平台查询",
       "description_en": "National medical insurance drug catalogue 2024 by China NHSA",
       "url": "https://www.nhsa.gov.cn",
-      "keywords": ["医保药品目录", "医保", "药品报销", "国家医保局", "2024"]
+      "keywords": [
+        "医保药品目录",
+        "医保",
+        "药品报销",
+        "国家医保局",
+        "2024"
+      ]
     },
     {
       "id": "pub_nccn_china",
@@ -678,7 +1041,13 @@
       "description_zh": "美国国家综合癌症网络(NCCN)肿瘤临床实践指南中文版，由医脉通翻译授权",
       "description_en": "NCCN cancer clinical practice guidelines in Chinese, translated by MedLive",
       "url": "https://guide.medlive.cn/guideline",
-      "keywords": ["NCCN", "肿瘤指南", "癌症", "临床指南", "中文"]
+      "keywords": [
+        "NCCN",
+        "肿瘤指南",
+        "癌症",
+        "临床指南",
+        "中文"
+      ]
     },
     {
       "id": "pub_csco_guidelines",
@@ -688,7 +1057,13 @@
       "description_zh": "中国临床肿瘤学会(CSCO)发布的肿瘤诊疗指南，被誉为中国的NCCN指南",
       "description_en": "CSCO cancer treatment guidelines, Chinese equivalent of NCCN",
       "url": "https://www.csco.org.cn",
-      "keywords": ["CSCO", "肿瘤指南", "癌症", "临床指南", "中国临床肿瘤学会"]
+      "keywords": [
+        "CSCO",
+        "肿瘤指南",
+        "癌症",
+        "临床指南",
+        "中国临床肿瘤学会"
+      ]
     },
     {
       "id": "pub_lab_reference_standards",
@@ -698,7 +1073,13 @@
       "description_zh": "国家卫健委发布的临床检验项目参考区间行业标准，包含血常规、生化、免疫等15项标准",
       "description_en": "NHC clinical laboratory reference interval standards",
       "url": "https://www.nhc.gov.cn",
-      "keywords": ["检验参考值", "正常值", "血常规", "生化", "行业标准"]
+      "keywords": [
+        "检验参考值",
+        "正常值",
+        "血常规",
+        "生化",
+        "行业标准"
+      ]
     },
     {
       "id": "pub_nmpa_drug_standards",
@@ -708,7 +1089,12 @@
       "description_zh": "国家药品监督管理局药品标准信息查询系统",
       "description_en": "NMPA drug standards information query system",
       "url": "https://www.nmpa.gov.cn/datasearch/home-index.html",
-      "keywords": ["药品标准", "药典标准", "NMPA", "标准查询"]
+      "keywords": [
+        "药品标准",
+        "药典标准",
+        "NMPA",
+        "标准查询"
+      ]
     },
     {
       "id": "pub_nmpa_approved",
@@ -718,7 +1104,12 @@
       "description_zh": "国家药品监督管理局国产药品和进口药品批准文号查询",
       "description_en": "NMPA domestic and imported drug approval number query",
       "url": "https://www.nmpa.gov.cn/datasearch/app-search.html?searchTab=1",
-      "keywords": ["批准文号", "药品注册", "国药准字", "药品查询"]
+      "keywords": [
+        "批准文号",
+        "药品注册",
+        "国药准字",
+        "药品查询"
+      ]
     },
     {
       "id": "pub_nmpa_medical_devices",
@@ -728,7 +1119,12 @@
       "description_zh": "国家药品监督管理局医疗器械注册信息查询",
       "description_en": "NMPA medical device registration information query",
       "url": "https://www.nmpa.gov.cn/datasearch/home-index.html?79QlcAyHig6m=1659676758519#category=ylqx",
-      "keywords": ["医疗器械", "注册证", "NMPA", "器械查询"]
+      "keywords": [
+        "医疗器械",
+        "注册证",
+        "NMPA",
+        "器械查询"
+      ]
     },
     {
       "id": "pub_china_cdc_guidelines",
@@ -738,7 +1134,266 @@
       "description_zh": "中国疾病预防控制中心发布的传染病防控指南和技术方案",
       "description_en": "China CDC infectious disease control guidelines and technical protocols",
       "url": "https://www.chinacdc.cn",
-      "keywords": ["中国疾控中心", "传染病", "防控指南", "CDC"]
+      "keywords": [
+        "中国疾控中心",
+        "传染病",
+        "防控指南",
+        "CDC"
+      ]
+    },
+    {
+      "id": "pub_influenza_2025",
+      "name_zh": "流行性感冒诊疗方案(2025年版)",
+      "name_en": "Influenza Diagnosis and Treatment Protocol 2025",
+      "category": "诊疗方案",
+      "description_zh": "国家卫健委发布的流行性感冒诊疗方案2025年版",
+      "description_en": "NHC influenza diagnosis and treatment protocol 2025",
+      "url": "https://nmcid.huashan.org.cn/disease/info/id/283/pid/265/did/370.shtml",
+      "keywords": [
+        "流感",
+        "流行性感冒",
+        "诊疗方案",
+        "国家卫健委",
+        "2025"
+      ]
+    },
+    {
+      "id": "pub_avian_influenza_2024",
+      "name_zh": "人感染禽流感诊疗方案(2024年版)",
+      "name_en": "Human Avian Influenza Diagnosis and Treatment Protocol 2024",
+      "category": "诊疗方案",
+      "description_zh": "国家卫健委发布的人感染禽流感诊疗方案2024年版",
+      "description_en": "NHC human avian influenza diagnosis and treatment protocol 2024",
+      "url": "https://nmcid.huashan.org.cn/disease/info/id/283/pid/265/did/313.shtml",
+      "keywords": [
+        "人感染禽流感",
+        "诊疗方案",
+        "国家卫健委",
+        "2024"
+      ]
+    },
+    {
+      "id": "pub_inguinal_hernia_2024",
+      "name_zh": "腹股沟疝诊疗指南(2024版)",
+      "name_en": "Inguinal Hernia Diagnosis and Treatment Guidelines 2024",
+      "category": "指南",
+      "description_zh": "中华医学会外科学分会疝与腹壁外科学组发布的腹股沟疝诊疗指南2024版",
+      "description_en": "Chinese Society of Surgery inguinal hernia guidelines 2024",
+      "url": "https://guide.medlive.cn/guide_v2/1/34444",
+      "keywords": [
+        "腹股沟疝",
+        "疝气",
+        "诊疗指南",
+        "中华医学会",
+        "2024"
+      ]
+    },
+    {
+      "id": "pub_af_management_2025",
+      "name_zh": "中国心房颤动管理指南(2025)",
+      "name_en": "China Atrial Fibrillation Management Guidelines 2025",
+      "category": "指南",
+      "description_zh": "中华医学会心电生理和起搏分会发布的心房颤动管理指南2025版",
+      "description_en": "Chinese Society of Pacing and Electrophysiology atrial fibrillation guidelines 2025",
+      "url": "https://drugs.dxy.cn/pc/clinicalGuidelines/pY3nLoN8TQoNAwTncWwSTRg",
+      "keywords": [
+        "心房颤动",
+        "房颤",
+        "心律失常",
+        "诊疗指南",
+        "中华医学会",
+        "2025"
+      ]
+    },
+    {
+      "id": "pub_cancer_comorbidity_2025",
+      "name_zh": "中国肿瘤共病防治专家共识(2025版)",
+      "name_en": "China Cancer Comorbidity Management Expert Consensus 2025",
+      "category": "共识",
+      "description_zh": "中国临床肿瘤学会发布的肿瘤共病防治专家共识2025版",
+      "description_en": "CSCO expert consensus on cancer comorbidity management 2025",
+      "url": "https://www.medsci.cn/guideline/show_article.do?id=e7cca1c00a6e922c",
+      "keywords": [
+        "肿瘤",
+        "癌症",
+        "共病",
+        "专家共识",
+        "2025"
+      ]
+    },
+    {
+      "id": "pub_pediatric_septic_shock_2025",
+      "name_zh": "儿童脓毒性休克管理专家共识(2025)",
+      "name_en": "Pediatric Septic Shock Management Expert Consensus 2025",
+      "category": "共识",
+      "description_zh": "中华医学会儿科学分会急救学组发布的儿童脓毒性休克管理专家共识2025版",
+      "description_en": "Chinese Pediatric Society septic shock management consensus 2025",
+      "url": "https://guide.medlive.cn",
+      "keywords": [
+        "儿童",
+        "脓毒性休克",
+        "急救",
+        "专家共识",
+        "2025"
+      ]
+    },
+    {
+      "id": "pub_primary_aldosteronism_2024",
+      "name_zh": "原发性醛固酮增多症诊断治疗的专家共识(2024版)",
+      "name_en": "Primary Aldosteronism Diagnosis and Treatment Expert Consensus 2024",
+      "category": "共识",
+      "description_zh": "中华医学会内分泌学分会发布的原发性醛固酮增多症诊断治疗的专家共识2024版",
+      "description_en": "Chinese Society of Endocrinology primary aldosteronism consensus 2024",
+      "url": "https://guide.medlive.cn",
+      "keywords": [
+        "原发性醛固酮增多症",
+        "内分泌",
+        "高血压",
+        "专家共识",
+        "2024"
+      ]
+    },
+    {
+      "id": "pub_menstrual_migraine_2025",
+      "name_zh": "月经性偏头痛诊断和治疗中国专家共识(2025版)",
+      "name_en": "Menstrual Migraine Diagnosis and Treatment Expert Consensus 2025",
+      "category": "共识",
+      "description_zh": "中国医师协会神经内科医师分会发布的月经性偏头痛诊断和治疗中国专家共识2025版",
+      "description_en": "Chinese Neurologist Association menstrual migraine consensus 2025",
+      "url": "https://guide.medlive.cn",
+      "keywords": [
+        "月经性偏头痛",
+        "头痛",
+        "神经内科",
+        "专家共识",
+        "2025"
+      ]
+    },
+    {
+      "id": "pub_influenza_primary_care_2025",
+      "name_zh": "中国流感治疗与药物预防基层指南(2025版)",
+      "name_en": "China Influenza Treatment and Drug Prevention Primary Care Guidelines 2025",
+      "category": "指南",
+      "description_zh": "中国全科医学发布的流感治疗与药物预防基层指南2025版",
+      "description_en": "China primary care influenza treatment guidelines 2025",
+      "url": "https://www.medsci.cn/guideline/show_article.do?id=55e0a1c00516167d",
+      "keywords": [
+        "流感",
+        "基层医疗",
+        "抗病毒",
+        "药物预防",
+        "2025"
+      ]
+    },
+    {
+      "id": "pub_hypertension_clinical_2024",
+      "name_zh": "中国高血压临床实践指南(2024)",
+      "name_en": "China Hypertension Clinical Practice Guidelines 2024",
+      "category": "指南",
+      "description_zh": "中华医学会心血管病学分会等发布的中国高血压临床实践指南",
+      "description_en": "Chinese Society of Cardiology hypertension clinical practice guidelines 2024",
+      "url": "https://m.doc88.com/p-99320554583149.html",
+      "keywords": [
+        "高血压",
+        "临床实践指南",
+        "心血管",
+        "2024"
+      ]
+    },
+    {
+      "id": "pub_geriatric_diabetes_2024",
+      "name_zh": "中国老年糖尿病诊疗指南(2024版)",
+      "name_en": "China Geriatric Diabetes Diagnosis and Treatment Guidelines 2024",
+      "category": "指南",
+      "description_zh": "国家老年医学中心、中华医学会老年医学分会发布的中国老年糖尿病诊疗指南2024版",
+      "description_en": "China geriatric diabetes guidelines 2024",
+      "url": "https://www.medsci.cn/guideline/show_article.do?id=58cd21c00a06e9d2",
+      "keywords": [
+        "老年糖尿病",
+        "糖尿病",
+        "诊疗指南",
+        "2024"
+      ]
+    },
+    {
+      "id": "pub_geriatric_cervical_cancer_2024",
+      "name_zh": "老年宫颈癌规范化诊疗中国专家共识(2024年版)",
+      "name_en": "Geriatric Cervical Cancer Standardized Diagnosis and Treatment Expert Consensus 2024",
+      "category": "共识",
+      "description_zh": "中国老年医学学会发布的老年宫颈癌规范化诊疗中国专家共识2024年版",
+      "description_en": "Chinese Geriatrics Society cervical cancer consensus 2024",
+      "url": "https://guide.medlive.cn",
+      "keywords": [
+        "老年宫颈癌",
+        "宫颈癌",
+        "妇科肿瘤",
+        "专家共识",
+        "2024"
+      ]
+    },
+    {
+      "id": "pub_antimicrobial_perinatal_2025",
+      "name_zh": "孕产妇围分娩期预防性使用抗菌药物的专家共识(2025)",
+      "name_en": "Perinatal Antibiotic Prophylaxis Expert Consensus 2025",
+      "category": "共识",
+      "description_zh": "中国优生科学协会发布的孕产妇围分娩期预防性使用抗菌药物的专家共识2025版",
+      "description_en": "Chinese Association for Birth Health perinatal antibiotic consensus 2025",
+      "url": "https://guide.medlive.cn",
+      "keywords": [
+        "孕产妇",
+        "抗菌药物",
+        "围分娩期",
+        "专家共识",
+        "2025"
+      ]
+    },
+    {
+      "id": "pub_hypertension_lipid_2025",
+      "name_zh": "基层高血压和血脂异常共存医防融合规范化管理中国专家共识(2025)",
+      "name_en": "Primary Care Hypertension and Dyslipidemia Co-management Expert Consensus 2025",
+      "category": "共识",
+      "description_zh": "基层高血压和血脂异常共存医防融合规范化管理中国专家共识2025版",
+      "description_en": "Primary care hypertension and dyslipidemia co-management consensus 2025",
+      "url": "https://guide.medlive.cn",
+      "keywords": [
+        "高血压",
+        "血脂异常",
+        "基层医疗",
+        "医防融合",
+        "2025"
+      ]
+    },
+    {
+      "id": "pub_obesity_guideline_2024",
+      "name_zh": "肥胖症诊疗指南(2024年版)",
+      "name_en": "Obesity Diagnosis and Treatment Guidelines 2024",
+      "category": "指南",
+      "description_zh": "国家卫健委发布的首部肥胖症诊疗指南",
+      "description_en": "NHC obesity diagnosis and treatment guidelines 2024",
+      "url": "https://www.medsci.cn/guideline/show_article.do?id=6d45b1c0039962ae",
+      "keywords": [
+        "肥胖症",
+        "诊疗指南",
+        "国家卫健委",
+        "体重管理",
+        "2024"
+      ]
+    },
+    {
+      "id": "pub_herpes_zoster_2024",
+      "name_zh": "带状疱疹相关性疼痛全程管理中国专家共识(2024)",
+      "name_en": "Herpes Zoster Associated Pain Comprehensive Management Expert Consensus 2024",
+      "category": "共识",
+      "description_zh": "带状疱疹相关性疼痛全程管理中国专家共识2024版",
+      "description_en": "Herpes zoster pain management consensus 2024",
+      "url": "https://guide.medlive.cn",
+      "keywords": [
+        "带状疱疹",
+        "疼痛",
+        "神经痛",
+        "专家共识",
+        "2024"
+      ]
     }
   ]
 }

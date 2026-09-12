@@ -201,114 +201,72 @@
 .bm-cond:hover { background: var(--blue-soft); border-color: var(--blue); color: var(--blue); }
 .bm-cond.is-on { background: var(--blue); border-color: var(--blue); color: #fff; }
 /* ===== Disease ranking ===== */
-.rank-table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 13.5px; }
-.rank-table thead th {
-  text-align: left; padding: 12px 14px; background: var(--navy); color: #fff;
-  font-weight: 700; font-size: 13px; letter-spacing: .3px;
+.disease-list { display: flex; flex-direction: column; gap: 16px; }
+.disease-card {
+  background: #fff; border-radius: 16px; border: 1px solid var(--line);
+  overflow: hidden; transition: transform .2s, box-shadow .2s;
 }
-.rank-table thead th:first-child { border-radius: 10px 0 0 0; text-align: center; }
-.rank-table thead th:last-child { border-radius: 0 10px 0 0; }
-.rank-table tbody tr { transition: background .15s; }
-.rank-table tbody tr:hover { background: var(--bg-soft); }
-.rank-table tbody td { padding: 14px; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.55; }
-.rank-table tbody tr:last-child td { border-bottom: none; }
-.rank-num-cell { text-align: center; width: 50px; }
+.disease-card:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(15,30,51,.1); }
+.disease-card-header {
+  display: flex; align-items: center; gap: 16px; padding: 16px 20px;
+  border-bottom: 1px solid var(--line); background: var(--bg-soft);
+}
 .rank-badge {
   display: inline-flex; align-items: center; justify-content: center;
-  width: 30px; height: 30px; border-radius: 8px; font-weight: 800; font-size: 14px;
-  background: var(--bg-soft); color: var(--muted);
+  width: 36px; height: 36px; border-radius: 10px; font-weight: 800; font-size: 16px;
+  background: var(--bg-soft); color: var(--muted); flex-shrink: 0;
 }
 .rank-row.top1 .rank-badge { background: linear-gradient(135deg,#EF4444,#DC2626); color: #fff; }
 .rank-row.top2 .rank-badge { background: linear-gradient(135deg,#F97316,#EA580C); color: #fff; }
 .rank-row.top3 .rank-badge { background: linear-gradient(135deg,#EAB308,#CA8A04); color: #fff; }
-.rank-disease { font-weight: 700; font-size: 15px; color: var(--ink); width: 100px; }
-.rank-disease small { display: block; font-weight: 500; font-size: 11px; color: var(--muted); margin-top: 2px; }
-.rank-count-cell { width: 130px; }
-.rank-count { font-weight: 800; font-size: 15px; color: var(--ink); }
-.rank-count small { display: block; font-weight: 500; font-size: 11px; color: var(--muted); }
-.rank-mini-bar { height: 6px; background: var(--bg-soft); border-radius: 3px; margin-top: 6px; overflow: hidden; }
+.disease-header-info { flex: 1; min-width: 0; }
+.rank-disease { font-weight: 800; font-size: 17px; color: var(--ink); }
+.rank-disease small { display: inline; font-weight: 500; font-size: 12px; color: var(--muted); margin-left: 8px; }
+.disease-header-right { text-align: right; flex-shrink: 0; min-width: 140px; }
+.rank-count { font-weight: 800; font-size: 18px; color: var(--ink); }
+.rank-mini-bar { height: 6px; background: var(--line); border-radius: 3px; margin-top: 6px; overflow: hidden; width: 140px; }
 .rank-mini-bar i { display: block; height: 100%; border-radius: 3px; width: 0; transition: width 1s cubic-bezier(.4,0,.2,1); }
 .rank-row.top1 .rank-mini-bar i { background: linear-gradient(90deg,#EF4444,#F87171); }
 .rank-row.top2 .rank-mini-bar i { background: linear-gradient(90deg,#F97316,#FB923C); }
 .rank-row.top3 .rank-mini-bar i { background: linear-gradient(90deg,#EAB308,#FACC15); }
 .rank-row:not(.top1):not(.top2):not(.top3) .rank-mini-bar i { background: linear-gradient(90deg,#2563EB,#60A5FA); }
-.rank-detail { color: var(--text); font-size: 13px; line-height: 1.7; }
-.rank-detail b { color: var(--ink); }
-/* Three info columns: cause (amber), treatment (green), myth (red).
-   Selected via nth-child so no HTML class changes needed. */
-.rank-table tbody td:nth-child(4) {
-  border-left: 3px solid #F59E0B;
-  background: linear-gradient(90deg, rgba(245,158,11,.06) 0%, transparent 40%);
+.disease-card-body {
+  display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0;
 }
-.rank-table tbody td:nth-child(5) {
-  border-left: 3px solid #10B981;
-  background: linear-gradient(90deg, rgba(16,185,129,.06) 0%, transparent 40%);
+.disease-col { padding: 16px 18px; }
+.disease-col + .disease-col { border-left: 1px solid var(--line); }
+.disease-col-title {
+  font-size: 12px; font-weight: 800; letter-spacing: .5px;
+  margin-bottom: 10px; display: flex; align-items: center; gap: 6px;
 }
-.rank-table tbody td:nth-child(6) {
-  border-left: 3px solid #EF4444;
-  background: linear-gradient(90deg, rgba(239,68,68,.06) 0%, transparent 40%);
+.disease-col.cause { background: linear-gradient(180deg, rgba(245,158,11,.06) 0%, transparent 100%); }
+.disease-col.cause .disease-col-title { color: #B45309; }
+.disease-col.treatment { background: linear-gradient(180deg, rgba(16,185,129,.06) 0%, transparent 100%); }
+.disease-col.treatment .disease-col-title { color: #047857; }
+.disease-col.myth { background: linear-gradient(180deg, rgba(239,68,68,.06) 0%, transparent 100%); }
+.disease-col.myth .disease-col-title { color: #B91C1C; }
+.disease-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.disease-tag {
+  display: inline-block; font-size: 12px; font-weight: 600;
+  padding: 3px 10px; border-radius: 6px; line-height: 1.4;
 }
-/* Column header chips (pseudo-element labels) */
-.rank-table tbody td:nth-child(4)::before,
-.rank-table tbody td:nth-child(5)::before,
-.rank-table tbody td:nth-child(6)::before {
-  display: inline-block;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: .5px;
-  padding: 2px 8px;
-  border-radius: 4px;
-  margin-bottom: 6px;
-  color: #fff;
+.disease-col.cause .disease-tag { background: #FEF3C7; color: #92400E; }
+.disease-col.treatment .disease-tag { background: #D1FAE5; color: #065F46; }
+.disease-myth-text {
+  font-size: 13px; line-height: 1.7; color: #991B1B;
 }
-.rank-table tbody td:nth-child(4)::before { content: "主要原因"; background: #F59E0B; }
-.rank-table tbody td:nth-child(5)::before { content: "治疗手段"; background: #10B981; }
-.rank-table tbody td:nth-child(6)::before { content: "常见误解"; background: #EF4444; }
-/* Bold keywords become colored chips */
-.rank-table tbody td:nth-child(4) b {
-  display: inline-block;
-  background: #FEF3C7;
-  color: #92400E;
-  padding: 1px 7px;
-  border-radius: 4px;
+.disease-myth-text .myth-quote {
+  display: inline-block; background: #FEE2E2; color: #991B1B;
+  padding: 1px 8px; border-radius: 4px; font-weight: 600; margin: 1px 2px;
   font-size: 12px;
-  font-weight: 600;
-  margin: 1px 2px;
 }
-.rank-table tbody td:nth-child(5) b {
-  display: inline-block;
-  background: #D1FAE5;
-  color: #065F46;
-  padding: 1px 7px;
-  border-radius: 4px;
-  font-size: 12px;
-  font-weight: 600;
-  margin: 1px 2px;
-}
-/* Myth column: misconceptions in red, corrections in normal weight */
-.rank-table tbody td:nth-child(6) {
-  color: #991B1B;
-}
-.rank-table tbody td:nth-child(6) b {
-  background: #FEE2E2;
-  color: #991B1B;
-}
-.rank-col-label { display: none; }
-.rank-source { text-align: center; font-size: 12px; color: var(--muted); margin-top: 20px; line-height: 1.6; }
-.rank-source a { color: var(--blue); text-decoration: underline; }
+.disease-myth-text .myth-correct { color: #065F46; font-weight: 600; }
 @media (max-width: 860px) {
-  .rank-table thead { display: none; }
-  .rank-table tbody tr { display: block; border: 1px solid var(--line); border-radius: 12px; margin-bottom: 12px; padding: 14px; background: #fff; }
-  .rank-table tbody td { display: block; border: none; padding: 8px 0 8px 10px; width: 100% !important; border-left: 3px solid transparent; }
-  .rank-table tbody td:nth-child(4),
-  .rank-table tbody td:nth-child(5),
-  .rank-table tbody td:nth-child(6) {
-    margin-top: 4px;
-    border-radius: 0 8px 8px 0;
-  }
-  .rank-num-cell { text-align: left; display: flex; align-items: center; gap: 10px; border-left: none !important; background: none !important; padding: 4px 0 !important; }
-  .rank-disease { width: auto; border-left: none !important; background: none !important; padding: 4px 0 !important; }
-  .rank-count-cell { width: auto; border-left: none !important; background: none !important; padding: 4px 0 !important; }
+  .disease-card-header { flex-wrap: wrap; }
+  .disease-header-right { text-align: left; width: 100%; }
+  .rank-mini-bar { width: 100%; }
+  .disease-card-body { grid-template-columns: 1fr; }
+  .disease-col + .disease-col { border-left: none; border-top: 1px solid var(--line); }
 }
 </style>
 </head>
@@ -488,120 +446,391 @@
     <div class="sec-center">
       <h2 class="title">当下中国人高发疾病排名</h2>
     </div>
-    <div style="overflow-x:auto;">
-    <table class="rank-table" id="rankTable">
-      <thead>
-        <tr>
-          <th style="text-align:center;width:50px;">#</th>
-          <th style="width:100px;">疾病</th>
-          <th style="width:130px;">患病人数</th>
-          <th>主要原因</th>
-          <th>主要治疗手段</th>
-          <th>常见误解</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="rank-row top1">
-          <td class="rank-num-cell"><span class="rank-badge">1</span></td>
-          <td class="rank-disease">高血压<small>患病率 27.5%</small></td>
-          <td class="rank-count-cell">
+    <div class="disease-list" id="rankTable">
+
+      <!-- 1. 高血压 -->
+      <div class="disease-card rank-row top1">
+        <div class="disease-card-header">
+          <span class="rank-badge">1</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">高血压<small>患病率 27.5%</small></div>
+          </div>
+          <div class="disease-header-right">
             <div class="rank-count">2.45 亿</div>
             <div class="rank-mini-bar"><i data-w="100"></i></div>
-          </td>
-          <td class="rank-detail"><b>高盐饮食</b>、肥胖超重、久坐不动、遗传、年龄增长、长期精神压力、过量饮酒</td>
-          <td class="rank-detail">限盐减重运动等<b>生活方式干预</b>；降压药（ACEI/ARB/钙通道阻滞剂/利尿剂）；定期家庭血压监测</td>
-          <td class="rank-detail">"没头晕就不用吃药""降压药有依赖性""血压正常了就可以停药"——均错误，需长期规范管理</td>
-        </tr>
-        <tr class="rank-row top2">
-          <td class="rank-num-cell"><span class="rank-badge">2</span></td>
-          <td class="rank-disease">糖尿病<small>患病率 13.7%</small></td>
-          <td class="rank-count-cell">
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">高盐饮食</span><span class="disease-tag">肥胖超重</span>
+              <span class="disease-tag">久坐不动</span><span class="disease-tag">遗传</span>
+              <span class="disease-tag">年龄增长</span><span class="disease-tag">精神压力</span>
+              <span class="disease-tag">过量饮酒</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">生活方式干预</span><span class="disease-tag">限盐减重</span>
+              <span class="disease-tag">降压药</span><span class="disease-tag">ACEI/ARB</span>
+              <span class="disease-tag">钙通道阻滞剂</span><span class="disease-tag">家庭血压监测</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">没头晕就不用吃药</span>
+              <span class="myth-quote">降压药有依赖性</span>
+              <span class="myth-quote">血压正常就可以停药</span>
+              <br/><span class="myth-correct">→ 均错误，需长期规范管理</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. 糖尿病 -->
+      <div class="disease-card rank-row top2">
+        <div class="disease-card-header">
+          <span class="rank-badge">2</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">糖尿病<small>患病率 13.7%</small></div>
+          </div>
+          <div class="disease-header-right">
             <div class="rank-count">2.33 亿</div>
             <div class="rank-mini-bar"><i data-w="95"></i></div>
-          </td>
-          <td class="rank-detail"><b>肥胖/超重</b>、高热量饮食、久坐、遗传易感、年龄增长、妊娠糖尿病史、代谢综合征</td>
-          <td class="rank-detail">饮食控制+规律运动；口服降糖药（<b>二甲双胍</b>等）；胰岛素治疗；指尖血糖/HbA1c 监测</td>
-          <td class="rank-detail">"糖尿病就是糖吃多了""打胰岛素会上瘾""无糖食品可以随便吃"——无糖食品仍含碳水，需计入总量</td>
-        </tr>
-        <tr class="rank-row top3">
-          <td class="rank-num-cell"><span class="rank-badge">3</span></td>
-          <td class="rank-disease">高尿酸血症<small>患病率 13.3%</small></td>
-          <td class="rank-count-cell">
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">肥胖/超重</span><span class="disease-tag">高热量饮食</span>
+              <span class="disease-tag">久坐</span><span class="disease-tag">遗传易感</span>
+              <span class="disease-tag">年龄增长</span><span class="disease-tag">妊娠糖尿病史</span>
+              <span class="disease-tag">代谢综合征</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">饮食控制</span><span class="disease-tag">规律运动</span>
+              <span class="disease-tag">二甲双胍</span><span class="disease-tag">口服降糖药</span>
+              <span class="disease-tag">胰岛素治疗</span><span class="disease-tag">血糖/HbA1c 监测</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">糖尿病就是糖吃多了</span>
+              <span class="myth-quote">打胰岛素会上瘾</span>
+              <span class="myth-quote">无糖食品可以随便吃</span>
+              <br/><span class="myth-correct">→ 无糖食品仍含碳水，需计入总量</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. 高尿酸血症 -->
+      <div class="disease-card rank-row top3">
+        <div class="disease-card-header">
+          <span class="rank-badge">3</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">高尿酸血症<small>患病率 13.3%</small></div>
+          </div>
+          <div class="disease-header-right">
             <div class="rank-count">约 1.8 亿</div>
             <div class="rank-mini-bar"><i data-w="73"></i></div>
-          </td>
-          <td class="rank-detail"><b>高嘌呤饮食</b>（海鲜/动物内脏/浓肉汤）、过量饮酒（尤其啤酒）、肥胖、肾功能异常、遗传</td>
-          <td class="rank-detail">低嘌呤饮食+每日饮水 2000ml+；降尿酸药（<b>别嘌醇/非布司他/苯溴马隆</b>）；急性期用抗炎镇痛药</td>
-          <td class="rank-detail">"尿酸高就是痛风""只有关节痛才需治疗""豆制品绝对不能吃"——尿酸高但无痛风也需管理，豆腐可适量</td>
-        </tr>
-        <tr class="rank-row">
-          <td class="rank-num-cell"><span class="rank-badge">4</span></td>
-          <td class="rank-disease">慢性肾病<small>患病率约 10.8%</small></td>
-          <td class="rank-count-cell">
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">高嘌呤饮食</span><span class="disease-tag">海鲜/动物内脏</span>
+              <span class="disease-tag">过量饮酒</span><span class="disease-tag">啤酒</span>
+              <span class="disease-tag">肥胖</span><span class="disease-tag">肾功能异常</span>
+              <span class="disease-tag">遗传</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">低嘌呤饮食</span><span class="disease-tag">饮水 2000ml+</span>
+              <span class="disease-tag">别嘌醇</span><span class="disease-tag">非布司他</span>
+              <span class="disease-tag">苯溴马隆</span><span class="disease-tag">急性期抗炎镇痛</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">尿酸高就是痛风</span>
+              <span class="myth-quote">只有关节痛才需治疗</span>
+              <span class="myth-quote">豆制品绝对不能吃</span>
+              <br/><span class="myth-correct">→ 尿酸高但无痛风也需管理，豆腐可适量</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. 慢性肾病 -->
+      <div class="disease-card rank-row">
+        <div class="disease-card-header">
+          <span class="rank-badge">4</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">慢性肾病<small>患病率约 10.8%</small></div>
+          </div>
+          <div class="disease-header-right">
             <div class="rank-count">1.52 亿</div>
             <div class="rank-mini-bar"><i data-w="62"></i></div>
-          </td>
-          <td class="rank-detail"><b>糖尿病/高血压</b>（首要病因）、肾小球肾炎、长期用肾毒性药物、反复尿路感染、遗传、老龄化</td>
-          <td class="rank-detail">严格控压控糖；<b>优质低蛋白饮食</b>；避免滥用止痛药/偏方；终末期需血液透析或肾移植</td>
-          <td class="rank-detail">"肾虚就是肾病""腰痛就是肾不好""补肾保健品能治肾病"——中医肾虚≠西医肾病，保健品不能替代治疗</td>
-        </tr>
-        <tr class="rank-row">
-          <td class="rank-num-cell"><span class="rank-badge">5</span></td>
-          <td class="rank-disease">慢阻肺<small>40岁以上 13.7%</small></td>
-          <td class="rank-count-cell">
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">糖尿病/高血压</span><span class="disease-tag">首要病因</span>
+              <span class="disease-tag">肾小球肾炎</span><span class="disease-tag">肾毒性药物</span>
+              <span class="disease-tag">反复尿路感染</span><span class="disease-tag">遗传</span>
+              <span class="disease-tag">老龄化</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">严格控压控糖</span><span class="disease-tag">优质低蛋白饮食</span>
+              <span class="disease-tag">避免滥用止痛药</span><span class="disease-tag">避免偏方</span>
+              <span class="disease-tag">血液透析</span><span class="disease-tag">肾移植</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">肾虚就是肾病</span>
+              <span class="myth-quote">腰痛就是肾不好</span>
+              <span class="myth-quote">补肾保健品能治肾病</span>
+              <br/><span class="myth-correct">→ 中医肾虚≠西医肾病，保健品不能替代治疗</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. 慢阻肺 -->
+      <div class="disease-card rank-row">
+        <div class="disease-card-header">
+          <span class="rank-badge">5</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">慢阻肺<small>40岁以上 13.7%</small></div>
+          </div>
+          <div class="disease-header-right">
             <div class="rank-count">9990 万</div>
             <div class="rank-mini-bar"><i data-w="41"></i></div>
-          </td>
-          <td class="rank-detail"><b>吸烟</b>（最主要危险因素）、空气污染、职业粉尘/化学物、生物燃料烟雾、儿童期反复呼吸道感染、遗传</td>
-          <td class="rank-detail"><b>戒烟</b>是关键；支气管扩张剂（沙丁胺醇/噻托溴铵）；吸入糖皮质激素；肺康复训练；长期氧疗</td>
-          <td class="rank-detail">"咳嗽咳痰是老毛病不用管""慢阻肺只有老人得""吸入激素有副作用不敢用"——早期干预可延缓肺功能下降</td>
-        </tr>
-        <tr class="rank-row">
-          <td class="rank-num-cell"><span class="rank-badge">6</span></td>
-          <td class="rank-disease">脑卒中<small>年新发约 300 万</small></td>
-          <td class="rank-count-cell">
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">吸烟</span><span class="disease-tag">最主要危险因素</span>
+              <span class="disease-tag">空气污染</span><span class="disease-tag">职业粉尘</span>
+              <span class="disease-tag">化学物暴露</span><span class="disease-tag">生物燃料烟雾</span>
+              <span class="disease-tag">儿童期反复感染</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">戒烟是关键</span><span class="disease-tag">支气管扩张剂</span>
+              <span class="disease-tag">沙丁胺醇</span><span class="disease-tag">噻托溴铵</span>
+              <span class="disease-tag">吸入糖皮质激素</span><span class="disease-tag">肺康复训练</span>
+              <span class="disease-tag">长期氧疗</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">咳嗽咳痰是老毛病不用管</span>
+              <span class="myth-quote">慢阻肺只有老人得</span>
+              <span class="myth-quote">吸入激素有副作用不敢用</span>
+              <br/><span class="myth-correct">→ 早期干预可延缓肺功能下降</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. 脑卒中 -->
+      <div class="disease-card rank-row">
+        <div class="disease-card-header">
+          <span class="rank-badge">6</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">脑卒中<small>年新发约 300 万</small></div>
+          </div>
+          <div class="disease-header-right">
             <div class="rank-count">1300 万</div>
             <div class="rank-mini-bar"><i data-w="12"></i></div>
-          </td>
-          <td class="rank-detail"><b>高血压</b>（首位）、房颤、高血脂、糖尿病、吸烟、肥胖、颈动脉狭窄、高同型半胱氨酸</td>
-          <td class="rank-detail">急性期<b>静脉溶栓/动脉取栓</b>（时间窗内）；抗血小板/抗凝；他汀稳定斑块；早期康复训练</td>
-          <td class="rank-detail">"中风是老年人的事""定期输活血药能预防""中风后恢复不了"——中青年卒中在增加，康复可显著改善预后</td>
-        </tr>
-        <tr class="rank-row">
-          <td class="rank-num-cell"><span class="rank-badge">7</span></td>
-          <td class="rank-disease">冠心病<small>含心绞痛/心梗</small></td>
-          <td class="rank-count-cell">
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">高血压</span><span class="disease-tag">首位</span>
+              <span class="disease-tag">房颤</span><span class="disease-tag">高血脂</span>
+              <span class="disease-tag">糖尿病</span><span class="disease-tag">吸烟</span>
+              <span class="disease-tag">肥胖</span><span class="disease-tag">颈动脉狭窄</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">静脉溶栓</span><span class="disease-tag">动脉取栓</span>
+              <span class="disease-tag">时间窗内</span><span class="disease-tag">抗血小板</span>
+              <span class="disease-tag">抗凝</span><span class="disease-tag">他汀稳定斑块</span>
+              <span class="disease-tag">早期康复训练</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">中风是老年人的事</span>
+              <span class="myth-quote">定期输活血药能预防</span>
+              <span class="myth-quote">中风后恢复不了</span>
+              <br/><span class="myth-correct">→ 中青年卒中在增加，康复可显著改善预后</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7. 冠心病 -->
+      <div class="disease-card rank-row">
+        <div class="disease-card-header">
+          <span class="rank-badge">7</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">冠心病<small>含心绞痛/心梗</small></div>
+          </div>
+          <div class="disease-header-right">
             <div class="rank-count">1139 万</div>
             <div class="rank-mini-bar"><i data-w="10"></i></div>
-          </td>
-          <td class="rank-detail"><b>高血脂</b>、高血压、吸烟、糖尿病、肥胖、久坐、早发心血管病家族史、长期精神紧张</td>
-          <td class="rank-detail">抗血小板（<b>阿司匹林</b>）+他汀；冠脉支架植入或搭桥手术；心脏康复；严格控制三高+戒烟</td>
-          <td class="rank-detail">"胸痛忍忍就过去""放了支架就万事大吉""没症状就可以停药"——支架后仍需终身服药，胸痛需立即就医</td>
-        </tr>
-        <tr class="rank-row">
-          <td class="rank-num-cell"><span class="rank-badge">8</span></td>
-          <td class="rank-disease">心力衰竭<small>65岁以上高发</small></td>
-          <td class="rank-count-cell">
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">高血脂</span><span class="disease-tag">高血压</span>
+              <span class="disease-tag">吸烟</span><span class="disease-tag">糖尿病</span>
+              <span class="disease-tag">肥胖</span><span class="disease-tag">久坐</span>
+              <span class="disease-tag">早发家族史</span><span class="disease-tag">精神紧张</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">阿司匹林</span><span class="disease-tag">抗血小板</span>
+              <span class="disease-tag">他汀</span><span class="disease-tag">冠脉支架</span>
+              <span class="disease-tag">搭桥手术</span><span class="disease-tag">心脏康复</span>
+              <span class="disease-tag">控制三高+戒烟</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">胸痛忍忍就过去</span>
+              <span class="myth-quote">放了支架就万事大吉</span>
+              <span class="myth-quote">没症状就可以停药</span>
+              <br/><span class="myth-correct">→ 支架后仍需终身服药，胸痛需立即就医</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8. 心力衰竭 -->
+      <div class="disease-card rank-row">
+        <div class="disease-card-header">
+          <span class="rank-badge">8</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">心力衰竭<small>65岁以上高发</small></div>
+          </div>
+          <div class="disease-header-right">
             <div class="rank-count">890 万</div>
             <div class="rank-mini-bar"><i data-w="7"></i></div>
-          </td>
-          <td class="rank-detail"><b>冠心病/心梗</b>后、长期高血压、心肌病、心脏瓣膜病、心律失常、糖尿病、肥胖、老龄化</td>
-          <td class="rank-detail">利尿剂减轻负荷；<b>ACEI/ARB/ARNI+β受体阻滞剂+醛固酮拮抗剂</b>"金三角"；限盐限水；心脏康复运动</td>
-          <td class="rank-detail">"心衰就是心脏停跳""心衰不能运动""水肿消了就停药"——心衰是心功能下降，规范运动有助康复，不可自行停药</td>
-        </tr>
-        <tr class="rank-row">
-          <td class="rank-num-cell"><span class="rank-badge">9</span></td>
-          <td class="rank-disease">恶性肿瘤<small>肺癌居首 106万/年</small></td>
-          <td class="rank-count-cell">
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">冠心病/心梗后</span><span class="disease-tag">长期高血压</span>
+              <span class="disease-tag">心肌病</span><span class="disease-tag">心脏瓣膜病</span>
+              <span class="disease-tag">心律失常</span><span class="disease-tag">糖尿病</span>
+              <span class="disease-tag">肥胖</span><span class="disease-tag">老龄化</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">利尿剂</span><span class="disease-tag">减轻负荷</span>
+              <span class="disease-tag">ACEI/ARB/ARNI</span><span class="disease-tag">β受体阻滞剂</span>
+              <span class="disease-tag">醛固酮拮抗剂</span><span class="disease-tag">金三角</span>
+              <span class="disease-tag">限盐限水</span><span class="disease-tag">心脏康复</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">心衰就是心脏停跳</span>
+              <span class="myth-quote">心衰不能运动</span>
+              <span class="myth-quote">水肿消了就停药</span>
+              <br/><span class="myth-correct">→ 心衰是心功能下降，规范运动有助康复，不可自行停药</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9. 恶性肿瘤 -->
+      <div class="disease-card rank-row">
+        <div class="disease-card-header">
+          <span class="rank-badge">9</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">恶性肿瘤<small>肺癌居首 106万/年</small></div>
+          </div>
+          <div class="disease-header-right">
             <div class="rank-count">482 万/年</div>
             <div class="rank-mini-bar"><i data-w="5"></i></div>
-          </td>
-          <td class="rank-detail"><b>吸烟</b>、感染（HPV/乙肝/幽门螺杆菌）、不良饮食（腌制/霉变）、肥胖、环境污染、遗传、老龄化</td>
-          <td class="rank-detail">手术切除；化疗/放疗；<b>靶向治疗/免疫治疗</b>；内分泌治疗；早筛早诊（胃肠镜/低剂量CT/HPV检测）</td>
-          <td class="rank-detail">"癌症等于绝症""化疗会加速死亡""酸性体质致癌"——很多癌症可治愈，化疗是标准治疗，"酸性体质"无科学依据</td>
-        </tr>
-      </tbody>
-    </table>
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">吸烟</span><span class="disease-tag">HPV感染</span>
+              <span class="disease-tag">乙肝</span><span class="disease-tag">幽门螺杆菌</span>
+              <span class="disease-tag">不良饮食</span><span class="disease-tag">腌制/霉变</span>
+              <span class="disease-tag">肥胖</span><span class="disease-tag">环境污染</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">手术切除</span><span class="disease-tag">化疗</span>
+              <span class="disease-tag">放疗</span><span class="disease-tag">靶向治疗</span>
+              <span class="disease-tag">免疫治疗</span><span class="disease-tag">内分泌治疗</span>
+              <span class="disease-tag">早筛早诊</span><span class="disease-tag">胃肠镜/低剂量CT</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">癌症等于绝症</span>
+              <span class="myth-quote">化疗会加速死亡</span>
+              <span class="myth-quote">酸性体质致癌</span>
+              <br/><span class="myth-correct">→ 很多癌症可治愈，化疗是标准治疗，「酸性体质」无科学依据</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>

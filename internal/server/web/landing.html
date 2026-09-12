@@ -14,7 +14,32 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"专业医学工具","itemListElement":[{"@type":"ListItem","position":1,"name":"用药安全核查","description":"检查药物相互作用、禁忌症与剂量安全性"},{"@type":"ListItem","position":2,"name":"症状分诊","description":"根据症状描述推荐就诊科室与紧急程度"},{"@type":"ListItem","position":3,"name":"遗传病风险计算","description":"基于家族史与表型评估遗传性疾病携带风险"},{"@type":"ListItem","position":4,"name":"检验单解读","description":"上传化验单图片，逐项解释指标含义与异常"},{"@type":"ListItem","position":5,"name":"药物相互作用","description":"检测多药并用时的潜在冲突与不良反应风险"},{"@type":"ListItem","position":6,"name":"药物查询","description":"检索药品说明书、适应症、副作用与医保信息"}]}</script>
 <style>/*__CSS__*/
 /* ===== Health Guide visual cards ===== */
-.guide-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.guide-carousel { position: relative; overflow: hidden; padding: 0 50px; }
+.guide-track { display: flex; gap: 20px; transition: transform .5s cubic-bezier(.4,0,.2,1); will-change: transform; }
+.guide-track .guide-card { flex: 0 0 calc((100% - 60px) / 4); min-width: 0; }
+.guide-nav {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  width: 40px; height: 40px; border-radius: 50%;
+  background: #fff; border: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; z-index: 2; transition: all .2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+.guide-nav:hover { background: var(--navy); border-color: var(--navy); }
+.guide-nav:hover svg { stroke: #fff; }
+.guide-nav svg { width: 18px; height: 18px; stroke: var(--ink); transition: stroke .2s; }
+.guide-nav.prev { left: 0; }
+.guide-nav.next { right: 0; }
+.guide-nav:disabled { opacity: .3; cursor: default; }
+.guide-nav:disabled:hover { background: #fff; border-color: var(--line); }
+.guide-nav:disabled:hover svg { stroke: var(--ink); }
+.guide-dots { display: flex; justify-content: center; gap: 8px; margin-top: 24px; }
+.guide-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--line); border: none; cursor: pointer;
+  transition: all .3s; padding: 0;
+}
+.guide-dot.active { width: 24px; border-radius: 4px; background: var(--navy); }
 .guide-card {
   position: relative; background: #fff; border-radius: 18px; padding: 28px 22px 24px;
   border: 1px solid var(--line); overflow: hidden; cursor: pointer;
@@ -55,8 +80,85 @@
 .c-violet { --gc: #7C3AED; --gc-soft: #EDEBFE; }
 .c-pink   { --gc: #E11D48; --gc-soft: #FFE4E6; }
 .c-cyan   { --gc: #0891B2; --gc-soft: #ECFEFF; }
-@media (max-width: 980px) { .guide-grid { grid-template-columns: 1fr 1fr; } }
-@media (max-width: 620px) { .guide-grid { grid-template-columns: 1fr; } }
+/* Guide detail modal */
+.guide-modal-overlay {
+  position: fixed; inset: 0; background: rgba(10,20,40,.55);
+  display: none; align-items: center; justify-content: center;
+  z-index: 100; padding: 20px; backdrop-filter: blur(4px);
+}
+.guide-modal-overlay.show { display: flex; animation: fadeIn .2s ease; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.guide-modal {
+  background: #fff; border-radius: 20px; max-width: 640px; width: 100%;
+  max-height: 85vh; overflow-y: auto; position: relative;
+  box-shadow: 0 30px 80px rgba(0,0,0,.3);
+  animation: slideUp .3s cubic-bezier(.4,0,.2,1);
+}
+@keyframes slideUp { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+.guide-modal-top { height: 6px; border-radius: 20px 20px 0 0; }
+.guide-modal-body { padding: 28px 32px 24px; }
+.guide-modal-close {
+  position: absolute; top: 16px; right: 16px; width: 36px; height: 36px;
+  border-radius: 50%; border: none; background: var(--bg-soft); cursor: pointer;
+  display: flex; align-items: center; justify-content: center; transition: all .2s;
+  z-index: 2;
+}
+.guide-modal-close:hover { background: var(--line); transform: rotate(90deg); }
+.guide-modal-close svg { width: 18px; height: 18px; stroke: var(--ink); }
+.guide-modal-tag {
+  display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 10px;
+  border-radius: 999px; letter-spacing: .5px; margin-bottom: 10px;
+}
+.guide-modal h3 { font-size: 24px; font-weight: 800; color: var(--ink); margin-bottom: 6px; }
+.guide-modal-principle {
+  font-size: 16px; font-weight: 700; line-height: 1.6; padding: 14px 18px;
+  border-radius: 12px; margin-bottom: 16px; border-left: 4px solid;
+}
+.guide-modal-summary { font-size: 14px; color: var(--text); line-height: 1.7; margin-bottom: 20px; }
+.guide-modal-points { list-style: none; padding: 0; margin: 0 0 20px; }
+.guide-modal-points li {
+  display: flex; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line);
+  font-size: 14px; line-height: 1.65; color: var(--text);
+}
+.guide-modal-points li:last-child { border-bottom: none; }
+.guide-modal-points .pt-ic {
+  flex-shrink: 0; width: 28px; height: 28px; border-radius: 8px;
+  display: flex; align-items: center; justify-content: center; font-size: 14px;
+}
+.guide-modal-points b { color: var(--ink); font-weight: 700; }
+.guide-modal-stats {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px; margin-bottom: 20px;
+}
+.guide-stat {
+  background: var(--bg-soft); border-radius: 12px; padding: 14px 16px; text-align: center;
+}
+.guide-stat .num { font-size: 22px; font-weight: 800; color: var(--ink); }
+.guide-stat .lbl { font-size: 11px; color: var(--muted); margin-top: 2px; }
+.guide-modal-source {
+  font-size: 11.5px; color: var(--muted); line-height: 1.6; padding-top: 14px;
+  border-top: 1px solid var(--line); margin-bottom: 16px;
+}
+.guide-modal-cta {
+  display: block; width: 100%; padding: 14px; border: none; border-radius: 12px;
+  font-size: 15px; font-weight: 700; color: #fff; cursor: pointer;
+  transition: transform .15s, box-shadow .15s; text-align: center; text-decoration: none;
+}
+.guide-modal-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,.2); }
+@media (max-width: 620px) {
+  .guide-modal-body { padding: 20px 18px; }
+  .guide-modal h3 { font-size: 20px; }
+  .guide-modal-stats { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 980px) {
+  .guide-carousel { padding: 0 40px; }
+  .guide-track .guide-card { flex: 0 0 calc((100% - 20px) / 2); }
+}
+@media (max-width: 620px) {
+  .guide-carousel { padding: 0 36px; }
+  .guide-track .guide-card { flex: 0 0 100%; }
+  .guide-nav { width: 32px; height: 32px; }
+}
 /* ===== Anatomy body map ===== */
 .anat-viewport { position: relative; background: linear-gradient(180deg,#FAFBFD 0%,#F0F4F8 100%); border-radius: 16px; border: 1px solid var(--line); overflow: hidden; }
 .anat-viewport svg { display: block; width: 100%; height: auto; max-height: 560px; transition: none; }
@@ -130,19 +232,83 @@
 .rank-row.top2 .rank-mini-bar i { background: linear-gradient(90deg,#F97316,#FB923C); }
 .rank-row.top3 .rank-mini-bar i { background: linear-gradient(90deg,#EAB308,#FACC15); }
 .rank-row:not(.top1):not(.top2):not(.top3) .rank-mini-bar i { background: linear-gradient(90deg,#2563EB,#60A5FA); }
-.rank-detail { color: var(--text); font-size: 13px; line-height: 1.6; }
+.rank-detail { color: var(--text); font-size: 13px; line-height: 1.7; }
 .rank-detail b { color: var(--ink); }
+/* Three info columns: cause (amber), treatment (green), myth (red).
+   Selected via nth-child so no HTML class changes needed. */
+.rank-table tbody td:nth-child(4) {
+  border-left: 3px solid #F59E0B;
+  background: linear-gradient(90deg, rgba(245,158,11,.06) 0%, transparent 40%);
+}
+.rank-table tbody td:nth-child(5) {
+  border-left: 3px solid #10B981;
+  background: linear-gradient(90deg, rgba(16,185,129,.06) 0%, transparent 40%);
+}
+.rank-table tbody td:nth-child(6) {
+  border-left: 3px solid #EF4444;
+  background: linear-gradient(90deg, rgba(239,68,68,.06) 0%, transparent 40%);
+}
+/* Column header chips (pseudo-element labels) */
+.rank-table tbody td:nth-child(4)::before,
+.rank-table tbody td:nth-child(5)::before,
+.rank-table tbody td:nth-child(6)::before {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  color: #fff;
+}
+.rank-table tbody td:nth-child(4)::before { content: "主要原因"; background: #F59E0B; }
+.rank-table tbody td:nth-child(5)::before { content: "治疗手段"; background: #10B981; }
+.rank-table tbody td:nth-child(6)::before { content: "常见误解"; background: #EF4444; }
+/* Bold keywords become colored chips */
+.rank-table tbody td:nth-child(4) b {
+  display: inline-block;
+  background: #FEF3C7;
+  color: #92400E;
+  padding: 1px 7px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 1px 2px;
+}
+.rank-table tbody td:nth-child(5) b {
+  display: inline-block;
+  background: #D1FAE5;
+  color: #065F46;
+  padding: 1px 7px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 1px 2px;
+}
+/* Myth column: misconceptions in red, corrections in normal weight */
+.rank-table tbody td:nth-child(6) {
+  color: #991B1B;
+}
+.rank-table tbody td:nth-child(6) b {
+  background: #FEE2E2;
+  color: #991B1B;
+}
 .rank-col-label { display: none; }
 .rank-source { text-align: center; font-size: 12px; color: var(--muted); margin-top: 20px; line-height: 1.6; }
 .rank-source a { color: var(--blue); text-decoration: underline; }
 @media (max-width: 860px) {
   .rank-table thead { display: none; }
   .rank-table tbody tr { display: block; border: 1px solid var(--line); border-radius: 12px; margin-bottom: 12px; padding: 14px; background: #fff; }
-  .rank-table tbody td { display: block; border: none; padding: 6px 0; width: 100% !important; }
-  .rank-num-cell { text-align: left; display: flex; align-items: center; gap: 10px; }
-  .rank-col-label { display: inline; font-weight: 700; color: var(--ink); font-size: 12px; margin-right: 6px; }
-  .rank-disease { width: auto; }
-  .rank-count-cell { width: auto; }
+  .rank-table tbody td { display: block; border: none; padding: 8px 0 8px 10px; width: 100% !important; border-left: 3px solid transparent; }
+  .rank-table tbody td:nth-child(4),
+  .rank-table tbody td:nth-child(5),
+  .rank-table tbody td:nth-child(6) {
+    margin-top: 4px;
+    border-radius: 0 8px 8px 0;
+  }
+  .rank-num-cell { text-align: left; display: flex; align-items: center; gap: 10px; border-left: none !important; background: none !important; padding: 4px 0 !important; }
+  .rank-disease { width: auto; border-left: none !important; background: none !important; padding: 4px 0 !important; }
+  .rank-count-cell { width: auto; border-left: none !important; background: none !important; padding: 4px 0 !important; }
 }
 </style>
 </head>
@@ -225,90 +391,6 @@
     </div>
   </div>
 </section>
-
-<!-- ============ CORE FEATURES / 核心能力 ============ -->
-<section id="features">
-  <div class="container">
-    <div class="sec-center">
-      <span class="eyebrow">核心能力</span>
-      <h2 class="title">为什么医答更值得信赖</h2>
-      <p class="sec-desc">循证、专注中国人群、安全兜底——三个维度构筑可信的健康参考。</p>
-    </div>
-
-    <!-- Feature 1: 循证可信 -->
-    <div class="feature">
-      <div>
-        <span class="f-eyebrow" style="background:var(--blue-soft);color:var(--blue-dark);">循证可信</span>
-        <h3>引用权威指南与文献，每条建议可溯源</h3>
-        <p>所有回答均附 DOI/PMID 编号，支持点击跳转原始文献。引用核验层自动检测虚假引用，确保每条依据真实可查。</p>
-      </div>
-      <div class="f-visual">
-        <svg viewBox="0 0 480 270" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="480" height="270" fill="#EFF5FD"/>
-          <rect x="60" y="50" width="150" height="180" rx="12" fill="#fff" stroke="#C9DEFB"/>
-          <line x1="80" y1="80" x2="190" y2="80" stroke="#2563EB" stroke-width="6" stroke-linecap="round"/>
-          <line x1="80" y1="105" x2="170" y2="105" stroke="#BFE0FB" stroke-width="6" stroke-linecap="round"/>
-          <line x1="80" y1="130" x2="190" y2="130" stroke="#BFE0FB" stroke-width="6" stroke-linecap="round"/>
-          <line x1="80" y1="155" x2="160" y2="155" stroke="#BFE0FB" stroke-width="6" stroke-linecap="round"/>
-          <line x1="80" y1="180" x2="185" y2="180" stroke="#BFE0FB" stroke-width="6" stroke-linecap="round"/>
-          <circle cx="350" cy="120" r="46" fill="#2563EB" opacity="0.12"/>
-          <circle cx="350" cy="120" r="28" fill="none" stroke="#2563EB" stroke-width="5"/>
-          <line x1="370" y1="140" x2="392" y2="162" stroke="#2563EB" stroke-width="6" stroke-linecap="round"/>
-          <path d="M120 230 C 200 200, 280 200, 350 166" stroke="#06B6D4" stroke-width="3" stroke-dasharray="6 6" fill="none"/>
-          <circle cx="350" cy="166" r="6" fill="#06B6D4"/>
-          <rect x="300" y="180" width="120" height="40" rx="10" fill="#fff" stroke="#06B6D4" stroke-width="2"/>
-          <text x="360" y="205" font-family="sans-serif" font-size="14" fill="#0F1E33" text-anchor="middle" font-weight="700">DOI · PMID</text>
-        </svg>
-      </div>
-    </div>
-
-    <!-- Feature 2: 专项覆盖 -->
-    <div class="feature">
-      <div>
-        <span class="f-eyebrow" style="background:var(--green-soft);color:var(--green);">专项覆盖</span>
-        <h3>中国高发疾病专项知识库</h3>
-        <p>针对地贫、G6PD、鼻咽癌、乙肝、乳糖不耐受、登革热等中国高发疾病构建专项数据集，覆盖南方省份尤为关注的健康问题。</p>
-      </div>
-      <div class="f-visual">
-        <svg viewBox="0 0 480 270" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="480" height="270" fill="#EFF5FD"/>
-          <path d="M150 60 C 200 40, 280 45, 330 70 C 360 90, 350 120, 370 150 C 390 180, 350 210, 300 215 C 250 220, 200 235, 160 210 C 120 185, 100 160, 120 125 C 135 95, 110 80, 150 60 Z" fill="#0A1B36" opacity="0.85"/>
-          <g fill="#06B6D4">
-            <circle cx="200" cy="110" r="6"/><circle cx="250" cy="95" r="5"/><circle cx="300" cy="130" r="7"/>
-            <circle cx="230" cy="155" r="5"/><circle cx="280" cy="175" r="6"/><circle cx="175" cy="150" r="4"/>
-            <circle cx="320" cy="100" r="5"/>
-          </g>
-          <g fill="#F59E0B">
-            <circle cx="265" cy="120" r="4"/><circle cx="210" cy="135" r="4"/>
-          </g>
-          <circle cx="265" cy="120" r="16" fill="none" stroke="#06B6D4" stroke-width="2" opacity="0.6"/>
-          <text x="240" y="245" font-family="sans-serif" font-size="13" fill="#0F1E33" text-anchor="middle" font-weight="700">中国高发疾病 · 区域覆盖</text>
-        </svg>
-      </div>
-    </div>
-
-    <!-- Feature 3: 四层防护 -->
-    <div class="feature">
-      <div>
-        <span class="f-eyebrow" style="background:var(--amber-soft);color:var(--amber);">四层防护</span>
-        <h3>安全守护，先救命后答疑</h3>
-        <p>遇到胸痛、呼吸困难等紧急症状立即提示就医；超出医疗范围的问题主动拒绝；所有回答附免责声明。四层防护让你用得放心。</p>
-      </div>
-      <div class="f-visual">
-        <svg viewBox="0 0 480 270" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="480" height="270" fill="#EFF5FD"/>
-          <path d="M240 40 L320 70 V130 C320 180 285 215 240 230 C195 215 160 180 160 130 V70 Z" fill="#fff" stroke="#2563EB" stroke-width="2"/>
-          <path d="M240 70 L295 92 V132 C295 168 268 193 240 205 C212 193 185 168 185 132 V92 Z" fill="#E6F2FE" stroke="#06B6D4" stroke-width="2"/>
-          <path d="M240 100 L272 116 V142 C272 162 256 178 240 186 C224 178 208 162 208 142 V116 Z" fill="#ECFDF5" stroke="#16A34A" stroke-width="2"/>
-          <path d="M240 124 L258 134 V150 C258 160 250 168 240 172 C230 168 222 160 222 150 V134 Z" fill="#0A1B36"/>
-          <circle cx="240" cy="40" r="9" fill="#DC2626"/>
-          <text x="240" y="258" font-family="sans-serif" font-size="13" fill="#0F1E33" text-anchor="middle" font-weight="700">急诊识别 → 范围护栏 → 引用核验 → 免责声明</text>
-        </svg>
-      </div>
-    </div>
-  </div>
-</section>
-
 
 <!-- ============ BODY MAP / 解剖图 ============ -->
 <section id="bodymap" style="background:var(--white);padding:96px 0;">
@@ -404,9 +486,7 @@
 <section id="ranking" style="background:var(--white);">
   <div class="container">
     <div class="sec-center">
-      <span class="eyebrow">数据说话</span>
       <h2 class="title">当下中国人高发疾病排名</h2>
-      <p class="sec-desc">按患病人数从高到低排列——了解主要原因、治疗手段与常见误解，才能更好地预防和应对。</p>
     </div>
     <div style="overflow-x:auto;">
     <table class="rank-table" id="rankTable">
@@ -523,7 +603,6 @@
       </tbody>
     </table>
     </div>
-    <p class="rank-source">数据来源：《中国心血管健康与疾病报告2022》（国家心血管病中心）、中国疾控中心慢病中心（2023）、《柳叶刀》2018/2025、国家癌症中心 JNCC 2024、国家卫健委《成人高尿酸血症与痛风食养指南》2023。各病种调查年份与口径不同，且存在共病，不可简单相加。<a href="/stats">查看完整 10 维度数据 →</a></p>
   </div>
 </section>
 
@@ -531,32 +610,34 @@
 <section id="guide" style="background:var(--bg-soft);">
   <div class="container">
     <div class="sec-center">
-      <span class="eyebrow">健康指南</span>
       <h2 class="title">12 大健康主题，一点即问</h2>
-      <p class="sec-desc">从日常习惯到育儿成长，从职业防护到慢病管理——点击任一卡片，医答基于权威知识库给出可溯源的建议。</p>
     </div>
-    <div class="guide-grid">
+    <div class="guide-carousel" id="guideCarousel">
+      <button class="guide-nav prev" id="guidePrev" aria-label="上一页">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <div class="guide-track" id="guideTrack">
 
       <!-- Row 1: 日常健康 -->
-      <a class="guide-card c-green" data-num="01" href="/app?q=健康生活习惯理念：如何通过饮食、运动、睡眠和压力管理改善整体健康状况？请给出循证的日常建议。">
+      <a class="guide-card c-green" data-num="01" href="#" data-cta="/app?q=健康生活习惯理念：如何通过饮食、运动、睡眠和压力管理改善整体健康状况？请给出循证的日常建议。">
         <span class="guide-tag">日常健康</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
         <h4>健康生活习惯</h4>
         <p>均衡饮食 · 规律运动 · 优质睡眠 · 压力管理，建立可持续的生活方式。</p>
       </a>
-      <a class="guide-card c-green" data-num="02" href="/app?q=营养与饮食指导：中国居民膳食指南要点、不同人群营养需求、常见营养素缺乏表现、食品安全与合理搭配建议。">
+      <a class="guide-card c-green" data-num="02" href="#" data-cta="/app?q=营养与饮食指导：中国居民膳食指南要点、不同人群营养需求、常见营养素缺乏表现、食品安全与合理搭配建议。">
         <span class="guide-tag">日常健康</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M12 6v6l4 2"/></svg></div>
         <h4>营养与饮食</h4>
         <p>膳食指南核心要点 · 营养素缺乏表现 · 食品安全 · 合理搭配。</p>
       </a>
-      <a class="guide-card c-green" data-num="03" href="/app?q=运动与康复指导：科学运动处方制定、常见运动损伤处理与预防、术后康复训练原则、不同年龄段适合的运动方式。">
+      <a class="guide-card c-green" data-num="03" href="#" data-cta="/app?q=运动与康复指导：科学运动处方制定、常见运动损伤处理与预防、术后康复训练原则、不同年龄段适合的运动方式。">
         <span class="guide-tag">日常健康</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="5" r="2"/><path d="M12 7v6l-4 4M12 13l4 4M8 21l4-4 4 4"/></svg></div>
         <h4>运动与康复</h4>
         <p>科学运动处方 · 运动损伤 RICE 处理 · 术后康复 · 分龄运动建议。</p>
       </a>
-      <a class="guide-card c-amber" data-num="04" href="/app?q=职业病防护：长期伏案工作导致的颈肩腰背痛、视疲劳、鼠标手，以及粉尘噪声化学暴露的职业健康防护建议。">
+      <a class="guide-card c-amber" data-num="04" href="#" data-cta="/app?q=职业病防护：长期伏案工作导致的颈肩腰背痛、视疲劳、鼠标手，以及粉尘噪声化学暴露的职业健康防护建议。">
         <span class="guide-tag">职业健康</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M2 20h20M4 20V8l8-4 8 4v12"/><path d="M9 20v-6h6v6"/><circle cx="12" cy="11" r="1.5"/></svg></div>
         <h4>职业病防护</h4>
@@ -564,25 +645,25 @@
       </a>
 
       <!-- Row 2: 妇幼育儿 -->
-      <a class="guide-card c-blue" data-num="05" href="/app?q=婴儿护理指南：新生儿喂养、睡眠、疫苗接种和常见问题处理，请给出权威建议和注意事项。">
+      <a class="guide-card c-blue" data-num="05" href="#" data-cta="/app?q=婴儿护理指南：新生儿喂养、睡眠、疫苗接种和常见问题处理，请给出权威建议和注意事项。">
         <span class="guide-tag">妇幼育儿</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M9 12h6M12 9v6"/><circle cx="12" cy="12" r="10"/><path d="M8 4h8M8 20h8" stroke-dasharray="2 2"/></svg></div>
         <h4>婴儿护理</h4>
         <p>0-1 岁喂养 · 睡眠训练 · 疫苗程序 · 发热腹泻居家护理与就医指征。</p>
       </a>
-      <a class="guide-card c-blue" data-num="06" href="/app?q=儿童成长指导：幼儿生长发育监测、行为心理引导、安全教育和营养需求，请给出分年龄段建议。">
+      <a class="guide-card c-blue" data-num="06" href="#" data-cta="/app?q=儿童成长指导：幼儿生长发育监测、行为心理引导、安全教育和营养需求，请给出分年龄段建议。">
         <span class="guide-tag">妇幼育儿</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M3 20h18M5 20V10l7-5 7 5v10"/><path d="M9 20v-6h6v6"/><path d="M12 3v2"/></svg></div>
         <h4>儿童成长指导</h4>
         <p>生长发育曲线 · 行为心理引导 · 意外伤害预防 · 学龄期营养用眼。</p>
       </a>
-      <a class="guide-card c-pink" data-num="07" href="/app?q=女性健康指南：生理期管理、备孕孕期保健、更年期护理和常见妇科问题，请给出循证建议。">
+      <a class="guide-card c-pink" data-num="07" href="#" data-cta="/app?q=女性健康指南：生理期管理、备孕孕期保健、更年期护理和常见妇科问题，请给出循证建议。">
         <span class="guide-tag">妇幼育儿</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="5"/><path d="M12 13v8M8 17h8"/></svg></div>
         <h4>女性健康</h4>
         <p>生理期调理 · 备孕孕期保健 · 产后恢复 · 更年期 · 乳腺宫颈健康。</p>
       </a>
-      <a class="guide-card c-violet" data-num="08" href="/app?q=老年健康管理：慢性病控制、跌倒预防、认知维护、营养和用药安全，请给出适合老年人的建议。">
+      <a class="guide-card c-violet" data-num="08" href="#" data-cta="/app?q=老年健康管理：慢性病控制、跌倒预防、认知维护、营养和用药安全，请给出适合老年人的建议。">
         <span class="guide-tag">银发健康</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="5" r="2.5"/><path d="M8 22l2-7h4l2 7M7 15l-2 3M17 15l2 3"/></svg></div>
         <h4>老年健康管理</h4>
@@ -590,34 +671,59 @@
       </a>
 
       <!-- Row 3: 疾病与专科 -->
-      <a class="guide-card c-amber" data-num="09" href="/app?q=慢性病自我管理：高血压、糖尿病、高血脂的日常监测、饮食运动和用药依从性指导。">
+      <a class="guide-card c-amber" data-num="09" href="#" data-cta="/app?q=慢性病自我管理：高血压、糖尿病、高血脂的日常监测、饮食运动和用药依从性指导。">
         <span class="guide-tag">慢病管理</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M3 12h4l2-6 4 12 2-6h6"/></svg></div>
         <h4>慢病自我管理</h4>
         <p>高血压糖尿病高血脂 · 日常监测 · 饮食运动处方 · 并发症早期信号。</p>
       </a>
-      <a class="guide-card c-violet" data-num="10" href="/app?q=心理健康指导：如何识别焦虑和抑郁信号、压力管理方法、睡眠障碍改善，以及什么情况下需要寻求专业心理帮助。">
+      <a class="guide-card c-violet" data-num="10" href="#" data-cta="/app?q=心理健康指导：如何识别焦虑和抑郁信号、压力管理方法、睡眠障碍改善，以及什么情况下需要寻求专业心理帮助。">
         <span class="guide-tag">心理睡眠</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
         <h4>心理健康</h4>
         <p>焦虑抑郁识别 · 压力情绪调节 · 失眠改善 · 何时寻求专业帮助。</p>
       </a>
-      <a class="guide-card c-cyan" data-num="11" href="/app?q=口腔健康指南：龋齿和牙周病的预防、正确刷牙与使用牙线、儿童窝沟封闭与涂氟、智齿与口腔常见问题处理。">
+      <a class="guide-card c-cyan" data-num="11" href="#" data-cta="/app?q=口腔健康指南：龋齿和牙周病的预防、正确刷牙与使用牙线、儿童窝沟封闭与涂氟、智齿与口腔常见问题处理。">
         <span class="guide-tag">五官健康</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2c-3 0-5 2-5 5 0 2 1 4 1 6s-1 5 1 7c1 1 2 1 3 0 1 1 2 1 3 0 2-2 1-5 1-7s1-4 1-6c0-3-2-5-5-5z"/></svg></div>
         <h4>口腔健康</h4>
         <p>龋齿牙周病预防 · 正确刷牙牙线 · 儿童窝沟封闭涂氟 · 智齿处理。</p>
       </a>
-      <a class="guide-card c-cyan" data-num="12" href="/app?q=眼健康指南：近视防控方法、干眼综合征的日常护理、青光眼和白内障的早期信号、长时间用眼的护眼建议。">
+      <a class="guide-card c-cyan" data-num="12" href="#" data-cta="/app?q=眼健康指南：近视防控方法、干眼综合征的日常护理、青光眼和白内障的早期信号、长时间用眼的护眼建议。">
         <span class="guide-tag">五官健康</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
         <h4>眼健康</h4>
         <p>近视防控 · 干眼护理 · 青光眼白内障早期信号 · 20-20-20 护眼法则。</p>
       </a>
 
+      </div>
+      <button class="guide-nav next" id="guideNext" aria-label="下一页">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
     </div>
+    <div class="guide-dots" id="guideDots"></div>
   </div>
 </section>
+
+<!-- Guide detail modal -->
+<div class="guide-modal-overlay" id="guideModalOverlay">
+  <div class="guide-modal" id="guideModal">
+    <div class="guide-modal-top" id="guideModalTop"></div>
+    <button class="guide-modal-close" id="guideModalClose" aria-label="关闭">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+    <div class="guide-modal-body">
+      <span class="guide-modal-tag" id="guideModalTag"></span>
+      <h3 id="guideModalTitle"></h3>
+      <div class="guide-modal-principle" id="guideModalPrinciple"></div>
+      <p class="guide-modal-summary" id="guideModalSummary"></p>
+      <ul class="guide-modal-points" id="guideModalPoints"></ul>
+      <div class="guide-modal-stats" id="guideModalStats"></div>
+      <div class="guide-modal-source" id="guideModalSource"></div>
+      <a class="guide-modal-cta" id="guideModalCta" href="#">深入咨询医答 →</a>
+    </div>
+  </div>
+</div>
 
 <!-- ============ FOOTER ============ -->
 <footer>
@@ -682,6 +788,383 @@ fetch("/health").then(function(r){return r.json();}).then(function(d){
     },{threshold:0.15});
     io.observe(table);
   }else{play();}
+})();
+
+/* ===== Health guide carousel ===== */
+(function(){
+  var carousel = document.getElementById('guideCarousel');
+  if (!carousel) return;
+  var track = document.getElementById('guideTrack');
+  var prevBtn = document.getElementById('guidePrev');
+  var nextBtn = document.getElementById('guideNext');
+  var dotsWrap = document.getElementById('guideDots');
+  var cards = track.querySelectorAll('.guide-card');
+  var total = cards.length;
+  var current = 0;
+  var perPage = 4;
+  var pages = 3;
+  var autoTimer = null;
+
+  function calcPerPage() {
+    var w = window.innerWidth;
+    if (w <= 620) return 1;
+    if (w <= 980) return 2;
+    return 4;
+  }
+
+  function buildDots() {
+    dotsWrap.innerHTML = '';
+    for (var i = 0; i < pages; i++) {
+      var dot = document.createElement('button');
+      dot.className = 'guide-dot' + (i === current ? ' active' : '');
+      dot.setAttribute('aria-label', '第 ' + (i + 1) + ' 页');
+      (function(idx) {
+        dot.addEventListener('click', function() { goTo(idx); });
+      })(i);
+      dotsWrap.appendChild(dot);
+    }
+  }
+
+  function updateDots() {
+    var dots = dotsWrap.querySelectorAll('.guide-dot');
+    dots.forEach(function(d, i) {
+      d.classList.toggle('active', i === current);
+    });
+  }
+
+  function goTo(idx) {
+    current = Math.max(0, Math.min(idx, pages - 1));
+    var offset = current * (100 / pages);
+    track.style.transform = 'translateX(-' + offset + '%)';
+    updateDots();
+    prevBtn.disabled = current === 0;
+    nextBtn.disabled = current === pages - 1;
+  }
+
+  function next() { goTo(current + 1); }
+  function prev() { goTo(current - 1); }
+
+  function resetAuto() {
+    if (autoTimer) clearInterval(autoTimer);
+    autoTimer = setInterval(function() {
+      if (current >= pages - 1) goTo(0); else next();
+    }, 5000);
+  }
+
+  function recalc() {
+    perPage = calcPerPage();
+    pages = Math.ceil(total / perPage);
+    if (current >= pages) current = pages - 1;
+    buildDots();
+    goTo(current);
+  }
+
+  prevBtn.addEventListener('click', function() { prev(); resetAuto(); });
+  nextBtn.addEventListener('click', function() { next(); resetAuto(); });
+
+  // Touch swipe
+  var touchStartX = 0;
+  track.addEventListener('touchstart', function(e) {
+    touchStartX = e.touches[0].clientX;
+  }, { passive: true });
+  track.addEventListener('touchend', function(e) {
+    var dx = e.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(dx) > 50) {
+      if (dx < 0) next(); else prev();
+      resetAuto();
+    }
+  }, { passive: true });
+
+  window.addEventListener('resize', recalc);
+
+  recalc();
+  resetAuto();
+})();
+
+/* ===== Guide detail modal with authoritative content ===== */
+(function(){
+  var overlay = document.getElementById('guideModalOverlay');
+  if (!overlay) return;
+  var modal = document.getElementById('guideModal');
+  var topBar = document.getElementById('guideModalTop');
+  var tagEl = document.getElementById('guideModalTag');
+  var titleEl = document.getElementById('guideModalTitle');
+  var summaryEl = document.getElementById('guideModalSummary');
+  var pointsEl = document.getElementById('guideModalPoints');
+  var statsEl = document.getElementById('guideModalStats');
+  var sourceEl = document.getElementById('guideModalSource');
+  var ctaEl = document.getElementById('guideModalCta');
+  var closeBtn = document.getElementById('guideModalClose');
+
+  var GUIDE_DATA = {
+    "01": {
+      tag: "日常健康", color: "#16A34A", colorSoft: "#ECFDF5",
+      title: "健康生活习惯",
+      principle: "吃动平衡、戒烟限酒、睡够 7 小时——健康不是突击，是日复一日的选择。",
+      summary: "世界卫生组织提出健康四大基石——合理膳食、适量运动、戒烟限酒、心理平衡。建立可持续的生活方式，是预防 80% 以上慢性病的关键。",
+      points: [
+        { icon: "🥗", text: "<b>合理膳食</b>：每天摄入 12 种以上食物，每周 25 种以上；谷薯类、蔬菜水果、畜禽鱼蛋奶、大豆坚果均衡搭配。" },
+        { icon: "🏃", text: "<b>适量运动</b>：每周至少 150 分钟中等强度有氧运动（快走/游泳/骑车），肌肉强化训练 ≥2 天/周。" },
+        { icon: "🚭", text: "<b>戒烟限酒</b>：任何剂量酒精都对健康有害；戒烟后 20 分钟心率即开始恢复正常。" },
+        { icon: "😴", text: "<b>优质睡眠</b>：成人每天 7-8 小时，固定作息，睡前 1 小时避免屏幕蓝光。" },
+        { icon: "🧘", text: "<b>压力管理</b>：每天 10 分钟深呼吸或正念练习，保持社交联系，必要时寻求专业心理支持。" }
+      ],
+      stats: [
+        { num: "27.8%", lbl: "中国居民健康素养水平（2022）" },
+        { num: "80%", lbl: "慢性病可通过生活方式预防" }
+      ],
+      source: "来源：世界卫生组织（WHO）《预防慢性病关键措施》、国家卫健委《中国居民健康素养监测报告》"
+    },
+    "02": {
+      tag: "日常健康", color: "#16A34A", colorSoft: "#ECFDF5",
+      title: "营养与饮食",
+      principle: "每天 12 种食物、盐不超 5 克、水喝够 1500 毫升——吃对了，病少一半。",
+      summary: "《中国居民膳食指南（2022）》提出八条核心准则，强调食物多样、吃动平衡、少盐少油控糖限酒。",
+      points: [
+        { icon: "🌾", text: "<b>食物多样</b>：平均每天 12 种、每周 25 种以上食物；全谷物和杂豆占主食 1/4-1/3。" },
+        { icon: "🥬", text: "<b>多吃蔬果</b>：每天蔬菜 ≥300g（深色占一半），水果 200-350g，奶类 300-500g。" },
+        { icon: "🐟", text: "<b>适量蛋白</b>：每周吃鱼 2 次或 300-500g，蛋类 300-350g，畜禽肉 300-500g。" },
+        { icon: "🧂", text: "<b>少盐少油</b>：食盐 <5g/天（约一啤酒瓶盖），烹调油 25-30g，添加糖 <25g/天。" },
+        { icon: "💧", text: "<b>足量饮水</b>：成人每天 1500-1700ml（7-8 杯），首选白开水，不喝或少喝含糖饮料。" }
+      ],
+      stats: [
+        { num: "9.3g", lbl: "中国人均每日食盐摄入量（推荐 <5g）" },
+        { num: "8 条", lbl: "膳食指南核心准则" }
+      ],
+      source: "来源：中国营养学会《中国居民膳食指南（2022）》、国家卫健委"
+    },
+    "03": {
+      tag: "日常健康", color: "#16A34A", colorSoft: "#ECFDF5",
+      title: "运动与康复",
+      principle: "每周 150 分钟、少坐多站、动则有益——身体活动是最好的药。",
+      summary: "WHO 2020 年指南指出，身体活动是"良药"——可降低心血管病、糖尿病、抑郁和全因死亡风险。久坐是独立危险因素。",
+      points: [
+        { icon: "🚶", text: "<b>有氧运动</b>：成人每周 150-300 分钟中等强度（能说话不能唱歌），或 75-150 分钟高强度。" },
+        { icon: "💪", text: "<b>肌肉强化</b>：每周 ≥2 天进行涉及主要肌群的抗阻训练（哑铃/弹力带/自重）。" },
+        { icon: "🪑", text: "<b>减少久坐</b>：每坐 1 小时起身活动 3-5 分钟；久坐时间越长，死亡风险越高。" },
+        { icon: "🩹", text: "<b>运动损伤 RICE</b>：Rest 休息、Ice 冰敷（48h 内）、Compression 加压、Elevation 抬高。" },
+        { icon: "🦴", text: "<b>术后康复</b>：遵循循序渐进原则，早期活动预防血栓和肌肉萎缩，在康复师指导下进行。" }
+      ],
+      stats: [
+        { num: "22%", lbl: "中国成年人达到推荐身体活动量比例" },
+        { num: "30%", lbl: "运动降低全因死亡风险" }
+      ],
+      source: "来源：WHO《身体活动和久坐行为指南（2020）》、美国运动医学会（ACSM）"
+    },
+    "04": {
+      tag: "职业健康", color: "#D97706", colorSoft: "#FEF3E6",
+      title: "职业病防护",
+      principle: "每 45 分钟起身、20-20-20 护眼、工位调对——预防比治疗容易百倍。",
+      summary: "长期伏案工作导致的肌肉骨骼疾患和视疲劳已成为最常见的职业健康问题。粉尘、噪声、化学暴露则需严格的工程防护和个人防护。",
+      points: [
+        { icon: "💺", text: "<b>颈肩腰背痛</b>：每 45 分钟起身活动；显示器与眼平齐，键盘肘屈 90°，腰部有支撑。" },
+        { icon: "👁️", text: "<b>视疲劳</b>：20-20-20 法则——每用眼 20 分钟，看 6 米外 20 秒；屏幕亮度与环境匹配。" },
+        { icon: "🖱️", text: "<b>鼠标手（腕管综合征）</b>：保持腕部中立位，使用人体工学键鼠，定时做腕部拉伸。" },
+        { icon: "😷", text: "<b>粉尘/化学暴露</b>：佩戴符合标准的防尘口罩/防毒面具，优先工程控制（通风/密闭）。" },
+        { icon: "📋", text: "<b>职业健康检查</b>：接触职业病危害因素的劳动者须进行上岗前、在岗期间、离岗时职业健康检查。" }
+      ],
+      stats: [
+        { num: "100万+", lbl: "中国累计报告职业病病例" },
+        { num: "首位", lbl: "肌肉骨骼疾患是职业健康首要问题" }
+      ],
+      source: "来源：《中华人民共和国职业病防治法》、国家卫健委职业健康司、中国疾控中心职业卫生所"
+    },
+    "05": {
+      tag: "妇幼育儿", color: "#2563EB", colorSoft: "#E6F2FE",
+      title: "婴儿护理",
+      principle: "纯母乳 6 个月、仰睡、按时疫苗——三件事护住婴儿期。",
+      summary: "WHO 推荐纯母乳喂养至 6 个月，6 个月起添加辅食。安全睡眠和规范免疫接种是婴儿期最重要的健康保障。",
+      points: [
+        { icon: "🍼", text: "<b>母乳喂养</b>：出生后 1 小时内开始，纯母乳至 6 个月；6 个月起添加辅食，继续母乳至 2 岁或更久。" },
+        { icon: "🛏️", text: "<b>安全睡眠</b>：仰卧位入睡，婴儿床内无枕头/毛绒玩具/床围，同室不同床可降低 SIDS 风险。" },
+        { icon: "💉", text: "<b>疫苗接种</b>：按国家免疫程序接种——出生乙肝+卡介苗，2 月龄脊灰，3 月龄百白破等，按时接种不推迟。" },
+        { icon: "🌡️", text: "<b>发热处理</b>：≥38.5℃ 且不适可用对乙酰氨基酚（>3 月）或布洛芬（>6 月）；<3 月龄发热立即就医。" },
+        { icon: "🩺", text: "<b>就医指征</b>：精神萎靡、拒奶、反复呕吐、呼吸急促、抽搐、皮疹按压不褪色——立即就医。" }
+      ],
+      stats: [
+        { num: "29%", lbl: "中国 6 个月内婴儿纯母乳喂养率" },
+        { num: "6 月", lbl: "WHO 推荐纯母乳喂养时长" }
+      ],
+      source: "来源：WHO《婴幼儿喂养全球战略》、国家卫健委《儿童健康检查服务规范》、美国儿科学会（AAP）"
+    },
+    "06": {
+      tag: "妇幼育儿", color: "#2563EB", colorSoft: "#E6F2FE",
+      title: "儿童成长指导",
+      principle: "每天户外 2 小时、少屏幕、监测生长曲线——童年习惯影响一生。",
+      summary: "定期生长监测、均衡营养、安全防护和适龄的行为心理引导，是儿童健康成长的四大支柱。",
+      points: [
+        { icon: "📈", text: "<b>生长监测</b>：定期测量身高体重头围，绘制生长曲线；偏离正常轨道需及时就医评估。" },
+        { icon: "🗣️", text: "<b>语言发育</b>：2-3 岁是语言爆发期，多对话、阅读、少屏幕；2 岁仍无词语需评估。" },
+        { icon: "🛡️", text: "<b>意外伤害预防</b>：防溺水（时刻看护）、防跌落（窗户护栏）、防烫伤（热水内放）、交通安全（安全座椅）。" },
+        { icon: "🥛", text: "<b>营养需求</b>：每日饮奶 300-500ml，补充维生素 D 400IU/天；铁丰富食物预防缺铁性贫血。" },
+        { icon: "📱", text: "<b>屏幕时间</b>：<2 岁避免屏幕（除视频通话），2-5 岁每天 ≤1 小时，6 岁以上限制娱乐性屏幕时间。" }
+      ],
+      stats: [
+        { num: "4.8%", lbl: "中国 5 岁以下儿童生长迟缓率（2022）" },
+        { num: "400IU", lbl: "儿童每日维生素 D 推荐量" }
+      ],
+      source: "来源：国家卫健委《7 岁以下儿童生长标准（WS/T 423-2022）》、WHO 儿童生长标准、AAP"
+    },
+    "07": {
+      tag: "妇幼育儿", color: "#E11D48", colorSoft: "#FFE4E6",
+      title: "女性健康",
+      principle: "定期筛查、孕前补叶酸、更年期不硬扛——每个阶段都有重点。",
+      summary: "女性一生经历月经、孕产、更年期等特殊生理阶段，各阶段有不同的健康重点。定期筛查是早期发现妇科肿瘤的关键。",
+      points: [
+        { icon: "🩸", text: "<b>生理期</b>：注意卫生，避免剧烈运动和生冷饮食；痛经可热敷或服用布洛芬，严重痛经需排查子宫内膜异位症。" },
+        { icon: "🤰", text: "<b>备孕孕期</b>：孕前 3 个月至孕早期补叶酸 0.4mg/天；孕期规范产检 ≥8 次，控制体重增长 11.5-16kg。" },
+        { icon: "🦴", text: "<b>更年期</b>：潮热失眠可通过激素替代治疗（需医生评估禁忌）；规律运动+钙+维生素 D 防骨质疏松。" },
+        { icon: "🎀", text: "<b>乳腺筛查</b>：40 岁起每年乳腺超声或钼靶；高危人群提前至 35 岁。" },
+        { icon: "🔬", text: "<b>宫颈癌筛查</b>：21-29 岁每 3 年 TCT；30-65 岁每 5 年 TCT+HPV 联合检测；接种 HPV 疫苗。" }
+      ],
+      stats: [
+        { num: "首位", lbl: "乳腺癌居中国女性恶性肿瘤发病率首位" },
+        { num: "9-14岁", lbl: "HPV 疫苗最佳接种年龄" }
+      ],
+      source: "来源：中华医学会妇产科学分会、国家卫健委妇幼健康司、WHO 宫颈癌防控指南"
+    },
+    "08": {
+      tag: "银发健康", color: "#7C3AED", colorSoft: "#EDEBFE",
+      title: "老年健康管理",
+      principle: "防跌倒、控慢病、防肌少、慎用药——主动健康，优雅变老。",
+      summary: "老年人健康管理的核心是慢病控制、跌倒预防、认知维护和用药安全。主动健康老龄化，而非被动治病。",
+      points: [
+        { icon: "💊", text: "<b>慢病控制</b>：定期监测血压血糖血脂，遵医嘱规律服药，不自行停药或加减量；每 3-6 个月复查。" },
+        { icon: "🚶", text: "<b>跌倒预防</b>：家中浴室装扶手、地面防滑、夜间留灯；穿合脚防滑鞋；练习太极/平衡训练。" },
+        { icon: "🧠", text: "<b>认知维护</b>：阅读、下棋、社交、运动可延缓认知衰退；记忆力明显下降需就医排查痴呆。" },
+        { icon: "🍳", text: "<b>营养防肌少</b>：保证优质蛋白（每公斤体重 1.0-1.2g），补充钙 1000mg+维生素 D 800IU/天。" },
+        { icon: "📋", text: "<b>用药安全</b>：多重用药（≥5 种）需医生/药师定期审核，避免重复用药和药物相互作用。" }
+      ],
+      stats: [
+        { num: "30%", lbl: "中国 65 岁以上老年人年跌倒发生率" },
+        { num: "≥5种", lbl: "老年人多重用药比例超 50%" }
+      ],
+      source: "来源：国家卫健委《老年人健康管理服务规范》、中华医学会老年医学分会、WHO 老龄化与健康报告"
+    },
+    "09": {
+      tag: "慢病管理", color: "#D97706", colorSoft: "#FEF3E6",
+      title: "慢病自我管理",
+      principle: "管住嘴、迈开腿、按时吃药、定期监测——慢病可防可控不可怕。",
+      summary: "高血压、糖尿病、高血脂是中国患病率最高的三大慢性病。生活方式干预是基础，规范用药是关键，定期监测是保障。",
+      points: [
+        { icon: "❤️", text: "<b>高血压</b>：家庭血压监测，目标一般 <130/80mmHg；限盐 <5g/天，减重，规律运动；降压药不可自行停。" },
+        { icon: "🩸", text: "<b>糖尿病</b>：HbA1c 目标一般 <7%；饮食控制+运动是基础；指尖血糖监测；警惕低血糖（心慌出汗手抖）。" },
+        { icon: "🧈", text: "<b>高血脂</b>：LDL-C 目标根据心血管风险分层（高危 <2.6mmol/L，极高危 <1.8mmol/L）；他汀类一线用药。" },
+        { icon: "🚭", text: "<b>共同基石</b>：戒烟（包括二手烟）、控制体重（BMI 18.5-23.9）、每周 150 分钟运动、定期复查。" },
+        { icon: "⚠️", text: "<b>急症识别</b>：胸痛胸闷（心梗）、一侧肢体无力言语不清（卒中）、严重低血糖——立即拨打 120。" }
+      ],
+      stats: [
+        { num: "16.8%", lbl: "中国高血压控制率" },
+        { num: "36.7%", lbl: "中国糖尿病患者知晓率" }
+      ],
+      source: "来源：《中国高血压防治指南（2024 修订版）》、《中国 2 型糖尿病防治指南（2024）》、《中国血脂管理指南（2023）》"
+    },
+    "10": {
+      tag: "心理睡眠", color: "#7C3AED", colorSoft: "#EDEBFE",
+      title: "心理健康",
+      principle: "睡好、动起来、说出来、不硬扛——心理感冒也需要治疗。",
+      summary: "心理健康与身体健康同等重要。持续的情绪低落、焦虑和睡眠障碍需要被认真对待，寻求专业帮助是勇敢而非软弱。",
+      points: [
+        { icon: "🔍", text: "<b>识别信号</b>：持续 ≥2 周情绪低落、兴趣减退、睡眠/食欲改变、疲劳、注意力下降、无价值感——可能是抑郁。" },
+        { icon: "🌬️", text: "<b>压力调节</b>：腹式呼吸（4-7-8 法）、正念冥想、规律运动、与信任的人倾诉，写情绪日记。" },
+        { icon: "😴", text: "<b>睡眠卫生</b>：固定作息（即使周末），睡前 1 小时不看屏幕，卧室凉爽黑暗，不在床上工作/刷手机。" },
+        { icon: "🆘", text: "<b>何时求助</b>：有自伤/自杀念头、严重影响工作生活、持续痛苦无法缓解→精神科或心理科就诊。" },
+        { icon: "🤝", text: "<b>支持他人</b>：倾听不评判，鼓励寻求专业帮助；提到自杀时直接询问，不回避，陪伴并协助就医。" }
+      ],
+      stats: [
+        { num: "2.1%", lbl: "中国抑郁症患病率" },
+        { num: "5.0%", lbl: "中国焦虑障碍患病率" }
+      ],
+      source: "来源：《中国国民心理健康发展报告（2021-2022）》、WHO 心理健康指南、美国精神医学学会（APA）"
+    },
+    "11": {
+      tag: "五官健康", color: "#0891B2", colorSoft: "#ECFEFF",
+      title: "口腔健康",
+      principle: "每天刷牙 2 次加牙线、半年查一次——口腔好，全身才好。",
+      summary: "口腔健康是全身健康的门户。牙周病与心血管病、糖尿病、早产等相关。正确刷牙+牙线+定期检查，是维护口腔健康的三大法宝。",
+      points: [
+        { icon: "🪥", text: "<b>正确刷牙</b>：每天 2 次（早晚），每次 2 分钟，巴氏刷牙法（45° 颤动），使用含氟牙膏。" },
+        { icon: "🧵", text: "<b>每天牙线</b>：刷牙只能清洁 60% 牙面，牙线清洁牙缝；每天至少 1 次，睡前最佳。" },
+        { icon: "👶", text: "<b>儿童防龋</b>：第一恒磨牙（6 龄牙）萌出后做窝沟封闭；每 6 个月涂氟；家长辅助刷牙至 7 岁。" },
+        { icon: "🦷", text: "<b>智齿处理</b>：反复发炎、位置不正、顶坏邻牙→建议拔除；完全萌出且咬合正常可保留。" },
+        { icon: "📅", text: "<b>定期检查</b>：每 6-12 个月洗牙和口腔检查；早期龋齿无症状，发现时往往已较深。" }
+      ],
+      stats: [
+        { num: "9.1%", lbl: "中国成人牙周健康率" },
+        { num: "70.9%", lbl: "中国 5 岁儿童乳牙龋齿率" }
+      ],
+      source: "来源：中华口腔医学会、第四次全国口腔健康流行病学调查（2017）、WHO 口腔健康报告"
+    },
+    "12": {
+      tag: "五官健康", color: "#0891B2", colorSoft: "#ECFEFF",
+      title: "眼健康",
+      principle: "户外 2 小时、20-20-20、40 岁查眼压——眼睛用一辈子，值得好好护。",
+      summary: "中国儿童青少年近视率居世界前列，干眼和年龄相关眼病（青光眼、白内障）是主要致盲原因。早预防、早发现、早干预。",
+      points: [
+        { icon: "🌞", text: "<b>近视防控</b>：每天户外活动 ≥2 小时（光照是关键）；读写"三个一"（眼离书 1 尺、胸离桌 1 拳、手离笔尖 1 寸）。" },
+        { icon: "💧", text: "<b>干眼护理</b>：有意识多眨眼，热敷眼睑（40℃ 10 分钟），使用不含防腐剂的人工泪液，减少屏幕时间。" },
+        { icon: "👁️", text: "<b>青光眼</b>：40 岁以上定期查眼压和视野；不可逆致盲眼病，早期无症状，有家族史者风险高。" },
+        { icon: "🔬", text: "<b>白内障</b>：视力下降影响生活可手术；超声乳化+人工晶体植入是成熟术式，不必等"熟透"。" },
+        { icon: "⏱️", text: "<b>20-20-20 法则</b>：每用眼 20 分钟，看 20 英尺（约 6 米）外的物体 20 秒，放松睫状肌。" }
+      ],
+      stats: [
+        { num: "52.7%", lbl: "中国儿童青少年总体近视率" },
+        { num: "80%+", lbl: "中国高中生近视率" }
+      ],
+      source: "来源：国家卫健委《儿童青少年近视防控适宜技术指南》、中华医学会眼科学分会、WHO 视觉健康报告"
+    }
+  };
+
+  function openModal(num) {
+    var d = GUIDE_DATA[num];
+    if (!d) return;
+    topBar.style.background = d.color;
+    tagEl.textContent = d.tag;
+    tagEl.style.background = d.colorSoft;
+    tagEl.style.color = d.color;
+    titleEl.textContent = d.title;
+    var pEl = document.getElementById('guideModalPrinciple');
+    pEl.textContent = d.principle;
+    pEl.style.background = d.colorSoft;
+    pEl.style.color = d.color;
+    pEl.style.borderLeftColor = d.color;
+    summaryEl.textContent = d.summary;
+    pointsEl.innerHTML = d.points.map(function(p) {
+      return '<li><span class="pt-ic" style="background:' + d.colorSoft + '">' + p.icon + '</span><span>' + p.text + '</span></li>';
+    }).join('');
+    statsEl.innerHTML = d.stats.map(function(s) {
+      return '<div class="guide-stat"><div class="num" style="color:' + d.color + '">' + s.num + '</div><div class="lbl">' + s.lbl + '</div></div>';
+    }).join('');
+    sourceEl.textContent = d.source;
+    var card = document.querySelector('.guide-card[data-num="' + num + '"]');
+    var cta = card ? card.getAttribute('data-cta') : '/app';
+    ctaEl.href = cta;
+    ctaEl.style.background = d.color;
+    overlay.classList.add('show');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    overlay.classList.remove('show');
+    document.body.style.overflow = '';
+  }
+
+  // Bind card clicks
+  document.querySelectorAll('.guide-card').forEach(function(card) {
+    card.addEventListener('click', function(e) {
+      e.preventDefault();
+      var num = card.getAttribute('data-num');
+      openModal(num);
+    });
+  });
+
+  closeBtn.addEventListener('click', closeModal);
+  overlay.addEventListener('click', function(e) {
+    if (e.target === overlay) closeModal();
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && overlay.classList.contains('show')) closeModal();
+  });
 })();
 
 /* ===== Interactive Anatomy Map ===== */
@@ -904,7 +1387,7 @@ fetch("/health").then(function(r){return r.json();}).then(function(d){
     h+='<div class="bm-cond-label">常见健康问题</div><div class="bm-cond-row">';
     organ.cond.forEach(function(c){h+='<button type="button" class="bm-cond" data-cond="'+c+'">'+c+'</button>';});
     h+='</div>';
-    h+='<a class="btn btn-primary" href="/app?q='+encodeURIComponent('我'+organ.label+'相关不适，可能的原因有哪些、需要做哪些检查、日常要注意什么，以及什么情况下需要就医？')+'">就「'+organ.label+'」去问医答</a>';
+    h+='<a class="btn btn-primary" href="#" data-cta="/app?q='+encodeURIComponent('我'+organ.label+'相关不适，可能的原因有哪些、需要做哪些检查、日常要注意什么，以及什么情况下需要就医？')+'">就「'+organ.label+'」去问医答</a>';
     h+='</div>';
     sideContent.innerHTML=h;
     sideContent.querySelectorAll('.bm-cond').forEach(function(bt){

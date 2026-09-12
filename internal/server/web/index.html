@@ -595,12 +595,14 @@
   /* 回答底部：本次花费 + 分享 */
   .ans-foot { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
   .cost-info { font-size: 12px; color: var(--muted); }
-  .ans-share, #share-conv {
+  .ans-share, .ans-regenerate, #share-conv {
     border: 1px solid var(--border); background: #fff; color: var(--muted); border-radius: 999px;
     font: inherit; font-size: 12.5px; padding: 4px 12px; cursor: pointer;
+    transition: all .15s;
   }
   .ans-share:hover, #share-conv:hover { color: var(--accent-dark); border-color: var(--accent-dark); }
-.ans-share[disabled] { opacity: .55; cursor: default; }
+  .ans-regenerate:hover { color: #059669; border-color: #059669; background: #ECFDF5; }
+.ans-share[disabled], .ans-regenerate[disabled] { opacity: .55; cursor: default; }
 
 /* 分享弹窗样式 */
   .share-modal-overlay {
@@ -827,6 +829,28 @@
     }
     return t;
   }
+  /* ================= 重新问 ================= */
+  function regenerate(aiLine) {
+    if (state.sending) return;
+    // 找到对应的用户问题行（AI 行之前最近的 .line.user）
+    var userLine = aiLine.previousElementSibling;
+    while (userLine && !userLine.classList.contains("user")) {
+      userLine = userLine.previousElementSibling;
+    }
+    if (!userLine) return;
+    // 获取用户问题文本
+    var sayEl = userLine.querySelector(".line-say > div");
+    var userText = sayEl ? sayEl.textContent : "";
+    if (!userText) return;
+    // 删除从用户问题行到最后的所有元素
+    while (aiLine.nextSibling) aiLine.parentNode.removeChild(aiLine.nextSibling);
+    aiLine.parentNode.removeChild(aiLine);
+    userLine.parentNode.removeChild(userLine);
+    // 保存历史（删除后的状态）
+    saveHistory();
+    // 重新发送
+    send(userText);
+  }
   function attachShareFooter(line, pairIndex, meta) {
     var old = line.querySelector(".ans-foot");
     if (old) old.remove();
@@ -839,6 +863,13 @@
       c.textContent = cost;
       foot.appendChild(c);
     }
+    var regenBtn = document.createElement("button");
+    regenBtn.type = "button";
+    regenBtn.className = "ans-regenerate";
+    regenBtn.textContent = "🔄 重新问";
+    regenBtn.title = "删除这条回答并重新生成";
+    regenBtn.addEventListener("click", function () { regenerate(line); });
+    foot.appendChild(regenBtn);
     var btn = document.createElement("button");
     btn.type = "button";
     btn.className = "ans-share";
@@ -1681,14 +1712,16 @@ var ul = $("conv-list");
     return rest;
   }
 
-  async function send() {
-    var text = input.value.trim();
+  async function send(overrideText) {
+    var text = (overrideText !== undefined ? overrideText : input.value).trim();
     var hasImages = pendingImages.length > 0;
     if ((!text && !hasImages) || state.sending) return;
     clearError();
 
     if (!state.convId) state.convId = genId();
-    input.value = ""; autoResize();
+    if (overrideText === undefined) {
+      input.value = ""; autoResize();
+    }
 
     var apiImages = [];
     if (hasImages) {

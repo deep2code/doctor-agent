@@ -5,6 +5,7 @@ import (
 	"crypto/subtle"
 	_ "embed"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"log/slog"
@@ -1142,6 +1143,16 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 		resp, err = s.agent.ProcessMessageStream(ctx, sess, req.Message, onDelta, onStep)
 	}
 	if err != nil {
+		// Client disconnection is expected during long streams — don't log
+		// as ERROR or try to write an SSE event to a gone-away client.
+		if errors.Is(err, context.Canceled) || strings.Contains(err.Error(), "context canceled") {
+			slog.Info("Client disconnected during stream processing",
+				"endpoint", "/chat/stream",
+				"conversation_id", req.ConversationID,
+				"message_len", len(req.Message),
+			)
+			return
+		}
 		slog.Error("Agent stream processing error",
 			"error", err,
 			"endpoint", "/chat/stream",

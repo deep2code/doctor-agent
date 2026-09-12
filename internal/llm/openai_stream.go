@@ -53,11 +53,18 @@ func openAIStreamingChat(
 	tools []ToolDefinition,
 	systemPrompt string,
 	onDelta func(string),
+	disableThinking bool,
 ) (*ChatResponse, error) {
 	openAIMsgs := make([]any, 0, len(messages)+1)
 	if systemPrompt != "" {
 		openAIMsgs = append(openAIMsgs, openAIMessage{Role: "system", Content: systemPrompt})
 	}
+	// When an empty assistant message is dropped, any tool messages that
+	// follow it (up to the next user/assistant message) must also be dropped:
+	// a tool message without its preceding assistant tool_call is invalid and
+	// will be rejected by the API with "messages with role 'tool' must be a
+	// response to a tool call". This tracks that state across iterations.
+	droppingToolMsgs := false
 	for _, msg := range messages {
 		// Defence-in-depth: drop assistant messages that carry neither text
 		// nor tool calls. OpenAI-compatible endpoints reject them with
@@ -72,6 +79,17 @@ func openAIStreamingChat(
 				"has_reasoning", msg.ReasoningContent != "",
 				"reasoning_len", len(msg.ReasoningContent),
 				"content_preview", truncateForLog(msg.Content, 80))
+			droppingToolMsgs = true
+			continue
+		}
+		// A non-empty assistant or user message resets the drop state.
+		if msg.Role == "assistant" || msg.Role == "user" {
+			droppingToolMsgs = false
+		}
+		// Drop orphaned tool messages that followed a dropped empty assistant.
+		if droppingToolMsgs && msg.Role == "tool" {
+			slog.Warn("Dropping orphaned tool message after empty assistant",
+				"tool_call_id", truncateForLog(msg.ToolCallID, 40))
 			continue
 		}
 		// Handle multimodal content
@@ -186,6 +204,13 @@ func openAIStreamingChat(
 		// silent parameter rejection on stricter endpoints.
 		MaxTokens: maxTokens,
 		Stream:    onDelta != nil,
+	}
+	// DeepSeek V4 defaults to thinking mode, which adds a long reasoning
+	// chain before the final answer. For fast deterministic sub-tasks
+	// (query understanding, judge verification) we disable it to cut
+	// latency and avoid max_tokens exhaustion on reasoning alone.
+	if disableThinking {
+		reqBody.Thinking = &openAIThinking{Type: "disabled"}
 	}
 	if onDelta != nil {
 		reqBody.StreamOptions = &openAIStreamOptions{IncludeUsage: true}

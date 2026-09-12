@@ -138,7 +138,7 @@ func Load() *Config {
 		OpenAICompatModel:       getEnv("OPENAI_COMPAT_MODEL", ""),
 		OpenAICompatVisionModel: getEnv("OPENAI_COMPAT_VISION_MODEL", ""),
 
-		MaxTokens:         getEnvInt("MAX_TOKENS", 4096),
+		MaxTokens:         getEnvInt("MAX_TOKENS", 8192),
 		Temperature:       getEnvFloat("TEMPERATURE", 0.3),
 		MaxHistoryTurns:   getEnvInt("MAX_HISTORY_TURNS", 20),
 		MaxToolIterations: getEnvInt("MAX_TOOL_ITERATIONS", 5),

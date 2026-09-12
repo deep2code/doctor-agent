@@ -20,6 +20,11 @@ type DeepSeekProvider struct {
 	maxTokens   int
 	temperature float64
 	httpClient  *http.Client
+	// thinkingDisabled disables DeepSeek V4's chain-of-thought mode. Set
+	// true for fast deterministic sub-tasks (query understanding, judge)
+	// where reasoning is wasteful and can exhaust max_tokens before the
+	// final answer.
+	thinkingDisabled bool
 }
 
 // NewDeepSeekProvider creates a DeepSeek-backed LLM provider.
@@ -52,6 +57,15 @@ func (p *DeepSeekProvider) Name() string {
 // Model returns the raw model identifier (used for cost calculation).
 func (p *DeepSeekProvider) Model() string { return p.model }
 
+// WithThinkingDisabled returns a copy of the provider with DeepSeek V4
+// thinking mode disabled. Use for fast deterministic sub-tasks (query
+// understanding, judge verification) where chain-of-thought is wasteful.
+func (p *DeepSeekProvider) WithThinkingDisabled() *DeepSeekProvider {
+	cp := *p
+	cp.thinkingDisabled = true
+	return &cp
+}
+
 // effectiveModel picks the vision model when any message carries an image.
 func (p *DeepSeekProvider) effectiveModel(messages []Message) string {
 	if p.visionModel == "" {
@@ -77,6 +91,15 @@ type openAIChatRequest struct {
 	Stream              bool                 `json:"stream,omitempty"`
 	StreamOptions       *openAIStreamOptions `json:"stream_options,omitempty"`
 	ParallelToolCalls   *bool                `json:"parallel_tool_calls,omitempty"`
+	// Thinking controls DeepSeek V4's thinking mode. Default is "enabled"
+	// on the API side; set to "disabled" for fast deterministic tasks
+	// (query understanding, judge) where chain-of-thought is wasteful.
+	Thinking *openAIThinking `json:"thinking,omitempty"`
+}
+
+// openAIThinking controls DeepSeek V4 thinking mode.
+type openAIThinking struct {
+	Type string `json:"type"` // "enabled" or "disabled"
 }
 
 // openAIStreamOptions controls streaming behavior (OpenAI 2024+ protocol).
@@ -153,11 +176,11 @@ type openAIChoice struct {
 
 func (p *DeepSeekProvider) Chat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string) (*ChatResponse, error) {
 	return openAIStreamingChat(ctx, p.httpClient, deepseekBaseURL+"/chat/completions",
-		p.apiKey, p.effectiveModel(messages), p.maxTokens, p.temperature, messages, tools, systemPrompt, nil)
+		p.apiKey, p.effectiveModel(messages), p.maxTokens, p.temperature, messages, tools, systemPrompt, nil, p.thinkingDisabled)
 }
 
 // StreamChat streams the response, forwarding text deltas to onDelta.
 func (p *DeepSeekProvider) StreamChat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string, onDelta func(string)) (*ChatResponse, error) {
 	return openAIStreamingChat(ctx, p.httpClient, deepseekBaseURL+"/chat/completions",
-		p.apiKey, p.effectiveModel(messages), p.maxTokens, p.temperature, messages, tools, systemPrompt, onDelta)
+		p.apiKey, p.effectiveModel(messages), p.maxTokens, p.temperature, messages, tools, systemPrompt, onDelta, p.thinkingDisabled)
 }

@@ -2,6 +2,7 @@ package session
 
 import (
 	"log/slog"
+	"strings"
 	"sync"
 	"time"
 
@@ -66,8 +67,12 @@ func (s *Session) AddAssistantMessage(content string) {
 	s.mu.Lock()
 	defer s.mu.Unlock()
 
-	if content == "" {
-		slog.Warn("Refusing to store empty assistant message in session history", "session_id", s.ID)
+	// Reject empty AND whitespace-only content: an assistant message with
+	// neither text nor tool_calls is rejected by OpenAI-compatible endpoints
+	// on the next turn ("content or tool_calls must be set"). Whitespace-only
+	// content is semantically empty and some endpoints reject it too.
+	if strings.TrimSpace(content) == "" {
+		slog.Warn("Refusing to store empty/whitespace assistant message in session history", "session_id", s.ID)
 		return
 	}
 	s.Messages = append(s.Messages, llm.Message{Role: "assistant", Content: content})

@@ -3,6 +3,7 @@ package agent
 import (
 	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"log/slog"
 	"sort"
@@ -107,11 +108,19 @@ func New(cfg *config.Config) (*Agent, error) {
 	if cfg.UnderstandModel != "" {
 		if cfg.LLMProvider == "openai-compat" {
 			understandProvider = llm.NewOpenAICompatProvider(
-				cfg.OpenAICompatBaseURL, cfg.OpenAICompatAPIKey, cfg.UnderstandModel, "", 1024, 0.1)
+				cfg.OpenAICompatBaseURL, cfg.OpenAICompatAPIKey, cfg.UnderstandModel, "", 4096, 0.1)
 			slog.Info("Query understanding uses dedicated model", "model", cfg.UnderstandModel)
 		} else {
 			slog.Info("UNDERSTAND_MODEL ignored: only openai-compat supports a separate understanding model")
 		}
+	}
+	// Disable thinking mode for query understanding: it's a fast
+	// classification/extraction task, and DeepSeek V4's default thinking
+	// wastes seconds and can exhaust max_tokens on reasoning alone.
+	if p, ok := understandProvider.(*llm.DeepSeekProvider); ok {
+		understandProvider = p.WithThinkingDisabled()
+	} else if p, ok := understandProvider.(*llm.OpenAICompatProvider); ok {
+		understandProvider = p.WithThinkingDisabled()
 	}
 
 	// Register unified tools (10 total: 6 action + 2 unified retrieval/lookup
@@ -220,13 +229,15 @@ func createJudgeProvider(cfg *config.Config) (llm.LLMProvider, error) {
 		if model == "" {
 			model = cfg.DeepSeekModel
 		}
-		return llm.NewDeepSeekProvider(cfg.DeepSeekAPIKey, model, "", 2048, 0), nil
+		// Judge is a deterministic yes/no claim-support check — disable
+		// thinking to cut latency and avoid reasoning eating max_tokens.
+		return llm.NewDeepSeekProvider(cfg.DeepSeekAPIKey, model, "", 2048, 0).WithThinkingDisabled(), nil
 	case "openai-compat":
 		model := cfg.JudgeModel
 		if model == "" {
 			model = cfg.OpenAICompatModel
 		}
-		return llm.NewOpenAICompatProvider(cfg.OpenAICompatBaseURL, cfg.OpenAICompatAPIKey, model, "", 2048, 0), nil
+		return llm.NewOpenAICompatProvider(cfg.OpenAICompatBaseURL, cfg.OpenAICompatAPIKey, model, "", 2048, 0).WithThinkingDisabled(), nil
 	default:
 		return nil, fmt.Errorf("unknown LLM provider: %s", cfg.LLMProvider)
 	}
@@ -427,18 +438,32 @@ func (a *Agent) buildContextualQuery(sess *session.Session, userMessage string) 
 // ambiguity later with full conversational context. Any failure of the
 // understanding step degrades silently to verbatim-only retrieval.
 func (a *Agent) retrieveWithUnderstanding(ctx context.Context, userMessage string, step func(StepEvent)) []knowledge.RetrievalResult {
-	base, err := a.retriever.Retrieve(ctx, userMessage, a.cfg.KnowledgeTopK)
-	if err != nil {
-		slog.Warn("Knowledge retrieval failed", "error", err)
-		base = nil
+	// Run base retrieval and query understanding in parallel — the comment
+	// above says "in parallel", and the previous serial implementation wasted
+	// the base-retrieval latency (which can include a Qdrant round-trip) on
+	// the critical path before the LLM understanding call even started.
+	type baseResult struct {
+		results []knowledge.RetrievalResult
+		err     error
 	}
-	if !a.cfg.QueryUnderstandingEnabled {
-		return base
+	baseCh := make(chan baseResult, 1)
+	go func() {
+		res, err := a.retriever.Retrieve(ctx, userMessage, a.cfg.KnowledgeTopK)
+		baseCh <- baseResult{results: res, err: err}
+	}()
+
+	var understood *queryUnderstanding
+	if a.cfg.QueryUnderstandingEnabled {
+		understood = a.understandQuery(ctx, userMessage)
 	}
 
-	understood := a.understandQuery(ctx, userMessage)
+	base := <-baseCh
+	if base.err != nil {
+		slog.Warn("Knowledge retrieval failed", "error", base.err)
+		base.results = nil
+	}
 	if understood == nil {
-		return base
+		return base.results
 	}
 
 	queries := understood.SearchQueries
@@ -458,7 +483,7 @@ func (a *Agent) retrieveWithUnderstanding(ctx context.Context, userMessage strin
 		queries = queries[:maxBranches]
 	}
 	if len(queries) == 0 {
-		return base
+		return base.results
 	}
 
 	step(StepEvent{Type: "retrieve", Summary: fmt.Sprintf("口语解析出 %d 条检索式，多路并行检索中", len(queries))})
@@ -483,7 +508,7 @@ func (a *Agent) retrieveWithUnderstanding(ctx context.Context, userMessage strin
 		}
 	}
 
-	merged := mergeRetrievalBranches(base, paths, a.cfg.KnowledgeTopK)
+	merged := mergeRetrievalBranches(base.results, paths, a.cfg.KnowledgeTopK)
 	slog.Debug("Knowledge retrieved", "count", len(merged), "branches", len(paths))
 	return merged
 }
@@ -492,10 +517,11 @@ func (a *Agent) retrieveWithUnderstanding(ctx context.Context, userMessage strin
 // output. Returns nil on any failure — callers fall back to verbatim-only
 // retrieval, so an unavailable understanding model must never break search.
 func (a *Agent) understandQuery(ctx context.Context, userMessage string) *queryUnderstanding {
-	// 20s timeout: understanding is a non-streaming JSON call; some providers
-	// (especially free-tier endpoints) are slow. Failure degrades silently
-	// to verbatim-only retrieval, so a longer timeout is safe.
-	uctx, cancel := context.WithTimeout(ctx, 20*time.Second)
+	// 30s timeout: understanding is a non-streaming JSON call; some providers
+	// (especially free-tier endpoints) are slow, and a thinking model may
+	// spend extra time on reasoning. Failure degrades silently to
+	// verbatim-only retrieval, so a longer timeout is safe.
+	uctx, cancel := context.WithTimeout(ctx, 30*time.Second)
 	defer cancel()
 	resp, err := a.understandProvider.Chat(uctx,
 		[]llm.Message{{Role: "user", Content: userMessage}},
@@ -730,6 +756,18 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 
 		resp, err := a.streamWithRetry(ctx, messages, iterTools, iterPrompt, onDelta)
 		if err != nil {
+			// Context cancellation (client disconnected, request timeout) is
+			// not a system error — log at WARN and return a distinguishable
+			// error so the server can skip the generic "internal error" event.
+			if errors.Is(err, context.Canceled) || errors.Is(err, context.DeadlineExceeded) {
+				slog.Warn("LLM stream aborted: context canceled or deadline exceeded",
+					"error", err,
+					"conversation_id", sess.ID,
+					"iteration", i,
+					"max_iterations", maxIterations,
+				)
+				return nil, fmt.Errorf("context canceled: %w", err)
+			}
 			slog.Error("LLM StreamChat failed",
 				"error", err,
 				"conversation_id", sess.ID,
@@ -1135,6 +1173,16 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		// call runs in non-streaming mode internally.
 		llmResp, llmErr = a.streamWithRetry(ctx, messages, iterTools, iterPrompt, onDelta)
 		if llmErr != nil {
+			if errors.Is(llmErr, context.Canceled) || errors.Is(llmErr, context.DeadlineExceeded) {
+				slog.Warn("LLM stream aborted: context canceled or deadline exceeded",
+					"error", llmErr,
+					"conversation_id", sess.ID,
+					"iteration", i,
+					"max_iterations", maxIterations,
+					"has_images", len(images) > 0,
+				)
+				return nil, fmt.Errorf("context canceled: %w", llmErr)
+			}
 			slog.Error("LLM call failed",
 				"error", llmErr,
 				"conversation_id", sess.ID,
@@ -1569,10 +1617,33 @@ func extractEntitiesFromToolResult(toolName string, args map[string]any, data ma
 func (a *Agent) sessionToMessages(sess *session.Session) []llm.Message {
 	raw := sess.GetMessages()
 	msgs := make([]llm.Message, 0, len(raw))
+	// Track orphaned tool messages: when an empty assistant is dropped, the
+	// tool messages that followed it (up to the next user/assistant) must
+	// also be dropped — a tool message without its preceding assistant
+	// tool_call is invalid for every provider.
+	droppingToolMsgs := false
 	for i, m := range raw {
-		if m.Role != "user" && m.Role != "assistant" {
+		if m.Role != "user" && m.Role != "assistant" && m.Role != "tool" {
 			slog.Warn("Dropping historical message with unexpected role",
 				"session_id", sess.ID, "index", i, "role", m.Role)
+			continue
+		}
+		// Drop empty assistant messages (no text, no tool calls) — they cause
+		// HTTP 400 from OpenAI-compatible endpoints and are meaningless for
+		// Anthropic too.
+		if m.Role == "assistant" && strings.TrimSpace(m.Content) == "" && len(m.ToolCalls) == 0 {
+			slog.Warn("Dropping empty assistant message from session history",
+				"session_id", sess.ID, "index", i,
+				"has_reasoning", m.ReasoningContent != "")
+			droppingToolMsgs = true
+			continue
+		}
+		if m.Role == "assistant" || m.Role == "user" {
+			droppingToolMsgs = false
+		}
+		if droppingToolMsgs && m.Role == "tool" {
+			slog.Warn("Dropping orphaned tool message after empty assistant",
+				"session_id", sess.ID, "index", i)
 			continue
 		}
 		if m.ReasoningContent != "" || len(m.ToolCalls) > 0 || m.ToolCallID != "" || len(m.Parts) > 0 {

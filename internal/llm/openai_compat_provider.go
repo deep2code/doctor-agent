@@ -21,6 +21,10 @@ type OpenAICompatProvider struct {
 	maxTokens   int
 	temperature float64
 	httpClient  *http.Client
+	// thinkingDisabled disables thinking mode on compatible endpoints
+	// (e.g. DeepSeek V4 via openai-compat base URL). Set true for fast
+	// deterministic sub-tasks.
+	thinkingDisabled bool
 }
 
 // NewOpenAICompatProvider creates a provider for an OpenAI-compatible endpoint.
@@ -52,6 +56,14 @@ func (p *OpenAICompatProvider) Name() string {
 // Model returns the raw model identifier (used for cost calculation).
 func (p *OpenAICompatProvider) Model() string { return p.model }
 
+// WithThinkingDisabled returns a copy of the provider with thinking mode
+// disabled (for endpoints that support it, e.g. DeepSeek V4).
+func (p *OpenAICompatProvider) WithThinkingDisabled() *OpenAICompatProvider {
+	cp := *p
+	cp.thinkingDisabled = true
+	return &cp
+}
+
 // effectiveModel picks the vision model when any message carries an image.
 func (p *OpenAICompatProvider) effectiveModel(messages []Message) string {
 	if p.visionModel == "" {
@@ -67,11 +79,11 @@ func (p *OpenAICompatProvider) effectiveModel(messages []Message) string {
 
 func (p *OpenAICompatProvider) Chat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string) (*ChatResponse, error) {
 	return openAIStreamingChat(ctx, p.httpClient, p.baseURL+"/chat/completions",
-		p.apiKey, p.effectiveModel(messages), p.maxTokens, p.temperature, messages, tools, systemPrompt, nil)
+		p.apiKey, p.effectiveModel(messages), p.maxTokens, p.temperature, messages, tools, systemPrompt, nil, p.thinkingDisabled)
 }
 
 // StreamChat streams the response, forwarding text deltas to onDelta.
 func (p *OpenAICompatProvider) StreamChat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string, onDelta func(string)) (*ChatResponse, error) {
 	return openAIStreamingChat(ctx, p.httpClient, p.baseURL+"/chat/completions",
-		p.apiKey, p.effectiveModel(messages), p.maxTokens, p.temperature, messages, tools, systemPrompt, onDelta)
+		p.apiKey, p.effectiveModel(messages), p.maxTokens, p.temperature, messages, tools, systemPrompt, onDelta, p.thinkingDisabled)
 }

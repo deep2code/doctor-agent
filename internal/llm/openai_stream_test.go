@@ -55,7 +55,7 @@ func TestOpenAIStreamingChat(t *testing.T) {
 	resp, err := openAIStreamingChat(context.Background(), client, srv.URL+"/chat/completions",
 		"key", "model", 1024, 0.3, messages, []ToolDefinition{
 			{Name: "symptom_triage", Description: "triage", Parameters: map[string]any{}, Required: nil},
-		}, "system", func(d string) { deltas = append(deltas, d) })
+		}, "system", func(d string) { deltas = append(deltas, d) }, false)
 	if err != nil {
 		t.Fatalf("StreamChat error: %v", err)
 	}
@@ -85,7 +85,7 @@ func TestOpenAIStreamingChat(t *testing.T) {
 	// --- Non-streaming path ---
 	gotStream = false
 	resp2, err := openAIStreamingChat(context.Background(), client, srv.URL+"/chat/completions",
-		"key", "model", 1024, 0.3, messages, nil, "system", nil)
+		"key", "model", 1024, 0.3, messages, nil, "system", nil, false)
 	if err != nil {
 		t.Fatalf("Chat error: %v", err)
 	}
@@ -126,7 +126,7 @@ func TestOpenAIStreamingChatCarriesToolCalls(t *testing.T) {
 	}
 	client := &http.Client{}
 	if _, err := openAIStreamingChat(context.Background(), client, srv.URL+"/chat/completions",
-		"key", "model", 1024, 0.3, messages, nil, "", nil); err != nil {
+		"key", "model", 1024, 0.3, messages, nil, "", nil, false); err != nil {
 		t.Fatalf("openAIStreamingChat: %v", err)
 	}
 
@@ -208,7 +208,7 @@ func TestOpenAIStreamingChatDropsEmptyAssistant(t *testing.T) {
 	}
 	client := &http.Client{}
 	if _, err := openAIStreamingChat(context.Background(), client, srv.URL+"/chat/completions",
-		"key", "model", 1024, 0.3, messages, nil, "", nil); err != nil {
+		"key", "model", 1024, 0.3, messages, nil, "", nil, false); err != nil {
 		t.Fatalf("openAIStreamingChat: %v", err)
 	}
 

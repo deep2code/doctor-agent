@@ -102,11 +102,17 @@ func (r *KeywordRetriever) retrieveOnce(ctx context.Context, query string, topK 
 	// projection so their content reaches the prompt and the verifier too.
 	// Prose corpora (FHS parenting / MSD Manual / MedlinePlus) are projected
 	// with the article in Body and recalled via bigram-overlap matching.
+	// Disease encyclopedia (8807 diseases) and NHC guidelines are also
+	// projected here so the initial retrieval covers structured disease data
+	// and national clinical guidelines without requiring the LLM to explicitly
+	// switch datasets.
 	entries := r.store.GetAllMedical()
 	entries = append(entries, r.store.FoodEntriesAsKnowledge()...)
 	entries = append(entries, r.store.LabEntriesAsKnowledge()...)
 	entries = append(entries, r.store.FHSGuidesAsKnowledge()...)
 	entries = append(entries, r.store.MSDAsKnowledge()...)
+	entries = append(entries, r.store.DiseaseEncyclopediaAsKnowledge()...)
+	entries = append(entries, r.store.NHCGuidesAsKnowledge()...)
 
 	results := make([]RetrievalResult, 0, len(entries))
 

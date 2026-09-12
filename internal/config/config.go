@@ -34,6 +34,7 @@ type Config struct {
 	Temperature       float64
 	MaxHistoryTurns   int
 	MaxToolIterations int // max LLM tool-use loops per message (default 5)
+	MaxToolCalls      int // max successful tool calls per message before forcing text answer (default 5)
 
 	// Knowledge Retrieval
 	KnowledgeTopK    int
@@ -46,9 +47,10 @@ type Config struct {
 	// cheaper/faster OpenAI-compatible model (empty = main provider).
 	// AliasMapPath points at an optional JSON dictionary (alias → standard
 	// terms) loaded into query expansion at startup.
-	QueryUnderstandingEnabled bool
-	UnderstandModel           string
-	AliasMapPath              string
+	QueryUnderstandingEnabled  bool
+	QueryUnderstandingBranches int // max parallel retrieval branches from understanding (default 5)
+	UnderstandModel            string
+	AliasMapPath               string
 
 	// Media (3D 渲染动画 webm 磁盘目录)
 	MediaDir string // 由 /media/ 提供服务，默认 data/media
@@ -140,14 +142,16 @@ func Load() *Config {
 		Temperature:       getEnvFloat("TEMPERATURE", 0.3),
 		MaxHistoryTurns:   getEnvInt("MAX_HISTORY_TURNS", 20),
 		MaxToolIterations: getEnvInt("MAX_TOOL_ITERATIONS", 5),
+		MaxToolCalls:      getEnvInt("MAX_TOOL_CALLS", 5),
 
-		KnowledgeTopK:    getEnvInt("KNOWLEDGE_TOP_K", 5),
+		KnowledgeTopK:    getEnvInt("KNOWLEDGE_TOP_K", 8),
 		KnowledgeEnabled: getEnvBool("KNOWLEDGE_RETRIEVAL_ENABLED", true),
 
-		QueryUnderstandingEnabled: getEnvBool("QUERY_UNDERSTANDING_ENABLED", true),
-		UnderstandModel:           getEnv("UNDERSTAND_MODEL", ""),
-		AliasMapPath:              getEnv("ALIAS_MAP_PATH", "data/alias_map.json"),
-		MediaDir:                  getEnv("MEDIA_DIR", "data/media"),
+		QueryUnderstandingEnabled:  getEnvBool("QUERY_UNDERSTANDING_ENABLED", true),
+		QueryUnderstandingBranches: getEnvInt("QUERY_UNDERSTANDING_BRANCHES", 5),
+		UnderstandModel:            getEnv("UNDERSTAND_MODEL", ""),
+		AliasMapPath:               getEnv("ALIAS_MAP_PATH", "data/alias_map.json"),
+		MediaDir:                   getEnv("MEDIA_DIR", "data/media"),
 
 		VectorDBProvider: getEnv("VECTOR_DB_PROVIDER", ""),
 		QdrantHost:       getEnv("QDRANT_HOST", "localhost"),

@@ -300,6 +300,123 @@ type queryUnderstanding struct {
 	SearchQueries       []string `json:"search_queries"`
 }
 
+// selfCheckAnswer performs a lightweight rule-based completeness check on the
+// final answer. The project's answer structure is: 可能的原因 → 相似情况/
+// 常见病例 → 家庭护理 → 何时就医. This function verifies the answer
+// contains the core sections and logs a warning when it appears incomplete.
+// It does NOT modify the answer — the LLM may legitimately omit a section
+// for simple questions (e.g. "布洛芬能退烧吗" doesn't need 何时就医).
+// Returns a list of missing section names (empty = all present).
+func selfCheckAnswer(userMessage, answer string) []string {
+	if len([]rune(answer)) < 30 {
+		return []string{"回答过短"}
+	}
+	sections := []struct {
+		name     string
+		keywords []string
+	}{
+		{"可能的原因", []string{"原因", "可能", "常见病因", "引起", "导致"}},
+		{"家庭护理", []string{"护理", "休息", "饮食", "多喝水", "观察", "家庭", "建议", "可以"}},
+		{"何时就医", []string{"就医", "医院", "医生", "急诊", "及时", "尽快", "严重"}},
+	}
+	var missing []string
+	// Simple factual questions (drug dosage, definition) don't need the full
+	// structure — only enforce structure for symptom-style questions.
+	isSymptomQuery := false
+	for _, kw := range []string{"疼", "痛", "痒", "晕", "恶心", "呕吐", "腹泻", "发烧", "发热", "咳嗽", "不舒服", "难受", "症状", "怎么办", "怎么回事"} {
+		if strings.Contains(userMessage, kw) {
+			isSymptomQuery = true
+			break
+		}
+	}
+	if !isSymptomQuery {
+		return nil
+	}
+	for _, sec := range sections {
+		found := false
+		for _, kw := range sec.keywords {
+			if strings.Contains(answer, kw) {
+				found = true
+				break
+			}
+		}
+		if !found {
+			missing = append(missing, sec.name)
+		}
+	}
+	return missing
+}
+
+// needsClarification reports whether the user message is too vague to answer
+// safely. A message is vague when it names only a symptom ("头疼", "肚子疼")
+// without duration, severity, accompanying symptoms, or context. In that case
+// the agent should ask 2-3 targeted follow-up questions instead of jumping to
+// a differential diagnosis. The check is rule-based (no extra LLM call):
+// short message + symptom keyword + absence of detail markers = vague.
+func needsClarification(userMessage string) bool {
+	msg := strings.TrimSpace(userMessage)
+	if len([]rune(msg)) > 20 {
+		return false
+	}
+	// Must contain at least one symptom word.
+	hasSymptom := false
+	for _, kw := range []string{
+		"疼", "痛", "痒", "晕", "恶心", "呕吐", "腹泻", "拉肚子", "发烧", "发热",
+		"咳嗽", "头痛", "头晕", "胸闷", "气短", "乏力", "疲劳", "失眠", "皮疹",
+		"便秘", "便血", "水肿", "黄疸", "鼻塞", "流涕", "咽痛", "尿频", "尿急",
+		"不舒服", "难受", "症状",
+	} {
+		if strings.Contains(msg, kw) {
+			hasSymptom = true
+			break
+		}
+	}
+	if !hasSymptom {
+		return false
+	}
+	// Detail markers: if any present, the user has provided enough context.
+	for _, marker := range []string{
+		"天", "小时", "周", "月", "年", "持续", "一直", "反复", "突然", "昨天",
+		"今天", "早上", "晚上", "伴随", "还有", "同时", "伴有", "因为", "由于",
+		"吃了", "喝了", "用了", "检查", "化验", "医院", "医生", "诊断",
+		"岁", "男", "女", "怀孕", "哺乳", "孩子", "宝宝", "老人",
+	} {
+		if strings.Contains(msg, marker) {
+			return false
+		}
+	}
+	return true
+}
+
+// buildContextualQuery enriches the current user message with recent
+// conversation context for retrieval. Short follow-up messages ("那怎么办",
+// "为什么") often refer to a disease/drug discussed in the previous turn;
+// prepending the previous user turn's key terms prevents the retriever from
+// matching irrelevant entries. Only the immediately preceding user turn is
+// used (older turns are unlikely to be the referent), and the original
+// userMessage is preserved for the LLM conversation — only the retrieval
+// query is enriched.
+func (a *Agent) buildContextualQuery(sess *session.Session, userMessage string) string {
+	if sess == nil {
+		return userMessage
+	}
+	// Short messages (<= 8 runes) are likely pronominal/follow-up questions.
+	if len([]rune(userMessage)) > 8 {
+		return userMessage
+	}
+	history := sess.GetMessages()
+	// Find the most recent user message before the current turn.
+	for i := len(history) - 1; i >= 0; i-- {
+		if history[i].Role == "user" && strings.TrimSpace(history[i].Content) != "" {
+			prev := strings.TrimSpace(history[i].Content)
+			if prev != userMessage && len([]rune(prev)) > 2 {
+				return prev + " " + userMessage
+			}
+		}
+	}
+	return userMessage
+}
+
 // retrieveWithUnderstanding retrieves knowledge for a user message. The
 // verbatim query runs first (never blocked on the LLM); in parallel an LLM
 // step parses the colloquial phrasing into structured clinical concepts, and
@@ -333,8 +450,12 @@ func (a *Agent) retrieveWithUnderstanding(ctx context.Context, userMessage strin
 			queries = append(queries, strings.TrimSpace(c+" "+joined))
 		}
 	}
-	if len(queries) > maxUnderstandingBranches {
-		queries = queries[:maxUnderstandingBranches]
+	maxBranches := a.cfg.QueryUnderstandingBranches
+	if maxBranches <= 0 {
+		maxBranches = 5
+	}
+	if len(queries) > maxBranches {
+		queries = queries[:maxBranches]
 	}
 	if len(queries) == 0 {
 		return base
@@ -366,10 +487,6 @@ func (a *Agent) retrieveWithUnderstanding(ctx context.Context, userMessage strin
 	slog.Debug("Knowledge retrieved", "count", len(merged), "branches", len(paths))
 	return merged
 }
-
-// maxUnderstandingBranches caps the parallel retrieval branches spawned from
-// one message's understanding output.
-const maxUnderstandingBranches = 3
 
 // understandQuery runs the LLM understanding step and parses its JSON
 // output. Returns nil on any failure — callers fall back to verbatim-only
@@ -532,7 +649,8 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 	// Knowledge retrieval
 	var retrieved []knowledge.RetrievalResult
 	if a.cfg.KnowledgeEnabled {
-		retrieved = a.retrieveWithUnderstanding(ctx, userMessage, step)
+		retrievalQuery := a.buildContextualQuery(sess, userMessage)
+		retrieved = a.retrieveWithUnderstanding(ctx, retrievalQuery, step)
 		slog.Debug("Knowledge retrieved", "count", len(retrieved))
 		if len(retrieved) > 0 {
 			step(StepEvent{Type: "retrieve", Summary: fmt.Sprintf("检索知识库，命中 %d 条相关条目", len(retrieved))})
@@ -564,6 +682,14 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		systemPrompt += "\n" + a.composer.ComposeToolPrompt(toolDescs)
 	}
 
+	// Clarification guidance: when the user names only a symptom without
+	// duration/severity/context, ask targeted follow-ups instead of jumping
+	// to a differential diagnosis.
+	if needsClarification(userMessage) {
+		systemPrompt += "\n\n## 信息不足时的澄清指引\n\n用户的问题只提到了症状，缺少持续时间、严重程度、伴随症状等关键信息。请先提出 2-3 个有针对性的追问问题（例如：症状持续多久了？是持续性还是阵发性？有没有伴随其他不适？），帮助用户补充信息后再给出分析。不要直接给出诊断或治疗建议。"
+		step(StepEvent{Type: "retrieve", Summary: "问题信息较简略，将先引导用户补充关键细节"})
+	}
+
 	// Build messages in provider-agnostic format
 	messages := a.sessionToMessages(sess)
 	messages = append(messages, llm.Message{Role: "user", Content: userMessage})
@@ -581,7 +707,10 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 	// Duplicate tool call detection and tool call budget.
 	calledTools := make(map[string]int) // "toolName:paramsHash" -> count
 	toolCallCount := 0
-	maxToolCalls := 3 // budget: after 3 successful calls, force text answer
+	maxToolCalls := a.cfg.MaxToolCalls
+	if maxToolCalls <= 0 {
+		maxToolCalls = 5
+	}
 	toolBudgetExceeded := false
 	for i := 0; i < maxIterations; i++ {
 		if i == 0 {
@@ -663,6 +792,11 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 			// tool_calls not followed by matching tool messages, and
 			// Anthropic expects the equivalent tool_result blocks.
 			var toolMsgs []llm.Message
+			type toolOutcome struct {
+				tc     llm.ToolCall
+				result *tools.ToolResult
+			}
+			var successful []toolOutcome
 			for _, tc := range resp.ToolCalls {
 				// Duplicate detection: skip if same tool + same params
 				// was already called in this turn.
@@ -691,9 +825,9 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 					content = fmt.Sprintf("[工具 %s 返回错误: %s]", tc.Name, result.Error)
 					step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」返回错误：%s", tc.Name, result.Error)})
 				} else {
-					resultJSON, _ := json.MarshalIndent(result.Data, "", "  ")
-					content = string(resultJSON)
+					content = compactToolResult(tc.Name, result.Data)
 					toolRefs = append(toolRefs, result.Citations...)
+					successful = append(successful, toolOutcome{tc: tc, result: result})
 					step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」返回结果（%d 条引用）", tc.Name, len(result.Citations))})
 				}
 				toolMsgs = append(toolMsgs, llm.Message{Role: "tool", ToolCallID: tc.ID, Content: content})
@@ -706,6 +840,14 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 
 			messages = append(messages, assistantMsg)
 			messages = append(messages, toolMsgs...)
+
+			// Iterative retrieval: after tool results reveal concrete
+			// entities (disease/drug names), automatically pull structured
+			// knowledge about those entities so the final answer has
+			// treatment/prevention/citations without an extra LLM round.
+			for _, so := range successful {
+				a.maybeFollowupRetrieve(ctx, so.tc, so.result, &retrieved, &messages)
+			}
 			continue
 		}
 
@@ -735,6 +877,12 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 				// 避免影响用户判断 (2026-09-08)。
 				_ = verifyResult.CorrectedResponse
 			}
+		}
+
+		// L3.5: Self-check answer completeness (rule-based, log-only).
+		if missing := selfCheckAnswer(userMessage, responseText); len(missing) > 0 {
+			slog.Warn("Answer self-check: possibly incomplete",
+				"conversation_id", sess.ID, "missing", missing)
 		}
 
 		// L4: Disclaimer injection removed from answers (2026-09-06).
@@ -804,6 +952,12 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		}
 	}
 
+	// L3.5: Self-check answer completeness.
+	if missing := selfCheckAnswer(userMessage, responseText); len(missing) > 0 {
+		slog.Warn("Answer self-check: possibly incomplete (max-iter path)",
+			"conversation_id", sess.ID, "missing", missing)
+	}
+
 	// L4: Disclaimer injection removed from answers (2026-09-06).
 	disclaimerSent := false
 
@@ -865,8 +1019,9 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 	// Knowledge retrieval
 	var retrieved []knowledge.RetrievalResult
 	if a.cfg.KnowledgeEnabled {
-		retrieved = a.retrieveWithUnderstanding(ctx, userMessage, step)
-		slog.Debug("Knowledge retrieved", "count", len(retrieved))
+		retrievalQuery := a.buildContextualQuery(sess, userMessage)
+		retrieved = a.retrieveWithUnderstanding(ctx, retrievalQuery, step)
+		slog.Debug("Knowledge retrieved", "count", len(retrieved), "has_images", len(images) > 0)
 		if len(retrieved) > 0 {
 			step(StepEvent{Type: "retrieve", Summary: fmt.Sprintf("检索知识库，命中 %d 条相关条目", len(retrieved))})
 		} else {
@@ -909,6 +1064,12 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		systemPrompt += "\n" + a.composer.ComposeToolPrompt(toolDescs)
 	}
 
+	// Clarification guidance (same logic as ProcessMessageStream).
+	if len(images) == 0 && needsClarification(userMessage) {
+		systemPrompt += "\n\n## 信息不足时的澄清指引\n\n用户的问题只提到了症状，缺少持续时间、严重程度、伴随症状等关键信息。请先提出 2-3 个有针对性的追问问题，帮助用户补充信息后再给出分析。不要直接给出诊断或治疗建议。"
+		step(StepEvent{Type: "retrieve", Summary: "问题信息较简略，将先引导用户补充关键细节"})
+	}
+
 	// Build messages in provider-agnostic format with images
 	messages := a.sessionToMessages(sess)
 
@@ -945,7 +1106,10 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 	// Duplicate tool call detection and tool call budget.
 	calledTools := make(map[string]int) // "toolName:paramsHash" -> count
 	toolCallCount := 0
-	maxToolCalls := 3 // budget: after 3 successful calls, force text answer
+	maxToolCalls := a.cfg.MaxToolCalls
+	if maxToolCalls <= 0 {
+		maxToolCalls = 5
+	}
 	toolBudgetExceeded := false
 	for i := 0; i < maxIterations; i++ {
 		if i == 0 {
@@ -999,7 +1163,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 			responseText := llmResp.Text
 
 			// L3: Citation post-verification
-			if a.postVerifier != nil {
+			if a.cfg.PostVerifyEnabled && a.postVerifier != nil {
 				sources := knowledge.BuildCitedSources(retrieved)
 				// Also register tool-returned citation refs
 				for _, ref := range toolRefs {
@@ -1021,6 +1185,12 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 						responseText = verifyResult.CorrectedResponse
 					}
 				}
+			}
+
+			// L3.5: Self-check answer completeness.
+			if missing := selfCheckAnswer(userMessage, responseText); len(missing) > 0 {
+				slog.Warn("Answer self-check: possibly incomplete (images path)",
+					"conversation_id", sess.ID, "missing", missing)
 			}
 
 			// L4: Disclaimer injection removed from answers (2026-09-06).
@@ -1075,6 +1245,11 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		// (required by OpenAI-compatible endpoints; Anthropic gets the
 		// equivalent tool_result blocks).
 		var toolMsgs []llm.Message
+		type toolOutcome struct {
+			tc     llm.ToolCall
+			result *tools.ToolResult
+		}
+		var successful []toolOutcome
 		for _, tc := range llmResp.ToolCalls {
 			// Duplicate detection: skip if same tool + same params
 			// was already called in this turn.
@@ -1102,8 +1277,8 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 				toolRefs = append(toolRefs, toolResult.Citations...)
 				step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具 %s 返回结果", tc.Name)})
 				if toolResult.Success {
-					resultJSON, _ := json.MarshalIndent(toolResult.Data, "", "  ")
-					content = string(resultJSON)
+					content = compactToolResult(tc.Name, toolResult.Data)
+					successful = append(successful, toolOutcome{tc: tc, result: toolResult})
 				} else {
 					content = fmt.Sprintf("[工具 %s 返回错误: %s]", tc.Name, toolResult.Error)
 				}
@@ -1117,6 +1292,12 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		}
 
 		messages = append(messages, toolMsgs...)
+
+		// Iterative retrieval: auto-pull structured knowledge for entities
+		// revealed by tool results (same logic as ProcessMessageStream).
+		for _, so := range successful {
+			a.maybeFollowupRetrieve(ctx, so.tc, so.result, &retrieved, &messages)
+		}
 	}
 
 	// Max iterations exceeded — force a final text response without tools
@@ -1147,7 +1328,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 	}
 
 	// L3: Citation post-verification
-	if a.postVerifier != nil {
+	if a.cfg.PostVerifyEnabled && a.postVerifier != nil {
 		sources := knowledge.BuildCitedSources(retrieved)
 		for _, ref := range toolRefs {
 			text := ref.Title
@@ -1170,6 +1351,12 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		}
 	}
 
+	// L3.5: Self-check answer completeness.
+	if missing := selfCheckAnswer(userMessage, responseText); len(missing) > 0 {
+		slog.Warn("Answer self-check: possibly incomplete (images max-iter path)",
+			"conversation_id", sess.ID, "missing", missing)
+	}
+
 	// L4: Disclaimer injection removed from answers (2026-09-06).
 	disclaimerSent := false
 
@@ -1187,6 +1374,184 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		CostCNY:        llm.CostUSD(a.providerModel(), totalUsage) * llm.USDToCNY,
 		Model:          a.providerModel(),
 	}, nil
+}
+
+// compactToolResult reduces the size of a tool result before it is injected
+// into the conversation history. Large JSON payloads (disease_encyclopedia
+// returns 24 fields; knowledge_search can return 10 full entries) quickly
+// consume the context window and crowd out the actual answer. This function
+// applies dataset-aware field pruning for known large-result tools and falls
+// back to a hard character cap for everything else.
+func compactToolResult(toolName string, data map[string]any) string {
+	raw, _ := json.MarshalIndent(data, "", "  ")
+	const hardCap = 4000
+	if len(raw) <= hardCap {
+		return string(raw)
+	}
+	// Dataset-aware pruning for knowledge_search: keep top 3 results with
+	// only the fields the LLM actually needs to answer.
+	if toolName == "knowledge_search" {
+		if results, ok := data["results"].([]any); ok && len(results) > 3 {
+			pruned := make(map[string]any, len(data))
+			for k, v := range data {
+				if k != "results" {
+					pruned[k] = v
+				}
+			}
+			kept := make([]any, 0, 3)
+			for i, item := range results {
+				if i >= 3 {
+					break
+				}
+				if m, ok := item.(map[string]any); ok {
+					thin := make(map[string]any)
+					for _, key := range []string{"condition_zh", "name_zh", "title", "treatment", "prevention", "risk_factors", "complications", "citations", "relevance"} {
+						if v, ok := m[key]; ok {
+							thin[key] = v
+						}
+					}
+					kept = append(kept, thin)
+				} else {
+					kept = append(kept, item)
+				}
+			}
+			pruned["results"] = kept
+			pruned["_note"] = fmt.Sprintf("结果已压缩：原 %d 条保留前 3 条并精简字段", len(results))
+			out, _ := json.MarshalIndent(pruned, "", "  ")
+			if len(out) <= hardCap {
+				return string(out)
+			}
+			raw = out
+		}
+	}
+	// Hard cap fallback.
+	if len(raw) > hardCap {
+		return string(raw[:hardCap]) + "\n…（结果已截断，完整数据可通过工具重新查询）"
+	}
+	return string(raw)
+}
+
+// maybeFollowupRetrieve performs an automatic secondary retrieval after a
+// tool call returns. When the tool result reveals a concrete entity (disease
+// name, drug name), that entity is used as a fresh retrieval query so the
+// agent gains structured knowledge (treatment, prevention, complications)
+// about the entity without the LLM having to explicitly call knowledge_search
+// again. Results are injected as an extra context message and merged into the
+// retrieved slice for citation post-verification.
+//
+// This closes the "retrieve → tool → answer" loop: e.g. user asks "一侧头痛
+// 伴恶心", symptom_triage returns "偏头痛", then followup retrieval pulls
+// the migraine KnowledgeEntry (treatment/prevention/citations) into context.
+func (a *Agent) maybeFollowupRetrieve(ctx context.Context, tc llm.ToolCall, result *tools.ToolResult, retrieved *[]knowledge.RetrievalResult, messages *[]llm.Message) {
+	if result == nil || !result.Success || result.Data == nil {
+		return
+	}
+	entities := extractEntitiesFromToolResult(tc.Name, tc.Arguments, result.Data)
+	if len(entities) == 0 {
+		return
+	}
+	// Cap followup queries to avoid runaway retrieval in one turn.
+	if len(entities) > 2 {
+		entities = entities[:2]
+	}
+	var added []knowledge.RetrievalResult
+	for _, ent := range entities {
+		q := ent + " 治疗 预防 并发症"
+		res, err := a.retriever.Retrieve(ctx, q, 3)
+		if err != nil {
+			slog.Debug("Followup retrieval failed", "entity", ent, "error", err)
+			continue
+		}
+		added = append(added, res...)
+	}
+	if len(added) == 0 {
+		return
+	}
+	// De-dup against already-retrieved entries.
+	seen := make(map[string]bool, len(*retrieved))
+	for _, r := range *retrieved {
+		seen[r.Entry.ID] = true
+	}
+	var fresh []knowledge.RetrievalResult
+	for _, r := range added {
+		if !seen[r.Entry.ID] {
+			seen[r.Entry.ID] = true
+			fresh = append(fresh, r)
+		}
+	}
+	if len(fresh) == 0 {
+		return
+	}
+	*retrieved = append(*retrieved, fresh...)
+	// Format as a compact context injection message.
+	var sb strings.Builder
+	sb.WriteString("【补充检索结果】根据工具返回的实体，自动检索到以下循证医学知识，请在回答中参考：\n\n")
+	formatter := knowledge.NewCitationFormatter()
+	sb.WriteString(formatter.BuildCitationMap(fresh))
+	*messages = append(*messages, llm.Message{Role: "user", Content: sb.String()})
+	slog.Debug("Followup retrieval injected", "entities", entities, "fresh_entries", len(fresh))
+}
+
+// extractEntitiesFromToolResult pulls concrete medical entities (disease
+// names, drug names) from a tool call's arguments and result data. It handles
+// the unified tools' common output shapes: knowledge_search returns
+// condition_zh / results[].condition_zh; exact_lookup returns name_zh /
+// disease; symptom_triage returns likely_conditions; medical_kg_lookup
+// returns head/tail disease nodes.
+func extractEntitiesFromToolResult(toolName string, args map[string]any, data map[string]any) []string {
+	var entities []string
+	add := func(s string) {
+		s = strings.TrimSpace(s)
+		if s == "" || len([]rune(s)) < 2 {
+			return
+		}
+		for _, e := range entities {
+			if e == s {
+				return
+			}
+		}
+		entities = append(entities, s)
+	}
+	// 1. From arguments: knowledge_search query is itself a retrieval-worthy term.
+	if q, ok := args["query"].(string); ok && toolName == "knowledge_search" {
+		add(q)
+	}
+	// 2. From result data: common fields across unified tools.
+	for _, key := range []string{"condition_zh", "name_zh", "disease", "condition", "drug_name", "generic_name_zh"} {
+		if v, ok := data[key].(string); ok {
+			add(v)
+		}
+	}
+	// 3. results[] array (knowledge_search / exact_lookup / disease_encyclopedia).
+	if results, ok := data["results"].([]any); ok {
+		for i, item := range results {
+			if i >= 3 {
+				break
+			}
+			if m, ok := item.(map[string]any); ok {
+				for _, key := range []string{"condition_zh", "name_zh", "name", "disease", "title"} {
+					if v, ok := m[key].(string); ok {
+						add(v)
+					}
+				}
+			}
+		}
+	}
+	// 4. symptom_triage likely_conditions.
+	if conds, ok := data["likely_conditions"].([]any); ok {
+		for _, c := range conds {
+			if s, ok := c.(string); ok {
+				add(s)
+			}
+		}
+	}
+	// 5. medical_kg_lookup head/tail disease nodes.
+	for _, key := range []string{"head", "tail"} {
+		if v, ok := data[key].(string); ok {
+			add(v)
+		}
+	}
+	return entities
 }
 
 // sessionToMessages returns the session history in provider-agnostic form.

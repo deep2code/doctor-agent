@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"log/slog"
+	"strconv"
 	"strings"
 	"sync"
 
@@ -826,6 +827,71 @@ func (s *Store) MedlinePlusAsKnowledge() []KnowledgeEntry {
 			Category:    "medlineplus",
 			Keywords:    []string{m.Title},
 			Body:        m.Title + "\n" + m.Content,
+		})
+	}
+	return out
+}
+
+// DiseaseEncyclopediaAsKnowledge projects the CMeKG disease encyclopedia
+// (8807 diseases) as KnowledgeEntry. Only name + symptoms + key fields are
+// mapped so keyword/bigram recall works; the full structured record stays
+// available via exact_lookup / knowledge_search dataset=disease_encyclopedia.
+func (s *Store) DiseaseEncyclopediaAsKnowledge() []KnowledgeEntry {
+	_ = s.ensureDiseaseEnc()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]KnowledgeEntry, 0, len(s.DiseaseEncyclopedias))
+	for i := range s.DiseaseEncyclopedias {
+		d := &s.DiseaseEncyclopedias[i]
+		kws := []string{d.NameZH}
+		kws = append(kws, d.Symptoms...)
+		var bodyParts []string
+		if d.Description != "" {
+			bodyParts = append(bodyParts, d.Description)
+		}
+		if len(d.Symptoms) > 0 {
+			bodyParts = append(bodyParts, "症状："+strings.Join(d.Symptoms, "、"))
+		}
+		if d.Etiology != "" {
+			bodyParts = append(bodyParts, "病因："+d.Etiology)
+		}
+		if len(d.TreatmentMethods) > 0 {
+			bodyParts = append(bodyParts, "治疗："+strings.Join(d.TreatmentMethods, "、"))
+		}
+		if d.Prevention != "" {
+			bodyParts = append(bodyParts, "预防："+d.Prevention)
+		}
+		out = append(out, KnowledgeEntry{
+			ID:          fmt.Sprintf("enc-%05d", i+1),
+			ConditionZH: d.NameZH,
+			Category:    "disease_encyclopedia",
+			Keywords:    kws,
+			Body:        strings.Join(bodyParts, "\n"),
+		})
+	}
+	return out
+}
+
+// NHCGuidesAsKnowledge projects 国家卫健委诊疗方案 full-text guides as
+// KnowledgeEntry bodies for unified keyword retrieval.
+func (s *Store) NHCGuidesAsKnowledge() []KnowledgeEntry {
+	_ = s.ensureNHC()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	out := make([]KnowledgeEntry, 0, len(s.NHCGuides))
+	for i := range s.NHCGuides {
+		g := &s.NHCGuides[i]
+		cite := Citation{Title: "国家卫健委：" + g.Title, URL: g.URL}
+		if g.Year != "" {
+			cite.Year, _ = strconv.Atoi(g.Year)
+		}
+		out = append(out, KnowledgeEntry{
+			ID:          fmt.Sprintf("nhc-%03d", i+1),
+			ConditionZH: g.Title,
+			Category:    "nhc_guide",
+			Keywords:    []string{g.Title},
+			Body:        g.Title + "\n" + g.Content,
+			Citations:   []Citation{cite},
 		})
 	}
 	return out

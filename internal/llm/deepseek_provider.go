@@ -32,7 +32,12 @@ func NewDeepSeekProvider(apiKey, model, visionModel string, maxTokens int, tempe
 		maxTokens:   maxTokens,
 		temperature: temperature,
 		httpClient: &http.Client{
-			Timeout: 120 * time.Second,
+			// 5-minute ceiling: the per-request ctx already enforces the
+			// caller's timeout (e.g. 5min for streaming endpoints), but a
+			// hard client timeout prevents a hung connection from leaking
+			// goroutines if ctx is never cancelled. DeepSeek V4 thinking
+			// streams can run long, so 120s was too short.
+			Timeout: 5 * time.Minute,
 		},
 	}
 }

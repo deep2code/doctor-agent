@@ -35,7 +35,9 @@ func NewOpenAICompatProvider(baseURL, apiKey, model, visionModel string, maxToke
 		maxTokens:   maxTokens,
 		temperature: temperature,
 		httpClient: &http.Client{
-			Timeout: 180 * time.Second,
+			// 5-minute ceiling (same rationale as DeepSeekProvider — long
+			// thinking streams on compatible endpoints need more than 180s).
+			Timeout: 5 * time.Minute,
 		},
 	}
 }

@@ -1006,7 +1006,7 @@ func (s *Server) handleChat(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
-	ctx, cancel := context.WithTimeout(r.Context(), 60*time.Second)
+	ctx, cancel := context.WithTimeout(r.Context(), 3*time.Minute)
 	defer cancel()
 
 	// Convert images to llm.ImageInput format

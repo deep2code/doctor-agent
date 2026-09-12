@@ -11,9 +11,140 @@
 <meta property="og:type" content="website" />
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"医答","alternateName":"Doctor Agent","description":"基于权威医学知识库与 35+ 项专业工具的循证医学 AI 助手","inLanguage":"zh-CN"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"医答 Doctor Agent","slogan":"循证医学 AI 助手"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"医答能代替医生吗？","acceptedAnswer":{"@type":"Answer","text":"不能。医答是循证医学辅助工具，提供基于证据的健康参考，不能替代专业医生的诊断与治疗。紧急情况请拨打 120 或前往急诊。"}},{"@type":"Question","name":"我的健康数据隐私如何保障？","acceptedAnswer":{"@type":"Answer","text":"对话内容仅用于当前会话，不会存储个人身份信息。支持本地部署模式，数据完全自控。"}},{"@type":"Question","name":"回答的\"出处\"是什么？","acceptedAnswer":{"@type":"Answer","text":"每条关键结论都附带权威来源编号（如临床指南 DOI、PubMed 文献 PMID），可点击验证原始出处。"}},{"@type":"Question","name":"支持哪些疾病范围？","acceptedAnswer":{"@type":"Answer","text":"覆盖日常健康问题及中国高发疾病（地贫、G6PD、鼻咽癌、乙肝等），持续扩展中。"}}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"专业医学工具","itemListElement":[{"@type":"ListItem","position":1,"name":"用药安全核查","description":"检查药物相互作用、禁忌症与剂量安全性"},{"@type":"ListItem","position":2,"name":"症状分诊","description":"根据症状描述推荐就诊科室与紧急程度"},{"@type":"ListItem","position":3,"name":"遗传病风险计算","description":"基于家族史与表型评估遗传性疾病携带风险"},{"@type":"ListItem","position":4,"name":"检验单解读","description":"上传化验单图片，逐项解释指标含义与异常"},{"@type":"ListItem","position":5,"name":"药物相互作用","description":"检测多药并用时的潜在冲突与不良反应风险"},{"@type":"ListItem","position":6,"name":"药物查询","description":"检索药品说明书、适应症、副作用与医保信息"}]}</script>
-<style>/*__CSS__*/</style>
+<style>/*__CSS__*/
+/* ===== Health Guide visual cards ===== */
+.guide-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.guide-card {
+  position: relative; background: #fff; border-radius: 18px; padding: 28px 22px 24px;
+  border: 1px solid var(--line); overflow: hidden; cursor: pointer;
+  transition: transform .25s cubic-bezier(.4,0,.2,1), box-shadow .25s ease, border-color .25s;
+}
+.guide-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 5px;
+  background: var(--gc, var(--blue));
+}
+.guide-card::after {
+  content: attr(data-num); position: absolute; top: 14px; right: 18px;
+  font-size: 42px; font-weight: 900; color: var(--gc, var(--blue)); opacity: .08;
+  line-height: 1; letter-spacing: -2px;
+}
+.guide-card:hover {
+  transform: translateY(-6px); box-shadow: 0 20px 40px rgba(15,30,51,.14);
+  border-color: var(--gc, var(--blue));
+}
+.guide-card:hover .guide-ic { transform: scale(1.1) rotate(-3deg); }
+.guide-card:hover .guide-ic svg { stroke: #fff; }
+.guide-ic {
+  width: 56px; height: 56px; border-radius: 16px; display: flex; align-items: center; justify-content: center;
+  background: var(--gc-soft, var(--blue-soft)); margin-bottom: 16px;
+  transition: transform .3s cubic-bezier(.4,0,.2,1), background .25s;
+}
+.guide-ic svg { width: 28px; height: 28px; stroke: var(--gc, var(--blue)); transition: stroke .25s; }
+.guide-card:hover .guide-ic { background: var(--gc, var(--blue)); }
+.guide-card h4 { font-size: 18px; font-weight: 800; margin-bottom: 8px; color: var(--ink); position: relative; z-index: 1; }
+.guide-card p { font-size: 13.5px; color: var(--text); line-height: 1.6; position: relative; z-index: 1; }
+.guide-tag {
+  display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 999px;
+  background: var(--gc-soft, var(--blue-soft)); color: var(--gc, var(--blue)); margin-bottom: 10px;
+  letter-spacing: .5px;
+}
+.c-green  { --gc: #16A34A; --gc-soft: #ECFDF5; }
+.c-blue   { --gc: #2563EB; --gc-soft: #E6F2FE; }
+.c-amber  { --gc: #D97706; --gc-soft: #FEF3E6; }
+.c-violet { --gc: #7C3AED; --gc-soft: #EDEBFE; }
+.c-pink   { --gc: #E11D48; --gc-soft: #FFE4E6; }
+.c-cyan   { --gc: #0891B2; --gc-soft: #ECFEFF; }
+@media (max-width: 980px) { .guide-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 620px) { .guide-grid { grid-template-columns: 1fr; } }
+/* ===== Anatomy body map ===== */
+.anat-viewport { position: relative; background: linear-gradient(180deg,#FAFBFD 0%,#F0F4F8 100%); border-radius: 16px; border: 1px solid var(--line); overflow: hidden; }
+.anat-viewport svg { display: block; width: 100%; height: auto; max-height: 560px; transition: none; }
+.anat-viewport svg .anat-body { fill: url(#skinGrad); stroke: #8B7355; stroke-width: 1.2; }
+.anat-viewport svg .anat-muscle { fill: url(#muscleGrad); stroke: #C09080; stroke-width: 0.6; opacity: 0.7; }
+.anat-viewport svg .anat-bone { fill: #F5E6D3; stroke: #C8B090; stroke-width: 0.8; }
+.anat-viewport svg .anat-region { fill: transparent; stroke: transparent; stroke-width: 2; cursor: pointer; transition: fill .2s, stroke .2s; }
+.anat-viewport svg .anat-region:hover { fill: rgba(37,99,235,.08); stroke: rgba(37,99,235,.4); }
+.anat-viewport svg .anat-region.is-active { fill: rgba(37,99,235,.12); stroke: var(--blue); }
+.anat-viewport svg .anat-organ { cursor: pointer; filter: url(#organShadow); transition: transform .2s, filter .2s; transform-origin: center; transform-box: fill-box; }
+.anat-viewport svg .anat-organ:hover { transform: scale(1.06); filter: url(#organShadow) brightness(1.1); }
+.anat-viewport svg .anat-organ.is-selected { stroke: #fff; stroke-width: 2.5; }
+.anat-viewport svg .anat-label { font-family: var(--font); font-size: 11px; font-weight: 600; fill: #1E293B; pointer-events: none; }
+.anat-viewport svg .anat-label-line { stroke: #64748B; stroke-width: 0.8; fill: none; pointer-events: none; }
+.anat-viewport svg .anat-label-bg { fill: rgba(255,255,255,.85); rx: 3; }
+.bm-zoom-out {
+  position: absolute; top: 14px; left: 14px; z-index: 5;
+  width: 38px; height: 38px; border-radius: 10px; border: 1px solid var(--line);
+  background: rgba(255,255,255,.95); color: var(--ink); cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: var(--shadow-sm); transition: all .15s;
+}
+.bm-zoom-out:hover { background: var(--blue); color: #fff; border-color: var(--blue); }
+.bm-breadcrumb { display: flex; align-items: center; gap: 6px; font-size: 13px; }
+.bm-crumb { padding: 4px 12px; border-radius: 999px; background: var(--bg-soft); color: var(--text); cursor: pointer; font-weight: 600; transition: all .15s; }
+.bm-crumb:hover { background: var(--blue-soft); color: var(--blue); }
+.bm-crumb.active { background: var(--blue); color: #fff; }
+.bm-crumb-sep { color: var(--muted); font-size: 11px; }
+.bm-side h3 { font-size: 22px; font-weight: 800; margin-bottom: 16px; }
+.bm-side ul { list-style: none; padding: 0; margin: 0 0 24px; }
+.bm-side ul li { padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 15px; color: var(--text); line-height: 1.6; }
+.bm-side ul li:last-child { border-bottom: none; }
+.bm-organ-detail { margin-bottom: 20px; }
+.bm-organ-detail .organ-name { font-size: 20px; font-weight: 800; color: var(--ink); margin-bottom: 4px; }
+.bm-organ-detail .organ-sub { font-size: 13px; color: var(--muted); margin-bottom: 14px; }
+.bm-flag { background: #FEF2F2; border: 1px solid #FECACA; color: #B91C1C; border-radius: 10px; padding: 10px 14px; font-size: 13px; font-weight: 600; margin-bottom: 14px; line-height: 1.5; }
+.bm-cond-label { font-size: 12px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; margin-bottom: 8px; }
+.bm-cond-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.bm-cond { padding: 6px 14px; border-radius: 999px; background: var(--bg-soft); border: 1px solid var(--line); font-size: 13px; font-weight: 600; color: var(--ink); cursor: pointer; transition: all .15s; }
+.bm-cond:hover { background: var(--blue-soft); border-color: var(--blue); color: var(--blue); }
+.bm-cond.is-on { background: var(--blue); border-color: var(--blue); color: #fff; }
+/* ===== Disease ranking ===== */
+.rank-table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 13.5px; }
+.rank-table thead th {
+  text-align: left; padding: 12px 14px; background: var(--navy); color: #fff;
+  font-weight: 700; font-size: 13px; letter-spacing: .3px;
+}
+.rank-table thead th:first-child { border-radius: 10px 0 0 0; text-align: center; }
+.rank-table thead th:last-child { border-radius: 0 10px 0 0; }
+.rank-table tbody tr { transition: background .15s; }
+.rank-table tbody tr:hover { background: var(--bg-soft); }
+.rank-table tbody td { padding: 14px; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.55; }
+.rank-table tbody tr:last-child td { border-bottom: none; }
+.rank-num-cell { text-align: center; width: 50px; }
+.rank-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 30px; height: 30px; border-radius: 8px; font-weight: 800; font-size: 14px;
+  background: var(--bg-soft); color: var(--muted);
+}
+.rank-row.top1 .rank-badge { background: linear-gradient(135deg,#EF4444,#DC2626); color: #fff; }
+.rank-row.top2 .rank-badge { background: linear-gradient(135deg,#F97316,#EA580C); color: #fff; }
+.rank-row.top3 .rank-badge { background: linear-gradient(135deg,#EAB308,#CA8A04); color: #fff; }
+.rank-disease { font-weight: 700; font-size: 15px; color: var(--ink); width: 100px; }
+.rank-disease small { display: block; font-weight: 500; font-size: 11px; color: var(--muted); margin-top: 2px; }
+.rank-count-cell { width: 130px; }
+.rank-count { font-weight: 800; font-size: 15px; color: var(--ink); }
+.rank-count small { display: block; font-weight: 500; font-size: 11px; color: var(--muted); }
+.rank-mini-bar { height: 6px; background: var(--bg-soft); border-radius: 3px; margin-top: 6px; overflow: hidden; }
+.rank-mini-bar i { display: block; height: 100%; border-radius: 3px; width: 0; transition: width 1s cubic-bezier(.4,0,.2,1); }
+.rank-row.top1 .rank-mini-bar i { background: linear-gradient(90deg,#EF4444,#F87171); }
+.rank-row.top2 .rank-mini-bar i { background: linear-gradient(90deg,#F97316,#FB923C); }
+.rank-row.top3 .rank-mini-bar i { background: linear-gradient(90deg,#EAB308,#FACC15); }
+.rank-row:not(.top1):not(.top2):not(.top3) .rank-mini-bar i { background: linear-gradient(90deg,#2563EB,#60A5FA); }
+.rank-detail { color: var(--text); font-size: 13px; line-height: 1.6; }
+.rank-detail b { color: var(--ink); }
+.rank-col-label { display: none; }
+.rank-source { text-align: center; font-size: 12px; color: var(--muted); margin-top: 20px; line-height: 1.6; }
+.rank-source a { color: var(--blue); text-decoration: underline; }
+@media (max-width: 860px) {
+  .rank-table thead { display: none; }
+  .rank-table tbody tr { display: block; border: 1px solid var(--line); border-radius: 12px; margin-bottom: 12px; padding: 14px; background: #fff; }
+  .rank-table tbody td { display: block; border: none; padding: 6px 0; width: 100% !important; }
+  .rank-num-cell { text-align: left; display: flex; align-items: center; gap: 10px; }
+  .rank-col-label { display: inline; font-weight: 700; color: var(--ink); font-size: 12px; margin-right: 6px; }
+  .rank-disease { width: auto; }
+  .rank-count-cell { width: auto; }
+}
+</style>
 </head>
 <body>
 
@@ -28,11 +159,9 @@
     </a>
     <nav class="nav-links">
       <a href="#features">核心能力</a>
-      <a href="#tools">功能矩阵</a>
       <a href="/map">疾病地图</a>
       <a href="/stats">数据洞察</a>
-      <a href="#proof">循证可信</a>
-      <a href="#faq">常见问题</a>
+      <a href="#guide">健康指南</a>
     </nav>
     <div class="nav-right">
       <a class="btn btn-primary btn-lg" href="/app">问我</a>
@@ -180,92 +309,66 @@
   </div>
 </section>
 
-<!-- ============ FEATURE GRID / 功能矩阵 ============ -->
-<section id="tools" style="background:var(--bg-soft);">
-  <div class="container">
-    <div class="sec-center">
-      <h2 class="title">35+ 项专业医学工具，随时调用</h2>
-      <p class="sec-desc">从用药安全到检验解读，从分诊到遗传风险评估，覆盖日常健康咨询的关键场景。</p>
-    </div>
-    <div class="grid-tools">
-      <div class="tool">
-        <div class="ic" style="background:var(--blue-soft);">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round"><path d="M10.5 13.5l3-3M8 8h4a3 3 0 010 6H8V8z"/><path d="M16 16v-4a3 3 0 00-3-3"/></svg>
-        </div>
-        <h4>用药安全核查</h4>
-        <p>检查药物相互作用、禁忌症与剂量安全性</p>
-      </div>
-      <div class="tool">
-        <div class="ic" style="background:var(--green-soft);">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/><circle cx="19" cy="18" r="2"/></svg>
-        </div>
-        <h4>症状分诊</h4>
-        <p>根据症状描述推荐就诊科室与紧急程度</p>
-      </div>
-      <div class="tool">
-        <div class="ic" style="background:var(--amber-soft);">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round"><path d="M8 4c0 4 8 4 8 8s-8 4-8 8M16 4c0 4-8 4-8 8s8 4 8 8"/></svg>
-        </div>
-        <h4>遗传病风险计算</h4>
-        <p>基于家族史与表型评估遗传性疾病携带风险</p>
-      </div>
-      <div class="tool">
-        <div class="ic" style="background:var(--violet-soft);">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6D28D9" stroke-width="2" stroke-linecap="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>
-        </div>
-        <h4>检验单解读</h4>
-        <p>上传化验单图片，逐项解释指标含义与异常</p>
-      </div>
-      <div class="tool">
-        <div class="ic" style="background:var(--pink-soft);">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E11D48" stroke-width="2" stroke-linecap="round"><circle cx="8" cy="8" r="3"/><circle cx="16" cy="16" r="3"/><path d="M11 8h2a3 3 0 013 3v2"/></svg>
-        </div>
-        <h4>药物相互作用</h4>
-        <p>检测多药并用时的潜在冲突与不良反应风险</p>
-      </div>
-      <div class="tool">
-        <div class="ic" style="background:var(--blue-soft);">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
-        </div>
-        <h4>药物查询</h4>
-        <p>检索药品说明书、适应症、副作用与医保信息</p>
-      </div>
-    </div>
-  </div>
-</section>
 
-
-<!-- ============ BODY MAP / 症状定位 ============ -->
+<!-- ============ BODY MAP / 解剖图 ============ -->
 <section id="bodymap" style="background:var(--white);padding:96px 0;">
   <div class="container">
     <div class="sec-center">
-      <span class="eyebrow">说不清哪里痛？</span>
-      <h2 class="title">指一指，就够了</h2>
-      <p class="sec-desc">绝大多数人描述不清部位——一句"肚子痛"背后可能是十几种完全不同的情况。切换性别与正 / 背面，直接点击不舒服的位置，医答帮你把问题问清楚。</p>
+      <span class="eyebrow">交互式解剖图</span>
+      <h2 class="title">点一点，逐层放大</h2>
+      <p class="sec-desc">教科书级人体解剖图——点击身体区域放大，再点具体器官查看常见健康问题。支持正面 / 背面切换。</p>
     </div>
     <div class="bm-wrap">
       <div class="bm-panel">
         <div class="bm-controls">
           <div class="bm-seg">
-            <button type="button" class="bm-opt active" data-gender="male">男</button>
-            <button type="button" class="bm-opt" data-gender="female">女</button>
-          </div>
-          <div class="bm-seg">
             <button type="button" class="bm-opt active" data-view="front">正面</button>
             <button type="button" class="bm-opt" data-view="back">背面</button>
           </div>
+          <div class="bm-breadcrumb" id="bmCrumb">
+            <span class="bm-crumb bm-crumb-root active">全身</span>
+          </div>
         </div>
-        <div class="bm-viewport"><div class="bm-flipper" id="bmFlipLanding"></div></div>
-        <p class="bm-readout" id="bmOutLanding">点击身体上不舒服的位置</p>
+        <div class="bm-viewport anat-viewport" id="bmViewport">
+          <svg id="bmSvg" viewBox="0 0 400 800" xmlns="http://www.w3.org/2000/svg" aria-label="人体解剖图">
+            <defs>
+              <linearGradient id="skinGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#F5E6D3"/><stop offset="100%" stop-color="#E8D5C4"/>
+              </linearGradient>
+              <linearGradient id="muscleGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#F0C8B8"/><stop offset="100%" stop-color="#E0B0A0"/>
+              </linearGradient>
+              <radialGradient id="organHeart" cx="0.4" cy="0.35"><stop offset="0%" stop-color="#E88070"/><stop offset="100%" stop-color="#C05040"/></radialGradient>
+              <radialGradient id="organLiver" cx="0.4" cy="0.3"><stop offset="0%" stop-color="#B86848"/><stop offset="100%" stop-color="#8B4513"/></radialGradient>
+              <radialGradient id="organLung" cx="0.5" cy="0.3"><stop offset="0%" stop-color="#E8A8A8"/><stop offset="100%" stop-color="#C87878"/></radialGradient>
+              <radialGradient id="organStomach" cx="0.4" cy="0.3"><stop offset="0%" stop-color="#E0B878"/><stop offset="100%" stop-color="#C09850"/></radialGradient>
+              <radialGradient id="organBrain" cx="0.5" cy="0.4"><stop offset="0%" stop-color="#F0C8D0"/><stop offset="100%" stop-color="#D098A8"/></radialGradient>
+              <radialGradient id="organKidney" cx="0.4" cy="0.3"><stop offset="0%" stop-color="#A07858"/><stop offset="100%" stop-color="#785030"/></radialGradient>
+              <filter id="organShadow" x="-20%" y="-20%" width="140%" height="140%">
+                <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+              </filter>
+            </defs>
+            <g id="bmLayerBody"></g>
+            <g id="bmLayerOrgans" style="display:none"></g>
+            <g id="bmLayerLabels" style="display:none"></g>
+          </svg>
+          <button class="bm-zoom-out" id="bmZoomOut" style="display:none" aria-label="返回全身">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+        </div>
+        <p class="bm-readout" id="bmOutLanding">点击身体区域放大，查看详细解剖结构</p>
       </div>
-      <div class="bm-side">
-        <h3>为什么"指位置"比"说"更靠谱</h3>
-        <ul>
-          <li>腹部按九分法区分，<b>右下腹痛</b>与<b>右上腹痛</b>指向的病因完全不同，靠语言很难说准。</li>
-          <li>腰、背、臀的疼痛常被笼统称"腰痛"，但<b>下背</b>、<b>骶尾部</b>、<b>肾区</b>的处理路径差别很大。</li>
-          <li>选好部位后，问题会自动带上准确描述进入咨询台，省去反复追问的几轮对话。</li>
-        </ul>
-        <a class="btn btn-primary" id="bmCtaLanding" href="/app">先描述我的情况</a>
+      <div class="bm-side" id="bmSide">
+        <h3 id="bmSideTitle">交互式解剖图</h3>
+        <div id="bmSideContent">
+          <ul>
+            <li>点击<b>头部、胸部、腹部</b>等区域，平滑放大显示内部器官。</li>
+            <li>放大后点击具体<b>器官</b>，查看常见疾病与就医指征。</li>
+            <li>左上角←按钮返回上一级，面包屑可快速跳转。</li>
+            <li>支持<b>正面 / 背面</b>切换，覆盖肌肉与骨骼标志。</li>
+          </ul>
+          <a class="btn btn-primary" id="bmCtaLanding" href="/app">描述我的症状</a>
+        </div>
       </div>
     </div>
   </div>
@@ -297,66 +400,222 @@
   </div>
 </section>
 
-<!-- ============ SOCIAL PROOF / 循证可信 ============ -->
-<section id="proof" class="proof">
+<!-- ============ DISEASE RANKING / 高发疾病排名 ============ -->
+<section id="ranking" style="background:var(--white);">
   <div class="container">
     <div class="sec-center">
-      <span class="eyebrow dark">循证可信</span>
-      <h2 class="title">每个答案，都有据可查</h2>
-      <p class="sec-desc">我们不相信"AI 幻觉"——每条关键结论都经过引用核验，确保来源真实可追溯。</p>
+      <span class="eyebrow">数据说话</span>
+      <h2 class="title">当下中国人高发疾病排名</h2>
+      <p class="sec-desc">按患病人数从高到低排列——了解主要原因、治疗手段与常见误解，才能更好地预防和应对。</p>
     </div>
-    <div class="stats">
-      <div class="stat"><div class="n">35+</div><div class="l">项专业工具</div></div>
-      <div class="stat"><div class="n">权威</div><div class="l">医学知识库</div></div>
-      <div class="stat"><div class="n">4</div><div class="l">层安全防护</div></div>
-      <div class="stat"><div class="n">100%</div><div class="l">可溯源引用</div></div>
+    <div style="overflow-x:auto;">
+    <table class="rank-table" id="rankTable">
+      <thead>
+        <tr>
+          <th style="text-align:center;width:50px;">#</th>
+          <th style="width:100px;">疾病</th>
+          <th style="width:130px;">患病人数</th>
+          <th>主要原因</th>
+          <th>主要治疗手段</th>
+          <th>常见误解</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="rank-row top1">
+          <td class="rank-num-cell"><span class="rank-badge">1</span></td>
+          <td class="rank-disease">高血压<small>患病率 27.5%</small></td>
+          <td class="rank-count-cell">
+            <div class="rank-count">2.45 亿</div>
+            <div class="rank-mini-bar"><i data-w="100"></i></div>
+          </td>
+          <td class="rank-detail"><b>高盐饮食</b>、肥胖超重、久坐不动、遗传、年龄增长、长期精神压力、过量饮酒</td>
+          <td class="rank-detail">限盐减重运动等<b>生活方式干预</b>；降压药（ACEI/ARB/钙通道阻滞剂/利尿剂）；定期家庭血压监测</td>
+          <td class="rank-detail">"没头晕就不用吃药""降压药有依赖性""血压正常了就可以停药"——均错误，需长期规范管理</td>
+        </tr>
+        <tr class="rank-row top2">
+          <td class="rank-num-cell"><span class="rank-badge">2</span></td>
+          <td class="rank-disease">糖尿病<small>患病率 13.7%</small></td>
+          <td class="rank-count-cell">
+            <div class="rank-count">2.33 亿</div>
+            <div class="rank-mini-bar"><i data-w="95"></i></div>
+          </td>
+          <td class="rank-detail"><b>肥胖/超重</b>、高热量饮食、久坐、遗传易感、年龄增长、妊娠糖尿病史、代谢综合征</td>
+          <td class="rank-detail">饮食控制+规律运动；口服降糖药（<b>二甲双胍</b>等）；胰岛素治疗；指尖血糖/HbA1c 监测</td>
+          <td class="rank-detail">"糖尿病就是糖吃多了""打胰岛素会上瘾""无糖食品可以随便吃"——无糖食品仍含碳水，需计入总量</td>
+        </tr>
+        <tr class="rank-row top3">
+          <td class="rank-num-cell"><span class="rank-badge">3</span></td>
+          <td class="rank-disease">高尿酸血症<small>患病率 13.3%</small></td>
+          <td class="rank-count-cell">
+            <div class="rank-count">约 1.8 亿</div>
+            <div class="rank-mini-bar"><i data-w="73"></i></div>
+          </td>
+          <td class="rank-detail"><b>高嘌呤饮食</b>（海鲜/动物内脏/浓肉汤）、过量饮酒（尤其啤酒）、肥胖、肾功能异常、遗传</td>
+          <td class="rank-detail">低嘌呤饮食+每日饮水 2000ml+；降尿酸药（<b>别嘌醇/非布司他/苯溴马隆</b>）；急性期用抗炎镇痛药</td>
+          <td class="rank-detail">"尿酸高就是痛风""只有关节痛才需治疗""豆制品绝对不能吃"——尿酸高但无痛风也需管理，豆腐可适量</td>
+        </tr>
+        <tr class="rank-row">
+          <td class="rank-num-cell"><span class="rank-badge">4</span></td>
+          <td class="rank-disease">慢性肾病<small>患病率约 10.8%</small></td>
+          <td class="rank-count-cell">
+            <div class="rank-count">1.52 亿</div>
+            <div class="rank-mini-bar"><i data-w="62"></i></div>
+          </td>
+          <td class="rank-detail"><b>糖尿病/高血压</b>（首要病因）、肾小球肾炎、长期用肾毒性药物、反复尿路感染、遗传、老龄化</td>
+          <td class="rank-detail">严格控压控糖；<b>优质低蛋白饮食</b>；避免滥用止痛药/偏方；终末期需血液透析或肾移植</td>
+          <td class="rank-detail">"肾虚就是肾病""腰痛就是肾不好""补肾保健品能治肾病"——中医肾虚≠西医肾病，保健品不能替代治疗</td>
+        </tr>
+        <tr class="rank-row">
+          <td class="rank-num-cell"><span class="rank-badge">5</span></td>
+          <td class="rank-disease">慢阻肺<small>40岁以上 13.7%</small></td>
+          <td class="rank-count-cell">
+            <div class="rank-count">9990 万</div>
+            <div class="rank-mini-bar"><i data-w="41"></i></div>
+          </td>
+          <td class="rank-detail"><b>吸烟</b>（最主要危险因素）、空气污染、职业粉尘/化学物、生物燃料烟雾、儿童期反复呼吸道感染、遗传</td>
+          <td class="rank-detail"><b>戒烟</b>是关键；支气管扩张剂（沙丁胺醇/噻托溴铵）；吸入糖皮质激素；肺康复训练；长期氧疗</td>
+          <td class="rank-detail">"咳嗽咳痰是老毛病不用管""慢阻肺只有老人得""吸入激素有副作用不敢用"——早期干预可延缓肺功能下降</td>
+        </tr>
+        <tr class="rank-row">
+          <td class="rank-num-cell"><span class="rank-badge">6</span></td>
+          <td class="rank-disease">脑卒中<small>年新发约 300 万</small></td>
+          <td class="rank-count-cell">
+            <div class="rank-count">1300 万</div>
+            <div class="rank-mini-bar"><i data-w="12"></i></div>
+          </td>
+          <td class="rank-detail"><b>高血压</b>（首位）、房颤、高血脂、糖尿病、吸烟、肥胖、颈动脉狭窄、高同型半胱氨酸</td>
+          <td class="rank-detail">急性期<b>静脉溶栓/动脉取栓</b>（时间窗内）；抗血小板/抗凝；他汀稳定斑块；早期康复训练</td>
+          <td class="rank-detail">"中风是老年人的事""定期输活血药能预防""中风后恢复不了"——中青年卒中在增加，康复可显著改善预后</td>
+        </tr>
+        <tr class="rank-row">
+          <td class="rank-num-cell"><span class="rank-badge">7</span></td>
+          <td class="rank-disease">冠心病<small>含心绞痛/心梗</small></td>
+          <td class="rank-count-cell">
+            <div class="rank-count">1139 万</div>
+            <div class="rank-mini-bar"><i data-w="10"></i></div>
+          </td>
+          <td class="rank-detail"><b>高血脂</b>、高血压、吸烟、糖尿病、肥胖、久坐、早发心血管病家族史、长期精神紧张</td>
+          <td class="rank-detail">抗血小板（<b>阿司匹林</b>）+他汀；冠脉支架植入或搭桥手术；心脏康复；严格控制三高+戒烟</td>
+          <td class="rank-detail">"胸痛忍忍就过去""放了支架就万事大吉""没症状就可以停药"——支架后仍需终身服药，胸痛需立即就医</td>
+        </tr>
+        <tr class="rank-row">
+          <td class="rank-num-cell"><span class="rank-badge">8</span></td>
+          <td class="rank-disease">心力衰竭<small>65岁以上高发</small></td>
+          <td class="rank-count-cell">
+            <div class="rank-count">890 万</div>
+            <div class="rank-mini-bar"><i data-w="7"></i></div>
+          </td>
+          <td class="rank-detail"><b>冠心病/心梗</b>后、长期高血压、心肌病、心脏瓣膜病、心律失常、糖尿病、肥胖、老龄化</td>
+          <td class="rank-detail">利尿剂减轻负荷；<b>ACEI/ARB/ARNI+β受体阻滞剂+醛固酮拮抗剂</b>"金三角"；限盐限水；心脏康复运动</td>
+          <td class="rank-detail">"心衰就是心脏停跳""心衰不能运动""水肿消了就停药"——心衰是心功能下降，规范运动有助康复，不可自行停药</td>
+        </tr>
+        <tr class="rank-row">
+          <td class="rank-num-cell"><span class="rank-badge">9</span></td>
+          <td class="rank-disease">恶性肿瘤<small>肺癌居首 106万/年</small></td>
+          <td class="rank-count-cell">
+            <div class="rank-count">482 万/年</div>
+            <div class="rank-mini-bar"><i data-w="5"></i></div>
+          </td>
+          <td class="rank-detail"><b>吸烟</b>、感染（HPV/乙肝/幽门螺杆菌）、不良饮食（腌制/霉变）、肥胖、环境污染、遗传、老龄化</td>
+          <td class="rank-detail">手术切除；化疗/放疗；<b>靶向治疗/免疫治疗</b>；内分泌治疗；早筛早诊（胃肠镜/低剂量CT/HPV检测）</td>
+          <td class="rank-detail">"癌症等于绝症""化疗会加速死亡""酸性体质致癌"——很多癌症可治愈，化疗是标准治疗，"酸性体质"无科学依据</td>
+        </tr>
+      </tbody>
+    </table>
     </div>
-    <div class="sample">
-      <div class="q">Q：孩子反复低烧三天怎么办？</div>
-      <div class="a">可能的常见原因包括病毒感染、幼儿急疹等。居家护理：监测体温与精神状态；若出现高热不退或精神萎靡，请尽快就医。</div>
-      <div class="cites">
-        <span>[1] 儿童发热诊疗指南 (DOI: 10.xxxx)</span>
-        <span>[2] 儿科急诊分诊标准 (PMID: xxxxx)</span>
-      </div>
-    </div>
+    <p class="rank-source">数据来源：《中国心血管健康与疾病报告2022》（国家心血管病中心）、中国疾控中心慢病中心（2023）、《柳叶刀》2018/2025、国家癌症中心 JNCC 2024、国家卫健委《成人高尿酸血症与痛风食养指南》2023。各病种调查年份与口径不同，且存在共病，不可简单相加。<a href="/stats">查看完整 10 维度数据 →</a></p>
   </div>
 </section>
 
-<!-- ============ FAQ ============ -->
-<section id="faq">
+<!-- ============ HEALTH GUIDE / 健康指南 ============ -->
+<section id="guide" style="background:var(--bg-soft);">
   <div class="container">
     <div class="sec-center">
-      <h2 class="title">常见问题</h2>
-      <p class="sec-desc">关于医答，你可能想知道的</p>
+      <span class="eyebrow">健康指南</span>
+      <h2 class="title">12 大健康主题，一点即问</h2>
+      <p class="sec-desc">从日常习惯到育儿成长，从职业防护到慢病管理——点击任一卡片，医答基于权威知识库给出可溯源的建议。</p>
     </div>
-    <div class="faq-list">
-      <div class="qa">
-        <div class="q">医答能代替医生吗？</div>
-        <div class="a">不能。医答是循证医学辅助工具，提供基于证据的健康参考，不能替代专业医生的诊断与治疗。紧急情况请拨打 120 或前往急诊。</div>
-      </div>
-      <div class="qa">
-        <div class="q">我的健康数据隐私如何保障？</div>
-        <div class="a">对话内容仅用于当前会话，不会存储个人身份信息。支持本地部署模式，数据完全自控。</div>
-      </div>
-      <div class="qa">
-        <div class="q">回答的"出处"是什么？</div>
-        <div class="a">每条关键结论都附带权威来源编号（如临床指南 DOI、PubMed 文献 PMID），可点击验证原始出处。</div>
-      </div>
-      <div class="qa">
-        <div class="q">支持哪些疾病范围？</div>
-        <div class="a">覆盖日常健康问题及中国高发疾病（地贫、G6PD、鼻咽癌、乙肝等），持续扩展中。</div>
-      </div>
-    </div>
-  </div>
-</section>
+    <div class="guide-grid">
 
-<!-- ============ FINAL CTA ============ -->
-<section class="cta-final">
-  <div class="container">
-    <h2>下一个健康问题，先问医答</h2>
-    <p class="sub">完全免费、无需注册，面向所有人的健康参考工具。非诊断工具，紧急情况请拨打 120。</p>
-    <a class="btn btn-primary" href="/app">问我</a>
-    <div class="trust">仅供健康参考 · 不能替代专业医疗诊断</div>
+      <!-- Row 1: 日常健康 -->
+      <a class="guide-card c-green" data-num="01" href="/app?q=健康生活习惯理念：如何通过饮食、运动、睡眠和压力管理改善整体健康状况？请给出循证的日常建议。">
+        <span class="guide-tag">日常健康</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
+        <h4>健康生活习惯</h4>
+        <p>均衡饮食 · 规律运动 · 优质睡眠 · 压力管理，建立可持续的生活方式。</p>
+      </a>
+      <a class="guide-card c-green" data-num="02" href="/app?q=营养与饮食指导：中国居民膳食指南要点、不同人群营养需求、常见营养素缺乏表现、食品安全与合理搭配建议。">
+        <span class="guide-tag">日常健康</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M12 6v6l4 2"/></svg></div>
+        <h4>营养与饮食</h4>
+        <p>膳食指南核心要点 · 营养素缺乏表现 · 食品安全 · 合理搭配。</p>
+      </a>
+      <a class="guide-card c-green" data-num="03" href="/app?q=运动与康复指导：科学运动处方制定、常见运动损伤处理与预防、术后康复训练原则、不同年龄段适合的运动方式。">
+        <span class="guide-tag">日常健康</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="5" r="2"/><path d="M12 7v6l-4 4M12 13l4 4M8 21l4-4 4 4"/></svg></div>
+        <h4>运动与康复</h4>
+        <p>科学运动处方 · 运动损伤 RICE 处理 · 术后康复 · 分龄运动建议。</p>
+      </a>
+      <a class="guide-card c-amber" data-num="04" href="/app?q=职业病防护：长期伏案工作导致的颈肩腰背痛、视疲劳、鼠标手，以及粉尘噪声化学暴露的职业健康防护建议。">
+        <span class="guide-tag">职业健康</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M2 20h20M4 20V8l8-4 8 4v12"/><path d="M9 20v-6h6v6"/><circle cx="12" cy="11" r="1.5"/></svg></div>
+        <h4>职业病防护</h4>
+        <p>颈肩腰背痛 · 视疲劳鼠标手 · 工间操姿势矫正 · 粉尘噪声化学防护。</p>
+      </a>
+
+      <!-- Row 2: 妇幼育儿 -->
+      <a class="guide-card c-blue" data-num="05" href="/app?q=婴儿护理指南：新生儿喂养、睡眠、疫苗接种和常见问题处理，请给出权威建议和注意事项。">
+        <span class="guide-tag">妇幼育儿</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M9 12h6M12 9v6"/><circle cx="12" cy="12" r="10"/><path d="M8 4h8M8 20h8" stroke-dasharray="2 2"/></svg></div>
+        <h4>婴儿护理</h4>
+        <p>0-1 岁喂养 · 睡眠训练 · 疫苗程序 · 发热腹泻居家护理与就医指征。</p>
+      </a>
+      <a class="guide-card c-blue" data-num="06" href="/app?q=儿童成长指导：幼儿生长发育监测、行为心理引导、安全教育和营养需求，请给出分年龄段建议。">
+        <span class="guide-tag">妇幼育儿</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M3 20h18M5 20V10l7-5 7 5v10"/><path d="M9 20v-6h6v6"/><path d="M12 3v2"/></svg></div>
+        <h4>儿童成长指导</h4>
+        <p>生长发育曲线 · 行为心理引导 · 意外伤害预防 · 学龄期营养用眼。</p>
+      </a>
+      <a class="guide-card c-pink" data-num="07" href="/app?q=女性健康指南：生理期管理、备孕孕期保健、更年期护理和常见妇科问题，请给出循证建议。">
+        <span class="guide-tag">妇幼育儿</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="5"/><path d="M12 13v8M8 17h8"/></svg></div>
+        <h4>女性健康</h4>
+        <p>生理期调理 · 备孕孕期保健 · 产后恢复 · 更年期 · 乳腺宫颈健康。</p>
+      </a>
+      <a class="guide-card c-violet" data-num="08" href="/app?q=老年健康管理：慢性病控制、跌倒预防、认知维护、营养和用药安全，请给出适合老年人的建议。">
+        <span class="guide-tag">银发健康</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="5" r="2.5"/><path d="M8 22l2-7h4l2 7M7 15l-2 3M17 15l2 3"/></svg></div>
+        <h4>老年健康管理</h4>
+        <p>慢病控制 · 跌倒预防 · 认知维护 · 多重用药安全 · 营养评估。</p>
+      </a>
+
+      <!-- Row 3: 疾病与专科 -->
+      <a class="guide-card c-amber" data-num="09" href="/app?q=慢性病自我管理：高血压、糖尿病、高血脂的日常监测、饮食运动和用药依从性指导。">
+        <span class="guide-tag">慢病管理</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M3 12h4l2-6 4 12 2-6h6"/></svg></div>
+        <h4>慢病自我管理</h4>
+        <p>高血压糖尿病高血脂 · 日常监测 · 饮食运动处方 · 并发症早期信号。</p>
+      </a>
+      <a class="guide-card c-violet" data-num="10" href="/app?q=心理健康指导：如何识别焦虑和抑郁信号、压力管理方法、睡眠障碍改善，以及什么情况下需要寻求专业心理帮助。">
+        <span class="guide-tag">心理睡眠</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
+        <h4>心理健康</h4>
+        <p>焦虑抑郁识别 · 压力情绪调节 · 失眠改善 · 何时寻求专业帮助。</p>
+      </a>
+      <a class="guide-card c-cyan" data-num="11" href="/app?q=口腔健康指南：龋齿和牙周病的预防、正确刷牙与使用牙线、儿童窝沟封闭与涂氟、智齿与口腔常见问题处理。">
+        <span class="guide-tag">五官健康</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2c-3 0-5 2-5 5 0 2 1 4 1 6s-1 5 1 7c1 1 2 1 3 0 1 1 2 1 3 0 2-2 1-5 1-7s1-4 1-6c0-3-2-5-5-5z"/></svg></div>
+        <h4>口腔健康</h4>
+        <p>龋齿牙周病预防 · 正确刷牙牙线 · 儿童窝沟封闭涂氟 · 智齿处理。</p>
+      </a>
+      <a class="guide-card c-cyan" data-num="12" href="/app?q=眼健康指南：近视防控方法、干眼综合征的日常护理、青光眼和白内障的早期信号、长时间用眼的护眼建议。">
+        <span class="guide-tag">五官健康</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <h4>眼健康</h4>
+        <p>近视防控 · 干眼护理 · 青光眼白内障早期信号 · 20-20-20 护眼法则。</p>
+      </a>
+
+    </div>
   </div>
 </section>
 
@@ -372,8 +631,8 @@
       <div class="foot-col">
         <h5>产品</h5>
         <a href="#features">核心能力</a>
-        <a href="#tools">功能矩阵</a>
         <a href="#how">工作原理</a>
+        <a href="#guide">健康指南</a>
       </div>
       <div class="foot-col">
         <h5>资源</h5>
@@ -405,251 +664,310 @@ fetch("/health").then(function(r){return r.json();}).then(function(d){
   el.textContent = parts.join(" · ");
 }).catch(function(){});
 
-/* ---------------- Symptom body map ---------------- */
-var BM_GEO={male:{sh:50,wh:34,hh:38,armW:21,legW:30,headRx:23,headRy:27},
-            female:{sh:44,wh:28,hh:44,armW:18,legW:27,headRx:21,headRy:25}};
-var BM_CX=130;
-var BM_LABEL={head:'头 / 面部',neck:'颈',chest:'胸',
-  abd_ur:'右上腹',abd_ul:'左上腹',abd_lr:'右下腹',abd_ll:'左下腹',
-  shoulder:'肩',arm_up:'上臂',elbow:'肘',hand:'前臂 / 手腕',
-  groin:'髋 / 腹股沟',thigh:'大腿',knee:'膝',calf:'小腿',foot:'踝 / 足',
-  head_b:'后脑 / 头',neck_b:'项部（颈后）',back_up:'上背',back_low:'下背 / 腰',
-  buttock:'臀 / 骶尾部',shoulder_b:'肩后',arm_up_b:'上臂后侧',elbow_b:'肘后',
-  hand_b:'前臂 / 手背',thigh_b:'大腿后侧',knee_b:'腘窝（膝后）',calf_b:'小腿后侧',foot_b:'足跟'};
-function bmBodyPath(g){var c=BM_CX,sy=92,wy=170,hy=218,hb=244;
-  return 'M'+(c-g.sh)+','+sy
-   +'Q'+(c-g.sh+3)+','+(sy-16)+' '+(c-19)+','+(sy-16)
-   +'L'+(c+19)+','+(sy-16)
-   +'Q'+(c+g.sh-3)+','+(sy-16)+' '+(c+g.sh)+','+sy
-   +'Q'+(c+g.wh+5)+','+(wy-6)+' '+(c+g.wh)+','+wy
-   +'Q'+(c+g.hh)+','+(hy-28)+' '+(c+g.hh)+','+hy
-   +'L'+(c+g.hh)+','+hb+'L'+(c-g.hh)+','+hb+'L'+(c-g.hh)+','+hy
-   +'Q'+(c-g.hh)+','+(hy-28)+' '+(c-g.wh)+','+wy
-   +'Q'+(c-g.wh-5)+','+(wy-6)+' '+(c-g.sh)+','+sy+'Z';}
-function bmArmPath(g,s){var c=BM_CX;var sx=c+s*(g.sh-6),ex=c+s*(g.sh+1),wx=c+s*(g.sh+6);
-  return 'M'+sx+',100 Q'+(c+s*(g.sh+4))+',158 '+ex+',212 Q'+(c+s*(g.sh+5))+',250 '+wx+',288';}
-function bmLegPath(g,s){var c=BM_CX,hx=c+s*Math.round(g.hh*0.48),kx=c+s*Math.round(g.hh*0.44),ax=c+s*Math.round(g.hh*0.46);
-  return 'M'+hx+',246 Q'+(c+s*Math.round(g.hh*0.46))+',300 '+kx+',352 Q'+(c+s*Math.round(g.hh*0.45))+',400 '+ax+',452';}
-function bmPt(g,s,which){var c=BM_CX;
-  if(which=='sh')return [c+s*(g.sh-8),99];
-  if(which=='el')return [c+s*(g.sh+1),212];
-  if(which=='wr')return [c+s*(g.sh+6),288];
-  if(which=='hp')return [c+s*Math.round(g.hh*0.48),246];
-  if(which=='kn')return [c+s*Math.round(g.hh*0.44),352];
-  return [c+s*Math.round(g.hh*0.46),452];}
-function bmSeg(g,s,a,b,w){var p1=bmPt(g,s,a),p2=bmPt(g,s,b);
-  return '<path class="bm-stroke" style="stroke-width:'+w+'" d="M'+p1[0]+','+p1[1]+' L'+p2[0]+','+p2[1]+'"/>';}
-function bmR(id,side,inner){var lb=BM_LABEL[id]||id;
-  return '<g class="bm-region" data-part="'+id+'" data-side="'+side+'" tabindex="0" role="button" aria-label="选择部位：'+lb+'">'+inner+'</g>';}
-function bmRegions(g,view){
-  var c=BM_CX,o=[],s;
-  if(view=='front'){
-    o.push(bmR('head',0,'<ellipse cx="'+c+'" cy="46" rx="'+g.headRx+'" ry="'+g.headRy+'"/>'));
-    o.push(bmR('neck',0,'<rect x="'+(c-12)+'" y="68" width="24" height="26" rx="6"/>'));
-    o.push(bmR('chest',0,'<rect x="'+(c-30)+'" y="98" width="60" height="42" rx="9"/>'));
-    /* MIRROR: front view -> patient RIGHT is on the VIEWER'S LEFT */
-    o.push(bmR('abd_ur',0,'<rect x="'+(c-30)+'" y="142" width="28" height="28" rx="6"/>'));
-    o.push(bmR('abd_ul',0,'<rect x="'+(c+2)+'" y="142" width="28" height="28" rx="6"/>'));
-    o.push(bmR('abd_lr',0,'<rect x="'+(c-30)+'" y="172" width="28" height="26" rx="6"/>'));
-    o.push(bmR('abd_ll',0,'<rect x="'+(c+2)+'" y="172" width="28" height="26" rx="6"/>'));
-    o.push(bmR('groin',0,'<rect x="'+(c-32)+'" y="202" width="64" height="40" rx="10"/>'));
-  }else{
-    o.push(bmR('head_b',0,'<ellipse cx="'+c+'" cy="46" rx="'+g.headRx+'" ry="'+g.headRy+'"/>'));
-    o.push(bmR('neck_b',0,'<rect x="'+(c-12)+'" y="68" width="24" height="26" rx="6"/>'));
-    o.push(bmR('back_up',0,'<rect x="'+(c-32)+'" y="98" width="64" height="46" rx="9"/>'));
-    o.push(bmR('back_low',0,'<rect x="'+(c-30)+'" y="146" width="60" height="54" rx="9"/>'));
-    o.push(bmR('buttock',0,'<rect x="'+(c-g.hh+2)+'" y="202" width="'+(2*g.hh-4)+'" height="40" rx="12"/>'));
-  }
-  var shId=view=='front'?'shoulder':'shoulder_b';
-  var auId=view=='front'?'arm_up':'arm_up_b';
-  var elId=view=='front'?'elbow':'elbow_b';
-  var hdId=view=='front'?'hand':'hand_b';
-  for(var i=0;i<2;i++){s=i?1:-1;var p=bmPt(g,s,'sh');
-    o.push(bmR(shId,s,'<circle cx="'+p[0]+'" cy="'+p[1]+'" r="'+(g.armW*0.62)+'"/>'));
-    o.push(bmR(auId,s,bmSeg(g,s,'sh','el',g.armW)));
-    var pe=bmPt(g,s,'el');
-    o.push(bmR(elId,s,'<circle cx="'+pe[0]+'" cy="'+pe[1]+'" r="'+(g.armW*0.55)+'"/>'));
-    o.push(bmR(hdId,s,bmSeg(g,s,'el','wr',g.armW*0.92)));
-  }
-  var thId=view=='front'?'thigh':'thigh_b';
-  var knId=view=='front'?'knee':'knee_b';
-  var cfId=view=='front'?'calf':'calf_b';
-  var ftId=view=='front'?'foot':'foot_b';
-  for(var j=0;j<2;j++){s=j?1:-1;
-    o.push(bmR(thId,s,bmSeg(g,s,'hp','kn',g.legW)));
-    var pk=bmPt(g,s,'kn');
-    o.push(bmR(knId,s,'<circle cx="'+pk[0]+'" cy="'+pk[1]+'" r="'+(g.legW*0.6)+'"/>'));
-    o.push(bmR(cfId,s,bmSeg(g,s,'kn','an',g.legW*0.85)));
-    var pa=bmPt(g,s,'an');
-    o.push(bmR(ftId,s,'<ellipse cx="'+pa[0]+'" cy="'+(pa[1]+12)+'" rx="'+(g.legW*0.42)+'" ry="11"/>'));
-  }
-  return o;
-}
-function bmFace(gender,view){
-  var g=BM_GEO[gender],p=[];
-  p.push('<path class="bm-body" d="'+bmBodyPath(g)+'"/>');
-  p.push('<path class="bm-limb" style="stroke-width:'+g.armW+'" d="'+bmArmPath(g,-1)+'"/>');
-  p.push('<path class="bm-limb" style="stroke-width:'+g.armW+'" d="'+bmArmPath(g,1)+'"/>');
-  p.push('<path class="bm-limb" style="stroke-width:'+g.legW+'" d="'+bmLegPath(g,-1)+'"/>');
-  p.push('<path class="bm-limb" style="stroke-width:'+g.legW+'" d="'+bmLegPath(g,1)+'"/>');
-  p.push('<ellipse class="bm-body" cx="'+BM_CX+'" cy="46" rx="'+g.headRx+'" ry="'+g.headRy+'"/>');
-  p.push('<rect class="bm-body" x="'+(BM_CX-12)+'" y="68" width="24" height="26" rx="6"/>');
-  p=p.concat(bmRegions(g,view));
-  return '<svg class="bm-face bm-'+view+'" viewBox="0 0 260 500" xmlns="http://www.w3.org/2000/svg" aria-label="'+
-    (gender=='male'?'男性':'女性')+(view=='front'?'正面':'背面')+'人体部位图">'+p.join('')+'</svg>';
-}
-
-var BM_CONDITIONS={
- head:{flag:'突发"一生中最剧烈的头痛"、伴呕吐或意识改变，立即就医。',list:['偏头痛','紧张型头痛','高血压相关头痛','鼻窦炎','三叉神经痛']},
- neck:{list:['颈椎病','落枕 / 颈肌劳损','颈部淋巴结肿大','甲状腺不适']},
- chest:{flag:'突发压榨性胸痛、伴冷汗或向左臂/下颌放射，立即拨打 120。',list:['心绞痛 / 冠心病','胃食管反流','肋间神经痛','支气管炎 / 肺炎','乳腺不适']},
- abd_ur:{flag:'右上腹剧痛伴发热、黄疸（皮肤/巩膜变黄），尽快就医。',list:['胆囊炎 / 胆结石','肝炎 / 肝区不适','十二指肠溃疡','肋间神经痛']},
- abd_ul:{flag:'左上腹剧痛向背部放射、伴呕吐，警惕急性胰腺炎，尽快就医。',list:['胃炎 / 胃溃疡','胰腺炎（常向背部放射）','功能性消化不良','脾区不适']},
- abd_lr:{flag:'转移性右下腹痛伴发热，需尽快就医排除阑尾炎。',list:['阑尾炎','右侧输尿管结石','右侧附件问题','肠系膜淋巴结炎']},
- abd_ll:{list:['结肠炎 / 肠易激','左侧输尿管结石','左侧附件问题','便秘相关腹痛']},
- groin:{flag:'腹股沟包块突然变硬、剧痛、无法回纳，警惕嵌顿疝，立即就医。',list:['腹股沟疝','髋关节问题','泌尿系统不适','腹股沟淋巴结肿大']},
- shoulder:{flag:'右肩痛伴右上腹不适、发热，警惕胆道问题。',list:['肩周炎','肩袖损伤','颈椎病放射痛','胆囊疾病牵涉痛（右肩）']},
- arm_up:{flag:'单侧手臂突发肿胀、发凉、疼痛，警惕血管问题，尽快就医。',list:['肌肉拉伤','颈椎神经根放射痛','上肢血管 / 血栓问题']},
- elbow:{list:['网球肘（外上髁炎）','高尔夫球肘（内上髁炎）','肘关节劳损']},
- hand:{flag:'手部突发麻木/无力，尽快就医。',list:['腱鞘炎','腕管综合征','桡骨茎突狭窄性腱鞘炎','手腕扭伤']},
- thigh:{list:['肌肉拉伤','股外侧皮神经炎','腰椎间盘放射痛']},
- knee:{flag:'膝关节突发剧痛、无法负重、明显肿胀，尽快就医。',list:['膝骨关节炎','半月板损伤','韧带损伤','痛风性关节炎']},
- calf:{flag:'单侧小腿突发肿胀疼痛，警惕深静脉血栓，尽早就医。',list:['肌肉痉挛 / 抽筋','下肢静脉曲张','深静脉血栓（需警惕）','胫骨应力综合征']},
- foot:{flag:'踝关节严重肿胀畸形、无法负重，尽快就医排除骨折。',list:['踝关节扭伤','足底筋膜炎','痛风（大脚趾常见）','跟腱炎']},
- head_b:{flag:'后脑剧痛伴颈项强直（脖子发硬），警惕颅内问题，立即就医。',list:['紧张型头痛','枕神经痛','颈椎相关头痛']},
- neck_b:{list:['颈椎病','颈肌劳损','落枕']},
- back_up:{flag:'上背痛伴胸闷气短，排除心肺问题后再按肌肉处理。',list:['肌筋膜疼痛','胸椎小关节紊乱','肩胛间区劳损']},
- back_low:{flag:'腰痛伴发热/尿频尿痛/下肢麻木无力，尽快就医。',list:['腰肌劳损','腰椎间盘突出','腰椎管狭窄','肾结石 / 肾盂肾炎（肾区叩痛）']},
- buttock:{flag:'臀痛伴下肢放射痛/麻木，警惕腰椎间盘突出压迫神经。',list:['梨状肌综合征','坐骨神经痛','骶髂关节问题','尾骨痛 / 肛周不适']},
- shoulder_b:{list:['肩周炎','肩胛胸壁疼痛','颈椎放射痛']},
- arm_up_b:{list:['三头肌劳损','颈椎神经根放射痛']},
- elbow_b:{flag:'肘后突发红肿热痛，警惕感染性滑囊炎。',list:['鹰嘴滑囊炎','尺神经卡压','肘关节劳损']},
- hand_b:{flag:'手背伤口红肿热痛加重，警惕感染，尽快就医。',list:['腱鞘炎','伸肌腱劳损','手背外伤']},
- thigh_b:{list:['腘绳肌拉伤','坐骨神经放射痛']},
- knee_b:{flag:'腘窝突发剧痛、小腿肿胀，警惕深静脉血栓或囊肿破裂，尽快就医。',list:['腘窝囊肿','半月板后角损伤','腘肌劳损']},
- calf_b:{flag:'单侧小腿突发肿胀疼痛，警惕深静脉血栓，尽早就医。',list:['腓肠肌拉伤','跟腱问题','深静脉血栓（需警惕）']},
- foot_b:{flag:'足跟痛伴足底麻木/无力，尽快就医。',list:['足底筋膜炎','跟腱炎','跟骨骨刺']}
-};
-
-var bmProf={nature:null,duration:null,severity:null,radiate:null,accompany:[]};
-function bmProfText(){var p=bmProf,t=[];
-  if(p.nature)t.push('性质为'+p.nature);
-  if(p.duration)t.push('持续'+p.duration);
-  if(p.severity)t.push('程度'+p.severity);
-  if(p.radiate&&p.radiate!=='无')t.push('放射至'+p.radiate);
-  if(p.accompany&&p.accompany.length)t.push('伴'+p.accompany.join('、'));
-  return t.length?('，'+t.join('，')):'';}
-function bmQuestion(part,cond){var lb=BM_LABEL[part]||part,prof=bmProfText();
-  if(cond)return '我'+lb+'不舒服'+prof+'，可能是'+cond+'吗？想了解它的典型表现、需要做什么检查，以及什么情况下需要就医？';
-  return '我'+lb+'不舒服'+prof+'，可能的原因有哪些、需要做哪些检查、日常要注意什么，以及什么情况下需要就医？';}
-function bmInit(flipId,outId,onPick){
-  var flip=document.getElementById(flipId),out=document.getElementById(outId);
-  if(!flip)return;
-  var gender='male',view='front',sel=null,cond=null;
-  function profileBox(){
-    var b=document.getElementById(flipId+'_prof');
-    if(!b){b=document.createElement('div');b.className='bm-prof';b.id=flipId+'_prof';
-      if(out&&out.parentNode)out.parentNode.insertBefore(b,out.nextSibling);}
-    return b;
-  }
-  function fire(){
-    if(onPick&&sel)onPick(sel,BM_LABEL[sel]||sel,bmQuestion(sel,cond));
-  }
-  function renderProfile(part){
-    var box=profileBox();
-    if(!BM_CONDITIONS[part]){box.innerHTML='';return;}
-    var groups=[
-      ['nature','疼痛性质',['钝痛','刺痛','绞痛','烧灼感','胀痛','酸痛'],false],
-      ['duration','持续时间',['几小时','1-3天','3天以上','反复发作'],false],
-      ['severity','严重程度',['轻(能忍)','中(影响活动)','重(难忍)'],false],
-      ['radiate','放射到哪',['无','肩臂','背部','下肢'],false],
-      ['accompany','伴随症状',['发热','恶心呕吐','出汗','头晕','乏力'],true]
-    ];
-    var h='<p class="bm-prof-label">症状刻画（可选，补充越准，判断越准）</p>';
-    groups.forEach(function(g){
-      h+='<div class="bm-prof-group"><span class="bm-prof-key">'+g[1]+'</span><div class="bm-prof-row">';
-      g[3].forEach(function(opt){h+='<button type="button" class="bm-prof-opt" data-g="'+g[0]+'" data-v="'+opt+'">'+opt+'</button>';});
-      h+='</div></div>';
-    });
-    box.innerHTML=h;
-    box.querySelectorAll('.bm-prof-opt').forEach(function(bt){
-      bt.addEventListener('click',function(){
-        var g=bt.getAttribute('data-g'),v=bt.getAttribute('data-v');
-        if(g==='accompany'){
-          bt.classList.toggle('is-on');
-          bmProf[g]=[].slice.call(box.querySelectorAll('.bm-prof-opt[data-g="accompany"].is-on'))
-            .map(function(x){return x.getAttribute('data-v');});
-        }else{
-          box.querySelectorAll('.bm-prof-opt[data-g="'+g+'"]').forEach(function(x){x.classList.remove('is-on');});
-          bt.classList.add('is-on');
-          bmProf[g]=v;
-        }
-        fire();
-      });
+/* ===== Disease ranking bar animation ===== */
+(function(){
+  var table=document.getElementById('rankTable');
+  if(!table)return;
+  var bars=table.querySelectorAll('.rank-mini-bar i');
+  var played=false;
+  function play(){
+    if(played)return;played=true;
+    bars.forEach(function(b,i){
+      setTimeout(function(){b.style.width=b.getAttribute('data-w')+'%';},i*60);
     });
   }
-  function condsBox(){
-    var b=document.getElementById(flipId+'_conds');
-    if(!b){b=document.createElement('div');b.className='bm-conds';b.id=flipId+'_conds';
-      if(out&&out.parentNode)out.parentNode.insertBefore(b,out.nextSibling);}
-    return b;
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){if(e.isIntersecting){play();io.disconnect();}});
+    },{threshold:0.15});
+    io.observe(table);
+  }else{play();}
+})();
+
+/* ===== Interactive Anatomy Map ===== */
+(function(){
+  var svg=document.getElementById('bmSvg');if(!svg)return;
+  var layerBody=document.getElementById('bmLayerBody'),layerOrgans=document.getElementById('bmLayerOrgans'),layerLabels=document.getElementById('bmLayerLabels');
+  var outEl=document.getElementById('bmOutLanding'),crumbEl=document.getElementById('bmCrumb'),zoomOutBtn=document.getElementById('bmZoomOut');
+  var sideTitle=document.getElementById('bmSideTitle'),sideContent=document.getElementById('bmSideContent');
+  var view='front',currentRegion=null,currentOrgan=null,selectedCond=null;
+
+  var REGIONS={front:{
+    head:{label:'头部',vb:[140,0,120,150],hot:'<ellipse cx="200" cy="70" rx="55" ry="65"/>'},
+    neck:{label:'颈部',vb:[160,115,80,60],hot:'<rect x="178" y="125" width="44" height="40" rx="8"/>'},
+    chest:{label:'胸部',vb:[105,140,190,175],hot:'<path d="M130 155 Q125 200 135 265 L265 265 Q275 200 270 155 Q240 140 200 140 Q160 140 130 155 Z"/>'},
+    abdomen:{label:'腹部',vb:[110,265,180,210],hot:'<path d="M135 275 Q125 340 140 440 L260 440 Q275 340 265 275 Q235 265 200 265 Q165 265 135 275 Z"/>'},
+    pelvis:{label:'盆部',vb:[135,425,130,115],hot:'<path d="M145 435 Q140 475 155 520 L245 520 Q260 475 255 435 Q230 425 200 425 Q170 425 145 435 Z"/>'},
+    armL:{label:'左上肢',vb:[55,145,95,320],hot:'<path d="M130 155 L105 200 L95 290 L88 380 L85 435 Q85 450 95 455 L110 455 Q115 445 115 435 L120 380 L130 290 L145 200 Z"/>'},
+    armR:{label:'右上肢',vb:[250,145,95,320],hot:'<path d="M270 155 L295 200 L305 290 L312 380 L315 435 Q315 450 305 455 L290 455 Q285 445 285 435 L280 380 L270 290 L255 200 Z"/>'},
+    legL:{label:'左下肢',vb:[110,495,95,310],hot:'<path d="M155 505 L148 610 L145 710 L143 775 Q143 790 155 795 L175 795 Q180 785 178 775 L180 710 L188 610 L195 505 Z"/>'},
+    legR:{label:'右下肢',vb:[195,495,95,310],hot:'<path d="M205 505 L212 610 L215 710 L217 775 Q217 790 205 795 L185 795 Q180 785 182 775 L180 710 L172 610 L165 505 Z"/>'}
+  },back:{
+    head:{label:'头部',vb:[140,0,120,150],hot:'<ellipse cx="200" cy="70" rx="55" ry="65"/>'},
+    neck:{label:'颈部',vb:[160,115,80,60],hot:'<rect x="178" y="125" width="44" height="40" rx="8"/>'},
+    backUp:{label:'上背',vb:[105,140,190,175],hot:'<path d="M130 155 Q125 200 135 265 L265 265 Q275 200 270 155 Q240 140 200 140 Q160 140 130 155 Z"/>'},
+    backLow:{label:'下背/腰',vb:[110,265,180,165],hot:'<path d="M135 275 Q125 340 140 400 L260 400 Q275 340 265 275 Q235 265 200 265 Q165 265 135 275 Z"/>'},
+    buttock:{label:'臀/骶尾',vb:[135,385,130,135],hot:'<path d="M145 395 Q140 445 155 500 L245 500 Q260 445 255 395 Q230 385 200 385 Q170 385 145 395 Z"/>'},
+    armL:{label:'左上肢',vb:[55,145,95,320],hot:'<path d="M130 155 L105 200 L95 290 L88 380 L85 435 Q85 450 95 455 L110 455 Q115 445 115 435 L120 380 L130 290 L145 200 Z"/>'},
+    armR:{label:'右上肢',vb:[250,145,95,320],hot:'<path d="M270 155 L295 200 L305 290 L312 380 L315 435 Q315 450 305 455 L290 455 Q285 445 285 435 L280 380 L270 290 L255 200 Z"/>'},
+    legL:{label:'左下肢',vb:[110,475,95,330],hot:'<path d="M155 485 L148 590 L145 690 L143 760 Q143 775 155 780 L175 780 Q180 770 178 760 L180 690 L188 590 L195 485 Z"/>'},
+    legR:{label:'右下肢',vb:[195,475,95,330],hot:'<path d="M205 485 L212 590 L215 690 L217 760 Q217 775 205 780 L185 780 Q180 770 182 760 L180 690 L172 590 L165 485 Z"/>'}
+  }};
+
+  var O={front:{
+    head:[
+      {id:'brain',label:'脑',sub:'中枢神经系统',path:'<ellipse cx="200" cy="55" rx="38" ry="32" fill="url(#organBrain)"/>',lx:255,ly:45,cond:['偏头痛','紧张型头痛','脑卒中','癫痫','失眠'],flag:'突发剧烈头痛、伴呕吐或意识改变，立即就医。'},
+      {id:'eye',label:'眼',sub:'视觉器官',path:'<ellipse cx="182" cy="68" rx="12" ry="8" fill="#fff" stroke="#333" stroke-width="1"/><circle cx="182" cy="68" r="4" fill="#1a1a1a"/><ellipse cx="218" cy="68" rx="12" ry="8" fill="#fff" stroke="#333" stroke-width="1"/><circle cx="218" cy="68" r="4" fill="#1a1a1a"/>',lx:255,ly:70,cond:['近视','干眼症','结膜炎','青光眼','白内障'],flag:'突发视力下降、眼痛伴头痛，尽快就医。'},
+      {id:'ear',label:'耳',sub:'听觉/平衡',path:'<ellipse cx="148" cy="75" rx="8" ry="14" fill="#E8C8B0"/><ellipse cx="252" cy="75" rx="8" ry="14" fill="#E8C8B0"/>',lx:100,ly:75,cond:['中耳炎','耳鸣','听力下降','外耳道炎'],flag:''},
+      {id:'nose',label:'鼻/鼻窦',sub:'呼吸/嗅觉',path:'<path d="M195 78 L200 95 L205 78" fill="none" stroke="#8B7355" stroke-width="1.5"/>',lx:255,ly:95,cond:['鼻窦炎','过敏性鼻炎','鼻出血','感冒'],flag:''},
+      {id:'throat',label:'咽喉',sub:'呼吸/消化',path:'<path d="M185 105 Q200 112 215 105" fill="none" stroke="#C05040" stroke-width="3"/>',lx:100,ly:108,cond:['咽炎','扁桃体炎','声音嘶哑','反流性咽炎'],flag:''}
+    ],
+    neck:[
+      {id:'thyroid',label:'甲状腺',sub:'内分泌腺',path:'<path d="M182 140 Q200 135 218 140 L215 158 Q200 165 185 158 Z" fill="#E8A080" stroke="#C07050" stroke-width="1"/>',lx:245,ly:135,cond:['甲亢','甲减','甲状腺结节','桥本氏病'],flag:'颈部肿块迅速增大、伴声音嘶哑，尽快就医。'},
+      {id:'trachea',label:'气管',sub:'呼吸道',path:'<rect x="194" y="130" width="12" height="35" rx="3" fill="#D0D0D0" stroke="#999" stroke-width="0.8"/>',lx:245,ly:155,cond:['气管炎','支气管炎','气道异物'],flag:'突发呼吸困难、喘鸣，立即就医。'},
+      {id:'cervical',label:'颈椎',sub:'脊柱',path:'<rect x="192" y="128" width="16" height="40" rx="4" fill="#F5E6D3" stroke="#C8B090" stroke-width="1"/>',lx:150,ly:155,cond:['颈椎病','颈椎间盘突出','落枕'],flag:''}
+    ],
+    chest:[
+      {id:'heart',label:'心脏',sub:'循环系统',path:'<path d="M210 205 C195 195 175 205 178 225 C180 245 210 265 210 265 C210 265 240 245 242 225 C245 205 225 195 210 205 Z" fill="url(#organHeart)"/>',lx:275,ly:210,cond:['冠心病/心绞痛','心肌梗死','心律失常','心力衰竭'],flag:'突发压榨性胸痛、伴冷汗或向左臂放射，立即拨打 120。'},
+      {id:'lungL',label:'左肺',sub:'呼吸系统',path:'<path d="M160 175 Q145 180 142 220 L145 268 Q150 278 175 273 L185 250 L185 190 Q175 175 160 175 Z" fill="url(#organLung)"/>',lx:105,ly:220,cond:['肺炎','支气管炎','哮喘','慢阻肺','肺癌'],flag:'突发呼吸困难、胸痛、咯血，立即就医。'},
+      {id:'lungR',label:'右肺',sub:'呼吸系统',path:'<path d="M240 175 Q255 180 258 220 L255 268 Q250 278 225 273 L215 250 L215 190 Q225 175 240 175 Z" fill="url(#organLung)"/>',lx:295,ly:220,cond:['肺炎','支气管炎','哮喘','慢阻肺','肺癌'],flag:''},
+      {id:'ribs',label:'肋骨/胸膜',sub:'骨骼/浆膜',path:'<path d="M140 185 Q200 175 260 185 M140 210 Q200 200 260 210 M140 235 Q200 225 260 235 M140 260 Q200 250 260 260" fill="none" stroke="#C8B090" stroke-width="1.5" opacity="0.5"/>',lx:200,ly:295,cond:['肋软骨炎','肋间神经痛','胸膜炎','肋骨骨折'],flag:''},
+      {id:'breast',label:'乳腺',sub:'内分泌/生殖',path:'<circle cx="165" cy="215" r="18" fill="none" stroke="#E8A0A0" stroke-width="1.5" stroke-dasharray="3 2"/><circle cx="235" cy="215" r="18" fill="none" stroke="#E8A0A0" stroke-width="1.5" stroke-dasharray="3 2"/>',lx:200,ly:168,cond:['乳腺增生','乳腺结节','乳腺炎','乳腺癌筛查'],flag:'乳房无痛性肿块、皮肤凹陷或乳头溢液，尽快就医。'}
+    ],
+    abdomen:[
+      {id:'liver',label:'肝',sub:'代谢/解毒',path:'<path d="M265 295 Q290 300 290 330 Q288 358 265 362 L220 360 Q205 352 210 325 Q215 300 240 295 Z" fill="url(#organLiver)"/>',lx:310,ly:320,cond:['脂肪肝','肝炎','肝硬化','肝囊肿'],flag:'皮肤巩膜变黄、右上腹剧痛伴发热，尽快就医。'},
+      {id:'gallbladder',label:'胆囊',sub:'消化',path:'<ellipse cx="268" cy="362" rx="12" ry="18" fill="#8B7355" stroke="#6B5335" stroke-width="1"/>',lx:310,ly:368,cond:['胆囊结石','胆囊炎','胆囊息肉'],flag:'右上腹剧痛伴发热黄疸，尽快就医。'},
+      {id:'stomach',label:'胃',sub:'消化',path:'<path d="M140 300 Q125 310 128 340 Q132 368 155 372 L185 367 Q195 352 190 330 Q185 305 165 300 Z" fill="url(#organStomach)"/>',lx:90,ly:330,cond:['胃炎','胃溃疡','胃食管反流','功能性消化不良'],flag:'呕血、黑便、持续呕吐，尽快就医。'},
+      {id:'spleen',label:'脾',sub:'免疫/造血',path:'<ellipse cx="125" cy="342" rx="14" ry="28" fill="#A06060" stroke="#804040" stroke-width="1"/>',lx:80,ly:375,cond:['脾大','脾功能亢进','脾破裂'],flag:'左上腹外伤后剧痛，警惕脾破裂，立即就医。'},
+      {id:'pancreas',label:'胰腺',sub:'消化/内分泌',path:'<ellipse cx="185" cy="358" rx="40" ry="10" fill="#D4B896" stroke="#B49876" stroke-width="1"/>',lx:200,ly:395,cond:['胰腺炎','胰腺囊肿','糖尿病（胰岛功能）'],flag:'左上腹剧痛向背部放射、伴呕吐，警惕急性胰腺炎，尽快就医。'},
+      {id:'intestine',label:'小肠',sub:'消化吸收',path:'<path d="M160 385 Q180 378 200 388 Q220 398 240 388 Q250 403 235 418 Q215 428 195 420 Q175 412 160 422 Q150 407 160 385 Z" fill="#C4A882" stroke="#A48862" stroke-width="1"/>',lx:200,ly:450,cond:['肠炎','肠易激综合征','吸收不良','肠梗阻'],flag:'剧烈腹痛、停止排气排便、呕吐，警惕肠梗阻，立即就医。'},
+      {id:'colon',label:'大肠',sub:'消化/排泄',path:'<path d="M145 380 L145 435 Q145 455 165 455 L235 455 Q255 455 255 435 L255 380" fill="none" stroke="#B89868" stroke-width="12" stroke-linecap="round"/>',lx:90,ly:425,cond:['结肠炎','结肠息肉','便秘','腹泻','结直肠癌筛查'],flag:'便血、排便习惯改变、体重下降，尽快就医筛查。'},
+      {id:'kidneyL',label:'左肾',sub:'泌尿',path:'<ellipse cx="155" cy="340" rx="16" ry="28" fill="url(#organKidney)"/>',lx:100,ly:305,cond:['肾结石','肾炎','肾囊肿','肾功能不全','尿路感染'],flag:'腰痛伴血尿、发热尿频尿痛，尽快就医。'},
+      {id:'kidneyR',label:'右肾',sub:'泌尿',path:'<ellipse cx="245" cy="340" rx="16" ry="28" fill="url(#organKidney)"/>',lx:300,ly:305,cond:['肾结石','肾炎','肾囊肿','肾功能不全','尿路感染'],flag:''}
+    ],
+    pelvis:[
+      {id:'bladder',label:'膀胱',sub:'泌尿',path:'<ellipse cx="200" cy="465" rx="28" ry="22" fill="#B8C8D8" stroke="#8898A8" stroke-width="1.5"/>',lx:255,ly:460,cond:['膀胱炎','膀胱过度活动','尿失禁','膀胱结石'],flag:'血尿、排尿困难，尽快就医。'},
+      {id:'prostate',label:'前列腺',sub:'生殖（男）',path:'<ellipse cx="200" cy="490" rx="18" ry="12" fill="#C8A8B8" stroke="#A88898" stroke-width="1"/>',lx:140,ly:490,cond:['前列腺增生','前列腺炎','前列腺癌筛查'],flag:'排尿困难、夜尿增多、血尿，尽快就医。'},
+      {id:'uterus',label:'子宫/附件',sub:'生殖（女）',path:'<path d="M180 460 Q200 453 220 460 L218 490 Q200 500 182 490 Z" fill="#E0B8C8" stroke="#C098A8" stroke-width="1"/>',lx:255,ly:490,cond:['子宫肌瘤','卵巢囊肿','痛经','盆腔炎','宫颈癌筛查'],flag:'异常阴道出血、下腹剧痛，尽快就医。'},
+      {id:'hip',label:'髋关节',sub:'骨骼',path:'<circle cx="165" cy="480" r="14" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/><circle cx="235" cy="480" r="14" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:200,ly:515,cond:['髋关节炎','股骨头坏死','髋关节脱位','腹股沟疝'],flag:'腹股沟包块突然变硬剧痛，警惕嵌顿疝，立即就医。'}
+    ],
+    armL:[
+      {id:'shoulderL',label:'左肩',sub:'关节',path:'<circle cx="130" cy="175" r="20" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:70,ly:175,cond:['肩周炎','肩袖损伤','肩关节脱位','颈椎病放射痛'],flag:''},
+      {id:'bicepsL',label:'左上臂肌',sub:'肌肉',path:'<path d="M115 195 Q100 240 105 285 L120 285 Q125 240 130 195 Z" fill="url(#muscleGrad)"/>',lx:145,ly:240,cond:['肌肉拉伤','肌腱炎','肌筋膜疼痛'],flag:''},
+      {id:'elbowL',label:'左肘',sub:'关节',path:'<circle cx="108" cy="295" r="16" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:65,ly:295,cond:['网球肘','高尔夫球肘','肘关节劳损'],flag:''},
+      {id:'wristL',label:'左腕/手',sub:'关节/神经',path:'<ellipse cx="95" cy="405" rx="14" ry="18" fill="#E8D5C4" stroke="#B8A090" stroke-width="1"/>',lx:60,ly:405,cond:['腕管综合征','腱鞘炎','手腕扭伤','鼠标手'],flag:'手部突发麻木无力，尽快就医。'}
+    ],
+    armR:[
+      {id:'shoulderR',label:'右肩',sub:'关节',path:'<circle cx="270" cy="175" r="20" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:330,ly:175,cond:['肩周炎','肩袖损伤','肩关节脱位','胆囊疾病牵涉痛（右肩）'],flag:'右肩痛伴右上腹不适发热，警惕胆道问题。'},
+      {id:'bicepsR',label:'右上臂肌',sub:'肌肉',path:'<path d="M285 195 Q300 240 295 285 L280 285 Q275 240 270 195 Z" fill="url(#muscleGrad)"/>',lx:255,ly:240,cond:['肌肉拉伤','肌腱炎','肌筋膜疼痛'],flag:''},
+      {id:'elbowR',label:'右肘',sub:'关节',path:'<circle cx="292" cy="295" r="16" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:335,ly:295,cond:['网球肘','高尔夫球肘','肘关节劳损'],flag:''},
+      {id:'wristR',label:'右腕/手',sub:'关节/神经',path:'<ellipse cx="305" cy="405" rx="14" ry="18" fill="#E8D5C4" stroke="#B8A090" stroke-width="1"/>',lx:340,ly:405,cond:['腕管综合征','腱鞘炎','手腕扭伤','鼠标手'],flag:''}
+    ],
+    legL:[
+      {id:'hipL',label:'左髋',sub:'关节',path:'<circle cx="170" cy="515" r="18" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:115,ly:515,cond:['髋关节炎','股骨头坏死','髋关节脱位'],flag:''},
+      {id:'thighL',label:'左大腿',sub:'肌肉',path:'<path d="M155 535 Q148 590 152 625 L170 625 Q175 590 172 535 Z" fill="url(#muscleGrad)"/>',lx:195,ly:580,cond:['肌肉拉伤','股外侧皮神经炎','腰椎间盘放射痛'],flag:''},
+      {id:'kneeL',label:'左膝',sub:'关节',path:'<ellipse cx="163" cy="635" rx="20" ry="16" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:110,ly:635,cond:['膝骨关节炎','半月板损伤','韧带损伤','痛风性关节炎'],flag:'膝关节突发剧痛无法负重、明显肿胀，尽快就医。'},
+      {id:'calfL',label:'左小腿',sub:'肌肉/血管',path:'<path d="M155 655 Q148 710 152 750 L170 750 Q175 710 172 655 Z" fill="url(#muscleGrad)"/>',lx:200,ly:705,cond:['肌肉痉挛抽筋','下肢静脉曲张','深静脉血栓','胫骨应力综合征'],flag:'单侧小腿突发肿胀疼痛，警惕深静脉血栓，尽早就医。'},
+      {id:'ankleL',label:'左踝/足',sub:'关节',path:'<ellipse cx="158" cy="765" rx="16" ry="12" fill="#E8D5C4" stroke="#B8A090" stroke-width="1"/>',lx:110,ly:765,cond:['踝关节扭伤','足底筋膜炎','痛风','跟腱炎'],flag:'踝关节严重肿胀畸形无法负重，尽快就医排除骨折。'}
+    ],
+    legR:[
+      {id:'hipR',label:'右髋',sub:'关节',path:'<circle cx="230" cy="515" r="18" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:285,ly:515,cond:['髋关节炎','股骨头坏死','髋关节脱位'],flag:''},
+      {id:'thighR',label:'右大腿',sub:'肌肉',path:'<path d="M245 535 Q252 590 248 625 L230 625 Q225 590 228 535 Z" fill="url(#muscleGrad)"/>',lx:205,ly:580,cond:['肌肉拉伤','股外侧皮神经炎','腰椎间盘放射痛'],flag:''},
+      {id:'kneeR',label:'右膝',sub:'关节',path:'<ellipse cx="237" cy="635" rx="20" ry="16" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:290,ly:635,cond:['膝骨关节炎','半月板损伤','韧带损伤','痛风性关节炎'],flag:''},
+      {id:'calfR',label:'右小腿',sub:'肌肉/血管',path:'<path d="M245 655 Q252 710 248 750 L230 750 Q225 710 228 655 Z" fill="url(#muscleGrad)"/>',lx:200,ly:705,cond:['肌肉痉挛抽筋','下肢静脉曲张','深静脉血栓','胫骨应力综合征'],flag:''},
+      {id:'ankleR',label:'右踝/足',sub:'关节',path:'<ellipse cx="242" cy="765" rx="16" ry="12" fill="#E8D5C4" stroke="#B8A090" stroke-width="1"/>',lx:290,ly:765,cond:['踝关节扭伤','足底筋膜炎','痛风','跟腱炎'],flag:''}
+    ]
+  },back:{
+    head:[
+      {id:'brain',label:'脑/后脑',sub:'中枢神经',path:'<ellipse cx="200" cy="55" rx="38" ry="32" fill="url(#organBrain)"/>',lx:255,ly:45,cond:['紧张型头痛','枕神经痛','颈椎相关头痛','脑卒中'],flag:'后脑剧痛伴颈项强直，警惕颅内问题，立即就医。'},
+      {id:'occiput',label:'枕部',sub:'骨骼/神经',path:'<ellipse cx="200" cy="92" rx="30" ry="18" fill="#F5E6D3" stroke="#C8B090" stroke-width="1"/>',lx:255,ly:92,cond:['枕神经痛','颈源性头痛','枕部淋巴结肿大'],flag:''}
+    ],
+    neck:[
+      {id:'cervical',label:'颈椎',sub:'脊柱',path:'<rect x="192" y="128" width="16" height="40" rx="4" fill="#F5E6D3" stroke="#C8B090" stroke-width="1"/>',lx:245,ly:148,cond:['颈椎病','颈椎间盘突出','颈肌劳损','落枕'],flag:''}
+    ],
+    backUp:[
+      {id:'scapulaL',label:'左肩胛骨',sub:'骨骼',path:'<path d="M145 175 Q130 200 135 250 L165 255 Q175 220 165 180 Z" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.2"/>',lx:95,ly:215,cond:['肩胛胸壁疼痛','肩周炎','肩袖损伤','颈椎病放射痛'],flag:''},
+      {id:'scapulaR',label:'右肩胛骨',sub:'骨骼',path:'<path d="M255 175 Q270 200 265 250 L235 255 Q225 220 235 180 Z" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.2"/>',lx:305,ly:215,cond:['肩胛胸壁疼痛','肩周炎','肩袖损伤','胆囊疾病牵涉痛'],flag:''},
+      {id:'spineUp',label:'胸椎',sub:'脊柱',path:'<rect x="194" y="155" width="12" height="110" rx="3" fill="#F5E6D3" stroke="#C8B090" stroke-width="1"/>',lx:200,ly:160,cond:['胸椎小关节紊乱','肌筋膜疼痛','肩胛间区劳损','骨质疏松'],flag:'上背痛伴胸闷气短，排除心肺问题后再按肌肉处理。'},
+      {id:'lungBack',label:'肺（后面）',sub:'呼吸',path:'<path d="M150 170 Q140 200 145 255 L175 260 L175 175 Z M250 170 Q260 200 255 255 L225 260 L225 175 Z" fill="url(#organLung)" opacity="0.6"/>',lx:200,ly:275,cond:['肺炎','支气管炎','哮喘','慢阻肺'],flag:''}
+    ],
+    backLow:[
+      {id:'spineLow',label:'腰椎',sub:'脊柱',path:'<rect x="193" y="275" width="14" height="105" rx="3" fill="#F5E6D3" stroke="#C8B090" stroke-width="1"/>',lx:200,ly:270,cond:['腰椎间盘突出','腰椎管狭窄','腰肌劳损','腰椎滑脱'],flag:'腰痛伴下肢麻木无力、大小便障碍，尽快就医。'},
+      {id:'kidneyL',label:'左肾区',sub:'泌尿',path:'<ellipse cx="160" cy="315" rx="18" ry="30" fill="url(#organKidney)"/>',lx:100,ly:315,cond:['肾结石','肾盂肾炎','肾囊肿','肾区叩痛'],flag:'腰痛伴发热尿频尿痛血尿，尽快就医。'},
+      {id:'kidneyR',label:'右肾区',sub:'泌尿',path:'<ellipse cx="240" cy="315" rx="18" ry="30" fill="url(#organKidney)"/>',lx:300,ly:315,cond:['肾结石','肾盂肾炎','肾囊肿','肾区叩痛'],flag:''},
+      {id:'muscleLow',label:'腰背肌',sub:'肌肉',path:'<path d="M145 280 Q135 335 150 385 L180 385 Q175 335 180 280 Z M255 280 Q265 335 250 385 L220 385 Q225 335 220 280 Z" fill="url(#muscleGrad)" opacity="0.6"/>',lx:200,ly:400,cond:['腰肌劳损','肌筋膜疼痛综合征','急性腰扭伤'],flag:''}
+    ],
+    buttock:[
+      {id:'sacrum',label:'骶骨/尾骨',sub:'脊柱',path:'<path d="M175 400 Q200 393 225 400 L220 455 Q200 465 180 455 Z" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.2"/>',lx:200,ly:415,cond:['骶髂关节问题','尾骨痛','腰骶部劳损'],flag:''},
+      {id:'gluteL',label:'左臀肌',sub:'肌肉',path:'<ellipse cx="165" cy="435" rx="30" ry="35" fill="url(#muscleGrad)"/>',lx:105,ly:435,cond:['梨状肌综合征','坐骨神经痛','臀肌劳损'],flag:'臀痛伴下肢放射痛麻木，警惕腰椎间盘突出。'},
+      {id:'gluteR',label:'右臀肌',sub:'肌肉',path:'<ellipse cx="235" cy="435" rx="30" ry="35" fill="url(#muscleGrad)"/>',lx:295,ly:435,cond:['梨状肌综合征','坐骨神经痛','臀肌劳损'],flag:''},
+      {id:'anus',label:'肛周',sub:'消化末端',path:'<ellipse cx="200" cy="460" rx="10" ry="8" fill="#D0B0A0" stroke="#B09080" stroke-width="1"/>',lx:255,ly:465,cond:['痔疮','肛裂','肛周脓肿','肛瘘'],flag:'肛周红肿热痛加重、发热，警惕感染，尽快就医。'}
+    ],
+    armL:[
+      {id:'tricepsL',label:'左肱三头肌',sub:'肌肉',path:'<path d="M115 195 Q100 240 105 285 L120 285 Q125 240 130 195 Z" fill="url(#muscleGrad)"/>',lx:70,ly:240,cond:['三头肌劳损','颈椎神经根放射痛'],flag:''},
+      {id:'elbowL',label:'左肘后',sub:'关节',path:'<circle cx="108" cy="295" r="16" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:65,ly:295,cond:['鹰嘴滑囊炎','尺神经卡压','肘关节劳损'],flag:'肘后突发红肿热痛，警惕感染性滑囊炎。'},
+      {id:'wristL',label:'左腕背',sub:'关节',path:'<ellipse cx="95" cy="405" rx="14" ry="18" fill="#E8D5C4" stroke="#B8A090" stroke-width="1"/>',lx:60,ly:405,cond:['腱鞘炎','伸肌腱劳损','手腕扭伤'],flag:''}
+    ],
+    armR:[
+      {id:'tricepsR',label:'右肱三头肌',sub:'肌肉',path:'<path d="M285 195 Q300 240 295 285 L280 285 Q275 240 270 195 Z" fill="url(#muscleGrad)"/>',lx:330,ly:240,cond:['三头肌劳损','颈椎神经根放射痛'],flag:''},
+      {id:'elbowR',label:'右肘后',sub:'关节',path:'<circle cx="292" cy="295" r="16" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:335,ly:295,cond:['鹰嘴滑囊炎','尺神经卡压','肘关节劳损'],flag:''},
+      {id:'wristR',label:'右腕背',sub:'关节',path:'<ellipse cx="305" cy="405" rx="14" ry="18" fill="#E8D5C4" stroke="#B8A090" stroke-width="1"/>',lx:340,ly:405,cond:['腱鞘炎','伸肌腱劳损','手腕扭伤'],flag:''}
+    ],
+    legL:[
+      {id:'hamstringL',label:'左腘绳肌',sub:'肌肉',path:'<path d="M155 525 Q148 585 152 625 L170 625 Q175 585 172 525 Z" fill="url(#muscleGrad)"/>',lx:115,ly:575,cond:['腘绳肌拉伤','坐骨神经放射痛'],flag:''},
+      {id:'kneeL',label:'左腘窝',sub:'关节后',path:'<ellipse cx="163" cy="635" rx="20" ry="16" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:110,ly:635,cond:['腘窝囊肿','半月板后角损伤','腘肌劳损'],flag:'腘窝突发剧痛小腿肿胀，警惕深静脉血栓或囊肿破裂，尽快就医。'},
+      {id:'calfL',label:'左小腿后',sub:'肌肉',path:'<path d="M155 655 Q148 710 152 750 L170 750 Q175 710 172 655 Z" fill="url(#muscleGrad)"/>',lx:200,ly:705,cond:['腓肠肌拉伤','跟腱问题','深静脉血栓'],flag:'单侧小腿突发肿胀疼痛，警惕深静脉血栓，尽早就医。'},
+      {id:'heelL',label:'左足跟',sub:'骨骼',path:'<ellipse cx="158" cy="770" rx="18" ry="12" fill="#E8D5C4" stroke="#B8A090" stroke-width="1"/>',lx:110,ly:770,cond:['足底筋膜炎','跟腱炎','跟骨骨刺'],flag:'足跟痛伴足底麻木无力，尽快就医。'}
+    ],
+    legR:[
+      {id:'hamstringR',label:'右腘绳肌',sub:'肌肉',path:'<path d="M245 525 Q252 585 248 625 L230 625 Q225 585 228 525 Z" fill="url(#muscleGrad)"/>',lx:285,ly:575,cond:['腘绳肌拉伤','坐骨神经放射痛'],flag:''},
+      {id:'kneeR',label:'右腘窝',sub:'关节后',path:'<ellipse cx="237" cy="635" rx="20" ry="16" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:290,ly:635,cond:['腘窝囊肿','半月板后角损伤','腘肌劳损'],flag:''},
+      {id:'calfR',label:'右小腿后',sub:'肌肉',path:'<path d="M245 655 Q252 710 248 750 L230 750 Q225 710 228 655 Z" fill="url(#muscleGrad)"/>',lx:200,ly:705,cond:['腓肠肌拉伤','跟腱问题','深静脉血栓'],flag:''},
+      {id:'heelR',label:'右足跟',sub:'骨骼',path:'<ellipse cx="242" cy="770" rx="18" ry="12" fill="#E8D5C4" stroke="#B8A090" stroke-width="1"/>',lx:290,ly:770,cond:['足底筋膜炎','跟腱炎','跟骨骨刺'],flag:''}
+    ]
+  }};
+
+  function bodyOutline(){
+    return '<g class="anat-body">'+
+      '<ellipse cx="200" cy="70" rx="52" ry="62"/>'+
+      '<rect x="178" y="125" width="44" height="35" rx="8"/>'+
+      '<path d="M130 155 Q120 200 125 280 Q130 360 140 440 Q145 470 160 490 L240 490 Q255 470 260 440 Q270 360 275 280 Q280 200 270 155 Q240 140 200 140 Q160 140 130 155 Z"/>'+
+      '<path d="M130 155 Q105 180 95 270 Q88 360 88 425 Q88 442 98 448 L112 448 Q118 438 118 425 Q120 350 130 270 Q138 200 145 165 Z"/>'+
+      '<path d="M270 155 Q295 180 305 270 Q312 360 312 425 Q312 442 302 448 L288 448 Q282 438 282 425 Q280 350 270 270 Q262 200 255 165 Z"/>'+
+      '<path d="M160 490 Q150 560 148 650 Q147 730 150 770 Q152 785 165 788 L180 788 Q185 778 183 765 Q182 680 188 590 Q192 530 198 495 Z"/>'+
+      '<path d="M240 490 Q250 560 252 650 Q253 730 250 770 Q248 785 235 788 L220 788 Q215 778 217 765 Q218 680 212 590 Q208 530 202 495 Z"/>'+
+      '</g>';
   }
-  function renderConds(part){
-    var c=BM_CONDITIONS[part],box=condsBox();
-    if(!c){box.innerHTML='';return;}
-    var h='';
-    if(c.flag)h+='<p class="bm-flag">'+c.flag+'</p>';
-    h+='<p class="bm-cond-label">该部位常见情况（仅供参考，非诊断）</p><div class="bm-cond-row">';
-    c.list.forEach(function(t){
-      h+='<button type="button" class="bm-cond" data-cond="'+t+'">'+t+'</button>';});
+  function faceFeatures(){
+    if(view!=='front')return '';
+    return '<g opacity="0.45">'+
+      '<ellipse cx="182" cy="68" rx="10" ry="6" fill="#fff" stroke="#666" stroke-width="0.8"/><circle cx="182" cy="68" r="3" fill="#333"/>'+
+      '<ellipse cx="218" cy="68" rx="10" ry="6" fill="#fff" stroke="#666" stroke-width="0.8"/><circle cx="218" cy="68" r="3" fill="#333"/>'+
+      '<path d="M195 80 L200 92 L205 80" fill="none" stroke="#8B7355" stroke-width="1.2"/>'+
+      '<path d="M188 102 Q200 108 212 102" fill="none" stroke="#C08080" stroke-width="1.5"/>'+
+      '</g>';
+  }
+
+  function drawBody(){
+    var regions=REGIONS[view],h='<g>'+bodyOutline()+faceFeatures();
+    for(var key in regions){h+='<g class="anat-region" data-region="'+key+'">'+regions[key].hot+'</g>';}
+    h+='</g>';
+    layerBody.innerHTML=h;
+    layerOrgans.style.display='none';layerOrgans.innerHTML='';
+    layerLabels.style.display='none';layerLabels.innerHTML='';
+    layerBody.querySelectorAll('.anat-region').forEach(function(r){
+      r.addEventListener('click',function(){zoomToRegion(r.getAttribute('data-region'));});
+    });
+  }
+
+  function drawOrgans(regionKey){
+    var organs=O[view][regionKey];if(!organs)return;
+    var h='',labels='';
+    organs.forEach(function(o){
+      h+='<g class="anat-organ" data-organ="'+o.id+'">'+o.path+'</g>';
+      var dx=o.lx<200?32:-32;
+      labels+='<line class="anat-label-line" x1="'+o.lx+'" y1="'+o.ly+'" x2="'+(o.lx+dx)+'" y2="'+(o.ly-6)+'"/>';
+      labels+='<rect class="anat-label-bg" x="'+(o.lx+dx-2)+'" y="'+(o.ly-18)+'" width="44" height="16" rx="3"/>';
+      labels+='<text class="anat-label" x="'+(o.lx+dx+20)+'" y="'+(o.ly-6)+'" text-anchor="middle">'+o.label+'</text>';
+    });
+    layerOrgans.innerHTML=h;layerLabels.innerHTML=labels;
+    layerOrgans.style.display='block';layerLabels.style.display='block';
+    layerOrgans.querySelectorAll('.anat-organ').forEach(function(el){
+      el.addEventListener('click',function(e){e.stopPropagation();selectOrgan(regionKey,el.getAttribute('data-organ'));});
+    });
+  }
+
+  function zoomToRegion(key){
+    var region=REGIONS[view][key];if(!region)return;
+    currentRegion=key;currentOrgan=null;selectedCond=null;
+    animateVB(region.vb);
+    setTimeout(function(){drawOrgans(key);},180);
+    zoomOutBtn.style.display='flex';
+    outEl.textContent='已放大：'+region.label+' — 点击具体器官查看健康信息';
+    sideTitle.textContent=region.label;
+    sideContent.innerHTML='<p style="color:var(--text);font-size:15px;line-height:1.7;margin-bottom:20px;">当前显示 <b>'+region.label+'</b> 的详细解剖结构。点击图中高亮的器官，查看常见疾病与就医指征。</p>'+
+      '<a class="btn btn-primary" href="/app">描述我的症状</a>';
+    updateCrumb();
+  }
+
+  function selectOrgan(regionKey,organId){
+    var organ=O[view][regionKey].find(function(o){return o.id===organId;});
+    if(!organ)return;
+    currentOrgan=organ;selectedCond=null;
+    layerOrgans.querySelectorAll('.anat-organ').forEach(function(el){
+      el.classList.toggle('is-selected',el.getAttribute('data-organ')===organId);
+    });
+    sideTitle.textContent=organ.label;
+    var h='<div class="bm-organ-detail">';
+    h+='<div class="organ-name">'+organ.label+'</div><div class="organ-sub">'+organ.sub+'</div>';
+    if(organ.flag)h+='<div class="bm-flag">⚠ '+organ.flag+'</div>';
+    h+='<div class="bm-cond-label">常见健康问题</div><div class="bm-cond-row">';
+    organ.cond.forEach(function(c){h+='<button type="button" class="bm-cond" data-cond="'+c+'">'+c+'</button>';});
     h+='</div>';
-    box.innerHTML=h;
-    box.querySelectorAll('.bm-cond').forEach(function(bt){
+    h+='<a class="btn btn-primary" href="/app?q='+encodeURIComponent('我'+organ.label+'相关不适，可能的原因有哪些、需要做哪些检查、日常要注意什么，以及什么情况下需要就医？')+'">就「'+organ.label+'」去问医答</a>';
+    h+='</div>';
+    sideContent.innerHTML=h;
+    sideContent.querySelectorAll('.bm-cond').forEach(function(bt){
       bt.addEventListener('click',function(){
-        box.querySelectorAll('.bm-cond').forEach(function(x){x.classList.remove('is-on');});
+        sideContent.querySelectorAll('.bm-cond').forEach(function(x){x.classList.remove('is-on');});
         bt.classList.add('is-on');
-        cond=bt.getAttribute('data-cond');
-        if(out)out.innerHTML='已选择：<b>'+(BM_LABEL[sel]||sel)+'</b> \u00b7 '+cond;
-        if(onPick)onPick(sel,BM_LABEL[sel]||sel,bmQuestion(sel,cond));
+        var cta=sideContent.querySelector('.btn-primary');
+        if(cta){cta.setAttribute('href','/app?q='+encodeURIComponent('我'+organ.label+'可能有'+bt.getAttribute('data-cond')+'，想了解它的典型表现、需要做什么检查，以及什么情况下需要就医？'));cta.textContent='就「'+bt.getAttribute('data-cond')+'」去问医答';}
+      });
+    });
+    outEl.textContent='已选择：'+organ.label+'（'+organ.sub+'）— 选择常见问题或直接咨询';
+    updateCrumb();
+  }
+
+  function zoomOut(){
+    currentRegion=null;currentOrgan=null;selectedCond=null;
+    animateVB([0,0,400,800]);
+    setTimeout(function(){layerOrgans.style.display='none';layerOrgans.innerHTML='';layerLabels.style.display='none';layerLabels.innerHTML='';},250);
+    zoomOutBtn.style.display='none';
+    outEl.textContent='点击身体区域放大，查看详细解剖结构';
+    sideTitle.textContent='交互式解剖图';
+    sideContent.innerHTML='<ul><li>点击<b>头部、胸部、腹部</b>等区域，平滑放大显示内部器官。</li><li>放大后点击具体<b>器官</b>，查看常见疾病与就医指征。</li><li>左上角←按钮返回上一级，面包屑可快速跳转。</li><li>支持<b>正面 / 背面</b>切换，覆盖肌肉与骨骼标志。</li></ul><a class="btn btn-primary" href="/app">描述我的症状</a>';
+    updateCrumb();
+  }
+
+  function animateVB(target){
+    var start=svg.getAttribute('viewBox').split(' ').map(Number),dur=500,t0=null;
+    function step(ts){
+      if(!t0)t0=ts;
+      var p=Math.min((ts-t0)/dur,1),e=1-Math.pow(1-p,3);
+      svg.setAttribute('viewBox',[start[0]+(target[0]-start[0])*e,start[1]+(target[1]-start[1])*e,start[2]+(target[2]-start[2])*e,start[3]+(target[3]-start[3])*e].join(' '));
+      if(p<1)requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  function updateCrumb(){
+    var h='<span class="bm-crumb'+(!currentRegion?' active':'')+'" data-act="root">全身</span>';
+    if(currentRegion){
+      h+='<span class="bm-crumb-sep">›</span><span class="bm-crumb'+(!currentOrgan?' active':'')+'" data-act="region">'+REGIONS[view][currentRegion].label+'</span>';
+    }
+    if(currentOrgan){h+='<span class="bm-crumb-sep">›</span><span class="bm-crumb active">'+currentOrgan.label+'</span>';}
+    crumbEl.innerHTML=h;
+    crumbEl.querySelectorAll('.bm-crumb[data-act]').forEach(function(c){
+      c.addEventListener('click',function(){
+        var a=c.getAttribute('data-act');
+        if(a==='root')zoomOut();
+        else if(a==='region'&&currentRegion)zoomToRegion(currentRegion);
       });
     });
   }
-  function draw(){
-    flip.innerHTML=bmFace(gender,'front')+bmFace(gender,'back');
-    flip.classList.toggle('is-back',view==='back');
-    if(sel){var n=flip.querySelector('.bm-region[data-part="'+sel+'"]');if(n)n.classList.add('is-sel');}
-    flip.querySelectorAll('.bm-region').forEach(function(r){
-      function pick(){sel=r.getAttribute('data-part');cond=null;
-        bmProf={nature:null,duration:null,severity:null,radiate:null,accompany:[]};
-        flip.querySelectorAll('.bm-region').forEach(function(x){x.classList.remove('is-sel');});
-        r.classList.add('is-sel');
-        var lb=BM_LABEL[sel]||sel;
-        if(out)out.innerHTML='已选择：<b>'+lb+'</b>';
-        renderConds(sel);
-        renderProfile(sel);
-        if(onPick)onPick(sel,lb,bmQuestion(sel,null));}
-      r.addEventListener('click',pick);
-      r.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();pick();}});
-    });
-  }
-  function bar(){
-    var box=flip.parentNode.parentNode;
-    box.querySelectorAll('.bm-opt').forEach(function(b){
-      b.addEventListener('click',function(){
-        if(b.hasAttribute('data-gender')){gender=b.getAttribute('data-gender');}
-        if(b.hasAttribute('data-view')){view=b.getAttribute('data-view');}
-        box.querySelectorAll('.bm-opt').forEach(function(x){x.classList.remove('active');});
-        box.querySelectorAll('.bm-opt[data-gender="'+gender+'"],.bm-opt[data-view="'+view+'"]').forEach(function(x){x.classList.add('active');});
-        draw();});
-    });
-  }
-  draw();bar();
-}
 
-bmInit('bmFlipLanding','bmOutLanding',function(part,label,q){
-  var a=document.getElementById('bmCtaLanding');
-  if(a){a.setAttribute('href','/app?q='+encodeURIComponent(q));a.textContent='就「'+label+'」去问医答';}
-});
+  document.querySelectorAll('.bm-opt[data-view]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      view=btn.getAttribute('data-view');
+      document.querySelectorAll('.bm-opt[data-view]').forEach(function(b){b.classList.remove('active');});
+      btn.classList.add('active');
+      zoomOut();drawBody();
+    });
+  });
+  zoomOutBtn.addEventListener('click',zoomOut);
+  drawBody();
+})();
 </script>
 </body>
 </html>

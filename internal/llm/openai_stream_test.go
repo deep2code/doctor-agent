@@ -178,6 +178,64 @@ func TestOpenAIStreamingChatCarriesToolCalls(t *testing.T) {
 	}
 }
 
+// TestOpenAIStreamingChatDropsEmptyAssistant verifies that assistant messages
+// with neither content nor tool_calls are dropped from the request. Such
+// messages serialize as {"role":"assistant"} (both fields omitempty), which
+// OpenAI-compatible endpoints reject with HTTP 400
+// "Invalid assistant message: content or tool_calls must be set". They can
+// enter the history when a previous turn's LLM returned an empty body and it
+// was stored verbatim into the session.
+func TestOpenAIStreamingChatDropsEmptyAssistant(t *testing.T) {
+	var gotReq openAIChatRequest
+	srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		if err := json.NewDecoder(r.Body).Decode(&gotReq); err != nil {
+			t.Fatalf("decode request: %v", err)
+		}
+		_, _ = w.Write([]byte(`{"choices":[{"message":{"role":"assistant","content":"回答"}}]}`))
+	}))
+	defer srv.Close()
+
+	messages := []Message{
+		{Role: "user", Content: "第一个问题"},
+		{Role: "assistant", Content: "第一个回答"},
+		{Role: "user", Content: "第二个问题"},
+		// Empty assistant message — must be filtered out.
+		{Role: "assistant", Content: ""},
+		// Assistant with only reasoning_content (no content, no tool_calls)
+		// must also be filtered.
+		{Role: "assistant", Content: "", ReasoningContent: "思考过程"},
+		{Role: "user", Content: "第三个问题"},
+	}
+	client := &http.Client{}
+	if _, err := openAIStreamingChat(context.Background(), client, srv.URL+"/chat/completions",
+		"key", "model", 1024, 0.3, messages, nil, "", nil); err != nil {
+		t.Fatalf("openAIStreamingChat: %v", err)
+	}
+
+	msgsRaw, ok := gotReq.Messages.([]interface{})
+	if !ok {
+		t.Fatalf("messages is not []interface{}, got %T", gotReq.Messages)
+	}
+	// 3 user + 1 valid assistant = 4 messages; 2 empty assistants dropped.
+	if len(msgsRaw) != 4 {
+		t.Fatalf("messages sent = %d, want 4 (empty assistants must be dropped)", len(msgsRaw))
+	}
+	for i, raw := range msgsRaw {
+		m, ok := raw.(map[string]interface{})
+		if !ok {
+			t.Fatalf("msg[%d] is not map", i)
+		}
+		role, _ := m["role"].(string)
+		if role == "assistant" {
+			if _, hasContent := m["content"]; !hasContent {
+				if _, hasToolCalls := m["tool_calls"]; !hasToolCalls {
+					t.Errorf("msg[%d] is an empty assistant message that was not dropped: %+v", i, m)
+				}
+			}
+		}
+	}
+}
+
 // TestVisionModelRouting verifies that image-carrying requests are routed to
 // the configured vision model while text-only requests use the main model,
 // and that an empty vision model leaves routing untouched.

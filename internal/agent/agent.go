@@ -375,7 +375,10 @@ const maxUnderstandingBranches = 3
 // output. Returns nil on any failure — callers fall back to verbatim-only
 // retrieval, so an unavailable understanding model must never break search.
 func (a *Agent) understandQuery(ctx context.Context, userMessage string) *queryUnderstanding {
-	uctx, cancel := context.WithTimeout(ctx, 10*time.Second)
+	// 20s timeout: understanding is a non-streaming JSON call; some providers
+	// (especially free-tier endpoints) are slow. Failure degrades silently
+	// to verbatim-only retrieval, so a longer timeout is safe.
+	uctx, cancel := context.WithTimeout(ctx, 20*time.Second)
 	defer cancel()
 	resp, err := a.understandProvider.Chat(uctx,
 		[]llm.Message{{Role: "user", Content: userMessage}},
@@ -608,6 +611,22 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		}
 		totalUsage = totalUsage.Add(resp.Usage)
 
+		// Guard against empty LLM responses (no text, no tool calls). This
+		// can happen when the model truncates output at zero content tokens
+		// or a thinking-mode model emits only reasoning_content. Retry on
+		// non-final iterations; on the final iteration produce a safe
+		// fallback answer so the user never sees a blank response and the
+		// session history is never polluted with an empty assistant message
+		// (which would cause HTTP 400 on the next turn).
+		if resp.Text == "" && len(resp.ToolCalls) == 0 {
+			slog.Warn("LLM returned empty response (no text, no tool calls); retrying",
+				"conversation_id", sess.ID, "iteration", i, "max_iterations", maxIterations)
+			if i < maxIterations-1 && !toolBudgetExceeded {
+				continue
+			}
+			resp.Text = "抱歉，我刚才的思考没有产生有效回答。请您换一种方式描述问题，或补充更多细节（如症状持续时间、伴随症状、既往病史等），我会重新为您分析。"
+		}
+
 		// Check for tool calls
 		if len(resp.ToolCalls) > 0 {
 			// Ensure every tool call has a unique ID. Some OpenAI-compatible
@@ -693,10 +712,6 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		// No tool calls → final response
 		responseText := resp.Text
 
-		// Update session
-		sess.AddUserMessage(userMessage)
-		a.saveSession(sess)
-
 		// L3: Post-generation verification
 		if a.cfg.PostVerifyEnabled {
 			step(StepEvent{Type: "verify", Summary: "正在校验回答的引用与安全性…"})
@@ -725,6 +740,10 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		// L4: Disclaimer injection removed from answers (2026-09-06).
 		disclaimerSent := false
 
+		// Update session atomically: user + assistant together so a crash
+		// between the two can never leave an orphaned user message (which
+		// would cause two consecutive user messages on the next turn).
+		sess.AddUserMessage(userMessage)
 		sess.AddAssistantMessage(responseText)
 		a.saveSession(sess)
 		sess.TrimHistory(a.cfg.MaxHistoryTurns)
@@ -746,7 +765,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		"max_iterations", maxIterations,
 	)
 	step(StepEvent{Type: "generate", Summary: "正在根据已有信息组织最终回答…"})
-	finalResp, err := a.provider.StreamChat(ctx, messages, nil,
+	finalResp, err := a.streamWithRetry(ctx, messages, nil,
 		systemPrompt+"\n\n你已经调用了多次工具，请基于已获取的工具返回信息，给出最终的完整回答，不要再调用任何工具。",
 		onDelta)
 	if err != nil {
@@ -758,10 +777,11 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 	}
 	responseText := finalResp.Text
 	totalUsage = totalUsage.Add(finalResp.Usage)
-
-	// Update session
-	sess.AddUserMessage(userMessage)
-	a.saveSession(sess)
+	if responseText == "" {
+		slog.Warn("Final LLM call after max iterations returned empty text; using fallback",
+			"conversation_id", sess.ID)
+		responseText = "抱歉，多次尝试后仍未能生成有效回答。建议您简化问题或分步骤咨询，我会尽力为您解答。"
+	}
 
 	// L3: Post-generation verification
 	if a.cfg.PostVerifyEnabled {
@@ -787,6 +807,8 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 	// L4: Disclaimer injection removed from answers (2026-09-06).
 	disclaimerSent := false
 
+	// Update session atomically (user + assistant together).
+	sess.AddUserMessage(userMessage)
 	sess.AddAssistantMessage(responseText)
 	a.saveSession(sess)
 	sess.TrimHistory(a.cfg.MaxHistoryTurns)
@@ -943,11 +965,11 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 
 		var llmResp *llm.ChatResponse
 		var llmErr error
-		if onDelta != nil {
-			llmResp, llmErr = a.streamWithRetry(ctx, messages, iterTools, iterPrompt, onDelta)
-		} else {
-			llmResp, llmErr = a.provider.Chat(ctx, messages, iterTools, iterPrompt)
-		}
+		// Always route through streamWithRetry so transient errors (429,
+		// 5xx, dropped connections) are retried regardless of whether the
+		// caller wants streaming deltas. When onDelta is nil the provider
+		// call runs in non-streaming mode internally.
+		llmResp, llmErr = a.streamWithRetry(ctx, messages, iterTools, iterPrompt, onDelta)
 		if llmErr != nil {
 			slog.Error("LLM call failed",
 				"error", llmErr,
@@ -959,6 +981,18 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 			return nil, fmt.Errorf("LLM call: %w", llmErr)
 		}
 		totalUsage = totalUsage.Add(llmResp.Usage)
+
+		// Guard against empty LLM responses (same logic as
+		// ProcessMessageStream — see comment there).
+		if llmResp.Text == "" && len(llmResp.ToolCalls) == 0 {
+			slog.Warn("LLM returned empty response (no text, no tool calls); retrying",
+				"conversation_id", sess.ID, "iteration", i,
+				"max_iterations", maxIterations, "has_images", len(images) > 0)
+			if i < maxIterations-1 && !toolBudgetExceeded {
+				continue
+			}
+			llmResp.Text = "抱歉，我刚才的思考没有产生有效回答。请您换一种方式描述问题，或补充更多细节（如症状持续时间、伴随症状、既往病史等），我会重新为您分析。"
+		}
 
 		// No tool calls → final answer
 		if len(llmResp.ToolCalls) == 0 {
@@ -992,6 +1026,11 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 			// L4: Disclaimer injection removed from answers (2026-09-06).
 			disclaimerSent := false
 
+			// Update session atomically (user + assistant together).
+			// NOTE: AddUserMessage was missing here previously — image
+			// conversations never persisted the user turn, causing history
+			// to contain only assistant messages on subsequent turns.
+			sess.AddUserMessage(userMessage)
 			sess.AddAssistantMessage(responseText)
 			a.saveSession(sess)
 			sess.TrimHistory(a.cfg.MaxHistoryTurns)
@@ -1088,7 +1127,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		"has_images", len(images) > 0,
 	)
 	step(StepEvent{Type: "generate", Summary: "正在根据已有信息组织最终回答…"})
-	finalResp, err := a.provider.StreamChat(ctx, messages, nil,
+	finalResp, err := a.streamWithRetry(ctx, messages, nil,
 		systemPrompt+"\n\n你已经调用了多次工具，请基于已获取的工具返回信息，给出最终的完整回答，不要再调用任何工具。",
 		onDelta)
 	if err != nil {
@@ -1101,6 +1140,11 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 	}
 	responseText := finalResp.Text
 	totalUsage = totalUsage.Add(finalResp.Usage)
+	if responseText == "" {
+		slog.Warn("Final LLM call after max iterations returned empty text; using fallback",
+			"conversation_id", sess.ID, "has_images", len(images) > 0)
+		responseText = "抱歉，多次尝试后仍未能生成有效回答。建议您简化问题或分步骤咨询，我会尽力为您解答。"
+	}
 
 	// L3: Citation post-verification
 	if a.postVerifier != nil {
@@ -1129,6 +1173,8 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 	// L4: Disclaimer injection removed from answers (2026-09-06).
 	disclaimerSent := false
 
+	// Update session atomically (user + assistant together).
+	sess.AddUserMessage(userMessage)
 	sess.AddAssistantMessage(responseText)
 	a.saveSession(sess)
 	sess.TrimHistory(a.cfg.MaxHistoryTurns)
@@ -1145,8 +1191,42 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 
 // sessionToMessages returns the session history in provider-agnostic form.
 // Sessions now store llm.Message directly, so no conversion is needed.
+//
+// Historical messages are sanitised before being fed back to the LLM:
+// persisted history must only carry Role + Content. Runtime-only fields
+// (ReasoningContent, ToolCalls, ToolCallID, Parts) must never survive into
+// the next turn — they are provider-specific (e.g. DeepSeek's
+// reasoning_content) and can cause OpenAI-compatible endpoints to reject
+// the request with HTTP 400 when the model is switched. Messages with
+// unexpected roles (e.g. "tool" leaked into persisted history) are dropped
+// entirely: a tool message without its preceding assistant tool_call is
+// always invalid.
 func (a *Agent) sessionToMessages(sess *session.Session) []llm.Message {
-	return sess.GetMessages()
+	raw := sess.GetMessages()
+	msgs := make([]llm.Message, 0, len(raw))
+	for i, m := range raw {
+		if m.Role != "user" && m.Role != "assistant" {
+			slog.Warn("Dropping historical message with unexpected role",
+				"session_id", sess.ID, "index", i, "role", m.Role)
+			continue
+		}
+		if m.ReasoningContent != "" || len(m.ToolCalls) > 0 || m.ToolCallID != "" || len(m.Parts) > 0 {
+			slog.Warn("Sanitising historical message: removing runtime-only fields before LLM request",
+				"session_id", sess.ID,
+				"index", i,
+				"role", m.Role,
+				"had_reasoning", m.ReasoningContent != "",
+				"had_tool_calls", len(m.ToolCalls),
+				"had_tool_call_id", m.ToolCallID != "",
+				"had_parts", len(m.Parts))
+		}
+		m.ReasoningContent = ""
+		m.ToolCalls = nil
+		m.ToolCallID = ""
+		m.Parts = nil
+		msgs = append(msgs, m)
+	}
+	return msgs
 }
 
 // GetOrCreateSession returns an existing session or creates a new one.

@@ -167,3 +167,31 @@ func TestFileStoreOverwrite(t *testing.T) {
 		t.Errorf("TurnCount = %d, want 2 (snapshot must overwrite, not append)", restored.TurnCount())
 	}
 }
+
+// TestAddEmptyAssistantMessageRejected verifies that an assistant message with
+// empty content is NOT stored. An empty assistant message would be serialized
+// as {"role":"assistant"} (content and tool_calls both omitted via omitempty),
+// which OpenAI-compatible endpoints reject with HTTP 400
+// "content or tool_calls must be set" on the subsequent turn.
+func TestAddEmptyAssistantMessageRejected(t *testing.T) {
+	s := New("s-empty")
+	s.AddUserMessage("你好")
+	s.AddAssistantMessage("") // must be rejected
+
+	msgs := s.GetMessages()
+	if len(msgs) != 1 {
+		t.Fatalf("len(msgs) = %d, want 1 (empty assistant message must not be stored)", len(msgs))
+	}
+	if msgs[0].Role != "user" {
+		t.Errorf("msgs[0].Role = %q, want user", msgs[0].Role)
+	}
+	if s.TurnCount() != 0 {
+		t.Errorf("TurnCount = %d, want 0", s.TurnCount())
+	}
+
+	// A subsequent non-empty assistant message is stored normally.
+	s.AddAssistantMessage("你好，有什么可以帮您？")
+	if got := len(s.GetMessages()); got != 2 {
+		t.Fatalf("after valid assistant len(msgs) = %d, want 2", got)
+	}
+}

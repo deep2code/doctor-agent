@@ -1,6 +1,7 @@
 package session
 
 import (
+	"log/slog"
 	"sync"
 	"time"
 
@@ -58,10 +59,17 @@ func (s *Session) AddUserMessage(content string) {
 }
 
 // AddAssistantMessage appends an assistant text response to the session.
+// Empty content is rejected: an assistant message with neither text nor
+// tool_calls is rejected by OpenAI-compatible endpoints on the next turn
+// ("content or tool_calls must be set").
 func (s *Session) AddAssistantMessage(content string) {
 	s.mu.Lock()
 	defer s.mu.Unlock()
 
+	if content == "" {
+		slog.Warn("Refusing to store empty assistant message in session history", "session_id", s.ID)
+		return
+	}
 	s.Messages = append(s.Messages, llm.Message{Role: "assistant", Content: content})
 	s.UpdatedAt = time.Now()
 }

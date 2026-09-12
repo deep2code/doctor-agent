@@ -7,6 +7,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"log/slog"
 	"net/http"
 	"sort"
 	"strings"
@@ -58,6 +59,21 @@ func openAIStreamingChat(
 		openAIMsgs = append(openAIMsgs, openAIMessage{Role: "system", Content: systemPrompt})
 	}
 	for _, msg := range messages {
+		// Defence-in-depth: drop assistant messages that carry neither text
+		// nor tool calls. OpenAI-compatible endpoints reject them with
+		// "Invalid assistant message: content or tool_calls must be set"
+		// (HTTP 400). They can enter the history when a previous turn's LLM
+		// returned an empty body (e.g. truncated output, thinking-only
+		// response) and was stored verbatim into the session.
+		// Whitespace-only content also counts as empty — some endpoints
+		// reject it the same way.
+		if msg.Role == "assistant" && strings.TrimSpace(msg.Content) == "" && len(msg.ToolCalls) == 0 {
+			slog.Warn("Dropping empty assistant message from request history",
+				"has_reasoning", msg.ReasoningContent != "",
+				"reasoning_len", len(msg.ReasoningContent),
+				"content_preview", truncateForLog(msg.Content, 80))
+			continue
+		}
 		// Handle multimodal content
 		if msg.HasImages() {
 			var parts []openAIContentPart
@@ -93,9 +109,23 @@ func openAIStreamingChat(
 				Content: parts,
 			})
 		} else {
+			// Non-multimodal path. If Content is empty but the message carries
+			// text parts (e.g. a historical message that was built with Parts
+			// but no image), fold the text parts into Content so nothing is
+			// silently dropped.
+			content := msg.Content
+			if content == "" && len(msg.Parts) > 0 {
+				var texts []string
+				for _, p := range msg.Parts {
+					if p.Type == "text" && p.Text != "" {
+						texts = append(texts, p.Text)
+					}
+				}
+				content = strings.Join(texts, "\n")
+			}
 			m := openAIMessage{
 				Role:             msg.Role,
-				Content:          msg.Content,
+				Content:          content,
 				ReasoningContent: msg.ReasoningContent,
 				ToolCallID:       msg.ToolCallID,
 			}
@@ -146,13 +176,16 @@ func openAIStreamingChat(
 	}
 
 	reqBody := openAIChatRequest{
-		Model:               model,
-		Messages:            openAIMsgs,
-		Tools:               openAITools,
-		Temperature:         temperature,
-		MaxTokens:           maxTokens,
-		MaxCompletionTokens: maxTokens,
-		Stream:              onDelta != nil,
+		Model:       model,
+		Messages:    openAIMsgs,
+		Tools:       openAITools,
+		Temperature: temperature,
+		// Only max_tokens is set: max_completion_tokens is the newer OpenAI
+		// field and is NOT supported by DeepSeek / Zhipu / most compatible
+		// endpoints. Sending both can cause "Cannot specify both" errors or
+		// silent parameter rejection on stricter endpoints.
+		MaxTokens: maxTokens,
+		Stream:    onDelta != nil,
 	}
 	if onDelta != nil {
 		reqBody.StreamOptions = &openAIStreamOptions{IncludeUsage: true}
@@ -177,6 +210,35 @@ func openAIStreamingChat(
 
 	if resp.StatusCode != http.StatusOK {
 		respBytes, _ := io.ReadAll(resp.Body)
+		// On bad requests (400), dump the outgoing message roles and content
+		// lengths so we can identify which message the provider is rejecting.
+		if resp.StatusCode == http.StatusBadRequest {
+			slog.Error("OpenAI-compatible API returned 400; dumping request messages for diagnosis",
+				"model", model,
+				"endpoint", endpointURL,
+				"message_count", len(openAIMsgs),
+				"request_body_bytes", len(bodyBytes),
+				"response", string(respBytes))
+			for i, m := range openAIMsgs {
+				switch mm := m.(type) {
+				case openAIMessage:
+					slog.Error("  request message",
+						"index", i,
+						"role", mm.Role,
+						"content_len", len(mm.Content),
+						"content_preview", truncateForLog(mm.Content, 120),
+						"tool_calls", len(mm.ToolCalls),
+						"has_reasoning", mm.ReasoningContent != "",
+						"tool_call_id", mm.ToolCallID)
+				case openAIMessageWithParts:
+					slog.Error("  request message (multimodal)",
+						"index", i,
+						"role", mm.Role,
+						"parts", len(mm.Content),
+						"tool_calls", len(mm.ToolCalls))
+				}
+			}
+		}
 		return nil, fmt.Errorf("openai-compatible API error (status %d): %s", resp.StatusCode, string(respBytes))
 	}
 
@@ -325,4 +387,18 @@ func parseOpenAIStream(body io.Reader, onDelta func(string)) (*ChatResponse, err
 		})
 	}
 	return response, nil
+}
+
+// truncateForLog returns a preview of s suitable for log output, capped at
+// maxRunes runes. Multi-line strings are collapsed to a single line.
+func truncateForLog(s string, maxRunes int) string {
+	if s == "" {
+		return ""
+	}
+	s = strings.ReplaceAll(s, "\n", "\\n")
+	runes := []rune(s)
+	if len(runes) <= maxRunes {
+		return s
+	}
+	return string(runes[:maxRunes]) + "…"
 }

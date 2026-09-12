@@ -834,8 +834,7 @@ fetch("/health").then(function(r){return r.json();}).then(function(d){
 
   function goTo(idx) {
     current = Math.max(0, Math.min(idx, pages - 1));
-    var offset = current * (100 / pages);
-    track.style.transform = 'translateX(-' + offset + '%)';
+    track.style.transform = 'translateX(-' + (current * 100) + '%)';
     updateDots();
     prevBtn.disabled = current === 0;
     nextBtn.disabled = current === pages - 1;
@@ -937,7 +936,7 @@ fetch("/health").then(function(r){return r.json();}).then(function(d){
       tag: "日常健康", color: "#16A34A", colorSoft: "#ECFDF5",
       title: "运动与康复",
       principle: "每周 150 分钟、少坐多站、动则有益——身体活动是最好的药。",
-      summary: "WHO 2020 年指南指出，身体活动是"良药"——可降低心血管病、糖尿病、抑郁和全因死亡风险。久坐是独立危险因素。",
+      summary: "WHO 2020 年指南指出，身体活动是「良药」——可降低心血管病、糖尿病、抑郁和全因死亡风险。久坐是独立危险因素。",
       points: [
         { icon: "🚶", text: "<b>有氧运动</b>：成人每周 150-300 分钟中等强度（能说话不能唱歌），或 75-150 分钟高强度。" },
         { icon: "💪", text: "<b>肌肉强化</b>：每周 ≥2 天进行涉及主要肌群的抗阻训练（哑铃/弹力带/自重）。" },
@@ -1101,10 +1100,10 @@ fetch("/health").then(function(r){return r.json();}).then(function(d){
       principle: "户外 2 小时、20-20-20、40 岁查眼压——眼睛用一辈子，值得好好护。",
       summary: "中国儿童青少年近视率居世界前列，干眼和年龄相关眼病（青光眼、白内障）是主要致盲原因。早预防、早发现、早干预。",
       points: [
-        { icon: "🌞", text: "<b>近视防控</b>：每天户外活动 ≥2 小时（光照是关键）；读写"三个一"（眼离书 1 尺、胸离桌 1 拳、手离笔尖 1 寸）。" },
+        { icon: "🌞", text: "<b>近视防控</b>：每天户外活动 ≥2 小时（光照是关键）；读写「三个一」（眼离书 1 尺、胸离桌 1 拳、手离笔尖 1 寸）。" },
         { icon: "💧", text: "<b>干眼护理</b>：有意识多眨眼，热敷眼睑（40℃ 10 分钟），使用不含防腐剂的人工泪液，减少屏幕时间。" },
         { icon: "👁️", text: "<b>青光眼</b>：40 岁以上定期查眼压和视野；不可逆致盲眼病，早期无症状，有家族史者风险高。" },
-        { icon: "🔬", text: "<b>白内障</b>：视力下降影响生活可手术；超声乳化+人工晶体植入是成熟术式，不必等"熟透"。" },
+        { icon: "🔬", text: "<b>白内障</b>：视力下降影响生活可手术；超声乳化+人工晶体植入是成熟术式，不必等「熟透」。" },
         { icon: "⏱️", text: "<b>20-20-20 法则</b>：每用眼 20 分钟，看 20 英尺（约 6 米）外的物体 20 秒，放松睫状肌。" }
       ],
       stats: [

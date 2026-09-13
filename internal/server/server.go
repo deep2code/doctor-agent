@@ -304,11 +304,12 @@ func getChineseFontPath() string {
 		// Linux 常见中文字体路径（Debian/Ubuntu/Alpine 等）
 		paths := []string{
 			"/usr/share/fonts/truetype/wqy/wqy-microhei.ttc",
-			"/usr/share/fonts/wqy-microhei/wqy-microhei.ttc", // Alpine
+			"/usr/share/fonts/wqy-microhei/wqy-microhei.ttc",
 			"/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc",
 			"/usr/share/fonts/wqy-zenhei/wqy-zenhei.ttc",
 			"/usr/share/fonts/opentype/noto/NotoSansSC-Regular.otf",
-			"/usr/share/fonts/noto-cjk/NotoSansSC-Regular.otf",
+			"/usr/share/fonts/noto-cjk/NotoSansCJK-Regular.ttc", // Alpine font-noto-cjk
+			"/usr/share/fonts/noto-cjk/NotoSerifCJK-Regular.ttc",
 			"/usr/share/fonts/truetype/noto/NotoSansSC-Regular.ttf",
 			"/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf",
 			"/usr/share/fonts/truetype/arphic/uming.ttc",

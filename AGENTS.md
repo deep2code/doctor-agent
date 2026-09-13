@@ -1,6 +1,6 @@
 # AGENTS.md — doctor-agent
 
-循证医学 (evidence-based medicine) AI assistant for the entire Chinese population — everyday health problems first, with China's high-burden conditions (地贫, G6PD, 鼻咽癌, 乙肝, 乳糖不耐受, 登革热, 南方省份尤为高发) as an additional layer. Answers structure: 可能的原因 → 相似情况/常见病例 → 家庭护理 → 何时就医. Go module `github.com/doctor-agent` (Go 1.26), pluggable LLM (Anthropic/DeepSeek/OpenAI-compat: Zhipu/Qwen/豆包) + embedded JSON knowledge base.
+循证医学 (evidence-based medicine) AI assistant for the entire Chinese population — everyday health problems first, with China's high-burden conditions (地贫, G6PD, 鼻咽癌, 乙肝, 乳糖不耐受, 登革热, 南方省份尤为高发) as an additional layer. Answers structure: 可能的原因 → 相似情况/常见病例 → 家庭护理 → 何时就医. Go module `github.com/doctor-agent` (Go 1.27), pluggable LLM (Anthropic/DeepSeek/OpenAI-compat: Zhipu/Qwen/豆包) + embedded JSON knowledge base.
 
 ## Project
 
@@ -27,7 +27,7 @@ go run ./evals                                  # offline eval on sample_answers
 go run ./evals -online                          # online eval: runs real agent per question (needs API key; slow)
 go run ./evals -answers my.json -report out.json # eval custom answers + JSON report; exit 1 on any failure (CI-friendly)
 ./build.sh [app|qdrant|full]                       # 唯一打包入口: 构建+推送镜像到阿里云
-golangci-lint run ./...                            # lint (v2.12.2 installed at /Users/junjunyi/gopath/bin; .golangci.yml is v2 format, same version in CI)
+golangci-lint run ./...                            # lint (v2.13.0; .golangci.yml is v2 format, same version in CI; v2.13.0+ required for Go 1.27 compat)
 python3 external/make_gz.py                        # regenerate internal/knowledge/gz/*.json.zst after editing data/*.json
 ```
 

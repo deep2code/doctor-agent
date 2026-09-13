@@ -284,19 +284,32 @@ func escapeHTML(s string) string {
 	return s
 }
 
-// getChineseFontPath 返回系统中文字体路径
+// getChineseFontPath 返回系统中文字体路径。如果找不到任何中文字体，返回空字符串。
 func getChineseFontPath() string {
 	switch runtime.GOOS {
 	case "darwin":
 		// macOS
-		return "/System/Library/Fonts/Hiragino Sans GB.ttc"
+		paths := []string{
+			"/System/Library/Fonts/Hiragino Sans GB.ttc",
+			"/System/Library/Fonts/PingFang.ttc",
+			"/Library/Fonts/Songti.ttc",
+		}
+		for _, p := range paths {
+			if _, err := os.Stat(p); err == nil {
+				return p
+			}
+		}
+		return ""
 	case "linux":
-		// Linux 常见中文字体路径
+		// Linux 常见中文字体路径（Debian/Ubuntu/Alpine 等）
 		paths := []string{
 			"/usr/share/fonts/truetype/wqy/wqy-microhei.ttc",
+			"/usr/share/fonts/wqy-microhei/wqy-microhei.ttc", // Alpine
 			"/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc",
+			"/usr/share/fonts/wqy-zenhei/wqy-zenhei.ttc",
 			"/usr/share/fonts/opentype/noto/NotoSansSC-Regular.otf",
 			"/usr/share/fonts/noto-cjk/NotoSansSC-Regular.otf",
+			"/usr/share/fonts/truetype/noto/NotoSansSC-Regular.ttf",
 			"/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf",
 			"/usr/share/fonts/truetype/arphic/uming.ttc",
 		}
@@ -305,11 +318,20 @@ func getChineseFontPath() string {
 				return p
 			}
 		}
-		// 回退到 Droid Sans Fallback
-		return "/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf"
+		return ""
 	case "windows":
 		// Windows
-		return "C:/Windows/Fonts/simhei.ttf"
+		paths := []string{
+			"C:/Windows/Fonts/simhei.ttf",
+			"C:/Windows/Fonts/msyh.ttc",
+			"C:/Windows/Fonts/simsun.ttc",
+		}
+		for _, p := range paths {
+			if _, err := os.Stat(p); err == nil {
+				return p
+			}
+		}
+		return ""
 	default:
 		return ""
 	}
@@ -1330,7 +1352,17 @@ func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
 			pdf := gofpdf.New("P", "mm", "A4", "")
 			// 使用系统中文字体
 			fontPath := getChineseFontPath()
+			if fontPath == "" {
+				slog.Error("No Chinese font found for PDF export", "id", id, "os", runtime.GOOS)
+				http.Error(w, "server has no Chinese font installed; PDF export unavailable", http.StatusInternalServerError)
+				return
+			}
 			pdf.AddUTF8Font("NotoSansSC", "", fontPath)
+			if err := pdf.Error(); err != nil {
+				slog.Error("Failed to add Chinese font for PDF export", "id", id, "font", fontPath, "error", err)
+				http.Error(w, "failed to load Chinese font", http.StatusInternalServerError)
+				return
+			}
 			pdf.SetFont("NotoSansSC", "", 11)
 			pdf.AddPage()
 
@@ -1375,7 +1407,9 @@ func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
 			w.Header().Set("Content-Type", "application/pdf")
 			w.Header().Set("Content-Disposition", "attachment; filename=\""+title+".pdf\"")
 			w.Header().Set("Cache-Control", "no-cache")
-			pdf.Output(w)
+			if err := pdf.Output(w); err != nil {
+				slog.Error("Failed to output PDF", "id", id, "error", err)
+			}
 			return
 		}
 		if exportType == "1" || exportType == "json" {

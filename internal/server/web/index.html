@@ -595,6 +595,15 @@
   /* 回答底部：本次花费 + 分享 */
   .ans-foot { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
   .cost-info { font-size: 12px; color: var(--muted); }
+  .ans-error { color: #dc2626; background: #FEF2F2; border: 1px solid #FECACA; border-radius: 8px; padding: 10px 14px; font-size: 14px; margin-bottom: 8px; }
+  /* 行顶部操作栏：回答上方"重新生成回答"，问题上方"重新提问" */
+  .line-topbar { display: flex; justify-content: flex-end; margin-bottom: 6px; }
+  .line-topbar button {
+    border: 1px solid var(--border); background: #fff; color: var(--muted); border-radius: 999px;
+    font: inherit; font-size: 12px; padding: 3px 10px; cursor: pointer; transition: all .15s;
+  }
+  .line-topbar button:hover { color: #059669; border-color: #059669; background: #ECFDF5; }
+  .line.user .line-topbar button:hover { color: #2563EB; border-color: #2563EB; background: #EFF6FF; }
   .ans-share, .ans-regenerate, #share-conv {
     border: 1px solid var(--border); background: #fff; color: var(--muted); border-radius: 999px;
     font: inherit; font-size: 12.5px; padding: 4px 12px; cursor: pointer;
@@ -802,6 +811,7 @@
     }
     line.appendChild(who); line.appendChild(say);
     transcript.appendChild(line);
+    attachTopBar(line);
     mountAnatomy(say);
     scrollToBottom();
     return say;
@@ -829,13 +839,18 @@
     }
     return t;
   }
-  /* ================= 重新问 ================= */
-  function regenerate(aiLine) {
+  /* ================= 重新生成回答 ================= */
+  function regenerate(startLine) {
     if (state.sending) return;
-    // 找到对应的用户问题行（AI 行之前最近的 .line.user）
-    var userLine = aiLine.previousElementSibling;
-    while (userLine && !userLine.classList.contains("user")) {
-      userLine = userLine.previousElementSibling;
+    var userLine, aiLine;
+    if (startLine.classList.contains("user")) {
+      userLine = startLine;
+      aiLine = userLine.nextElementSibling;
+      while (aiLine && !aiLine.classList.contains("ai")) aiLine = aiLine.nextElementSibling;
+    } else {
+      aiLine = startLine;
+      userLine = aiLine.previousElementSibling;
+      while (userLine && !userLine.classList.contains("user")) userLine = userLine.previousElementSibling;
     }
     if (!userLine) return;
     // 获取用户问题文本
@@ -843,13 +858,32 @@
     var userText = sayEl ? sayEl.textContent : "";
     if (!userText) return;
     // 删除从用户问题行到最后的所有元素
-    while (aiLine.nextSibling) aiLine.parentNode.removeChild(aiLine.nextSibling);
-    aiLine.parentNode.removeChild(aiLine);
-    userLine.parentNode.removeChild(userLine);
+    var parent = userLine.parentNode;
+    while (userLine.nextSibling) parent.removeChild(userLine.nextSibling);
+    parent.removeChild(userLine);
     // 保存历史（删除后的状态）
     saveHistory();
     // 重新发送
     send(userText);
+  }
+  /* 行顶部操作栏：回答上方"重新生成回答"，问题上方"重新提问" */
+  function attachTopBar(line) {
+    var old = line.querySelector(".line-topbar");
+    if (old) old.remove();
+    var bar = document.createElement("div");
+    bar.className = "line-topbar";
+    var btn = document.createElement("button");
+    btn.type = "button";
+    if (line.classList.contains("user")) {
+      btn.textContent = "🔄 重新提问";
+      btn.title = "删除此问题及后续回答，重新提问";
+    } else {
+      btn.textContent = "🔄 重新生成回答";
+      btn.title = "删除此回答并重新生成";
+    }
+    btn.addEventListener("click", function () { regenerate(line); });
+    bar.appendChild(btn);
+    line.insertBefore(bar, line.firstChild);
   }
   function attachShareFooter(line, pairIndex, meta) {
     var old = line.querySelector(".ans-foot");
@@ -866,7 +900,7 @@
     var regenBtn = document.createElement("button");
     regenBtn.type = "button";
     regenBtn.className = "ans-regenerate";
-    regenBtn.textContent = "🔄 重新问";
+    regenBtn.textContent = "🔄 重新生成回答";
     regenBtn.title = "删除这条回答并重新生成";
     regenBtn.addEventListener("click", function () { regenerate(line); });
     foot.appendChild(regenBtn);
@@ -1777,6 +1811,7 @@ var ul = $("conv-list");
     }
     line.appendChild(who); line.appendChild(stepsWrap); line.appendChild(thinkRow); line.appendChild(say);
     transcript.appendChild(line);
+    attachTopBar(line);
     /* 本次回答在会话问答对中的序号（供分享接口定位） */
     var pairIndex = transcript.querySelectorAll(".line.ai").length - 1;
     var lastMeta = null;
@@ -1855,8 +1890,10 @@ var ul = $("conv-list");
         say.innerHTML = renderAnswer(full);
         mountAnatomy(say);
         attachShareFooter(line, pairIndex, lastMeta);
+      } else {
+        say.textContent = "（无响应）";
+        attachShareFooter(line, pairIndex, lastMeta);
       }
-      else say.textContent = "（无响应）";
       renderMermaid(say);
       setSpeech("ai", plainText(full) || "（无响应）");
       saveHistory();
@@ -1864,6 +1901,11 @@ var ul = $("conv-list");
       stopThinking();
       if (cursor.parentNode === say) say.removeChild(cursor);
       say.textContent = "";
+      var errEl = document.createElement("div");
+      errEl.className = "ans-error";
+      errEl.textContent = "⚠️ " + e.message;
+      say.appendChild(errEl);
+      attachShareFooter(line, pairIndex, lastMeta);
       showError("⚠️ " + e.message);
     } finally {
       stopThinking();

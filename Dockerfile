@@ -14,7 +14,8 @@
 # BuildKit caches this layer — apk only runs once.
 FROM alpine:3.20
 RUN sed -i 's#dl-cdn.alpinelinux.org#mirrors.aliyun.com#g' /etc/apk/repositories \
-    && apk add --no-cache ca-certificates curl mariadb-client
+    && apk add --no-cache ca-certificates curl mariadb-client \
+       ttf-wqy-microhei fontconfig
 
 WORKDIR /app
 

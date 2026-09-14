@@ -263,8 +263,10 @@ section { padding: 72px 0; }
 }
 .guide-dot.active { width: 24px; border-radius: 4px; background: var(--green); }
 .guide-card {
-  position: relative; background: var(--bg); border-radius: 14px; padding: 26px 20px 22px;
+  position: relative; background: var(--bg); border-radius: 14px; padding: 26px;
   border: 1px solid var(--line); overflow: hidden; cursor: pointer;
+  display: grid; grid-template-columns: minmax(260px, 330px) minmax(0, 1fr);
+  gap: 26px; align-items: start; cursor: default;
   transition: transform .25s, box-shadow .25s, border-color .25s;
 }
 .guide-card::before {
@@ -280,6 +282,10 @@ section { padding: 72px 0; }
   transform: translateY(-5px); box-shadow: 0 16px 36px rgba(13,59,59,.12);
   border-color: var(--gc, var(--green));
 }
+.guide-card-intro {
+  display: flex; flex-direction: column; align-items: flex-start;
+  min-width: 0; position: relative; z-index: 1;
+}
 .guide-card:hover .guide-ic { transform: scale(1.1) rotate(-3deg); }
 .guide-card:hover .guide-ic svg { stroke: #fff; }
 .guide-ic {
@@ -290,6 +296,50 @@ section { padding: 72px 0; }
 .guide-ic svg { width: 26px; height: 26px; stroke: var(--gc, var(--green)); transition: stroke .25s; }
 .guide-card:hover .guide-ic { background: var(--gc, var(--green)); }
 .guide-card h4 { font-size: 17px; font-weight: 700; margin-bottom: 8px; color: var(--ink); position: relative; z-index: 1; font-family: var(--serif); }
+.guide-detail {
+  min-width: 0; display: flex; flex-direction: column; gap: 14px;
+  padding-left: 24px; border-left: 1px solid var(--line);
+}
+.guide-detail-principle {
+  padding: 12px 16px; border-radius: 10px; border-left: 3px solid var(--detail-color, var(--green));
+  background: var(--detail-soft, var(--green-soft));
+  color: var(--ink); font-size: 14.5px; font-weight: 700; line-height: 1.6;
+  font-family: var(--serif);
+}
+.guide-detail-summary {
+  margin: 0; color: var(--text); font-size: 14px; line-height: 1.7;
+}
+.guide-detail-points {
+  list-style: none; margin: 0; padding: 0; display: grid; gap: 8px;
+}
+.guide-detail-points li {
+  display: flex; gap: 10px; color: var(--text); font-size: 13.5px; line-height: 1.65;
+}
+.guide-detail-points .pt-ic {
+  flex-shrink: 0; width: 26px; height: 26px; border-radius: 8px;
+  background: var(--detail-soft, var(--green-soft));
+  display: flex; align-items: center; justify-content: center; font-size: 13px;
+}
+.guide-detail-points b { color: var(--ink); font-weight: 600; }
+.guide-detail-footer {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px; align-items: end; margin-top: auto; padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+.guide-detail-stats {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px;
+}
+.guide-stat { background: var(--bg-card); border-radius: 10px; padding: 10px 12px; text-align: center; }
+.guide-stat .num { font-size: 18px; font-weight: 800; color: var(--detail-color, var(--green)); font-family: var(--serif); }
+.guide-stat .lbl { font-size: 11px; color: var(--muted); margin-top: 2px; }
+.guide-cta {
+  display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;
+  padding: 9px 16px; border-radius: 999px; background: var(--detail-color, var(--green));
+  color: #fff; font-size: 13px; font-weight: 700; text-decoration: none;
+  transition: opacity .2s, transform .2s;
+}
+.guide-cta:hover { opacity: .9; transform: translateY(-1px); }
+.guide-cta svg { width: 14px; height: 14px; stroke: #fff; }
 .guide-key {
   display: flex; align-items: flex-start; gap: 10px; position: relative; z-index: 1;
   margin-top: 12px; padding: 12px 14px; border-radius: 10px;
@@ -313,60 +363,6 @@ section { padding: 72px 0; }
 .c-pink   { --gc: #C2547A; --gc-soft: #F8EAF0; }
 .c-cyan   { --gc: #2A8A8A; --gc-soft: #E3F2F2; }
 
-/* 模态框 */
-.guide-modal-overlay {
-  position: fixed; inset: 0; background: rgba(13,30,30,.6);
-  display: none; align-items: center; justify-content: center;
-  z-index: 100; padding: 20px; backdrop-filter: blur(4px);
-}
-.guide-modal-overlay.show { display: flex; animation: fadeIn .2s ease; }
-@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-.guide-modal {
-  background: #fff; border-radius: 18px; max-width: 620px; width: 100%;
-  max-height: 85vh; overflow-y: auto; position: relative;
-  box-shadow: 0 30px 80px rgba(0,0,0,.3);
-  animation: slideUp .3s cubic-bezier(.4,0,.2,1);
-}
-@keyframes slideUp { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
-.guide-modal-top { height: 5px; border-radius: 18px 18px 0 0; }
-.guide-modal-body { padding: 28px 30px 24px; }
-.guide-modal-close {
-  position: absolute; top: 16px; right: 16px; width: 34px; height: 34px;
-  border-radius: 50%; border: none; background: var(--bg); cursor: pointer;
-  display: flex; align-items: center; justify-content: center; transition: all .2s; z-index: 2;
-}
-.guide-modal-close:hover { background: var(--line); transform: rotate(90deg); }
-.guide-modal-close svg { width: 16px; height: 16px; stroke: var(--ink); }
-.guide-modal-tag {
-  display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 10px;
-  border-radius: 999px; letter-spacing: .5px; margin-bottom: 10px;
-}
-.guide-modal h3 { font-size: 24px; font-weight: 700; color: var(--ink); margin-bottom: 8px; font-family: var(--serif); }
-.guide-modal-principle {
-  font-size: 15px; font-weight: 600; line-height: 1.6; padding: 12px 16px;
-  border-radius: 10px; margin-bottom: 14px; border-left: 3px solid;
-  font-family: var(--serif);
-}
-.guide-modal-summary { font-size: 14px; color: var(--text); line-height: 1.7; margin-bottom: 18px; }
-.guide-modal-points { list-style: none; padding: 0; margin: 0 0 18px; }
-.guide-modal-points li {
-  display: flex; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line);
-  font-size: 13.5px; line-height: 1.65; color: var(--text);
-}
-.guide-modal-points li:last-child { border-bottom: none; }
-.guide-modal-points .pt-ic {
-  flex-shrink: 0; width: 26px; height: 26px; border-radius: 8px;
-  display: flex; align-items: center; justify-content: center; font-size: 13px;
-}
-.guide-modal-points b { color: var(--ink); font-weight: 600; }
-.guide-modal-stats {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px;
-}
-.guide-stat {
-  background: var(--bg); border-radius: 10px; padding: 12px 14px; text-align: center;
-}
-.guide-stat .num { font-size: 20px; font-weight: 800; color: var(--ink); font-family: var(--serif); }
-.guide-stat .lbl { font-size: 11px; color: var(--muted); margin-top: 2px; }
 
 /* ===== 解剖图 ===== */
 #bodymap { background: var(--bg); }
@@ -466,6 +462,8 @@ footer {
   .hero-visual { height: 320px; }
   .hero h1 { font-size: 36px; }
   .guide-carousel { padding: 0 40px; }
+  .guide-card { grid-template-columns: 1fr; gap: 18px; }
+  .guide-detail { padding-left: 0; border-left: none; }
   .bm-wrap { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
@@ -481,6 +479,10 @@ footer {
   .hero h1 { font-size: 28px; }
   .guide-carousel { padding: 0 36px; }
   .guide-nav { width: 32px; height: 32px; }
+  .guide-card { padding: 20px; }
+  .guide-detail { gap: 12px; }
+  .guide-detail-footer { grid-template-columns: 1fr; align-items: start; }
+  .guide-cta { justify-self: start; }
   .section-title { font-size: 24px; }
   .footer-grid { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; gap: 8px; }
@@ -899,78 +901,102 @@ footer {
       </button>
       <div class="guide-track" id="guideTrack">
 
-      <a class="guide-card c-green" data-num="01" href="#" data-cta="/app?q=健康生活习惯理念：如何通过饮食、运动、睡眠和压力管理改善整体健康状况？请给出循证的日常建议。">
-        <span class="guide-tag">日常健康</span>
-        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
-        <h4>健康生活习惯</h4>
-        <div class="guide-key"><span class="guide-key-icon">🌱</span><p>吃动平衡、戒烟限酒、睡够 7 小时——健康是日复一日的选择。</p></div>
-      </a>
-      <a class="guide-card c-green" data-num="02" href="#" data-cta="/app?q=营养与饮食指导：中国居民膳食指南要点、不同人群营养需求、常见营养素缺乏表现、食品安全与合理搭配建议。">
-        <span class="guide-tag">日常健康</span>
-        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M12 6v6l4 2"/></svg></div>
-        <h4>营养与饮食</h4>
-        <div class="guide-key"><span class="guide-key-icon">🥗</span><p>每天 12 种食物、盐不超 5 克——吃对了，病少一半。</p></div>
-      </a>
-      <a class="guide-card c-green" data-num="03" href="#" data-cta="/app?q=运动与康复指导：科学运动处方制定、常见运动损伤处理与预防、术后康复训练原则、不同年龄段适合的运动方式。">
-        <span class="guide-tag">日常健康</span>
-        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="5" r="2"/><path d="M12 7v6l-4 4M12 13l4 4M8 21l4-4 4 4"/></svg></div>
-        <h4>运动与康复</h4>
-        <div class="guide-key"><span class="guide-key-icon">🏃</span><p>每周 150 分钟、少坐多站——身体活动是最好的药。</p></div>
-      </a>
-      <a class="guide-card c-amber" data-num="04" href="#" data-cta="/app?q=职业病防护：长期伏案工作导致的颈肩腰背痛、视疲劳、鼠标手，以及粉尘噪声化学暴露的职业健康防护建议。">
-        <span class="guide-tag">职业健康</span>
-        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M2 20h20M4 20V8l8-4 8 4v12"/><path d="M9 20v-6h6v6"/><circle cx="12" cy="11" r="1.5"/></svg></div>
-        <h4>职业病防护</h4>
-        <div class="guide-key"><span class="guide-key-icon">💺</span><p>每 45 分钟起身、20-20-20 护眼——预防比治疗容易百倍。</p></div>
-      </a>
-      <a class="guide-card c-blue" data-num="05" href="#" data-cta="/app?q=婴儿护理指南：新生儿喂养、睡眠、疫苗接种和常见问题处理，请给出权威建议和注意事项。">
-        <span class="guide-tag">妇幼育儿</span>
-        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M9 12h6M12 9v6"/><circle cx="12" cy="12" r="10"/><path d="M8 4h8M8 20h8" stroke-dasharray="2 2"/></svg></div>
-        <h4>婴儿护理</h4>
-        <div class="guide-key"><span class="guide-key-icon">🍼</span><p>纯母乳 6 个月、仰睡、按时疫苗——三件事护住婴儿期。</p></div>
-      </a>
-      <a class="guide-card c-blue" data-num="06" href="#" data-cta="/app?q=儿童成长指导：幼儿生长发育监测、行为心理引导、安全教育和营养需求，请给出分年龄段建议。">
-        <span class="guide-tag">妇幼育儿</span>
-        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M3 20h18M5 20V10l7-5 7 5v10"/><path d="M9 20v-6h6v6"/><path d="M12 3v2"/></svg></div>
-        <h4>儿童成长指导</h4>
-        <div class="guide-key"><span class="guide-key-icon">🧒</span><p>每天户外 2 小时、少屏幕、监测生长曲线——童年习惯影响一生。</p></div>
-      </a>
-      <a class="guide-card c-pink" data-num="07" href="#" data-cta="/app?q=女性健康指南：生理期管理、备孕孕期保健、更年期护理和常见妇科问题，请给出循证建议。">
-        <span class="guide-tag">妇幼育儿</span>
-        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="5"/><path d="M12 13v8M8 17h8"/></svg></div>
-        <h4>女性健康</h4>
-        <div class="guide-key"><span class="guide-key-icon">🌸</span><p>定期筛查、孕前补叶酸、更年期不硬扛——每个阶段都有重点。</p></div>
-      </a>
-      <a class="guide-card c-violet" data-num="08" href="#" data-cta="/app?q=老年健康管理：慢性病控制、跌倒预防、认知维护、营养和用药安全，请给出适合老年人的建议。">
-        <span class="guide-tag">银发健康</span>
-        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="5" r="2.5"/><path d="M8 22l2-7h4l2 7M7 15l-2 3M17 15l2 3"/></svg></div>
-        <h4>老年健康管理</h4>
-        <div class="guide-key"><span class="guide-key-icon">🧓</span><p>防跌倒、控慢病、防肌少、慎用药——主动健康，优雅变老。</p></div>
-      </a>
-      <a class="guide-card c-amber" data-num="09" href="#" data-cta="/app?q=慢性病自我管理：高血压、糖尿病、高血脂的日常监测、饮食运动和用药依从性指导。">
-        <span class="guide-tag">慢病管理</span>
-        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M3 12h4l2-6 4 12 2-6h6"/></svg></div>
-        <h4>慢病自我管理</h4>
-        <div class="guide-key"><span class="guide-key-icon">❤️</span><p>管住嘴、迈开腿、按时吃药、定期监测——慢病可防可控。</p></div>
-      </a>
-      <a class="guide-card c-violet" data-num="10" href="#" data-cta="/app?q=心理健康指导：如何识别焦虑和抑郁信号、压力管理方法、睡眠障碍改善，以及什么情况下需要寻求专业心理帮助。">
-        <span class="guide-tag">心理睡眠</span>
-        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
-        <h4>心理健康</h4>
-        <div class="guide-key"><span class="guide-key-icon">🧠</span><p>睡好、动起来、说出来、不硬扛——心理感冒也需要治疗。</p></div>
-      </a>
-      <a class="guide-card c-cyan" data-num="11" href="#" data-cta="/app?q=口腔健康指南：龋齿和牙周病的预防、正确刷牙与使用牙线、儿童窝沟封闭与涂氟、智齿与口腔常见问题处理。">
-        <span class="guide-tag">五官健康</span>
-        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2c-3 0-5 2-5 5 0 2 1 4 1 6s-1 5 1 7c1 1 2 1 3 0 1 1 2 1 3 0 2-2 1-5 1-7s1-4 1-6c0-3-2-5-5-5z"/></svg></div>
-        <h4>口腔健康</h4>
-        <div class="guide-key"><span class="guide-key-icon">🦷</span><p>每天刷牙 2 次加牙线、半年查一次——口腔好，全身才好。</p></div>
-      </a>
-      <a class="guide-card c-cyan" data-num="12" href="#" data-cta="/app?q=眼健康指南：近视防控方法、干眼综合征的日常护理、青光眼和白内障的早期信号、长时间用眼的护眼建议。">
-        <span class="guide-tag">五官健康</span>
-        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
-        <h4>眼健康</h4>
-        <div class="guide-key"><span class="guide-key-icon">👁️</span><p>户外 2 小时、20-20-20、40 岁查眼压——眼睛值得好好护。</p></div>
-      </a>
+      <article class="guide-card c-green" data-num="01" data-cta="/app?q=健康生活习惯理念：如何通过饮食、运动、睡眠和压力管理改善整体健康状况？请给出循证的日常建议。">
+        <div class="guide-card-intro">
+          <span class="guide-tag">日常健康</span>
+          <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
+          <h4>健康生活习惯</h4>
+          <div class="guide-key"><span class="guide-key-icon">🌱</span><p>吃动平衡、戒烟限酒、睡够 7 小时——健康是日复一日的选择。</p></div>
+        </div>
+      </article>
+      <article class="guide-card c-green" data-num="02" data-cta="/app?q=营养与饮食指导：中国居民膳食指南要点、不同人群营养需求、常见营养素缺乏表现、食品安全与合理搭配建议。">
+        <div class="guide-card-intro">
+          <span class="guide-tag">日常健康</span>
+          <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M12 6v6l4 2"/></svg></div>
+          <h4>营养与饮食</h4>
+          <div class="guide-key"><span class="guide-key-icon">🥗</span><p>每天 12 种食物、盐不超 5 克——吃对了，病少一半。</p></div>
+        </div>
+      </article>
+      <article class="guide-card c-green" data-num="03" data-cta="/app?q=运动与康复指导：科学运动处方制定、常见运动损伤处理与预防、术后康复训练原则、不同年龄段适合的运动方式。">
+        <div class="guide-card-intro">
+          <span class="guide-tag">日常健康</span>
+          <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="5" r="2"/><path d="M12 7v6l-4 4M12 13l4 4M8 21l4-4 4 4"/></svg></div>
+          <h4>运动与康复</h4>
+          <div class="guide-key"><span class="guide-key-icon">🏃</span><p>每周 150 分钟、少坐多站——身体活动是最好的药。</p></div>
+        </div>
+      </article>
+      <article class="guide-card c-amber" data-num="04" data-cta="/app?q=职业病防护：长期伏案工作导致的颈肩腰背痛、视疲劳、鼠标手，以及粉尘噪声化学暴露的职业健康防护建议。">
+        <div class="guide-card-intro">
+          <span class="guide-tag">职业健康</span>
+          <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M2 20h20M4 20V8l8-4 8 4v12"/><path d="M9 20v-6h6v6"/><circle cx="12" cy="11" r="1.5"/></svg></div>
+          <h4>职业病防护</h4>
+          <div class="guide-key"><span class="guide-key-icon">💺</span><p>每 45 分钟起身、20-20-20 护眼——预防比治疗容易百倍。</p></div>
+        </div>
+      </article>
+      <article class="guide-card c-blue" data-num="05" data-cta="/app?q=婴儿护理指南：新生儿喂养、睡眠、疫苗接种和常见问题处理，请给出权威建议和注意事项。">
+        <div class="guide-card-intro">
+          <span class="guide-tag">妇幼育儿</span>
+          <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M9 12h6M12 9v6"/><circle cx="12" cy="12" r="10"/><path d="M8 4h8M8 20h8" stroke-dasharray="2 2"/></svg></div>
+          <h4>婴儿护理</h4>
+          <div class="guide-key"><span class="guide-key-icon">🍼</span><p>纯母乳 6 个月、仰睡、按时疫苗——三件事护住婴儿期。</p></div>
+        </div>
+      </article>
+      <article class="guide-card c-blue" data-num="06" data-cta="/app?q=儿童成长指导：幼儿生长发育监测、行为心理引导、安全教育和营养需求，请给出分年龄段建议。">
+        <div class="guide-card-intro">
+          <span class="guide-tag">妇幼育儿</span>
+          <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M3 20h18M5 20V10l7-5 7 5v10"/><path d="M9 20v-6h6v6"/><path d="M12 3v2"/></svg></div>
+          <h4>儿童成长指导</h4>
+          <div class="guide-key"><span class="guide-key-icon">🧒</span><p>每天户外 2 小时、少屏幕、监测生长曲线——童年习惯影响一生。</p></div>
+        </div>
+      </article>
+      <article class="guide-card c-pink" data-num="07" data-cta="/app?q=女性健康指南：生理期管理、备孕孕期保健、更年期护理和常见妇科问题，请给出循证建议。">
+        <div class="guide-card-intro">
+          <span class="guide-tag">妇幼育儿</span>
+          <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="5"/><path d="M12 13v8M8 17h8"/></svg></div>
+          <h4>女性健康</h4>
+          <div class="guide-key"><span class="guide-key-icon">🌸</span><p>定期筛查、孕前补叶酸、更年期不硬扛——每个阶段都有重点。</p></div>
+        </div>
+      </article>
+      <article class="guide-card c-violet" data-num="08" data-cta="/app?q=老年健康管理：慢性病控制、跌倒预防、认知维护、营养和用药安全，请给出适合老年人的建议。">
+        <div class="guide-card-intro">
+          <span class="guide-tag">银发健康</span>
+          <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="5" r="2.5"/><path d="M8 22l2-7h4l2 7M7 15l-2 3M17 15l2 3"/></svg></div>
+          <h4>老年健康管理</h4>
+          <div class="guide-key"><span class="guide-key-icon">🧓</span><p>防跌倒、控慢病、防肌少、慎用药——主动健康，优雅变老。</p></div>
+        </div>
+      </article>
+      <article class="guide-card c-amber" data-num="09" data-cta="/app?q=慢性病自我管理：高血压、糖尿病、高血脂的日常监测、饮食运动和用药依从性指导。">
+        <div class="guide-card-intro">
+          <span class="guide-tag">慢病管理</span>
+          <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M3 12h4l2-6 4 12 2-6h6"/></svg></div>
+          <h4>慢病自我管理</h4>
+          <div class="guide-key"><span class="guide-key-icon">❤️</span><p>管住嘴、迈开腿、按时吃药、定期监测——慢病可防可控。</p></div>
+        </div>
+      </article>
+      <article class="guide-card c-violet" data-num="10" data-cta="/app?q=心理健康指导：如何识别焦虑和抑郁信号、压力管理方法、睡眠障碍改善，以及什么情况下需要寻求专业心理帮助。">
+        <div class="guide-card-intro">
+          <span class="guide-tag">心理睡眠</span>
+          <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
+          <h4>心理健康</h4>
+          <div class="guide-key"><span class="guide-key-icon">🧠</span><p>睡好、动起来、说出来、不硬扛——心理感冒也需要治疗。</p></div>
+        </div>
+      </article>
+      <article class="guide-card c-cyan" data-num="11" data-cta="/app?q=口腔健康指南：龋齿和牙周病的预防、正确刷牙与使用牙线、儿童窝沟封闭与涂氟、智齿与口腔常见问题处理。">
+        <div class="guide-card-intro">
+          <span class="guide-tag">五官健康</span>
+          <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2c-3 0-5 2-5 5 0 2 1 4 1 6s-1 5 1 7c1 1 2 1 3 0 1 1 2 1 3 0 2-2 1-5 1-7s1-4 1-6c0-3-2-5-5-5z"/></svg></div>
+          <h4>口腔健康</h4>
+          <div class="guide-key"><span class="guide-key-icon">🦷</span><p>每天刷牙 2 次加牙线、半年查一次——口腔好，全身才好。</p></div>
+        </div>
+      </article>
+      <article class="guide-card c-cyan" data-num="12" data-cta="/app?q=眼健康指南：近视防控方法、干眼综合征的日常护理、青光眼和白内障的早期信号、长时间用眼的护眼建议。">
+        <div class="guide-card-intro">
+          <span class="guide-tag">五官健康</span>
+          <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <h4>眼健康</h4>
+          <div class="guide-key"><span class="guide-key-icon">👁️</span><p>户外 2 小时、20-20-20、40 岁查眼压——眼睛值得好好护。</p></div>
+        </div>
+      </article>
 
       </div>
       <button class="guide-nav next" id="guideNext" aria-label="下一页">
@@ -981,23 +1007,6 @@ footer {
   </div>
 </section>
 
-<!-- 健康常识模态框 -->
-<div class="guide-modal-overlay" id="guideModalOverlay">
-  <div class="guide-modal" id="guideModal">
-    <div class="guide-modal-top" id="guideModalTop"></div>
-    <button class="guide-modal-close" id="guideModalClose" aria-label="关闭">
-      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
-    </button>
-    <div class="guide-modal-body">
-      <span class="guide-modal-tag" id="guideModalTag"></span>
-      <h3 id="guideModalTitle"></h3>
-      <div class="guide-modal-principle" id="guideModalPrinciple"></div>
-      <p class="guide-modal-summary" id="guideModalSummary"></p>
-      <ul class="guide-modal-points" id="guideModalPoints"></ul>
-      <div class="guide-modal-stats" id="guideModalStats"></div>
-    </div>
-  </div>
-</div>
 
 <!-- ============ 身体地图 ============ -->
 <section id="bodymap">
@@ -1374,53 +1383,45 @@ var GUIDE_DATA = {
   }
 };
 
-/* ===== 健康常识模态框 ===== */
+/* ===== 健康常识轮播详情 ===== */
 (function() {
-  var overlay = document.getElementById('guideModalOverlay');
-  var topBar = document.getElementById('guideModalTop');
-  var tagEl = document.getElementById('guideModalTag');
-  var titleEl = document.getElementById('guideModalTitle');
-  var principleEl = document.getElementById('guideModalPrinciple');
-  var summaryEl = document.getElementById('guideModalSummary');
-  var pointsEl = document.getElementById('guideModalPoints');
-  var statsEl = document.getElementById('guideModalStats');
-  var closeBtn = document.getElementById('guideModalClose');
-  if (!overlay) return;
-
-  function openModal(num) {
-    var d = GUIDE_DATA[num];
-    if (!d) return;
-    topBar.style.background = d.color;
-    tagEl.textContent = d.tag;
-    tagEl.style.background = d.colorSoft;
-    tagEl.style.color = d.color;
-    titleEl.textContent = d.title;
-    principleEl.textContent = d.principle;
-    principleEl.style.background = d.colorSoft;
-    principleEl.style.borderLeftColor = d.color;
-    principleEl.style.color = d.color;
-    summaryEl.textContent = d.summary;
-    pointsEl.innerHTML = d.points.map(function(p) {
-      return '<li><span class="pt-ic" style="background:' + d.colorSoft + '">' + p.icon + '</span><span>' + p.text + '</span></li>';
-    }).join('');
-    statsEl.innerHTML = d.stats.map(function(s) {
-      return '<div class="guide-stat"><div class="num" style="color:' + d.color + '">' + s.num + '</div><div class="lbl">' + s.lbl + '</div></div>';
-    }).join('');
-    overlay.classList.add('show');
-  }
-
-  function closeModal() { overlay.classList.remove('show'); }
-
   document.querySelectorAll('.guide-card').forEach(function(card) {
-    card.addEventListener('click', function(e) {
-      e.preventDefault();
-      openModal(card.getAttribute('data-num'));
-    });
+    var data = GUIDE_DATA[card.getAttribute('data-num')];
+    if (!data) return;
+    var detail = document.createElement('div');
+    var principle = document.createElement('div');
+    var summary = document.createElement('p');
+    var points = document.createElement('ul');
+    var footer = document.createElement('div');
+    var stats = document.createElement('div');
+    var cta = document.createElement('a');
+    detail.className = 'guide-detail';
+    principle.className = 'guide-detail-principle';
+    summary.className = 'guide-detail-summary';
+    points.className = 'guide-detail-points';
+    footer.className = 'guide-detail-footer';
+    stats.className = 'guide-detail-stats';
+    cta.className = 'guide-cta';
+    card.style.setProperty('--detail-color', data.color);
+    card.style.setProperty('--detail-soft', data.colorSoft);
+    principle.textContent = data.principle;
+    summary.textContent = data.summary;
+    points.innerHTML = data.points.map(function(point) {
+      return '<li><span class="pt-ic">' + point.icon + '</span><span>' + point.text + '</span></li>';
+    }).join('');
+    stats.innerHTML = data.stats.map(function(stat) {
+      return '<div class="guide-stat"><div class="num">' + stat.num + '</div><div class="lbl">' + stat.lbl + '</div></div>';
+    }).join('');
+    cta.href = card.getAttribute('data-cta') || '/app';
+    cta.innerHTML = '咨询医答<svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+    detail.appendChild(principle);
+    detail.appendChild(summary);
+    detail.appendChild(points);
+    footer.appendChild(stats);
+    footer.appendChild(cta);
+    detail.appendChild(footer);
+    card.appendChild(detail);
   });
-
-  closeBtn.addEventListener('click', closeModal);
-  overlay.addEventListener('click', function(e) { if (e.target === overlay) closeModal(); });
-  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeModal(); });
 })();
 
 /* ===== 交互式解剖图 ===== */

@@ -173,23 +173,6 @@ section { padding: 72px 0; }
   border-radius: 2px;
 }
 
-/* ===== 疾病分布 ===== */
-#explore { background: var(--bg-card); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.tools-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-.tool-card {
-  background: var(--bg); border-radius: 14px; padding: 28px;
-  display: flex; gap: 18px; align-items: flex-start;
-  border: 1px solid var(--line); transition: all .2s;
-}
-.tool-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,.08); }
-.tool-card .ic {
-  width: 48px; height: 48px; border-radius: 12px;
-  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
-}
-.tool-card .ic svg { width: 24px; height: 24px; }
-.tool-card h4 { font-size: 17px; font-weight: 700; color: var(--ink); margin-bottom: 6px; }
-.tool-card p { font-size: 13.5px; color: var(--muted); line-height: 1.6; }
-
 /* ===== 高发疾病排名 ===== */
 #ranking { background: var(--bg); }
 .disease-list { display: flex; flex-direction: column; gap: 14px; }
@@ -227,8 +210,8 @@ section { padding: 72px 0; }
 .disease-col { padding: 16px 20px; }
 .disease-col + .disease-col { border-left: 1px solid var(--line); }
 .disease-col-title {
-  font-size: 12px; font-weight: 700; letter-spacing: .5px;
-  margin-bottom: 10px; display: flex; align-items: center; gap: 6px;
+  font-size: 15px; font-weight: 700; letter-spacing: .25px;
+  margin-bottom: 12px; display: flex; align-items: center; gap: 6px;
   font-family: var(--serif);
 }
 .disease-col.cause { background: var(--amber-soft); }
@@ -239,23 +222,23 @@ section { padding: 72px 0; }
 .disease-col.myth .disease-col-title { color: var(--red); }
 .disease-tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .disease-tag {
-  display: inline-block; font-size: 12px; font-weight: 500;
-  padding: 3px 10px; border-radius: 6px; line-height: 1.4;
+  display: inline-block; font-size: 14px; font-weight: 500;
+  padding: 5px 12px; border-radius: 8px; line-height: 1.5;
   background: #fff; border: 1px solid rgba(0,0,0,.06);
 }
-.disease-myth-text { font-size: 13px; line-height: 1.7; color: var(--red); }
+.disease-myth-text { font-size: 14px; line-height: 1.7; color: var(--red); }
 .disease-myth-text .myth-quote {
   display: inline-block; background: #fff; color: var(--red);
   padding: 1px 8px; border-radius: 4px; font-weight: 600; margin: 1px 2px;
-  font-size: 12px; border: 1px solid rgba(196,69,58,.15);
+  font-size: 14px; border: 1px solid rgba(196,69,58,.15);
 }
 .disease-myth-text .myth-correct { color: var(--green); font-weight: 600; }
 
 /* ===== 健康常识轮播 ===== */
 #guide { background: var(--bg-card); border-top: 1px solid var(--line); }
 .guide-carousel { position: relative; overflow: hidden; padding: 0 50px; }
-.guide-track { display: flex; gap: 20px; transition: transform .5s cubic-bezier(.4,0,.2,1); will-change: transform; }
-.guide-track .guide-card { flex: 0 0 calc((100% - 60px) / 4); min-width: 0; }
+.guide-track { display: flex; transition: transform .5s cubic-bezier(.4,0,.2,1); will-change: transform; }
+.guide-track .guide-card { flex: 0 0 100%; min-width: 0; }
 .guide-nav {
   position: absolute; top: 50%; transform: translateY(-50%);
   width: 40px; height: 40px; border-radius: 50%;
@@ -307,7 +290,17 @@ section { padding: 72px 0; }
 .guide-ic svg { width: 26px; height: 26px; stroke: var(--gc, var(--green)); transition: stroke .25s; }
 .guide-card:hover .guide-ic { background: var(--gc, var(--green)); }
 .guide-card h4 { font-size: 17px; font-weight: 700; margin-bottom: 8px; color: var(--ink); position: relative; z-index: 1; font-family: var(--serif); }
-.guide-card p { font-size: 13px; color: var(--muted); line-height: 1.6; position: relative; z-index: 1; }
+.guide-key {
+  display: flex; align-items: flex-start; gap: 10px; position: relative; z-index: 1;
+  margin-top: 12px; padding: 12px 14px; border-radius: 10px;
+  background: var(--gc-soft, var(--green-soft)); color: var(--ink);
+}
+.guide-key-icon {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 26px; height: 26px; border-radius: 8px; font-size: 15px; line-height: 1;
+  background: #fff; flex-shrink: 0;
+}
+.guide-key p { font-size: 14px; font-weight: 600; color: var(--ink); line-height: 1.6; margin: 0; }
 .guide-tag {
   display: inline-block; font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 999px;
   background: var(--gc-soft, var(--green-soft)); color: var(--gc, var(--green)); margin-bottom: 10px;
@@ -473,9 +466,7 @@ footer {
   .hero-visual { height: 320px; }
   .hero h1 { font-size: 36px; }
   .guide-carousel { padding: 0 40px; }
-  .guide-track .guide-card { flex: 0 0 calc((100% - 20px) / 2); }
   .bm-wrap { grid-template-columns: 1fr; }
-  .tools-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 860px) {
@@ -489,7 +480,6 @@ footer {
 @media (max-width: 620px) {
   .hero h1 { font-size: 28px; }
   .guide-carousel { padding: 0 36px; }
-  .guide-track .guide-card { flex: 0 0 100%; }
   .guide-nav { width: 32px; height: 32px; }
   .section-title { font-size: 24px; }
   .footer-grid { grid-template-columns: 1fr; }
@@ -512,7 +502,6 @@ footer {
       <a href="#ranking">疾病排名</a>
       <a href="#guide">健康常识</a>
       <a href="#bodymap">身体地图</a>
-      <a href="/map">疾病分布</a>
       <a href="/stats">数据全景</a>
       <a href="/app" class="nav-cta">开始咨询</a>
     </nav>
@@ -548,33 +537,6 @@ footer {
           <div class="lbl">专业医学工具</div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ 疾病分布 ============ -->
-<section id="explore">
-  <div class="container">
-    <h2 class="section-title">疾病分布</h2>
-    <div class="tools-grid">
-      <a class="tool-card" href="/map">
-        <div class="ic" style="background:var(--blue-soft);">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#3A6B8C" stroke-width="2" stroke-linecap="round"><path d="M2 12h20M12 2c3 3.5 3 16.5 0 20M12 2c-3 3.5-3 16.5 0 20"/></svg>
-        </div>
-        <div>
-          <h4>全国高发病地图</h4>
-          <p>34 个省级行政区的高发疾病：南方遗传代谢病、中原消化道肿瘤、北方慢病；含分省高血压患病率分档。</p>
-        </div>
-      </a>
-      <a class="tool-card" href="/stats">
-        <div class="ic" style="background:var(--green-soft);">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#0D3B3B" stroke-width="2" stroke-linecap="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
-        </div>
-        <div>
-          <h4>中国人发病全景</h4>
-          <p>心血管病现患 3.3 亿、高血压 27.5%、糖尿病 2.33 亿——10 个维度全部为真实权威数据。</p>
-        </div>
-      </a>
     </div>
   </div>
 </section>
@@ -941,73 +903,73 @@ footer {
         <span class="guide-tag">日常健康</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
         <h4>健康生活习惯</h4>
-        <p>均衡饮食 · 规律运动 · 优质睡眠 · 压力管理</p>
+        <div class="guide-key"><span class="guide-key-icon">🌱</span><p>吃动平衡、戒烟限酒、睡够 7 小时——健康是日复一日的选择。</p></div>
       </a>
       <a class="guide-card c-green" data-num="02" href="#" data-cta="/app?q=营养与饮食指导：中国居民膳食指南要点、不同人群营养需求、常见营养素缺乏表现、食品安全与合理搭配建议。">
         <span class="guide-tag">日常健康</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M12 6v6l4 2"/></svg></div>
         <h4>营养与饮食</h4>
-        <p>膳食指南要点 · 营养素缺乏 · 食品安全 · 合理搭配</p>
+        <div class="guide-key"><span class="guide-key-icon">🥗</span><p>每天 12 种食物、盐不超 5 克——吃对了，病少一半。</p></div>
       </a>
       <a class="guide-card c-green" data-num="03" href="#" data-cta="/app?q=运动与康复指导：科学运动处方制定、常见运动损伤处理与预防、术后康复训练原则、不同年龄段适合的运动方式。">
         <span class="guide-tag">日常健康</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="5" r="2"/><path d="M12 7v6l-4 4M12 13l4 4M8 21l4-4 4 4"/></svg></div>
         <h4>运动与康复</h4>
-        <p>科学运动处方 · 损伤 RICE 处理 · 术后康复 · 分龄建议</p>
+        <div class="guide-key"><span class="guide-key-icon">🏃</span><p>每周 150 分钟、少坐多站——身体活动是最好的药。</p></div>
       </a>
       <a class="guide-card c-amber" data-num="04" href="#" data-cta="/app?q=职业病防护：长期伏案工作导致的颈肩腰背痛、视疲劳、鼠标手，以及粉尘噪声化学暴露的职业健康防护建议。">
         <span class="guide-tag">职业健康</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M2 20h20M4 20V8l8-4 8 4v12"/><path d="M9 20v-6h6v6"/><circle cx="12" cy="11" r="1.5"/></svg></div>
         <h4>职业病防护</h4>
-        <p>颈肩腰背痛 · 视疲劳鼠标手 · 工间操 · 粉尘噪声防护</p>
+        <div class="guide-key"><span class="guide-key-icon">💺</span><p>每 45 分钟起身、20-20-20 护眼——预防比治疗容易百倍。</p></div>
       </a>
       <a class="guide-card c-blue" data-num="05" href="#" data-cta="/app?q=婴儿护理指南：新生儿喂养、睡眠、疫苗接种和常见问题处理，请给出权威建议和注意事项。">
         <span class="guide-tag">妇幼育儿</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M9 12h6M12 9v6"/><circle cx="12" cy="12" r="10"/><path d="M8 4h8M8 20h8" stroke-dasharray="2 2"/></svg></div>
         <h4>婴儿护理</h4>
-        <p>0-1岁喂养 · 睡眠训练 · 疫苗程序 · 发热腹泻护理</p>
+        <div class="guide-key"><span class="guide-key-icon">🍼</span><p>纯母乳 6 个月、仰睡、按时疫苗——三件事护住婴儿期。</p></div>
       </a>
       <a class="guide-card c-blue" data-num="06" href="#" data-cta="/app?q=儿童成长指导：幼儿生长发育监测、行为心理引导、安全教育和营养需求，请给出分年龄段建议。">
         <span class="guide-tag">妇幼育儿</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M3 20h18M5 20V10l7-5 7 5v10"/><path d="M9 20v-6h6v6"/><path d="M12 3v2"/></svg></div>
         <h4>儿童成长指导</h4>
-        <p>生长发育曲线 · 行为心理引导 · 意外伤害预防 · 学龄营养</p>
+        <div class="guide-key"><span class="guide-key-icon">🧒</span><p>每天户外 2 小时、少屏幕、监测生长曲线——童年习惯影响一生。</p></div>
       </a>
       <a class="guide-card c-pink" data-num="07" href="#" data-cta="/app?q=女性健康指南：生理期管理、备孕孕期保健、更年期护理和常见妇科问题，请给出循证建议。">
         <span class="guide-tag">妇幼育儿</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="5"/><path d="M12 13v8M8 17h8"/></svg></div>
         <h4>女性健康</h4>
-        <p>生理期调理 · 备孕孕期保健 · 产后恢复 · 更年期</p>
+        <div class="guide-key"><span class="guide-key-icon">🌸</span><p>定期筛查、孕前补叶酸、更年期不硬扛——每个阶段都有重点。</p></div>
       </a>
       <a class="guide-card c-violet" data-num="08" href="#" data-cta="/app?q=老年健康管理：慢性病控制、跌倒预防、认知维护、营养和用药安全，请给出适合老年人的建议。">
         <span class="guide-tag">银发健康</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="5" r="2.5"/><path d="M8 22l2-7h4l2 7M7 15l-2 3M17 15l2 3"/></svg></div>
         <h4>老年健康管理</h4>
-        <p>慢病控制 · 跌倒预防 · 认知维护 · 多重用药安全</p>
+        <div class="guide-key"><span class="guide-key-icon">🧓</span><p>防跌倒、控慢病、防肌少、慎用药——主动健康，优雅变老。</p></div>
       </a>
       <a class="guide-card c-amber" data-num="09" href="#" data-cta="/app?q=慢性病自我管理：高血压、糖尿病、高血脂的日常监测、饮食运动和用药依从性指导。">
         <span class="guide-tag">慢病管理</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M3 12h4l2-6 4 12 2-6h6"/></svg></div>
         <h4>慢病自我管理</h4>
-        <p>高血压糖尿病高血脂 · 日常监测 · 饮食运动 · 并发症信号</p>
+        <div class="guide-key"><span class="guide-key-icon">❤️</span><p>管住嘴、迈开腿、按时吃药、定期监测——慢病可防可控。</p></div>
       </a>
       <a class="guide-card c-violet" data-num="10" href="#" data-cta="/app?q=心理健康指导：如何识别焦虑和抑郁信号、压力管理方法、睡眠障碍改善，以及什么情况下需要寻求专业心理帮助。">
         <span class="guide-tag">心理睡眠</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
         <h4>心理健康</h4>
-        <p>焦虑抑郁识别 · 压力情绪调节 · 失眠改善 · 何时求助</p>
+        <div class="guide-key"><span class="guide-key-icon">🧠</span><p>睡好、动起来、说出来、不硬扛——心理感冒也需要治疗。</p></div>
       </a>
       <a class="guide-card c-cyan" data-num="11" href="#" data-cta="/app?q=口腔健康指南：龋齿和牙周病的预防、正确刷牙与使用牙线、儿童窝沟封闭与涂氟、智齿与口腔常见问题处理。">
         <span class="guide-tag">五官健康</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2c-3 0-5 2-5 5 0 2 1 4 1 6s-1 5 1 7c1 1 2 1 3 0 1 1 2 1 3 0 2-2 1-5 1-7s1-4 1-6c0-3-2-5-5-5z"/></svg></div>
         <h4>口腔健康</h4>
-        <p>龋齿牙周预防 · 正确刷牙牙线 · 窝沟封闭涂氟 · 智齿</p>
+        <div class="guide-key"><span class="guide-key-icon">🦷</span><p>每天刷牙 2 次加牙线、半年查一次——口腔好，全身才好。</p></div>
       </a>
       <a class="guide-card c-cyan" data-num="12" href="#" data-cta="/app?q=眼健康指南：近视防控方法、干眼综合征的日常护理、青光眼和白内障的早期信号、长时间用眼的护眼建议。">
         <span class="guide-tag">五官健康</span>
         <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
         <h4>眼健康</h4>
-        <p>近视防控 · 干眼护理 · 青光眼白内障信号 · 20-20-20法则</p>
+        <div class="guide-key"><span class="guide-key-icon">👁️</span><p>户外 2 小时、20-20-20、40 岁查眼压——眼睛值得好好护。</p></div>
       </a>
 
       </div>
@@ -1098,7 +1060,7 @@ footer {
           </span>
           医答
         </div>
-        <p>循证医学 AI 助手，基于权威知识库回答健康问题。本产品不能替代医生面诊，急症请立即拨打 120。</p>
+        <p>循证医学 AI 助手，基于权威知识库回答健康问题。</p>
       </div>
       <div class="footer-col">
         <h5>产品</h5>
@@ -1111,12 +1073,6 @@ footer {
         <h5>数据</h5>
         <a href="/map">疾病分布</a>
         <a href="/stats">数据全景</a>
-      </div>
-      <div class="footer-col">
-        <h5>关于</h5>
-        <a href="#">免责声明</a>
-        <a href="#">隐私政策</a>
-        <a href="#">数据来源</a>
       </div>
     </div>
     <div class="footer-bottom">
@@ -1154,15 +1110,11 @@ footer {
   var cards = track.querySelectorAll('.guide-card');
   var total = cards.length;
   var current = 0;
-  var perPage = 4;
+  var perPage = 1;
   var pages = 1;
   var autoTimer = null;
 
   function calcPerPage() {
-    var w = window.innerWidth;
-    if (w <= 620) perPage = 1;
-    else if (w <= 980) perPage = 2;
-    else perPage = 4;
     pages = Math.ceil(total / perPage);
     if (current >= pages) current = pages - 1;
     if (current < 0) current = 0;

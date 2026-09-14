@@ -37,8 +37,12 @@ fi
 for i in $(seq 1 30); do
   docker exec "$CONTAINER" mariadb -uroot -e "SELECT 1" >/dev/null 2>&1 && break
   [ "$i" = 30 ] && { echo "错误: 数据库 60s 未就绪"; exit 1; }
-  sleep 2
-done
+	  sleep 2
+	done
+
+docker exec "$CONTAINER" mariadb -uroot -e \
+	"CREATE DATABASE IF NOT EXISTS doctor_knowledge CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci"
+
 KNOWLEDGE_DB_DSN="root@tcp(127.0.0.1:${PORT})/doctor_knowledge?parseTime=true&interpolateParams=true" \
   go run ./cmd/kbseed
 

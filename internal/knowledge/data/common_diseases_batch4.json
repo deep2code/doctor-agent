@@ -908,5 +908,223 @@
       "GLP-1",
       "并发症"
     ]
+  },
+  {
+    "id": "common-058",
+    "condition_zh": "婴儿胀气和排气增多",
+    "condition_en": "Infant Gas and Excessive Flatus",
+    "category": "儿科消化",
+    "icd10": "R14",
+    "regions": ["global"],
+    "diagnosis": {
+      "clinical_features": [
+        "屁多或屁臭",
+        "轻度腹胀、肚子咕咕响",
+        "吃奶或哭闹时吞入空气",
+        "一般吃奶、体重增长和精神状态正常"
+      ]
+    },
+    "treatment": [
+      {
+        "citation_ref": "AAP-Infant-Gas",
+        "evidence_level": "C",
+        "indication": "多数单纯屁多/屁臭",
+        "method": "喂奶后拍嗝",
+        "notes": "喂奶中及喂奶后都可拍嗝；避免大哭时大量吞气。"
+      },
+      {
+        "citation_ref": "AAP-Infant-Gas",
+        "evidence_level": "C",
+        "indication": "轻中度胀气",
+        "method": "调整喂养方式",
+        "notes": "奶瓶喂养可检查奶嘴流速并减少摇晃产生的气泡；必要时在喂养前让奶液静置。"
+      },
+      {
+        "citation_ref": "AAP-Infant-Gas",
+        "evidence_level": "C",
+        "indication": "腹部轻度不适",
+        "method": "蹬自行车式活动和俯卧练习",
+        "notes": "在清醒且有看护时进行；俯卧练习只用于清醒状态，不能用于睡觉。"
+      },
+      {
+        "citation_ref": "AAP-Infant-Gas",
+        "evidence_level": "C",
+        "indication": "考虑使用西甲硅油前",
+        "method": "先咨询儿科医生",
+        "notes": "AAP指出西甲硅油证据有限；不建议未咨询医生前常规用药。"
+      }
+    ],
+    "when_to_seek_care": [
+      "呕吐胆汁或呕血",
+      "血便、黑便或明显腹泻",
+      "腹部硬、膨隆且压痛",
+      "反复阵发性剧烈哭闹、拒奶或精神差",
+      "发热、脱水或体重不增"
+    ],
+    "citations": [
+      {
+        "type": "expert_opinion",
+        "title": "Gas Relief for Babies",
+        "journal": "",
+        "year": 2025,
+        "level": "expert_opinion",
+        "url": "https://www.healthychildren.org/English/ages-stages/baby/diapers-clothing/Pages/Breaking-Up-Gas.aspx"
+      }
+    ],
+    "keywords": [
+      "放屁",
+      "放屁很臭",
+      "屁多",
+      "屁臭",
+      "排气多",
+      "胀气",
+      "婴儿胀气",
+      "肚子胀",
+      "吞气",
+      "拍嗝"
+    ]
+  },
+  {
+    "id": "common-059",
+    "condition_zh": "儿童磨牙和咬牙",
+    "condition_en": "Bruxism and Teeth Grinding in Children",
+    "category": "儿科口腔",
+    "icd10": "G47.63",
+    "regions": ["global"],
+    "diagnosis": {
+      "clinical_features": [
+        "睡觉或清醒时上下牙摩擦、紧咬",
+        "可发生在出牙期、疲劳、紧张或兴奋后",
+        "多数幼儿为短暂现象，牙齿和发育正常时无需特殊治疗"
+      ]
+    },
+    "treatment": [
+      {
+        "citation_ref": "AAP-Teeth-Grinding",
+        "evidence_level": "C",
+        "indication": "偶发咬牙或睡眠磨牙",
+        "method": "观察并减少诱因",
+        "notes": "保证规律睡眠、睡前安静放松，避免睡前过度兴奋。"
+      },
+      {
+        "citation_ref": "AAP-Teeth-Grinding",
+        "evidence_level": "C",
+        "indication": "出牙不适伴啃咬",
+        "method": "提供安全牙胶或冷敷牙胶",
+        "notes": "选择一体式、无小零件的牙胶；成人看护下使用。"
+      },
+      {
+        "citation_ref": "AAP-Teeth-Grinding",
+        "evidence_level": "C",
+        "indication": "牙痛、牙磨损或疑有咬合问题",
+        "method": "看儿科医生或儿童牙医",
+        "notes": "医生会评估牙齿磨损、咬合、疼痛和睡眠情况。"
+      }
+    ],
+    "when_to_seek_care": [
+      "牙齿明显磨损、松动或疼痛",
+      "磨牙伴睡眠中呼吸暂停、打鼾或频繁憋醒",
+      "伴随头痛、面部痛、耳朵痛或张口困难",
+      "情绪紧张明显、白天功能受影响或磨牙持续加重"
+    ],
+    "citations": [
+      {
+        "type": "expert_opinion",
+        "title": "Teeth Grinding in Children",
+        "journal": "",
+        "year": 2026,
+        "level": "expert_opinion",
+        "url": "https://www.healthychildren.org/English/healthy-living/oral-health/Pages/Teeth-Grinding-in-Children.aspx"
+      }
+    ],
+    "keywords": [
+      "咬牙",
+      "磨牙",
+      "夜里磨牙",
+      "紧咬牙齿",
+      "出牙",
+      "牙胶",
+      "bruxism",
+      "teeth grinding"
+    ]
+  },
+  {
+    "id": "common-060",
+    "condition_zh": "婴幼儿咬人行为",
+    "condition_en": "Infant and Toddler Biting Behavior",
+    "category": "儿童保健",
+    "regions": ["global"],
+    "diagnosis": {
+      "clinical_features": [
+        "常见于出牙、探索、兴奋、疲劳或无法表达需求时",
+        "10月龄左右可能用嘴探索物品，也可能在哺乳时咬乳头",
+        "通常不是品行问题，需要温和纠正并满足未被满足的需求"
+      ]
+    },
+    "treatment": [
+      {
+        "citation_ref": "AAP-Aggressive-Behavior",
+        "evidence_level": "C",
+        "indication": "咬人刚发生时",
+        "method": "保持平静并立即停止",
+        "notes": "用简短语言说“不能咬人”，然后转移注意力；不要打骂或反咬示范。"
+      },
+      {
+        "citation_ref": "AAP-Baby-Teeth-Breastfeeding",
+        "evidence_level": "C",
+        "indication": "哺乳时咬乳头",
+        "method": "识别哺乳结束信号",
+        "notes": "吸吮变慢或准备离开乳房时提前断开；若已咬，平静地说“不”，暂时停止哺乳。"
+      },
+      {
+        "citation_ref": "AAP-Baby-Teeth-Breastfeeding",
+        "evidence_level": "C",
+        "indication": "出牙不适引起啃咬",
+        "method": "提供安全的替代咀嚼物",
+        "notes": "哺乳外可提供一体式牙胶；冷藏可缓解不适，避免冷冻过硬。"
+      },
+      {
+        "citation_ref": "AAP-Aggressive-Behavior",
+        "evidence_level": "C",
+        "indication": "反复咬人",
+        "method": "预防并强化温柔行为",
+        "notes": "观察咬人前的疲劳、兴奋、饥饿或受挫信号，及时安抚或转移；表扬轻摸、拥抱等替代行为。"
+      }
+    ],
+    "when_to_seek_care": [
+      "咬伤破皮、明显出血或被咬者需要处理伤口",
+      "咬人频繁且持续数周、难打断",
+      "伴随语言/社交发育明显落后、回避眼神或发育倒退",
+      "伴随严重情绪失控、自伤或家庭照护压力明显增加"
+    ],
+    "citations": [
+      {
+        "type": "expert_opinion",
+        "title": "10 Tips to Prevent Aggressive Behavior in Young Children",
+        "journal": "",
+        "year": 2023,
+        "level": "expert_opinion",
+        "url": "https://www.healthychildren.org/English/ages-stages/toddler/Pages/Aggressive-Behavior.aspx"
+      },
+      {
+        "type": "expert_opinion",
+        "title": "Breastfeeding After Your Baby Gets Teeth",
+        "journal": "",
+        "year": 2022,
+        "level": "expert_opinion",
+        "url": "https://www.healthychildren.org/English/ages-stages/baby/breastfeeding/Pages/When-Your-Baby-Gets-Teeth.aspx"
+      }
+    ],
+    "keywords": [
+      "咬人",
+      "会咬人",
+      "咬东西",
+      "啃咬",
+      "攻击行为",
+      "出牙咬人",
+      "哺乳时咬",
+      "biting",
+      "bite"
+    ]
   }
 ]

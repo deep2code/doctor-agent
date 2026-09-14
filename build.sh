@@ -178,7 +178,8 @@ build_kb() {
       | gzip > docker/kb/init-doctor_knowledge.sql.gz
   }
   echo "[kb] 构建数据镜像 (tag: ${KB_IMAGE_TAG})..."
-  docker build --platform linux/amd64 \
+  docker build --progress=plain --platform linux/amd64 \
+    --pull=false \
     -t "$KB_IMAGE" \
     -t "$KB_IMAGE_LATEST" \
     -f docker/Dockerfile.kb \

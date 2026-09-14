@@ -2,9 +2,11 @@ package knowledge
 
 import (
 	"context"
+	"encoding/json"
 	"os"
 	"path/filepath"
 	"strings"
+	"sync"
 	"testing"
 )
 
@@ -90,5 +92,68 @@ func TestRetrieverInfantNightCryingRecall(t *testing.T) {
 	}
 	if !relevant {
 		t.Errorf("召回条目均与哭闹/肠绞痛无关: %v", entryIDs(res))
+	}
+}
+
+func TestRetrieverInfantGasTeethBitingRecall(t *testing.T) {
+	raw, err := os.ReadFile(filepath.Join("data", "common_diseases_batch4.json"))
+	if err != nil {
+		t.Fatalf("读取儿科条目: %v", err)
+	}
+	var entries []KnowledgeEntry
+	if err := json.Unmarshal(raw, &entries); err != nil {
+		t.Fatalf("解析儿科条目: %v", err)
+	}
+	want := map[string]bool{
+		"common-058": false,
+		"common-059": false,
+		"common-060": false,
+	}
+	for _, entry := range entries {
+		if _, ok := want[entry.ID]; ok {
+			want[entry.ID] = true
+		}
+	}
+	for id, present := range want {
+		if !present {
+			t.Fatalf("缺少回归条目 %s", id)
+		}
+	}
+	for _, entry := range entries {
+		if _, ok := want[entry.ID]; ok && len(entry.Citations) == 0 {
+			t.Errorf("回归条目 %s 缺少引用", entry.ID)
+		}
+	}
+
+	store := &Store{MedicalEntries: entries}
+	doneOnce := &sync.Once{}
+	doneOnce.Do(func() {})
+	for _, dataset := range []string{
+		DSMedical,
+		DSFoodRisk,
+		DSLabTest,
+		DSFHS,
+		DSMSD,
+		DSDiseaseEnc,
+		DSNHC,
+	} {
+		store.onces.Store(dataset, doneOnce)
+	}
+	r := NewRetriever(store)
+
+	res, err := r.Retrieve(context.Background(), "10个月女婴，放屁很臭，有时候会咬牙，还会咬人", 5)
+	if err != nil {
+		t.Fatalf("检索失败: %v", err)
+	}
+	found := make(map[string]bool)
+	for _, rr := range res {
+		if _, ok := want[rr.Entry.ID]; ok {
+			found[rr.Entry.ID] = true
+		}
+	}
+	for id := range want {
+		if !found[id] {
+			t.Errorf("查询未召回 %s，实际: %v", id, entryIDs(res))
+		}
 	}
 }

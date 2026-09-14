@@ -288,11 +288,11 @@ func escapeHTML(s string) string {
 func getChineseFontPath() string {
 	switch runtime.GOOS {
 	case "darwin":
-		// macOS
+		// gofpdf supports TrueType files only; macOS CJK fonts are usually
+		// .ttc collections, so use the bundled Unicode fallback fonts.
 		paths := []string{
-			"/System/Library/Fonts/Hiragino Sans GB.ttc",
-			"/System/Library/Fonts/PingFang.ttc",
-			"/Library/Fonts/Songti.ttc",
+			"/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
+			"/System/Library/Fonts/Supplemental/NISC18030.ttf",
 		}
 		for _, p := range paths {
 			if _, err := os.Stat(p); err == nil {
@@ -301,18 +301,12 @@ func getChineseFontPath() string {
 		}
 		return ""
 	case "linux":
-		// Linux 常见中文字体路径（Debian/Ubuntu/Alpine 等）
+		// gofpdf cannot read CJK .ttc collections. Prefer an installed
+		// TrueType fallback font; Alpine provides it as font-droid-nonlatin.
 		paths := []string{
-			"/usr/share/fonts/truetype/wqy/wqy-microhei.ttc",
-			"/usr/share/fonts/wqy-microhei/wqy-microhei.ttc",
-			"/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc",
-			"/usr/share/fonts/wqy-zenhei/wqy-zenhei.ttc",
-			"/usr/share/fonts/opentype/noto/NotoSansSC-Regular.otf",
-			"/usr/share/fonts/noto-cjk/NotoSansCJK-Regular.ttc", // Alpine font-noto-cjk
-			"/usr/share/fonts/noto-cjk/NotoSerifCJK-Regular.ttc",
+			"/usr/share/fonts/droid-nonlatin/DroidSansFallbackFull.ttf",
 			"/usr/share/fonts/truetype/noto/NotoSansSC-Regular.ttf",
 			"/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf",
-			"/usr/share/fonts/truetype/arphic/uming.ttc",
 		}
 		for _, p := range paths {
 			if _, err := os.Stat(p); err == nil {
@@ -321,11 +315,9 @@ func getChineseFontPath() string {
 		}
 		return ""
 	case "windows":
-		// Windows
+		// .ttc collections are not supported by gofpdf.
 		paths := []string{
 			"C:/Windows/Fonts/simhei.ttf",
-			"C:/Windows/Fonts/msyh.ttc",
-			"C:/Windows/Fonts/simsun.ttc",
 		}
 		for _, p := range paths {
 			if _, err := os.Stat(p); err == nil {
@@ -1358,9 +1350,21 @@ func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
 				http.Error(w, "server has no Chinese font installed; PDF export unavailable", http.StatusInternalServerError)
 				return
 			}
-			pdf.AddUTF8Font("NotoSansSC", "", fontPath)
+			fontData, err := os.ReadFile(fontPath)
+			if err != nil {
+				slog.Error("Failed to read Chinese font for PDF export", "id", id, "font", fontPath, "error", err)
+				http.Error(w, "failed to read Chinese font", http.StatusInternalServerError)
+				return
+			}
+			pdf.AddUTF8FontFromBytes("NotoSansSC", "", fontData)
 			if err := pdf.Error(); err != nil {
 				slog.Error("Failed to add Chinese font for PDF export", "id", id, "font", fontPath, "error", err)
+				http.Error(w, "failed to load Chinese font", http.StatusInternalServerError)
+				return
+			}
+			pdf.AddUTF8FontFromBytes("NotoSansSC", "B", fontData)
+			if err := pdf.Error(); err != nil {
+				slog.Error("Failed to add bold Chinese font for PDF export", "id", id, "font", fontPath, "error", err)
 				http.Error(w, "failed to load Chinese font", http.StatusInternalServerError)
 				return
 			}

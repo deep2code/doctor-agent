@@ -15,7 +15,7 @@
 FROM alpine:3.20
 RUN sed -i 's#dl-cdn.alpinelinux.org#mirrors.aliyun.com#g' /etc/apk/repositories \
     && apk add --no-cache ca-certificates curl mariadb-client \
-       font-noto-cjk fontconfig
+       font-droid-nonlatin
 
 WORKDIR /app
 

@@ -93,11 +93,11 @@ var faviconICO []byte
 
 // Server wraps the HTTP API server for the doctor agent.
 type Server struct {
-	cfg   *config.Config
-	agent *agent.Agent
-	auth  *auth.Service
-	db    *database.DB
-	http  *http.Server
+	cfg     *config.Config
+	agent   *agent.Agent
+	auth    *auth.Service
+	db      *database.DB
+	http    *http.Server
 	limiter *rateLimiter
 
 	// Build metadata (injected from main.go via SetBuildInfo).
@@ -171,7 +171,7 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 		mux.HandleFunc("/sessions/", s.handleSessionByID)
 		mux.HandleFunc("/family", s.handleFamily)
 		mux.HandleFunc("/family/", s.handleFamilyByID)
-mux.HandleFunc("/share", s.handleShare)
+		mux.HandleFunc("/share", s.handleShare)
 		mux.HandleFunc("/share/", s.handleSharePage)
 	}
 	// Admin endpoints
@@ -500,13 +500,223 @@ func renderMarkdown(md string) string {
 	return strings.Join(out, "\n")
 }
 
-// renderMarkdownToPDF 将 Markdown 渲染到 PDF 中
+// PDF rendering constants for chat export.
+const (
+	pdfContentWidth   = 180.0
+	pdfLeftMargin     = 10.0
+	pdfTextLineHeight = 5.0
+	pdfCellLineHeight = 4.6
+	pdfCellPadding    = 1.6
+)
+
+var (
+	pdfInlineLinkRe = regexp.MustCompile(`!?\[([^\]]*)\]\([^)]+\)`)
+	pdfBoldRe       = regexp.MustCompile(`\*\*([^*]+)\*\*`)
+	pdfItalicRe     = regexp.MustCompile(`(^|[^*])\*([^*\n]+)\*($|[^*])`)
+	pdfHeadingRe    = regexp.MustCompile(`^(#{1,6})\s+(.+)$`)
+	pdfOrderedRe    = regexp.MustCompile(`^(\d+)[.)]\s+(.+)$`)
+)
+
+func cleanMarkdownForPDF(text string) string {
+	text = strings.ReplaceAll(text, "\r\n", "\n")
+	text = pdfInlineLinkRe.ReplaceAllString(text, "$1")
+	text = pdfBoldRe.ReplaceAllString(text, "$1")
+	text = pdfItalicRe.ReplaceAllString(text, "$1$2$3")
+	text = strings.ReplaceAll(text, "`", "")
+	return strings.TrimSpace(text)
+}
+
+func ensurePDFSpace(pdf *gofpdf.Fpdf, height float64) {
+	_, pageHeight := pdf.GetPageSize()
+	_, _, _, bottom := pdf.GetMargins()
+	if pdf.GetY()+height > pageHeight-bottom {
+		pdf.AddPage()
+	}
+}
+
+func drawPDFCodeBlock(pdf *gofpdf.Fpdf, code []string) {
+	if len(code) == 0 {
+		return
+	}
+	pdf.SetFont("NotoSansSC", "", 9)
+	pdf.SetFillColor(243, 244, 246)
+	for _, line := range code {
+		ensurePDFSpace(pdf, 4.5)
+		if line == "" {
+			pdf.Ln(4.5)
+			continue
+		}
+		pdf.SetX(pdfLeftMargin + 2)
+		pdf.MultiCell(pdfContentWidth-4, 4.5, line, "", "L", true)
+	}
+	pdf.Ln(3)
+}
+
+func drawPDFListItem(pdf *gofpdf.Fpdf, text, marker string, markerWidth float64) {
+	text = cleanMarkdownForPDF(text)
+	if text == "" {
+		return
+	}
+	pdf.SetFont("NotoSansSC", "", 10)
+	textWidth := pdfContentWidth - markerWidth
+	lines := pdf.SplitText(text, textWidth)
+	for index, line := range lines {
+		ensurePDFSpace(pdf, pdfTextLineHeight)
+		pdf.SetX(pdfLeftMargin)
+		if index == 0 {
+			pdf.Cell(markerWidth, pdfTextLineHeight, marker)
+		} else {
+			pdf.Cell(markerWidth, pdfTextLineHeight, "")
+		}
+		pdf.Cell(textWidth, pdfTextLineHeight, line)
+		pdf.Ln(pdfTextLineHeight)
+	}
+}
+
+func drawPDFTableRow(pdf *gofpdf.Fpdf, widths []float64, lines [][]string, fill bool) {
+	left, top, _, bottom := pdf.GetMargins()
+	_, pageHeight := pdf.GetPageSize()
+	startY := pdf.GetY()
+
+	for {
+		availableHeight := pageHeight - bottom - startY
+		maxLines := int((availableHeight - 2*pdfCellPadding) / pdfCellLineHeight)
+		if maxLines < 1 {
+			pdf.AddPage()
+			startY = top
+			continue
+		}
+
+		remainingLines := 0
+		for _, cellLines := range lines {
+			remainingLines = max(remainingLines, len(cellLines))
+		}
+		chunkSize := min(maxLines, remainingLines)
+		chunkHeight := float64(chunkSize)*pdfCellLineHeight + 2*pdfCellPadding
+		x := left
+
+		pdf.SetFillColor(238, 246, 248)
+		for colIndex, cellLines := range lines {
+			cellWidth := widths[colIndex] - 2*pdfCellPadding
+			if fill {
+				pdf.Rect(x, startY, widths[colIndex], chunkHeight, "F")
+			}
+			pdf.Rect(x, startY, widths[colIndex], chunkHeight, "D")
+			pdf.SetXY(x+pdfCellPadding, startY+pdfCellPadding)
+			end := min(chunkSize, len(cellLines))
+			for _, line := range cellLines[:end] {
+				pdf.CellFormat(cellWidth, pdfCellLineHeight, line, "", 0, "L", false, 0, "")
+				pdf.SetX(x + pdfCellPadding)
+			}
+			x += widths[colIndex]
+		}
+
+		if chunkSize >= remainingLines {
+			pdf.SetXY(left, startY+chunkHeight)
+			return
+		}
+		for index := range lines {
+			if len(lines[index]) > chunkSize {
+				lines[index] = lines[index][chunkSize:]
+			} else {
+				lines[index] = nil
+			}
+		}
+		pdf.AddPage()
+		startY = top
+	}
+}
+
+func drawPDFTable(pdf *gofpdf.Fpdf, rows [][]string) {
+	const contentWidth = pdfContentWidth
+	if len(rows) == 0 {
+		return
+	}
+
+	colCount := 0
+	for _, row := range rows {
+		colCount = max(colCount, len(row))
+	}
+	if colCount == 0 {
+		return
+	}
+
+	normalized := make([][]string, len(rows))
+	for rowIndex, row := range rows {
+		normalized[rowIndex] = make([]string, colCount)
+		for colIndex := 0; colIndex < colCount; colIndex++ {
+			if colIndex < len(row) {
+				text := strings.ReplaceAll(cleanMarkdownForPDF(row[colIndex]), "\n", " ")
+				normalized[rowIndex][colIndex] = text
+			}
+		}
+	}
+
+	pdf.SetFont("NotoSansSC", "", 9)
+	desired := make([]float64, colCount)
+	for _, row := range normalized {
+		for colIndex, cell := range row {
+			desired[colIndex] = max(desired[colIndex], pdf.GetStringWidth(cell)+4)
+		}
+	}
+	for index := range desired {
+		desired[index] = max(18, min(72, desired[index]))
+	}
+	totalDesired := 0.0
+	for _, width := range desired {
+		totalDesired += width
+	}
+	widths := make([]float64, colCount)
+	for index, width := range desired {
+		widths[index] = width * contentWidth / totalDesired
+	}
+
+	cellLines := make([][][]string, len(normalized))
+	for rowIndex, row := range normalized {
+		cellLines[rowIndex] = make([][]string, colCount)
+		for colIndex, cell := range row {
+			textWidth := widths[colIndex] - 2*pdfCellPadding
+			cellLines[rowIndex][colIndex] = pdf.SplitText(cell, textWidth)
+			if len(cellLines[rowIndex][colIndex]) == 0 {
+				cellLines[rowIndex][colIndex] = []string{""}
+			}
+		}
+	}
+
+	drawHeader := func() {
+		pdf.SetFont("NotoSansSC", "B", 9)
+		drawPDFTableRow(pdf, widths, cellLines[0], true)
+		pdf.SetFont("NotoSansSC", "", 9)
+	}
+
+	pdf.Ln(2)
+	drawHeader()
+	_, pageHeight := pdf.GetPageSize()
+	_, _, _, bottom := pdf.GetMargins()
+	for rowIndex := 1; rowIndex < len(normalized); rowIndex++ {
+		rowHeight := 0.0
+		for _, lines := range cellLines[rowIndex] {
+			rowHeight = max(rowHeight, float64(len(lines))*pdfCellLineHeight+2*pdfCellPadding)
+		}
+		if pdf.GetY()+rowHeight > pageHeight-bottom {
+			pdf.AddPage()
+			drawHeader()
+		}
+		drawPDFTableRow(pdf, widths, cellLines[rowIndex], false)
+	}
+	pdf.Ln(4)
+}
+
+// renderMarkdownToPDF 将 Markdown 内容渲染到 PDF。
 func renderMarkdownToPDF(pdf *gofpdf.Fpdf, md string) {
 	lines := strings.Split(md, "\n")
 	var inList bool
 	var listType string
 	var inTable bool
 	var tableRows [][]string
+	var inCode bool
+	var codeIsMermaid bool
+	var codeLines []string
 
 	flushList := func() {
 		if inList {
@@ -517,35 +727,7 @@ func renderMarkdownToPDF(pdf *gofpdf.Fpdf, md string) {
 
 	flushTable := func() {
 		if len(tableRows) > 0 {
-			pdf.Ln(4)
-			// 计算列宽
-			colCount := 0
-			if len(tableRows) > 0 {
-				colCount = len(tableRows[0])
-			}
-			if colCount == 0 {
-				colCount = 3
-			}
-			colWidth := 180.0 / float64(colCount)
-
-			// 绘制表头
-			pdf.SetFont("NotoSansSC", "B", 9)
-			pdf.SetFillColor(238, 246, 248)
-			for _, cell := range tableRows[0] {
-				pdf.CellFormat(colWidth, 6, cell, "1", 0, "C", true, 0, "")
-			}
-			pdf.Ln(-1)
-			pdf.SetFont("NotoSansSC", "", 9)
-			pdf.SetFillColor(255, 255, 255)
-
-			// 绘制数据行
-			for i := 1; i < len(tableRows); i++ {
-				for _, cell := range tableRows[i] {
-					pdf.CellFormat(colWidth, 6, cell, "1", 0, "L", false, 0, "")
-				}
-				pdf.Ln(-1)
-			}
-			pdf.Ln(4)
+			drawPDFTable(pdf, tableRows)
 			tableRows = nil
 			inTable = false
 		}
@@ -554,13 +736,28 @@ func renderMarkdownToPDF(pdf *gofpdf.Fpdf, md string) {
 	for _, line := range lines {
 		line = strings.TrimSpace(line)
 
-		// 跳过 mermaid 代码块
-		if strings.HasPrefix(line, "```mermaid") || strings.HasPrefix(line, "```") && strings.Contains(line, "mermaid") {
+		if strings.HasPrefix(line, "```") {
+			if inCode {
+				if !codeIsMermaid {
+					drawPDFCodeBlock(pdf, codeLines)
+				}
+				inCode = false
+				codeIsMermaid = false
+				codeLines = nil
+			} else {
+				flushList()
+				flushTable()
+				inCode = true
+				codeIsMermaid = strings.Contains(line, "mermaid")
+				codeLines = nil
+			}
 			continue
 		}
 
-		// 跳过空代码块
-		if strings.HasPrefix(line, "```") {
+		if inCode {
+			if !codeIsMermaid {
+				codeLines = append(codeLines, line)
+			}
 			continue
 		}
 
@@ -595,20 +792,22 @@ func renderMarkdownToPDF(pdf *gofpdf.Fpdf, md string) {
 		}
 
 		// 标题
-		if strings.HasPrefix(line, "##") {
+		if heading := pdfHeadingRe.FindStringSubmatch(line); heading != nil {
 			flushList()
 			flushTable()
-			level := strings.Index(line, " ")
-			if level > 0 {
-				text := strings.TrimSpace(line[level:])
-				fontSize := 14 - (level - 2)
-				if fontSize < 10 {
-					fontSize = 10
-				}
-				pdf.SetFont("NotoSansSC", "B", float64(fontSize))
-				pdf.Cell(180, 7, text)
-				pdf.Ln(6)
+			level := len(heading[1])
+			fontSize := 14
+			if level > 2 {
+				fontSize -= level - 2
 			}
+			if fontSize < 10 {
+				fontSize = 10
+			}
+			ensurePDFSpace(pdf, pdfTextLineHeight*2)
+			pdf.SetFont("NotoSansSC", "B", float64(fontSize))
+			pdf.SetX(pdfLeftMargin)
+			pdf.MultiCell(pdfContentWidth, pdfTextLineHeight, cleanMarkdownForPDF(heading[2]), "", "L", false)
+			pdf.Ln(1)
 			continue
 		}
 
@@ -622,19 +821,12 @@ func renderMarkdownToPDF(pdf *gofpdf.Fpdf, md string) {
 				listType = "ul"
 			}
 			item := strings.TrimPrefix(strings.TrimPrefix(line, "- "), "* ")
-			// 处理粗体
-			item = strings.ReplaceAll(item, "**", "")
-			pdf.SetFont("NotoSansSC", "", 10)
-			pdf.Cell(8, 5, "•")
-			pdf.Cell(170, 5, item)
-			pdf.Ln(5)
+			drawPDFListItem(pdf, item, "•", 6)
 			continue
 		}
 
 		// 有序列表
-		re := regexp.MustCompile(`^(\d+)\.\s+(.+)$`)
-		m := re.FindStringSubmatch(line)
-		if m != nil {
+		if item := pdfOrderedRe.FindStringSubmatch(line); item != nil {
 			flushTable()
 			if !inList || listType != "ol" {
 				flushList()
@@ -642,10 +834,7 @@ func renderMarkdownToPDF(pdf *gofpdf.Fpdf, md string) {
 				inList = true
 				listType = "ol"
 			}
-			pdf.SetFont("NotoSansSC", "", 10)
-			pdf.Cell(8, 5, m[1]+".")
-			pdf.Cell(170, 5, m[2])
-			pdf.Ln(5)
+			drawPDFListItem(pdf, item[2], item[1]+".", 10)
 			continue
 		}
 
@@ -659,26 +848,18 @@ func renderMarkdownToPDF(pdf *gofpdf.Fpdf, md string) {
 			continue
 		}
 
-		// 清理 Markdown 格式
-		// 移除代码标记
-		line = strings.ReplaceAll(line, "`", "")
-		// 移除粗体标记
-		line = strings.ReplaceAll(line, "**", "")
-		// 移除斜体标记
-		line = strings.ReplaceAll(line, "*", "")
-		// 处理链接 [text](url) -> text
-		re = regexp.MustCompile(`\[([^\]]+)\]\([^)]+\)`)
-		line = re.ReplaceAllString(line, "$1")
-
 		// 普通段落
 		flushList()
 		flushTable()
 		pdf.SetFont("NotoSansSC", "", 10)
-		pdf.MultiCell(180, 5, line, "", "L", false)
+		pdf.MultiCell(pdfContentWidth, pdfTextLineHeight, cleanMarkdownForPDF(line), "", "L", false)
 	}
 
 	flushList()
 	flushTable()
+	if inCode && !codeIsMermaid {
+		drawPDFCodeBlock(pdf, codeLines)
+	}
 }
 
 // buildPage resolves a page template once per process: the shared base CSS
@@ -1304,10 +1485,11 @@ func (s *Server) handleSessions(w http.ResponseWriter, r *http.Request) {
 }
 
 // handleSessionByID reads, updates, deletes or exports one persisted conversation.
-//   GET    /sessions/{id}          → {id, title, messages:[{role, content}]}
-//   GET    /sessions/{id}?export=1 → 下载 JSON 文件
-//   PUT    /sessions/{id}          → 重命名会话 {title: "新标题"}
-//   DELETE /sessions/{id}          → 204
+//
+//	GET    /sessions/{id}          → {id, title, messages:[{role, content}]}
+//	GET    /sessions/{id}?export=1 → 下载 JSON 文件
+//	PUT    /sessions/{id}          → 重命名会话 {title: "新标题"}
+//	DELETE /sessions/{id}          → 204
 func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
 	if s.db == nil {
 		writeJSON(w, http.StatusServiceUnavailable, map[string]any{"error": "session persistence disabled"})
@@ -1373,8 +1555,8 @@ func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
 
 			// 标题
 			pdf.SetFont("NotoSansSC", "B", 16)
-			pdf.Cell(190, 10, title)
-			pdf.Ln(8)
+			pdf.MultiCell(190, 8, title, "", "L", false)
+			pdf.Ln(2)
 
 			// 导出时间
 			pdf.SetFont("NotoSansSC", "", 9)
@@ -2243,12 +2425,12 @@ func (s *Server) handleAdminSessions(w http.ResponseWriter, r *http.Request) {
 		admin := s.getAdminFromRequest(r)
 		if admin != nil {
 			_ = s.db.AddAuditLog(&database.AuditLogRecord{
-				AdminID:      admin.ID,
+				AdminID:       admin.ID,
 				AdminUsername: admin.Username,
-				Action:       "batch_delete_sessions",
-				TargetType:   "session",
-				Details:      fmt.Sprintf("deleted %d sessions", deleted),
-				IPAddress:    clientIP(r),
+				Action:        "batch_delete_sessions",
+				TargetType:    "session",
+				Details:       fmt.Sprintf("deleted %d sessions", deleted),
+				IPAddress:     clientIP(r),
 			})
 		}
 		writeJSON(w, http.StatusOK, map[string]any{"status": "ok", "deleted": deleted})
@@ -2312,12 +2494,12 @@ func (s *Server) handleAdminSessionByID(w http.ResponseWriter, r *http.Request) 
 		admin := s.getAdminFromRequest(r)
 		if admin != nil {
 			_ = s.db.AddAuditLog(&database.AuditLogRecord{
-				AdminID:      admin.ID,
+				AdminID:       admin.ID,
 				AdminUsername: admin.Username,
-				Action:       "delete_session",
-				TargetType:   "session",
-				TargetID:     id,
-				IPAddress:    clientIP(r),
+				Action:        "delete_session",
+				TargetType:    "session",
+				TargetID:      id,
+				IPAddress:     clientIP(r),
 			})
 		}
 		writeJSON(w, http.StatusOK, map[string]any{"status": "ok"})
@@ -2382,7 +2564,7 @@ func (s *Server) handleAdminFeedbackStats(w http.ResponseWriter, r *http.Request
 	// Get overall stats
 	up, down, _ := s.db.GetFeedbackStats()
 	writeJSON(w, http.StatusOK, map[string]any{
-		"overall": map[string]any{"up": up, "down": down},
+		"overall":   map[string]any{"up": up, "down": down},
 		"by_period": stats,
 	})
 }
@@ -2450,13 +2632,13 @@ func (s *Server) handleAdminConfig(w http.ResponseWriter, r *http.Request) {
 		}
 		// Record audit log
 		_ = s.db.AddAuditLog(&database.AuditLogRecord{
-			AdminID:      admin.ID,
+			AdminID:       admin.ID,
 			AdminUsername: admin.Username,
-			Action:       "set_config",
-			TargetType:   "config",
-			TargetID:     input.Key,
-			Details:      input.Value,
-			IPAddress:    clientIP(r),
+			Action:        "set_config",
+			TargetType:    "config",
+			TargetID:      input.Key,
+			Details:       input.Value,
+			IPAddress:     clientIP(r),
 		})
 		writeJSON(w, http.StatusOK, map[string]any{"status": "ok"})
 
@@ -2496,12 +2678,12 @@ func (s *Server) handleAdminConfigByKey(w http.ResponseWriter, r *http.Request) 
 		admin := s.getAdminFromRequest(r)
 		if admin != nil {
 			_ = s.db.AddAuditLog(&database.AuditLogRecord{
-				AdminID:      admin.ID,
+				AdminID:       admin.ID,
 				AdminUsername: admin.Username,
-				Action:       "delete_config",
-				TargetType:   "config",
-				TargetID:     key,
-				IPAddress:    clientIP(r),
+				Action:        "delete_config",
+				TargetType:    "config",
+				TargetID:      key,
+				IPAddress:     clientIP(r),
 			})
 		}
 		writeJSON(w, http.StatusOK, map[string]any{"status": "ok"})
@@ -2625,12 +2807,12 @@ func (s *Server) handleAdminBatchUsers(w http.ResponseWriter, r *http.Request) {
 		}
 		// Record audit log
 		_ = s.db.AddAuditLog(&database.AuditLogRecord{
-			AdminID:      admin.ID,
+			AdminID:       admin.ID,
 			AdminUsername: admin.Username,
-			Action:       "batch_create_users",
-			TargetType:   "user",
-			Details:      fmt.Sprintf("created %d, failed %d", created, failed),
-			IPAddress:    clientIP(r),
+			Action:        "batch_create_users",
+			TargetType:    "user",
+			Details:       fmt.Sprintf("created %d, failed %d", created, failed),
+			IPAddress:     clientIP(r),
 		})
 		writeJSON(w, http.StatusOK, map[string]any{"status": "ok", "created": created, "failed": failed})
 
@@ -2653,12 +2835,12 @@ func (s *Server) handleAdminBatchUsers(w http.ResponseWriter, r *http.Request) {
 		admin := s.getAdminFromRequest(r)
 		if admin != nil {
 			_ = s.db.AddAuditLog(&database.AuditLogRecord{
-				AdminID:      admin.ID,
+				AdminID:       admin.ID,
 				AdminUsername: admin.Username,
-				Action:       "batch_delete_users",
-				TargetType:   "user",
-				Details:      fmt.Sprintf("deleted %d users", deleted),
-				IPAddress:    clientIP(r),
+				Action:        "batch_delete_users",
+				TargetType:    "user",
+				Details:       fmt.Sprintf("deleted %d users", deleted),
+				IPAddress:     clientIP(r),
 			})
 		}
 		writeJSON(w, http.StatusOK, map[string]any{"status": "ok", "deleted": deleted})
@@ -2730,12 +2912,12 @@ func (s *Server) handleAdminBatchKnowledge(w http.ResponseWriter, r *http.Reques
 	admin := s.getAdminFromRequest(r)
 	if admin != nil {
 		_ = s.db.AddAuditLog(&database.AuditLogRecord{
-			AdminID:      admin.ID,
+			AdminID:       admin.ID,
 			AdminUsername: admin.Username,
-			Action:       "batch_upload_knowledge",
-			TargetType:   "knowledge",
-			Details:      fmt.Sprintf("uploaded %d files", len(files)),
-			IPAddress:    clientIP(r),
+			Action:        "batch_upload_knowledge",
+			TargetType:    "knowledge",
+			Details:       fmt.Sprintf("uploaded %d files", len(files)),
+			IPAddress:     clientIP(r),
 		})
 	}
 

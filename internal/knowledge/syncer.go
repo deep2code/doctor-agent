@@ -264,6 +264,7 @@ func (s *Syncer) IncrementalSync(ctx context.Context, cfg SyncConfig) (*SyncStat
 }
 
 // GetStatus returns the current sync status.
+// TODO: remove if not used (deadcode)
 func (s *Syncer) GetStatus() *SyncStatus {
 	s.mu.RLock()
 	defer s.mu.RUnlock()

@@ -15,6 +15,7 @@ func NewCitationFormatter() *CitationFormatter {
 }
 
 // FormatReference generates an AMA-style formatted reference string.
+// TODO: remove if not used (deadcode)
 func (cf *CitationFormatter) FormatReference(c *Citation, index int) string {
 	var sb strings.Builder
 
@@ -245,6 +246,8 @@ func entrySummary(e *KnowledgeEntry) string {
 	return sb.String()
 }
 
+// typeLabel returns a human-readable label for citation types.
+// TODO: remove if not used (deadcode)
 func (cf *CitationFormatter) typeLabel(t string) string {
 	switch t {
 	case "guideline":

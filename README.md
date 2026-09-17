@@ -9,7 +9,7 @@
 - **每条回答有据可查**：事实性陈述必须标注引用编号 `[N]`，附DOI/PMID和证据等级
 - **全人群覆盖**：覆盖地贫、G6PD缺乏症、鼻咽癌、乙肝、乳糖不耐受、ALDH2酒精代谢缺陷等中国重点高发疾病
 - **4层安全防护**：紧急检测(零延迟120响应) → 范围检查 → 引用验证 → 免责声明
-- **超大知识库**：51个数据源，358+医学条目，177K+医患问答，35个专业工具
+- **超大知识库**：51个数据源，358+医学条目，177K+医患问答，14个活跃工具
 
 ## 📋 中国重点疾病覆盖
 
@@ -40,7 +40,7 @@
 | 默沙东诊疗手册 | 6,086 | 大众版+专业版 |
 | MedlinePlus | 1,017 | 英文健康百科 |
 | WHO 知识库 | 232 | 官方中文fact sheets |
-| 工具总数 | **35** | 覆盖诊断/治疗/用药/遗传/人体部位分诊 |
+| 活跃工具数 | **14** | 统一检索+知识图谱+专用工具 |
 
 ## 🚀 快速开始（零配置）
 
@@ -503,30 +503,24 @@ curl -N -X POST http://localhost:8080/chat/stream \   # SSE 流式
 
 HTTP 层另有可选安全中间件：Bearer 鉴权 → 每 IP 限流 → CORS 白名单。
 
-## 🛠️ 35个医疗工具
+## 🛠️ 14个活跃医疗工具
 
 1. **drug_safety_check** — G6PD药物禁忌查询（安全/不安全/谨慎/未知）
 2. **genetic_risk_calculator** — 地贫遗传概率计算（Punnett方阵）
 3. **food_risk_analyzer** — 中国常见食物风险分析（蚕豆/咸鱼/老火汤/海鲜/牛奶）
 4. **symptom_triage** — 症状紧急分诊（EMERGENCY/URGENT/ROUTINE/SELF_CARE）
-5. **reference_lookup** — 循证医学文献引用检索（内置知识库）
-6. **literature_search** — Europe PMC 文献检索（4425篇摘要，真实DOI/PMID）
-7. **msd_search** — 默沙东诊疗手册中文版全文检索（6086页）
-8. **variant_lookup** — ClinVar 基因变异查询（HBB/HBA1/HBA2/G6PD，1399条）
-9. **medline_search** — MedlinePlus 健康百科检索（1017页，英文）
-10. **drug_lookup** — 国家医保药品目录查询（2024版）
-11. **eml_lookup** — WHO基本药物清单查询（第24版，564种）
-12. **drug_label_lookup** — FDA药品标签中文摘要查询（344条）
-13. **nhc_search** — 国家卫健委诊疗方案/指南全文检索（39篇中文）
-14. **fhs_search** — 香港卫生署家庭健康服务育儿知识检索（103页中文）
-15. **aap_search** — 美国儿科学会 healthychildren 育儿百科检索（英文）
-16. **lab_interpreter** — 实验室检查解读（含地贫筛查注意事项）
-17. **icd10_lookup** — ICD-10疾病编码查询（35,862种疾病）
-18. **nmpa_drug_lookup** — NMPA药品目录查询（167,615种药品）
-19. **medical_kg_lookup** — 医学知识图谱查询（354,752条三元组）
-20. **disease_encyclopedia_lookup** — 疾病百科查询（8,807种疾病）
-21. **cpubmed_kg_lookup** — PubMed文献知识图谱查询（105,328条三元组）
-22. **huatuo_qa_lookup** — 华佗26M医疗问答查询（177,703条，16科室）
+5. **drug_interaction_check** — 药物相互作用检查
+6. **drug_label_lookup** — FDA药品标签中文摘要查询（344条）
+7. **knowledge_search** — 统一医学知识检索（跨多个数据集）
+8. **exact_lookup** — 精确查找（ICD/药物/疾病编码）
+9. **medical_kg_lookup** — 医学知识图谱查询（354,752条三元组）
+10. **cpubmed_kg_lookup** — PubMed文献知识图谱查询（105,328条三元组）
+11. **lab_report_analyze** — 实验室检查报告分析
+12. **visit_prep** — 就诊准备工具
+13. **medical_image_analyze** — 医学影像分析（解剖图）
+14. **food_risk_analyzer** — 食物风险分析（与#3重复，保留）
+
+> 📝 注：其他工具（reference_lookup, literature_search, msd_search, variant_lookup, medline_search, drug_lookup, eml_lookup, nhc_search, fhs_search, aap_search, lab_interpreter, icd10_lookup, nmpa_drug_lookup, disease_encyclopedia_lookup, huatuo_qa_lookup）已整合到 knowledge_search 统一检索工具中。
 
 ## 📁 项目结构
 
@@ -541,7 +535,7 @@ doctor-agent/
 │   ├── knowledge/                    # 知识库(MariaDB/Qdrant) + 检索器 + 引用系统
 │   │   ├── data/                     # 51个源JSON（编辑后运行 python3 external/make_gz.py → gz/*.zst）
 │   │   └── gz/                       # gzip 压缩的种子文件（seed/bake 输入）
-│   ├── tools/                        # 35个医疗工具 + 注册表
+│   ├── tools/                        # 14个活跃医疗工具 + 注册表
 │   ├── safety/                       # 4层安全防护
 │   └── server/                       # HTTP API Server（鉴权/限流/CORS）
 ├── evals/                           # 防幻觉黄金评测集（中文36题 + 英文299题）

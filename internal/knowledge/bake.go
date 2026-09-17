@@ -67,6 +67,7 @@ func vectorBakeEligible(ds string) bool { return !vectorSkipDatasets[ds] }
 // "source" and drug filtering reads "type". The former "text" (a duplicate
 // of data) and "timestamp" fields had no consumers and were dropped to
 // shrink the baked image.
+// TODO: remove if not used (deadcode)
 func bakePayload(dataset, key string, data []byte) map[string]string {
 	typ := "knowledge"
 	if dataset == DSDrug {
@@ -87,6 +88,7 @@ func bakePayload(dataset, key string, data []byte) map[string]string {
 // vector + full entry JSON into Qdrant. The Qdrant
 // storage produced here is what gets baked into the doctor-agent-qdrant data
 // image, making the vector store a complete RAG knowledge source on its own.
+// TODO: remove if not used (deadcode)
 func Bake(ctx context.Context, vecStore *VectorStore, embedder embedding.Provider, cfg BakeConfig) (*BakeResult, error) {
 	if cfg.Collection == "" {
 		cfg.Collection = "medical_knowledge"
@@ -181,6 +183,7 @@ func Bake(ctx context.Context, vecStore *VectorStore, embedder embedding.Provide
 // requests to the provider (e.g. Ollama), dramatically reducing wall time
 // for large datasets. Point IDs are content-hashed UUIDs so concurrent
 // upsert order does not affect the final storage state.
+// TODO: remove if not used (deadcode)
 func bakeDataset(ctx context.Context, vecStore *VectorStore, embedder embedding.Provider, dataset string, rows []KBRow, batchSize, workers, maxTextChars int) (int, []string) {
 	var errs []string
 	if len(rows) == 0 {
@@ -270,6 +273,7 @@ func bakeDataset(ctx context.Context, vecStore *VectorStore, embedder embedding.
 // bakeBatch processes a single batch: embed texts, build points, upsert.
 // Embed texts are truncated to maxTextChars runes (rune-safe) before hitting
 // the provider — byte slicing would split CJK runes and send invalid UTF-8.
+// TODO: remove if not used (deadcode)
 func bakeBatch(ctx context.Context, vecStore *VectorStore, embedder embedding.Provider, dataset string, idx int, batch []KBRow, maxTextChars int) (int, string) {
 	texts := make([]string, len(batch))
 	for j, r := range batch {

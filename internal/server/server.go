@@ -121,6 +121,7 @@ func (s *Server) SetBuildInfo(commit, built string) {
 }
 
 // New creates a new HTTP server.
+// TODO: remove if not used (deadcode)
 func New(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service) *Server {
 	return NewWithDB(cfg, ag, authSvc, nil)
 }
@@ -275,6 +276,7 @@ func serveHTML(w http.ResponseWriter, r *http.Request, page string) {
 }
 
 // escapeHTML 转义 HTML 特殊字符。
+// TODO: remove if not used (deadcode)
 func escapeHTML(s string) string {
 	s = strings.ReplaceAll(s, "&", "&amp;")
 	s = strings.ReplaceAll(s, "<", "&lt;")
@@ -331,6 +333,7 @@ func getChineseFontPath() string {
 }
 
 // renderMarkdown 简单的 Markdown 转 HTML（用于 PDF 导出）。
+// TODO: remove if not used (deadcode)
 func renderMarkdown(md string) string {
 	lines := strings.Split(md, "\n")
 	var out []string

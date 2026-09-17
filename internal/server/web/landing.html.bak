@@ -1,0 +1,1673 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>医答 · 循证医学 AI 助手</title>
+<meta name="description" content="基于权威医学知识库与 35+ 项专业工具，给你有依据、可溯源的健康解答——从日常小病，到中国高发慢病。" />
+<!--__HEAD_URL__-->
+<meta property="og:title" content="医答 · 循证医学 AI 助手" />
+<meta property="og:description" content="基于权威医学知识库与 35+ 项专业工具，给你有依据、可溯源的健康解答——从日常小病，到中国高发慢病。" />
+<meta property="og:type" content="website" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"医答","alternateName":"Doctor Agent","description":"基于权威医学知识库与 35+ 项专业工具的循证医学 AI 助手","inLanguage":"zh-CN"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"医答 Doctor Agent","slogan":"循证医学 AI 助手"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"专业医学工具","itemListElement":[{"@type":"ListItem","position":1,"name":"用药安全核查","description":"检查药物相互作用、禁忌症与剂量安全性"},{"@type":"ListItem","position":2,"name":"症状分诊","description":"根据症状描述推荐就诊科室与紧急程度"},{"@type":"ListItem","position":3,"name":"遗传病风险计算","description":"基于家族史与表型评估遗传性疾病携带风险"},{"@type":"ListItem","position":4,"name":"检验单解读","description":"上传化验单图片，逐项解释指标含义与异常"},{"@type":"ListItem","position":5,"name":"药物相互作用","description":"检测多药并用时的潜在冲突与不良反应风险"},{"@type":"ListItem","position":6,"name":"药物查询","description":"检索药品说明书、适应症、副作用与医保信息"}]}</script>
+<style>/*__CSS__*/
+/* ===== Health Guide visual cards ===== */
+.guide-carousel { position: relative; overflow: hidden; padding: 0 50px; }
+.guide-track { display: flex; gap: 20px; transition: transform .5s cubic-bezier(.4,0,.2,1); will-change: transform; }
+.guide-track .guide-card { flex: 0 0 calc((100% - 60px) / 4); min-width: 0; }
+.guide-nav {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  width: 40px; height: 40px; border-radius: 50%;
+  background: #fff; border: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; z-index: 2; transition: all .2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+.guide-nav:hover { background: var(--navy); border-color: var(--navy); }
+.guide-nav:hover svg { stroke: #fff; }
+.guide-nav svg { width: 18px; height: 18px; stroke: var(--ink); transition: stroke .2s; }
+.guide-nav.prev { left: 0; }
+.guide-nav.next { right: 0; }
+.guide-nav:disabled { opacity: .3; cursor: default; }
+.guide-nav:disabled:hover { background: #fff; border-color: var(--line); }
+.guide-nav:disabled:hover svg { stroke: var(--ink); }
+.guide-dots { display: flex; justify-content: center; gap: 8px; margin-top: 24px; }
+.guide-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--line); border: none; cursor: pointer;
+  transition: all .3s; padding: 0;
+}
+.guide-dot.active { width: 24px; border-radius: 4px; background: var(--navy); }
+.guide-card {
+  position: relative; background: #fff; border-radius: 18px; padding: 28px 22px 24px;
+  border: 1px solid var(--line); overflow: hidden; cursor: pointer;
+  transition: transform .25s cubic-bezier(.4,0,.2,1), box-shadow .25s ease, border-color .25s;
+}
+.guide-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 5px;
+  background: var(--gc, var(--blue));
+}
+.guide-card::after {
+  content: attr(data-num); position: absolute; top: 14px; right: 18px;
+  font-size: 42px; font-weight: 900; color: var(--gc, var(--blue)); opacity: .08;
+  line-height: 1; letter-spacing: -2px;
+}
+.guide-card:hover {
+  transform: translateY(-6px); box-shadow: 0 20px 40px rgba(15,30,51,.14);
+  border-color: var(--gc, var(--blue));
+}
+.guide-card:hover .guide-ic { transform: scale(1.1) rotate(-3deg); }
+.guide-card:hover .guide-ic svg { stroke: #fff; }
+.guide-ic {
+  width: 56px; height: 56px; border-radius: 16px; display: flex; align-items: center; justify-content: center;
+  background: var(--gc-soft, var(--blue-soft)); margin-bottom: 16px;
+  transition: transform .3s cubic-bezier(.4,0,.2,1), background .25s;
+}
+.guide-ic svg { width: 28px; height: 28px; stroke: var(--gc, var(--blue)); transition: stroke .25s; }
+.guide-card:hover .guide-ic { background: var(--gc, var(--blue)); }
+.guide-card h4 { font-size: 18px; font-weight: 800; margin-bottom: 8px; color: var(--ink); position: relative; z-index: 1; }
+.guide-card p { font-size: 13.5px; color: var(--text); line-height: 1.6; position: relative; z-index: 1; }
+.guide-tag {
+  display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 999px;
+  background: var(--gc-soft, var(--blue-soft)); color: var(--gc, var(--blue)); margin-bottom: 10px;
+  letter-spacing: .5px;
+}
+.c-green  { --gc: #16A34A; --gc-soft: #ECFDF5; }
+.c-blue   { --gc: #2563EB; --gc-soft: #E6F2FE; }
+.c-amber  { --gc: #D97706; --gc-soft: #FEF3E6; }
+.c-violet { --gc: #7C3AED; --gc-soft: #EDEBFE; }
+.c-pink   { --gc: #E11D48; --gc-soft: #FFE4E6; }
+.c-cyan   { --gc: #0891B2; --gc-soft: #ECFEFF; }
+/* Guide detail modal */
+.guide-modal-overlay {
+  position: fixed; inset: 0; background: rgba(10,20,40,.55);
+  display: none; align-items: center; justify-content: center;
+  z-index: 100; padding: 20px; backdrop-filter: blur(4px);
+}
+.guide-modal-overlay.show { display: flex; animation: fadeIn .2s ease; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.guide-modal {
+  background: #fff; border-radius: 20px; max-width: 640px; width: 100%;
+  max-height: 85vh; overflow-y: auto; position: relative;
+  box-shadow: 0 30px 80px rgba(0,0,0,.3);
+  animation: slideUp .3s cubic-bezier(.4,0,.2,1);
+}
+@keyframes slideUp { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+.guide-modal-top { height: 6px; border-radius: 20px 20px 0 0; }
+.guide-modal-body { padding: 28px 32px 24px; }
+.guide-modal-close {
+  position: absolute; top: 16px; right: 16px; width: 36px; height: 36px;
+  border-radius: 50%; border: none; background: var(--bg-soft); cursor: pointer;
+  display: flex; align-items: center; justify-content: center; transition: all .2s;
+  z-index: 2;
+}
+.guide-modal-close:hover { background: var(--line); transform: rotate(90deg); }
+.guide-modal-close svg { width: 18px; height: 18px; stroke: var(--ink); }
+.guide-modal-tag {
+  display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 10px;
+  border-radius: 999px; letter-spacing: .5px; margin-bottom: 10px;
+}
+.guide-modal h3 { font-size: 24px; font-weight: 800; color: var(--ink); margin-bottom: 6px; }
+.guide-modal-principle {
+  font-size: 16px; font-weight: 700; line-height: 1.6; padding: 14px 18px;
+  border-radius: 12px; margin-bottom: 16px; border-left: 4px solid;
+}
+.guide-modal-summary { font-size: 14px; color: var(--text); line-height: 1.7; margin-bottom: 20px; }
+.guide-modal-points { list-style: none; padding: 0; margin: 0 0 20px; }
+.guide-modal-points li {
+  display: flex; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line);
+  font-size: 14px; line-height: 1.65; color: var(--text);
+}
+.guide-modal-points li:last-child { border-bottom: none; }
+.guide-modal-points .pt-ic {
+  flex-shrink: 0; width: 28px; height: 28px; border-radius: 8px;
+  display: flex; align-items: center; justify-content: center; font-size: 14px;
+}
+.guide-modal-points b { color: var(--ink); font-weight: 700; }
+.guide-modal-stats {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px; margin-bottom: 20px;
+}
+.guide-stat {
+  background: var(--bg-soft); border-radius: 12px; padding: 14px 16px; text-align: center;
+}
+.guide-stat .num { font-size: 22px; font-weight: 800; color: var(--ink); }
+.guide-stat .lbl { font-size: 11px; color: var(--muted); margin-top: 2px; }
+.guide-modal-source {
+  font-size: 11.5px; color: var(--muted); line-height: 1.6; padding-top: 14px;
+  border-top: 1px solid var(--line); margin-bottom: 16px;
+}
+.guide-modal-cta {
+  display: block; width: 100%; padding: 14px; border: none; border-radius: 12px;
+  font-size: 15px; font-weight: 700; color: #fff; cursor: pointer;
+  transition: transform .15s, box-shadow .15s; text-align: center; text-decoration: none;
+}
+.guide-modal-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,.2); }
+@media (max-width: 620px) {
+  .guide-modal-body { padding: 20px 18px; }
+  .guide-modal h3 { font-size: 20px; }
+  .guide-modal-stats { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 980px) {
+  .guide-carousel { padding: 0 40px; }
+  .guide-track .guide-card { flex: 0 0 calc((100% - 20px) / 2); }
+}
+@media (max-width: 620px) {
+  .guide-carousel { padding: 0 36px; }
+  .guide-track .guide-card { flex: 0 0 100%; }
+  .guide-nav { width: 32px; height: 32px; }
+}
+/* ===== Anatomy body map ===== */
+.anat-viewport { position: relative; background: linear-gradient(180deg,#FAFBFD 0%,#F0F4F8 100%); border-radius: 16px; border: 1px solid var(--line); overflow: hidden; }
+.anat-viewport svg { display: block; width: 100%; height: auto; max-height: 560px; transition: none; }
+.anat-viewport svg .anat-body { fill: url(#skinGrad); stroke: #8B7355; stroke-width: 1.2; }
+.anat-viewport svg .anat-muscle { fill: url(#muscleGrad); stroke: #C09080; stroke-width: 0.6; opacity: 0.7; }
+.anat-viewport svg .anat-bone { fill: #F5E6D3; stroke: #C8B090; stroke-width: 0.8; }
+.anat-viewport svg .anat-region { fill: transparent; stroke: transparent; stroke-width: 2; cursor: pointer; transition: fill .2s, stroke .2s; }
+.anat-viewport svg .anat-region:hover { fill: rgba(37,99,235,.08); stroke: rgba(37,99,235,.4); }
+.anat-viewport svg .anat-region.is-active { fill: rgba(37,99,235,.12); stroke: var(--blue); }
+.anat-viewport svg .anat-organ { cursor: pointer; filter: url(#organShadow); transition: transform .2s, filter .2s; transform-origin: center; transform-box: fill-box; }
+.anat-viewport svg .anat-organ:hover { transform: scale(1.06); filter: url(#organShadow) brightness(1.1); }
+.anat-viewport svg .anat-organ.is-selected { stroke: #fff; stroke-width: 2.5; }
+.anat-viewport svg .anat-label { font-family: var(--font); font-size: 11px; font-weight: 600; fill: #1E293B; pointer-events: none; }
+.anat-viewport svg .anat-label-line { stroke: #64748B; stroke-width: 0.8; fill: none; pointer-events: none; }
+.anat-viewport svg .anat-label-bg { fill: rgba(255,255,255,.85); rx: 3; }
+.bm-zoom-out {
+  position: absolute; top: 14px; left: 14px; z-index: 5;
+  width: 38px; height: 38px; border-radius: 10px; border: 1px solid var(--line);
+  background: rgba(255,255,255,.95); color: var(--ink); cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: var(--shadow-sm); transition: all .15s;
+}
+.bm-zoom-out:hover { background: var(--blue); color: #fff; border-color: var(--blue); }
+.bm-breadcrumb { display: flex; align-items: center; gap: 6px; font-size: 13px; }
+.bm-crumb { padding: 4px 12px; border-radius: 999px; background: var(--bg-soft); color: var(--text); cursor: pointer; font-weight: 600; transition: all .15s; }
+.bm-crumb:hover { background: var(--blue-soft); color: var(--blue); }
+.bm-crumb.active { background: var(--blue); color: #fff; }
+.bm-crumb-sep { color: var(--muted); font-size: 11px; }
+.bm-side h3 { font-size: 22px; font-weight: 800; margin-bottom: 16px; }
+.bm-side ul { list-style: none; padding: 0; margin: 0 0 24px; }
+.bm-side ul li { padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 15px; color: var(--text); line-height: 1.6; }
+.bm-side ul li:last-child { border-bottom: none; }
+.bm-organ-detail { margin-bottom: 20px; }
+.bm-organ-detail .organ-name { font-size: 20px; font-weight: 800; color: var(--ink); margin-bottom: 4px; }
+.bm-organ-detail .organ-sub { font-size: 13px; color: var(--muted); margin-bottom: 14px; }
+.bm-flag { background: #FEF2F2; border: 1px solid #FECACA; color: #B91C1C; border-radius: 10px; padding: 10px 14px; font-size: 13px; font-weight: 600; margin-bottom: 14px; line-height: 1.5; }
+.bm-cond-label { font-size: 12px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; margin-bottom: 8px; }
+.bm-cond-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.bm-cond { padding: 6px 14px; border-radius: 999px; background: var(--bg-soft); border: 1px solid var(--line); font-size: 13px; font-weight: 600; color: var(--ink); cursor: pointer; transition: all .15s; }
+.bm-cond:hover { background: var(--blue-soft); border-color: var(--blue); color: var(--blue); }
+.bm-cond.is-on { background: var(--blue); border-color: var(--blue); color: #fff; }
+/* ===== Disease ranking ===== */
+.disease-list { display: flex; flex-direction: column; gap: 16px; }
+.disease-card {
+  background: #fff; border-radius: 16px; border: 1px solid var(--line);
+  overflow: hidden; transition: transform .2s, box-shadow .2s;
+}
+.disease-card:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(15,30,51,.1); }
+.disease-card-header {
+  display: flex; align-items: center; gap: 16px; padding: 16px 20px;
+  border-bottom: 1px solid var(--line); background: var(--bg-soft);
+}
+.rank-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px; border-radius: 10px; font-weight: 800; font-size: 16px;
+  background: var(--bg-soft); color: var(--muted); flex-shrink: 0;
+}
+.rank-row.top1 .rank-badge { background: linear-gradient(135deg,#EF4444,#DC2626); color: #fff; }
+.rank-row.top2 .rank-badge { background: linear-gradient(135deg,#F97316,#EA580C); color: #fff; }
+.rank-row.top3 .rank-badge { background: linear-gradient(135deg,#EAB308,#CA8A04); color: #fff; }
+.disease-header-info { flex: 1; min-width: 0; }
+.rank-disease { font-weight: 800; font-size: 17px; color: var(--ink); }
+.rank-disease small { display: inline; font-weight: 500; font-size: 12px; color: var(--muted); margin-left: 8px; }
+.disease-header-right { text-align: right; flex-shrink: 0; min-width: 140px; }
+.rank-count { font-weight: 800; font-size: 18px; color: var(--ink); }
+.rank-mini-bar { height: 6px; background: var(--line); border-radius: 3px; margin-top: 6px; overflow: hidden; width: 140px; }
+.rank-mini-bar i { display: block; height: 100%; border-radius: 3px; width: 0; transition: width 1s cubic-bezier(.4,0,.2,1); }
+.rank-row.top1 .rank-mini-bar i { background: linear-gradient(90deg,#EF4444,#F87171); }
+.rank-row.top2 .rank-mini-bar i { background: linear-gradient(90deg,#F97316,#FB923C); }
+.rank-row.top3 .rank-mini-bar i { background: linear-gradient(90deg,#EAB308,#FACC15); }
+.rank-row:not(.top1):not(.top2):not(.top3) .rank-mini-bar i { background: linear-gradient(90deg,#2563EB,#60A5FA); }
+.disease-card-body {
+  display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0;
+}
+.disease-col { padding: 16px 18px; }
+.disease-col + .disease-col { border-left: 1px solid var(--line); }
+.disease-col-title {
+  font-size: 12px; font-weight: 800; letter-spacing: .5px;
+  margin-bottom: 10px; display: flex; align-items: center; gap: 6px;
+}
+.disease-col.cause { background: linear-gradient(180deg, rgba(245,158,11,.06) 0%, transparent 100%); }
+.disease-col.cause .disease-col-title { color: #B45309; }
+.disease-col.treatment { background: linear-gradient(180deg, rgba(16,185,129,.06) 0%, transparent 100%); }
+.disease-col.treatment .disease-col-title { color: #047857; }
+.disease-col.myth { background: linear-gradient(180deg, rgba(239,68,68,.06) 0%, transparent 100%); }
+.disease-col.myth .disease-col-title { color: #B91C1C; }
+.disease-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.disease-tag {
+  display: inline-block; font-size: 12px; font-weight: 600;
+  padding: 3px 10px; border-radius: 6px; line-height: 1.4;
+}
+.disease-col.cause .disease-tag { background: #FEF3C7; color: #92400E; }
+.disease-col.treatment .disease-tag { background: #D1FAE5; color: #065F46; }
+.disease-myth-text {
+  font-size: 13px; line-height: 1.7; color: #991B1B;
+}
+.disease-myth-text .myth-quote {
+  display: inline-block; background: #FEE2E2; color: #991B1B;
+  padding: 1px 8px; border-radius: 4px; font-weight: 600; margin: 1px 2px;
+  font-size: 12px;
+}
+.disease-myth-text .myth-correct { color: #065F46; font-weight: 600; }
+@media (max-width: 860px) {
+  .disease-card-header { flex-wrap: wrap; }
+  .disease-header-right { text-align: left; width: 100%; }
+  .rank-mini-bar { width: 100%; }
+  .disease-card-body { grid-template-columns: 1fr; }
+  .disease-col + .disease-col { border-left: none; border-top: 1px solid var(--line); }
+}
+</style>
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header>
+  <div class="container nav">
+    <a class="brand" href="/">
+      <span class="logo-box">
+        <svg width="20" height="20" viewBox="0 0 32 32" fill="none"><path d="M13.5 7h5v6.5H25v5h-6.5V25h-5v-6.5H7v-5h6.5V7z" fill="#FFFFFF"/></svg>
+      </span>
+      <span class="name">医答</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#features">核心能力</a>
+      <a href="/map">疾病地图</a>
+      <a href="/stats">数据洞察</a>
+      <a href="#guide">健康指南</a>
+    </nav>
+    <div class="nav-right">
+      <a class="btn btn-primary btn-lg" href="/app">问我</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-left">
+      <span class="badge"><span class="dot"></span>循证医学 · 公益项目 · 每个答案都有出处</span>
+      <h1>健康问题，先问一个<br/>靠谱的 AI 医生</h1>
+      <p class="sub">面向中国全人群免费的循证健康助手。基于权威医学知识库与 35+ 项专业工具，提供有依据、可溯源的健康解答——从日常小病，到中国高发慢病。</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="/app">问我</a>
+        <a class="btn btn-ghost" href="#how">查看工作原理</a>
+      </div>
+      <p class="trust-line">由 急诊识别 · 安全护栏 · 引用核验 三层守护</p>
+    </div>
+    <div class="hero-right">
+      <div class="chat-card">
+        <div class="chat-head">
+          <span class="ava"></span>
+          <span class="t">医答 · 循证医学助手</span>
+        </div>
+        <div class="bubble-user">孩子反复低烧三天，要紧吗？</div>
+        <div class="bubble-ai">
+          可能的常见原因有病毒感染、幼儿急疹等。居家先观察体温与精神状态；若出现高热不退、精神萎靡或抽搐，请尽快就医。
+          <br/><span class="cite">[1] 儿童发热诊疗指南&nbsp;&nbsp;[2] 儿科急诊分诊</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRINCIPLES / 工作原理 ============ -->
+<section id="how" style="background:var(--bg-soft);">
+  <div class="container">
+    <div class="sec-center">
+      <span class="eyebrow">工作原理</span>
+      <h2 class="title">不是搜出来的，是推理出来的</h2>
+      <p class="sec-desc">你描述的每一条症状，都会经过 检索 → 推理 → 核验 的闭环，再给出结构化、可溯源的建议。</p>
+    </div>
+    <div class="how">
+      <div class="step">
+        <div class="num">01</div>
+        <h3>描述症状</h3>
+        <p>用自然语言说出不适，或上传化验单，无需医学术语。</p>
+      </div>
+      <div class="step">
+        <div class="num">02</div>
+        <h3>检索与推理</h3>
+        <p>调取权威知识库，调用 35+ 项专业工具交叉验证。</p>
+      </div>
+      <div class="step">
+        <div class="num">03</div>
+        <h3>附出处作答</h3>
+        <p>按 原因→病例→护理→就医 给出可溯源的建议。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BODY MAP / 解剖图 ============ -->
+<section id="bodymap" style="background:var(--white);padding:96px 0;">
+  <div class="container">
+    <div class="sec-center">
+      <span class="eyebrow">交互式解剖图</span>
+      <h2 class="title">点一点，逐层放大</h2>
+      <p class="sec-desc">教科书级人体解剖图——点击身体区域放大，再点具体器官查看常见健康问题。支持正面 / 背面切换。</p>
+    </div>
+    <div class="bm-wrap">
+      <div class="bm-panel">
+        <div class="bm-controls">
+          <div class="bm-seg">
+            <button type="button" class="bm-opt active" data-view="front">正面</button>
+            <button type="button" class="bm-opt" data-view="back">背面</button>
+          </div>
+          <div class="bm-breadcrumb" id="bmCrumb">
+            <span class="bm-crumb bm-crumb-root active">全身</span>
+          </div>
+        </div>
+        <div class="bm-viewport anat-viewport" id="bmViewport">
+          <svg id="bmSvg" viewBox="0 0 400 800" xmlns="http://www.w3.org/2000/svg" aria-label="人体解剖图">
+            <defs>
+              <linearGradient id="skinGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#F5E6D3"/><stop offset="100%" stop-color="#E8D5C4"/>
+              </linearGradient>
+              <linearGradient id="muscleGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#F0C8B8"/><stop offset="100%" stop-color="#E0B0A0"/>
+              </linearGradient>
+              <radialGradient id="organHeart" cx="0.4" cy="0.35"><stop offset="0%" stop-color="#E88070"/><stop offset="100%" stop-color="#C05040"/></radialGradient>
+              <radialGradient id="organLiver" cx="0.4" cy="0.3"><stop offset="0%" stop-color="#B86848"/><stop offset="100%" stop-color="#8B4513"/></radialGradient>
+              <radialGradient id="organLung" cx="0.5" cy="0.3"><stop offset="0%" stop-color="#E8A8A8"/><stop offset="100%" stop-color="#C87878"/></radialGradient>
+              <radialGradient id="organStomach" cx="0.4" cy="0.3"><stop offset="0%" stop-color="#E0B878"/><stop offset="100%" stop-color="#C09850"/></radialGradient>
+              <radialGradient id="organBrain" cx="0.5" cy="0.4"><stop offset="0%" stop-color="#F0C8D0"/><stop offset="100%" stop-color="#D098A8"/></radialGradient>
+              <radialGradient id="organKidney" cx="0.4" cy="0.3"><stop offset="0%" stop-color="#A07858"/><stop offset="100%" stop-color="#785030"/></radialGradient>
+              <filter id="organShadow" x="-20%" y="-20%" width="140%" height="140%">
+                <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+              </filter>
+            </defs>
+            <g id="bmLayerBody"></g>
+            <g id="bmLayerOrgans" style="display:none"></g>
+            <g id="bmLayerLabels" style="display:none"></g>
+          </svg>
+          <button class="bm-zoom-out" id="bmZoomOut" style="display:none" aria-label="返回全身">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+        </div>
+        <p class="bm-readout" id="bmOutLanding">点击身体区域放大，查看详细解剖结构</p>
+      </div>
+      <div class="bm-side" id="bmSide">
+        <h3 id="bmSideTitle">交互式解剖图</h3>
+        <div id="bmSideContent">
+          <ul>
+            <li>点击<b>头部、胸部、腹部</b>等区域，平滑放大显示内部器官。</li>
+            <li>放大后点击具体<b>器官</b>，查看常见疾病与就医指征。</li>
+            <li>左上角←按钮返回上一级，面包屑可快速跳转。</li>
+            <li>支持<b>正面 / 背面</b>切换，覆盖肌肉与骨骼标志。</li>
+          </ul>
+          <a class="btn btn-primary" id="bmCtaLanding" href="/app">描述我的症状</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ============ EXPLORE / 拆页引导 ============ -->
+<section id="explore" style="background:var(--bg-soft);">
+  <div class="container">
+    <div class="sec-center">
+      <h2 class="title">疾病分布</h2>
+    </div>
+    <div class="grid-tools">
+      <a class="tool" href="/map">
+        <div class="ic" style="background:var(--blue-soft);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round"><path d="M2 12h20M12 2c3 3.5 3 16.5 0 20M12 2c-3 3.5-3 16.5 0 20"/></svg>
+        </div>
+        <h4>全国高发病地图</h4>
+        <p>34 个省级行政区的高发疾病：南方遗传代谢病、中原消化道肿瘤、北方慢病；含分省高血压患病率分档。</p>
+      </a>
+      <a class="tool" href="/stats">
+        <div class="ic" style="background:var(--green-soft);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+        </div>
+        <h4>中国人发病全景</h4>
+        <p>10 个维度全部为真实权威数据：心血管病现患 3.3 亿、高血压 27.5%(2018)、糖尿病 2.33 亿(2023)。</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DISEASE RANKING / 高发疾病排名 ============ -->
+<section id="ranking" style="background:var(--white);">
+  <div class="container">
+    <div class="sec-center">
+      <h2 class="title">高发疾病排名</h2>
+    </div>
+    <div class="disease-list" id="rankTable">
+
+      <!-- 1. 高血压 -->
+      <div class="disease-card rank-row top1">
+        <div class="disease-card-header">
+          <span class="rank-badge">1</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">高血压<small>患病率 27.5%</small></div>
+          </div>
+          <div class="disease-header-right">
+            <div class="rank-count">2.45 亿</div>
+            <div class="rank-mini-bar"><i data-w="100"></i></div>
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">🧂 高盐饮食</span><span class="disease-tag">⚖️ 肥胖超重</span>
+              <span class="disease-tag">🪑 久坐不动</span><span class="disease-tag">🧬 遗传</span>
+              <span class="disease-tag">👴 年龄增长</span><span class="disease-tag">😰 精神压力</span>
+              <span class="disease-tag">🍺 过量饮酒</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">生活方式干预</span><span class="disease-tag">限盐减重</span>
+              <span class="disease-tag">降压药</span><span class="disease-tag">ACEI/ARB</span>
+              <span class="disease-tag">钙通道阻滞剂</span><span class="disease-tag">家庭血压监测</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">没头晕就不用吃药</span>
+              <span class="myth-quote">降压药有依赖性</span>
+              <span class="myth-quote">血压正常就可以停药</span>
+              <br/><span class="myth-correct">→ 均错误，需长期规范管理</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. 糖尿病 -->
+      <div class="disease-card rank-row top2">
+        <div class="disease-card-header">
+          <span class="rank-badge">2</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">糖尿病<small>患病率 13.7%</small></div>
+          </div>
+          <div class="disease-header-right">
+            <div class="rank-count">2.33 亿</div>
+            <div class="rank-mini-bar"><i data-w="95"></i></div>
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">⚖️ 肥胖/超重</span><span class="disease-tag">🍔 高热量饮食</span>
+              <span class="disease-tag">🪑 久坐</span><span class="disease-tag">🧬 遗传易感</span>
+              <span class="disease-tag">👴 年龄增长</span><span class="disease-tag">🤰 妊娠糖尿病史</span>
+              <span class="disease-tag">📊 代谢综合征</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">饮食控制</span><span class="disease-tag">规律运动</span>
+              <span class="disease-tag">二甲双胍</span><span class="disease-tag">口服降糖药</span>
+              <span class="disease-tag">胰岛素治疗</span><span class="disease-tag">血糖/HbA1c 监测</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">糖尿病就是糖吃多了</span>
+              <span class="myth-quote">打胰岛素会上瘾</span>
+              <span class="myth-quote">无糖食品可以随便吃</span>
+              <br/><span class="myth-correct">→ 无糖食品仍含碳水，需计入总量</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. 高尿酸血症 -->
+      <div class="disease-card rank-row top3">
+        <div class="disease-card-header">
+          <span class="rank-badge">3</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">高尿酸血症<small>患病率 13.3%</small></div>
+          </div>
+          <div class="disease-header-right">
+            <div class="rank-count">约 1.8 亿</div>
+            <div class="rank-mini-bar"><i data-w="73"></i></div>
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">🍔 高嘌呤饮食</span><span class="disease-tag">🦐 海鲜/动物内脏</span>
+              <span class="disease-tag">🍺 过量饮酒</span><span class="disease-tag">🍻 啤酒</span>
+              <span class="disease-tag">⚖️ 肥胖</span><span class="disease-tag">🫘 肾功能异常</span>
+              <span class="disease-tag">🧬 遗传</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">低嘌呤饮食</span><span class="disease-tag">饮水 2000ml+</span>
+              <span class="disease-tag">别嘌醇</span><span class="disease-tag">非布司他</span>
+              <span class="disease-tag">苯溴马隆</span><span class="disease-tag">急性期抗炎镇痛</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">尿酸高就是痛风</span>
+              <span class="myth-quote">只有关节痛才需治疗</span>
+              <span class="myth-quote">豆制品绝对不能吃</span>
+              <br/><span class="myth-correct">→ 尿酸高但无痛风也需管理，豆腐可适量</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. 慢性肾病 -->
+      <div class="disease-card rank-row">
+        <div class="disease-card-header">
+          <span class="rank-badge">4</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">慢性肾病<small>患病率约 10.8%</small></div>
+          </div>
+          <div class="disease-header-right">
+            <div class="rank-count">1.52 亿</div>
+            <div class="rank-mini-bar"><i data-w="62"></i></div>
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">🩸 糖尿病/高血压</span><span class="disease-tag">🥇 首要病因</span>
+              <span class="disease-tag">🦠 肾小球肾炎</span><span class="disease-tag">💊 肾毒性药物</span>
+              <span class="disease-tag">🚽 反复尿路感染</span><span class="disease-tag">🧬 遗传</span>
+              <span class="disease-tag">👴 老龄化</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">严格控压控糖</span><span class="disease-tag">优质低蛋白饮食</span>
+              <span class="disease-tag">避免滥用止痛药</span><span class="disease-tag">避免偏方</span>
+              <span class="disease-tag">血液透析</span><span class="disease-tag">肾移植</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">肾虚就是肾病</span>
+              <span class="myth-quote">腰痛就是肾不好</span>
+              <span class="myth-quote">补肾保健品能治肾病</span>
+              <br/><span class="myth-correct">→ 中医肾虚≠西医肾病，保健品不能替代治疗</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. 慢阻肺 -->
+      <div class="disease-card rank-row">
+        <div class="disease-card-header">
+          <span class="rank-badge">5</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">慢阻肺<small>40岁以上 13.7%</small></div>
+          </div>
+          <div class="disease-header-right">
+            <div class="rank-count">9990 万</div>
+            <div class="rank-mini-bar"><i data-w="41"></i></div>
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">🚬 吸烟</span><span class="disease-tag">🥇 最主要危险因素</span>
+              <span class="disease-tag">🏭 空气污染</span><span class="disease-tag">💨 职业粉尘</span>
+              <span class="disease-tag">⚗️ 化学物暴露</span><span class="disease-tag">🔥 生物燃料烟雾</span>
+              <span class="disease-tag">👶 儿童期反复感染</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">戒烟是关键</span><span class="disease-tag">支气管扩张剂</span>
+              <span class="disease-tag">沙丁胺醇</span><span class="disease-tag">噻托溴铵</span>
+              <span class="disease-tag">吸入糖皮质激素</span><span class="disease-tag">肺康复训练</span>
+              <span class="disease-tag">长期氧疗</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">咳嗽咳痰是老毛病不用管</span>
+              <span class="myth-quote">慢阻肺只有老人得</span>
+              <span class="myth-quote">吸入激素有副作用不敢用</span>
+              <br/><span class="myth-correct">→ 早期干预可延缓肺功能下降</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. 脑卒中 -->
+      <div class="disease-card rank-row">
+        <div class="disease-card-header">
+          <span class="rank-badge">6</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">脑卒中<small>年新发约 300 万</small></div>
+          </div>
+          <div class="disease-header-right">
+            <div class="rank-count">1300 万</div>
+            <div class="rank-mini-bar"><i data-w="12"></i></div>
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">🩸 高血压</span><span class="disease-tag">🥇 首位</span>
+              <span class="disease-tag">💓 房颤</span><span class="disease-tag">🧈 高血脂</span>
+              <span class="disease-tag">🍬 糖尿病</span><span class="disease-tag">🚬 吸烟</span>
+              <span class="disease-tag">⚖️ 肥胖</span><span class="disease-tag">🩸 颈动脉狭窄</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">静脉溶栓</span><span class="disease-tag">动脉取栓</span>
+              <span class="disease-tag">时间窗内</span><span class="disease-tag">抗血小板</span>
+              <span class="disease-tag">抗凝</span><span class="disease-tag">他汀稳定斑块</span>
+              <span class="disease-tag">早期康复训练</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">中风是老年人的事</span>
+              <span class="myth-quote">定期输活血药能预防</span>
+              <span class="myth-quote">中风后恢复不了</span>
+              <br/><span class="myth-correct">→ 中青年卒中在增加，康复可显著改善预后</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7. 冠心病 -->
+      <div class="disease-card rank-row">
+        <div class="disease-card-header">
+          <span class="rank-badge">7</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">冠心病<small>含心绞痛/心梗</small></div>
+          </div>
+          <div class="disease-header-right">
+            <div class="rank-count">1139 万</div>
+            <div class="rank-mini-bar"><i data-w="10"></i></div>
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">🧈 高血脂</span><span class="disease-tag">🩸 高血压</span>
+              <span class="disease-tag">🚬 吸烟</span><span class="disease-tag">🍬 糖尿病</span>
+              <span class="disease-tag">⚖️ 肥胖</span><span class="disease-tag">🪑 久坐</span>
+              <span class="disease-tag">🧬 早发家族史</span><span class="disease-tag">😰 精神紧张</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">阿司匹林</span><span class="disease-tag">抗血小板</span>
+              <span class="disease-tag">他汀</span><span class="disease-tag">冠脉支架</span>
+              <span class="disease-tag">搭桥手术</span><span class="disease-tag">心脏康复</span>
+              <span class="disease-tag">控制三高+戒烟</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">胸痛忍忍就过去</span>
+              <span class="myth-quote">放了支架就万事大吉</span>
+              <span class="myth-quote">没症状就可以停药</span>
+              <br/><span class="myth-correct">→ 支架后仍需终身服药，胸痛需立即就医</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8. 心力衰竭 -->
+      <div class="disease-card rank-row">
+        <div class="disease-card-header">
+          <span class="rank-badge">8</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">心力衰竭<small>65岁以上高发</small></div>
+          </div>
+          <div class="disease-header-right">
+            <div class="rank-count">890 万</div>
+            <div class="rank-mini-bar"><i data-w="7"></i></div>
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">❤️ 冠心病/心梗后</span><span class="disease-tag">🩸 长期高血压</span>
+              <span class="disease-tag">🫀 心肌病</span><span class="disease-tag">🔧 心脏瓣膜病</span>
+              <span class="disease-tag">💓 心律失常</span><span class="disease-tag">🍬 糖尿病</span>
+              <span class="disease-tag">⚖️ 肥胖</span><span class="disease-tag">👴 老龄化</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">利尿剂</span><span class="disease-tag">减轻负荷</span>
+              <span class="disease-tag">ACEI/ARB/ARNI</span><span class="disease-tag">β受体阻滞剂</span>
+              <span class="disease-tag">醛固酮拮抗剂</span><span class="disease-tag">金三角</span>
+              <span class="disease-tag">限盐限水</span><span class="disease-tag">心脏康复</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">心衰就是心脏停跳</span>
+              <span class="myth-quote">心衰不能运动</span>
+              <span class="myth-quote">水肿消了就停药</span>
+              <br/><span class="myth-correct">→ 心衰是心功能下降，规范运动有助康复，不可自行停药</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9. 恶性肿瘤 -->
+      <div class="disease-card rank-row">
+        <div class="disease-card-header">
+          <span class="rank-badge">9</span>
+          <div class="disease-header-info">
+            <div class="rank-disease">恶性肿瘤<small>肺癌居首 106万/年</small></div>
+          </div>
+          <div class="disease-header-right">
+            <div class="rank-count">482 万/年</div>
+            <div class="rank-mini-bar"><i data-w="5"></i></div>
+          </div>
+        </div>
+        <div class="disease-card-body">
+          <div class="disease-col cause">
+            <div class="disease-col-title">🔍 主要原因</div>
+            <div class="disease-tags">
+              <span class="disease-tag">🚬 吸烟</span><span class="disease-tag">🦠 HPV感染</span>
+              <span class="disease-tag">🦠 乙肝</span><span class="disease-tag">🦠 幽门螺杆菌</span>
+              <span class="disease-tag">🍔 不良饮食</span><span class="disease-tag">🍱 腌制/霉变</span>
+              <span class="disease-tag">⚖️ 肥胖</span><span class="disease-tag">🏭 环境污染</span>
+            </div>
+          </div>
+          <div class="disease-col treatment">
+            <div class="disease-col-title">💊 治疗手段</div>
+            <div class="disease-tags">
+              <span class="disease-tag">手术切除</span><span class="disease-tag">化疗</span>
+              <span class="disease-tag">放疗</span><span class="disease-tag">靶向治疗</span>
+              <span class="disease-tag">免疫治疗</span><span class="disease-tag">内分泌治疗</span>
+              <span class="disease-tag">早筛早诊</span><span class="disease-tag">胃肠镜/低剂量CT</span>
+            </div>
+          </div>
+          <div class="disease-col myth">
+            <div class="disease-col-title">❌ 常见误解</div>
+            <div class="disease-myth-text">
+              <span class="myth-quote">癌症等于绝症</span>
+              <span class="myth-quote">化疗会加速死亡</span>
+              <span class="myth-quote">酸性体质致癌</span>
+              <br/><span class="myth-correct">→ 很多癌症可治愈，化疗是标准治疗，「酸性体质」无科学依据</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ HEALTH GUIDE / 健康指南 ============ -->
+<section id="guide" style="background:var(--bg-soft);">
+  <div class="container">
+    <div class="sec-center">
+      <h2 class="title">健康常识</h2>
+    </div>
+    <div class="guide-carousel" id="guideCarousel">
+      <button class="guide-nav prev" id="guidePrev" aria-label="上一页">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <div class="guide-track" id="guideTrack">
+
+      <!-- Row 1: 日常健康 -->
+      <a class="guide-card c-green" data-num="01" href="#" data-cta="/app?q=健康生活习惯理念：如何通过饮食、运动、睡眠和压力管理改善整体健康状况？请给出循证的日常建议。">
+        <span class="guide-tag">日常健康</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
+        <h4>健康生活习惯</h4>
+        <p>均衡饮食 · 规律运动 · 优质睡眠 · 压力管理，建立可持续的生活方式。</p>
+      </a>
+      <a class="guide-card c-green" data-num="02" href="#" data-cta="/app?q=营养与饮食指导：中国居民膳食指南要点、不同人群营养需求、常见营养素缺乏表现、食品安全与合理搭配建议。">
+        <span class="guide-tag">日常健康</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M12 6v6l4 2"/></svg></div>
+        <h4>营养与饮食</h4>
+        <p>膳食指南核心要点 · 营养素缺乏表现 · 食品安全 · 合理搭配。</p>
+      </a>
+      <a class="guide-card c-green" data-num="03" href="#" data-cta="/app?q=运动与康复指导：科学运动处方制定、常见运动损伤处理与预防、术后康复训练原则、不同年龄段适合的运动方式。">
+        <span class="guide-tag">日常健康</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="5" r="2"/><path d="M12 7v6l-4 4M12 13l4 4M8 21l4-4 4 4"/></svg></div>
+        <h4>运动与康复</h4>
+        <p>科学运动处方 · 运动损伤 RICE 处理 · 术后康复 · 分龄运动建议。</p>
+      </a>
+      <a class="guide-card c-amber" data-num="04" href="#" data-cta="/app?q=职业病防护：长期伏案工作导致的颈肩腰背痛、视疲劳、鼠标手，以及粉尘噪声化学暴露的职业健康防护建议。">
+        <span class="guide-tag">职业健康</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M2 20h20M4 20V8l8-4 8 4v12"/><path d="M9 20v-6h6v6"/><circle cx="12" cy="11" r="1.5"/></svg></div>
+        <h4>职业病防护</h4>
+        <p>颈肩腰背痛 · 视疲劳鼠标手 · 工间操姿势矫正 · 粉尘噪声化学防护。</p>
+      </a>
+
+      <!-- Row 2: 妇幼育儿 -->
+      <a class="guide-card c-blue" data-num="05" href="#" data-cta="/app?q=婴儿护理指南：新生儿喂养、睡眠、疫苗接种和常见问题处理，请给出权威建议和注意事项。">
+        <span class="guide-tag">妇幼育儿</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M9 12h6M12 9v6"/><circle cx="12" cy="12" r="10"/><path d="M8 4h8M8 20h8" stroke-dasharray="2 2"/></svg></div>
+        <h4>婴儿护理</h4>
+        <p>0-1 岁喂养 · 睡眠训练 · 疫苗程序 · 发热腹泻居家护理与就医指征。</p>
+      </a>
+      <a class="guide-card c-blue" data-num="06" href="#" data-cta="/app?q=儿童成长指导：幼儿生长发育监测、行为心理引导、安全教育和营养需求，请给出分年龄段建议。">
+        <span class="guide-tag">妇幼育儿</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M3 20h18M5 20V10l7-5 7 5v10"/><path d="M9 20v-6h6v6"/><path d="M12 3v2"/></svg></div>
+        <h4>儿童成长指导</h4>
+        <p>生长发育曲线 · 行为心理引导 · 意外伤害预防 · 学龄期营养用眼。</p>
+      </a>
+      <a class="guide-card c-pink" data-num="07" href="#" data-cta="/app?q=女性健康指南：生理期管理、备孕孕期保健、更年期护理和常见妇科问题，请给出循证建议。">
+        <span class="guide-tag">妇幼育儿</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="5"/><path d="M12 13v8M8 17h8"/></svg></div>
+        <h4>女性健康</h4>
+        <p>生理期调理 · 备孕孕期保健 · 产后恢复 · 更年期 · 乳腺宫颈健康。</p>
+      </a>
+      <a class="guide-card c-violet" data-num="08" href="#" data-cta="/app?q=老年健康管理：慢性病控制、跌倒预防、认知维护、营养和用药安全，请给出适合老年人的建议。">
+        <span class="guide-tag">银发健康</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="5" r="2.5"/><path d="M8 22l2-7h4l2 7M7 15l-2 3M17 15l2 3"/></svg></div>
+        <h4>老年健康管理</h4>
+        <p>慢病控制 · 跌倒预防 · 认知维护 · 多重用药安全 · 营养评估。</p>
+      </a>
+
+      <!-- Row 3: 疾病与专科 -->
+      <a class="guide-card c-amber" data-num="09" href="#" data-cta="/app?q=慢性病自我管理：高血压、糖尿病、高血脂的日常监测、饮食运动和用药依从性指导。">
+        <span class="guide-tag">慢病管理</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M3 12h4l2-6 4 12 2-6h6"/></svg></div>
+        <h4>慢病自我管理</h4>
+        <p>高血压糖尿病高血脂 · 日常监测 · 饮食运动处方 · 并发症早期信号。</p>
+      </a>
+      <a class="guide-card c-violet" data-num="10" href="#" data-cta="/app?q=心理健康指导：如何识别焦虑和抑郁信号、压力管理方法、睡眠障碍改善，以及什么情况下需要寻求专业心理帮助。">
+        <span class="guide-tag">心理睡眠</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
+        <h4>心理健康</h4>
+        <p>焦虑抑郁识别 · 压力情绪调节 · 失眠改善 · 何时寻求专业帮助。</p>
+      </a>
+      <a class="guide-card c-cyan" data-num="11" href="#" data-cta="/app?q=口腔健康指南：龋齿和牙周病的预防、正确刷牙与使用牙线、儿童窝沟封闭与涂氟、智齿与口腔常见问题处理。">
+        <span class="guide-tag">五官健康</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 2c-3 0-5 2-5 5 0 2 1 4 1 6s-1 5 1 7c1 1 2 1 3 0 1 1 2 1 3 0 2-2 1-5 1-7s1-4 1-6c0-3-2-5-5-5z"/></svg></div>
+        <h4>口腔健康</h4>
+        <p>龋齿牙周病预防 · 正确刷牙牙线 · 儿童窝沟封闭涂氟 · 智齿处理。</p>
+      </a>
+      <a class="guide-card c-cyan" data-num="12" href="#" data-cta="/app?q=眼健康指南：近视防控方法、干眼综合征的日常护理、青光眼和白内障的早期信号、长时间用眼的护眼建议。">
+        <span class="guide-tag">五官健康</span>
+        <div class="guide-ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <h4>眼健康</h4>
+        <p>近视防控 · 干眼护理 · 青光眼白内障早期信号 · 20-20-20 护眼法则。</p>
+      </a>
+
+      </div>
+      <button class="guide-nav next" id="guideNext" aria-label="下一页">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
+    <div class="guide-dots" id="guideDots"></div>
+  </div>
+</section>
+
+<!-- Guide detail modal -->
+<div class="guide-modal-overlay" id="guideModalOverlay">
+  <div class="guide-modal" id="guideModal">
+    <div class="guide-modal-top" id="guideModalTop"></div>
+    <button class="guide-modal-close" id="guideModalClose" aria-label="关闭">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+    <div class="guide-modal-body">
+      <span class="guide-modal-tag" id="guideModalTag"></span>
+      <h3 id="guideModalTitle"></h3>
+      <div class="guide-modal-principle" id="guideModalPrinciple"></div>
+      <p class="guide-modal-summary" id="guideModalSummary"></p>
+      <ul class="guide-modal-points" id="guideModalPoints"></ul>
+      <div class="guide-modal-stats" id="guideModalStats"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <span class="logo-box"><svg width="16" height="16" viewBox="0 0 32 32" fill="none"><path d="M13.5 7h5v6.5H25v5h-6.5V25h-5v-6.5H7v-5h6.5V7z" fill="#FFFFFF"/></svg></span>
+        <span class="name">医答</span>
+        <div class="tag">循证医学 AI 助手</div>
+      </div>
+      <div class="foot-col">
+        <h5>产品</h5>
+        <a href="#features">核心能力</a>
+        <a href="#how">工作原理</a>
+        <a href="#guide">健康指南</a>
+      </div>
+      <div class="foot-col">
+        <h5>资源</h5>
+        <a href="/map">疾病地图</a>
+        <a href="/stats">数据洞察</a>
+        <a href="https://github.com/deep2code/doctor-agent">开源代码</a>
+      </div>
+      <div class="foot-col">
+        <h5>法律</h5>
+        <a href="#">服务条款</a>
+        <a href="#">隐私政策</a>
+        <a href="#">免责声明</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span id="version-info">© 2026 医答 Doctor Agent</span>
+      <span>仅供健康参考，不能替代专业医疗诊断</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ---- 版本信息（从 /health 拉取 git hash + 打包时间） ---- */
+fetch("/health").then(function(r){return r.json();}).then(function(d){
+  var el = document.getElementById("version-info");
+  var parts = ["© 2026 医答 Doctor Agent"];
+  if(d.git_commit && d.git_commit !== "unknown") parts.push(d.git_commit);
+  if(d.build_time && d.build_time !== "unknown") parts.push(d.build_time);
+  el.textContent = parts.join(" · ");
+}).catch(function(){});
+
+/* ===== Disease ranking bar animation ===== */
+(function(){
+  var table=document.getElementById('rankTable');
+  if(!table)return;
+  var bars=table.querySelectorAll('.rank-mini-bar i');
+  var played=false;
+  function play(){
+    if(played)return;played=true;
+    bars.forEach(function(b,i){
+      setTimeout(function(){b.style.width=b.getAttribute('data-w')+'%';},i*60);
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){if(e.isIntersecting){play();io.disconnect();}});
+    },{threshold:0.15});
+    io.observe(table);
+  }else{play();}
+})();
+
+/* ===== Health guide carousel ===== */
+(function(){
+  var carousel = document.getElementById('guideCarousel');
+  if (!carousel) return;
+  var track = document.getElementById('guideTrack');
+  var prevBtn = document.getElementById('guidePrev');
+  var nextBtn = document.getElementById('guideNext');
+  var dotsWrap = document.getElementById('guideDots');
+  var cards = track.querySelectorAll('.guide-card');
+  var total = cards.length;
+  var current = 0;
+  var perPage = 4;
+  var pages = 3;
+  var autoTimer = null;
+
+  function calcPerPage() {
+    var w = window.innerWidth;
+    if (w <= 620) return 1;
+    if (w <= 980) return 2;
+    return 4;
+  }
+
+  function buildDots() {
+    dotsWrap.innerHTML = '';
+    for (var i = 0; i < pages; i++) {
+      var dot = document.createElement('button');
+      dot.className = 'guide-dot' + (i === current ? ' active' : '');
+      dot.setAttribute('aria-label', '第 ' + (i + 1) + ' 页');
+      (function(idx) {
+        dot.addEventListener('click', function() { goTo(idx); });
+      })(i);
+      dotsWrap.appendChild(dot);
+    }
+  }
+
+  function updateDots() {
+    var dots = dotsWrap.querySelectorAll('.guide-dot');
+    dots.forEach(function(d, i) {
+      d.classList.toggle('active', i === current);
+    });
+  }
+
+  function goTo(idx) {
+    current = Math.max(0, Math.min(idx, pages - 1));
+    track.style.transform = 'translateX(-' + (current * 100) + '%)';
+    updateDots();
+    prevBtn.disabled = current === 0;
+    nextBtn.disabled = current === pages - 1;
+  }
+
+  function next() { goTo(current + 1); }
+  function prev() { goTo(current - 1); }
+
+  function resetAuto() {
+    if (autoTimer) clearInterval(autoTimer);
+    autoTimer = setInterval(function() {
+      if (current >= pages - 1) goTo(0); else next();
+    }, 5000);
+  }
+
+  function recalc() {
+    perPage = calcPerPage();
+    pages = Math.ceil(total / perPage);
+    if (current >= pages) current = pages - 1;
+    buildDots();
+    goTo(current);
+  }
+
+  prevBtn.addEventListener('click', function() { prev(); resetAuto(); });
+  nextBtn.addEventListener('click', function() { next(); resetAuto(); });
+
+  // Touch swipe
+  var touchStartX = 0;
+  track.addEventListener('touchstart', function(e) {
+    touchStartX = e.touches[0].clientX;
+  }, { passive: true });
+  track.addEventListener('touchend', function(e) {
+    var dx = e.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(dx) > 50) {
+      if (dx < 0) next(); else prev();
+      resetAuto();
+    }
+  }, { passive: true });
+
+  window.addEventListener('resize', recalc);
+
+  recalc();
+  resetAuto();
+})();
+
+/* ===== Guide detail modal with authoritative content ===== */
+(function(){
+  var overlay = document.getElementById('guideModalOverlay');
+  if (!overlay) return;
+  var modal = document.getElementById('guideModal');
+  var topBar = document.getElementById('guideModalTop');
+  var tagEl = document.getElementById('guideModalTag');
+  var titleEl = document.getElementById('guideModalTitle');
+  var summaryEl = document.getElementById('guideModalSummary');
+  var pointsEl = document.getElementById('guideModalPoints');
+  var statsEl = document.getElementById('guideModalStats');
+  var closeBtn = document.getElementById('guideModalClose');
+
+  var GUIDE_DATA = {
+    "01": {
+      tag: "日常健康", color: "#16A34A", colorSoft: "#ECFDF5",
+      title: "健康生活习惯",
+      principle: "吃动平衡、戒烟限酒、睡够 7 小时——健康不是突击，是日复一日的选择。",
+      summary: "世界卫生组织提出健康四大基石——合理膳食、适量运动、戒烟限酒、心理平衡。建立可持续的生活方式，是预防 80% 以上慢性病的关键。",
+      points: [
+        { icon: "🥗", text: "<b>合理膳食</b>：每天摄入 12 种以上食物，每周 25 种以上；谷薯类、蔬菜水果、畜禽鱼蛋奶、大豆坚果均衡搭配。" },
+        { icon: "🏃", text: "<b>适量运动</b>：每周至少 150 分钟中等强度有氧运动（快走/游泳/骑车），肌肉强化训练 ≥2 天/周。" },
+        { icon: "🚭", text: "<b>戒烟限酒</b>：任何剂量酒精都对健康有害；戒烟后 20 分钟心率即开始恢复正常。" },
+        { icon: "😴", text: "<b>优质睡眠</b>：成人每天 7-8 小时，固定作息，睡前 1 小时避免屏幕蓝光。" },
+        { icon: "🧘", text: "<b>压力管理</b>：每天 10 分钟深呼吸或正念练习，保持社交联系，必要时寻求专业心理支持。" }
+      ],
+      stats: [
+        { num: "27.8%", lbl: "中国居民健康素养水平（2022）" },
+        { num: "80%", lbl: "慢性病可通过生活方式预防" }
+      ],
+      source: "来源：世界卫生组织（WHO）《预防慢性病关键措施》、国家卫健委《中国居民健康素养监测报告》"
+    },
+    "02": {
+      tag: "日常健康", color: "#16A34A", colorSoft: "#ECFDF5",
+      title: "营养与饮食",
+      principle: "每天 12 种食物、盐不超 5 克、水喝够 1500 毫升——吃对了，病少一半。",
+      summary: "《中国居民膳食指南（2022）》提出八条核心准则，强调食物多样、吃动平衡、少盐少油控糖限酒。",
+      points: [
+        { icon: "🌾", text: "<b>食物多样</b>：平均每天 12 种、每周 25 种以上食物；全谷物和杂豆占主食 1/4-1/3。" },
+        { icon: "🥬", text: "<b>多吃蔬果</b>：每天蔬菜 ≥300g（深色占一半），水果 200-350g，奶类 300-500g。" },
+        { icon: "🐟", text: "<b>适量蛋白</b>：每周吃鱼 2 次或 300-500g，蛋类 300-350g，畜禽肉 300-500g。" },
+        { icon: "🧂", text: "<b>少盐少油</b>：食盐 <5g/天（约一啤酒瓶盖），烹调油 25-30g，添加糖 <25g/天。" },
+        { icon: "💧", text: "<b>足量饮水</b>：成人每天 1500-1700ml（7-8 杯），首选白开水，不喝或少喝含糖饮料。" }
+      ],
+      stats: [
+        { num: "9.3g", lbl: "中国人均每日食盐摄入量（推荐 <5g）" },
+        { num: "8 条", lbl: "膳食指南核心准则" }
+      ],
+      source: "来源：中国营养学会《中国居民膳食指南（2022）》、国家卫健委"
+    },
+    "03": {
+      tag: "日常健康", color: "#16A34A", colorSoft: "#ECFDF5",
+      title: "运动与康复",
+      principle: "每周 150 分钟、少坐多站、动则有益——身体活动是最好的药。",
+      summary: "WHO 2020 年指南指出，身体活动是「良药」——可降低心血管病、糖尿病、抑郁和全因死亡风险。久坐是独立危险因素。",
+      points: [
+        { icon: "🚶", text: "<b>有氧运动</b>：成人每周 150-300 分钟中等强度（能说话不能唱歌），或 75-150 分钟高强度。" },
+        { icon: "💪", text: "<b>肌肉强化</b>：每周 ≥2 天进行涉及主要肌群的抗阻训练（哑铃/弹力带/自重）。" },
+        { icon: "🪑", text: "<b>减少久坐</b>：每坐 1 小时起身活动 3-5 分钟；久坐时间越长，死亡风险越高。" },
+        { icon: "🩹", text: "<b>运动损伤 RICE</b>：Rest 休息、Ice 冰敷（48h 内）、Compression 加压、Elevation 抬高。" },
+        { icon: "🦴", text: "<b>术后康复</b>：遵循循序渐进原则，早期活动预防血栓和肌肉萎缩，在康复师指导下进行。" }
+      ],
+      stats: [
+        { num: "22%", lbl: "中国成年人达到推荐身体活动量比例" },
+        { num: "30%", lbl: "运动降低全因死亡风险" }
+      ],
+      source: "来源：WHO《身体活动和久坐行为指南（2020）》、美国运动医学会（ACSM）"
+    },
+    "04": {
+      tag: "职业健康", color: "#D97706", colorSoft: "#FEF3E6",
+      title: "职业病防护",
+      principle: "每 45 分钟起身、20-20-20 护眼、工位调对——预防比治疗容易百倍。",
+      summary: "长期伏案工作导致的肌肉骨骼疾患和视疲劳已成为最常见的职业健康问题。粉尘、噪声、化学暴露则需严格的工程防护和个人防护。",
+      points: [
+        { icon: "💺", text: "<b>颈肩腰背痛</b>：每 45 分钟起身活动；显示器与眼平齐，键盘肘屈 90°，腰部有支撑。" },
+        { icon: "👁️", text: "<b>视疲劳</b>：20-20-20 法则——每用眼 20 分钟，看 6 米外 20 秒；屏幕亮度与环境匹配。" },
+        { icon: "🖱️", text: "<b>鼠标手（腕管综合征）</b>：保持腕部中立位，使用人体工学键鼠，定时做腕部拉伸。" },
+        { icon: "😷", text: "<b>粉尘/化学暴露</b>：佩戴符合标准的防尘口罩/防毒面具，优先工程控制（通风/密闭）。" },
+        { icon: "📋", text: "<b>职业健康检查</b>：接触职业病危害因素的劳动者须进行上岗前、在岗期间、离岗时职业健康检查。" }
+      ],
+      stats: [
+        { num: "100万+", lbl: "中国累计报告职业病病例" },
+        { num: "首位", lbl: "肌肉骨骼疾患是职业健康首要问题" }
+      ],
+      source: "来源：《中华人民共和国职业病防治法》、国家卫健委职业健康司、中国疾控中心职业卫生所"
+    },
+    "05": {
+      tag: "妇幼育儿", color: "#2563EB", colorSoft: "#E6F2FE",
+      title: "婴儿护理",
+      principle: "纯母乳 6 个月、仰睡、按时疫苗——三件事护住婴儿期。",
+      summary: "WHO 推荐纯母乳喂养至 6 个月，6 个月起添加辅食。安全睡眠和规范免疫接种是婴儿期最重要的健康保障。",
+      points: [
+        { icon: "🍼", text: "<b>母乳喂养</b>：出生后 1 小时内开始，纯母乳至 6 个月；6 个月起添加辅食，继续母乳至 2 岁或更久。" },
+        { icon: "🛏️", text: "<b>安全睡眠</b>：仰卧位入睡，婴儿床内无枕头/毛绒玩具/床围，同室不同床可降低 SIDS 风险。" },
+        { icon: "💉", text: "<b>疫苗接种</b>：按国家免疫程序接种——出生乙肝+卡介苗，2 月龄脊灰，3 月龄百白破等，按时接种不推迟。" },
+        { icon: "🌡️", text: "<b>发热处理</b>：≥38.5℃ 且不适可用对乙酰氨基酚（>3 月）或布洛芬（>6 月）；<3 月龄发热立即就医。" },
+        { icon: "🩺", text: "<b>就医指征</b>：精神萎靡、拒奶、反复呕吐、呼吸急促、抽搐、皮疹按压不褪色——立即就医。" }
+      ],
+      stats: [
+        { num: "29%", lbl: "中国 6 个月内婴儿纯母乳喂养率" },
+        { num: "6 月", lbl: "WHO 推荐纯母乳喂养时长" }
+      ],
+      source: "来源：WHO《婴幼儿喂养全球战略》、国家卫健委《儿童健康检查服务规范》、美国儿科学会（AAP）"
+    },
+    "06": {
+      tag: "妇幼育儿", color: "#2563EB", colorSoft: "#E6F2FE",
+      title: "儿童成长指导",
+      principle: "每天户外 2 小时、少屏幕、监测生长曲线——童年习惯影响一生。",
+      summary: "定期生长监测、均衡营养、安全防护和适龄的行为心理引导，是儿童健康成长的四大支柱。",
+      points: [
+        { icon: "📈", text: "<b>生长监测</b>：定期测量身高体重头围，绘制生长曲线；偏离正常轨道需及时就医评估。" },
+        { icon: "🗣️", text: "<b>语言发育</b>：2-3 岁是语言爆发期，多对话、阅读、少屏幕；2 岁仍无词语需评估。" },
+        { icon: "🛡️", text: "<b>意外伤害预防</b>：防溺水（时刻看护）、防跌落（窗户护栏）、防烫伤（热水内放）、交通安全（安全座椅）。" },
+        { icon: "🥛", text: "<b>营养需求</b>：每日饮奶 300-500ml，补充维生素 D 400IU/天；铁丰富食物预防缺铁性贫血。" },
+        { icon: "📱", text: "<b>屏幕时间</b>：<2 岁避免屏幕（除视频通话），2-5 岁每天 ≤1 小时，6 岁以上限制娱乐性屏幕时间。" }
+      ],
+      stats: [
+        { num: "4.8%", lbl: "中国 5 岁以下儿童生长迟缓率（2022）" },
+        { num: "400IU", lbl: "儿童每日维生素 D 推荐量" }
+      ],
+      source: "来源：国家卫健委《7 岁以下儿童生长标准（WS/T 423-2022）》、WHO 儿童生长标准、AAP"
+    },
+    "07": {
+      tag: "妇幼育儿", color: "#E11D48", colorSoft: "#FFE4E6",
+      title: "女性健康",
+      principle: "定期筛查、孕前补叶酸、更年期不硬扛——每个阶段都有重点。",
+      summary: "女性一生经历月经、孕产、更年期等特殊生理阶段，各阶段有不同的健康重点。定期筛查是早期发现妇科肿瘤的关键。",
+      points: [
+        { icon: "🩸", text: "<b>生理期</b>：注意卫生，避免剧烈运动和生冷饮食；痛经可热敷或服用布洛芬，严重痛经需排查子宫内膜异位症。" },
+        { icon: "🤰", text: "<b>备孕孕期</b>：孕前 3 个月至孕早期补叶酸 0.4mg/天；孕期规范产检 ≥8 次，控制体重增长 11.5-16kg。" },
+        { icon: "🦴", text: "<b>更年期</b>：潮热失眠可通过激素替代治疗（需医生评估禁忌）；规律运动+钙+维生素 D 防骨质疏松。" },
+        { icon: "🎀", text: "<b>乳腺筛查</b>：40 岁起每年乳腺超声或钼靶；高危人群提前至 35 岁。" },
+        { icon: "🔬", text: "<b>宫颈癌筛查</b>：21-29 岁每 3 年 TCT；30-65 岁每 5 年 TCT+HPV 联合检测；接种 HPV 疫苗。" }
+      ],
+      stats: [
+        { num: "首位", lbl: "乳腺癌居中国女性恶性肿瘤发病率首位" },
+        { num: "9-14岁", lbl: "HPV 疫苗最佳接种年龄" }
+      ],
+      source: "来源：中华医学会妇产科学分会、国家卫健委妇幼健康司、WHO 宫颈癌防控指南"
+    },
+    "08": {
+      tag: "银发健康", color: "#7C3AED", colorSoft: "#EDEBFE",
+      title: "老年健康管理",
+      principle: "防跌倒、控慢病、防肌少、慎用药——主动健康，优雅变老。",
+      summary: "老年人健康管理的核心是慢病控制、跌倒预防、认知维护和用药安全。主动健康老龄化，而非被动治病。",
+      points: [
+        { icon: "💊", text: "<b>慢病控制</b>：定期监测血压血糖血脂，遵医嘱规律服药，不自行停药或加减量；每 3-6 个月复查。" },
+        { icon: "🚶", text: "<b>跌倒预防</b>：家中浴室装扶手、地面防滑、夜间留灯；穿合脚防滑鞋；练习太极/平衡训练。" },
+        { icon: "🧠", text: "<b>认知维护</b>：阅读、下棋、社交、运动可延缓认知衰退；记忆力明显下降需就医排查痴呆。" },
+        { icon: "🍳", text: "<b>营养防肌少</b>：保证优质蛋白（每公斤体重 1.0-1.2g），补充钙 1000mg+维生素 D 800IU/天。" },
+        { icon: "📋", text: "<b>用药安全</b>：多重用药（≥5 种）需医生/药师定期审核，避免重复用药和药物相互作用。" }
+      ],
+      stats: [
+        { num: "30%", lbl: "中国 65 岁以上老年人年跌倒发生率" },
+        { num: "≥5种", lbl: "老年人多重用药比例超 50%" }
+      ],
+      source: "来源：国家卫健委《老年人健康管理服务规范》、中华医学会老年医学分会、WHO 老龄化与健康报告"
+    },
+    "09": {
+      tag: "慢病管理", color: "#D97706", colorSoft: "#FEF3E6",
+      title: "慢病自我管理",
+      principle: "管住嘴、迈开腿、按时吃药、定期监测——慢病可防可控不可怕。",
+      summary: "高血压、糖尿病、高血脂是中国患病率最高的三大慢性病。生活方式干预是基础，规范用药是关键，定期监测是保障。",
+      points: [
+        { icon: "❤️", text: "<b>高血压</b>：家庭血压监测，目标一般 <130/80mmHg；限盐 <5g/天，减重，规律运动；降压药不可自行停。" },
+        { icon: "🩸", text: "<b>糖尿病</b>：HbA1c 目标一般 <7%；饮食控制+运动是基础；指尖血糖监测；警惕低血糖（心慌出汗手抖）。" },
+        { icon: "🧈", text: "<b>高血脂</b>：LDL-C 目标根据心血管风险分层（高危 <2.6mmol/L，极高危 <1.8mmol/L）；他汀类一线用药。" },
+        { icon: "🚭", text: "<b>共同基石</b>：戒烟（包括二手烟）、控制体重（BMI 18.5-23.9）、每周 150 分钟运动、定期复查。" },
+        { icon: "⚠️", text: "<b>急症识别</b>：胸痛胸闷（心梗）、一侧肢体无力言语不清（卒中）、严重低血糖——立即拨打 120。" }
+      ],
+      stats: [
+        { num: "16.8%", lbl: "中国高血压控制率" },
+        { num: "36.7%", lbl: "中国糖尿病患者知晓率" }
+      ],
+      source: "来源：《中国高血压防治指南（2024 修订版）》、《中国 2 型糖尿病防治指南（2024）》、《中国血脂管理指南（2023）》"
+    },
+    "10": {
+      tag: "心理睡眠", color: "#7C3AED", colorSoft: "#EDEBFE",
+      title: "心理健康",
+      principle: "睡好、动起来、说出来、不硬扛——心理感冒也需要治疗。",
+      summary: "心理健康与身体健康同等重要。持续的情绪低落、焦虑和睡眠障碍需要被认真对待，寻求专业帮助是勇敢而非软弱。",
+      points: [
+        { icon: "🔍", text: "<b>识别信号</b>：持续 ≥2 周情绪低落、兴趣减退、睡眠/食欲改变、疲劳、注意力下降、无价值感——可能是抑郁。" },
+        { icon: "🌬️", text: "<b>压力调节</b>：腹式呼吸（4-7-8 法）、正念冥想、规律运动、与信任的人倾诉，写情绪日记。" },
+        { icon: "😴", text: "<b>睡眠卫生</b>：固定作息（即使周末），睡前 1 小时不看屏幕，卧室凉爽黑暗，不在床上工作/刷手机。" },
+        { icon: "🆘", text: "<b>何时求助</b>：有自伤/自杀念头、严重影响工作生活、持续痛苦无法缓解→精神科或心理科就诊。" },
+        { icon: "🤝", text: "<b>支持他人</b>：倾听不评判，鼓励寻求专业帮助；提到自杀时直接询问，不回避，陪伴并协助就医。" }
+      ],
+      stats: [
+        { num: "2.1%", lbl: "中国抑郁症患病率" },
+        { num: "5.0%", lbl: "中国焦虑障碍患病率" }
+      ],
+      source: "来源：《中国国民心理健康发展报告（2021-2022）》、WHO 心理健康指南、美国精神医学学会（APA）"
+    },
+    "11": {
+      tag: "五官健康", color: "#0891B2", colorSoft: "#ECFEFF",
+      title: "口腔健康",
+      principle: "每天刷牙 2 次加牙线、半年查一次——口腔好，全身才好。",
+      summary: "口腔健康是全身健康的门户。牙周病与心血管病、糖尿病、早产等相关。正确刷牙+牙线+定期检查，是维护口腔健康的三大法宝。",
+      points: [
+        { icon: "🪥", text: "<b>正确刷牙</b>：每天 2 次（早晚），每次 2 分钟，巴氏刷牙法（45° 颤动），使用含氟牙膏。" },
+        { icon: "🧵", text: "<b>每天牙线</b>：刷牙只能清洁 60% 牙面，牙线清洁牙缝；每天至少 1 次，睡前最佳。" },
+        { icon: "👶", text: "<b>儿童防龋</b>：第一恒磨牙（6 龄牙）萌出后做窝沟封闭；每 6 个月涂氟；家长辅助刷牙至 7 岁。" },
+        { icon: "🦷", text: "<b>智齿处理</b>：反复发炎、位置不正、顶坏邻牙→建议拔除；完全萌出且咬合正常可保留。" },
+        { icon: "📅", text: "<b>定期检查</b>：每 6-12 个月洗牙和口腔检查；早期龋齿无症状，发现时往往已较深。" }
+      ],
+      stats: [
+        { num: "9.1%", lbl: "中国成人牙周健康率" },
+        { num: "70.9%", lbl: "中国 5 岁儿童乳牙龋齿率" }
+      ],
+      source: "来源：中华口腔医学会、第四次全国口腔健康流行病学调查（2017）、WHO 口腔健康报告"
+    },
+    "12": {
+      tag: "五官健康", color: "#0891B2", colorSoft: "#ECFEFF",
+      title: "眼健康",
+      principle: "户外 2 小时、20-20-20、40 岁查眼压——眼睛用一辈子，值得好好护。",
+      summary: "中国儿童青少年近视率居世界前列，干眼和年龄相关眼病（青光眼、白内障）是主要致盲原因。早预防、早发现、早干预。",
+      points: [
+        { icon: "🌞", text: "<b>近视防控</b>：每天户外活动 ≥2 小时（光照是关键）；读写「三个一」（眼离书 1 尺、胸离桌 1 拳、手离笔尖 1 寸）。" },
+        { icon: "💧", text: "<b>干眼护理</b>：有意识多眨眼，热敷眼睑（40℃ 10 分钟），使用不含防腐剂的人工泪液，减少屏幕时间。" },
+        { icon: "👁️", text: "<b>青光眼</b>：40 岁以上定期查眼压和视野；不可逆致盲眼病，早期无症状，有家族史者风险高。" },
+        { icon: "🔬", text: "<b>白内障</b>：视力下降影响生活可手术；超声乳化+人工晶体植入是成熟术式，不必等「熟透」。" },
+        { icon: "⏱️", text: "<b>20-20-20 法则</b>：每用眼 20 分钟，看 20 英尺（约 6 米）外的物体 20 秒，放松睫状肌。" }
+      ],
+      stats: [
+        { num: "52.7%", lbl: "中国儿童青少年总体近视率" },
+        { num: "80%+", lbl: "中国高中生近视率" }
+      ],
+      source: "来源：国家卫健委《儿童青少年近视防控适宜技术指南》、中华医学会眼科学分会、WHO 视觉健康报告"
+    }
+  };
+
+  function openModal(num) {
+    var d = GUIDE_DATA[num];
+    if (!d) return;
+    topBar.style.background = d.color;
+    tagEl.textContent = d.tag;
+    tagEl.style.background = d.colorSoft;
+    tagEl.style.color = d.color;
+    titleEl.textContent = d.title;
+    var pEl = document.getElementById('guideModalPrinciple');
+    pEl.textContent = d.principle;
+    pEl.style.background = d.colorSoft;
+    pEl.style.color = d.color;
+    pEl.style.borderLeftColor = d.color;
+    summaryEl.textContent = d.summary;
+    pointsEl.innerHTML = d.points.map(function(p) {
+      return '<li><span class="pt-ic" style="background:' + d.colorSoft + '">' + p.icon + '</span><span>' + p.text + '</span></li>';
+    }).join('');
+    statsEl.innerHTML = d.stats.map(function(s) {
+      return '<div class="guide-stat"><div class="num" style="color:' + d.color + '">' + s.num + '</div><div class="lbl">' + s.lbl + '</div></div>';
+    }).join('');
+    overlay.classList.add('show');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    overlay.classList.remove('show');
+    document.body.style.overflow = '';
+  }
+
+  // Bind card clicks
+  document.querySelectorAll('.guide-card').forEach(function(card) {
+    card.addEventListener('click', function(e) {
+      e.preventDefault();
+      var num = card.getAttribute('data-num');
+      openModal(num);
+    });
+  });
+
+  closeBtn.addEventListener('click', closeModal);
+  overlay.addEventListener('click', function(e) {
+    if (e.target === overlay) closeModal();
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && overlay.classList.contains('show')) closeModal();
+  });
+})();
+
+/* ===== Interactive Anatomy Map ===== */
+(function(){
+  var svg=document.getElementById('bmSvg');if(!svg)return;
+  var layerBody=document.getElementById('bmLayerBody'),layerOrgans=document.getElementById('bmLayerOrgans'),layerLabels=document.getElementById('bmLayerLabels');
+  var outEl=document.getElementById('bmOutLanding'),crumbEl=document.getElementById('bmCrumb'),zoomOutBtn=document.getElementById('bmZoomOut');
+  var sideTitle=document.getElementById('bmSideTitle'),sideContent=document.getElementById('bmSideContent');
+  var view='front',currentRegion=null,currentOrgan=null,selectedCond=null;
+
+  var REGIONS={front:{
+    head:{label:'头部',vb:[140,0,120,150],hot:'<ellipse cx="200" cy="70" rx="55" ry="65"/>'},
+    neck:{label:'颈部',vb:[160,115,80,60],hot:'<rect x="178" y="125" width="44" height="40" rx="8"/>'},
+    chest:{label:'胸部',vb:[105,140,190,175],hot:'<path d="M130 155 Q125 200 135 265 L265 265 Q275 200 270 155 Q240 140 200 140 Q160 140 130 155 Z"/>'},
+    abdomen:{label:'腹部',vb:[110,265,180,210],hot:'<path d="M135 275 Q125 340 140 440 L260 440 Q275 340 265 275 Q235 265 200 265 Q165 265 135 275 Z"/>'},
+    pelvis:{label:'盆部',vb:[135,425,130,115],hot:'<path d="M145 435 Q140 475 155 520 L245 520 Q260 475 255 435 Q230 425 200 425 Q170 425 145 435 Z"/>'},
+    armL:{label:'左上肢',vb:[55,145,95,320],hot:'<path d="M130 155 L105 200 L95 290 L88 380 L85 435 Q85 450 95 455 L110 455 Q115 445 115 435 L120 380 L130 290 L145 200 Z"/>'},
+    armR:{label:'右上肢',vb:[250,145,95,320],hot:'<path d="M270 155 L295 200 L305 290 L312 380 L315 435 Q315 450 305 455 L290 455 Q285 445 285 435 L280 380 L270 290 L255 200 Z"/>'},
+    legL:{label:'左下肢',vb:[110,495,95,310],hot:'<path d="M155 505 L148 610 L145 710 L143 775 Q143 790 155 795 L175 795 Q180 785 178 775 L180 710 L188 610 L195 505 Z"/>'},
+    legR:{label:'右下肢',vb:[195,495,95,310],hot:'<path d="M205 505 L212 610 L215 710 L217 775 Q217 790 205 795 L185 795 Q180 785 182 775 L180 710 L172 610 L165 505 Z"/>'}
+  },back:{
+    head:{label:'头部',vb:[140,0,120,150],hot:'<ellipse cx="200" cy="70" rx="55" ry="65"/>'},
+    neck:{label:'颈部',vb:[160,115,80,60],hot:'<rect x="178" y="125" width="44" height="40" rx="8"/>'},
+    backUp:{label:'上背',vb:[105,140,190,175],hot:'<path d="M130 155 Q125 200 135 265 L265 265 Q275 200 270 155 Q240 140 200 140 Q160 140 130 155 Z"/>'},
+    backLow:{label:'下背/腰',vb:[110,265,180,165],hot:'<path d="M135 275 Q125 340 140 400 L260 400 Q275 340 265 275 Q235 265 200 265 Q165 265 135 275 Z"/>'},
+    buttock:{label:'臀/骶尾',vb:[135,385,130,135],hot:'<path d="M145 395 Q140 445 155 500 L245 500 Q260 445 255 395 Q230 385 200 385 Q170 385 145 395 Z"/>'},
+    armL:{label:'左上肢',vb:[55,145,95,320],hot:'<path d="M130 155 L105 200 L95 290 L88 380 L85 435 Q85 450 95 455 L110 455 Q115 445 115 435 L120 380 L130 290 L145 200 Z"/>'},
+    armR:{label:'右上肢',vb:[250,145,95,320],hot:'<path d="M270 155 L295 200 L305 290 L312 380 L315 435 Q315 450 305 455 L290 455 Q285 445 285 435 L280 380 L270 290 L255 200 Z"/>'},
+    legL:{label:'左下肢',vb:[110,475,95,330],hot:'<path d="M155 485 L148 590 L145 690 L143 760 Q143 775 155 780 L175 780 Q180 770 178 760 L180 690 L188 590 L195 485 Z"/>'},
+    legR:{label:'右下肢',vb:[195,475,95,330],hot:'<path d="M205 485 L212 590 L215 690 L217 760 Q217 775 205 780 L185 780 Q180 770 182 760 L180 690 L172 590 L165 485 Z"/>'}
+  }};
+
+  var O={front:{
+    head:[
+      {id:'brain',label:'脑',sub:'中枢神经系统',path:'<ellipse cx="200" cy="55" rx="38" ry="32" fill="url(#organBrain)"/>',lx:255,ly:45,cond:['偏头痛','紧张型头痛','脑卒中','癫痫','失眠'],flag:'突发剧烈头痛、伴呕吐或意识改变，立即就医。'},
+      {id:'eye',label:'眼',sub:'视觉器官',path:'<ellipse cx="182" cy="68" rx="12" ry="8" fill="#fff" stroke="#333" stroke-width="1"/><circle cx="182" cy="68" r="4" fill="#1a1a1a"/><ellipse cx="218" cy="68" rx="12" ry="8" fill="#fff" stroke="#333" stroke-width="1"/><circle cx="218" cy="68" r="4" fill="#1a1a1a"/>',lx:255,ly:70,cond:['近视','干眼症','结膜炎','青光眼','白内障'],flag:'突发视力下降、眼痛伴头痛，尽快就医。'},
+      {id:'ear',label:'耳',sub:'听觉/平衡',path:'<ellipse cx="148" cy="75" rx="8" ry="14" fill="#E8C8B0"/><ellipse cx="252" cy="75" rx="8" ry="14" fill="#E8C8B0"/>',lx:100,ly:75,cond:['中耳炎','耳鸣','听力下降','外耳道炎'],flag:''},
+      {id:'nose',label:'鼻/鼻窦',sub:'呼吸/嗅觉',path:'<path d="M195 78 L200 95 L205 78" fill="none" stroke="#8B7355" stroke-width="1.5"/>',lx:255,ly:95,cond:['鼻窦炎','过敏性鼻炎','鼻出血','感冒'],flag:''},
+      {id:'throat',label:'咽喉',sub:'呼吸/消化',path:'<path d="M185 105 Q200 112 215 105" fill="none" stroke="#C05040" stroke-width="3"/>',lx:100,ly:108,cond:['咽炎','扁桃体炎','声音嘶哑','反流性咽炎'],flag:''}
+    ],
+    neck:[
+      {id:'thyroid',label:'甲状腺',sub:'内分泌腺',path:'<path d="M182 140 Q200 135 218 140 L215 158 Q200 165 185 158 Z" fill="#E8A080" stroke="#C07050" stroke-width="1"/>',lx:245,ly:135,cond:['甲亢','甲减','甲状腺结节','桥本氏病'],flag:'颈部肿块迅速增大、伴声音嘶哑，尽快就医。'},
+      {id:'trachea',label:'气管',sub:'呼吸道',path:'<rect x="194" y="130" width="12" height="35" rx="3" fill="#D0D0D0" stroke="#999" stroke-width="0.8"/>',lx:245,ly:155,cond:['气管炎','支气管炎','气道异物'],flag:'突发呼吸困难、喘鸣，立即就医。'},
+      {id:'cervical',label:'颈椎',sub:'脊柱',path:'<rect x="192" y="128" width="16" height="40" rx="4" fill="#F5E6D3" stroke="#C8B090" stroke-width="1"/>',lx:150,ly:155,cond:['颈椎病','颈椎间盘突出','落枕'],flag:''}
+    ],
+    chest:[
+      {id:'heart',label:'心脏',sub:'循环系统',path:'<path d="M210 205 C195 195 175 205 178 225 C180 245 210 265 210 265 C210 265 240 245 242 225 C245 205 225 195 210 205 Z" fill="url(#organHeart)"/>',lx:275,ly:210,cond:['冠心病/心绞痛','心肌梗死','心律失常','心力衰竭'],flag:'突发压榨性胸痛、伴冷汗或向左臂放射，立即拨打 120。'},
+      {id:'lungL',label:'左肺',sub:'呼吸系统',path:'<path d="M160 175 Q145 180 142 220 L145 268 Q150 278 175 273 L185 250 L185 190 Q175 175 160 175 Z" fill="url(#organLung)"/>',lx:105,ly:220,cond:['肺炎','支气管炎','哮喘','慢阻肺','肺癌'],flag:'突发呼吸困难、胸痛、咯血，立即就医。'},
+      {id:'lungR',label:'右肺',sub:'呼吸系统',path:'<path d="M240 175 Q255 180 258 220 L255 268 Q250 278 225 273 L215 250 L215 190 Q225 175 240 175 Z" fill="url(#organLung)"/>',lx:295,ly:220,cond:['肺炎','支气管炎','哮喘','慢阻肺','肺癌'],flag:''},
+      {id:'ribs',label:'肋骨/胸膜',sub:'骨骼/浆膜',path:'<path d="M140 185 Q200 175 260 185 M140 210 Q200 200 260 210 M140 235 Q200 225 260 235 M140 260 Q200 250 260 260" fill="none" stroke="#C8B090" stroke-width="1.5" opacity="0.5"/>',lx:200,ly:295,cond:['肋软骨炎','肋间神经痛','胸膜炎','肋骨骨折'],flag:''},
+      {id:'breast',label:'乳腺',sub:'内分泌/生殖',path:'<circle cx="165" cy="215" r="18" fill="none" stroke="#E8A0A0" stroke-width="1.5" stroke-dasharray="3 2"/><circle cx="235" cy="215" r="18" fill="none" stroke="#E8A0A0" stroke-width="1.5" stroke-dasharray="3 2"/>',lx:200,ly:168,cond:['乳腺增生','乳腺结节','乳腺炎','乳腺癌筛查'],flag:'乳房无痛性肿块、皮肤凹陷或乳头溢液，尽快就医。'}
+    ],
+    abdomen:[
+      {id:'liver',label:'肝',sub:'代谢/解毒',path:'<path d="M265 295 Q290 300 290 330 Q288 358 265 362 L220 360 Q205 352 210 325 Q215 300 240 295 Z" fill="url(#organLiver)"/>',lx:310,ly:320,cond:['脂肪肝','肝炎','肝硬化','肝囊肿'],flag:'皮肤巩膜变黄、右上腹剧痛伴发热，尽快就医。'},
+      {id:'gallbladder',label:'胆囊',sub:'消化',path:'<ellipse cx="268" cy="362" rx="12" ry="18" fill="#8B7355" stroke="#6B5335" stroke-width="1"/>',lx:310,ly:368,cond:['胆囊结石','胆囊炎','胆囊息肉'],flag:'右上腹剧痛伴发热黄疸，尽快就医。'},
+      {id:'stomach',label:'胃',sub:'消化',path:'<path d="M140 300 Q125 310 128 340 Q132 368 155 372 L185 367 Q195 352 190 330 Q185 305 165 300 Z" fill="url(#organStomach)"/>',lx:90,ly:330,cond:['胃炎','胃溃疡','胃食管反流','功能性消化不良'],flag:'呕血、黑便、持续呕吐，尽快就医。'},
+      {id:'spleen',label:'脾',sub:'免疫/造血',path:'<ellipse cx="125" cy="342" rx="14" ry="28" fill="#A06060" stroke="#804040" stroke-width="1"/>',lx:80,ly:375,cond:['脾大','脾功能亢进','脾破裂'],flag:'左上腹外伤后剧痛，警惕脾破裂，立即就医。'},
+      {id:'pancreas',label:'胰腺',sub:'消化/内分泌',path:'<ellipse cx="185" cy="358" rx="40" ry="10" fill="#D4B896" stroke="#B49876" stroke-width="1"/>',lx:200,ly:395,cond:['胰腺炎','胰腺囊肿','糖尿病（胰岛功能）'],flag:'左上腹剧痛向背部放射、伴呕吐，警惕急性胰腺炎，尽快就医。'},
+      {id:'intestine',label:'小肠',sub:'消化吸收',path:'<path d="M160 385 Q180 378 200 388 Q220 398 240 388 Q250 403 235 418 Q215 428 195 420 Q175 412 160 422 Q150 407 160 385 Z" fill="#C4A882" stroke="#A48862" stroke-width="1"/>',lx:200,ly:450,cond:['肠炎','肠易激综合征','吸收不良','肠梗阻'],flag:'剧烈腹痛、停止排气排便、呕吐，警惕肠梗阻，立即就医。'},
+      {id:'colon',label:'大肠',sub:'消化/排泄',path:'<path d="M145 380 L145 435 Q145 455 165 455 L235 455 Q255 455 255 435 L255 380" fill="none" stroke="#B89868" stroke-width="12" stroke-linecap="round"/>',lx:90,ly:425,cond:['结肠炎','结肠息肉','便秘','腹泻','结直肠癌筛查'],flag:'便血、排便习惯改变、体重下降，尽快就医筛查。'},
+      {id:'kidneyL',label:'左肾',sub:'泌尿',path:'<ellipse cx="155" cy="340" rx="16" ry="28" fill="url(#organKidney)"/>',lx:100,ly:305,cond:['肾结石','肾炎','肾囊肿','肾功能不全','尿路感染'],flag:'腰痛伴血尿、发热尿频尿痛，尽快就医。'},
+      {id:'kidneyR',label:'右肾',sub:'泌尿',path:'<ellipse cx="245" cy="340" rx="16" ry="28" fill="url(#organKidney)"/>',lx:300,ly:305,cond:['肾结石','肾炎','肾囊肿','肾功能不全','尿路感染'],flag:''}
+    ],
+    pelvis:[
+      {id:'bladder',label:'膀胱',sub:'泌尿',path:'<ellipse cx="200" cy="465" rx="28" ry="22" fill="#B8C8D8" stroke="#8898A8" stroke-width="1.5"/>',lx:255,ly:460,cond:['膀胱炎','膀胱过度活动','尿失禁','膀胱结石'],flag:'血尿、排尿困难，尽快就医。'},
+      {id:'prostate',label:'前列腺',sub:'生殖（男）',path:'<ellipse cx="200" cy="490" rx="18" ry="12" fill="#C8A8B8" stroke="#A88898" stroke-width="1"/>',lx:140,ly:490,cond:['前列腺增生','前列腺炎','前列腺癌筛查'],flag:'排尿困难、夜尿增多、血尿，尽快就医。'},
+      {id:'uterus',label:'子宫/附件',sub:'生殖（女）',path:'<path d="M180 460 Q200 453 220 460 L218 490 Q200 500 182 490 Z" fill="#E0B8C8" stroke="#C098A8" stroke-width="1"/>',lx:255,ly:490,cond:['子宫肌瘤','卵巢囊肿','痛经','盆腔炎','宫颈癌筛查'],flag:'异常阴道出血、下腹剧痛，尽快就医。'},
+      {id:'hip',label:'髋关节',sub:'骨骼',path:'<circle cx="165" cy="480" r="14" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/><circle cx="235" cy="480" r="14" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:200,ly:515,cond:['髋关节炎','股骨头坏死','髋关节脱位','腹股沟疝'],flag:'腹股沟包块突然变硬剧痛，警惕嵌顿疝，立即就医。'}
+    ],
+    armL:[
+      {id:'shoulderL',label:'左肩',sub:'关节',path:'<circle cx="130" cy="175" r="20" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:70,ly:175,cond:['肩周炎','肩袖损伤','肩关节脱位','颈椎病放射痛'],flag:''},
+      {id:'bicepsL',label:'左上臂肌',sub:'肌肉',path:'<path d="M115 195 Q100 240 105 285 L120 285 Q125 240 130 195 Z" fill="url(#muscleGrad)"/>',lx:145,ly:240,cond:['肌肉拉伤','肌腱炎','肌筋膜疼痛'],flag:''},
+      {id:'elbowL',label:'左肘',sub:'关节',path:'<circle cx="108" cy="295" r="16" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:65,ly:295,cond:['网球肘','高尔夫球肘','肘关节劳损'],flag:''},
+      {id:'wristL',label:'左腕/手',sub:'关节/神经',path:'<ellipse cx="95" cy="405" rx="14" ry="18" fill="#E8D5C4" stroke="#B8A090" stroke-width="1"/>',lx:60,ly:405,cond:['腕管综合征','腱鞘炎','手腕扭伤','鼠标手'],flag:'手部突发麻木无力，尽快就医。'}
+    ],
+    armR:[
+      {id:'shoulderR',label:'右肩',sub:'关节',path:'<circle cx="270" cy="175" r="20" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:330,ly:175,cond:['肩周炎','肩袖损伤','肩关节脱位','胆囊疾病牵涉痛（右肩）'],flag:'右肩痛伴右上腹不适发热，警惕胆道问题。'},
+      {id:'bicepsR',label:'右上臂肌',sub:'肌肉',path:'<path d="M285 195 Q300 240 295 285 L280 285 Q275 240 270 195 Z" fill="url(#muscleGrad)"/>',lx:255,ly:240,cond:['肌肉拉伤','肌腱炎','肌筋膜疼痛'],flag:''},
+      {id:'elbowR',label:'右肘',sub:'关节',path:'<circle cx="292" cy="295" r="16" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:335,ly:295,cond:['网球肘','高尔夫球肘','肘关节劳损'],flag:''},
+      {id:'wristR',label:'右腕/手',sub:'关节/神经',path:'<ellipse cx="305" cy="405" rx="14" ry="18" fill="#E8D5C4" stroke="#B8A090" stroke-width="1"/>',lx:340,ly:405,cond:['腕管综合征','腱鞘炎','手腕扭伤','鼠标手'],flag:''}
+    ],
+    legL:[
+      {id:'hipL',label:'左髋',sub:'关节',path:'<circle cx="170" cy="515" r="18" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:115,ly:515,cond:['髋关节炎','股骨头坏死','髋关节脱位'],flag:''},
+      {id:'thighL',label:'左大腿',sub:'肌肉',path:'<path d="M155 535 Q148 590 152 625 L170 625 Q175 590 172 535 Z" fill="url(#muscleGrad)"/>',lx:195,ly:580,cond:['肌肉拉伤','股外侧皮神经炎','腰椎间盘放射痛'],flag:''},
+      {id:'kneeL',label:'左膝',sub:'关节',path:'<ellipse cx="163" cy="635" rx="20" ry="16" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:110,ly:635,cond:['膝骨关节炎','半月板损伤','韧带损伤','痛风性关节炎'],flag:'膝关节突发剧痛无法负重、明显肿胀，尽快就医。'},
+      {id:'calfL',label:'左小腿',sub:'肌肉/血管',path:'<path d="M155 655 Q148 710 152 750 L170 750 Q175 710 172 655 Z" fill="url(#muscleGrad)"/>',lx:200,ly:705,cond:['肌肉痉挛抽筋','下肢静脉曲张','深静脉血栓','胫骨应力综合征'],flag:'单侧小腿突发肿胀疼痛，警惕深静脉血栓，尽早就医。'},
+      {id:'ankleL',label:'左踝/足',sub:'关节',path:'<ellipse cx="158" cy="765" rx="16" ry="12" fill="#E8D5C4" stroke="#B8A090" stroke-width="1"/>',lx:110,ly:765,cond:['踝关节扭伤','足底筋膜炎','痛风','跟腱炎'],flag:'踝关节严重肿胀畸形无法负重，尽快就医排除骨折。'}
+    ],
+    legR:[
+      {id:'hipR',label:'右髋',sub:'关节',path:'<circle cx="230" cy="515" r="18" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:285,ly:515,cond:['髋关节炎','股骨头坏死','髋关节脱位'],flag:''},
+      {id:'thighR',label:'右大腿',sub:'肌肉',path:'<path d="M245 535 Q252 590 248 625 L230 625 Q225 590 228 535 Z" fill="url(#muscleGrad)"/>',lx:205,ly:580,cond:['肌肉拉伤','股外侧皮神经炎','腰椎间盘放射痛'],flag:''},
+      {id:'kneeR',label:'右膝',sub:'关节',path:'<ellipse cx="237" cy="635" rx="20" ry="16" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:290,ly:635,cond:['膝骨关节炎','半月板损伤','韧带损伤','痛风性关节炎'],flag:''},
+      {id:'calfR',label:'右小腿',sub:'肌肉/血管',path:'<path d="M245 655 Q252 710 248 750 L230 750 Q225 710 228 655 Z" fill="url(#muscleGrad)"/>',lx:200,ly:705,cond:['肌肉痉挛抽筋','下肢静脉曲张','深静脉血栓','胫骨应力综合征'],flag:''},
+      {id:'ankleR',label:'右踝/足',sub:'关节',path:'<ellipse cx="242" cy="765" rx="16" ry="12" fill="#E8D5C4" stroke="#B8A090" stroke-width="1"/>',lx:290,ly:765,cond:['踝关节扭伤','足底筋膜炎','痛风','跟腱炎'],flag:''}
+    ]
+  },back:{
+    head:[
+      {id:'brain',label:'脑/后脑',sub:'中枢神经',path:'<ellipse cx="200" cy="55" rx="38" ry="32" fill="url(#organBrain)"/>',lx:255,ly:45,cond:['紧张型头痛','枕神经痛','颈椎相关头痛','脑卒中'],flag:'后脑剧痛伴颈项强直，警惕颅内问题，立即就医。'},
+      {id:'occiput',label:'枕部',sub:'骨骼/神经',path:'<ellipse cx="200" cy="92" rx="30" ry="18" fill="#F5E6D3" stroke="#C8B090" stroke-width="1"/>',lx:255,ly:92,cond:['枕神经痛','颈源性头痛','枕部淋巴结肿大'],flag:''}
+    ],
+    neck:[
+      {id:'cervical',label:'颈椎',sub:'脊柱',path:'<rect x="192" y="128" width="16" height="40" rx="4" fill="#F5E6D3" stroke="#C8B090" stroke-width="1"/>',lx:245,ly:148,cond:['颈椎病','颈椎间盘突出','颈肌劳损','落枕'],flag:''}
+    ],
+    backUp:[
+      {id:'scapulaL',label:'左肩胛骨',sub:'骨骼',path:'<path d="M145 175 Q130 200 135 250 L165 255 Q175 220 165 180 Z" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.2"/>',lx:95,ly:215,cond:['肩胛胸壁疼痛','肩周炎','肩袖损伤','颈椎病放射痛'],flag:''},
+      {id:'scapulaR',label:'右肩胛骨',sub:'骨骼',path:'<path d="M255 175 Q270 200 265 250 L235 255 Q225 220 235 180 Z" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.2"/>',lx:305,ly:215,cond:['肩胛胸壁疼痛','肩周炎','肩袖损伤','胆囊疾病牵涉痛'],flag:''},
+      {id:'spineUp',label:'胸椎',sub:'脊柱',path:'<rect x="194" y="155" width="12" height="110" rx="3" fill="#F5E6D3" stroke="#C8B090" stroke-width="1"/>',lx:200,ly:160,cond:['胸椎小关节紊乱','肌筋膜疼痛','肩胛间区劳损','骨质疏松'],flag:'上背痛伴胸闷气短，排除心肺问题后再按肌肉处理。'},
+      {id:'lungBack',label:'肺（后面）',sub:'呼吸',path:'<path d="M150 170 Q140 200 145 255 L175 260 L175 175 Z M250 170 Q260 200 255 255 L225 260 L225 175 Z" fill="url(#organLung)" opacity="0.6"/>',lx:200,ly:275,cond:['肺炎','支气管炎','哮喘','慢阻肺'],flag:''}
+    ],
+    backLow:[
+      {id:'spineLow',label:'腰椎',sub:'脊柱',path:'<rect x="193" y="275" width="14" height="105" rx="3" fill="#F5E6D3" stroke="#C8B090" stroke-width="1"/>',lx:200,ly:270,cond:['腰椎间盘突出','腰椎管狭窄','腰肌劳损','腰椎滑脱'],flag:'腰痛伴下肢麻木无力、大小便障碍，尽快就医。'},
+      {id:'kidneyL',label:'左肾区',sub:'泌尿',path:'<ellipse cx="160" cy="315" rx="18" ry="30" fill="url(#organKidney)"/>',lx:100,ly:315,cond:['肾结石','肾盂肾炎','肾囊肿','肾区叩痛'],flag:'腰痛伴发热尿频尿痛血尿，尽快就医。'},
+      {id:'kidneyR',label:'右肾区',sub:'泌尿',path:'<ellipse cx="240" cy="315" rx="18" ry="30" fill="url(#organKidney)"/>',lx:300,ly:315,cond:['肾结石','肾盂肾炎','肾囊肿','肾区叩痛'],flag:''},
+      {id:'muscleLow',label:'腰背肌',sub:'肌肉',path:'<path d="M145 280 Q135 335 150 385 L180 385 Q175 335 180 280 Z M255 280 Q265 335 250 385 L220 385 Q225 335 220 280 Z" fill="url(#muscleGrad)" opacity="0.6"/>',lx:200,ly:400,cond:['腰肌劳损','肌筋膜疼痛综合征','急性腰扭伤'],flag:''}
+    ],
+    buttock:[
+      {id:'sacrum',label:'骶骨/尾骨',sub:'脊柱',path:'<path d="M175 400 Q200 393 225 400 L220 455 Q200 465 180 455 Z" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.2"/>',lx:200,ly:415,cond:['骶髂关节问题','尾骨痛','腰骶部劳损'],flag:''},
+      {id:'gluteL',label:'左臀肌',sub:'肌肉',path:'<ellipse cx="165" cy="435" rx="30" ry="35" fill="url(#muscleGrad)"/>',lx:105,ly:435,cond:['梨状肌综合征','坐骨神经痛','臀肌劳损'],flag:'臀痛伴下肢放射痛麻木，警惕腰椎间盘突出。'},
+      {id:'gluteR',label:'右臀肌',sub:'肌肉',path:'<ellipse cx="235" cy="435" rx="30" ry="35" fill="url(#muscleGrad)"/>',lx:295,ly:435,cond:['梨状肌综合征','坐骨神经痛','臀肌劳损'],flag:''},
+      {id:'anus',label:'肛周',sub:'消化末端',path:'<ellipse cx="200" cy="460" rx="10" ry="8" fill="#D0B0A0" stroke="#B09080" stroke-width="1"/>',lx:255,ly:465,cond:['痔疮','肛裂','肛周脓肿','肛瘘'],flag:'肛周红肿热痛加重、发热，警惕感染，尽快就医。'}
+    ],
+    armL:[
+      {id:'tricepsL',label:'左肱三头肌',sub:'肌肉',path:'<path d="M115 195 Q100 240 105 285 L120 285 Q125 240 130 195 Z" fill="url(#muscleGrad)"/>',lx:70,ly:240,cond:['三头肌劳损','颈椎神经根放射痛'],flag:''},
+      {id:'elbowL',label:'左肘后',sub:'关节',path:'<circle cx="108" cy="295" r="16" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:65,ly:295,cond:['鹰嘴滑囊炎','尺神经卡压','肘关节劳损'],flag:'肘后突发红肿热痛，警惕感染性滑囊炎。'},
+      {id:'wristL',label:'左腕背',sub:'关节',path:'<ellipse cx="95" cy="405" rx="14" ry="18" fill="#E8D5C4" stroke="#B8A090" stroke-width="1"/>',lx:60,ly:405,cond:['腱鞘炎','伸肌腱劳损','手腕扭伤'],flag:''}
+    ],
+    armR:[
+      {id:'tricepsR',label:'右肱三头肌',sub:'肌肉',path:'<path d="M285 195 Q300 240 295 285 L280 285 Q275 240 270 195 Z" fill="url(#muscleGrad)"/>',lx:330,ly:240,cond:['三头肌劳损','颈椎神经根放射痛'],flag:''},
+      {id:'elbowR',label:'右肘后',sub:'关节',path:'<circle cx="292" cy="295" r="16" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:335,ly:295,cond:['鹰嘴滑囊炎','尺神经卡压','肘关节劳损'],flag:''},
+      {id:'wristR',label:'右腕背',sub:'关节',path:'<ellipse cx="305" cy="405" rx="14" ry="18" fill="#E8D5C4" stroke="#B8A090" stroke-width="1"/>',lx:340,ly:405,cond:['腱鞘炎','伸肌腱劳损','手腕扭伤'],flag:''}
+    ],
+    legL:[
+      {id:'hamstringL',label:'左腘绳肌',sub:'肌肉',path:'<path d="M155 525 Q148 585 152 625 L170 625 Q175 585 172 525 Z" fill="url(#muscleGrad)"/>',lx:115,ly:575,cond:['腘绳肌拉伤','坐骨神经放射痛'],flag:''},
+      {id:'kneeL',label:'左腘窝',sub:'关节后',path:'<ellipse cx="163" cy="635" rx="20" ry="16" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:110,ly:635,cond:['腘窝囊肿','半月板后角损伤','腘肌劳损'],flag:'腘窝突发剧痛小腿肿胀，警惕深静脉血栓或囊肿破裂，尽快就医。'},
+      {id:'calfL',label:'左小腿后',sub:'肌肉',path:'<path d="M155 655 Q148 710 152 750 L170 750 Q175 710 172 655 Z" fill="url(#muscleGrad)"/>',lx:200,ly:705,cond:['腓肠肌拉伤','跟腱问题','深静脉血栓'],flag:'单侧小腿突发肿胀疼痛，警惕深静脉血栓，尽早就医。'},
+      {id:'heelL',label:'左足跟',sub:'骨骼',path:'<ellipse cx="158" cy="770" rx="18" ry="12" fill="#E8D5C4" stroke="#B8A090" stroke-width="1"/>',lx:110,ly:770,cond:['足底筋膜炎','跟腱炎','跟骨骨刺'],flag:'足跟痛伴足底麻木无力，尽快就医。'}
+    ],
+    legR:[
+      {id:'hamstringR',label:'右腘绳肌',sub:'肌肉',path:'<path d="M245 525 Q252 585 248 625 L230 625 Q225 585 228 525 Z" fill="url(#muscleGrad)"/>',lx:285,ly:575,cond:['腘绳肌拉伤','坐骨神经放射痛'],flag:''},
+      {id:'kneeR',label:'右腘窝',sub:'关节后',path:'<ellipse cx="237" cy="635" rx="20" ry="16" fill="#F5E6D3" stroke="#C8B090" stroke-width="1.5"/>',lx:290,ly:635,cond:['腘窝囊肿','半月板后角损伤','腘肌劳损'],flag:''},
+      {id:'calfR',label:'右小腿后',sub:'肌肉',path:'<path d="M245 655 Q252 710 248 750 L230 750 Q225 710 228 655 Z" fill="url(#muscleGrad)"/>',lx:200,ly:705,cond:['腓肠肌拉伤','跟腱问题','深静脉血栓'],flag:''},
+      {id:'heelR',label:'右足跟',sub:'骨骼',path:'<ellipse cx="242" cy="770" rx="18" ry="12" fill="#E8D5C4" stroke="#B8A090" stroke-width="1"/>',lx:290,ly:770,cond:['足底筋膜炎','跟腱炎','跟骨骨刺'],flag:''}
+    ]
+  }};
+
+  function bodyOutline(){
+    return '<g class="anat-body">'+
+      '<ellipse cx="200" cy="70" rx="52" ry="62"/>'+
+      '<rect x="178" y="125" width="44" height="35" rx="8"/>'+
+      '<path d="M130 155 Q120 200 125 280 Q130 360 140 440 Q145 470 160 490 L240 490 Q255 470 260 440 Q270 360 275 280 Q280 200 270 155 Q240 140 200 140 Q160 140 130 155 Z"/>'+
+      '<path d="M130 155 Q105 180 95 270 Q88 360 88 425 Q88 442 98 448 L112 448 Q118 438 118 425 Q120 350 130 270 Q138 200 145 165 Z"/>'+
+      '<path d="M270 155 Q295 180 305 270 Q312 360 312 425 Q312 442 302 448 L288 448 Q282 438 282 425 Q280 350 270 270 Q262 200 255 165 Z"/>'+
+      '<path d="M160 490 Q150 560 148 650 Q147 730 150 770 Q152 785 165 788 L180 788 Q185 778 183 765 Q182 680 188 590 Q192 530 198 495 Z"/>'+
+      '<path d="M240 490 Q250 560 252 650 Q253 730 250 770 Q248 785 235 788 L220 788 Q215 778 217 765 Q218 680 212 590 Q208 530 202 495 Z"/>'+
+      '</g>';
+  }
+  function faceFeatures(){
+    if(view!=='front')return '';
+    return '<g opacity="0.45">'+
+      '<ellipse cx="182" cy="68" rx="10" ry="6" fill="#fff" stroke="#666" stroke-width="0.8"/><circle cx="182" cy="68" r="3" fill="#333"/>'+
+      '<ellipse cx="218" cy="68" rx="10" ry="6" fill="#fff" stroke="#666" stroke-width="0.8"/><circle cx="218" cy="68" r="3" fill="#333"/>'+
+      '<path d="M195 80 L200 92 L205 80" fill="none" stroke="#8B7355" stroke-width="1.2"/>'+
+      '<path d="M188 102 Q200 108 212 102" fill="none" stroke="#C08080" stroke-width="1.5"/>'+
+      '</g>';
+  }
+
+  function drawBody(){
+    var regions=REGIONS[view],h='<g>'+bodyOutline()+faceFeatures();
+    for(var key in regions){h+='<g class="anat-region" data-region="'+key+'">'+regions[key].hot+'</g>';}
+    h+='</g>';
+    layerBody.innerHTML=h;
+    layerOrgans.style.display='none';layerOrgans.innerHTML='';
+    layerLabels.style.display='none';layerLabels.innerHTML='';
+    layerBody.querySelectorAll('.anat-region').forEach(function(r){
+      r.addEventListener('click',function(){zoomToRegion(r.getAttribute('data-region'));});
+    });
+  }
+
+  function drawOrgans(regionKey){
+    var organs=O[view][regionKey];if(!organs)return;
+    var h='',labels='';
+    organs.forEach(function(o){
+      h+='<g class="anat-organ" data-organ="'+o.id+'">'+o.path+'</g>';
+      var dx=o.lx<200?32:-32;
+      labels+='<line class="anat-label-line" x1="'+o.lx+'" y1="'+o.ly+'" x2="'+(o.lx+dx)+'" y2="'+(o.ly-6)+'"/>';
+      labels+='<rect class="anat-label-bg" x="'+(o.lx+dx-2)+'" y="'+(o.ly-18)+'" width="44" height="16" rx="3"/>';
+      labels+='<text class="anat-label" x="'+(o.lx+dx+20)+'" y="'+(o.ly-6)+'" text-anchor="middle">'+o.label+'</text>';
+    });
+    layerOrgans.innerHTML=h;layerLabels.innerHTML=labels;
+    layerOrgans.style.display='block';layerLabels.style.display='block';
+    layerOrgans.querySelectorAll('.anat-organ').forEach(function(el){
+      el.addEventListener('click',function(e){e.stopPropagation();selectOrgan(regionKey,el.getAttribute('data-organ'));});
+    });
+  }
+
+  function zoomToRegion(key){
+    var region=REGIONS[view][key];if(!region)return;
+    currentRegion=key;currentOrgan=null;selectedCond=null;
+    animateVB(region.vb);
+    setTimeout(function(){drawOrgans(key);},180);
+    zoomOutBtn.style.display='flex';
+    outEl.textContent='已放大：'+region.label+' — 点击具体器官查看健康信息';
+    sideTitle.textContent=region.label;
+    sideContent.innerHTML='<p style="color:var(--text);font-size:15px;line-height:1.7;margin-bottom:20px;">当前显示 <b>'+region.label+'</b> 的详细解剖结构。点击图中高亮的器官，查看常见疾病与就医指征。</p>'+
+      '<a class="btn btn-primary" href="/app">描述我的症状</a>';
+    updateCrumb();
+  }
+
+  function selectOrgan(regionKey,organId){
+    var organ=O[view][regionKey].find(function(o){return o.id===organId;});
+    if(!organ)return;
+    currentOrgan=organ;selectedCond=null;
+    layerOrgans.querySelectorAll('.anat-organ').forEach(function(el){
+      el.classList.toggle('is-selected',el.getAttribute('data-organ')===organId);
+    });
+    sideTitle.textContent=organ.label;
+    var h='<div class="bm-organ-detail">';
+    h+='<div class="organ-name">'+organ.label+'</div><div class="organ-sub">'+organ.sub+'</div>';
+    if(organ.flag)h+='<div class="bm-flag">⚠ '+organ.flag+'</div>';
+    h+='<div class="bm-cond-label">常见健康问题</div><div class="bm-cond-row">';
+    organ.cond.forEach(function(c){h+='<button type="button" class="bm-cond" data-cond="'+c+'">'+c+'</button>';});
+    h+='</div>';
+    h+='<a class="btn btn-primary" href="#" data-cta="/app?q='+encodeURIComponent('我'+organ.label+'相关不适，可能的原因有哪些、需要做哪些检查、日常要注意什么，以及什么情况下需要就医？')+'">就「'+organ.label+'」去问医答</a>';
+    h+='</div>';
+    sideContent.innerHTML=h;
+    sideContent.querySelectorAll('.bm-cond').forEach(function(bt){
+      bt.addEventListener('click',function(){
+        sideContent.querySelectorAll('.bm-cond').forEach(function(x){x.classList.remove('is-on');});
+        bt.classList.add('is-on');
+        var cta=sideContent.querySelector('.btn-primary');
+        if(cta){cta.setAttribute('href','/app?q='+encodeURIComponent('我'+organ.label+'可能有'+bt.getAttribute('data-cond')+'，想了解它的典型表现、需要做什么检查，以及什么情况下需要就医？'));cta.textContent='就「'+bt.getAttribute('data-cond')+'」去问医答';}
+      });
+    });
+    outEl.textContent='已选择：'+organ.label+'（'+organ.sub+'）— 选择常见问题或直接咨询';
+    updateCrumb();
+  }
+
+  function zoomOut(){
+    currentRegion=null;currentOrgan=null;selectedCond=null;
+    animateVB([0,0,400,800]);
+    setTimeout(function(){layerOrgans.style.display='none';layerOrgans.innerHTML='';layerLabels.style.display='none';layerLabels.innerHTML='';},250);
+    zoomOutBtn.style.display='none';
+    outEl.textContent='点击身体区域放大，查看详细解剖结构';
+    sideTitle.textContent='交互式解剖图';
+    sideContent.innerHTML='<ul><li>点击<b>头部、胸部、腹部</b>等区域，平滑放大显示内部器官。</li><li>放大后点击具体<b>器官</b>，查看常见疾病与就医指征。</li><li>左上角←按钮返回上一级，面包屑可快速跳转。</li><li>支持<b>正面 / 背面</b>切换，覆盖肌肉与骨骼标志。</li></ul><a class="btn btn-primary" href="/app">描述我的症状</a>';
+    updateCrumb();
+  }
+
+  function animateVB(target){
+    var start=svg.getAttribute('viewBox').split(' ').map(Number),dur=500,t0=null;
+    function step(ts){
+      if(!t0)t0=ts;
+      var p=Math.min((ts-t0)/dur,1),e=1-Math.pow(1-p,3);
+      svg.setAttribute('viewBox',[start[0]+(target[0]-start[0])*e,start[1]+(target[1]-start[1])*e,start[2]+(target[2]-start[2])*e,start[3]+(target[3]-start[3])*e].join(' '));
+      if(p<1)requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  function updateCrumb(){
+    var h='<span class="bm-crumb'+(!currentRegion?' active':'')+'" data-act="root">全身</span>';
+    if(currentRegion){
+      h+='<span class="bm-crumb-sep">›</span><span class="bm-crumb'+(!currentOrgan?' active':'')+'" data-act="region">'+REGIONS[view][currentRegion].label+'</span>';
+    }
+    if(currentOrgan){h+='<span class="bm-crumb-sep">›</span><span class="bm-crumb active">'+currentOrgan.label+'</span>';}
+    crumbEl.innerHTML=h;
+    crumbEl.querySelectorAll('.bm-crumb[data-act]').forEach(function(c){
+      c.addEventListener('click',function(){
+        var a=c.getAttribute('data-act');
+        if(a==='root')zoomOut();
+        else if(a==='region'&&currentRegion)zoomToRegion(currentRegion);
+      });
+    });
+  }
+
+  document.querySelectorAll('.bm-opt[data-view]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      view=btn.getAttribute('data-view');
+      document.querySelectorAll('.bm-opt[data-view]').forEach(function(b){b.classList.remove('active');});
+      btn.classList.add('active');
+      zoomOut();drawBody();
+    });
+  });
+  zoomOutBtn.addEventListener('click',zoomOut);
+  drawBody();
+})();
+</script>
+</body>
+</html>

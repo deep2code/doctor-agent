@@ -1,0 +1,95 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.27"
+      - name: Install golangci-lint
+        run: go install github.com/golangci/golangci-lint/v2/cmd/golangci-lint@v2.13.0
+      - name: Run lint
+        run: golangci-lint run ./...
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.27"
+      - name: Run tests
+        run: go test ./... -v -race -count=1
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    needs: [lint, test]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.27"
+      - name: Build binary
+        run: |
+          go build \
+            -ldflags "-s -w -X main.gitCommit=${{ github.sha }} -X main.buildTime=$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            -o bin/doctor-agent .
+      - name: Verify knowledge
+        run: go run . verify-knowledge
+
+  docker:
+    name: Docker Build
+    runs-on: ubuntu-latest
+    needs: [lint, test]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.27"
+      - name: Regenerate gz
+        run: python3 external/make_gz.py
+      - name: Build app image
+        run: |
+          docker build \
+            --build-arg GIT_COMMIT=test \
+            --build-arg BUILD_TIME="$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            -f Dockerfile \
+            .
+        # NOTE: the qdrant RAG image (Dockerfile.qdrant) is intentionally NOT
+        # built in CI — baking ~743k vectors needs more RAM/time than a CI
+        # runner should spend; build it locally via ./build.sh qdrant.
+
+  verify-gz:
+    name: Verify embedded data
+    runs-on: ubuntu-latest
+    needs: [lint, test]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.27"
+      - name: Install python deps
+        run: pip install gzip
+      - name: Regenerate gz
+        run: python3 external/make_gz.py
+      - name: Check for changes
+        run: |
+          if ! git diff --quiet internal/knowledge/gz/; then
+            echo "❌ gz files are stale — run 'python3 external/make_gz.py' and commit"
+            git diff --stat internal/knowledge/gz/
+            exit 1
+          fi

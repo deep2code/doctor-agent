@@ -1,0 +1,159 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build ${{ matrix.goos }}/${{ matrix.goarch }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - goos: linux
+            goarch: amd64
+          - goos: linux
+            goarch: arm64
+          - goos: darwin
+            goarch: amd64
+          - goos: darwin
+            goarch: arm64
+          - goos: windows
+            goarch: amd64
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.27"
+
+      - name: Build binary
+        env:
+          GOOS: ${{ matrix.goos }}
+          GOARCH: ${{ matrix.goarch }}
+          CGO_ENABLED: "0"
+        run: |
+          BINARY="dist/doctor-agent-${{ matrix.goos }}-${{ matrix.goarch }}"
+          if [ "${{ matrix.goos }}" = "windows" ]; then
+            BINARY="${BINARY}.exe"
+          fi
+          go build \
+            -ldflags "-s -w -X main.gitCommit=${{ github.sha }} -X main.buildTime=$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            -o "$BINARY" .
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: doctor-agent-${{ matrix.goos }}-${{ matrix.goarch }}
+          path: dist/*
+
+  release:
+    name: Create Release
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get version from tag
+        id: version
+        run: echo "tag=${GITHUB_REF#refs/tags/}" >> "$GITHUB_OUTPUT"
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+
+      - name: Create start-chat scripts
+        run: |
+          mkdir -p dist
+          cat > dist/start-chat << 'EOF'
+          #!/bin/bash
+          # doctor-agent 一键启动脚本
+          set -e
+          SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+          OS="$(uname -s)"
+          ARCH="$(uname -m)"
+          case "$OS" in
+            Linux)  PLATFORM="linux" ;;
+            Darwin) PLATFORM="darwin" ;;
+            *)      echo "不支持的操作系统: $OS"; exit 1 ;;
+          esac
+          case "$ARCH" in
+            x86_64|amd64) ARCH_NAME="amd64" ;;
+            aarch64|arm64) ARCH_NAME="arm64" ;;
+            *)            echo "不支持的架构: $ARCH"; exit 1 ;;
+          esac
+          BINARY="$SCRIPT_DIR/doctor-agent-${PLATFORM}-${ARCH_NAME}"
+          if [ ! -f "$BINARY" ]; then
+            echo "找不到二进制文件: $BINARY"
+            exit 1
+          fi
+          chmod +x "$BINARY"
+          exec "$BINARY" "$@"
+          EOF
+          chmod +x dist/start-chat
+
+          cat > dist/start-chat.bat << 'EOF'
+          @echo off
+          REM doctor-agent 一键启动脚本
+          setlocal
+          set SCRIPT_DIR=%~dp0
+          set BINARY=%SCRIPT_DIR%doctor-agent-windows-amd64.exe
+          if not exist "%BINARY%" (
+            echo 找不到二进制文件: %BINARY%
+            exit /b 1
+          )
+          "%BINARY%" %*
+          EOF
+
+      - name: Generate checksums
+        run: |
+          cd dist
+          sha256sum doctor-agent-* start-chat > checksums.txt
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "Doctor Agent ${{ steps.version.outputs.tag }}"
+          body: |
+            ## 循证医学 AI 助手
+
+            ### 快速开始
+            1. 下载对应平台的 `doctor-agent-{os}-{arch}` 二进制
+            2. 下载 `start-chat` 脚本（Linux/macOS）或 `start-chat.bat`（Windows）
+            3. 双击 `start-chat` 即可启动，首次运行会引导配置 API Key
+
+            ### 支持的 LLM
+            - 智谱 glm-4-flash（免费推荐）
+            - DeepSeek
+            - 豆包（火山方舟）
+
+            ### 命令行
+            ```bash
+            doctor-agent chat              # CLI 对话模式
+            doctor-agent serve             # HTTP API 服务
+            doctor-agent verify-knowledge  # 知识库校验
+            doctor-agent version           # 版本信息
+            ```
+          files: |
+            dist/doctor-agent-linux-amd64
+            dist/doctor-agent-linux-arm64
+            dist/doctor-agent-darwin-amd64
+            dist/doctor-agent-darwin-arm64
+            dist/doctor-agent-windows-amd64.exe
+            dist/start-chat
+            dist/start-chat.bat
+            dist/checksums.txt
+          draft: false
+          prerelease: false

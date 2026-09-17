@@ -1,0 +1,26 @@
+# golangci-lint configuration (golangci-lint run ./...)
+# v2 format — requires golangci-lint v2.x (local: v2.12.2; CI installs the same).
+# Conservative: the standard linter set plus a few safe additions.
+version: "2"
+
+run:
+  timeout: 5m
+  tests: true
+
+linters:
+  default: standard
+  enable:
+    - misspell
+    - gocritic
+  settings:
+    gocritic:
+      disabled-checks:
+        - ifElseChain
+        - singleCaseSwitch
+
+issues:
+  exclude-rules:
+    # Test helpers are allowed to ignore errors where the test fails anyway.
+    - path: _test\.go
+      linters:
+        - errcheck

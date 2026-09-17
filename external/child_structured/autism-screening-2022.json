@@ -1,0 +1,248 @@
+[
+ {
+  "id": "child-autism-screening-2022-1",
+  "condition_zh": "孤独症筛查服务流程",
+  "condition_en": "Autism Screening Service Process",
+  "category": "child_health",
+  "diagnosis": {
+   "clinical_features": [
+    "社交沟通障碍、兴趣狭隘、行为重复刻板"
+   ]
+  },
+  "risk_factors": [
+   "早期发现、早期诊断、早期干预"
+  ],
+  "prevention": [
+   "11次初筛时间安排"
+  ],
+  "treatment": [
+   {
+    "name": "初筛",
+    "details": "1岁以内婴儿期4次，1至3岁幼儿期4次，学龄前期3次"
+   }
+  ],
+  "when_to_seek_care": [
+   "初筛异常时"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "0~6岁儿童孤独症筛查干预服务规范(试行)(国卫办妇幼发〔2022〕12号)",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2022-09/23/content_5711379.htm"
+   }
+  ],
+  "keywords": [
+   "孤独症筛查",
+   "早期发现",
+   "11次初筛",
+   "社交沟通障碍",
+   "兴趣狭隘",
+   "行为重复刻板",
+   "儿童健康",
+   "Autism Screening",
+   "Early Detection",
+   "11 Screenings",
+   "Social Communication Disorder",
+   "Narrowed Interests",
+   "Repetitive and Stereotyped Behavior",
+   "Child Health"
+  ]
+ },
+ {
+  "id": "child-autism-screening-2022-2",
+  "condition_zh": "儿童心理行为发育问题预警征象",
+  "condition_en": "Child Psychological and Behavioral Development Warning Signs",
+  "category": "child_health",
+  "diagnosis": {
+   "clinical_features": [
+    "3月：对很大声音没有反应，逗引时不发音或不会微笑，不会伸手抓物，不注视人脸，不追视移动人或物品，俯卧时不会抬头，不能扶坐；6月：发音少，不会笑出声，不会区分生人和熟人，不会模仿“再见”或“欢迎”动作，不会伸手抓物，不会用拇食指对捏小物品，不会独坐，不会扶物站立；8月：听到声音无应答；12月：呼唤名字无反应，不会区分生人和熟人，不会模仿“再见”或“欢迎”动作，不会双手间传递玩具，不会用拇食指对捏小物品，不会独坐，不会扶物站立；18月：不会有意识叫“爸爸”或“妈妈”；24月：不会说3个物品的名称，不会按要求指人或物，不会按吩咐做简单事情，与人无目光交流，不会用勺吃饭，不会独走，不会扶栏上楼梯/台阶；30月：不会说2—3个字的短语；36月：不会说自己的名字，兴趣单一、刻板，不会示意大小便，不会模仿画圆，不会跑，不会双脚跳；4岁：不会说带形容词的句子；5岁：不能简单叙说事情经过，不能按要求等待或轮流，不知道自己的性别，不会独立穿衣，不会用筷子吃饭，不会单脚站立，不会单脚跳；6岁：不会表达自己的感受或想法，不会玩角色扮演的集体游戏，不会画方形，不会奔跑"
+   ]
+  },
+  "risk_factors": [
+   "月龄相关预警征象"
+  ],
+  "prevention": [
+   "按月龄分组列出各月龄预警征象"
+  ],
+  "treatment": [],
+  "when_to_seek_care": [
+   "出现预警征象时"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "0~6岁儿童孤独症筛查干预服务规范(试行)(国卫办妇幼发〔2022〕12号)",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2022-09/23/content_5711379.htm"
+   }
+  ],
+  "keywords": [
+   "儿童心理行为发育",
+   "预警征象",
+   "月龄分组",
+   "社交沟通障碍",
+   "兴趣狭隘",
+   "行为重复刻板",
+   "Child Psychological and Behavioral Development",
+   "Warning Signs",
+   "Age Grouping",
+   "Social Communication Disorder",
+   "Narrowed Interests",
+   "Repetitive and Stereotyped Behavior",
+   "Child Health"
+  ]
+ },
+ {
+  "id": "child-autism-screening-2022-3",
+  "condition_zh": "复筛与诊断转诊",
+  "condition_en": "Re-screening and Referral for Diagnosis",
+  "category": "child_health",
+  "diagnosis": {
+   "clinical_features": [
+    "病史询问，孤独症筛查量表，发育量表"
+   ]
+  },
+  "risk_factors": [
+   "初筛异常"
+  ],
+  "prevention": [
+   "复筛，诊断，转诊"
+  ],
+  "treatment": [],
+  "when_to_seek_care": [
+   "初筛异常时"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "0~6岁儿童孤独症筛查干预服务规范(试行)(国卫办妇幼发〔2022〕12号)",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2022-09/23/content_5711379.htm"
+   }
+  ],
+  "keywords": [
+   "复筛",
+   "诊断",
+   "转诊",
+   "初筛异常",
+   "病史询问",
+   "孤独症筛查量表",
+   "发育量表",
+   "Child Health",
+   "Re-screening",
+   "Diagnosis",
+   "Referral",
+   "Initial Screening Abnormality",
+   "Medical History",
+   "Autism Screening Scale",
+   "Developmental Scale"
+  ]
+ },
+ {
+  "id": "child-autism-screening-2022-4",
+  "condition_zh": "干预康复原则",
+  "condition_en": "Principles of Intervention and Rehabilitation",
+  "category": "child_health",
+  "diagnosis": {
+   "clinical_features": [
+    "早期干预，个体化干预，科学循证，长程高强度，基层为主，家庭参与"
+   ]
+  },
+  "risk_factors": [
+   "孤独症"
+  ],
+  "prevention": [
+   "早期干预，个体化干预，科学循证，长程高强度，基层为主，家庭参与"
+  ],
+  "treatment": [],
+  "when_to_seek_care": [
+   "孤独症儿童"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "0~6岁儿童孤独症筛查干预服务规范(试行)(国卫办妇幼发〔2022〕12号)",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2022-09/23/content_5711379.htm"
+   }
+  ],
+  "keywords": [
+   "干预康复",
+   "早期干预",
+   "个体化干预",
+   "科学循证",
+   "长程高强度",
+   "基层为主",
+   "家庭参与",
+   "Child Health",
+   "Intervention and Rehabilitation",
+   "Early Intervention",
+   "Individualized Intervention",
+   "Evidence-Based",
+   "Long-term Intensive",
+   "Community-Based",
+   "Family Involvement"
+  ]
+ },
+ {
+  "id": "child-autism-screening-2022-5",
+  "condition_zh": "家长健康教育",
+  "condition_en": "Parental Health Education",
+  "category": "child_health",
+  "diagnosis": {
+   "clinical_features": [
+    "普及孤独症基本知识，宣传筛查、诊断、干预措施，提高科学知识知晓率"
+   ]
+  },
+  "risk_factors": [
+   "孤独症"
+  ],
+  "prevention": [
+   "普及孤独症基本知识，宣传筛查、诊断、干预措施，提高科学知识知晓率"
+  ],
+  "treatment": [],
+  "when_to_seek_care": [
+   "孤独症儿童家长"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "0~6岁儿童孤独症筛查干预服务规范(试行)(国卫办妇幼发〔2022〕12号)",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2022-09/23/content_5711379.htm"
+   }
+  ],
+  "keywords": [
+   "家长健康教育",
+   "孤独症基本知识",
+   "筛查、诊断、干预措施",
+   "科学知识知晓率",
+   "Child Health",
+   "Parental Health Education",
+   "Autism Basic Knowledge",
+   "Screening, Diagnosis, Intervention Measures",
+   "Scientific Knowledge Awareness"
+  ]
+ }
+]

@@ -1,0 +1,51 @@
+# 构建上下文排除（减小 docker build 体积与传输时间）
+.git/
+external/
+bin/
+build/
+.gocache/
+.cache/
+**/gomodcache/
+.DS_Store
+.cowork-temp/
+.workbuddy/
+.dumate/
+logs/
+
+# embed 模型不进 app 上下文 (542MB INT8 + 17MB tokenizer; 自有白名单 Dockerfile.embed.dockerignore)
+bge-m3-onnx/
+
+# 应用镜像不需要知识库数据：
+#   data/ 是 gz 的源 JSON（仅 make gz 时用）
+#   gz/   运行时由 volume 从数据镜像挂载
+internal/knowledge/data/
+internal/knowledge/gz/
+
+# KB 数据镜像的 dump 只进 Dockerfile.kb (专属白名单 Dockerfile.kb.dockerignore)
+docker/kb/
+
+# 文档/环境/产物
+*.md
+.env
+.env.example
+knowledge.db
+knowledge.db-*
+doctor-agent
+
+# 构建脚本与 CI 配置（运行时镜像不需要）
+builder.sh
+build.sh
+Makefile
+.golangci.yml
+.gitattributes
+.gitignore
+cpubmed.txt
+
+# 评测和文档目录（运行时不需要）
+evals/
+docs/
+.github/
+
+# RAG 镜像有自己的 Dockerfile.qdrant + 专属白名单 dockerignore，不受本文件影响
+# bake-local.sh 烘焙产物（只给 Dockerfile.qdrant.slim 用，slim 有专属白名单放行）
+qdrant-storage/

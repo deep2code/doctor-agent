@@ -1,0 +1,20 @@
+# doctor-agent-kb: 预灌全部医学知识的 MariaDB 11.4 数据镜像.
+#
+# 构建期已把 doctor_knowledge 全量 dump 放进 /docker-entrypoint-initdb.d/,
+# mariadb 官方 entrypoint 在【首次初始化(空 datadir)】时自动导入 ——
+# 容器首启即有完整知识库, 运行时零 seed (SEED_MARIADB_KB 无需开启).
+#
+# root 密码遵循标准镜像约定: 部署时用 MARIADB_ROOT_PASSWORD 注入
+# (compose 默认 changeme). 挂载空卷 mariadb_data 即触发一次性导入;
+# 已有数据的卷不会被覆盖(官方 entrypoint 行为).
+#
+# 数据版本见 internal/knowledge/data/version.json (当前 1.36.0).
+# 重建流程: 起本地 MariaDB → MARIA_DB_PORT=xxxx go run ./cmd/kbseed →
+#   docker exec <容器> mariadb-dump ... | gzip > docker/kb/init-doctor_knowledge.sql.gz
+#   → ./build.sh kb
+FROM mariadb:11.4
+
+COPY docker/kb/init-doctor_knowledge.sql.gz /docker-entrypoint-initdb.d/01-doctor_knowledge.sql.gz
+
+# 与 docker-compose.yml 的 mariadb 调优参数一致
+CMD ["--innodb-flush-log-at-trx-commit=2", "--sync-binlog=0"]

@@ -1,0 +1,65 @@
+  thalassemia_china: page 1, got 100 (hitCount=14622)
+  thalassemia_china: page 2, got 100 (hitCount=14622)
+  thalassemia_china: page 3, got 100 (hitCount=14622)
+✔ thalassemia_china: 300 records -> /Users/junjunyi/src-code/doctor-agent/external/europepmc/thalassemia_china.json
+  g6pd_deficiency: page 1, got 100 (hitCount=12696)
+  g6pd_deficiency: page 2, got 100 (hitCount=12696)
+  g6pd_deficiency: page 3, got 100 (hitCount=12696)
+✔ g6pd_deficiency: 300 records -> /Users/junjunyi/src-code/doctor-agent/external/europepmc/g6pd_deficiency.json
+  dengue_south_china: page 1, got 100 (hitCount=4216)
+  dengue_south_china: page 2, got 100 (hitCount=4216)
+  dengue_south_china: page 3, got 100 (hitCount=4216)
+✔ dengue_south_china: 300 records -> /Users/junjunyi/src-code/doctor-agent/external/europepmc/dengue_south_china.json
+  hepatitis_b_china: page 1, got 100 (hitCount=75680)
+  hepatitis_b_china: page 2, got 100 (hitCount=75680)
+  hepatitis_b_china: page 3, got 100 (hitCount=75680)
+✔ hepatitis_b_china: 300 records -> /Users/junjunyi/src-code/doctor-agent/external/europepmc/hepatitis_b_china.json
+  nasopharyngeal_carcinoma: page 1, got 100 (hitCount=5347)
+  nasopharyngeal_carcinoma: page 2, got 100 (hitCount=5347)
+  nasopharyngeal_carcinoma: page 3, got 100 (hitCount=5347)
+✔ nasopharyngeal_carcinoma: 300 records -> /Users/junjunyi/src-code/doctor-agent/external/europepmc/nasopharyngeal_carcinoma.json
+  lactose_intolerance: page 1, got 100 (hitCount=3992)
+  lactose_intolerance: page 2, got 100 (hitCount=3992)
+  lactose_intolerance: page 3, got 100 (hitCount=3992)
+✔ lactose_intolerance: 300 records -> /Users/junjunyi/src-code/doctor-agent/external/europepmc/lactose_intolerance.json
+  aldh2_ethanol: page 1, got 100 (hitCount=8683)
+  aldh2_ethanol: page 2, got 100 (hitCount=8683)
+  aldh2_ethanol: page 3, got 100 (hitCount=8683)
+✔ aldh2_ethanol: 300 records -> /Users/junjunyi/src-code/doctor-agent/external/europepmc/aldh2_ethanol.json
+  tinea_humid: page 1, got 100 (hitCount=1938)
+  tinea_humid: page 2, got 100 (hitCount=1938)
+  tinea_humid: page 3, got 100 (hitCount=1938)
+✔ tinea_humid: 300 records -> /Users/junjunyi/src-code/doctor-agent/external/europepmc/tinea_humid.json
+  favism: page 1, got 100 (hitCount=862)
+  favism: page 2, got 100 (hitCount=862)
+  favism: page 3, got 100 (hitCount=862)
+✔ favism: 300 records -> /Users/junjunyi/src-code/doctor-agent/external/europepmc/favism.json
+  childhood_fever: page 1, got 100 (hitCount=2611)
+  childhood_fever: page 2, got 100 (hitCount=2611)
+  childhood_fever: page 3, got 100 (hitCount=2611)
+✔ childhood_fever: 300 records -> /Users/junjunyi/src-code/doctor-agent/external/europepmc/childhood_fever.json
+  dog_bite_rabies: page 1, got 100 (hitCount=12799)
+  dog_bite_rabies: page 2, got 100 (hitCount=12799)
+  dog_bite_rabies: page 3, got 100 (hitCount=12799)
+✔ dog_bite_rabies: 300 records -> /Users/junjunyi/src-code/doctor-agent/external/europepmc/dog_bite_rabies.json
+  heat_stroke: page 1, got 100 (hitCount=6082)
+  heat_stroke: page 2, got 100 (hitCount=6082)
+  heat_stroke: page 3, got 100 (hitCount=6082)
+✔ heat_stroke: 300 records -> /Users/junjunyi/src-code/doctor-agent/external/europepmc/heat_stroke.json
+  oral_rehydration: page 1, got 100 (hitCount=199347)
+  oral_rehydration: page 2, got 100 (hitCount=199347)
+  oral_rehydration: page 3, got 100 (hitCount=199347)
+✔ oral_rehydration: 300 records -> /Users/junjunyi/src-code/doctor-agent/external/europepmc/oral_rehydration.json
+  preconception_care: page 1, got 100 (hitCount=34967)
+  preconception_care: page 2, got 100 (hitCount=34967)
+  preconception_care: page 3, got 100 (hitCount=34967)
+✔ preconception_care: 300 records -> /Users/junjunyi/src-code/doctor-agent/external/europepmc/preconception_care.json
+  dengue_vaccine: page 1, got 100 (hitCount=36089)
+  dengue_vaccine: page 2, got 100 (hitCount=36089)
+  dengue_vaccine: page 3, got 100 (hitCount=36089)
+✔ dengue_vaccine: 300 records -> /Users/junjunyi/src-code/doctor-agent/external/europepmc/dengue_vaccine.json
+  hbv_vaccine: page 1, got 100 (hitCount=6797)
+  hbv_vaccine: page 2, got 100 (hitCount=6797)
+  hbv_vaccine: page 3, got 100 (hitCount=6797)
+✔ hbv_vaccine: 300 records -> /Users/junjunyi/src-code/doctor-agent/external/europepmc/hbv_vaccine.json
+DONE

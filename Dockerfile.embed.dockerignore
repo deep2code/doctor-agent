@@ -1,0 +1,9 @@
+# Dockerfile.embed 专属上下文白名单（覆盖根 .dockerignore）:
+# 只要 embed_server.py + INT8 模型与 tokenizer 文件。
+*
+!external/embed_server.py
+!bge-m3-onnx/model.int8.onnx
+!bge-m3-onnx/tokenizer.json
+!bge-m3-onnx/tokenizer_config.json
+!bge-m3-onnx/special_tokens_map.json
+!bge-m3-onnx/config.json

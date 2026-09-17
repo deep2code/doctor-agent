@@ -1,0 +1,326 @@
+# Doctor Agent 架构图
+
+## 整体架构
+
+```mermaid
+graph TB
+    subgraph "入口层"
+        A[main.go] --> B{子命令}
+        B -->|无参数| C[startWebUI]
+        B -->|chat| D[runChat]
+        B -->|serve| E[runServe]
+    end
+
+    subgraph "HTTP层 (internal/server)"
+        C --> F[Server]
+        D --> F
+        E --> F
+        F --> G[路由]
+        G --> G1["GET / (Web UI)"]
+        G --> G2["GET /health"]
+        G --> G3["POST /chat"]
+        G --> G4["POST /chat/stream"]
+        G --> G5["POST /feedback"]
+        G --> G6["/admin/users"]
+    end
+
+    subgraph "核心Agent (internal/agent)"
+        F --> H[Agent]
+        H --> I[ProcessMessageStream]
+    end
+
+    subgraph "安全层 (internal/safety)"
+        I --> J[L1: EmergencyDetector]
+        J --> K[L2: ScopeGuard]
+    end
+
+    subgraph "知识检索 (internal/knowledge)"
+        K --> L[Knowledge Retriever]
+        L --> L1[KeywordRetriever]
+        L --> L2[VectorRetriever]
+        L --> L3[HybridRetriever]
+    end
+
+    subgraph "提示词组装 (internal/prompt)"
+        L --> M[Composer]
+        M --> M1["Layer 0: 医学伦理"]
+        M --> M2["Layer 1: 临床推理"]
+        M --> M3["Layer 2: 中国遗传病"]
+        M --> M4["Layer 3: 环境饮食"]
+        M --> M5["Layer 3.5: 日常健康"]
+        M --> M6["Layer 3.75: 格式"]
+        M --> M7["Layer 3.8: 双版本"]
+        M --> M8["Layer 4: 安全规则"]
+    end
+
+    subgraph "Agent循环"
+        M --> N[Agent Loop]
+        N --> O{LLM Provider}
+        O --> O1[Anthropic]
+        O --> O2[DeepSeek]
+        O --> O3[OpenAI-compat]
+        N --> P{有ToolCalls?}
+        P -->|是| Q[Registry.Dispatch]
+        P -->|否| R[最终回答]
+    end
+
+    subgraph "工具系统 (internal/tools)"
+        Q --> S[34个工具]
+        S --> S1[药品类]
+        S --> S2[疾病类]
+        S --> S3[遗传类]
+        S --> S4[文献类]
+        S --> S5[问答类]
+        S --> S6[育儿类]
+    end
+
+    subgraph "后处理"
+        R --> T[L3: PostVerifier]
+        T --> U[L4: Disclaimer]
+        U --> V[返回Response]
+    end
+```
+
+## 知识库体系
+
+```mermaid
+graph TB
+    subgraph "Store (sync.Once单例)"
+        A[Store]
+        A --> B[MedicalEntries 50+JSON]
+        A --> C[DrugEntries]
+        A --> D[FoodRiskEntries]
+        A --> E[EmergencyRules]
+        A --> F[LabTestReferences]
+        A --> G[LiteratureArticles 4425]
+        A --> H[MSDEntries 6086页]
+        A --> I[ClinVarVariants 1399]
+        A --> J[MedlinePlusEntries 1017]
+        A --> K[MedinsDrugs 1170]
+        A --> L[EMLEntries 564]
+        A --> M[FDALabels 344]
+        A --> N[NHCGuides 39]
+        A --> O[FHSGuides 103]
+        A --> P[AAPEntries 264]
+        A --> Q[HealthMyths 16]
+        A --> R[ICD10Diseases 35862]
+        A --> S[NMPADrugs 167615]
+        A --> T[MedicalKGTriples 354752]
+        A --> U[DiseaseEncyclopedias 8807]
+        A --> V[CPubMedTriples 105328]
+        A --> W[HuatuoQAPairs 177703]
+        A --> X[MedicalQAData 506319]
+        A --> Y[TTDData 4299+29782]
+        A --> Z[SIDERData 1507]
+    end
+
+    subgraph "检索器"
+        AA[Retriever] --> AB[KeywordRetriever]
+        AA --> AC[VectorRetriever]
+        AA --> AD[HybridRetriever]
+    end
+
+    B --> AA
+    C --> AA
+    D --> AA
+```
+
+## 工具系统
+
+```mermaid
+graph LR
+    subgraph "Tool接口"
+        A[Tool] --> B[Name]
+        A --> C[Description]
+        A --> D[Schema]
+        A --> E[Execute]
+    end
+
+    subgraph "Registry"
+        F[Registry] --> G[Register]
+        F --> H[Dispatch]
+        F --> I[GetToolDescriptions]
+    end
+
+    subgraph "34个工具"
+        J[药品类] --> J1[drug_safety_check]
+        J --> J2[drug_lookup]
+        J --> J3[drug_interaction_check]
+        J --> J4[drug_label_lookup]
+        J --> J5[eml_lookup]
+        J --> J6[nmpa_drug_lookup]
+        J --> J7[sider_lookup]
+
+        K[疾病类] --> K1[symptom_triage]
+        K --> K2[disease_symptom_lookup]
+        K --> K3[disease_drug_lookup]
+        K --> K4[target_disease_lookup]
+        K --> K5[disease_encyclopedia_lookup]
+        K --> K6[icd10_lookup]
+
+        L[遗传类] --> L1[genetic_risk_calculator]
+        L --> L2[variant_lookup]
+
+        M[文献类] --> M1[reference_lookup]
+        M --> M2[literature_search]
+        M --> M3[medline_search]
+        M --> M4[msd_search]
+
+        N[问答类] --> N1[cpubmed_kg_lookup]
+        N --> N2[medical_kg_lookup]
+        N --> N3[huatuo_qa_lookup]
+        N --> N4[medical_qa_lookup]
+
+        O[育儿类] --> O1[nhc_search]
+        O --> O2[fhs_search]
+        O --> O3[aap_search]
+
+        P[其他] --> P1[lab_interpret]
+        P --> P2[lab_report_interpret]
+        P --> P3[triage_department]
+        P --> P4[medical_image_analyze]
+        P --> P5[ttd_lookup]
+        P --> P6[food_risk_analyzer]
+    end
+```
+
+## HTTP层
+
+```mermaid
+graph TB
+    subgraph "中间件链"
+        A[请求] --> B[CORS]
+        B --> C[Rate Limit]
+        C --> D[Bearer Auth]
+        D --> E[slog Logging]
+    end
+
+    subgraph "路由"
+        E --> F{路由}
+        F -->|GET /| G[Web UI]
+        F -->|GET /health| H[健康检查]
+        F -->|POST /chat| I[非流式对话]
+        F -->|POST /chat/stream| J[流式SSE]
+        F -->|POST /feedback| K[用户反馈]
+        F -->|POST /admin/users| L[创建用户]
+        F -->|GET /admin/users/| M[查询用户]
+        F -->|DELETE /admin/users/| N[删除用户]
+    end
+
+    subgraph "安全"
+        O[API_KEY] --> P[Bearer Token]
+        Q[CORS_ORIGINS] --> R[域名白名单]
+        S[RATE_LIMIT] --> T[IP限流]
+        U[/health] --> V[免认证]
+    end
+```
+
+## 会话管理
+
+```mermaid
+graph TB
+    subgraph "Session"
+        A[Session] --> B[ID]
+        A --> C[Messages]
+        A --> D[PatientContext]
+        A --> E[DisclaimerSent]
+        A --> F[CreatedAt/UpdatedAt]
+    end
+
+    subgraph "Store接口"
+        G[Store] --> H[Save]
+        G --> I[Load]
+        G --> J[List]
+        G --> K[Delete]
+    end
+
+    subgraph "实现"
+        H --> I1[FileStore]
+        H --> I2[DBStore]
+        I1 --> J1[SESSION_DIR/xxx.json]
+        I2 --> J2[SQLite数据库]
+    end
+```
+
+## 数据管线
+
+```mermaid
+graph LR
+    subgraph "外部数据源"
+        A[网络/API] --> B[fetch_*.py]
+    end
+
+    subgraph "数据处理"
+        B --> C[convert_*.py]
+        C --> D[structurize_*.py]
+    end
+
+    subgraph "知识库"
+        D --> E[internal/knowledge/data/*.json]
+        E --> F[make_gz.py]
+        F --> G[internal/knowledge/gz/*.gz]
+        G --> H[go:embed]
+    end
+
+    subgraph "验证"
+        I[verify-knowledge] --> J[完整性检查]
+        I --> K[URL可达性检查]
+    end
+```
+
+## 完整处理流程
+
+```mermaid
+sequenceDiagram
+    participant U as 用户
+    participant S as Server
+    participant A as Agent
+    participant E as EmergencyDetector
+    participant SC as ScopeGuard
+    participant KR as KnowledgeRetriever
+    participant PC as PromptComposer
+    participant LLM as LLM Provider
+    participant T as Tools
+    participant PV as PostVerifier
+    participant D as Disclaimer
+
+    U->>S: POST /chat/stream
+    S->>A: ProcessMessageStream()
+    
+    A->>E: Detect(紧急情况)
+    alt 紧急情况
+        E-->>S: 急救响应
+        S-->>U: SSE Response
+    end
+    
+    A->>SC: Check(范围检查)
+    alt 超出范围
+        SC-->>S: 拒绝响应
+        S-->>U: SSE Response
+    end
+    
+    A->>KR: Retrieve(知识检索)
+    KR-->>A: RetrievalResult[]
+    
+    A->>PC: ComposeSystemPrompt()
+    PC-->>A: SystemPrompt
+    
+    loop 最多5次迭代
+        A->>LLM: StreamChat()
+        LLM-->>A: Response
+        
+        alt 有ToolCalls
+            A->>T: Dispatch()
+            T-->>A: ToolResult
+            A->>LLM: 继续
+        else 无ToolCalls
+            A->>PV: Verify()
+            PV-->>A: VerifyResult
+            A->>D: Apply()
+            D-->>A: Response
+        end
+    end
+    
+    A-->>S: Response
+    S-->>U: SSE delta/done
+```

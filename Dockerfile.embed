@@ -1,0 +1,18 @@
+# Dockerfile.embed — bge-m3 INT8 查询端 embedding 服务
+#
+# 与 external/embed_server.py 配合: OpenAI /v1/embeddings 兼容。
+# 模型文件打进镜像（542MB INT8 + tokenizer）：打包机构建推送，运行机只拉镜像跑，
+# 无需任何仓库外文件。transformers 只用其 fast tokenizer (tokenizer.json,
+# Rust 实现)，不装 torch —— 镜像 ~1.2GB。
+FROM python:3.12-slim
+
+RUN pip install --no-cache-dir onnxruntime numpy "transformers[hf-tokenizers]" \
+    && useradd -m embed
+
+WORKDIR /app
+COPY external/embed_server.py .
+COPY bge-m3-onnx/model.int8.onnx bge-m3-onnx/tokenizer.json bge-m3-onnx/tokenizer_config.json bge-m3-onnx/special_tokens_map.json bge-m3-onnx/config.json /models/
+
+USER embed
+EXPOSE 18080
+CMD ["python3", "embed_server.py", "--host", "0.0.0.0", "--port", "18080", "--int8", "--model", "/models/model.int8.onnx", "--tokenizer", "/models"]

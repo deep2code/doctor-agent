@@ -1,0 +1,61 @@
+[
+  {
+    "id": "lact-001",
+    "condition_zh": "乳糖不耐受",
+    "condition_en": "Lactose Intolerance (Adult-type Hypolactasia)",
+    "category": "metabolic_disorder",
+    "icd10": "E73.9",
+    "regions": ["guangdong", "guangxi", "hainan", "fujian", "hunan", "yunnan", "guizhou", "sichuan", "jiangxi"],
+    "prevalence": {
+      "southern_china": {"rate": 0.85, "population": "general adult population (>80%)"},
+      "east_asia_general": {"rate": 0.80, "population": "East Asian adults (70-100%)"},
+      "northern_europe": {"rate": 0.05, "population": "Northern European adults (lactase persistence)"}
+    },
+    "diagnosis": {
+      "lab_tests": ["Lactose hydrogen breath test (gold standard, non-invasive)", "Lactose tolerance test (blood glucose after lactose load)", "Genetic testing for LCT -13910C>T polymorphism", "Stool pH and reducing substances (infants)", "Dietary elimination and rechallenge (clinical diagnosis)"],
+      "thresholds": {
+        "hydrogen_breath_test": ">20 ppm rise in breath H2 above baseline after 25-50g lactose load → positive",
+        "genetic_LCT": "-13910 C/C genotype → lactase non-persistence (common in East Asians)"
+      },
+      "clinical_features": ["Bloating", "Abdominal cramps/pain", "Watery diarrhea (30 min to 2 hours after milk/dairy)", "Flatulence", "Borborygmi (audible bowel sounds)", "Nausea"],
+      "gold_standard": "Lactose hydrogen breath test"
+    },
+    "treatment": [
+      {"method": "Dietary lactose restriction", "indication": "All confirmed lactose intolerant individuals", "evidence_level": "international_guideline", "citation_ref": "lact-001-cite-1"},
+      {"method": "Lactase enzyme supplementation (e.g., Lactaid)", "indication": "When dairy consumption cannot be avoided", "evidence_level": "meta_analysis", "citation_ref": "lact-001-cite-1"},
+      {"method": "Lactose-free dairy products", "indication": "Alternative to complete dairy avoidance", "evidence_level": "international_guideline", "citation_ref": "lact-001-cite-1"},
+      {"method": "Calcium + Vitamin D supplementation", "indication": "If dairy intake is severely restricted", "evidence_level": "national_guideline", "citation_ref": "lact-001-cite-2"}
+    ],
+    "differential_diagnosis": ["Irritable Bowel Syndrome (IBS)", "Cow's milk protein allergy", "Celiac disease", "Small intestinal bacterial overgrowth (SIBO)", "Inflammatory Bowel Disease"],
+    "risk_factors": ["East Asian ancestry (highest prevalence globally)", "Age (lactase activity declines after weaning)", "Gastroenteritis (temporary secondary lactose intolerance)", "Small intestinal disease (celiac, Crohn)"],
+    "complications": ["Calcium deficiency", "Vitamin D deficiency", "Osteoporosis risk (long-term dairy avoidance)", "Malnutrition (in severe cases)"],
+    "prevention": ["No primary prevention (genetically determined)", "Secondary prevention: adequate calcium from non-dairy sources (leafy greens, tofu, fortified foods)"],
+    "clinical_examples": [
+      {
+        "description": "A 28-year-old woman from Guangzhou reports bloating, cramps, and watery diarrhea 30-60 minutes after drinking milk or eating ice cream. Symptoms began in her early 20s. She avoids dairy now and symptoms resolve. Lactose hydrogen breath test: baseline H2 5 ppm → 75 ppm at 90 min (positive).",
+        "key_findings": "Temporal relationship with dairy + positive breath test → adult-type lactose intolerance",
+        "outcome": "Diagnosed with adult-type hypolactasia (lactase non-persistence). Advised on lactose-free alternatives and calcium-rich non-dairy foods (Chinese broccoli/gai lan, tofu, fortified soy milk). Lactase enzyme supplement for occasional dairy consumption."
+      }
+    ],
+    "citations": [
+      {
+        "type": "review",
+        "title": "Lactose Intolerance in Adults: Biological Mechanism and Dietary Management",
+        "journal": "Nutrients",
+        "year": 2021,
+        "doi": "10.3390/nu13020303",
+        "pmid": "33498789",
+        "level": "review"
+      },
+      {
+        "type": "epidemiology",
+        "title": "Worldwide Prevalence of Lactase Non-Persistence: A Systematic Review and Meta-Analysis",
+        "journal": "The Lancet Gastroenterology & Hepatology",
+        "year": 2017,
+        "doi": "10.1016/S2468-1253(17)30154-1",
+        "level": "meta_analysis"
+      }
+    ],
+    "keywords": ["乳糖不耐受", "lactose intolerance", "lactase", "喝牛奶拉肚子", "牛奶不耐", "腹泻", "腹胀", "lactose-free", "无乳糖", "乳糖酶"]
+  }
+]

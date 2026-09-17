@@ -1,0 +1,650 @@
+[
+  {
+    "id": "tcm_herb_banlangen",
+    "condition_zh": "中药-板蓝根",
+    "condition_en": "Isatis indigotica Fort.",
+    "category": "tcm_herb",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "herb",
+      "name": "板蓝根",
+      "name_pinyin": "banlangen",
+      "name_latin": "Isatis indigotica Fort.",
+      "category": "清热药",
+      "properties": "苦，寒。归心、胃经。",
+      "effects": "清热解毒，凉血利咽。",
+      "indications": "温疫时毒，发热咽痛，温毒发斑，痄腮，烂喉丹痧，大头瘟疫，丹毒，痈肿。",
+      "dosage": "9-15g。",
+      "contraindications": "脾胃虚寒者慎用。",
+      "source": "《中国药典》2020年版"
+    },
+    "keywords": [
+      "中药",
+      "中医药",
+      "板蓝根",
+      "清热药"
+    ],
+    "body": "板蓝根 苦，寒。归心、胃经。 清热解毒，凉血利咽。"
+  },
+  {
+    "id": "tcm_herb_chaihu",
+    "condition_zh": "中药-柴胡",
+    "condition_en": "Bupleurum chinense DC.",
+    "category": "tcm_herb",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "herb",
+      "name": "柴胡",
+      "name_pinyin": "chaihu",
+      "name_latin": "Bupleurum chinense DC.",
+      "category": "解表药",
+      "properties": "苦、辛，微寒。归肝、胆、肺经。",
+      "effects": "疏肝解郁，升举阳气，退热解表。",
+      "indications": "感冒发热，寒热往来，肝郁气滞，胸胁胀痛，脏器下垂，脱肛，子宫脱垂，月经不调。",
+      "dosage": "3-10g。",
+      "contraindications": "肝阳上亢、阴虚阳亢者慎用。",
+      "source": "《中国药典》2020年版"
+    },
+    "keywords": [
+      "中药",
+      "中医药",
+      "柴胡",
+      "解表药"
+    ],
+    "body": "柴胡 苦、辛，微寒。归肝、胆、肺经。 疏肝解郁，升举阳气，退热解表。"
+  },
+  {
+    "id": "tcm_herb_chuanxiong",
+    "condition_zh": "中药-川芎",
+    "condition_en": "Ligusticum chuanxiong Hort.",
+    "category": "tcm_herb",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "herb",
+      "name": "川芎",
+      "name_pinyin": "chuanxiong",
+      "name_latin": "Ligusticum chuanxiong Hort.",
+      "category": "活血化瘀药",
+      "properties": "辛，温。归肝、胆、心包经。",
+      "effects": "活血行气，祛风止痛。",
+      "indications": "血瘀气滞痛证，头痛，风湿痹痛，月经不调，经闭痛经，癥瘕腹痛，胸胁刺痛，跌打损伤。",
+      "dosage": "3-10g。",
+      "contraindications": "阴虚火旺、舌红口干者慎用。",
+      "source": "《中国药典》2020年版"
+    },
+    "keywords": [
+      "中药",
+      "中医药",
+      "川芎",
+      "活血化瘀药"
+    ],
+    "body": "川芎 辛，温。归肝、胆、心包经。 活血行气，祛风止痛。"
+  },
+  {
+    "id": "tcm_herb_danggui",
+    "condition_zh": "中药-当归",
+    "condition_en": "Angelica sinensis (Oliv.) Diels",
+    "category": "tcm_herb",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "herb",
+      "name": "当归",
+      "name_pinyin": "danggui",
+      "name_latin": "Angelica sinensis (Oliv.) Diels",
+      "category": "补血药",
+      "properties": "甘、辛，温。归肝、心、脾经。",
+      "effects": "补血活血，调经止痛，润肠通便。",
+      "indications": "血虚萎黄，眩晕心悸，月经不调，经闭痛经，虚寒腹痛，瘀血作痛，跌打损伤，痹痛麻木，肠燥便秘。",
+      "dosage": "6-12g。",
+      "contraindications": "湿盛中满、大便泄泻者忌服。",
+      "source": "《中国药典》2020年版"
+    },
+    "keywords": [
+      "中药",
+      "中医药",
+      "当归",
+      "补血药"
+    ],
+    "body": "当归 甘、辛，温。归肝、心、脾经。 补血活血，调经止痛，润肠通便。"
+  },
+  {
+    "id": "tcm_herb_danshen",
+    "condition_zh": "中药-丹参",
+    "condition_en": "Salvia miltiorrhiza Bge.",
+    "category": "tcm_herb",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "herb",
+      "name": "丹参",
+      "name_pinyin": "danshen",
+      "name_latin": "Salvia miltiorrhiza Bge.",
+      "category": "活血化瘀药",
+      "properties": "苦，微寒。归心、肝经。",
+      "effects": "活血祛瘀，通经止痛，清心除烦，凉血消痈。",
+      "indications": "瘀血阻滞之痛证，经闭痛经，癥瘕积聚，胸痹心痛，心腹疼痛，热痹疼痛，疮疡肿痛，心烦不眠。",
+      "dosage": "10-15g。",
+      "contraindications": "不宜与藜芦同用。",
+      "source": "《中国药典》2020年版"
+    },
+    "keywords": [
+      "中药",
+      "中医药",
+      "丹参",
+      "活血化瘀药"
+    ],
+    "body": "丹参 苦，微寒。归心、肝经。 活血祛瘀，通经止痛，清心除烦，凉血消痈。"
+  },
+  {
+    "id": "tcm_herb_gouqizi",
+    "condition_zh": "中药-枸杞子",
+    "condition_en": "Lycium barbarum L.",
+    "category": "tcm_herb",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "herb",
+      "name": "枸杞子",
+      "name_pinyin": "gouqizi",
+      "name_latin": "Lycium barbarum L.",
+      "category": "补虚药",
+      "properties": "甘，平。归肝、肾、肺经。",
+      "effects": "滋补肝肾，益精明目，润肺止咳。",
+      "indications": "肝肾不足，腰膝酸软，头晕目眩，视力减退，遗精，消渴，阴虚咳嗽。",
+      "dosage": "6-12g。",
+      "contraindications": "外感发热、脾虚便溏者慎用。",
+      "source": "《中国药典》2020年版"
+    },
+    "keywords": [
+      "中药",
+      "中医药",
+      "枸杞子",
+      "补虚药"
+    ],
+    "body": "枸杞子 甘，平。归肝、肾、肺经。 滋补肝肾，益精明目，润肺止咳。"
+  },
+  {
+    "id": "tcm_herb_huangqi",
+    "condition_zh": "中药-黄芪",
+    "condition_en": "Astragalus membranaceus (Fisch.) Bge.",
+    "category": "tcm_herb",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "herb",
+      "name": "黄芪",
+      "name_pinyin": "huangqi",
+      "name_latin": "Astragalus membranaceus (Fisch.) Bge.",
+      "category": "补虚药",
+      "properties": "甘，微温。归肺、脾经。",
+      "effects": "补气升阳，固表止汗，利水消肿，生津养血，行滞通痹，托毒排脓，敛疮生肌。",
+      "indications": "气虚乏力，食少便溏，中气下陷，久泻脱肛，便血崩漏，表虚自汗，气虚水肿，内热消渴，血虚萎黄，气血两虚，痹痛麻木，半身不遂，痈疽难溃，久溃不敛。",
+      "dosage": "9-30g。",
+      "contraindications": "表实邪盛、气滞湿阻、食积停滞、痈疽初起或溃后热毒尚盛等实证，以及阴虚阳亢者，均须慎用。",
+      "source": "《中国药典》2020年版"
+    },
+    "keywords": [
+      "中药",
+      "中医药",
+      "黄芪",
+      "补虚药"
+    ],
+    "body": "黄芪 甘，微温。归肺、脾经。 补气升阳，固表止汗，利水消肿，生津养血，行滞通痹，托毒排脓，敛疮生肌。"
+  },
+  {
+    "id": "tcm_herb_jinyinhua",
+    "condition_zh": "中药-金银花",
+    "condition_en": "Lonicera japonica Thunb.",
+    "category": "tcm_herb",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "herb",
+      "name": "金银花",
+      "name_pinyin": "jinyinhua",
+      "name_latin": "Lonicera japonica Thunb.",
+      "category": "清热药",
+      "properties": "甘，寒。归肺、心、胃经。",
+      "effects": "清热解毒，疏散风热。",
+      "indications": "痈肿疔疮，喉痹，丹毒，热毒血痢，风热感冒，温病发热。",
+      "dosage": "6-15g。",
+      "contraindications": "脾胃虚寒及疮疡属阴证者慎用。",
+      "source": "《中国药典》2020年版"
+    },
+    "keywords": [
+      "中药",
+      "中医药",
+      "金银花",
+      "清热药"
+    ],
+    "body": "金银花 甘，寒。归肺、心、胃经。 清热解毒，疏散风热。"
+  },
+  {
+    "id": "tcm_herb_lianqiao",
+    "condition_zh": "中药-连翘",
+    "condition_en": "Forsythia suspensa (Thunb.) Vahl",
+    "category": "tcm_herb",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "herb",
+      "name": "连翘",
+      "name_pinyin": "lianqiao",
+      "name_latin": "Forsythia suspensa (Thunb.) Vahl",
+      "category": "清热药",
+      "properties": "苦，微寒。归肺、心、小肠经。",
+      "effects": "清热解毒，消肿散结，疏散风热。",
+      "indications": "痈疽，瘰疬，乳痈，丹毒，风热感冒，温病初起，温热入营，高热烦渴，神昏发斑，热淋涩痛。",
+      "dosage": "6-15g。",
+      "contraindications": "脾胃虚寒及疮疡属阴证者慎用。",
+      "source": "《中国药典》2020年版"
+    },
+    "keywords": [
+      "中药",
+      "中医药",
+      "连翘",
+      "清热药"
+    ],
+    "body": "连翘 苦，微寒。归肺、心、小肠经。 清热解毒，消肿散结，疏散风热。"
+  },
+  {
+    "id": "tcm_herb_renshen",
+    "condition_zh": "中药-人参",
+    "condition_en": "Panax ginseng C.A.Mey.",
+    "category": "tcm_herb",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "herb",
+      "name": "人参",
+      "name_pinyin": "renshen",
+      "name_latin": "Panax ginseng C.A.Mey.",
+      "category": "补虚药",
+      "properties": "甘、微苦，微温。归脾、肺、心、肾经。",
+      "effects": "大补元气，复脉固脱，补脾益肺，生津养血，安神益智。",
+      "indications": "体虚欲脱，肢冷脉微，脾虚食少，肺虚喘咳，津伤口渴，内热消渴，气血亏虚，久病虚羸，惊悸失眠，阳痿宫冷。",
+      "dosage": "3-9g，另煎兑服；野山参研末吞服，每次2g，日服2次。",
+      "contraindications": "不宜与藜芦、五灵脂同用。",
+      "source": "《中国药典》2020年版"
+    },
+    "keywords": [
+      "中药",
+      "中医药",
+      "人参",
+      "补虚药"
+    ],
+    "body": "人参 甘、微苦，微温。归脾、肺、心、肾经。 大补元气，复脉固脱，补脾益肺，生津养血，安神益智。"
+  },
+  {
+    "id": "tcm_formula_buzhong yiqi tang",
+    "condition_zh": "方剂-补中益气汤",
+    "condition_en": "",
+    "category": "tcm_formula",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "formula",
+      "name": "补中益气汤",
+      "name_pinyin": "buzhong yiqi tang",
+      "composition": "黄芪18g 甘草9g 人参9g 当归6g 橘皮6g 升麻6g 柴胡6g 白术9g",
+      "effects": "补中益气，升阳举陷。",
+      "indications": "1. 脾胃气虚证。食少便溏，体倦肢软，少气懒言，面色萎黄，脉虚弱。2. 气虚下陷证。脱肛，子宫脱垂，久泻久痢，崩漏等。3. 气虚发热证。身热自汗，渴喜热饮，气短乏力，脉虚大无力。",
+      "dosage": "水煎服，日一剂，分二次温服。",
+      "contraindications": "",
+      "source": "《脾胃论》"
+    },
+    "keywords": [
+      "方剂",
+      "中医药",
+      "补中益气汤"
+    ],
+    "body": "补中益气汤 黄芪18g 甘草9g 人参9g 当归6g 橘皮6g 升麻6g 柴胡6g 白术9g 补中益气，升阳举陷。"
+  },
+  {
+    "id": "tcm_formula_huoxiang zhengqi san",
+    "condition_zh": "方剂-藿香正气散",
+    "condition_en": "",
+    "category": "tcm_formula",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "formula",
+      "name": "藿香正气散",
+      "name_pinyin": "huoxiang zhengqi san",
+      "composition": "大腹皮9g 白芷9g 紫苏9g 茯苓9g 半夏曲9g 白术9g 厚朴12g 桔梗12g 藿香18g 甘草12g",
+      "effects": "解表化湿，理气和中。",
+      "indications": "外感风寒，内伤湿滞证。恶寒发热，头痛，胸膈满闷，脘腹疼痛，恶心呕吐，肠鸣泄泻，舌苔白腻，脉浮或濡缓。",
+      "dosage": "水煎服，日一剂，分二次温服。",
+      "contraindications": "",
+      "source": "《太平惠民和剂局方》"
+    },
+    "keywords": [
+      "方剂",
+      "中医药",
+      "藿香正气散"
+    ],
+    "body": "藿香正气散 大腹皮9g 白芷9g 紫苏9g 茯苓9g 半夏曲9g 白术9g 厚朴12g 桔梗12g 藿香18g 甘草12g 解表化湿，理气和中。"
+  },
+  {
+    "id": "tcm_formula_liuwei dihuang wan",
+    "condition_zh": "方剂-六味地黄丸",
+    "condition_en": "",
+    "category": "tcm_formula",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "formula",
+      "name": "六味地黄丸",
+      "name_pinyin": "liuwei dihuang wan",
+      "composition": "熟地黄24g 山萸肉12g 山药12g 泽泻9g 牡丹皮9g 茯苓9g",
+      "effects": "滋阴补肾。",
+      "indications": "肾阴虚证。腰膝酸软，头晕目眩，耳鸣耳聋，盗汗，遗精，消渴，骨蒸潮热，手足心热，舌燥咽痛，牙齿动摇，足跟作痛，以及小儿囟门不合，舌红少苔，脉沉细数。",
+      "dosage": "蜜丸，每丸约9g，每次1丸，日2次口服。",
+      "contraindications": "",
+      "source": "《小儿药证直诀》"
+    },
+    "keywords": [
+      "方剂",
+      "中医药",
+      "六味地黄丸"
+    ],
+    "body": "六味地黄丸 熟地黄24g 山萸肉12g 山药12g 泽泻9g 牡丹皮9g 茯苓9g 滋阴补肾。"
+  },
+  {
+    "id": "tcm_formula_sijunzi tang",
+    "condition_zh": "方剂-四君子汤",
+    "condition_en": "",
+    "category": "tcm_formula",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "formula",
+      "name": "四君子汤",
+      "name_pinyin": "sijunzi tang",
+      "composition": "人参9g 白术9g 茯苓9g 甘草6g",
+      "effects": "益气健脾。",
+      "indications": "脾胃气虚证。面色萎白，语声低微，气短乏力，食少便溏，舌淡苔白，脉虚数。",
+      "dosage": "水煎服，日一剂，分二次温服。",
+      "contraindications": "",
+      "source": "《太平惠民和剂局方》"
+    },
+    "keywords": [
+      "方剂",
+      "中医药",
+      "四君子汤"
+    ],
+    "body": "四君子汤 人参9g 白术9g 茯苓9g 甘草6g 益气健脾。"
+  },
+  {
+    "id": "tcm_formula_siwu tang",
+    "condition_zh": "方剂-四物汤",
+    "condition_en": "",
+    "category": "tcm_formula",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "formula",
+      "name": "四物汤",
+      "name_pinyin": "siwu tang",
+      "composition": "当归9g 川芎6g 白芍9g 熟地黄12g",
+      "effects": "补血调血。",
+      "indications": "营血虚滞证。头晕心悸，面色无华，妇人月经不调，量少或经闭不行，舌淡，脉细弦或细涩。",
+      "dosage": "水煎服，日一剂，分二次温服。",
+      "contraindications": "",
+      "source": "《太平惠民和剂局方》"
+    },
+    "keywords": [
+      "方剂",
+      "中医药",
+      "四物汤"
+    ],
+    "body": "四物汤 当归9g 川芎6g 白芍9g 熟地黄12g 补血调血。"
+  },
+  {
+    "id": "tcm_formula_xiaochaihu tang",
+    "condition_zh": "方剂-小柴胡汤",
+    "condition_en": "",
+    "category": "tcm_formula",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "formula",
+      "name": "小柴胡汤",
+      "name_pinyin": "xiaochaihu tang",
+      "composition": "柴胡24g 黄芩9g 人参9g 甘草9g 半夏9g 生姜9g 大枣4枚",
+      "effects": "和解少阳。",
+      "indications": "1. 伤寒少阳证。寒热往来，胸胁苦满，默默不欲饮食，心烦喜呕，口苦，咽干，目眩，舌苔薄白，脉弦。2. 妇人伤寒热入血室，以及疟疾、黄疸等杂病见少阳证者。",
+      "dosage": "水煎服，日一剂，分二次温服。",
+      "contraindications": "",
+      "source": "《伤寒论》"
+    },
+    "keywords": [
+      "方剂",
+      "中医药",
+      "小柴胡汤"
+    ],
+    "body": "小柴胡汤 柴胡24g 黄芩9g 人参9g 甘草9g 半夏9g 生姜9g 大枣4枚 和解少阳。"
+  },
+  {
+    "id": "tcm_formula_xuefu zhuyu tang",
+    "condition_zh": "方剂-血府逐瘀汤",
+    "condition_en": "",
+    "category": "tcm_formula",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "formula",
+      "name": "血府逐瘀汤",
+      "name_pinyin": "xuefu zhuyu tang",
+      "composition": "桃仁12g 红花9g 当归9g 生地黄9g 川芎6g 赤芍6g 牛膝9g 桔梗5g 柴胡3g 枳壳6g 甘草3g",
+      "effects": "活血化瘀，行气止痛。",
+      "indications": "胸中血瘀证。胸痛，头痛日久，痛如针刺而有定处，或呃逆干呕，或心悸失眠，或急躁易怒，入暮潮热，唇暗或两目暗黑，舌质暗红或有瘀斑，脉涩或弦紧。",
+      "dosage": "水煎服，日一剂，分二次温服。",
+      "contraindications": "",
+      "source": "《医林改错》"
+    },
+    "keywords": [
+      "方剂",
+      "中医药",
+      "血府逐瘀汤"
+    ],
+    "body": "血府逐瘀汤 桃仁12g 红花9g 当归9g 生地黄9g 川芎6g 赤芍6g 牛膝9g 桔梗5g 柴胡3g 枳壳6g 甘草3g 活血化瘀，行气止痛。"
+  },
+  {
+    "id": "tcm_formula_yinqiao san",
+    "condition_zh": "方剂-银翘散",
+    "condition_en": "",
+    "category": "tcm_formula",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "formula",
+      "name": "银翘散",
+      "name_pinyin": "yinqiao san",
+      "composition": "金银花30g 连翘30g 桔梗18g 薄荷18g 竹叶12g 生甘草15g 荆芥穗12g 淡豆豉15g 牛蒡子18g",
+      "effects": "辛凉透表，清热解毒。",
+      "indications": "温病初起。发热无汗，或有汗不畅，微恶风寒，头痛口渴，咳嗽咽痛，舌尖红，苔薄白或薄黄，脉浮数。",
+      "dosage": "共为散，每服18g，鲜芦根汤煎，香气大出，即取服，勿过煎。",
+      "contraindications": "",
+      "source": "《温病条辨》"
+    },
+    "keywords": [
+      "方剂",
+      "中医药",
+      "银翘散"
+    ],
+    "body": "银翘散 金银花30g 连翘30g 桔梗18g 薄荷18g 竹叶12g 生甘草15g 荆芥穗12g 淡豆豉15g 牛蒡子18g 辛凉透表，清热解毒。"
+  },
+  {
+    "id": "tcm_acupoint_baihui",
+    "condition_zh": "穴位-百会",
+    "condition_en": "",
+    "category": "tcm_acupoint",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "acupoint",
+      "name": "百会",
+      "name_pinyin": "baihui",
+      "name_en": "",
+      "location": "在头部，前发际正中直上5寸。",
+      "indications": "头痛，眩晕，中风失语，失眠，健忘，癫狂，痫证，脱肛，阴挺，胃下垂，肾下垂。",
+      "technique": "",
+      "source": ""
+    },
+    "keywords": [
+      "穴位",
+      "针灸",
+      "百会"
+    ],
+    "body": "百会 在头部，前发际正中直上5寸。 头痛，眩晕，中风失语，失眠，健忘，癫狂，痫证，脱肛，阴挺，胃下垂，肾下垂。"
+  },
+  {
+    "id": "tcm_acupoint_fengchi",
+    "condition_zh": "穴位-风池",
+    "condition_en": "",
+    "category": "tcm_acupoint",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "acupoint",
+      "name": "风池",
+      "name_pinyin": "fengchi",
+      "name_en": "",
+      "location": "在项部，枕骨之下，与风府相平，胸锁乳突肌与斜方肌上端之间的凹陷处。",
+      "indications": "头痛，眩晕，颈项强痛，感冒，发热，鼻塞，鼽衄，目赤肿痛，耳鸣，失眠，中风。",
+      "technique": "",
+      "source": ""
+    },
+    "keywords": [
+      "穴位",
+      "针灸",
+      "风池"
+    ],
+    "body": "风池 在项部，枕骨之下，与风府相平，胸锁乳突肌与斜方肌上端之间的凹陷处。 头痛，眩晕，颈项强痛，感冒，发热，鼻塞，鼽衄，目赤肿痛，耳鸣，失眠，中风。"
+  },
+  {
+    "id": "tcm_acupoint_hegu",
+    "condition_zh": "穴位-合谷",
+    "condition_en": "",
+    "category": "tcm_acupoint",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "acupoint",
+      "name": "合谷",
+      "name_pinyin": "hegu",
+      "name_en": "",
+      "location": "在手背，第2掌骨桡侧的中点处。",
+      "indications": "头痛，眩晕，牙痛，口眼歪斜，咽喉肿痛，腹痛，便秘，热病，无汗或多汗，闭经，滞产。",
+      "technique": "",
+      "source": ""
+    },
+    "keywords": [
+      "穴位",
+      "针灸",
+      "合谷"
+    ],
+    "body": "合谷 在手背，第2掌骨桡侧的中点处。 头痛，眩晕，牙痛，口眼歪斜，咽喉肿痛，腹痛，便秘，热病，无汗或多汗，闭经，滞产。"
+  },
+  {
+    "id": "tcm_acupoint_neiguan",
+    "condition_zh": "穴位-内关",
+    "condition_en": "",
+    "category": "tcm_acupoint",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "acupoint",
+      "name": "内关",
+      "name_pinyin": "neiguan",
+      "name_en": "",
+      "location": "在前臂掌侧，腕横纹上2寸，掌长肌腱与桡侧腕屈肌腱之间。",
+      "indications": "心痛，胸闷，心悸，烦躁，失眠，眩晕，呕吐，呃逆，肘臂挛痛。",
+      "technique": "",
+      "source": ""
+    },
+    "keywords": [
+      "穴位",
+      "针灸",
+      "内关"
+    ],
+    "body": "内关 在前臂掌侧，腕横纹上2寸，掌长肌腱与桡侧腕屈肌腱之间。 心痛，胸闷，心悸，烦躁，失眠，眩晕，呕吐，呃逆，肘臂挛痛。"
+  },
+  {
+    "id": "tcm_acupoint_sanyinjiao",
+    "condition_zh": "穴位-三阴交",
+    "condition_en": "",
+    "category": "tcm_acupoint",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "acupoint",
+      "name": "三阴交",
+      "name_pinyin": "sanyinjiao",
+      "name_en": "",
+      "location": "在内踝尖上3寸，胫骨内侧缘后方。",
+      "indications": "肠鸣腹胀，泄泻，月经不调，带下，阴挺，不孕，滞产，遗精，阳痿，遗尿，疝气，失眠，下肢痿痹。",
+      "technique": "",
+      "source": ""
+    },
+    "keywords": [
+      "穴位",
+      "针灸",
+      "三阴交"
+    ],
+    "body": "三阴交 在内踝尖上3寸，胫骨内侧缘后方。 肠鸣腹胀，泄泻，月经不调，带下，阴挺，不孕，滞产，遗精，阳痿，遗尿，疝气，失眠，下肢痿痹。"
+  },
+  {
+    "id": "tcm_acupoint_zusanli",
+    "condition_zh": "穴位-足三里",
+    "condition_en": "",
+    "category": "tcm_acupoint",
+    "regions": [
+      "全国"
+    ],
+    "tcm": {
+      "type": "acupoint",
+      "name": "足三里",
+      "name_pinyin": "zusanli",
+      "name_en": "",
+      "location": "在小腿外侧，犊鼻下3寸，犊鼻与解溪连线上。",
+      "indications": "胃痛，呕吐，噎膈，腹胀，泄泻，痢疾，便秘，肠痈，下肢痿痹，心悸，气短，癫狂，失眠，虚劳羸瘦。",
+      "technique": "",
+      "source": ""
+    },
+    "keywords": [
+      "穴位",
+      "针灸",
+      "足三里"
+    ],
+    "body": "足三里 在小腿外侧，犊鼻下3寸，犊鼻与解溪连线上。 胃痛，呕吐，噎膈，腹胀，泄泻，痢疾，便秘，肠痈，下肢痿痹，心悸，气短，癫狂，失眠，虚劳羸瘦。"
+  }
+]

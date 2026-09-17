@@ -317,7 +317,7 @@ func (r *KeywordRetriever) scoreEntry(entry *KnowledgeEntry, query string, query
 		}
 	}
 
-	// 6. Prose body bigram overlap (projected FHS/MSD/MedlinePlus articles).
+// 6. Prose body bigram overlap (projected FHS/MSD/MedlinePlus articles).
 	// Fallback only: evaluated when no curated-keyword strategy matched, so
 	// precise entries always outrank long articles whose body merely contains
 	// common characters. Score is kept below a single keyword hit (3.0).
@@ -330,8 +330,9 @@ func (r *KeywordRetriever) scoreEntry(entry *KnowledgeEntry, query string, query
 				overlap++
 			}
 		}
+		// 提分到 3.0 以达到 minRelevantScore 阈值，让正文匹配能返回结果
 		if overlap >= 10 && float64(overlap)/float64(len(qb)) >= 0.3 {
-			totalScore += 2.0
+			totalScore += 3.0
 			addMatch(entry.ConditionZH)
 		}
 	}

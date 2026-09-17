@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"log/slog"
+	"regexp"
 	"strconv"
 	"strings"
 	"sync"
@@ -873,7 +874,9 @@ func (s *Store) DiseaseEncyclopediaAsKnowledge() []KnowledgeEntry {
 }
 
 // NHCGuidesAsKnowledge projects 国家卫健委诊疗方案 full-text guides as
-// KnowledgeEntry bodies for unified keyword retrieval.
+// KnowledgeEntry bodies for unified keyword retrieval. Keywords are extracted
+// from the title to improve recall: "关于印发流行性感冒诊疗方案-2025年版-的通知"
+// -> ["流行性感冒", "流感", "诊疗方案", "2025"]
 func (s *Store) NHCGuidesAsKnowledge() []KnowledgeEntry {
 	_ = s.ensureNHC()
 	s.mu.RLock()
@@ -885,16 +888,81 @@ func (s *Store) NHCGuidesAsKnowledge() []KnowledgeEntry {
 		if g.Year != "" {
 			cite.Year, _ = strconv.Atoi(g.Year)
 		}
+		// 从标题提取关键词：去除"关于印发...的通知"等模板，保留疾病/症状名
+		keywords := extractGuideKeywords(g.Title)
+		// 合并常见疾病/症状的同义词
+		for _, kw := range keywords {
+			if expanded := expandGuideKeyword(kw); expanded != kw {
+				keywords = append(keywords, expanded)
+			}
+		}
 		out = append(out, KnowledgeEntry{
 			ID:          fmt.Sprintf("nhc-%03d", i+1),
 			ConditionZH: g.Title,
 			Category:    "nhc_guide",
-			Keywords:    []string{g.Title},
+			Keywords:    keywords,
 			Body:        g.Title + "\n" + g.Content,
 			Citations:   []Citation{cite},
 		})
 	}
 	return out
+}
+
+// extractGuideKeywords 从指南标题提取关键词
+// 例如: "关于印发流行性感冒诊疗方案-2025年版-的通知" -> ["流行性感冒", "流感", "诊疗方案"]
+func extractGuideKeywords(title string) []string {
+	// 去除模板前缀
+	title = strings.TrimPrefix(title, "关于印发")
+	title = strings.TrimSuffix(title, "的通知")
+	title = strings.TrimSuffix(title, "的通知")
+	title = strings.TrimSuffix(title, "的诊疗方案")
+	title = strings.TrimSuffix(title, "诊疗方案")
+	// 去除年份和版本号
+	reYearVersion := regexp.MustCompile(`[-−]?\d{4}年版|[-−]?\d+版|第\d+版|试行版?|修订版|更新版`)
+	title = reYearVersion.ReplaceAllString(title, "")
+	// 去除括号内容
+	reBracket := regexp.MustCompile(`[（(][^)）]*[）)]`)
+	title = reBracket.ReplaceAllString(title, "")
+	// 分割并清理
+	parts := strings.FieldsFunc(title, func(r rune) bool {
+		return r == '-' || r == '—' || r == '–' || r == '、' || r == '，' || r == ',' || r == ' '
+	})
+	var keywords []string
+	seen := make(map[string]bool)
+	for _, p := range parts {
+		p = strings.TrimSpace(p)
+		if len(p) >= 2 && !seen[p] {
+			seen[p] = true
+			keywords = append(keywords, p)
+		}
+	}
+	return keywords
+}
+
+// expandGuideKeyword 将疾病/症状名扩展为常见同义词
+func expandGuideKeyword(kw string) string {
+	// 常见疾病同义词映射
+	expansions := map[string]string{
+		"流行性感冒": "流感",
+		"人感染禽流感": "禽流感",
+		"手足口病": "手足口",
+		"腺病毒肺炎": "腺病毒",
+		"诺如病毒": "诺如",
+		"麻疹": "麻疹",
+		"风疹": "风疹",
+		"水痘": "水痘",
+		"流行性腮腺炎": "腮腺炎",
+		"新冠病毒": "新冠",
+		"新型冠状病毒": "新冠",
+		"肺炎": "肺部感染",
+		"支气管炎": "气管炎",
+		"咽炎": "咽喉炎",
+		"扁桃体炎": "扁桃体",
+	}
+	if exp, ok := expansions[kw]; ok {
+		return exp
+	}
+	return kw
 }
 
 // GetLiteratureTopics returns the literature topic table.

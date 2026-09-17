@@ -1,0 +1,104 @@
+package llm
+
+import "context"
+
+// ContentPart represents a part of a multimodal message.
+type ContentPart struct {
+	Type     string      `json:"type"` // "text", "image"
+	Text     string      `json:"text,omitempty"`
+	Image    *ImageInput `json:"image,omitempty"`
+}
+
+// ImageInput represents an image input.
+type ImageInput struct {
+	Base64Data string `json:"base64_data,omitempty"` // Base64 encoded image
+	MediaType  string `json:"media_type"`            // e.g., "image/jpeg", "image/png"
+	URL        string `json:"url,omitempty"`         // Optional URL
+}
+
+// Message represents a single chat message.
+type Message struct {
+	Role    string // "system", "user", "assistant"
+	Content string
+	// ReasoningContent stores the thinking/reasoning trace that some
+	// providers (e.g. DeepSeek V4) include alongside tool_calls. It MUST
+	// be passed back to the API in multi-turn tool-call conversations or
+	// the provider returns HTTP 400.
+	ReasoningContent string `json:"reasoning_content,omitempty"`
+	// Parts supports multimodal content (text + images).
+	Parts []ContentPart `json:"parts,omitempty"`
+	// ToolCalls is set on assistant messages that requested tool use.
+	// Providers translate it into their native tool-call format (tool_use
+	// blocks for Anthropic, tool_calls for OpenAI-compatible endpoints).
+	ToolCalls []ToolCall `json:"tool_calls,omitempty"`
+	// ToolCallID is set on tool-role messages (Role "tool") to correlate a
+	// single tool result with the assistant tool call it answers (OpenAI
+	// tool_call_id / Anthropic tool_result tool_use_id).
+	ToolCallID string `json:"tool_call_id,omitempty"`
+}
+
+// HasImages reports whether the message contains image parts.
+func (m *Message) HasImages() bool {
+	for _, p := range m.Parts {
+		if p.Type == "image" && p.Image != nil {
+			return true
+		}
+	}
+	return false
+}
+
+// ToolDefinition describes a tool available to the LLM.
+type ToolDefinition struct {
+	Name        string
+	Description string
+	Parameters  map[string]any // JSON Schema properties
+	Required    []string
+}
+
+// ToolCall represents a tool call requested by the LLM.
+type ToolCall struct {
+	ID        string
+	Name      string
+	Arguments map[string]any
+}
+
+// TokenUsage carries token usage statistics for one LLM call.
+type TokenUsage struct {
+	PromptTokens     int `json:"prompt_tokens"`
+	CompletionTokens int `json:"completion_tokens"`
+}
+
+// Add returns the sum of two usage records (multi-call accumulation).
+func (u TokenUsage) Add(other TokenUsage) TokenUsage {
+	return TokenUsage{
+		PromptTokens:     u.PromptTokens + other.PromptTokens,
+		CompletionTokens: u.CompletionTokens + other.CompletionTokens,
+	}
+}
+
+// ChatResponse wraps the LLM's response.
+type ChatResponse struct {
+	Text             string
+	ToolCalls        []ToolCall
+	ReasoningContent string // thinking trace from providers like DeepSeek V4
+	Usage            TokenUsage // token consumption of this single call (zero if unknown)
+}
+
+// LLMProvider is the interface all LLM backends must implement.
+// This enables switching between Anthropic Claude and DeepSeek (and
+// potentially other providers) without changing the agent core.
+type LLMProvider interface {
+	// Chat sends a conversation to the LLM and returns the response.
+	// The systemPrompt is separate from messages to allow provider-specific
+	// handling (e.g., Anthropic's top-level system param vs OpenAI's system role).
+	Chat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string) (*ChatResponse, error)
+
+	// StreamChat streams the response: each incremental text chunk is passed to
+	// onDelta (which may be nil) as it is generated, and the final complete
+	// response (full text + any tool calls) is returned when finished.
+	// Tool-call arguments are never streamed via onDelta — only visible text.
+	StreamChat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string, onDelta func(string)) (*ChatResponse, error)
+
+	// Name returns a human-readable identifier for this provider (e.g., "Anthropic Claude", "DeepSeek V4").
+	Name() string
+}

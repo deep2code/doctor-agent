@@ -1,0 +1,273 @@
+[
+  {
+    "id": "dietary_general_1",
+    "condition_zh": "膳食指南-1",
+    "condition_en": "Dietary Guidelines",
+    "category": "dietary_guideline",
+    "regions": [
+      "全国"
+    ],
+    "dietary": {
+      "type": "general",
+      "number": 1,
+      "title": "食物多样，合理搭配",
+      "description": "",
+      "recommendations": [],
+      "source": "中国营养学会",
+      "year": ""
+    },
+    "keywords": [
+      "膳食指南",
+      "营养",
+      "准则1"
+    ],
+    "body": "食物多样，合理搭配 "
+  },
+  {
+    "id": "dietary_general_2",
+    "condition_zh": "膳食指南-2",
+    "condition_en": "Dietary Guidelines",
+    "category": "dietary_guideline",
+    "regions": [
+      "全国"
+    ],
+    "dietary": {
+      "type": "general",
+      "number": 2,
+      "title": "吃动平衡，健康体重",
+      "description": "",
+      "recommendations": [],
+      "source": "中国营养学会",
+      "year": ""
+    },
+    "keywords": [
+      "膳食指南",
+      "营养",
+      "准则2"
+    ],
+    "body": "吃动平衡，健康体重 "
+  },
+  {
+    "id": "dietary_general_3",
+    "condition_zh": "膳食指南-3",
+    "condition_en": "Dietary Guidelines",
+    "category": "dietary_guideline",
+    "regions": [
+      "全国"
+    ],
+    "dietary": {
+      "type": "general",
+      "number": 3,
+      "title": "多吃蔬果、奶类、全谷、大豆",
+      "description": "",
+      "recommendations": [],
+      "source": "中国营养学会",
+      "year": ""
+    },
+    "keywords": [
+      "膳食指南",
+      "营养",
+      "准则3"
+    ],
+    "body": "多吃蔬果、奶类、全谷、大豆 "
+  },
+  {
+    "id": "dietary_general_4",
+    "condition_zh": "膳食指南-4",
+    "condition_en": "Dietary Guidelines",
+    "category": "dietary_guideline",
+    "regions": [
+      "全国"
+    ],
+    "dietary": {
+      "type": "general",
+      "number": 4,
+      "title": "适量吃鱼、禽、蛋、瘦肉",
+      "description": "",
+      "recommendations": [],
+      "source": "中国营养学会",
+      "year": ""
+    },
+    "keywords": [
+      "膳食指南",
+      "营养",
+      "准则4"
+    ],
+    "body": "适量吃鱼、禽、蛋、瘦肉 "
+  },
+  {
+    "id": "dietary_general_5",
+    "condition_zh": "膳食指南-5",
+    "condition_en": "Dietary Guidelines",
+    "category": "dietary_guideline",
+    "regions": [
+      "全国"
+    ],
+    "dietary": {
+      "type": "general",
+      "number": 5,
+      "title": "少盐少油，控糖限酒",
+      "description": "",
+      "recommendations": [],
+      "source": "中国营养学会",
+      "year": ""
+    },
+    "keywords": [
+      "膳食指南",
+      "营养",
+      "准则5"
+    ],
+    "body": "少盐少油，控糖限酒 "
+  },
+  {
+    "id": "dietary_general_6",
+    "condition_zh": "膳食指南-6",
+    "condition_en": "Dietary Guidelines",
+    "category": "dietary_guideline",
+    "regions": [
+      "全国"
+    ],
+    "dietary": {
+      "type": "general",
+      "number": 6,
+      "title": "规律进餐，足量饮水",
+      "description": "",
+      "recommendations": [],
+      "source": "中国营养学会",
+      "year": ""
+    },
+    "keywords": [
+      "膳食指南",
+      "营养",
+      "准则6"
+    ],
+    "body": "规律进餐，足量饮水 "
+  },
+  {
+    "id": "dietary_general_7",
+    "condition_zh": "膳食指南-7",
+    "condition_en": "Dietary Guidelines",
+    "category": "dietary_guideline",
+    "regions": [
+      "全国"
+    ],
+    "dietary": {
+      "type": "general",
+      "number": 7,
+      "title": "会烹会选，会看标签",
+      "description": "",
+      "recommendations": [],
+      "source": "中国营养学会",
+      "year": ""
+    },
+    "keywords": [
+      "膳食指南",
+      "营养",
+      "准则7"
+    ],
+    "body": "会烹会选，会看标签 "
+  },
+  {
+    "id": "dietary_general_8",
+    "condition_zh": "膳食指南-8",
+    "condition_en": "Dietary Guidelines",
+    "category": "dietary_guideline",
+    "regions": [
+      "全国"
+    ],
+    "dietary": {
+      "type": "general",
+      "number": 8,
+      "title": "公筷分餐，杜绝浪费",
+      "description": "",
+      "recommendations": [],
+      "source": "中国营养学会",
+      "year": ""
+    },
+    "keywords": [
+      "膳食指南",
+      "营养",
+      "准则8"
+    ],
+    "body": "公筷分餐，杜绝浪费 "
+  },
+  {
+    "id": "dietary_pyramid",
+    "condition_zh": "中国居民膳食宝塔",
+    "condition_en": "Food Pyramid",
+    "category": "dietary_pyramid",
+    "regions": [
+      "全国"
+    ],
+    "dietary": {
+      "type": "pyramid",
+      "levels": [
+        {
+          "level": 1,
+          "name": "谷薯类",
+          "amount": "200-300g",
+          "recommendations": "全谷物和杂豆50-150g，薯类50-100g"
+        },
+        {
+          "level": 2,
+          "name": "蔬菜水果类",
+          "amount": "300-500g蔬菜+200-350g水果",
+          "recommendations": "深色蔬菜占1/2，天天吃水果"
+        },
+        {
+          "level": 3,
+          "name": "动物性食物",
+          "amount": "120-200g",
+          "recommendations": "每天一个蛋，适量选择鱼禽肉"
+        },
+        {
+          "level": 4,
+          "name": "奶类大豆坚果",
+          "amount": "300-500ml奶+25-35g大豆+10-15g坚果",
+          "recommendations": "吃各种各样的奶制品"
+        },
+        {
+          "level": 5,
+          "name": "烹调油盐",
+          "amount": "25-30g油+<5g盐",
+          "recommendations": "培养清淡口味"
+        },
+        {
+          "level": 6,
+          "name": "身体活动和水",
+          "amount": "1500-1700ml水+6000步",
+          "recommendations": "主动身体活动"
+        }
+      ],
+      "source": "中国营养学会",
+      "year": ""
+    },
+    "keywords": [
+      "膳食宝塔",
+      "平衡膳食",
+      "食物推荐"
+    ],
+    "body": "[{\"level\": 1, \"name\": \"谷薯类\", \"amount\": \"200-300g\", \"recommendations\": \"全谷物和杂豆50-150g，薯类50-100g\"}, {\"level\": 2, \"name\": \"蔬菜水果类\", \"amount\": \"300-500g蔬菜+200-350g水果\", \"recommendations\": \"深色蔬菜占1/2，天天吃水果\"}, {\"level\": 3, \"name\": \"动物性食物\", \"amount\": \"120-200g\", \"recommendations\": \"每天一个蛋，适量选择鱼禽肉\"}, {\"level\": 4, \"name\": \"奶类大豆坚果\", \"amount\": \"300-500ml奶+25-35g大豆+10-15g坚果\", \"recommendations\": \"吃各种各样的奶制品\"}, {\"level\": 5, \"name\": \"烹调油盐\", \"amount\": \"25-30g油+<5g盐\", \"recommendations\": \"培养清淡口味\"}, {\"level\": 6, \"name\": \"身体活动和水\", \"amount\": \"1500-1700ml水+6000步\", \"recommendations\": \"主动身体活动\"}]"
+  },
+  {
+    "id": "dietary_nutrition_standards",
+    "condition_zh": "中国居民膳食营养素参考摄入量",
+    "condition_en": "Dietary Reference Intakes",
+    "category": "nutrition_standards",
+    "regions": [
+      "全国"
+    ],
+    "dietary": {
+      "type": "nutrition",
+      "standards": [],
+      "source": "",
+      "year": ""
+    },
+    "keywords": [
+      "营养素",
+      "参考摄入量",
+      "DRIs"
+    ],
+    "body": "[]"
+  }
+]

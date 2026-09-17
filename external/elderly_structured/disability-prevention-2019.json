@@ -1,0 +1,562 @@
+[
+ {
+  "id": "elderly-disability-prevention-2019-1",
+  "condition_zh": "提高老年人健康素养",
+  "condition_en": "Enhancing health literacy in the elderly",
+  "category": "elderly_care",
+  "prevention": [
+   "正确认识衰老",
+   "树立积极老龄观",
+   "获取健康知识和技能",
+   "慎重选用保健品"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "老年失能预防核心信息(国卫办老龄函〔2019〕689号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/18/content_5453051.htm"
+   }
+  ],
+  "keywords": [
+   "健康素养",
+   "老龄观",
+   "健康知识",
+   "保健品",
+   "Elderly health literacy",
+   "Positive aging view",
+   "Health knowledge",
+   "Health products",
+   "Elderly health literacy",
+   "Positive aging view",
+   "Health knowledge",
+   "Health products"
+  ]
+ },
+ {
+  "id": "elderly-disability-prevention-2019-2",
+  "condition_zh": "改善营养状况",
+  "condition_en": "Improving nutritional status",
+  "category": "elderly_care",
+  "prevention": [
+   "合理膳食",
+   "均衡营养",
+   "营养状况筛查",
+   "营养补充剂"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "老年失能预防核心信息(国卫办老龄函〔2019〕689号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/18/content_5453051.htm"
+   }
+  ],
+  "keywords": [
+   "营养状况",
+   "合理膳食",
+   "均衡营养",
+   "营养筛查",
+   "营养补充",
+   "Nutritional status",
+   "Balanced diet",
+   "Nutritional balance",
+   "Nutritional screening",
+   "Nutritional supplements"
+  ]
+ },
+ {
+  "id": "elderly-disability-prevention-2019-3",
+  "condition_zh": "改善骨骼肌肉功能",
+  "condition_en": "Improving skeletal muscle function",
+  "category": "elderly_care",
+  "prevention": [
+   "户外活动",
+   "体育锻炼",
+   "增强平衡力",
+   "耐力",
+   "灵活性",
+   "肌肉强度"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "老年失能预防核心信息(国卫办老龄函〔2019〕689号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/18/content_5453051.htm"
+   }
+  ],
+  "keywords": [
+   "骨骼肌肉",
+   "户外活动",
+   "体育锻炼",
+   "平衡力",
+   "耐力",
+   "灵活性",
+   "Muscle strength",
+   "Outdoor activities",
+   "Physical exercise",
+   "Balance",
+   "Endurance",
+   "Flexibility",
+   "Muscle strength"
+  ]
+ },
+ {
+  "id": "elderly-disability-prevention-2019-4",
+  "condition_zh": "进行预防接种",
+  "condition_en": "Vaccination",
+  "category": "elderly_care",
+  "prevention": [
+   "肺炎球菌疫苗",
+   "带状疱疹疫苗",
+   "流感疫苗"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "老年失能预防核心信息(国卫办老龄函〔2019〕689号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/18/content_5453051.htm"
+   }
+  ],
+  "keywords": [
+   "疫苗接种",
+   "肺炎球菌",
+   "带状疱疹",
+   "流感疫苗",
+   "Vaccination",
+   "Pneumococcal vaccine",
+   "Herpes zoster vaccine",
+   "Influenza vaccine"
+  ]
+ },
+ {
+  "id": "elderly-disability-prevention-2019-5",
+  "condition_zh": "预防跌倒",
+  "condition_en": "Preventing falls",
+  "category": "elderly_care",
+  "prevention": [
+   "增强防跌意识",
+   "学习防跌常识",
+   "跌倒风险评估",
+   "干预风险因素"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "老年失能预防核心信息(国卫办老龄函〔2019〕689号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/18/content_5453051.htm"
+   }
+  ],
+  "keywords": [
+   "跌倒预防",
+   "防跌意识",
+   "防跌知识",
+   "风险评估",
+   "风险干预",
+   "Falling prevention",
+   "Falling awareness",
+   "Falling knowledge",
+   "Risk assessment",
+   "Risk intervention"
+  ]
+ },
+ {
+  "id": "elderly-disability-prevention-2019-6",
+  "condition_zh": "关注心理健康",
+  "condition_en": "Mental health",
+  "category": "elderly_care",
+  "prevention": [
+   "保持良好心态",
+   "自我调适",
+   "识别不良情绪",
+   "痴呆早期表现",
+   "寻求帮助"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "老年失能预防核心信息(国卫办老龄函〔2019〕689号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/18/content_5453051.htm"
+   }
+  ],
+  "keywords": [
+   "心理健康",
+   "良好心态",
+   "自我调适",
+   "不良情绪",
+   "痴呆",
+   "Mental health",
+   "Positive mindset",
+   "Self-regulation",
+   "Negative emotions",
+   "Dementia"
+  ]
+ },
+ {
+  "id": "elderly-disability-prevention-2019-7",
+  "condition_zh": "维护社会功能",
+  "condition_en": "Maintaining social function",
+  "category": "elderly_care",
+  "prevention": [
+   "参加社交活动",
+   "丰富老年生活",
+   "避免社会隔离"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "老年失能预防核心信息(国卫办老龄函〔2019〕689号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/18/content_5453051.htm"
+   }
+  ],
+  "keywords": [
+   "社会功能",
+   "社交活动",
+   "老年生活",
+   "社会隔离",
+   "Social function",
+   "Social activities",
+   "Elderly life",
+   "Social isolation"
+  ]
+ },
+ {
+  "id": "elderly-disability-prevention-2019-8",
+  "condition_zh": "管理老年常见疾病及老年综合征",
+  "condition_en": "Managing common diseases and syndromes in the elderly",
+  "category": "elderly_care",
+  "prevention": [
+   "定期体检",
+   "管理血压血糖血脂",
+   "早期发现心脑血管病",
+   "骨关节病",
+   "慢阻肺"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "老年失能预防核心信息(国卫办老龄函〔2019〕689号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/18/content_5453051.htm"
+   }
+  ],
+  "keywords": [
+   "常见疾病",
+   "心脑血管病",
+   "骨关节病",
+   "慢阻肺",
+   "老年综合征",
+   "Common diseases",
+   "Cardiovascular diseases",
+   "Osteoarthritis",
+   "Chronic obstructive pulmonary disease",
+   "Elderly syndromes"
+  ]
+ },
+ {
+  "id": "elderly-disability-prevention-2019-9",
+  "condition_zh": "科学合理用药",
+  "condition_en": "Scientific and rational medication",
+  "category": "elderly_care",
+  "prevention": [
+   "遵医嘱用药",
+   "了解适应证禁忌证",
+   "关注多重用药",
+   "用药期间不良反应"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "老年失能预防核心信息(国卫办老龄函〔2019〕689号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/18/content_5453051.htm"
+   }
+  ],
+  "keywords": [
+   "合理用药",
+   "遵医嘱",
+   "适应证",
+   "禁忌证",
+   "多重用药",
+   "Rational medication",
+   "Follow medical advice",
+   "Indications",
+   "Contraindications",
+   "Polypharmacy"
+  ]
+ },
+ {
+  "id": "elderly-disability-prevention-2019-10",
+  "condition_zh": "避免绝对静养",
+  "condition_en": "Avoiding absolute rest",
+  "category": "elderly_care",
+  "prevention": [
+   "坚持体力活动",
+   "避免长期卧床",
+   "避免绝对静养"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "老年失能预防核心信息(国卫办老龄函〔2019〕689号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/18/content_5453051.htm"
+   }
+  ],
+  "keywords": [
+   "绝对静养",
+   "体力活动",
+   "长期卧床",
+   "Avoiding absolute rest",
+   "Physical activity",
+   "Long-term bed rest"
+  ]
+ },
+ {
+  "id": "elderly-disability-prevention-2019-11",
+  "condition_zh": "重视功能康复",
+  "condition_en": "Emphasizing functional rehabilitation",
+  "category": "elderly_care",
+  "prevention": [
+   "康复治疗与训练",
+   "辅具配置",
+   "改善和代偿功能"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "老年失能预防核心信息(国卫办老龄函〔2019〕689号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/18/content_5453051.htm"
+   }
+  ],
+  "keywords": [
+   "功能康复",
+   "康复治疗",
+   "辅具",
+   "功能改善",
+   "Functional rehabilitation",
+   "Rehabilitation treatment",
+   "Aids",
+   "Functional improvement"
+  ]
+ },
+ {
+  "id": "elderly-disability-prevention-2019-12",
+  "condition_zh": "早期识别失能高危人群",
+  "condition_en": "Early identification of high-risk groups for disability",
+  "category": "elderly_care",
+  "prevention": [
+   "高龄",
+   "新近出院",
+   "功能下降",
+   "老年综合评估",
+   "尽早就诊"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "老年失能预防核心信息(国卫办老龄函〔2019〕689号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/18/content_5453051.htm"
+   }
+  ],
+  "keywords": [
+   "失能高危",
+   "高龄",
+   "功能下降",
+   "综合评估",
+   "早期就诊",
+   "Disability high risk",
+   "High age",
+   "Functional decline",
+   "Comprehensive assessment",
+   "Early medical consultation"
+  ]
+ },
+ {
+  "id": "elderly-disability-prevention-2019-13",
+  "condition_zh": "尊重老年人的养老意愿",
+  "condition_en": "Respecting the elderly's wishes for old age care",
+  "category": "elderly_care",
+  "prevention": [
+   "居住熟悉环境",
+   "选择居住场所",
+   "选择照护人员"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "老年失能预防核心信息(国卫办老龄函〔2019〕689号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/18/content_5453051.htm"
+   }
+  ],
+  "keywords": [
+   "养老意愿",
+   "居住环境",
+   "居住场所",
+   "照护人员",
+   "Elderly care wishes",
+   "Living environment",
+   "Living place",
+   "Caregivers"
+  ]
+ },
+ {
+  "id": "elderly-disability-prevention-2019-14",
+  "condition_zh": "重视生活环境安全",
+  "condition_en": "Emphasizing the safety of the living environment",
+  "category": "elderly_care",
+  "prevention": [
+   "社区家庭适老化改造",
+   "水电气设施安全",
+   "报警装置安装"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "老年失能预防核心信息(国卫办老龄函〔2019〕689号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/18/content_5453051.htm"
+   }
+  ],
+  "keywords": [
+   "生活环境",
+   "适老化改造",
+   "水电气安全",
+   "报警装置",
+   "Living environment",
+   "Aging-friendly transformation",
+   "Water, electricity, and gas safety",
+   "Alarm devices"
+  ]
+ },
+ {
+  "id": "elderly-disability-prevention-2019-15",
+  "condition_zh": "提高照护能力",
+  "condition_en": "Improving care capacity",
+  "category": "elderly_care",
+  "prevention": [
+   "专业照护培训",
+   "心理关怀",
+   "干预照护人员"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "老年失能预防核心信息(国卫办老龄函〔2019〕689号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/18/content_5453051.htm"
+   }
+  ],
+  "keywords": [
+   "照护能力",
+   "专业培训",
+   "心理关怀",
+   "照护人员",
+   "Care capacity",
+   "Professional training",
+   "Mental care",
+   "Caregivers"
+  ]
+ },
+ {
+  "id": "elderly-disability-prevention-2019-16",
+  "condition_zh": "营造老年友好氛围",
+  "condition_en": "Creating a senior-friendly atmosphere",
+  "category": "elderly_care",
+  "prevention": [
+   "关注老年人健康",
+   "传承美德",
+   "建设友好社会环境"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "老年失能预防核心信息(国卫办老龄函〔2019〕689号)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.gov.cn/zhengce/zhengceku/2019-11/18/content_5453051.htm"
+   }
+  ],
+  "keywords": [
+   "老年友好",
+   "健康关注",
+   "美德传承",
+   "友好环境",
+   "Senior-friendly",
+   "Health care",
+   "Virtue inheritance",
+   "Friendly environment"
+  ]
+ }
+]

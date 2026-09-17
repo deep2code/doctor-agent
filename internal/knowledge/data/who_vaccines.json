@@ -1,0 +1,741 @@
+[
+ {
+  "id": "who-vaccine-hepatitis-b",
+  "condition_zh": "乙型肝炎疫苗",
+  "condition_en": "Hepatitis B vaccine",
+  "category": "vaccine",
+  "regions": [
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [],
+   "clinical_features": [
+    "新生儿、婴幼儿、高危人群"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "3剂次，间隔4-6周",
+    "indication": "新生儿、婴幼儿、高危人群",
+    "evidence_level": "international_guideline"
+   }
+  ],
+  "differential_diagnosis": [],
+  "risk_factors": [
+   "HBsAg阳性母亲所生婴儿、HBV感染者、血液透析患者、多性伴侣者、注射毒品者、医务人员等"
+  ],
+  "complications": [
+   "发热、皮疹、关节痛、恶心、呕吐、腹泻、过敏反应等"
+  ],
+  "prevention": [
+   "新生儿出生后24小时内接种首剂疫苗，随后按程序完成后续剂次接种"
+  ],
+  "citations": [
+   {
+    "type": "who_position_paper",
+    "title": "Hepatitis B vaccines: WHO position paper – July 2017",
+    "journal": "",
+    "year": 2017,
+    "doi": "",
+    "pmid": "",
+    "level": "international_guideline",
+    "url": "https://www.who.int/publications/i/item/WER9227"
+   }
+  ],
+  "keywords": [
+   "乙型肝炎",
+   "疫苗",
+   "预防",
+   "新生儿",
+   "婴幼儿",
+   "高危人群",
+   "HBV",
+   "WHO",
+   "乙肝疫苗",
+   "乙肝预防针",
+   "乙肝抗体"
+  ]
+ },
+ {
+  "id": "who-vaccine-japanese-encephalitis",
+  "condition_zh": "乙型脑炎疫苗",
+  "condition_en": "Japanese Encephalitis Vaccine",
+  "category": "vaccine",
+  "regions": [
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [],
+   "clinical_features": [
+    "生活在稻田附近或拥有猪的家庭成员或邻居",
+    "儿童和未接种疫苗的老年人"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "2剂次间隔4周",
+    "indication": "生活在乙型脑炎流行区的人群",
+    "evidence_level": "international_guideline"
+   }
+  ],
+  "differential_diagnosis": [],
+  "risk_factors": [
+   "生活在稻田附近或拥有猪的家庭成员或邻居"
+  ],
+  "complications": [
+   "无特定不良反应"
+  ],
+  "prevention": [
+   "接种乙型脑炎疫苗以预防疾病"
+  ],
+  "citations": [
+   {
+    "type": "who_position_paper",
+    "title": "Japanese Encephalitis Vaccines: WHO position paper – February 2015",
+    "journal": "",
+    "year": 2015,
+    "doi": "",
+    "pmid": "",
+    "level": "international_guideline",
+    "url": "https://www.who.int/publications/i/item/who-wer9009-69-88"
+   }
+  ],
+  "keywords": [
+   "乙型脑炎",
+   "疫苗",
+   "预防",
+   "接种",
+   "日本脑炎",
+   "Japanese Encephalitis",
+   "immunization",
+   "vaccination",
+   "public health",
+   "乙脑疫苗",
+   "乙型脑炎疫苗",
+   "流脑"
+  ]
+ },
+ {
+  "id": "who-vaccine-hpv",
+  "condition_zh": "人乳头瘤病毒疫苗",
+  "condition_en": "Human Papillomavirus (HPV) Vaccine",
+  "category": "vaccine",
+  "regions": [
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [],
+   "clinical_features": [
+    "女性、青少年、性活跃人群"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "2剂次间隔4周",
+    "indication": "预防HPV相关疾病",
+    "evidence_level": "international_guideline"
+   }
+  ],
+  "differential_diagnosis": [],
+  "risk_factors": [
+   "高危人群、性活跃人群"
+  ],
+  "complications": [
+   "不良反应"
+  ],
+  "prevention": [
+   "预防HPV相关疾病"
+  ],
+  "citations": [
+   {
+    "type": "who_position_paper",
+    "title": "人乳头瘤病毒疫苗立场文件",
+    "journal": "",
+    "year": 2009,
+    "doi": "",
+    "pmid": "",
+    "level": "international_guideline",
+    "url": "https://www.who.int/publications/i/item/who-wer9750-645-672"
+   }
+  ],
+  "keywords": [
+   "HPV疫苗",
+   "人乳头瘤病毒",
+   "预防",
+   "青少年",
+   "女性",
+   "性传播疾病",
+   "宫颈癌",
+   "疫苗",
+   "宫颈癌疫苗",
+   "hpv疫苗",
+   "九价",
+   "二价",
+   "四价"
+  ]
+ },
+ {
+  "id": "who-vaccine-typhoid",
+  "condition_zh": "伤寒疫苗",
+  "condition_en": "Typhoid vaccine",
+  "category": "vaccine",
+  "regions": [
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [
+    "血培养"
+   ],
+   "clinical_features": [
+    "发热、腹痛、不适、头痛"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "接种程序待补充",
+    "indication": "待补充",
+    "evidence_level": "international_guideline"
+   }
+  ],
+  "differential_diagnosis": [],
+  "risk_factors": [
+   "缺乏安全饮用水和适当卫生设施的人群、食品处理人员、高人口密度和拥挤、社会经济地位低、低识字率、临床微生物学实验室工作人员"
+  ],
+  "complications": [
+   "肠出血、肠穿孔、脑病伴血流动力学休克"
+  ],
+  "prevention": [
+   "接种伤寒疫苗"
+  ],
+  "citations": [
+   {
+    "type": "who_position_paper",
+    "title": "伤寒疫苗：世界卫生组织立场文件",
+    "journal": "",
+    "year": 2018,
+    "doi": "",
+    "pmid": "",
+    "level": "international_guideline",
+    "url": "https://www.who.int/publications/i/item/typhoid-vaccines-who-position-paper-march-2018"
+   }
+  ],
+  "keywords": [
+   "伤寒疫苗",
+   "伤寒",
+   "疫苗",
+   "预防",
+   "治疗",
+   "WHO",
+   "世界卫生组织",
+   "伤寒杆菌",
+   "伤寒预防"
+  ]
+ },
+ {
+  "id": "who-vaccine-influenza",
+  "condition_zh": "流感疫苗",
+  "condition_en": "influenza vaccine",
+  "category": "vaccine",
+  "regions": [
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [],
+   "clinical_features": [
+    "老年人",
+    "孕妇",
+    "产后2周以内的妇女",
+    "59个月以下的儿童",
+    "19岁以下长期服用含阿司匹林或水杨酸盐药物的人",
+    "体重指数大于等于40的人",
+    "患有慢性心脏病、哮喘、慢性肺病、慢性肾病、代谢疾病、内分泌疾病（例如糖尿病）、神经系统疾病和神经发育疾病、肝病、血液系统疾病和免疫抑制疾病（如艾滋病毒/艾滋病）的人",
+    "卫生工作者"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "每年接种1剂流感疫苗（6月龄-8岁儿童首次接种2剂，间隔至少4周）",
+    "indication": "所有6月龄及以上人群，优先：医务人员、孕妇、老年人、慢性病患者、儿童",
+    "evidence_level": "international_guideline"
+   }
+  ],
+  "differential_diagnosis": [],
+  "risk_factors": [
+   "患有严重流感或并发症的风险特别高的群体",
+   "接触或传播流感病毒的风险增加的群体"
+  ],
+  "complications": [
+   "注射部位的轻微疼痛",
+   "全身症状包括低热、不适、头痛、肌痛和疲劳",
+   "热性惊厥",
+   "吉兰-巴雷综合征",
+   "发作性睡病",
+   "过敏反应",
+   "眼相关呼吸综合征",
+   "喘息"
+  ],
+  "prevention": [
+   "所有国家都应考虑实施季节性流感免疫规划",
+   "目标群体的选择",
+   "选择疫苗",
+   "接种和剂量",
+   "禁忌症",
+   "同时接种",
+   "监测",
+   "研究重点",
+   "实施研究"
+  ],
+  "citations": [
+   {
+    "type": "who_position_paper",
+    "title": "流感疫苗：世卫组织立场文件——2022年5月",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "international_guideline",
+    "url": "https://www.who.int/publications/i/item/who-wer9719"
+   }
+  ],
+  "keywords": [
+   "流感疫苗",
+   "流感",
+   "疫苗接种",
+   "预防",
+   "治疗",
+   "安全性",
+   "禁忌症",
+   "儿童",
+   "成人",
+   "老年人",
+   "孕妇",
+   "卫生工作者",
+   "流感针",
+   "防流感",
+   "感冒疫苗"
+  ]
+ },
+ {
+  "id": "who-vaccine-rabies",
+  "condition_zh": "狂犬病疫苗",
+  "condition_en": "Rabies vaccine",
+  "category": "vaccine",
+  "regions": [
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [],
+   "clinical_features": [
+    "暴露于疑似狂犬病动物或病毒"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "伤口彻底清洗后，及时接种狂犬病疫苗，必要时伤口周围注射狂犬病免疫球蛋白",
+    "indication": "暴露于疑似狂犬病动物或病毒",
+    "evidence_level": "international_guideline"
+   }
+  ],
+  "differential_diagnosis": [],
+  "risk_factors": [
+   "暴露于疑似狂犬病动物或病毒"
+  ],
+  "complications": [
+   "伤口感染，神经系统并发症"
+  ],
+  "prevention": [
+   "预防性接种，针对高风险人群"
+  ],
+  "citations": [
+   {
+    "type": "who_position_paper",
+    "title": "狂犬病疫苗：世界卫生组织立场文件 – 2018年4月",
+    "journal": "",
+    "year": 2018,
+    "doi": "",
+    "pmid": "",
+    "level": "international_guideline",
+    "url": "https://www.who.int/publications/i/item/who-wer9324"
+   }
+  ],
+  "keywords": [
+   "狂犬病疫苗",
+   "狂犬病",
+   "预防接种",
+   "暴露后预防",
+   "免疫球蛋白",
+   "狂犬疫苗",
+   "狗咬",
+   "暴露后接种",
+   "打狂犬针"
+  ]
+ },
+ {
+  "id": "who-vaccine-dengue",
+  "condition_zh": "登革热疫苗",
+  "condition_en": "Dengue vaccine",
+  "category": "vaccine",
+  "regions": [
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [
+    "病毒分离",
+    "RT-PCR",
+    "NS1抗原检测",
+    "ELISA",
+    "RDTs"
+   ],
+   "clinical_features": [
+    "发热",
+    "头痛",
+    "眼眶痛",
+    "肌痛",
+    "关节炎",
+    "面部潮红",
+    "厌食",
+    "腹痛",
+    "恶心",
+    "皮疹",
+    "白细胞减少",
+    "血小板减少"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "2剂次间隔4周",
+    "indication": "预防登革热",
+    "evidence_level": "international_guideline"
+   }
+  ],
+  "differential_diagnosis": [],
+  "risk_factors": [
+   "既往登革热感染史",
+   "不同血清型登革热感染",
+   "遗传背景",
+   "年龄"
+  ],
+  "complications": [
+   "登革出血热",
+   "登革休克综合征"
+  ],
+  "prevention": [
+   "接种疫苗",
+   "个人防护措施"
+  ],
+  "citations": [
+   {
+    "type": "who_position_paper",
+    "title": "登革热疫苗：世界卫生组织立场文件",
+    "journal": "",
+    "year": 2018,
+    "doi": "",
+    "pmid": "",
+    "level": "international_guideline",
+    "url": "https://www.who.int/publications/i/item/who-wer9335"
+   }
+  ],
+  "keywords": [
+   "登革热",
+   "疫苗",
+   "预防",
+   "治疗",
+   "WHO",
+   "Dengue",
+   "vaccine",
+   "prevention",
+   "treatment",
+   "登革热疫苗",
+   "登革疫苗"
+  ]
+ },
+ {
+  "id": "who-vaccine-tetanus-diphtheria",
+  "condition_zh": "破伤风和白喉疫苗",
+  "condition_en": "Tetanus and Diphtheria Vaccine",
+  "category": "vaccine",
+  "regions": [
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [],
+   "clinical_features": [
+    "新生儿、母亲、受伤儿童和成人"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "5剂次，婴儿期3剂，4-7岁和12-15岁各加强1剂",
+    "indication": "新生儿、母亲、受伤儿童和成人",
+    "evidence_level": "international_guideline"
+   }
+  ],
+  "differential_diagnosis": [],
+  "risk_factors": [
+   "新生儿、母亲、受伤儿童和成人"
+  ],
+  "complications": [
+   "无"
+  ],
+  "prevention": [
+   "新生儿、母亲、受伤儿童和成人应接种"
+  ],
+  "citations": [
+   {
+    "type": "who_position_paper",
+    "title": "破伤风和白喉疫苗立场文件",
+    "journal": "",
+    "year": 2006,
+    "doi": "",
+    "pmid": "",
+    "level": "international_guideline",
+    "url": "https://www.who.int/publications/i/item/who-wer9206"
+   }
+  ],
+  "keywords": [
+   "破伤风",
+   "白喉",
+   "疫苗",
+   "免疫",
+   "预防",
+   "破伤风疫苗",
+   "破伤风针",
+   "百白破",
+   "白喉疫苗"
+  ]
+ },
+ {
+  "id": "who-vaccine-pneumococcal",
+  "condition_zh": "肺炎球菌疫苗",
+  "condition_en": "Pneumococcal conjugate vaccine",
+  "category": "vaccine",
+  "regions": [
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [],
+   "clinical_features": [
+    "婴幼儿及5岁以下儿童"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "PCV10或PCV13，2剂次间隔4周",
+    "indication": "婴幼儿及5岁以下儿童",
+    "evidence_level": "international_guideline"
+   }
+  ],
+  "differential_diagnosis": [],
+  "risk_factors": [
+   "婴幼儿及5岁以下儿童"
+  ],
+  "complications": [
+   "不良反应"
+  ],
+  "prevention": [
+   "预防肺炎球菌感染"
+  ],
+  "citations": [
+   {
+    "type": "who_position_paper",
+    "title": "肺炎球菌结合疫苗在婴幼儿及5岁以下儿童中的应用：世界卫生组织立场文件",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "international_guideline",
+    "url": "https://www.who.int/publications/i/item/10665-310968"
+   }
+  ],
+  "keywords": [
+   "肺炎球菌疫苗",
+   "PCV",
+   "婴幼儿",
+   "儿童",
+   "预防",
+   "疫苗",
+   "WHO",
+   "立场文件",
+   "肺炎疫苗",
+   "13价",
+   "23价"
+  ]
+ },
+ {
+  "id": "who-vaccine-rotavirus",
+  "condition_zh": "轮状病毒疫苗",
+  "condition_en": "Rotavirus vaccine",
+  "category": "vaccine",
+  "regions": [
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [],
+   "clinical_features": [
+    "婴幼儿"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "2剂次间隔4周",
+    "indication": "婴幼儿",
+    "evidence_level": "international_guideline"
+   }
+  ],
+  "differential_diagnosis": [],
+  "risk_factors": [
+   "婴幼儿"
+  ],
+  "complications": [
+   "腹泻、呕吐、脱水"
+  ],
+  "prevention": [
+   "预防婴幼儿轮状病毒感染"
+  ],
+  "citations": [
+   {
+    "type": "who_position_paper",
+    "title": "轮状病毒疫苗：世界卫生组织立场文件",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "international_guideline",
+    "url": "https://www.who.int/publications/i/item/who-wer9628"
+   }
+  ],
+  "keywords": [
+   "轮状病毒",
+   "疫苗",
+   "婴幼儿",
+   "腹泻",
+   "脱水",
+   "WHO",
+   "立场文件",
+   "轮状病毒疫苗",
+   "秋季腹泻",
+   "口服疫苗"
+  ]
+ },
+ {
+  "id": "who-vaccine-cholera",
+  "condition_zh": "霍乱疫苗",
+  "condition_en": "cholera vaccine",
+  "category": "vaccine",
+  "regions": [
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [],
+   "clinical_features": [
+    "高风险人群，如旅行者、居住在霍乱流行区的人群"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "2剂次间隔4周",
+    "indication": "高风险人群，如旅行者、居住在霍乱流行区的人群",
+    "evidence_level": "international_guideline"
+   }
+  ],
+  "differential_diagnosis": [],
+  "risk_factors": [
+   "高风险人群，如旅行者、居住在霍乱流行区的人群"
+  ],
+  "complications": [
+   "不良反应包括发热、头痛、恶心、呕吐、腹泻等"
+  ],
+  "prevention": [
+   "接种建议：高风险人群应接种霍乱疫苗"
+  ],
+  "citations": [
+   {
+    "type": "who_position_paper",
+    "title": "Cholera vaccines: WHO position paper – August 2017",
+    "journal": "",
+    "year": 2017,
+    "doi": "",
+    "pmid": "",
+    "level": "international_guideline",
+    "url": "https://www.who.int/publications/i/item/who-wer9234-477-500"
+   }
+  ],
+  "keywords": [
+   "霍乱疫苗",
+   "cholera vaccine",
+   "旅行者",
+   "流行区",
+   "预防",
+   "霍乱预防"
+  ]
+ },
+ {
+  "id": "who-vaccine-measles",
+  "condition_zh": "麻疹疫苗",
+  "condition_en": "measles vaccine",
+  "category": "vaccine",
+  "regions": [
+   "全国"
+  ],
+  "diagnosis": {
+   "lab_tests": [],
+   "clinical_features": [
+    "婴幼儿、学龄前儿童、青少年和年轻人"
+   ],
+   "gold_standard": ""
+  },
+  "treatment": [
+   {
+    "method": "2剂次间隔4周",
+    "indication": "婴幼儿、学龄前儿童、青少年和年轻人",
+    "evidence_level": "international_guideline"
+   }
+  ],
+  "differential_diagnosis": [],
+  "risk_factors": [
+   "营养不良、维生素A缺乏、免疫缺陷（如HIV）"
+  ],
+  "complications": [
+   "中耳炎、喉气管支气管炎、腹泻、肺炎、脑炎、亚急性硬化性全脑炎、巨细胞肺炎、维生素A缺乏症、失明"
+  ],
+  "prevention": [
+   "提高疫苗接种率、加强公共卫生措施"
+  ],
+  "citations": [
+   {
+    "type": "who_position_paper",
+    "title": "麻疹疫苗：世界卫生组织立场文件 – 2017年4月",
+    "journal": "",
+    "year": 2017,
+    "doi": "",
+    "pmid": "",
+    "level": "international_guideline",
+    "url": "https://www.who.int/publications/i/item/who-wer9217-205-227"
+   }
+  ],
+  "keywords": [
+   "麻疹疫苗",
+   "麻疹",
+   "疫苗接种",
+   "预防",
+   "并发症",
+   "高危人群",
+   "禁忌症",
+   "保护效力",
+   "全球卫生",
+   "麻腮风",
+   "麻风腮"
+  ]
+ }
+]

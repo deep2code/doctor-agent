@@ -1,0 +1,186 @@
+package llm
+
+import (
+	"context"
+	"fmt"
+	"net/http"
+	"time"
+)
+
+const deepseekBaseURL = "https://api.deepseek.com/v1"
+
+// DeepSeekProvider implements LLMProvider using the DeepSeek API.
+// DeepSeek follows an OpenAI-compatible format.
+type DeepSeekProvider struct {
+	apiKey string
+	model  string
+	// visionModel handles image-carrying requests (DeepSeek mainline text
+	// models reject image input). Empty = send images to the main model.
+	visionModel string
+	maxTokens   int
+	temperature float64
+	httpClient  *http.Client
+	// thinkingDisabled disables DeepSeek V4's chain-of-thought mode. Set
+	// true for fast deterministic sub-tasks (query understanding, judge)
+	// where reasoning is wasteful and can exhaust max_tokens before the
+	// final answer.
+	thinkingDisabled bool
+}
+
+// NewDeepSeekProvider creates a DeepSeek-backed LLM provider.
+// visionModel may be empty to route images to the main model.
+func NewDeepSeekProvider(apiKey, model, visionModel string, maxTokens int, temperature float64) *DeepSeekProvider {
+	return &DeepSeekProvider{
+		apiKey:      apiKey,
+		model:       model,
+		visionModel: visionModel,
+		maxTokens:   maxTokens,
+		temperature: temperature,
+		httpClient: &http.Client{
+			// 5-minute ceiling: the per-request ctx already enforces the
+			// caller's timeout (e.g. 5min for streaming endpoints), but a
+			// hard client timeout prevents a hung connection from leaking
+			// goroutines if ctx is never cancelled. DeepSeek V4 thinking
+			// streams can run long, so 120s was too short.
+			Timeout: 5 * time.Minute,
+		},
+	}
+}
+
+func (p *DeepSeekProvider) Name() string {
+	if p.visionModel != "" && p.visionModel != p.model {
+		return fmt.Sprintf("DeepSeek (%s, vision: %s)", p.model, p.visionModel)
+	}
+	return fmt.Sprintf("DeepSeek (%s)", p.model)
+}
+
+// Model returns the raw model identifier (used for cost calculation).
+func (p *DeepSeekProvider) Model() string { return p.model }
+
+// WithThinkingDisabled returns a copy of the provider with DeepSeek V4
+// thinking mode disabled. Use for fast deterministic sub-tasks (query
+// understanding, judge verification) where chain-of-thought is wasteful.
+func (p *DeepSeekProvider) WithThinkingDisabled() *DeepSeekProvider {
+	cp := *p
+	cp.thinkingDisabled = true
+	return &cp
+}
+
+// effectiveModel picks the vision model when any message carries an image.
+func (p *DeepSeekProvider) effectiveModel(messages []Message) string {
+	if p.visionModel == "" {
+		return p.model
+	}
+	for i := range messages {
+		if messages[i].HasImages() {
+			return p.visionModel
+		}
+	}
+	return p.model
+}
+
+// --- OpenAI-compatible request/response types ---
+
+type openAIChatRequest struct {
+	Model               string               `json:"model"`
+	Messages            any                  `json:"messages"` // Can be []openAIMessage or []any for multimodal
+	Tools               []openAITool         `json:"tools,omitempty"`
+	Temperature         float64              `json:"temperature,omitempty"`
+	MaxTokens           int                  `json:"max_tokens,omitempty"`
+	MaxCompletionTokens int                  `json:"max_completion_tokens,omitempty"`
+	Stream              bool                 `json:"stream,omitempty"`
+	StreamOptions       *openAIStreamOptions `json:"stream_options,omitempty"`
+	ParallelToolCalls   *bool                `json:"parallel_tool_calls,omitempty"`
+	// Thinking controls DeepSeek V4's thinking mode. Default is "enabled"
+	// on the API side; set to "disabled" for fast deterministic tasks
+	// (query understanding, judge) where chain-of-thought is wasteful.
+	Thinking *openAIThinking `json:"thinking,omitempty"`
+}
+
+// openAIThinking controls DeepSeek V4 thinking mode.
+type openAIThinking struct {
+	Type string `json:"type"` // "enabled" or "disabled"
+}
+
+// openAIStreamOptions controls streaming behavior (OpenAI 2024+ protocol).
+type openAIStreamOptions struct {
+	IncludeUsage bool `json:"include_usage"`
+}
+
+// openAIUsage carries token usage statistics from the API response.
+type openAIUsage struct {
+	PromptTokens     int `json:"prompt_tokens"`
+	CompletionTokens int `json:"completion_tokens"`
+	TotalTokens      int `json:"total_tokens"`
+}
+
+type openAIContentPart struct {
+	Type     string            `json:"type"`
+	Text     string            `json:"text,omitempty"`
+	ImageURL *openAIImageURL   `json:"image_url,omitempty"`
+}
+
+type openAIImageURL struct {
+	URL string `json:"url"`
+}
+
+type openAIMessage struct {
+	Role             string           `json:"role"`
+	Content          string           `json:"content,omitempty"`
+	ReasoningContent string           `json:"reasoning_content,omitempty"`
+	ToolCalls        []openAIToolCall `json:"tool_calls,omitempty"`
+	ToolCallID       string           `json:"tool_call_id,omitempty"`
+}
+
+// openAIMessageWithParts is used for multimodal content.
+type openAIMessageWithParts struct {
+	Role             string              `json:"role"`
+	Content          []openAIContentPart `json:"content"`
+	ReasoningContent string              `json:"reasoning_content,omitempty"`
+	ToolCalls        []openAIToolCall    `json:"tool_calls,omitempty"`
+	ToolCallID       string              `json:"tool_call_id,omitempty"`
+}
+
+type openAITool struct {
+	Type     string              `json:"type"`
+	Function openAIFunctionDef   `json:"function"`
+}
+
+type openAIFunctionDef struct {
+	Name        string         `json:"name"`
+	Description string         `json:"description"`
+	Parameters  map[string]any `json:"parameters"`
+	Strict      *bool          `json:"strict,omitempty"`
+}
+
+type openAIToolCall struct {
+	ID       string             `json:"id"`
+	Type     string             `json:"type"`
+	Function openAIFunctionCall `json:"function"`
+}
+
+type openAIFunctionCall struct {
+	Name      string `json:"name"`
+	Arguments string `json:"arguments"`
+}
+
+type openAIChatResponse struct {
+	Choices []openAIChoice `json:"choices"`
+	Usage   *openAIUsage   `json:"usage,omitempty"`
+}
+
+type openAIChoice struct {
+	Message      openAIMessage `json:"message"`
+	FinishReason string        `json:"finish_reason,omitempty"`
+}
+
+func (p *DeepSeekProvider) Chat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string) (*ChatResponse, error) {
+	return openAIStreamingChat(ctx, p.httpClient, deepseekBaseURL+"/chat/completions",
+		p.apiKey, p.effectiveModel(messages), p.maxTokens, p.temperature, messages, tools, systemPrompt, nil, p.thinkingDisabled)
+}
+
+// StreamChat streams the response, forwarding text deltas to onDelta.
+func (p *DeepSeekProvider) StreamChat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string, onDelta func(string)) (*ChatResponse, error) {
+	return openAIStreamingChat(ctx, p.httpClient, deepseekBaseURL+"/chat/completions",
+		p.apiKey, p.effectiveModel(messages), p.maxTokens, p.temperature, messages, tools, systemPrompt, onDelta, p.thinkingDisabled)
+}

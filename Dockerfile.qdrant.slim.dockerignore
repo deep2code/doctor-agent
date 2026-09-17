@@ -1,0 +1,7 @@
+# Dockerfile.qdrant.slim 专属 dockerignore（白名单式，BuildKit 自动识别，
+# 完全取代根 .dockerignore 对本构建生效）。
+#
+# slim 镜像只需要预烘焙好的 storage 目录，不需要源码、gz、Go 工具链。
+# 白名单只放行 qdrant-storage/ 。
+**
+!qdrant-storage/**

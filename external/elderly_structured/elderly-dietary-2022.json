@@ -1,0 +1,160 @@
+[
+ {
+  "id": "elderly-elderly-dietary-2022-1",
+  "condition_zh": "一般老年人膳食指南",
+  "condition_en": "General Elderly Dietary Guidelines",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "食物品种丰富",
+    "动物性食物充足",
+    "常吃大豆制品",
+    "鼓励共同进餐",
+    "保持良好食欲",
+    "积极户外活动",
+    "延缓肌肉衰减",
+    "保持适宜体重",
+    "定期健康体检",
+    "测评营养状况",
+    "预防营养缺乏"
+   ]
+  },
+  "risk_factors": [
+   "缺乏营养",
+   "不良饮食习惯",
+   "缺乏运动"
+  ],
+  "prevention": [
+   "食物多样",
+   "动物性食物充足",
+   "常吃大豆制品",
+   "鼓励共同进餐",
+   "保持良好食欲",
+   "积极户外活动",
+   "保持适宜体重",
+   "定期健康体检",
+   "测评营养状况",
+   "预防营养缺乏"
+  ],
+  "treatment": [
+   {
+    "name": "膳食调整",
+    "details": "食物品种丰富，动物性食物充足，常吃大豆制品"
+   }
+  ],
+  "when_to_seek_care": [
+   "食欲下降",
+   "体重明显下降",
+   "营养状况不佳"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "中国老年人膳食指南(2022)核心推荐",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/op9MZtpBQHehHCo0SSqsmw.html"
+   }
+  ],
+  "keywords": [
+   "一般老年人膳食",
+   "食物多样",
+   "动物性食物",
+   "大豆制品",
+   "共同进餐",
+   "良好食欲",
+   "户外活动",
+   "肌肉衰减",
+   "适宜体重",
+   "健康体检",
+   "营养状况",
+   "预防营养缺乏"
+  ]
+ },
+ {
+  "id": "elderly-elderly-dietary-2022-2",
+  "condition_zh": "高龄老年人膳食指南",
+  "condition_en": "High-Age Elderly Dietary Guidelines",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "食物多样",
+    "鼓励多种方式进食",
+    "选择质地细软",
+    "能量和营养素密度高",
+    "多吃鱼禽肉蛋奶和豆",
+    "适量蔬菜配水果",
+    "关注体重丢失",
+    "定期营养筛查评估",
+    "预防营养不良",
+    "适时合理补充营养",
+    "提高生活质量",
+    "坚持健身与益智活动",
+    "促进身心健康"
+   ]
+  },
+  "risk_factors": [
+   "营养不良",
+   "饮食习惯不良",
+   "缺乏运动"
+  ],
+  "prevention": [
+   "食物多样",
+   "鼓励多种方式进食",
+   "选择质地细软",
+   "能量和营养素密度高",
+   "多吃鱼禽肉蛋奶和豆",
+   "适量蔬菜配水果",
+   "关注体重丢失",
+   "定期营养筛查评估",
+   "预防营养不良",
+   "适时合理补充营养",
+   "提高生活质量",
+   "坚持健身与益智活动",
+   "促进身心健康"
+  ],
+  "treatment": [
+   {
+    "name": "膳食调整",
+    "details": "食物多样，鼓励多种方式进食，选择质地细软，能量和营养素密度高"
+   }
+  ],
+  "when_to_seek_care": [
+   "体重丢失",
+   "营养不良",
+   "生活质量下降"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "中国老年人膳食指南(2022)核心推荐",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/op9MZtpBQHehHCo0SSqsmw.html"
+   }
+  ],
+  "keywords": [
+   "高龄老年人膳食",
+   "食物多样",
+   "多种方式进食",
+   "质地细软",
+   "能量密度",
+   "营养素密度",
+   "鱼禽肉蛋奶豆",
+   "蔬菜水果",
+   "体重丢失",
+   "营养筛查",
+   "预防营养不良",
+   "补充营养",
+   "生活质量",
+   "健身益智活动",
+   "身心健康"
+  ]
+ }
+]

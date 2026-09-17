@@ -1,0 +1,119 @@
+# Binaries
+doctor-agent
+doctor-agent-linux
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Test binary
+*.test
+
+# Go workspace
+go.work
+
+# Environment
+.env
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+*.csv
+
+# 但允许分割后的语料文件
+!external/medical_dialogue/data_split/*.csv
+
+# Build
+vendor/
+.gocache/
+# 项目构建缓存（Go module cache + Python deps，2026-08-30 起收于项目内）
+.cache/
+
+# Regenerable raw downloads (scripts in external/*.py rebuild these)
+external/medlineplus/
+external/msd_manual/
+external/msd_manual_prof/
+external/position_papers/
+external/evalsets/
+external/hpo/
+external/europepmc/
+external/who_factsheets/
+external/who_factsheets_zh/
+
+# 中国医学数据外部原始数据（可由 external/fetch_china_*.py 重新抓取）
+external/china_cdc/
+external/china_clinical_pathways/
+external/china_cso/
+external/china_dietary/
+external/china_stats/
+external/china_tcm/
+
+# Z-Anatomy 3D 模型（可再生下载，86MB zip；授权见 external/z-anatomy/ATTRIBUTION.md）
+external/z-anatomy/*.zip
+external/z-anatomy/*.zip.*
+external/z-anatomy/work/
+data/media/
+external/clinvar/
+external/pp_structured/
+external/who_factsheets_structured/
+
+# Eval artifacts
+evals/report.json
+__pycache__/
+external/nhc/scanned/
+
+# Regenerable raw downloads (2026-08-09 additions; scripts rebuild these)
+external/aap/
+external/fhs/pages/
+external/immunization/
+
+# Pipeline intermediates & logs (regenerable; scripts in external/*.py)
+external/cdc/jkts/
+external/cdc_structured/
+external/cdc_struct.log
+external/dailymed/
+external/dailymed_fetch.log
+external/dailymed_struct.log
+external/dailymed_structured/
+external/eml/
+
+.cowork-temp/
+.workbuddy/
+remote-deploy.sh
+.dumate/
+
+# 脚本目录（本地工具脚本，不需要版本管理）
+scripts/
+
+# bake-local.sh 产物（烘焙后 COPY 进 Docker 镜像，不需要版本管理）
+qdrant-storage/
+
+# 本机 ONNX 导出产物（bge-m3 fp32 约 2.3GB，external/export_onnx.py 生成）
+bge-m3-onnx/
+external/statpearls/
+external/lactmed/
+external/gomodcache/
+external/medgen/
+external/icd11/
+external/.cache/
+internal/knowledge/data/corpus_statpearls.json
+logs/*.log
+
+# 下载的原始 PDF 素材 (可由 external/fetch_medlinezh.py 重新下载)
+external/medlinezh/
+external/otc_labels/raw/
+# KB 数据镜像的 dump 产物 (397MB, 由 build.sh kb 从本地库导出)
+docker/kb/init-doctor_knowledge.sql.gz

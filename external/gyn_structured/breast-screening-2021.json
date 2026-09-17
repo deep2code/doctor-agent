@@ -1,0 +1,156 @@
+[
+ {
+  "id": "gyn-breast-screening-2021-1",
+  "condition_zh": "乳腺癌筛查策略",
+  "condition_en": "Breast Cancer Screening Strategy",
+  "category": "gyn_health",
+  "diagnosis": {
+   "clinical_features": [
+    "乳腺体检、乳腺彩超检查、乳腺 X 线检查"
+   ]
+  },
+  "risk_factors": [
+   "家族史、月经初潮过早、绝经较晚、未育、晚育及未哺乳、长期服用外源性雌激素、乳腺不典型增生、绝经后肥胖、长期过量饮酒"
+  ],
+  "prevention": [
+   "适龄生育、母乳喂养、健康生活方式、积极治疗乳腺高危病变、定期筛查"
+  ],
+  "treatment": [
+   {
+    "name": "乳腺活检及组织病理学检查",
+    "details": "对BI-RADS分类为4类或5类者进行"
+   }
+  ],
+  "when_to_seek_care": [
+   "筛查结果异常或可疑时"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "乳腺癌筛查工作方案(国卫办妇幼函〔2021〕635号)",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nwccw.gov.cn/2022/02/17/99337480.html"
+   }
+  ],
+  "keywords": [
+   "乳腺癌筛查、BI-RADS、乳腺活检、高危因素、预防措施"
+  ]
+ },
+ {
+  "id": "gyn-breast-screening-2021-2",
+  "condition_zh": "筛查异常管理与随访",
+  "condition_en": "Management and Follow-up of Abnormal Screening",
+  "category": "gyn_health",
+  "diagnosis": {
+   "clinical_features": [
+    "乳腺体检异常、BI-RADS分类0类或3类及以上、乳腺 X 线检查BI-RADS分类0类或3类及以上、病理学检查为恶性病变"
+   ]
+  },
+  "risk_factors": [
+   "筛查结果异常"
+  ],
+  "prevention": [
+   "追踪随访、督促接受进一步诊断及治疗、记录病例相关情况"
+  ],
+  "treatment": [
+   {
+    "name": "进一步诊断及治疗",
+    "details": "督促其尽早接受"
+   }
+  ],
+  "when_to_seek_care": [
+   "筛查结果异常时"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "乳腺癌筛查工作方案(国卫办妇幼函〔2021〕635号)",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nwccw.gov.cn/2022/02/17/99337480.html"
+   }
+  ],
+  "keywords": [
+   "乳腺癌筛查、异常管理、随访、进一步诊断、治疗"
+  ]
+ },
+ {
+  "id": "gyn-breast-screening-2021-3",
+  "condition_zh": "乳腺癌防治健康教育",
+  "condition_en": "Breast Cancer Prevention and Control Health Education",
+  "category": "gyn_health",
+  "diagnosis": {
+   "clinical_features": [
+    "乳腺癌防治相关政策和核心信息"
+   ]
+  },
+  "risk_factors": [
+   "缺乏乳腺癌防治知识"
+  ],
+  "prevention": [
+   "广泛开展宣传教育、增强妇女健康意识、开展自我健康管理、接受筛查、指导高风险人群筛查"
+  ],
+  "treatment": [],
+  "when_to_seek_care": [
+   "任何时间"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "乳腺癌筛查工作方案(国卫办妇幼函〔2021〕635号)",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nwccw.gov.cn/2022/02/17/99337480.html"
+   }
+  ],
+  "keywords": [
+   "乳腺癌防治、健康教育、宣传教育、健康意识、自我管理"
+  ]
+ },
+ {
+  "id": "gyn-breast-screening-2021-4",
+  "condition_zh": "高危人群",
+  "condition_en": "High-risk Population",
+  "category": "gyn_health",
+  "diagnosis": {
+   "clinical_features": [
+    "有乳腺癌或卵巢癌家族史、月经初潮过早、绝经较晚、未育、晚育及未哺乳、长期服用外源性雌激素、乳腺不典型增生、绝经后肥胖、长期过量饮酒"
+   ]
+  },
+  "risk_factors": [
+   "高危因素"
+  ],
+  "prevention": [
+   "主动到医疗机构接受筛查"
+  ],
+  "treatment": [],
+  "when_to_seek_care": [
+   "任何时间"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "乳腺癌筛查工作方案(国卫办妇幼函〔2021〕635号)",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nwccw.gov.cn/2022/02/17/99337480.html"
+   }
+  ],
+  "keywords": [
+   "高危人群、乳腺癌、筛查、预防"
+  ]
+ }
+]

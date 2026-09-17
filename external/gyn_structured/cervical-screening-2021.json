@@ -1,0 +1,206 @@
+[
+ {
+  "id": "gyn-cervical-screening-2021-1",
+  "condition_zh": "宫颈癌筛查策略",
+  "condition_en": "Cervical Cancer Screening Strategy",
+  "category": "gyn_health",
+  "diagnosis": {
+   "clinical_features": [
+    "妇科检查",
+    "宫颈细胞学检查",
+    "高危型HPV检测",
+    "阴道镜检查",
+    "组织病理学检查"
+   ]
+  },
+  "risk_factors": [
+   "高危型HPV持续感染",
+   "宫颈癌家族史",
+   "性生活过早",
+   "过早生育",
+   "免疫抑制剂治疗",
+   "多个性伴",
+   "HIV感染",
+   "其他性传播疾病",
+   "吸烟、吸毒者"
+  ],
+  "prevention": [
+   "定期筛查",
+   "接种HPV疫苗",
+   "安全性行为",
+   "健康生活方式"
+  ],
+  "treatment": [
+   {
+    "name": "宫颈癌治疗",
+    "details": "根据病变程度，采取手术、放疗、化疗等综合治疗"
+   }
+  ],
+  "when_to_seek_care": [
+   "出现不规则出血、排液等症状时",
+   "筛查结果异常时",
+   "高风险人群"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "宫颈癌筛查工作方案(国卫办妇幼函〔2021〕635号)",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nwccw.gov.cn/2022/02/17/99337480.html"
+   }
+  ],
+  "keywords": [
+   "宫颈癌",
+   "筛查",
+   "HPV",
+   "预防",
+   "治疗",
+   "健康教育",
+   "疫苗接种",
+   "高危因素",
+   "筛查策略"
+  ]
+ },
+ {
+  "id": "gyn-cervical-screening-2021-2",
+  "condition_zh": "筛查异常管理与随访",
+  "condition_en": "Management and Follow-up of Abnormal Screening",
+  "category": "gyn_health",
+  "diagnosis": {
+   "clinical_features": [
+    "宫颈细胞学检查TBS报告结果ASC-US及以上",
+    "高危型HPV检测结果阳性",
+    "肉眼检查异常或可疑",
+    "阴道镜检查异常或可疑",
+    "组织病理学检查结果宫颈高级别病变及以上"
+   ]
+  },
+  "risk_factors": [
+   "筛查异常"
+  ],
+  "prevention": [
+   "追踪随访",
+   "督促进一步诊断及治疗",
+   "记录病例相关情况"
+  ],
+  "treatment": [
+   {
+    "name": "进一步诊断及治疗",
+    "details": "根据具体病情制定治疗方案"
+   }
+  ],
+  "when_to_seek_care": [
+   "筛查结果异常时"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "宫颈癌筛查工作方案(国卫办妇幼函〔2021〕635号)",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nwccw.gov.cn/2022/02/17/99337480.html"
+   }
+  ],
+  "keywords": [
+   "筛查异常",
+   "随访",
+   "诊断",
+   "治疗",
+   "管理",
+   "宫颈癌"
+  ]
+ },
+ {
+  "id": "gyn-cervical-screening-2021-3",
+  "condition_zh": "宫颈癌防治健康教育",
+  "condition_en": "Cervical Cancer Prevention and Control Health Education",
+  "category": "gyn_health",
+  "diagnosis": {
+   "clinical_features": [
+    "宫颈癌防治相关政策和核心信息"
+   ]
+  },
+  "risk_factors": [
+   "缺乏防治知识",
+   "意识不足"
+  ],
+  "prevention": [
+   "宣传教育",
+   "增强自我健康管理意识",
+   "动员接受筛查",
+   "指导高风险人群接受筛查"
+  ],
+  "treatment": [],
+  "when_to_seek_care": [
+   "任何妇女"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "宫颈癌筛查工作方案(国卫办妇幼函〔2021〕635号)",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nwccw.gov.cn/2022/02/17/99337480.html"
+   }
+  ],
+  "keywords": [
+   "健康教育",
+   "防治知识",
+   "意识",
+   "筛查",
+   "宫颈癌"
+  ]
+ },
+ {
+  "id": "gyn-cervical-screening-2021-4",
+  "condition_zh": "HPV疫苗接种要点",
+  "condition_en": "HPV Vaccination Key Points",
+  "category": "gyn_health",
+  "diagnosis": {
+   "clinical_features": [
+    "预防宫颈癌"
+   ]
+  },
+  "risk_factors": [
+   "HPV感染"
+  ],
+  "prevention": [
+   "9-45周岁女性均可接种",
+   "9-15周岁女性是重点人群",
+   "接种越早保护效果越好"
+  ],
+  "treatment": [],
+  "when_to_seek_care": [
+   "9-45周岁女性"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "宫颈癌筛查工作方案(国卫办妇幼函〔2021〕635号)",
+    "journal": "",
+    "year": 2021,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nwccw.gov.cn/2022/02/17/99337480.html"
+   }
+  ],
+  "keywords": [
+   "HPV疫苗",
+   "预防",
+   "宫颈癌",
+   "接种",
+   "重点人群"
+  ]
+ }
+]

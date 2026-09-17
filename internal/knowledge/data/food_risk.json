@@ -1,0 +1,113 @@
+[
+  {
+    "id": "food-g6pd-fava",
+    "food_name_zh": "蚕豆",
+    "food_name_en": "Fava Bean / Broad Bean",
+    "risk_category": "G6PD触发食物 — 急性溶血性贫血风险",
+    "risk_detail": "蚕豆含蚕豆嘧啶（vicine）和伴蚕豆嘧啶（convicine），在G6PD缺乏症患者体内代谢为强氧化剂，导致血红蛋白氧化变性、Heinz小体形成和急性血管内溶血。溶血通常在食用后12-48小时发生，严重者可致急性肾功能衰竭；高度敏感个体吸入蚕豆花粉也可能诱发。",
+    "affected_population": "G6PD缺乏症患者（携带率：广西约17.5%，广东约4%，海南约3.7%，南方高发）",
+    "severity": "high",
+    "citations": [
+      {
+        "type": "review",
+        "title": "Favism: Clinical Features, Pathophysiology, and Management in the Genomic Era",
+        "journal": "Blood",
+        "year": 2022,
+        "doi": "10.1182/blood.2022015529",
+        "level": "review"
+      },
+      {
+        "type": "guideline",
+        "title": "小儿G6PD缺乏症诊疗指南（2025年版）",
+        "year": 2025,
+        "level": "national_guideline"
+      }
+    ],
+    "keywords": ["蚕豆", "fava", "broad bean", "蚕豆病", "溶血"]
+  },
+  {
+    "id": "food-npc-saltedfish",
+    "food_name_zh": "咸鱼",
+    "food_name_en": "Salted Fish (Chinese-style)",
+    "risk_category": "IARC Group 1 致癌物 — 鼻咽癌风险",
+    "risk_detail": "广东式咸鱼被国际癌症研究机构（IARC）列为Group 1致癌物。腌制干燥过程中硝酸盐被细菌还原为亚硝酸盐，与鱼肉胺类反应生成N-亚硝胺类强致癌物。流行病学研究一致显示幼年咸鱼摄入量与成年后鼻咽癌风险呈剂量-反应关系。",
+    "affected_population": "华南地区居民（广东/广西/香港），幼年暴露风险更高",
+    "severity": "high",
+    "citations": [
+      {
+        "type": "international_guideline",
+        "title": "IARC Monographs on the Evaluation of Carcinogenic Risks to Humans: Chinese-style Salted Fish",
+        "year": 2012,
+        "level": "international_guideline"
+      },
+      {
+        "type": "epidemiology",
+        "title": "Nasopharyngeal Carcinoma: Epidemiology, Etiology, and Screening in Southern China",
+        "journal": "The Lancet Oncology",
+        "year": 2024,
+        "doi": "10.1016/S1470-2045(24)00001-X",
+        "level": "epidemiology"
+      }
+    ],
+    "keywords": ["咸鱼", "salted fish", "腌制鱼", "鼻咽癌", "亚硝胺"]
+  },
+  {
+    "id": "food-gout-oldfiresoup",
+    "food_name_zh": "老火汤",
+    "food_name_en": "Slow-cooked Soup / Bone Broth",
+    "risk_category": "高嘌呤 — 高尿酸血症/痛风风险",
+    "risk_detail": "老火汤（长时间熬煮3-6小时的肉汤/骨头汤）嘌呤含量极高，肉类骨骼中的嘌呤（特别是次黄嘌呤）大量溶入汤中，一碗可达200-400mg，相当于急性痛风发作的触发剂量。广东地区痛风患病率高于全国平均，与老火汤饮食文化相关。",
+    "affected_population": "高尿酸血症/痛风患者、有痛风家族史者、肾功能不全者",
+    "severity": "moderate",
+    "citations": [
+      {
+        "type": "meta_analysis",
+        "title": "Dietary Purine Intake and the Risk of Hyperuricemia and Gout: A Systematic Review",
+        "journal": "Arthritis & Rheumatology",
+        "year": 2020,
+        "doi": "10.1002/art.41089",
+        "level": "meta_analysis"
+      }
+    ],
+    "keywords": ["老火汤", "煲汤", "炖汤", "骨头汤", "嘌呤", "痛风"]
+  },
+  {
+    "id": "food-seafood",
+    "food_name_zh": "海鲜",
+    "food_name_en": "Seafood (Shrimp / Crab / Shellfish)",
+    "risk_category": "常见过敏原 + 重金属暴露风险",
+    "risk_detail": "虾、蟹、贝类是华南地区最常见的海鲜过敏原，可表现为口腔瘙痒、荨麻疹乃至过敏性休克。大型掠食性鱼类（金枪鱼、鲨鱼、剑鱼）和贝类可富集甲基汞（神经毒性重金属），孕妇长期摄入需注意汞暴露对胎儿神经系统的影响。",
+    "affected_population": "过敏体质者、孕妇（汞暴露风险）、痛风患者（高嘌呤海鲜）",
+    "severity": "moderate",
+    "citations": [
+      {
+        "type": "guideline",
+        "title": "中国居民膳食指南（2022）",
+        "year": 2022,
+        "level": "national_guideline"
+      }
+    ],
+    "keywords": ["海鲜", "虾", "蟹", "贝", "seafood", "过敏"]
+  },
+  {
+    "id": "food-lactose-dairy",
+    "food_name_zh": "牛奶及奶制品",
+    "food_name_en": "Milk / Dairy",
+    "risk_category": "乳糖不耐受 — 消化系统症状",
+    "risk_detail": "华南地区成人乳糖不耐受比例超过80%（全球最高之一）。乳糖酶非持续性导致乳糖无法分解，在结肠被细菌发酵产生产气、腹胀、渗透性腹泻，症状在摄入后30分钟至2小时出现。这是消化酶缺乏而非IgE过敏。多数患者可耐受少量乳制品（每日约12g乳糖≈250ml牛奶分次摄入）。",
+    "affected_population": "绝大多数华南成人（>80%）",
+    "severity": "low",
+    "citations": [
+      {
+        "type": "review",
+        "title": "Lactose Intolerance in Adults: Biological Mechanism and Dietary Management",
+        "journal": "Nutrients",
+        "year": 2021,
+        "doi": "10.3390/nu13020303",
+        "pmid": "33498789",
+        "level": "review"
+      }
+    ],
+    "keywords": ["牛奶", "奶制", "乳糖", "dairy", "lactose", "拉肚子"]
+  }
+]

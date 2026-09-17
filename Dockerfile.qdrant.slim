@@ -1,0 +1,23 @@
+# doctor-agent 知识库 RAG 镜像 —— 精简版（预烘焙 storage 直接打包）
+#
+# 用途: bake-local.sh 本机烘焙完成后，用本 Dockerfile 打包。
+#       不在 Docker 内编译 Go 代码、不在 Docker 内跑 vector-bake、
+#       不需要 gz 源文件——只把预烘焙好的 Qdrant storage 拷入基础镜像。
+#
+# 前提: ./qdrant-storage/ 目录已由 bake-local.sh 生成（含 segments + 已清 WAL）。
+#
+# 构建:
+#   ./bake-local.sh           # 先本机烘焙（~5-10 分钟，bge-m3 真向量）
+#   ./build.sh qdrant         # 再用本 Dockerfile 打包（~30 秒，纯 COPY）
+#
+# 最终镜像内容：
+#   /qdrant/storage       烘好的 Qdrant 向量（本机 vector-bake 注入）
+#   qdrant 服务            容器启动即加载知识，零灌入等待
+
+FROM qdrant/qdrant:v1.19.0
+
+# 预烘焙好的 storage（bake-local.sh 产物）
+# 包含已固化的 segment 文件 + 清空的 WAL 目录
+COPY qdrant-storage /qdrant/storage
+
+EXPOSE 6333 6334

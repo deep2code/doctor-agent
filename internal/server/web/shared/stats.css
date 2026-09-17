@@ -1,0 +1,60 @@
+  /* ---------- Social proof (dark) ---------- */
+  .proof { background: var(--navy); color: #fff; }
+  .proof h2.title { color: #fff; }
+  .proof .sec-desc { color: #94A3B8; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; max-width: 1000px; margin: 16px auto 56px; }
+  .stat { text-align: center; padding: 8px 12px; }
+  .stat .n { font-size: 48px; font-weight: 800; line-height: 1; }
+  .stat .l { font-size: 15px; color: #94A3B8; margin-top: 8px; }
+  .stat:nth-child(1) .n { color: var(--blue); }
+  .stat:nth-child(2) .n { color: var(--cyan); }
+  .stat:nth-child(3) .n { color: var(--green); }
+  .stat:nth-child(4) .n { color: #F59E0B; }
+  .sample {
+    background: #0E2544; border: 1px solid rgba(15,38,69,.6); border-radius: 20px;
+    padding: 32px; max-width: 900px; margin: 0 auto;
+  }
+  .sample .q { font-size: 17px; font-weight: 600; color: #E2E8F0; }
+  .sample .a { font-size: 15px; color: #94A3B8; line-height: 1.6; margin-top: 12px; }
+  .sample .cites { display: flex; gap: 12px; margin-top: 16px; flex-wrap: wrap; }
+  .sample .cites span { font-size: 13px; font-weight: 500; color: #60A5FA; }
+  /* ---------- Disease Stats (tabbed) ---------- */
+  .stats-tabs { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 8px 0 28px; }
+  .stat-tab {
+    border: 1px solid var(--line); background: #fff; color: var(--muted);
+    font-family: var(--font); font-size: 14px; font-weight: 600;
+    padding: 9px 18px; border-radius: 999px; cursor: pointer; transition: all .18s ease;
+  }
+  .stat-tab:hover { color: var(--blue); border-color: var(--blue); }
+  .stat-tab.active { background: var(--blue); border-color: var(--blue); color: #fff; box-shadow: 0 6px 16px rgba(37,99,235,.28); }
+  .stats-panel { max-width: 920px; margin: 0 auto; }
+  .stats-chart-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 28px 32px 22px; box-shadow: var(--shadow-sm); }
+  .stats-chart-head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+  .stats-chart-head h3 { font-size: 20px; font-weight: 700; color: var(--ink); margin: 0; }
+  .stats-sub { font-size: 13px; color: var(--muted); }
+  .stats-chart-wrap { width: 100%; height: 320px; }
+  .stats-chart-wrap svg { width: 100%; height: 100%; display: block; overflow: visible; }
+  .stats-chart-wrap text { font-family: var(--font); }
+  .stats-milestone { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 14px; padding-top: 14px; border-top: 1px dashed var(--line); }
+  .ms-item { flex: 1 1 150px; }
+  .ms-year { font-size: 13px; font-weight: 700; color: var(--blue); }
+  .ms-label { font-size: 13px; font-weight: 600; color: var(--ink); margin: 2px 0; }
+  .ms-desc { font-size: 12px; color: var(--muted); line-height: 1.5; }
+  .stats-note { text-align: center; font-size: 12px; color: #A9B4C3; margin-top: 16px; }
+  /* ---------- Stats: data sources ---------- */
+  .stats-sources { margin-top: 26px; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 22px; box-shadow: var(--shadow-sm); }
+  .stats-sources h4 { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; font-size: 13.5px; font-weight: 600; color: var(--ink); line-height: 1.5; }
+  .src-badge { display: inline-block; flex: none; font-size: 11px; font-weight: 600; color: var(--blue); background: var(--blue-soft); border-radius: 999px; padding: 3px 10px; letter-spacing: .2px; }
+  .src-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px 20px; }
+  .src-item { padding-left: 12px; border-left: 2px solid var(--blue-soft); }
+  .src-item b { display: block; font-size: 12.5px; font-weight: 600; color: var(--ink); margin-bottom: 3px; line-height: 1.5; }
+  .src-item span { display: block; font-size: 12px; color: var(--text); line-height: 1.65; }
+  .src-item.caveat { border-left-color: var(--amber); }
+  .src-item.caveat b { color: var(--amber); }
+  .src-note { font-size: 12px; color: var(--amber); line-height: 1.65; margin: 0 0 14px; }
+  .src-note b { font-weight: 600; }
+  @media (max-width: 980px){ .src-list { grid-template-columns: 1fr; } }
+  @media (max-width: 980px) {
+    .stats-chart-wrap { height: 260px; }
+    .stats-chart-card { padding: 20px; }
+  }

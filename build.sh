@@ -1,0 +1,236 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "$0")"
+
+# ============================================================================
+# doctor-agent 唯一打包入口（构建 + 推送阿里云）
+#
+# 用法:
+#   ./build.sh           = app（默认）：只构建+推送 app 镜像（改代码/前端）
+#   ./build.sh qdrant    = 只构建+推送 RAG 镜像（改知识库数据、跑 python3 external/make_gz.py 之后）
+#   ./build.sh full      = 全量：app + qdrant 一起
+#
+# 双镜像架构:
+#   doctor-agent         Go 源码 + 前端        → 代码变化才更新
+#   doctor-agent-qdrant  Qdrant + 烘好的向量    → 知识库变化才更新
+#   macOS 流程: 有 qdrant-storage 产物 → 直接打包; 无 → bake-local.sh 本机烘焙 → 打包
+#               (有产物时不提供强制重烘选项; 要重烘先手动删产物或跑 bake-local.sh)
+#   Linux  流程: Dockerfile.qdrant 内编译+烘焙(FNV hash)
+# ============================================================================
+
+MODE="${1:-app}"
+case "$MODE" in
+  app|qdrant|embed|kb|full) ;;
+  *) echo "用法: $0 [app|qdrant|embed|kb|full]"; exit 1 ;;
+esac
+
+# ── 版本信息 ──────────────────────────────────────
+GIT_COMMIT="$(git rev-parse --short HEAD 2>/dev/null || echo unknown)"
+BUILD_TIME="$(TZ=Asia/Shanghai date '+%Y-%m-%dT%H:%M:%S+08:00')"
+GIT_TAG="$(git describe --tags --abbrev=0 2>/dev/null || echo latest)"
+
+# ── 镜像仓库（唯一定义处；Linux 推送机走内网）─────
+REGISTRY_PUBLIC="crpi-0xi5k79l9j4opzta.cn-hangzhou.personal.cr.aliyuncs.com/codeup2026"
+REGISTRY_VPC="crpi-0xi5k79l9j4opzta-vpc.cn-hangzhou.personal.cr.aliyuncs.com/codeup2026"
+if [[ "$(uname -s)" == "Linux" ]]; then
+  REGISTRY="$REGISTRY_VPC"
+else
+  REGISTRY="$REGISTRY_PUBLIC"
+fi
+
+APP_IMAGE="${REGISTRY}/doctor-agent:${GIT_TAG}"
+APP_IMAGE_LATEST="${REGISTRY}/doctor-agent:latest"
+QDRANT_IMAGE="${REGISTRY}/doctor-agent-qdrant:latest"
+EMBED_IMAGE="${REGISTRY}/doctor-agent-embed:latest"
+KB_IMAGE_TAG="$(python3 -c "import json;print(json.load(open('internal/knowledge/data/version.json'))['version'])" 2>/dev/null || echo latest)"
+KB_IMAGE="${REGISTRY}/doctor-agent-kb:${KB_IMAGE_TAG}"
+KB_IMAGE_LATEST="${REGISTRY}/doctor-agent-kb:latest"
+
+build_embed() {
+  echo "[embed] 构建 embedding 查询服务镜像 (bge-m3 INT8 模型打入镜像)..."
+  [[ -f "bge-m3-onnx/model.int8.onnx" ]] || {
+    echo "  错误: bge-m3-onnx/model.int8.onnx 不存在, 先运行 python3 external/export_onnx.py --int8"
+    exit 1
+  }
+  docker build --progress=plain --platform linux/amd64 \
+    --pull=false \
+    -t "$EMBED_IMAGE" \
+    -f Dockerfile.embed \
+    --provenance false \
+    .
+}
+
+build_app() {
+  echo "[app] 宿主机编译（复用本机 Go 缓存, 暖构建秒级）..."
+  # go 常不在非交互 shell 的 PATH 里 (bashrc 的 PATH 只对交互终端生效), 探测常见位置
+  if ! command -v go >/dev/null 2>&1; then
+    for d in /usr/local/go/bin "$HOME/go/bin" /usr/lib/go/bin /usr/local/bin "$HOME/.local/bin"; do
+      [ -x "$d/go" ] && export PATH="$d:$PATH" && break
+    done
+  fi
+  command -v go >/dev/null 2>&1 || {
+    echo "  错误: 打包机找不到 go (host compile 模式)。装 Go 1.21+ 后重试:"
+    echo "    wget -qO- https://golang.google.cn/dl/go1.27.1.linux-amd64.tar.gz | tar xz -C /usr/local"
+    echo "    并确认 /usr/local/go/bin/go 存在 (脚本会自动探测该路径)"
+    exit 1
+  }
+  echo "  go: $(go version | awk '{print $3}')"
+  export GOPROXY="${GOPROXY:-https://goproxy.cn,direct}"
+  # 静态二进制: 无 CGO (go-sql-driver/mysql 纯 Go), 目标 linux/amd64
+  # 版本信息在此注入 (原 Dockerfile 构建层的等价逻辑)
+  CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -trimpath \
+    -ldflags "-s -w -X main.gitCommit=${GIT_COMMIT} -X main.buildTime=${BUILD_TIME}" \
+    -o doctor-agent-linux .
+  echo "  编译完成: $(du -h doctor-agent-linux | cut -f1)"
+
+  echo "[app] 打包镜像（只 COPY 二进制, 秒级）..."
+  docker build --progress=plain --platform linux/amd64 \
+    --pull=false \
+    -t "$APP_IMAGE" \
+    -t "$APP_IMAGE_LATEST" \
+    -f Dockerfile \
+    --provenance false \
+    .
+}
+
+build_qdrant() {
+  echo "[qdrant] 构建 RAG 镜像..."
+  if [[ ! -d "internal/knowledge/gz" ]] || [[ -z "$(ls internal/knowledge/gz/*.json.*z* 2>/dev/null)" ]]; then
+    echo "  错误: internal/knowledge/gz 为空，先运行 python3 external/make_gz.py 生成知识库压缩包"
+    exit 1
+  fi
+
+  # macOS：本机烘焙 + slim 镜像打包（全量真向量，不省资源）
+  #
+  # 两步流程：
+  #   1. bake-local.sh — Mac 本机直跑 vector-bake，直连 localhost:11434
+  #      （无 Docker 网络开销），OLLAMA_NUM_PARALLEL=8 + workers=8 + batch=128，
+  #      bake.go 按文本长度排序消除 padding 浪费。
+  #      全部 743k 条数据用 bge-m3 生成真实语义向量（不跳过任何数据集）。
+  #   2. Dockerfile.qdrant.slim — 只 COPY 预烘焙 storage 到 Qdrant 基础镜像
+  #      （~30 秒纯 COPY，无编译无烘焙）。
+  #
+  # 对比旧方案（Docker 内烘焙）：
+  #   - 消除 host.docker.internal 网络开销
+  #   - 消除 BuildKit 输出缓冲（看不到进度）
+  #   - 消除 Docker 内存限制（16GB 全可用）
+  #   - 文本长度排序 3-5x 加速（padding 浪费消除）
+  #   - OLLAMA_NUM_PARALLEL=8 embedding 并发（无 KV cache，几乎零额外内存）
+  if [[ "$(uname -s)" == "Darwin" ]]; then
+    echo "  macOS → RAG 镜像（有烘焙产物直接打包，无产物才本机烘焙）"
+
+    # Step 1: 烘焙产物检测 — 有产物直接打包，不允许强制重烘
+    #   ./build.sh qdrant    本机已有 qdrant-storage → 直接打包；没有 → 本机烘焙
+    if [[ -d "qdrant-storage/collections/medical_knowledge" ]]; then
+      echo "  [1/2] 检测到已有烘焙产物 → 跳过烘焙，直接打包"
+    else
+      echo "  [1/2] 无烘焙产物，本机烘焙..."
+      # 传递 BAKE_RECREATE 和自定义参数
+      export EMBEDDING_MODEL="${EMBEDDING_MODEL:-bge-m3}"
+      export BAKE_WORKERS="${BAKE_WORKERS:-8}"
+      export BAKE_BATCH_SIZE="${BAKE_BATCH_SIZE:-128}"
+      ./bake-local.sh
+
+      # 检查烘焙产物
+      if [[ ! -d "qdrant-storage" ]] || [[ -z "$(ls qdrant-storage/ 2>/dev/null)" ]]; then
+        echo "  错误: 烘焙产物 qdrant-storage/ 为空"
+        exit 1
+      fi
+    fi
+
+    # Step 2: slim 镜像打包（只 COPY storage）
+    echo "  [2/2] 打包 slim 镜像（Dockerfile.qdrant.slim）..."
+    docker build --progress=plain --platform linux/amd64 \
+      --pull=false \
+      -t "$QDRANT_IMAGE" \
+      -f Dockerfile.qdrant.slim \
+      --provenance false \
+      .
+
+    # 不自动删 qdrant-storage: 产物来之不易 (GPU 烘焙 ~1 小时 + 手动恢复过),
+    # 留在本机作为镜像之外的第二副本, 要清理请手动删。
+  else
+    echo "  Linux → Docker 内烘焙（FNV hash 离线 embedding，无 Ollama）"
+    docker build --progress=plain --platform linux/amd64 \
+      --pull=false \
+      -t "$QDRANT_IMAGE" \
+      -f Dockerfile.qdrant \
+      --provenance false \
+      .
+  fi
+}
+
+push_image() {
+  echo "  推送: $1"
+  docker push "$1"
+}
+
+# build_kb: 打包预灌知识的 MariaDB 数据镜像 (doctor-agent-kb).
+# 前置: docker/kb/init-doctor_knowledge.sql.gz 存在 (从已灌库导出, 见 docker/Dockerfile.kb 头注释).
+# 空洞兜底: 无 dump 则现场从本地 3307 测试容器导出.
+build_kb() {
+  [[ -s "docker/kb/init-doctor_knowledge.sql.gz" ]] || {
+    echo "[kb] 无 dump, 从本地 doctor-kb-test 容器导出..."
+    mkdir -p docker/kb
+    docker exec doctor-kb-test mariadb-dump -uroot --quick --single-transaction --hex-blob \
+      --default-character-set=utf8mb4 --databases doctor_knowledge 2>/dev/null \
+      | gzip > docker/kb/init-doctor_knowledge.sql.gz
+  }
+  echo "[kb] 构建数据镜像 (tag: ${KB_IMAGE_TAG})..."
+  docker build --progress=plain --platform linux/amd64 \
+    --pull=false \
+    -t "$KB_IMAGE" \
+    -t "$KB_IMAGE_LATEST" \
+    -f docker/Dockerfile.kb \
+    --provenance false \
+    .
+}
+
+echo "============================================"
+echo "  doctor-agent 打包（模式: ${MODE}）"
+echo "  版本:      ${GIT_TAG} (commit ${GIT_COMMIT})"
+echo "  构建时间:  ${BUILD_TIME}"
+echo "  应用镜像:  ${APP_IMAGE_LATEST}      ← 代码变化才更新"
+echo "  RAG 镜像:  ${QDRANT_IMAGE}   ← 知识库变化才更新"
+echo "============================================"
+echo ""
+
+case "$MODE" in
+  app)
+    build_app
+    push_image "$APP_IMAGE"
+    push_image "$APP_IMAGE_LATEST"
+    ;;
+  qdrant)
+    build_qdrant
+    push_image "$QDRANT_IMAGE"
+    ;;
+  embed)
+    build_embed
+    push_image "$EMBED_IMAGE"
+    ;;
+  kb)
+    build_kb
+    push_image "$KB_IMAGE"
+    push_image "$KB_IMAGE_LATEST"
+    ;;
+  full)
+    build_app
+    push_image "$APP_IMAGE"
+    push_image "$APP_IMAGE_LATEST"
+    build_qdrant
+    push_image "$QDRANT_IMAGE"
+    build_embed
+    push_image "$EMBED_IMAGE"
+    build_kb
+    push_image "$KB_IMAGE"
+    push_image "$KB_IMAGE_LATEST"
+    ;;
+esac
+
+echo ""
+echo "============================================"
+echo "  打包完成（${MODE}）"
+echo "  触发关系: 改代码 → ./build.sh | 改知识库 → ./build.sh qdrant | 都改 → ./build.sh full"
+echo "============================================"

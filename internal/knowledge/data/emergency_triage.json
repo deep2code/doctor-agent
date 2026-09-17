@@ -1,0 +1,110 @@
+[
+  {
+    "id": "emerg-001",
+    "condition": "Acute Coronary Syndrome / Myocardial Infarction",
+    "keywords": ["chest pain", "crushing", "squeezing", "radiating", "diaphoresis", "nausea", "shortness of breath"],
+    "keywords_zh": ["胸痛", "胸闷", "压榨", "心前区", "放射痛", "出冷汗", "濒死感"],
+    "level": "emergency",
+    "action": "Call 120 immediately. Chew 300mg aspirin if not allergic and no contraindications. Keep patient calm and seated. Do NOT drive to hospital.",
+    "action_zh": "立即拨打120。如无阿司匹林过敏或禁忌，嚼服300mg阿司匹林。保持患者安静坐立。不要自行驾车去医院。"
+  },
+  {
+    "id": "emerg-002",
+    "condition": "Acute Stroke (FAST criteria)",
+    "keywords": ["facial droop", "arm weakness", "speech difficulty", "numbness one side", "vision loss", "dizziness", "severe headache"],
+    "keywords_zh": ["面瘫", "嘴歪", "一侧无力", "言语不清", "口齿不清", "偏瘫", "半身", "头晕", "卒倒"],
+    "level": "emergency",
+    "action": "Call 120 immediately. Time is brain. Note the exact time symptoms started. Do NOT give food, water, or aspirin (may be hemorrhagic stroke). Keep patient NPO.",
+    "action_zh": "立即拨打120。时间就是大脑。记录症状出现的确切时间。不要进食、饮水或服用阿司匹林（可能是出血性卒中）。保持患者禁食禁水。"
+  },
+  {
+    "id": "emerg-003",
+    "condition": "Anaphylaxis",
+    "keywords": ["hives", "swelling", "throat tight", "wheeze", "difficulty breathing", "hypotension", "collapse"],
+    "keywords_zh": ["过敏", "荨麻疹", "喉头水肿", "喉咙肿胀", "呼吸困难", "喘鸣", "血压下降", "昏倒"],
+    "level": "emergency",
+    "action": "Call 120. Administer epinephrine auto-injector (EpiPen) 0.3mg IM into lateral thigh immediately if available. Lie flat with legs elevated unless respiratory distress. Repeat epinephrine every 5-15 min if no improvement.",
+    "action_zh": "拨打120。如有肾上腺素自动注射笔(EpiPen)，立即在大腿外侧肌肉注射0.3mg。平躺抬高双腿（除非呼吸困难）。如无改善每5-15分钟可重复注射。"
+  },
+  {
+    "id": "emerg-004",
+    "condition": "Severe Bleeding",
+    "keywords": ["bleeding", "hemorrhage", "blood loss", "trauma", "injury", "wound"],
+    "keywords_zh": ["大出血", "流血不止", "出血", "重伤", "外伤"],
+    "level": "emergency",
+    "action": "Call 120. Apply firm direct pressure with clean cloth. Elevate bleeding site. Do NOT remove embedded objects. Apply tourniquet only if direct pressure fails and limb bleeding is life-threatening.",
+    "action_zh": "拨打120。用干净布料直接用力压迫止血。抬高出血部位。不要移除嵌入物。仅在直接压迫无效且肢体出血危及生命时使用止血带。"
+  },
+  {
+    "id": "emerg-005",
+    "condition": "Acute Respiratory Distress",
+    "keywords": ["cannot breathe", "suffocating", "choking", "cyanosis", "stridor"],
+    "keywords_zh": ["喘不上气", "窒息", "发绀", "嘴唇发紫", "喉咙堵", "异物卡住"],
+    "level": "emergency",
+    "action": "Call 120. If choking: perform Heimlich maneuver (abdominal thrusts). For infants: back blows and chest thrusts. If asthma/COPD: use rescue inhaler. Sit upright.",
+    "action_zh": "拨打120。如异物梗阻：进行海姆立克急救法（腹部冲击）。婴儿：背部拍击和胸部冲击。如哮喘/COPD：使用急救吸入剂。保持坐立姿势。"
+  },
+  {
+    "id": "emerg-006",
+    "condition": "Acute Abdomen / Surgical Emergency",
+    "keywords": ["severe abdominal pain", "rigid abdomen", "rebound tenderness", "vomiting blood", "bloody stool", "melena"],
+    "keywords_zh": ["剧烈腹痛", "板状腹", "反跳痛", "呕血", "便血", "黑便"],
+    "level": "emergency",
+    "action": "Call 120. Keep patient NPO (nothing by mouth). Do NOT give pain medication (may mask surgical signs). Monitor for shock.",
+    "action_zh": "拨打120。禁食禁水。不要给止痛药（可能掩盖手术指征）。观察是否出现休克。"
+  },
+  {
+    "id": "emerg-007",
+    "condition": "Sepsis / Severe Infection",
+    "keywords": ["fever with confusion", "severe chills", "rigors", "rapid breathing", "low blood pressure", "altered mental status"],
+    "keywords_zh": ["高热伴意识模糊", "寒战", "畏寒", "呼吸急促", "血压低", "意识改变"],
+    "level": "emergency",
+    "action": "Call 120. This may indicate sepsis — time-critical. Note temperature, heart rate, breathing rate. Keep patient warm. Monitor level of consciousness.",
+    "action_zh": "拨打120。这可能是脓毒症——时间就是生命。记录体温、心率、呼吸频率。保持患者温暖。监测意识状态。"
+  },
+  {
+    "id": "emerg-008",
+    "condition": "Testicular Torsion / Ovarian Torsion",
+    "keywords": ["testicular pain", "scrotal pain", "sudden severe pelvic pain", "ovarian pain"],
+    "keywords_zh": ["睾丸剧痛", "阴囊剧痛", "下腹剧痛", "卵巢痛"],
+    "level": "emergency",
+    "action": "Go to Emergency Department immediately. Time to surgery is critical: testicular salvage rate drops significantly after 4-6 hours. This is a surgical emergency.",
+    "action_zh": "立即前往急诊科。手术时间窗至关重要：睾丸扭转4-6小时后保留率显著下降。这是外科急症。"
+  },
+  {
+    "id": "emerg-009",
+    "condition": "Meningitis Suspected",
+    "keywords": ["fever", "headache", "neck stiffness", "photophobia", "rash non-blanching", "bulging fontanelle"],
+    "keywords_zh": ["发热伴头痛", "颈强直", "怕光", "压之不褪色皮疹", "囟门隆起", "喷射性呕吐"],
+    "level": "emergency",
+    "action": "Call 120 or go to ED immediately. Suspected bacterial meningitis requires urgent lumbar puncture and IV antibiotics. Do NOT delay for imaging if clinically unstable.",
+    "action_zh": "立即拨打120或前往急诊。疑似细菌性脑膜炎需紧急腰椎穿刺和静脉抗生素。如临床不稳定，不要因等待影像检查而延误。"
+  },
+  {
+    "id": "emerg-010",
+    "condition": "Status Epilepticus",
+    "keywords": ["seizure", "convulsion", "prolonged seizure", "continuous fitting"],
+    "keywords_zh": ["抽搐持续", "反复抽搐", "癫痫持续", "长时间抽搐"],
+    "level": "emergency",
+    "action": "Call 120 if seizure lasts >5 minutes or repeats without recovery. Time the seizure. Clear dangerous objects. Do NOT restrain or put anything in mouth. Recovery position after seizure stops.",
+    "action_zh": "抽搐超过5分钟或反复发作未恢复意识时拨打120。记录抽搐时间。清除危险物品。不要按住患者或往嘴里塞东西。抽搐停止后置复苏体位。"
+  },
+  {
+    "id": "emerg-011",
+    "condition": "Acute Vision Loss",
+    "keywords": ["sudden vision loss", "curtain", "floaters", "flashes", "eye pain", "visual field defect"],
+    "keywords_zh": ["突然视力丧失", "眼前黑幕", "飞蚊症", "闪光", "眼痛", "视野缺损"],
+    "level": "urgent",
+    "action": "Go to Emergency Department or ophthalmologist within hours. Sudden vision loss can indicate retinal detachment, retinal artery occlusion, or acute glaucoma — all time-sensitive.",
+    "action_zh": "数小时内前往急诊科或眼科。突发视力丧失可能提示视网膜脱离、视网膜动脉阻塞或急性青光眼——均具有时间敏感性。"
+  },
+  {
+    "id": "emerg-012",
+    "condition": "Dengue Warning Signs (Southern China relevant)",
+    "keywords": ["dengue", "platelet low", "bleeding gum", "petechiae", "abdominal pain dengue", "vomiting dengue"],
+    "keywords_zh": ["登革热", "血小板低", "牙龈出血", "出血点", "登革热腹痛", "登革热呕吐"],
+    "level": "urgent",
+    "action": "Seek medical attention within 24 hours. Monitor platelet count and hematocrit daily. Watch for warning signs: persistent vomiting, abdominal pain, mucosal bleeding, lethargy, liver enlargement >2cm. Do NOT take NSAIDs/aspirin — use paracetamol only.",
+    "action_zh": "24小时内就医。每日监测血小板和血细胞比容。警惕警告体征：持续呕吐、腹痛、黏膜出血、嗜睡、肝肿大>2cm。不要服用NSAID/阿司匹林——只可用对乙酰氨基酚。"
+  }
+]

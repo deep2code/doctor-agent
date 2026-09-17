@@ -1,0 +1,1757 @@
+[
+ {
+  "id": "cdc-202604-1835392-1",
+  "condition_zh": "诺如病毒胃肠炎",
+  "condition_en": "Norovirus gastroenteritis",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "2026年五一假期",
+  "diagnosis": {
+   "clinical_features": [
+    "恶心、呕吐、腹痛、腹泻",
+    "成人多以腹泻为主，儿童以呕吐多见"
+   ]
+  },
+  "risk_factors": [
+   "食入被病毒污染的食物或水",
+   "接触患者或其污染的物品和环境",
+   "吸入患者呕吐时产生的气溶胶"
+  ],
+  "prevention": [
+   "保持手部清洁卫生",
+   "注重饮食与饮水卫生",
+   "使用含氯消毒剂处理污染物",
+   "及时报告多人发病"
+  ],
+  "when_to_seek_care": [
+   "出现人员呕吐情况",
+   "多人发病",
+   "出现发热、乏力、肌肉酸痛等症状"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "2026年五一假期",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202604/t20260428_1835392.html"
+   }
+  ],
+  "keywords": [
+   "诺如病毒",
+   "胃肠炎",
+   "手部清洁",
+   "饮食卫生",
+   "消毒"
+  ]
+ },
+ {
+  "id": "cdc-202604-1835392-2",
+  "condition_zh": "手足口病",
+  "condition_en": "Hand, foot and mouth disease",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "2026年五一假期；6月；7月",
+  "diagnosis": {
+   "clinical_features": [
+    "手、足、口、臀部斑丘疹、疱疹",
+    "发热",
+    "皮疹",
+    "疱疹",
+    "咳嗽",
+    "流涕",
+    "食欲不振"
+   ]
+  },
+  "risk_factors": [
+   "接触病人疱疹液、鼻咽分泌物、唾液、粪便",
+   "接触被污染的物品或环境",
+   "呼吸道传播",
+   "饮用或食入被病毒污染的水和食物",
+   "肠道病毒",
+   "消化道、呼吸道传播",
+   "接触患者分泌物、皮肤或黏膜疱疹液"
+  ],
+  "prevention": [
+   "正确洗手",
+   "避免接触患病儿童",
+   "居室通风",
+   "接种EV-A71疫苗",
+   "保持卫生",
+   "清洁消毒物品",
+   "保持良好卫生习惯",
+   "定期清洁消毒物品"
+  ],
+  "when_to_seek_care": [
+   "出现发热、皮疹等症状",
+   "发热、皮疹、疱疹",
+   "发热、皮疹、疱疹等症状"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "2026年五一假期",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202604/t20260428_1835392.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "6月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260610_1836703.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "7月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202607/t20260711_1838083.html"
+   }
+  ],
+  "keywords": [
+   "手足口病",
+   "洗手",
+   "疫苗接种",
+   "避免接触",
+   "肠道病毒",
+   "EV-A71疫苗",
+   "疱疹"
+  ]
+ },
+ {
+  "id": "cdc-202604-1835392-3",
+  "condition_zh": "发热伴血小板减少综合征",
+  "condition_en": "Febrile syndrome with thrombocytopenia",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "2026年五一假期；7月",
+  "diagnosis": {
+   "clinical_features": [
+    "发热、血小板及白细胞减少",
+    "乏力、食欲不振、恶心、呕吐",
+    "头痛、肌肉酸痛、腹泻",
+    "发热",
+    "血小板及白细胞减少",
+    "乏力",
+    "食欲不振",
+    "恶心",
+    "呕吐",
+    "头痛",
+    "肌肉酸痛",
+    "腹泻"
+   ]
+  },
+  "risk_factors": [
+   "蜱叮咬",
+   "接触有出血表现的病人、遗体",
+   "接触出血病人"
+  ],
+  "prevention": [
+   "避免接触杂草、灌木丛",
+   "穿浅色长袖长裤",
+   "使用驱避剂",
+   "清除蜱虫",
+   "就医告知蜱叮咬史",
+   "避免蜱虫叮咬",
+   "穿长袖上衣与长裤",
+   "出现症状及时就医"
+  ],
+  "when_to_seek_care": [
+   "出现发热、乏力、肌肉酸痛等症状",
+   "蜱叮咬后出现症状",
+   "发热、出血等表现",
+   "发热、出血等症状"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "2026年五一假期",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202604/t20260428_1835392.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "7月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202607/t20260711_1838083.html"
+   }
+  ],
+  "keywords": [
+   "发热伴血小板减少",
+   "蜱叮咬",
+   "驱避剂",
+   "清除蜱虫",
+   "就医",
+   "发热伴血小板减少综合征",
+   "蜱虫",
+   "血小板减少"
+  ]
+ },
+ {
+  "id": "cdc-202604-1835392-4",
+  "condition_zh": "蚊媒疾病",
+  "condition_en": "Vector-borne diseases",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "2026年五一假期",
+  "diagnosis": {
+   "clinical_features": [
+    "发热、寒战、皮疹、头痛",
+    "肌肉及关节疼痛",
+    "出血倾向"
+   ]
+  },
+  "risk_factors": [
+   "蚊子叮咬",
+   "前往热带和亚热带地区"
+  ],
+  "prevention": [
+   "使用蚊香、电蚊香液",
+   "穿着长袖长裤",
+   "涂抹蚊虫驱避药物",
+   "选择有空调或纱窗的酒店",
+   "及时就诊"
+  ],
+  "when_to_seek_care": [
+   "出现发热、寒战、皮疹等症状",
+   "旅居史返回本地后出现可疑症状"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "2026年五一假期",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202604/t20260428_1835392.html"
+   }
+  ],
+  "keywords": [
+   "蚊媒疾病",
+   "防蚊",
+   "驱避剂",
+   "及时就诊"
+  ]
+ },
+ {
+  "id": "cdc-202604-1835392-5",
+  "condition_zh": "麻疹",
+  "condition_en": "Measles",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "2026年五一假期",
+  "diagnosis": {
+   "clinical_features": [
+    "发热、流涕、喷嚏、咳嗽",
+    "口腔颊粘膜周围蓝白色斑点",
+    "特征性皮疹"
+   ]
+  },
+  "risk_factors": [
+   "未接种疫苗",
+   "人员密集场所"
+  ],
+  "prevention": [
+   "接种麻腮风疫苗",
+   "佩戴口罩",
+   "保护婴幼儿"
+  ],
+  "when_to_seek_care": [
+   "出现发热、皮疹等症状"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "2026年五一假期",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202604/t20260428_1835392.html"
+   }
+  ],
+  "keywords": [
+   "麻疹",
+   "疫苗接种",
+   "佩戴口罩",
+   "婴幼儿保护"
+  ]
+ },
+ {
+  "id": "cdc-202604-1835392-6",
+  "condition_zh": "猴痘",
+  "condition_en": "Monkeypox",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "2026年五一假期；5月；6月；2026年端午节；7月；2026年8月",
+  "diagnosis": {
+   "clinical_features": [
+    "发热、皮疹、淋巴结肿大",
+    "免疫力低下人群可能出现重症",
+    "发热",
+    "皮疹",
+    "淋巴结肿大"
+   ]
+  },
+  "risk_factors": [
+   "接触患者病变部位分泌物",
+   "性行为",
+   "家庭内密切接触",
+   "医疗护理接触",
+   "接触患者",
+   "直接接触患者病变部位分泌物",
+   "直接接触患者的病变部位分泌物、渗出物",
+   "直接接触患者的病变皮肤或黏膜",
+   "接触被污染的物品",
+   "长时间近距离吸入患者呼吸道飞沫"
+  ],
+  "prevention": [
+   "增强自我防护意识",
+   "避免密切接触",
+   "及时就医",
+   "告知医生旅行史和暴露史",
+   "了解防控知识",
+   "避免接触患者",
+   "个人防护",
+   "遵守出入境规定",
+   "做好个人防护",
+   "遵守出入境管理",
+   "了解猴痘防控知识",
+   "避免与猴痘患者或有可疑症状者密切接触",
+   "出现疑似症状及时就诊",
+   "遵守出入境管理相关规定",
+   "出现症状及时就医",
+   "避免与猴痘患者密切接触",
+   "遵守国家出入境管理相关规定"
+  ],
+  "when_to_seek_care": [
+   "出现疑似症状",
+   "皮疹等症状",
+   "出现症状时",
+   "发热、皮疹、淋巴结肿大",
+   "发热、皮疹等症状"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "2026年五一假期",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202604/t20260428_1835392.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "5月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202605/t20260509_1835669.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "6月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260610_1836703.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "2026年端午节",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260617_1836916.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "7月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202607/t20260711_1838083.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "2026年8月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202608/t20260805_1838674.html"
+   }
+  ],
+  "keywords": [
+   "猴痘",
+   "自我防护",
+   "避免接触",
+   "及时就医",
+   "接触患者",
+   "接触",
+   "密切接触",
+   "个人防护"
+  ]
+ },
+ {
+  "id": "cdc-202604-1835392-7",
+  "condition_zh": "人感染新亚型流感等动物源性传染病",
+  "condition_en": "Animal-origin infectious diseases",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "2026年五一假期",
+  "diagnosis": {
+   "clinical_features": [
+    "发热、皮疹",
+    "淋巴结肿大",
+    "免疫力低下人群可能出现重症"
+   ]
+  },
+  "risk_factors": [
+   "接触动物",
+   "食用未煮熟的动物产品",
+   "接触动物栖息地环境"
+  ],
+  "prevention": [
+   "避免进入动物栖息地",
+   "不接触、不食用野生动物",
+   "不吃未烧熟煮透的肉、蛋、奶等"
+  ],
+  "when_to_seek_care": [
+   "出现发热、皮疹等症状"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "2026年五一假期",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202604/t20260428_1835392.html"
+   }
+  ],
+  "keywords": [
+   "动物源性传染病",
+   "避免接触",
+   "不吃野生动物",
+   "生熟分开"
+  ]
+ },
+ {
+  "id": "cdc-202604-1835392-8",
+  "condition_zh": "食物中毒",
+  "condition_en": "Food poisoning",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "2026年五一假期；6月；2026年端午节；7月；2026年8月",
+  "diagnosis": {
+   "clinical_features": [
+    "恶心、呕吐、腹痛、腹泻",
+    "胃肠道症状",
+    "恶心",
+    "呕吐",
+    "腹痛",
+    "腹泻"
+   ]
+  },
+  "risk_factors": [
+   "食物中毒高发月份",
+   "聚餐和在外就餐机会增加",
+   "微生物性食物中毒",
+   "有毒动植物",
+   "毒蘑菇",
+   "进食不新鲜、不安全的食品",
+   "进食生冷食物",
+   "有毒动植物及毒蘑菇食物中毒"
+  ],
+  "prevention": [
+   "勤洗手",
+   "选择新鲜、安全的食品原料",
+   "注意餐饮单位卫生",
+   "不吃未烧熟煮透的食物",
+   "不吃不干净的水果和蔬菜",
+   "选择新鲜食品",
+   "生熟分开",
+   "注意餐饮卫生",
+   "不吃不明食物",
+   "注意餐饮单位卫生条件",
+   "不吃来历不明的食物",
+   "不采摘和食用不熟悉的野生蘑菇及野生植物",
+   "选择新鲜安全食品",
+   "注意饮食卫生",
+   "不吃来历不明食物",
+   "不采摘食用野生蘑菇植物",
+   "注意勤洗手",
+   "外出就餐时选择正规饭店"
+  ],
+  "when_to_seek_care": [
+   "出现胃肠道症状",
+   "恶心、呕吐、腹痛、腹泻",
+   "恶心、呕吐、腹痛、腹泻等症状",
+   "进餐后短时间内急性发病"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "2026年五一假期",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202604/t20260428_1835392.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "6月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260610_1836703.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "2026年端午节",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260617_1836916.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "7月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202607/t20260711_1838083.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "2026年8月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202608/t20260805_1838674.html"
+   }
+  ],
+  "keywords": [
+   "食物中毒",
+   "勤洗手",
+   "食品卫生",
+   "餐饮单位",
+   "生熟分开",
+   "微生物",
+   "食品"
+  ]
+ },
+ {
+  "id": "cdc-202605-1835669-1",
+  "condition_zh": "手足口病",
+  "condition_en": "Hand, Foot and Mouth Disease (HFMD)",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "5月",
+  "diagnosis": {
+   "clinical_features": [
+    "发热",
+    "皮疹",
+    "口腔疱疹",
+    "咳嗽",
+    "流涕",
+    "食欲不振"
+   ]
+  },
+  "risk_factors": [
+   "接触患者",
+   "接触被污染物品"
+  ],
+  "prevention": [
+   "勤洗手",
+   "清洁消毒物品",
+   "避免接触患病儿童",
+   "接种EV-A71疫苗"
+  ],
+  "when_to_seek_care": [
+   "出现症状时"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "5月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202605/t20260509_1835669.html"
+   }
+  ],
+  "keywords": [
+   "手足口病",
+   "HFMD",
+   "儿童"
+  ]
+ },
+ {
+  "id": "cdc-202605-1835669-2",
+  "condition_zh": "登革热",
+  "condition_en": "Dengue Fever",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "5月",
+  "diagnosis": {
+   "clinical_features": [
+    "发热",
+    "全身疼痛",
+    "皮疹",
+    "出血",
+    "白细胞减少"
+   ]
+  },
+  "risk_factors": [
+   "蚊子叮咬"
+  ],
+  "prevention": [
+   "避免蚊子叮咬",
+   "灭蚊和清理孳生地",
+   "提高就医意识"
+  ],
+  "when_to_seek_care": [
+   "发热、皮疹等症状时"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "5月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202605/t20260509_1835669.html"
+   }
+  ],
+  "keywords": [
+   "登革热",
+   "蚊子"
+  ]
+ },
+ {
+  "id": "cdc-202605-1835669-3",
+  "condition_zh": "基孔肯雅热",
+  "condition_en": "Chikungunya Fever",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "5月",
+  "diagnosis": {
+   "clinical_features": [
+    "发热",
+    "皮疹",
+    "关节疼痛"
+   ]
+  },
+  "risk_factors": [
+   "蚊子叮咬"
+  ],
+  "prevention": [
+   "避免蚊子叮咬",
+   "灭蚊和清理孳生地",
+   "提高就医意识"
+  ],
+  "when_to_seek_care": [
+   "发热、皮疹等症状时"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "5月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202605/t20260509_1835669.html"
+   }
+  ],
+  "keywords": [
+   "基孔肯雅热",
+   "蚊子"
+  ]
+ },
+ {
+  "id": "cdc-202605-1835669-4",
+  "condition_zh": "寨卡病毒病",
+  "condition_en": "Zika Virus Disease",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "5月",
+  "diagnosis": {
+   "clinical_features": [
+    "发热",
+    "皮疹",
+    "结膜炎",
+    "肌痛",
+    "关节痛"
+   ]
+  },
+  "risk_factors": [
+   "蚊子叮咬"
+  ],
+  "prevention": [
+   "避免蚊子叮咬",
+   "灭蚊和清理孳生地",
+   "提高就医意识"
+  ],
+  "when_to_seek_care": [
+   "发热、皮疹等症状时"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "5月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202605/t20260509_1835669.html"
+   }
+  ],
+  "keywords": [
+   "寨卡病毒病",
+   "蚊子",
+   "结膜炎"
+  ]
+ },
+ {
+  "id": "cdc-202605-1835669-5",
+  "condition_zh": "人感染禽流感",
+  "condition_en": "Avian Influenza",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "5月",
+  "diagnosis": {
+   "clinical_features": [
+    "发热",
+    "咳嗽",
+    "头痛",
+    "肌肉酸痛",
+    "呼吸困难"
+   ]
+  },
+  "risk_factors": [
+   "接触禽类",
+   "生禽肉蛋"
+  ],
+  "prevention": [
+   "避免接触禽类",
+   "生熟分开",
+   "彻底煮熟",
+   "及时就医"
+  ],
+  "when_to_seek_care": [
+   "出现症状时"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "5月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202605/t20260509_1835669.html"
+   }
+  ],
+  "keywords": [
+   "人感染禽流感",
+   "禽流感",
+   "禽类"
+  ]
+ },
+ {
+  "id": "cdc-202605-1835669-7",
+  "condition_zh": "发热伴血小板减少综合征",
+  "condition_en": "Severe Fever with Thrombocytopenia Syndrome (SFTS)",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "5月",
+  "diagnosis": {
+   "clinical_features": [
+    "发热",
+    "血小板减少",
+    "白细胞减少",
+    "乏力",
+    "食欲不振",
+    "恶心",
+    "呕吐",
+    "头痛",
+    "肌肉酸痛",
+    "腹泻"
+   ]
+  },
+  "risk_factors": [
+   "蜱虫叮咬",
+   "接触病人"
+  ],
+  "prevention": [
+   "避免蜱虫叮咬",
+   "个人防护",
+   "及时就医"
+  ],
+  "when_to_seek_care": [
+   "出现症状时"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "5月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202605/t20260509_1835669.html"
+   }
+  ],
+  "keywords": [
+   "发热伴血小板减少",
+   "蜱虫",
+   "血小板减少"
+  ]
+ },
+ {
+  "id": "cdc-202605-1835669-8",
+  "condition_zh": "流行性脑脊髓膜炎",
+  "condition_en": "Meningococcal Meningitis",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "5月",
+  "diagnosis": {
+   "clinical_features": [
+    "高热",
+    "头痛",
+    "呕吐",
+    "皮肤瘀点",
+    "脑膜刺激征"
+   ]
+  },
+  "risk_factors": [
+   "呼吸道飞沫",
+   "密切接触"
+  ],
+  "prevention": [
+   "接种流脑疫苗",
+   "良好卫生习惯",
+   "早发现早就医"
+  ],
+  "when_to_seek_care": [
+   "出现症状时"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "5月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202605/t20260509_1835669.html"
+   }
+  ],
+  "keywords": [
+   "流行性脑脊髓膜炎",
+   "流脑"
+  ]
+ },
+ {
+  "id": "cdc-202605-1836009-1",
+  "condition_zh": "埃博拉病毒病",
+  "condition_en": "Ebola virus disease",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "2026年5月；6月；2026年端午节；7月；2026年8月",
+  "diagnosis": {
+   "clinical_features": [
+    "发热",
+    "乏力",
+    "头痛",
+    "咽喉痛",
+    "呕吐",
+    "腹泻",
+    "不明原因出血",
+    "肌痛",
+    "恶心",
+    "出血",
+    "极度乏力",
+    "多脏器损害"
+   ]
+  },
+  "risk_factors": [
+   "从刚果（金）和乌干达等疫情风险国家和地区来（返）华人员",
+   "接触感染的野生动物",
+   "病人血液、分泌物、排泄物",
+   "病人的血液、分泌物、排泄物及其他污染物",
+   "接触患者或感染动物的血液、体液"
+  ],
+  "prevention": [
+   "入境后21天自我健康监测",
+   "出现症状及时就医",
+   "就医前联系疾控中心",
+   "避免乘坐公共交通",
+   "做好个人防护",
+   "告知医生旅行史和接触史",
+   "避免前往有风险地区",
+   "旅行期间避免接触野生动物和病患",
+   "保持良好卫生习惯",
+   "避免前往有埃博拉病毒病流行风险的国家和地区",
+   "旅行期间避免接触野生动物、可疑病患及其污染物品和环境",
+   "避免前往疫情高风险地区",
+   "提高主动就医意识",
+   "做好自我健康监测"
+  ],
+  "when_to_seek_care": [
+   "出现上述症状时",
+   "发热、乏力、肌痛、恶心、呕吐、出血",
+   "发热、呕吐、腹泻、腹痛、出血等症状",
+   "发热、呕吐、腹泻、出血等症状"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "2026年5月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202605/t20260523_1836009.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "6月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260610_1836703.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "2026年端午节",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260617_1836916.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "7月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202607/t20260711_1838083.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "2026年8月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202608/t20260805_1838674.html"
+   }
+  ],
+  "keywords": [
+   "埃博拉",
+   "病毒病",
+   "入境",
+   "疾控中心",
+   "埃博拉病毒病",
+   "野生动物",
+   "接触"
+  ]
+ },
+ {
+  "id": "cdc-202605-1836140-1",
+  "condition_zh": "吸烟",
+  "condition_en": "Smoking",
+  "category": "environmental_health",
+  "regions": [
+   "全国"
+  ],
+  "season": "2026年5月31日",
+  "diagnosis": {
+   "clinical_features": [
+    "呼吸系统损害",
+    "心血管系统损害",
+    "慢性病发生",
+    "大脑发育影响"
+   ]
+  },
+  "risk_factors": [
+   "青少年吸烟",
+   "吸烟年限长",
+   "吸烟量大",
+   "二手烟暴露"
+  ],
+  "prevention": [
+   "拒绝烟草诱惑",
+   "不吸第一支烟",
+   "青春无烟，未来无限"
+  ],
+  "when_to_seek_care": [
+   "出现呼吸系统或心血管系统症状",
+   "慢性病症状",
+   "大脑发育异常"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "2026年5月31日",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202605/t20260529_1836140.html"
+   }
+  ],
+  "keywords": [
+   "吸烟",
+   "青少年",
+   "烟草",
+   "尼古丁",
+   "成瘾",
+   "二手烟"
+  ]
+ },
+ {
+  "id": "cdc-202606-1836703-1",
+  "condition_zh": "登革热",
+  "condition_en": "Dengue fever",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "6月；2026年端午节；7月；2026年8月",
+  "diagnosis": {
+   "clinical_features": [
+    "突起发热",
+    "全身疼痛",
+    "皮疹",
+    "出血",
+    "白细胞减少",
+    "发热",
+    "疲乏",
+    "厌食",
+    "恶心",
+    "三痛",
+    "三红"
+   ]
+  },
+  "risk_factors": [
+   "伊蚊叮咬"
+  ],
+  "prevention": [
+   "避免蚊子叮咬",
+   "灭蚊和定期清理蚊虫孳生地",
+   "提高主动就医意识",
+   "灭蚊和清理蚊虫孳生地"
+  ],
+  "when_to_seek_care": [
+   "发热、皮疹、头痛、关节痛、肌肉痛",
+   "发热、皮疹、头痛、关节痛、肌肉痛等症状"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "6月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260610_1836703.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "2026年端午节",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260617_1836916.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "7月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202607/t20260711_1838083.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "2026年8月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202608/t20260805_1838674.html"
+   }
+  ],
+  "keywords": [
+   "登革热",
+   "伊蚊"
+  ]
+ },
+ {
+  "id": "cdc-202606-1836703-2",
+  "condition_zh": "基孔肯雅热",
+  "condition_en": "Chikungunya fever",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "6月；2026年端午节；7月；2026年8月",
+  "diagnosis": {
+   "clinical_features": [
+    "发热",
+    "皮疹",
+    "关节疼痛"
+   ]
+  },
+  "risk_factors": [
+   "伊蚊叮咬"
+  ],
+  "prevention": [
+   "避免蚊子叮咬",
+   "灭蚊和定期清理蚊虫孳生地",
+   "提高主动就医意识",
+   "灭蚊和清理蚊虫孳生地"
+  ],
+  "when_to_seek_care": [
+   "发热、皮疹、头痛、关节痛、肌肉痛",
+   "发热、皮疹、头痛、关节痛、肌肉痛等症状"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "6月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260610_1836703.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "2026年端午节",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260617_1836916.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "7月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202607/t20260711_1838083.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "2026年8月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202608/t20260805_1838674.html"
+   }
+  ],
+  "keywords": [
+   "基孔肯雅热",
+   "伊蚊",
+   "关节疼痛"
+  ]
+ },
+ {
+  "id": "cdc-202606-1836703-3",
+  "condition_zh": "寨卡病毒病",
+  "condition_en": "Zika virus disease",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "6月；2026年端午节；7月；2026年8月",
+  "diagnosis": {
+   "clinical_features": [
+    "发热",
+    "皮疹",
+    "结膜炎",
+    "肌痛",
+    "关节痛"
+   ]
+  },
+  "risk_factors": [
+   "伊蚊叮咬"
+  ],
+  "prevention": [
+   "避免蚊子叮咬",
+   "灭蚊和定期清理蚊虫孳生地",
+   "提高主动就医意识",
+   "灭蚊和清理蚊虫孳生地"
+  ],
+  "when_to_seek_care": [
+   "发热、皮疹、头痛、关节痛、肌肉痛",
+   "发热、皮疹、头痛、关节痛、肌肉痛等症状"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "6月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260610_1836703.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "2026年端午节",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260617_1836916.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "7月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202607/t20260711_1838083.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "2026年8月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202608/t20260805_1838674.html"
+   }
+  ],
+  "keywords": [
+   "寨卡病毒病",
+   "伊蚊",
+   "结膜炎",
+   "肌痛"
+  ]
+ },
+ {
+  "id": "cdc-202606-1836703-6",
+  "condition_zh": "发热伴血小板减少综合征",
+  "condition_en": "Severe fever with thrombocytopenia syndrome",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "6月；2026年端午节；2026年8月",
+  "diagnosis": {
+   "clinical_features": [
+    "发热",
+    "血小板减少",
+    "白细胞减少",
+    "乏力",
+    "食欲不振",
+    "血小板及白细胞减少",
+    "恶心",
+    "呕吐",
+    "血小板和白细胞减少",
+    "出血",
+    "皮肤瘀斑",
+    "嗜睡",
+    "精神恍惚"
+   ]
+  },
+  "risk_factors": [
+   "蜱虫叮咬",
+   "接触出血病人",
+   "接触有出血表现的病人、遗体"
+  ],
+  "prevention": [
+   "避免蜱虫叮咬",
+   "穿着长袖长裤",
+   "使用驱避剂",
+   "及时就医",
+   "穿着长袖上衣与长裤",
+   "疫情高发地区出现症状及时就医",
+   "外出时穿着长衣长裤",
+   "提高主动就医意识"
+  ],
+  "when_to_seek_care": [
+   "发热、血小板减少、白细胞减少",
+   "发热、出血等表现"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "6月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260610_1836703.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "2026年端午节",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260617_1836916.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "2026年8月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202608/t20260805_1838674.html"
+   }
+  ],
+  "keywords": [
+   "发热伴血小板减少综合征",
+   "蜱虫",
+   "血小板减少"
+  ]
+ },
+ {
+  "id": "cdc-202606-1836703-9",
+  "condition_zh": "高温中暑",
+  "condition_en": "Heatstroke",
+  "category": "environmental_health",
+  "regions": [
+   "全国"
+  ],
+  "season": "6月；7月",
+  "diagnosis": {
+   "clinical_features": [
+    "头痛",
+    "头晕",
+    "口渴",
+    "多汗",
+    "无力",
+    "皮肤灼热",
+    "面色苍白",
+    "脉搏增快",
+    "四肢无力发酸",
+    "大量出汗",
+    "四肢湿冷",
+    "多器官功能损伤",
+    "惊厥",
+    "昏迷",
+    "谵妄"
+   ]
+  },
+  "risk_factors": [
+   "高温天气",
+   "暑假旅游出行"
+  ],
+  "prevention": [
+   "关注天气预报",
+   "合理安排户外活动",
+   "防晒降温",
+   "补充水分",
+   "关注健康",
+   "补充水分盐分",
+   "关注身体健康",
+   "重视婴幼儿和老人"
+  ],
+  "when_to_seek_care": [
+   "头痛、头晕、口渴、多汗、无力",
+   "头痛、头晕、口渴等症状"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "6月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260610_1836703.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "7月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202607/t20260711_1838083.html"
+   }
+  ],
+  "keywords": [
+   "高温中暑",
+   "高温",
+   "中暑",
+   "防晒",
+   "防暑降温",
+   "补充水分",
+   "婴幼儿",
+   "老人"
+  ]
+ },
+ {
+  "id": "cdc-202606-1836916-8",
+  "condition_zh": "高温中暑",
+  "condition_en": "Heat stroke",
+  "category": "environmental_health",
+  "regions": [
+   "全国"
+  ],
+  "season": "2026年端午节；2026年8月",
+  "diagnosis": {
+   "clinical_features": [
+    "头痛",
+    "头晕",
+    "口渴",
+    "多汗",
+    "四肢无力发酸",
+    "大量出汗",
+    "皮肤灼热",
+    "面色苍白",
+    "脉搏增快",
+    "四肢湿冷",
+    "多器官功能损伤",
+    "惊厥",
+    "昏迷",
+    "谵妄"
+   ]
+  },
+  "risk_factors": [
+   "高温、高湿环境",
+   "长时间高温天气",
+   "高温天气"
+  ],
+  "prevention": [
+   "关注天气预报和高温预警信息",
+   "合理安排户外活动时间",
+   "注意防晒、降温",
+   "补充水分、盐分和矿物质",
+   "关注身体健康",
+   "及时补充水分、盐分和矿物质"
+  ],
+  "when_to_seek_care": [
+   "出现中暑症状",
+   "头痛、头晕、口渴、多汗、四肢无力发酸等症状"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "2026年端午节",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202606/t20260617_1836916.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "2026年8月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202608/t20260805_1838674.html"
+   }
+  ],
+  "keywords": [
+   "高温中暑",
+   "高温",
+   "中暑",
+   "口渴",
+   "多汗"
+  ]
+ },
+ {
+  "id": "cdc-202607-1838083-6",
+  "condition_zh": "甲肝",
+  "condition_en": "Hepatitis A",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "7月",
+  "diagnosis": {
+   "clinical_features": [
+    "发热",
+    "恶心",
+    "呕吐",
+    "厌油",
+    "腹泻",
+    "乏力",
+    "食欲下降",
+    "尿黄",
+    "皮肤粘膜黄染"
+   ]
+  },
+  "risk_factors": [
+   "消化道传播",
+   "食用受污染的食物或水"
+  ],
+  "prevention": [
+   "接种疫苗",
+   "注意饮食卫生",
+   "做好手部清洁"
+  ],
+  "when_to_seek_care": [
+   "发热、恶心、呕吐等症状"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "7月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202607/t20260711_1838083.html"
+   }
+  ],
+  "keywords": [
+   "甲肝",
+   "疫苗接种"
+  ]
+ },
+ {
+  "id": "cdc-202607-1838083-7",
+  "condition_zh": "新型冠状病毒感染",
+  "condition_en": "Novel coronavirus infection",
+  "category": "infectious_disease",
+  "regions": [
+   "全国"
+  ],
+  "season": "7月",
+  "diagnosis": {
+   "clinical_features": [
+    "咽干",
+    "咽痛",
+    "咳嗽",
+    "发热",
+    "肌肉酸痛",
+    "嗅觉味觉减退或丧失",
+    "鼻塞",
+    "流涕",
+    "腹泻",
+    "结膜炎"
+   ]
+  },
+  "risk_factors": [
+   "呼吸道传播",
+   "接触感染者"
+  ],
+  "prevention": [
+   "保持良好卫生习惯",
+   "出现症状及时就医",
+   "佩戴口罩"
+  ],
+  "when_to_seek_care": [
+   "发热、咳嗽等症状"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "7月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202607/t20260711_1838083.html"
+   }
+  ],
+  "keywords": [
+   "新型冠状病毒",
+   "口罩",
+   "卫生习惯"
+  ]
+ },
+ {
+  "id": "cdc-202607-1838083-11",
+  "condition_zh": "洪涝灾害",
+  "condition_en": "Flood disaster",
+  "category": "environmental_health",
+  "regions": [
+   "全国"
+  ],
+  "season": "7月；2026年8月",
+  "diagnosis": {
+   "clinical_features": [
+    "疾病发生"
+   ]
+  },
+  "risk_factors": [
+   "洪涝灾害"
+  ],
+  "prevention": [
+   "饮食饮水安全",
+   "环境清洁消毒",
+   "病媒生物防控",
+   "个人健康防护",
+   "及时就医"
+  ],
+  "when_to_seek_care": [
+   "身体不适"
+  ],
+  "citations": [
+   {
+    "type": "cdc_alert",
+    "title": "7月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202607/t20260711_1838083.html"
+   },
+   {
+    "type": "cdc_alert",
+    "title": "2026年8月",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkts/202608/t20260805_1838674.html"
+   }
+  ],
+  "keywords": [
+   "洪涝灾害",
+   "疾病",
+   "饮用水",
+   "食品安全",
+   "个人卫生",
+   "饮食饮水安全",
+   "环境清洁消毒",
+   "病媒生物防控",
+   "个人健康防护"
+  ]
+ }
+]

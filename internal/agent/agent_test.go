@@ -1,0 +1,402 @@
+package agent
+
+import (
+	"context"
+	"strings"
+	"testing"
+
+	"github.com/doctor-agent/internal/config"
+	"github.com/doctor-agent/internal/knowledge"
+	"github.com/doctor-agent/internal/llm"
+	"github.com/doctor-agent/internal/prompt"
+	"github.com/doctor-agent/internal/safety"
+	"github.com/doctor-agent/internal/session"
+	"github.com/doctor-agent/internal/tools"
+)
+
+// fakeProvider returns preset responses in order; StreamChat forwards the
+// per-call deltas (streamed[i] belongs to the i-th LLM call).
+type fakeProvider struct {
+	responses     []*llm.ChatResponse
+	streamed      [][]string // deltas forwarded on each StreamChat call
+	chatCalls     int
+	captured      [][]llm.Message        // messages seen on each call (for assertions)
+	capturedTools [][]llm.ToolDefinition // tools passed on each call
+}
+
+func (f *fakeProvider) Name() string { return "fake" }
+
+func (f *fakeProvider) Chat(_ context.Context, messages []llm.Message, tools []llm.ToolDefinition, _ string) (*llm.ChatResponse, error) {
+	f.chatCalls++
+	f.captured = append(f.captured, append([]llm.Message(nil), messages...))
+	f.capturedTools = append(f.capturedTools, tools)
+	if len(f.responses) == 0 {
+		return &llm.ChatResponse{}, nil
+	}
+	r := f.responses[0]
+	f.responses = f.responses[1:]
+	return r, nil
+}
+
+func (f *fakeProvider) StreamChat(ctx context.Context, messages []llm.Message, tools []llm.ToolDefinition, systemPrompt string, onDelta func(string)) (*llm.ChatResponse, error) {
+	if f.chatCalls < len(f.streamed) {
+		for _, d := range f.streamed[f.chatCalls] {
+			if onDelta != nil {
+				onDelta(d)
+			}
+		}
+	}
+	return f.Chat(ctx, messages, tools, systemPrompt)
+}
+
+// echoTool is a trivial tool used to exercise the agent's tool-use loop.
+type echoTool struct{}
+
+func (echoTool) Name() string        { return "echo" }
+func (echoTool) Description() string { return "echoes input" }
+func (echoTool) Schema() map[string]interface{} {
+	return map[string]interface{}{"properties": map[string]interface{}{}}
+}
+func (echoTool) Execute(_ context.Context, input map[string]interface{}) (*tools.ToolResult, error) {
+	return &tools.ToolResult{Success: true, Data: map[string]interface{}{"echo": "ok", "input": input}}, nil
+}
+
+func testConfig() *config.Config {
+	return &config.Config{
+		EmergencyEnabled:  false,
+		ScopeGuardEnabled: false,
+		KnowledgeEnabled:  false,
+		PostVerifyEnabled: false,
+		MaxHistoryTurns:   20,
+	}
+}
+
+func newTestAgent(cfg *config.Config, p llm.LLMProvider) *Agent {
+	ag := &Agent{
+		cfg:                cfg,
+		provider:           p,
+		understandProvider: p,
+		composer:           prompt.NewComposer(),
+		registry:           tools.NewRegistry(),
+		router:             tools.NewRouter(),
+		emergencyDetector:  safety.NewEmergencyDetector(),
+		scopeGuard:         safety.NewScopeGuard(),
+		postVerifier:       safety.NewPostVerifier(map[string]string{}),
+		sessions:           make(map[string]*session.Session),
+	}
+	return ag
+}
+
+func TestProcessMessageStreamDeliversDeltas(t *testing.T) {
+	cfg := testConfig()
+	p := &fakeProvider{
+		responses: []*llm.ChatResponse{{Text: "你好世界"}},
+		streamed:  [][]string{{"你好", "世界"}},
+	}
+	ag := newTestAgent(cfg, p)
+	sess := session.New("t1")
+
+	var got []string
+	resp, err := ag.ProcessMessageStream(context.Background(), sess, "测试问题", func(d string) {
+		got = append(got, d)
+	}, nil)
+	if err != nil {
+		t.Fatalf("ProcessMessageStream: %v", err)
+	}
+	if strings.Join(got, "") != "你好世界" {
+		t.Errorf("deltas = %v, want [你好 世界]", got)
+	}
+	if !strings.HasPrefix(resp.Text, "你好世界") {
+		t.Errorf("resp.Text = %q, want prefix 你好世界", resp.Text)
+	}
+	if resp.DisclaimerSent {
+		t.Error("disclaimer injection removed; flag should stay false")
+	}
+	// User + assistant messages recorded once each.
+	if msgs := sess.GetMessages(); len(msgs) != 2 {
+		t.Errorf("session messages = %d, want 2", len(msgs))
+	}
+}
+
+func TestProcessMessageStreamToolLoop(t *testing.T) {
+	cfg := testConfig()
+	p := &fakeProvider{
+		responses: []*llm.ChatResponse{
+			{ToolCalls: []llm.ToolCall{{ID: "c1", Name: "echo", Arguments: map[string]any{"a": "1"}}}},
+			{Text: "工具执行完毕后的最终回答"},
+		},
+		streamed: [][]string{nil, {"工具执行完毕后的最终回答"}},
+	}
+	ag := newTestAgent(cfg, p)
+	ag.registry.Register(echoTool{})
+	sess := session.New("t2")
+
+	var deltas []string
+	resp, err := ag.ProcessMessageStream(context.Background(), sess, "帮我查一下", func(d string) { deltas = append(deltas, d) }, nil)
+	if err != nil {
+		t.Fatalf("ProcessMessageStream: %v", err)
+	}
+	if !strings.HasPrefix(resp.Text, "工具执行完毕后的最终回答") {
+		t.Errorf("resp.Text = %q, want prefix 工具执行完毕后的最终回答", resp.Text)
+	}
+	if p.chatCalls != 2 {
+		t.Errorf("LLM calls = %d, want 2 (tool round + final round)", p.chatCalls)
+	}
+	if len(deltas) != 1 || deltas[0] != "工具执行完毕后的最终回答" {
+		t.Errorf("deltas = %v", deltas)
+	}
+	if msgs := sess.GetMessages(); len(msgs) != 2 {
+		t.Errorf("session messages = %d, want 2", len(msgs))
+	}
+	// Second LLM call must see: user + assistant(tool_calls) + tool message
+	// answering the tool_call_id — OpenAI-compatible endpoints 400 otherwise.
+	if len(p.captured) != 2 {
+		t.Fatalf("captured calls = %d, want 2", len(p.captured))
+	}
+	second := p.captured[1]
+	if len(second) != 3 {
+		t.Fatalf("second call messages = %d, want 3 (user + assistant + tool)", len(second))
+	}
+	if second[1].Role != "assistant" || len(second[1].ToolCalls) != 1 || second[1].ToolCalls[0].ID != "c1" {
+		t.Errorf("second call msg[1] = %+v, want assistant with tool_call c1", second[1])
+	}
+	if second[2].Role != "tool" || second[2].ToolCallID != "c1" || second[2].Content == "" {
+		t.Errorf("second call msg[2] = %+v, want tool message with ToolCallID c1 and content", second[2])
+	}
+}
+
+func TestProcessMessageStreamMaxIterationsFallback(t *testing.T) {
+	cfg := testConfig()
+	// LLM calls tools for 4 iterations; on the 5th (last) iteration tools
+	// are stripped, so LLM returns a text answer directly — no fallback needed.
+	toolResp := &llm.ChatResponse{ToolCalls: []llm.ToolCall{{ID: "c1", Name: "echo", Arguments: map[string]any{"a": "1"}}}}
+	p := &fakeProvider{
+		responses: []*llm.ChatResponse{
+			toolResp, toolResp, toolResp, toolResp, // 4 tool-call rounds
+			{Text: "根据已有信息的最终回答"}, // 5th round (nil tools → text)
+		},
+		streamed: [][]string{nil, nil, nil, nil, {"根据已有信息的最终回答"}},
+	}
+	ag := newTestAgent(cfg, p)
+	ag.registry.Register(echoTool{})
+	sess := session.New("maxiter")
+
+	var deltas []string
+	resp, err := ag.ProcessMessageStream(context.Background(), sess, "反复查询", func(d string) { deltas = append(deltas, d) }, nil)
+	if err != nil {
+		t.Fatalf("ProcessMessageStream should not error on max iterations, got: %v", err)
+	}
+	if !strings.HasPrefix(resp.Text, "根据已有信息的最终回答") {
+		t.Errorf("resp.Text = %q, want fallback text", resp.Text)
+	}
+	// 4 tool rounds + 1 final text round = 5 LLM calls (no 6th fallback)
+	if p.chatCalls != 5 {
+		t.Errorf("LLM calls = %d, want 5 (4 tool + 1 final-text)", p.chatCalls)
+	}
+	// The 5th call (last iteration) must have nil/empty tools
+	if len(p.capturedTools) != 5 {
+		t.Fatalf("capturedTools = %d entries, want 5", len(p.capturedTools))
+	}
+	if lastTools := p.capturedTools[4]; len(lastTools) != 0 {
+		t.Errorf("last iteration tools = %v, want nil/empty (tools stripped)", lastTools)
+	}
+}
+
+func TestEmergencyBypassesLLM(t *testing.T) {
+	cfg := testConfig()
+	cfg.EmergencyEnabled = true
+	p := &fakeProvider{}
+	ag := newTestAgent(cfg, p)
+	sess := session.New("t3")
+
+	var deltas []string
+	resp, err := ag.ProcessMessageStream(context.Background(), sess, "我突然胸口剧痛，喘不上气", func(d string) {
+		deltas = append(deltas, d)
+	}, nil)
+	if err != nil {
+		t.Fatalf("ProcessMessageStream: %v", err)
+	}
+	if !resp.IsEmergency {
+		t.Error("expected emergency response")
+	}
+	if p.chatCalls != 0 {
+		t.Errorf("LLM should not be called on emergency, got %d calls", p.chatCalls)
+	}
+	if len(deltas) != 0 {
+		t.Errorf("emergency must not stream deltas, got %v", deltas)
+	}
+	if len(sess.GetMessages()) != 0 {
+		t.Error("emergency response must not be stored in session")
+	}
+}
+
+func TestSessionPersistenceDuringProcessing(t *testing.T) {
+	cfg := testConfig()
+	cfg.SessionDir = t.TempDir()
+
+	p := &fakeProvider{
+		responses: []*llm.ChatResponse{{Text: "持久化回答"}},
+		streamed:  [][]string{{"持久化回答"}},
+	}
+	ag := newTestAgent(cfg, p)
+
+	fs, err := session.NewFileStore(cfg.SessionDir)
+	if err != nil {
+		t.Fatalf("NewFileStore: %v", err)
+	}
+	ag.sessionStore = fs
+
+	sess := session.New("persist-1")
+	if _, err := ag.ProcessMessageStream(context.Background(), sess, "问题", nil, nil); err != nil {
+		t.Fatalf("ProcessMessageStream: %v", err)
+	}
+
+	restored, err := fs.Load("persist-1")
+	if err != nil || restored == nil {
+		t.Fatalf("Load after processing: %v, %v", restored, err)
+	}
+	if msgs := restored.GetMessages(); len(msgs) != 2 {
+		t.Errorf("persisted messages = %d, want 2", len(msgs))
+	}
+	if restored.DisclaimerSent {
+		t.Error("disclaimer no longer injected; flag should stay false")
+	}
+}
+
+func TestGetOrCreateSessionRestoresFromDisk(t *testing.T) {
+	cfg := testConfig()
+	cfg.SessionDir = t.TempDir()
+
+	fs, _ := session.NewFileStore(cfg.SessionDir)
+	// Pre-seed a session file.
+	seed := session.New("restored-1")
+	seed.AddUserMessage("历史问题")
+	seed.AddAssistantMessage("历史回答")
+	if err := fs.Save(seed); err != nil {
+		t.Fatalf("seed Save: %v", err)
+	}
+
+	ag := newTestAgent(cfg, &fakeProvider{})
+	ag.sessionStore = fs
+
+	sess := ag.GetOrCreateSession("restored-1")
+	if len(sess.GetMessages()) != 2 {
+		t.Fatalf("restored session messages = %d, want 2", len(sess.GetMessages()))
+	}
+
+	// Same instance is served from memory on the second call.
+	if sess2 := ag.GetOrCreateSession("restored-1"); sess2 != sess {
+		t.Error("second GetOrCreateSession returned a different instance")
+	}
+}
+
+// fakeRetriever returns a trivial hit so retrieve steps can be exercised.
+type fakeRetriever struct{}
+
+func (fakeRetriever) Retrieve(_ context.Context, _ string, _ int) ([]knowledge.RetrievalResult, error) {
+	return []knowledge.RetrievalResult{{Score: 0.9}}, nil
+}
+func (fakeRetriever) RetrieveDrugs(_ context.Context, _ string, _ int) ([]knowledge.DrugRetrievalResult, error) {
+	return nil, nil
+}
+func (fakeRetriever) Name() string { return "fake-retriever" }
+
+func TestProcessMessageStreamEmitsSteps(t *testing.T) {
+	cfg := testConfig()
+	cfg.KnowledgeEnabled = true // 触发 retrieve 事件
+	p := &fakeProvider{
+		responses: []*llm.ChatResponse{
+			{ToolCalls: []llm.ToolCall{{ID: "c1", Name: "echo", Arguments: map[string]any{}}}},
+			{Text: "最终回答"},
+		},
+		streamed: [][]string{nil, {"最终回答"}},
+	}
+	ag := newTestAgent(cfg, p)
+	ag.retriever = fakeRetriever{}
+	ag.registry.Register(echoTool{})
+	sess := session.New("steps-1")
+
+	var steps []StepEvent
+	if _, err := ag.ProcessMessageStream(context.Background(), sess, "帮我查", nil, func(ev StepEvent) {
+		steps = append(steps, ev)
+	}); err != nil {
+		t.Fatalf("ProcessMessageStream: %v", err)
+	}
+
+	var types []string
+	for _, s := range steps {
+		types = append(types, s.Type)
+	}
+	// 预期顺序：retrieve → generate → tool_call → tool_result → generate
+	want := []string{"retrieve", "generate", "tool_call", "tool_result", "generate"}
+	if strings.Join(types, ",") != strings.Join(want, ",") {
+		t.Errorf("step types = %v, want %v", types, want)
+	}
+	// 摘要为中文、可读
+	if len(steps) > 0 && steps[0].Summary == "" {
+		t.Error("step summary must not be empty")
+	}
+	// 工具名随事件携带
+	for _, s := range steps {
+		if s.Type == "tool_call" && s.Tool != "echo" {
+			t.Errorf("tool_call step Tool = %q, want echo", s.Tool)
+		}
+	}
+}
+
+func TestEmergencyStepEmitted(t *testing.T) {
+	cfg := testConfig()
+	cfg.EmergencyEnabled = true
+	ag := newTestAgent(cfg, &fakeProvider{})
+	sess := session.New("steps-2")
+
+	var steps []StepEvent
+	if _, err := ag.ProcessMessageStream(context.Background(), sess, "我突然胸口剧痛，喘不上气", nil, func(ev StepEvent) {
+		steps = append(steps, ev)
+	}); err != nil {
+		t.Fatalf("ProcessMessageStream: %v", err)
+	}
+	if len(steps) != 1 || steps[0].Type != "emergency" {
+		t.Errorf("steps = %+v, want single emergency step", steps)
+	}
+}
+
+// TestToolLoopCarriesToolCallsToNextTurn guards against the Zhipu/OpenAI 400
+// "Invalid assistant message: content or tool_calls must be set": the
+// assistant tool-use message sent on the next round must carry ToolCalls.
+func TestToolLoopCarriesToolCallsToNextTurn(t *testing.T) {
+	cfg := testConfig()
+	p := &fakeProvider{
+		responses: []*llm.ChatResponse{
+			{ToolCalls: []llm.ToolCall{{ID: "c1", Name: "echo", Arguments: map[string]any{"a": "1"}}}},
+			{Text: "最终回答"},
+		},
+		streamed: [][]string{nil, {"最终回答"}},
+	}
+	ag := newTestAgent(cfg, p)
+	ag.registry.Register(echoTool{})
+	sess := session.New("toolcalls-1")
+
+	if _, err := ag.ProcessMessageStream(context.Background(), sess, "帮我查", nil, nil); err != nil {
+		t.Fatalf("ProcessMessageStream: %v", err)
+	}
+
+	if len(p.captured) != 2 {
+		t.Fatalf("LLM calls = %d, want 2", len(p.captured))
+	}
+	// 第二轮中应有一条 assistant 消息携带 ToolCalls（在工具结果 user 消息之前）
+	second := p.captured[1]
+	var assistant *llm.Message
+	for i := range second {
+		if second[i].Role == "assistant" && len(second[i].ToolCalls) > 0 {
+			assistant = &second[i]
+			break
+		}
+	}
+	if assistant == nil {
+		t.Fatal("second round has no assistant message with ToolCalls")
+	}
+	if len(assistant.ToolCalls) != 1 || assistant.ToolCalls[0].Name != "echo" {
+		t.Errorf("assistant ToolCalls = %+v, want [echo]", assistant.ToolCalls)
+	}
+}

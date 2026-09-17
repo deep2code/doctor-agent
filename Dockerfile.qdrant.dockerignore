@@ -1,0 +1,16 @@
+# Dockerfile.qdrant 专属 dockerignore（白名单式，BuildKit 自动识别，
+# 完全取代根 .dockerignore 对本构建生效）。
+#
+# 根 .dockerignore 排除了 internal/knowledge/gz（给 app 镜像瘦身），
+# 而本镜像恰恰需要 gz —— 所以这里用白名单把构建所需的最小集合放进来：
+#   go.mod / go.sum          编译烘焙工具
+#   cmd/                     cmd/vector-bake 烘焙工具源码
+#   internal/                vector-bake 依赖包（config/embedding/knowledge 等）
+#   internal/knowledge/gz    51 个知识库压缩数据集（数据层 + 烘焙输入）
+# 排除 internal/knowledge/data（205MB 源 JSON，只有 make_gz.py 用它）。
+**
+!go.mod
+!go.sum
+!cmd/**
+!internal/**
+internal/knowledge/data/**

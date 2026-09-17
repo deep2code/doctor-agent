@@ -1,0 +1,293 @@
+[
+ {
+  "id": "elderly-osteoporosis-2011-1",
+  "condition_zh": "骨质疏松症",
+  "condition_en": "Osteoporosis",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "疼痛、驼背、身高降低和骨折"
+   ]
+  },
+  "risk_factors": [
+   "老龄、女性绝经、母系家族史、低体重、性激素低下、吸烟、过度饮酒或咖啡、体力活动少、饮食中钙和/或维生素D缺乏、有影响骨代谢的疾病、应用影响骨代谢的药物"
+  ],
+  "prevention": [
+   "均衡饮食、适量运动、增加日光照射"
+  ],
+  "treatment": [
+   {
+    "name": "药物治疗",
+    "details": "抗骨吸收药物、促进骨形成药物以及一些多重机制的药物"
+   }
+  ],
+  "when_to_seek_care": [
+   "轻微碰撞或跌倒后伤到骨骼、连续3个月以上服用激素类药品、身高降低、过度饮酒、吸烟、腹泻、家族髋部骨折史、女士45岁前绝经、男士阳痿或缺乏性欲、连续12个月以上无月经（非怀孕期间）"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防治骨质疏松知识要点(卫办疾控函〔2011〕542号)",
+    "journal": "",
+    "year": 2011,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.bjchy.gov.cn/affair/domain/yl/8a24fe83302019b101311d7b75e80e4e.html"
+   }
+  ],
+  "keywords": [
+   "骨质疏松症、骨密度、预防、治疗、高危人群"
+  ]
+ },
+ {
+  "id": "elderly-osteoporosis-2011-2",
+  "condition_zh": "骨质疏松症危害",
+  "condition_en": "Harm of Osteoporosis",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "骨折、残疾、死亡率高"
+   ]
+  },
+  "risk_factors": [
+   "骨质疏松症"
+  ],
+  "prevention": [
+   "早诊断、规范治疗"
+  ],
+  "treatment": [
+   {
+    "name": "药物治疗",
+    "details": "抗骨吸收药物、促进骨形成药物以及一些多重机制的药物"
+   }
+  ],
+  "when_to_seek_care": [
+   "骨折、残疾、死亡率高"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防治骨质疏松知识要点(卫办疾控函〔2011〕542号)",
+    "journal": "",
+    "year": 2011,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.bjchy.gov.cn/affair/domain/yl/8a24fe83302019b101311d7b75e80e4e.html"
+   }
+  ],
+  "keywords": [
+   "骨质疏松症、骨折、残疾、死亡率、预防、治疗"
+  ]
+ },
+ {
+  "id": "elderly-osteoporosis-2011-3",
+  "condition_zh": "骨质疏松症病因",
+  "condition_en": "Causes of Osteoporosis",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "先天因素、后天因素"
+   ]
+  },
+  "risk_factors": [
+   "种族、性别、年龄、家族史、药物、疾病、营养、生活方式"
+  ],
+  "prevention": [
+   "均衡饮食、适量运动、增加日光照射"
+  ],
+  "treatment": [
+   {
+    "name": "药物治疗",
+    "details": "抗骨吸收药物、促进骨形成药物以及一些多重机制的药物"
+   }
+  ],
+  "when_to_seek_care": [
+   "骨质疏松症症状"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防治骨质疏松知识要点(卫办疾控函〔2011〕542号)",
+    "journal": "",
+    "year": 2011,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.bjchy.gov.cn/affair/domain/yl/8a24fe83302019b101311d7b75e80e4e.html"
+   }
+  ],
+  "keywords": [
+   "骨质疏松症、病因、预防、治疗"
+  ]
+ },
+ {
+  "id": "elderly-osteoporosis-2011-4",
+  "condition_zh": "骨质疏松症高危人群",
+  "condition_en": "High-risk Groups of Osteoporosis",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "老龄、女性绝经、母系家族史、低体重、性激素低下、吸烟、过度饮酒或咖啡、体力活动少、饮食中钙和/或维生素D缺乏、有影响骨代谢的疾病、应用影响骨代谢的药物"
+   ]
+  },
+  "risk_factors": [
+   "老龄、女性绝经、母系家族史、低体重、性激素低下、吸烟、过度饮酒或咖啡、体力活动少、饮食中钙和/或维生素D缺乏、有影响骨代谢的疾病、应用影响骨代谢的药物"
+  ],
+  "prevention": [
+   "早诊断、规范治疗"
+  ],
+  "treatment": [
+   {
+    "name": "药物治疗",
+    "details": "抗骨吸收药物、促进骨形成药物以及一些多重机制的药物"
+   }
+  ],
+  "when_to_seek_care": [
+   "骨质疏松症症状"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防治骨质疏松知识要点(卫办疾控函〔2011〕542号)",
+    "journal": "",
+    "year": 2011,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.bjchy.gov.cn/affair/domain/yl/8a24fe83302019b101311d7b75e80e4e.html"
+   }
+  ],
+  "keywords": [
+   "骨质疏松症、高危人群、预防、治疗"
+  ]
+ },
+ {
+  "id": "elderly-osteoporosis-2011-5",
+  "condition_zh": "骨质疏松症预防",
+  "condition_en": "Prevention of Osteoporosis",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "均衡饮食、适量运动、增加日光照射"
+   ]
+  },
+  "risk_factors": [
+   "老龄、女性绝经、母系家族史、低体重、性激素低下、吸烟、过度饮酒或咖啡、体力活动少、饮食中钙和/或维生素D缺乏、有影响骨代谢的疾病、应用影响骨代谢的药物"
+  ],
+  "prevention": [
+   "均衡饮食、适量运动、增加日光照射"
+  ],
+  "treatment": [
+   {
+    "name": "药物治疗",
+    "details": "抗骨吸收药物、促进骨形成药物以及一些多重机制的药物"
+   }
+  ],
+  "when_to_seek_care": [
+   "骨质疏松症症状"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防治骨质疏松知识要点(卫办疾控函〔2011〕542号)",
+    "journal": "",
+    "year": 2011,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.bjchy.gov.cn/affair/domain/yl/8a24fe83302019b101311d7b75e80e4e.html"
+   }
+  ],
+  "keywords": [
+   "骨质疏松症、预防、治疗"
+  ]
+ },
+ {
+  "id": "elderly-osteoporosis-2011-6",
+  "condition_zh": "骨质疏松症治疗",
+  "condition_en": "Treatment of Osteoporosis",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "药物治疗、基础措施"
+   ]
+  },
+  "risk_factors": [
+   "老龄、女性绝经、母系家族史、低体重、性激素低下、吸烟、过度饮酒或咖啡、体力活动少、饮食中钙和/或维生素D缺乏、有影响骨代谢的疾病、应用影响骨代谢的药物"
+  ],
+  "prevention": [
+   "均衡饮食、适量运动、增加日光照射"
+  ],
+  "treatment": [
+   {
+    "name": "药物治疗",
+    "details": "抗骨吸收药物、促进骨形成药物以及一些多重机制的药物"
+   },
+   {
+    "name": "基础措施",
+    "details": "调整生活方式、骨健康基本补充剂"
+   }
+  ],
+  "when_to_seek_care": [
+   "骨质疏松症症状"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防治骨质疏松知识要点(卫办疾控函〔2011〕542号)",
+    "journal": "",
+    "year": 2011,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.bjchy.gov.cn/affair/domain/yl/8a24fe83302019b101311d7b75e80e4e.html"
+   }
+  ],
+  "keywords": [
+   "骨质疏松症、治疗、预防"
+  ]
+ },
+ {
+  "id": "elderly-osteoporosis-2011-7",
+  "condition_zh": "骨质疏松症误区",
+  "condition_en": "Misconceptions about Osteoporosis",
+  "category": "elderly_care",
+  "diagnosis": {
+   "clinical_features": [
+    "误区认知"
+   ]
+  },
+  "risk_factors": [
+   "误区认知"
+  ],
+  "prevention": [
+   "正确认知、正规治疗"
+  ],
+  "treatment": [
+   {
+    "name": "药物治疗",
+    "details": "抗骨吸收药物、促进骨形成药物以及一些多重机制的药物"
+   }
+  ],
+  "when_to_seek_care": [
+   "误区认知"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防治骨质疏松知识要点(卫办疾控函〔2011〕542号)",
+    "journal": "",
+    "year": 2011,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.bjchy.gov.cn/affair/domain/yl/8a24fe83302019b101311d7b75e80e4e.html"
+   }
+  ],
+  "keywords": [
+   "骨质疏松症、误区、正确认知、正规治疗"
+  ]
+ }
+]

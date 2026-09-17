@@ -33,6 +33,7 @@ type VerificationReport struct {
 }
 
 // HasIssues reports whether any error or warning was found.
+// TODO: remove if not used (deadcode)
 func (r *VerificationReport) HasIssues() bool {
 	return len(r.Errors) > 0 || len(r.Warnings) > 0 ||
 		len(r.EntryIDIssues) > 0 || len(r.CitationIssues) > 0

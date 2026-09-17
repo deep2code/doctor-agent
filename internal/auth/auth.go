@@ -41,6 +41,7 @@ type AdminCreateUserInput struct {
 }
 
 // Validate validates registration input.
+// TODO: remove if not used (deadcode)
 func (i *RegisterInput) Validate() error {
 	i.Username = strings.TrimSpace(i.Username)
 	i.Password = strings.TrimSpace(i.Password)
@@ -65,6 +66,7 @@ func (i *RegisterInput) Validate() error {
 }
 
 // Register creates a new user account (admin-only).
+// TODO: remove if not used (deadcode)
 func (s *Service) Register(input *RegisterInput) (*database.User, error) {
 	// Public registration is disabled - use AdminCreateUser instead
 	return nil, fmt.Errorf("公开注册已禁用，请联系管理员创建账号")
@@ -193,6 +195,7 @@ func (s *Service) Login(input *LoginInput) (*database.User, error) {
 }
 
 // GetUser retrieves a user by ID.
+// TODO: remove if not used (deadcode)
 func (s *Service) GetUser(id string) (*database.User, error) {
 	return s.db.GetUser(id)
 }
@@ -239,6 +242,7 @@ type Token struct {
 }
 
 // GenerateToken generates a simple token (in production, use JWT).
+// TODO: remove if not used (deadcode)
 func GenerateToken(user *database.User) *Token {
 	return &Token{
 		UserID:    user.ID,
@@ -248,6 +252,7 @@ func GenerateToken(user *database.User) *Token {
 }
 
 // ValidateToken validates a token string (simplified - in production use JWT).
+// TODO: remove if not used (deadcode)
 func ValidateToken(tokenStr string, db *database.DB) (*Token, error) {
 	if tokenStr == "" {
 		return nil, fmt.Errorf("token is empty")

@@ -65,7 +65,7 @@ graph TB
     end
 
     subgraph "工具系统 (internal/tools)"
-        Q --> S[34个工具]
+        Q --> S[14个活跃工具]
         S --> S1[药品类]
         S --> S2[疾病类]
         S --> S3[遗传类]
@@ -127,6 +127,8 @@ graph TB
 
 ## 工具系统
 
+14个活跃工具已整合为统一检索架构：
+
 ```mermaid
 graph LR
     subgraph "Tool接口"
@@ -142,47 +144,29 @@ graph LR
         F --> I[GetToolDescriptions]
     end
 
-    subgraph "34个工具"
+    subgraph "14个活跃工具"
         J[药品类] --> J1[drug_safety_check]
-        J --> J2[drug_lookup]
-        J --> J3[drug_interaction_check]
-        J --> J4[drug_label_lookup]
-        J --> J5[eml_lookup]
-        J --> J6[nmpa_drug_lookup]
-        J --> J7[sider_lookup]
+        J --> J2[drug_interaction_check]
+        J --> J3[drug_label_lookup]
 
         K[疾病类] --> K1[symptom_triage]
-        K --> K2[disease_symptom_lookup]
-        K --> K3[disease_drug_lookup]
-        K --> K4[target_disease_lookup]
-        K --> K5[disease_encyclopedia_lookup]
-        K --> K6[icd10_lookup]
+        K --> K2[medical_kg_lookup]
+        K --> K3[cpubmed_kg_lookup]
 
         L[遗传类] --> L1[genetic_risk_calculator]
-        L --> L2[variant_lookup]
 
-        M[文献类] --> M1[reference_lookup]
-        M --> M2[literature_search]
-        M --> M3[medline_search]
-        M --> M4[msd_search]
+        M[检索类] --> M1[knowledge_search]
+        M --> M2[exact_lookup]
 
-        N[问答类] --> N1[cpubmed_kg_lookup]
-        N --> N2[medical_kg_lookup]
-        N --> N3[huatuo_qa_lookup]
-        N --> N4[medical_qa_lookup]
+        N[分析类] --> N1[lab_report_analyze]
+        N --> N2[visit_prep]
 
-        O[育儿类] --> O1[nhc_search]
-        O --> O2[fhs_search]
-        O --> O3[aap_search]
-
-        P[其他] --> P1[lab_interpret]
-        P --> P2[lab_report_interpret]
-        P --> P3[triage_department]
-        P --> P4[medical_image_analyze]
-        P --> P5[ttd_lookup]
-        P --> P6[food_risk_analyzer]
+        O[多媒体] --> O1[food_risk_analyzer]
+        O --> O2[medical_image_analyze]
     end
 ```
+
+> 📝 注：其他工具（reference_lookup, literature_search, msd_search, variant_lookup, medline_search, drug_lookup, eml_lookup, nhc_search, fhs_search, aap_search, lab_interpreter, icd10_lookup, nmpa_drug_lookup, disease_encyclopedia_lookup, huatuo_qa_lookup, body_part_lookup 等）已整合到 knowledge_search 统一检索工具中。
 
 ## HTTP层
 

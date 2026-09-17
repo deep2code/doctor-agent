@@ -16,6 +16,7 @@ type KeywordRetriever struct {
 }
 
 // NewKeywordRetriever creates a keyword retriever backed by the given store.
+// TODO: remove if not used (deadcode)
 func NewKeywordRetriever(store *Store) *KeywordRetriever {
 	return &KeywordRetriever{store: store}
 }
@@ -458,6 +459,8 @@ type IDF struct {
 	avgDocLength float64 // average document length across the corpus
 }
 
+// BM25Score computes the BM25 score for a query against a document.
+// TODO: remove if not used (deadcode)
 func BM25Score(queryTokens []string, docTokens []string, idf *IDF, k1, b float64) float64 {
 	if idf == nil || idf.totalDocs == 0 {
 		return 0

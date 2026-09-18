@@ -836,6 +836,17 @@ func (s *Store) MedlinePlusAsKnowledge() []KnowledgeEntry {
 // DiseaseEncyclopediaAsKnowledge projects the CMeKG disease encyclopedia
 // (8807 diseases) as KnowledgeEntry. Only name + symptoms + key fields are
 // mapped so keyword/bigram recall works; the full structured record stays
+// symptomKeywords maps disease categories to common symptom keywords that
+// patients use. These are injected into disease encyclopedia entries to
+// improve recall for colloquial queries like "喉咙痛" matching "咽炎".
+var symptomKeywords = map[string][]string{
+	"五官科": {"咽痛", "喉咙痛", "嗓子疼", "咽喉痛", "咽干", "喉咙痒", "吞咽痛", "咽喉肿痛", "咽部灼热", "声音嘶哑", "口干", "口腔溃疡", "牙痛", "牙龈出血", "鼻出血", "耳鸣", "听力下降", "眩晕", "头痛", "头晕"},
+	"耳鼻喉科": {"咽痛", "喉咙痛", "嗓子疼", "咽喉痛", "咽干", "喉咙痒", "吞咽痛", "咽喉肿痛", "咽部灼热", "声音嘶哑", "鼻塞", "流鼻涕", "鼻痒", "打喷嚏", "嗅觉减退", "耳鸣", "耳痛", "听力下降", "眩晕"},
+	"呼吸内科": {"咳嗽", "咳痰", "发热", "发烧", "胸闷", "气促", "呼吸困难", "咽痛", "喉咙痛", "嗓子疼", "咽喉痛", "喘息", "胸痛", "咯血"},
+	"消化内科": {"腹痛", "肚子痛", "腹胀", "便秘", "拉肚子", "腹泻", "恶心", "呕吐", "反酸", "烧心", "食欲不振", "消化不良", "便血", "黑便"},
+	"儿科": {"发烧", "发热", "咳嗽", "拉肚子", "腹泻", "呕吐", "皮疹", "抽搐", "哭闹", "出疹子"},
+}
+
 // available via exact_lookup / knowledge_search dataset=disease_encyclopedia.
 func (s *Store) DiseaseEncyclopediaAsKnowledge() []KnowledgeEntry {
 	_ = s.ensureDiseaseEnc()
@@ -845,6 +856,13 @@ func (s *Store) DiseaseEncyclopediaAsKnowledge() []KnowledgeEntry {
 	for i := range s.DiseaseEncyclopedias {
 		d := &s.DiseaseEncyclopedias[i]
 		kws := []string{d.NameZH}
+		// Inject symptom keywords based on disease category for better recall
+		// of colloquial patient queries (e.g., "喉咙痛" → "咽炎").
+		for _, cat := range d.Category {
+			if extra, ok := symptomKeywords[cat]; ok {
+				kws = append(kws, extra...)
+			}
+		}
 		kws = append(kws, d.Symptoms...)
 		var bodyParts []string
 		if d.Description != "" {

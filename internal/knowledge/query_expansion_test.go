@@ -157,3 +157,27 @@ func TestRetrieverInfantGasTeethBitingRecall(t *testing.T) {
 		}
 	}
 }
+
+// TestRetrieverThroatPainRecall 验证"喉咙痛"能检索到咽喉疾病
+// 回归测试: 防止同义词扩展与知识库关键词脱节导致检索失效
+func TestRetrieverThroatPainRecall(t *testing.T) {
+	// 测试同义词扩展是否包含喉咙痛相关词
+	expanded := ExpandQuery("喉咙痛")
+
+	// 验证扩展包含咽喉疾病相关词
+	expected := []string{"嗓子疼", "咽喉痛", "咽痛", "嗓子痛"}
+	missing := []string{}
+	for _, w := range expected {
+		if !strings.Contains(expanded, w) {
+			missing = append(missing, w)
+		}
+	}
+	if len(missing) > 0 {
+		t.Errorf("喉咙痛扩展缺少关键词: %v，实际扩展: %q", missing, expanded)
+	}
+
+	// 验证扩展后的查询包含"咽痛"等关键词
+	if !strings.Contains(expanded, "咽痛") {
+		t.Errorf("喉咙痛扩展应包含'咽痛'，实际: %q", expanded)
+	}
+}

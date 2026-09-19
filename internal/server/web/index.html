@@ -959,10 +959,10 @@
       }
     }
     generateQR();
-    // 复制二维码按钮
+    // 复制二维码按钮 - 优先复制图片，失败则复制链接文本
     copyBtn.addEventListener("click", function () {
       // 检查 clipboard API 是否可用
-      if (!navigator.clipboard || !navigator.clipboard.write) {
+      if (!navigator.clipboard) {
         copyBtn.textContent = "❌ 浏览器不支持";
         setTimeout(function() { copyBtn.textContent = "📋 复制二维码"; }, 2000);
         return;
@@ -977,18 +977,34 @@
         c.getContext("2d").drawImage(target, 0, 0);
         c.toBlob(function(blob) {
           if (!blob) {
-            copyBtn.textContent = "❌ 复制失败";
-            setTimeout(function() { copyBtn.textContent = "📋 复制二维码"; }, 2000);
+            // 降级：复制链接文本
+            fallbackCopyText();
             return;
           }
           navigator.clipboard.write([new ClipboardItem({"image/png": blob})]).then(function() {
             copyBtn.textContent = "✅ 已复制";
             setTimeout(function() { copyBtn.textContent = "📋 复制二维码"; }, 2000);
           }).catch(function() {
+            // 降级：复制链接文本
+            fallbackCopyText();
+          });
+        }, "image/png");
+      }
+      function fallbackCopyText() {
+        // 降级方案：复制分享链接文本
+        var link = shareLinkInput ? shareLinkInput.value : window.location.origin + "/share/" + state.convId;
+        if (navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(link).then(function() {
+            copyBtn.textContent = "✅ 已复制链接";
+            setTimeout(function() { copyBtn.textContent = "📋 复制二维码"; }, 2000);
+          }).catch(function() {
             copyBtn.textContent = "❌ 复制失败";
             setTimeout(function() { copyBtn.textContent = "📋 复制二维码"; }, 2000);
           });
-        }, "image/png");
+        } else {
+          copyBtn.textContent = "❌ 复制失败";
+          setTimeout(function() { copyBtn.textContent = "📋 复制二维码"; }, 2000);
+        }
       }
       if (canvas) {
         doCopy(canvas);

@@ -1,6 +1,8 @@
+// Package knowledge provides medical knowledge retrieval and query expansion.
 package knowledge
 
 import (
+	_ "embed"
 	"encoding/json"
 	"fmt"
 	"log/slog"
@@ -9,12 +11,13 @@ import (
 	"sync"
 )
 
+//go:embed alias_map.json
+var embeddedAliasMap []byte
+
+// synonymGroups maps colloquial symptom/disease words to their clinical/equivalent
+
 // synonymGroups maps colloquial symptom/disease words to their clinical/equivalent
 // forms (pediatric-focused). Retrieval matches by substring ("query contains
-// keyword"), so a query like "突然大哭" never contains the indexed keyword
-// "哭闹" and the entry is missed. ExpandQuery appends the rest of each group
-// whose any member appears in the query, so all equivalent forms become
-// matchable. Extend this list for high-frequency colloquialisms; use
 // LoadAliasFile for bulk dictionaries (e.g. imported from CHIP-2019 Yidu-N7K
 // or ICD-10 Chinese synonym tables).
 var synonymGroups = [][]string{
@@ -294,6 +297,7 @@ var (
 	aliasMap = map[string][]string{}
 )
 
+
 // LoadAliasFile loads an optional JSON dictionary mapping colloquial phrases
 // to their standard terms and synonyms:
 //
@@ -304,23 +308,65 @@ var (
 // Keys should be ≥2 runes — single-character keys substring-match far too
 // broadly. A missing file is not an error: the built-in synonymGroups still
 // apply. Call once at startup before serving traffic.
+//
+// If no external path is provided, the embedded alias_map.json is used.
+// External files take precedence and can add/override entries.
 func LoadAliasFile(path string) error {
+	// First, load embedded data if available
+	if len(embeddedAliasMap) > 0 {
+		// Use map[string]interface{} to handle _comment field
+		m := map[string]interface{}{}
+		if err := json.Unmarshal(embeddedAliasMap, &m); err != nil {
+			return fmt.Errorf("parsing embedded alias map: %w", err)
+		}
+		// Convert to map[string][]string, ignoring _comment
+		aliasData := map[string][]string{}
+		for k, v := range m {
+			if k == "_comment" {
+				continue
+			}
+			if arr, ok := v.([]interface{}); ok {
+				strs := make([]string, len(arr))
+				for i, item := range arr {
+					if s, ok := item.(string); ok {
+						strs[i] = s
+					}
+				}
+				aliasData[k] = strs
+			}
+		}
+		aliasMu.Lock()
+		aliasMap = aliasData
+		aliasMu.Unlock()
+		slog.Info("embedded alias map loaded", "entries", len(aliasData))
+	}
+
+	// If no external path, we're done
+	if path == "" {
+		return nil
+	}
+
+	// Try to load external file (takes precedence)
 	b, err := os.ReadFile(path)
 	if err != nil {
 		if os.IsNotExist(err) {
-			slog.Info("alias map not present, using built-in synonyms only", "path", path)
+			slog.Info("external alias map not present, using embedded only", "path", path)
 			return nil
 		}
 		return fmt.Errorf("reading alias map: %w", err)
 	}
-	m := map[string][]string{}
-	if err := json.Unmarshal(b, &m); err != nil {
+	externalMap := map[string][]string{}
+	if err := json.Unmarshal(b, &externalMap); err != nil {
 		return fmt.Errorf("parsing alias map %s: %w", path, err)
 	}
+
+	// Merge: external takes precedence over embedded
 	aliasMu.Lock()
 	defer aliasMu.Unlock()
-	aliasMap = m
-	slog.Info("alias map loaded", "path", path, "entries", len(m))
+	for k, v := range externalMap {
+		aliasMap[k] = v
+	}
+	slog.Info("external alias map merged", "path", path, "total_entries", len(aliasMap))
 	return nil
 }
 

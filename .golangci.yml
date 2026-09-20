@@ -1,5 +1,7 @@
 # golangci-lint configuration (golangci-lint run ./...)
-# v2 format — requires golangci-lint v2.x (local: v2.12.2; CI installs the same).
+# v2 format — requires golangci-lint v2.13.0+ (CI pins it; the old local v2.12.2
+# binary cannot build/parse Go 1.27). Run locally with:
+#   go run github.com/golangci/golangci-lint/v2/cmd/golangci-lint@v2.13.0 run ./...
 # Conservative: the standard linter set plus a few safe additions.
 version: "2"
 

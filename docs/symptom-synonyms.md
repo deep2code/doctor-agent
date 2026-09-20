@@ -2,6 +2,12 @@
 
 本文档整理了病人提问时常用的口语化表达及其对应的医学术语，用于搜索增强和知识库匹配。
 
+> ⚠️ 本文是**词表设计草稿/人工整理参考**，不是运行时配置。线上生效的同义词表是
+> `internal/knowledge/alias_map.json`（`//go:embed`，`ExpandQuery` 读取；2026-09-20 计 1,801 条，
+> 双向成对、key 须 ≥2 字）。新增同义词请直接改 `alias_map.json`（改完即时生效，无需 `make_gz`/`seed-knowledge`）。
+> 另有可选外部文件 `ALIAS_MAP_PATH`（默认 `data/alias_map.json`）：`LoadAliasFile` 先载入内置表，再**按 key 合并**外部表，
+> 同名 key 外部优先、其余保留内置；文件不存在时只用内置表（不报错）。检索召回探针见 `internal/knowledge/query_expansion_test.go`。
+
 ---
 
 ## 一、常见症状同义词（按科室/系统分类）

@@ -15,14 +15,12 @@ import (
 var embeddedAliasMap []byte
 
 // synonymGroups maps colloquial symptom/disease words to their clinical/equivalent
-
-// synonymGroups maps colloquial symptom/disease words to their clinical/equivalent
 // forms (pediatric-focused). Retrieval matches by substring ("query contains
-// LoadAliasFile for bulk dictionaries (e.g. imported from CHIP-2019 Yidu-N7K
-// or ICD-10 Chinese synonym tables).
+// 拉肚子" → also try "腹泻"), so keep group members as they appear in patient
+// speech. External aliases live in alias_map.json / LoadAliasFile below.
 var synonymGroups = [][]string{
 	// --- 婴儿/儿童/宝宝 ---
-	{"婴儿", "宝宝", "婴幼儿", "小儿", "儿童", "小孩", "孩子", "娃儿", "娃娃", "幼儿", " toddler", "infant", "女婴", "男婴", "婴儿期", "婴幼儿期"},
+	{"婴儿", "宝宝", "婴幼儿", "小儿", "儿童", "小孩", "孩子", "娃儿", "娃娃", "幼儿", "toddler", "infant", "女婴", "男婴", "婴儿期", "婴幼儿期"},
 	// --- 哭闹/睡眠/行为 ---
 	{"哭", "大便", "啼哭", "夜啼", "哭闹", "夜惊", "肠绞痛", "黄昏闹"},
 	{"睡不着", "失眠", "睡眠差", "入睡困难", "睡眠不安", "睡觉不踏实", "睡不好", "难入睡", "整夜睡不着", "失眠多梦"},

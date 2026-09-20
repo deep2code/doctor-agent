@@ -105,6 +105,32 @@ func writeSSE(t *testing.T, w http.ResponseWriter, f http.Flusher, data string) 
 	f.Flush()
 }
 
+// TestParseOpenAIStreamErrors verifies that mid-stream {"error":...} events
+// and truncated streams (EOF without [DONE] or finish_reason) surface as
+// errors instead of partial text being returned as a successful response.
+func TestParseOpenAIStreamErrors(t *testing.T) {
+	nop := func(string) {}
+
+	body := "data: {\"choices\":[{\"delta\":{\"content\":\"半句\"}}]}\n\ndata: {\"error\":{\"message\":\"rate limit exceeded\"}}\n\n"
+	if _, err := parseOpenAIStream(strings.NewReader(body), nop); err == nil {
+		t.Error("expected error for mid-stream error event, got nil")
+	}
+
+	body = "data: {\"choices\":[{\"delta\":{\"content\":\"写了一半\"}}]}\n\n"
+	if _, err := parseOpenAIStream(strings.NewReader(body), nop); err == nil {
+		t.Error("expected error for truncated stream (no [DONE]/finish_reason), got nil")
+	}
+
+	body = "data: {\"choices\":[{\"delta\":{\"content\":\"正常\"}}]}\n\ndata: {\"choices\":[{\"delta\":{},\"finish_reason\":\"stop\"}]}\n\ndata: [DONE]\n\n"
+	resp, err := parseOpenAIStream(strings.NewReader(body), nop)
+	if err != nil {
+		t.Fatalf("complete stream should not error: %v", err)
+	}
+	if resp.Text != "正常" {
+		t.Errorf("resp.Text = %q, want %q", resp.Text, "正常")
+	}
+}
+
 // TestOpenAIStreamingChatCarriesToolCalls verifies that assistant messages
 // with tool calls are serialized into the request as tool_calls — required by
 // OpenAI-compatible endpoints (they reject assistant messages that have

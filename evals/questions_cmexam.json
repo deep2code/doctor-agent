@@ -1,0 +1,2008 @@
+{
+ "meta": {
+  "source": "OpenAI CMExam test split (test_with_annotations.csv), 单选题按 Area of Competency 分层抽样",
+  "total": 200
+ },
+ "questions": [
+  {
+   "id": "cmexam-00000",
+   "category": "mcq_zh",
+   "question": "BP110/70mmHg，神志淡漠，唇色苍白。呼吸深快，肺部呼吸音清，未闻及啰音，心率快。左臀切口渗液。血WBC21x10⁹/L。细菌血培养阴性。该患者的主要诊断是\nA. 代谢性碱中毒\nB. 脓毒症\nC. 肺部感染\nD. 菌血症\nE. 二重感染\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度2"
+  },
+  {
+   "id": "cmexam-00001",
+   "category": "mcq_zh",
+   "question": "下列属于酒精戒断综合征的是\nA. 震颤谵妄\nB. 酒精性痴呆\nC. 酒精所致幻觉症\nD. 科萨可夫综合征\nE. Wernicke脑病\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度3"
+  },
+  {
+   "id": "cmexam-00002",
+   "category": "mcq_zh",
+   "question": "青霉素类不良反应说法错误的是\nA. 赫氏反应\nB. 少见荨麻疹\nC. 水、电解质紊乱\nD. 最严重的是过敏性休克\nE. 肌内注射青霉素G可产生局部疼痛\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 口腔医学/疾病治疗/难度3"
+  },
+  {
+   "id": "cmexam-00003",
+   "category": "mcq_zh",
+   "question": "生命质量评价的应用不包括\nA. 计算质量调整生存年数\nB. 成本、效益分析\nC. 计算评价年龄\nD. 选择治疗方法\nE. 健康状态和生命质量的测评\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度4"
+  },
+  {
+   "id": "cmexam-00004",
+   "category": "mcq_zh",
+   "question": "下列关于卡托普利不良反应的描述，错误的是\nA. 低血钾\nB. 低血压\nC. 血管神经性水肿\nD. 咳嗽\nE. 味觉、嗅觉损伤\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 中西医结合/疾病治疗/难度3"
+  },
+  {
+   "id": "cmexam-00005",
+   "category": "mcq_zh",
+   "question": "治疗酮症酸中毒的药物是\nA. 胰岛素\nB. 磺酰脲类\nC. A和B均有效\nD. A和B均无效\n请直接给出正确选项字母（A/B/C/D）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 药学/疾病治疗/难度2"
+  },
+  {
+   "id": "cmexam-00006",
+   "category": "mcq_zh",
+   "question": "患者在服用红霉素类抗生素后，产生恶心、呕吐等胃肠道副作用的原因是\nA. 药物与非治疗靶标结合产生的副作用\nB. 药物的代谢产物产生的副作用\nC. 药物抑制了心脏快速延迟整流钾离子通道（hERG）产生的副作用\nD. 药物抑制细胞色素P450酶产生的副作用\nE. 药物与非治疗部位靶标结合产生的副作用\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 药学/疾病治疗/难度4"
+  },
+  {
+   "id": "cmexam-00007",
+   "category": "mcq_zh",
+   "question": "支配舌肌运动的神经是\nA. 舌神经\nB. 舌下神经\nC. 下颌神经\nD. 舌咽神经\nE. 迷走神经\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/医学基础知识/难度2"
+  },
+  {
+   "id": "cmexam-00008",
+   "category": "mcq_zh",
+   "question": "慢性呼吸衰竭最常见的病因是\nA. 重症肺结核\nB. 胸廓病变\nC. 阻塞性肺疾病\nD. 肺间质纤维化\nE. 尘肺\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 口腔医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00009",
+   "category": "mcq_zh",
+   "question": "由于受上游化工企业废水长期排放的影响，导致某江河严重污染，沿江渔民普遍出现周围型感觉障碍、向心性视野缩小、听力下降、神经性耳聋等中毒的体征。该污染物可以引起的严重疾病是\nA. 水俣病\nB. 痛痛病\nC. 克汀病\nD. 黑脚病\nE. 军团病\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度1"
+  },
+  {
+   "id": "cmexam-00010",
+   "category": "mcq_zh",
+   "question": "可用于缓解胆石症引起的胆道痉挛，具有解痉作用的药物是\nA. 美沙拉嗪\nB. 熊去氧胆酸\nC. 洛哌丁胺\nD. 柳氮磺吡啶\nE. 匹维溴铵\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 药学/疾病治疗/难度3"
+  },
+  {
+   "id": "cmexam-00011",
+   "category": "mcq_zh",
+   "question": "女，34岁。车祸致伤，查体：骨盆挤压和分离试验阳性，下腹部压痛腹肌紧张，对腹腔脏器损伤诊断最有价值的检查方法是\nA. 血常规\nB. 腹部X线平片\nC. 腹部CT\nD. 腹腔穿刺\nE. 腹部B超\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度3"
+  },
+  {
+   "id": "cmexam-00012",
+   "category": "mcq_zh",
+   "question": "属五行相侮传变的是\nA. 肝病及心\nB. 肝病及肾\nC. 肝病及肺\nD. 肝病及脾\nE. 脾病及心\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 中医学/医学基础知识/难度2"
+  },
+  {
+   "id": "cmexam-00013",
+   "category": "mcq_zh",
+   "question": "男，22岁。下腰痛2年余，加重6周。疼痛以夜间明显。有痛醒现象。查体：双侧“4”字试验阳性，腰部活动受限。实验室检查：血沉48mm/h，HLA-B27阳性。最可能的诊断是\nA. 腰椎间盘突出症\nB. 类风湿性关节炎\nC. 风湿性关节炎\nD. 强直性脊柱炎\nE. 腰肌劳损\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00014",
+   "category": "mcq_zh",
+   "question": "糖原分子中一个葡萄糖单位经糖酵解途径分解成乳酸时能产生多少ATP\nA. 1\nB. 2\nC. 3\nD. 4\nE. 5\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 公卫预防/医学基础知识/难度3"
+  },
+  {
+   "id": "cmexam-00015",
+   "category": "mcq_zh",
+   "question": "男，65岁，4小时前情绪激动后突发极度气急，咳白色泡沫痰，伴大汗，不能平卧，既往高血压病史15年，无慢性支气管炎病史，查体BP200/120mmHg，神志清，表情焦虑，口唇发绀，双肺可闻及喘鸣音及湿啰音，心率110次/分，律齐，心脏及各瓣膜听诊区未闻及杂音，该患者的抢救措施不正确的是\nA. 皮下注射吗啡\nB. 口服美托洛尔\nC. 取坐位、吸氧\nD. 静脉注射呋塞米\nE. 静脉注射硝普钠\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度2"
+  },
+  {
+   "id": "cmexam-00016",
+   "category": "mcq_zh",
+   "question": "女，35岁。近5年来间断头痛，每月发作1～2次，MRI示左顶枕脑内蜂窝样血管流空影，呈楔形。进一步最有价值的诊断方法应选择\nA. CT\nB. CTA\nC. MRA\nD. DSA\nE. 超声造影\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度3"
+  },
+  {
+   "id": "cmexam-00017",
+   "category": "mcq_zh",
+   "question": "补骨脂中主要成分的类型是\nA. 简单香豆素\nB. 呋喃香豆素\nC. 新木脂素\nD. 黄酮苷\nE. 简单木脂素\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 中药学/医学基础知识/难度2"
+  },
+  {
+   "id": "cmexam-00018",
+   "category": "mcq_zh",
+   "question": "秦皮的水浸出液在日光下显\nA. 浅黄棕色荧光\nB. 污绿色荧光\nC. 蓝紫色荧光\nD. 棕红色荧光\nE. 碧蓝色荧光\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 中药学/不符合/难度4"
+  },
+  {
+   "id": "cmexam-00019",
+   "category": "mcq_zh",
+   "question": "弱碱性阴离子交换树脂的离子交换基团是\nA. —SO3，— H+\nB. —C00，—H+\nC. —N+（CH3）3C—\nD. —NH2\nE. RP—18\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 中药学/医学基础知识/难度1"
+  },
+  {
+   "id": "cmexam-00020",
+   "category": "mcq_zh",
+   "question": "某女，30岁。患痰湿阻滞之胸脘痞满、胸痹。宜选用的中药是\nA. 甘松\nB. 青皮\nC. 玫瑰花\nD. 枳实\nE. 香橼\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 中药学/疾病治疗/难度1"
+  },
+  {
+   "id": "cmexam-00021",
+   "category": "mcq_zh",
+   "question": "经济的发展必然伴随流动人口的增加，大批农村人口流入城市，给城市增加的主要是\nA. 人们的心理负担\nB. 环境污染的负担\nC. 人的生活方式改变的负担\nD. 生活设施的负担\nE. 空气质量的负担\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 公卫预防/不符合/难度2"
+  },
+  {
+   "id": "cmexam-00022",
+   "category": "mcq_zh",
+   "question": "建设项目环境影响评价的分类管理是根据项目\nA. 的种类\nB. 的大小\nC. 对环境的影响程度\nD. 的安全性\nE. 周围环境的重要性\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 公卫预防/不符合/难度1"
+  },
+  {
+   "id": "cmexam-00023",
+   "category": "mcq_zh",
+   "question": "HIV侵犯的主要靶细胞是\nA. CD4⁺T细胞\nB. CD8⁺T细胞\nC. 红细胞\nD. B细胞\nE. 浆细胞\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 临床医学/医学基础知识/难度1"
+  },
+  {
+   "id": "cmexam-00024",
+   "category": "mcq_zh",
+   "question": "女性，34岁，1年来，情绪激动、失眠、心悸、疲乏、消瘦、话多、动作多、注意力不集中、突眼，诊断为甲状腺功能亢进所致精神障碍，其治疗原则哪项是错误的\nA. 积极治疗原发病\nB. 控制甲状腺功能亢进\nC. 防止感染\nD. 禁用精神药物\nE. 心理治疗\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 临床医学/疾病治疗/难度2"
+  },
+  {
+   "id": "cmexam-00025",
+   "category": "mcq_zh",
+   "question": "在化学工业中，常见的刺激性气体有\nA. 氨、氯、氮氧化物、光气等\nB. 甲酸甲酯、二氧化氮、光气、二氧化硫\nC. 三氧化硫、氟化氢、氟、碘\nD. 氨、光气、乙醛、臭氧\nE. 氟化氢、光气、溴甲烷\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 公卫预防/不符合/难度1"
+  },
+  {
+   "id": "cmexam-00026",
+   "category": "mcq_zh",
+   "question": "处方写“锦纹”应付\nA. 槟榔\nB. 南沙参\nC. 大黄\nD. 杜仲\nE. 肉苁蓉\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 中药学/不符合/难度3"
+  },
+  {
+   "id": "cmexam-00027",
+   "category": "mcq_zh",
+   "question": "患者关节红肿疼痛，头痛胀如裹，身热不扬，口渴不欲饮，多汗，舌苔黄腻，脉濡数。其证型是\nA. 风湿热痹\nB. 湿热蕴蒸\nC. 化火伤津\nD. 阴虚有热\nE. 风寒湿痹\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 中西医结合/疾病诊断和鉴别诊断/难度2"
+  },
+  {
+   "id": "cmexam-00028",
+   "category": "mcq_zh",
+   "question": "《中华人民共和国药品管理法实施条例》，中药饮片必须印有或者贴有\nA. 标签\nB. 中药饮片标识\nC. 批准文号\nD. 功能与主治内容\nE. 禁忌内容\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 中药学/公卫法律伦理/难度1"
+  },
+  {
+   "id": "cmexam-00029",
+   "category": "mcq_zh",
+   "question": "自由水是指\nA. 以物理化学方式与物料结合的水分\nB. 以机械方式与物料结合的水分\nC. 干燥过程中除不去的水分\nD. 干燥过程中能除去的水分\nE. 动植物细胞壁内的水分\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 药学/医学基础知识/难度2"
+  },
+  {
+   "id": "cmexam-00030",
+   "category": "mcq_zh",
+   "question": "炮制阿胶珠宜选用的方法是\nA. 米炒\nB. 砂炒\nC. 蛤粉炒\nD. 土炒\nE. 麸炒\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 中药学/不符合/难度1"
+  },
+  {
+   "id": "cmexam-00031",
+   "category": "mcq_zh",
+   "question": "性早熟分类\nA. 女童在8岁以前出现乳房增大，阴毛、腋毛生长等第二性征的一种或一种以上者，均属性早熟\nB. 包括真性性早熟和假性性早熟\nC. 原则上是针对病因进行治疗。治疗目的在于抑制排卵、抑制月经、减慢第二性征的发育，预防身材过矮，促进身心的协调发展和心理健康\nD. 女童在14岁以前出现第二性征发育，属性早熟\nE. 由肿瘤引起的假性性早熟，尚无特殊疗法，可用大剂量孕激素抑制促性激素的分泌，其效果观察6～12个月\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 公卫预防/医学基础知识/难度1"
+  },
+  {
+   "id": "cmexam-00032",
+   "category": "mcq_zh",
+   "question": "D/G易位型21-三体综合征的母亲为平衡易位染色体携带者，其核型应为\nA. 46，XX\nB. 46，XX，-14，+t（14q21q）\nC. 45，XX，-14，-21，+t（14q21q）\nD. 46，XX，-21，+t（14q21q）\nE. 45，XX，-21，+t（14q21q）\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度3"
+  },
+  {
+   "id": "cmexam-00033",
+   "category": "mcq_zh",
+   "question": "女，25岁。停经50天，剧烈腹痛2天，阴道不规则流血1天。今晨从阴道排出三角形样物质。检査：贫血貌，下腹部压痛反跳痛明显，正确治疗应选择\nA. 静脉滴注缩宫素\nB. 肌注麦角新碱\nC. 吸宫术终止妊娠\nD. 应用止血药\nE. 行腹腔镜手术\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00034",
+   "category": "mcq_zh",
+   "question": "《中华人民共和国药品管理法》规定，国家对药品实行品种保护制度的是\nA. 医疗机构配制的制剂\nB. 中药\nC. 中药饮片\nD. 没有实施批准文号管理的中药材\nE. 新发现和从国外引种的药材\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 中药学/公卫法律伦理/难度2"
+  },
+  {
+   "id": "cmexam-00035",
+   "category": "mcq_zh",
+   "question": "急性心肌梗死后1天，心尖区出现收缩中晚期喀喇音和吹风样收缩期杂音，最可能出现的并发症是\nA. 左心室血栓脱落\nB. 心室膨胀瘤\nC. 室间隔穿孔\nD. 心肌梗死后综合症\nE. 乳头肌功能失调\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00036",
+   "category": "mcq_zh",
+   "question": "引起妊娠期龈炎的病因是\nA. 内分泌改变\nB. 咬合创伤\nC. 妊娠本身\nD. 营养不良\nE. 以上都有\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 口腔医学/医学基础知识/难度3"
+  },
+  {
+   "id": "cmexam-00037",
+   "category": "mcq_zh",
+   "question": "女，25岁，妊娠8周出现剧烈呕吐，呕吐数次胃内容物后呕出鲜血100ml，诊断考虑是\nA. 消化性溃疡\nB. 急性胃炎\nC. 食管贲门黏膜撕裂综合征\nD. 食管胃底静脉曲张破裂\nE. 食管炎\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00038",
+   "category": "mcq_zh",
+   "question": "由于药物的选择性低，药理效应涉及多个器官，当某一效应用做治疗目的时，其他效应就成为了\nA. 药源性疾病\nB. 副反应\nC. 药物不良反应\nD. 毒性反应\nE. 特异质反应\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 口腔医学/医学基础知识/难度2"
+  },
+  {
+   "id": "cmexam-00039",
+   "category": "mcq_zh",
+   "question": "有关内囊位置的说法正确的是\nA. 位于尾状核、间脑和豆状核之间\nB. 位于背侧丘脑、尾状核与豆状核之间\nC. 位于背侧丘脑、后丘脑和下丘脑之间\nD. 位于尾状核、大脑半球与豆状核之间\nE. 位于豆状核和丘脑之间\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/医学基础知识/难度1"
+  },
+  {
+   "id": "cmexam-00040",
+   "category": "mcq_zh",
+   "question": "正态分布中反映离散程度最好的是\nA. 标准差\nB. 标准差系数\nC. 方差\nD. 平均数\nE. 总体方差\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 临床医学/公卫法律伦理/难度1"
+  },
+  {
+   "id": "cmexam-00041",
+   "category": "mcq_zh",
+   "question": "男，45岁。HBsAg（+）20年。超声检查：肝脏回声不均匀，脾大，门静脉增宽，中等量腹水。肝穿刺病理的特征性发现是\nA. 肝细胞变性坏死\nB. 弥漫性肝纤维化\nC. 肝细胞气球样变\nD. 毛细胆管胆汁淤积\nE. 假小叶形成\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00042",
+   "category": "mcq_zh",
+   "question": "与细菌表面甘露糖残基结合，启动MBL途径的是\nA. S蛋白\nB. IgM与抗原结合形成的复合物\nC. P因子\nD. MBL\nE. DAF\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 公卫预防/医学基础知识/难度2"
+  },
+  {
+   "id": "cmexam-00043",
+   "category": "mcq_zh",
+   "question": "公共卫生工作中存在的主要问题不包括\nA. 医学教育体制原因，使防和治产生“裂痕\"\nB. 医学工作的分工，有部分预防工作者，没有向其他专业方向延伸\nC. 受科学发展所限制，使公共卫生、预防医学伦理原则、环境污染、食品研究、健康教育等伦理研究滞后\nD. 我国人口众多，东西部经济发展不平衡，预防工作人员及经费不足，影响预防工作有效开展\nE. 环境污染、食品安全和健康教育中的伦理向题越来越突出\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度4"
+  },
+  {
+   "id": "cmexam-00044",
+   "category": "mcq_zh",
+   "question": "化妆品的辅料中最容易引起变态反应的是\nA. 色素\nB. 防腐剂\nC. 抗氧化剂\nD. 保湿剂\nE. 表面活性剂\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 公卫预防/不符合/难度3"
+  },
+  {
+   "id": "cmexam-00045",
+   "category": "mcq_zh",
+   "question": "全身强直-阵挛性发作和失神发作合并发生时，药物治疗首选\nA. 地西泮（安定）\nB. 乙琥胺\nC. 苯妥英钠\nD. 苯巴比妥\nE. 丙戊酸钠\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 临床医学/疾病治疗/难度3"
+  },
+  {
+   "id": "cmexam-00046",
+   "category": "mcq_zh",
+   "question": "列入国家三级重点保护野生药材物种的是\nA. 黄芩\nB. 黄连\nC. 黄柏\nD. 黄精\nE. 黄芪\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 中药学/不符合/难度2"
+  },
+  {
+   "id": "cmexam-00047",
+   "category": "mcq_zh",
+   "question": "中学普通教室净高不应低于\nA. 1.1m\nB. 1.8m\nC. 2.1m\nD. 2.8m\nE. 3.4m\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 公卫预防/不符合/难度3"
+  },
+  {
+   "id": "cmexam-00048",
+   "category": "mcq_zh",
+   "question": "男，19岁。约2周前曾咳嗽，流涕，近3天感心悸。查体：心界不大，P₂＞A₂，心率96次/分，可闻及频发期前收缩，心脏各瓣膜区未闻及杂音和附加音。心电图示：室性期前收缩。血清肌钙蛋白升高。该患者最可能的诊断是\nA. 感染性心内膜炎\nB. 扩张型心肌病\nC. 急性心肌梗死\nD. 急性心包炎\nE. 病毒性心肌炎\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00049",
+   "category": "mcq_zh",
+   "question": "易引起顽固性干咳的抗高血压药是\nA. 普萘洛尔\nB. 卡托普利\nC. 氯沙坦\nD. 氨氯地平\nE. 米诺地尔\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 药学/疾病治疗/难度1"
+  },
+  {
+   "id": "cmexam-00050",
+   "category": "mcq_zh",
+   "question": "围绝经期激素替代治疗应禁用的人群是\nA. 合并轻度高血压的患者\nB. 合并高胆固醇血症的患者\nC. 6个月内有静脉血栓栓塞史的患者\nD. 甲状腺切除后的患者\nE. 合并骨质疏松症的患者\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 药学/疾病治疗/难度1"
+  },
+  {
+   "id": "cmexam-00051",
+   "category": "mcq_zh",
+   "question": "阿司匹林不具有下列哪项作用\nA. 解热镇痛\nB. 抗炎\nC. 抗风湿\nD. 直接抑制体温调节中枢\nE. 小剂量抑制环加氧酶，防止血栓形成\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 公卫预防/医学基础知识/难度2"
+  },
+  {
+   "id": "cmexam-00052",
+   "category": "mcq_zh",
+   "question": "RPI卡环的组成有\nA. 远中（牙合）支托、邻面板和I杆\nB. 近中（牙合）支托、邻面板和I杆\nC. 近中（牙合）支托、邻面板和T形卡环\nD. 远中（牙合）支托、邻面板和T杆\nE. 以上都不是\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 口腔医学/不符合/难度1"
+  },
+  {
+   "id": "cmexam-00053",
+   "category": "mcq_zh",
+   "question": "IR光谱中见到二个羰基吸收峰的是\nA. 大黄素\nB. 大黄素-β-葡萄糖苷\nC. 二者均有此性质\nD. 二者均无此性质\n请直接给出正确选项字母（A/B/C/D）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 中药学/医学基础知识/难度3"
+  },
+  {
+   "id": "cmexam-00054",
+   "category": "mcq_zh",
+   "question": "关于特殊医学用途配方食品和婴幼儿配方食品管理的说法，正确的是\nA. 特殊医学用途配方食品按照药品管理\nB. 不得以分装方式生产婴幼儿配方乳粉，同一企业不得用同一配方生产不同品牌的婴幼儿配方乳粉\nC. 婴幼儿配方食品应当实施全过程质量控制，对婴幼儿配方食品实施重点抽验上市销售制度\nD. 与保健食品管理要求不同，特殊医学用途配方食品不得发布广告\n请直接给出正确选项字母（A/B/C/D）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 中药学/公卫法律伦理/难度3"
+  },
+  {
+   "id": "cmexam-00055",
+   "category": "mcq_zh",
+   "question": "关于肠干不正确的说法是\nA. 收集腹盆腔所有脏器的淋巴\nB. 注入乳糜池\nC. 有腹腔淋巴结的输出管汇入\nD. 有肠系膜上淋结的输出管汇入\nE. 有肠系膜下淋巴结的输出管汇入\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 临床医学/医学基础知识/难度2"
+  },
+  {
+   "id": "cmexam-00056",
+   "category": "mcq_zh",
+   "question": "Graves病甲状腺功能亢进时最早出现异常的是\nA. FT₃\nB. FT₄\nC. TT₃\nD. TT₄\nE. TSH\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 公卫预防/疾病诊断和鉴别诊断/难度3"
+  },
+  {
+   "id": "cmexam-00057",
+   "category": "mcq_zh",
+   "question": "临床大剂量使用甲氨蝶呤引起的严重不良反应是\nA. 骨髓抑制\nB. 膀胱炎\nC. 心脏毒性\nD. 肝毒性\nE. 胃肠道反应\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 药学/疾病治疗/难度2"
+  },
+  {
+   "id": "cmexam-00058",
+   "category": "mcq_zh",
+   "question": "含有几个可转录的编码基因序列的是\nA. 阻遏蛋白\nB. TFⅡB\nC. CAP\nD. 乳糖\nE. 结构基因\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 公卫预防/医学基础知识/难度3"
+  },
+  {
+   "id": "cmexam-00059",
+   "category": "mcq_zh",
+   "question": "神志清楚，思维正常，但言语不流利，吐字不清楚称为\nA. 郑声\nB. 独语\nC. 言謇\nD. 谵语\nE. 错语\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 中西医结合/疾病诊断和鉴别诊断/难度2"
+  },
+  {
+   "id": "cmexam-00060",
+   "category": "mcq_zh",
+   "question": "假性牙周袋与真性牙周袋的区别是\nA. 探诊深度\nB. 累及牙面数\nC. 牙周袋底的位置\nD. 是否骨下袋\nE. 牙龈形态和探诊出血程度\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 口腔医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00061",
+   "category": "mcq_zh",
+   "question": "冬季调神应当做到\nA. 忍急戒怒\nB. 敛阳护阴\nC. 宁心静神\nD. 调和情志\nE. 远离悲愁\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 中西医结合/不符合/难度2"
+  },
+  {
+   "id": "cmexam-00062",
+   "category": "mcq_zh",
+   "question": "槐花散的功用有\nA. 祛湿排脓\nB. 清热解毒\nC. 行气解郁\nD. 疏风下气\nE. 解表散邪\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 中医学/医学基础知识/难度3"
+  },
+  {
+   "id": "cmexam-00063",
+   "category": "mcq_zh",
+   "question": "标准化死亡比（SMR）属\nA. 构成比\nB. 定基比\nC. 相对比\nD. 比数比\nE. 环比\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 公卫预防/医学基础知识/难度2"
+  },
+  {
+   "id": "cmexam-00064",
+   "category": "mcq_zh",
+   "question": "最有助于确诊肾动脉狭窄的检查是\nA. 磁共振成像\nB. 肾动脉造影\nC. 静脉肾盂造影\nD. 放射性核素肾图\nE. 肾动脉核素图\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00065",
+   "category": "mcq_zh",
+   "question": "关于流行性出血热少尿期治疗原则的叙述，错误的是\nA. 透析疗法\nB. 促进利尿\nC. 放血治疗\nD. 大量补液\nE. 导泻疗法\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 中医学/疾病治疗/难度3"
+  },
+  {
+   "id": "cmexam-00066",
+   "category": "mcq_zh",
+   "question": "认定为劣药的情形是\nA. 药品所含成份与国家药品标准规定的成份不符\nB. 药品成份的含量不符合国家药品标准\nC. 药品甲用药品乙的名称进行销售\nD. 对保健食品进行药品疗效宣传\nE. 污染变质的药品\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 药学/公卫法律伦理/难度2"
+  },
+  {
+   "id": "cmexam-00067",
+   "category": "mcq_zh",
+   "question": "男孩2岁，低热2天，轻咳，食欲欠佳，皮肤瘙痒。查体：胸腹部见红色斑丘疹及水疱，部分已结痂\nA. 猩红热\nB. 水痘\nC. 小儿急疹\nD. 手足口病\nE. 麻疹\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00068",
+   "category": "mcq_zh",
+   "question": "不受交感与副交感纤维支配的器官是\nA. 肛门内括约肌\nB. 斜方肌\nC. 肾\nD. 胃\nE. 食管\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/医学基础知识/难度3"
+  },
+  {
+   "id": "cmexam-00069",
+   "category": "mcq_zh",
+   "question": "能够引起放射性骨坏死的临界剂量值\nA. 40Gy\nB. 50Gy\nC. 60Gy\nD. 70Gy\nE. 80Gy\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 口腔医学/医学基础知识/难度2"
+  },
+  {
+   "id": "cmexam-00070",
+   "category": "mcq_zh",
+   "question": "有关肝性脑病，正确的治疗是\nA. 病人狂躁不安时使用水合氯醛灌肠\nB. 肥皂水灌肠清除肠腔积血\nC. 静脉使用甲硝唑抑制肠道细菌生长\nD. 低蛋白饮食\nE. 口服乳果糖\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 临床医学/疾病治疗/难度2"
+  },
+  {
+   "id": "cmexam-00071",
+   "category": "mcq_zh",
+   "question": "在我国突发环境污染事件的应急指挥协调系统中，最高综合协调机构是\nA. 全国人大\nB. 国务院\nC. 国家政府\nD. 国家环境保护总局\nE. 全国环境保护部级联席会议\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度4"
+  },
+  {
+   "id": "cmexam-00072",
+   "category": "mcq_zh",
+   "question": "最有助于感染性心内膜炎诊断的实验室检查是\nA. 血培养\nB. 尿常规\nC. 血常规\nD. B超\nE. 血沉\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00073",
+   "category": "mcq_zh",
+   "question": "属于乙类传染病，但是采取甲类传染病的预防、控制措施的是\nA. 传染性非典型肺炎\nB. 麻疹\nC. 霍乱\nD. 艾滋病\nE. 肺结核\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度1"
+  },
+  {
+   "id": "cmexam-00074",
+   "category": "mcq_zh",
+   "question": "刺激造血干细胞增殖分化的细胞因子\nA. 白细胞介素\nB. 干扰素\nC. 肿瘤坏死因子\nD. 集落刺激因子\nE. 趋化因子\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 口腔医学/医学基础知识/难度4"
+  },
+  {
+   "id": "cmexam-00075",
+   "category": "mcq_zh",
+   "question": "下列哪项不属于突发公共卫生事件的分类\nA. 重大传染病疫情\nB. 群体不明原因疾病\nC. 重大食物和职业中毒\nD. 个别医疗事故伤亡\nE. 其他严重影响公众健康的事件\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度1"
+  },
+  {
+   "id": "cmexam-00076",
+   "category": "mcq_zh",
+   "question": "通常开封启用4周后，不宜再继续\nA. 软膏剂\nB. 含漱剂\nC. 直肠栓剂\nD. 滴眼剂\nE. 透皮贴剂\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 药学/不符合/难度1"
+  },
+  {
+   "id": "cmexam-00077",
+   "category": "mcq_zh",
+   "question": "负责制定政府定价、政府指导价的药品价格的是\nA. 卫生部门\nB. 中医药管理部门\nC. 发展和改革委员会\nD. 工业和信息化管理部门\nE. 公安部门\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 药学/公卫法律伦理/难度4"
+  },
+  {
+   "id": "cmexam-00078",
+   "category": "mcq_zh",
+   "question": "男，20岁。因右面部被刀划伤13小时就诊。查体：右面部有4cm长伤口，深及骨膜，有血痂，伤口周边无红肿。宜采取的处理方法是\nA. 清创后旋转橡胶片引流\nB. 局部应用抗生素\nC. 清创后一期缝合\nD. 清创后二期缝合\nE. 伤口敷料覆盖\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 临床医学/疾病治疗/难度3"
+  },
+  {
+   "id": "cmexam-00079",
+   "category": "mcq_zh",
+   "question": "男性，23岁。大学生，自述不能见马路上的汽车，当汽车经过时总感觉汽车很可能撞上自己，因此十分恐惧，来心理门诊就诊，最好采用的方法是\nA. 系统脱敏\nB. 厌恶治疗\nC. 生物反馈\nD. 自由联想\nE. 梦的分析\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 临床医学/医学基础知识/难度1"
+  },
+  {
+   "id": "cmexam-00080",
+   "category": "mcq_zh",
+   "question": "负责审批与吊销医疗机构执业证书的部门是\nA. 国务院药品监督管理部门\nB. 卫生行政部门\nC. 发展和改革宏观调控部门\nD. 劳动保障行政部门\nE. 市场监督管理部门\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 中药学/公卫法律伦理/难度3"
+  },
+  {
+   "id": "cmexam-00081",
+   "category": "mcq_zh",
+   "question": "合成洗涤剂引起的主要环境问题是\nA. 危害水生物\nB. 水体富营养化\nC. 鱼类繁殖\nD. 水体酸化\nE. 水体感官性状\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度1"
+  },
+  {
+   "id": "cmexam-00082",
+   "category": "mcq_zh",
+   "question": "男，40岁。左髋疼痛2月余，近期出现低热、盗汗症状，逐渐加重。X线片见髋关节间隙轻度变窄。ESR40mm/h，结核感染T细胞检测（+）。治疗应首选\nA. 抗结核药物加局部制动\nB. 绝对卧床休息\nC. 病灶清除加抗结核药物\nD. 关节穿刺\nE. 功能锻炼，防止关节强直\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 临床医学/疾病治疗/难度2"
+  },
+  {
+   "id": "cmexam-00083",
+   "category": "mcq_zh",
+   "question": "黄，脉数有力。治疗时应选用的方剂是\nA. 黄连解毒汤\nB. 仙方活命饮\nC. 四妙勇安汤\nD. 银翘败毒散\nE. 普济消毒饮\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 中医学/疾病治疗/难度2"
+  },
+  {
+   "id": "cmexam-00084",
+   "category": "mcq_zh",
+   "question": "女，62岁，水肿3个月，肾病综合征，病理示局灶节段性肾小球硬化，应用强的松60mg/d，影像学胸片右下肺渗出，尿蛋白2.9g/dL，RBC3～5/HP，Alb29g/L，此时应如何调整用药\nA. 糖皮质激素加环磷酰胺\nB. 糖皮质激素加环孢素\nC. 迅速激素减量\nD. 加量激素\nE. 停用激素\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 临床医学/疾病治疗/难度2"
+  },
+  {
+   "id": "cmexam-00085",
+   "category": "mcq_zh",
+   "question": "某男，25岁。因积热上攻而致血热吐血、血色鲜红量大，医师治以泻心汤；泻心汤组成有大黄、黄连、黄芩，方中黄连宜选用的是\nA. 酒黄连\nB. 生黄连\nC. 萸黄连\nD. 姜黄连\nE. 土黄连\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 中药学/疾病治疗/难度2"
+  },
+  {
+   "id": "cmexam-00086",
+   "category": "mcq_zh",
+   "question": "土壤中有机污染物在有氧条件下无机化的最终产物是\nA. 氨\nB. 吲哚\nC. 二氧化碳\nD. 硫化氢\nE. 甲烷\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 公卫预防/不符合/难度2"
+  },
+  {
+   "id": "cmexam-00087",
+   "category": "mcq_zh",
+   "question": "依照《中华人民共和国消费者权益保护法》，以广告、产品说明书表明商品或服务状况的，应当保证其提供的商品或者服务的实际质量与表明的质量状况相符的为\nA. 消费者的权利\nB. 经营者的义务\nC. 生产者的权利\nD. 消费者协会的义务\nE. 国家对消费者的权益保护\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 药学/公卫法律伦理/难度4"
+  },
+  {
+   "id": "cmexam-00088",
+   "category": "mcq_zh",
+   "question": "主要作用是延长动作电位时程和有效不应期的抗心律失常药物是\nA. 奎尼丁\nB. 维拉帕米\nC. 利多卡因\nD. 普萘洛尔\nE. 胺碘酮\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 中医学/疾病治疗/难度4"
+  },
+  {
+   "id": "cmexam-00089",
+   "category": "mcq_zh",
+   "question": "拉西地平用于高血压的初始计量的是\nA. 每次1mg\nB. 每次2.5mg\nC. 每次4mg\nD. 每次5mg\nE. 每次12.5mg\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 药学/疾病治疗/难度4"
+  },
+  {
+   "id": "cmexam-00090",
+   "category": "mcq_zh",
+   "question": "一外科医生为一例慢性乙型肝炎硬化患者做手术时，不慎被沾有HBeAg阳性病人血液的缝针刺破右手指，这时立即应采取何种预防措施\nA. 立即注射丙种球蛋白\nB. 注射胎盘球蛋白\nC. 立即注射高效价乙肝免疫球蛋白\nD. 注射乙肝疫苗\nE. 服垂盆草预防\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度1"
+  },
+  {
+   "id": "cmexam-00091",
+   "category": "mcq_zh",
+   "question": "支持重型再生障碍性贫血诊断的是\nA. 网织红细胞绝对值18×10⁹/L\nB. 血小板计数10×10⁹/L\nC. 中性粒细胞计数1.0×10⁹/L\nD. 中性粒细胞碱性磷酸酶积分减低\nE. 骨髄全片见巨核细胞8个\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度3"
+  },
+  {
+   "id": "cmexam-00092",
+   "category": "mcq_zh",
+   "question": "男，59岁。2型糖尿病史16年。二甲双胍0.25克及格列齐特80mg每日三次，糖尿病控制良好。近2个月感乏力体重下降4～5公斤。肠镜检查发现乙状结肠癌拟行手术治疗。围手术期糖尿病处理\nA. 停口服降糖药、减少饮食量\nB. 改用长效胰岛素\nC. 改用短效胰岛素\nD. 胰岛素及胰岛素增敏剂联合治疗\nE. 改用α-葡萄糖苷酶抑制剂\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 临床医学/疾病治疗/难度3"
+  },
+  {
+   "id": "cmexam-00093",
+   "category": "mcq_zh",
+   "question": "L0.40，异性淋巴细胞0.15，PIt75×10⁹/L，尿蛋白（+++），粪常规十镜检：WBC2~41Hp，RBC0~1HD。为确诊需要进行下列哪项检查\nA. 肾活检\nB. IgM抗体\nC. 血涂片\nD. 显微凝集试验\nE. 抗原快速检测\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度3"
+  },
+  {
+   "id": "cmexam-00094",
+   "category": "mcq_zh",
+   "question": "被列于45种国家重点保护的野生药材品种的药材是\nA. 闹阳花\nB. 肉苁蓉\nC. 火麻仁\nD. 胖大海\nE. 石菖蒲\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 药学/公卫法律伦理/难度1"
+  },
+  {
+   "id": "cmexam-00095",
+   "category": "mcq_zh",
+   "question": "患者，男，66岁，BMI31.2kg/m²，体检时发现血糖异常前来就诊，空腹血糖8.2mmol/L，餐后2小时血糖12.2mmolL，糖化血红蛋白8.0%。患者既往有磺胺类药物过敏史。医师处方二甲双胍片，每次1000mg，每日2次；西格列汀片，每次100mg，每日1次。患者复诊时，测肌清除率：46ml/min（正常值90～120ml/min），诊断为中度肾功能不全，西格列汀的剂量应调整为\nA. 10mg/d\nB. 25mg/d\nC. 50mg/d\nD. 75mg/d\nE. 5mg/d\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 药学/疾病治疗/难度3"
+  },
+  {
+   "id": "cmexam-00096",
+   "category": "mcq_zh",
+   "question": "干胶法制备乳剂是先制备初乳。在初乳中，在初乳中，油∶水∶胶的比例为液体石蜡∶水∶胶\nA. 5∶2∶1\nB. 4∶2∶1\nC. 3∶2∶1\nD. 2∶2∶1\nE. 1∶2∶1\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 药学/不符合/难度1"
+  },
+  {
+   "id": "cmexam-00097",
+   "category": "mcq_zh",
+   "question": "临产前多长时间之内不宜使用哌替啶\nA. 1～2小时\nB. 2～4小时\nC. 4～6小时\nD. 6～8小时\nE. 8～10小时\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 口腔医学/疾病治疗/难度2"
+  },
+  {
+   "id": "cmexam-00098",
+   "category": "mcq_zh",
+   "question": "根据《药品经营质量管理规范实施条例》，待发药品库\nA. 红色色标\nB. 黄色色标\nC. 绿色色标\nD. 蓝色色标\nE. 橙色色标\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 中药学/公卫法律伦理/难度2"
+  },
+  {
+   "id": "cmexam-00099",
+   "category": "mcq_zh",
+   "question": "颌面部战伤感染率约为\nA. 40%\nB. 35%\nC. 3%\nD. 25%\nE. 20%\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 口腔医学/不符合/难度4"
+  },
+  {
+   "id": "cmexam-00100",
+   "category": "mcq_zh",
+   "question": "男，28岁。反复上腹痛2年，以夜间及空腹时为主，加重并呕吐宿食2周，伴渴及少尿。该患者可能存在的电解质紊乱类型是\nA. 低钙\nB. 高钾高氯\nC. 高钙\nD. 高钠\nE. 低钾低氯\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00101",
+   "category": "mcq_zh",
+   "question": "多用于非缺隙侧单个基牙上的三臂卡环是\nA. 圈形卡环\nB. 回力卡环\nC. 间隙卡环\nD. 联合卡环\nE. 延伸卡环\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 口腔医学/不符合/难度4"
+  },
+  {
+   "id": "cmexam-00102",
+   "category": "mcq_zh",
+   "question": "典型麻疹的出疹时间与发热的关系是\nA. 发热2～3天出疹，出疹时伴低热\nB. 发热3～4天出疹，出疹时热退\nC. 发热1～2天出疹，出疹时热退\nD. 发热3～4天出疹，出疹时热更高\nE. 发热1～2天出疹，出疹时热更高\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 临床医学/医学基础知识/难度2"
+  },
+  {
+   "id": "cmexam-00103",
+   "category": "mcq_zh",
+   "question": "滑车神经支配的肌肉是\nA. 上斜肌\nB. 下斜肌\nC. 外直肌\nD. 眼轮匝肌\nE. 瞳孔开大肌\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 临床医学/医学基础知识/难度1"
+  },
+  {
+   "id": "cmexam-00104",
+   "category": "mcq_zh",
+   "question": "发展中医药事业应当依法遵循的原则是\nA. 继承与创新相结合\nB. 中西医结合\nC. 以人为本\nD. 中医与中药相结合共同发展\nE. 中医药理论与中医药实践相结合\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 中医学/公卫法律伦理/难度3"
+  },
+  {
+   "id": "cmexam-00105",
+   "category": "mcq_zh",
+   "question": "主题统觉测验属于\nA. 人格测验问卷\nB. 智力测验\nC. 人格投射测验\nD. 评定量表\nE. 神经心理学测验\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 公卫预防/不符合/难度2"
+  },
+  {
+   "id": "cmexam-00106",
+   "category": "mcq_zh",
+   "question": "动脉血压130/50mmHg最常见于\nA. 主动脉瓣关闭不全\nB. 主动脉瓣狭窄\nC. 二尖瓣关闭不全\nD. 二尖瓣狭窄\nE. 肺动脉瓣关闭不全\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度3"
+  },
+  {
+   "id": "cmexam-00107",
+   "category": "mcq_zh",
+   "question": "某男，18岁。因寒战、高热前来就诊，经细菌培养确诊为肺炎球菌性肺炎，就诊时青霉素皮试阴性，但静滴青霉素几分钟后即出现头昏、面色苍白、呼吸困难、血压下降等症状，诊断为青霉素过敏性休克，请问对该病人首选的抢救药物是\nA. 多巴胺\nB. 异丙嗪\nC. 地塞米松\nD. 肾上腺素\nE. 去甲肾上腺素\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 中西医结合/疾病治疗/难度2"
+  },
+  {
+   "id": "cmexam-00108",
+   "category": "mcq_zh",
+   "question": "根据《处方管理办法》，为门诊患者开具的第二类精神药品，一般每张处方不得超过\nA. 1次常用量\nB. 3日常用量\nC. 5日常用量\nD. 7日常用量\nE. 15日常用量\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 中药学/公卫法律伦理/难度1"
+  },
+  {
+   "id": "cmexam-00109",
+   "category": "mcq_zh",
+   "question": "患者，女，37岁，体检发现Hb56g/L，拟静脉补铁，可选用的药物是\nA. 硫酸亚铁\nB. 多糖铁复合物\nC. 蔗糖铁\nD. 葡萄糖酸亚铁\nE. 琥珀酸亚铁\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 药学/疾病治疗/难度3"
+  },
+  {
+   "id": "cmexam-00110",
+   "category": "mcq_zh",
+   "question": "男，62岁，左胸痛4天，胸闷、气促2天。查体：左下肺呼吸音消失，心率100次/分，律齐。为明确诊断首选的检查是\nA. 超声心动图\nB. 心肌坏死标志物\nC. 胸部X线片\nD. 血D-二聚体\nE. 胸部B超\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度2"
+  },
+  {
+   "id": "cmexam-00111",
+   "category": "mcq_zh",
+   "question": "某男，60岁，症见腰膝酸冷、精神不振、怯寒畏冷，阳痿遗精、大便溏薄、尿频而清，证属肾阳不足，命门火衰，宜选用的成药是\nA. 左归丸\nB. 济生肾气丸\nC. 河车大造丸\nD. 右归丸\nE. 五子衍宗丸\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 中药学/疾病治疗/难度2"
+  },
+  {
+   "id": "cmexam-00112",
+   "category": "mcq_zh",
+   "question": "对缺铁性贫血者应选用\nA. 叶酸+维生素B₁₂\nB. 富马酸亚铁\nC. 维生素K₁\nD. 甲磺酸去铁胺\nE. 亚叶酸钙\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 药学/疾病治疗/难度1"
+  },
+  {
+   "id": "cmexam-00113",
+   "category": "mcq_zh",
+   "question": "肺炎喘嗽区别于支气管炎的重要体征是\nA. 双肺固定的细湿罗音\nB. 双肺呼吸音减弱\nC. 双肺呼吸音增粗\nD. 双肺哮鸣音\nE. 双肺管状呼吸音\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 中西医结合/疾病诊断和鉴别诊断/难度3"
+  },
+  {
+   "id": "cmexam-00114",
+   "category": "mcq_zh",
+   "question": "用16种人格因素测验量表（16PF）测验某人的人格特征，这一方法是依据\nA. 弗洛伊德人格理论\nB. 卡特尔人格理论\nC. 艾森克人格理论\nD. 斯金纳的人格理论\nE. 罗杰斯的人格理论\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/不符合/难度4"
+  },
+  {
+   "id": "cmexam-00115",
+   "category": "mcq_zh",
+   "question": "蔬菜水果中何种维生素含量丰富\nA. 维生素A、维生素C\nB. 维生素C、胡萝卜素\nC. 维生素A、维生素D\nD. 维生素C、维生素D\nE. 维生素E、维生素A\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 公卫预防/不符合/难度1"
+  },
+  {
+   "id": "cmexam-00116",
+   "category": "mcq_zh",
+   "question": "正常情况下，乳母摄入的蛋白质变成乳汁中蛋白质的转换率约为\nA. 0.4\nB. 0.5\nC. 0.6\nD. 0.7\nE. 0.8\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度3"
+  },
+  {
+   "id": "cmexam-00117",
+   "category": "mcq_zh",
+   "question": "正常情况下适度升高血胆汁酸浓度的结果是\nA. 红细胞生成胆红素减少\nB. 胆固醇7α-羟化酶合成抑制\nC. 血中磷脂含量升高\nD. 脂酸生成酮体加快\nE. 甘油三酯合成增加\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/医学基础知识/难度2"
+  },
+  {
+   "id": "cmexam-00118",
+   "category": "mcq_zh",
+   "question": "宜与蛤蚧对抗贮存的是\nA. 大蒜\nB. 冰片\nC. 黑豆\nD. 花椒\nE. 细辛\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 中药学/不符合/难度1"
+  },
+  {
+   "id": "cmexam-00119",
+   "category": "mcq_zh",
+   "question": "患者，女，34岁。因咳嗽、发热2天到卫生院就诊，经诊断为上呼吸道感染，给予肌内注射链霉素0.5克。10分钟后，患者面色苍白，呼吸急促，继而抽搐昏迷，即行紧急抢救，40分钟后，呼吸心跳停止。患者死后，其家属认为该院未对患者作皮试就行注射，是院方责任。根据《医疗事故处理办法》，这是一起\nA. 医疗技术事故\nB. 医疗责任事故\nC. 严重医疗差错\nD. 医疗意外\nE. 并发症\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/公卫法律伦理/难度3"
+  },
+  {
+   "id": "cmexam-00120",
+   "category": "mcq_zh",
+   "question": "燥邪的致病特点是\nA. 易于动血\nB. 易伤阳气\nC. 其性升散，易耗气伤津\nD. 易于伤肺\nE. 为病缠绵难愈\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 中西医结合/疾病诊断和鉴别诊断/难度3"
+  },
+  {
+   "id": "cmexam-00121",
+   "category": "mcq_zh",
+   "question": "多巴酚丁胺\nA. 选择性激动β₁受体\nB. 选择激动β₂受体\nC. 对两种受体均有作用\nD. 对两种受体均无作用\n请直接给出正确选项字母（A/B/C/D）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 药学/医学基础知识/难度3"
+  },
+  {
+   "id": "cmexam-00122",
+   "category": "mcq_zh",
+   "question": "符合希恩综合征诊断的是\nA. LH/FSH≥2\nB. PRL正常，FSH＞40U/L\nC. FSH，LH均＜5U/L\nD. PRL＞25μg/L\nE. FSH，LH均＜10U/L\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度3"
+  },
+  {
+   "id": "cmexam-00123",
+   "category": "mcq_zh",
+   "question": "女，35岁，全身无力2天，加重1天，不能正常发音，张口困难，呼吸困难等，几天后家人也中毒，症状相似。根据流行病学调查，相关患者均食用自家腌制的酱豆腐后产生中毒症状，则中毒的原因最可能是\nA. 神经酰胺酶毒素\nB. 痉挛毒素\nC. 耐热溶血素\nD. 肠毒素\nE. 肉毒素\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 临床医学/公卫法律伦理/难度4"
+  },
+  {
+   "id": "cmexam-00124",
+   "category": "mcq_zh",
+   "question": "假定酒后驾车的司机有较高的交通事故发生率，如果开展一项病例对照研究来检验此假设，合适的对照为\nA. 没有酒后驾车的司机\nB. 酒后驾车的司机\nC. 未出事故的司机\nD. 酒后驾车但未出事故的司机\nE. 没有酒后驾车且未出事故的司机\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度2"
+  },
+  {
+   "id": "cmexam-00125",
+   "category": "mcq_zh",
+   "question": "高钾血症的病因不包括\nA. 慢性肾衰竭\nB. 应用袢利尿剂\nC. 应用螺内酯\nD. 大量输入库存血\nE. 挤压综合征\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00126",
+   "category": "mcq_zh",
+   "question": "男，50岁。突发车祸，急诊就医。查体：右足下垂，小腿外侧和足背外侧感觉消失。X线片示右胫、腓骨多段骨皮质不连续。该病变最可能损伤的神经是\nA. 闭孔神经\nB. 股神经\nC. 腓总神经\nD. 隐神经\nE. 胫神经\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00127",
+   "category": "mcq_zh",
+   "question": "需尽快灌制模型，取印模时需严格吹干的材料\nA. 琼脂类\nB. 藻酸盐类\nC. 聚醚橡胶类\nD. A型硅橡胶\nE. 缩合型硅橡胶\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 口腔医学/不符合/难度4"
+  },
+  {
+   "id": "cmexam-00128",
+   "category": "mcq_zh",
+   "question": "影响化妆品皮肤病发生的主要因素不包括\nA. 与皮肤接触的程度\nB. 化妆品施用的部位\nC. 化妆品的酸碱度\nD. 使用对象的年龄、性别\nE. 化妆品中易蒸发、挥发的组分含量\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 公卫预防/不符合/难度3"
+  },
+  {
+   "id": "cmexam-00129",
+   "category": "mcq_zh",
+   "question": "自然铜炮制的方法应是\nA. 明煅法\nB. 煅淬法\nC. 扣锅煅法\nD. 闷煅法\nE. 干馏法\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 中药学/不符合/难度2"
+  },
+  {
+   "id": "cmexam-00130",
+   "category": "mcq_zh",
+   "question": "拮抗药的内在活性α为\nA. 0\nB. 1\nC. 2\nD. 3\nE. 4\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 口腔医学/医学基础知识/难度3"
+  },
+  {
+   "id": "cmexam-00131",
+   "category": "mcq_zh",
+   "question": "根据国家药品监督管理局、公安部、国家卫生健康委员会的有关规定，口服固体制剂每剂量单位含羟考酮碱不超过5毫克，且不含其他麻醉药品、精神药品或者药品类易制毒化学品的复方制剂列入\nA. 含麻醉药品复方制剂的管理\nB. 第二类精神药品管理\nC. 第一类精神药品管理\nD. 医疗用毒性药品管理\n请直接给出正确选项字母（A/B/C/D）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 药学/公卫法律伦理/难度3"
+  },
+  {
+   "id": "cmexam-00132",
+   "category": "mcq_zh",
+   "question": "碳酸锂\nA. 阻断D₁、D₁受体\nB. 使突触间隙的NA浓度下降\nC. 阻断N胆碱受体\nD. 对心肌有奎尼丁样作用\nE. 阻断中枢5-HT受体\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/医学基础知识/难度3"
+  },
+  {
+   "id": "cmexam-00133",
+   "category": "mcq_zh",
+   "question": "以下配伍中属于对人体有害药物相互作用的是\nA. 氢氯噻嗪+缬沙坦\nB. 磺胺异噁唑+甲氧苄啶\nC. 呋塞米+庆大霉素\nD. 丙磺舒+青霉素\nE. 单胺氧化酶抑制剂+氯丙嗪\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 药学/疾病治疗/难度3"
+  },
+  {
+   "id": "cmexam-00134",
+   "category": "mcq_zh",
+   "question": "卫生服务的需要主要取决于消费者的\nA. 自身健康状况\nB. 健康状况和购买愿望\nC. 实际支付能力\nD. 购买愿望\nE. 购买愿望和支付能力\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 临床医学/公卫法律伦理/难度3"
+  },
+  {
+   "id": "cmexam-00135",
+   "category": "mcq_zh",
+   "question": "体液免疫测定是指\nA. 皮肤迟发型超敏反应\nB. 血清谷丙转氨酶测定\nC. 血清免疫球蛋白测定\nD. 血清β-微球蛋白测定\nE. 硝基四唑氮兰还原试验\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 临床医学/医学基础知识/难度1"
+  },
+  {
+   "id": "cmexam-00136",
+   "category": "mcq_zh",
+   "question": "用于酸性、碱性和有机溶剂滤过，并且可耐受260℃高温的是\nA. 醋酸纤维素膜\nB. 硝酸纤维素膜\nC. 聚酰胺膜\nD. 聚四氟乙烯膜\nE. 聚偏氟乙烯膜\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 药学/不符合/难度3"
+  },
+  {
+   "id": "cmexam-00137",
+   "category": "mcq_zh",
+   "question": "160/110mmlHg，尿蛋白（++），胎心率130次/分，宫颈管未消失，OCT呈频繁晚期减速（迟发性减速），血细胞比容0.41。最合适的处理是\nA. 静滴硫酸镁与胼苯哒嗪控制病情\nB. 硫酸镁加降压加扩容疗法控制病情\nC. 积极治疗，48小时未能控制病情则行剖宫产\nD. 破膜加静滴缩宫素引产\nE. 积极药物治疗的同时立即剖宫产\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 临床医学/疾病治疗/难度2"
+  },
+  {
+   "id": "cmexam-00138",
+   "category": "mcq_zh",
+   "question": "乳腺癌的筛查方法是\nA. 胸部正位X线\nB. 乳腺X线\nC. 乳腺MRI\nD. 穿刺活检\nE. 胸部CT\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度2"
+  },
+  {
+   "id": "cmexam-00139",
+   "category": "mcq_zh",
+   "question": "利小便实大便的理论依据是\nA. 脾主运化\nB. 肺主通调水道\nC. 小肠主受盛\nD. 小肠主化物\nE. 小肠主泌别清浊\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 中西医结合/医学基础知识/难度1"
+  },
+  {
+   "id": "cmexam-00140",
+   "category": "mcq_zh",
+   "question": "硝普钠的作用是\nA. 减弱心肌收缩力\nB. 降低左室后负荷\nC. 同时降低左室前后负荷\nD. 降低左室前负荷\nE. 增加心肌收缩力\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 临床医学/医学基础知识/难度2"
+  },
+  {
+   "id": "cmexam-00141",
+   "category": "mcq_zh",
+   "question": "下列哪个疾病适合做大规模的筛检\nA. 原位子宫颈癌\nB. 乙型肝炎\nC. 艾滋病\nD. 流行性感冒\nE. 麻疹\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度2"
+  },
+  {
+   "id": "cmexam-00142",
+   "category": "mcq_zh",
+   "question": "刷牙不易清洁的部位是\nA. 牙颈部\nB. 邻接面\nC. 后牙远中面\nD. 下前牙舌侧\nE. 上后牙颊侧\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 口腔医学/不符合/难度1"
+  },
+  {
+   "id": "cmexam-00143",
+   "category": "mcq_zh",
+   "question": "一般而言，病例对照研究中最可能发生的两种偏倚为\nA. 诊断怀疑偏倚和回忆偏倚\nB. 回忆偏倚和Berkson偏倚\nC. Berkson偏倚和失访偏倚\nD. Neyman偏倚和失访偏倚\nE. 领先时间偏倚和错分偏倚\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度1"
+  },
+  {
+   "id": "cmexam-00144",
+   "category": "mcq_zh",
+   "question": "能够影响银汞合金性能的因素是\nA. 汞与合金粉的比例\nB. 水分是否进入银汞合金\nC. 充填压力的大小\nD. 研磨时间的长短\nE. 以上说法均正确\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 口腔医学/不符合/难度1"
+  },
+  {
+   "id": "cmexam-00145",
+   "category": "mcq_zh",
+   "question": "女性50岁，烧伤3小时，体重60kg，双小腿及足有水泡，创面湿润，疼痛明显。第一个24小时补液量是\nA. 4700ml\nB. 5700ml\nC. 1700ml\nD. 3700ml\nE. 2700ml\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 临床医学/疾病治疗/难度2"
+  },
+  {
+   "id": "cmexam-00146",
+   "category": "mcq_zh",
+   "question": "以变质为主的炎症是\nA. 感冒初期鼻黏膜炎\nB. 假膜性炎\nC. 绒毛心\nD. 脓肿\nE. 流行性乙型脑炎\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00147",
+   "category": "mcq_zh",
+   "question": "孤束核接受哪些脑神经的传入纤维\nA. Ⅴ、Ⅶ和Ⅹ脑神经\nB. Ⅶ、Ⅷ和Ⅹ脑神经\nC. Ⅶ、Ⅸ和Ⅹ脑神经\nD. Ⅸ、Ⅹ和Ⅻ脑神经\nE. Ⅸ、Ⅹ、Ⅻ脑神经\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00148",
+   "category": "mcq_zh",
+   "question": "一项饮酒与冠心病的病例追踪研究结果显示：RR＝4.5，对该结果的正确解释是\nA. 饮酒组发生冠心病的可能性显著高于对照组\nB. 冠心病组饮酒的比例显著高于对照组\nC. 饮酒组发生冠心病的可能性比对照组增高4.5倍\nD. 饮酒组发生冠心病的可能性是对照组的4.5倍\nE. 冠心病组中饮酒的比例是对照组的4.5倍\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度2"
+  },
+  {
+   "id": "cmexam-00149",
+   "category": "mcq_zh",
+   "question": "关于正偏态分布资料的描述，说法错误的是\nA. 变量值的频数分布不对称\nB. 大多数变量值集中在小的一端\nC. 绘成的曲线高峰偏右，长尾向左侧\nD. 不宜用算术均数表示其平均水平\nE. 可考虑运用中位数指标来描述其集中位置\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度2"
+  },
+  {
+   "id": "cmexam-00150",
+   "category": "mcq_zh",
+   "question": "可采用雄激素治疗的贫血\nA. 缺铁性贫血\nB. 再生障碍性贫血\nC. 溶血性贫血\nD. 巨幼细胞性贫血\nE. 甲状腺功能减退所致贫血\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/疾病治疗/难度1"
+  },
+  {
+   "id": "cmexam-00151",
+   "category": "mcq_zh",
+   "question": "抑制DNA多聚酶的药物是\nA. 氟尿嘧啶\nB. 阿糖胞苷\nC. 羟基脲\nD. 甲氨蝶呤\nE. 巯嘌呤\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 药学/医学基础知识/难度2"
+  },
+  {
+   "id": "cmexam-00152",
+   "category": "mcq_zh",
+   "question": "下面哪项不是防尘工作八字方针中的内容\nA. 革\nB. 水\nC. 密\nD. 封\nE. 护\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 公卫预防/不符合/难度2"
+  },
+  {
+   "id": "cmexam-00153",
+   "category": "mcq_zh",
+   "question": "沙丁胺醇是\nA. 需要制定最高残留限量的兽药\nB. 需要制定最低残留限量的兽药\nC. 禁止用于所有食品动物的兽药\nD. 不需要制定最高残留限量的普药\nE. 不得检出兽药残留的兽药\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度3"
+  },
+  {
+   "id": "cmexam-00154",
+   "category": "mcq_zh",
+   "question": "患者女65岁，近日突发呼吸困难，肺部充满湿啰音，咳粉红色泡沫痰，既往冠心病史10年，R35次/分，BP80/50mmHg，心率102次/分，S3奔马律。该患者最可能的诊断是\nA. 全心衰\nB. 右心衰\nC. 急性左心衰\nD. 肺栓塞\nE. 慢性左心衰\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00155",
+   "category": "mcq_zh",
+   "question": "土壤中含硒量相对较低的是\nA. 棕褐土壤\nB. 红黄土壤\nC. 沙粒土壤\nD. 黑粘土壤\nE. 褐粘土壤\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 公卫预防/不符合/难度3"
+  },
+  {
+   "id": "cmexam-00156",
+   "category": "mcq_zh",
+   "question": "手术中的道德要求最主要的是\nA. 全面系统，认真细致\nB. 综合分析，切忌片面\nC. 全神贯注，语言得当\nD. 合理配伍，细致观察\nE. 精诚团结，密切协作\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度3"
+  },
+  {
+   "id": "cmexam-00157",
+   "category": "mcq_zh",
+   "question": "对于β受体阻断药不属于禁用或慎用的是\nA. 支气管哮喘\nB. 青光眼\nC. 外周血管痉挛性疾病\nD. 心脏传导阻滞\nE. 心功能不全\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 药学/疾病治疗/难度4"
+  },
+  {
+   "id": "cmexam-00158",
+   "category": "mcq_zh",
+   "question": "不属于经蚊虫传播的疾病是\nA. 丝虫病\nB. 疟疾\nC. 流行性乙型脑炎\nD. 性传播疾病\nE. 登革热\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 公卫预防/医学基础知识/难度1"
+  },
+  {
+   "id": "cmexam-00159",
+   "category": "mcq_zh",
+   "question": "突发公共卫生事件预防与应急准备的关键时期是\nA. 潜伏期\nB. 暴发期\nC. 处理期\nD. 流行期\nE. 恢复期\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度1"
+  },
+  {
+   "id": "cmexam-00160",
+   "category": "mcq_zh",
+   "question": "复方炔诺酮片用于\nA. 促排卵\nB. 避孕\nC. 引产\nD. 预防先兆流产\nE. 治疗子宫出血\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 药学/疾病治疗/难度2"
+  },
+  {
+   "id": "cmexam-00161",
+   "category": "mcq_zh",
+   "question": "某女，35岁。因肝郁脾虚导致郁闷不舒，胸胁胀痛，头晕目眩，食欲减退，月经不调，治当疏肝健脾，养血调经，宜选用的成药是\nA. 四逆散\nB. 逍遥丸\nC. 小柴胡颗粒\nD. 柴胡舒肝丸\nE. 气滞胃痛颗粒\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 中药学/疾病治疗/难度1"
+  },
+  {
+   "id": "cmexam-00162",
+   "category": "mcq_zh",
+   "question": "患者，男，62岁，因骨性关节炎，药物治疗效果不佳，关节坏死，拟行人工关节置换术。适宜该患者预防性使用的抗菌药物是\nA. 头孢唑林\nB. 头孢曲松\nC. 头孢他啶\nD. 头孢哌酮\nE. 氨曲南\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 药学/疾病治疗/难度3"
+  },
+  {
+   "id": "cmexam-00163",
+   "category": "mcq_zh",
+   "question": "药品上市销售前需经指定的药品检验所进行的检验属于\nA. 抽查检验\nB. 注册检验\nC. 生产检验\nD. 指定检验\nE. 复验\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 中药学/公卫法律伦理/难度1"
+  },
+  {
+   "id": "cmexam-00164",
+   "category": "mcq_zh",
+   "question": "男性，78岁，进行性排尿困难3月余，伴头晕目眩，腰膝酸软，失眠多梦，咽干，舌红，苔黄，脉细数，前列腺指诊：前列腺二度增大，中央沟变浅，表面光滑有弹性，诊为前列腺增生症。治宜\nA. 黄芩清肺饮\nB. 八正散\nC. 补中益气汤\nD. 知柏地黄汤\nE. 代抵当汤\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 中医学/疾病治疗/难度1"
+  },
+  {
+   "id": "cmexam-00165",
+   "category": "mcq_zh",
+   "question": "男性，20岁。因甲状腺功能亢进症行甲状腺大部分切除术，术后第二天出现手足抽搐。采用治疗方法是\nA. 颈部理疗\nB. 口服甲状腺素片\nC. 口服复方碘化钾溶液\nD. 气管切开\nE. 静脉注射10%葡萄糖酸钙\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 临床医学/疾病治疗/难度1"
+  },
+  {
+   "id": "cmexam-00166",
+   "category": "mcq_zh",
+   "question": "药师在接受护士咨询时，应重点关注的内容是\nA. 药品经济学知识\nB. 药物制剂的等效性\nC. 药品在人体内的药动学参数\nD. 注射剂的配制、溶媒、浓度和滴注速度\nE. 药品的生产厂商和批号\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 药学/不符合/难度1"
+  },
+  {
+   "id": "cmexam-00167",
+   "category": "mcq_zh",
+   "question": "温毒邪盛感而爆发是\nA. 卒发\nB. 徐发\nC. 伏而后发\nD. 继发\nE. 复发\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 中医学/医学基础知识/难度2"
+  },
+  {
+   "id": "cmexam-00168",
+   "category": "mcq_zh",
+   "question": "女，40岁，确诊为急性胰腺炎，内科正规治疗2周后体温仍在38℃～39℃，左上腹部压痛明显。尿淀粉酶256U（Winslow法），血白细胞16×10⁹/L，可能性最大的是\nA. 病情迁延未愈\nB. 并发胰腺脓肿\nC. 并发胰腺假性囊肿\nD. 败血症\nE. 合并急性胆囊炎\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度2"
+  },
+  {
+   "id": "cmexam-00169",
+   "category": "mcq_zh",
+   "question": "阿苯达唑无下列哪一种作用\nA. 可治疗血吸虫病\nB. 驱钩虫、鞭虫\nC. 驱绦虫\nD. 驱蛔虫、蛲虫\nE. 有胚胎毒和致畸作用，孕妇忌用\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 药学/医学基础知识/难度2"
+  },
+  {
+   "id": "cmexam-00170",
+   "category": "mcq_zh",
+   "question": "中线致死性肉芽肿好发部位是\nA. 口腔前庭后部\nB. 鼻窦\nC. 下颌骨\nD. 面中线\nE. 上颌骨\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 口腔医学/疾病诊断和鉴别诊断/难度2"
+  },
+  {
+   "id": "cmexam-00171",
+   "category": "mcq_zh",
+   "question": "具有杀虫功效的药物是\nA. 白及\nB. 仙鹤草\nC. 棕榈炭\nD. 血余炭\nE. 炮姜\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 中西医结合/不符合/难度2"
+  },
+  {
+   "id": "cmexam-00172",
+   "category": "mcq_zh",
+   "question": "除另有规定外，中药颗粒剂水分不得过\nA. 0.12\nB. 0.15\nC. 0.03\nD. 0.08\nE. 0.09\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 中药学/医学基础知识/难度1"
+  },
+  {
+   "id": "cmexam-00173",
+   "category": "mcq_zh",
+   "question": "行为主义的开创者是\nA. 斯金纳\nB. 班杜拉\nC. 华生\nD. 詹姆士\nE. 巴甫洛夫\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 临床医学/不符合/难度3"
+  },
+  {
+   "id": "cmexam-00174",
+   "category": "mcq_zh",
+   "question": "添加水果汁、青菜汤应在\nA. 10～12个月\nB. 1～3个月\nC. 4～6个月\nD. 7～9个月\nE. 12～15个月\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 口腔医学/不符合/难度4"
+  },
+  {
+   "id": "cmexam-00175",
+   "category": "mcq_zh",
+   "question": "能行气利水的药是\nA. 麦芽\nB. 槟榔\nC. 莱菔子\nD. 鸡内金\nE. 南瓜子\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 中药学/医学基础知识/难度1"
+  },
+  {
+   "id": "cmexam-00176",
+   "category": "mcq_zh",
+   "question": "急性根尖周炎至骨膜下脓肿时，应在局部麻醉或表面麻醉下行\nA. 牙髓切断术\nB. 牙髓摘除术\nC. 切开排脓术\nD. 根尖诱导成形术\nE. 开髓引流术\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 口腔医学/疾病治疗/难度2"
+  },
+  {
+   "id": "cmexam-00177",
+   "category": "mcq_zh",
+   "question": "当水中含有大量硫酸钠、硫酸镁时，水质呈\nA. 苦味\nB. 咸味\nC. 涩味\nD. 沼泽味\nE. 汽油味\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 公卫预防/不符合/难度1"
+  },
+  {
+   "id": "cmexam-00178",
+   "category": "mcq_zh",
+   "question": "疾病年龄分布中的出生队列分析方法是\nA. 不需要随访\nB. 观察一时间断面的死亡率\nC. 将同一时期同一年龄的人划为一组\nD. 说明同一时期不同年龄组死亡率的变化\nE. 说明不同年代出生的各年龄组的死亡率的变化\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度3"
+  },
+  {
+   "id": "cmexam-00179",
+   "category": "mcq_zh",
+   "question": "男，3岁。出生时正常，母乳喂养，5个月后智能渐落后，头发变黄，肤色变白，多动，有肌痉挛，尿有鼠尿臭味。为协助诊断应选择的检查是\nA. 血钙磷测定\nB. 染色体核型分析\nC. 血T₃、T₄、TSH测定\nD. 尿三氯化铁试验\nE. 脑电图检查\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 临床医学/疾病诊断和鉴别诊断/难度1"
+  },
+  {
+   "id": "cmexam-00180",
+   "category": "mcq_zh",
+   "question": "回归与相关分析中，若两变量X、Y的相关系数近似为0，以下推断错误的一项是\nA. 与常数项的大小无关\nB. 如果充分增加样本量，也能否定H₀：ρ=0\nC. X与Y可能有非直线的相关关系\nD. X与Y的关系用直线方程表达的意义不大\nE. 回归系数也近似为0\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度3"
+  },
+  {
+   "id": "cmexam-00181",
+   "category": "mcq_zh",
+   "question": "可引起齿龈增生和多毛的药物是\nA. 环孢素\nB. 羟氯喹\nC. 柳氮磺吡啶\nD. 甲氨蝶呤\nE. 来氟米特\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 药学/医学基础知识/难度1"
+  },
+  {
+   "id": "cmexam-00182",
+   "category": "mcq_zh",
+   "question": "中暑受湿，发热头痛，烦渴引饮，小便不利或呕吐泄泻者，治宜选用\nA. 六一散\nB. 桂苓甘露散\nC. 藿香正气散\nD. 香薷散\nE. 参苓白术散\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 中西医结合/疾病治疗/难度4"
+  },
+  {
+   "id": "cmexam-00183",
+   "category": "mcq_zh",
+   "question": "突起高热，面色青灰，出冷汗及脉细数，尿少，可能的诊断是\nA. 急性菌痢普通型\nB. 慢性菌痢急性发作型\nC. 中毒型菌痢\nD. 急性菌痢轻型\nE. 慢性菌痢隐匿型\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 中西医结合/疾病诊断和鉴别诊断/难度2"
+  },
+  {
+   "id": "cmexam-00184",
+   "category": "mcq_zh",
+   "question": "煤焦油、吸烟及酒精等均可致癌，说明口腔颌面肿瘤可能与哪项致病因素有关\nA. 物理因素\nB. 化学因素\nC. 生物因素\nD. 营养因素\nE. 内分泌因素\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 口腔医学/医学基础知识/难度1"
+  },
+  {
+   "id": "cmexam-00185",
+   "category": "mcq_zh",
+   "question": "通过生态学研究可实现的研究目的是\nA. 为了早发现、早诊断、早治疗宫颈癌\nB. 对个别发生的麻疹患者进行调查\nC. 烟草消耗量与肺癌的关系研究\nD. 对临床诊疗过程中遇见的某罕见疾病病例的临床表现、治疗与转归等进行描述\nE. 为了获取某地高校学生的乙肝感染率\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度1"
+  },
+  {
+   "id": "cmexam-00186",
+   "category": "mcq_zh",
+   "question": "混合照明中，一般照明与局部照明的比例以（）为好\nA. 1∶1\nB. 1∶2\nC. 1∶3\nD. 1∶4\nE. 1∶5\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 公卫预防/不符合/难度4"
+  },
+  {
+   "id": "cmexam-00187",
+   "category": "mcq_zh",
+   "question": "能对污染源进行综合评价的指标是\nA. 超标率\nB. 等标污染负荷\nC. 污染物的排放浓度\nD. 超标倍数\nE. 污染物的排放体积\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 公卫预防/公卫法律伦理/难度1"
+  },
+  {
+   "id": "cmexam-00188",
+   "category": "mcq_zh",
+   "question": "统计表中的数字用什么表示\nA. 阿拉伯数字\nB. 希腊数字\nC. 罗马数字\nD. 中文数字\nE. 以上均错误\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 口腔医学/不符合/难度1"
+  },
+  {
+   "id": "cmexam-00189",
+   "category": "mcq_zh",
+   "question": "学校办公服务用房净高不应低于\nA. 1.1m\nB. 1.8m\nC. 2.1m\nD. 2.8m\nE. 3.4m\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 公卫预防/不符合/难度3"
+  },
+  {
+   "id": "cmexam-00190",
+   "category": "mcq_zh",
+   "question": "字母H表示\nA. 化学药品\nB. 中药\nC. 生物制品\nD. 进口药品\nE. 药用辅料\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 中药学/不符合/难度1"
+  },
+  {
+   "id": "cmexam-00191",
+   "category": "mcq_zh",
+   "question": "医生医治好患者之后，记者联系医生将该患者的个人信息和诊疗情况登报报道。该医生违背的原则为\nA. 社会公益\nB. 个人利益\nC. 保密原则\nD. 公平公正\nE. 工作严谨\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 临床医学/公卫法律伦理/难度1"
+  },
+  {
+   "id": "cmexam-00192",
+   "category": "mcq_zh",
+   "question": "质脆，断面有细密，银白色，富弹性的橡胶丝相连的药材是\nA. 厚朴\nB. 桑白皮\nC. 杜仲\nD. 牡丹皮\nE. 地骨皮\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMExam 中药学/不符合/难度1"
+  },
+  {
+   "id": "cmexam-00193",
+   "category": "mcq_zh",
+   "question": "创面边缘整齐，坚硬削直而如凿成、基底部高低不平，有稀薄臭秽分泌物。其溃疡属于\nA. 麻风性溃疡\nB. 压迫性溃疡\nC. 疮痨性溃疡\nD. 梅毒性溃疡\nE. 岩性溃疡\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMExam 中西医结合/疾病诊断和鉴别诊断/难度3"
+  },
+  {
+   "id": "cmexam-00194",
+   "category": "mcq_zh",
+   "question": "某药店《药品经营许可证》核定的经营范围是“中成药、中药饮片、化学药制剂、抗生素制剂”。供货商提供的《药品经营许可证》中核定的经营范围是“生化药品、中药材、中药饮片、生物制品（不含预防性生物制品）、化学原料药、中成药、化学药制剂、抗生素制剂、第二类精神药品制剂”，经营方式是“批发”。该药店可以从该供货商采购的药品是\nA. 抗生素制剂和中成药\nB. 第二类精神药品和化学药制剂\nC. 抗生素原料药和中药饮片\nD. 血液制品和生化药品\nE. 疫苗和医疗用毒性药品\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMExam 中药学/不符合/难度2"
+  },
+  {
+   "id": "cmexam-00195",
+   "category": "mcq_zh",
+   "question": "四环素对牙着色和牙釉质发育不全影响程度的因素不包括\nA. 四环素族药物本身的颜色\nB. 紫外线和口腔对四环素的降解作用\nC. 四环素在牙本质内结合部位的深浅\nD. 牙釉质本身的结构\nE. 与儿童乳牙根尖周严重感染有关\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 口腔医学/疾病治疗/难度2"
+  },
+  {
+   "id": "cmexam-00196",
+   "category": "mcq_zh",
+   "question": "以下对放射线敏感的肿瘤中，不包括\nA. 恶性淋巴瘤\nB. 未分化癌\nC. 淋巴上皮癌\nD. 尤文肉瘤\nE. 恶性黑色素瘤\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 口腔医学/医学基础知识/难度1"
+  },
+  {
+   "id": "cmexam-00197",
+   "category": "mcq_zh",
+   "question": "女，26岁，右下后牙牙龈易出血1月，可自行止住。检查：牙石I度，右下5近中见树脂充填，探及充填物悬突，右下45间龈乳头充血，探诊易出血。此临床症状的主要促进因素是\nA. 牙菌斑\nB. 医源性因素\nC. 创伤（牙合）\nD. 女性激素\nE. 牙石\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMExam 口腔医学/疾病诊断和鉴别诊断/难度2"
+  },
+  {
+   "id": "cmexam-00198",
+   "category": "mcq_zh",
+   "question": "利用健康高危人群的就医机会进行的针对性检查称为\nA. 特殊性体检\nB. 健康体检\nC. 社会性体检\nD. 医疗性体检\nE. 机会性筛检\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 临床医学/公卫法律伦理/难度3"
+  },
+  {
+   "id": "cmexam-00199",
+   "category": "mcq_zh",
+   "question": "对图画为主的材料进行预试验，最好采取的方式是\nA. 小组访谈\nB. 个人自行阅读后填表\nC. 问卷调查\nD. 向预试验对象说明解释材料的场景和动态设计，征询意见\nE. 个人访谈\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMExam 公卫预防/不符合/难度4"
+  }
+ ]
+}

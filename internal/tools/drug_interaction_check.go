@@ -91,17 +91,27 @@ func (t *DrugInteractionCheckTool) Execute(ctx context.Context, args map[string]
 		}, nil
 	}
 
-	// Check common targets (intersection of synonyms)
-	commonTargets := []string{}
-	for _, t1 := range data.Targets {
-		for _, t2 := range data.Targets {
-			if t1.ID == t2.ID {
-				// Check if both drugs target this
-				if strings.Contains(strings.ToLower(t1.Name), drug1Lower) ||
-					strings.Contains(strings.ToLower(t1.Name), drug2Lower) {
-					commonTargets = append(commonTargets, t1.Name)
-				}
+	// Common-target heuristic. The TTD import carries no drug→target edges,
+	// so the only signal available is a target record whose name mentions
+	// both drugs. Single pass over targets: the previous O(n²) self-join
+	// (t1.ID == t2.ID over ~40k targets) burned billions of string ops per
+	// call and matched on EITHER drug name, so its "common target" output
+	// was wrong as well as slow.
+	drug1Names := append([]string{found1.Name}, found1.Synonyms...)
+	drug2Names := append([]string{found2.Name}, found2.Synonyms...)
+	nameMentions := func(names []string, lower string) bool {
+		for _, n := range names {
+			if n != "" && strings.Contains(lower, strings.ToLower(n)) {
+				return true
 			}
+		}
+		return false
+	}
+	commonTargets := []string{}
+	for _, tg := range data.Targets {
+		lname := strings.ToLower(tg.Name)
+		if nameMentions(drug1Names, lname) && nameMentions(drug2Names, lname) {
+			commonTargets = append(commonTargets, tg.Name)
 		}
 	}
 

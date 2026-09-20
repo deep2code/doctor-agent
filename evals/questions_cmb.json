@@ -1,0 +1,2008 @@
+{
+ "meta": {
+  "source": "FreedomIntelligence/CMB (Chinese Medical Benchmark) CMB-Exam test split, 单选题抽样",
+  "total": 200
+ },
+ "questions": [
+  {
+   "id": "cmb-00688",
+   "category": "mcq_zh",
+   "question": "属于心身疾病的是\nA. 小叶性肺炎\nB. 精神发育迟滞\nC. 消化性溃疡\nD. 肿瘤\nE. 精神分裂症\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/执业助理医师/临床执业助理医师"
+  },
+  {
+   "id": "cmb-00256",
+   "category": "mcq_zh",
+   "question": "维生素B12缺乏性巨幼红细胞性贫血，肌注维生素B12的停药指征是（ ）。\nA. 网织红细胞降至正常\nB. 临床症状明显好转、血象恢复正常\nC. 骨髓象中幼红细胞恢复正常\nD. 血清维生素B12含量恢复正常\nE. 皮肤粘膜红润\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医师考试/规培结业/儿科"
+  },
+  {
+   "id": "cmb-03100",
+   "category": "mcq_zh",
+   "question": "滴虫阴道炎的治愈标准是\nA. 临床症状消失\nB. 局部用药3个疗程\nC. 连续3次月经后检查滴虫阴性\nD. 连续3次月经前检查滴虫阴性\nE. 治疗后悬滴法检查滴虫阴性\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 护理考试/主管护师/妇产科主管护师"
+  },
+  {
+   "id": "cmb-07761",
+   "category": "mcq_zh",
+   "question": "双氧水又称\nA. 过氧乙酸\nB. 过氧化氢\nC. 臭氧\nD. 二氧化氯\nE. 次氯酸钠\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医技考试/主管技师/消毒技术主管技师"
+  },
+  {
+   "id": "cmb-00147",
+   "category": "mcq_zh",
+   "question": "颈椎病行颌枕吊带牵引治疗，错误的是\nA. 适用于除交感神经型外的各型颈椎病\nB. 牵引重量为2-6kg\nC. 牵引时头前屈15°\nD. 可解除肌痉挛\nE. 可使小关节内的滑膜皱襞复位\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医师考试/规培结业/骨科"
+  },
+  {
+   "id": "cmb-05787",
+   "category": "mcq_zh",
+   "question": "不易使药材发生霉变的成分是\nA. 蛋白质\nB. 淀粉\nC. 树脂\nD. 糖类\nE. 黏液质\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 药师考试/初级中药师/中药学（师）"
+  },
+  {
+   "id": "cmb-04329",
+   "category": "mcq_zh",
+   "question": "枇杷叶来源于\nA. 蔷薇科\nB. 十字花科\nC. 柏科\nD. 豆科\nE. 夹竹桃科\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 药师考试/执业中药师/执业中药师"
+  },
+  {
+   "id": "cmb-01033",
+   "category": "mcq_zh",
+   "question": "有关还原当量的穿梭叙述错误的是\nA. 2H经苹果酸穿梭在线粒体内生成3分子ATP\nB. 2H经α-磷酸甘油穿梭在线粒体内生成2分子ATP\nC. 胞液NADH只能进线粒体才能氧化成水\nD. 2H经穿梭作用进入线粒体须消耗ATP\nE. NADH不能自由通过线粒体内膜\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医师考试/执业医师/临床执业医师"
+  },
+  {
+   "id": "cmb-01855",
+   "category": "mcq_zh",
+   "question": "肝性脑病昏迷期哪项不正确\nA. 昏迷\nB. 可有抽搐\nC. 扑翼样震颤阳性\nD. 脑电图异常\nE. 反射可消失\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/高级职称/消化内科高级职称"
+  },
+  {
+   "id": "cmb-02748",
+   "category": "mcq_zh",
+   "question": "绒毛膜癌最常见的致死原因是癌肿瘤转移至\nA. 肾\nB. 肺\nC. 脑\nD. 肝\nE. 阴道\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 护理考试/护师执业资格/护师资格考试"
+  },
+  {
+   "id": "cmb-01894",
+   "category": "mcq_zh",
+   "question": "垂体性甲亢与甲状腺性甲亢鉴别主要在于后者\nA. T3明显增高\nB. T4明显增高\nC. BMI增高\nD. TSH增高\nE. TSH下降\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 医师考试/高级职称/内分泌科高级职称"
+  },
+  {
+   "id": "cmb-05146",
+   "category": "mcq_zh",
+   "question": "《中国药典》规定，凡检查溶出度的制剂，可不再进行\nA. 崩解时限检查\nB. 杂质检查\nC. 晶型检查\nD. 含量均匀度检查\nE. 粒度检查\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 药师考试/初级药师/药师初级考试"
+  },
+  {
+   "id": "cmb-08736",
+   "category": "mcq_zh",
+   "question": "翼下颌间隙内的结构主要有\nA. 舌神经、下牙槽神经及下牙槽动、静脉\nB. 颊神经、舌神经和下牙槽神经\nC. 翼丛、舌神经和下牙槽神经\nD. 颊神经、舌神经和上颌动脉\nE. 舌神经、下牙槽神经和面深动脉\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 专业知识考试/临床医学/口腔解剖生理学"
+  },
+  {
+   "id": "cmb-10390",
+   "category": "mcq_zh",
+   "question": "从历史发展的角度看，资本主义生产资料所有制是不断演进和变化的。当今资本主义社会居主导地位的资本所有制形式是\nA. 私人资本所有制\nB. 私人股份资本所有制\nC. 法人资本所有制\nD. 垄断资本私人所有制\nE. \n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医学考研/考研政治/考研政治"
+  },
+  {
+   "id": "cmb-08530",
+   "category": "mcq_zh",
+   "question": "IgA肾病的病理变化最主要特点是\nA. 肾小球系膜区的IgA沉积\nB. 肾小球系膜区的多聚体IgACIC\nC. 肾小球系膜区的单体IgACIC\nD. 膜增生性肾小球肾炎\nE. 局灶性、节段性系膜细胞增生及基质增多\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 专业知识考试/临床医学/儿科学"
+  },
+  {
+   "id": "cmb-01550",
+   "category": "mcq_zh",
+   "question": "不影响X线对比度的因素是\nA. X线源与人体间的距离\nB. 人体组织的原子序数\nC. 物质的线吸收系数\nD. 人体组织的密度\nE. X线波长\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医师考试/中级职称/放射科主治医师"
+  },
+  {
+   "id": "cmb-00152",
+   "category": "mcq_zh",
+   "question": "影像诊断学中，不包括：\nA. X线诊断\nB. CT诊断\nC. 核素显像诊断\nD. 超声诊断\nE. MRI诊断\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/规培结业/医学影像科"
+  },
+  {
+   "id": "cmb-08422",
+   "category": "mcq_zh",
+   "question": "有关单纯性肥胖的叙述，正确的是\nA. 多由某些下丘脑病变引起\nB. 多由某些内分泌疾病引起\nC. 常有一定的遗传倾向\nD. 全身脂肪分布不均\nE. 多不属于食饵性肥胖\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 专业知识考试/临床医学/物理诊断学"
+  },
+  {
+   "id": "cmb-01449",
+   "category": "mcq_zh",
+   "question": "产生假性妊娠囊声像图，最有可能是\nA. 卵黄囊\nB. 黄素囊肿\nC. 子宫蜕膜管型\nD. 盆腔炎性包块\nE. 卵巢皮样囊肿\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/中级职称/超声波医学主治医师"
+  },
+  {
+   "id": "cmb-00923",
+   "category": "mcq_zh",
+   "question": "关于缺铁性贫血患者的临床表现，下列哪项不恰当\nA. 感染发生率减低\nB. 口角炎、舌炎、舌乳头萎缩较常见\nC. 毛发无泽、易断、易脱\nD. 胃酸缺乏及胃肠功能障碍\nE. 指甲扁平，甚至出现反甲\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医师考试/执业医师/中医执业医师"
+  },
+  {
+   "id": "cmb-08050",
+   "category": "mcq_zh",
+   "question": "关于腹股沟管内口的叙述下列哪项是错误的\nA. 内口又称深环\nB. 形状呈卵圆形\nC. 是腹内斜肌的裂口\nD. 位于腹股沟韧带中点上方\nE. 腹壁下动脉位于内侧\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 专业知识考试/基础医学/局部解剖学"
+  },
+  {
+   "id": "cmb-01334",
+   "category": "mcq_zh",
+   "question": "有关呆小症的说法错误的是\nA. 躯体矮小\nB. 智力障碍\nC. 精神运动性抑制常见\nD. 精神运动性兴奋常见\nE. 情感淡漠常见\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医师考试/中级职称/精神病学主治医师"
+  },
+  {
+   "id": "cmb-08438",
+   "category": "mcq_zh",
+   "question": "以下各项不属于高危妊娠范畴的是\nA. 有剖宫产史\nB. 双胎妊娠\nC. 有阑尾炎手术史\nD. 过期妊娠\nE. 胎盘功能不全\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 专业知识考试/临床医学/循证医学"
+  },
+  {
+   "id": "cmb-09307",
+   "category": "mcq_zh",
+   "question": "凝脂翳多由何种病菌感染而引起\nA. 病毒\nB. 细菌\nC. 真菌\nD. 衣原体\nE. 霉菌\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 专业知识考试/中医学与中药学/中医眼科学"
+  },
+  {
+   "id": "cmb-05155",
+   "category": "mcq_zh",
+   "question": "组成人体蛋白质的氨基酸结构，下面哪项正确\nA. 每个氨基酸仅含一个氨基\nB. 每个氨基酸仅含一个羧基\nC. 每个氨基酸都含两个氨基\nD. 每个氨基酸都含两个羧基\nE. 每个氨基酸的α-碳原子上都连接一个氨基和一个羧基\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 药师考试/初级药师/药师初级考试"
+  },
+  {
+   "id": "cmb-07652",
+   "category": "mcq_zh",
+   "question": "长期反复的外力作用于骨的某一部位，可逐渐发生慢性骨折称为\nA. 病理性骨折\nB. 疲劳性骨折\nC. 创伤性骨折\nD. 青枝骨折\nE. 骨骺分离\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医技考试/主管技师/放射医学主管技师"
+  },
+  {
+   "id": "cmb-08491",
+   "category": "mcq_zh",
+   "question": "血吸虫的中间宿主是\nA. 人\nB. 虾\nC. 蟹\nD. 水蛭\nE. 钉螺\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 专业知识考试/临床医学/传染病学"
+  },
+  {
+   "id": "cmb-07790",
+   "category": "mcq_zh",
+   "question": "有关右心室和肺动脉之间的关系，错误的是\nA. 右心室借右室流出道与肺动脉相连\nB. 肺动脉瓣由3个半月形的瓣叶组成\nC. 肺动脉3个瓣叶分为大、中三叶\nD. 肺动脉3个瓣叶袋口朝上，每个瓣叶游离缘中央有一半月小结\nE. 右室流出道为一光滑的肌性管状结构\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医技考试/主管技师/心电学主管技师"
+  },
+  {
+   "id": "cmb-01343",
+   "category": "mcq_zh",
+   "question": "对诊断阴道葡萄状肉瘤最具有诊断意义的是\nA. 肿瘤组织呈葡萄样外观充满阴道\nB. 紧邻上皮表面的线形排列的“环形层”\nC. 发生于幼女\nD. 镜下未分化的圆形或梭形细胞\nE. 黏液样、水肿状疏松的结缔组织\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医师考试/中级职称/病理科主治医师"
+  },
+  {
+   "id": "cmb-01389",
+   "category": "mcq_zh",
+   "question": "女性，26岁。产后2周突然出现左肢活动不灵伴头痛，2天前肢体抽动。诊断应首先考虑\nA. 颅内静脉窦血栓\nB. 脑出血\nC. 脑梗死\nD. 蛛网膜下腔出血\nE. 病毒性脑膜炎\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医师考试/中级职称/神经内科主治医师"
+  },
+  {
+   "id": "cmb-04295",
+   "category": "mcq_zh",
+   "question": "石膏的主产地是\nA. 湖南、湖北、贵州、云南\nB. 江西、湖南、广西\nC. 湖北\nD. 湖南、责州、四川、广西\nE. 吉林、黑龙江\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 药师考试/执业中药师/执业中药师"
+  },
+  {
+   "id": "cmb-01463",
+   "category": "mcq_zh",
+   "question": "男性，36岁。反复上腹痛3年，反酸，食欲缺乏，胃镜检查为十二指肠溃疡。该患者腹痛的特点是\nA. 无规律\nB. 持续性\nC. 阵发性，每次持续数分钟\nD. 疼痛-进餐-缓解\nE. 进餐-疼痛-缓解\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医师考试/中级职称/消化内科主治医师"
+  },
+  {
+   "id": "cmb-01448",
+   "category": "mcq_zh",
+   "question": "拔牙手术中并发症不包括\nA. 软组织损伤\nB. 骨组织损伤\nC. 邻牙损伤\nD. 神经损伤\nE. 干槽症\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 医师考试/中级职称/口腔颌面外科主治医师"
+  },
+  {
+   "id": "cmb-00119",
+   "category": "mcq_zh",
+   "question": "男性，72岁。心悸，易怒，诊断为甲状腺功能亢进，为了听到是否有枪击音。常选择的血管是\nA. 颈动脉\nB. 锁骨上动脉\nC. 桡动脉\nD. 腓动脉\nE. 股动脉\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 医师考试/规培结业/神经内科"
+  },
+  {
+   "id": "cmb-05493",
+   "category": "mcq_zh",
+   "question": "需要列出全部活性成分或者组方中的全部中药药味的是\nA. 药品说明书\nB. 药品的标签\nC. 药品不良反应信息\nD. 中药说明书\nE. 注射剂和非处方药说明书\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 药师考试/初级中药士/中药学（士）"
+  },
+  {
+   "id": "cmb-00259",
+   "category": "mcq_zh",
+   "question": "患者，女性，30岁，妊娠4个月。躯干皮疹伴阵发性剧痒2周，以夜间为重。专科检査:躯干散在粟粒至绿豆大小丘疹，见线状抓痕和少许血痂。 为缓解瘙痒，最安全的治疗措施是\nA. 口服抗组胺药物\nB. 外用炉甘石洗剂\nC. 外用糖皮质激素软膏\nD. 口服糖皮质激素药物\nE. 口服镇静或抗焦虑药物\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医师考试/规培结业/皮肤科"
+  },
+  {
+   "id": "cmb-01350",
+   "category": "mcq_zh",
+   "question": "下列有关情绪情感发育的说法中不正确的是\nA. 情绪情感发育是一个分化的过程\nB. 愉快系列的情感常常先于不愉快系列的情感\nC. 2岁左右已具备了与成人相同的情感种类\nD. 情绪情感发育是从表达方法、眷念行为、社会游戏、自我概念等方面来分的\nE. 情绪情感发育阶段可分7个阶段\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医师考试/中级职称/康复医学主治医师"
+  },
+  {
+   "id": "cmb-02364",
+   "category": "mcq_zh",
+   "question": "某轻度脱水患儿行液体疗法，在补充累积损失量时应补充的液体量为\nA. 小于50ml/kg\nB. 50-100ml/kg\nC. 100-120ml/kg\nD. 120-150ml/kg\nE. 150-180ml/kg\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 护理考试/护士执业资格/护士执业资格考试"
+  },
+  {
+   "id": "cmb-08402",
+   "category": "mcq_zh",
+   "question": "在下列哪种状态下心影会扩大\nA. 深吸气\nB. 深呼气\nC. 平静吸气\nD. 平静呼气\nE. 屏住呼吸\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 专业知识考试/临床医学/放射学"
+  },
+  {
+   "id": "cmb-04039",
+   "category": "mcq_zh",
+   "question": "含二蒽酮类化学成分、有泻下功效的药材是\nA. 紫苏叶\nB. 侧柏叶\nC. 大青叶\nD. 番泻叶\nE. 枇杷叶\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 药师考试/执业中药师/执业中药师"
+  },
+  {
+   "id": "cmb-08614",
+   "category": "mcq_zh",
+   "question": "第一心音主要组成成分是\nA. 心室肌收缩的振动\nB. 房室瓣关闭的振动\nC. 血流冲击大血管的振动\nD. 半月瓣关闭的振动\nE. 心房收缩时、房室瓣的振动\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 专业知识考试/临床医学/诊断学"
+  },
+  {
+   "id": "cmb-06895",
+   "category": "mcq_zh",
+   "question": "关于艾滋病预防的方法，错误的是\nA. 加强国境检疫，禁止HIV感染者入境\nB. 隔离病人及无症状携带者，对患者血液、排泄物和分泌物进行消毒处理\nC. 加强卫生宣教，取缔娼妓，禁止与艾滋病患者接触\nD. 严格婚前检查，限制与HIV感染者结婚\nE. 已感染的育龄妇女，应避免妊娠、哺乳\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医技考试/医技士/康复医学治疗技术（士）"
+  },
+  {
+   "id": "cmb-06862",
+   "category": "mcq_zh",
+   "question": "直接转换技术的DR中应用的转换介质是\nA. 影像板\nB. 增感屏\nC. 碘化铯\nD. 非晶硒\nE. 非晶硅\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医技考试/医技士/放射学技术（士）"
+  },
+  {
+   "id": "cmb-08032",
+   "category": "mcq_zh",
+   "question": "青霉素类药共同具有\nA. 耐酸、口服有效\nB. 耐β-内酰胺酶\nC. 抗菌谱广\nD. 主要应用于革兰阳性菌感染\nE. 可能发生过敏性休克，并有交叉过敏反应\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 专业知识考试/基础医学/药理学"
+  },
+  {
+   "id": "cmb-04027",
+   "category": "mcq_zh",
+   "question": "根据《执业药师资格制度暂行规定》，执业药师资格考试合格者取得的《执业药师资格证书》\nA. 在颁发地省内有效\nB. 在全国范围内有效\nC. 在取得者的居住地有效\nD. 在取得者的工作所在地有效\nE. 在取得者的身份证发放地有效\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 药师考试/执业中药师/执业中药师"
+  },
+  {
+   "id": "cmb-07981",
+   "category": "mcq_zh",
+   "question": "现在“上颌窦根治术”的准确编码应查找\nA. 上颌窦根治术\nB. 鼻外上颌窦切开术\nC. 鼻内上颌窦切开术\nD. 上颌窦切开\nE. 下鼻道开窗术\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医技考试/主管技师/病案信息主管技师"
+  },
+  {
+   "id": "cmb-01365",
+   "category": "mcq_zh",
+   "question": "以下哪项对鉴别感染性心内膜炎和活动风湿最有帮助\nA. 进行性贫血\nB. 体温的高度\nC. 红细胞沉降率增快的程度\nD. 皮肤黏膜淤点和脾大\nE. 白细胞数量\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医师考试/中级职称/内科主治医师"
+  },
+  {
+   "id": "cmb-01460",
+   "category": "mcq_zh",
+   "question": "一名50岁男子因急性心肌梗死入院。8小时后，他的血压是70/50mmHg，他的脉搏是35次/分。心电图显示窦性心动过缓，无ST段抬高。以下哪项是最适当的处理\nA. 阿托品静脉注射\nB. 多巴酚丁胺\nC. β受体阻滞剂\nD. 置入经静脉起搏器\nE. 行心导管术\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医师考试/中级职称/全科主治医师"
+  },
+  {
+   "id": "cmb-01256",
+   "category": "mcq_zh",
+   "question": "职业照射的五年平均有效剂量为\nA. 10Sv\nB. 20Sv\nC. 50Sv\nD. 200Sv\nE. 500Sv\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医师考试/中级职称/预防医学主治医师"
+  },
+  {
+   "id": "cmb-10828",
+   "category": "mcq_zh",
+   "question": "吴某，因为愤怒之极，突然昏倒，四肢不温，面色苍白，约五分钟后清醒，现在仍然头昏脑胀，胸肋胀满，善太息，不思饮食，失眠，苔薄腻，脉沉弦，此证宜有何法治疗\nA. 理气化痰，养心宁神\nB. 平肝降逆，养血安神\nC. 理气宽中，化痰宁神\nD. 理气达郁，调和肝脾\nE. 顺气开郁，安神宁志\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 医学考研/中医综合/考研中综错题top1500"
+  },
+  {
+   "id": "cmb-07521",
+   "category": "mcq_zh",
+   "question": "周围循环障碍引起的疼痛，应用经皮电刺激神经疗法时应选用的方式为\nA. 常规型镇痛作用较快，但较短暂\nB. 类针刺型镇痛作用较慢，但持续时间较长\nC. 短暂强刺激型镇痛作用深，但较短暂\nD. 微电流型\nE. 脉冲型\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医技考试/医技师/康复医学治疗技术（师）"
+  },
+  {
+   "id": "cmb-09734",
+   "category": "mcq_zh",
+   "question": "下列哪种情况无需给予管饲饮食\nA. 昏迷\nB. 颅脑外伤\nC. 急性胃炎\nD. 破伤风\nE. 精神疾病\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医学考研/护理学/基础护理学"
+  },
+  {
+   "id": "cmb-01531",
+   "category": "mcq_zh",
+   "question": "全身骨显像时，可出现骨外异常放射性浓聚区的疾病是\nA. 骨囊肿\nB. 多发性骨髓瘤\nC. 畸胎瘤\nD. Paget病\nE. 骨转移瘤\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/中级职称/核医学主治医师"
+  },
+  {
+   "id": "cmb-07588",
+   "category": "mcq_zh",
+   "question": "对放化疗均不敏感的骨肿瘤是\nA. 尤因肉瘤\nB. 软骨肉瘤\nC. 骨肉瘤\nD. 骨恶性纤维组织细胞瘤\nE. 以上均不是\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医技考试/医技师/肿瘤学技术（师）"
+  },
+  {
+   "id": "cmb-07967",
+   "category": "mcq_zh",
+   "question": "能防止脊柱过度后伸的韧带是\nA. 项韧带\nB. 棘间韧带\nC. 棘上韧带\nD. 前纵韧带\nE. 黄韧带\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医技考试/主管技师/康复医学与治疗主管技师"
+  },
+  {
+   "id": "cmb-09291",
+   "category": "mcq_zh",
+   "question": "阴盛格阳所致的真寒假热证，治宜取下列哪一项\nA. 损其有余\nB. 阳中求阴\nC. 滋阴制阳\nD. 温阳散寒\nE. 清泻阳热\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 专业知识考试/中医学与中药学/中医基础理论"
+  },
+  {
+   "id": "cmb-08256",
+   "category": "mcq_zh",
+   "question": "1-参与机体细胞免疫的细胞是\nA. B细胞\nB. T细胞\nC. 巨核细胞\nD. 嗜碱性粒细胞\nE. 单核细胞\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 专业知识考试/基础医学/组织学与胚胎学"
+  },
+  {
+   "id": "cmb-06070",
+   "category": "mcq_zh",
+   "question": "应激时交感-肾上腺髓质系统兴奋所产生的防御性反应，以下不正确的是\nA. 心率增快\nB. 肺通气增加\nC. 血糖升高\nD. 血液重分布\nE. 蛋白质分解增加\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 药师考试/主管药师/主管药师资格考试"
+  },
+  {
+   "id": "cmb-08083",
+   "category": "mcq_zh",
+   "question": "休克微循环淤血期引起血管扩张的下列因素中，不正确的是\nA. 血管平滑肌对CA的反应性降低\nB. 肥大细胞释放组胺\nC. NO的大量产生\nD. 腺苷在局部堆积\nE. 激肽系统受抑制\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 专业知识考试/基础医学/病理生理学"
+  },
+  {
+   "id": "cmb-06979",
+   "category": "mcq_zh",
+   "question": "在检查室和治疗室由任意位置观察射野与患者治疗部位间的相对关系和射野间的相对关系是\nA. BEV\nB. REV\nC. DRR\nD. XR\nE. 都不是\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医技考试/医技士/肿瘤学技术（士）"
+  },
+  {
+   "id": "cmb-08694",
+   "category": "mcq_zh",
+   "question": "寻常狼疮的诊断依据不包括\nA. 好发部位\nB. 苹果酱结节\nC. 组织病理学检查\nD. 抗酸杆菌检查\nE. 抗结核治疗有效\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 专业知识考试/临床医学/皮肤性病学"
+  },
+  {
+   "id": "cmb-09482",
+   "category": "mcq_zh",
+   "question": "《素问•阴阳应象大论》指出“阴阳之征兆”是\nA. 上下\nB. 血气\nC. 左右\nD. 水火\nE. 内外\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 专业知识考试/中医学与中药学/内经讲义"
+  },
+  {
+   "id": "cmb-00097",
+   "category": "mcq_zh",
+   "question": "苏醒延迟是指术后呼唤不能睁眼和握手、对痛觉刺激无明显反应持续的时间达到\nA. 30分钟\nB. 80分钟\nC. 90分钟\nD. 120分钟\nE. 150分钟\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/规培结业/麻醉科"
+  },
+  {
+   "id": "cmb-08642",
+   "category": "mcq_zh",
+   "question": "患儿体重13kg，术中补液时，其生理需要量为\nA. 13ml/h\nB. 23ml/h\nC. 46ml/h\nD. 92ml/h\nE. 100ml/h\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 专业知识考试/临床医学/麻醉学"
+  },
+  {
+   "id": "cmb-06221",
+   "category": "mcq_zh",
+   "question": "效能最高的利尿药是\nA. 乙酰唑胺\nB. 呋塞米\nC. 氢氯噻嗪\nD. 螺内酯\nE. 氨苯蝶啶\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 药师考试/主管药师/主管药师资格考试"
+  },
+  {
+   "id": "cmb-08553",
+   "category": "mcq_zh",
+   "question": "1-男性，48岁，反复呕血2年入院，体格检查：巨脾，无腹水征，胃肠钡餐检查证实为食管静脉曲张。B超检查提示门静脉主干有血栓，白蛋白35g/L。拟行何种手术为宜\nA. 脾切除、脾肾分流术\nB. 肠系膜上静脉-下腔分流术\nC. 脾切除断流术\nD. 脾切除术\nE. 下腔静脉-右心房搭桥术\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 专业知识考试/临床医学/外科学"
+  },
+  {
+   "id": "cmb-07134",
+   "category": "mcq_zh",
+   "question": "空肠弯曲菌引起的疾病是\nA. 慢性胃炎\nB. 慢性气管炎\nC. 慢性肺炎\nD. 肠道感染\nE. 慢性支气管炎\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医技考试/医技士/检验技术（士）"
+  },
+  {
+   "id": "cmb-07961",
+   "category": "mcq_zh",
+   "question": "心脏于半月瓣关闭至房室瓣开放之间为\nA. 等容舒张期\nB. 快速充盈期\nC. 缓慢充盈期\nD. 等容收缩期\nE. 快速充盈期\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医技考试/主管技师/超声波医学主管技师"
+  },
+  {
+   "id": "cmb-01541",
+   "category": "mcq_zh",
+   "question": "进展期青光眼干预临床研究（AGIS)的研究结果表明\nA. 进展期POAG患者眼压降至正常范围即可阻止视功能进行性损害\nB. 药物治疗控制眼压较手术治疗效果好\nC. 进展期POAG患者眼压降低与视野保护成剂量-效应关系\nD. 黑种人小梁切除术后降眼压治疗效果比白种人好\nE. 以上说法均不对\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/中级职称/眼科主治医师"
+  },
+  {
+   "id": "cmb-00734",
+   "category": "mcq_zh",
+   "question": "属于膀胱经的穴组是\nA. 天柱、攒竹、睛明、光明\nB. 昆仑、京骨、丘墟、至阴\nC. 承扶、肺俞、心俞、大肠俞\nD. 承扶、委中、大抒、风市\nE. 睛明、肾俞、承山、光明\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/执业助理医师/中西医结合执业助理医师"
+  },
+  {
+   "id": "cmb-07491",
+   "category": "mcq_zh",
+   "question": "头颈部恶性肿瘤总的治愈率在\nA. 10%〜20%\nB. 20%〜30%\nC. 30%〜40%\nD. 40%〜70%\nE. 70%〜100%\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医技考试/医技师/肿瘤学技术（师）"
+  },
+  {
+   "id": "cmb-07755",
+   "category": "mcq_zh",
+   "question": "与鼻咽癌相关的是\nA. EB病毒\nB. 人乳头瘤病毒\nC. 乙肝病毒\nD. 幽门螺旋杆菌\nE. 丙肝病毒\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医技考试/主管技师/肿瘤放射治疗主管技师"
+  },
+  {
+   "id": "cmb-07250",
+   "category": "mcq_zh",
+   "question": "IVDSA的中文全称是\nA. 动脉DSA\nB. 静脉DSA\nC. 全身DSA\nD. 能量DSA\nE. 选择DSA\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医技考试/医技师/放射学技术（师）"
+  },
+  {
+   "id": "cmb-08046",
+   "category": "mcq_zh",
+   "question": "LCU反映的是\nA. 生活事件对个体心理刺激的强度单位\nB. 生活事件的被认知程度单位\nC. 生活事件对溃疡病等心身疾病的影响程度单位\nD. 生活事件的改变程度单位\nE. \n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 专业知识考试/基础医学/医学心理学"
+  },
+  {
+   "id": "cmb-00105",
+   "category": "mcq_zh",
+   "question": "男，30岁，患甲状腺功能亢进症，突然出现双下肢不能动。检查：双下肢膝腱反射减退，无肌萎缩。血钾测定2.3mmol／L，你认为最可能是下列哪种情况\nA. 慢性甲亢性肌病\nB. 周期性瘫痪\nC. 周围神经炎\nD. 重症肌无力\nE. 癔症\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医师考试/规培结业/内科"
+  },
+  {
+   "id": "cmb-01301",
+   "category": "mcq_zh",
+   "question": "耐甲氧西林的葡萄球菌（MRSA）的治疗应选用\nA. 青霉素\nB. 头孢拉啶\nC. 头孢哌酮\nD. 万古霉素\nE. \n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医师考试/中级职称/医院感染"
+  },
+  {
+   "id": "cmb-07453",
+   "category": "mcq_zh",
+   "question": "有害程度与受照剂量的大小无关的是\nA. 直接作用\nB. 间接作用\nC. 确定性效应\nD. 随机性效应\nE. 遗传效应\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医技考试/医技师/放射学技术（师）"
+  },
+  {
+   "id": "cmb-09349",
+   "category": "mcq_zh",
+   "question": "下列哪项不是风湿热痹的特点\nA. 局部灼热红肿\nB. 痛不可触\nC. 得冷则舒\nD. 肌肤麻木不仁\nE. 游走性关节疼痛\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 专业知识考试/中医学与中药学/中医内科学"
+  },
+  {
+   "id": "cmb-01556",
+   "category": "mcq_zh",
+   "question": "模仿法又称()\nA. 示范法\nB. 满灌疗法\nC. 扮演法\nD. 内隐疗法\nE. \n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医师考试/中级职称/心理咨询师"
+  },
+  {
+   "id": "cmb-08059",
+   "category": "mcq_zh",
+   "question": "阔节裂头绦虫对人体的感染期是\nA. 钩球蚴\nB. 六钩蚴\nC. 毛蚴\nD. 原尾蚴\nE. 裂头蚴\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 专业知识考试/基础医学/寄生虫学"
+  },
+  {
+   "id": "cmb-08434",
+   "category": "mcq_zh",
+   "question": "黏液瘤最常见的发生部位是\nA. 左房\nB. 右房\nC. 左室\nD. 右室\nE. 下腔静脉入口\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 专业知识考试/临床医学/超声医学"
+  },
+  {
+   "id": "cmb-00280",
+   "category": "mcq_zh",
+   "question": "以下关于视网膜胚胎发育的描述，正确的是\nA. 视网膜发育成熟的顺序是由周边部向后极部\nB. 胚胎21mm时，视网膜细胞已分化为内层神经细胞层和外层神经细胞层\nC. 内层神经细胞层主要向神经节细胞、视杆细胞及无长突细胞分化\nD. 外层神经细胞层最后分化发育为视锥细胞、无长突细胞及双极细胞\nE. 婴儿出生时黄斑区已发育完全\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医师考试/规培结业/眼科"
+  },
+  {
+   "id": "cmb-00910",
+   "category": "mcq_zh",
+   "question": "生后7天足月正常产新生儿，地段保健医师进行家庭巡视时发现其全身皮肤黄染，但反应正常，此时最佳处理方法是\nA. 停止母乳喂养，改配方奶粉喂养\nB. 无须特殊处理\nC. 该新生儿需要立即去医院接受检査治疗\nD. 注意保温，多饮水\nE. 口服抗生素\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/执业医师/公共卫生执业医师"
+  },
+  {
+   "id": "cmb-00946",
+   "category": "mcq_zh",
+   "question": "急性根尖周炎脓肿切开的主要临床依据是\nA. 扪诊有波动感\nB. 剧烈疼痛\nC. 根尖区牙龈肿大压痛\nD. 体温38℃以上\nE. 患牙叩痛明显\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医师考试/执业医师/口腔执业医师"
+  },
+  {
+   "id": "cmb-00219",
+   "category": "mcq_zh",
+   "question": "有关儿童下肢骨折的功能复位，下列哪一项是错误的\nA. 骨干骨折对位必须在1/3以上\nB. 干骺端骨折至少应有3/4左右对位\nC. 短缩不能超过2cm\nD. 向侧方成角不能超过15°\nE. 分离及旋转移位均应完全纠正\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医师考试/规培结业/小儿外科"
+  },
+  {
+   "id": "cmb-08162",
+   "category": "mcq_zh",
+   "question": "下列哪个病变是癌前病变\nA. 大肠腺瘤\nB. 皮下脂肪瘤\nC. 皮肤纤维瘤\nD. 子宫平滑肌瘤\nE. 乳腺纤维腺瘤\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 专业知识考试/基础医学/病理学"
+  },
+  {
+   "id": "cmb-01404",
+   "category": "mcq_zh",
+   "question": "治疗后，牙槽骨新生最易发生在\nA. 根分叉病变\nB. 环形缺损\nC. 三壁骨袋\nD. 二壁骨袋\nE. 一壁骨袋\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/中级职称/口腔内科主治医师"
+  },
+  {
+   "id": "cmb-03743",
+   "category": "mcq_zh",
+   "question": "关于骨质疏松症临床表现的介绍不正确的是\nA. 骨密度低\nB. 胸、背、腰、膝等疼痛，其中下肢痛最多见\nC. 下肢肌肉痉挛\nD. 身体姿势出现圆背或凹圆背\nE. 易发生病理性骨折，胸、背、腰、膝等部位疼痛\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 药师考试/执业西药师/执业西药师错题TOP500"
+  },
+  {
+   "id": "cmb-08027",
+   "category": "mcq_zh",
+   "question": "与MSH同源并可刺激黑色素细胞活动的激素是\nA. GH\nB. PRL\nC. ACTH\nD. FSH\nE. TSH\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 专业知识考试/基础医学/生理学"
+  },
+  {
+   "id": "cmb-01585",
+   "category": "mcq_zh",
+   "question": "下列关于重度子痫前期孕妇静滴硫酸镁解痉治疗应注意的事项错误的是\nA. 尿量每24小时不少于500ml\nB. 呼吸每分钟不少于16次\nC. 膝反射必须存在\nD. 尿量每小时不少于17ml\nE. 出现镁中毒立即静脉注射葡萄糖酸钙对抗\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医师考试/中级职称/妇产科主治医师"
+  },
+  {
+   "id": "cmb-09259",
+   "category": "mcq_zh",
+   "question": "5-随季节气候不同而发生轻微改变的面色，称为\nA. 病色\nB. 主色\nC. 客色\nD. 善色\nE. 恶色\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 专业知识考试/中医学与中药学/中医诊断学"
+  },
+  {
+   "id": "cmb-07885",
+   "category": "mcq_zh",
+   "question": "关于巴氏染色法的描述，下列不正确的是\nA. 常用于阴道涂片测定雌激素水平\nB. 细胞透明度好\nC. 涂片色彩丰富而鲜艳\nD. 宫颈涂片内分化差的小角化细胞鳞癌胞质呈红色\nE. 能显示鳞状上皮不同角化程度\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医技考试/主管技师/病理学主管技师"
+  },
+  {
+   "id": "cmb-08741",
+   "category": "mcq_zh",
+   "question": "脑脊液蛋白含量增高少见于\nA. 化脓性脑膜炎、结核性脑膜炎\nB. 吉兰-巴雷综合征\nC. 双侧基底核钙化\nD. 脑出血、蛛网膜下腔出血\nE. 椎管梗阻\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 专业知识考试/临床医学/神经病学"
+  },
+  {
+   "id": "cmb-07673",
+   "category": "mcq_zh",
+   "question": "少白细胞红细胞制品中的残余白细胞：用于预防非溶血性发热输血反应，应\nA. 小于等于2.5×106/200ml全血制备\nB. 小于等于5.0×106/200ml全血制备\nC. 小于等于2.5×108/200ml全血制备\nD. 小于等于5.0×108/200ml全血制备\nE. 小于等于2.5×109/200ml全血制备\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医技考试/主管技师/输血技术主管技师"
+  },
+  {
+   "id": "cmb-01409",
+   "category": "mcq_zh",
+   "question": "膀胱结核血尿特点是\nA. 无痛性全程肉眼血尿\nB. 终末血尿伴膀胱刺激征\nC. 初始血尿\nD. 疼痛伴血尿\nE. 血红蛋白尿\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医师考试/中级职称/结核病主治医师"
+  },
+  {
+   "id": "cmb-08995",
+   "category": "mcq_zh",
+   "question": "决定传染病患者隔离期限的重要依据是\nA. 潜伏期\nB. 临床症状期\nC. 恢复期\nD. 治疗期\nE. 传染期\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 专业知识考试/预防医学与公共卫生学/预防医学"
+  },
+  {
+   "id": "cmb-01676",
+   "category": "mcq_zh",
+   "question": "正常卵巢大小为\nA. 6cm×4cm×3cm\nB. 5cm×4cm×3cm\nC. 4cm×3cm×2cm\nD. 4cm×4cm×3cm\nE. 4cm×3cm×1cm\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 医师考试/高级职称/妇产科学副主任、主任医师职称考试"
+  },
+  {
+   "id": "cmb-10448",
+   "category": "mcq_zh",
+   "question": "可用于心力衰竭治疗的β受体阻滞剂为\nA. 普萘洛尔（心得安）\nB. 阿替洛尔（氨酰心安）\nC. 比索洛尔\nD. 柳胺苄心定\nE. \n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医学考研/西医综合/考研西医综合"
+  },
+  {
+   "id": "cmb-01273",
+   "category": "mcq_zh",
+   "question": "运动员百米赛跑途中突然闻及左膝撕裂声，然后倒地。查体左膝不能主动伸屈，X线片示髌骨中段骨折，考虑造成骨折的原因是\nA. 直接暴力\nB. 间接暴力\nC. 病理性骨折\nD. 肌肉拉力\nE. 积累性劳损\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医师考试/中级职称/外科主治医师"
+  },
+  {
+   "id": "cmb-07606",
+   "category": "mcq_zh",
+   "question": "大肠杆菌分裂一代需要的时间为\nA. 18小时\nB. 20分钟\nC. 72小时\nD. 60分钟\nE. 20秒\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医技考试/主管技师/微生物检验主管技师"
+  },
+  {
+   "id": "cmb-08936",
+   "category": "mcq_zh",
+   "question": "SARS期间，某市一家医院作为收治患者的定点医院，在疫情得到控制后，该疫源地要被消灭，消灭的条件不包括\nA. 传染源被移走\nB. 传染源播散至外界环境的病原体被彻底消灭\nC. 易感人群全部撤离\nD. 经过该病的最长潜伏期，没有新的病例发生\nE. 传染源不再排出病原体\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 专业知识考试/预防医学与公共卫生学/预防医学"
+  },
+  {
+   "id": "cmb-01765",
+   "category": "mcq_zh",
+   "question": "消化性溃疡主要的并发症不包括\nA. 穿孔\nB. 幽门梗阻\nC. 出血\nD. 吸收不良综合征\nE. 癌变\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医师考试/高级职称/普通内科高级职称"
+  },
+  {
+   "id": "cmb-00140",
+   "category": "mcq_zh",
+   "question": "肛瘘治疗的最佳方法是（ ）。\nA. 1：5000高锰酸钾温水坐浴\nB. 挂线疗法\nC. 局部换药治疗\nD. 瘘道搔爬\nE. 使用抗菌药物\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医师考试/规培结业/外科"
+  },
+  {
+   "id": "cmb-09519",
+   "category": "mcq_zh",
+   "question": "当归芍药散证的病机为\nA. 肝血不足\nB. 肝郁气滞\nC. 肝脾失和，气滞湿阻血瘀\nD. 肝郁化火\nE. 肝血不足，湿热内生\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 专业知识考试/中医学与中药学/金匮要略讲义"
+  },
+  {
+   "id": "cmb-08062",
+   "category": "mcq_zh",
+   "question": "DNA甲基化是指\nA. RNA分子中的鸟嘌呤转变成5-甲基鸟嘌呤\nB. RNA分子中的尿嘧啶转变成5-甲基尿嘧啶\nC. DNA分子中的胸腺嘧啶转变成5-甲基胸腺嘧啶\nD. DNA分子中的鸟嘌呤转变成5-甲基鸟嘌呤\nE. DNA分子中的胞嘧啶转变成5-甲基胞嘧啶\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 专业知识考试/基础医学/细胞生物学"
+  },
+  {
+   "id": "cmb-02970",
+   "category": "mcq_zh",
+   "question": "为乙肝表面抗原阳性患者吸痰时应\nA. 洗手\nB. 戴手套\nC. 戴口罩、护目镜\nD. 穿隔离衣\nE. 戴口罩\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 护理考试/主管护师/主管护师资格考试"
+  },
+  {
+   "id": "cmb-01666",
+   "category": "mcq_zh",
+   "question": "乳腺癌的淋巴转移途经中，最多见的为\nA. 经内侧淋巴管侵入胸骨旁淋巴结\nB. 经胸大肌外侧缘淋巴管侵入同侧腋窝淋巴结\nC. 经皮下淋巴管侵入另侧乳房\nD. 经深部淋巴网侵入腹直肌鞘\nE. 逆行途径转移到对侧腋窝\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医师考试/高级职称/普通外科高级职称"
+  },
+  {
+   "id": "cmb-08886",
+   "category": "mcq_zh",
+   "question": "评价蛋白质营养价值高低的主要指标是\nA. 蛋白质的含量\nB. 蛋白质的消化吸收\nC. 蛋白质的利用\nD. 氨基酸模式\nE. 蛋白质含量、机体消化吸收及利用的程度\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 专业知识考试/预防医学与公共卫生学/预防医学"
+  },
+  {
+   "id": "cmb-01481",
+   "category": "mcq_zh",
+   "question": "高热惊厥的处理中最首要任务的是\nA. 吸氧\nB. 止惊\nC. 保持气道通畅\nD. 退热\nE. 降颅压\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医师考试/中级职称/儿科主治医师"
+  },
+  {
+   "id": "cmb-09656",
+   "category": "mcq_zh",
+   "question": "下列哪项不符合全胃肠外营养所用的营养液的要求\nA. 每天供氮0.2-0.24g/kg\nB. 氮和热量之比为1：150kcal\nC. 对高代谢器官衰竭者，葡萄糖的输注应大于4-5mg/kg\nD. 脂肪乳剂提倡用1：1的LCT/MCT三酸甘油酯混合剂\nE. 补充氨基酸的目的是提供氮源而非能量\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医学考研/护理学/外科护理学"
+  },
+  {
+   "id": "cmb-08019",
+   "category": "mcq_zh",
+   "question": "人体（）（特别是酶和受体）是药物靶标筛选的最重要的对象\nA. 处于多种信号通路交叉点上的蛋白质即关键网络Hub结点\nB. 受外界信号刺激却能维持稳定表达的蛋白质\nC. 维持正常生理功能的膜受体蛋白\nD. 在特定条件下内源性产生及病原体入侵后产生的蛋白质\nE. \n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 专业知识考试/基础医学/生物信息学"
+  },
+  {
+   "id": "cmb-08324",
+   "category": "mcq_zh",
+   "question": "靶向输送到细胞核的蛋白质含有特异信号序列，下列叙述错误的是\nA. 多肽链进细胞核定位后不被切除\nB. 位于N末端\nC. 不同多肽链的特异信号序列无共同性\nD. 富含赖、精及脯氨酸\nE. 也称为核定位序列\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 专业知识考试/基础医学/生物化学与分子生物学"
+  },
+  {
+   "id": "cmb-00226",
+   "category": "mcq_zh",
+   "question": "下列哪一种阑尾炎最易引起阑尾穿孔\nA. 急性单纯性阑尾炎\nB. 急性坏疽性阑尾炎\nC. 急性蜂窝织炎性阑尾炎\nD. 慢性阑尾炎急性发作\nE. \n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医师考试/规培结业/临床病理科"
+  },
+  {
+   "id": "cmb-01253",
+   "category": "mcq_zh",
+   "question": "某女，25岁。月经周期不规律，经量少，色淡，腰骶酸痛，头晕耳鸣，舌淡苔白，脉沉弱。应选取以下哪组经脉为主\nA. 任脉、冲脉\nB. 任脉、带脉\nC. 任脉、足太阴经\nD. 任脉、足少阴经\nE. 任脉、足厥阴经\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/中级职称/中医针灸主治医师"
+  },
+  {
+   "id": "cmb-09447",
+   "category": "mcq_zh",
+   "question": "桂枝汤中用药量均为三两的三味药为()。\nA. 桂枝、芍药、生姜\nB. 桂枝、芍药、甘草\nC. 桂枝、生姜、大枣\nD. 生姜、芍药、甘草\nE. 桂枝、芍药、大枣\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 专业知识考试/中医学与中药学/伤寒论"
+  },
+  {
+   "id": "cmb-06679",
+   "category": "mcq_zh",
+   "question": "装斗需要注意的不包括\nA. 装药不可过满\nB. 补充饮片应先进行整理\nC. 细小种子类饮片药斗中应先垫纸\nD. 相似饮片应仔细核对\nE. 新添饮片放在原有饮片上\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 药师考试/主管中药师/主管中药师"
+  },
+  {
+   "id": "cmb-08748",
+   "category": "mcq_zh",
+   "question": "下列哪项不属于危机的特征__\nA. 特殊性\nB. 普通性\nC. 时限性\nD. 循环性\nE. \n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 专业知识考试/临床医学/护理学基础"
+  },
+  {
+   "id": "cmb-09284",
+   "category": "mcq_zh",
+   "question": "我国近代最早去西方学习医学的人为（）\nA. 鲁迅\nB. 伍连德\nC. 黄宽\nD. 杜聪明\nE. 闫德润\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 专业知识考试/中医学与中药学/中国医学史"
+  },
+  {
+   "id": "cmb-01581",
+   "category": "mcq_zh",
+   "question": "治疗上消化道出血胃中积热证，其中医治则是\nA. 清胃泻火，化瘀止血\nB. 泻肝清胃，降逆止血\nC. 益气健脾，养血止血\nD. 益气摄血，回阳固脱\nE. 滋阴养血，清热化湿\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医师考试/中级职称/中西医结合内科主治医师"
+  },
+  {
+   "id": "cmb-01270",
+   "category": "mcq_zh",
+   "question": "下列良性阵发性位置性眩晕治疗方法中，不正确的是\nA. 耳石复位\nB. 习服治疗\nC. 手术治疗\nD. 中耳给药\nE. 前庭康复\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 医师考试/中级职称/耳鼻咽喉科主治医师"
+  },
+  {
+   "id": "cmb-09517",
+   "category": "mcq_zh",
+   "question": "病人，男性，42岁。发病7天，于8月8日入院。初见寒热，身痛，胸闷，继而发热渐高，午后较甚，恶寒消失，人院时体温39.6℃，汗出，心烦，渴不多饮，胸闷脘痞，恶心呕吐，食少便溏，小便黄短，舌红苔黄腻，脉滑数。其诊断和辨证为\nA. 暑温夹湿(邪困中焦兼有食滞）\nB. 暑温夹湿(暑湿弥漫三焦）\nC. 伏暑病(暑湿困阻中焦兼有食滞）\nD. 湿温病(湿热郁阻中焦）\nE. 湿温病(湿热弥漫三焦）\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 专业知识考试/中医学与中药学/温病学"
+  },
+  {
+   "id": "cmb-07882",
+   "category": "mcq_zh",
+   "question": "下列有关99mTc-IgG炎症显像的叙述，正确的是\nA. 延迟显像时，肠道内有明显放射性浓聚\nB. 探测炎症病灶的灵敏度较高\nC. 采集时常规选用低能高分辨型准直器\nD. 特异性鉴别恶性肿瘤与炎性病变\nE. 以上均是\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医技考试/主管技师/核医学主管技师"
+  },
+  {
+   "id": "cmb-06258",
+   "category": "mcq_zh",
+   "question": "目前不再使用的治疗三叉神经痛的药物是\nA. 苯妥英钠\nB. 卡马西平\nC. γ-氨基丁酸\nD. 氯苯甘醚\nE. 酒精\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 药师考试/主管药师/主管药师资格考试"
+  },
+  {
+   "id": "cmb-01361",
+   "category": "mcq_zh",
+   "question": "多重耐药性伤寒病原治疗首选\nA. 喹诺酮类\nB. 复方磺胺甲基异噁唑\nC. 头孢菌素类\nD. 氯霉素\nE. 阿莫西林\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医师考试/中级职称/传染病学"
+  },
+  {
+   "id": "cmb-03016",
+   "category": "mcq_zh",
+   "question": "使用止痛药物注意事项中错误的是\nA. 使用前要了解止痛药物的作用、药物不良反应、适应证和禁忌证\nB. 患者未明确诊断前，使用强止痛药尽可能地缓解患者疼痛\nC. 术后疼痛尽量做到疼痛发作前足剂量给药\nD. 如果非麻醉性药物能够达到止痛效果，则不使用麻醉性药物\nE. 用药后评估和记录止痛效果，注意观察患者用药后的反应\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 护理考试/主管护师/外科主管护师"
+  },
+  {
+   "id": "cmb-09360",
+   "category": "mcq_zh",
+   "question": "气血两虚证的舌象一般表现为\nA. 舌淡红苔薄白\nB. 舌淡红苔白腻\nC. 舌淡胖苔润\nD. 舌色淡白舌体瘦薄\nE. 舌淡苔少\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 专业知识考试/中医学与中药学/中医学"
+  },
+  {
+   "id": "cmb-08186",
+   "category": "mcq_zh",
+   "question": "不属于病毒体特征的是\nA. 非细胞结构\nB. 只含一种类型的核酸\nC. 可在任何活细胞内增殖\nD. 对抗生素不敏感\nE. 对干扰素敏感\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 专业知识考试/基础医学/医学微生物学"
+  },
+  {
+   "id": "cmb-08891",
+   "category": "mcq_zh",
+   "question": "下列对医际关系伦理意义的描述,不准确的是\nA. 有利于医学事业发展\nB. 有利于医务人员成才\nC. 有利于取得更高的经济收益\nD. 有利于医院集体力量的发挥\nE. 有利于建立和谐的医患关系\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 专业知识考试/预防医学与公共卫生学/医学伦理学"
+  },
+  {
+   "id": "cmb-01942",
+   "category": "mcq_zh",
+   "question": "多囊卵巢综合征患者行诊断性刮宫时机应选择在\nA. 月经第4日\nB. 月经干净后3～5日\nC. 在月经前数日或月经来潮6小时内\nD. 月经第2日\nE. 无特殊要求\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/高级职称/妇产科学副主任、主任医师职称考试"
+  },
+  {
+   "id": "cmb-02754",
+   "category": "mcq_zh",
+   "question": "患儿男，9岁。智力低下，既往有“癫痫”病史。发作时出现强烈的点头、屈体样动作，持续此姿势5〜8秒，常摔伤头部，伴颜面青紫、瞳孔散大。该患儿的发作类型是\nA. 肌阵挛发作\nB. 强直性发作\nC. 复杂部分性发作\nD. 全面性强直-阵挛发作\nE. 发作性睡病\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 护理考试/护师执业资格/护师资格考试"
+  },
+  {
+   "id": "cmb-01634",
+   "category": "mcq_zh",
+   "question": "妊娠合并再障孕妇分娩的新生儿一般血象正常，极少发生再障，而当血红蛋白低于多少时可导致流产、早产、死胎、死产及胎儿发育迟缓\nA. 血红蛋白小于等于50g/L\nB. 血红蛋白小于等于40g/L\nC. 血红蛋白小于等于30g/L\nD. 血红蛋白小于等于60g/L\nE. 血红蛋白小于等于70g/L\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医师考试/高级职称/妇产科学副主任、主任医师职称考试"
+  },
+  {
+   "id": "cmb-05317",
+   "category": "mcq_zh",
+   "question": "直接写药物正名，即付漂去咸味的是\nA. 竹药\nB. 没药\nC. 牡蛎\nD. 昆布\nE. 款冬花\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 药师考试/初级中药士/中药学（士）"
+  },
+  {
+   "id": "cmb-07821",
+   "category": "mcq_zh",
+   "question": "手术器械消毒常用\nA. 干烤法\nB. 紫外线照射\nC. 高压蒸汽灭菌法\nD. 巴士消毒法\nE. 过滤除菌法\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医技考试/主管技师/临床医学检验主管技师"
+  },
+  {
+   "id": "cmb-02969",
+   "category": "mcq_zh",
+   "question": "肺脓肿的治疗原则是\nA. 抗感染治疗\nB. 抗感染治疗及手术\nC. 抗感染治疗及体位引流\nD. 抗结核化学治疗\nE. 抗结核化学治疗及手术\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 护理考试/主管护师/内科主管护师"
+  },
+  {
+   "id": "cmb-08732",
+   "category": "mcq_zh",
+   "question": "某村人口数为60万，对该村进行了一次高血压普查，共查出高血压病例180人，由此可得出\nA. 该村高血压发病率为30/10万\nB. 该村高血压罹患率为30/10万\nC. 该村高血压患病率为30/10万\nD. 该村高血压续发率为30/10万\nE. 该村高血压累积发病率为30/10万\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 专业知识考试/临床医学/流行病学"
+  },
+  {
+   "id": "cmb-08455",
+   "category": "mcq_zh",
+   "question": "下列与血小板黏附功能有关的是\nA. β-血小板球蛋白\nB. 血栓调节蛋白\nC. von Willebrand因子\nD. 肌球蛋白\nE. 肌动蛋白\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 专业知识考试/临床医学/实验诊断学"
+  },
+  {
+   "id": "cmb-03881",
+   "category": "mcq_zh",
+   "question": "1-患者，男，64岁。为缓解剧烈疼痛，同时使用5片芬太尼透皮贴剂后，出现呼吸抑制，可选用的解救药物是\nA. 亚甲蓝\nB. 氟马西尼\nC. 纳洛酮\nD. 二巯丙醇\nE. 乙酰胺\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 药师考试/执业西药师/执业西药师"
+  },
+  {
+   "id": "cmb-08941",
+   "category": "mcq_zh",
+   "question": "不符合工作有关疾病特点的是\nA. 职业性有害因素只是该疾病的发病因素之一\nB. 职业性有害因素是疾病的促发因素\nC. 工作有关疾病不属于法定职业病\nD. 控制职业性有害因素接触强度就可降低发病率\nE. 消除职业性有害因素就可避免发病\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 专业知识考试/预防医学与公共卫生学/卫生学"
+  },
+  {
+   "id": "cmb-01929",
+   "category": "mcq_zh",
+   "question": "下列哪项表现不是幽门梗阻的诊断依据\nA. 胃型或蠕动波\nB. 呕吐隔日酸酵宿食\nC. 呕吐后腹胀可减轻\nD. 振水音\nE. 水、电解质与酸碱平衡失调\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 医师考试/高级职称/消化内科高级职称"
+  },
+  {
+   "id": "cmb-09407",
+   "category": "mcq_zh",
+   "question": "下列哪项不是绛舌的主病\nA. 气分证\nB. 营分证\nC. 血分证\nD. 阴虚火旺\nE. 瘀血内停\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 专业知识考试/中医学与中药学/中医诊断学"
+  },
+  {
+   "id": "cmb-00630",
+   "category": "mcq_zh",
+   "question": "预防细菌性痢疾的综合措施应以哪一项为重点\nA. 隔离及治疗病人\nB. 发现和处理带菌者\nC. 流行季节大面积的对易感人群投药\nD. 开展以三管一灭为主的卫生运动\nE. 提高人群的抗病能力\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医师考试/执业助理医师/公共卫生执业助理医师"
+  },
+  {
+   "id": "cmb-08436",
+   "category": "mcq_zh",
+   "question": "佩戴固定矫治器的健康指导，下述哪一项是不正确的\nA. 避免食用黏的、硬的、带核的食物\nB. 不要吃苹果、排骨之类的食物\nC. 牙齿会有疼痛的感觉\nD. 每次餐后及复诊前要刷牙\nE. \n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 专业知识考试/临床医学/口腔护理学"
+  },
+  {
+   "id": "cmb-01355",
+   "category": "mcq_zh",
+   "question": "患者，男性，28岁。因“全身多处刀刺伤2小时”入院。入院血压70/50mmHg，予快速补液、扩容治疗后，患者出现呼吸困难，呈端坐位，剧咳，双肺底水泡音伴广泛哮鸣音。其诊断应首先考虑\nA. 急性右心衰竭\nB. 间质性肺水肿\nC. 肺栓塞\nD. 呼吸衰竭\nE. 血气胸\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医师考试/中级职称/重症医学主治医师"
+  },
+  {
+   "id": "cmb-00921",
+   "category": "mcq_zh",
+   "question": "硫喷妥钠临床应用较广，但一般很少用于\nA. 麻醉诱导\nB. 小儿基础麻醉\nC. 麻醉维持\nD. 抗惊厥\nE. 防治局麻药中毒\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/执业医师/中西医结合执业医师"
+  },
+  {
+   "id": "cmb-07639",
+   "category": "mcq_zh",
+   "question": "目前，人们从饮水中已检出的有机物多达\nA. 1000多种\nB. 900多种\nC. 800多种\nD. 700多种\nE. 600多种\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医技考试/主管技师/理化检验主管技师"
+  },
+  {
+   "id": "cmb-02995",
+   "category": "mcq_zh",
+   "question": "王女士，32岁，葡萄胎术后病人。护士应该指导其避孕的最佳方法是\nA. 宫内节育器\nB. 口服避孕药\nC. 针剂避孕药\nD. 避孕套\nE. 皮下埋植法避孕\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 护理考试/主管护师/妇产科护理学"
+  },
+  {
+   "id": "cmb-00126",
+   "category": "mcq_zh",
+   "question": "搞好社区健康教育与健康促进工作的关键是\nA. 加强社区领导\nB. 建立组织网络\nC. 开展人员培训\nD. 开发利用社区资源\nE. 进行社会动员\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医师考试/规培结业/全科医学科"
+  },
+  {
+   "id": "cmb-01395",
+   "category": "mcq_zh",
+   "question": "ARDS患者的肺保护性通气策略中不包括\nA. 低潮气量\nB. 严格限制平台压\nC. 适度PEEP/CPAP\nD. 允许性高碳酸血症\nE. 肺复张策略\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 医师考试/中级职称/麻醉科主治医师"
+  },
+  {
+   "id": "cmb-06939",
+   "category": "mcq_zh",
+   "question": "Soto-Holl征阳性提示\nA. 肱骨外上髁炎\nB. 腕管综合征\nC. 髌骨软化症\nD. 狭窄性腱鞘炎\nE. 肩关节脱位\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医技考试/医技士/康复医学治疗技术（士）"
+  },
+  {
+   "id": "cmb-08034",
+   "category": "mcq_zh",
+   "question": "最易受阈值效应的影响而受累的组织是\nA. 心脏\nB. 肝脏\nC. 骨骼肌\nD. 肾脏\nE. 中枢神经系统\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 专业知识考试/基础医学/医学遗传学"
+  },
+  {
+   "id": "cmb-08788",
+   "category": "mcq_zh",
+   "question": "有关CT图像特点，以下描述错误的是\nA. CT图像是数字化模拟灰度图像\nB. CT图像具有较高空间分辨力\nC. CT图像能够进行密度量化分析\nD. CT图像常规为断层图像\nE. CT图像能进行各种后处理\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 专业知识考试/临床医学/医学影像学"
+  },
+  {
+   "id": "cmb-03450",
+   "category": "mcq_zh",
+   "question": "食管癌切除术术毕返病室，患者清醒后应采取的体位是\nA. 平卧位\nB. 健侧卧位\nC. 抬高床头30°\nD. 坐位或半卧位\nE. 舒适体位\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 护理考试/高级护师/副主任、主任护师资格考试"
+  },
+  {
+   "id": "cmb-00164",
+   "category": "mcq_zh",
+   "question": "下列属于自然牙列咬合状态的是\nA. 正中（牙合）平衡\nB. 前伸（牙合）平衡\nC. 侧方（牙合）平衡\nD. 尖牙保护（牙合）\nE. 完善的接触（牙合）平衡\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医师考试/规培结业/口腔科"
+  },
+  {
+   "id": "cmb-03019",
+   "category": "mcq_zh",
+   "question": "王某，男，32岁。诊断为自身免疫性胃炎伴巨幼细胞贫血，胃黏膜中的哪种细胞严重减少时会导致病人的这种类型的贫血\nA. 主细胞\nB. 壁细胞\nC. 黏液细胞\nD. G细胞\nE. 腺细胞\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 护理考试/主管护师/内科护理学"
+  },
+  {
+   "id": "cmb-08177",
+   "category": "mcq_zh",
+   "question": "多发性骨髓瘤中出现异常的细胞主要是\nA. 浆细胞\nB. CD4+T细胞\nC. CD8+T细胞\nD. B1细胞\nE. 巨噬细胞\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 专业知识考试/基础医学/医学免疫学"
+  },
+  {
+   "id": "cmb-08326",
+   "category": "mcq_zh",
+   "question": "关于假设检验，下列哪个说法正确\nA. 单侧检验优于双侧检验\nB. 采用单侧检验还是双侧检验取决于u值大小\nC. 若P值大于0.05，应接受H0\nD. 若P值小于0.05，则接受H1可能犯错误\nE. 用z检验进行两样本总体均数比较时，对样本量没有要求\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 专业知识考试/基础医学/医学统计学"
+  },
+  {
+   "id": "cmb-03516",
+   "category": "mcq_zh",
+   "question": "教育者向受教育的医务人员传授医学道德规范的医学道德教育方法是\nA. 言教\nB. 奖惩\nC. 身教\nD. 榜样\nE. 引领学生进行实践\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 护理考试/高级护师/副主任、主任护师资格考试"
+  },
+  {
+   "id": "cmb-00721",
+   "category": "mcq_zh",
+   "question": "下述是对逍遥散配伍意义的分析，其中哪项是不妥当的\nA. 柴胡疏肝解郁，当归、白芍养血柔肝\nB. 白术、茯苓健脾祛湿\nC. 薄荷助柴胡疏肝，兼散肝郁所生之热\nD. 煨生姜和胃止呕\nE. 炙甘草益气和中，兼缓肝急\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医师考试/执业助理医师/中医执业助理医师"
+  },
+  {
+   "id": "cmb-10795",
+   "category": "mcq_zh",
+   "question": "α-磷酸甘油、乳酸和丙氨酸经糖异生作用转变为糖的枢纽物质为\nA. 磷酸二羟丙酮\nB. 3-磷酸甘油醛\nC. 丙酮酸\nD. 3-磷酸甘油酸\nE. \n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医学考研/西医综合/考研西综错题top1500"
+  },
+  {
+   "id": "cmb-08766",
+   "category": "mcq_zh",
+   "question": "常用杂类抗肿瘤药物包括\nA. 顺铂\nB. 依托泊苷\nC. 氟尿嘧啶\nD. 表柔比星\nE. 维生素K3\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 专业知识考试/临床医学/介入放射学"
+  },
+  {
+   "id": "cmb-00926",
+   "category": "mcq_zh",
+   "question": "患者有无遗传性疾病，属以下哪项内容\nA. 既往史\nB. 家族史\nC. 个人史\nD. 婚姻史\nE. 生育史\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医师考试/执业医师/中医执业医师"
+  },
+  {
+   "id": "cmb-07974",
+   "category": "mcq_zh",
+   "question": "Konica CR系统照射量1mR时对应的S值为200，2mR对应的S值是\nA. 400\nB. 200\nC. 100\nD. 50\nE. 10\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医技考试/主管技师/放射医学主管技师"
+  },
+  {
+   "id": "cmb-11119",
+   "category": "mcq_zh",
+   "question": "脾开窍于\nA. 唇\nB. 口\nC. 舌\nD. 齿\nE. \n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医学考研/中医综合/考研中医综合"
+  },
+  {
+   "id": "cmb-08425",
+   "category": "mcq_zh",
+   "question": "深龋备洞时，下列哪项措施不正确\nA. 洞底平，侧壁平直，两者相垂直\nB. 去净腐质\nC. 保护牙髓\nD. 洞缘线圆钝\nE. 尽量保留健康牙体组织\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 专业知识考试/临床医学/牙体牙髓病学"
+  },
+  {
+   "id": "cmb-01245",
+   "category": "mcq_zh",
+   "question": "男性，20岁。四肢肌无力4天，无尿便障碍，无发热。查四肢肌力3级，四肢远端痛觉减退，腱反射弱，无病理反射，腰穿正常。首先考虑的疾病是\nA. 吉兰-巴雷综合症\nB. 脊髓灰质炎\nC. 周期性瘫痪\nD. 急性脊髓炎\nE. 重症肌无力\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医师考试/中级职称/心血管内科与呼吸内科主治医师"
+  },
+  {
+   "id": "cmb-01555",
+   "category": "mcq_zh",
+   "question": "深度知觉的双眼线索是\nA. 对象重叠\nB. 运动视差\nC. 双眼视差\nD. 线条透视\nE. 空气透视\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/中级职称/心理治疗学主治医师"
+  },
+  {
+   "id": "cmb-07273",
+   "category": "mcq_zh",
+   "question": "两点法自动生化分析可用于测定\nA. TG、T-Cho\nB. AST、ALT\nC. CRE、Urea\nD. LDH、GGT\nE. CK、CK-MB\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医技考试/医技师/检验技术（师）"
+  },
+  {
+   "id": "cmb-09441",
+   "category": "mcq_zh",
+   "question": "患儿，2岁。因一次食入过量鱼虾，并饮大杯饮料而致呕吐，不思进食，腹胀，大便酸臭，舌苔厚腻。其诊断是\nA. 厌食\nB. 积滞\nC. 疳气\nD. 疳积\nE. 呕吐\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 专业知识考试/中医学与中药学/中医儿科学"
+  },
+  {
+   "id": "cmb-00141",
+   "category": "mcq_zh",
+   "question": "29岁女性，结婚3年未孕。基础体温曲线呈单相型，经前5天取宫颈黏液，其特征应是下列哪项\nA. 量少黏稠\nB. 量少稀薄\nC. 量多黏稠\nD. 量多稀薄\nE. 量极少，不易取出\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医师考试/规培结业/妇产科"
+  },
+  {
+   "id": "cmb-00271",
+   "category": "mcq_zh",
+   "question": "跨声门癌是指\nA. 声门上癌侵犯声带\nB. 声门癌侵犯声门上区\nC. 声门癌侵犯声门下区\nD. 原发于喉室的肿瘤，跨越两个解剖区域，即声门上区和声门区\nE. 喉癌侵犯下咽或舌根\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医师考试/规培结业/耳鼻咽喉科"
+  },
+  {
+   "id": "cmb-01515",
+   "category": "mcq_zh",
+   "question": "继发龋的发生与下列选项无关的是\nA. 牙体组织折裂\nB. 充填不密合\nC. 充填物折裂\nD. 龋坏组织未去尽\nE. 未进行窝洞垫底\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 医师考试/中级职称/口腔正畸学主治医师"
+  },
+  {
+   "id": "cmb-01600",
+   "category": "mcq_zh",
+   "question": "患者女，56岁。因“左耳前肿块2个月余”就诊，体检发现左耳前触及一个3cm*2cm质硬肿块，固定，边界不清，轻压痛。伴左面部感觉减退。如果该患者考虑行手术，哪项检查可为制定治疗方案提供重要依据\nA. CT增强扫描\nB. X线检查\nC. 针吸细胞学\nD. MRI增强扫描\nE. PET扫描\nF. 全身骨扫描\n请直接给出正确选项字母（A/B/C/D/E/F）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医师考试/中级职称/肿瘤学主治医师"
+  },
+  {
+   "id": "cmb-01376",
+   "category": "mcq_zh",
+   "question": "女性患者，30岁，染发几小时后，面部出现红斑，肿胀明显，应考虑\nA. 变态反应性接触性皮炎\nB. 原发刺激性接触性皮炎\nC. 过敏\nD. 特应性皮炎\nE. 急性湿疹\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 医师考试/中级职称/皮肤与性病学主治医师"
+  },
+  {
+   "id": "cmb-06039",
+   "category": "mcq_zh",
+   "question": "把“人命至重，有贵千金”作为从医基本准则的是我国名医\nA. 华佗\nB. 张仲景\nC. 扁鹊\nD. 孙思邈\nE. 李时珍\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 药师考试/主管药师/主管药师资格考试"
+  },
+  {
+   "id": "cmb-01571",
+   "category": "mcq_zh",
+   "question": "寒战高热，黄疸，右上腹剧痛症状叫做\nA. Ewart征\nB. Rovsing征\nC. 腹膜炎三联征\nD. Charcot三联征\nE. Courvoisier征\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医师考试/中级职称/传染病主治医师"
+  },
+  {
+   "id": "cmb-00096",
+   "category": "mcq_zh",
+   "question": "乳酸的清除率随着乳酸浓度的升高而如何，运动可以如何乳酸清除\nA. 加快，加速\nB. 减慢，加速\nC. 加快，减慢\nD. 减慢，减慢\nE. 不变，加速\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医师考试/规培结业/康复医学科"
+  },
+  {
+   "id": "cmb-08620",
+   "category": "mcq_zh",
+   "question": "放射性核素治疗骨转移癌的主要目的是\nA. 缓解疼痛\nB. 彻底消除骨转移病灶\nC. 预防新病灶发生\nD. 修复溶骨性病灶\nE. 以上都对\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 专业知识考试/临床医学/核医学"
+  },
+  {
+   "id": "cmb-00440",
+   "category": "mcq_zh",
+   "question": "急性龈乳头炎的一些临床表现易与牙髓炎混淆，除了\nA. 明显的白发痛\nB. 中等度的冷热刺激痛\nC. 龈乳头发红肿胀，探触痛明显，易出血\nD. 跳痛\nE. 可有轻度叩痛\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/执业助理医师/口腔执业助理医师"
+  },
+  {
+   "id": "cmb-07806",
+   "category": "mcq_zh",
+   "question": "关于咽的描述，正确的是\nA. 上窄下宽\nB. 长约15cm\nC. 向下于第5颈椎下缘续于食管\nD. 分鼻咽、口咽、喉咽三部分\nE. 咽鼓管咽口位于口咽部\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医技考试/主管技师/病理学技术"
+  },
+  {
+   "id": "cmb-01434",
+   "category": "mcq_zh",
+   "question": "太阳中暍，津气两伤，治用\nA. 白虎加苍术汤\nB. 白虎汤\nC. 白虎加参汤\nD. 竹叶石膏汤\nE. 白虎加桂枝汤\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/中级职称/中医内科主治医师"
+  },
+  {
+   "id": "cmb-05327",
+   "category": "mcq_zh",
+   "question": "生品长于涌吐风痰，炒后长于降气化痰的是\nA. 紫苏子\nB. 苍耳子\nC. 王不留行\nD. 莱菔子\nE. 薏苡仁\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 药师考试/初级中药士/中药学（士）"
+  },
+  {
+   "id": "cmb-01888",
+   "category": "mcq_zh",
+   "question": "男性，30岁，右手中、环指肿胀，疼痛1年，X线片显示中、环指近节指骨膨胀性骨吸收，夹杂钙化斑，诊断内生软骨瘤，施刮除植骨术，术后1年复发，进一步的治疗是\nA. 肿瘤段切除植骨术\nB. 肿瘤段切除人工关节置换术\nC. 放射治疗\nD. 截指术\nE. 刮除植骨术\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 医师考试/高级职称/骨科高级职称"
+  },
+  {
+   "id": "cmb-03279",
+   "category": "mcq_zh",
+   "question": "看到别的患者通过锻炼恢复很快，自己也仿效加强锻炼，属于\nA. 自我强化\nB. 替代性强化\nC. 正性强化\nD. 负性强化\nE. 模仿行为\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 护理考试/高级护师/副主任、主任护师资格考试"
+  },
+  {
+   "id": "cmb-08248",
+   "category": "mcq_zh",
+   "question": "前列腺\nA. 由平滑肌构成\nB. 成对的中空性器官\nC. 呈尖朝上、底朝下\nD. 体后面有纵行的前列腺沟\nE. 活体直肠指诊，触摸不到前列腺\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 专业知识考试/基础医学/系统解剖学"
+  },
+  {
+   "id": "cmb-09679",
+   "category": "mcq_zh",
+   "question": "关于肺癌的转移方式，哪项是正确的\nA. 鳞癌发生血行转移较早\nB. 腺癌发生血行转移较晚\nC. 肺泡细胞癌分化程度低，早期即可发生淋巴转移\nD. 燕麦细胞癌常在早期就出现淋巴转移\nE. 淋巴结转移只发生在肺癌同侧\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医学考研/护理学/外科护理学"
+  },
+  {
+   "id": "cmb-00927",
+   "category": "mcq_zh",
+   "question": "患者，男，45岁。腹痛腹泻2天，日泻10余次水便，经治已缓，目前口渴心烦，皮肤干瘪，眼窝凹陷，舌淡白苔薄黄，脉细无力。其证候是\nA. 津亏\nB. 阴虚\nC. 亡阴\nD. 外燥\nE. 实热\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医师考试/执业医师/中西医结合执业医师"
+  },
+  {
+   "id": "cmb-01411",
+   "category": "mcq_zh",
+   "question": "下述治疗外科感染时抗菌药物的选择原则中错误的是\nA. 根据诊断选择抗菌药物，因为各种外科感染都有它的主要病原菌；根据脓液的性状、脓液涂片检查来估计病原菌的种类，选用有效抗菌药物\nB. 根据脓液和血液细菌培养及抗菌药物敏感试验选择有效药物；根据用药的性能、效果、不良反应、毒性以及药源和费用等全面考虑\nC. 根据药物是否易溶、溶解后颜色、给药途径方便与否、药物是否对组织可能有刺激等来选择\nD. 可以应用一种抗生素或磺胺类药控制的感染，即不联合应用抗生素；可用窄谱抗生素治疗感染时，即不用广谱的；有数种同样有效的抗菌药物可供选择时，应选用药源充足、价廉和不良反应较小的\nE. 在全身情况不良的患者中，应尽量使用杀菌性抗生素来治疗感染，以达到较快的控制感染的目的\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/中级职称/疼痛科主治医师"
+  },
+  {
+   "id": "cmb-05257",
+   "category": "mcq_zh",
+   "question": "有关汤剂用法叙述中错误的是\nA. 一般汤药多宜温服，但有时热性药应冷服，寒性药应热服\nB. 冬季服用汤剂比夏季服用效果好\nC. 一般疾病多每日一剂，每剂分两次或三次服用\nD. 有安神助眠作用的汤剂宜睡前服\nE. 多数药物宜饭前服，以利药物吸收\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 药师考试/初级中药士/中药学（士）"
+  },
+  {
+   "id": "cmb-08463",
+   "category": "mcq_zh",
+   "question": "侧腭突间及侧腭突与鼻中隔未融合或部分融合将形成\nA. 唇裂\nB. 颌裂\nC. 腭裂\nD. 横面裂\nE. 斜面裂\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 专业知识考试/临床医学/口腔组织病理学"
+  },
+  {
+   "id": "cmb-00107",
+   "category": "mcq_zh",
+   "question": "7岁患儿，无发绀症状，于胸骨左缘第2肋间闻及收缩期Ⅳ级粗糙杂音，有震颤，心电图提示：右心室肥大劳损。该患儿做超声检查时，重点观察的切面是\nA. 胸骨旁左心长轴切面\nB. 心尖四腔心切面\nC. 胸骨旁二尖瓣短轴切面\nD. 主动脉根部短轴切面\nE. 胸骨上主动脉弓长轴切面\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医师考试/规培结业/超声科"
+  },
+  {
+   "id": "cmb-00261",
+   "category": "mcq_zh",
+   "question": "下列不是多动综合征的临床表现的是\nA. 别人讲话时常常显得没在听\nB. 常无法遵守指令，无法完成功课或其他活动中的义务\nC. 言语发育落后，与人交往困难\nD. 对来自各方面刺激几乎都有反应\nE. 对一些不愉快的刺激做出过分反应\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/规培结业/精神科"
+  },
+  {
+   "id": "cmb-04548",
+   "category": "mcq_zh",
+   "question": "供试品开口置适宜的洁净容器中，在温度60℃的条件下放置10天\nA. 高温试验\nB. 高湿度试验\nC. 强光照射试验\nD. 加速试验\nE. 长期试验\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 药师考试/初级药士/药士初级考试"
+  },
+  {
+   "id": "cmb-01628",
+   "category": "mcq_zh",
+   "question": "咳嗽、咳铁锈色痰常见于\nA. 肺结核\nB. 支气管扩张\nC. 大叶性肺炎\nD. 肺癌\nE. 急性肺水肿\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/高级职称/呼吸内科高级职称"
+  },
+  {
+   "id": "cmb-09939",
+   "category": "mcq_zh",
+   "question": "铺无菌盘时哪项是错误的\nA. 用无菌持物钳夹取治疗巾\nB. 注意使治疗巾边缘对齐\nC. 治疗巾开口部分及两侧反折\nD. 有效期不超过6h\nE. 避免潮湿和暴露过久\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "D",
+   "notes": "CMB 医学考研/护理学/基础护理学"
+  },
+  {
+   "id": "cmb-03032",
+   "category": "mcq_zh",
+   "question": "用空气灌肠的方法治疗肠套叠，适用于\nA. 病程在24小时内，全身情况好，无腹胀、高热、中毒症状者\nB. 病程在48小时内，全身情况好，无腹胀、高热、中毒症状者\nC. 病程在48〜72小时内，全身情况好，无腹胀、高热、中毒症状者\nD. 病程在24小时内，伴有腹胀、高热、有中毒症状者\nE. 病程在48小时内，伴有腹胀、高热、有中毒症状者\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "B",
+   "notes": "CMB 护理考试/主管护师/儿科主管护师"
+  },
+  {
+   "id": "cmb-01483",
+   "category": "mcq_zh",
+   "question": "色氨酸可以在体内少量合成的维生素是\nA. 维生素K\nB. 维生素C\nC. 维生素PP\nD. 维生素B12\nE. 叶酸\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/中级职称/营养学主治医师"
+  },
+  {
+   "id": "cmb-01262",
+   "category": "mcq_zh",
+   "question": "患者，女性，13岁，└2牙冠缺损达2/3，牙髓暴露，患牙与对颌牙无咬合关系，根尖已发育完全，最佳修复设计是\nA. 活髓切断术，待18岁以后根管治疗加桩核冠修复\nB. 根管治疗术后桩核烤瓷冠修复\nC. 根管治疗术后桩核加临时冠修复，18岁后更换烤瓷冠\nD. 活髓切断术，塑料临时冠修复，待18岁以后更换烤瓷冠\nE. 根管治疗术后烤瓷冠修复\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "C",
+   "notes": "CMB 医师考试/中级职称/口腔科主治医师"
+  },
+  {
+   "id": "cmb-01665",
+   "category": "mcq_zh",
+   "question": "下列表述不正确的是\nA. 吸烟与心血管疾病发病和死亡相关\nB. 糖尿病是冠心病的等危症\nC. C反应蛋白是心血管疾病的预测因子\nD. 分子基因筛查技术可反映动脉粥样硬化的预后\nE. 2008年公布的SEARCH研究证明补充叶酸和维生素B12能降低心血管危险性\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "E",
+   "notes": "CMB 医师考试/高级职称/心内科高级职称"
+  },
+  {
+   "id": "cmb-08084",
+   "category": "mcq_zh",
+   "question": "贾第虫病病人急性期粪便中可查到\nA. 滋养体\nB. 未成熟包囊\nC. 成熟包囊\nD. 速殖子\nE. 裂殖子\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 专业知识考试/基础医学/人体寄生虫学"
+  },
+  {
+   "id": "cmb-01317",
+   "category": "mcq_zh",
+   "question": "在牙周炎中以B淋巴细胞浸润为主的阶段是\nA. 病损确立期\nB. 进展期\nC. 早期病变\nD. 始发期\nE. 修复期\n请直接给出正确选项字母（A/B/C/D/E）。",
+   "expected_keywords": [],
+   "must_not_contain": [],
+   "should_refuse": false,
+   "expected_option": "A",
+   "notes": "CMB 医师考试/中级职称/口腔修复科主治医师"
+  }
+ ]
+}

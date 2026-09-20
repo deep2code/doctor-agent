@@ -131,8 +131,8 @@ func (t *MedicalQALookupTool) Execute(ctx context.Context, args map[string]inter
 	var sb strings.Builder
 	fmt.Fprintf(&sb, "找到 %d 条相关问答:\n\n", len(results))
 	for i, r := range results {
-		fmt.Fprintf(&sb, "%d. [%s] %s\n", i+1, r.Dept, truncateStr(r.Question, 100))
-		fmt.Fprintf(&sb, "   回答: %s\n\n", truncateStr(r.Answer, 300))
+		fmt.Fprintf(&sb, "%d. [%s] %s\n", i+1, r.Dept, truncate(r.Question, 100))
+		fmt.Fprintf(&sb, "   回答: %s\n\n", truncate(r.Answer, 300))
 	}
 
 	return &ToolResult{
@@ -144,11 +144,4 @@ func (t *MedicalQALookupTool) Execute(ctx context.Context, args map[string]inter
 			{ID: "medical-qa", Title: "Chinese Medical Dialogue Dataset", Level: "community"},
 		},
 	}, nil
-}
-
-func truncateStr(s string, max int) string {
-	if len(s) <= max {
-		return s
-	}
-	return s[:max-3] + "..."
 }

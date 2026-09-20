@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"strings"
+	"unicode/utf8"
 
 	"github.com/doctor-agent/internal/knowledge"
 )
@@ -159,8 +160,13 @@ func (t *HuatuoQALookupTool) Execute(ctx context.Context, args map[string]interf
 }
 
 func truncate(s string, max int) string {
-	if len(s) <= max {
+	if max <= 3 {
+		return "..."
+	}
+	// Rune-aware: byte slicing mid-CJK emitted invalid UTF-8 (mojibake at
+	// the tail of every truncated Chinese question/answer).
+	if utf8.RuneCountInString(s) <= max {
 		return s
 	}
-	return s[:max-3] + "..."
+	return string([]rune(s)[:max-3]) + "..."
 }

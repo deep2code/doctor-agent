@@ -740,7 +740,20 @@ func loadDotenv() error {
 			continue
 		}
 		key = strings.TrimSpace(key)
+		// Tolerate shell-style "export KEY=VAL" lines written into .env.
+		key = strings.TrimPrefix(key, "export ")
+		key = strings.TrimSpace(key)
+		if key == "" {
+			continue
+		}
 		val = strings.TrimSpace(val)
+		// Strip one layer of matching surrounding quotes; leaving them in
+		// breaks API keys and DSNs ("sk-xxx" would carry literal quotes).
+		if len(val) >= 2 {
+			if (val[0] == '"' && val[len(val)-1] == '"') || (val[0] == '\'' && val[len(val)-1] == '\'') {
+				val = val[1 : len(val)-1]
+			}
+		}
 		// Highest priority: always apply, even if already set globally.
 		_ = os.Setenv(key, val)
 	}

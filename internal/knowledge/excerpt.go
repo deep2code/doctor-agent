@@ -63,7 +63,11 @@ func ExcerptAround(content, query string, radius int) string {
 	sort.Slice(hits, func(i, j int) bool { return hits[i].pos < hits[j].pos })
 
 	// Densest cluster of hits within a 2*radius span.
-	bestSum, bestLo, curSum, curLo := 0, 0, 0, 0
+	bestSum, bestLo, bestHi := 0, 0, 0
+	// curSum tracks the weight of the window [lo..hi]; hits[0] is inside the
+	// window from the start, so it must be seeded here or every later
+	// subtraction of hits[lo].weight skews the cluster sums.
+	curSum := hits[0].weight
 	hi := 0
 	for lo := 0; lo < len(hits); lo++ {
 		if hi < lo {
@@ -74,11 +78,11 @@ func ExcerptAround(content, query string, radius int) string {
 			curSum += hits[hi].weight
 		}
 		if curSum > bestSum {
-			bestSum, bestLo, curLo = curSum, lo, hi
+			bestSum, bestLo, bestHi = curSum, lo, hi
 		}
 		curSum -= hits[lo].weight
 	}
-	center := (hits[bestLo].pos + hits[curLo].pos) / 2
+	center := (hits[bestLo].pos + hits[bestHi].pos) / 2
 	start := center - radius
 	end := center + radius
 	if start < 0 {

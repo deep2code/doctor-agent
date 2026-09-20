@@ -8,7 +8,7 @@
 # (compose 默认 changeme). 挂载空卷 mariadb_data 即触发一次性导入;
 # 已有数据的卷不会被覆盖(官方 entrypoint 行为).
 #
-# 数据版本见 internal/knowledge/data/version.json (当前 1.36.0).
+# 数据版本以 internal/knowledge/data/version.json 为准 (build.sh kb 用它打 tag).
 # 重建流程: 起本地 MariaDB → MARIA_DB_PORT=xxxx go run ./cmd/kbseed →
 #   docker exec <容器> mariadb-dump ... | gzip > docker/kb/init-doctor_knowledge.sql.gz
 #   → ./build.sh kb

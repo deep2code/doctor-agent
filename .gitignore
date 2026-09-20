@@ -117,3 +117,12 @@ external/medlinezh/
 external/otc_labels/raw/
 # KB 数据镜像的 dump 产物 (397MB, 由 build.sh kb 从本地库导出)
 docker/kb/init-doctor_knowledge.sql.gz
+
+# 超过 GitHub 单文件 100MiB 上限的源文件：整文件只留本地，仓库里提交的是分片
+# (external/split_data.py split/merge/verify；make_gz.py 会自动按分片合并构建 gz/)
+internal/knowledge/data/huatuo_qa.json
+internal/knowledge/data/medical_qa_pairs.json
+# CMB 原始压缩包与解压产物（评测集由 external/convert_cmb.py 从中挑选后生成）
+external/cmb/
+# Orphanet 原始 XML 产品包（约 280MB，由 external/convert_orphanet.py 消费，可从 Orphanet 重下）
+external/orphanet/

@@ -60,13 +60,14 @@ func (fs *FileStore) path(id string) (string, error) {
 	return p, nil
 }
 
-// Save writes a snapshot of the session. The caller should hold the session
-// lock or otherwise ensure the snapshot is consistent.
+// Save writes a snapshot of the session atomically (write-temp-then-rename).
+// It marshals Session.Snapshot() under the session's own read lock, so a
+// concurrent message append can never be observed mid-write.
 func (fs *FileStore) Save(s *Session) error {
 	fs.mu.Lock()
 	defer fs.mu.Unlock()
 
-	data, err := json.MarshalIndent(s, "", "  ")
+	data, err := json.MarshalIndent(s.Snapshot(), "", "  ")
 	if err != nil {
 		return fmt.Errorf("marshal session: %w", err)
 	}

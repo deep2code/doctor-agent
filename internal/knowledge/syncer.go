@@ -968,6 +968,9 @@ func embedBatch[T any](ctx context.Context, embedder embedding.Provider, source 
 
 	// Create vector points
 	points := make([]VectorPoint, len(entries))
+	if len(vectors) < len(entries) {
+		return nil, fmt.Errorf("embedding batch returned %d vectors for %d texts", len(vectors), len(entries))
+	}
 	for i, entry := range entries {
 		// Generate a deterministic UUID from source + content hash. Qdrant point
 		// IDs must be valid UUIDs; a raw "source_hash" string (e.g. drug_4870c5…)
@@ -987,6 +990,7 @@ func embedBatch[T any](ctx context.Context, embedder embedding.Provider, source 
 			"source":    source,
 			"type":      typ,
 			"entry_id":  id,
+			"data":      string(entryJSON),
 			"text":      texts[i],
 			"timestamp": time.Now().Format(time.RFC3339),
 		}

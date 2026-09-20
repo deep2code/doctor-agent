@@ -1459,7 +1459,7 @@ func (s *Server) handleSessions(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	recs, err := s.db.ListAllSessions(200)
+	recs, err := s.db.ListAllSessions(200, 0)
 	if err != nil {
 		slog.Error("Listing sessions", "error", err)
 		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": "failed to list sessions"})
@@ -1965,6 +1965,10 @@ func (rl *rateLimiter) allow(ip string) bool {
 	w, ok := rl.counts[ip]
 	if !ok || now.Sub(w.start) >= rl.window {
 		rl.counts[ip] = &rateWindow{start: now, count: 1}
+		// Prune on this path too: a flood of distinct IPs (each seen once)
+		// never reaches the hit-path below, so without this the map grows
+		// unbounded.
+		rl.pruneExpired(now)
 		return true
 	}
 	w.count++
@@ -1973,13 +1977,21 @@ func (rl *rateLimiter) allow(ip string) bool {
 	// Opportunistically prune expired entries so the map cannot grow unbounded
 	// under bursts of distinct source IPs.
 	if len(rl.counts) > 256 {
-		for k, v := range rl.counts {
-			if now.Sub(v.start) >= rl.window {
-				delete(rl.counts, k)
-			}
-		}
+		rl.pruneExpired(now)
 	}
 	return allowed
+}
+
+// pruneExpired deletes windows older than the fixed window. Caller holds rl.mu.
+func (rl *rateLimiter) pruneExpired(now time.Time) {
+	if len(rl.counts) <= 256 {
+		return
+	}
+	for k, v := range rl.counts {
+		if now.Sub(v.start) >= rl.window {
+			delete(rl.counts, k)
+		}
+	}
 }
 
 // handleAdminSync handles POST /admin/sync for file upload sync.
@@ -2387,7 +2399,7 @@ func (s *Server) handleAdminSessions(w http.ResponseWriter, r *http.Request) {
 			fmt.Sscanf(v, "%d", &offset)
 		}
 
-		recs, err := s.db.ListAllSessions(limit)
+		recs, err := s.db.ListAllSessions(limit, offset)
 		if err != nil {
 			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
 			return
@@ -2947,7 +2959,7 @@ func (s *Server) handleAdminExport(w http.ResponseWriter, r *http.Request) {
 
 	switch exportType {
 	case "sessions":
-		sessions, err := s.db.ListAllSessions(10000)
+		sessions, err := s.db.ListAllSessions(10000, 0)
 		if err != nil {
 			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
 			return

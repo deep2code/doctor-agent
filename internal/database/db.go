@@ -5,6 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"log/slog"
+	"strings"
 	"sync"
 	"time"
 
@@ -51,8 +52,22 @@ func New(cfg Config) (*DB, error) {
 		return nil, fmt.Errorf("migrating database: %w", err)
 	}
 
-	slog.Info("Database initialized", "dsn", cfg.DSN)
+	slog.Info("Database initialized", "dsn", redactDSN(cfg.DSN))
 	return db, nil
+}
+
+// redactDSN strips credentials from a MySQL/MariaDB DSN before logging:
+// "user:secret@tcp(host:port)/db?params" -> "user:***@tcp(host:port)/db?params".
+func redactDSN(dsn string) string {
+	i := strings.Index(dsn, "@")
+	if i <= 0 {
+		return dsn
+	}
+	creds := dsn[:i]
+	if j := strings.Index(creds, ":"); j >= 0 {
+		return creds[:j] + ":***" + dsn[i:]
+	}
+	return dsn
 }
 
 // Close closes the database connection.
@@ -191,6 +206,11 @@ func (db *DB) migrate() error {
 		`CREATE INDEX idx_api_stats_endpoint ON api_stats(endpoint)`,
 		`CREATE INDEX idx_api_stats_created_at ON api_stats(created_at)`,
 		`CREATE INDEX idx_shares_created_at ON shares(created_at)`,
+		// Session snapshot state (patient context / disclaimer flag).
+		// IF NOT EXISTS is MariaDB syntax; tables created before this column
+		// existed are upgraded here because CREATE TABLE IF NOT EXISTS above
+		// never alters an existing table.
+		`ALTER TABLE sessions ADD COLUMN IF NOT EXISTS state TEXT`,
 	}
 
 	for _, q := range queries {
@@ -324,6 +344,7 @@ type SessionRecord struct {
 	ID        string    `json:"id"`
 	UserID    string    `json:"user_id,omitempty"`
 	Title     string    `json:"title,omitempty"`
+	State     string    `json:"state,omitempty"` // serialized snapshot state (patient context)
 	CreatedAt time.Time `json:"created_at"`
 	UpdatedAt time.Time `json:"updated_at"`
 }
@@ -353,8 +374,8 @@ func (db *DB) GetSession(id string) (*SessionRecord, error) {
 
 	session := &SessionRecord{}
 	err := db.conn.QueryRow(
-		`SELECT id, COALESCE(user_id,''), title, created_at, updated_at FROM sessions WHERE id = ?`, id,
-	).Scan(&session.ID, &session.UserID, &session.Title, &session.CreatedAt, &session.UpdatedAt)
+		`SELECT id, COALESCE(user_id,''), title, COALESCE(state,''), created_at, updated_at FROM sessions WHERE id = ?`, id,
+	).Scan(&session.ID, &session.UserID, &session.Title, &session.State, &session.CreatedAt, &session.UpdatedAt)
 	if err == sql.ErrNoRows {
 		return nil, nil
 	}
@@ -369,6 +390,15 @@ func (db *DB) UpdateSessionTitle(id, title string) error {
 	_, err := db.conn.Exec(
 		`UPDATE sessions SET title = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?`, title, id,
 	)
+	return err
+}
+
+// SetSessionState persists the serialized snapshot state of a session.
+func (db *DB) SetSessionState(id, state string) error {
+	db.mu.Lock()
+	defer db.mu.Unlock()
+
+	_, err := db.conn.Exec(`UPDATE sessions SET state = ? WHERE id = ?`, state, id)
 	return err
 }
 
@@ -406,18 +436,21 @@ func (db *DB) ListUserSessions(userID string, limit int) ([]SessionRecord, error
 }
 
 // ListAllSessions lists all sessions (anonymous chat UI), most recently
-// updated first, capped at limit.
-func (db *DB) ListAllSessions(limit int) ([]SessionRecord, error) {
+// updated first, capped at limit and skipping offset rows.
+func (db *DB) ListAllSessions(limit, offset int) ([]SessionRecord, error) {
 	db.mu.RLock()
 	defer db.mu.RUnlock()
 
 	if limit <= 0 {
 		limit = 50
 	}
+	if offset < 0 {
+		offset = 0
+	}
 
 	rows, err := db.conn.Query(
 		`SELECT id, COALESCE(user_id,''), title, created_at, updated_at 
-		 FROM sessions ORDER BY updated_at DESC LIMIT ?`, limit,
+		 FROM sessions ORDER BY updated_at DESC LIMIT ? OFFSET ?`, limit, offset,
 	)
 	if err != nil {
 		return nil, err
@@ -484,6 +517,47 @@ func (db *DB) AddMessage(msg *MessageRecord) error {
 	return nil
 }
 
+// ReplaceSessionMessages rewrites the full transcript of a session in one
+// transaction (delete + ordered insert). Session snapshotting uses this
+// instead of incremental appends because in-memory history is trimmed
+// (TrimHistory/Clear), so old rows no longer form a prefix of the current
+// message list.
+func (db *DB) ReplaceSessionMessages(sessionID string, msgs []MessageRecord) error {
+	db.mu.Lock()
+	defer db.mu.Unlock()
+
+	tx, err := db.conn.Begin()
+	if err != nil {
+		return fmt.Errorf("beginning transaction: %w", err)
+	}
+	defer func() {
+		if err != nil {
+			if rbErr := tx.Rollback(); rbErr != nil {
+				slog.Warn("Failed to rollback message replace", "error", rbErr)
+			}
+		}
+	}()
+
+	if _, err = tx.Exec(`DELETE FROM messages WHERE session_id = ?`, sessionID); err != nil {
+		return fmt.Errorf("deleting messages: %w", err)
+	}
+	for _, m := range msgs {
+		if _, err = tx.Exec(
+			`INSERT INTO messages (session_id, role, content, tool_calls) VALUES (?, ?, ?, ?)`,
+			sessionID, m.Role, m.Content, m.ToolCalls,
+		); err != nil {
+			return fmt.Errorf("inserting message: %w", err)
+		}
+	}
+	if _, err = tx.Exec(`UPDATE sessions SET updated_at = CURRENT_TIMESTAMP WHERE id = ?`, sessionID); err != nil {
+		return fmt.Errorf("touching session: %w", err)
+	}
+	if err = tx.Commit(); err != nil {
+		return fmt.Errorf("committing: %w", err)
+	}
+	return nil
+}
+
 // GetSessionMessages retrieves all messages for a session.
 func (db *DB) GetSessionMessages(sessionID string) ([]MessageRecord, error) {
 	db.mu.RLock()
@@ -491,7 +565,7 @@ func (db *DB) GetSessionMessages(sessionID string) ([]MessageRecord, error) {
 
 	rows, err := db.conn.Query(
 		`SELECT id, session_id, role, content, tool_calls, created_at 
-		 FROM messages WHERE session_id = ? ORDER BY created_at ASC`, sessionID,
+		 FROM messages WHERE session_id = ? ORDER BY id ASC`, sessionID,
 	)
 	if err != nil {
 		return nil, err
@@ -510,7 +584,7 @@ func (db *DB) GetSessionMessages(sessionID string) ([]MessageRecord, error) {
 		}
 		messages = append(messages, m)
 	}
-	return messages, nil
+	return messages, rows.Err()
 }
 
 // --- Feedback operations ---
@@ -692,12 +766,12 @@ func (db *DB) ListSystemConfigs() ([]SystemConfigRecord, error) {
 	var configs []SystemConfigRecord
 	for rows.Next() {
 		var c SystemConfigRecord
-		if err := rows.Scan(&c.ID, &c.Key, &c.Value, &c.Description, &c.UpdatedAt); err != nil {
+		if err := rows.Scan(&c.ID, &c.Key, &c.Value, &c.Description, &c.UpdatedBy, &c.UpdatedAt); err != nil {
 			return nil, err
 		}
 		configs = append(configs, c)
 	}
-	return configs, nil
+	return configs, rows.Err()
 }
 
 // DeleteSystemConfig deletes a config by key.

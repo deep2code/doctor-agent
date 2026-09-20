@@ -45,16 +45,21 @@ type BakeResult struct {
 // tools (medical_kg_lookup / nmpa_drug_lookup / cpubmed_kg_lookup /
 // icd10_lookup). Their rows are exact-match entities (KG triples, drug
 // records, ICD codes) rather than free text, so vectorizing them adds no
-// retrieval value — and they account for ~664k of the 1.37M baked points,
-// roughly half the Qdrant image size. The runtime Syncer applies the same
-// set so admin syncs cannot re-add them.
+// retrieval value — they are the bulk of the seed row count, so skipping them
+// is what keeps the Qdrant image to a few GB. The runtime Syncer applies the
+// same set so admin syncs cannot re-add them.
+// Per-dataset row counts in the comments below track data/*.json and will drift
+// on every knowledge update — verify against the JSON, not this prose.
 var vectorSkipDatasets = map[string]bool{
-	DSMedicalKG: true, // 354,766 rows
-	DSNMPA:      true, // 167,615 rows
-	DSCPubMed:   true, // 105,416 rows
-	DSICD10:     true, // 35,862 rows
-	DSICD11:     true, // 35,339 rows — exact-match codes like ICD-10
-	DSCorpus:    true, // medkb corpora: keyword full-text layer suffices; keeps bake cost flat
+	DSMedicalKG:       true, // 354,752 rows
+	DSNMPA:            true, // 167,615 rows
+	DSCPubMed:         true, // 105,328 rows
+	DSICD10:           true, // 35,862 rows
+	DSICD11:           true, // 35,339 rows — exact-match codes like ICD-10
+	DSHPO:             true, // 19,836 rows — exact-match phenotype terms via exact_lookup
+	DSOrphanet:        true, // 11,647 rows — exact-match rare-disease names/codes via exact_lookup
+	DSICDO3:           true, // 1,077 rows — exact-match morphology codes via exact_lookup
+	DSCorpus:          true, // medkb corpora: keyword full-text layer suffices; keeps bake cost flat
 	DSPublicResources: true, // 47 rows, keyword search sufficient
 }
 
@@ -290,6 +295,9 @@ func bakeBatch(ctx context.Context, vecStore *VectorStore, embedder embedding.Pr
 	vectors, err := embedder.EmbedBatch(texts)
 	if err != nil {
 		return 0, fmt.Sprintf("%s batch %d: %v", dataset, idx, err)
+	}
+	if len(vectors) < len(batch) {
+		return 0, fmt.Sprintf("%s batch %d: embedding provider returned %d vectors for %d texts", dataset, idx, len(vectors), len(batch))
 	}
 	points := make([]VectorPoint, len(batch))
 	for j, r := range batch {

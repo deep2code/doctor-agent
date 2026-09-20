@@ -121,11 +121,47 @@ func (s *Session) SetPatientContext(pc *PatientContext) {
 	s.PatientContext = pc
 }
 
-// GetPatientContext returns the current patient context.
+// GetPatientContext returns a copy of the current patient context.
+// Returning the internal pointer would let callers mutate shared state
+// without holding s.mu (races with concurrent snapshotting).
 func (s *Session) GetPatientContext() *PatientContext {
 	s.mu.RLock()
 	defer s.mu.RUnlock()
-	return s.PatientContext
+	if s.PatientContext == nil {
+		return nil
+	}
+	pc := *s.PatientContext
+	pc.KnownAllergies = append([]string(nil), s.PatientContext.KnownAllergies...)
+	pc.KnownConditions = append([]string(nil), s.PatientContext.KnownConditions...)
+	pc.CurrentMedications = append([]string(nil), s.PatientContext.CurrentMedications...)
+	return &pc
+}
+
+// Snapshot returns a deep copy of the session suitable for JSON persistence.
+// Stores must marshal the snapshot, never the live session: the session mu is
+// unexported, so marshaling s directly while another goroutine appends a
+// message is a data race.
+func (s *Session) Snapshot() *Session {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+
+	out := &Session{
+		ID:             s.ID,
+		ContextSummary: s.ContextSummary,
+		CreatedAt:      s.CreatedAt,
+		UpdatedAt:      s.UpdatedAt,
+		DisclaimerSent: s.DisclaimerSent,
+	}
+	out.Messages = make([]llm.Message, len(s.Messages))
+	copy(out.Messages, s.Messages)
+	if s.PatientContext != nil {
+		pc := *s.PatientContext
+		pc.KnownAllergies = append([]string(nil), s.PatientContext.KnownAllergies...)
+		pc.KnownConditions = append([]string(nil), s.PatientContext.KnownConditions...)
+		pc.CurrentMedications = append([]string(nil), s.PatientContext.CurrentMedications...)
+		out.PatientContext = &pc
+	}
+	return out
 }
 
 // TurnCount returns the number of conversation turns.

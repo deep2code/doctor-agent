@@ -42,12 +42,14 @@ func (t *ExactLookup) Name() string { return "exact_lookup" }
 
 func (t *ExactLookup) Description() string {
 	return "统一精确查询工具，按数据集类型做字段精确/子串匹配查询。" +
-		"支持类型: icd10=ICD-10疾病编码(35862条), icd11=WHO ICD-11疾病编码(中文,35339条), nmpa=NMPA药品目录(167615种), " +
+		"支持类型: icd10=ICD-10疾病编码(35862条), icd11=WHO ICD-11疾病编码(中文,35339条), hpo=HPO人类表型本体(19836条,中英表型名), nmpa=NMPA药品目录(167615种), " +
 		"variant=ClinVar基因变异(HBB/HBA1/HBA2/G6PD致病变异), " +
 		"eml=WHO基本药物清单(第24版564种), fda_label=FDA药品标签中文要点(344种), " +
 		"ttd=治疗靶点数据库(4299靶点+29782药物), sider=药物副作用(1430种药物), " +
-		"medins=国家医保药品目录(2024版1170种西药)。" +
-		"当需要查询药品编码/批准信息/基因变异/药物副作用/医保类别等精确字段时使用。"
+		"medins=国家医保药品目录(2025版,西药+中成药+谈判药品共3618条), " +
+		"orphanet=Orphanet罕见病数据库(11647种,中英病名+ORPHA编码+ICD映射), " +
+		"icdo3=ICD-O-3肿瘤形态学编码(1077条,8000/0-9992/3)。" +
+		"当需要查询药品编码/批准信息/基因变异/药物副作用/医保类别/罕见病/肿瘤形态学编码等精确字段时使用。"
 }
 
 func (t *ExactLookup) Schema() map[string]any {
@@ -60,7 +62,7 @@ func (t *ExactLookup) Schema() map[string]any {
 			},
 			"type": map[string]any{
 				"type":        "string",
-				"description": "查询类型: icd10, icd11, nmpa, variant, eml, fda_label, ttd, sider, medins",
+				"description": "查询类型: icd10, icd11, hpo, nmpa, variant, eml, fda_label, ttd, sider, medins, orphanet, icdo3",
 			},
 			"top_k": map[string]any{
 				"type":        "integer",
@@ -84,7 +86,7 @@ func (t *ExactLookup) Execute(ctx context.Context, input map[string]any) (*ToolR
 
 	lookupType, _ := input["type"].(string)
 	if lookupType == "" {
-		return &ToolResult{Success: false, Error: "请提供查询类型 type (icd10/icd11/nmpa/variant/eml/fda_label/ttd/sider/medins)"}, nil
+		return &ToolResult{Success: false, Error: "请提供查询类型 type (icd10/icd11/hpo/nmpa/variant/eml/fda_label/ttd/sider/medins/orphanet/icdo3)"}, nil
 	}
 
 	topK := 5
@@ -99,6 +101,8 @@ func (t *ExactLookup) Execute(ctx context.Context, input map[string]any) (*ToolR
 		return t.lookupICD10(ctx, query, topK)
 	case "icd11":
 		return t.lookupICD11(ctx, query, topK)
+	case "hpo":
+		return t.lookupHPO(ctx, query, topK)
 	case "nmpa":
 		return t.lookupNMPA(ctx, query, topK)
 	case "variant":
@@ -113,10 +117,14 @@ func (t *ExactLookup) Execute(ctx context.Context, input map[string]any) (*ToolR
 		return t.lookupSIDER(ctx, query, topK)
 	case "medins":
 		return t.lookupMedins(ctx, query, topK)
+	case "orphanet":
+		return t.lookupOrphanet(ctx, query, topK)
+	case "icdo3":
+		return t.lookupICDO3(ctx, query, topK)
 	default:
 		return &ToolResult{
 			Success: false,
-			Error:   fmt.Sprintf("不支持的类型 '%s'，可选: icd10, icd11, nmpa, variant, eml, fda_label, ttd, sider, medins", lookupType),
+			Error:   fmt.Sprintf("不支持的类型 '%s'，可选: icd10, icd11, hpo, nmpa, variant, eml, fda_label, ttd, sider, medins, orphanet, icdo3", lookupType),
 		}, nil
 	}
 }
@@ -223,6 +231,173 @@ func icd11TermToMap(d *knowledge.ICD11Term) map[string]any {
 }
 
 // ---------------------------------------------------------------------------
+// HPO human phenotype ontology (19,836 terms, en + zh names)
+// ---------------------------------------------------------------------------
+
+func (t *ExactLookup) lookupHPO(_ context.Context, query string, topK int) (*ToolResult, error) {
+	if d := t.store.GetHPOTerm(query); d != nil {
+		return &ToolResult{
+			Success: true,
+			Data: map[string]any{
+				"query": query, "type": "hpo", "result_count": 1,
+				"results": []map[string]any{hpoTermToMap(d)},
+			},
+		}, nil
+	}
+	terms := t.store.SearchHPO(query, topK)
+	if len(terms) == 0 {
+		return &ToolResult{
+			Success: true,
+			Data: map[string]any{
+				"query": query, "type": "hpo", "result_count": 0,
+				"message": fmt.Sprintf("HPO 表型库(19,836条)中未找到 '%s'。可尝试英文表型名、中文名或 HP: 编码。", query),
+			},
+		}, nil
+	}
+	results := make([]map[string]any, 0, len(terms))
+	for i := range terms {
+		results = append(results, hpoTermToMap(&terms[i]))
+	}
+	return &ToolResult{
+		Success: true,
+		Data: map[string]any{
+			"query": query, "type": "hpo", "result_count": len(results), "results": results,
+		},
+	}, nil
+}
+
+func hpoTermToMap(d *knowledge.HPOTerm) map[string]any {
+	m := map[string]any{
+		"hpo_id": d.HPOID,
+		"name":   d.Name,
+	}
+	if d.NameZH != "" {
+		m["name_zh"] = d.NameZH
+	}
+	if len(d.Synonyms) > 0 {
+		m["synonyms"] = d.Synonyms
+	}
+	if d.Definition != "" {
+		m["definition"] = d.Definition
+	}
+	return m
+}
+
+// ---------------------------------------------------------------------------
+// Orphanet rare diseases (11,647 entries)
+// ---------------------------------------------------------------------------
+
+func (t *ExactLookup) lookupOrphanet(_ context.Context, query string, topK int) (*ToolResult, error) {
+	if d := t.store.GetOrphanetDisease(query); d != nil {
+		return &ToolResult{
+			Success: true,
+			Data: map[string]any{
+				"query": query, "type": "orphanet", "result_count": 1,
+				"results": []map[string]any{orphanetDiseaseToMap(d)},
+			},
+		}, nil
+	}
+	diseases := t.store.SearchOrphanet(query, topK)
+	if len(diseases) == 0 {
+		return &ToolResult{
+			Success: true,
+			Data: map[string]any{
+				"query": query, "type": "orphanet", "result_count": 0,
+				"message": fmt.Sprintf("Orphanet 罕见病库(11,647种)中未找到 '%s'。可尝试中文病名、英文病名或 ORPHA 编码。", query),
+			},
+		}, nil
+	}
+	results := make([]map[string]any, 0, len(diseases))
+	for i := range diseases {
+		results = append(results, orphanetDiseaseToMap(&diseases[i]))
+	}
+	return &ToolResult{
+		Success: true,
+		Data: map[string]any{
+			"query": query, "type": "orphanet", "result_count": len(results), "results": results,
+		},
+	}, nil
+}
+
+func orphanetDiseaseToMap(d *knowledge.OrphanetDisease) map[string]any {
+	m := map[string]any{
+		"orpha_code": "ORPHA:" + d.OrphaCode,
+	}
+	if d.NameZH != "" {
+		m["name_zh"] = d.NameZH
+	}
+	if d.NameEN != "" {
+		m["name_en"] = d.NameEN
+	}
+	if len(d.Synonyms) > 0 {
+		m["synonyms"] = d.Synonyms
+	}
+	if len(d.ICD10) > 0 {
+		m["icd10"] = d.ICD10
+	}
+	if len(d.ICD11) > 0 {
+		m["icd11"] = d.ICD11
+	}
+	if d.Type != "" {
+		m["type"] = d.Type
+	}
+	return m
+}
+
+// ---------------------------------------------------------------------------
+// ICD-O-3 tumor morphology codes (1,077 entries)
+// ---------------------------------------------------------------------------
+
+func (t *ExactLookup) lookupICDO3(_ context.Context, query string, topK int) (*ToolResult, error) {
+	if d := t.store.GetICDO3Term(query); d != nil {
+		return &ToolResult{
+			Success: true,
+			Data: map[string]any{
+				"query": query, "type": "icdo3", "result_count": 1,
+				"results": []map[string]any{icdo3TermToMap(d)},
+			},
+		}, nil
+	}
+	terms := t.store.SearchICDO3(query, topK)
+	if len(terms) == 0 {
+		return &ToolResult{
+			Success: true,
+			Data: map[string]any{
+				"query": query, "type": "icdo3", "result_count": 0,
+				"message": fmt.Sprintf("ICD-O-3 形态学库(1,077条)中未找到 '%s'。可尝试 8000/3 形式编码、英文或中文形态学名。", query),
+			},
+		}, nil
+	}
+	results := make([]map[string]any, 0, len(terms))
+	for i := range terms {
+		results = append(results, icdo3TermToMap(&terms[i]))
+	}
+	return &ToolResult{
+		Success: true,
+		Data: map[string]any{
+			"query": query, "type": "icdo3", "result_count": len(results), "results": results,
+		},
+	}, nil
+}
+
+func icdo3TermToMap(d *knowledge.ICDO3Morphology) map[string]any {
+	m := map[string]any{
+		"code":    d.Code,
+		"name_en": d.NameEN,
+	}
+	if d.Behavior != "" {
+		m["behavior"] = d.Behavior
+	}
+	if d.NameZH != "" {
+		m["name_zh"] = d.NameZH
+	}
+	if len(d.Synonyms) > 0 {
+		m["synonyms"] = d.Synonyms
+	}
+	return m
+}
+
+// ---------------------------------------------------------------------------
 // NMPA drug catalogue (167,615 entries)
 // ---------------------------------------------------------------------------
 
@@ -276,7 +451,10 @@ func (t *ExactLookup) lookupNMPA(_ context.Context, query string, topK int) (*To
 // ---------------------------------------------------------------------------
 
 func (t *ExactLookup) lookupVariant(ctx context.Context, query string, topK int) (*ToolResult, error) {
-	results, _ := t.keywordRetriever.RetrieveClinVar(ctx, query, topK)
+	results, rerr := t.keywordRetriever.RetrieveClinVar(ctx, query, topK)
+	if rerr != nil {
+		return &ToolResult{Success: false, Error: fmt.Sprintf("检索失败: %v", rerr)}, nil
+	}
 	if len(results) == 0 {
 		return &ToolResult{
 			Success: true,
@@ -312,7 +490,10 @@ func (t *ExactLookup) lookupVariant(ctx context.Context, query string, topK int)
 // ---------------------------------------------------------------------------
 
 func (t *ExactLookup) lookupEML(ctx context.Context, query string, topK int) (*ToolResult, error) {
-	results, _ := t.keywordRetriever.RetrieveEMLDrug(ctx, query, topK)
+	results, rerr := t.keywordRetriever.RetrieveEMLDrug(ctx, query, topK)
+	if rerr != nil {
+		return &ToolResult{Success: false, Error: fmt.Sprintf("检索失败: %v", rerr)}, nil
+	}
 	if len(results) == 0 {
 		return &ToolResult{
 			Success: true,
@@ -342,15 +523,15 @@ func (t *ExactLookup) lookupEML(ctx context.Context, query string, topK int) (*T
 			indications = append(indications, fmt.Sprintf("%s: %s", choiceLabel, ind.Text))
 		}
 		entries = append(entries, map[string]any{
-			"name":                    e.Name,
-			"name_zh":                 e.NameZH,
-			"section":                 e.Section,
-			"list":                    listLabel,
-			"forms":                   e.Forms,
-			"indications":             indications,
-			"note":                    e.Note,
-			"children_list":           e.Children,
-			"square_box_listing":      e.SquareBox,
+			"name":                     e.Name,
+			"name_zh":                  e.NameZH,
+			"section":                  e.Section,
+			"list":                     listLabel,
+			"forms":                    e.Forms,
+			"indications":              indications,
+			"note":                     e.Note,
+			"children_list":            e.Children,
+			"square_box_listing":       e.SquareBox,
 			"therapeutic_alternatives": e.TherapeuticAlternatives,
 		})
 	}
@@ -367,7 +548,10 @@ func (t *ExactLookup) lookupEML(ctx context.Context, query string, topK int) (*T
 // ---------------------------------------------------------------------------
 
 func (t *ExactLookup) lookupFDALabel(ctx context.Context, query string, topK int) (*ToolResult, error) {
-	results, _ := t.keywordRetriever.RetrieveFDALabel(ctx, query, topK)
+	results, rerr := t.keywordRetriever.RetrieveFDALabel(ctx, query, topK)
+	if rerr != nil {
+		return &ToolResult{Success: false, Error: fmt.Sprintf("检索失败: %v", rerr)}, nil
+	}
 	if len(results) == 0 {
 		return &ToolResult{
 			Success: true,
@@ -455,9 +639,9 @@ func (t *ExactLookup) lookupTTD(_ context.Context, query string, topK int, subTy
 					syns = syns[:5]
 				}
 				drugResults = append(drugResults, map[string]any{
-					"id":        drug.ID,
-					"name":      drug.Name,
-					"synonyms":  syns,
+					"id":       drug.ID,
+					"name":     drug.Name,
+					"synonyms": syns,
 				})
 				if len(drugResults) >= topK {
 					break
@@ -552,7 +736,10 @@ func (t *ExactLookup) lookupSIDER(_ context.Context, query string, topK int) (*T
 // ---------------------------------------------------------------------------
 
 func (t *ExactLookup) lookupMedins(ctx context.Context, query string, topK int) (*ToolResult, error) {
-	results, _ := t.keywordRetriever.RetrieveMedinsDrug(ctx, query, topK)
+	results, rerr := t.keywordRetriever.RetrieveMedinsDrug(ctx, query, topK)
+	if rerr != nil {
+		return &ToolResult{Success: false, Error: fmt.Sprintf("检索失败: %v", rerr)}, nil
+	}
 	if len(results) == 0 {
 		return &ToolResult{
 			Success: true,

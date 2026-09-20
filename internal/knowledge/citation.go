@@ -61,6 +61,20 @@ func (cf *CitationFormatter) FormatReference(c *Citation, index int) string {
 // for inclusion in the system prompt. Citations are numbered flatly [1]..[N]
 // so the model can reference them directly.
 func (cf *CitationFormatter) BuildCitationMap(entries []RetrievalResult) string {
+	return cf.BuildCitationMapOffset(entries, 0)
+}
+
+// FlatCitationCount reports how many numbered citations BuildCitationMap /
+// BuildCitedSources assign to the given entries (the continuation offset for
+// any later injection).
+func FlatCitationCount(entries []RetrievalResult) int {
+	return len(flattenCitations(entries))
+}
+
+// BuildCitationMapOffset renders citations numbered offset+1 onward so a
+// follow-up injection never re-uses [1..N] of the already-published list
+// (post-verification resolves numbers against the merged source map).
+func (cf *CitationFormatter) BuildCitationMapOffset(entries []RetrievalResult, offset int) string {
 	if len(entries) == 0 {
 		return ""
 	}
@@ -73,7 +87,8 @@ func (cf *CitationFormatter) BuildCitationMap(entries []RetrievalResult) string 
 	for _, fc := range flat {
 		c := fc.citation
 		e := fc.result.Entry
-		fmt.Fprintf(&sb, "**[%d] %s** （来自条目: %s）\n", fc.number, c.Title, e.ConditionZH)
+		num := fc.number + offset
+		fmt.Fprintf(&sb, "**[%d] %s** （来自条目: %s）\n", num, c.Title, e.ConditionZH)
 		if c.Journal != "" {
 			fmt.Fprintf(&sb, "  - %s", c.Journal)
 			if c.Year > 0 {

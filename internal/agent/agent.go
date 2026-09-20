@@ -123,7 +123,7 @@ func New(cfg *config.Config) (*Agent, error) {
 		understandProvider = p.WithThinkingDisabled()
 	}
 
-	// Register unified tools (10 total: 6 action + 2 unified retrieval/lookup
+	// Register unified tools (13 total: 9 action + 2 unified retrieval/lookup
 	// + 2 knowledge-graph lookup).
 	// Action tools — computation / cross-reference, not replaceable by RAG.
 	registry.Register(tools.NewDrugSafetyCheck(store))
@@ -139,8 +139,8 @@ func New(cfg *config.Config) (*Agent, error) {
 	// Unified retrieval / lookup — replace ~28 retired specialized tools.
 	registry.Register(tools.NewKnowledgeSearch(store, retriever))
 	registry.Register(tools.NewExactLookup(store))
-	// Knowledge-graph triple lookup (OpenCMKG 354k, CPubMed-KG 37k) —
-	// exact-match entity/relation queries, not replaceable by RAG.
+	// Knowledge-graph triple lookup (OpenCMKG 354,752 triples, CPubMed-KG 105,328
+	// triples) — exact-match entity/relation queries, not replaceable by RAG.
 	registry.Register(tools.NewMedicalKGLookup(store))
 	registry.Register(tools.NewCPubMedKGLookup(store))
 
@@ -1229,9 +1229,8 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 					slog.Warn("Response post-verification failed",
 						"warnings", verifyResult.Warnings,
 						"unsupported", verifyResult.UnsupportedClaims)
-					if verifyResult.CorrectedResponse != "" {
-						responseText = verifyResult.CorrectedResponse
-					}
+					// 与 ProcessMessageStream 一致：核查结果仅记录日志，
+					// 不改动回答文本 (2026-09-08 决策)。
 				}
 			}
 
@@ -1254,7 +1253,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 			sess.TrimHistory(a.cfg.MaxHistoryTurns)
 
 			return &Response{
-				Text:           responseText,
+				Text:           safety.RemoveReferralSentences(responseText),
 				DisclaimerSent: disclaimerSent,
 				Usage:          totalUsage,
 				CostUSD:        llm.CostUSD(a.providerModel(), totalUsage),
@@ -1393,9 +1392,8 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 			slog.Warn("Response post-verification failed",
 				"warnings", verifyResult.Warnings,
 				"unsupported", verifyResult.UnsupportedClaims)
-			if verifyResult.CorrectedResponse != "" {
-				responseText = verifyResult.CorrectedResponse
-			}
+			// 与 ProcessMessageStream 一致：核查结果仅记录日志，
+			// 不改动回答文本 (2026-09-08 决策)。
 		}
 	}
 
@@ -1530,12 +1528,18 @@ func (a *Agent) maybeFollowupRetrieve(ctx context.Context, tc llm.ToolCall, resu
 	if len(fresh) == 0 {
 		return
 	}
+	// Number the supplement [K+1..] continuing the merged list (initial
+	// retrieval occupies [1..K]). Restarting at [1] would make the same
+	// number point to two different sources: the model would cite the
+	// supplement as [1] while post-verification resolves [1] against the
+	// merged BuildCitedSources map, i.e. the wrong paper.
+	offset := knowledge.FlatCitationCount(*retrieved)
 	*retrieved = append(*retrieved, fresh...)
 	// Format as a compact context injection message.
 	var sb strings.Builder
 	sb.WriteString("【补充检索结果】根据工具返回的实体，自动检索到以下循证医学知识，请在回答中参考：\n\n")
 	formatter := knowledge.NewCitationFormatter()
-	sb.WriteString(formatter.BuildCitationMap(fresh))
+	sb.WriteString(formatter.BuildCitationMapOffset(fresh, offset))
 	*messages = append(*messages, llm.Message{Role: "user", Content: sb.String()})
 	slog.Debug("Followup retrieval injected", "entities", entities, "fresh_entries", len(fresh))
 }
@@ -1682,6 +1686,15 @@ func (a *Agent) GetOrCreateSession(sessionID string) *session.Session {
 			slog.Warn("Failed to restore session", "id", sessionID, "error", err)
 		} else if restored != nil {
 			a.sessionsMu.Lock()
+			// Re-check under the write lock: a concurrent request for the
+			// same ID may already have restored/created it while we were
+			// loading. Overwriting would hand two requests different
+			// *Session objects for one conversation, so their histories
+			// would silently diverge and clobber each other on save.
+			if existing, ok := a.sessions[sessionID]; ok {
+				a.sessionsMu.Unlock()
+				return existing
+			}
 			a.sessions[sessionID] = restored
 			a.sessionsMu.Unlock()
 			return restored
@@ -1715,6 +1728,10 @@ func (a *Agent) DeleteSession(sessionID string) {
 	a.sessionsMu.Lock()
 	delete(a.sessions, sessionID)
 	a.sessionsMu.Unlock()
+	// Drop the per-session turn lock too: entries are only ever added, so
+	// without this cleanup attacker-controlled conversation IDs would grow
+	// the map without bound.
+	a.sessLocks.Delete(sessionID)
 	if a.sessionStore != nil {
 		if err := a.sessionStore.Delete(sessionID); err != nil {
 			slog.Warn("Failed to delete session from store", "id", sessionID, "error", err)

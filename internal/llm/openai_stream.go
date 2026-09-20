@@ -27,13 +27,16 @@ type openAIStreamToolCall struct {
 type openAIStreamChunk struct {
 	Choices []struct {
 		Delta struct {
-			Content          string                `json:"content"`
-			ReasoningContent string                `json:"reasoning_content"`
+			Content          string                 `json:"content"`
+			ReasoningContent string                 `json:"reasoning_content"`
 			ToolCalls        []openAIStreamToolCall `json:"tool_calls"`
 		} `json:"delta"`
 		FinishReason string `json:"finish_reason"`
 	} `json:"choices"`
 	Usage *openAIUsage `json:"usage,omitempty"`
+	// Some gateways return HTTP 200 and deliver failures as a mid-stream
+	// `data: {"error": {...}}` event instead of a non-2xx status.
+	Error json.RawMessage `json:"error,omitempty"`
 }
 
 // openAIStreamingChat calls an OpenAI-compatible /chat/completions endpoint
@@ -330,6 +333,7 @@ func parseOpenAIStream(body io.Reader, onDelta func(string)) (*ChatResponse, err
 
 	scanner := bufio.NewScanner(body)
 	scanner.Buffer(make([]byte, 0, 64*1024), 4*1024*1024)
+	completed := false
 	for scanner.Scan() {
 		line := strings.TrimSpace(scanner.Text())
 		if line == "" || !strings.HasPrefix(line, "data:") {
@@ -337,11 +341,17 @@ func parseOpenAIStream(body io.Reader, onDelta func(string)) (*ChatResponse, err
 		}
 		data := strings.TrimSpace(strings.TrimPrefix(line, "data:"))
 		if data == "[DONE]" {
+			completed = true
 			break
 		}
 		var chunk openAIStreamChunk
 		if err := json.Unmarshal([]byte(data), &chunk); err != nil {
 			continue // tolerate keep-alive / partial lines
+		}
+		if len(chunk.Error) > 0 {
+			// HTTP 200 with a mid-stream error event: surface it instead of
+			// returning the partial text as a successful response.
+			return nil, fmt.Errorf("openai-compatible stream error: %s", string(chunk.Error))
 		}
 		// Usage arrives on a dedicated final chunk (stream_options.include_usage)
 		// with an empty choices array — capture before the choices check.
@@ -353,6 +363,9 @@ func parseOpenAIStream(body io.Reader, onDelta func(string)) (*ChatResponse, err
 		}
 		if len(chunk.Choices) == 0 {
 			continue
+		}
+		if chunk.Choices[0].FinishReason != "" {
+			completed = true
 		}
 		delta := chunk.Choices[0].Delta
 		if delta.Content != "" {
@@ -391,6 +404,12 @@ func parseOpenAIStream(body io.Reader, onDelta func(string)) (*ChatResponse, err
 	}
 	if err := scanner.Err(); err != nil {
 		return nil, fmt.Errorf("read stream: %w", err)
+	}
+	if !completed {
+		// Clean EOF without [DONE] or a finish_reason chunk: the response was
+		// truncated. Returning the partial text as success would let the agent
+		// present a half-finished medical answer.
+		return nil, fmt.Errorf("openai-compatible stream ended without completion signal (truncated response)")
 	}
 
 	// Assemble tool calls in index order for deterministic output.

@@ -6,7 +6,6 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-	"sync"
 	"testing"
 )
 
@@ -126,8 +125,8 @@ func TestRetrieverInfantGasTeethBitingRecall(t *testing.T) {
 	}
 
 	store := &Store{MedicalEntries: entries}
-	doneOnce := &sync.Once{}
-	doneOnce.Do(func() {})
+	// Pre-mark datasets as loaded so ensureXxx skips the MariaDB round-trip.
+	markedDone := &ensureFlag{done: true}
 	for _, dataset := range []string{
 		DSMedical,
 		DSFoodRisk,
@@ -137,7 +136,7 @@ func TestRetrieverInfantGasTeethBitingRecall(t *testing.T) {
 		DSDiseaseEnc,
 		DSNHC,
 	} {
-		store.onces.Store(dataset, doneOnce)
+		store.onces.Store(dataset, markedDone)
 	}
 	r := NewRetriever(store)
 

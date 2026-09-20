@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log/slog"
 	"regexp"
+	"sort"
 	"strconv"
 	"strings"
 	"sync"
@@ -21,7 +22,7 @@ type Store struct {
 	mu sync.RWMutex
 
 	kb    *KB
-	onces sync.Map // dataset name -> *sync.Once
+	onces sync.Map // dataset name -> *ensureFlag
 
 	MedicalEntries []KnowledgeEntry
 	MedicalByID    map[string]*KnowledgeEntry
@@ -85,6 +86,18 @@ type Store struct {
 	ICD11Terms  []ICD11Term
 	ICD11ByCode map[string]*ICD11Term
 
+	// Human Phenotype Ontology terms (en + zh names) for exact lookup.
+	HPOTerms  []HPOTerm
+	HPOByCode map[string]*HPOTerm
+
+	// Orphanet rare diseases (ORPHA code, zh/en names, ICD maps) for exact lookup.
+	OrphanetDiseases []OrphanetDisease
+	OrphanetByCode   map[string]*OrphanetDisease
+
+	// ICD-O-3 tumor morphology codes for exact lookup.
+	ICDO3Terms  []ICDO3Morphology
+	ICDO3ByCode map[string]*ICDO3Morphology
+
 	// Health myths and misconceptions (日常错误观念/习惯).
 	HealthMyths []HealthMyth
 
@@ -138,7 +151,7 @@ type Store struct {
 	// TTD data (Therapeutic Target Database).
 	TTDData *TTDData
 
-// SIDER drug side effects and indications.
+	// SIDER drug side effects and indications.
 	SIDERData *SIDERDataSet
 
 	// Public resources: textbooks, videos, educational websites.
@@ -148,6 +161,7 @@ type Store struct {
 var globalStore *Store
 var loadOnce sync.Once
 var loadErr error
+var storeMu sync.Mutex
 
 // Reload rebuilds the in-memory knowledge store from MariaDB. It is called
 // after the admin API updates a dataset so running queries see the new rows.
@@ -158,9 +172,17 @@ func Reload() {
 		slog.Error("Knowledge reload failed; keeping previous store", "error", err)
 		return
 	}
+	storeMu.Lock()
+	defer storeMu.Unlock()
+	old := globalStore
 	globalStore = newStore
 	loadOnce = sync.Once{}
 	loadErr = nil
+	// Release the previous KB connection pool, otherwise every admin
+	// dataset upload leaks a pool of live connections.
+	if old != nil {
+		_ = old.Close()
+	}
 }
 
 // buildStore opens the KB and constructs a fresh Store (shared by Load/Reload).
@@ -186,6 +208,9 @@ func buildStore() (*Store, error) {
 		LiteratureByTopic:          make(map[string][]*LiteratureEntry),
 		ICD10ByCode:                make(map[string]*ICD10Disease),
 		ICD11ByCode:                make(map[string]*ICD11Term),
+		HPOByCode:                  make(map[string]*HPOTerm),
+		OrphanetByCode:             make(map[string]*OrphanetDisease),
+		ICDO3ByCode:                make(map[string]*ICDO3Morphology),
 		NMPAByName:                 make(map[string]*NMPADrug),
 		DiseaseEncyclopediasByName: make(map[string]*DiseaseEncyclopedia),
 		CPubMedByHead:              make(map[string][]*CPubMedTriple),
@@ -199,6 +224,8 @@ func buildStore() (*Store, error) {
 // fetched from MariaDB on first use. No knowledge data is embedded in the
 // binary.
 func Load() (*Store, error) {
+	storeMu.Lock()
+	defer storeMu.Unlock()
 	loadOnce.Do(func() {
 		globalStore, loadErr = buildStore()
 	})
@@ -222,25 +249,45 @@ func (s *Store) Close() error {
 	return s.kb.Close()
 }
 
-// once returns the sync.Once associated with a dataset name.
-func (s *Store) once(name string) *sync.Once {
-	actual, _ := s.onces.LoadOrStore(name, &sync.Once{})
-	return actual.(*sync.Once)
+// once returns the load-state flag associated with a dataset name.
+type ensureFlag struct {
+	mu   sync.Mutex
+	done bool
 }
 
-// ensure runs fn exactly once per dataset name.
+func (s *Store) once(name string) *ensureFlag {
+	actual, _ := s.onces.LoadOrStore(name, &ensureFlag{})
+	return actual.(*ensureFlag)
+}
+
+// ensure runs fn exactly once per dataset name, but retries on later calls
+// if fn returned an error: a transient MariaDB hiccup must not permanently
+// pin a dataset to the empty cache for the process lifetime.
 func (s *Store) ensure(name string, fn func() error) error {
-	var err error
-	s.once(name).Do(func() { err = fn() })
-	return err
+	f := s.once(name)
+	f.mu.Lock()
+	defer f.mu.Unlock()
+	if f.done {
+		return nil
+	}
+	if err := fn(); err != nil {
+		return err
+	}
+	f.done = true
+	return nil
 }
 
 // loadDataset reads every row of a dataset from the database and ingests it.
+// The DB read happens outside the lock; ingestion (which mutates shared maps
+// and slices) runs under the write lock so concurrent cold loads cannot race
+// with retriever reads ("concurrent map iteration and map write").
 func (s *Store) loadDataset(name string) error {
 	rows, err := s.kb.All(name)
 	if err != nil {
 		return err
 	}
+	s.mu.Lock()
+	defer s.mu.Unlock()
 	for _, raw := range rows {
 		if err := s.ingest(name, raw); err != nil {
 			return fmt.Errorf("ingesting %s: %w", name, err)
@@ -373,6 +420,30 @@ func (s *Store) ingest(name string, raw []byte) error {
 		tt := t
 		s.ICD11Terms = append(s.ICD11Terms, t)
 		s.ICD11ByCode[t.ICD11Code] = &tt
+	case DSHPO:
+		var t HPOTerm
+		if err := json.Unmarshal(raw, &t); err != nil {
+			return err
+		}
+		tt := t
+		s.HPOTerms = append(s.HPOTerms, t)
+		s.HPOByCode[t.HPOID] = &tt
+	case DSOrphanet:
+		var d OrphanetDisease
+		if err := json.Unmarshal(raw, &d); err != nil {
+			return err
+		}
+		dd := d
+		s.OrphanetDiseases = append(s.OrphanetDiseases, d)
+		s.OrphanetByCode[d.OrphaCode] = &dd
+	case DSICDO3:
+		var t ICDO3Morphology
+		if err := json.Unmarshal(raw, &t); err != nil {
+			return err
+		}
+		tt := t
+		s.ICDO3Terms = append(s.ICDO3Terms, t)
+		s.ICDO3ByCode[t.Code] = &tt
 	case DSHealthMyths:
 		var m HealthMyth
 		if err := json.Unmarshal(raw, &m); err != nil {
@@ -562,6 +633,16 @@ func (s *Store) ensureCorpus() error {
 }
 func (s *Store) ensureICD11() error {
 	return s.ensure(DSICD11, func() error { return s.loadDataset(DSICD11) })
+}
+
+func (s *Store) ensureHPO() error {
+	return s.ensure(DSHPO, func() error { return s.loadDataset(DSHPO) })
+}
+func (s *Store) ensureOrphanet() error {
+	return s.ensure(DSOrphanet, func() error { return s.loadDataset(DSOrphanet) })
+}
+func (s *Store) ensureICDO3() error {
+	return s.ensure(DSICDO3, func() error { return s.loadDataset(DSICDO3) })
 }
 func (s *Store) ensureHealthMyths() error {
 	return s.ensure(DSHealthMyths, func() error { return s.loadDataset(DSHealthMyths) })
@@ -840,11 +921,11 @@ func (s *Store) MedlinePlusAsKnowledge() []KnowledgeEntry {
 // patients use. These are injected into disease encyclopedia entries to
 // improve recall for colloquial queries like "喉咙痛" matching "咽炎".
 var symptomKeywords = map[string][]string{
-	"五官科": {"咽痛", "喉咙痛", "嗓子疼", "咽喉痛", "咽干", "喉咙痒", "吞咽痛", "咽喉肿痛", "咽部灼热", "声音嘶哑", "口干", "口腔溃疡", "牙痛", "牙龈出血", "鼻出血", "耳鸣", "听力下降", "眩晕", "头痛", "头晕"},
+	"五官科":  {"咽痛", "喉咙痛", "嗓子疼", "咽喉痛", "咽干", "喉咙痒", "吞咽痛", "咽喉肿痛", "咽部灼热", "声音嘶哑", "口干", "口腔溃疡", "牙痛", "牙龈出血", "鼻出血", "耳鸣", "听力下降", "眩晕", "头痛", "头晕"},
 	"耳鼻喉科": {"咽痛", "喉咙痛", "嗓子疼", "咽喉痛", "咽干", "喉咙痒", "吞咽痛", "咽喉肿痛", "咽部灼热", "声音嘶哑", "鼻塞", "流鼻涕", "鼻痒", "打喷嚏", "嗅觉减退", "耳鸣", "耳痛", "听力下降", "眩晕"},
 	"呼吸内科": {"咳嗽", "咳痰", "发热", "发烧", "胸闷", "气促", "呼吸困难", "咽痛", "喉咙痛", "嗓子疼", "咽喉痛", "喘息", "胸痛", "咯血"},
 	"消化内科": {"腹痛", "肚子痛", "腹胀", "便秘", "拉肚子", "腹泻", "恶心", "呕吐", "反酸", "烧心", "食欲不振", "消化不良", "便血", "黑便"},
-	"儿科": {"发烧", "发热", "咳嗽", "拉肚子", "腹泻", "呕吐", "皮疹", "抽搐", "哭闹", "出疹子"},
+	"儿科":   {"发烧", "发热", "咳嗽", "拉肚子", "腹泻", "呕吐", "皮疹", "抽搐", "哭闹", "出疹子"},
 }
 
 // available via exact_lookup / knowledge_search dataset=disease_encyclopedia.
@@ -961,21 +1042,21 @@ func extractGuideKeywords(title string) []string {
 func expandGuideKeyword(kw string) string {
 	// 常见疾病同义词映射
 	expansions := map[string]string{
-		"流行性感冒": "流感",
+		"流行性感冒":  "流感",
 		"人感染禽流感": "禽流感",
-		"手足口病": "手足口",
-		"腺病毒肺炎": "腺病毒",
-		"诺如病毒": "诺如",
-		"麻疹": "麻疹",
-		"风疹": "风疹",
-		"水痘": "水痘",
+		"手足口病":   "手足口",
+		"腺病毒肺炎":  "腺病毒",
+		"诺如病毒":   "诺如",
+		"麻疹":     "麻疹",
+		"风疹":     "风疹",
+		"水痘":     "水痘",
 		"流行性腮腺炎": "腮腺炎",
-		"新冠病毒": "新冠",
+		"新冠病毒":   "新冠",
 		"新型冠状病毒": "新冠",
-		"肺炎": "肺部感染",
-		"支气管炎": "气管炎",
-		"咽炎": "咽喉炎",
-		"扁桃体炎": "扁桃体",
+		"肺炎":     "肺部感染",
+		"支气管炎":   "气管炎",
+		"咽炎":     "咽喉炎",
+		"扁桃体炎":   "扁桃体",
 	}
 	if exp, ok := expansions[kw]; ok {
 		return exp
@@ -1147,10 +1228,13 @@ func (s *Store) SearchICD11(query string, limit int) []ICD11Term {
 	if q == "" {
 		return nil
 	}
+	// ICD-11 codes are upper-case ("6A03..."); match the prefix against the
+	// original casing, not the lower-cased query used for the title fields.
+	qCode := strings.ToUpper(strings.TrimSpace(query))
 	var out []ICD11Term
 	for i := range s.ICD11Terms {
 		t := &s.ICD11Terms[i]
-		if strings.HasPrefix(t.ICD11Code, q) ||
+		if strings.HasPrefix(t.ICD11Code, qCode) ||
 			strings.Contains(strings.ToLower(t.TitleEN), q) ||
 			strings.Contains(t.TitleZH, query) {
 			out = append(out, *t)
@@ -1158,6 +1242,230 @@ func (s *Store) SearchICD11(query string, limit int) []ICD11Term {
 				break
 			}
 		}
+	}
+	return out
+}
+
+// GetHPOTerm returns one HPO term by its HP:####### id (exact lookup; nil if absent).
+func (s *Store) GetHPOTerm(id string) *HPOTerm {
+	_ = s.ensureHPO()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return s.HPOByCode[strings.ToUpper(strings.TrimSpace(id))]
+}
+
+// SearchHPO finds HPO phenotype terms by id or en/zh name/synonym substring,
+// ranked by match quality (exact name > zh substring > en/synonym > definition).
+func (s *Store) SearchHPO(query string, limit int) []HPOTerm {
+	_ = s.ensureHPO()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	q := strings.ToLower(strings.TrimSpace(query))
+	if q == "" {
+		return nil
+	}
+	type scored struct {
+		term  HPOTerm
+		score int
+	}
+	var hits []scored
+	for i := range s.HPOTerms {
+		t := &s.HPOTerms[i]
+		score := 0
+		if strings.EqualFold(t.HPOID, query) {
+			score = 12
+		}
+		if score == 0 && t.NameZH != "" {
+			if t.NameZH == query {
+				score = 10
+			} else if strings.Contains(t.NameZH, query) {
+				score = 8
+			}
+		}
+		if score == 0 && strings.Contains(strings.ToLower(t.Name), q) {
+			score = 6
+		}
+		if score == 0 {
+			for _, syn := range t.Synonyms {
+				if s2 := strings.ToLower(syn); strings.Contains(s2, q) || syn == query {
+					score = 5
+					break
+				}
+			}
+		}
+		// zh synonyms arrive inside Synonyms only if the pipeline adds them;
+		// definition matches are weak context hints, not primary hits.
+		if score == 0 && strings.Contains(strings.ToLower(t.Definition), q) {
+			score = 2
+		}
+		if score > 0 {
+			hits = append(hits, scored{*t, score})
+		}
+	}
+	sort.SliceStable(hits, func(i, j int) bool { return hits[i].score > hits[j].score })
+	if len(hits) > limit {
+		hits = hits[:limit]
+	}
+	out := make([]HPOTerm, 0, len(hits))
+	for _, h := range hits {
+		out = append(out, h.term)
+	}
+	return out
+}
+
+// GetOrphanetDisease returns one Orphanet disease by its ORPHA code (digits,
+// with or without an ORPHA:/ORPHA_ prefix; exact lookup, nil if absent).
+func (s *Store) GetOrphanetDisease(id string) *OrphanetDisease {
+	_ = s.ensureOrphanet()
+	code := strings.TrimSpace(id)
+	for _, p := range []string{"ORPHA:", "ORPHA_", "ORPHA", "orpha:"} {
+		if strings.HasPrefix(code, p) {
+			code = strings.TrimPrefix(code, p)
+			break
+		}
+	}
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return s.OrphanetByCode[code]
+}
+
+// SearchOrphanet finds rare diseases by ORPHA code, ICD code or en/zh name/synonym
+// substring, ranked by match quality (code > exact zh > zh substring > en > synonym > ICD map).
+func (s *Store) SearchOrphanet(query string, limit int) []OrphanetDisease {
+	_ = s.ensureOrphanet()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	q := strings.ToLower(strings.TrimSpace(query))
+	if q == "" {
+		return nil
+	}
+	type scored struct {
+		disease OrphanetDisease
+		score   int
+	}
+	var hits []scored
+	for i := range s.OrphanetDiseases {
+		t := &s.OrphanetDiseases[i]
+		score := 0
+		if strings.EqualFold("ORPHA:"+t.OrphaCode, query) || strings.EqualFold(t.OrphaCode, q) {
+			score = 12
+		}
+		if score == 0 && t.NameZH != "" {
+			if t.NameZH == query {
+				score = 10
+			} else if strings.Contains(t.NameZH, query) {
+				score = 8
+			}
+		}
+		if score == 0 && t.NameEN != "" && strings.Contains(strings.ToLower(t.NameEN), q) {
+			score = 6
+		}
+		if score == 0 {
+			for _, syn := range t.Synonyms {
+				if strings.EqualFold(syn, query) {
+					score = 6
+					break
+				}
+				if strings.Contains(strings.ToLower(syn), q) {
+					score = 5
+					break
+				}
+			}
+		}
+		if score == 0 {
+			for _, code := range t.ICD10 {
+				if strings.EqualFold(code, query) {
+					score = 4
+					break
+				}
+			}
+		}
+		if score == 0 {
+			for _, code := range t.ICD11 {
+				if strings.EqualFold(code, query) {
+					score = 4
+					break
+				}
+			}
+		}
+		if score > 0 {
+			hits = append(hits, scored{*t, score})
+		}
+	}
+	sort.SliceStable(hits, func(i, j int) bool { return hits[i].score > hits[j].score })
+	if len(hits) > limit {
+		hits = hits[:limit]
+	}
+	out := make([]OrphanetDisease, 0, len(hits))
+	for _, h := range hits {
+		out = append(out, h.disease)
+	}
+	return out
+}
+
+// GetICDO3Term returns one ICD-O-3 morphology term by its "8000/3" style code
+// (exact lookup; nil if absent).
+func (s *Store) GetICDO3Term(code string) *ICDO3Morphology {
+	_ = s.ensureICDO3()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return s.ICDO3ByCode[strings.TrimSpace(code)]
+}
+
+// SearchICDO3 finds ICD-O-3 morphology codes by code or en/zh name/synonym
+// substring, ranked by match quality (code > exact zh > zh substring > en > synonym).
+func (s *Store) SearchICDO3(query string, limit int) []ICDO3Morphology {
+	_ = s.ensureICDO3()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	q := strings.ToLower(strings.TrimSpace(query))
+	if q == "" {
+		return nil
+	}
+	type scored struct {
+		term  ICDO3Morphology
+		score int
+	}
+	var hits []scored
+	for i := range s.ICDO3Terms {
+		t := &s.ICDO3Terms[i]
+		score := 0
+		if strings.EqualFold(t.Code, query) {
+			score = 12
+		}
+		if score == 0 && t.NameZH != "" {
+			if t.NameZH == query {
+				score = 10
+			} else if strings.Contains(t.NameZH, query) {
+				score = 8
+			}
+		}
+		if score == 0 && strings.Contains(strings.ToLower(t.NameEN), q) {
+			score = 6
+		}
+		if score == 0 {
+			for _, syn := range t.Synonyms {
+				if strings.EqualFold(syn, query) {
+					score = 6
+					break
+				}
+				if strings.Contains(strings.ToLower(syn), q) {
+					score = 5
+					break
+				}
+			}
+		}
+		if score > 0 {
+			hits = append(hits, scored{*t, score})
+		}
+	}
+	sort.SliceStable(hits, func(i, j int) bool { return hits[i].score > hits[j].score })
+	if len(hits) > limit {
+		hits = hits[:limit]
+	}
+	out := make([]ICDO3Morphology, 0, len(hits))
+	for _, h := range hits {
+		out = append(out, h.term)
 	}
 	return out
 }
@@ -1334,6 +1642,27 @@ func (s *Store) GetTTDData() *TTDData {
 	return s.TTDData
 }
 
+// MedicalEntryByID resolves one medical entry by ID, triggering the lazy
+// MariaDB load and taking the read lock. Retrievers must use this instead of
+// reading MedicalByID directly: raw map access races with cold ingest.
+func (s *Store) MedicalEntryByID(id string) (*KnowledgeEntry, bool) {
+	_ = s.ensureMedical()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	e, ok := s.MedicalByID[id]
+	return e, ok
+}
+
+// DrugEntryByID resolves one drug entry by ID (same safety contract as
+// MedicalEntryByID).
+func (s *Store) DrugEntryByID(id string) (*DrugEntry, bool) {
+	_ = s.ensureDrug()
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	d, ok := s.DrugByID[id]
+	return d, ok
+}
+
 // GetSIDERData returns the SIDER drug side effects data.
 func (s *Store) GetSIDERData() *SIDERDataSet {
 	_ = s.ensureSIDER()
@@ -1349,6 +1678,9 @@ func (s *Store) SearchSIDERDrugs(query string, limit int) []SIDERDrug {
 	defer s.mu.RUnlock()
 	var matches []SIDERDrug
 	query = strings.ToLower(query)
+	if s.SIDERData == nil {
+		return nil
+	}
 	for _, drug := range s.SIDERData.Drugs {
 		if strings.Contains(strings.ToLower(drug.ID), query) {
 			matches = append(matches, drug)

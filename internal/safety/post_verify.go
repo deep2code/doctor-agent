@@ -56,7 +56,21 @@ func NewPostVerifierWithJudge(refIndex map[string]string, judge llm.LLMProvider)
 // citationPattern matches [N] (sequential) as well as [PMID:...] and
 // [doi:...] style citations, so tool-returned literature references are also
 // verified (or flagged when absent) instead of being silently ignored.
-var citationPattern = regexp.MustCompile(`\[(\d+|PMID:\d+|doi:[^\]]+)\]`)
+// Comma lists like [1,2] / [1，2] are matched as one group and expanded by
+// citationKeys.
+var citationPattern = regexp.MustCompile(`\[((?:\d+|PMID:\d+|doi:[^\],，]+)(?:\s*[,，]\s*(?:\d+|PMID:\d+|doi:[^\],，]+))*)\]`)
+
+// citationKeys expands one bracketed citation body (e.g. "1,2" or
+// "PMID:12345") into the normalized source-map keys used by
+// knowledge.AddToolSource: bare numbers, "PMID:" stripped.
+func citationKeys(raw string) []string {
+	parts := strings.FieldsFunc(raw, func(r rune) bool { return r == ',' || r == '，' })
+	keys := make([]string, 0, len(parts))
+	for _, p := range parts {
+		keys = append(keys, strings.TrimPrefix(strings.TrimSpace(p), "PMID:"))
+	}
+	return keys
+}
 
 // forbiddenDiagnosticPattern matches forbidden diagnostic assertions.
 var forbiddenDiagnosticPattern = regexp.MustCompile(
@@ -99,19 +113,20 @@ func (v *PostVerifier) Verify(ctx context.Context, response string, sources map[
 	if len(sources) > 0 {
 		seenIDs := make(map[string]bool)
 		for _, match := range citationMatches {
-			citationID := match[1]
-			// Normalize "PMID:12345" to the bare "12345" key used by
-			// AddToolSource; "doi:..." keys are kept as-is.
-			key := strings.TrimPrefix(citationID, "PMID:")
-			if seenIDs[key] {
-				continue
-			}
-			seenIDs[key] = true
+			// "PMID:12345" normalizes to the bare "12345" key used by
+			// AddToolSource; "doi:..." keys are kept as-is. "[1,2]" lists
+			// expand to each number.
+			for _, key := range citationKeys(match[1]) {
+				if seenIDs[key] {
+					continue
+				}
+				seenIDs[key] = true
 
-			if _, ok := sources[key]; !ok {
-				result.UnverifiedClaims = append(result.UnverifiedClaims,
-					fmt.Sprintf("引用 [%s] 未在本次检索到的知识条目中找到对应文献", citationID))
-				result.Passed = false
+				if _, ok := sources[key]; !ok {
+					result.UnverifiedClaims = append(result.UnverifiedClaims,
+						fmt.Sprintf("引用 [%s] 未在本次检索到的知识条目中找到对应文献", key))
+					result.Passed = false
+				}
 			}
 		}
 	}
@@ -162,18 +177,45 @@ var referenceMarkers = []string{
 }
 
 // responseBody trims everything from the reference-list header onward, so
-// rule checks never scan the model's renumbered reference tail.
+// rule checks never scan the model's renumbered reference tail. The marker
+// only counts at a line start (or body start): an in-sentence mention like
+// "请提供参考文献来源" must not truncate the rest of the answer.
 func responseBody(response string) string {
 	cut := -1
 	for _, m := range referenceMarkers {
-		if i := strings.Index(response, m); i >= 0 && (cut == -1 || i < cut) {
-			cut = i
+		for _, i := range lineIndexesOf(response, m) {
+			if cut == -1 || i < cut {
+				cut = i
+			}
 		}
 	}
 	if cut >= 0 {
 		return response[:cut]
 	}
 	return response
+}
+
+// lineIndexesOf returns every offset where marker occurs at the start of a
+// line (optionally preceded by markdown heading/list noise like "## ").
+func lineIndexesOf(s, marker string) []int {
+	var out []int
+	from := 0
+	for {
+		i := strings.Index(s[from:], marker)
+		if i < 0 {
+			return out
+		}
+		i += from
+		// Walk back over spaces and markdown decoration on the same line.
+		j := i
+		for j > 0 && (s[j-1] == ' ' || s[j-1] == '\t' || s[j-1] == '#' || s[j-1] == '*' || s[j-1] == '-' || s[j-1] == '>') {
+			j--
+		}
+		if j == 0 || s[j-1] == '\n' {
+			out = append(out, i)
+		}
+		from = i + len(marker)
+	}
 }
 
 // citedClaim is a claim sentence together with the citation numbers it cites.
@@ -287,8 +329,13 @@ func extractCitedClaims(body string, sources map[string]knowledge.CitedSource) [
 		}
 		var numbers []string
 		for _, m := range matches {
-			if _, ok := sources[m[1]]; ok {
-				numbers = append(numbers, m[1])
+			// Same normalization as Verify: bare PMID numbers and expanded
+			// "[1,2]" lists, otherwise [PMID] claims never match the
+			// numeric source keys and skip semantic verification.
+			for _, k := range citationKeys(m[1]) {
+				if _, ok := sources[k]; ok {
+					numbers = append(numbers, k)
+				}
 			}
 		}
 		if len(numbers) == 0 {

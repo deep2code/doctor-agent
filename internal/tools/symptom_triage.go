@@ -47,6 +47,26 @@ func (t *SymptomTriage) Schema() map[string]any {
 	}
 }
 
+// emergencyRuleMatch records which rule and keyword produced a triage hit.
+type emergencyRuleMatch struct {
+	rule    *knowledge.EmergencyRule
+	keyword string
+}
+
+// triageLevelPriority orders levels so a more urgent rule always wins ties.
+func triageLevelPriority(level string) int {
+	switch strings.ToLower(level) {
+	case "emergency":
+		return 3
+	case "urgent":
+		return 2
+	case "routine":
+		return 1
+	default:
+		return 0
+	}
+}
+
 func (t *SymptomTriage) Execute(ctx context.Context, input map[string]any) (*ToolResult, error) {
 	chiefComplaint, _ := input["chief_complaint"].(string)
 	accompanying, _ := input["accompanying_symptoms"].(string)
@@ -62,48 +82,62 @@ func (t *SymptomTriage) Execute(ctx context.Context, input map[string]any) (*Too
 	fullText := chiefComplaint + " " + accompanying + " " + patientCtx
 	rules := t.store.GetAllEmergencyRules()
 
-	// Check against emergency triage rules
-	for _, rule := range rules {
+	// Check against emergency triage rules. A complaint can match several
+	// rules (e.g. a routine keyword plus an emergency one); always return the
+	// most urgent match instead of whichever rule loads first.
+	bestPriority := -1
+	var bestRule *emergencyRuleMatch
+	match := func(rule *knowledge.EmergencyRule, kw string) {
+		p := triageLevelPriority(rule.Level)
+		if bestPriority >= p {
+			return
+		}
+		bestPriority = p
+		bestRule = &emergencyRuleMatch{rule: rule, keyword: kw}
+	}
+	for i := range rules {
+		rule := &rules[i]
+		lower := strings.ToLower(fullText)
+		matched := false
 		for _, kw := range rule.KeywordsZH {
 			if strings.Contains(fullText, kw) {
-				return &ToolResult{
-					Success: true,
-					Data: map[string]any{
-						"triage_level":      rule.Level,
-						"matched_condition": rule.Condition,
-						"matched_keyword":   kw,
-						"action":            rule.ActionZH,
-						"chief_complaint":   chiefComplaint,
-					},
-					Citations: t.buildTriageCitations(rule),
-				}, nil
+				match(rule, kw)
+				matched = true
+				break
 			}
 		}
-		for _, kw := range rule.Keywords {
-			if strings.Contains(strings.ToLower(fullText), strings.ToLower(kw)) {
-				return &ToolResult{
-					Success: true,
-					Data: map[string]any{
-						"triage_level":      rule.Level,
-						"matched_condition": rule.Condition,
-						"matched_keyword":   kw,
-						"action":            rule.ActionZH,
-						"chief_complaint":   chiefComplaint,
-					},
-					Citations: t.buildTriageCitations(rule),
-				}, nil
+		if !matched {
+			for _, kw := range rule.Keywords {
+				if strings.Contains(lower, strings.ToLower(kw)) {
+					match(rule, kw)
+					break
+				}
 			}
 		}
+	}
+	if bestRule != nil {
+		rule := bestRule.rule
+		return &ToolResult{
+			Success: true,
+			Data: map[string]any{
+				"triage_level":      rule.Level,
+				"matched_condition": rule.Condition,
+				"matched_keyword":   bestRule.keyword,
+				"action":            rule.ActionZH,
+				"chief_complaint":   chiefComplaint,
+			},
+			Citations: t.buildTriageCitations(*rule),
+		}, nil
 	}
 
 	// No emergency pattern matched
 	return &ToolResult{
 		Success: true,
 		Data: map[string]any{
-			"triage_level":    "routine",
+			"triage_level":      "routine",
 			"matched_condition": "no_emergency_pattern",
-			"action":          fmt.Sprintf("根据主诉 '%s'，未匹配到需要立即急救的紧急模式。建议：如果症状持续或加重，请在24-48小时内前往全科门诊或相应专科就诊。如果出现以下任何情况，请立即就医：意识改变、呼吸困难、剧烈疼痛、大出血、高热不退。", chiefComplaint),
-			"chief_complaint": chiefComplaint,
+			"action":            fmt.Sprintf("根据主诉 '%s'，未匹配到需要立即急救的紧急模式。建议：如果症状持续或加重，请在24-48小时内前往全科门诊或相应专科就诊。如果出现以下任何情况，请立即就医：意识改变、呼吸困难、剧烈疼痛、大出血、高热不退。", chiefComplaint),
+			"chief_complaint":   chiefComplaint,
 		},
 	}, nil
 }

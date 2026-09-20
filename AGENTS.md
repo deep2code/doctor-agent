@@ -1,10 +1,10 @@
 # AGENTS.md — doctor-agent
 
-循证医学 (evidence-based medicine) AI assistant for the entire Chinese population — everyday health problems first, with China's high-burden conditions (地贫, G6PD, 鼻咽癌, 乙肝, 乳糖不耐受, 登革热, 南方省份尤为高发) as an additional layer. Answers structure: 可能的原因 → 相似情况/常见病例 → 家庭护理 → 何时就医. Go module `github.com/doctor-agent` (Go 1.27), pluggable LLM (Anthropic/DeepSeek/OpenAI-compat: Zhipu/Qwen/豆包) + embedded JSON knowledge base.
+循证医学 (evidence-based medicine) AI assistant for the entire Chinese population — everyday health problems first, with China's high-burden conditions (地贫, G6PD, 鼻咽癌, 乙肝, 乳糖不耐受, 登革热, 南方省份尤为高发) as an additional layer. Answers structure: 可能的原因 → 相似情况/常见病例 → 家庭护理 → 何时就医. Go module `github.com/doctor-agent` (Go 1.27), pluggable LLM (Anthropic/DeepSeek/OpenAI-compat: Zhipu/Qwen/豆包) + external MariaDB knowledge base (no embedded data; Qdrant for vectors).
 
 ## Project
 
-- **Entry point**: root `main.go` (package `main` at module root) — NOT `./cmd/doctor-agent`. Subcommands: `chat`, `serve`, `verify-knowledge`, `version`, `seed-knowledge`.
+- **Entry point**: root `main.go` (package `main` at module root) — NOT `./cmd/doctor-agent`. Subcommands: *(no args)* = web mode, `chat`, `serve`, `verify-knowledge`, `sync-knowledge`, `seed-knowledge`, `vector-bake`, `version`. Extra standalone commands: `./cmd/vector-bake` (image bake, no business DB), `./cmd/kbseed` (gz → MariaDB seeding for dev/CI).
 - Stack: stdlib `net/http` server, `log/slog` logging, `github.com/anthropics/anthropic-sdk-go` (Claude), `github.com/qdrant/go-client` (optional vector retrieval). No external logger/framework.
 - Config: env vars (see `.env.example`); `main.go` `loadDotenv()` loads `.env` if present; `internal/config.Load()` applies defaults.
 - Domain content is Chinese; code identifiers/comments are English.
@@ -15,20 +15,22 @@
 go build ./...                                   # compiles (verified)
 go build -o bin/doctor-agent .                   # correct binary build
 go vet ./...                                     # passes
-go test ./...                                    # passes (agent, server, session, config, safety, knowledge, llm, evals)
+go test ./...                                    # DB-free packages pass; server/knowledge/session tests need a local MariaDB (`MARIA_DB_*`) — without it they fail with "connection refused" (environment, not code). Measured 2026-09-20 with DB down: 57 failures in 7 packages, 10 packages ok. CI's test job has no mariadb service → same failures there.
 go run . chat                                    # interactive CLI (streaming output; needs API key)
-go run . serve                                   # HTTP on 0.0.0.0:8080 (/health, /chat, /chat/stream real SSE)
+go run . serve                                   # HTTP on 0.0.0.0:7071 (landing `/`, chat UI `/app`, `/health`, `/chat`, `/chat/stream` real SSE, `/admin*`)
 go run . verify-knowledge                        # knowledge-base integrity check (DOI/PMID format, uniqueness, traceability, version)
 go run . verify-knowledge -urls                 # also probe citation URL liveness (online, slow)
 go run . seed-knowledge                         # build knowledge store (MariaDB) from internal/knowledge/gz/*.json.*z*
 go run . seed-knowledge --db='root:pass@tcp(localhost:3306)/doctor_knowledge?parseTime=true' --src=internal/knowledge/gz
 go run ./cmd/vector-bake                      # offline gz -> Qdrant bake (RAG data image; no MariaDB needed)
-go run ./evals                                  # offline eval on sample_answers.json (26-question golden set)
-go run ./evals -online                          # online eval: runs real agent per question (needs API key; slow)
+go run ./evals                                  # offline eval: scores every question in evals/questions.json (77) against sample_answers.json (57 answers → 57/77 by construction)
+go run ./evals -online                          # online eval: runs real agent per question (needs API key; slow) — also -questions evals/questions_cmb.json / questions_cmexam.json / questions_en.json
 go run ./evals -answers my.json -report out.json # eval custom answers + JSON report; exit 1 on any failure (CI-friendly)
-./build.sh [app|qdrant|full]                       # 唯一打包入口: 构建+推送镜像到阿里云
-golangci-lint run ./...                            # lint (v2.13.0; .golangci.yml is v2 format, same version in CI; v2.13.0+ required for Go 1.27 compat)
-python3 external/make_gz.py                        # regenerate internal/knowledge/gz/*.json.zst after editing data/*.json
+./build.sh [app|qdrant|embed|kb|full]                # 唯一打包入口: 构建+推送镜像到阿里云
+golangci-lint run ./...                            # lint — local v2.12.2 binary CANNOT run under Go 1.27; use: go run github.com/golangci/golangci-lint/v2/cmd/golangci-lint@v2.13.0 run ./... (same version CI pins; .golangci.yml is v2 format)
+python3 external/make_gz.py                        # regenerate internal/knowledge/gz/*.json.zst after editing data/*.json (auto-merges .partNNN splits)
+python3 external/split_data.py split <name.json>   # GitHub 单文件 100MiB 硬限：把超限种子源切成 .partNNN + .parts 清单提交（默认 --max-mib 90）
+python3 external/split_data.py merge|verify|status # merge 还原整文件（逐片+整体 sha256 校验）；verify 查分片完整性
 ```
 
 ⚠️ Makefile was removed 2026-08-30 (local-dev targets folded into plain go/lint commands above; Docker packaging lives solely in `./build.sh`).
@@ -42,14 +44,14 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
 - `internal/agent` — orchestrator `Agent`; builds provider-agnostic messages, dispatches tools, applies safety layers.
 - `internal/knowledge` — **database-backed (no embedded data)**: the compiled binary contains ONLY logic. Every dataset lives in an external **MariaDB** knowledge store (`doctor_knowledge` database; DSN via `MARIA_DB_*` env or explicit `KNOWLEDGE_DB_DSN`). `kb.go` is the `KB` layer (`kb_items(id, dataset, key, data MEDIUMBLOB)` + `InsertBatch`/`All`/`Search`/`Clear`; upsert via `INSERT ... ON DUPLICATE KEY UPDATE`; `data` column gzip-compressed); `loader.go` `Store` is a sync.Once singleton whose `ensureXxx()` methods load a dataset **lazily from the DB on first use** and cache it in RWMutex-guarded maps (runtime retrieval = "检索时直接查库"; cold read hits MariaDB, warm read cached). `seed.go` `Seed()` reads `gz/` archives (`.json.gz` legacy gzip / `.json.zst` zstd-19, auto-detected by magic bytes) and bulk-inserts rows (`seed-knowledge` CLI). Source JSONs in `data/` are zstd-compressed (level 19) into `gz/` by `external/make_gz.py` (~38% smaller than the old gzip-9); LFS-pointer sources are skipped. Go loaders read both formats via magic-byte detection (`internal/knowledge/archive.go`). `Retriever` interface with `retriever_keyword` (BM25 + CJK substring/bigram matching), `vector_store.go` (Qdrant vector storage + retrieval), `retriever_vector.go` (semantic search via embeddings), `retriever_hybrid` (RRF fusion); `CitationFormatter`, schemas in `schemas.go`. `verify.go` also hosts `CheckURLLiveness` (probes citation URLs).
 - `internal/llm` — `LLMProvider` interface (`Chat`, `StreamChat(ctx, messages, tools, systemPrompt, onDelta)`, `Name()`); `anthropic_provider.go` (NewStreaming), `deepseek_provider.go` + `openai_compat_provider.go` sharing `openai_stream.go` (SSE parsing + tool-call fragment accumulation); provider-agnostic `Message`/`ToolDefinition`/`ToolCall`; **multimodal support** (`ContentPart`/`ImageInput` for medical image analysis).
-- `internal/tools` — `Tool` interface (`Name/Description/Schema/Execute` → `*ToolResult{Success, Data, Error, Citations}`) + `Registry` (mutex, insertion-ordered). 14 active tools: drug_safety_check, genetic_risk_calculator, food_risk_analyzer, symptom_triage, drug_interaction_check, drug_label_lookup, knowledge_search (unified retrieval), exact_lookup, medical_kg_lookup, cpubmed_kg_lookup, lab_report_analyze, visit_prep, medical_image_analyze. Other retired tools (reference_lookup, literature_search, msd_search, variant_lookup, medline_search, drug_lookup, eml_lookup, nhc_search, fhs_search, aap_search, lab_interpreter, icd10_lookup, nmpa_drug_lookup, disease_encyclopedia_lookup, huatuo_qa_lookup, body_part_lookup, etc.) are integrated into knowledge_search.
+- `internal/tools` — `Tool` interface (`Name/Description/Schema/Execute` → `*ToolResult{Success, Data, Error, Citations}`) + `Registry` (mutex, insertion-ordered). 13 active tools (agent.go `New` registrations, verified 2026-09-20): drug_safety_check, genetic_risk_calculator, food_risk_analyzer, symptom_triage, drug_interaction_check, drug_label_lookup, knowledge_search (unified retrieval), exact_lookup, medical_kg_lookup, cpubmed_kg_lookup, lab_report_analyze, visit_prep, medical_image_analyze. Other retired tools (reference_lookup, literature_search, msd_search, medline_search, drug_lookup, eml_lookup, nhc_search, fhs_search, aap_search, lab_interpreter, icd10_lookup, nmpa_drug_lookup, disease_encyclopedia_lookup, huatuo_qa_lookup, body_part_lookup, variant_lookup, growth_assessment, milestone_lookup, newborn_care_lookup, etc.) are integrated into knowledge_search / exact_lookup.
 - `internal/safety` — `EmergencyDetector`, `ScopeGuard`, `PostVerifier` (citation realness + optional LLM-as-judge claim-support check via `POST_VERIFY_SEMANTIC`), `DisclaimerService`.
 - `internal/knowledge` — also hosts `verify.go` (`VerifyData` integrity report, `ReportText`) and `BuildCitedSources` (flat citation-number → source map for post-verification).
-- `evals/` — anti-hallucination golden set (`questions.json`, 26 questions) + `main.go` CLI (offline/online modes, keyword/refusal/citation/must-not checks). Add new questions here; run before changing prompts or knowledge data.
-- `internal/prompt` — `Composer` assembling the 5-layer system prompt; `BuildPatientContext`.
-- `internal/server` — stdlib HTTP server: `/health`, `/chat`, `/chat/stream` (real token-level SSE: `delta`/`done`/`error` events), `/feedback` (user rating endpoint), middleware chain: CORS allowlist (`CORS_ORIGINS`) → OPTIONS → rate limit (`RATE_LIMIT`, per-IP fixed window) → Bearer auth (`API_KEY`, `/health` exempt) → slog logging.
+- `evals/` — anti-hallucination golden sets + `main.go` CLI (offline/online modes, keyword/refusal/citation/must-not checks): `questions.json` (77 zh questions — 57 with sample answers in `sample_answers.json`, the 20 `consumer-*`/`redflag-*` have none yet), `questions_en.json` (MedQA+PubMedQA 299), `questions_cmb.json` / `questions_cmexam.json` (200 zh MCQs each, online-mode via `ExpectedOption`). Add new questions here; run before changing prompts or knowledge data.
+- `internal/prompt` — `Composer` assembling the layered system prompt (9 static layers: 0 ethics / 1 clinical reasoning / 2 genetics / 3 environment-diet / 3.5 everyday health / 3.55 colloquial↔clinical terms / 3.75 formatting / 3.8 dual output / 4 safety) + dynamic knowledge injection; `BuildPatientContext`.
+- `internal/server` — stdlib HTTP server (default `:7071`, `SERVER_HOST`/`SERVER_PORT`). Routes: public pages `/` (landing.html), `/map`, `/stats`, `/robots.txt`, `/sitemap.xml`, `/llms.txt`; chat UI `/app` (web/index.html) + lazy static JS (`/mermaid.min.js`, `/three.min.js`, `/anatomy*.js`, `/qrcode.min.js`), `/favicon.ico`, `/media/*`; `GET /health` and `POST /chat`, `POST /chat/stream` (real token-level SSE: `delta`/`done`/`error`), `POST /feedback`; DB-backed `/sessions*`, `/family*`, `/share*` (registered only when the MariaDB business store exists); and a large `/admin/*` surface (users, sessions, knowledge incl. stats/versions/export, sync + sync/status, feedback, audit-logs, config, api-stats, analytics, batch, export, plus the Basic-auth `/admin` console page). Middleware order: CORS headers → OPTIONS short-circuit → rate limit (`RATE_LIMIT`, per-IP fixed window) → Bearer auth (`API_KEY`) → slog logging; only `publicPaths` (the three marketing pages, `/health`, crawler files) skip limit+auth, so with `API_KEY` set even `/app` returns 401 — the web UI is effectively a no-auth/behind-proxy deployment mode.
 - `internal/session` — conversation history as `[]llm.Message` (provider-agnostic) + patient context (`@region`, `@g6pd`, `@thal` CLI commands); `FileStore` persists JSON snapshots to `SESSION_DIR`.
-- `internal/dialogue` — multi-turn dialogue state management: `IntentRecognizer` (keyword-based intent classification), `DialogueState` (state machine with slots for symptom/drug/body part), `Manager` (session-aware dialogue flow control).
+
 - `internal/database` — MariaDB database layer (`go-sql-driver/mysql`, pure Go, no CGO); tables: users, sessions, messages, feedback (database `doctor_agent`).
 - `internal/auth` — user authentication service (admin-only user creation/login/token); SHA256+salt password hashing; `AdminCreateUser` for admin-only user management.
 - `internal/embedding` — OpenAI-compatible embedding provider for semantic search.
@@ -63,7 +65,8 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
 - Tools: JSON-schema `Schema()` (snake_case keys), `Execute` returns `ToolResult` — never returns raw data without `Success`/`Citations`.
 - Config changes: add to `config.Config` + `Load()` + `.env.example` + `printUsage()` in `main.go`.
 - New knowledge: add JSON to `internal/knowledge/data/` AND register its filename in `knowledge/seed.go` `seedFile()` switch (classify → dataset + rows), or it is silently ignored. Then run `python3 external/make_gz.py` to regenerate the compressed `gz/` copies, then `go run . seed-knowledge` to seed the MariaDB knowledge store. Ensure a matching lazy loader exists: add an `ensureXxx()` + `loadXxx()` pair in `loader.go` and a getter that calls `ensureXxx()` so runtime retrieval populates it from MariaDB. Update `data/version.json` sources on data changes.
-- Unified corpus pipeline (2026-09-07): prose sources should now go through `external/medkb/` (`python3 -m medkb fetch|convert|validate|stats <source>`) and emit the shared **CorpusDoc** format (`corpus_<source>.json` → dataset `corpus`). Files named `corpus_*.json` are auto-classified by the `seedFile` prefix branch — **zero Go changes for a new prose source**; expose it via `knowledge_search` by adding one case + enum strings. Structured lookup tables (like `icd11_terms.json`) still need an `exact_lookup` case. CorpusDoc fields are mirrored between `internal/knowledge/corpus.go` and `external/medkb/schema.py` — keep both in sync.
+- Oversized seed sources: GitHub rejects any blob over 100 MiB (and once it is in history, every later push fails until you rewrite history). If a `data/*.json` grows past it, run `python3 external/split_data.py split <name.json>` (≤90 MiB parts + `.parts` manifest), `.gitignore` the whole file, and commit the parts — `make_gz.py` reassembles them automatically.
+- Unified corpus pipeline (2026-09-07): prose sources should now go through `external/medkb/` (`python3 -m medkb fetch|convert|validate|stats <source>`) and emit the shared **CorpusDoc** format (`corpus_<source>.json` → dataset `corpus`). Files named `corpus_*.json` are auto-classified by the `seedFile` prefix branch — **zero Go changes for a new prose source**; expose it via `knowledge_search` by adding one case + enum strings. Structured lookup tables (like `icd11_terms.json`) still need an `exact_lookup` case (as of 2026-09-20 the tool exposes 12 types: icd10/icd11/hpo/nmpa/variant/eml/fda_label/ttd/sider/medins/orphanet/icdo3; `knowledge_search` corpus datasets include nhc_mental/firstaid/travel_health). CorpusDoc fields are mirrored between `internal/knowledge/corpus.go` and `external/medkb/schema.py` — keep both in sync.
 - Unified prose scorer (2026-09-07): `scoreProse()` in `retriever_corpus.go` is the single scoring family for CJK prose corpora — `scoreMSD`/`scoreNHC`/`scoreFHS` are thin legacy wrappers over it (two-zone title+20/body+8), `scoreCorpus` adds the summary middle zone (+10/+6), zh→en phrases, exact-title bonus and Latin full-query via `proseScoreOpts`. **Do not copy-paste the window/latin scoring loop into new corpus retrievers — call `scoreProse`.** English prose (AAP/MedlinePlus) unified as `scoreEnglish()` (phrase 15/5 + word 4/1); `literature` keeps its own topic-routing + 3/1 article scoring by design. QA pairs (huatuo_qa/medical_qa) share `tools/qa_score.go scoreQAPair` (disease="" = medical_qa semantics). body_part/milestone/newborn_care are structured lookups, intentionally not score-based. `knowledge_search` auto-dispatches ICD-code-shaped queries (icd10/icd11 regex → exact stores, incl. national-clinical 6-digit prefix fallback like J45.9→J45.900) before the dataset switch.
 - Retrieval gotcha: `tokenize()` does NOT segment Chinese — CJK recall depends on substring + bigram matching against keywords/symptom fields in `retriever_keyword.go`. Symptom-style questions ("我一喝牛奶就拉肚子") now recall correctly (probe: 12/12); keep new entries' `keywords` in Chinese symptom vocabulary.
 - Institutional publications (WHO/IARC/NCCN/中国指南) have no DOI/PMID by design — leave their `journal` empty so `verify-knowledge` doesn't flag them as untraceable journal articles.
@@ -72,12 +75,15 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
 ## Notes
 
 - (add quick notes here — e.g. decisions, gotchas, future work)
+- **internal/dialogue 已删除 (2026-09-20)**: 规则式意图分类/槽位状态机包自始零引用（死代码），职责由实际生产路径覆盖——追问澄清=`agent.needsClarification`+提示词、跨轮上下文=`session.PatientContext`+`buildContextualQuery`、查询分类路由=`tools.Router.ClassifyKG`（`internal/tools/router.go`）、紧急识别=`safety.EmergencyDetector`。如未来需要免 LLM 廉价前置路由再重写，勿从 git 恢复旧实现。
+- **medical_terminology_2024.json 已并入生产层 (2026-09-20)**: 原 `data/` 里未注册的 32 条资源清单移到 `external/`（作管线输入，不再放 data/ 防 make_gz 产生孤儿 zst），由 `external/convert_medical_terminology.py` 一拆为二: ① 8 组同义词表经人工整理（剔除 胸痛/肺气肿/认知障碍 等误归项）合并进 `internal/knowledge/alias_map.json`（//go:embed，ExpandQuery 即时生效，重跑幂等）; ② 20 条 2024-2025 指南元数据 + 4 条术语标准（UMLS/SNOMED/MeSH/CMeSH）追加进 `data/public_resources.json`（+22 行，高血压/糖尿病 2 条与既有行同名被去重），经 `RetrievePublicResources`/`knowledge_search dataset=public_resources` 检索，零 Go 改动; 术语标准归入新 category "术语标准"。**坑: 医脉通聚合站多条指南共享裸目录 URL（`guide.medlive.cn/guide/` 等），去重只认源文件内唯一 URL**。生效需 `python3 external/make_gz.py && go run . seed-knowledge`（public_resources 走 MariaDB；alias 部分无需）。
+- **结构化查找库扩充 + medkb 三新源 + CMB 评测集 (2026-09-20)**: ① `exact_lookup` 新增 type `hpo`(HPO 表型本体 19,836 条, `data/hpo_terms.json`, `external/convert_hpo.py`)、`orphanet`(Orphanet 罕见病 11,647 种含中英名+ICD-10/11 映射, `data/orphanet_diseases.json`)、`icdo3`(ICD-O-3 形态学编码 1,077 条 8000/0-9992/3, PDF 解析 `external/convert_icdo3.py`)——全部走 DS常量→corpus.go 结构→seed.go case→loader.go ensureXxx+SearchXxx 评分(代码12/中文精确10/包含8/英文6/同义5/ICD映射4)→exact_lookup case→`vectorSkipDatasets` 同一模式; hpo/icdo3 中文名为磁盘缓存 LLM 翻译(`external/hpo/zh_cache.json` 13,320 条 / `external/icdo3/zh_cache.json` 550 条)，**Ark 免费额度 429 时可重跑 convert 脚本增量补齐**(convert_hpo.py 已改为跳过失败批次不退出)。② 医保目录更新 2025 版 3,618 条(`medins_drugs.json`); 源芯医患对话 CSV 并入 `medical_qa_pairs.json`(与 huatuo 同款 `scoreQAPair` 层)。③ medkb 新增 3 个中文 prose 源(零 Go 改动，`knowledge_search` dataset 枚举加名即可): `nhc_mental`(卫健委《精神障碍诊疗规范 2020》96 节，**坑: 章下无节的章节(双相/抑郁)必须让章标题也开文档否则丢 2 篇; 24KB 截断须按字节回退**)、`firstaid`(红十字急救手册 21 篇)、`travel_health`(WHO 黄热病旅行要求 193 国，**坑: 无区域标题、以"黄热病（YYYY）"整行为国家锚点**)。raw PDF 存 `external/<source>/raw/`。④ CPTB 源确认不可公开获取，改用 FreedomIntelligence CMB: `external/convert_cmb.py`(单选 9,999 题按 exam_subject 分层抽样 seed42, -n 200) → `evals/questions_cmb.json`(用 `ExpectedOption` 字母判分，在线模式)。另备 OpenAI CMExam: `external/convert_cmexam.py`(test_with_annotations.csv 6,811 题中单选 6,606 可用, 按 Area of Competency 5 域分层抽样 seed42 -n 200) → `evals/questions_cmexam.json`(同款 ExpectedOption 判分; 原始 CSV 存 `external/cmtb/cmexam/` 含 学科/难度/疾病域标注可扩充)。⑤ 回归门: `internal/knowledge/wire_new_datasets_smoke_test.go`(离线校验 seed 分类+结构反序列化+主键唯一，无需 MariaDB)。**已知: `go run ./evals` 离线现为 57/77——20 个 `consumer-*`/`redflag-*` 题在 HEAD 就无样例答案(预先存在缺口，非本轮回归)**；有样例的 57 题全过。
 - **统一语料管线 medkb + 4 新源 (2026-09-07)**: `external/medkb/` Python 包（`python3 -m medkb fetch|convert|validate|stats <source|all>`，共享 http 重试/缓存、schema 校验、glm 客户端预留）。统一格式 **CorpusDoc**（`internal/knowledge/corpus.go` ↔ `external/medkb/schema.py` 双侧同步），`corpus_<source>.json` → dataset `corpus`（seedFile 前缀分支，新 prose 源零 Go 改动）。新源: ① MedlinePlus Genetics 2830 条（`ghr-summaries.xml` 单文件汇总，公有领域）② LactMed 哺乳期用药（LitArch tar.gz 直链两步发现：书页 grep litarch 目录 → 列表取 *.tar.gz；JATS 解析；内置 110 常用药 zh 映射补 title_zh/keywords）③ StatPearls 英文专业全书（同 LactMed 管线；**坑: NCBI FTP 16 并发范围请求触发 503 "Service unavailable"（997 字节错误页），≤6 并发 + curl -f + 分片大小校验续传可过**）④ WHO ICD-11 MMS 2025-01 中文 35339 编码条目（`icdcdn.who.int/static/releasefiles/<release>/SimpleTabulation-ICD-11-MMS-zh.zip` + `mapping.zip` 11→10 映射；`exact_lookup type=icd11`，代码前缀/中英子串检索）。检索: `retriever_corpus.go`（scoreCorpus：title/summary/body 分区加权 + `corpusSynonyms` zh→en 词表桥接，如 布洛芬→ibuprofen）；`knowledge_search` 新 dataset `statpearls|medgen|lactmed`。向量烘焙: DSCorpus/DSICD11 加入 `vectorSkipDatasets`（关键词全文层够用，控 Qdrant 体积）。
 - **四方向权威知识扩充 (2026-09-04)**: +62 KnowledgeEntry (medical 数据集: `elderly_care.json` 34 老年护理 / `gyn_health.json` 23 妇科 / `ortho_child_health.json` 5 孤独症筛查) + nhc_guides +5 篇传染病诊疗方案 (麻疹/登革热/禽流感 2024、手足口 2018、狂犬病暴露处置 2023; 44→ total). 全部走 cdc_entries 同款路线: 短条目 seed 进 `DSMedical` (`seed.go` seedFile 加 3 case), 零新工具/检索层; 诊疗方案全文并入 `nhc_search`. 管线: `external/fetch_{elderly,gyn,child_health,id_guidelines}.py` + `structurize_{elderly,gyn,child}.py` (glm-4-flash; 注意 `response_format:json_object` 对个别文档服务端挂起→500, 去 json_object 纯文本解析即可) + `postprocess_health_json.py` (keywords 顿号串拆分 / treatment name→method 字段映射 / EXTRA 表注入口语词与原文核实参数 — **宫颈癌筛查间隔数字因来源冲突未入库, 只保留 35-64 周岁**). 腰椎间盘突出: 官方全文不可公开获取, 由 MSD 中文层覆盖. evals 57 题 (+11).
 - **Knowledge base in MariaDB (2026-08-24)**: all `//go:embed` knowledge JSON removed; data lives in **MariaDB** (`doctor_knowledge` database; DSN via `MARIA_DB_*` env or `KNOWLEDGE_DB_DSN`), seeded by `go run . seed-knowledge` from `gz/` archives (zstd, magic-byte-detected). Binary dropped 95MB→43MB and contains only logic. Loading is **lazy per dataset** at retrieval time (`Store.ensureXxx()` → MariaDB read → in-memory cache). `config.KnowledgeDBDSN()` composes the DSN from `MARIA_DB_*` (an explicit `KNOWLEDGE_DB_DSN` env overrides). Storage: `kb_items(id, dataset, key, data MEDIUMBLOB)` with gzip-compressed `data` (magic-byte check allows back-compat reads); upsert via `INSERT ... ON DUPLICATE KEY UPDATE`. The `search_text` column was dropped and rebuilt in Go inside `KB.Search` (only the optional vector-retrieval candidate path uses it). Business store (users/sessions/messages/feedback) is also MariaDB (`doctor_agent` database, `config.AppDBDSN()`). Docker Compose bundles a `mariadb` service alongside Qdrant and the app.
 - **Vector retrieval 默认开启 + 本地无模型 embedding (2026-08-24)**: `VECTOR_STORE_ENABLED`/`EMBEDDING_ENABLED` 默认值改为 `true`。检索在 `agent.New` 中默认构建 **HybridRetriever**(keyword + vector, RRF 融合, vectorWeight=0.4)。向量库仍用 Qdrant(`internal/knowledge/vector_store.go`, `NewVectorStore` 改为**懒连接**——创建时不 ping,`EnsureCollection` 由 syncer 在 `FullSync`/`IncrementalSync` 前调用,故启动不阻塞;Qdrant 不可达时 `VectorRetriever.Retrieve` 报错 → `HybridRetriever` 自动降级为关键词检索,无报错)。embedding 必须配置 `EMBEDDING_BASE_URL`（`embedding.NewDefault`，无任何离线回退）：查询端模型必须与 Qdrant 烘焙向量同模型（bge-m3），未配置时 `agent.New` 打 warn 并降级为 keyword-only 检索，`sync-knowledge` / `vector-bake` 直接报错退出。**激活向量召回需手动跑一次 `go run . sync-knowledge`**(需 EMBEDDING_BASE_URL 指向 bge-m3 服务;首次为空集合时向量腿返回空,检索退化为关键词)。server.go:712 与 main.go:462 的 sync 路径已改用 `embedding.NewDefault`。
-- ✅ Fixed: `Makefile`/`README.md` stale `cmd/doctor-agent` path (2026-08-09) — both now use root `main.go`; `make build/chat/serve/verify-knowledge` work again.
-- `verify-knowledge` now passes clean (0 warnings): 50 medical entries, 90 citations (28 DOI + 7 PMID + 40 WHO URL; DOI/PMID traceability 35.6%).
+- ✅ Fixed: `README.md` stale `cmd/doctor-agent` path (2026-08-09) — docs use root `main.go` (`go build -o bin/doctor-agent .`). The `Makefile` itself was removed 2026-08-30, so **no `make` target exists anymore**; ignore older notes that mention `make build/lint/gz`.
+- `verify-knowledge` 需本地 MariaDB（`knowledge.Load()` 会 ensure 库连接，无库直接 `connection refused` 退出）。最近一次离线快照（2026-08-09，仅逻辑变更前的数字）为 0 warnings / 90 citations (28 DOI + 7 PMID + 40 WHO URL)；**medical 条目现为 423 条**（见 `seed.go` `DSMedical` 分支 27 个文件之和），旧快照的"50 条"已过时。
 - Hallucination guard: when retrieval returns nothing, `prompt.NoKnowledgeGuidance` is injected — the model must state the KB doesn't cover the topic and steer (ask follow-up / advise clinic) instead of improvising.
 - Semantic verification (`POST_VERIFY_SEMANTIC`) now **defaults to false** (2026-08-09) — set `true` or `POST_VERIFY_JUDGE_MODEL` to a cheap model to re-enable; it roughly doubles LLM cost per response.
 - Known honest gap: ~~no true baseline from `go run ./evals -online` yet~~ **baseline established 2026-08-08**: 中文 36 题通过率 72.2%(26/36,拒答 7/7 正确),模型 = Zhipu glm-4-flash(免费)经 `LLM_PROVIDER=openai-compat`。英文 299 题与 Claude 基线未跑(需 ANTHROPIC_API_KEY;glm-4-flash 约 1 题/30s)。**离线样例回归补齐 (2026-09-07)**: sample_answers.json 补齐 2026-09-04 新增 21 题的样例答案(57 题全有),离线评测 `go run ./evals` 57/57 通过 — 此后改检索/提示词可用离线评测做回归门(注意: 离线检的是样例答案文本,不是真实检索质量;在线基线仍待跑)。
@@ -92,7 +98,7 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
   4. `aap_articles.json` — 美国儿科学会 healthychildren.org 育儿百科 264 页英文全文检索层，`aap_search` 工具（第 16 个）。sitemap.xml 是 **UTF-16** 编码（解析坑）；正文 `#mainContent` 从 "Page Content" 后截断。`fetch_aap.py`（sitemap URL 过滤 ages-stages 等 5 个板块）+ `convert_aap.py`。检索仿 medlineplus（英文 token）。
   ⚠️ 三份知识库共用 `cjkWindows`/`nhcSynonyms`/`scoreNHC` 模式——新增中文全文检索层照抄 retriever_nhc.go 即可。
 - **WHO 疫苗立场文件 (2026-08-08)**: `internal/knowledge/data/who_vaccines.json` — 12 条疫苗 position papers(狂犬病 2018/乙脑 2015/HPV 2017/乙肝 2017/登革热 2018/流感 2022 中文/伤寒 2018/霍乱 2017/破伤风 2017/轮状 2021/麻疹 2017/肺炎球菌 2019),category="vaccine",evidence=international_guideline,URL 引用(journal 留空防 verify 误报)。管线: `external/fetch_position_papers.py`(IRIS DSpace API:搜索→取 ORIGINAL/TEXT bitstream;注意整期 WER 为英法双语、多语言版本是独立条目、bitstream 可能错配→必须验证内容含疫苗名)→ pypdf 提取(`PYTHONPATH=$PWD/.cache/pylibs`;TEXT bundle 的 .txt 有时不可靠,PDF 提取更稳)→ `external/structurize_pp.py`(LLM 结构化;`extract_section` 对整期文本按 "position paper"/疫苗名定位截取,避免截到其他文章)。
-- **MSD 默沙东诊疗手册中文版 (2026-08-08)**: `internal/knowledge/data/msd_manual.json` — 大众版+专业版全文检索层(6086 页,43.6MB)。`msd_search` 工具(第 9 个)。检索 `RetrieveMSD`(retriever_msd.go):完整中文查询词标题匹配 +20 优先,3+ 字窗口次之,2 字窗口弱信号;Latin token(G6PD/HPV)大小写不敏感。管线: `external/fetch_msd.py [home|professional]`(zh sitemap 过滤 4 段正文页,排除 multimedia/resources;source 字段区分版本)→ `external/merge_msd.py` 合并嵌入。注意:MSD 是百科式全文(非 KnowledgeEntry),独立检索层;页面含"完整评审/上次更新"元数据。
+- **MSD 默沙东诊疗手册中文版 (2026-08-08)**: `internal/knowledge/data/msd_manual.json` — 大众版+专业版全文检索层(6,127 页,43.6MB)。`msd_search` 工具(第 9 个)。检索 `RetrieveMSD`(retriever_msd.go):完整中文查询词标题匹配 +20 优先,3+ 字窗口次之,2 字窗口弱信号;Latin token(G6PD/HPV)大小写不敏感。管线: `external/fetch_msd.py [home|professional]`(zh sitemap 过滤 4 段正文页,排除 multimedia/resources;source 字段区分版本)→ `external/merge_msd.py` 合并嵌入。注意:MSD 是百科式全文(非 KnowledgeEntry),独立检索层;页面含"完整评审/上次更新"元数据。
 - **WHO 基本药物清单 (2026-08-09)**: `internal/knowledge/data/who_eml.json` — WHO EML 第24版(2025) 564 种药物(core 441/complementary 123)，含剂型规格与一线/二线适应症。`eml_lookup` 工具(第 12 个)。解析管线 `external/parse_eml.py`(PDF 提取文本→结构化；坑: PDF 丢失缩进→需把顶格剂型行并入当前条目、private-use 方块符 \uf06f 需清除、子标题正则必须 `\.?` 以匹配 `6.2.1 Access`)。检索 `RetrieveEMLDrug`(retriever_eml.go):中文名经内置 ~200 常用药别名表映射到 INN，英文精确/子串匹配。`name_zh` 全量 LLM 翻译待办(需 API key，检索已可用)。
 - **ClinVar 基因变异库 (2026-08-08)**: `internal/knowledge/data/clinvar.json` — 地贫/G6PD 核心基因(HBB/HBA1/HBA2/G6PD)的致病及可能致病变异 1399 条(376KB)。`variant_lookup` 工具(第 10 个)。检索 `RetrieveClinVar`(retriever_clinvar.go):cDNA 变异名(c.79G>A)精确 +10、基因符号/中文别名(HBB/β地中海贫血)+4~5、trait 疾病名 +3。管线: `external/fetch_clinvar.py`(NCBI E-Utilities:esearch 按基因→esummary 批量;注意 esummary 批量对 6 位旧 id/结构变异返回空,已含重试;缺失 200 条为 CNV/大片缺失,非点突变)。缓存 `external/clinvar/{gene}.json` 幂等。
 - **English eval set (2026-08-08)**: `evals/questions_en.json` (MedQA 200 + PubMedQA 99, generated by `external/convert_evalsets.py`). evals now support `Question.ExpectedOption` (A-D / yes-no-maybe); English MCQ/PubMedQA categories skip the `[N]` citation requirement. Run: `go run ./evals -questions evals/questions_en.json`.
@@ -106,54 +112,105 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
   gomodcache"`, `PYTHONPATH="$PWD/.cache/pylibs"`. `external/go.mod` makes
   `external/` a nested module boundary so `./...` patterns skip it (otherwise
   golangci-lint/go list fail with "directory ... outside main module").
-- **Built-in web chat UI (2026-08-09)**: `internal/server/web/index.html` (single-file HTML+CSS+JS, embedded via `//go:embed`, zero deps/offline). `GET /` serves it; binary with **no args defaults to web mode** (`startWebUI` → serve + one-time key setup, prints "打开 http://localhost:8080"). UI: chat bubbles + SSE streaming (`/chat/stream` delta/done/error), localStorage conversation persistence, "新对话" button, example question chips, mobile responsive, minimal inline Markdown renderer (bold/lists/headings/blockquote). `/` and `/health` are exempt from auth/rate-limit; API paths stay gated. Server test `TestWebUIServed` covers it.
+- **Built-in web UI (2026-08-09, multi-page since)**: `internal/server/web/` holds separately `//go:embed`-ed single-file pages (zero deps/offline): `landing.html` (`GET /` 营销落地页), `index.html` (`GET /app` 咨询台聊天 UI), `map.html` (`/map`), `stats.html` (`/stats`), `share.html` (`/share/{token}`), `admin.html` (`/admin` 控制台), `export_pdf.html` (embedded but currently unreferenced), plus `shared/*.css` and lazy JS (`mermaid.min.js`, `three.min.js`, `anatomy.js`, `anatomy-anim.js`, `qrcode.min.js`, `favicon.ico`). Binary with **no args defaults to web mode** (`startWebUI` → serve + one-time key setup, prints "打开 http://localhost:7071 (落地页) / http://localhost:7071/app (咨询台)"). Chat UI: SSE streaming (`/chat/stream` delta/done/error), server-side sessions (`/sessions*`) with localStorage member fallback, 家庭成员档案 (`/family*`), elder mode toggle, sidebar, inline Markdown + mermaid rendering, 3D anatomy widget. Auth: `publicPaths` = `/`, `/index.html`, `/map`, `/stats`, `/health`, `/robots.txt`, `/sitemap.xml`, `/llms.txt`; **everything else (incl. `/app`) is behind `API_KEY` when set** — the web UI assumes no API_KEY or auth terminated at the reverse proxy. Note: `internal/server/web/landing.html.bak` is a tracked leftover from Initial commit (not embedded, safe to delete). Server tests `TestWebUIServed` etc. cover it.
 - **Zero-config first-run setup (2026-08-09)**: 下载 Release 二进制后双击 `start-chat`（release.yml 每平台附带的一键脚本）即可用。无 API Key 时 `runChat` 触发交互引导（三选一：**智谱 glm-4-flash 免费 / DeepSeek / 豆包(火山方舟)**，火山方舟 `model` 直接用模型名如 `doubao-seed-2-1-pro-260628` 或接入点 ID `ep-xxxx`），把 `LLM_PROVIDER`/key 写入 `~/.doctor-agent/config.env`（0600）。**配置优先级：当前目录 `.env` > 用户主目录 `~/.env`（文件级回退，只用一个）> 全局环境变量 > `~/.doctor-agent/config.env`（最低，仅填空）**。`runServe` 缺 key 时打印指引。用户侧零技术门槛；开发侧一切照旧。
-- **golangci-lint (2026-08-09)**: local install is **v2.12.2** (`/Users/junjunyi/gopath/bin/golangci-lint`); `.golangci.yml` is the v2 format (`version: "2"`, `linters.default: standard`). CI installs the same via `go install github.com/golangci/golangci-lint/v2/cmd/golangci-lint@v2.12.2`. `make lint` passes clean (0 issues); v2 standard set is stricter than v1 (QF1012/QF1003/errcheck) — all fixed.
+- **golangci-lint (updated 2026-09-20)**: `.golangci.yml` is v2 format (`version: "2"`, `linters.default: standard` + `misspell`/`gocritic`, `tests: true`, errcheck excluded only for `_test\.go`). **CI pins `@v2.13.0`; the local install is v2.12.2, which refuses to run under Go 1.27.1** ("Go language version (go1.26) used to build golangci-lint is lower than the targeted Go version"). Run lint locally without touching the installed binary: `go run github.com/golangci/golangci-lint/v2/cmd/golangci-lint@v2.13.0 run ./...`. ⚠️ **Current status (verified 2026-09-20): 64 issues, exit 1** — errcheck 50 / staticcheck 7 / unused 5 / gocritic 2; all 64 sit on lines untouched by the working diff (i.e. pre-existing at HEAD, so the CI lint job is red too). Concentrations: `internal/server/server.go` 14, `admin_api_test.go` 8, `retriever_growth.go` 6, `seed.go` 6, `kb.go` 3. Bulk of errcheck = ignored `defer Close()` + intentional `store.ensureXxx()` lazy-loader calls in `retriever_*.go` (the loader error surfaces as an empty cache, not a returned error) — the cheap fix is an errcheck exclusion/`check-blank` policy in `.golangci.yml` rather than 50 no-op error branches. `unused`: `server.go` `exportPDFTmpl`/`escapeHTML`/`renderMarkdown`/`exportMsg` and `knowledge_search.go searchPublicResources` (dead code from the admin-export/公共资源 features — check intent before deleting).
+- **CI 现状与代码不符 (measured 2026-09-20, `.github/workflows/ci.yml`)**: 三个门当前都会红，别把 CI 绿当回归门。① `Lint` — 64 个 HEAD 遗留问题（见上一条）。② `Test` — job 只跑 `go test ./... -race`，**没有 mariadb service**，7 个依赖知识库的包 57 个用例 `connection refused` 失败（10 个包通过）；要么加 service container，要么把这些用例标记 `-short`/skip。③ `Verify embedded data` 第一步 `pip install gzip` 必然失败（PyPI 无此包；make_gz.py 实际需要 `zstandard`，且 `zstandard` 缺失时会回退到系统 `zstd` CLI）。**修 CI 属独立决策，未与本轮文档修正一起做**。
+- **Git 100MiB 单文件上限与种子分片 (2026-09-20)**: GitHub 直接拒收 >100MiB 的 blob（且历史里一旦有超限 blob，push 永久失败，只能重写历史）。**已分片提交**：`data/medical_qa_pairs.json`(327.0MiB → 4 片 ≤90MiB) 与 `data/huatuo_qa.json`(140.6MiB → 2 片)；整文件已进 `.gitignore`（本地保留，方便继续编辑），仓库真源是 `X.json.partNNN` + `X.json.parts` 清单，`make_gz.py` 在整文件缺失时按清单**在内存里合并**（逐片 sha256 + 整体 sha256 校验），因此全新 clone 也能完整跑 `make_gz → seed-knowledge/vector-bake`。工具用法：`python3 external/split_data.py split <name.json>`（改完数据重新分片）/ `merge`（本地还原整文件）/ `verify`。**同轮修掉 make_gz 的清理 bug**：旧逻辑「源 JSON 不在本地就删对应 gz 产物」在全新 clone 上会删掉 `corpus_statpearls.json.zst`、`huatuo_qa.json.zst`、`medical_qa_pairs.json.zst` 三个**已提交**的种子（CI `Verify embedded data` 因此必红）。现在 `NO_SOURCE_IN_GIT`（目前仅 `corpus_statpearls.json`——它和 `external/statpearls/` 都被忽略，gz 是唯一副本）永不清理；真删一个数据集时，要连 gz 产物一起删。**新增超限数据的规矩**：先 split_data 分片再提交，别指望 LFS（仓库无 `.gitattributes`，且免费 LFS 额度只有 1GB 存储/1GB 月流量）。另：`external/cmb/`(141.6MiB 原始 CMB 包，管线只用 CMB-Exam test split) 与 `external/orphanet/`(约 280MB 原始 XML) 一律忽略。
 - **External knowledge downloads (in progress)**: see `external/DOWNLOAD_PROGRESS.md` for status & resume steps (Europe PMC ✅ 接入, MedlinePlus ✅ 1017/1017 页, WHO ✅ 241/241, HPO ✅ hp-base.obo, evalsets ✅ 接入). Run resumed scripts from repo root.
 - **Optimization batch (2026-08-09)**: 真流式 `/chat/stream`(token 级 SSE) + `StreamChat`(三个 provider); session 类型解耦(不再依赖 anthropic-sdk-go) + JSON 文件持久化(`SESSION_DIR`); server 安全中间件(`API_KEY`/`CORS_ORIGINS`/`RATE_LIMIT`); `POST_VERIFY_SEMANTIC` 默认 false; 补测试(agent/server/session/config, 全量含 race 通过); CI workflow + `.golangci.yml`; 知识库 gzip embed(二进制 95MB→52MB, `make gz`); `verify-knowledge -urls` 引用 URL 可达性检查(发现 4 个 WHO 疫苗链接 404 待修); `cdc_alerts.json` 移出 embed 至 `external/cdc/`(死文件); CLI `clear` 命令 bug 修复。
 - **ICD-10 疾病编码库 + NMPA 药品目录 (2026-08-10)**: `internal/knowledge/data/icd10_diseases.json` — 35,862 种疾病 ICD-10 编码(国家临床版2.0),`nmpa_drugs.json` — 167,615 种药品(164,474 国产 + 3,141 进口,国家药品编码本位码)。数据源: [hint-lab/chinese-medical-kg](https://github.com/hint-lab/chinese-medical-kg) Excel 文件(981KB + 11.9MB + 298KB) → Python 转换 → JSON。`icd10_lookup` 工具(第 17 个):按编码或中文名查询疾病分类。`nmpa_drug_lookup` 工具(第 18 个):按药品名查询 NMPA 批准信息。Go 结构体 `ICD10Disease`/`NMPADrug` 在 `schemas.go`,加载器在 `loader.go`,getter 方法支持并发安全访问。gzip 压缩后嵌入(4.24MB→0.36MB + 20.49MB→1.26MB)。
 - **OpenCMKG 医学知识图谱 (2026-08-10)**: `internal/knowledge/data/medical_kg_triples.json` — 354,752 条医学三元组(疾病-症状-药物-食物-检查-治疗-科室关系)。数据源: [RuiqingDing/OpenCMKG](https://github.com/RuiqingDing/OpenCMKG) triples.txt(19.5MB) → Python 转换 → JSON。`medical_kg_lookup` 工具(第 19 个):查询医学知识图谱,支持 10 种关系类型(disease_has_symptom/disease_recommand_drug/disease_recommand_food/disease_noteat_food/disease_need_check/disease_acompany_disease/disease_eat_food/disease_need_treatment/disease_common_drug/disease_belong_department)。Go 结构体 `MedicalKGTriple` 在 `schemas.go`。gzip 压缩后嵌入(45.49MB→3.29MB)。
 - **MedicalGPT-zh 对话种子 (2026-08-10)**: `internal/knowledge/data/medical_dialogues.json` — 90 条医患对话种子(用药建议/病因分析/病情诊断/治疗方案等 29 类)。数据源: [2132660698/MedicalGPT-zh](https://github.com/2132660698/MedicalGPT-zh) dialogue_seed_task.json(86KB)。Go 结构体 `MedicalDialogue` 在 `schemas.go`。gzip 压缩后嵌入(0.09MB→0.03MB)。
 - **CMeKG 疾病百科 (2026-08-10)**: `internal/knowledge/data/disease_encyclopedias.json` — 8,807 种疾病百科(症状/病因/预防/治疗/药物/食物/并发症/检查/科室/费用等 24 字段)。数据源: [liuhuanyong/QASystemOnMedicalKG](https://github.com/liuhuanyong/QASystemOnMedicalKG) medical.json(45MB NDJSON) → Python 转换 → JSON。`disease_encyclopedia_lookup` 工具(第 21 个):查询疾病百科数据库。Go 结构体 `DiseaseEncyclopedia` 在 `schemas.go`。gzip 压缩后嵌入(58.4MB→4.5MB)。
-- **CPubMed-KG 医学知识图谱 (2026-08-21)**: `internal/knowledge/data/cpubmed_kg.json` — 77,265 条医学三元组(药物治疗 16,366/辅助治疗 15,493/实验室检查 13,069/临床表现 5,518/影像学检查 5,097 等 15+ 关系类型),覆盖 48 种疾病(高血压/糖尿病/冠心病/脑卒中/慢阻肺/慢性肾病/肝硬化/肺癌/抑郁症/癫痫/帕金森病/痛风/贫血/肺炎等)。数据源: CPubMed-KG API (`cpubmed.openi.org.cn`) → Python 抓取。`cpubmed_kg_lookup` 工具(第 22 个):查询 PubMed 文献挖掘的知识三元组。Go 结构体 `CPubMedTriple` 在 `schemas.go`。gzip 压缩后嵌入(6.06MB→1.45MB)。
+- **CPubMed-KG 医学知识图谱 (2026-08-21)**: `internal/knowledge/data/cpubmed_kg.json` — 105,328 条医学三元组(药物治疗 21,829/辅助治疗 19,192/实验室检查 18,404/影像学检查 8,175/临床表现 7,025/手术治疗 6,105 等 15+ 关系类型),覆盖 86 种疾病(高血压/糖尿病/冠心病/脑卒中/慢阻肺/慢性肾病/肝硬化/肺癌/抑郁症/癫痫/帕金森病/痛风/贫血/肺炎等)。数据源: CPubMed-KG API (`cpubmed.openi.org.cn`) → Python 抓取。`cpubmed_kg_lookup` 工具(第 22 个):查询 PubMed 文献挖掘的知识三元组。Go 结构体 `CPubMedTriple` 在 `schemas.go`。zstd 压缩进 gz/ 种子层(6.06MB→1.45MB, 经 seed-knowledge 入 MariaDB)。
 - **Huatuo26M-Lite 医疗问答 (2026-08-21)**: `internal/knowledge/data/huatuo_qa.json` — 177,703 条真实医患问答(16 科室: 妇产科 34K/内科 30K/皮肤科 25K/儿科 21K 等,覆盖 2,701 种疾病)。数据源: [FreedomIntelligence/Huatuo26M-Lite](https://huggingface.co/datasets/FreedomIntelligence/Huatuo26M-Lite) (Apache 2.0)。`huatuo_qa_lookup` 工具(第 23 个):支持关键词+科室筛选,按相关性评分排序。Go 结构体 `HuatuoQAPairs` 在 `huatuo_types.go`。gzip 压缩后嵌入(140.6MB→~30MB)。注意:该数据集是社区贡献的 QA 对,非结构化知识条目,适用于患者教育和症状问答场景。
 
 ## Data-image architecture (2026-08-29)
 
-- **MariaDB = business only** (users/sessions/messages/feedback, DB `doctor_agent`).
-- **Qdrant = professional RAG**: the `doctor-agent-qdrant` image bakes all 51
-  gz datasets into Qdrant storage **at build time** via `doctor-agent vector-bake`
+- **Four images, decoupled rebuild triggers** (verified 2026-09-20 against
+  `docker-compose.yml` + `build.sh:24`): `doctor-agent` (app), `doctor-agent-qdrant`
+  (vectors), `doctor-agent-embed` (query-side bge-m3), `doctor-agent-kb`
+  (MariaDB with the knowledge DB pre-loaded). `build.sh [app|qdrant|embed|kb|full]`.
+- **MariaDB is NOT business-only**: one MariaDB instance holds BOTH
+  `doctor_agent` (users/sessions/messages/feedback) and `doctor_knowledge`
+  (the keyword/exact-lookup layer). Compose's `mariadb` service runs
+  `doctor-agent-kb` — `docker/Dockerfile.kb` puts a full `doctor_knowledge`
+  dump at `/docker-entrypoint-initdb.d/`, so a first boot with an empty volume
+  imports ~all knowledge with **no runtime seed** (`SEED_MARIADB_KB` not needed).
+  The KB image is tagged from `data/version.json` (plus `:latest`); the
+  "1.36.0" numbers in `docker-compose.yml:30` / `Dockerfile.kb` comments are
+  rotting prose, not config — read `version.json` for the current version.
+- **Qdrant = professional RAG**: the `doctor-agent-qdrant` image bakes the
+  vector-eligible gz datasets into Qdrant storage **at build time** via
+  `doctor-agent vector-bake`
   (`internal/knowledge/bake.go`: reads gz → `seedFile` classification → bge-m3
   embedding via `EMBEDDING_BASE_URL` (build-arg, required — no offline hash
   fallback) → upsert with full entry JSON in payload `data`).
+  **Don't hard-count the datasets in prose** — as of 2026-09-20 `internal/knowledge/gz`
+  holds 78 archives across ~44 datasets, and `vectorSkipDatasets` in `bake.go`
+  (medkg/nmpa/cpubmed/icd10/icd11/hpo/orphanet/icdo3/corpus/public_resources)
+  are excluded on purpose — they are keyword/exact-lookup layers.
   生产管线 = bake-gpu.sh（AutoDL GPU fp32 烘焙）→ `Dockerfile.qdrant.slim` 只 COPY storage。
   The image is self-contained: start → retrieval works, no seed/sync wait.
 - `vector-bake` does NOT need MariaDB. `VectorRetriever.Retrieve` prefers the
   self-contained payload `data` (JSON → entry) and only falls back to the
   in-memory MariaDB store for legacy runtime-synced indexes.
-- `docker-compose.yml`: qdrant service uses `QDRANT_IMAGE` (default public
-  repo `doctor-agent-qdrant:latest`); app depends on mariadb + qdrant only;
-  optional MariaDB keyword fallback = mount an external gz volume +
-  `SEED_MARIADB_KB=true` (see `docker-entrypoint.sh`; the qdrant image itself
-  no longer ships gz).
+- `docker-compose.yml` has **four services**: `mariadb` (image `KB_IMAGE`,
+  default `doctor-agent-kb:latest`), `qdrant` (`QDRANT_IMAGE`), `embed`
+  (`EMBED_IMAGE` — bge-m3 INT8, OpenAI-compatible `/v1/embeddings` on :18080,
+  `external/embed_server.py`), `app`. app `depends_on` mariadb (healthy) +
+  qdrant + embed, and sets `EMBEDDING_BASE_URL=http://embed:18080/v1` — i.e.
+  **the query-side embedding service is part of the default deploy**, not
+  optional. `MARIA_DB_KNOWLEDGE_DB=doctor_knowledge` + `MARIA_DB_APP_DB=doctor_agent`
+  point at the two DBs in that one instance. Fresh empty `mariadb_data` volume
+  triggers the one-time KB import; an existing volume is never overwritten.
+  Optional self-seed path stays available: `mariadb:11.4` + external gz volume +
+  `SEED_MARIADB_KB=true` (see `docker-entrypoint.sh`; the qdrant image ships no gz).
+  ⚠️ `Dockerfile.embed` COPYs `bge-m3-onnx/*` which is **gitignored** — the embed
+  image can only be built on a machine that ran `external/export_onnx.py`.
 
-## Image layering (2026-08-30, v18; slimmed 2026-08-31) — 双镜像触发条件解耦
+## Image layering (2026-08-30, v18; slimmed 2026-08-31; 4 images as of 2026-09-20) — 触发条件解耦
 
-- `doctor-agent-qdrant` (root `Dockerfile.qdrant`): ONE image
-  = standard Qdrant (pinned `qdrant/qdrant:v1.19.0`) + vectors baked at
-  build time. The gz sources are a build-time input only (final image has
-  NO gz layer). Bake WAL is cleared at build end (empty dirs kept — qdrant
+- `doctor-agent-qdrant` — built by TWO possible Dockerfiles, chosen by
+  `build.sh qdrant` per host OS:
+  - `Dockerfile.qdrant.slim` (**what the macOS/GPU pipeline uses**):
+    `FROM qdrant/qdrant:v1.19.0` + `COPY qdrant-storage /qdrant/storage` —
+    ~30s pure COPY, no compile, no bake. The `qdrant-storage/` artifact comes
+    from an out-of-band bake (dev machine `bake-local.sh`, or `bake-gpu.sh` on
+    AutoDL fp32); it is gitignored, so it is the second on-disk copy of the
+    vectors, not a repo input.
+  - `Dockerfile.qdrant` (Linux fallback): compiles `./cmd/vector-bake` in-image
+    and bakes during the build. gz sources are a build-time input only (final
+    image has NO gz layer).
+  `build.sh` has no forced-rebake switch: if `qdrant-storage/collections/
+  medical_knowledge` exists it is packaged as-is; delete it first to re-bake.
+  ⚠️ Two known build-path defects (2026-09-20, **unfixed, report only**):
+  (1) `build.sh:133` invokes `./bake-local.sh`, which is **not present in the
+  repo** (not tracked, not ignored) — the Darwin path fails whenever there is
+  no bake artifact. (2) The Linux branch passes **no `--build-arg` at all**, so
+  `Dockerfile.qdrant`'s `ARG EMBEDDING_BASE_URL=` stays empty and `vector-bake`
+  exits at the bake stage ("EMBEDDING_BASE_URL 必填"). Net effect: on a clean
+  machine `./build.sh qdrant` cannot succeed on either OS unless
+  `qdrant-storage/` was produced out-of-band (e.g. `bake-gpu.sh`). Workaround
+  for (2): `docker build -f Dockerfile.qdrant --build-arg EMBEDDING_BASE_URL=…
+  --build-arg EMBEDDING_MODEL=bge-m3 .`
+  Bake WAL is cleared at build end (empty dirs kept — qdrant
   needs the dir to exist; data is already materialised in segments), so
   startup loads segments directly with no WAL replay (~45s).
   **2026-08-31 slimming** (image was measured at 10.8GB, storage layer
-  9.81GB): bake now (a) skips structured datasets covered by dedicated
-  lookup tools via `vectorSkipDatasets` in `internal/knowledge/bake.go`
-  (medkg/nmpa/cpubmed/icd10 ≈ 664k rows) — 1.37M → ~743k points, (b) the
+  9.81GB): bake now (a) skips datasets covered by dedicated lookup tools or a
+  keyword full-text layer via `vectorSkipDatasets` in `internal/knowledge/bake.go`
+  (as of 2026-09-20: medkg/nmpa/cpubmed/icd10/icd11/hpo/orphanet/icdo3/corpus/
+  public_resources — 10 entries), (b) the
   runtime Syncer applies the same skip so admin syncs can't re-add them,
   (c) `ensureCollection` creates the collection with `datatype=float16`
   (halves on-disk vectors; scalar quantization deliberately NOT used — it
   saves RAM only, originals stay on disk), (d) bake payload dropped the
   consumer-less `text`/`timestamp` fields. Target image ≈ 2-2.5GB.
+  **Don't quote a baked-point count** (the "1.37M → ~743k" figures predate the
+  2026-09-20 skip list and no longer hold); read `vectorSkipDatasets` + run
+  `go run ./cmd/vector-bake` to measure.
   `vector-bake` gained `--recreate` (drop collection first) for clean
   local re-bakes.
   Built from the repo root (`docker build -f Dockerfile.qdrant .`), using a
@@ -166,7 +223,8 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
   image. It does NOT depend on the app image — no `COPY --from` — so building
   the qdrant image no longer requires building doctor-agent first. Rebuild
   ONLY when knowledge (or bake tool) changes: `./build.sh qdrant` (local dev
-  machine — baking ~743k vectors needs more than the builder's 1.6GB RAM).
+  machine — baking the full vector set needs far more RAM than the 1.6GB
+  builder).
   (The old `docker/qdrant-context/` independent context + src-sync machinery
   was removed 2026-08-30 in favour of this; `docker/mariadb-init/` deleted as
   unreferenced.)
@@ -183,34 +241,57 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
   `go:embed web/*.html`). `.dockerignore` excludes gz/data/external etc. Rebuild
   only when code/frontend changes.
 - `doctor-agent-data` was removed 2026-08-30 — gz knowledge merged into the
-  qdrant image. Only two images remain.
+  qdrant image. That left TWO images briefly; the KB/embed features brought it
+  back to the four listed at the top of "Data-image architecture" (verify there,
+  don't re-add per-image bullets here).
+- `doctor-agent-embed` (`Dockerfile.embed`): python:3.12-slim + onnxruntime,
+  serves bge-m3 **INT8** via `external/embed_server.py` on :18080
+  (OpenAI-compatible `/v1/embeddings`); model + tokenizer files are COPYed into
+  the image. No torch (transformers is used only for the fast Rust tokenizer).
+  Must be the **same model** as the baked vectors — a mismatch silently
+  destroys vector recall.
+- `doctor-agent-kb` (`docker/Dockerfile.kb`, `FROM mariadb:11.4`): see the KB
+  bullet above; rebuilt via `./build.sh kb`, which needs
+  `docker/kb/init-doctor_knowledge.sql.gz` (gitignored — export it from a seeded
+  local MariaDB first, or `build_kb` falls back to dumping the `doctor-kb-test`
+  container). `update-kb.sh` step 3 calls `./build.sh kb`.
 - Packaging is consolidated (2026-08-30): `./build.sh` is the single entry;
   Makefile docker-* targets, builder.sh and docker-compose.build.yml were
   removed as duplicates. The Makefile itself was removed later the same day;
-  the `docker/` directory too (replaced by root `Dockerfile.qdrant` +
+  the `docker/` directory too — but it came BACK holding `Dockerfile.kb` +
+  `kb/` (and per-Dockerfile ignore files live at the repo root, e.g.
   `Dockerfile.qdrant.dockerignore`; per-Dockerfile ignore requires
   BuildKit/Docker ≥ 23 — local is Docker 29, remote verified).
 
 ## Build & remote deploy (2026-08-30)
 
-- `build.sh [app|qdrant|full]` — the single packaging entry:
+- `build.sh [app|qdrant|embed|kb|full]` — the single packaging entry (mode list
+  verified at `build.sh:24`):
   - `./build.sh` (default `app`): build+push ONLY the app image (code/frontend
-    changes). Fast; qdrant untouched.
+    changes). Fast; the other three untouched.
   - `./build.sh qdrant`: build+push ONLY the qdrant image (gz knowledge
     changes; bake tool compiles itself, no app-image dependency).
-  - `./build.sh full`: build+push app THEN qdrant (both changed; slow —
-    bakes 51 datasets into Qdrant inside the build).
+  - `./build.sh embed`: build+push the bge-m3 INT8 embedding image (needs the
+    gitignored `bge-m3-onnx/` export).
+  - `./build.sh kb`: build+push the pre-seeded MariaDB image, tagged with
+    `data/version.json` + `latest` (needs `docker/kb/init-doctor_knowledge.sql.gz`).
+  - `./build.sh full`: build+push app → qdrant → embed → kb (all changed; slow).
+  Note the header comments in `build.sh` still describe the old "双镜像" model and
+  a "FNV hash 离线 embedding" Linux bake path that no longer exists (`Dockerfile.qdrant`
+  requires `EMBEDDING_BASE_URL`; no hash fallback) — trust the `case "$MODE"` block
+  and `docker-compose.yml`, not that banner.
   Local dev binary: `go build -o bin/doctor-agent .` (Makefile removed
   2026-08-30; no wrapper needed).
-- `remote-deploy.sh [app|--dry-run]` — builder-machine mode (2026-08-30, later
-  re-scoped): run from the dev machine; the builder is 114.55.170.79 and it
-  builds ONLY the app image. qdrant/full args are rejected with a hint to run
-  `./build.sh qdrant` locally (baking ~743k vectors needs more than the
-  builder's 1.6GB RAM). No auto-deploy — deploy manually:
-  `docker compose pull && docker compose up -d` on the target machine. Local
-  phase: `git fetch` + upstream check — aborts if local has unpushed commits
-  (builder pulls from git, so it can only build pushed code), warns on
-  uncommitted changes. Remote phase: `git checkout -- internal/knowledge/
-  data/` + gz self-heal (drop scp-overwritten LFS entities / untracked gz,
-  else `M`/untracked status blocks pull) → git pull → ./build.sh app.
-  `--dry-run` prints local checks + remote command without running.
+- `remote-deploy.sh` — ⚠️ **it is a 21-line stub, not the tool AGENTS.md once
+  described** (verified 2026-09-20: the whole script is
+  `ssh root@114.55.170.79 'cd doctor-agent && git pull && ./build.sh'`).
+  So: it takes NO arguments (no `app`/`--dry-run` parsing), builds only the app
+  image (default mode), does NOT check for unpushed/uncommitted local changes,
+  and does NOT run the `git checkout -- internal/knowledge/data/` + gz self-heal
+  phase. Consequences when it misbehaves: the builder pulls from git, so it can
+  only ever build **pushed** code — `git push` first; and since `data/` holds
+  LFS-pointer/part-split artifacts, a dirty remote worktree makes `git pull`
+  fail with no local hint. Previous descriptions of "local phase + remote phase
+  + --dry-run" documented an intended design that is not in the file — restore
+  it (or extend the stub) before trusting that text again. No auto-deploy:
+  restart on the target box is `docker compose pull && docker compose up -d`.

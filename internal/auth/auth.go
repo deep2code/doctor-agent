@@ -3,6 +3,7 @@ package auth
 import (
 	"crypto/rand"
 	"crypto/sha256"
+	"crypto/subtle"
 	"encoding/hex"
 	"fmt"
 	"strings"
@@ -215,13 +216,16 @@ func verifyPassword(password, hash string) bool {
 	salt := hash[:16]
 	expectedHash := hash[16:]
 	actualHash := sha256.Sum256([]byte(salt + password))
-	return hex.EncodeToString(actualHash[:]) == expectedHash
+	return subtle.ConstantTimeCompare([]byte(hex.EncodeToString(actualHash[:])), []byte(expectedHash)) == 1
 }
 
 // generateSalt generates a random 8-byte salt.
 func generateSalt() string {
 	b := make([]byte, 8)
-	rand.Read(b)
+	if _, err := rand.Read(b); err != nil {
+		// Failing loudly beats silently hashing with an all-zero salt.
+		panic("crypto/rand unavailable: " + err.Error())
+	}
 	return hex.EncodeToString(b)
 }
 

@@ -75,8 +75,10 @@ func (r *VectorRetriever) Retrieve(ctx context.Context, query string, topK int) 
 			continue
 		}
 
-		// Look up the actual knowledge entry
-		entry, exists := r.storeData.MedicalByID[entryID]
+		// Look up the actual knowledge entry (accessor holds the store lock
+		// and triggers the lazy MariaDB load; raw map reads here would race
+		// with a concurrent cold ingest).
+		entry, exists := r.storeData.MedicalEntryByID(entryID)
 		if !exists {
 			continue
 		}
@@ -120,12 +122,26 @@ func (r *VectorRetriever) RetrieveDrugs(ctx context.Context, query string, topK 
 	// Convert to DrugRetrievalResult
 	var retrievalResults []DrugRetrievalResult
 	for _, result := range results {
+		// Self-contained mode: runtime-synced points carry the full drug JSON
+		// in the payload, mirroring the knowledge path above (their entry_id
+		// is a content-hash UUID that is not present in the in-memory store).
+		if raw, ok := result.Payload["data"]; ok && raw != "" {
+			var d DrugEntry
+			if err := json.Unmarshal([]byte(raw), &d); err == nil && d.ID != "" {
+				retrievalResults = append(retrievalResults, DrugRetrievalResult{Entry: d, Score: result.Score})
+				if len(retrievalResults) >= topK {
+					break
+				}
+				continue
+			}
+		}
+
 		entryID, ok := result.Payload["entry_id"]
 		if !ok {
 			continue
 		}
 
-		entry, exists := r.storeData.DrugByID[entryID]
+		entry, exists := r.storeData.DrugEntryByID(entryID)
 		if !exists {
 			continue
 		}

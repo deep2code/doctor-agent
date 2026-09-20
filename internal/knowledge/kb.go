@@ -59,16 +59,19 @@ const (
 	DSMilestones       = "milestones"
 	DSNewborn          = "newborn"
 	DSCorpus           = "corpus" // unified medkb corpora (corpus_<source>.json)
-DSICD11            = "icd11"
+	DSICD11            = "icd11"
+	DSHPO              = "hpo"      // Human Phenotype Ontology terms (en + zh names)
+	DSOrphanet         = "orphanet" // Orphanet rare diseases (zh + ORPHA code, ICD-10/11 maps)
+	DSICDO3            = "icdo3"    // ICD-O-3 tumor morphology codes
 	DSVersion          = "version"
 
 	// 中国医学数据集
-	DSChinaStats           = "china_stats"           // 卫生统计年鉴
+	DSChinaStats            = "china_stats"             // 卫生统计年鉴
 	DSChinaClinicalPathways = "china_clinical_pathways" // 临床路径
-	DSChinaCDC             = "china_cdc"             // 法定传染病
-	DSChinaTCM             = "china_tcm"             // 中医药知识库
-	DSChinaCSO             = "china_cso"             // CSCO肿瘤指南
-DSChinaDietary         = "china_dietary"         // 膳食指南
+	DSChinaCDC              = "china_cdc"               // 法定传染病
+	DSChinaTCM              = "china_tcm"               // 中医药知识库
+	DSChinaCSO              = "china_cso"               // CSCO肿瘤指南
+	DSChinaDietary          = "china_dietary"           // 膳食指南
 
 	// 公共医学资源
 	DSPublicResources = "public_resources" // 公共医学资料库（教科书、视频、科普等）
@@ -132,7 +135,7 @@ func decompressData(b []byte) ([]byte, error) {
 	}
 	r, err := gzip.NewReader(bytes.NewReader(b))
 	if err != nil {
-		return b, nil
+		return nil, fmt.Errorf("reading gzip payload: %w", err)
 	}
 	defer r.Close()
 	return io.ReadAll(r)
@@ -211,8 +214,8 @@ func (kb *KB) InsertBatch(dataset string, rows []KBRow) error {
 	// would balloon InnoDB redo/undo logs; 20k-row transactions stay small and
 	// are safe because INSERT ... ON DUPLICATE KEY UPDATE is idempotent.
 	const (
-		chunk        = 200 // rows per INSERT statement
-		rowsPerTx    = 20000
+		chunk     = 200 // rows per INSERT statement
+		rowsPerTx = 20000
 	)
 	var sb strings.Builder
 	var tx *sql.Tx

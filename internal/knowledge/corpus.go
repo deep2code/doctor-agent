@@ -51,3 +51,58 @@ type ICD11TermSet struct {
 	Release string      `json:"release,omitempty"`
 	Terms   []ICD11Term `json:"terms"`
 }
+
+// HPOTerm is one Human Phenotype Ontology entry (phenotype abnormality) for
+// exact_lookup. Shape mirrors hpo_terms.json produced by external/convert_hpo.py.
+type HPOTerm struct {
+	HPOID      string   `json:"hpo_id"`
+	Name       string   `json:"name"`
+	NameZH     string   `json:"name_zh,omitempty"`
+	Synonyms   []string `json:"synonyms,omitempty"`
+	Definition string   `json:"definition,omitempty"`
+}
+
+// HPOTermSet is the top-level shape of hpo_terms.json.
+type HPOTermSet struct {
+	Source  string    `json:"source"`
+	Updated string    `json:"updated"`
+	Terms   []HPOTerm `json:"terms"`
+}
+
+// OrphanetDisease is one Orphanet rare-disease entry (zh name + ORPHA code +
+// ICD-10/11 maps) for exact_lookup. Shape mirrors orphanet_diseases.json
+// produced by external/convert_orphanet.py.
+type OrphanetDisease struct {
+	OrphaCode string   `json:"orpha_code"`
+	NameZH    string   `json:"name_zh,omitempty"`
+	NameEN    string   `json:"name_en,omitempty"`
+	Synonyms  []string `json:"synonyms,omitempty"`
+	ICD10     []string `json:"icd10,omitempty"`
+	ICD11     []string `json:"icd11,omitempty"`
+	Type      string   `json:"type,omitempty"`
+}
+
+// OrphanetDiseaseSet is the top-level shape of orphanet_diseases.json.
+type OrphanetDiseaseSet struct {
+	Source   string            `json:"source"`
+	Updated  string            `json:"updated"`
+	Diseases []OrphanetDisease `json:"diseases"`
+}
+
+// ICDO3Morphology is one ICD-O-3 morphology code (neoplasm histology) for
+// exact_lookup. Shape mirrors icdo3_morphology.json produced by
+// external/convert_icdo3.py.
+type ICDO3Morphology struct {
+	Code     string   `json:"code"`
+	Behavior string   `json:"behavior,omitempty"`
+	NameEN   string   `json:"name_en"`
+	NameZH   string   `json:"name_zh,omitempty"`
+	Synonyms []string `json:"synonyms,omitempty"`
+}
+
+// ICDO3MorphologySet is the top-level shape of icdo3_morphology.json.
+type ICDO3MorphologySet struct {
+	Source  string            `json:"source"`
+	Updated string            `json:"updated"`
+	Terms   []ICDO3Morphology `json:"terms"`
+}

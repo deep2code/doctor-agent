@@ -11,7 +11,7 @@ from dataclasses import dataclass, field, asdict
 MAX_SUMMARY_CHARS = 800
 MAX_BODY_BYTES = 24 * 1024  # 默认全文截断上限，与 plugin --max-body-bytes 一致
 
-SOURCES = ("statpearls", "medgen", "lactmed")
+SOURCES = ("statpearls", "medgen", "lactmed", "nhc_mental", "firstaid", "travel_health")
 KINDS = ("condition", "drug", "gene", "chromosome", "")
 
 
@@ -64,7 +64,7 @@ def validate_docs(path) -> list[str]:
             errors.append(f"{where}: source={e.get('source')!r} 与顶层 {source!r} 不一致")
         elif source not in SOURCES:
             errors.append(f"{where}: 未知 source {source!r}（需加入 schema.SOURCES 与 Go 侧白名单）")
-        if e.get("kind") not in KINDS:
+        if e.get("kind", "") not in KINDS:  # to_json 会丢掉空 kind，缺省视为合法
             errors.append(f"{where}: 非法 kind {e.get('kind')!r}")
         if e.get("lang") not in ("en", "zh"):
             errors.append(f"{where}: 非法 lang {e.get('lang')!r}")

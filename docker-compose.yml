@@ -1,18 +1,26 @@
-# doctor-agent — 双镜像版 compose
+# doctor-agent — 四镜像版 compose（2026-09-20 校准；原"双镜像"注释已过时）
 #
-# 架构（2026-08-30）：
-#   MariaDB → 只做普通商业行为（业务库 doctor_agent：用户/会话/消息/反馈）
-#   Qdrant  → 专业 RAG：doctor-agent-qdrant 镜像自带【构建期烘好的向量】，
+# 架构：
+#   mariadb → 同一实例承载两个库：业务库 doctor_agent（用户/会话/消息/反馈）
+#             + 知识库 doctor_knowledge（关键词/精确查找层）。默认镜像 doctor-agent-kb
+#             已在构建期灌好全量知识，空卷首启自动导入，运行时零 seed。
+#   qdrant  → 专业 RAG 向量腿：doctor-agent-qdrant 镜像自带【构建期烘好的向量】，
 #             启动即用、零灌入等待（gz 知识源不在镜像内，仅作构建期输入）。
+#             与 mariadb 关键词层是混合检索的两条腿，不是替代关系。
+#   embed   → 查询端 embedding：doctor-agent-embed（bge-m3 INT8, :18080），
+#             必须与烘焙向量同模型，否则语义召回静默失效。
+#   app     → Go 源码 + 前端，:7071。
 #
-# 双镜像（触发条件解耦）：
-#   doctor-agent-qdrant  标准 Qdrant + 烘好的向量 → 知识库变化才更新
+# 四镜像（触发条件解耦，见 build.sh）：
 #   doctor-agent         Go 源码 + 前端            → 代码变化才更新
+#   doctor-agent-qdrant  标准 Qdrant + 烘好的向量   → 知识库变化才更新
+#   doctor-agent-embed   bge-m3 INT8 服务          → embedding 服务/模型变化才更新
+#   doctor-agent-kb      预灌知识的 MariaDB         → 知识库数据变化才更新
 #
 # 前提：服务器上已存在镜像（以下任一方式获得）：
-#   A) 从仓库拉取：echo "IMAGE_NAME=docker.io/你的用户名/doctor-agent:latest
-#                    QDRANT_IMAGE=docker.io/你的用户名/doctor-agent-qdrant:latest" > .env
-#   B) 本机 docker save/load（QDRANT_IMAGE 保持默认本地镜像名即可）
+#   A) 从仓库拉取：默认已指向公共仓库；自定义用 .env 覆盖
+#      IMAGE_NAME / QDRANT_IMAGE / EMBED_IMAGE / KB_IMAGE
+#   B) 本机 docker save/load（各变量保持默认本地镜像名即可）
 #
 # 启动：
 #   cp .env.example .env
@@ -20,14 +28,15 @@
 #
 # 说明：
 #   - qdrant 服务使用【自带烘焙向量的 RAG 镜像】（构建期 vector-bake 注入，
-#     见根目录 Dockerfile.qdrant）。首次启动即可语义检索，无 seed/sync 等待。
-#   - app 启动时自动建业务库 doctor_agent；知识检索走 Qdrant。
-#   - 可选：若仍需 MariaDB 关键词兜底，把外部 gz 目录挂到 qdrant 容器并让
-#     entrypoint seed（SEED_MARIADB_KB=true），默认不启用。
+#     见根目录 Dockerfile.qdrant / Dockerfile.qdrant.slim）。首次启动即可语义检索，无 seed/sync 等待。
+#   - app 启动时自动建业务库 doctor_agent；知识检索走 Qdrant + MariaDB 混合。
+#   - 可选：若想用空 MariaDB 自灌，把 mariadb 镜像改回 mariadb:11.4，
+#     把外部 gz 目录挂到容器并设 SEED_MARIADB_KB=true，默认不启用。
 
 services:
   mariadb:
-    # 预灌全部医学知识(1.36.0, 142万行)的数据镜像——首启自动导入, 运行时零 seed
+    # 预灌全部医学知识的数据镜像（版本号看 internal/knowledge/data/version.json，
+    # tag 由 build.sh kb 自动取）——空卷首启自动导入, 运行时零 seed
     # 如需空库自灌, 改回 mariadb:11.4 并给 app 设 SEED_MARIADB_KB=true + 挂 gz 卷
     image: ${KB_IMAGE:-crpi-0xi5k79l9j4opzta.cn-hangzhou.personal.cr.aliyuncs.com/codeup2026/doctor-agent-kb:latest}
     container_name: doctor-agent-mariadb

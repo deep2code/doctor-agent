@@ -1,0 +1,19 @@
+{
+  "file": "huatuo_qa.json",
+  "algorithm": "concat-v1",
+  "max_part_bytes": 94371840,
+  "total_bytes": 147463561,
+  "sha256": "6540b8d81cfa071a9066ab690eed0df0c4d8e7e2d7e88a85e2cafea67ba49907",
+  "parts": [
+    {
+      "name": "huatuo_qa.json.part000",
+      "bytes": 94371840,
+      "sha256": "b251d5b20493fbbedf1620ae4717cf3a21436746cc9d98366865bb192f3a8c08"
+    },
+    {
+      "name": "huatuo_qa.json.part001",
+      "bytes": 53091721,
+      "sha256": "05e04681e3d3dc0016aaedd2ad8693a5ba4759f70a7e29301f25d0173b0ceef3"
+    }
+  ]
+}

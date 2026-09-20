@@ -67,6 +67,9 @@ func Seed(dbPath, gzDir string) error {
 		datasets = append(datasets, ds)
 	}
 	sort.Strings(datasets)
+	for _, ds := range datasets {
+		dedupeDatasetKeys(byDataset[ds])
+	}
 
 	var (
 		wg   sync.WaitGroup
@@ -287,6 +290,27 @@ func seedFile(base string, raw []byte) (string, []KBRow, error) {
 		}
 		rows, err := seedEntries(set.Terms)
 		return DSICD11, rows, err
+	case "hpo_terms.json":
+		var set HPOTermSet
+		if err := json.Unmarshal(raw, &set); err != nil {
+			return "", nil, err
+		}
+		rows, err := seedEntries(set.Terms)
+		return DSHPO, rows, err
+	case "orphanet_diseases.json":
+		var set OrphanetDiseaseSet
+		if err := json.Unmarshal(raw, &set); err != nil {
+			return "", nil, err
+		}
+		rows, err := seedEntries(set.Diseases)
+		return DSOrphanet, rows, err
+	case "icdo3_morphology.json":
+		var set ICDO3MorphologySet
+		if err := json.Unmarshal(raw, &set); err != nil {
+			return "", nil, err
+		}
+		rows, err := seedEntries(set.Terms)
+		return DSICDO3, rows, err
 	case "nmpa_drugs.json":
 		var set NMPADrugSet
 		if err := json.Unmarshal(raw, &set); err != nil {
@@ -336,7 +360,7 @@ func seedFile(base string, raw []byte) (string, []KBRow, error) {
 		}
 		rows, err := seedEntries(mq.QAPairs)
 		return DSMedicalQA, rows, err
-case "ttd_data.json":
+	case "ttd_data.json":
 		return DSTTD, []KBRow{seedSingleton("data", raw)}, nil
 	case "sider_drugs.json":
 		return DSSIDER, []KBRow{seedSingleton("data", raw)}, nil
@@ -392,6 +416,28 @@ func dedupeKey(seen map[string]int, key string) string {
 	return fmt.Sprintf("%s-%d", key, n+1)
 }
 
+// dedupeDatasetKeys resolves key collisions ACROSS source files of the same
+// dataset: dedupeKey is per-file, so fallback keys like "idx-0" repeat when
+// several files feed one dataset. Without this pass the unique index plus
+// INSERT ... ON DUPLICATE KEY UPDATE would silently drop the colliding rows.
+func dedupeDatasetKeys(rows []KBRow) {
+	seen := make(map[string]bool, len(rows))
+	for i := range rows {
+		if !seen[rows[i].Key] {
+			seen[rows[i].Key] = true
+			continue
+		}
+		for n := 2; ; n++ {
+			cand := fmt.Sprintf("%s~%d", rows[i].Key, n)
+			if !seen[cand] {
+				rows[i].Key = cand
+				seen[cand] = true
+				break
+			}
+		}
+	}
+}
+
 // seedEntries builds rows from a typed slice by re-marshalling each element.
 func seedEntries(items interface{}) ([]KBRow, error) {
 	raw, err := json.Marshal(items)
@@ -423,7 +469,7 @@ func extractKey(raw json.RawMessage, idx int) string {
 	if err := json.Unmarshal(raw, &m); err != nil {
 		return fmt.Sprintf("idx-%d", idx)
 	}
-	for _, k := range []string{"id", "ID", "clinvar_id", "icd10_code", "code", "Code", "name", "Name", "name_zh", "NameZH", "title", "Title", "variation", "Variation"} {
+	for _, k := range []string{"id", "ID", "clinvar_id", "icd10_code", "hpo_id", "orpha_code", "code", "Code", "name", "Name", "name_zh", "NameZH", "title", "Title", "variation", "Variation"} {
 		if v, ok := m[k]; ok {
 			if s, ok := v.(string); ok && s != "" {
 				return s
@@ -442,7 +488,8 @@ func buildSearchText(raw []byte) string {
 		return strings.ToLower(string(raw))
 	}
 	keys := []string{
-		"id", "ID", "code", "Code", "title", "Title", "name", "Name", "name_zh", "NameZH",
+		"id", "ID", "code", "Code", "hpo_id", "orpha_code", "name_en", "icd10", "icd11", "behavior",
+		"title", "Title", "name", "Name", "name_zh", "NameZH",
 		"question", "Question", "answer", "Answer", "keywords", "Keywords",
 		"symptoms", "Symptoms", "content", "Content", "gene", "Gene",
 		"disease", "Disease", "relation", "Relation", "category", "Category",
@@ -568,7 +615,7 @@ func ExportDataset(dsn, dataset string) ([]byte, error) {
 	}
 	defer kb.Close()
 	rows, err := kb.conn.Query(
-		"SELECT key, data FROM kb_items WHERE dataset = ? ORDER BY id", dataset)
+		"SELECT `key`, `data` FROM kb_items WHERE dataset = ? ORDER BY id", dataset)
 	if err != nil {
 		return nil, err
 	}

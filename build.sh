@@ -9,14 +9,24 @@ cd "$(dirname "$0")"
 # 用法:
 #   ./build.sh           = app（默认）：只构建+推送 app 镜像（改代码/前端）
 #   ./build.sh qdrant    = 只构建+推送 RAG 镜像（改知识库数据、跑 python3 external/make_gz.py 之后）
-#   ./build.sh full      = 全量：app + qdrant 一起
+#   ./build.sh embed     = 只构建+推送 bge-m3 INT8 查询端 embedding 镜像
+#   ./build.sh kb        = 只构建+推送预灌知识的 MariaDB 镜像（tag 取 version.json）
+#   ./build.sh full      = 全量：app + qdrant + embed + kb
 #
-# 双镜像架构:
+# 四镜像架构（compose 四个服务，触发条件解耦）:
 #   doctor-agent         Go 源码 + 前端        → 代码变化才更新
 #   doctor-agent-qdrant  Qdrant + 烘好的向量    → 知识库变化才更新
-#   macOS 流程: 有 qdrant-storage 产物 → 直接打包; 无 → bake-local.sh 本机烘焙 → 打包
+#   doctor-agent-embed   bge-m3 INT8 embedding → embedding 服务/模型变化才更新
+#   doctor-agent-kb      预灌 doctor_knowledge 的 MariaDB → 知识数据变化才更新
+#   macOS 流程: 有 qdrant-storage 产物 → 直接打包; 无 → 调 bake-local.sh 本机烘焙 → 打包
 #               (有产物时不提供强制重烘选项; 要重烘先手动删产物或跑 bake-local.sh)
-#   Linux  流程: Dockerfile.qdrant 内编译+烘焙(FNV hash)
+#               ⚠️ bake-local.sh 当前不在仓库里（2026-09-20 核实），无产物时此路径会失败；
+#                  可用 GPU 烘焙管线 bake-gpu.sh 产出 qdrant-storage/ 后再打包。
+#   Linux  流程: Dockerfile.qdrant 内编译 + 烘焙，需构建期传入 EMBEDDING_BASE_URL
+#               （bge-m3 OpenAI 兼容端点；2026-09-06 起无本地 hash 回退，未配置直接报错退出）
+#               ⚠️ 本脚本的 Linux 分支没有转发任何 --build-arg，故裸跑会在烘焙阶段
+#                  因 EMBEDDING_BASE_URL 为空而失败（2026-09-20 核实，未修）。
+#                  临时绕过: docker build -f Dockerfile.qdrant --build-arg EMBEDDING_BASE_URL=... .
 # ============================================================================
 
 MODE="${1:-app}"
@@ -107,7 +117,8 @@ build_qdrant() {
   #   1. bake-local.sh — Mac 本机直跑 vector-bake，直连 localhost:11434
   #      （无 Docker 网络开销），OLLAMA_NUM_PARALLEL=8 + workers=8 + batch=128，
   #      bake.go 按文本长度排序消除 padding 浪费。
-  #      全部 743k 条数据用 bge-m3 生成真实语义向量（不跳过任何数据集）。
+  #      可向量化的数据用 bge-m3 生成真实语义向量（bake.go 的 vectorSkipDatasets
+  #      列出的数据集按设计跳过——它们有专用 lookup 工具或关键词全文层）。
   #   2. Dockerfile.qdrant.slim — 只 COPY 预烘焙 storage 到 Qdrant 基础镜像
   #      （~30 秒纯 COPY，无编译无烘焙）。
   #
@@ -151,7 +162,7 @@ build_qdrant() {
     # 不自动删 qdrant-storage: 产物来之不易 (GPU 烘焙 ~1 小时 + 手动恢复过),
     # 留在本机作为镜像之外的第二副本, 要清理请手动删。
   else
-    echo "  Linux → Docker 内烘焙（FNV hash 离线 embedding，无 Ollama）"
+    echo "  Linux → Docker 内烘焙（需构建期传入 EMBEDDING_BASE_URL，无 hash 回退）"
     docker build --progress=plain --platform linux/amd64 \
       --pull=false \
       -t "$QDRANT_IMAGE" \

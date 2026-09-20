@@ -60,7 +60,7 @@ func (t *KnowledgeSearch) Schema() map[string]any {
 			},
 			"dataset": map[string]any{
 				"type":        "string",
-				"description": "检索数据集（默认 medical）: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care, statpearls, medgen, lactmed, otc_safety, medlinezh, cdc_kp, otc_labels",
+				"description": "检索数据集（默认 medical）: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care, statpearls, medgen, lactmed, otc_safety, medlinezh, cdc_kp, otc_labels, nhc_mental, firstaid, travel_health",
 			},
 			"top_k": map[string]any{
 				"type":        "integer",
@@ -120,7 +120,7 @@ func (t *KnowledgeSearch) Execute(ctx context.Context, input map[string]any) (*T
 		return t.searchFHS(ctx, query, topK)
 	case "aap":
 		return t.searchAAP(ctx, query, topK)
-	case "statpearls", "medgen", "lactmed", "otc_safety", "medlinezh", "cdc_kp", "otc_labels":
+	case "statpearls", "medgen", "lactmed", "otc_safety", "medlinezh", "cdc_kp", "otc_labels", "nhc_mental", "firstaid", "travel_health":
 		return t.searchCorpus(ctx, query, topK, dataset)
 	case "medline":
 		return t.searchMedline(ctx, query, topK)
@@ -140,7 +140,7 @@ func (t *KnowledgeSearch) Execute(ctx context.Context, input map[string]any) (*T
 		return t.searchNewbornCare(ctx, query, topK)
 	default:
 		return &ToolResult{Success: false, Error: fmt.Sprintf(
-			"未知数据集 '%s'，支持: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care, statpearls, medgen, lactmed, otc_safety, medlinezh, cdc_kp, otc_labels", dataset)}, nil
+			"未知数据集 '%s'，支持: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care, statpearls, medgen, lactmed, otc_safety, medlinezh, cdc_kp, otc_labels, nhc_mental, firstaid, travel_health", dataset)}, nil
 	}
 }
 
@@ -209,7 +209,10 @@ func (t *KnowledgeSearch) tryICDCode(query string) (*ToolResult, bool) {
 
 // searchMedical uses the hybrid retriever for general medical knowledge.
 func (t *KnowledgeSearch) searchMedical(ctx context.Context, query string, topK int) (*ToolResult, error) {
-	results, _ := t.retriever.Retrieve(ctx, query, topK)
+	results, rerr := t.retriever.Retrieve(ctx, query, topK)
+	if rerr != nil {
+		return &ToolResult{Success: false, Error: fmt.Sprintf("检索失败: %v", rerr)}, nil
+	}
 	if len(results) == 0 {
 		return &ToolResult{
 			Success: true,
@@ -298,7 +301,10 @@ func (t *KnowledgeSearch) searchMedical(ctx context.Context, query string, topK 
 
 // searchMSD searches the MSD Manual (默沙东诊疗手册) Chinese edition.
 func (t *KnowledgeSearch) searchMSD(ctx context.Context, query string, topK int) (*ToolResult, error) {
-	results, _ := t.keywordRetriever.RetrieveMSD(ctx, query, topK)
+	results, rerr := t.keywordRetriever.RetrieveMSD(ctx, query, topK)
+	if rerr != nil {
+		return &ToolResult{Success: false, Error: fmt.Sprintf("检索失败: %v", rerr)}, nil
+	}
 	if len(results) == 0 {
 		return emptyResult(query, "msd", "默沙东诊疗手册中未找到与 '%s' 直接相关的章节。")
 	}
@@ -318,7 +324,10 @@ func (t *KnowledgeSearch) searchMSD(ctx context.Context, query string, topK int)
 
 // searchNHC searches National Health Commission clinical guidelines.
 func (t *KnowledgeSearch) searchNHC(ctx context.Context, query string, topK int) (*ToolResult, error) {
-	results, _ := t.keywordRetriever.RetrieveNHCGuide(ctx, query, topK)
+	results, rerr := t.keywordRetriever.RetrieveNHCGuide(ctx, query, topK)
+	if rerr != nil {
+		return &ToolResult{Success: false, Error: fmt.Sprintf("检索失败: %v", rerr)}, nil
+	}
 	if len(results) == 0 {
 		return emptyResult(query, "nhc", "国家卫健委诊疗方案中未找到与 '%s' 直接相关的条目。")
 	}
@@ -340,7 +349,10 @@ func (t *KnowledgeSearch) searchNHC(ctx context.Context, query string, topK int)
 
 // searchFHS searches Hong Kong Family Health Service parenting guides.
 func (t *KnowledgeSearch) searchFHS(ctx context.Context, query string, topK int) (*ToolResult, error) {
-	results, _ := t.keywordRetriever.RetrieveFHSGuide(ctx, query, topK)
+	results, rerr := t.keywordRetriever.RetrieveFHSGuide(ctx, query, topK)
+	if rerr != nil {
+		return &ToolResult{Success: false, Error: fmt.Sprintf("检索失败: %v", rerr)}, nil
+	}
 	if len(results) == 0 {
 		return emptyResult(query, "fhs", "香港家庭健康服务育儿百科中未找到与 '%s' 直接相关的条目。")
 	}
@@ -358,7 +370,10 @@ func (t *KnowledgeSearch) searchFHS(ctx context.Context, query string, topK int)
 
 // searchAAP searches American Academy of Pediatrics articles.
 func (t *KnowledgeSearch) searchAAP(ctx context.Context, query string, topK int) (*ToolResult, error) {
-	results, _ := t.keywordRetriever.RetrieveAAP(ctx, query, topK)
+	results, rerr := t.keywordRetriever.RetrieveAAP(ctx, query, topK)
+	if rerr != nil {
+		return &ToolResult{Success: false, Error: fmt.Sprintf("检索失败: %v", rerr)}, nil
+	}
 	if len(results) == 0 {
 		return emptyResult(query, "aap", "美国儿科学会育儿百科中未找到与 '%s' 直接相关的条目。")
 	}
@@ -377,7 +392,10 @@ func (t *KnowledgeSearch) searchAAP(ctx context.Context, query string, topK int)
 // searchCorpus searches the unified medkb corpora (statpearls / medgen /
 // lactmed) — one CorpusDoc shape, filtered by source.
 func (t *KnowledgeSearch) searchCorpus(ctx context.Context, query string, topK int, source string) (*ToolResult, error) {
-	results, _ := t.keywordRetriever.RetrieveCorpus(ctx, query, topK, source)
+	results, rerr := t.keywordRetriever.RetrieveCorpus(ctx, query, topK, source)
+	if rerr != nil {
+		return &ToolResult{Success: false, Error: fmt.Sprintf("检索失败: %v", rerr)}, nil
+	}
 	if len(results) == 0 {
 		return emptyResult(query, source, "语料库中未找到与 '%s' 直接相关的条目。")
 	}
@@ -405,7 +423,10 @@ func (t *KnowledgeSearch) searchCorpus(ctx context.Context, query string, topK i
 
 // searchMedline searches MedlinePlus medical encyclopedia.
 func (t *KnowledgeSearch) searchMedline(ctx context.Context, query string, topK int) (*ToolResult, error) {
-	results, _ := t.keywordRetriever.RetrieveMedlinePlus(ctx, query, topK)
+	results, rerr := t.keywordRetriever.RetrieveMedlinePlus(ctx, query, topK)
+	if rerr != nil {
+		return &ToolResult{Success: false, Error: fmt.Sprintf("检索失败: %v", rerr)}, nil
+	}
 	if len(results) == 0 {
 		return emptyResult(query, "medline", "MedlinePlus医学百科中未找到与 '%s' 直接相关的条目。")
 	}
@@ -423,7 +444,10 @@ func (t *KnowledgeSearch) searchMedline(ctx context.Context, query string, topK 
 
 // searchLiterature searches Europe PMC literature abstracts.
 func (t *KnowledgeSearch) searchLiterature(ctx context.Context, query string, topK int) (*ToolResult, error) {
-	results, _ := t.keywordRetriever.RetrieveLiterature(ctx, query, topK)
+	results, rerr := t.keywordRetriever.RetrieveLiterature(ctx, query, topK)
+	if rerr != nil {
+		return &ToolResult{Success: false, Error: fmt.Sprintf("检索失败: %v", rerr)}, nil
+	}
 	if len(results) == 0 {
 		return emptyResult(query, "literature", "欧洲PMC文献库中未找到与 '%s' 直接相关的文献。")
 	}
@@ -758,7 +782,10 @@ func (t *KnowledgeSearch) searchMilestone(ctx context.Context, query string, age
 
 // searchNewbornCare searches WHO preterm/LBW recommendations and China newborn screening.
 func (t *KnowledgeSearch) searchNewbornCare(ctx context.Context, query string, topK int) (*ToolResult, error) {
-	results, _ := t.keywordRetriever.SearchNewbornCare(ctx, query, topK)
+	results, rerr := t.keywordRetriever.SearchNewbornCare(ctx, query, topK)
+	if rerr != nil {
+		return &ToolResult{Success: false, Error: fmt.Sprintf("检索失败: %v", rerr)}, nil
+	}
 	if len(results) == 0 {
 		return emptyResult(query, "newborn_care", "新生儿护理知识库中未找到与 '%s' 直接相关的条目。")
 	}
@@ -830,14 +857,17 @@ func successResult(query, dataset string, results []map[string]any) *ToolResult 
 
 // searchPublicResources searches public medical education resources.
 func (t *KnowledgeSearch) searchPublicResources(ctx context.Context, query string, topK int) (*ToolResult, error) {
-	results, _ := t.keywordRetriever.RetrievePublicResources(ctx, query, topK)
+	results, rerr := t.keywordRetriever.RetrievePublicResources(ctx, query, topK)
+	if rerr != nil {
+		return &ToolResult{Success: false, Error: fmt.Sprintf("检索失败: %v", rerr)}, nil
+	}
 	if len(results) == 0 {
 		return emptyResult(query, "public_resources", "公共医学资源中未找到与 '%s' 直接相关的资源。")
 	}
 	resources := make([]map[string]any, 0, len(results))
 	for _, r := range results {
 		resources = append(resources, map[string]any{
-			"id":              r.Resource.ID,
+			"id":             r.Resource.ID,
 			"name_zh":        r.Resource.NameZH,
 			"name_en":        r.Resource.NameEN,
 			"category":       r.Resource.Category,

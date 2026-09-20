@@ -1394,6 +1394,348 @@
         "专家共识",
         "2024"
       ]
+    },
+    {
+      "id": "pub_medterm_001",
+      "name_zh": "统一医学语言系统",
+      "name_en": "UMLS",
+      "category": "术语标准",
+      "description_zh": "美国国立医学图书馆(NLM)开发的一体化医学语言系统，包含超过100个源词汇表、400万+概念",
+      "description_en": "",
+      "url": "https://www.nlm.nih.gov/research/umls/",
+      "keywords": [
+        "UMLS",
+        "医学术语",
+        "同义词",
+        "本体",
+        "Metathesaurus",
+        "语义网络"
+      ]
+    },
+    {
+      "id": "pub_medterm_002",
+      "name_zh": "医学系统命名法-临床术语",
+      "name_en": "SNOMED CT",
+      "category": "术语标准",
+      "description_zh": "国际广泛使用的临床医学术语标准，概念之间有语义关系（父子层级、属性连接）",
+      "description_en": "",
+      "url": "https://www.nlm.nih.gov/research/umls/Snomed/snomed_main.html",
+      "keywords": [
+        "SNOMED CT",
+        "医学术语",
+        "临床术语",
+        "标准化"
+      ]
+    },
+    {
+      "id": "pub_medterm_003",
+      "name_zh": "医学主题词表",
+      "name_en": "MeSH",
+      "category": "术语标准",
+      "description_zh": "美国国立医学图书馆编制的权威性主题词表，约18,000个主题词，支持中英文对照检索",
+      "description_en": "",
+      "url": "https://www.ncbi.nlm.nih.gov/mesh/",
+      "keywords": [
+        "MeSH",
+        "医学主题词",
+        "主题词表",
+        "文献检索"
+      ]
+    },
+    {
+      "id": "pub_medterm_004",
+      "name_zh": "中文医学主题词表",
+      "name_en": "CMeSH",
+      "category": "术语标准",
+      "description_zh": "中国医学科学院医学信息研究所研制，包含美国MeSH中译本+中国中医药学主题词表",
+      "description_en": "",
+      "url": "https://www.med66.com/yixuebaike/yixuewanhuatong/lj1502059879.shtml",
+      "keywords": [
+        "CMeSH",
+        "中文医学主题词",
+        "中医药主题词"
+      ]
+    },
+    {
+      "id": "pub_guideline_003",
+      "name_zh": "中国心力衰竭指南2024",
+      "name_en": "",
+      "category": "指南",
+      "description_zh": "中华医学会心血管病学分会制定，涵盖急慢性心衰的诊断、治疗和三级预防（发布时间: 2024-03；聚合来源: 医脉通）",
+      "description_en": "",
+      "url": "https://m.medlive.cn/guide/",
+      "keywords": [
+        "心力衰竭",
+        "心衰",
+        "心功能不全",
+        "利尿剂",
+        "ACEI",
+        "β受体阻滞剂"
+      ]
+    },
+    {
+      "id": "pub_guideline_004",
+      "name_zh": "中国常规肺功能检查基层指南2024",
+      "name_en": "",
+      "category": "指南",
+      "description_zh": "中华全科医师杂志发布，20岁及以上人群哮喘患病率4.2%，40岁以上人群慢阻肺患病率13.7%（发布时间: 2024-11；聚合来源: 中华全科医师杂志）",
+      "description_en": "",
+      "url": "https://guide.medlive.cn/guide/33536",
+      "keywords": [
+        "肺功能",
+        "慢阻肺",
+        "COPD",
+        "哮喘",
+        "支气管扩张"
+      ]
+    },
+    {
+      "id": "pub_guideline_005",
+      "name_zh": "儿童哮喘指南2025",
+      "name_en": "",
+      "category": "指南",
+      "description_zh": "中华医学会儿科学分会呼吸学组制定，涵盖儿童哮喘的诊断、分期和治疗方案（发布时间: 2025-03；聚合来源: 中华儿科杂志）",
+      "description_en": "",
+      "url": "https://guide.medlive.cn/guide_v2/1/34666",
+      "keywords": [
+        "儿童哮喘",
+        "小儿哮喘",
+        "吸入性糖皮质激素",
+        "支气管舒张剂"
+      ]
+    },
+    {
+      "id": "pub_guideline_006",
+      "name_zh": "儿童社区获得性肺炎指南2024",
+      "name_en": "",
+      "category": "指南",
+      "description_zh": "中华儿科杂志发布，涵盖儿童CAP的诊断、抗生素选择和疗程（发布时间: 2024-10；聚合来源: 中华儿科杂志）",
+      "description_en": "",
+      "url": "https://guide.medlive.cn/guide/",
+      "keywords": [
+        "肺炎",
+        "儿童肺炎",
+        "社区获得性肺炎",
+        "抗生素"
+      ]
+    },
+    {
+      "id": "pub_guideline_007",
+      "name_zh": "肺癌诊疗指南2025",
+      "name_en": "",
+      "category": "指南",
+      "description_zh": "中华医学会肿瘤学分会制定，涵盖肺癌的筛查、诊断、分期和治疗方案（发布时间: 2025-08；聚合来源: 中华肿瘤杂志）",
+      "description_en": "",
+      "url": "https://www.caivd-org.cn/article.asp?id=18272",
+      "keywords": [
+        "肺癌",
+        "肺肿瘤",
+        "非小细胞肺癌",
+        "小细胞肺癌",
+        "化疗",
+        "靶向治疗"
+      ]
+    },
+    {
+      "id": "pub_guideline_008",
+      "name_zh": "NCCN乳腺癌指南2025",
+      "name_en": "",
+      "category": "指南",
+      "description_zh": "美国国家综合癌症网络发布的乳腺癌诊疗指南（发布时间: 2025-10；聚合来源: NCCN）",
+      "description_en": "",
+      "url": "https://www.dxy.cn/bbs/newweb/pc/post/52534924",
+      "keywords": [
+        "乳腺癌",
+        "乳腺肿瘤",
+        "内分泌治疗",
+        "靶向治疗"
+      ]
+    },
+    {
+      "id": "pub_guideline_011",
+      "name_zh": "BSG炎症性肠病指南2025",
+      "name_en": "",
+      "category": "指南",
+      "description_zh": "英国胃肠病学会发布的IBD指南更新，旨在提高诊断的准确性和及时性（发布时间: 2025-06；聚合来源: Gut）",
+      "description_en": "",
+      "url": "https://guide.medlive.cn/guide/35652",
+      "keywords": [
+        "炎症性肠病",
+        "IBD",
+        "克罗恩病",
+        "溃疡性结肠炎"
+      ]
+    },
+    {
+      "id": "pub_guideline_012",
+      "name_zh": "重症卒中指南2024",
+      "name_en": "",
+      "category": "指南",
+      "description_zh": "中华医学会神经病学分会制定，针对重症脑梗死、脑出血、蛛网膜下腔出血的管理（发布时间: 2024；聚合来源: 医脉通）",
+      "description_en": "",
+      "url": "https://guide.medlive.cn/guide/32373",
+      "keywords": [
+        "脑卒中",
+        "脑梗死",
+        "脑出血",
+        "蛛网膜下腔出血",
+        "静脉溶栓",
+        "机械取栓"
+      ]
+    },
+    {
+      "id": "pub_guideline_013",
+      "name_zh": "卒中再灌注治疗指南2024",
+      "name_en": "",
+      "category": "指南",
+      "description_zh": "涵盖静脉溶栓和机械取栓治疗的最新筛选标准（发布时间: 2024；聚合来源: 中国卒中学会）",
+      "description_en": "",
+      "url": "https://guide.medlive.cn/guide/33905",
+      "keywords": [
+        "缺血性卒中",
+        "再灌注",
+        "静脉溶栓",
+        "机械取栓",
+        "tPA"
+      ]
+    },
+    {
+      "id": "pub_guideline_014",
+      "name_zh": "帕金森病认知障碍指南2025",
+      "name_en": "",
+      "category": "共识",
+      "description_zh": "2025年发布的帕金森病认知障碍诊断评估和管理共识（发布时间: 2025-07；聚合来源: 医脉通）",
+      "description_en": "",
+      "url": "https://www.medlive.cn/new/dep/neuro/guide/2",
+      "keywords": [
+        "帕金森病",
+        "认知障碍",
+        "运动症状",
+        "多巴胺"
+      ]
+    },
+    {
+      "id": "pub_guideline_009",
+      "name_zh": "肝癌诊疗指南2024",
+      "name_en": "",
+      "category": "指南",
+      "description_zh": "中华人民共和国国家卫生健康委员会发布，涵盖肝癌的诊断、分期和治疗（发布时间: 2024；聚合来源: 国家卫健委）",
+      "description_en": "",
+      "url": "https://guide.medlive.cn/guide/",
+      "keywords": [
+        "肝癌",
+        "肝细胞癌",
+        "介入治疗",
+        "靶向治疗",
+        "免疫治疗"
+      ]
+    },
+    {
+      "id": "pub_guideline_010",
+      "name_zh": "溃疡性结肠炎指南2023",
+      "name_en": "",
+      "category": "指南",
+      "description_zh": "中华炎性肠病杂志发布，涵盖炎症性肠病的诊断和治疗（发布时间: 2023；聚合来源: 中华炎性肠病杂志）",
+      "description_en": "",
+      "url": "https://guide.medlive.cn/guide/",
+      "keywords": [
+        "溃疡性结肠炎",
+        "IBD",
+        "炎症性肠病",
+        "克罗恩病"
+      ]
+    },
+    {
+      "id": "pub_guideline_015",
+      "name_zh": "儿童癫痫共识2025",
+      "name_en": "",
+      "category": "共识",
+      "description_zh": "中国抗癫痫协会发布，关于儿童癫痫的抗癫痫药物使用（发布时间: 2025-07；聚合来源: 中国抗癫痫协会）",
+      "description_en": "",
+      "url": "https://www.medlive.cn/new/dep/neuro/guide/2",
+      "keywords": [
+        "癫痫",
+        "儿童癫痫",
+        "抗癫痫药",
+        "吡仑帕奈"
+      ]
+    },
+    {
+      "id": "pub_guideline_016",
+      "name_zh": "甲亢诊治指南2024",
+      "name_en": "",
+      "category": "指南",
+      "description_zh": "5个学会联合制定，107条推荐意见，涵盖甲状腺毒症病因鉴别、Graves病治疗（发布时间: 2024；聚合来源: 中华医学会内分泌学分会）",
+      "description_en": "",
+      "url": "https://guide.medlive.cn/guide/",
+      "keywords": [
+        "甲亢",
+        "甲状腺功能亢进",
+        "Graves病",
+        "抗甲状腺药物",
+        "131I治疗"
+      ]
+    },
+    {
+      "id": "pub_guideline_017",
+      "name_zh": "老年糖尿病指南2024",
+      "name_en": "",
+      "category": "指南",
+      "description_zh": "针对老年糖尿病患者的诊疗规范（发布时间: 2024；聚合来源: 中华医学会糖尿病学分会）",
+      "description_en": "",
+      "url": "https://guide.medlive.cn/guide/",
+      "keywords": [
+        "老年糖尿病",
+        "糖尿病",
+        "血糖管理",
+        "并发症"
+      ]
+    },
+    {
+      "id": "pub_guideline_018",
+      "name_zh": "百日咳指南2024",
+      "name_en": "",
+      "category": "指南",
+      "description_zh": "中华医学杂志发布，涵盖百日咳的诊断和治疗（发布时间: 2024；聚合来源: 中华医学杂志）",
+      "description_en": "",
+      "url": "https://guide.medlive.cn/guide/",
+      "keywords": [
+        "百日咳",
+        "咳嗽",
+        "抗生素",
+        "疫苗"
+      ]
+    },
+    {
+      "id": "pub_guideline_019",
+      "name_zh": "新生儿败血症共识2024",
+      "name_en": "",
+      "category": "共识",
+      "description_zh": "中华儿科杂志发布，关于新生儿败血症的诊疗（发布时间: 2024；聚合来源: 中华儿科杂志）",
+      "description_en": "",
+      "url": "https://guide.medlive.cn/guide/",
+      "keywords": [
+        "新生儿败血症",
+        "脓毒症",
+        "抗生素",
+        "感染"
+      ]
+    },
+    {
+      "id": "pub_guideline_020",
+      "name_zh": "流感诊疗方案2025",
+      "name_en": "",
+      "category": "指南",
+      "description_zh": "国家卫健委发布，涵盖流感的诊断、抗病毒治疗和预防（发布时间: 2025-01；聚合来源: 国家卫健委）",
+      "description_en": "",
+      "url": "https://m.medlive.cn/guide/",
+      "keywords": [
+        "流感",
+        "甲流",
+        "乙流",
+        "奥司他韦",
+        "抗病毒"
+      ]
     }
   ]
 }

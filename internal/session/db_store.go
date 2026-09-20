@@ -1,7 +1,9 @@
 package session
 
 import (
+	"encoding/json"
 	"fmt"
+	"log/slog"
 	"strings"
 
 	"github.com/doctor-agent/internal/database"
@@ -23,6 +25,11 @@ func (s *DBStore) Save(sess *Session) error {
 	sess.mu.RLock()
 	messages := make([]llm.Message, len(sess.Messages))
 	copy(messages, sess.Messages)
+	state := dbSessionState{DisclaimerSent: sess.DisclaimerSent}
+	if sess.PatientContext != nil {
+		pc := *sess.PatientContext
+		state.PatientContext = &pc
+	}
 	sess.mu.RUnlock()
 
 	// Check if session exists
@@ -47,28 +54,38 @@ func (s *DBStore) Save(sess *Session) error {
 		_ = s.db.UpdateSessionTitle(sess.ID, t)
 	}
 
-	// Get existing message count
-	existingMsgs, err := s.db.GetSessionMessages(sess.ID)
-	if err != nil {
-		return fmt.Errorf("getting messages: %w", err)
+	// Rewrite the full transcript instead of appending: in-memory history is
+	// trimmed by TrimHistory and wiped by Clear, so the stored rows stop
+	// being a prefix of the message list and an incremental append would
+	// silently persist nothing after the first trim (and a reload would
+	// resurrect cleared history).
+	rows := make([]database.MessageRecord, 0, len(messages))
+	for _, msg := range messages {
+		rows = append(rows, database.MessageRecord{
+			SessionID: sess.ID,
+			Role:      msg.Role,
+			Content:   msg.Content,
+		})
+	}
+	if err := s.db.ReplaceSessionMessages(sess.ID, rows); err != nil {
+		return fmt.Errorf("rewriting messages: %w", err)
 	}
 
-	// Add new messages
-	if len(messages) > len(existingMsgs) {
-		for i := len(existingMsgs); i < len(messages); i++ {
-			msg := messages[i]
-			err = s.db.AddMessage(&database.MessageRecord{
-				SessionID: sess.ID,
-				Role:      msg.Role,
-				Content:   msg.Content,
-			})
-			if err != nil {
-				return fmt.Errorf("adding message: %w", err)
-			}
+	// Persist snapshot state (patient context / disclaimer flag) so restored
+	// sessions keep allergy, G6PD and thalassemia context.
+	if encoded, err := json.Marshal(state); err == nil {
+		if err := s.db.SetSessionState(sess.ID, string(encoded)); err != nil {
+			slog.Warn("Failed to persist session state", "id", sess.ID, "error", err)
 		}
 	}
 
 	return nil
+}
+
+// dbSessionState is the DBStore snapshot of non-message session state.
+type dbSessionState struct {
+	PatientContext *PatientContext `json:"patient_context,omitempty"`
+	DisclaimerSent bool            `json:"disclaimer_sent,omitempty"`
 }
 
 // Load reads a session from the database.
@@ -95,6 +112,17 @@ func (s *DBStore) Load(id string) (*Session, error) {
 		UpdatedAt:      record.UpdatedAt,
 	}
 
+	// Restore snapshot state (patient context / disclaimer flag).
+	if record.State != "" {
+		var state dbSessionState
+		if err := json.Unmarshal([]byte(record.State), &state); err != nil {
+			slog.Warn("Failed to parse session state, restoring messages only", "id", id, "error", err)
+		} else {
+			sess.PatientContext = state.PatientContext
+			sess.DisclaimerSent = state.DisclaimerSent
+		}
+	}
+
 	for _, msg := range messages {
 		sess.Messages = append(sess.Messages, llm.Message{
 			Role:    msg.Role,
@@ -107,7 +135,7 @@ func (s *DBStore) Load(id string) (*Session, error) {
 
 // List returns all persisted session IDs, most recently updated first.
 func (s *DBStore) List() ([]string, error) {
-	recs, err := s.db.ListAllSessions(200)
+	recs, err := s.db.ListAllSessions(200, 0)
 	if err != nil {
 		return nil, fmt.Errorf("listing sessions: %w", err)
 	}

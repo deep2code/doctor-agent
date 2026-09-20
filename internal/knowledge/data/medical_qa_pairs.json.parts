@@ -1,0 +1,29 @@
+{
+  "file": "medical_qa_pairs.json",
+  "algorithm": "concat-v1",
+  "max_part_bytes": 94371840,
+  "total_bytes": 342904675,
+  "sha256": "d8ed7084ed8907126aa739130ff013c0121299f0364beecdd2181ce73e4ec08e",
+  "parts": [
+    {
+      "name": "medical_qa_pairs.json.part000",
+      "bytes": 94371840,
+      "sha256": "bcfe4d078b5cce40b34231966bb9c39100552b8fad8667c0a4b98e239dc05984"
+    },
+    {
+      "name": "medical_qa_pairs.json.part001",
+      "bytes": 94371840,
+      "sha256": "c277b696ed06a59aaa42bb9e29ac4184d8da82c7df3b572ad823141f3838b816"
+    },
+    {
+      "name": "medical_qa_pairs.json.part002",
+      "bytes": 94371840,
+      "sha256": "9d71412549b3075cefe48ec22e00a03450639534b3d3e9c82af1f50b82fa8988"
+    },
+    {
+      "name": "medical_qa_pairs.json.part003",
+      "bytes": 59789155,
+      "sha256": "6c04e8e8c033ab00713c937cf871e938d9d1340257af31b42170cdca73772509"
+    }
+  ]
+}

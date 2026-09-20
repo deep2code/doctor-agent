@@ -3,6 +3,10 @@
 # binary cannot build/parse Go 1.27). Run locally with:
 #   go run github.com/golangci/golangci-lint/v2/cmd/golangci-lint@v2.13.0 run ./...
 # Conservative: the standard linter set plus a few safe additions.
+#
+# Note: exclusions live under `linters.exclusions` in v2 — the v1
+# `issues.exclude-rules` block is silently inert, which is why the old test-file
+# errcheck exclusion below never took effect.
 version: "2"
 
 run:
@@ -19,10 +23,22 @@ linters:
       disabled-checks:
         - ifElseChain
         - singleCaseSwitch
+    errcheck:
+      # Best-effort Close: every such site here is `defer x.Close()` or a close
+      # of a reader after io.ReadAll, where the error has nowhere to go.
+      exclude-functions:
+        - Close
 
-issues:
-  exclude-rules:
-    # Test helpers are allowed to ignore errors where the test fails anyway.
-    - path: _test\.go
-      linters:
-        - errcheck
+  exclusions:
+    rules:
+      # Test helpers may ignore errors — the assertion fails anyway.
+      - path: _test\.go
+        linters:
+          - errcheck
+      # Store.ensureXxx() lazy loaders are called for effect: a load failure
+      # surfaces as an empty cache (and thus an empty retrieval), not as an
+      # error the retriever can return. Checking it at ~19 call sites would add
+      # no-op branches only.
+      - linters:
+          - errcheck
+        text: '`[a-zA-Z0-9_.]*\.ensure[A-Z]\w*`'

@@ -46,7 +46,7 @@ func main() {
 	cfg := config.Load()
 
 	// Setup structured logging (stderr + rotating file in logs/ dir)
-	var level slog.Level = slog.LevelInfo
+	level := slog.LevelInfo
 	switch cfg.LogLevel {
 	case "debug":
 		level = slog.LevelDebug

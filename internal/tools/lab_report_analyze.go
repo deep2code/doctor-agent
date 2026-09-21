@@ -476,7 +476,7 @@ func (t *LabReportAnalyze) Execute(ctx context.Context, input map[string]any) (*
 		if it.Note != "" {
 			note = "（" + it.Note + "）"
 		}
-		sb.WriteString(fmt.Sprintf("• %s：%s（参考 %s）%s\n", it.Names[0], shown, refText, status))
+		fmt.Fprintf(&sb, "• %s：%s（参考 %s）%s\n", it.Names[0], shown, refText, status)
 		if meaning != "" {
 			sb.WriteString("  含义: " + meaning + note + "\n")
 		}

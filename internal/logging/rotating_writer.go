@@ -114,14 +114,16 @@ func (w *RotatingWriter) Close() error {
 // fresh file. Caller must hold w.mu.
 func (w *RotatingWriter) rotateLocked() {
 	if w.file != nil {
-		w.file.Close()
+		// No error reporting from here: this writer IS the log sink and w.mu
+		// is already held, so slog would recurse into a locked writer.
+		_ = w.file.Close()
 		w.file = nil
 	}
 	src := filepath.Join(w.dir, w.name)
 	ts := time.Now().Format("20060102-150405.000")
 	dst := filepath.Join(w.dir, fmt.Sprintf("%s.%s%s", trimExt(w.name), ts, filepath.Ext(w.name)))
 	// Rename; if the destination somehow exists, remove it first.
-	os.Remove(dst)
+	_ = os.Remove(dst)
 	if err := os.Rename(src, dst); err != nil {
 		// If rename fails (e.g. cross-device), fall back to truncate so we
 		// at least start fresh instead of growing unbounded.
@@ -148,7 +150,7 @@ func (w *RotatingWriter) cleanupLocked() {
 			continue
 		}
 		if info.ModTime().Before(cutoff) {
-			os.Remove(filepath.Join(w.dir, e.Name()))
+			_ = os.Remove(filepath.Join(w.dir, e.Name()))
 		}
 	}
 }

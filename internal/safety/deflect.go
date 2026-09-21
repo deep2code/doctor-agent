@@ -67,7 +67,7 @@ func splitSentences(line string) []string {
 	if cur.Len() > 0 {
 		rest := cur.String()
 		// 表格行含劝医词时整行丢弃，否则原样保留
-		if !(isTableLike(rest) && containsReferral(rest)) {
+		if !isTableLike(rest) || !containsReferral(rest) {
 			sents = append(sents, rest)
 		}
 	}

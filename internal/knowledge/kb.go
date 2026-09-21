@@ -7,9 +7,11 @@ import (
 	"errors"
 	"fmt"
 	"io"
+	"log/slog"
 	"runtime"
 	"strings"
 	"sync"
+	"time"
 
 	"github.com/go-sql-driver/mysql"
 )
@@ -210,24 +212,55 @@ func (kb *KB) InsertBatch(dataset string, rows []KBRow) error {
 	}
 	wg.Wait()
 
-	// Insert in chunks of rows per transaction. A single ~500k-row transaction
-	// would balloon InnoDB redo/undo logs; 20k-row transactions stay small and
-	// are safe because INSERT ... ON DUPLICATE KEY UPDATE is idempotent.
+	// Insert in transactions of rowsPerTx rows, each built from chunk-sized
+	// multi-row statements. A single ~500k-row transaction would balloon
+	// InnoDB redo/undo logs; 20k-row transactions stay small.
 	const (
 		chunk     = 200 // rows per INSERT statement
 		rowsPerTx = 20000
 	)
-	var sb strings.Builder
-	var tx *sql.Tx
-	var err error
-	inserted := 0
-	for i := 0; i < len(rows); i += chunk {
-		if inserted == 0 {
-			tx, err = kb.conn.Begin()
-			if err != nil {
-				return err
-			}
+	for start := 0; start < len(rows); start += rowsPerTx {
+		end := start + rowsPerTx
+		if end > len(rows) {
+			end = len(rows)
 		}
+		if err := kb.insertTx(dataset, rows[start:end], compressed[start:end], chunk); err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+// insertTx writes rows in chunk-sized upserts inside one transaction, replaying
+// the whole transaction when InnoDB drops it on a lock conflict. Concurrent
+// seed workers contend on kb_items' indexes (one dataset's DELETE range against
+// another's duplicate-key gap locks), so error 1213 is a transient conflict
+// rather than bad data — and because the statement is an idempotent upsert
+// (INSERT ... ON DUPLICATE KEY UPDATE), re-running an aborted transaction is
+// safe even if part of it had already been written.
+func (kb *KB) insertTx(dataset string, rows []KBRow, compressed [][]byte, chunk int) error {
+	const maxAttempts = 5
+	for attempt := 1; ; attempt++ {
+		err := kb.runInsertTx(dataset, rows, compressed, chunk)
+		if err == nil {
+			return nil
+		}
+		if !isRetryableLockError(err) || attempt >= maxAttempts {
+			return err
+		}
+		slog.Warn("knowledge seed hit a lock conflict, replaying transaction",
+			"dataset", dataset, "attempt", attempt, "rows", len(rows), "error", err)
+		time.Sleep(time.Duration(attempt*attempt) * 100 * time.Millisecond)
+	}
+}
+
+func (kb *KB) runInsertTx(dataset string, rows []KBRow, compressed [][]byte, chunk int) error {
+	var sb strings.Builder
+	tx, err := kb.conn.Begin()
+	if err != nil {
+		return err
+	}
+	for i := 0; i < len(rows); i += chunk {
 		end := i + chunk
 		if end > len(rows) {
 			end = len(rows)
@@ -249,18 +282,10 @@ func (kb *KB) InsertBatch(dataset string, rows []KBRow) error {
 			_ = tx.Rollback()
 			return fmt.Errorf("inserting chunk %d-%d: %w", i, end, err)
 		}
-		inserted += end - i
-		if inserted >= rowsPerTx {
-			if err = tx.Commit(); err != nil {
-				return fmt.Errorf("committing batch: %w", err)
-			}
-			inserted = 0
-		}
 	}
-	if inserted > 0 {
-		if err = tx.Commit(); err != nil {
-			return fmt.Errorf("committing final batch: %w", err)
-		}
+	if err = tx.Commit(); err != nil {
+		_ = tx.Rollback()
+		return fmt.Errorf("committing batch: %w", err)
 	}
 	return nil
 }
@@ -379,6 +404,20 @@ func isDuplicateIndexError(err error) bool {
 	var me *mysql.MySQLError
 	if errors.As(err, &me) {
 		return me.Number == 1061
+	}
+	return false
+}
+
+// isRetryableLockError reports whether err is MariaDB's transient lock conflict
+// (1213 ER_LOCK_DEADLOCK, 1205 ER_LOCK_WAIT_TIMEOUT) — both mean "you were
+// picked as the victim, replay the transaction".
+func isRetryableLockError(err error) bool {
+	if err == nil {
+		return false
+	}
+	var me *mysql.MySQLError
+	if errors.As(err, &me) {
+		return me.Number == 1213 || me.Number == 1205
 	}
 	return false
 }

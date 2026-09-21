@@ -10,6 +10,7 @@ gzip and new zstd files are readable.
 
 Usage:
   python3 external/make_gz.py [--level 19]
+  python3 external/make_gz.py --check   # CI gate: gz/ in sync with data/? (read-only)
 
 Idempotent: regenerates every .json.zst from internal/knowledge/data/*.json.
 Sources that exceed git's 100 MiB per-file limit are committed as parts
@@ -18,6 +19,7 @@ reassembles those in memory, so a checkout without the whole JSON still builds
 gz/. Run after editing any data JSON.
 """
 import argparse
+import io
 import os
 import sys
 from pathlib import Path
@@ -109,12 +111,83 @@ def load_source(name: str) -> bytes | None:
     return None
 
 
-def main() -> None:
+def find_artifact(name: str) -> Path | None:
+    """The committed compressed copy of one dataset (`<name>.zst`), if any."""
+    p = OUT_DIR / (name + ".zst")
+    return p if p.is_file() else None
+
+
+def decompress_artifact(path: Path) -> bytes:
+    data = path.read_bytes()
+    if data[:2] == b"\x1f\x8b":  # legacy gzip frame
+        import gzip
+
+        return gzip.decompress(data)
+    if zstd is not None:
+        reader = zstd.ZstdDecompressor().stream_reader(io.BytesIO(data))
+        with reader:
+            return reader.read()
+    import subprocess
+
+    return subprocess.run(
+        ["zstd", "-d", "-q", "-c", str(path)], check=True, capture_output=True
+    ).stdout
+
+
+def check_all() -> int:
+    """--check: does every gz/ artifact still hold its source bytes?
+
+    Compares decompressed payloads rather than the compressed bytes, because a
+    zstd frame is only byte-stable for one library version — pinning the check
+    to bytes would tie CI to `zstandard==0.23.0` forever and turn any version
+    bump into a false "stale gz" failure.
+    """
+    known = source_names()
+    drift, missing = [], []
+    for name in sorted(known):
+        try:
+            data = load_source(name)
+        except ValueError as exc:
+            print(f"ERROR: {exc}", file=sys.stderr)
+            return 1
+        art = find_artifact(name)
+        if data is None:
+            # No usable source in this checkout: the artifact is the only copy,
+            # so there is nothing to compare against — just require it to exist.
+            if art is None and name not in NO_SOURCE_IN_GIT:
+                missing.append(name)
+            continue
+        if art is None or decompress_artifact(art) != data:
+            drift.append(f"{name} ({'no artifact' if art is None else 'content differs'})")
+    for old in OUT_DIR.glob("*.zst"):
+        if old.stem not in known:
+            drift.append(f"{old.name} (orphan: no source)")
+    if drift or missing:
+        for d in drift + [f"{m} (never compressed)" for m in missing]:
+            print(f"  ❌ {d}", file=sys.stderr)
+        print(
+            f"─── gz/ is out of sync with data/ ({len(drift) + len(missing)} files); "
+            "run 'python3 external/make_gz.py' and commit",
+            file=sys.stderr,
+        )
+        return 1
+    print(f"─── gz/ matches data/ ({len(known)} datasets)")
+    return 0
+
+
+def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--level", type=int, default=19, help="zstd level (1-22)")
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="verify gz/ mirrors data/ without writing anything (exit 1 on drift)",
+    )
     args = parser.parse_args()
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    if args.check:
+        return check_all()
     src_bytes = out_bytes = 0
     count = 0
     skipped = 0
@@ -146,7 +219,8 @@ def main() -> None:
         summary += f", {skipped} skipped (no usable source)"
     print(f"─── {summary}: {src_bytes/1e6:.1f}MB -> {out_bytes/1e6:.1f}MB "
           f"(saved {(1 - out_bytes/src_bytes) * 100:.0f}%)")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

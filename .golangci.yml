@@ -23,11 +23,23 @@ linters:
       disabled-checks:
         - ifElseChain
         - singleCaseSwitch
+        # os.Exit in main() legitimately skips deferred cleanup; the process is
+        # going away anyway.
+        - exitAfterDefer
     errcheck:
-      # Best-effort Close: every such site here is `defer x.Close()` or a close
-      # of a reader after io.ReadAll, where the error has nowhere to go.
+      # Best-effort cleanup closes: `defer rows.Close()` / `defer zr.Close()`
+      # after the read already finished, and Close on a handle whose data has
+      # been fully consumed. The error has nowhere useful to go, so checking it
+      # would only add a no-op branch. Writer closes (gzip.Writer, temp files
+      # feeding an upload) are deliberately NOT excluded here.
       exclude-functions:
-        - Close
+        - (*database/sql.DB).Close
+        - (*database/sql.Rows).Close
+        - (*compress/gzip.Reader).Close
+        - (*os.File).Close
+        - (io.Closer).Close
+        - (mime/multipart.File).Close
+        - (*github.com/doctor-agent/internal/knowledge.KB).Close
 
   exclusions:
     rules:

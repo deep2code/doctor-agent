@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"math"
 	"sort"
+	"strconv"
+	"strings"
 )
 
 // GrowthAssessment evaluates one measurement (weight/length/head
@@ -50,6 +52,18 @@ var growthIndicatorKeys = map[string]struct{ who, cn, zh, unit string }{
 	"weight_for_height":  {"", "weight_for_height", "身高别体重(2-7岁)", "kg"},
 }
 
+// parseSex accepts the Chinese and English spellings the growth tables are
+// keyed by; ok=false means neither list matched.
+func parseSex(sex string) (girl bool, ok bool) {
+	switch strings.ToLower(strings.TrimSpace(sex)) {
+	case "女", "female", "girl", "f":
+		return true, true
+	case "男", "male", "boy", "m":
+		return false, true
+	}
+	return false, false
+}
+
 // AssessGrowth interpolates a z-score for the given measurement. It prefers
 // the China standard (WS/T 423-2022, 0-84 months) and also reports WHO when
 // applicable (0-60 months, 3 indicators).
@@ -63,8 +77,8 @@ func (r *KeywordRetriever) AssessGrowth(ctx context.Context, sex string, ageMont
 	if !ok {
 		return nil, fmt.Errorf("unknown indicator %q (weight|length_height|head_circumference|bmi|weight_for_length|weight_for_height)", indicator)
 	}
-	isGirl := sex == "女" || sex == "female" || sex == "girl" || sex == "f"
-	if !isGirl && !(sex == "男" || sex == "male" || sex == "boy" || sex == "m") {
+	isGirl, ok := parseSex(sex)
+	if !ok {
 		return nil, fmt.Errorf("sex must be 男/female/男/male style, got %q", sex)
 	}
 	out := &GrowthAssessment{
@@ -215,8 +229,7 @@ func nearestSchoolAgeKey(table map[string]float64, ageMonths int) (string, float
 }
 
 func schoolAgeKeyVal(k string) float64 {
-	var v float64
-	fmt.Sscanf(k, "%f", &v)
+	v, _ := strconv.ParseFloat(k, 64)
 	return v
 }
 
@@ -268,8 +281,8 @@ func (r *KeywordRetriever) AssessGrowthVelocity(ctx context.Context, sex string,
 	if !ok {
 		return nil, fmt.Errorf("unknown velocity indicator %q (weight|length|head_circumference)", indicator)
 	}
-	isGirl := sex == "女" || sex == "female" || sex == "girl" || sex == "f"
-	if !isGirl && !(sex == "男" || sex == "male" || sex == "boy" || sex == "m") {
+	isGirl, ok := parseSex(sex)
+	if !ok {
 		return nil, fmt.Errorf("unrecognised sex %q", sex)
 	}
 	windows := spec.get(doc.WhoVelocity)

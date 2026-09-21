@@ -60,7 +60,7 @@ func (t *KnowledgeSearch) Schema() map[string]any {
 			},
 			"dataset": map[string]any{
 				"type":        "string",
-				"description": "检索数据集（默认 medical）: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care, statpearls, medgen, lactmed, otc_safety, medlinezh, cdc_kp, otc_labels, nhc_mental, firstaid, travel_health",
+				"description": "检索数据集（默认 medical）: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care, statpearls, medgen, lactmed, otc_safety, medlinezh, cdc_kp, otc_labels, nhc_mental, firstaid, travel_health, public_resources",
 			},
 			"top_k": map[string]any{
 				"type":        "integer",
@@ -138,9 +138,11 @@ func (t *KnowledgeSearch) Execute(ctx context.Context, input map[string]any) (*T
 		return t.searchMilestone(ctx, query, ageMonths)
 	case "newborn_care":
 		return t.searchNewbornCare(ctx, query, topK)
+	case "public_resources":
+		return t.searchPublicResources(ctx, query, topK)
 	default:
 		return &ToolResult{Success: false, Error: fmt.Sprintf(
-			"未知数据集 '%s'，支持: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care, statpearls, medgen, lactmed, otc_safety, medlinezh, cdc_kp, otc_labels, nhc_mental, firstaid, travel_health", dataset)}, nil
+			"未知数据集 '%s'，支持: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care, statpearls, medgen, lactmed, otc_safety, medlinezh, cdc_kp, otc_labels, nhc_mental, firstaid, travel_health, public_resources", dataset)}, nil
 	}
 }
 

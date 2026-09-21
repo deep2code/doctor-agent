@@ -19,9 +19,7 @@ func ExcerptAround(content, query string, radius int) string {
 		return content
 	}
 	windows := cjkWindows(query, 2, 6)
-	for _, s := range nhcSynonymList(query) {
-		windows = append(windows, s)
-	}
+	windows = append(windows, nhcSynonymList(query)...)
 	var latin []string
 	for _, t := range tokenize(query) {
 		if !hasCJK(t) && len([]rune(t)) >= 2 {

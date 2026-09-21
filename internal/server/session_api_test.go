@@ -16,14 +16,10 @@ import (
 )
 
 // TestSessionAPIEndToEnd exercises the /sessions REST API against a real
-// MariaDB/MySQL instance (started locally on port 3307 for this test).
-// Skip if that instance is not reachable.
+// MariaDB/MySQL instance. Skip if that instance is not reachable.
 func TestSessionAPIEndToEnd(t *testing.T) {
-	// Point the app DB at the local scratch MySQL started for manual tests.
-	os.Setenv("MARIA_DB_HOST", "127.0.0.1")
-	os.Setenv("MARIA_DB_PORT", "3307")
-	os.Setenv("MARIA_DB_USER", "root")
-	os.Setenv("MARIA_DB_PASSWORD", "")
+	// Connection params come from the environment (locally:
+	// MARIA_DB_PORT=3307 go test ./...).
 	os.Setenv("MARIA_DB_APP_DB", "doctor_agent_test_sess")
 	os.Setenv("MARIA_DB_KNOWLEDGE_DB", "doctor_knowledge")
 	os.Setenv("LLM_PROVIDER", "anthropic")
@@ -56,12 +52,7 @@ func TestSessionAPIEndToEnd(t *testing.T) {
 
 	s := NewWithDB(baseCfg(), ag, nil, db)
 	doReq := func(method, path string) (*httptest.ResponseRecorder, string) {
-		var r *http.Request
-		if method == http.MethodDelete {
-			r = httptest.NewRequest(method, path, nil)
-		} else {
-			r = httptest.NewRequest(method, path, nil)
-		}
+		r := httptest.NewRequest(method, path, nil)
 		w := httptest.NewRecorder()
 		if strings.HasPrefix(path, "/sessions/") {
 			s.handleSessionByID(w, r)

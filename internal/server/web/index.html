@@ -907,6 +907,8 @@
     return row;
   }
 
+  /* 最近一次用户提问：答案侧人体图的高亮必须源自问题本身，而非答案正文 */
+  var lastQuestion = "";
   function addLine(role, text, images) {
     if (welcomeEl.style.display !== "none") welcomeEl.style.display = "none";
     var line = document.createElement("div");
@@ -917,10 +919,11 @@
     var say = document.createElement("div");
     say.className = "line-say";
     if (role === "user") {
+      if (text) lastQuestion = text;
       if (images && images.length) say.appendChild(imgRow(images));
       if (text) { var tp = document.createElement("div"); tp.textContent = text; say.appendChild(tp); }
     } else {
-      say.innerHTML = renderAnswer(text || "");
+      say.innerHTML = renderAnswer(text || "", lastQuestion);
     }
     line.appendChild(who); line.appendChild(say);
     transcript.appendChild(line);
@@ -1219,7 +1222,7 @@
     liver: "digest", gallbladder: "digest", stomach: "digest", spleen: "immune", pancreas: "digest",
     kidneys: "uri", intestine: "digest", colon: "digest", appendix: "digest", bladder: "uri",
     arms: "motion", legs: "motion" };
-  function bodyRunSVG(hits) {
+  function bodyRunSVG(hits, fromQuestion) {
     var on = {};
     (hits || "").split(",").forEach(function (u) {
       var s = SYSTEM_OF_UNIT[u.trim()];
@@ -1229,20 +1232,21 @@
     var names = BODY_SYSTEMS.filter(function (n) { return on[n.id]; });
     var legend;
     if (names.length) {
-      legend = "结合问题，受影响较直接的是 <b>" + names.map(function (n) { return n.name; }).join("、") +
+      legend = (fromQuestion ? "结合问题，受影响较直接的是 <b>" : "回答中提及的受影响系统包括 <b>") + names.map(function (n) { return n.name; }).join("、") +
         "</b> 系统：" + names.map(function (n) { return "<b>" + n.name + "</b>（" + n.desc + "）"; }).join("；") +
         "。其他系统通过血液循环与神经信号协同参与。";
     } else {
       legend = "循环系统把氧气养分送往全身，神经与内分泌系统发出调控信号，消化、呼吸、泌尿系统负责物质进出，免疫系统巡逻防御——各系统协同维持运转。";
     }
-    return '<div class="ans-media-cap">人体解剖图 · 分层可缩放（高亮 = 与问题直接相关）</div>' + slot +
+    return '<div class="ans-media-cap">人体解剖图 · 分层可缩放' +
+      (hits && fromQuestion ? '（高亮 = 与问题直接相关）' : '') + '</div>' + slot +
       '<div class="run-legend">' + legend + "</div>";
   }
   function hasCauseContent(md) {
     return /(病因|发病|致病|病理机制|发生机制|机制|什么原因|什么引起的|为什么会)/.test(md || "");
   }
 
-  function renderAnswer(md) {
+  function renderAnswer(md, question) {
     if (!md) return "";
     var sec = splitSections(md);
     var has = sec.summary.length || sec.detail.length || sec.prof.length || sec.refs.length;
@@ -1268,14 +1272,16 @@
     }
     /* 2. 图文并行：左文字，右人体图（命中部位时） */
     var detailMd = joinTitles(sec.detail);
-    var hits = bodyHint(detailMd);
+    /* 高亮只从用户问题取词；无问题时（纯图片解读等）退回扫描答案正文，但不再宣称与问题相关 */
+    var fromQuestion = !!(question || "").trim();
+    var hits = bodyHint(fromQuestion ? question : detailMd);
     out += '<div class="ans-grid"><div class="ans-main">' + renderMD(detailMd) + "</div>";
     if (hits) out += '<div class="ans-media">' + bodyFigure(hits) + "</div>";
     out += "</div>";
     /* 3. 专业描述 / 参考引用 / 人体运行图：默认折叠 */
     out += drawer("🔬", "专业描述", renderMD(joinTitles(sec.prof)), "prof");
     if (hasCauseContent(md)) {
-      out += drawer("🫀", "人体运行图（发病机制）", bodyRunSVG(hits), "run");
+      out += drawer("🫀", "人体运行图（发病机制）", bodyRunSVG(hits, fromQuestion), "run");
     }
     out += drawer("📚", "参考引用", renderMD(joinPlain(sec.refs)), "refs");
     return out || renderMD(md);
@@ -1439,7 +1445,7 @@
     ["heart", ["心口", "心前区", "心绞痛", "心悸", "心脏", "胸闷"]],
     ["lungs", ["肺", "咳嗽", "哮喘", "气短", "支气管", "呼吸"]],
     ["heart,lungs", ["胸口", "胸"]],
-    ["liver,gallbladder", ["右上腹", "胆囊", "胆", "肝"]],
+    ["liver,gallbladder", ["右上腹", "胆囊", "肝"]],
     ["stomach,pancreas,spleen", ["胃", "胰腺", "脾"]],
     ["appendix,colon", ["阑尾", "右下腹"]],
     ["colon", ["左下腹", "结肠"]],
@@ -1448,8 +1454,8 @@
     ["bladder,hips", ["腹股沟", "疝", "髋"]],
     ["hips", ["尾骨", "屁股", "臀部", "臀"]],
     ["kidneys", ["肾", "腰椎", "腰部", "下背", "腰"]],
-    ["arms", ["肩", "上臂", "胳膊", "手臂", "肘", "手指", "手腕", "手背", "腕", "手"]],
-    ["legs", ["大腿", "膝盖", "膝关节", "膝", "小腿", "腿抽筋", "抽筋", "脚趾", "足底", "脚踝", "脚", "足", "踝"]]
+    ["arms", ["肩", "上臂", "胳膊", "手臂", "肘", "手指", "手腕", "手背", "腕"]],
+    ["legs", ["大腿", "膝盖", "膝关节", "膝", "小腿", "腿抽筋", "抽筋", "脚趾", "足底", "脚踝", "脚", "踝"]]
   ];
   function bodyHint(text) {
     if (!text) return "";
@@ -1737,6 +1743,7 @@ async function apiDeleteConv(id) {
   }
   function replayMessages(messages) {
     transcript.innerHTML = "";
+    lastQuestion = "";  // 防止上一会话的问题文本参与本会话人体图高亮
     var aiIdx = 0;
     messages.forEach(function (it) {
       addLine(it.role, it.content);
@@ -1990,7 +1997,7 @@ var ul = $("conv-list");
           delta: function (d) {
             stopThinking();
             try { full += JSON.parse(d).text || ""; } catch (e) {}
-            say.innerHTML = renderAnswer(full);
+            say.innerHTML = renderAnswer(full, text);
             say.appendChild(cursor);
             setSpeech("ai", plainText(full) + " ▌");
             scrollToBottom();
@@ -2016,7 +2023,7 @@ var ul = $("conv-list");
       }
       if (cursor.parentNode === say) say.removeChild(cursor);
       if (full) {
-        say.innerHTML = renderAnswer(full);
+        say.innerHTML = renderAnswer(full, text);
         mountAnatomy(say);
         attachShareFooter(line, pairIndex, lastMeta);
       } else {

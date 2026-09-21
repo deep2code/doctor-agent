@@ -22,12 +22,13 @@ import (
 // TestAdminKnowledgeAPI verifies the admin console flow: admin login via
 // Basic auth, upload a medical knowledge dataset, and per-dataset stats.
 func TestAdminKnowledgeAPI(t *testing.T) {
-	os.Setenv("MARIA_DB_HOST", "127.0.0.1")
-	os.Setenv("MARIA_DB_PORT", "3307")
-	os.Setenv("MARIA_DB_USER", "root")
-	os.Setenv("MARIA_DB_PASSWORD", "")
+	// Connection params (host/port/user/password) come from the environment so
+	// CI can point this at a service container; locally run with
+	// MARIA_DB_PORT=3307 go test ./...
 	os.Setenv("MARIA_DB_APP_DB", "doctor_agent_test_admin")
-	os.Setenv("MARIA_DB_KNOWLEDGE_DB", "doctor_knowledge")
+	// Its own knowledge DB: the upload flow Clear()s the whole dataset before
+	// inserting, which would otherwise wipe the real doctor_knowledge rows.
+	os.Setenv("MARIA_DB_KNOWLEDGE_DB", "doctor_knowledge_test_admin")
 	os.Setenv("LLM_PROVIDER", "anthropic")
 	os.Setenv("ANTHROPIC_API_KEY", "test-key")
 

@@ -1,16 +1,36 @@
 package database
 
 import (
+	"fmt"
+	"os"
 	"testing"
+
+	"github.com/go-sql-driver/mysql"
 )
 
-// openTestDB 返回本地测试库连接（127.0.0.1:3307, doctor-kb-test 容器或
-// 任意空密码 MariaDB）；不可用则跳过。
+func envOr(key, def string) string {
+	if v := os.Getenv(key); v != "" {
+		return v
+	}
+	return def
+}
+
+// openTestDB 连接被测 MariaDB：参数取自标准 MARIA_DB_* 环境变量（CI 的 service
+// 容器用 3306；本地跑 `MARIA_DB_PORT=3307 go test ./...`），连不上则跳过。
 func openTestDB(t *testing.T) *DB {
 	t.Helper()
-	db, err := New(Config{DSN: "root@tcp(127.0.0.1:3307)/doctor_knowledge?parseTime=true&interpolateParams=true&charset=utf8mb4"})
+	cfg := mysql.NewConfig()
+	cfg.User = envOr("MARIA_DB_USER", "root")
+	cfg.Passwd = os.Getenv("MARIA_DB_PASSWORD")
+	cfg.Net = "tcp"
+	cfg.Addr = fmt.Sprintf("%s:%s", envOr("MARIA_DB_HOST", "127.0.0.1"), envOr("MARIA_DB_PORT", "3307"))
+	cfg.DBName = envOr("MARIA_DB_KNOWLEDGE_DB", "doctor_knowledge")
+	cfg.ParseTime = true
+	cfg.InterpolateParams = true
+	cfg.Params = map[string]string{"charset": "utf8mb4"}
+	db, err := New(Config{DSN: cfg.FormatDSN()})
 	if err != nil {
-		t.Skipf("local test MariaDB (3307) unavailable: %v", err)
+		t.Skipf("test MariaDB (%s) unavailable: %v", cfg.Addr, err)
 	}
 	t.Cleanup(func() { db.Close() })
 	return db

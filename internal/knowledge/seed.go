@@ -58,9 +58,8 @@ func Seed(dbPath, gzDir string) error {
 	}
 
 	// Seed datasets in parallel (bounded worker pool). Each dataset is
-	// independent — Clear + InsertBatch touch disjoint key ranges — so
-	// parallelism is safe and cuts wall time on the large tables
-	// (medicalqa 506k, nmpa 167k, cpubmed 105k rows).
+	// independent, so parallelism is safe and cuts wall time on the large
+	// tables (medicalqa 506k, nmpa 167k, cpubmed 105k rows).
 	const seedWorkers = 4
 	datasets := make([]string, 0, len(byDataset))
 	for ds := range byDataset {
@@ -69,6 +68,18 @@ func Seed(dbPath, gzDir string) error {
 	sort.Strings(datasets)
 	for _, ds := range datasets {
 		dedupeDatasetKeys(byDataset[ds])
+	}
+
+	// Wipe every dataset first, sequentially. A DELETE range lock on
+	// idx_kb_dataset deadlocks against the duplicate-key gap locks another
+	// worker's INSERT takes on the shared unique index, so clears must not
+	// overlap the parallel inserts below. Consequence: if a later insert fails
+	// the knowledge DB is left partly empty — re-run seed-knowledge rather than
+	// trusting it (insertTx retries transient lock conflicts, so this is rare).
+	for _, ds := range datasets {
+		if err := kb.Clear(ds); err != nil {
+			return fmt.Errorf("clearing %s: %w", ds, err)
+		}
 	}
 
 	var (
@@ -84,14 +95,6 @@ func Seed(dbPath, gzDir string) error {
 		go func(ds string, rows []KBRow) {
 			defer wg.Done()
 			defer func() { <-sem }()
-			if err := kb.Clear(ds); err != nil {
-				mu.Lock()
-				if werr == nil {
-					werr = fmt.Errorf("clearing %s: %w", ds, err)
-				}
-				mu.Unlock()
-				return
-			}
 			if err := kb.InsertBatch(ds, rows); err != nil {
 				mu.Lock()
 				if werr == nil {

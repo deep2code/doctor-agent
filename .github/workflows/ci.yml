@@ -26,13 +26,39 @@ jobs:
   test:
     name: Test
     runs-on: ubuntu-latest
+    # The knowledge/session/server suites read the MariaDB knowledge store, so
+    # CI provides a real instance and seeds it from the gz sources first.
+    services:
+      mariadb:
+        image: mariadb:11.4
+        env:
+          MARIADB_ALLOW_EMPTY_ROOT_PASSWORD: "yes"
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd "healthcheck.sh --connect --innodb_initialized"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 12
+    env:
+      MARIA_DB_HOST: 127.0.0.1
+      MARIA_DB_PORT: "3306"
+      MARIA_DB_USER: root
+      MARIA_DB_PASSWORD: ""
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
         with:
           go-version: "1.27"
+      - name: Seed knowledge database
+        run: go run . seed-knowledge
       - name: Run tests
-        run: go test ./... -v -race -count=1
+        # The knowledge suite decompresses + classifies the two >100MB QA seeds
+        # (TestBakeBigCorporaZST) and runs the full BM25 layer under -race;
+        # measured ~10min locally, so the 10m default is not enough.
+        run: go test ./... -race -count=1 -timeout 30m
+      - name: Verify knowledge
+        run: go run . verify-knowledge
 
   build:
     name: Build
@@ -48,8 +74,6 @@ jobs:
           go build \
             -ldflags "-s -w -X main.gitCommit=${{ github.sha }} -X main.buildTime=$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
             -o bin/doctor-agent .
-      - name: Verify knowledge
-        run: go run . verify-knowledge
 
   docker:
     name: Docker Build
@@ -60,6 +84,8 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version: "1.27"
+      - name: Install python deps
+        run: python3 -m pip install --no-input "zstandard==0.23.0"
       - name: Regenerate gz
         run: python3 external/make_gz.py
       - name: Build app image
@@ -83,13 +109,13 @@ jobs:
         with:
           go-version: "1.27"
       - name: Install python deps
-        run: pip install gzip
-      - name: Regenerate gz
-        run: python3 external/make_gz.py
-      - name: Check for changes
-        run: |
-          if ! git diff --quiet internal/knowledge/gz/; then
-            echo "❌ gz files are stale — run 'python3 external/make_gz.py' and commit"
-            git diff --stat internal/knowledge/gz/
-            exit 1
-          fi
+        # make_gz.py compresses with zstd level 19 via the `zstandard` binding
+        # (there is no `gzip` package on PyPI; without this it silently falls
+        # back to the system zstd CLI).
+        run: python3 -m pip install --no-input "zstandard==0.23.0"
+      - name: Check gz is in sync with data/
+        # Read-only content check (decompress gz/ and compare to the source
+        # bytes). Deliberately not "regenerate then git diff": a zstd frame is
+        # only byte-stable for one library version, so a byte diff would flag
+        # every zstandard bump as stale data.
+        run: python3 external/make_gz.py --check

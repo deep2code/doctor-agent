@@ -16,6 +16,7 @@ import (
 	"path/filepath"
 	"regexp"
 	"runtime"
+	"strconv"
 	"strings"
 	"sync"
 	"time"
@@ -48,9 +49,6 @@ var statsTmpl string
 
 //go:embed web/share.html
 var sharePageTmpl string
-
-//go:embed web/export_pdf.html
-var exportPDFTmpl string
 
 // Shared stylesheets for the public marketing pages, split out of the old
 // single landing <style> block. They are inlined into each page at startup
@@ -275,17 +273,6 @@ func serveHTML(w http.ResponseWriter, r *http.Request, page string) {
 	_, _ = io.WriteString(w, page)
 }
 
-// escapeHTML 转义 HTML 特殊字符。
-// TODO: remove if not used (deadcode)
-func escapeHTML(s string) string {
-	s = strings.ReplaceAll(s, "&", "&amp;")
-	s = strings.ReplaceAll(s, "<", "&lt;")
-	s = strings.ReplaceAll(s, ">", "&gt;")
-	s = strings.ReplaceAll(s, "\"", "&quot;")
-	s = strings.ReplaceAll(s, "'", "&#39;")
-	return s
-}
-
 // getChineseFontPath 返回系统中文字体路径。如果找不到任何中文字体，返回空字符串。
 func getChineseFontPath() string {
 	switch runtime.GOOS {
@@ -330,177 +317,6 @@ func getChineseFontPath() string {
 	default:
 		return ""
 	}
-}
-
-// renderMarkdown 简单的 Markdown 转 HTML（用于 PDF 导出）。
-// TODO: remove if not used (deadcode)
-func renderMarkdown(md string) string {
-	lines := strings.Split(md, "\n")
-	var out []string
-	var inCodeBlock bool
-	var codeContent []string
-	var inList bool
-	var listType string
-	var inTable bool
-	var tableRows [][]string
-
-	flushList := func() {
-		if inList {
-			out = append(out, "</ul>")
-			inList = false
-		}
-	}
-
-	flushTable := func() {
-		if len(tableRows) > 0 {
-			out = append(out, "<table>")
-			for i, row := range tableRows {
-				tag := "td"
-				if i == 0 {
-					tag = "th"
-				}
-				out = append(out, "<tr>")
-				for _, cell := range row {
-					cell = strings.TrimSpace(cell)
-					out = append(out, "<"+tag+">"+cell+"</"+tag+">")
-				}
-				out = append(out, "</tr>")
-			}
-			out = append(out, "</table>")
-			tableRows = nil
-		}
-	}
-
-	for _, line := range lines {
-		// 代码块
-		if strings.HasPrefix(strings.TrimSpace(line), "```") {
-			if inCodeBlock {
-				out = append(out, "<pre><code>"+strings.Join(codeContent, "\n")+"</code></pre>")
-				codeContent = nil
-				inCodeBlock = false
-			} else {
-				inCodeBlock = true
-			}
-			continue
-		}
-		if inCodeBlock {
-			codeContent = append(codeContent, line)
-			continue
-		}
-
-		line = strings.TrimSpace(line)
-		if line == "" {
-			flushList()
-			flushTable()
-			continue
-		}
-
-		// 跳过 Markdown 表格分隔线
-		if strings.HasPrefix(line, "|") && strings.Contains(line, "---") {
-			continue
-		}
-
-		// 表格
-		if strings.HasPrefix(line, "|") {
-			flushList()
-			cells := strings.Split(strings.Trim(line, "|"), "|")
-			var row []string
-			for _, cell := range cells {
-				cell = strings.TrimSpace(cell)
-				row = append(row, cell)
-			}
-			if len(row) > 0 {
-				tableRows = append(tableRows, row)
-			}
-			inTable = true
-			continue
-		} else if inTable {
-			flushTable()
-			inTable = false
-		}
-
-		// 标题
-		if strings.HasPrefix(line, "#") {
-			flushList()
-			re := regexp.MustCompile(`^(#{1,6})\s+(.+)$`)
-			m := re.FindStringSubmatch(line)
-			if m != nil {
-				level := len(m[1])
-				out = append(out, "<h"+fmt.Sprint(level)+">"+m[2]+"</h"+fmt.Sprint(level)+">")
-				continue
-			}
-		}
-
-		// 粗体
-		if strings.Contains(line, "**") {
-			re := regexp.MustCompile(`\*\*([^*]+)\*\*`)
-			line = re.ReplaceAllString(line, "<strong>$1</strong>")
-		}
-
-		// 斜体
-		if strings.Contains(line, "*") && !strings.HasPrefix(line, "-") && !strings.HasPrefix(line, "*") {
-			re := regexp.MustCompile(`\*([^*]+)\*`)
-			line = re.ReplaceAllString(line, "<em>$1</em>")
-		}
-
-		// 行内代码
-		re := regexp.MustCompile("`([^`]+)`")
-		line = re.ReplaceAllString(line, "<code>$1</code>")
-
-		// 链接
-		re = regexp.MustCompile(`\[([^\]]+)\]\(([^)]+)\)`)
-		line = re.ReplaceAllString(line, "<a href=\"$2\" target=\"_blank\">$1</a>")
-
-		// 无序列表
-		if strings.HasPrefix(line, "- ") || strings.HasPrefix(line, "* ") {
-			flushList()
-			if !inList || listType != "ul" {
-				flushList()
-				out = append(out, "<ul>")
-				inList = true
-				listType = "ul"
-			}
-			item := strings.TrimPrefix(strings.TrimPrefix(line, "- "), "* ")
-			out = append(out, "<li>"+item+"</li>")
-			continue
-		}
-
-		// 有序列表
-		re = regexp.MustCompile(`^(\d+)\.\s+(.+)$`)
-		m := re.FindStringSubmatch(line)
-		if m != nil {
-			flushList()
-			if !inList || listType != "ol" {
-				flushList()
-				out = append(out, "<ol>")
-				inList = true
-				listType = "ol"
-			}
-			out = append(out, "<li>"+m[2]+"</li>")
-			continue
-		}
-
-		// 分割线
-		if strings.HasPrefix(line, "---") || strings.HasPrefix(line, "***") {
-			out = append(out, "<hr>")
-			continue
-		}
-
-		// 引用
-		if strings.HasPrefix(line, "> ") {
-			out = append(out, "<blockquote>"+strings.TrimPrefix(line, "> ")+"</blockquote>")
-			continue
-		}
-
-		// 普通段落
-		flushList()
-		out = append(out, "<p>"+line+"</p>")
-	}
-
-	flushList()
-	flushTable()
-
-	return strings.Join(out, "\n")
 }
 
 // PDF rendering constants for chat export.
@@ -778,7 +594,7 @@ func renderMarkdownToPDF(pdf *gofpdf.Fpdf, md string) {
 				cell = strings.TrimSpace(cell)
 				row = append(row, cell)
 			}
-			if len(row) > 0 && !(len(row) == 1 && row[0] == "") {
+			if len(row) > 0 && (len(row) != 1 || row[0] != "") {
 				tableRows = append(tableRows, row)
 			}
 			inTable = true
@@ -1092,7 +908,7 @@ func (s *Server) handleFavicon(w http.ResponseWriter, r *http.Request) {
 	}
 	w.Header().Set("Content-Type", "image/x-icon")
 	w.Header().Set("Cache-Control", "public, max-age=86400")
-	w.Write(faviconICO)
+	_, _ = w.Write(faviconICO)
 }
 
 // mediaNameRe 限制媒体文件名为单级安全文件名。
@@ -1411,6 +1227,30 @@ func writeJSON(w http.ResponseWriter, status int, data any) {
 	}
 }
 
+// writeJSONDownload streams data as a downloadable JSON attachment. A write
+// error can only mean the browser hung up mid-download, so it is logged.
+func writeJSONDownload(w http.ResponseWriter, filename string, data any) {
+	w.Header().Set("Content-Type", "application/json; charset=utf-8")
+	w.Header().Set("Content-Disposition", "attachment; filename="+filename)
+	if err := json.NewEncoder(w).Encode(data); err != nil {
+		slog.Warn("admin export write failed", "file", filename, "error", err)
+	}
+}
+
+// queryInt reads a non-negative integer query parameter, falling back to def
+// when it is absent, unparsable or negative.
+func queryInt(r *http.Request, name string, def int) int {
+	v := r.URL.Query().Get(name)
+	if v == "" {
+		return def
+	}
+	n, err := strconv.Atoi(v)
+	if err != nil || n < 0 {
+		return def
+	}
+	return n
+}
+
 // handleFeedback collects user feedback (thumbs up/down) for responses.
 func (s *Server) handleFeedback(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodPost {
@@ -1614,11 +1454,6 @@ func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
 				slog.Error("Getting session messages for export", "id", id, "error", err)
 				writeJSON(w, http.StatusInternalServerError, map[string]any{"error": "failed to get session messages"})
 				return
-			}
-			// 构建导出数据
-			type exportMsg struct {
-				Role    string `json:"role"`
-				Content string `json:"content"`
 			}
 			exportData := map[string]any{
 				"id":         rec.ID,
@@ -2060,12 +1895,12 @@ func (s *Server) handleAdminSync(w http.ResponseWriter, r *http.Request) {
 
 	// Get source parameter
 	source := r.FormValue("source")
-	if source == "" || source == "all" {
+	switch source {
+	case "", "all":
 		// "all" (or absent) means sync every dataset; no filename fallback.
 		source = ""
-	} else if source == "auto" {
-		source = strings.TrimSuffix(handler.Filename, ".json")
-		source = strings.TrimSuffix(source, ".json")
+	case "auto":
+		source = strings.TrimSuffix(strings.TrimSuffix(handler.Filename, ".json"), ".json")
 	}
 
 	// Get full sync parameter
@@ -2390,14 +2225,8 @@ func (s *Server) handleAdminSessions(w http.ResponseWriter, r *http.Request) {
 	switch r.Method {
 	case http.MethodGet:
 		// Get pagination params
-		limit := 50
-		offset := 0
-		if v := r.URL.Query().Get("limit"); v != "" {
-			fmt.Sscanf(v, "%d", &limit)
-		}
-		if v := r.URL.Query().Get("offset"); v != "" {
-			fmt.Sscanf(v, "%d", &offset)
-		}
+		limit := queryInt(r, "limit", 50)
+		offset := queryInt(r, "offset", 0)
 
 		recs, err := s.db.ListAllSessions(limit, offset)
 		if err != nil {
@@ -2536,14 +2365,8 @@ func (s *Server) handleAdminFeedback(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	limit := 50
-	offset := 0
-	if v := r.URL.Query().Get("limit"); v != "" {
-		fmt.Sscanf(v, "%d", &limit)
-	}
-	if v := r.URL.Query().Get("offset"); v != "" {
-		fmt.Sscanf(v, "%d", &offset)
-	}
+	limit := queryInt(r, "limit", 50)
+	offset := queryInt(r, "offset", 0)
 
 	feedback, err := s.db.GetFeedbackWithDetails(limit, offset)
 	if err != nil {
@@ -2596,14 +2419,8 @@ func (s *Server) handleAdminAuditLogs(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	limit := 50
-	offset := 0
-	if v := r.URL.Query().Get("limit"); v != "" {
-		fmt.Sscanf(v, "%d", &limit)
-	}
-	if v := r.URL.Query().Get("offset"); v != "" {
-		fmt.Sscanf(v, "%d", &offset)
-	}
+	limit := queryInt(r, "limit", 50)
+	offset := queryInt(r, "offset", 0)
 
 	logs, err := s.db.ListAuditLogs(limit, offset)
 	if err != nil {
@@ -2720,14 +2537,8 @@ func (s *Server) handleAdminAPIStats(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	limit := 50
-	offset := 0
-	if v := r.URL.Query().Get("limit"); v != "" {
-		fmt.Sscanf(v, "%d", &limit)
-	}
-	if v := r.URL.Query().Get("offset"); v != "" {
-		fmt.Sscanf(v, "%d", &offset)
-	}
+	limit := queryInt(r, "limit", 50)
+	offset := queryInt(r, "offset", 0)
 
 	stats, err := s.db.ListAPIStats(limit, offset)
 	if err != nil {
@@ -2749,10 +2560,7 @@ func (s *Server) handleAdminAPIStatsSummary(w http.ResponseWriter, r *http.Reque
 		return
 	}
 
-	hours := 24
-	if v := r.URL.Query().Get("hours"); v != "" {
-		fmt.Sscanf(v, "%d", &hours)
-	}
+	hours := queryInt(r, "hours", 24)
 
 	summary, err := s.db.GetAPIStatsSummary(hours)
 	if err != nil {
@@ -2964,9 +2772,7 @@ func (s *Server) handleAdminExport(w http.ResponseWriter, r *http.Request) {
 			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
 			return
 		}
-		w.Header().Set("Content-Type", "application/json; charset=utf-8")
-		w.Header().Set("Content-Disposition", "attachment; filename=sessions.json")
-		json.NewEncoder(w).Encode(sessions)
+		writeJSONDownload(w, "sessions.json", sessions)
 
 	case "feedback":
 		feedback, err := s.db.GetFeedbackWithDetails(10000, 0)
@@ -2974,9 +2780,7 @@ func (s *Server) handleAdminExport(w http.ResponseWriter, r *http.Request) {
 			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
 			return
 		}
-		w.Header().Set("Content-Type", "application/json; charset=utf-8")
-		w.Header().Set("Content-Disposition", "attachment; filename=feedback.json")
-		json.NewEncoder(w).Encode(feedback)
+		writeJSONDownload(w, "feedback.json", feedback)
 
 	case "audit_logs":
 		logs, err := s.db.ListAuditLogs(10000, 0)
@@ -2984,9 +2788,7 @@ func (s *Server) handleAdminExport(w http.ResponseWriter, r *http.Request) {
 			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
 			return
 		}
-		w.Header().Set("Content-Type", "application/json; charset=utf-8")
-		w.Header().Set("Content-Disposition", "attachment; filename=audit_logs.json")
-		json.NewEncoder(w).Encode(logs)
+		writeJSONDownload(w, "audit_logs.json", logs)
 
 	case "config":
 		configs, err := s.db.ListSystemConfigs()
@@ -2994,9 +2796,7 @@ func (s *Server) handleAdminExport(w http.ResponseWriter, r *http.Request) {
 			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
 			return
 		}
-		w.Header().Set("Content-Type", "application/json; charset=utf-8")
-		w.Header().Set("Content-Disposition", "attachment; filename=config.json")
-		json.NewEncoder(w).Encode(configs)
+		writeJSONDownload(w, "config.json", configs)
 
 	default:
 		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "unknown export type"})

@@ -24,6 +24,13 @@ func NewComposer() *Composer {
 // and safety rules,
 // then injecting retrieved knowledge and tool definitions.
 func (c *Composer) ComposeSystemPrompt(retrieved []knowledge.RetrievalResult, patientCtx string) string {
+	return c.ComposeStaticPrefix() + c.ComposeDynamicSections(retrieved, patientCtx)
+}
+
+// ComposeStaticPrefix returns the byte-stable leading section of the system
+// prompt (layers 0 through 3.8). It is identical for every request, so the
+// Anthropic provider can mark it cacheable via a prompt-cache breakpoint.
+func (c *Composer) ComposeStaticPrefix() string {
 	var sb strings.Builder
 
 	// Layer 0: Foundation (Medical Ethics & Role)
@@ -57,6 +64,16 @@ func (c *Composer) ComposeSystemPrompt(retrieved []knowledge.RetrievalResult, pa
 	// Layer 3.8: Dual output (通俗版/医生版)
 	sb.WriteString(LayerDualOutput)
 	sb.WriteString("\n\n")
+
+	return sb.String()
+}
+
+// ComposeDynamicSections returns the per-request remainder of the system
+// prompt: patient context, retrieved knowledge (or the empty-recall
+// guidance), and the safety layer. Order matches ComposeSystemPrompt so
+// static + dynamic concatenates to the exact same text.
+func (c *Composer) ComposeDynamicSections(retrieved []knowledge.RetrievalResult, patientCtx string) string {
+	var sb strings.Builder
 
 	// Patient context injection (if available)
 	if patientCtx != "" {

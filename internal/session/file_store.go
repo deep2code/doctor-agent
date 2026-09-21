@@ -40,7 +40,7 @@ func NewFileStore(dir string) (*FileStore, error) {
 	if dir == "" {
 		return nil, fmt.Errorf("session store dir is empty")
 	}
-	if err := os.MkdirAll(dir, 0o755); err != nil {
+	if err := os.MkdirAll(dir, 0o700); err != nil {
 		return nil, fmt.Errorf("creating session dir: %w", err)
 	}
 	return &FileStore{dir: dir}, nil
@@ -77,7 +77,10 @@ func (fs *FileStore) Save(s *Session) error {
 		return fmt.Errorf("session path: %w", err)
 	}
 	tmp := path + ".tmp"
-	if err := os.WriteFile(tmp, data, 0o644); err != nil {
+	// 0600: snapshots hold a patient's conversation, and now the owner binding
+	// that /sessions and /family rely on — neither belongs in another user's
+	// readable file on a shared host.
+	if err := os.WriteFile(tmp, data, 0o600); err != nil {
 		return fmt.Errorf("write session temp: %w", err)
 	}
 	if err := os.Rename(tmp, path); err != nil {

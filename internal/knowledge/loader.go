@@ -1,7 +1,9 @@
 package knowledge
 
 import (
+	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"log/slog"
 	"regexp"
@@ -247,6 +249,16 @@ func (s *Store) Close() error {
 		return nil
 	}
 	return s.kb.Close()
+}
+
+// Health reports whether the knowledge store is reachable AND seeded. An
+// empty store still answers HTTP probes happily while every retrieval returns
+// nothing, which is the failure mode worth surfacing to /health.
+func (s *Store) Health(ctx context.Context) error {
+	if s == nil || s.kb == nil {
+		return errors.New("knowledge store not open")
+	}
+	return s.kb.Health(ctx)
 }
 
 // once returns the load-state flag associated with a dataset name.

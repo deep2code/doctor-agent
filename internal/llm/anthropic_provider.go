@@ -41,7 +41,7 @@ func (p *AnthropicProvider) Name() string {
 func (p *AnthropicProvider) Model() string { return p.model }
 
 func (p *AnthropicProvider) Chat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string) (*ChatResponse, error) {
-	resp, err := p.client.Messages.New(ctx, p.buildParams(messages, tools, systemPrompt))
+	resp, err := p.client.Messages.New(ctx, p.buildParams(messages, tools, []anthropic.TextBlockParam{{Text: systemPrompt}}))
 	if err != nil {
 		return nil, fmt.Errorf("anthropic API error: %w", err)
 	}
@@ -58,7 +58,37 @@ func (p *AnthropicProvider) Chat(ctx context.Context, messages []Message, tools 
 // text deltas are forwarded to onDelta, tool_use blocks are accumulated from
 // their incremental JSON and returned in the final ChatResponse.
 func (p *AnthropicProvider) StreamChat(ctx context.Context, messages []Message, tools []ToolDefinition, systemPrompt string, onDelta func(string)) (*ChatResponse, error) {
-	stream := p.client.Messages.NewStreaming(ctx, p.buildParams(messages, tools, systemPrompt))
+	return p.stream(ctx, p.buildParams(messages, tools, []anthropic.TextBlockParam{{Text: systemPrompt}}), onDelta)
+}
+
+// StreamChatCached places an ephemeral prompt-cache breakpoint at the end of
+// cachedPrefix (the byte-stable static layer block) so every later call with
+// the same prefix reads it at 10% of the input price. Anthropic caches
+// tools + system as one ordered prefix, so a hit additionally requires the
+// tool set to be identical — true for every iteration within one turn.
+func (p *AnthropicProvider) StreamChatCached(ctx context.Context, messages []Message, tools []ToolDefinition, cachedPrefix, rest string, onDelta func(string)) (*ChatResponse, error) {
+	if cachedPrefix == "" {
+		return p.StreamChat(ctx, messages, tools, rest, onDelta)
+	}
+	return p.stream(ctx, p.buildParams(messages, tools, cacheableSystemBlocks(cachedPrefix, rest)), onDelta)
+}
+
+// cacheableSystemBlocks splits the system prompt into the cached static
+// prefix (with an ephemeral cache breakpoint) and the uncached remainder.
+func cacheableSystemBlocks(prefix, rest string) []anthropic.TextBlockParam {
+	blocks := []anthropic.TextBlockParam{
+		{Text: prefix, CacheControl: anthropic.NewCacheControlEphemeralParam()},
+	}
+	if rest != "" {
+		blocks = append(blocks, anthropic.TextBlockParam{Text: rest})
+	}
+	return blocks
+}
+
+// stream runs one streaming MessageNew call and accumulates text deltas and
+// tool_use blocks into a ChatResponse.
+func (p *AnthropicProvider) stream(ctx context.Context, params anthropic.MessageNewParams, onDelta func(string)) (*ChatResponse, error) {
+	stream := p.client.Messages.NewStreaming(ctx, params)
 	defer func() { _ = stream.Close() }()
 
 	chatResp := &ChatResponse{}
@@ -127,8 +157,8 @@ func (p *AnthropicProvider) StreamChat(ctx context.Context, messages []Message, 
 }
 
 // buildParams converts provider-agnostic messages/tools/system into an
-// Anthropic MessageNewParams (shared by Chat and StreamChat).
-func (p *AnthropicProvider) buildParams(messages []Message, tools []ToolDefinition, systemPrompt string) anthropic.MessageNewParams {
+// Anthropic MessageNewParams (shared by Chat and both StreamChat variants).
+func (p *AnthropicProvider) buildParams(messages []Message, tools []ToolDefinition, systemBlocks []anthropic.TextBlockParam) anthropic.MessageNewParams {
 	// Convert internal messages to Anthropic format
 	anthropicMessages := make([]anthropic.MessageParam, 0, len(messages))
 	for i := 0; i < len(messages); i++ {
@@ -197,11 +227,6 @@ func (p *AnthropicProvider) buildParams(messages []Message, tools []ToolDefiniti
 					anthropic.NewAssistantMessage(anthropic.NewTextBlock(msg.Content)))
 			}
 		}
-	}
-
-	// Build system prompt
-	systemBlocks := []anthropic.TextBlockParam{
-		{Text: systemPrompt},
 	}
 
 	return anthropic.MessageNewParams{

@@ -97,10 +97,15 @@ type Server struct {
 	db      *database.DB
 	http    *http.Server
 	limiter *rateLimiter
+	// trustedProxies is TRUSTED_PROXIES parsed once at construction; see
+	// forwardedClientIP.
+	trustedProxies []*net.IPNet
 
 	// Build metadata (injected from main.go via SetBuildInfo).
 	gitCommit string
 	buildTime string
+	// startedAt anchors /health's uptime field (process start, not listener start).
+	startedAt time.Time
 
 	// Pre-rendered public pages (shared CSS inlined + canonical/og:url
 	// injected once per process in New; see buildPage).
@@ -118,8 +123,9 @@ func (s *Server) SetBuildInfo(commit, built string) {
 	s.buildTime = built
 }
 
-// New creates a new HTTP server.
-// TODO: remove if not used (deadcode)
+// New creates a server without the application database (session APIs and
+// server-side persistence are then unavailable). main.go always uses
+// NewWithDB; this form exists for tests and DB-less runs.
 func New(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service) *Server {
 	return NewWithDB(cfg, ag, authSvc, nil)
 }
@@ -133,6 +139,9 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 		auth:    authSvc,
 		db:      db,
 		limiter: newRateLimiter(cfg.RateLimit),
+
+		trustedProxies: parseTrustedProxies(cfg.TrustedProxies),
+		startedAt:      time.Now(),
 
 		// 分享页模板：payload 按请求注入（见 handleSharePage），不预渲染。
 		pageShareTmpl: sharePageTmpl,
@@ -166,6 +175,8 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 	mux.HandleFunc("/feedback", s.handleFeedback)
 	// Session APIs (server-side persistence for the chat UI)
 	if db != nil {
+		mux.HandleFunc("/login", s.handleLogin)
+		mux.HandleFunc("/me", s.handleMe)
 		mux.HandleFunc("/sessions", s.handleSessions)
 		mux.HandleFunc("/sessions/", s.handleSessionByID)
 		mux.HandleFunc("/family", s.handleFamily)
@@ -209,11 +220,12 @@ func NewWithDB(cfg *config.Config, ag *agent.Agent, authSvc *auth.Service, db *d
 	mux.HandleFunc("/admin", s.handleAdminUI)
 
 	s.http = &http.Server{
-		Addr:         fmt.Sprintf("%s:%s", cfg.ServerHost, cfg.ServerPort),
-		Handler:      s.withMiddleware(mux),
-		ReadTimeout:  30 * time.Second,
-		WriteTimeout: 120 * time.Second,
-		IdleTimeout:  60 * time.Second,
+		Addr:           fmt.Sprintf("%s:%s", cfg.ServerHost, cfg.ServerPort),
+		Handler:        s.withMiddleware(mux),
+		ReadTimeout:    30 * time.Second,
+		WriteTimeout:   120 * time.Second,
+		IdleTimeout:    60 * time.Second,
+		MaxHeaderBytes: 64 << 10, // net/http default is 1 MiB per connection
 	}
 
 	return s
@@ -936,17 +948,67 @@ func (s *Server) handleMedia(w http.ResponseWriter, r *http.Request) {
 	http.ServeFile(w, r, full)
 }
 
-// handleHealth responds with server health status.
+// healthProbeTimeout bounds dependency checking so a wedged MariaDB cannot turn
+// the liveness probe itself into a hanging request.
+const healthProbeTimeout = 2 * time.Second
+
+// handleHealth reports real dependency state. Before this it answered a static
+// 200: an unseeded knowledge base (every retrieval returns nothing) and a dead
+// database both looked perfectly healthy to an orchestrator.
 func (s *Server) handleHealth(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodGet {
 		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
 		return
 	}
-	writeJSON(w, http.StatusOK, map[string]any{
-		"status":     "healthy",
-		"timestamp":  time.Now().UTC().Format(time.RFC3339),
-		"git_commit": s.gitCommit,
-		"build_time": s.buildTime,
+
+	checks := map[string]string{}
+	degraded := false
+	report := func(name string, err error) {
+		switch {
+		case err == nil:
+			checks[name] = "ok"
+		case errors.Is(err, knowledge.ErrNotSeeded):
+			checks[name] = "empty"
+		default:
+			checks[name] = "unreachable"
+			slog.Warn("健康检查依赖不可达", "dep", name, "error", err)
+		}
+		if checks[name] != "ok" {
+			degraded = true
+		}
+	}
+
+	ctx, cancel := context.WithTimeout(r.Context(), healthProbeTimeout)
+	defer cancel()
+
+	if s.db != nil {
+		report("app_db", s.db.Health())
+	} else {
+		checks["app_db"] = "disabled" // 无业务库的部署（纯 CLI/测试）不算故障
+	}
+	store, err := knowledge.Load()
+	if err != nil {
+		checks["knowledge"] = "unreachable"
+		degraded = true
+		slog.Warn("健康检查依赖不可达", "dep", "knowledge", "error", err)
+	} else {
+		report("knowledge", store.Health(ctx))
+	}
+
+	status := "ok"
+	code := http.StatusOK
+	if degraded {
+		status = "degraded"
+		code = http.StatusServiceUnavailable
+	}
+	writeJSON(w, code, map[string]any{
+		"status":         status,
+		"timestamp":      time.Now().UTC().Format(time.RFC3339),
+		"uptime_seconds": int64(time.Since(s.startedAt).Seconds()),
+		"git_commit":     s.gitCommit,
+		"build_time":     s.buildTime,
+		"llm_provider":   s.cfg.LLMProvider,
+		"checks":         checks,
 	})
 }
 
@@ -984,14 +1046,9 @@ func (s *Server) handleChat(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Cap the request body to bound memory use; reject oversized messages.
-	// Allow up to 10MB for image uploads
-	r.Body = http.MaxBytesReader(w, r.Body, 10<<20) // 10 MB
+	// Chat bodies carry base64 images, so they get their own (larger) cap.
 	var req ChatRequest
-	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
-		writeJSON(w, http.StatusBadRequest, map[string]any{
-			"error": fmt.Sprintf("invalid request body: %v", err),
-		})
+	if !decodeJSONBody(w, r, chatBodyLimit, &req) {
 		return
 	}
 
@@ -1012,11 +1069,14 @@ func (s *Server) handleChat(w http.ResponseWriter, r *http.Request) {
 		req.ConversationID = fmt.Sprintf("conv-%d", time.Now().UnixNano())
 	}
 
-	sess := s.agent.GetOrCreateSession(req.ConversationID)
+	sess, ok := s.claimConversation(w, r, req.ConversationID)
+	if !ok {
+		return
+	}
 
 	// 家庭健康档案注入: 本次问答自动带上成员背景 (基础病/过敏/用药)
 	if req.MemberID > 0 && s.db != nil {
-		if err := s.applyFamilyMember(sess, req.MemberID); err != nil {
+		if err := s.applyFamilyMember(sess, req.MemberID, s.ownerOf(r)); err != nil {
 			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "member not found"})
 			return
 		}
@@ -1082,11 +1142,9 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Allow up to 10MB for image uploads
-	r.Body = http.MaxBytesReader(w, r.Body, 10<<20) // 10 MB
+	// Chat bodies carry base64 images, so they get their own (larger) cap.
 	var req ChatRequest
-	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
-		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request"})
+	if !decodeJSONBody(w, r, chatBodyLimit, &req) {
 		return
 	}
 	if req.Message == "" {
@@ -1104,6 +1162,16 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	// Claimed before any SSE header is written: a refusal has to answer with a
+	// plain JSON status, which is impossible once the stream has started.
+	if req.ConversationID == "" || !session.ValidID(req.ConversationID) {
+		req.ConversationID = fmt.Sprintf("conv-%d", time.Now().UnixNano())
+	}
+	sess, ok := s.claimConversation(w, r, req.ConversationID)
+	if !ok {
+		return
+	}
+
 	w.Header().Set("Content-Type", "text/event-stream")
 	w.Header().Set("Cache-Control", "no-cache")
 	w.Header().Set("Connection", "keep-alive")
@@ -1112,11 +1180,6 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 	rc := http.NewResponseController(w)
 	_ = rc.SetWriteDeadline(time.Time{})
 	_ = rc.EnableFullDuplex()
-
-	if req.ConversationID == "" || !session.ValidID(req.ConversationID) {
-		req.ConversationID = fmt.Sprintf("conv-%d", time.Now().UnixNano())
-	}
-	sess := s.agent.GetOrCreateSession(req.ConversationID)
 
 	ctx, cancel := context.WithTimeout(r.Context(), 5*time.Minute)
 	defer cancel()
@@ -1128,10 +1191,11 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// Collect deltas during generation; the live, pre-verification text must
-	// NOT be streamed to the client. L3 citation verification and L4 disclaimer
-	// run inside the agent only after the full response is produced, so we
-	// buffer and then stream the VERIFIED text below (otherwise post-
-	// verification corrections reach the user unguarded via raw deltas).
+	// NOT be streamed to the client. L3 citation verification runs inside the
+	// agent only after the full response is produced (L4 disclaimer injection
+	// was removed from answers, 2026-09-06), so we buffer and then stream the
+	// VERIFIED text below (otherwise post-verification corrections reach the
+	// user unguarded via raw deltas).
 	var rawDelta strings.Builder
 	onDelta := func(chunk string) {
 		rawDelta.WriteString(chunk)
@@ -1179,10 +1243,10 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Stream the post-verification, disclaimer-applied response (resp.Text) so
-	// the client only ever renders safe content, preserving token-level
-	// streaming UX without exposing unverified model output. Emergency
-	// short-circuits stay atomic (no deltas), matching the prior contract.
+	// Stream the post-verification response (resp.Text) so the client only
+	// ever renders safe content, preserving token-level streaming UX without
+	// exposing unverified model output. Emergency short-circuits stay atomic
+	// (no deltas), matching the prior contract.
 	if !resp.IsEmergency {
 		streamVerifiedText(sendEvent, resp.Text)
 	}
@@ -1204,9 +1268,8 @@ func (s *Server) handleChatStream(w http.ResponseWriter, r *http.Request) {
 	sendEvent("done", doneResp)
 }
 
-// streamVerifiedText emits the (already post-verification / disclaimer-applied)
-// text as SSE delta chunks so the client never sees unverified model output
-// during generation.
+// streamVerifiedText emits the already post-verified text as SSE delta chunks
+// so the client never sees unverified model output during generation.
 func streamVerifiedText(send func(string, any), text string) {
 	const chunkSize = 24
 	runes := []rune(text)
@@ -1225,6 +1288,54 @@ func writeJSON(w http.ResponseWriter, status int, data any) {
 	if err := json.NewEncoder(w).Encode(data); err != nil {
 		slog.Warn("Failed to encode JSON response", "error", err)
 	}
+}
+
+// internalError answers a 5xx with a fixed message and logs the real cause.
+// MySQL/driver text (table names, DSN fragments, query shape) must never be
+// echoed to a browser; the log line keeps the detail for operators.
+func (s *Server) internalError(w http.ResponseWriter, r *http.Request, err error) {
+	slog.Error("request failed",
+		"method", r.Method, "path", r.URL.Path, "ip", clientIP(r), "error", err)
+	writeJSON(w, http.StatusInternalServerError, map[string]any{"error": "服务器内部错误"})
+}
+
+// Body-size ceilings. jsonBodyLimit is the general cap for the small JSON
+// payloads (session rename, config set); batch bodies carry many records and
+// uploads carry whole knowledge files, so they get their own larger limits.
+const (
+	jsonBodyLimit  = 1 << 20   // 1 MiB
+	batchBodyLimit = 32 << 20  // 32 MiB
+	multipartLimit = 256 << 20 // 256 MiB total upload
+	multipartInMem = 8 << 20   // spill to disk beyond this
+	chatBodyLimit  = 10 << 20  // 10 MiB (images arrive base64-encoded)
+	smallBodyLimit = 4 << 10   // 4 KiB (feedback, share: a few IDs and a rating)
+)
+
+// decodeJSONBody is the single path for reading a JSON request body: it caps
+// the body size (an uncapped io.ReadAll on an unbounded stream is a memory DoS),
+// always closes the reader, and answers 400/413 itself. It reports whether the
+// handler may continue with the decoded target.
+func decodeJSONBody(w http.ResponseWriter, r *http.Request, limit int64, target any) bool {
+	r.Body = http.MaxBytesReader(w, r.Body, limit)
+	defer r.Body.Close()
+
+	if err := json.NewDecoder(r.Body).Decode(target); err != nil {
+		var tooLarge *http.MaxBytesError
+		if errors.As(err, &tooLarge) {
+			writeJSON(w, http.StatusRequestEntityTooLarge, map[string]any{"error": "请求体过大"})
+			return false
+		}
+		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "请求体不是合法的 JSON"})
+		return false
+	}
+	return true
+}
+
+// limitMultipartBody caps an upload request stream before ParseMultipartForm
+// reads it. The argument to ParseMultipartForm is only the in-memory budget, so
+// without this a larger body spills to disk unbounded.
+func limitMultipartBody(w http.ResponseWriter, r *http.Request, limit int64) {
+	r.Body = http.MaxBytesReader(w, r.Body, limit)
 }
 
 // writeJSONDownload streams data as a downloadable JSON attachment. A write
@@ -1258,15 +1369,13 @@ func (s *Server) handleFeedback(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	r.Body = http.MaxBytesReader(w, r.Body, 4<<10) // 4 KiB
 	var req struct {
 		SessionID string `json:"session_id"`
 		MessageID string `json:"message_id"`
 		Rating    string `json:"rating"` // "up" or "down"
 		Comment   string `json:"comment"`
 	}
-	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
-		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request"})
+	if !decodeJSONBody(w, r, smallBodyLimit, &req) {
 		return
 	}
 
@@ -1287,7 +1396,9 @@ func (s *Server) handleFeedback(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, map[string]any{"status": "ok"})
 }
 
-// handleSessions lists persisted conversations (most recently updated first).
+// handleSessions lists the caller's persisted conversations (most recently
+// updated first). Anonymous callers — the pre-login default — see only the
+// conversations that have no owner, which is what they were stored as.
 // GET /sessions
 func (s *Server) handleSessions(w http.ResponseWriter, r *http.Request) {
 	if s.db == nil {
@@ -1299,7 +1410,7 @@ func (s *Server) handleSessions(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	recs, err := s.db.ListAllSessions(200, 0)
+	recs, err := s.db.ListUserSessions(s.ownerOf(r), 200)
 	if err != nil {
 		slog.Error("Listing sessions", "error", err)
 		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": "failed to list sessions"})
@@ -1344,17 +1455,27 @@ func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	// Ownership first. Every branch below reads or renames this conversation,
+	// and the id alone must never be enough to reach someone else's history —
+	// so a missing row and a foreign row get the same 404.
+	owner := s.ownerOf(r)
+	rec, err := s.db.GetSession(id)
+	if err != nil {
+		slog.Error("Getting session", "id", id, "error", err)
+		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": "failed to get session"})
+		return
+	}
+	if rec == nil || rec.UserID != owner {
+		writeJSON(w, http.StatusNotFound, map[string]any{"error": "session not found"})
+		return
+	}
+
 	switch r.Method {
 	case http.MethodGet:
 		// 检查是否有 export 参数
 		exportType := r.URL.Query().Get("export")
 		if exportType == "pdf" {
-			// 导出会话为真正的 PDF 文件
-			rec, err := s.db.GetSession(id)
-			if err != nil || rec == nil {
-				http.Error(w, "session not found", http.StatusNotFound)
-				return
-			}
+			// 导出会话为真正的 PDF 文件（rec 已在上面读取并校验归属）
 			msgs, err := s.db.GetSessionMessages(id)
 			if err != nil {
 				slog.Error("Getting session messages for PDF export", "id", id, "error", err)
@@ -1520,8 +1641,7 @@ func (s *Server) handleSessionByID(w http.ResponseWriter, r *http.Request) {
 		var req struct {
 			Title string `json:"title"`
 		}
-		if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
-			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request"})
+		if !decodeJSONBody(w, r, jsonBodyLimit, &req) {
 			return
 		}
 		if req.Title == "" {
@@ -1561,13 +1681,17 @@ func (s *Server) handleAdminUsers(w http.ResponseWriter, r *http.Request) {
 	case http.MethodPost:
 		// Create user
 		var input auth.AdminCreateUserInput
-		if err := json.NewDecoder(r.Body).Decode(&input); err != nil {
-			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request body"})
+		if !decodeJSONBody(w, r, jsonBodyLimit, &input) {
 			return
 		}
 
 		user, err := s.auth.AdminCreateUser(&input, admin)
 		if err != nil {
+			if errors.Is(err, auth.ErrInternal) {
+				s.internalError(w, r, err)
+				return
+			}
+			// Validation and "username exists" are operator-facing guidance.
 			writeJSON(w, http.StatusBadRequest, map[string]any{"error": err.Error()})
 			return
 		}
@@ -1606,7 +1730,7 @@ func (s *Server) handleAdminUser(w http.ResponseWriter, r *http.Request) {
 		// Get user
 		user, err := s.auth.GetUserByID(userID)
 		if err != nil {
-			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			s.internalError(w, r, err)
 			return
 		}
 		if user == nil {
@@ -1625,7 +1749,7 @@ func (s *Server) handleAdminUser(w http.ResponseWriter, r *http.Request) {
 	case http.MethodDelete:
 		// Delete user
 		if err := s.auth.DeleteUser(userID); err != nil {
-			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			s.internalError(w, r, err)
 			return
 		}
 
@@ -1689,10 +1813,23 @@ var publicPaths = map[string]struct{}{
 	"/llms.txt":    {},
 }
 
+// loginPath is rate limited like the rest of the API (it is the one endpoint
+// worth brute-forcing) but cannot require the credential it is meant to hand
+// out.
+const loginPath = "/login"
+
 // withMiddleware adds security + logging middleware to the handler.
-// Order: CORS headers → OPTIONS short-circuit → rate limit → auth → logging.
+// Order: trusted-proxy client-IP resolution → caller identity → CORS headers →
+// OPTIONS short-circuit → rate limit → auth → logging.
 func (s *Server) withMiddleware(h http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		if ip := s.forwardedClientIP(r); ip != "" {
+			r = r.WithContext(context.WithValue(r.Context(), clientIPKey{}, ip))
+		}
+		if c := s.resolveCaller(r); c != nil {
+			r = r.WithContext(context.WithValue(r.Context(), callerKey{}, c))
+		}
+
 		s.applyCORS(w, r)
 
 		if r.Method == http.MethodOptions {
@@ -1708,7 +1845,7 @@ func (s *Server) withMiddleware(h http.Handler) http.Handler {
 				writeJSON(w, http.StatusTooManyRequests, map[string]any{"error": "rate limit exceeded"})
 				return
 			}
-			if !s.authenticated(r) {
+			if r.URL.Path != loginPath && !s.authenticated(r) {
 				slog.Warn("Unauthorized request", "ip", clientIP(r), "path", r.URL.Path)
 				writeJSON(w, http.StatusUnauthorized, map[string]any{"error": "unauthorized"})
 				return
@@ -1744,27 +1881,112 @@ func (s *Server) applyCORS(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
 }
 
-// authenticated checks the Bearer token when APIKey is configured.
-// With an empty APIKey auth is disabled and every request passes.
+// authenticated checks the Bearer credential when APIKey is configured.
+// With an empty APIKey auth is disabled and every request passes. A valid
+// per-user login token satisfies the gate on its own: replacing the shared key
+// with real accounts is the whole point of issuing tokens, so a signed-in
+// browser must not also need API_KEY.
 func (s *Server) authenticated(r *http.Request) bool {
+	if callerOf(r) != nil {
+		return true
+	}
 	if s.cfg.APIKey == "" {
 		return true
 	}
-	auth := r.Header.Get("Authorization")
-	if !strings.HasPrefix(auth, "Bearer ") {
-		return false
-	}
-	got := strings.TrimPrefix(auth, "Bearer ")
-	return subtle.ConstantTimeCompare([]byte(got), []byte(s.cfg.APIKey)) == 1
+	return subtle.ConstantTimeCompare([]byte(bearerToken(r)), []byte(s.cfg.APIKey)) == 1
 }
 
-// clientIP extracts the caller IP from RemoteAddr ("ip:port").
+// clientIPKey tags the request context with the caller address resolved
+// through trusted proxies (see forwardedClientIP).
+type clientIPKey struct{}
+
+// clientIP extracts the caller IP. Unless the TCP peer is a trusted proxy the
+// peer address is the only thing we believe: X-Forwarded-For is free text that
+// any client can set, so trusting it unconditionally would let one script
+// mint unlimited rate-limit buckets.
 func clientIP(r *http.Request) string {
+	if v, ok := r.Context().Value(clientIPKey{}).(string); ok && v != "" {
+		return v
+	}
+	return peerIP(r)
+}
+
+// peerIP returns the TCP peer address from RemoteAddr ("ip:port").
+func peerIP(r *http.Request) string {
 	host, _, err := net.SplitHostPort(r.RemoteAddr)
 	if err != nil {
 		return r.RemoteAddr
 	}
 	return host
+}
+
+// parseTrustedProxies turns TRUSTED_PROXIES entries (CIDR, or a bare IPv4/IPv6
+// which becomes /32 and /128 respectively) into matchable networks. Unparsable
+// entries are reported once at startup and dropped.
+func parseTrustedProxies(entries []string) []*net.IPNet {
+	out := make([]*net.IPNet, 0, len(entries))
+	for _, entry := range entries {
+		if _, block, err := net.ParseCIDR(entry); err == nil {
+			out = append(out, block)
+			continue
+		}
+		ip := net.ParseIP(entry)
+		if ip == nil {
+			slog.Warn("TRUSTED_PROXIES: 无法解析的条目已忽略", "entry", entry)
+			continue
+		}
+		mask := net.CIDRMask(32, 32)
+		if ip.To4() == nil {
+			mask = net.CIDRMask(128, 128)
+		}
+		out = append(out, &net.IPNet{IP: ip, Mask: mask})
+	}
+	return out
+}
+
+// isTrustedProxy reports whether ip falls inside the trusted proxy set.
+func (s *Server) isTrustedProxy(ip string) bool {
+	if len(s.trustedProxies) == 0 {
+		return false
+	}
+	parsed := net.ParseIP(ip)
+	if parsed == nil {
+		return false
+	}
+	for _, block := range s.trustedProxies {
+		if block.Contains(parsed) {
+			return true
+		}
+	}
+	return false
+}
+
+// forwardedClientIP returns the real client address claimed by a trusted
+// proxy chain, or "" when the peer is not trusted (in which case the header
+// must be ignored entirely). X-Forwarded-For is walked right-to-left and the
+// first address outside the trusted set wins, so a client cannot prepend
+// fabricated entries to escape its own rate-limit bucket.
+func (s *Server) forwardedClientIP(r *http.Request) string {
+	if !s.isTrustedProxy(peerIP(r)) {
+		return ""
+	}
+	list := r.Header.Get("X-Forwarded-For")
+	if list == "" {
+		list = r.Header.Get("X-Real-IP")
+	}
+	parts := strings.Split(list, ",")
+	for i := len(parts) - 1; i >= 0; i-- {
+		ip := strings.TrimSpace(parts[i])
+		if ip == "" || net.ParseIP(ip) == nil {
+			continue
+		}
+		if !s.isTrustedProxy(ip) {
+			return ip
+		}
+	}
+	// The rest of the chain is ours: a genuine internal client, so the peer
+	// address is the honest answer and no rewrite is needed.
+	return ""
 }
 
 // rateLimiter is a minimal fixed-window per-IP limiter (no external deps).
@@ -1843,8 +2065,9 @@ func (s *Server) handleAdminSync(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Parse multipart form (10MB max)
-	if err := r.ParseMultipartForm(10 << 20); err != nil {
+	// Total request cap (limitMultipartBody) + 8 MiB held in memory.
+	limitMultipartBody(w, r, multipartLimit)
+	if err := r.ParseMultipartForm(multipartInMem); err != nil {
 		writeJSON(w, http.StatusBadRequest, map[string]any{
 			"error": fmt.Sprintf("failed to parse form: %v", err),
 		})
@@ -2063,7 +2286,8 @@ func (s *Server) handleAdminKnowledge(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	if err := r.ParseMultipartForm(200 << 20); err != nil { // 200MB headroom for big JSON.gz
+	limitMultipartBody(w, r, multipartLimit)
+	if err := r.ParseMultipartForm(multipartInMem); err != nil { // big JSON.gz uploads spill to disk
 		writeJSON(w, http.StatusBadRequest, map[string]any{"error": fmt.Sprintf("failed to parse form: %v", err)})
 		return
 	}
@@ -2076,7 +2300,7 @@ func (s *Server) handleAdminKnowledge(w http.ResponseWriter, r *http.Request) {
 
 	raw, err := io.ReadAll(file)
 	if err != nil {
-		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": fmt.Sprintf("reading upload: %v", err)})
+		s.internalError(w, r, fmt.Errorf("reading upload: %w", err))
 		return
 	}
 	if len(raw) == 0 {
@@ -2143,7 +2367,7 @@ func (s *Server) handleAdminKnowledgeExport(w http.ResponseWriter, r *http.Reque
 	data, err := knowledge.ExportDataset(s.cfg.KnowledgeDBDSN(), dataset)
 	if err != nil {
 		slog.Error("Admin knowledge export", "error", err)
-		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+		s.internalError(w, r, err)
 		return
 	}
 
@@ -2166,7 +2390,7 @@ func (s *Server) handleAdminKnowledgeVersions(w http.ResponseWriter, r *http.Req
 			// List all datasets with version counts
 			datasets, err := s.db.ListAllKnowledgeDatasets()
 			if err != nil {
-				writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+				s.internalError(w, r, err)
 				return
 			}
 			writeJSON(w, http.StatusOK, map[string]any{"datasets": datasets})
@@ -2174,7 +2398,7 @@ func (s *Server) handleAdminKnowledgeVersions(w http.ResponseWriter, r *http.Req
 		}
 		versions, err := s.db.ListKnowledgeVersions(dataset)
 		if err != nil {
-			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			s.internalError(w, r, err)
 			return
 		}
 		writeJSON(w, http.StatusOK, map[string]any{"versions": versions})
@@ -2186,8 +2410,7 @@ func (s *Server) handleAdminKnowledgeVersions(w http.ResponseWriter, r *http.Req
 			EntryCount int    `json:"entry_count"`
 			Checksum   string `json:"checksum"`
 		}
-		if err := json.NewDecoder(r.Body).Decode(&input); err != nil {
-			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request body"})
+		if !decodeJSONBody(w, r, jsonBodyLimit, &input) {
 			return
 		}
 		admin := s.getAdminFromRequest(r)
@@ -2205,7 +2428,7 @@ func (s *Server) handleAdminKnowledgeVersions(w http.ResponseWriter, r *http.Req
 			CreatedBy:  admin.Username,
 		}
 		if err := s.db.AddKnowledgeVersion(record); err != nil {
-			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			s.internalError(w, r, err)
 			return
 		}
 		writeJSON(w, http.StatusOK, map[string]any{"status": "ok", "version": record})
@@ -2230,7 +2453,7 @@ func (s *Server) handleAdminSessions(w http.ResponseWriter, r *http.Request) {
 
 		recs, err := s.db.ListAllSessions(limit, offset)
 		if err != nil {
-			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			s.internalError(w, r, err)
 			return
 		}
 
@@ -2254,8 +2477,7 @@ func (s *Server) handleAdminSessions(w http.ResponseWriter, r *http.Request) {
 		var input struct {
 			SessionIDs []string `json:"session_ids"`
 		}
-		if err := json.NewDecoder(r.Body).Decode(&input); err != nil {
-			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request body"})
+		if !decodeJSONBody(w, r, jsonBodyLimit, &input) {
 			return
 		}
 		var deleted int
@@ -2302,7 +2524,7 @@ func (s *Server) handleAdminSessionByID(w http.ResponseWriter, r *http.Request) 
 		// Get session with messages
 		rec, err := s.db.GetSession(id)
 		if err != nil {
-			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			s.internalError(w, r, err)
 			return
 		}
 		if rec == nil {
@@ -2311,7 +2533,7 @@ func (s *Server) handleAdminSessionByID(w http.ResponseWriter, r *http.Request) 
 		}
 		msgs, err := s.db.GetSessionMessages(id)
 		if err != nil {
-			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			s.internalError(w, r, err)
 			return
 		}
 		type msg struct {
@@ -2330,7 +2552,7 @@ func (s *Server) handleAdminSessionByID(w http.ResponseWriter, r *http.Request) 
 
 	case http.MethodDelete:
 		if err := s.db.DeleteSession(id); err != nil {
-			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			s.internalError(w, r, err)
 			return
 		}
 		s.agent.DeleteSession(id)
@@ -2370,7 +2592,7 @@ func (s *Server) handleAdminFeedback(w http.ResponseWriter, r *http.Request) {
 
 	feedback, err := s.db.GetFeedbackWithDetails(limit, offset)
 	if err != nil {
-		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+		s.internalError(w, r, err)
 		return
 	}
 	writeJSON(w, http.StatusOK, map[string]any{"feedback": feedback})
@@ -2395,7 +2617,7 @@ func (s *Server) handleAdminFeedbackStats(w http.ResponseWriter, r *http.Request
 
 	stats, err := s.db.GetFeedbackStatsByPeriod(period)
 	if err != nil {
-		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+		s.internalError(w, r, err)
 		return
 	}
 
@@ -2424,7 +2646,7 @@ func (s *Server) handleAdminAuditLogs(w http.ResponseWriter, r *http.Request) {
 
 	logs, err := s.db.ListAuditLogs(limit, offset)
 	if err != nil {
-		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+		s.internalError(w, r, err)
 		return
 	}
 	total, _ := s.db.GetAuditLogsCount()
@@ -2442,7 +2664,7 @@ func (s *Server) handleAdminConfig(w http.ResponseWriter, r *http.Request) {
 	case http.MethodGet:
 		configs, err := s.db.ListSystemConfigs()
 		if err != nil {
-			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			s.internalError(w, r, err)
 			return
 		}
 		writeJSON(w, http.StatusOK, map[string]any{"configs": configs})
@@ -2453,13 +2675,12 @@ func (s *Server) handleAdminConfig(w http.ResponseWriter, r *http.Request) {
 			Value       string `json:"value"`
 			Description string `json:"description"`
 		}
-		if err := json.NewDecoder(r.Body).Decode(&input); err != nil {
-			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request body"})
+		if !decodeJSONBody(w, r, jsonBodyLimit, &input) {
 			return
 		}
 		admin := s.getAdminFromRequest(r)
 		if err := s.db.SetSystemConfig(input.Key, input.Value, input.Description, admin.Username); err != nil {
-			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			s.internalError(w, r, err)
 			return
 		}
 		// Record audit log
@@ -2496,14 +2717,14 @@ func (s *Server) handleAdminConfigByKey(w http.ResponseWriter, r *http.Request) 
 	case http.MethodGet:
 		value, err := s.db.GetSystemConfig(key)
 		if err != nil {
-			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			s.internalError(w, r, err)
 			return
 		}
 		writeJSON(w, http.StatusOK, map[string]any{"key": key, "value": value})
 
 	case http.MethodDelete:
 		if err := s.db.DeleteSystemConfig(key); err != nil {
-			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			s.internalError(w, r, err)
 			return
 		}
 		// Record audit log
@@ -2542,7 +2763,7 @@ func (s *Server) handleAdminAPIStats(w http.ResponseWriter, r *http.Request) {
 
 	stats, err := s.db.ListAPIStats(limit, offset)
 	if err != nil {
-		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+		s.internalError(w, r, err)
 		return
 	}
 	writeJSON(w, http.StatusOK, map[string]any{"stats": stats})
@@ -2564,7 +2785,7 @@ func (s *Server) handleAdminAPIStatsSummary(w http.ResponseWriter, r *http.Reque
 
 	summary, err := s.db.GetAPIStatsSummary(hours)
 	if err != nil {
-		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+		s.internalError(w, r, err)
 		return
 	}
 	writeJSON(w, http.StatusOK, summary)
@@ -2584,7 +2805,7 @@ func (s *Server) handleAdminAnalytics(w http.ResponseWriter, r *http.Request) {
 
 	stats, err := s.db.GetUserBehaviorStats()
 	if err != nil {
-		writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+		s.internalError(w, r, err)
 		return
 	}
 	writeJSON(w, http.StatusOK, stats)
@@ -2608,8 +2829,7 @@ func (s *Server) handleAdminBatchUsers(w http.ResponseWriter, r *http.Request) {
 				IsAdmin  bool   `json:"is_admin"`
 			} `json:"users"`
 		}
-		if err := json.NewDecoder(r.Body).Decode(&input); err != nil {
-			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request body"})
+		if !decodeJSONBody(w, r, batchBodyLimit, &input) {
 			return
 		}
 
@@ -2644,8 +2864,7 @@ func (s *Server) handleAdminBatchUsers(w http.ResponseWriter, r *http.Request) {
 		var input struct {
 			UserIDs []string `json:"user_ids"`
 		}
-		if err := json.NewDecoder(r.Body).Decode(&input); err != nil {
-			writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request body"})
+		if !decodeJSONBody(w, r, jsonBodyLimit, &input) {
 			return
 		}
 		var deleted int
@@ -2685,8 +2904,9 @@ func (s *Server) handleAdminBatchKnowledge(w http.ResponseWriter, r *http.Reques
 		return
 	}
 
-	// Parse multipart form (200MB max for multiple files)
-	if err := r.ParseMultipartForm(200 << 20); err != nil {
+	// Parse multipart form (total size capped by limitMultipartBody)
+	limitMultipartBody(w, r, multipartLimit)
+	if err := r.ParseMultipartForm(multipartInMem); err != nil {
 		writeJSON(w, http.StatusBadRequest, map[string]any{"error": fmt.Sprintf("failed to parse form: %v", err)})
 		return
 	}
@@ -2769,7 +2989,7 @@ func (s *Server) handleAdminExport(w http.ResponseWriter, r *http.Request) {
 	case "sessions":
 		sessions, err := s.db.ListAllSessions(10000, 0)
 		if err != nil {
-			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			s.internalError(w, r, err)
 			return
 		}
 		writeJSONDownload(w, "sessions.json", sessions)
@@ -2777,7 +2997,7 @@ func (s *Server) handleAdminExport(w http.ResponseWriter, r *http.Request) {
 	case "feedback":
 		feedback, err := s.db.GetFeedbackWithDetails(10000, 0)
 		if err != nil {
-			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			s.internalError(w, r, err)
 			return
 		}
 		writeJSONDownload(w, "feedback.json", feedback)
@@ -2785,7 +3005,7 @@ func (s *Server) handleAdminExport(w http.ResponseWriter, r *http.Request) {
 	case "audit_logs":
 		logs, err := s.db.ListAuditLogs(10000, 0)
 		if err != nil {
-			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			s.internalError(w, r, err)
 			return
 		}
 		writeJSONDownload(w, "audit_logs.json", logs)
@@ -2793,7 +3013,7 @@ func (s *Server) handleAdminExport(w http.ResponseWriter, r *http.Request) {
 	case "config":
 		configs, err := s.db.ListSystemConfigs()
 		if err != nil {
-			writeJSON(w, http.StatusInternalServerError, map[string]any{"error": err.Error()})
+			s.internalError(w, r, err)
 			return
 		}
 		writeJSONDownload(w, "config.json", configs)

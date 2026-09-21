@@ -46,7 +46,7 @@ func TestAdminKnowledgeAPI(t *testing.T) {
 	defer db.Close()
 
 	// Create the admin user (admin / admin123) like createInitialAdmin does.
-	authSvc := auth.NewService(db)
+	authSvc := auth.NewService(db, "test-auth-secret")
 	if existing, _ := db.GetUserByUsername("admin"); existing != nil {
 		_ = db.DeleteUser(existing.ID)
 	}

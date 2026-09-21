@@ -51,15 +51,28 @@ func (r *HybridRetriever) retrieveAsync(ctx context.Context, retriever Retriever
 	return ch
 }
 
+// PrewarmQueries implements QueryPrewarmer: only the vector leg pays for
+// per-query embedding, so the batch goes straight to it (the keyword leg
+// reads from the in-memory store).
+func (r *HybridRetriever) PrewarmQueries(queries []string) {
+	if pw, ok := r.vectorRetriever.(QueryPrewarmer); ok {
+		pw.PrewarmQueries(queries)
+	}
+}
+
 // Retrieve performs hybrid retrieval with RRF fusion.
 //
-// Four-way recall for colloquial queries: the query runs through keyword and
-// vector retrieval verbatim, and — when ExpandQuery maps it to a different
-// string — also through both retrievers with the synonym-expanded query.
-// Colloquial input ("突然大哭") often shares no surface form with indexed
-// clinical terms ("哭闹"), so the expanded lists recall what the verbatim
-// lists miss. Expanded lists enter the fusion at half weight: verbatim
-// matches keep priority over synonym-only matches.
+// Colloquial recall: the query runs through keyword and vector retrieval
+// verbatim, and — when ExpandQuery maps it to a different string — also
+// through the keyword retriever with the synonym-expanded query. Colloquial
+// input ("突然大哭") often shares no surface form with indexed clinical terms
+// ("哭闹"), so the expanded list recalls what the verbatim list misses.
+// Expanded lists enter the fusion at half weight: verbatim matches keep
+// priority over synonym-only matches. The expanded string does NOT get its
+// own vector leg: embeddings are already surface-form-agnostic (they bridge
+// the colloquial/clinical gap by design), so re-embedding the synonym
+// variant would add a second round-trip to the embedding service for little
+// extra vector recall — the keyword leg is where expansion pays.
 func (r *HybridRetriever) Retrieve(ctx context.Context, query string, topK int) ([]RetrievalResult, error) {
 	if topK <= 0 {
 		topK = 5
@@ -73,10 +86,9 @@ func (r *HybridRetriever) Retrieve(ctx context.Context, query string, topK int) 
 
 	expanded := ExpandQuery(query)
 	hasExpanded := expanded != query
-	var expKwCh, expVecCh <-chan fetchResult
+	var expKwCh <-chan fetchResult
 	if hasExpanded {
 		expKwCh = r.retrieveAsync(ctx, r.keywordRetriever, expanded, fetchK)
-		expVecCh = r.retrieveAsync(ctx, r.vectorRetriever, expanded, fetchK)
 	}
 
 	kwResult := <-kwCh
@@ -101,8 +113,8 @@ func (r *HybridRetriever) Retrieve(ctx context.Context, query string, topK int) 
 		return out, nil
 	}
 
-	// RRF fusion. Expanded-query errors are non-fatal: those lists only add
-	// recall, so on failure they are simply omitted.
+	// RRF fusion. Expanded-query errors are non-fatal: that list only adds
+	// recall, so on failure it is simply omitted.
 	const expandDecay = 0.5
 	sources := []rankSource{
 		{results: kwResult.results, weight: 1 - r.vectorWeight},
@@ -110,12 +122,8 @@ func (r *HybridRetriever) Retrieve(ctx context.Context, query string, topK int) 
 	}
 	if hasExpanded {
 		expKw := <-expKwCh
-		expVec := <-expVecCh
 		if expKw.err == nil && len(expKw.results) > 0 {
 			sources = append(sources, rankSource{results: expKw.results, weight: (1 - r.vectorWeight) * expandDecay})
-		}
-		if expVec.err == nil && len(expVec.results) > 0 {
-			sources = append(sources, rankSource{results: expVec.results, weight: r.vectorWeight * expandDecay})
 		}
 	}
 

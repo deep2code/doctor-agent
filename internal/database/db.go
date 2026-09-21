@@ -328,6 +328,18 @@ func (db *DB) UpdateUserLastLogin(id string) error {
 	return err
 }
 
+// UpdateUserPasswordHash replaces a user's password verifier (used when a
+// legacy-format hash is upgraded on successful login).
+func (db *DB) UpdateUserPasswordHash(id, passwordHash string) error {
+	db.mu.Lock()
+	defer db.mu.Unlock()
+
+	_, err := db.conn.Exec(
+		`UPDATE users SET password_hash = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?`, passwordHash, id,
+	)
+	return err
+}
+
 // DeleteUser deletes a user by ID.
 func (db *DB) DeleteUser(id string) error {
 	db.mu.Lock()
@@ -402,7 +414,21 @@ func (db *DB) SetSessionState(id, state string) error {
 	return err
 }
 
-// ListUserSessions lists all sessions for a user.
+// SetSessionOwner binds an unowned session to a user. Anonymous conversations
+// that get claimed after login keep their history visible to exactly that user
+// instead of staying in the shared anonymous bucket.
+func (db *DB) SetSessionOwner(id, userID string) error {
+	db.mu.Lock()
+	defer db.mu.Unlock()
+
+	_, err := db.conn.Exec(`UPDATE sessions SET user_id = ? WHERE id = ? AND user_id IS NULL`, userID, id)
+	return err
+}
+
+// ListUserSessions lists the sessions owned by userID. The empty string is the
+// anonymous bucket: those rows store NULL (the column has a foreign key to
+// users(id), so "" cannot be written), hence the COALESCE instead of a plain
+// equality that would match nothing.
 func (db *DB) ListUserSessions(userID string, limit int) ([]SessionRecord, error) {
 	db.mu.RLock()
 	defer db.mu.RUnlock()
@@ -413,7 +439,7 @@ func (db *DB) ListUserSessions(userID string, limit int) ([]SessionRecord, error
 
 	rows, err := db.conn.Query(
 		`SELECT id, COALESCE(user_id,''), title, created_at, updated_at 
-		 FROM sessions WHERE user_id = ? ORDER BY updated_at DESC LIMIT ?`, userID, limit,
+		 FROM sessions WHERE COALESCE(user_id,'') = ? ORDER BY updated_at DESC LIMIT ?`, userID, limit,
 	)
 	if err != nil {
 		return nil, err
@@ -638,15 +664,15 @@ func (db *DB) GetFeedbackStats() (up int, down int, err error) {
 
 // AuditLogRecord represents an audit log entry.
 type AuditLogRecord struct {
-	ID           int64     `json:"id"`
-	AdminID      string    `json:"admin_id"`
+	ID            int64     `json:"id"`
+	AdminID       string    `json:"admin_id"`
 	AdminUsername string    `json:"admin_username"`
-	Action       string    `json:"action"`
-	TargetType   string    `json:"target_type,omitempty"`
-	TargetID     string    `json:"target_id,omitempty"`
-	Details      string    `json:"details,omitempty"`
-	IPAddress    string    `json:"ip_address,omitempty"`
-	CreatedAt    time.Time `json:"created_at"`
+	Action        string    `json:"action"`
+	TargetType    string    `json:"target_type,omitempty"`
+	TargetID      string    `json:"target_id,omitempty"`
+	Details       string    `json:"details,omitempty"`
+	IPAddress     string    `json:"ip_address,omitempty"`
+	CreatedAt     time.Time `json:"created_at"`
 }
 
 // AddAuditLog records an admin action.

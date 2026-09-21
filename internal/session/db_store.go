@@ -25,6 +25,7 @@ func (s *DBStore) Save(sess *Session) error {
 	sess.mu.RLock()
 	messages := make([]llm.Message, len(sess.Messages))
 	copy(messages, sess.Messages)
+	owner := sess.UserID
 	state := dbSessionState{DisclaimerSent: sess.DisclaimerSent}
 	if sess.PatientContext != nil {
 		pc := *sess.PatientContext
@@ -43,15 +44,25 @@ func (s *DBStore) Save(sess *Session) error {
 		err = s.db.CreateSession(&database.SessionRecord{
 			ID:     sess.ID,
 			Title:  titleOf(messages),
-			UserID: "",
+			UserID: owner,
 		})
 		if err != nil {
 			return fmt.Errorf("creating session: %w", err)
 		}
-	} else if t := titleOf(messages); t != "" && existing.Title != t {
-		// Keep the stored title fresh (first user message usually set at creation,
-		// but a session created without messages gets its title here).
-		_ = s.db.UpdateSessionTitle(sess.ID, t)
+	} else {
+		if t := titleOf(messages); t != "" && existing.Title != t {
+			// Keep the stored title fresh (first user message usually set at creation,
+			// but a session created without messages gets its title here).
+			_ = s.db.UpdateSessionTitle(sess.ID, t)
+		}
+		// A conversation that starts anonymous and is later claimed by a logged
+		// in user has to carry that owner into the row, or the history list
+		// would keep showing it to everyone in the anonymous bucket.
+		if owner != "" && existing.UserID == "" {
+			if err := s.db.SetSessionOwner(sess.ID, owner); err != nil {
+				slog.Warn("Failed to bind session owner", "id", sess.ID, "error", err)
+			}
+		}
 	}
 
 	// Rewrite the full transcript instead of appending: in-memory history is
@@ -107,6 +118,7 @@ func (s *DBStore) Load(id string) (*Session, error) {
 	// Convert to llm.Message format
 	sess := &Session{
 		ID:             record.ID,
+		UserID:         record.UserID,
 		ContextSummary: record.Title,
 		CreatedAt:      record.CreatedAt,
 		UpdatedAt:      record.UpdatedAt,

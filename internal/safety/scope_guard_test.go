@@ -26,6 +26,11 @@ func TestScopeGuardRabiesBiteInScope(t *testing.T) {
 		"我的猫生病了吃什么药",
 		"狗狗发烧了怎么办",
 		"my cat is sick what medicine",
+		// 口语化的「宠物食欲不振」。它曾经是 internal/knowledge 的一条检索断言
+		// （查询字面零命中，但 alias_map 把 不吃→厌食 泛化后仍以 6~8 分召回
+		// 人类条目），在检索层无法与合法的口语儿科查询区分（「突然大哭→夜惊」
+		// 结构完全相同），所以判定归到这层来做：生产管线 L2 在检索之前拦截。
+		"我家猫最近不吃东西",
 	}
 	for _, q := range outScope {
 		if res := g.Check(q); res.InScope {

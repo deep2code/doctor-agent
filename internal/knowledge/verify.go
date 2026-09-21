@@ -32,13 +32,6 @@ type VerificationReport struct {
 	Errors         []string
 }
 
-// HasIssues reports whether any error or warning was found.
-// TODO: remove if not used (deadcode)
-func (r *VerificationReport) HasIssues() bool {
-	return len(r.Errors) > 0 || len(r.Warnings) > 0 ||
-		len(r.EntryIDIssues) > 0 || len(r.CitationIssues) > 0
-}
-
 // CitationTraceability returns the fraction of citations carrying a real
 // resolvable identifier (DOI or PMID) — the core "可溯源" metric.
 func (r *VerificationReport) CitationTraceability() float64 {

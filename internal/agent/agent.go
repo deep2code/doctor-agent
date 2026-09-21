@@ -16,6 +16,7 @@ import (
 	"github.com/doctor-agent/internal/knowledge"
 	"github.com/doctor-agent/internal/llm"
 	"github.com/doctor-agent/internal/prompt"
+	"github.com/doctor-agent/internal/rerank"
 	"github.com/doctor-agent/internal/safety"
 	"github.com/doctor-agent/internal/session"
 	"github.com/doctor-agent/internal/tools"
@@ -27,8 +28,11 @@ type Agent struct {
 	provider  llm.LLMProvider
 	store     *knowledge.Store
 	retriever knowledge.Retriever
-	composer  *prompt.Composer
-	registry  *tools.Registry
+	// reranker optionally rescores the final fused candidate list
+	// (cross-encoder precision pass); nil = RRF order only.
+	reranker knowledge.Reranker
+	composer *prompt.Composer
+	registry *tools.Registry
 	// understandProvider runs the per-message colloquial→clinical query
 	// understanding step (cheaper/faster model than the main loop when
 	// UNDERSTAND_MODEL is configured; same provider otherwise).
@@ -43,6 +47,11 @@ type Agent struct {
 	sessions     map[string]*session.Session
 	sessionStore session.Store // optional on-disk or database session store
 	sessLocks    sync.Map      // sessionID -> *sync.Mutex, serializes turns per session
+
+	// Session map bounds (see reapIdleSessions); zero values disable the rule.
+	sessionIdleTTL time.Duration
+	maxSessions    int
+	lastSweep      time.Time
 }
 
 // New creates a fully initialized Agent.
@@ -96,6 +105,21 @@ func New(cfg *config.Config) (*Agent, error) {
 				slog.Info("Hybrid retrieval enabled (keyword + vector)",
 					"embedder", embedder.Name(), "collection", cfg.VectorCollection)
 			}
+		}
+	}
+	// Optional cross-encoder rerank: a second precision pass over the fused
+	// candidate pool (see retrieveWithUnderstanding). Deliberately opt-in —
+	// it needs a reachable /rerank service, and a missing one only loses the
+	// reordering, never retrieval itself.
+	var reranker knowledge.Reranker
+	if cfg.RerankEnabled {
+		if cfg.RerankBaseURL == "" {
+			slog.Warn("RERANK_ENABLED set but RERANK_BASE_URL empty; rerank disabled")
+		} else if rp, rerr := rerank.New(cfg.RerankBaseURL, "", cfg.RerankModel); rerr != nil {
+			slog.Warn("Rerank provider unavailable; keeping RRF-only ranking", "error", rerr)
+		} else {
+			reranker = rp
+			slog.Info("Cross-encoder rerank enabled", "endpoint", cfg.RerankBaseURL, "model", cfg.RerankModel)
 		}
 	}
 	composer := prompt.NewComposer()
@@ -171,14 +195,17 @@ func New(cfg *config.Config) (*Agent, error) {
 		understandProvider: understandProvider,
 		store:              store,
 		retriever:          retriever,
+		reranker:           reranker,
 		composer:           composer,
-		registry:          registry,
-		router:            router,
-		emergencyDetector: safety.NewEmergencyDetector(),
-		scopeGuard:        safety.NewScopeGuard(),
-		postVerifier:      postVerifier,
-		sessions:          make(map[string]*session.Session),
-		sessionStore:      sessionStore,
+		registry:           registry,
+		router:             router,
+		emergencyDetector:  safety.NewEmergencyDetector(),
+		scopeGuard:         safety.NewScopeGuard(),
+		postVerifier:       postVerifier,
+		sessions:           make(map[string]*session.Session),
+		sessionStore:       sessionStore,
+		sessionIdleTTL:     time.Duration(cfg.SessionIdleMinutes) * time.Minute,
+		maxSessions:        cfg.MaxActiveSessions,
 	}, nil
 }
 
@@ -264,11 +291,14 @@ type StepEvent struct {
 	Summary string `json:"summary"` // Chinese, human-readable
 }
 
-// streamWithRetry wraps provider.StreamChat with a short backoff retry for
+// streamWithRetry wraps provider streaming with a short backoff retry for
 // transient provider failures (HTTP 429 rate limits, 5xx, dropped
 // connections). Retrying is skipped once any delta has already been emitted
 // to the user, because a fresh stream would replay the partial answer.
-func (a *Agent) streamWithRetry(ctx context.Context, messages []llm.Message, tools []llm.ToolDefinition, systemPrompt string, onDelta func(string)) (*llm.ChatResponse, error) {
+// cachedPrefix is the byte-stable static section of the system prompt (a
+// strict prefix of systemPrompt); when the provider supports prompt caching
+// it gets an explicit cache breakpoint, otherwise it is ignored.
+func (a *Agent) streamWithRetry(ctx context.Context, messages []llm.Message, tools []llm.ToolDefinition, cachedPrefix, systemPrompt string, onDelta func(string)) (*llm.ChatResponse, error) {
 	var emitted bool
 	wrapped := onDelta
 	if onDelta != nil {
@@ -277,6 +307,8 @@ func (a *Agent) streamWithRetry(ctx context.Context, messages []llm.Message, too
 			onDelta(d)
 		}
 	}
+	cacheProvider, canCache := a.provider.(llm.PromptCacheProvider)
+	useCache := canCache && cachedPrefix != "" && strings.HasPrefix(systemPrompt, cachedPrefix)
 	var lastErr error
 	for attempt := 0; attempt < 3; attempt++ {
 		if attempt > 0 {
@@ -288,7 +320,13 @@ func (a *Agent) streamWithRetry(ctx context.Context, messages []llm.Message, too
 			case <-time.After(wait):
 			}
 		}
-		resp, err := a.provider.StreamChat(ctx, messages, tools, systemPrompt, wrapped)
+		var resp *llm.ChatResponse
+		var err error
+		if useCache {
+			resp, err = cacheProvider.StreamChatCached(ctx, messages, tools, cachedPrefix, systemPrompt[len(cachedPrefix):], wrapped)
+		} else {
+			resp, err = a.provider.StreamChat(ctx, messages, tools, systemPrompt, wrapped)
+		}
 		if err == nil {
 			return resp, nil
 		}
@@ -429,41 +467,54 @@ func (a *Agent) buildContextualQuery(sess *session.Session, userMessage string) 
 }
 
 // retrieveWithUnderstanding retrieves knowledge for a user message. The
-// verbatim query runs first (never blocked on the LLM); in parallel an LLM
-// step parses the colloquial phrasing into structured clinical concepts, and
-// each concept becomes its own retrieval branch. One ambiguous colloquialism
-// ("拉肚子" = 感染性腹泻 or 乳糖不耐受 or 秋季腹泻…) thus fans out to all
-// plausible standard concepts instead of betting on a single mapping —
-// enumerating, not disambiguating; ranking and the generation layer resolve
-// ambiguity later with full conversational context. Any failure of the
-// understanding step degrades silently to verbatim-only retrieval.
+// verbatim query runs first, and the LLM understanding step is on-demand:
+// it only fans out when verbatim recall is weak (fewer than topK relevant
+// hits). Each keyword/alias/vector layer already resolves ordinary colloquial
+// phrasing without an LLM; the understanding model earns its 2-5s latency on
+// queries those layers under-recall — long rambling or heavily ambiguous
+// descriptions ("拉肚子" = 感染性腹泻 or 乳糖不耐受 or 秋季腹泻…) where one
+// colloquialism fans out to all plausible standard concepts — enumerating,
+// not disambiguating; ranking and the generation layer resolve ambiguity
+// later with full conversational context. Any failure of the understanding
+// step degrades silently to verbatim-only retrieval.
+//
+// When a reranker is configured, every exit passes through it once: the
+// whole fused pool (over-fetched to 2×topK) is rescored by the
+// cross-encoder and truncated to topK — the post-RRF precision pass.
 func (a *Agent) retrieveWithUnderstanding(ctx context.Context, userMessage string, step func(StepEvent)) []knowledge.RetrievalResult {
-	// Run base retrieval and query understanding in parallel — the comment
-	// above says "in parallel", and the previous serial implementation wasted
-	// the base-retrieval latency (which can include a Qdrant round-trip) on
-	// the critical path before the LLM understanding call even started.
-	type baseResult struct {
-		results []knowledge.RetrievalResult
-		err     error
+	topK := a.cfg.KnowledgeTopK
+	if topK <= 0 {
+		topK = 5
 	}
-	baseCh := make(chan baseResult, 1)
-	go func() {
-		res, err := a.retriever.Retrieve(ctx, userMessage, a.cfg.KnowledgeTopK)
-		baseCh <- baseResult{results: res, err: err}
-	}()
+	// When rerank is active, over-fetch from the retriever legs so the
+	// cross-encoder has a real pool to promote from — RRF truncation alone
+	// would have already dropped borderline entries.
+	fetchK := topK
+	if a.reranker != nil {
+		fetchK = 2 * topK
+	}
+	finalize := func(pool []knowledge.RetrievalResult) []knowledge.RetrievalResult {
+		return knowledge.RerankCandidates(ctx, a.reranker, userMessage, pool, topK)
+	}
+	base, err := a.retriever.Retrieve(ctx, userMessage, fetchK)
+	if err != nil {
+		slog.Warn("Knowledge retrieval failed", "error", err)
+		base = nil
+	}
+	if !a.cfg.QueryUnderstandingEnabled {
+		return finalize(base)
+	}
+	// A full page of hits means the verbatim query already recalled enough
+	// relevant material; a second LLM round-trip before the first token
+	// would only add marginal recall. Skip it.
+	if len(base) >= topK {
+		slog.Debug("Query understanding skipped: verbatim recall sufficient", "hits", len(base))
+		return finalize(base)
+	}
 
-	var understood *queryUnderstanding
-	if a.cfg.QueryUnderstandingEnabled {
-		understood = a.understandQuery(ctx, userMessage)
-	}
-
-	base := <-baseCh
-	if base.err != nil {
-		slog.Warn("Knowledge retrieval failed", "error", base.err)
-		base.results = nil
-	}
+	understood := a.understandQuery(ctx, userMessage)
 	if understood == nil {
-		return base.results
+		return finalize(base)
 	}
 
 	queries := understood.SearchQueries
@@ -483,7 +534,15 @@ func (a *Agent) retrieveWithUnderstanding(ctx context.Context, userMessage strin
 		queries = queries[:maxBranches]
 	}
 	if len(queries) == 0 {
-		return base.results
+		return finalize(base)
+	}
+
+	// Collapse the branch queries' embedding round-trips into one batch
+	// call: without this every branch's vector leg would hit the embedding
+	// service with its own request (N round-trips, N tokenizer passes on a
+	// shared local service) before any Qdrant query can start.
+	if pw, ok := a.retriever.(knowledge.QueryPrewarmer); ok {
+		pw.PrewarmQueries(queries)
 	}
 
 	step(StepEvent{Type: "retrieve", Summary: fmt.Sprintf("口语解析出 %d 条检索式，多路并行检索中", len(queries))})
@@ -494,7 +553,7 @@ func (a *Agent) retrieveWithUnderstanding(ctx context.Context, userMessage strin
 	branches := make(chan branchResult, len(queries))
 	for _, q := range queries {
 		go func(q string) {
-			res, err := a.retriever.Retrieve(ctx, q, a.cfg.KnowledgeTopK)
+			res, err := a.retriever.Retrieve(ctx, q, fetchK)
 			if err != nil {
 				slog.Warn("Understanding-branch retrieval failed", "query", q, "error", err)
 			}
@@ -508,20 +567,20 @@ func (a *Agent) retrieveWithUnderstanding(ctx context.Context, userMessage strin
 		}
 	}
 
-	merged := mergeRetrievalBranches(base.results, paths, a.cfg.KnowledgeTopK)
+	merged := mergeRetrievalBranches(base, paths, topK)
 	slog.Debug("Knowledge retrieved", "count", len(merged), "branches", len(paths))
-	return merged
+	return finalize(merged)
 }
 
 // understandQuery runs the LLM understanding step and parses its JSON
 // output. Returns nil on any failure — callers fall back to verbatim-only
 // retrieval, so an unavailable understanding model must never break search.
 func (a *Agent) understandQuery(ctx context.Context, userMessage string) *queryUnderstanding {
-	// 30s timeout: understanding is a non-streaming JSON call; some providers
-	// (especially free-tier endpoints) are slow, and a thinking model may
-	// spend extra time on reasoning. Failure degrades silently to
-	// verbatim-only retrieval, so a longer timeout is safe.
-	uctx, cancel := context.WithTimeout(ctx, 30*time.Second)
+	// 8s cap: QU now runs on-demand (only when verbatim recall is thin), so
+	// this timeout sits squarely on the first-token path — a slow provider
+	// must not stall the answer. On timeout the call degrades silently to
+	// verbatim-only retrieval, so a short cap costs recall, never correctness.
+	uctx, cancel := context.WithTimeout(ctx, 8*time.Second)
 	defer cancel()
 	resp, err := a.understandProvider.Chat(uctx,
 		[]llm.Message{{Role: "user", Content: userMessage}},
@@ -617,13 +676,6 @@ func isTransientLLMError(err error) bool {
 	return false
 }
 
-// ProcessMessageStream handles a single user message within a conversation
-// session, forwarding every generated text chunk to onDelta (may be nil) as it
-// is produced, and every pipeline step to onStep (may be nil). The final text
-// is still returned in Response.Text; callers that render onDelta should
-// prefer the returned text (post-verification may adjust the final response,
-// in which case a small trailing difference is possible).
-
 // sessionLock returns the per-session turn lock, creating it on first use.
 // Holding it for the duration of a turn serializes concurrent requests that
 // share a session ID, preventing message interleaving and the DisclaimerSent
@@ -633,6 +685,98 @@ func (a *Agent) sessionLock(id string) *sync.Mutex {
 	return m.(*sync.Mutex)
 }
 
+// toolOutcome pairs an executed tool call with its successful result so the
+// follow-up retrieval step can mine entity names from it.
+type toolOutcome struct {
+	tc     llm.ToolCall
+	result *tools.ToolResult
+}
+
+// maxParallelToolExec bounds concurrent tool executions within one batch.
+// Tools mostly read mutex-guarded in-memory stores, so the cap only guards
+// against a provider emitting an unusually large tool-call list.
+const maxParallelToolExec = 4
+
+// executeToolBatch runs one assistant tool-call batch. Dedupe and budget
+// bookkeeping happen serially (first-wins), the surviving Dispatch calls run
+// in parallel, and the tool-role messages are reassembled in the original
+// call order — OpenAI-compatible endpoints reject tool_calls not followed by
+// matching tool messages in order, and Anthropic expects the equivalent
+// tool_result blocks. Step events stay serial: the SSE writer behind onStep
+// is not goroutine-safe.
+func (a *Agent) executeToolBatch(ctx context.Context, calls []llm.ToolCall,
+	calledTools map[string]int, step func(StepEvent), conversationID string,
+) (msgs []llm.Message, refs []tools.CitationRef, successful []toolOutcome, executed int) {
+	msgs = make([]llm.Message, len(calls))
+	type slot struct {
+		idx int
+		tc  llm.ToolCall
+	}
+	toRun := make([]slot, 0, len(calls))
+	for idx, tc := range calls {
+		// Duplicate detection: skip if same tool + same params
+		// was already called in this turn.
+		dedupeKey := tc.Name + ":" + tools.ParamsHash(tc.Name, tc.Arguments)
+		if calledTools[dedupeKey] >= 1 {
+			slog.Warn("Duplicate tool call detected, skipping",
+				"tool", tc.Name, "conversation_id", conversationID)
+			step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」重复调用已拦截", tc.Name)})
+			msgs[idx] = llm.Message{
+				Role: "tool", ToolCallID: tc.ID,
+				Content: fmt.Sprintf("[工具 %s 已用相同参数调用过，请勿重复调用。请基于已有结果给出回答。]", tc.Name),
+			}
+			continue
+		}
+		calledTools[dedupeKey]++
+		executed++
+		slog.Info("Tool use requested", "tool", tc.Name, "id", tc.ID)
+		step(StepEvent{Type: "tool_call", Tool: tc.Name, Summary: fmt.Sprintf("调用工具「%s」", tc.Name)})
+		toRun = append(toRun, slot{idx: idx, tc: tc})
+	}
+
+	results := make([]*tools.ToolResult, len(calls))
+	errs := make([]error, len(calls))
+	sem := make(chan struct{}, maxParallelToolExec)
+	var wg sync.WaitGroup
+	for _, s := range toRun {
+		wg.Add(1)
+		go func(s slot) {
+			defer wg.Done()
+			sem <- struct{}{}
+			defer func() { <-sem }()
+			results[s.idx], errs[s.idx] = a.registry.Dispatch(ctx, s.tc.Name, s.tc.Arguments)
+		}(s)
+	}
+	wg.Wait()
+
+	for _, s := range toRun {
+		tc := s.tc
+		result, err := results[s.idx], errs[s.idx]
+		var content string
+		switch {
+		case err != nil:
+			content = fmt.Sprintf("[工具 %s 执行错误: %v]", tc.Name, err)
+			step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」执行出错：%v", tc.Name, err)})
+		case !result.Success:
+			content = fmt.Sprintf("[工具 %s 返回错误: %s]", tc.Name, result.Error)
+			step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」返回错误：%s", tc.Name, result.Error)})
+		default:
+			content = compactToolResult(tc.Name, result.Data)
+			refs = append(refs, result.Citations...)
+			successful = append(successful, toolOutcome{tc: tc, result: result})
+			step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」返回结果（%d 条引用）", tc.Name, len(result.Citations))})
+		}
+		msgs[s.idx] = llm.Message{Role: "tool", ToolCallID: tc.ID, Content: content}
+	}
+	return msgs, refs, successful, executed
+}
+
+// ProcessMessageStream handles a single user message within a conversation
+// session, forwarding every generated text chunk to onDelta (may be nil) as it
+// is produced, and every pipeline step to onStep (may be nil). The final text
+// is still returned in Response.Text; callers that render onDelta should
+// prefer the returned text (post-verification may adjust the final response,
+// in which case a small trailing difference is possible).
 func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session, userMessage string, onDelta func(string), onStep func(StepEvent)) (*Response, error) {
 	step := func(ev StepEvent) {
 		if onStep != nil {
@@ -685,9 +829,10 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		}
 	}
 
-	// Build system prompt
+	// Build system prompt: static layer prefix (cacheable) + dynamic sections.
 	patientCtx := a.buildPatientContextString(sess)
-	systemPrompt := a.composer.ComposeSystemPrompt(retrieved, patientCtx)
+	staticPrompt := a.composer.ComposeStaticPrefix()
+	systemPrompt := staticPrompt + a.composer.ComposeDynamicSections(retrieved, patientCtx)
 
 	// When retrieval found nothing, constrain the model to steer instead of
 	// improvising medical content from its own memory (hallucination guard).
@@ -754,7 +899,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 			iterPrompt = systemPrompt + "\n\n你已经调用了多次工具。请基于已获取的工具返回信息，给出最终的完整回答，不要再调用任何工具。"
 		}
 
-		resp, err := a.streamWithRetry(ctx, messages, iterTools, iterPrompt, onDelta)
+		resp, err := a.streamWithRetry(ctx, messages, iterTools, staticPrompt, iterPrompt, onDelta)
 		if err != nil {
 			// Context cancellation (client disconnected, request timeout) is
 			// not a system error — log at WARN and return a distinguishable
@@ -825,51 +970,11 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 				ToolCalls:        resp.ToolCalls,
 			}
 
-			// Execute tools; each result becomes a tool-role message that
-			// answers its tool_call_id. OpenAI-compatible endpoints reject
-			// tool_calls not followed by matching tool messages, and
-			// Anthropic expects the equivalent tool_result blocks.
-			var toolMsgs []llm.Message
-			type toolOutcome struct {
-				tc     llm.ToolCall
-				result *tools.ToolResult
-			}
-			var successful []toolOutcome
-			for _, tc := range resp.ToolCalls {
-				// Duplicate detection: skip if same tool + same params
-				// was already called in this turn.
-				dedupeKey := tc.Name + ":" + tools.ParamsHash(tc.Name, tc.Arguments)
-				if calledTools[dedupeKey] >= 1 {
-					slog.Warn("Duplicate tool call detected, skipping",
-						"tool", tc.Name, "conversation_id", sess.ID, "iteration", i)
-					step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」重复调用已拦截", tc.Name)})
-					toolMsgs = append(toolMsgs, llm.Message{
-						Role: "tool", ToolCallID: tc.ID,
-						Content: fmt.Sprintf("[工具 %s 已用相同参数调用过，请勿重复调用。请基于已有结果给出回答。]", tc.Name),
-					})
-					continue
-				}
-				calledTools[dedupeKey]++
-				toolCallCount++
-
-				slog.Info("Tool use requested", "tool", tc.Name, "id", tc.ID)
-				step(StepEvent{Type: "tool_call", Tool: tc.Name, Summary: fmt.Sprintf("调用工具「%s」", tc.Name)})
-				result, err := a.registry.Dispatch(ctx, tc.Name, tc.Arguments)
-				var content string
-				if err != nil {
-					content = fmt.Sprintf("[工具 %s 执行错误: %v]", tc.Name, err)
-					step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」执行出错：%v", tc.Name, err)})
-				} else if !result.Success {
-					content = fmt.Sprintf("[工具 %s 返回错误: %s]", tc.Name, result.Error)
-					step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」返回错误：%s", tc.Name, result.Error)})
-				} else {
-					content = compactToolResult(tc.Name, result.Data)
-					toolRefs = append(toolRefs, result.Citations...)
-					successful = append(successful, toolOutcome{tc: tc, result: result})
-					step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具「%s」返回结果（%d 条引用）", tc.Name, len(result.Citations))})
-				}
-				toolMsgs = append(toolMsgs, llm.Message{Role: "tool", ToolCallID: tc.ID, Content: content})
-			}
+			// Execute tools in parallel (results reassembled in call order —
+			// see executeToolBatch).
+			toolMsgs, batchRefs, successful, batchExecuted := a.executeToolBatch(ctx, resp.ToolCalls, calledTools, step, sess.ID)
+			toolRefs = append(toolRefs, batchRefs...)
+			toolCallCount += batchExecuted
 
 			// Check tool budget after this batch of tool calls.
 			if toolCallCount >= maxToolCalls {
@@ -951,7 +1056,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 		"max_iterations", maxIterations,
 	)
 	step(StepEvent{Type: "generate", Summary: "正在根据已有信息组织最终回答…"})
-	finalResp, err := a.streamWithRetry(ctx, messages, nil,
+	finalResp, err := a.streamWithRetry(ctx, messages, nil, staticPrompt,
 		systemPrompt+"\n\n你已经调用了多次工具，请基于已获取的工具返回信息，给出最终的完整回答，不要再调用任何工具。",
 		onDelta)
 	if err != nil {
@@ -1067,9 +1172,10 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		}
 	}
 
-	// Build system prompt
+	// Build system prompt: static layer prefix (cacheable) + dynamic sections.
 	patientCtx := a.buildPatientContextString(sess)
-	systemPrompt := a.composer.ComposeSystemPrompt(retrieved, patientCtx)
+	staticPrompt := a.composer.ComposeStaticPrefix()
+	systemPrompt := staticPrompt + a.composer.ComposeDynamicSections(retrieved, patientCtx)
 
 	// When retrieval found nothing, constrain the model to steer instead of
 	// improvising medical content from its own memory (hallucination guard).
@@ -1171,7 +1277,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		// 5xx, dropped connections) are retried regardless of whether the
 		// caller wants streaming deltas. When onDelta is nil the provider
 		// call runs in non-streaming mode internally.
-		llmResp, llmErr = a.streamWithRetry(ctx, messages, iterTools, iterPrompt, onDelta)
+		llmResp, llmErr = a.streamWithRetry(ctx, messages, iterTools, staticPrompt, iterPrompt, onDelta)
 		if llmErr != nil {
 			if errors.Is(llmErr, context.Canceled) || errors.Is(llmErr, context.DeadlineExceeded) {
 				slog.Warn("LLM stream aborted: context canceled or deadline exceeded",
@@ -1288,50 +1394,11 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 			ToolCalls:        llmResp.ToolCalls,
 		})
 
-		// Each result becomes a tool-role message answering its tool_call_id
-		// (required by OpenAI-compatible endpoints; Anthropic gets the
-		// equivalent tool_result blocks).
-		var toolMsgs []llm.Message
-		type toolOutcome struct {
-			tc     llm.ToolCall
-			result *tools.ToolResult
-		}
-		var successful []toolOutcome
-		for _, tc := range llmResp.ToolCalls {
-			// Duplicate detection: skip if same tool + same params
-			// was already called in this turn.
-			dedupeKey := tc.Name + ":" + tools.ParamsHash(tc.Name, tc.Arguments)
-			if calledTools[dedupeKey] >= 1 {
-				slog.Warn("Duplicate tool call detected, skipping",
-					"tool", tc.Name, "conversation_id", sess.ID, "iteration", i)
-				step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具 %s 重复调用已拦截", tc.Name)})
-				toolMsgs = append(toolMsgs, llm.Message{
-					Role: "tool", ToolCallID: tc.ID,
-					Content: fmt.Sprintf("[工具 %s 已用相同参数调用过，请勿重复调用。请基于已有结果给出回答。]", tc.Name),
-				})
-				continue
-			}
-			calledTools[dedupeKey]++
-			toolCallCount++
-
-			step(StepEvent{Type: "tool_call", Tool: tc.Name, Summary: fmt.Sprintf("调用工具 %s", tc.Name)})
-			toolResult, err := a.registry.Dispatch(ctx, tc.Name, tc.Arguments)
-			var content string
-			if err != nil {
-				content = fmt.Sprintf("[工具 %s 执行错误: %v]", tc.Name, err)
-				step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具 %s 执行出错: %v", tc.Name, err)})
-			} else {
-				toolRefs = append(toolRefs, toolResult.Citations...)
-				step(StepEvent{Type: "tool_result", Tool: tc.Name, Summary: fmt.Sprintf("工具 %s 返回结果", tc.Name)})
-				if toolResult.Success {
-					content = compactToolResult(tc.Name, toolResult.Data)
-					successful = append(successful, toolOutcome{tc: tc, result: toolResult})
-				} else {
-					content = fmt.Sprintf("[工具 %s 返回错误: %s]", tc.Name, toolResult.Error)
-				}
-			}
-			toolMsgs = append(toolMsgs, llm.Message{Role: "tool", ToolCallID: tc.ID, Content: content})
-		}
+		// Execute tools in parallel (results reassembled in call order —
+		// see executeToolBatch).
+		toolMsgs, batchRefs, successful, batchExecuted := a.executeToolBatch(ctx, llmResp.ToolCalls, calledTools, step, sess.ID)
+		toolRefs = append(toolRefs, batchRefs...)
+		toolCallCount += batchExecuted
 
 		// Check tool budget after this batch of tool calls.
 		if toolCallCount >= maxToolCalls {
@@ -1355,7 +1422,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 		"has_images", len(images) > 0,
 	)
 	step(StepEvent{Type: "generate", Summary: "正在根据已有信息组织最终回答…"})
-	finalResp, err := a.streamWithRetry(ctx, messages, nil,
+	finalResp, err := a.streamWithRetry(ctx, messages, nil, staticPrompt,
 		systemPrompt+"\n\n你已经调用了多次工具，请基于已获取的工具返回信息，给出最终的完整回答，不要再调用任何工具。",
 		onDelta)
 	if err != nil {
@@ -1422,59 +1489,199 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 	}, nil
 }
 
+// toolResultHardCap bounds the byte length of a serialized tool result
+// injected into conversation history.
+const toolResultHardCap = 4000
+
+// compressionLimits is one rung of the generic field-aware compaction
+// ladder: max container items, max string runes, max recursion depth.
+type compressionLimits struct {
+	maxItems int
+	maxStr   int
+	maxDepth int
+}
+
+// compactionLadder tries progressively tighter compressions; the first
+// rung whose output fits toolResultHardCap wins, so payloads keep as much
+// detail as the budget allows instead of being cut at an arbitrary byte.
+var compactionLadder = []compressionLimits{
+	{maxItems: 6, maxStr: 240, maxDepth: 4},
+	{maxItems: 3, maxStr: 120, maxDepth: 3},
+	{maxItems: 2, maxStr: 60, maxDepth: 2},
+	{maxItems: 2, maxStr: 40, maxDepth: 1},
+}
+
 // compactToolResult reduces the size of a tool result before it is injected
 // into the conversation history. Large JSON payloads (disease_encyclopedia
 // returns 24 fields; knowledge_search can return 10 full entries) quickly
-// consume the context window and crowd out the actual answer. This function
-// applies dataset-aware field pruning for known large-result tools and falls
-// back to a hard character cap for everything else.
+// consume the context window and crowd out the actual answer. Compaction is
+// field-aware and always emits valid JSON: a knowledge_search-specific
+// pruning policy first, then a generic ladder that caps string lengths,
+// list lengths and nesting depth, and finally a top-level field summary if
+// even the tightest rung does not fit. The old behavior of slicing the
+// serialized bytes at a hard cap is gone — it could cut mid-JSON and split
+// multibyte CJK characters. data is never mutated (maybeFollowupRetrieve
+// consumes it after this call).
 func compactToolResult(toolName string, data map[string]any) string {
 	raw, _ := json.MarshalIndent(data, "", "  ")
-	const hardCap = 4000
-	if len(raw) <= hardCap {
+	if len(raw) <= toolResultHardCap {
 		return string(raw)
 	}
+	// Normalize through a JSON round-trip: tools store typed slices
+	// ([]map[string]any, []Citation, []string) under "results", which a Go
+	// []any type switch cannot see — the old knowledge_search policy was
+	// silently dead for real payloads because of this. After unmarshal every
+	// container is map[string]any/[]any, and the caller's map stays intact.
+	var normalized map[string]any
+	if err := json.Unmarshal(raw, &normalized); err != nil {
+		return scalarSummary(data)
+	}
+
+	base := normalized
 	// Dataset-aware pruning for knowledge_search: keep top 3 results with
 	// only the fields the LLM actually needs to answer.
 	if toolName == "knowledge_search" {
-		if results, ok := data["results"].([]any); ok && len(results) > 3 {
-			pruned := make(map[string]any, len(data))
-			for k, v := range data {
-				if k != "results" {
-					pruned[k] = v
-				}
-			}
-			kept := make([]any, 0, 3)
-			for i, item := range results {
-				if i >= 3 {
-					break
-				}
-				if m, ok := item.(map[string]any); ok {
-					thin := make(map[string]any)
-					for _, key := range []string{"condition_zh", "name_zh", "title", "treatment", "prevention", "risk_factors", "complications", "citations", "relevance"} {
-						if v, ok := m[key]; ok {
-							thin[key] = v
-						}
-					}
-					kept = append(kept, thin)
-				} else {
-					kept = append(kept, item)
-				}
-			}
-			pruned["results"] = kept
-			pruned["_note"] = fmt.Sprintf("结果已压缩：原 %d 条保留前 3 条并精简字段", len(results))
-			out, _ := json.MarshalIndent(pruned, "", "  ")
-			if len(out) <= hardCap {
+		if pruned, ok := pruneKnowledgeSearch(normalized); ok {
+			out, err := json.MarshalIndent(pruned, "", "  ")
+			if err == nil && len(out) <= toolResultHardCap {
 				return string(out)
 			}
-			raw = out
+			base = pruned
 		}
 	}
-	// Hard cap fallback.
-	if len(raw) > hardCap {
-		return string(raw[:hardCap]) + "\n…（结果已截断，完整数据可通过工具重新查询）"
+	for _, lim := range compactionLadder {
+		if s, ok := compressToSize(base, lim); ok {
+			return s
+		}
 	}
-	return string(raw)
+	return scalarSummary(data)
+}
+
+// pruneKnowledgeSearch applies the top-3 + field-whitelist policy to a
+// normalized knowledge_search payload. ok=false when it does not apply
+// (different shape, or ≤3 results already).
+func pruneKnowledgeSearch(data map[string]any) (map[string]any, bool) {
+	results, ok := data["results"].([]any)
+	if !ok || len(results) <= 3 {
+		return nil, false
+	}
+	pruned := make(map[string]any, len(data))
+	for k, v := range data {
+		if k != "results" {
+			pruned[k] = v
+		}
+	}
+	kept := make([]any, 0, 3)
+	for _, item := range results[:3] {
+		if m, ok := item.(map[string]any); ok {
+			thin := make(map[string]any)
+			for _, key := range []string{"condition_zh", "name_zh", "title", "treatment", "prevention", "risk_factors", "complications", "citations", "relevance"} {
+				if v, ok := m[key]; ok {
+					thin[key] = v
+				}
+			}
+			kept = append(kept, thin)
+		} else {
+			kept = append(kept, item)
+		}
+	}
+	pruned["results"] = kept
+	pruned["_note"] = fmt.Sprintf("结果已压缩：原 %d 条保留前 3 条并精简字段", len(results))
+	return pruned, true
+}
+
+// compressToSize runs one ladder rung and accepts it only if the result
+// fits the budget.
+func compressToSize(v any, lim compressionLimits) (string, bool) {
+	out, err := json.MarshalIndent(compressValue(v, lim, 0), "", "  ")
+	if err != nil || len(out) > toolResultHardCap {
+		return "", false
+	}
+	return string(out), true
+}
+
+// compressValue recursively caps strings to lim.maxStr runes, lists to
+// lim.maxItems entries (with an omission note), and stops recursing at
+// lim.maxDepth — values deeper than that are serialized and rune-capped as
+// a single string, which bounds both size and stack depth. Always returns
+// JSON-safe values.
+func compressValue(v any, lim compressionLimits, depth int) any {
+	switch t := v.(type) {
+	case string:
+		return truncateRunes(t, lim.maxStr)
+	case []any:
+		if depth >= lim.maxDepth {
+			return truncateRunes(jsonLike(t), lim.maxStr)
+		}
+		if len(t) <= lim.maxItems {
+			kept := make([]any, len(t))
+			for i, item := range t {
+				kept[i] = compressValue(item, lim, depth+1)
+			}
+			return kept
+		}
+		kept := make([]any, 0, lim.maxItems+1)
+		for _, item := range t[:lim.maxItems] {
+			kept = append(kept, compressValue(item, lim, depth+1))
+		}
+		kept = append(kept, fmt.Sprintf("（其余 %d 项已省略）", len(t)-lim.maxItems))
+		return kept
+	case map[string]any:
+		if depth >= lim.maxDepth {
+			return truncateRunes(jsonLike(t), lim.maxStr)
+		}
+		out := make(map[string]any, len(t))
+		for k, val := range t {
+			out[k] = compressValue(val, lim, depth+1)
+		}
+		return out
+	default:
+		return v
+	}
+}
+
+// scalarSummary is the last-resort tier: a flat overview of the top-level
+// fields. It is always valid JSON and always small.
+func scalarSummary(data map[string]any) string {
+	sum := make(map[string]any, len(data)+1)
+	for k, v := range data {
+		switch t := v.(type) {
+		case string:
+			sum[k] = truncateRunes(t, 80)
+		case []any:
+			sum[k] = fmt.Sprintf("（%d 项，内容已省略）", len(t))
+		case map[string]any:
+			sum[k] = fmt.Sprintf("（对象，%d 个字段，内容已省略）", len(t))
+		default:
+			b, err := json.Marshal(v)
+			if err != nil || len(b) > 120 {
+				sum[k] = truncateRunes(fmt.Sprintf("%v", v), 80)
+			} else {
+				sum[k] = v
+			}
+		}
+	}
+	sum["_note"] = "结果过大，仅保留字段概览；如需完整内容可重新调用该工具"
+	out, err := json.MarshalIndent(sum, "", "  ")
+	if err != nil || len(out) > toolResultHardCap {
+		return `{"_note":"结果过大，内容已省略；可重新调用该工具获取完整数据"}`
+	}
+	return string(out)
+}
+
+func truncateRunes(s string, max int) string {
+	r := []rune(s)
+	if len(r) <= max {
+		return s
+	}
+	return string(r[:max]) + "…"
+}
+
+func jsonLike(v any) string {
+	if b, err := json.Marshal(v); err == nil {
+		return string(b)
+	}
+	return fmt.Sprintf("%v", v)
 }
 
 // maybeFollowupRetrieve performs an automatic secondary retrieval after a
@@ -1500,12 +1707,18 @@ func (a *Agent) maybeFollowupRetrieve(ctx context.Context, tc llm.ToolCall, resu
 	if len(entities) > 2 {
 		entities = entities[:2]
 	}
-	var added []knowledge.RetrievalResult
+	var entityQueries []string
 	for _, ent := range entities {
-		q := ent + " 治疗 预防 并发症"
+		entityQueries = append(entityQueries, ent+" 治疗 预防 并发症")
+	}
+	if pw, ok := a.retriever.(knowledge.QueryPrewarmer); ok {
+		pw.PrewarmQueries(entityQueries)
+	}
+	var added []knowledge.RetrievalResult
+	for _, q := range entityQueries {
 		res, err := a.retriever.Retrieve(ctx, q, 3)
 		if err != nil {
-			slog.Debug("Followup retrieval failed", "entity", ent, "error", err)
+			slog.Debug("Followup retrieval failed", "query", q, "error", err)
 			continue
 		}
 		added = append(added, res...)
@@ -1696,6 +1909,7 @@ func (a *Agent) GetOrCreateSession(sessionID string) *session.Session {
 				return existing
 			}
 			a.sessions[sessionID] = restored
+			a.lastSweep = a.reapLocked(a.lastSweep)
 			a.sessionsMu.Unlock()
 			return restored
 		}
@@ -1708,8 +1922,93 @@ func (a *Agent) GetOrCreateSession(sessionID string) *session.Session {
 		return existing
 	}
 	a.sessions[sessionID] = sess
+	a.lastSweep = a.reapLocked(a.lastSweep)
 	a.sessionsMu.Unlock()
 	return sess
+}
+
+// ClaimSession is GetOrCreateSession plus the ownership check every
+// user-facing endpoint needs: it returns false when the conversation already
+// belongs to somebody else, so a guessed conversation id can never be read or
+// written by another account. An unowned (pre-login / anonymous) conversation
+// is bound to owner here, which is what lets a chat started while logged out
+// keep its history after the user signs in.
+func (a *Agent) ClaimSession(sessionID, owner string) (*session.Session, bool) {
+	sess := a.GetOrCreateSession(sessionID)
+	if sess == nil || !sess.ClaimOwner(owner) {
+		return nil, false
+	}
+	return sess, true
+}
+
+// sessionSweepInterval throttles the memory-bound scan: it walks every live
+// session, so it runs at most once a minute from the request path rather than
+// on every message. It is a var so tests can force a sweep.
+var sessionSweepInterval = time.Minute
+
+// reapLocked drops sessions that idle out (only when a store can bring them
+// back) and then enforces the size ceiling, least-recently-touched first. The
+// map used to be append-only: the web UI mints a fresh conversation id per
+// visitor, so one long-lived server accumulated every conversation's full
+// history until it was OOM-killed — worse for everyone than one user having to
+// reopen a very old chat. Caller must hold sessionsMu for writing; it returns
+// the timestamp to keep as the next sweep deadline.
+func (a *Agent) reapLocked(last time.Time) time.Time {
+	now := time.Now()
+	if !last.IsZero() && now.Sub(last) < sessionSweepInterval {
+		return last
+	}
+	type touched struct {
+		id   string
+		idle time.Duration
+	}
+	live := make([]touched, 0, len(a.sessions))
+	for id, sess := range a.sessions {
+		live = append(live, touched{id, now.Sub(sess.LastTouched())})
+	}
+
+	// Idle eviction first, and only when the conversation is restorable.
+	if a.sessionStore != nil {
+		for _, e := range live {
+			if a.sessionIdleTTL > 0 && e.idle > a.sessionIdleTTL {
+				a.evictLocked(e.id)
+			}
+		}
+	}
+	if a.maxSessions > 0 {
+		sort.Slice(live, func(i, j int) bool { return live[i].idle > live[j].idle })
+		for _, e := range live {
+			if len(a.sessions) <= a.maxSessions {
+				break
+			}
+			if _, ok := a.sessions[e.id]; !ok {
+				continue
+			}
+			a.evictLocked(e.id) // refuses to evict a session mid-turn
+		}
+	}
+	if dropped := len(live) - len(a.sessions); dropped > 0 {
+		slog.Info("Session cache trimmed", "dropped", dropped, "live", len(a.sessions),
+			"idle_ttl", a.sessionIdleTTL.String(), "cap", a.maxSessions)
+	}
+	return now
+}
+
+// evictLocked removes one session from the cache and its turn lock. It refuses
+// to evict a session whose lock is held — a turn is in flight, and dropping it
+// mid-response would have the next request restore a stale snapshot and clobber
+// the reply on save.
+func (a *Agent) evictLocked(id string) bool {
+	if v, ok := a.sessLocks.Load(id); ok {
+		mu := v.(*sync.Mutex)
+		if !mu.TryLock() {
+			return false
+		}
+		mu.Unlock()
+	}
+	delete(a.sessions, id)
+	a.sessLocks.Delete(id)
+	return true
 }
 
 // SetSessionStore enables session persistence (file or database) after

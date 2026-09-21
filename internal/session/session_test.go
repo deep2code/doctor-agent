@@ -1,6 +1,9 @@
 package session
 
 import (
+	"fmt"
+	"sync"
+	"sync/atomic"
 	"testing"
 )
 
@@ -193,5 +196,77 @@ func TestAddEmptyAssistantMessageRejected(t *testing.T) {
 	s.AddAssistantMessage("你好，有什么可以帮您？")
 	if got := len(s.GetMessages()); got != 2 {
 		t.Fatalf("after valid assistant len(msgs) = %d, want 2", got)
+	}
+}
+
+// TestClaimOwner is the access-control core of /chat, /sessions and /share: the
+// conversation id is caller-supplied, so ownership has to be decided here.
+func TestClaimOwner(t *testing.T) {
+	s := New("conv-owned")
+	if s.Owner() != "" {
+		t.Fatalf("Owner = %q, want empty for a fresh session", s.Owner())
+	}
+
+	// First claimant binds the conversation.
+	if !s.ClaimOwner("user-a") {
+		t.Fatal("first claim by user-a refused")
+	}
+	if s.Owner() != "user-a" {
+		t.Fatalf("Owner = %q, want user-a", s.Owner())
+	}
+	if !s.ClaimOwner("user-a") {
+		t.Error("owner re-claiming its own session refused")
+	}
+	// Nobody else gets in, and the stored owner never changes.
+	for _, other := range []string{"user-b", ""} {
+		if s.ClaimOwner(other) {
+			t.Errorf("claim by %q accepted on a session owned by user-a", other)
+		}
+		if s.Owner() != "user-a" {
+			t.Fatalf("Owner = %q after a failed claim, want user-a", s.Owner())
+		}
+	}
+
+	// An empty owner means "unclaimed", not "owned by the anonymous bucket": a
+	// conversation that starts before login can be claimed later by the user
+	// who continues it (see the owner backfill in DBStore.Save). That is safe
+	// only because ids are unguessable — /chat's conversation_id is a
+	// credential, so it must come from crypto-random bytes on the client.
+	anon := New("conv-anon")
+	if !anon.ClaimOwner("") {
+		t.Error("anonymous claim on an unclaimed session refused")
+	}
+	if anon.Owner() != "" {
+		t.Fatalf("Owner = %q, want still unclaimed", anon.Owner())
+	}
+	if !anon.ClaimOwner("user-a") {
+		t.Error("user-a could not claim an unclaimed session")
+	}
+	if anon.ClaimOwner("") {
+		t.Error("anonymous caller kept access after user-a claimed the session")
+	}
+}
+
+// TestClaimOwnerConcurrentFirstClaim pins the atomicity claim: binding and the
+// ownership check share one write lock, so exactly one of two racing
+// first-writers may proceed.
+func TestClaimOwnerConcurrentFirstClaim(t *testing.T) {
+	const goroutines = 32
+	s := New("conv-race")
+	var winners int64
+	var wg sync.WaitGroup
+	wg.Add(goroutines)
+	for i := 0; i < goroutines; i++ {
+		go func(i int) {
+			defer wg.Done()
+			if s.ClaimOwner(fmt.Sprintf("user-%d", i)) {
+				atomic.AddInt64(&winners, 1)
+			}
+		}(i)
+	}
+	wg.Wait()
+
+	if winners != 1 {
+		t.Errorf("winners = %d, want exactly 1 (owner: %q)", winners, s.Owner())
 	}
 }

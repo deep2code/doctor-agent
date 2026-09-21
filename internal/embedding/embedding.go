@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"log/slog"
 	"net/http"
 	"strings"
 	"time"
@@ -140,8 +141,7 @@ func (p *OpenAICompatProvider) EmbedBatch(texts []string) ([][]float32, error) {
 	}
 	defer func() {
 		if err := resp.Body.Close(); err != nil {
-			// Log but don't fail - we already have the body
-			fmt.Printf("Warning: failed to close response body: %v\n", err)
+			slog.Debug("failed to close response body", "error", err)
 		}
 	}()
 

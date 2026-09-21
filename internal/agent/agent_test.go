@@ -3,7 +3,9 @@ package agent
 import (
 	"context"
 	"strings"
+	"sync"
 	"testing"
+	"time"
 
 	"github.com/doctor-agent/internal/config"
 	"github.com/doctor-agent/internal/knowledge"
@@ -115,6 +117,124 @@ func TestProcessMessageStreamDeliversDeltas(t *testing.T) {
 	// User + assistant messages recorded once each.
 	if msgs := sess.GetMessages(); len(msgs) != 2 {
 		t.Errorf("session messages = %d, want 2", len(msgs))
+	}
+}
+
+// concurrentTool records the peak number of simultaneous Execute calls so
+// tests can assert same-batch tool execution really overlaps.
+type concurrentTool struct {
+	name string
+	hold time.Duration
+	mu   sync.Mutex
+	cur  int
+	peak int
+}
+
+func (t *concurrentTool) Name() string        { return t.name }
+func (t *concurrentTool) Description() string { return "sleeps while tracking concurrency" }
+func (t *concurrentTool) Schema() map[string]interface{} {
+	return map[string]interface{}{"properties": map[string]interface{}{}}
+}
+func (t *concurrentTool) Execute(_ context.Context, input map[string]interface{}) (*tools.ToolResult, error) {
+	t.mu.Lock()
+	t.cur++
+	if t.cur > t.peak {
+		t.peak = t.cur
+	}
+	t.mu.Unlock()
+	time.Sleep(t.hold)
+	t.mu.Lock()
+	t.cur--
+	t.mu.Unlock()
+	return &tools.ToolResult{Success: true, Data: map[string]interface{}{"echo": "ok", "input": input}}, nil
+}
+
+func (t *concurrentTool) peakConcurrency() int {
+	t.mu.Lock()
+	defer t.mu.Unlock()
+	return t.peak
+}
+
+// TestProcessMessageStreamParallelToolExecution: two tool calls in one
+// assistant response must overlap in execution, and the tool-role messages
+// fed back to the LLM must still answer the tool calls in original order.
+func TestProcessMessageStreamParallelToolExecution(t *testing.T) {
+	cfg := testConfig()
+	ct := &concurrentTool{name: "slow", hold: 200 * time.Millisecond}
+	p := &fakeProvider{
+		responses: []*llm.ChatResponse{
+			{ToolCalls: []llm.ToolCall{
+				{ID: "c1", Name: "slow", Arguments: map[string]any{"i": float64(1)}},
+				{ID: "c2", Name: "slow", Arguments: map[string]any{"i": float64(2)}},
+			}},
+			{Text: "并行执行完成"},
+		},
+	}
+	ag := newTestAgent(cfg, p)
+	ag.registry.Register(ct)
+	sess := session.New("par1")
+
+	resp, err := ag.ProcessMessageStream(context.Background(), sess, "帮我查两个东西", nil, nil)
+	if err != nil {
+		t.Fatalf("ProcessMessageStream: %v", err)
+	}
+	if !strings.HasPrefix(resp.Text, "并行执行完成") {
+		t.Errorf("resp.Text = %q", resp.Text)
+	}
+	if got := ct.peakConcurrency(); got < 2 {
+		t.Errorf("同批工具调用应并行执行，实测最大并发 %d", got)
+	}
+	if len(p.captured) != 2 {
+		t.Fatalf("LLM 调用次数 = %d, want 2", len(p.captured))
+	}
+	var toolIDs []string
+	for _, m := range p.captured[1] {
+		if m.Role == "tool" {
+			toolIDs = append(toolIDs, m.ToolCallID)
+		}
+	}
+	if len(toolIDs) != 2 || toolIDs[0] != "c1" || toolIDs[1] != "c2" {
+		t.Errorf("tool 消息必须按调用原序回填，实际: %v", toolIDs)
+	}
+}
+
+// TestProcessMessageStreamDuplicateStillSerial: a duplicate (same tool +
+// same params) in the same batch is intercepted, not executed twice — the
+// parallel path must keep the first-wins dedupe semantics.
+func TestProcessMessageStreamDuplicateStillSerial(t *testing.T) {
+	cfg := testConfig()
+	p := &fakeProvider{
+		responses: []*llm.ChatResponse{
+			{ToolCalls: []llm.ToolCall{
+				{ID: "c1", Name: "echo", Arguments: map[string]any{"a": "1"}},
+				{ID: "c2", Name: "echo", Arguments: map[string]any{"a": "1"}},
+			}},
+			{Text: "去重完成"},
+		},
+	}
+	ag := newTestAgent(cfg, p)
+	ag.registry.Register(echoTool{})
+	sess := session.New("dup1")
+
+	if _, err := ag.ProcessMessageStream(context.Background(), sess, "重复调用", nil, nil); err != nil {
+		t.Fatalf("ProcessMessageStream: %v", err)
+	}
+	second := p.captured[1]
+	var dupNote int
+	var toolIDs []string
+	for _, m := range second {
+		if m.Role == "tool" {
+			toolIDs = append(toolIDs, m.ToolCallID)
+			if strings.Contains(m.Content, "重复调用") {
+				dupNote++
+			}
+		}
+	}
+	if len(toolIDs) != 2 || toolIDs[0] != "c1" || toolIDs[1] != "c2" {
+		t.Errorf("每个 tool_call 都必须有回填消息且保序，实际: %v", toolIDs)
+	}
+	if dupNote != 1 {
+		t.Errorf("同参重复调用应有 1 条拦截说明，实际 %d", dupNote)
 	}
 }
 
@@ -290,6 +410,189 @@ func TestGetOrCreateSessionRestoresFromDisk(t *testing.T) {
 	}
 }
 
+// TestClaimSessionIsolatesAccounts pins the guard in front of /chat,
+// /chat/stream and /share, whose conversation id comes from the client.
+func TestClaimSessionIsolatesAccounts(t *testing.T) {
+	ag := newTestAgent(testConfig(), &fakeProvider{})
+
+	sess, ok := ag.ClaimSession("conv-1", "user-a")
+	if !ok || sess == nil {
+		t.Fatalf("ClaimSession(user-a) = (%v, %v), want the session", sess, ok)
+	}
+	if other, ok := ag.ClaimSession("conv-1", "user-b"); ok || other != nil {
+		t.Errorf("user-b reached user-a's conversation: (%v, %v)", other, ok)
+	}
+	if again, ok := ag.ClaimSession("conv-1", "user-a"); !ok || again != sess {
+		t.Errorf("user-a re-claim = (%v, %v), want the same instance", again, ok)
+	}
+	// A different id is a different conversation, not a different owner's lock.
+	if _, ok := ag.ClaimSession("conv-2", "user-b"); !ok {
+		t.Error("user-b refused its own fresh conversation")
+	}
+	if o := ag.GetOrCreateSession("conv-1").Owner(); o != "user-a" {
+		t.Errorf("owner = %q after user-b's attempt, want user-a", o)
+	}
+}
+
+// Ownership must survive a restart: the snapshot on disk is what a second
+// process knows about who the conversation belongs to.
+func TestClaimSessionOwnershipSurvivesRestart(t *testing.T) {
+	fs, err := session.NewFileStore(t.TempDir())
+	if err != nil {
+		t.Fatalf("NewFileStore: %v", err)
+	}
+	first := newTestAgent(testConfig(), &fakeProvider{})
+	first.sessionStore = fs
+	sess, ok := first.ClaimSession("conv-persist", "user-a")
+	if !ok {
+		t.Fatal("first process could not claim")
+	}
+	sess.AddUserMessage("问题")
+	sess.AddAssistantMessage("回答")
+	if err := fs.Save(sess); err != nil {
+		t.Fatalf("persist: %v", err)
+	}
+
+	second := newTestAgent(testConfig(), &fakeProvider{})
+	second.sessionStore = fs
+	if s, ok := second.ClaimSession("conv-persist", "user-b"); ok || s != nil {
+		t.Errorf("user-b claimed user-a's restored conversation: (%v, %v)", s, ok)
+	}
+	s, ok := second.ClaimSession("conv-persist", "user-a")
+	if !ok {
+		t.Fatal("user-a lost its own conversation across restarts")
+	}
+	if len(s.GetMessages()) != 2 {
+		t.Errorf("restored messages = %d, want 2", len(s.GetMessages()))
+	}
+}
+
+// forceSweep makes the reaper run on every insert instead of once a minute.
+func forceSweep(t *testing.T) {
+	t.Helper()
+	prev := sessionSweepInterval
+	sessionSweepInterval = 0
+	t.Cleanup(func() { sessionSweepInterval = prev })
+}
+
+// backdate pretends a session has been untouched for the given duration.
+func backdate(id string, ag *Agent, d time.Duration) {
+	ag.sessionsMu.Lock()
+	defer ag.sessionsMu.Unlock()
+	if s := ag.sessions[id]; s != nil {
+		s.UpdatedAt = time.Now().Add(-d)
+	}
+}
+
+func sessionIDs(ag *Agent) []string {
+	ag.sessionsMu.RLock()
+	defer ag.sessionsMu.RUnlock()
+	out := make([]string, 0, len(ag.sessions))
+	for id := range ag.sessions {
+		out = append(out, id)
+	}
+	return out
+}
+
+func countSessions(ag *Agent) int {
+	ag.sessionsMu.RLock()
+	defer ag.sessionsMu.RUnlock()
+	return len(ag.sessions)
+}
+
+func TestIdleSessionEvictedWhenPersisted(t *testing.T) {
+	forceSweep(t)
+	cfg := testConfig()
+	cfg.SessionIdleMinutes = 1
+	cfg.MaxActiveSessions = 0
+	ag := newTestAgent(cfg, &fakeProvider{})
+	ag.sessionIdleTTL = time.Minute
+	fs, err := session.NewFileStore(t.TempDir())
+	if err != nil {
+		t.Fatalf("NewFileStore: %v", err)
+	}
+	ag.sessionStore = fs
+
+	ag.GetOrCreateSession("stale")
+	ag.GetOrCreateSession("fresh")
+	backdate("stale", ag, time.Hour)
+
+	ag.GetOrCreateSession("trigger")
+	if _, ok := ag.sessions["stale"]; ok {
+		t.Fatalf("idle session was not evicted: %v", sessionIDs(ag))
+	}
+	if _, ok := ag.sessions["fresh"]; !ok {
+		t.Error("recent session was evicted")
+	}
+	// The point of the store: eviction must be invisible to the user.
+	restored := ag.GetOrCreateSession("stale")
+	if restored == nil {
+		t.Fatal("evicted session did not come back")
+	}
+}
+
+func TestSessionCapEvictsLeastRecentlyUsed(t *testing.T) {
+	forceSweep(t)
+	cfg := testConfig()
+	cfg.MaxActiveSessions = 3
+	ag := newTestAgent(cfg, &fakeProvider{})
+	ag.maxSessions = 3
+
+	for i, id := range []string{"a", "b", "c", "d", "e"} {
+		ag.GetOrCreateSession(id)
+		// Distinct touch times so the LRU order is deterministic.
+		backdate(id, ag, time.Duration(10-i)*time.Minute)
+	}
+	got := sessionIDs(ag)
+	if len(got) != 3 {
+		t.Fatalf("sessions after cap = %d (%v), want 3", len(got), got)
+	}
+	for _, id := range []string{"c", "d", "e"} {
+		if _, ok := ag.sessions[id]; !ok {
+			t.Errorf("newest session %q was evicted instead of the oldest", id)
+		}
+	}
+}
+
+func TestSessionCapAppliesWithoutStore(t *testing.T) {
+	forceSweep(t)
+	ag := newTestAgent(testConfig(), &fakeProvider{})
+	ag.maxSessions = 2
+
+	for _, id := range []string{"a", "b", "c"} {
+		ag.GetOrCreateSession(id)
+	}
+	if n := countSessions(ag); n != 2 {
+		t.Fatalf("sessions = %d, want 2 (cap must hold even with no store)", n)
+	}
+	if _, ok := ag.sessions["a"]; ok {
+		t.Error("oldest session survived the cap")
+	}
+}
+
+func TestReaperSkipsMidTurnSession(t *testing.T) {
+	forceSweep(t)
+	ag := newTestAgent(testConfig(), &fakeProvider{})
+	ag.maxSessions = 2
+	ag.GetOrCreateSession("busy")
+	ag.GetOrCreateSession("other")
+
+	mu := ag.sessionLock("busy")
+	mu.Lock()
+	defer mu.Unlock()
+	backdate("busy", ag, time.Hour)
+
+	// Over the cap now, and "busy" is the least-recently-touched: it must
+	// still be there, because dropping it mid-turn would lose the reply.
+	ag.GetOrCreateSession("third")
+	if _, ok := ag.sessions["busy"]; !ok {
+		t.Fatal("evicted a session while its turn was in flight")
+	}
+	if _, ok := ag.sessions["other"]; ok {
+		t.Error("idle session was not evicted instead of the busy one")
+	}
+}
+
 // fakeRetriever returns a trivial hit so retrieve steps can be exercised.
 type fakeRetriever struct{}
 
@@ -398,5 +701,82 @@ func TestToolLoopCarriesToolCallsToNextTurn(t *testing.T) {
 	}
 	if len(assistant.ToolCalls) != 1 || assistant.ToolCalls[0].Name != "echo" {
 		t.Errorf("assistant ToolCalls = %+v, want [echo]", assistant.ToolCalls)
+	}
+}
+
+// cacheFake wraps fakeProvider and implements llm.PromptCacheProvider,
+// recording the prefix/rest split on each cached call.
+type cacheFake struct {
+	*fakeProvider
+	prefixes []string
+	rests    []string
+}
+
+func (c *cacheFake) StreamChatCached(ctx context.Context, messages []llm.Message, tools []llm.ToolDefinition, prefix, rest string, onDelta func(string)) (*llm.ChatResponse, error) {
+	c.prefixes = append(c.prefixes, prefix)
+	c.rests = append(c.rests, rest)
+	return c.StreamChat(ctx, messages, tools, prefix+rest, onDelta)
+}
+
+func TestStreamWithRetryRoutesToPromptCache(t *testing.T) {
+	cfg := testConfig()
+	p := &cacheFake{fakeProvider: &fakeProvider{
+		responses: []*llm.ChatResponse{{Text: "最终回答"}},
+	}}
+	ag := newTestAgent(cfg, p)
+	static := ag.composer.ComposeStaticPrefix()
+	full := static + "## 动态部分"
+
+	resp, err := ag.streamWithRetry(context.Background(), []llm.Message{{Role: "user", Content: "hi"}}, nil, static, full, nil)
+	if err != nil {
+		t.Fatalf("streamWithRetry: %v", err)
+	}
+	if resp.Text != "最终回答" {
+		t.Errorf("resp.Text = %q", resp.Text)
+	}
+	if len(p.prefixes) != 1 || p.prefixes[0] != static {
+		t.Errorf("cached calls = %v, want the static prefix exactly once", p.prefixes)
+	}
+	if p.rests[0] != "## 动态部分" {
+		t.Errorf("rest = %q, want 动态部分 only", p.rests[0])
+	}
+
+	// Empty prefix must fall back to the plain StreamChat path.
+	p2 := &cacheFake{fakeProvider: &fakeProvider{responses: []*llm.ChatResponse{{Text: "x"}}}}
+	if _, err := newTestAgent(cfg, p2).streamWithRetry(context.Background(), nil, nil, "", "only-dynamic", nil); err != nil {
+		t.Fatalf("streamWithRetry fallback: %v", err)
+	}
+	if len(p2.prefixes) != 0 || p2.chatCalls != 1 {
+		t.Errorf("empty prefix should use plain StreamChat, got prefixes=%v chatCalls=%d", p2.prefixes, p2.chatCalls)
+	}
+}
+
+// TestProcessMessageStreamCachesStaticPrefix: the full pipeline routes every
+// LLM call through the cached path with the byte-stable layer prefix.
+func TestProcessMessageStreamCachesStaticPrefix(t *testing.T) {
+	cfg := testConfig()
+	p := &cacheFake{fakeProvider: &fakeProvider{
+		responses: []*llm.ChatResponse{{Text: "你好世界"}},
+		streamed:  [][]string{{"你好世界"}},
+	}}
+	ag := newTestAgent(cfg, p)
+	sess := session.New("cache-e2e")
+
+	if _, err := ag.ProcessMessageStream(context.Background(), sess, "测试问题", nil, nil); err != nil {
+		t.Fatalf("ProcessMessageStream: %v", err)
+	}
+	static := ag.composer.ComposeStaticPrefix()
+	if len(p.prefixes) == 0 {
+		t.Fatal("expected cached streaming calls")
+	}
+	for i, pre := range p.prefixes {
+		if pre != static {
+			t.Errorf("call %d: prefix differs from static layers", i)
+		}
+	}
+	for i, r := range p.rests {
+		if strings.Contains(r, "DUAL-VERSION OUTPUT") {
+			t.Errorf("call %d: dynamic rest still contains static layer content", i)
+		}
 	}
 }

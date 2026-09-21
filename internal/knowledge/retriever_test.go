@@ -84,12 +84,17 @@ func TestRetrieverFullNameRecall(t *testing.T) {
 
 // TestRetrieverNoRecallForUnrelated: irrelevant queries must not force a
 // recall — the agent should steer the user instead.
+//
+// 本层只判断「这个词库有没有讲这个主题」，不判断「这个问题该不该由医学助手回答」：
+// "我家猫最近不吃东西" 曾在这里断言零召回，但 alias_map 把 不吃→厌食 泛化后，
+// 它与合法的口语儿科查询（突然大哭→夜惊）在打分上不可区分，任何阈值都会伤到真召回。
+// 该用例已移到 safety 层（L2 ScopeGuard 在检索之前拦截，见
+// internal/safety/scope_guard_test.go），不要把宠物查询再加回来。
 func TestRetrieverNoRecallForUnrelated(t *testing.T) {
 	r := NewRetriever(newTestStore(t))
 	cases := []string{
 		"今天股市怎么样",
-		"我家猫最近不吃东西",     // 宠物不在知识库
-		"广东的天气怎么样",      // 仅地区命中，低于相关阈值
+		"广东的天气怎么样", // 仅地区命中，低于相关阈值
 		"推荐一家好吃的餐厅",
 	}
 	for _, q := range cases {

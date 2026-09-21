@@ -73,12 +73,13 @@ func (db *DB) CreateFamilyMember(m *FamilyMember) error {
 	return nil
 }
 
-// ListFamilyMembers 列出（当前用户的）全部成员。
+// ListFamilyMembers 列出属于 userID 的全部成员。空字符串是「匿名」这一档：
+// 未登录的本地部署把档案存成 user_id 空值，登录后各自只能看到自己的。
 func (db *DB) ListFamilyMembers(userID string) ([]*FamilyMember, error) {
 	rows, err := db.conn.Query(
 		`SELECT `+familyColumns+` FROM family_members
-		 WHERE user_id = ? OR (user_id IS NULL AND ? = '')
-		 ORDER BY id`, userID, userID)
+		 WHERE COALESCE(user_id,'') = ?
+		 ORDER BY id`, userID)
 	if err != nil {
 		return nil, err
 	}
@@ -94,7 +95,9 @@ func (db *DB) ListFamilyMembers(userID string) ([]*FamilyMember, error) {
 	return out, rows.Err()
 }
 
-// GetFamilyMember 按 id 取成员；userID 非空时校验归属。
+// GetFamilyMember 按 id 取成员。userID 是调用方的归属，空字符串表示匿名：
+// 它只能取到同样无主的档案 —— 曾经这里是「空即不校验」，等于任何调用方
+// 都能凭自增 id 读到别人全家的病史与用药。
 func (db *DB) GetFamilyMember(id int64, userID string) (*FamilyMember, error) {
 	row := db.conn.QueryRow(
 		`SELECT `+familyColumns+` FROM family_members WHERE id = ?`, id)
@@ -105,7 +108,7 @@ func (db *DB) GetFamilyMember(id int64, userID string) (*FamilyMember, error) {
 	if err != nil {
 		return nil, err
 	}
-	if userID != "" && m.UserID != userID {
+	if m.UserID != userID {
 		return nil, fmt.Errorf("member %d not found", id)
 	}
 	return m, nil
@@ -152,25 +155,24 @@ func (db *DB) UpdateFamilyMember(m *FamilyMember) error {
 	if len(sets) == 0 {
 		return nil
 	}
-	args = append(args, m.ID)
+	args = append(args, m.ID, m.UserID)
+	// The owner predicate is what stops one account editing another's档案;
+	// m.UserID is taken from the caller's identity, never from the request body.
 	_, err := db.conn.Exec(
-		`UPDATE family_members SET `+strings.Join(sets, ", ")+` WHERE id = ?`, args...)
+		`UPDATE family_members SET `+strings.Join(sets, ", ")+
+			` WHERE id = ? AND COALESCE(user_id,'') = ?`, args...)
 	return err
 }
 
-// DeleteFamilyMember 删除成员。
+// DeleteFamilyMember 删除成员，只允许删除属于 userID（空=无主）的那一行。
 func (db *DB) DeleteFamilyMember(id int64, userID string) error {
-	if userID != "" {
-		res, err := db.conn.Exec(
-			`DELETE FROM family_members WHERE id = ? AND user_id = ?`, id, userID)
-		if err != nil {
-			return err
-		}
-		if n, _ := res.RowsAffected(); n == 0 {
-			return fmt.Errorf("member %d not found", id)
-		}
-		return nil
+	res, err := db.conn.Exec(
+		`DELETE FROM family_members WHERE id = ? AND COALESCE(user_id,'') = ?`, id, userID)
+	if err != nil {
+		return err
 	}
-	_, err := db.conn.Exec(`DELETE FROM family_members WHERE id = ?`, id)
-	return err
+	if n, _ := res.RowsAffected(); n == 0 {
+		return fmt.Errorf("member %d not found", id)
+	}
+	return nil
 }

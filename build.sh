@@ -10,7 +10,7 @@ cd "$(dirname "$0")"
 #   ./build.sh           = app（默认）：只构建+推送 app 镜像（改代码/前端）
 #   ./build.sh qdrant    = 只构建+推送 RAG 镜像（改知识库数据、跑 python3 external/make_gz.py 之后）
 #   ./build.sh embed     = 只构建+推送 bge-m3 INT8 查询端 embedding 镜像
-#   ./build.sh kb        = 只构建+推送预灌知识的 MariaDB 镜像（tag 取 version.json）
+#   ./build.sh kb        = 只构建+推送预灌知识的 MariaDB 镜像（只发 :latest，不打版本号标签）
 #   ./build.sh full      = 全量：app + qdrant + embed + kb
 #
 # 四镜像架构（compose 四个服务，触发条件解耦）:
@@ -53,9 +53,9 @@ APP_IMAGE="${REGISTRY}/doctor-agent:${GIT_TAG}"
 APP_IMAGE_LATEST="${REGISTRY}/doctor-agent:latest"
 QDRANT_IMAGE="${REGISTRY}/doctor-agent-qdrant:latest"
 EMBED_IMAGE="${REGISTRY}/doctor-agent-embed:latest"
-KB_IMAGE_TAG="$(python3 -c "import json;print(json.load(open('internal/knowledge/data/version.json'))['version'])" 2>/dev/null || echo latest)"
-KB_IMAGE="${REGISTRY}/doctor-agent-kb:${KB_IMAGE_TAG}"
-KB_IMAGE_LATEST="${REGISTRY}/doctor-agent-kb:latest"
+# kb 镜像只发 :latest —— 数据镜像不做版本号标签, version.json 只作为构建期溯源信息打印。
+KB_DATA_VERSION="$(python3 -c "import json;print(json.load(open('internal/knowledge/data/version.json'))['version'])" 2>/dev/null || echo unknown)"
+KB_IMAGE="${REGISTRY}/doctor-agent-kb:latest"
 
 build_embed() {
   echo "[embed] 构建 embedding 查询服务镜像 (bge-m3 INT8 模型打入镜像)..."
@@ -177,22 +177,47 @@ push_image() {
   docker push "$1"
 }
 
+# kb_assert_only_kb_items <容器>: doctor_knowledge 里只允许 kb_items 一张表。
+# 空的外来表直接清掉; 有数据的立即失败(不替你删业务数据)。与 update-kb.sh 步骤 2
+# 的门是同一条规则(那边在导出前跑, 这里兜住 build.sh 自己现场导出的路径)。
+kb_assert_only_kb_items() {
+  local container stray tb rows
+  container="${1:?usage: kb_assert_only_kb_items <container>}"
+  stray="$(docker exec "$container" mariadb -uroot -N -e \
+    "SELECT table_name FROM information_schema.tables WHERE table_schema='doctor_knowledge' AND table_name<>'kb_items' ORDER BY table_name")" || {
+      echo "  错误: 读不到 ${container} 的 doctor_knowledge 表清单"
+      return 1
+    }
+  for tb in $stray; do
+    rows="$(docker exec "$container" mariadb -uroot -N -e "SELECT COUNT(*) FROM \`doctor_knowledge\`.\`${tb}\`")"
+    if [ "$rows" != "0" ]; then
+      echo "错误: doctor_knowledge.${tb} 有 ${rows} 行业务数据, 不能打进知识镜像。"
+      echo "      先查是不是 MARIA_DB_APP_DB 被指到了 doctor_knowledge, 把数据迁回业务库后重跑。"
+      return 1
+    fi
+    docker exec "$container" mariadb -uroot -e "DROP TABLE \`doctor_knowledge\`.\`${tb}\`"
+    echo "    已清掉空表 $tb"
+  done
+}
+
 # build_kb: 打包预灌知识的 MariaDB 数据镜像 (doctor-agent-kb).
 # 前置: docker/kb/init-doctor_knowledge.sql.gz 存在 (从已灌库导出, 见 docker/Dockerfile.kb 头注释).
 # 空洞兜底: 无 dump 则现场从本地 3307 测试容器导出.
 build_kb() {
   [[ -s "docker/kb/init-doctor_knowledge.sql.gz" ]] || {
     echo "[kb] 无 dump, 从本地 doctor-kb-test 容器导出..."
+    # 兜底路径同样要过这道门: internal/database.New() 一连知识库就把整套业务表建在
+    # doctor_knowledge 里, 直接 dump 会把 users/sessions/… 打进数据镜像。
+    kb_assert_only_kb_items doctor-kb-test || exit 1
     mkdir -p docker/kb
     docker exec doctor-kb-test mariadb-dump -uroot --quick --single-transaction --hex-blob \
       --default-character-set=utf8mb4 --databases doctor_knowledge 2>/dev/null \
       | gzip > docker/kb/init-doctor_knowledge.sql.gz
   }
-  echo "[kb] 构建数据镜像 (tag: ${KB_IMAGE_TAG})..."
+  echo "[kb] 构建数据镜像 (知识库版本 ${KB_DATA_VERSION}, tag: latest)..."
   docker build --progress=plain --platform linux/amd64 \
     --pull=false \
     -t "$KB_IMAGE" \
-    -t "$KB_IMAGE_LATEST" \
     -f docker/Dockerfile.kb \
     --provenance false \
     .
@@ -224,7 +249,6 @@ case "$MODE" in
   kb)
     build_kb
     push_image "$KB_IMAGE"
-    push_image "$KB_IMAGE_LATEST"
     ;;
   full)
     build_app
@@ -236,7 +260,6 @@ case "$MODE" in
     push_image "$EMBED_IMAGE"
     build_kb
     push_image "$KB_IMAGE"
-    push_image "$KB_IMAGE_LATEST"
     ;;
 esac
 

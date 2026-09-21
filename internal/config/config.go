@@ -3,6 +3,7 @@ package config
 import (
 	"database/sql"
 	"fmt"
+	"log/slog"
 	"os"
 	"strconv"
 	"strings"
@@ -43,7 +44,9 @@ type Config struct {
 	// Colloquial→clinical query understanding: every user message passes an
 	// LLM step that extracts structured clinical concepts and generates
 	// multiple retrieval queries (recall-oriented; ambiguity becomes extra
-	// recall branches). UnderstandModel optionally routes this step to a
+	// recall branches). On-demand: the LLM call only runs when verbatim
+	// retrieval returns fewer than KnowledgeTopK hits, so ordinary queries
+	// skip its latency. UnderstandModel optionally routes this step to a
 	// cheaper/faster OpenAI-compatible model (empty = main provider).
 	// AliasMapPath points at an optional JSON dictionary (alias → standard
 	// terms) loaded into query expansion at startup.
@@ -84,8 +87,15 @@ type Config struct {
 	APIKey string
 	// CORSOrigins is an allowlist of origins (empty = allow all with "*").
 	CORSOrigins []string
-	// RateLimit caps requests per IP per minute; 0 disables rate limiting.
+	// RateLimit caps requests per IP per minute. Defaults to defaultRateLimit;
+	// explicit RATE_LIMIT=0 disables rate limiting.
 	RateLimit int
+	// TrustedProxies lists CIDR networks or literal IPs whose forwarding
+	// headers may be believed. Empty (default) means no proxy header is ever
+	// trusted, so per-IP limits and logs use the TCP peer address. Set this
+	// when the app runs behind nginx/Caddy/a load balancer, otherwise every
+	// visitor shares one bucket.
+	TrustedProxies []string
 	// PublicBaseURL is the site's canonical public origin
 	// ("https://yida.example.com"), used to build absolute URLs for
 	// sitemap.xml, robots.txt, llms.txt and the pages' canonical/og:url
@@ -96,6 +106,15 @@ type Config struct {
 	// SessionDir persists conversation snapshots as JSON files under this
 	// directory; empty disables persistence (in-memory sessions only).
 	SessionDir string
+
+	// In-memory session map bounds. Every conversation id a client invents gets
+	// a Session object cached for the process lifetime, so these have to be
+	// finite. SessionIdleMinutes drops conversations nobody has touched for
+	// that long (they reload from the store on the next request);
+	// MaxActiveSessions is the hard ceiling, evicting least-recently-touched
+	// conversations first. Set either to 0 to disable that rule.
+	SessionIdleMinutes int
+	MaxActiveSessions  int
 
 	// MariaDB (shared instance; knowledge store + app store as two databases)
 	MariaDBHost        string
@@ -108,6 +127,12 @@ type Config struct {
 	// Admin
 	AdminPassword string // Initial admin password
 
+	// AuthSecret signs login tokens issued by POST /login (see internal/auth).
+	// Empty generates a random per-process key, so tokens stop validating on
+	// restart — safe (they cannot be forged or replayed against a new process)
+	// but inconvenient, so set a fixed secret for any real deployment.
+	AuthSecret string
+
 	// Vector Store
 	VectorStoreEnabled bool
 	VectorStoreHost    string
@@ -119,9 +144,23 @@ type Config struct {
 	EmbeddingBaseURL string
 	EmbeddingAPIKey  string
 
+	// Cross-encoder rerank (post-RRF precision pass). Off unless a TEI-style
+	// /rerank service is reachable; failures degrade silently to RRF order.
+	// The candidate pool is 2×KnowledgeTopK (retrieval over-fetches so the
+	// reranker can promote entries RRF buried).
+	RerankEnabled bool
+	RerankBaseURL string
+	RerankModel   string
+
 	// Logging
 	LogLevel string
 }
+
+// defaultRateLimit is the per-IP request budget per minute used when
+// RATE_LIMIT is unset. It is deliberately non-zero: an uncapped API in front
+// of a paid LLM endpoint is a billing incident. Set RATE_LIMIT=0 to opt out
+// explicitly (e.g. a private LAN deployment).
+const defaultRateLimit = 120
 
 // Load reads configuration from environment variables with sensible defaults.
 func Load() *Config {
@@ -172,12 +211,16 @@ func Load() *Config {
 		ServerHost: getEnv("SERVER_HOST", "0.0.0.0"),
 		ServerPort: getEnv("SERVER_PORT", "7071"),
 
-		APIKey:        getEnv("API_KEY", ""),
-		CORSOrigins:   splitCSV(getEnv("CORS_ORIGINS", "")),
-		RateLimit:     getEnvInt("RATE_LIMIT", 0),
-		PublicBaseURL: strings.TrimRight(getEnv("PUBLIC_BASE_URL", ""), "/"),
+		APIKey:         getEnv("API_KEY", ""),
+		CORSOrigins:    splitCSV(getEnv("CORS_ORIGINS", "")),
+		RateLimit:      getEnvInt("RATE_LIMIT", defaultRateLimit),
+		TrustedProxies: splitCSV(getEnv("TRUSTED_PROXIES", "")),
+		PublicBaseURL:  strings.TrimRight(getEnv("PUBLIC_BASE_URL", ""), "/"),
 
 		SessionDir: getEnv("SESSION_DIR", ""),
+
+		SessionIdleMinutes: getEnvInt("SESSION_IDLE_MINUTES", 120),
+		MaxActiveSessions:  getEnvInt("MAX_ACTIVE_SESSIONS", 500),
 
 		MariaDBHost:        getEnv("MARIA_DB_HOST", "localhost"),
 		MariaDBPort:        getEnvInt("MARIA_DB_PORT", 3306),
@@ -188,6 +231,8 @@ func Load() *Config {
 
 		AdminPassword: getEnv("ADMIN_PASSWORD", ""),
 
+		AuthSecret: getEnv("AUTH_SECRET", ""),
+
 		VectorStoreEnabled: getEnvBool("VECTOR_STORE_ENABLED", true),
 		VectorStoreHost:    getEnv("VECTOR_STORE_HOST", "localhost"),
 		VectorStorePort:    getEnvInt("VECTOR_STORE_PORT", 6334),
@@ -196,6 +241,10 @@ func Load() *Config {
 		EmbeddingEnabled: getEnvBool("EMBEDDING_ENABLED", true),
 		EmbeddingBaseURL: getEnv("EMBEDDING_BASE_URL", ""),
 		EmbeddingAPIKey:  getEnv("EMBEDDING_API_KEY", ""),
+
+		RerankEnabled: getEnvBool("RERANK_ENABLED", false),
+		RerankBaseURL: getEnv("RERANK_BASE_URL", ""),
+		RerankModel:   getEnv("RERANK_MODEL", "bge-reranker-v2-m3"),
 
 		LogLevel: getEnv("LOG_LEVEL", "info"),
 	}
@@ -241,6 +290,38 @@ func (c *Config) Validate() error {
 	}
 
 	return nil
+}
+
+// SecurityWarnings lists configuration combinations that leave a deployed
+// server open to abuse. Nothing here is fatal — each entry names the env var
+// that closes the gap — so main prints them at startup instead of leaving the
+// operator to discover them in an incident report.
+func (c *Config) SecurityWarnings() []string {
+	var out []string
+	if c.APIKey == "" {
+		out = append(out, "API_KEY 为空：/chat、/sessions、/admin 等所有接口无需凭证即可调用")
+		if c.ServerHost != "127.0.0.1" && c.ServerHost != "localhost" {
+			out = append(out, fmt.Sprintf(
+				"SERVER_HOST=%s 监听对外地址且未设 API_KEY：任何能连到 :%s 的主机都在消耗你的 LLM 额度",
+				c.ServerHost, c.ServerPort))
+		}
+	}
+	if c.RateLimit <= 0 {
+		out = append(out, "RATE_LIMIT<=0：限流已关闭，单个客户端可无限请求")
+	}
+	if len(c.CORSOrigins) == 0 {
+		out = append(out, "CORS_ORIGINS 为空：Access-Control-Allow-Origin 回退为 *，任意网页都能跨域调用本 API")
+	}
+	if len(c.TrustedProxies) == 0 && c.RateLimit > 0 {
+		out = append(out, "TRUSTED_PROXIES 为空：部署在 nginx/负载均衡后面时，所有访客会共用同一个限流桶")
+	}
+	if c.SessionDir == "" {
+		out = append(out, "SESSION_DIR 为空：会话只存在内存里，进程重启即丢失")
+	}
+	if c.AuthSecret == "" {
+		out = append(out, "AUTH_SECRET 为空：登录令牌用本次随机密钥签名，服务重启后所有用户都需要重新登录，多实例部署彼此不认凭证")
+	}
+	return out
 }
 
 // MariaDBDSN builds a Go MySQL driver DSN for the given database name.
@@ -311,6 +392,7 @@ func getEnvInt(key string, defaultVal int) int {
 		if i, err := strconv.Atoi(val); err == nil {
 			return i
 		}
+		parseWarn(key, val)
 	}
 	return defaultVal
 }
@@ -320,6 +402,7 @@ func getEnvFloat(key string, defaultVal float64) float64 {
 		if f, err := strconv.ParseFloat(val, 64); err == nil {
 			return f
 		}
+		parseWarn(key, val)
 	}
 	return defaultVal
 }
@@ -329,6 +412,15 @@ func getEnvBool(key string, defaultVal bool) bool {
 		if b, err := strconv.ParseBool(val); err == nil {
 			return b
 		}
+		parseWarn(key, val)
 	}
 	return defaultVal
+}
+
+// parseWarn reports an env value that was ignored in favour of its default.
+// Silently swallowing "fasle" (or "6O") would leave a feature in the opposite
+// state from the one the operator typed, which is far harder to debug than a
+// log line at startup.
+func parseWarn(key, val string) {
+	slog.Warn("invalid environment variable, using default", "key", key, "value", val)
 }

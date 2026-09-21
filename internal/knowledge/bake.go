@@ -72,7 +72,6 @@ func vectorBakeEligible(ds string) bool { return !vectorSkipDatasets[ds] }
 // "source" and drug filtering reads "type". The former "text" (a duplicate
 // of data) and "timestamp" fields had no consumers and were dropped to
 // shrink the baked image.
-// TODO: remove if not used (deadcode)
 func bakePayload(dataset, key string, data []byte) map[string]string {
 	typ := "knowledge"
 	if dataset == DSDrug {
@@ -93,7 +92,6 @@ func bakePayload(dataset, key string, data []byte) map[string]string {
 // vector + full entry JSON into Qdrant. The Qdrant
 // storage produced here is what gets baked into the doctor-agent-qdrant data
 // image, making the vector store a complete RAG knowledge source on its own.
-// TODO: remove if not used (deadcode)
 func Bake(ctx context.Context, vecStore *VectorStore, embedder embedding.Provider, cfg BakeConfig) (*BakeResult, error) {
 	if cfg.Collection == "" {
 		cfg.Collection = "medical_knowledge"
@@ -152,21 +150,23 @@ func Bake(ctx context.Context, vecStore *VectorStore, embedder embedding.Provide
 			return nil, fmt.Errorf("classifying %s: %w", base, err)
 		}
 		if ds == "" {
-			fmt.Printf("  skip %s (unsupported)\n", base)
+			slog.Info("bake: skipping unsupported archive", "file", base)
 			continue
 		}
 		if !vectorBakeEligible(ds) {
-			fmt.Printf("  skip %s (lookup-tool covered)\n", base)
+			slog.Info("bake: skipping lookup-tool-covered dataset", "dataset", ds)
 			skipped = append(skipped, ds)
 			continue
 		}
 
-		fmt.Printf("  baking %-16s %6d rows (%d batches, %d workers)...\n", ds, len(rows), (len(rows)+cfg.BatchSize-1)/cfg.BatchSize, cfg.Workers)
+		slog.Info("bake: dataset start",
+			"dataset", ds, "rows", len(rows),
+			"batches", (len(rows)+cfg.BatchSize-1)/cfg.BatchSize, "workers", cfg.Workers)
 		n, errs := bakeDataset(ctx, vecStore, embedder, ds, rows, cfg.BatchSize, cfg.Workers, cfg.MaxTextChars)
 		total += n
 		bakeErrs = append(bakeErrs, errs...)
 		datasets++
-		fmt.Printf("  baked  %-16s %6d points\n", ds, n)
+		slog.Info("bake: dataset done", "dataset", ds, "points", n)
 
 		// Promptly reclaim the decompressed data before the next file.
 		runtime.GC()
@@ -188,7 +188,6 @@ func Bake(ctx context.Context, vecStore *VectorStore, embedder embedding.Provide
 // requests to the provider (e.g. Ollama), dramatically reducing wall time
 // for large datasets. Point IDs are content-hashed UUIDs so concurrent
 // upsert order does not affect the final storage state.
-// TODO: remove if not used (deadcode)
 func bakeDataset(ctx context.Context, vecStore *VectorStore, embedder embedding.Provider, dataset string, rows []KBRow, batchSize, workers, maxTextChars int) (int, []string) {
 	var errs []string
 	if len(rows) == 0 {
@@ -231,7 +230,8 @@ func bakeDataset(ctx context.Context, vecStore *VectorStore, embedder embedding.
 			}
 			total += n
 			if nBatches > 20 && ((idx+1)%10 == 0 || idx+1 == nBatches) {
-				fmt.Printf("    progress %-16s %d/%d batches (%.0f%%)\n", dataset, idx+1, nBatches, float64(idx+1)*100/float64(nBatches))
+				slog.Info("bake: progress", "dataset", dataset, "batches_done", idx+1,
+					"batches_total", nBatches, "percent", int(float64(idx+1)*100/float64(nBatches)))
 			}
 		}
 		return total, errs
@@ -261,7 +261,8 @@ func bakeDataset(ctx context.Context, vecStore *VectorStore, embedder embedding.
 				total.Add(int64(n))
 				d := done.Add(1)
 				if nBatches > 20 && (d%10 == 0 || d == nBatches) {
-					fmt.Printf("    progress %-16s %d/%d batches (%.0f%%)\n", dataset, d, nBatches, float64(d)*100/float64(nBatches))
+					slog.Info("bake: progress", "dataset", dataset, "batches_done", d,
+						"batches_total", nBatches, "percent", int(float64(d)*100/float64(nBatches)))
 				}
 			}
 		}()
@@ -278,7 +279,6 @@ func bakeDataset(ctx context.Context, vecStore *VectorStore, embedder embedding.
 // bakeBatch processes a single batch: embed texts, build points, upsert.
 // Embed texts are truncated to maxTextChars runes (rune-safe) before hitting
 // the provider — byte slicing would split CJK runes and send invalid UTF-8.
-// TODO: remove if not used (deadcode)
 func bakeBatch(ctx context.Context, vecStore *VectorStore, embedder embedding.Provider, dataset string, idx int, batch []KBRow, maxTextChars int) (int, string) {
 	texts := make([]string, len(batch))
 	for j, r := range batch {

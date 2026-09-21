@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"log/slog"
 	"path/filepath"
 	"sort"
 	"strings"
@@ -51,7 +52,7 @@ func Seed(dbPath, gzDir string) error {
 			return fmt.Errorf("seeding %s: %w", base, err)
 		}
 		if ds == "" {
-			fmt.Printf("skipped %s\n", base)
+			slog.Info("seed: skipped unrecognized archive", "file", base)
 			continue
 		}
 		byDataset[ds] = append(byDataset[ds], rows...)
@@ -103,7 +104,7 @@ func Seed(dbPath, gzDir string) error {
 				mu.Unlock()
 				return
 			}
-			fmt.Printf("seeded %s (%d rows)\n", ds, len(rows))
+			slog.Info("seed: dataset done", "dataset", ds, "rows", len(rows))
 		}(ds, rows)
 	}
 	wg.Wait()

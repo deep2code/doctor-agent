@@ -3,6 +3,8 @@ package main
 import (
 	"bufio"
 	"context"
+	"crypto/rand"
+	"encoding/base64"
 	"fmt"
 	"io"
 	"log/slog"
@@ -128,8 +130,15 @@ Environment:
   SERVER_PORT                      Server port (default: 7071)
   API_KEY                          Bearer token for /chat endpoints (default: empty = no auth)
   CORS_ORIGINS                     Comma-separated allowed origins (default: * = all)
-  RATE_LIMIT                       Max requests per IP per minute (default: 0 = unlimited)
+  RATE_LIMIT                       Max requests per IP per minute (default: 120; 0 = unlimited)
+  TRUSTED_PROXIES                  Comma-separated CIDRs/IPs allowed to set X-Forwarded-For
+                                   (default: empty = never trust proxy headers)
   SESSION_DIR                      Directory for JSON session snapshots (default: empty = in-memory only)
+  SESSION_IDLE_MINUTES             Evict conversations idle this long (default: 120; 0 = never)
+  MAX_ACTIVE_SESSIONS              Ceiling on conversations held in memory (default: 500; 0 = unlimited)
+  ADMIN_PASSWORD                   Initial admin password (default: empty = random one-off password, printed at startup)
+  AUTH_SECRET                      HMAC key for /login bearer tokens (default: empty = random per-process key,
+                                   so every token dies on restart — set it for any real deployment)
   LOG_LEVEL                        Log level: debug, info, warn, error (default: info)
   POST_VERIFY_SEMANTIC             Semantic claim verification (default: false)
   POST_VERIFY_JUDGE_MODEL          Judge model for verification (default: reuse main model)
@@ -148,6 +157,11 @@ Embedding:
   EMBEDDING_API_KEY                Embedding API key (optional — local Ollama needs no key)
   EMBEDDING_MODEL                  Embedding model (default: bge-m3; Zhipu: embedding-3-pro)
   EMBEDDING_DIMENSIONS             Output dimensions (0 = API default; 1024 needed for embedding-3-pro)
+
+Rerank (post-retrieval cross-encoder, opt-in):
+  RERANK_ENABLED                   Rerank fused candidates before prompt injection (default: false)
+  RERANK_BASE_URL                  TEI-style service root; client POSTs /rerank (e.g. http://localhost:8080)
+  RERANK_MODEL                     Reranker model name (default: bge-reranker-v2-m3)
 
 Sync Command:
   --full, -f                       Full sync (rebuild all vectors)
@@ -292,6 +306,13 @@ func runServe(cfg *config.Config) {
 		os.Exit(1)
 	}
 
+	// Fail-open defaults (no API key, no rate limit, CORS *, unpersisted
+	// sessions) are legitimate for local use but silent surprises in
+	// production, so name them once at startup.
+	for _, warn := range cfg.SecurityWarnings() {
+		slog.Warn("安全配置提醒: " + warn)
+	}
+
 	// Ensure application database exists, then initialize it.
 	if err := cfg.EnsureAppDB(); err != nil {
 		slog.Error("Failed to ensure application database", "error", err)
@@ -311,7 +332,7 @@ func runServe(cfg *config.Config) {
 	}()
 
 	// Initialize auth service
-	authSvc := auth.NewService(db)
+	authSvc := auth.NewService(db, cfg.AuthSecret)
 
 	// Create initial admin if no users exist
 	createInitialAdmin(db, authSvc, cfg)
@@ -365,8 +386,19 @@ func createInitialAdmin(db *database.DB, authSvc *auth.Service, cfg *config.Conf
 	// Create initial admin user
 	adminPassword := cfg.AdminPassword
 	if adminPassword == "" {
-		adminPassword = "admin123"
-		slog.Warn("Using default admin password — set ADMIN_PASSWORD env var in production")
+		// A fixed default ("admin123" in earlier revisions) is worse than no
+		// admin at all: /admin is only guarded by this login, so a published
+		// default turns the whole console over to anyone who reaches the port.
+		// Generate one instead and print it once for local/zero-config use.
+		generated, err := randomAdminPassword()
+		if err != nil {
+			slog.Error("Failed to generate an admin password", "error", err)
+			return
+		}
+		adminPassword = generated
+		slog.Warn("ADMIN_PASSWORD 未设置：已生成随机管理员口令，仅本次打印",
+			"username", "admin", "password", adminPassword,
+			"hint", "请立刻登录 /admin 修改；下次启动前把 ADMIN_PASSWORD 写入 .env")
 	}
 
 	input := &auth.AdminCreateUserInput{
@@ -390,6 +422,16 @@ func createInitialAdmin(db *database.DB, authSvc *auth.Service, cfg *config.Conf
 	}
 
 	slog.Info("Initial admin user created", "username", "admin")
+}
+
+// randomAdminPassword returns a 22-character URL-safe token (128 bits of
+// entropy) used only when ADMIN_PASSWORD is unset.
+func randomAdminPassword() (string, error) {
+	buf := make([]byte, 16)
+	if _, err := rand.Read(buf); err != nil {
+		return "", err
+	}
+	return base64.RawURLEncoding.EncodeToString(buf), nil
 }
 
 func runVerifyKnowledge(checkURLs bool) {

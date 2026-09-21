@@ -3,6 +3,7 @@ package knowledge
 import (
 	"bytes"
 	"compress/gzip"
+	"context"
 	"database/sql"
 	"errors"
 	"fmt"
@@ -148,6 +149,28 @@ func (kb *KB) Close() error {
 	kb.mu.Lock()
 	defer kb.mu.Unlock()
 	return kb.conn.Close()
+}
+
+// ErrNotSeeded is returned by Health when the knowledge database answers but
+// holds no rows: retrieval would then silently return nothing at runtime.
+var ErrNotSeeded = errors.New("knowledge base is empty (run: go run . seed-knowledge)")
+
+// Health pings the knowledge database and checks that kb_items holds at least
+// one row. It deliberately avoids COUNT(*) — the table carries over a million
+// rows, and /health is polled by orchestrators every few seconds.
+func (kb *KB) Health(ctx context.Context) error {
+	kb.mu.RLock()
+	conn := kb.conn
+	kb.mu.RUnlock()
+	if err := conn.PingContext(ctx); err != nil {
+		return err
+	}
+	var one int
+	err := conn.QueryRowContext(ctx, `SELECT 1 FROM kb_items LIMIT 1`).Scan(&one)
+	if errors.Is(err, sql.ErrNoRows) {
+		return ErrNotSeeded
+	}
+	return err
 }
 
 func (kb *KB) migrate() error {

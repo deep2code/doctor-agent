@@ -715,6 +715,16 @@
   <div id="img-preview-bar"></div>
   <div class="error-tip" id="error-tip"></div>
   <div id="drop-mask" aria-hidden="true"><span>松开，上传检查报告</span></div>
+  <div id="acct">
+    <span id="acct-who">未登录</span>
+    <button type="button" id="acct-switch">登录</button>
+  </div>
+  <form id="acct-form" hidden autocomplete="on">
+    <input id="acct-user" type="text" placeholder="用户名" autocomplete="username" />
+    <input id="acct-pass" type="password" placeholder="密码" autocomplete="current-password" />
+    <button type="submit">提交</button>
+    <span id="acct-err" role="alert"></span>
+  </form>
   <p class="hint"><span class="version-info" id="version-info">© 2026 医答 Doctor Agent</span></p>
   <button type="button" id="elder-toggle" title="放大字体，更适合长辈阅读">🔠 大字模式</button>
 </footer>
@@ -743,6 +753,14 @@
   .share-modal-close { position: absolute; top: 12px; right: 12px; width: 28px; height: 28px; padding: 0; font-size: 16px; border: none; background: transparent; color: var(--muted); }
   .share-modal-close:hover { color: var(--text); }
   .share-modal-qr-fallback { padding: 40px; color: var(--muted); }
+
+  /* 账号 / 登录：未登录时只有「登录」一个入口，登录后显示当前账号 */
+  #acct { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); margin: 6px 0 2px; }
+  #acct button { border: 1px solid var(--border); background: transparent; color: var(--accent-dark, #0e7c86); border-radius: 6px; font-size: 12px; padding: 2px 8px; cursor: pointer; }
+  #acct-form { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin: 4px 0; }
+  #acct-form input { border: 1px solid var(--border); border-radius: 6px; padding: 4px 8px; font-size: 13px; width: 9em; background: var(--card, #fff); color: var(--text); }
+  #acct-form button { border: 1px solid var(--border); background: var(--accent, #0e7c86); color: #fff; border-radius: 6px; font-size: 13px; padding: 4px 10px; cursor: pointer; }
+  #acct-err { color: #c0392b; font-size: 12px; }
 </style>
 
 
@@ -770,7 +788,102 @@
     el.textContent = parts.join(" · ");
   }).catch(function(){});
 
-  function genId() { return "conv-" + Date.now().toString(36) + Math.random().toString(36).slice(2, 8); }
+  function genId() {
+    // 会话 id 是访问控制凭据（/sessions/{id} 与 /chat 的 conversation_id 都按它取数据），
+    // 不能用 Date.now()+Math.random()——后者可预测，别人能推算出并冒用。
+    var b = new Uint8Array(12);
+    if (window.crypto && window.crypto.getRandomValues) {
+      crypto.getRandomValues(b);
+    } else {
+      for (var i = 0; i < b.length; i++) b[i] = Math.floor(Math.random() * 256);
+    }
+    var hex = "";
+    for (var j = 0; j < b.length; j++) hex += ("0" + b[j].toString(16)).slice(-2);
+    return "conv-" + hex;
+  }
+
+  /* ================= 账号与登录令牌 ================= */
+  var TOKEN_KEY = "auth-token";
+  function authToken() { try { return localStorage.getItem(TOKEN_KEY) || ""; } catch (e) { return ""; } }
+  function setAuthToken(t) { try { if (t) localStorage.setItem(TOKEN_KEY, t); else localStorage.removeItem(TOKEN_KEY); } catch (e) {} }
+
+  // 统一给同源请求补上登录令牌；没有令牌时和以前完全一样（匿名模式）。
+  var rawFetch = window.fetch.bind(window);
+  window.fetch = function (url, opts) {
+    var t = authToken();
+    if (!t) return rawFetch(url, opts);
+    opts = opts || {};
+    var h = new Headers(opts.headers || undefined);
+    if (!h.has("Authorization")) h.set("Authorization", "Bearer " + t);
+    var next = {};
+    for (var k in opts) if (Object.prototype.hasOwnProperty.call(opts, k)) next[k] = opts[k];
+    next.headers = h;
+    return rawFetch(url, next);
+  };
+
+  var me = null;
+  function renderAcct() {
+    var who = $("acct-who"), sw = $("acct-switch"), form = $("acct-form");
+    if (!who) return;
+    if (me) {
+      who.textContent = "已登录：" + (me.nickname || me.username);
+      sw.textContent = "退出";
+      form.hidden = true;
+    } else {
+      who.textContent = "未登录（本机匿名记录）";
+      sw.textContent = "登录";
+      form.hidden = true;
+    }
+  }
+  function refreshMe() {
+    rawFetch("/me", authToken() ? { headers: { "Authorization": "Bearer " + authToken() } } : {})
+      .then(function (r) {
+        // 404 = 这套部署没有数据库，账号功能整体不可用，别留下一个按不动的入口。
+        if (r.status === 404) {
+          if ($("acct")) $("acct").hidden = true;
+          if ($("acct-form")) $("acct-form").hidden = true;
+          return null;
+        }
+        if (r.status === 401) { setAuthToken(""); me = null; renderAcct(); return null; }
+        return r.json().then(function (d) { me = (d && d.user) || null; renderAcct(); });
+      })
+      .catch(function () {});
+  }
+  // 登录态一变，可见的会话/档案集合就跟着变：换到「当前对话不属于你」的
+  // 空列表上继续发消息只会报错，所以直接开一段新对话。
+  function onAuthChanged() {
+    if (typeof newConv === "function") newConv();
+    if (typeof loadConvs === "function") loadConvs();
+    if (typeof load === "function") load();
+  }
+  if ($("acct-form")) {
+    $("acct-switch").addEventListener("click", function () {
+      if (me) { setAuthToken(""); me = null; renderAcct(); onAuthChanged(); return; }
+      $("acct-form").hidden = !$("acct-form").hidden;
+      if (!$("acct-form").hidden) $("acct-user").focus();
+    });
+    $("acct-form").addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      $("acct-err").textContent = "";
+      // 登录请求走 rawFetch：旧令牌不该跟着发出去。
+      rawFetch("/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username: $("acct-user").value.trim(), password: $("acct-pass").value })
+      }).then(function (r) {
+        return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, d: d }; });
+      }).then(function (res) {
+        if (!res.ok || !res.d.token) {
+          $("acct-err").textContent = res.d.error || "登录失败";
+          return;
+        }
+        setAuthToken(res.d.token);
+        $("acct-pass").value = "";
+        refreshMe();
+        onAuthChanged();
+      }).catch(function () { $("acct-err").textContent = "网络错误，请重试"; });
+    });
+  }
 
   /* ================= 医生形象（可多选） ================= */
   var PERSONAS = [{ id: "default", name: "医答", style: "循证专业", dept: "健康助手", accent: "#0e7c86", svg: "" }];
@@ -1979,6 +2092,7 @@ var ul = $("conv-list");
   /* ================= 启动 ================= */
   renderWelcomeBody();
   restoreHistory();
+  refreshMe();
   var _q = new URLSearchParams(location.search).get('q');
   if (_q) { input.value = _q; autoResize(); }
   input.focus();

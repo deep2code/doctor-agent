@@ -1,18 +1,72 @@
 package knowledge
 
 import (
+	"container/list"
 	"context"
 	"encoding/json"
 	"fmt"
 	"log/slog"
 	"strings"
+	"sync"
 )
+
+// queryVectorCache memoises query-text → embedding. One user turn can send
+// the same string through several retrieval legs (base + understanding
+// branches + follow-up entity queries, each embedding its verbatim and
+// expanded form), and every miss is a round-trip to the embedding service.
+// Keyed by text only — the query-side model is fixed per process, so cached
+// vectors can never straddle a model change.
+type queryVectorCache struct {
+	mu    sync.Mutex
+	limit int
+	order *list.List
+	items map[string]*list.Element
+}
+
+type queryVectorItem struct {
+	key    string
+	vector []float32
+}
+
+const queryVectorCacheLimit = 256
+
+func newQueryVectorCache(limit int) *queryVectorCache {
+	return &queryVectorCache{limit: limit, order: list.New(), items: make(map[string]*list.Element)}
+}
+
+func (c *queryVectorCache) get(key string) ([]float32, bool) {
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	if el, ok := c.items[key]; ok {
+		c.order.MoveToFront(el)
+		return el.Value.(*queryVectorItem).vector, true
+	}
+	return nil, false
+}
+
+func (c *queryVectorCache) put(key string, vector []float32) {
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	if el, ok := c.items[key]; ok {
+		el.Value.(*queryVectorItem).vector = vector
+		c.order.MoveToFront(el)
+		return
+	}
+	c.items[key] = c.order.PushFront(&queryVectorItem{key: key, vector: vector})
+	if c.order.Len() > c.limit {
+		if oldest := c.order.Back(); oldest != nil {
+			c.order.Remove(oldest)
+			delete(c.items, oldest.Value.(*queryVectorItem).key)
+		}
+	}
+}
 
 // VectorRetriever performs semantic search using embeddings.
 type VectorRetriever struct {
-	store     *VectorStore
-	embedder  Embedder
-	storeData *Store
+	store      *VectorStore
+	embedder   Embedder
+	storeData  *Store
+	queryCache *queryVectorCache
 }
 
 // Embedder is the interface for text embedding.
@@ -21,12 +75,73 @@ type Embedder interface {
 	Dimensions() int
 }
 
+// BatchEmbedder is the optional batch form an embedding.Provider implements
+// (embedding.OpenAICompatProvider always does). PrewarmQueries needs it;
+// without it prewarming is a no-op and legs embed one query at a time.
+type BatchEmbedder interface {
+	EmbedBatch(texts []string) ([][]float32, error)
+}
+
 // NewVectorRetriever creates a new vector retriever.
 func NewVectorRetriever(store *VectorStore, embedder Embedder, storeData *Store) *VectorRetriever {
 	return &VectorRetriever{
-		store:     store,
-		embedder:  embedder,
-		storeData: storeData,
+		store:      store,
+		embedder:   embedder,
+		storeData:  storeData,
+		queryCache: newQueryVectorCache(queryVectorCacheLimit),
+	}
+}
+
+// embedQuery returns the vector for a retrieval query, memoised. Indexing
+// paths (IndexKnowledgeEntry/IndexDrugEntry) embed entry text once each and
+// must NOT go through here — only query strings belong in the cache.
+func (r *VectorRetriever) embedQuery(query string) ([]float32, error) {
+	if v, ok := r.queryCache.get(query); ok {
+		return v, nil
+	}
+	v, err := r.embedder.Embed(query)
+	if err != nil {
+		return nil, fmt.Errorf("embedding query: %w", err)
+	}
+	r.queryCache.put(query, v)
+	return v, nil
+}
+
+// PrewarmQueries resolves the vectors for a batch of upcoming query strings
+// with a single EmbedBatch call, filling the query cache the legs will later
+// read. Duplicate/already-cached queries are dropped; on provider failure
+// this logs and returns — each leg then embeds its own query lazily, exactly
+// as without prewarming.
+func (r *VectorRetriever) PrewarmQueries(queries []string) {
+	batch, ok := r.embedder.(BatchEmbedder)
+	if !ok {
+		return
+	}
+	var missing []string
+	seen := make(map[string]bool, len(queries))
+	for _, q := range queries {
+		if q == "" || seen[q] {
+			continue
+		}
+		seen[q] = true
+		if _, cached := r.queryCache.get(q); cached {
+			continue
+		}
+		missing = append(missing, q)
+	}
+	if len(missing) == 0 {
+		return
+	}
+	vectors, err := batch.EmbedBatch(missing)
+	if err != nil {
+		slog.Warn("Query prewarm batch embedding failed; legs will embed individually",
+			"count", len(missing), "error", err)
+		return
+	}
+	for i, q := range missing {
+		if i < len(vectors) && len(vectors[i]) > 0 {
+			r.queryCache.put(q, vectors[i])
+		}
 	}
 }
 
@@ -36,10 +151,9 @@ func (r *VectorRetriever) Retrieve(ctx context.Context, query string, topK int) 
 		topK = 5
 	}
 
-	// Embed the query
-	queryVector, err := r.embedder.Embed(query)
+	queryVector, err := r.embedQuery(query)
 	if err != nil {
-		return nil, fmt.Errorf("embedding query: %w", err)
+		return nil, err
 	}
 
 	// Search vector store
@@ -102,10 +216,10 @@ func (r *VectorRetriever) RetrieveDrugs(ctx context.Context, query string, topK 
 		topK = 5
 	}
 
-	// Embed the query
-	queryVector, err := r.embedder.Embed(query)
+	// Search query vector (memoised, shared with the knowledge path)
+	queryVector, err := r.embedQuery(query)
 	if err != nil {
-		return nil, fmt.Errorf("embedding query: %w", err)
+		return nil, err
 	}
 
 	// Search vector store with drug type filter

@@ -90,8 +90,25 @@ func doRequest(t *testing.T, s *Server, method, path, body, auth, origin string)
 func TestHealthOpen(t *testing.T) {
 	s := newTestServer(t, nil)
 	rec := doRequest(t, s, http.MethodGet, "/health", "", "", "")
-	if rec.Code != http.StatusOK {
-		t.Fatalf("health status = %d, want 200", rec.Code)
+	if rec.Code != http.StatusOK && rec.Code != http.StatusServiceUnavailable {
+		t.Fatalf("health status = %d", rec.Code)
+	}
+	var body struct {
+		Status string            `json:"status"`
+		Checks map[string]string `json:"checks"`
+	}
+	if err := json.Unmarshal(rec.Body.Bytes(), &body); err != nil {
+		t.Fatalf("health body: %v", err)
+	}
+	// The probe must name its dependencies instead of just claiming to be well.
+	if _, ok := body.Checks["knowledge"]; !ok {
+		t.Errorf("health checks missing knowledge: %+v", body.Checks)
+	}
+	if body.Status == "ok" != (rec.Code == http.StatusOK) {
+		t.Errorf("status %q disagrees with code %d", body.Status, rec.Code)
+	}
+	if rec.Code == http.StatusOK && body.Checks["knowledge"] != "ok" {
+		t.Errorf("200 with degraded dependency: %+v", body.Checks)
 	}
 }
 
@@ -248,6 +265,42 @@ func TestAuthRequired(t *testing.T) {
 	}
 }
 
+// TestBodySizeCaps pins the request-body ceilings: without them a client could
+// stream unbounded JSON into the decoder's memory.
+func TestBodySizeCaps(t *testing.T) {
+	cases := []struct {
+		name   string
+		method string
+		path   string
+		body   string
+	}{
+		{"chat", http.MethodPost, "/chat", `{"message":"` + strings.Repeat("a", chatBodyLimit+1) + `"}`},
+		{"feedback", http.MethodPost, "/feedback", `{"rating":"` + strings.Repeat("a", smallBodyLimit+1) + `"}`},
+	}
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			s := newTestServer(t, nil)
+			rec := doRequest(t, s, tc.method, tc.path, tc.body, "", "")
+			if rec.Code != http.StatusRequestEntityTooLarge {
+				t.Errorf("oversized %s body → %d, want 413", tc.name, rec.Code)
+			}
+		})
+	}
+}
+
+// TestMalformedJSONRejected400 checks the shared decoder answers 400 (not a
+// 500 or a panic) on garbage, and does not echo parser internals.
+func TestMalformedJSONRejected400(t *testing.T) {
+	s := newTestServer(t, nil)
+	rec := doRequest(t, s, http.MethodPost, "/chat", "{not json", "", "")
+	if rec.Code != http.StatusBadRequest {
+		t.Fatalf("garbage body → %d, want 400", rec.Code)
+	}
+	if !strings.Contains(rec.Body.String(), "JSON") {
+		t.Errorf("expected a decoder error body, got %s", rec.Body.String())
+	}
+}
+
 func TestRateLimit(t *testing.T) {
 	s := newTestServer(t, func(c *config.Config) { c.RateLimit = 2 })
 
@@ -265,6 +318,105 @@ func TestRateLimit(t *testing.T) {
 	// /health is exempt.
 	if rec := doRequest(t, s, http.MethodGet, "/health", "", "", ""); rec.Code != http.StatusOK {
 		t.Errorf("health after limit → %d, want 200", rec.Code)
+	}
+}
+
+// proxyRequest issues a GET /app (any non-public path; it is rate limited
+// before the handler runs) from peer with the given X-Forwarded-For header.
+func proxyRequest(t *testing.T, s *Server, peer, xff string) *httptest.ResponseRecorder {
+	t.Helper()
+	req := httptest.NewRequest(http.MethodGet, "/app", nil)
+	req.RemoteAddr = peer
+	if xff != "" {
+		req.Header.Set("X-Forwarded-For", xff)
+	}
+	rec := httptest.NewRecorder()
+	s.http.Handler.ServeHTTP(rec, req)
+	return rec
+}
+
+// TestRateLimitHonoursTrustedProxy is the point of TRUSTED_PROXIES: behind a
+// proxy every visitor used to share one bucket, so the limiter either blocked
+// the whole site or was turned off entirely.
+func TestRateLimitHonoursTrustedProxy(t *testing.T) {
+	newSrv := func(trusted []string) *Server {
+		return newPageTestServer(t, func(c *config.Config) {
+			c.RateLimit = 1
+			c.TrustedProxies = trusted
+		})
+	}
+
+	const peer = "192.0.2.1:4321" // inside 192.0.2.0/24
+	s := newSrv([]string{"192.0.2.0/24"})
+	if rec := proxyRequest(t, s, peer, "203.0.113.5"); rec.Code != http.StatusOK {
+		t.Fatalf("first client → %d, want 200", rec.Code)
+	}
+	if rec := proxyRequest(t, s, peer, "203.0.113.6"); rec.Code != http.StatusOK {
+		t.Errorf("second client behind the same proxy → %d, want 200 (separate bucket)", rec.Code)
+	}
+	if rec := proxyRequest(t, s, peer, "203.0.113.5"); rec.Code != http.StatusTooManyRequests {
+		t.Errorf("repeat of the first client → %d, want 429", rec.Code)
+	}
+
+	// Without a trusted proxy the header is attacker-controlled, so it must
+	// not buy a fresh bucket: the shared peer bucket is already exhausted.
+	s = newSrv(nil)
+	if rec := proxyRequest(t, s, peer, "198.51.100.9"); rec.Code != http.StatusOK {
+		t.Fatalf("untrusted first request → %d, want 200", rec.Code)
+	}
+	if rec := proxyRequest(t, s, peer, "198.51.100.10"); rec.Code != http.StatusTooManyRequests {
+		t.Errorf("spoofed header escaped the rate limit: %d, want 429", rec.Code)
+	}
+}
+
+func TestForwardedClientIP(t *testing.T) {
+	s := newPageTestServer(t, func(c *config.Config) {
+		c.TrustedProxies = []string{"10.0.0.0/8", "127.0.0.1"}
+	})
+
+	cases := []struct {
+		name string
+		peer string
+		xff  string
+		want string
+	}{
+		{"untrusted peer ignores header", "192.0.2.1:1", "203.0.113.7", ""},
+		{"trusted peer resolves client", "10.1.2.3:1", "203.0.113.7", "203.0.113.7"},
+		{"bare-IP entry trusted", "127.0.0.1:1", "203.0.113.7", "203.0.113.7"},
+		// The client controls the left side of the chain; the proxy appends
+		// the peer, so the rightmost untrusted entry is the real client.
+		{"spoofed prefix ignored", "10.1.2.3:1", "1.1.1.1, 203.0.113.7", "203.0.113.7"},
+		{"innermost trusted hop wins", "10.1.2.3:1", "203.0.113.7, 10.9.9.9", "203.0.113.7"},
+		{"garbage entries skipped", "10.1.2.3:1", "not-an-ip, 203.0.113.7", "203.0.113.7"},
+		{"fully internal chain falls back to peer", "10.1.2.3:1", "10.9.9.9", ""},
+		{"no header", "10.1.2.3:1", "", ""},
+	}
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			req := httptest.NewRequest(http.MethodGet, "/app", nil)
+			req.RemoteAddr = tc.peer
+			if tc.xff != "" {
+				req.Header.Set("X-Forwarded-For", tc.xff)
+			}
+			if got := s.forwardedClientIP(req); got != tc.want {
+				t.Errorf("forwardedClientIP = %q, want %q", got, tc.want)
+			}
+		})
+	}
+}
+
+func TestParseTrustedProxies(t *testing.T) {
+	nets := parseTrustedProxies([]string{"10.0.0.0/8", "127.0.0.1", "::1", "garbage", ""})
+	if len(nets) != 3 {
+		t.Fatalf("parsed %d entries, want 3 (invalid dropped)", len(nets))
+	}
+	for _, tc := range []struct {
+		ip   string
+		want bool
+	}{{"10.9.9.9", true}, {"11.0.0.1", false}, {"127.0.0.1", true}, {"::1", true}, {"::2", false}} {
+		if got := (&Server{trustedProxies: nets}).isTrustedProxy(tc.ip); got != tc.want {
+			t.Errorf("isTrustedProxy(%q) = %v, want %v", tc.ip, got, tc.want)
+		}
 	}
 }
 

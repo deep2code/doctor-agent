@@ -2,7 +2,6 @@ package knowledge
 
 import (
 	"context"
-	"math"
 	"sort"
 	"strings"
 	"unicode"
@@ -13,12 +12,6 @@ import (
 // databases, making the system self-contained.
 type KeywordRetriever struct {
 	store *Store
-}
-
-// NewKeywordRetriever creates a keyword retriever backed by the given store.
-// TODO: remove if not used (deadcode)
-func NewKeywordRetriever(store *Store) *KeywordRetriever {
-	return &KeywordRetriever{store: store}
 }
 
 // NewRetriever creates a keyword retriever (default retriever for backward compatibility).
@@ -317,7 +310,7 @@ func (r *KeywordRetriever) scoreEntry(entry *KnowledgeEntry, query string, query
 		}
 	}
 
-// 6. Prose body bigram overlap (projected FHS/MSD/MedlinePlus articles).
+	// 6. Prose body bigram overlap (projected FHS/MSD/MedlinePlus articles).
 	// Fallback only: evaluated when no curated-keyword strategy matched, so
 	// precise entries always outrank long articles whose body merely contains
 	// common characters. Score is kept below a single keyword hit (3.0).
@@ -451,55 +444,6 @@ func tokenize(text string) []string {
 	}
 
 	return tokens
-}
-
-// IDF calculation for BM25-like scoring (simplified).
-type IDF struct {
-	docFreq      map[string]int
-	totalDocs    int
-	avgDocLength float64 // average document length across the corpus
-}
-
-// BM25Score computes the BM25 score for a query against a document.
-// TODO: remove if not used (deadcode)
-func BM25Score(queryTokens []string, docTokens []string, idf *IDF, k1, b float64) float64 {
-	if idf == nil || idf.totalDocs == 0 {
-		return 0
-	}
-
-	docLen := float64(len(docTokens))
-	if docLen == 0 {
-		return 0
-	}
-
-	avgDocLen := idf.avgDocLength
-	if avgDocLen == 0 {
-		avgDocLen = 1 // fallback to avoid division by zero
-	}
-
-	var score float64
-	for _, qt := range queryTokens {
-		df, ok := idf.docFreq[qt]
-		if !ok || df == 0 {
-			continue
-		}
-		idfVal := math.Log(1 + (float64(idf.totalDocs)-float64(df)+0.5)/(float64(df)+0.5))
-
-		tf := 0
-		for _, dt := range docTokens {
-			if dt == qt {
-				tf++
-			}
-		}
-		if tf == 0 {
-			continue
-		}
-
-		tfNorm := (float64(tf) * (k1 + 1)) / (float64(tf) + k1*(1-b+b*docLen/avgDocLen))
-		score += idfVal * tfNorm
-	}
-
-	return score
 }
 
 // minPublicResourceScore is the minimum score for a public resource to count as a match.

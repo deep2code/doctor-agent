@@ -64,14 +64,12 @@ func (s *Server) handleShare(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	r.Body = http.MaxBytesReader(w, r.Body, 4<<10)
 	var req struct {
 		Scope          string `json:"scope"`
 		ConversationID string `json:"conversation_id"`
 		Index          int    `json:"index"`
 	}
-	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
-		writeJSON(w, http.StatusBadRequest, map[string]any{"error": "invalid request"})
+	if !decodeJSONBody(w, r, smallBodyLimit, &req) {
 		return
 	}
 	if req.Scope != "answer" && req.Scope != "session" {
@@ -83,7 +81,10 @@ func (s *Server) handleShare(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	sess := s.agent.GetOrCreateSession(req.ConversationID)
+	sess, ok := s.claimConversation(w, r, req.ConversationID)
+	if !ok {
+		return
+	}
 	pairs := shareQAPairs(sess.GetMessages())
 	if len(pairs) == 0 {
 		writeJSON(w, http.StatusNotFound, map[string]any{"error": "没有可分享的内容"})
@@ -127,9 +128,10 @@ func (s *Server) handleShare(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-// 返回专用分享链接格式：/share/{id}，一眼可辨为分享链接
+	// 返回专用分享链接格式：/share/{id}，一眼可辨为分享链接
 	writeJSON(w, http.StatusOK, map[string]any{"id": shareID, "url": "/share/" + shareID})
 }
+
 // handleSharePage 渲染只读分享页：GET /share/{id}。
 func (s *Server) handleSharePage(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodGet {
@@ -140,7 +142,7 @@ func (s *Server) handleSharePage(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "分享功能需要数据库", http.StatusServiceUnavailable)
 		return
 	}
-id := strings.TrimPrefix(r.URL.Path, "/share/")
+	id := strings.TrimPrefix(r.URL.Path, "/share/")
 	if len(id) != 32 || !isHex(id) {
 		http.Error(w, "分享链接无效", http.StatusBadRequest)
 		return
@@ -160,7 +162,7 @@ id := strings.TrimPrefix(r.URL.Path, "/share/")
 	safePayload := strings.ReplaceAll(snap.Payload, "</", `<\/`)
 
 	page := strings.Replace(s.pageShareTmpl, "__PAYLOAD__", safePayload, 1)
-title := snap.Title
+	title := snap.Title
 	if title == "" {
 		title = "健康问答分享"
 	}

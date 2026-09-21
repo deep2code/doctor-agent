@@ -102,3 +102,14 @@ type LLMProvider interface {
 	// Name returns a human-readable identifier for this provider (e.g., "Anthropic Claude", "DeepSeek V4").
 	Name() string
 }
+
+// PromptCacheProvider is an optional interface implemented by providers with
+// explicit prompt-prefix caching (Anthropic's cache_control breakpoints).
+// StreamChatCached receives the system prompt already split into a
+// byte-stable prefix (shared by every request) and the per-request remainder;
+// implementations mark the prefix cacheable and must otherwise behave
+// identically to StreamChat with cachedPrefix+rest concatenated. Callers
+// type-assert and fall back to StreamChat when unsupported.
+type PromptCacheProvider interface {
+	StreamChatCached(ctx context.Context, messages []Message, tools []ToolDefinition, cachedPrefix, rest string, onDelta func(string)) (*ChatResponse, error)
+}

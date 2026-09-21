@@ -263,15 +263,6 @@ func (s *Syncer) IncrementalSync(ctx context.Context, cfg SyncConfig) (*SyncStat
 	return &s.status, nil
 }
 
-// GetStatus returns the current sync status.
-// TODO: remove if not used (deadcode)
-func (s *Syncer) GetStatus() *SyncStatus {
-	s.mu.RLock()
-	defer s.mu.RUnlock()
-	status := s.status
-	return &status
-}
-
 // syncMedicalEntries syncs medical knowledge entries to vector database.
 func (s *Syncer) syncMedicalEntries(ctx context.Context, batchSize int) (int, []string) {
 	var errors []string

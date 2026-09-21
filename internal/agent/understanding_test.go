@@ -147,6 +147,60 @@ func TestRetrieveWithUnderstandingDisabled(t *testing.T) {
 	}
 }
 
+// TestRetrieveWithUnderstandingSkippedOnFullRecall: verbatim path returns a
+// full page (topK hits) → understanding LLM is not called at all (on-demand).
+func TestRetrieveWithUnderstandingSkippedOnFullRecall(t *testing.T) {
+	p := &fakeProvider{responses: []*llm.ChatResponse{{Text: `{"search_queries": ["多余分支"]}`}}}
+	ag := newTestAgent(understandingConfig(), p)
+	var ids []string
+	for i := 0; i < 5; i++ {
+		ids = append(ids, fmt.Sprintf("hit-%d", i))
+	}
+	rec := &recordingRetriever{bySub: map[string][]string{"宝宝": ids}}
+	ag.retriever = rec
+
+	got := ag.retrieveWithUnderstanding(context.Background(), "宝宝腹泻怎么办", noopStep)
+	if len(got) != 5 {
+		t.Errorf("应只返回原词路 5 条，实际 %d", len(got))
+	}
+	if p.chatCalls != 0 {
+		t.Errorf("召回充足时不应调用理解 LLM，实际 %d 次", p.chatCalls)
+	}
+	if n := len(rec.seenQueries()); n != 1 {
+		t.Errorf("召回充足时不应发起分支检索，实际 %d 条", n)
+	}
+}
+
+// prewarmSpy wraps recordingRetriever and records QueryPrewarmer batches,
+// mirroring the production wiring where hybrid routes them to one
+// EmbedBatch round-trip.
+type prewarmSpy struct {
+	*recordingRetriever
+	mu      sync.Mutex
+	batches [][]string
+}
+
+func (p *prewarmSpy) PrewarmQueries(qs []string) {
+	p.mu.Lock()
+	defer p.mu.Unlock()
+	p.batches = append(p.batches, append([]string(nil), qs...))
+}
+
+// TestRetrieveWithUnderstandingBatchPrewarm: all branch queries go through
+// exactly one prewarm batch before the parallel legs start.
+func TestRetrieveWithUnderstandingBatchPrewarm(t *testing.T) {
+	p := &fakeProvider{responses: []*llm.ChatResponse{{Text: `{"symptoms": ["腹泻"], "suspected_conditions": ["秋季腹泻"], "search_queries": ["q-a", "q-b", "q-c"]}`}}}
+	ag := newTestAgent(understandingConfig(), p)
+	rec := &recordingRetriever{bySub: map[string][]string{"q-a": {"x"}}}
+	spy := &prewarmSpy{recordingRetriever: rec}
+	ag.retriever = spy
+
+	ag.retrieveWithUnderstanding(context.Background(), "宝宝烧抽了还拉肚子", noopStep)
+	if len(spy.batches) != 1 || len(spy.batches[0]) != 3 {
+		t.Fatalf("分支查询应恰好预热 1 批 3 条，实际: %v", spy.batches)
+	}
+}
+
 func TestExtractJSONObject(t *testing.T) {
 	cases := []struct{ in, want string }{
 		{`{"a":1}`, `{"a":1}`},

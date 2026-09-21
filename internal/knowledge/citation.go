@@ -14,49 +14,6 @@ func NewCitationFormatter() *CitationFormatter {
 	return &CitationFormatter{}
 }
 
-// FormatReference generates an AMA-style formatted reference string.
-// TODO: remove if not used (deadcode)
-func (cf *CitationFormatter) FormatReference(c *Citation, index int) string {
-	var sb strings.Builder
-
-	fmt.Fprintf(&sb, "[%d] ", index)
-
-	// Type prefix
-	typeLabel := "[" + cf.typeLabel(c.Type) + "] "
-
-	sb.WriteString(typeLabel)
-
-	// Journal article
-	if c.Journal != "" {
-		sb.WriteString(c.Title)
-		sb.WriteString(". ")
-		sb.WriteString(c.Journal)
-		if c.Year > 0 {
-			fmt.Fprintf(&sb, ". %d", c.Year)
-		}
-		sb.WriteString(".")
-	} else {
-		// Non-journal reference (guideline, report, etc.)
-		sb.WriteString(c.Title)
-		if c.Year > 0 {
-			fmt.Fprintf(&sb, " (%d)", c.Year)
-		}
-		sb.WriteString(".")
-	}
-
-	// DOI
-	if c.DOI != "" {
-		fmt.Fprintf(&sb, " DOI: %s", c.DOI)
-	}
-
-	// PMID
-	if c.PMID != "" {
-		fmt.Fprintf(&sb, " PMID: %s", c.PMID)
-	}
-
-	return sb.String()
-}
-
 // BuildCitationMap creates a knowledge-entry-ID -> formatted citation mapping
 // for inclusion in the system prompt. Citations are numbered flatly [1]..[N]
 // so the model can reference them directly.
@@ -259,35 +216,6 @@ func entrySummary(e *KnowledgeEntry) string {
 	}
 
 	return sb.String()
-}
-
-// typeLabel returns a human-readable label for citation types.
-// TODO: remove if not used (deadcode)
-func (cf *CitationFormatter) typeLabel(t string) string {
-	switch t {
-	case "guideline":
-		return "临床指南"
-	case "national_guideline":
-		return "国家级指南"
-	case "epidemiology":
-		return "流行病学研究"
-	case "meta_analysis":
-		return "Meta分析"
-	case "rct":
-		return "随机对照试验"
-	case "cohort":
-		return "队列研究"
-	case "case_control":
-		return "病例对照研究"
-	case "case_report":
-		return "病例报告"
-	case "review":
-		return "综述"
-	case "expert_opinion":
-		return "专家意见"
-	default:
-		return t
-	}
 }
 
 // AddToolSource registers a tool-returned reference (e.g. a literature_search

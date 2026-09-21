@@ -12,14 +12,17 @@ import (
 // Session manages a single conversation's state and message history.
 // Fields are JSON-serializable so sessions can be persisted to disk.
 type Session struct {
-	mu             sync.RWMutex `json:"-"`
-	ID             string       `json:"id"`
-	Messages       []llm.Message `json:"messages"`
-	ContextSummary string       `json:"context_summary,omitempty"`
-	CreatedAt      time.Time    `json:"created_at"`
-	UpdatedAt      time.Time    `json:"updated_at"`
+	mu sync.RWMutex `json:"-"`
+	ID string       `json:"id"`
+	// UserID owns this conversation. "" = anonymous (the pre-login default,
+	// and what a deployment without user accounts keeps using).
+	UserID         string          `json:"user_id,omitempty"`
+	Messages       []llm.Message   `json:"messages"`
+	ContextSummary string          `json:"context_summary,omitempty"`
+	CreatedAt      time.Time       `json:"created_at"`
+	UpdatedAt      time.Time       `json:"updated_at"`
 	PatientContext *PatientContext `json:"patient_context,omitempty"`
-	DisclaimerSent bool         `json:"disclaimer_sent"`
+	DisclaimerSent bool            `json:"disclaimer_sent"`
 }
 
 // PatientContext holds optional structured patient-level context
@@ -89,6 +92,38 @@ func (s *Session) GetMessages() []llm.Message {
 	return msgs
 }
 
+// LastTouched reports when the conversation content last changed. The agent's
+// idle-session reaper uses it to decide what to drop from memory.
+func (s *Session) LastTouched() time.Time {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return s.UpdatedAt
+}
+
+// Owner returns the user id owning this conversation ("" = anonymous).
+func (s *Session) Owner() string {
+	s.mu.RLock()
+	defer s.mu.RUnlock()
+	return s.UserID
+}
+
+// ClaimOwner binds an unclaimed conversation to owner and reports whether owner
+// may use it. The check and the bind are one atomic step, so two concurrent
+// first-writers on the same conversation id cannot both get access: whoever
+// loses sees a UserID that is not theirs. An empty UserID means "unclaimed"
+// rather than "owned by anonymous users", so a conversation that starts before
+// login can be claimed by the user who later continues it — which is only safe
+// because the conversation id is itself the access credential and must be
+// unguessable.
+func (s *Session) ClaimOwner(owner string) bool {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	if s.UserID == "" {
+		s.UserID = owner
+	}
+	return s.UserID == owner
+}
+
 // Clear resets the conversation history (keeps ID and patient context).
 func (s *Session) Clear() {
 	s.mu.Lock()
@@ -147,6 +182,7 @@ func (s *Session) Snapshot() *Session {
 
 	out := &Session{
 		ID:             s.ID,
+		UserID:         s.UserID,
 		ContextSummary: s.ContextSummary,
 		CreatedAt:      s.CreatedAt,
 		UpdatedAt:      s.UpdatedAt,

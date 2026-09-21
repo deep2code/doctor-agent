@@ -116,7 +116,10 @@ LLM_PROVIDER=deepseek
 DEEPSEEK_API_KEY=sk-你的密钥
 
 # 安全配置（生产环境必填）
-API_KEY=自定义一个复杂的访问密钥
+API_KEY=自定义一个复杂的访问密钥        # 设了它，/app 网页版需要反代放行或改走 API；只跑网页版可留空
+AUTH_SECRET=自定义一长串随机值          # 必填否则每次重启全员掉线：openssl rand -hex 32
+# TRUSTED_PROXIES=127.0.0.1,10.0.0.0/8 # 在 nginx/负载均衡后面时必须配，否则所有访客共用一个限流桶
+ADMIN_PASSWORD=自定义管理员密码         # 不设会回退 admin123 并打 Warn
 
 # 数据库
 APP_DB_DSN=root:your_password@tcp(localhost:3306)/doctor_agent
@@ -229,10 +232,11 @@ EOF
 sudo ln -s /etc/nginx/sites-available/doctor-agent /etc/nginx/sites-enabled/
 sudo nginx -t
 sudo systemctl reload nginx
-
 # 申请 SSL 证书
 sudo certbot --nginx -d medical.example.com
 ```
+
+> ⚠️ 上面这份 nginx 会写 `X-Forwarded-For`，所以 `.env` 里必须配 `TRUSTED_PROXIES=127.0.0.1`（nginx 与应用同机时）——否则应用不采信该头，全站访客会挤在 `127.0.0.1` 这一个限流桶里，一个人刷接口就能把所有人挡在 429 外面。
 
 #### 第六步：配置防火墙
 
@@ -312,7 +316,10 @@ cp .env.example .env
 ```bash
 LLM_PROVIDER=deepseek
 DEEPSEEK_API_KEY=sk-你的密钥
+# API_KEY 一开就是「只有拿到密钥的调用方能访问」：/app 网页版会被 401 拦掉，
+# 需要在反代层放行，或让调用方先走 POST /login 拿用户令牌。纯内网网页版可留空。
 API_KEY=自定义访问密钥
+AUTH_SECRET=自定义一长串随机值   # /login 令牌的签名密钥；不设=每次启动随机，重启后全员重新登录
 # 可选：镜像名覆盖（默认已指向公共仓库，四个服务各一个变量）
 # QDRANT_IMAGE=docker.io/你的用户名/doctor-agent-qdrant:latest
 # EMBED_IMAGE=docker.io/你的用户名/doctor-agent-embed:latest
@@ -332,7 +339,8 @@ API_KEY=自定义访问密钥
 >   必须与烘焙向量**同模型**，否则语义召回静默失效。
 > - `doctor-agent-kb` —— 预灌全部医学知识的 MariaDB 11.4 数据镜像：`docker/Dockerfile.kb`
 >   把 `doctor_knowledge` 全量 dump 放进 `/docker-entrypoint-initdb.d/`，**空卷首启自动导入、
->   运行时零 seed**；镜像 tag 取 `internal/knowledge/data/version.json` 的版本号。
+>   运行时零 seed**；镜像只发 `:latest` 标签（`internal/knowledge/data/version.json`
+>   只记录知识库内容版本，构建时打印出来做溯源，不再当镜像 tag 用）。
 >
 > **一次部署 = 4 个镜像都拉到**（`docker compose up -d`），app 依赖 mariadb + qdrant + embed。
 > **只读部署**：compose 不给 qdrant 挂卷，向量直接读镜像层（容器重建即恢复），磁盘约 5GB
@@ -385,18 +393,23 @@ docker compose up -d --build    # 重新构建并启动
 | `MAX_HISTORY_TURNS` | `20` | 送入模型的历史轮数上限 |
 | `MAX_TOOL_ITERATIONS` / `MAX_TOOL_CALLS` | `5` / `5` | Agent 循环次数与单轮并发工具数 |
 | `KNOWLEDGE_RETRIEVAL_ENABLED` / `KNOWLEDGE_TOP_K` | `true` / `8` | 知识检索开关与返回条数 |
-| `QUERY_UNDERSTANDING_ENABLED` / `QUERY_UNDERSTANDING_BRANCHES` / `UNDERSTAND_MODEL` | `true` / `5` / 空 | 查询改写/别名扩展分支 |
+| `QUERY_UNDERSTANDING_ENABLED` / `QUERY_UNDERSTANDING_BRANCHES` / `UNDERSTAND_MODEL` | `true` / `5` / 空 | 查询改写/别名扩展分支（按需：仅在原词检索命中不足 topK 时触发） |
 | `ALIAS_MAP_PATH` | `data/alias_map.json` | 可选外部同义词表，**按 key 合并**进 `//go:embed` 内置 `alias_map.json`（同名 key 外部优先，其余保留）；文件缺失/解析失败只提示，不影响启动 |
 | `VECTOR_STORE_ENABLED` / `VECTOR_STORE_HOST` / `VECTOR_STORE_PORT` / `VECTOR_COLLECTION` | `true` / `localhost` / `6334` / `medical_knowledge` | Qdrant 向量检索（不可达时自动降级为关键词检索） |
 | `EMBEDDING_ENABLED` / `EMBEDDING_BASE_URL` / `EMBEDDING_API_KEY` / `EMBEDDING_MODEL` | `true` / 空 / 空 / `bge-m3` | 无本地模型回退：`EMBEDDING_BASE_URL` 未配则打 warn 并降级为 keyword-only（`seed-knowledge`/`vector-bake` 会直接报错退出）；查询端模型必须与烘焙向量同源（bge-m3） |
+| `RERANK_ENABLED` / `RERANK_BASE_URL` / `RERANK_MODEL` | `false` / 空 / `bge-reranker-v2-m3` | RRF 融合后的交叉编码器精排层（可选）：对候选池重排再截断到 `KNOWLEDGE_TOP_K`。需自备 TEI 风格 `/rerank` 服务；服务缺失/超时（2s）自动退回 RRF 原序，绝不阻塞回答 |
 | `EMERGENCY_DETECTION_ENABLED` / `SCOPE_GUARD_ENABLED` / `POST_VERIFY_ENABLED` | `true` | L1/L2/L3 安全层开关 |
 | `POST_VERIFY_SEMANTIC` / `POST_VERIFY_JUDGE_MODEL` | `false` / 空 | 语义二次校验（LLM-as-judge，成本约翻倍） |
 | `SERVER_HOST` / `SERVER_PORT` | `0.0.0.0` / **`7071`** | 监听地址与端口（网页版/反代 upstream 都用它） |
-| `API_KEY` | 空 | Bearer 鉴权密钥，空=不鉴权；公开页与 `/health` 始终免鉴权 |
+| `API_KEY` | 空 | 部署级 Bearer 鉴权密钥，空=不鉴权；公开页与 `/health` 始终免鉴权。注意它是**服务凭证不是用户身份**：`/login` 签发的用户令牌才算「人」，个人数据（会话/家庭档案）只跟用户令牌走 |
+| `AUTH_SECRET` | 空 | `/login` 令牌的 HMAC-SHA256 签名密钥（`base64url(uid\|过期时间).hex(hmac)`，有效期 7 天）。留空则每次启动随机生成——功能正常，但**重启后所有人都要重新登录，多实例部署彼此不认凭证**，生产必须设为固定长随机串 |
 | `CORS_ORIGINS` | 空 | 逗号分隔的允许来源；空 = 允许全部 (`*`) |
-| `RATE_LIMIT` | `0` | 每 IP 每分钟请求数限制，`0`=不限（公开页不计） |
+| `RATE_LIMIT` | `120` | 每 IP 每分钟请求数限制，`0`=不限（启动时会给出不限流告警；公开页不计） |
+| `TRUSTED_PROXIES` | 空 | 逗号分隔的 CIDR/IP。只有 TCP 对端落在这里时，`X-Forwarded-For` 才被采信为访客真实 IP——否则反代后面所有请求共用一个限流桶 |
 | `PUBLIC_BASE_URL` | 空 | 生产域名，用于落地页 canonical/og:url 与 sitemap |
-| `SESSION_DIR` | 空 | 会话 JSON 快照目录，空=仅内存 |
+| `SESSION_DIR` | 空 | 会话 JSON 快照目录（`0600`），空=仅内存 |
+| `SESSION_IDLE_MINUTES` | `120` | 内存会话空闲多久后驱逐（已落库/落盘的会按需再读回来）；`0`=不按空闲驱逐 |
+| `MAX_ACTIVE_SESSIONS` | `500` | 内存同时保留的会话数上限，超出按 LRU 驱逐；`0`=不限制 |
 | `MARIA_DB_HOST` / `_PORT` / `_USER` / `_PASSWORD` | `localhost` / `3306` / `root` / 空 | 两个库共用的连接参数 |
 | `MARIA_DB_KNOWLEDGE_DB` / `MARIA_DB_APP_DB` | `doctor_knowledge` / `doctor_agent` | 知识库 / 业务库库名 |
 | `KNOWLEDGE_DB_DSN` / `APP_DB_DSN` | 空（由 `MARIA_DB_*` 组合） | 显式覆盖两个库的完整 DSN |
@@ -467,8 +480,8 @@ curl -N -X POST http://localhost:7071/chat/stream \   # SSE 流式
 ```
 </details>
 
-> 🔒 请求体字段：`message`、`conversation_id`（可选，多轮）、`images`（可选，base64 图片走影像分析）、`member_id`（可选，家庭档案成员）。
-> 🔒 若设置了 `API_KEY`，除落地页与探针（`/`、`/map`、`/stats`、`/health`、`/robots.txt`、`/sitemap.xml`、`/llms.txt`）外全部端点都要携带 `Authorization: Bearer <API_KEY>`——包括网页聊天界面 `/app`，因此**启用 API_KEY 后浏览器直连网页版会被 401 拦截**（面向 API 调用方或在反代层放行）。
+> 🔒 请求体字段：`message`、`conversation_id`（可选，多轮）、`images`（可选，base64 图片走影像分析）、`member_id`（可选，家庭档案成员）。`conversation_id` **本身就是访问凭据**——谁先拿到它谁就能续写这段对话，网页版用 `crypto.getRandomValues` 生成，请勿自己拼时间戳。
+> 🔒 若设置了 `API_KEY`，除落地页与探针（`/`、`/map`、`/stats`、`/health`、`/robots.txt`、`/sitemap.xml`、`/llms.txt`）外全部端点都要携带 `Authorization: Bearer <API_KEY>`——包括网页聊天界面 `/app`，因此**启用 API_KEY 后浏览器直连网页版会被 401 拦截**（面向 API 调用方或在反代层放行）。API 调用方也可以改用 `POST /login` 换来的**用户令牌**通过这道门，且只有用户令牌能看到自己的会话与家庭档案。
 
 **路由一览**（`internal/server/server.go`）：
 
@@ -477,9 +490,10 @@ curl -N -X POST http://localhost:7071/chat/stream \   # SSE 流式
 | 公开页面 | `GET /`（落地页）、`/map`、`/stats`、`/robots.txt`、`/sitemap.xml`、`/llms.txt` |
 | Web UI | `GET /app`（咨询台单页应用）+ 懒加载静态资源 `/mermaid.min.js` `/three.min.js` `/anatomy*.js` `/qrcode.min.js` `/favicon.ico` `/media/*` |
 | 对话 | `POST /chat`、`POST /chat/stream`（真 SSE）、`POST /feedback`（评分） |
-| 会话/家庭（需 MariaDB 业务库） | `/sessions`、`/sessions/{id}`、`/family`、`/family/{id}`、`/share`、`/share/{token}` |
+| 账号（需 MariaDB 业务库） | `POST /login`（返回 `{token, expires_at, user}`，有效期 7 天）、`GET /me`（当前令牌是谁） |
+| 会话/家庭（需 MariaDB 业务库，**按登录用户隔离**） | `/sessions`、`/sessions/{id}`、`/family`、`/family/{id}`、`/share`、`/share/{token}` |
 | 管理 | `/admin`（Basic-auth 控制台页）、`/admin/users*`、`/admin/sessions*`、`/admin/knowledge*`（含 stats/versions/export）、`/admin/sync`(+`/status`)、`/admin/feedback*`、`/admin/audit-logs`、`/admin/config*`、`/admin/api-stats*`、`/admin/analytics`、`/admin/batch/{users,knowledge}`、`/admin/export` |
-| 探针 | `GET /health`（免鉴权、免限流） |
+| 探针 | `GET /health`（免鉴权、免限流；会真检业务库连通与知识库是否已播种，异常返回 `status:"degraded"` 但仍是 200） |
 
 ### 想换模型 / 开高级功能？
 
@@ -535,10 +549,12 @@ curl -N -X POST http://localhost:7071/chat/stream \   # SSE 流式
 |---|---|---|
 | `LLM_PROVIDER` | `deepseek` | `deepseek` / `anthropic` / `openai-compat` |
 | `POST_VERIFY_SEMANTIC` | `false` | 语义二次校验（LLM-as-judge，开启后 LLM 成本约翻倍） |
-| `API_KEY` | 空 | 除公开页/`/health` 外所有端点的 Bearer 鉴权；空 = 不鉴权 |
+| `API_KEY` | 空 | 除公开页/`/health` 外所有端点的 Bearer 鉴权；空 = 不鉴权。它是**部署凭证**，不代表某个用户 |
+| `AUTH_SECRET` | 空 | `/login` 令牌的签名密钥；留空=每次启动随机（重启即全员掉线，生产必须设） |
 | `CORS_ORIGINS` | 空 | 逗号分隔的允许来源；空 = 允许全部 (`*`) |
-| `RATE_LIMIT` | `0` | 每 IP 每分钟最大请求数；`0` = 不限 |
-| `SESSION_DIR` | 空 | 会话 JSON 快照目录（重启后对话不丢）；空 = 仅内存 |
+| `RATE_LIMIT` | `120` | 每 IP 每分钟最大请求数；`0` = 不限 |
+| `TRUSTED_PROXIES` | 空 | 反代/负载均衡的 CIDR 列表；不配则 `X-Forwarded-For` 一律不采信，全站访客共用一个限流桶 |
+| `SESSION_DIR` | 空 | 会话 JSON 快照目录（`0600`，重启后对话不丢）；空 = 仅内存 |
 | `SERVER_PORT` | `7071` | HTTP 监听端口（网页版与反代 upstream 同端口） |
 
 > 完整变量清单见上文「🚀 部署指南 → 环境变量完整说明」，或 `.env.example`。
@@ -552,11 +568,13 @@ curl -N -X POST http://localhost:7071/chat/stream \   # SSE 流式
   ├─ [知识检索] 关键词(BM25+CJK) + 向量/混合检索，命中 MariaDB 知识库 / Qdrant RAG
   ├─ [提示词组装] 分层系统提示词（Layer 0–4 共 9 段）+ 检索知识注入
   ├─ [Agent循环] LLM Provider(流式) ← → 13个医疗工具
-  ├─ [L3 引用验证] 引用真实性核查 + 诊断断言检查
-  └─ [L4 免责声明] 返回 响应 + 引用列表 + 免责声明
+  └─ [L3 引用验证] 引用真实性核查 + 诊断断言检查（日志留痕，不静默改写）
 ```
 
-HTTP 层另有可选安全中间件：Bearer 鉴权 → 每 IP 限流 → CORS 白名单。
+> 曾经还有一步 `[L4 免责声明]` 会在答案尾部追加提示文字，2026-09-06 起按产品决策从答案里移除，`Response.DisclaimerSent` 只在 L1 急救 / L2 拒答两条短路上为 true（正常回答恒为 false）。这是**有意的产品决策**，不是漏掉的一环。
+> L3 也不改写内容：核查不通过只写 `slog.Warn`，`CorrectedResponse` 明确丢弃（2026-09-08），避免「机器给你的答案打折」影响用户判断。
+
+HTTP 层另有安全中间件（顺序固定）：可信代理解析访客 IP → 登录令牌解析出「是谁」 → CORS 白名单 → 每 IP 限流 → Bearer 鉴权（`/login` 与公开页豁免） → 请求日志；请求体按端点设上限（聊天 10MiB、JSON 1MiB、反馈/分享 4KiB、批量 32MiB），5xx 只回固定文案、真实错误进 slog。
 
 ## 🛠️ 13个活跃医疗工具
 
@@ -588,7 +606,7 @@ doctor-agent/
 │   ├── agent/agent.go                # Agent 核心循环（含流式 ProcessMessageStream）、13 个工具注册处
 │   ├── config/                       # 环境变量配置（Load/Validate、两个库的 DSN 组合）
 │   ├── database/                     # MariaDB 业务库（users/sessions/messages/feedback/family）
-│   ├── auth/                         # 用户鉴权（管理员建号、登录、token、SHA256+salt）
+│   ├── auth/                         # 用户鉴权（管理员建号、登录、HMAC 令牌签发/校验、PBKDF2 口令哈希 + 旧哈希登录时升级）
 │   ├── embedding/                    # OpenAI 协议 embedding 客户端（bge-m3）
 │   ├── logging/                      # slog 初始化
 │   ├── session/                      # 会话状态 + PatientContext + SESSION_DIR JSON 快照

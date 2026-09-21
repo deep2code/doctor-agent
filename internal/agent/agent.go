@@ -396,45 +396,125 @@ func selfCheckAnswer(userMessage, answer string) []string {
 	return missing
 }
 
-// needsClarification reports whether the user message is too vague to answer
-// safely. A message is vague when it names only a symptom ("头疼", "肚子疼")
-// without duration, severity, accompanying symptoms, or context. In that case
-// the agent should ask 2-3 targeted follow-up questions instead of jumping to
-// a differential diagnosis. The check is rule-based (no extra LLM call):
-// short message + symptom keyword + absence of detail markers = vague.
-func needsClarification(userMessage string) bool {
-	msg := strings.TrimSpace(userMessage)
-	if len([]rune(msg)) > 20 {
-		return false
-	}
-	// Must contain at least one symptom word.
-	hasSymptom := false
-	for _, kw := range []string{
-		"疼", "痛", "痒", "晕", "恶心", "呕吐", "腹泻", "拉肚子", "发烧", "发热",
-		"咳嗽", "头痛", "头晕", "胸闷", "气短", "乏力", "疲劳", "失眠", "皮疹",
-		"便秘", "便血", "水肿", "黄疸", "鼻塞", "流涕", "咽痛", "尿频", "尿急",
-		"不舒服", "难受", "症状",
-	} {
+// clarificationSymptomKeywords marks a message as a symptom-style personal
+// question — the precondition for slot checking.
+var clarificationSymptomKeywords = []string{
+	"疼", "痛", "痒", "晕", "恶心", "呕吐", "腹泻", "拉肚子", "发烧", "发热",
+	"咳嗽", "头痛", "头晕", "胸闷", "气短", "乏力", "疲劳", "失眠", "皮疹",
+	"便秘", "便血", "水肿", "黄疸", "鼻塞", "流涕", "咽痛", "尿频", "尿急",
+	"不舒服", "难受", "症状",
+}
+
+// clinicalSlot is one information group that makes a symptom question
+// answerable. When NONE of the groups is present the agent asks targeted
+// follow-up questions instead of guessing a differential.
+type clinicalSlot struct {
+	name     string // slot name shown in the guidance header
+	question string // targeted follow-up hint for this slot
+	keywords []string
+}
+
+// clinicalSlots groups the former flat detail-marker list and extends it
+// with everyday colloquialisms (最近/老是/39度/疼得厉害…) that the old rule
+// missed. A keyword hit in ANY group counts as "user provided context" and
+// suppresses clarification (same conservative direction as the old rule —
+// false negatives mean answering directly, never pestering).
+var clinicalSlots = []clinicalSlot{
+	{"持续时间", "症状从什么时候开始的？是持续性的还是阵发性？", []string{
+		"天", "小时", "周", "月", "年", "持续", "一直", "反复", "突然", "昨天",
+		"今天", "前天", "早上", "晚上", "最近", "老是", "总是", "每次", "发作",
+		"这段时间", "这几天", "以来", "刚才", "刚开始",
+	}},
+	{"严重程度", "发作时程度如何？影响睡眠或日常活动吗？", []string{
+		"剧烈", "厉害", "受不了", "疼醒", "睡不着", "影响", "加重", "缓解",
+		"高热", "低烧", "38", "39", "40", "剧痛", "绞痛", "很疼", "很痛",
+	}},
+	{"伴随与诱因", "发作时还有别的症状吗？有没有可能的诱因（饮食/用药/着凉等）？", []string{
+		"伴随", "伴有", "伴", "还有", "同时", "合并", "并发", "因为", "由于",
+		"吃了", "喝了", "用了", "吃过", "着凉", "受凉", "劳累", "熬夜", "外伤",
+		"药", "检查", "化验", "医院", "医生", "诊断", "接触", "被咬",
+	}},
+	{"患者信息", "是给本人咨询吗？年龄和性别是？", []string{
+		"岁", "男", "女", "怀孕", "备孕", "哺乳", "孩子", "宝宝", "婴儿",
+		"幼儿", "老人", "家长", "青少年", "本人",
+	}},
+}
+
+// generalInfoMarkers identify drug-knowledge / factual questions: they may
+// contain a symptom word ("布洛芬能治头痛吗") but are not personal symptom
+// reports and need no clinical slots.
+var generalInfoMarkers = []string{
+	"能治", "功效", "副作用", "禁忌", "相互作用", "用法", "用量", "是什么药",
+	"正常值", "参考范围", "会传染", "怎么预防", "多少钱", "挂号",
+}
+
+func containsAnyOf(msg string, keywords []string) bool {
+	for _, kw := range keywords {
 		if strings.Contains(msg, kw) {
-			hasSymptom = true
+			return true
+		}
+	}
+	return false
+}
+
+// clarificationGaps returns the missing clinical slots when the message is a
+// symptom-only question, or nil when no clarification is needed. Length no
+// longer proxies for detail (the old 20-rune cutoff both fired on rich short
+// questions and skipped empty symptom lists at 21 runes); a very long
+// message (>60 runes) is still treated as detailed — interrogating a
+// patient's written narrative is user-hostile.
+func clarificationGaps(userMessage string) []clinicalSlot {
+	msg := strings.TrimSpace(userMessage)
+	if msg == "" || len([]rune(msg)) > 60 {
+		return nil
+	}
+	if !containsAnyOf(msg, clarificationSymptomKeywords) {
+		return nil
+	}
+	if containsAnyOf(msg, generalInfoMarkers) {
+		return nil
+	}
+	var missing []clinicalSlot
+	for _, s := range clinicalSlots {
+		if !containsAnyOf(msg, s.keywords) {
+			missing = append(missing, s)
+		}
+	}
+	if len(missing) < len(clinicalSlots) {
+		return nil
+	}
+	return missing
+}
+
+// needsClarification reports whether the message is a symptom-only question
+// with no clinical slot filled at all.
+func needsClarification(userMessage string) bool {
+	return len(clarificationGaps(userMessage)) > 0
+}
+
+// clarificationGuidance builds the system-prompt section naming the slots
+// that are actually missing, so the LLM's follow-ups target real gaps.
+// Returns "" when no clarification is needed.
+func clarificationGuidance(userMessage string) string {
+	gaps := clarificationGaps(userMessage)
+	if len(gaps) == 0 {
+		return ""
+	}
+	names := make([]string, 0, len(gaps))
+	for _, g := range gaps {
+		names = append(names, g.name)
+	}
+	questions := make([]string, 0, 3)
+	for i, g := range gaps {
+		if i >= 3 {
 			break
 		}
+		questions = append(questions, "- "+g.question)
 	}
-	if !hasSymptom {
-		return false
-	}
-	// Detail markers: if any present, the user has provided enough context.
-	for _, marker := range []string{
-		"天", "小时", "周", "月", "年", "持续", "一直", "反复", "突然", "昨天",
-		"今天", "早上", "晚上", "伴随", "还有", "同时", "伴有", "因为", "由于",
-		"吃了", "喝了", "用了", "检查", "化验", "医院", "医生", "诊断",
-		"岁", "男", "女", "怀孕", "哺乳", "孩子", "宝宝", "老人",
-	} {
-		if strings.Contains(msg, marker) {
-			return false
-		}
-	}
-	return true
+	return "\n\n## 信息不足时的澄清指引\n\n用户的问题只描述了症状，完全没有给出" +
+		strings.Join(names, "、") + "等关键信息。请先提出 2-3 个有针对性的追问，例如：\n" +
+		strings.Join(questions, "\n") +
+		"\n补充信息后再给出分析。不要直接给出诊断或治疗建议。"
 }
 
 // buildContextualQuery enriches the current user message with recent
@@ -856,8 +936,8 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 	// Clarification guidance: when the user names only a symptom without
 	// duration/severity/context, ask targeted follow-ups instead of jumping
 	// to a differential diagnosis.
-	if needsClarification(userMessage) {
-		systemPrompt += "\n\n## 信息不足时的澄清指引\n\n用户的问题只提到了症状，缺少持续时间、严重程度、伴随症状等关键信息。请先提出 2-3 个有针对性的追问问题（例如：症状持续多久了？是持续性还是阵发性？有没有伴随其他不适？），帮助用户补充信息后再给出分析。不要直接给出诊断或治疗建议。"
+	if guidance := clarificationGuidance(userMessage); guidance != "" {
+		systemPrompt += guidance
 		step(StepEvent{Type: "retrieve", Summary: "问题信息较简略，将先引导用户补充关键细节"})
 	}
 
@@ -1209,9 +1289,11 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 	}
 
 	// Clarification guidance (same logic as ProcessMessageStream).
-	if len(images) == 0 && needsClarification(userMessage) {
-		systemPrompt += "\n\n## 信息不足时的澄清指引\n\n用户的问题只提到了症状，缺少持续时间、严重程度、伴随症状等关键信息。请先提出 2-3 个有针对性的追问问题，帮助用户补充信息后再给出分析。不要直接给出诊断或治疗建议。"
-		step(StepEvent{Type: "retrieve", Summary: "问题信息较简略，将先引导用户补充关键细节"})
+	if len(images) == 0 {
+		if guidance := clarificationGuidance(userMessage); guidance != "" {
+			systemPrompt += guidance
+			step(StepEvent{Type: "retrieve", Summary: "问题信息较简略，将先引导用户补充关键细节"})
+		}
 	}
 
 	// Build messages in provider-agnostic format with images

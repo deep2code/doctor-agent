@@ -1,8 +1,9 @@
 {
-  "version": "1.39.0",
-  "updated": "2026-09-20",
-  "description": "2026-09-20 批量扩充: HPO表型本体/Orphanet罕见病/ICD-O-3形态学编码接入 exact_lookup；医保目录换2025版；medical_qa源重建；nhc_mental/firstaid/travel_health 三个统一语料源；evals 新增 CMB 中文多选题集",
+  "version": "1.40.0",
+  "updated": "2026-09-22",
+  "description": "2026-09-22 科普扩充: 睡眠+心理健康核心信息15条、孕妇乳母膳食指南10条、运动/体重管理9条、成人疫苗(流感/带状疱疹/HPV)7条，共41条并入 medical 数据集",
   "sources": [
+    "2026-09-22 新增: 《睡眠健康核心信息及释义》(全国爱卫办2025)8条+《健康中国行动·心理健康促进行动》抑郁/焦虑识别与求助7条(sleep_mental_health.json)；《中国孕妇、乳母膳食指南(2022)》孕期6条+哺乳期5条及量化食物量(maternal_diet.json)；《全民健身行动》运动处方+《体重管理年实施方案》与居民体重管理核心知识(2024年版)(exercise_weight.json)；《中国流感疫苗预防接种技术指南(2025-2026)》、中疾控带状疱疹科普、《预防性HPV疫苗中国临床应用指南(2025版)》成人疫苗7条(adult_vaccines.json)",
     "2026-09-20 新增: HPO人类表型本体19836条(exact_lookup type=hpo, 中文名为LLM翻译, 已覆盖13320/19836, 重跑 external/convert_hpo.py 可续传) + Orphanet罕见病11647种(中英病名+ORPHA编码+ICD-10/11映射, exact_lookup type=orphanet) + ICD-O-3肿瘤形态学编码1077条(8000/0-9992/3, exact_lookup type=icdo3, 中文覆盖550/1077, 重跑 external/convert_icdo3.py 可续传)",
     "2026-09-20 更新: 国家医保药品目录 medins_drugs.json 由2024版换为2025版3618条(西药1446/中成药1335/谈判药品460, external/convert_medins_2025.py 解析官方PDF)",
     "2026-09-20 重建: medical_qa_pairs.json(源芯医患对话CSV转换, 中文QA层) 与 huatuo_qa.json 源文件从 gz 恢复",

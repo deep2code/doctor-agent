@@ -1,0 +1,436 @@
+[
+ {
+  "id": "sleep-core-01",
+  "condition_zh": "睡眠的健康作用",
+  "condition_en": "Health benefits of sleep",
+  "category": "sleep_health",
+  "prevention": [
+   "睡眠可消除疲劳、恢复精力",
+   "维持神经、心血管、内分泌代谢、免疫、精神心理等功能的稳定",
+   "良好睡眠促进生长发育",
+   "良好睡眠提高认知与记忆能力",
+   "睡眠受昼夜节律等内在和外界因素影响，应规律作息"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "睡眠健康核心信息及释义(全国爱卫办发布)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/202503/70d5836afe804a858b899ee951a24a13.shtml"
+   }
+  ],
+  "keywords": ["睡眠", "睡觉", "休息", "熬夜", "精力", "疲劳", "长高", "记忆力", "生长发育", "昼夜节律", "生物钟"]
+ },
+ {
+  "id": "sleep-core-02",
+  "condition_zh": "各年龄段推荐睡眠时长与良好睡眠标准",
+  "condition_en": "Recommended sleep duration by age",
+  "category": "sleep_health",
+  "clinical_examples": [
+   {
+    "description": "各年龄段适宜睡眠时长参考",
+    "key_findings": "0-3月龄婴儿每天13-18小时；4-11月龄婴儿12-16小时；1-2岁幼儿11-14小时；学龄前儿童10-13小时；中小学生8-10小时；成年人7-8小时；老年人6-7小时。良好睡眠质量表现：入睡时间在30分钟以内(6岁以下儿童20分钟以内)；夜间醒来次数不超过3次且醒后20分钟内能再次入睡；醒后精神饱满、心情愉悦、精力充沛、注意力集中。入睡和起床时间应规律：成年人推荐晚上10-11点入睡、早晨6-7点起床；老年人推荐晚上10-11点入睡、早晨5-6点起床。",
+    "outcome": ""
+   }
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "睡眠健康核心信息及释义(全国爱卫办发布)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/202503/70d5836afe804a858b899ee951a24a13.shtml"
+   }
+  ],
+  "keywords": ["睡多久", "睡眠时长", "几个小时", "入睡时间", "睡眠标准", "睡眠质量", "孩子睡多久", "婴儿睡眠", "老人睡眠", "午睡", "晚上几点睡", "早上几点起"]
+ },
+ {
+  "id": "sleep-core-03",
+  "condition_zh": "长期睡眠不良的危害",
+  "condition_en": "Harms of chronic poor sleep",
+  "category": "sleep_health",
+  "risk_factors": [
+   "睡眠时间减少或延长、不能按时入睡、入睡困难、早醒、夜间频繁醒来、眠浅梦多、白天嗜睡"
+  ],
+  "complications": [
+   "反应迟钝、注意力记忆力下降、学习工作效率降低",
+   "增加交通和生产安全风险",
+   "情绪不稳、烦躁不安，严重可诱发焦虑、抑郁",
+   "免疫力降低，增加感染性疾病患病风险",
+   "增加心脑血管疾病、代谢性疾病和癌症患病风险"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "睡眠健康核心信息及释义(全国爱卫办发布)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/202503/70d5836afe804a858b899ee951a24a13.shtml"
+   }
+  ],
+  "keywords": ["睡不好", "睡眠不足", "熬夜危害", "失眠危害", "白天犯困", "嗜睡", "早醒", "多梦", "眠浅", "注意力不集中", "记忆力下降", "情绪不稳"]
+ },
+ {
+  "id": "sleep-core-04",
+  "condition_zh": "如何保持良好睡眠",
+  "condition_en": "Sleep hygiene",
+  "category": "sleep_health",
+  "prevention": [
+   "养成规律的睡眠时间，保持适度体育锻炼，避免久坐，适度晒太阳",
+   "卧室安静舒适，室内温度20℃-24℃、空气湿度40%-60%为宜，经常开窗通风",
+   "床垫宜相对坚实，不要过度松软塌陷，枕头高矮适中，被褥清洁干燥",
+   "运用正念、放松训练、认知调整等心理疏导技巧，睡前洗澡泡脚有助于睡眠",
+   "避免熬夜；睡前不长时间使用电子产品，尽量不要刷手机",
+   "晚餐不宜过饱过晚；睡前不吸烟、不饮酒、不喝茶或咖啡，避免睡前长时间剧烈运动"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "睡眠健康核心信息及释义(全国爱卫办发布)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/202503/70d5836afe804a858b899ee951a24a13.shtml"
+   }
+  ],
+  "keywords": ["怎么睡得好", "改善睡眠", "睡眠环境", "助眠", "卧室温度", "床垫", "枕头", "睡前", "刷手机", "泡脚", "放松训练", "戒咖啡", "晚餐", "生物钟", "规律作息"]
+ },
+ {
+  "id": "sleep-core-05",
+  "condition_zh": "儿童青少年睡眠健康",
+  "condition_en": "Sleep health in children and adolescents",
+  "category": "sleep_health",
+  "risk_factors": [
+   "儿童睡眠不良主要表现为睡眠时间不足或过长、入睡抗拒",
+   "青少年睡眠问题主要与学业压力、电子设备使用和作息不规律有关"
+  ],
+  "complications": [
+   "儿童长期睡眠不良影响体格生长、认知和情绪发育，严重导致行为问题，并影响成年后睡眠习惯",
+   "青少年长期睡眠不良影响学习能力、免疫力、生长发育，甚至产生心理和精神问题"
+  ],
+  "prevention": [
+   "帮助儿童养成良好睡眠习惯，可安排固定有序的睡前活动：盥洗、如厕、讲故事等",
+   "睡前避免过度兴奋和剧烈运动，避免进食难消化食物和饱食，营造舒适睡眠环境",
+   "培养幼儿独自入睡的能力，不宜摇睡、搂睡，将喂奶或进食与睡眠分开",
+   "家长应减轻孩子学业心理压力，了解孩子的需求和困扰，给予足够关怀和陪伴"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "睡眠健康核心信息及释义(全国爱卫办发布)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/202503/70d5836afe804a858b899ee951a24a13.shtml"
+   }
+  ],
+  "keywords": ["孩子睡不着", "不肯睡", "晚上不肯睡", "要哄", "儿童失眠", "婴儿入睡", "哄睡", "奶睡", "搂睡", "摇睡", "睡前故事", "睡眠倒退", "学生睡眠", "青少年熬夜", "写作业到很晚", "上课打瞌睡"]
+ },
+ {
+  "id": "sleep-core-06",
+  "condition_zh": "老年人睡眠问题",
+  "condition_en": "Sleep problems in older adults",
+  "category": "sleep_health",
+  "risk_factors": [
+   "老年人维持睡眠能力下降，更易发生睡眠障碍",
+   "主要表现为睡眠时长缩短、入睡困难、眠浅易醒、早醒"
+  ],
+  "prevention": [
+   "通过疏导负面情绪、改善睡眠环境、养成良好睡眠习惯改善睡眠",
+   "保持合理的睡眠期望，不把所有问题都归咎于失眠，不过分关注睡眠",
+   "不因一晚没睡好就产生焦虑情绪",
+   "睡前减少咖啡、茶等饮料摄入，避免睡前过量进食或饮水",
+   "对于影响睡眠的原发性疾病应及早干预、积极治疗"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "睡眠健康核心信息及释义(全国爱卫办发布)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/202503/70d5836afe804a858b899ee951a24a13.shtml"
+   }
+  ],
+  "keywords": ["老人睡不好", "老年人失眠", "易醒", "早醒", "觉少", "睡不着", "睡眠浅", "起夜"]
+ },
+ {
+  "id": "sleep-core-07",
+  "condition_zh": "睡眠障碍的种类与常见信号",
+  "condition_en": "Types and warning signs of sleep disorders",
+  "category": "sleep_health",
+  "clinical_examples": [
+   {
+    "description": "睡眠障碍识别",
+    "key_findings": "睡眠障碍包括'睡不着''睡不醒''睡不好'3大类共90多种疾病，最常见的是失眠症和阻塞性睡眠呼吸暂停低通气综合征(以睡觉打鼾为主要表现，睡眠中上呼吸道塌陷引起反复呼吸暂停或低通气)。经常出现以下表现提示可能患有睡眠障碍：入睡困难(超过30分钟，6岁以下超过20分钟)、睡眠中觉醒且醒后无法再入睡、白天频繁打瞌睡、夜间鼾声响亮伴有呼吸间歇、睡眠不规律、睡眠中梦游或遗尿等异常动作。",
+    "outcome": ""
+   }
+  ],
+  "when_to_seek_care": [
+   "经常出现入睡困难、白天打瞌睡、睡眠呼吸障碍、睡眠不规律、睡眠时异常动作等表现，应及时到医疗机构寻求专业帮助"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "睡眠健康核心信息及释义(全国爱卫办发布)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/202503/70d5836afe804a858b899ee951a24a13.shtml"
+   }
+  ],
+  "keywords": ["打呼噜", "打鼾", "呼吸暂停", "睡着了憋气", "梦游", "睡觉磨牙", "遗尿", "失眠症", "睡眠障碍", "嗜睡", "睡不着", "睡不醒", "睡不好"]
+ },
+ {
+  "id": "sleep-core-08",
+  "condition_zh": "睡眠障碍的治疗",
+  "condition_en": "Treatment of sleep disorders",
+  "category": "sleep_health",
+  "treatment": [
+   {
+    "method": "生活方式与心理治疗",
+    "indication": "各类睡眠障碍",
+    "evidence_level": "official_guidance",
+    "citation_ref": "睡眠健康核心信息及释义",
+    "notes": "调整饮食、运动和作息，改善睡眠环境，调节心理压力；药物治疗、心理治疗、物理治疗等。各类睡眠障碍都是可以治疗和改善的，不同睡眠障碍需采取不同治疗手段"
+   },
+   {
+    "method": "中医治疗",
+    "indication": "睡眠障碍",
+    "evidence_level": "official_guidance",
+    "citation_ref": "睡眠健康核心信息及释义",
+    "notes": "中药汤剂、中成药、膏方、中药茶饮、针灸、推拿按摩、耳穴治疗、芳香疗法、五行音乐疗法、导引疗法等，需辨证施治"
+   }
+  ],
+  "when_to_seek_care": [
+   "睡眠问题已影响到健康和日常工作生活，应尽早到医疗机构相关专科咨询求助"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "睡眠健康核心信息及释义(全国爱卫办发布)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/202503/70d5836afe804a858b899ee951a24a13.shtml"
+   }
+  ],
+  "keywords": ["失眠治疗", "安眠药", "褪黑素", "助眠药", "看失眠", "睡眠科", "针灸", "中医调理", "认知行为治疗"]
+ },
+ {
+  "id": "mental-core-01",
+  "condition_zh": "抑郁情绪的识别",
+  "condition_en": "Recognizing depression",
+  "category": "mental_health",
+  "clinical_examples": [
+   {
+    "description": "抑郁障碍的常见信号",
+    "key_findings": "出现心情压抑、愉悦感缺乏、兴趣丧失，伴有精力下降、食欲下降、睡眠障碍、自我评价下降、对未来感到悲观失望等表现，甚至有自伤、自杀的念头或行为，持续存在2周以上，可能患有抑郁障碍。一过性或短期的抑郁情绪可通过自我调适或心理咨询缓解和消除，不必过分担心。",
+    "outcome": "抑郁障碍可以通过药物、心理干预或两者相结合的方式治疗"
+   }
+  ],
+  "when_to_seek_care": [
+   "抑郁相关表现持续2周以上，或出现自伤、自杀念头时，应到医院相关科室或专业心理咨询机构寻求专业帮助"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·心理健康促进行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["心情不好", "不开心", "高兴不起来", "没兴趣", "情绪低落", "开心不起来", "疲惫", "没精力", "自我否定", "悲观", "想不开", "抑郁", "抑郁症", "2周"]
+ },
+ {
+  "id": "mental-core-02",
+  "condition_zh": "焦虑情绪的识别",
+  "condition_en": "Recognizing anxiety",
+  "category": "mental_health",
+  "clinical_examples": [
+   {
+    "description": "焦虑障碍的常见信号",
+    "key_findings": "突然或经常莫名其妙地感到紧张、害怕、恐惧，常伴有明显的心慌、出汗、头晕、口干、呼吸急促等躯体症状，严重时有濒死感、失控感，如频繁发生，可能患有焦虑障碍。我国焦虑障碍患病率达4.98%。",
+    "outcome": "一过性或短期焦虑情绪可通过自我调适或心理咨询缓解；焦虑障碍可通过药物、心理干预或两者结合的方式治疗"
+   }
+  ],
+  "when_to_seek_care": [
+   "紧张、害怕等情绪频繁发生并伴明显躯体症状时，应寻求专业帮助"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·心理健康促进行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["紧张", "心慌", "心跳快", "出汗", "坐立不安", "害怕", "恐惧", "濒死感", "失控感", "焦虑", "莫名担心", "手心出汗", "呼吸急促"]
+ },
+ {
+  "id": "mental-core-03",
+  "condition_zh": "科学缓解压力的方法",
+  "condition_en": "Healthy stress management",
+  "category": "mental_health",
+  "prevention": [
+   "保持乐观、开朗、豁达的生活态度，合理设定自己的目标",
+   "正确认识重大生活、工作变故等事件对心理的影响，学习基本减压知识",
+   "使用健康的减压方式，避免吸烟、饮酒、沉迷网络或游戏等不健康方式",
+   "找出不良情绪背后的消极想法，根据客观现实调整，减少非理性认识",
+   "建立良好人际关系，积极寻求人际支持，适当倾诉与求助",
+   "保持健康生活方式，积极参加社会活动，培养健康的兴趣爱好",
+   "轻度情绪困扰时可结合运动促进情绪缓解，发挥运动对情绪的调节作用"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·心理健康促进行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["压力大", "减压", "缓解压力", "焦虑压力", "工作累", "心情烦躁", "内耗", "情绪调节", "心理调适", "倾诉", "运动减压"]
+ },
+ {
+  "id": "mental-core-04",
+  "condition_zh": "心理求助的正确观念",
+  "condition_en": "Seeking help for mental health",
+  "category": "mental_health",
+  "prevention": [
+   "出现心理行为问题要及时求助，可向医院相关科室、专业心理咨询机构和社会工作服务机构寻求专业帮助",
+   "求助于专业人员既不等于自己有病，更不等于病情严重，而是负责任、有能力的表现",
+   "自我调适不能缓解时，可选择寻求心理咨询与心理治疗，及时疏导情绪，预防心理行为问题和精神障碍发生",
+   "主动学习了解心理健康知识，科学认识心理健康与身体健康的相互影响，避免持续消极情绪伤害身体健康"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·心理健康促进行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["看心理医生", "心理咨询", "心理治疗", "精神科", "心理热线", "想不开要不要看医生", "心理援助", "丢人", "有病耻感"]
+ },
+ {
+  "id": "mental-core-05",
+  "condition_zh": "精神疾病治疗要遵医嘱",
+  "condition_en": "Adherence in psychiatric treatment",
+  "category": "mental_health",
+  "treatment": [
+   {
+    "method": "规范治疗与服药依从",
+    "indication": "确诊精神障碍",
+    "evidence_level": "official_guidance",
+    "citation_ref": "健康中国行动·心理健康促进行动",
+    "notes": "诊断精神疾病要去精神专科医院或综合医院专科门诊；确诊后及时接受正规治疗，遵照医嘱全程、不间断、按时按量服药；病情有效控制后不急于减药、停药；门诊按时复诊，如实反馈治疗情况；精神类药物必须在医生指导下使用，不得自行任意服用"
+   }
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·心理健康促进行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["抗抑郁药", "停药", "减药", "吃药多久", "副作用", "依赖", "成瘾", "复诊", "精神分裂症", "双相", "自行停药会怎样"]
+ },
+ {
+  "id": "mental-core-06",
+  "condition_zh": "关怀精神疾病患者、减少歧视",
+  "condition_en": "Supporting people with mental illness",
+  "category": "mental_health",
+  "prevention": [
+   "学习了解精神疾病基本知识，知道精神疾病可以预防和治疗，尊重患者、不歧视",
+   "精神疾病得到有效治疗后可以缓解和康复，可以承担家庭与工作职能",
+   "为患者及家属、照护者提供支持性环境，帮助患者获得自我价值感",
+   "家庭成员之间平等沟通交流，尊重不同心理需求；发生矛盾时不采用过激言语或伤害行为、不冷漠回避，积极沟通解决",
+   "及时疏导不良情绪，营造相互理解、信任、支持、关爱的家庭氛围"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·心理健康促进行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["家属怎么办", "家人抑郁", "孩子抑郁", "怎么劝", "陪伴", "歧视", "家属支持", "家庭沟通", "夫妻矛盾", "亲子沟通"]
+ },
+ {
+  "id": "mental-core-07",
+  "condition_zh": "我国常见心理问题的流行状况",
+  "condition_en": "Prevalence of common mental disorders in China",
+  "category": "mental_health",
+  "clinical_examples": [
+   {
+    "description": "我国常见心理障碍患病状况",
+    "key_findings": "我国抑郁症患病率达到2.1%，焦虑障碍患病率达4.98%，以抑郁障碍为主的心境障碍和焦虑障碍患病率呈上升趋势。",
+    "outcome": ""
+   }
+  ],
+  "prevention": [
+   "心理健康是人在成长和发展的完好状态：认知合理、情绪稳定、行为适当、人际和谐、适应变化",
+   "公众对常见精神障碍和心理行为问题的认知率仍较低，缺乏防治知识和主动就医意识",
+   "提倡成人每日平均睡眠时间为7-8小时；鼓励个人掌握基本的情绪管理、压力管理等自我心理调适方法"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·心理健康促进行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["抑郁患病率", "焦虑患病率", "多少人得抑郁", "心理健康现状", "得抑郁症的人多吗"]
+ }
+]

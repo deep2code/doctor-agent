@@ -1,0 +1,262 @@
+[
+ {
+  "id": "exercise-01",
+  "condition_zh": "成年人每周运动推荐量",
+  "condition_en": "Recommended physical activity for adults",
+  "category": "exercise_weight",
+  "prevention": [
+   "鼓励每周进行3次以上、每次30分钟以上中等强度运动，或者每周累计150分钟中等强度或75分钟高强度身体活动",
+   "中等运动强度指运动时心率达到最大心率的64%-76%(最大心率约等于220减去年龄)",
+   "日常生活中尽量多动，达到每天6000-10000步的身体活动量",
+   "一次完整的运动包括准备活动、正式运动、整理活动；一周运动健身应包括有氧运动、力量练习、柔韧性练习",
+   "提倡每天进行中等强度运动至少半小时，鼓励个人至少有1项运动爱好或掌握1项传统运动项目",
+   "提倡机关、企事业单位开展工间操"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·全民健身行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["运动", "锻炼", "健身", "每天走多少步", "一万步", "跑步", "有氧运动", "中等强度", "心率", "每周运动", "多久练一次", "运动量", "工间操"]
+ },
+ {
+  "id": "exercise-02",
+  "condition_zh": "运动对健康的益处",
+  "condition_en": "Health benefits of regular exercise",
+  "category": "exercise_weight",
+  "prevention": [
+   "定期适量进行身体活动有助于预防和改善超重和肥胖及高血压、心脏病、卒中、糖尿病等慢性病",
+   "运动能促进精神健康、提高生活质量和幸福感，愉悦身心",
+   "缺乏身体活动是多种慢性病发生的重要原因",
+   "了解和掌握身体活动知识，将身体活动融入日常生活，少静多动、减少久坐，保持健康体重",
+   "科学运动避免运动风险：运动前了解患病史及家族史、评估身体状态，鼓励在家庭医生或专业人士指导下制定运动方案"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·全民健身行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["运动好处", "为什么要锻炼", "久坐", "不动", "缺乏运动", "亚健康", "慢性病预防", "运动损伤", "热身"]
+ },
+ {
+  "id": "exercise-03",
+  "condition_zh": "老年人科学运动",
+  "condition_en": "Exercise for older adults",
+  "category": "exercise_weight",
+  "prevention": [
+   "老年人运动有助于保持身体功能、减缓认知功能退化",
+   "量力而行，选择与自身体质和健康相适应的运动方式",
+   "在重视有氧运动的同时，重视肌肉力量练习和柔韧性锻炼，适当进行平衡能力锻炼，强健骨骼肌肉系统，预防跌倒",
+   "提倡老年人参加运动期间定期测量血压和血糖，及时调整运动量",
+   "太极拳、健身气功等传统体育项目适合老年人推广普及"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·全民健身行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["老人运动", "老年人锻炼", "散步", "打太极", "防跌倒", "练腿", "肌肉萎缩", "血压高能运动吗", "血糖与运动"]
+ },
+ {
+  "id": "exercise-04",
+  "condition_zh": "慢性病患者、孕妇等特殊人群运动",
+  "condition_en": "Physical activity for special populations",
+  "category": "exercise_weight",
+  "prevention": [
+   "孕妇、慢性病患者、残疾人等特殊人群，建议在医生和运动专业人士的指导下进行运动",
+   "单纯性肥胖患者至少要达到一般成年人的运动推荐量",
+   "控制体重每天要进行45分钟以上的中低强度运动",
+   "减重过程中建议强调肌肉力量锻炼，以避免肌肉和骨骼重量的下降",
+   "提倡运动与饮食控制相结合来减轻体重"
+  ],
+  "when_to_seek_care": [
+   "运动中出现胸闷、胸痛、明显气促、头晕、关节剧痛时应立即停止运动并就医评估"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·全民健身行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["能运动吗", "高血压能跑步吗", "糖尿病运动", "孕妇运动", "怀孕锻炼", "心脏病锻炼", "术后运动", "残疾人健身"]
+ },
+ {
+  "id": "exercise-05",
+  "condition_zh": "体力劳动者的运动方式",
+  "condition_en": "Exercise for manual laborers",
+  "category": "exercise_weight",
+  "prevention": [
+   "以体力劳动为主的人群要注意劳逸结合，避免'过劳'",
+   "工作一段时间后换一种放松的运动方式，减轻肌肉酸痛和僵硬、消除局部疲劳",
+   "通过运动促进身体的全面发展，但运动量和强度都不宜过大"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·全民健身行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["干体力活", "上班累", "肌肉酸痛", "肩膀酸", "腰僵硬", "劳动保护", "过劳"]
+ },
+ {
+  "id": "weight-01",
+  "condition_zh": "成人体重标准与自测(BMI与腰围)",
+  "condition_en": "Adult weight standards: BMI and waist circumference",
+  "category": "exercise_weight",
+  "clinical_examples": [
+   {
+    "description": "中国成人体重判定标准",
+    "key_findings": "体重指数BMI=体重(kg)/身高的平方(m²)。按中国成人标准：18.5≤BMI<24为正常体重，24≤BMI<28为超重，BMI≥28为肥胖。",
+    "outcome": ""
+   }
+  ],
+  "prevention": [
+   "主动监测体重：推广'一秤一尺一日历'(体重秤、腰围尺、体重管理日历)，家庭应配置体重秤",
+   "定期测量体重、身高、腰围，孕期与体重管理人群建议每周至少称重一次",
+   "家庭成员做到'三知一管'：知晓健康体重标准、知晓自身体重变化、知晓体重管理方法，科学管理自身体重"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "\"体重管理年\"活动实施方案(国卫医急发〔2024〕21号，国家卫生健康委等16部门)",
+    "journal": "",
+    "year": 2024,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/wjw/c100375/202406/8378b85fd06a4b61b969d791783ca3ff.shtml"
+   },
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·合理膳食行动(成人BMI 18.5-23.9为健康体重)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["BMI", "体重指数", "标准体重", "超重", "肥胖", "算体重", "多少斤算胖", "腰围", "体重秤", "称体重", "身高体重对照"]
+ },
+ {
+  "id": "weight-02",
+  "condition_zh": "居民体重管理核心知识(2024年版)",
+  "condition_en": "Core knowledge for resident weight management 2024",
+  "category": "exercise_weight",
+  "prevention": [
+   "正确认知，重在预防",
+   "终生管理，持之以恒",
+   "主动监测，合理评估",
+   "平衡膳食，总量控制",
+   "动则有益，贵在坚持",
+   "良好睡眠，积极心态",
+   "目标合理，科学减重",
+   "共同行动，全家健康"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "居民体重管理核心知识(2024年版)(国家卫生健康委'体重管理年'配套科普)",
+    "journal": "",
+    "year": 2024,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://paper.people.com.cn/rmrbhwb/html/2024-07/05/content_26067565.htm"
+   }
+  ],
+  "keywords": ["体重管理", "怎么控制体重", "科学减重", "减肥目标", "减重速度", "一生管理", "全家减肥"]
+ },
+ {
+  "id": "weight-03",
+  "condition_zh": "超重肥胖的危害与共同行动",
+  "condition_en": "Harms of overweight and obesity",
+  "category": "exercise_weight",
+  "risk_factors": [
+   "体重异常特别是超重和肥胖，是导致心脑血管疾病、糖尿病和部分癌症等慢性病的重要危险因素",
+   "调查显示我国居民超重肥胖形势不容乐观，需加强干预"
+  ],
+  "prevention": [
+   "倡导吃动平衡、'三减三健'(减盐、减油、减糖，健康口腔、健康体重、健康骨骼)等健康理念",
+   "科学认识健康体重、动态管理体重，消除体重认知误区",
+   "推动体重管理进家庭、进社区、进学校：校园内避免售卖高盐、高糖及高脂食品",
+   "鼓励医疗机构设置体重管理门诊或肥胖防治中心，基层医疗卫生机构可将体重管理纳入签约服务"
+  ],
+  "when_to_seek_care": [
+   "体重短期明显变化(如几个月内增重或减轻十几斤)或肥胖伴高血压、糖尿病、打鼾憋气等情况，建议到体重管理门诊或相应专科就诊"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "\"体重管理年\"活动实施方案(国卫医急发〔2024〕21号)",
+    "journal": "",
+    "year": 2024,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/wjw/c100375/202406/8378b85fd06a4b61b969d791783ca3ff.shtml"
+   }
+  ],
+  "keywords": ["肥胖危害", "超重会怎样", "减肥", "瘦身", "三减三健", "吃动平衡", "减重门诊", "暴饮暴食", "长胖原因"]
+ },
+ {
+  "id": "weight-04",
+  "condition_zh": "儿童青少年体重与运动管理",
+  "condition_en": "Weight management in children and adolescents",
+  "category": "exercise_weight",
+  "prevention": [
+   "保障学生每天校内、校外各一小时体育活动时间(全面实施学生体质强健行动)",
+   "帮助超重肥胖学生做到'一减两增、一调两测'：减少进食量、增加身体活动、增强减重信心，调整饮食结构、测量体重、测量腰围",
+   "培养儿童青少年动态测量身高、体重、腰围的健康习惯，父母是儿童健康教育第一任老师",
+   "对发现的生长迟缓及肥胖合并疾病的学生，及时引导至医疗卫生机构开展个性化营养、运动指导或医学治疗",
+   "婴幼儿和学龄前儿童：加强体格生长监测、营养与喂养指导、运动(活动)指导，促进吃动平衡，预防和减少儿童超重肥胖"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "\"体重管理年\"活动实施方案(国卫医急发〔2024〕21号)",
+    "journal": "",
+    "year": 2024,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/wjw/c100375/202406/8378b85fd06a4b61b969d791783ca3ff.shtml"
+   }
+  ],
+  "keywords": ["孩子太胖", "儿童肥胖", "小胖墩", "学生减肥", "长个子", "体育课", "课间运动", "青少年体重", "假期肥", "节食"]
+ }
+]

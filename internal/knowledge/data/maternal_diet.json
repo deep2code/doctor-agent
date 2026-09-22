@@ -1,0 +1,261 @@
+[
+ {
+  "id": "maternal-preg-01",
+  "condition_zh": "备孕体重管理与孕期增重",
+  "condition_en": "Preconception weight and gestational weight gain",
+  "category": "maternal_diet",
+  "prevention": [
+   "调整孕前体重至正常范围(BMI 18.5-23.9 kg/㎡)，保证孕期体重适宜增长",
+   "根据孕前体重指数(BMI)管理孕期增重，定期监测体重，建议每周至少称重一次",
+   "孕前体重过低者可在正餐之间加餐1-2次，如牛奶100-200ml、坚果10-20g",
+   "孕期体重适宜增长有利于母婴营养保证并获得良好妊娠结局"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "中国孕妇、乳母膳食指南(2022)·备孕和孕期妇女膳食指南(中国营养学会)",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/hjgfxca3Ra69sKbvqDETbg.html"
+   }
+  ],
+  "keywords": ["备孕", "孕前", "怀孕", "体重", "增重", "长胖", "太瘦能怀孕吗", "孕前体重", "BMI", "产检体重"]
+ },
+ {
+  "id": "maternal-preg-02",
+  "condition_zh": "孕期铁碘叶酸维生素D补充",
+  "condition_en": "Iron, iodine, folate and vitamin D in pregnancy",
+  "category": "maternal_diet",
+  "prevention": [
+   "常吃含铁丰富的食物：动物血、肝脏及红肉；每日瘦肉50-100g，每周吃1-2次动物血或肝脏，每次20-50g",
+   "铁摄入量推荐值：孕中期每日24mg，孕晚期每日29mg",
+   "选用碘盐，适当摄入海产品",
+   "孕前3个月开始至整个孕期每天补充400μg叶酸",
+   "合理补充维生素D",
+   "铁、碘、叶酸、维生素D四种微量营养素对胎儿发育特别重要，缺乏可能导致先天畸形、影响子代智力和体格发育"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "中国孕妇、乳母膳食指南(2022)·备孕和孕期妇女膳食指南(中国营养学会)",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/hjgfxca3Ra69sKbvqDETbg.html"
+   }
+  ],
+  "keywords": ["叶酸", "补叶酸", "补铁", "贫血", "缺铁", "碘盐", "大姨妈", "怀孕吃什么", "孕期营养", "维生素D", "胎儿发育", "先天畸形"]
+ },
+ {
+  "id": "maternal-preg-03",
+  "condition_zh": "孕吐期间的饮食",
+  "condition_en": "Diet during morning sickness",
+  "category": "maternal_diet",
+  "clinical_examples": [
+   {
+    "description": "孕吐严重者的饮食安排",
+    "key_findings": "孕吐严重者可少量多餐，保证摄入含必要量碳水化合物的食物：每天至少摄入130g碳水化合物(约相当于每日180g大米，生重)。",
+    "outcome": "保障胎儿基本能量供应，避免酮症风险"
+   }
+  ],
+  "when_to_seek_care": [
+   "孕吐严重到完全无法进食、体重明显下降、尿量减少时，应及时就医"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "中国孕妇、乳母膳食指南(2022)·备孕和孕期妇女膳食指南(中国营养学会)",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/hjgfxca3Ra69sKbvqDETbg.html"
+   }
+  ],
+  "keywords": ["孕吐", "害喜", "吐得厉害", "吃不下", "恶心", "妊娠反应", "早孕反应", "少食多餐", "怀孕吃不下东西"]
+ },
+ {
+  "id": "maternal-preg-04",
+  "condition_zh": "孕中晚期膳食加量",
+  "condition_en": "Diet in second and third trimester",
+  "category": "maternal_diet",
+  "prevention": [
+   "孕中晚期适量增加奶、鱼、禽、蛋、瘦肉的摄入",
+   "食物多样、平衡膳食，在一般人群平衡膳食八准则基础上加强优质蛋白",
+   "愉快孕育新生命，积极准备母乳喂养"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "中国孕妇、乳母膳食指南(2022)·备孕和孕期妇女膳食指南(中国营养学会)",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/hjgfxca3Ra69sKbvqDETbg.html"
+   }
+  ],
+  "keywords": ["怀孕中期", "怀孕晚期", "孕中晚期", "加强营养", "孕妇吃什么", "喝牛奶", "吃鱼", "长胎"]
+ },
+ {
+  "id": "maternal-preg-05",
+  "condition_zh": "孕期生活方式",
+  "condition_en": "Healthy lifestyle during pregnancy",
+  "category": "maternal_diet",
+  "prevention": [
+   "经常户外活动，每天主动进行30-90分钟中等强度及以上的运动",
+   "禁烟酒",
+   "保持健康生活方式与良好心态",
+   "适当晒太阳"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "中国孕妇、乳母膳食指南(2022)·备孕和孕期妇女膳食指南(中国营养学会)",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/hjgfxca3Ra69sKbvqDETbg.html"
+   }
+  ],
+  "keywords": ["孕妇能运动吗", "怀孕锻炼", "孕期运动", "散步", "孕妇瑜伽", "抽烟", "喝酒", "养胎"]
+ },
+ {
+  "id": "maternal-lact-01",
+  "condition_zh": "产褥期(坐月子)膳食",
+  "condition_en": "Diet in the postpartum (puerperium) period",
+  "category": "maternal_diet",
+  "prevention": [
+   "产褥期食物多样不过量，坚持整个哺乳期营养均衡",
+   "反对哺乳期过量进食的传统观念，不需要为'催奶'强行多吃",
+   "平衡多样化的膳食更有利于母乳质量"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "中国孕妇、乳母膳食指南(2022)·哺乳期妇女膳食指南(中国营养学会)",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/hjgfxca3Ra69sKbvqDETbg.html"
+   }
+  ],
+  "keywords": ["坐月子", "产妇", "月子里吃什么", "产后", "催奶", "下奶", "月子餐", "生完孩子吃什么"]
+ },
+ {
+  "id": "maternal-lact-02",
+  "condition_zh": "哺乳期每日食物推荐量",
+  "condition_en": "Daily food recommendations for lactating women",
+  "category": "maternal_diet",
+  "clinical_examples": [
+   {
+    "description": "哺乳期妇女每日食物建议量",
+    "key_findings": "谷类225-275g(其中全谷物和杂豆不少于1/3)，薯类75g；蔬菜类400-500g(绿叶蔬菜和红黄色等有色蔬菜占2/3以上)；水果200-350g；鱼、禽、蛋、肉类(含动物内脏)总量175-225g；牛奶300-500ml；大豆25g、坚果10g；烹调油25g，食盐不超过5g；饮水量2100ml。",
+    "outcome": ""
+   }
+  ],
+  "prevention": [
+   "适量增加富含优质蛋白质及维生素A的动物性食物和海产品，选用碘盐，合理补充维生素D",
+   "可通过动物肝脏等食物补充维生素A，海产品提供碘和DHA"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "中国孕妇、乳母膳食指南(2022)·哺乳期妇女膳食指南(中国营养学会)",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/hjgfxca3Ra69sKbvqDETbg.html"
+   }
+  ],
+  "keywords": ["哺乳期吃什么", "哺乳期营养", "喂奶吃什么", "母乳", "奶水", "下奶食物", "哺乳期喝牛奶", "哺乳期饮食"]
+ },
+ {
+  "id": "maternal-lact-03",
+  "condition_zh": "母乳喂养的心理与生活支持",
+  "condition_en": "Psychological and lifestyle support for breastfeeding",
+  "category": "maternal_diet",
+  "prevention": [
+   "家庭支持，愉悦心情，充足睡眠，坚持母乳喂养",
+   "乳汁分泌受营养、心理、睡眠、身体活动等多因素影响，不仅需要合理营养，还需要健康的心理、规律的生活和适宜的身体活动",
+   "社会与家庭成员应共同参与帮助哺乳妈妈"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "中国孕妇、乳母膳食指南(2022)·哺乳期妇女膳食指南(中国营养学会)",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/hjgfxca3Ra69sKbvqDETbg.html"
+   }
+  ],
+  "keywords": ["奶水少", "母乳不足", "情绪影响母乳", "哺乳期睡眠", "产后情绪", "家人不让我喂", "混合喂养"]
+ },
+ {
+  "id": "maternal-lact-04",
+  "condition_zh": "产后体重恢复",
+  "condition_en": "Postpartum weight management",
+  "category": "maternal_diet",
+  "prevention": [
+   "增加身体活动，促进产后恢复健康体重",
+   "合理膳食和适宜身体活动是产后体重管理最安全和有效的措施",
+   "降低远期超重肥胖风险，不必在产褥期刻意节食减肥"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "中国孕妇、乳母膳食指南(2022)·哺乳期妇女膳食指南(中国营养学会)",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/hjgfxca3Ra69sKbvqDETbg.html"
+   }
+  ],
+  "keywords": ["产后减肥", "产后胖", "月子后体重", "喂奶能减肥吗", "产后恢复", "妊娠纹", "肚子松"]
+ },
+ {
+  "id": "maternal-lact-05",
+  "condition_zh": "哺乳期饮品禁忌",
+  "condition_en": "Beverage limits during lactation",
+  "category": "maternal_diet",
+  "prevention": [
+   "多喝汤和水，限制浓茶和咖啡",
+   "忌烟酒",
+   "汤类适量即可，避免长期大量饮用高脂肪浓汤"
+  ],
+  "when_to_seek_care": [
+   "哺乳期意外饮酒或服药后担心影响喂奶，可咨询医生或药师"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "中国孕妇、乳母膳食指南(2022)·哺乳期妇女膳食指南(中国营养学会)",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/hjgfxca3Ra69sKbvqDETbg.html"
+   }
+  ],
+  "keywords": ["哺乳期能喝咖啡吗", "催奶汤", "老母鸡汤", "喝茶", "哺乳期饮酒", "酒酿", "月子酒", "多喝水"]
+ }
+]

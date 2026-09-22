@@ -1,0 +1,204 @@
+[
+ {
+  "id": "adultvax-flu-01",
+  "condition_zh": "流感疫苗：谁应该优先接种",
+  "condition_en": "Influenza vaccine: recommended recipients",
+  "category": "vaccine_cn",
+  "prevention": [
+   "建议所有≥6月龄且无接种禁忌的人都应接种流感疫苗，每年接种是预防流感经济有效的措施",
+   "优先推荐重点和高风险人群及时接种：①医务人员(临床救治、公共卫生、卫生检疫人员等)；②60岁及以上老年人；③罹患一种或多种慢性病者；④养老机构、长期护理机构、福利院等聚集场所的居住人员及员工；⑤孕妇；⑥6～59月龄儿童；⑦6月龄以下婴儿的家庭成员和看护人员；⑧托幼机构、中小学校、监管场所等重点场所人群",
+   "老年人、婴幼儿、慢性病者和孕妇等高危人群感染流感后危害更为严重；学校、托幼机构和养老院等人群聚集场所易发生暴发疫情"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "中国流感疫苗预防接种技术指南(2025-2026)(中国疾病预防控制中心)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://ivdc.chinacdc.cn/cnic/fascc/202511/t20251103_313232.htm"
+   }
+  ],
+  "keywords": ["流感疫苗", "打不打", "老人要不要打", "孕妇能打流感疫苗吗", "慢病", "疫苗", "打针", "慢性病人群", "免费", "自费"]
+ },
+ {
+  "id": "adultvax-flu-02",
+  "condition_zh": "流感疫苗：接种时间与剂次",
+  "condition_en": "Influenza vaccine: timing and doses",
+  "category": "vaccine_cn",
+  "clinical_examples": [
+   {
+    "description": "流感疫苗接种程序",
+    "key_findings": "通常接种后2～4周可产生具有保护水平的抗体。最好在当地流感流行季前完成接种，9—10月一般是最佳接种时间；未在此期间接种的人群在整个流行季节都可以接种。同一流感流行季节，按程序完成全程接种者无需重复接种。6月龄～8岁儿童既往未接种过流感疫苗的，首次接种灭活疫苗应接种2剂次(同一剂型，间隔≥4周)；既往接种过则本年度1剂次。该年龄段接种减毒活疫苗(鼻喷)无论既往是否接种仅需1剂次。9岁及以上儿童和成人无论既往是否接种仅需1剂次。",
+    "outcome": ""
+   }
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "中国流感疫苗预防接种技术指南(2025-2026)(中国疾病预防控制中心)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://ivdc.chinacdc.cn/cnic/fascc/202511/t20251103_313232.htm"
+   }
+  ],
+  "keywords": ["流感疫苗什么时候打", "流感疫苗", "什么时候", "什么时候打", "接种时间", "最佳时间", "什么时候最好", "九十月", "打几针", "两剂", "间隔", "鼻喷疫苗", "抗体", "每年都要打吗", "过了10月还能打吗"]
+ },
+ {
+  "id": "adultvax-zsv-01",
+  "condition_zh": "带状疱疹疫苗：谁能打、打几剂",
+  "condition_en": "Herpes zoster vaccine: eligibility and schedule",
+  "category": "vaccine_cn",
+  "clinical_examples": [
+   {
+    "description": "我国已获批的两种带状疱疹疫苗",
+    "key_findings": "①重组带状疱疹疫苗：适用于≥50岁人群，共接种2剂次，间隔2-6个月；②带状疱疹减毒活疫苗：适用于≥40岁人群，接种1剂次。对免疫功能缺陷或免疫抑制疾病患者，不推荐接种减毒活疫苗，可在知情同意、权衡利弊下选择重组疫苗接种。目前带状疱疹疫苗属于非免疫规划疫苗，需到当地预防接种门诊在知情同意前提下自愿自费接种。",
+    "outcome": ""
+   }
+  ],
+  "prevention": [
+   "无论是否有水痘感染史或是否接种过水痘疫苗，均可接种带状疱疹疫苗",
+   "带状疱疹存在复发可能，有带状疱疹及相关并发症病史的适龄人群仍可考虑接种",
+   "疫苗不能保证完全不得带状疱疹，但两种疫苗的有效性均经上市前临床试验证实，可降低发病风险"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "带状疱疹疼起来很\"要命\"，如针扎，似火烧！1个方法有效预防(中国疾控中心健康科普)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkkp/mygh/ymyf/202507/t20250714_308334.html"
+   }
+  ],
+  "keywords": ["带状疱疹疫苗", "缠腰龙疫苗", "蛇盘疮", "五十岁", "打几针", "自费", "多少钱", "得过水痘", "免疫低下", "重组疫苗"]
+ },
+ {
+  "id": "adultvax-zsv-02",
+  "condition_zh": "带状疱疹：疾病特点与就医指征",
+  "condition_en": "Herpes zoster: features and when to seek care",
+  "category": "vaccine_cn",
+  "clinical_examples": [
+   {
+    "description": "带状疱疹的典型表现",
+    "key_findings": "带状疱疹由潜伏在神经节内的水痘-带状疱疹病毒再激活引起，是感染性皮肤病。皮损常沿某一周围神经区域呈带状排列，多发生在身体一侧，一般不超过正中线；可发生于任何年龄，但及其并发症发生率随年龄增加显著上升，中老年人是主要受累人群。皮疹不一定只长在腰部，面部、胸背部等都可能出现。'带状疱疹在腰上长满一圈就会死'的说法没有科学依据。",
+    "outcome": ""
+   }
+  ],
+  "risk_factors": [
+   "年龄增长(中老年人群为主)",
+   "伴基础性疾病者疼痛更剧烈"
+  ],
+  "complications": [
+   "带状疱疹后神经痛：皮疹愈合后疼痛仍可持续几个月甚至几年，严重影响生活质量",
+   "眼周受累可造成眼睛严重损伤"
+  ],
+  "when_to_seek_care": [
+   "皮疹发生在眼周须立即就医",
+   "疼痛剧烈或持续不缓解应就医；治疗以抗病毒、镇痛等药物为主"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "带状疱疹疼起来很\"要命\"，如针扎，似火烧！1个方法有效预防(中国疾控中心健康科普)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkkp/mygh/ymyf/202507/t20250714_308334.html"
+   }
+  ],
+  "keywords": ["带状疱疹", "缠腰龙", "蛇盘疮", "水泡", "神经痛", "针扎样疼", "火烧样疼", "一侧起疹", "眼睛长疱疹", "后遗神经痛"]
+ },
+ {
+  "id": "adultvax-zsv-03",
+  "condition_zh": "带状疱疹疫苗接种后的不良反应处理",
+  "condition_en": "Shingles vaccine side effects",
+  "category": "vaccine_cn",
+  "clinical_examples": [
+   {
+    "description": "常见不良反应与处理",
+    "key_findings": "两种带状疱疹疫苗均具有良好的安全性。接种后可能出现局部或全身不良反应，常见包括注射部位疼痛、发红、肿胀、肌痛、疲乏、头痛和发热等，大多为中轻度且持续时间较短，一般对症处理即可。",
+    "outcome": ""
+   }
+  ],
+  "when_to_seek_care": [
+   "出现较严重的疼痛或高热，可在医生指导下使用非甾体类抗炎药物如对乙酰氨基酚或布洛芬",
+   "高热持续不退应及时就医"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "带状疱疹疼起来很\"要命\"，如针扎，似火烧！1个方法有效预防(中国疾控中心健康科普)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.chinacdc.cn/jkkp/mygh/ymyf/202507/t20250714_308334.html"
+   }
+  ],
+  "keywords": ["疫苗副作用", "打完发烧", "胳膊疼", "红肿", "疲乏", "头痛", "不良反应", "退烧"]
+ },
+ {
+  "id": "adultvax-hpv-01",
+  "condition_zh": "HPV疫苗：推荐人群与接种程序",
+  "condition_en": "HPV vaccine: recommended recipients and schedules",
+  "category": "vaccine_cn",
+  "prevention": [
+   "优先推荐9～26岁女性接种HPV疫苗，重点是9～14岁女孩(1类推荐)；9-14岁女孩可采用2剂次程序",
+   "推荐9-26岁男性接种HPV疫苗(2A类推荐)",
+   "国内已获批5种产品：国产双价(大肠杆菌)、国产双价(毕赤酵母)、双价吸附(杆状病毒)、四价和九价HPV疫苗(酿酒酵母)；九价适用年龄已扩展至45岁"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "预防性人乳头瘤病毒疫苗中国临床应用指南(2025版)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.zhongliujie.com/index.php/news/show/id/26.shtml"
+   }
+  ],
+  "keywords": ["HPV疫苗", "九价", "四价", "二价", "预约不上", "男孩能打吗", "男性HPV", "几岁打", "两针", "三针", "宫颈癌疫苗"]
+ },
+ {
+  "id": "adultvax-hpv-02",
+  "condition_zh": "HPV疫苗：特殊人群与筛查",
+  "condition_en": "HPV vaccine: special situations and screening",
+  "category": "vaccine_cn",
+  "prevention": [
+   "无论是否存在HPV感染或细胞学异常，推荐适龄女性接种HPV疫苗(2A类推荐)",
+   "接种HPV疫苗后仍应定期进行子宫颈癌筛查，疫苗不能替代筛查"
+  ],
+  "risk_factors": [
+   "对疫苗的活性成分或任何辅料成分有超敏反应者禁止接种HPV疫苗"
+  ],
+  "when_to_seek_care": [
+   "妊娠期不推荐接种预防性HPV疫苗；备孕、已妊娠或哺乳期是否推迟接种，可咨询接种门诊或医生"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "预防性人乳头瘤病毒疫苗中国临床应用指南(2025版)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.zhongliujie.com/index.php/news/show/id/26.shtml"
+   }
+  ],
+  "keywords": ["怀孕能打HPV吗", "备孕", "哺乳期", "感染了还能打吗", "阳性", "尖锐湿疣", "打完还查宫颈", "TCT", "过敏", "打了HPV还要体检吗"]
+ }
+]

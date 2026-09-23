@@ -1,0 +1,295 @@
+[
+ {
+  "id": "oral-01",
+  "condition_zh": "每天有效刷牙两次，清除牙菌斑",
+  "condition_en": "Effective toothbrushing twice daily to remove dental plaque",
+  "category": "oral_health",
+  "prevention": [
+   "龋病和牙周疾病是最常见的口腔疾病，主要由附着在牙齿上的牙菌斑引起，清除牙菌斑是维护口腔健康的基础",
+   "刷牙能去除牙菌斑、软垢和食物残渣；菌斑清除后数小时可在清洁牙面重新附着，夜间入睡后唾液分泌减少、细菌更易生长，晚上睡前刷牙更重要",
+   "每天至少要刷牙两次，坚持早晚刷牙、饭后漱口",
+   "提倡用水平颤动拂刷法(巴氏刷牙法)：刷头置于后牙牙齿与牙龈交界处，与牙齿约呈45度角，上牙向上、下牙向下轻微加压前后颤动10次左右，再向牙面转动上下拂刷；每次颤动约刷2-3颗牙，范围有所重叠；刷前牙舌面时将刷头竖放，自上(下)而下(上)拂刷；刷咬合面时刷毛指向咬合面作前后短距离来回刷"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "口腔健康核心信息及知识要点(国家卫生健康委)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://wjw.hunan.gov.cn/wjw/ztzl/knowledge/zthd/qmjk/202003/t20200303_13716284.html"
+   }
+  ],
+  "keywords": ["刷牙", "怎么刷牙", "巴氏刷牙法", "刷牙方法", "牙菌斑", "早晚刷牙", "睡前刷牙", "饭后漱口", "龋齿", "牙周病"]
+ },
+ {
+  "id": "oral-02",
+  "condition_zh": "选择保健牙刷，每三个月更换",
+  "condition_en": "Choosing a toothbrush and replacing it every three months",
+  "category": "oral_health",
+  "prevention": [
+   "保健牙刷特点：刷头小便于转动；刷毛排列合理(一般10-12束长、3-4束宽)；刷毛软硬适度、顶端磨圆钝；刷柄长度宽度适中且有防滑设计",
+   "刷牙后应用清水冲洗牙刷，将刷毛水分甩干，刷头向上放在口杯中置于通风处",
+   "一般每三个月左右更换一把牙刷；刷毛弯曲倒伏或沉积污垢会损伤和污染口腔组织，需立即更换"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "口腔健康核心信息及知识要点(国家卫生健康委)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://wjw.hunan.gov.cn/wjw/ztzl/knowledge/zthd/qmjk/202003/t20200303_13716284.html"
+   }
+  ],
+  "keywords": ["牙刷", "换牙刷", "牙刷多久换一次", "电动牙刷", "硬毛牙刷", "刷毛变形"]
+ },
+ {
+  "id": "oral-03",
+  "condition_zh": "每天用牙线清洁牙间隙",
+  "condition_en": "Daily dental flossing between teeth",
+  "category": "oral_health",
+  "prevention": [
+   "牙缝隙最容易滞留细菌和软垢，刷牙时牙刷刷毛不能完全伸及牙缝隙",
+   "每天刷牙后配合使用牙线或牙缝刷等帮助清洁牙缝隙，可以达到彻底清洁牙齿的目的"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "口腔健康核心信息及知识要点(国家卫生健康委)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://wjw.hunan.gov.cn/wjw/ztzl/knowledge/zthd/qmjk/202003/t20200303_13716284.html"
+   }
+  ],
+  "keywords": ["牙线", "牙缝", "塞牙", "牙间刷", "牙缝刷", "剔牙", "牙签"]
+ },
+ {
+  "id": "oral-04",
+  "condition_zh": "提倡使用含氟牙膏防龋",
+  "condition_en": "Use of fluoride toothpaste for caries prevention",
+  "category": "oral_health",
+  "prevention": [
+   "使用含氟牙膏刷牙是安全、有效的防龋措施",
+   "三岁以上的儿童每次用量为黄豆粒大小；成人每次刷牙只需用大约0.5-1克(长度约0.5-1厘米)的膏体",
+   "牙膏中加入氟化物、抗菌药物、抗敏感化学物质等有效成分，可分别起到预防龋齿、减少牙菌斑和缓解牙齿敏感的作用"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "口腔健康核心信息及知识要点(国家卫生健康委)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://wjw.hunan.gov.cn/wjw/ztzl/knowledge/zthd/qmjk/202003/t20200303_13716284.html"
+   }
+  ],
+  "keywords": ["含氟牙膏", "氟牙膏", "儿童牙膏", "牙膏用量", "防蛀", "脱敏牙膏", "牙齿敏感用什么牙膏"]
+ },
+ {
+  "id": "oral-05",
+  "condition_zh": "健康饮食保护牙齿，控制吃糖",
+  "condition_en": "Tooth-friendly diet and sugar control",
+  "category": "oral_health",
+  "prevention": [
+   "经常摄入过多含糖食品或饮用过多碳酸饮料会导致牙齿脱矿，引发龋病或产生牙齿敏感",
+   "吃糖次数越多，牙齿受损机会越大，应尽量减少每天吃糖的次数",
+   "少喝碳酸饮料，进食后用清水或茶水漱口，晚上睡前刷牙后不能再进食"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "口腔健康核心信息及知识要点(国家卫生健康委)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://wjw.hunan.gov.cn/wjw/ztzl/knowledge/zthd/qmjk/202003/t20200303_13716284.html"
+   }
+  ],
+  "keywords": ["吃糖伤牙", "龋齿", "蛀牙", "碳酸饮料", "可乐", "牙齿脱矿", "夜宵后刷牙", "吃甜食"]
+ },
+ {
+  "id": "oral-06",
+  "condition_zh": "定期口腔检查与洁牙(洗牙)",
+  "condition_en": "Regular dental check-ups and scaling",
+  "category": "oral_health",
+  "prevention": [
+   "龋病和牙周病常缓慢发生，早期多无明显症状；出现疼痛等不适时可能已到疾病中晚期，治疗更复杂、痛苦更大、花费更多",
+   "每年至少一次口腔健康检查，能及时发现口腔疾病、早期治疗",
+   "最好每年一次洁牙(洗牙)，保持牙齿坚固和牙周健康",
+   "洁牙过程中可能会有牙龈出血，洁牙后也可能出现短暂牙齿敏感，但一般不会伤及牙龈和牙齿，更不会造成牙缝稀疏和牙齿松动"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "口腔健康核心信息及知识要点(国家卫生健康委)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://wjw.hunan.gov.cn/wjw/ztzl/knowledge/zthd/qmjk/202003/t20200303_13716284.html"
+   }
+  ],
+  "keywords": ["洗牙", "洁牙", "牙结石", "牙结石要不要洗", "洗牙伤害牙齿", "洗牙会让牙缝变大", "口腔检查", "牙医", "定期检查牙齿", "牙齿松动"]
+ },
+ {
+  "id": "oral-07",
+  "condition_zh": "计划怀孕前先做口腔检查",
+  "condition_en": "Dental check-up before pregnancy",
+  "category": "oral_health",
+  "prevention": [
+   "妇女怀孕期间，在怀孕早期和晚期接受复杂口腔治疗，会因紧张和疼痛等因素增加胎儿流产或早产的风险",
+   "女性在计划怀孕前应主动接受口腔健康检查，及时发现并处理口腔内的疾病或隐患，避免孕期发生口腔急症带来治疗不便和风险"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "口腔健康核心信息及知识要点(国家卫生健康委)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://wjw.hunan.gov.cn/wjw/ztzl/knowledge/zthd/qmjk/202003/t20200303_13716284.html"
+   }
+  ],
+  "keywords": ["备孕", "怀孕能看牙吗", "孕期牙疼", "孕妇补牙", "孕前检查牙齿"]
+ },
+ {
+  "id": "oral-08",
+  "condition_zh": "婴幼儿口腔清洁与儿童学刷牙",
+  "condition_en": "Infant oral cleaning and learning to brush",
+  "category": "oral_health",
+  "prevention": [
+   "从出生开始，婴儿出生之后家长应每天用软纱布或软毛牙刷为孩子擦洗口腔；牙齿萌出后可用纱布或软毛刷轻轻擦洗口腔和牙齿",
+   "多颗牙齿萌出后，家长可用指套刷或软毛刷为孩子每天刷牙2次，确保清洁上下颌所有牙面，特别是接近牙龈缘的部位",
+   "0-3岁儿童的口腔护理由家长帮助完成，每日至少2次",
+   "3-6岁开始可教儿童用最简单的\u201c转圈法\u201d刷牙：刷毛放置在牙面上轻压屈曲，在牙面上画圈，每部位反复画圈5次以上，前牙内侧需将牙刷竖放，各个牙面均应刷到；家长还应每日帮孩子刷牙1次",
+   "6岁以后儿童基本掌握刷牙方法，但家长还要监督以保证效果"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "口腔健康核心信息及知识要点(国家卫生健康委)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://wjw.hunan.gov.cn/wjw/ztzl/knowledge/zthd/qmjk/202003/t20200303_13716284.html"
+   }
+  ],
+  "keywords": ["宝宝刷牙", "婴儿口腔清洁", "指套刷", "纱布擦口腔", "孩子不肯刷牙", "教孩子刷牙", "乳牙", "转圈法"]
+ },
+ {
+  "id": "oral-09",
+  "condition_zh": "尽早戒除儿童口腔不良习惯",
+  "condition_en": "Correcting harmful oral habits in children early",
+  "category": "oral_health",
+  "prevention": [
+   "儿童口腔不良习惯有吮指、咬下唇、吐舌、口呼吸等，应尽早戒除，否则会造成上颌前突、牙弓狭窄、牙列拥挤等口颌畸形",
+   "3岁以上儿童仍存在上述不良习惯且不能通过劝导戒除的，应及时到医院诊治，通过适当矫正方法帮助戒除",
+   "对有口呼吸习惯的孩子，应检查其上呼吸道是否通畅，治疗呼吸道疾病，及时纠正口呼吸"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "口腔健康核心信息及知识要点(国家卫生健康委)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://wjw.hunan.gov.cn/wjw/ztzl/knowledge/zthd/qmjk/202003/t20200303_13716284.html"
+   }
+  ],
+  "keywords": ["吃手", "吮指", "咬嘴唇", "吐舌头", "口呼吸", "张着嘴睡觉", "腺样体", "牙齿矫正", "地包天", "龅牙"]
+ },
+ {
+  "id": "oral-10",
+  "condition_zh": "乳牙龋病应及时治疗",
+  "condition_en": "Timely treatment of caries in primary teeth",
+  "category": "oral_health",
+  "prevention": [
+   "龋病可引起孩子牙痛、牙龈及面部肿胀，甚至高热等全身症状",
+   "龋病长期得不到治疗可造成儿童偏侧咀嚼、双侧面部发育不对称，还可影响恒牙的正常发育和萌出",
+   "没有健康的牙齿，孩子不愿吃含纤维多的蔬菜和肉食，造成偏食等不良饮食习惯，影响全身正常生长发育",
+   "\u201c乳牙总是要换的，坏了不用治\u201d的看法是错误的"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "口腔健康核心信息及知识要点(国家卫生健康委)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://wjw.hunan.gov.cn/wjw/ztzl/knowledge/zthd/qmjk/202003/t20200303_13716284.html"
+   }
+  ],
+  "keywords": ["乳牙", "乳牙蛀了", "乳牙要换不用治", "儿童蛀牙", "小孩牙疼", "儿童龋齿", "换牙", "恒牙"]
+ },
+ {
+  "id": "oral-11",
+  "condition_zh": "为适龄儿童做窝沟封闭预防窝沟龋",
+  "condition_en": "Pit and fissure sealants for children",
+  "category": "oral_health",
+  "prevention": [
+   "\u201c六龄牙\u201d是萌出时间最早的恒磨牙，咀嚼功能最强大，也最容易发生龋病",
+   "窝沟封闭是预防恒磨牙窝沟龋的最有效方法：用高分子材料把牙齿的窝沟填平，使牙面变得光滑易清洁，细菌不易存留",
+   "并非所有孩子的所有牙齿都需要做窝沟封闭，应由医生检查确认符合适应证的牙齿才需要做",
+   "做完窝沟封闭的儿童仍不能忽视每天认真刷牙"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "口腔健康核心信息及知识要点(国家卫生健康委)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://wjw.hunan.gov.cn/wjw/ztzl/knowledge/zthd/qmjk/202003/t20200303_13716284.html"
+   }
+  ],
+  "keywords": ["窝沟封闭", "六龄牙", "恒磨牙", "封窝沟", "小孩防蛀", "做窝沟封闭有用吗"]
+ },
+ {
+  "id": "oral-12",
+  "condition_zh": "牙齿缺失应及时修复",
+  "condition_en": "Timely restoration of missing teeth",
+  "category": "oral_health",
+  "prevention": [
+   "牙齿具有咀嚼食物、辅助发音和维持面容形态的功能；牙齿缺失易发生咀嚼困难、对颌牙伸长、邻牙倾斜，前牙缺失还会导致发音不准、面部形态变化，全口牙丧失后咀嚼十分困难、面容明显苍老",
+   "不论失牙多少，都应及时进行义齿修复；修复一般在拔牙2-3个月后进行",
+   "修复前应治疗余留牙的疾病，必要时对牙槽骨和软组织进行修整",
+   "缺失牙修复主要有活动修复(局部义齿和全口假牙)和固定修复(固定桥、种植义齿)，具体选择应依据患者口腔条件和主观要求而定"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "口腔健康核心信息及知识要点(国家卫生健康委)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://wjw.hunan.gov.cn/wjw/ztzl/knowledge/zthd/qmjk/202003/t20200303_13716284.html"
+   }
+  ],
+  "keywords": ["缺牙", "牙齿缺失", "缺失", "牙掉了", "掉了牙", "不镶牙", "牙齿掉了", "拔牙后", "假牙", "义齿", "种植牙", "活动假牙", "烤瓷牙", "镶牙", "老人没牙"]
+ }
+]

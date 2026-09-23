@@ -1,0 +1,268 @@
+[
+ {
+  "id": "myopia-01",
+  "condition_zh": "近视可防可控不可逆，预防从小从早做起",
+  "condition_en": "Myopia prevention starts early in childhood",
+  "category": "myopia_prevention",
+  "prevention": [
+   "我国儿童青少年近视呈早发、高发态势；近视可防可控不可逆，要做到早预防、早发现、早干预",
+   "新生儿眼球较小、眼轴较短，双眼处于生理性远视状态，即\u201c远视储备量\u201d；随生长发育远视度数逐渐降低趋于正视",
+   "远视储备量不足指裸眼视力正常、散瞳验光后屈光状态未达近视标准但远视度数低于相应年龄段生理值范围，容易发展为近视",
+   "儿童在1-3岁幼儿期、4-6岁学龄前期、7岁之后学龄期应当定期接受屈光筛查，监测远视储备量",
+   "家长要从孩子出生就树立近视防控意识，给孩子健康视觉环境，帮助养成良好用眼习惯"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防控儿童青少年近视核心知识十条(国卫办妇幼函〔2023〕278号)",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/fys/c100078/202307/a210193cfd774009a1db0399d713fec9.shtml"
+   }
+  ],
+  "keywords": ["近视", "预防近视", "远视储备", "屈光筛查", "儿童视力检查", "宝宝视力", "近视能恢复吗", "近视不可逆", "视力下降", "检查视力"]
+ },
+ {
+  "id": "myopia-02",
+  "condition_zh": "每天日间户外活动不少于2小时",
+  "condition_en": "At least two hours of outdoor daylight activity daily",
+  "category": "myopia_prevention",
+  "prevention": [
+   "户外活动接触阳光能增加眼内多巴胺等活性物质释放，促进眼球正常发育并抑制眼轴变长，是防控近视有效、经济的方法",
+   "儿童青少年应坚持每天日间户外活动不少于2小时，或者每周累计达到14小时",
+   "户外活动要避开午后高温强晒时段",
+   "即使阴天，户外活动也对近视有防护效果"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防控儿童青少年近视核心知识十条(国卫办妇幼函〔2023〕278号)",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/fys/c100078/202307/a210193cfd774009a1db0399d713fec9.shtml"
+   }
+  ],
+  "keywords": ["户外活动", "户外运动", "晒太阳", "预防近视", "每天两小时", "出去玩", "阴天户外", "自然光"]
+ },
+ {
+  "id": "myopia-03",
+  "condition_zh": "良好用眼习惯：\u201c三个一\u201d与20-20-20原则",
+  "condition_en": "Healthy eye-use habits: posture and the 20-20-20 rule",
+  "category": "myopia_prevention",
+  "prevention": [
+   "长时间近距离用眼是诱导近视形成的关键因素",
+   "读写做到\u201c三个一\u201d：眼离书本一尺，胸距书桌一拳，手离笔尖一寸",
+   "不可平躺、侧躺或趴在床上看书，不可边走边看书，或在移动的车厢内看书",
+   "坚持\u201c20-20-20\u201d原则：近距离用眼20分钟，向20英尺外(约6米)远眺20秒以上",
+   "保持光线适度：白天充分利用自然光照明并避免阳光直射；晚上除台灯外还应开启适当的背景光源"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防控儿童青少年近视核心知识十条(国卫办妇幼函〔2023〕278号)",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/fys/c100078/202307/a210193cfd774009a1db0399d713fec9.shtml"
+   }
+  ],
+  "keywords": ["用眼习惯", "读写姿势", "三个一", "20-20-20", "远眺", "躺着看书", "车上看书", "台灯", "光线", "近距离用眼", "眼睛累"]
+ },
+ {
+  "id": "myopia-04",
+  "condition_zh": "分龄管控视屏时间",
+  "condition_en": "Screen time limits by age group",
+  "category": "myopia_prevention",
+  "prevention": [
+   "长时间近距离使用电子视屏类产品易消耗儿童远视储备量，是近视早发、高发的重要原因",
+   "0-3岁婴幼儿不使用手机、平板、电脑等视屏类电子产品",
+   "3-6岁幼儿尽量避免接触和使用手机、平板、电脑等视屏类电子产品",
+   "中小学生非学习目的使用电子屏幕单次时长不宜超过15分钟，每天累计时长不宜超过1小时",
+   "使用电子屏幕学习时，屏幕中心位置应在眼睛视线下方10厘米左右，距离为屏幕对角线长度的4-6倍；观看30-40分钟后应休息远眺放松10分钟"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防控儿童青少年近视核心知识十条(国卫办妇幼函〔2023〕278号)",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/fys/c100078/202307/a210193cfd774009a1db0399d713fec9.shtml"
+   }
+  ],
+  "keywords": ["看手机", "玩手机", "平板", "电子产品", "屏幕时间", "用眼时长", "孩子看电视", "网课", "手机距离", "儿童用手机"]
+ },
+ {
+  "id": "myopia-05",
+  "condition_zh": "每天坚持做眼保健操",
+  "condition_en": "Daily eye exercises",
+  "category": "myopia_prevention",
+  "prevention": [
+   "眼保健操可刺激神经、放松眼部肌肉、促进眼部血液循环、缓解眼疲劳",
+   "持续用眼后认真规范做眼保健操可让眼睛充分休息，减少调节滞后，改善视疲劳症状，有助于防控近视",
+   "做操时应注意清洁双手，找准穴位，力度到位，以略有酸胀感为宜"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防控儿童青少年近视核心知识十条(国卫办妇幼函〔2023〕278号)",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/fys/c100078/202307/a210193cfd774009a1db0399d713fec9.shtml"
+   }
+  ],
+  "keywords": ["眼保健操", "眼部按摩", "缓解眼疲劳", "眼睛酸胀", "穴位"]
+ },
+ {
+  "id": "myopia-06",
+  "condition_zh": "均衡营养与充足睡眠保护视力",
+  "condition_en": "Balanced nutrition and sufficient sleep for vision",
+  "category": "myopia_prevention",
+  "prevention": [
+   "0-17岁是眼球和视觉功能发育重要阶段，需摄入均衡营养；多摄入鱼类、蛋类、乳类、豆制品等食物，多吃新鲜水果蔬菜，饮食多样化",
+   "正常昼夜节律和充足睡眠对眼睛发育至关重要：幼儿、小学生每天睡眠应不低于10小时，初中生不低于9小时，高中生不低于8小时",
+   "家长应营造良好睡眠环境，引导孩子按时休息、按时起床、规律作息"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防控儿童青少年近视核心知识十条(国卫办妇幼函〔2023〕278号)",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/fys/c100078/202307/a210193cfd774009a1db0399d713fec9.shtml"
+   }
+  ],
+  "keywords": ["小学生睡眠", "孩子睡多久", "睡眠不足", "发育", "营养均衡", "护眼神食"]
+ },
+ {
+  "id": "myopia-07",
+  "condition_zh": "怀疑近视应到医疗机构散瞳验光",
+  "condition_en": "Cycloplegic optometry for diagnosing myopia",
+  "category": "myopia_prevention",
+  "when_to_seek_care": [
+   "家长观察到孩子有视物凑近、眯眼等异常情况，或筛查发现视力变差，应及时到医疗机构进行眼科检查"
+  ],
+  "clinical_examples": [
+   {
+    "description": "散瞳验光是诊断近视的\u201c金标准\u201d",
+    "key_findings": "散瞳验光使用睫状肌麻痹剂放松眼部调节作用后进行医学验光。散瞳药物对健康眼睛不会产生损伤，用药后可短期出现畏光、视近不清症状，停药后可恢复正常。家长应对散瞳验光有正确认知，遵医嘱检查、明确诊断，区分真性与假性近视。",
+    "outcome": ""
+   }
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防控儿童青少年近视核心知识十条(国卫办妇幼函〔2023〕278号)",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/fys/c100078/202307/a210193cfd774009a1db0399d713fec9.shtml"
+   }
+  ],
+  "keywords": ["散瞳", "验光", "医学验光", "真性近视", "假性近视", "眯眼", "看东西凑近", "视力变差", "近视检查", "散瞳伤害眼睛"]
+ },
+ {
+  "id": "myopia-08",
+  "condition_zh": "确诊近视后及时科学干预",
+  "condition_en": "Timely correction and intervention after myopia diagnosis",
+  "category": "myopia_prevention",
+  "treatment": [
+   {
+    "method": "配戴合适眼镜矫正",
+    "indication": "确诊近视",
+    "evidence_level": "guideline",
+    "citation_ref": "",
+    "notes": "配戴合适的眼镜可有效矫正视物不清、延缓近视进展；对于戴镜视力正常者，学龄前儿童及小学生每3-6个月、初高中学生每6-12个月复查，根据具体情况决定是否更换眼镜"
+   },
+   {
+    "method": "耳穴压丸等中医适宜技术",
+    "indication": "控制近视进展",
+    "evidence_level": "guideline",
+    "citation_ref": "",
+    "notes": "经循证医学证实可控制近视进展，应在专业医师指导下规范应用"
+   }
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防控儿童青少年近视核心知识十条(国卫办妇幼函〔2023〕278号)",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/fys/c100078/202307/a210193cfd774009a1db0399d713fec9.shtml"
+   }
+  ],
+  "keywords": ["戴眼镜", "近视眼镜", "眼镜要一直戴吗", "复查视力", "换眼镜", "控制近视", "近视加深", "耳穴压丸"]
+ },
+ {
+  "id": "myopia-09",
+  "condition_zh": "高度近视(600度以上)及致盲性并发症",
+  "condition_en": "High myopia and its blinding complications",
+  "category": "myopia_prevention",
+  "risk_factors": [
+   "近视600度以上为高度近视",
+   "高度近视人群中，白内障、开角型青光眼、近视性黄斑病变、视网膜脱离、近视性视神经病变等致盲性眼病发病率明显高于其他人群"
+  ],
+  "prevention": [
+   "采用及时、适宜的防控干预手段，推迟近视发病年龄，控制近视进展速度",
+   "减少高度近视相关并发症引起的不可逆性视功能损害",
+   "高度近视者出现眼前黑影飘动、闪光感、视物变形或视野缺损时应尽快到眼科排查视网膜病变"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防控儿童青少年近视核心知识十条(国卫办妇幼函〔2023〕278号)",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/fys/c100078/202307/a210193cfd774009a1db0399d713fec9.shtml"
+   }
+  ],
+  "keywords": ["高度近视", "600度", "视网膜脱离", "青光眼", "黄斑病变", "白内障", "飞蚊", "黑影飘动", "闪光感", "近视并发症"]
+ },
+ {
+  "id": "myopia-10",
+  "condition_zh": "近视防控需要家庭学校社会多方合力",
+  "condition_en": "Whole-society effort in myopia prevention",
+  "category": "myopia_prevention",
+  "prevention": [
+   "防控儿童青少年近视需要政府、学校、家庭、儿童和医疗卫生机构等各方面共同努力",
+   "全社会共同行动，营造爱眼护眼的视觉友好环境，合力共筑近视\u201c防护墙\u201d"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "防控儿童青少年近视核心知识十条(国卫办妇幼函〔2023〕278号)",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/fys/c100078/202307/a210193cfd774009a1db0399d713fec9.shtml"
+   }
+  ],
+  "keywords": ["近视防控", "学校视力检查", "家庭护眼", "教室灯光", "爱眼护眼"]
+ }
+]

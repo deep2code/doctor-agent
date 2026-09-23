@@ -1,0 +1,340 @@
+[
+ {
+  "id": "diet22-01",
+  "condition_zh": "食物多样，合理搭配",
+  "condition_en": "Diverse foods and reasonable combinations",
+  "category": "adult_diet",
+  "prevention": [
+   "坚持谷类为主的平衡膳食模式",
+   "每天的膳食应包括谷薯类、蔬菜水果、畜禽鱼蛋奶和豆类食物",
+   "平均每天摄入12种以上食物，每周25种以上，合理搭配",
+   "每天摄入谷类食物200-300g，其中包含全谷物和杂豆类50-150g；薯类50-100g"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国居民膳食指南(2022)》平衡膳食八准则",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/J4-AsD_DR3OLQMnHG0-jZA.html"
+   }
+  ],
+  "keywords": ["膳食指南", "食物多样", "谷类为主", "主食", "粗粮", "全谷物", "杂豆", "薯类", "每天吃多少", "12种食物", "营养搭配", "平衡膳食", "吃什么最健康"]
+ },
+ {
+  "id": "diet22-02",
+  "condition_zh": "吃动平衡，保持健康体重",
+  "condition_en": "Balancing diet and physical activity for healthy body weight",
+  "category": "adult_diet",
+  "prevention": [
+   "各年龄段人群都应天天进行身体活动，保持健康体重",
+   "食不过量，保持能量平衡",
+   "坚持日常身体活动，每周至少进行5天中等强度身体活动，累计150分钟以上；主动身体活动最好每天6000步",
+   "鼓励适当进行高强度有氧运动，加强抗阻运动，每周2-3天",
+   "减少久坐时间，每小时起来动一动"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国居民膳食指南(2022)》平衡膳食八准则",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/J4-AsD_DR3OLQMnHG0-jZA.html"
+   }
+  ],
+  "keywords": ["吃动平衡", "健康体重", "久坐", "食不过量", "抗阻运动", "长胖", "发胖", "能量平衡", "动则有益", "久坐危害"]
+ },
+ {
+  "id": "diet22-03",
+  "condition_zh": "多吃蔬果、奶类、全谷、大豆",
+  "condition_en": "Eat more vegetables, fruits, dairy, whole grains and soybeans",
+  "category": "adult_diet",
+  "prevention": [
+   "蔬菜水果、全谷物和奶制品是平衡膳食的重要组成部分",
+   "餐餐有蔬菜，保证每天摄入不少于300g的新鲜蔬菜，深色蔬菜应占1/2",
+   "天天吃水果，保证每天摄入200-350g的新鲜水果，果汁不能代替鲜果",
+   "吃各种各样的奶制品，摄入量相当于每天300ml以上液态奶",
+   "经常吃全谷物、大豆制品，适量吃坚果"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国居民膳食指南(2022)》平衡膳食八准则",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/J4-AsD_DR3OLQMnHG0-jZA.html"
+   }
+  ],
+  "keywords": ["蔬菜", "水果", "喝奶", "牛奶", "豆浆", "豆腐", "坚果", "深色蔬菜", "果汁", "每天吃多少蔬菜", "缺钙吃什么", "奶制品"]
+ },
+ {
+  "id": "diet22-04",
+  "condition_zh": "适量吃鱼、禽、蛋、瘦肉",
+  "condition_en": "Moderate intake of fish, poultry, eggs and lean meat",
+  "category": "adult_diet",
+  "prevention": [
+   "鱼、禽、蛋类和瘦肉摄入要适量，平均每天120-200g",
+   "每周最好吃鱼2次或300-500g，蛋类300-350g，畜禽肉300-500g",
+   "少吃深加工肉制品",
+   "鸡蛋营养丰富，吃鸡蛋不弃蛋黄",
+   "优先选择鱼，少吃肥肉、烟熏和腌制肉制品"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国居民膳食指南(2022)》平衡膳食八准则",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/J4-AsD_DR3OLQMnHG0-jZA.html"
+   }
+  ],
+  "keywords": ["吃肉", "鱼肉", "鸡蛋", "蛋黄", "瘦肉", "培根", "火腿", "香肠", "腊肉", "腌制肉", "烟熏", "补蛋白", "每天吃几个鸡蛋"]
+ },
+ {
+  "id": "diet22-05",
+  "condition_zh": "少盐少油，控糖限酒",
+  "condition_en": "Reduce salt and oil, control sugar, limit alcohol",
+  "category": "adult_diet",
+  "prevention": [
+   "培养清淡饮食习惯，少吃高盐和油炸食品，成年人每天摄入食盐不超过5g，烹调油25-30g",
+   "控制添加糖的摄入量，每天不超过50g，最好控制在25g以下",
+   "反式脂肪酸每天摄入量不超过2g",
+   "不喝或少喝含糖饮料",
+   "儿童青少年、孕妇、乳母以及慢性病患者不应饮酒；成年人如饮酒，一天饮用的酒精量不超过15g"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国居民膳食指南(2022)》平衡膳食八准则",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/J4-AsD_DR3OLQMnHG0-jZA.html"
+   }
+  ],
+  "keywords": ["减盐", "少盐", "吃太咸", "每日盐", "5克盐", "少油", "烹调油", "油炸", "控糖", "减糖", "戒糖", "含糖饮料", "奶茶", "反式脂肪酸", "限酒", "喝酒", "戒酒"]
+ },
+ {
+  "id": "diet22-06",
+  "condition_zh": "规律进餐，足量饮水",
+  "condition_en": "Regular meals and adequate water intake",
+  "category": "adult_diet",
+  "prevention": [
+   "合理安排一日三餐，定时定量，不漏餐，每天吃早餐",
+   "规律进餐、饮食适度，不暴饮暴食、不偏食挑食、不过度节食",
+   "足量饮水，少量多次；在温和气候条件下，低身体活动水平成年男性每天喝水1700ml，成年女性每天喝水1500ml",
+   "推荐喝白水或茶水，少喝或不喝含糖饮料，不用饮料代替白水"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国居民膳食指南(2022)》平衡膳食八准则",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/J4-AsD_DR3OLQMnHG0-jZA.html"
+   }
+  ],
+  "keywords": ["喝水", "每天喝多少水", "饮水", "不吃早餐", "早餐", "暴饮暴食", "节食", "偏食", "挑食", "规律吃饭", "茶水", "饮料代替水"]
+ },
+ {
+  "id": "diet22-07",
+  "condition_zh": "会烹会选，会看食品标签",
+  "condition_en": "Skills for selecting, cooking and reading food labels",
+  "category": "adult_diet",
+  "prevention": [
+   "在生命的各个阶段都应做好健康膳食规划",
+   "认识食物，选择新鲜的、营养素密度高的食物",
+   "学会阅读食品标签，合理选择预包装食品",
+   "学习烹饪、传承传统饮食，享受食物天然美味",
+   "在外就餐，不忘适量与平衡"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国居民膳食指南(2022)》平衡膳食八准则",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/J4-AsD_DR3OLQMnHG0-jZA.html"
+   }
+  ],
+  "keywords": ["食品标签", "配料表", "营养成分表", "预包装食品", "看标签", "外卖", "在外就餐", "怎么选食品"]
+ },
+ {
+  "id": "diet22-08",
+  "condition_zh": "公筷分餐，杜绝浪费",
+  "condition_en": "Serving chopsticks, individual plating, reducing food waste",
+  "category": "adult_diet",
+  "prevention": [
+   "选择新鲜卫生的食物，不食用野生动物",
+   "食物制备生熟分开，熟食二次加热要热透",
+   "讲究卫生，从分餐公筷做起",
+   "珍惜食物，按需备餐，提倡分餐不浪费",
+   "剩饭剩菜冷藏后彻底加热再吃，生熟食品分开存放和加工"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国居民膳食指南(2022)》平衡膳食八准则",
+    "journal": "",
+    "year": 2022,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://dg.cnsoc.org/article/04/J4-AsD_DR3OLQMnHG0-jZA.html"
+   }
+  ],
+  "keywords": ["公筷", "分餐", "生熟分开", "剩饭", "剩菜", "剩米饭", "剩饭剩菜", "米饭", "二次加热", "加热", "剩菜能吃吗", "食育", "餐具卫生"]
+ },
+ {
+  "id": "diet22-09",
+  "condition_zh": "我国居民盐、油、糖摄入普遍超标",
+  "condition_en": "Excess intake of salt, oil and added sugar in Chinese residents",
+  "category": "adult_diet",
+  "risk_factors": [
+   "2012年调查显示，我国居民人均每日食盐摄入量为10.5g，而世界卫生组织推荐值为5g",
+   "居民家庭人均每日食用油摄入量42.1g，超过《中国居民膳食指南》推荐的每天25-30g",
+   "我国人均每日添加糖摄入量约30g，其中3-17岁常喝饮料的儿童、青少年，仅从饮料中摄入的添加糖提供的能量就超过总能量的5%，城市儿童远远高于农村儿童，且呈上升趋势",
+   "高盐、高糖、高脂等不健康饮食是引起肥胖、心脑血管疾病、糖尿病及其他代谢性疾病和肿瘤的危险因素"
+  ],
+  "complications": [
+   "饮食因素导致的疾病负担占到15.9%，已成为影响人群健康的重要危险因素",
+   "2012年全国成人超重率30.1%、肥胖率11.9%，与2002年相比分别增长32.0%和67.6%；6-17岁儿童青少年超重率9.6%、肥胖率6.4%"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·合理膳食行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["吃太咸", "口重", "盐吃多了", "油吃多了", "糖吃多了", "饮料", "儿童喝饮料", "饮食不健康", "肥胖原因", "三减"]
+ },
+ {
+  "id": "diet22-10",
+  "condition_zh": "家庭减盐减油减糖的实用方法",
+  "condition_en": "Practical ways to reduce salt, oil and sugar at home",
+  "category": "adult_diet",
+  "prevention": [
+   "推广使用健康\u201c小三件\u201d：限量盐勺、限量油壶和健康腰围尺",
+   "倡导食品生产经营者使用天然甜味物质和甜味剂取代蔗糖；提倡高糖摄入人群减少食用含蔗糖饮料和甜食",
+   "鼓励生产销售低钠盐，并在专家指导下推广使用",
+   "低钠盐慎用人群：高温作业者、重体力劳动强度工作者、肾功能障碍者及服用降压药物的高血压患者等不适宜高钾摄入人群，使用前应咨询医生",
+   "少吃肥肉、烟熏和腌制肉制品，少吃高盐和油炸食品；在外点餐根据人数确定数量，集体用餐采取分餐、简餐、份饭"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·合理膳食行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["低钠盐", "无盐酱油", "限盐勺", "油壶", "腰围尺", "怎么减盐", "减盐方法", "少放盐", "肾病能吃低钠盐吗", "高血压吃盐", "三减三健"]
+ },
+ {
+  "id": "diet22-11",
+  "condition_zh": "超重肥胖人群的饮食建议",
+  "condition_en": "Dietary guidance for overweight and obese adults",
+  "category": "adult_diet",
+  "prevention": [
+   "减少能量摄入，增加新鲜蔬菜和水果在膳食中的比重",
+   "适当选择富含优质蛋白质的食物，如瘦肉、鱼、蛋白和豆类",
+   "避免吃油腻食物和油炸食品，少吃零食和甜食，不喝或少喝含糖饮料",
+   "进食有规律，不要漏餐，不暴饮暴食，七八分饱即可"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·合理膳食行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["减肥", "减肥怎么吃", "管住嘴", "七八分饱", "超重", "肥胖", "戒夜宵", "零食", "甜食", "控制饮食"]
+ },
+ {
+  "id": "diet22-12",
+  "condition_zh": "贫血、消瘦等营养不良人群的饮食建议",
+  "condition_en": "Dietary guidance for people with anemia or undernutrition",
+  "category": "adult_diet",
+  "prevention": [
+   "在合理膳食基础上，适当增加瘦肉类、奶蛋类、大豆和豆制品的摄入，保持膳食多样性",
+   "满足身体对蛋白质、钙、铁、维生素A、维生素D、维生素B12、叶酸等营养素的需求",
+   "增加含铁食物的摄入，或在医生指导下补充铁剂来纠正贫血",
+   "注意避免因过度节食影响必要营养素摄入"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·合理膳食行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["贫血", "补血", "贫血吃什么", "孩子贫血", "宝宝贫血", "缺铁", "消瘦", "营养不良", "太瘦了", "增加体重", "铁剂", "挑食不长肉"]
+ },
+ {
+  "id": "diet22-13",
+  "condition_zh": "家庭健康饮食管理",
+  "condition_en": "Healthy food management for families",
+  "category": "adult_diet",
+  "prevention": [
+   "按需购买食物，合理储存；选择新鲜、卫生、当季的食物，采取适宜的烹调方式",
+   "按需备餐，选择小份量食物；学会选购食品时看标签",
+   "不能生吃的食材要做熟后食用；生吃蔬菜水果等食品要洗净；生、熟食品要分开存放和加工",
+   "日常用餐宜细嚼慢咽，保持心情平和，食不过量",
+   "倡导在家吃饭，与家人一起分享食物和享受亲情",
+   "足量饮水，成年人一般每天7-8杯(1500-1700ml)，提倡饮用白开水或茶水，少喝含糖饮料；儿童少年、孕妇、乳母不应饮酒"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "健康中国行动(2019—2030年)·合理膳食行动",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml"
+   }
+  ],
+  "keywords": ["家庭饮食", "买菜", "食物储存", "冰箱", "生吃", "洗净", "细嚼慢咽", "在家吃饭", "孩子能喝酒吗", "孕妇饮酒"]
+ }
+]

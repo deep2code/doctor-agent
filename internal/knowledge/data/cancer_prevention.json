@@ -1,0 +1,248 @@
+[
+ {
+  "id": "cancer-01",
+  "condition_zh": "癌症是可防可控的慢性病",
+  "condition_en": "Cancer is a preventable and controllable chronic disease",
+  "category": "cancer_prevention",
+  "risk_factors": [
+   "吸烟、肥胖、缺乏运动、饮食不合理、酗酒、精神压力、心理紧张等不健康生活方式和行为可直接诱发癌症",
+   "《健康中国行动—癌症防治行动实施方案(2023—2030年)》提出，到2030年癌症防治核心知识知晓率达到80%以上"
+  ],
+  "prevention": [
+   "世界卫生组织测算，约三分之一癌症可通过一级预防避免发生，约三分之一可通过早期发现、早期治疗获得治愈，其余部分也可运用现有医疗措施改善症状、延长生存",
+   "我国倡导覆盖预警、检测、治疗及康复的全链条管理，推行综合治理以降低癌症发病与死亡水平"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "癌症防治核心信息及知识要点(国家卫生健康委，2019年全国肿瘤防治宣传周发布)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.xinhuanet.com/politics/2019-04/19/c_1124389810.htm"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《中国肿瘤防治核心科普知识(2025)》整体评估篇(中国抗癌协会)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.caca.org.cn/system/2025/04/01/030135732.shtml"
+   }
+  ],
+  "keywords": ["癌症", "肿瘤", "防癌", "癌症能预防吗", "癌是不是绝症", "致癌原因", "哪些习惯致癌", "癌症防治"]
+ },
+ {
+  "id": "cancer-02",
+  "condition_zh": "癌症的早期危险信号",
+  "condition_en": "Early warning signs of cancer",
+  "category": "cancer_prevention",
+  "when_to_seek_care": [
+   "身体浅表部位出现异常肿块",
+   "体表黑痣和疣等在短期内色泽加深或迅速增大",
+   "身体出现异常哽咽感、疼痛等感觉",
+   "皮肤或粘膜出现经久不愈的溃疡",
+   "持续性消化不良和食欲减退",
+   "大便习惯及性状改变或带血",
+   "持久性声音嘶哑、干咳、痰中带血",
+   "听力异常、鼻血、头痛",
+   "阴道异常出血，特别是接触性出血",
+   "无痛性血尿、排尿不畅",
+   "不明原因的发热、乏力、进行性体重减轻"
+  ],
+  "prevention": [
+   "一旦发现上述任何身体异样，应尽快到正规医疗机构排查诊治；早诊早治是提高生存率的关键途径"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "癌症防治核心信息及知识要点(国家卫生健康委，2019年全国肿瘤防治宣传周发布)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.xinhuanet.com/politics/2019-04/19/c_1124389810.htm"
+   }
+  ],
+  "keywords": ["癌症", "肿瘤", "癌症早期信号", "早期信号", "危险信号", "癌症前兆", "早期症状", "肿块", "黑痣变大", "痣颜色加深", "溃疡不愈", "痰中带血", "声音嘶哑", "便血", "大便带血", "无痛血尿", "血尿", "阴道出血", "接触性出血", "消瘦", "体重下降", "不明原因发热"]
+ },
+ {
+  "id": "cancer-03",
+  "condition_zh": "癌症三级预防体系",
+  "condition_en": "Three levels of cancer prevention",
+  "category": "cancer_prevention",
+  "prevention": [
+   "一级预防(病因预防)：从源头控制，隔绝外部致癌损伤，提倡戒烟限酒、平衡膳食、适量运动、心情舒畅，配合健康教育、限酒控烟及定期医学筛查",
+   "二级预防(早筛早诊早治)：尽早识别癌前病变与早期癌症，尽快确诊并干预",
+   "三级预防(规范治疗与康复)：优化生存质量、延长生命，确诊后接受规范化治疗"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "癌症防治核心信息及知识要点(国家卫生健康委，2019年全国肿瘤防治宣传周发布)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.xinhuanet.com/politics/2019-04/19/c_1124389810.htm"
+   }
+  ],
+  "keywords": ["三级预防", "一级预防", "早筛早诊早治", "癌症筛查", "防癌措施", "病因预防", "规范治疗"]
+ },
+ {
+  "id": "cancer-04",
+  "condition_zh": "健康生活方式防癌要点",
+  "condition_en": "Lifestyle essentials for cancer prevention",
+  "category": "cancer_prevention",
+  "prevention": [
+   "戒烟限酒：烟草与酒精是明确的可控致癌因素，戒烟越早越好，任何时候都不晚",
+   "平衡膳食：减少高盐、高脂、高糖饮食，少吃加工肉制品与烟熏腌制食品，增加蔬菜水果摄入",
+   "适量运动：坚持规律身体活动，控制体重，避免肥胖",
+   "心情舒畅：保持心理平衡，管理精神压力",
+   "定期参加防癌体检与医学筛查，关注身体发出的危险信号"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "癌症防治核心信息及知识要点(国家卫生健康委，2019年全国肿瘤防治宣传周发布)",
+    "journal": "",
+    "year": 2019,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "https://www.xinhuanet.com/politics/2019-04/19/c_1124389810.htm"
+   }
+  ],
+  "keywords": ["怎么预防癌症", "预防癌症", "防癌", "防癌食物", "加工肉", "腌菜致癌", "吸烟致癌", "喝酒致癌", "肥胖致癌", "防癌体检", "健康生活方式"]
+ },
+ {
+  "id": "cancer-05",
+  "condition_zh": "肿瘤筛查按风险分层进行",
+  "condition_en": "Risk-stratified cancer screening",
+  "category": "cancer_prevention",
+  "prevention": [
+   "肿瘤低危人群主要按照年龄决定筛查策略；高危人群需针对性筛查，有明确癌症风险的人要重点检查",
+   "由医生根据年龄、性别、家族史、生活史等综合判断，按风险分级调整筛查方式和频率",
+   "例如肝癌高危人群(如乙肝患者)每6个月查腹部超声和甲胎蛋白，中低风险者可能只需每年一次，避免\u201c一刀切\u201d"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国肿瘤防治核心科普知识(2025)》整体评估篇(中国抗癌协会)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.caca.org.cn/system/2025/04/01/030135732.shtml"
+   }
+  ],
+  "keywords": ["癌症筛查", "防癌筛查", "筛查频率", "高危人群", "多久查一次", "肝癌筛查", "乙肝携带者体检", "甲胎蛋白", "肿瘤体检"]
+ },
+ {
+  "id": "cancer-06",
+  "condition_zh": "筛查方法要联合应用、按高危因素选择",
+  "condition_en": "Combining screening methods and selecting by risk factors",
+  "category": "cancer_prevention",
+  "prevention": [
+   "单独用一种筛查方法容易漏查，应联合影像学与肿瘤标志物检测互补：如肝癌筛查中腹部超声可直接观察肝脏形态，甲胎蛋白(AFP)检测可提示肿瘤活性，两者结合既能定位病变又能辅助判断性质",
+   "按高危因素分层选择筛查方法：长期吸烟者肺癌风险高，需用低剂量螺旋CT精准筛查；有胃癌家族史的人，应结合胃镜和幽门螺杆菌检测",
+   "针对性筛查能减少不必要检查，提高效率；医生会结合患者年龄、病史、生活习惯综合判断"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国肿瘤防治核心科普知识(2025)》整体评估篇(中国抗癌协会)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.caca.org.cn/system/2025/04/01/030135732.shtml"
+   }
+  ],
+  "keywords": ["低剂量CT", "螺旋CT", "肺癌筛查", "胃镜", "肠镜", "幽门螺杆菌", "肿瘤标志物", "查癌", "体检项目怎么选", "psa", "超声"]
+ },
+ {
+  "id": "cancer-07",
+  "condition_zh": "遗传性癌症风险的管理(如BRCA1/2基因突变)",
+  "condition_en": "Managing hereditary cancer risk such as BRCA1/2 mutations",
+  "category": "cancer_prevention",
+  "prevention": [
+   "具有肿瘤遗传风险的人群比一般人群需要更早期、更规律的肿瘤专科筛查：如BRCA1/2基因突变者，女性在25岁以后、男性35岁以后，每年做乳腺MRI和/或乳腺X线检查，避免普通体检带来的漏诊风险",
+   "生活中保持均衡饮食、规律运动、戒烟戒酒、避免肥胖，减少与生活方式相关的癌症风险",
+   "携带突变基因可能引发焦虑，遗传咨询能解释风险、指导家庭生育选择，心理辅导帮助缓解恐惧",
+   "高危人群可在医生评估权衡利弊后使用药物预防(如他莫昔芬)或手术预防，无论药物还是手术都可能有副作用"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国肿瘤防治核心科普知识(2025)》整体评估篇(中国抗癌协会)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.caca.org.cn/system/2025/04/01/030135732.shtml"
+   }
+  ],
+  "keywords": ["遗传", "家族史", "BRCA", "基因突变", "乳腺癌遗传", "遗传咨询", "基因检测", "乳腺癌MRI", "他莫昔芬"]
+ },
+ {
+  "id": "cancer-08",
+  "condition_zh": "压力管理与心理调适降低患癌风险",
+  "condition_en": "Stress management and psychological adjustment in cancer prevention",
+  "category": "cancer_prevention",
+  "prevention": [
+   "压力和情绪因素可能影响肿瘤的发生发展；每天7-8小时睡眠、均衡饮食有助于修复压力损伤细胞",
+   "深呼吸、冥想、肌肉放松等训练能直接降低身体压力激素(如皮质醇)水平，每天坚持10-15分钟练习，可减少慢性炎症反应对细胞的损伤",
+   "快走、游泳等中等强度运动能促进内啡肽分泌、增强免疫细胞活性，每周3-5次、每次30分钟的运动，可降低乳腺癌、肠癌等与压力相关的肿瘤风险",
+   "与亲友分享感受、参加兴趣小组等活动可缓冲压力伤害；严重情绪问题需专业心理咨询"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国肿瘤防治核心科普知识(2025)》整体评估篇(中国抗癌协会)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.caca.org.cn/system/2025/04/01/030135732.shtml"
+   }
+  ],
+  "keywords": ["压力", "情绪", "压力大", "焦虑", "冥想", "放松训练", "皮质醇", "熬夜", "心理调适"]
+ },
+ {
+  "id": "cancer-09",
+  "condition_zh": "怀疑肿瘤时的规范诊断流程",
+  "condition_en": "Standard diagnostic pathway when cancer is suspected",
+  "category": "cancer_prevention",
+  "clinical_examples": [
+   {
+    "description": "分层选择检查手段，先简后繁",
+    "key_findings": "对疑似患者优先用简单、快速且便宜的检查(如抽血查肿瘤标志物或超声)快速排除或缩小范围，确诊需要复杂检查时再安排CT、MRI。病理检查是确诊肿瘤的核心(\u201c金标准\u201d)，高度怀疑肿瘤时应尽早取组织化验明确肿瘤类型，避免误诊耽误治疗。基因检测主要用于指导用药(如靶向药)，需先确定是恶性肿瘤，再根据治疗需要选择基因检测项目。",
+    "outcome": ""
+   }
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国肿瘤防治核心科普知识(2025)》整体评估篇(中国抗癌协会)",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guidance",
+    "url": "http://www.caca.org.cn/system/2025/04/01/030135732.shtml"
+   }
+  ],
+  "keywords": ["确诊癌症", "病理检查", "活检", "金标准", "基因检测", "靶向药", "穿刺", "肿瘤确诊流程", "PET-CT"]
+ }
+]

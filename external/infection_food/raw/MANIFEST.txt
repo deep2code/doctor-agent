@@ -1,0 +1,28 @@
+MANIFEST — batch3 direction③ raw official Chinese texts (fetched 2026-09-23)
+format: topic-slug | source title | publisher | year | exact URL | URL-verified
+NOTE: all files contain ONLY text actually downloaded this session; "verified=yes" means the URL returned HTTP 200 and the body text above was extracted from that response.
+
+hfmd_july_alert | 中国疾病预防控制中心2026年7月健康风险提示（含手足口病专节+EV-A71疫苗+食物中毒提示） | 中国疾控中心 chinacdc.cn (jkts) | 2026 | https://www.chinacdc.cn/jkts/202607/t20260711_1838083.html | yes
+herpangina_hfmd_chinacdc | 家长，夏秋季孩子常得的疱疹性咽峡炎，这几个误区要了解 | 中国疾控中心 (健康科普/丙类传染病) | 2026-07-23 | https://www.chinacdc.cn/jkkp/crb/qtcr/202607/t20260723_1838345.html | yes
+hfmd_qa_chinacdc | 疱疹性咽峡炎科普问答（怎么传播/病原学/消毒） | 中国疾控中心 (健康科普/丙类传染病) | 2025-07-23 | https://www.chinacdc.cn/jkkp/crb/bcr/202507/t20250723_308690.html | yes
+flu_season_chinacdc | 中国疾病预防控制中心2025年11月健康风险提示（流感等急性呼吸道传染病防护/消毒措施） | 中国疾控中心 (jkts) | 2025-11-05 | https://www.chinacdc.cn/jkts/202511/t20251105_313281.html | yes
+flu_who_zh | 世界卫生组织实况报道：季节性流感 | WHO 中文站 | (含2025数据) | https://www.who.int/zh/news-room/fact-sheets/detail/influenza-(seasonal) | yes
+tb_plan_2024_2030_ndcpa | 关于印发《全国结核病防治规划（2024—2030年）》的通知（含规划指标一览表数值） | 国家疾控局官网 ndcpa.gov.cn（国务院同意，多部门联合印发） | 2024-12 | https://www.ndcpa.gov.cn/jbkzzx/c100030/common/content/content_1867010541844287488.html | yes
+tb_day_2025_notice | 国家疾控局综合司组织开展2025年世界防治结核病日宣传活动通知（宣传主题全文） | 国家疾控局（中国疾控中心转发） | 2025-03 | https://www.chinacdc.cn/ztxm/xcgy_14306/202503/t20250313_304925.html | yes
+tb_day_2026_notice_ndcpa | 国家疾控局综合司组织开展2026年世界防治结核病日宣传活动通知 | 国家疾控局 | 2026-03 | https://www.ndcpa.gov.cn/jbkzzx/c100014/common/content/content_2028780865511133184.html | yes
+tb_who_zh | 世界卫生组织实况报道：结核病（2024年全球数据） | WHO 中文站 | 2025 | https://www.who.int/zh/news-room/fact-sheets/detail/tuberculosis | yes
+tb_core_info_chinacdc | 结核病防治核心信息及知识要点(2016年版)（附件docx全文，早于2022窗口，仅作体系参考） | 国家卫生计生委等（中国结核网 tb.chinacdc.cn 发布） | 2016 | https://tb.chinacdc.cn/xxjlg/201603/t20160324_128054.htm （正文来自附件 .../W020160324539729193232.docx） | yes
+hb_viral_hep_action_plan_ndcpa | 关于印发《中国防治病毒性肝炎行动计划（2025—2030年）》的通知（含乙肝母婴阻断指标与12小时措施） | 国家疾控局等9部门 ndcpa.gov.cn | 2025 | https://www.ndcpa.gov.cn/jbkzzx/c100014/common/content/content_1966406073307271168.html | yes
+hb_mtct_qa_chinacdc | 乙型肝炎防控知识问答：新生儿乙肝疫苗免疫程序/HBsAg阳性母亲新生儿接种方案 | 中国疾控中心（疾病预防控制-疫苗与预防接种-乙型肝炎栏目页正文） | 页面在2022-2026窗口内发布(栏目页, 内容为国家免疫规划程序口径) | https://www.chinacdc.cn/jkyj/mygh02/ymkyfjb/yxgy/ | yes
+hb_vaccine_mtct_who_zh | 世界卫生组织实况报道：乙型肝炎（含围产期传播与母婴阻断） | WHO 中文站 | 2024数据版 | https://www.who.int/zh/news-room/fact-sheets/detail/hepatitis-b | yes
+food_safety_who_zh | 世界卫生组织实况报道：食品安全（含全球疾病负担数字、五大关键点） | WHO 中文站 | 2022数据版 | https://www.who.int/zh/news-room/fact-sheets/detail/food-safety | yes
+leftovers_nitrite_scj | 隔夜菜到底能不能吃？他们做了个实验（亚硝酸盐实测数据/安全摄入口径） | 泉州市市场监督管理局（政府网站转载） | 2023-12-19 | https://scjgj.quanzhou.gov.cn/xxgk/ztzl/xfts/scjggzxkt/202312/t20231219_2983021.htm | yes
+kitchen_cuttingboard_shanghai | 市市场监管局健康提示：菜板可能暗藏危险（生熟分开/黄曲霉毒素B1剂量） | 上海市人民政府网-市市场监管局 | 2025-06-11 | https://www.shanghai.gov.cn/nw17239/20250611/8bc0fc3f69c949bd87865c424b0eeeff.html | yes
+aflatoxin_nuts_scjamr | 关于坚果霉菌污染的风险提示（GB 19300-2014 霉菌限值/黄曲霉毒素） | 湖南省市场监督管理局 | 2021-10-25 | https://amr.hunan.gov.cn/amr/ztx/cjxxx/202110/t20211025_20853913.html | yes (via curl; python urllib hits local TLS BAD_ECPOINT on this host)
+
+NOT FOUND / HONEST GAPS:
+- nhc.gov.cn 直接政策原文页（如《消除艾滋病、梅毒和乙肝母婴传播行动计划(2022-2025年)》通知正文 .shtml）持续返回 HTTP 412（WAF），未找到其 /files/ 附件直链；替代方案采用国家疾控局 ndcpa.gov.cn 2025《中国防治病毒性肝炎行动计划》（同主题更新、更权威的官方文件，母婴阻断指标齐备）。
+- 2022-2026 年间的“肺结核防治核心知识”逐条版官方全文未在公开可抓页面找到（2023-2025 主题通知只有主题句；2016 版核心信息以附件docx提供，已收录并标注年份偏早）。
+- 未找到国家层面“家庭食品安全五要点”独立全文页（WHO中文版含同等“保持清洁/生熟分开/烧熟煮透/安全温度/安全原料”内容，已收录 food_safety_who_zh）。
+
+PRE-EXISTING (not part of this fetch, left untouched): norovirus.txt, norovirus_doc.txt, norovirus.docx

@@ -1,0 +1,1755 @@
+
+===== PAGE 1 =====
+中华肾脏病杂志 2022 年 5 月第 38 卷第 5 期 Chin J Nephrol, May 2022, Vol. 38, No.5
+前 言
+慢性肾脏病（chronic kidney disease ，CKD）具有患病率
+高、知晓率低 、预后差和医疗费用高等特点 ，是心脑血管
+疾病 、糖尿病和恶性肿瘤等疾病之外 ，又一严重危害人类
+健康的疾病 。近年来 CKD 患病率逐年上升 ，全球一般人
+群患病率已高达 14.3%
+[1]
+，我国横断面流行病学调查研究
+显示 ，18 岁以上人群 CKD 患病率为 10.8%
+[2]
+。随着我国人
+口 老 龄 化 和 糖 尿 病、高 血 压 等 疾 病 的 发 病 率 逐 年 增 高，
+CKD 发病率也呈现不断上升之势
+[3]
+。
+为 了 唤 起 民 众 和 政 府 对CKD 的 重 视，便 于 业 界 学 术
+交 流，美 国 国 家 肾 脏 基 金 会（National Kidney Foundation ，
+NKF）所属“肾脏病预后质量倡议 （Kidney Disease Outcome
+Quality Initiative ，KDOQI）工作组 ”于 2002 年制定了 CKD 定
+义 和 分 期 标 准
+[4]
+。 2005 年“ 改 善 全 球 肾 脏 病 预 后 组 织
+（Kidney Disease ：Improving Global Outcomes ，KDIGO） ”对 该
+标准修改后在世界范围内推广应用
+[5]
+，并于 2012 年组织工
+作组制定 CKD 临床实践指南
+[6]
+。2020 年后 KDIGO 为更新
+和补充 2012 版 CKD 临床实践指南 ，又进一步制定了 CKD
+早期诊断与干预共识
+[7]
+、CKD 糖尿病管理临床实践指南
+[8]
+及 CKD 血压管理指南
+[9]
+。
+为 满 足 我 国 肾 脏 病 领 域 专 业 人 员，特 别 是 广 大 基 层
+医务工作者提高 CKD 防治水平的迫切需要 ，2015 年上海
+市卫生和计划生育委员会批准 “上海地区 CKD 早发现和
+诊疗体系建设与示范 ”作为第四轮加强公共卫生体系建
+设三年行动计划而立项 。项目组牵头组织上海市肾脏病
+专家制定了《CKD 筛查 诊断及防治指南 》 ，并于 2017 年发
+表
+[3]
+，该指南的问世极大地推动了我国对 CKD 的认识 ，提
+高了医务人员对 CKD 的管理水平 。近年来 CKD 研究又取
+得了很多重大进展 ，随着临床证据的积累及各种新药的
+问世 ，2017 版《CKD 筛查 诊断及防治指南 》有必要进行修
+订。为此 ，我们邀请上海市肾脏病专家修订和更新 《CKD
+筛 查 诊 断 及 防 治 指 南》 。修 订 和 更 新 的 主 要 内 容 包 括
+CKD 筛查的对象和方式 、CKD 进展评估及防治 （包括营养
+治疗 ，蛋白尿 、高血压 、高血糖的控制 ，中医中药的治疗 ） 、
+CKD 并发症的防治（包括贫血 、心血管疾病 、慢性肾脏病 ⁃
+矿物质 ⁃骨代谢异常 、高钾血症 、同型半胱氨酸血症 ） ，并
+增 加 了 CKD 筛 查 模 式 和CKD 进 展 至 终 末 期 肾 病（end ⁃
+· 专家共识 ·
+慢性肾脏病早期筛查 、诊断及防治指南（2022 年版）
+上海市肾内科临床质量控制中心专家组
+通 信 作 者：梅 长 林，海 军 军 医 大 学 第 二 附 属 医 院 肾 脏 病 科，上 海 200003，Email：
+chlmei1954@126.com
+【摘要】 慢性肾脏病（chronic kidney disease ，CKD）已成为全球性的公共卫生问题 。 “肾脏
+病预后质量倡议（Kidney Disease Outcome Quality Initiative ，KDOQI） ”和“改善全球肾脏病预后组
+织（Kidney Disease: Improving Global Outcomes ，KDIGO） ”工 作 组 先 后 制 定 了CKD 临 床 实 践 指
+南。为提高我国 CKD 防治水平 ，在参考国外指南基础上 ，结合中国特点 ，我们组织上海市肾脏
+病专家制定了 《CKD 筛查 诊断及防治指南 》 ，并于 2017 年发表 。该指南对各级全科医师和肾
+脏病专科医师均有参考价值 ，有力推动了对 CKD 的认识和提高了对 CKD 的管理水平 。近年来
+CKD 研究又取得了很多重大进展 ，基于临床证据的积累及各种新药的问世 ，上海市肾内科临
+床质量控制中心专家组对 2017 年版《CKD 筛查 诊断及防治指南 》进行了更新和修订 ，内容主
+要包括 CKD 筛查的对象和方式 、进展的评估及防治等方面 。
+【关键词】 慢性肾脏病 ； 筛查 ； 诊断 ； 治疗 ； 指南
+基金项目 ：上海市临床重点专科基金 （shslczdzk02503）
+DOI：10.3760/cma.j.cn441217⁃20210819⁃00067
+Guidelines for early screening, diagnosis, prevention and treatment of chronic kidney disease
+(2022 Edition)
+Expert Group on Kidney Clinical Quality Control Center in Shanghai
+Corresponding author: Mei Changlin, Department of Nephrology, Changzheng Hospital, Naval Medical
+University, Shanghai 200003, China, Email ：chlmei1954@126.com
+··453
+===== PAGE 2 =====
+中华肾脏病杂志 2022 年 5 月第 38 卷第 5 期 Chin J Nephrol, May 2022, Vol. 38, No.5
+stage kidney disease ，ESKD）风险的预测 。
+本临床实践指南根据循证医学证据将推荐程度分为
+强推荐（Ⅰ）和弱推荐（Ⅱ）两种 ，证据质量分为高 （a） 、中
+（b） 、低（c）三级（表 1） ，如（Ⅰc）代表 ： “强推荐 ” ，证据质
+量为“低” ；标识在句号内的表示该句子的推荐强度和证
+据质量 ，标识在句号外的表示该段落的推荐强度和证据
+质量 。
+诊断和分期标准
+一、CKD 定义
+肾脏结构或功能异常＞ 3 个月
+[6]
+。 （Ⅰc）
+二、CKD 诊断标准
+出 现 表2 中 任 意 一 项 指 标，持 续 时 间 超 过3 个 月，即
+可诊断 CKD
+[6]
+。 （Ⅰc）
+三、CKD 分期
+基 于 估 算 肾 小 球 滤 过 率（eGFR） ，CKD 分 为 5 期
+[6]
+，见
+表 3。 （Ⅰc）
+四、CKD 危险分层
+CKD 不 良 预 后 的 影 响 因 素 包 括： （1）CKD 病 因； （2）
+CKD 分期； （3）白蛋白尿分级 ； （4）其他危险因素和合并症
+[6]
+。
+根据 CKD 分期和白蛋白尿分级进行 CKD 危险分层 ，分为
+1 级（低危） 、2 级（中危） 、3 级（高危）和 4 级（极高危）
+[6]
+，见
+表 4。 （Ⅰc）
+CKD 筛查
+一、筛查的意义
+CKD 往往起病隐匿 ，患者长期处于无症状阶段 ，疾病
+知晓率低 。当疾病发展至 G3 期时 ，患者发生并发症风险
+和 进 展 至ESKD 的 风 险 显 著 增 高
+[10]
+；CKD 如 能 得 到 早 发
+现、早治疗 ，病情可得到良好控制 ，甚至可以逆转 ，所以筛
+查 CKD 意义重大 。
+二、对象和方式
+无论有无危险因素都要进行筛查 。每年成人体检时
+建 议 检 测 一 次 尿 白 蛋 白 肌 酐 比 值（UACR）和 血 清 肌 酐。
+（Ⅱc）
+对于 CKD 高风险人群 ，如肾脏病家族史 、糖尿病 、高
+血压 、心血管疾病 、高尿酸血症 、高龄（＞65 岁） 、肥胖 ，以
+表 2 慢性肾脏病诊断标准 （至少满足 1 项）
+[6]
+诊断指标
+肾损伤标志
+GFR 下降
+内容
+（1）白蛋白尿（UAER≥30 mg/24 h 或 UACR≥30 mg/g） ；
+（2）尿沉渣异常； （3）肾小管相关病变； （4）组织学异常；
+（5）影像学所见结构异常； （6）肾移植病史
+eGFR＜60 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+注 ：UAER：尿 白 蛋 白 排 泄 率；UACR：尿 白 蛋 白 肌 酐 比 值；
+GFR：肾小球滤过率 ；eGFR：估算 GFR
+表 1 本指南的证据质量等级
+证据质量
+高（a）
+中（b）
+低（c）
+来源
+大型随机对照临床研究 、严谨的 Meta 分析 、前瞻性
+队列研究
+大型回顾性研究 、病例对照研究 、小型随机对照研究 、
+一般质量的 Meta 分析
+非对照临床研究 、病例报告 、专家观点
+CKD 分期
+G1
+G2
+G3a
+G3b
+G4
+G5
+eGFR[ml·min
+-1
+·(1.73 m
+2
+)
+-1
+]
+≥90
+60~89
+45~59
+30~44
+15~29
+＜15
+描 述
+正常或增高
+轻度下降
+轻至中度下降
+中至重度下降
+重度下降
+肾衰竭
+表 3 基于估算肾小球滤过率 （eGFR）的慢性肾脏病
+（CKD）分期
+[6]
+表 4 慢性肾脏病（CKD）的危险分层
+[6]
+CKD 分期
+G1(eGFR≥90)
+G2（eGFR 60~89）
+G3a（eGFR 45~59）
+G3b（eGFR 30~44）
+G4（eGFR 15~29）
+G5（eGFR＜15）
+白蛋白尿分级（尿白蛋白肌酐比）
+A1 (＜30 mg/g，正常或轻度增加)
+低危
+低危
+中危
+高危
+极高危
+极高危
+A2(30~300 mg/g，中度增加)
+中危
+中危
+高危
+极高危
+极高危
+极高危
+A3(＞300 mg/g，显著增加)
+高危
+高危
+极高危
+极高危
+极高危
+极高危
+注：eGFR：估算肾小球滤过率 ，单位为 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+··454
+===== PAGE 3 =====
+中华肾脏病杂志 2022 年 5 月第 38 卷第 5 期 Chin J Nephrol, May 2022, Vol. 38, No.5
+及罹患可能继发 CKD 的疾病（如系统性红斑狼疮 、乙型病
+毒性肝炎 ） 、长期服用可能造成肾损害的药物 、有急性肾
+损伤病史等 ，应开展一级预防 ，每半年开展一次 CKD 防治
+知识宣教 ，每年至少进行一次 UACR 和血清肌酐的检测 ，
+根据血肌酐值应用慢性肾脏病流行病学协作 （CKD⁃EPI）
+公式估算 GFR
+[6 ，11-13]
+（Ⅰb） 。对于高龄 、营养不良 、肌肉含
+量低及肝功能障碍者 ，以血肌酐估算 GFR 对于 CKD 的诊
+断和分期不够准确 ，建议加测胱抑素 C，并根据血肌酐和
+胱抑素 C 值应用 CKD⁃EPI 公式估算 GFR
+[14-15]
+（Ⅰa） 。
+CKD 进展评估及防治
+一、CKD 进展评估
+1. GFR 降 低：CKD 分 期 改 变，eGFR 较 基 线 值 下 降≥
+25%
+[6]
+。（Ⅱc）
+2. CKD 快 速 进 展 ：eGFR 下 降 速 率 持 续 大 于 每 年
+5 ml·min
+-1
+·(1.73 m
+2
+)
+-1[6]
+。 （Ⅱc）
+建 议 CKD 患 者 每 年 至 少 检 测 一 次eGFR 和 UACR，进
+展风险较高或检测结果影响治疗方案时 ，频率应适当增
+加
+[6]
+，见表 5。 （Ⅰc）
+二、利用模型预测 CKD 进展风险
+建 立 理 想 的CKD 风 险 评 估 模 型 可 预 测CKD 进 展 风
+险，有助于制定筛查和监测频率 ，但目前尚缺乏公认有效
+的模型 。现有模型对于非糖尿病患者纳入包括年龄 、性
+别、种族 、低 eGFR 水平 、心血管疾病史 、吸烟史 、高血压 、
+体 重 指 数（BMI）和 UACR 水 平 等 参 数 预 测5 年 CKD 发 生
+的风险
+[16]
+；对于糖尿病患者 ，还包括糖尿病药物 、糖化血红
+蛋白水平和两者之间的相互关系预测 5 年 CKD 发生的风
+险
+[16]
+（Ⅱb） 。
+三、CKD 进展防治
+（一）调整生活方式
+1. 体育锻炼 ：推荐 CKD 患者在医师指导下参加能够
+耐受的体育锻炼（每周至少 5 次，每次 30 min）
+[8-9]
+。 （Ⅰc）
+2. 保持健康体重 ：维持 BMI 18.5～24.0 kg/m
+2 [17]
+。 （Ⅰc）
+3. 戒烟
+[6]
+。 （Ⅰc）
+4. 其他 ：规律作息 ，避免疲劳 ；防止呼吸道感染的发
+生；放松心情 ，避免情绪紧张
+[6]
+。（Ⅰc）
+（二）营养治疗
+1. 蛋白质及热量摄入 ：对于非糖尿病 CKD G1 、G2 期
+患 者，原 则 上 宜 减 少 摄 入 蛋 白 质，推 荐 蛋 白 质 摄 入 量 为
+0.8～1.0 g·kg
+-1
+·d
+-1
+，以蛋白尿为主要临床表现者 ，控制蛋
+白 质 摄 入 量 为0.6～0.8 g·kg
+-1
+·d
+-1[18]
+；从 G3 期 起 开 始 低 蛋
+白饮食治疗 ，推荐蛋白质摄入量为 0.6 g·kg
+-1
+·d
+-1[18-19]
+（Ⅰb） 。
+实施低蛋白饮食治疗时 ，热量摄入应维持在 30～35 kcal·
+kg
+-1
+·d
+-1
+，60 岁以上患者活动量较小 、营养状态良好者可减
+少至 30 kcal·kg
+-1
+·d
+-1[18]
+（Ⅱc） 。对于糖尿病 CKD G1 、G2 期
+患者 ，推荐蛋白质摄入量为 0.8 g·kg
+-1
+·d
+-1
+，G3 至 G5 期推荐
+蛋白质 摄入量为 0.6～0.8 g·kg
+-1
+·d
+-1
+，必要时可补充复方 α酮
+酸
+[18，20]
+（Ⅰc） 。实施低蛋白饮食治疗时 ，患者的热量摄入
+应 基 本 与 非 糖 尿 病CKD 患 者 相 似，但 对 于 肥 胖 的2 型 糖
+尿病 CKD 患者需适当限制热量 （总热量摄入可比上述推
+荐量减少 250～500 kcal/d） ，直至达到标准体重
+[21]
+（Ⅱc） 。
+2. 盐 摄 入：成 人 CKD 患 者 钠 摄 入 量 ＜90 mmol/d（氯
+化钠 5 g/d）
+[22-23]
+。 （Ⅰb）
+3. 其他营养物质摄入 ：鼓励 CKD 患者参加有关病情
+严重程度及钙 、磷、钾、蛋白质 、嘌呤摄入量方面的健康教
+育 。 推 荐 饮 食 方 案 时，应 考 虑 到 文 化 差 异、食 物 是 否 耐
+受、是否容易获得 、烹饪技巧 、并发症和成本等 。 （Ⅰc）
+（三）控制蛋白尿
+1. 定 义：每 日 尿 蛋 白 量 ＞150 mg 或 UACR＞30 mg/g
+称为蛋白尿
+[6]
+。UACR 在 30～300 mg/g 之间称为微量白蛋
+白尿 ，＞300 mg/g 称为大量白蛋白尿 。测定尿中蛋白质或
+白蛋白有多种方法和表达方式 ，它们之间的换算和临床
+意 义 见 表6。由 于 测 定UACR 方 法 准 确，重 复 性 好，故 推
+注：风险评估内容包括全因死亡率 、心血管死亡率 、终末期肾病 、急性肾损伤 、CKD 进展等 ；风险（分级）中，1：低危 ；2：中危 ；3：高
+危；4：极高危 ；检测中 ，1～4+分别表示 CKD 患者每年至少检测肾小球滤过率和尿白蛋白肌酐比值的次数 ；转诊中 ，-：指南未具体指明
+监测或专科转诊情况 ；a：患者继续监测肾小球滤过率和尿白蛋白肌酐比值 ；b：首诊医师可根据当地肾脏病专科的安排 ，与专科医师讨
+论后决定继续监测或转诊 ；c：需转诊 至肾脏专科治疗
+CKD 分期
+G1
+G2
+G3a
+G3b
+G4
+G5
+白蛋白尿分级 A1
+风险(分级)
+1
+1
+2
+3
+4
+4
+监测（次/年）
+1
+1
+1
+2
+3
+4+
+转诊
+-
+-
+a
+a
+b
+c
+白蛋白尿分级 A2
+风险(分级)
+2
+2
+3
+4
+4
+4
+监测（次/年）
+1
+1
+2
+3
+3
+4+
+转诊
+a
+a
+a
+a
+b
+c
+白蛋白尿分级 A3
+风险(分级)
+3
+3
+4
+4
+4
+4
+监测（次/年）
+2
+2
+3
+3
+4+
+4+
+转诊
+b
+b
+c
+c
+c
+c
+表 5 基于慢性肾脏病（CKD）分期和白蛋白尿分级的风险评估 、监测频率及转诊时机
+[6]
+··455
+===== PAGE 4 =====
+中华肾脏病杂志 2022 年 5 月第 38 卷第 5 期 Chin J Nephrol, May 2022, Vol. 38, No.5
+荐以 UACR 作为 CKD 筛查和随访的指标（Ⅱc） 。
+2. 危害 ：过多的白蛋白等蛋白质经肾小球滤过及肾
+小管重吸收 ，可损伤肾小球滤过膜和肾小管细胞 ，促进肾
+小球硬化和肾小管间质纤维化 。
+3. 控制目标 ：糖尿病 CKD 患者尿蛋白控制目标应为
+UACR＜30 mg/g，非 糖 尿 病CKD 患 者 尿 蛋 白 控 制 目 标 为
+UACR＜300 mg/g
+[6]
+。 （Ⅱc）
+4. 控制措施 ：
+（1）肾 素 ⁃ 血 管 紧 张 素⁃ 醛 固 酮 系 统 抑 制 剂（renin ⁃
+angiotensin ⁃ aldosterone system inhibitor ，RAASi） ：血 管 紧 张
+素 转 化 酶 抑 制 剂（angiotensin converting enzyme inhibitor ，
+ACEI） 、血 管 紧 张 素Ⅱ 受 体 阻 滞 剂（angiotensinⅡreceptor
+blocker，ARB）或盐皮质激素受体拮抗剂 （mineralocorticoid
+receptor antagonist ，MRA）具有降压及独立于降压外的肾脏
+保护作用
+[24]
+。UACR 在 30～300 mg/g 的糖尿病患者推荐使
+用 ACEI、ARB 或 MRA
+[24]
+；UACR＞300 mg/g 时，无论是否存
+在糖尿病 ，均推荐使用 ACEI 或 ARB
+[24]
+（Ⅰb） 。目前不推荐
+联合应用 ACEI 和 ARB 延缓 CKD 的进展
+[24]
+（Ⅰa） 。在应用
+RAASi 时 需 注 意：① 避 免 用 于 两 侧 肾 动 脉 狭 窄 者
+[25]
+；②
+eGFR＜45 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+者宜从小剂量开始
+[26]
+；③初
+始 应 用 或 加 量 时，应 在 1～2 周 监 测GFR 和 血 清 钾 浓 度，
+若血肌酐较基线值上升幅度＜ 30%，可继续使用
+[27]
+；若超
+过基线水平 30%，应及时停药并寻找原因
+[27]
+；血清钾高时
+加 用 利 尿 剂 或 口 服 降 钾 剂
+[28]
+； （4）eGFR＜30 ml·min
+-1
+·
+(1.73 m
+2
+)
+-1
+时仍具有肾脏保护作用，不一定需要停药
+[29]
+（Ⅰc） 。
+（2）糖皮质激素及免疫抑制剂 ：多种原发性或继发性
+肾小球疾病 ，如膜性肾病或狼疮肾炎 ，其发病机制主要由
+免疫反应异常所介导 ，需要使用糖皮质激素 、免疫抑制剂
+及生物制剂治疗以达到蛋白尿持续缓解 ，常用的免疫抑
+制剂包括环磷酰胺 、环孢素 A、他克莫司 、霉酚酸酯 、硫唑
+嘌呤 、来氟米特等 。近年来 ，生物制剂如利妥昔单抗 、贝
+利 尤 单 抗 等 逐 渐 用 于 治 疗 多 种 免 疫 性 肾 小 球 疾 病
+[30-31]
+。
+应用时应根据病理类型和蛋白尿程度 ，并结合患者性别 、
+年龄 、体重 、生育要求 、有无相关药物使用禁忌证及个人
+意愿等 ，个体化地制定治疗方案 ，同时注意检测和防治相
+关药物的不良反应（Ⅱc） 。
+（四）控制高血压
+1. 定 义：在 未 使 用 降 压 药 物 情 况 下，诊 室 收 缩 压≥
+140 mmHg 和（或）舒 张 压≥90 mmHg，称 为 高 血 压
+[32]
+。 诊
+室血压虽是诊断高血压的标准 ，但可能存在“白大衣高血
+压” ，动态血压和家测血压测量可作为诊室血压的补充 ，
+其诊断标准见表 7
+[33]
+。
+2. 标准化血压测定方法 ：测量前 30 min 内患者不吸
+烟、不喝咖啡 、不进食 、不运动 ；测血压房间要安静 ，温度
+舒 适；测 量 前 休 息3～5 min，测 量 时 或 测 量 间 歇 时 不 说
+话 。 诊 室 血 压 每 次 就 诊 时 连 续 测 量 3 次 ，每 次 间 隔
+1 min ，计算后 2 次测量的平均值 。如果第 1 次测量血压
+值＜ 130/85 mmHg，则不需要再进行测量 。
+3. 危 害：高 血 压 是CKD 常 见 并 发 症，其 本 身 可 导 致
+肾损害 ，也可促进 CKD 进展 ，还能引起心 、脑及周围血管
+等靶器官损害 ，更使 CKD 患者预后不良
+[34]
+。
+4. 控制目标：无论是否合并糖尿病，UACR≤30 mg/g 时，
+维 持 血 压 ≤140/90 mmHg
+[6]
+；UACR＞ 30 mg/g 时 ，控 制 血
+压 ≤130/80 mmHg
+[6 ，33]
+。 （Ⅰb）
+5. 控制措施 ：应根据患者病情 ，合理选用降压药物 ，
+做 到 个 体 化 治 疗。 无 蛋 白 尿 CKD 高 血 压 患 者 可 选 择
+ACEI、ARB、钙 通 道 阻 滞 剂（calcium channel blocker ，CCB）
+等
+[35]
+；有 蛋 白 尿CKD 高 血 压 患 者 首 选ACEI 或 ARB；为 提
+高高血压达标率 ，推荐使用单片复方制剂或组合制剂 [如
+缬 沙 坦 氨 氯 地 平 、血 管 紧 张 素 受 体 脑 啡 肽 酶 抑 制 剂
+（ARNI）
+[36-38]
+]；严重高血压者可选择 3 种或 3 种以上的抗高
+血压药物联合治疗
+[39]
+（Ⅰb） 。老年患者应综合考虑年龄 、
+合并症等情况 ，并密切关注降压治疗相关不良事件 ，如电
+解质紊乱 、急性肾损伤 、体位性低血压等
+[24]
+。
+（五）控制高血糖
+1. 定 义：糖 尿 病 诊 断 依 据 美 国 糖 尿 病 协 会（ADA）
+2010 年 指 南
+[40]
+推 荐 标 准 ：① 糖 化 血 红 蛋 白（HbA1c）≥
+6.5%；②空腹血糖 ≥7.0 mmol/L；③在口服糖耐量试验中 ，
+口服 75 g 葡萄糖 2 h 后血糖 ≥11.1 mmol/L；④在有典型高
+血糖症状或高血糖危象的患者中 ，随机血糖 ≥11.1 mmol/L。
+白蛋白尿分级
+A1
+A2
+A3
+UAER(mg/24 h)
+＜30
+30~300
+＞300
+UACR(mg/g)
+＜30
+30~300
+＞300
+UPER(mg/24 h)
+＜150
+150~500
+＞500
+UPCR(mg/g)
+＜150
+150~500
+＞500
+试纸法
+阴性
++
++或以上
+表述
+正常或轻度升高
+中度升高
+显著升高
+表 6 慢性肾脏病白蛋白尿分级及其近似换算
+[6]
+注：白蛋白尿指标（UAER：尿白蛋白排泄率 ；UACR：尿白蛋白肌酐比值 ） ；蛋白尿指标（UPER：尿蛋白排泄率 ；UPCR：尿蛋白肌酐比
+值；试纸法 ：测定尿蛋白 ）
+血压类型
+动态血压
+24 h 平均值
+白天（或清醒状态）平均值
+夜间（或睡眠状态）平均值
+家测血压
+收缩压和/或舒张压（mmHg）
+≥130 和/或≥80
+≥135 和/或≥85
+≥120 和/或≥70
+≥135 和/或≥85
+表 7 基于动态血压和家测血压的高血压诊断标准
+[33]
+··456
+===== PAGE 5 =====
+中华肾脏病杂志 2022 年 5 月第 38 卷第 5 期 Chin J Nephrol, May 2022, Vol. 38, No.5
+糖 尿 病 肾 脏 疾 病（diabetic kidney disease ，DKD）过 去 称 为
+糖 尿 病 肾 病（diabetic nephropathy ，DN） ，指 由 糖 尿 病 引 起
+的 CKD，主 要 指 标 包 括eGFR＜60 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+和
+（或）UACR 高 于 30 mg/g 持 续 超 过3 个 月
+[41]
+。合 并 视 网 膜
+病变有助于 DKD 的诊断 ：确诊为 1 型糖尿病的 DKD 患者
+常 合 并 视 网 膜 病 变，但 视 网 膜 病 变 并 非 诊 断2 型 糖 尿 病
+DKD 患者的必备条件 ，部分 2 型糖尿病患者可在起病时即
+出现肾病 ，但不伴有视网膜病变
+[42-43]
+。
+2. 危害 ：DKD 是糖尿病最常见的微血管并发症之一 ，
+无论是 1 型还是 2 型糖尿病 ，25%～40%患者可出现肾脏
+受累
+[3]
+。2 型糖尿病患者中 ，5%在确诊时就已出现肾损害
+[6]
+。
+高血糖造成的肾脏血流动力学变化及代谢异常是肾损害
+的病理基础 。
+3. 控制目标 ：HbA1c 目标值为 7.0%以下（Ⅰa） 。糖尿
+病患病时间短 、预期寿命长 、无心血管并发症并能很好耐
+受治疗者 ，可更加严格控制 HbA1c（＜6.5%） ；预期寿命较
+短、存在合并症多或低血糖风险者 ，HbA1c 目标值可放宽
+至 8.0%
+[7-8 ，43]
+（Ⅰc） 。
+4. 控制措施 ：钠⁃葡萄糖共转运蛋白 2（sodium⁃glucose
+cotransporter 2，SGLT2）抑 制 剂 具 有 降 糖 以 外 的 肾 脏 保 护
+作 用
+[44-47]
+（Ⅰ a） 。另 一 类 降 糖 药 胰 高 血 糖 素 样 肽 ⁃ 1
+（glucagon⁃like peptide 1，GLP⁃1）受体激动剂除了可显著降
+低糖尿病患者心血管事件外 ，初步证据显示可改善肾脏
+预 后
+[44-48]
+（Ⅰb） 。对 于 2 型 糖 尿 病 合 并CKD，当 eGFR≥
+45 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时，推荐二甲双胍联合 SGLT2 抑制
+剂作为一线降糖方案
+[8]
+（Ⅰb） 。当血糖未能达标或不宜使
+用 SGLT2 抑制剂时 ，建议加用 GLP⁃1 受体激动剂
+[8]
+（Ⅰb） 。
+当 eGFR 30～44 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+，二甲双胍应减量 ，并
+注 意 监 测 eGFR 变 化 ；当 eGFR＜30 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时 ，二 甲 双 胍 和SGLT2 抑 制 剂 均 不 建 议 使 用
+[8]
+（Ⅰb） 。其
+他种类降糖药物的选择应基于血糖控制情况 、合并症及
+药物费用等 ，注意根据 eGFR 水平调整降糖药物的剂量和
+种类 ，以防止低血糖及其他不良反应的发生 。DKD 的早
+期由于胰岛素抵抗增加 ，胰岛素需求可能增加 ；当进展至
+G3b 至 G5 期时 ，肾脏对胰岛素的清除减少 ，胰岛素需求量
+可能下降
+[8]
+。降血糖药物的调整见表 8。
+（六）控制血脂异常
+1. 定义 ：血脂异常指血浆中脂类的质和量异常 ，通常
+指血浆中胆固醇和 （或）三酰甘油升高 ，也泛指包括低密
+度脂蛋白 、高密度脂蛋白在内的各种血脂异常
+[3]
+。
+2. 危 害：血 脂 异 常 是 促 进CKD 进 展 的 重 要 因 素，也
+是介导 CKD 患者心脑血管病变 、肾动脉粥样硬化和靶器
+官损害的主要危险因素 。升高的血脂成分和异常的脂质
+组分如氧化低密度脂蛋白 、糖化低密度脂蛋白可损伤肾
+小球固有细胞和肾小管 ⁃间质组织 ，促使细胞外基质产生
+增多 ，导致肾小球硬化和肾间质纤维化
+[3]
+。
+3. 控制目标 ：根据疾病的风险评估 （CKD 分期 ，患者
+年龄 ，是否透析 ，有无肾移植 、冠心病 、糖尿病 、缺血性卒
+中 病 史）而 不 是 根 据 血 浆 胆 固 醇、低 密 度 脂 蛋 白 胆 固 醇
+（low density lipoprotein ⁃ cholesterol，LDL ⁃ C）的 水 平 来 确 定
+治 疗 措 施
+[3]
+。 有 动 脉 粥 样 硬 化 性 心 血 管 病（atherosclerotic
+cardiovascular disease ，ASCVD）史 或 eGFR＜60 ml·min
+-1
+·
+(1.73 m
+2
+)
+-1
+等极高危患者的 LDL⁃C 水平应＜ 1.8 mmol/L，其
+他患者 LDL⁃C 水平应＜ 2.6 mmol/L
+[3]
+（Ⅰa） 。
+4. 控制措施 ：他汀类或他汀类联合依折麦布适用于
+50 岁 以 上 的CKD 未 透 析（G1 至 G5 期）患 者、成 人 肾 移 植
+和 开 始 透 析 时 已 经 使 用 这 类 药 物 的 患 者
+[3]
+（Ⅰ a） 。对
+18～49 岁、未透析未肾移植患者 ，他汀类适用于有以下一
+项或一项以上因素的患者 ：冠心病（心梗或冠脉重建术 ） 、
+糖尿病 、缺血性卒中 、10 年间发生冠心病风险大于 10%
+[3]
+（Ⅰb） 。部 分 他 汀 类 药 物 需 要 注 意 根 据eGFR 调 整 剂 量
+注：eGFR：估算肾小球滤过率 ；DPP⁃4：二肽基肽酶 4；GLP⁃1：
+胰高血糖素样肽 ⁃1；SGLT2：钠⁃葡萄糖共转运蛋白 2；粗实箭头 ：
+正常剂量使用 ；细实箭头 ：调整剂量 ；虚线箭头 ：慎用
+表 8 根据慢性肾脏病（CKD）分期调整降血糖药物
+[8 ，43]
+抗高血糖药物
+双胍类
+二甲双胍
+磺脲类
+格列本脲
+格列美脲
+格列齐特
+格列吡嗪
+格列喹酮
+噻唑烷二酮
+吡格列酮
+罗格列酮
+格列奈类
+那格列奈
+瑞格列奈
+α糖苷酶抑制剂
+阿卡波糖
+伏格列波糖
+DPP⁃4 抑制剂
+西格列汀
+沙格列汀
+利格列汀
+GLP⁃1 受体抑制剂
+利拉鲁肽
+SGLT2 抑制剂
+达格列净
+恩格列净
+卡格列净
+CKD 分期[eGFR，单位 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+]
+≥60 45~59 30~44 15~29 <15
+··457
+===== PAGE 6 =====
+中华肾脏病杂志 2022 年 5 月第 38 卷第 5 期 Chin J Nephrol, May 2022, Vol. 38, No.5
+（Ⅰa） 。建议高三酰甘油血症患者改变生活方式 ，包括饮
+食和运动等
+[49]
+（Ⅰc） 。
+（七）控制高尿酸血症
+1. 定义 ：正常嘌呤饮食状态下 ，非同日 2 次空腹血尿
+酸水平＞ 420 μmol/L，称为高尿酸血症
+[50]
+。根据血尿酸水
+平和尿尿酸排泄多少 ，高尿酸血症分为尿酸排泄不良型 、
+尿酸生成过多型和混合型三种
+[3]
+。
+2. 危害 ：高尿酸血症是心血管事件的危险因素 ，也是
+肾功能损害的独立危险因素 ，可引起急性肾损伤 （急性尿
+酸性肾病 ） 、CKD（慢性尿酸盐肾病 ）及尿酸性肾石症 ，并
+加速 CKD 的进展
+[51]
+。而肾功能下降又使得痛风的发生风
+险增加
+[52]
+。
+3. 控制目标 ：尿酸盐肾病患者 ，血尿酸控制目标为＜
+360 μmol/L
+[50]
+；对 于 有 痛 风 发 作 的 患 者，血 尿 酸 控 制 目 标
+为 ＞300 μmol/L，但血尿酸不应 ＜180 μmol/L
+[50]
+（Ⅰb） 。CKD
+继 发 高 尿 酸 血 症 患 者，当 血 尿 酸 ＞480 μmol/L 时 应 干 预
+治 疗
+[50]
+（Ⅱc） 。
+4. 控制措施 ：低嘌呤饮食 ，尿量正常者多饮水 ，适当
+碱化尿液 ，避免长期使用可能引起尿酸升高的药物 （噻嗪
+类及袢利尿剂 、烟酸 、小剂量阿司匹林等 ）
+[50]
+（Ⅰb） 。降低
+尿酸的药物包括抑制尿酸合成的药物 （别嘌醇 、非布司他
+等）和增加尿酸排泄的药物 （苯溴马隆 、丙磺舒等 ） ，根据
+患 者 高 尿 酸 血 症 的 分 型 及eGFR 水 平 选 择 药 物、调 整 用
+量：别嘌醇在 G3 期应减量 ，在 G5 期禁用
+[50]
+；非布司他在轻
+中 度 肾 功 能 不 全 时 无 需 调 整 剂 量
+[50]
+；当 eGFR＜20 ml·
+min
+-1
+·(1.73 m
+2
+)
+-1
+时应避免使用苯溴马隆
+[50]
+（Ⅰb） 。CKD 继
+发高尿酸血症患者应积极治疗 CKD，降尿酸治疗是否可
+延缓 CKD 病情进展尚存争议
+[6]
+。
+（八）谨慎用药
+注意应根据 eGFR 水平调整 CKD 患者的用药剂量 ，见
+表 9。eGFR＜45 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+患者在一些药物诱导
+下发生急性肾损伤风险会增高 ，应暂停或减量有潜在肾
+毒 性 和 经 肾 排 泄 的 药 物，如 RAASi、利 尿 剂、非 甾 体 抗 炎
+药、二甲双胍 、地高辛等
+[3]
+（Ⅰc） 。CKD 患者应在医师或药
+师的指导下使用非处方药或蛋白营养品 （Ⅱc） 。
+eGFR＜45 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+患 者 行 静 脉 内 含 碘 对
+比剂造影时应坚持以下原则
+[3]
+：①避免使用高渗对比剂 ；
+②尽可能使用最低剂量 ；③检查前后暂停具有潜在肾毒
+性的药物 ；④检查前 、检查中和检查后充分水化 ；⑤检查
+后 48～96 h 测定 eGFR（Ⅰb） 。对于含钆造影剂 ，eGFR＜
+30 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+患者不建议使用（Ⅰb） 。
+（九）中医中药治疗
+祖 国 医 学 的 辨 证 论 治 为CKD 提 供 了 又 一 治 疗 手 段，
+雷公藤多苷 、黄葵 、黄芪 、大黄等中药及其复方制剂如尿
+药物
+降压/心血管药物
+肾素⁃血管紧张素⁃醛固酮系统抑制剂
+β⁃受体阻断剂
+地高辛
+镇痛药
+非甾体抗炎药（NSAIDS）
+抗生素
+青霉素
+氨基糖苷类
+大环内酯类
+氟喹诺酮类
+抗真菌类药物
+降血糖药物
+化疗药物
+顺铂
+美法仑
+甲氨蝶呤
+抗凝药
+低分子肝素
+华法林
+注意事项
+见正文
+估算肾小球滤过率（eGFR）＜30 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时，剂量减少 50%
+根据血药浓度减少剂量
+eGFR＜30 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时，避免使用；eGFR＜60 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时，不推荐长期使用；
+避免与 RASI、锂剂合用
+eGFR＜15 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时，大量使用可致尿结晶；eGFR＜15 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时，大量使用
+苄基青霉素可增加神经毒性
+eGFR＜60 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时，应减少剂量或延长间隔时间；避免与耳毒性药物（如呋塞米）合用
+eGFR＜30 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时，剂量减少 50%
+eGFR＜15 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时，剂量减少 50%
+eGFR＜60 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时，避免使用两性霉素 B；eGFR＜45 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时，氟康唑维
+持量减少 50%；eGFR＜60 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时，减少氟胞嘧啶用量
+见表 8
+eGFR＜60 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时减量；eGFR＜30 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时避免使用
+eGFR＜60 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时减量
+eGFR＜60 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时减量；eGFR＜15 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时避免使用
+eGFR＜30 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时无需调整剂量
+eGFR＜30 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时增加出血风险 ，应减量并严密监测
+表 9 慢性肾脏病（CKD）患者药物的调整
+[3]
+··458
+===== PAGE 7 =====
+中华肾脏病杂志 2022 年 5 月第 38 卷第 5 期 Chin J Nephrol, May 2022, Vol. 38, No.5
+毒 清 等 已 广 泛 用 于CKD 的 治 疗
+[53-56]
+（Ⅱb） 。但 某 些 中 药
+有肾毒性（如含有马兜铃酸的中药 ） ，还有部分中药长期
+服用可致高钾血症 ，需引起重视（Ⅰb） 。
+四、CKD 并发症的防治
+1. 贫 血：G1、G2 期 存 在 贫 血 症 状 时 应 行 贫 血 评 估；
+G3a、G3b 期，至少 3 个月评估 1 次；G4、G5 期，至少 2 个月
+评 估 1 次（Ⅱc） 。多 数 CKD 贫 血 患 者 需 要 使 用 红 细 胞 生
+成 刺 激 剂（erythropoiesis ⁃ stimulating agents ，ESAs）治 疗，开
+始 治 疗4 周 后 调 整 剂 量，调 整 幅 度 在25%
+[57]
+（Ⅱc） 。同 时
+应对铁状态进行评估 （主要指标包括铁蛋白和转铁蛋白
+饱和度） （Ⅰc） 。对于成人非透析 CKD 贫血患者未给予铁
+剂治疗者 ，如转铁蛋白饱和度 ≤20%、铁蛋白 ≤100 μg/L，
+建议给予 1～3 个月口服铁剂治疗
+[58-60]
+（Ⅰb） 。
+ESAs 治 疗 贫 血 过 程 中 应 注 意 以 下3 点 ：① 血 红 蛋 白
+水平低于 100 g/L 的非透析 CKD 患者 ，建议根据其血红蛋
+白下降程度 、先前对铁剂治疗的反应 、ESAs 治疗的风险和
+贫血合并症状 ，决定是否开始 ESAs 治疗
+[61]
+（Ⅰc） 。②大多
+数 CKD 患者应用 ESAs 时，血红蛋白维持在 110～120 g/L，不
+宜超过 130 g/L（Ⅰa） 。③不推荐将 ESAs 用于活动性恶性
+肿瘤或近期有恶性肿瘤病史者
+[6]
+（Ⅱc） 。
+近年来 ，低氧诱导因子脯氨酰羟化酶抑制剂 （hypoxia⁃
+inducible factor prolyl hydroxylase inhibitor ，HIF⁃PHI）作为新
+型治疗肾性贫血的口服药物 ，逐渐应用于临床
+[62-63]
+。其通
+过抑制脯氨酰羟化酶 （prolyl hydroxylase ，PHD）活性 ，促进
+红细胞生成素（erythropoietin，EPO）生成 ，改善患者血红蛋
+白水平 ，且不受微炎症状态影响 ；增加机体对铁的吸收 、
+转 运 和 利 用，减 少 铁 剂 用 量
+[64-65]
+。 推 荐 根 据 体 重 设 定
+HIF ⁃ PHI 起始剂量 ，同时应结合患者既往使用 ESAs 剂量
+以 及 基 础 血 红 蛋 白 水 平、铁 代 谢 等 多 种 因 素 进 行 调 整
+（Ⅰc） 。非透析 CKD 贫血患者 HIF⁃PHI 起始剂量为 50～
+70 mg（体重 ≤60 kg）或 70～100 mg（体重＞ 60 kg） ，每周 3
+次
+[57]
+；透析 CKD 贫血患者 HIF⁃PHI 起始剂量为 70～100 mg
+（体重 ≤60 kg）或 100～120 mg（体重＞60 kg） ，每周 3 次
+[57]
+。
+用药期间每 4 周测定血红蛋白一次 ，维持每月血红蛋白增
+加 10～20 g/L，上调或下调 25%药物剂量直至血红蛋白达
+到并维持在目标值（Ⅱc）
+[57]
+。
+2. 心 血 管 疾 病（cardiovascular disease ，CVD） ：CKD 患
+者 CVD 风险增高 ，且两者相互影响 ，合理管理 CVD 将延缓
+CKD 进展
+[6]
+。应针对潜在的心脏疾病 ，采取与非 CKD 患者
+一样的筛查和处理措施 ；存在动脉粥样硬化风险的 CKD
+患者 ，除非出血风险大于心血管获益 ，应给予抗血小板药
+物 治 疗
+[6]
+；不 存 在 急 性 冠 状 动 脉 综 合 征（acute coronary
+syndrome，ACS）的 CKD 患 者，血 肌 钙 蛋 白 也 可 升 高，肌 钙
+蛋 白 用 于 诊 断CKD 患 者 ACS 时 需 慎 重
+[6]
+（Ⅰb） 。CKD 并
+发心力衰竭患者 ，在治疗措施调整和 （或）临床症状恶化
+时，应 加 强eGFR、血 清 钾 浓 度 及 血 压 的 监 测
+[6]
+；此 外 应 注
+意，脑钠肽在 G3a 至 G5 期患者中诊断心力衰竭和评估容
+量负荷的可靠性相应降低
+[6]
+（Ⅰb） 。针对射血分数降低的
+心 力 衰 竭（HFrEF） ，既 往 治 疗 将ACEI/ARB 联 用β 受 体 阻
+滞 剂 作 为 治 疗 基 石
+[66]
+。ARNI 因 同 时 作 用 于 肾 素⁃血 管 紧
+张素 ⁃醛固酮系统和脑啡肽酶
+[66]
+，对于能够耐受 ARB/ACEI
+治 疗 的 CKD 伴 HFrEF 患 者 ，建 议 使 用 ARNI 替 代 ARB/
+ACEI 进一步控制心力衰竭症状 、延缓心力衰竭进展及降
+低 死 亡 率
+[67-71]
+（Ⅰb） 。注 意 应 避 免ARNI 与 ACEI 联 用，因
+为 脑 啡 肽 酶 抑 制 剂 和ACEI 联 用 会 增 加 血 管 神 经 性 水 肿
+的风险
+[66]
+。小剂量开始 ，逐渐滴定至目标剂量
+[66]
+。
+3. 慢 性 肾 脏 病⁃ 矿 物 质⁃ 骨 代 谢 异 常（chronic kidney
+disease⁃mineral and bone disorder ，CKD⁃MBD） ：矿物质和骨
+代谢紊乱在 CKD 早期即可出现 ，并随肾功能下降而进展 ，
+称 为 CKD ⁃ MBD
+[72]
+。 CKD 各 期 检 测 血 磷、钙 、碱 性 磷 酸 酶
+（ALP） 、全段甲状旁腺素（iPTH）和 25⁃羟维生素 D（25⁃OHD）
+的频率见表 10
+[72-73]
+（Ⅱc） 。
+对于 G3 期患者，磷摄入量应限制在 800～1 000 mg/d
+[72]
+，
+若血磷水平仍高于目标值 ，应服用肠道磷结合剂 （Ⅰb） 。
+血 钙 浓 度 应 维 持 在 正 常 范 围 内
+[72]
+（Ⅰb） 。iPTH 控 制 目 标
+水平尚不清楚 ，建议控制在正常值上限 2～5 倍内
+[3]
+（Ⅱc） 。
+4. 酸中毒：当 CKD 患者血 HCO3
+-
+浓度＜22 mmol/L 时，应
+口服碳酸氢钠等碱制剂 ，使 HCO3
+-
+浓度维持在正常水平
+[6]
+。
+（Ⅰb）
+5. 高钾血症 ：
+（1）诊断标准 ：CKD 患者血清钾浓度 ≥5.0 mmol/L，诊
+断为高钾血症
+[74]
+。建议结合血钾水平和心电图等其他临
+床资料 ，尽早启动降钾治疗 。CKD 患者高钾血症一旦发
+生，容易反复发作 ，需加强血钾长期管理 。
+（2）治疗 ：高钾血症患者宜低钾饮食 ，调整 RAASi 用
+量，以及口服降钾剂 。根据患者残留肾功能和尿量情况 ，
+酌情考虑使用排钾利尿剂
+[57]
+。血钾急性升高时 ，使用胰岛
+素 和 葡 萄 糖 治 疗
+[75-76]
+；合 并 酸 中 毒 ，静 脉 滴 注 碳 酸 氢
+钠
+[75-76]
+；药物不能控制时 ，启动紧急透析治疗
+[75-77]
+。 （Ⅰb）
+表 10 不同慢性肾脏病（CKD）分期 CKD⁃矿物质 ⁃骨代谢异常相关参数的检测频率
+CKD 分期
+G1、G2
+G3
+G4
+G5
+血磷
+6~12 个月
+6~12 个月
+3~6 个月
+1~3 个月
+血钙
+6~12 个月
+6~12 个月
+3~6 个月
+1~3 个月
+碱性磷酸酶（ALP）
+6~12 个月
+6~12 个月
+6~12 个月，如 iPTH 升高可缩短
+6~12 个月，如 iPTH 升高可缩短
+全段甲状旁腺素（iPTH）
+根据基线水平和 CKD 进展情况决定
+根据基线水平和 CKD 进展情况决定
+6~12 个月
+3~6 个月
+25⁃羟维生素 D（25⁃OHD）
+根据基线水平和治疗干预措施决定
+根据基线水平和治疗干预措施决定
+根据基线水平和治疗干预措施决定
+··459
+===== PAGE 8 =====
+中华肾脏病杂志 2022 年 5 月第 38 卷第 5 期 Chin J Nephrol, May 2022, Vol. 38, No.5
+常用口服降钾剂见表 11，包括聚苯乙烯磺酸钠 、聚苯
+乙 烯 磺 酸 钙、环 硅 酸 锆 钠 和Patiromer 等 。 环 硅 酸 锆 钠 可
+用于急性高钾血症降钾治疗 ，也可用于慢性高钾血症的
+长期管理
+[76 ，78-79]
+。
+6. 感 染：CKD 患 者 的 感 染 风 险 是 正 常 人 的3～4 倍，
+防治感染可有效减少 CKD 肾功能急剧恶化的风险 ，延缓
+CKD 进展
+[80]
+。平时应注意预防上呼吸道和泌尿道等部位
+感 染，虽 然 CKD 患 者 对 疫 苗 反 应 性 有 所 降 低，但 亦 可 获
+益，建议采用疫苗预防感染 。除非有禁忌证 ，所有 CKD 成
+人 宜 每 年 接 种 流 感 疫 苗；G4、G5 期 患 者 和 肺 炎 高 危 人 群
+（如肾病综合征 、糖尿病或接受免疫抑制剂治疗者 ）应接
+种多价肺炎疫苗 ，并在 5 年内复种 ；G4、G5 期患者应接种
+乙肝疫苗
+[81-83]
+（Ⅰb） 。注意在使用活疫苗之前应充分评估
+患者的免疫状态 ，遵守政府机构的相关接种文件 （Ⅱc） 。
+7. 同型半胱氨酸血症 （homocysteinemia） ：同型半胱氨
+酸血症是冠心病 、卒中等 CVD 的重要危险因素
+[84-85]
+。血清
+同 型 半 胱 氨 酸 正 常 值 为5～15 μmol/L，70%经 肾 脏 排 泄。
+CKD 患者尤其是 ESKD 患者血清同型半胱氨酸普遍升高 ，
+有研究显示 ，ESKD 患者同型半胱氨酸每增加 10 μmol/L，
+CVD 发生率增加 20%
+[86]
+。叶酸是纠正同型半胱氨酸血症
+的常用药物 ，可延缓 CKD 进展 ，但能否降低 CKD 患者 CVD
+的发生风险还存在争议
+[87-88]
+（Ⅱc） 。
+五、ESKD 的替代治疗
+（一）CKD 进展至 ESKD 风险的预测
+KFRE 模 型 介 绍 、风 险 计 算 网 址 ：https://
+kidneyfailurerisk.com/。
+（二）透析时机
+1. 一般指征 ：有尿毒症临床表现和体征 ，eGFR 下降
+至 5～8 ml·min
+-1
+·(1.73 m
+2
+)
+-1
+时应开始透析治疗
+[89-90]
+。 （Ⅰc）
+2. 紧急透析指征 ：（1）药物不能控制的高钾血症 ：血
+钾＞ 6.5 mmol/L
+[91]
+； （2）水钠潴留 、少尿 、无尿 、高度水肿伴
+有心力衰竭 、肺水肿 、高血压
+[91]
+； （3）严重代谢性酸中毒 ：
+pH＜7.2
+[91]
+； （4）并发尿毒症性心包炎 ，胸膜炎 ，中枢神经系
+统症状如神志恍惚 、嗜睡、昏迷、抽搐、精神症状等
+[91]
+。 （Ⅰc）
+（三）透析模式的选择
+肾脏替代治疗方式包括透析 （血液透析和腹膜透析 ）
+和肾移植 。由于肾脏供体缺乏 ，目前大多数 ESKD 患者需
+要透析以维持生命 。一般从患者病情 、经济条件及医疗
+设备综合考虑选择透析方式 。相对于血液透析 ，腹膜透
+析更适用于婴幼儿 ；心功能差 、有缺血性心脏病 、常规血
+液透析易出现低血压或高血压控制不满意 、伴活动性出
+血等的患者 ；建立血管通路有困难的患者 ；想要更多行动
+自由的患者 ；要求在 家 透 析，而 不 具 备 家 庭 血 液 透 析 条
+件 的 患 者；糖 尿 病 患 者
+[91]
+。（Ⅱc）
+血 液 透 析 和 腹 膜 透 析 都 无 绝 对 禁 忌 证，相 对 禁 忌 证
+包括 ：
+1. 血液透析相对禁忌证 ：休克或低血压 ；严重心肌病
+变导致的肺水肿 、心力衰竭 ；严重心律失常 ；严重出血倾
+向或脑出血 ；晚期恶性肿瘤 ；极度衰竭 ；精神病不合作
+[91]
+。
+2. 腹膜透析相对禁忌证 ：各种原因引起腹膜有效面
+积低于正常 50%；腹壁感染 ；腹腔 、盆腔感染或肠造瘘术
+后腹部引流 ；慢性阻塞性肺病 、呼吸功能不全 ；中、晚期妊
+娠或腹内巨大肿瘤 ；肠梗阻 、肠粘连 、肠麻痹等 ；腹腔手术
+后 3 d 内；各种腹部疝未经修补 ；严重腹部皮肤感染 ；严重高
+分解代谢；过度肥胖；严重营养不良不能补充 足够蛋白与热
+量 ；晚 期 恶 性 肿 瘤；精 神 病 不 合 作；肝 硬 化 腹 水、多 囊 肾
+病，一般腹膜透析也不作为首选
+[92]
+。
+利益冲突 专家组所有成员均声明不存在利益冲突
+上 海 市 肾 内 科 临 床 质 量 控 制 中 心 专 家 组 成 员（按 姓 名 汉 语
+拼音排序）：
+药物特性
+作用部位
+选择性
+钠含量
+起效时间
+用法用量
+不良反应
+聚苯乙烯磺酸钠
+结肠
+非选择性，也结合钙和镁
+1 500 mg/15 g
+2~6 h
+一次 15~30 g，
+一日 1~2 次
+胃肠道不良反应，
+水肿，低钾血症
+聚苯乙烯磺酸钙
+结肠
+选择性，也结合镁
+0
+不确定
+每日 15~30 g，
+分 2~3 次服用
+便秘，胃肠道不良反应（肠道
+穿孔、肠梗阻） 、低钾血症
+环硅酸锆钠
+全消化道
+高选择性结合钾
+400 mg/5 g
+1 h
+成人（包括老年人）用药：
+纠正期：10 g/次，一日 3 次；
+维持期：5 g/d 起始，按需上调至 10 g/d
+或下调至 5 g/隔日 1 次；
+血液透析患者治疗：非透析日给药，5 g/d 起始，按
+1周1次的间隔进行调整，最高可增至15 g每日1次
+水肿，低钾血症
+Patiromer
+结肠
+选择性，也结合镁
+0
+7 h
+8.4~25.2 g/d
+胃肠蠕动减少 、低
+镁血症、低钾血症
+表 11 口服降钾药物特性比较
+[76]
+注：Patiromer 尚未在中国上市
+··460
+===== PAGE 9 =====
+中华肾脏病杂志 2022 年 5 月第 38 卷第 5 期 Chin J Nephrol, May 2022, Vol. 38, No.5
+陈楠（上海交通大学医学院附属瑞金医院 ） 、邓跃毅（上海中
+医药大学附属龙华医院 ） 、丁小强（复旦大学附属中山医院 ） 、高
+翔（海军医大学第二附属医院 ） 、郭志勇（海军医大学第一附属医
+院） 、郝传明（复旦大学附属华山医院 ） 、蒋更如（上海交通大学医
+学院附属新华医院 ） 、马骏（上海市静安区中心医院 ） 、梅长林（海
+军军医大学第二附属医院 ） 、倪兆慧（上海交通大学医学院附属
+仁济医院） 、牛建英（复旦大学附属第五人民医院 ） 、彭艾（上海市
+第十人民医院 ） 、彭文（上海市普陀区中心医院 ） 、汪年松（上海市
+第六人民医院 ） 、王怡（上海中医药大学附属岳阳中西医结合医
+院） 、邬碧波（上海市静安区闸北中心医院 ） 、徐旭东（上海市闵行
+区中心医院 ） 、余晨（同济大学附属同济医院 ） 、郁胜强（海军医大
+学第二附属医院 ） 、袁伟杰（上海市第一人民医院 ） 、张金元（海军
+特色医学中心 ） 、张景红（海军第九 〇五医院）
+执笔人 ：高翔 、邬碧波
+参 考 文 献
+[1] Ene ⁃ Iordache B, Perico N, Bikbov B, et al. Chronic kidney
+disease and cardiovascular risk in six regions of the world (ISN ⁃
+KDDC): a cross ⁃ sectional study[J]. Lancet Glob Health, 2016, 4
+(5): e307 ⁃e319. DOI: 10.1016/S2214⁃109X(16)00071⁃1.
+[2] Zhang L, Wang F, Wang L, et al. Prevalence of chronic kidney
+disease in China: a cross ⁃ sectional survey[J]. Lancet, 2012, 379
+(9818): 815⁃822. DOI: 10.1016/S0140⁃6736(12)60033⁃6.
+[3] 上海慢性肾脏病早发现及规范化诊治与示范项目专家组 .
+慢性肾脏病筛查 诊断及防治指南 [J]. 中国实用内科杂志 ,
+2017, 37(1): 28⁃34. DOI: 10.19538/j.nk2017010108.
+[4] National Kidney Foundation. K/DOQI clinical practice
+guidelines for chronic kidney disease: evaluation, classification,
+and stratification[J]. Am J Kidney Dis, 2002, 39(2 Suppl 1): S1 ⁃
+S266.
+[5] Levey AS, Eckardt KU, Tsukamoto Y, et al. Definition and
+classification of chronic kidney disease: a position statement
+from Kidney Disease: Improving Global Outcomes (KDIGO) [J].
+Kidney Int, 2005, 67(6): 2089 ⁃ 2100. DOI: 10.1111/j.1523 ⁃
+1755.2005.00365.x.
+[6] KDIGO 2012 Clinical Practice Guideline for the Evaluation and
+Management of Chronic Kidney Disease[J]. Kidney Int Suppl,
+2013, 3(1): 1⁃150.
+[7] Shlipak MG, Tummalapalli SL, Boulware LE, et al. The case for
+early identification and intervention of chronic kidney disease:
+conclusions from a Kidney Disease: Improving Global Outcomes
+(KDIGO) Controversies Conference[J]. Kidney Int, 2021, 99(1):
+34⁃47. DOI: 10.1016/j.kint.2020.10.012.
+[8] Improving Global Outcomes (KDIGO) Diabetes Work Group.
+KDIGO 2020 Clinical Practice Guideline for Diabetes
+Management in Chronic Kidney Disease[J]. Kidney Int, 2020, 98
+(4S): S1 ⁃S115. DOI: 10.1016/j.kint.2020.06.019.
+[9] Cheung AK, Chang TI, Cushman WC, et al. Executive summary
+of the KDIGO 2021 Clinical Practice Guideline for the
+Management of Blood Pressure in Chronic Kidney Disease[J].
+Kidney Int, 2021, 99(3): 559 ⁃ 569. DOI: 10.1016/j.kint.2020.10.
+026.
+[10] Bello AK, Alrukhaimi M, Ashuntantang GE, et al.
+Complications of chronic kidney disease: current state,
+knowledge gaps, and strategy for action[J]. Kidney Int Suppl
+(2011), 2017, 7(2): 122⁃129. DOI: 10.1016/j.kisu.2017.07.007.
+[11] Levey AS, Stevens LA, Schmid CH, et al. A new equation to
+estimate glomerular filtration rate[J]. Ann Intern Med, 2009, 150
+(9): 604 ⁃ 612. DOI: 10.7326/0003 ⁃ 4819 ⁃ 150 ⁃ 9
+⁃ 200905050 ⁃
+00006.
+[12] Zelnick LR, Weiss NS, Kestenbaum BR, et al. Diabetes and
+CKD in the United States Population, 2009 ⁃ 2014[J]. Clin J Am
+Soc Nephrol, 2017, 12(12): 1984 ⁃ 1990. DOI: 10.2215/CJN.037
+00417.
+[13] Seidu S, Barrat J, Khunti K. Clinical update: The important role
+of dual kidney function testing (ACR and eGFR) in primary
+care: identification of risk and management in type 2 diabetes
+[J]. Prim Care Diabetes, 2020, 14(4): 370 ⁃ 375. DOI: 10.1016/j.
+pcd.2020.02.006.
+[14] Shlipak MG, Matsushita K, Ärnlöv J, et al. Cystatin C versus
+creatinine in determining risk based on kidney function[J]. N
+Engl J Med, 2013, 369(10): 932 ⁃ 943. DOI: 10.1056/NEJMoa
+1214234.
+[15] Lees JS, Welsh CE, Celis ⁃ Morales CA, et al. Glomerular
+filtration rate by differing measures, albuminuria and prediction
+of cardiovascular disease, mortality and end ⁃ stage kidney
+disease[J]. Nat Med, 2019, 25(11): 1753 ⁃ 1760. DOI: 10.1038/
+s41591⁃019⁃0627⁃8.
+[16] Nelson RG, Grams ME, Ballew SH, et al. Development of risk
+prediction equations for incident chronic kidney disease[J].
+JAMA, 2019, 322(21): 2104 ⁃ 2114. DOI: 10.1001/jama.2019.
+17379.
+[17] Kramer H, Tuttle KR, Leehey D, et al. Obesity management in
+adults with CKD [J]. Am J Kidney Dis, 2009, 53(1): 151 ⁃ 165.
+DOI: 10.1053/j.ajkd.2008.10.003.
+[18] Ikizler TA, Burrowes JD, Byham ⁃ Gray LD, et al. KDOQI
+Clinical Practice Guideline for Nutrition in CKD: 2020 Update
+[J]. Am J Kidney Dis, 2020, 76(3 Suppl 1): S1 ⁃ S107. DOI:
+10.1053/j.ajkd.2020.05.006.
+[19] Ash S, Campbell KL, Bogard J, et al. Nutrition prescription to
+achieve positive outcomes in chronic kidney disease: a
+systematic review[J]. Nutrients, 2014, 6(1): 416 ⁃ 451. DOI: 10.
+3390/nu6010416.
+[20] Pan Y, Guo LL, Jin HM. Low ⁃ protein diet for diabetic
+nephropathy: a meta ⁃ analysis of randomized controlled trials[J].
+Am J Clin Nutr, 2008, 88(3): 660 ⁃ 666. DOI: 10.1093/ajcn/88.
+3.660
+[21] 中华医学会肾脏病学分会专家组 . 糖尿病肾脏疾病临床诊
+疗 中 国 指 南 [J]. 中 华 肾 脏 病 杂 志, 2021, 37(3): 255 ⁃ 304.
+··461
+===== PAGE 10 =====
+中华肾脏病杂志 2022 年 5 月第 38 卷第 5 期 Chin J Nephrol, May 2022, Vol. 38, No.5
+DOI: 10.3760/cma.j.cn441217⁃20201125⁃00041.
+[22] Mills KT, Chen J, Yang W, et al. Sodium excretion and the risk
+of cardiovascular disease in patients with chronic kidney disease
+[J]. JAMA, 2016, 315(20): 2200⁃2210. DOI: 10.1001/jama.2016.
+4447.
+[23] Meuleman Y, Hoekstra T, Dekker FW, et al. Sodium restriction
+in patients with CKD: a randomized controlled trial of self ⁃
+management support[J]. Am J Kidney Dis, 2017, 69(5): 576 ⁃
+586. DOI: 10.1053/j.ajkd.2016.08.042.
+[24] Flythe JE, Chang TI, Gallagher MP, et al. Blood pressure and
+volume management in dialysis: conclusions from a Kidney
+Disease: Improving Global Outcomes (KDIGO) Controversies
+Conference[J]. Kidney Int, 2020, 97(5): 861⁃876. DOI: 10.1016/
+j.kint.2020.01.046.
+[25] Carey RM, Whelton PK. Prevention, detection, evaluation, and
+management of high blood pressure in adults: synopsis of the
+2017 American College of Cardiology/American Heart
+Association Hypertension Guideline[J]. Ann Intern Med, 2018,
+168(5): 351⁃358. DOI: 10.7326/M17⁃3203.
+[26] Linde C, Bakhai A, Furuland H, et al. Real ⁃ world associations
+of renin ⁃ angiotensin ⁃ aldosterone system inhibitor dose,
+hyperkalemia, and adverse clinical outcomes in a cohort of
+patients with new ⁃ onset chronic kidney disease or heart failure
+in the United Kingdom[J]. J Am Heart Assoc, 2019, 8(22):
+e012655. DOI: 10.1161/JAHA.119.012655.
+[27] Hirsch S, Hirsch J, Bhatt U, et al. Tolerating increases in the
+serum creatinine following aggressive treatment of chronic
+kidney disease, hypertension and proteinuria: pre ⁃ renal success
+[J]. Am J Nephrol, 2012, 36(5): 430 ⁃ 437. DOI: 10.1159/000
+343453.
+[28] Pitt B, Bakris GL. New potassium binders for the treatment of
+hyperkalemia: current data and opportunities for the future[J].
+Hypertension, 2015, 66(4): 731⁃738. DOI: 10.1161/
+HYPERTENSIONAHA.115.04889.
+[29] Fu EL, Evans M, Clase CM, et al. Stopping renin ⁃ angiotensin
+system inhibitors in patients with advanced CKD and risk of
+adverse outcomes: a nationwide study[J]. J Am Soc Nephrol,
+2021, 32(2): 424⁃435. DOI: 10.1681/ASN.2020050682.
+[30] Guillevin L, Pagnoux C, Karras A, et al. Rituximab versus
+azathioprine for maintenance in ANCA ⁃ associated vasculitis[J].
+N Engl J Med, 2014, 371(19): 1771⁃1780. DOI: 10.1056/
+NEJMoa1404231.
+[31] van den Brand J, Ruggenenti P, Chianca A, et al. Safety of
+rituximab compared with steroids and cyclophosphamide for
+idiopathic membranous nephropathy[J]. J Am Soc Nephrol,
+2017, 28(9): 2729⁃2737. DOI: 10.1681/ASN.2016091022.
+[32] Justin J, Fayol A, Bruno RM, et al. International guidelines for
+hypertension: resemblance, divergence and inconsistencies[J]. J
+Clin Med, 2022, 11(7): 1975. DOI: 10.3390/jcm11071975.
+[33] Unger T, Borghi C, Charchar F, et al. 2020 International
+Society of Hypertension Global Hypertension Practice
+Guidelines[J]. Hypertension, 2020, 75(6): 1334 ⁃ 1357. DOI: 10.
+1161/HYPERTENSIONAHA.120.15026.
+[34] Anderson AH, Yang W, Townsend RR, et al. Time ⁃ updated
+systolic blood pressure and the progression of chronic kidney
+disease: a cohort study[J]. Ann Intern Med, 2015, 162(4): 258 ⁃
+265. DOI: 10.7326/M14⁃0488.
+[35] Steuber TD, Lee J, Holloway A, et al. Nondihydropyridine
+calcium channel blockers for the treatment of proteinuria: a
+review of the literature[J]. Ann Pharmacother, 2019, 53(10):
+1050⁃1059. DOI: 10.1177/1060028019843644.
+[36] Ruilope LM, Dukat A, B öhm M, et al. Blood ⁃pressure reduction
+with LCZ 696, a novel dual ⁃acting inhibitor of the angiotensin II
+receptor and neprilysin: a randomised, double ⁃ blind, placebo ⁃
+controlled, active comparator study[J]. Lancet, 2010, 375(9722):
+1255⁃1266. DOI: 10.1016/S0140⁃6736(09)61966⁃8.
+[37] Huo Y, Li W, Webb R, et al. Efficacy and safety of sacubitril/
+valsartan compared with olmesartan in Asian patients with
+essential hypertension: a randomized, double
+⁃ blind, 8 ⁃ week
+study[J]. J Clin Hypertens (Greenwich), 2019, 21(1): 67⁃76. DOI:
+10.1111/jch.13437.
+[38] 中国医疗保健国际交流促进会高血压分会 , 中国医师协会
+心 血 管 分 会, 中 国 高 血 压 联 盟, 等. 沙 库 巴 曲 缬 沙 坦 在 高
+血 压 患 者 临 床 应 用 的 中 国 专 家 建 议[J]. 中 华 高 血 压 杂 志,
+2021, 29(2): 108 ⁃ 114. DOI: 10.16439/j.issn.1673 ⁃ 7245.2021.
+02.003.
+[39] Volpe M, Tocci G. Rationale for triple fixed ⁃ dose combination
+therapy with an angiotensin II receptor blocker, a calcium
+channel blocker, and a thiazide diuretic[J]. Vasc Health Risk
+Manag, 2012, 8: 371⁃380. DOI: 10.2147/VHRM.S28359.
+[40] American Diabetes Association. Standards of medical care in
+diabetes ⁃ 2010[J]. Diabetes Care, 2010, 33 Suppl 1: S11 ⁃ S61.
+DOI: 10.2337/dc10⁃S011.
+[41] Tuttle KR, Bakris GL, Bilous RW, et al. Diabetic kidney
+disease: a report from an ADA Consensus Conference[J]. Am J
+Kidney Dis, 2014, 64(4): 510 ⁃ 533. DOI: 10.1053/j.ajkd.2014.
+08.001.
+[42] American Diabetes Association. Introduction: Standards of
+Medical Care in Diabetes ⁃ 2018[J]. Diabetes Care, 2018, 41
+Suppl 1: S1 ⁃S2. DOI: 10.2337/dc18⁃Sint01.
+[43] 中华医学会糖尿病学分会微血管并发症学组 . 中国糖尿病
+肾 脏 疾 病 防 治 临 床 指 南[J]. 中 华 糖 尿 病 杂 志, 2019, 11(1):
+15⁃28. DOI: 10.3760/cma.j.issn.1674⁃5809.2019.01.004.
+[44] Wanner C, Inzucchi SE, Lachin JM, et al. Empagliflozin and
+progression of kidney disease in type 2 diabetes[J]. N Engl J
+Med, 2016, 375(4): 323⁃334. DOI: 10.1056/NEJMoa1515920.
+[45] Wanner C, Heerspink H, Zinman B, et al. Empagliflozin and
+kidney function decline in patients with type 2 diabetes: a slope
+analysis from the EMPA ⁃ REG OUTCOME trial[J]. J Am Soc
+Nephrol, 2018, 29(11): 2755 ⁃ 2769. DOI: 10.1681/ASN.20180
+··462
+===== PAGE 11 =====
+中华肾脏病杂志 2022 年 5 月第 38 卷第 5 期 Chin J Nephrol, May 2022, Vol. 38, No.5
+10103.
+[46] Pollock C, Stef ánsson B, Reyner D, et al. Albuminuria ⁃lowering
+effect of dapagliflozin alone and in combination with saxagliptin
+and effect of dapagliflozin and saxagliptin on glycaemic control
+in patients with type 2 diabetes and chronic kidney disease
+(DELIGHT): a randomised, double ⁃ blind, placebo ⁃ controlled
+trial[J]. Lancet Diabetes Endocrinol, 2019, 7(6): 429 ⁃ 441. DOI:
+10.1016/S2213⁃8587(19)30086⁃5.
+[47] Heerspink H, Stef ánsson BV, Correa ⁃ Rotter R, et al.
+Dapagliflozin in patients with chronic kidney disease[J]. N Engl
+J Med, 2020, 383(15): 1436 ⁃ 1446. DOI: 10.1056/NEJMoa202
+4816.
+[48] Kristensen SL, R ørth R, Jhund PS, et al. Cardiovascular,
+mortality, and kidney outcomes with GLP ⁃ 1 receptor agonists in
+patients with type 2 diabetes: a systematic review and meta ⁃
+analysis of cardiovascular outcome trials[J]. Lancet Diabetes
+Endocrinol, 2019, 7(10): 776 ⁃ 785. DOI: 10.1016/S2213 ⁃ 8587
+(19)30249⁃9.
+[49] Wanner C, Tonelli M. KDIGO clinical practice guideline for
+lipid management in CKD: summary of recommendation
+statements and clinical approach to the patient[J]. Kidney Int,
+2014, 85(6): 1303⁃1309. DOI: 10.1038/ki.2014.31.
+[50] 高尿酸血症相关疾病诊疗多学科共识专家组 . 中国高尿酸
+血 症 相 关 疾 病 诊 疗 多 学 科 专 家 共 识[J]. 中 华 内 科 杂 志,
+2017, 56(3): 235⁃248. DOI: 10.3760/cma.j.issn.0578⁃1426.2017.
+03.021.
+[51] Kuwabara M, Bjornstad P, Hisatome I, et al. Elevated serum
+uric acid level predicts rapid decline in kidney function[J]. Am
+J Nephrol, 2017, 45(4): 330⁃337. DOI: 10.1159/000464260.
+[52] 张庆燕 , 刘志红 . 高尿酸血症与肾脏损伤 [J]. 肾脏病与透析
+肾 移 植 杂 志, 2009, 18(3): 266⁃271. DOI: 10.3969/j.issn.1006⁃
+298X.2009.03.014.
+[53] Chen D, Ma Y, Wang X, et al. Triptolide ⁃ containing
+formulation in patients with autosomal dominant polycystic
+kidney disease and proteinuria: an uncontrolled trial[J]. Am J
+Kidney Dis, 2014, 63(6): 1070⁃1072. DOI: 10.1053/j.ajkd.2014.
+01.418.
+[54] Chen Y, Deng Y, Ni Z, et al. Efficacy and safety of traditional
+chinese medicine (Shenqi particle) for patients with idiopathic
+membranous nephropathy: a multicenter randomized controlled
+clinical trial[J]. Am J Kidney Dis, 2013, 62(6): 1068 ⁃ 1076.
+DOI: 10.1053/j.ajkd.2013.05.005.
+[55] Zhang L, Li P, Xing CY, et al. Efficacy and safety of
+Abelmoschus manihot for primary glomerular disease: a
+prospective, multicenter randomized controlled clinical trial[J].
+Am J Kidney Dis, 2014, 64(1): 57⁃65. DOI: 10.1053/j.ajkd.2014.
+01.431.
+[56] Zheng Y, Cai GY, He LQ, et al. Efficacy and safety of
+Niaoduqing particles for delaying moderate ⁃ to ⁃ severe renal
+dysfunction: a randomized, double ⁃ blind, placebo ⁃ controlled,
+multicenter clinical study[J]. Chin Med J (Engl), 2017, 130(20):
+2402⁃2409. DOI: 10.4103/0366⁃6999.216407.
+[57] 《中 国 围 透 析 期 慢 性 肾 脏 病 管 理 规 范》专 家 组. 中 国 围 透
+析 期 慢 性 肾 脏 病 管 理 规 范[J]. 中 华 肾 脏 病 杂 志, 2021, 37
+(8): 690⁃704. DOI: 10.3760/cma.j.cn441217⁃20210322⁃00104.
+[58] KDIGO Anemia Work Group. KDIGO clinical practice
+guideline for anemia in chronic kidney disease[J]. Kidney Int
+Suppl, 2012, 2(4): 279⁃335.
+[59] Macdougall IC, Bircher AJ, Eckardt KU, et al. Iron management
+in chronic kidney disease: conclusions from a "Kidney Disease:
+Improving Global Outcomes" (KDIGO) Controversies Conference
+[J]. Kidney Int, 2016, 89(1): 28 ⁃
+39. DOI: 10.1016/j.kint.2015.
+10.002.
+[60] Ratcliffe LE, Thomas W, Glen J, et al. Diagnosis and
+management of iron deficiency in CKD: a summary of the NICE
+guideline recommendations and their rationale[J]. Am J Kidney
+Dis, 2016, 67(4): 548⁃558. DOI: 10.1053/j.ajkd.2015.11.012.
+[61] 中国医师协会肾脏内科医师分会肾性贫血指南工作组 . 中
+国 肾 性 贫 血 诊 治 临 床 实 践 指 南[J]. 中 华 医 学 杂 志, 2021,
+101(20): 1463 ⁃ 1502. DOI: 10.3760/cma.j.cn112137 ⁃ 20210201 ⁃
+00309.
+[62] Chen N, Hao C, Liu BC, et al. Roxadustat treatment for anemia
+in patients undergoing long ⁃ term dialysis[J]. N Engl J Med,
+2019, 381(11): 1011⁃1022. DOI: 10.1056/NEJMoa1901713.
+[63] Chen N, Hao C, Peng X, et al. Roxadustat for anemia in
+patients with kidney disease not receiving dialysis[J]. N Engl J
+Med, 2019, 381(11): 1001⁃1010. DOI: 10.1056/NEJMoa1813599.
+[64] Provenzano R, Szczech L, Leong R, et al. Efficacy and
+cardiovascular safety of roxadustat for treatment of anemia in
+patients with non ⁃ dialysis ⁃ dependent CKD: pooled results of
+three randomized clinical trials[J]. Clin J Am Soc Nephrol,
+2021, 16(8): 1190⁃1200. DOI: 10.2215/CJN.16191020.
+[65] Provenzano R, Fishbane S, Szczech L, et al. Pooled analysis of
+roxadustat for anemia in patients with kidney failure incident to
+dialysis[J]. Kidney Int Rep, 2021, 6(3): 613⁃623. DOI: 10.1016/
+j.ekir.2020.12.018.
+[66] 中华医学会心血管病学分会心力衰竭学组 , 中国医师协会
+心力衰竭专业委员会 , 中华心血管病杂志编辑委员会 . 中
+国 心 力 衰 竭 诊 断 和 治 疗 指 南2018[J]. 中 华 心 血 管 病 杂 志,
+2018, 46(10): 760 ⁃ 789. DOI: 10.3760/cma.j.issn.0253 ⁃ 3758.
+2018.10.004.
+[67] McMurray JJ, Packer M, Desai AS, et al. Angiotensin ⁃
+neprilysin inhibition versus enalapril in heart failure[J]. N Engl
+J Med, 2014, 371(11): 993 ⁃ 1004. DOI: 10.1056/NEJMoa140
+9077.
+[68] Bavishi C, Messerli FH, Kadosh B, et al. Role of neprilysin
+inhibitor combinations in hypertension: insights from
+hypertension and heart failure trials[J]. Eur Heart J, 2015, 36
+(30): 1967⁃1973. DOI: 10.1093/eurheartj/ehv142.
+[69] Damman K, Gori M, Claggett B, et al. Renal effects and
+··463
+===== PAGE 12 =====
+中华肾脏病杂志 2022 年 5 月第 38 卷第 5 期 Chin J Nephrol, May 2022, Vol. 38, No.5
+associated outcomes during angiotensin ⁃ neprilysin inhibition in
+heart failure[J]. JACC Heart Fail, 2018, 6(6): 489 ⁃ 498. DOI:
+10.1016/j.jchf.2018.02.004.
+[70] Chang HY, Feng AN, Fong MC, et al. Sacubitril/valsartan in
+heart failure with reduced ejection fraction patients: real world
+experience on advanced chronic kidney disease, hypotension,
+and dose escalation[J]. J Cardiol, 2019, 74(4): 372 ⁃ 380. DOI:
+10.1016/j.jjcc.2019.03.010.
+[71] House AA, Wanner C, Sarnak MJ, et al. Heart failure in
+chronic kidney disease: conclusions from a Kidney Disease:
+Improving Global Outcomes (KDIGO) Controversies Conference
+[J]. Kidney Int, 2019, 95(6): 1304 ⁃ 1317. DOI: 10.1016/j.kint.
+2019.02.022.
+[72] 刘志红 , 李贵森 . 中国慢性肾脏病矿物质和骨异常诊治指
+南[M]. 第 1 版. 北京 : 人民卫生出版社 , 2019.
+[73] 国家肾脏疾病临床医学研究中心 . 中国慢性肾脏病矿物质
+和 骨 异 常 诊 治 指 南 概 要[J]. 肾 脏 病 与 透 析 肾 移 植 杂 志,
+2019, 28(1): 52 ⁃ 57. DOI: 10.3969/j.issn.1006 ⁃ 298X.2019.01.
+012.
+[74] Clase CM, Carrero JJ, Ellison DH, et al. Potassium homeostasis
+and management of dyskalemia in kidney diseases: conclusions
+from a Kidney Disease: Improving Global Outcomes (KDIGO)
+Controversies Conference[J]. Kidney Int, 2020, 97(1): 42 ⁃ 61.
+DOI: 10.1016/j.kint.2019.09.018.
+[75] 梅长林 , 陈晓农 , 郝传明 , 等. 慢性肾脏病高钾血症风险评
+估及管理专家建议 （2020 版）[J]. 中华医学杂志 , 2020, 100
+(44): 3489 ⁃ 3493. DOI: 10.3760/cma.j.cn112137 ⁃ 20200918 ⁃
+02669.
+[76] 中华医学会肾脏病学分会专家组 . 中国慢性肾脏病患者血
+钾 管 理 实 践 专 家 共 识[J]. 中 华 肾 脏 病 杂 志, 2020, 36(10):
+781⁃792. DOI: 10.3760/cma.j.cn441217⁃20200721⁃00139.
+[77] 梅长林 , 陈晓农 , 郝传明 , 等. 慢性肾脏病高钾血症风险评
+估模型的建立 [J]. 中华医学杂志 , 2020, 100(44): 3498⁃3503.
+DOI: 10.3760/cma.j.cn112137⁃20200904⁃02561.
+[78] Packham DK, Rasmussen HS, Lavin PT, et al. Sodium
+zirconium cyclosilicate in hyperkalemia[J]. N Engl J Med, 2015,
+372(3): 222⁃231. DOI: 10.1056/NEJMoa1411487.
+[79] Spinowitz BS, Fishbane S, Pergola PE, et al. Sodium zirconium
+cyclosilicate among individuals with hyperkalemia: a 12 ⁃ month
+phase 3 study[J]. Clin J Am Soc Nephrol, 2019, 14(6): 798⁃809.
+DOI: 10.2215/CJN.12651018.
+[80] Naqvi SB, Collins AJ. Infectious complications in chronic
+kidney disease[J]. Adv Chronic Kidney Dis, 2006, 13(3): 199 ⁃
+204. DOI: 10.1053/j.ackd.2006.04.004.
+[81] Gilbertson DT, Unruh M, McBean AM, et al. Influenza vaccine
+delivery and effectiveness in end ⁃ stage renal disease[J]. Kidney
+Int, 2003, 63(2): 738 ⁃ 743. DOI: 10.1046/j.1523 ⁃ 1755.2003.00
+787.x.
+[82] Dinits ⁃ Pensy M, Forrest GN, Cross AS, et al. The use of
+vaccines in adult patients with renal disease[J]. Am J Kidney
+Dis, 2005, 46(6): 997⁃1011. DOI: 10.1053/j.ajkd.2005.08.032.
+[83] DaRoza G, Loewen A, Djurdjev O, et al. Stage of chronic
+kidney disease predicts seroconversion after hepatitis B
+immunization: earlier is better[J]. Am J Kidney Dis, 2003,
+42
+(6): 1184⁃1192. DOI: 10.1053/j.ajkd.2003.08.019.
+[84] Wilcken DE, Wilcken B. The pathogenesis of coronary artery
+disease. A possible role for methionine metabolism[J]. J Clin
+Invest, 1976, 57(4): 1079⁃1082. DOI: 10.1172/JCI108350.
+[85] Lehotsk ý J, Tothov á B, Kovalsk á M, et al. Role of homocysteine
+in the ischemic stroke and development of ischemic tolerance
+[J]. Front Neurosci, 2016, 10: 538. DOI: 10.3389/fnins.2016.00
+538.
+[86] Wu CC, Zheng CM, Lin YF, et al. Role of homocysteine in end ⁃
+stage renal disease[J]. Clin Biochem, 2012, 45(16 ⁃ 17): 1286 ⁃
+1294. DOI: 10.1016/j.clinbiochem.2012.05.031.
+[87] Xu X, Qin X, Li Y, et al. Efficacy of folic acid therapy on the
+progression of chronic kidney disease: The Renal Substudy of
+the China Stroke Primary Prevention Trial[J]. JAMA Intern Med,
+2016, 176(10): 1443 ⁃ 1450. DOI: 10.1001/jamainternmed.2016.
+4687.
+[88] Jardine MJ, Kang A, Zoungas S, et al. The effect of folic acid
+based homocysteine lowering on cardiovascular events in people
+with kidney disease: systematic review and meta ⁃ analysis[J].
+BMJ, 2012, 344: e3533. DOI: 10.1136/bmj.e3533.
+[89] Chan CT, Blankestijn PJ, Dember LM, et al. Dialysis initiation,
+modality choice, access, and prescription: conclusions from a
+Kidney Disease: Improving Global Outcomes (KDIGO)
+Controversies Conference[J]. Kidney Int, 2019, 96(1): 37 ⁃ 47.
+DOI: 10.1016/j.kint.2019.01.017.
+[90] 中国医师协会肾脏病医师分会血液透析充分性协作组 . 中
+国血液透析充分性临床实践指南 [J]. 中华医学杂志 , 2015,
+95(34): 2748 ⁃ 2753. DOI: 10.3760/cma.j.issn.0376 ⁃ 2491.2015.
+34.004.
+[91] National Kidney Foundation. KDOQI clinical practice guideline
+for hemodialysis adequacy: 2015 update[J]. Am J Kidney Dis,
+2015, 66(5): 884⁃930. DOI: 10.1053/j.ajkd.2015. 07.015.
+[92] 中国医师协会肾脏内科医师分会 , 中国中西医结合学会肾
+脏疾病专业委员会 , 国家肾病专业医疗质量管理与控制中
+心. 自 动 化 腹 膜 透 析 中 国 专 家 共 识[J]. 中 华 医 学 杂 志,
+2021, 101(6): 388⁃399. DOI: 10.3760/cma.j.cn112137⁃20201210⁃
+03326.
+（收稿日期 ：2021⁃08⁃19）
+（本文编辑 ：杨克魁）
+··464

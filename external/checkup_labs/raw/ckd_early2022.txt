@@ -1,0 +1,221 @@
+-->
+慢性肾脏病早期筛查、诊断及防治指南（2022年版）
+慢性肾脏病（chronic kidney disease，CKD）已成为全球性的公共卫生问题。“肾脏病预后质量倡议（Kidney Disease Outcome Quality Initiative，KDOQI）”和“改善全球肾脏病预后组织（Kidney Disease: Improving Global Outcomes，KDIGO）”工作组先后制定了CKD 临床实践指南。为提高我国CKD防治水平，在参考国外指南基础上，结合中国特点，我们组织上海市肾脏病专家制定了《CKD筛查 诊断及防治指南》，并于2017年发表。该指南对各级全科医师和肾脏病专科医师均有参考价值，有力推动了对CKD的认识和提高了对CKD的管理水平。近年来CKD 研究又取得了很多重大进展，基于临床证据的积累及各种新药的问世，上海市肾内科临床质量控制中心专家组对2017年版《CKD筛查 诊断及防治指南》进行了更新和修订，内容主要包括CKD筛查的对象和方式、进展的评估及防治等方面。
+"/>
+慢性肾脏病（chronic kidney disease，CKD）已成为全球性的公共卫生问题。“肾脏病预后质量倡议（Kidney Disease Outcome Quality Initiative，KDOQI）”和“改善全球肾脏病预后组织（Kidney Disease: Improving Global Outcomes，KDIGO）”工作组先后制定了CKD 临床实践指南。为提高我国CKD防治水平，在参考国外指南基础上，结合中国特点，我们组织上海市肾脏病专家制定了《CKD筛查 诊断及防治指南》，并于2017年发表。该指南对各级全科医师和肾脏病专科医师均有参考价值，有力推动了对CKD的认识和提高了对CKD的管理水平。近年来CKD 研究又取得了很多重大进展，基于临床证据的积累及各种新药的问世，上海市肾内科临床质量控制中心专家组对2017年版《CKD筛查 诊断及防治指南》进行了更新和修订，内容主要包括CKD筛查的对象和方式、进展的评估及防治等方面。
+"/>
+ ×
+ 模态框（Modal）标题
+ 在这里添加一些文本
+ 关闭
+ 关闭
+ 提交更改
+ 取消
+ 确定并提交
+ ×
+ 模态框（Modal）标题
+ 在这里添加一些文本
+ 关闭
+ ×
+ 下载引用文件后，可以用常见的文献管理软件打开和编辑，包括: BibTex, EndNote, ProCite, RefWorks, and Reference Manager.
+ 选择文件类型/文献管理软件名称
+ RIS (ProCite, Reference Manager)
+ BibTeX
+ 选择包含的内容
+ 仅文章引用信息
+ 引用信息及摘要
+ 导出
+ 慢性肾脏病早期筛查、诊断及防治指南（2022年版）
+ 上海市肾内科临床质量控制中心专家组
+ PDF(38216 KB) 
+ RSS
+ Email Alert
+ 本刊微信公众号
+ Toggle navigation
+ 中华肾脏病杂志
+ 首页
+ 期刊介绍
+ 编委会
+ 出版政策
+ 投稿指引
+ 出版政策
+ 相关伦理
+ 政策说明
+-->
+ 期刊浏览
+ 最新录用
+ 优先发表
+ 当期目录
+ 过刊浏览
+ 下载排行
+ 阅读排行
+ 引用排行
+ 专题文章
+ 期刊订阅
+ 作者中心
+ 我要投稿
+ 稿约
+ 稿件写作注意事项
+ 论文模板
+ 投稿指引
+ 出版政策
+ 相关伦理
+ 政策说明
+ 广告合作
+ 联系我们
+ English
+ 中华肾脏病杂志
+ ››
+ 2022, Vol. 38
+ ››
+ Issue (5)
+ : 453-464.
+ DOI:
+ 10.3760/cma.j.cn441217-20210819-00067
+ 专家共识
+ 慢性肾脏病早期筛查、诊断及防治指南（2022年版）
+ {{javascript:window.custom_author_cn_index=0;}}
+ 0" m-for-array="{{authorList_cn}}" m-for-val="custom_author" m-for-index="custom_index">
+ {{custom_author.name_cn}}
+ {{custom_author.xref}}
+ , 
+ {{javascript:window.custom_author_cn_index++;}}
+ {{article.zuoZhe_CN}}
+ 作者信息
+ +
+ {{custom_zuoZheDiZhi}}
+ 0}}" style="margin-bottom:10px;">
+ 通信作者:
+ {{custom_authorNodes}}
+ {{custom_bio.content}}
+ {{custom_bio.content}}
+ 折叠
+ Guidelines for early screening, diagnosis, prevention and treatment of chronic kidney disease (2022 Edition)
+ {{javascript:window.custom_author_en_index=0;}}
+ 0" m-for-array="{{authorList_en}}" m-for-val="custom_author" m-for-index="custom_index">
+ {{custom_author.name_en}}
+ {{custom_author.xref}}
+ , 
+ {{javascript:window.custom_author_en_index++;}}
+ {{article.zuoZhe_EN}}
+ Author information
+ +
+ {{custom_zuoZheDiZhi}}
+ 0}}" style="margin-bottom:10px;">
+ Corresponding author:
+ {{custom_authorNodes}}
+ {{custom_bio.content}}
+ {{custom_bio.content}}
+ Collapse
+ History
+ +
+ Received | 
+ Published | 
+ | 
+ 2021-08-19 | 
+ 2022-05-15 | 
+ Issue Date | 
+ | 
+ 2022-06-21 | 
+ | 
+ 本文亮点
+ {{article.keyPoints_cn}}
+ HeighLight
+ {{article.keyPoints_en}}
+ 摘要
+ {{article.zhaiyao_cn}}
+ Abstract
+ {{article.zhaiyao_en}}
+ 0" class="main_content_center_left_one_title yijibiaotidkk" style="border-bottom:none; padding-bottom:0px;margin-top:15px;">
+ 关键词
+ 0" class="main_content_center_left_zhengwen" style="margin-top:5px;margin-bottom:15px;">
+ {{custom_keyword}} / 
+ 0" class="main_content_center_left_one_title yijibiaotidkk" style="border-bottom:none; padding-bottom:0px;margin-top:15px;">
+ Key words
+ 0" class="main_content_center_left_zhengwen" style="margin-top:5px;margin-bottom:15px;">
+ {{custom_keyword}} / 
+ 0" class="main_content_center_left_one_title yijibiaotidkk" style="border-bottom:none; padding-bottom:0px;margin-top:15px;">
+ 编辑
+ 0" class="main_content_center_left_zhengwen" style="margin-top:5px;margin-bottom:15px;">
+ 0">, 
+ {{custom_editor}}
+ 0" class="main_content_center_left_one_title yijibiaotidkk" style="border-bottom:none; padding-bottom:0px;margin-top:15px;">
+ Copy editor
+ 0" class="main_content_center_left_zhengwen" style="margin-top:5px;margin-bottom:15px;">
+ 0">, 
+ {{custom_editor}}
+ 引用本文
+ EndNote
+ Ris (Procite)
+ Bibtex
+ 导出引用
+ 0" m-for-array="{{authorList_cn}}" m-for-val="custom_author" m-for-index="custom_index" >
+ 0">, {{custom_author.name_cn}}. 
+ {{article.zuoZheCn_L}}. 
+ {{article.title_cn}}[J]. {{journal.qiKanMingCheng_CN}}, 2022, 38(5): 453-464. 
+ DOI:
+ 10.3760/cma.j.cn441217-20210819-00067.
+ 0" m-for-array="{{authorList_en}}" m-for-val="custom_author" m-for-index="custom_index" >
+ 0">, {{custom_author.name_en}}. 
+ {{article.zuoZheEn_L}}. 
+ {{article.title_en}}[J]. {{journal.qiKanMingCheng_EN}}, 2022, 38(5): 453-464. 
+ DOI:
+ 10.3760/cma.j.cn441217-20210819-00067.
+ 0" class="main_content_center_left_zhengwen_bao_zw">
+ {{custom_sec.title}}
+ =2" class="main_content_center_left_zhengwen_bao_erji_title main_content_center_left_one_title" style="font-size: 16px;">
+ {{custom_sec.title}}
+ {{custom_sec.content}}
+ 0" class="main_content_center_left_one_title zhengwem_title" style="border-bottom: 1px solid #ccc;">
+ 参考文献
+ 原文顺序
+ |
+ 文献年度倒序
+ |
+ 文中引用次数倒序
+ 0" class="main_content_center_left_one_cankaowenxian">
+ {{custom_ref.label}} | 
+ {{custom_citation.content}}
+ https://doi.org/{{custom_citation.doi}}
+ https://www.ncbi.nlm.nih.gov/pubmed/{{custom_citation.pmid}}
+ {{custom_citation.url}}
+ 0}} && {{custom_citationIndex}}=={{custom_ref.citationList}}.length-1" href="javascript:;" class="cas-main_ry_a mag_rich_ref_citedCount" style="color: #5079b7;margin-right:15px;" onclick="piaofuRefCited(this,'{{custom_ref.id}}')">本文引用 [{{custom_ref.citedCount}}]
+ 摘要
+ {{custom_citation.annotation}}
+ | 
+ 参考文献
+ {{article.reference}}
+ {{custom_fnGroup.title_cn}}
+ 脚注
+ {{custom_fn.content}}
+ 0}}" class="main_content_center_left_zhengwen_bao_zw">
+ 0}}" class="main_content_center_left_one_title zhengwem_title yijibiaotidkk">
+ {{custom_notes.title}}
+ {{custom_notes.content}}
+ 0}}" class="main_content_center_left_zhengwen_bao_zw">
+ 0}}" class="main_content_center_left_one_title zhengwem_title yijibiaotidkk">
+ {{custom_ack.title_cn}}
+ {{custom_ack.content}}
+ 0}}" class="main_content_center_left_zhengwen_bao_zw">
+ 基金
+ {{custom_fund}}
+ 版权
+ {{article.copyrightStatement_cn}}
+ {{article.copyrightLicense_cn}}
+ PDF(38216 KB) 
+ Accesses
+ Citation
+ Altmetric
+ Detail
+ 段落导航
+ 相关文章
+ 版权所有©《中华肾脏病杂志》编辑部 中华医学会杂志社 中山大学附属第一医院（广州）期刊有限责任公司
+ 地址：广州市越秀区竹丝岗二马路5号之—龙珠大厦2层（510080） 电话：(020)87331532 邮箱：cmaszb@mail.sysu.edu.cn
+ 本系统由北京玛格泰克科技发展有限公司设计开发 技术支持：support@magtech.com.cn
+ 粤ICP备10090623号
+ / 
+ 〈
+ | 
+ | 
+ 〉
+ |

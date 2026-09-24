@@ -1,0 +1,1921 @@
+成人甲状腺功能减退症诊治指南 - 中华内分泌代谢杂志 
+ ×
+ ×
+ 定义肩部广告结束 --> 
+ 成人甲状腺功能减退症诊治指南 
+ 中华医学会内分泌学分会 
+ 中华内分泌代谢杂志, 2017,33(2) : 167-180. DOI: 10.3760/cma.j.issn.1000-6699.2017.02.018 
+ 本指南学术委员会成员名单 
+ (按姓氏拼音顺序)
+ 陈 兵 陈璐璐 高 鑫 何兰杰 洪天配 李 强 李艳波
+ 李玉秀 连小兰 刘 超 吕朝晖 母义明 宁 光 彭永德
+ 秦贵军 秦映芬 全会标 单忠艳 施秉银 苏 青 汤旭磊
+ 滕卫平 童南伟 王卫庆 肖海鹏 严 励 杨 静 姚 斌
+ 姚勇利 张 波 张海清 张 巧 赵家军 朱 梅
+ 点击查看表格 
+ 指南中常见英文缩略语释义(按字母顺序)
+ 指南中常见英文缩略语释义(按字母顺序)
+ 缩略语 | 
+ 英文全称 | 
+ 中文全称 | 
+ | 
+ D3 | 
+ Type 3 deiodinase | 
+ Ⅲ型脱碘酶 | 
+ ESS | 
+ Euthyroid sick syndrome | 
+ 甲状腺功能正常的病态综合征 | 
+ FT3 | 
+ Free triiodothyronine | 
+ 游离三碘甲腺原氨酸 | 
+ FT4 | 
+ Free thyroxine | 
+ 游离甲状腺素 | 
+ GRTH | 
+ Generalized resistance to thyroid hormone | 
+ 全身型甲状腺激素抵抗综合征 | 
+ HCG | 
+ Human chorionic gonadotropin | 
+ 人绒毛膜促性腺激素 | 
+ ICMA | 
+ Immunochemilumino assay | 
+ 免疫化学发光法 | 
+ IQ | 
+ Intelligence quotient | 
+ 智商 | 
+ IRMA | 
+ Immunoradiometric assay | 
+ 免疫放射法 | 
+ L-T3 | 
+ Liothyronine | 
+ 三碘甲腺原氨酸/碘塞罗宁 | 
+ L-T4 | 
+ Levothyroxine | 
+ 左甲状腺素 | 
+ NIS | 
+ Sodium-iodide symporter | 
+ 钠碘协同转运体 | 
+ perRTH | 
+ Selective peripheral resistance to thyroid hormones | 
+ 外周选择型甲状腺激素抵抗综合征 | 
+ PRTH | 
+ Selective pituitary resistance to thyroid hormones | 
+ 垂体选择型甲状腺激素抵抗综合征 | 
+ RIA | 
+ Radio-immunologic assay | 
+ 放射免疫法 | 
+ RTH | 
+ Syndrome of resistance to thyroid hormone | 
+ 甲状腺激素抵抗综合征 | 
+ rT3 | 
+ Reverse T3 | 
+ 反T3 | 
+ T2 | 
+ Diiodothyronine | 
+ 二碘甲腺原氨酸 | 
+ TBG | 
+ Thyroxine binding globulin | 
+ 甲状腺素结合球蛋白 | 
+ TBPA | 
+ Thyroxine binding prealbumin | 
+ 甲状腺素结合前白蛋白 | 
+ Tg | 
+ Thyroglobulin | 
+ 甲状腺球蛋白 | 
+ TgAb | 
+ Thyroglobulin antibody | 
+ 甲状腺球蛋白抗体 | 
+ TH | 
+ Thyroid hormones | 
+ 甲状腺激素 | 
+ TPO | 
+ Thyroid peroxidase | 
+ 甲状腺过氧化物酶 | 
+ TPOAb | 
+ Thyroid peroxidase antibody | 
+ 甲状腺过氧化物酶抗体 | 
+ TR | 
+ Thyroid hormone receptor | 
+ 甲状腺激素受体 | 
+ TRH | 
+ Thyrotropin-releasing hormone | 
+ 促甲状腺激素释放激素 | 
+ TRIAC | 
+ Triiodothyroacetic acid | 
+ 三碘甲腺乙酸 | 
+ TSH | 
+ Thyroid stimulating hormone | 
+ 促甲状腺激素 | 
+ TSBAb | 
+ TSHR stimulating-blocking antibody | 
+ TSH受体刺激阻断性抗体 | 
+ TT3 | 
+ Total triiodothyronine | 
+ 总三碘甲腺原氨酸 | 
+ TT4 | 
+ Total thyroxine | 
+ 总甲状腺素 | 
+ 点击查看表格 
+ 推荐分级
+ 推荐分级
+ 强度分级 | 
+ 推荐强度涵义 | 
+ | 
+ A | 
+ 强力推荐。循证证据肯定，能够改善健康的结局，利大于弊 | 
+ B | 
+ 推荐。循证证据良好，能够改善健康的结局，利大于弊 | 
+ C | 
+ 推荐。基于专家的意见 | 
+ D | 
+ 反对推荐。基于专家的意见 | 
+ E | 
+ 反对推荐。循证证据良好，不能改善健康结局或弊大于利 | 
+ F | 
+ 强力反对推荐。循证证据肯定，不能改善健康结局或对于健康结局，弊大于利 | 
+ I | 
+ 不做推荐或不做常规推荐。推荐或反对推荐的循证证据不足、缺乏或结果矛盾，利弊无法评判 | 
+ 点击查看表格 
+ 推荐条款
+ 推荐条款
+ 序号 | 
+ 推荐 | 
+ 推荐级别 | 
+ | 
+ 1 | 
+ 血清TSH和游离T4(FT4)、总T4(TT4)是诊断原发性甲减的第一线指标 | 
+ A | 
+ 2 | 
+ 原发性临床甲减的治疗目标：甲减的症状和体征消失，血清TSH和TT4、FT4水平维持在正常范围 | 
+ A | 
+ 3 | 
+ 左甲状腺素(L-T4)是甲减的主要替代治疗药物 | 
+ A | 
+ 4 | 
+ 甲减替代治疗药物的剂量取决于患者的病情、年龄、体重，要个体化 | 
+ A | 
+ 5 | 
+ 甲减替代治疗药物的起始剂量和达到完全替代剂量所需的时间要根据病情、年龄、体重及心脏功能状态确定，要个体化 | 
+ A | 
+ 6 | 
+ L-T4的服药方法首选早饭前1小时，与其他药物和某些食物的服用间隔应当在4小时以上 | 
+ A | 
+ 7 | 
+ 不推荐单独应用L-T3作为甲减的替代治疗药物 | 
+ F | 
+ 8 | 
+ 干甲状腺片是动物甲状腺的干制剂，因其甲状腺激素含量不稳定并含T3量较大，目前不推荐作为甲减的首选替代治疗药物 | 
+ E | 
+ 9 | 
+ 不推荐常规使用L-T4/L-T3联合用药治疗甲减 | 
+ I | 
+ 10 | 
+ 补充L-T4治疗初期，每间隔4～6周测定血清TSH及FT4。根据TSH及FT4水平调整L-T4剂量，直至达到治疗目标。治疗达标后，至少需要每6～12个月复查1次上述指标 | 
+ B | 
+ 11 | 
+ 亚临床甲减通常缺乏明显的临床症状和体征。诊断主要依赖实验室检查。需2～3个月重复测定血清TSH及FT4或TT4水平，TSH升高且FT4、TT4正常，方可诊断亚临床甲减 | 
+ A | 
+ 12 | 
+ 根据TSH水平，亚临床甲减可分为两类：轻度亚临床甲减(TSH<10 mIU/L)和重度亚临床甲减(TSH≥10 mIU/L) | 
+ C | 
+ 序号 | 
+ 推荐 | 
+ 推荐级别 | 
+ | 
+ 13 | 
+ 重度亚临床甲减(TSH≥10 mIU/L)患者，主张给予L-T4替代治疗。治疗的目标和方法与临床甲减一致 | 
+ B | 
+ 14 | 
+ 轻度亚临床甲减(TSH<10 mIU/L)患者，如果伴甲减症状、TPOAb阳性、血脂异常或动脉粥样硬化性疾病，应予L-T4治疗 | 
+ C | 
+ 15 | 
+ 根据妊娠特异性TSH和FT4参考范围诊断妊娠期甲减和亚临床甲减 | 
+ A | 
+ 16 | 
+ 妊娠期临床甲减损害后代的神经智力发育，增加早产、流产、低体重儿、死胎和妊娠高血压等风险，必须给予治疗 | 
+ A | 
+ 17 | 
+ L-T4是治疗妊娠期甲减和亚临床甲减的首选替代药物 | 
+ A | 
+ 18 | 
+ 既往患有甲减或亚临床甲减的育龄妇女计划妊娠，调整L-T4剂量，使TSH在正常范围、最好TSH<2.5 mIU/L再妊娠 | 
+ B | 
+ 19 | 
+ 妊娠期诊断的临床甲减应立即L-T4足量治疗，TSH尽快达标 | 
+ A | 
+ 20 | 
+ 妊娠期甲减和亚临床甲减治疗的血清TSH目标：T1期0.1～2.5 mIU/L，T2期0.2～3.0 mIU/L，T3期0.3～3.0 mIU/L | 
+ B | 
+ 21 | 
+ 血清TSH和FT4/TT4应在妊娠前半期每4周监测一次，TSH平稳可以延长至每6周一次 | 
+ B | 
+ 22 | 
+ 妊娠期亚临床甲减妇女，TSH>正常参考范围上限，不考虑TPOAb是否阳性，应开始使用L-T4治疗 | 
+ B | 
+ 23 | 
+ 临床甲减患者产后L-T4剂量恢复到妊娠前水平，妊娠期诊断的亚临床甲减患者产后可以停用L-T4，均需在产后6周复查甲状腺功能及抗体 | 
+ B | 
+ 24 | 
+ 黏液性水肿昏迷是甲减的危重急症，病死率高，应积极救治。治疗上除了给予L-T4之外，有条件时还需静脉注射L-T3 | 
+ A | 
+ 25 | 
+ 继发于下丘脑和垂体的甲减，以血清FT4、TT4达到正常范围作为治疗的目标，不以TSH作为监测指标 | 
+ A | 
+ 26 | 
+ 当血清T4、T3水平升高，但是TSH不被抑制时，提示甲状腺激素抵抗综合征(RTH)，要注意鉴别诊断。伴有甲减症状的RTH可选择甲状腺激素治疗，对伴有甲亢症状的RTH可对症和选择三碘甲腺乙酸治疗 | 
+ B | 
+ 27 | 
+ 甲状腺功能正常的病态综合征不建议甲状腺激素替代治疗 | 
+ E | 
+ 流行病学 
+ 甲状腺功能减退症(hypothyroidism,简称甲减)是由于甲状腺激素合成和分泌减少或组织作用减弱导致的全身代谢减低综合征。主要分为临床甲减(overt hypothyroidism)和亚临床甲减(subclinical hypothyroidism)。甲减的患病率与TSH诊断切点值、年龄、性别、种族等因素有关。国外报告甲减的患病率约5%～10%，亚临床甲减患病率高于临床甲减。美国国家健康与营养状况调查(NHANESⅢ)以年龄>12岁的普通人群为调查对象，TSH正常上限为4.5 mIU/L，亚临床甲减的患病率为4.3%，临床甲减患病率为0.3%[1]。科罗拉多(Colorado)甲状腺疾病患病率调查以TSH 5.0 mIU/L为正常上限，亚临床甲减及临床甲减的患病率分别为8.5%和0.4%[2]。在弗拉明翰(Framingham)研究中，年龄大于60岁的人群，TSH>10 mIU/L的男性为5.9%，女性为2.3%[3]。英国Whickham研究中，女性甲减年发病率为3.5‰，男性为0.6‰。抗体阳性且TSH升高的女性甲减的年发生风险为4%，而仅有抗体阳性或TSH升高者，年发病风险为2%～3%[4,5]。根据2010年我国十城市甲状腺疾病患病率调查，以TSH>4.2 mIU/L为诊断切点，甲减的患病率为17.8%，其中亚临床甲减患病率为16.7%，临床甲减患病率为1.1%[6]。女性患病率高于男性，随年龄增长患病率升高。我国甲减年发病率为2.9‰[7]。
+ 病 因 
+ 甲减病因复杂，以原发性甲减最多见，此类甲减占全部甲减的约99%，其中自身免疫、甲状腺手术和甲亢131I治疗三大原因占90%以上。中枢性甲减或继发性甲减：由于下丘脑和垂体病变引起的促甲状腺激素释放激素(TRH)或者促甲状腺激素(TSH)产生和分泌减少所致的甲减。垂体外照射、垂体大腺瘤、颅咽管瘤及垂体缺血性坏死是中枢性甲减的较常见原因。消耗性甲减是因为表达D3而致甲状腺激素灭活或丢失过多引起的甲减。甲状腺激素抵抗综合征(RTH)是由于甲状腺激素在外周组织实现生物效应障碍引起的甲减。甲减病因见表1[8,9]。
+ 点击查看表格 
+ 表1 
+ 甲减病因
+ 表1 
+ 甲减病因
+ 原发性甲减(primary hypothyroidism) | 
+ | 
+ | 
+ 自身免疫性甲状腺炎(桥本甲状腺炎、萎缩性甲状腺炎、Riedel甲状腺炎等) | 
+ | 
+ | 
+ 甲状腺全切或次全切术后 | 
+ | 
+ | 
+ 甲亢131I治疗后 | 
+ | 
+ | 
+ 颈部放疗后 | 
+ | 
+ | 
+ 甲状腺内广泛病变(淀粉样变性、胱氨酸尿症、血色沉着病等) | 
+ | 
+ | 
+ 细胞因子(白介素-2、干扰素γ) | 
+ | 
+ | 
+ 先天性甲状腺缺如 | 
+ | 
+ | 
+ 异位甲状腺 | 
+ | 
+ | 
+ 亚急性甲状腺炎 | 
+ | 
+ | 
+ 缺碘性地方性甲状腺肿 | 
+ | 
+ | 
+ 碘过量 | 
+ | 
+ | 
+ 药物(碳酸锂、硫脲类、磺胺类、对氨基水杨酸钠、过氯酸钾、保泰松、硫氢酸盐、酪氨酸激酶抑制剂等) | 
+ | 
+ | 
+ 致甲状腺肿物质(长期大量食用卷心菜、芜菁、甘蓝、木薯等) | 
+ | 
+ | 
+ TSH不敏感综合征 | 
+ | 
+ | 
+ 孕妇中重度碘缺乏或口服过量抗甲状腺药物出生的婴儿 | 
+ | 
+ | 
+ 甲状腺内Gs蛋白异常(假性甲旁减Ia型) | 
+ | 
+ | 
+ 甲状腺激素合成相关基因异常(NIS基因突变、pendrin基因突变、TPO基因突变、Tg基因突变、碘化酶基因突变、脱碘酶基因突变等) | 
+ 继 发性甲减(secondary hypothyroidism)或中枢性甲减(central hypothyroidism) | 
+ | 
+ 垂体性甲减 | 
+ | 
+ | 
+ 垂体肿瘤 | 
+ | 
+ | 
+ 淋巴细胞性垂体炎 | 
+ | 
+ | 
+ 浸润性疾病(血色沉着病、结核、真菌感染等) | 
+ | 
+ | 
+ 垂体手术 | 
+ | 
+ | 
+ 垂体放疗 | 
+ | 
+ | 
+ 垂体缺血性坏死(Sheehan syndrome) | 
+ | 
+ | 
+ 药物：贝沙罗汀(Bexarotene)、多巴胺、肾上腺皮质激素 | 
+ | 
+ | 
+ TRH受体基因突变 | 
+ | 
+ | 
+ 严重全身疾病 | 
+ 下丘脑性甲减 | 
+ | 
+ | 
+ | 
+ 下丘脑肿瘤、慢性炎症或嗜酸性肉芽肿 | 
+ | 
+ | 
+ 头部放疗 | 
+ | 
+ | 
+ 颅脑手术 | 
+ 消耗性甲减[因D3代偿性活性增加而致甲状腺素(T4)灭活过多] | 
+ | 
+ | 
+ 血管瘤 | 
+ | 
+ | 
+ 血管内皮瘤病 | 
+ | 
+ | 
+ 体外循环手术后 | 
+ 甲状腺激素不敏感综合征(RTH) | 
+ | 
+ | 
+ 全身型(GRTH) | 
+ | 
+ | 
+ 选择性外周型(perRTH) | 
+ 症状和体征 
+ 本病发病隐匿，病程较长，不少患者缺乏特异症状和体征。症状主要表现以代谢率减低和交感神经兴奋性下降为主，病情轻的早期患者可以没有特异症状。典型患者畏寒、乏力、手足肿胀感、嗜睡、记忆力减退、少汗、关节疼痛、体重增加、便秘、女性月经紊乱或者月经过多、不孕。
+ 典型患者可有表情呆滞、反应迟钝、声音嘶哑、听力障碍，面色苍白、颜面和(或)眼睑水肿、唇厚舌大、常有齿痕，皮肤干燥、粗糙、脱皮屑、皮肤温度低、水肿、手脚掌皮肤可呈姜黄色，毛发稀疏干燥，跟腱反射时间延长，脉率缓慢。少数病例出现胫前黏液性水肿。本病累及心脏可以出现心包积液和心力衰竭。重症患者可以发生黏液性水肿昏迷。
+ 血清甲状腺激素测定 
+ 正常情况下，循环中T4约99.97%与特异的血浆蛋白相结合，包括甲状腺素结合球蛋白(TBG，占60%～75%)、甲状腺素结合前白蛋白(TBPA，占15%～30%)以及白蛋白(Alb，占10%)，循环中T4仅有约0.03%为游离状态(FT4)；循环中T3约99.7%特异性与TBG结合，约0.3%为游离状态(FT3)。结合型甲状腺激素是激素的贮存和运输形式；游离型甲状腺激素则是甲状腺激素的活性部分，直接反映甲状腺的功能状态，不受血清TBG浓度变化的影响。结合型与游离型之和为总T4(TT4)、总T3(TT3)。
+ 正常成人血清TT4水平为64～154 nmol/L(5～12 μg/dl)，TT3为1.2～2.9 nmol/L(80～190 ng/dl)，不同实验室及试剂盒略有差异。目前多采用竞争免疫测定法，趋势为非核素标记(标记物为酶、荧光或化学发光物质)替代放射性核素标记。
+ 正常成人血清FT4为9～25 pmol/L(0.7～1.9 ng/dl)，FT3为2.1～5.4 pmol/L(0.14～0.35 ng/dl)，不同方法及实验室测定结果差异较大。将游离型激素与结合型激素进行物理分离(半透膜等渗透析、超滤、柱层析等)后行高敏感免疫测定被认为是本测定的金标准，但技术复杂，测定成本昂贵，不能在临床普遍使用。目前大多数临床实验室测定FT4和FT3所采用的方法并非直接测定游离激素，其测定结果在某种程度上仍受甲状腺激素结合蛋白浓度的影响，所以称之为"游离激素估计值(free hormone estimate)" 。
+ 凡是能引起血清TBG水平变化的因素均可影响TT4、TT3的测定结果，尤其对TT4的影响较大，如妊娠、病毒性肝炎、遗传性TBG增多症和某些药物(雌激素、口服避孕药、三苯氧胺等)可使TBG增高而导致TT4和TT3测定结果假性增高；低蛋白血症、遗传性TBG缺乏症和多种药物(雄激素、糖皮质激素、生长激素等)则可降低TBG，使TT4和TT3测定结果出现假性降低[10,11]。有上述情况时应测定游离甲状腺激素。
+ 反T3(reverse T3，rT3)是由T4在外周组织中经5-脱碘酶的作用脱碘形成。rT3是T4降解产生的无生物活性产物。血清中98%的rT3与TBG结合，故凡影响TBG的因素均可影响rT3的浓度。在通常情况下，rT3的浓度与TT3和TT4的变化平行。在重度营养不良和各种急慢性疾病伴发的甲状腺功能正常的病态综合征(euthyroid sick syndrome，ESS)可出现所谓的"分离现象" ，rT3可明显升高，而血清T3明显降低，是因为5′-脱碘酶活性下降，5-脱碘酶活性上升，导致T4向rT3增多有关。另外，丙硫氧嘧啶、糖皮质激素、普萘洛尔、胺碘酮等药物，以及碘造影剂均可抑制T4向T3转化，从而使血清rT3升高。测定血清rT3水平用于ESS与甲减鉴别，前者血清T3、T4降低，rT3增高，TSH在正常水平，而后者T3、T4、rT3均降低，TSH升高。用RIA法测定正常成人血清总rT3正常参考值为0.2～0.8 nmol/L(13～53 ng/dl)。
+ 血清促甲状腺激素(TSH)测定 
+ 血清TSH的检测是筛查甲状腺功能异常、原发性甲减甲状腺激素替代治疗的主要方法。TSH的分泌对血清中FT4微小变化十分敏感，在发生甲减早期，FT4还未检测到异常时，TSH已经发生改变[12]。血清TSH测定方法已经经历了3个阶段的改进。第一代TSH测定，主要采用放射免疫测定(RIA)技术，灵敏度较差(1～2 mIU/L)，下限值为0 mIU/L，可以诊断原发性甲减，但无法诊断甲亢；第二代TSH测定以免疫放射法(IRMA)为代表，敏感性和特异性明显提高，灵敏度达0.1～0.2 mIU/L，称为敏感TSH(sensitive TSH, sTSH)测定，其正常值范围为0.3～4.5 mIU/L，该方法已经能够诊断甲亢；第三代TSH测定以免疫化学发光法(ICMA)为代表，灵敏度为0.01～0.02 mIU/L，称为超敏感TSH(ultrasensitive TSH，uTSH)测定。目前我国大多数实验室使用的是第二代和第三代TSH测定方法。建议选择第三代的测定方法。
+ TSH每天都会在均值的50%左右波动，一天中同一时段连续采集血样，TSH的变异率达40%[13,14]。TSH最低值出现在傍晚，睡眠时最高。鉴于此，血清TSH水平在正常范围的40%～50%波动时并不能反映甲状腺功能的变化。
+ 美国临床生物化学学会(NACB)建议，TSH正常值应来源于120例经严格筛选的正常人。正常人的标准是(1)甲状腺自身抗体[甲状腺过氧化物酶抗体(TPOAb)、甲状腺球蛋白抗体(TgAb)]阴性；(2)无甲状腺疾病的个人史和家族史；(3)未触及甲状腺肿；(4)未服用除雌激素外的药物。TSH参考值0.3～4.8 mIU/L，参考值还会因年龄、种族、性别、碘营养状态及采用的试剂盒不同有差异[15,16,17,18]。
+ 需要注意的是，在许多非甲状腺疾病的情况下，TSH的水平也会出现异常。急性疾病会导致血清TSH受抑，重危患者，尤其是接受多巴胺注射或药理剂量的糖皮质激素治疗的患者，TSH水平可低于0.1 mIU/L且FT4低于正常[19,20]。此外，在非甲状腺疾病的恢复期，TSH可升高到正常水平以上，但通常低于20 mIU/L[21]。在妊娠早期，由于HCG对甲状腺的刺激作用，血清TSH会明显下降，在妊娠中期TSH恢复到正常水平[22]。皮下注射奥曲肽可能抑制TSH的分泌[23]，但这并不会导致永久性中枢性甲减，但口服贝沙罗汀(Bexatotene)几乎均可导致永久性中枢性甲减[24]。神经性厌食症的患者TSH、FT4的水平均可降低[25]，类似于患有严重疾病的患者和因垂体和下丘脑病变导致的中枢性甲减患者。由于分泌无生物活性的TSH异构体，合并无功能垂体瘤的中枢性甲减患者TSH会轻度的升高，通常不会高于6或7 mIU/L[26]。甲状腺激素抵抗的患者甲状腺激素及TSH均升高[27]。
+ 甲状腺自身抗体测定 
+ 甲状腺过氧化物酶抗体(TPOAb)、甲状腺球蛋白抗体(TgAb)是确定原发性甲减病因的重要指标和诊断自身免疫甲状腺炎(包括桥本甲状腺炎、萎缩性甲状腺炎等)的主要指标。一般认为TPOAb的意义较为肯定。日本学者经甲状腺细针穿刺细胞学检查证实，TPOAb阳性者的甲状腺均有淋巴细胞浸润。如果TPOAb阳性伴血清TSH水平增高，说明甲状腺细胞已经发生损伤。TPOAb阳性与甲减有明显相关，在亚临床甲减人群中，高滴度TPOAb水平有助于预测向临床甲减的进展。亚临床甲减伴TPOAb阳性者每年进展为临床甲减的几率为4.3%，而伴抗体阴性者为2.6%[28]。TgAb在自身免疫甲状腺炎患者的阳性率较低，敏感性不如TPOAb；并且TgAb不能固定补体，被认为在甲状腺的损伤中没有明显作用；此外甲状腺癌的患者也可以有高滴度的TgAb。因此，TgAb的意义不如TPOAb。但是，研究发现TgAb单独阳性的女性中，血TSH水平也显著升高[29]。因此，在TSH升高而TPOAb阴性者应该检测TgAb[30]。我国学者经过对甲状腺抗体阳性、甲状腺功能正常的个体随访5年发现，当初访时TPOAb>50 IU/ml和TgAb>40 IU/ml者，临床甲减和亚临床甲减的发生率显著增加[31]。
+ 其他辅助检查 
+ 可伴轻、中度正细胞正色素性贫血，可能与甲状腺激素不足，影响促红细胞生成素的合成有关。血总胆固醇、低密度脂蛋白胆固醇、LP(a)、三酰甘油升高[32,33,34]。血肌酸激酶、天冬氨酸氨基转移酶、乳酸脱氢酶可以升高，但肌红蛋白升高并不明显[35]，肌钙蛋白也无变化[36]。血同型半胱氨酸增高。严重的原发性甲减时可有高催乳素血症，甚至可伴有溢乳及蝶鞍增大，酷似垂体催乳素瘤，可能与TRH分泌增加有关。
+ 甲减的诊断思路 
+ 推荐1：血清TSH和游离T4(FT4)、总T4(TT4)是诊断原发性甲减的第一线指标。(推荐级别：A)
+ 筛 查 
+ 目前对于甲减在普通人群中的筛查未能达成共识。建议在下述高危人群积极筛查：有自身免疫病者；有恶性贫血者；一级亲属有自身免疫性甲状腺病者；有颈部及甲状腺的放射史包括甲亢的放射性碘治疗及头颈部恶性肿瘤的外放射治疗者；既往有甲状腺手术或功能异常史者；甲状腺检查异常者；患有精神性疾病者；服用胺碘酮、锂制剂、酪氨酸激酶抑制剂等者；高催乳素血症者；有心包积液者；血脂异常者[37]。
+ 原发性甲减的治疗及目标 
+ 原发性临床甲减的治疗目标是甲减的症状和体征消失，TSH、TT4、FT4值维持在正常范围。左甲状腺素(L-T4)是本病的主要替代治疗药物。一般需要终身替代，也有桥本甲状腺炎所致甲减自发缓解的报道。
+ 点击查看大图 
+ 图1 
+ 甲状腺功能减退症诊断思路 
+ 注：TSH：促甲状腺素；FT4：游离T4；甲减：甲状腺功能减退症；TPOAb：甲状腺过氧化物酶抗体；TgAb：甲状腺球蛋白抗体；TRH：促甲状腺激素释放激素
+ 图1 
+ 甲状腺功能减退症诊断思路 
+ 推荐2：原发性临床甲减的治疗目标：甲减的症状和体征消失，血清TSH和TT4、FT4水平维持在正常范围。(推荐级别：A)
+ L-T4治疗剂量 
+ L-T4是治疗甲状腺功能减退的主要替代药物。长期应用经验证明L-T4具有疗效可靠、不良反应小、依从性好、肠道吸收好、血清半衰期长、治疗成本低等优点。甲状腺功能减退的患者缺乏内源性甲状腺激素。正常人甲状腺每天大约分泌85 μg的T4。T3大约80%(约26 μg)由外周的T4转换而来，仅有20%(约6.5 μg)来自于甲状腺直接分泌。目前普遍认为，尽管T4是甲状腺分泌的主要激素，甲状腺激素作用于外组织主要为T3与其核受体结合。L-T4治疗甲状腺功能减退症的基本原理是利用外源的甲状腺素(T4)在外周组织转换为活性代谢产物T3。
+ L-T4片剂的胃肠道吸收率可达到70%～80%。L-T4片剂半衰期约7天，每日1次给药，便可以获得稳定的血清T4和T3水平。L-T4的治疗剂量取决于患者的病情、年龄、体重，要个体化。成年甲减患者的L-T4替代剂量为每日50～200 μg，平均每日125 μg。如按照体重计算的剂量是每日每公斤体重1.6～1.8 μg；儿童需要较高的剂量，约每日每公斤体重2.0 μg；老年患者则需要较低的剂量，大约每日每公斤体重1.0 μg；妊娠时的替代剂量需要增加30%～50%；甲状腺癌术后的患者需要剂量约每日每公斤体重2.2 μg，以抑制TSH到防止肿瘤复发需要的水平(见甲状腺结节和分化型甲状腺癌诊治指南)。
+ 起始的剂量和达到完全替代剂量所需时间要根据年龄、体重和心脏功能状态确定。<50岁、既往无心脏病史患者可以尽快达到完全替代剂量；>50岁患者服用L-T4前要常规检查心脏功能状态，一般从每日25～50 μg开始，每天1次口服，每1～2周复查，每次增加25 μg，直至达到治疗目标。患缺血性心脏病者起始剂量宜小，调整剂量宜慢，防止诱发和加重心脏病。
+ 推荐3：左甲状腺素(L-T4)是甲减的主要替代治疗药物．(推荐级别：A)
+ 推荐4：甲减替代治疗药物的剂量取决于患者的病情、年龄、体重，要个体化。(推荐级别：A)
+ 推荐5：甲减替代治疗药物的起始剂量和达到完全替代剂量所需的时间要根据病情、年龄、体重及心脏功能状态确定，要个体化。(推荐级别：A)
+ L-T4服药方法 
+ L-T4服药方法是每日晨起空腹服药1次，如果剂量大，有不良反应，可以分多次服用。L-T4在空肠与回肠被吸收，空腹条件下胃内呈酸性状态，其对后续的小肠吸收至关重要。如果以TSH的控制水平为标准，那么不同的服药时间相比较，从吸收最好到最差排序是早餐前60分钟、睡前、早餐前30分钟、餐时[38,39,40,41]。此外，还要考虑到患者的依从性，例如，尽管空腹服药可能促进L-T4吸收，但可能给患者带来不便。因此，如果不能早餐前1小时服用，睡前服药也可选择。
+ L-T4与其他药物的服用间隔应当在4小时以上，因为有些药物和食物会影响T4的吸收和代谢，如肠道吸收不良及氢氧化铝、碳酸钙、消胆胺、硫糖铝、硫酸亚铁、食物纤维添加剂等均可影响小肠对L-T4的吸收；苯巴比妥、苯妥英钠、卡马西平、利福平、异烟肼、洛伐他汀、胺碘酮、舍曲林、氯喹等药物可以加速L-T4的清除[42]。甲减患者同时服用这些药物时，需要增加L-T4用量。
+ 推荐6：L-T4的服药方法首选早饭前1小时，与其他药物和某些食物的服用间隔应当在4小时以上。(推荐级别：A)
+ L-T3的应用 
+ L-T4治疗必须经历T4向T3转化的过程，L-T3治疗的理论优势就在于可以避免这一过程，直接使有活性的激素发挥其作用。然而，单独L-T3治疗的缺陷在于缺少了底物T4，循环和组织中T3的水平完全依赖于外源激素的替代治疗。目前并没有足够的证据证明L-T3治疗优于L-T4治疗，由于L-T3用药剂量和用药时间需要有严格依从性，若用药过量或药量不足，会增加心脏和骨骼副反应风险。目前没有L-T3单药治疗长期效果(尤其是骨代谢和整体安全性评价)的资料。此外，与L-T4治疗相比，L-T3治疗的剂量较难掌握，因此LT3治疗时需要更频繁的监测。所以不推荐L-T3单药治疗甲减[43]。
+ 推荐7：不推荐单独应用L-T3作为甲减的替代治疗药物。(推荐级别：F)
+ 干甲状腺片的应用 
+ 干甲状腺片是将猪甲状腺在去除结缔组织及脂肪组织后经纯化、干燥并制成的粉状产品。干甲状腺片中T4与T3比率显著低于人体甲状腺分泌的比率，并且T3含量不稳定。T3相对过剩将导致提供超生理剂量的T3[44,45,46,47]。此外，由于T3半衰期较短，给药后出现短暂峰值并且一天内T3水平会发生波动[45,47]。目前缺乏关于干甲状腺片应用的长期对照研究结果。因此，不推荐作为甲减的首选替代药物[43]。
+ 推荐8：干甲状腺片是动物甲状腺的干制剂，因其甲状腺激素含量不稳定并含T3量较大，目前不推荐作为甲减的首选替代治疗药物。(推荐级别：E)
+ L-T4和L-T3的联合应用 
+ 目前还没有充分的证据证明L-T4和L-T3联合疗法比单一药物疗法具有优越性。因此，不推荐常规使用L-T4/L-T3联合用药治疗甲减[43]。
+ 推荐9：不推荐常规使用L-T4/L-T3联合用药治疗甲减。(推荐级别：I)
+ 治疗监测指标 
+ 补充甲状腺激素，重新建立下丘脑-垂体-甲状腺轴的平衡一般需要4～6周的时间，所以治疗初期，每间隔4～6周测定血清TSH及FT4[48,49]。根据TSH及FT4水平调整L-T4剂量，直至达到治疗目标。治疗达标后，至少需要每6～12个月复查1次上述指标[50]。
+ 推荐10：补充L-T4治疗初期，每间隔4～6周测定血清TSH及FT4。根据TSH及FT4水平调整L-T4剂量，直至达到治疗目标。治疗达标后，至少需要每6～12个月复查1次上述指标。(推荐级别：B)
+ 亚临床甲减 
+ 2010年中国十城市流行病学调查显示，我国成人亚临床甲减患病率为16.7%[6]。国际报道亚临床甲减患病率为5%～10%，患病率随年龄增长而增高，女性多见[1,2,4,5,51]。
+ 亚临床甲减通常缺乏明显的临床症状和体征，诊断主要依赖实验室检查，是指仅有血清TSH水平升高，TT4和FT4水平正常。根据TSH水平，亚临床甲减可分为两类：轻度亚临床甲减，TSH<10 mIU/L；重度亚临床甲减，TSH≥10 mIU/L[52,53]。其中，轻度亚临床甲减占90%[1,5]。
+ 诊断亚临床甲减时要排除其他原因引起的血清TSH增高：(1)TSH测定干扰：被检者存在抗TSH自身抗体可以引起血清TSH测定值假性增高；(2)甲状腺功能正常病态综合征的恢复期：血清TSH可以增高至5～20 mIU/L，机制可能是机体对应激的一种调整；(3)20%的中枢性甲减患者表现为轻度TSH增高(5～10 mIU/L)；(4)肾功能不全：10.5%的终末期肾病患者有TSH增高，可能与TSH清除减慢、过量碘摄入、结合于蛋白的甲状腺激素丢失有关；(5)糖皮质激素缺乏可以导致轻度TSH增高；(6)生理适应：暴露于寒冷9个月，血清TSH升高30%～50%。需2～3个月重复测定TSH及FT4、TT4水平，TSH升高且FT4、TT4正常，方可诊断亚临床甲减[54]。
+ 本病的主要危害是：(1)发展为临床甲减：英国Whickham前瞻性研究证实，单纯甲状腺自身抗体阳性、单纯亚临床甲减、甲状腺自身抗体阳性合并亚临床甲减每年发展为临床甲减的发生率分别为2%、3%和5%；我国学者随访100例未接受甲状腺激素治疗的亚临床甲减患者5年，29%仍维持亚临床甲减；5%发展为临床甲减；其余66%患者甲状腺功能恢复正常。Logistic回归分析显示，初访时TSH>6 mIU/L(OR＝3.4)，甲状腺自身抗体阳性(OR＝5.3)，原碘缺乏补碘至碘超足量(OR＝8.0)是亚临床甲减患者甲状腺功能不易恢复正常的影响因素[55]。(2)血脂代谢异常及其导致的动脉粥样硬化：部分学者认为，亚临床甲减是缺血性心脏病发生的危险因素，可以引起脂类代谢紊乱和心脏功能异常。"鹿特丹研究"发现，亚临床甲减与高血压、血脂异常、高血糖等因素一样是缺血性心脏病的独立危险因素，其与主动脉粥样硬化和心肌梗死的相对危险度分别为1.9和3.1[56]；亚临床甲减总胆固醇水平高于甲状腺功能正常者，且高总胆固醇血症发生率高于正常人，与TSH水平呈正相关[57,58]。多项随机对照临床试验发现，L-T4替代治疗可以降低亚临床甲减患者血清总胆固醇及低密度胆固醇的水平[59,60,61,62,63]。所以，从亚临床甲减的角度防治缺血性心脏病是一个被关注的问题。(3)妊娠期亚临床甲减可能影响后代的神经智力。
+ 亚临床甲减的治疗：重度亚临床甲减(TSH≥10 mIU/L)患者，建议给予L-T4替代治疗；治疗的目标和方法与临床甲减一致。为避免L-T4过量导致心律失常和骨质疏松，替代治疗中要定期监测血清TSH。轻度亚临床甲减(TSH<10 mIU/L)患者，如果伴有甲减症状、TPOAb阳性、血脂异常或动脉粥样硬化性疾病，应予L-T4治疗，不伴有上述情况的患者，定期监测TSH的变化。70岁以上的老年亚临床甲减患者的治疗目前存在争议。老年重度亚临床甲减患者推荐给予治疗，而老年轻度亚临床甲减患者，由于缺乏大规模的多中心前瞻性研究，其临床获益存在不确定性，因此建议密切随访观察，治疗应谨慎选择[54,64]。
+ 推荐11：亚临床甲减通常缺乏明显的临床症状和体征。诊断主要依赖实验室检查。需2～3个月重复测定血清TSH及FT4或TT4水平，TSH升高且FT4、TT4正常，方可诊断亚临床甲减。(推荐级别：A)
+ 推荐12：根据TSH水平，亚临床甲减可分为两类：轻度亚临床甲减(TSH<10 mIU/L)和重度亚临床甲减(TSH≥10 mIU/L)。(推荐级别：C)
+ 推荐13：重度亚临床甲减(TSH≥10mIU/L)患者，主张给予L-T4替代治疗。治疗的目标和方法与临床甲减一致。(推荐级别：B)
+ 推荐14：轻度亚临床甲减(TSH<10mIU/L)患者，如果伴甲减症状、TPOAb阳性、血脂异常或动脉粥样硬化性疾病，应予L-T4治疗。(推荐级别：C)
+ 妊娠期甲减 
+ 妊娠期未治疗的临床甲减对母体和胎儿均有不良影响，包括自然流产、早产、先兆子痫、妊娠高血压、产后出血、低体重儿、死胎、胎儿智力和运动发育受损[65,66]。妊娠期亚临床甲减也增加不良妊娠结局发生的危险[67,68,69]。妊娠前半期亚临床甲减对胎儿智力和运动发育损害是否有关尚有争议[70,71]。甲状腺功能正常单纯TPOAb阳性的妊娠早期妇女流产、早产、后代认知能力发育障碍风险增加[70,72]。妊娠期亚临床甲减予L-T4治疗可降低流产率和其他并发症尚有争议[73,74]。
+ 由于妊娠期甲状腺激素代谢改变，导致血清甲状腺指标参考值的变化，所以需要建立妊娠期特异的血清甲状腺指标参考范围(简称妊娠期参考值)诊断妊娠期甲状腺疾病[75]。妊娠期临床甲减诊断标准是：TSH>妊娠期参考值上限，且FT4<妊娠期参考值下限。妊娠亚临床甲减诊断标准是：TSH>妊娠期参考值上限，且FT4在正常范围。
+ L-T4是治疗妊娠期甲减的首选药物。干甲状腺片和L-T4/L-T3混合制剂会引起血清T4降低，因此不适用于妊娠妇女。服用上述药物的患者，在计划妊娠或发现妊娠尽快改为L-T4治疗。
+ 既往患有甲减或亚临床甲减的育龄妇女计划妊娠，正在服用L-T4治疗，调整L-T4剂量，使TSH在正常范围、最好TSH<2.5 mIU/L再妊娠[76,77]。既往患有甲减的妇女一旦怀孕，应立即就诊检测甲状腺功能和自身抗体，根据TSH水平调整L-T4剂量。如果不能就诊，可以自行增加原有L-T4剂量的25%～30%，以使妊娠早期TSH 0.1～2.5 mIU/L、妊娠中期TSH 0.2～3.0 mIU/L、妊娠晚期0.3～3.0 mIU/L及血清FT4/TT4处于妊娠特异正常范围[76,77]。妊娠期诊断的临床甲减，L-T4替代剂量高于非妊娠妇女，为每天每公斤体重2.0～2.4 μg，足量起始或尽快达到治疗剂量[77]。妊娠期诊断的亚临床甲减，TSH>正常参考范围上限，不考虑TPOAb是否阳性，应开始使用L-T4治疗[30]。治疗的剂量要根据TSH水平决定，TSH>妊娠特异参考值上限，L-T4的起始剂量每天50 μg；TSH>8.0 mIU/L，L-T4的起始剂量每天75 μg；TSH>10 mIU/L，L-T4的起始剂量每天100 μg[78]。血清TSH和FT4/TT4应在妊娠前半期每4周监测一次，TSH平稳可以延长至每6周一次，L-T4剂量应根据TSH水平变化调整。临床甲减患者产后L-T4剂量恢复到妊娠前水平，妊娠期诊断的亚临床甲减患者产后可以停用L-T4，均需在产后6周复查甲状腺功能及抗体各项指标，以调整L-T4剂量[77]。产后哺乳的甲减和亚临床甲减的患者可以服用L-T4，根据一般人群TSH和FT4参考范围调整L-T4剂量。
+ 推荐15：妊娠期临床甲减损害后代的神经智力发育，增加早产、流产、低体重儿、死胎和妊娠高血压等风险，必须给予治疗。(推荐级别：A)
+ 推荐16：根据妊娠特异性TSH和FT4参考范围诊断妊娠期甲减和亚临床甲减。(推荐级别：A)
+ 推荐17：L-T4是治疗妊娠期甲减和亚临床甲减的首选替代药物。(推荐级别：A)
+ 推荐18：既往患有甲减或亚临床甲减的育龄妇女计划妊娠，调整L-T4剂量，使TSH在正常范围、最好TSH<2.5 mIU/L再妊娠。(推荐级别：B)
+ 推荐19：妊娠期诊断的临床甲减应立即L-T4足量治疗，TSH尽快达标。(推荐级别：A)
+ 推荐20：妊娠期甲减和亚临床甲减治疗的血清TSH目标：T1期0.1～2.5 mIU/L，T2期0.2～3.0 mIU/L，T3期0.3～3.0 mIU/L。(推荐级别：B)
+ 推荐21：血清TSH和FT4/TT4应在妊娠前半期每4周监测一次，TSH平稳可以延长至每6周一次。(推荐级别：B)
+ 推荐22：妊娠期亚临床甲减妇女，TSH>正常参考范围上限，不考虑TPOAb是否阳性，应开始使用L-T4治疗。(推荐级别：B)
+ 推荐23：临床甲减患者产后L-T4剂量恢复到妊娠前水平，妊娠期诊断的亚临床甲减患者产后可以停用L-T4，均需在产后6周复查甲状腺功能及抗体各项指标。(推荐级别：B)
+ 黏液性水肿昏迷 
+ 黏液性水肿昏迷是一种罕见的危及生命的重症，多见于老年患者，通常由并发疾病所诱发。临床表现为嗜睡、精神异常，木僵甚至昏迷，皮肤苍白、低体温、心动过缓、呼吸衰竭和心力衰竭等。本病预后差，病死率达到20%[79,80,81]。
+ 治疗包括：(1)去除或治疗诱因：感染诱因占35%；(2)补充甲状腺激素：开始应当给予静脉注射甲状腺激素替代治疗。先静脉注射L-T4 200～400 μg作为负荷剂量，继之每天静脉注射L-T4 1.6 μg/kg，直至患者的临床表现改善改为口服给药或者其他肠道给药。如果没有L-T4注射剂，可将L-T4片剂磨碎后胃管鼻饲。鉴于黏液性水肿昏迷患者甲状腺素转换为三碘甲腺原氨酸可能会减少，所以除了给予L-T4之外，有条件时还要静脉注射L-T3。但避免L-T3剂量过高，因为治疗中高T3血症与致死性相关[80]。可以予L-T35～20 μg负荷剂量静脉注射，随后维持剂量为每8小时静脉注射2.5～10 μg，对于年幼或老年患者以及有冠脉疾病或心律失常病史的患者则采用较低的剂量。治疗可以持续到患者明显恢复(例如，患者恢复意识和临床指标改善)；(3)保温：避免使用电热毯，因其可以导致血管扩张，血容量不足；(4)补充糖皮质激素：静脉滴注氢化可的松每天200～400 mg；(5)对症治疗：伴发呼吸衰竭、低血压和贫血采取相应的抢救治疗措施；(6)其他支持疗法。
+ 推荐24：黏液性水肿昏迷是甲减的危重急症，病死率高，应积极救治。治疗上除了给予L-T4之外，有条件时还需静脉注射L-T3。(推荐级别：A)
+ 中枢性甲减(central hypothyroidism) 
+ 本病是由于垂体TSH或者下丘脑TRH合成和分泌不足而导致的甲状腺激素合成减少。典型病例的血清TSH和甲状腺激素的表现是：TSH减低、TT4减低；但约20%的患者基础血清TSH浓度也可以正常或者轻度升高。
+ 本病的患病率为0.005%。高发年龄在儿童和30～60岁成人。先天性原因多由于垂体、下丘脑发育不全等；儿童的病因多源于颅咽管瘤；成人的病因大多是垂体的大腺瘤、垂体接受手术和放射治疗、头部损伤、垂体缺血性坏死(Sheehan syndrome)、淋巴细胞性垂体炎等。接受多巴胺治疗时，由于多巴胺抑制垂体产生TSH，TSH和T4的产生量可以减少60%和56%；在长期L-T4替代治疗的患者，撤除L-T4后，垂体TSH抑制的状态可以持续6周。本病常有性腺、肾上腺受累，应该注意询问相关症状，如女性产后无乳及闭经、男性性功能减退、皮肤色素变浅、腋毛和阴毛脱落等。应当同时检查性腺和肾上腺皮质功能。
+ 中枢性甲减与原发性甲减鉴别：依靠基础TSH即可鉴别，前者减低，后者升高。当中枢性甲减(主要是下丘脑原因所致的甲减)表现为TSH正常或者轻度升高时，需要做TRH刺激试验鉴别。典型的下丘脑性甲减，TRH刺激后的TSH分泌曲线呈现高峰延缓出现(注射后的60～90分钟)，并持续高分泌状态至120分钟；垂体性甲减TRH刺激后的TSH反应迟钝，呈现低平曲线(增高小于2倍或者增加≤4.0 mIU/L)。
+ 中枢性甲减的治疗，不能把TSH作为监测指标，而是把血清TT4、FT4达到正常范围作为治疗的目标[82]。
+ 推荐25：继发于下丘脑和垂体的甲减，以血清FT4、TT4达到正常范围作为治疗的目标，不以TSH作为监测指标。(推荐级别：A)
+ 甲状腺激素抵抗综合征(RTH) 
+ 本病病因主要是位于3号染色体的编码甲状腺激素受体β链(TRβ)基因发生突变，导致T3与受体结合障碍，甲状腺激素的生物活性减低[83,84,85]。这种突变的发生率是1/50 000[86]。本病有3个亚型(1)全身型甲状腺激素抵抗综合征(generalized resistance to thyroid hormones, GRTH)；(2)垂体选择型甲状腺激素抵抗综合征(selective pituitary resistance to thyroid hormones, PRTH)；(3)外周选择型甲状腺激素抵抗综合征(selective peripheral resistance to thyroid hormones, perRTH)。
+ GRTH的临床表现有甲状腺肿、生长缓慢、发育延迟、注意力不集中、好动以及静息时心动过速。本病缺乏甲减的临床表现，主要是被增高的甲状腺激素所代偿[87]。90%患者具有家族史，遗传方式大多数为常染色体显性遗传，极少数为常染色体隐性遗传[87,88,89,90]。实验室检查血清TT4、TT3、FT4增高(从轻度增高到2～3倍的增高)；TSH增高或者正常。本病依据以下4点与垂体TSH肿瘤鉴别：(1)TRH刺激试验：本病TSH增高，垂体TSH肿瘤无反应[91]；(2)T3抑制试验：本病血清TSH浓度下降，垂体TSH肿瘤时不被抑制；(3)本病时血清TSHα亚单位与TSH的摩尔浓度比例<1；(4)垂体MRI检查：本病无异常，垂体TSH肿瘤存在垂体腺瘤。
+ PRTH临床表现有轻度甲亢症状，这是因为本病的外周T3受体正常，仅有垂体的T3受体选择性缺陷。这种缺陷导致T3浓度升高不能抑制垂体的TSH分泌。垂体不适当地分泌TSH，引起甲亢和甲状腺肿。实验室检查血清T3、T4增高，TSH增高或者正常。本病主要与垂体TSH肿瘤鉴别，依靠TRH刺激试验和垂体MRI检查。
+ perRTH的实验室检查结果取决于垂体和外周组织对甲状腺激素不敏感的程度和代偿程度。GRTH和PRTH的实验室结果均可出现。有的患者基础TSH水平正常，但是相对于升高的循环T3、T4水平而言，这个TSH水平是不适当的。TRH刺激试验反应正常、T3抑制试验可以抑制；但临床有甲减的表现。
+ RTH为遗传性疾病，目前尚无根治方法。多数RTH患者可通过升高的TSH和甲状腺激素来代偿TR基因突变所导致的受体缺陷，以达到新的动态平衡。因此无甲状腺机能异常临床表现者一般不需要治疗。
+ 对那些伴有甲减症状或由于甲状腺肿大而误行甲状腺切除术，或伴甲亢使用抗甲状腺药物、放射性碘治疗以及伴有自身免疫性甲状腺疾病而导致甲状腺功能减退的RTH患者需予以甲状腺激素治疗，从小剂量开始，逐渐递增。有效剂量因人而异，使TSH控制在正常范围并使机体尽可能达到正常的代谢状态。甲状腺激素治疗首选L-T3治疗，可维持稳定的血药浓度。若是婴幼儿起病，伴有生长发育障碍、智力低下和骨骼愈合延迟的患儿，需及早诊断并使用较大剂量甲状腺激素治疗，以维持正常的智力和生长发育。对TSH水平不高伴甲状腺功能低下的RTH患者，在用TH治疗过程中，则要根据其作用的一些指标，来调整TH的合适剂量。例如性激素结合球蛋白、胆固醇、铁蛋白、基础代谢率、骨密度和尿羟脯氨酸等。对患RTH有小儿多动症的儿童首选L-T3治疗，可明显改善症状[92]。
+ 当有甲状腺毒症临床表现时可对其行TSH抑制治疗，但慎用抗甲状腺药物、同位素碘和甲状腺切除术等抗甲状腺治疗；这些治疗不能有效降低T3、T4水平却会进一步刺激TSH分泌，诱发垂体细胞增生，目前认为不可取。从机制上看，较有效的治疗是三碘甲腺乙酸(TRIAC)，该制剂是过碘化甲腺原氨酸氧化脱氨生成的醋酸衍生物，作为一种T4的代谢产物，与TRβ的亲和力明显高于T3，但生物学活性低下，可有效地抑制TSH水平、减轻甲状腺肿大，进而减少T3、T4的分泌，缓解甲亢的症状[93]。但关于TRIAC的实际疗效文献报道差异颇大[94,95,96]。
+ 另外，β受体阻滞剂可用于对症治疗，对RTH患者心动过速和震颤非常有效。抗焦虑药物能帮助减轻神经过敏的症状，二者联合应用效果更佳。多巴胺能药物、生长抑素类似物和糖皮质激素，此类药物也能抑制垂体分泌TSH，降低TH和甲状腺肿大，改善症状。但此类药物价格贵、不良反应大，抑制TSH的作用也较弱，故使用受到限制[97]。
+ 推荐26：当血清T4、T3水平升高，但是TSH不被抑制时，提示甲状腺激素抵抗综合征(RTH)，要注意鉴别诊断。伴有甲减症状的RTH可选择TH治疗，对伴有甲亢症状的RTH可对症和选择三碘甲腺乙酸治疗。(推荐级别：B)
+ 甲状腺功能正常病态综合征(euthyroid sick syndrome，ESS) 
+ ESS也称为低T3综合征、非甲状腺疾病综合征，并非是甲状腺本身病变，而是由于严重疾病、饥饿状态导致的循环甲状腺激素水平的减低，是机体的一种保护性反应。这类疾病包括营养不良、饥饿、精神性厌食症、糖尿病、肝脏疾病等全身疾病[98,99]。某些药物也可以引起本征，例如胺碘酮、糖皮质激素、丙硫氧嘧啶、普萘洛尔及含碘造影剂等。
+ ESS的发生机制是Ⅰ型脱碘酶活性抑制，Ⅲ型脱碘酶活性增强。因为Ⅰ型脱碘酶将T4外环脱碘转换为T3，所以T3产生减少，出现低T3血症；Ⅲ型脱碘酶有两个功能，一个是T4转换为反T3(rT3)，另一个是T3脱碘形成T2。本征T4向rT3转换增加，所以血清rT3增加。
+ ESS实验室检查的特征是血清FT3、TT3减低，rT3增高；TT4正常或者轻度增高，TSH正常[100,101]。疾病的严重程度一般与TT3减低的程度相关。严重病例可以出现TT4和FT4减低，TSH仍然正常，称为低T3-T4综合征。患者的基础疾病经治疗恢复以后，甲状腺激素水平可以逐渐恢复正常；但是在恢复期可以出现一过性TSH增高，也需要与原发性甲减相鉴别。本征不需要给予甲状腺激素替代治疗，因甲状腺激素治疗不适当地提高机体代谢率，可能带来不良反应[102,103,104,105]。
+ 推荐27：甲状腺功能正常的病态综合征不建议甲状腺激素替代治疗。(推荐级别：E)
+ 参考文献 
+ [1] 
+ HollowellJG, StaehlingNW, FlandersWD, et al. 
+ Serum TSH, T(4), and thyroid antibodies in the United States population(1988 to 1994): National Health and Nutrition Examination Survey(NHANES III)[J]. 
+ J Clin Endocrinol Metab, 
+ 2002， 
+ 87( 
+ 2)： 
+ 489- 
+ 499. 
+ DOI: 10.1210/jcem.87.2.8182. 
+ [2] 
+ CanarisGJ, ManowitzNR, MayorG, et al. 
+ The Colorado thyroid disease prevalence study[J]. 
+ Arch Intern Med, 
+ 2000， 
+ 160( 
+ 4)： 
+ 526- 
+ 534. 
+ [3] 
+ SawinCT, CastelliWP, HershmanJM, et al. 
+ The aging thyroid. Thyroid deficiency in the Framingham Study[J]. 
+ Arch Intern Med, 
+ 1985， 
+ 145( 
+ 8)： 
+ 1386- 
+ 1388. 
+ [4] 
+ VanderpumpMP, TunbridgeWM, FrenchJM, et al. 
+ The incidence of thyroid disorders in the community: a twenty-year follow-up of the Whickham Survey[J]. 
+ Clin Endocrinol(Oxf), 
+ 1995， 
+ 43( 
+ 1)： 
+ 55- 
+ 68. 
+ [5] 
+ VanderpumpMP, TunbridgeWM. 
+ Epidemiology and prevention of clinical and subclinical hypothyroidism[J]. 
+ Thyroid, 
+ 2002， 
+ 12( 
+ 10)： 
+ 839- 
+ 847. 
+ DOI: 10.1089/105072502761016458. 
+ [6] 
+ ShanZ, ChenL, LianX, et al. 
+ Iodine Status and Prevalence of Thyroid Disorders After Introduction of Mandatory Universal Salt Iodization for 16 Years in China: A Cross-Sectional Study in 10 Cities[J]. 
+ Thyroid, 
+ 2016， 
+ 26( 
+ 8)： 
+ 1125- 
+ 1130. 
+ DOI: 10.1089/thy.2015.0613. 
+ [7] 
+ TengW, ShanZ, TengX, et al. 
+ Effect of iodine intake on thyroid diseases in China[J]. 
+ N Engl J Med, 
+ 2006， 
+ 354( 
+ 26)： 
+ 2783- 
+ 2793. 
+ DOI: 10.1056/NEJMoa054022. 
+ [8] 
+ 廖二元. 
+ 甲状腺功能减退症[M]. 
+ 见： 
+ 王吉耀， 
+ 主编. 
+ 内科学. 
+ 第2版. 
+ 北京： 
+ 人民卫生出版社， 
+ 2011, 
+ 954- 
+ 959. 
+ [9] 
+ Brent GA. DaviesTF. 
+ Hypothyroidism and thyroiditis[M]. 
+ In: 
+ MelmedS, PoloskyKS, LarsenPR, 
+ et al 
+ (eds). 
+ Wlilliams Textbook of Endocrinology. 
+ 12th ed. 
+ Philadelphia: 
+ Saunders, 
+ 2011, 
+ 412- 
+ 445. 
+ [10] 
+ SurksMI, SievertR. 
+ Drugs and thyroid function[J]. 
+ N Engl J Med, 
+ 1995， 
+ 333( 
+ 25)： 
+ 1688- 
+ 1694. 
+ DOI: 10.1056/NEJM199512213332507. 
+ [11] 
+ OppenheimerJH, SquefR, SurksMI, et al. 
+ Binding of thyroxine by serum proteins evaluated by equilibrium dialysis and electrophoretic techniques. Alterations in nonthyroidal illness[J]. 
+ J Clin Invest, 
+ 1963， 
+ 42： 
+ 1769- 
+ 1782. 
+ DOI: 10.1172/JCI104862. 
+ [12] 
+ SpencerCA, LoPrestiJS, PatelA, et al. 
+ Applications of a new chemiluminometric thyrotropin assay to subnormal measurement[J]. 
+ J Clin Endocrinol Metab, 
+ 1990， 
+ 70( 
+ 2)： 
+ 453- 
+ 460. 
+ DOI: 10.1210/jcem-70-2-453. 
+ [13] 
+ CaronPJ, NiemanLK, RoseSR, et al. 
+ Deficient nocturnal surge of thyrotropin in central hypothyroidism[J]. 
+ J Clin Endocrinol Metab, 
+ 1986， 
+ 62( 
+ 5)： 
+ 960- 
+ 964. 
+ DOI: 10.1210/jcem-62-5-960. 
+ [14] 
+ KarmisholtJ, AndersenS, LaurbergP. 
+ Variation in thyroid function tests in patients with stable untreated subclinical hypothyroidism[J]. 
+ Thyroid, 
+ 2008， 
+ 18( 
+ 3)： 
+ 303- 
+ 308. 
+ DOI: 10.1089/thy.2007.0241. 
+ [15] 
+ BoucaiL, HollowellJG, SurksMI. 
+ An approach for development of age-，gender-，and ethnicity-specific thyrotropin reference limits[J]. 
+ Thyroid, 
+ 2011， 
+ 21( 
+ 1)： 
+ 5- 
+ 11. 
+ DOI: 10.1089/thy.2010.0092. 
+ [16] 
+ VölzkeH, AlteD, KohlmannT, et al. 
+ Reference intervals of serum thyroid function tests in a previously iodine-deficient area[J]. 
+ Thyroid, 
+ 2005， 
+ 15( 
+ 3)： 
+ 279- 
+ 285. 
+ DOI: 10.1089/thy.2005.15.279. 
+ [17] 
+ VölzkeH, SchmidtCO, JohnU, et al. 
+ Reference levels for serum thyroid function tests of diagnostic and prognostic significance[J]. 
+ Horm Metab Res, 
+ 2010， 
+ 42( 
+ 11)： 
+ 809- 
+ 814. 
+ DOI: 10.1055/s-0030-1263121. 
+ [18] 
+ GuanH, ShanZ, TengX, et al. 
+ Influence of iodine on the reference interval of TSH and the optimal interval of TSH: results of a follow-up study in areas with different iodine intakes[J]. 
+ Clin Endocrinol(Oxf), 
+ 2008， 
+ 69( 
+ 1)： 
+ 136- 
+ 141. 
+ DOI: 10.1111/j.1365-2265.2007.03150.x. 
+ [19] 
+ KapteinEM, SpencerCA, KamielMB, et al. 
+ Prolonged dopamine administration and thyroid hormone economy in normal and critically ill subjects[J]. 
+ J Clin Endocrinol Metab, 
+ 1980， 
+ 51( 
+ 2)： 
+ 387- 
+ 393. 
+ DOI: 10.1210/jcem-51-2-387. 
+ [20] 
+ SowersJR, CarlsonHE, BrautbarN, et al. 
+ Effect of dexamethasone on prolactin and TSH responses to TRH and metoclopramide in man[J]. 
+ J Clin Endocrinol Metab, 
+ 1977， 
+ 44( 
+ 2)： 
+ 237- 
+ 241. 
+ DOI: 10.1210/jcem-44-2-237. 
+ [21] 
+ WongET, BradleySG, SchultzAL. 
+ Elevations of thyroid-stimulating hormone during acute nonthyroidal illness[J]. 
+ Arch Intern Med, 
+ 1981， 
+ 141( 
+ 7)： 
+ 873- 
+ 875. 
+ [22] 
+ Stagnaro-GreenA, AbalovichM, AlexanderE, et al. 
+ Guidelines of the American Thyroid Association for the diagnosis and management of thyroid disease during pregnancy and postpartum[J]. 
+ Thyroid, 
+ 2011， 
+ 21( 
+ 10)： 
+ 1081- 
+ 1125. 
+ DOI: 10.1089/thy.2011.0087. 
+ [23] 
+ LightmanSL, FoxP, DunneMJ. 
+ The effect of SMS 201-995, a long-acting somatostatin analogue, on anterior pituitary function in healthy male volunteers[J]. 
+ Scand J Gastroenterol Suppl, 
+ 1986， 
+ 119： 
+ 84- 
+ 95. 
+ [24] 
+ ShermanSI, GopalJ, HaugenBR, et al. 
+ Central hypothyroidism associated with retinoid X receptor-selective ligands[J]. 
+ N Engl J Med, 
+ 1999， 
+ 340( 
+ 14)： 
+ 1075- 
+ 1079. 
+ DOI: 10.1056/NEJM199904083401404. 
+ [25] 
+ LawsonEA, KlibanskiA. 
+ Endocrine abnormalities in anorexia nervosa[J]. 
+ Nat Clin Pract Endocrinol Metab, 
+ 2008， 
+ 4( 
+ 7)： 
+ 407- 
+ 414. 
+ DOI: 10.1038/ncpendmet0872. 
+ [26] 
+ Beck-PeccozP, AmrS, Menezes-FerreiraMM, et al. 
+ Decreased receptor binding of biologically inactive thyrotropin in central hypothyroidism. Effect of treatment with thyrotropin-releasing hormone[J]. 
+ N Engl J Med, 
+ 1985， 
+ 312( 
+ 17)： 
+ 1085- 
+ 1090. 
+ DOI: 10.1056/NEJM198504253121703. 
+ [27] 
+ GershengornMC, WeintraubBD. 
+ Thyrotropin-induced hyperthyroidism caused by selective pituitary resistance to thyroid hormone. A new syndrome of" inappropriate secretion of TSH"[J]. 
+ J Clin Invest, 
+ 1975， 
+ 56( 
+ 3)： 
+ 633- 
+ 642. 
+ DOI: 10.1172/JCI108133. 
+ [28] 
+ HuberG, StaubJJ, MeierC, et al. 
+ Prospective study of the spontaneous course of subclinical hypothyroidism: prognostic value of thyrotropin, thyroid reserve, and thyroid antibodies[J]. 
+ J Clin Endocrinol Metab, 
+ 2002， 
+ 87( 
+ 7)： 
+ 3221- 
+ 3226. 
+ DOI: 10.1210/jcem.87.7.8678. 
+ [29] 
+ UnuaneD, VelkeniersB, AnckaertE, et al. 
+ Thyroglobulin autoantibodies: is there any added value in the detection of thyroid autoimmunity in women consulting for fertility treatment？[J] 
+ Thyroid, 
+ 2013， 
+ 23( 
+ 8)： 
+ 1022- 
+ 1028. 
+ DOI: 10.1089/thy.2012.0562. 
+ [30] 
+ LazarusJ, BrownRS, DaumerieC, et al. 
+ 2014 European thyroid association guidelines for the management of subclinical hypothyroidism in pregnancy and in children[J]. 
+ Eur Thyroid J, 
+ 2014， 
+ 3( 
+ 2)： 
+ 76- 
+ 94. 
+ DOI: 10.1159/000362597. 
+ [31] 
+ LiY, TengD, ShanZ, et al. 
+ Antithyroperoxidase and antithyroglobulin antibodies in a five-year follow-up survey of populations with different iodine intakes[J]. 
+ J Clin Endocrinol Metab, 
+ 2008， 
+ 93( 
+ 5)： 
+ 1751- 
+ 1757. 
+ DOI: 10.1210/jc.2007-2368. 
+ [32] 
+ TunbridgeWM, EveredDC, HallR, et al. 
+ The spectrum of thyroid disease in a community: the Whickham survey[J]. 
+ Clin Endocrinol(Oxf), 
+ 1977， 
+ 7( 
+ 6)： 
+ 481- 
+ 493. 
+ [33] 
+ de BruinTW, van BarlingenH, van Linde-Sibenius TripM, et al. 
+ Lipoprotein(a)and apolipoprotein B plasma concentrations in hypothyroid, euthyroid, and hyperthyroid subjects[J]. 
+ J Clin Endocrinol Metab, 
+ 1993， 
+ 76( 
+ 1)： 
+ 121- 
+ 126. 
+ DOI: 10.1210/jcem.76.1.8421075. 
+ [34] 
+ DaneseMD, LadensonPW, MeinertCL, et al. 
+ Clinical review 115: effect of thyroxine therapy on serum lipoproteins in patients with mild thyroid failure: a quantitative review of the literature[J]. 
+ J Clin Endocrinol Metab, 
+ 2000， 
+ 85( 
+ 9)： 
+ 2993- 
+ 3001. 
+ DOI: 10.1210/jcem.85.9.6841. 
+ [35] 
+ KleinI, MantellP, ParkerM, et al. 
+ Resolution of abnormal muscle enzyme studies in hypothyroidism[J]. 
+ Am J Med Sci, 
+ 1980， 
+ 279( 
+ 3)： 
+ 159- 
+ 162. 
+ [36] 
+ Ness-AbramofR, NabriskiDA, ShapiroMS, et al. 
+ Cardiac troponin T is not increased in patients with hypothyroidism[J]. 
+ Intern Med J, 
+ 2009， 
+ 39( 
+ 2)： 
+ 117- 
+ 120. 
+ DOI: 10.1111/j.1445-5994.2008.01856.x. 
+ [37] 
+ HennesseyJV, GarberJR, WoeberKA, et al. 
+ American Association of Clinical Endocrinologists and American College of Endocrinology Position Statement on Thyroid Dysfunction Case Finding[J]. 
+ Endocr Pract, 
+ 2016， 
+ 22( 
+ 2)： 
+ 262- 
+ 270. 
+ DOI: 10.4158/EP151038.PS. 
+ [38] 
+ BenvengaS, BartoloneL, SquadritoS, et al. 
+ Delayed intestinal absorption of levothyroxine[J]. 
+ Thyroid, 
+ 1995， 
+ 5( 
+ 4)： 
+ 249- 
+ 253. 
+ DOI: 10.1089/thy.1995.5.249. 
+ [39] 
+ PerezCL, ArakiFS, GrafH, et al. 
+ Serum thyrotropin levels following levothyroxine administration at breakfast[J]. 
+ Thyroid, 
+ 2013， 
+ 23( 
+ 7)： 
+ 779- 
+ 784. 
+ DOI: 10.1089/thy.2012.0435. 
+ [40] 
+ Bach-HuynhTG, NayakB, LohJ, et al. 
+ Timing of levothyroxine administration affects serum thyrotropin concentration[J]. 
+ J Clin Endocrinol Metab, 
+ 2009， 
+ 94( 
+ 10)： 
+ 3905- 
+ 3912. 
+ DOI: 10.1210/jc.2009-0860. 
+ [41] 
+ BolkN, VisserTJ, NijmanJ, et al. 
+ Effects of evening vs morning levothyroxine intake: a randomized double-blind crossover trial[J]. 
+ Arch Intern Med, 
+ 2010， 
+ 170( 
+ 22)： 
+ 1996- 
+ 2003. 
+ DOI: 10.1001/archinternmed.2010.436. 
+ [42] 
+ CurranPG, DeGrootLJ. 
+ The effect of hepatic enzyme-inducing drugs on thyroid hormones and the thyroid gland[J]. 
+ Endocr Rev, 
+ 1991， 
+ 12( 
+ 2)： 
+ 135- 
+ 150. 
+ DOI: 10.1210/edrv-12-2-135. 
+ [43] 
+ JonklaasJ, BiancoAC, BauerAJ, et al. 
+ Guidelines for the treatment of hypothyroidism: prepared by the american thyroid association task force on thyroid hormone replacement[J]. 
+ Thyroid, 
+ 2014， 
+ 24( 
+ 12)： 
+ 1670- 
+ 1751. 
+ DOI: 10.1089/thy.2014.0028. 
+ [44] 
+ JacksonIM, CobbWE. 
+ Why does anyone still use desiccated thyroid USP？[J] 
+ Am J Med, 
+ 1978， 
+ 64( 
+ 2)： 
+ 284- 
+ 288. 
+ [45] 
+ Lev-RanA. 
+ Part-of-the-day hypertriiodothyroninemia caused by desiccated thyroid[J]. 
+ JAMA, 
+ 1983， 
+ 250( 
+ 20)： 
+ 2790- 
+ 2791. 
+ [46] 
+ PennyR, FrasierSD. 
+ Elevated serum concentrations of triiodothyronine in hypothyroid patients. Values forpatients receiving USP thyroid[J]. 
+ Am J Dis Child, 
+ 1980, 
+ 134： 
+ 16- 
+ 18. 
+ [47] 
+ SurksMI, SchadlowAR, OppenheimerJH. 
+ A new radioimmunoassay for plasma L-triiodothyronine: measurements in thyroid disease and in patients maintained on hormonal replacement[J]. 
+ J Clin Invest, 
+ 1972， 
+ 51( 
+ 12)： 
+ 3104- 
+ 3113. 
+ DOI: 10.1172/JCI107137. 
+ [48] 
+ FishLH, SchwartzHL, CavanaughJ, et al. 
+ Replacement dose, metabolism, and bioavailability of levothyroxine in the treatment of hypothyroidism. Role of triiodothyronine in pituitary feedback in humans[J]. 
+ N Engl J Med, 
+ 1987， 
+ 316( 
+ 13)： 
+ 764- 
+ 770. 
+ DOI: 10.1056/NEJM198703263161302. 
+ [49] 
+ MaedaM, KuzuyaN, MasuyamaY, et al. 
+ Changes in serum triiodothyronine, thyroxine, and thyrotropin during treatment with thyroxine in severe primary hypothyroidism[J]. 
+ J Clin Endocrinol Metab, 
+ 1976， 
+ 43( 
+ 1)： 
+ 10- 
+ 17. 
+ DOI: 10.1210/jcem-43-1-10. 
+ [50] 
+ BrajkovichIE, MashiterK, JoplinGF, et al. 
+ Serum T4, T3, and TSH levels in primary hypothyroidism during replacement therapy with thyroxine[J]. 
+ Metabolism, 
+ 1983， 
+ 32( 
+ 8)： 
+ 745- 
+ 747. 
+ [51] 
+ SomwaruLL, RariyCM, ArnoldAM, et al. 
+ The natural history of subclinical hypothyroidism in the elderly: the cardiovascular health study[J]. 
+ J Clin Endocrinol Metab, 
+ 2012， 
+ 97( 
+ 6)： 
+ 1962- 
+ 1969. 
+ DOI: 10.1210/jc.2011-3047. 
+ [52] 
+ EveredDC, OrmstonBJ, SmithPA, et al. 
+ Grades of hypothyroidism[J]. 
+ Br Med J, 
+ 1973, 
+ 1( 
+ 5854): 
+ 657- 
+ 662. 
+ [53] 
+ DuntasLH. 
+ Subclinical hypothyroidism: a misnomer in search of a new name[J]. 
+ Thyroid, 
+ 2001， 
+ 11( 
+ 4)： 
+ 361- 
+ 362. 
+ DOI: 10.1089/10507250152039091. 
+ [54] 
+ PearceSH, BrabantG, DuntasLH, et al. 
+ 2013 ETA Guideline: Management of Subclinical Hypothyroidism[J]. 
+ Eur Thyroid J, 
+ 2013， 
+ 2( 
+ 4)： 
+ 215- 
+ 228. 
+ DOI: 10.1159/000356507. 
+ [55] 
+ 戴红，单忠艳，滕晓春，等. 
+ 不同碘摄入量社区甲状腺功能减退症的五年随访研究[J]． 
+ 中华内分泌代谢杂志， 
+ 2006， 
+ 22( 
+ 6)： 
+ 528- 
+ 531. 
+ DOI: 10.3760/j.issn:1000-6699.2006.06.006. 
+ [56] 
+ HakAE, PolsHA, VisserTJ, et al. 
+ Subclinical hypothyroidism is an independent risk factor for atherosclerosis and myocardial infarction in elderly women: the Rotterdam Study[J]. 
+ Ann Intern Med, 
+ 2000， 
+ 132( 
+ 4)： 
+ 270- 
+ 278. 
+ [57] 
+ WangF, TanY, WangC, et al. 
+ Thyroid-stimulating hormone levels within the reference range are associated with serum lipid profiles independent of thyroid hormones[J]. 
+ J Clin Endocrinol Metab, 
+ 2012， 
+ 97( 
+ 8)： 
+ 2724- 
+ 2731. 
+ DOI: 10.1210/jc.2012-1133. 
+ [58] 
+ XuC, YangX, LiuW, et al. 
+ Thyroid stimulating hormone, independent of thyroid hormone, can elevate the serum total cholesterol level in patients with coronary heart disease: a cross-sectional design[J]. 
+ Nutr Metab(Lond), 
+ 2012， 
+ 9( 
+ 1)： 
+ 44. 
+ DOI: 10.1186/1743-7075-9-44. 
+ [59] 
+ TanisBC, WestendorpGJ, SmeltHM. 
+ Effect of thyroid substitution on hypercholesterolaemia inpatients with subclinical hypothyroidism: a reanalysis of intervention studies[J]． 
+ Clin Endocrinol(Oxf), 
+ 1996, 
+ 44( 
+ 6)： 
+ 643- 
+ 649. 
+ [60] 
+ DaneseMD, LadensonPW, MeinertCL, et al. 
+ Clinical review 115: effect of thyroxine therapy on serum lipoproteins in patients with mild thyroid failure: a quantitative review of the literature[J]. 
+ J Clin Endocrinol Metab, 
+ 2000， 
+ 85( 
+ 9)： 
+ 2993- 
+ 3001. 
+ DOI: 10.1210/jcem.85.9.6841. 
+ [61] 
+ CooperDS, BiondiB. 
+ Subclinical thyroid disease[J]. 
+ Lancet, 
+ 2012, 
+ 379( 
+ 9821)： 
+ 1142- 
+ 1154. 
+ DOI: 10.1016/S0140-6736(11)60276-6. 
+ [62] 
+ TeixeiraPF, ReutersVS, FerreiraMM, et al. 
+ Treatment of subclinical hypothyroidism reduces atherogenic lipid levels in a placebo-controlled double-blind clinical trial[J]. 
+ Horm Metab Res, 
+ 2008， 
+ 40( 
+ 1)： 
+ 50- 
+ 55. 
+ DOI: 10.1055/s-2007-993216. 
+ [63] 
+ RazviS, IngoeL, KeekaG, et al. 
+ The beneficial effect of L-thyroxine on cardiovascular risk factors, endothelial function, and quality of life in subclinical hypothyroidism: randomized, crossover trial[J]. 
+ J Clin Endocrinol Metab, 
+ 2007， 
+ 92( 
+ 5)： 
+ 1715- 
+ 1723. 
+ DOI: 10.1210/jc.2006-1869. 
+ [64] 
+ GarberJR, CobinRH, GharibH, et al. 
+ Clinical practice guidelines for hypothyroidism in adults: cosponsored by the American Association of Clinical Endocrinologists and the American Thyroid Association[J]. 
+ Thyroid, 
+ 2012， 
+ 22( 
+ 12)： 
+ 1200- 
+ 1235. 
+ DOI: 10.1089/thy.2012.0205. 
+ [65] 
+ HaddowJE, PalomakiGE, AllanWC, et al. 
+ Maternal thyroid deficiency during pregnancy and subsequent neuropsychological development of the child[J]. 
+ N Engl J Med, 
+ 1999， 
+ 341( 
+ 8)： 
+ 549- 
+ 555. 
+ DOI: 10.1056/NEJM199908193410801. 
+ [66] 
+ SuPY, HuangK, HaoJH, et al. 
+ Maternal thyroid function in the first twenty weeks of pregnancy and subsequent fetal and infant development: a prospective population-based cohort study in China[J]. 
+ J Clin Endocrinol Metab, 
+ 2011， 
+ 96( 
+ 10)： 
+ 3234- 
+ 3241. 
+ DOI: 10.1210/jc.2011-0274. 
+ [67] 
+ Cleary-GoldmanJ, MaloneFD, Lambert-MesserlianG, et al. 
+ Maternal thyroid hypofunction and pregnancy outcome[J]. 
+ Obstet Gynecol, 
+ 2008， 
+ 112( 
+ 1)： 
+ 85- 
+ 92. 
+ DOI: 10.1097/AOG.0b013e3181788dd7. 
+ [68] 
+ ThangaratinamS, TanA, KnoxE, et al. 
+ Association between thyroid autoantibodies and miscarriage and preterm birth: meta-analysis of evidence[J]. 
+ BMJ, 
+ 2011， 
+ 342： 
+ d2616. 
+ [69] 
+ LiuH, ShanZ, LiC, et al. 
+ Maternal subclinical hypothyroidism, thyroid autoimmunity, and the risk of miscarriage: a prospective cohort study[J]. 
+ Thyroid, 
+ 2014， 
+ 24( 
+ 11)： 
+ 1642- 
+ 1649. 
+ DOI: 10.1089/thy.2014.0029. 
+ [70] 
+ LiY, ShanZ, TengW, et al. 
+ Abnormalities of maternal thyroid function during pregnancy affect neuropsychological development of their children at 25-30 months[J]. 
+ Clin Endocrinol(Oxf), 
+ 2010， 
+ 72( 
+ 6)： 
+ 825- 
+ 829. 
+ DOI: 10.1111/j.1365-2265.2009.03743.x. 
+ [71] 
+ BathSC, RaymanMP. 
+ Antenatal thyroid screening and childhood cognitive function[J]. 
+ N Engl J Med, 
+ 2012， 
+ 366( 
+ 17)： 
+ 1640-1641; author reply 1641. 
+ DOI: 10.1056/NEJMc1202720#SA1. 
+ [72] 
+ NaritaM, KimuraK, TanimuraN, et al. 
+ Immunohistochemical characterization of calf pneumonia produced by the combined endobronchial administration of bovine herpesvirus 1 and Pasteurella haemolytica[J]. 
+ J Comp Pathol, 
+ 2000， 
+ 123( 
+ 2-3)： 
+ 126- 
+ 134. 
+ DOI: 10.1053/jcpa.2000.0402. 
+ [73] 
+ VissenbergR, van den BoogaardE, van WelyM, et al. 
+ Treatment of thyroid disorders before conception and in early pregnancy: a systematic review[J]. 
+ Hum Reprod Update, 
+ 2012， 
+ 18( 
+ 4)： 
+ 360- 
+ 373. 
+ DOI: 10.1093/humupd/dms007. 
+ [74] 
+ MarakaS, OspinaNM, O′KeeffeDT, et al. 
+ Subclinical Hypothyroidism in Pregnancy: A Systematic Review and Meta-Analysis[J]. 
+ Thyroid, 
+ 2016， 
+ 26( 
+ 4)： 
+ 580- 
+ 590. 
+ DOI: 10.1089/thy.2015.0418. 
+ [75] 
+ LiC, ShanZ, MaoJ, et al. 
+ Assessment of thyroid function during first-trimester pregnancy: what is the rational upper limit of serum TSH during the first trimester in Chinese pregnant women？[J] 
+ J Clin Endocrinol Metab, 
+ 2014， 
+ 99( 
+ 1)： 
+ 73- 
+ 79. 
+ DOI: 10.1210/jc.2013-1674. 
+ [76] 
+ De GrootL, AbalovichM, AlexanderEK, et al. 
+ Management of thyroid dysfunction during pregnancy and postpartum: an Endocrine Society clinical practice guideline[J]. 
+ J Clin Endocrinol Metab, 
+ 2012， 
+ 97( 
+ 8)： 
+ 2543- 
+ 2565. 
+ DOI: 10.1210/jc.2011-2803. 
+ [77] 
+ 中华医学会内分泌学分会，中华医学会围产医学分会. 
+ 妊娠和产后甲状腺疾病诊治指南[J]． 
+ 中华内分泌代谢杂志， 
+ 2012， 
+ 28( 
+ 5)： 
+ 354- 
+ 371. 
+ DOI: 10.3760/cma.j.issn.1000-6699.2012.05.002. 
+ [78] 
+ YuX, ChenY, ShanZ, et al. 
+ The pattern of thyroid function of subclinical hypothyroid women with levothyroxine treatment during pregnancy[J]. 
+ Endocrine, 
+ 2013， 
+ 44( 
+ 3)： 
+ 710- 
+ 715. 
+ DOI: 10.1007/s12020-013-9913-2. 
+ [79] 
+ WiersingaWM，DeGrootLJ, JamesonJL. 
+ Hypothyroidism and myxedema[M]. 
+ Endocrinology. 
+ 4th ed. 
+ Philadelphia: 
+ Saunders， 
+ 2001, 
+ 1491- 
+ 1507. 
+ [80] 
+ YamamotoT, FukuyamaJ, FujiyoshiA. 
+ Factors associated with mortality of myxedema coma: report of eight cases and literature survey[J]. 
+ Thyroid, 
+ 1999， 
+ 9( 
+ 12)： 
+ 1167- 
+ 1174. 
+ DOI: 10.1089/thy.1999.9.1167. 
+ [81] 
+ RodríguezI, FluitersE, Pérez-MéndezLF, et al. 
+ Factors associated with mortality of patients with myxoedema coma: prospective study in 11 cases treated in a single institution[J]. 
+ J Endocrinol, 
+ 2004， 
+ 180( 
+ 2)： 
+ 347- 
+ 350. 
+ [82] 
+ FerrettiE, PersaniL, Jaffrain-ReaML, et al. 
+ Evaluation of the adequacy of levothyroxine replacement therapy in patients with central hypothyroidism[J]. 
+ J Clin Endocrinol Metab, 
+ 1999， 
+ 84( 
+ 3)： 
+ 924- 
+ 929. 
+ DOI: 10.1210/jcem.84.3.5553. 
+ [83] 
+ AbelED, KaulbachHC, Campos-BarrosA, et al. 
+ Novel insight from transgenic mice into thyroid hormone resistance and the regulation of thyrotropin[J]. 
+ J Clin Invest, 
+ 1999， 
+ 103( 
+ 2)： 
+ 271- 
+ 279. 
+ DOI: 10.1172/JCI5205. 
+ [84] 
+ BrownNS, SmartA, SharmaV, et al. 
+ Thyroid hormone resistance and increased metabolic rate in the RXR-gamma-deficient mouse[J]. 
+ J Clin Invest, 
+ 2000， 
+ 106( 
+ 1)： 
+ 73- 
+ 79. 
+ DOI: 10.1172/JCI9422. 
+ [85] 
+ RosenMD, PrivalskyML. 
+ Thyroid hormone receptor mutations in cancer and resistance to thyroid hormone: perspective and prognosis[J]. 
+ J Thyroid Res, 
+ 2011， 
+ 2011： 
+ 361304. 
+ DOI: 10.4061/2011/361304. 
+ [86] 
+ PohlenzJ, WeissRE, MacchiaPE, et al. 
+ Five new families with resistance to thyroid hormone not caused by mutations in the thyroid hormone receptor beta gene[J]. 
+ J Clin Endocrinol Metab, 
+ 1999， 
+ 84( 
+ 11)： 
+ 3919- 
+ 3928. 
+ DOI: 10.1210/jcem.84.11.6080. 
+ [87] 
+ RefetoffS, WeissRE, UsalaSJ. 
+ The syndromes of resistance to thyroid hormone[J]. 
+ Endocr Rev, 
+ 1993, 
+ 14( 
+ 3): 
+ 348- 
+ 399. 
+ [88] 
+ YenPM, SugawaraA, RefetoffS, et al. 
+ New insights on the mechanism(s)of the dominant negative effect of mutant thyroid hormone receptor in generalized resistance to thyroid hormone[J]. 
+ J Clin Invest, 
+ 1992， 
+ 90( 
+ 5)： 
+ 1825- 
+ 1831. 
+ DOI: 10.1172/JCI116058. 
+ [89] 
+ BernalJ, RefetoffS, DeGrootLJ. 
+ Abnormalities of triiodothyronine binding to lymphocyte and fibroblast nuclei from a patient with peripheral tissue resistance to thyroid hormone action[J]. 
+ J Clin Endocrinol Metab, 
+ 1978， 
+ 47( 
+ 6)： 
+ 1266- 
+ 1272. 
+ DOI: 10.1210/jcem-47-6-1266. 
+ [90] 
+ KoppP, KitajimaK, JamesonJL. 
+ Syndrome of resistance to thyroid hormone: insights into thyroid hormone action[J]. 
+ Proc Soc Exp Biol Med, 
+ 1996， 
+ 211( 
+ 1)： 
+ 49- 
+ 61. 
+ [91] 
+ FagliaG. 
+ The clinical impact of the thyrotropin-releasing hormone test[J]. 
+ Thyroid, 
+ 1998， 
+ 8( 
+ 10)： 
+ 903- 
+ 908. 
+ DOI: 10.1089/thy.1998.8.903. 
+ [92] 
+ WeissRE, SteinMA, RefetoffS. 
+ Behavioral effects of liothyronine(L-T3)in children with attention deficit hyperactivity disorder in the presence and absence of resistance to thyroid hormone[J]. 
+ Thyroid, 
+ 1997， 
+ 7( 
+ 3)： 
+ 389- 
+ 393. 
+ DOI: 10.1089/thy.1997.7.389. 
+ [93] 
+ TakedaT, SuzukiS, LiuRT, et al. 
+ Triiodothyroacetic acid has unique potential for therapy of resistance to thyroid hormone[J]. 
+ J Clin Endocrinol Metab, 
+ 1995， 
+ 80( 
+ 7)： 
+ 2033- 
+ 2040. 
+ DOI: 10.1210/jcem.80.7.7608251. 
+ [94] 
+ RadettiG, PersaniL, MolinaroG, et al. 
+ Clinical and hormonal outcome after two years of triiodothyroacetic acid treatment in a child with thyroid hormone resistance[J]. 
+ Thyroid, 
+ 1997， 
+ 7( 
+ 5)： 
+ 775- 
+ 778. 
+ DOI: 10.1089/thy.1997.7.775. 
+ [95] 
+ AnzaiR, AdachiM, ShoN, et al. 
+ Long-term 3，5，3′-triiodothyroacetic acid therapy in a child with hyperthyroidism caused by thyroid hormone resistance: pharmacological study and therapeutic recommendations[J]. 
+ Thyroid, 
+ 2012， 
+ 22( 
+ 10)： 
+ 1069- 
+ 1075. 
+ DOI: 10.1089/thy.2011.0450. 
+ [96] 
+ Beck-PeccozP, PiscitelliG, CattaneoMG, et al. 
+ Successful treatment of hyperthyroidism due to nonneoplastic pituitary TSH hypersecretion with 3，5，3′-triiodothyroacetic acid(TRIAC)[J]. 
+ J Endocrinol Invest, 
+ 1983， 
+ 6( 
+ 3)： 
+ 217- 
+ 223. 
+ DOI: 10.1007/BF03350611. 
+ [97] 
+ WeissRE, RefetoffS. 
+ Treatment of resistance to thyroid hormone--primum non nocere[J]. 
+ J Clin Endocrinol Metab, 
+ 1999， 
+ 84( 
+ 2)： 
+ 401- 
+ 404. 
+ DOI: 10.1210/jcem.84.2.5534. 
+ [98] 
+ SlagMF, MorleyJE, ElsonMK, et al. 
+ Hypothyroxinemia in critically ill patients as a predictor of high mortality[J]. 
+ JAMA, 
+ 1981， 
+ 245( 
+ 1)： 
+ 43- 
+ 45. 
+ [99] 
+ KapteinEM, WeinerJM, RobinsonWJ, et al. 
+ Relationship of altered thyroid hormone indices to survival in nonthyroidal illnesses[J]. 
+ Clin Endocrinol(Oxf), 
+ 1982， 
+ 16( 
+ 6)： 
+ 565- 
+ 574. 
+ [100] 
+ KaplanMM, LarsenPR, CrantzFR, et al. 
+ Prevalence of abnormal thyroid function test results in patients with acute medical illnesses[J]. 
+ Am J Med, 
+ 1982， 
+ 72( 
+ 1)： 
+ 9- 
+ 16. 
+ [101] 
+ PeetersRP, WoutersPJ, KapteinE, et al. 
+ Reduced activation and increased inactivation of thyroid hormone in tissues of critically ill patients[J]. 
+ J Clin Endocrinol Metab, 
+ 2003， 
+ 88( 
+ 7)： 
+ 3202- 
+ 3211. 
+ DOI: 10.1210/jc.2002-022013. 
+ [102] 
+ KapteinEM, BealeE, ChanLS. 
+ Thyroid hormone therapy for obesity and nonthyroidal illnesses: a systematic review[J]. 
+ J Clin Endocrinol Metab, 
+ 2009， 
+ 94( 
+ 10)： 
+ 3663- 
+ 3675. 
+ DOI: 10.1210/jc.2009-0899. 
+ [103] 
+ KapteinEM, SanchezA, BealeE, et al. 
+ Clinical review: Thyroid hormone therapy for postoperative nonthyroidal illnesses: a systematic review and synthesis[J]. 
+ J Clin Endocrinol Metab, 
+ 2010， 
+ 95( 
+ 10)： 
+ 4526- 
+ 4534. 
+ DOI: 10.1210/jc.2010-1052. 
+ [104] 
+ BrentGA, HershmanJM. 
+ Thyroxine therapy in patients with severe nonthyroidal illnesses and low serum thyroxine concentration[J]. 
+ J Clin Endocrinol Metab, 
+ 1986， 
+ 63( 
+ 1)： 
+ 1- 
+ 8. 
+ DOI: 10.1210/jcem-63-1-1. 
+ [105] 
+ BeckerRA, VaughanGM, ZieglerMG, et al. 
+ Hypermetabolic low triiodothyronine syndrome of burn injury[J]. 
+ Crit Care Med, 
+ 1982， 
+ 10( 
+ 12)： 
+ 870- 
+ 875. 
+ 贡献者信息 
+ 中华医学会内分泌学分会 
+ 历史 
+ 出版日期：2017-02-25 
+ 收稿日期：2016-07-21 
+ 本文编辑 
+ 朱鋐达 
+ Guidelines and Consensus 
+ Guidelines for Diagnosis and Management of Hypothyroidism in adults 
+ Published 
+ 2017-02-25 
+ Cite as 
+ Chin J Endocrinol Metab, 2017,33(2): 167-180. DOI: 10.3760/cma.j.issn.1000-6699.2017.02.018 
+ 共有 
+ 条评论 
+ 验证码 
+ 发布 
+ 本文被引情况 
+ CSCD： 
+ 0次 
+ 学位论文： 
+ 0次 
+ 数据支持(点击图标了解更多) 
+ 施引文献 
+ (最多仅列5条文献，进入CSCD官网发现更多) 
+ 未获取施引文献信息... 
+ 暂无相关资源 
+ [1]
+ 夏鹏(译者).
+ 如何阻止悲伤成为职业负担[J].
+ 测试杂志,
+ 2015,
+ 1(1):575–576.
+ --> 
+ 相关视频 
+ 查看更多 
+ 无相关视频 
+ 无相关视频 
+ 无相关视频 
+ 指南中常见英文缩略语释义(按字母顺序)
+ 缩略语 | 
+ 英文全称 | 
+ 中文全称 | 
+ | 
+ D3 | 
+ Type 3 deiodinase | 
+ Ⅲ型脱碘酶 | 
+ ESS | 
+ Euthyroid sick syndrome | 
+ 甲状腺功能正常的病态综合征 | 
+ FT3 | 
+ Free triiodothyronine | 
+ 游离三碘甲腺原氨酸 | 
+ FT4 | 
+ Free thyroxine | 
+ 游离甲状腺素 | 
+ GRTH | 
+ Generalized resistance to thyroid hormone | 
+ 全身型甲状腺激素抵抗综合征 | 
+ HCG | 
+ Human chorionic gonadotropin | 
+ 人绒毛膜促性腺激素 | 
+ ICMA | 
+ Immunochemilumino assay | 
+ 免疫化学发光法 | 
+ IQ | 
+ Intelligence quotient | 
+ 智商 | 
+ IRMA | 
+ Immunoradiometric assay | 
+ 免疫放射法 | 
+ L-T3 | 
+ Liothyronine | 
+ 三碘甲腺原氨酸/碘塞罗宁 | 
+ L-T4 | 
+ Levothyroxine | 
+ 左甲状腺素 | 
+ NIS | 
+ Sodium-iodide symporter | 
+ 钠碘协同转运体 | 
+ perRTH | 
+ Selective peripheral resistance to thyroid hormones | 
+ 外周选择型甲状腺激素抵抗综合征 | 
+ PRTH | 
+ Selective pituitary resistance to thyroid hormones | 
+ 垂体选择型甲状腺激素抵抗综合征 | 
+ RIA | 
+ Radio-immunologic assay | 
+ 放射免疫法 | 
+ RTH | 
+ Syndrome of resistance to thyroid hormone | 
+ 甲状腺激素抵抗综合征 | 
+ rT3 | 
+ Reverse T3 | 
+ 反T3 | 
+ T2 | 
+ Diiodothyronine | 
+ 二碘甲腺原氨酸 | 
+ TBG | 
+ Thyroxine binding globulin | 
+ 甲状腺素结合球蛋白 | 
+ TBPA | 
+ Thyroxine binding prealbumin | 
+ 甲状腺素结合前白蛋白 | 
+ Tg | 
+ Thyroglobulin | 
+ 甲状腺球蛋白 | 
+ TgAb | 
+ Thyroglobulin antibody | 
+ 甲状腺球蛋白抗体 | 
+ TH | 
+ Thyroid hormones | 
+ 甲状腺激素 | 
+ TPO | 
+ Thyroid peroxidase | 
+ 甲状腺过氧化物酶 | 
+ TPOAb | 
+ Thyroid peroxidase antibody | 
+ 甲状腺过氧化物酶抗体 | 
+ TR | 
+ Thyroid hormone receptor | 
+ 甲状腺激素受体 | 
+ TRH | 
+ Thyrotropin-releasing hormone | 
+ 促甲状腺激素释放激素 | 
+ TRIAC | 
+ Triiodothyroacetic acid | 
+ 三碘甲腺乙酸 | 
+ TSH | 
+ Thyroid stimulating hormone | 
+ 促甲状腺激素 | 
+ TSBAb | 
+ TSHR stimulating-blocking antibody | 
+ TSH受体刺激阻断性抗体 | 
+ TT3 | 
+ Total triiodothyronine | 
+ 总三碘甲腺原氨酸 | 
+ TT4 | 
+ Total thyroxine | 
+ 总甲状腺素 | 
+ 推荐分级
+ 强度分级 | 
+ 推荐强度涵义 | 
+ | 
+ A | 
+ 强力推荐。循证证据肯定，能够改善健康的结局，利大于弊 | 
+ B | 
+ 推荐。循证证据良好，能够改善健康的结局，利大于弊 | 
+ C | 
+ 推荐。基于专家的意见 | 
+ D | 
+ 反对推荐。基于专家的意见 | 
+ E | 
+ 反对推荐。循证证据良好，不能改善健康结局或弊大于利 | 
+ F | 
+ 强力反对推荐。循证证据肯定，不能改善健康结局或对于健康结局，弊大于利 | 
+ I | 
+ 不做推荐或不做常规推荐。推荐或反对推荐的循证证据不足、缺乏或结果矛盾，利弊无法评判 | 
+ 推荐条款
+ 序号 | 
+ 推荐 | 
+ 推荐级别 | 
+ | 
+ 1 | 
+ 血清TSH和游离T4(FT4)、总T4(TT4)是诊断原发性甲减的第一线指标 | 
+ A | 
+ 2 | 
+ 原发性临床甲减的治疗目标：甲减的症状和体征消失，血清TSH和TT4、FT4水平维持在正常范围 | 
+ A | 
+ 3 | 
+ 左甲状腺素(L-T4)是甲减的主要替代治疗药物 | 
+ A | 
+ 4 | 
+ 甲减替代治疗药物的剂量取决于患者的病情、年龄、体重，要个体化 | 
+ A | 
+ 5 | 
+ 甲减替代治疗药物的起始剂量和达到完全替代剂量所需的时间要根据病情、年龄、体重及心脏功能状态确定，要个体化 | 
+ A | 
+ 6 | 
+ L-T4的服药方法首选早饭前1小时，与其他药物和某些食物的服用间隔应当在4小时以上 | 
+ A | 
+ 7 | 
+ 不推荐单独应用L-T3作为甲减的替代治疗药物 | 
+ F | 
+ 8 | 
+ 干甲状腺片是动物甲状腺的干制剂，因其甲状腺激素含量不稳定并含T3量较大，目前不推荐作为甲减的首选替代治疗药物 | 
+ E | 
+ 9 | 
+ 不推荐常规使用L-T4/L-T3联合用药治疗甲减 | 
+ I | 
+ 10 | 
+ 补充L-T4治疗初期，每间隔4～6周测定血清TSH及FT4。根据TSH及FT4水平调整L-T4剂量，直至达到治疗目标。治疗达标后，至少需要每6～12个月复查1次上述指标 | 
+ B | 
+ 11 | 
+ 亚临床甲减通常缺乏明显的临床症状和体征。诊断主要依赖实验室检查。需2～3个月重复测定血清TSH及FT4或TT4水平，TSH升高且FT4、TT4正常，方可诊断亚临床甲减 | 
+ A | 
+ 12 | 
+ 根据TSH水平，亚临床甲减可分为两类：轻度亚临床甲减(TSH<10 mIU/L)和重度亚临床甲减(TSH≥10 mIU/L) | 
+ C | 
+ 序号 | 
+ 推荐 | 
+ 推荐级别 | 
+ | 
+ 13 | 
+ 重度亚临床甲减(TSH≥10 mIU/L)患者，主张给予L-T4替代治疗。治疗的目标和方法与临床甲减一致 | 
+ B | 
+ 14 | 
+ 轻度亚临床甲减(TSH<10 mIU/L)患者，如果伴甲减症状、TPOAb阳性、血脂异常或动脉粥样硬化性疾病，应予L-T4治疗 | 
+ C | 
+ 15 | 
+ 根据妊娠特异性TSH和FT4参考范围诊断妊娠期甲减和亚临床甲减 | 
+ A | 
+ 16 | 
+ 妊娠期临床甲减损害后代的神经智力发育，增加早产、流产、低体重儿、死胎和妊娠高血压等风险，必须给予治疗 | 
+ A | 
+ 17 | 
+ L-T4是治疗妊娠期甲减和亚临床甲减的首选替代药物 | 
+ A | 
+ 18 | 
+ 既往患有甲减或亚临床甲减的育龄妇女计划妊娠，调整L-T4剂量，使TSH在正常范围、最好TSH<2.5 mIU/L再妊娠 | 
+ B | 
+ 19 | 
+ 妊娠期诊断的临床甲减应立即L-T4足量治疗，TSH尽快达标 | 
+ A | 
+ 20 | 
+ 妊娠期甲减和亚临床甲减治疗的血清TSH目标：T1期0.1～2.5 mIU/L，T2期0.2～3.0 mIU/L，T3期0.3～3.0 mIU/L | 
+ B | 
+ 21 | 
+ 血清TSH和FT4/TT4应在妊娠前半期每4周监测一次，TSH平稳可以延长至每6周一次 | 
+ B | 
+ 22 | 
+ 妊娠期亚临床甲减妇女，TSH>正常参考范围上限，不考虑TPOAb是否阳性，应开始使用L-T4治疗 | 
+ B | 
+ 23 | 
+ 临床甲减患者产后L-T4剂量恢复到妊娠前水平，妊娠期诊断的亚临床甲减患者产后可以停用L-T4，均需在产后6周复查甲状腺功能及抗体 | 
+ B | 
+ 24 | 
+ 黏液性水肿昏迷是甲减的危重急症，病死率高，应积极救治。治疗上除了给予L-T4之外，有条件时还需静脉注射L-T3 | 
+ A | 
+ 25 | 
+ 继发于下丘脑和垂体的甲减，以血清FT4、TT4达到正常范围作为治疗的目标，不以TSH作为监测指标 | 
+ A | 
+ 26 | 
+ 当血清T4、T3水平升高，但是TSH不被抑制时，提示甲状腺激素抵抗综合征(RTH)，要注意鉴别诊断。伴有甲减症状的RTH可选择甲状腺激素治疗，对伴有甲亢症状的RTH可对症和选择三碘甲腺乙酸治疗 | 
+ B | 
+ 27 | 
+ 甲状腺功能正常的病态综合征不建议甲状腺激素替代治疗 | 
+ E | 
+ 表1 
+ 甲减病因
+ 原发性甲减(primary hypothyroidism) | 
+ | 
+ | 
+ 自身免疫性甲状腺炎(桥本甲状腺炎、萎缩性甲状腺炎、Riedel甲状腺炎等) | 
+ | 
+ | 
+ 甲状腺全切或次全切术后 | 
+ | 
+ | 
+ 甲亢131I治疗后 | 
+ | 
+ | 
+ 颈部放疗后 | 
+ | 
+ | 
+ 甲状腺内广泛病变(淀粉样变性、胱氨酸尿症、血色沉着病等) | 
+ | 
+ | 
+ 细胞因子(白介素-2、干扰素γ) | 
+ | 
+ | 
+ 先天性甲状腺缺如 | 
+ | 
+ | 
+ 异位甲状腺 | 
+ | 
+ | 
+ 亚急性甲状腺炎 | 
+ | 
+ | 
+ 缺碘性地方性甲状腺肿 | 
+ | 
+ | 
+ 碘过量 | 
+ | 
+ | 
+ 药物(碳酸锂、硫脲类、磺胺类、对氨基水杨酸钠、过氯酸钾、保泰松、硫氢酸盐、酪氨酸激酶抑制剂等) | 
+ | 
+ | 
+ 致甲状腺肿物质(长期大量食用卷心菜、芜菁、甘蓝、木薯等) | 
+ | 
+ | 
+ TSH不敏感综合征 | 
+ | 
+ | 
+ 孕妇中重度碘缺乏或口服过量抗甲状腺药物出生的婴儿 | 
+ | 
+ | 
+ 甲状腺内Gs蛋白异常(假性甲旁减Ia型) | 
+ | 
+ | 
+ 甲状腺激素合成相关基因异常(NIS基因突变、pendrin基因突变、TPO基因突变、Tg基因突变、碘化酶基因突变、脱碘酶基因突变等) | 
+ 继 发性甲减(secondary hypothyroidism)或中枢性甲减(central hypothyroidism) | 
+ | 
+ 垂体性甲减 | 
+ | 
+ | 
+ 垂体肿瘤 | 
+ | 
+ | 
+ 淋巴细胞性垂体炎 | 
+ | 
+ | 
+ 浸润性疾病(血色沉着病、结核、真菌感染等) | 
+ | 
+ | 
+ 垂体手术 | 
+ | 
+ | 
+ 垂体放疗 | 
+ | 
+ | 
+ 垂体缺血性坏死(Sheehan syndrome) | 
+ | 
+ | 
+ 药物：贝沙罗汀(Bexarotene)、多巴胺、肾上腺皮质激素 | 
+ | 
+ | 
+ TRH受体基因突变 | 
+ | 
+ | 
+ 严重全身疾病 | 
+ 下丘脑性甲减 | 
+ | 
+ | 
+ | 
+ 下丘脑肿瘤、慢性炎症或嗜酸性肉芽肿 | 
+ | 
+ | 
+ 头部放疗 | 
+ | 
+ | 
+ 颅脑手术 | 
+ 消耗性甲减[因D3代偿性活性增加而致甲状腺素(T4)灭活过多] | 
+ | 
+ | 
+ 血管瘤 | 
+ | 
+ | 
+ 血管内皮瘤病 | 
+ | 
+ | 
+ 体外循环手术后 | 
+ 甲状腺激素不敏感综合征(RTH) | 
+ | 
+ | 
+ 全身型(GRTH) | 
+ | 
+ | 
+ 选择性外周型(perRTH) | 
+ 注：TSH：促甲状腺素；FT4：游离T4；甲减：甲状腺功能减退症；TPOAb：甲状腺过氧化物酶抗体；TgAb：甲状腺球蛋白抗体；TRH：促甲状腺激素释放激素
+ 图1 
+ 甲状腺功能减退症诊断思路 
+ 向我们报错 
+ PDF与文章不符错误 
+ PDF失效 
+ 文档错误 
+ 出处错误 
+ 作者姓名或顺序错误 
+ 作者单位错误 
+ 上报错误 --> 
+ 或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+ 请选择PDF下载会员类型 
+ 中华内科杂志期刊畅读会员（下载余量： 123）
+ 中华内科杂志期刊畅读会员（下载余量： 123）
+ 中华内科杂志期刊畅读会员（下载余量： 123） --> 
+ 取消 
+ 下载 
+ 出 处：中华内分泌代谢杂志2017年33卷2期
+ 文 题：成人甲状腺功能减退症诊治指南
+ 优惠价：0 元
+ 账户余额支付 
+ 账户余额：0 元
+ 余额足够时不再提示 
+ 取消 
+ 直接购买 
+ 刊 期：中华内分泌代谢杂志2017年33卷2期
+ 优惠价：0 元 原价：0 元
+ 账户余额支付 
+ 账户余额：0 元
+ 余额足够时不再提示 
+ 取消 
+ 直接购买 
+ 支付成功！ 
+ 关闭 
+ 购买失败,请稍后再试! 
+ 取消 
+ 去充值 
+ 点赞成功！ 
+ 关闭 
+ 收藏成功！ 
+ 关闭 
+ 收藏 
+ 选择收藏夹： 
+ 第二个 第二个 
+ 新建收藏夹 
+ 分享到我的朋友圈 
+ 网络异常，请联系客服 
+ 取消 
+ 之前,每个页面中添加一次即可--> 
+ 中华医学会杂志社读者俱乐部会员权益说明 
+ 读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+ 在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+ 享受中华医学会杂志社主办会议和培训费用的优惠政策；
+ 观看会议直播和录播视频；
+ 享受会员价购买商品；
+ 参加中华医学会杂志社举办的学术沙龙。
+ 我已了解 
+ X 
+ 选择其他平台 >> 
+ 分享到 
+ 分享到 
+ X 
+ 腾讯微博 
+ 一键通 
+ 新浪微博 
+ QQ空间 
+ 搜狐微博 
+ 新华微博 
+ 手机 
+ 网易微博 
+ 开心网 
+ 豆瓣网 
+ 手机快传 
+ 人人网 
+ 天涯 
+ 凤凰微博 
+ 朋友网 
+ 微信 
+ QQ好友 
+ 更多平台... 
+ (133) 
+ bShare

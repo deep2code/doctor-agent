@@ -1,0 +1,1203 @@
+[
+ {
+  "id": "hi-heat-levels",
+  "condition_zh": "中暑分三级：先兆中暑、轻症中暑（体温38.5℃以上）与重症中暑的识别与界值",
+  "condition_en": "Three stages of heat illness: warning signs, mild heat stroke (temperature above 38.5 C), and severe heat stroke",
+  "category": "heat_injury",
+  "prevention": [
+   "先兆中暑：高温环境下出现头痛、头晕、眼花、恶心、多汗、四肢无力发酸、全身疲乏、心悸、注意力不集中、动作不协调，体温正常或略有升高——立即脱离高温环境、到阴凉处休息、多喝水，谨防进一步恶化",
+   "轻症中暑：先兆症状加重，体温升高达38.5℃以上，伴面色潮红、大量出汗、皮肤灼热，或出现四肢湿冷、面色苍白、血压下降、脉搏增快——到通风阴凉处休息，饮用含盐清凉饮料并对症处理",
+   "重症中暑：可发展为热痉挛、热衰竭和热射病（可表现为混合型），不及时救治可导致死亡，必须立即送医或拨打120",
+   "一旦怀疑中暑的处置：迅速转移至阴凉通风处，解开衣物，用冷水喷洒、擦拭身体，用冰袋、湿冷毛巾置于颈部、腋窝、大腿根（大血管处）降温，通风加速散热",
+   "意识清醒且能饮水者，少量多次补充清凉含电解质饮料；若症状不能缓解，或出现高热、意识不清，立即送医或拨打120，同时持续物理降温"
+  ],
+  "when_to_seek_care": [
+   "体温超过38.5℃并伴面色潮红、大量出汗，脱离高温休息后仍不缓解或继续加重，应到急诊科或内科就诊",
+   "出现意识模糊、抽搐、嗜睡昏迷、皮肤干热伴体温超过40℃，提示重症中暑/热射病，立即拨打120送急诊，不要自行观察等待"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《桑拿天热易中暑，防护知识要清楚》（中国疾控中心环境与健康相关产品安全所）",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.chinacdc.cn/jkkp/hjjk/qhbh/202508/t20250804_309139.html"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《高温中暑卫生应急处置技术预案》（四川省疾病预防控制中心，依据中疾控应急发〔2014〕164号等编制）",
+    "journal": "",
+    "year": 2018,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.sccdc.cn/Article/View?id=24605"
+   }
+  ],
+  "keywords": [
+   "中暑",
+   "中暑了怎么办",
+   "先兆中暑",
+   "轻症中暑",
+   "轻度中暑",
+   "重症中暑",
+   "体温38.5度",
+   "38.5度是中暑吗",
+   "头晕恶心是中暑吗",
+   "中暑发烧",
+   "面色潮红",
+   "四肢无力发酸",
+   "中暑怎么处理",
+   "中暑降温",
+   "头晕乏力是不是中暑",
+   "有什么表现",
+   "中暑表现",
+   "体温多少度",
+   "中暑体温",
+   "怎么区分"
+  ]
+ },
+ {
+  "id": "hi-heatstroke-signs",
+  "condition_zh": "热射病的三大致命信号：核心体温超40℃、意识障碍、皮肤干热无汗，死亡率高达30%-70%",
+  "condition_en": "Heat stroke recognition: core temperature above 40 C, altered consciousness, hot dry skin; case fatality 30-70%",
+  "category": "heat_injury",
+  "prevention": [
+   "热射病是最危险的中暑类型，本质是人体产热与散热平衡彻底崩溃：核心体温超过40.0℃是基本标志，皮肤触摸发烫",
+   "“断电”的大脑：意识模糊、胡言乱语、抽搐甚至昏迷，提示神经系统已受损",
+   "“干枯”的皮肤：早期可能大汗，很快转为皮肤干热无汗——汗腺功能衰竭的标志；可伴恶心呕吐、肌肉痉挛、呼吸急促",
+   "高温接触者可在10-15分钟内体温升到40℃以上，不接受紧急救护可导致死亡或残疾，死亡率高达30%-70%",
+   "分两型：劳力型热射病多见于青壮年（建筑工人、运动员、军训、马拉松等高强度体力活动诱发）；经典型热射病多见于老年人、儿童、慢性病患者等体温调节能力弱者，仅于闷热室内静坐也可致病",
+   "与普通发热的区别：普通发烧是身体“主动升温”对抗病原体，热射病是散热系统“瘫痪”导致的被动过热，急救四原则之一是拒绝退烧药",
+   "环境温度超过35.0℃、湿度大于60%时，人体出汗蒸发散热效率骤降，热量在体内急速蓄积"
+  ],
+  "when_to_seek_care": [
+   "体温飙升超过40℃，出现意识模糊、抽搐或者嗜睡、昏迷等症状，可能是致命的热射病，陪同人员应立即拨打120急救电话送急诊",
+   "夏季高强度运动或户外作业中出现极度乏力、说话含糊、站不稳、皮肤发烫，即使还没到40℃也应停止活动并尽快就医评估"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《夏季高温杀手——热射病》（北京市垂杨柳医院，北京市卫健委健康科普栏目）",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://wjw.beijing.gov.cn/bmfw_20143/jkzs/jbzs/202508/t20250821_4180402.html"
+   },
+   {
+    "type": "national_guideline",
+    "title": "国家疾控局“健康度夏 科学应对夏季高发传染病与高温等健康风险”主题新闻发布会实录",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.ndcpa.gov.cn/jbkzzx/c100009/common/content/content_1943600485204660224.html"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《高温热浪公众健康防护指南》（国家疾病预防控制局发布）",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.chinacdc.cn/jkyj/hjyjk/jswj2/202408/t20240829_296365.html"
+   }
+  ],
+  "keywords": [
+   "热射病",
+   "热射病是什么病",
+   "体温40度是热射病吗",
+   "中暑体温40度",
+   "皮肤发烫不出汗",
+   "干热无汗",
+   "意识模糊抽搐",
+   "热射病死亡率",
+   "热射病能治好吗",
+   "劳力型热射病",
+   "经典型热射病",
+   "马拉松中暑",
+   "军训热射病",
+   "老人闷热房间中暑",
+   "中暑吃退烧药没用",
+   "中暑",
+   "无汗",
+   "意识障碍",
+   "热射病信号"
+  ]
+ },
+ {
+  "id": "hi-heatstroke-firstaid",
+  "condition_zh": "热射病现场急救：快速降温+紧急送医，目标30分钟内把体温降到39℃以下",
+  "condition_en": "Heat stroke first aid: rapid cooling (cold water immersion 20-25 C, ice packs to neck/axillae/groin) targeting below 39 C within 30 minutes, then emergency transport",
+  "category": "heat_injury",
+  "prevention": [
+   "急救黄金法则：快速降温＋紧急送医，每延迟降温5分钟死亡率显著上升；目标30分钟内将体温降至39.0℃以下（预案口径为坚持降温直到体温降到38℃）",
+   "转移：立即将患者移至阴凉通风处，解开衣裤",
+   "降温：冷水喷洒全身并用风扇强力吹风（蒸发散热）；冰袋或湿毛巾敷颈部、腋窝、腹股沟等大血管处；冷水浸泡以20-25℃水温为宜，避免冰水刺激血管收缩",
+   "也可将患者裹在凉水浸湿的单子或衣物里用风扇猛吹；持续监测体温",
+   "体位：清醒者抬高头部；昏迷或呕吐者取侧卧位防窒息；肌肉不自主抽搐时防止患者伤到自己，不要在嘴里放任何东西",
+   "补水禁忌：昏迷患者禁止喂水，不要试图喂液体补充水分；清醒者可少量饮用淡盐水",
+   "求救：同步拨打急救电话，说明“疑似热射病、体温超40.0℃”；急救未能及时赶到时继续拨打120寻求指导，不主动挂断"
+  ],
+  "when_to_seek_care": [
+   "怀疑热射病即刻拨打120送急诊：一边现场降温一边等车，不要等“自行缓解”后再决定去不去医院",
+   "降温过程中患者叫不醒、呼吸异常或呕吐，保持侧卧并告知急救人员，到院后由急诊科处理"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《夏季高温杀手——热射病》（北京市垂杨柳医院，北京市卫健委健康科普栏目）",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://wjw.beijing.gov.cn/bmfw_20143/jkzs/jbzs/202508/t20250821_4180402.html"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《高温中暑卫生应急处置技术预案》（四川省疾病预防控制中心）",
+    "journal": "",
+    "year": 2018,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.sccdc.cn/Article/View?id=24605"
+   }
+  ],
+  "keywords": [
+   "热射病急救",
+   "中暑急救方法",
+   "中暑怎么降温",
+   "冷水浸泡降温",
+   "冰袋敷哪里",
+   "颈部腋下大腿根",
+   "中暑抽搐怎么办",
+   "昏迷可以喂水吗",
+   "拨打120说什么",
+   "30分钟内降温",
+   "侧卧防窒息",
+   "中暑送医",
+   "热射病抢救",
+   "中暑",
+   "中暑昏迷",
+   "怎么急救",
+   "热射病降温",
+   "现场急救"
+  ]
+ },
+ {
+  "id": "hi-heat-cramps-exhaustion",
+  "condition_zh": "热痉挛与热衰竭：重症中暑的另两种表现，痉挛1小时不缓解或伴心脏病要就医",
+  "condition_en": "Heat cramps and heat exhaustion: cramps usually with normal temperature, seek care if lasting over 1 hour or with heart disease; exhaustion features BP drop and pallor, temperature below 40 C",
+  "category": "heat_injury",
+  "prevention": [
+   "热痉挛：大量出汗后出现短暂、间歇发作的肌痉挛伴收缩痛，多见于四肢肌肉、咀嚼肌及腹肌，尤以腓肠肌为著，呈对称性；患者意识清醒、体温一般正常",
+   "热痉挛处置：停止一切活动静坐凉爽处，饮用稀释果汁或运动饮料；即使痉挛缓解，之后几小时内也不要再重体力劳动或剧烈运动，否则可能进展为热衰竭甚至热射病",
+   "有心脏病史、正在低盐饮食，或1小时后热痉挛仍未消退，要寻求专业医疗处理",
+   "热衰竭：起病迅速，眩晕、头痛、恶心或呕吐、大量出汗、脸色苍白、极度虚弱疲倦、肌肉痉挛、短暂晕厥（通常片刻后清醒）；皮肤可能冰凉潮湿，血压下降、脉搏快而弱、呼吸急促且浅；体温常升高但不超过40℃",
+   "热衰竭处置：凉爽不含酒精的饮料、休息、凉水澡或擦拭身体、开空调、换轻便衣服",
+   "老年人、高血压患者及高温环境中重体力劳动或长跑者更易发生热衰竭；出现反胃、腹泻或呕吐会丢失更多体液，可能恶化为热射病"
+  ],
+  "when_to_seek_care": [
+   "热衰竭症状严重、伴有心脏疾病或高血压、或症状持续不好转继续恶化，立即就医（急诊科）",
+   "高温运动后肌肉痉挛超过1小时不缓解，或本身有心脏病史、正在低盐饮食，应寻求医疗处理"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《高温中暑卫生应急处置技术预案》（四川省疾病预防控制中心）",
+    "journal": "",
+    "year": 2018,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.sccdc.cn/Article/View?id=24605"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《高温热浪公众健康防护指南》（国家疾病预防控制局发布）",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.chinacdc.cn/jkyj/hjyjk/jswj2/202408/t20240829_296365.html"
+   }
+  ],
+  "keywords": [
+   "热痉挛",
+   "热衰竭",
+   "中暑腿抽筋",
+   "小腿抽筋是怎么回事",
+   "运动后抽筋",
+   "中暑晕倒",
+   "恶心头晕乏力",
+   "面色苍白出冷汗",
+   "血压下降脉搏快",
+   "中暑心慌气短",
+   "抽筋多久不好要看医生",
+   "大量出汗后抽筋",
+   "中暑休克前兆",
+   "中暑",
+   "大量出汗",
+   "头晕无力",
+   "腿抽筋",
+   "抽筋",
+   "是不是中暑"
+  ]
+ },
+ {
+  "id": "hi-heat-hydrate",
+  "condition_zh": "高温天怎么补水：饮水量至少增至平时1.5倍，户外作业每15-20分钟200-300毫升，少量多次补电解质",
+  "condition_en": "Hydration in hot weather: increase intake to at least 1.5x usual; 200-300 ml every 15-20 min for outdoor work; 500-1000 ml per hour during intense exercise; electrolytes; avoid alcohol/caffeine/high-sugar drinks",
+  "category": "heat_injury",
+  "prevention": [
+   "主动、多次、足量饮水，不要等口渴了再喝；高温天气饮水量至少增加至平时的1.5倍",
+   "中等强度户外作业：每15至20分钟喝1杯水（200-300毫升），在口渴前喝水",
+   "剧烈运动或高温体力劳动：至少每小时喝2-4杯凉水（500-1000毫升），少量多次",
+   "大量出汗时及时补充电解质：淡盐水、糖盐水、运动饮料、口服补液盐",
+   "限制或避免含酒精、咖啡因、高糖的饮料，它们会加速脱水；也不要喝过凉的冰冻饮料，以免造成胃部痉挛、消化道不适",
+   "因疾病限制饮水量或正在服用利尿剂的人，高温时饮水量应咨询医生；注意尿量与颜色，尿量减少、颜色变深提示体内水分不足",
+   "饮食清淡、按时吃饭，多吃富含水分的蔬菜水果；保证充足睡眠，身体疲惫时更易中暑"
+  ],
+  "when_to_seek_care": [
+   "口渴伴头晕、心悸、乏力，先转移到阴凉处并小口多次补含电解质饮品；不适症状持续存在应及时就医",
+   "呕吐频繁无法进水、尿量明显减少时到急诊/内科就诊评估脱水"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《桑拿天热易中暑，防护知识要清楚》（中国疾控中心环境与健康相关产品安全所）",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.chinacdc.cn/jkkp/hjjk/qhbh/202508/t20250804_309139.html"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《高温热浪公众健康防护指南》（国家疾病预防控制局发布）",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.chinacdc.cn/jkyj/hjyjk/jswj2/202408/t20240829_296365.html"
+   },
+   {
+    "type": "national_guideline",
+    "title": "国家疾控局2025年“健康度夏”主题新闻发布会实录",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.ndcpa.gov.cn/jbkzzx/c100009/common/content/content_1943600485204660224.html"
+   }
+  ],
+  "keywords": [
+   "中暑喝什么",
+   "高温天气喝多少水",
+   "淡盐水",
+   "口服补液盐",
+   "运动饮料",
+   "出很多汗要补盐吗",
+   "口渴前喝水",
+   "尿液颜色深",
+   "尿少是不是缺水",
+   "夏天脱水",
+   "中暑能喝冰水吗",
+   "干活出汗多怎么办",
+   "每小时喝多少水",
+   "补水",
+   "喝水",
+   "怎么喝水",
+   "电解质",
+   "补电解质",
+   "多久补一次水",
+   "补一次水",
+   "户外工作",
+   "干活出汗"
+  ]
+ },
+ {
+  "id": "hi-work-stop-thresholds",
+  "condition_zh": "高温停工规定：40℃以上停止当日室外露天作业，37-40℃累计不超6小时，35-37℃轮休不加班",
+  "condition_en": "China outdoor work thresholds under heat: stop all open-air work at >=40 C daily max; <=6 h cumulative at 37-40 C with no work during the 3 hottest hours; shift rotation and no overtime at 35-37 C; wages may not be cut for heat-related stoppage",
+  "category": "heat_injury",
+  "prevention": [
+   "日最高气温达到40℃以上：应当停止当日室外露天作业（因人身财产安全和公众利益需要紧急处理的除外）",
+   "日最高气温达到37℃以上、40℃以下：全天安排劳动者室外露天作业时间累计不得超过6小时，连续作业时间不得超过国家规定，且在气温最高时段3小时内不得安排室外露天作业",
+   "日最高气温达到35℃以上、37℃以下：应当采取换班轮休等方式缩短连续作业时间，并且不得安排室外露天作业劳动者加班",
+   "因高温天气停止工作、缩短工作时间的，用人单位不得扣除或降低劳动者工资",
+   "“高温天气”指地市级以上气象主管部门所属气象台站发布的日最高气温35℃以上的天气；办法所称“以上”含本数，“以下”不含本数",
+   "高温天气来临前，用人单位应对高温作业劳动者进行健康检查，对患心、肺、脑血管性疾病、肺结核、中枢神经系统疾病等不适合高温作业环境者调整作业岗位"
+  ],
+  "when_to_seek_care": [
+   "劳动者出现中暑症状，用人单位应立即救助：迅速脱离高温环境、通风阴凉处休息、供给防暑降温饮料；病情严重者及时送医疗卫生机构（急诊）",
+   "用人单位违反高温作业时间与工资津贴规定的，可向人力资源社会保障部门或工会反映（办法第二十条、二十一条）"
+  ],
+  "citations": [
+   {
+    "type": "national_policy",
+    "title": "《防暑降温措施管理办法》（安监总安健〔2012〕89号，国家安监总局/卫生部/人社部/全国总工会联合印发）",
+    "journal": "",
+    "year": 2012,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202208/t20220802_3000518.html"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《高温中暑卫生应急处置技术预案》（四川省疾病预防控制中心）",
+    "journal": "",
+    "year": 2018,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.sccdc.cn/Article/View?id=24605"
+   }
+  ],
+  "keywords": [
+   "多少度停工",
+   "高温停工规定",
+   "40度停止室外作业",
+   "37度露天作业6小时",
+   "高温天气上班规定",
+   "户外作业时间规定",
+   "停工扣工资吗",
+   "高温天气减少工时",
+   "建筑工地高温规定",
+   "快递员高温权益",
+   "露天作业加班",
+   "35度以上规定",
+   "中暑算工伤吗",
+   "高温停工",
+   "室外作业",
+   "露天作业",
+   "高温加班",
+   "倒班轮休",
+   "能安排加班吗",
+   "37度以上能安排加班吗",
+   "37度以上能加班吗"
+  ]
+ },
+ {
+  "id": "hi-heat-allowance",
+  "condition_zh": "高温津贴与高温作业职业禁忌：室外35℃以上或工位降不到33℃以下应发津贴；五种情况严禁高温作业",
+  "condition_en": "Heat allowance eligibility (open-air work >=35 C or workplace cannot be kept below 33 C), protections for pregnant and underage workers, and occupational contraindications to heat work",
+  "category": "heat_injury",
+  "prevention": [
+   "劳动者从事高温作业的依法享受岗位津贴：用人单位安排35℃以上高温天气从事室外露天作业，以及不能采取有效措施将工作场所温度降低到33℃以下的，应当向劳动者发放高温津贴并纳入工资总额；标准由省级制定并适时调整",
+   "用人单位应提供足够的符合卫生标准的防暑降温饮料及必需药品，不得以发放钱物替代防暑饮料，防暑降温饮料不得充抵高温津贴",
+   "不得安排怀孕女职工和未成年工在35℃以上高温天气期间从事室外露天作业，及温度在33℃以上的工作场所作业；也不得安排其从事GBZ/T229.3第三级以上高温工作场所作业",
+   "高温作业职业禁忌证（严禁从事高温作业）：未控制的高血压、慢性肾炎、未控制的甲状腺功能亢进、全身瘢痕面积≥20%、癫痫",
+   "劳动者因高温作业或高温天气作业引起中暑，经诊断为职业病的，享受工伤保险待遇；职业性中暑诊断须由省级卫生行政部门批准的医疗卫生机构承担",
+   "户外作业人员上岗前和在岗期间宜定期职业健康检查；高温工作环境应设带座椅、通风良好或配空调的休息场所"
+  ],
+  "when_to_seek_care": [
+   "有未控制高血压、甲亢、慢性肾病、癫痫等禁忌证仍需从事高温作业后出现不适，应停止作业并就诊评估，必要时向用人单位和职业病诊断机构反映",
+   "工作中疑似中暑病情严重（高热、意识改变）立即送医，并保留作业时间、气温记录以备职业病诊断"
+  ],
+  "citations": [
+   {
+    "type": "national_policy",
+    "title": "《防暑降温措施管理办法》（安监总安健〔2012〕89号）",
+    "journal": "",
+    "year": 2012,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202208/t20220802_3000518.html"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《高温热浪公众健康防护指南》（国家疾病预防控制局发布）",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.chinacdc.cn/jkyj/hjyjk/jswj2/202408/t20240829_296365.html"
+   }
+  ],
+  "keywords": [
+   "高温津贴",
+   "高温补贴",
+   "多少度发高温津贴",
+   "33度以下",
+   "防暑降温费",
+   "怀孕能高温作业吗",
+   "未成年工高温",
+   "职业病中暑",
+   "中暑工伤保险",
+   "高温作业禁忌",
+   "高血压能高温作业吗",
+   "甲亢高温作业",
+   "瘢痕体质高温作业",
+   "上岗前职业健康检查",
+   "高温作业",
+   "职业病"
+  ]
+ },
+ {
+  "id": "hi-home-cooling",
+  "condition_zh": "居家与车内防暑：空调26-28℃，气温超32℃风扇基本无效，儿童绝不能单独留在车内",
+  "condition_en": "Home and vehicle heat safety: AC at 26-28 C, fans ineffective above 32 C, car interior can rise ~7 C within 10 minutes parked and reach 60 C within 15 minutes; never leave children alone in cars",
+  "category": "heat_injury",
+  "prevention": [
+   "合理使用空调和风扇降温除湿，空调温度一般建议26-28℃，避免直吹，适当开窗通风；热射病预防建议空调调至26.0℃、湿度低于60%",
+   "气温升高至32℃以上后，电扇对减少中暑发生效果甚微；用凉水洗脸、擦拭身体或待在空调房里才是有效的降温措施",
+   "永远不要把婴幼儿或儿童单独留在停放的车里（即使车窗留了缝隙）：泊车后10分钟内车内温度可上升近7摄氏度，15分钟车内温度可升至60.0℃，可致严重中暑甚至死亡",
+   "老人不可为“省电”不开空调——密闭无空调的室内经典型热射病高发",
+   "建议65岁以上老人的家人或朋友至少每天上下午两次电话确认健康状况；独居老人宜每天探望，把联系方式留给邻居或社区",
+   "家里没有空调可借助商场、图书馆等公共场所避暑；夜间清晨开窗通风，关闭朝阳窗户或用遮阳帘，减少室内易产热电器使用，防范电线过载引发火灾"
+  ],
+  "when_to_seek_care": [
+   "在闷热房间发现老人皮肤发烫、叫不应或意识模糊，警惕热射病，立即拨打120送急诊，同时开窗开空调、冷毛巾敷颈部腋下持续降温",
+   "把孩子独自留在车内一段时间后出现发热、嗜睡、呕吐，哪怕看似无碍也立即送儿科/急诊并告知高温滞留时间"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《高温中暑卫生应急处置技术预案》（四川省疾病预防控制中心）",
+    "journal": "",
+    "year": 2018,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.sccdc.cn/Article/View?id=24605"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《夏季高温杀手——热射病》（北京市垂杨柳医院，北京市卫健委健康科普栏目）",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://wjw.beijing.gov.cn/bmfw_20143/jkzs/jbzs/202508/t20250821_4180402.html"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《桑拿天热易中暑，防护知识要清楚》（中国疾控中心环境与健康相关产品安全所）",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.chinacdc.cn/jkkp/hjjk/qhbh/202508/t20250804_309139.html"
+   }
+  ],
+  "keywords": [
+   "空调开多少度",
+   "26度",
+   "老人不开空调",
+   "为省电不开空调中暑",
+   "电扇不凉快",
+   "32度以上风扇没用",
+   "孩子留在车里",
+   "车内温度能有多高",
+   "车窗留缝也不行",
+   "独居老人防暑",
+   "没有空调怎么降温",
+   "车里闷热危险",
+   "宝宝中暑",
+   "吹风扇",
+   "风扇",
+   "空调",
+   "多少度",
+   "车内降温"
+  ]
+ },
+ {
+  "id": "hi-heat-warnings",
+  "condition_zh": "高温预警信号怎么看：黄色（连续三天35℃以上）、橙色（24小时内升至37℃以上）、红色（升至40℃以上）",
+  "condition_en": "China meteorological heat warning signals: yellow (3 consecutive days above 35 C), orange (above 37 C within 24 h), red (above 40 C within 24 h), plus the 5-tier heat health risk forecast",
+  "category": "heat_injury",
+  "prevention": [
+   "高温预警信号分三级（《气象灾害预警信号及防御指南》，中国气象局令第16号附件）：黄色＝连续三天日最高气温将在35℃以上；橙色＝24小时内最高气温将升至37℃以上；红色＝24小时内最高气温将升至40℃以上",
+   "黄色预警防御：午后尽量减少户外活动，对老弱病幼提供防暑指导，长时间户外露天作业人员采取必要防护措施",
+   "橙色预警防御：尽量避免高温时段户外活动，高温条件下作业人员缩短连续工作时间",
+   "红色预警防御：停止户外露天作业（除特殊行业外），对老弱病幼采取保护措施，注意防火",
+   "另有国家疾控局与中国气象局联合发布的高温健康风险预警，分低、中等、较高、高、极高五个等级：预警图上黄色、橙色、红色分别代表较高风险、高风险、极高风险",
+   "按风险等级：黄色时一般人群保持室内凉爽、减少户外剧烈活动；橙色时重点人群避免外出，确需外出应有人陪同；红色时户外工作者合理安排作业时间并使用防暑降温用品，出现不适应立即停止作业，严重及时就医"
+  ],
+  "when_to_seek_care": [
+   "高温红色/极高风险预警期间出现头晕、乏力、体温升高等中暑先兆，应立即停止户外暴露并降温处理；症状持续或加重及时就医",
+   "老年人、慢性病患者在橙色及以上预警期间尽量不外出；确需外出有人陪同，随身携带防暑饮品"
+  ],
+  "citations": [
+   {
+    "type": "national_policy",
+    "title": "《气象灾害预警信号发布与传播办法》附件《气象灾害预警信号及防御指南》（中国气象局令第16号）",
+    "journal": "",
+    "year": 2007,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://weather.sz.gov.cn/mobile/xinxigongkai/zhengcefagui/m_zhengcefagui_c/content/post_3589163.html"
+   },
+   {
+    "type": "national_guideline",
+    "title": "国家疾控局2025年“健康度夏”主题新闻发布会实录",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.ndcpa.gov.cn/jbkzzx/c100009/common/content/content_1943600485204660224.html"
+   }
+  ],
+  "keywords": [
+   "高温预警",
+   "高温预警信号",
+   "高温黄色预警标准",
+   "高温橙色预警",
+   "高温红色预警",
+   "多少度发高温预警",
+   "红色预警停工吗",
+   "高温健康风险预警",
+   "预警等级颜色",
+   "连续三天35度",
+   "40度红色预警",
+   "预警天还能上班吗"
+  ]
+ },
+ {
+  "id": "hi-heat-risk-groups",
+  "condition_zh": "哪些人最容易中暑：敏感人群、慢病患者、户外工作者三类重点人群",
+  "condition_en": "Populations at highest risk of heat illness: children, pregnant women, older adults; patients with cardiovascular, respiratory, mental, renal disease or diabetes; outdoor workers",
+  "category": "heat_injury",
+  "prevention": [
+   "重点人群三类：敏感人群（儿童、孕妇、老年人）；慢性基础性疾病患者（循环系统疾病、呼吸系统疾病、精神与行为障碍、肾脏疾病及糖尿病等）；户外作业人员（农民、建筑工人、环卫工人、快递员等）",
+   "老年人、孕妇、儿童、慢性病患者、体力劳动者或需要在户外活动的人群，要密切关注天气并结合自身健康状况及时防暑",
+   "热射病危险因素：户外作业（建筑、搬运、执勤）、密闭无空调室内（尤其老人不开空调）、高强度运动（军训、马拉松）、婴幼儿、孕妇、肥胖或服用利尿剂等药物的人群",
+   "服用治疗抑郁症、失眠、血液循环不良药物的人更易受高温影响；高温天气里对这些高危人群中的成年人至少每天上下午两次确认安危",
+   "婴幼儿及儿童更易受高温影响且更依赖他人帮助安排环境和补水，应给予更多更频繁的关注照顾",
+   "初夏第一波热浪或前往更炎热地区时，用几天时间逐步适应气候再进行高强度工作或剧烈运动；长时间在空调环境者可清晨傍晚适当接触高温锻炼耐热能力"
+  ],
+  "when_to_seek_care": [
+   "上述高风险人群一旦出现头晕、头痛、乏力、大量出汗、皮肤发烫、反应迟钝、意识模糊等中暑信号，立即降温补水并及时就医，不要硬扛",
+   "慢性肾病患者、未控制的高血压/糖尿病/甲亢患者应就是否适合高温环境、每日饮水量咨询医生（急诊/肾内/内分泌/心内科）"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《高温热浪公众健康防护指南》（国家疾病预防控制局发布）",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.chinacdc.cn/jkyj/hjyjk/jswj2/202408/t20240829_296365.html"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《高温中暑卫生应急处置技术预案》（四川省疾病预防控制中心）",
+    "journal": "",
+    "year": 2018,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.sccdc.cn/Article/View?id=24605"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《夏季高温杀手——热射病》（北京市垂杨柳医院，北京市卫健委健康科普栏目）",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://wjw.beijing.gov.cn/bmfw_20143/jkzs/jbzs/202508/t20250821_4180402.html"
+   }
+  ],
+  "keywords": [
+   "哪些人容易中暑",
+   "老人中暑危险吗",
+   "小孩中暑",
+   "孕妇高温",
+   "糖尿病人怕热吗",
+   "高血压中暑",
+   "肾病患者夏天注意",
+   "户外工作者防暑",
+   "建筑工人中暑",
+   "环卫工人高温",
+   "肥胖容易中暑吗",
+   "吃利尿剂怕热",
+   "孩子为什么容易中暑",
+   "刚入夏中暑"
+  ]
+ },
+ {
+  "id": "hi-drug-storage-hot",
+  "condition_zh": "高温天药品怎么保存：阴凉处不超20℃、冷处2-10℃；糖浆软膏喷雾散剂不宜放冰箱",
+  "condition_en": "Storing medicines in hot weather: cool-dark place below 20 C vs cold storage 2-10 C; insulin, suppositories and some probiotics need refrigeration, while syrups, ointments, sprays and powders should not",
+  "category": "heat_injury",
+  "prevention": [
+   "《中国药典》贮藏温度四类：阴凉处＝不超过20℃；凉暗处＝避光并不超过20℃；冷处＝2℃～10℃（冰箱保鲜层，非冷冻）；常温（室温）＝10℃～30℃",
+   "所有药品均应避免阳光直晒；有避光要求的保存好原包装、放抽屉柜子等暗处",
+   "需要放冰箱的：未开封的胰岛素、疫苗等生物制品；栓剂（高温软化不易使用，可使用前放冰箱硬化）；部分微生态制剂如双歧杆菌三联活菌等益生菌",
+   "不宜放冰箱的：糖浆（低温析出沉淀、浓度改变，最佳保存10℃～30℃避免阳光直射，开瓶后保质期约1个月）；皮肤外用软膏（低温分层失效）；气雾剂喷雾剂（低温喷药不畅、药雾不均）；散剂（吸湿受潮变质）",
+   "常温保存药（尤其液体制剂）放进冰箱若出现冻结、结晶、异常沉淀，即使恢复到常温也不可继续使用",
+   "夏季避免把药品长时间放在车内或暴露在阳光直射下；取药路程远时用保温袋装应冷藏的药品，回家及时转入冰箱"
+  ],
+  "when_to_seek_care": [
+   "取药后先看说明书【贮藏】一栏，不确定怎么放就咨询药师",
+   "误服了性状改变（变色、结块、沉淀、异味）的药品后出现腹痛、呕吐、皮疹等不适，及时到急诊/内科就诊并带上药品原包装"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《家里的药品怕热吗？能不能放进冰箱“避暑”？》（湖北省卫生健康委健康科普，武汉科技大学附属天佑医院药学部）",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://wjw.hubei.gov.cn/bmdt/jkhb/jkkp/202308/t20230814_4795153.shtml"
+   }
+  ],
+  "keywords": [
+   "药品保存",
+   "药要放冰箱吗",
+   "夏天药品怎么存放",
+   "胰岛素保存",
+   "糖浆能放冰箱吗",
+   "止咳糖浆沉淀",
+   "开封糖浆多久过期",
+   "益生菌要冷藏吗",
+   "栓剂变软",
+   "软膏分层还能用吗",
+   "喷雾剂放冰箱",
+   "药放车里暴晒",
+   "药品变质怎么看",
+   "放冰箱",
+   "要不要放冰箱",
+   "阴凉保存",
+   "阴凉处",
+   "糖浆",
+   "药品冰箱",
+   "冷处保存"
+  ]
+ },
+ {
+  "id": "hi-drowning-burden",
+  "condition_zh": "溺水是1-14岁儿童第一位死亡原因：几分钟内即可致命，男孩风险高于女孩",
+  "condition_en": "Drowning is the leading cause of injury death for children aged 1-14 in China; globally ~300,000 deaths/year, under-5s account for nearly a quarter; male mortality more than double female",
+  "category": "heat_injury",
+  "prevention": [
+   "中国疾控中心科普：溺水是1-14岁儿童的第一位死亡原因；5-9岁儿童好奇心强、活动范围大，喜欢去野外水域游泳戏水，溺水事故往往猝不及防，一旦意外发生可能在短短几分钟内窒息死亡",
+   "WHO：全球每年溺水死亡总数估计30万例；5岁以下儿童占所有溺水死亡人数的近四分之一；溺水是1-4岁儿童的第四大死因、5-14岁儿童的第三大死因",
+   "男性溺水死亡率是女性两倍多，与接触水机会多、独自游泳、游泳前饮酒等行为有关",
+   "在世卫组织西太平洋区域（含我国），5-14岁儿童溺水死亡率高于任何其它死因；0-29岁儿童和青年占所有溺水死亡人数的57%",
+   "热浪会加剧溺水风险：气温升高后更多人寻求用冷水解热，在水中和水上停留时间更长",
+   "会游泳不等于不会溺水：野外水域水温骤变可引发失温或肌肉痉挛、水草缠绕、体力消耗远超预期，呼救时可能四下无人"
+  ],
+  "when_to_seek_care": [
+   "孩子在水边戏水必须有大人在一臂距离内全程看护；“你自己玩会儿我去打个电话”是危险的看护方式",
+   "溺水施救成功后仍应尽快到急诊科/儿科就诊评估——即使当时看着没事（见溺水施救条目）"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《@所有家长，这些地方是孩子溺水高发地》（中国疾控中心慢病中心预防儿童伤害科普）",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://swj.beijing.gov.cn/swdt/ztzl/fnsbaqztxc/fnszlxx/202606/t20260603_4683675.html"
+   },
+   {
+    "type": "who_factsheet",
+    "title": "溺水（世界卫生组织概况介绍，2026年5月更新）",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.who.int/zh/news-room/fact-sheets/detail/drowning"
+   }
+  ],
+  "keywords": [
+   "溺水",
+   "儿童溺水",
+   "小孩溺水",
+   "溺水是儿童第一大死因吗",
+   "溺水死亡人数",
+   "男孩溺水多吗",
+   "几分钟会溺水",
+   "夏天溺水高发",
+   "会游泳会不会溺水",
+   "野外溺水",
+   "暑期儿童安全",
+   "学生溺亡",
+   "儿童死亡",
+   "第一位"
+  ]
+ },
+ {
+  "id": "hi-drowning-hotspots",
+  "condition_zh": "孩子溺水高发地点：4岁以下多在脸盆水缸浴盆，7-10岁在家周边水渠池塘水库",
+  "condition_en": "Where child drownings happen: buckets/tubs for under-4s; irrigation ditches, ponds, reservoirs and landscape waters for 7-10 year olds; inflatable rings are toys, not safety equipment",
+  "category": "heat_injury",
+  "prevention": [
+   "4岁以下的低龄孩子，多在家中脸盆、水缸、浴盆里溺水——家庭少量积水同样致命，婴幼儿附近的水容器不能离人",
+   "7-10岁孩子的危险地带是家周围的水渠、池塘、水库、景观水域：多无防护围栏、无救生员，水底有水草、淤泥、暗流；水渠边坡陡峭失足难上岸，池塘水面平静底部可能有深坑，水库边缘水深可从膝盖骤然没过头顶，城市景观水域还有喷泉设备和水下电线等看不见的危险",
+   "游泳池：在成年人带领下去有资质的游泳馆，下水前看清深水区浅水区，不在池边奔跑打闹、不推人下水，感到寒冷、疲惫、不舒服立即上岸告诉大人，空腹或刚吃完饭不马上游泳、先热身",
+   "彩色塑料吹气游泳圈、水上玩具只是玩具不是专业救生设备：可能突然漏气或被水流推动翻转把人拖入水中；需要漂浮辅助应使用正规救生衣或背漂，并且仍需成年人在一臂距离内看护",
+   "海滩：只在有救生员、插安全信号旗的区域游泳，了解当天潮汐，涨潮退潮时水情复杂不宜下水；海里存在海浪、暗流、水温变化，泳池游得好也不能大意",
+   "乘船：无论船只大小、无论会不会游泳，都必须全程规范穿戴符合年龄和体重的标准救生衣，不在船上打闹、突然站起或来回跑动"
+  ],
+  "when_to_seek_care": [
+   "儿童在水中或水边发生呛咳、被救上岸后哪怕看似正常，也应及时到急诊科/儿科就诊（见溺水施救条目）",
+   "看到同学结伴靠近无防护水域应立即劝阻远离，切勿同行冒险"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《@所有家长，这些地方是孩子溺水高发地》（中国疾控中心慢病中心预防儿童伤害科普）",
+    "journal": "",
+    "year": 2026,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://swj.beijing.gov.cn/swdt/ztzl/fnsbaqztxc/fnszlxx/202606/t20260603_4683675.html"
+   }
+  ],
+  "keywords": [
+   "溺水高发地",
+   "脸盆溺水",
+   "水缸",
+   "浴盆里溺水",
+   "家里积水危险吗",
+   "野外水域溺水",
+   "池塘游泳危险",
+   "水库溺水",
+   "景观水池",
+   "游泳圈安全吗",
+   "充气浮具",
+   "救生衣怎么选",
+   "海边哪里能游泳",
+   "坐船要穿救生衣吗",
+   "泳池深水区",
+   "溺水",
+   "孩子溺水",
+   "容易溺水",
+   "浴室",
+   "水渠",
+   "池塘",
+   "水库"
+  ]
+ },
+ {
+  "id": "hi-drowning-six-nots",
+  "condition_zh": "防溺水“六不”原则：不私自下水、不结伴野泳、不下水施救，同伴溺水要智慧救援",
+  "condition_en": "China's education ministry 'six donts' for student drowning prevention, including never attempting untrained in-water rescue of classmates",
+  "category": "heat_injury",
+  "prevention": [
+   "教育部《致全国中小学生家长的一封信》要求重点教育孩子做到“六不”：不私自下水游泳；不擅自与他人结伴游泳；不在无家长或教师带领的情况下游泳；不到无安全设施、无救援人员的水域游泳；不到不熟悉的水域游泳；不熟悉水性的学生不擅自下水施救",
+   "遇到同伴溺水时避免手拉手盲目施救，要智慧救援，立即寻求成人帮助",
+   "家长要落实孩子脱离学校监管后的看护责任，特别是放学后、周末、节假日期间和孩子结伴外出游玩时的管理",
+   "学校应让学生知晓上下学路上的溺水隐患，主动远离危险水域；农村学生、男学生、留守儿童等重点群体是防溺水教育重点",
+   "危险行为清单：无成年人陪同独自或结伴下水；前往无救生员、无救生设备、标注不宜水域活动的水域；在岸边水面或水中跳水、推搡打闹、憋气潜水"
+  ],
+  "when_to_seek_care": [
+   "孩子私自下水被找回后，检查有无呛咳、呼吸急促、精神差，有则立即就医；同时做好安全教育而非仅责骂",
+   "同伴落水应呼叫成人帮助并拨打120，教育孩子避免手拉手盲目施救；经历过呛水的孩子即使看似正常也应到儿科/急诊检查（见溺水施救条目）"
+  ],
+  "citations": [
+   {
+    "type": "national_policy",
+    "title": "《教育部基础教育一司关于切实做好预防中小学生溺水工作的通知》附件《致全国中小学生家长的一封信》（教基一司函〔2014〕21号）",
+    "journal": "",
+    "year": 2014,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "http://www.moe.gov.cn/s78/A06/tongzhi/201404/t20140409_167006.html"
+   }
+  ],
+  "keywords": [
+   "六不",
+   "防溺水六不准",
+   "防溺水教育",
+   "私自下水游泳",
+   "结伴游泳",
+   "同伴溺水怎么办",
+   "手拉手救人",
+   "孩子下水救人行吗",
+   "会游泳能救溺水者吗",
+   "放学后溺水",
+   "留守儿童溺水",
+   "致家长的一封信防溺水",
+   "野外游泳的孩子",
+   "掉水里",
+   "溺水",
+   "同伴掉水里",
+   "该怎么救",
+   "野泳",
+   "私自下水"
+  ]
+ },
+ {
+  "id": "hi-drowning-rescue",
+  "condition_zh": "发现溺水者怎么救：岸上呼救、拨打120、投递漂浮物，不建议非专业人员下水；救上岸后仍必须就医",
+  "condition_en": "Rescuing a drowning victim: call for help and 120, reach/throw assists from shore, no untrained water entry; victims must be medically evaluated even if they appear fine, because hypoxic brain injury, pulmonary and renal complications can follow",
+  "category": "heat_injury",
+  "prevention": [
+   "第一时间呼叫周围群众援助并尽快拨打120；在专业救援到来前，可向溺水者投递竹竿、衣物、绳索、漂浮物等（岸上救援优先）",
+   "不推荐非专业救生人员下水救援；不推荐多人手拉手下水救援；不推荐跳水时把头扎进水中",
+   "拨打120言简意赅讲清具体地点：先说区县、再说街道及门牌号码，最好约定明显标志物等候；不要主动挂断电话，保持呼叫电话不被占线，服从调度人员询问",
+   "溺水者上岸后：首先开放气道，及时清理口鼻内泥沙水草，尽可能去除湿衣服、擦干身体防止体温过低；用5-10秒观察胸腹部是否有呼吸起伏",
+   "如发现患者无意识无呼吸或仅有濒死呼吸，应在120调度人员指导下进行徒手心肺复苏（具体操作以调度指导和培训为准）；淹溺者基础生命支持顺序为开放气道、人工通气、胸外按压、早期除颤",
+   "溺水不仅是呛水：可造成全身性缺氧、脑水肿、凝血功能异常、急性肾功能衰竭等，最终导致严重后遗症或死亡"
+  ],
+  "when_to_seek_care": [
+   "凡是被救上岸的溺水者，即使当时看起来没事、哭声响亮，也应尽快到急诊科/儿科就诊观察——缺氧性脑损伤和肺部、肾脏并发症可在之后出现",
+   "意识不清、呼吸异常、面色青紫或口鼻有泡沫者，由120直接送急诊，不要自行拍背控水延误"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《健康科普堂｜溺水不要慌 正确施救需掌握》（沈阳市卫生健康委员会，专家为沈阳市卫生健康服务中心副主任医师）",
+    "journal": "",
+    "year": 2023,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://wjw.shenyang.gov.cn/ztzl/xsxxjkdjt/202308/t20230824_4516666.html"
+   }
+  ],
+  "keywords": [
+   "溺水怎么救",
+   "孩子溺水怎么救",
+   "溺水急救",
+   "岸上救援",
+   "扔救生圈绳索",
+   "不会游泳能下水救人吗",
+   "手拉手救人行吗",
+   "溺水打120说什么",
+   "溺水后看着没事",
+   "溺水还要去医院吗",
+   "溺水观察",
+   "清理口腔异物",
+   "开放气道",
+   "溺水后并发症",
+   "溺水脑水肿",
+   "溺水",
+   "上岸",
+   "要看医生吗",
+   "还要看医生",
+   "拨打120",
+   "漂浮物"
+  ]
+ },
+ {
+  "id": "hi-burn-five-steps",
+  "condition_zh": "烧烫伤急救五步“冲脱泡盖送”：流动冷水冲洗或浸泡20-30分钟，不撕衣物不挑水泡",
+  "condition_en": "Five-step burn first aid: rinse under running cool water 20-30 minutes, remove clothing without tearing, soak, cover with clean gauze, send to a burn unit; do not pop blisters",
+  "category": "heat_injury",
+  "prevention": [
+   "冲：第一时间把烫伤部位用清洁的流动冷水冲洗或浸泡，持续20-30分钟（疾控中心口径15-30分钟），快速降温、缓解疼痛、减少余热对深部组织的损伤，可减少或避免水疱形成",
+   "脱：充分冲洗浸泡后迅速脱去或剪开衣物、去除热源；不要强行撕开粘连的衣服以免皮肤撕脱造成二次伤害，衣服粘在皮肤上用剪刀轻轻剪开",
+   "泡：疼痛明显、哭闹不止可持续泡在冷水中15-30分钟；注意水温和时间，防止水温过低或浸泡过久导致伤口冻伤；烫伤面积大、年龄小、年老体弱者不宜浸泡过久，以免体温下降过度诱发休克",
+   "盖：用无菌纱布或干净棉质布类轻轻覆盖创面并适当固定，减少再次污染；条件允许先擦干伤口再覆盖",
+   "送：及时前往正规医院烧伤科处理，儿童烧烫伤比成人更严重，一定要及时就医",
+   "不要用冰块直接接触创面冰敷；不要随意撕破水疱或疱皮，保持表皮完整能降低感染风险"
+  ],
+  "when_to_seek_care": [
+   "儿童烧烫伤五步处理后仍应到烧伤科就诊（原则就近正规医院）；成人除创面极小可自行处理外，都应及时送往具备烧烫伤急救能力的医疗机构",
+   "创面面积大、伤势重者直接送至专科住院治疗；危及生命者立即拨打120"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《一文了解儿童烧烫伤处理方法》（北京协和医院健康科普，整形美容外科审核）",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.pumch.cn/detail/41620.html"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《实用的烧烫伤预防和急救方法》（中国疾控中心，福建省卫生健康委员会转发）",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://wjw.fj.gov.cn/ztzl/jkjy/jksh/202502/t20250211_6713600.htm"
+   }
+  ],
+  "keywords": [
+   "烫伤怎么办",
+   "烫伤急救",
+   "冲脱泡盖送",
+   "烫伤冲冷水多久",
+   "烫伤冲20分钟",
+   "被开水烫了怎么办",
+   "烫伤后泡冷水",
+   "水泡要挑破吗",
+   "衣服粘在烫伤皮肤上",
+   "烫伤挂什么科",
+   "烧伤科",
+   "冰块敷烫伤行吗",
+   "孩子被烫到了",
+   "烫伤",
+   "开水烫",
+   "怎么处理",
+   "冷水冲洗",
+   "泡多久"
+  ]
+ },
+ {
+  "id": "hi-burn-myths",
+  "condition_zh": "烫伤偏方辟谣：牙膏、酱油、盐、红药水、冰块直敷都会加重损伤",
+  "condition_en": "Burn home-remedy myths: toothpaste, soy sauce, salt, mercurochrome, egg white etc. contaminate the wound and impair assessment; direct ice application worsens injury",
+  "category": "heat_injury",
+  "prevention": [
+   "不要在烫伤处涂抹牙膏、酱油、红药水、燃烧后的草灰等偏方：不仅对创面没有帮助，还会污染创面、加重受伤情况、增加感染风险",
+   "不要在烫伤处抹盐：食用盐没有消毒杀菌作用，反而加重脱水、加重烫伤深度，造成二次伤害",
+   "切忌涂抹红汞、紫药水等有颜色的外用药：会影响对创面面积和深度的判断；也忌涂花生油、蛋清、虾油、酱油、盐、醋及民间秘方",
+   "不要直接用冰块冷敷创面：温度过低使已破损创面基底血管收缩，导致创面恶化",
+   "不要用力撕扯创面粘连的衣物，以免把表皮同衣物一起撕下；不要挑破水疱"
+  ],
+  "when_to_seek_care": [
+   "已经涂了牙膏酱油等偏方的创面，就诊时告知医生涂抹物，由烧伤科医生清理评估，不要自己刮擦",
+   "不要自行挑破水疱；创面疼痛加重或被涂抹物污染时，到烧伤科由医生清理评估"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《一文了解儿童烧烫伤处理方法》（北京协和医院健康科普）",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.pumch.cn/detail/41620.html"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《实用的烧烫伤预防和急救方法》（中国疾控中心，福建省卫生健康委员会转发）",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://wjw.fj.gov.cn/ztzl/jkjy/jksh/202502/t20250211_6713600.htm"
+   }
+  ],
+  "keywords": [
+   "孩子烫伤抹牙膏行吗",
+   "烫伤涂牙膏",
+   "烫伤抹酱油",
+   "烫伤涂什么药",
+   "烫伤抹盐",
+   "红药水",
+   "紫药水",
+   "烫伤涂香油",
+   "烫伤偏方",
+   "冰块直接敷烫伤",
+   "芦荟胶能涂吗",
+   "创面感染",
+   "烫伤涂东西影响判断吗",
+   "烫伤",
+   "起水泡",
+   "烫伤起水泡",
+   "要挑破吗",
+   "挑破",
+   "牙膏",
+   "酱油"
+  ]
+ },
+ {
+  "id": "hi-burn-seekcare",
+  "condition_zh": "烧烫伤就医时机：儿童一律及时看烧伤科，面积大伤势重直接送专科住院",
+  "condition_en": "When to seek care for burns: pediatric burns always warrant prompt burn-unit evaluation (children sustain deeper injury); large-area or severe burns go directly for specialist inpatient care",
+  "category": "heat_injury",
+  "prevention": [
+   "儿童是烧烫伤高发人群：烧烫伤在儿童意外伤害住院疾病中位居第二；约75%发生在0至3岁婴幼儿期，15%发生在3至7岁学龄前儿童",
+   "儿童皮肤组织结构尚未发育完全，同样的致热源伤害下儿童烧烫伤比成人更为严重——烧烫伤患儿一定要及时就医，原则上选择就近的正规医院烧伤科处理，避免延误病情",
+   "除非创面极小可以自行处理，受伤后都应及时送往具备烧烫伤急救能力的医疗卫生机构进一步治疗",
+   "创面面积大、伤势重者，应直接送至专科住院治疗",
+   "家长在处理热水、热汤、火种、电器等事务时应避开儿童，防止意外伤害"
+  ],
+  "when_to_seek_care": [
+   "任何婴幼儿、儿童烧烫伤：按“冲脱泡盖送”处理后仍应到烧伤科（或儿科）面诊，不要在家观察等待",
+   "成人除创面极小可自行处理外，都应及时送往具备烧烫伤急救能力的医疗机构；创面面积大、伤势重者直接送至专科住院治疗",
+   "危及生命（大面积烧伤伴呼吸困难、意识改变）立即拨打120急诊"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《一文了解儿童烧烫伤处理方法》（北京协和医院健康科普）",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.pumch.cn/detail/41620.html"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《实用的烧烫伤预防和急救方法》（中国疾控中心，福建省卫生健康委员会转发）",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://wjw.fj.gov.cn/ztzl/jkjy/jksh/202502/t20250211_6713600.htm"
+   }
+  ],
+  "keywords": [
+   "烫伤要不要去医院",
+   "儿童烫伤",
+   "婴儿烫伤",
+   "烫伤多久看医生",
+   "烫伤挂什么科",
+   "烧伤科门诊",
+   "烫伤住院",
+   "烫伤面积大",
+   "脸上烫伤",
+   "手被烫了",
+   "烫伤起白泡",
+   "孩子烫伤怎么办",
+   "烫伤严重表现",
+   "烫伤",
+   "小孩烫伤",
+   "要看医生吗",
+   "烧伤科",
+   "去医院",
+   "烫伤面积"
+  ]
+ },
+ {
+  "id": "hi-lowtemp-burn",
+  "condition_zh": "低温烫伤：45-50℃热源长时间接触即可致深部烫伤，痛感不明显、老人易忽视",
+  "condition_en": "Low-temperature burns from prolonged contact with 45-50 C heat sources (hot water bottles, heat patches, electric blankets): small area but deep injury, minimal pain, higher risk in elderly, infants and diabetic patients",
+  "category": "heat_injury",
+  "prevention": [
+   "低温烫伤是皮肤长时间接触45℃至50℃之间的低热物体引起的慢性烫伤，冬季高发，常见于老年人、婴幼儿、瘫痪病人、糖尿病患者等感觉迟钝或反应较慢的人群",
+   "特点：创面通常较小但深度大，可达真皮深层甚至皮下组织；疼痛感不明显容易被忽视；愈合慢、容易留疤",
+   "电热毯：温度不宜过高，睡前关闭电源，避免整夜使用；热水袋：水温不宜过高，外面用布包裹避免直接接触皮肤；暖宝宝：不要直接贴在皮肤上，多隔几层衣服，不宜连续贴过长时间",
+   "糖尿病、脉管炎或中风后遗症老人因末梢循环障碍和神经功能受损，对热刺激反应更迟钝，更易发生低温烫伤",
+   "老年人定期检查皮肤情况，发现异常及时停止使用取暖设备；避免长时间接触温度超过体温的物品",
+   "急救同样按五步：清洁流动冷水冲洗至少20分钟；在冷水中小心移去衣物避免强行剥脱弄破水泡；持续浸泡冷水10至30分钟；用洁净纱布或保鲜膜覆盖；尽快送医"
+  ],
+  "when_to_seek_care": [
+   "低温烫伤创面小但深，应就医由医生处理（烧伤科/外科），不要按“小烫伤口”自行涂药观察",
+   "不要涂抹牙膏、酱油、醋等不明物质；不要自行挑破水泡，水泡应在专业医生指导下处理",
+   "糖尿病老人足部等感觉差部位出现不发疼的水泡、颜色发暗的皮肤损伤，尽快就诊评估"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《低温烫伤：老年人的隐形敌人》（北京市垂杨柳医院，北京市卫健委“健康科普-健康生活”栏目）",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://wjw.beijing.gov.cn/bmfw_20143/jkzs/jksh/202503/t20250312_4033202.html"
+   }
+  ],
+  "keywords": [
+   "低温烫伤",
+   "热水袋烫伤",
+   "暖宝宝烫伤",
+   "贴暖宝宝睡觉",
+   "电热毯烫伤",
+   "烫伤不疼",
+   "皮肤烫出硬块",
+   "肚子一块红烫",
+   "糖尿病人烫伤",
+   "老人取暖烫伤",
+   "低温烫伤怎么办",
+   "热水袋要包毛巾吗",
+   "暖宝宝",
+   "热水袋",
+   "多少度会烫",
+   "痛感不明显"
+  ]
+ },
+ {
+  "id": "hi-scald-prevention-home",
+  "condition_zh": "家庭防烫伤：热水容器不放桌边、把手朝内，放水先冷后热，取暖设备隔布用",
+  "condition_en": "Home scald prevention: keep hot liquids off table edges with handles turned inward, run cold water before hot, set faucets to cold side, insulate heating devices, avoid phone overheating against the body",
+  "category": "heat_injury",
+  "prevention": [
+   "不要将高温或盛有热液的容器放在桌子边缘；带把手的容器应将把手向内放置，避免孩子碰撞导致容器倾翻烫伤",
+   "使用热水时先放冷水再放热水，确保水温适中；可调节水温的水龙头确保将其调至冷水一侧，恒温水龙头设定在适中温度，避免下次放水过热",
+   "长时间贴身佩戴热水袋、暖宝宝等取暖物品时，应了解其温度范围，皮肤和热源之间用毛巾等妥善包裹隔离，避免长时间接触皮肤造成低温烫伤",
+   "家长处理热水、热汤、火种、电器等事务时要避开儿童",
+   "使用手机、平板等移动设备时不要长时间贴近身体，避免过热引发烫伤",
+   "户外烧烤等活动注意火焰和热炭，保持安全距离、穿戴防护装备；不在禁放区域燃放烟花爆竹、不自制烟花爆竹",
+   "不因好奇触碰火源；学校社区组织的烧烫伤预防教育活动值得让孩子参与"
+  ],
+  "when_to_seek_care": [
+   "孩子被打翻的热汤、热水烫伤：立即按冲脱泡盖送处理并到烧伤科/儿科就诊",
+   "皮肤出现持续灼痛、明显水疱或发白的创面，应就医判断深度，不要自行涂药观察"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《实用的烧烫伤预防和急救方法》（中国疾控中心，福建省卫生健康委员会转发）",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://wjw.fj.gov.cn/ztzl/jkjy/jksh/202502/t20250211_6713600.htm"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《一文了解儿童烧烫伤处理方法》（北京协和医院健康科普）",
+    "journal": "",
+    "year": 2025,
+    "doi": "",
+    "pmid": "",
+    "level": "official_guideline",
+    "url": "https://www.pumch.cn/detail/41620.html"
+   }
+  ],
+  "keywords": [
+   "防烫伤",
+   "宝宝防烫",
+   "厨房烫伤",
+   "热汤打翻",
+   "桌边热水",
+   "洗澡水太烫",
+   "水龙头先放冷还是热",
+   "恒温水龙头调多少",
+   "热水器温度",
+   "手机发烫",
+   "平板贴着睡",
+   "烧烤烫伤",
+   "烟花烫伤",
+   "孩子做饭安全",
+   "烫伤",
+   "小孩烫伤",
+   "防止烫伤",
+   "怎么防止",
+   "倒热水",
+   "桌边",
+   "厨房防烫"
+  ]
+ }
+]

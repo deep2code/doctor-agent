@@ -1,0 +1,1073 @@
+来源: 中华医学会骨科学分会脊柱外科学组、中华医学会骨科学分会骨科康复学组《腰椎间盘突出症诊疗指南（2020）》
+URL: https://ansonznl.github.io/RehabilitationGuide/腰间盘突出康复指南/腰椎间盘突出症诊疗指南.pdf
+发布/评审时间: 2020年4月（中华骨科杂志 2020,40(8):477-487，11页）
+抓取方式: curl 直连 + PDF 逐字文本提取，未改写文字
+
+中华骨科杂志2020 年4 月第40 卷第8 期 Chin J Orthop, April 2020, Vol. 40, No. 8
+·477·
+· 指 南 ·
+腰椎间盘突出症诊疗指南
+中华医学会骨科学分会脊柱外科学组； 中华医学会骨科学分会骨科康复学组
+通信作者： 田伟，Email: tianweijst@vip.163.com； 陈伯华，Email: bhchen@hotmail.com
+【摘要】 腰椎间盘突出症是骨科常见疾病， 人群发病率高。随着社会发展和生活方式的改变， 腰椎间盘突出症的发
+病率呈现逐渐增高的趋势。鉴于腰椎间盘突出症诊疗理念和技术手段的不断进步， 有必要对腰椎间盘突出症的诊断和治
+疗方法进行总结和规范其诊疗流程。本指南遵循循证医学的原则， 参照2013 年我国卫生行业科研专项项目制订的 《 腰椎
+间盘突出症诊疗指南专家共识及临床路径 》 和2013 年北美脊柱外科学会制订的 《 腰椎间盘突出症伴神经根病诊疗指南 》 ，
+经过指南注册及指南计划书撰写、 组建指南制订专家工作组及确定临床问题； 参照证据推荐分级的评估、 制订与评价工作
+组相关方法进行检索文献的证据等级和推荐等级评定， 形成推荐意见； 经专家工作组三轮讨论， 最终确定终稿。指南从腰
+椎间盘突出症的定义、 自然病程、 症状和体征、 辅助检查、 诊断标准、 保守治疗、 手术治疗、 手术疗效评估、 手术效果的影响
+因素等方面阐述了腰椎间盘突出症的诊疗措施， 以期为腰椎间盘突出症的诊断和治疗提供可靠的临床理论依据。
+【基金项目】 卫生行业科研专项基金 （201002018）
+DOI: 10.3760/cma.j.cn121113⁃20200402⁃00213
+Clinical practice guideline for diagnosis and treatment of lumbar disc herniation
+Chinese Orthopaedic Association of Spinal Surgery Group; Chinese Orthopaedic Association of Orthopaedic Rehabilitation Group
+Corresponding author: Tian Wei, Email: tianweijst@vip.163.com; Chen Bohua, Email: bhchen@hotmail.com
+【Abstract】 Lumbar disc herniation is one of the most common orthopaedic diseases. With the increasingly improvement of
+the diagnosis and treatment strategies of lumbar disc herniation, it is necessary to standardize the diagnosis and treatment proce⁃
+dures in lumbar disc herniation. Based on the principle of evidence⁃based medicine, the guideline was developed according to the
+Expert Consensus and Clinical Pathway of Diagnosis and Treatment Guidelines for Lumbar Disc Herniation developed by Special
+Scientific Research Project of Medical Industry in 2013 and clinical guidelines of diagnosis and treatment of lumbar disc hernia⁃
+tion with radiculopathy developed by North America Spine Society in 2013. After guideline registration, plan publication, expert
+working group development, clinical problem screening and determination, the authors systematically reviewed literatures from the
+data base of China National Knowledge Infrastructure, Wanfang Data Knowledge Service Platform, China Biology Medicine and
+PubMed. According to inclusion and exclusion criteria, the guideline included 119 literatures with 109 in English and 10 in Chi⁃
+nese. Grading of Recommendations Assessment Development and Evaluation System was used to rate the quality of evidence and
+determined the strength of recommendations. Recommendations were derived from quality of evidence body. After three rounds of
+discussions in expert work group, clinical guidelines for diagnosis and treatment of lumbar disc herniation were finally developed.
+The guidelines defined the screening for definition, natural history, symptoms and signs, auxiliary examination, diagnostic criteria,
+conservative treatment, surgical treatment, evaluation of surgical effect and influencing factors of surgical effect. It can provide a
+reliable clinical basis for the diagnosis and treatment in lumbar disc herniation and can improve the prognosis of patients with lum⁃
+bar disc herniation.
+DOI: 10.3760/cma.j.cn121113⁃20200402⁃00213
+2013 年 ， 北 美 脊 柱 外 科 学 会 （North American
+Spine Society，NASS） 制订了 《腰椎间盘突出症伴神
+经根病诊疗指南》 ， 提出了腰椎间盘突出症神经根
+压迫的诊疗流程和方法。同年， 我国卫生行业科研
+专项项目制订的 《 腰椎间盘突出症诊疗指南专家共
+识及临床路径 》 又对我国腰椎间盘突出症的诊治进
+行了一系列总结和概括。为了进一步规范腰椎间
+盘突出症的诊断及治疗技术， 改善腰椎间盘突出症
+的治疗效果及预后， 本课题组在借鉴已有指南和共
+识的基础上， 对腰椎间盘突出症诊治相关的中英文
+文献进行系统回顾， 提出问题并展开讨论， 从而制
+订 《 腰椎间盘突出症诊疗指南 》 ， 供临床医生参考。
+参照2013 年NASS 指南的文献检索原则， 于中
+国 知 网（China National Knowledge Infrastructure ，
+CNKI） 、 万方数据知识服务平台数据库、 中国生物医
+学 文 献 数 据 库 （China Biology Medicine ，CBM） 、
+PubMed 数据库中对中英文文献进行检索。以 “腰椎
+间盘突出症 （lumbar disc herniation，LDH） ”and“定
+义 （definition） ” ， “腰椎间盘突出症 （LDH） ”and“自
+然病程 （natural history） ［ 重吸收 （resorption）or 预后
+骶管囊肿诊疗 ： 上海新华医院神经外科郑学胜团队 ； 好大夫网站满意度排名第一
+·478·
+中华骨科杂志2020 年4 月第40 卷第8 期 Chin J Orthop, April 2020, Vol. 40, No. 8
+（prognosis） ］ ” ， “腰椎间盘突出症 （LDH） ”and“诊断
+（diagnosis） ［ 症状 （symptom）or 体征 （sign）or 影像学
+（imaging）or X 线 （X ray）or CT（Computer Tomogra⁃
+phy）or MRI（Magnetic Resonance Imaging）or 脊髓造
+影 （myelography）or 椎间盘造影 （discography）or 神
+经根造影 （radiculography）or 神经电生理检查 （elec⁃
+trodiagnostic testing） ］ ” ， “腰椎间盘突出症 （LDH） ”
+and“ 保 守 治 疗 （conservative therapy） ［卧 床 （bed
+rest）or 药物治疗 （drug/medical therapy）or 运动疗法
+（exercise therapy）or 硬膜外注射 （epidural steroid in⁃
+jection）or 牵 引 （traction）or 手 法 治 疗 （manipula⁃
+tion） ］ ” ， “腰椎间盘突出症 （LDH） ”and“手术治疗
+（surgical treatment） ［ 开放手术 （open surgery）or 微创
+手 术 （minimally invasive surgery）or 融 合 手 术 （fu⁃
+sion）or 人工椎间盘置换 （total disc replacement） ］ ”
+为检索式， 检索2019 年9 月以前的文献。
+共检索到英文文献 13 339篇、 中文文献17 592
+篇。文献排除标准为动物研究、 会议摘要、 社评、 信
+件、 会议论文及学位论文。文献纳入顺序优先选择
+系统性综述、 荟萃分析、 高质量随机对照研究， 其次
+为前瞻性非随机对照研究、 回顾性队列研究和病例
+对照研究， 最后为系列病例报告、 临床经验、 专家委
+员会意见等。专家组通过阅读文献标题、 摘要和原
+文的方式进行筛选， 最终纳入文献119 篇， 其中中文
+文献10 篇、 英文文献109 篇。
+文献的等级评定采用改良北美脊柱外科学会
+2013 年指南的标准， 参照证据推荐分级的评估、 制
+订 与 评 价 （Grading of Recommendations Assessment
+Development and Evaluation，GRADE） 工作组相关方
+法， 评估研究证据的质量， 结合研究设计和其他证
+据特征综合判定研究的证据级别。采用 3 级分类标
+准， 推荐等级与文献等级评定标准对应， 推荐强度
+自1 级向3 级递减。
+1 级：①差异有统计学意义的高质量随机对照
+研究， 或虽然差异无统计学意义但可信区间很窄的
+高质量随机对照研究；②高质量随机对照研究的系
+统综述 （ 前提是纳入的研究结果具有同质性 ） 。
+2 级：①质量稍差的随机对照研究 （ 如随访率<
+80%、 非盲法对照、 随机化分组不合适 ） ；②前瞻性非
+随机对照研究；③研究结果不同质的 1 级研究或 2
+级研究的系统综述；④回顾性队列研究；⑤病例对
+照研究；⑥2 级研究的系统综述。
+3 级：①系列病例报告；②临床经验、 描述性研
+究或专家委员会报告的权威意见。
+一、 腰椎间盘突出症的定义
+腰椎间盘突出症是在腰椎间盘突出的病理基
+础上， 由突出的椎间盘组织刺激和 （或） 压迫神经
+根、 马尾神经所导致的临床综合征， 表现为腰痛、 下
+肢放射痛、 下肢麻木、 下肢无力、 大小便功能障碍
+等
+［1-4］
+。
+二、 腰椎间盘突出症的自然病程
+关于腰椎间盘突出症自然病程的研究目前多
+限于影像学及临床随访。大部分证据表明突出的
+椎间盘随时间推移通常会出现不同程度的萎缩， 患
+者临床功能得到改善， 但多见于非包容性椎间盘突
+出
+［5-6］
+； 也有相关证据表明腰椎间盘突出症状的改善
+与突出椎间盘的体积、 椎间盘退变的变化无关
+［7-8］
+，
+其具体机制尚不明确 （2 级推荐 ） 。
+三、 腰椎间盘突出症的诊断
+（ 一 ） 症状
+基于患者年龄和病程、 突出椎间盘的位置和大
+小、 对神经的压迫及神经的炎症反应程度不同， 腰
+椎间盘突出症常见的症状有：
+1. 放射性神经根性痛
+［9-11］
+（1 级推荐 ） ；
+2. 受累神经根支配的肌肉无力和 （ 或 ） 神经支配
+区感觉异常
+［9-16］
+（1 级推荐 ） ；
+3. 可伴有急性或慢性腰背部疼痛， 腰部活动受
+限或代偿性侧凸
+［10，16-18］
+（1 级推荐 ） ；
+4. 儿童及青少年腰椎间盘突出症患者常表现为
+腘绳肌紧张
+［19-20］
+（3 级推荐 ） ；
+5. 马尾综合征
+［21-22］
+（1 级推荐 ） 。
+（ 二 ） 体征
+1. 受累神经根支配的运动和 （ 或 ） 感觉障碍， 腱
+反射减弱
+［9-16］
+（1 级推荐 ） ；
+2. 神经牵拉试验阳性
+［9，10，12⁃14，16，23-24］
+， 主要包括股
+神经牵拉试验、 直腿抬高试验、 对侧直腿抬高试验、
+Lasègue 征和对侧Lasègue 征 （1 级推荐 ） ；
+3. 腰椎局部压痛， 腰部活动受限， 椎旁肌紧张或
+痉挛
+［16，17，24-26］
+（1 级推荐 ） ；
+4. 马尾综合征可出现会阴部感觉障碍， 肛门括
+约肌无力及松弛
+［21-22，27］
+（1 级推荐 ） 。
+四、 辅助检查
+（ 一 ）X 线
+X 线片在判断脊柱骨结构及序列变化上较其他
+影像学方法有诸多优势， 提示椎间盘突出方面的间
+接征象有局部不稳、 椎间隙变窄、 代偿性侧凸、 牵张
+性骨赘等
+［28］
+， 但不能直接显示腰椎间盘突出， 因此
+无直接诊断意义， 不能作为诊断腰椎间盘突出症的
+骶管囊肿诊疗 ： 上海新华医院神经外科郑学胜团队 ； 好大夫网站满意度排名第一
+中华骨科杂志2020 年4 月第40 卷第8 期 Chin J Orthop, April 2020, Vol. 40, No. 8
+·479·
+Ⅱ
+Ⅰ
+Ⅲ
+方法
+［29］
+（3 级推荐 ） 。
+（ 二 ）CT
+CT 及三维重建方法可提高腰椎间盘突出症的
+检出率
+［30-32］
+。CT 较X 线片可以更好地观察骨性结
+构， 但对神经、 椎间盘等软组织的分辨率较差， 较难
+分辨椎间盘与神经根的关系
+［33］
+（1 级推荐 ） 。
+（ 三 ）MRI
+MRI 为腰椎间盘突出症首选的影像学检查手
+段。与CT 相比具有以下优势： 无放射性损害、 可评
+估椎间盘退变情况、 更好地观察突出椎间盘与神经
+根的关系
+［34-36］
+， 但对骨性结构压迫的分辨能力较
+低
+［37-38］
+（1 级推荐 ） 。
+（ 四 ） 腰椎间盘突出症的区域定位
+根据椎间盘突出的病理和程度 （CT 或MRI） ， 突
+出椎间盘组织在矢状面、 水平面和冠状面均有相应
+的位置
+［1，39］
+。
+1. 矢状面：Ⅰ层面， 椎间盘层面；Ⅱ层面， 椎间盘
+上层面即上一椎体椎弓根下切迹椎体平面至椎间
+盘上界；Ⅲ层面， 椎间盘下层面即椎间盘下界至下
+一椎体的椎弓根下切迹椎体平面 （ 图1） 。
+2. 水平面： 以椎体后缘为界分1~4 区， 两侧椎弓
+根内界为1、2 区， 中1/3 为1 区 （ 中央区 ） ， 左右1/3 为
+左右侧 2 区 （ 旁中央区 ） ， 椎弓根内外侧之间为3 区
+（ 外侧区 ） ， 椎弓根外侧以外为4 区 （ 极外侧区， 图2） 。
+3. 冠状面： 将骨性椎管矢状径分为四等份， 从前
+至后一至四份分别命名为 a 域、b 域、c 域、d 域 （图
+3） 。
+其中Ⅲ层面3 区被椎弓根所占， 为无实际区域
+的空间区。
+对腰椎矢状面结构，MRI 区域定位较CT 区域定
+位更具优势。普通CT 扫描多局限于椎间盘层面， 可
+遗漏在椎间盘层面以外椎管内椎间盘组织的图像
+（ 如Ⅱ层面或Ⅲ层面 ） ， 此时应行腰椎MR 或CT 三维
+重建检查。区域定位可反映不同病理类型、 不同严
+重程度的椎间盘突出的精确定位诊断
+［39-41］
+， 为治疗
+方法的选择和手术的实施提供参考 （2 级推荐 ） 。
+（ 五 ） 脊髓造影、 椎间盘造影
+对体内有特殊金属内植物 （ 如心脏起搏器 ） 无
+法行MR 检查的患者， 可行脊髓造影、CT 脊髓造影
+（computer tomography myelography，CTM） 间 接 观 察
+神经受压。脊髓造影、CTM 对有腰椎手术史的患者
+更有优势
+［37，42-43］
+。在诊断腰椎椎间盘源性腰痛、 症
+状体征与影像学不符合的病例以及腰椎间盘突出
+症再手术的术前计划制定时， 可行椎间盘造影、CT
+椎间盘造影 （computer tomography discography，CTD）
+辅助诊断和手术策略制订
+［44-47］
+（2 级推荐 ） 。
+（ 六 ） 选择性神经根造影、 神经根阻滞
+选择性神经根造影、 神经根阻滞可用于诊断及
+治疗的目的。在诊断方面常用于以下情况： 不典型
+的坐骨神经痛、 影像学与症状体征不相符、 多节段
+椎间盘突出明确责任间隙、 腰椎手术失败后治疗计
+划的制定等
+［48-49］
+（2 级推荐 ） 。
+（ 七 ） 神经电生理检查
+神经电生理检查时腰椎间盘突出症的诊断具
+有实用价值， 可以在影像学证据的基础上进一步证
+实神经根损害的存在
+［50］
+。H 反射可以辅助诊断S
+1
+神
+经根受压的腰椎间盘突出症； 肌电图的神经传导和
+F 波 检 查 在 腰 椎 间 盘 突 出 症 的 诊 断 中 价 值 有
+图 1 矢状面分层。Ⅰ层面， 椎间盘层面；Ⅱ层面， 椎间盘上层面即上一椎体
+椎弓根下切迹椎体平面至椎间盘上界；Ⅲ层面， 椎间盘下层面即椎间盘下界
+至下一椎体的椎弓根下切迹椎体平面
+骶管囊肿诊疗 ： 上海新华医院神经外科郑学胜团队 ； 好大夫网站满意度排名第一
+·480·
+中华骨科杂志2020 年4 月第40 卷第8 期 Chin J Orthop, April 2020, Vol. 40, No. 8
+4 3 2 1 2 3 4
+限
+［51-54］
+。体感诱发电位可作为辅助手段诊断神经根
+受压， 但是不能独立诊断腰椎间盘突出症及神经根
+受压的节段
+［54-55］
+。目前运动诱发电位在腰椎间盘突
+出症诊断中的价值尚不明确
+［56］
+（2 级推荐 ） 。
+五、 腰椎间盘突出症的诊断标准
+在诊断中必须明确腰椎间盘突出与腰椎间盘
+突出症的区别。腰椎间盘突出为形态学或影像学
+定义， 指髓核、 纤维环或终板组织超越了相邻椎体
+边缘造成的椎间盘局部外形异常
+［1，41］
+。仅凭MRI 或
+CT 即可诊断， 不作为临床疾病诊断。而腰椎间盘突
+出症为临床诊断名词， 是在腰椎间盘退变、 损伤的
+病理基础上发生椎间盘局限性突出， 刺激和 （ 或 ） 压
+迫神经根、 马尾而表现出腰痛、 神经根性疼痛、 下肢
+麻木无力、 大小便功能障碍等； 患者具有腰椎间盘
+突出症相应的病史、 症状、 体征及影像学表现， 且影
+像 学 与 神 经 定 位 相 符 ， 可 诊 断 为 腰 椎 间 盘 突 出
+症
+［2，57］
+（1 级推荐 ） 。
+六、 腰椎间盘突出症的保守治疗
+腰椎间盘突出症有良性的自然病程， 大部分腰
+椎间盘突出症的患者经保守治疗症状均能得到改
+善
+［57-59］
+。因此， 非手术治疗应作为不伴有显著神经
+损害的腰椎间盘突出症患者的首选治疗方法。突
+出的椎间盘随时间推移通常会出现不同程度的萎
+缩， 临床功能得到改善。非手术治疗的成功率约为
+80~90%
+［60-61］
+， 但临床症状复发率达25%
+［57］
+（1 级推
+荐 ） 。
+（ 一 ） 保守治疗的时间
+文献报道多数腰椎间盘突出症患者的症状经
+保守治疗6~12 周得到改善。因此， 对无显著神经损
+害的病例， 一般推荐保守治疗的时间为6~12 周
+［57，62］
+（1 级推荐 ） 。
+（ 二 ） 保守治疗方法
+1. 卧床休息
+卧床休息一直被认为是腰椎间盘突出症保守
+图 2 水平面分区。以椎体后缘为界分区， 两侧椎弓根内界为1、2 区， 中1/3 为1 区，
+左右1/3 为左右侧2 区， 椎弓根内外侧之间为3 区， 椎弓根外侧以外为4 区
+a
+cdb
+图 3 冠状位分域。将骨性椎管矢状径分为四等分， 分别命名为a 域、b 域、c 域、d 域
+骶管囊肿诊疗 ： 上海新华医院神经外科郑学胜团队 ； 好大夫网站满意度排名第一
+中华骨科杂志2020 年4 月第40 卷第8 期 Chin J Orthop, April 2020, Vol. 40, No. 8
+·481·
+治疗最重要的方式之一。但越来越多的循证医学
+证据表明， 与正常的日常活动相比卧床休息并不能
+降低患者的疼痛程度及促进患者功能恢复
+［63］
+。对
+疼痛严重需卧床休息的患者， 应尽量缩短卧床时
+间， 且在症状缓解后鼓励其尽早恢复适度的正常活
+动， 同时需注意日常活动姿势， 避免扭转、 屈曲及过
+量负重
+［64］
+（1 级推荐 ） 。
+2. 药物治疗
+非甾体类抗炎药 （nonsteroidal anti⁃inflammatory
+drugs，NSAIDs）： 是 治 疗 腰 背 痛 的 一 线 药 物 。
+NSAIDs 可缓解慢性腰痛并改善功能状态， 但对坐骨
+神经痛的改善效果并不明确， 不同种类 NSAIDs 之
+间效果也未发现明显差异
+［65］
+（2 级推荐 ） 。
+阿片类止痛药： 在减轻腰痛方面短期有益
+［66］
+。
+在坐骨神经痛患者的症状改善和功能恢复方面， 阿
+片类药物的效果仍不明确
+［67］
+， 同时应关注药物长期
+使用的副反应及药物依赖 （2 级推荐 ） 。
+糖皮质激素： 全身应用可短期缓解疼痛， 但缺
+乏长期随访的数据； 考虑到激素全身使用带来的副
+反应， 不推荐长期使用
+［68］
+（2 级推荐 ） 。
+肌肉松弛剂： 可用于急性期和亚急性期腰痛患
+者的药物治疗
+［69］
+。但在治疗坐骨神经痛方面， 是否
+选用肌肉松弛剂缺乏相关研究 （2 级推荐 ） 。
+抗抑郁药： 抗抑郁药对慢性腰背痛和坐骨神经
+痛有一定疗效
+［70］
+， 但目前相关的高证据级别研究较
+少 （2 级推荐 ） 。
+其他药物： 目前尚没有足够的证据支持麻醉镇
+静 药 、 抗 癫 痫 药 等 对 腰 椎 间 盘 突 出 症 患 者 的 疗
+效
+［71-72］
+（2 级推荐 ） 。
+3. 运动疗法
+运动疗法包括核心肌群肌力训练、 方向特异性
+训练、 腰痛学校等。应在康复医学专业人员的指导
+下进行针对性、 个体化的运动治疗
+［2，73］
+。运动疗法
+可在短期内缓解坐骨神经痛， 但疼痛减轻幅度较
+小， 长期随访患者在减轻疼痛或残疾方面没有明显
+获益
+［74］
+（2 级推荐 ） 。
+4. 硬膜外注射
+硬膜外类固醇激素注射 （epidural steroid injec⁃
+tion，ESI） 可用于腰椎间盘突出症的诊断和治疗。对
+根性症状明显的腰椎间盘突出症患者， ESI 短期内
+可改善症状， 但长期作用并不显著
+［75］
+（2 级推荐 ） 。
+5. 腰椎牵引
+腰椎牵引是治疗腰椎间盘突出症的传统手段，
+但目前牵引治疗对缓解腰背痛和坐骨神经痛的价
+值缺乏高质量的循证医学证据支持
+［76］
+。牵引治疗
+应在康复科专业医生的指导下进行， 避免大重量、
+长时间牵引 （2 级推荐 ） 。
+6. 手法治疗
+手法治疗可改善腰背部疼痛和功能状态。对
+没有手术指征的轻中度腰骶神经痛患者可改善腰
+椎间盘突出所致的根性症状
+［77］
+， 但应注意手法治疗
+有加重腰椎间盘突出的风险 （2 级推荐 ） 。
+7. 其他
+热敷、 针灸、 按摩、 中药等对缓解腰椎间盘突出
+症的症状均有一定的效果
+［78］
+， 但相关文献随访时间
+较短， 且实验设计有局限 （2 级推荐 ） 。
+七、 手术治疗
+与非手术治疗相比， 手术治疗通常能更快及更
+大程度地改善症状。手术治疗方式是安全的， 并发
+症的发生率也较低， 但手术不能改善患者恢复工作
+的比例
+［79-80］
+（1 级推荐 ） 。
+（ 一 ） 手术适应证
+手术适应证包括：①腰椎间盘突出症病史超过
+6~12 周， 经系统保守治疗无效； 或保守治疗过程中
+症状加重或反复发作； ②腰椎间盘突出症疼痛剧
+烈， 或患者处于强迫体位， 影响工作或生活；③腰椎
+间盘突出症出现单根神经麻痹或马尾神经麻痹， 表
+现为肌肉瘫痪或出现直肠、 膀胱症状
+［80-82］
+（1 级推
+荐 ） 。
+（ 二 ） 手术方式
+腰椎间盘突出症的术式可分为四类： 开放性手
+术 、 微 创 手 术 、 腰 椎 融 合 术 、 腰 椎 人 工 椎 间 盘 置
+换术。
+1. 开放性手术
+后路腰椎突出椎间盘组织摘除术： 后路腰椎突
+出椎间盘组织摘除术应遵循椎板有限切除的原则，
+尽量减少对脊柱稳定性的破坏。手术中短期疗效
+优良率 90%左右， 长期随访 （＞10 年） 的优良率为
+60%~80%
+［83-85］
+（1 级推荐 ） 。
+腹膜后入路椎间盘切除术： 腹膜后入路椎间盘
+切除术能够保留脊柱后方结构的完整性， 但间接减
+压的理念使其不利于处理非包容型椎间盘突出
+［86］
+，
+同时需联合融合技术。单独针对腹膜后入路处理
+腰椎间盘突出症的相关研究较少， 但对椎间盘突出
+复发的患者腹膜后入路椎间盘切除术也是一种选
+择
+［87］
+（3 级推荐 ） 。
+2. 微创手术
+经皮穿刺介入手术： 经皮穿刺介入手术主要包
+骶管囊肿诊疗 ： 上海新华医院神经外科郑学胜团队 ； 好大夫网站满意度排名第一
+·482·
+中华骨科杂志2020 年4 月第40 卷第8 期 Chin J Orthop, April 2020, Vol. 40, No. 8
+括经皮椎间盘切吸术、 经皮椎间盘激光消融术、 经
+皮椎间盘臭氧消融术及射频消融髓核成形术等。
+其工作原理是减少椎间盘内压， 间接减轻神经根压
+迫。对椎间盘内压增高型的椎间盘突出有一定的
+疗效， 不适用于游离或明显移位的椎间盘突出， 需
+严格掌握手术适应证
+［80，88］
+（2 级推荐 ） 。
+显微腰椎间盘切除术： 相对于开放手术， 显微
+腰椎间盘切除术 （ 包括通道辅助下的显微腰椎间盘
+切除术 ） 同样安全、 有效， 可作为腰椎间盘突出症手
+术治疗的有效方式
+［89-90］
+（1 级推荐 ） 。
+显微内窥镜腰椎间盘切除术 （micro⁃endoscopic
+discectomy，MED） ： 显微内窥镜腰椎间盘切除术是开
+放手术向微创手术的过渡。尽管其手术操作技术
+有较陡峭的学习曲线， 但安全性和有效性与开放手
+术相当， 在住院天数、 出血量、 早期恢复工作等方面
+优于开放手术， 可作为开放手术的替代方案
+［91-92］
+（1
+级推荐 ） 。
+经皮内镜腰椎间盘切除术： 经皮内镜腰椎间盘
+切除术是治疗腰椎间盘突出症的安全、 有效的微创
+术式， 与开放手术、 显微或显微内窥镜腰椎间盘切
+除术的效果相同， 而经皮内镜腰椎间盘切除术更加
+微创化， 创伤更小、 恢复更快
+［4，93］
+（1 级推荐 ） 。
+3. 腰椎融合术
+腰椎融合术不作为腰椎间盘突出症首选的手
+术方案， 但以下情况可选择腰椎融合术
+［94-96］
+： 腰椎间
+盘突出症伴明显的慢性轴性腰背痛； 巨大椎间盘突
+出、 腰椎不稳； 复发性腰椎间盘突出， 尤其是合并畸
+形、 腰椎不稳或慢性腰背痛的情况 （2 级推荐 ） 。
+4. 腰椎人工椎间盘置换术
+腰椎人工椎间盘置换术主要用于腰椎椎间盘
+源性腰痛， 包括包容型腰椎间盘突出的患者。是否
+适用于非包容型椎间盘突出和有严重神经压迫症
+状的腰椎间盘突出患者仍无定论。大量超过 10 年
+的长期随访研究证实该技术具有不低于腰椎融合
+术的手术有效性和安全性
+［97］
+。目前针对腰椎人工
+椎间盘置换术治疗腰椎间盘突出症的高证据等级
+研究较少。同时应注意腰椎人工椎间盘置换术技
+术难度及技术要求较高， 具有一定的学习曲线 （3 级
+推荐 ） 。
+八、 手术疗效评估
+腰椎间盘突出症手术疗效评估指标分为两类，
+即较简单的评定标准和量化评定标准。较简单的
+评定标准包括中华医学会骨科学分会脊柱学组腰
+背痛手术评定标准
+［84］
+、Macnab 标准
+［98］
+、 视觉模拟评
+分 （visual analogue scale，VAS）
+［99-100］
+等。量化评定标
+准多以问卷形式评定， 包括日本骨科学会 （Japanese
+Orthopaedic Association，JOA） 腰 背 痛 手 术 评 分 标
+准
+［101-102］
+、Oswestry 功能障碍指数 （Oswestry disability
+index，ODI）
+［103-104］
+、 健康调查评分表SF⁃12（the short
+form⁃12 health survey）
+［105］
+、 健 康 状 况 评 分 表SF⁃36
+（the short form⁃36 health survey）
+［106-107］
+、EuroQol 健康
+指数量表 EQ5D
+［108］
+、Roland⁃Morris 功能障碍问卷调
+查
+［109］
+等。常用的手术疗效评价指标包括VAS 评分、
+ODI 指数及SF⁃36 等
+［110-112］
+（2 级推荐 ） 。
+九、 手术疗效的影响因素
+吸烟、 高龄、 肥胖、 糖尿病、 抑郁症、 术前肌力减
+退甚至完全性神经功能损伤、 术前病程大于3~6 个
+月、 合并下肢骨关节病等是腰椎间盘突出症手术预
+后不良的影响因素
+［113-120］
+（2 级推荐 ） 。
+指南制订成员
+田 伟 陈伯华 陈仲强 丁文元 冯世庆
+郝定钧 贺宝荣 贺西京 胡有谷 胡永成
+海 涌 姜建元 李 波 李 锋 刘少喻
+李危石 罗卓荆 马信龙 沈慧勇 舒 钧
+王 欢 殷国勇 杨惠林 闫景龙 赵凤东
+张国庆 赵 杰 朱庆三 相宏飞 王 岩
+执笔
+陈伯华 王 岩 胡有谷
+参 考 文 献
+［1］ 陈伯华 , 胡有谷. 腰椎间盘突出症[M]. 第4 版. 北京: 人民卫生
+出版社, 2012: 167⁃181, 275⁃279, 305⁃308.
+Chen BH, Hu YG. Lumbar disc herniation[M]. 4th ed. Beijing:
+People's Medical Publishing House, 2012: 167⁃181, 275⁃279,
+305⁃308.
+［2］Kreiner DS, Hwang SW, Easa JE, et al. An evidence⁃based clini⁃
+cal guideline for the diagnosis and treatment of lumbar disc herni⁃
+ation with radiculopathy[J]. Spine J, 2014, 14(1): 180⁃191. DOI:
+10.1016/j.spinee.2013.08.003.
+［3］Latka D, Miekisiak G, Jarmuzek P, et al. Treatment of lumbar
+disc herniation with radiculopathy. Clinical practice guidelines
+endorsed by The Polish Society of Spinal Surgery[J]. Neurol Neu⁃
+rochir Pol, 2016, 50(2): 101⁃108. DOI: 10.1016/j.pjnns.2015.12.
+001.
+［4］Joaquim AF, Botelho RV, Mudo ML, et al. Lumbar herniated disc⁃
+endoscopic discectomy treatment[J]. Rev Assoc Med Bras (1992),
+2018, 64(5): 397⁃407. DOI: 10.1590/1806⁃9282.64.05.397.
+［5］Chiu C, Chuang T, Chang K, et al. The probability of spontaneous
+regression of lumbar herniated disc: a systematic review[J]. Clin
+Rehabil, 2015, 29(2): 184 ⁃ 195. DOI: 10.1177/0269215514540
+919.
+骶管囊肿诊疗 ： 上海新华医院神经外科郑学胜团队 ； 好大夫网站满意度排名第一
+中华骨科杂志2020 年4 月第40 卷第8 期 Chin J Orthop, April 2020, Vol. 40, No. 8
+·483·
+［6］Zhong M, Liu JT, Jiang H, et al. Incidence of spontaneous resorp⁃
+tion of lumbar disc herniation: a meta⁃analysis[J]. Pain Physician,
+2017, 20(1): E45⁃E52.
+［7］Seo J, Roh Y, Kim Y, et al. Three⁃dimensional analysis of volu⁃
+metric changes in herniated discs of the lumbar spine: does spon⁃
+taneous resorption of herniated discs always occur?[J]. Eur Spine
+J, 2016, 25(5): 1393⁃1402. DOI: 10.1007/s00586⁃014⁃3587⁃1.
+［8］Masui T, Yukawa Y, Nakamura S, et al. Natural history of pa⁃
+tients with lumbar disc herniation observed by magnetic reso⁃
+nance imaging for minimum 7 years[J]. J Spinal Disord Tech,
+2005, 18(2): 121⁃126. DOI: 10.1097/01.bsd.0000154452.13579.
+b2.
+［9］Kortelainen P, Puranen J, Koivisto E, et al. Symptoms and signs
+of sciatica and their relation to the localization of the lumbar disc
+herniation[J]. Spine (Phila Pa 1976), 1985, 10(1): 88⁃92. DOI: 10.
+1097/00007632⁃198501000⁃00014.
+［10］Suri P, Rainville J, Katz JN, et al. The accuracy of the physical ex⁃
+amination for the diagnosis of midlumbar and low lumbar nerve
+root impingement[J]. Spine (Phila Pa 1976), 2011, 36(1): 63⁃73.
+DOI: 10.1097/BRS.0b013e3181c953cc.
+［11］Vroomen PC, de Krom MC, Knottnerus JA. Diagnostic value of
+history and physical examination in patients suspected of sciatica
+due to disc herniation: a systematic review[J]. J Neurol, 1999, 246
+(10): 899⁃906. DOI: 10.1007/s004150050480.
+［12］Tawa N, Rhoda A, Diener I. Accuracy of clinical neurological ex⁃
+amination in diagnosing lumbo⁃sacral radiculopathy: a systematic
+literature review[J]. BMC Musculoskelet Disord, 2017, 18(1): 93.
+DOI: 10.1186/s12891⁃016⁃1383⁃2.
+［13］Tawa N, Diener I, Louw Q, et al. Correlation of the self⁃reported
+Leeds assessment of neuropathic symptoms and signs score, clini⁃
+cal neurological examination and MR imaging in patients with
+lumbo ⁃ sacral radiculopathy[J]. BMC Neurol, 2019, 19(1): 107.
+DOI: 10.1186/s12883⁃019⁃1333⁃3.
+［14］Al Nezari NH, Schneiders AG, Hendrick PA. Neurological exami⁃
+nation of the peripheral nervous system to diagnose lumbar spinal
+disc herniation with suspected radiculopathy: a systematic review
+and meta⁃analysis[J]. Spine J, 2013, 13(6): 657⁃674. DOI: 10.
+1016/j.spinee.2013.02.007.
+［15］Jensen OH. The level⁃diagnosis of a lower lumbar disc herniation:
+the value of sensibility and motor testing[J]. Clin Rheumatol,
+1987, 6(4): 564⁃569. DOI: 10.1007/bf02330594.
+［16］Vucetic N, Svensson O. Physical signs in lumbar disc hernia[J].
+Clin Orthop Relat Res, 1996(333): 192⁃201.
+［17］Stankovic R, Johnell O, Maly P, et al. Use of lumbar extension,
+slump test, physical and neurological examination in the evalua⁃
+tion of patients with suspected herniated nucleus pulposus. A pro⁃
+spective clinical study[J]. Man Ther, 1999, 4(1): 25⁃32. DOI: 10.
+1016/s1356⁃689x(99)80006⁃x.
+［18］Pearson AM, Blood EA, Frymoyer JW, et al. SPORT lumbar inter⁃
+vertebral disk herniation and back pain: does treatment, location,
+or morphology matter?[J]. Spine (Phila Pa 1976), 2008, 33(4): 428⁃
+435. DOI: 10.1097/BRS.0b013e31816469de.
+［19］Kim HJ, Green DW. Adolescent back pain[J]. Curr Opin Pediatr,
+2008, 20(1): 37⁃45. DOI: 10.1097/MOP.0b013e3282f357fe.
+［20］Lavelle WF, Bianco A, Mason R, et al. Pediatric disk herniation
+[J]. J Am Acad Orthop Surg, 2011, 19(11): 649⁃656. DOI: 10.
+5435/00124635⁃201111000⁃00001.
+［21］Ahn UM, Ahn NU, Buchowski JM, et al. Cauda equina syndrome
+secondary to lumbar disc herniation: a meta⁃analysis of surgical
+outcomes[J]. Spine (Phila Pa 1976), 2000, 25(12): 1515⁃1522.
+DOI: 10.1097/00007632⁃200006150⁃00010.
+［22］Kapetanakis S, Chaniotakis C, Kazakos C, et al. Cauda equina
+syndrome due to lumbar disc herniation: a review of literature[J].
+Folia Medica, 2017, 59(4): 377⁃386. DOI: 10.1515/folmed⁃2017⁃
+0038.
+［23］Poiraudeau S, Foltz V, Drape JL, et al. Value of the bell test and
+the hyperextension test for diagnosis in sciatica associated with
+disc herniation: comparison with Lasegue's sign and the crossed
+Lasegue's sign[J]. Rheumatology (Oxford), 2001, 40(4): 460⁃466.
+DOI: 10.1093/rheumatology/40.4.460.
+［24］van der Windt DA, Simons E, Riphagen II, et al. Physical exami⁃
+nation for lumbar radiculopathy due to disc herniation in patients
+with low ⁃ back pain[J]. Cochrane Database Syst Rev, 2010(2):
+CD007431. DOI: 10.1002/14651858.CD007431.pub2.
+［25］许德荣, 宋友东, 王海, 等. 我国青少年腰椎间盘突出症的荟萃
+分析[J]. 中华医学杂志, 2013, 93(45): 3606⁃3609. DOI: 10.3760/
+cma.j.issn.0376⁃2491.2013.45.011.
+Xu DR, Song YD, Wang H, et al. Meta⁃analysis of lumbar disc
+herniation in Chinese adolescents[J]. Zhonghua Yi Xue Za Zhi,
+2013, 93(45): 3606⁃3609. DOI: 10.3760/cma.j.issn.0376⁃2491.
+2013.45.011.
+［26］Hirayama J, Yamagata M, Ogata S, et al. Relationship between
+low⁃back pain, muscle spasm and pressure pain thresholds in pa⁃
+tients with lumbar disc herniation[J]. Eur Spine J, 2006, 15(1): 41⁃
+47. DOI: 10.1007/s00586⁃004⁃0813⁃2.
+［27］Gitelman A, Hishmeh S, Morelli BN, et al. Cauda equina syn⁃
+drome: a comprehensive review[J]. Am J Orthop (Belle Mead NJ),
+2008, 37(11): 556⁃562.
+［28］Amin RM, Andrade NS, Neuman BJ. Lumbar disc herniation[J].
+Curr Rev Musculoskelet Med, 2017, 10(4): 507⁃516. DOI: 10.
+1007/s12178⁃017⁃9441⁃4.
+［29］Hakelius A, Hindmarsh J. The comparative reliability of preopera⁃
+tive diagnostic methods in lumbar disc surgery[J]. Acta Orthop
+Scand, 1972, 43(4): 234 ⁃ 238. DOI: 10.3109/1745367720899
+1261.
+［30］Bosacco SJ, Berman AT, Garbarino JL, et al. A comparison of CT
+scanning and myelography in the diagnosis of lumbar disc hernia⁃
+tion[J]. Clin Orthop Relat Res, 1984(190): 124 ⁃ 128. DOI: 10.
+1097/00003086⁃198411000⁃00017.
+［31］Modic MT, Masaryk T, Boumphrey F, et al. Lumbar herniated
+disk disease and canal stenosis: prospective evaluation by surface
+coil MR, CT, and myelography[J]. AJR Am J Roentgenol, 1986,
+147(4): 757⁃765. DOI: 10.2214/ajr.147.4.757.
+［32］Haughton VM, Eldevik OP, Magnaes B, et al. A prospective com⁃
+骶管囊肿诊疗 ： 上海新华医院神经外科郑学胜团队 ； 好大夫网站满意度排名第一
+·484·
+中华骨科杂志2020 年4 月第40 卷第8 期 Chin J Orthop, April 2020, Vol. 40, No. 8
+parison of computed tomography and myelography in the diagno⁃
+sis of herniated lumbar disks[J]. Radiology, 1982, 142(1): 103⁃
+110. DOI: 10.1148/radiology.142.1.7053518.
+［33］van Rijn JC, Klemetso N, Reitsma JB, et al. Observer variation in
+the evaluation of lumbar herniated discs and root compression:
+spiral CT compared with MRI[J]. Br J Radiol, 2006, 79(941): 372⁃
+377. DOI: 10.1259/bjr/26216335.
+［34］Wassenaar M, van Rijn RM, van Tulder MW, et al. Magnetic reso⁃
+nance imaging for diagnosing lumbar spinal pathology in adult pa⁃
+tients with low back pain or sciatica: a diagnostic systematic re⁃
+view[J]. Eur Spine J, 2012, 21(2): 220⁃227. DOI: 10.1007/s00586⁃
+011⁃2019⁃8.
+［35］Albeck MJ, Hilden J, Kjaer L, et al. A controlled comparison of
+myelography, computed tomography, and magnetic resonance im⁃
+aging in clinically suspected lumbar disc herniation[J]. Spine (Phi⁃
+la Pa 1976), 1995, 20(4): 443⁃448. DOI: 10.1097/00007632⁃1995
+02001⁃00006.
+［36］Jackson RP, Cain JJ, Jacobs RR, et al. The neuroradiographic di⁃
+agnosis of lumbar herniated nucleus pulposus: II. A comparison
+of computed tomography (CT), myelography, CT ⁃ myelography,
+and magnetic resonance imaging[J]. Spine (Phila Pa 1976), 1989,
+14(12): 1362⁃1367. DOI: 10.1097/00007632⁃198912000⁃00013.
+［37］Epstein NE. Lumbar surgery for 56 limbus fractures emphasizing
+noncalcified type III lesions[J]. Spine (Phila Pa 1976), 1992, 17
+(12): 1489⁃1496. DOI: 10.1097/00007632⁃199212000⁃00008.
+［38］Peh WC, Griffith JF, Yip DK, et al. Magnetic resonance imaging
+of lumbar vertebral apophyseal ring fractures[J]. Australas Radiol,
+1998, 42(1): 34⁃37. DOI: 10.1111/j.1440⁃1673.1998.tb00561.x.
+［39］胡有谷, 吕成昱, 陈伯华. 腰椎间盘突出症的区域定位[J]. 中华
+骨科杂志, 1998, 18(1): 14⁃16.
+Hu YG, Lyu CY, Chen BH. The three⁃dimensional localization of
+the herniation of lumber disc[J]. Chin J Orthop, 1998, 18(1): 14⁃
+16.
+［40］Wiltse L, Berger P, Mcculloch J. A system for reporting the size
+and location of lesions in the spine[J]. Spine (Phila Pa 1976),
+1997, 22(13): 1534⁃1537. DOI: 10.1097/00007632⁃199707010⁃
+00023.
+［41］Fardon DF, Williams AL, Dohring EJ, et al. Lumbar disc nomen⁃
+clature: version 2.0[J]. Spine J, 2014, 14(11): 2525⁃2545. DOI:
+10.1016/j.spinee.2014.04.022.
+［42］Epstein NE, Epstein JA, Carras R, et al. Far lateral lumbar disc
+herniations and associated structural abnormalities. An evaluation
+in 60 patients of the comparative value of CT, MRI, and myelo⁃CT
+in diagnosis and management[J]. Spine (Phila Pa 1976), 1990,15
+(6): 534⁃539. DOI: 10.1097/00007632⁃199006000⁃00019.
+［43］Raskin SP, Keating JW. Recognition of lumbar disk disease: com⁃
+parison of myelography and computed tomography[J]. AJR Am J
+Roentgenol, 1982, 139(2): 349⁃355. DOI: 10.2214/ajr.139.2.349.
+［44］Sachs BL, Vanharanta H, Spivey MA, et al. Dallas discogram de⁃
+scription. A new classification of CT/discography in low⁃back dis⁃
+orders[J]. Spine (Phila Pa 1976), 1987, 12(3): 287⁃294. DOI: 10.
+1097/00007632⁃198704000⁃00018.
+［45］Saboeiro GR. Lumbar Discography[J]. Radiol Clin North Am,
+2009, 47(3): 421⁃433. DOI: 10.1016/j.rcl.2009.02.002.
+［46］Greenspan A, Amparo EG, Gorczyca DP, et al. Is there a role for
+diskography in the era of magnetic resonance imaging? Prospec⁃
+tive correlation and quantitative analysis of computed tomography⁃
+diskography, magnetic resonance imaging, and surgical findings
+[J]. J Spinal Disord, 1992, 5(1): 26⁃31. DOI: 10.1097/00002517⁃
+199203000⁃00004.
+［47］Kluner C, Kivelitz D, Rogalla P, et al. Percutaneous discography:
+comparison of low⁃dose CT, fluoroscopy and MRI in the diagnosis
+of lumbar disc disruption[J]. Eur Spine J, 2006, 15(5): 620⁃626.
+DOI: 10.1007/s00586⁃005⁃1030⁃3.
+［48］Datta S, Everett CR, Trescot AM, et al. An updated systematic re⁃
+view of the diagnostic utility of selective nerve root blocks[J]. Pain
+Physician, 2007, 10(1): 113⁃128.
+［49］Dooley JF, Mcbroom RJ, Taguchi T, et al. Nerve root infiltration
+in the diagnosis of radicular pain[J]. Spine (Phila Pa 1976), 1988,
+13(1): 79⁃83. DOI: 10.1097/00007632⁃198801000⁃00019.
+［50］齐宗华, 西永明, 胡有谷. 腰椎间盘突出症神经根损害的肌电
+图 检 查 分 析[J]. 中 国 骨 与 关 节 外 科, 2009, 2(1): 9⁃11. DOI:
+10.3969/j.issn.1674⁃1439.2009.01.005.
+Qi ZH, Xi YM, Hu YG. Value of electrophysiologic study to evalu⁃
+ate nerve root impairment in lumbar disc herniation[J]. Chin J
+Bone Joint Surg, 2009, 2(1): 9 ⁃ 11. DOI: 10.3969/j.issn.1674 ⁃
+1439.2009.01.005.
+［51］Tullberg T, Svanborg E, Isaccsson J, et al. A preoperative and
+postoperative study of the accuracy and value of electrodiagnosis
+in patients with lumbosacral disc herniation[J]. Spine (Phila Pa
+1976), 1993, 18(7): 837 ⁃ 842. DOI: 10.1097/00007632 ⁃
+199306000⁃00005.
+［52］Albeck MJ, Taher G, Lauritzen M, et al. Diagnostic value of elec⁃
+trophysiological tests in patients with sciatica[J]. Acta Neurol
+Scand, 2000, 101(4): 249⁃254. DOI: 10.1034/j.1600⁃0404.2000.
+101004249.x.
+［53］Dillingham TR, Dasher KJ. The lumbosacral electromyographic
+screen: revisiting a classic paper[J]. Clin Neurophysiol, 2000, 111
+(12): 2219⁃2222. DOI: 10.1016/S1388⁃2457(00)00461⁃2.
+［54］Beyaz EA, Akyuz G, Us O. The role of somatosensory evoked po⁃
+tentials in the diagnosis of lumbosacral radiculopathies[J]. Elec⁃
+tromyogr Clin Neurophysiol, 2009, 49(4): 131⁃142.
+［55］Pape E, Eldevik O, Vandvik B. Diagnostic validity of somatosen⁃
+sory evoked potentials in subgroups of patients with sciatica[J].
+Eur Spine J, 2002, 11(1): 38⁃46. DOI: 10.1007/s005860100322.
+［56］Tabaraud F, Hugon J, Chazot F, et al. Motor evoked responses af⁃
+ter lumbar spinal stimulation in patients with L5 or S1 radicular
+involvement[J]. Electroencephalogr Clin Neurophysiol, 1989, 72
+(4): 334⁃339. DOI: 10.1016/0013⁃4694(89)90069⁃2.
+［57］Deyo RA, Mirza SK. Clinical practice. Herniated lumbar interver⁃
+tebral disk[J]. N Engl J Med, 2016, 374(18): 1763⁃1772. DOI:
+10.1056/NEJMcp1512658.
+［58］Benoist M. The natural history of lumbar disc herniation and ra⁃
+diculopathy[J]. Joint Bone Spine, 2002, 69(2): 155 ⁃ 160. DOI:
+骶管囊肿诊疗 ： 上海新华医院神经外科郑学胜团队 ； 好大夫网站满意度排名第一
+中华骨科杂志2020 年4 月第40 卷第8 期 Chin J Orthop, April 2020, Vol. 40, No. 8
+·485·
+DOI: 10.1016/s1297⁃319x(02)00385⁃8.
+［59］Weber H. Lumbar disc herniation. A controlled, prospective
+study with ten years of observation[J]. Spine (Phila Pa 1976),
+1983, 8(2): 131⁃140. DOI: 10.1097/00007632⁃199701150⁃00015.
+［60］Pinto RZ, Maher CG, Ferreira ML, et al. Drugs for relief of pain in
+patients with sciatica: systematic review and meta ⁃ analysis[J].
+BMJ, 2012, 344: e497. DOI: 10.1136/bmj.e497.
+［61］Deyo RA, Diehl AK, Rosenthal M. How many days of bed rest for
+acute low back pain? A randomized clinical trial[J]. N Engl J Med,
+1986, 315(17): 1064⁃1070. DOI: 10.1056/NEJM1986102331517
+05.
+［62］Vroomen PC, de Krom MC, Knottnerus JA. Predicting the out⁃
+come of sciatica at short⁃term follow⁃up[J]. Br J Gen Pract, 2002,
+52(475): 119⁃123. DOI: 10.1097/00000441⁃200202000⁃00012.
+［63］Dahm KT, Brurberg KG, Jamtvedt G, et al. Advice to rest in bed
+versus advice to stay active for acute low⁃back pain and sciatica
+[J]. Cochrane Database Syst Rev, 2010, 6: CD007612. DOI: 10.
+1002/14651858.CD007612.pub2.
+［64］Di Mattia F, Tejani S, Hall T. Bed rest for sciatica: a closer look
+at the evidence[J]. J Orthop Sports Phys Ther, 2018, 48(6): 436⁃
+438. DOI: 10.2519/jospt.2018.0609.
+［65］Enthoven WT, Roelofs PD, Deyo RA, et al. Non⁃steroidal anti⁃in⁃
+flammatory drugs for chronic low back pain[J]. Cochrane Data⁃
+base Syst Rev, 2016, 2: CD012087. DOI: 10.1002/14651858.
+CD012087.
+［66］Chaparro LE, Furlan AD, Deshpande A, et al. Opioids compared
+with placebo or other treatments for chronic low back pain[J].
+Spine (Phila Pa 1976), 2014, 39(7): 556⁃563. DOI: 10.1097/BRS.
+0000000000000249.
+［67］Khoromi S, Cui L, Nackers L, et al. Morphine, nortriptyline and
+their combination vs. placebo in patients with chronic lumbar root
+pain[J]. Pain, 2007, 130(1): 66 ⁃ 75. DOI: 10.1016/j.pain.2006.
+10.029.
+［68］Balakrishnamoorthy R, Horgan I, Perez S, et al. Does a single
+dose of intravenous dexamethasone reduce Symptoms in Emergen⁃
+cy department patients with low Back pain and RAdiculopathy
+(SEBRA)? A double⁃blind randomised controlled trial[J]. Emerg
+Med J, 2015, 32(7): 525 ⁃ 530. DOI: 10.1136/emermed ⁃ 2013 ⁃
+203490.
+［69］Qaseem A, Wilt TJ, Mclean RM, et al. Noninvasive treatments for
+acute, subacute, and chronic low back pain: a clinical practice
+guideline from the American college of physicians[J]. Ann Intern
+Med, 2017, 166(7): 514⁃530. DOI: 10.7326/M16⁃2367.
+［70］Williamson OD, Sagman D, Bruins RH, et al. Antidepressants in
+the treatment for chronic low back pain: questioning the validity
+of meta⁃analyses[J]. Pain Pract, 2014, 14(2): E33⁃E41. DOI: 10.
+1111/papr.12119.
+［71］Mathieson S, Maher CG, Mclachlan AJ, et al. Trial of pregabalin
+for acute and chronic sciatica[J]. N Engl J Med, 2017, 376(12):
+1111⁃1120. DOI: 10.1056/NEJMoa1614292.
+［72］Brötz D, Maschke E, Burkard S, et al. Is there a role for benzodiaz⁃
+epines in the management of lumbar disc prolapse with acute sci⁃
+atica?[J]. Pain, 2010, 149(3): 470⁃475. DOI: 10.1016/j.pain.2010.
+02.015.
+［73］周谋望, 岳寿伟, 何成奇, 等.“腰椎间盘突出症的康复治疗” 中
+国专家共识[J]. 中国康复医学杂志, 2017, 32(2): 129⁃135. DOI:
+10.3969/j.issn.1001⁃1242.2017.02.001.
+Zhou MW, Yue SW, He CQ, et al. Chinese experts' consensus on
+rehabilitation treatment of lumbar disc herniation[J]. Chinese
+Journal of Rehabilitation Medicine, 2017, 32(2): 129⁃135 . DOI:
+10.3969/j.issn.1001⁃1242.2017.02.001.
+［74］Fernandez M, Hartvigsen J, Ferreira ML, et al. Advice to stay ac⁃
+tive or structured exercise in the management of sciatica[J]. Spine
+(Phila Pa 1976), 2015, 40(18): 1457⁃1466. DOI: 10.1097/BRS.
+0000000000001036.
+［75］Chou R, Hashimoto R, Friedly J. Epidural corticosteroid injec⁃
+tions for radiculopathy and spinal stenosis[J]. Ann Intern Med,
+2016, 164(9): 635⁃636. DOI: 10.7326/L15⁃0563.
+［76］Wegner I, Widyahening IS, van Tulder MW, et al. Traction for low⁃
+back pain with or without sciatica[J]. Cochrane Database Syst
+Rev, 2013(8): D3010. DOI: 10.1002/14651858.CD003010.pub5.
+［77］Santilli V, Beghi E, Finucci S. Chiropractic manipulation in the
+treatment of acute back pain and sciatica with disc protrusion: a
+randomized double⁃blind clinical trial of active and simulated spi⁃
+nal manipulations[J]. Spine J, 2006, 6(2): 131⁃137. DOI: 10.1016/
+j.spinee.2005.08.001.
+［78］Mo Z, Li D, Zhang R, et al. Comparisons of the effectiveness and
+safety of Tuina, acupuncture, traction, and Chinese herbs for lum⁃
+bar disc herniation: asystematic review and network meta⁃analysis
+[J]. Evid Based Complement Alternat Med, 2019, 2019: 6821310.
+DOI: 10.1155/2019/6821310.
+［79］Chen BL, Guo JB, Zhang HW, et al. Surgical versus non⁃operative
+treatment for lumbar disc herniation: a systematic review and
+meta⁃analysis[J]. Clin Rehabil, 2017, 32(2): 146⁃160. DOI: 10.
+1177/0269215517719952.
+［80］Gibson JN, Waddell G. Surgical interventions for lumbar disc pro⁃
+lapse[J]. Cochrane Database Syst Rev, 2007(1): CD001350. DOI:
+10.1002/14651858.CD001350.pub4.
+［81］Larequi⁃Lauber T, Vader JP, Burnand B, et al. Appropriateness of
+indications for surgery of lumbar disc hernia and spinal stenosis
+[J]. Spine (Phila Pa 1976), 1997, 22(2): 203⁃209. DOI: 10.1097/
+00007632⁃199701150⁃00015.
+［82］马庆军, 刘忠军, 陈仲强, 等. 第六届国际腰椎病研究学会高级
+讲习班演讲综述[J]. 中国脊柱脊髓杂志, 1996, 6(1): 37⁃40.
+Ma QJ, Liu ZJ, Chen ZQ, et al. A summary of the speech of the
+sixth international society for lumbar spine research[J]. Chin J
+Spine Spinal Cord, 1996, 6(1): 37⁃40.
+［83］Loupasis GA, Stamos K, Katonis PG, et al. Seven⁃ to 20⁃year out⁃
+come of lumbar discectomy[J]. Spine(Phila Pa 1976), 1999, 24
+(22): 2313⁃2317. DOI: 10.1097/00007632⁃199911150⁃00005.
+［84］陈伯华, 陈福令, 胡有谷. 腰椎间盘突出症术后的中远期疗效
+分 析[J]. 中 华 骨 科 杂 志, 2009, 29(7): 630⁃633. DOI: 10.3760/
+cma.j.issn.0253⁃2352.2009.07.005.
+Chen BH, Chen FL, Hu YG. Long term results of discectomy for
+骶管囊肿诊疗 ： 上海新华医院神经外科郑学胜团队 ； 好大夫网站满意度排名第一
+·486·
+中华骨科杂志2020 年4 月第40 卷第8 期 Chin J Orthop, April 2020, Vol. 40, No. 8
+lumbar intervertebral disc herniation[J]. Chin J Orthop, 2009, 29
+(7): 630⁃633. DOI: 10.3760/cma.j.issn.0253⁃2352.2009.07.005.
+［85］周秉文, 胡有谷, 孙进修. 腰椎间盘突出症的分型和手术商榷
+[J]. 中华骨科杂志, 1988, 8(5): 366⁃369.
+Zhou BW, Hu YG, Sun JX. The pathological patterns of lumbar
+disc herniation and prolapsed lumbar disc tissue excision[J]. Chin
+J Orthop, 1988, 8(5): 366⁃369.
+［86］郑召民, 王建儒. 开展侧方入路腰椎间融合术应思考的几个问
+题[J]. 中国脊柱脊髓杂志 , 2018, 28(5): 385⁃388. DOI: 0.3969/j.
+issn.1004⁃406X.2018.05.01.
+Zheng ZM, Wang JR. Several considerations about performing lat⁃
+eral lumbar interbody fusion[J]. Chin J Spine Spinal Cord, 2018,
+28(5): 385⁃388. DOI: 0.3969/j.issn.1004⁃406X.2018.05.01.
+［87］Mamuti M, Fan S, Liu J, et al. Mini⁃open anterior lumbar inter⁃
+body fusion for recurrent lumbar disc herniation following posteri⁃
+or instrumentation[J]. Spine (Phila Pa 1976), 2016, 41(18): E1104⁃
+E1114. DOI: 10.1097/BRS.0000000000001569.
+［88］中华医学会放射学分会介入学组 . 腰椎间盘突出症的介入和
+微创治疗操作规范的专家共识 [J]. 中华放射学杂志, 2014, 48
+(1): 10⁃12. DOI: 10.3760/cma.j.issn.1005⁃1201.2014.01.004.
+Interventional Radiology Sub⁃society of Chinese Medical Associa⁃
+tion. Expert consensus on intervention and minimally invasive
+treatment of lumbar disc herniation[J]. Chin J Radiol, 2014, 48(1):
+10⁃12. DOI: 10.3760/cma.j.issn.1005⁃1201.2014.01.004.
+［89］Zhang Q, Qian J, Zhu Y. Meta⁃analysis on microdiscectomy and
+sequestrectomy for lumbar disc herniation[J]. J Invest Surg, 2015,
+28(4): 225⁃229. DOI: 10.3109/08941939.2015.1006378.
+［90］Azarhomayoun A, Chou R, Shirdel S, et al. Sequestrectomy versus
+conventional microdiscectomy for the treatment of a lumbar disc
+herniation: asystematic review[J]. Spine (Phila Pa 1976), 2015, 40
+(24): E1330⁃E1339. DOI: 10.1097/BRS.0000000000001174.
+［91］Smith N, Masters J, Jensen C, et al. Systematic review of microen⁃
+doscopic discectomy for lumbar disc herniation[J]. Eur Spine J,
+2013, 22(11): 2458⁃2465. DOI: 10.1007/s00586⁃013⁃2848⁃8.
+［92］He J, Xiao S, Wu Z, et al. Microendoscopic discectomy versus
+open discectomy for lumbar disc herniation: a meta⁃analysis[J].
+Eur Spine J, 2016, 25(5): 1373⁃1381. DOI: 10.1007/s00586⁃016⁃
+4523⁃3.
+［93］Ruetten S, Komp M, Merk H, et al. Full⁃endoscopic interlaminar
+and transforaminal lumbar discectomy versus conventional micro⁃
+surgical technique: a prospective, randomized, controlled study[J].
+Spine (Phila Pa 1976), 2008, 33(9): 931⁃939. DOI: 10.1097/BRS.
+0b013e31816c8af7.
+［94］Tanavalee C, Limthongkul W, Yingsakmongkol W, et al. A com⁃
+parison between repeat discectomy versus fusion for the treatment
+of recurrent lumbar disc herniation: systematic review and meta⁃
+analysis[J]. J Clin Neurosci, 2019, 66: 202⁃208. DOI: 10.1016/j.
+jocn.2019.05.004.
+［95］Satoh I, Yonenobu K, Hosono N, et al. Indication of posterior lum⁃
+bar interbody fusion for lumbar disc herniation[J]. J Spinal Disord
+Tech, 2006, 19(2): 104⁃108. DOI: 10.1097/01.bsd.0000180991.
+98751.95.
+［96］Wang JC, Dailey AT, Mummaneni PV, et al. Guideline update for
+the performance of fusion procedures for degenerative disease of
+the lumbar spine. Part 8: lumbar fusion for disc herniation and ra⁃
+diculopathy[J]. J Neurosurg Spine, 2014, 21(1): 48⁃53. DOI: 10.
+3171/2014.4.SPINE14271.
+［97］吴佳源, 田伟. 腰椎人工椎间盘置换术的研究进展 [J]. 中国脊
+柱 脊 髓 杂 志, 2019, 29(3): 268⁃274. DOI: 10.3969/j.issn.1004⁃
+406X.2019.03.11.
+Wu JY, Tian W. Progress in research of lumbar total disc replace⁃
+ment[J]. Chin J Spine Spinal Cord, 2019, 29(3): 268⁃274. DOI:
+10.3969/j.issn.1004⁃406X.2019.03.11.
+［98］Macnab I. Negative disc exploration. An analysis of the causes of
+nerve⁃root involvement in sixty⁃eight patients[J]. J Bone Joint
+Surg Am, 1971, 53(5): 891⁃903.
+［99］Vishwanathan K, Braithwaite I. Comparative responsiveness of
+four visual analogue scales in microdiscectomy for lumbar disc
+herniation[J]. Eur J Orthop Surg Traumatol, 2019, 29(6): 1199⁃
+1204. DOI: 10.1007/s00590⁃019⁃02429⁃z.
+［100］Haefeli M, Elfering A. Pain assessment[J]. Eur Spine J, 2006, 15
+(S1): S17⁃S24. DOI: 10.1007/s00586⁃005⁃1044⁃x.
+［101］Fujiwara A, Kobayashi N, Saiki K, et al. Association of the Japa⁃
+nese Orthopaedic Association score with the Oswestry Disability
+Index, Roland⁃Morris Disability Questionnaire, and short⁃form 36
+[J]. Spine (Phila Pa 1976), 2003, 28(14): 1601⁃1607. DOI: 10.
+1097/01.brs.0000077510.95462.39.
+［102］Azimi P, Mohammadi HR, Montazeri A. An outcome measure of
+functionality and pain in patients with lumbar disc herniation: a
+validation study of the Japanese Orthopedic Association (JOA)
+score[J]. J Orthop Sci, 2012, 17(4): 341 ⁃ 345. DOI: 10.1007/
+s00776⁃012⁃0232⁃x.
+［103］Fairbank JC, Couper J, Davies JB, et al. The Oswestry low back
+pain disability questionnaire[J]. Physiotherapy, 1980, 66(8): 271⁃
+273.
+［104］Jeremy CT, Fairbank PB. The Oswestry Disability Index[J]. Spine
+(Phila Pa 1976), 2000, 25(22): 2940⁃2953. DOI: 10.1097/0000
+7632⁃200011150⁃00017.
+［105］Ware JJ, Kosinski M, Keller SD. A 12⁃Item Short⁃Form Health
+Survey: construction of scales and preliminary tests of reliability
+and validity[J]. Med Care, 1996, 34(3): 220⁃233. DOI: 10.1097/
+00005650⁃199603000⁃00003.
+［106］Ware JJ. SF⁃36 health survey update[J]. Spine (Phila Pa 1976),
+2000, 25(24): 3130⁃3139. DOI: 10.1097/00007632⁃200012150⁃
+00008.
+［107］Laucis NC, Hays RD, Bhattacharyya T. Scoring the SF⁃36 in or⁃
+thopaedics: abrief guide[J]. J Bone Joint Surg Am, 2015, 97(19):
+1628⁃1634. DOI: 10.2106/JBJS.O.00030.
+［108］Johnsen LG, Hellum C, Nygaard OP, et al. Comparison of the
+SF6D, the EQ5D, and the Oswestry Disability Index in patients
+with chronic low back pain and degenerative disc disease[J]. BMC
+Musculoskelet Disord, 2013, 14: 148. DOI: 10.1186/1471⁃2474⁃
+14⁃148.
+［109］Roland M, Morris R. A study of the natural history of back pain.
+骶管囊肿诊疗 ： 上海新华医院神经外科郑学胜团队 ； 好大夫网站满意度排名第一
+中华骨科杂志2020 年4 月第40 卷第8 期 Chin J Orthop, April 2020, Vol. 40, No. 8
+·487·
+Part I: development of a reliable and sensitive measure of disabili⁃
+ty in low⁃back pain[J]. Spine (Phila Pa 1976), 1983, 8(2): 141⁃
+144. DOI: 10.1097/00007632⁃198303000⁃00004.
+［110］Weinstein JN, Tosteson TD, Lurie JD, et al. Surgical vs nonopera⁃
+tive treatment for lumbar disk herniation[J]. JAMA, 2006, 296(20):
+2441⁃2450. DOI: 10.1001/jama.296.20.2441.
+［111］Nikoobakht M, Yekanineajd MS, Pakpour AH, et al. Plasma disc
+decompression compared to physiotherapy for symptomatic con⁃
+tained lumbar disc herniation: a prospective randomized con⁃
+trolled trial[J]. Neurol Neurochir Pol, 2016, 50(1): 24⁃30. DOI:
+10.1016/j.pjnns.2015.11.001.
+［112］Gerszten PC, Smuck M, Rathmell JP, et al. Plasma disc decom⁃
+pression compared with fluoroscopy⁃guided transforaminal epidur⁃
+al steroid injections for symptomatic contained lumbar disc herni⁃
+ation: a prospective, randomized, controlled trial[J]. J Neurosurg
+Spine, 2010, 12(4): 357⁃371. DOI: 10.3171/2009.10.SPINE092
+08.
+［113］Wilson CA, Roffey DM, Chow D, et al. A systematic review of pre⁃
+operative predictors for postoperative clinical outcomes following
+lumbar discectomy[J]. Spine J, 2016, 16(11): 1413⁃1422. DOI:
+10.1016/j.spinee.2016.08.003.
+［114］Rihn JA, Hilibrand AS, Radcliff K, et al. Duration of symptoms re⁃
+sulting from lumbar disc herniation: effect on treatment outcomes:
+analysis of the Spine Patient Outcomes Research Trial (SPORT)
+[J]. J Bone Joint Surg Am, 2011, 93(20): 1906⁃1914. DOI: 10.
+2106/JBJS.J.00878.
+［115］Wang H, Zhang D, Ma L, et al. Factors predicting patient dissatis⁃
+faction 2 years after discectomy for lumbar disc herniation in a
+Chinese older cohort: aprospective study of 843 cases at a single
+institution[J]. Medicine (Baltimore), 2015, 94(40): e1584. DOI:
+10.1097/MD.0000000000001584.
+［116］Nv A, Rajasekaran S, Ks S, et al. Factors that influence neurologi⁃
+cal deficit and recovery in lumbar disc prolapse⁃a narrative review
+[J]. Int Orthop, 2019, 43(4): 947⁃955. DOI: 10.1007/s00264⁃018⁃
+4242⁃y.
+［117］Stottrup CC, Andresen AK, Carreon L, et al. Increasing reopera⁃
+tion rates and inferior outcome with prolonged symptom duration
+in lumbar disc herniation surgery⁃a prospective cohort study[J].
+Spine J, 2019, 19(9): 1463⁃1469. DOI: 10.1016/j.spinee.2019.04.
+001.
+［118］Balaara A, Xu XF, Huang YH, et al. Predictors of the outcome of
+lumbar disc herniation following classical surgery: laminotomy
+with discectomy[J]. Orthopade, 2017, 46(6): 530⁃537. DOI: 10.
+1007/s00132⁃017⁃3398⁃2.
+［119］Madsbu MA, Salvesen Ø, Werner DAT, et al. Surgery for herniat⁃
+ed lumbar disc in daily tobacco smokers: amulticenter observa⁃
+tional study[J]. World Neurosurg, 2018, 109: e581⁃e587. DOI: 10.
+1016/j.wneu.2017.10.024.
+［120］Koerner JD, Glaser J, Radcliff K. Which variables are associated
+with patient ⁃ reported outcomes after discectomy? Review of
+SPORT disc herniation studies[J]. Clin Orthop Relat Res, 2015,
+473(6): 2000⁃2006. DOI: 10.1007/s11999⁃014⁃3671⁃1.
+（ 收稿日期：2020⁃04⁃02）
+（ 本文编辑： 马英 ）
+骶管囊肿诊疗 ： 上海新华医院神经外科郑学胜团队 ； 好大夫网站满意度排名第一

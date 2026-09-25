@@ -1,0 +1,23 @@
+# 源清单：infection_food
+共 20 篇原文，合计 204 KB。文件头保留来源/URL，正文未改写。
+
+- MANIFEST.txt :: MANIFEST.txt :: URL
+- aflatoxin_nuts_scjamr.txt :: aflatoxin_nuts_scjamr.txt :: https://amr.hunan.gov.cn/amr/ztx/cjxxx/202110/t20211025_20853913.html>
+- flu_season_chinacdc.txt :: flu_season_chinacdc.txt :: https://www.chinacdc.cn/jkts/202511/t20251105_313281.html>
+- flu_who_zh.txt :: flu_who_zh.txt :: https://www.who.int/zh/news-room/fact-sheets/detail/influenza-(seasonal)>
+- food_safety_who_zh.txt :: food_safety_who_zh.txt :: https://www.who.int/zh/news-room/fact-sheets/detail/food-safety>
+- hb_mtct_qa_chinacdc.txt :: hb_mtct_qa_chinacdc.txt :: https://www.chinacdc.cn/jkyj/mygh02/ymkyfjb/yxgy/>
+- hb_vaccine_mtct_who_zh.txt :: hb_vaccine_mtct_who_zh.txt :: https://www.who.int/zh/news-room/fact-sheets/detail/hepatitis-b>
+- hb_viral_hep_action_plan_ndcpa.txt :: hb_viral_hep_action_plan_ndcpa.txt :: https://www.ndcpa.gov.cn/jbkzzx/c100014/common/content/content_1966406073307271168.html>
+- herpangina_hfmd_chinacdc.txt :: herpangina_hfmd_chinacdc.txt :: https://www.chinacdc.cn/jkkp/crb/qtcr/202607/t20260723_1838345.html>
+- hfmd_july_alert_chinacdc.txt :: hfmd_july_alert_chinacdc.txt :: https://www.chinacdc.cn/jkts/202607/t20260711_1838083.html>
+- hfmd_qa_chinacdc.txt :: hfmd_qa_chinacdc.txt :: https://www.chinacdc.cn/jkkp/crb/bcr/202507/t20250723_308690.html>
+- kitchen_cuttingboard_shanghai.txt :: kitchen_cuttingboard_shanghai.txt :: https://www.shanghai.gov.cn/nw17239/20250611/8bc0fc3f69c949bd87865c424b0eeeff.html>
+- leftovers_nitrite_scj.txt :: leftovers_nitrite_scj.txt :: https://scjgj.quanzhou.gov.cn/xxgk/ztzl/xfts/scjggzxkt/202312/t20231219_2983021.htm>
+- norovirus.txt :: norovirus.txt
+- norovirus_doc.txt :: norovirus_doc.txt
+- tb_core_info_chinacdc.txt :: tb_core_info_chinacdc.txt :: https://tb.chinacdc.cn/xxjlg/201603/W020160324539729193232.docx>
+- tb_day_2025_notice.txt :: tb_day_2025_notice.txt :: https://www.chinacdc.cn/ztxm/xcgy_14306/202503/t20250313_304925.html>
+- tb_day_2026_notice_ndcpa.txt :: tb_day_2026_notice_ndcpa.txt :: https://www.ndcpa.gov.cn/jbkzzx/c100014/common/content/content_2028780865511133184.html>
+- tb_plan_2024_2030_ndcpa.txt :: tb_plan_2024_2030_ndcpa.txt :: https://www.ndcpa.gov.cn/jbkzzx/c100030/common/content/content_1867010541844287488.html>
+- tb_who_zh.txt :: tb_who_zh.txt :: https://www.who.int/zh/news-room/fact-sheets/detail/tuberculosis>

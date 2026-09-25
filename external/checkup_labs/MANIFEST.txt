@@ -1,0 +1,13 @@
+# 源清单：checkup_labs
+共 10 篇原文，合计 1621 KB。文件头保留来源/URL，正文未改写。
+
+- MANIFEST.txt :: MANIFEST.txt :: URL
+- ckd_early2022.txt :: ckd_early2022.txt
+- ckd_screen2022.txt :: ckd_screen2022.txt
+- diabetes_cds2024.txt :: diabetes_cds2024.txt
+- hbv2022.txt :: hbv2022.txt
+- lipid_cn2023.txt :: lipid_cn2023.txt
+- thyroid_hypo2017.txt :: thyroid_hypo2017.txt
+- uric_gout2019.txt :: uric_gout2019.txt
+- wst404_1_enzymes.txt :: wst404_1_enzymes.txt
+- wst405_sccl2024.txt :: wst405_sccl2024.txt

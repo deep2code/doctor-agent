@@ -1,0 +1,349 @@
+SOURCE: 老年听力损失诊断与干预专家共识（2019） | 全国防聋治聋技术指导组、中华医学会耳鼻咽喉头颈外科学分会、中华耳鼻咽喉头颈外科杂志编辑委员会、中华医学会老年医学分会（中华耳鼻咽喉头颈外科杂志2019年第54卷第3期） | 2019 | https://cmab.yiigle.com/uploads/guide_html/老年听力损失诊断与干预专家共识（2019）.html
+
+老年听力损失诊断与干预专家共识（2019）
+全国防聋治聋技术指导组
+中华医学会耳鼻咽喉头颈外科学分会
+中华耳鼻咽喉头颈外科杂志编辑委员会
+中华医学会老年医学分会
+中华耳鼻咽喉头颈外科杂志, 2019,54(3) : 166-173. DOI: 10.3760/cma.j.issn.1673-0860.2019.03.002
+听力损失是老年人身体功能衰退的常见表现之一，不仅会导致听觉言语交流障碍，还能引发虚弱感、孤独感、猜疑感、焦虑、抑郁等精神心理问题和社会隔离现象。近年研究发现，听力损失还与老年认知功能下降密切相关[1,2]，更加重了家庭和社会负担。随着我国步入老龄化社会，关注听力损失对老年人群生活质量的影响，做到早发现、早诊断、早干预，已成为我们迫在眉睫的重点工作。
+基本概念
+老年听力损失，是指60岁以上老年人（世界卫生组织关于老年人群年龄的界定：发达国家推荐以65岁为界限，发展中国家推荐以60岁为界限）因年龄增长、耳科疾病、遗传因素、噪声损伤、耳毒性药物以及代谢性疾病和不良生活习惯等因素导致的听觉功能下降的总称[3,4]。
+老年听力损失可能由单一因素引起，也可能是几种致聋因素相互叠加作用的结果。本共识主要针对其中最具代表性的、因年龄增长因素导致的听力损失（传统意义上的老年性聋，即随着年龄增长出现双耳对称性、缓慢进展的、以高频听力首先受累为主的听力损失和言语识别能力下降）进行重点解读[5,6]。
+流行病学
+2018年世界卫生组织数据显示，约1/3的65岁以上老年人存在中度或中度以上的听力损失[7]。国内1997年一项针对6个城市共8 252名老年人的横断面流行病学调查显示，60岁以上老年人听力损失的总患病率为33.7%[8]。基于我国第二次全国残疾人抽样调查数据推算，60岁以上老年人听力残疾比例高达11%，人数超过2 000万[9]。2016年一项我国四省调查研究发现，听力损失现患率随年龄增长显著升高，60~74岁老年人占比53.65%[10]。
+2018年末我国大陆60周岁及以上人口约2.494 9亿，其中≥65周岁的人口约1.665 8亿，占总人口的11.9%[11]。预计到2050年前后，中国老年人口数将达4.87亿，占总人口的34.9%[12]。据此，老年人群听力损失的防治工作形势严峻、刻不容缓。
+危害性
+老年听力损失可以引起听觉言语交流能力减退和生活质量下降等一系列严重问题，需要全社会给予足够的重视，积极开展早期干预。
+一、言语交流能力下降
+老年听力损失早期以高频听力损失为主，主要表现为言语识别率下降，特别是在噪声环境下言语交流更加困难[13,14,15]；当听力损失累及中低频率时，即使在安静环境下言语交流也很困难[5]。因此，老年人会主动减少社会交往。
+二、情感和社会交流能力下降
+老年人出现听力损失和言语识别能力下降，导致对周围事物不感兴趣，久之则变得多疑、猜忌和自卑，甚至出现焦虑、抑郁等心理精神问题以及社会隔离现象[16]。研究发现，24%的老年听力损失患者有不同程度的心理或精神异常，同时约40%伴有耳鸣、20%伴有平衡障碍[17,18]。老年人随着听力损失加重，接受和处理外界信息的能力减弱，导致老化加速、生活质量急剧下降。
+三、认知能力下降
+在老年听力损失患者中认知能力下降比较常见。研究发现，阿尔兹海默症在伴有轻、中、重度听力损失老年人中的发病率分别是听力正常老年人的2倍、3倍和5倍[19]。但二者之间的具体关系和发生机制目前尚不十分清楚[20]。
+四、避险能力下降
+老年听力损失患者对日常生活中的危险警告声（如交通工具鸣笛、火警、周围人的提醒声等）的感知能力下降，同时伴随年龄增长会出现声源定位能力下降，对危险警告信号的方位判断也会出现问题。因此，老年听力损失带来的安全风险不容忽视。
+临床表现
+一、听力损失
+由于增龄、耳病和全身性疾病等多种致病因素的交互作用，可导致老年人出现不同形式的听力损失。当伴有外、中耳疾病时，会出现传导性、混合性听力损失；当发生突发性聋、梅尼埃病等内耳疾患时，可出现眩晕和不同程度的感音神经性听力损失。因年龄增长导致的听力损失通常表现为双侧对称性、以高频听力下降为主的进行性感音神经性听力损失[5]。一些全身慢性疾病引起的听力损失也会表现为以高频听力下降为主[4,21,22,23]。
+二、言语识别能力下降
+老年听力损失患者多伴有明显的言语识别率下降，表现为听得见但听不清、轻声听不清大声又嫌吵[5]；同时由于听觉系统时域信息处理能力下降，在噪声环境下和快语速交流情景下，言语识别能力会明显下降[24,25,26,27]。
+三、耳鸣及其他临床表现
+老年听力损失患者通常伴有耳鸣，多表现为持续性高调耳鸣[5]，严重者可影响睡眠质量，出现互为影响的恶性循环。此外，听力损失与老年人跌倒概率增加相关[28]。如前述，患者常伴有孤独、焦虑、抑郁等异常情绪以及认知功能下降[16,29]。
+早期发现与诊断
+一、老年听力损失的早期发现
+老年听力损失的早期发现极为重要，患者本人或亲近的人应该具备相关的常识以便早期发现、尽早干预。
+1．生活中的自我观察或家庭成员等看护人员的日常观察。
+2．医师简单评估法和问卷筛查法：受检者根据日常生活中的经验回答医师提出的听力相关问题，由医师进行评估[30]；也可以选用老年听力障碍筛查量表简化版（HHIE-S），请受检者在5 min内回答听力相关问题，根据得分加以判断[6,31]。
+3．简易设备筛查法：是指基于通讯工具和数字测听程序的远程听力筛查。目前已经实现了基于固定电话、网络软件或手机App的远程听力筛查[32,33,34]，但需要注意的是，上述筛查结果可能与真实听力之间存在差异。
+4．听力计筛查法：由经过听力学培训的人员在隔声室或安静环境下，使用纯音听力计进行500、1 000、2 000、4 000和8 000 Hz的纯音气导测听，若各频率均达到筛查标准，即通过听力筛查。这种筛查方法专业性强、灵敏度高[35]。
+二、临床诊断
+（一）病史问询
+在老年听力损失的诊断中，病史询问非常重要，应包括以下内容。
+1．听力损失的侧别、诱发因素、发生时间及程度、加重或缓解因素等。
+2．听力损失对日常生活的影响。
+3．是否伴有其他耳部症状，如耳鸣、耳痛、耳溢液、眩晕等。
+4．既往史包括外伤史、噪声暴露史、耳毒性药物使用史、慢性病史（高血压、糖尿病、高血脂等）。
+5．吸烟史、饮酒史。
+6．家族史。
+（二）推荐的临床检查
+1．耳科专科检查。
+2．听力学基本检查：（1）纯音测听，包括常规测试频率的气导和骨导听阈测定，建议加做3 000和6 000 Hz测试；（2）声导抗测试，包括鼓室图和同侧及对侧镫骨肌声反射测试；（3）言语测听，对于老年听力损失的评估非常重要，包括言语识别阈、言语识别率以及噪声下言语测试等。伴有认知功能障碍的患者，其行为测听结果可能不准确，建议增加电生理测试。
+（三）其他临床检查
+1．位听功能检查：
+包括听性脑干反应（ABR）、耳声发射、耳鸣匹配等，若伴有眩晕可行前庭功能和平衡功能检查。
+2．认知功能评估[36]：
+常用的认知评估工具可分为两大类，一类是反映总体认知，例如简明精神状态量表（MMSE）与蒙特利尔认知评估量表（MoCA）；另一类反映的是单个认知域，例如反映记忆功能时选择听觉词语学习测验（AVLT），反映语言功能时选择言语流畅性测验与Boston命名测验（BNT），反映注意/执行功能时选择连线测验（TMT）A与B。认知功能的评估应由相关专业人员完成，部分患者听力损失较重，会影响评估操作，可矫正听力后再行评估或换用主要依靠视觉完成的评估工具。
+3．影像学检查：
+根据病情需要酌情选择颅脑MRI和颞骨CT检查，主要用于鉴别诊断，排除中枢性病变以及桥小脑角占位病变等。
+（四）老年听力损失的程度
+世界卫生组织1997年依据患者较好耳的平均气导听阈，将听力损失分为四级，见表1。
+表1
+世界卫生组织（1997年）听力损失程度分级标准
+表1
+世界卫生组织（1997年）听力损失程度分级标准
+听力损失程度平均听阈（dBHL）日常表现
+正常 ≤25 能听到耳语声
+轻度26～40 能够在1 m远的地方听到并复述正常言语声
+中度41～60 能够在1 m远的地方听到并复述提高音量后的言语声
+重度61～80 对着相对好耳喊话时，能够听到一些单词
+极重度或全聋 ≥81 即使是喊话也听不到、听不懂
+注：平均听阈是指500、1 000、2 000、4 000 Hz四个频率气导听阈的平均值
+值得注意的是由于老年听力损失以高频听力下降为主，因此言语识别能力的评估相对于纯音听阈的评估更为重要。
+（五）老年听力损失的早期发现与诊断流程
+建立一套适用于基层的、能分级的、可推广普及的老年听力损失评估体系，对于早期发现、早期干预具有重要意义（图1）。将老年听力损失的发现和筛查落实在社区医院，发现问题后及时转诊至上级医院，将有利于建立老年听力损失干预体系。
+图1
+老年听力损失评估体系及流程
+图1
+老年听力损失评估体系及流程
+预防保健
+一、提倡健康生活方式
+合理膳食、适度运动、远离噪声并加强对全身慢性疾病的管理。随着年龄的增长，老年人患慢性疾病的概率增加，对高血压、糖尿病、高血脂等加速听力损失的风险因素要引起足够重视并及时干预[37,38]。
+二、减少危险因素
+1．避免使用耳毒性药物：
+老年人群药物不良反应的发生率明显高于年轻人群，且同时服用多种药物时，药物相互作用的风险加大[39,40]。故建议老年人服药前需咨询医生，尽量规避氨基糖苷类抗生素等耳毒性药物。
+2．避免噪声损伤：
+高强度、持续性噪声会对人耳造成伤害，导致耳聋、耳鸣等[41]。加强噪声防护应该从年轻做起，预防因突然爆震引发的听力损伤[42]，根据需要佩戴符合卫生标准的个人防护用品以及避免娱乐性噪声损伤。
+干预
+老年听力损失的治疗和干预与其病因密切相关。首先强调对原发疾病的治疗，同时按照听力损失程度选择适宜的干预方法。早期以药物和聆听训练为主，效果不佳时酌情验配助听器或植入人工耳蜗。
+一、药物
+对于常见内耳疾病，如突发性聋、梅尼埃病等所导致的听力损失，应参考相关临床指南进行针对性治疗[43,44]；对伴有耳鸣的患者可使用药物减轻症状，提高生活质量（如银杏叶提取物等）[45,46]；对伴有眩晕的患者要积极查找原因，通过药物减轻症状提高生活质量；对于伴有全身慢性疾病的老年听力损失患者，应积极治疗原发疾病并开展听觉保护性随访；对于伴有轻度认知功能障碍的患者，建议尽早使用改善认知功能的药物[47,48]。
+二、助听器
+助听器是帮助老年听力损失患者提高听力、改善听觉言语交流的有效手段，但在未经充分医学评估和听力学评估的情况下，应避免不恰当使用助听器。
+为老年人验配助听器的关键是使其能在不同聆听环境下轻松理解言语，重新获得对声音的真实感受，最终接受助听器并从中获益[49]。
+（一）助听器验配适应证及一般原则
+1．轻、中度听力损失者，尤其是安静环境下言语识别率较好者，建议首选助听器作为听力补偿手段。
+2．重度、极重度听力损失者，在佩戴助听器后不能满足听力基本需求时，要及时考虑人工耳蜗植入。如暂时不具备手术条件，则仍建议使用大功率助听器。
+3．双耳听力损失者，推荐双耳验配助听器。
+（二）验配前的医学评估和听力学评估
+助听器验配前应请耳鼻咽喉科医师进行专科医学评估。听力学评估包括纯音测听、声导抗测试和言语测听以及不舒适阈测试。综合分析测试结果，明确听力损失的性质与程度。对怀疑有认知或中枢处理障碍的老年听力损失患者，应请神经/精神科医师进行认知能力及中枢功能等相关检查。
+（三）助听器验配流程[50]
+1．助听器预选：老年听力损失可能存在持续加重的趋势，选择助听器时应留有一定备用增益空间；对年龄较大且手指灵活度欠佳的患者，推荐选配耳背式助听器；对轻、中度听损者可选用较舒适的"开放耳"助听器，也可制作硬耳模。总之，老年听力损失患者应尽量避免选配定制式（耳内式、耳道式、深耳道式）助听器。
+2．助听器验配：助听器的验配水平直接影响其使用效果。因此，建议老年听力损失患者到专业医疗机构或有资质的助听器验配中心进行验配。验配师可通过模拟日常生活场景，根据患者的感受适当调整助听器参数，增进其对助听器的适应[51]。
+3．验配后评估及处置：老年人佩戴助听器欲达到满意效果，在验配前、后过程中都要进行精准微调[52]，且避免过多使用程序选择功能。对于学习接受能力良好者，可根据其需求推荐适合的助听器辅助装置。
+4．助听器的使用及维护：应仔细地向老年听力损失患者和/或监护人交待使用助听器的各种注意事项。
+5．跟踪随访：助听器验配后要进行定期随访，了解助听器的使用以及患者听力损失的变化情况，据此优化调整助听器参数或转诊至专科门诊做进一步诊治。
+（四）助听器验配的注意事项
+1．遇到以下情况应首先考虑转诊就医，暂时不宜验配助听器：（1）传导性听力损失；（2）3个月内的突发性听力损失；（3）进行性或波动性听力损失；（4）伴有耳痛、耳漏、耳鸣、眩晕或头痛；（5）外耳道耵聍栓塞或外耳道狭窄/闭锁[50]。
+2．对于言语识别率过低，有中枢病变和/或认知障碍的老年听力损失患者，应耐心解释助听器效果的期望值。
+3．耳鸣可能会影响助听器的使用效果，但部分患者佩戴助听器后耳鸣会有不同程度的缓解，应耐心向患者解释并建议其尝试佩戴助听器。
+4．在使用助听器过程中，如果出现听力下降、头晕等不适症状，应及时转诊至专科医师进行评估。
+（五）康复指导详见下文听觉康复训练部分。
+三、人工耳蜗
+人工耳蜗植入是目前解决重度或极重度感音神经性听力损失最为直接有效的康复手段，对改善老年人言语识别率和交流能力有良好效果[5]。目前我国老年听力损失人群接受人工耳蜗植入的比例偏低，可能与认知观念、经济收入、保险政策以及担心手术风险等因素有关[53,54]。
+（一）老年人工耳蜗植入的适宜人群
+老年听力损失患者既往具有良好的听觉言语基础，人工耳蜗植入后多效果明确。临床上应结合老年患者自身的预期寿命和听力下降趋势综合考量，当符合人工耳蜗植入手术适应证时，应尽早植入人工耳蜗，提高生活质量[55]。
+适应证包括：（1）双耳重度或极重度感音神经性聋，依靠助听器不能进行正常听觉言语交流；（2）能耐受全身麻醉手术；（3）具备良好的心理素质，本人及家庭对手术效果有合理的期望值；（4）能够坚持听觉康复训练并有良好的家庭支持；（5）通过术前中枢功能和认知功能评估。
+（二）老年人工耳蜗植入的安全性
+临床研究显示，老年人工耳蜗植入者麻醉和手术相关并发症的发生率与其他年龄植入者相比，差异无统计学意义[56,57,58]。
+由于老年患者常伴发其他全身疾病，且衰老引起的身体机能降低程度存在个体差异，出现麻醉和手术相关并发症的概率不等，因此术前、术中的综合评估极为重要[56,57]。
+（三）老年人工耳蜗植入的效果
+老年听力损失患者植入人工耳蜗后，各频率听阈改善显著[56,57,58,59,60,61,62]；术后的言语识别率较术前有显著提高，在安静环境下的言语识别率与60岁以下成人语后聋植入者相比，差异无统计学意义[58]。相对于助听器，人工耳蜗可更好地提高老年听力损失患者在安静和噪声环境下的言语识别率和理解能力[57]。
+由于老年听力损失患者植入效果的个体差异较大[61]，评估时更应注重患者主观满意度和生活质量的改善情况，以及在家庭和社会生活中交流能力的有效提高。
+（四）康复指导详见下文听觉康复训练部分。
+听觉康复训练
+在老年听力损失患者中开展听觉康复训练可加速对人工听觉装置的接受及适应进程，促进提高言语识别和交流能力[63]。同时，还可以激发记忆力、注意力等认知能力[64]。在整个听觉康复训练中，应该建立以家庭为中心，辅以康复机构以及多学科人员（包括医生、听力师以及心理咨询师等）协同参与的康复模式[65]。随着网络功能和应用的迅速扩展，远程教育和智能手机软件逐渐成为家庭康复训练的好帮手[66]。
+一、基本原则[67]
+1．建立合理的期望值。
+2．建立良好的心理状态和培养听觉言语交流习惯。
+3．创建良好的康复适应性训练环境。
+4．建立个体化方案，积极开展康复适应性训练。
+二、训练内容
+（一）未使用助听装置者
+因各种原因未使用助听装置干预的老年听力损失患者，应积极采用以下交流方式改善言语交流能力[68]。
+1．缩短谈话距离。
+2．讲话者要吐字清晰、放慢语速，并适度提高音量。
+3．充分发挥视觉功能，面对面交流，最大限度地利用唇读和肢体语言。
+4．利用残余听力，对听觉察知、识别、辨别、理解分别进行训练，掌握聆听技巧。
+（二）使用助听装置者
+已接受助听装置干预的老年听力损失患者，康复训练应建立在适应佩戴助听装置的基础上，对装置的调试、验证和效果评估应贯穿整个康复过程。
+听觉康复包括认知训练和听力训练：常用的认知训练方法为记忆训练、处理速度训练等；听力训练则从听觉察知、识别、辨别、理解四个方面逐步进行。大多数情况下，特别是在嘈杂的噪声环境中，老年患者仅依靠助听装置无法进行有效的交流时，需要改进交流策略[69]，或配合使用其他辅助技术（如FM系统等）。
+展望
+随着国家人口老龄化进程加剧，预计老年性听力损失患者人数将会大幅度增加，应引起全社会共同关注，提高防治意识，做到早期发现、早期诊断和早期干预，从而有效提高老年人群的生活质量、减少社会负担。今后工作重点建议考虑以下几个方面。
+一、病因及流行病学研究
+老年听力损失的病因及危险因素尚不明确，多因素的交互作用以及其他因素对老年听力损失的促进作用尚待揭示[22,70,71,72,73,74]。我国应组织开展多中心、大样本的流行病学基线调查，分析相关危险因素，推动病因学研究。此外，通过健康大数据分析，结合人工智能技术，推动老年人群听力筛查，建立科学精准的预警方式，实现老年听力损失的早期干预。
+二、发病机制及干预措施的研究
+老年听力损失的工作重心应由治疗为主转向防控为主，深入研究发病机制，积极探寻致病因素，开展分子遗传学研究，加快诊断技术以及干预手段等方法学研究。
+1．药物的研究：
+深入老年听力损失的病因学研究，揭示其病理生理学机制，为预防及治疗药物的研发奠定理论基础。
+2．助听器和人工耳蜗等人工听觉技术的研究：
+开展人工听觉技术在声音处理策略及无线集成等方面的工作，将有助于提高患者使用依从性，增强其独立生活能力[75]。进一步改善声信号的人工智能处理策略、提高言语识别率，将是未来研究和开发的重点领域[76]。
+3．基因治疗：
+有研究报道微小RNA（microRNA）可调控衰老进程[77,78]，也有研究尝试将外源性DNA导入内耳，替换缺陷基因诱导毛细胞和神经纤维再生[79]。实现基因治疗仍需大量试验确定其安全性和有效性。
+三、合并老年慢性疾病的相关研究
+老年听力损失与多种慢性疾病、认知及心理精神障碍等密切相关。因此，应加强老年慢性疾病对听力产生影响的基础和临床研究。
+老年听力损失增加了认知功能障碍的发生概率，中枢听觉处理障碍可能是阿尔茨海默病的早期表现[80]。因此探讨老年听力损失与认知功能障碍的相关性以及影响因素，将有助于加深对老年身体机能衰退的认识，优化听力损失与认知功能障碍的干预模式。
+四、老年人群听力干预及康复体系建设
+应根据老年人群的特点开展预防为主、关口前移的社会化工作模式，应用大数据分析和人工智能手段，构建全方位、全覆盖和全过程的老年听力损失康复和干预体系。
+随着我国人口老龄化进程加速，加强惠及城乡的老年人群听力损失防治体系建设，义不容辞，刻不容缓。保障听力健康，始于当代，功在千秋。
+委员会成员
+共识执笔专家韩德民、刘博、黄治物、冯艳梅、冀飞、张甦琳、于普林、郭起浩、金昕
+共识起草顾问吴皓、高志强、韩东一、孔维佳、孙建军、杨仕明、殷善开、王海波、邱建华、倪道凤、卜行宽、房玉新
+其他参与共识讨论的专家（按姓氏拼音排序）巴罗、陈雪清、戴朴、刁明芳、冯永、傅新星、高下、龚树生、郭明丽、郭玉芬、胡国华、姜鸿彦、姜学钧、李华伟、李希平、林鹏、刘勇智、刘玉和、卢伟、马瑞霞、马新春、马秀岚、彭丹涛、亓贝尔、任晓勇、阮标、单培彦、孙敬武、唐安洲、涂秋云、王宁宇、王秋菊、王硕、肖玉丽、徐磊、徐亚萍、杨华、叶胜难、余力生、张存泰、张华、张剑、赵厚育、赵长青、郑虹、郑亿庆、朱冬冬
+参考文献
+[1]
+LinFR, YaffeK, XiaJ, et al. Hearing loss and cognitive decline in older adults[J]. JAMA Intern Med, 2013, 173( 4): 293- 299. DOI: 10.1001/jamainternmed.2013.1868.
+[2]
+RutherfordBR, BrewsterK, GolubJS, et al. Sensation and psychiatry: linking age-related hearing loss to late-life depression and cognitive decline[J]. Am J Psychiatry, 2018, 175( 3): 215- 224. DOI: 10.1176/appi.ajp.2017.17040423.
+[3]
+TuNC, FriedmanRA. Age-related hearing loss: unraveling the pieces[J]. Laryngoscope Investig Otolaryngol, 2018, 3( 2): 68- 72. DOI: 10.1002/lio2.134.
+[4]
+WallingAD, DicksonGM. Hearing loss in older adults[J]. Am Fam Physician, 2012, 85( 12): 1150- 1156.
+[5]
+GatesGA, MillsJH. Presbycusis[J]. Lancet, 2005, 366( 9491): 1111- 1120. DOI: 10.1016/s0140-6736(05)67423-5.
+[6]
+翟秀云,刘博,张玉和,等. 老年听力障碍筛查量表在老年性聋调查中的应用与相关性分析[J]. 中国耳鼻咽喉头颈外科, 2016, 23( 1): 27- 30. DOI: 10.16066/j.1672-7002.2016.01.009.
+[7]
+Word Health Organization. Deafness and hearing loss[EB/OL]. ( 2018-03-15)[ 2019-02-19]. https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss.
+[8]
+于普林,黄魏宁,郑宏,等. 中国部分城市老年聋患病情况调查[J]. 中华流行病学杂志, 2001, 22( 1): 35- 37. DOI:10.3760/j.issn:0254-6450.2001.01.011.
+[9]
+于丽玫,孙喜斌,魏志云,等. 全国老年听力残疾人群现状调查研究[J]. 中国听力语言康复科学杂志, 2008, ( 3): 63- 65.
+[10]
+胡向阳,郑晓瑛,马芙蓉,等. 我国四省听力障碍流行现况调查[J]. 中华耳鼻咽喉头颈外科杂志, 2016, 51( 11): 819- 825. DOI: 10.3760/cma.j.issn.1673-0860.2016.11.004.
+[11]
+刘红霞,陈炜伟. 我国大陆2018年末总人口接近14亿[EB/OL]. ( 2019-01-21)[ 2019-02-19]. http://www.xinhuanet.com//politics/2019-01/21/c_1210043265.htm.
+[12]
+罗争光. 中国60岁及以上老年人口2.41亿[N/OL]. 人民日报海外版, 2018-02-27(3)[ 2019-02-19]. http://paper.people.com.cn/rmrbhwb/html/2018-02/27/content_1838506.htm.
+[13]
+SummersV, MakashayMJ, TheodoroffSM, et al. Suprathreshold auditory processing and speech perception in noise: hearing-impaired and normal-hearing listeners[J]. J Am Acad Audiol, 2013, 24( 4): 274- 292. DOI: 10.3766/jaaa.24.4.4.
+[14]
+HumesLE, DubnoJR. Factors affecting speech undersanding in older adults[A]// Gordon-SalantS, FrisinaRD, PopperAN, et al. The aging auditory system: perceptual characterization and neural bases of presbycus. New York: Springer, 2010: 211- 258.
+[15]
+ÖbergM, MarcussonJ, NäggaK, et al. Hearing difficulties, uptake, and outcomes of hearing aids in people 85 years of age[J]. Int J Audiol, 2012, 51( 2): 108- 115. DOI: 10.3109/14992027.2011.622301.
+[16]
+JayakodyDMP, AlmeidaOP, SpeelmanCP, et al. Association between speech and high-frequency hearing loss and depression, anxiety and stress in older adults[J]. Maturitas, 2018, 110: 86- 91. DOI: 10.1016/j.maturitas.2018.02.002.
+[17]
+DaltonDS, CruickshanksKJ, KleinBE, et al. The impact of hearing loss on quality of life in older adults[J]. Gerontologist, 2003, 43( 5): 661- 668.
+[18]
+López-Torres HidalgoJ, Boix GrasC, Téllez LapeiraJ, et al. Functional status of elderly people with hearing loss[J]. Arch Gerontol Geriatr, 2009, 49( 1): 88- 92. DOI: 10.1016/j.archger.2008.05.006.
+[19]
+LinFR, MetterEJ, O′BrienRJ, et al. Hearing loss and incident dementia[J]. Arch Neurol, 2011, 68( 2): 214- 220. DOI: 10.1001/archneurol.2010.362.
+[20]
+UchidaY, SugiuraS, NishitaY, et al. Age-related hearing loss and cognitive decline -The potential mechanisms linking the two[J]. Auris Nasus Larynx, 2019, 46( 1): 1- 9. DOI: 10.1016/j.anl.2018.08.010.
+[21]
+BowlMR, DawsonSJ. Age-related hearing loss[J]. Cold Spring Harb Perspect Med, 2018. DOI: 10.1101/cshperspect.a033217.
+[22]
+龚敬,段金萍,刘博,等. 糖尿病患者听力损失的临床特点分析[J]. 首都医科大学学报, 2015, 36( 1): 84- 89. DOI: 10.3969/j.issn.1006-7795.2015.01.016.
+[23]
+LiJ, ZhangY, FuX, et al. Alteration of auditory function in type 2 diabetic and pre-diabetic patients[J]. Acta Otolaryngol, 2018, 138( 6): 542- 547. DOI: 10.1080/00016489.2017.1422084.
+[24]
+王硕,董瑞娟,王媛,等. 听神经病谱系障碍患者时域间隔感知能力的研究[J]. 听力学及言语疾病杂志, 2015, 23( 4): 335- 337. DOI: 10.3969/j.issn.1006-7299.2015.04.001.
+[25]
+GoossensT, VercammenC, WoutersJ, et al. Masked speech perception across the adult lifespan: Impact of age and hearing impairment[J]. Hear Res, 2017, 344: 109- 124. DOI: 10.1016/j.heares.2016.11.004.
+[26]
+董瑞娟,刘冬鑫,王硕,等. 增龄对汉语普通话言语识别能力的影响[J]. 临床耳鼻咽喉头颈外科杂志, 2017, 31( 18): 1384- 1387. DOI: 10.13201/j.issn.1001-1781.2017.18.002.
+[27]
+王硕. 增龄对听觉系统生理结构与功能的影响[J]. 国际耳鼻咽喉头颈外科杂志, 2018, 42( 6): 368- 372.
+[28]
+JiamNT, LiC, AgrawalY. Hearing loss and falls: a systematic review and meta-analysis[J]. Laryngoscope, 2016, 126( 11): 2587- 2596. DOI: 10.1002/lary.25927.
+[29]
+TaljaardDS, OlaitheM, Brennan-JonesCG, et al. The relationship between hearing impairment and cognitive function: a meta-analysis in adults[J]. Clin Otolaryngol, 2016, 41( 6): 718- 729. DOI: 10.1111/coa.12607.
+[30]
+GatesGA, MurphyM, ReesTS, et al. Screening for handicapping hearing loss in the elderly[J]. J Fam Pract, 2003, 52( 1): 56- 62.
+[31]
+胡娴亭,黄治物,陈建勇,等. 听力障碍筛查量表用于老年人群听力筛查分析[J]. 听力学及言语疾病杂志, 2014, 22( 3): 230- 234. DOI: 10.3969/j.issn.1006-7299.2014.03.001.
+[32]
+PeerS, FaganJJ. Hearing loss in the developing world: evaluating the iPhone mobile device as a screening tool[J]. S Afr Med J, 2015, 105( 1): 35- 39.
+[33]
+DillonH, BeachEF, SeymourJ, et al. Development of Telscreen: a telephone-based speech-in-noise hearing screening test with a novel masking noise and scoring procedure[J]. Int J Audiol, 2016, 55( 8): 463- 471. DOI: 10.3109/14992027.2016.1172268.
+[34]
+亓贝尔,张天博,傅新星,等. 基于互联网的成人听力筛查材料特征值的建立[J]. 临床耳鼻咽喉头颈外科杂志, 2018, 32( 3): 202- 205. DOI: 10.13201/j.issn.1001-1781.2018.03.011.
+[35]
+LichtensteinMJ, BessFH, LoganSA. Validation of screening tools for identifying hearing-impaired elderly in primary care[J]. JAMA, 1988, 259( 19): 2875- 2878.
+[36]
+郭起浩,洪震. 神经心理评估[M]. 2版. 上海: 上海科学技术出版社, 2016: 44- 55.
+[37]
+CruickshanksKJ, NondahlDM, DaltonDS, et al. Smoking, central adiposity, and poor glycemic control increase risk of hearing impairment[J]. J Am Geriatr Soc, 2015, 63( 5): 918- 924. DOI: 10.1111/jgs.13401.
+[38]
+UchidaY, SugiuraS, AndoF, et al. Diabetes reduces auditory sensitivity in middle-aged listeners more than in elderly listeners: a population-based study of age-related hearing loss[J]. Med Sci Monit, 2010, 16( 7): PH63- 68.
+[39]
+SloanRW. Principles of drug therapy in geriatric patients[J]. Am Fam Physician, 1992, 45( 6): 2709- 2718.
+[40]
+KaufmanG. Polypharmacy in older adults[J]. Nurs Stand, 2011, 25( 38): 49- 55; quiz 58. DOI: 10.7748/ns2011.05.25.38.49.c8533.
+[41]
+谈晓文,汪琪璇,杨璐,等. 职业性噪声环境从业人员耳鸣状况调查[J]. 听力学及言语疾病杂志, 2018, 26( 2): 133- 137. DOI: 10.3969/j.issn.1006-7299.2018.02.005.
+[42]
+«中国职业医学»编辑部. 科学防治职业性爆震聋[J]. 中国职业医学, 2018, 45( 1): 40.
+[43]
+中华耳鼻咽喉头颈外科杂志编辑委员会,中华医学会耳鼻咽喉头颈外科学分会. 突发性聋诊断和治疗指南（2015）[J]. 中华耳鼻咽喉头颈外科杂志, 2015, 50( 6): 443- 447. DOI: 10.3760/cma.j.issn.1673-0860.2015.06.002.
+[44]
+中华耳鼻咽喉头颈外科杂志编辑委员会,中华医学会耳鼻咽喉头颈外科学分会. 梅尼埃病诊断和治疗指南（2017)[J]. 中华耳鼻咽喉头颈外科杂志, 2017, 52( 3): 167- 172. DOI: 10.3760/cma.j.issn.1673-0860.2017.03.002.
+[45]
+NapryeyenkoO, BorzenkoI. Ginkgo biloba special extract in dementia with neuropsychiatric features. A randomised, placebo-controlled, double-blind clinical trial[J]. Arzneimittelforschung, 2007, 57( 1): 4- 11. DOI: 10.1055/s-0031-1296579.
+[46]
+IhlR, BachinskayaN, KorczynAD, et al. Efficacy and safety of a once-daily formulation of Ginkgo biloba extract EGb 761 in dementia with neuropsychiatric features: a randomized controlled trial[J]. Int J Geriatr Psychiatry, 2011, 26( 11): 1186- 1194. DOI: 10.1002/gps.2662.
+[47]
+TanMS, YuJT, TanCC, et al. Efficacy and adverse effects of ginkgo biloba for cognitive impairment and dementia: a systematic review and meta-analysis[J]. J Alzheimers Dis, 2015, 43( 2): 589- 603. DOI: 10.3233/jad-140837.
+[48]
+KandiahN, OngPA, YudaT, et al. Treatment of dementia and mild cognitive impairment with or without cerebrovascular disease: expert consensus on the use of Ginkgo biloba extract, EGb 761®[J]. CNS Neurosci Ther, 2019, 25( 2): 288- 298. DOI: 10.1111/cns.13095.
+[49]
+WuX, RenY, WangQ, et al. Factors associated with the efficiency of hearing aids for patients with age-related hearing loss[J]. Clin Interv Aging, 2019, 14: 485- 492.
+[50]
+中国就业培训技术指导中心组织. 助听器验配师:基础知识[M]. 北京: 中国劳动社会保障出版社, 2015: 207.
+[51]
+郗昕. 助听器参数调配的六步工作法[J]. 中国听力语言康复科学杂志, 2014, 12( 4): 255- 256. DOI: 10.3969/j.issn.1672-4933.2014.04.004.
+[52]
+鲁宏华,陈鱼,王巍,等. 老年性聋患者佩戴助听器效果的评估[J]. 临床耳鼻咽喉头颈外科杂志, 2016, 30( 10): 788- 790. DOI: 10.13201/j.issn.1001-1781.2016.10.007.
+[53]
+JiF, ChenAT, WangQJ. Hearing loss in the aged: status and interventions in China[J]. Hearing Balance Commun, 2015, 13( 2): 51- 57. DOI: 10.3109/21695717.2015.1032719.
+[54]
+周其友,冀飞. 老年性聋的听力干预及相关研究[J]. 中华耳科学杂志, 2012, 10( 3): 321- 324. DOI: 10.3969/j.issn.1672-2922.2012.03.014.
+[55]
+中华耳鼻咽喉头颈外科杂志编辑委员会,中华医学会耳鼻咽喉头颈外科学分会,中国残疾人康复协会听力语言康复专业委员会. 人工耳蜗植入工作指南（2013）[J]. 中华耳鼻咽喉头颈外科杂志, 2014, 49( 2): 89- 95. DOI: 10.3760/cma.j.issn.1673-0860.2014.02.001.
+[56]
+CoelhoDH, YehJ, KimJT, et al. Cochlear implantation is associated with minimal anesthetic risk in the elderly[J]. Laryngoscope, 2009, 119( 2): 355- 358. DOI: 10.1002/lary.20067.
+[57]
+杨仕明,李佳楠,冀飞,等. 老年及老年前期人工耳蜗植入的临床初步研究[J]. 中华耳鼻咽喉头颈外科杂志, 2010, 45( 10): 812- 817. DOI: 10.3760/cma.j.issn.1673-0860.2010.10.008.
+[58]
+EshraghiAA, RodriguezM, BalkanyTJ, et al. Cochlear implant surgery in patients more than seventy-nine years old[J]. Laryngoscope, 2009, 119( 6): 1180- 1183. DOI: 10.1002/lary.20182.
+[59]
+王学昌,高下. 老年性聋人工耳蜗植入术后效果评估及意义[J]. 中国听力语言康复科学杂志, 2018, 16( 3): 209- 212. DOI: 10.3969/j.issn.1672-4933.2018.03.013.
+[60]
+MillerG, MillerC, MarroneN, et al. The impact of cochlear implantation on cognition in older adults: a systematic review of clinical evidence[J]. BMC Geriatr, 2015, 15: 16. DOI: 10.1186/s12877-015-0014-3.
+[61]
+JolinkC, HellemanHW, van SpronsenE, et al. The long-term results of speech perception in elderly cochlear implant users[J]. Cochlear Implants Int, 2016, 17( 3): 146- 150. DOI: 10.1080/14670100.2016.1162383.
+[62]
+LenarzM, SonmezH, JosephG, et al. Cochlear implant performance in geriatric patients[J]. Laryngoscope, 2012, 122( 6): 1361- 1365. DOI: 10.1002/lary.23232.
+[63]
+HumesLE, BurkMH, StrauserLE, et al. Development and efficacy of a frequent-word auditory training protocol for older adults with impaired hearing[J]. Ear Hear, 2009, 30( 5): 613- 627. DOI: 10.1097/AUD.0b013e3181b00d90.
+[64]
+de MirandaEC, GilD, IorioMCM. Formal auditory training in elderly hearing aid users[J]. Braz J Otorhinolaryngol, 2008, 74( 6): 919- 925. DOI: 10.1016/s1808-8694(15)30154-3.
+[65]
+肖玉华,翁卫群,卢红建,等. 多学科协作干预对老年性耳聋佩戴助听器者生活质量的影响[J]. 实用临床医药杂志, 2016, 20( 22): 132-134, 149. DOI: 10.7619/jcmp.201622041.
+[66]
+OlsonAD. Options for auditory training for adults with hearing loss[J]. Semin Hear, 2015, 36( 4): 284- 295. DOI: 10.1055/s-0035-1564461.
+[67]
+黄治物,熊素芳,常伟,等. 老年听力障碍患者的听觉行为与助听器验配的干预和康复[J]. 听力学及言语疾病杂志, 2007, 15( 2): 145- 147. DOI: 10.3969/j.issn.1006-7299.2007.02.017.
+[68]
+KatzJ. 临床听力学[M]. 韩德民, 译. 5版. 北京: 人民卫生出版社, 2006: 532- 533.
+[69]
+刘博,赵啸天,陈雪清,等. 老年前期人工耳蜗植入患者听力言语康复策略探讨[J]. 中国听力语言康复科学杂志, 2004( 2): 13- 16. DOI: 10.3969/j.issn.1672-4933.2004.02.004.
+[70]
+HanX, WangZ, WangJ, et al. Metabolic syndrome is associated with hearing loss among a middle-aged and older Chinese population: a cross-sectional study[J]. Ann Med, 2018, 50( 7): 587- 595. DOI: 10.1080/07853890.2018.1469786.
+[71]
+FangQ, WangZ, ZhanY, et al. Hearing loss is associated with increased CHD risk and unfavorable CHD-related biomarkers in the Dongfeng-Tongji cohort[J]. Atherosclerosis, 2018, 271: 70- 76. DOI: 10.1016/j.atherosclerosis.2018.01.048.
+[72]
+WangD, ZhouM, LiW, et al. Occupational noise exposure and hypertension: the Dongfeng-Tongji cohort study[J]. J Am Soc Hypertens, 2018, 12( 2): 71- 79.e75. DOI: 10.1016/j.jash.2017.11.001.
+[73]
+WangD, WangZ, ZhouM, et al. The combined effect of cigarette smoking and occupational noise exposure on hearing loss: evidence from the Dongfeng-Tongji cohort study[J]. Sci Rep, 2017, 7( 1): 11142. DOI: 10.1038/s41598-017-11556-8.
+[74]
+刘博,李谨,张祎,等. 糖尿病患者的耳鸣调查与分析[J]. 临床耳鼻咽喉头颈外科杂志, 2018, 32( 8): 566- 569. DOI: 10.13201/j.issn.1001-1781.2018.08.002.
+[75]
+DomingoMC. Review: An overview of the Internet of Things for people with disabilities[J]. J Netw Comput Appl, 2012, 35( 2): 584- 596. DOI: 10.1016/j.jnca.2011.10.015.
+[76]
+TaoZ, MustiereF, MicheylC. Intelligent hearing aids: the next revolution[J]. Conf Proc IEEE Eng Med Biol Soc, 2016, 2016: 72- 76. DOI: 10.1109/embc.2016.7590643.
+[77]
+XuD, TaharaH. The role of exosomes and microRNAs in senescence and aging[J]. Adv Drug Deliv Rev, 2013, 65( 3): 368- 375. DOI: 10.1016/j.addr.2012.07.010.
+[78]
+HuW, WuJ, JiangW, et al. MicroRNAs and Presbycusis[J]. Aging Dis, 2018, 9( 1): 133- 142. DOI: 10.14336/ad.2017.0119.
+[79]
+WangJ, PuelJL. Toward cochlear therapies[J]. Physiol Rev, 2018, 98( 4): 2477- 2522. DOI: 10.1152/physrev.00053.2017.
+[80]
+GatesGA, AndersonML, McCurrySM, et al. Central auditory dysfunction as a harbinger of Alzheimer dementia[J]. Arch Otolaryngol Head Neck Surg, 2011, 137( 4): 390- 395. DOI: 10.1001/archoto.2011.28.
+全国防聋治聋技术指导组
+中华医学会耳鼻咽喉头颈外科学分会
+中华耳鼻咽喉头颈外科杂志编辑委员会
+中华医学会老年医学分会
+金昕
+Practical Guideline
+Expert consensus on diagnosis and intervention of hearing loss in the elderly(2019)
+National Committee for the Prevention of Hearing Loss, National Health Commission of the People′s Republic of China, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association, Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery, Chinese Society of Geriatrics
+Published 2019-03-07
+Cite as Chin J Otorhinolaryngol Head Neck Surg, 2019,54(3): 166-173. DOI: 10.3760/cma.j.issn.1673-0860.2019.03.002
+National Committee for the Prevention of Hearing Loss, National Health Commission of the People′s Republic of China
+Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association
+Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery
+Chinese Society of Geriatrics
+表1
+世界卫生组织（1997年）听力损失程度分级标准
+听力损失程度平均听阈（dBHL）日常表现
+正常 ≤25 能听到耳语声
+轻度26～40 能够在1 m远的地方听到并复述正常言语声
+中度41～60 能够在1 m远的地方听到并复述提高音量后的言语声
+重度61～80 对着相对好耳喊话时，能够听到一些单词
+极重度或全聋 ≥81 即使是喊话也听不到、听不懂
+注：平均听阈是指500、1 000、2 000、4 000 Hz四个频率气导听阈的平均值
+图1
+老年听力损失评估体系及流程
+没有权限下载,请稍后再试!

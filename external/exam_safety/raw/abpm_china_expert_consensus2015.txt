@@ -1,0 +1,440 @@
+来源：中国高血压联盟、中国医师协会高血压专业委员会血压测量与监测工作委员会、《中华高血压杂志》编委会／动态血压监测临床应用中国专家共识
+URL：http://zhgxyzz.xml-journal.net/cn/article/pdf/preview/10.16439/j.cnki.1673-7245.2015.08.010.pdf
+发布时间：《中华高血压杂志》2015 年第 23 卷第 8 期（收稿日期 2015-08-28）
+抓取方式：curl 下载期刊官网 PDF + PyMuPDF 文本抽取（仅做全角/半角与版面空白规范化，未改动文字），PDF 以同名（slug.pdf）与本 txt 同目录保存
+
+动态血压监测临床应用中国专家共识
+中国高血压联盟,中国医师协会高血压专业委员会血压测量与监测工作委员会,
+《中华高血压杂志》编委会
+通信作者:王继光,E-mail:
+jiguangw@163.com
+高血压是最常见的心血管病,是脑卒中、心力衰
+竭、心肌梗死、肾功能不全等严重疾病最重要的危险因
+素
+[1]。根据2002年第四次全国营养与健康调查,我国
+≥18岁成年人高血压患病率为18.8%,其中≥60岁老
+年人患病率高达49.1%
+[2]。目前,我国≥18岁人口>11亿,
+≥60岁人口>2亿,根据《中国心血管病报告2014》的
+数据显示,我国高血压患者已近3亿。如果能够及时
+诊断,并使用各种类型的降压药物进行降压治疗,可有
+效控制血压,降低各种心脑血管并发症的发生率
+[3-4]。
+但因高血压患者人数庞大,需要更多依靠创新科技,才
+能管理好高血压,减少其所承受的巨大心血管风险。
+动态血压监测是高血压诊断技术发展史上的重大
+创新
+[5-6]。它可测量一个人日常生活状态下的血压,既
+可测量轻、中度体力活动状态下的血压,也可测量睡眠
+过程中的血压,因而可更准确、更全面地反映一个人的
+血压整体情况,发现“隐蔽性高血压”
+[5-6],包括单纯夜
+间高血压
+[7-8]。动态血压监测由血压测量仪自动完成,
+因而还可避免“白大衣现象”。如进行一个昼夜24h
+的动态血压监测,还可了解血压的变化趋势,包括血压
+在夜间的下降情况
+[7-8];在晨起时的升高情况
+[9];及一
+个昼夜中血压的总体变异情况
+[10]。因此,动态血压监
+测已成为高血压管理不可或缺的检测手段,用于高血
+压的识别与诊断;用于评估心脑血管风险;用于评估降
+压治疗的效果
+[5-6]。目前,英国
+[11]及加拿大
+[12]高血压
+管理指南明确建议,诊室血压在1、2级高血压范围内,
+即收缩压140~179、舒张压90~109mm Hg(1mm Hg=
+0.133kPa),应进行诊室外血压测量对高血压进行确
+诊,首选动态血压监测,若动态血压监测的白天血压
+≥135/85mm Hg,则可诊断高血压。
+无创的动态血压监测进入临床应用已超过30
+年
+[13],在我国也已超过20年
+[14]。在这20多年时间
+里,我国动态血压监测从无到有,从粗放到精细,在高
+血压诊治管理中发挥日益重要的作用。临床医生开始
+根据动态血压监测诊治高血压,高血压患者也开始主
+动要求进行动态血压监测。但在其临床应用过程中,
+仍存在一些突出的问题。首先,使用不够规范,包括监
+测对象选择不合适,或监测仪器设置不合理;其次,不
+能正确解释监测结果,导致信息使用不恰当或不充分;
+还有,对现有动态血压监测技术存在的一些问题,比如
+夜间睡眠期间测量血压时干扰睡眠是否会影响测量准
+确性等,还无一致意见。这些都严重制约和影响了动
+态血压监测的健康发展与广泛开展。因此,亟需就这
+些问题进行广泛、深入讨论,达成共识,形成规范。
+1 动态血压计的选择与监测要求
+要获得真实的动态血压监测结果需要从正确选择
+血压计及正确制定监测方案开始。然后,根据相关指
+南等指导性文件
+[5-6]以及临床研究证据所确定的血压
+指标及其判别标准,对动态血压监测结果做出判断。
+动态血压计:选择动态血压计的基本原则是,选择
+按照国际标准方案如欧洲高血压学会国际方案等
+[15]进
+行过独立临床验证(validation)的动态血压计,即选择
+验证过的型号;在临床应用过程中,还要定期进行校准
+(calibration),以确保每台血压计在每个时间段的准确
+性
+[16]。以高血压并发症为研究目标的前瞻性临床研究
+证据大多来自使用“示波法上臂式袖带动态血压计”。
+因此,在得到相应的临床研究证据之前,其他类型的动
+态血压计不推荐使用。
+一些新型的动态血压计增加了安全保护装置,比
+如袖带安装了排气装置,增强了使用的安全性。有些
+动态血压计则增加了肱动脉血压之外的心血管检测项
+目,比如,中心动脉血压、脉搏波增强指数或脉搏波传
+导速度等
+[17];或增加了其他检测指标,比如血氧饱和度
+等。这些附加功能在选择血压计时具有参考意义。
+监测方法:应选择大小合适的袖带,和诊室血压测
+量一样,大部分成年人通常选择标准袖带;如果肥胖,
+上臂臂围较大,应选择大袖带;相反,如果臂围较小,则
+应选择小袖带。监测前,应先测量诊室血压,测量双侧
+上臂血压。如果两侧上臂血压相差≥10mm Hg,应选
+择血压高的一侧上臂进行动态血压监测;如果两侧差
+别<10mm Hg,则选择非优势臂进行监测。在装好血
+压计后,应手动测量血压2次,以测试血压计是否正常
+工作。监测结束后,在卸下血压计之前,最好再手动测
+量血压2次,确认血压计正常工作。另外,诊室测量的
+·
+7
+2
+7
+·
+中华高血压杂志 2015年8月第23卷第8期 Chin J Hypertens,August 2015,Vol.23No.8
+DOI:10.16439/j.cnki.1673-7245.2015.08.010
+这几次血压有助于判断有无“白大衣时间窗”。
+监测方案:一个合适的监测方案,应尽可能确保监
+测时间>24h,而且每小时都有1个以上血压读数。
+通常白天每20min测量1次;晚上睡眠期间每30min
+测量1次。一般来讲,如果有效读数在设定读数的
+70%以上,计算白天血压的读数20个以上,计算夜间
+血压的读数7个以上,可以看作有效监测。如不满足
+上述条件,则应重复进行监测。
+2 动态血压监测的应用与适应证
+动态血压监测主要有3个方面的临床应用:1诊
+断高血压,提高高血压诊断的准确性;2评估心血管风
+险,提高心血管风险评估的水平;3评估降压治疗的效
+果,提高降压治疗的质量,充分发挥降压治疗预防心脑
+血管并发症的作用
+[5-6]。由于动态血压监测持续时间
+较长(≥24h),监测前后需要专业技术支持,目前的服
+务能力还存在不足,资源有限,而高血压的患病人数众
+多,需求量大,造成供需矛盾。因此,只能选择极少数
+人,在最需要的时候,进行动态血压监测。
+进行动态血压监测的对象包括:1诊室或家庭血
+压监测发现血压升高,怀疑“高血压”者,血压的平均值
+在1、2级高血压范围内,即140~179/90~109mm Hg;
+2确诊高血压并已接受降压治疗者,若≥2种药足量治
+疗,血压仍未达标,即多次测得诊室血压平均值仍
+≥140/90mm Hg,或家庭血压平均值≥135/85mm Hg;
+3确诊高血压并已接受降压治疗者,若血压已达标,即
+多次测量的诊室血压平均值<140/90mm Hg,仍发生
+了心脑血管并发症,如脑卒中、心力衰竭、心肌梗死、肾
+功能不全等,或新出现了靶器官损害,如蛋白尿、左心
+室肥厚、腔隙性脑梗死等,或靶器官损害进行性加重;
+4未服用降压药,诊室血压<140/90,但家庭血压
+≥135/85或诊室或家庭血压120~139/80~
+89mm Hg,但出现了靶器官损害,如蛋白尿、左心室肥
+厚、腔隙性脑梗死等,而并无糖尿病、血脂异常、吸烟等
+其他心血管危险因素者。
+偶尔测量血压发现血压升高者,很大一部分可能
+真的患有高血压,但也有许多人可能只是血压测量错
+误,或一过性血压升高,或属于典型的“白大衣性高血
+压”。虽然,通过多次诊室随访反复测量血压,或进行
+家庭血压监测,可以排除部分假性高血压,但通常仍需
+要进行24h动态血压监测才能排除“白大衣性高血
+压”,以避免对“白大衣性高血压”实施降压治疗。因
+为,盲目针对“白大衣性高血压”者进行治疗不仅无益,
+还可能有潜在的低血压风险。
+在已经接受降压治疗的高血压患者中,单纯采用
+诊室血压评估降压疗效,既可能低估血压控制情况,也
+可能高估血压控制情况。在服用降压药物后诊室血压
+仍≥140/90mm Hg的患者中,24h动态血压的平均
+值可能已经<130/80mm Hg,即已经达标。动态血压
+监测可以识别出这些治疗后的“白大衣性未控制高血
+压”,避免给予这些患者过度治疗,既节省药物费用,又
+可以减少多种类、大剂量使用降压药物所带来的不良
+反应,避免血压过度下降的潜在风险
+[18]。也就是说,不
+仅在初次诊断高血压时,动态血压监测可以有效鉴别
+出“白大衣性高血压”;在降压治疗过程中,同样需要进
+行24h动态血压监测来发现“白大衣性未控制高
+血压”。
+动态血压监测还可以发现那些血压控制不佳的患
+者,特别是夜间血压未控制者。诊室血压通常在白天、
+静息状态下测量,因而完全不了解夜间血压,也无法评
+估日常活动状态下的血压。这些诊室血压无法识别的
+“隐蔽性高血压”很常见,也与心血管事件密切相关
+[19]。
+这些血压控制不佳的患者一部分可能因为病情较重,
+但很大一部分可能是因为所选择的降压药物种类或剂
+量不合适。比如,未能选择一天一次服药能够控制
+24h血压的长效药物,如钙拮抗剂氨氯地平、拉西地
+平,血管紧张素转换酶抑制剂培哚普利,血管紧张素受
+体拮抗剂替米沙坦等;而增加降压药物的剂量不仅可
+以增加降压药物的降压幅度,还可以延长降压药物的
+作用时间,从而有效控制夜间以及清晨等关键时段的
+血压。
+由于新诊断的“隐蔽性高血压”包括“单纯夜间高
+血压”也有较高的心血管风险
+[7-8],但因筛查对象尚不
+容易确定,而且诊断之后是否需要进行降压治疗的问
+题也还未解决;因而,目前不建议普遍进行这样的筛
+查。但如果家庭血压监测持续显示“隐蔽性高血压”,
+即诊室血压正常(<140/90mm Hg),但家庭血压已达
+到高血压诊断标准(≥135/85mm Hg);或诊室或家庭
+血压虽处于正常偏高水平,但已出现明显的靶器官损
+害,而又无其他明显的心血管危险因素,应进行动态血
+压监测以便及时发现高危患者。
+动态血压监测除了通过计算24h、白天以及夜间
+的收缩压与舒张压平均值用于高血压诊断与疗效评估
+之外,还可用于评估心血管风险,比如,夜间血压下降
+情况(夜间血压不下降,dipping)
+[7-8];清晨血压升高情
+况(清晨高血压,surge)
+[9];一天之中相邻血压读数之
+间的变化情况(血压变异,variability)
+[10];舒张压变化
+与收缩压变化之间的关系(动态的动脉硬化指数,
+ambulatory arterial stiffness index,AASI)
+[20]以及血
+压与心率之间的关系(自主神经功能
+[21]或盐敏感性
+等)
+[22]。此外,动态血压监测还有助于发现一些特殊的
+血压情况或相关疾病,比如发作性低血压、阻塞性睡眠
+·
+8
+2
+7
+·
+中华高血压杂志 2015年8月第23卷第8期 Chin J Hypertens,August 2015,Vol.23No.8
+呼吸暂停综合征等。这些评估在特殊人群中也有重要
+诊断价值,但仍需要开展更多研究工作。
+3 动态血压监测结果、判定与意义
+血压指标:目前用于诊断高血压的动态血压指标
+主要包括24h、白天、夜间所有血压读数收缩压与舒张
+压的平均值。白天与夜间最好以动态血压监测日记卡
+所记录的起床与上床时间为准。如果未记录日常活动
+信息,也可根据固定时间段定义白天(8:00-20:00,共
+12h)和夜间(23:00-5:00,共6h)。该狭窄时间段定
+义去除了5:00-8:00与20:00-23:00两个血压大幅
+度迅速变化的时间段。新疆、西藏等西部省区应按照
+北京时间顺延2h,即白天为10:00-22:00,夜间为
+1:00-7:00。近来,清晨起床后2h内所有测量值的
+平均值所定义的清晨血压的重要性受到特别关注。
+诊断高血压的标准是24h平均收缩压/舒张压
+≥130/80、白天≥135/85或夜间≥120/70mm Hg;通
+过与诊室血压对比,可以进一步确立以下诊断,包括未
+服药者的“白大衣性高血压”(诊室血压≥140/90mm Hg,
+而24h、白天、夜间血压均正常),“隐蔽性高血压”(诊
+室血压<140/90mm Hg,而24h、白天或夜间血压升
+高),正在接受降压治疗患者的“白大衣性未控制高血
+压”及“隐蔽性未控制高血压”(血压判别标准同未治
+疗者)。不论是否接受降压药物治疗,如果清晨血压
+≥135/85mm Hg,都可以诊断“清晨高血压”。
+夜间血压的下降幅度
+[7-8]、清晨血压的升高情
+况
+[9]、相邻血压读数之间的变异情况
+[10]以及AASI
+[11]
+等指标可以帮助有经验的临床医生进行更全面的风险
+评估或做出更合理的预后判断,相关的研究很多,但尚
+无统一的正常值标准,需要进一步研究。许多动态血
+压计软件报告血压负荷值,即超过正常值的血压读数
+占所有有效读数的百分比。近来研究显示,在已经考
+虑收缩压与舒张压的平均值后,血压负荷对靶器官损
+害或并发症的风险并无附加的预测价值
+[23-24]。
+动态血压监测过程中也检测脉率,并可衍生出多
+个血压与脉率关系的指标,比如以血压与脉率的乘积
+评估心血管风险
+[25],以收缩压变化与脉率变化的比值
+评估自主神经功能
+[21],以血压的夜间下降情况及脉率
+的快慢情况评估盐敏感性等
+[22]。这些指标的临床意义
+尚需进一步研究,但脉率本身在血压管理中仍可能具
+有临床意义,除了可以预测心血管事件之外
+[26],也可能
+有助于确定是否需要使用β受体阻滞剂等降压药物。
+4 动态血压监测临床应用的问题与对策
+在动态血压监测的临床应用过程中,应注意以下
+几个方面的问题。首先,监测需要至少24h,监测之前
+需要设置血压计,监测完成后还要读取监测结果,这都
+需要技术人员,因此时间与人力成本都比较高。但是,
+通过动态血压监测,可以减少患者的门诊随访,降低降
+压治疗的药物费用,显著提高成本效益。如果能够实
+现自动化、自助化,则可以节约人力成本。通过家庭血
+压监测,可以对“白大衣性高血压”或“隐蔽性高血压”
+进行筛查,然后再进行动态血压监测,则可以提高效
+率。尽管家庭血压监测并不能替代动态血压监测,但
+可以作为动态血压监测的有益补充
+[27]。
+第二,动态血压监测时测量血压的次数较多,且在
+睡眠期间也进行测量,因此会有不适感,会影响睡眠,
+影响患者的接受度。除了应向患者说明动态血压监测
+的意义与重要性之外,也有必要明确,监测过程中充放
+气虽然会有些肢体的不适感,影响睡眠,只要不起床活
+动,对血压测量的准确性影响很小
+[28-29]。
+第三,动态血压监测由机器自动完成,而不是由临
+床医生测量,也非在临床医生监督下完成,如果对动态
+血压的意义了解不够充分,会影响医生的接受度。需
+要进行更多有关动态血压应用的专业培训,让医生了
+解到,通过动态血压监测可提高降压治疗质量,更有效
+地保护靶器官,预防心脑血管并发症,减少死亡和残
+疾,实现最大经济与社会效益。
+第四,动态血压监测结果的评估与判断是一个专
+业问题,需要专业技术支持。建立在互联网、无线通讯
+及云计算基础上的技术平台,有效解决了这一问题。
+欧美国家较早建立了以互联网为基础的动态血压监测
+技术支持系统。最近,我国也成功开发了动态血压网
+络技术支持系统。动态血压监测技术人员可用该系统
+规范设置监测方案,并在监测完成后将监测数据上传,
+即可由专业软件进行完整的分析,并由高血压专业技
+术人员对监测结果进行评估、分析与判断。然后,动态
+血压监测技术人员可在自己的办公地点打印经过专业
+评估的监测报告,并根据报告为患者做出临床判断。
+动态血压监测技术支持系统为在包括基层及辅助
+医疗机构在内的各类机构广泛开展动态血压监测创造
+了技术条件。社区是高血压管理的主要机构之一。不
+管在城市社区卫生服务中心,还是在农村基层医疗机
+构,都接诊大量新发现的“高血压患者”,一部分是在慢
+性病监测、管理过程中新发现的,也有很多通过机会性
+检查发现血压升高并主动求医者。通过24h动态血
+压监测,不仅为社区提供高血压管理的专业技术支持,
+如发现“白大衣性高血压”,还可降低社区医生或健康
+管理人员工作负荷;不仅可提高高血压患者降压治疗
+质量,还可减少药物相关的医疗开支与不良反应,从而
+最大限度发挥降压治疗预防心脑血管并发症的作用,
+降低高血压所带来的巨大社会负担与健康危害。
+·
+9
+2
+7
+·
+中华高血压杂志 2015年8月第23卷第8期 Chin J Hypertens,August 2015,Vol.23No.8
+共识专家组
+共识执笔 王继光
+共识专家组长 吴兆苏,孙宁玲,谢良地,陈伟伟
+共识专家组成员(姓氏拼音排序)
+冯颖青,傅国胜,胡申江,姜一农,李卫华,李燕,李毅刚,刘华玲,
+刘峰,路方红,马淑媗,牟建军,任泽萍,商黔惠,沈法荣,沈晓梅,
+王宏宇,王胜煌,吴寿岭,项美香,谢炜,徐标,徐健,徐新娟,
+严激,杨红艳,于波,俞蔚,张广东,张怀勤,张运彩,赵兴胜
+志 谢 感谢爱安德(A&D)公司在共识制定过程中提供支持
+参考文献
+[1]Staessen JA,Wang JG,Bianchi G,et al.Essential hypertension
+[J].Lancet,2003,361(9369):1629-1641.
+[2]李立明,饶克勤,孔灵芝,等.中国居民营养与健康状况调查技术
+执行组.中国居民2002年营养与健康状况调查[J].中华流行病学
+杂志,2005,26(7):478-483.
+[3]Staessen JA,Gsowski J,Wang JG,et al.Risks of untreated and
+treated isolated systolic hypertension in the elderly:meta-analysis
+of outcome trials[J].Lancet,2000,355(9207):865-872.
+[4]Staessen JA,Wang JG,Thijs L.Cardiovascular prevention and
+blood pressure reduction:a meta-analysis[J].Lancet,2001,358
+(9290):1305-1315.
+[5]O'Brien E,Parati G,Stergiou G,et al;European Society of Hy-
+pertension working group on blood pressure monitoring.European
+Society of Hypertension position paper on ambulatory blood pres-
+sure monitoring[J].J Hypertens,2013,31(9):1731-1768.
+[6]Parati G,Stergiou G,O'Brien E,et al.European Society of Hy-
+pertension working group on blood pressure monitoring.European
+Society of Hypertension practice guidelines for ambulatory blood
+pressure monitoring[J].J Hypertens,2014,32(7):1359-1386.
+[7]Li Y,Staessen JA,Lu L,et al.Is isolated nocturnal hypertension
+a novel clinical entity?Findings from a Chinese population study
+[J].Hypertension,2007,50(2):333-339.
+[8]Fan HQ,Li Y,Thijs L,et al.On behalf of the international data-
+base on ambulatory blood pressure in relation to cardiovascular
+outcomes(IDACO)investigators.Prognostic value of isolated
+nocturnal hypertension in 8711subjects from 10populations[J].J
+Hypertens,2010,28(10):2036-2045.
+[9]Li Y,Thijs L,Hansen TW,et al.On behalf of the international
+database on ambulatory blood pressure in relation to cardiovascular
+outcomes(IDACO)investigators.Prognostic value of the morning
+blood pressure surge in 5645subjects from 8populations[J].
+Hypertension,2010,55(4):1040-1048.
+[10]Hansen TW,Thijs L,Li Y,et al.On behalf of the international
+database on ambulatory blood pressure in relation to cardiovascular
+outcomes(IDACO)investigators.Prognostic value of short-term
+blood pressure variability over 24hours in 8937subjects from 11
+populations[J].Hypertension,2010,55(4):1049-1057.
+[11]Krause T,Lovibond K,Caulfield M,et al.Guideline development
+group.Management of hypertension:summary of NICE guidance
+[J].BMJ,2011,343:d4891.
+[12]Daskalopoulou SS,Rabi DM,Zarnke KB,et al.The 2015Canadian
+hypertension education program recommendations for blood pressure
+measurement,diagnosis,assessment of risk,prevention,and treat-
+ment of hypertension[J].Can J Cardiol,2015,31(5):549-568.
+[13]Pickering T,Harshfield G,Kleinert H.Ambulatory blood pres-
+sure[J].Lancet,1981,2(8243):416-417.
+[14]张维忠,龚兰生.24小时动态血压参数的正常参照值[J].上海医
+学,1992,15(9):520-523.
+[15]O'Brien E,Atkins N,Stergiou G,et al.On behalf of the working
+group on blood pressure monitoring of the European Society of
+Hypertension.European Society of Hypertension international
+protocol revision 2010for the validation of blood pressure measur-
+ing devices in adults[J].Blood Press Monit,2010,15(1):23-38.
+[16]O'Brien E,Asmar R,Beilin L,et al.European Society of Hyper-
+tension working group on blood pressure monitoring.European
+Society of Hypertension recommendations for conventional,ambu-
+latory and home blood pressure measurement[J].J Hypertens,
+2003,21(5):821-848.
+[17]Sarafidis PA,Georgianos PI,Karpetas A,et al.Evaluation of a
+novel brachial cuff-based oscillometric method for estimating cen-
+tral systolic pressure in hemodialysis patients[J].Am J Nephrol,
+2014,40(3):242-250.
+[18]Banegas JR,Ruilope LM,de la Sierra A,et al.High prevalence
+of masked uncontrolled hypertension in people with treated hyper-
+tension[J].Eur Heart J,2014,35(46):3304-3312.
+[19]Asayama K,Thijs L,Li Y,et al.On behalf of the international
+database on ambulatory blood pressure in relation to cardiovascular
+outcomes(IDACO)investigators.Setting thresholds to varying
+blood pressure monitoring intervals differentially affects risk esti-
+mates associated with white-coat and masked hypertension in the
+population[J].Hypertension,2014,64(5):935-942.
+[20]Li Y,Wang JG,Dolan E,et al.Ambulatory arterial stiffness in-
+dex derived from 24-hour ambulatory blood pressure monitoring
+[J].Hypertension,2006,47(3):357-364.
+[21]Zhang Y,Agnoletti D,Blacher J,et al.Blood pressure variability
+in relation to autonomic nervous system dysregulation:the X-
+CELLENT study[J].Hypertens Res,2012,35(4):399-403.
+[22]Castiglioni P,Parati G,Brambilla L,et al.Detecting sodium-sensitivity
+in hypertensive patients:information from 24-hour ambulatory
+blood pressure monitoring[J].Hypertension,2011,57(2):180-185.
+[23]Liu M,Li Y,Wei FF,et al.Is blood pressure load associated,in-
+dependently of blood pressure level,with target organ damage?
+[J].J Hypertens,2013,31(9):1812-1818.
+[24]Li Y,Thijs L,Boggia J,et al.On behalf of the international data-
+base on ambulatory blood pressure in relation to cardiovascular
+outcomes(IDACO)investigators.Blood pressure load does not
+add to ambulatory blood pressure level for cardiovascular risk
+stratification[J].Hypertension,2014,63(5):925-933.
+[25]Schutte R,Thijs L,Asayama K,et al.International database on
+ambulatory blood pressure in relation to cardiovascular outcomes
+(IDACO)investigators.Double product reflects the predictive
+power of systolic pressure in the general population:evidence from
+9937participants[J].Am J Hypertens,2013,26(5):665-672.
+[26]Hansen TW,Thijs L,Boggia J,et al.On behalf of the interna-
+tional database on ambulatory blood pressure monitoring in rela-
+tion to cardiovascular outcomes(IDACO)investigators.The prog-
+nostic value of ambulatory heart rate revisited in 6928subjects
+from 6populations[J].Hypertension,2008,52(2):229-235.
+[27]Kang YY,Li Y,Huang QF,et al.Accuracy of home versus ambula-
+tory blood pressure monitoring in the diagnosis of white-coat and
+masked hypertension[J].J Hypertens,2015,33(8):1580-1587.
+[28]Degaute JP,van de Borne P,Kerkhofs M,et al.Does non-inva-
+sive blood pressure monitoring disturb sleep?[J].J Hypertens,
+1992,10(8):879-885.
+[29]Schwan A,Eriksson G.Effect on sleep but not on blood pressure
+of nocturnal non-invasive blood pressure monitoring[J].J Hyper-
+tens,1992,10(2):189-194.
+收稿日期:2015-08-28 责任编辑

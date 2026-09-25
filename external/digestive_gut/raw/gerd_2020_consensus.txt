@@ -1,0 +1,1735 @@
+来源：中华医学会消化病学分会《2020年中国胃食管反流病专家共识（中华消化杂志, 2020,40(10):649-663, DOI 10.3760/cma.j.cn311367-20200918-00558）》
+发布/制定年份：2020
+URL：https://seleguide.yiigle.com/uploads/guide_html/2020%E5%B9%B4%E4%B8%AD%E5%9B%BD%E8%83%83%E9%A3%9F%E7%AE%A1%E5%8F%8D%E6%B5%81%E7%97%85%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+抓取方式：curl 直连 HTML 全文页面
+说明：以下为该页面正文逐字文本（仅去除 HTML 标记与页面模板文字，未改写内容）。
+
+中华医学会消化病学分会
+中华消化杂志, 2020,40(10) : 649-663. DOI: 10.3760/cma.j.cn311367-20200918-00558
+GERD是临床常见病，患病率在不同国家或地区差异较大。全球基于人群的研究结果显示，每周至少发作1次GERD症状的患病率为13%，西方国家发病率较高[1]，亚太地区有上升趋势[2]。我国基于人群的流行病学调查显示，每周至少发作1次烧心症状的患病率为1.9%～7.0%[3,4]。GERD的危险因素包括吸烟、肥胖、年龄、饮酒、NSAID、社会因素、心身疾病和遗传因素等[5]。
+GERD的病理生理机制包括胃食管交界处功能与结构障碍，食管清除功能障碍和上皮防御功能减弱，肥胖和饮食等生活相关因素削弱食管抗反流功能，以及食管敏感性增高等。免疫因素介导所致食管黏膜损伤和食管功能的改变也可能与GERD发病有关[6,7]。
+近年来，对GERD的流行病学、症状学、诊断方法和治疗的研究均有不少进展，有必要更新诊治共识意见以更好地指导临床实践。本共识是在《2014年中国胃食管反流病专家共识意见》[8]的基础上，由中华医学会消化病学分会组织我国本领域的有关专家组成共识意见专家委员会，首先由工作小组检索Medline、Embase、Cochrane图书馆和万方数据知识服务平台等数据库，制订了本共识的草案，随后由专家委员会进行多轮讨论并投票，直至达成共识。投票意见的推荐级别分为6个等级：(A＋)非常同意；(A)同意并有少许保留意见；(A-)同意但有较多保留意见；(D)不同意但有较多保留意见；(D-)不同意并有少许保留意见；(D＋)完全不同意。相应证据等级分为4个等级：高质量，进一步研究也不可能改变该疗效评估结果的可信度；中等质量，进一步研究很可能影响该疗效评估结果的可信度，且可能改变该评估结果；低质量，进一步研究极有可能影响该疗效评估结果的可信度，且该评估结果很可能改变；极低质量，任何疗效评估结果都很不确定。本共识共28条共识意见。
+共识意见1：烧心和反流是GERD的典型症状(推荐级别：A＋，92.3%；A，7.7%。证据等级：高质量)。
+烧心指胸骨后烧灼感。反流定义为胃内容物向咽部或口腔方向流动的感觉。烧心和反流是GERD最常见的典型症状。一项纳入2 320例患者的队列研究中，GERD患者症状依次为烧心，反流，胸痛或上腹痛，恶心或呕吐，消化不良，咽喉不适，以及咳嗽[9]。一项纳入1 031例患者的研究结果提示，烧心和反流是GERD最常见的症状，分别占所有症状的82.4%和58.8%[10]。2018年亦有综述指出烧心和反流是GERD的典型症状[11]。
+共识意见2：胸痛、上腹烧灼感、上腹痛、上腹胀、嗳气等为GERD的不典型症状(推荐级别：A＋，48.3%；A，37.9%。证据等级：中等质量)。
+GERD临床表现多种多样，部分患者仅表现为非典型症状或食管外症状。常见的不典型症状包括胸痛、上腹烧灼感、上腹痛、上腹胀、嗳气等。一项随机对照试验(randomized controlled trial，RCT)纳入1 392例GERD患者，症状表现为烧心、反流、腹胀、早饱、腹痛、恶心和呕吐[12]。另一项纳入1 031例的研究结果提示，GERD患者除典型的烧心和反流症状外，还可出现腹胀、嗳气、吞咽困难等症状[10]。国内一项纳入186例患者的队列研究发现，不伴有烧心和反流症状的功能性消化不良患者中，约1/3存在异常食管酸暴露，其中在上腹烧灼感患者中的比例最高，且PPI治疗有效[13]。
+共识意见3：胸痛患者需先排除心脏因素后才能进行GERD评估(推荐级别：A＋，79.3%；A，17.2%。证据等级：中等质量)。
+胸痛为反流的不典型症状。2006年蒙特利尔共识意见提出，胃食管反流可引起类似于缺血性胸痛的表现并不伴典型的烧心和反流症状[14]。因此在进行胃食管反流的评估包括食管反流监测和PPI试验前需先排除心脏因素。我国香港地区的人群调查发现胸痛的患病率为20.6%，其中约51%为非心源性胸痛[15]。一项纳入了24 849例受试者的meta分析提示，非心源性胸痛的患病率约为13%[16]。人群调查则显示非心源性胸痛的患病率为19%～23%[17,18]，不同性别患病率比较差异无统计学意义。在非心源性胸痛患病人群中，50%～60%为GERD，15%～18%为食管动力障碍[19]。
+共识意见4：根据典型的烧心和反流症状可拟诊GERD，相关反流问卷可作为GERD诊断的辅助工具(推荐级别：A＋，57.1%；A，42.9%。证据等级：中等质量)。
+GERD的主要症状为烧心和反流，烧心患者中约50%存在反流[20]，而在食管反流监测阳性的患者中具有烧心和反流症状的患者>60%[21]，多因素回归分析也提示与反流性食管炎(reflux esophagitis，RE)最相关的症状为烧心[22]。根据典型的烧心和反流症状可拟诊GERD。关于烧心和反流在GERD中诊断价值的研究提示烧心症状预测病理性反流的灵敏度为38%，特异度为89%[21]，回顾性研究也显示烧心症状具有异质性[23]。据此，根据典型症状可以拟诊GERD。
+GERD的诊断问卷作为简便、快捷的方法，在门诊中广泛使用。有研究以内镜检查发现食管炎和食管反流监测提示病理性食管反流作为阳性诊断标准，在308例有上消化道症状的患者中发现反流性疾病问卷量表(reflux disease questionnaire，RDQ)诊断GERD的灵敏度为62%，特异度为67%，胃食管反流病问卷量表(gastroesophageal reflux disease questionnaire，GerdQ)诊断GERD的灵敏度为65%，特异度为71%[24]。具有典型反流症状的患者中反流问卷的诊断价值高于非典型症状的患者[25]。由此可见，反流问卷诊断GERD的价值与典型的烧心和反流症状诊断GERD的价值类似，可作为GERD的辅助诊断工具。
+共识意见5：PPI试验性治疗可作为具有典型反流症状患者简便易行的初步诊断方法(推荐级别：A＋，75.0%；A，21.4%。证据等级：高质量)。
+在疑诊GERD时，PPI常被用于临床诊断性治疗GERD，但该方法并非GERD的确诊方法。既往西方国家的研究提示，RE和非糜烂性反流病(nonerosive reflux disease，NERD)患者中PPI试验性治疗的症状缓解率分别约69%和49%[26]，我国的研究提示在内镜下显示为糜烂性食管炎或食管反流监测呈阳性的内镜阴性反流病患者中，PPI治疗的有效率约为70%[27]。西方国家研究显示PPI试验性治疗对于诊断GERD的灵敏度为71%，特异度为44%[24]。有meta分析提示PPI试验的灵敏度为78%，但特异度仅为54%[28]。许国铭等[29]的研究发现PPI试验灵敏度较高(88.1%)，但特异度偏低。尽管如此，PPI试验可操作性强，在临床实践中具有较高的意义。对拟诊GERD患者或疑有反流相关食管外症状的患者，尤其是上消化道内镜检查阴性时，可采用诊断性治疗协助诊断。
+新型抑酸药钾离子竞争性酸阻滞剂(potassium-channel acid blocker，P-CAB)治疗RE患者的研究显示，治疗后4周的黏膜愈合率达90%左右[30]，而治疗后7 d症状缓解率达60%左右[31]。目前尚缺乏P-CAB用于GERD诊断性试验的证据，需进一步研究证实其在GERD诊断中的价值。
+共识意见6：建议具有反流症状的初诊患者行内镜检查。内镜检查可排除上消化道恶性肿瘤，诊断RE、反流性狭窄和巴雷特食管(推荐级别：A＋，70.0%；A，30.0%。证据等级：高质量)。
+《中国胃食管反流病共识意见(2006·10三亚)》 [32]和《2014年中国胃食管反流病专家共识意见》[8]提出对所有具有反流症状的患者初诊时均建议行内镜检查，其理由是基于我国是上消化道肿瘤高发的国家，且胃镜检查广泛开展，检查成本低，早期进行胃镜检查有利于肿瘤的筛查和疾病状态的评估。广州地区的一项研究发现无报警症状的初诊烧心患者食管癌和胃癌检出率为0.8%[33]。有meta分析发现亚洲地区上消化道症状患者初诊时内镜检查的肿瘤发现率为1.3%[34]。
+内镜检查可以对糜烂性食管炎的严重程度进行分级。目前应用最广泛的分级方法是洛杉矶分级。洛杉矶分级与酸暴露、食管动力异常[食管下括约肌(low esophageal sphincter，LES)低压，食管体部动力下降]相关，提示洛杉矶分级可用于指示GERD疾病的严重程度[35,36]，且可预测治疗效果和临床预后。洛杉矶分级-C或D级患者夜间酸暴露时间更长，可能与这类食管炎患者的夜间酸清除困难有关[37]。部分NERD患者胃镜下可见微小病变，但其特异性不高。亦有研究发现在抑酸治疗后，这些微小病变部分或完全消失[38,39]，因此有学者认为微小病变与NERD的发生有关[38]。放大内镜联合电子染色内镜有利于观察GERD患者的胃食管交界处的细微结构，并筛查早期食管癌[40,41]。临床尚有一些新的内镜图像增强技术如智能分光比色技术等可提高微小病变的检出率，但其灵敏性和特异性有限。
+食管钡剂造影检查不推荐作为胃食管反流的常规检查，但可用于食管裂孔疝的检查。在进行抗反流手术的患者中应用食管钡剂造影检查，可明确是否存在食管裂孔疝及其大小和位置[42]。对于存在胸痛、吞咽困难等不典型反流症状的患者，为判断是否存在胃食管结合部流出道梗阻，也可行食管钡剂造影检查[43]。
+共识意见7：食管反流监测可提供反流的客观证据，以明确诊断。单纯食管pH监测可检测酸反流，食管阻抗-pH监测可同时检测酸反流和非酸反流(推荐级别：A＋，89.7%；A，6.9%。证据等级：高质量)。
+食管反流监测可检测食管腔内有无胃内容物反流，为胃食管反流提供客观的诊断证据。具有典型的反流症状但内镜检查正常、症状不典型、药物治疗无效或拟行抗反流手术的患者需行食管反流监测[44]。2018年GERD诊断的里昂标准将食管反流监测列为GERD的确诊方法[45]。食管反流监测可采用导管式监测或胶囊式监测。导管式监测时间一般为24 h；无线胶囊pH监测时间最长达96 h。食管单纯pH监测仅能检测酸反流，食管阻抗-pH监测可检测酸反流和非酸反流，还可区分反流内容物性质(液体、气体或混合反流)，可提高GERD的诊断率[46,47]，根据检测结果调整治疗策略，可提高治疗效果[48]。目前建议在未使用PPI的患者中进行单纯食管pH监测以明确GERD的诊断和指导治疗[49]，若患者正在使用PPI，则需进行食管阻抗-pH监测以评估患者症状难以控制的原因[48,50]。
+食管反流监测的主要指标为酸暴露时间百分比(acid exposure time，AET)，定义为24 h内食管pH值<4的时间百分比，研究提示AET为GERD患者PPI治疗的有效预测因子[51]。通常以AET>4.2%作为异常酸反流的标准[52]。2018年GERD诊断的里昂标准提出将阳性标准提高至AET>6%[45]，目的是更好地筛选出真正的反流患者。我国的研究发现，以里昂标准中AET>6%的作为阳性判断标准，我国RE患者中存在病理性反流的比例仅为33%，提示里昂标准并不完全适用于中国GERD的诊断[53]。食管反流监测过程中还可使用反流症状指数和症状相关概率评估反流与症状的关联性，预测抑酸治疗的疗效，以辅助GERD诊断[44,45]。食管阻抗-pH监测过程中反流后吞咽诱导蠕动波指数(post-reflux swallow-induced peristaltic wave index，PSPWI)可反映患者的食管收缩储备情况，辅助GERD诊断并有效鉴别RE、NERD、功能性烧心和健康人[54]。夜间基线阻抗(mean nocturnal baseline impedance，MNBI)反映食管炎症情况，可辅助GERD诊断，鉴别RE、NERD、功能性烧心和健康人，并可预测抗酸治疗疗效[55]。这些新的指标目前尚未作为反流检测的主要参数，但值得进一步研究其临床应用的价值。
+食管黏膜阻抗技术是近年来研发用于GERD诊断的新技术。该技术通过检测食管黏膜瞬时阻抗值，反映食管黏膜屏障功能，进而判断是否存在长期慢性反流，检测方法微创、方便。研究发现GERD患者的食管黏膜阻抗值明显低于非GERD患者，食管黏膜阻抗值随着检测部位的升高而增加，且食管黏膜阻抗值对于诊断食管炎具有较高的特异性和阳性预测价值[56]。后续该技术不断改进，目前已经采用球囊导管，阻抗检测通道位于球囊两侧，可更好贴合食管准确检测黏膜阻抗值，并形成黏膜阻抗地形图，较直观地对GERD进行诊断[57]。
+共识意见8：食管高分辨率测压可检测GERD患者的食管动力状态，并作为抗反流内镜下治疗和外科手术前的常规评估手段(推荐级别：A＋，62.1%；A，34.5%。证据等级：中等质量)。
+食管高分辨率测压可反映食管的动力状态，包括食管体部的动力障碍和胃食管交界处的形态特点。GERD患者常见的动力障碍表现为无效食管动力和片段蠕动[58]，胃食管交界处的形态可反映LES与膈肌之间的关系，诊断食管裂孔疝有较高的灵敏性[59]。食管高分辨率测压诊断GERD价值有限，但可了解GERD常见的发病机制，包括瞬间LES松弛、胃食管交界处低压和食管清除功能下降等。
+食管高分辨率测压是内镜下或外科抗反流手术前的基本评估手段，可通过食管测压排除重度食管动力障碍性疾病如贲门失弛缓和Jackhammer食管等不适合进行内镜下治疗的疾病[60]。食管测压时行激发试验如多次快速饮水试验等可评估食管体部的收缩储备功能，判断患者术后是否容易出现吞咽困难等并发症[61]。此外，通过食管测压可以定位LES，利于置放食管反流监测导管。
+内镜下功能性腔内成像探针(endolumenal functional lumen imaging probe，EndoFlip)技术是一项用来评价管腔结构扩张程度的新技术，该技术将球囊放置于GERD患者的胃食管交界处，通过球囊内阻抗通道测量所在平面等容扩张时压力与横截面积的比值，判断GERD患者胃食管交界处的可扩张性，有利于评估患者抗反流屏障功能[62]和指导抗反流手术[63,64]。
+共识意见9：调整生活方式是GERD患者的基础治疗手段，包括减肥、戒烟、抬高床头等(推荐级别：A＋，76.7%；A，23.3%。证据等级：高质量)。
+GERD与不良生活方式密切相关。一项BMI与GERD症状发生关系的研究显示，BMI增加与GERD症状发生风险呈正相关，且BMI与GERD症状严重程度呈正相关，BMI>35 kg/m2时GERD症状发生风险比高达2.93[65]。大规模人群队列调查发现，减肥可明显减少GERD患者症状，BMI下降超过3.5 kg/m2，没有使用药物治疗和正在药物治疗的GERD患者症状都明显减少，表明减轻体重能提高GERD患者药物治疗的成功率，疗效与BMI下降程度相关[66]。吸烟与GERD发生密切相关[67,68]。系统综述显示，戒烟能减少正常体重患者的反流症状[69]。队列研究发现戒烟对GERD治疗有益，患者戒烟后症状和每日反流次数明显改善[70,71]。另有系统综述显示睡眠时抬高床头可明显缩短食管酸暴露时间，有效控制反流症状[72]。国内多中心研究发现，PPI治疗同时纠正不良饮食生活方式，症状缓解率(94.1%)明显高于未纠正不良生活方式的单纯药物治疗者(85.9%)[68]。
+共识意见10：PPI或P-CAB是治疗GERD的首选药物，单剂量治疗无效可改用双倍剂量，一种抑酸剂无效可尝试换用另一种。疗程为4～8周(推荐级别：A＋，58.6%；A，27.6%。证据等级：中等质量)。
+大量研究证据表明PPI在缓解GERD症状、愈合糜烂性食管炎方面的疗效优于组织胺2受体阻滞剂，是治疗GERD诱导缓解和维持治疗的首选药物。P-CAB通过竞争性阻断H-K-ATP酶中钾离子的活性，抑制胃酸分泌。多项临床研究显示P-CAB在食管炎黏膜愈合率和反流症状的缓解方面不劣于PPI[30,73,74,75,76,77]。我国牵头的亚洲地区多中心研究提示P-CAB伏诺拉生(vonoprazan) 20 mg(1次/d)和兰索拉唑30 mg(1次/d)治疗RE 8周的愈合率分别达92.4%和91.3%；在重度食管炎愈合率的亚组分析显示，伏诺拉生优于兰索拉唑，洛杉矶分级为C和D级的重度食管炎患者黏膜愈合率分别是84.0%和80.6%[29]。
+单剂量PPI或P-CAB治疗无效可改用双倍剂量，一种无效可尝试换用另一种。PPI双倍剂量治疗可使24 h内胃内pH值>4的时间持续15.6～20.4 h，更高剂量的效果与双倍剂量相似[78]；P-CAB双倍剂量时控制胃内pH值>4的时间明显优于单倍剂量[77]。来自日本的一项RCT显示，对于标准剂量PPI疗效不佳的RE患者，增加剂量可更有效地缓解反流症状和达到内镜下黏膜愈合[79]。
+P-CAB或PPI的疗程为4～8周。一项meta分析共纳入了15 316例患者，比较不同PPI治疗RE的效果，结果显示无论使用何种PPI，治疗8周的食管炎愈合率(77.5%～94.1%)高于治疗4周(47.5%～81.7%)[80]。另一项针对PPI治疗408例轻度食管炎的RCT显示，在随访12周时症状复发率8周组明显低于4周组(47.8%比62.5%，P＝0.009)[81]。2015年的一项关于伏诺拉生与兰索拉唑对比治疗RE黏膜愈合的RCT提示，治疗4周伏诺拉生和兰索拉唑组患者黏膜愈合率分别达94.0%和93.2%，明显优于2周疗程的91.9%和88.6% [82]。
+共识意见11：维持治疗方法包括按需治疗和长期治疗。抑酸剂初始治疗有效的NERD和轻度食管炎(洛杉矶分级为A和B级)患者可采用按需治疗，PPI或P-CAB为首选药物(推荐级别：A＋，63.3%；A，30.0%。证据等级：高质量)。
+维持治疗包括按需治疗和长期治疗。考虑到长期服药的成本和可能发生的不良反应，需要综合疗效、安全性、成本、药物偏好和服药频率等进行选择。从症状缓解和内镜下黏膜愈合率等方面进行总体考虑，PPI或P-CAB是最经济、有效的治疗药物[83,84]，NERD和轻度食管炎患者通过PPI或P-CAB的按需治疗能很好地控制症状，尤其是NERD患者。一项纳入598例NERD患者的RCT结果显示，就患者依从性角度考虑，PPI按需治疗组不劣于每日治疗组，能缓解82.1%患者的烧心和反酸症状，且用药量较每日治疗组明显减少[85]。一项meta分析将4 574例NERD和轻度食管炎患者分为按需治疗组、每日服用PPI组和安慰剂组，就症状控制的分析显示按需治疗组优于每日服用PPI组(OR＝0.50，95%CI 0.35～0.72)和安慰剂组(OR＝0.21，95%CI 0.15～0.29)，且依从性更高[86]。一项前瞻性研究纳入使用标准剂量PPI规律治疗至少1年的30例NERD患者，发现换用20 mg伏诺拉生(1次/d)按需治疗8周后，患者的满意度和症状分数与使用PPI时比较差异均无统计学意义[87]。另一项研究发现，伏诺拉生20 mg按需治疗轻度食管炎患者24周的缓解率为86.2%[88]。
+共识意见12：PPI或P-CAB停药后症状复发、重度食管炎(洛杉矶分级为C和D级)患者通常需要长期维持治疗(推荐级别：A＋，80.0%；A，13.3%。证据等级：中等质量)。
+研究显示，停用抑酸剂治疗后仍存在症状的GERD患者，以及重度食管炎患者需接受抑酸剂长期维持治疗[89]。一项纳入539例不同程度食管炎患者的前瞻性、随机研究发现，停药后重度食管炎患者更易复发，治疗6个月后每日治疗组中约81%的患者仍能维持食管黏膜愈合状态，而按需治疗组仅为58%，提示每日维持治疗更好地维持重度食管炎患者的食管黏膜愈合[90]。另一项关于PPI长期维持治疗RE的研究显示，每日PPI治疗6个月能使84%～85%的患者维持内镜下缓解[91]。我国一项比较伏诺拉生与兰索拉唑维持治疗RE患者的3期临床研究显示，服用伏诺拉生24周时10 mg 1次/d组和20 mg 1次/d组的复发率分别为13.3%和12.3%，低于兰索拉唑15 mg 1次/d组的25.5%(数据待发表)。
+共识意见13：注意长期抑酸治疗可能发生的不良反应，以及药物间相互作用(推荐级别：A＋，73.3%；A，16.7%。证据等级：中等质量)。
+PPI长期应用可能发生的不良反应报道多限于回顾性研究，缺乏高质量的RCT。长期应用PPI，胃内pH值升高，可能导致细菌过度增长，增加难辨梭状芽孢杆菌感染的机会。一项回顾性队列研究纳入754例发生医院内难辨梭状芽孢杆菌感染的患者，多因素Cox回归分析提示持续使用PPI增加感染的风险(OR＝1.5，95%CI 1.1～2.0)[92]。另一项纳入56项研究的meta分析显示，PPI的应用增加难辨梭状芽孢杆菌感染的风险(OR＝1.99，95%CI 1.73～2.30)[93]。PPI与氯吡格雷相互作用是否增高心血管事件受到重视，最近一篇纳入66项研究的meta分析显示PPI与氯吡格雷联用并不增加心血管事件的发生率[94]。2013年美国GERD诊治指南和2015年日本基于证据为基础的GERD临床实践指南均认为，高质量研究和多数中等质量的研究显示PPI与氯吡格雷联用不增加心血管事件的发生。一些研究提示长期使用PPI可能增加社区获得性肺炎、胃癌和慢性肾病风险，但由于这些研究影响因素过多，难以确立因果关系。长期使用PPI增加骨折[95,96]、营养吸收不良[97]、痴呆等风险也有病例报道，但限于观察性研究，无法确立因果关系，临床意义有限。
+P-CAB上市时间较短，短期研究仅提示可能出现与抑酸相关的高胃泌素血症[98]。长期应用可能发生的不良反应目前尚无报道，需进一步临床观察其长期使用的安全性。
+共识意见14：抗酸剂可快速缓解反流症状(推荐级别：A＋，26.7%；A，63.3%。证据等级：中等质量)。
+抗酸剂指可快速中和胃酸的制剂，快速缓解反流症状，用于GERD的对症治疗，但不主张长期使用。临床上常用的抗酸剂有氢氧化铝、铝碳酸镁、海藻酸盐等。短期使用抗酸剂可改善患者反流、烧心症状[99,100,101]。一项随机、多中心的研究比较抗酸剂、组织胺2受体拮抗剂和安慰剂在控制患者烧心症状时的疗效，结果表明抗酸剂缓解烧心症状更快、效果更好[102]。
+共识意见15：促动力药联合抑酸药物对缓解GERD患者的症状可能有效(推荐级别：A＋，26.7%；A，53.3%。证据等级：中等质量)。
+欧美国家较少应用促动力药治疗GERD，但亚洲国家较为普遍。日本和欧洲指南推荐促动力药联合抑酸药物治疗部分GERD患者，在改善症状上有一定补充作用，但不推荐单独使用促动力药物[100,101,103]，而美国指南则明确指出不推荐使用促动力药治疗GERD。
+常用促动力药物包括多巴胺D2受体拮抗剂如甲氧氯普胺，胃动素受体激动剂如红霉素和类似物，外周性多巴胺D2受体拮抗剂多潘立酮，选择性5-羟色胺4受体激动剂如莫沙必利，多巴胺D2受体阻滞和乙酰胆碱酯酶抑制双重作用的伊托必利，以及5-羟色胺4受体激动剂和多巴胺受体拮抗剂西尼必利。我国一篇纳入14项RCT共1 437例患者的meta分析，结果显示促动力药联合PPI在症状缓解方面的疗效较单用PPI更佳，但两组间黏膜愈合率比较差异无统计学意义[104]。
+共识意见16：内镜下射频消融术可改善GERD患者症状(推荐级别：A＋，30.0%；A，60.0%。证据等级：中等质量)。
+GERD的内镜治疗包括内镜下射频消融术、经口无切口胃底折叠术(transoral incisionless fundoplication, TIF)、抗反流黏膜切除术(anti-reflux mucosectomy，ARMS)。关于内镜下射频消融术的临床研究最多，且近20年的临床应用显示长期疗效较好[100]。其他内镜下治疗获得了短期疗效，安全性较高，但相关的高质量研究报道不多[105]。
+国内外RCT显示射频治疗在短期内能改善GERD患者的各项临床观察指标，包括食管酸暴露时间明显降低、烧心症状显著改善[106,107,108,109]。一项包括2 468例患者的meta分析显示，射频治疗可使糜烂性食管炎愈合，AET降低，LES基础压力增加，烧心评分降低，其中51%的患者射频治疗后不再使用PPI，患者的生命质量亦提高[110]。3项前瞻性队列长期随访研究证实射频治疗的长期疗效较可靠，随访8年以上，41%～76.9%的患者完全停用PPI，72%的患者生命质量评分正常，55%以上患者满意度增加>60%[111,112,113]。2项研究证实ARMS治疗后，AET降低，胃食管阀瓣分级评分降低，LES压力和完整松弛压力均增加[114]，93.6%的患者症状部分或完全缓解[114,115]。
+TIF目前有2种系统，分别为EsophyX(美国Endogastric solutions公司)和MUSE (Medigus ultrasonic surgical endostapler system，以色列Medigus公司)。Testoni等[116]对37例行TIF术的GERD患者随访1年，患者生命质量评分、烧心评分、反流评分、反流症状指数均降低，65%的患者停用PPI，25%的患者PPI剂量减半。国内一篇包含5项RCT、13项前瞻性观察研究的meta分析的结果显示，TIF治疗后半年有效率为65.96%，食管酸暴露时间和总反流次数均降低，总体满意度为69.15%[117]。
+共识意见17：胃底折叠术对GERD患者疗效明确(推荐级别：A＋，58.6%；A，27.6%。证据等级：中等质量)。
+国内外的各项GERD相关指南均推荐对不愿长期使用PPI治疗的GERD患者行抗反流手术，目前认为胃底折叠术是最好的抗反流手术方式，腹腔镜下胃底折叠术优于开腹胃底折叠术[32,100,101,103,118]。
+不同时期的meta分析均证实胃底折叠术治疗GERD的疗效好、安全性高[32,119,120]。一篇meta分析纳入了29项包含1 892例患者的RCT，结果显示与使用PPI相比，不同术式的胃底折叠术均能更好地控制烧心、反流[119]。Richter等[120]对腹腔镜下胃底折叠术、TIF和PPI疗效进行了meta分析，发现腹腔镜下胃底折叠术在降低pH值<4的百分比、增加LES压力、改善生命质量3项指标上疗效最佳。RCT表明胃底折叠术5～10年的效果确切，可使患者酸反流减少，LES压力增加，症状缓解，部分患者减少PPI用量[121]。
+磁环括约肌增强术(magnetic sphincter augmentation，MSA)通过腹腔镜将磁珠环置于胃食管交界处，增强抗反流屏障。一项研究纳入152例患者，随机对照比较随访1年MSA与PPI对GERD患者症状的疗效，结果提示MSA在减少反流症状方面明显优于服用PPI的患者，且并发症少[122]。纳入19项研究MSA治疗GERD的meta分析发现，MSA和胃底折叠术均有明显的临床疗效，两者在减少PPI使用和生命质量改善方面比较差异均无统计学意义，仅13.2%的MSA患者需要继续服用PPI[123]。目前关于MSA的RCT和长期随访研究还不多，有待更强的循证医学证据。
+共识意见18：GERD为哮喘、慢性咳嗽和喉炎的可能原因，在确诊反流相关前需先排除非反流因素。不明原因的哮喘、慢性咳嗽和喉炎，若有典型的反流症状，可进行抑酸治疗试验(推荐级别：A＋，56.7%；A，33.3%。证据等级：中等质量)。
+研究发现哮喘患者会表现出烧心、反流等典型的GERD症状，GERD的患病率高达32%～82%[124]；对哮喘患者进行24 h食管pH监测，发现53%的哮喘患者存在病理性酸反流[125]。慢性咽喉炎和睡眠呼吸暂停综合征的患者中也存在一定比例的病理性酸反流[126,127]。因此，GERD在哮喘、慢性咳嗽和喉炎中可能发挥重要作用。但关于慢性咳嗽和哮喘的meta分析未能提供足够证据支持PPI治疗[128]。非酸反流和神经动力等因素在GERD中的作用日益被重视。有研究发现，伴有GERD烧心和反流典型症状的食管外症状患者在进行PPI标准治疗后，仍有10%～40%存在持续性非酸反流[129]。国内有学者发现，近端酸反流和远端反流-反射均与GERD患者的反流咳嗽相关[130]。因此，抑酸治疗试验在食管外症状患者中尚存争议，但其简便、无创，伴随典型反流症状的食管炎症状患者仍可行抑酸治疗试验。
+共识意见19：对于抑酸治疗无效的食管外症状患者，需进一步评估以寻找相关原因(推荐级别：A＋，65.5%；A，27.6%。证据等级：中等质量)。
+慢性喉炎为喉部的持续炎性反应，常见的病因可为外源性刺激，如吸烟、饮酒，亦可为内源性刺激，如哮喘和GERD。据报道，50%～60%的慢性喉炎和难治性咽喉痛与GERD相关。但GERD相关的咽喉部症状，如声音嘶哑、发声困难、喉痉挛等，并无特异性；鼻后滴注(漏)和环境刺激，如暴露于某些过敏原或其他刺激物，亦可导致上述症状。抑酸治疗对GERD相关食管外症状的效果仍存在争议[128,131,132,133]。抑酸治疗无效的患者应进一步检查，除外食管裂孔疝等。另外，可由相应专科评估，判断有无其他疾病，如咽喉部或肺部疾病等[2,134,135,136]。
+共识意见20：RE尤其是重度食管炎(洛杉矶分级为C级和D级)患者，治疗后应定期随访(推荐级别：A＋，90.0%；A，10.0%。证据等级：高质量)。
+RE占GERD的30%～40%。RE的严重程度是判断其预后的重要指标。研究发现，轻度食管炎(洛杉矶分级为A和B级)患者通常治疗4周即可黏膜愈合，而重度食管炎(洛杉矶分级为C和D级)患者黏膜愈合通常需要8周或更长时间，且愈合率低[137]。多项研究结果显示，随着食管炎严重程度增加，PPI治疗的愈合率下降[138,139,140,141]。研究发现重度食管炎对巴雷特食管的发现有影响[142,143]。一项对172例食管炎患者进行的研究发现，治疗前发现巴雷特食管的患者，在PPI治疗(平均11周)后巴雷特食管的检出率为12%[143]。对重度食管炎(洛杉矶分级为C和D级)患者治疗后复查内镜的目的，一方面是判断食管炎是否愈合，另一方面是除外巴雷特食管[144,145]。
+共识意见21：巴雷特食管是GERD的并发症，诊断需要依赖内镜和病理检查(推荐级别：A＋，57.1%；A，38.1%。证据等级：高质量)。
+巴雷特食管是GERD的重要并发症，定义为内镜下食管鳞状上皮与柱状上皮的交界线相对于胃食管结合部上移，并且组织学证实正常复层鳞状上皮被化生的柱状上皮所取代。巴雷特食管有胃底腺黏膜化生、贲门腺黏膜化生和肠黏膜上皮化生3种组织学类型，其中伴有肠黏膜上皮化生的巴雷特食管发生食管腺癌的风险更高。内镜和组织学检查除了可以判断巴雷特食管的有无，还可以明确其组织学类型，以及是否合并异型增生，有助于制定治疗和随访策略[2,146,147]。
+共识意见22：对于存在异型增生的巴雷特食管患者，应积极进行随访、内镜或手术治疗(推荐级别：A＋，60.7%；A，39.3%。证据等级：中等质量)。
+现有证据表明，巴雷特食管有发展为食管腺癌的风险，随访有助于早期发现异型增生和早期癌。一项单中心研究数据分析发现，在最终诊断为高级别上皮内瘤变或食管癌的患者中，53%的患者接受过至少2次连续的内镜检查和活组织检查但结果为非肿瘤性病变[148]。有meta分析结果显示，无异型增生、低级别异型增生和高级别异型增生的巴雷特食管进展为食管腺癌的年发病率分别为0.33%、0.54%和6.58%[149,150,151]。内镜检查和活组织检查监测巴雷特食管是目前唯一证据相对充足的随访方法[2,146]。对于不伴有异型增生的巴雷特食管，美国、英国和亚太共识推荐的随访间隔时间均为3～5年，但亚太共识同时认为此类患者内镜随访的获益并不明确[2]。伴有低级别异型增生的巴雷特食管患者，应予以密切随访，或进行内镜下切除或消融治疗；合并高级别异型增生的巴雷特食管和早期食管腺癌患者，可考虑行内镜下切除治疗，但需要对病变浸润深度、淋巴结转移风险等进行综合评估，不符合内镜下治疗指征的可考虑外科手术治疗[2,146,152,153]。
+共识意见23：合并食管狭窄的患者经扩张后需抑酸维持治疗，以改善吞咽困难的症状和减少再次扩张的需要(推荐级别：A＋，58.1%；A，35.5%。证据等级：中等质量)。
+食管狭窄是RE的并发症之一。主要治疗方法是气囊或探条扩张，但术后有一定的复发率[154]。Sgouros等[155]依据食管测压、pH监测等结果，予食管狭窄扩张术后有明确GERD的患者长期口服奥美拉唑，其余患者则随机分为口服奥美拉唑组和口服安慰剂组；结果发现有明确GERD的患者口服PPI后无一例复发，与口服安慰剂组相比，口服奥美拉唑组复发率显著下降，表明口服PPI可降低食管狭窄扩张术后的复发率。研究证实P-CAB可有效治疗RE，为GERD食管狭窄患者扩张治疗后的抑酸维持治疗提供了新的选择[29,30]。
+共识意见24：难治性GERD指双倍剂量PPI治疗8周后反流、烧心等症状无明显改善者(推荐级别：A＋，51.7%；A，41.4%。证据等级：中等质量)。
+难治性GERD的定义尚存争议，主要是集中在PPI治疗的剂量和疗程尚无统一标准。有观点认为只有双倍剂量口服PPI治疗效果欠佳时才能称作PPI治疗失败。然而亦有观点认为标准剂量PPI治疗效果不佳时即可认为是治疗失败[156]。亚太共识将标准剂量PPI治疗失败的GERD称为难治性GERD[2]。有观点认为难治性GERD指双倍剂量的PPI治疗至少12周，烧心和(或)反流症状仍无改善[157]。也有观点将难治性GERD定义为双倍剂量PPI治疗至少8周后患者症状无明显改善[158]。本次专家组讨论并投票通过，认为经过双倍标准剂量、8周疗程的抑酸剂治疗后反流、烧心等症状无明显改善者定义为难治性GERD。
+共识意见25：引起难治性GERD的原因很多，处理首先需检查患者的服药依从性，优化PPI的使用或更换P-CAB(推荐级别：A＋，56.7%；A，36.7%。证据等级：中等质量)。
+导致难治性GERD的原因很多。未纠正不良生活方式、不遵医嘱服药、抑酸不充分、食管高敏感、精神心理因素可能是症状缓解不佳的原因。食管阻抗-pH监测有助于分析PPI治疗效果不佳的原因，并根据检测结果，调整治疗策略。如无条件进行上述检查时，可根据经验更换PPI种类，或换用P-CAB。一项纳入24例经内镜证实的PPI难治性RE患者的前瞻性研究，接受伏诺拉生20 mg治疗4周后进行内镜检查，并采用GerdQ评估症状。结果发现，首剂伏诺拉生即可显著改善PPI难治性RE患者症状评分，6 d后症状消失并持续4周[159]。一项开放标签、单中心、观察性研究显示，伏诺拉生初始治疗和维持治疗均可显著改善PPI难治性GERD患者的烧心症状[160]。
+共识意见26：难治性GERD患者需行内镜、食管高分辨率测压和食管阻抗-pH监测等检查。(推荐级别：A＋，69.0%；A，31.0%。证据等级：中等质量)。
+内镜检查和活组织检查有助于排除其他食管和胃的疾病，如嗜酸性食管炎和其他原因食管炎。食管高分辨率测压可以明确食管动力性疾病，如贲门失弛缓、弥漫性食管痉挛等[161]。食管阻抗-pH监测可以监测到包括酸、弱酸和气体反流等在内的所有反流事件，有助于鉴别功能性烧心和食管高敏感[156,158]。除关注食管阻抗-pH监测结果中的AET、反流事件次数外，里昂共识提出2个新的指标，即反流后吞咽诱发PSPWI和MNBI[45]。研究表明，口服PPI情况下持续的GERD反流症状可能与弱酸反流或非酸性反流相关。弱酸反流引起GERD症状的机制尚不明确，目前推测可能为反流量增加引起的食管扩张，对弱酸性反流物过敏，以及反复暴露于弱酸性反流物后食管黏膜完整性受损[157,162]。另有研究表明，在PPI治疗失败的患者中，近端的弱酸反流程度是症状性反流事件的最重要决定因素[163]。对于难治性GERD，推荐PPI双倍剂量服用下行食管阻抗-pH检测，以便确定难治性症状与反流事件之间的相关性，以及抑酸是否足够[161]。
+共识意见27：药物治疗失败的难治性GERD，经全面、细致的检查除外其他病因，确实存在反流证据的，可权衡利弊后行内镜或手术治疗(推荐级别：A＋，35.5%；A，51.6%。证据等级：中等质量)。
+经充分抑酸治疗后症状仍难以控制，且经检测证实存在与症状相关的反流，可行抗反流手术治疗。抑酸剂治疗有效但患者不愿长期服药也是抗反流手术治疗的适应证。不主张对抑酸治疗无效且未经检测的患者行抗反流手术治疗。抗反流手术包括内镜治疗和外科手术。内镜治疗方法有射频治疗、TIF等，外科手术以腹腔镜胃底折叠术为主。抗反流手术前必须行内镜检查，怀疑有食管裂孔疝应进行食管钡餐检查，食管测压用以排除动力障碍性疾病。如内镜检查结果为阴性，须行食管pH(±阻抗)监测，以选择适合抗反流手术的患者[164]。新近发表的一篇随机研究中，通过内镜检查和食管活组织检查、食管测压、食管阻抗-pH监测等共筛选了366例难治性烧心患者，其中23例为其他食管疾病，99例为功能性烧心，最后入组78例患者，随机分配至腹腔镜下Nissen胃底折叠术组、药物治疗组(PPI、巴氯芬和地西帕明)和对照药物治疗组(PPI、巴氯芬安慰剂和地西帕明安慰剂)，3组的治疗有效率分别为67%(18/27)、28%(7/25)和12%(3/26)。该结果表明，严格筛选的PPI难治性烧心患者外科手术疗效优于药物治疗[165]。
+共识意见28：合并食管裂孔疝的GERD患者常规剂量PPI效果欠佳时，剂量可以加倍(推荐级别：A＋，41.9%；A，58.1%。证据等级：中等质量)。
+国内一项研究纳入了反流检测阳性的76例GERD患者，其中13例合并食管裂孔疝，所有患者均予以艾司奥美拉唑40 mg 1次/d口服，治疗4周后复查pH监测，46.8 %的伴食管裂孔疝患者仍存在反流监测阳性，PPI治疗剂量加倍后pH监测结果恢复正常[166]。2008年美国胃肠病学会关于GERD药物治疗的声明指出，PPI 1次/d口服治疗下食管裂孔疝的GERD症状控制不佳时，可予以PPI 2次/d口服[167]。
+本共识在《2014年中国胃食管反流病专家共识意见》的基础上，保留了症状学部分和传统诊断方法部分，对新的诊断和评价方法进行了阐述。治疗方面，由于新的抑酸药物P-CAB的面世，为GERD的治疗提供了新的选择，本共识增加了P-CAB的临床研究证据；近年来国内抗反流的内镜手术和外科手术逐渐增加，本共识针对其疗效和适应证进行了详细阐述。难治性GERD和食管外症状的患者仍然是临床面临的难题，现有的证据提示对这些患者需进一步详细检查和评估，其处理需要个体化策略。
+起草小组成员(按姓氏汉语拼音排序)：陈旻湖(中山大学附属第一医院消化内科)，侯晓华(华中科技大学同济医学院附属协和医院消化内科)，李延青(山东大学齐鲁医院消化内科)，肖英莲(中山大学附属第一医院消化内科)，周丽雅(北京大学第三医院消化内科)，邹多武(上海交通大学医学院附属瑞金医院消化内科)
+专家组成员(按姓氏汉语拼音排序)：陈旻湖(中山大学附属第一医院消化内科)，戴菲(西安交通大学第二附属医院消化内科)，戴宁(浙江大学医学院附属邵逸夫医院消化内科)，段志军(大连医科大学附属第一医院消化内科)，方秀才(北京协和医院消化内科)，郝建宇(首都医科大学附属北京朝阳医院消化内科)，侯晓华(华中科技大学同济医学院附属协和医院消化内科)，蓝宇(北京积水潭医院消化内科)，刘诗(华中科技大学同济医学院附属协和医院消化内科)，李延青(山东大学齐鲁医院消化内科)，林琳(江苏省人民医院消化内科)，吕宾(浙江中医药大学附属第一医院消化内科)，孟凡冬(首都医科大学附属北京友谊医院消化内科)，彭丽华(中国人民解放军总医院消化内科)，尚占民(首都医科大学附属北京朝阳医院消化内科)，宋军(华中科技大学同济医学院附属协和医院消化内科)，汪安江(南昌大学第一附属医院消化内科)，王邦茂(天津医科大学总医院消化内科)，王化虹(北京大学第一医院消化内科)，王学红(青海大学附属医院消化内科)，吴继敏(火箭军特色医学中心胃食管反流病科)，肖英莲(中山大学附属第一医院消化内科)，向雪莲(华中科技大学同济医学院附属协和医院消化内科)，谢晨曦(厦门大学附属中山医院消化内科)，许洪伟(山东省立医院消化内科)，杨敏(陆军军医大学大坪医院消化内科)，杨朝霞(重庆医科大学附属第二医院消化内科)，张玲(上海交通大学医学院附属瑞金医院消化内科)，张妮娜(南京大学医学院附属鼓楼医院消化内科)，周丽雅(北京大学第三医院消化内科)，邹多武(上海交通大学医学院附属瑞金医院消化内科)，左秀丽(山东大学齐鲁医院消化内科)
+利益冲突
+利益冲突 专家组所有成员均声明不存在利益冲突
+参考文献
+[1]
+EusebiLH, RatnakumaranR, YuanYH, et al.
+Global prevalence of, and risk factors for, gastro-oesophageal reflux symptoms: a meta-analysis[J].
+Gut,
+2018，
+67(
+3):
+430-
+440.
+DOI: 10.1136/gutjnl-2016-313589.
+[2]
+FockKM, TalleyN, GohKL, et al.
+Asia-Pacific consensus on the management of gastro-oesophageal reflux disease: an update focusing on refractory reflux disease and Barrett′s oesophagus[J]．
+Gut,
+2016,
+65(
+9):
+1402-
+1415.
+DOI: 10.1136/gutjnl-2016-311715.
+[3]
+潘国宗，许国铭，郭慧平，等.
+北京上海胃食管反流症状的流行病学调查[J]．
+中华消化杂志，
+1999，
+19(
+4):
+223-
+226.
+DOI: 10.3760/j.issn:0254-1432.1999.04.002.
+[4]
+熊理守，陈旻湖，陈惠新，等.
+广东省社区人群胃食管反流病流行病学研究[J]．
+中华消化杂志，
+2006，
+26(
+4):
+239-
+242.
+DOI: 10.3760/j.issn:0254-1432.2006.04.007.
+[5]
+张玲，邹多武.
+胃食管反流病的流行病学及危险因素[J].
+临床荟萃，
+2017,
+32(
+1):
+1-
+4.
+DOI: 10.3969/j.issn.1004-583X.2017.01.001.
+[6]
+WoodlandP, Shen OoiJL, GrassiF, et al.
+Superficial esophageal mucosal afferent nerves may contribute to reflux hypersensitivity in nonerosive reflux disease[J]．
+Gastroenterology,
+2017，
+153(
+5):
+1230-
+1239.
+DOI: 10.1053/j.gastro.2017.07.017.
+[7]
+DunbarKB, AgostonAT, OdzeRD, et al.
+Association of acute gastroesophageal reflux disease with esophageal histologic changes[J].
+JAMA,
+2016，
+315(
+19):
+2104-
+2112.
+DOI: 10.1001/jama.2016.5657.
+[8]
+中华医学会消化病学分会.
+2014年中国胃食管反流病专家共识意见[J].
+中华消化杂志，
+2014，
+34(
+10):
+649-
+661.
+DOI: 10.3760/cma.j.issn.0254-1432.2014.10.001.
+[9]
+HongoM, KinoshitaY, MiwaH, et al.
+The demographic characteristics and health-related quality of life in a large cohort of reflux esophagitis patients in Japan with reference to the effect of lansoprazole: the REQUEST study[J].
+J Gastroenterol,
+2008，
+43(
+12):
+920-
+927.
+DOI: 10.1007/s00535-008-2257-7.
+[10]
+BroderickR, FuchsKH, BreithauptW, et al.
+Clinical presentation of gastroesophageal reflux disease: a prospective study on symptom diversity and modification of questionnaire application[J].
+Dig Dis，
+2020，
+38(
+3):
+188-
+195.
+DOI: 10.1159/000502796.
+[11]
+RichterJE, RubensteinJH.
+Presentation and epidemiology of gastroesophageal reflux disease[J].
+Gastroenterology,
+2018,
+154(
+2):
+267-
+276.
+DOI: 10.1053/j.gastro.2017.07.045.
+[12]
+EgglestonA, KatelarisPH, NandurkarS, et al.
+Clinical trial: the treatment of gastro-oesophageal reflux disease in primary care—prospective randomized comparison of rabeprazole 20 mg with esomeprazole 20 and 40 mg[J].
+Aliment Pharmacol Ther,
+2009，
+29(
+9):
+967-
+978.
+DOI: 10.1111/j.1365-2036.2009.03948.x.
+[13]
+XiaoYL, PengS, TaoJ, et al.
+Prevalence and symptom pattern of pathologic esophageal acid reflux in patients with functional dyspepsia based on the Rome Ⅲ criteria[J].
+Am J Gastroenterol,
+2010，
+105(
+12):
+2626-
+2631.
+DOI: 10.1038/ajg.2010.351.
+[14]
+VakilN, van ZantenSV, KahrilasP, et al.
+The Montreal definition and classification of gastroesophageal reflux disease: a global evidence-based consensus[J].
+Am J Gastroenterol,
+2006，
+101(
+8):
+1900-1920，1943.
+DOI: 10.1111/j.1572-0241.2006.00630.x.
+[15]
+WongWM, LamKF, ChengC, et al.
+Population based study of noncardiac chest pain in Southern Chinese: prevalence, psychosocial factors and health care utilization[J].
+World J Gastroenterol,
+2004，
+10(
+5):
+707-
+712.
+DOI: 10.3748/wjg.v10.i5.707.
+[16]
+FordAC, SuaresNC, TalleyNJ.
+Meta-analysis: the epidemiology of noncardiac chest pain in the community[J].
+Aliment Pharmacol Ther,
+2011，
+34(
+2):
+172-
+180.
+DOI: 10.1111/j.1365-2036.2011.04702.x.
+[17]
+EslickGD, JonesMP, TalleyNJ.
+Non-cardiac chest pain: prevalence, risk factors, impact and consulting—a population-based study[J].
+Aliment Pharmacol Ther,
+2003，
+17(
+9):
+1115-
+1124.
+DOI: 10.1046/j.1365-2036.2003.01557.x.
+[18]
+LockeGR 3rd, TalleyNJ, FettSL, et al.
+Prevalence and clinical spectrum of gastroesophageal reflux: a population-based study in Olmsted County, Minnesota[J].
+Gastroenterology,
+1997，
+112(
+5):
+1448-
+1456.
+DOI: 10.1016/s0016-5085(97)70025-8.
+[19]
+FassR, DickmanR.
+Non-cardiac chest pain: an update[J].
+Neurogastroenterol Motil,
+2006，
+18(
+6):
+408-
+417.
+DOI: 10.1111/j.1365-2982.2006.00787.x.
+[20]
+MoayyediP, AxonAT.
+The usefulness of the likelihood ratio in the diagnosis of dyspepsia and gastroesophageal reflux disease[J].
+Am J Gastroenterol,
+1999，
+94(
+11):
+3122-
+3125.
+DOI: 10.1111/j.1572-0241.1999.01502.x.
+[21]
+KlauserAG, SchindlbeckNE, Müller-LissnerSA.
+Symptoms in gastro-oesophageal reflux disease[J].
+Lancet,
+1990，
+335(
+8683):
+205-
+208.
+DOI: 10.1016/0140-6736(90)90287-f.
+[22]
+OkamotoK, IwakiriR, MoriM, et al.
+Clinical symptoms in endoscopic reflux esophagitis: evaluation in 8 031 adult subjects[J].
+Dig Dis Sci,
+2003，
+48(
+12):
+2237-
+2241.
+DOI: 10.1023/b:ddas.0000007857.15694.15.
+[23]
+ZhangMY, ChenMH, PengS, et al.
+The Rome Ⅳ versus Rome Ⅲ criteria for heartburn diagnosis: a comparative study[J].
+United European Gastroenterol J,
+2018，
+6(
+3):
+358-
+366.
+DOI: 10.1177/2050640617735084.
+[24]
+DentJ, VakilN, JonesR, et al.
+Accuracy of the diagnosis of GORD by questionnaire, physicians and a trial of proton pump inhibitor treatment: the diamond study[J].
+Gut,
+2010，
+59(
+6):
+714-
+721.
+DOI: 10.1136/gut.2009.200063.
+[25]
+Norder GrusellE, MjörnheimAC, FiniziaC, et al.
+The diagnostic value of GerdQ in subjects with atypical symptoms of gastro-esophageal reflux disease[J].
+Scand J Gastroenterol,
+2018，
+53(
+10/11):
+1165-
+1170.
+DOI: 10.1080/00365521.2018.1503708.
+[26]
+BytzerP, JonesR, VakilN, et al.
+Limited ability of the proton-pump inhibitor test to identify patients with gastroesophageal reflux disease[J].
+Clin Gastroenterol Hepatol,
+2012，
+10(
+12):
+1360-
+1366.
+DOI: 10.1016/j.cgh.2012.06.030.
+[27]
+肖英莲，李延青，唐承薇，等.
+埃索美拉唑诊断性试验对胃食管反流病诊断价值的随机、双盲、多中心研究[J].
+中华消化杂志，
+2008，
+28(
+4):
+233-
+236.
+DOI: 10.3760/j.issn:0254-1432.2008.04.005.
+[28]
+NumansME, LauJ, de WitNJ, et al.
+Short-term treatment with proton-pump inhibitors as a test for gastroesophageal reflux disease: a meta-analysis of diagnostic test characteristics[J].
+Ann Intern Med,
+2004，
+140(
+7):
+518-
+527.
+DOI: 10.7326/0003-4819-140-7-200404060-00011.
+[29]
+许国铭，方裕强，程能能，等．
+质子泵抑制剂(奥美拉唑)试验在胃食管反流病中的诊断价值[J].
+中华消化杂志，
+2002，
+22(
+1):
+7-
+10.
+DOI: 10.3760/j.issn:0254-1432.2002.01.002.
+[30]
+XiaoYL, ZhangST, DaiN, et al.
+Phase Ⅲ，randomised, double-blind, multicentre study to evaluate the efficacy and safety of vonoprazan compared with lansoprazole in Asian patients with erosive oesophagitis[J].
+Gut,
+2020，
+69(
+2):
+224-
+230.
+DOI: 10.1136/gutjnl-2019-318365.
+[31]
+OshimaT, AraiE, TakiM, et al.
+Randomised clinical trial: vonoprazan versus lansoprazole for the initial relief of heartburn in patients with erosive oesophagitis[J].
+Aliment Pharmacol Ther,
+2019，
+49(
+2):
+140-
+146.
+DOI: 10.1111/apt.15062.
+[32]
+中国胃食管反流病共识意见专家组.
+中国胃食管反流病共识意见(2006·10三亚)[J].
+中华内科杂志，
+2007，
+46(
+2):
+170-
+173.
+DOI: 10.3760/j.issn:0578-1426.2007.02.039.
+[33]
+PengS, XiongLS, XiaoYL, et al.
+Prompt upper endoscopy is an appropriate initial management in uninvestigated Chinese patients with typical reflux symptoms[J].
+Am J Gastroenterol,
+2010，
+105(
+9):
+1947-
+1952.
+DOI: 10.1038/ajg.2010.121.
+[34]
+ChenSL, GweeKA, LeeJS, et al.
+Systematic review with meta-analysis: prompt endoscopy as the initial management strategy for uninvestigated dyspepsia in Asia[J].
+Aliment Pharmacol Ther,
+2015，
+41(
+3):
+239-
+252.
+DOI: 10.1111/apt.13028.
+[35]
+LundellLR, DentJ, BennettJR, et al.
+Endoscopic assessment of oesophagitis: clinical and functional correlates and further validation of the Los Angeles classification[J].
+Gut,
+1999,
+45(
+2):
+172-
+180.
+DOI: 10.1136/gut.45.2.172.
+[36]
+LiuL, LiS, ZhuKX, et al.
+Relationship between esophageal motility and severity of gastroesophageal reflux disease according to the Los Angeles classification[J/OL].
+Medicine (Baltimore),
+2019，
+98(
+19):
+e15543[
+2019-05-13].
+https://doi.org/10.1097/MD.0000000000015543.
+[37]
+AdachiK, FujishiroH, KatsubeT, et al.
+Predominant nocturnal acid reflux in patients with Los Angeles grade C and D reflux esophagitis[J].
+J Gastroenterol Hepatol,
+2001，
+16(
+11):
+1191-
+1196.
+DOI: 10.1046/j.1440-1746.2001.02617.x.
+[38]
+LynchCR, WaniS, RastogiA, et al.
+Effect of acid-suppressive therapy on narrow band imaging findings in gastroesophageal reflux disease: a pilot study[J].
+Dis Esophagus,
+2013，
+26(
+2):
+124-
+129.
+DOI: 10.1111/j.1442-2050.2012.01335.x.
+[39]
+EdeboA, TamW, BrunoM, et al.
+Magnification endoscopy for diagnosis of nonerosive reflux disease: a proposal of diagnostic criteria and critical analysis of observer variability[J].
+Endoscopy,
+2007,
+39(
+3):
+195-
+201.
+DOI: 10.1055/s-2006-945112.
+[40]
+ParikhND, VianaAV, ShahS, et al.
+Image-enhanced endoscopy is specific for the diagnosis of non-erosive gastroesophageal reflux disease[J].
+Scand J Gastroenterol,
+2018，
+53(
+3):
+260-
+264.
+DOI: 10.1080/00365521.2018.1430847.
+[41]
+FockKM, TeoEK, AngTL, et al.
+The utility of narrow band imaging in improving the endoscopic diagnosis of gastroesophageal reflux disease[J].
+Clin Gastroenterol Hepatol,
+2009，
+7(
+1):
+54-
+59.
+DOI: 10.1016/j.cgh.2008.08.030.
+[42]
+WeitzendorferM, KöhlerG, AntoniouSA, et al.
+Preoperative diagnosis of hiatal hernia: barium swallow X-ray, high-resolution manometry, or endoscopy？[J].
+Eur Surg,
+2017，
+49(
+5):
+210-
+217.
+DOI: 10.1007/s10353-017-0492-y.
+[43]
+RichterJE, CastellDO.
+Gastroesophageal reflux. Pathogenesis, diagnosis, and therapy[J].
+Ann Intern Med,
+1982，
+97(
+1):
+93-
+103.
+DOI: 10.7326/0003-4819-97-1-93.
+[44]
+RomanS, GyawaliCP, SavarinoE, et al.
+Ambulatory reflux monitoring for diagnosis of gastro-esophageal reflux disease: update of the Porto consensus and recommendations from an international consensus group[J].
+Neurogastroenterol Motil,
+2017，
+29(
+10):
+1-
+15.
+DOI: 10.1111/nmo.13067.
+[45]
+GyawaliCP, KahrilasPJ, SavarinoE, et al.
+Modern diagnosis of GERD: the Lyon Consensus[J].
+Gut,
+2018，
+67(
+7):
+1351-
+1362.
+DOI: 10.1136/gutjnl-2017-314722.
+[46]
+FrazzoniM, ConigliaroR, MiranteVG，et al.
+The added value of quantitative analysis of on-therapy impedance-pH parameters in distinguishing refractory non-erosive reflux disease from functional heartburn[J].
+Neurogastroenterol Motil,
+2012，
+24(
+2):
+141-146，e87.
+DOI: 10.1111/j.1365-2982.2011.01800.x.
+[47]
+ZhouLY, WangY, LuJJ, et al.
+Accuracy of diagnosing gastroesophageal reflux disease by GerdQ, esophageal impedance monitoring and histology[J].
+J Dig Dis,
+2014，
+15(
+5):
+230-
+238.
+DOI: 10.1111/1751-2980.12135.
+[48]
+BeckerV, BajboujM, WallerK, et al.
+Clinical trial: persistent gastro-oesophageal reflux symptoms despite standard therapy with proton pump inhibitors—a follow-up study of intraluminal-impedance guided therapy[J].
+Aliment Pharmacol Ther,
+2007，
+26(
+10):
+1355-
+1360.
+DOI: 10.1111/j.1365-2036.2007.03529.x.
+[49]
+HemminkGJ, BredenoordAJ, WeustenBL, et al.
+Esophageal pH-impedance monitoring in patients with therapy-resistant reflux symptoms：'on’ or 'off’ proton pump inhibitor？[J].
+Am J Gastroenterol,
+2008,
+103(
+10):
+2446-
+2453.
+DOI: 10.1111/j.1572-0241.2008.02033.x.
+[50]
+SharmaN, AgrawalA, FreemanJ，et al.
+An analysis of persistent symptoms in acid-suppressed patients undergoing impedance-pH monitoring[J].
+Clin Gastroenterol Hepatol,
+2008，
+6(
+5):
+521-
+524.
+DOI: 10.1016/j.cgh.2008.01.006.
+[51]
+PatelA, SayukGS, GyawaliCP.
+Parameters on esophageal pH-impedance monitoring that predict outcomes of patients with gastroesophageal reflux disease[J].
+Clin Gastroenterol Hepatol,
+2015，
+13(
+5):
+884-
+891.
+DOI: 10.1016/j.cgh.2014.08.029.
+[52]
+KahrilasPJ, QuigleyEM.
+Clinical esophageal pH recording: a technical review for practice guideline development[J].
+Gastroenterology,
+1996，
+110(
+6):
+1982-
+1996.
+DOI: 10.1053/gast.1996.1101982.
+[53]
+ZhangMY, TanND, LiYW, et al.
+Esophageal physiologic profiles within erosive esophagitis in China: predominantly low-grade esophagitis with low reflux burden[J/OL].
+Neurogastroenterol Motil,
+2019,
+31(
+12):
+e13702[
+2019-08-13].
+https://doi.org/10.1111/nmo.13702.
+[54]
+FrazzoniM, SavarinoE, de BortoliN, et al.
+Analyses of the post-reflux swallow-induced peristaltic wave index and nocturnal baseline impedance parameters increase the diagnostic yield of impedance-pH monitoring of patients with reflux disease[J].
+Clin Gastroenterol Hepatol,
+2016，
+14(
+1):
+40-
+46.
+DOI: 10.1016/j.cgh.2015.06.026.
+[55]
+XieCX, SifrimD, LiYW，et al.
+Esophageal baseline impedance reflects mucosal integrity and predicts symptomatic outcome with proton pump inhibitor treatment[J].
+J Neurogastroenterol Motil,
+2018，
+24(
+1):
+43-
+50.
+DOI: 10.5056/jnm17032.
+[56]
+AtesF, YukselES, HigginbothamT, et al.
+Mucosal impedance discriminates GERD from non-GERD conditions [J].
+Gastroenterology,
+2015，
+148(
+2):
+334-
+343.
+DOI: 10.1053/j.gastro.2014.10.010.
+[57]
+PatelDA, HigginbothamT, SlaughterJC, et al.
+Development and validation of a mucosal impedance contour analysis system to distinguish esophageal disorders[J].
+Gastroenterology,
+2019,
+156(
+6):
+1617-1626.e1.
+DOI: 10.1053/j.gastro.2019.01.253.
+[58]
+XiaoYL, KahrilasPJ, KwasnyMJ, et al.
+High-resolution manometry correlates of ineffective esophageal motility[J].
+Am J Gastroenterol,
+2012，
+107(
+11):
+1647-
+1654.
+DOI: 10.1038/ajg.2012.286.
+[59]
+WeijenborgPW, van HoeijFB, SmoutAJ, et al.
+Accuracy of hiatal hernia detection with esophageal high-resolution manometry[J].
+Neurogastroenterol Motil,
+2015，
+27(
+2):
+293-
+299.
+DOI: 10.1111/nmo.12507.
+[60]
+ChanWW, HaroianLR, GyawaliCP.
+Value of preoperative esophageal function studies before laparoscopic antireflux surgery[J].
+Surg Endosc,
+2011，
+25(
+9):
+2943-
+2949.
+DOI: 10.1007/s00464-011-1646-9.
+[61]
+ShakerA, StoikesN, DrapekinJ, et al.
+Multiple rapid swallow responses during esophageal high-resolution manometry reflect esophageal body peristaltic reserve[J]．
+Am J Gastroenterol,
+2013,
+108(
+11):
+1706-
+1712.
+DOI: 10.1038/ajg.2013.289.
+[62]
+KwiatekMA, PandolfinoJE, HiranoI, et al.
+Esophagogastric junction distensibility assessed with an endoscopic functional luminal imaging probe (EndoFLIP)[J].
+Gastrointest Endosc,
+2010，
+72(
+2):
+272-
+278.
+DOI: 10.1016/j.gie.2010.01.069.
+[63]
+SuB, NovakS, CallahanZM, et al.
+Using impedance planimetry (EndoFLIP™) in the operating room to assess gastroesophageal junction distensibility and predict patient outcomes following fundoplication[J].
+Surg Endosc,
+2020，
+34(
+4):
+1761-
+1768.
+DOI: 10.1007/s00464-019-06925-5.
+[64]
+SuB, DunstC, GouldJ, et al.
+Experience-based expert consensus on the intra-operative usage of the Endoflip impedance planimetry system[J/OL].
+Surg Endosc,
+2020 [
+2020-06-16].
+https://doi.org/10.1007/s00464-020-07704-3.
+[65]
+JacobsonBC, SomersSC, FuchsCS, et al.
+Body-mass index and symptoms of gastroesophageal reflux in women[J].
+N Engl J Med,
+2006，
+354(
+22):
+2340-
+2348.
+DOI: 10.1056/NEJMoa054391.
+[66]
+Ness-JensenE, LindamA, LagergrenJ, et al.
+Weight loss and reduction in gastroesophageal reflux. A prospective population-based cohort study: the HUNT study[J].
+Am J Gastroenterol,
+2013，
+108(
+3):
+376-
+382.
+DOI: 10.1038/ajg.2012.466.
+[67]
+HallanA, BommeM, HveemK, et al.
+Risk factors on the development of new-onset gastroesophageal reflux symptoms. A population-based prospective cohort study: the HUNT study[J].
+Am J Gastroenterol,
+2015，
+110(
+3):
+393-
+401.
+DOI: 10.1038/ajg.2015.18.
+[68]
+YuanLZ, YiP, WangGS, et al.
+Lifestyle intervention for gastroesophageal reflux disease: a national multicenter survey of lifestyle factor effects on gastroesophageal reflux disease in China[J/OL].
+Therap Adv Gastroenterol,
+2019，
+12:
+1756284819877788[
+2019-09-25].
+https://doi.org/10.1177/1756284819877788.
+[69]
+KaltenbachT, CrockettS, GersonLB.
+Are lifestyle measures effective in patients with gastroesophageal reflux disease? An evidence-based approach[J].
+Arch Intern Med,
+2006，
+166(
+9):
+965-
+971.
+DOI: 10.1001/archinte.166.9.965.
+[70]
+Ness-JensenE, LindamA, LagergrenJ, et al.
+Tobacco smoking cessation and improved gastroesophageal reflux: a prospective population-based cohort study: the HUNT study[J].
+Am J Gastroenterol,
+2014，
+109(
+2):
+171-
+177.
+DOI: 10.1038/ajg.2013.414.
+[71]
+WaringJP, EastwoodTF, AustinJM, et al.
+The immediate effects of cessation of cigarette smoking on gastroesophageal reflux[J].
+Am J Gastroenterol,
+1989，
+84(
+9):
+1076-
+1078.
+[72]
+Ness-JensenE, HveemK, El-SeragH, et al.
+Lifestyle intervention in gastroesophageal reflux disease[J].
+Clin Gastroenterol Hepatol,
+2016，
+14(
+2):
+175-182.e823.
+DOI: 10.1016/j.cgh.2015.04.176.
+[73]
+CremoniniF, ZiogasDC, ChangHY, et al.
+Meta-analysis: the effects of placebo treatment on gastro-oesophageal reflux disease[J].
+Aliment Pharmacol Ther,
+2010，
+32(
+1):
+29-
+42.
+DOI: 10.1111/j.1365-2036.2010.04315.x.
+[74]
+SigtermanKE, van PinxterenB, BonisPA, et al.
+Short-term treatment with proton pump inhibitors, H2-receptor antagonists and prokinetics for gastro-oesophageal reflux disease-like symptoms and endoscopy negative reflux disease[J/OL]．
+Cochrane Database Syst Rev,
+2013(
+5):
+CD002095[
+2013-05-31].
+https://doi.org/10.1002/14651858.CD002095.pub5.
+[75]
+LeeKJ, SonBK, KimGH, et al.
+Randomised phase 3 trial: tegoprazan, a novel potassium-competitive acid blocker, vs. esomeprazole in patients with erosive oesophagitis[J].
+Aliment Pharmacol Ther,
+2019，
+49(
+7):
+864-
+872.
+DOI: 10.1111/apt.15185.
+[76]
+KirchheinerJ, GlattS, FuhrU, et al.
+Relative potency of proton-pump inhibitors—comparison of effects on intragastric pH[J].
+Eur J Clin Pharmacol,
+2009，
+65(
+1):
+19-
+31.
+DOI: 10.1007/s00228-008-0576-5.
+[77]
+ShibliF, KitayamaY, FassR.
+Novel therapies for gastroesophageal reflux disease: beyond proton pump inhibitors[J/OL].
+Curr Gastroenterol Rep,
+2020，
+22(
+4):
+16[
+2020-03-17].
+https://doi.org/10.1007/s11894-020-0753-y.
+[78]
+GrahamDY, TanselA.
+Interchangeable use of proton pump inhibitors based on relative potency[J].
+Clin Gastroenterol Hepatol,
+2018,
+16(
+6):
+800-808.e7.
+DOI: 10.1016/j.cgh.2017.09.033.
+[79]
+KinoshitaY, HongoM.
+Efficacy of twice-daily rabeprazole for reflux esophagitis patients refractory to standard once-daily administration of PPI: the Japan-based TWICE study[J].
+Am J Gastroenterol,
+2012，
+107(
+4):
+522-
+530.
+DOI: 10.1038/ajg.2012.19.
+[80]
+GralnekIM, DulaiGS, FennertyMB, et al.
+Esomeprazole versus other proton pump inhibitors in erosive esophagitis: a meta-analysis of randomized clinical trials[J].
+Clin Gastroenterol Hepatol,
+2006,
+4(
+12):
+1452-
+1458.
+DOI: 10.1016/j.cgh.2006.09.013.
+[81]
+HsuPI, LuCL, WuDC, et al.
+Eight weeks of esomeprazole therapy reduces symptom relapse, compared with 4 weeks, in patients with Los Angeles grade A or B erosive esophagitis[J].
+Clin Gastroenterol Hepatol,
+2015，
+13(
+5):
+859-866.e1.
+DOI: 10.1016/j.cgh.2014.09.033.
+[82]
+AshidaK, SakuraiY, NishimuraA, et al.
+Randomised clinical trial: a dose-ranging study of vonoprazan, a novel potassium-competitive acid blocker, vs. lansoprazole for the treatment of erosive oesophagitis[J].
+Aliment Pharmacol Ther,
+2015，
+42(
+6):
+685-
+695.
+DOI: 10.1111/apt.13331.
+[83]
+FujimotoK, HongoM.
+Risk factors for relapse of erosive GERD during long-term maintenance treatment with proton pump inhibitor: a prospective multicenter study in Japan[J].
+J Gastroenterol,
+2010，
+45(
+12):
+1193-
+1200.
+DOI: 10.1007/s00535-010-0276-7.
+[84]
+YokoyaY, IgarashiA, UdaA, et al.
+Cost-utility analysis of a 'vonoprazan-first’strategy versus 'esomeprazole- or rabeprazole-first’ strategy in GERD[J].
+J Gastroenterol,
+2019,
+54(
+12):
+1083-
+1095.
+DOI: 10.1007/s00535-019-01609-2.
+[85]
+BayerdörfferE, BigardMA, WeissW, et al.
+Randomized, multicenter study: on-demand versus continuous maintenance treatment with esomeprazole in patients with non-erosive gastroesophageal reflux disease[J/OL].
+BMC Gastroenterol,
+2016，
+16:
+48[
+2016-04-14].
+https://doi.org/10.1186/s12876-016-0448-x.
+[86]
+KhanZ, AlastalY, KhanMA, et al.
+On-demand therapy with proton pump inhibitors for maintenance treatment of nonerosive reflux disease or mild erosive esophagitis: a systematic review and meta-analysis[J/OL].
+Gastroenterol Res Pract,
+2018，
+2018:
+6417526[
+2018-08-12].
+https://doi.org/10.1155/2018/6417526.
+[87]
+HoshikawaY, KawamiN, HoshinoS, et al.
+Efficacy of on-demand therapy using 20-mg vonoprazan for non-erosive reflux disease[J].
+Esophagus,
+2019，
+16(
+2):
+201-
+206.
+DOI: 10.1007/s10388-018-00654-9.
+[88]
+UmezawaM, KawamiN, HoshinoS, et al.
+Efficacy of on-demand therapy using 20-mg vonoprazan for mild reflux esophagitis[J].
+Digestion,
+2018，
+97(
+4):
+309-
+315.
+DOI: 10.1159/000485795.
+[89]
+CarlssonR, GalmicheJP, DentJ, et al.
+Prognostic factors influencing relapse of oesophagitis during maintenance therapy with antisecretory drugs: a meta-analysis of long-term omeprazole trials[J].
+Aliment Pharmacol Ther,
+1997，
+11(
+3):
+473-
+482.
+DOI: 10.1046/j.1365-2036.1997.00167.x.
+[90]
+SjöstedtS, BefritsR, SylvanA，et al.
+Daily treatment with esomeprazole is superior to that taken on-demand for maintenance of healed erosive oesophagitis[J].
+Aliment Pharmacol Ther,
+2005，
+22(
+3):
+183-
+191.
+DOI: 10.1111/j.1365-2036.2005.02553.x.
+[91]
+GohKL, BenamouzigR, SanderP, et al.
+Efficacy of pantoprazole 20 mg daily compared with esomeprazole 20 mg daily in the maintenance of healed gastroesophageal reflux disease: a randomized, double-blind comparative trial—the EMANCIPATE study[J].
+Eur J Gastroenterol Hepatol,
+2007，
+19(
+3):
+205-
+211.
+DOI: 10.1097/MEG.0b013e32801055d5.
+[92]
+McDonaldEG, MilliganJ, FrenetteC, et al.
+Continuous proton pump inhibitor therapy and the associated risk of recurrent clostridium difficile infection[J].
+JAMA Intern Med,
+2015，
+175(
+5):
+784-
+791.
+DOI: 10.1001/jamainternmed.2015.42.
+[93]
+TrifanA, StanciuC, GirleanuI, et al.
+Proton pump inhibitors therapy and risk of Clostridium difficile infection: systematic review and meta-analysis[J].
+World J Gastroenterol,
+2017，
+23(
+35):
+6500-
+6515.
+DOI: 10.3748/wjg.v23.i35.6500.
+[94]
+FarhatN, FortinY, HaddadN, et al.
+Systematic review and meta-analysis of adverse cardiovascular events associated with proton pump inhibitors used alone or in combination with antiplatelet agents[J].
+Crit Rev Toxicol,
+2019，
+49(
+3):
+215-
+261.
+DOI: 10.1080/10408444.2019.1583167.
+[95]
+TargownikLE, LeslieWD, DavisonKS, et al.
+The relationship between proton pump inhibitor use and longitudinal change in bone mineral density: a population-based study [corrected] from the Canadian Multicentre Osteoporosis Study (CaMos)[J].
+Am J Gastroenterol,
+2012，
+107(
+9):
+1361-
+1369.
+DOI: 10.1038/ajg.2012.200.
+[96]
+TargownikLE, GoertzenAL, LuoY, et al.
+Long-term proton pump inhibitor use is not associated with changes in bone strength and structure[J].
+Am J Gastroenterol,
+2017，
+112(
+1):
+95-
+101.
+DOI: 10.1038/ajg.2016.481.
+[97]
+ItoT, JensenRT.
+Association of long-term proton pump inhibitor therapy with bone fractures and effects on absorption of calcium, vitamin B12, iron, and magnesium[J].
+Curr Gastroenterol Rep,
+2010,
+12(
+6):
+448-
+457.
+DOI: 10.1007/s11894-010-0141-0.
+[98]
+AshidaK, SakuraiY, HoriT，et al.
+Randomised clinical trial: vonoprazan, a novel potassium-competitive acid blocker, vs. lansoprazole for the healing of erosive oesophagitis[J].
+Aliment Pharmacol Ther,
+2016，
+43(
+2):
+240-
+251.
+DOI: 10.1111/apt.13461.
+[99]
+HuntR, ArmstrongD, KatelarisP, et al.
+World Gastroenterology Organisation global guidelines: GERD global perspective on gastroesophageal reflux disease[J].
+J Clin Gastroenterol，
+2017,
+51(
+6):
+467-
+478.
+DOI: 10.1097/MCG.0000000000000854.
+[100]
+IwakiriK, KinoshitaY, HabuY, et al.
+Evidence-based clinical practice guidelines for gastroesophageal reflux disease 2015[J].
+J Gastroenterol,
+2016，
+51(
+8):
+751-
+767.
+DOI: 10.1007/s00535-016-1227-8.
+[101]
+FuchsKH, BabicB, BreithauptW, et al.
+EAES recommendations for the management of gastroesophageal reflux disease[J].
+Surg Endosc,
+2014,
+28(
+6):
+1753-
+1773.
+DOI: 10.1007/s00464-014-3431-z.
+[102]
+HoltmeierW, HoltmannG, CasparyWF, et al.
+On-demand treatment of acute heartburn with the antacid hydrotalcite compared with famotidine and placebo: randomized double-blind cross-over study[J].
+J Clin Gastroenterol,
+2007，
+41(
+6):
+564-
+570.
+DOI: 10.1097/MCG.0b013e31802e7efb.
+[103]
+KatzPO, GersonLB, VelaMF.
+Guidelines for the diagnosis and management of gastroesophageal reflux disease[J].
+Am J Gastroenterol,
+2013，
+108(
+3):
+308-
+329.
+DOI: 10.1038/ajg.2012.444.
+[104]
+XiLT, ZhuJZ, ZhangHX, et al.
+The treatment efficacy of adding prokinetics to PPIs for gastroesophageal reflux disease: a meta-analysis[J/OL].
+Esophagus,
+2020[
+2020-06-10].
+https://doi.org/10.1007/s10388-020-00753-6.
+[105]
+RouphaelC, PadivalR, SanakaMR, et al.
+Endoscopic treatments of GERD[J].
+Curr Treat Options Gastroenterol,
+2018，
+16(
+1):
+58-
+71.
+DOI: 10.1007/s11938-018-0170-6.
+[106]
+CorleyDA, KatzP, WoJM, et al.
+Improvement of gastroesophageal reflux symptoms after radiofrequency energy: a randomized, sham-controlled trial[J].
+Gastroenterology,
+2003，
+125(
+3):
+668-
+676.
+DOI: 10.1016/s0016-5085(03)01052-7.
+[107]
+TriadafilopoulosG, DiBaiseJK, NostrantTT, et al.
+The Stretta procedure for the treatment of GERD: 6 and 12 month follow-up of the U．S. open label trial[J].
+Gastrointest Endosc,
+2002，
+55(
+2):
+149-
+156.
+DOI: 10.1067/mge.2002.121227.
+[108]
+TriadafilopoulosG.
+Changes in GERD symptom scores correlate with improvement in esophageal acid exposure after the Stretta procedure[J].
+Surg Endosc,
+2004，
+18(
+7):
+1038-
+1044.
+DOI: 10.1007/s00464-003-8243-5.
+[109]
+MaLF, LiT, LiuGC, et al.
+Stretta radiofrequency treatment vs Toupet fundoplication for gastroesophageal reflux disease: a comparative study[J/OL].
+BMC Gastroenterol,
+2020，
+20(
+1):
+162[
+2020-05-27].
+https://doi.org/10.1186/s12876-020-01310-2.
+[110]
+FassR, CahnF, ScottiDJ, et al.
+Systematic review and meta-analysis of controlled and prospective cohort efficacy studies of endoscopic radiofrequency for treatment of gastroesophageal reflux disease[J].
+Surg Endosc,
+2017，
+31(
+12):
+4865-
+4882.
+DOI: 10.1007/s00464-017-5431-2.
+[111]
+NoarM, SquiresP, NoarE, et al.
+Long-term maintenance effect of radiofrequency energy delivery for refractory GERD: a decade later[J].
+Surg Endosc,
+2014，
+28(
+8):
+2323-
+2333.
+DOI: 10.1007/s00464-014-3461-6.
+[112]
+NoarM, SquiresP, KhanS.
+Radiofrequency energy delivery to the lower esophageal sphincter improves gastroesophageal reflux patient-reported outcomes in failed laparoscopic Nissen fundoplication cohort[J].
+Surg Endosc,
+2017，
+31(
+7):
+2854-
+2862.
+DOI: 10.1007/s00464-016-5296-9.
+[113]
+DugheraL, RotondanoG, De CentoM, et al.
+Durability of stretta radiofrequency treatment for GERD: results of an 8-year follow-up[J/OL].
+Gastroenterol Res Pract,
+2014，
+2014:
+531907[
+2014-05-18].
+https://doi.org/10.1155/2014/531907.
+[114]
+InoueH, ItoH, IkedaH, et al.
+Anti-reflux mucosectomy for gastroesophageal reflux disease in the absence of hiatus hernia: a pilot study[J].
+Ann Gastroenterol,
+2014，
+27(
+4):
+346-
+351.
+[115]
+YooIK, KoWJ, KimHS, et al.
+Anti-reflux mucosectomy using a cap-assisted endoscopic mucosal resection method for refractory gastroesophageal disease: a prospective feasibility study[J].
+Surg Endosc,
+2020，
+34(
+3):
+1124-
+1131.
+DOI: 10.1007/s00464-019-06859-y.
+[116]
+TestoniPA, TestoniS, MazzoleniG, et al.
+Transoral incisionless fundoplication with an ultrasonic surgical endostapler for the treatment of gastroesophageal reflux disease: 12-month outcomes[J].
+Endoscopy,
+2020，
+52(
+6):
+469-
+473.
+DOI: 10.1055/a-1124-3187.
+[117]
+HuangXQ, ChenSY, ZhaoHT, et al.
+Efficacy of transoral incisionless fundoplication (TIF) for the treatment of GERD: a systematic review with meta-analysis[J].
+Surg Endosc,
+2017，
+31(
+3):
+1032-
+1044.
+DOI: 10.1007/s00464-016-5111-7.
+[118]
+SeoHS, ChoiM, SonSY, et al.
+Evidence-based practice guideline for surgical treatment of gastroesophageal reflux disease 2018[J].
+J Gastric Cancer,
+2018，
+18(
+4):
+313-
+327.
+DOI: 10.5230/jgc.2018.18.e41.
+[119]
+AndreouA, WatsonDI, MavridisD, et al.
+Assessing the efficacy and safety of laparoscopic antireflux procedures for the management of gastroesophageal reflux disease: a systematic review with network meta-analysis[J].
+Surg Endosc,
+2020，
+34(
+2):
+510-
+520.
+DOI: 10.1007/s00464-019-07208-9.
+[120]
+RichterJE, KumarA, LipkaS, et al.
+Efficacy of laparoscopic Nissen fundoplication vs transoral incisionless fundoplication or proton pump inhibitors in patients with gastroesophageal reflux disease: a systematic review and network meta-analysis[J].
+Gastroenterology,
+2018，
+154(
+5):
+1298-1308.e7.
+DOI: 10.1053/j.gastro.2017.12.021.
+[121]
+AnvariM, AllenC.
+Five-year comprehensive outcomes evaluation in 181 patients after laparoscopic Nissen fundoplication[J].
+J Am Coll Surg,
+2003，
+196(
+1):
+51-
+59.
+DOI: 10.1016/s1072-7515(02)01604-6.
+[122]
+BellR, LiphamJ, LouieBE, et al.
+Magnetic sphincter augmentation superior to proton pump inhibitors for regurgitation in a 1-year randomized trial[J].
+Clin Gastroenterol Hepatol,
+2020，
+18(
+8):
+1736-1743.e2.
+DOI: 10.1016/j.cgh.2019.08.056.
+[123]
+GuidozziN, WigginsT, AhmedAR，et al.
+Laparoscopic magnetic sphincter augmentation versus fundoplication for gastroesophageal reflux disease: systematic review and pooled analysis[J/OL].
+Dis Esophagus,
+2019，
+32(
+9):
+doz031[
+2019-11-13].
+https://academic.oup.com/dote/article/32/9/doz031/5487251.DOI:10.1093/dote/doz031.
+[124]
+NaikRD, VaeziMF.
+Extra-esophageal gastroesophageal reflux disease and asthma: understanding this interplay[J].
+Expert Rev Gastroenterol Hepatol,
+2015，
+9(
+7):
+969-
+982.
+DOI: 10.1586/17474124.2015.1042861.
+[125]
+KiljanderTO, SalomaaER, HietanenEK, et al.
+Gastroesophageal reflux in asthmatics: a double-blind, placebo-controlled crossover study with omeprazole[J].
+Chest,
+1999，
+116(
+5):
+1257-
+1264.
+DOI: 10.1378/chest.116.5.1257.
+[126]
+WangAJ, LiangMJ, JiangAY, et al.
+Gastroesophageal and laryngopharyngeal reflux detected by 24-hour combined impedance and pH monitoring in healthy Chinese volunteers[J].
+J Dig Dis,
+2011,
+12(
+3):
+173-
+180.
+DOI: 10.1111/j.1751-2980.2011.00502.x.
+[127]
+XiaoYL, LiuFQ, LiJ, et al.
+Gastroesophageal and laryngopharyngeal reflux profiles in patients with obstructive sleep apnea/hypopnea syndrome as determined by combined multichannel intraluminal impedance-pH monitoring[J].
+Neurogastroenterol Motil,
+2012，
+24(
+6):
+e258-
+e265.
+DOI: 10.1111/j.1365-2982.2012.01920.x.
+[128]
+ChangAB, LassersonTJ, GaffneyJ, et al.
+Gastro-oesophageal reflux treatment for prolonged non-specific cough in children and adults[J/OL].
+Cochrane Database Syst Rev,
+2011(
+1):
+CD004823[
+2011-01-19].
+https://doi.org/10.1002/14651858.CD004823.pub4.
+[129]
+Abou-IsmailA, VaeziMF.
+Evaluation of patients with suspected laryngopharyngeal reflux: a practical approach[J].
+Curr Gastroenterol Rep,
+2011，
+13(
+3):
+213-
+218.
+DOI: 10.1007/s11894-011-0184-x.
+[130]
+LiXQ, LinSH, WangZF, et al.
+Gastroesophageal reflux disease and chronic cough: a possible mechanism elucidated by ambulatory pH-impedance-pressure monitoring[J/OL].
+Neurogastroenterol Motil,
+2019，
+31(
+12):
+e13707[
+2019-09-03].
+https://doi.org/10.1111/nmo.13707.
+[131]
+WangAJ, LiangMJ, JiangAY, et al.
+Predictors of acid suppression success in patients with chronic laryngitis[J].
+Neurogastroenterol Motil,
+2012，
+24(
+5):
+432-437, e210.
+DOI: 10.1111/j.1365-2982.2011.01873.x.
+[132]
+ShaheenNJ, CrockettSD, BrightSD, et al.
+Randomised clinical trial: high-dose acid suppression for chronic cough—a double-blind, placebo-controlled study[J].
+Aliment Pharmacol Ther,
+2011，
+33(
+2):
+225-
+234.
+DOI: 10.1111/j.1365-2036.2010.04511.x.
+[133]
+QadeerMA, PhillipsCO, LopezAR, et al.
+Proton pump inhibitor therapy for suspected GERD-related chronic laryngitis: a meta-analysis of randomized controlled trials[J].
+Am J Gastroenterol,
+2006，
+101(
+11):
+2646-
+2654.
+DOI: 10.1111/j.1572-0241.2006.00844.x.
+[134]
+VaeziMF, KatzkaD, ZerbibF.
+Extraesophageal symptoms and diseases attributed to GERD: where is the pendulum swinging now? [J].
+Clin Gastroenterol Hepatol,
+2018，
+16(
+7):
+1018-
+1029.
+DOI: 10.1016/j.cgh.2018.02.001.
+[135]
+HomC, VaeziMF.
+Extra-esophageal manifestations of gastroesophageal reflux disease: diagnosis and treatment[J].
+Drugs,
+2013，
+73(
+12):
+1281-
+1295.
+DOI: 10.1007/s40265-013-0101-8.
+[136]
+NaikRD, VaeziMF.
+Extra-esophageal manifestations of GERD: who responds to GERD therapy？[J/OL].
+Curr Gastroenterol Rep,
+2013,
+15(
+4):
+318[
+2013-02-23]．
+https://doi.org/10.1007/s11894-013-0318-4.
+[137]
+LabenzJ, MalfertheinerP.
+Treatment of uncomplicated reflux disease[J].
+World J Gastroenterol,
+2005，
+11(
+28):
+4291-
+4299.
+DOI: 10.3748/wjg.v11.i28.4291.
+[138]
+KahrilasPJ, FalkGW, JohnsonDA, et al.
+Esomeprazole improves healing and symptom resolution as compared with omeprazole in reflux oesophagitis patients: a randomized controlled trial. The Esomeprazole Study Investigators[J].
+Aliment Pharmacol Ther,
+2000，
+14(
+10):
+1249-
+1258.
+DOI: 10.1046/j.1365-2036.2000.00856.x.
+[139]
+RichterJE, KahrilasPJ, JohansonJ, et al.
+Efficacy and safety of esomeprazole compared with omeprazole in GERD patients with erosive esophagitis: a randomized controlled trial[J].
+Am J Gastroenterol,
+2001，
+96(
+3):
+656-
+665.
+DOI: 10.1111/j.1572-0241.2001.3600_b.x.
+[140]
+CastellDO, KahrilasPJ, RichterJE, et al.
+Esomeprazole (40 mg) compared with lansoprazole (30 mg) in the treatment of erosive esophagitis[J].
+Am J Gastroenterol,
+2002，
+97(
+3):
+575-
+583.
+DOI: 10.1111/j.1572-0241.2002.05532.x.
+[141]
+LabenzJ, ArmstrongD, LauritsenK, et al.
+A randomized comparative study of esomeprazole 40 mg versus pantoprazole 40 mg for healing erosive oesophagitis: the EXPO study[J].
+Aliment Pharmacol Ther,
+2005,
+21(
+6):
+739-
+746.
+DOI: 10.1111/j.1365-2036.2005.02368.x.
+[142]
+ModianoN, GersonLB.
+Risk factors for the detection of Barrett′s esophagus in patients with erosive esophagitis[J].
+Gastrointest Endosc,
+2009，
+69(
+6):
+1014-
+1020.
+DOI: 10.1016/j.gie.2008.07.024.
+[143]
+HannaS, RastogiA, WestonAP, et al.
+Detection of Barrett′s esophagus after endoscopic healing of erosive esophagitis[J].
+Am J Gastroenterol,
+2006，
+101(
+7):
+1416-
+1420.
+DOI: 10.1111/j.1572-0241.2006.00631.x.
+[144]
+MalfertheinerP, LindT, WillichS, et al.
+Prognostic influence of Barrett′s oesophagus and Helicobacter pylori infection on healing of erosive gastro-oesophageal reflux disease (GORD) and symptom resolution in non-erosive GORD: report from the ProGORD study[J].
+Gut,
+2005，
+54(
+6):
+746-
+751.
+DOI: 10.1136/gut.2004.042143.
+[145]
+Standards of Practice Committee, LichtensteinDR, CashBD, et al.
+Role of endoscopy in the management of GERD[J].
+Gastrointest Endosc,
+2007，
+66(
+2):
+219-
+224.
+DOI: 10.1016/j.gie.2007.05.027.
+[146]
+国家消化系统疾病临床医学研究中心，中华医学会消化内镜学分会，中国医师协会消化医师分会.
+中国巴雷特食管及其早期腺癌筛查与诊治共识(2017年，万宁)[J].
+中华消化内镜杂志，
+2017，
+34(
+9):
+609-
+620.
+DOI: 10.3760/cma.j.issn.1007-5232.2017.09.001.
+[147]
+ClermontM, FalkGW.
+Clinical guidelines update on the diagnosis and management of Barrett′s esophagus[J].
+Dig Dis Sci,
+2018，
+63(
+8):
+2122-
+2128.
+DOI: 10.1007/s10620-018-5070-z.
+[148]
+SharmaP, FalkGW, WestonAP, et al.
+Dysplasia and cancer in a large multicenter cohort of patients with Barrett′s esophagus[J].
+Clin Gastroenterol Hepatol,
+2006，
+4(
+5):
+566-
+572.
+DOI: 10.1016/j.cgh.2006.03.001.
+[149]
+DesaiTK, KrishnanK, SamalaN, et al.
+The incidence of oesophageal adenocarcinoma in non-dysplastic Barrett′s oesophagus: a meta-analysis[J].
+Gut,
+2012，
+61(
+7):
+970-
+976.
+DOI: 10.1136/gutjnl-2011-300730.
+[150]
+SinghS, ManickamP, AminAV, et al.
+Incidence of esophageal adenocarcinoma in Barrett′s esophagus with low-grade dysplasia: a systematic review and meta-analysis[J].
+Gastrointest Endosc,
+2014,
+79(
+6):
+897-909.e4.
+DOI: 10.1016/j.gie.2014.01.009.
+[151]
+RastogiA, PuliS, El-SeragHB, et al.
+Incidence of esophageal adenocarcinoma in patients with Barrett′s esophagus and high-grade dysplasia: a meta-analysis[J].
+Gastrointest Endosc,
+2008，
+67(
+3):
+394-
+398.
+DOI: 10.1016/j.gie.2007.07.019.
+[152]
+ShaheenNJ, FalkGW, IyerPG, et al.
+ACG clinical guideline: diagnosis and management of Barrett′s esophagus[J].
+Am J Gastroenterol,
+2016，
+111(
+1):
+30-
+50.
+DOI: 10.1038/ajg.2015.322.
+[153]
+WeustenB, BisschopsR, CoronE, et al.
+Endoscopic management of Barrett′s esophagus: European Society of Gastrointestinal Endoscopy (ESGE) position statement[J].
+Endoscopy,
+2017，
+49(
+2):
+191-
+198.
+DOI: 10.1055/s-0042-122140.
+[154]
+BansalA, KahrilasPJ.
+Treatment of GERD complications (Barrett′s, peptic stricture) and extra-oesophageal syndromes[J].
+Best Pract Res Clin Gastroenterol,
+2010，
+24(
+6):
+961-
+968.
+DOI: 10.1016/j.bpg.2010.09.007.
+[155]
+SgourosSN, VlachogiannakosJ, KaramanolisG, et al.
+Long-term acid suppressive therapy may prevent the relapse of lower esophageal (Schatzki′s) rings: a prospective, randomized, placebo-controlled study[J].
+Am J Gastroenterol,
+2005，
+100(
+9):
+1929-
+1934.
+DOI: 10.1111/j.1572-0241.2005.41184.x.
+[156]
+HershcoviciT, FassR.
+Step-by-step management of refractory gastresophageal reflux disease[J].
+Dis Esophagus,
+2013，
+26(
+1):
+27-
+36.
+DOI: 10.1111/j.1442-2050.2011.01322.x.
+[157]
+SifrimD, ZerbibF.
+Diagnosis and management of patients with reflux symptoms refractory to proton pump inhibitors[J].
+Gut,
+2012,
+61(
+9):
+1340-
+1354.
+DOI: 10.1136/gutjnl-2011-301897.
+[158]
+YadlapatiR, DeLayK.
+Proton pump inhibitor-refractory gastroesophageal reflux disease[J].
+Med Clin North Am,
+2019，
+103(
+1):
+15-
+27.
+DOI: 10.1016/j.mcna.2018.08.002.
+[159]
+HoshinoS, KawamiN, TakenouchiN, et al.
+Efficacy of vonoprazan for proton pump inhibitor-resistant reflux esophagitis[J].
+Digestion,
+2017，
+95(
+2):
+156-
+161.
+DOI: 10.1159/000456072.
+[160]
+GotohY, IshibashiE, HondaS, et al.
+Efficacy of vonoprazan for initial and maintenance therapy in reflux esophagitis, nonerosive esophagitis, and proton pump inhibitor-resistant gastroesophageal reflux disease[J/OL].
+Medicine (Baltimore),
+2020，
+99(
+11):
+e19520[
+2020-03-13].
+https://journals.lww.com/md-journal/Fulltext/2020/03130/Efficacy_of_vonoprazan_for_initial_and_maintenance.79.aspx.
+DOI: 10.1097/MD.0000000000019520.
+[161]
+SpechlerSJ.
+Refractory gastroesophageal reflux disease and functional heartburn[J].
+Gastrointest Endosc Clin N Am,
+2020,
+30(
+2):
+343-
+359.
+DOI: 10.1016/j.giec.2019.12.003.
+[162]
+TutuianR, VelaMF, HillEG, et al.
+Characteristics of symptomatic reflux episodes on acid suppressive therapy[J].
+Am J Gastroenterol,
+2008，
+103(
+5):
+1090-
+1096.
+DOI: 10.1111/j.1572-0241.2008.01791.x.
+[163]
+ZerbibF, DuriezA, RomanS，et al.
+Determinants of gastro-oesophageal reflux perception in patients with persistent symptoms despite proton pump inhibitors[J].
+Gut,
+2008，
+57(
+2):
+156-
+160.
+DOI: 10.1136/gut.2007.133470.
+[164]
+PauwelsA, BoecxstaensV, AndrewsCN，et al.
+How to select patients for antireflux surgery? The ICARUS guidelines (international consensus regarding preoperative examinations and clinical characteristics assessment to select adult patients for antireflux surgery)[J].
+Gut,
+2019,
+68(
+11):
+1928-
+1941.
+DOI: 10.1136/gutjnl-2019-318260.
+[165]
+SpechlerSJ, HunterJG, JonesKM，et al.
+Randomized trial of medical versus surgical treatment for refractory heartburn[J].
+N Engl J Med,
+2019，
+381(
+16):
+1513-
+1523.
+DOI: 10.1056/NEJMoa1811424.
+[166]
+PengS, XiaoYL, CuiY, et al.
+High-dose esomeprazole is required for intraesophageal acid control in gastroesophageal reflux disease patients with hiatus hernia[J].
+J Gastroenterol Hepatol,
+2012，
+27(
+5):
+893-
+898.
+DOI: 10.1111/j.1440-1746.2011.06969.x.
+[167]
+KahrilasPJ, ShaheenNJ, VaeziMF, et al.
+American Gastroenterological Association medical position statement on the management of gastroesophageal reflux disease[J].
+Gastroenterology,
+2008，
+135(
+4):
+1383-1391，e1-e5.
+DOI: 10.1053/j.gastro.2008.08.045.

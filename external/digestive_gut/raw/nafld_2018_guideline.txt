@@ -1,0 +1,883 @@
+来源：中华医学会肝病学分会脂肪肝和酒精性肝病学组、中国医师协会脂肪性肝病专家委员会《非酒精性脂肪性肝病防治指南（2018年更新版）（实用肝脏病杂志, 2018,21(2):177-186, DOI 10.3969/j.issn.1672-5069.2018.02.007）》
+发布/制定年份：2018
+URL：http://manu43.magtech.com.cn/Jwk_sygzb/attached/file/20190902/20190902102331_275.pdf
+抓取方式：curl 下载《实用肝脏病杂志》官网论文 PDF 全文，pypdf 文字层提取
+说明：正文取自该 PDF 的文字层，逐字保留；仅折叠了期刊排版在汉字/全角字符之间插入的空格（版式产物，非内容改写），并删除了页眉页脚行。
+备注：该 PDF 文字层存在字体映射产物：部分西文/数字使用全角字形，且拉丁词之间缺空格；汉字与数字内容逐字保留。
+
+实用肝脏病杂志圆园18 年 3 月第 21 卷第 2 期 JPracHepatol ，Mar.2018.Vol.21No.2 ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ··
+通讯作者：范建高，200092 上海交通大学医学院附属新华医院
+消化内科，E-mail:fattyliver2004@126.com
+共同通讯作者：魏来，100044 北京大学人民医院，北京大学肝
+病研究所，E-mail:weilai@pkuph.edu.cn
+共同通讯作者：庄辉，100191 北京大学医学部，E-mail:zhuan
+gbmu@126.com
+非酒精性脂肪性肝病防治指南（2018 年更新版）
+中华医学会肝病学分会脂肪肝和酒精性肝病学组中国医师协会脂肪性肝病专家委员会
+【关键词】脂肪肝；诊断；治疗；代谢综合征；指南
+DOI：10.3969/j.issn.1672-5069.2018.02.007
+Guidelinesofpreventionandtreatmentfornonalcoholicfattyliverdisease:a2018update NationalWorkshoponFatty
+LiverandAlcoholicLiverDisease ，ChineseSocietyofHepatology ，ChineseMedicalAssociation;FattyLiverExpertCommittee ，
+ChineseMedicalDoctorAssociation
+【Keywords 】 Fattyliver ；Diagnosis；Therapy；Metabolicsyndrome ；Guidebooks
+Correspondingauthor: FanJiangao ，Email:fattyliver2004@126.com，DepartmentofGastroenterology ，XinhuaHospital ，Shanghai
+JiaotongUniversitySchoolofMedicine ，Shanghai200092 ，China
+Co-correspondingauthor: WeiLai ，Email:weilai@pkuph.edu.cn，HepatologyInsititute ，People’sHospital ，PekingUniversity ，
+Beijing100044 ，China
+Co-correspondingauthor: ZhuangHui ，Email:zhuangbmu@126.com，PekingUniversitySchoolofMedicine ，Beijing100191 ，
+China
+·防治指南·
+非酒精性脂肪性肝病（ non-alcoholicfattyliverdisease ，
+NAFLD）是一种与胰岛素抵抗（insulinresistance ，IR）和遗传
+易感密切相关的代谢应激性肝损伤，疾病谱包括非酒精性肝
+脂肪变（non-alcoholichepaticsteatosis ）、非酒精性脂肪性肝炎
+（non-alcoholicsteatohepatitis ，NASH）、肝硬化和肝细胞癌
+（hepatocellularcarcinoma ，HCC）[1-2]。NAFLD 不仅可以导致肝
+病残疾和死亡，还与代谢综合征（metabolicsyndrome ，MetS）、2
+型糖尿病（type2diabetesmellitus ，T2DM）、动脉硬化性心血管
+疾病以及结直肠肿瘤等的高发密切相关。随着肥胖和 MetS
+的流行，NAFLD 已成为我国第一大慢性肝病和健康体检肝
+脏生物化学指标异常的首要原因。并且，越来越多的乙型肝
+炎病毒（hepatitisBvirus ，HBV）慢性感染者合并 NAFLD[3-5]，严
+重危害人民生命健康。
+为了规范 NAFLD 的诊断、治疗、筛查和随访，中华医学
+会肝病学分会脂肪肝和酒精性肝病学组于 2006 年组织国内
+有关专家制订了《非酒精性脂肪性肝病诊疗指南》（第 1 版），
+并于 2010 年第 1 次修订[6]。近8 年来，国内外有关 NAFLD 诊
+疗和管理的临床研究取得了很大进展，为此，中华医学会肝
+病学分会脂肪肝和酒精性肝病学组联合中国医师协会脂肪
+性肝病专家委员会对本指南再次修订。
+本指南旨在帮助临床医生在 NAFLD 诊断、治疗、筛查和
+随访中做出合理决策，但不是强制性标准，也不可能涵盖或
+解决 NAFLD 诊疗及管理的所有问题。临床医师在面对某一
+患者时，应在充分了解有关本病的最佳临床证据，认真考虑
+患者具体病情及其意愿的基础上，根据自己的专业知识、临
+床经验和可利用的医疗资源，制定合理的诊疗方案。鉴于
+NAFLD 研究进展迅速，本指南将根据学科进展和临床需要
+不断更新和完善。
+本指南根据推荐意见分级的评估、制定和评价
+（GRADE）系统，将循证医学证据等级分为 A、B 和 C3 个级
+别，推荐等级分为 1 和 2 两个级别，见表 1。
+一、术语
+本指南用到的术语及其定义见表 2、表 3。
+二、流行病学和筛查
+NAFLD 是全球最常见的慢性肝病，普通成人 NAFLD 患
+病率介于 6.3%~45% [ 中位数 25.2% ，95% 可信区间（CI）：
+22.1%~28.7%]，其中 10%~30%为 NASH[11]。中东地区和南美
+洲 NAFLD 患病率最高，非洲最低，包括中国在内的亚洲多数
+国家 NAFLD 患病率处于中上水平（>25%）[11]。来自上海、北京
+等地区的流行病学调查结果显示，普通成人 B 型超声诊断的
+NAFLD 患病率 10 年期间从 15%增加到 31%以上，50~55 岁
+以前男性患病率高于女性，其后女性的患病率增长迅速甚至
+高于男性[12]。1996-2002 年期间上海某企业职工健康查体血
+清丙氨酸氨基转移酶（ALT）增高者 NAFLD 检出率从 26%增
+至 50%以上，NAFLD 目前已成为健康体检血清 ALT 和 γ-
+谷氨酰转移酶（GGT）增高的主要原因[12]。中国香港成年人在
+实用肝脏病杂志圆园18 年 3 月第 21 卷第 2 期 JPracHepatol ，Mar.2018.Vol.21No.2·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ··
+表 1 推荐意见的证据等级和推荐等级
+级别详细说明
+证据等级
+A 高质量进一步研究不大可能改变对该疗效评估结果的信心
+B 中等质量进一步研究有可能使我们对该疗效评估结果的信心产生重要影响
+C 低质量进一步研究很有可能影响该疗效评估结果，且该评估结果很可能改变
+推荐等级充分考虑到了证据的质量、患者可能的预后情况及治疗成本而最终得出的推荐意见
+1 强推荐充分考虑到了证据的质量、患者可能的预后情况及治疗成本而最终得出的推荐意见
+2 弱推荐证据价值参差不齐，推荐意见存在不确定性，或推荐的治疗意见可能会有较高的成本疗效比等，更倾向
+于较低等级的推荐
+表 2 非酒精性脂肪性肝病的相关定义 [7-10]
+术语工作定义
+非酒精性脂肪性肝病（NAFLD）肝脏病理学和影像学改变与酒精性肝病相似，但无过量饮酒等导致肝脂肪变的其他原因，
+患者通常存在营养过剩、肥胖和代谢综合征相关表现
+非酒精性（non-alcoholic）
+饮酒或无过量饮酒史[过去 12 个月每周饮用乙醇（酒精）男性 <210g，女性 <140g]，未应用
+乙胺碘呋酮、甲氨蝶呤、他莫昔芬、糖皮质激素等药物，并排除基因 3 型丙型肝炎病毒感
+染、肝豆状核变性、自身免疫性肝炎、全胃肠外营养、乏 β 脂蛋白血症、先天性脂质萎缩
+症、乳糜泻等可以导致脂肪肝的特定疾病
+非酒精性肝脂肪变又称单纯性脂肪肝，是NAFLD 的早期表现，大泡性或大泡为主的脂肪变累及 5%以上肝细
+胞，可以伴有轻度非特异性炎症
+非酒精性脂肪性肝炎（NASH）
+NAFLD 的严重类型，5%以上的肝细胞脂肪变合并小叶内炎症和肝细胞气球样变性。不合
+并肝纤维化或仅有轻度纤维化（F0~1）为早期 NASH；合并显著肝纤维化或间隔纤维化
+（F2~3）为纤维化性 NASH；合并肝硬化（F4）为 NASH 肝硬化
+NAFLD 相关肝硬化有肥胖症、代谢综合征、2 型糖尿病和（或）NAFLD 病史的隐源性肝硬化
+表 3 代谢综合征的相关定义
+术语工作定义
+代谢综合征（MetS）是指心血管危险因素的聚集体，表现为存在 3 项及以上代谢性危险因素（腹型肥
+胖，高血压，高甘油三酯血症，低高密度脂蛋白胆固醇血症、高血糖）
+高甘油三酯（TG）血症空腹血清 TG ≥1.7mmol/L 或正在服用降血脂药物
+低高密度脂蛋白胆固醇（HDL-C）血症空腹血清 HDL-C<1.0mmol/L （男性），<1.3mmol/L（女性）
+高血糖空腹血糖 ≥ 5.6mmol/L ，或餐后 2h 血糖≥ 7.8mmol/L ，或有 2 型糖尿病史
+高血压动脉血压 ≥130/85mmHg （1mmHg=0.133kPa）或正在应用降血压药物
+腹型肥胖腰围 >90cm （男性），>85cm （女性）
+3~5 年内 NAFLD 累计发生率为 13.5% ，但是重度肝脂肪变
+和进展性肝纤维化相对少见[13]。浙江省宁波市非肥胖成人
+NAFLD 患病率和年发病率分别为 7.3% 和 1.8% [14]。在 152
+例肝活组织检查证实的 NAFLD 患者中 NASH 占 41.4% ，肝
+硬化占 2%；另一项 101 例肝活组织检查证实的 NAFLD 患
+者中，NASH 和肝硬化分别占 54%和 3%。合并 MetS、T2DM
+的 NAFLD 患者通常肝组织学损伤严重，NASH 和进展性肝
+纤维化检出率高。
+中国 NAFLD 患病率变化与肥胖症、T2DM 和 MetS 流行
+趋势相平行。目前我国成人总体肥胖、腹型肥胖、T2DM 患病
+率分别高达 7.5%、12.3%和 11.6%。一方面，肥胖症、高脂血
+症、T2DM 患者 NAFLD 患病率分别高达 60%~90% ，27%
+~92%和 28%~70%；另一方面，NAFLD 患者通常合并肥胖症
+（51.3%，95%CI ：41.4%~61.2%）、高脂血症（69.2%，95%CI：
+49.9%~83.5%）、高血压病（39.3%，95%CI：33.2%~45.9%）、
+T2DM（22.5%，95%CI：17.9%~27.9%）以及 MetS（42.5%，95%
+CI：30.1%~56.1%）[15]。
+与肥胖症密切相关的富含饱和脂肪酸和果糖的高热量
+实用肝脏病杂志圆园18 年 3 月第 21 卷第 2 期 JPracHepatol ，Mar.2018.Vol.21No.2 ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ··
+膳食结构，以及久坐少动的生活方式同样也是 NAFLD 的危
+险因素。腰围增粗与 IR 和 NAFLD 的关联高于皮下脂肪增多
+及人体质量指数（bodymassindex ，BMI）增加。即使应用 2000
+年世界卫生组织西太平洋地区标准诊断超重和肥胖症，BMI
+正常成人（瘦人）NAFLD 患病率亦高达 10% 以上。瘦人
+NAFLD 通常有近期体质量和腰围增加的病史，高达 33.3%的
+BMI 正常的 NAFLD 患者存在 MetS，NAFLD 比 BMI 所反映
+的总体肥胖和腰围所提示的腹型肥胖更能预测 MetS。肌肉
+衰减综合征（肌少症）与瘦人和肥胖症患者脂肪肝的发生都
+独立相关。我国汉族居民 NAFLD 的遗传易感基因与国外报
+道基本相似，PNPLA3I148M 和 TM6SF2E167K 变异与
+NAFLD 及其严重程度相关，这类患者 IR 的特征不明显[16]。此
+外，高尿酸血症、红细胞增多症、甲状腺功能减退、垂体功能
+减退、睡眠呼吸暂停综合征、多囊卵巢综合征也是 NAFLD 发
+生和发展的独立危险因素[17-20]。
+推荐意见 1：NAFLD 是健康体检肝脏生物化学指标异
+常的主要病因，血清 ALT 和 GGT 增高者应筛查 NAFLD。
+（A1）
+推荐意见 2：肥胖症、高甘油三酯（TG）血症、T2DM 和
+MetS 患者需要通过肝脏生物化学和 B 型超声筛查 NAFLD。
+（A1）
+推荐意见 3：鉴于不健康的生活方式在 NAFLD 的发病
+中起重要作用，疑似 NAFLD 患者需调查饮食及运动习惯。
+（A1）
+三、自然转归和随访
+NAFLD 患者起病隐匿且肝病进展缓慢，NASH 患者肝纤
+维化平均 7~10 年进展一个等级，间隔纤维化和肝硬化是
+NAFLD 患者肝病不良结局的独立预测因素。在包括 1495 例
+NAFLD 随访 17452 人 / 年的系统综述和 Meta 分析中，全因
+死亡特别是肝病死亡风险随着肝纤维化的出现及程度加重
+而显著增加[21]。非酒精性肝脂肪变患者随访 10~20 年肝硬化
+发生率仅为 0.6%~3%，而 NASH 患者 10~15 年内肝硬化发
+生率高达 15%~25%。合并 MetS 和（或）血清 ALT 持续增高的
+NAFLD 患者肝组织学分型更有可能是 NASH，大约 40.8%
+(95%CI ：34.7%~47.1%) 的 NASH 患者发生肝纤维化进展，平
+均每年进展 0.09（95%CI ：0.06~0.12）等级，NAFLD 相关肝硬
+化和 HCC 通常发生于老年患者。年龄 >50 岁、BMI>30kg/m 2、
+高血压病、T2DM、MetS 是 NASH 患者间隔纤维化和肝硬化的
+危险因素。与肥胖的 NAFLD 患者相比，BMI<25kg/m 2 的
+NAFLD 患者的肝脏炎症损伤和纤维化程度相对较轻[22-23]。来
+自中国香港的 307 例肝活组织检查证实的 NAFLD 患者在中
+位数 49 个月的随访中，6 例死亡，2 例并发 HCC，1 例肝功能
+衰竭，但这些不良结局都来自肥胖组[24]。合并高血压病的
+NASH 伴肝纤维化患者也是疾病进展的高危人群。NAFLD 相
+关肝硬化患者代偿期病程可以很长，一旦肝功能失代偿或出
+现 HCC 等并发症则病死率高。NAFLD 与 HCC 之间有因果关
+系，NAFLD 患者 HCC 发病率为 0.29‰~0.66‰，危险因素包
+括隐源性肝硬化、MetS 和 T2DM，PNPLA3rs738409C>G 患者
+更易发生 HCC[24]。NASH 肝硬化患者发生 HCC 的风险显著增
+加，应该定期筛查 HCC，然而高达 30%~50% 的 HCC 发生在
+非肝硬化的 NASH 患者。鉴于非肝硬化的 NASH 患者并发
+HCC 的总体风险低，暂不推荐对于尚无肝硬化的 NAFLD 和
+NASH 患者筛查 HCC。
+在普通人群中，无论是血清 ALT 和 GGT 增高还是 B 型
+超声诊断的 NAFLD 都显著增加 MetS 和 T2DM 发病率。
+NAFLD 患者随访 5~10 年 T2DM 风险增加 1.86 倍（95%CI ：
+1.76~1.95），MetS 发病风险增加 3.22 倍（95%CI ：3.05~3.41），
+心血管事件发病风险增加 1.64 倍（95%CI ：1.26~2.13）[25-26]。
+与对照人群相比，NAFLD 患者全因死亡率显著增高，主要死
+因是心血管疾病和肝外恶性肿瘤，NASH 患者肝病死亡排名
+第 3。即便有效控制 MetS 组分及其他传统心血管疾病危险因
+素，NAFLD 患者冠心病发病率仍然显著增加；肝移植术后冠
+心病风险仍持续存在并成为影响患者预后的重要因素[27]。与
+无脂肪肝的对照人群相比，女性 NAFLD 患者冠心病和脑卒
+中的发病率显著增高且起病年龄提前。尽管 NAFLD 与动脉
+硬化性心脑血管疾病的高发密切相关，但是并存的脂肪肝可
+能并不影响冠心病和脑梗死患者的预后[28-29]。NAFLD 和NASH
+患者年肝病病死率分别为 0.77‰（95%CI ：0.33‰~1.77‰）和
+11.77‰（95%CI ：7.10‰ ~19.53‰），全因死亡率分别为
+15.44‰（95%CI ：11.72‰~20.34‰）和 25.56 ‰（95%CI ：6.29‰
+~103.80‰）。此外，NAFLD 特别是 NASH 还与骨质疏松、慢性
+肾脏疾病、结直肠肿瘤、乳腺癌等慢性病的高发密切相关[30-32]。
+HOMA 稳态模型检测的 IR（homeostasismodelassessmentIR ，
+HOMA-IR）增高的“瘦人”NAFLD 和 NASH 同样面临代谢、心
+血管危险因素和肝病进展的风险。
+推荐意见 4：鉴于肥胖症、高血压病、T2DM 和 MetS 是
+NAFLD 患者疾病进展的危险因素，需加强这类患者代谢、心
+血管和肝病并发症的监测（B1），合并胰岛素抵抗和（或）腹型
+肥胖的瘦人 NAFLD 同样需要定期随访（B2）。
+推荐意见 5：鉴于 NAFLD 与 T2DM 互为因果，建议
+NAFLD 患者定期检测空腹血糖、糖化血红蛋白，甚至做口服
+糖耐量试验，以筛查糖尿病。（A1）
+推荐意见 6：鉴于 NAFLD 患者心脑血管疾病相关病死
+率显著增加，建议 NAFLD 患者定期评估心脑血管事件的发
+病风险。（A1）
+推荐意见 7：NASH 肝硬化患者应该根据相关指南进行
+胃食管静脉曲张和 HCC 的筛查（B1），目前尚无足够证据推
+荐对 NAFLD 患者筛查结直肠肿瘤（C1）。
+四、诊断与评估
+NAFLD 的诊断需要有弥漫性肝细胞脂肪变的影像学或
+组织学证据，并且要排除乙醇（酒精）滥用等可以导致肝脂肪
+变的其他病因。因无特异性症状和体征，大部分患者因偶然
+发现血清 ALT 和 GGT 增高或者影像学检查结果显示弥漫性
+脂肪肝而疑诊为 NAFLD。NAFLD 的评估包括定量肝脂肪变
+和纤维化程度，判断有无代谢和心血管危险因素及并发症、
+有无肝脏炎症损伤以及是否合并其他原因的肝病[33]。
+实用肝脏病杂志圆园18 年 3 月第 21 卷第 2 期 JPracHepatol ，Mar.2018.Vol.21No.2·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ··
+1.“非酒精性”的界定：“非酒精性”是指无过量饮酒史
+（男性饮酒折合乙醇量 <30g/d ，女性 <20g/d ）和其他可以导
+致脂肪肝的特定原因。为此，在将肝组织学或影像学弥漫性
+脂肪肝归结于 NAFLD 之前，需要除外酒精性肝病（alcoholic
+liverdisease ，ALD）、基因3 型丙型肝炎病毒（hepatitisCvirus ，
+HCV）感染、自身免疫性肝炎、肝豆状核变性等可导致脂肪肝
+的特定肝病，并除外药物（他莫昔芬、乙胺碘呋酮、丙戊酸钠、
+甲氨蝶呤、糖皮质激素等）、全胃肠外营养、炎症性肠病、乳糜
+泻、甲状腺功能减退症、库欣综合征、β 脂蛋白缺乏血症、
+脂质萎缩性糖尿病、Mauriac 综合征等导致脂肪肝的特殊情
+况[33]。在将血清氨基酸转移酶（ALT、AST）和（或）GGT 增高以
+及隐源性肝硬化归结于 NAFLD 之前，需除外可以导致肝脏
+生物化学异常和肝硬化的其他原因。然而，“非酒精性”肝病
+的真实内涵是指营养过剩、IR 及其相关代谢紊乱诱导的慢
+性肝损伤。事实上，脂肪肝可由“非酒精”因素（IR 和代谢紊
+乱）与乙醇（酒精）滥用、基因3 型 HCV 感染等 1 种或多种病
+因共同导致，慢性 HBV 感染亦常因 IR 和代谢紊乱并发
+NAFLD，而 NAFLD 患者可能比对照人群更易发生药物与中
+毒性肝损伤，各种原因的慢加急性肝功能衰竭可以发生在
+NASH 背景上。临床上，需要重视肥胖、T2DM、MetS 在其他原
+因肝病患者肝脏损伤和肝硬化及 HCC 发病中的促进作用，
+并加强合并 NAFLD 的其他肝病患者代谢和心血管危险因素
+及其并发症的防治。
+2. 肝脂肪变的诊断：病理学上的显著肝脂肪变和影像学
+诊断的脂肪肝是 NAFLD 的重要特征，肝脂肪变及其程度与
+肝脏炎症损伤和纤维化密切相关，并可预测 MetS 和 T2DM
+的发病风险。常规的上腹部影像学检查可以提供肝脏、胆囊、
+胰腺、脾脏、肾脏等疾病诊断的有用信息，作出弥漫性脂肪
+肝、局灶性脂肪肝、不均质性脂肪肝的影像学诊断。B 型超声
+是临床应用范围广泛的影像学诊断工具，根据肝脏前场回声
+增强（“明亮肝”）、远场回声衰减，以及肝内管道结构显示不
+清楚等特征诊断脂肪肝。然而，B 型超声对轻度脂肪肝诊断
+的敏感性低，特异性亦有待提高，因为弥漫性肝纤维化和早
+期肝硬化时也可观察到脂肪肝的典型特征[34]。受控衰减参数
+（CAP）是一项基于超声的肝脏瞬时弹性成像平台定量诊断
+脂肪肝的新技术，CAP 能够检出 5%以上的肝脂肪变，准确区
+分轻度肝脂肪变与中 - 重度肝脂肪变。然而，CAP 与 B 型超
+声相比容易高估肝脂肪变程度，当 BMI>30kg/m 2、皮肤至肝
+包膜距离 >25mm 以及 CAP 的四分位间距（IQR）≥40dB/m
+时，CAP 诊断脂肪肝的准确性下降[35-38]。CAP 区分不同程度肝
+脂肪变的诊断阈值及其动态变化的临床意义尚待明确。X 线
+计算机断层摄影术（CT）和磁共振成像（MRI）检查诊断脂肪
+肝的准确性不优于 B 型超声，主要用于弥漫性脂肪肝伴有正
+常肝岛以及局灶性脂肪肝与肝脏占位性病变的鉴别诊断[34]。
+磁共振波谱分析（MRS）能够检出 5%以上的肝脂肪变，准确
+性很高，缺点是花费高和难以普及。应用 BMI、腰围、血清 TG
+和 GGT 水平等指标组合的脂肪肝指数、肝脂肪变指数等，对
+脂肪肝的诊断性能存在年龄、种族群体等差异，主要作为影
+像学诊断脂肪肝的替代工具用于流行病学调查和某些特殊
+的临床情况。
+3.脂肪性肝炎的诊断：鉴于 NASH 是单纯性脂肪肝进展
+至肝硬化和 HCC 的中间阶段且难以自行康复，在 NAFLD 患
+者中识别 10%～30%的 NASH 更具临床意义，然而现有影像
+学技术和实验室检查等无创方法不能准确诊断 NASH。对于
+NAFLD 初诊患者，详细了解 BMI、腰围、代谢性危险因素、并
+存疾病和血清生物化学指标，可以综合判断是否为 NASH 高
+危人群。MetS、血清 ALT 和细胞角蛋白 -18（CK-18）（M30 和
+M65）水平持续增高，提示 NAFLD 患者可能存在 NASH，需要
+进一步的肝活组织检查结果证实[39]。血清 ALT 正常并不意味
+着无肝组织炎症损伤，ALT 增高亦未必是 NASH。尽管存在
+创伤和并发症，以及取样误差和病理观察者之间差异等缺
+点，肝活组织检查至今仍是诊断 NASH 的金标准。肝活组织
+检查可准确评估肝脂肪变、肝细胞损伤、炎症坏死和纤维化
+程度。肝脂肪变、气球样变和肝脏炎症合并存在是诊断
+NASH 的必备条件。欧洲脂肪肝协作组提出的 SAF 积分（肝
+脂肪变、炎症活动和纤维化各自计分之和）比美国 NASH 临
+床研究协作网推荐的 NAFLD 活动性积分（NAS）更能提高病
+理医生诊断 NASH 的一致性，并减少观察者之间的误差[40]。
+这些积分系统是通过半定量评估 NAFLD 的主要病理学改
+变，从而对 NAFLD 进行病理分型和分期，以及临床试验时的
+疗效评价。肝活组织检查的费用和风险应与估计预后和指导
+治疗的价值相权衡。
+4.肝纤维化的评估：鉴于肝纤维化是惟一准确预测肝脏
+不良结局的肝脏病理学改变，在 NAFLD 患者中诊断显著肝
+纤维化和肝硬化对预后判断的价值大于区分单纯性脂肪肝
+与 NASH。许多因素可以影响 NAFLD 患者肝纤维化的动态
+变化，应用临床参数和血清纤维化标志物不同组合的多种预
+测模型，可粗略判断有无显著肝纤维化（≥ F2）和进展期肝
+纤维化（F3，F4），其中 NAFLD 纤维化评分（NFS）的诊断效率
+可能最高。然而，现有的肝纤维化无创预测模型并不符合“诊
+断准确性报告标准”对诊断性检测的质量要求。近年来，影像
+学技术的进展显著提高了肝纤维化的无创评估能力[41]。基于
+FibroScan 的振动控制瞬时弹性成像（VCTE）检测的肝脏弹性
+值（LSM）对 NAFLD 患者肝纤维化的诊断效率优于 NFS、
+APRI、FIB-4 等预测模型，有助于区分无 / 轻度肝纤维化
+（F0，F1）与进展期肝纤维化（F3，F4），但是至今仍无公认的
+阈值用于确诊肝硬化[42]。肥胖症会影响 FibroScan 检测成功率，
+高达 25%的患者无法通过 M 探头成功获取准确的 LSM 值。
+此外，LSM 值判断各期纤维化的阈值需要与肝病病因相结
+合；重度肝脂肪变（CAP 值显著增高）、明显的肝脏炎症（血清
+氨基酸转移酶 >5×正常值上限）、肝脏淤血和胆汁淤积等都
+可高估 LSM 值判断肝纤维化的程度[43]。基于 MRI 的实时弹
+性成像（MRE）对 NAFLD 患者肝硬化诊断的阳性预测值与
+VCTE 相似，但 MRE 阴性预测值更高[44]。当无创方法检测结
+果高度疑似存在进展期肝纤维化时需要肝活组织检查验证，
+病理学检查需明确描述肝纤维化的部位、数量，以及有无肝
+实用肝脏病杂志圆园18 年 3 月第 21 卷第 2 期 JPracHepatol ，Mar.2018.Vol.21No.2 ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ··
+实质的重建和假小叶。高度可疑或确诊肝硬化包括 NASH 肝
+硬化、NAFLD 肝硬化以及隐源性肝硬化。
+5. 代谢和心血管危险因素评估：NAFLD 与 MetS 互为因
+果，代谢紊乱不但与 T2DM 和心血管疾病高发密切相关，而
+且参与 NAFLD 的发生和发展。疑似 NAFLD 患者需要全面评
+估人体学指标和血清糖脂代谢指标及其变化。鉴于心血管事
+件是影响 NAFLD 患者预后的主要因素，所有 NAFLD 患者都
+应进行心血管事件风险评估。建议采用改良的国际糖尿病联
+盟的标准诊断 MetS。对于 NAFLD 患者需要常规检测空腹血
+糖和糖化血红蛋白，甚至进一步作标准 75g 葡萄糖口服糖耐
+量试验（OGTT），筛查空腹血糖调节受损、糖耐量异常和糖尿
+病[45]。除了 PNPLA3I148M 多态性相关的 NAFLD 以外，IR 几
+乎是 NAFLD 和 NASH 的共性特征。HOMA-IR 是用于评价群
+体的 IR 水平的指标，计算方法如下: 空腹血糖水平（FPG，
+mmol/L）× 空腹血胰岛素水平（FINS，mIU/L）/22.5，正常成人
+HOMA-IR 指数大约为 1。无糖调节受损和糖尿病的 NAFLD
+患者可以通过 HOMA-IR 评估胰岛素的敏感性，“瘦人”脂肪
+肝如果存在 IR，即使无代谢性危险因素亦可诊断为 NAFLD，
+随访中 HOMA-IR 下降预示 NAFLD 患者代谢紊乱和肝脏损
+伤程度改善。人体成分测定有助于发现常见于“瘦人”的隐性
+肥胖[体脂含量和（或）体脂占体质量百分比增加]和肌少症。
+推荐意见 8：临床疑诊 NAFLD 和 NASH 时，需要排除过
+量饮酒、基因3 型 HCV 感染、肝豆状核变性、自身免疫性肝
+炎以及药物性肝损伤等可以导致肝脂肪变的其他病因（A1），
+并判断是否并存慢性乙型肝炎等肝脏疾病（B1）。
+推荐意见 9：慢性病毒性肝炎合并 NAFLD 以及 NAFLD
+合并药物性肝损伤，可能会导致更为严重的肝脏损伤,需要
+客观评估代谢性危险因素在这类患者肝脂肪变和肝损伤中
+的作用。（B1）
+推荐意见 10：通过病理学和（或）影像学检测结果发现的
+脂肪肝患者，除需检测肝脏生物化学指标外，还应筛查代谢
+综合征相关组分，并重视适量饮酒与代谢性危险因素在脂肪
+肝发病中的交互作用。（A1）
+推荐意见 11：HOMA-IR 是评估无糖尿病人群胰岛素
+抵抗的替代方法（A1），有助于体质量正常且无代谢危险因素
+的隐源性脂肪肝患者 NAFLD 的诊断（B2）。
+推荐意见 12：脂肪肝的影像学诊断首选 B 型超声检查
+（A1），B 型超声还可以提供额外的诊断信息。CAP 是脂肪肝
+定量评估的替代工具（B1）。
+推荐意见 13：NASH 的诊断需通过肝活组织检查证实，
+诊断依据为肝细胞脂肪变合并气球样变和小叶内炎症（A1）。
+建议根据 SAF 积分将 NAFLD 分为单纯性脂肪肝、早期
+NASH（F0，F1）、纤维化性 NASH（F2，F3）以及 NASH 肝硬化
+（F4）（C2）。
+推荐意见 14：合并 MetS、T2DM、血清氨基酸转移酶和
+（或）CK-18 持续增高的 NAFLD 患者是 NASH 的高危人
+群，建议通过肝活组织检查明确诊断。（A2）
+推荐意见 15：血清肝纤维化标志物和评分系统以及肝脏
+瞬时弹性检测可以用于排除 NAFLD 患者存在进展期肝纤
+维化（A2），并可用于随访监测肝纤维化的进展（C2）。这些无
+创诊断方法即使联合应用对间隔纤维化和早期肝硬化诊断
+的准确性也较低，建议用肝活组织检查证实（B2）。
+推荐意见 16：当无创性检测方法不能判断脂肪性肝炎或
+血清生物化学指标异常的病因时，建议用肝活组织检查协助
+诊断（B1）。在将隐源性肝硬化归因于 NAFLD 肝硬化时需认
+真排除其他原因（C2）。
+五、预防和治疗
+鉴于 NAFLD 是肥胖和 MetS 累及肝脏的表现，大多数患
+者肝组织学改变处于单纯性脂肪肝阶段，治疗 NAFLD 的首
+要目标为减肥和改善 IR，预防和治疗 MetS、T2DM 及其相关
+并发症，从而减轻疾病负担、改善患者生活质量并延长寿命；
+次要目标为减少肝脏脂肪沉积，避免因“附加打击 ”而导致
+NASH 和慢加急性肝功能衰竭；对于 NASH 和脂肪性肝纤维
+化患者还需阻止肝病进展，减少肝硬化、HCC 及其并发症的
+发生[33]。NAFLD 患者的疗效判断需综合评估人体学指标、血
+清生物化学指标以及 B 型超声等肝胆影像学变化，并监测药
+物不良反应，从而及时调整诊疗方案。在治疗和随访过程中，
+建议密切观察患者的生活方式、体质量、腰围和动脉血压变
+化，每隔 3~6 个月复查血清生物化学指标和糖化血红蛋白，
+6~12 个月复查上腹部 B 型超声。血清氨基酸转移酶恢复正
+常和肝脂肪变消退，即使提示 NASH 改善也不代表肝纤维化
+程度不加剧。通过肝脏瞬时弹性成像、MRS、MRE 动态观察肝
+脂肪变和纤维化程度在 NAFLD 疗效评估和新药研发中的作
+用有待明确。定期肝活组织检查至今仍是评估 NASH 和肝纤
+维化患者肝组织学变化的惟一标准，治疗 NASH 的目标是脂
+肪性肝炎和纤维化程度都能显著改善，至少要达到减轻肝纤
+维化而脂肪性肝炎不加剧，或者 NASH 缓解而纤维化程度不
+加重[46]。
+1.改变不良生活方式：减少体质量和腰围是预防和治疗
+NAFLD 及其合并症最为重要的治疗措施。对于超重、肥胖，
+以及近期体质量增加和“隐性肥胖”的 NAFLD 患者，建议通
+过健康饮食和加强锻炼的生活方式教育纠正不良行为[47]。适
+当控制膳食热量摄入，建议每日减少 2092~4184KJ
+（500~1000 千卡）热量；调整膳食结构，建议适量脂肪和碳水
+化合物的平衡膳食，限制含糖饮料、糕点和深加工精致食品，
+增加全谷类食物、ω-3 脂肪酸以及膳食纤维摄入；一日三餐
+定时适量，严格控制晚餐的热量和晚餐后进食行为[48-49]。避免
+久坐少动，建议根据患者兴趣并以能够坚持为原则选择体育
+锻炼方式，以增加骨骼肌质量和防治肌少症。例如：每天坚持
+中等量有氧运动 30min，每周 5 次，或者每天高强度有氧运动
+20min，每周 3 次，同时做 8~10 组阻抗训练，每周 2 次[50]。1 年
+内减重 3%~5%可以改善 MetS 组分和逆转单纯性脂肪肝，体
+质量下降 7%~10%能显著降低血清氨基酸转移酶水平并改
+善 NASH，但是体质量下降 10%以上并维持 1 年才能逆转肝
+纤维化[51]，遗憾的是肥胖症患者 1 年内能够减重10%以上者
+<10%。包括临床营养师、运动康复师在内的多学科联合策略
+实用肝脏病杂志圆园18 年 3 月第 21 卷第 2 期 JPracHepatol ，Mar.2018.Vol.21No.2·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ··
+对提高 NAFLD 患者参与生活方式干预项目的积极性并长期
+坚持至关重要，健康中国 2030 计划的有效实施有望控制我
+国肥胖、T2DM 和 NAFLD 的流行。
+2. 针对 MetS 的药物治疗：对于 3~6 个月生活方式干预
+未能有效减肥和控制代谢危险因素的 NAFLD 患者，建议根
+据相关指南和专家共识应用 1 种或多种药物治疗肥胖症、高
+血压病、T2DM、血脂紊乱、痛风等疾病，目前这些药物对患者
+并存的 NASH 特别是肝纤维化都无肯定的治疗效果。BMI≥
+30kg/m 2 的成人和 BMI≥27kg/m 2 伴有高血压病、T2DM、血
+脂紊乱等合并症的成人可以考虑应用奥利司他等药物减肥，
+但需警惕减肥药物引起的不良反应。此外，应谨慎长期使用
+可能会增加患者体质量的药物。血管紧张素Ⅱ受体拮抗剂可
+以安全用于 NAFLD 和 NASH 患者的高血压病的治疗。ω-3
+多不饱和脂肪酸虽可能安全用于 NAFLD 患者高 TG 血症的
+治疗，但是该药对血清 TG>5.6mmol/L 患者的降脂效果不肯
+定，此时常需处方贝特类药物降低血脂和预防急性胰腺炎，
+但需警惕后者的肝脏毒性[52]。除非患者有肝功能衰竭或肝硬
+化失代偿，他汀可安全用于 NAFLD 和 NASH 患者降低血清
+低密度脂蛋白胆固醇（LDL-C）水平以防治心血管事件，目前
+无证据显示他汀可以改善 NASH 和肝纤维化[53]。他汀使用过
+程中经常出现的无症状性、孤立性血清 ALT 增高，即使不减
+量或停药亦可恢复正常[53-54]。尽管二甲双胍对 NASH 并无治
+疗作用，但其可以改善 IR、降低血糖和辅助减肥，建议用于
+NAFLD 患者 T2DM 的预防和治疗。人胰高糖素样肽 -1
+（GLP-1）类似物利拉鲁肽不仅具备多重降糖机制，而且能够
+减肥和改善 IR，适合用于肥胖的 T2DM 患者的治疗[55]。吡格
+列酮虽然可以改善 NASH 患者血清生物化学指标和肝脏组
+织学病变，但该药在中国患者中长期应用的疗效和安全性尚
+待明确，建议仅用于合并 T2DM 的 NASH 患者的治疗[56]。
+3. 减肥手术：又称代谢手术，不仅最大程度地减肥和长
+期维持理想体质量，而且可以有效控制代谢紊乱，甚至逆转
+T2DM 和 MetS。国际糖尿病联盟建议，重度肥胖（BMI≥40
+kg/m2）的 T2DM 患者，以及中度肥胖（35kg/m 2≤BMI≤39.9
+kg/m2）但保守治疗不能有效控制血糖的 T2DM 患者都应考虑
+减肥手术[57]。轻度肥胖（BMI：30~34.9kg/m 2）患者如果保守治
+疗不能有效控制代谢和心血管危险因素也可以考虑减肥手
+术。亚裔群体的 BMI 阈值应下调 2.5kg/m 2。近10 年全球减肥
+手术的数量持续增长，不管哪种类型的减肥手术都较非手术
+治疗能最大程度地减肥，亚洲国家以袖状胃切除术最为常
+用。合并 NASH 或代偿期肝硬化不是肥胖症患者减肥手术的
+禁忌证。减肥手术不但可以缓解包括纤维化在内的 NASH 患
+者的肝组织学改变，而且可能降低心血管疾病病死率和全因
+死亡率，但其改善肝脏相关并发症的作用尚未得到证实[58]。
+目前尚无足够证据推荐减肥手术治疗 NASH，对于严重的或
+顽固性肥胖患者以及肝移植术后 NASH 复发的患者可以考
+虑减肥手术。亦可考虑给严重的病理性肥胖或减肥治疗失败
+的受体，以及合并肝纤维化的 NASH 供体进行减肥手术。
+4. 针对肝脏损伤的药物治疗：鉴于改变生活方式和应用
+针对 MetS 的药物甚至减肥手术难以使 NASH 特别是肝纤维
+化逆转，为此有必要应用保肝药物保护肝细胞、抗氧化、抗
+炎，甚至抗肝纤维化[59]。来自美国的临床试验结果显示，维生
+素 E（α- 生育酚，800IU/d）口服 2 年可以使无糖尿病的NASH
+成人血清氨基酸转移酶恢复正常并显著改善肝脂肪变和炎
+症损伤[60]。然而，我国药典并无大剂量维生素 E 治疗慢性肝
+炎的适应证,并且长期大剂量使用维生素 E 的安全性令人担
+忧。来自美国的临床试验结果显示，奥贝胆酸显著减轻
+NASH 患者肝纤维化程度，但是该药对脂代谢有不良影响，
+可导致皮肤瘙痒，并且其在 NASH 治疗中的作用并未被日本
+的临床试验所证实[61]。目前在我国广泛应用的水飞蓟素（宾）、
+双环醇、多烯磷脂酰胆碱、甘草酸二胺、还原型谷胱甘肽、S-
+腺苷甲硫氨酸、熊去氧胆酸等针对肝脏损伤的治疗药物安全
+性良好，部分药物在药物性肝损伤、胆汁淤积性肝病等患者
+中已取得相对确切的疗效[62-63]，但这些药物对 NASH 和肝纤
+维化的治疗效果仍需进一步的临床试验证实。在综合治疗的
+基础上，保肝药物作为辅助治疗推荐用于以下类型 NAFLD
+患者：① 肝活组织检查确诊的 NASH；② 临床特征、实验室
+及影像学检查提示存在 NASH 或进展性肝纤维化，例如：合
+并 MetS 和 T2DM，血清氨基酸转移酶和（或）CK-18 持续升
+高，肝脏瞬时弹性检查 LSM 值显著增高；③ 应用相关药物治
+疗 MetS 和 T2DM 过程中出现肝脏氨基酸转移酶升高；④ 合
+并药物性肝损伤、自身免疫性肝炎、慢性病毒性肝炎等其他
+肝病。建议根据肝脏损伤类型、程度以及药物效能和价格选
+择 1 种保肝药物，疗程需要 1 年以上。对于血清 ALT 高于正
+常值上限的患者，口服某种保肝药物 6 个月，如果血清氨基
+酸转移酶仍无明显下降，则可改用其他保肝药物。至今尚无
+有效药物可推荐用于 NASH 患者预防肝硬化和 HCC，咖啡、
+阿斯匹林、二甲双胍、他汀等对肝脏的有益作用仍需临床试
+验证实。
+5．肝脏移植手术：NAFLD 对肝脏移植手术的影响涉及
+到移植的供体和受体两大方面，我国目前已面临脂肪肝作为
+供肝而出现的移植后肝脏原发性无功能的高发风险，而由于
+NASH 导致的失代偿期肝硬化、HCC 等终末期肝病需进行肝
+脏移植的病例亦在不断增多。NASH 患者肝移植的长期效果
+与其他病因肝移植相似，特殊性主要表现为年老、肥胖和并
+存的代谢性疾病可能影响肝移植患者围手术期或术后短期
+的预后，肝移植术后 NAFLD 复发率高达 50%，并且有较高的
+心血管并发症的发病风险[64-65]。为此，需重视 NASH 患者肝移
+植等待期的评估和管理，以最大程度为肝移植创造条件。肝
+移植术后仍须有效控制体质量和防治糖脂代谢紊乱，从而最
+大程度降低肝移植术后并发症发生率。|6. 减少附加打击以免
+肝脏损伤加重：对于 NAFLD 特别是 NASH 患者，应避免极低
+热卡饮食减肥，避免使用可能有肝毒性的中西药物，慎用保
+健品。鉴于 NAFLD 患者偶尔过量饮酒可导致急性肝损伤并
+促进肝纤维化进展，而合并肝纤维化的 NAFLD 患者即使适
+量饮酒也会增加 HCC 发病风险，NAFLD 患者需要限制饮酒
+并避免过量饮酒[66]。多饮咖啡和饮茶可能有助于 NAFLD 患
+实用肝脏病杂志圆园18 年 3 月第 21 卷第 2 期 JPracHepatol ，Mar.2018.Vol.21No.2 ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ··
+者康复。此外，还需早期发现并有效处理睡眠呼吸暂停综合
+征、甲状腺功能减退症、小肠细菌过度生长等可加剧肝脏损
+伤的并存疾病。
+推荐意见 17：提倡给 NAFLD 患者提供包括健康饮食、
+加强锻炼和修正不良行为的生活方式干预的指导（C2），
+NAFLD 患者 1 年内减重 5%以上可以改善血清生物化学指
+标和肝脏组织学病变（B1）。
+推荐意见 18：饮食指导应兼顾限制能量摄入、调整膳食
+结构和避免不良膳食行为（B1）。通过低热量饮食伴或不伴体
+育锻炼来减轻体质量，通常都可以减少肝脏脂肪沉积（A1）。
+推荐意见 19：中等量有氧运动和（或）阻抗训练均可降低
+肝脏脂肪含量，可根据患者兴趣以能够长期坚持为原则选择
+训练方式。（B2）
+推荐意见 20：NAFLD 患者虽要限制饮酒量，并严格避
+免过量饮酒（B1）；多饮咖啡和茶可能有助于 NAFLD 患者康
+复（C1）。
+推荐意见 21：除非有肝功能衰竭和失代偿期肝硬化，
+NAFLD/NASH 患者可以安全使用血管紧张素Ⅱ受体拮抗
+剂、ω-3 多不饱和脂肪酸、他汀、二甲双胍、吡格列酮等药物
+治疗代谢和心血管危险因素。（C1）
+推荐意见 22：肝活组织检查证实的单纯性脂肪肝患者仅
+需通过饮食指导及体育锻炼来减轻肝脏脂肪沉积（B2）,
+NASH 特别是合并显著肝纤维化患者则需应用保肝药物治
+疗（B1）。
+推荐意见 23：高度疑似 NASH 或进展期肝纤维化但无
+肝活组织检查资料的 NAFLD 患者，也可考虑应用保肝药物
+治疗。（C1）
+推荐意见 24：至今尚无公认的保肝药物可推荐用于
+NASH 的常规治疗，双环醇、水飞蓟素（宾）、多烯磷脂酰胆
+碱、甘草酸制剂、维生素 E 等对 NASH 的治疗效果有待进一
+步临床研究证实。（C1）
+推荐意见 25：目前尚未明确保肝药物治疗的最佳疗程，
+建议选择 1 种保肝药物，连续使用 1 年以上。如果用药 6 个
+月血清氨基酸转移酶仍无明显下降则建议改用其他保肝药
+物。（C1）
+推荐意见 26：治疗肥胖、MetS 和 T2DM 的减肥手术可
+改善 NASH 患者的肝组织学表现（B1），但目前无足够证据
+推荐减肥手术治疗 NASH（B1）。
+推荐意见 27：NAFLD/NASH 不是肥胖症患者减肥手术
+的禁忌证，除非有明确的肝硬化。（A1）
+推荐意见 28：NASH 相关终末期肝病和肝细胞癌患者可
+以进行肝脏移植手术，肝脏移植总体生存率与其他病因肝脏
+移植相似，但是肝移植术后心血管相关病死率较高。（A1）
+六、存在的问题与展望
+NAFLD 是一种多系统受累的代谢性疾病，与 MetS、
+T2DM 互为因果，共同促进肝硬化、HCC、冠心病、慢性肾病和
+结直肠肿瘤等肝外恶性肿瘤的高发。当前我国肥胖和 MetS
+患病率增长迅速，NAFLD 患病率已经赶超欧美等发达国家
+并已成为我国肝病和代谢领域的新挑战，对国民健康和社会
+发展构成严重威胁。NAFLD 的防治不但是临床医学问题，而
+且也是预防医学、社会医学和卫生行政主管部门共同面临的
+重大课题。“健康中国 2030”的有序推进和实施，可望控制我
+国 NAFLD 及其相关疾病日趋严重的流行现状，国家科技部、
+国家自然科学基金委、国家卫生和计划生育委员会等部门资
+助的重大重点项目的顺利完成则有望在 NAFLD 及其相关肝
+硬化和 HCC 的遗传特征、发病机制、新药研发、无创诊断等
+方面取得突破性进展。
+当前，临床医生需加强基于影像学和（或）肝活组织检查
+的 NAFLD 患者的队列研究，加强 NAFLD 相关 HCC 分子机
+制以及潜在肿瘤学标志物和干预的转化医学研究，进一步探
+讨我国儿童脂肪肝和乙型肝炎合并脂肪肝预后转归的特殊
+性。非侵入性方法诊断 NASH 和肝纤维化至今仍不能替代肝
+活组织检查，需要加强血清学标志物、基因组学、蛋白质组
+学、糖组学、代谢组学，以及新兴影像学技术的研发和临床应
+用，而肠道稳态结构和功能改变的研究可能为无创诊断和有
+效防治 NASH 提供新思路。我国传统的膳食结构、锻炼方式，
+以及益生元、益生菌、黄连素和广泛使用的保肝药物对
+NASH 的治疗效果需开展规范的临床试验来证实，并加强减
+肥手术治疗 NASH 的效果和安全性，以及 NASH 患者肝脏移
+植围手术期处理的临床研究。这些研究结果都将为我国
+NAFLD 的诊疗实践提供新的证据，从而为国家卫生政策的
+制定提供科学依据。
+此外，当前国内外有关 NAFLD 的指南众多且更新迅速，
+在指导临床实践的同时亦带来不少困惑。国内外指南在药物
+选择和生活方式干预等方面存在差异，不同国家和地区的医
+疗模式、医疗保险体系和药物可及性等方面亦差异显著。欧
+美国家现有 NASH 临床试验的研究对象 90%以上为欧美人
+种，这些药物对于中国人的效果和安全性需要进一步验证。
+当前需要加强医务人员和大众 NAFLD 防治知识的普及教
+育，及时更新科普版脂肪肝防治指南。临床医生需要认真学
+习和理性思考，结合自己的临床经验和患者的具体情况，合
+理诊疗和科学管理好 NAFLD 患者。总之，我国 NAFLD 的有
+效防治任重而道远，在各级政府支持和医药企业的参与下，
+三级医院多学科联合诊疗与一级医疗机构紧密合作，力争创
+建中国特色的 NAFLD 防治和管理模式。
+参加本指南撰写和讨论的专家名单：
+（排名不分先后，按姓氏笔画排序）
+万燕萍马雄王炳元厉有名任万华庄辉
+李良平何方平张晶陆伦根陈东风范建高
+茅益民周永健郑瑞丹宓余强赵彩彦赵景民
+南月敏钟碧慧段钟平施军平袁平戈徐可树
+徐有青高鑫曾民德韩涛鲁晓岚谢雯
+虞朝辉蔡威潘勤魏来
+【参考文献】
+[1]RinellaME.Nonalcoholicfattyliverdisease:asystematicreview[J].
+JAMA，2015，313 （22）:2263-2273.DOI:10.1001/jama.2015.5370.
+实用肝脏病杂志圆园18 年 3 月第 21 卷第 2 期 JPracHepatol ，Mar.2018.Vol.21No.2·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ··
+[2]DiehlAM ，DayC.Cause ，pathogenesis，andtreatmentofnonalco-
+holicsteatohepatitis[J].NEnglJMed ，2017 ，377（21）:2063-
+2073.DOI:10.1056/NEJMra1503519.
+[3]WangFS ，FanJG ，ZhangZ ，etal.Theglobalburdenofliver
+disease:themajorimpactofChina[J].Hepatology ，2014，60（6）:
+2099-2108.DOI:10.1002/hep.27406.
+[4]FanJG ，KimSU ，WongVW.NewtrendsonobesityandNAFLD
+inAsia[J].JHepatol ，2017，67（4）:862-873.DOI:10.1016/j.jhep.
+2017.06.003.
+[5]WangMM ，WangGS ，ShenF ，etal.Hepaticsteatosisishighly
+prevalentinhepatitisBpatientsandnegativelyassociatedwith
+virologicalfactors[J].DigDisSci ，2014，59（10）:2571-2579.DOI:
+10.1007/s10620-014-3180-9.
+[6]FanJG ，JiaJD ，LiYM ，etal.Guidelinesforthediagnosisand
+managementofnonalcoholicfattyliverdisease:update2010:
+（publishedinChineseonChineseJournalofHepatology
+2010;18:163-166）[J].JDigDis ，2011，12 （1）:38-44.DOI:
+10.1111/j.1751-2980.2010.00476.x.
+[7]ReviewTeam ，LaBrecqueDR ，AbbasZ ，etal.WorldGastroenterol-
+ogyOrganisationglobalguideline:Nonalcoholicfattyliverdisease
+andnonalcoholicsteatohepatitis[J].JClinGastroenterol ，2014，48
+（6）:467-473.DOI:10.1097/MCG.0000000000000116.
+[8] WongVW ，ChanWK ，ChitturiS ，etal.Asia-PacificWorkingParty
+onNon-alcoholicFattyLiverDiseaseGuidelines2017-Part1:
+Definition，riskfactorsandassessment[J].JGastroenterolHepa-
+tol，2018，33（1）:70-85.DOI:10.1111/jgh.13857.
+[9]ChalasaniN ，YounossiZ ，LavineJE ，etal.Thediagnosisandman-
+agementofnonalcoholicfattyliverdisease:practiceguidancefrom
+theAmericanAssociationfortheStudyofLiverDiseases[J].Hep-
+atology，2018，67（1）:328-357.DOI:10.1002/hep.29367.
+[10]EuropeanAssociationfortheStudyoftheLiver ，EuropeanAs-
+sociationfortheStudyofDiabetes ，EuropeanAssociationforthe
+StudyofObesity.ClinicalPracticeGuidelinesforthemanage-
+mentofnon-alcoholicfattyliverdisease[J].JHepatol ，2016，64
+（6）:1388-1402.
+[11]YounossiZM ，KoenigAB ，AbdelatifD ，etal.Globalepidemiology
+ofnonalcoholicfattyliverdisease-Meta-analyticassessmentof
+prevalence，incidence，andoutcomes[J].Hepatology ，2016，64（1）:
+73-84.DOI:10.1002/hep.28431.
+[12]ZhuJZ ，ZhouQY ，Wang YM，etal.Prevalenceoffattyliver
+diseaseandtheeconomyinChina:Asystematicreview[J].World
+J Gastroenterol，2015，21（18）:5695-5706.DOI:10.3748/wjg.v21.
+i18.5695.
+[13]WongVW ，WongGL ，YeungDK ，etal.Incidenceofnon-alcoholic
+fattyliverdiseaseinHongKong:apopulationstudywithpaired
+proton-magneticresonancespectroscopy[J].JHepatol ，2015，62
+（1）:182-189.DOI:10.1016/j.jhep.2014.08.041.
+[14]XuC ，YuC ，MaH ，etal.Prevalenceandriskfactorsforthe
+developmentofnonalcoholicfattyliverdiseaseinanonobese
+Chinesepopulation:theZhejiangZhenhaiStudy[J].AmJGas-
+troenterol，2013，108 （8）:1299-1304.DOI:10.1038/ajg.2013.104.
+[15]KwokR ，ChoiKC ，WongGL ，etal.Screeningdiabeticpatients
+fornon-alcoholicfattyliverdiseasewithcontrolledattenuation
+parameterandliverstiffnessmeasurements:aprospectivecohort
+study[J].Gut，2016，65（8）:1359-1368.DOI:10.1136/gutjnl-2015-
+309265.
+[16]ZhangRN ，ZhengRD ，MiYQ ，etal.APOC3rs2070666isasso-
+ciatedwiththehepaticsteatosisindependentlyofPNPLA3
+rs738409inChineseHanpatientswithnonalcoholicfattyliver
+diseases[J].DigDisSci ，2016，61（8）:2284-2293.DOI:10.1007/
+s10620-016-4120-7.
+[17]XuL ，MaH ，MiaoM ，etal.Impactofsubclinicalhypothyroidism
+onthedevelopmentofnon-alcoholicfattyliverdisease:a
+prospectivecase-controlstudy[J].JHepatol ，2012，57（5）:1153-
+1154.DOI:10.1016/j.jhep.2012.05.025.
+[18]XuC ，YuC ，XuL ，etal.Highserumuricacidincreasestherisk
+fornonalcoholicFattyliverdisease:aprospectiveobservational
+study[J].PLoSOne ，2010，5（7）:e11578.DOI:10.1371/journal.pone.
+0011578.
+[19]MaH ，XuC ，XuL ，etal.IndependentassociationofHbA1cand
+nonalcoholicfattyliverdiseaseinanelderlyChinesepopulation
+[J].BMCGastroenterol ，2013，13:3.DOI:10.1186/1471-230X-
+13-3.
+[20]XuC ，WanX ，XuL ，etal.Xanthineoxidaseinnon-alcoholic
+fattyliverdiseaseandhyperuricemia:Onestonehitstwobirds
+[J].JHepatol ，2015，62（6）:1412-1419.DOI:10.1016/j.jhep.2015.
+01.019.
+[21]DulaiPS ，SinghS ，PatelJ ，etal.Increasedriskofmortalityby
+fibrosisstageinnonalcoholicfattyliverdisease:Systematic
+reviewandmeta-analysis[J].Hepatology ，2017，65（5）:1557-1565.
+DOI:10.1002/hep.29085.
+[22]LeungJC ，LoongTC ，WeiJL ，et al.Histologicalseverityand
+clinicaloutcomesofnonalcoholicfattyliverdiseaseinnonobese
+patients[J].Hepatology ，2017 ，65（1）:54-64.DOI: 10.1002/
+hep.28697.
+[23]WangY ，WangB ，ShenF ，etal.Bodymassindexandriskof
+primarylivercancer:ameta-analysisofprospectivestudies[J].
+Oncologist，2012，17（11）:1461-1468.DOI:10.1634/theoncologist.
+2012-0066.
+[24]WongVW ，WongGL ，YeungJC ，etal.Long-termclinicalout-
+comesafterfattyliverscreeninginpatientsundergoingcoronary
+angiogram:Aprospectivecohortstudy[J].Hepatology ，2016，63（3）:
+754-763.DOI:10.1002/hep.28253.
+[25]BallestriS ，ZonaS ，TargherG ，etal.Nonalcoholicfattyliverdis-
+easeisassociatedwithanalmosttwofoldincreasedriskofin-
+cidenttype2diabetesandmetabolicsyndrome.Evidencefrom
+asystematicreviewandmeta-analysis[J].JGastroenterolHepatol ，
+2016，31（5）:936-944.DOI:10.1111/jgh.13264.
+[26]ChenGY ，CaoHX ，LiF ，etal.New-risk-scoringsysteminclud-
+ingnon-alcoholicfattyliverdiseaseforpredictingincidenttype
+2diabetesinEastChina:ShanghaiBaosteelCohort[J].JDiabetes
+Investig，2016，7（2）:206-211.DOI:10.1111/jdi.12395.
+实用肝脏病杂志圆园18 年 3 月第 21 卷第 2 期 JPracHepatol ，Mar.2018.Vol.21No.2 ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ··
+[27]WuS ，WuF ，DingY ，etal.Associationofnon-alcoholicfatty
+liverdiseasewithmajoradversecardiovascularevents:A
+systematicreviewandmeta-analysis[J].SciRep ，2016，6:33386.
+DOI:10.1038/srep33386.
+[28]TargherG ，ByrneCD ，LonardoA ，etal.Non-alcoholicfattyliver
+diseaseandriskofincidentcardiovasculardisease:A
+meta-analysis[J].JHepatol ，2016，65（3）:589-600.DOI:10.1016/
+j.jhep.2016.05.013.
+[29]WuR ，HouF ，WangX ，etal.Nonalcoholicfattyliverdiseaseand
+coronaryarterycalcificationinanorthernChinesepopulation:a
+crosssectionalstudy[J].SciRep ，2017，7（1）:9933.DOI:10.1038/
+s41598-017-09851-5.
+[30]MussoG ，GambinoR ，TabibianJH ，etal.Associationofnon-al
+coholicfattyliverdiseasewithchronickidneydisease:asys
+tematicreviewandmeta-analysis[J].PLoSMed ，2014，11（7）:
+e1001680.DOI:10.1371/journal.pmed.1001680.
+[31]ZengJ ，SunC ，SunWL ，etal.Associationbetweennon-invasively
+diagnosedhepaticsteatosisandchronickidneydiseasein
+Chineseadultsatahealthcheck-up[J].JDigDis ，2017，18（4）:
+229-236.DOI:10.1111/1751-2980.12465.
+[32]DingW ，FanJ ，QinJ.Associationbetweennonalcoholicfatty
+liverdiseaseandcolorectaladenoma:asystematicreviewand
+meta-analysis[J].IntJClinExpMed ，2015，8（1）:322-333.
+[33]ChitturiS ，WongVW ，ChanWK ，etal.TheAsia-PacificWorking
+PartyonNon-alcoholicFattyLiverDiseaseguidelines2017-Part
+2:Managementandspecialgroups[J].JGastroenterolHepatol ，
+2018，33（1）:86-98.DOI:10.1111/jgh.13856.
+[34]EuropeanAssociationforStudyofLiver ，AsociacionLatinoamer-
+icanaparaelEstudiodelHigado.EASL-ALEHClinicalPrac-
+ticeGuidelines:Non-invasivetestsforevaluationofliverdisease
+severityandprognosis[J].JHepatol ，2015，63（1）:237-264.DOI:
+10.1016/j.jhep.2015.04.006.
+[35]XuL ，LuW ，LiP ，etal.Acomparisonofhepaticsteatosisin-
+dex，controlledattenuationparameterandultrasoundasnonin-
+vasivediagnostictoolsforsteatosisinchronichepatitisB[J].Dig
+LiverDis ，2017，49（8）:910-917.DOI:10.1016/j.dld.2017.03.013.
+[36]ShenF ，ZhengRD ，MiYQ ，etal.Controlledattenuationparam-
+eterfornon-invasiveassessmentofhepaticsteatosisinChinese
+patients[J].WorldJGastroenterol ，2014，20（16）:4702-4711.DOI:
+10.3748/wjg.v20.i16.4702.
+[37]ShenF ，ZhengRD ，ShiJP ，etal.Impactofskincapsulardistance
+ontheperformanceofcontrolledattenuationparameterinpa-
+tientswithchronicliverdisease[J].LiverInt ，2015，35（11）:2392-
+2400.DOI:10.1111/liv.12809.
+[38]KarlasT ，PetroffD ，SassoM ，etal.Individualpatientdata
+meta-analysisofcontrolledattenuationparameter （CAP） tech-
+nologyforassessingsteatosis[J].JHepatol ，2017，66（5）:1022-
+1030.DOI:10.1016/j.jhep.2016.12.022.
+[39] 沈峰，郑瑞丹，宓余强，等. 细胞角蛋白 -18 联合受控衰减参数二步
+法无创鉴别非酒精性脂肪性肝炎的临床研究[J]. 中华肝脏病
+杂志，2016 ，24（6）:429-434.DOI:10.3760/cma.j.issn.1007-
+3418.2016.06.007.
+[40]BedossaP ，FLIPPathologyConsortium.Utilityandappropriate-
+nessofthefattyliverinhibitionofprogression （FLIP） algo-
+rithmandsteatosis ，activity，andfibrosis （SAF） scoreinthee-
+valuationofbiopsiesofnonalcoholicfattyliverdisease[J].Hep-
+atology，2014，60（2）:565-575.DOI:10.1002/hep.27173.
+[41]Xun YH，FanJG ，ZangGQ ，etal.Suboptimalperformanceof
+simplenoninvasivetestsforadvancedfibrosisinChinesepa-
+tientswithnonalcoholicfattyliverdisease[J].JDigDis ，2012，13
+（11）:588-595.DOI:10.1111/j.1751-2980.2012.00631.x.
+[42]PettaS ，WongVW ，Cammà C，etal.Improvednoninvasivepre-
+dictionofliverfibrosisbyliverstiffnessmeasurementinpa-
+tientswithnonalcoholicfattyliverdiseaseaccountingforcon-
+trolledattenuationparametervalues[J].Hepatology ，2017，65（4）:
+1145-1155.DOI:10.1002/hep.28843.
+[43] 曾静，孙婉璐，陈光榆，等.FibroTouch 与 FibroScan 肝脏硬度和
+脂肪定量检测效能的比较 [J]. 中华肝脏病杂志，2016，24（9）:
+652-658.DOI:10.3760/cma.j.issn.1007-3418.2016.09.004.
+[44]SinghS ，MuirAJ ，DieterichDT ，etal.AmericanGastroenterologi-
+calAssociationInstituteTechnicalReviewontheRoleofElas-
+tographyinChronicLiverDiseases[J].Gastroenterology ，2017，152
+（6）:1544-1577.DOI:10.1053/j.gastro.2017.03.016.
+[45]YuC ，XuC ，XuL ，etal.Serumproteomicanalysisrevealeddiag-
+nosticvalueofhemoglobinfornonalcoholicfattyliverdisease[J].
+JHepatol ，2012，56（1）:241-247.DOI:10.1016/j.jhep.2011.05.027.
+[46]NascimbeniF ，PaisR ，BellentaniS ，etal.FromNAFLDinclini-
+calpracticetoanswersfromguidelines[J].JHepatol ，2013，59
+（4）:859-871.DOI:10.1016/j.jhep.2013.05.044.
+[47]Romero-G ómezM ，Zelber-SagiS ，TrenellM.TreatmentofNAFLD
+withdiet ，physicalactivityandexercise[J].JHepatol ，2017，67（4）:
+829-846.DOI:10.1016/j.jhep.2017.05.016.
+[48]WongVW ，ChanRS ，WongGL ，etal.Community-basedlifestyle
+modificationprogrammefornon-alcoholicfattyliverdisease:a
+randomizedcontrolledtrial[J].JHepatol ，2013，59（3）:536-542.
+DOI:10.1016/j.jhep.2013.04.013.
+[49]FanJG ，CaoHX.Roleofdietandnutritionalmanagementin
+non-alcoholicfattyliverdisease[J].JGastroenterolHepatol ，2013，28
+Suppl4:81-87.DOI:10.1111/jgh.12244.
+[50]ZhangHJ ，HeJ ，PanLL ，etal.EffectsofModerateandVigor-
+ousExerciseonNonalcoholicFattyLiverDisease:ARandom-
+izedClinicalTrial[J].JAMAInternMed ，2016，176（8）:1074-
+1082.DOI:10.1001/jamainternmed.2016.3202.
+[51]ZhangHJ ，PanLL ，MaZM ，etal.Long-termeffectofexercise
+onimprovingfattyliverandcardiovascularriskfactorsin
+obeseadults:A1-yearfollow-upstudy[J].DiabetesObesMetab ，
+2017，19（2）:284-289.DOI:10.1111/dom.12809.
+[52]ArgoCK ，PatrieJT ，LacknerC ，etal.Effectsofn-3fishoilon
+metabolicandhistologicalparametersinNASH:adouble-blind ，
+randomized，placebo-controlledtria[J].JHepatol ，2015，62（1）:
+190-197.DOI:10.1016/j.jhep.2014.08.036.
+[53]AthyrosVG ，TziomalosK ，GossiosTD ，etal.Safetyandefficacy
+实用肝脏病杂志圆园18 年 3 月第 21 卷第 2 期 JPracHepatol ，Mar.2018.Vol.21No.2·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ··
+喜讯
+祝贺本刊执行总编辑范建高教授等荣获 2017 年中华医学科技奖二等奖，项目
+名称为“乙型肝炎合并脂肪肝的临床流行病特征和诊治对策”，完成单位及主要完成
+人包括上海交通大学医学院附属新华医院（范建高，潘勤，颜士岩，曹海霞，陈梅梅，
+汪余勤，孙超）、杭州师范大学附属医院（施军平）、天津市第二人民医院（宓余强）、福
+建漳州正兴医院（郑瑞丹）。
+oflong-termstatintreatmentforcardiovasculareventsinpatients
+withcoronaryheartdiseaseandabnormallivertestsintheGreek
+AtorvastatinandCoronaryHeartDiseaseEvaluation （GREACE）
+Study:apost-hocanalysis[J].Lancet ，2010，376（9756）:1916-1922.
+DOI:10.1016/S0140-6736（10）61272-X.
+[54]BrilF ，PortilloSanchezP ，LomonacoR ，etal.Liversafetyofstatins
+inprediabetesorT2DMandnonalcoholicsteatohepatitis:posthoc
+analysisofarandomizedtrial[J].JClinEndocrinolMetab ，2017，102
+（8）:2950-2961.DOI:10.1210/jc.2017-00867.
+[55]ArmstrongMJ ，GauntP ，AithalGP ，etal.Liraglutidesafetyand
+efficacyinpatientswithnon-alcoholicsteatohepatitis （LEAN）:a
+multicentre，double-blind，randomised，placebo-controlledphase2
+study[J].Lancet ，2016，387（10019）:679-690.DOI10.1016/S0140-
+6736（15）00803-X.
+[56]CusiK ，OrsakB ，BrilF ，etal.Long-termpioglitazonetreatment
+forpatientswithnonalcoholicsteatohepatitisandprediabetesor
+type2diabetesmellitus:arandomizedtrial[J].AnnInternMed ，
+2016，165（5）:305-315.DOI:10.7326/M15-1774.
+[57]BritoJP ，MontoriVM ，DavisAM.Metabolicsurgeryinthetreatment
+algorithmfortype2diabetes:ajointstatementbyinternationaldi-
+abetesorganizations[J].JAMA ，2017，317（6）:635-636.DOI:10.1001/
+jama.2016.20563.
+[58]KlebanoffMJ ，CoreyKE ，ChhatwalJ ，etal.Bariatricsurgeryfor
+nonalcoholicsteatohepatitis:Aclinicalandcost-effectiveness
+analysis[J].Hepatology ，2017，65（4）:1156-1164.DOI:10.1002/
+hep.28958.
+[59] 中华医学会感染病学分会，肝脏炎症及其防治专家共识委员会.
+肝脏炎症及其防治专家共识[J]. 中华肝脏病杂志，2014，22（2）:
+94-103.DOI:10.3760/cma.j.issn.1007-3418.2014.02.006.
+[60]SanyalAJ ，ChalasaniN ，KowdleyKV ，etal.Pioglitazone ，vitamin
+E，orplacebofornonalcoholicsteatohepatitis[J].NEnglJMed ，
+2010，362（18）:1675-1685.
+[61]Neuschwander-TetriBA ，LoombaR ，SanyalAJ ，etal.FarnesoidX
+nuclearreceptorligandobeticholicacidfornon-cirrhotic ，
+non-alcoholicsteatohepatitis （FLINT）:amulticentre ，randomised，
+placebo-controlledtrial[J].Lancet ，2015，385（9972）:956-965.DOI:
+10.1016/S0140-6736（14）61933-4.
+[62]HanY ，ShiJP ，MaAL ，etal.Randomized ，vitaminE-controlledtrial
+ofbicyclolplusmetformininnon-alcoholicfattyliverdisease
+patientswithimpairedfastingglucose[J].ClinDrugInvestig ，
+2014，34（1）:1-7.DOI:10.1007/s40261-013-0136-3.
+[63]WahKheongC ，NikMustaphaNR ，MahadevaS.Arandomized
+trialofsilymarinforthetreatmentofnonalcoholicsteatohepatitis
+[J].ClinGastroenterolHepatol ，2017，15 （12）:1940-1949.DOI:
+10.1016/j.cgh.2017.04.016.
+[64]NewsomePN ，AllisonME ，AndrewsPA ，etal.Guidelinesforliver
+transplantationforpatientswithnon-alcoholicsteatohepatitis[J].
+Gut，2012，61（4）:484-500.DOI:10.1136/gutjnl-2011-300886.
+[65]PaisR ，BarrittAS4th ，CalmusY ，etal.NAFLDandlivertrans-
+plantation:Currentburdenandexpectedchallenges[J].JHepatol ，
+2016，65（6）:1245-1257.DOI:10.1016/j.jhep.2016.07.033.
+[66]AjmeraVH ，TerraultNA ，HarrisonSA.Ismoderatealcoholusein
+nonalcoholicfattyliverdiseasegoodorbadAcriticalreview[J].
+Hepatology，2017，65（6）:2090-2099.DOI:10.1002/hep.29055.
+（收稿：2018-01-02）
+（本文编辑：范建高）

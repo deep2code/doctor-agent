@@ -1,0 +1,12 @@
+# 源清单：cancer_screening
+共 9 篇原文，合计 40 KB。文件头保留来源/URL，正文未改写。
+
+- MANIFEST.txt :: MANIFEST.txt :: http://www.suanfayisheng.com/static/lung%20nodule%20management/chinese%20guideline.pdf
+- breast_screening_caca_2022.txt :: 中国乳腺癌筛查与早期诊断指南（推荐意见节选） | 中国抗癌协会乳腺癌专业委员会 | 2022 | 中国癌症杂志2022;32(4):363-372（DOI:10.19401/j.cnki.1007-3639.2022.0 :: https://xadxyylib.yuntsg.com/ueditor/jsp/upload/file/20240322/1711078580316062719.pdf
+- breast_screening_nhc_2022.txt :: 乳腺癌诊疗指南（2022年版）乳腺癌筛查章节 | 国家卫生健康委员会（医政司） | 2022 :: https://www.nhc.gov.cn/cms-search/downFiles/c001a73dfefc4ace889a1ea6e0230865.pdf
+- esophageal_endoscopy_screening_2022.txt :: 中国食管癌筛查与早诊早治指南（2022，北京） | 国家癌症中心 中国医学科学院北京协和医学院肿瘤医院（赫捷 陈万青 等） | 2022 | 中华肿瘤杂志2022;44(6)；镜像PDF :: https://xa3yuanlib.yuntsg.com/ueditor/jsp/upload/file/20251204/1764837806025060325.pdf
+- gastric_screening_plan_2024.txt :: 胃癌筛查与早诊早治方案（2024年版） | 国家卫生健康委员会医疗应急司 | 2024 | 中华肿瘤杂志2024;46(10):915-916（DOI:10.3760/cma.j.cn112152-20240705-00 :: https://33507512.s21i.faiusr.com/61/ABUIABA9GAAghtCKzAYo-t-VqgE.pdf
+- joint_cancer_screening_consensus_2025.txt :: 常见恶性肿瘤联合筛查专家共识（2025版）表3高危人群定义+表4核心筛查建议 | 常见恶性肿瘤联合筛查专家共识制定专家组（陈可欣 陈万青 黄育北 宋丰举 等，天津医科大学肿瘤医院/国家癌症中心） | 2025 | 中国肿 :: http://www.cjco.cn/cn/article/pdf/preview/10.12354/j.issn.1000-8179.2025.20250757.pdf
+- liver_ultrasound_afp_screening_2024.txt :: 原发性肝癌诊疗指南（2024年版）筛查和监测章节 | 国家卫生健康委员会（医政司组织，中华人民共和国国家卫生健康委员会官网发布） | 2024 :: https://www.nhc.gov.cn/cms-search/downFiles/48cd549a54204ab1a6247e86adb2dea2.pdf
+- lung_ldct_screening_2021.txt :: 中国肺癌筛查与早诊早治指南（2021，北京） | 国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院（赫捷 陈万青 等） | 2021 | 中华肿瘤杂志2021;43(3):253-268（DO :: http://www.suanfayisheng.com/static/lung%20nodule%20management/chinese%20guideline.pdf
+- thyroid_nodule_tirads_2022.txt :: 甲状腺癌诊疗指南（2022年版）监测筛查/超声/TI-RADS/FNAB章节 | 国家卫生健康委员会（医政司） | 2022 :: https://www.nhc.gov.cn/yzygj/c100068/202204/0c1f7d3aca0545abbeb02030ce255930/files/1732863055520_88237.pdf

@@ -1,0 +1,835 @@
+来源: 中国康复医学会脊柱脊髓专业委员会基础研究与转化学组《腰椎间盘突出症诊治与康复管理指南（2022）》
+URL: https://ansonznl.github.io/RehabilitationGuide/腰间盘突出康复指南/腰椎间盘突出症诊治与康复管理指南.pdf
+发布/评审时间: 2022年5月（中华外科杂志 2022,60(5)，8页）
+抓取方式: curl 直连 + PDF 逐字文本提取，仅删除一行PDF二进制伪迹，未改写文字
+
+中华外科杂志 2022 年 5 月第 60 卷第 5 期 ChinJSurg , May 2022 , Vol . 60 , No . 5
+腰椎间盘突出症诊治与康复管理指南
+中国康复医学会脊柱脊髓专业委员会基础研究与转化学组
+通信作者 ： 冯世庆 ， 天津医科大学总医院骨科 ， 天津 300052 ， Email ： sqfeng@tmu . edu . cn
+【 摘要 】 腰椎间盘突出症的发病率逐年增高 ， 且患者趋向于年轻化 。 目前国内外仍缺乏腰椎间
+盘突出症临床管理的相关规范与指南 。 为加强对腰椎间盘突出症患者的规范化管理 ， 本着科学性和
+实用性的原则 ， 中国康复医学会脊柱脊髓专业委员会基础研究与转化学组组织国内相关领域专家 ， 通
+过检索国内外文献 ， 在既往指南和共识的基础上 ， 针对腰椎间盘突出症的诊治和康复管理问题 ， 制定
+《 腰椎间盘突出症诊治与康复管理指南 》 。 本指南遵循循证医学的原则 ， 针对腰椎间盘突出症诊治与
+康复提出科学性建议 ， 以期规范腰椎间盘突出症诊疗与康复流程 ， 达到改善预后 ， 提升患者生活质量
+的目的 。
+【 关键词 】 椎间盘移位 ； 腰椎 ； 腰椎间盘突出 ； 治疗 ； 康复 ； 指南
+Guideline for diagnosis , treatment and rehabilitation of lumbar disc herniation
+Basic Research and Transformation Society , Professional Committee of Spine and Spinal Cord , Chinese
+Association of Rehabilitation Medicine
+Corresponding author : Feng Shiqing , Department of Orthopedics , Tianjin Medical University General
+Hospital , Tianjin 300052 , China , Email : sqfeng@tmu . edu . cn
+【 Abstract 】 R ecent years , the incidence of lumbar disc herniation is increasing annually ,
+trending to younger age . There is a lack of clinical guideline for the management of lumbar disc
+herniation . Considering various problems in the management of lumbar disc herniation under
+different occasions , based on a systematic literature review , Basic Research and Transformation
+Society , Professional Committee of Spine and Spinal Cord organized experts to make this consensus
+jointly . This guideline aims to provide a standardized management of lumbar disc herniation with
+scientific principle and practical feasibility . Evidence‑based medicine , and scientific suggestions are
+put forward specially for the management of lumbar disc herniation to standardize the diagnosis
+and treatment , promote the prognosis as well as improve the quality of life of patients .
+【 Key words 】 Intervertebral disc displacement ; Lumbar vertebrae ; Lumbar disc
+herniation ; Treatment ; Rehabilitation ; Guideline
+腰椎间盘突出症的发病率在我国逐年增高 ， 给
+患者带来巨大痛苦 。 腰椎间盘突出症的临床诊疗 、
+康复过程对患者预后有重要影响 。 推动腰椎间盘
+突出症患者管理的标准化 、 规范化是当下亟待解决
+的问题 。 鉴于此 ， 中国康复医学会脊柱脊髓专业委
+员会基础研究与转化学组联合相关领域专家 ， 以循
+证医学证据为基础 ， 结合多学科诊疗模式 ， 共同制
+订了本指南 。 本指南从腰椎间盘突出症的定义 、 分
+型 、 诊断 、 治疗 、 康复五个维度入手 ， 坚持预防为主 、
+规范诊疗 、 快速康复的原则 ， 旨在提供规范标准的
+临床管理方案 ， 提高腰椎间盘突出症患者的治疗效
+果 ， 达到改善患者预后的目的 。
+文献检索与指南撰写过程
+本指南由中国康复医学会脊柱脊髓专业委员
+· 指南与规范 ·
+DOI ： 10 . 3760 /cma . j . cn 112139 - 20211122 - 00548
+收稿日期 2021 - 11 - 22 本文编辑 郑佳依
+引用本文 ： 中国康复医学会脊柱脊髓专业委员会基础研究与转化学组 . 腰椎间盘突出症诊治与康复管理
+指南 [ J ]. 中华外科杂志 , 2022 , 60 ( 5 ): 401 - 408 . DOI : 10 . 3760 /cma . j . cn 112139 - 20211122 - 00548 .
+·· 401
+
+中华外科杂志 2022 年 5 月第 60 卷第 5 期 ChinJSurg , May 2022 , Vol . 60 , No . 5
+会基础研究与转化学组组织相关领域专家参与制
+定和讨论 。 专家组聚焦腰椎间盘突出症管理问题 ，
+以 腰 椎 间 盘 突 出 （ lumbar intervertebral disc
+protrusion ） 、 腰 椎 间 盘 退 变 （ lumbar intervertebral
+discdegeneration ） 、 腰椎手术 （ lumbarsurgery ） 、 术后
+康复 （ postoperativerecovery ） 为关键词 ， 通过对 Web
+ofScience 、 PubMed 、 EMBASE 数 据 库 、 中 国 知 网 和
+万 方 数 据 库 中 的 文 献 进 行 检 索 和 筛 选 ， 共 得 到
+18 987 篇中文文献 、 13 857 篇英文文献 。 排除动物
+研究 、 会议摘要 、 会议论文及学位论文 ， 优先选择系
+统性综述 、 Meta 分析 、 高质量随机对照研究 ， 其次为
+前瞻性非随机对照研究 、 回顾性队列研究和病例对
+照研究 。 专家组通过阅读文献标题 、 摘要和原文的
+方式进行筛选 ， 最终筛选出 1 327 篇文献 ， 拟定推荐
+意见并应用调查问卷统计全国本领域专家意见 ， 组
+织三轮讨论会后最终定稿 。
+本指南的循证医学证据等级和推荐强度参照
+建议 、 评估 、 发展和评价的分级系统进行分级 ， 证据
+等级分为高 、 中 、 低 、 极低 4 级 ； 推荐强度分为 3 级 ，
+自 1 级向 3 级强度递减
+［ 1 ］
+。
+腰椎间盘突出症诊治与康复管理推荐建议
+一 、 腰椎间盘突出症的定义
+腰椎间盘突出指腰椎间盘部分组织局部性移
+位超过椎间盘的正常边缘
+［ 2 ‑ 3 ］
+， 突出的组织可以是
+软骨终板 、 纤维环 、 髓核 ， 或是它们的任意组合
+［ 2 ］
+，
+但并不一定引起临床症状 。 当突出的腰椎间盘组
+织导致对应的神经支配区域出现无力 、 麻木 、 疼痛
+及 功 能 障 碍 等 临 床 表 现 时 ， 称 为 腰 椎 间 盘 突
+出症
+［ 3 ］
+。
+二 、 腰椎间盘突出症的诊断标准
+诊断须区分腰椎间盘突出与腰椎间盘突出症 。
+腰椎间盘突出利用 CT 或 MRI 即可判断 ， 但不足以
+诊断临床疾病 。 腰椎间盘突出症为临床诊断名词 ，
+指在腰椎间盘退变 、 损伤的病理学基础上发生椎间
+盘局限性突出 ， 压迫和 （ 或 ） 刺激神经根 、 马尾神经
+而出现腰痛 、 神经根性疼痛 、 下肢麻木无力 、 下肢放
+射痛 、 大小便功能障碍等症状
+［ 4 ］
+。 相关体检包括感
+觉测试 、 肌力测试 、 直腿抬高试验等 ； 影像学检查 、
+神 经 电 生 理 及 神 经 根 阻 滞 检 查 能 帮 助 定 位 责 任
+节段
+［ 3 ‑ 5 ］
+。
+推荐意见 1 ： 综合患者病史 、 症状 、 体征及影像
+学资料进行判断 ， 当影像学和神经定位相符时 ， 即
+可对腰椎间盘突出症做出诊断 （ 推荐强度 ： 1 级 ， 证
+据等级 ： 高 ） 。
+三 、 腰椎间盘突出症的分型
+通过腰椎间盘突出症分型系统阐述各型临床
+及病理学特征 ， 可为后续诊疗提供重要参考 。 目前
+腰椎间盘突出症分型方式较多 ， 其中病理学分型常
+用的有 MacNab 分型
+［ 6 ］
+， 其将腰椎间盘的突出和疝
+出 作 为 两 种 不 同 的 病 理 学 类 型
+［ 7 ］
+； 其 他 还 有
+Spengler 分型
+［ 8 ］
+、 美国矫形外科医师学会和国际腰
+椎研究会分型
+［ 9 ］
+、 Fardon 分型
+［ 5 ］
+和 MSU 分型
+［ 10 ］
+等 ， 皆
+在一定程度上反映病变的进程 。 此外 ， 腰椎间盘病
+变 和 神 经 及 神 经 通 道 的 关 系 也 是 分 型 考 虑 的
+重点
+［ 11 ‑ 12 ］
+。
+推荐意见 2 ： 腰椎间盘突出症患者可用 MacNab
+分型明确病变的病理学实质 ， MSU 分型评估病变程
+度和位置 。 分型应结合考虑腰椎间盘病变和神经
+及神经通道的关系 ， 有助于诊疗方案的制定 （ 推荐
+强度 ： 2 级 ， 证据等级 ： 中 ） 。
+四 、 腰椎间盘突出症的治疗
+（ 一 ） 非手术治疗
+1 . 非手术治疗适应证 ： 腰椎间盘突出症患者的
+病情常为进行性加重 ， 非手术治疗一般适用于轻症
+或疾病早期阶段
+［ 13 ］
+， 如初次起病 、 症状较轻 、 病程较
+短或休息后可自行缓解的患者 ； 也可用于因个体情
+况不能实行手术治疗的患者 。
+推荐意见 3 ： 对于轻症或因个体情况不能实行
+手术的患者 ， 可采取非手术治疗并密切观察病情变
+化 （ 推荐强度 ： 2 级 ， 证据等级 ： 中 ） 。
+2 . 非手术治疗方法与效果 ： 非手术治疗方法有
+卧床休息 、 药物治疗 、 运动疗法和牵引等 。 卧床休
+息曾被认为是腰椎间盘突出症的标准治疗方式 ， 但
+现有系统评价结果表明 ， 与正常活动相比 ， 卧床休
+息并不有助于缓解疼痛及促进功能恢复
+［ 14 ］
+； Frost
+等
+［ 15 ］
+的一项随机对照研究结果表明 ， 适当活动配合
+物理治疗对改善腰痛患者功能同样有效 。
+推荐意见 4 ： 腰椎间盘突出症患者在急性期时
+应卧床休息 （ 推荐强度 ： 1 级 ， 证据等级 ： 中 ） 。
+非 甾 体 类 抗 炎 药 （ nonsteroidal
+anti‑inflammatorydrug ， NSAID ） 可减轻腰背疼痛 ， 其
+作用机制是抑制环氧化酶活性 ， 阻断前列腺素合
+成 。 多项随机对照研究结果表明 ， 单纯应用 NSAID
+能 部 分 缓 解 椎 间 盘 源 性 疼 痛 ， 但 效 果 并 不 明
+显
+［ 16 ‑ 17 ］
+。 北美脊柱协会临床指南和多项高质量临
+床对照研究结果表明 ， 短期使用阿片类镇痛药能快
+·· 402
+
+中华外科杂志 2022 年 5 月第 60 卷第 5 期 ChinJSurg , May 2022 , Vol . 60 , No . 5
+速缓解腰背疼痛
+［ 18 ‑ 19 ］
+， 代表药物有吗啡 、 盐酸哌替
+啶注射液等 ， 但因其成瘾性 ， 临床应谨慎选择使用 。
+随机对照试验结果表明糖皮质激素类药物可有效
+缓解炎性疼痛
+［ 20 ］
+， 但应警惕长期大量使用该药物可
+能造成的不良反应 。 美国医师协会临床实践指南
+提出 ， 肌肉松弛剂可缓解腰椎间盘突出症急性期或
+亚急性期腰背部肌肉痉挛性疼痛
+［ 21 ］
+， 代表药物有氯
+唑沙宗 、 氟吡汀 、 替扎尼定等 。 脱水剂可有效缓解
+腰椎间盘突出引起的神经根水肿 ， 代表药物有甘露
+醇 、 甘油果糖等
+［ 22 ］
+。 抗抑郁药对慢性腰背痛和坐骨
+神经痛患者可起到一定的治疗效果 ， 但效果并不稳
+定
+［ 23 ‑ 24 ］
+。 神经营养类药物有神经保护和激活下行
+疼痛抑制通路等作用 ， 有利于缓解因神经根或脊髓
+受到压迫而引起的下肢麻木无力症状 ， 代表药物有
+甲钴胺 、 神经妥乐平等 ， 中华医学会疼痛学分会脊
+柱源性疼痛学组组织制定的 《 腰椎间盘突出症诊疗
+中国疼痛专家共识 》 肯定了神经妥乐平在腰椎间盘
+突出症镇痛中的作用
+［ 25 ］
+。
+推荐意见 5 ： NSAID 可缓解患者腰腿疼痛症状 ，
+但不建议长期使用 ， 用药时应当高度警惕溃疡和出
+血的发生 ， 并定期评估患者对此类药物的耐受剂量
+（ 推荐强度 ： 2 级 ， 证据等级 ： 高 ） 。
+推荐意见 6 ： 不建议长期使用阿片类镇痛药 ，
+若临床需要 ， 应注意药物长期使用后产生的药物依
+赖性 （ 推荐强度 ： 2 级 ， 证据等级 ： 高 ） 。
+推荐意见 7 ： 若无明显禁忌 ， 可短期使用糖皮
+质激素缓解炎性疼痛 ， 但不推荐长期大量使用该药
+物 ， 警惕其可能造成的不良反应 （ 推荐强度 ： 1 级 ，
+证据等级 ： 高 ） 。
+推荐意见 8 ： 肌肉松弛剂可有效缓解腰背肌痉
+挛及张力 ， 适用于腰椎间盘突出引起的腰背肌痉挛
+性疼痛 （ 推荐强度 ： 2 级 ， 证据等级 ： 中 ） 。
+推荐意见 9 ： 推荐急性腰椎间盘突出症患者使
+用脱水剂 ， 以缓解神经根水肿 ， 提高其对牵拉刺激
+的耐受力 ， 但应密切观察患者血压和电解质平衡
+（ 推荐强度 ： 1 级 ， 证据等级 ： 中 ） 。
+推荐意见 10 ： 不推荐腰椎间盘突出症患者常
+规 使 用 抗 抑 郁 药 物 （ 推 荐 强 度 ： 3 级 ， 证 据 等
+级 ： 中 ） 。
+推荐意见 11 ： 推荐使用神经营养类药物治疗
+腰椎间盘突出症 、 腰椎管狭窄等引起的腰痛 （ 推荐
+强度 ： 1 级 ， 证据等级 ： 高 ） 。
+运动疗法可预防腰椎间盘突出症初次起病及
+复发 ， 随机对照研究结果表明 ， 经常运动的患者疼
+痛持续时间缩短且复发更少
+［ 26 ］
+； 一项系统评价研究
+结果表明 ， 早期运动治疗能更好地预防复发
+［ 27 ］
+。
+推荐意见 12 ： 建议腰椎间盘突出症患者在专
+业康复医师的指导下 ， 进行早期 、 个体化 、 有针对性
+的 运 动 治 疗 ， 防 止 病 情 进 一 步 恶 化 （ 推 荐 强 度 ：
+1 级 ， 证据等级 ： 高 ） 。
+牵引是临床治疗腰椎间盘突出症的传统手段 ，
+牵引方式包括持续牵引和间歇牵引 。 将牵引纳入
+治疗方案能够短期内缓解坐骨神经症状 ， 但对腰背
+痛症状改善不明显
+［ 28 ‑ 29 ］
+。
+推荐意见 13 ： 推荐腰椎间盘突出症患者在专
+业康复医学人员的指导下进行牵引治疗 ， 但应避免
+牵引重量过大 、 时间过长 （ 推荐强度 ： 2 级 ， 证据等
+级 ： 高 ） 。
+按摩 、 热敷 、 冲击波 、 干扰电疗法等物理治疗对
+缓解腰椎间盘突出症状均有一定效果 ， 如体外冲击
+波疗法在治疗腰椎间盘突出症方面优势明显 ， 能有
+效缩短疗程 、 提高生活质量 ， 物理治疗有助于减轻
+肌肉痉挛 ， 改善局部血液循环 ， 可短期内缓解中等
+以下程度疼痛
+［ 30 ‑ 31 ］
+。
+推荐意见 14 ： 可使用物理疗法治疗腰椎间盘
+突出症 ， 但疗效的个体差异较大 （ 推荐强度 ： 2 级 ，
+证据等级 ： 中 ） 。
+（ 二 ） 手术治疗
+1 . 手术治疗的适应证 ： 患者的病情程度和意愿
+是决定手术治疗的重要因素 。 对于腰椎间盘突出
+症病史超过 6 周 ， 经保守治疗无效的患者 ； 腰椎间
+盘突出症出现神经根麻痹或马尾神经压迫 ， 表现为
+神经支配区域的浅感觉减退 、 关键肌肌力下降 、 尿
+便功能障碍的患者 ， 应进行手术治疗
+［ 32 ］
+。
+推荐意见 15 ： 病史长且经保守治疗无效的患
+者应选择手术治疗 ； 出现神经压迫症状的患者应尽
+早 手 术 解 除 神 经 压 迫 （ 推 荐 强 度 ： 2 级 ， 证 据 等
+级 ： 中 ） 。
+2 . 麻醉方式的选择 ： 为了提高治疗依从性和手
+术的安全性 ， 应选择合适的麻醉方式 。 全身麻醉适
+用于俯卧位手术 ， 术前应评估心肺功能 、 肝肾功能 、
+凝血功能 ， 并行动脉血气分析 、 血红蛋白 、 血清肌
+酐 、 电解质检测以及血型交叉匹配等
+［ 26 ］
+。 对于麻醉
+时间较长的手术 ， 需注意俯卧位并发症 ， 包括反流 、
+肺部误吸 、 恶心 、 呕吐 、 肺不张等 ； 对于高危患者 ， 应
+尽量缩短麻醉时间
+［ 33 ］
+。
+硬膜外麻醉适用于侧卧位及无法耐受全身麻
+醉的患者 。 前瞻性随机对照研究结果显示 ， 硬膜外
+·· 403
+
+中华外科杂志 2022 年 5 月第 60 卷第 5 期 ChinJSurg , May 2022 , Vol . 60 , No . 5
+麻醉与局部麻醉相比 ， 镇痛效果较好 ， 不良反应发
+生率较低
+［ 34 ］
+； 硬膜外麻醉更适用于腰椎间盘手术 ，
+术 后 不 良 反 应 更 少
+［ 35 ‑ 36 ］
+； 针 对 一 般 情 况 良 好 的 患
+者 ， 行单纯腰椎减压手术时硬膜外麻醉优于全身
+麻醉
+［ 36 ］
+。
+局部麻醉适用于椎间孔镜手术 ， 安全性高 ， 费
+用较低 ， 术后无需长期卧床 ， 恢复较快 ， 但由于神经
+根解剖差异 ， 术中患者可能出现明显的神经刺激症
+状 ， 疼痛 、 血压升高 、 腹压升高和切口出血等可导致
+患者肌肉紧张 ， 影响手术视野
+［ 35 ， 37 ］
+。
+推荐建议 16 ： 全身麻醉适用于无全身麻醉禁
+忌证的各类腰椎间盘突出症患者 。 一般情况良好
+的单纯腰椎减压手术患者也可选用硬膜外麻醉 ， 麻
+醉前需对已存在的运动和感觉神经功能缺陷进行
+仔细辨别和记录 ， 以更好地选择神经肌肉阻滞药物
+并 对 药 效 进 行 评 价 （ 推 荐 强 度 ： 2 级 ， 证 据 等
+级 ： 高 ） 。
+3 . 手术方法和效果 ： 根据腰椎间盘突出症的个
+体差异选择合适的手术方式十分重要 ， 手术方式可
+分为非融合技术和融合技术 。 非融合技术包括传
+统开放性椎间盘摘除术 、 微创椎间盘摘除术以及腰
+椎人工椎间盘置换术 ； 融合技术包括传统开放融合
+技术及微创融合技术 。 多项系统评价结果表明 ， 对
+于单纯腰椎间盘突出 、 无腰椎不稳 ， 且经保守治疗
+后无效的患者 ， 行开放性手术摘除椎间盘可有效缓
+解症状
+［ 38 ‑ 40 ］
+。
+推荐建议 17 ： 对于单纯腰椎间盘突出患者 ， 可
+行椎间盘摘除术 （ 推荐强度 ： 2 级 ， 证据等级 ： 高 ） 。
+微创手术经过多年发展 ， 适用范围广 ， 创伤小 ，
+恢复快
+［ 41 ‑ 46 ］
+。 目前广泛使用的方式有显微镜下腰
+椎间盘切除术 、 经皮内镜腰椎间盘切除术 、 单侧双
+通 道 脊 柱 内 镜 技 术 、 微 创 通 道 腰 椎 间 盘 切 除 术
+等
+［ 47 ］
+， 上述技术巧妙地结合了传统开放手术和显微
+内镜手术的优点 ， 为治疗脊柱疾病提供了新的思
+路 。 单纯的腰椎间盘突出推荐使用经皮椎间孔镜
+腰椎间盘切除术 ； 腰椎间盘突出伴中央椎管狭窄推
+荐使用单侧双通道脊柱内镜技术 。 对于腰椎间盘
+突出症伴有神经根出口狭窄的患者 ， 使用微创通道
+下腰椎间盘切除术可获得更好的术野 。 对于腰椎
+间盘突出症二次手术伴神经粘连的患者 ， 显微镜下
+腰椎间盘切除术具有更大的优势 。
+推荐建议 18 ： 医师应依据技术掌握的熟练程
+度及患者病情 ， 选择合适的微创手术方式 （ 推荐强
+度 ： 1 级 ， 证据等级 ： 高 ） 。
+传统开放融合技术包括后路减压椎间植骨融
+合术 、 经椎间孔椎体间融合术 、 前路腰椎椎体间融
+合术等 。 多项研究结果表明 ， 对多节段腰椎间盘突
+出或伴腰椎不稳 、 脊柱畸形的患者行传统开放融合
+术安全有效
+［ 39 ‑ 40 ］
+。 但腰椎退变性疾病患者行腰椎
+融合术治疗后会对邻近节段产生不良影响 ， 导致邻
+近节段退变和病变
+［ 48 ］
+； 过度破坏脊柱正常结构 、 切
+除椎板过多等 ， 会导致腰椎手术失败综合征 ， 使腰
+椎的再手术率增高并最终影响手术效果
+［ 49 ‑ 52 ］
+。
+推荐建议 19 ： 腰椎后路切除突出椎间盘组织
+并进行椎间融合 ， 要求术中尽量减少对脊柱结构的
+破坏 ， 保持脊柱稳定性 。（ 推荐强度 ： 2 级 ， 证据等
+级 ： 高 ） 。
+微 创 融 合 技 术 包 括 微 创 经 椎 间 孔 椎 间 融 合
+术
+［ 53 ］
+、 斜外侧椎间融合术
+［ 54 ］
+、 全内镜下腰椎微创减
+压椎间融合术
+［ 55 ］
+和经皮内镜后外侧椎间融合术等 。
+通道下经不同入路的多种椎间融合术已经广泛应
+用于临床 ， 可最大程度地维持腰椎稳定性并避免肌
+肉和神经损伤
+［ 56 ］
+， 同时辅以经皮椎弓根钉内固定
+术 ， 可达到坚强内固定 。
+推荐建议 20 ： 对于腰椎间盘突出症术后复发
+或伴有腰椎失稳的患者 ， 建议使用微创融合技术
+（ 推荐强度 ： 1 级 ， 证据等级 ： 高 ） 。
+五 、 腰椎间盘突出症患者的康复管理
+（ 一 ） 日常康复训练
+日常康复训练应贯穿腰椎间盘突出症的治疗
+周期 ， 包括生活习惯规范 、 心理疗法 、 腰部保护措
+施 、 功能锻炼 、 身心训练 。 （ 1 ） 生活习惯规范 ： 适当锻
+炼 、 控制体重 、 增强自我保护意识 、 避免腰部不良姿
+势等有利于腰背部疼痛康复 。 随机对照研究结果
+表明 ， 维持正确的生活习惯 ， 可避免加重神经根的
+刺激
+［ 15 ］
+。 （ 2 ） 心理疗法 ： 腰椎间盘突出症患者术后通
+常有轻度的焦虑及抑郁情绪 ， 系统性回顾研究结果
+表 明 认 知 行 为 疗 法 可 在 短 期 内 改 善 腰 痛
+［ 33 ， 57 ］
+。
+（ 3 ） 腰部保护措施 ： 腰部护具和中等硬度床垫是常
+规的腰部保护措施 。 护具可通过限制脊柱活动缓
+解疼痛 ， 一项临床对照研究结果表明 ， 亚急性腰痛
+患者佩戴弹性腰围 30 d 及 90 d 后 ， 对镇痛药物的需
+求减少 ， 功能状态也得到一定改善
+［ 58 ］
+； 但同时会给
+患者带来心理负担 ， 以及因腰背活动受限而引起的
+肌肉萎缩
+［ 59 ］
+。 中等硬度床垫可改善腰部功能
+［ 60 ］
+。
+（ 4 ） 功能锻炼 ： 腰椎间盘突出症患者行核心肌群训
+练可缓解腰部疼痛 ， 并改善功能
+［ 61 ］
+。 在治疗方案中
+适当加入方向特异性训练 ， 可快速缓解疼痛并减少
+·· 404
+
+中华外科杂志 2022 年 5 月第 60 卷第 5 期 ChinJSurg , May 2022 , Vol . 60 , No . 5
+镇痛药物的应用 ； 如使用麦肯基疗法进行方向特异
+性训练 ， 在特定方向的关节活动范围末端进行反复
+的屈伸牵拉
+［ 62 ］
+， 可在短期缓解疼痛
+［ 63 ］
+。 （ 5 ） 身心训
+练 ： 常见的身心训练方法有腰椎家庭适能锻炼等 。
+采用特殊体位 、 呼吸技术以及精神集中等综合性训
+练 ， 舒缓全身肌肉及提高人体躯干控制能力 ， 利于
+核心肌群稳定
+［ 64 ‑ 66 ］
+。
+推荐建议 21 ： 腰椎间盘突出症患者在可耐受
+范围内维持日常活动 ， 但使脊柱负荷增加的活动 、
+反复弯腰和旋转动作应尽量避免 （ 推荐强度 ： 1 级 ，
+证据等级 ： 中 ） 。
+推荐建议 22 ： 应根据个体差异 ， 针对性进行心
+理辅导 ， 促使患者心理状况改善 ， 有助于疼痛缓解
+（ 推荐强度 ： 1 级 ， 证据等级 ： 中 ） 。
+推荐建议 23 ： 仅建议患者在长时间高强度工
+作或进行会加重脊柱负荷的工作时佩戴腰部护具 ，
+并注意定时放松 ； 可以使用符合人体工学设计的腰
+垫和坐垫辅助维持正确的坐姿 ； 建议腰椎间盘突出
+症患者使用中等硬度床垫 （ 推荐强度 ： 1 级 ， 证据等
+级 ： 中 ） 。
+推荐建议 24 ： 腰椎间盘突出症患者可在专业
+的康复医师指导下进行核心肌群训练 ， 以期加强腰
+椎稳定性 （ 推荐强度 ： 1 级 ， 证据等级 ： 中 ） 。
+推荐建议 25 ： 腰椎间盘突出症患者可根据个
+体情况进行腰椎家庭适能锻炼等身心训练 （ 推荐强
+度 ： 2 级 ， 证据等级 ： 低 ） 。
+（ 二 ） 围手术期康复
+术前应通过宣教使患者熟知手术过程及预后 ，
+缓解患者焦虑恐惧的情绪 ， 使其保持良好的心态配
+合治疗 。 术前指导患者床上排便方法 、 轴线翻身的
+要领 、 腰背肌功能锻炼的技巧 ， 以利于患者的早期
+康复 。 术中应维持患者机体产热和散热的动态平
+衡 ， 减少手术并发症 ， 有助于患者早日恢复 。 同时 ，
+限制静脉补液降低导尿给患者带来的不适和并发
+症 ， 有利于患者早期下床活动 。 随机对照研究结果
+表明 ， 术后早期下床活动 、 规律呼吸功能训练及多
+饮水可预防压疮 、 深静脉血栓形成 、 肺部感染和尿
+路感染等并发症的发生
+［ 67 ］
+。
+推荐建议 26 ： 术前对患者进行宣教 ； 术后进行
+阶梯性康复训练 ， 可早期进行呼吸训练 、 肢体肌力
+训练 ， 并进行专业的康复评价 （ 推荐强度 ： 2 级 ， 证
+据等级 ： 中 ） 。
+六 、 总结与说明
+本指南旨在为腰椎间盘突出症管理提供标准
+化 、 规范化的指导建议 ， 其中的建议是通过查阅现
+有文献并经多次专家讨论会和调查问卷调查 ， 汇总
+专家意见 ， 依据循证医学原则形成的最终推荐意
+见 。 但是 ， 随着对腰椎间盘突出症的深入研究 ， 以
+及更多高质量临床研究证据出现 ， 目前指南的观点
+可能会随之更新 。 本指南并非腰椎间盘突出症管
+理的必备标准 ， 仅作为学术指导建议 ， 不作为法律
+依据 。 在实际临床工作中 ， 患者病情存在个体差
+异 ， 临 床 情 况 复 杂 多 变 ， 应 根 据 具 体 情 况 应 用 本
+指南 。
+《 腰椎间盘突出症诊治与康复管理指南 》 编审委员
+会成员
+顾问 （ 以姓名汉语拼音排序 ） ： 海涌 （ 首都医科大学附属北京
+朝阳医院 ） 、 吕国华 （ 中南大学湘雅二医院 ） 、 王沛 （ 天津医科
+大学总医院 ） 、 周跃 （ 陆军军医大学第二附属医院 ）
+成员 （ 以姓名汉语拼音排序 ） ： 蔡卫华 （ 江苏省人民医院 ） 、
+蔡 晓冰 （ 上海市第十人民医院 ） 、 曹富江 （ 天津医科大学总医
+院 ） 、 陈亮 （ 重庆大学附属肿瘤医院 ） 、 陈琳 （ 清华大学第二附
+属医院 ） 、 崔旭 （ 解放军总医院第八医学中心 ） 、 费琦 （ 首都医
+科大学附属北京友谊医院 ） 、 冯世庆 （ 天津医科大学总医
+院 ， 山东大学齐鲁医院 ） 、 郭涛 （ 贵州省人民医院 ） 、 郭晓东
+（ 华中科技大学同济医学院附属协和医院 ） 、 郝永宏 （ 天津市
+天津医院 ） 、 贺宝荣 （ 西安市红会医院 ） 、 李长青 （ 陆军军医大
+学第二附属医院 ） 、 李方财 （ 浙江大学医学院附属第二医
+院 ） 、 李浩鹏 （ 西安交通大学第二附属医院 ） 、 李忠海 （ 大连医
+科大学附属第一医院 ） 、 李中实 （ 中日友好医院 ） 、 廖晖 （ 华中
+科技大学同济医学院附属同济医院 ） 、 刘宝戈 （ 首都医科大
+学附属北京天坛医院 ） 、 刘铁 （ 首都医科大学附属北京朝阳
+医院 ） 、 刘新宇 （ 山东大学齐鲁医院 ） 、 刘阳 （ 大连医科大学附
+属第一医院 ） 、 刘洋 （ 海军军医大学第二附属医院 ） 、 鲁世保
+（ 首都医科大学宣武医院 ） 、 吕飞舟 （ 复旦大学附属华山医
+院 ） 、 马学晓 （ 青岛大学附属医院 ） 、 马迅 （ 山西白求恩医院 ） 、
+孟纯阳 （ 济宁医学院附属医院 ） 、 宁广智 （ 天津医科大学总医
+院 ） 、 彭松林 （ 暨南大学深圳市人民医院 ） 、 钱宇 （ 绍兴市人民
+医院 ） 、 任永信 （ 江苏省人民医院 ） 、 赛吉拉夫 （ 苏州大学骨科
+研究所 ） 、 宋纯理 （ 北京大学第三医院 ） 、 宋红星 （ 首都医科大
+学附属北京世纪坛医院 ） 、 孙宏慧 （ 西安市红会医院 ） 、 唐家 广
+（ 首都医科大学附属北京同仁医院 ） 、 王冰 （ 中南大学湘雅二
+医院 ） 、 王德利 （ 北京大学深圳医院 ） 、 王建儒 （ 中山大学附属
+第一医院 ） 、 王新涛 （ 哈尔滨医科大学附属第二医院 ） 、 吴占 勇
+（ 华北医疗邢台总医院 ） 、 武汉 （ 吉林大学中日联谊医院 ） 、
+夏 茂盛 （ 中国医科大学附属第一医院 ） 、 徐玉生 （ 郑州大学第
+一附属医院 ） 、 尹飞 （ 吉林大学中日联谊医院 ） 、 尤涛 （ 安徽医
+科大学附属第一医院 ） 、 于海龙 （ 北部战区总医院 ） 、 张军卫
+（ 中国康复研究中心北京博爱医院 ） 、 张强 （ 首都医科大学附
+·· 405
+
+中华外科杂志 2022 年 5 月第 60 卷第 5 期 ChinJSurg , May 2022 , Vol . 60 , No . 5
+属北京地坛医院 ） 、 张涛 （ 天津市第一中心医院 ） 、 张忠民 （ 南
+方医科大学南方医院 ） 、 赵凤东 （ 浙江大学医学院附属邵逸
+夫医院 ） 、 赵宇 （ 中国医学科学院北京协和医院 ） 、 朱如森
+（ 天 津市人民医院 ） 、 朱悦 （ 中国医科大学附属第一医院 ）
+执笔专家 （ 以姓名汉语拼音排序 ） ： 曹富江 、 李长青 、 刘新宇 、
+宁广智 、 王冰
+利益冲突 所有作者声明不存在利益冲突
+参 考 文 献
+[ 1 ] Andrews JC , Schünemann HJ , Oxman AD , et al . GRADE
+guidelines : 15 . Going from evidence to
+recommendation‑determinants of a recommendation ′ s
+direction and strength [ J ]. J Clin Epidemiol , 2013 , 66 ( 7 ):
+726 ‑ 735 . DOI : 10 . 1016 /j . jclinepi . 2013 . 02 . 003 .
+[ 2 ] Deyo RA , Mirza SK . Clinical practice . Herniated lumbar
+intervertebral disk [ J ]. N Engl J Med , 2016 , 374 ( 18 ):
+1763 ‑ 1772 . DOI : 10 . 1056 /NEJMcp 1512658 .
+[ 3 ] Kreiner DS , Hwang SW , Easa JE , et al . An evidence‑based
+clinical guideline for the diagnosis and treatment of
+lumbar disc herniation with radiculopathy [ J ]. Spine J , 2014 ,
+14 ( 1 ): 180 ‑ 191 . DOI : 10 . 1016 /j . spinee . 2013 . 08 . 003 .
+[ 4 ] Jensen RK , Kongsted A , Kjaer P , et al . Diagnosis and
+treatment of sciatica [ J ]. BMJ , 2019 , 367 : l 6273 . DOI :
+10 . 1136 /bmj . l 6273 .
+[ 5 ] Fardon DF , Williams AL , Dohring EJ , et al . Lumbar disc
+nomenclature : version 2 . 0 : recommendations of the
+combined task forces of the North American Spine Society ,
+the American Society of Spine Radiology and the
+American Society of Neuroradiology [ J ]. Spine J , 2014 ,
+14 ( 11 ): 2525 ‑ 2545 . DOI : 10 . 1016 /j . spinee . 2014 . 04 . 022 .
+[ 6 ] Macnab I . Negative disc exploration . An analysis of the
+causes of nerve‑root involvement in sixty‑eight patients
+[ J ]. J Bone Joint Surg Am , 1971 , 53 ( 5 ): 891 ‑ 903 .
+[ 7 ] 王沛 . 从腰椎间盘突出分类认识其病理实质及临床意义 [ J ].
+中 华 骨 科 杂 志 , 2008 , 28 ( 6 ): 520 ‑ 525 . DOI : 10 . 3321 /j . issn :
+0253 ‑ 2352 . 2008 . 06 . 018 .
+[ 8 ] Spengler DM . Lumbar discectomy . Results with limited
+disc excision and selective foraminotomy [ J ]. Spine ( Phila
+Pa 1976 ), 1982 , 7 ( 6 ): 604 ‑ 607 .
+[ 9 ] Fardon DF , Milette PC . Nomenclature and classification of
+lumbar disc pathology . Recommendations of the
+Combined task Forces of the North American Spine
+Society , American Society of Spine Radiology , and
+American Society of Neuroradiology [ J ]. Spine ( Phila Pa
+1976 ), 2001 , 26 ( 5 ): E 93 ‑E 113 . DOI : 10 . 1097 /
+00007632 ‑ 200103010 ‑ 00006 .
+[ 10 ] Mysliwiec LW , Cholewicki J , Winkelpleck MD , et al . MSU
+classification for herniated lumbar discs on MRI : toward
+developing objective criteria for surgical selection [ J ]. Eur
+Spine J , 2010 , 19 ( 7 ): 1087 ‑ 1093 . DOI : 10 . 1007 /
+s 00586 ‑ 009 ‑ 1274 ‑ 4 .
+[ 11 ] 王沛 , 郭世绂 . 腰骶神经通道和腰骶神经根病的发病学 [ J ].
+中华骨科杂志 , 1996 , 16 ( 12 ): 796 ‑ 798 . DOI : 10 . 3760 /j . issn :
+0253 ‑ 2352 . 1996 . 12 . 021 .
+[ 12 ] 王沛 . 有关腰椎间盘突出症和腰椎管狭窄症待讨论的问题
+[ J ]. 中 华 骨 科 杂 志 , 2002 , 22 ( 12 ): 763 ‑ 767 . DOI : 10 . 3760 /j .
+issn : 0253 ‑ 2352 . 2002 . 12 . 020 .
+[ 13 ] Deyo RA , Loeser JD , Bigos SJ . Herniated lumbar
+intervertebral disk [ J ]. Ann Intern Med , 1990 , 112 ( 8 ):
+598 ‑ 603 . DOI : 10 . 7326 / 0003 ‑ 4819 ‑ 112 ‑ 8 ‑ 598 .
+[ 14 ] Dahm KT , Brurberg KG , Jamtvedt G , et al . Advice to rest in
+bed versus advice to stay active for acute low‑back pain
+and sciatica [ J ]. Cochrane Database Syst Rev , 2010 ( 6 ):
+CD 007612 . DOI : 10 . 1002 / 14651858 . CD 007612 . pub 2 .
+[ 15 ] Frost H , Lamb SE , Doll HA , et al . Randomised controlled
+trial of physiotherapy compared with advice for low back
+pain [ J ]. BMJ , 2004 , 329 ( 7468 ): 708 . DOI : 10 . 1136 /
+bmj . 38216 . 868808 . 7 C .
+[ 16 ] Enthoven WT , Roelofs PD , Deyo RA , et al . Non‑steroidal
+anti‑inflammatory drugs for chronic low back pain [ J ].
+Cochrane Database Syst Rev , 2016 , 2 ( 2 ): CD 012087 . DOI :
+10 . 1002 / 14651858 . CD 012087 .
+[ 17 ] Enthoven W , Roelofs PD , Koes BW . NSAIDs for chronic low
+back pain [ J ]. JAMA , 2017 , 317 ( 22 ): 2327 ‑ 2328 . DOI :
+10 . 1001 /jama . 2017 . 4571 .
+[ 18 ] Chaparro LE , Furlan AD , Deshpande A , et al . Opioids
+compared with placebo or other treatments for chronic
+low back pain : an update of the Cochrane Review [ J ]. Spine
+( Phila Pa 1976 ), 2014 , 39 ( 7 ): 556 ‑ 563 . DOI : 10 . 1097 /
+BRS . 0000000000000249 .
+[ 19 ] Bostelmann R , Steiger HJ . Comment on" An evidence‑based
+clinical guideline for the diagnosis and treatment of
+lumbar disc herniation with radiculopathy" [ J ]. Spine J ,
+2014 , 14 ( 9 ): 2273 . DOI : 10 . 1016 /j . spinee . 2014 . 04 . 021 .
+[ 20 ] Balakrishnamoorthy R , Horgan I , Perez S , et al . Does a single
+dose of intravenous dexamethasone reduce symptoms in
+emergency department patients with low Back pain and
+RAdiculopathy ( SEBRA )? A double‑blind randomised
+controlled trial [ J ]. Emerg Med J , 2015 , 32 ( 7 ): 525 ‑ 530 . DOI :
+10 . 1136 /emermed‑ 2013 ‑ 203490 .
+[ 21 ] Qaseem A , Wilt TJ , McLean RM , et al . Noninvasive
+treatments for acute , subacute , and chronic low back pain :
+a clinical practice guideline from the american college of
+physicians [ J ]. Ann Intern Med , 2017 , 166 ( 7 ): 514 ‑ 530 . DOI :
+10 . 7326 /M 16 ‑ 2367 .
+[ 22 ] 张立国 , 徐玉良 , 巢金林 . 腰椎间盘突出症术后脱水剂的应
+用 [ J ]. 中国脊柱脊髓杂志 , 1998 , 8 ( 1 ): 30 ‑ 31 . DOI : 10 . 3969 /j .
+issn . 1004 ‑ 406 X . 1998 . 01 . 011 .
+[ 23 ] Williamson OD , Sagman D , Bruins RH , et al . Antidepressants
+in the treatment for chronic low back pain : questioning
+the validity of Meta‑analyses [ J ]. Pain Pract , 2014 , 14 ( 2 ):
+E 33 ‑E 41 . DOI : 10 . 1111 /papr . 12119 .
+[ 24 ] Ferraro MC , Bagg MK , Wewege MA , et al . Efficacy ,
+acceptability , and safety of antidepressants for low back
+pain : a systematic review and Meta‑analysis [ J ]. Syst Rev ,
+2021 , 10 ( 1 ): 62 . DOI : 10 . 1186 /s 13643 ‑ 021 ‑ 01599 ‑ 4 .
+[ 25 ] 中华医学会疼痛学分会脊柱源性疼痛学组 . 腰椎间盘突出
+症 诊 疗 中 国 疼 痛 专 家 共 识 [ J ]. 中 国 疼 痛 医 学 杂 志 , 2020 ,
+26 ( 1 ): 2 ‑ 6 . DOI : 10 . 3969 /j . issn . 1006 ‑ 9852 . 2020 . 01 . 002 .
+[ 26 ] OʼKeeffe M , Nolan D , OʼSullivan P , et al . Re : Aleksiev AR .
+Ten‑year follow‑up of strengthening versus flexibility
+exercises with or without abdominal bracing in recurrent
+low back pain [ J ]. Spine ( Phila Pa 1976 ), 2014 , 39 ( 24 ):
+E 1495 ‑E 1497 . DOI : 10 . 1097 /BRS . 0000000000000620 .
+[ 27 ] Choi BK , Verbeek JH , Tam WW , et al . Exercises for
+prevention of recurrences of low‑back pain [ J ]. Occup
+Environ Med , 2010 , 67 ( 11 ): 795 ‑ 796 . DOI : 10 . 1136 /
+oem . 2010 . 059873 .
+[ 28 ] Ozturk B , Gunduz OH , Ozoran K , et al . Effect of continuous
+·· 406
+
+中华外科杂志 2022 年 5 月第 60 卷第 5 期 ChinJSurg , May 2022 , Vol . 60 , No . 5
+lumbar traction on the size of herniated disc material in
+lumbar disc herniation [ J ]. Rheumatol Int , 2006 , 26 ( 7 ):
+622 ‑ 626 . DOI : 10 . 1007 /s 00296 ‑ 005 ‑ 0035 ‑x .
+[ 29 ] Wegner I , Widyahening IS , van Tulder MW , et al . Traction
+for low‑back pain with or without sciatica [ J ]. Cochrane
+Database Syst Rev , 2013 , 2013 ( 8 ): CD 003010 . DOI : 10 . 1002 /
+14651858 . CD 003010 . pub 5 .
+[ 30 ] Furlan AD , van Tulder MW , Cherkin DC , et al . Acupuncture
+and dry‑needling for low back pain [ J ]. Cochrane Database
+Syst Rev , 2005 ( 1 ): CD 001351 . DOI : 10 . 1002 / 14651858 .
+CD 001351 . pub 2 .
+[ 31 ] Knezevic NN , Candido KD , Vlaeyen J , et al . Low back pain [ J ].
+Lancet , 2021 , 398 ( 10294 ): 78 ‑ 92 . DOI : 10 . 1016 /
+S 0140 ‑ 6736 ( 21 ) 00733 ‑ 9 .
+[ 32 ] Khanna P , Sarkar S , Garg B . Anesthetic considerations in
+spine surgery : what orthopaedic surgeon should know ![ J ].
+J Clin Orthop Trauma , 2020 , 11 ( 5 ): 742 ‑ 748 . DOI : 10 . 1016 /j .
+jcot . 2020 . 05 . 005 .
+[ 33 ] Lamperti M , Tufegdzic B , Avitsian R . Management of
+complex spine surgery [ J ]. Curr Opin Anaesthesiol , 2017 ,
+30 ( 5 ): 551 ‑ 556 . DOI : 10 . 1097 /ACO . 0000000000000494 .
+[ 34 ] Baenziger B , Nadi N , Doerig R , et al . Regional versus general
+anesthesia : effect of anesthetic techniques on clinical
+outcome in lumbar spine surgery : a prospective
+randomized controlled trial [ J ]. J Neurosurg Anesthesiol ,
+2020 , 32 ( 1 ): 29 ‑ 35 . DOI : 10 . 1097 /ANA . 000000000000
+0555 .
+[ 35 ] Wang W , Ni BB , Shen H , et al . Comparison of surgical
+outcomes of lumbar disc herniation using local
+anesthesia and epidural anesthesia : a Meta‑analysis [ J ].
+Medicine ( Baltimore ), 2020 , 99 ( 33 ): e 18958 . DOI : 10 . 1097 /
+MD . 0000000000018958 .
+[ 36 ] De Rojas JO , Syre P , Welch WC . Regional anesthesia versus
+general anesthesia for surgery on the lumbar spine : a
+review of the modern literature [ J ]. Clin Neurol Neurosurg ,
+2014 , 119 : 39 ‑ 43 . DOI : 10 . 1016 /j . clineuro . 2014 . 01 . 016 .
+[ 37 ] Sairyo K , Chikawa T , Nagamachi A . State‑of‑the‑art
+transforaminal percutaneous endoscopic lumbar surgery
+under local anesthesia : discectomy , foraminoplasty , and
+ventral facetectomy [ J ]. J Orthop Sci , 2018 , 23 ( 2 ): 229 ‑ 236 .
+DOI : 10 . 1016 /j . jos . 2017 . 10 . 015 .
+[ 38 ] Allain J , Dufour T . Anterior lumbar fusion techniques : ALIF ,
+OLIF , DLIF , LLIF , IXLIF [ J ]. Orthop Traumatol Surg Res , 2020 ,
+106 ( 1 Suppl ): S 149 ‑S 157 . DOI : 10 . 1016 /j . otsr . 2019 . 05 . 024 .
+[ 39 ] Mamuti M , Fan S , Liu J , et al . Mini‑open anterior lumbar
+interbody fusion for recurrent lumbar disc herniation
+following posterior instrumentation [ J ]. Spine ( Phila Pa
+1976 ), 2016 , 41 ( 18 ): E 1104 ‑E 1114 . DOI : 10 . 1097 /BRS .
+0000000000001569 .
+[ 40 ] 郑召民 , 王建儒 . 开展侧方入路腰椎间融合术应思考的几个
+问 题 [ J ]. 中 国 脊 柱 脊 髓 杂 志 , 2018 , 28 ( 5 ): 385 ‑ 388 . DOI :
+10 . 3969 /j . issn . 1004 ‑ 406 X . 2018 . 05 . 01 .
+[ 41 ] Zhang D , Zhang Y , Wang Z , et al . Target radiofrequency
+combined with collagenase chemonucleolysis in the
+treatment of lumbar intervertebral disc herniation [ J ]. Int J
+Clin Exp Med , 2015 , 8 ( 1 ): 526 ‑ 532 .
+[ 42 ] Wu S , Li X , Lin C , et al . CT‑guided nucleoplasty with
+radiofrequency energy for the treatment of lumbar disk
+herniation [ J ]. J Spinal Disord Tech , 2015 , 28 ( 1 ): E 9 ‑E 16 . DOI :
+10 . 1097 /BSD . 0000000000000132 .
+[ 43 ] Manchikanti L , Derby R , Benyamin RM , et al . A systematic
+review of mechanical lumbar disc decompression with
+nucleoplasty [ J ]. Pain Physician , 2009 , 12 ( 3 ): 561 ‑ 572 .
+[ 44 ] Gibson JN , Waddell G . Surgical interventions for lumbar
+disc prolapse [ J ]. Cochrane Database Syst Rev , 2007 ,
+2007 ( 2 ): CD 001350 . DOI : 10 . 1002 / 14651858 . CD 001350 .
+pub 4 .
+[ 45 ] van den Akker‑van Marle ME , Brouwer PA , Brand R , et al .
+Percutaneous laser disc decompression versus
+microdiscectomy for sciatica : cost utility analysis
+alongside a randomized controlled trial [ J ]. Interv
+Neuroradiol , 2017 , 23 ( 5 ): 538 ‑ 545 . DOI : 10 . 1177 /
+1591019917710297 .
+[ 46 ] 中华医学会放射学分会介入学组 . 腰椎间盘突出症的介入
+和 微 创 治 疗 操 作 规 范 的 专 家 共 识 [ J ]. 中 华 放 射 学 杂 志 ,
+2014 , 48 ( 1 ): 10 ‑ 12 . DOI : 10 . 3760 /cma . j . issn . 1005 ‑ 1201 .
+2014 . 01 . 004 .
+[ 47 ] 周恒星 , 冯世庆 , 宁广智 , 等 . 直视下选择性神经根管减压术
+治 疗 腰 骶 神 经 根 病 的 疗 效 评 价 [ J ]. 中 华 骨 科 杂 志 , 2013 ,
+33 ( 7 ): 689 ‑ 694 . DOI : 10 . 3760 /cma . j . issn . 0253 ‑ 2352 .
+2013 . 07 . 001
+[ 48 ] Mobbs RJ , Phan K , Malham G , et al . Lumbar interbody
+fusion : techniques , indications and comparison of
+interbody fusion options including PLIF , TLIF , MI‑TLIF ,
+OLIF/ATP , LLIF and ALIF [ J ]. J Spine Surg , 2015 , 1 ( 1 ): 2 ‑ 18 .
+DOI : 10 . 3978 /j . issn . 2414 ‑ 469 X . 2015 . 10 . 05 .
+[ 49 ] Tanavalee C , Limthongkul W , Yingsakmongkol W , et al . A
+comparison between repeat discectomy versus fusion for
+the treatment of recurrent lumbar disc herniation :
+systematic review and Meta‑analysis [ J ]. J Clin Neurosci ,
+2019 , 66 : 202 ‑ 208 . DOI : 10 . 1016 /j . jocn . 2019 . 05 . 004 .
+[ 50 ] Satoh I , Yonenobu K , Hosono N , et al . Indication of posterior
+lumbar interbody fusion for lumbar disc herniation [ J ]. J
+Spinal Disord Tech , 2006 , 19 ( 2 ): 104 ‑ 108 . DOI : 10 . 1097 / 01 .
+bsd . 0000180991 . 98751 . 95 .
+[ 51 ] Wang JC , Dailey AT , Mummaneni PV , et al . Guideline update
+for the performance of fusion procedures for
+degenerative disease of the lumbar spine . Part 8 : lumbar
+fusion for disc herniation and radiculopathy [ J ]. J
+Neurosurg Spine , 2014 , 21 ( 1 ): 48 ‑ 53 . DOI : 10 . 3171 / 2014 . 4 .
+SPINE 14271 .
+[ 52 ] Chi KY , Cheng SH , Kuo YK , et al . Safety of lumbar interbody
+fusion procedures for degenerative disc disease : a
+systematic review with network Meta‑analysis of
+prospective studies [ J ]. Global Spine J , 2021 , 11 ( 5 ): 751 ‑ 760 .
+DOI : 10 . 1177 / 2192568220938024 .
+[ 53 ] Lener S , Wipplinger C , Hernandez RN , et al . Defining the
+MIS‑TLIF : a systematic review of techniques and
+technologies used by surgeons worldwide [ J ]. Global Spine
+J , 2020 , 10 ( 2 Suppl ): 151 S‑ 167 S . DOI : 10 . 1177 /
+2192568219882346 .
+[ 54 ] Li R , Li X , Zhou H , et al . Development and application of
+oblique lumbar interbody fusion [ J ]. Orthop Surg , 2020 ,
+12 ( 2 ): 355 ‑ 365 . DOI : 10 . 1111 /os . 12625 .
+[ 55 ] Yin P , Zhang Y , Pan A , et al . The feasibility for a novel
+minimally invasive surgery‑percutaneous endoscopic
+transforaminal lumbar interbody fusion ( PE‑TLIF ) for the
+treatment of lumbar degenerative diseases : a cadaveric
+experiment [ J ]. J Orthop Surg Res , 2020 , 15 ( 1 ): 387 . DOI :
+10 . 1186 /s 13018 ‑ 020 ‑ 01930 ‑ 0 .
+[ 56 ] 张蒂 , 冯世庆 . 斜外侧腰椎椎间融合术 [ J ]. 中华骨科杂志 ,
+2017 , 37 ( 16 ): 1029 ‑ 1035 . DOI : 10 . 3760 /cma . j . issn . 0253 ‑
+·· 407
+
+中华外科杂志 2022 年 5 月第 60 卷第 5 期 ChinJSurg , May 2022 , Vol . 60 , No . 5
+2352 . 2017 . 16 . 010 .
+[ 57 ] Ostelo RW , van Tulder MW , Vlaeyen JW , et al . Behavioural
+treatment for chronic low‑back pain [ J ]. Cochrane
+Database Syst Rev , 2005 ( 1 ): CD 002014 . DOI : 10 . 1002 /
+14651858 . CD 002014 . pub 2 .
+[ 58 ] Calmels P , Queneau P , Hamonet C , et al . Effectiveness of a
+lumbar belt in subacute low back pain : an open ,
+multicentric , and randomized clinical study [ J ]. Spine ( Phila
+Pa 1976 ), 2009 , 34 ( 3 ): 215 ‑ 220 . DOI : 10 . 1097 /BRS . 0 b 013 e
+31819577 dc .
+[ 59 ] Hagen KB , Jamtvedt G , Hilde G , et al . The updated cochrane
+review of bed rest for low back pain and sciatica [ J ]. Spine
+( Phila Pa 1976 ), 2005 , 30 ( 5 ): 542 ‑ 546 . DOI : 10 . 1097 / 01 .
+brs . 0000154625 . 02586 . 95 .
+[ 60 ] Kovacs FM , Abraira V , Peña A , et al . Effect of firmness of
+mattress on chronic non‑specific low‑back pain :
+randomised , double‑blind , controlled , multicentre trial [ J ].
+Lancet , 2003 , 362 ( 9396 ): 1599 ‑ 1604 . DOI : 10 . 1016 /
+S 0140 ‑ 6736 ( 03 ) 14792 ‑ 7 .
+[ 61 ] Hoshang BA , Ziaeddin SF , Asghar R . Lumbar stabilizing
+exercises improve activities of daily living in patients with
+lumbar disc herniation [ J ]. J Back Musculoskelet , 2005 ,
+18 ( 3 ‑ 4 ): 55 ‑ 60 . DOI : 10 . 1080 / 13682820400006028 .
+[ 62 ] Long A , Donelson R , Fung T . Does it matter which exercise ?
+A randomized control trial of exercise for low back pain [ J ].
+Spine ( Phila Pa 1976 ), 2004 , 29 ( 23 ): 2593 ‑ 2602 . DOI :
+10 . 1097 / 01 . brs . 0000146464 . 23007 . 2 a .
+[ 63 ] Clare HA , Adams R , Maher CG . A systematic review of
+efficacy of McKenzie therapy for spinal pain [ J ]. Aust J
+Physiother , 2004 , 50 ( 4 ): 209 ‑ 216 . DOI : 10 . 1016 /
+s 0004 ‑ 9514 ( 14 ) 60110 ‑ 0 .
+[ 64 ] Patti A , Bianco A , Paoli A , et al . Effects of Pilates exercise
+programs in people with chronic low back pain : a
+systematic review [ J ]. Medicine ( Baltimore ), 2015 , 94 ( 4 ):
+e 383 . DOI : 10 . 1097 /MD . 0000000000000383 .
+[ 65 ] Tilbrook HE , Cox H , Hewitt CE , et al . Yoga for chronic low
+back pain : a randomized trial [ J ]. Ann Intern Med , 2011 ,
+155 ( 9 ): 569 ‑ 578 . DOI : 10 . 7326 / 0003 ‑ 4819 ‑ 155 ‑ 9 ‑
+201111010 ‑ 00003 .
+[ 66 ] Sherman KJ , Cherkin DC , Wellman RD , et al . A randomized
+trial comparing yoga , stretching , and a self‑care book for
+chronic low back pain [ J ]. Arch Intern Med , 2011 , 171 ( 22 ):
+2019 ‑ 2026 . DOI : 10 . 1001 /archinternmed . 2011 . 524 .
+[ 67 ] Filiz M , Cakmak A , Ozcan E . The effectiveness of exercise
+programmes after lumbar disc surgery : a randomized
+controlled study [ J ]. Clin Rehabil , 2005 , 19 ( 1 ): 4 ‑ 11 . DOI :
+10 . 1191 / 0269215505 cr 836 oa .
+· 读者 · 作者 · 编者 ·
+《 中华外科杂志 》 对参考文献著录的要求
+本刊编辑部
+执行 GB/T 7714 — 2005 《 文后参考文献著录规则 》 。 采用顺序编码制著录 ， 依照其在文中出现的先后顺序用阿拉伯数字标
+出 ， 并将序号置于方括号中 ， 排列于文后 。 内部刊物 、 未发表资料 （ 不包括已被接受的待发表资料 ） 、 个人通信等一般不作为文
+献引用 ， 如有特殊情况确需引用时 ， 可将其在正文相应处注明 。 日文汉字请按日文规定书写 ， 不应与我国汉字及简化字混淆 。
+同一文献作者不超过 3 人全部著录 ； 超过 3 人只著录前 3 人 ， 后依文种加表示 “， 等 ” 的文字 。 作者姓名一律姓氏在前 、 名字在
+后 ， 外国人的名字采用首字母缩写形式 ， 缩写名后不加缩写点 ； 不同作者姓名之间用 “， ” 隔开 ， 不用 “ 和 ” “ and ” 等连词 。 题名后
+请标注文献类型标志 。 文献类型和电子文献载体标志代码参照 GB 3469 — 1983 《 文献类型与文献载体代码 》 。 外文期刊名称
+用缩写 ， 可以采用国际医学期刊编辑委员会推荐的 NLM ′ sCitingMedicine （ www . ncbi . nlm . nih . gov/books/NBK 7256 ） 中的格式 。 中
+文期刊用全名 。 期刊需标注期数 。 每条参考文献均须著录起止页及 DOI 。 示例如下 ：
+［ 1 ］ 彭颖 ， 修典荣 ， 蒋斌 ， 等 . 应用两种定义标准判断胰头部导管腺癌切除标本 R 1 切缘的临床研究 ［ J ］ . 中华外科杂志 ，
+2014 ， 52 （ 11 ） ： 834 ‑ 838 . DOI ： 10 . 3760 /cma . j . issn . 0529 ‑ 5815 . 2014 . 11 . 012 .
+［ 2 ］ KingsnorthAN ， LeBlancKA . 腹 壁 疝 外 科 治 疗 学 ［ M ］ . 唐 健 雄 ， 黄 磊 ， 译 . 4 版 . 上 海 ： 上 海 科 学 技 术 出 版 社 ， 2014 ：
+225 ‑ 227 .
+·· 408

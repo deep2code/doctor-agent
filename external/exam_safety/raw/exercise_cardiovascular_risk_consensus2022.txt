@@ -1,0 +1,974 @@
+来源：中国循环杂志／运动相关心血管事件风险的评估与监测中国专家共识（北京医院心内科、国家老年医学中心牵头）
+URL：https://xadxyylib.yuntsg.com/ueditor/jsp/upload/file/20240322/1711076065272090028.pdf
+发布时间：《中国循环杂志》2022 年 7 月第 37 卷第 7 期（总第 289 期），正文起始页 659
+抓取方式：curl 下载期刊 PDF 镜像 + PyMuPDF 文本抽取，正文至参考文献前，去除「读者·作者·编者」栏目尾
+
+659
+中国循环杂志 2022 年7 月 第37 卷 第7 期(总第289 期)Chinese Circulation Journal,July,2022,Vol. 37 No.7(Serial No.289)
+摘要
+适量的体力活动能够提高心肺耐力、降低心血管疾病的发生率及全因死亡率。尽管其绝对风险很低,高强度的
+运动也可能使心原性猝死(SCD)和心肌梗死等恶性心血管事件发生的风险升高。对于初始参加运动训练、准备提升
+运动等级或者合并心血管危险因素的人群,运动进行前医学筛查、心血管疾病风险筛查与分层非常重要。本文旨在
+为我国医疗卫生机构等专业机构提供一套指导群众运动爱好者进行心血管风险评估与监测的技术指南,帮助早期识
+别并及时防控运动相关风险因素,并从专业角度提出政策建议。
+关键词 体力活动;运动;心肺耐力;风险评估;筛查
+Chinese Expert Consensus on Evaluation and Monitoring of Exercise Related Cardiovascular Risk 
+Cardiovascular Health and Scientific Sports Branch of China Health Culture Association.
+Correspondence Author: WANG Fang, Email: bjh_wangfang@163.com
+运动相关心血管事件风险的评估与监测中国专家共识
+中国医药卫生文化协会心血管健康与科学运动分会
+指南与共识
+基金项目:国家重点研发计划主动健康和老龄化科技应对重点专项(2020YFC2008100)
+通信作者单位:100730 北京市,北京医院 心内科 国家老年医学中心 中国医学科学院 老年医学研究院
+通信作者:汪芳 Email: bjh_wangfang@163.com
+中图分类号:R54 文献标识码:C 文章编号:1000-3614(2022)07-0659-10 DOI: 10.3969/j.issn.1000-3614.2022.07.002
+Abstract
+Clinical evidences sufficiently proved that moderate physical activities could improve cardiorespiratory endurance, 
+reduce the incidence of cardiovascular morbidity and mortality. Although the absolute risk is very low, high-intensity sports 
+sometimes are related to increased risk of malignant cardiovascular events including sudden cardiac death and myocardial 
+infarction. For people who initially participate in physical activity, upgrade exercise level, or with cardiovascular risk factors, 
+it is of importance to perform the pre-exercise medical screening,cardiovascular disease risk screening and stratification. 
+This expert consensus aims to provide a set of technical guidelines for Chinese medical and health institutions and other 
+professional institutions to guide mass sports enthusiasts to carry out cardiovascular risk evaluation and monitoring, help early 
+identification and timely prevention and control of sports-related risk factors, and put forward policy recommendations from a 
+professional perspective. 
+Key words physical activity; exercise; cardiorespiratory endurance; risk evaluation; screening
+
+(Chinese Circulation Journal, 2022, 37: 659.)
+近年来,随着健康中国建设、全民健身国家战
+略
+[1-2] 的深入实施,国家基本公共卫生服务水平不
+断提高,人民群众通过健身促进健康的意识日渐增
+强,参加体育锻炼人数比例持续增长。城乡居民个
+性化运动健身的需求得到进一步满足,对耐力性运
+动项目(如长跑/ 马拉松、游泳、自行车等)的热情
+高涨。
+运动是心血管疾病预防、治疗、康复非常重要
+的策略和措施,适量的体力活动能够提高心肺耐力、
+降低心血管疾病的发生率及全因死亡率。虽然在参
+与运动时发生心肌梗死、心原性猝死(SCD)等严重
+心血管事件概率很低,但当年龄偏大、有基础性疾
+病、选择了不适合自己的运动项目、在不合适的时
+间点运动或者进行了较高强度、较长时间运动时,
+还是有一定的发生风险,且一旦发生往往会造成较
+大的社会影响。因此,需要出台评估运动时心血管
+风险的技术指南或规范,引导人民群众科学运动健
+身、有效降低严重心血管事件的风险。
+中国医药卫生文化协会心血管健康与科学运动
+分会组建了专家组,邀请运动生理学、运动康复、
+660
+中国循环杂志 2022 年7 月 第37 卷 第7 期(总第289 期)Chinese Circulation Journal,July,2022,Vol. 37 No.7(Serial No.289)
+心血管内科学、急诊医学、微电子/ 网络科学、临
+床流行病学及大数据分析等领域专家,广泛检索国
+内外相关研究最新数据和证据,针对我国城乡居民
+运动健身实际情况,经分工撰写、集体讨论和反复
+论证,编写了《运动相关心血管事件风险的评估与
+监测中国专家共识》(以下简称《共识》)。
+《共识》分为五个部分,包括背景、运动相关
+心血管健康风险分层、运动人群的心血管风险评估、
+运动时心血管健康风险监测和紧急措施、政策建议。
+本《共识》强调专业性、示范性和可操作性,旨在为
+相关机构开展城乡居民运动相关心血管风险的评估
+和监测提供技术指导。期望《共识》能切实减少运
+动相关心血管事件的风险,有效保障耐力性运动和
+(或)赛事的安全,服务我国全民健身事业发展,助
+力体育强国、健康中国目标的实现。
+1 共识背景
+1.1 体力活动有益健康
+众所周知,久坐行为与人群的全因死亡率、心
+血管发病率和死亡率、2 型糖尿病发病率以及结肠
+癌和肺癌等肿瘤的发病率升高直接相关
+[3-4]。而死
+亡风险则随着久坐时间的增加而逐渐增加,随着体
+力活动运动量的增加而逐渐降低
+[5]。有久坐行为的
+群体,在增加了体力活动后,死亡风险也会下降
+[3]。
+体力活动不仅可以提高心肺耐力,还可以改善血压、
+血糖、血脂
+[4]、体重指数(BMI)等心血管疾病危险
+因素
+[5-6]。体力活动存在剂量依赖效应,不管有氧运
+动、抗阻运动,还是柔韧性运动,运动量越大,效
+果越明显,个体获益越多
+[6-7]。
+我国的“十四五”规划和2035 年远景目标纲要
+草案提出要全面建设健康中国。2021 年国务院发布
+《全民健身计划(2021~2025 年)》中提出要广泛开展
+全民健身运动赛事,提升科学健身指导服务水平
+[8]。
+运动也成为健康生活方式中不可或缺的一环,甚至
+成为了新的社交方式。欧美也针对普通人群制定了
+体力活动的指导建议和指南,指出体力活动包括非
+计划性的活动和有专业训练计划的运动。不同人群
+应遵从不同的流程和方案
+[6, 9-13]。
+1.2 运动对部分人群存在健康风险
+随着时代的发展,大众并不满足于日常体力活
+动,越来越多的人参与到高强度的运动及运动赛事
+中来。半程马拉松、全程马拉松、百公里越野跑、
+铁人三项等活动赛事均受到欢迎。虽然运动量与心
+肺功能获益存在剂量依赖关系
+[14],但是不可避免的
+是,随着运动强度的增加,心血管疾病风险也会随
+之增加
+[14]。心血管疾病风险中除了血压波动,心
+律失常,人们最关心的还是SCD 和急性心肌梗死
+(AMI)。对于竞技性运动员,进行耐力型比赛项目(如
+跑步、自行车和铁人三项等)中,SCD 发生率可达
+0.4/10 万~3.3/10 万。法国一项全国性调查中,对于
+普通大众,运动相关SCD 的发生率为0.46/10 万
+[15]。 
+美国一项国防部的死亡注册研究提示,<35 岁人群
+不明原因突发死亡的发生率为1.2/10 万,≥35 岁
+人群中为2.0/10 万
+[16]。但针对运动员的研究均提示,
+运动相关SCD 在年轻运动员中更高发
+[17-18]。对于普
+通人群,年龄增长是SCD 和AMI 发生的危险因素
+[19]。 
+美国一项针对1 000 多万马拉松人群的研究显示,
+SCD 的发生率为0.54/10 万
+[20]。高强度运动会增加
+AMI 和SCD 的风险,高山滑雪
+[21]、马拉松赛跑
+[20]、
+铁人三项
+[22]、篮球等高强度运动中急性心血管事件
+的发生率可能高于其他运动项目。
+多项研究也提示,男性SCD 的风险高于女
+性
+[16, 22-23]。对于选择不同专业运动的竞技型运动
+员,SCD 发生风险在不同类型运动中存在差异
+[22];
+但对于普通人群的体力活动,SCD 风险与活动类型
+并不相关
+[24]。运动相关SCD 风险最高的人群在美国
+是黑种人男性运动员和篮球运动员,在四万到八万
+分之一之间,在法国则是自行车和田径运动员,英
+国、德国以足球和跑步人群为多
+[25-27]。SCD 可以发
+生在运动当中,也可以发生在运动后和休息时
+[28-29]。 
+我国迄今尚未建立健全的相关数据库或开展大规模
+观察性研究,因此关于运动性猝死的资料非常有
+限。一些小规模的回顾性研究提示,国人发生的运
+动相关性猝死大多为心原性,男性风险显著高于女
+性(7.0~9.3:1.0),猝死者主要集中在15~20 岁青少
+年和退休人群,相关的运动项目包括长跑、田径、
+篮球和足球等
+[30]。由于基线特征的差异,不同人群
+在从事同一种运动时,猝死风险的差异可近100 倍,
+如不同年龄、性别、合并不同心血管疾病危险因素
+的个体在参与长跑运动时猝死发生率可波动于16/10
+万~155/10 万名参赛者之间
+[30-32]。因此为了更好地
+识别出猝死风险高的运动参与者,进行运动前的心
+血管风险评估非常重要。
+1.3 运动相关SCD 的原因分析
+虽然习惯性体力活动有助于降低心血管疾病发
+生风险,但是高强度体力活动(≥60% 摄氧量储备
+或≥6 个代谢当量或≥自我疲劳指数评分14 分)也
+会增加SCD、AMI 和脑卒中风险
+[33-34]。心肌缺血、
+脱水导致的高凝状态,运动诱发心律失常是SCD 发
+661
+中国循环杂志 2022 年7 月 第37 卷 第7 期(总第289 期)Chinese Circulation Journal,July,2022,Vol. 37 No.7(Serial No.289)
+生的可能机制。马拉松等脱水或者补液不当,引发
+电解质浓度异常也是重要因素。强度过高的运动,
+尤其是突然的、非常规的、涉及高水平无氧代谢的
+运动,对于未接受专业训练者以及有潜在心血管疾
+病者,是存在一定隐患风险的。
+对于运动相关SCD 的原因,不同人群、不同
+年龄段、不同性别略有差异。在美国一项军队系统
+研究中,<35 岁SCD 人群,最常见的原因是不明
+原因死亡,占41.3%,≥35 岁SCD 人群,最常见
+的原因是动脉粥样硬化,占73.2%
+[16]。既往研究中,
+成人发生运动相关SCD 的最主要原因是非急性冠状
+动脉疾病和运动诱发的心肌缺血,急性斑块破裂诱
+发的急性冠状动脉综合征是第二常见原因
+[35]。在一
+项观察10 年,累计千万人的马拉松人群SCD 的研
+究中,最常见的死因是确诊的肥厚型心肌病,其次
+是可疑的肥厚型心肌病
+[20]。多项运动员中进行的研
+究也证实,大多数运动相关SCD 病例在尸检时没有
+可识别的原因,被归类为突发性心律失常死亡或心
+脏结构正常的SCD
+[36-39]。其次需要关注致心律失常
+性右心室心肌病(ARVC)。由于女性运动相关SCD
+的风险明显低于男性,仅为男性的1/51~1/4,所以
+死因构成也不尽相同,41.7% 运动相关SCD 女性未
+发现明确原因
+[23]。
+除了SCD 风险,长时间高强度运动训练可能导
+致不良的心脏重塑并增加运动员发生心律失常的风
+险
+[39-41]。也有多项研究显示,看似健康的运动员发
+生右心室功能障碍、心肌纤维化、冠状动脉粥样硬
+化以及心房颤动的风险显著增加
+[35, 42-43]。因此,对
+于希望开始体力活动或者习惯性进行运动训练的人
+群,定期进行相应的心血管风险评估显得尤为重要。
+1.4 心肺耐力(CRF)的重要性日益提高
+近年来,许多研究已经表明了CRF 在预测个体
+不良健康风险方面的重要性
+[6-7]。健康人群中CRF
+较好,心血管疾病发病率和死亡率较低。心血管疾
+病患者中,随着CRF 水平的增加,临床不良事件
+风险降低,呈线性负相关
+[8-10, 44]。流行病学研究表
+明,每周150 min 的中等强度体育活动(40%~60%
+的摄氧量储备或3~6 个代谢当量或自我疲劳指数评
+分12~13 分)或75 min 高强度体育活动与降低心血
+管疾病发病率和过早死亡率有关
+[11-12]。妙佑医疗国
+际和多伦多康复研究所的研究证实了CRF 水平与
+15%~35% 的生存效益相关
+[16-17]。相比传统的健康状
+况预测因素,低CRF 不仅与高血压、肥胖、高脂血
+症、2 型糖尿病及心血管疾病的严重程度关系密切,
+而且也与死亡率相关
+[7,13-15]。WHO 提倡每周至少进
+行150 min 中等强度或75 min 高强度有氧运动,以
+降低心血管疾病发病率和死亡率
+[24]。国内数据显示,
+在12~15 岁的青少年中,一半男孩和三分之二女孩
+的CRF 未达到健康水平;在肥胖青年中,CRF 达
+到健康水平者只有五分之一。因此,增强CRF 是
+改善人体健康状况、预防疾病、延长寿命的重要手
+段之一。 
+2 运动相关心血管健康风险分层
+对于普通人群,运动开始前,可鉴别的心血管
+危险因素都是传统的冠心病因素,如高血压、高脂
+血症、糖尿病、肥胖、吸烟、家族史等。相较既往
+指南,美国运动医学会(ACSM)第10 版指南作出了
+大幅改动。运动前健康筛查,决定危险分层的仅纳
+入三个核心内容:运动习惯、症状、疾病状态。运
+动习惯定义为最近三个月,有氧运动频率大于每周
+三次,至少30 min 的中等强度运动。在美国每年约
+有60 万人死于心脏疾病,但其中仅有很少一部分
+人死于运动相关SCD
+[45]。所以用传统冠心病危险因
+素评估运动风险,并不十分恰当准确。因为那些即
+便有冠心病危险因素,或者因为工作久坐时间长者,
+或者肥胖患者,在进行了规律体力活动后,CRF 均
+可提升,死亡风险也大幅下降
+[46]。
+运动相关的心血管风险也是在动态变化的。因
+为对于很多人,运动习惯难以长期保持。停止运动
+后,个体的心血管获益会减小,危险分层可能升级。
+或者随着年龄的增长,冠心病危险因素增多,心肺
+功能下降,也会导致危险分层的变化。反之,即便
+得过心肌梗死,做过心脏手术的患者,随着生活方
+式的改善和规律运动习惯的养成,运动相关SCD 风
+险也会降级。
+基于国内外相关研究证据,本共识推荐将运动
+相关心血管风险分为低风险状态和高风险状态两个
+层级。
+低风险状态:运动者与同龄、同性别的健康人
+群具有相同运动相关心血管事件风险的状态。
+高风险状态:由于合并有高龄、明确的心血管
+疾病、2 型糖尿病或肾脏疾病等多种危险因素或将
+参与极具风险挑战的运动(如极限登山、高山滑雪、
+铁人三项等),导致运动者发生运动相关心血管事
+件的绝对风险显著高于同龄、同性别的健康人群的
+状态。
+运动相关危险分层主要依据的变量包括以下11
+项,其中核心变量4 项、非核心变量7 项,见表1。
+662
+中国循环杂志 2022 年7 月 第37 卷 第7 期(总第289 期)Chinese Circulation Journal,July,2022,Vol. 37 No.7(Serial No.289)
+不存在核心变量且至多存在1 项非核心变量即
+为低风险状态;存在有至少1 项核心变量或2 项以
+上非核心变量即为高风险状态。
+3 运动人群的心血管风险评估
+3.1 运动人群的心血管评估项目
+运动相关心血管风险评估是指在参与运动的人
+群中或运动过程中,为了筛查已存在的心血管疾病
+或心血管事件的风险,避免发生运动相关的心血管
+事件,所进行的主要针对心血管疾病风险的评估。
+运动人群心血管风险评估主要从结构、冠状动脉供
+血、心律失常及心功能四个方面进行。各检查手段
+对心血管疾病的诊断效力见表2。
+表1 运动相关危险分层主要依据的变量
+项目
+运动相关的心血管风险
+核心变量
+·年龄(男性>50 岁、女性>60 岁)
+·合并明确的心血管疾病、2 型糖尿病或肾脏疾病
+·有早发(男性<55 岁,女性<65 岁)冠心病或其他先天性、
+遗传性心脏病家族史
+·参加或准备参加高危极限运动
+非核心变量
+·缺乏规律的运动习惯
+·存在提示有心血管疾病可能的胸闷、胸痛、呼吸困难等 
+临床症状
+·男性>40 岁,女性绝经后
+·吸烟
+·高血压
+·高胆固醇血症
+·肥胖
+表2 各检查手段对心血管疾病的诊断效力
+项目
+心脏结构
+心肌缺血
+心律失常
+心脏功能
+对运动状态的评估能力
+心电图
++
+++
+++
+-
+-
+动态心电图
+-
++
+++++
+-
++
+超声心动图
++++
+++
+-
++++
++
+负荷心电图
+-
++++
+++
+-
+++
+心肺运动试验
++
++++
+++
++++
++++
+冠状动脉CT 血管造影/ 冠状动脉造影
++
+++++
+-
+-
+-
+心肌核素显像
+++
++++
+-
++++
++~++
+心脏磁共振成像
+++++
++++
+-
++++
+-
+基因检查
+++
+-
+++
+-
+-
+注:+:推荐等级;-:无证据推荐
+3.1.1 心脏结构的评估
+评估心脏结构除了了解心脏腔室大小、瓣膜
+开闭状况,更为重要的是筛查肥厚型心肌病。几项
+大型病例系列研究评估了35 岁以下运动员的突发
+SCD,大多数病例都有结构性心脏病,最常见的是
+肥厚型心肌病
+[28, 36-37]。肥厚型心肌病及高危先天性
+冠状动脉畸形是最常提及的年轻人发生SCD 的原
+因,虽然近期也有研究发现年轻人中突发心律失常
+综合征占据的比例更大
+[16, 23, 29],但心脏结构异常仍
+是不容忽视的问题。评估心脏结构主要手段包括超
+声心动图、心电图、冠状动脉CT 血管造影和心脏
+磁共振成像(CMR),以及有创性的冠状动脉造影。
+冠状动脉CT 血管造影和冠状动脉造影还可以排除
+先天性冠状动脉畸形。具体选择何种检查,应由心
+血管专科医生根据情况而定。
+3.1.2 心肌供血的评估
+心脏冠状动脉系统的风险评估在>40 岁的运动
+人群中尤为重要。在40 岁以上剧烈运动过程中或
+运动后即刻出现心跳骤停或SCD 的人群中,最常
+见的病理发现是动脉粥样硬化性心脏病
+[24, 41]。冠心
+病发病率和患病率均很高,有大量已确诊冠心病的
+人群有运动需求和运动习惯,对这部分人群,进行
+良好的运动前和运动期间风险评估尤为重要。评估
+心肌缺血的检查方法包括运动平板试验、心肺运动
+试验(CPET)、负荷超声心动图、负荷心肌灌注显
+像(rMPI)、冠状动脉CT 血管造影和冠状动脉造影。
+有医学检查需求,例如出现运动后呼吸困难、运动
+时胸痛、运动后头晕或想提升运动等级的人群,可
+以由医生进行申请。CPET 相较于其他检查,既可
+用于心血管疾病风险的筛查,又可进行个体化运动
+指导,使运动更科学、更安全、更高效。
+3.1.3 心律失常的评估
+既往研究认为心脏结构异常是年轻人运动相关
+猝死的主要原因,但是一项Meta 分析也发现35 岁
+以下SCD 的年轻人中,因肥厚型心肌病而死亡的比
+例并不比其他人群更高
+[29, 39]。近期有研究对运动员
+出现运动相关的SCD 者进行尸检,尸检结果显示
+这部分人群的心脏结构异常并不占主要原因,而且
+仅60% 的猝死发生在剧烈运动中,提出突发心律失
+常综合征是运动员SCD 的主要原因
+[29, 39]。因此,有
+663
+中国循环杂志 2022 年7 月 第37 卷 第7 期(总第289 期)Chinese Circulation Journal,July,2022,Vol. 37 No.7(Serial No.289)
+图1 运动人群的心血管风险筛查流程
+注:ECG:心电图;ECHO:超声心动图;CPET:心肺运动试验;CAD:冠心病;HDKD:心血管、糖尿病或肾脏疾病;CTA:CT 血管造影;PET:
+正电子发射型计算机断层显像;SPECT:单光子发射计算机断层摄影术;CMR:心脏磁共振成像;GENE:基因检测;先心病:先天性心脏病;+:
+检查结果有异常;-:检查结果正常
+关心律失常的评估尤为重要。筛查恶性心律失常的
+手段包括静息心电图、动态心电图、运动心电图、
+CPET。少数情况下,需要进行电生理检查及基因筛
+查。重点筛查离子通道疾病,例如Brugada 综合征、
+长QT 综合征等。
+3.1.4 心脏功能的评估
+心脏功能学评估主要包含静息状态和负荷状态
+下的评估,内容涵盖了心脏收缩功能、舒张功能以
+及心脏储备能力。对于较高风险人群,功能学的评
+估必不可少。用于心脏功能学评估的检查主要有超
+声心动图、CPET、CMR、rMPI、左心室造影。根据
+需求,选择个体化的检查。
+3.2 运动人群的心血管风险筛查流程(图1)
+所有拟参加规律运动的人员,在开始运动前进
+行心血管危险分层(见前文)。低风险人群,无需特
+殊评估,如果自我评估意愿强烈,可进行初级评估。
+对于高风险人群,直接进入初级评估。
+初级评估主要通过病史采集和体格检查。症状
+需特别关注与心脏、肾脏、代谢疾病有关的症状,
+包括胸痛、胸闷憋气、头晕或晕厥、呼吸困难、下
+肢水肿、心悸、间歇性跛行、心脏杂音和难以解释
+的乏力。病史采集中,需关注SCD 的家族史,特别
+是一级亲属。实验室检查包括空腹血糖、血脂、肾
+功能(有肾脏疾病病史)、糖化血红蛋白(有糖尿病
+病史)。对怀疑存在心脏疾病的患者,建议进行心
+电图和超声心动图检查。如果怀疑其他系统疾病,
+则需至其他专科会诊。
+经初级评估阳性者以及所有高风险人群,建
+议进入中级评估,行CPET 检查确定体能状态及进
+一步评估。CPET 可以真实测得摄氧量和代谢当量,
+并多方位、多角度地寻找安全阈值。CPET 检查异
+常者,如最大摄氧量低于20 ml/(kg·min)
+[47]、运
+动心电图负荷试验阳性、运动中心率上升缓慢或不
+升或下降、运动中血压不升或下降(≥10 mmHg, 
+1 mmHg=0.133 kPa),运动血压反应过度(峰值血压
+≥240/120 mmHg)、运动中摄氧量上升缓慢或下降、
+氧脉搏上升缓慢或运动早期出现平台或运动中下降、
+二氧化碳通气当量明显升高、运动中心律失常加重
+出现严重心律失常等,给予运动警告,需进入专业
+医疗机构接受进一步医疗诊治及运动指导建议。
+初级评估
+中级评估
+高级评估
+664
+中国循环杂志 2022 年7 月 第37 卷 第7 期(总第289 期)Chinese Circulation Journal,July,2022,Vol. 37 No.7(Serial No.289)
+CPET 结果阴性的人群,若无相关危险因素,
+可直接开始运动,建议从低中强度开始,逐渐加量,
+并根据运动量及频率定期进行CPET 评估,指导适
+宜的运动量及频率。根据危险分层具体变量情况,
+对进入高级评估阶段受试者,酌情选择心脏结构、
+心肌供血、心律失常或心脏功能相关的检查。若受
+试者具有早发冠心病家族史或有明确的糖尿病、肾
+脏疾病病史,建议行冠状动脉CT 血管造影和(或)
+心肌核素检查,必要时可考虑行冠状动脉造影;同
+时,有肾脏疾病病史者,建议至肾内科就诊评估其
+肾功能及相关合并症情况。若受试者具有先天性、
+遗传性心脏病家族史和(或)猝死的家族史,或受
+试者为高风险人群且初级评估有阳性结果,建议行
+CMR 及基因学检查。
+高级评估结果为阴性,对于既往无运动习惯的
+人群,从低- 中强度开始,逐渐增加运动量,老年
+人需更加缓慢。对于既往有运动习惯的人群,可继
+续当前强度的运动。若高级评估结果为阳性,给予
+运动警告,需进入专业医疗机构接受进一步医疗诊
+治及运动指导建议。
+对于不同心脏疾病状态的个体,在确定疾病种
+类和稳定程度后,有相应适宜的指南进行运动处方
+的制定和运动指导
+[6, 48-49]。取决于运动者的健康状
+况、体适能、训练反应和运动的目的
+[6]。一般在运
+动计划开始的4~6 周中,每1~2 周将每次训练时长
+延长5~10 min。当规律锻炼至少1 个月后,可在接
+下来的4~8 个月,逐渐增加频次、强度、时间,以
+达到推荐的个体化的运动数量和质量。
+4 运动时心血管健康风险的监测和紧急措施
+4.1 监测方法和手段
+对于存在心血管疾病的高危人群,还是建议至
+医疗机构进行运动训练,直至风险降级;对于低-
+中危心血管疾病人群,可以考虑居家训练
+[48]。
+对于在医疗机构或者有监测条件场所进行运动
+训练的人群,会有全方位监护和专业人员把控风险。
+对于居家锻炼的人群,可以考虑佩戴监测设备或者
+不佩戴。个人根据条件,选择适合的可穿戴类设备。
+如果不佩戴监测设备,运动者可以把控的指标主要
+依赖症状、自主疲劳评分和说话试验。中等强度的
+体力活动,自主疲劳评分控制在12~14 分,说话试
+验达到马上就要断句的程度。如果在达到中等强度
+前,个体出现了胸痛,憋气等症状,则要停止运动,
+进行医学筛查。
+可穿戴设备是指佩戴在身体上或接近身体的设
+备,用以评估用户位置、运动、冲击、生物力学、
+心率、血氧饱和度以及睡眠模式等,可以使用户更
+好地了解自己的运动情况以及提高运动效率。当代
+可穿戴设备可配置不同类型传感器:加速度计、陀
+螺仪、磁力计、卫星定位系统、计步器、压力传感器、
+微控制器等部件
+[50-54]。这使得其搭配不同操作系统,
+实现了既可以长时间测量大量人体数据,又具备本
+地储存和远程传输的功能
+[55-57]。
+除了日常活动、健身和体育训练外,可穿戴
+式设备也可用于运动训练和风险监测
+[50, 53]。现有
+证据显示,对于普通人群和心血管低危患者,除
+了自我感觉疲劳评分,腕率表、心率带有助于实
+现靶心率控制。研究显示,可穿戴类设备采集的
+数据中,心率数值最一致,变异是波动最小的
+[58-59]。
+靶心率控制较疲劳评分更为个体化。有些设备配
+有心电模块,目前市场上以单导联心电显示为主。
+运动中进行心电监测,可以更好地识别心律失常,
+较腕率表采集更为准确。目前可穿戴类设备不断
+升级改进,血压模块、血氧饱和度模块,甚至多
+导联心电模块都可配置。心电监测T 恤、除颤背
+心也应运而生。
+可穿戴类设备虽有助于自我监控和运动强度的
+调整,但是对于高危患者,还是建议到医院进行评
+估和训练。
+4.2 紧急情况的类型、判断方法和应对措施
+如果个体在运动过程中,出现不适情况,建议
+立即停止运动,坐下休息。血压波动、心率增快、
+呼吸困难、心绞痛等情况,均可以在休息后得到缓
+解。在下一次运动训练时,针对上次情况,酌情调
+整运动方案。如果休息后,仍然不能缓解,则需要
+医学咨询。
+运动中最危险的情况就是SCD。降低SCD 发生
+最有效的手段是每次运动前进行症状评估,早期识
+别风险,进行预防。但是一旦出现了SCD,需要立
+即启动急救流程。进行呼叫和求助的同时,尝试进
+行心肺复苏。多项研究均证实,旁观者心肺复苏,
+是唯一能提高院外SCD 生存的因素
+[15, 24]。在急救车
+到达之前,如果现场配有自动体外除颤器(AED),
+旁观者可以连接AED,识别有无心室颤动发生。
+AED 可用于医疗场所和公共场所。普通的除颤仪只
+适用于医疗场所,需要有资质者使用,而AED 可以
+由非医务人员操作,公共场所都应考虑设置AED,
+并对相关人员进行心肺复苏培训。运动场所应急响
+应处理流程见图2。
+665
+中国循环杂志 2022 年7 月 第37 卷 第7 期(总第289 期)Chinese Circulation Journal,July,2022,Vol. 37 No.7(Serial No.289)
+图2 运动场所应急响应处理流程
+注:AED:自动体外除颤器;CPR:心肺复苏
+5 政策建议
+5.1 对政府的建议
+院外发生运动相关SCD 时,需要靠旁观者进行
+呼救和救援。包括拨打急救电话、进行心肺复苏和
+(或)使用AED 等,这对降低急性死亡率、改善患
+者预后具有极其重要的作用。
+政府应加大宣传力度,并给予政策和法律上的
+支持,鼓励旁观者伸出援手。并委托相应机构对人
+群进行心肺复苏培训。在欧洲,法国和德国民众参
+加急救培训的比例达到40% 和80%
+[27]。但我国受过
+急救培训的人员不足1%。对健身机构制定相应规
+章制度,确保安全保障到位,急救流程畅通。对民
+间运动赛事举办,进行备案和检查,以确保应急响
+应系统的健全,紧急急救设备的到位,医疗服务点
+配置合理。
+除了完善应急响应系统,高水平的应急准备也
+至关重要,所有工作人员都应接受急救、心肺复苏
+术和AED 使用方面的培训及认证。为确保有能力对
+紧急情况作出反应,应定期检查和维护急救包和其
+他医疗设备。电话或其他紧急通讯设备应随时可用,
+电话上或电话附近应粘贴紧急求助电话号码。应指
+定一名有能力的工作人员作为急救协调员,对设施
+的总体应急准备水平负有最终责任。所有工作人员
+证书和额外再培训文件的副本应保存在档案中,并
+定期审查,以确保所有证书都在资格认证范围内。
+工作人员应积极参加有关应急反应和全面风险管理
+的会议和其他形式的继续教育。
+运动场所中应张贴AED 标牌,指明AED 和急
+救箱的位置。标牌清晰醒目,可读性强。尤其是在
+无工作人员的酒店健身中心等设施中,还应该在应
+急计划、紧急联系人及联系方式、如何使用AED 上
+设置标牌。
+5.2 对医疗机构的建议
+医疗机构中,在有关运动训练的场所,应配有
+各种监测设备、保护措施、急救车、除颤仪、呼吸
+辅助装置。配备专门人员进行巡回、监测和记录。
+配置多学科合作团队和急救团队。相关人员了解这
+些知识和潜在的风险。制定相应的规章制度,确保
+急救流程和电话畅通。对人员进行定期培训,并获
+得相应资质。
+国家体育总局相应部门已经建立了运动性猝死
+三级预防筛查体系,对风险筛查和症状监控有了一
+定经验
+[60]。对于普通人群,医疗机构并不容易追踪
+和观察。医疗机构可以尝试搭建远程随访平台,云
+端储存患者数据。当患者有需求和变化时,通过互
+动形式,增强沟通,及时作出调整。在初始医学评
+估和有情况变化,需要回医院复评的患者,多学科
+诊疗团队要及时调整运动处方,专科医生及时调整
+治疗方案。
+5.3 对个人的建议
+CPR
+666
+中国循环杂志 2022 年7 月 第37 卷 第7 期(总第289 期)Chinese Circulation Journal,July,2022,Vol. 37 No.7(Serial No.289)
+参考文献
+[1] 
+中共中央 国务院. “ 健康中国2030” 规划纲要[R/OL]. (2016-
+10-25) [2022-01-12]. http: //www. gov. cn/xinwen/2016-10/25/
+content_5124174. htm. 
+[2] 
+全国人大财政经济委员会 国家发展和改革委员会. 中华人民共
+和国国民经济和社会发展第十四个五年规划和2035 年远景目标
+纲要[N/OL]. 人民日报, 2021-03-13(1)[2022-01-22]. http: //www. 
+gov. cn/xinwen/2021-03/13/content_5592681. htm. 
+[3] 
+Ekelund U, Steene-Johannessen J, Brown WJ, et al. Does physical 
+个人在进行体育活动前,应了解心脏相关症状,
+学会自主疲劳评分的意义,学会把控运动强度,理
+解体育锻炼应遵循规律,运动量应在监控下逐渐增
+大,循序渐进;了解运动可能导致的风险和何时需
+要终止运动及时就医。
+6 总结
+现有的证据支持运动可以提高心肺耐力,降低
+心血管疾病发病率和全因死亡率;运动对心肺功能
+的影响有剂量依赖效应,推荐长期坚持;高强度运
+动可能存在一定风险,必要时进行医学评估;初始
+运动,或新发症状,或拟提升运动强度的人,推荐
+进行心血管危险分层及进入相应的评估流程;可穿
+戴式装备有助于自我监控风险;应在开展群众性和
+竞技性耐力性运动的相关运动场所,构建适当的应
+急响应系统以及合理的急救流程,为运动参与者提
+供更为安全的环境。
+专家委员会成员(按姓氏汉语拼音排序):艾力曼·马
+合木提(新疆医科大学第一附属医院),冯雪(中国医学科学
+院阜外医院),郭小梅(华中科技大学同济医学院附属同济
+医院),郭建军(首都体育学院体医融合创新中心),黎励文
+(广东省人民医院),李建军(中国医学科学院阜外医院),李
+建平(北京大学第一医院),李俊峡(中国人民解放军总医院
+第七医学中心),李祥臣(国家体育总局体育科研所),刘遂
+心(中南大学湘雅医院),刘文娴(首都医科大学附属北京安
+贞医院),刘宇扬(首都医科大学附属北京安贞医院),史军
+(中国人民解放军总医院),孙志军(中国医科大学附属盛京
+医院),汪芳(北京医院),魏文哲(北京市体育科学研究所),
+徐顺霖(北京大学第三医院),闫琪(国家体育总局),杨杰孚
+(北京医院),杨进刚(中国医学科学院阜外医院),张剑梅(国
+家体育总局运动医学研究所),赵志刚(首都医科大学附属北
+京天坛医院),赵兴山(北京积水潭医院),赵之光(北京市体
+育科学研究所),钟优(北京医院)
+执笔人:赵之光(北京市体育科学研究所),陈浩(北京
+医院),张倩(北京医院),贾娜(北京医院),裴作为(大连
+理工大学附属中心医院)
+利益冲突:本专家共识中的所有阐述仅代表专家意见,
+无任何利益冲突
+activity attenuate, or even eliminate, the detrimental association of 
+sitting time with mortality? A harmonised meta-analysis of data from 
+more than 1 million men and women[J]. Lancet, 2016, 388(10051): 
+1302-1310. DOI: 10. 1016/S0140-6736(16)30370-1. 
+[4] 
+李超, 费夕, 李红娟. 运动改善心肺耐力对我国中老年人血脂影响
+的Meta 分析[J]. 心血管康复医学杂志, 2019, 28(1): 25-33. DOI: 
+10. 3969/j. issn. 1008-0074. 2019. 01. 08. 
+[5] 
+尹莲花, 郑彦, 吴俊泉, 等. 体力活动、心肺耐力与40~49 岁城
+市男性心血管风险的相关性研究[J]. 心血管病防治知识, 2019, 6: 
+3-7. 
+[6] 
+American College of Sports Medicine. ACSM guidelines for exercise 
+testing and prescription[M]. 10
+th ed. China: Lippincott Williams & 
+Wilkins, 2018. 
+[7] 
+Thompson PD, Arena R, Riebe D, et al. ACSM's new preparticipation 
+health screening recommendations from ACSM's guidelines for 
+exercise testing and prescription, ninth edition[J]. Curr Sports Med 
+Rep, 2013, 12(4): 215-217. DOI: 10. 1249/JSR. 0b013e31829a68cf. 
+[8] 
+国务院. 全民健身计划(2021~2025 年)[R/OL]. (2021-07-18)
+[2022-01-12]. http: //www. gov. cn/zhengce/content/2021-08/03/
+content_5629218. htm. 
+[9] 
+Pelliccia A, Sharma S, Gati S, et al. 2020 ESC guidelines on sports 
+cardiology and exercise in patients with cardiovascular disease[J]. 
+Rev Esp Cardiol (Engl Ed), 2021, 74(6): 545. DOI: 10. 1016/j. rec. 
+2021. 05. 003. 
+[10] 
+Hansen D, Dendale P, Coninx K, et al. The European Association of 
+Preventive Cardiology Exercise Prescription in Everyday Practice 
+and Rehabilitative Training (EXPERT) tool: a digital training 
+and decision support system for optimized exercise prescription 
+in cardiovascular disease. Concept, definitions and construction 
+methodology[J]. Eur J Prev Cardiol, 2017, 24(10): 1017-1031. DOI: 
+10. 1177/2047487317702042. 
+[11] 
+Budts W, Pieles GE, Roos-Hesselink JW, et al. Recommendations 
+for participation in competitive sport in adolescent and adult athletes 
+with congenital heart disease (CHD): position statement of the Sports 
+Cardiology & Exercise Section of the European Association of 
+Preventive Cardiology (EAPC), the European Society of Cardiology 
+(ESC) Working Group on Adult Congenital Heart Disease and 
+the Sports Cardiology, Physical Activity and Prevention Working 
+Group of the Association for European Paediatric and Congenital 
+Cardiology (AEPC)[J]. Eur Heart J , 2020, 41(43): 4191-4199. DOI: 
+10. 1093/eurheartj/ehaa501. 
+[12] 
+Pelliccia A, Solberg EE, Papadakis M, et al. Recommendations for 
+participation in competitive and leisure time sport in athletes with 
+cardiomyopathies, myocarditis, and pericarditis: position statement 
+of the Sport Cardiology Section of the European Association of 
+Preventive Cardiology (EAPC)[J]. Eur Heart J, 2019, 40(1): 19-33. 
+DOI: 10. 1093/eurheartj/ehy730. 
+[13] 
+Fischetti CE, Kamyszek RW, Shaheen S, et al. Evaluation of a 
+standardized cardiac athletic screening for national collegiate athletic 
+association (NCAA) athletes[J]. West J Emerg Med, 2019, 20(5): 
+810-817. DOI: 10. 5811/westjem. 2019. 7. 43190. 
+[14] 
+Moore SC, Patel AV, Matthews CE, et al. Leisure time physical 
+activity of moderate to vigorous intensity and mortality: a large 
+pooled cohort analysis[J]. PLoS Med. 2012, 9(11): e1001335. DOI: 
+10. 1371/journal. pmed. 1001335. 
+[15] 
+Marijon E, Tafflet M, Celermajer DS, et al. Sports-related sudden 
+667
+中国循环杂志 2022 年7 月 第37 卷 第7 期(总第289 期)Chinese Circulation Journal,July,2022,Vol. 37 No.7(Serial No.289)
+[31] 
+徐昕, 高崇玄, 张丽申, 等. 我国运动猝死调查研究[J]. 中国运动
+医学杂志, 1999, 18(2): 99-102. DOI: 10. 3969/j. issn. 1000-6710. 
+1999. 02. 001. 
+[32] 
+高晓嶙, 常芸. 我国大众健身人群运动猝死的调查研究[J]. 中国
+体育科技, 2009, 2: 5. 
+[33] 
+Anderson C, Ni Mhurchu C, Scott D, et al. Triggers of subarachnoid 
+hemorrhage: role of physical exertion, smoking, and alcohol in the 
+Australasian Cooperative Research on Subarachnoid Hemorrhage 
+Study (ACROSS)[J]. Stroke, 2003, 34(7): 1771-1776. DOI: 10. 
+1161/01. Str. 0000077015. 90334. A7. 
+[34] 
+Krarup LH, Truelsen T, Pedersen A, et al. Level of physical activity 
+in the week preceding an ischemic stroke[J]. Cerebrovasc Dis, 2007, 
+24(2-3): 296-300. DOI: 10. 1159/000105683. 
+[35] 
+Aengevaeren VL, Mosterd A, Braber TL, et al. Relationship 
+between lifelong exercise volume and coronary atherosclerosis in 
+athletes[J]. Circulation, 2017, 136(2): 138-148. DOI: 10. 1161/
+CIRCULATIONAHA. 117. 027834. 
+[36] 
+Corrado D, Basso C, Schiavon M, et al. Screening for hypertrophic 
+cardiomyopathy in young athletes[J]. N Engl J Med, 1998, 339(6): 
+364-369. DOI: 10. 1056/NEJM199808063390602. 
+[37] 
+Maron BJ, Shirani J, Poliac LC, et al. Sudden death in young 
+competitive athletes. Clinical, demographic, and pathological 
+profiles[J]. JAMA, 1996, 276(3): 199-204. 
+[38] 
+Maron BJ, Thompson PD, Ackerman MJ, et al. Recommendations 
+and considerations related to preparticipation screening for 
+cardiovascular abnormalities in competitive athletes: 2007 update: 
+a scientific statement from the American Heart Association Council 
+on Nutrition, Physical Activity, and Metabolism: endorsed by the 
+American College of Cardiology Foundation[J]. Circulation, 2007, 
+115(12): 1643-1455. DOI: 10. 1161/CIRCULATIONAHA. 107. 
+181423. 
+[39] 
+Ullal AJ, Abdelfattah RS, Ashley EA, et al. Hypertrophic 
+cardiomyopathy as a cause of sudden cardiac death in the young: a 
+meta-analysis[J]. Am J Med, 2016, 129(5): 486-496. DOI: 10. 1016/j. 
+amjmed. 2015. 12. 027. 
+[40] 
+Baggish AL, Battle RW, Beckerman JG, et al. Sports cardiology: core 
+curriculum for providing cardiovascular care to competitive athletes 
+and highly active people[J]. J Am Coll Cardiol, 2017, 70(15): 1902-
+1918. DOI: 10. 1016/j. jacc. 2017. 08. 055. 
+[41] 
+Waller BF, Roberts WC. Sudden death while running in conditioned 
+runners aged 40 years or over[J]. Am J Cardiol, 1980, 45(6): 1292-
+1300. DOI: 10. 1016/0002-9149(80)90491-9. 
+[42] 
+Landry CH, Allan KS, Connelly KA, et al. Sudden cardiac arrest 
+during participation in competitive sports[J]. N Engl J Med, 2017, 
+377(20): 1943-1953. DOI: 10. 1056/NEJMoa1615710. 
+[43] 
+Thompson PD. The cardiovascular complications of vigorous 
+physical activity[J]. Arch Intern Med, 1996, 156(20): 2297-2302. 
+[44] 
+Williams PT. Physical fitness and activity as separate heart disease 
+risk factors: a meta-analysis[J]. Med Sci Sports Exerc, 2001, 33(5): 
+754-761. DOI: 10. 1097/00005768-200105000-00012. 
+[45] Centers for Disease Control and Prevention, National Center for 
+Health Statistics. About multiple cause of death, 1999-2019[M]. 
+Atlanta, GA: Centers for Disease Control and Prevention, 2019. 
+[46] Riebe D, Franklin BA, Thompson PD, et al. Updating ACSM's 
+recommendations for exercise preparticipation health screening[J]. 
+Med Sci Sports Exerc, 2015, 47(11): 2473-2479. DOI: 10. 1249/
+death in the general population[J]. Circulation, 2011, 124(6): 672-
+681. DOI: 10. 1161/circulationaha. 110. 008979. 
+[16] 
+Eckart RE, Shry EA, Burke AP, et al. Sudden death in young 
+adults: an autopsy-based series of a population undergoing active 
+surveillance[J]. J Am Coll Cardiol, 2011, 58(12): 1254-1261. DOI: 
+10. 1016/j. jacc. 2011. 01. 049. 
+[17] 
+de Noronha SV, Sharma S, Papadakis M, et al. Aetiology of sudden 
+cardiac death in athletes in the United Kingdom: a pathological 
+study[J]. Heart, 2009, 95(17): 1409-1414. DOI: 10. 1136/hrt. 2009. 
+168369. 
+[18] 
+Wasfy MM, Hutter AM, Weiner RB. Sudden cardiac death in 
+athletes[J]. Methodist Debakey Cardiovasc J, 2016, 12(2): 76-80. 
+DOI: 10. 14797/mdcj-12-2-76. 
+[19] 
+Smyth A, O'Donnell M, Lamelas P, et al. Physical activity and anger 
+or emotional upset as triggers of acute myocardial infarction: the 
+INTERHEART study[J]. Circulation, 2016, 134(15): 1059-1067. 
+DOI: 10. 1161/circulationaha. 116. 023142. 
+[20] 
+Kim JH, Malhotra R, Chiampas G, et al. Cardiac arrest during long-
+distance running races[J]. N Engl J Med, 2012, 366(2): 130-140. 
+DOI: 10. 1056/NEJMoa1106468. 
+[21] 
+Burtscher M, Pachinger O, Mittleman MA, et al. Prior myocardial 
+infarction is the major risk factor associated with sudden cardiac 
+death during downhill skiing[J]. Int J Sports Med, 2000, 21(8): 613-
+615. DOI: 10. 1055/s-2000-8481. 
+[22] 
+Harris KM, Creswell LL, Haas TS, et al. Death and cardiac arrest in 
+U. S. triathlon participants, 1985 to 2016: a case series[J]. Ann Intern 
+Med, 2017, 167(8): 529-535. DOI: 10. 7326/m17-0847. 
+[23] 
+Marijon E, Bougouin W, Celermajer DS, et al. Characteristics and 
+outcomes of sudden cardiac arrest during sports in women[J]. Circ 
+Arrhythm Electrophysiol, 2013, 6(6): 1185-1191. DOI: 10. 1161/
+circep. 113. 000651. 
+[24] 
+Marijon E, Uy-Evanado A, Reinier K, et al. Sudden cardiac arrest 
+during sports activity in middle age[J]. Circulation, 2015, 131(16): 
+1384-1391. DOI: 10. 1161/circulationaha. 114. 011988. 
+[25] 
+Maron BJ, Haas TS, Murphy CJ, et al. Incidence and causes of 
+sudden death in U. S. college athletes[J]. J Am Coll Cardiol, 2014, 
+63(16): 1636-1643. DOI: 10. 1016/j. jacc. 2014. 01. 041. 
+[26] 
+Maron BJ, Haas TS, Ahluwalia A, et al. Demographics and 
+epidemiology of sudden deaths in young competitive athletes: from 
+the United States National Registry[J]. Am J Med, 2016, 129(11): 
+1170-1177. DOI: 10. 1016/j. amjmed. 2016. 02. 031. 
+[27] 
+李颖慧, 吕媛媛, 吴迎, 等. 运动性猝死风险防控研究进展[J]. 
+中国运动医学杂志, 2021, 40(7): 582-590. DOI: 10. 3969/j. issn. 
+1000-6710. 2021. 07. 012. 
+[28] 
+Maron BJ, Haas TS, Duncanson ER, et al. Comparison of the 
+frequency of sudden cardiovascular deaths in young competitive 
+athletes versus nonathletes: should we really screen only athletes?[J]. 
+Am J Cardiol, 2016, 117(8): 1339-1341. DOI: 10. 1016/j. amjcard. 
+2016. 01. 026. 
+[29] 
+Finocchiaro G, Papadakis M, Robertus JL, et al. Etiology of sudden 
+death in sports: insights from a united kingdom regional registry[J]. 
+J Am Coll Cardiol, 2016, 67(18): 2108-2115. DOI: 10. 1016/j. jacc. 
+2016. 02. 062. 
+[30] 
+冯大志, 沈雁飞. 高校内发生运动猝死的原因调查及预防对策[J]. 
+北京体育大学学报, 2012, 35(11): 93-96. DOI: 10. 19582/j. cnki. 
+11-3785/g8. 2012. 11. 018. 
+668
+中国循环杂志 2022 年7 月 第37 卷 第7 期(总第289 期)Chinese Circulation Journal,July,2022,Vol. 37 No.7(Serial No.289)
+sensors—past and present[J]. Electronics, 2014, 3(2): 282-302. 
+[55] 
+Yuan Y, Chen C, Guan X, et al. An energy-efficient underground 
+localization system based on heterogeneous wireless networks[J]. 
+Sensors (Basel), 2015, 15(6): 12358-12376. DOI: 10. 3390/
+s150612358. 
+[56] 
+An BW, Shin JH, Kim SY, et al. Smart sensor systems for wearable 
+electronic devices[J]. Polymers (Basel), 2017, 9(8): 303. DOI: 10. 
+3390/polym9080303. 
+[57] 
+Xie J, Wen D, Liang L, et al. Evaluating the validity of current 
+mainstream wearable devices in fitness tracking under various 
+physical activities: comparative study[J]. JMIR Mhealth Uhealth, 
+2018, 6(4): e94. DOI: 10. 2196/mhealth. 9754. 
+[58] 
+Shin G, Jarrahi MH, Fei Y, et al. Wearable activity trackers, accuracy, 
+adoption, acceptance and health impact: a systematic literature 
+review[J]. J Biomed Inform, 2019, 93: 103153. DOI: 10. 1016/j. jbi. 
+2019. 103153. 
+[59] 
+Murakami H, Kawakami R, Nakae S, et al. Accuracy of wearable 
+devices for estimating total energy expenditure: comparison with 
+metabolic chamber and doubly labeled water method[J]. JAMA 
+Intern Med, 2016, 176(5): 702-703. DOI: 10. 1001/jamainternmed. 
+2016. 0152. 
+[60] 
+马云, 梁辰, 牟秀霞, 等. 中国优秀运动员运动性猝死三级预防筛
+查体系的研究[J]. 中国运动医学杂志, 2011, 30(3): 219-223, 229. 
+DOI: 10. 16038/j. 1000-6710. 2011. 03. 011. 
+
+(收稿日期: 2022-01-12)
+
+(编辑: 王宝茹)
+MSS. 0000000000000664. 
+[47] 
+Weber KT, Janicki JS, McElroy PA. Determination of aerobic 
+capacity and the severity of chronic cardiac and circulatory failure[J]. 
+Circulation, 1987, 76(6 Pt 2): VI40-45. 
+[48] 
+Kaminsky LA, Brubaker PH, Guazzi M, et al. Assessing physical 
+activity as a core component in cardiac rehabilitation: a position 
+statement of the american association of cardiovascular and 
+pulmonary rehabilitation[J]. J Cardiopulm Rehabil Prev, 2016, 36(4): 
+217-229. DOI: 10. 1097/hcr. 0000000000000191. 
+[49] 
+中国康复医学会心血管病专业委员会. 中国心脏康复与二级预防
+指南(2018 版) [M]. 北京: 北京大学医学出版社, 2018. 
+[50] 
+Awolusi I, Marks E, Hallowell M. Wearable technology for 
+personalized construction safety monitoring and trending: review of 
+applicable devices[J]. Automat Constr, 2018, 85: 96-106. DOI: 10. 
+1016/j. autcon. 2017. 10. 010. 
+[51] 
+Del Din S, Hickey A, Hurwitz N, et al. Measuring gait with an 
+accelerometer-based wearable: influence of device location, testing 
+protocol and age[J]. Physiol Meas, 2016, 37(10): 1785-1797. DOI: 
+10. 1088/0967-3334/37/10/1785. 
+[52] 
+Passaro VMN, Cuccovillo A, Vaiani L, et al. Gyroscope technology 
+and applications: a review in the industrial perspective[J]. Sensors 
+(Basel), 2017, 17(10): 2284. DOI: 10. 3390/s17102284. 
+[53] 
+Castaneda D, Esparza A, Ghamari M, et al. A review on wearable 
+photoplethysmography sensors and their potential future applications 
+in health care[J]. Int J Biosens Bioelectron, 2018, 4(4): 195-202. 
+DOI: 10. 15406/ijbsbe. 2018. 04. 00125. 
+[54] 
+Tamura T, Maeda Y, Sekine M, et al. Wearable photoplethysmographic 
+《中国循环杂志》 执行GB/T 7714—2005《文后参考文献著录规则》。采用顺序编码制著录,依照其在文中出现的先后顺
+序用阿拉伯数字标出,并将序号置于方括号中,排列于文后,题名后标注文献类型标志。文献类型与电子文献载体标志代码
+参照GB 3469-1983《文献类型与文献载体代码》。外文期刊名称用缩写,采用国际医学期刊编辑委员会推荐的NLM's Citing 
+Medicine(http://www.ncbi.nlm.nih.gov/books/NBK7256) 中的格式。中文期刊用全名。每条参考文献均须著录年、卷、期号及起
+止页码。对有DOI 编码的文章必须著录DOI,列于该条文献末尾。示例如下:
+[1] 
+张涛, 杨艳敏, 朱俊, 等.血清钠水平对急性ST 段抬高型心肌梗死患者近期预后的预测价值[J]. 中国循环杂志, 2017, 32(8): 742-747.DOI: 10. 
+3969/j. issn. 1000-3614. 2017. 08. 004. 
+[2] 
+Wilde AA, Ackerman MJ. Beta-blockers in the treatment of congenital long QT syndrome: is one beta-blocker superior to another[J]. J Am Coll Cardiol, 
+2014, 64(13): 1359-1361. DOI: 10. 1016/j. jacc. 2014. 06. 1192. 
+[3] 
+Jablonski S. Online multiple congenital anomaly/mental retard ation (MCA/MR) syndromes[DB/OL]. Bethesda(MD): National Library of Medicine (US), 1999
+(2001-11-20)[2002-12-12]. http: //www. nlm. nih. gov/mesh/jablonski/syndrome_title. html. 
+[4] 
+陈俊, 唐熠达. 冠状动脉分叉专用支架的研发和临床应用// 陈纪林. 冠状动脉分叉病变的介入治疗[M]. 第2 版. 北京: 人民卫生出版社, 2017: 
+203-221.

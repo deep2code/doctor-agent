@@ -1,0 +1,25 @@
+# 源清单：eye_ent_health
+共 22 篇原文，合计 755 KB。文件头保留来源/URL，正文未改写。
+
+- MANIFEST.txt :: MANIFEST.txt :: URL
+- ar_guideline_2015_cma.txt :: 变应性鼻炎诊断和治疗指南(2015年，天津) | 中华耳鼻咽喉头颈外科杂志编辑委员会鼻科组、中华医学会耳鼻咽喉头颈外科学分会鼻科学组 | 2016 :: https://cmab.yiigle.com/uploads/guide_html/%E5%8F%98%E5%BA%94%E6%80%A7%E9%BC%BB%E7%82%8E%E8%AF%8A%E6%96%AD%E5%
+- cataract_county_guidance_2026_nhc.txt :: 县域白内障手术技术指导原则（《国家卫生健康委办公厅关于加强县医院白内障手术质量安全管理的通知》附件1，国卫办医政函〔2026〕134号） | 国家卫生健康委员会办公厅 | 2026 :: https://www.nhc.gov.cn/yzygj/c100067/202604/7a2d7eae57974ee29654b83474cf251c/files/%E5%8E%BF%E5%9F%9F%E7%99%BD
+- cataract_surgery_standard_2026_nhc.txt :: 成人白内障手术操作规范（2026年版）（国卫办医政函〔2026〕117号） | 国家卫生健康委员会办公厅 | 2026 :: https://www.nhc.gov.cn/yzygj/c100067/202604/5ba49ac3bf3148d8baab72c7547cc1bb/files/%E6%88%90%E4%BA%BA%E7%99%BD
+- child_adenotonsil_daycare_guideline_2025.txt :: 儿童扁桃体腺样体日间手术临床实践指南 | 中国医师协会耳鼻咽喉头颈外科医师分会小儿学组、中国医师协会儿科医师分会耳鼻咽喉学组、中国医师分会变态反应医师分会鼻眼过敏学组、中国人体健康科技促进会儿童变态反应专业委员会（临床耳 :: URL
+- child_vision_screening_spec_2021_nhc.txt :: 0～6岁儿童眼保健及视力检查服务规范（试行） | 国家卫生健康委办公厅（上海市人民政府官网镜像全文，印发日期2021-06-17） :: URL
+- conjunctivitis_cdc_2025.txt :: 急性出血性结膜炎：常见误区大揭秘 | 中国疾病预防控制中心 病毒病预防控制所（健康科普·丙类传染病） :: URL
+- conjunctivitis_isolation_qa_cdc_2008.txt :: 红眼病防治知识问答 | 四川省巴中市巴州区疾病预防控制中心（健康教育与疾病控制栏目） :: URL
+- crs_guideline_2018_cma.txt :: 中国慢性鼻窦炎诊断和治疗指南（2018） | 中华耳鼻咽喉头颈外科杂志编辑委员会鼻科组、中华医学会耳鼻咽喉头颈外科学分会鼻科学组（中华耳鼻咽喉头颈外科杂志2019年第54卷第2期） | 2018 :: https://seleguide.yiigle.com/uploads/guide_html/中国慢性鼻窦炎诊断和治疗指南（2018）.html
+- deafness_hearing_loss_fact_sheet_who.txt :: 耳聋和听力损失（世卫组织实况报道） | 世界卫生组织（WHO） | 2026 :: https://www.who.int/zh/news-room/fact-sheets/detail/deafness-and-hearing-loss
+- dr_guideline_2022_cma.txt :: 我国糖尿病视网膜病变临床诊疗指南（2022年）——基于循证医学修订 | 中华医学会眼科学分会眼底病学组、中国医师协会眼科医师分会眼底病学组（中华眼底病杂志2023年第39卷第2期） | 2022 :: http://www.gdvision.org.cn/ueditor/php/upload/file/20231016/1697425774929298.pdf
+- dry_eye_consensus_2024_cma.txt :: 中国干眼临床诊疗专家共识（2024年） | 中华医学会眼科学分会角膜病学组、中国医师协会眼科医师分会角膜病学组（江苏省医学会眼科学分会页面全文） | 2024 :: https://www.jsma.net.cn/cn/ncontent.aspx?oid=63355
+- elderly_hearing_consensus_2019_cma.txt :: 老年听力损失诊断与干预专家共识（2019） | 全国防聋治聋技术指导组、中华医学会耳鼻咽喉头颈外科学分会、中华耳鼻咽喉头颈外科杂志编辑委员会、中华医学会老年医学分会（中华耳鼻咽喉头颈外科杂志2019年第54卷第3期） | :: https://cmab.yiigle.com/uploads/guide_html/老年听力损失诊断与干预专家共识（2019）.html
+- epistaxis_first_aid_6th_hosp_2026.txt :: 【健康百科】还在仰头塞纸？科学止血四步法从容拿捏鼻出血 | 上海市第六人民医院 耳鼻咽喉头颈外科 :: URL
+- eye_plan_14th_5yr_nhc.txt :: “十四五”全国眼健康规划（2021-2025年）（国卫医发〔2022〕1号） | 国家卫生健康委员会 | 2022 :: https://www.nhc.gov.cn/wjw/c100175/202201/b4289494050b4d6d9dd9d66530c637aa.shtml
+- glaucoma_guideline_2020_cma.txt :: 中国青光眼指南（2020年） | 中华医学会眼科学分会青光眼学组、中国医师协会眼科医师分会青光眼学组（中华眼科杂志2020年第56卷第8期） | 2020 :: https://seleguide.yiigle.com/uploads/guide_html/中国青光眼指南（2020年）.html
+- hearing_elderly_core_info_2024_nhc.txt :: 老年听力健康核心信息（国卫办老龄函〔2024〕398号） | 国家卫生健康委办公厅 | 2024 :: http://wjw.gz.gov.cn/zmhd/cjwt/zczy/content/post_9943495.html
+- hearing_health_guidance_2025_nhc.txt :: 关于推进耳与听力健康工作的指导意见（国卫医政发〔2025〕10号） | 国家卫生健康委/国家中医药局/国家疾控局/中国残联 | 2025 :: https://www.nhc.gov.cn/yzygj/c100068/202508/4d132d262a5d4cdd8fc1bcd855179ef3.shtml
+- hordeolum_chalazion_nhc_beijing_2024.txt :: 霰粒肿与麦粒肿是一回事吗？（眼科医院健康科普） | 北京市卫生健康委员会发布，来源：中国中医科学院眼科医院 :: URL
+- lpr_consensus_2015_cma.txt :: 咽喉反流性疾病诊断与治疗专家共识(2015年) | 中华耳鼻咽喉头颈外科杂志编辑委员会咽喉组、中华医学会耳鼻咽喉头颈外科学分会咽喉学组 | 2016 :: https://seleguide.yiigle.com/uploads/guide_html/%E5%92%BD%E5%96%89%E5%8F%8D%E6%B5%81%E6%80%A7%E7%96%BE%E7%97%8
+- sudden_hearing_loss_guideline_2026_cma.txt :: 突发性聋诊断和治疗指南（2026实践版）｜中华耳鼻咽喉头颈外科杂志编辑委员会、中华医学会耳鼻咽喉头颈外科学分会、耳鼻喉疾病国家临床医学研究中心；刊出：中华耳鼻咽喉头颈外科杂志 2026,61(4):331-340（本文件 :: URL
+- vision_loss_fact_sheet_who.txt :: 盲和视力损伤（世卫组织实况报道） | 世界卫生组织（WHO） | 2026 :: https://www.who.int/zh/news-room/fact-sheets/detail/blindness-and-visual-impairment

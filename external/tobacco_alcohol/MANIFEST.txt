@@ -1,0 +1,19 @@
+# 源清单：烟草·酒精·咖啡因（批次6 方向A 原文底稿）
+
+共 13 篇原文，正文合计 70 KB。
+每个文件头部保留 来源 / URL / 抓取方式，未改写正文；条目数字一律从这里逐条核对。
+
+文件 | 来源 | URL
+cfsa_caffeine_risk_assessment.txt | 国家食品安全风险评估中心（受国家卫生健康委员会委托）《中国居民膳食咖啡因摄入水平及其风险评估（摘要）》 | https://www.cfsa.net.cn/fxpg/fxpgbg/sptjj/2023/6140.shtml
+chinacdc_secondhand_thirdhand_smoke.txt | 中国疾病预防控制中心（中国疾控中心）慢病中心 科普《什么是二手烟、三手烟？》 | https://www.chinacdc.cn/jkyj/yckz/ycwh/202006/t20200603_296430.html
+cnsoc_dietary_guideline_2022_alcohol.txt | 中国营养学会《中国居民膳食指南（2022）》平衡膳食八准则（2022版核心推荐全文） | http://dg.cnsoc.org/article/04/J4-AsD_DR3OLQMnHG0-jZA.html
+drink_driving_threshold_localhealth.txt | 铁岭市人民政府门户网站「最新解读」栏目《法规解读：酒驾醉驾处罚标准及相关规定》（来源标注：铁岭市卫生健康委员会） | https://www.tieling.gov.cn/tieling/zwgk/zfxxgk/fdzdgknr/zdmsxx/wsjk/jbfk/2022102715550979710/index.html
+ecigarette_management_measures_2022.txt | ? | https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=93147
+healthy_china_action_tobacco_control.txt | 《健康中国行动（2019—2030年）》—— 控烟行动（专项行动之四）正文 | https://www.zlq.gov.cn/zlq/ztzl/jkzlqxd/5412e3fab81849f18adf1579fbb75210/index.shtml
+msd_caffeine_zh.txt | 默沙东诊疗手册（中文版）· 多条目「咖啡因」相关原句摘录 | https://www.msdmanuals.cn/home/brain-spinal-cord-and-nerve-disorders/sleep-disorders/circadian-rhythm-sleep-disorders
+msd_smoking_cessation_zh.txt | 默沙东诊疗手册（中文版）· 消费者版《戒烟》 | https://www.msdmanuals.cn/home/special-subjects/tobacco-use/smoking-cessation
+nhc_mental_alcohol_use_disorder.txt | 国家卫生健康委员会《精神障碍诊疗规范（2020年版）》· 精神活性物质使用所致障碍 · 「酒精使用所致障碍」全节 | https://www.nhc.gov.cn/yzygj/c100068/202012/b4305ace9e14440792eb76d29602c88a.shtml
+who_cancer_factsheet_zh.txt | 世界卫生组织（WHO）中文官网 · 实况报道「癌症」 | https://www.who.int/zh/news-room/fact-sheets/detail/cancer
+who_qa_e_cigarettes_zh.txt | 世界卫生组织（WHO）中文官网 · 常见问答「烟草：电子烟」 | https://www.who.int/zh/news-room/questions-and-answers/item/tobacco-e-cigarettes
+who_qa_health_benefits_of_smoking_cessation_zh.txt | 世界卫生组织（WHO）中文官网 · 常见问答「烟草：戒烟对健康的益处」 | https://www.who.int/zh/news-room/questions-and-answers/item/tobacco-health-benefits-of-smoking-cessation
+who_tobacco_nicotine_factsheet_zh.txt | 世界卫生组织（WHO）中文官网 · 实况报道「烟草与尼古丁」 | https://www.who.int/zh/news-room/fact-sheets/detail/tobacco

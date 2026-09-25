@@ -1,0 +1,18 @@
+# 源清单：skin_health
+共 15 篇原文，合计 239 KB。文件头保留来源/URL，正文未改写。
+
+- MANIFEST.txt :: MANIFEST.txt :: https://seleguide.yiigle.com/uploads/guide_html/中国特应性皮炎诊疗指南（2020版）.html
+- acne_guide_2019.txt :: 中国痤疮治疗指南（2019修订版） | 中国痤疮治疗指南专家组（中华医学会皮肤性病学分会）| 2019 :: https://medi-guide.meditool.cn/ymtpdf/5AD6F986-6C47-9048-47E3-7B7C7B0D7E93.pdf
+- aga_guide_cmpa.txt :: 中国人雄激素性脱发诊疗指南 | 中国医师协会美容与整形医师分会毛发整形美容专业委员会 | 2019 :: https://medi-guide.meditool.cn/ymtpdf/8B1D4F7A-2C95-4E30-B6A7-1F5D9C2E8B43.pdf
+- alopecia_areata_guide_2019.txt :: 中国斑秃诊疗指南（2019） | 中华医学会皮肤性病学分会毛发疾病研究中心等（中国斑秃诊疗指南制定专家组） | 2019 :: https://medi-guide.meditool.cn/ymtpdf/3E7A1C5D-9B24-4E68-A3F1-2D5C8E0B7A96.pdf
+- cdc_sunscreen_part1_2024.txt :: 科学防晒全面护肤要点早知道（一） | 中国疾病预防控制中心（环境所，中华医学会管理服务部供稿） | 2024 :: https://www.chinacdc.cn/jkkp/hjjk/hxwz/202410/t20241026_302128.html
+- cdc_sunscreen_part2_2024.txt :: 科学防晒全面护肤要点早知道（二） | 中国疾病预防控制中心（环境所，中华医学会管理服务部供稿） | 2024 :: https://www.chinacdc.cn/jkkp/hjjk/hxwz/202410/t20241026_302127.html
+- cdc_sunscreen_part3_2024.txt :: 科学防晒全面护肤要点早知道（三） | 中国疾病预防控制中心（环境所，中华医学会管理服务部供稿） | 2024 :: https://www.chinacdc.cn/jkkp/hjjk/hxwz/202410/t20241026_302126.html
+- eczema_ad_guide_2020.txt :: 中国特应性皮炎诊疗指南（2020版） | 中华医学会皮肤性病学分会免疫学组/特应性皮炎协作研究中心 | 2020 :: https://seleguide.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E7%89%B9%E5%BA%94%E6%80%A7%E7%9A%AE%E7%82%8
+- onychomycosis_guide_2015.txt :: 中国甲真菌病诊疗指南（2015年版） | 中华医学会皮肤性病学分会/中国中西医结合学会皮肤性病专业委员会/中国医师协会皮肤科医师分会 | 2015 :: https://medi-guide.meditool.cn/ymtpdf/6C9B2E9F-8A43-5F11-9D62-3A1E0C7B5D84.pdf
+- phn_consensus_2016.txt :: 带状疱疹后神经痛诊疗中国专家共识 | 带状疱疹后神经痛诊疗共识编写专家组（中国疼痛医学杂志） | 2016 :: https://medi-guide.meditool.cn/ymtpdf/4A8C2E6B-7D13-4F59-A2B8-9C3E6D0F7A51.pdf
+- psoriasis_guide_2018_cma.txt :: 中国银屑病诊疗指南（2018完整版） | 中华医学会皮肤性病学分会银屑病专业委员会 | 2018 :: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%93%B6%E5%B1%91%E7%97%85%E8%AF%8A%E7%96%97%E6%
+- tinea_corporis_cruris_guide_2018.txt :: 中国体癣和股癣诊疗指南（2018修订版） | 中国体癣和股癣诊疗指南工作组 | 2018 :: https://medi-guide.meditool.cn/ymtpdf/5CD4D6E6-F83C-5A4C-9F1E-42E2D0F1A6B3.pdf
+- urticaria_guide_2018.txt :: 中国荨麻疹诊疗指南（2018版） | 中华医学会皮肤性病学分会荨麻疹研究中心 | 2018 :: https://medi-guide.meditool.cn/ymtpdf/F9DC57F7-13E5-5D6E-14D1-39DFBE32D4E8.pdf
+- who_tinea_zh.txt :: 癣（实况报道） | 世界卫生组织（中文实发） | 2025 :: https://www.who.int/zh/news-room/fact-sheets/detail/ringworm-(tinea)
+- who_uv_radiation_zh.txt :: 紫外线辐射（实况报道） | 世界卫生组织（中文实发） | 2022 :: https://www.who.int/zh/news-room/fact-sheets/detail/ultraviolet-radiation

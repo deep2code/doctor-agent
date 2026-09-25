@@ -1,0 +1,3633 @@
+中国成人2型糖尿病合并心肾疾病患者降糖药物临床应用专家共识 - 中华内分泌代谢杂志
+×
+×
+定义肩部广告结束 -->
+中国成人2型糖尿病合并心肾疾病患者降糖药物临床应用专家共识
+中华医学会糖尿病学分会
+中华医学会内分泌学分会
+中华内分泌代谢杂志, 2020,36(06)
+: 458-468. DOI: 10.3760/cma.j.cn311282-20200422-00298
+随着人口老龄化和生活方式的改变，我国成人糖尿病患病率从1980年的0.67%迅速攀升至2013年的10.40%
+[
+1
+]
+。2型糖尿病(T2DM；本共识中缩略语的中英文全称详见附录1)易合并心肾疾病，而心肾疾病又是T2DM患者致残和致死的主要原因。因此，T2DM合并心肾疾病患者的综合管理具有重要意义。近年来的一系列大型临床研究结果显示，一些新型降糖药物除有明确的降糖作用外，还具有心血管和肾脏获益。因此，在T2DM合并心肾疾病患者中，合理使用降糖药物具有重要意义。有鉴于此，中华医学会糖尿病学分会与中华医学会内分泌学分会联合制订了本专家共识。
+本共识的主要推荐意见详见
+表1
+。
+点击查看表格
+表1
+本共识的主要推荐意见
+表1
+本共识的主要推荐意见
+主要推荐意见
+推荐级别
+证据水平
+一、T2DM患者的心血管风险评估与肾脏疾病筛查
+推荐1
+T2DM患者每年至少系统评估心血管风险1次，对于心血管风险高危或单个危险因素达到启始治疗水平者，应及时采取相应的临床干预措施
+Ⅰ
+C
+推荐2
+T2DM患者每年至少检测1次尿常规、尿白蛋白/肌酐比值及血清肌酐，以早期发现CKD
+Ⅰ
+C
+二、T2DM合并心肾疾病患者的血糖管理策略和控制目标
+推荐3
+包括生活方式干预、降糖药物治疗、血糖监测及糖尿病教育在内的综合管理是T2DM合并心肾疾病患者血糖管理的基本策略
+Ⅰ
+C
+推荐4
+糖尿病病程较长、已合并ASCVD或心血管风险极高危T2DM患者的HbA
+1C
+目标值为<8.0%
+Ⅱa
+B
+推荐5
+T2DM合并HF患者的HbA
+1C
+目标值为7.0%～8.0%
+Ⅱb
+B
+推荐6
+年龄<40岁的T2DM合并CKD患者及年龄≥40岁的CKD 1～2期患者的HbA
+1C
+目标值为6.5%～7.5%；未使用胰岛素治疗的CKD 3～4期患者的HbA
+1C
+目标值为7.0%～7.5%；正在使用胰岛素治疗的CKD 3～4期及接受透析治疗的CKD 5期患者的HbA
+1C
+目标值为7.5%～8.5%
+Ⅱa
+B
+推荐7
+在T2DM合并ASCVD、HF或CKD患者中，若年龄≥60岁或预期寿命<5年或反复出现低血糖发作，HbA
+1C
+目标值放宽至8.0%～9.0%
+Ⅱa
+B
+三、T2DM合并心肾疾病患者降糖药物的合理应用
+推荐8
+如果没有禁忌证或不耐受，二甲双胍应作为T2DM合并ASCVD或心血管风险极高危、HF或CKD患者的一线降糖药物，并且一直保留在治疗方案中
+Ⅱa
+B
+推荐9
+对于T2DM合并ASCVD或心血管风险极高危患者，不论其HbA
+1C
+是否达标，建议联合具有心血管获益证据的GLP-1RA或SGLT2i，以降低心血管事件风险
+Ⅰ
+A
+推荐10
+对于T2DM合并HF患者，不论其HbA
+1C
+是否达标，建议联合SGLT2i，以降低HF住院或进展风险
+Ⅰ
+A
+推荐11
+对于T2DM合并CKD患者，不论其HbA
+1C
+是否达标，建议联合SGLT2i，以改善肾脏结局；若不能使用SGLT2i，建议选择具有肾脏获益证据的GLP-1RA
+Ⅰ
+A
+推荐12
+如果患者已经采用不包含SGLT2i或GLP-1RA在内的二联(或三联)降糖治疗方案且HbA
+1C
+已达标，在加用SGLT2i或GLP-1RA时，可考虑停用一个二甲双胍以外的降糖药物或减少其剂量；如果患者在联合GLP-1RA或SGLT2i治疗3个月后HbA
+1C
+仍未达标，可启动包括胰岛素在内的三联治疗
+Ⅱb
+C
+推荐13
+如果T2DM合并ASCVD、HF或CKD患者使用胰岛素或胰岛素促泌剂，应加强血糖监测，特别注意防范低血糖
+Ⅱa
+B
+推荐14
+不推荐T2DM合并重度HF或急性HF患者使用二甲双胍治疗，不推荐T2DM合并eGFR<45 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+的CKD患者起始以二甲双胍治疗
+Ⅲ
+C
+推荐15
+不推荐T2DM合并HF患者使用噻唑烷二酮类药物和沙格列汀
+Ⅲ
+B
+推荐16
+不推荐T2DM合并eGFR<45 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+的CKD患者使用SGLT2i
+Ⅲ
+C
+四、T2DM合并心肾疾病患者其他危险因素的管理
+推荐17
+对于T2DM合并ASCVD、HF或CKD患者，应做到早期血糖控制达标并且长期维持，同时全面管理好其他心血管危险因素，具体措施包括生活方式干预、降压、调脂、抗血小板治疗等
+Ⅱa
+B
+注：T2DM：2型糖尿病；CKD：慢性肾脏病；ASCVD：动脉粥样硬化性心血管疾病；HF：心力衰竭；GLP-1RA：胰升糖素样肽1受体激动剂；SGLT2i：钠-葡萄糖协同转运蛋白2抑制剂；eGFR：估算的肾小球滤过率；本共识参考美国心脏病学学院与美国心脏学会(AHA)联合制订的心血管疾病一级预防指南
+[
+2
+]
+的推荐级别和证据水平分类；推荐级别(强度)，其中Ⅰ为推荐，Ⅱa为应当考虑，Ⅱb为可以考虑，Ⅲ为不推荐；证据水平(质量)，其中A为高质量证据，B为中等质量证据，C为有限数据或专家意见；推荐级别与证据水平是独立确定的，故两者间可以不完全匹配，譬如，某项建议证据水平为C，并不必然代表其为弱推荐，故本共识中提到的许多重要临床问题虽然缺乏随机对照临床试验(RCT)证据，但可能存在非常明确的临床推荐意见
+一、T2DM合并心肾疾病的流行病学
+糖尿病患者易发生心血管疾病(CVD)，CVD的最主要原因是动脉粥样硬化，由其所致者称为动脉粥样硬化性心血管疾病(ASCVD)，包括冠状动脉疾病、缺血性卒中及外周动脉疾病
+[
+3
+]
+。Framingham队列研究显示，糖尿病人群发生CVD的风险约为非糖尿病人群的2.5倍
+[
+4
+]
+。Einarson等
+[
+5
+]
+系统分析了57篇文献中的4 549 481例T2DM患者(平均年龄63.6岁，平均糖尿病病程10.4年)，合并CVD的患者占32.2%。Lautsch等
+[
+6
+]
+对英国临床实践研究数据库(UK Clinical Practice Research Datalink)中的148 803例T2DM患者(平均年龄65岁)进行的分析显示，35.4%的患者已有CVD。我国的3B研究显示，在门诊T2DM患者(平均年龄62.6岁)中，14.6%合并CVD(不包括脑血管疾病和外周血管疾病)，10.1%合并脑血管疾病
+[
+7
+]
+。中国Kadoorie生物样本库协作组(China Kadoorie Biobank Collaborative Group)的资料显示，糖尿病人群心血管死亡风险为非糖尿病人群的2.1倍，心血管死亡占中国糖尿病人群总死因的43.2%
+[
+8
+]
+。因此，CVD是T2DM患者最主要的死亡原因。
+近年来，心力衰竭(HF)与糖尿病的关系受到高度重视
+[
+9
+,
+10
+]
+。糖尿病是HF重要的危险因素，糖尿病人群HF患病率在不同研究中有一定的差异
+[
+11
+]
+。Reykjavik研究显示，T2DM人群HF患病率为11.8%，非糖尿病人群HF患病率则仅为3.2%
+[
+12
+]
+。Einarson等
+[
+5
+]
+系统分析了14篇文献中的601 154例T2DM患者，合并HF的患者占14.9%。Shah等
+[
+13
+]
+对34 198例无CVD的T2DM患者进行了平均5.5年的随访，结果显示，14.1%的患者在随访期间发生HF，发生率高于心肌梗死和卒中；在这些患者中，HF的漏诊率很高，且更容易出现射血分数保留性心力衰竭(HFpEF)。荷兰的一项观察性研究入选了605例年龄≥60岁的T2DM患者(平均年龄71.5岁)，其中581例没有诊断过HF，对这581例"没有"HF的患者进行的评估显示，161例(27.7%)存在HF，其中28例(4.8%)为射血分数降低性心力衰竭(HFrEF)，133例(22.9%)为HFpEF，且全部是左心室HF
+[
+14
+]
+。此外，糖尿病人群的HF预后也较非糖尿病人群更差。西班牙的一项前瞻性队列研究入选了1 519例T2DM合并HF患者，中位随访时间为56.9个月，死亡率高达68.8%，因HF加重而住院的患者占88.5%
+[
+15
+]
+。另有研究显示，T2DM人群较非糖尿病人群HF住院风险增加2倍，老年糖尿病人群HF死亡风险约为非糖尿病人群的9倍
+[
+16
+,
+17
+]
+。另一方面，HF患者也是糖尿病的高危人群，中国心力衰竭登记研究显示，21%的HF患者合并糖尿病
+[
+18
+]
+。
+慢性肾脏病(CKD)是T2DM另一个重要合并症。美国的一项研究显示，T2DM人群中CKD患病率约为25%，而非糖尿病人群中则仅为5.3%
+[
+19
+]
+。另有研究显示，在T2DM患者中，微量或大量白蛋白尿的年发生率约为8%，估算的肾小球滤过率(eGFR)<60 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+的年发生率为2%～4%，终末期肾病(ESKD)的年发生率为0.04%～1.80%
+[
+20
+]
+。国内的一项研究显示，27.1%的T2DM患者合并CKD
+[
+21
+]
+。自2011年起，糖尿病相关的CKD已超过肾小球肾炎成为中国CKD住院的首要原因
+[
+22
+]
+。中国Kadoorie生物样本库协作组的资料显示，糖尿病人群CKD死亡风险为非糖尿病人群的13.1倍，CKD占中国糖尿病人群总死因的5.2%
+[
+8
+]
+。此外，HF患者常伴有CKD，T2DM合并HF患者若伴有CKD则预后更差，CKD是HF患者预后不良的强力预测因子。来自美国急性失代偿性心力衰竭国家登记研究和中国心力衰竭登记研究显示，约30%～40%的HF患者伴肾功能不全，在急性HF住院患者中约70%为CKD 2～3期
+[
+18
+,
+23
+]
+。
+二、T2DM患者的心血管风险评估与肾脏疾病筛查
+1．T2DM患者的心血管风险评估与ASCVD筛查：
+临床上，能够确诊的ASCVD包括急性冠状动脉综合征(急性心肌梗死或不稳定型心绞痛)、稳定型心绞痛、冠状动脉血管重建术、缺血性卒中或短暂性脑缺血发作、外周动脉疾病或血管重建术。
+T2DM患者每年应至少系统评估心血管风险1次，其中包括ASCVD现病史和既往史、早发ASCVD家族史、吸烟、超重或肥胖、高血压、血脂异常、微量或大量白蛋白尿、eGFR降低等
+[
+1
+,
+24
+,
+25
+]
+。对于心血管风险高危或单个心血管危险因素达到需要起始治疗水平的T2DM患者，应及时采取相应的临床干预措施。
+为了便于临床操作，本共识参考欧洲心脏病学会(ESC)与欧洲糖尿病学会(EASD)联合制订的糖尿病、糖尿病前期及心血管疾病指南
+[
+25
+]
+推荐的糖尿病患者心血管风险分层方案(
+表2
+)。
+点击查看表格
+表2
+T2DM患者的心血管风险分层
+表2
+T2DM患者的心血管风险分层
+风险分层
+描述
+极高危
+已合并CVD，或其他靶器官损害[白蛋白尿，eGFR<30 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+，左心室肥厚或视网膜病变]，或≥3项其他心血管危险因素(年龄≥50岁、吸烟、肥胖、高血压、血脂异常)
+高危
+病程≥10年，无靶器官损害，但伴有1～2项其他心血管危险因素
+中危
+病程<10年，年龄<50岁，且无其他心血管危险因素
+注：T2DM：2型糖尿病；CVD：心血管疾病；eGFR：估算的肾小球滤过率
+对于有CVD相关症状(如胸部不适等)或体征及心血管风险极高危的T2DM患者，建议行冠状动脉疾病筛查，筛查方法包括计算机断层扫描(CT)冠状动脉血管成像等。CVD相关生物标志物的临床价值有限，不推荐常规测定。对于无明显临床症状或体征、心血管风险中危和高危的T2DM患者，不推荐常规筛查冠状动脉疾病
+[
+24
+,
+25
+,
+26
+]
+。
+2．T2DM患者的肾病筛查与评估：
+T2DM在诊断时即可能伴有糖尿病肾脏病(DKD)，故T2DM在初诊时就应进行肾病筛查。以后每年应至少进行1次肾病筛查，尤其是早发T2DM(即40岁之前诊断)患者。筛查项目包括尿常规、尿白蛋白/肌酐比值(UACR)或尿白蛋白排泄率(UAER)及血清肌酐(用于计算eGFR)，有条件者还可进行肾脏影像学检查(如超声等)甚至病理学检查。全面的检查有助于判断患者的CKD究竟是DKD还是非DKD所致。当患者合并的CKD原因不明时，应该将患者转诊给肾脏病专科医师。
+建议通过肾小球滤过率(GFR)和白蛋白尿严重程度对T2DM患者的CKD进展风险进行评估。菊粉法或核素法直接测定GFR是评估肾功能的金标准，若无法直接测定GFR，则可用由血清肌酐计算的eGFR，推荐使用CKD-EPI或MDRD公式(http：//nkdep.nih.gov)。白蛋白尿严重程度可以用UACR或UAER来判断。同时评估eGFR和白蛋白尿严重程度对判断患者的CKD是否由DKD所致具有一定的帮助。例如，患者的UACR(或UAER)正常或轻度增加而GFR显著降低，亦或GFR正常而UACR(或UAER)重度增加，均提示患者的CKD可能不是DKD所致。
+三、T2DM合并心肾疾病患者的血糖管理策略和控制目标
+1．血糖管理策略：
+中华医学会糖尿病学分会与中华医学会内分泌学分会联合制订的《中国成人2型糖尿病患者糖化血红蛋白控制目标及达标策略专家共识》
+[
+27
+]
+推荐包括生活方式干预、降糖药物治疗、血糖监测及糖尿病教育在内的综合管理是T2DM合并心肾疾病患者血糖管理的基本策略。近年来的临床研究结果显示，一些胰升糖素样肽1受体激动剂(GLP-1RA)和钠-葡萄糖协同转运蛋白2抑制剂(SGLT2i)除有明确的降糖作用外，还具有心血管和肾脏获益作用。因此，对于T2DM合并心肾疾病患者，在没有禁忌证且条件允许的情况下，可考虑优先联合GLP-1RA或SGLT2i。
+2．血糖控制目标：
+T2DM合并ASCVD、HF或CKD时，应综合考虑患者的年龄、糖尿病病程、ASCVD病史、HF严重程度、CKD分期、低血糖风险等因素，设定个体化的血糖控制目标
+[
+27
+]
+。具体包括以下几个方面。(1)糖尿病病程较长、已合并ASCVD或心血管风险极高危的T2DM患者，推荐HbA
+1C
+目标值为<8.0%
+[
+27
+]
+。(2)T2DM合并HF患者的HbA
+1C
+究竟控制在何种水平更合适，目前尚缺乏前瞻性干预研究证据。观察性研究显示，HbA
+1C
+水平与T2DM患者HF发生风险和T2DM合并HF患者死亡风险之间均呈U形关系，HbA
+1C
+为7.0%～8.0%的患者HF发生风险和死亡风险均最低
+[
+28
+,
+29
+]
+。因此，本共识推荐T2DM合并HF患者的HbA
+1C
+目标值为7.0%～8.0%
+[
+27
+]
+。(3)年龄<40岁的T2DM合并CKD患者及≥40岁的CKD 1～2期患者HbA
+1C
+目标值推荐为6.5%～7.5%；未使用胰岛素治疗的CKD 3～4期患者HbA
+1C
+目标值为7.0%～7.5%；正在使用胰岛素治疗的CKD 3～4期患者及接受透析治疗的CKD 5期患者，HbA
+1C
+控制目标值可放宽至7.5%～8.5%
+[
+27
+]
+。(4)在T2DM合并ASCVD、HF或CKD患者中，如果年龄≥60岁或预期寿命<5年或反复出现低血糖发作，HbA
+1C
+目标值可进一步放宽至8.0%～9.0%
+[
+27
+]
+。
+四、T2DM合并心肾疾病患者降糖药物的合理应用
+T2DM合并心肾疾病患者选择降糖药物时，应根据药物的疗效、安全性、卫生经济学、药品可及性、使用方便性等因素综合考虑，可考虑优先选择具有心血管和肾脏获益证据的降糖药物，以改善患者的预后。
+各类降糖药物对心血管和肾脏的影响见
+表3
+。
+点击查看表格
+表3
+各类降糖药物对ASCVD、HF及CKD的影响
+表3
+各类降糖药物对ASCVD、HF及CKD的影响
+药物类别
+ASCVD
+HF
+CKD
+二甲双胍
+获益
+a
+中性
+b
+中性
+磺脲类
+中性
+中性
+中性
+格列奈类
+中性
+中性
+中性
+α-糖苷酶抑制剂
+中性
+中性
+中性
+噻唑烷二酮类
+获益
+c
+增加风险
+中性
+二肽基肽酶4抑制剂
+中性
+中性
+d
+中性
+GLP-1RA
+显著获益
+中性
+获益
+e
+SGLT2i
+显著获益
+显著获益
+显著获益
+胰岛素
+中性
+中性
+中性
+注：ASCVD：动脉粥样硬化性心血管疾病；HF：心力衰竭；CKD：慢性肾脏病；GLP-1RA：胰升糖素样肽1受体激动剂；SGLT2i：钠-葡萄糖协同转运蛋白2抑制剂；二甲双胍、磺脲类、格列奈类、α-糖苷酶抑制剂、噻唑烷二酮类、胰岛素(除德谷胰岛素外)等药物由于上市较早，故未被要求进行心血管结局试验(CVOT)；若无明确的获益或增加风险的新证据，则暂时默认为中性；
+a
+：目前无CVOT研究数据，但英国糖尿病前瞻性研究(UKPDS)、多项观察性研究及
+meta
+分析均显示有获益；
+b
+：对HF发生风险的影响是中性的，但可能降低HF患者死亡风险；
+c
+：仅限于吡格列酮，且为二级终点的数据；
+d
+：沙格列汀可能增加HF住院风险，维格列汀缺乏CVOT数据；
+e
+：目前仅有二级终点或探索性终点的数据
+1．T2DM合并ASCVD、HF或CKD患者的一线降糖药物：
+关于T2DM合并ASCVD、HF或CKD患者的一线降糖药物，目前不同学术组织制订的指南或共识有不同的推荐。《中国2型糖尿病防治指南》
+[
+1
+]
+和《中国成人2型糖尿病患者糖化血红蛋白控制目标及达标策略专家共识》
+[
+27
+]
+推荐二甲双胍作为T2DM患者(包括T2DM合并ASCVD、HF或CKD患者)单药治疗的首选药物，2020年美国糖尿病学会(ADA)指南
+[
+30
+]
+、2019年ADA与EASD联合修订的2型糖尿病高血糖管理共识
+[
+31
+]
+、2020年美国临床内分泌医师协会/美国内分泌学院指南
+[
+32
+]
+均推荐二甲双胍作为T2DM合并ASCVD、HF或CKD患者的一线降糖药物，对于这类患者，不论血糖控制是否达标，都应给予具有心血管和肾脏获益证据的GLP-1RA或SGLT2i。2019美国心脏病学学院与美国心脏学会(AHA)联合制订的心血管疾病一级预防指南
+[
+2
+]
+也推荐二甲双胍作为T2DM合并其他心血管危险因素患者的起始治疗药物。然而，ESC与EASD联合制订的糖尿病、糖尿病前期及心血管疾病指南
+[
+25
+]
+则将SGLT2i或GLP-1RA取代二甲双胍作为T2DM合并ASCVD及心血管风险高危或极高危患者的一线降糖药物。
+由于历史原因，二甲双胍缺乏安慰剂对照的心血管结局试验(CVOT)，但多项究证据显示二甲双胍具有心血管获益。英国糖尿病前瞻性研究(UKPDS)显示，对于超重或肥胖的新诊断T2DM患者，二甲双胍治疗可使心肌梗死风险降低39%、卒中风险降低41%、全因死亡风险降低36%
+[
+33
+]
+。UKPDS结束后的10年延长期随访研究显示，二甲双胍仍可显著降低心肌梗死和全因死亡的风险
+[
+34
+]
+。多项
+meta
+分析和大型观察性研究也显示，二甲双胍可改善心血管和肾脏结局，降低心血管死亡和全因死亡风险，并且具有其他方面的潜在获益
+[
+35
+,
+36
+,
+37
+,
+38
+,
+39
+,
+40
+,
+41
+,
+42
+,
+43
+,
+44
+,
+45
+]
+。CVOT研究显示，一些GLP-1RA和SGLT2i除有明确的降糖作用外，还具有心血管和肾脏获益。然而，这些CVOT研究的获益结果都是在二甲双胍作为标准治疗的基础上取得的。目前，尚缺乏GLP-1RA或SGLT2i与二甲双胍头对头比较的CVOT研究，也没有证据支持GLP-1RA或SGLT2i较二甲双胍在T2DM合并ASCVD、HF或CKD患者中具有更大的获益。此外，二甲双胍具有良好的降糖作用、不增加低血糖风险、经济负担很低、临床用药经验丰富、良好的药物可及性、多种降糖作用之外的潜在益处等优点。因此，本共识推荐，如果没有禁忌证或不耐受，二甲双胍应作为T2DM合并ASCVD或心血管风险极高危、HF或CKD患者的一线降糖药物，并且一直保留在治疗方案中。
+既往曾将HF作为二甲双胍的禁忌证，担心HF时二甲双胍可能更容易诱发乳酸性酸中毒。近年来的研究结果显示，二甲双胍对T2DM合并HF患者是安全且有益的。一项
+meta
+分析显示，二甲双胍可降低T2DM合并HF患者的心血管事件和全因死亡风险
+[
+35
+]
+。大型回顾性队列研究显示，使用二甲双胍治疗的T2DM患者HF住院风险显著降低
+[
+39
+]
+。西班牙的一项倾向性匹配(propensity-matched)研究显示，二甲双胍可使T2DM合并HF患者全因死亡风险显著降低15%，心血管死亡风险显著降低22%，住院风险显著降低19%
+[
+40
+]
+。一项入选9个队列研究的系统评价显示，在T2DM合并HF患者中，二甲双胍可使全因死亡风险降低20%(
+P
+<0.01)，全因住院风险下降7%(
+P
+＝0.01)，且不增加乳酸性酸中毒的风险
+[
+41
+]
+。沙格列汀在糖尿病患者中的心血管结局评价(SAVOR)-TIMI 53研究数据的事后分析结果显示，二甲双胍可使HF患者全因死亡风险显著降低25%
+[
+42
+]
+。因此，二甲双胍对HF发生风险的影响可能是中性的，但可能有助于降低HF患者的死亡风险。目前，监管部门普遍放宽了二甲双胍在HF中的使用限制，如美国食品药品监督管理局(FDA)已于2006年取消了HF作为二甲双胍的禁忌证。
+二甲双胍用于重度HF的临床研究非常少。Shah等
+[
+43
+]
+的研究入选了401例T2DM合并中重度HF患者，平均年龄56岁，平均左心室射血分数(LVEF)为24%。按照纽约心脏协会(NYHA)的心功能分级，42%的患者为Ⅲ级，45%为Ⅳ级。研究结果显示，二甲双胍组(
+n
+＝99)与非二甲双胍组(
+n
+＝302)患者治疗1年的死亡率分别为9%与24%(
+P
+＝0.007)，2年的死亡率分别为22%与37%(
+P
+＝0.007)。在校正其他混杂因素后，二甲双胍组治疗1年和2年的死亡风险虽有下降趋势但差异无统计学意义(相对危险度分别为0.63和0.79，
+P
+值分别为0.40和0.54)。值得注意的是，上述这项研究不是随机对照临床试验(RCT)，样本量较小，且两组间的基线资料存在差异。因此，为确保临床用药的安全性，本共识不推荐T2DM合并重度HF或急性HF患者使用二甲双胍治疗。T2DM合并急性HF患者处于应激状态，建议胰岛素治疗。T2DM合并重度HF患者，如果eGFR>45 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+，可给予SGLT2i；如果eGFR<45 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+，可选择利格列汀、瑞格列奈、格列喹酮或胰岛素治疗。已使用SGLT2i治疗的重度HF患者，如果血糖控制不佳，可联合胰岛素等药物。
+由于二甲双胍以原形从肾脏排泄，故肾功能不全有可能造成其在体内蓄积，增加乳酸性酸中毒风险。因此，曾将eGFR<60 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+作为二甲双胍的禁忌证。目前，尚无专门评估二甲双胍在不同肾功能状态患者中用药安全性的大型RCT研究，但多项回顾性或前瞻性队列研究提示二甲双胍在eGFR>45 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+的患者中是安全有效的。FDA已于2016年修订了二甲双胍在CKD中的使用说明，首次处方二甲双胍时eGFR必须>45 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+；如果已经使用二甲双胍治疗，只要eGFR>30 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+可继续使用。近年来，Lazarus等
+[
+44
+]
+的大型回顾性队列研究显示，二甲双胍只有在eGFR<30 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+的患者中才会增加乳酸性酸中毒的风险，eGFR处在30～44、45～59 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+的患者使用二甲双胍并不会增加乳酸性酸中毒的风险。另有研究显示，二甲双胍可使CKD患者心血管死亡和全因死亡风险降低，且不良反应未见显著增加
+[
+45
+,
+46
+]
+。Lalau等
+[
+47
+]
+的研究显示，即使在CKD 4期，只要二甲双胍减少剂量(500 mg/d)也不会使血药浓度过度增高。因此，本共识不推荐eGFR<45 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+的患者起始以二甲双胍治疗；已经使用二甲双胍的患者，若eGFR降到30～44 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+则应减量使用，eGFR降到30 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+以下则应停止使用。白蛋白尿的出现并非使用二甲双胍治疗的禁忌证，只要eGFR符合条件仍可以使用。应激状态，尤其是发生急性肾损伤、低血压状态时，应避免使用二甲双胍。碘对比剂和全身麻醉可增加二甲双胍相关的乳酸性酸中毒风险，应于碘对比剂使用前或全身麻醉前48 h停用二甲双胍，并于操作完成后至少48 h内密切监测肾功能，若无肾功能恶化，可继续使用
+[
+48
+,
+49
+]
+。eGFR<45 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+的患者，若需起始降糖药物治疗，可选择GLP-1RA；若不能使用GLP-1RA，可根据情况给予利格列汀、瑞格列奈、格列喹酮或胰岛素治疗。
+2．T2DM合并ASCVD或心血管风险极高危患者的降糖药物选择：
+CVOT研究结果显示，一些GLP-1RA和SGLT2i对T2DM合并ASCVD或心血管风险极高危患者具有心血管获益。利拉鲁肽、度拉糖肽、利司那肽、艾塞那肽周制剂、阿必鲁肽、司美鲁肽注射剂及司美鲁肽口服制剂均已完成CVOT研究
+[
+50
+,
+51
+,
+52
+,
+53
+,
+54
+,
+55
+,
+56
+]
+。研究结果显示，利拉鲁肽、度拉糖肽、阿必鲁肽及司美鲁肽注射剂均可显著降低主要不良心血管事件(包括心血管死亡、非致死性心肌梗死或卒中)风险
+[
+50
+,
+51
+,
+54
+,
+55
+]
+。恩格列净、卡格列净及达格列净的CVOT研究显示，恩格列净和卡格列净可显著降低MACE风险，但达格列净的研究结果则不完全一致，可能与入选的受试者人群存在差异有关
+[
+57
+,
+58
+,
+59
+]
+。对恩格列净、卡格列净及达格列净的CVOT研究进行的
+meta
+分析显示，无论T2DM患者是否具有ASCVD或HF病史，SGLT2i治疗均可降低HF住院和肾脏病进展的风险，且结果高度一致，但仅在既往有ASCVD病史的患者中可降低主要不良心血管事件风险
+[
+60
+]
+。
+基于GLP-1RA和SGLT2i的CVOT研究证据，并参考2020年ADA指南
+[
+30
+]
+及2019年ADA与EASD联合制订的T2DM高血糖管理共识
+[
+31
+]
+的推荐，本共识推荐，对于T2DM合并ASCVD或心血管风险极高危患者，不论其HbA
+1C
+是否达标，只要没有禁忌证都应在二甲双胍的基础上加用具有心血管获益证据的GLP-1RA或SGLT2i。目前的循证医学证据显示，SGLT2i和GLP-1RA对ASCVD的获益程度大致相当，选择SGLT2i还是GLP-1RA可根据疾病临床特点、药物可及性、药物费用、患者对注射制剂的接受程度等因素决定
+[
+61
+]
+。此外，T2DM合并ASCVD患者是否同时伴有HF或CKD也是选择药物的重要因素，若同时伴有HF或CKD，在没有禁忌证的情况下通常优先选择SGLT2i
+[
+61
+]
+。
+如果患者已经采用不包含SGLT2i或GLP-1RA在内的二联(甚或三联)降糖治疗方案且HbA
+1C
+已达标，在加用SGLT2i或GLP-1RA时，可以考虑停用一个二甲双胍以外的降糖药物或减少其剂量。如果患者在联合GLP-1RA或SGLT2i治疗后3个月仍然不能达标，可启动包括胰岛素在内的三联治疗。
+3．T2DM合并HF患者的降糖药物选择：
+恩格列净、卡格列净及达格列净的CVOT研究及卡格列净与糖尿病合并肾病患者肾脏终点的临床评价(CREDENCE)研究一致显示，SGLT2i可使T2DM患者HF住院风险大幅降低
+[
+62
+]
+。此外，达格列净与心力衰竭的不良结局预防(DAPA-HF)研究进一步证实，达格列净不仅能改善T2DM合并HFrEF患者的预后，还能改善非糖尿病HFrEF患者的预后
+[
+63
+]
+。因此，本共识推荐，对于T2DM合并HF(尤其是HFrEF)患者，不论其HbA
+1C
+是否达标，只要没有禁忌证都应加用SGLT2i。若患者在联合SGLT2i治疗后3个月仍然不能达标，可启动不包括噻唑烷二酮类药物的三联治疗。SAVOR-TIMI 53研究的亚组分析显示，在既往有HF病史的亚组人群中，沙格列汀不增加HF住院风险。尽管如此，本共识不推荐T2DM合并HF患者使用沙格列汀
+[
+64
+]
+。
+有关GLP-1RA对HF是否具有益处，目前存在争议。已完成的7项GLP-1RA的CVOT研究都没有显示GLP-1RA可降低T2DM患者的HF住院风险
+[
+50
+,
+51
+,
+52
+,
+53
+,
+54
+,
+55
+,
+56
+]
+。这7项CVOT研究的
+meta
+分析显示，GLP-1RA可降低HF住院风险9%(
+P
+＝0.028)
+[
+65
+]
+。晚近另一篇针对这7项CVOT研究的
+meta
+分析则显示，GLP-1RA未显著降低HF住院风险
+[
+66
+]
+。即便在前一篇报告GLP-1RA可降低HF住院风险的
+meta
+分析中，减少1个HF住院事件需要治疗高达312例患者，提示其临床意义极为有限
+[
+65
+]
+。已有两项RCT研究评估利拉鲁肽对T2DM合并HFrEF患者心功能的影响。结果显示，与安慰剂相比，利拉鲁肽并未能改善HF患者的LVEF和心血管结局(包括HF住院风险)
+[
+67
+,
+68
+]
+。其中一项研究甚至还显示，利拉鲁肽组严重心脏事件风险增加(
+P
+＝0.04)
+[
+67
+]
+。RCT研究显示，与安慰剂相比，阿必鲁肽并未能改善HF患者的LVEF及6 min步行试验的运动耐力，却可增加心肌最大耗氧量
+[
+69
+]
+。此外，多项研究显示，长效GLP-1RA可使心率平均增加3～10次/min
+[
+70
+]
+；这对HF可能具有潜在的不良影响。因此，目前通常认为GLP-1RA对HF的影响是中性的
+[
+9
+,
+10
+,
+71
+,
+72
+]
+。AHA和美国心力衰竭学会(HFSA)联合发布的声明
+[
+10
+]
+甚至还认为在HFrEF的失代偿期应慎用GLP-1RA。有鉴于此，尽管2020年ADA指南
+[
+30
+]
+及2019年ADA与EASD联合制订的T2DM高血糖管理共识
+[
+31
+]
+推荐，T2DM合并HF患者在不能使用SGLT2i的情况下优先使用具有心血管获益证据的GLP-1RA，但本共识并没有给予相同的推荐。
+4．T2DM合并CKD患者的降糖药物选择：
+近年来的多项临床研究评估了SGLT2i和GLP-1RA对主要不良肾脏事件的影响，结果显示，SGLT2i和一些GLP-1RA具有肾脏获益
+[
+72
+,
+73
+,
+74
+]
+。卡格列净是首个完成肾脏结局试验(ROT)的降糖药物。卡格列净的ROT研究CREDENCE及恩格列净、卡格列净、达格列净的CVOT研究结果均显示，SGLT2i不仅可改善肾脏"软终点"(尿白蛋白排泄量)，对"硬终点"(包括eGFR下降≥40%或血清肌酐加倍、ESKD或肾替代治疗、肾病死亡)也具有显著的改善作用；而一些研究显示，GLP-1RA主要对肾脏"软终点"具有改善作用，对"硬终点"的改善目前仅有探索性分析的数据
+[
+72
+,
+75
+]
+。因此，本共识推荐，对于T2DM合并CKD患者，不论其HbA
+1C
+是否达标，只要没有禁忌证都应加用SGLT2i；若患者不能使用SGLT2i，建议选择联合具有肾脏获益证据的GLP-1RA；若患者在联合SGLT2i治疗后3个月仍然不能达标，可启动包括胰岛素在内的三联治疗。二肽基肽酶4抑制剂可能也具有潜在的肾脏获益，但其证据强度不及GLP-1RA
+[
+72
+]
+，可作为三联治疗的选择。
+T2DM合并CKD时，患者的eGFR可出现不同程度的降低，大多数非胰岛素降糖药物的药代动力学会发生改变，需根据eGFR水平变化停用或减量，以避免药物在体内的蓄积。SGLT2i发挥降糖作用依赖于一定的残存肾功能，因此不推荐eGFR<45 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+的患者使用该类药物。
+5．低血糖的防范：
+ASCVD和HF患者对低血糖的耐受性降低，CKD患者易发生低血糖。因此，对于T2DM合并ASCVD、HF或CKD患者，应特别注意防范低血糖。如果使用胰岛素和胰岛素促泌剂治疗，应从小剂量起始，逐渐滴定，同时加强血糖监测和低血糖知识宣教，并且适当放宽血糖控制目标。如果出现低血糖，应立即处理，并且调整治疗方案。
+T2DM合并ASCVD、HF或CKD患者的降糖药物治疗流程见
+图1
+。
+点击查看大图
+图1
+T2DM合并ASCVD、HF或CKD患者的降糖药物治疗路径
+注：T2DM：2型糖尿病；ASCVD：动脉粥样硬化性心血管疾病；HF：心力衰竭；CKD：慢性肾脏病；GLP-1RA：胰升糖素样肽1受体激动剂；SGLT2i：钠-葡萄糖协同转运蛋白2抑制剂；
+a
+：T2DM合并HF患者不推荐使用噻唑烷二酮类药物和沙格列汀；
+b
+：已经使用二甲双胍、GLP-1RA或SGLT2i患者建议不停药(除非有禁忌证或不耐受)
+图1
+T2DM合并ASCVD、HF或CKD患者的降糖药物治疗路径
+五、T2DM合并心肾疾病患者其他危险因素的管理
+对于T2DM合并心肾疾病的患者，临床医生应该在控制血糖的同时，全面管理好各种心血管危险因素，具体措施包括生活方式干预、减重、戒烟、限酒、降压、调脂、抗血小板治疗等，以最大程度地降低大血管和微血管事件及死亡风险。
+1．生活方式干预：
+(1)超重或肥胖患者可通过限制总热量和增加体力活动，从而减轻体重，目标设定为3～6个月内降低初始体重的5%～10%并长期维持。(2)适当运动：坚持每周至少5 d、每天累计30～60 min中等强度的有氧运动(快走、慢跑、骑自行车、游泳等)，可适度安排抗阻运动。(3)合理膳食：合并高血压或CKD的患者，限制钠盐摄入量(<6 g/d)，适当补钾；合并血脂异常的患者，宜限制脂肪(尤其是饱和脂肪和反式脂肪)摄入量，补充膳食纤维；不需要透析治疗的CKD患者，蛋白质摄入量约0.8 g·kg
+－1
+·d
+－1
+。(4)戒烟，并且避免被动吸烟(含电子烟)。(5)建议不饮酒，若要饮酒，也应避免饮用高度烈性酒，酒精摄入量男性<25 g/d、女性<15 g/d。
+2．降压治疗：
+血压控制目标为，一般患者的血压目标值为<140/90 mmHg(1 mmHg＝0.133 kPa)，若患者健康状况较好，血压也可以进一步降至<130/80 mmHg；老年或有严重冠状动脉疾病者的血压目标值为<150/90 mmHg
+[
+24
+,
+76
+,
+77
+]
+。
+治疗方案：(1)对于一般T2DM合并高血压患者，降压药物推荐血管紧张素转换酶抑制剂(ACEI)、血管紧张素受体拮抗剂(ARB)、噻嗪类利尿剂或二氢吡啶类钙通道阻滞剂，以降低心血管事件风险。(2)血压≥160/100 mmHg时，考虑起始联合两种降压药物或单片固定剂量复方降压药物治疗。(3)T2DM合并CKD患者，推荐ACEI或ARB作为降压治疗的首选药物。(4)正在接受ACEI、ARB或利尿剂治疗的患者，应每年至少监测1次血清肌酐、eGFR及血清钾水平。(5)不推荐ACEI与ARB、ACEI或ARB与肾素抑制剂的联合治疗。(6)妊娠期间有效且安全的降压药物包括甲基多巴、拉贝洛尔及长效硝苯地平
+[
+1
+,
+76
+]
+。
+3．调脂治疗：
+血脂控制目标为，对于心血管风险极高危的T2DM患者，低密度脂蛋白胆固醇(LDL-C)<1.8 mmol/L，非高密度脂蛋白胆固醇(HDL-C)<2.6 mmol/L，三酰甘油(TG)<1.7 mmol/L；对于心血管风险高危的T2DM患者，LDL-C<2.6 mmol/L，非HDL-C<3.4 mmol/L，TG<1.7 mmol/L
+[
+1
+]
+。
+治疗：他汀类药物对T2DM患者心血管事件和心血管死亡具有显著的一级和二级预防作用，是降低LDL-C的首选药物。所有T2DM合并血脂异常患者，如果生活方式干预后血脂仍未达标，均需接受中等强度的他汀类药物治疗并长期坚持；如果他汀类药物治疗不达标，可考虑联合依折麦布或前蛋白转化酶枯草杆菌蛋白酶/kexin 9型(PCSK9)抑制剂。若他汀类药物治疗前TG>5.6 mmol/L，可服用降TG药物(如贝特类或高纯度鱼油)，以降低急性胰腺炎的发生风险。尚无证据显示，他汀类药物与贝特类或烟酸类药物联合治疗可进一步改善ASCVD结局
+[
+1
+]
+。
+4．抗血小板治疗：
+小剂量(75～150 mg/d)阿司匹林可用于T2DM合并ASCVD患者的二级预防。对于心血管风险高危或极高危的T2DM患者，在充分权衡心血管获益与胃肠道出血风险后，可考虑服用小剂量阿司匹林作为ASCVD的一级预防
+[
+1
+]
+。
+六、结语
+对于T2DM合并ASCVD、HF或CKD患者，应采取多重危险因素综合管理的策略，及早评估疾病状态。在血糖管理方面，早期血糖控制达标并长期维持可为患者带来远期获益。选择降糖药物时，应综合考虑疗效、安全性、卫生经济学等因素，优先选择具有心血管和肾脏获益证据的降糖药物。生活方式干预和二甲双胍是这些患者的一线治疗，在此基础上，不论血糖控制是否达标，都建议联合具有心血管和肾脏获益证据的GLP-1RA或SGLT2i。
+本共识参与讨论专家名单(按汉语拼音排序)
+包玉倩(上海交通大学附属第六人民医院)、陈丽(山东大学齐鲁医院)、陈莉明(天津医科大学朱宪彝纪念医院)、郭立新(北京医院)、洪天配(北京大学第三医院)、姬秋和(空军军医大学西京医院)、匡洪宇(哈尔滨医科大学附属第一医院)、李小英(复旦大学中山医院)、李延兵(中山大学附属第一医院)、吕朝晖(解放军总医院第一医学中心)、马建华(南京市第一医院)、母义明(解放军总医院第一医学中心)、宁光(上海交通大学医学院附属瑞金医院)、彭永德(上海交通大学附属第一人民医院)、秦贵军(郑州大学附属第一医院)、单忠艳(中国医科大学附属第一医院)、石勇铨(海军军医大学附属长征医院)、时立新(贵州医科大学附属医院)、苏青(上海交通大学医学院附属新华医院)、王桂侠(吉林大学第一医院)、王丽宏(哈尔滨医科大学附属第二医院)、王卫庆(上海交通大学医学院附属瑞金医院)、夏维波(北京协和医院)、向光大(中国人民解放军中部战区总医院)、肖新华(北京协和医院)、薛耀明(南方医科大学南方医院)、严励(中山大学孙逸仙纪念医院)、杨金奎(北京同仁医院)、余学锋(华中科技大学同济医学院附属同济医院)、赵家军(山东省立医院)、郑宏庭(陆军军医大学新桥医院)、朱大龙(南京大学医学院附属鼓楼医院)、祝之明(陆军军医大学大坪医院)
+本共识执笔者
+洪天配，Email：tpho66@bjmu.edu.cn，北京大学第三医院内分泌科　100191；苏青，Email：suqingxinhua@126.com，上海交通大学医学院附属新华医院内分泌科　200092
+利益冲突
+利益冲突
+所有作者均声明不存在利益冲突
+附录1
+缩略词表
+点击查看表格
+缩略语
+中文全称
+英文全称
+ACEI
+血管紧张素转换酶抑制剂
+angiotensin-converting enzyme inhibitor
+ADA
+美国糖尿病学会
+American Diabetes Association
+AHA
+美国心脏学会
+American Heart Association
+ARB
+血管紧张素受体拮抗剂
+angiotensin receptor blockers
+ASCVD
+动脉粥样硬化性心血管疾病
+atherosclerotic cardiovascular disease
+CKD
+慢性肾脏病
+chronic kidney disease
+CREDENCE
+卡格列净与糖尿病合并肾病患者肾脏终点的临床评价
+Canagliflozin and Renal Endpoints in Diabetes with Established Nephropathy Clinical Evaluation
+CT
+计算机断层扫描
+computed tomography
+CVD
+心血管疾病
+cardiovascular disease
+CVOT
+心血管结局试验
+cardiovascular outcome trial
+DAPA-HF
+达格列净与心力衰竭的不良结局预防
+Dapagliflozin And Prevention of Adverse-outcomes in Heart Failure
+DKD
+糖尿病肾脏病
+diabetic kidney disease
+EASD
+欧洲糖尿病学会
+European Association for the Study of Diabetes
+eGFR
+估算的肾小球滤过率
+estimated glomerular filtration rate
+ESC
+欧洲心脏病学会
+European Society of Cardiology
+ESKD
+终末期肾病
+end-stage kidney disease
+FDA
+美国食品药品监督管理局
+Food and Drug Administration
+GFR
+肾小球滤过率
+glomerular filtration rate
+GLP-1RA
+胰升糖素样肽1受体激动剂
+glucagon-like peptide-1 receptor agonist
+HbA
+1C
+糖化血红蛋白
+glycated hemoglobin
+HDL-C
+高密度脂蛋白胆固醇
+high density lipoprotein-cholesterol
+HF
+心力衰竭
+heart failure
+HFpEF
+射血分数保留性心力衰竭
+heart failure with preserved ejection fraction
+HFrEF
+射血分数降低性心力衰竭
+heart failure with reduced ejection fraction
+HFSA
+心力衰竭学会
+heart failure society
+LDL-C
+低密度脂蛋白胆固醇
+low density lipoprotein-cholesterol
+LVEF
+左心室射血分数
+left ventricular ejection fraction
+NYHA
+纽约心脏协会
+New York Heart Association
+PCSK9
+前蛋白转化酶枯草杆菌蛋白酶/kexin 9型
+proprotein convertase subtilisin/kexin type 9
+RCT
+随机对照临床试验
+randomized controlled trial
+ROT
+肾脏结局试验
+renal outcome trial
+SAVOR
+沙格列汀在糖尿病患者中的心血管结局评价
+Saxagliptin Assessment of Vascular Outcomes Recorded in patients with diabetes mellitus
+SGLT2i
+钠-葡萄糖协同转运蛋白2抑制剂
+sodium-glucose cotransporter 2 inhibitor
+T2DM
+2型糖尿病
+type 2 diabetes mellitus
+TG
+三酰甘油
+triglyceride
+UACR
+尿白蛋白/肌酐比值
+urine albumin/creatinine ratio
+UAER
+尿白蛋白排泄率
+urinary albumin excretion rate
+UKPDS
+英国糖尿病前瞻性研究
+United Kingdom Prospective Diabetes Study
+参考文献
+[1]
+贾伟平
+，
+陆菊明
+.
+中国2型糖尿病防治指南(2017年版)编写说明
+[J].
+中华糖尿病杂志
+，
+2018
+，
+10
+(
+1
+)：
+2
+-
+3
+.
+DOI:
+10.3760/cma.j.issn.1674-5809.2018.01.002
+.
+[2]
+Arnett
+DK
+,
+Blumenthal
+RS
+,
+Albert
+MA
+,
+et al
+.
+2019 ACC/AHA Guideline on the Primary Prevention of Cardiovascular Disease: Executive Summary: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines
+[J].
+J Am Coll Cardiol
+,
+2019
+，
+74
+(
+10
+)：
+1376
+-
+1414
+.
+DOI:
+10.1016/j.jacc.2019.03.009
+.
+[3]
+Zhao
+D
+,
+Liu
+J
+,
+Wang
+M
+,
+et al
+.
+Epidemiology of cardiovascular disease in China: current features and implications
+[J].
+Nat Rev Cardiol
+,
+2019
+，
+16
+(
+4
+)：
+203
+-
+212
+.
+DOI:
+10.1038/s41569-018-0119-4
+.
+[4]
+Franco
+OH
+,
+Steyerberg
+EW
+,
+Hu
+FB
+,
+et al
+.
+Associations of diabetes mellitus with total life expectancy and life expectancy with and without cardiovascular disease
+[J].
+Arch Intern Med
+,
+2007
+，
+167
+(
+11
+)：
+1145
+-
+1151
+.
+DOI:
+10.1001/archinte.167.11.1145
+.
+[5]
+Einarson
+TR
+,
+Acs
+A
+,
+Ludwig
+C
+,
+et al
+.
+Prevalence of cardiovascular disease in type 2 diabetes: a systematic literature review of scientific evidence from across the world in 2007-2017
+[J].
+Cardiovasc Diabetol
+,
+2018
+，
+17
+(
+1
+)：
+83
+.
+DOI:
+10.1186/s12933-018-0728-6
+.
+[6]
+Lautsch
+D
+,
+Wang
+T
+,
+Yang
+L
+,
+et al
+.
+Prevalence of Established Cardiovascular Disease in Patients with Type 2 Diabetes Mellitus in the UK
+[J].
+Diabetes Ther
+,
+2019
+，
+10
+(
+6
+)：
+2131
+-
+2137
+.
+DOI:
+10.1007/s13300-019-00698-9
+.
+[7]
+Ji
+L
+,
+Hu
+D
+,
+Pan
+C
+,
+et al
+.
+Primacy of the 3B approach to control risk factors for cardiovascular disease in type 2 diabetes patients
+[J].
+Am J Med
+,
+2013
+，
+126
+(
+10
+)：
+925.e11
+-
+22
+.
+DOI:
+10.1016/j.amjmed.2013.02.035
+.
+[8]
+Bragg
+F
+,
+Holmes
+MV
+,
+Iona
+A
+,
+et al
+.
+Association Between Diabetes and Cause-Specific Mortality in Rural and Urban Areas of China
+[J].
+JAMA
+,
+2017
+，
+317
+(
+3
+)：
+280
+-
+289
+.
+DOI:
+10.1001/jama.2016.19720
+.
+[9]
+Seferović
+PM
+,
+Petrie
+MC
+,
+Filippatos
+GS
+,
+et al
+.
+Type 2 diabetes mellitus and heart failure: a position statement from the Heart Failure Association of the European Society of Cardiology
+[J].
+Eur J Heart Fail
+,
+2018
+，
+20
+(
+5
+)：
+853
+-
+872
+.
+DOI:
+10.1002/ejhf.1170
+.
+[10]
+Dunlay
+SM
+,
+Givertz
+MM
+,
+Aguilar
+D
+,
+et al
+.
+Type 2 Diabetes Mellitus and Heart Failure: A Scientific Statement From the American Heart Association and the Heart Failure Society of America: This statement does not represent an update of the 2017 ACC/AHA/HFSA heart failure guideline update
+[J].
+Circulation
+,
+2019
+，
+140
+(
+7
+)：
+e294
+-
+e324
+.
+DOI:
+10.1161/CIR.0000000000000691
+.
+[11]
+Bell
+DSH
+,
+Goncalves
+E
+.
+Heart failure in the patient with diabetes: Epidemiology, aetiology, prognosis, therapy and the effect of glucose-lowering medications
+[J].
+Diabetes Obes Metab
+,
+2019
+，
+21
+(
+6
+)：
+1277
+-
+1290
+.
+DOI:
+10.1111/dom.13652
+.
+[12]
+Thrainsdottir
+IS
+,
+Aspelund
+T
+,
+Thorgeirsson
+G
+,
+et al
+.
+The association between glucose abnormalities and heart failure in the population-based Reykjavik study
+[J].
+Diabetes Care
+,
+2005
+，
+28
+(
+3
+)：
+612
+-
+616
+.
+DOI:
+10.2337/diacare.28.3.612
+.
+[13]
+Shah
+AD
+,
+Langenberg
+C
+,
+Rapsomaniki
+E
+,
+et al
+.
+Type 2 diabetes and incidence of cardiovascular diseases: a cohort study in 1·9 million people
+[J].
+Lancet Diabetes Endocrinol
+,
+2015
+，
+3
+(
+2
+)：
+105
+-
+113
+.
+DOI:
+10.1016/S2213-8587(14)70219-0
+.
+[14]
+Boonman-de Winter
+LJ
+,
+Rutten
+FH
+,
+Cramer
+MJ
+,
+et al
+.
+High prevalence of previously unknown heart failure and left ventricular dysfunction in patients with type 2 diabetes
+[J].
+Diabetologia
+,
+2012
+，
+55
+(
+8
+)：
+2154
+-
+2162
+.
+DOI:
+10.1007/s00125-012-2579-0
+.
+[15]
+Romero
+SP
+,
+Andrey
+JL
+,
+Garcia-Egido
+A
+,
+et al
+.
+Metformin therapy and prognosis of patients with heart failure and new-onset diabetes mellitus. A propensity-matched study in the community
+[J].
+Int J Cardiol
+,
+2013
+，
+166
+(
+2
+)：
+404
+-
+412
+.
+DOI:
+10.1016/j.ijcard.2011.10.141
+.
+[16]
+McAllister
+DA
+,
+Read
+SH
+,
+Kerssens
+J
+,
+et al
+.
+Incidence of hospitalization for heart failure and case-fatality among 3.25 million people with and without diabetes mellitus
+[J].
+Circulation
+,
+2018
+,
+138
+(
+24
+)：
+2774
+-
+2786
+.
+DOI:
+10.1161/CIRCULATIONAHA.118.034986
+.
+[17]
+Bertoni
+AG
+,
+Hundley
+WG
+,
+Massing
+MW
+,
+et al
+.
+Heart failure prevalence, incidence, and mortality in the elderly with diabetes
+[J].
+Diabetes Care
+,
+2004
+，
+27
+(
+3
+)：
+699
+-
+703
+.
+DOI:
+10.2337/diacare.27.3.699
+.
+[18]
+Zhang
+Y
+,
+Zhang
+J
+,
+Butler
+J
+,
+et al
+.
+Contemporary epidemiology, management, and outcomes of patients hospitalized for heart failure in China: results from the China Heart Failure (China-HF) registry
+[J].
+J Card Fail
+,
+2017
+,
+23
+(
+12
+)：
+868
+-
+875
+.
+DOI:
+10.1016/j.cardfail.2017.09.014
+.
+[19]
+Zelnick
+LR
+,
+Weiss
+NS
+,
+Kestenbaum
+BR
+,
+et al
+.
+Diabetes and CKD in the United States Population, 2009-2014
+[J].
+Clin J Am Soc Nephrol
+,
+2017
+，
+12
+(
+12
+)：
+1984
+-
+1990
+.
+DOI:
+10.2215/CJN.03700417
+.
+[20]
+Koye
+DN
+,
+Shaw
+JE
+,
+Reid
+CM
+,
+et al
+.
+Incidence of chronic kidney disease among people with diabetes: a systematic review of observational studies
+[J].
+Diabet Med
+,
+2017
+，
+34
+(
+7
+)：
+887
+-
+901
+.
+DOI:
+10.1111/dme.13324
+.
+[21]
+Guo
+K
+,
+Zhang
+L
+,
+Zhao
+F
+,
+et al
+.
+Prevalence of chronic kidney disease and associated factors in Chinese individuals with type 2 diabetes: Cross-sectional study
+[J].
+J Diabetes Complications
+,
+2016
+，
+30
+(
+5
+)：
+803
+-
+810
+.
+DOI:
+10.1016/j.jdiacomp.2016.03.020
+.
+[22]
+Zhang
+L
+,
+Long
+J
+,
+Jiang
+W
+,
+et al
+.
+Trends in chronic kidney disease in China
+[J].
+N Engl J Med
+,
+2016
+,
+375
+(
+9
+)：
+905
+-
+906
+.
+DOI:
+10.1056/NEJMc1602469
+.
+[23]
+Heywood
+JT
+,
+Fonarow
+GC
+,
+Costanzo
+MR
+,
+et al
+.
+High prevalence of renal dysfunction and its impact on outcome in 118，465 patients hospitalized with acute decompensated heart failure: a report from the ADHERE database
+[J].
+J Card Fail
+,
+2007
+，
+13
+(
+6
+)：
+422
+-
+430
+.
+DOI:
+10.1016/j.cardfail.2007.03.011
+.
+[24]
+American Diabetes Association
+.
+10. Cardiovascular Disease and Risk Management: Standards of Medical Care in Diabetes-2020
+[J].
+Diabetes Care
+,
+2020
+，
+43
+(
+Suppl 1
+)：
+S111
+-
+S134
+.
+DOI:
+10.2337/dc20-S010
+.
+[25]
+Cosentino
+F
+,
+Grant
+PJ
+,
+Aboyans
+V
+,
+et al
+.
+2019 ESC Guidelines on diabetes, pre-diabetes, and cardiovascular diseases developed in collaboration with the EASD
+[J].
+Eur Heart J
+,
+2020
+，
+41
+(
+2
+)：
+255
+-
+323
+.
+DOI:
+10.1093/eurheartj/ehz486
+.
+[26]
+Raggi
+P
+.
+Screening for atherosclerotic cardiovascular disease in patients with type 2 diabetes mellitus: controversies and guidelines
+[J].
+Can J Diabetes
+,
+2020
+,
+44
+(
+1
+)：
+86
+-
+92
+.
+DOI:
+10.1016/j.jcjd.2019.08.009
+.
+[27]
+中华医学会糖尿病学分会
+，
+中华医学会内分泌学分会
+.
+中国成人2型糖尿病患者糖化血红蛋白控制目标及达标策略专家共识
+[J] .
+中华内分泌代谢杂志
+，
+2020
+，
+36
+(
+1
+)：
+14
+-
+24
+.
+DOI:
+10.3760/cma.j.issn.1000-6699.2020.01.002
+.
+[28]
+Parry
+HM
+,
+Deshmukh
+H
+,
+Levin
+D
+,
+et al
+.
+Both high and low HbA1c predict incident heart failure in type 2 diabetes mellitus
+[J].
+Circ Heart Fail
+,
+2015
+，
+8
+(
+2
+)：
+236
+-
+242
+.
+DOI:
+10.1161/CIRCHEARTFAILURE.113.000920
+.
+[29]
+Elder
+DH
+,
+Singh
+JS
+,
+Levin
+D
+,
+et al
+.
+Mean HbA1C and mortality in diabetic individuals with heart failure: a population cohort study
+[J].
+Eur J Heart Fail
+,
+2016
+，
+18
+(
+1
+)：
+94
+-
+102
+.
+DOI:
+10.1002/ejhf.455
+.
+[30]
+American Diabetes Association
+.
+9.Pharmacologic approaches to glycemic treatment: Standards of medical care in diabetes-2020
+[J].
+Diabetes Care
+,
+2020
+，
+43
+(
+Suppl 1
+)：
+S98
+-
+S110
+.
+DOI:
+10.2337/dc20-S009
+.
+[31]
+Buse
+JB
+,
+Wexler
+DJ
+,
+Tsapas
+A
+,
+et al
+.
+2019 Update to: management of hyperglycemia in type 2 diabetes, 2018. A Consensus Report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)
+[J].
+Diabetes Care
+,
+2020
+，
+43
+(
+2
+)：
+487
+-
+493
+.
+DOI:
+10.2337/dci19-0066
+.
+[32]
+Garber
+AJ
+,
+Handelsman
+Y
+,
+Grunberger
+G
+,
+et al
+.
+Consensus statement by the American Association of Clinical Endocrinologists and American College of Endocrinology on the comprehensive type 2 diabetes management algorithm-2020 Executive Summary
+[J].
+Endocr Pract
+,
+2020
+，
+26
+(
+1
+)：
+107
+-
+139
+.
+DOI:
+10.4158/CS-2019-0472
+.
+[33]
+UK Prospective Diabetes Study (UKPDS) Group
+.
+Effect of intensive blood-glucose control with metformin on complications in overweight patients with type 2 diabetes (UKPDS 34)
+[J].
+Lancet
+，
+1998
+,
+352
+(
+9131
+)：
+854
+-
+865
+.
+[34]
+Holman
+RR
+,
+Paul
+SK
+,
+Bethel
+MA
+,
+et al
+.
+10-year follow-up of intensive glucose control in type 2 diabetes
+[J].
+N Engl J Med
+,
+2008
+，
+359
+(
+15
+)：
+1577
+-
+1589
+.
+DOI:
+10.1056/NEJMoa0806470
+.
+[35]
+Han
+Y
+,
+Xie
+H
+,
+Liu
+Y
+,
+et al
+.
+Effect of metformin on all-cause and cardiovascular mortality in patients with coronary artery diseases: a systematic review and an updated meta-analysis
+[J].
+Cardiovasc Diabetol
+,
+2019
+，
+18
+(
+1
+)：
+96
+.
+DOI:
+10.1186/s12933-019-0900-7
+.
+[36]
+Zhang
+K
+,
+Yang
+W
+,
+Dai
+H
+,
+et al
+.
+Cardiovascular risk following metformin treatment in patients with type 2 diabetes mellitus: Results from meta-analysis
+[J].
+Diabetes Res Clin Pract
+,
+2020
+，
+160
+：
+108001
+.
+DOI:
+10.1016/j.diabres.2020.108001
+.
+[37]
+Salvatore
+T
+,
+Pafundi
+PC
+,
+Morgillo
+F
+,
+et al
+.
+Metformin: An old drug against old age and associated morbidities
+[J].
+Diabetes Res Clin Pract
+,
+2020
+，
+160
+：
+108025
+.
+DOI:
+10.1016/j.diabres.2020.108025
+.
+[38]
+Schernthaner
+G
+,
+Schernthaner
+GH
+.
+The right place for metformin today
+[J].
+Diabetes Res Clin Pract
+,
+2020
+，
+159
+：
+107946
+.
+DOI:
+10.1016/j.diabres.2019.107946
+.
+[39]
+Tseng
+CH
+.
+Metformin use is associated with a lower risk of hospitalization for heart failure in patients with type 2 diabetes mellitus: a retrospective cohort analysis
+[J].
+J Am Heart Assoc
+,
+2019
+，
+8
+(
+21
+)：
+e011640
+.
+DOI:
+10.1161/JAHA.118.011640
+.
+[40]
+Romero
+SP
+,
+Andrey
+JL
+,
+Garcia-Egido
+A
+,
+et al
+.
+Metformin therapy and prognosis of patients with heart failure and new-onset diabetes mellitus. A propensity-matched study in the community
+[J].
+Int J Cardiol
+,
+2013
+，
+166
+(
+2
+)：
+404
+-
+412
+.
+DOI:
+10.1016/j.ijcard.2011.10.141
+.
+[41]
+Eurich
+DT
+,
+Weir
+DL
+,
+Majumdar
+SR
+,
+et al
+.
+Comparative safety and effectiveness of metformin in patients with diabetes mellitus and heart failure: systematic review of observational studies involving 34，000 patients
+[J].
+Circ Heart Fail
+,
+2013
+，
+6
+(
+3
+)：
+395
+-
+402
+.
+DOI:
+10.1161/CIRCHEARTFAILURE.112.000162
+.
+[42]
+Bergmark
+BA
+,
+Bhatt
+DL
+,
+McGuire
+DK
+,
+et al
+.
+Metformin use and clinical outcomes among patients with diabetes mellitus with or without heart failure or kidney dysfunction: observations from the SAVOR-TIMI 53 Trial
+[J].
+Circulation
+,
+2019
+，
+140
+(
+12
+)：
+1004
+-
+1014
+.
+DOI:
+10.1161/CIRCULATIONAHA.119.040144
+.
+[43]
+Shah
+DD
+,
+Fonarow
+GC
+,
+Horwich
+TB
+.
+Metformin therapy and outcomes in patients with advanced systolic heart failure and diabetes
+[J].
+J Card Fail
+,
+2010
+，
+16
+(
+3
+)：
+200
+-
+206
+.
+DOI:
+10.1016/j.cardfail.2009.10.022
+.
+[44]
+Lazarus
+B
+,
+Wu
+A
+,
+Shin
+JI
+,
+et al
+.
+Association of metformin use with risk of lactic acidosis across the range of kidney function: a community-based cohort study
+[J].
+JAMA Intern Med
+,
+2018
+，
+178
+(
+7
+)：
+903
+-
+910
+.
+DOI:
+10.1001/jamainternmed.2018.0292
+.
+[45]
+Charytan
+DM
+,
+Solomon
+SD
+,
+Ivanovich
+P
+,
+et al
+.
+Metformin use and cardiovascular events in patients with type 2 diabetes and chronic kidney disease
+[J].
+Diabetes Obes Metab
+,
+2019
+，
+21
+(
+5
+)：
+1199
+-
+1208
+.
+DOI:
+10.1111/dom.13642
+.
+[46]
+Petrie
+JR
+,
+Rossing
+PR
+,
+Campbell
+IW
+.
+Metformin and cardiorenal outcomes in diabetes: A reappraisal
+[J].
+Diabetes Obes Metab
+,
+2020
+，
+22
+(
+6
+)：
+904
+-
+915
+.
+DOI:
+10.1111/dom.13984
+.
+[47]
+Lalau
+JD
+,
+Kajbaf
+F
+,
+Bennis
+Y
+,
+et al
+.
+Metformin treatment in patients with type 2 diabetes and chronic kidney disease stages 3A, 3B, or 4
+[J].
+Diabetes Care
+,
+2018
+，
+41
+(
+3
+)：
+547
+-
+553
+.
+DOI:
+10.2337/dc17-2231
+.
+[48]
+van der Molen
+AJ
+,
+Reimer
+P
+,
+Dekkers
+IA
+,
+et al
+.
+Post-contrast acute kidney injury. Part 2: risk stratification, role of hydration and other prophylactic measures, patients taking metformin and chronic dialysis patients : Recommendations for updated ESUR Contrast Medium Safety Committee guidelines
+[J].
+Eur Radiol
+,
+2018
+，
+28
+(
+7
+)：
+2856
+-
+2869
+.
+DOI:
+10.1007/s00330-017-5247-4
+.
+[49]
+Vreven
+R
+,
+De Kock
+M
+.
+Metformin lactic acidosis and anaesthesia: myth or reality
+？[J].
+Acta Anaesthesiol Belg
+,
+2005
+，
+56
+(
+3
+)：
+297
+-
+302
+.
+[50]
+Marso
+SP
+,
+Daniels
+GH
+,
+Brown-Frandsen
+K
+,
+et al
+.
+Liraglutide and cardiovascular outcomes in type 2 diabetes
+[J].
+N Engl J Med
+,
+2016
+，
+375
+(
+4
+)：
+311
+-
+322
+.
+DOI:
+10.1056/NEJMoa1603827
+.
+[51]
+Gerstein
+HC
+,
+Colhoun
+HM
+,
+Dagenais
+GR
+,
+et al
+.
+Dulaglutide and cardiovascular outcomes in type 2 diabetes (REWIND): a double-blind, randomised placebo-controlled trial
+[J].
+Lancet
+,
+2019
+，
+394
+(
+10193
+)：
+121
+-
+130
+.
+DOI:
+10.1016/S0140-6736(19)31149-3
+.
+[52]
+Pfeffer
+MA
+,
+Claggett
+B
+,
+Diaz
+R
+,
+et al
+.
+Lixisenatide in patients with type 2 diabetes and acute coronary syndrome
+[J].
+N Engl J Med
+,
+2015
+，
+373
+(
+23
+)：
+2247
+-
+2257
+.
+DOI:
+10.1056/NEJMoa1509225
+.
+[53]
+Holman
+RR
+,
+Bethel
+MA
+,
+Mentz
+RJ
+,
+et al
+.
+Effects of once-weekly exenatide on cardiovascular outcomes in type 2 diabetes
+[J].
+N Engl J Med
+,
+2017
+，
+377
+(
+13
+)：
+1228
+-
+1239
+.
+DOI:
+10.1056/NEJMoa1612917
+.
+[54]
+Hernandez
+AF
+,
+Green
+JB
+,
+Janmohamed
+S
+,
+et al
+.
+Albiglutide and cardiovascular outcomes in patients with type 2 diabetes and cardiovascular disease (Harmony Outcomes): a double-blind, randomised placebo-controlled trial
+[J].
+Lancet
+,
+2018
+，
+392
+(
+10157
+)：
+1519
+-
+1529
+.
+DOI:
+10.1016/S0140-6736(18)32261-X
+.
+[55]
+Marso
+SP
+,
+Bain
+SC
+,
+Consoli
+A
+,
+et al
+.
+Semaglutide and cardiovascular outcomes in patients with type 2 diabetes
+[J].
+N Engl J Med
+,
+2016
+，
+375
+(
+19
+)：
+1834
+-
+1844
+.
+DOI:
+10.1056/NEJMoa1607141
+.
+[56]
+Husain
+M
+,
+Birkenfeld
+AL
+,
+Donsmark
+M
+,
+et al
+.
+Oral Semaglutide and cardiovascular outcomes in patients with type 2 diabetes
+[J].
+N Engl J Med
+,
+2019
+，
+381
+(
+9
+)：
+841
+-
+851
+.
+DOI:
+10.1056/NEJMoa1901118
+.
+[57]
+Zinman
+B
+,
+Wanner
+C
+,
+Lachin
+JM
+,
+et al
+.
+Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes
+[J].
+N Engl J Med
+,
+2015
+，
+373
+(
+22
+)：
+2117
+-
+2128
+.
+DOI:
+10.1056/NEJMoa1504720
+.
+[58]
+Neal
+B
+,
+Perkovic
+V
+,
+Mahaffey
+KW
+,
+et al
+.
+Canagliflozin and cardiovascular and renal events in type 2 diabetes
+[J].
+N Engl J Med
+,
+2017
+，
+377
+(
+7
+)：
+644
+-
+657
+.
+DOI:
+10.1056/NEJMoa1611925
+.
+[59]
+Wiviott
+SD
+,
+Raz
+I
+,
+Bonaca
+MP
+,
+et al
+.
+Dapagliflozin and cardiovascular outcomes in type 2 diabetes
+[J].
+N Engl J Med
+,
+2019
+，
+380
+(
+4
+)：
+347
+-
+357
+.
+DOI:
+10.1056/NEJMoa1812389
+.
+[60]
+Zelniker
+TA
+,
+Wiviott
+SD
+,
+Raz
+I
+,
+et al
+.
+SGLT2 inhibitors for primary and secondary prevention of cardiovascular and renal outcomes in type 2 diabetes: a systematic review and meta-analysis of cardiovascular outcome trials
+[J].
+Lancet
+,
+2019
+，
+393
+(
+10166
+)：
+31
+-
+39
+.
+DOI:
+10.1016/S0140-6736(18)32590-X
+.
+[61]
+Bailey
+CJ
+.
+Choosing GLP-1 receptor agonists or SGLT-2 inhibitors by cardiorenal risk
+[J].
+Lancet Diabetes Endocrinol
+,
+2020
+，
+8
+(
+2
+)：
+97
+-
+99
+.
+DOI:
+10.1016/S2213-8587(19)30414-0
+.
+[62]
+Perkovic
+V
+,
+Jardine
+MJ
+,
+Neal
+B
+,
+et al
+.
+Canagliflozin and renal outcomes in type 2 diabetes and nephropathy
+[J].
+N Engl J Med
+,
+2019
+，
+380
+(
+24
+)：
+2295
+-
+2306
+.
+DOI:
+10.1056/NEJMoa1811744
+.
+[63]
+McMurray
+JJV
+,
+Solomon
+SD
+,
+Inzucchi
+SE
+,
+et al
+.
+Dapagliflozin in patients with heart failure and reduced ejection fraction
+[J].
+N Engl J Med
+,
+2019
+，
+381
+(
+21
+)：
+1995
+-
+2008
+.
+DOI:
+10.1056/NEJMoa1911303
+.
+[64]
+Scirica
+BM
+,
+Braunwald
+E
+,
+Raz
+I
+,
+et al
+.
+Heart failure, saxagliptin, and diabetes mellitus: observations from the SAVOR-TIMI 53 randomized trial
+[J].
+Circulation
+,
+2014
+，
+130
+(
+18
+)：
+1579
+-
+1588
+.
+DOI:
+10.1161/CIRCULATIONAHA.114.010389
+.
+[65]
+Kristensen
+SL
+,
+Rørth
+R
+,
+Jhund
+PS
+,
+et al
+.
+Cardiovascular, mortality, and kidney outcomes with GLP-1 receptor agonists in patients with type 2 diabetes: a systematic review and meta-analysis of cardiovascular outcome trials
+[J].
+Lancet Diabetes Endocrinol
+,
+2019
+，
+7
+(
+10
+)：
+776
+-
+785
+.
+DOI:
+10.1016/S2213-8587(19)30249-9
+.
+[66]
+Mannucci
+E
+,
+Dicembrini
+I
+,
+Nreu
+B
+,
+et al
+.
+Glucagon-like peptide-1 receptor agonists and cardiovascular outcomes in patients with and without prior cardiovascular events: An updated meta-analysis and subgroup analysis of randomized controlled trials
+[J].
+Diabetes Obes Metab
+,
+2020
+，
+22
+(
+2
+)：
+203
+-
+211
+.
+DOI:
+10.1111/dom.13888
+.
+[67]
+Jorsal
+A
+,
+Kistorp
+C
+,
+Holmager
+P
+,
+et al
+.
+Effect of liraglutide, a glucagon-like peptide-1 analogue, on left ventricular function in stable chronic heart failure patients with and without diabetes (LIVE)-a multicentre, double-blind, randomised, placebo-controlled trial
+[J].
+Eur J Heart Fail
+,
+2017
+，
+19
+(
+1
+)：
+69
+-
+77
+.
+DOI:
+10.1002/ejhf.657
+.
+[68]
+Margulies
+KB
+,
+Hernandez
+AF
+,
+Redfield
+MM
+,
+et al
+.
+Effects of liraglutide on clinical stability among patients with advanced heart failure and reduced ejection fraction: a randomized clinical trial
+[J].
+JAMA
+,
+2016
+，
+316
+(
+5
+)：
+500
+-
+508
+.
+DOI:
+10.1001/jama.2016.10260
+.
+[69]
+Lepore
+JJ
+,
+Olson
+E
+,
+Demopoulos
+L
+,
+et al
+.
+Effects of the novel long-acting GLP-1 agonist, albiglutide, on cardiac function, cardiac metabolism, and exercise capacity in patients with chronic heart failure and reduced ejection fraction
+[J].
+JACC Heart Fail
+,
+2016
+，
+4
+(
+7
+)：
+559
+-
+566
+.
+DOI:
+10.1016/j.jchf.2016.01.008
+.
+[70]
+Lorenz
+M
+,
+Lawson
+F
+,
+Owens
+D
+,
+et al
+.
+Differential effects of glucagon-like peptide-1 receptor agonists on heart rate
+[J].
+Cardiovasc Diabetol
+,
+2017
+，
+16
+(
+1
+)：
+6
+.
+DOI:
+10.1186/s12933-016-0490-6
+.
+[71]
+Seferović
+PM
+,
+Coats
+AJS
+,
+Ponikowski
+P
+,
+et al
+.
+European Society of Cardiology/Heart Failure Association position paper on the role and safety of new glucose-lowering drugs in patients with heart failure
+[J].
+Eur J Heart Fail
+,
+2020
+，
+22
+(
+2
+)：
+196
+-
+213
+.
+DOI:
+10.1002/ejhf.1673
+.
+[72]
+Standl
+E
+,
+Schnell
+O
+.
+Treatment paradigm shifting implications of recent cardiovascular outcome trials: Core insights on the brink of the 2020ies
+[J].
+Diabetes Res Clin Pract
+,
+2020
+，
+161
+：
+108054
+.
+DOI:
+10.1016/j.diabres.2020.108054
+.
+[73]
+Zelniker
+TA
+,
+Braunwald
+E
+.
+Clinical benefit of cardiorenal effects of sodium-glucose cotransporter 2 inhibitors: JACC state-of-the-art review
+[J].
+J Am Coll Cardiol
+,
+2020
+，
+75
+(
+4
+)：
+435
+-
+447
+.
+DOI:
+10.1016/j.jacc.2019.11.036
+.
+[74]
+Williams
+DM
+,
+Nawaz
+A
+,
+Evans
+M
+.
+Renal outcomes in type 2 diabetes: a review of cardiovascular and renal outcome trials
+[J].
+Diabetes Ther
+,
+2020
+，
+11
+(
+2
+)：
+369
+-
+386
+.
+DOI:
+10.1007/s13300-019-00747-3
+.
+[75]
+Weldegiorgis
+M
+,
+de Zeeuw
+D
+,
+Heerspink
+HJ
+.
+Renal end points in clinical trials of kidney disease
+[J].
+Curr Opin Nephrol Hypertens
+,
+2015
+，
+24
+(
+3
+)：
+284
+-
+289
+.
+DOI:
+10.1097/MNH.0000000000000118
+.
+[76]
+中国高血压防治指南修订委员会
+，
+高血压联盟(中国)
+，
+中华医学会心血管病学分会
+，
+等
+.
+中国高血压防治指南(2018年修订版)
+[J].
+中国心血管杂志
+，
+2019
+，
+24
+(
+1
+)：
+24
+-
+56
+.
+DOI:
+10.3969/j.issn.1007-5410.2019.01.002
+.
+[77]
+Arnold
+SV
+,
+Bhatt
+DL
+,
+Barsness
+GW
+,
+et al
+.
+Clinical Management of Stable Coronary Artery Disease in Patients With Type 2 Diabetes Mellitus: A Scientific Statement From the American Heart Association
+[J].
+Circulation
+,
+2020
+，
+141
+(
+19
+)：
+e779
+-
+e806
+.
+DOI:
+10.1161/CIR.0000000000000766
+.
+贡献者信息
+中华医学会糖尿病学分会
+中华医学会内分泌学分会
+通信作者
+朱大龙
+南京大学医学院附属鼓楼医院内分泌科　210008
+Email：
+zhudalong@nju.edu.cn
+母义明
+解放军总医院第一医学中心内分泌科，北京　100853
+Email：
+muyiming@301hospital.com.cn
+关键词
+糖尿病
+;
+降糖药物
+;
+动脉粥样硬化性心血管疾病
+;
+心力衰竭
+;
+慢性肾脏病
+;
+作者声明
+本共识由《中华糖尿病杂志》第12卷第6期与本刊同步发表
+利益冲突
+利益冲突
+所有作者均声明不存在利益冲突
+历史
+出版日期：2020-06-25
+收稿日期：2020-04-22
+本文编辑
+朱梅华
+Guideline and Consensus
+Expert consensus on glucose-lowering pharmacotherapies in Chinese adults with type 2 diabetes and cardiovascular disease or chronic kidney disease
+Chinese Diabetes Society,  Chinese Society of Endocrinology
+Published
+2020-06-25
+Cite as
+Chin J Endocrinol Metab, 2020,36(06): 458-468. DOI: 10.3760/cma.j.cn311282-20200422-00298
+Abstract
+Patients with type 2 diabetes mellitus (T2DM) are at risk of developing atherosclerotic cardiovascular disease (ASCVD) and chronic kidney disease (CKD), which are important causes of disabling and death in these patients. For the prevention and management of both ASCVD and CKD, cardiovascular risk factors should be systematically evaluated, and ASCVD and CKD should be screened in patients with T2DM. In the present consensus, it is recommended that metformin is the first-line hypoglycemic agent for patients with T2DM and established ASCVD or very high cardiovascular risks, heart failure (HF), or CKD, and it should be remaining in the treatment regimen unless otherwise contraindicated or intolerable. In patients with T2DM and established ASCVD or very high cardiovascular risk, addition of sodium-glucose cotransporter 2 inhibitor (SGLT2i) or glucagon-like peptide-1 receptor agonist (GLP-1RA) with proven cardiovascular benefit should be considered whatever the level of HbA
+1C
+. SGLT2i should be preferably added on the therapies of patients with T2DM and HF. In patients with T2DM and CKD, SGLT2i should be preferred for a combination therapy, and GLP-1RA with proven renal benefit would be alternative if SGLT2i is contraindicated. The prevention of hypoglycemia and management of multiple risk factors, including lifestyle modification, antihypertensive, lipid-lowering, and antiplatelet therapies, should be kept in mind in treating patients with T2DM and complicated with ASCVD, HF, or CKD.
+Key words:
+Diabetes mellitus; Glucose-lowering agents; Atherosclerotic cardiovascular disease; Heart failure; Chronic kidney disease
+Contributor Information
+Chinese Diabetes Society
+Chinese Society of Endocrinology
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0
+次
+万方数据：
+0
+次
+Scopus:
+0
+次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+[1]
+夏鹏(译者).
+如何阻止悲伤成为职业负担
+[J].
+测试杂志
+,
+2015
+,
+1
+(
+1
+):
+575
+–
+576
+.
+-->
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+Shah
+AD
+,
+Langenberg
+C
+,
+Rapsomaniki
+E
+,
+et al
+.
+Type 2 diabetes and incidence of cardiovascular diseases: a cohort study in 1·9 million people
+[J].
+Lancet Diabetes Endocrinol
+,
+2015
+，
+3
+(
+2
+)：
+105
+-
+113
+.
+DOI:
+10.1016/S2213-8587(14)70219-0
+.
+表1
+本共识的主要推荐意见
+主要推荐意见
+推荐级别
+证据水平
+一、T2DM患者的心血管风险评估与肾脏疾病筛查
+推荐1
+T2DM患者每年至少系统评估心血管风险1次，对于心血管风险高危或单个危险因素达到启始治疗水平者，应及时采取相应的临床干预措施
+Ⅰ
+C
+推荐2
+T2DM患者每年至少检测1次尿常规、尿白蛋白/肌酐比值及血清肌酐，以早期发现CKD
+Ⅰ
+C
+二、T2DM合并心肾疾病患者的血糖管理策略和控制目标
+推荐3
+包括生活方式干预、降糖药物治疗、血糖监测及糖尿病教育在内的综合管理是T2DM合并心肾疾病患者血糖管理的基本策略
+Ⅰ
+C
+推荐4
+糖尿病病程较长、已合并ASCVD或心血管风险极高危T2DM患者的HbA
+1C
+目标值为<8.0%
+Ⅱa
+B
+推荐5
+T2DM合并HF患者的HbA
+1C
+目标值为7.0%～8.0%
+Ⅱb
+B
+推荐6
+年龄<40岁的T2DM合并CKD患者及年龄≥40岁的CKD 1～2期患者的HbA
+1C
+目标值为6.5%～7.5%；未使用胰岛素治疗的CKD 3～4期患者的HbA
+1C
+目标值为7.0%～7.5%；正在使用胰岛素治疗的CKD 3～4期及接受透析治疗的CKD 5期患者的HbA
+1C
+目标值为7.5%～8.5%
+Ⅱa
+B
+推荐7
+在T2DM合并ASCVD、HF或CKD患者中，若年龄≥60岁或预期寿命<5年或反复出现低血糖发作，HbA
+1C
+目标值放宽至8.0%～9.0%
+Ⅱa
+B
+三、T2DM合并心肾疾病患者降糖药物的合理应用
+推荐8
+如果没有禁忌证或不耐受，二甲双胍应作为T2DM合并ASCVD或心血管风险极高危、HF或CKD患者的一线降糖药物，并且一直保留在治疗方案中
+Ⅱa
+B
+推荐9
+对于T2DM合并ASCVD或心血管风险极高危患者，不论其HbA
+1C
+是否达标，建议联合具有心血管获益证据的GLP-1RA或SGLT2i，以降低心血管事件风险
+Ⅰ
+A
+推荐10
+对于T2DM合并HF患者，不论其HbA
+1C
+是否达标，建议联合SGLT2i，以降低HF住院或进展风险
+Ⅰ
+A
+推荐11
+对于T2DM合并CKD患者，不论其HbA
+1C
+是否达标，建议联合SGLT2i，以改善肾脏结局；若不能使用SGLT2i，建议选择具有肾脏获益证据的GLP-1RA
+Ⅰ
+A
+推荐12
+如果患者已经采用不包含SGLT2i或GLP-1RA在内的二联(或三联)降糖治疗方案且HbA
+1C
+已达标，在加用SGLT2i或GLP-1RA时，可考虑停用一个二甲双胍以外的降糖药物或减少其剂量；如果患者在联合GLP-1RA或SGLT2i治疗3个月后HbA
+1C
+仍未达标，可启动包括胰岛素在内的三联治疗
+Ⅱb
+C
+推荐13
+如果T2DM合并ASCVD、HF或CKD患者使用胰岛素或胰岛素促泌剂，应加强血糖监测，特别注意防范低血糖
+Ⅱa
+B
+推荐14
+不推荐T2DM合并重度HF或急性HF患者使用二甲双胍治疗，不推荐T2DM合并eGFR<45 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+的CKD患者起始以二甲双胍治疗
+Ⅲ
+C
+推荐15
+不推荐T2DM合并HF患者使用噻唑烷二酮类药物和沙格列汀
+Ⅲ
+B
+推荐16
+不推荐T2DM合并eGFR<45 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+的CKD患者使用SGLT2i
+Ⅲ
+C
+四、T2DM合并心肾疾病患者其他危险因素的管理
+推荐17
+对于T2DM合并ASCVD、HF或CKD患者，应做到早期血糖控制达标并且长期维持，同时全面管理好其他心血管危险因素，具体措施包括生活方式干预、降压、调脂、抗血小板治疗等
+Ⅱa
+B
+注：T2DM：2型糖尿病；CKD：慢性肾脏病；ASCVD：动脉粥样硬化性心血管疾病；HF：心力衰竭；GLP-1RA：胰升糖素样肽1受体激动剂；SGLT2i：钠-葡萄糖协同转运蛋白2抑制剂；eGFR：估算的肾小球滤过率；本共识参考美国心脏病学学院与美国心脏学会(AHA)联合制订的心血管疾病一级预防指南
+[
+2
+]
+的推荐级别和证据水平分类；推荐级别(强度)，其中Ⅰ为推荐，Ⅱa为应当考虑，Ⅱb为可以考虑，Ⅲ为不推荐；证据水平(质量)，其中A为高质量证据，B为中等质量证据，C为有限数据或专家意见；推荐级别与证据水平是独立确定的，故两者间可以不完全匹配，譬如，某项建议证据水平为C，并不必然代表其为弱推荐，故本共识中提到的许多重要临床问题虽然缺乏随机对照临床试验(RCT)证据，但可能存在非常明确的临床推荐意见
+表2
+T2DM患者的心血管风险分层
+风险分层
+描述
+极高危
+已合并CVD，或其他靶器官损害[白蛋白尿，eGFR<30 ml·min
+－1
+·(1.73 m
+2
+)
+－1
+，左心室肥厚或视网膜病变]，或≥3项其他心血管危险因素(年龄≥50岁、吸烟、肥胖、高血压、血脂异常)
+高危
+病程≥10年，无靶器官损害，但伴有1～2项其他心血管危险因素
+中危
+病程<10年，年龄<50岁，且无其他心血管危险因素
+注：T2DM：2型糖尿病；CVD：心血管疾病；eGFR：估算的肾小球滤过率
+表3
+各类降糖药物对ASCVD、HF及CKD的影响
+药物类别
+ASCVD
+HF
+CKD
+二甲双胍
+获益
+a
+中性
+b
+中性
+磺脲类
+中性
+中性
+中性
+格列奈类
+中性
+中性
+中性
+α-糖苷酶抑制剂
+中性
+中性
+中性
+噻唑烷二酮类
+获益
+c
+增加风险
+中性
+二肽基肽酶4抑制剂
+中性
+中性
+d
+中性
+GLP-1RA
+显著获益
+中性
+获益
+e
+SGLT2i
+显著获益
+显著获益
+显著获益
+胰岛素
+中性
+中性
+中性
+注：ASCVD：动脉粥样硬化性心血管疾病；HF：心力衰竭；CKD：慢性肾脏病；GLP-1RA：胰升糖素样肽1受体激动剂；SGLT2i：钠-葡萄糖协同转运蛋白2抑制剂；二甲双胍、磺脲类、格列奈类、α-糖苷酶抑制剂、噻唑烷二酮类、胰岛素(除德谷胰岛素外)等药物由于上市较早，故未被要求进行心血管结局试验(CVOT)；若无明确的获益或增加风险的新证据，则暂时默认为中性；
+a
+：目前无CVOT研究数据，但英国糖尿病前瞻性研究(UKPDS)、多项观察性研究及
+meta
+分析均显示有获益；
+b
+：对HF发生风险的影响是中性的，但可能降低HF患者死亡风险；
+c
+：仅限于吡格列酮，且为二级终点的数据；
+d
+：沙格列汀可能增加HF住院风险，维格列汀缺乏CVOT数据；
+e
+：目前仅有二级终点或探索性终点的数据
+注：T2DM：2型糖尿病；ASCVD：动脉粥样硬化性心血管疾病；HF：心力衰竭；CKD：慢性肾脏病；GLP-1RA：胰升糖素样肽1受体激动剂；SGLT2i：钠-葡萄糖协同转运蛋白2抑制剂；
+a
+：T2DM合并HF患者不推荐使用噻唑烷二酮类药物和沙格列汀；
+b
+：已经使用二甲双胍、GLP-1RA或SGLT2i患者建议不停药(除非有禁忌证或不耐受)
+图1
+T2DM合并ASCVD、HF或CKD患者的降糖药物治疗路径
+缩略语
+中文全称
+英文全称
+ACEI
+血管紧张素转换酶抑制剂
+angiotensin-converting enzyme inhibitor
+ADA
+美国糖尿病学会
+American Diabetes Association
+AHA
+美国心脏学会
+American Heart Association
+ARB
+血管紧张素受体拮抗剂
+angiotensin receptor blockers
+ASCVD
+动脉粥样硬化性心血管疾病
+atherosclerotic cardiovascular disease
+CKD
+慢性肾脏病
+chronic kidney disease
+CREDENCE
+卡格列净与糖尿病合并肾病患者肾脏终点的临床评价
+Canagliflozin and Renal Endpoints in Diabetes with Established Nephropathy Clinical Evaluation
+CT
+计算机断层扫描
+computed tomography
+CVD
+心血管疾病
+cardiovascular disease
+CVOT
+心血管结局试验
+cardiovascular outcome trial
+DAPA-HF
+达格列净与心力衰竭的不良结局预防
+Dapagliflozin And Prevention of Adverse-outcomes in Heart Failure
+DKD
+糖尿病肾脏病
+diabetic kidney disease
+EASD
+欧洲糖尿病学会
+European Association for the Study of Diabetes
+eGFR
+估算的肾小球滤过率
+estimated glomerular filtration rate
+ESC
+欧洲心脏病学会
+European Society of Cardiology
+ESKD
+终末期肾病
+end-stage kidney disease
+FDA
+美国食品药品监督管理局
+Food and Drug Administration
+GFR
+肾小球滤过率
+glomerular filtration rate
+GLP-1RA
+胰升糖素样肽1受体激动剂
+glucagon-like peptide-1 receptor agonist
+HbA
+1C
+糖化血红蛋白
+glycated hemoglobin
+HDL-C
+高密度脂蛋白胆固醇
+high density lipoprotein-cholesterol
+HF
+心力衰竭
+heart failure
+HFpEF
+射血分数保留性心力衰竭
+heart failure with preserved ejection fraction
+HFrEF
+射血分数降低性心力衰竭
+heart failure with reduced ejection fraction
+HFSA
+心力衰竭学会
+heart failure society
+LDL-C
+低密度脂蛋白胆固醇
+low density lipoprotein-cholesterol
+LVEF
+左心室射血分数
+left ventricular ejection fraction
+NYHA
+纽约心脏协会
+New York Heart Association
+PCSK9
+前蛋白转化酶枯草杆菌蛋白酶/kexin 9型
+proprotein convertase subtilisin/kexin type 9
+RCT
+随机对照临床试验
+randomized controlled trial
+ROT
+肾脏结局试验
+renal outcome trial
+SAVOR
+沙格列汀在糖尿病患者中的心血管结局评价
+Saxagliptin Assessment of Vascular Outcomes Recorded in patients with diabetes mellitus
+SGLT2i
+钠-葡萄糖协同转运蛋白2抑制剂
+sodium-glucose cotransporter 2 inhibitor
+T2DM
+2型糖尿病
+type 2 diabetes mellitus
+TG
+三酰甘油
+triglyceride
+UACR
+尿白蛋白/肌酐比值
+urine albumin/creatinine ratio
+UAER
+尿白蛋白排泄率
+urinary albumin excretion rate
+UKPDS
+英国糖尿病前瞻性研究
+United Kingdom Prospective Diabetes Study
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+上报错误
+-->
+或请将文献题目、链接及错误信息发邮件
+club.ph@cma.org.cn
+请选择PDF下载会员类型
+中华内科杂志期刊畅读会员（下载余量：
+123
+）
+中华内科杂志期刊畅读会员（下载余量：
+123
+）
+中华内科杂志期刊畅读会员（下载余量：
+123
+）
+-->
+取消
+下载
+出    处：中华内分泌代谢杂志2020年36卷06期
+文    题：中国成人2型糖尿病合并心肾疾病患者降糖药物临床应用专家共识
+优惠价：
+0
+元
+账户余额支付
+账户余额：
+0
+元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华内分泌代谢杂志2020年36卷06期
+优惠价：
+0
+元    原价：
+0
+元
+账户余额支付
+账户余额：
+0
+元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个
+第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+b
+Share

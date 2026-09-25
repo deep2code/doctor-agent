@@ -135,3 +135,26 @@ external/chronic_diet/full/
 external/safe_medication/raw/*.pdf
 external/infection_food/raw/*.pdf
 external/infection_food/raw/*.docx
+
+# 第四批科普扩充（2026-09-24）居家自测与慢病随访：原始 PDF 与未清洗的重复文字层不入库，
+# 保留 *_clean.txt（官方 PDF 文字层）与 curated 摘录 + MANIFEST.txt 作溯源
+external/home_monitoring/raw/*.pdf
+external/home_monitoring/raw/t2dm_prevention_2024_full.txt
+external/home_monitoring/raw/jiating_xueya_2019.txt
+external/home_monitoring/raw/jiceng_hypertension_2025.txt
+
+# 第五批科普扩充（2026-09-24）的原始 PDF 素材：可由各 raw/MANIFEST.txt 记录的官方直链重下；
+# 保留 raw/*.txt 逐字摘录与 MANIFEST.txt 作为入库数字的溯源依据
+external/eye_ent_health/raw/*.pdf
+
+# 第六批科普扩充（2026-09-25）方向 B/C/D 的原始 PDF 素材，口径同上（只入库 txt 摘录 + MANIFEST）
+external/child_injury/raw/*.pdf
+external/exam_safety/raw/*.pdf
+external/home_environment/raw/*.pdf
+
+# 批量下载正文库（2026-09-24~25 建的四个源）：整目录是可再生缓存，重跑同名 fetch 脚本即可重建，
+# 一律不入库（gov_health 实测 1.7GB / 378 份 PDF + 1872 篇正文；piyao 14.5MB；jkb 5.0MB）。
+# 脚本自身（external/fetch_gov_health.py、fetch_gov_annex.py、fetch_piyao.py、fetch_jkb.py）提交。
+external/gov_health/
+external/piyao_health/
+external/jkb_health/

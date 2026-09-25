@@ -1,0 +1,494 @@
+SOURCE: 老年人内在能力筛查与综合评估中国专家共识 | 中华医学会老年医学分会、国家老年疾病临床医学研究中心（宣武医院）牵头；《中国全科医学》2026,29(10)，DOI:10.12114/j.issn.1007-9572.2025.0401
+URL: https://www.chinagp.net/CN/10.12114/j.issn.1007-9572.2025.0401 （期刊官网公开全文,经JATS-XML接口 article/2026/1007-9572/9323/1007-9572-29-10-001.xml 抽取）
+发布/评审时间: 2025录用/2026刊出
+抓取方式: curl/浏览器下载 + 本地脚本正文抽取(pypdf/pymupdf/HTML清洗/JATS-XML解析)；抓取日期 2026-09-25
+
+老年人内在能力筛查与综合评估中国专家共识
+
+全球老年人口比例不断攀升，人口老龄化形势日益严峻。预计到2050年，全球60岁及以上老年人口将达21亿，约占总人口的22%[1]。我国作为世界上老年人口规模最大的国家，老龄化挑战尤为突出。国家统计局数据显示，截至2024年末，我国60岁及以上老年人口达3.1亿，65岁及以上老年人口为2.2亿，分别占总人口的22.0%和15.6%，标志着我国已进入深度老龄化社会[2]。为应对全球老龄化挑战，WHO提出了健康老龄化概念，将其定义为发展和维持老年人健康生活所需要的功能发挥的过程。内在能力则是功能发挥的核心，指个体全部生理和心理能力的总和。该概念的提出实现了从传统疾病管理模式向功能维持的重要转变[3]。
+
+为推进内在能力在临床实践中的应用，WHO于2019年发布了基于初级保健系统的老年人整合照护（ICOPE）路径实施手册[4]，并在2025年更新了第二版ICOPE路径实施手册[5]，为内在能力的筛查评估和实施以人为本的照护路径提供了指导。目前，ICOPE路径已在全球多个国家开展。法国INSPPIRE项目应用ICOPE路径对老年人进行定期内在能力评估和管理，并配套开发了应用软件及自我监测设备，证实了ICOPE路径在初级保健中具有较强的可行性[6]。韩国ICOOP Frail项目将ICOPE路径的核心内容融入现有衰弱评估和整合照护体系，强调以人为中心的全人关怀理念[7]。ICOPE筛查工具在中国老年人中同样具有较好的适用性，中国社区老年人内在能力下降比例较高[8,9]，但仍需更大样本的长期研究支持。这些实践表明，ICOPE路径在不同国情下均具备可操作性和推广价值，为推进健康老龄化提供了重要实践基础。研究显示，内在能力下降与衰弱、失能、跌倒、住院及死亡等不良结局密切相关[10,11,12,13,14]。因此，建立科学有效的内在能力早期筛查、评估和干预体系，对推进健康老龄化至关重要。
+
+然而，内在能力的筛查与评估尚未形成统一标准，不同研究采用的工具存在显著异质性，我国在该领域尚缺乏基于循证医学证据构建的规范化体系。为此，由中华医学会老年医学分会和国家老年疾病临床医学研究中心（宣武医院）牵头，组织国内权威专家共同制订了《老年人内在能力筛查与综合评估中国专家共识》。本共识系统整合国内外最新研究证据，旨在构建标准化内在能力筛查与评估流程框架，为临床实践提供规范指导，以期提升我国老年人内在能力下降的早期识别和精准评估能力，维护老年人功能独立性，推动健康老龄化进程。
+
+1　共识制订方法
+
+1.1　目标人群与适用场景
+
+本共识适用于60岁及以上的老年人，尤其是存在或可能存在内在能力下降的群体。本共识旨在为各级医疗机构临床医护人员、社区医疗卫生工作者及相关多学科专业人员（如参与老年整合照护的社会工作者、康复师、营养师等）提供实践指导，内容涵盖内在能力下降的定义、筛查及评估等方面，以期推动多学科协作，共同维护和提升老年人的内在能力。
+
+1.2　共识制订工作组
+
+本共识由中华医学会老年医学分会和国家老年疾病临床医学研究中心（宣武医院）牵头，组织来自老年医学、神经病学、内科学、全科医学、运动医学、康复医学、临床营养学、神经心理学、护理学、流行病学及循证医学等领域的专家组建共识制订工作组。工作组基于国内外最新循证医学证据及临床实践经验，经多轮专家研讨和修改后形成共识内容。
+
+1.3　文献检索策略
+
+系统检索PubMed、Cochrane Library、Medline、Web of Science、Embase、中国知网、万方数据知识服务平台、中国生物医学文献服务系统等中英文数据库。英文关键词：intrinsic capacity、cognition、cognitive impairment、locomotor capacity、mobility impairment、vitality、malnutrition、vision、vision impairment、hearing、hearing loss、psychological capacity、depressive symptoms、comprehensive geriatric assessment、assessment、older adults。中文关键词：内在能力、认知、运动、活力、视力、听力、心理、老年综合评估、评估、老年人。检索时间为自建库至2025年5月，并对检索获得的文献进行归纳与整合。
+
+1.4　循证级别
+
+共识制订工作组对纳入文献进行了系统综述与评价，并参考国内外指南与共识形成推荐意见。推荐意见遵循专家一致性原则，采用德尔菲法进行多轮调研与线上投票，投票选项分为"同意""基本同意""不明确意见"及"不同意"。每条推荐意见的赞同率（即"同意"与"基本同意"的比例）≥75%即形成专家共识。本共识采用推荐意见分级评估、制订与评价（GRADE）系统，将推荐强度划分为强推荐（Ⅰ级）和弱推荐（Ⅱ级），证据质量由高至低划分为4个等级：高质量（A）、中质量（B）、低质量（C）、极低质量（D），见表1[15]。
+
+【表格】
+级别 | 分级标准
+推荐强度 | 
+强推荐（Ⅰ） | 充分考虑了证据质量和可操作性，推荐在大多数情况下应予实施
+弱推荐（Ⅱ） | 证据价值存在一定不确定性，或由于操作性和结果解读的不足，倾向于低级推荐
+证据等级 | 
+高质量（A） | 非常确信真实值接近观察值
+中质量（B） | 对观察值有中等程度信心：真实值有可能接近观察值，但仍存在两者不同的可能性
+低质量（C） | 对观察值的确信程度有限：真实值可能与观察值不同
+极低质量（D） | 对观察值几乎没有信心：真实值很可能与观察值不同
+【表格完】
+
+1.5　共识更新
+
+本共识制订工作组将定期监测内在能力领域的研究进展，基于新出现的临床证据，及时更新共识。
+
+1.6　注册声明
+
+本共识已在国际实践指南注册与透明化平台（http://guidelines-registry.cn/）注册，注册编号为PREPARE-2025CN1226。
+
+2　内在能力下降的概念、流行病学与危险因素
+
+2.1　临床问题1：什么是内在能力？内在能力下降会导致哪些主要不良结局？
+
+【证据概述】　内在能力的概念是基于健康老龄化理念提出的，WHO将其定义为个体全部生理和心理能力的总和，包括认知、运动、活力（营养代谢）、感觉（视力与听力）和心理5个维度，其中任一维度下降，即表明内在能力下降[4]。内在能力下降会增加不良结局的发生概率[16,17,18]，是老年人健康风险的重要预测指标。一项长达21年的纵向研究显示，老年人内在能力呈渐进性下降，定期监测内在能力能够预测远期不良结局[18]。内在能力具有动态可逆性，早期识别与干预可延缓甚至逆转其下降趋势[19]。因此，对老年人进行内在能力的筛查与综合评估，对维持功能发挥及延缓衰老相关功能衰退具有重要意义，也是推动健康老龄化的关键策略。
+
+【推荐意见】　内在能力是个体全部生理和心理能力的总和，涵盖认知、运动、活力（营养代谢）、感觉（视力与听力）及心理5个维度。内在能力下降会显著增加衰弱、失能、跌倒、住院及死亡等风险。由于内在能力具有动态可逆性，建议通过早期筛查和系统评估及时识别内在能力下降的老年人，以实施针对性干预、延缓功能衰退。（推荐强度：Ⅰ；证据等级：A）
+
+2.2　临床问题2：老年人群中内在能力下降具有哪些流行病学特征？
+
+【证据概述】　内在能力随年龄增长逐渐下降，这一趋势在老年阶段尤为显著[20]。全球多项研究显示，老年人内在能力下降比例较高，不同国家和地区之间存在显著差异。法国ICOPE-Care队列研究显示，≥60岁的老年人中92.6%存在内在能力下降[6]。新加坡一项研究显示，77.4%的社区老年人存在内在能力下降[21]。墨西哥健康与老龄化研究显示，≥50岁人群中87.8%存在至少1个内在能力维度的下降[22]。在中国香港11个社区开展的研究中，≥60岁老年人初步筛查时72.7%存在内在能力下降，经详细评估后66.4%存在至少1个内在能力维度下降[23]。中国老年综合评估研究（CCGAS）显示，我国≥60岁社区老年人中，内在能力下降的标化患病率为39.9%[9]。此外，内在能力各维度间相互关联，任一维度下降均与不良结局相关，且受损维度数量越多，功能衰退风险越高[24,25]。
+
+【推荐意见】　内在能力随年龄增长渐进性下降。老年人中内在能力下降的比例较高。内在能力各维度（认知、运动、活力、感觉、心理）间相互关联，受损维度越多，功能衰退风险越高。（推荐强度：Ⅰ；证据等级：A）
+
+2.3　临床问题3：影响老年人内在能力下降的危险因素有哪些？
+
+【证据概述】　老年人内在能力下降是多种因素共同作用的结果，主要包括社会人口学因素（如高龄、女性、独居、低教育水平、低收入）、不良生活方式（如吸烟、运动不足、不健康饮食、肥胖、睡眠不足）、慢性病和老年综合征（如骨关节炎、脑血管疾病、衰弱、肌少症、失眠、焦虑、抑郁、营养不良），以及不安全的环境和有限的社会参与[9,26,27,28,29,30,31]。英国老龄化纵向研究表明，老年人内在能力下降与年龄增长、女性、低教育水平及患有更多慢性病相关[28]。CCGAS数据显示，高龄、低教育水平、低收入、运动量少、失眠和慢性病与老年人内在能力下降相关[9]。另有研究显示，内在能力下降与女性、高龄、低教育水平、吸烟、肥胖、蔬菜水果摄入不足及患慢性病相关[29]。此外，缺乏安全的周围环境（如存在跌倒风险、交通不便）和社会参与减少（如社交隔离、社区活动参与度低）也被证实会增加内在能力下降的风险[30,31]。早期识别并干预这些危险因素，对延缓内在能力下降至关重要。
+
+【推荐意见】　老年人内在能力下降的危险因素主要包括社会人口学因素、不良生活方式、慢性病与老年综合征、缺乏安全的周围环境及社会参与减少等。应重视对这些危险因素的早期识别与综合管理。（推荐强度：Ⅰ；证据等级：A）
+
+3　内在能力下降的筛查
+
+临床问题4：如何进行老年人内在能力下降的筛查？
+
+【证据概述】　为更好地维持老年人功能发挥并优化其内在能力，WHO于2019年发布了ICOPE路径实施手册，重点支持多学科团队通过整合照护路径识别与管理内在能力下降，以优化ICOPE服务[4]。ICOPE筛查工具可用于识别内在能力关键领域出现衰退的老年人，已在不同国家和地区的人群中进行了验证[21,23,32,33,34,35,36,37,38]。ICOPE筛查工具汉化版本亦被证实具有较好的信效度[33]，能够准确识别内在能力下降人群，为综合评估、分级诊疗及早期干预提供可靠依据。
+
+多项研究验证了ICOPE筛查工具的有效性：法国INSPIRE-T队列中ICOPE筛查工具表现出较高的灵敏度，各维度灵敏度为42.0%~97.2%（视力维度最高，97.2%）；除视力维度外，其他维度特异度均保持在较高水平（均>70.0%），该工具能够有效识别功能下降及失能高风险老年人，适用于大规模筛查[34,35]。西班牙VIMCI队列研究表明，ICOPE筛查工具整体准确性为62.7%~87.9%，特异度为68.2%~96.0%[36]。新加坡研究证实ICOPE筛查工具操作便捷、临床实用性强，具有较高可行性[21]。
+
+我国研究发现，ICOPE筛查工具对内在能力下降的诊断灵敏度、特异度、准确性、有效性分别为95.96%、51.80%、80.34%和73.90%，证实其适用于老年人内在能力下降的筛查[37]。中国台湾地区一项针对1 235名老年人的研究表明，台湾版ICOPE筛查工具（ICOPES-TW）评分与年龄、基础性日常生活活动能力、工具性日常生活活动能力、生命质量和衰弱严重程度均呈中至高度相关性，可作为识别老年人内在能力下降的有效工具[38]。上述证据表明，ICOPE筛查工具在我国人群中具有临床适用性，能有效识别内在能力下降，为制订本土化干预策略提供依据。
+
+综上，WHO ICOPE筛查工具在不同人群中可行性与适用性较高，可有效识别老年人内在能力下降。本共识推荐使用WHO ICOPE筛查工具进行内在能力下降筛查（表2），建议对≥60岁的老年人每12个月筛查1次，高风险人群（共病、多重用药、近期有住院史、独居或已存在功能下降）则每6个月筛查1次。2025年第二版手册将ICOPE路径更新为四步，分别为初步评估、深入评估、制订个性化照护计划以及实施与监测，若在第一步初步评估中发现内在能力受损，则建议进行第二步深入评估[5]。第二版ICOPE路径对初步评估中的认知、视力及听力维度做了调整，在初步评估前增加了筛查问题，若受试者回答为"是"，则直接进入第二步的深入评估。认知维度首先询问受试者是否存在记忆力或定向力问题（比如不知道现在在哪里或者今天的日期），若回答为"是"，直接进行深入评估。视力维度询问受试者有无眼睛问题，新增了眼部外观检查和WHO视力筛查表测试，若发现眼部外观异常或视力筛查表未通过，则进行深入评估。听力维度先询问受试者是否存在听力问题（佩戴助听器者，需补充询问"即使佩戴助听器时，是否仍存在听力问题"），回答为"是"，直接进行深入评估[5]。
+
+【表格】
+条目 | 问题 | 下降 | 正常
+认知 | 1.记住3个词汇：例如花朵、门、米饭 | 不计分 | 不计分
+2.时间及空间定向力：今天的日期是？现在身处何处（家、诊所等） | 错误或不知道 | 回答正确
+3.回忆第一问中的3个词汇（花朵、门、米饭） | 无法回忆全部词汇 | 正确回忆全部词汇
+运动 | 起坐测试：不借助上肢力量，从坐位站起5次，是否能在14 s内完成 | 否 | 是
+活力 | 1.体质量下降：过去3个月内是否在非刻意减重的情况下体质量下降>3 kg | 是 | 否
+2.食欲减退：是否有过食欲减退 | 是 | 否
+视力 | 您的眼睛是否有以下问题：看远处或阅读有困难，眼疾病，或目前正在接受药物治疗（例如糖尿病、高血压） | 是 | 否
+听力 | 耳语测试闻及耳语，或测听筛查结果≤35 dB，或通过自动化数字噪声测试 | 否 | 是
+心理 | 在过去的两周内，您是否受到以下任何情况困扰：1.感到压抑、沮丧或绝望2.对做事缺乏兴趣或乐趣 | 是 | 否
+【表格完】
+
+【推荐意见】　建议对≥60岁的老年人每12个月进行1次内在能力下降的筛查，高风险人群（包括共病、多重用药、近期有住院史、独居或已存在功能下降等）每6个月筛查1次；推荐采用WHO ICOPE筛查工具。（推荐强度：Ⅰ；证据等级：A）
+
+4　内在能力的评估
+
+4.1　临床问题5：如何进行老年人的内在能力评估？
+
+【证据概述】　对于内在能力下降筛查阳性者，需进行内在能力评估，并关注各维度间的相互影响及综合效应[5]。目前内在能力评估标准尚未统一，但其核心内容通常纳入认知、运动、活力（营养代谢）、感觉（视力和听力）及心理这5个维度。
+
+4.1.1　认知
+
+【证据概述】　认知功能包括注意力、记忆力、执行功能、语言及视空间能力等[39]，各认知域均随年龄增加逐渐减退[40]。目前内在能力相关研究中，认知维度评估常用工具包括简易精神状态检查（MMSE），另有研究采用简易智能状态问卷（SPMSQ）、认知五项测试（注意力、记忆力、视空间能力、语言能力以及推理能力）和认知三项测试（言语流畅性、延时记忆力以及注意力）等[9,24,28,41,42,43]。MMSE适用于临床、社区和科研等场景，应用广泛[44,45,46]。本共识推荐采用MMSE评估老年人认知功能，使用时需考虑受试者的教育程度和文化背景，并注意版权问题[47]。此外，蒙特利尔认知评估量表（MoCA）、Addenbrooke认知功能检查量表Ⅲ（ACE-Ⅲ）、简易认知筛查测试等工具也可用于认知功能评估[47,48]。数字化认知评估通过计算机化量表、任务式评估、虚拟现实等形式，对特定认知域、整体认知功能、社会和日常生活能力及精神行为症状等进行评估，为认知功能评估和临床辅助诊断提供支持[49]。
+
+【推荐意见】　建议采用标准化认知评估工具如MMSE、MoCA、ACE-Ⅲ或简易认知筛查测试进行认知功能评估，亦可选用经过验证的数字化认知评估工具作为辅助手段。认知功能评估应涵盖多个认知域，并考虑受试者的教育程度和文化背景。（推荐强度：Ⅰ；证据等级：B）
+
+4.1.2　运动
+
+【证据概述】　在衰老进程中，老年人肌肉功能减退会导致步速和平衡能力下降，进而增加内在能力下降及失能的发生风险[50]。既往内在能力研究对运动维度的评估包括简易体能状况量表（SPPB）、步速测试、5次起坐试验（FTSST）、6 min步行试验（6MWT）、Tinetti平衡与步态量表等[9,13,23,24,43,51,52,53]，其中SPPB是最常用的方法。SPPB包括平衡、步速及FTSST共3项测试[54]，其对老年人跌倒和死亡的预测效能优于单项测试[55,56,57,58,59]。SPPB总分0~12分，<10分为运动能力下降[60]。因此，本共识推荐采用SPPB对老年人进行运动能力的评估，也可根据实际情况选择步速测试、FTSST、6MWT及Tinetti平衡与步态量表等方法。
+
+【推荐意见】　推荐采用SPPB进行运动能力的评估，SPPB<10分为运动能力下降。其他评估方法包括步速测试、FTSST、6MWT及Tinetti平衡与步态量表等，可根据实际情况选择使用。（推荐强度：Ⅰ；证据等级：A）
+
+4.1.3　活力
+
+【证据概述】　WHO使用活力这一术语来描述构成个体内在能力的生理因素，包括能量平衡与新陈代谢、神经肌肉功能，以及身体的免疫和应激反应功能等。营养不良（不足或过剩）是其核心表现形式之一。ICOPE指南重点关注影响老年人活力下降的一个关键因素——营养不良，并强调在基层医疗实践中对老年人进行营养状态的初步筛查具有可操作性且十分重要，应作为健康综合评估的常规环节。目前常用的评估方法种类繁多，包括微型营养评估简表（MNA-SF）、微型营养评估（MNA）、营养不良通用筛查工具（MUST）、营养风险筛查2002（NRS2002）、握力、BMI和肌脂比等[9,12,24,41,52,61,62,63,64,65,66]。WHO推荐采用MNA评估营养状态[4]。MNA-SF较MNA更简便，与MNA筛查结果一致性高，临床可行性更佳[67,68,69]。研究显示，在长住护理机构老年人中MNA-SF与MNA在营养不良风险及营养不良筛查中，灵敏度、特异度均较高，具有高度一致性；且MNA-SF能独立预测住院时长，提示长住护理机构可考虑用MNA-SF替代MNA进行营养筛查[70]。在一项针对超重住院患者的研究中，MNA-SF的营养风险检出率（36.1%）显著高于NRS2002（17.7%），且MNA-SF对临床不良结局的预测效能也更优[71]。已有研究证实握力下降与营养不良、认知功能下降、心血管疾病甚至死亡风险增加等相关[72,73,74,75]，也有研究采用握力作为活力维度的评估方法[52]，握力可以通过评估上肢肌肉力量间接反映活力，但特异度不高。本共识推荐采用MNA-SF评估活力，也可选用NRS2002、MUST。若发现老年人存在营养不良风险或营养不良，需依据营养不良全球领导人倡议（GLIM）标准进行营养不良严重程度分级[76]。《老年人营养不良多学科决策模式中国专家共识（2023）》[77]建议，老年人确诊营养不良后多学科团队需在48 h内开展综合营养评估与分析，为制订个性化营养支持方案提供依据。
+
+【推荐意见】　建议采用MNA-SF进行活力的评估，也可使用NRS2002或MUST；有营养风险者进行综合营养评估，以明确营养不良的诊断及严重程度。（推荐强度：Ⅰ；证据等级：A）
+
+4.1.4　视力
+
+【证据概述】　当前多数研究采用自我报告法评估视力，如询问"即使您佩戴眼镜，近距离看东西（比如看报纸时），是否有困难？""您在看远处、阅读方面有任何困难吗？或者您有眼部疾病吗？"及是否存在影响日常生活的视力问题[9,43,61]。部分研究借助WHO简易视力表、Tumbling E视力表、Frisby立体视觉测试、Strawbridge听视力评估问卷、Likert量表等视力检测工具或问卷评估视力[12,23,41,65]。本共识推荐使用WHO简易视力表检测远视力和近视力，受试者在3 m处能辨别远视力表中至少3个小"E"的方向，则远视力正常；受试者在40 cm处能辨别近视力表中至少3个最大"E"的方向，则近视力正常[4]。
+
+【推荐意见】　视力评估可通过自我报告、视力检测工具或问卷的方式。本共识推荐采用WHO简易视力表进行视力评估，受试者在3 m处可辨别≥3个小"E"、在40 cm处可辨别≥3个最大的"E"，分别为远视力、近视力正常。（推荐强度：Ⅱ；证据等级：B）
+
+4.1.5　听力
+
+【证据概述】　听力评估是及早发现并管理听力损失的有效手段。《老年听力损失诊断与干预专家共识（2019）》[78]中提到听力评估主要包括：生活中自我观察（老年人或看护人员对其在生活中进行观察）、医生简单评估法（老年人根据日常经验回答医生提出的听力相关问题后，由医生进行评估）、问卷筛查法（老年听力障碍筛查量表简化版等）、简易设备筛查法（基于通信工具和数字测听程序进行远程听力筛查）和听力计筛查法（由专业评估人员使用纯音听力计进行纯音气导测听）。内在能力相关研究对于听力维度的评估，多采用耳语测试[34,36]，部分研究为自我报告如询问"您在日常生活中（包括佩戴助听器情况下）有没有听力方面的问题？"[43]或是否存在影响日常生活的听力问题[9]，或使用问卷如老年听力障碍筛查量表简化版[79]。本共识推荐采用耳语测试评估听力，若条件允许也可采用纯音测听等诊断性听力测试[5]。若发现听力损失，需转诊至耳鼻喉科进行专科评估，详细采集听力损失的单侧或双侧情况、发生时间、诱发因素、严重程度、加重或缓解因素等相关病史，询问有无创伤、噪声暴露、耳毒性药物使用等既往史，了解听力损失对日常生活的影响及是否存在耳痛、耳鸣、眩晕等耳部伴随症状[78]。通过耳科专科检查与诊断性听力检查，明确病因并制订干预方案[80]。
+
+【推荐意见】　采用耳语测试进行听力评估，若条件允许应进一步行诊断性听力测试，并详细采集听力损失病史。确诊听力损失者需转诊至耳鼻喉科进行专科评估以明确病因及制订干预方案。（推荐强度：Ⅱ；证据等级：B）
+
+4.1.6　心理
+
+【证据概述】　抑郁状态在老年人中常见，尤其是失能、社交隔离老年人，并增加死亡风险。听力损失、运动能力下降等通过影响社会功能、降低社会参与度，增加抑郁风险。因此，WHO ICOPE路径实施手册建议社区卫生保健机构的专业人员应识别抑郁状态，并区分抑郁状态与抑郁症[4]。老年人心理维度的评估常采用简版老年抑郁量表（GDS-15）、老年抑郁量表（GDS）、流调用抑郁自评量表（CES-D）、欧洲五维健康量表（EQ-5D）、患者健康问卷（PHQ-9）等[9,12,23,24,28,41,61,66]。GDS-15是由GDS改良而来的简化版本，可快速准确评估抑郁状态。一项针对不同类型老年抑郁量表筛查老年人抑郁症准确性的Meta分析显示，GDS-15的准确性最高（AUC=90%），且兼具较高的特异度和灵敏度；GDS-15条目简短、评估高效，性能优于GDS[81]。一项纳入了42项研究的Meta分析发现，PHQ-9的总体灵敏度为37%~98%，特异度为42%~99%，阳性预测值为9%~92%，阴性预测值为80%~100%，PHQ-9是抑郁状态评估的可靠工具[82]。本共识推荐使用GDS-15或PHQ-9对老年人的抑郁状态进行评估，必要时转诊至精神科或心理科进行诊断评估，并制订个体化干预方案。
+
+【推荐意见】　推荐采用GDS-15或PHQ-9对老年人进行抑郁状态评估，必要时转诊至精神科或心理科进行诊断评估，并制订个体化干预方案。（推荐强度：Ⅰ；证据等级：A）
+
+4.2　临床问题6：内在能力下降应如何分级？
+
+【证据概述】　目前内在能力综合评分的计算方法尚不统一，常用方法包括基于受损维度数量计算、将各维度得分直接相加形成综合指数、对各维度Z值求和取平均值，以及通过双因素探索性分析建模等[9,28,52,59,79,83,84,85,86,87]。我国学者于2021年提出一种综合评分方法，将认知、运动、活力（营养代谢）、感官（视力和听力）和心理5个维度，按正常、轻度受损、严重受损分别赋值为2分、1分及0分，相加后得到总分0~10分，分数越低表明内在能力受损越严重[9]；随后，LÓPEZ-ORTIZ等[59]进一步将该评分细化为：9~10分为正常，5~8分为下降，0~4分为显著下降。该综合评分系统可为老年人内在能力状态的分级管理提供客观依据，在临床实践中应结合具体评估结果，为老年人制订个体化干预方案。
+
+【推荐意见】　建议采用内在能力综合评分系统评估老年人整体内在能力：9~10分提示内在能力正常，5~8分提示内在能力下降，0~4分提示内在能力显著下降。该评分可作为老年人功能状态分级管理的客观依据，结合临床评估结果制订个体化干预方案。（推荐强度：Ⅱ；证据等级：B）
+
+4.3　临床问题7：对存在内在能力下降的老年人应采取何种综合评估策略，以系统识别其健康问题并指导个体化干预？
+
+【证据概述】　内在能力评估涵盖认知、运动、活力、感觉及心理5个维度，各维度之间相互关联、动态交互，因此，在临床实践中应综合分析整体内在能力，而非仅关注单一维度的变化。与此同时，与内在能力下降相关的多种健康状况常在多个层面产生复杂交互作用，要求在筛查、评估及管理过程中采用整合型方法，实施系统性干预。衰弱、肌少症、跌倒、共病、多重用药、疼痛及尿失禁等风险均随增龄而增加，是影响老年人健康和功能发挥的重要因素[88,89,90,91,92]。老年综合评估（CGA）通过多学科团队协作，对老年人躯体状况、功能状态、精神心理状况及社会环境等进行全面评估。本共识建议，对已出现内在能力下降的老年人，应在初步筛查基础上进一步开展CGA，通过全面、多维的功能评估，为制订以维持功能独立性、提升生活质量为目标的个体化管理策略提供科学依据。
+
+【推荐意见】　建议对内在能力下降的老年人实施CGA，通过多学科、多维度系统评估，全面识别其在躯体、心理及社会等方面的复杂问题，并以此为基础制订个体化的干预方案，以维护功能独立性和改善生活质量。（推荐强度：Ⅱ；证据等级：B）
+
+5　共病的评估
+
+临床问题8：老年人共病应如何评估？
+
+【证据概述】　随着年龄增长，老年人身体功能衰退，常罹患多种疾病。共病是指老年人同时患有2种或2种以上慢性健康问题，这在老年人中十分常见[93]。一项Meta分析显示，共病患病率随年龄增长而快速上升，我国超过30%的老年人罹患共病[90]。老年人共病与住院风险增加、多重用药、失能、生活质量下降及死亡等不良健康结局密切相关[94]。目前共病评估方法包括查尔森共病指数（CCI）、老年共病指数（GIC）、共病负担指数（CIRS）、Elixhauser共病指数（EC）和Kaplan-Feinstein共病指数（KFI）等。CCI将每种共病按严重程度赋分后计算总分[95]，是目前最常用的共病评估工具。对老年共病患者，需通过CGA系统评价共病对健康状态的影响，评估共病是否会增加功能丧失、生活质量下降等不良结局风险，并评估共病对医疗决策的影响[93]。本共识推荐采用CCI评估老年人共病情况，并定期进行CGA，关注常见的老年综合征；同时需警惕多重用药的不良影响，及时调整用药。
+
+【推荐意见】　建议使用CCI评估老年人共病情况。对于共病患者进行CGA判断其对健康状态的影响，重点关注老年综合征如衰弱、跌倒风险及多重用药，并根据评估结果实施个体化干预。（推荐强度：Ⅰ；证据等级：B）
+
+6　其他老年综合征评估
+
+6.1　临床问题9：老年人衰弱应如何筛查和评估？
+
+【证据概述】　衰弱作为一种与增龄相关的老年综合征，指老年人生理储备下降及其导致的身体易损性增加、抗应激能力下降[88]。2020年国际衰弱和肌肉减少症研究会议工作组（ICFSR）在《初级保健机构中衰弱筛查和管理指南》中建议，FRAIL量表、临床衰弱量表（CFS）、脆弱老年人调查问卷-13、Kihon清单、ICOPE筛查工具、骨质疏松性骨折研究指数和电子衰弱指数均可作为老年人衰弱的筛查工具[96]。基于我国老年人开发的衰弱筛查量表（FSQ）为自我报告式，包含步速减慢、肌力减弱、低体能、疲乏和体质量下降共5个条目，总分0~5分（0分为健壮，1~2分为衰弱前期，≥3分为衰弱），已在社区、急诊及住院老年人中进行验证，可快速识别衰弱，并预测不良结局[97,98]。《老年患者衰弱评估与干预中国专家共识》[99]建议对≥70岁的老年人，或近1年内非刻意减重但体质量下降（≥5%）的人群，进行衰弱筛查和评估。2025年《老年人内在能力下降与衰弱的运动干预临床实践指南》[100]强调应对≥60岁的老年人常规开展衰弱筛查，筛查阳性者进一步行Fried衰弱表型评估或CGA。衰弱评估工具有Fried衰弱表型、衰弱指数等。Fried衰弱表型包括体质量下降、疲乏、步速减慢、握力下降、体力活动减少共5个条目，总分0~5分（0分为健壮，1~2分为衰弱前期，≥3分为衰弱）[88]，目前应用最为广泛。因此，本共识推荐对≥60岁的老年人采用FSQ或FRAIL量表筛查衰弱，筛查阳性者使用Fried衰弱表型评估衰弱。
+
+【推荐意见】　采用FSQ或FRAIL量表对老年人进行衰弱筛查，阳性者进行Fried衰弱表型评估；对衰弱老年人开展动态监测与定期评估。（推荐强度：Ⅰ；证据等级：A）
+
+6.2　临床问题10：老年人肌少症应如何筛查和评估？
+
+【证据概述】　亚洲肌肉减少症工作组肌少症诊断及治疗专家共识将"可能肌少症"定义为肌肉力量下降和/或躯体功能下降，"肌少症"定义为骨骼肌质量下降和肌肉力量下降或躯体功能下降，"重度肌少症"定义为骨骼肌质量、肌肉力量和躯体功能均下降[101]。骨骼肌质量测定方法包括双能X线吸收法（DXA）、生物电阻抗分析（BIA）、CT和MRI等，肌肉力量最常用的指标为握力，躯体功能评估包括SPPB、步速测试、6MWT、起立-行走计时测试（TUG）、FTSST等[101,102,103]。目前肌少症筛查主要采用简易五项评分问卷（SARC-F）或小腿围[101,104]。SARC-F筛查肌少症具有较好的内部一致性和有效性，其评分≥4分为阳性[104]。男性小腿围<34 cm、女性小腿围<33 cm提示肌少症风险，此方法操作简便，适合大规模社区筛查[101]。本共识推荐使用SARC-F或小腿围筛查肌少症，筛查阳性者应通过骨骼肌质量（DXA或BIA）、肌肉力量（握力）和躯体功能（SPPB或步速测试）评估肌少症。《中国肌肉减少症诊疗指南（2024版）》[105]建议根据肌少症患者的疾病严重程度及共病情况制订个体化干预方案。
+
+【推荐意见】　建议采用SARC-F或小腿围筛查老年人肌少症，对筛查阳性者进行骨骼肌质量（DXA或BIA）、肌肉力量（握力）和躯体功能（SPPB或步速测试）的评估以明确诊断。（推荐强度：Ⅰ；证据等级：B）
+
+6.3　临床问题11：老年人跌倒应如何筛查和评估？
+
+【证据概述】　跌倒是常见的老年综合征，影响老年人的功能独立性，降低生活质量[106]。应对老年人进行跌倒筛查以识别高风险人群。《世界老年人跌倒预防和管理指南：一项全球倡议》[107]推荐采用3个关键问题（"您在过去1年里跌倒过吗""您在站立或行走时是否感觉不稳""您是否会担心跌倒"）进行跌倒风险筛查，筛查阳性者需综合考虑以上3个关键问题、步态和平衡能力、有无跌倒史及危险因素等进行跌倒低、中、高风险分层[108]。跌倒常用的评估工具有Morse跌倒评估量表（MFS）、跌倒风险评估量表（FRQ）、TUG、FTSST、Berg平衡量表等。个体化防跌倒干预方案需基于风险分级，围绕风险因素制订，以改善老年人功能、提高跌倒预防意识和降低风险为目标[109]。可穿戴式或非穿戴式传感器，能够客观、连续地捕捉老年人日常运动与平衡数据，结合机器学习算法进行分析，可对老年人跌倒风险做出准确分类[110]。
+
+【推荐意见】　采用3个关键问题（"您在过去１年里跌倒过吗""您在站立或行走时是否感觉不稳"及"您是否会担心跌倒"）进行老年人跌倒风险筛查，对筛查阳性者进行风险分层，制订个体化防跌倒干预方案。可穿戴/非穿戴式传感器联合机器学习，可通过获取老年人日常活动中的数据，客观评估跌倒风险。（推荐强度：Ⅰ；证据等级：B）
+
+6.4　临床问题12：老年人多重用药应如何评估？
+
+【证据概述】　多重用药指患者同时使用多种或过多数量的药物，通常指同时使用5种及以上的不适当用药[111]。老年人多重用药情况十分普遍，增加了老年人发生药物不良反应的风险[112]。了解老年人多重用药情况，识别并预防潜在的药物相关问题，有利于降低药物不良反应发生风险，提高老年人用药安全性。针对老年人的多重用药适宜性评估有很多方法，主要包括：（1）药物适应性指数法、处方优化法等基于主观判断的方法；（2）基于文献、指南或专家共识，通过标准化制订的客观评估方法，如药品说明书、欧洲老年人潜在不适当处方筛查工具/处方遗漏筛查工具（STOPP/START）准则、美国老年人Beers标准等；（3）通过评估（assess）、审查（review）、最大限度地减少不必要的药物（minimize）、优化治疗方案（optimize）和再评估（reassess），即ARMOR工具等对患者用药情况进行整体分析评价[113]。针对老年患者用药依从性较差问题，可采用Morisky服药依从性量表、配药与再配药依从性量表、药物依从性评定量表等工具进行用药依从性评估[111]。对药物相互作用开展评估并规范临床用药，有助于为老年患者的用药安全提供保障。《老年人多重用药评估与管理中国专家共识（2024）》[111]中建议参照Lexicomp数据库等药物相互作用数据库中的分级标准，筛选药物相互作用级别，再通过查找循证依据，确定药物相互作用的评估结果。
+
+【推荐意见】　本共识推荐对老年人开展系统性的多重用药评估，包括用药适宜性、用药依从性、药物不良反应和药物相互作用评估。（推荐强度：Ⅰ；证据等级：B）
+
+6.5　临床问题13：老年人疼痛应如何评估？
+
+【证据概述】　在评估老年人疼痛时，需全面了解疼痛病史并开展体格检查。应询问老年人近1年内是否发生过疼痛，让老年人回顾疼痛的位置、强度、加重及缓解因素，关注疼痛对睡眠和情绪的影响，疼痛部位是否出现痛觉超敏、感觉减退、麻木等感觉异常[114]。老年疼痛评估工具包括疼痛数字评定量表（NRS）、言语描述量表（VDS）、视觉模拟量表（VAS）、老年疼痛量表（GPM）、简明疼痛量表（BPI）和麦吉尔疼痛问卷（MPQ）等[115]。其中，NRS、VDS简便快捷，已广泛应用于老年人疼痛评估[116]。因此，本共识推荐采用NRS或VDS评估疼痛，结合全面的疼痛病史采集与针对性体格检查，最终根据评估结果制订镇痛方案。
+
+【推荐意见】　本共识推荐采用NRS或VDS进行老年人疼痛评估，评估应包含全面采集疼痛病史及针对性体格检查，根据评估结果制订个性化镇痛方案。（推荐强度：Ⅱ；证据等级：B）
+
+6.6　临床问题14：老年人尿失禁应如何筛查和评估？
+
+【证据概述】　尿失禁是指可经客观证实的、经尿道不自主漏尿的现象，是老年人常见的健康问题和老年综合征[117,118]。老年尿失禁显著降低生活质量并可能诱发心理障碍，因此对老年尿失禁的筛查和评估至关重要[119]。首先通过询问老年人及其家属或照护人员是否存在意外漏尿情况，进行尿失禁初步筛查；若存在意外漏尿，则需进一步评估。综合询问病史和体格检查是尿失禁评估的基础，应详细询问尿失禁的发生时间、严重程度、既往治疗及效果、生活质量和治疗意愿等[118]。同时评估泌尿系统状况，识别可能导致尿失禁的危险因素，如高龄、液体失衡、便秘、多重用药、尿路感染、谵妄、外阴症状（女性）、尿失禁相关性皮炎、糖尿病和肥胖等[5]。对老年人进行有针对性的体格检查，包括对认知能力、活动能力、如厕能力和神经功能的评估[118]。还需评估如厕的便利度，老年人对防护产品的需求及是否需要协助如厕、沐浴、更衣等，最终根据评估结果制订干预方案。
+
+【推荐意见】　通过询问老年人有无意外漏尿筛查尿失禁；若筛查结果为阳性，应对其进行包括泌尿系统病史、识别可逆性危险因素、针对性体格检查的综合评估，根据评估结果制订干预方案。（推荐强度：Ⅱ；证据等级：B）
+
+6.7　临床问题15：老年人的社会支持评估包括哪些内容？
+
+【证据概述】　社会支持是指个体在社会互动过程中获得、感知到的帮助及对支持的利用[5]，作为内在能力综合评估的重要内容，重点是老年人获取外界资源及情感援助的能力。社会支持不仅包括为老年人日常活动与照护提供协助，还包括为其使用社区设施和公共服务提供便利，缓解孤独感，提供财务安全保障，改善居住条件，以及支持其参与有意义的社会活动等多方面内容。研究证实，社会支持差可导致老年人日常生活活动能力受限，增加内在能力下降风险[120,121]。WHO ICOPE推荐从居家环境（房屋安全性）、经济状况（食物、住房和医疗费用等支付和管理能力）、社交隔离与孤独（孤独感和社交联系）及社会参与（兴趣爱好和社会活动）4个方面评估社会支持[5]。目前我国常用的社会支持评估量表主要包括社会支持评定量表（SSRS）、领悟社会支持量表（PSSS）和中国社会支持量表（CPSSS）等。
+
+【推荐意见】　推荐将社会支持纳入内在能力综合评估，从居家环境、经济状况、社交隔离与孤独、社会参与等方面评估。（推荐强度：Ⅰ；证据等级：B）
+
+6.8　临床问题16：老年人还应进行哪些其他评估？
+
+【证据概述】　老年人躯体功能受损比例较高，早期识别并科学干预有助于改善预后及生活质量[122]。尽早开展老年人功能状态的筛查、评估及干预，是预防和延缓失能发生发展的重要措施[123]。目前国内外缺乏专门评估老年人功能受损的量表，多采用日常生活活动能力作为评估指标，包括Barthel指数、Katz指数等评估基本日常生活活动能力，以及Lawton工具性日常生活活动能力量表、功能活动问卷（FAQ）等评估工具性日常生活活动能力。《老年人躯体功能受损防控干预中国专家共识（2022）》[124]中推荐使用适合我国老年人的功能受损评估量表（FIST）评估老年人功能受损情况，并建议结合临床症状选择相应评估工具。FIST在住院及社区老年人中具有良好的信效度，是评估躯体功能的可靠工具[125,126]。本共识推荐采用FIST评估老年人躯体功能，同时评估基本与工具性日常生活活动能力，建议每3~6个月进行动态评估。
+
+【推荐意见】　本共识推荐采用功能受损评估量表对老年人进行躯体功能评估，并进行基本日常生活活动能力和工具性日常生活活动能力的评估，每3~6个月进行一次动态评估。（推荐强度：Ⅱ；证据等级：B）
+
+老年人内在能力筛查和综合评估流程见图1。
+
+【图】老年人内在能力筛查和综合评估流程图 Flowchart for intrinsic capacity screening and comprehensive assessment of older adults【图完】
+
+7　总结及展望
+
+本共识基于近年来老年人内在能力领域的最新研究进展，结合我国人口老龄化现状和临床实践，形成了21条推荐意见，旨在规范老年人内在能力的筛查与综合评估流程，早期识别内在能力下降，改善老年人的功能状态和生活质量，助力健康老龄化。
+
+本共识制订专家委员会名单
+
+执笔专家（按作者贡献排序）：
+
+马丽娜、于文华、刘盼、刘海杰、常红、钟莲梅（首都医科大学宣武医院、国家老年疾病临床医学研究中心）、王朝霞（北京大学第一医院）、赵军（中国康复研究中心北京博爱医院）、张蔷（天津医科大学总医院）
+
+编写专家组（按姓氏汉语拼音排序）：
+
+曹剑（解放军总医院第二医学中心保健四科）、常红（首都医科大学宣武医院神经内科）、陈波（浙江省人民医院老年医学中心）、陈彪（首都医科大学宣武医院国家老年疾病临床研究中心）、陈新宇（浙江医院老年医学科）、程标（四川省人民医院老年医学科）、郝峻巍（首都医科大学宣武医院神经内科）、郝立晓（首都医科大学宣武医院全科医学科）、洪华山（福建医科大学附属协和医院老年医学科）、胡坚（江西省人民医院干部病房）、黄鹏（民航总医院老年医学科）、惠海鹏（解放军总医院第二医学中心保健七科）、吉彤（首都医科大学附属北京同仁医院老年医学科）、姜昕（深圳市人民医院老年医学科）、康琳（中国医学科学院北京协和医学院北京协和医院老年医学科）、李冰洁（中国康复研究中心北京博爱医院神经内科）、李菲卡（上海交通大学医学院附属瑞金医院老年病科）、李杰（吉林大学第一医院干部病房）、李宇晟（中南大学湘雅医院骨科）、林展翼（广东省人民医院老年医学科）、刘桂友（首都医科大学北京脑重大疾病研究院）、刘海杰（首都医科大学宣武医院神经内科）、刘盼（首都医科大学宣武医院老年医学科）、马丽娜（首都医科大学宣武医院老年医学科）、马清（首都医科大学附属北京友谊医院老年医学科）、毛拥军（青岛大学附属医院老年医学科）、苗海军（新疆医科大学第一附属医院老年干部科）、牛慧彦（中国医科大学附属盛京医院老年医学科）、潘一鸣（首都医科大学附属北京积水潭医院老年医学科）、钱力（山西医科大学第一医院老年病科）、乔成栋（兰州大学第一医院老年病科）、谭进（天津医科大学总医院老年医学科）、唐燕（石河子大学第一附属医院老年医学科）、田文（中国医科大学附属第一医院老年医学科）、王朝霞（北京大学第一医院神经内科）、王晶桐（北京大学人民医院老年医学科）、王晓明（空军军医大学西京医院老年病科）、王瑶（中南大学湘雅护理学院）、武文斌（北京医院老年医学科）、吴锦晖（四川大学华西医院老年医学科）、吴秀萍（哈尔滨医科大学附属第一医院老年病科）、邬真力（内蒙古自治区人民医院老年医学科）、肖倩（首都医科大学护理学院）、邢怡文（首都医科大学附属北京朝阳医院全科医学科）、熊玮（陆军军医大学第一附属医院老年医学与特勤医学科）、修双玲（首都医科大学附属朝阳医院内分泌科）、徐琳（中国人民解放军南部战区总医院老年心血管内科）、杨红菊（昆明医科大学第一附属医院老年科）、殷实（中国科学技术大学附属第一医院安徽省立医院老年医学科）、于浩（首都医科大学北京电力教学医院老年医学科）、于普林（北京医院/国家老年医学中心）、于文华（首都医科大学宣武医院老年医学科）、曾敏（海南医科大学）、张存泰（华中科技大学同济医学院附属同济医院老年病科）、张改改（清华大学第一附属医院北京华信医院老年医学科）、张丽（首都医科大学宣武医院老年医学科）、张蔷（天津医科大学总医院）、张倩（首都医科大学宣武医院神经内科）、张勤（浙江大学医学院附属第一医院老年病科）、张巍（首都医科大学附属北京天坛医院认知障碍性疾病科）、赵军（中国康复研究中心北京博爱医院神经内科）、钟莲梅（首都医科大学宣武医院神经内科）、周庞虎（武汉大学人民医院骨科）
+
+方法学专家组（按姓氏汉语拼音排序）：
+
+刘足云（浙江大学公共卫生学院）、吴晨凯（昆山杜克大学全球健康研究中心）、郑德强（首都医科大学公共卫生学院）
+
+外审专家组（按姓氏汉语拼音排序）：
+
+陈旭娇（浙江省中医院老年医学科）、李海龙（中国医学科学院北京协和医学院北京协和医院临床营养科）、刘谦（首都医科大学附属北京同仁医院老年医学科）、鲁翔（南京医科大学附属逸夫医院老年医学科）、吕继辉（北京老年医院认知障碍诊疗中心）、乔薇（中日友好医院保健一部）、王鹏（首都医科大学附属复兴医院老年医学科）、王晓娟（首都医科大学附属北京朝阳医院全科医学科）、邢艳秋（山东大学齐鲁医院老年医学科）、郑松柏（复旦大学附属华东医院老年医学科）、周厚广（复旦大学附属华山医院老年医学科）
+
+学术秘书：
+
+于文华、刘盼（首都医科大学宣武医院老年医学科）
+
+参考文献
+参考文献
+
+World Health Organization. Ageing and health, 2025[EB/OL]. [2025-10-15]. https://www.who.int/news-room/fact-sheets/detail/ageing-and-health.
+
+国家统计局. 中华人民共和国2024年国民经济和社会发展统计公报, 2025[EB/OL]. [2025-10-15]. https://www.stats.gov.cn/sj/zxfb/202502/t20250228_1958817.html.
+
+World Health Organization. World report on ageing and health[R]. Geneva: World Health Organization, 2015.
+
+World Health Organization. Integrated care for older people (ICOPE): guidance for person-centred assessment and pathways in primary care[R]. Geneva: World Health Organization, 2019.
+
+World Health Organization. Integrated care for older people (ICOPE): guidance for person-centred assessment and pathways in primary care[R]. 2nd ed. Geneva: World Health Organization, 2024.
+
+TAVASSOLI N, PIAU A, BERBON C, et al. Framework implementation of the INSPIRE ICOPE-CARE program in collaboration with the World Health Organization (WHO) in the occitania region[J]. J Frailty Aging, 2021, 10(2): 103-109. DOI: 10.14283/jfa.2020.26.
+
+WON C W, HA E, JEONG E, et al. World health organization integrated care for older people (ICOPE) and the integrated care of older patients with frailty in primary care (ICOOP_Frail) study in Korea[J]. Ann Geriatr Med Res, 2021, 25(1): 10-16. DOI: 10.4235/agmr.21.0025.
+
+WANG N Y, LIU X H, KONG X R, et al. Implementation and impact of the World Health Organization integrated care for older people (ICOPE) program in China: a randomised controlled trial[J]. Age Ageing, 2024, 53(1): afad249. DOI: 10.1093/ageing/afad249.
+
+MA L N, CHHETRI J K, ZHANG L, et al. Cross-sectional study examining the status of intrinsic capacity decline in community-dwelling older adults in China: prevalence, associated factors and implications for clinical care[J]. BMJ Open, 2021, 11(1): e043062. DOI: 10.1136/bmjopen-2020-043062.
+
+TAY L, TAY E L, MAH S M, et al. Association of intrinsic capacity with frailty, physical fitness and adverse health outcomes in community-dwelling older adults[J]. J Frailty Aging, 2023, 12(1): 7-15. DOI: 10.14283/jfa.2022.28.
+
+YU R, LAI D, LEUNG G, et al. Trajectories of intrinsic capacity: determinants and associations with disability[J]. J Nutr Health Aging, 2023, 27(3): 174-181. DOI: 10.1007/s12603-023-1881-5.
+
+CHARLES A, BUCKINX F, LOCQUET M, et al. Prediction of adverse outcomes in nursing home residents according to intrinsic capacity proposed by the World Health Organization[J]. J Gerontol A Biol Sci Med Sci, 2020, 75(8): 1594-1599. DOI: 10.1093/gerona/glz218.
+
+ZENG X K, SHEN S S, XU L Y, et al. The impact of intrinsic capacity on adverse outcomes in older hospitalized patients: a one-year follow-up study[J]. Gerontology, 2021, 67(3): 267-275. DOI: 10.1159/000512794.
+
+SÁNCHEZ-SÁNCHEZ J L, LU W H, GALLARDO-GÓMEZ D, et al. Association of intrinsic capacity with functional decline and mortality in older adults: a systematic review and meta-analysis of longitudinal studies[J]. Lancet Healthy Longev, 2024, 5(7): e480-e492. DOI: 10.1016/S2666-7568(24)00092-8.
+
+GUYATT G, OXMAN A D, AKL E A, et al. GRADE guidelines: 1. Introduction-GRADE evidence profiles and summary of findings tables[J]. J Clin Epidemiol, 2011, 64(4): 383-394. DOI: 10.1016/j.jclinepi.2010.04.026.
+
+YANG Y, MA G, WEI S, et al. Adverse outcomes of intrinsic capacity in older adults: a scoping review[J]. Arch Gerontol Geriatr, 2024, 120: 105335. DOI: 10.1016/j.archger.2024.105335.
+
+ZHOU J, CHANG H, LENG M M, et al. Intrinsic capacity to predict future adverse health outcomes in older adults: a scoping review[J]. Healthcare (Basel), 2023, 11(4): 450. DOI: 10.3390/healthcare11040450.
+
+STOLZ E, MAYERL H, FREIDL W, et al. Intrinsic capacity predicts negative health outcomes in older adults[J]. J Gerontol A Biol Sci Med Sci, 2022, 77(1): 101-105. DOI: 10.1093/gerona/glab279.
+
+World Health Organization. Integrated care for older people: guidelines on community-level interventions to manage declines in intrinsic capacity, 2017[EB/OL]. [2025-10-15]. https://www.who.int/publications/i/item/9789241550109.
+
+BEARD J R, HANEWALD K, SI Y F, et al. Cohort trends in intrinsic capacity in England and China[J]. Nat Aging, 2025, 5(1): 87-98. DOI: 10.1038/s43587-024-00741-w.
+
+MA C H K, CHUA D L, TAY L, et al. The feasibility of implementing the WHO integrated care for older people (ICOPE) framework in Singapore[J]. J Frailty Aging, 2024, 13(4): 514-521. DOI: 10.14283/jfa.2024.59.
+
+GUTIÉRREZ-ROBLEDO L M, GARCÍA-CHANES R E, PÉREZ-ZEPEDA M U. Screening intrinsic capacity and its epidemiological characterization: a secondary analysis of the Mexican Health and Aging Study[J]. Rev Panam Salud Publica, 2021, 45: e121. DOI: 10.26633/RPSP.2021.121.
+
+LEUNG A Y M, SU J J, LEE E S H, et al. Intrinsic capacity of older people in the community using WHO Integrated Care for Older People (ICOPE) framework: a cross-sectional study[J]. BMC Geriatr, 2022, 22(1): 304. DOI: 10.1186/s12877-022-02980-1.
+
+LOCQUET M, SANCHEZ-RODRIGUEZ D, BRUYÈRE O, et al. Intrinsic capacity defined using four domains and mortality risk: a 5-year follow-up of the SarcoPhAge cohort[J]. J Nutr Health Aging, 2022, 26(1): 23-29. DOI: 10.1007/s12603-021-1702-7.
+
+DE SOUTO BARRETO P, GONZALEZ-BAUTISTA E, BISCHOFF-FERRARI H A, et al. Real-life intrinsic capacity screening data from the ICOPE-Care program[J]. Nat Aging, 2024, 4(9): 1279-1289. DOI: 10.1038/s43587-024-00684-2.
+
+GAO S, YU Y, XU J, et al. Effect size estimates of risk factors for the impaired intrinsic capacity among community-dwelling older adults: a systematic review and meta-analysis[J]. J Am Med Dir Assoc, 2025, 26(12): 105950. DOI: 10.1016/j.jamda.2025.105950.
+
+ZHAO B, LIU Z, FU Y, et al. Social determinants of intrinsic capacity: a national cohort study[J]. Am J Prev Med, 2024, 66(3): 559-567. DOI: 10.1016/j.amepre.2023.10.008.
+
+BEARD J R, JOTHEESWARAN A T, CESARI M, et al. The structure and predictive value of intrinsic capacity in a longitudinal study of ageing[J]. BMJ Open, 2019, 9(11): e026119. DOI: 10.1136/bmjopen-2018-026119.
+
+LI Y Y, ZHANG T T, LI M H, et al. Trajectories of intrinsic capacity decline and related factors in old persons: a 15-year community-based cohort study in Beijing[J]. J Nutr Health Aging, 2025, 29(5): 100526. DOI: 10.1016/j.jnha.2025.100526.
+
+LU S Y, LIU Y Q, GUO Y Q, et al. Neighbourhood physical environment, intrinsic capacity, and 4-year late-life functional ability trajectories of low-income Chinese older population: a longitudinal study with the parallel process of latent growth curve modelling[J]. eClinicalMedicine, 2021, 36: 100927. DOI: 10.1016/j.eclinm.2021.100927.
+
+YUE X, YUAN Q, ZHOU R, WANG M, et al. Social isolation, healthy lifestyle, and intrinsic capacity among older adults in China: a longitudinal study[J]. J Nutr Health Aging, 2025, 29(8): 100583. DOI: 10.1016/j.jnha.2025.100583.
+
+MA L N, CHHETRI J K, ZHANG Y X, et al. Integrated care for older people screening tool for measuring intrinsic capacity: preliminary findings from ICOPE pilot in China[J]. Front Med (Lausanne), 2020, 7: 576079. DOI: 10.3389/fmed.2020.576079.
+
+李夏夏，Chhetri Jagadish K，陈雨濛，等. 世界卫生组织老年整合照护筛查工具的汉化及信效度检验[J]. 中国临床保健杂志, 2024, 27(5): 621-625.
+
+GIUDICI K V, DE SOUTO BARRETO P, GUYONNET S, et al. Predictive capacity of the integrated care for older people screening tool for intrinsic capacity impairments: results from the INSPIRE-T cohort[J]. J Gerontol A Biol Sci Med Sci, 2024, 79(7): glae112. DOI: 10.1093/gerona/glae112.
+
+TAVASSOLI N, DE SOUTO BARRETO P, BERBON C, et al. Implementation of the WHO integrated care for older people (ICOPE) programme in clinical practice: a prospective study[J]. Lancet Healthy Longev, 2022, 3(6): e394-e404. DOI: 10.1016/S2666-7568(22)00097-6.
+
+ROJANO I LUQUE X, BLANCAFORT-ALIAS S, PRAT CASANOVAS S, et al. Identification of decreased intrinsic capacity: performance of diagnostic measures of the ICOPE screening tool in community dwelling older people in the VIMCI study[J]. BMC Geriatr, 2023, 23(1): 106. DOI: 10.1186/s12877-023-03799-0.
+
+李夏夏，潘一鸣，刘盼，等. 世界卫生组织老年整合照护筛查工具对内在能力下降诊断的灵敏度和特异度分析[J/OL]. 中国全科医学, 2025. DOI: 10.12114/j.issn.1007-9572.2024.0227.[2025-10-15]. https://www.chinagp.net/CN/10.12114/j.issn.1007-9572.2024.0227.
+
+SU H C, LIU C H, CHEN H Y, et al. Assessing intrinsic capacity in Taiwan: initial psychometric properties of the integrated care for older people screening tool for Taiwanese (ICOPES-TW)[J]. BMC Geriatr, 2024, 24(1): 477. DOI: 10.1186/s12877-024-05071-5.
+
+HARADA C N, NATELSON LOVE M C, TRIEBEL K L. Normal cognitive aging[J]. Clin Geriatr Med, 2013, 29(4): 737-752. DOI: 10.1016/j.cger.2013.07.002.
+
+MURMAN D L. The impact of age on cognition[J]. Semin Hear, 2015, 36(3): 111-121. DOI: 10.1055/s-0035-1555115.
+
+YU R, THIYAGARAJAN J A, LEUNG J, et al. Validation of the construct of intrinsic capacity in a longitudinal Chinese cohort[J]. J Nutr Health Aging, 2021, 25(6): 808-815. DOI: 10.1007/s12603-021-1637-z.
+
+YU J Q, SI H X, QIAO X X, et al. Predictive value of intrinsic capacity on adverse outcomes among community-dwelling older adults[J]. Geriatr Nurs, 2021, 42(6): 1257-1263. DOI: 10.1016/j.gerinurse.2021.08.010.
+
+HUANG C H, OKADA K, MATSUSHITA E, et al. The association of social frailty with intrinsic capacity in community-dwelling older adults: a prospective cohort study[J]. BMC Geriatr, 2021, 21(1): 515. DOI: 10.1186/s12877-021-02466-6.
+
+中华护理学会老年护理专业委员会. 老年人内在能力评估与维护指南[J]. 中华护理杂志, 2025, 60(3): 261-265.
+
+AREVALO-RODRIGUEZ I, SMAILAGIC N, ROQUÉ-FIGULS M, et al. Mini-Mental State Examination (MMSE) for the early detection of dementia in people with mild cognitive impairment (MCI)[J]. Cochrane Database Syst Rev, 2021, 7(7): CD010783. DOI: 10.1002/14651858.CD010783.pub3.
+
+LI H Z, JIA J P, YANG Z Q. Mini-mental state examination in elderly Chinese: a population-based normative study[J]. J Alzheimers Dis, 2016, 53(2): 487-496. DOI: 10.3233/JAD-160119.
+
+中华医学会神经病学分会痴呆与认知障碍学组. 轻度认知损害的神经心理评估专家共识(2025版)[J]. 中华医学杂志, 2025, 105(3): 204-218. DOI: 10.3760/cma.j.cn112137-20240612-01322.
+
+马丽娜，邢怡文，张丽，等. 老年人运动认知风险综合征健康管理中国专家共识(2025)[J]. 中国临床保健杂志, 2025, 128(1): 1-12. DOI: 10.3969/J.issn.1672-6790.2025.01.001.
+
+中华医学会神经病学分会痴呆与认知障碍学组，认知数字疗法中国专家共识写作组. 认知数字疗法中国专家共识（2023）[J]. 中华医学杂志, 2023, 103(9): 640-647. DOI:10.3760/cma.j.cn112137-20221121-02441.
+
+CHODZKO-ZAJKO W J, PROCTOR D N, FIATARONE SINGH M A, et al. Exercise and physical activity for older adults[J]. Med Sci Phys Exerc, 2009, 41(7): 1510-1530. DOI: 10.1249/mss.0b013e3181a0c95c.
+
+LIU S, YU X X, WANG X P, et al. Intrinsic capacity predicts adverse outcomes using integrated care for older people screening tool in a senior community in Beijing[J]. Arch Gerontol Geriatr, 2021, 94: 104358. DOI: 10.1016/j.archger.2021.104358.
+
+YEUNG S Y, SIN D, YU R, et al. Dietary patterns and intrinsic capacity in community-dwelling older adults: a cross-sectional study[J]. J Nutr Health Aging, 2022, 26(2): 174-182. DOI: 10.1007/s12603-022-1742-7.
+
+ZHAO J, CHHETRI J K, CHANG Y, et al. Intrinsic capacity vs. multimorbidity: a function-centered construct predicts disability better than a disease-based approach in a community-dwelling older population cohort[J]. Front Med (Lausanne), 2021, 8: 753295. DOI: 10.3389/fmed.2021.753295.
+
+GURALNIK J M, FERRUCCI L, PIEPER C F, et al. Lower extremity function and subsequent disability: consistency across studies, predictive models, and value of gait speed alone compared with the short physical performance battery[J]. J Gerontol A Biol Sci Med Sci, 2000, 55(4): M221-M231. DOI: 10.1093/gerona/55.4.m221.
+
+COOPER R, KUH D, HARDY R, et al. Objectively measured physical capability levels and mortality: systematic review and meta-analysis[J]. BMJ, 2010, 341: c4467. DOI: 10.1136/bmj.c4467.
+
+VERONESE N, STUBBS B, VOLPATO S, et al. Association between gait speed with mortality, cardiovascular disease and cancer: a systematic review and meta-analysis of prospective cohort studies[J]. J Am Med Dir Assoc, 2018, 19(11): 981-988.e7. DOI: 10.1016/j.jamda.2018.06.007.
+
+LAURETANI F, TICINESI A, GIONTI L, et al. Short-Physical Performance Battery (SPPB) score is associated with falls in older outpatients[J]. Aging Clin Exp Res, 2019, 31(10): 1435-1442. DOI: 10.1007/s40520-018-1082-y.
+
+PAVASINI R, GURALNIK J, BROWN J C, et al. Short physical performance battery and all-cause mortality: systematic review and meta-analysis[J]. BMC Med, 2016, 14(1): 215. DOI: 10.1186/s12916-016-0763-7.
+
+LÓPEZ-ORTIZ S, LISTA S, PEÑÍN-GRANDES S, et al. Defining and assessing intrinsic capacity in older people: a systematic review and a proposed scoring system[J]. Ageing Res Rev, 2022, 79: 101640. DOI: 10.1016/j.arr.2022.101640.
+
+中华医学会老年医学分会. 老年人运动能力下降多学科决策模式中国专家共识(2024版)[J]. 中华医学杂志, 2024, 104(12): 893-905. DOI: 10.3760/cma.j.cn112137-20230816-00238.
+
+LIU S, KANG L, LIU X H, et al. Trajectory and correlation of intrinsic capacity and frailty in a Beijing elderly community[J]. Front Med (Lausanne), 2021, 8: 751586. DOI: 10.3389/fmed.2021.751586.
+
+LIANG C K, LEE W J, CHOU M Y, et al. Roles of baseline intrinsic capacity and its subdomains on the overall efficacy of multidomain intervention in promoting healthy aging among community-dwelling older adults: analysis from a nationwide cluster-randomized controlled trial[J]. J Prev Alzheimers Dis, 2024, 11(2): 356-365. DOI: 10.14283/jpad.2024.20.
+
+CORTÉS-AGUILAR R, MALIH N, ABBATE M, et al. Validity of nutrition screening tools for risk of malnutrition among hospitalized adult patients: a systematic review and meta-analysis[J]. Clin Nutr, 2024, 43(5): 1094-1116. DOI: 10.1016/j.clnu.2024.03.008.
+
+KONDRUP J, RASMUSSEN H H, HAMBERG O, et al. Nutritional risk screening (NRS 2002): a new method based on an analysis of controlled clinical trials[J]. Clin Nutr, 2003, 22(3): 321-336. DOI: 10.1016/s0261-5614(02)00214-5.
+
+GUTIÉRREZ-ROBLEDO L M, GARCÍA-CHANES R E, PÉREZ-ZEPEDA M U. Allostatic load as a biological substrate to intrinsic capacity: a secondary analysis of CRELES[J]. J Nutr Health Aging, 2019, 23(9): 788-795. DOI: 10.1007/s12603-019-1251-5.
+
+YU R, LEUNG J, LEUNG G, et al. Towards healthy ageing: using the concept of intrinsic capacity in frailty prevention[J]. J Nutr Health Aging, 2022, 26(1): 30-36. DOI: 10.1007/s12603-021-1715-2.
+
+KAISER M J, BAUER J M, UTER W, et al. Prospective validation of the modified mini nutritional assessment short-forms in the community, nursing home, and rehabilitation setting[J]. J Am Geriatr Soc, 2011, 59(11): 2124-2128. DOI: 10.1111/j.1532-5415.2011.03659.x.
+
+KAISER M J, BAUER J M, RAMSCH C, et al. Validation of the mini nutritional assessment short-form (MNA-SF): a practical tool for identification of nutritional status[J]. J Nutr Health Aging, 2009, 13(9): 782-788. DOI: 10.1007/s12603-009-0214-7.
+
+RUBENSTEIN L Z, HARKER J O, SALVÀ A, et al. Screening for undernutrition in geriatric practice: developing the short-form mini-nutritional assessment (MNA-SF)[J]. J Gerontol A Biol Sci Med Sci, 2001, 56(6): M366-M372. DOI: 10.1093/gerona/56.6.m366.
+
+MENESES A, SILVA C, PINHO-REIS C, et al. Mini nutritional assessment-short form test: criterion and predictive validity in older adults from a long-term care unity[J]. Nutr Hosp, 2023, 40(4): 763-770. DOI: 10.20960/nh.04356.
+
+PEREIRA BERTINI DE OLIVEIRA A J, REGINA DE GOES C, GONÇALO DOMICIANO C, et al. The Mini Nutritional Assessment-Short Form is more effective in predicting clinical outcomes among hospitalised patients with overweight than the Nutritional Risk Screening-2002[J]. Nutr Bull, 2023, 48(2): 179-189. DOI: 10.1111/nbu.12608.
+
+KAEGI-BRAUN N, TRIBOLET P, BAUMGARTNER A, et al. Value of handgrip strength to predict clinical outcomes and therapeutic response in malnourished medical inpatients: secondary analysis of a randomized controlled trial[J]. Am J Clin Nutr, 2021, 114(2): 731-740. DOI: 10.1093/ajcn/nqab042.
+
+MCGRATH R, ROBINSON-LANE S G, COOK S, et al. Handgrip strength is associated with poorer cognitive functioning in aging Americans[J]. J Alzheimers Dis, 2019, 70(4): 1187-1196. DOI: 10.3233/JAD-190042.
+
+LAUKKANEN J A, VOUTILAINEN A, KURL S, et al. Handgrip strength is inversely associated with fatal cardiovascular and all-cause mortality events[J]. Ann Med, 2020, 52(3/4): 109-119. DOI: 10.1080/07853890.2020.1748220.
+
+MALHOTRA R, TAREQUE M I, TAN N C, et al. Association of baseline hand grip strength and annual change in hand grip strength with mortality among older people[J]. Arch Gerontol Geriatr, 2020, 86: 103961. DOI: 10.1016/j.archger.2019.103961.
+
+CEDERHOLM T, JENSEN G L, CORREIA M I T D, et al. GLIM criteria for the diagnosis of malnutrition-a consensus report from the global clinical nutrition community[J]. Clin Nutr, 2019, 38(1): 1-9. DOI: 10.1016/j.clnu.2018.08.002.
+
+马丽娜，吉彤，李海龙，等. 老年人营养不良多学科决策模式中国专家共识(2023)[J]. 中国临床保健杂志, 2023, 26(4): 433-445.
+
+全国防聋治聋技术组，中华医学会耳鼻咽喉头颈外科学分会，中华耳鼻咽喉头颈外科杂志编辑委员会，等. 老年听力损失诊断与干预专家共识(2019)[J]. 中华耳鼻咽喉头颈外科杂志, 2019, 54(3): 166-173.
+
+GONZÁLEZ-BAUTISTA E, DE SOUTO BARRETO P, VIRECOULON GIUDICI K, et al. Frequency of conditions associated with declines in intrinsic capacity according to a screening tool in the context of integrated care for older people[J]. J Frailty Aging, 2021, 10(2): 94-102. DOI: 10.14283/jfa.2020.42.
+
+中华医学会健康管理学分会，《中华健康管理学杂志》编辑委员会. 中国体检人群听力筛查专家共识[J]. 中华健康管理学杂志, 2016, 10(6): 420-423. DOI: 10.3760/cma.j.issn.1674-0815.2016.06.002.
+
+KRISHNAMOORTHY Y, RAJAA S, REHMAN T. Diagnostic accuracy of various forms of geriatric depression scale for screening of depression among older adults: systematic review and meta-analysis[J]. Arch Gerontol Geriatr, 2020, 87: 104002. DOI: 10.1016/j.archger.2019.104002.
+
+COSTANTINI L, PASQUARELLA C, ODONE A, et al. Screening for depression in primary care with patient health questionnaire-9 (PHQ-9): a systematic review[J]. J Affect Disord, 2021, 279: 473-483. DOI: 10.1016/j.jad.2020.09.131.
+
+GIUDICI K V, DE SOUTO BARRETO P, GUERVILLE F, et al. Associations of C-reactive protein and homocysteine concentrations with the impairment of intrinsic capacity domains over a 5-year follow-up among community-dwelling older adults at risk of cognitive decline (MAPT Study)[J]. Exp Gerontol, 2019, 127: 110716. DOI: 10.1016/j.exger.2019.110716.
+
+GIUDICI K V, DE SOUTO BARRETO P, BEARD J, et al. Effect of long-term omega-3 supplementation and a lifestyle multidomain intervention on intrinsic capacity among community-dwelling older adults: Secondary analysis of a randomized, placebo-controlled trial (MAPT study)[J]. Maturitas, 2020, 141: 39-45. DOI: 10.1016/j.maturitas.2020.06.012.
+
+HUANG C H, OKADA K, MATSUSHITA E, et al. Dietary patterns and intrinsic capacity among community-dwelling older adults: a 3-year prospective cohort study[J]. Eur J Nutr, 2021, 60(6): 3303-3313. DOI: 10.1007/s00394-021-02505-3.
+
+MA L, ZHANG Y, LIU P, et al. Plasma N-terminal pro-B-type natriuretic peptide is associated with intrinsic capacity decline in an older population[J]. J Nutr Health Aging, 2021, 25(2): 271-277. DOI: 10.1007/s12603-020-1468-3.
+
+BEARD J R, SI Y F, LIU Z X, et al. Intrinsic capacity: validation of a new WHO concept for healthy aging in a longitudinal Chinese study[J]. J Gerontol A Biol Sci Med Sci, 2022, 77(1): 94-100. DOI: 10.1093/gerona/glab226.
+
+FRIED LP, TANGEN CM, WALSTON J, et al. Frailty in older adults: evidence for a phenotype[J]. J Gerontol A Biol Sci Med Sci, 2001, 56(3): M146–M156. DOI: 10.1093/gerona/56.3.m146.
+
+SAYER A A, COOPER R, ARAI H, et al. Sarcopenia[J]. Nat Rev Dis Primers, 2024, 10: 68. DOI: 10.1038/s41572-024-00550-w.
+
+HU Y D, WANG Z X, HE H J, et al. Prevalence and patterns of multimorbidity in China during 2002-2022: a systematic review and meta-analysis[J]. Ageing Res Rev, 2024, 93: 102165. DOI: 10.1016/j.arr.2023.102165.
+
+NICHOLSON K, LIU W, FITZPATRICK D, et al. Prevalence of multimorbidity and polypharmacy among adults and older adults: a systematic review[J]. Lancet Healthy Longev, 2024, 5(4): e287-e296. DOI: 10.1016/S2666-7568(24)00007-2.
+
+WETTSTEIN M, TESARZ J. Increasing pain prevalence and intensity among middle-aged and older adults: evidence from the German Ageing Survey[J]. J Psychosom Res, 2023, 168: 111233. DOI: 10.1016/j.jpsychores.2023.111233.
+
+朱鸣雷，刘晓红，董碧蓉，等. 老年共病管理中国专家共识(2023)[J]. 中国临床保健杂志, 2023, 26(5): 577-584.
+
+MARENGONI A, ANGLEMAN S, MELIS R, et al. Aging with multimorbidity: a systematic review of the literature[J]. Ageing Res Rev, 2011, 10(4): 430-439. DOI: 10.1016/j.arr.2011.03.003.
+
+CHARLSON M E, POMPEI P, ALES K L, et al. A new method of classifying prognostic comorbidity in longitudinal studies: development and validation[J]. J Chronic Dis, 1987, 40(5): 373-383. DOI: 10.1016/0021-9681(87)90171-8.
+
+RUIZ J G, DENT E, MORLEY J E, et al. Screening for and managing the person with frailty in primary care: ICFSR consensus guidelines[J]. J Nutr Health Aging, 2020, 24(9): 920-927. DOI: 10.1007/s12603-020-1492-3.
+
+MA L, TANG Z, CHAN P, et al. Novel frailty screening questionnaire (FSQ) predicts 8-year mortality in older adults in China[J]. J Frailty Aging, 2019, 8(1): 33-38. DOI: 10.14283/jfa.2018.38.
+
+LIU H, SHANG N, CHHETRI J K, et al. A frailty screening questionnaire (FSQ) to rapidly predict negative health outcomes of older adults in emergency care settings[J]. J Nutr Health Aging, 2020, 24(6): 627-633. DOI: 10.1007/s12603-020-1374-8.
+
+中华医学会老年医学分会. 老年患者衰弱评估与干预中国专家共识[J]. 中华老年医学杂志, 2017, 36(3): 251-256.
+
+潘一鸣，马丽娜，杨茗，等. 老年人内在能力下降与衰弱的运动干预临床实践指南[J]. 中国临床保健杂志, 2025, 28(5): 577-594.
+
+CHEN L K, WOO J, ASSANTACHAI P, et al. Asian working group for sarcopenia: 2019 consensus update on sarcopenia diagnosis and treatment[J]. J Am Med Dir Assoc, 2020, 21(3): 300-307.e2. DOI: 10.1016/j.jamda.2019.12.012.
+
+刘娟，丁清清，周白瑜，等. 中国老年人肌少症诊疗专家共识(2021)[J]. 中华老年医学杂志, 2021, 40(8): 943-952.
+
+崔华，王朝晖，吴剑卿，等. 老年人肌少症防控干预中国专家共识(2023)[J]. 中华老年医学杂志, 2023, 42(2): 144-153. DOI: 10.3760/cma.j.issn.0254-9026.2023.02.002.
+
+MALMSTROM T K, MILLER D K, SIMONSICK E M, et al. SARC-F: a symptom score to predict persons with sarcopenia at risk for poor functional outcomes[J]. J Cachexia Sarcopenia Muscle, 2016, 7(1): 28-36. DOI: 10.1002/jcsm.12048.
+
+中华医学会老年医学分会，国家老年疾病临床医学研究中心（湘雅医院）. 中国肌肉减少症诊疗指南（2024版）[J]. 中华医学杂志, 2025, 105(3): 181-203.
+
+STENHAGEN M, EKSTRÖM H, NORDELL E, et al. Accidental falls, health-related quality of life and life satisfaction: a prospective study of the general elderly population[J]. Arch Gerontol Geriatr, 2014, 58(1): 95-100. DOI: 10.1016/j.archger.2013.07.006.
+
+MONTERO-ODASSO M, VAN DER VELDE N, MARTIN F C, et al. World guidelines for falls prevention and management for older adults: a global initiative[J]. Age Ageing, 2022, 51(9): afac205. DOI: 10.1093/ageing/afac205.
+
+LEUNG P B, ALEXANDER J T, OUCHIDA K E. Falls prevention for older adults[J]. JAMA, 2024, 331(16): 1409-1410. DOI: 10.1001/jama.2023.26942.
+
+皮红英，高远，候惠如，等. 老年人跌倒风险综合管理专家共识[J]. 中华保健医学杂志, 2022, 24(6): 439-441.
+
+中华医学会老年医学分会，国家老年疾病临床医学研究中心(首都医科大学宣武医院). 数字疗法防治老年人跌倒中国专家共识（2025）[J]. 中华老年医学杂志, 2026. DOI: 10.3760/cma.j.issn.0254-9026.2025.12.000.
+
+沈杰，高宁舟，郑松柏，等. 老年人多重用药评估与管理中国专家共识(2024)[J]. 中华老年医学杂志, 2024, 43(3): 269-278. DOI: 10.3760/cma.j.issn.0254-9026.2024.03.002.
+
+MATSUYAMA T, TACHI T, KATSUNO H, et al. Effects of polypharmacy on the prevalence of adverse drug events resulting in outpatient visits and hospitalization[J]. Pharmazie, 2021, 76(6): 279-286. DOI: 10.1691/ph.2021.1427.j.issn.0254-9026.2024.03.002.
+
+朱愿超，金鹏飞，国家老年医学中心，等. 老年人多重用药门诊标准操作规范专家共识(2024版)[J]. 中华老年医学杂志, 2024, 43(11): 1382-1391. DOI: 10.3760/cma.j.issn.0254-9026.2024.11.002.
+
+纪泉，易端，张湘瑜，等. 老年人慢性肌肉骨骼疼痛管理中国专家共识(2023)[J]. 中华老年医学杂志, 2023, 42(10): 1141-1152. DOI: 10.3760/cma.j.issn.0254-9026.2023.10.001.
+
+KANG Y, DEMIRIS G. Self-report pain assessment tools for cognitively intact older adults: integrative review[J]. Int J Older People Nurs, 2018, 13(2): e12170. DOI: 10.1111/opn.12170.
+
+HADJISTAVROPOULOS T, HERR K, TURK D C, et al. An interdisciplinary expert consensus statement on assessment of pain in older persons[J]. Clin J Pain, 2007, 23(1 Suppl): S1-S43. DOI: 10.1097/AJP.0b013e31802be869.
+
+WILSON T. Incontinence of urine in the aged[J]. Lancet, 1948, 252(6523): 374-377. DOI: 10.1016/S0140-6736(48)90948-9.
+
+DAVIS N J, WYMAN J F, GUBITOSA S, et al. Urinary incontinence in older adults[J]. Am J Nurs, 2020, 120(1): 57-62. DOI: 10.1097/01.NAJ.0000652124.58511.24.
+
+NISHIMOTO K, TSUTSUMIMOTO K, DOI T, et al. Urinary incontinence and life-space activity/mobility additively increase the risk of incident disability among older adults[J]. Maturitas, 2024, 179: 107870. DOI: 10.1016/j.maturitas.2023.107870.
+
+MAHMUD N A, SHAHEIN N A, YOEP N, et al. Influence of social support on limitation in daily living among older persons in Malaysia[J]. Geriatr Gerontol Int, 2020, 20(Suppl 2): 26-32. DOI: 10.1111/ggi.14029.
+
+YU W H, ZHOU Y R, GAO X Y, et al. Social isolation and intrinsic capacity decline in older adults: mediating roles of sleep duration and pain[J]. Exp Gerontol, 2026, 213: 112991. DOI: 10.1016/j.exger.2025.112991.
+
+于普林，高超，雷平，等. 预防老年人失能核心信息中国专家共识(2019)[J]. 中华老年医学杂志, 2019, 38(10): 1073-1074. DOI: 10.3760/cma.j.issn.0254-9026.2019.10.001.
+
+刘瑞，余中华，张霞，等. 老年失能全周期综合康复管理模式专家共识[J]. 华西医学, 2024, 39(6): 856-865.
+
+吴剑卿，陈波，毛拥军，等. 老年人躯体功能受损防控干预中国专家共识(2022)[J]. 中华老年医学杂志, 2022, 41(10): 1137-1145. DOI: 10.3760/cma.j.issn.0254-9026.2022.10.002.
+
+ZHANG Y X, LIU P, PAN Y M, et al. Reliability and validity of the function impairment screening tool in Chinese older adults[J]. Front Med (Lausanne), 2021, 10(8): 720607. DOI: 10.3389/fmed.2021.720607.
+
+于文华，李建国，段文燕，等. 老年人功能受损评估量表在社区老年人中的信效度检验[J]. 中国全科医学, 2025, 28(24): 3000-3004.

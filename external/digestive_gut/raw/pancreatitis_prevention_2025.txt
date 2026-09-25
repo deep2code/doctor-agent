@@ -1,0 +1,239 @@
+来源：浙江省人民医院急诊医学科（《中华急诊医学杂志》官网全文，综述/述评类）《急性胰腺炎防治一体化策略（中华急诊医学杂志, 2025,34(10):1325-1330）》
+发布/制定年份：2025
+URL：http://www.cem.org.cn/public/html/202510/20251001/index.htm
+抓取方式：curl 直连中华急诊网静态 HTML 全文
+说明：以下为该页面正文逐字文本（仅去除 HTML 标记与页面模板文字，未改写内容）。
+
+中华急诊医学杂志 2025, Vol. 34 Issue (10): 1325-1330 DOI: 10.3760/cma.j.cn114656-20250904-00642
+Abstract
+PDF
+Figures
+Tables
+引用本文
+闫广照, 涂建锋. 急性胰腺炎防治一体化策略[J]. 中华急诊医学杂志, 2025, 34(10): 1325-1330.
+急性胰腺炎防治一体化策略
+闫广照
+,
+涂建锋
+浙江省人民医院（杭州医学院附属人民医院）急诊医学科，杭州 310014
+收稿日期: 2025-09-04
+基金项目: 国家自然科学基金（82203884）；2022年浙江省卫生高层次人才培养项目；浙江省尖兵领雁科技计划项目（2025C02180）浙江省医药卫生科技计划（2023KY051）；浙江省中医药科技计划(2023ZL253)
+通信作者:
+涂建锋, Email: zjpph-ap@hmc.edu.cn.
+急性胰腺炎(Acute Pancreatitis, AP)是重要的全球公共卫生问题，整体疾病负担仍然突出。据报道，AP的全球年发病率约为（13~45）/10万人·年；其中重症急性胰腺炎（severe acute pancreatitis, SAP）的病死率约为20%~30%[1]。受病因构成、医疗资源与人群学特征等因素影响，不同地区的疾病负担存在显著差异，且在多数亚洲国家尤以胆源性病因为主，占比常超过50%，体现出明显的区域性病因特征[2]。此外，约17%~45%的患者在5年内经历复发，不仅导致个人健康恶化，还造成沉重的社会经济负担，且占用大量急诊和ICU资源[3]。然而，现行管理模式仍普遍存在“重急救轻预防”的局限，例如，在英国部分中心仅有45%的患者接受了早期预警系统的评估，而发展中国家应用率可能更低[4]。这一现状凸显了从“被动救治”转向“防治一体化”的紧迫性。本文提出的三级防治框架通过病因防治、早期识别与干预及长期随访与再发预防的协同优化，旨在降低首次发作与复发风险，减少重症和病死率，并改善患者的长期健康结局。
+1 急性胰腺炎的病因学特征与严重程度分级
+AP是一种炎症性疾病，其核心病理生理机制是胰酶异常激活，它的主要特点是胰腺局部出现炎症反应，还可能伴有不同程度的全身器官功能损害，临床表现一般有突发性上腹部剧痛、恶心、呕吐、发热以及血清胰酶（如淀粉酶和脂肪酶）水平升高[5]。流行病学研究表明[6]，胆石症仍然是我国AP的主要致病因素，占病例的50.2%；其次为高甘油三酯血症（hypertriglyceridemia, HTG）（28.4%）和酒精性因素（15.1%）。值得关注的是，报道显示高甘油三酯血症性急性胰腺炎（HTG-associated AP, HTG-AP）在20~40岁男性中的年增长率约12.7%，且其重症转化率（约38.5%）显著高于胆源性AP（约15.2%）；此外，其他病因还包括医源性因素（3.8%）、代谢紊乱、药物性、病毒感染及自身免疫性疾病等[2, 6-8]。
+在疾病严重程度的评估方面，2012年修订版亚特兰大分级标准（revised atlanta classification, RAC）建立了三级体系：（1）轻症AP（mild AP, MAP），占病例的80%~85%，其特征为无器官功能衰竭及并发症，病死率低于1%；（2）中度重症AP（moderately severe AP, MSAP），占10%~15%，表现为一过性（≤48 h）器官功能衰竭和（或）局部并发症，病死率约为5%；（3）重症AP（Severe AP, SAP），占5%~10%，以持续性（> 48 h）器官功能衰竭为特征，病死率高达20%~30%[9]。RAC中器官功能障碍的判定常采用改良Marshall评分（modified Marshall score），任一器官系统评分≥2分提示器官功能衰竭[10]。同样于2012年提出的基于决定因素的分类（determinant-based classification, DBC）将感染性坏死和器官功能障碍视为同等重要的预后因素，分为四型：MAP为无胰腺（胰周）坏死且无器官功能障碍；MSAP为无菌性胰腺（胰周）坏死和（或）一过性器官功能障碍（≤48 h）；SAP为感染性胰腺（胰周）坏死或持续性器官功能障碍（> 48 h）；危重型AP（critical AP, CAP）为持续性器官功能障碍伴感染性胰腺（胰周）坏死；DBC分类中的器官功能障碍通过序贯器官衰竭评分（SOFA）系统进行诊断[11]。特别需要强调的是，HTG-AP患者进展为SAP的风险显著增加[8]。因此，早期明确病因并准确分级，对于制定个体化的一体化防治方案、降低重症与并发症发生并改善预后至关重要。
+2 一级防治：发病风险管理与初发防治策略
+AP的一级防治策略应着重于识别和控制已知的危险因素，以降低首次发作的风险。流行病学研究数据表明[12]，通过有效干预可调控的危险因素，可显著减少AP的疾病负担，具体而言，吸烟、体重异常及酒精滥用构成了AP发病的三大主要可控因素，完全戒烟可避免50%以上的AP病例发生，而将体重指数控制在18~25 kg/m²范围内和适度饮酒则分别能降低25%和20%的发病风险。Li等[13]研究发现，吸烟暴露与AP严重程度呈剂量–反应关系，且“MSAP或SAP”的发生率随着吸烟量的增加而显著上升，其中非吸烟者为18.9%，轻度吸烟者为31.0%，中度吸烟者为56.8%，重度吸烟者为55.5%。值得注意的是，优化膳食结构具有保护作用，尤其是增加蔬菜摄入可使AP发病风险降低36%，这一发现为饮食干预提供了一定的循证依据[12]。
+对于复发性急性胰腺炎（RAP）的患者，一级防治更为重要。应针对曾经发作AP的个体开展健康教育，强调及时根除胆石症病因、严格控制血脂和酒精摄入，避免高风险药物和不必要的内镜逆行胰胆管造影（ERCP）。ERCP后胰腺炎（PEP）的预防至关重要，因为该手术显著增加了AP的风险[14]。研究显示[15-17]，有效的一级预防策略应包括避免不必要的ERCP、合理选择镇静方式、直肠非甾体抗炎药（NSAIDs）的预防性使用，以及在高危患者中优化插管技术。此外，药物干预（如他汀类药物）用于RAP的一级预防手段正在进行试验，结果备受期待[18]。他汀类药物可能通过其抗炎作用、调节脂质代谢等机制发挥保护作用，从而有助于减少胰腺炎的复发[19]。通过综合上述策略，可以有效降低AP的发病率，改善患者的长期预后。
+3 二级防治：早期识别干预与阻断病情进展 3.1 早期识别与评估
+对AP的早期规范化诊疗可以显著降低病死率和复发率。及时识别可能导致从轻症转化为重症的风险因素及其临床表现，并采取相应的预防和干预措施，是有效管理AP的关键任务。实验室生化指标如血细胞比容、血尿素氮/肌酐和CRP与疾病严重程度相关，但由于阈值和采样时机差异，单一指标的预测力有限；细胞因子和前列腺素等标志物在早期预测中展现潜力，但缺乏规模化和易测量的方法与证据；影像学方面，改良CT严重指数（modified CT severity index, MCTSI）在评估坏死与并发症中具有重要价值，但在发病48 h内CT对胰腺坏死的检出率有限，且需权衡碘对比剂相关风险，而超声、内镜超声（endoscopic ultrasound, EUS）和MRI虽可辅助诊断，但单独用于早期重症预测的能力有限，且受操作者依赖与检查时长限制；传统评分系统如Ranson、Glasgow、APACHE Ⅱ、BISAP、JSS和HAPS虽可提供预测信息，但普遍存在操作复杂、时间较长和地区差异显著等局限，难以实现早期高准确性预测；而人工智能（AI）模型在预测SAP的严重程度、器官衰竭和病死率方面显示出高准确性，但仍需在大规模、多中心、前瞻性研究中完成外部验证[20]。国内有研究指出[21]，目前AP分类和诊断框架对早期决策支持仍不完善，建议在现有分类标准中新增“疑似重症急性胰腺炎（suspected severe acute pancreatitis，SSAP）”作为早期预警分层，完善的诊疗体系应涵盖初步诊断、SSAP确诊、病因评估及并发症的监测。建议确诊SSAP的标准包括: ①符合AP诊断，英国国家早期预警评分（NEWS）≥4分；②床边AP严重度评分（BISAP）≥3分；③BMI≥30，腹围异常增大或腹压升高；④血清甘油三酯≥11.1 mmol/L；⑤CRP≥150 mg/L和(或)PCT≥20 ng/mL；⑥血气评价≥Ⅱ级；⑦MCTSI评分≥2分。通过对SSAP患者进行及时的早期诊断和识别，可以显著降低疾病进展风险，改善患者预后。
+3.2 早期干预要点
+AP的早期干预是临床治疗中的关键环节，其干预策略主要围绕三个支柱展开：液体复苏、镇痛管理和营养治疗[22]。
+3.2.1 液体复苏
+在AP早期，特别是在发病后的12~24 h内，及时而适度的静脉补液对改善组织氧合和微循环灌注至关重要，既有助于维持胰腺灌注，也可改善肾脏、心脏等器官的微循环，从而有望降低胰腺坏死与器官功能障碍的发生率[23]。在补液类型方面，有研究指出[24]，相较于生理盐水，乳酸林格液因其抗炎特性、降低高氯血症的能力和可能减少ICU住院时间及病死率而被认为更优越，惟高质量随机对照试验证据尚不足。此外，一项多中心随机试验发现，早期“积极复苏”策略[初始推注20 mL/kg，随后维持3 mL/（kg·h）]会导致液体超负荷发生率增加，且临床结果并未改善，反而与更高的持续性器官衰竭、呼吸衰竭、坏死性胰腺炎发生率和ICU入住率相关[25]。最新荟萃分析也证实[26]，积极复苏与器官衰竭、肺和肾并发症风险升高相关，因此，个体化、目标导向的“适度复苏”已成为当前推荐策略。国内指南推荐[7]，初始液体输注速率应为5~10 mL/(kg·h)，目标为尿量 > 0.5 mL/(kg·h)、平均动脉压 > 65 mmHg、中心静脉压8~12 mmHg(1 mmHg=0.133 kPa）以及中心静脉血氧饱和度≥ 70%，同时应监测红细胞压积、血尿素氮、肌酐和乳酸等实验室指标，以评估血容量和组织灌注的充分性；在存在心、肾功能受损或老年患者时，应降低初始速率并采用更密切的床旁血流动力学评估以避免液体过负荷。
+3.2.2 镇痛管理
+在AP治疗中，疼痛管理是关键临床目标，患者疼痛强度与疾病严重度呈正相关，因此不仅要规范镇痛，还应通过早期与动态的疼痛评估来预警重症化[27]。对于明显疼痛的AP患者，应在入院后24 h内进行确切的镇痛干预，以显著降低氧耗和应激反应[5]。这一措施不仅有助于改善患者的生活质量和缓解焦虑，还能降低呼吸窘迫及血栓栓塞等并发症的风险[4]。在我国，阿片类药物和NSAIDs在AP的临床应用广泛，然而，其有效性和安全性的循证医学证据仍相对匮乏，相关临床共识和指南尚未充分建立[5]。国外研究表明[28]，在院内未插管患者中，盐酸二氢吗啡酮的镇痛效果优于吗啡或芬太尼；对于需长期或大剂量阿片类药物治疗的重症及危重症胰腺炎患者，可考虑采用硬膜外镇痛策略；鉴于目前尚无公认的首选镇痛剂及最佳给药方式，建议参考最新急性疼痛管理指南并个体化选择。此外，一项随机对照试验的研究结果显示，阿片类药物对AP的治疗效果并不优于NSAIDs，因此建议将非阿片类镇痛药作为临床一线镇痛选择[29]。
+3.2.3 营养治疗
+早期肠内营养（EN）不仅能满足患者的能量需求、调节肠道菌群并维持肠道黏膜屏障，还可降低促炎反应和细菌移位风险[30]。近年来，临床对于AP的治疗理念已逐步从以前的“胰腺休息”转变为“胰腺唤醒”。研究[31]表明，EN在预防肠功能衰竭、感染性并发症、器官衰竭和病死率方面具有显著优势；即使使用滋养性EN，肠道屏障功能亦可改善，进一步降低感染风险[32]。最新指南建议[33]，对预测为轻至中度急性胰腺炎的患者使用营养风险筛查2002（NRS-2002）进行评估；在临床耐受情况下，应尽早进行低脂软食的经口进食，不受血清脂肪酶浓度限制。无法经口进食者应在入院后24~72 h内开始EN，优先选择标准聚合物配方饮食，经鼻胃管给予；如消化道耐受不良，优先采用鼻空肠管。SAP患者应视为有营养风险，无法耐受EN或存在禁忌证者应给予肠外营养（PN）支持，并每日补充0.20 g/kg的L-谷氨酰胺。在接受经皮或微创坏死清除术的患者中，若条件允许，应在术后24 h内开始口服进食；无法经口进食者首选通过鼻空肠管给予EN，若不能耐受则给予静脉营养；腹腔内压（intra-abdominal pressure, IAP） < 15 mmHg的患者应尽早通过鼻空肠管或鼻胃管给予EN并持续监测；IAP > 15 mmHg的患者应通过鼻空肠管开始EN，起始速率为20 mL/h，逐步增加，若腹内压升高则考虑减少或停止EN；IAP > 20 mmHg或出现腹腔间隔室综合征（abdominal compartment syndrome, ACS）应暂时停止EN并开始PN；进行开腹减压手术的患者应至少给予少量EN，并根据需要补充静脉营养[33]。
+3.3 病因治疗
+对于合并有急性化脓性梗阻性胆管炎的AP患者，应在入院24 h内进行急诊ERCP或EST，以迅速解除胆道梗阻，降低胆管感染引发的并发症风险。对于无梗阻性黄疸或急性胆管炎的胆源性胰腺炎患者，则不建议进行早期ERCP[34]。对高度怀疑伴有胆总管结石但无胆管炎或黄疸的患者，可以选择MRCP或EUS进行评估[7]。HTG-AP具有“发病年轻化、合并症多”以及“病情进展快、重症化”的特点，防治核心是快速将血清甘油三酯（TG）降至 < 500 mg/dL（5.65 mmol/L）[8]。对于胃肠功能良好的轻型HTG-AP患者，建议尽早口服降脂药物，首选贝特类降脂药物，而胰岛素与低分子肝素联用则具有协同作用，能够有效减轻炎性反应，其降脂效果不亚于血浆置换；目前临床上对于急性期采用血浆置换方法处理HTG存在争议，有专家共识认为对于入院后仅采用无创治疗的患者，如果在24~48 h后血清甘油三酯（TG）水平仍超过1 000 mg/dL（11.3 mmol/L）或降幅未达50%，则建议及时进行血液净化[8]。但越来越多的前瞻性研究发现血浆置换并不能改善结局，大部分患者的血清TG通过禁食、补液等常规治疗后都会在24~72 h内大幅度下降[35]。
+4 三级防治：并发症管理与随访 4.1 局部并发症的防治
+AP的局部并发症包括急性胰周液体积聚（acute peritoneal fluid collection, APLC）、急性坏死物积聚（acute necrotic collection, ANC）、假性囊肿（pancreatic pseudocyst，PP）和包裹性坏死（walled-off necrosis, WON），可分为无菌性和感染性，其中约70%的坏死性胰腺炎为无菌性，通常采取保守治疗；而如果在4至8周后由WON引起胃肠道或胆管梗阻时，应进行干预；若患者出现持续性疼痛且坏死囊壁发育不全，则建议在8周后进行干预[7]。在AP患者出现发热、腹痛和全身状况恶化等感染症状时，应考虑感染性胰腺坏死（infected pancreatic necrosis, IPN）的可能性，治疗手段包括抗菌药物、经皮穿刺引流（PCD）、内镜下穿刺引流、外科视频辅助清创及开腹手术，因此对于可疑IPN患者，需经验性使用抗菌药物并尽快进行细菌培养，以便根据药物敏感性调整治疗，进而减少耐药菌的产生；常规的IPN手术干预时机目前建议应在AP发病4周后进行[5]。同时，IPN的手术治疗目前推荐采用“step-up”策略，即首先进行穿刺引流；对于引流效果不佳的患者，依次进行视频辅助清创和开腹手术[36]；而该策略经过10余年的临床实践，近年来有越来越多的临床中心提出了改良建议，他们认为刻板的“step-up”策略可能会延误本需要积极手术治疗的患者病情，导致病情迁延不愈，病程延长，并发症和死亡风险增高，住院时间和医疗费用大幅增加，因此有学者提出了“step-jump”、“step-cross”等基于患者个体情况的治疗策略[37]。而对于伴有大量腹腔或腹膜后积液以及腹腔间隔室综合征（ACS）的患者，可以考虑进行穿刺引流减轻腹腔压力，但应在术后72 h内拔除引流管以减少继发感染[5]。
+4.2 全身并发症的防治
+AP的早期全身并发症主要由系统性炎症反应综合征（SIRS）引起的多脏器功能障碍综合征（MODS），常见包括急性呼吸窘迫综合征（ARDS）、急性肾损伤（AKI）和胃肠道功能障碍（GI）。对于ARDS患者，应根据氧合指数选择合适的氧疗方式，包括鼻导管吸氧、面罩吸氧、经鼻高流量湿化氧疗（HFNC）以及有创呼吸机支持，而当患者出现氧饱和度下降和呼吸窘迫时，需尽早进行胸腔和腹腔穿刺引流[38]。液体复苏是保护肾功能的基础，建议维持尿量在0.5 mL/(kg·h)以上以减少急性肾衰竭的风险，而若腹腔及后腹膜出现大量渗出导致腹内压力升高并引发ACS，则需要及时进行穿刺引流[39]。此外，早期EN和胃肠减压可有效保护胃肠功能，降低并发症风险，同时使用鼻饲硫酸镁、大黄汤剂和大承气汤等药物可促进肠蠕动，减少细菌移位的可能性[38]。
+4.3 防治复发与随访
+大部分AP患者治疗后可痊愈，但约10%~32%会复发，并可能发展为RAP[40]。对于RAP患者，除了常规治疗外，需重点关注病因和发病机制，并制定个性化的治疗策略[41]。根据指南[28]，轻中度胆源性急性胰腺炎患者宜于同次住院期行胆囊切除，而对胆源性重症急性胰腺炎（SAP）则应结合病程演变在活动性炎症消退、胰腺坏死渗出吸收后再择期实施，以提高手术可操作性并促进术后恢复；其手术时机总体取决于胆囊局部条件是否会增加出血与胆道损伤等风险，若条件允许，可在胰腺炎缓解后同期解决病因；若患者病情较重、心肺功能欠佳或胆囊局部条件不理想，则应适当延后但以不超过3个月为宜。鉴于等待手术期间胆道因素仍可能诱发或加重胰腺炎，临床需权衡利弊；对胆囊微结石且有复发趋势者，宜于恢复后行胆囊切除；合并胆管结石或乳头肌功能障碍者，可考虑ERCP或EST。此外，监测血钙和免疫球蛋白G4（IgG4）等指标可以排除高钙血症导致的AP和免疫性急性胰腺炎等疾病可能，而高脂血症性RAP则需重点监控血脂水平，将血清甘油三酯水平控制在2.3 mmol/L以下，以降低复发率，对于有代谢综合征等高危因素的患者则建议将TG严格控制在1.7 mmol/L以下更安全[42]。在院外长期管理阶段，可借助可穿戴式设备对血压、血糖等生理指标进行连续实时监测，促进患者及时调整生活方式，并同步追踪肥胖程度、甘油三酯与高密度脂蛋白（HDL）等异常变化，以便对代谢紊乱进行早期预警，降低发病风险[43]。 同时，利用人工智能技术可开展复发风险分层，实施对血脂等代谢指标的动态监测与智能预警，并提供个体化生活方式干预方案，以提升管理的主动性与精准性[44]。治疗代谢综合征、控制糖尿病及改善生活方式（如戒烟、戒酒、治疗肿瘤、控制其他合并症、抗感染、停止服用可疑药物、甲状旁腺切除、增强营养等）也有助于防止RAP的发生[41]。此外，在HTG-AP康复期，可结合中医辨证论治，综合运用中药、针灸推拿及传统功法等多种干预手段，促进患者康复、降低复发率并改善生活质量[45]。AP患者需在康复后进行规律随访，以评估胰腺外分泌功能和内分泌功能，及时发现和治疗远期并发症，建议MAP患者随访6个月，MSAP及SAP患者至少18个月，每6个月动态评估病情变化[5]。
+5 总结与展望
+AP的临床管理面临越来越多挑战，特别是在发病率上升的SAP患者中，亟需有效的综合防治策略。实施一体化的防治理念强调对AP的全生命周期管理，在一级防治中，识别和管理诸如肥胖、吸烟、酒精摄入及不良饮食习惯等可控风险因素至关重要，不仅能有效减少AP的初发风险，而且通过健康教育可以促使患者积极参与自身健康管理；同时，在二级防治方面，特别是在AP的发病早期，通过精确的临床评估和早期识别，及时进行干预并实施个体化治疗，可有效防止疾病向重症化发展；而三级防治则需强调对并发症的早期识别与处理，防止AP的复发，并进行规律随访，以便及时发现和治疗可能的远期并发症[46]。未来应将三级防治策略纳入正式临床路径与指南更新，推动区域性急性胰腺炎中心建设与MDT协作[47]，以实现真正的从“被动救治”到“主动防控”的急性胰腺炎防治一体化理念的转变。
+利益冲突 所有作者声明无利益冲突
+参考文献
+[1]
+Li TY, Qin C, Zhao BB, et al. Global and regional burden of pancreatitis: epidemiological trends, risk factors, and projections to 2050 from the global burden of disease study 2021[J].
+BMC Gastroenterol, 2024, 24(1): 398.
+DOI:10.1186/s12876-024-03481-8
+[2]
+Matta B, Gougol A, Gao XT, et al. Worldwide variations in demographics, management, and outcomes of acute pancreatitis[J].
+Clin Gastroenterol Hepatol, 2020, 18(7): 1567-1575.e2.
+DOI:10.1016/j.cgh.2019.11.017
+[3]
+Bogan BD, McGuire SP, Maatman TK. Readmission in acute pancreatitis: Etiology, risk factors, and opportunities for improvement[J].
+Surg Open Sci, 2022, 10: 232-237.
+DOI:10.1016/j.sopen.2022.10.010
+[4]
+Goodchild G, Chouhan M, Johnson GJ. Practical guide to the management of acute pancreatitis[J].
+Frontline Gastroenterol, 2019, 10(3): 292-299.
+DOI:10.1136/flgastro-2018-101102
+[5]
+中华医学会外科学分会胰腺外科学组. 中国急性胰腺炎诊治指南(2021)[J].
+浙江实用医学, 2021, 26(6) 511-519, 535.
+DOI:10.16794/j.cnki.cn33-1207/r.2021.06.003
+[6]
+罗新宇, 刘瑾, 陈海龙. 1990—2021年中国和全球胰腺炎疾病负担趋势分析及2022—2031年预测研究[J].
+中国全科医学, 2025, 28(26): 3321-3327.
+DOI:10.12114/j.issn.1007-9572.2025.0025
+[7]
+王国兴, 肖红丽, 任恩峰. 急性胰腺炎急诊诊断及治疗专家共识[J].
+临床肝胆病杂志, 2021, 37(5): 1034-1041.
+DOI:10.3969/j.issn.1001-5256.2021.05.012
+[8]
+高甘油三酯血症性急性胰腺炎诊治急诊共识专家组. 高甘油三酯血症性急性胰腺炎诊治急诊专家共识[J].
+中华急诊医学杂志, 2021, 30(8): 937-947.
+DOI:10.3760/cma.j.issn.1671-0282.2021.08.005
+[9]
+Banks PA, Bollen TL, Dervenis C, et al. Classification of acute pancreatitis: 2012: revision of the Atlanta classification and definitions by international consensus[J].
+Gut, 2013, 62(1): 102-111.
+DOI:10.1136/gutjnl-2012-302779
+[10]
+Abu Omar Y, Attar BM, Agrawal R, et al. Revised Marshall score: a new approach to stratifying the severity of acute pancreatitis[J].
+Dig Dis Sci, 2019, 64(12): 3610-3615.
+DOI:10.1007/s10620-019-05719-y
+[11]
+Wang XL, Qin L, Cao JL. Value of the revised Atlanta classification (RAC) and determinant-based classification (DBC) systems in the evaluation of acute pancreatitis[J].
+Curr Med Res Opin, 2018, 34(7): 1231-1238.
+DOI:10.1080/03007995.2017.1389705
+[12]
+Alsamarrai A, Das SLM, Windsor JA, et al. Factors that affect risk for pancreatic disease in the general population: a systematic review and meta-analysis of prospective cohort studies[J].
+Clin Gastroenterol Hepatol, 2014, 12(10): 1635-1644.
+DOI:10.1016/j.cgh.2014.01.038
+[13]
+Li RZ, Tang WY, Yan S, et al. A dose-response correlation between smoking and severity of acute pancreatitis: a propensity score-matched study[J].
+Front Med (Lausanne), 2024, 11: 1397111.
+DOI:10.3389/fmed.2024.1397111
+[14]
+Cotton PB, Durkalski V, Romagnuolo J, et al. Effect of endoscopic sphincterotomy for suspected sphincter of oddi dysfunction on pain-related disability following cholecystectomy[J].
+JAMA, 2014, 311(20): 2101.
+DOI:10.1001/jama.2014.5220
+[15]
+Inamdar S, Han D, Passi M, et al. Rectal indomethacin is protective against post-ERCP pancreatitis in high-risk patients but not average-risk patients: a systematic review and meta-analysis[J].
+Gastrointest Endosc, 2017, 85(1): 67-75.
+DOI:10.1016/j.gie.2016.08.034
+[16]
+Tse F, Yuan YH, Moayyedi P, et al. Double-guidewire technique in difficult biliary cannulation for the prevention of post-ERCP pancreatitis: a systematic review and meta-analysis[J].
+Endoscopy, 2017, 49(1): 15-26.
+DOI:10.1055/s-0042-119035
+[17]
+Yaghoobi M, Pauls Q, Durkalski V, et al. Incidence and predictors of post-ERCP pancreatitis in patients with suspected sphincter of Oddi dysfunction undergoing biliary or dual sphincterotomy: results from the EPISOD prospective multicenter randomized sham-controlled study[J].
+Endoscopy, 2015, 47(10): 884-890.
+DOI:10.1055/s-0034-1392418
+[18]
+Lee PJ, Modha K, Chua T, et al. Association of statins with decreased acute pancreatitis severity[J].
+J Clin Gastroenterol, 2018, 52(8): 742-746.
+DOI:10.1097/mcg.0000000000000956
+[19]
+Cárdenas-Jaén K, Vaillo-Rocamora A, Gracia Á, et al. Simvastatin in the prevention of recurrent pancreatitis: design and rationale of a multicenter triple-blind randomized controlled trial, the SIMBA trial[J].
+Front Med (Lausanne), 2021, 7: 494.
+DOI:10.3389/fmed.2020.00494
+[20]
+Lee DW, Cho CM. Predicting severity of acute pancreatitis[J].
+Medicina (Kaunas), 2022, 58(6): 787.
+DOI:10.3390/medicina58060787
+[21]
+中国医疗保健国际交流促进会急诊医学分会, 脓毒症预防与阻断联盟. 重症急性胰腺炎预防与阻断急诊专家共识[J].
+临床急诊杂, 2022, 23(7): 451-462.
+DOI:10.13201/j.issn.1009-5918.2022.07.001
+[22]
+Petrov MS, Windsor JA. Nutritional management of acute pancreatitis[J].
+Curr Opin Clin Nutr Metab Care, 2013, 16(5): 557-563.
+DOI:10.1097/mco.0b013e3283638ed1
+[23]
+Trikudanathan G, Navaneethan U, Vege SS. Current controversies in fluid resuscitation in acute pancreatitis[J].
+Pancreas, 2012, 41(6): 827-834.
+DOI:10.1097/mpa.0b013e31824c1598
+[24]
+Gao L, Wang HW, Liu ZR, et al. Fluid therapy in acute pancreatitis comparing balanced solutions and normal saline: a systematic review, meta-analysis and trial sequential analysis[J].
+Hepatobiliary Pancreat Dis Int, 2025, 24(4): 371-380.
+DOI:10.1016/j.hbpd.2025.04.002
+[25]
+de-Madaria E, Buxbaum JL, Maisonneuve P, et al. Aggressive or moderate fluid resuscitation in acute pancreatitis[J].
+N Engl J Med, 2022, 387(11): 989-1000.
+DOI:10.1056/nejmoa2202884
+[26]
+Ding XW, Chen B. Effect of aggressive intravenous fluid resuscitation versus nonaggressive fluid resuscitation in the treatment of acute pancreatitis: a systematic review and meta-analysis[J].
+Pancreas, 2023, 52(2): e89-e100.
+DOI:10.1097/MPA.0000000000002230
+[27]
+Pandanaboyana S, Huang W, Windsor JA, et al. Update on pain management in acute pancreatitis[J].
+Curr Opin Gastroenterol, 2022, 38(5): 487-494.
+DOI:10.1097/mog.0000000000000861
+[28]
+Leppäniemi A, Tolonen M, Tarasconi A, et al. 2019 WSES guidelines for the management of severe acute pancreatitis[J].
+World J Emerg Surg, 2019, 14: 27.
+DOI:10.1186/s13017-019-0247-0
+[29]
+Peiró AM, Martínez J, Martinez E, et al. Efficacy and tolerance of metamizole versus morphine for acute pancreatitis pain[J].
+Pancreatology, 2008, 8(1): 25-29.
+DOI:10.1159/000114852
+[30]
+Crockett SD, Wani S, Gardner TB, et al. American gastroenterological association institute guideline on initial management of acute pancreatitis[J].
+Gastroenterology, 2018, 154(4): 1096-1101.
+DOI:10.1053/j.gastro.2018.01.032
+[31]
+Liu MS, Gao C. A systematic review and meta-analysis of the effect of total parenteral nutrition and enteral nutrition on the prognosis of patients with acute pancreatitis[J].
+Ann Palliat Med, 2021, 10(10): 10779-10788.
+DOI:10.21037/apm-21-2469
+[32]
+中华医学会肠外肠内营养学分会. 中国成人患者肠外肠内营养临床应用指南(2023版)[J].
+中华医学杂志, 2023, 103(13): 946-974.
+DOI:10.3760/cma.j.cn112137-20221116-02407
+[33]
+Arvanitakis M, Ockenga J, Bezmarevic M, et al. ESPEN practical guideline on clinical nutrition in acute and chronic pancreatitis[J].
+Clin Nutr, 2024, 43(2): 395-412.
+DOI:10.1016/j.clnu.2023.12.019
+[34]
+Comoglu M, Acehan F, Sahiner ES, et al. Effect of urgent ERCP on clinical outcomes in acute cholangitis with concurrent acute gallstone pancreatitis: a propensity score matching analysis[J].
+J Hepatobiliary Pancreat Sci, 2025, 32(8): 591-601.
+DOI:10.1002/jhbp.12164
+[35]
+王兰庭, 周晶, 袁园, 等. 血浆置换在预测为重症高三酰甘油血症性急性胰腺炎患者中的疗效分析[J].
+中华胰腺病杂志, 2025, 25(1): 32-37.
+DOI:10.3760/cma.j.cn115667-20241029-00177
+[36]
+Hollemans RA, Bakker OJ, Boermeester MA, et al. Superiority of step-up approach vs open necrosectomy in long-term follow-up of patients with necrotizing pancreatitis[J].
+Gastroenterology, 2019, 156(4): 1016-1026.
+DOI:10.1053/j.gastro.2018.10.045
+[37]
+苗毅, 黄东亚, 李强, 等. 从"step-up"到"step-jump"——感染坏死性胰腺炎"跨阶梯"治疗[J].
+中国实用外科杂志, 2020, 40(11): 1251-1254.
+DOI:10.19538/j.cjps.issn1005-2208.2020.11.06
+[38]
+许利明, 郑悦亮. 基于指南强化重症急性胰腺炎的综合评估和治疗[J].
+临床急诊杂志, 2022, 23(12): 837-841.
+DOI:10.13201/j.issn.1009-5918.2022.12.007
+[39]
+Yokoe M, Takada T, Mayumi T, et al. Japanese guidelines for the management of acute pancreatitis: Japanese Guidelines 2015[J].
+J Hepato Biliary Pancreat, 2015, 22(6): 405-432.
+DOI:10.1002/jhbp.259
+[40]
+Yadav D, O'Connell M, Papachristou GI. Natural history following the first attack of acute pancreatitis[J].
+Am J Gastroenterol, 2012, 107(7): 1096-1103.
+DOI:10.1038/ajg.2012.126
+[41]
+康鸿鑫, 李君仪, 唐文富, 等. 复发性急性胰腺炎病因分析及防治概述[J].
+中国普外基础与临床杂志, 2020, 27(7): 895-900.
+DOI:10.7507/1007-9424.201911007
+[42]
+Catapano AL, Graham I, De Backer G, et al. 2016 ESC/EAS guidelines for the management of dyslipidaemias[J].
+Rev Esp Cardiol (Engl Ed), 2017, 70(2): 115.
+DOI:10.1016/j.rec.2017.01.002
+[43]
+Ayyanu R, Arul A, Song N, et al. Wearable sensor platforms for real-time monitoring and early warning of metabolic disorders in humans[J].
+Analyst, 2023, 148(19): 4616-4636.
+DOI:10.1039/d3an01085f
+[44]
+Ren WS, Zou K, Chen YQ, et al. Application of a machine learning predictive model for recurrent acute pancreatitis[J].
+J Clin Gastroenterol, 2024, 58(9): 923-930.
+DOI:10.1097/mcg.0000000000001936
+[45]
+Zhou X, Yang Y, Liu YL, et al. Understanding the treatment of acute pancreatitis and its complications-a database for assessing traditional Chinese medicine use[J].
+Front Pharmacol, 2025, 16: 1583040.
+DOI:10.3389/fphar.2025.1583040
+[46]
+Petrov MS, Yadav D. Global epidemiology and holistic prevention of pancreatitis[J].
+Nat Rev Gastroenterol Hepatol, 2019, 16(3): 175-184.
+DOI:10.1038/s41575-018-0087-5
+[47]
+许利明, 涂建锋. 复发性高甘油三酯血症性急性胰腺炎康复期复发防治难点与策略[J].
+中华急诊医学杂志, 2024, 33(10): 1349-1353.
+DOI:10.3760/cma.j.issn.1671-0282.2024.10.001

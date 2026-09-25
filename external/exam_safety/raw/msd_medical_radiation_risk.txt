@@ -1,0 +1,104 @@
+医疗辐射风险 - 特殊问题 - MSD诊疗手册专业版
+honeypot link
+skip to main content
+Mustafa A. Mafraji
+Rush University Medical Center
+William E. Brant
+University of Virginia
+Last updated: 9月 2025
+v13948142_zh
+高能电磁波（X射线，γ射线）
+粒子（α粒子，β粒子，中子）
+电离辐射是由放射性元素和诸如X光机及放射治疗机等设备发出的。
+大多数使用电离辐射的诊断检查（如X射线、CT、核素扫描）使患者暴露于相对低剂量、通常认为安全的辐射。然而，所有电离辐射是潜在有害的，并没有阈值低于该值就不会发生有害的影响，所以应尽一切可能将辐射暴露最小化。
+有多种量化辐射暴露的方法:
+是单位质量吸收的辐射量。辐射剂量以戈瑞（Gy）和毫戈瑞（mGy）为单位表示。以往使用辐射吸收剂量表示（rad）；1mGy
+是吸收剂量乘以辐射权重因子的乘积，辐射权重因子根据辐射类型（如X射线、γ射线、电子）调整对组织的影响。当量剂量以西弗（Sievert，Sv）和毫西弗（mSv）为单位表示。此前曾以人体伦琴当量（rem；1 mSv
+0.1 rem）为单位表示。对于放射成像技术，包括计算机断层扫描（CT）在内，其辐射权重因子均为1。
+是一种用于估计暴露于电离辐射的组织反应（或随机效应）的量度；它根据暴露于辐射的组织的敏感性（例如，性腺最敏感）调整当量剂量。有效剂量以Sv和mSv为单位表示。有效剂量在年轻人中更高。有效剂量有助于临床医生评估和比较与各种医疗辐射程序相关的健康风险，也可以与辐射防护标准中指定的职业剂量进行比较。
+医学成像是电离辐射的一个来源（见表
+）。另一个来源是环境背景暴露（来自宇宙辐射和天然同位素），这种暴露可能很显著，特别是在高海拔地区；飞机飞行会导致环境辐射暴露的增加，具体如下：
+从一次横穿大陆的飞机飞行：0.01至0.03 mSv
+在美国的平均年背景辐射暴露：约3mSv
+每年在高海拔地区的暴露（例如科罗拉多州、新墨西哥州）：约 1.5 mSv 额外超过背景
+平均有效辐射剂量（mSv）
+双能X线吸收测定法（DEXA）
+X射线，胸部（2个体位：后前位和侧位）
+X 射线，腰椎（1 个侧面视图）
+X 光，四肢（1 个视图：手、脚等）
+腹部 X 光检查（1 个视图）
+X射线、钡剂灌肠（下消化道检查）
+X 射线、上消化道钡剂检查
+PET扫描（无全身CT）
+Mettler FA, Huda W, Yoshizumi TT, Mahesh M
+: Effective doses in radiology and diagnostic nuclear medicine: A catalog.
+248:254-263, 2008.
+American College of Radiology(ACR): Radiation Dose to Adults From Common Imaging Examinations. April 15, 2025. Accessed August 25, 2025.
+Mettler FA, Huda W, Yoshizumi TT, Mahesh M
+: Effective doses in radiology and diagnostic nuclear medicine: A catalog.
+248:254-263, 2008.
+American College of Radiology(ACR): Radiation Dose to Adults From Common Imaging Examinations. April 15, 2025. Accessed August 25, 2025.
+如果一个人的总累积剂量很高（例如进行了多次CT扫描时），辐射可能是有害的，因为CT扫描比大多数其他影像学检查需要更高的剂量。
+辐射暴露在某些高风险情况下也是要关注的问题，如以下情况：
+需要乳房X光检查的青年女性
+美国国家辐射防护与测量委员会指出，2006年至2016年间，非治疗性医疗辐射的估算剂量下降了15%～20%（
+）。据估计，2006 年美国人均有效剂量为 2.92 毫希，2016 年为 2.16 毫希。
+多探测器 CT 扫描仪是美国最常用的类型，每次扫描产生的辐射量比单探测器 CT 扫描仪高出约 40% 至 70%。然而，技术进步（例如，自动曝光控制、迭代重建算法、第三代CT探测器）有可能显著降低CT扫描使用的辐射剂量。美国放射学院已启动以下项目——
+Image Gently
+Image Wisely
+（针对成人）——旨在为影像专业人员提供资源和信息，以最大限度减少辐射暴露。
+诊断性影像检查中因辐射暴露导致的癌症风险估计是从对受到极高辐射剂量的人群（如广岛和长崎原子弹爆炸幸存者）的研究中外推得出的。来自人群的直接流行病学证据表明，当长期暴露（例如在职业环境中）的剂量超过约 50 至 100 mSv或急性暴露（例如原子弹暴露）的剂量超过 10 至 50 mSv时，接触电离辐射会增加患某些癌症的风险（
+在年轻患者中风险更高，是因为:
+他们活得更长，给癌症更多的时间来生长。
+更多的细胞生长（因此对DNA损伤的易感性）发生在年轻人中。
+对于接受腹部 CT 扫描的 1 岁儿童，估计其一生中癌症死亡风险增加 0.18%（
+）。如果老年患者接受此项检查，风险较低。
+风险还取决于受辐射的组织。淋巴组织、骨髓、血液、睾丸、卵巢和肠道对放射线非常敏感；在成人中，中枢神经系统和肌肉骨骼系统相对具有放射抗性。
+胎儿的放射暴露远较母亲为少；在下列X线检查中对胎儿的影响可以忽略不计：
+子宫被屏蔽时的乳房（乳腺X线检查）
+子宫暴露的程度取决于孕周及由此决定的子宫大小。辐射的影响取决于胎龄（从受孕的时间）。
+怀孕期间受辐射危害最大的时期是胎儿器官形成的时期，通常是在第五周到第十周之间。在此期间暴露可能导致出生缺陷。在怀孕的早期阶段，辐射更可能导致流产。在第十周之后，流产或严重出生缺陷的可能性降低 (
+仅在明确需要时，才应进行使用电离辐射的诊断性影像检查，尤其是CT。应该考虑替代方法。例如，在幼儿中，轻微头部损伤往往可以根据临床表现进行诊断和治疗，阑尾炎通常可以通过超声诊断。然而，只要潜在的益处大于潜在的危害，即使辐射剂量很高(如CT扫描)，也不应拒绝进行必要的检查。
+对于育龄期妇女，在诊断性影像检查前应该考虑到是否怀孕，特别是辐射暴露风险最高的怀孕早期（前三个月）常常未发现怀孕。
+从历史上看，盆腔屏蔽主要是为了安抚患者；然而，当代证据表明，其使用可能会增加内部散射，并适得其反地增加胎儿的辐射剂量。成像技术的进步，包括现代CT扫描仪中的自动曝光控制和迭代重建技术，大大减少了患者的暴露。因此，在放射学实践中，不再建议对孕妇常规应用盆腔屏蔽 (
+National Council on Radiation Protection and Measurements (NCRP)
+.Report No. 184 – Medical Radiation Exposure of Patients in the United States (2019).Bethesda, MD, NCRP.
+Brenner DJ, Doll R, Goodhead DT, et al
+.Cancer risks attributable to low doses of ionizing radiation: assessing what we really know.
+Proc Natl Acad Sci U S A.
+2003;100(24):13761-13766.doi:10.1073/pnas.2235592100
+Brenner D, Elliston C, Hall E, Berdon W
+.Estimated risks of radiation-induced fatal cancer from pediatric CT.
+AJR Am J Roentgenol.
+2001;176(2):289-296.doi:10.2214/ajr.176.2.1760289
+American College of Radiology
+.ACR–SPR practice parameter for imaging pregnant or potentially pregnant patients with ionizing radiation.2023.Accessed August 25, 2025.
+Test your Knowledge
+Take a Quiz!
+Merck & Co., Inc., Rahway, NJ, USA 及其附属公司。保留所有权利。
+Merck & Co., Inc., Rahway, NJ, USA 及其附属公司。保留所有权利。
+默沙东诊疗手册网站是默沙东（中国）投资有限公司旗下非营利性网站
+联系方式：（86）21-22118888
+沪ICP备13026779号-7
+31010402001203号
+Merck & Co., Inc., Rahway, NJ, USA 及其附属公司。保留所有权利。
+【表：常见诊断性影像检查的近似有效剂量（mSv）——摘自《医疗辐射风险》MSD诊疗手册专业版 中文版】
+双能X线吸收测定法（DEXA） | 0.001
+X射线，胸部（后前位） | 0.02
+X射线，胸部（2个体位：后前位和侧位） | 0.1
+X 射线，腰椎（1 个侧面视图） | 1.5
+X 光，四肢（1 个视图：手、脚等） | 0.001
+腹部 X 光检查（1 个视图） | 0.7
+X射线、钡剂灌肠（下消化道检查） | 6
+X 射线、上消化道钡剂检查 | 6
+数字化乳腺X光检查筛查 | 0.21
+头颅CT | 2
+CT, 胸部 | 6.1
+CT，腹部和盆腔 | 7.7
+冠状动脉造影 | 7
+冠状动脉造影和介入治疗 | 15
+肺部灌注扫描 | 2
+PET扫描（无全身CT） | 7
+骨扫描（核医学） | 6.3
+肝胆扫描 | 2.1～3.1
+锝甲氧异丁胩心脏扫描 | 9.4～12.8

@@ -1,0 +1,10 @@
+# 源清单：symptom_triage
+共 7 篇原文，合计 53 KB。文件头保留来源/URL，正文未改写。
+
+- MANIFEST.txt :: MANIFEST.txt :: URL
+- emergency_triage_consensus_2018.txt :: 急诊预检分诊专家共识 | 急诊预检分诊专家共识组（中华医学会急诊医学分会／《中华急诊医学杂志》，北京协和医院于学忠、朱华栋、史冬雷等牵头） | 2018 :: http://www.cem.org.cn/rhtml/20180606/index.htm
+- emergency_triage_notice_btch_2021.txt :: 急诊预检分诊分级就诊告知书 | 清华大学附属北京清华长庚医院（院务公开·规章制度） | 2021 :: https://www.btch.edu.cn/xxdt/ywgk/ywgkgzzd/70544.htm
+- health_literacy_2024_items57_60.txt :: 中国公民健康素养——基本知识与技能（2024年版）第57～60条 | 国家卫生健康委办公厅印发（福建省卫生健康委科普专栏转载，页面来源标注：中国疾控中心） | 2024 :: https://wjw.fujian.gov.cn/ztzl/jkjy/jkzgxd/202503/t20250303_6771416.htm
+- hfmd_child_danger_signs_ndcpa_2026.txt :: 手足口病早期识别与儿童重症危险信号（国家疾控局“科学防暑防病 健康平安度夏”新闻发布会实录·答记者问） | 上海市疾病预防控制中心转载（页面来源标注：中国疾病预防控制中心；发布：国家疾病预防控制局新闻发布会） | 202 :: https://www.scdc.sh.cn/shjk/rdxx/20260824/12008.html
+- stroke120_fuzhou_cdc.txt :: 牢记“中风120”口诀，越早识别，恢复越好 | 福州市疾病预防控制中心（福州市人民政府门户网站 疾病预防控制栏目） | 2023 :: https://www.fuzhou.gov.cn/zgfzzt/ylws/jbfk/202302/t20230206_4532629.htm
+- symptom_to_department_hz1yy_2019.txt :: 什么病挂什么科！这份实用医院挂号指南 | 杭州市第一人民医院（就诊指南·就诊攻略，三甲；页面标注来源：杭州市第一人民医院／生命时报） | 2019 :: https://www.hz-hospital.com/member/content/details/id/207111?cid=39

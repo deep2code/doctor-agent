@@ -1,0 +1,553 @@
+SOURCE: 中国青光眼指南（2020年） | 中华医学会眼科学分会青光眼学组、中国医师协会眼科医师分会青光眼学组（中华眼科杂志2020年第56卷第8期） | 2020 | https://seleguide.yiigle.com/uploads/guide_html/中国青光眼指南（2020年）.html
+
+中国青光眼指南（2020年）
+中华医学会眼科学分会青光眼学组
+中国医师协会眼科医师分会青光眼学组
+中华眼科杂志, 2020,56(08) : 573-586. DOI: 10.3760/cma.j.cn112142-20200313-00182
+前言
+青光眼是全球首位不可逆性致盲眼病。随着人口老龄化，我国青光眼的患病率将逐年增加。据估算2020年我国青光眼患者的人数可达到2 100万，致盲人数可达到567万［1, 2］。2005 年中华医学会眼科学分会青光眼学组以美国青光眼建议工作模式（Preferred Practice Pattern）（2005）为基础，结合我国青光眼临床工作特点，制定了《中国青光眼临床工作指南》［3］，2008年和2014年学组两度根据临床实践经验，删繁就简，加强临床适用性，重新讨论并制定了《我国原发性青光眼诊断和治疗专家共识（2008年）》［4］和《我国原发性青光眼诊断和治疗专家共识（2014年）》［5］及诸多青光眼亚病种和青光眼主要治疗方法的共识［6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20］，为我国原发性青光眼的临床诊断和治疗提供了更为全面、简洁的指导方案。近年来青光眼的诊断和治疗技术迅速发展，新的诊断和治疗方法不断应用于临床，因此亟须进一步规范我国青光眼临床诊断和治疗工作。
+中华医学会眼科学分会青光眼学组在获得欧洲青光眼学会授权的基础上，将欧洲青光眼协会指南（Terminology and Guidelines for Glaucoma）（第4版）作为本次指南编写的基础，同时参考了多项中国青光眼相关专家共识及操作规范［3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20］以及百余篇文献，其中发表在国内核心期刊论文30余篇，国内一级证据3项。
+中华医学会眼科学分会青光眼学组和中国医师协会眼科医师分会青光眼学组于2019年9月和11月2次召开全体委员联席工作会议，通过开放、自由、民主的讨论，以公开发表文献（证据）为基础，针对我国青光眼的基本检查和诊断方法以及治疗原则，制定出中国青光眼指南，以供临床医师在工作中参考使用。
+指南制定的原则：采用简化的评分系统区分并注明条款的推荐强度和证据的质量等级。推荐强度分为强烈建议［Ⅰ］和谨慎推荐［Ⅱ］。强烈建议［Ⅰ］是指干预措施产生的效果明显超过（或明显低于）不良影响；谨慎推荐［Ⅱ］是指由于证据质量较低或证据指向不明，不足以权衡干预措施的利弊。证据的质量分为4个级别。
+A级（高级）：证据质量较高，进一步研究对目前结论产生重要影响的可能性不高。
+B级（中级）：证据质量一般，进一步研究对目前结论产生重要影响的可能性存在。
+C级（低级）：证据质量不足，进一步研究对目前结论产生重要影响的可能性较高。
+D级（极低级）：专家共识或目前尚缺乏证据。
+重要说明：（1）本指南旨在介绍中华医学会眼科学分会青光眼学组及中国医师协会眼科医师分会青光眼学组对青光眼诊断、治疗等方面的看法，属于推荐和建议，旨在指导眼科医师管理青光眼和可疑青光眼患者，并不是须严格执行的临床方案。（2）所有内容随着眼科学发展，可进一步修改和补充。（3）临床方案必须根据患者情况、主诊医师经验和社会经济环境进行个性化设计。（4）临床方案必须考虑社会经济因素，以提供可持续的诊疗。
+第一部分青光眼筛查
+用于青光眼筛查的主要检查包括裂隙灯显微镜检查、眼压测量和眼底检查等，必要时进行前房角镜及视野等检查。目前认为基于眼底照相的眼底影像学检查效率最高［Ⅰ，B］。在借鉴其他国家及地区筛查策略的同时，应做到因地制宜，结合本地区的社会经济及人口特点，实施合适的筛查方案，以期实现较为经济的干预效益。
+青光眼筛查包括机会性筛查和人群筛查2个方面。
+机会性筛查是指人因为健康体检或其他问题在医疗机构就诊时，眼科医师有意识地进行青光眼方面的必要检查，从而发现青光眼。我国研究结果显示，基于体检中心的机会性青光眼筛查也是青光眼早期诊断的重要方法［21］［Ⅰ，A］。
+人群筛查是指采用简便可行的检测方法，对公众或特定群体进行筛查，并对阳性结果人群进行转诊建议。目前筛查成本是影响人群筛查实施的主要阻碍。相比传统的直接检眼镜等检查，免散大瞳孔眼底照相更加简便快速，能留下客观记录，且具备良好的敏感性（74.7%）和特异性（87.4%）［22, 23］，是较为理想的眼底检查方法。随着我国科技的进步和发展，国内具有自主知识产权的眼底照相机的诞生，人工智能和第5代移动通信网络（5G）技术的不断成熟，实施基于互联网远程阅片会诊的包括青光眼在内的综合眼病筛查，将是未来相对经济的新型筛查模式。近期基于我国温州地区人群筛查的经济学分析结果显示，在中国实施社区人群原发性闭角型青光眼（primary angle closure glaucoma，PACG）和原发性开角型青光眼（primary open-angle glaucoma，POAG）的联合筛查，具备较好的成本效益比［24］［Ⅰ，A］。
+第二部分临床病史询问和体格检查
+一、初诊
+（一）病史询问
+1. 既往眼部疾病史及诊治经过。
+2. 所有用药史（包括局部或全身糖皮质激素使用史，乙胺丁醇、降血压药物、口服降眼压药物、性激素的使用史）［Ⅰ，A］。
+3. 眼部手术（包括屈光手术等）及激光治疗史，眼外伤史（钝挫伤）［Ⅰ，A］。
+4. 心脑血管或呼吸系统疾病、神经系统及内分泌系统疾病、消化系统及免疫系统疾病、其他慢性或严重疾病史［25］［ Ⅰ，A］。
+5. 外周血管病变［Ⅰ，A］。
+6. 家族史（全身和眼部疾病）［Ⅰ，A］。
+7. 个人史（吸烟及饮酒史、女性初潮及绝经年龄、女性婚育史），药物过敏史［Ⅰ，A］。
+（二）体格检查
+1. 裸眼视力及矫正视力［Ⅰ，A］。
+2. 屈光状态［Ⅰ，A］及眼轴长度。
+3. 裂隙灯显微镜眼前节检查［Ⅰ，A］（角膜、前房深度、瞳孔大小和对光反应、前房角关闭的任何体征）。
+4. 眼压［Ⅰ，A］：对于基于单次眼压测量结果诊断POAG的患者，推荐行24 h眼压测量（采用传统方案或习惯体位测量方案）［26］［Ⅱ，B］。
+5. 中央角膜厚度［Ⅰ，B］：对高眼压症、正常眼压型青光眼（normal tension glaucoma，NTG）、高度近视眼或准分子激光角膜屈光手术后拟诊断POAG的患者，均应测量中央角膜厚度。
+6. 前房角镜检查［Ⅰ，A］：怀疑闭角型青光眼且有条件者，推荐联合行超声生物显微镜（ultrasound biomicroscopy，UBM）检查，进一步分析房角关闭的机制［Ⅰ，B］。
+7. 基于眼底照相的视盘和视网膜神经纤维层（retinal nerve fiber layer，RNFL）评估［Ⅰ，A］：采用45°眼底照相。有条件者推荐采用眼底立体照相［Ⅰ，A］或相干光层析成像术（optical coherence tomography，OCT）检查［Ⅰ，A］；无条件者行直接检眼镜或裂隙灯显微镜前置镜检查。
+8. 标准自动视野检测［Ⅰ，A］：中心30°视野，阈值程序。
+9. MRI检查：拟诊NTG者应做头颅MRI以排除占位病变及空蝶鞍综合征。有条件者推荐采用眼眶MRI测量视神经蛛网膜下腔间隙［27, 28］，评估眼-颅压力梯度；无条件者可采用眼部B超进行测量［29, 30］。怀疑甲状腺相关眼病导致的继发性眼压增高且有条件者，推荐行眼眶MRI检查。
+10. 筛板结构评估：对于POAG、高眼压症且有条件者，推荐采用扫频光源OCT（swept source optical coherence tomography，SS-OCT）进行筛板结构评估，分析筛板是否缺损，评估眼-颅压力梯度再平衡状况［31］。
+11. 全身及眼部血液供应情况评估：对于合并偏头痛、手脚凉等原发性血管痉挛症状且有条件者，推荐行甲皱襞微循环检查。对于系统性低血压或口服高血压药物且有条件者，推荐监测24 h动态血压，评估血压昼夜波动水平。具有全身血管相关危险因素且有条件者，推荐采用眼部彩色多普勒检查方法及相干光层析血管成像术评估眼部血液供应情况［25］。
+12.血液指标检测：对于低体重、患有消化系统或慢性消耗性疾病者，推荐行微量元素检测。对于眼部血液供应障碍者，推荐检测血脂浓度、凝血功能。对于内分泌系统及免疫系统疾病患者（如甲状腺功能障碍、多囊卵巢），根据所患疾病检测目标项目。对于具有遗传倾向且有条件患者，推荐行基因突变检测［25］。
+二、随访
+（一）病史询问
+1. 随访期内眼部病史［Ⅰ，A］。
+2. 随访期内全身病史［Ⅰ，A］。
+3. 用药后局部和全身不良反应［Ⅰ，A］。
+4. 日常生活中视功能变化的大体概要描述［Ⅰ，A］。
+5. 抗青光眼药物的准确使用频率和用量［Ⅰ，A］。
+（二）体格检查
+1. 裸眼视力及矫正视力［Ⅰ，A］。
+2. 裂隙灯显微镜眼前节检查［Ⅰ，A］。
+3. 眼压［Ⅰ，A］：对于日间测量眼压不高但存在青光眼性视神经损伤或进展的患者，推荐测量24 h眼压（采用传统方案或习惯体位测量方案）［Ⅰ，B］。
+4. 前房角镜检查［Ⅰ，A］：尤其对于闭角型青光眼。
+5. 视盘和RNFL再评估［Ⅰ，A］。
+6. 标准自动视野再检测［Ⅰ，A］。
+7. 眼-颅压力梯度再评估：眼部B超检测视神经蛛网膜下腔间隙，行SS-OCT评估筛板结构［32］。
+8. 全身及眼部血液供应情况再评估［25］。
+9. 全身系统性异常相关指标再评估［25］。
+第三部分 POAG和高眼压症
+一、POAG的定义
+POAG是一种慢性、进行性、伴有特征性视盘和RNFL形态学改变且不伴有其他眼病或先天异常的视神经病变。该病变与进行性视网膜神经节细胞死亡有关。病理性眼压升高是POAG的主要危险因素。
+二、POAG的分类
+（一）高眼压型
+病理性高眼压［一般认为24 h眼压峰值超过21 mmHg（1 mmHg = 0.133 kPa）］，眼底存在青光眼特征性损伤（视盘和RNFL形态改变）和（或）视野出现青光眼性损伤，房角开放，并排除引起眼压升高的其他因素，诊断为POAG。
+（二）正常眼压型（NTG）
+未经治疗的眼压以及24 h眼压峰值均不超过正常值上限（眼压≤21 mmHg），眼底存在青光眼特征性损伤（视盘和RNFL形态改变）和（或）视野出现青光眼性损伤，房角开放，并排除眼部表现相似的其他视神经病变［如遗传性视神经病变（Leber 遗传性视神经病变、常染色体显性遗传性视神经病变）、先天性视盘缺损、非急性期前部缺血性视神经病变、压迫性视神经病变（如垂体瘤、空蝶鞍综合征等）］和假性低眼压相关疾病（如间歇性贴附性房角关闭、角膜厚度偏薄或角膜切削手术后、糖皮质激素性青光眼患者在停用糖皮质激素后眼压恢复正常等），可诊断为NTG。研究发现低颅压、低体重指数、低雌激素分泌水平、Flammer 综合征（原发性血管调节障碍）、夜间低血压等是NTG的危险因素［25, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45］［Ⅰ，B］。
+三、POAG的治疗原则
+根据患者的眼压、眼底和视野损伤程度，结合医院的条件和医师的经验，可选择药物、激光、滤过性抗青光眼手术和微创抗青光眼手术给予降低眼压治疗。应重视视神经保护治疗。降低眼压治疗时，应为患者设定目标眼压［Ⅰ，A］。目标眼压的制定详见第七部分。
+对于明确诊断NTG的患者，采用分类诊疗方案［25］［Ⅱ，D］：(1)视野损伤进展且具有低体重［46, 47］［Ⅱ，B］、低雌激素分泌水平［45, 46］［Ⅱ，B］、全身血液动力学异常［47, 48］［Ⅱ，B］等全身危险因素的患者，在针对全身危险因素进行治疗后，若仍不能延缓视野损伤进展，可考虑进一步行降低眼压治疗。(2)视野损伤进展但不具有全身危险因素的患者，眼压在基线水平上降低30%［49］，可降低眼-颅压力梯度，起到控制疾病进展的作用，首选药物降眼压治疗。(3)视野损伤无进展者可根据筛板的情况分为两种选择治疗方案：对于伴有筛板局灶性缺损者，采用OCT进行观察，若筛板缺损可沟通眼内及筛板后蛛网膜下腔间隙，达到眼-颅压力再平衡，则无需干预，每6 个月随访观察；对于筛板缺损未沟通或不伴有筛板局灶性缺损者，则须每3 个月密切随访观察，及时发现视野损伤进展。在随访观察期间，一旦发现视野损伤出现进展，则须根据是否伴有系统性相关异常，参照前2类治疗方案进行处理［50-51］［Ⅱ，B］。
+（一）局部降眼压药物治疗
+一线用药包括局部使用前列腺素类衍生物、β肾上腺素能受体阻滞剂、α2肾上腺素能受体激动剂、碳酸酐酶抑制剂。根据患者目标眼压的需要，选择单一或联合药物治疗。若需要联合药物治疗，首选复方固定制剂［52］。
+（二）激光治疗
+选择性激光小梁成形术可作为POAG的首选治疗方法［48，51, 53, 54］［Ⅱ，A］，可作为部分接受降眼压药物治疗或手术治疗而未达到目标眼压的POAG补充治疗方法。但中国人群的应用效果尚缺乏高质量等级证据。
+（三）手术治疗
+对于降眼压药物治疗或激光治疗后不能达到目标眼压［Ⅰ，A］、视神经形态损伤或视野损伤进展［I，A］、不能耐受降眼压药物治疗的患者，可考虑手术治疗。
+1.首选手术方式包括传统滤过性抗青光眼手术（小梁切除术［Ⅰ，A］、非穿透性小梁手术［Ⅱ，C］、青光眼引流装置植入术等［Ⅱ，B］）、基于房水流出通路的微创内引流手术或微小切口抗青光眼手术（小梁消融术［Ⅱ，C］、房角切开术［Ⅱ，C］、黏小管成形术［Ⅱ，B］、房水流出通路重建术［Ⅱ，B］、内路黏小管成形术［Ⅱ，B］、外路小梁切开术［Ⅱ，B］、房角镜下内路小梁切开术［Ⅱ，B］等）。首次手术失败者再次手术也可选择降低睫状体房水分泌功能的手术（睫状体光凝术或冷凝术等）［Ⅱ，D］。
+2.应基于患者年龄、疾病程度、药物治疗反应等因素，综合考虑和选择手术方式，以获得最大益处。
+3.根据患者年龄、眼部情况，术中、术后选择应用抗代谢药物（丝裂霉素 C［Ⅰ，A］、5氟尿嘧啶［Ⅰ，A］）可降低外滤过性手术失败的风险。
+4.目前研究证据显示，微创内引流手术的并发症明显低于传统的小梁切除术［Ⅰ，A］，而降眼压效果并不优于小梁切除术［Ⅱ，B］。但是，非滤过泡依赖的以Schlemm管为基础的抗青光眼手术避免了滤过泡相关并发症和瘢痕化问题，推荐作为具有外滤过性手术失败高风险者或滤过性抗青光眼手术失败者的首选手术方式［55］［Ⅱ，D］。
+5.青光眼引流装置植入术适用于滤过性抗青光眼手术失败者和（或）降眼压药物治疗无效者，也可作为部分具有滤过性抗青光眼手术失败高危因素患者（如青少年型青光眼、眼部具有化学性外伤史等）的首选手术方式。其中，青光眼引流阀植入术是目前我国难治性青光眼滤过性手术的首选术式，其前提条件是前房具有足够深度［56］。
+6.睫状体光凝术或冷凝术是治疗各种难治性青光眼有效的手术方法之一。
+四、高眼压症
+多次测量眼压的结果均超过正常上限，但未发现青光眼性视神经形态改变和（或）视野损伤，房角为宽角，并排除继发性青光眼或角膜较厚、检测技术等其他因素导致的假性高眼压，可诊断为高眼压症［57］。需定期随访眼底视盘、RNFL厚度和视野。眼压>24 mmHg具有较高危险性，建议给予降眼压治疗［Ⅰ，B］。对于高眼压症患者，有条件的医院可以进行无创眼-颅压力梯度测量［27, 28, 29］，若眼-颅压力梯度在正常范围内，可不予降眼压治疗，随访观察。
+第四部分 PACG与原发性房角关闭（primary angle closure，PAC）
+一、定义
+房角关闭导致急性或慢性眼压升高，伴有或不伴有青光眼性视盘改变和视野损伤的一类青光眼。
+二、分类
+关于PAC或PACG的分类方法目前尚存在一定争议。欧美等国家使用的是国际地域和流行病学眼科学会（international society of geographical and epidemiological ophthalmology，ISGEO）提出的基于疾病进程的分类方法；我国按照发病时的临床表现分为急性和慢性闭角型青光眼；此外，还可依据房角关闭机制进行分类。
+ISGEO于2002年推出PAC分类体系，其目的在于协调POAG与PACG在传统诊断标准中的差异。该分类体系将整个原发的房角关闭性疾病的自然病程分为3个阶段，即可疑PAC、PAC和PACG。各阶段的诊断要点简要阐述如下：（1）静态房角镜检查发现180°或更大范围虹膜小梁网接触（iris trabecular contact，ITC）（静态房角镜下半圈以上后部小梁网不可见），但无周边虹膜前粘连（peripheral anterior synechia，PAS）（动态房角镜下未见房角关闭），且眼压正常，可诊断为可疑PAC。（2）静态房角镜检查发现180°或更大范围ITC，并伴有眼压升高或PAS，诊断为PAC。（3）PAC患者出现青光眼性视神经改变时，诊断为PACG［Ⅱ，B］。
+在我国的青光眼诊断体系中并没有PAC的概念，而是统称为PACG。对于尚未出现视神经损伤的患者，我国学者认为这仅是PACG自然病程发展的早期阶段。人民卫生出版社出版的全国高等学校教材《眼科学》第9版将PACG分为急性闭角型青光眼和慢性闭角型青光眼，其中急性闭角型青光眼又按不同临床阶段分为临床前期、先兆期、急性发作期、间歇期、慢性期和绝对期。对照ISGEO分类，急性闭角型青光眼临床前期对应可疑PAC；急性闭角型青光眼先兆期、急性发作期、间歇期以及慢性闭角型青光眼早期对应PAC；急性闭角型青光眼慢性期、绝对期以及慢性闭角型青光眼中期和晚期对应PACG［Ⅰ，D］。
+《中国原发性闭角型青光眼诊治方案专家共识（2019年）》是依据房角关闭机制进行分类［58］。除传统瞳孔阻滞机制外，存在多种非瞳孔阻滞机制，包括周边虹膜肥厚堆积、睫状体前顶、晶状体前移等［56, 57, 58, 59, 60］。同时，随着临床和基础研究进展，大型分子流行病学研究发现，脉络膜系统膨胀可能是房角关闭的始动因素［61, 62, 63］。因此，将PACG分为以下5种类型，即单纯性瞳孔阻滞型、虹膜高褶型、睫状体前位型、晶状体位置异常型及脉络膜膨胀型。在我国近半数患者多种机制共存。应用全景UBM或前节OCT等辅助检查方法，有利于明确房角关闭机制，实现闭角型青光眼的精准治疗［Ⅰ，B］。
+不同分类方法的应用建议：上述3种分类方法各具优缺点。ISGEO分类法统一了青光眼定义与既往闭角型青光眼（尚未出现视神经损伤阶段）诊断中的差异。此外，该分类法为大多数国际会议、国际学术期刊杂志所接受，因此国际学术交流时必须采用ISGEO分类方法。但是，该分类法仍存在一些问题，全国高等学校教材《眼科学》第9版仍采用临床症状学分类方法。青光眼学组建议采用ISGEO分类法、临床症状学分类法和房角关闭机制分类法相结合的原则，在临床工作中仍然采用我国传统的临床症状学分类法和房角关闭机制分类法，但在国际学术交流中采用ISGEO分类法。
+三、治疗
+（一）PAC或PACG合并白内障的治疗
+建议首选白内障摘除联合人工晶状体植入术，同时在房角镜下行房角分离术。多中心临床试验结果证实，白内障摘除手术能显著增宽房角［64, 65, 66］。术后观察眼压情况：（1）眼压水平正常者，继续随诊观察［Ⅰ，D］；（2）眼压下降效果不佳者，联合局部使用降眼压药物［Ⅰ，D］；（3）联合局部使用降眼压药物效果仍不佳者，建议行复合式小梁切除术或青光眼引流装置植入术。
+（二）透明晶状体眼PAC或PACG的治疗
+1. 激光周边虹膜切开术（laser peripheral iridotomy，LPI）预防房角关闭。随机对照临床试验结果表明，LPI可有效治疗可疑PAC［67, 68, 69, 70］［Ⅱ，A］，降低房角关闭或青光眼急性发作47%的风险。以静态房角镜下2个或多个象限色素小梁网不可见（即ISGEO分类法中的可疑PAC）作为LPI的治疗指征，证据尚不充分[Ⅱ，C]。而在以医院为基础的机会性筛查中，因筛查成本相对较低、治疗可及，可结合患者的年龄、家族史、随访的可及性掌握LPI的指征。
+2. 对于前房角关闭、眼压升高、有瞳孔阻滞因素但不伴有视神经损伤的患者，可首选激光或手术方式行周边虹膜切开术或切除术［71, 72］［Ⅰ，D］；若患者同时存在非瞳孔阻滞因素，应联合行激光周边虹膜成形术［Ⅰ，D］。
+3. 对于LPI术后眼压仍然升高且出现视神经损伤的患者，可先给予降眼压药物治疗，暂不行滤过性抗青光眼手术；若眼压仍不可控制或视神经损伤仍然进展，再考虑手术治疗。
+4. 对于上述联合降眼压药物治疗效果不佳、经评估房角分离术不能有效降低眼压的患者，建议采取复合式小梁切除术［8, 73］［Ⅰ，D］。
+5. 透明晶状体摘除术的选择：证据显示摘除透明晶状体可有效治疗PAC及早期PACG。鉴于我国不同地域社会经济发展不平衡，各地眼科机构技术成熟程度、设备配置水平不同，患者之间意愿与需求存在差异，须根据患者意愿或以上各方条件谨慎采用透明晶状体摘除术治疗闭角型青光眼［74, 75, 76］［Ⅱ，A］。
+6. 对于急性闭角型青光眼发作期、角膜水肿影响行上述治疗的患者，可先行前房穿刺术降低眼压，为进一步行周边虹膜切开术或切除术创造条件［77］［Ⅰ，D］。
+第五部分儿童青光眼
+一、定义
+（一）儿童的定义
+基于我国及国际标准，年龄<18岁者（中国、美国）或年龄≤16岁者（欧洲国家、联合国儿童基金会）。
+（二）儿童青光眼的定义
+至少满足以下2项：（1）眼压>21 mmHg（应注意麻醉对眼压的影响）；（2）视杯扩大或凹陷（盘沿变窄）：当双眼视盘大小相似时，杯/盘比值不对称（比值差≥0.2）或出现盘沿局部变窄；杯/盘比值进行性增大（弥漫性盘沿变窄）；（3）角膜改变：Haab纹、角膜水肿或新生儿角膜直径≥11 mm、年龄<1岁婴儿角膜直径>12 mm、任何年龄儿童角膜直径>13 mm；（4）进展性近视或近视性漂移合并眼球的增大速度超过正常生长速度；（5）与青光眼性视神经病变相对应、可重复检测到的视野缺损，并排除其他引起视野缺损的病变。
+二、分类
+分为原发性儿童青光眼（原发性先天性青光眼和青少年型开角型青光眼）和继发性儿童青光眼。
+（一）原发性先天性青光眼
+因单纯房角发育异常（可合并轻度虹膜异常）而导致房水外流受阻、眼压升高所致的青光眼。分为4种：（1）出生或新生儿期发病（0~1岁）；（2）婴幼儿时期发病（1岁以上至2岁）；（3）晚发性或较晚发现（>2岁）；（4）自发终止型：视盘可能存在青光眼性损伤，但损伤不进展。
+（二）青少年型开角型青光眼
+与POAG相似，房角结构基本正常，不伴有其他先天性异常或综合征，无眼球扩大，符合青光眼定义。
+（三）继发性儿童青光眼
+根据发病机制分类，包括合并非获得性眼部异常、合并非获得性全身疾病或综合征、合并获得性疾病及白内障摘除手术后继发性青光眼。
+三、治疗
+（一）药物治疗
+因目前对于有效性及安全性尚缺乏足够的循证依据，且多数患儿无法配合局部用药，故药物治疗仅作为手术治疗前临时降眼压和术后辅助降眼压的手段［78］［Ⅰ，D］。
+（二）手术治疗
+儿童青光眼尤其原发性先天性青光眼确诊后首选手术治疗。
+1. 根据发病机制首选治疗方法为前房角手术，包括房角切开术和小梁切开术［78, 79］［Ⅰ，C］。
+2. 微导管引导的小梁切开术（包括内路和外路）以其更好的疗效及安全性，成为大多数专家推荐的首选治疗方法［80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92］［Ⅱ，C］。
+3. 若前房角手术失败，滤过性抗青光眼手术可作为选择。睫状体破坏性手术也可作为前房角手术失败后的补充治疗方法［Ⅰ，D］。
+4. 对于严重的原发性先天性青光眼，多需要行青光眼引流阀植入术［93］［Ⅰ，D］。但该手术治疗儿童青光眼的疗效证据尚不足。
+5. 对于继发性儿童青光眼，治疗应综合考虑全身发育异常、眼压升高的机制及患儿的生活质量［Ⅰ，D］。
+6. 对于手术后视神经损伤进展的患者，增加局部降眼压药物治疗［Ⅰ，D］。
+（三）综合治疗
+儿童时期是视觉功能发育的重要时期。在眼压控制后，应从整体上对角膜瘢痕、眼球震颤、斜视、弱视等各种影响视功能的因素进行评估，及时矫正屈光不正，进行适当的弱视训练，控制其他影响因素，最大限度改善视力预后［Ⅰ，D］。
+第六部分继发性青光眼
+继发性青光眼是一类异质性疾病，眼压升高作为主要致病因素造成青光眼性视神经损伤为该类青光眼的重要特点。无论是开角型还是闭角型，继发性青光眼的大部分表现形式（如葡萄膜炎性或外伤性青光眼）均有着复杂的病理生理机制。本指南目前仅纳入色素性青光眼和新生血管性青光眼（neovascular glaucoma，NVG）。
+一、色素性青光眼
+色素播散综合征（pigment dispersion syndrome，PDS）合并眼压升高者可诊断为色素性青光眼。中国PDS患者不存在轮辐状虹膜透照缺损现象，因此PDS的诊断标准不同于国际的PDS三联征。中国PDS患者最常见、最主要的体征包括小梁网均匀一致性色素颗粒沉积、晶状体悬韧带色素颗粒沉积、玻璃体前界膜韧带附着部位色素颗粒沉积以及角膜后垂直梭形色素颗粒沉积，同时具备以上2项者可诊断为PDS［94］。
+色素性青光眼的治疗与POAG一致［Ⅰ，D］。激光小梁成形术有效［Ⅰ，C］。LPI建议用于消除反向瞳孔阻滞［95］，但LPI对于控制青光眼性视神经损伤进展的作用尚无明确定论，且行LPI应注意预防和治疗激光后的眼压高峰。若仍然无法控制眼压，建议行滤过性抗青光眼手术，其手术成功率与POAG相似［Ⅰ，D］。
+二、NVG
+NVG是继发于虹膜、房角及小梁表面新生血管形成和纤维血管膜增生的一类难治性青光眼。NVG的临床分期［96, 97］［Ⅰ，D］：Ⅰ期（青光眼前期）：虹膜或前房角出现新生血管，但由于尚未危及房角功能，眼压正常，患者可以无症状；Ⅱ期（开角型青光眼期）：房角无关闭，但新生血管膜伸进小梁网，小梁网功能受损，眼压升高；Ⅲ期（闭角型青光眼期）：新生血管膜收缩，房角粘连、关闭，眼压急剧升高。以下是治疗方案［Ⅰ，D］。
+（一）采取一切手段降低眼压以最大限度保留患者的视功能
+1.降眼压药物治疗：局部滴用抑制房水生成的药物，包括β肾上腺素能受体阻滞剂、α2 肾上腺素能受体激动剂、碳酸酐酶抑制剂及其固定复方制剂。前列腺素衍生剂对NVG的作用不大，胆碱能药物（毛果云香碱）对NVG没有作用，且加重炎性反应［98］。全身用药包括脱水剂（对于晚期NVG有可能升高眼压）、碳酸酐酶抑制剂等。
+2.在行滤过性抗青光眼手术前，建议行抗血管内皮生长因子（vascular endothelial growth factor，VEGF）治疗［99］，可以使虹膜新生血管消退，为后续手术创造条件。
+3.可选择的抗青光眼手术方式［100, 101, 102, 103, 104, 105］：（1）青光眼引流装置植入术；（2）小梁切除术；（3）睫状体分泌功能减弱性手术，如经巩膜睫状体外光凝术、超声睫状体成形术［106］、睫状体冷凝术等。眼球摘除术建议用于上述方法均无法控制眼压、为缓解患者疼痛或无治疗价值的情况，须结合患者意愿。
+4.对于合并白内障、玻璃体出血等情况无法完成全视网膜光凝术（panretinal photocoagulation，PRP）的患者，可根据具体病情考虑行抗青光眼手术+白内障摘除手术+玻璃体切除手术联合眼内PRP。
+（二）创造一切条件行PRP
+针对以糖尿病视网膜病变、缺血型视网膜中央静脉阻塞为病因的NVG，应采取PRP和抗VEGF治疗［102, 107, 108］。PRP是治疗视网膜缺血的根本方法［109, 110, 111, 112］。
+（三）强调全身病治疗和眼部疾病的后续治疗
+积极防治相关的全身病和眼部疾病，如加强血糖浓度、血脂浓度、血压的控制。
+第七部分随访与管理
+降眼压对于治疗各阶段POAG及降低高眼压症向POAG的转化率均有明确益处［113, 114, 115, 116, 117, 118, 119, 120］［Ⅰ，A］。将眼压控制在目标眼压水平是青光眼治疗和随访的具体目标，也是青光眼医师日常工作的重点［120, 121, 122］。
+一、目标眼压的制定
+目标眼压是一个眼压范围的上限，该眼压范围能够将病变发展速度降至最低，并在患者预期寿命内维持与视觉相关的生活质量。当发现青光眼进展或眼部和全身的伴随疾病有所进展时，应对目标眼压重新评估［Ⅰ，D］。每例患者的每只眼应单独进行目标眼压评估［Ⅰ，D］。
+制定目标眼压时应考虑的因素［Ⅰ，D］：（1）治疗前的眼压（基线眼压）：治疗前的眼压越低，设定的目标眼压越低。（2）青光眼的严重程度及分期：诊断时青光眼性损伤越重，设定的目标眼压越低。（3）随访中青光眼的进展速度：进展较快的患眼，目标眼压应设定更低。（4）现有年龄和预期寿命：为年轻患者设定的目标眼压应更低。（5）是否存在其他危险因素，如青光眼家族史、中央角膜厚度异常、剥脱综合征、糖尿病、视盘出血、眼部血流和（或）眼部灌注压异常等。（6）患者的视觉要求，治疗的不良反应和风险［57, 123, 124, 125］［Ⅱ，D］。评估眼压时，建议考虑中央角膜厚度［Ⅰ，C］。初始视野缺损严重是青光眼致盲的最重要预测因素［126, 127, 128, 129］。
+对于新确诊的青光眼患者，目标眼压由疾病严重程度和基线眼压决定［130］［Ⅱ，D］，如早期青光眼，目标眼压应低于21 mmHg且至少降低20%；而中期青光眼的目标眼压应降至18 mmHg以下，降低幅度至少30%［Ⅱ，D］；对于更晚期青光眼，目标眼压可能需要更低［Ⅰ，D］。最初根据疾病分期和眼压确定的目标眼压，之后需根据是否出现其他危险因素、患者预期寿命、治疗负担和患者意愿等因素进行不断调整［131］［Ⅱ，D］。
+随访期间，需要根据是否达到目标眼压、视野损伤进展速度，结合观察期内的眼压水平、预期寿命和现有视功能损伤程度及合并的其他危险因素，调整目标眼压［125］［Ⅱ，D］。
+若治疗后眼压未达到目标眼压水平，但已有足够数量的视野检查结果判断病情无进展或进展速度很低，未影响患者的生存质量，或患者正在接受过度治疗并已出现不良反应，应将目标眼压提高［Ⅱ，D］。
+若治疗后眼压未达到目标眼压水平，但是视野检查结果的数量不足以判断病变进展速度，则应依据治疗原则考虑增加附加治疗［Ⅱ，D］。
+即使治疗已达到目标眼压，但若视野损伤进展迅速，导致在患者预期寿命内危及生活质量，则须将眼压在现有基础上进一步降低20%。若治疗未达到目标眼压，则需加强治疗，与患者一起讨论、衡量增加附加治疗的风险和益处［Ⅰ，D］。
+具有视神经损伤的慢性闭角型青光眼的目标眼压设定目前尚无明确标准，可暂时参照POAG。
+二、药物治疗
+推荐从单一用药开始［Ⅱ，D］。
+与分开使用2种不同成分滴眼液比较，在可能的情况下推荐选用固定复方制剂［Ⅰ，B］。
+女性患者怀孕期间继续使用抗青光眼药物，可能对胎儿（和新生儿）构成潜在风险。这些风险须与母亲可能承受的视力丧失风险相权衡［Ⅰ，D］。
+三、视神经损伤进展的评估
+随访阶段需要对青光眼视神经结构和功能损伤进行分析，这对后续治疗方案的制定或调整具有重要意义。
+（一）青光眼相关眼部结构损伤进展的评估
+主要是对视盘和RNFL损伤进展进行分析。国内常用系列眼底照相和系列OCT检查方法。
+眼底照相可对视盘和RNFL形态进行客观记录。比较后极部45°眼底像视盘盘沿和RNFL缺损不同时间的系列变化，可发现青光眼的进展情况。采用配比闪烁法观察基线和随访时的眼底图像，是评估早期和中期青光眼相关眼部结构损伤进展的较好方法［132, 133］［Ⅰ，D］。
+对OCT在不同时间测量的视盘周围RNFL厚度等定量参数进行事件分析和趋势分析，也可检测青光眼相关眼部结构损伤的进展［Ⅰ，D］，但需注意分层误差的影响。
+（二）青光眼相关眼部功能损伤进展评估
+目前主要是对视野损伤进展进行评估。视野检测建议采用标准化自动视野检测法（standard automated perimetry，SAP）［Ⅰ，D］。国内临床常用的SAP设备包括Humphrey 视野计和Octopus视野计。
+建立基线和后续随访方案时应选择合适的视野检测模式，并保持前后的一致性，而且应保证每次视野检测结果的可靠性［Ⅰ，D］。为尽早发现快速进展型患者（平均缺损值进展速度大于2 dB/年），建议在初次就诊后的6个月内获得2次可靠的视野基线检测结果，然后在初次就诊后每4~6个月进行1次视野检测［Ⅰ，D］。在初诊后的2年内进行6次可靠的视野检测。对这6次视野检测结果的进展进行分析，可及时发现快速进展型患者，并适时进行干预。此后，根据前2年的视野损伤进展分析结果，对具有低、中度进展风险患者，视野检测的频率可减少至每年1次；对具有高度进展风险患者，仍需每年完成至少2次视野检测，必要时尽快重复视野检测，以确定或排除可能的视野损伤进展；对长期随访视野保持相对稳定的患者，视野检测可每年1次［Ⅰ，D］。
+虽然目前尚缺乏参考标准，但应在整个青光眼病程中实施青光眼相关眼部结构和功能损伤进展分析［Ⅰ，D］。青光眼相关眼部结构与功能损伤进展不总是可以互相预测，但出现相关结构损伤进展的患者随后出现相关功能损伤进展的风险较高。对于早期青光眼患者，相关结构损伤的进展可能比相关功能损伤的进展更容易被检测到；而对于晚期青光眼患者，监测相关结构和功能损伤的进展均比较困难。
+参与指南意见的专家组成员：
+中华医学会眼科学分会青光眼学组
+王宁利首都医科大学附属北京同仁医院北京同仁眼科中心（学组组长）
+葛坚中山大学中山眼科中心（学组名誉组长）
+余敏斌中山大学中山眼科中心（学组副组长）
+刘旭阳暨南大学附属深圳眼科医院（现在厦门大学附属厦门眼科中心，学组副组长）
+陈君毅复旦大学附属眼耳鼻喉科医院眼科（学组副组长）
+孙兴怀复旦大学附属眼耳鼻喉科医院眼科（学组前任副组长）
+（以下委员按姓氏拼音排序）
+才瑜北京大学第一医院眼科
+蔡鸿英天津市眼科医院
+戴超陆军军医大学西南医院西南眼科医院
+范肃洁邯郸市眼科医院
+方严安徽眼科研究所淮南市第一人民医院眼科
+郭文毅上海交通大学医学院附属第九人民医院眼科
+黄丽娜中南大学爱尔眼科学院深圳爱尔眼科医院
+梁亮三峡大学第一临床医学院眼科
+梁远波温州医科大学附属眼视光医院杭州院区
+林丁长沙爱尔眼科医院
+潘晓晶山东第一医科大学（山东省医学科学院）山东省眼科研究所山东第一医科大学附属青岛眼科医院
+申家泉山东省立医院眼科
+石晶明中南大学湘雅二医院眼科
+孙红南京医科大学第一附属医院眼科
+唐广贤石家庄市第一医院石家庄市第一眼科医院
+汪建涛天津医科大学眼科医院（现在暨南大学附属深圳眼科医院）
+王峰哈尔滨医科大学附属第一医院眼科
+王涛首都医科大学附属北京同仁医院北京同仁眼科中心
+王军明华中科技大学同济医学院附属同济医院眼科
+王凯军浙江大学医学院附属第二医院眼科中心
+王玉宏厦门大学附属厦门眼科中心
+吴慧娟北京大学人民医院眼科
+夏晓波中南大学湘雅医院眼科
+谢琳陆军军医大学大坪医院眼科（现在重庆医科大学附属第三医院眼科）
+杨新光西安市第四医院眼科
+原慧萍哈尔滨医科大学附属第二医院眼科
+张纯北京大学第三医院眼科
+张旭南昌大学附属眼科医院
+张忠志中国医科大学附属第一医院眼科
+郑雅娟吉林大学第二医院眼科
+钟华昆明医科大学第一附属医院眼科
+周和政解放军中部战区总医院眼科
+周崎中国医学科学院北京协和医学院北京协和医院眼科
+朱益华福建医科大学附属第一医院眼科
+卓业鸿中山大学中山眼科中心
+李树宁首都医科大学附属北京同仁医院北京同仁眼科中心（非委员，秘书）
+张秀兰中山大学中山眼科中心（非委员，秘书）
+中国医师协会眼科医师分会青光眼学组
+王宁利首都医科大学附属北京同仁医院北京同仁眼科中心（学组组长）
+孙兴怀复旦大学附属眼耳鼻喉科医院眼科（学组副组长）
+余敏斌中山大学中山眼科中心（学组副组长）
+刘旭阳暨南大学附属深圳市眼科医院（学组副组长）
+王怀洲首都医科大学附属北京同仁医院北京同仁眼科中心（学组副组长）
+（以下委员按姓氏拼音排序）
+才瑜北京大学第一医院眼科
+蔡鸿英天津市眼科医院
+陈君毅复旦大学附属眼耳鼻喉科医院眼科
+段辉大连医科大学附属第一医院眼科
+方爱武温州医科大学附属眼视光医院
+方严安徽眼科研究所淮南市第一人民医院眼科
+郭慧山东大学齐鲁医院眼科
+郭文毅上海交通大学医学院附属第九人民医院眼科
+黄楚开汕头大学·香港中文大学联合汕头国际眼科中心
+李鸿重庆医科大学附属第一医院眼科
+李建军首都医科大学附属北京同仁医院北京同仁眼科中心
+李树宁首都医科大学附属北京同仁医院北京同仁眼科中心
+梁亮三峡大学第一临床医学院眼科
+梁远波温州医科大学附属眼视光医院杭州院区
+林丁长沙爱尔眼科医院
+卢艳北京世纪坛医院眼科
+吕建华河北省眼科医院
+潘英姿北京大学第一医院眼科
+申家泉山东省立医院眼科
+石晶明中南大学湘雅二医院眼科
+唐广贤石家庄市第一医院石家庄市第一眼科医院
+唐莉四川大学华西医院眼科
+唐炘首都医科大学附属北京同仁医院北京同仁眼科中心
+汪建涛暨南大学附属深圳市眼科医院
+王大博青岛大学附属医院眼科
+王大江解放军总医院第一医学中心眼科
+王峰哈尔滨医科大学附属第一医院眼科
+王华北京和睦家医院眼科
+王军明华中科技大学同济医学院附属同济医院眼科
+王凯军浙江大学医学院附属第二医院眼科中心
+王玲青岛大学附属医院眼科
+王瑞夫新疆军区总医院北京路临床部全军眼科中心
+王涛首都医科大学附属北京同仁医院北京同仁眼科中心
+吴慧娟北京大学人民医院眼科
+吴仁毅上海和平眼科医院
+谢琳重庆医科大学附属第三医院眼科
+应希陆军军医大学第一附属医院眼科
+原慧萍哈尔滨医科大学附属第二医院眼科
+张纯北京大学第三医院眼科
+张虹华中科技大学同济医学院附属同济医院眼科
+张旭南昌大学附属眼科医院
+张忠志中国医科大学附属第一医院眼科
+郑雅娟吉林大学第二医院眼科
+周崎中国医学科学院北京协和医学院北京协和医院眼科
+朱益华福建医科大学附属第一医院眼科
+卓业鸿中山大学中山眼科中心
+利益冲突
+声明本文为专家意见，为临床医疗服务提供指导，不是在各种情况下都必须遵循的医疗标准，也不是为个别特殊个人提供的保健措施；本文内容与相关产品的生产和销售厂商无经济利益关系
+参考文献
+1
+QuigleyHA, BromanAT. The number of people with glaucoma worldwide in 2010 and 2020［J］. Br J Ophthalmol, 2006, 90( 03): 262- 267. DOI: 10.1136/bjo.2005.081224.
+2
+ChengCY, WangN, WongTY, et al. Prevalence and causes of vision loss in East Asia in 2015: magnitude, temporal trends and projections［J］. Br J Ophthalmol, 2020, 104( 05): 616- 622. DOI: 10.1136/bjophthalmol-2018-313308.
+3
+中华医学会眼科学分会青光眼学组. 《中国青光眼临床工作指南》（2005）公布［J］. 中华眼科杂志, 2005, 41( 12): 1140- 1143. DOI: 10.3760/j:issn:0412-4081.2005.12.023.
+4
+中华医学会眼科学分会青光眼学组, 中华医学会中华眼科杂志编辑委员会. 我国原发性青光眼诊断和治疗专家共识［J］. 中华眼科杂志, 2008, 44( 09): 862- 863. DOI: 10.3321/j.issn:0412-4081.2008.09.022.
+5
+中华医学会眼科学分会青光眼学组. 我国原发性青光眼诊断和治疗专家共识（2014年）［J］. 中华眼科杂志, 2014, ( 05): 382- 383. DOI: 10.3760/cma.j.issn.0412-4081.2014.05.022.
+6
+北京医学会眼科学分会青光眼诊治新技术共识小组. 三分钟暗室激发试验的机制和标准化操作规范探讨［J］. 中华眼科杂志, 2015, 51( 03): 167- 169. DOI: 10.3760/cma.j.issn.0412-4081.2015.03.003.
+7
+中华医学会眼科学分会青光眼学组. 我国房水流出通路重建术专家共识（2017年）［J］. 中华眼科杂志, 2017, 53( 03): 167- 169. DOI: 10.3760/cma.j.issn.0412-4081.2017.03.003.
+8
+中华医学会眼科学分会青光眼学组. 我国复合式小梁切除术操作专家共识（2017年）［J］. 中华眼科杂志, 2017, 53( 04): 249- 251. DOI: 10.3760/cma.j.issn.0412-4081.2017.04.004.
+9
+中华医学会眼科学分会青光眼学组. 我国基于MRI的改良视神经蛛网膜下腔间隙垂直截面积测量方法专家共识（2017年）［J］. 中华眼科杂志, 2017, 53( 04): 252- 254. DOI: 10.3760/cma.j.issn.0412-4081.2017.04.005.
+10
+中华医学会眼科学分会青光眼学组. 我国青光眼引流阀植入手术操作规范专家共识（2016年）［J］. 中华眼科杂志, 2016, 52( 06): 407- 409. DOI: 10.3760/cma.j.issn.0412-4081.2016.06.003.
+11
+中华医学会眼科学分会青光眼学组. 我国微导管辅助的360°小梁切开术专家共识（2017年）［J］. 中华眼科杂志, 2017, 53( 03): 170- 171. DOI: 10.3760/cma.j.issn.0412-4081.2017.03.004.
+12
+中华医学会眼科学分会青光眼学组. 我国选择性激光小梁成形术治疗青光眼的专家共识（2016年）［J］. 中华眼科杂志, 2016, 52( 07): 486- 489. DOI: 10.3760/cma.j.issn.0412-4081.2016.07.003.
+13
+中华医学会眼科学分会青光眼学组. 我国原发性开角型青光眼眼颅压力梯度专家共识和建议（2017年）［J］. 中华眼科杂志, 2017, 53( 02): 89- 91. DOI: 10.3760/cma.j.issn.0412-4081.2017.02.004.
+14
+中华医学会眼科学分会青光眼学组. 术中Schlemm管内荧光素钠造影术专家共识［J］. 眼科, 2017, 26( 02): 77- 78. DOI: 10.13281/j.cnki.issn.1004-4469.2017.02.003.
+15
+中华医学会眼科学分会青光眼学组. 急性原发性闭角型青光眼糖皮质激素治疗的使用操作专家共识［J］. 眼科, 2017, 26( 02): 76- 77. DOI: 10.13281/j.cnki.issn.1004-4469.2017.02.002.
+16
+北京医学会眼科学分会青光眼诊治新技术共识小组. 基于3.0T磁共振的原发性开角型青光眼静息态脑功能评估的标准操作规范［J］. 眼科, 2015, 24( 02): 140- 142. DOI: 10.13281/j.cnki.issn.1004-4469.2015.02.024.
+17
+北京医学会眼科学分会青光眼诊治新技术共识小组. 适用于大样本人群的无创脑脊液压力估算方法的标准与规范［J］. 眼科, 2015, 24( 02): 139- 140. DOI: 10.13281/j.cnki.issn.1004-4469.2015.02.023.
+18
+北京医学会眼科学分会青光眼诊治新技术共识小组. 基于三维磁共振的眶内段视神经和视交叉准确截面积测量的标准操作规范［J］. 眼科, 2015, 24( 02): 137- 139. DOI: 10.13281/j.cnki.issn.1004-4469.2015.02.022.
+19
+中华医学会眼科学分会青光眼学组. 改良的房水流出通路重建术手术操作规范［J］. 眼科, 2017, 26( 01): 4- 5. DOI: 10.13281/j.cnki.issn.1004-4469.2017.01.003.
+20
+中华医学会眼科学分会青光眼学组. 微导管辅助的次全小梁切开术操作规范［J］. 眼科, 2017, 26( 01): 3- 4. DOI: 10.13281/j.cnki.issn.1004-4469.2017.01.002.
+21
+ZhangS, SunJ, LiuS, et al. Integrating opportunistic glaucoma screening into general health examinations in China: a pilot study［J］. Clin Exp Ophthalmol, 2019, 47( 08): 1000- 1008. DOI: 10.1111/ceo.13564.
+22
+ReusNJ, LemijHG, Garway-HeathDF, et al. Clinical assessment of stereoscopic optic disc photographs for glaucoma: the European optic disc assessment trial［J］. Ophthalmology, 2010, 117( 04): 717- 723. DOI: 10.1016/j.ophtha.2009.09.026.
+23
+李建军, 徐亮, 王爽, 等. 北京市社区青光眼筛查模式初步研究［J］. 眼科, 2009, 18( 01): 24- 28.
+24
+TangJ, LiangY, O′NeillC, et al. Cost-effectiveness and cost-utility of population-based glaucoma screening in China: a decision-analytic Markov model［J］. Lancet Glob Health, 2019, 07( 07): e968- 978. DOI: 10.1016/S2214-109X(19)30201-3.
+25
+中华医学会眼科学分会青光眼学组. 中国正常眼压性青光眼诊疗专家共识（2019年)［J］. 中华眼科杂志, 2019, 55( 05): 329- 332. DOI: 10.3760/cma.j.issn.0412-4081.2019.05.003.
+26
+北京医学会眼科学分会. 关于24小时眼压监测规范的探讨［J］. 中华眼科杂志, 2014, ( 05): 384- 385. DOI: 10.3760/cma.j.issn.0412-4081.2014.05.023.
+27
+王宁利, 解晓斌, 陈伟伟, 等. 基于磁共振成像的无创颅内压及跨筛板压力差测量方法的标准与规范探讨［J］. 中华眼科杂志, 2014, 50( 12): 936- 940. DOI: 10.3760/cma.j.issn.0412-4081.2014.12.018.
+28
+中华医学会眼科学分会青光眼学组. 我国基于MRI的改良视神经蛛网膜下腔间隙垂直截面积测量方法专家共识（2017年)［J］. 中华眼科杂志, 2017, 53( 04): 252- 254. DOI: 10.3760/cma.j.issn.0412-4081.2017.04.005.
+29
+王宁利, 刘含若, 庞睿奇, 等. 基于经眶超声的无创颅内压及眼-颅压力梯度测量方法的操作规范［J］. 中华眼科医学杂志（电子版), 2019, 09( 01): 61- 64. DOI: 10.3877/cma.j.issn.2095-2007.2019.01.010.
+30
+LiuH, YangD, MaT, et al. Measurement and associations of the optic nerve subarachnoid space in normal tension and primary open-angle glaucoma［J］. Am J Ophthalmol, 2018, 186( 02): 128- 137. DOI: 10.1016/j.ajo.2017.11.024.
+31
+LiuD, LiZ, ZhangX, et al. Assessment of intracranial pressure with ultrasonographic retrobulbar optic nerve sheath diameter measurement［J］. BMC Neurol, 2017, 17( 01): 188. DOI: 10.1186/s12883-017-0964-5.
+32
+孙云晓, 谢媛, 刘祥祥, 等. 自发性局限性筛板缺损与青光眼视神经损伤进展的关系［J］. 中华眼科杂志, 2019, 55( 05): 338- 346. DOI: 10.3760/cma.j.issn.0412-4081.2019.05.007.
+33
+BerdahlJP, AllinghamRR, JohnsonDH. Cerebrospinal fluid pressure is decreased in primary open-angle glaucoma［J］. Ophthalmology, 2008, 115( 05): 763- 768. DOI: 10.1016/j.ophtha.2008.01.013.
+34
+BerdahlJP, FautschMP, StinnettSS, et al. Intracranial pressure in primary open angle glaucoma, normal tension glaucoma, and ocular hypertension: a case-control study［J］. Invest Ophthalmol Vis Sci, 2008, 49( 12): 5412- 5418. DOI: 10.1167/iovs.08-2228.
+35
+RenR, JonasJB, TianG, et al. Cerebrospinal fluid pressure in glaucoma: a prospective study［J］. Ophthalmology, 2010, 117( 02): 259- 266. DOI: 10.1016/j.ophtha.2009.06.058.
+36
+RenR, WangN, ZhangX, et al. Trans-lamina cribrosa pressure difference correlated with neuroretinal rim area in glaucoma［J］. Graefes Arch Clin Exp Ophthalmol, 2011, 249( 07): 1057- 1063. DOI: 10.1007/s00417-011-1657-1.
+37
+HouR, ZhangZ, YangD, et al. Pressure balance and imbalance in the optic nerve chamber: the Beijing intracranial and intraocular pressure (iCOP) study［J］. Sci China Life Sci, 2016, 59( 05): 495- 503. DOI: 10.1007/s11427-016-5022-9.
+38
+ZhangZ, LiuD, JonasJB, et al. Axonal transport in the rat optic nerve following short-term reduction in cerebrospinal fluid pressure or elevation in intraocular pressure［J］. Invest Ophthalmol Vis Sci, 2015, 56( 08): 4257- 4266. DOI: 10.1167/iovs.14-16045.
+39
+YangD, FuJ, HouR, et al. Optic neuropathy induced by experimentally reduced cerebrospinal fluid pressure in monkeys［J］. Invest Ophthalmol Vis Sci, 2014, 55( 05): 3067- 3073. DOI: 10.1167/iovs.13-13657.
+40
+MallickJ, DeviL, MalikPK, et al. Update on normal tension glaucoma［J］. J Ophthalmic Vis Res, 2016, 11( 02): 204- 208. DOI: 10.4103/2008-322X.183914.
+41
+ZhangQ, JanC, GuoCY, et al. Association of intraocular pressure-related factors and retinal vessel diameter with optic disc rim area in subjects with and without primary open angle glaucoma［J］. Clin Exp Ophthalmol, 2018, 46( 04): 389- 399. DOI: 10.1111/ceo.13042.
+42
+ZhangQ, ZhangY, XinC, et al. Determinants of maximum cup depth in non-glaucoma and primary open-angle glaucoma subjects: a population-based study［J］. Eye (Lond), 2020, 34( 05): 892- 900. DOI: 10.1038/s41433-019-0600-2.
+43
+PasqualeLR, WillettWC, RosnerBA, et al. Anthropometric measures and their relation to incident primary open-angle glaucoma［J］. Ophthalmology, 2010, 117( 08): 1521- 1529. DOI: 10.1016/j.ophtha.2009.12.017.
+44
+RenR, WangN, ZhangX, et al. Cerebrospinal fluid pressure correlated with body mass index［J］. Graefes Arch Clin Exp Ophthalmol, 2012, 250( 03): 445- 446. DOI: 10.1007/s00417-011-1746-1.
+45
+Newman-CaseyPA, TalwarN, NanB, et al. The potential association between postmenopausal hormone use and primary open-angle glaucoma［J］. JAMA Ophthalmol, 2014, 132( 03): 298- 303. DOI: 10.1001/jamaophthalmol.2013.7618.
+46
+VajaranantTS, GrossardtBR, MakiPM, et al. Risk of glaucoma after early bilateral oophorectomy［J］. Menopause, 2014, 21( 04): 391- 398. DOI: 10.1097/GME.0b013e31829fd081.
+47
+RamanP, SulimanNB, ZahariM, et al. Low nocturnal diastolic ocular perfusion pressure as a risk factor for NTG progression: a 5-year prospective study［J］. Eye (Lond), 2018, 32( 07): 1183- 1189. DOI: 10.1038/s41433-018-0057-8.
+48
+王涛, 王宁利. 选择性激光小梁成形术治疗原发性开角型青光眼的一年疗效观察［J］. 眼科, 2007, 16( 01): 37- 39. DOI: 10.3969/j.issn.1004-4469.2007.01.012.
+49
+DaniasJ, PodosSM. Comparison of glaucomatous progression between untreated patients with normal-tension glaucoma and patients with therapeutically reduced intraocular pressures. the effectiveness of intraocular pressure reduction in the treatment of normal-tension glaucoma［J］. Am J Ophthalmol, 1999, 127( 05): 623- 625. DOI: 10.1016/s0002-9394(99)00088-4.
+50
+SawadaY, AraieM, KasugaH, et al. Focal lamina cribrosa defect in myopic eyes with nonprogressive glaucomatous visual field defect［J］. Am J Ophthalmol, 2018, 190( 06): 34- 49. DOI: 10.1016/j.ajo.2018.03.018.
+51
+张洪洋, 杨扬帆, 徐建刚, 等. 选择性激光小梁成形术替代药物治疗原发性开角型青光眼的前瞻性随机对照研究［J］. 中华眼科杂志, 2015, 51( 02): 109- 114. DOI: 10.3760/cma.j.issn.0412-4081.2015.02.010.
+52
+中华医学会眼科学分会青光眼学组. 中国抗青光眼药物复方制剂使用的专家共识（2019年）［J］. 中华眼科杂志, 2019, 55( 08): 569- 571. DOI: 10.3760/cma.j.issn.0412-4081.2019.08.003.
+53
+葛坚, 孙兴怀, 林丁, 等. 选择性激光小梁成形术治疗原发性开角型青光眼有效性和安全性的多中心临床研究［J］. 中华实验眼科杂志, 2014, 32( 02): 159- 162. DOI: 10.3760/cma.j.issn.2095-0160.2014.02.013.
+54
+中华医学会眼科学分会青光眼学组. 我国选择性激光小梁成形术治疗青光眼的专家共识（2016年)［J］. 中华眼科杂志, 2016, 52( 07): 486- 489. DOI: 10.3760/cma.j.issn.0412-4081.2016.07.003.
+55
+Canadian Agency for Drugs and Technologies in Health. Optimal use of minimally invasive glaucoma surgery: recommendations［EB/OL］. ［2020-02-18］. https://www.ncbi.nlm.nih.gov/books/NBK543013/pdf/Bookshelf_NBK543013.pdf.
+56
+中华医学会眼科学分会青光眼学组. 中国青光眼引流阀植入手术操作专家共识（2019年2版)［J］. 中华眼科杂志, 2019, 55( 02): 93- 97. DOI: 10.3760/cma.j.issn.0412-4081.2019.02.005.
+57
+中华医学会眼科学分会青光眼学组. 我国原发性青光眼诊断和治疗专家共识（2014年)［J］. 中华眼科杂志, 2014, ( 05): 382- 383. DOI: 10.3760/cma.j.issn.0412-4081.2014.05.022.
+58
+中华医学会眼科学分会青光眼学组. 中国原发性闭角型青光眼诊治方案专家共识（2019年)［J］. 中华眼科杂志, 2019, 55( 05): 325- 328. DOI: 10.3760/cma.j.issn.0412-4081.2019.05.002.
+59
+王宁利, 欧阳洁, 周文炳. 中国人闭角型青光眼房角关闭机制多样性的研究［J］. 中华眼科杂志, 2000, 36( 01): 46- 51. DOI: 10.3760/j:issn:0412-4081.2000.01.013.
+60
+WangN, WuH, FanZ. Primary angle closure glaucoma in Chinese and western populations［J］. Chin Med J (Engl), 2002, 115( 11): 1706- 1715.
+61
+ZhangY, LiSZ, LiL, et al. Quantitative analysis of iris changes after physiologic and pharmacologic mydriasis in a rural Chinese population［J］. Invest Ophthalmol Vis Sci, 2014, 55( 07): 4405- 4412. DOI: 10.1167/iovs.13-13782.
+62
+ZhangY, LiSZ, LiL, et al. Dynamic iris changes as a risk factor in primary angle closure disease［J］. Invest Ophthalmol Vis Sci, 2016, 57( 01): 218- 226. DOI: 10.1167/iovs.15-17651.
+63
+ZhangY, LiSZ, LiL, et al. Quantitative analysis of iris changes following mydriasis in subjects with different mechanisms of angle closure［J］. Invest Ophthalmol Vis Sci, 2015, 56( 01): 563- 570. DOI: 10.1167/iovs.14-15216.
+64
+宋旭东, 王宁利, 唐广贤, 等. 超声乳化手术治疗原发性闭角型青光眼合并白内障的多中心试验［J］. 医学研究杂志, 2010, 39( 03): 17- 22. DOI: 10.3969/j.issn.1673-548X.2010.03.007.
+65
+梁远波, 王宁利, 乔利亚, 等. 对单纯白内障手术治疗合并白内障的闭角型青光眼的疗效评价［J］. 中华眼科杂志, 2004, 40( 11): 723- 725. DOI: 10.3760/j:issn:0412-4081.2004.11.002.
+66
+乔利亚, 梁远波, 王宁利, 等. 晶状体摘除术治疗原发性闭角型青光眼合并白内障的循证评价［J］. 眼科, 2005, 14( 02): 93- 98. DOI: 10.3969/j.issn.1004-4469.2005.02.010.
+67
+HeM, JiangY, HuangS, et al. Laser peripheral iridotomy for the prevention of angle closure: a single-centre, randomised controlled trial［J］. Lancet, 2019, 393( 10181): 1609- 1618. DOI: 10.1016/S0140-6736(18)32607-2.
+68
+郭春雨, 李思珍, 蔡啸谷, 等. 激光周边虹膜切开术及其联合周边虹膜成形术对粘连性房角关闭的疗效对比: 5年随访研究［J］. 眼科, 2013, 22( 01): 14- 18.
+69
+王宁利, 孙兰萍, 范肃洁, 等. 闭角型青光眼激光周边虹膜切除术伴与不伴周边虹膜成形术后前房角变化的1年观察［J］. 中华眼科医学杂志（电子版), 2011, 01( 01): 63- 68. DOI: 10.3877/cma.j.issn.2095-2007.2011.01.009.
+70
+范肃洁, 吕爱国, 郝洁, 等. 房角关闭机制指导下可疑原发性房角关闭患者激光干预的疗效评价［J］. 眼科, 2017, 26( 03): 149- 153. DOI: 10.13281/j.cnki.issn.1004-4469.2017.03.002.
+71
+LiangYB, WangNL, RongSS, et al. Initial treatment for primary angle-closure glaucoma in China［J］. J Glaucoma, 2015, 24( 06): 469- 473. DOI: 10.1097/IJG.0000000000000075.
+72
+王宁利, 牟大鹏, 王怀洲, 等. 急性闭角型青光眼治疗规范探讨［J］. 眼科, 2015, 24( 01): 7. DOI: 10.13281/j.cnki.issn.1004-4469.2015.01.004.
+73
+陈君毅, 孙兴怀. 青光眼手术治疗方式的合理选择［J］. 中华实验眼科杂志, 2018, 36( 04): 241- 244. DOI: 10.3760/cma.j.issn.2095-0160.2018.04.001.
+74
+Azuara-BlancoA, BurrJ, RamsayC, et al. Effectiveness of early lens extraction for the treatment of primary angle-closure glaucoma (EAGLE): a randomised controlled trial［J］. Lancet, 2016, 388( 10052): 1389- 1397. DOI: 10.1016/S0140-6736(16)30956-4.
+75
+张青, 张秀兰. 循证医学Ⅰ级证据支持透明晶状体摘除术治疗原发性闭角型青光眼［J］. 中华眼科杂志, 2018, 54( 03): 167- 168. DOI: 10.3760/cma.j.issn.0412-4081.2018.03.003.
+76
+马科, 潘英姿. 透明晶状体摘除术治疗原发性闭角型青光眼现阶段不适合在我国推广［J］. 中华眼科杂志, 2018, 54( 03): 169- 170. DOI: 10.3760/cma.j.issn.0412-4081.2018.03.004.
+77
+孙霞, 梁远波, 李思珍, 等. 急性闭角型青光眼治疗方法的循证评价［J］. 中国实用眼科杂志, 2008, 26( 08): 769- 774. DOI: 10.3760/cma.j.issn.1006-4443.2008.08.006.
+78
+WeinrebRN, PapadopoulosM. Consensus on childhood glaucoma［M］. Amsterdam: Kugel Publications, 2013: 3- 30.
+79
+PapadopoulosM, KhawPT. Advances in the management of paediatric glaucoma［J］. Eye (Lond), 2007, 21( 10): 1319- 1325. DOI: 10.1038/sj.eye.6702850.
+80
+MeyerG, SchwennO, GrehnF. Trabeculotomy in congenital glaucoma: comparison to goniotomy［J］. Ophthalmologe, 2000, 97( 09): 623- 628. DOI: 10.1007/s003470070050.
+81
+MeyerG, SchwennO, PfeifferN, et al. Trabeculotomy in congenital glaucoma［J］. Graefes Arch Clin Exp Ophthalmol, 2000, 238( 03): 207- 213. DOI: 10.1007/s004170050345.
+82
+MendicinoME, LynchMG, DrackA, et al. Long-term surgical and visual outcomes in primary congenital glaucoma: 360 degrees trabeculotomy versus goniotomy［J］. J AAPOS, 2000, 04( 04): 205- 210. DOI: 10.1067/mpa.2000.106201.
+83
+ShiY, WangH, HanY, et al. Correlation between trabeculodysgenesis assessed by ultrasound biomicroscopy and surgical outcomes in primary congenital glaucoma［J］. Am J Ophthalmol, 2018, 196( 01): 57- 64. DOI: 10.1016/j.ajo.2018.08.022.
+84
+GirkinCA, MarchaseN, CogenMS. Circumferential trabeculotomy with an illuminated microcatheter in congenital glaucomas［J］. J Glaucoma, 2012, 21( 03): 160- 163. DOI: 10.1097/IJG.0b013e31822af350.
+85
+BeckAD, LynnMJ, CrandallJ, et al. Surgical outcomes with 360-degree suture trabeculotomy in poor-prognosis primary congenital glaucoma and glaucoma associated with congenital anomalies or cataract surgery［J］. J AAPOS, 2011, 15( 01): 54- 58. DOI: 10.1016/j.jaapos.2010.12.002.
+86
+ShiY, WangH, YinJ, et al. Microcatheter-assisted trabeculotomy versus rigid probe trabeculotomy in childhood glaucoma［J］. Br J Ophthalmol, 2016, 100( 09): 1257- 1262. DOI: 10.1136/bjophthalmol-2015-307880.
+87
+ShiY, WangH, YinJ, et al. Outcomes of microcatheter-assisted trabeculotomy following failed angle surgeries in primary congenital glaucoma［J］. Eye (Lond), 2017, 31( 01): 132- 139. DOI: 10.1038/eye.2016.212.
+88
+GirkinCA, RhodesL, McGwinG, et al. Goniotomy versus circumferential trabeculotomy with an illuminated microcatheter in congenital glaucoma［J］. J AAPOS, 2012, 16( 05): 424- 427. DOI: 10.1016/j.jaapos.2012.05.013.
+89
+GroverDS, SmithO, FellmanRL, et al. Gonioscopy assisted transluminal trabeculotomy: an ab interno circumferential trabeculotomy for the treatment of primary congenital glaucoma and juvenile open angle glaucoma［J］. Br J Ophthalmol, 2015, 99( 08): 1092- 1096. DOI: 10.1136/bjophthalmol-2014-306269.
+90
+石砚, 王怀洲, 尹鹏, 等. 微导管引导的内路小梁切开术治疗原发性先天性青光眼六个月的疗效［J］. 眼科, 2019, 28( 03): 165- 168. DOI: 10.13281/j.cnki.issn.1004-4469.2019.03.002.
+91
+HuM, WangH, HuangAS, et al. Microcatheter-assisted trabeculotomy for primary congenital glaucoma after failed glaucoma surgeries［J］. J Glaucoma, 2019, 28( 01): 1- 6. DOI: 10.1097/IJG.0000000000001116.
+92
+王怀洲, 李猛, 胡曼, 等. 微导管引导的小梁切开术治疗多次手术失败的儿童青光眼的疗效观察［J］. 中华眼科杂志, 2017, 53( 03): 203- 206. DOI: 10.3760/cma.j.issn.0412-4081.2017.03.011.
+93
+DonahueSP, KeechRV, MundenP, et al. Baerveldt implant surgery in the treatment of advanced childhood glaucoma［J］. J AAPOS, 1997, 01( 01): 41- 45. DOI: 10.1016/s1091-8531(97)90022-7.
+94
+QingG, WangN, TangX, et al. Clinical characteristics of pigment dispersion syndrome in Chinese patients［J］. Eye (Lond), 2009, 23( 08): 1641- 1646. DOI: 10.1038/eye.2008.328.
+95
+卿国平, 张绍丹, 王怀洲, 等. 激光周边虹膜切开术阻止色素播散综合征进展的远期效果［J］. 中华眼科杂志, 2014, 50( 07): 536- 540. DOI: 10.3760/cma.j.issn.0412-4081.2014.07.011.
+96
+葛坚. 临床青光眼［M］. 3版. 北京: 人民卫生出版社, 2016: 291- 297.
+97
+赵明威. 治疗新生血管性青光眼的思维方法［M］// 王宁利, 崔浩. 眼科学. 2版. 北京: 人民卫生出版社, 2014: 81- 84.
+98
+RodriguesGB, AbeRY, ZangalliC, et al. Neovascular glaucoma: a review［J］. Int J Retina Vitreous, 2016, 02( 01): 26. DOI: 10.1186/s40942-016-0051-x.
+99
+ShiL, YangJ, LinJ. What is the impact of intravitreal injection of conbercept on neovascular glaucoma patients: a prospective, interventional case series study［J］. BMC Ophthalmol, 2019, 19( 01): 128. DOI: 10.1186/s12886-019-1138-6.
+100
+赵明威. 新生血管性青光眼治疗面临的临床问题与思考［J］. 中华实验眼科杂志, 2016, 34( 07): 577- 579. DOI: 10.3760/cma.j.issn.2095-0160.2016.07.001.
+101
+张秀兰, 王宁利. 图解青光眼手术操作与技巧［M］. 北京: 人民卫生出版社, 2016: 63- 177.
+102
+梁勇, 赵明威, 潘中婷, 等. 新生血管性青光眼治疗策略的初步探讨［J］. 中国实用眼科杂志, 2011, 29( 03): 231- 235. DOI: 10.3760/cma.j.issn.1006-4443.2011.03.010.
+103
+张秀兰, 王家伟. 难治性青光眼的治疗策略［J］. 眼科, 2015, 24( 03): 214- 216.
+104
+吉桂芳, 孙兴怀. 减压阀引流和睫状体冷冻术治疗新生血管性青光眼疗效分析［J］. 中国实用眼科杂志, 2001, 19( 02): 124- 126. DOI: 10.3760/cma.j.issn.1006-4443.2001.02.014.
+105
+白玉婧, 王梅, 李轶擎, 等. FP-7Ahmed青光眼引流阀治疗新生血管性青光眼的临床效果［J］. 中华眼科杂志, 2011, 47( 10): 893- 897. DOI: 10.3760/cma.j.issn.0412-4081.2011.10.007.
+106
+RuixueW, TaoW, NingL. A comparative study between ultrasound cycloplasty and cyclocryotherapy for the treatment of neovascular glaucoma［J/OL］. J Ophthalmol, 2020, 167: E1［2020-02-18］. https://www.hindawi.com/journals/joph/2020/4016536.［ published online ahead of print January 24, 2020］.
+107
+SooHooJR, SeiboldLK, KahookMY. Recent advances in the management of neovascular glaucoma［J］. Semin Ophthalmol, 2013, 28( 03): 165- 172. DOI: 10.3109/08820538.2012.730103.
+108
+SunY, LiangY, ZhouP, et al. Anti-VEGF treatment is the key strategy for neovascular glaucoma management in the short term［J］. BMC Ophthalmol, 2016, 16( 01): 150. DOI: 10.1186/s12886-016-0327-9.
+109
+EvansJR, MichelessiM, VirgiliG. Laser photocoagulation for proliferative diabetic retinopathy［J］. Cochrane Database Syst Rev, 2014, ( 11): CD011234. DOI: 10.1002/14651858.CD011234.pub2.
+110
+ZhouMW, WangW, HuangWB, et al. Adjunctive with versus without intravitreal bevacizumab injection before Ahmed glaucoma valve implantation in the treatment of neovascular glaucoma［J］. Chin Med J (Engl), 2013, 126( 08): 1412- 1417.
+111
+洪颖, 胡运韬, 张纯, 等. 新生血管性青光眼三联序贯治疗效果观察［J］. 眼科新进展, 2017, 37( 04): 372- 375. DOI: 10.13389/j.cnki.rao.2017.0095.
+112
+ZhouM, XuX, ZhangX, et al. Clinical outcomes of Ahmed glaucoma valve implantation with or without intravitreal bevacizumab pretreatment for neovascular glaucoma: a systematic review and meta-analysis［J］. J Glaucoma, 2016, 25( 07): 551- 557. DOI: 10.1097/IJG.0000000000000241.
+113
+The advanced glaucoma intervention study (AGIS): 7. The relationship between control of intraocular pressure and visual field deterioration. the AGIS investigators［J］. Am J Ophthalmol, 2000, 130( 04): 429- 440. DOI: 10.1016/s0002-9394(00)00538-9.
+114
+The effectiveness of intraocular pressure reduction in the treatment of normal-tension glaucoma. collaborative normal-tension glaucoma study group［J］. Am J Ophthalmol, 1998, 126( 04): 498- 505. DOI: 10.1016/s0002-9394(98)00272-4.
+115
+HeijlA, LeskeMC, BengtssonB, et al. Reduction of intraocular pressure and glaucoma progression: results from the early manifest glaucoma trial［J］. Arch Ophthalmol, 2002, 120( 10): 1268- 1279. DOI: 10.1001/archopht.120.10.1268.
+116
+KassMA, HeuerDK, HigginbothamEJ, et al. The ocular hypertension treatment study: a randomized trial determines that topical ocular hypotensive medication delays or prevents the onset of primary open-angle glaucoma［J］. Arch Ophthalmol, 2002, 120( 06): 701- 713. DOI: 10.1001/archopht.120.6.701.
+117
+MigliorS, ZeyenT, PfeifferN, et al. Results of the European glaucoma prevention study［J］. Ophthalmology, 2005, 112( 03): 366- 375. DOI: 10.1016/j.ophtha.2004.11.030.
+118
+BolandMV, ErvinAM, FriedmanDS, et al. Comparative effectiveness of treatments for open-angle glaucoma: a systematic review for the U. S. preventive services task force［J］. Ann Intern Med, 2013, 158( 04): 271- 279. DOI: 10.7326/0003-4819-158-4-201302190-00008.
+119
+LeskeMC, HeijlA, HusseinM, et al. Factors for glaucoma progression and the effect of treatment: the early manifest glaucoma trial［J］. Arch Ophthalmol, 2003, 121( 01): 48- 56. DOI: 10.1001/archopht.121.1.48.
+120
+ChauhanBC, MikelbergFS, BalasziAG, et al. Canadian glaucoma study: 2. risk factors for the progression of open-angle glaucoma［J］. Arch Ophthalmol, 2008, 126( 08): 1030- 1036. DOI: 10.1001/archopht.126.8.1030.
+121
+梁远波, 华闪闪. 将目标眼压概念贯彻到青光眼临床实践中［J］. 中国眼耳鼻喉科杂志, 2016, 16( 03): 170- 173. DOI: 10.14166/j.issn.1671-2420.2016.03.006.
+122
+王宁利, 乔春艳. 从各国青光眼指南谈目标眼压［J］. 中华眼科杂志, 2014, 50( 04): 318- 320. DOI: 10.3760/cma.j.issn.0412-4081.2014.04.020.
+123
+LeskeMC, HeijlA, HymanL, et al. Predictors of long-term progression in the early manifest glaucoma trial［J］. Ophthalmology, 2007, 114( 11): 1965- 1972. DOI: 10.1016/j.ophtha.2007.03.016.
+124
+HeijlA, LeskeMC, BengtssonB, et al. Reduction of intraocular pressure and glaucoma progression: results from the early manifest glaucoma trial［J］. Arch Ophthalmol, 2002, 120( 10): 1268- 1279. DOI: 10.1001/archopht.120.10.1268.
+125
+JampelHD. Target pressure in glaucoma therapy［J］. J Glaucoma, 1997, 06( 02): 133- 138.
+126
+PetersD, BengtssonB, HeijlA. Factors associated with lifetime risk of open-angle glaucoma blindness［J］. Acta Ophthalmol, 2014, 92( 05): 421- 425. DOI: 10.1111/aos.12203.
+127
+OliverJE, HattenhauerMG, HermanD, et al. Blindness and glaucoma: a comparison of patients progressing to blindness from glaucoma with patients maintaining vision［J］. Am J Ophthalmol, 2002, 133( 06): 764- 772. DOI: 10.1016/s0002-9394(02)01403-4.
+128
+JohnsonDH. Progress in glaucoma: early detection, new treatments, less blindness［J］. Ophthalmology, 2003, 110( 06): 1271- 1272. DOI: 10.1016/S0161-6420(03)00598-0.
+129
+ForsmanE, KiveläT, VestiE. Lifetime visual disability in open-angle glaucoma and ocular hypertension［J］. J Glaucoma, 2007, 16( 03): 313- 319. DOI: 10.1097/IJG.0b013e318033500f.
+130
+DamjiKF, BehkiR, WangL, et al. Canadian perspectives in glaucoma management: setting target intraocular pressure range［J］. Can J Ophthalmol, 2003, 38( 03): 189- 197. DOI: 10.1016/s0008-4182(03)80060-1.
+131
+JampelHD. Target pressure in glaucoma therapy［J］. J Glaucoma, 1997, 06( 02): 133- 138.
+132
+李建军, 徐亮, 杨桦, 等. 小梁切除术后早期视神经形态学变化的图像配比研究［J］. 眼科, 2012, 21( 01): 34- 38.
+133
+SyedZA, RadcliffeNM, De MoraesCG, et al. Detection of progressive glaucomatous optic neuropathy using automated alternation flicker with stereophotography［J］. Arch Ophthalmol, 2011, 129( 04): 521- 522. DOI: 10.1001/archophthalmol.2010.310.
+中华医学会眼科学分会青光眼学组
+中国医师协会眼科医师分会青光眼学组
+通信作者
+王宁利
+Email： wningli@vip.163.com
+作者声明
+引用文本：中华医学会眼科学分会青光眼学组, 中国医师协会眼科医师分会青光眼学组. 中国青光眼指南（2020年）[J]. 中华眼科杂志, 2020, 56(8): 573-586. DOI: 10.3760/cma.cn112142-20200313-00182.
+利益冲突
+声明本文为专家意见，为临床医疗服务提供指导，不是在各种情况下都必须遵循的医疗标准，也不是为个别特殊个人提供的保健措施；本文内容与相关产品的生产和销售厂商无经济利益关系
+黄翊彬
+No English Abstract Available
+没有权限下载,请稍后再试!

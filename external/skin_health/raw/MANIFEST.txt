@@ -1,0 +1,29 @@
+eczema_ad_guide_2020.txt	中国特应性皮炎诊疗指南（2020版）	中华医学会皮肤性病学分会免疫学组/特应性皮炎协作研究中心	2020	https://seleguide.yiigle.com/uploads/guide_html/中国特应性皮炎诊疗指南（2020版）.html	2026-09-24
+psoriasis_guide_2018_cma.txt	中国银屑病诊疗指南（2018完整版）	中华医学会皮肤性病学分会银屑病专业委员会	2018	https://cmab.yiigle.com/uploads/guide_html/中国银屑病诊疗指南（2018完整版）.html	2026-09-24
+urticaria_guide_2018.txt	中国荨麻疹诊疗指南（2018版）	中华医学会皮肤性病学分会荨麻疹研究中心	2018	https://medi-guide.meditool.cn/ymtpdf/F9DC57F7-13E5-5D6E-14D1-39DFBE32D4E8.pdf	2026-09-24
+acne_guide_2019.txt	中国痤疮治疗指南（2019修订版）	中国痤疮治疗指南专家组（中华医学会皮肤性病学分会）	2019	https://medi-guide.meditool.cn/ymtpdf/5AD6F986-6C47-9048-47E3-7B7C7B0D7E93.pdf	2026-09-24
+tinea_corporis_cruris_guide_2018.txt	中国体癣和股癣诊疗指南（2018修订版）	中国体癣和股癣诊疗指南工作组	2018	https://medi-guide.meditool.cn/ymtpdf/5CD4D6E6-F83C-5A4C-9F1E-42E2D0F1A6B3.pdf	2026-09-24
+onychomycosis_guide_2015.txt	中国甲真菌病诊疗指南（2015年版）	中华医学会皮肤性病学分会/中国中西医结合学会皮肤性病专业委员会/中国医师协会皮肤科医师分会	2015	https://medi-guide.meditool.cn/ymtpdf/6C9B2E9F-8A43-5F11-9D62-3A1E0C7B5D84.pdf	2026-09-24
+aga_guide_cmpa.txt	中国人雄激素性脱发诊疗指南	中国医师协会美容与整形医师分会毛发整形美容专业委员会	2019	https://medi-guide.meditool.cn/ymtpdf/8B1D4F7A-2C95-4E30-B6A7-1F5D9C2E8B43.pdf	2026-09-24
+alopecia_areata_guide_2019.txt	中国斑秃诊疗指南（2019）	中华医学会皮肤性病学分会毛发疾病研究中心等（中国斑秃诊疗指南制定专家组）	2019	https://medi-guide.meditool.cn/ymtpdf/3E7A1C5D-9B24-4E68-A3F1-2D5C8E0B7A96.pdf	2026-09-24
+phn_consensus_2016.txt	带状疱疹后神经痛诊疗中国专家共识	带状疱疹后神经痛诊疗共识编写专家组（中国疼痛医学杂志2016,22(3)）	2016	https://medi-guide.meditool.cn/ymtpdf/4A8C2E6B-7D13-4F59-A2B8-9C3E6D0F7A51.pdf	2026-09-24
+cdc_sunscreen_part1_2024.txt	科学防晒全面护肤要点早知道（一）	中国疾病预防控制中心环境与健康相关产品安全所（中华医学会管理服务部供稿）	2024	https://www.chinacdc.cn/jkkp/hjjk/hxwz/202410/t20241026_302128.html	2026-09-24
+cdc_sunscreen_part2_2024.txt	科学防晒全面护肤要点早知道（二）	中国疾病预防控制中心环境与健康相关产品安全所（中华医学会管理服务部供稿）	2024	https://www.chinacdc.cn/jkkp/hjjk/hxwz/202410/t20241026_302127.html	2026-09-24
+cdc_sunscreen_part3_2024.txt	科学防晒全面护肤要点早知道（三）	中国疾病预防控制中心环境与健康相关产品安全所（中华医学会管理服务部供稿）	2024	https://www.chinacdc.cn/jkkp/hjjk/hxwz/202410/t20241026_302126.html	2026-09-24
+who_uv_radiation_zh.txt	紫外线辐射（实况报道）	世界卫生组织（中文实发）	2022	https://www.who.int/zh/news-room/fact-sheets/detail/ultraviolet-radiation	2026-09-24
+who_tinea_zh.txt	癣（实况报道）	世界卫生组织（中文实发）	2025	https://www.who.int/zh/news-room/fact-sheets/detail/ringworm-(tinea)	2026-09-24
+不入库	urticaria2018.pdf	中国荨麻疹诊疗指南（2018版）原始期刊排版PDF（399KB，本地暂存于/tmp，未入库）	中华皮肤科杂志	2019	https://medi-guide.meditool.cn/ymtpdf/F9DC57F7-13E5-5D6E-14D1-39DFBE32D4E8.pdf	2026-09-24
+不入库	acne2019.pdf	中国痤疮治疗指南（2019修订版）原始期刊排版PDF（535KB，本地暂存于/tmp，未入库）	临床皮肤科杂志	2019	https://medi-guide.meditool.cn/ymtpdf/5AD6F986-6C47-9048-47E3-7B7C7B0D7E93.pdf	2026-09-24
+不入库	tinea2018.pdf / onychomycosis2015.pdf / alopecia_areata2019.pdf / aga_cn.pdf / phn2015.pdf	上述五份指南的原始期刊排版PDF（0.3~1.0MB，本地暂存于/tmp，未入库）	—	—	https://medi-guide.meditool.cn	2026-09-24
+
+# 采集说明（第五批：常见皮肤病的家庭护理与就医时机）
+# 1) 所有 .txt 第一行为 SOURCE，正文为逐字摘录；指南类文件在 SOURCE 下方有 NOTE 说明载体与处理方式（PDF 断行按原顺序拼接，已用字符序列校验与原文逐字一致，仅去除 guide.medlive.cn 页面水印行）。
+# 2) 载体说明：中华医学会杂志社数字平台（yiigle.com /uploads/guide_html）为指南原文 HTML 逐字版；medi-guide.meditool.cn 为期刊排版 PDF 原文直链（发布机构均为中华医学会皮肤性病学分会/中国医师协会等本任务允许机构，载体仅为原文分发渠道，非转述）。
+# 3) urticaria_guide_2018.txt 的 PDF 文本层中，部分全角连接号（～/－）在提取后显示为句号，涉及区间的数字（如「3。6个月」应为「3~6个月」）已在 NOTE 中标明，录入条目前须回看原始 PDF 核对，切勿凭猜改写。
+# 4) 未取得（无允许来源可及原文，未采集、未编造）：
+#    - 中国手癣和足癣诊疗指南（科普版2022）：www.wjdpn.cn 的 PDF 两次下载均为1475416字节且缺 EOF 标记，pypdf strict/非strict 均报「Stream has ended unexpectedly」，判定文件被截断；中国手足癣诊疗指南（2026版）在中国真菌学杂志 portal（zjxz.cbpt.cnki.net，2026,21(3):233-240）有元数据但页面不提供可下载全文。
+#    - 中国荨麻疹诊疗指南（2022版）：未检索到允许来源的公开全文，仅取得2018版。
+#    - 中国带状疱疹诊疗专家共识（2022版）：官方门户 pifukezazhi.com 全文需登录（downloadArticleFile.do 返回3108字节登录页），nhc/yiigle 均无镜像，故「72小时抗病毒窗」未从中方共识原文落地；库内 common-055 现引 IDSA/NICE/ACIP 西方来源。
+#    - 痣与黑色素瘤早期识别（ABCDE）：黑色素瘤诊疗指南（2022年版）挂在 nhc.gov.cn 的 /files/ 目录下，但 .shtml 通知页与其目录列表均返回 412（WAF），仅能按 1732863054641_51509.pdf 这类不可预测的文件名访问单个附件，无法枚举出黑色素瘤那份的真实文件名；本机浏览器工具（mcp__browser-use__navigate_page / evaluate_script）在本子代理工具集中不可用，故未能绕过。检索命中的 skincancer.org、Mayo Clinic、Dana-Farber 等均为任务禁用来源，未采用。
+#    - 老年皮肤瘙痒/皮肤干燥、保湿润肤类产品应用指导专家共识（2023版）：未找到允许来源的公开全文。
+# 5) 已知访问障碍复现：nhc.gov.cn 除 cms-search/downFiles 与已知的 files/ 单附件路径外一律 412；nmpa.gov.cn 全站 412；wsjk.gansu.gov.cn 412。

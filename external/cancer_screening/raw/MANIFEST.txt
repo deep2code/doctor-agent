@@ -1,0 +1,8 @@
+lung_ldct_screening_2021.txt	中国肺癌筛查与早诊早治指南（2021，北京）	国家癌症中心/中国医学科学院北京协和医学院肿瘤医院	2021	http://www.suanfayisheng.com/static/lung%20nodule%20management/chinese%20guideline.pdf	2026-09-24
+esophageal_endoscopy_screening_2022.txt	中国食管癌筛查与早诊早治指南（2022，北京）	国家癌症中心/中国医学科学院北京协和医学院肿瘤医院	2022	https://xa3yuanlib.yuntsg.com/ueditor/jsp/upload/file/20251204/1764837806025060325.pdf	2026-09-24
+gastric_screening_plan_2024.txt	胃癌筛查与早诊早治方案（2024年版）	国家卫生健康委员会医疗应急司	2024	https://33507512.s21i.faiusr.com/61/ABUIABA9GAAghtCKzAYo-t-VqgE.pdf	2026-09-24
+liver_ultrasound_afp_screening_2024.txt	原发性肝癌诊疗指南（2024年版）筛查和监测章节	国家卫生健康委员会（医政司）	2024	https://www.nhc.gov.cn/cms-search/downFiles/48cd549a54204ab1a6247e86adb2dea2.pdf	2026-09-24
+thyroid_nodule_tirads_2022.txt	甲状腺癌诊疗指南（2022年版）监测筛查/超声/TI-RADS/FNAB章节	国家卫生健康委员会（医政司）	2022	https://www.nhc.gov.cn/yzygj/c100068/202204/0c1f7d3aca0545abbeb02030ce255930/files/1732863055520_88237.pdf	2026-09-24
+breast_screening_caca_2022.txt	中国乳腺癌筛查与早期诊断指南（推荐意见节选）	中国抗癌协会乳腺癌专业委员会	2022	https://xadxyylib.yuntsg.com/ueditor/jsp/upload/file/20240322/1711078580316062719.pdf	2026-09-24
+breast_screening_nhc_2022.txt	乳腺癌诊疗指南（2022年版）乳腺癌筛查章节	国家卫生健康委员会（医政司）	2022	https://www.nhc.gov.cn/cms-search/downFiles/c001a73dfefc4ace889a1ea6e0230865.pdf	2026-09-24
+joint_cancer_screening_consensus_2025.txt	常见恶性肿瘤联合筛查专家共识（2025版）表3高危人群定义+表4核心筛查建议	常见恶性肿瘤联合筛查专家共识制定专家组（天津医科大学肿瘤医院/国家癌症中心）	2025	http://www.cjco.cn/cn/article/pdf/preview/10.12354/j.issn.1000-8179.2025.20250757.pdf	2026-09-24

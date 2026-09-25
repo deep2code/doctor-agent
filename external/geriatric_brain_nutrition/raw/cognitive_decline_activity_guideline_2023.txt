@@ -1,0 +1,380 @@
+SOURCE: 认知衰退老年人非药物干预临床实践指南：身体活动 | 中国老年护理联盟牵头制订；《中国全科医学》2023,26(16)，DOI:10.12114/j.issn.1007-9572.2023.0073
+URL: https://www.chinagp.net/CN/10.12114/j.issn.1007-9572.2023.0073 （期刊官网公开全文,经JATS-XML接口 article/2023/1007-9572/7182/1007-9572-26-16-001.xml 抽取）
+发布/评审时间: 2023年
+抓取方式: curl/浏览器下载 + 本地脚本正文抽取(pypdf/pymupdf/HTML清洗/JATS-XML解析)；抓取日期 2026-09-25
+
+认知衰退老年人非药物干预临床实践指南：身体活动
+
+认知衰退是指一种或多种认知域的功能受损，以老年人为主要发病人群，依据认知功能损害程度，主要包括主观认知下降（subjective cognitive decline，SCD）、轻度认知障碍（mild cognitive impairment，MCI）和痴呆[1]。SCD是指患者自我感知认知水平较前下降，但客观神经检测未见病理改变的状态[2]。MCI是指患者轻度记忆力损害，不影响日常生活能力，但未达到痴呆的诊断标准，是痴呆发展的前期状态[3]。SCD和MCI都具有较高的痴呆进展风险。在"中国人阿尔茨海默病生物标记和生活方式研究队列"（Chinese Alzheimer's Biomarker and Lifestyle study，CABLE study）中，1 165例受试者在3年内的SCD总体患病率高达42%[4]。意大利一项针对SCD患者的预后研究表明，SCD向MCI和痴呆的转化率分别为23.8%和13.8%[5]。另一项基于11项随访研究的系统评价发现，约1/4的MCI患者在3.0~5.8年内可能发展为痴呆[6]。目前痴呆尚无根治方法，及早防治尤为重要。而作为痴呆前期状态的SCD和MCI均具有可逆性[7]，为痴呆防治提供了一个最佳"窗口期"，SCD和MCI人群的早期干预为阻止或延缓病情向痴呆发展提供了新思路。
+
+非药物干预（non-pharmacological interventions，NPIs）是认知衰退和痴呆的有效干预方式之一，主要包括运动干预、认知干预、饮食干预和中医干预[8]。身体活动（physical activity）指任何由骨骼肌产生的需要能量消耗的运动，包括日常活动和运动[9]。其中，身体活动中的运动干预作为NPIs的一种，是有效改善认知功能的重要方式之一[10]。身体活动改善认知功能的可能机制为：（1）在细胞-分子水平上，身体活动能够促进血液中脑源性神经营养因子（brain-derived neurotrophic factor，BDNF）的生成，有利于神经元增殖[7，11，12]，同时血管内皮生长因子（vascular endothelial growth factor，VEGF）和胰岛素样生长因子（insulin-like growth factor，IGF-1）的增加可能通过改善血管的存活与生长及神经和血管的生成过程来改善认知功能[13]；（2）在大脑结构/功能水平上，身体活动可通过增大海马体的体积[14]，增加白质和灰质区域的脑容量[13]，增加大脑的血流量、改善脑灌注等来改善认知功能[15，16，17]；（3）在激素水平上，身体活动可通过调节下丘脑-垂体-肾上腺（hypothalamic-pituitary-adrenal，HPA）轴，如减少皮质醇的分泌以延缓认知功能下降[18]；（4）在其他方面，身体活动还可通过改善情绪和自我感知能力来改善认知功能[13，19]。
+
+身体活动作为认知衰退人群常采用的NPIs方法，需制定相关规范进行科学指导，目前已有相关指南针对认知衰退人群的身体活动提出推荐意见[20，21，22，23]。2018年，美国神经病学学会（American Academy of Neurology，AAN）在更新的关于MCI人群的指南中首次将身体活动推荐为MCI人群的NPIs手段[20]。同年，澳大利亚痴呆协作研究中心（Dementia Collaborative Research Centres，DCRC）首次综合分析了认知衰退老年人群的证据，改编加拿大老年人群的身体活动指南，提出针对认知衰退（SCD和MCI）人群身体活动的4条推荐建议[21]。2019年，世界卫生组织发布的《降低认知衰退和痴呆症的风险指南》和中国发布的《2018中国痴呆与认知障碍诊治指南（五）：轻度认知障碍的诊断与治疗》中，均推荐将身体活动作为MCI人群的首要生活方式干预方法[22，23]。认知衰退（SCD和MCI）老年人通常行动能力差、跌倒风险高、平衡能力差、伴随神经精神症状，科学且规范的身体活动指导方能实现该人群在身体活动中的最大受益。但是，现有关于认知衰退（SCD和MCI）人群的身体活动指南尚未通过科学、循证的方法对证据进行系统整理与评价，同时未考虑目标人群的价值观和偏好，中国也尚无针对认知衰退（SCD和MCI）老年人群的身体活动指南。鉴于此，由中国老年护理联盟牵头，组织国内专家遵照循证指南制订的方法和步骤，系统且全面地总结现有关于认知衰退（SCD和MCI）老年人身体活动的研究证据，并考虑中国该人群的价值观与偏好，制定了《认知衰退老年人非药物干预临床实践指南：身体活动》，以期降低认知衰退发生率，阻止或延缓认知衰退向痴呆的转归。
+
+1　指南制定方法
+
+本指南的制定严格遵守《世界卫生组织指南制定手册》[24]、苏格兰校际指南网的《循证指南制定手册》[25]及中华医学会发布的《中国制订/修订临床诊疗指南的指导原则（2022版）》[26]。
+
+1.1　指南的总目标和具体目标
+
+本指南的总目标是为医护人员实施指导认知衰退（SCD和MCI）人群的身体活动干预提供科学依据。具体目标包括：（1）为认知衰退（SCD和MCI）老年人身体活动的类型、频率、强度、时长提供科学指导；（2）为认知衰退（SCD和MCI）老年人身体活动的运动管理提供科学指导。
+
+1.2　指南制订发起机构、组织及注册
+
+本临床实践指南于2021年6月由中国老年护理联盟发起。参与单位为中南大学湘雅护理学院、北京医院（国家老年医学中心、国家老年疾病临床医学研究中心）、中南大学湘雅医院（国家老年疾病临床医学研究中心）。本指南已在国际实践指南注册平台（International Practice Guideline Registry Platform，IPGRP）进行注册（注册号为IPGRP-2021CN251）。
+
+1.3　指南目标人群和使用者
+
+指南目标人群为中国认知衰退（SCD和MCI）老年人。指南的使用者包括基层医疗卫生机构人员（如社区全科医生）、养老机构医疗人员、医院老年相关科室的医疗卫生人员（如医生、护士等）。
+
+1.4　指南临床问题与结局指标的确定
+
+指南秘书组通过系统检索国内外相关指南和系统评价，初步形成包括人群（population，P）、干预（intervention，I）、对照（control，C）和结局（outcome，O）的临床问题和结局指标清单。随后邀请全国各地老年医学、神经内科、运动康复、认知康复、全科医学、护理学等领域的共23位专家进行两轮函询，专家组遵照推荐意见评估、制订及评价（the Grading of Recommendations Assessment Development and Evaluations，GRADE）工作组的方法对临床问题及结局指标进行重要性判断[27]，补充可能遗漏的重要问题，同时对临床问题及结局指标的重要性进行排序。在重要性评分中，7~9分表示临床问题及结局对决策关键、4~6分表示重要、1~3分则表示不重要，纳入评分≥4分的临床问题及结局指标。此外，专家还对临床问题及结局指标表述的准确性进行讨论，最终确立指南的临床问题及相应的结局指标，见表1。
+
+【表格】
+项目 | 内容
+临床问题 | 1.身体活动能否有效改善认知衰退老年人的认知功能及其他功能？
+2.不同身体活动类型能否有效改善认知衰退老年人的认知功能及其他功能？
+3.不同身体活动频率能否有效改善认知衰退老年人的认知功能及其他功能？
+4.不同身体活动强度能否有效改善认知衰退老年人的认知功能及其他功能？
+5.不同身体活动时长能否有效改善认知衰退老年人的认知功能及其他功能？
+6.不同身体活动持续时间能否有效改善认知衰退老年人的认知功能及其他功能？
+结局指标 | 1主要结局指标
+1.1总体认知功能
+1.2认知功能的子维度，包括记忆力、执行功能、语言功能、视空间结构功能等
+2次要结局指标
+2.1身体功能：日常生活活动能力、肌肉力量、柔韧性、平衡力、安静心率、心肺耐力等
+2.2身体功能（代谢指标）：体成分、身体指数、血糖和血脂指标等
+2.3心理学指标：抑郁、焦虑、自我效能等
+2.4其他：社会参与、痴呆发生率、死亡、生活满意度、家属认同、生活质量、幸福感等
+【表格完】
+
+1.5　文献检索与证据整合
+
+1.5.1　文献检索策略
+
+根据优选的临床问题确定检索策略，由秘书组对临床实践指南、最佳实践、专家共识、系统评价及随机对照试验（randomized controlled trial，RCT）进行检索，检索过程中侧重对系统评价和RCT来源证据的检索，其余类别文献证据作为补充与参考。文献检索的PICO为：（1）研究对象为SCD和MCI老年人；（2）干预措施为非药物疗法中的身体活动干预；（3）对照组与干预组采取不同的措施，包括空白对照、健康教育等；（4）结局指标包括认知功能及其子维度、身体功能、心理学指标等。检索的截止日期为2021-09-01，检索策略见表2。
+
+【表格】
+数据库/网站 | 检索策略 | 检索文献类型
+国际指南网、苏格兰校际指南网、英国国家临床医学研究所、新西兰临床实践指南研究组、加拿大安大略注册护士协会、美国国家老龄化研究所、美国国家指南交换中心、加拿大医学会临床实践指南信息库、澳大利亚临床实践指南平台、美国紧急医疗研究机构、澳大利亚国家健康与医学研究学会、德国医学科学协会、美国紧急医疗研究机构、英国电子指南库、Up To Date、BMJ最佳临床实践 | "cognitive dysfunction/mild cognitive impairment/subjective cognitive decline" "physical activity/exercise/sports/dance therapy/kinesiotherapy/recreation therapy/physical exertion/physical education/physical education and training/dancing/cardiorespiratory fitness" "guideline/best practice/recommended practice" | 指南、专家共识
+医脉通、中华医学会、中国卫生和健康委员会、中国医师协会、中华护理学会、国际时间指南注册平台、中国知网、万方数据知识服务平台、中国生物医学文献数据库 | "主观认知下降/轻度认知障碍/认知功能障碍/认知衰退/认知减退/认知损害/认知下降""身体活动/锻炼/运动/有氧运动/抗阻运动/体力活动""临床实践指南/指南/证据/最佳实践" | 指南、专家共识
+PubMed、EmBase、CIHNAL、Clinical Key for Nursing、Cochrane Library | "cognitive dysfunction/mild cognitive impairment/subjective cognitive decline" "physical activity/exercise/sports/dance therapy/kinesiotherapy/recreation therapy/physical exertion/physical education/physical education and training/dancing/cardiorespiratory fitness" "guideline/best practice/recommended practice" | 指南、专家共识
+PubMed、EmBase、CIHNAL、Clinical Key for Nursing、Cochrane Library | "cognitive dysfunction/mild cognitive impairment/subjective cognitive decline" "physical activity/mild cognitive impairment/exercise/sports/dance therapy/kinesiotherapy/recreation therapy/physical exertion/physical education/physical education and training/dancing" "guideline/best practice/recommended practice" "old/older/aged/aging/elderly/elders/elder/seniors/senior/frail/geriatric" | 系统评价、RCT
+【表格完】
+
+指南文献纳入标准：（1）截至检索日的最新版本指南；（2）推荐意见明确；（3）含对认知衰退老年人身体活动相关推荐意见。排除标准：（1）非中、英文指南；（2）直接翻译的国外指南或重复发表指南；（3）准则性文件或共识意见。系统评价文献纳入标准：（1）研究类型为系统评价或Meta分析；（2）PICO涉及内容符合上述检索策略。排除标准：（1）重复发表文献仅保留1篇；（2）无法获取全文，在联系作者3次后仍无法获取的文献；（3）非中、英文文献。由2名指南秘书组的成员根据纳入与排除标准独立对文献进行筛选，先后阅读题目、摘要、全文，如遇分歧由2人共同讨论或由第3位成员决定。
+
+1.5.2　文献质量评价
+
+由秘书组中2名成员独立对文献进行质量评价，如遇分歧，由2人讨论或咨询第3方协商解决。指南文献的质量评价采用指南研究与评价系统（Appraisal of Guidelines for Research and EvaluationⅡ，AGREEⅡ）[28]，系统评价文献的质量评价采用系统评价偏倚风险评价工具（A Measurement Tool to Assess Systematic Reviews，AMSTAR 2）[29]。
+
+1.5.3　证据整合
+
+由2名秘书组成员采用Excel标准化文献提取表格对纳入证据体的文献进行信息提取、翻译与整合。提取内容包括：文献类型、作者、年份、样本量、研究对象、干预措施、对照组、干预效果、结局指标等。对不同来源的证据进行整合时，针对同一内容，若各文献的推荐意见或研究结论一致，则采用证据质量高、发布时间近的文献证据。针对同一主题内容互补的推荐意见，则根据语言逻辑关系进行合并。若不一致，则追溯其证据来源，找出其做出不同推荐建议的原因，以证据质量高、发布时间近的文献为准。推荐意见中涉及多个策略时则进行拆分。如遇分歧，由2人讨论或由第3位成员决定。
+
+1.6　证据质量分级及推荐意见形成
+
+由指南秘书组的2名成员提取并核对可解答指南临床问题的证据及推荐意见，出现不一致时经由双方讨论或由第3位成员决定。纳入的证据体采用GRADE分级体系进行证据质量评价[27]。GRADE分级过程中考虑5个降级因素（偏倚风险、不一致性、不精确性、发表偏倚、间接性）和3个升级因素〔效应量大、混杂因素偏倚（负偏倚）、剂量反应关系〕。证据质量分为高、中、低、极低4级。此外，指南的一些重要领域未在既往文献中找到理想依据，则基于非直接证据或专家临床经验达成共识，即良好实践声明（good practice statement，GPS）[30]。
+
+指南秘书组将基于证据体提取的初步推荐意见及证据总结表发送给共识组专家，专家采用GRADE系统投票决定推荐意见方向和强度，推荐强度的主要决定因素是利弊权衡，同时兼顾证据质量、患者及家属的价值观和偏好（通过访谈获取目标人群意见），最终通过专家投票形式得到5种推荐意见强度，即强推荐、弱推荐、不清楚、弱不推荐、强不推荐，一个推荐意见被列为强推荐或强不推荐，至少需要得到70%的参与者认可。对于持续存在分歧的部分，推荐或反对某一干预措施至少需要50%的参与者认可且少于20%的参与者选择替代措施，未满足此项标准将不产生推荐意见（表3）[31]。
+
+【表格】
+分类 | 表示方式 | 具体含义
+证据质量分级 | | 
+高 | A | 非常确信效应估计值接近真实值
+中 | B | 对效应估计值有中等程度信心：估计疗效可能接近真实值，也可能有很大差别
+低 | C | 对效应估计值信心有限：估计值与真实值可能有很大差别
+极低 | D | 对效应估计值几乎没有信心：估计值可能与真实值有很大差别
+良好实践声明 | GPS | 基于非直接证据或者专家经验/共识形成推荐
+推荐意见分级 | | 
+强推荐 | 推荐（1） | 实施该干预措施利明显大于弊
+弱推荐 | 建议（2） | 实施该干预措施利可能大于弊
+不清楚 | 无（3） | 不清楚实施该干预措施利是否明显大于弊
+弱不推荐 | 不建议（4） | 实施该干预措施弊可能大于利
+强不推荐 | 不推荐（5） | 实施该干预措施弊明显大于利
+【表格完】
+
+最终，通过投票及一轮外审会议后达成共识（共识度>75%）。秘书组对专家意见进行讨论、修改、完善，针对中国认知衰退（SCD和MCI）老年人身体活动的类型、频率、时间、强度、运动管理等提取了8条推荐意见（表4）。
+
+【表格】
+类别 | 推荐意见描述 | 证据质量等级 | 推荐强度等级
+主题1：身体活动总则 | 1推荐所有认知衰退（SCD和MCI）老年人进行身体活动，减少卧床和久坐时间，身体活动主要包括日常活动和体育锻炼 | 中 | 强推荐
+ | 时间：推荐认知衰退（SCD和MCI）老年人除日常活动外，在身体耐受的前提下，每周累计身体活动总时间至少达中等强度150~300 min或高强度75~150 min或相当运动量的结合 | GPS | 强推荐
+ | 频率：每周3~5 d | GPS | 强推荐
+ | 强度：中等强度（RPE：5~6分）及以上 | 中 | 强推荐
+ | 类型：身体活动以有氧运动为主，推荐有氧运动、抗阻运动、综合性身体活动或多种运动方式的组合 | GPS | 强推荐
+主题2：有氧运动 | 2推荐认知衰退（SCD和MCI）老年人进行有氧运动，并将其作为日常主要运动方式 | 低 | 强推荐
+ | 时间：每周累计运动时间中等强度150 min以上或高强度75 min以上，或相当运动量的结合 | 中 | 强推荐
+ | 频率：每周至少5 d中等强度或3 d较高强度的有氧运动，或相当运动量的结合 | GPS | 强推荐
+ | 强度：中等（RPE：5~6分）到较高（RPE：7~8分）强度，在身体耐受的前提下可循序渐进增加运动强度 | 极低 | 强推荐
+ | 类型：建议快走、慢跑、打乒乓球、骑自行车、游泳等，快走是最常见且可及的运动方式 | GPS | 弱推荐
+主题3：抗阻运动 | 3推荐认知衰退（SCD和MCI）老年人开展抗阻运动，最初使用器材或者利用自身重量开展抗阻运动时，建议由专业人士或受培训的家属进行监督和指导 | 低 | 强推荐
+ | 频率：每周至少2 d | 低 | 强推荐
+ | 强度：建议中等（RPE：5~6分）到较高（RPE：7~8分）强度。在身体耐受的前提下，循序渐进从低强度增加阻力、重复次数或频率，避免受伤 | GPS | 弱推荐
+ | 类型：建议爬楼梯，使用弹力带、哑铃、沙袋或其他大肌肉群参与的抗阻运动 | GPS | 弱推荐
+主题4：综合性身体活动 | 4推荐认知衰退（SCD和MCI）老年人进行综合性身体活动，身心运动作为一种多模式的综合性身体活动，可提高身体的平衡性、稳定性和协调性等 | 中 | 强推荐
+ | 时间：每次至少30 min，干预时长至少持续3个月 | 中 | 强推荐
+ | 频率：每周3次及以上 | 低 | 强推荐
+ | 类型：太极拳、八段锦等 | 极低 | 强推荐
+主题5：运动管理 | 5.1运动前咨询：建议运动前咨询专业医疗保健人员，由其综合身体素质、疾病情况、运动环境及资源等各方面因素给出专业运动处方 | GPS | 弱推荐
+ | 5.2运动过程：建议将热身运动-正式运动-拉伸运动（柔韧性运动）作为运动关键环节，必要时需要照护者监督。采用器械运动前，需进行培训指导和监督。拉伸运动：上下肢肌肉拉伸训练，每个部位30~60 s，强度以有牵拉感觉但不感觉疼痛为宜，每个动作重复5次，总时间10 min左右 | GPS | 弱推荐
+ | 5.3运动后：建议缓慢停止运动，采取逐渐减少用力降低强度和适当拉伸运动的整理运动，使得心率缓慢下降，运动后拉伸可以舒缓肌肉酸痛 | GPS | 弱推荐
+ | 5.4运动安全：建议通过拉伸、热身、放松、逐步提高运动强度和增加运动量等方式来减少运动性伤害。在身体耐受的范围内运动，运动过程中应预防心脑血管疾病及跌倒等不良事件的发生，若运动过程中出现不适，应缓慢停止运动进行休息 | GPS | 弱推荐
+【表格完】
+
+2　推荐意见及证据说明
+
+2.1　主题1：身体活动总则
+
+2.1.1　总体推荐
+
+推荐所有认知衰退（SCD和MCI）老年人进行身体活动，减少卧床和久坐时间，身体活动包括日常活动和体育锻炼。（1B）
+
+时间：推荐认知衰退（SCD和MCI）老年人除日常活动外，在身体耐受的前提下，每周累计身体活动总时间至少达中等强度150~300 min或高强度75~150 min或相当运动量的结合。（1GPS）
+
+频率：每周3~5 d。（1GPS）
+
+强度：中等强度〔主观疲劳量表（RPE）：5~6分（表5）[32]〕及以上。（1B）
+
+【表格】
+RPE（分） | 含义 | %HRmax（%） | 对应老年人运动强度
+1~2 | 很弱、非常轻松 | <57 | 极低
+3~4 | 温和 | 57~63 | 低
+5~6 | 中等 | 64~76 | 中
+7~8 | 比较费劲，有点疲惫 | 77~95 | 较高
+10 | 近乎力竭，非常疲惫 | ≥96 | 高
+【表格完】
+
+类型：身体活动以有氧运动为主，推荐有氧运动、抗阻运动、综合性身体活动或多种运动方式的组合。（1GPS）
+
+2.1.2　推荐说明
+
+越来越多的证据表明，患有SCD或MCI的老年人参加身体活动和运动是可行和安全的。此外，参与身体活动还可以获得健康益处，如改善认知结果和身体功能等。然而，为了确保安全和优化健康效益，建议认知衰退（SCD和MCI）老年人在开展推荐的身体活动前，由专业人员（全科医生或专业治疗师）科学评估并制定运动计划。若不能达到推荐的运动强度或运动量，则应尽可能地根据自身情况进行规律的身体活动，维持身体的活跃性。目前，国内外运动强度监测常采用代谢当量（metabolic equivalent of task，MET）、RPE和运动时心率占最大心率（最大心率=220-年龄）的百分比等指标，同时运动时的讲话程度（能否说话或唱歌）也能一定程度上反映运动强度[9]。考虑本指南的目标人群是认知衰退（SCD和MCI）老年人群，进行身体活动的场景通常为居家环境或社区，运动强度主要通过自身运动时的主观情况判断。因此，本指南推荐认知衰退（SCD和MCI）老年人在进行身体活动时除注意呼吸、心跳加快及汗出的情况外，还需要使用RPE进行运动强度的评估，该量表得分范围为0~10分，分值越高则运动强度越大[32]。考虑目标人群存在不同程度的认知功能下降，必要时纳入运动时心率占最大心率百分比作为对运动强度的客观监测，见表5。
+
+2.1.3　证据总结
+
+（1）纳入16项RCT（n=1 473）的系统评价探究身体活动对MCI老年人的作用效果，结果显示，身体活动干预能提升MCI老年人的整体认知功能〔标准化均数差（standardized mean difference，SMD）=0.35，95%置信区间（confidence interval，CI）为（0.17，0.53）〕、延迟记忆功能〔SMD=0.18，95%CI为（0.01，0.36）〕和执行功能〔SMD=0.21，95%CI为（0.03，0.40）〕。亚组分析显示，中等强度及其他运动类型如身心运动的作用效果最明显[33]。（2）对11项RCT（n=676）进行Meta分析探究身体活动对MCI老年人不同认知域的作用效果，结果显示，身体活动可改善MCI老年人4个特定领域的认知功能，包括语言功能〔SMD=0.55，95%CI为（0.22，0.89）〕、执行功能〔SMD=0.66，95%CI为（0.17，1.15）〕、记忆功能〔SMD=0.37，95%CI为（0.15，0.60）〕和视觉空间能力〔SMD=0.38，95%CI为（0.03，0.72）〕[34]。（3）纳入3项RCT（n=660）的Meta分析研究身体活动（不限形式的中国传统运动）对MCI老年人的干预效果，结果显示，试验组MCI老年人视觉空间能力明显提升〔SMD=0.38，95%CI为（0.22，0.54）〕，但其他认知领域功能无明显改变[35]。（4）纳入14项RCT（n=1 178）的系统评价研究有氧运动、抗阻运动或二者联合对MCI老年人的干预效果，结果显示，3种形式的身体活动均能明显提升MCI老年人的握力〔SMD=0.62，95%CI为（0.23，1.01）〕，其中150 min的中等强度或高强度身体活动、至少每周1次、持续6周以上是MCI老年人群获益的最低水平[36]。
+
+2.2　主题2：有氧运动
+
+2.2.1　推荐意见
+
+推荐认知衰退（SCD和MCI）老年人进行有氧运动，并作为日常主要的运动方式。（1C）
+
+时间：每周累计运动时间中等强度150 min以上或高强度75 min以上，或相当运动量的结合。（1B）
+
+频率：每周至少5 d中等强度或3 d较高强度的有氧运动，或相当运动量的结合。（1GPS）
+
+强度：中等（RPE：5~6分）到较高（RPE：7~8分）强度，在身体耐受的前提下从低强度循序渐进增加运动强度。（1D）
+
+类型：建议快走、慢跑、打乒乓球、骑自行车、游泳等，快走是最常见且可及的运动方式。（2GPS）
+
+2.2.2　推荐说明
+
+有氧运动又称耐力运动，是一种运用身体大肌群进行的长时间、有节奏、持续的耐力锻炼，主要形式有快走、慢跑、骑自行车、游泳等[37]。有氧运动能够提高运动者的有氧代谢能力和心肺功能，同时还可增加海马体体积，影响大脑可塑性，实现改善记忆力、积极情绪等作用，是维持和改善认知功能的重要方式[38]。有氧运动种类众多且简单便捷，对器材、场地等资源要求较低，在确保安全的前提下，可作为认知衰退（SCD和MCI）人群开展身体活动的首要选择。快走是最常见且可及的运动方式，若想减小运动对关节的压力，亦可选择游泳作为替代措施。
+
+2.2.3　证据总结
+
+（1）纳入5项RCT（n=842）的系统评价评估了有氧舞蹈干预对MCI老年人的影响，结果显示，有氧舞蹈能够明显提升MCI老年人整体认知功能得分〔加权均数差（weighted mean difference，WMD）=1.43，95%CI为（0.59，2.27）〕和延迟记忆功能〔SMD=0.46，95%CI为（0.30，0.62）〕[39]。（2）纳入8项RCT的系统评价研究舞蹈干预对MCI老年人的干预效果，结果显示，试验组的MCI老年人进行每周1~3次、每次35~60 min的舞蹈干预，其视觉空间功能〔SMD=0.42，95%CI为（0.08，0.76）〕、语言功能〔SMD=0.39，95%CI为（0.11，0.68）〕、身体功能〔SMD=0.55，95%CI为（0.24，0.87）〕和生活质量〔SMD=0.93，95%CI为（0.57，1.29）〕较对照组均有所改善[40]。（3）纳入14项RCT（n=1 178）的系统评价显示，中、高强度的有氧运动除了能提高MCI老年人的认知功能外，还可以改善握力〔SMD=0.62，95%CI为（0.23，1.01）〕。但纳入的研究数量较少且干预措施存在异质性，需谨慎解释这些结果[36]。
+
+2.3　主题3：抗阻运动
+
+2.3.1　推荐意见
+
+推荐认知衰退（SCD和MCI）老年人开展抗阻运动，最初使用器材或者利用自身重量开展抗阻运动时，建议由专业人士或受培训的家属进行监督和指导。（1C）
+
+频率：每周至少2 d。（1C）
+
+强度：建议中等（RPE：5~6分）到较高（RPE：7~8分）强度。在身体耐受的前提下，循序渐进从低强度增加阻力、重复次数或频率，避免受伤。（2GPS）
+
+类型：建议爬楼梯，使用弹力带、哑铃、沙袋或其他大肌肉群参与的抗阻运动（2GPS）。
+
+2.3.2　推荐说明
+
+抗阻运动也称阻力运动或力量运动，是指通过身体力量克服一定外部阻力以达到提高肌肉量和增加肌肉耐力的运动方式。抗阻运动包括负重抗阻运动、对抗性运动、克服弹性物体运动和机械抗阻力运动等，可通过自身重力、专用器材、弹力带、弹簧、哑铃、沙袋等实现[37]。通常来说，抗阻运动作为独立形式的身体活动推荐一般不计算在身体活动总量内。抗阻运动对全身大肌群的锻炼主要包括胸部、肩部、背部、腰部、腹部、臀部和下肢等。一项探讨抗阻运动对老年人群心肺健康影响的研究发现，随着年龄的增加，抗阻运动对心肺健康的重要性愈显突出[41]。认知衰退（SCD和MCI）老年人可在专业人士或受培训的家属监督与指导下开展抗阻运动，同一肌群的抗阻运动应间隔1~2 d，若较难获取相关器械如弹力带、哑铃、沙袋等，可在身体耐受的前提下利用自身重量进行爬楼梯、仰卧起坐、俯卧撑等训练，生活中的矿泉水、重物等亦可成为替代品。
+
+2.3.3　证据总结
+
+（1）纳入7项RCT（n=281）的系统评价表明，抗阻运动能够明显提升MCI老年人整体认知功能〔SMD=0.53，95%CI为（0.02，1.04）〕和执行功能〔SMD=0.50，95%CI为（0.23，0.77）〕。其中纳入5项RCT的亚组分析显示，每周2次〔SMD=0.53，95%CI为（0.11，0.95）〕、每次60 min以上〔SMD=0.74，95%CI为（0.32，1.16）〕能够明显提升MCI老年人整体认知功能[42]。（2）纳入3项RCT的亚组分析发现，MCI老年人进行平均每周3次、每次60 min、持续25周的中/高强度抗阻运动干预后其体质指数〔SMD=0.53，95%CI为（0.05，1.01）〕得到改善[36]。
+
+2.4　主题4：综合性身体活动
+
+2.4.1　推荐意见
+
+推荐认知衰退（SCD和MCI）老年人进行综合性身体活动，身心运动作为一种多模式的综合性身体活动，可提高身体的平衡性、稳定性和协调性等。（1B）
+
+时间：每次至少30 min，干预时长至少持续3个月。（1B）
+
+频率：每周3次及以上。（1C）
+
+类型：太极拳、八段锦等。（1D）
+
+2.4.2　推荐说明
+
+身心运动作为一种多模式的综合性身体活动，是身心干预的一种，是由美国国家补充和综合健康中心（National Center for Complementary and Integrative Health，NCCIH）定义的补充替代疗法中的一种，结合了生理疗法和心理疗法，通过大脑、身体、精神和行为间的相互作用，在锻炼心肺功能、增强肌肉力量、提高身体耐力的同时，还可缓解压力、减轻疼痛、改善心理健康并提高身体的平衡性、稳定性和协调性，常见种类包括太极拳、八段锦、瑜伽、舞蹈、普拉提等[43]。此外，身心运动还被认为是一种结合精神集中、呼吸控制及身体运动的治疗方法[44]。其中太极拳、八段锦等属于中医传统运动，以阴阳学说、整体观念作为主要理论指导，通过调动人体自身潜能，达到祛病除疾、保健强身的目的。本指南在综合研究证据的基础上结合中国认知衰退（SCD和MCI）人群的偏好对此做出推荐。
+
+2.4.3　证据总结
+
+（1）纳入41项RCT（n=3 551）的Meta分析发现，对认知衰退老年人开展身心运动和冥想干预超过12周、每周3~7次且每次运动时间45~60 min，可提升老年人群的整体认知功能〔SMD=0.34，95%CI为（0.19，0.48）〕[45]。（2）纳入13项RCT的系统评价（n=1 892）表明，身心运动能够明显提高认知衰退老年人整体认知功能的得分〔WMD=0.92，95%CI为（0.33，1.51）〕和语言功能〔SMD=0.27，95%CI为（0.09，0.45）〕[44]。研究还发现在身心运动干预后认知衰退老年人的记忆功能〔SMD=0.91，95%CI为（0.37，1.45）〕[46]、视觉空间能力〔SMD=0.35，95%CI为（0.07，0.64）〕[47]与对照组相比有所改善。（3）纳入10项RCT（n=1 244）的系统评价表明，身心运动可改善MCI老年人的整体认知功能〔SMD=0.36，95%CI为（0.25，0.48）〕[48]。对身心运动的总时长、频率、时间亚组分析显示，总时长>3个月〔SMD=0.38，95%CI为（0.26，0.50）〕、频率为每周3次〔SMD=0.38，95%CI为（0.24，0.52）〕、时间<40 min〔SMD=0.26，95%CI为（0.12，0.40）〕能够提升MCI老年人的认知功能[48]。（4）纳入12项研究的系统评价显示，太极拳对MCI老年人的整体认知功能〔SMD=2.75，95%CI为（0.94，4.55）〕和记忆功能〔SMD=1.23，95%CI为（0.87，1.59）〕改善有较大效果[49]。研究人员对患者进行"连线测验"（trail making test）测量其执行能力，分数越低则代表执行功能越强，结果显示试验组在进行太极拳干预后得分降低，执行功能改善〔SMD=-0.79，95%CI为（-1.08，-0.51）〕，并建议太极拳干预至少持续3个月、每周3次、每次30~60 min，有条件可采取"一对一"、团体锻炼或结合虚拟技术的方式开展[49]。（5）纳入19项RCT（n=1 970）的Meta分析发现，太极拳能改善认知衰退老年人的语言功能〔SMD=0.27，95%CI为（0.13，0.41）〕[50]。另一项纳入7项RCT的系统评价（n=1 265）还发现，太极拳干预可改善MCI老年人的视觉空间能力〔SMD=3.15，95%CI为（0.74，5.56）〕和身体功能得分〔WMD=18.8，95%CI为（10.80，26.76）〕[51]。另有研究表明，太极拳等非传统的运动方式可能更适合功能较弱的人群，如高龄的认知衰退老年人[52]。但由于目前尚未报告不同的太极拳样式对干预效果的影响，因此此次推荐尚不区分不同太极拳样式的差异。（6）纳入8项RCT（n=581）的Meta分析发现，MCI老年人进行八段锦干预6个月后，整体认知功能〔WMD=3.52，95%CI为（1.89，5.15）〕及日常生活活动能力的得分〔WMD=-1.35，95%CI为（-2.32，-0.38〕均得到了提高[53]。另一项纳入16项RCT（n=1 054）的Meta分析显示，MCI患者除常规治疗外每天进行八段锦锻炼40~60 min、每周3~6次、持续3个月，能明显改善整体认知功能的得分〔WMD=3.85，95%CI为（3.01，4.69）〕，6个月后认知功能得分也得到提高〔WMD=3.37，95%CI为（2.05，4.69）〕[54]。综上，推荐中国认知衰退（SCD和MCI）老年人开展包括太极拳、八段锦等在内的综合性身体活动，以改善认知功能及其他功能。
+
+2.5　主题5：运动管理
+
+2.5.1　推荐意见
+
+（1）运动前咨询：建议运动前咨询专业医疗保健人员，由其综合身体素质、疾病情况、运动环境及资源等各方面因素给出专业运动处方。（2GPS）
+
+（2）运动过程：建议将热身运动-正式运动-拉伸运动（柔韧性运动）作为运动的关键环节，必要时需要照护者监督。采用器械运动前，需进行培训指导和监督。拉伸运动：上下肢肌肉拉伸训练，每个部位30~60 s，强度以有牵拉感觉同时不感觉疼痛为宜，每个动作重复5次，总时间为10 min左右。（2GPS）
+
+（3）运动后：建议缓慢停止运动，采取逐渐减少用力、降低强度和适当拉伸运动的整理运动，使得心率缓慢下降，运动后拉伸可以舒缓肌肉酸痛。（2GPS）
+
+（4）运动安全：建议通过拉伸、热身、放松、逐步提高运动强度和增加运动量等方式来减少运动性伤害。在身体耐受的范围内运动，运动过程中应预防心脑血管疾病及跌倒等不良事件的发生，若运动过程中出现不适，应缓慢停止运动进行休息。（2GPS）
+
+2.5.2　推荐说明
+
+目前研究中报道的运动性不良事件的发生大多是由运动不恰当导致的，因此科学的运动管理十分重要。认知衰退老年人群通常行动能力差、跌倒风险高、平衡能力差、伴随神经精神症状等，进行身体活动时需要考虑更多的情况，而运动前的热身运动和运动后的拉伸运动（柔韧性运动）可有效增加老年人群的关节活动度、身体的柔韧性、灵活性和平衡性，使运动干预效果最大化，并降低运动过程中骨折、骨关节疼痛、跌倒等不良事件的发生风险[55，56]。若同时合并其他慢性病，为确保总体运动量不超过老年人所能耐受的心肺负荷，运动量应取专业医疗保健人员推荐剂量的最保守值，以确保老年人的安全性。若个体存在严重认知障碍，仍可开展身体活动，但可能需要个性化的帮助且必须在运动训练的过程中进行监测。
+
+正式运动包括有氧运动、抗阻运动、综合性身体活动等类型，是采用单类型运动还是联合运动干预方式，可由专业医疗保健人员根据认知衰退老年人的具体情况灵活调整。同时建议采用适老化措施，如运动设备安装扶手、穿合适的衣服和鞋子等，必要时需要照护者监督保障运动的安全性。目前在世界各国的身体活动指南中，同样提出科学的运动管理在确保人群运动科学性和安全性中的重要意义[22，37，57，58]。因此，本指南建议认知衰退老年人开展身体活动前进行专业咨询，通过医务人员开展专业的运动能力测试、评估运动风险及禁忌证，制定科学的运动处方，以实现认知衰退老年人在身体活动中的最大受益。研究还表明，医生的专业指导、团体加强课程的开展、游戏融合及多种干预方式的组合等策略可有效改善老年人认知功能[59]，医务人员应结合老年人的实际情况，制定适宜的身体活动干预措施。
+
+3　讨论
+
+本指南采用新版国际临床循证指南制订方法：首先，通过德尔菲法遴选确定了认知衰退（SCD和MCI）老年人身体活动指南相关的临床问题与结局指标；其次，通过系统的文献检索、筛选与评价，并结合目标人群的价值观和偏好，权衡利弊，对重要临床问题进行分级推荐，经专家函询及外部专家评审后对推荐意见及推荐强度达成共识；最终，形成中国《认知衰退老年人群非药物干预临床实践指南：身体活动》，可以为中国医院及社区工作人员对认知衰退（SCD和MCI）老年人的身体活动干预提供决策依据。
+
+但指南制定过程仍存在一定的局限性：本研究仅纳入了中文和英文的文献，可能遗漏以其他语言发表的证据，且部分纳入的证据质量不高，故运用基于这些证据的推荐意见尚需谨慎。由于部分专家一致关注的临床问题因证据过少，没有被提交给指南专家共识组投票。这些在指南中尚未涉及的临床问题提供了未来研究的方向，并将成为今后指南更新的依据。
+
+计划每5年综合最佳证据对指南进行更新。秘书组将重新检索相关证据，若有更新的证据或使用者反馈的意见，则制订计划对指南进行更新，若没有，则暂不更新，并做相应说明。
+
+《认知衰退老年人非药物干预临床实践指南：身体活动》专家组成员名单
+
+指南牵头人：冯辉（中南大学湘雅护理学院）、孙超（北京医院护理部　国家老年医学中心　中国医学科学院老年医学研究院）、李红娟（北京体育大学运动人体科学学院）、吴心音（中南大学湘雅公共卫生学院）
+
+执笔者：曾宪梅、胡明月
+
+指南指导委员会：奚桓（北京医院　国家老年医学中心　中国医学科学院老年医学研究院）、唐四元（中南大学湘雅护理学院）、张通（中国康复研究中心神经康复中心）、于普林（北京医院期刊编辑部　国家老年医学中心　中国医学科学院老年医学研究院）
+
+指南秘书组（按姓氏拼音首字母排序）：胡慧秀、黄君丹、胡明月、黄苇萍、蒋电、宁红婷、伍丽娜、曾宪梅
+
+指南专家共识组（按姓氏拼音首字母排序）：曹军华（新疆医科大学第七附属医院护理部）、陈凤辉（新疆医科大学护理学院）、陈金萍（南京宽乐健康产业有限公司）、陈旭娇（浙江医院老年病科）、陈雪丽（北京老年医院康复医学科）、郭红（北京中医药大学护理学院）、侯莉娟（北京师范大学体育与运动学院）、李红娟（北京体育大学运动人体科学学院）、李中（中山大学附属第六医院神经内科）、刘文锋（湖南师范大学体育学院）、刘宇（中国医科大学护理学院）、倪小佳（广东省中医院内科）、沈璐（中南大学湘雅医院神经内科）、宋岳涛（北京老年医院老年健康与医养结合研究室）、苏闻（北京医院神经内科　国家老年医学中心　中国医学科学院老年医学研究院）、孙凤（北京大学公共卫生学院）、屠其雷（北京社会管理职业学院老年福祉学院）、王婧（西安交通大学护理学院）、王静（杭州医学院临床医学院全科医学教研室）、王兴（上海体育学院体育教育训练学院）、吴心音（中南大学湘雅公共卫生学院）、熊卫红（北京市东城区建国门社区卫生服务中心）、周厚广（复旦大学附属华山医院老年医学科）
+
+指南外部评审组（按姓氏拼音首字母排序）：曹曾（中南大学湘雅医院康复科）、郭雅伟（中山大学公共卫生学院）、胡叶文（浙江大学医学院附属第一医院神经内科）、林秀芳（四川大学华西医院老年医学中心/干部医疗科）、刘尊敬（北京大学人民医院神经内科）、罗米扬（中南大学湘雅公共卫生学院）、涂秋云（中山大学附属第五医院老年病科）、徐群利（浙江大学医学院附属邵逸夫医院神经内科）、张卫茹（中南大学湘雅医院全科医学科）、张旭（中国康复研究中心北京博爱医院康复科）、赵志鸿（湖南省人民医院神经内科）、左烨（湖南省长沙市岳麓区桔子洲三真社区卫生服务中心）
+
+参考文献
+参考文献
+
+JACK JR C R，BENNETT D A，BLENNOW K，et al. NIA-AA Research Framework：toward a biological definition of Alzheimer's disease[J]. Alzheimer's Dement，2018，14（4）：535-562. DOI：10.1016/j.jalz.2018.02.018.
+
+JESSEN F，AMARIGLIO R E，VAN BOXTEL M，et al. A conceptual framework for research on subjective cognitive decline in preclinical Alzheimer's disease[J]. Alzheimer's Dement，2014，10（6）：844-852. DOI：10.1016/j.jalz.2014.01.001.
+
+PETERSEN R C. Mild cognitive impairment as a diagnostic entity[J]. J Intern Med，2004，256（3）：183-194. DOI：10.1111/j.1365-2796.2004.01388.x.
+
+WEN C，HU H，OU Y N，et al. Risk factors for subjective cognitive decline：the CABLE study[J]. Transl Psychiatry，2021，11（1）：576. DOI：10.1038/s41398-021-01711-1.
+
+BESSI V，MAZZEO S，PADIGLIONI S，et al. From subjective cognitive decline to Alzheimer's disease：the predictive role of neuropsychological assessment，personality traits，and cognitive reserve. A 7-year follow-up study[J]. J Alzheimers Dis，2018，63（4）：1523-1535. DOI：10.3233/JAD-171180.
+
+MCGRATTAN A M，PAKPAHAN E，SIERVO M，et al. Risk of conversion from mild cognitive impairment to dementia in low- and middle-income countries：a systematic review and Meta-analysis[J]. Alzheimer's Dement Transl Res Clin Interv，2022，8（1）：e12267. DOI：10.1002/trc2.12267.
+
+WALSH E I，SMITH L，NORTHEY J，et al. Towards an understanding of the physical activity-BDNF-cognition triumvirate：a review of associations and dosage[J]. Ageing Res Rev，2020，60：101044. DOI：10.1016/j.arr.2020.101044.
+
+RODAKOWSKI J，SAGHAFI E，BUTTERS M A，et al. Non-pharmacological interventions for adults with mild cognitive impairment and early stage dementia：an updated scoping review[J]. Mol Aspects Med，2015，43/44：38-53. DOI：10.1016/j.mam.2015.06.003.
+
+WHO. WHO guidelines on physical activity and sedentary behaviour：web annex：evidence profiles[EB/OL]. [2022-11-29]. https://apps.who.int/iris/bitstream/handle/10665/312180/9789241550543-eng.pdf.
+
+BLONDELL S J，HAMMERSLEY-MATHER R，LENNERT VEERMAN J. Does physical activity prevent cognitive decline and dementia：a systematic review and meta-analysis of longitudinal studies[J]. BMC Public Health，2014，14：510. DOI：10.1186/1471-2458-14-510.
+
+NG T K S，HO C S H，TAM W W S，et al. Decreased serum brain-derived neurotrophic factor（BDNF） levels in patients with Alzheimer's disease（AD）：a systematic review and meta-analysis[J]. Int J Mol Sci，2019，20（2）：e257. DOI：10.3390/ijms20020257.
+
+KURDI F N，FLORA R. The impact of physical exercise on brain-derived neurotrophic factor（BDNF） level in elderly population[J]. Open Access Maced J Med Sci，2019，7（10）：1618-1620. DOI：10.3889/oamjms.2019.337.
+
+MARMELEIRA J. An examination of the mechanisms underlying the effects of physical activity on brain and cognition[J]. Eur Rev Aging Phys Act，2013，10（2）：83-94. DOI：10.1007/s11556-012-0105-5.
+
+SHI F，LIU B，ZHOU Y，et al. Hippocampal volume and asymmetry in mild cognitive impairment and Alzheimer's disease：Meta-analyses of MRI studies[J]. Hippocampus，2009，19（11）：1055-1064. DOI：10.1002/hipo.20573.
+
+MAGON S，DONATH L，GAETANO L，et al. Striatal functional connectivity changes following specific balance training in elderly people：MRI results of a randomized controlled pilot study [J]. Gait and Posture，2016，49：334-339. DOI：10.1016/j.gaitpost.2016.07.016.
+
+VOSS M W，HEO S，PRAKASH R S，et al. The influence of aerobic fitness on cerebral white matter integrity and cognitive function in older adults：results of a one-year exercise intervention[J]. Hum Brain Mapp，2013，34（11）：2972-2985. DOI：10.1002/hbm.22119.
+
+THOMAS B P，TARUMI T，SHENG M，et al. Brain perfusion change in patients with mild cognitive impairment after 12 months of aerobic exercise training[J]. J Alzheimers Dis，2020，75（2）：617-631. DOI：10.3233/JAD-190977.
+
+ENNIS G E，AN Y，RESNICK S M，et al. Long-term cortisol measures predict Alzheimer disease risk[J]. Neurology，2017，88（4）：371-378. DOI：10.1212/WNL.0000000000003537.
+
+STILLMAN C M，ESTEBAN-CORNEJO I，BROWN B，et al. Effects of exercise on brain and cognition across age groups and health states[J]. Trends Neurosci，2020，43（7）：533-543. DOI：10.1016/j.tins.2020.04.010.
+
+LARSON E B. Guideline：in patients with mild cognitive impairment，the AAN recommends regular exercise and no drugs or supplements[J]. Ann Intern Med，2018，168（8）：JC38. DOI：10.7326/ACPJC-2018-168-8-038.
+
+LAUTENSCHLAGER N C K，HILL K D，et al. National physical activity guidelines for older australians with mild cognitive impairment and subjective cognitive decline[EB/OL].[2022-11-29]. http://www.dementia.unsw.edu.au/.
+
+WHO. Risk reduction of cognitive decline and dementia：WHO guideline[EB/OL]. [2022-11-29]. https://apps.who.int/iris/bitstream/handle/10665/312180/9789241550543-eng.pdf.
+
+中国痴呆与认知障碍诊治指南写作组，中国医师协会神经内科医师分会认知障碍疾病专业委员会. 2018中国痴呆与认知障碍诊治指南（五）：轻度认知障碍的诊断与治疗[J]. 中华医学杂志，2018，98（17）：1294-1301. DOI：10.3760/cma.j.issn.0376-2491.2018.17.003.
+
+WHO. WHO handbook for guideline development[EB/OL]. （2014-12-18）[2022-11-29]. https://www.who.int/publications/i/item/9789241548960.
+
+Scottish Intercollegiate Guidelines Network. A guideline developer's handbook[EB/OL]. [2022-11-29]. http://www.sign.ac.uk.
+
+陈耀龙，杨克虎，王小钦，等. 中国制订/修订临床诊疗指南的指导原则（2022版）[J]. 中华医学杂志，2022，102（10）：697-703. DOI：10.3760/cma.j.cn112137-20211228-02911.
+
+BALSHEM H，HELFANDA M，J.SCHUNEMANN H，等. GRADE指南：Ⅲ.证据质量分级[J].中国循证医学杂志，2011，11（4）：451-455. DOI：10.3969/j.issn.1672-2531.2011.04.017.
+
+BROUWERS M C，KHO M E，BROWMAN G P，et al. AGREE Ⅱ：advancing guideline development，reporting and evaluation in health care[J]. Canadian Medical Association Journal，2010，182（18）：e839-842. DOI：10.1503/cmaj.090449.
+
+SHEA B J，REEVES B C，WELLS G，et al. AMSTAR 2：a critical appraisal tool for systematic reviews that include randomised or non-randomised studies of healthcare interventions，or both[J]. BMJ，2017：358. DOI：10.1136/bmj.j4008.
+
+GUYATT G H，ALONSO-COELLO P，SCHÜNEMANN H J，et al. Guideline panels should seldom make good practice statements：guidance from the GRADE Working Group[J]. J Clin Epidemiol，2016，80：3-7. DOI：10.1016/j.jclinepi.2016.07.006.
+
+JAESCHKE R，GUYATT G H，DELLINGER P，et al. Use of GRADE grid to reach decisions on clinical practice guidelines when consensus is elusive[J]. BMJ，2008，337：a744. DOI：10.1136/bmj.a744.
+
+ESTON R. Use of ratings of perceived exertion in sports[J]. Int J Sports Physiol Perform，2012，7（2）：175-182. DOI：10.1123/ijspp.7.2.175.
+
+BIAZUS-SEHN L F，SCHUCH F B，FIRTH J，et al. Effects of physical exercise on cognitive function of older adults with mild cognitive impairment：a systematic review and meta-analysis[J]. Arch Gerontol Geriatr，2020，89：104048. DOI：10.1016/j.archger.2020.104048.
+
+ZHOU X L，WANG L N，WANG J，et al. Effects of exercise interventions for specific cognitive domains in old adults with mild cognitive impairment：a meta-analysis and subgroup analysis of randomized controlled trials[J]. Medicine，2020，99（31）：e20105. DOI：10.1097/MD.0000000000020105.
+
+ZHANG Q，HU J N，WEI L J，et al. Effects of traditional Chinese exercise on cognitive and psychological outcomes in older adults with mild cognitive impairment：a systematic review and meta-analysis[J]. Medicine，2019，98（7）：e14581. DOI：10.1097/MD.0000000000014581.
+
+LEE J. Effects of aerobic and resistance exercise interventions on cognitive and physiologic adaptations for older adults with mild cognitive impairment：a systematic review and meta-analysis of randomized control trials[J]. International Journal of Environmental Research and Public Health，2020，17（24）：9216. DOI：10.3390/ijerph17249216.
+
+PIERCY K L，TROIANO R P，BALLARD R M，et al. The physical activity guidelines for Americans [J]. Journal of the American Medical Association，2018，320（19）：2020-2028. DOI：10.1001/jama.2018.14854.
+
+YOUNG J，ANGEVAREN M，RUSTED J，et al. Aerobic exercise to improve cognitive function in older people without known cognitive impairment[J]. Cochrane Database Syst Rev，2015（4）：CD005381. DOI：10.1002/14651858.CD005381.pub4.
+
+ZHU Y，ZHONG Q，JI J，et al. Effects of aerobic dance on cognition in older adults with mild cognitive impairment：a systematic review and meta-analysis[J]. J Alzheimers Dis，2020，74（2）：679-690. DOI：10.3233/JAD-190681.
+
+WU V X，CHI Y，LEE J K，et al. The effect of dance interventions on cognition，neuroplasticity，physical function，depression，and quality of life for older adults with mild cognitive impairment：a systematic review and meta-analysis[J]. Int J Nurs Stud，2021，122：104025. DOI：10.1016/j.ijnurstu.2021.104025.
+
+FERNÁNDEZ-LEZAUN E，SCHUMANN M，MÄKINEN T，et al. Effects of resistance training frequency on cardiorespiratory fitness in older men and women during intervention and follow-up[J]. Exp Gerontol，2017，95：44-53. DOI：10.1016/j.exger.2017.05.012.
+
+ZHANG L L，LI B，YANG J J，et al. Meta-analysis：resistance training improves cognition in mild cognitive impairment[J]. Int J Sports Med，2020，41（12）：815-823. DOI：10.1055/a-1186-1272.
+
+National Center for Complementary and Integrative Health. Complementary，alternative，or integrative health：what's in a name[EB/OL]. [2022-11-29]. https://nccih.nih.gov/health/integrative-health.
+
+WU C X，YI Q，ZHENG X Y，et al. Effects of mind-body exercises on cognitive function in older adults：a meta-analysis[J]. J Am Geriatr Soc，2019，67（4）：749-758. DOI：10.1111/jgs.15714.
+
+CHAN J S Y，DENG K F，WU J M，et al. Effects of meditation and mind-body exercises on older adults' cognitive performance：a meta-analysis[J]. Gerontologist，2019，59（6）：e782-790. DOI：10.1093/geront/gnz022.
+
+YE M Z，WANG L C，XIONG J，et al. The effect of mind-body exercise on memory in older adults：a systematic review and meta-analysis[J]. Aging Clin Exp Res，2021，33（5）：1163-1173. DOI：10.1007/s40520-020-01557-5.
+
+ZOU L Y，LOPRINZI P D，YEUNG A S，et al. The beneficial effects of mind-body exercises for people with mild cognitive impairment：a systematic review with meta-analysis[J]. Arch Phys Med Rehabil，2019，100（8）：1556-1573. DOI：10.1016/j.apmr.2019.03.009.
+
+朱自强，赵梦娟，赵春善. 传统有氧康复运动对轻度认知障碍老年人认知功能影响的Meta分析[J]. 中医药导报，2020，26（10）：154-158，170. DOI：10.13862/j.cnki.cn43-1446/r.2020.10.037.
+
+WEI L，CHAI Q W，CHEN J，et al. The impact of Tai Chi on cognitive rehabilitation of elder adults with mild cognitive impairment：a systematic review and meta-analysis[J]. Disabil Rehabil，2022，44（11）：2197-2206. DOI：10.1080/09638288.2020.1830311.
+
+CAI Z D，JIANG W T，YIN J L，et al. Effects of Tai Chi Chuan on cognitive function in older adults with cognitive impairment：a systematic and meta-analytic review[J]. Evid Based Complement Alternat Med，2020，2020：6683302. DOI：10.1155/2020/6683302.
+
+LIN R，CUI S Y，YANG J，et al. Effects of Tai Chi on patients with mild cognitive impairment：a systematic review and meta-analysis of randomized controlled trials[J]. Biomed Res Int，2021，2021：5530149. DOI：10.1155/2021/5530149.
+
+NORTHEY J M，CHERBUIN N，PUMPA K L，et al. Exercise interventions for cognitive function in adults older than 50：a systematic review with meta-analysis[J]. Br J Sports Med，2018，52（3）：154-160. DOI：10.1136/bjsports-2016-096587.
+
+JIA W，MA Q P，YANG X，et al. The effect of Baduanjin exercise for patients with mild cognitive impairment：a meta-analysis[J]. Nursing of Integrated Traditional Chinese and Western Medicine，2019，5（10）：6-11. DOI：10.11997/nitcwm.201910002.
+
+YU L Q，LIU F，NIE P Y，et al. Systematic review and meta-analysis of randomized controlled trials assessing the impact of Baduanjin exercise on cognition and memory in patients with mild cognitive impairment[J]. Clin Rehabil，2021，35（4）：492-505. DOI：10.1177/0269215520969661.
+
+DONALDSON A，FINCH C F. Applying implementation science to sports injury prevention[J]. Br J Sports Med，2013，47（8）：473-475. DOI：10.1136/bjsports-2013-092323.
+
+MCGOWAN C J，PYNE D B，THOMPSON K G，et al. Warm-up strategies for sport and exercise：mechanisms and applications[J]. Sports Med，2015，45（11）：1523-1546. DOI：10.1007/s40279-015-0376-x.
+
+ROSS R，CHAPUT J P，GIANGREGORIO L M，et al. Canadian 24-hour movement guidelines for adults aged 18-64 years and adults aged 65 years or older：an integration of physical activity，sedentary behaviour，and sleep[J]. Physiol Appliquee Nutr Metab，2020，45（10）：57-102. DOI：10.1139/apnm-2020-0467.
+
+《中国人群身体活动指南》编写委员会. 中国人群身体活动指南（2021）[J]. 中华预防医学杂志，2022，56（1）：7-8. DOI：10.3760/cma.j.cn112150-20211119-01070.
+
+OBERLIN L E，JAYWANT A，WOLFF A，et al. Strategies to promote cognitive health in aging：recent evidence and innovations[J]. Curr Psychiatry Rep，2022，24（9）：441-450. DOI：10.1007/s11920-022-01348-x.

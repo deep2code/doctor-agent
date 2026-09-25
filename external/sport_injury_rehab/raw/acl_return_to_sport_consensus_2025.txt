@@ -1,0 +1,1949 @@
+来源: 中国医疗保健国际交流促进会运动医学数据学组等（黄楷、白伦浩、毕擎等专家）《竞技体育运动员前交叉韧带损伤后重返运动的手术与康复治疗专家共识（2025版）》
+URL: http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=12253
+发布/评审时间: 2025年4月（中华创伤杂志 2025,41(4)，14页）
+抓取方式: curl 直连 + PDF 逐字文本提取，未改写文字
+
+中华创伤杂志  2025  年 4  月第  41  卷第  4  期　 Chin J Trauma ,  April 2025 ,  Vol .  41 ,  No .  4
+竞技体育运动员前交叉韧带损伤后重返运动 的
+手术与康复治疗专家共识 （ 2025 版 ）
+黄楷
+1
+ 白伦浩
+2
+ 毕擎
+3
+ 陈虹
+4
+ 陈疾忤
+5
+ 戴雪松
+6
+ 费文勇
+7
+ 付维力
+8
+ 高志增
+9
+ 
+郭林
+10
+ 华英汇
+11
+ 黄竞敏
+12
+ 黄遂柱
+13
+ 黄轩
+14
+ 李箭
+8
+ 李强
+15
+ 李书振
+16
+ 李彦林
+17
+ 
+李云霞
+11
+ 李忠
+18
+ 刘宁
+19
+ 刘玉强
+19
+ 陆伟
+20
+ 吕红斌
+21
+ 潘海乐
+22
+ 潘孝云
+23
+ 戚超
+24
+ 
+沈炜亮
+6
+ 孙鲁宁
+25
+ 唐瑾
+1
+ 汪滋民
+26
+ 王彼得
+27
+ 王茹
+28
+ 王少白
+29
+ 魏利成
+30
+ 徐卫东
+14
+ 
+徐永胜
+31
+ 杨济洲
+32
+ 杨梁
+33
+ 杨睿
+34
+ 游洪波
+35
+ 于腾波
+36
+ 余家阔
+37
+ 岳冰
+38
+ 张华
+39
+ 
+张辉
+40
+ 张青松
+41
+ 张新涛
+42
+ 赵甲军
+43
+ 赵立连
+44
+ 赵其纯
+45
+ 赵松
+1
+ 郑佳鹏
+46
+ 郑江
+47
+ 
+郑智
+1
+ 周敬滨
+48
+ 赵金忠
+1
+中国研究型医院学会运动医学专业委员会
+1
+上海交通大学医学院附属第六人民医院 ，  上海  200233 ；  
+2
+中国医科大学附属盛京医 院 ，  
+沈阳  110801 ；  
+3
+浙江省人民医院 ，  杭州  310014 ；  
+4
+重庆医科大学附属第一医院 ，  重 庆  
+400042 ；  
+5
+上海交通大学医学院附属第一人民医院 ，  上海  201620 ；  
+6
+浙江大学医学院附 属
+第二医院 ，  杭州  310009 ；  
+7
+江苏省苏北人民医院 ，  扬州  225003 ；  
+8
+四川大学华西医 院 ，  
+成都  610044 ；  
+9
+南昌大学第一附属医院 ，  南昌  330006 ；  
+10
+陆军军医大学第一附属医 院 ，  
+重庆  400038 ；  
+11
+复旦大学附属华山医院 ，  上海  200040 ；  
+12
+天津医院 ，  天津  300211 ；  
+13
+河南省洛阳正骨医院 ，  洛阳  450016 ；  
+14
+海军军医大学第一附属医院 ，  上海  200433 ；  
+15
+福建医科大学附属第一医院 ，  福州  350004 ；  
+16
+中山大学附属第一医院广西医院 ，  南 宁  
+530025 ；  
+17
+昆明医科大学第一附属医院 ，  昆明  650032 ；  
+18
+西南医科大学附属医院 ，  泸 州  
+646099 ；  
+19
+郑州市骨科医院 ，  郑州  450052 ；  
+20
+南方医科大学深圳国际运动医学与康复
+中心 ，  深圳  510086 ；  
+21
+中南大学湘雅医院 ，  长沙  410008 ；  
+22
+哈尔滨医科大学附属第 二
+医院 ，  哈尔滨  150086 ；  
+23
+温州医科大学附属第二医院 ，  温州  325027 ；  
+24
+青岛大学附 属
+医院 ，  青岛  266000 ；  
+25
+南京中医药大学附属医院 ，  南京  210023 ；  
+26
+上海交通大学医 学院
+附属第九人民医院 ，  上海  200011 ；  
+27
+上海市竞技体育训练管理中心 ，  上海  202183 ；  
+28
+上海体育大学 ，  上海  200438 ；  
+29
+上海卓昕医疗科技有限公司 ，  上海  201210 ；  
+30
+长沙 市
+第四医院 ，  长沙  410000 ；  
+31
+内蒙古自治区人民医院 ，  呼和浩特  750306 ；  
+32
+北京中医 药
+大 学 东 直 门 医 院 ，  北 京  100007 ；  
+33
+大 连 医 科 大 学 附 属 第 二 医 院 ，  大 连  116023 ；  
+34
+中 山大学孙逸仙纪念医院 ，  广州  510120 ；  
+35
+华中科技大学同济医学院附属同济医 院 ，  
+武汉  430030 ；  
+36
+康复大学附属青岛市立医院 ，  青岛  266000 ；  
+37
+清华大学附属北京
+清华 长庚医院 ，  北京  102218 ；  
+38
+上海交通大学医学院附属仁济医院 ，  上海  200001 ；  
+39
+福 建医科大学附属协和医院 ，  福州  350001 ；  
+40
+北京积水潭医院 ，  北京  102208 ；  
+41
+武 汉市第四医院 ，  武汉  430033 ；  
+42
+北京大学深圳医院 ，  深圳  518036 ；  
+43
+河南省人民
+医院 ，  郑州  450003 ；  
+44
+佛山市中医院 ，  佛山  528099 ；  
+45
+中国科学技术大学附属第一
+医院 ，  合肥  230002 ；  
+46
+厦门大学附属东南医院 ，  厦门  363020 ；  
+47
+西安交通大学医学 院
+附属红会医院 ，  西安  710054 ；  
+48
+首都医科大学附属北京朝阳医院 ，  北京  100020
+通信作者 ： 赵金忠 ，  Email ： jzzhao@sjtu . edu . cn
+【 摘要 】 　随着竞技体育事业的发展 ， 前交叉韧带 （ ACL ） 损伤的发生率逐年上升 ， 且该损伤将缩短
+运动员的职业寿命并造成远期不良后果 。 尽管 ACL 重建术后整体恢复效果较好 ， 但运动员难以恢复
+至伤前运动水平等问题仍然严峻 。 随着对 ACL 解剖及损伤机制的深入理解 、 重建手术技术及康复手
+· 共识与指南 ·
+·· 325
+中华创伤杂志  2025  年 4  月第  41  卷第  4  期　 Chin J Trauma ,  April 2025 ,  Vol .  41 ,  No .  4
+段的更新迭代 ， ACL 损伤后个体化 、 针对性的手术及康复治疗为运动员提供了更多选择 。 然而 ， 以竞
+技体育运动员 ACL 损伤后重返运动为目标的手术与康复策略等问题 ， 国内尚未形成相关共识 。 为
+此 ， 中国研究型医院学会运动医学专业委员会和 《 中华创伤杂志 》 编辑委员会组织国内相关领域专家 ，
+制订 《 竞技体育运动员前交叉韧带损伤后重返运动的手术与康复治疗专家共识 （ 2025 版 ） 》 ， 就手术适
+应证 、 术前康复 、 手术时机 、 手术策略及术后康复策略等方面提出 14 条推荐意见 ， 旨在完善竞技体育
+运动员 ACL 损伤的手术治疗及康复体系 ， 促进运动员 ACL 损伤后重返高水平专项运动 。
+【 关键词 】 　前交叉韧带 ， 损伤 ； 运动医学 ； 外科手术 ； 康复 ； 运动员
+【 中图分类号 】 　 R 686 . 5 ； R 87 ； R 687 . 2
+基金项目 ： 上海 “ 科技创新行动计划 ” 科技与社会发展研究项目 （ 22 dz 1204700 ）
+国际实践指南注册与透明化平台 ： PREPARE - 2024 CN 011
+DOI ： 10 . 3760 /cma . j . cn 501098 ‑ 20241218 ‑ 00704
+Expert consensu s on surgical treatment  and rehabilitation for competitive sports athletes returning 
+to sports after anterior cruciate ligament injury ( version 2025 )  
+Huang Kai
+1
+,  Bai Lunhao
+2
+,  Bi Qing
+3
+,  Chen Hong
+4
+,  Chen Jiwu
+5
+,  Dai Xuesong
+6
+,  Fei Wenyong
+7
+,  Fu Weili
+8
+,  Gao Zhizeng
+9
+,  
+Guo Lin
+10
+,  Hua Yinghui
+11
+,  Huang Jingmin
+12
+,  Huang Suizhu
+13
+,  Huang Xuan
+14
+,  Li Jian
+8
+,  Li Qiang
+15
+,  Li Shuzhen
+16
+,  
+Li Yanlin
+17
+,  Li Yunxia
+11
+,  Li Zhong
+18
+,  Liu Ning
+19
+,  Liu Yuqiang
+19
+,  Lu Wei
+20
+,  Lyu Hongbin
+21
+,  Pan Haile
+22
+,  Pan Xiaoyun
+23
+,  
+Q i Chao
+24
+,  Shen Weiliang
+6
+,  Sun Luning
+25
+,  Tang Jin
+1
+,  Wang Zimin
+26
+,  Wang Bide
+27
+,  Wang Ru
+28
+,  Wang Shaobai
+29
+,  
+Wei Licheng
+30
+,  Xu Weidong
+14
+,  Xu Yongsheng
+31
+,  Yang Jizhou
+32
+,  Yang Liang
+33
+,  Yang Rui
+34
+,  You Hongbo
+35
+,  Yu Tengbo
+36
+,  
+Yu Jiakuo
+37
+,  Yue Bing
+38
+,  Zhang Hua
+39
+,  Zhang Hui
+40
+,  Zhang Qingsong
+41
+,  Zhang Xintao
+42
+,  Zhao Jiajun
+43
+,  
+Zhao Lilian
+44
+,  Zhao Qichun
+45
+,  Zhao Song
+1
+,  Zheng Jiapeng
+46
+,  Zheng Jiang
+47
+,  Zheng Zhi
+1
+,  Zhou Jingbin
+48
+,  
+Zhao Jinzhong
+1
+Sports Medicine Committee of Chinese Research Hospital Association
+1
+Sixth People ′ s Hospital Affiliated to Shanghai Jiao Tong University School of Medicine ,  Shanghai 200233 ,  
+China ;  
+2
+Shengjing Hospital Affiliated to China Medical University ,  Shenyang 110801 ,  China ;  
+3
+Zhejiang Provincial 
+People ′ s Hospital ,  Hangzhou 310014 ,  China ;  
+4
+First Affiliated Hospital of Chongqing Medical University ,  
+Chongqing 400042 ,  China ;  
+5
+First People ′ s Hospital Affiliated to Shanghai Jiao Tong University School of Medicine ,  
+Shanghai 201620 ,  China ;  
+6
+Second Affiliated Hospital ,  Zhejiang University School of Medicine ,  Hangzhou 
+310009 ,  China ;  
+7
+Subei People ′ s Hospital of Jiangsu Province ,  Yangzhou 225003 ,  China ;  
+8
+West China Hospital ,  
+Sichuan University ,  Chengdu 610044 ,  China ;  
+9
+First Affiliated Hospital of Nanchang University ,  Nanchang 
+330006 ,  China ;  
+10
+First Affiliated Hospital of Army Medical University ,  Chongqing 400038 ,  China ;  
+11
+Huashan 
+Hospital ,  Fudan University ,  Shanghai 200040 ,  China ;  
+12
+Tianjin Hospital ,  Tianjin 300211 ,  China ;  
+13
+Luoyang 
+Orthopedic‑Traumatological Hospital of Henan Province ,  Luoyang 450016 ,  China ;  
+14
+First Affiliated Hospital 
+of Naval Medical University ,  Shanghai 200433 ,  China ;  
+15
+First Affiliated Hospital of Fujian Medical University ,  
+Fuzhou 350004 ,  China ;  
+16
+Guangxi Division of First Affiliated Hospital ,  Sun Yat‑sen University ,  Nanning 
+530025 ,  China ;  
+17
+First Affiliated Hospital of Kunming Medical University ,  Kunming 650032 ,  China ;  
+18
+Affiliated 
+Hospital of Southwest Medical University ,  Luzhou 646099 ,  China ;  
+19
+Zhengzhou Orthopedic Hospital ,  Zhengzhou 
+450052 ,  China ;  
+20
+Shenzhen International Sports Medicine and Rehabilitation Center ,  Southern Medical University ,  
+Shenzhen 510086 ,  China ;  
+21
+Xiangya Hospital of Central South University ,  Changsha 410008 ,  China ;  
+22
+Second 
+Affiliated Hospital of Harbin Medical University ,  Harbin 150086 ,  China ;  
+23
+Second Affiliated Hospital of Wenzhou 
+Medical University ,  Wenzhou 325027 ,  China ;  
+24
+Affiliated Hospital of Qingdao University ,  Qingdao 266000 ,  
+China ;  
+25
+Affiliated Hospital of Nanjing University of Chinese Medicine ,  Nanjing 210023 ,  China ;  
+26
+Ninth People ′ s 
+Hospital Affiliated to Shanghai Jiao Tong University School of Medicine ,  Shanghai 200011 ,  China ;  
+27
+Shanghai 
+Competitive Sports Training Management Center ,  Shanghai 202183 ,  China ;  
+28
+Shanghai University of Sport ,  
+Shanghai 200438 ,  China ;  
+29
+Shanghai Zhuoxin Medical Technology Co . ,  Ltd . ,  Shanghai 201210 ,  China ;  
+30
+Changsha Fourth Hospital ,  Changsha 410000 ,  China ;
+31
+People ′ s Hospital of Inner Mongolia Autonomous 
+Region ,  Hohhot 750306 ,  China ;  
+32
+Dongzhimen Hospital of Beijing University of Chinese Medicine ,  Beijing 100007 ,  
+China ;  
+33
+Second Affiliated Hospital of Dalian Medical University ,  Dalian 116023 ,  China ;  
+34
+Sun Yat‑sen Memorial 
+Hospital ,  Sun Yat‑sen University ,  Guangzhou 510120 ,  China ;  
+35
+Tongji Hospital Affiliated to Tongji Medical 
+College of Huazhong University of Science and Technology ,  Wuhan 430030 ,  China ;  
+36
+Qingdao Municipal 
+Hospital Affiliated to Rehabilitation University ,  Qingdao 266000 ,  China ;  
+37
+Beijing Tsinghua Changgung 
+Hospital Affiliated to Tsinghua University ,  Beijing 102218 ,  China ;  
+38
+Renji Hospital Affiliated to Shanghai Jiao 
+·· 326
+中华创伤杂志  2025  年 4  月第  41  卷第  4  期　 Chin J Trauma ,  April 2025 ,  Vol .  41 ,  No .  4
+Tong University School of Medicine ,  Shanghai 200001 ,  C hina ;
+39
+Fujian Medical University Union Hospital ,  
+Fuzhou 350001 ,  China ;  
+40
+Beijing Jishuitan Hospital ,  Beijing 102208 ,  China ;  
+41
+Wuhan Fourth Hospital ,  Wuhan 
+430033 ,  China ;  
+42
+Peking University Shenzhen Hospital ,  Shenzhen 518036 ,  China ;  
+43
+Henan Provincial People ′ s 
+Hospital ,  Zhengzhou 450003 ,  China ;  
+44
+Foshan Hospital of Traditional Chinese Medicine ,  Foshan 528099 ,  China ;  
+45
+First Affiliated Hospital of University of Science and Technology of China ,  Hefei 230002 ,  China ;  
+46
+Southeast 
+Hospital Affiliated to Xiamen University ,  Xiamen 363020 ,  China ;  
+47
+Honghui Hospital ,  Xi ′ an Jiaotong 
+University School of Medicine ,  Xi ′ an 710054 ,  China ;  
+48
+Beijing Chao ‑ Yang Hospital ,  Capital Medical University ,  
+Beijing 100020 ,  China
+Corresponding author :  Zhao Jinzhong ,  Email :  jzzhao@ sjtu . edu . cn
+【 Abstract 】  With the rapid development of competitive sports ,  the incidence of anterior cruciate 
+ligament ( ACL )  injury is on the rise .  Such injuries may shorten athletes ′  career and lead to other long‑term 
+adverse consequences .  Although athletes generally recover well after ACL reconstruction ,  many still struggle to 
+return to their pre‑injury performance levels .  Advances in the understanding of ACL anatomy and injury 
+mechanisms ,  along with the evolution of surgical techniques and rehabilitation methods ,  have provided more 
+individualized and tailored options for athletes following ACL injuries .  However ,  there is currently no 
+consensus in China regarding surgical and rehabilitation strategies for competitive athletes aiming to return 
+to sports after ACL injuries .  To this end ,  the Sports Medicine Committee of the Chinese Research Hospital 
+Association and the Editorial Board of the Chinese Journal of Trauma jointly formulated the Expert consensus 
+on surgical treatment and rehabilitation for competitive sports athletes returning to sports after anterior cruciate 
+ligament injury  ( version 2025 ),  and presented 14  recommendations covering surgical indications ,  preoperative 
+rehabilitation ,  surgical timing ,  surgical strategies and postoperative rehabilitation strategies ,  aiming to 
+improve the surgical treatment and rehabilitation system for ACL injuries in competitive athletes and 
+facilitate their return to high‑level sports performance after injury .
+【 Key  words 】  Anterior cruciate ligament ,  injuries ;  Sports medicine ;  Surgical procedures ,  operative ;  
+Rehabilitation ;  Athletes
+Fund program :  Shanghai "Science and Technology Innovation Action Plan" Science and Technology 
+and Social Development Research Project ( 22 dz 1204700 )
+Practice guideline registration for transparency :  PREPARE - 2024 CN 011
+DOI ： 10 . 3760 /cma . j . cn 501098 ‑ 20241218 ‑ 00704
+竞技体育运动员是专业从事某项体育运动训
+练和参加比赛的人员 ， 其目标是追求高水平的运动
+成绩及赢得比赛
+［ 1 ］
+。 竞技体育运动员的前交叉韧带
+（ anterior cruciate ligament ， ACL ） 损伤十分常见 ， 参加
+篮球 、 足球 、 手球等转向运动项目的竞技体育运动
+员发生率最高 ， 可达 10 %~ 15 %
+［ 2 ‑ 3 ］
+。 ACL 损伤最常
+见模式是非接触性损伤 ， 即在膝关节处于略微弯曲
+外翻状态时 ， 在旋转 、 跳跃过程中突然减速或变向
+引起的损伤 ， 该损伤通常会导致膝关节不稳定及运
+动障碍
+［ 4 ］
+。 ACL 重建术是常用的治疗方法 ， 但术后
+仅有 65 % 的患者能重返运动 （ return to sports ）
+［ 5 ］
+。 重
+返运动是指运动员回归运动且具备参与竞技比赛
+的能力 。 竞技体育运动员术后重返运动比例相对
+较高 ， 可达 83 %~ 95 %
+［ 5 ‑ 6 ］
+， 但其竞技水平通常会较术
+前下降 ， 职业生涯明显缩短 ， 同时还将承受较高的
+韧带再损伤风险
+［ 7 ‑ 9 ］
+。 对于竞技体育运动员而言 ， 终
+极康复目标是恢复韧带损伤前的竞技运动水平 。
+针对运动员 ACL 损伤后重返运动比例较低及运动
+水平下降的问题 ， 国内外学者在围术期治疗及康复
+方面已有大量研究 ， 但目前还缺乏系统性的专家共
+识统筹指导 。 因此 ， 针对竞技体育运动员的 ACL 损
+伤 ， 亟待深入探讨其规范化手术治疗及康复策略 ，
+从而提升重返运动的比例及水平 。 为此 ， 由中国研
+究型医院学会运动医学专业委员会和 《 中华创伤杂
+志 》 编辑委员会组织国内专注于 ACL 损伤诊治的专
+家 ， 在遵循科学性 、 先进性和实用性原则的基础上 ，
+采取改良德尔菲法 ， 制订 《 竞技体育运动员前交叉
+韧带损伤后重返运动的手术与康复治疗专家共识
+（ 2025 版 ） 》 （ 以下简称 “ 本共识 ” ） ， 针对竞技体育运 动
+员 ACL 损伤的手术适应证 、 术前康复 、 治疗时机 、 手
+术方式及术后康复策略提出 14 条推荐意见 ， 旨在完
+善竞技体育运动员 ACL 损伤的手术治疗及康复体
+系 ， 促进运动员 ACL 损伤后重返高水平专项运动 。
+1  方法学
+1 . 1  共识制订过程
+本共识起草小组于 2023 年 6 月正式成立 ， 由起
+草小组组长牵头 ， 编制专家组初步名单 。 该名单以
+中国研究型医院学会运动医学专业委员会的委员
+为主体 ， 特别注重选取对运动员 ACL 损伤的诊治康
+·· 327
+中华创伤杂志  2025  年 4  月第  41  卷第  4  期　 Chin J Trauma ,  April 2025 ,  Vol .  41 ,  No .  4
+复具备丰富临床经验 、 研究经验或有深入了解的专
+家 。 在确保专家组成员的专业性和代表性的基础
+上 ， 起草小组发出正式邀请信 ， 并在收到确认回复
+后 ， 拟定参与共识制订的专家名单 。 最终参与共识
+的专家共有 57 名 ， 其中 51 名为资深的具备运动员
+ACL 损伤诊治经验的运动医学外科医师兼康复指
+导师 ， 3 名为专职康复医师 ， 1 名为运动医学专科护
+理人员 ， 2 名为体育科学或运动科学研究专家 。
+本共识的制订严格遵循改良德尔菲法 。 起草
+小组首先将相关文献资料及初步分析结果汇总成
+52 个条目呈现给各专家 ， 启动重要条目筛选工作 。
+经过对条目重要性 （ 非内容 ） 进行表决 ， 以超过 75 %
+的专家认为该条目具备相关重要性为标准 ， 最终获
+得 14 项重要推荐条目 。 随后通过 3 次线上会议和
+3 次线下会议对各个推荐条目进行多轮审核及修
+订 ， 就条目涵盖内容和表达方式提出意见并修订 。
+最终对 “ 共识草案第三稿 ” 进行举手表决 ， 并现场计
+票 。 专家可投赞同票 、 弃权票与反对票 。 当赞 同
+率 ≥ 85 % ， 则 认 为 草 案 条 款 通 过 ， 并 依 据 达 成 的 赞
+同 率 将 共 识 度 分 为 3 个 等 级 ： 高 度 共 识 （ 95 %~
+100 % ） 、 普 遍 共 识 （ 90 %~ 95 % ） 、 基 本 共 识 （ 85 %~
+90 % ） ， 最终形成共识草案终稿 ， 共计形成 14 项意
+见 ， 其中高度共识 10 项 ， 普遍共识 4 项 。 本共识适
+用对象涵盖运动医学科 、 骨科 、 关节外科 、 康复科及
+放射科的医护人员 ， 同时也适用于体育机构和卫生
+保健机构的训练师 、 康复师和治疗师等 。
+1 . 2  文献检索策略
+本共识起草小组通过初步文献检索了解与竞
+技 体 育 运 动 员 ACL 损 伤 、 ACL 重 建 及 重 返 运 动 可
+能 相关的项目 。 计算机检索中国生物医学文献数
+据 库 （ CBM ） 和 万 方 数 据 知 识 服 务 平 台 、 PubMed 、
+Cochrane Library ， 检 索 时 限 为 各 数 据 库 建 立 至
+2023 年 6 月 ， 并于 2024 年 7 月对近 1 年的文献进行
+补充 。 其中中文检索词为 “ 运动员 ” “ 前交叉韧带损
+伤或前交叉韧带撕裂 ” “ 前交叉韧带重建 ” “ 重返运 动 ” ，
+英 文 检 索 词 为 “ athlete ” “ anterior cruciate ligamen t 
+injury or ACL injury ” “ anterior cruciate ligament tear 
+or ACL tear ” “ anterior cruciate ligament reconstruction 
+or ACLR ” “ return to sports or RTS ” 。
+文 献 纳 入 标 准 ： （ 1 ） 与 运 动 员 或 运 动 爱 好 者
+ACL 损伤相关的临床研究 ； （ 2 ） 文献类型为原创性
+研究 、 系统性综述 、 荟萃分析等 ； （ 3 ） 已发表的相关
+临床指南或专家共识 。 文献排除标准 ： （ 1 ） 内容重
+复 ； （ 2 ） 文献类型为会议摘要 、 信件 、 勘误 、 评论等 ；
+（ 3 ） 除中文和英文外其余语种的文献 。 最终引用文
+献 100 篇 ， 其中英文 97 篇 ， 中文 3 篇 。
+依据患者群体 、 干预措施 、 对照 、 结局指标 、 研
+究类型 （ PICOS ） 原则提取信息 ， 对可能关注的项目
+进行系统回顾和可能的荟萃分析 ， 并提供给所有专
+家 ， 以备专家在重要条目遴选 、 条目语言组织表达
+及对相关条目表达推荐意见时参考 。
+1 . 3  文献证据等级评定和推荐意见强度
+本共识的文献证据水平根据牛津大学循证医
+学中心 （ OCEBM ） 制订的证据等级标准
+［ 10 ］
+， 结合相关
+研究的类型和质量 ， 将证据质量等级分为 1 a 、 1 b 、
+1 c 、 2 a 、 2 b 、 2 c 、 3 a 、 3 b 、 4 、 5 级 （ 表 1 ） 。
+根据 OCEBM 的推荐强度划分标准
+［ 10 ］
+（ 表 2 ） ， 参
+照文献证据等级标准确定推荐强度 。
+表 1 　 OCEBM 的证据等级划分
+证据级别
+1 a
+1 b
+1 c
+2 a
+2 b
+2 c
+3 a
+3 b
+4
+5
+划分标准
+同质性较好的 RCT 系统评价或同质性良好的队列研究
+系统评价
+95 % CI 较窄的单项 RCT ； 单项起点一致的队列研究 ， 随
+访率 ≥ 80 %
+干预措施疗效为 “ 全 ” 或 “ 无 ” 的病例报告 ， 如传统治疗
+全部无效 ， 系列病例报告全部死亡或全部生存
+同质性较好的队列研究的系统评价
+单项队列研究 （ 包括质量较差的 RCT ， 随访率 < 80 % ） ；
+基于回顾性队列研究的系统评价
+基于患者结局的研究
+同质性较好的病例对照研究的系统评价
+单项病例对照研究
+系列病例分析或质量差的病例对照研究 ； 系列病例报
+告 / 质量较差的队列研究 ， 随访率 < 80 %
+基于经验或未经严格论证的专家意见或在病理生理 、
+实验室研究基础上的意见
+注 ： OCEBM 为牛津大学循证医学中心 ， RCT 为随机对照试验
+表 2 　 OCEBM 的推荐强度划分
+推荐强度
+A
+B
+C
+D
+划分标准
+证据极有效 （ 证据等级为 1 级 ） ， 推荐
+证据有效 （ 证据等级为 2 级和 3 级 ） ， 可推荐 ， 可能会在
+将来出现更高质量的新证据后而改变
+证据在一定条件下有效 （ 证据等级为 4 级 ） ， 应谨慎应
+用研究结果
+证据的有效性具有局限性 （ 证据等级为 5 级 ） ， 只在较
+窄的范围内有效
+注 ： OCEBM 为牛津大学循证医学中心
+·· 328
+中华创伤杂志  2025  年 4  月第  41  卷第  4  期　 Chin J Trauma ,  April 2025 ,  Vol .  41 ,  No .  4
+2  竞技体育运动员 ACL 损伤后重返运动的手术与
+康复治疗推荐意见
+竞技体育运动员 ACL 损伤的发生受环境 、 竞赛
+项 目 、 解 剖 、 性 别 、 神 经 肌 肉 等 多 项 风 险 因 素 影
+响
+［ 11 ‑ 13 ］
+。 ACL 损伤的治疗涉及手术和非手术选择 ，
+因神经肌肉系统在实现动态 、 功能性膝关节稳定方
+面具有良好的适应能力 ， 非手术治疗是部分患者的
+可行选项
+［ 14 ‑ 16 ］
+。 但在膝关节不稳定状态下长期的剧
+烈运动将导致创伤性膝关节骨关节炎 （ KOA ） 的发
+生 。 运动员 ACL 损伤后 ， 未经手术治疗者患 KOA 的
+概率高于手术治疗者
+［ 17 ］
+。 因此 ， 手术治疗和围术期
+康复仍然是恢复膝关节稳定性并重返运动的主要
+选择 。 本共识着重关注竞技体育运动员 ACL 损伤
+后的手术策略 、 围术期康复和术后重返运动的标准
+和目标 。
+2 . 1  手术适应证
+对于 ACL 损伤 ， 手术与非手术治疗均可 ， 但手 术
+治疗是恢复膝关节旋转稳定性的最佳选择 。 若患
+者希望恢复转向性竞技运动能力 ， 应考虑行 ACL 重
+建术 。 同时 ， 若选择非手术治疗后并经过积极的康 复
+训练 ， 膝关节稳定性仍未改善 ， 也应实施手术治疗 。
+推荐意见 1 ： ACL 损伤后手术是运动员实现长
+期参与竞技性转向运动的首选治疗方式 （ 推荐强
+度 ： B 级 ； 共识度 ： 96 . 43 % ） 。
+共纳入文献证据 4 项 ， 其中 2 b 级证据 1 项
+［ 18 ］
+，
+2 c 级证据 2 项
+［ 6 ， 19 ］
+， 3 a 级证据 1 项
+［ 20 ］
+。
+竞技体育运动员 ACL 损伤后并非均需要手术
+治疗 ， 但 ACL 重建术能为继续参加竞技性转向运动
+提供更好的机会 。 研究结果表明 ， 经手术治疗的患
+者恢复竞技性转向运动的比例可达非手术治疗患
+者的 3 倍
+［ 20 ］
+。 一项纳入 24  000 例患者的配对研究比
+较 ACL 损伤后的手术和非手术治疗效果 ， 结果表
+明 ， 手术组在 1 、 2 和 5 年随访时的生活质量 、 膝关节
+功能及症状均较非手术组显著改善
+［ 19 ］
+。 一般来说 ，
+竞技体育运动员在 ACL 重建术后比休闲运动员更
+容 易 恢 复 到 损 伤 前 的 运 动 水 平
+［ 6 ， 18 ］
+。 研 究 结 果 表
+明 ， 职业足球和篮球运动员在 ACL 损伤并接受手术
+治疗后重返运 动的比例分别为 78 . 0 % 和 82 . 0 % ； 相
+比之下 ， 只有 12 . 8 % 的高水平运动员在非手术治疗
+后恢复到伤前运动水平 ， 存在更高的继发性半月板
+和软骨损伤的风险
+［ 6 ］
+。 因此 ， 对于希望恢复转向和
+跳跃运动能力的竞技体育运动员 ， ACL 重建术是实
+现长期参与运动这一目标的首选治疗方式 。
+推荐意见 2 ： ACL 损伤如经积极非手术治疗后 ，
+运动员在运动中仍出现与旋转不稳定相关的反复 扭
+伤 ， 应行手术治疗 （ 推荐强度 ： A 级 ； 共识度 ： 100 % ） 。
+共纳入文献证据 6 项 ， 其中 1 b 级证据 1 项
+［ 21 ］
+，
+3 a 级证据 2 项
+［ 22 ‑ 23 ］
+， 3 b 级证据 3 项
+［ 24 ‑ 26 ］
+。
+竞技体育运动员在 ACL 损伤后 ， 采取非手术治
+疗并进行积极康复训练后 ， 若在运动中出现反复扭
+伤之类的 “ 打软腿 ” 现象 ， 在确认与旋转不稳定有关
+后 （ 需排除髌骨不稳定等问题 ） ， 应采取手术治疗 。
+膝关节旋转不稳定持续发生是 ACL 损伤后继发半
+月板和软骨损伤的明确危险因素 。 研究结果表明 ，
+每发生一次 “ 打软腿 ” ， 外侧半月板损伤的概率增加
+3 倍
+［ 24 ］
+。 “ 打软腿 ” 的频繁发作也与内侧半月板损伤
+和软骨损伤相关
+［ 22 ， 26 ］
+。 另外 ， 如果为 ACL 部分撕裂 ，
+患者在非手术治疗后仍参与转向性接触运动 ， 可能
+发展为完全撕裂 。 年龄 ≤ 35 岁和参与转向性接触运
+动被认为是 ACL 损伤进展的重要危险因素 ； 47 . 3 %
+的年轻 、 活跃的 ACL 部分撕裂患者在非手术治疗后
+进展为完全撕裂
+［ 25 ］
+。 接受非手术治疗的运动员常
+因 各 种 因 素 转 为 手 术 治 疗 。 一 项 随 机 对 照 试 验
+（ RCT ） 比较 121 名年轻 、 活跃 、 单侧 ACL 撕裂的休闲
+运动员手术和非手术治疗效果 ， 结果表明 ， 最初被
+分配到非手术治疗组中有近 40 % 的运动员后期又
+行 ACL 重建术 ， 32 % 的运动员在 2 年的随访期因半
+月板损伤行后续手术 ； 相比之下 ， 手术治疗组中只
+有 10 % 的运动员半月板损伤需要再次手术治疗
+［ 21 ］
+。
+综合采用跳跃测试 、 肌肉力量检测 、 主观旋转不稳
+定分析等方法 ， 可以识别潜在并发症风险 ， 从而确
+定向手术治疗转换的策略及时机
+［ 23 ］
+。
+2 . 2  术前康复
+选择手术治疗的运动员需进行术前康复指导 ，
+术前康复主要包含关节活动度及肌力训练 ， 积极的
+术前康复能有效提高手术成功率和重返运动比例 。
+推荐意见 3 ： 在 ACL 重建术前 ， 可对患膝行损伤
+症状控制和神经肌肉康复训练 （ 推荐强度 ： A 级 ； 共
+识度 ： 98 . 21 % ） 。
+共纳入文献证据 8 项 ， 其中 2 a 级证据 1 项
+［ 27 ］
+，
+2 b 级 证 据 2 项
+［ 28 ‑ 29 ］
+， 3 a 级 证 据 2 项
+［ 23 ，  30 ］
+， 3 b 级 证 据
+2 项
+［ 31 ‑ 32 ］
+， 5 级证据 1 项
+［ 33 ］
+。
+患肢膝关节积液 、 关节活动度 （ ROM ） 受限和股
+四头肌力量下降是 ACL 损伤后的常见症状 ， 渐进式
+康复能有效缓解这些症状
+［ 23 ， 33 ］
+。 通过术前康复训练
+可获得良好的 ROM 和股四头肌力量 ， 能够促进 ACL
+·· 329
+中华创伤杂志  2025  年 4  月第  41  卷第  4  期　 Chin J Trauma ,  April 2025 ,  Vol .  41 ,  No .  4
+重建术后膝关节功能的恢复 。 术前康复一般分为
+2 个阶段 ： 第一阶段主要应对炎症和 ROM 受限 ； 第
+二阶段主要恢复肌肉力量和神经肌肉反应性 。 术
+前康复训练内容包括伸膝压腿 、 踝泵 、 锻炼后冰敷 ，
+以及直腿抬高 、 股四头肌强化练习和浅蹲等
+［ 28 ］
+。 研
+究结果表明 ， 与未接受术前康复的患者相比 ， 术前
+康复组在 ACL 重建术后 2 年获得更好的国际膝关节
+文献委员会 （ IKDC ） 评分 、 膝关节损伤和骨关节炎结
+果评分 （ KOOS ） 和更高的重返运动的比例
+［ 30 ］
+。 术前
+ROM 受限的患者 ， 在 ACL 重建术后 1 年的膝关节功
+能更差 ； 术前 ROM 受限是术后 ROM 受限的一个预
+测指标
+［ 27 ］
+。 术前实现完全对称的 ROM 也可降低关
+节纤维化的风险 ， 改善预后
+［ 31 ］
+。 术前患侧股四头肌
+力量达到对侧的 80 % 以上有利于术后完全康复 ， 且
+术前肢体对称指数 （ LSI ） 达到 85 % 以上也有利于预
+后
+［ 29 ， 32 ］
+。 因此 ， 竞技体育运动员 ACL 损伤后建议积
+极进行康复训练 ， 作为被动等待手术期间的一种积
+极应对方式 。
+2 . 3  手术时机
+运动员在 ACL 损伤后若选择手术治疗 ， 早期还
+是延迟 ACL 重建 ， 目前尚无定论 。 本共识建议在损
+伤症状基本控制和充分的术前康复基础上及早行
+手术治疗 ， 因延迟 ACL 重建与半月板和关节软骨损
+伤呈正相关 ， 而早期行 ACL 重建术的关节纤维化风
+险可以通过术前康复有效规避 。
+推荐意见 4 ： ACL 损伤后 ， 可在完成术前康复目
+标后及早行 ACL 重建术 ， 以避免延迟重建带来软骨 和
+半月板损伤风险 （ 推荐强度 ： B 级 ； 共识度 ： 91 . 07 % ） 。
+共纳入文献证据 7 项 ， 其中 2 a 级证据 1 项
+［ 34 ］
+，
+2 b 级证据 1 项
+［ 35 ］
+， 3 b 级证据 4 项
+［ 36 ‑ 39 ］
+， 4 级证据 1 项
+［ 40 ］
+。
+关 于 ACL 损 伤 患 者 的 手 术 时 机 ， 传 统 观 念 认
+为 ， 等待炎症消退再行 ACL 重建术有助于提高重返
+运动比例 ， 因为术前膝关节刺激与术后关节纤维化
+显 著 相 关
+［ 36 ］
+。 有 学 者 发 现 ， 与 延 迟 手 术 （ 伤 后 6 ~
+10 周 ） 相比 ， 伤后 8  d 内早期 ACL 重建不会对 ROM
+产生不利影响或导致膝关节僵硬
+［ 35 ］
+。 系统综述显
+示 ， 早期 （ < 6 周 ） 与延迟 ACL 重建在 ROM 、 膝关节稳
+定性 、 Tegner 评分 、 IKDC 评分和不良并发症等方面
+均无显著差异
+［ 34 ］
+。 研究结果表明 ， 尽管早期重建组
+（ < 6 周 ） 关节液中炎症指标 ［ 如白细胞介素 ‑ 6（ IL‑ 6 ） ］
+较延迟重建组 （ > 12 周 ） 显著升高 ， 但术后 ROM 、 关节
+稳定性及功能评分均无显著差异
+［ 37 ］
+。 关节纤维化
+风险与关节液内碱性成纤维细胞生长因子 （ bFGF ）
+和受激活调节正常 T 细胞表达和分泌因子 （ RANTES ）
+相关 ， 而与炎症因子无关
+［ 38 ］
+。 因术前 ROM 受限和肌
+力减弱会影响术后康复 ， 建议完成术前康复目标
+（ ROM 达到 0 °~ 120 ° ， 患侧股四头肌力量达到对侧的
+80 % 以 上 ） 后 可 及 早 进 行 手 术 。 因 受 各 种 因 素 影
+响 ， 延迟 ACL 重建可能是一种选择 ， 但还需要考虑
+继发损伤的风险和较差的长期预后 。 有学者回顾
+性分析 1  317 例行 ACL 重建术患者资料 ， 发现延迟
+重建与内侧软骨损伤发生率和严重程度呈时间效
+应关系
+［ 40 ］
+。 此外 ， 系统综述显示 ， 伤后 3 个月内手术
+与较低的包括半月板和软骨损伤在内的关节内损
+伤风险相关 ； 延迟手术时 ， 年轻运动员似乎面临更
+高的软骨损伤风险
+［ 39 ］
+。
+2 . 4  手术与康复治疗策略
+运动员在 ACL 损伤后若选择手术治疗 ， 需要进
+行综合评估并制订手术策略 ， 从而提高重返运动的
+比例 。 若存在增加 ACL 损伤风险的解剖结构异常 ，
+需提前或同步矫正 ； 术前需考虑 ACL 重建术的移植
+物来源和移植物直径 ； 对于高度旋转不稳定或翻修
+患者 ， 应考虑实施增强重建 ； 若存在半月板或软骨
+损伤等合并伤 ， 应在行 ACL 重建术的同时解决 。
+推荐意见 5 ： ACL 解剖结构异常会增加 ACL 重
+建后再撕裂的风险 ， 在准备行 ACL 重建术时应考 虑
+对相关解剖异常先行或同时行矫正 （ 推荐强度 ： B 级 ；
+共识度 ： 94 . 64 % ） 。
+共纳入文献证据 4 项 ， 其中 3 a 级证据 1 项
+［ 41 ］
+，
+3 b 级证据 3 项
+［ 42 ‑ 44 ］
+。
+对 于 竞 技 体 育 运 动 员 来 讲 ， 在 行 ACL 重 建 术
+前 ， 需充分考虑可能导致 ACL 重建后再撕裂的危险
+因素 。 研究结果表明 ， 多项骨形态结构异常会影响
+ACL 重建后的关节稳定性 ， 有异常者更易发生 ACL
+二次损伤 ， 导致翻修 。 胫骨平台后倾角增加 （ > 12 ° ）
+会加重胫骨前移和旋转不稳定 ， 与 ACL 损伤及重建
+后再撕裂相关
+［ 42 ］
+。 股骨外髁后部占全髁长度的比
+值增加也与更严重的旋转不稳定相关
+［ 43 ］
+。 髁间凹
+宽度指数 （ 腘肌腱水平股骨髁间凹宽度与内外髁宽
+度的比值 ） 较低 ， 即髁间凹狭窄也与 ACL 损伤正相
+关
+［ 41 ］
+。 严重膝内翻 （ > 5 ° ） 与膝关节内侧腔室更快退
+变相关 ， 也是 ACL 重建后继发损伤的危险因素
+［ 44 ］
+。
+此类结构异常应在术前详细排查 ， 必要时 先行矫正 ，
+可有效降低 ACL 重建后再撕裂 率 。
+推荐意见 6 ： 在行 ACL 重建术时 ， 相比于同种
+异 体 移 植 物 ， 可 多 使 用 自 体 移 植 物 ， 后 者 重 建 后
+·· 330
+中华创伤杂志  2025  年 4  月第  41  卷第  4  期　 Chin J Trauma ,  April 2025 ,  Vol .  41 ,  No .  4
+运 动员重返运动的比例更高 （ 推荐强度 ： B 级 ； 共识
+度 ： 98 . 21 % ） 。
+共纳入文献证据 3 项 ， 其中 3 b 级证据 1 项
+［ 45 ］
+，
+4 级证据 2 项
+［ 46 ‑ 47 ］
+。
+对于竞技体育运动员来说 ， 初发性 ACL 损伤时
+通常建议使用自体移植物重建 。 虽然同种异体移
+植物具有手术时间短 、 移植物大小可预测 、 无取腱
+部位并发症等相对优势 ， 但仍不建议在竞技体育运
+动员的首次 ACL 重建术中使用 。 研究结果表明 ， 使
+用同种异体移植物重建术后 ， ACL 再撕裂率可达使
+用自体移植物重建术后的 13 倍 ， 尤其是使用高剂量
+（ > 2 . 5
+- 4
+ Gy ） 辐照的同种异体移植物 ； 同时 ， 使用同种
+异体移植物行 ACL 重建术的患者较使用自体肌腱
+患者重返运动的比例降低 （ 43 % ∶ 75 % ）
+［ 45 ］
+。 在自体
+移植物选择方面 ， 腘绳肌肌腱 （ HT ） 和腓骨长肌腱为
+中国医师的首选 ， 骨 ‑ 髌腱 ‑ 骨 （ BPTB ） 和股四头肌腱
+在欧美仍然常用 。 而关于选择哪种自体移植物能
+使从事高水平比赛的运动员更好地恢复运动 ， 仍然
+缺乏共识 。 研究结果表明 ， 使用自体 BPTB 作为移
+植物行 ACL 重建术患者 ， 其术后重返运动的比例较
+使用自体 HT 者更高 （ 81 . 0 % ∶ 70 . 6 % ） ， 但两者重返运
+动比例相似 ， ACL 再撕裂率也相近
+［ 46 ］
+。 HT 移植物的
+切取与 ACL 重建后持久的屈膝无力及隐神经损伤
+相关 ， 而 BPTB 自体移植物的缺点则是较高的顽固
+性膝前疼痛发生率
+［ 47 ］
+。
+推荐意见 7 ： 针对竞技体育运动员对膝关节稳
+定性高的要求 ， 使用自体 HT 重建 ACL 时 ， 可制备成
+等效直径 ≥ 9  mm 的移植物 ， 并行 ACL 解剖重建 （ 推
+荐强度 ： A 级 ； 共识度 ： 91 . 07 % ） 。
+共纳入文献证据 9 项 ， 其中 1 b 级证据 2 项
+［ 48 ‑ 49 ］
+，
+2 b 级 证 据 3 项
+［ 50 ‑ 52 ］
+， 3 b 级 证 据 2 项
+［ 53 ‑ 54 ］
+， 4 级 证 据
+1 项
+［ 55 ］
+， 5 级证据 1 项
+［ 56 ］
+。
+竞技体育运动员原始 ACL 最大载荷就高于常
+人 ， 因此在行 ACL 重建术时 ， 对移植物强度或自体
+肌腱移植物的直径需特别关注 。 关于 ACL 重建术
+的移植物直径 ， 有系统综述显示 ， 使用自体 HT 初次
+行 ACL 重建术时 ， 移植物直径在 7 ~ 10  mm 之间每增
+加 0 . 5  mm ， 术后的翻修率降低 14 %
+［ 51 ］
+。 当自体 HT 移植
+物直径 ≥ 8  mm 时 ， ACL 重建术翻修率 明显降低
+［ 52 ‑ 53 ］
+。
+对二项 ACL 重建患者平均随访 14 个月的研究结果
+表明 ， 当自体移植物直径 ≥ 9  mm 时的翻修率为 0
+［ 54 ］
+。
+因此 ， 对于竞技体育运动员 ， 不管是行 ACL 单束还
+是双束重建 ， 追求等效直径 ≥ 9  mm 的自体移植物是
+较合理的选择 。 临床实践中 ， 用自体 HT 制成 7 ~ 8 股
+移植物可充分利用肌腱达到直径最大化 ， 若自体 HT
+较细较短 ， 不能在满足移植物长度的基础上满足移
+植物直径 ， 可考虑加用其他自体肌腱 ， 如腓骨长肌
+腱作为补充
+［ 56 ］
+。 至于具体重建方式 ， 首先提倡 ACL
+解剖重建 。 一项随访至少 10 年的研究结果表明 ， 与
+非解剖技术相比 ， 解剖型 ACL 重建术能降低创伤
+后 KOA 的发生和进展
+［ 55 ］
+。 在 ACL 的单束和双束重
+建方面 ， 使用 HT 作为移植物时 ， 接受解剖双束重建
+的患者比接受解剖单束重建者术后 2 年的膝关节旋
+转稳定性更强 ， 重返运动比例更高 ， 并发症发生率
+更低
+［ 48 ‑ 50 ］
+。 然而 ， 由于 ACL 解剖双束重建复杂程度
+高 ， 建议在熟练掌握 ACL 解剖单束重建的基础上
+稳 步开展 。
+推荐意见 8 ： 对于竞技体育运动员 ， 可尝试使用
+高强度不可自体化人工韧带行 ACL 重建术 （ 推荐强
+度 ： B 级 ； 共识度 ： 92 . 86 % ） 。
+共纳入文献证据 7 项 ， 其中 2 a 级证据 1 项
+［ 57 ］
+，
+2 b 级证据 1 项
+［ 58 ］
+， 3 a 级证据 1 项
+［ 59 ］
+， 3 b 级证据 1 项
+［ 60 ］
+，
+4 级证据 2 项
+［ 61 ‑ 62 ］
+， 5 级证据 1 项
+［ 63 ］
+。
+使用自体移植物重建 ACL 后 ， 移植物必须在韧
+带化后才能最大限度承力 。 该生物学过程可能持
+续半年至 1 年 ， 甚至更长时间 ， 该过程阻碍了患者及
+早恢复运动 。 高强度不可自体化人工韧带在植入
+后不需要经历韧带化即可最大限度承力 ， 能满足竞
+技体育运动员尽早恢复运动的要求 。 目前 ， 使用最
+多 的 高 强 度 人 工 韧 带 由 聚 对 苯 二 甲 酸 乙 二 醇 酯
+（ PET ） 合成 ， 移植物与骨的连接依靠界面螺钉的机
+械固定
+［ 63 ］
+。 研究结果表明 ， 相比于使用自体或异体
+移植物 ， 使用 PET 人工韧带可提前 4 ~ 6 个月重返运
+动
+［ 57 ， 60 ］
+。 有学者发现 ， 竞技体育运动员使用 PET 人
+工韧带重建 ACL ， 较使用天然移植物术后能更快地
+重返运动
+［ 59 ］
+。 多项研究结果表明 ， 使用 PET 人工韧
+带重建 ACL ， 术后中短期 （ 2 ~ 5 年 ） 能获得与使用自
+体 HT 或 BPTB 相近甚至更好的膝关节稳定性和功
+能评分
+［ 58 ， 61 ‑ 62 ］
+。 然而 ， 目前市面上 PET 人工韧带缺乏
+天然韧带的可延伸性 ， 对隧道定位和移植物固定时
+屈膝角度的容错性很低 ， 对韧带重建方式有严格的
+要求 ， 等长或类等长单束重建是最常用选择 。 当
+然 ， 如 果 能 熟 练 掌 握 ACL 解 剖 双 束 重 建 ， 对 双 束
+ACL 在膝关节活动过程中的伸缩及张力变化规律
+有充分了解 ， 也可考虑使用 PET 人工韧带行 ACL 双
+束 重 建 ， 以 便 充 分 利 用 PET 人 工 韧 带 高 强 度 的 特
+·· 331
+中华创伤杂志  2025  年 4  月第  41  卷第  4  期　 Chin J Trauma ,  April 2025 ,  Vol .  41 ,  No .  4
+性 ， 更好地满足尽早做高强度对抗的要求 。
+推荐意见 9 ： 对竞技体育运动员行 ACL 重建术
+时 ， 如果发现存在高度的膝关节前向或旋转松弛 ，
+或者为翻修患者 ， 建议同步行关节外增强术 （ 推荐
+强度 ： A 级 ； 共识度 ： 96 . 43 % ） 。
+共纳入文献证据 8 项 ， 其中 1 a 级证据 2 项
+［ 64 ‑ 65 ］
+，
+1 b 级证据 1 项
+［ 66 ］
+， 2 b 级证据 1 项
+［ 67 ］
+， 4 级证据 2 项
+［ 68 ‑ 69 ］
+，
+5 级证据 2 项
+［ 70 ‑ 71 ］
+。
+ACL 损伤患者中存在具有 ACL 重建术高失效
+风险的群体 。 该高失效风险的相关因素包括年轻
+患者 ， 以及从事剧烈运动 、 膝关节前向松弛度或旋
+转松弛度过高 、 多关节松弛及翻修患者等
+［ 66 ］
+。 竞技
+体育运动员单纯从运动特性方面分析就属于高失
+效风险患者群体 。 如果患者同时合并高度的膝关
+节前向或旋转松弛 （ 术中轴移试验 Ⅲ 度 ） ， 或者为翻
+修患者 ， 强烈建议同步行关节外增强术
+［ 70 ］
+。 然而 ，
+如果从事剧烈运动的年轻患者不存在其他高失效
+风险的关联因素 ， 在行初次 ACL 重建术时是否有必
+要行关节外增强术 ， 仍需要进一步研究 。 关节外增
+强术包括髂胫束关节外固定 （ LET ） 、 前外侧韧带重
+建 （ ALLR ） 和 前 外 侧 结 构 重 建 （ ALSR ） 3 种 方 式 。
+ACL 重建术联合 LET 技术
+［ 65 ］
+为传统技术 ， ACL 重建
+术联合 ALLR 或 ALSR
+［ 64 ， 66 ， 71 ］
+为近年所研发 。 目前 ，
+尚无比较何种术式更有优势的研究报道 。 一般来
+说 ， 具备初次手术失败 、 膝关节高度轴移 、 全身多韧
+带松弛或重返运动需求高等特点的年轻运动员 ， 适
+合在行 ACL 重建术时同步实施关节外增强
+［ 70 ］
+。 研
+究结果表明 ， 使用自体 HT 作为移植物时 ， 行 ACL 重
+建术联合 ALLR 患者的失败率比单纯行 ACL 重建术
+显著降低 ， 且重返运动比例更高
+［ 68 ］
+。 目前 ， 对于 ACL
+重建术联合关节外增强术是否引起膝关节过度紧
+张仍有争议 。 一项平均随访 19 . 4 年的研究结果表
+明 ， ACL 重建术 （ 使用 BPTB 作为移植物 ） 联合 LET
+治疗 ACL 损伤患者可能增加膝关节外侧间室骨关 节
+炎的风险
+［ 67 ］
+。 而另一项平均随访 24 年的研究结果
+则表明 ， ACL 重建术 （ 使用 HT 作为移植物 ） 联合 LET
+控制膝关节紧张程度的效果令人满意 ， 未发 生膝外
+侧间室骨关节炎
+［ 69 ］
+， 且半月板切除术是外侧 间 室骨关
+节炎的诱发因素 。 因此 ， 尚需高质量前瞻性 研究进
+一步明确关节外增强术是否导致关节过度紧张 。
+推荐意见 10 ： 行 ACL 重建术时 ， 对合并的软骨
+和半月板损伤应同时处理 （ 推荐强度 ： B 级 ； 共识度 ：
+100 % ） 。
+共纳入文献证据 7 项 ， 其中 2 b 级证据 1 项
+［ 72 ］
+，
+3 a 级证据 2 项
+［ 73 ‑ 74 ］
+， 3 b 级证据 3 项
+［ 75 ‑ 77 ］
+， 5 级证据 1 项
+［ 78 ］
+。
+ACL 损伤常合并软骨及半月板损伤 ， 半月板为
+股骨和胫骨的软骨提供了重要保护 。 行 ACL 重建
+术时应尽可能保留损伤的半月板 ， 进行必要的修
+复 。 研究结果表明 ， 若 ACL 损伤合并半月板损伤 ，
+无论是否合并软骨损伤 ， ACL 重建术后 5 ~ 10 年的临
+床评分和生活质量均会恶化
+［ 77 ‑ 78 ］
+。 有学者发现 ， 与
+内侧半月板切除术相比 ， 内侧半月板修复术后膝关
+节前向关节松弛度更低 ， 但半月板修复组患者的再
+手术率更高 （ 13 . 3 % ∶ 0 . 8 % ）
+［ 75 ］
+。 在行 ACL 修复或重
+建术时 ， 对损伤的半月板进行修复有助于恢复膝关
+节的稳定性并降低关节退变发展的风险
+［ 78 ］
+。 关节
+软骨损伤在 ACL 损伤患者中的发生率为 16 %~ 46 % ，
+在运动员与非运动员间没有明显差异
+［ 73 ，  76 ］
+。 目前主
+要治疗方法有微骨折和自体软骨移植术
+［ 77 ］
+。 有学
+者发现 ， ACL 损伤患者行自体软骨移植较微骨折在
+术后 3 年的主观评分更高
+［ 72 ］
+。 同时 ， 软骨移植术后
+组织学和临床结果也较微骨折术更佳 ， 患者重返运
+动的比例更高
+［ 74 ］
+。 因此 ， 对于 ACL 损伤伴随的软骨
+损伤 ， 自体软骨移植术较微骨折术效果更佳 。
+2 . 5  术后康复策略
+运动员在行 ACL 重建术后早期即应启动康复
+训练 ， 阶段性制订康复目标 ， 包括早期 ROM 及肌肉
+力量的恢复 、 后期神经肌肉和运动训练及重返运动
+前特定运动能力再训练 ， 重返运动前还应对韧带成
+熟度和肢体对称性进行评估 ， 同时需重视心理状态
+的评估 。
+推荐意见 11 ： ACL 重建术后早期 ， 应关注膝关
+节 ROM 和股四头肌力量恢复及日常活动中的神经
+肌肉平衡控制 （ 推荐强度 ： A 级 ； 共识度 ： 98 . 21 % ） 。
+共纳入文献证据 8 项 ， 其中 1 a 级证据 1 项
+［ 79 ］
+， 2 a 级
+证据 1 项
+［ 80 ］
+， 2 b 级证据 1 项
+［ 81 ］
+， 3 a 级证据 1 项
+［ 82 ］
+， 3 b 级
+证据 2 项
+［ 83 ‑ 84 ］
+， 5 级证据 2 项
+［ 33 ， 85 ］
+。
+ACL 重建术后早期康复目标主要包括膝关节
+ROM 、 股四头肌力量和规范步态的恢复 。 若该目标
+无法充分完成 ， 可能会对后期的主观和客观康复结
+果产生不利影响
+［ 81 ］
+。 ROM 训练应在 ACL 重建术后
+立即开始 ， 早期关节活动有利于避免关节囊挛缩并
+减轻肿胀和疼痛 。 术后早期的关节肿胀疼痛也可
+通过物理治疗如冰敷 、 神经肌肉电刺激或针灸等方
+式改善
+［ 80 ］
+。 一般建议在术后 2 周内达到 90 ° ， 并在
+4 ~ 6 周内逐渐达到完全的 ROM
+［ 85 ］
+。 伸膝肌力减弱与
+·· 332
+中华创伤杂志  2025  年 4  月第  41  卷第  4  期　 Chin J Trauma ,  April 2025 ,  Vol .  41 ,  No .  4
+术后膝关节功能受限明显相关 ， 也与 KOA 及重返运
+动后再次受伤的风险增加有关
+［ 83 ］
+。 可在早期通过
+单纯的力量训练和 （ 或 ） 非负重训练 （ 例如腿部推举 /
+膝关节伸展 ） 来对抗关节源性肌肉抑制 （ AMI ） 。 单
+独力量训练应包括闭合动力链活动 （ CKC ） 和开放动
+力链活动 （ OKC ） 。 研究结果表明 ， 对于 ACL 重建术
+后进行 OKC 与 CKC 训练的患者 ， 其胫骨前向松弛度
+无明显差异
+［ 79 ， 84 ］
+。 最后 ， 早期康复还需关注神经肌
+肉平衡控制
+［ 33 ］
+。 建议在早期阶段纳入陆地和水上
+步态 、 平衡和基础运动 （ 如双腿下蹲 、 游泳池中跨
+步 ） 等训练项目 。 当患者能达到正常的步态 、 实现
+完全的主动膝关节伸展 、 肿胀控制良好并且在主动
+直腿抬高时没有股四头肌迟滞时 ， 即可弃拐 行走
+［ 82 ］
+。
+推荐意见 12 ： ACL 重建术后可采用三阶段神经
+肌肉再训练程序 ， 通过完成渐进的运动训练对重建
+韧带施加阶段性最佳负荷 （ 推荐强度 ： B 级 ； 共识度 ：
+98 . 21 % ） 。
+共纳入文献证据 4 项 ， 其中 2 c 级证据 1 项
+［ 86 ］
+，
+5 级证据 3 项
+［ 87 ‑ 89 ］
+。
+使用自体肌腱移植物行 ACL 重建术后 ， 植入的
+肌 腱 移 植 物 将 经 历 愈 合 和 转 化 ， 即 “ 韧 带 化 ” 过
+程
+［ 86 ］
+。 韧带化过程中的移植物相对较弱 ， 同时患者
+存在神经肌肉功能缺陷 ， 如果遭遇不恰当的负荷 ，
+新移植物有再次撕裂的风险 ， 因而建议在 ACL 重建
+术后采用与肌腱移植物转化相一致的三阶段渐进
+式神经肌肉 / 运动再训练程序
+［ 87 ］
+。
+第一阶段训练与 ACL 重建术后韧带转化的早
+中期相一致 ， 需完成 “ 基本运动适应 ” ， 包括在功能
+性运动中达到良好的运动学状态 ， 如慢走步态 、 双
+腿和单腿负重 、 双腿落地控制和慢跑步态等 。 第二
+阶段的训练计划对应的是 ACL 重建术后韧带恢复
+后期 ， 重点关注有针对性的神经肌肉和运动训练 ，
+从而逐步完成高负荷的 “ 运动型 ” 任务 （ 例如跳跃 / 落
+地 、 各 种 强 化 训 练 、 加 速 / 减 速 跑 和 转 身 转 向 等 任
+务 ） 。 第三阶段是重返运动前的现场康复 ， 包括现
+场特定运动的再训练 、 回归团队训练 、 回归比赛和
+回归伤前表现训练等
+［ 87 - 88 ］
+。 现场康复可分为 4 个关
+键部分 ， 包括专项运动再训练 、 体能再调节 、 技能训
+练和负荷管理 ， 分阶段逐步提升 ， 从而为运动员返
+回训练环境做好准备
+［ 89 ］
+。 任何基于标准的指导 方
+针均是在当前功能水平下最大限度提高患者对 运动
+的反应 ， 同时最大限度降低 ACL 再损伤的风险 。
+推荐意见 13 ： ACL 重建术后的康复除了参考术
+后恢复时间 ， 在运动员恢复运动前还需要进行一系
+列检查及测试 ， 以评估韧带成熟度 、 肢体对称性及 综
+合功能康复情况 （ 推荐强度 ： B 级 ； 共识度 ： 100 % ） 。
+共纳入文献证据 7 项 ， 其中 2 a 级证据 2 项
+［ 27 ， 57 ］
+，
+2 b 级证据 2 项
+［ 81 ，  90 ］
+， 3 b 级证据 1 项
+［ 91 ］
+， 5 级证据 2 项
+［ 85 ， 87 ］
+。
+运动员重返急停和急转运动是 ACL 重建术后
+2 年内发生 ACL 再损伤的最大风险因素
+［ 81 ］
+。 因此 ，
+何时重返运动 ， 需要综合考虑多方面因素 ， 如时间 、
+肢体对称性 ， 以及包括肌肉力量在内的综合功能康
+复情况 。 系统综述显示 ， 大部分以时间为重返运动
+标准的研究建议在 9 个月内让运动员重返运动
+［ 57 ］
+。
+然而 ， 考虑到 ACL 移植物的愈合和神经肌肉功能的
+恢复各异 ， 康复训练强度和重返运动进程必须有所
+节制或个体化 。 ACL 重建术后需动态行膝关节 MRI
+检查 ， 明确移植物的成熟度 ， 了解运动对移植物的
+影响 ， 及时调整运动强度和运动量
+［ 91 ］
+。 另外 ， 有学
+者提倡将 LSI 达到 90 % 以上作为重返运动标准
+［ 27 ］
+。
+因此 ， 在重返运动前 ， 应该进行一系列测试 ， 主要包
+括韧带稳定性 、 活动度和肌肉力量检测 ， 以及跳跃
+测试 、 主观报告及综合成绩评估 （ 敏捷性 、 本体感
+觉 、 有氧耐力 、 运动质量测试和特定项目的完成情
+况等 ）
+［ 57 ， 85 ， 87 ］
+。 在重返运动前满足股四头肌力量及
+跳跃对称性测试条件 ， 可以将 ACL 再损伤的风险降
+低 75 %~ 84 %
+［ 81 ， 90 ］
+。
+推荐意见 14 ： ACL 重建术后运动员心理状态应
+作为重返运动的重要决策因素 （ 推荐强度 ： B 级 ； 共
+识度 ： 98 . 21 % ） 。
+共纳入文献证据 9 项 ， 其中 2 a 级证据 2 项
+［ 92 ‑ 93 ］
+，
+2 b 级 证 据 1 项
+［ 94 ］
+， 2 c 级 证 据 2 项
+［ 95 ‑ 96 ］
+， 3 a 级 证 据
+1 项
+［ 97 ］
+， 3 b 级证据 2 项
+［ 98 ‑ 99 ］
+， 5 级证据 1 项
+［ 100 ］
+。
+竞技体育运动员行 ACL 重建术后 ， 临床医师可
+能对治疗的结果感到满意 （ 足够强的移植物和可靠
+的固定 、 对称的力量 、 出色的灵活性及患者重新开
+始 从 事 相 应 运 动 ） ， 但 患 者 仍 然 可 能 对 该 结 果 有
+不 同的看法 。 因此 ， 在重返运动前应对患者的自
+我 满意度进行测试 。 不满意的患者往往不了解自
+己肢体在术后真正的能力和局限性 ， 未来再受伤风
+险更大
+［ 94 ］
+。
+ACL 损伤的运动员对再次受伤的恐惧和对重
+返运动的心理准备不足会对运动水平和重返运动
+产生负面影响 。 运动员的价值观在他们的康复中
+发挥积极作用 ， 设定切实可行的康复或重返运动预
+期 ， 有助于减少后期恢复阶段的负面情绪 ， 提高自 我
+·· 333
+中华创伤杂志  2025  年 4  月第  41  卷第  4  期　 Chin J Trauma ,  April 2025 ,  Vol .  41 ,  No .  4
+效能 （ 即相信自己有能力在特定情况下执行某种行 为 ）
+评估结果
+［ 92 ］
+。 ACL 重建术前自我效能评估越好 ， 术
+后患者膝关节疼痛越轻 ， 其功能恢复和重返运动结
+果越好
+［ 93 ］
+。 目前 ACL 重建术后康复中使用的心理
+评估量表主要包括疼痛灾难化级别 （ PCS ）
+［ 98 ］
+、 恐动
+症评估 （ TSK ）
+［ 97 ］
+、 ACL 伤后恢复运动 （ ACL‑RSI ）
+［ 95 ］
+、
+恐惧 ‑ 回避信念问卷 （ FABQ ）
+［ 99 ］
+。 一项对 ACL 重建术
+后 9 个月的运动员心理评估结果表明 ， ACL‑RSI 是
+术后 2 年重返运动的预测因子 ， 测试达到 85 % 临界
+值的运动员中无一例发生 ACL 再损伤
+［ 96 ］
+。 做好心
+理准备有利于更好地重返运动并降低再损伤的风
+险
+［ 100 ］
+。 因此 ， ACL 重建术后心理状态应作为重返运
+动的重要决策因素 。
+3  总结与说明
+本共识针对竞技体育运动员 ACL 损伤及重建
+术后重返运动这一挑战提出推荐意见 。 竞技体育
+运动员行 ACL 重建术后 ， 其重返运动应当基于术
+前 、 术中和术后多种因素综合考量 。 术前应发挥主
+观能动性参与康复治疗 ， 进行 ROM 和肌肉力量训
+练 ； 制订术式需要关注骨性结构异常 ， 选择合适的
+移植物和韧带重建方式 ， 对高失效风险患者建议联
+合行关节外增强术 ， 术中需要同时处理半月板及软
+骨损伤 ； 术后不单纯以时间作为重返运动的标准 ，
+需要采取与韧带化进程相符的康复进程 ； 以身体准
+备和心理准备双重标准衡量重返运动的可行性 ， 并
+有效降低 ACL 再损伤风险 。 然而 ， 因为本共识所依
+据的文献证据中 Ⅰ 级证据相对欠缺 ， 对竞技体育运
+动员 ACL 损伤后各个关联要素 ， 还需要通过更高层
+级的研究进行探索 。
+本共识仅包括基于文献证据和专家临床经验
+的观测性建议 ， 并非制订医疗实践的唯一准则 ， 亦
+不应被视作法规性依据 。 鉴于国际运动医学诊疗
+康复理念和技术的不断进步 、 体育事业的快速发
+展 、 专家临床及科研经验的积累 ， 以及对相关文献
+资料理解的更新改变 ， 本共识的内容需要定期进行
+更新与完善 。 医疗卫生保健机构及体育机构的专
+业人员在使用本指南的同时 ， 需综合考虑患者病情
+的个体差异及临床具体情况来进行决策 。
+利益冲突  所有作者声明不存在利益冲突
+作者贡献声明  黄楷 ： 资料收集及分析 、 指南撰写 ； 赵金忠 ： 指南制 订
+指导 、 资料分析及解释 、 指南修改 ； 其他作者 ： 参与指南文献筛选和
+相关推荐意见讨论
+参 考 文 献
+［ 1 ］ 卢元镇 .  体育社 会学 ［ M ］ .  3 版 .  北京 : 高等教育出版社 ,  2010 :
+199 ‑ 120 .
+［ 2 ］ Zech A ,  Hollander K ,  Junge A ,  et al .  Sex differences in injury 
+rates in team‑sport athletes :  A systematic review and meta‑regression  
+analysis ［ J ］ .  J Sport Health Sci ,  2022 ,  11 ( 1 ): 104 ‑ 114 .  DOI : 10 .  
+1016 /j . jshs . 2021 . 04 . 003 .
+［ 3 ］ Childers J ,  Emma E ,  Lack B ,  et al .  Reported anterior cruciate li ga ‑
+ment injury incidence in adolescent athletes is greatest in fe male 
+soccer players and athletes participating in club sports :  A sys ‑
+tematic review and meta‑analyses ［ J ］ .  Arthroscopy ,  2025 ,  41 ( 3 ):
+774 ‑ 784 , e 2 .  DOI : 10 . 1016 /j . arthro . 2024 . 03 . 050 .
+［ 4 ］ Diermeier TA ,  Rothrauff BB ,  Engebretsen L ,  et al .  Treatment 
+after ACL injury :  Panther symposium ACL treatment consensus 
+group ［ J ］ .  Br J Sports Med ,  2021 ,  55 ( 1 ): 14 ‑ 22 .  DOI : 10 . 1136 /bjs ‑
+ports‑ 2020 ‑ 102200 .
+［ 5 ］ Ardern CL ,  Taylor NF ,  Feller JA ,  et al .  Fifty‑five per cent return 
+to competitive sport following anterior cruciate ligament recon ‑
+struction surgery :  an updated systematic review and meta‑analysis  
+including aspects of physical functioning and contextual factors ［ J ］ .  
+Br J Sports Med ,  2014 ,  48 ( 21 ): 1543 ‑ 1552 .  DOI : 10 . 1136 /bjsports‑ 
+2013 ‑ 093398 .
+［ 6 ］ Lai CCH ,  Ardern CL ,  Feller JA ,  et al .  Eighty‑three per cent of 
+elite athletes return to preinjury sport after anterior cruciate liga ment 
+reconstruction :  a systematic review with meta‑analysis of return 
+to sport rates ,  graft rupture rates and performance outcomes ［ J ］ .  
+Br J Sports Med ,  2018 ,  52 ( 2 ): 128 ‑ 138 .  DOI : 10 . 1136 /bjsports‑ 2016 ‑ 
+096836 .
+［ 7 ］ Zaffagnini S ,  Grassi A ,  Marcheggiani Muccioli GM ,  et al .  Return 
+to sport after anterior cruciate ligament reconstruction in profes ‑
+sional soccer players ［ J ］ .  Knee ,  2014 ,  21 ( 3 ): 731 ‑ 735 .  DOI : 10 . 1016 / 
+j . knee . 2014 . 02 . 005 .
+［ 8 ］ Waldén M ,  Hägglund M ,  Magnusson H ,  et al .  ACL injuries in 
+men ′ s professional football :  a 15 ‑year prospective study on time 
+trends and return‑to‑play rates reveals only 65 % of players still 
+play at the top level 3  years after ACL rupture ［ J ］ .  Br J Sports 
+Med ,  2016 ,  50 ( 12 ): 744 ‑ 750 .  DOI : 10 . 1136 /bjsports‑ 2015 ‑ 095952 .
+［ 9 ］ Della Villa F ,  Hägglund M ,  Della Villa S ,  et al .  High rate of second  
+ACL injury following ACL reconstruction in male professional 
+footballers :  an updated longitudinal analysis from 118  players in 
+the UEFA elite club injury study ［ J ］ .  Br J Sports Med ,  2021 ,  
+55 ( 23 ): 1350 ‑ 1356 .  DOI : 10 . 1136 /bjsports‑ 2020 ‑ 103555 .
+［ 10 ］ Jeremy H .  Oxford centre for evidence‑based medicine :  Levels of 
+evidence ( March 2009 )［ EB/OL ］ .  ( 2009 ‑ 03 )［ 2024 ‑ 12 ‑ 01 ］ .  https : //
+www . cebm . ox . ac . uk/resources/levels‑of‑evidence/oxford‑centr e‑ 
+for‑evidence‑ based‑ medicine‑levels‑of‑evidence‑march‑ 2009 .
+［ 11 ］ Ellison TM ,  Flagstaff I ,  Johnson AE .  Sexual dimorphisms in 
+anterior cruciate ligament injury :  A current concepts review ［ J ］ .  
+Orthop J Sports Med ,  2021 ,  9 ( 12 ): 23259671211025304 .  DOI : 10 .  
+1177 / 23259671211025304 .
+［ 12 ］ Akbar S ,  Soh KG ,  Jazaily Mohd Nasiruddin N ,  et al .  Effects of 
+neuromuscular training on athletes physical fitness in sports :  A 
+systematic review ［ J ］ .  Front Physiol ,  2022 ,  13 : 939042 .  DOI : 10 .  
+3389 /fphys . 2022 . 939042 .
+［ 13 ］ Venishetty N ,  Xiao AX ,  Ghanta R ,  et al .  Lower extremity Iinjury 
+rates on artificial turf versus natural grass surfaces in the nation al 
+football league during the 2021  and 2022  seasons ［ J ］ .  Orthop J 
+·· 334
+中华创伤杂志  2025  年 4  月第  41  卷第  4  期　 Chin J Trauma ,  April 2025 ,  Vol .  41 ,  No .  4
+Sports Med ,  2024 ,  12 ( 8 ): 23259671241265378 .  DOI : 10 . 1177 /
+23259671241265378 .
+［ 14 ］ Beard DJ ,  Davies L ,  Cook JA ,  et al .  Comparison of surgical or 
+non‑surgical management for non‑acute anterior cruciate liga ‑
+ment injury :  the ACL SNNAP RCT ［ J ］ .  Health Technol Assess ,  
+2024 ,  28 ( 27 ): 1 ‑ 97 .  DOI : 10 . 3310 /VDKB 6009 .
+［ 15 ］ Persson K ,  Bergerson E ,  Svantesson E ,  et al .  Greater proportion 
+of patients report an acceptable symptom state after ACL recon ‑
+struction compared with non‑surgical treatment :  a 10 ‑year follow‑up  
+from the Swedish National Knee Ligament Registry ［ J ］ .  Br J Sports 
+Med ,  2022 ,  56 ( 15 ): 862 ‑ 869 .  DOI : 10 . 1136 /bjsports‑ 2021 ‑ 105115 .
+［ 16 ］ Komnos GA ,  Hantes MH ,  Kalifis G ,  et al .  Anterior cruciate liga ‑
+ment tear :  Individualized indications for non‑operative manage ‑
+ment ［ J ］ .  J Clin Med ,  2024 ,  13 ( 20 ): 6233 .  DOI : 10 . 3390 /jcm 132  
+06233 .
+［ 17 ］ Papaleontiou A ,  Poupard AM ,  Mahajan UD ,  et al .  Conservative 
+vs surgical treatment of anterior cruciate ligament rupture :  A sys ‑
+tematic review ［ J ］ .  Cureus ,  2024 ,  16 ( 3 ): e 56532 .  DOI : 10 . 7759 /
+cureus . 56532 .
+［ 18 ］ Waldén M ,  Hägglund M ,  Magnusson H ,  et al .  Anterior cruciate 
+ligament injury in elite football :  a prospective three‑cohort study ［ J ］ .  
+Knee Surg Sports Traumatol Arthrosc ,  2011 ,  19 ( 1 ): 11 ‑ 19 .  DOI :
+10 . 1007 /s 00167 ‑ 010 ‑ 1170 ‑ 9 .
+［ 19 ］ Kvist J ,  Kartus J ,  Karlsson J ,  et al .  Results from the swedish na ‑
+tional anterior cruciate ligament register ［ J ］ .  Arthroscopy ,  2014 ,  
+30 ( 7 ): 803 ‑ 810 .  DOI : 10 . 1016 /j . arthro . 2014 . 02 . 036 .
+［ 20 ］ Keays SL ,  Mellifont DB ,  Keays AC ,  et al .  Long‑term return to 
+sports after anterior cruciate ligament injury :  Reconstruction vs no 
+recon -  struction ‑ A  comparison of 2  case series ［ J ］ .  Am J Sports 
+Med ,  2022 ,  50 ( 4 ): 912 ‑ 921 .  DOI : 10 . 1177 / 03635465211073152 .
+［ 21 ］ Fobell RB ,  Roos EM ,  Roos HP ,  et al .  A randomized trial of treat ‑
+ment for acute anterior cruciate ligament tears ［ J ］ .  New Engl J 
+Med ,  2010 ,  363 ( 4 ): 331 ‑ 342 .  DOI : 10 . 1056 /NEJMoa 0907797 .
+［ 22 ］ Erard J ,  Cance N ,  Shatrov J ,  et al .  Delaying ACL reconstruction 
+is associated with increased rates of medial meniscal tear ［ J ］ .  
+Knee Surg Sports Traumatol Arthrosc ,  2023 ,  31 ( 10 ): 4458 ‑ 4466 .  
+DOI : 10 . 1007 /s 00167 ‑ 023 ‑ 07516 ‑ 7 .
+［ 23 ］ de Jonge R ,  Máté M ,  Kovács N ,  et al .  Nonoperative treatment as 
+an option for isolated anterior cruciate ligament injury :  A syste ma -  
+tic review and meta‑analysis ［ J ］ .  Orthop J Sports Med ,  2024 ,  12 ( 4 ):
+23259671241239665 .  DOI : 10 . 1177 / 23259671241239665 .
+［ 24 ］ Anderson AF ,  Anderson CN .  Correlation of meniscal and articu ‑
+lar cartilage injuries in children and adolescents with timing of 
+anterior cruciate ligament reconstruction ［ J ］ .  Am J Sports Med ,  
+2015 ,  43 ( 2 ): 275 ‑ 281 .  DOI : 10 . 1177 / 0363546514559912 .
+［ 25 ］ Rai SK ,  Gupta TP ,  Singh VB ,  et al .  Retrospective analysis and 
+risk of progression of partial anterior cruciate ligament injuries in 
+a young population ［ J ］ .  Arch Orthop Trauma Surg ,  2023 ,  143 ( 4 ):
+2063 ‑ 2071 .  DOI : 10 . 1007 /s 00402 ‑ 022 ‑ 04519 ‑w .
+［ 26 ］ Davidson EJ ,  Figgie C ,  Nguyen J ,  et al .  Chondral injury associated 
+with ACL injury :  Assessing progressive chondral degeneration with 
+morphologic and quantitative MRI techniques ［ J ］ .  Sports Health ,  
+2024 ,  16 ( 5 ): 722 ‑ 734 .  DOI : 10 . 1177 / 19417381231205276 .
+［ 27 ］ van Melick N ,  van Cingel RE ,  Brooijmans F ,  et al .  Evidence‑ 
+based clinical practice update :  practice guidelines for anterior 
+cruciate ligament rehabilitation based on a systematic review and 
+multidisciplinary consensus ［ J ］ .  Br J Sports Med ,  2016 ,  50 ( 24 ):
+1506 ‑ 1515 .  DOI : 10 . 1136 /bjsports‑ 2015 ‑ 095898 .
+［ 28 ］ Urhausen AP ,  Grindem H ,  Engebretsen L ,  et al .  The delaware -  
+oslo ACL cohort treatment algorithm yields superior outcomes to 
+usual care 9 ‑ 12  years after anterior cruciate ligament reconstruc ‑
+tion ［ J ］ .  Knee Surg Sports Traumatol Arthrosc ,  2024 ,  32 ( 2 ): 214 ‑ 
+222 .  DOI : 10 . 1002 /ksa . 12039 .
+［ 29 ］ Eitzen I ,  Holm I ,  Risberg MA .  Preoperative quadriceps strength 
+is a significant predictor of knee function two years after anterior 
+cruciate ligament reconstruction ［ J ］ .  Br J Sports Med ,  2009 ,  43 ( 5 ):
+371 ‑ 376 .  DOI : 10 . 1136 /bjsm . 2008 . 057059 .
+［ 30 ］ Failla MJ ,  Logerstedt DS ,  Grindem H ,  et al .  Does extended 
+pre operative rehabilitation influence outcomes 2  years after ACL 
+reconstruction ?  A comparative effectiveness study between the 
+moon and delaware‑oslo ACL cohorts ［ J ］ .  Am J Sports Med ,  2016 ,  
+44 ( 10 ): 2608 ‑ 2614 .  DOI : 10 . 1177 / 0363546516652594 .
+［ 31 ］ Li C ,  Lin Y ,  Kernkamp WA ,  et al .  Effect of time after injury on 
+tibiofemoral joint kinematics in anterior cruciate ligament‑defi -  
+cient knees during gait ［ J ］ .  Orthop J Sports Med ,  2022 ,  10 ( 7 ):
+23259671221110160 .  DOI : 10 . 1177 / 23259671221110160 .
+［ 32 ］ Wenning M ,  Sofack GN ,  Zöller D ,  et al .  Predicting the recovery 
+of isokinetic knee strength 6  months after anterior cruciate liga ‑
+ment reconstruction ［ J ］ .  Orthop J Sports Med ,  2024 ,  12 ( 9 ):
+23259671241264845 .  DOI : 10 . 1177 / 23259671241264845 .
+［ 33 ］ Buckthorpe M ,  Gokeler A ,  Herrington L ,  et al .  Optimising the 
+early‑stage rehabilitation process post‑ACL reconstruction ［ J ］ .  
+Sports Med ,  2024 ,  54 ( 1 ): 49 ‑ 72 .  DOI : 10 . 1007 /s 40279 ‑ 023 ‑ 01934 ‑w .
+［ 34 ］ Shen X ,  Liu T ,  Xu S ,  et al .  Optimal timing of anterior cruciate 
+ligament reconstruction in patients with anterior cruciate liga ‑
+ment tear :  A systematic review and meta‑analysis ［ J ］ .  JAMA Netw 
+Open ,  2022 ,  5 ( 11 ): e 2242742 .  DOI : 10 . 1001 /jamanetworkopen .  
+2022 . 42742 .
+［ 35 ］ von Essen C ,  Eriksson K ,  Barenius B .  Acute ACL reconstruction 
+shows superior clinical results and can be performed safely 
+with out an increased risk of developing arthrofibrosis ［ J ］ .  Knee 
+Surg Sports Traumatol Arthrosc ,  2020 ,  28 ( 7 ): 2036 ‑ 2043 .  DOI :
+10 . 1007 /s 00167 ‑ 019 ‑ 05722 ‑w .
+［ 36 ］ Mayr HO ,  Weig TG ,  Plitz W .  Arthrofibrosis following ACL recon ‑
+struction - reasons and outcome ［ J ］ .  Arch Orthop Trauma Surg ,  
+2004 ,  124 ( 8 ): 518 ‑ 522 .  DOI : 10 . 1007 /s 00402 ‑ 004 ‑ 0718 ‑x .
+［ 37 ］ Gupta R ,  Khatri S ,  Malhotra A ,  et al .  Pre‑operative joint inflam ‑
+mation has no bearing on outcome of arthroscopic anterior cru ‑
+ci ate ligament reconstruction at 1 ‑year follow‑up ;  a prospective 
+study ［ J ］ .  Indian J Orthop ,  2020 ,  55 ( 2 ): 360 ‑ 367 .  DOI : 10 . 1007 /
+s 43465 ‑ 020 ‑ 00150 ‑ 2 .
+［ 38 ］ Avila A ,  Petrera M ,  Duenes M ,  et al .  RANTES concentration at 
+the time of surgery is associated with postoperative stiffness in 
+patients undergoing ACL reconstruction ［ J ］ .  Am J Sports Med ,  
+2022 ,  50 ( 14 ): 3838 ‑ 3843 .  DOI : 10 . 1177 / 03635465221131805 .
+［ 39 ］ Prodromidis AD ,  Drosatou C ,  Mourikis A ,  et al .  Relationship be ‑
+tween timing of anterior cruciate ligament reconstruction and 
+chondral injuries :  A systematic review and meta‑analysis ［ J ］ .  
+Am J Sports Med ,  2022 ,  50 ( 13 ): 3719 ‑ 3731 .  DOI : 10 . 1177 / 03635  
+465211036141 .
+［ 40 ］ Cance N ,  Erard J ,  Shatrov J ,  et al .  Delaying anterior cruciate liga ‑
+ment reconstruction increases the rate and severity of medial 
+chondral injuries ［ J ］ .  Bone Joint J ,  2023 ,  105 ‑B ( 9 ): 953 ‑ 960 .  DOI :
+10 . 1302 / 0301 ‑ 620 X . 105 B 9 . BJJ‑ 2022 ‑ 1437 . R 1 .
+［ 41 ］ Li Z ,  Li C ,  Li L ,  et al .  Correlation between notch width index 
+assessed via magnetic resonance imaging and risk of anterior cru ‑
+ciate ligament injury :  an updated meta‑analysis ［ J ］ .  Surg Radiol 
+Anat ,  2020 ,  42 ( 10 ): 1209 ‑ 1217 .  DOI : 10 . 1007 /s 00276 ‑ 020 ‑ 02496 ‑ 6 .
+·· 335
+中华创伤杂志  2025  年 4  月第  41  卷第  4  期　 Chin J Trauma ,  April 2025 ,  Vol .  41 ,  No .  4
+［ 42 ］ Ihn HE ,  Prentice HA ,  Funahashi TT ,  et al .  Posterior tibial slope 
+measured on plain radiograph versus MRI and its association 
+with revision anterior cruciate ligament reconstruction :  A matched 
+case‑control study ［ J ］ .  Am J Sports Med ,  2024 ,  52 ( 12 ): 2987 ‑ 
+2995 .  DOI : 10 . 1177 / 03635465241279848 .
+［ 43 ］ Pawan Kumar KM ,  Mundargi A ,  Puttamaregowda M ,  et al .  LFCI 
+and knee morphological parameters as a risk factor in anterior 
+cruciate ligament tear on magnetic resonance imaging‑A case 
+control analysis ［ J ］ .  J Clin Orthop Trauma ,  2024 ,  55 : 102514 .  DOI :
+10 . 1016 /j . jcot . 2024 . 102514 .
+［ 44 ］ Mehl J ,  Paul J ,  Feucht MJ ,  et al .  ACL deficiency and varus osteo ‑
+arthritis :  high tibial osteotomy alone or combined with ACL re ‑
+construction ? ［ J ］ .  Arch Orthop Trauma Surg ,  2017 ,  137 ( 2 ): 233 ‑ 
+240 .  DOI : 10 . 1007 /s 00402 ‑ 016 ‑ 2604 ‑ 8 .
+［ 45 ］ Kaeding CC ,  Pedroza AD ,  Reinke EK ,  et al .  Change in anterior 
+cruciate ligament graft choice and outcomes over time ［ J ］ .  Ar ‑
+throscopy ,  2017 ,  33 ( 11 ): 2007 ‑ 2014 .  DOI : 10 . 1016 /j . arthro . 2017 .  
+06 . 019 .
+［ 46 ］ DeFazio MW ,  Curry EJ ,  Gustin MJ ,  et al .  Return to sport after 
+ACL reconstruction with a BTB versus hamstring tendon auto ‑
+graft :  A systematic review and meta‑analysis ［ J ］ .  Orthop J Sports 
+Med ,  2020 ,  8 ( 12 ): 2325967120964919 .  DOI : 10 . 1177 / 232596712  
+0964919 .
+［ 47 ］ Migliorini F ,  Torsiello E ,  Trivellas A ,  et al .  Bone‑patellar 
+tendon‑bone versus two‑and four‑strand hamstring tendon auto ‑
+grafts for ACL reconstruction in young adults :  a bayesian net work 
+meta‑analysis ［ J ］ .  Sci Rep ,  2023 ,  13 ( 1 ): 6883 .  DOI : 10 . 1038 / 
+s 41598 ‑ 023 ‑ 33899 ‑ 1 .
+［ 48 ］ Wang X ,  Xu Z ,  Song S ,  et al .  Which technique provides more 
+benefits in return to sports and clinical outcomes after anterior 
+cruciate ligament reconstruction :  Double‑bundle or single‑bundle ?  
+A randomized controlled study ［ J ］ .  Chin Med J ( Engl ),  published 
+online October 10 ,  2024 .  DOI : 10 . 1097 /CM 9 . 0000000000003267 .
+［ 49 ］ Mohtadi NG ,  Chan DS .  A randomized clinical trial comparing  
+patellar tendon ,  hamstring tendon ,  and Double‑bundle ACL re ‑
+constructions :  Patient‑reported and clinical outcomes at 5 ‑year 
+follow‑up ［ J ］ .  J Bone Joint Surg Am ,  2019 ,  101 ( 11 ): 949 ‑ 960 .  DOI :
+10 . 2106 /JBJS . 18 . 01322 .
+［ 50 ］ Beyer J ,  Jones R ,  Igo I ,  et al .  Comparison of graft type and fixa ‑
+tion method in anterior cruciate ligament reconstruction :  A sys ‑
+tematic review and meta‑analysis based on randomized control 
+studies ［ J ］ .  JBJS Rev ,  2024 ,  12 ( 4 ): e 23 .  DOI : 10 . 2106 /JBJS . RVW .  
+23 . 00222 .
+［ 51 ］ Naebjörnsson T ,  Hamrin Senorski E ,  Ayeni OR ,  et al .  Graft 
+di ameter as a predictor for revision anterior cruciate ligament 
+reconstruction and KOOS and EQ‑ 5 D values :  A cohort study 
+from the swedish national knee ligament register based on 2240  
+patients ［ J ］ .  Am J Sports Med ,  2017 ,  45 ( 9 ): 2092 ‑ 2097 .  DOI : 10 .  
+1177 / 0363546517704177 .
+［ 52 ］ Lodhia P ,  Nazari G ,  Bryant D ,  et al .  Performance of 5 ‑strand 
+hamstring autograft anterior cruciate ligament reconstruction in 
+the STABILITY study :  A subgroup analysis ［ J ］ .  Am J Sports Med ,  
+2022 ,  50 ( 13 ): 3502 ‑ 3509 .  DOI : 10 . 1177 / 03635465221128581 .
+［ 53 ］ Hodges CT ,  Shelton TJ ,  Bateni CP ,  et al .  The medial epicondyle 
+of the distal femur is the optimal location for MRI measurement 
+of semitendinosus and gracilis tendon cross‑sectional area ［ J ］ .  
+Knee Surg Sports Traumatol Arthrosc ,  2019 ,  27 ( 11 ): 3498 ‑ 3504 .  
+DOI : 10 . 1007 /s 00167 ‑ 019 ‑ 05421 ‑ 6 .
+［ 54 ］ Magnussen RA ,  Lawrence JT ,  West RL ,  et al .  Graft size and pa ‑
+tient age are predictors of early revision after anterior cruciate 
+ligament reconstruction with hamstring autograft ［ J ］ .  Arthrosco ‑
+py ,  2012 ,  28 ( 4 ): 526 ‑ 531 .  DOI : 10 . 1016 /j . arthro . 2011 . 11 . 024 .
+［ 55 ］ Rothrauff BB ,  Jorge A ,  de Sa D ,  et al .  Anatomic ACL reconstruc ‑
+tion reduces risk of post‑traumatic osteoarthritis :  a systematic 
+re view with minimum 10 ‑year follow‑up ［ J ］ .  Knee Surg Sports 
+Traumatol Arthrosc ,  2020 ,  28 ( 4 ): 1072 ‑ 1084 .  DOI : 10 . 1007 /s 00167 ‑  
+019 ‑ 05665 ‑ 2 .
+［ 56 ］ Zhao J ,  Yu J ,  Zhang H ,  et al .  Principles of anterior cruciate liga ‑
+ment reconstruction ［ A ］ //Zhao J .  In minimally invasive function al 
+reconstruction of the knee ［ M ］ .  1 st ed .  Singapore :  Springer Na ‑
+ture Singapore ,  2022 : 105 ‑ 114 .
+［ 57 ］ Burgi CR ,  Peters S ,  Ardern CL ,  et al .  Which criteria are used to 
+clear patients to return to sport after primary ACL reconstruc ‑
+tion ?  A scoping review ［ J ］ .  Br J Sports Med ,  2019 ,  53 ( 18 ): 1154 ‑ 
+1161 .  DOI : 10 . 1136 /bjsports‑ 2018 ‑ 099982 .
+［ 58 ］ Zaid HHG ,  Yang G ,  Xu H .  Anterior cruciate ligament reconstruc ‑
+tion using autologous hamstrings augmented with ligament aug ‑
+mentation and reconstruction systems ( LARS )  or synthetic mesh ‑
+work of LARS compared with four‑strand hamstring tendon grafts 
+alone ,  a prospective ,  randomized clinical study with 2 ‑to 8 ‑year 
+follow‑up ［ J ］ .  Indian J Orthop ,  2023 ,  57 ( 9 ): 1497 ‑ 1509 .  DOI : 10 .  
+1007 /s 43465 ‑ 023 ‑ 00956 ‑w .
+［ 59 ］ Melinte RM ,  Zolog Schiopea DN ,  Oltean‑Dan D ,  et al .  Synthetic 
+grafts in anterior cruciate ligament reconstruction surgery in pro ‑
+fessional female handball players ‑ A viable option ?［ J ］ .  Diagnos ‑
+tics ( Basel ),  2024 ,  14 ( 17 ): 1951 .  DOI : 10 . 3390 /diagnostics 14171951 .
+［ 60 ］ 陈天午 ,  李云霞 ,  陈疾忤 ,  等 .  采用人工韧带或自体腘绳肌腱
+重建前十字韧带术后重返运动的差异 : 一项配对设计研究 ［ J ］ .  
+体育科研 ,  2020 ,  41 ( 5 ): 51 ‑ 57 .  DOI : 10 . 12064 /ssr . 20200508 .
+［ 61 ］ Moretti L ,  Cassano GD ,  Caricato A ,  et al .  Anterior cruciate liga ‑
+ment reconstruction with quadrupled semitendinosus graft or syn ‑
+thetic ligament :  Knee stability and clinical outcomes at three 
+years follow‑up ［ J ］ .  Adv Orthop ,  2023 ,  2023 : 4022441 .  DOI : 10 .  
+1155 / 2023 / 4022441 .
+［ 62 ］ Smolle MA ,  Fischerauer SF ,  Zötsch S ,  et al .  Long‑term outcomes 
+of surgery using the ligament advanced reinforcement system as 
+treatment for anterior cruciate ligament tears ［ J ］ .  Bone Joint J ,  
+2022 ,  104 ‑B ( 2 ): 242 ‑ 248 .  DOI : 10 . 1302 / 0301 ‑ 620 X . 104 B 2 . BJJ‑ 
+2021 ‑ 0798 . R 2 .
+［ 63 ］ Di Benedetto P ,  Giardini P ,  Beltrame A ,  et al .  Histological analy ‑
+sis of ACL reconstruction failures due to synthetic‑ACL ( LARS )  
+ruptures ［ J ］ .  Acta Biomed ,  2020 ,  91 ( 4 ‑S ): 136 ‑ 145 .  DOI : 10 . 23750 /  
+abm . v 91 i 4 ‑S . 9702 .
+［ 64 ］ Lai S ,  Zhang Z ,  Li J ,  et al .  Comparison of anterior cruciate liga ‑
+ment reconstruction with versus without anterolateral augmenta ‑
+tion :  A systematic review and meta‑analysis of randomized con ‑
+trolled trials ［ J ］ .  Orthop J Sports Med ,  2023 ,  11 ( 3 ): 2325967122  
+1149403 .  DOI : 10 . 1177 / 23259671221149403 .
+［ 65 ］ Damayanthi ED ,  Kholinne E ,  Singjie LC ,  et al .  Combined anteri ‑
+or cruciate ligament reconstruction ( ACLR )  and lateral extra‑  
+articular tenodesis through the modified lemaire technique ver sus 
+isolated ACLR :  A meta‑analysis of clinical outcomes ［ J ］ .  Rev 
+Bras Ortop ( Sao Paulo ),  2024 ,  59 ( 2 ): e 180 ‑e 188 .  DOI : 10 . 1055 /
+s‑ 0044 ‑ 1785492 .
+［ 66 ］ Chen J ,  Xu C ,  Cho E ,  et al .  Reconstruction for chronic ACL tears 
+with or without anterolateral structure augmentation in patients 
+at high risk for clinical failure :  A randomized clinical trial ［ J ］ .  J 
+Bone Joint Surg Am ,  2021 ,  103 ( 16 ): 1482 ‑ 1490 .  DOI : 10 . 2106 /JB ‑
+JS . 20 . 01680 .
+·· 336
+中华创伤杂志  2025  年 4  月第  41  卷第  4  期　 Chin J Trauma ,  April 2025 ,  Vol .  41 ,  No .  4
+［ 67 ］ Castoldi M ,  Magnussen RA ,  Gunst S ,  et al .  A randomized con ‑
+trolled trial of bone‑patellar tendon‑bone anterior cruciate liga ‑
+ment reconstruction with and without lateral extra‑articular teno ‑
+desis :  19 ‑year clinical and radiological follow‑up ［ J ］ .  Am J Sports 
+Med ,  2020 ,  48 ( 7 ): 1665 ‑ 1672 .  DOI : 10 . 1177 / 0363546520914936 .
+［ 68 ］ Laboudie P ,  Douiri A ,  Bouguennec N ,  et al .  Combined ACL and 
+ALL reconstruction reduces the rate of reoperation for graft 
+fail ure or secondary meniscal lesions in young athletes ［ J ］ .  Knee 
+Surg Sports Traumatol Arthrosc ,  2022 ,  30 ( 10 ): 3488 ‑ 3498 .  DOI :
+10 . 1007 /s 00167 ‑ 022 ‑ 06956 ‑x .
+［ 69 ］ Zaffagnini S ,  Marcheggiani Muccioli GM ,  Grassi A ,  et al .  
+Over‑the‑top ACL reconstruction plus extra‑articular lateral teno ‑
+desis with Hamstring tendon grafts :  Prospective evaluation with 
+20 ‑year minimum follow‑up ［ J ］ .  Am J Sports Med ,  2017 ,  45 ( 14 ):
+3233 ‑ 3242 .  DOI : 10 . 1177 / 0363546517723013 .
+［ 70 ］ Getgood A ,  Brown C ,  Lording T ,  et al .  The anterolateral complex 
+of the knee :  results from the international ALC consensus group 
+meeting ［ J ］ .  Knee Surg Sports Traumatol Arthrosc ,  2019 ,  27 ( 1 ):
+166 ‑ 176 .  DOI : 10 . 1007 /s 00167 ‑ 018 ‑ 5072 ‑ 6 .
+［ 71 ］ 中国研究型医院学会运动医学专业委员会 .  膝关节前外侧
+结 构加强及重建专家共识 （ 2021 年版 )［ J/CD ］ .  中华关节外科
+杂志 : 电子版 ,  2021 ,  15 ( 2 ): 131 ‑ 136 .  DOI : 10 . 3877 /cma . j . issn .  
+1674 ‑ 134 X . 2021 . 02 . 001 .
+［ 72 ］ Gudas R ,  Gudait ė  A ,  Mickevičius T ,  et al .  Comparison of osteo ‑
+chondral autologous transplantation ,  microfracture ,  or debride ‑
+ment techniques in articular cartilage lesions associated with an ‑
+terior cruciate ligament injury :  a prospective study with a 3 ‑year 
+follow‑up ［ J ］ .  Arthroscopy ,  2013 ,  29 ( 1 ): 89 ‑ 97 .  DOI : 10 . 1016 /j . ar ‑
+thro . 2012 . 06 . 009 .
+［ 73 ］ Brophy RH ,  Zeltser D ,  Wright RW ,  et al .  Anterior cruciate liga ‑
+ment reconstruction and concomitant articular cartilage injury :  
+incidence and treatment ［ J ］ .  Arthroscopy ,  2010 ,  26 ( 1 ): 112 ‑ 120 .  
+DOI : 10 . 1016 /j . arthro . 2009 . 09 . 002 .
+［ 74 ］ Mithoefer K ,  Hambly K ,  Della Villa S ,  et al .  Return to sports par ‑
+ticipation after articular cartilage repair in the knee :  scientific 
+evidence ［ J ］ .  Am J Sports Med ,  2009 ,  37  Suppl 1 : 167 s‑ 176 s .  DOI :
+10 . 1177 / 0363546509351650 .
+［ 75 ］ Sarraj M ,  Coughlin RP ,  Solow M ,  et al .  Anterior cruciate liga ‑
+ment reconstruction with concomitant meniscal surgery :  a sys ‑
+tematic review and meta‑analysis of outcomes ［ J ］ .  Knee Surg 
+Sports Traumatol Arthrosc ,  2019 ,  27 ( 11 ): 3441 ‑ 3452 .  DOI : 10 . 1007 / 
+s 00167 ‑ 019 ‑ 05389 ‑ 3 .
+［ 76 ］ Joseph C ,  Pathak SS ,  Aravinda M ,  et al .  Is ACL reconstruction 
+only for athletes ?  A study of the incidence of meniscal and carti ‑
+lage injuries in an ACL‑deficient athlete and non‑athlete popula ‑
+tion :  an Indian experience ［ J ］ .  Int Orthop ,  2008 ,  32 ( 1 ): 57 ‑ 61 .  
+DOI : 10 . 1007 /s 00264 ‑ 006 ‑ 0273 ‑x .
+［ 77 ］ Mescher PK ,  Anderson AB ,  Dekker TJ ,  et al .  Characterization of 
+cartilage injury and associated treatment at the time of primary 
+anterior cruciate ligament reconstruction ［ J ］ .  J Knee Surg ,  2022 ,  
+35 ( 11 ): 1175 ‑ 1180 .  DOI : 10 . 1055 /s‑ 0042 ‑ 1748173 .
+［ 78 ］ Feroe AG ,  Clark SC ,  Hevesi M ,  et al .  Management of meniscus 
+pathology with concomitant anterior cruciate ligament injury ［ J ］ .  
+Curr Rev Musculoskelet Med ,  2024 ,  17 ( 8 ): 321 ‑ 334 .  DOI : 10 .  
+1007 /s 12178 ‑ 024 ‑ 09906 ‑x .
+［ 79 ］ Perriman A ,  Leahy E ,  Semciw AI .  The effect of open‑versus 
+closed‑kinetic‑chain exercises on anterior tibial laxity ,  strength ,  
+and function following anterior cruciate ligament reconstruction :  
+A systematic review and meta‑analysis ［ J ］ .  J Orthop Sports Phys 
+Ther ,  2018 ,  48 ( 7 ): 552 ‑ 566 .  DOI : 10 . 2519 /jospt . 2018 . 7656 .
+［ 80 ］ Brinlee AW ,  Dickenson SB ,  Hunter‑Giordano A ,  et al .  ACL 
+reconstruction rehabilitation :  Clinical data ,  biologic healing ,  and 
+criterion‑based milestones to inform a return‑to‑sport guideline ［ J ］ .  
+Sports Health ,  2022 ,  14 ( 5 ): 770 ‑ 779 .  DOI : 10 . 1177 / 1941738121  
+1056873 .
+［ 81 ］ Grindem H ,  Snyder‑Mackler L ,  Moksnes H ,  et al .  Simple deci ‑
+sion rules can reduce reinjury risk by 84 % after ACL reconstruc ‑
+tion :  the delaware‑oslo ACL cohort study ［ J ］ .  Br J Sports Med ,  
+2016 ,  50 ( 13 ): 804 ‑ 808 .  DOI : 10 . 1136 /bjsports‑ 2016 ‑ 096031 .
+［ 82 ］ Adhitya IPGS ,  Kurniawati I ,  Sawa R ,  et al .  The risk factors and 
+preventive strategies of poor knee functions and osteoarthritis 
+after anterior cruciate ligament reconstruction :  A narrative re ‑
+view ［ J ］ .  Phys Ther Res ,  2023 ,  26 ( 3 ): 78 ‑ 88 .  DOI : 10 . 1298 /ptr .  
+R 0028 .
+［ 83 ］ Syed RIB ,  Hangody LR ,  Frischmann G ,  et al .  Comparative effec ‑
+tiveness of supervised and home‑based rehabilitation after anteri or 
+cruciate ligament reconstruction in competitive athletes ［ J ］ .  J 
+Clin Med ,  2024 ,  13 ( 8 ): 2245 .  DOI : 10 . 3390 /jcm 13082245 .
+［ 84 ］ Forelli F ,  Barbar W ,  Kersante G ,  et al .  Evaluation of muscle 
+strength and graft laxity with early open kinetic chain exercise 
+after ACL reconstruction :  A cohort study ［ J ］ .  Orthop J Sports Med ,  
+2023 ,  11 ( 6 ): 23259671231177594 .  DOI : 10 . 1177 / 23259671231  
+177594 .
+［ 85 ］ Buckthorpe M ,  Della Villa F .  Optimising the ′ mid‑stage ′  training  
+and testing process after ACL reconstruction ［ J ］ .  Sports Med ,  
+2020 ,  50 ( 4 ): 657 ‑ 678 .  DOI : 10 . 1007 /s 40279 ‑ 019 ‑ 01222 ‑ 6 .
+［ 86 ］ Zhou W ,  Liu X ,  Hong Q ,  et al .  Association between passing 
+return‑to‑sport testing and re‑injury risk in patients after anterior 
+cruciate ligament reconstruction surgery :  a systematic review and 
+meta‑analysis ［ J ］ .  PeerJ ,  2024 ,  12 : e 17279 .  DOI : 10 . 7717 /peerj . 17279 .
+［ 87 ］ Buckthorpe M .  Optimising the late‑stage rehabilitation and return‑ 
+to‑sport training and testing process after ACL reconstruction ［ J ］ .  
+Sports Med ,  2019 ,  49 ( 7 ): 1043 ‑ 1058 .  DOI : 10 . 1007 /s 40279 ‑ 019 ‑ 
+01102 ‑z .
+［ 88 ］ Buckthorpe M ,  Frizziero A ,  Roi GS .  Update on functional recovery  
+process for the injured athlete :  return to sport continuum rede ‑
+fined ［ J ］ .  Br J Sports Med ,  2019 ,  53 ( 5 ): 265 ‑ 267 .  DOI : 10 . 1136 /
+bjsports‑ 2018 ‑ 099341 .
+［ 89 ］ Buckthorpe M ,  Della Villa F ,  Della Villa S ,  et al .  On‑field reha ‑
+bilitation part 1 :  4  pillars of high‑quality on‑field rehabilitation 
+are restoring movement quality ,  physical conditioning ,  restoring 
+sport‑specific skills ,  and progressively developing chronic train ing 
+load ［ J ］ .  J Orthop Sports Phys Ther ,  2019 ,  49 ( 8 ): 565 ‑ 569 .  DOI :
+10 . 2519 /jospt . 2019 . 8954 .
+［ 90 ］ Kyritsis P ,  Bahr R ,  Landreau P ,  et al .  Likelihood of ACL graft 
+rupture :  not meeting six clinical discharge criteria before return 
+to sport is associated with a four times greater risk of rupture ［ J ］ .  
+Br J Sports Med ,  2016 ,  50 ( 15 ): 946 ‑ 951 .  DOI : 10 . 1136 /bjsports‑ 
+2015 ‑ 095908 .
+［ 91 ］ Yau WP ,  Lin W .  Evaluation of graft maturation by MRI in anteri ‑
+or cruciate ligament reconstruction with and without concomitant 
+anterolateral ligament reconstruction ［ J ］ .  Orthop J Sports Med ,  
+2024 ,  12 ( 1 ): 23259671231223976 .  DOI : 10 . 1177 / 23259671231  
+223976 .
+［ 92 ］ Truong LK ,  Mosewich AD ,  Holt CJ ,  et al .  Psychological ,  social 
+and contextual factors across recovery stages following a sport‑ 
+·· 337
+中华创伤杂志  2025  年 4  月第  41  卷第  4  期　 Chin J Trauma ,  April 2025 ,  Vol .  41 ,  No .  4
+related knee injury :  a scoping review ［ J ］ .  Br J Sports Med ,  2020 ,  
+54 ( 19 ): 1149 ‑ 1156 .  DOI : 10 . 1136 /bjsports‑ 2019 ‑ 101206 .
+［ 93 ］ Everhart JS ,  Best TM ,  Flanigan DC .  Psychological predictors of 
+anterior cruciate ligament reconstruction outcomes :  a systematic 
+review ［ J ］ .  Knee Surg Sports Traumatol Arthrosc ,  2015 ,  23 ( 3 ):
+752 ‑ 762 .  DOI : 10 . 1007 /s 00167 ‑ 013 ‑ 2699 ‑ 1 .
+［ 94 ］ Courtot L ,  Ferre F ,  Reina N ,  et al .  Patient participation during 
+anterior cruciate ligament reconstruction improves comprehen ‑
+sion ,  satisfaction ,  and functional outcomes :  A simple way to im ‑
+prove our practices ［ J ］ .  Orthop J Sports Med ,  2019 ,  7 ( 4 ): 232596  
+7119841089 .  DOI : 10 . 1177 / 2325967119841089 .
+［ 95 ］ Webster KE ,  Feller JA ,  Lambros C .  Development and prelimi ‑
+nary validation of a scale to measure the psychological impact of 
+returning to sport following anterior cruciate ligament reconstruc ‑
+tion surgery ［ J ］ .  Phys Ther Sport ,  2008 ,  9 ( 1 ): 9 ‑ 15 .  DOI : 10 .  1016 /
+j . ptsp . 2007 . 09 . 003 .
+［ 96 ］ Faleide AGH ,  Magnussen LH ,  Strand T ,  et al .  The role of psycho ‑
+logical readiness in return to sport assessment after anterior cru ‑
+ciate ligament reconstruction ［ J ］ .  Am J Sports Med ,  2021 ,  49 ( 5 ):
+1236 ‑ 1243 .  DOI : 10 . 1177 / 0363546521991924 .
+［ 97 ］ Mesaroli G ,  Vader K ,  Rosenbloom BN ,  et al .  Sensibility and 
+measurement properties of the tampa scale of kinesiophobia to 
+measure fear of movement in children and adults in surgical 
+settings ［ J ］ .  Disabil Rehabil ,  2023 ,  45 ( 14 ): 2390 ‑ 2397 .  DOI : 10 .  
+1080 / 09638288 . 2022 . 2090624 .
+［ 98 ］ Mercurio M ,  Cerciello S ,  Corona K ,  et al .  Factors associated with 
+a successful return to performance after anterior cruciate liga ‑
+ment reconstruction :  a multiparametric evaluation in soccer 
+play ers ［ J ］ .  Orthop J Sports Med ,  2024 ,  12 ( 10 ): 2325967124127  
+5663 .  DOI : 10 . 1177 / 23259671241275663 .
+［ 99 ］ Hoch JM ,  Swann A ,  Kleis R ,  et al .  Health‑related quality of life 
+and psychological outcomes in participants with symptomatic and 
+non‑symptomatic knees after ACL reconstruction ［ J ］ .  Int J Sports 
+Phys Ther ,  2024 ,  19 ( 2 ): 206 ‑ 214 .  DOI : 10 . 26603 / 001 c . 91649 .
+［ 100 ］ Chona D ,  Eriksson K ,  Young SW ,  et al .  Return to sport following 
+anterior cruciate ligament reconstruction :  the argument for a multi ‑
+modal approach to optimise decision‑making :  current concepts ［ J ］ .  
+J ISAKOS ,  2021 ,  6 ( 6 ): 344 ‑ 348 .  DOI : 10 . 1136 /jisakos‑ 2020 ‑ 
+000597 .
+（ 收稿日期 ： 2024 ‑ 12 ‑ 18 ）
+本文引用格式
+黄楷 ,  白伦浩 ,  毕擎 ,  等 .  竞技体育运动员前交叉韧带损伤后重返
+运动的手术与康复治疗专家共识 （ 2025 版 ） [ J ].  中华创伤杂志 ,  2025 ,  
+41 ( 4 ):  325 - 338 .  DOI :  10 . 3760 /cma . j . cn 501098 ‑ 20241218 ‑ 00704 .
+《 中华创伤杂志 》 2025 年第 5 期重点内容预告
+成人四肢骨折术后感染诊断 、 治疗和预防指南 （ 2025 版 ） …………………………………………… 米博斌  曹发奇  胡维宪等
+机器人系统辅助置钉与徒手置钉翻修强直性脊柱炎合并下颈椎骨折的疗效比较 …………… 李帅  白胶胶  贺宝荣  高延征
+梅伟  刘新宇  朱悦  李庆达  雷育宽  朱雷  赵志刚  黄云飞  都金鹏  冯铭哲  陈宁波  黄延生  章雪芳  昌震
+基于人工智能的创伤性颈脊髓损伤患者神经功能损伤严重程度自动分级模型构建与评估 ……… 王艺瑾  关珍珍  王亮  卢旭华
+经皮椎体后凸成形术术后新发邻椎骨折的危险因素及其预测效能 ……………… 王振宇  姚昊天  闻邦俊  韩雨萌  高爱国
+基于哈佛癌症指数的老年股骨颈骨折患者围术期静脉血栓栓塞症风险预测模型构建及预测效能 …………… 郭一峰  佟冰渡
+国鑫  郭婷婷  马昱晨  高娜  王轩  刘玮楠  霍晓鹏  陈亚萍
+远端缺血预处理对老年髋部骨折患者术后心肌损伤的影响 …………………………………………… 李杨春雪  高杰  张志成
+白纯  吕东东  郝雪梅  王晓伟  刘智  郭文治
+关节镜下早期与延迟重建术治疗青年前交叉韧带断裂的疗效比较 …………………………… 曾健康  周莹佳  李嘉欢  谭飞
+李培杰  张江明  张凯  王静  乔永杰  叶铄  党晨珀  周胜虎
+术中应用氨甲环酸对老年男性股骨转子间骨折患者术后早期白细胞介素 - 6 水平和预后的影响 …… 陈翔溆  朱桓毅  吴伟
+芮宸  石柳  范文斌  张程  谢文俊  李荥娟  陈辉  芮云峰
+机械臂闭合复位联合双微固定器治疗闭合性 Sanders  Ⅱ 、 Ⅲ 型跟骨骨折的临床疗效 ………………… 郝晓辉  王永清  徐占敏
+张熙南  赵志辉  孙静涛  杨志强  刘美月  吴维勇  郝宝喜  陈居文
+关节镜下胫骨端 “ 8 ” 字经骨道减张联合界面螺钉固定治疗前交叉韧带断裂的疗效 ………………………… 杨健  尚锋  赵星
+周小锐  王希  徐圣康
+虚拟仿真技术引导下单侧入路锁定板联合 Jail 螺钉技术治疗累及后外侧平台的双柱胫骨平台骨折的疗效 …… 姜伟  孔祥如
+孙健宁  单宇宙  郑红兵  杨光辉  王冰  陈浩
+橙皮苷及其衍生物在脊髓损伤治疗中作用的研究进展 …………………… 杨周睿  茹垚钦  安瑶瑶  谢鸿儒  解国辉  张钦
+人工智能化技术在胸腰椎创伤诊断与治疗中的研究进展 …… 雷育宽  刘元  李帅  高生龙  程新楠  贺宝荣  朱雷  王思博
+·· 338

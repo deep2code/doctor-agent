@@ -1,0 +1,12 @@
+# 源清单：safe_medication
+共 9 篇原文，合计 57 KB。文件头保留来源/URL，正文未改写。
+
+- adr_label.txt :: 福建省药品科普与监管数据中心 :: https://yjj.scjgj.fujian.gov.cn/ztzl/kpzl/qgaqyyy/202504/t20250416_6900936.htm
+- allergy.txt :: 福建省药品科普与监管数据中心 :: https://yjj.scjgj.fujian.gov.cn/ztzl/kpzl/qgaqyyy/202504/t20250416_6900943.htm
+- cold_meds.txt :: 福建省药品科普与监管数据中心 :: https://yjj.scjgj.fujian.gov.cn/ztzl/kpzl/qgaqyyy/202312/t20231214_6331961.htm
+- contracep.txt :: 福建省药品科普与监管数据中心 :: https://yjj.scjgj.fujian.gov.cn/ztzl/kpzl/qgaqyyy/202312/t20231214_6331904.htm
+- dup_drug.txt :: 福建省药品科普与监管数据中心 :: https://yjj.scjgj.fujian.gov.cn/ztzl/kpzl/qgaqyyy/202312/t20231214_6331980.htm
+- nasal.txt :: 福建省药品科普与监管数据中心 :: https://yjj.scjgj.fujian.gov.cn/ztzl/kpzl/qgaqyyy/202312/t20231215_6334523.htm
+- preg_expo.txt :: 福建省药品科普与监管数据中心 :: https://yjj.scjgj.fujian.gov.cn/ztzl/kpzl/qgaqyyy/202312/t20231215_6334490.htm
+- spoil.txt :: 福建省药品科普与监管数据中心 :: https://yjj.scjgj.fujian.gov.cn/ztzl/kpzl/qgaqyyy/202504/t20250416_6900933.htm
+- surgery_stop.txt :: 福建省药品科普与监管数据中心 :: https://yjj.scjgj.fujian.gov.cn/ztzl/kpzl/qgaqyyy/202504/t20250416_6900942.htm

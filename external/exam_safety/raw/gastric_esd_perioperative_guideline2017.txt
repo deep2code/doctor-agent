@@ -1,0 +1,1928 @@
+来源：国家消化系统疾病临床医学研究中心、中华医学会消化内镜学分会、中国医师协会消化医师分会／胃内镜黏膜下剥离术围手术期指南
+URL：https://cmab.yiigle.com/uploads/guide_html/胃内镜黏膜下剥离术围手术期指南.html
+发布时间：《中华消化内镜杂志》2017, 34(12): 837-851（DOI 10.3760/cma.j.issn.1007-5232.2017.12.001）
+抓取方式：curl 下载中华医学会杂志社网络版全文 HTML + 标签剥离，自标题/作者组/期刊卷期行起逐字保留至正文末，去除站点分享按钮区
+
+胃内镜黏膜下剥离术围手术期指南 
+国家消化系统疾病临床医学研究中心 
+中华医学会消化内镜学分会 
+中国医师协会消化医师分会 
+中华消化内镜杂志, 2017,34(12) : 837-851. DOI: 10.3760/cma.j.issn.1007-5232.2017.12.001 
+胃癌是危害我国人民健康的重大疾病之一。据统计结果显示，2015年我国新增胃癌患者数67.91万、死亡人数49.8万，发病率、死亡率在所有恶性肿瘤中均居第2位[1]。胃癌的预后与诊治时机密切相关，进展期胃癌即使接受了以外科手术为主的综合治疗，5年生存率仍低于30%[2]，而大部分早期胃癌经内镜下规范诊疗后，5年生存率可超过90%[3]。
+与传统外科手术相比，消化内镜治疗早期胃癌具有创伤小、并发症少、恢复快、费用低等优点，且疗效与外科手术相当[4]。内镜黏膜下剥离术(endoscopic submucosal dissection, ESD)作为内镜下治疗消化道病变的微创手术，经过数年的发展，其技术已日渐成熟，目前国际多项指南和共识均推荐内镜下切除为早期胃癌的首选治疗方式[5,6,7,8,9]。然而，ESD治疗早期胃癌易出现出血、穿孔等并发症，对内镜操作技术要求较高。一份2012年我国消化内镜治疗现状的调查报告显示，仅14.8%(25/169)的被调查医院有能力独立开展ESD操作，且主要为省级医院[10]。因此，如何根据实际情况探索和总结出我国胃癌ESD围手术期管理的诊疗规范，为更多患者提供微创治疗的契机，是摆在我国临床医师面前亟待解决的问题和挑战。基于此，我们制定了《胃内镜黏膜下剥离术围手术期指南》。其中，ESD围手术期是指从确定ESD手术至与本次手术有关的治疗基本结束为止的一段时间，包括术前准备、术中操作、术后恢复至医源性溃疡愈合的全过程[11]。因此，本指南将围绕胃ESD治疗的适应证和禁忌证、胃ESD术前准备、术中操作、术中/术后并发症和术后标本的处理等方面进行详细阐述。
+一、胃ESD治疗的适应证和禁忌证 
+(一)胃ESD适应证 
+由于ESD仅对病灶进行局部切除，无法进行胃周淋巴结清扫，故只有当淋巴结转移风险低且病灶可完整切除时方可实施ESD。因此，把握ESD治疗的适应证极为重要。
+点击查看表格 
+表1 
+推荐的ESD治疗适应证
+表1 
+推荐的ESD治疗适应证
+绝对适应证 
+(1)非浸润性肿瘤，不论病灶大小； 
+(2)病灶直径≤2cm、无合并存在溃疡的分化型黏膜内癌
+相对适应证
+(1)病灶直径>2 cm、无合并溃疡存在的分化型黏膜内癌；
+(2)病灶直径≤3 cm、合并溃疡存在的分化型黏膜内癌；
+(3)病灶直径≤2 cm、无合并溃疡存在的未分化型黏膜内癌；
+(4)病灶直径≤3 cm的分化型浅层黏膜下癌(SM1，黏膜下层浸润深度≤500 μm)
+根据2000年Vienna分型(2010年WHO消化系统肿瘤的分类与其基本相同)，非浸润性肿瘤包括低级别上皮内瘤变/异型增生和高级别上皮内瘤变/异型增生、原位癌、可疑浸润癌[12,13,14,15]。研究发现，胃非浸润性肿瘤术前病理过低诊断率较高，即术前活组织病理检查常低估了病灶的组织学类型[13,16,17,18,19,20,21,22]。一项纳入468例术前病理为胃非浸润性肿瘤患者的研究显示，ESD术后205例被确诊为腺癌，术前组织学类型低估的误诊率高达44%[19]。另一项纳入208例术前病理为低级别上皮内瘤变患者(236个病灶)的研究亦显示，内镜切除后30.1 %确诊为高级别上皮内瘤变，3.8%确诊为浸润性癌[16]。在术前病理为高级别上皮内瘤变患者中亦发现，ESD术后66.5%的患者病理分级升高[21]，且25%高级别上皮内瘤变在1年内会进展为腺癌[23]。可见，内镜切除有助于非浸润性肿瘤的诊断和治疗[19,21,24,25]，尤其对于有过低诊断危险因素[如病灶较大(直径>1 cm)、黏膜表面发红或凹陷型病灶等[16,17,18,19,21,22,25]]的患者，且ESD在这类患者中并发症发生率较低[19,21,24,26,27]。因此，胃非浸润性肿瘤为ESD治疗的绝对适应证。
+对于早期胃癌，目前国内外指南中公认的ESD绝对适应证为病灶直径≤2 cm、无合并溃疡存在的分化型黏膜内癌[5,6,7,8,9,28]。此类患者发生淋巴结转移的风险几乎为零[29,30,31,32]，应用ESD可达到治愈性切除。若不伴有脉管浸润，以下类型肿瘤发生淋巴结转移的可能性亦非常小[6,29,30,31,32,33,34,35,36]，适合进行ESD治疗：(1)病灶直径>2 cm、无合并溃疡存在的分化型黏膜内癌；(2)病灶直径≤3 cm、合并溃疡存在的分化型黏膜内癌；(3)病灶直径≤2 cm、无合并溃疡存在的未分化型黏膜内癌。另外研究还显示，病灶直径≤3 cm的分化型浅层黏膜下癌(SM1，黏膜下层浸润深度≤500 μm)发生淋巴结转移的风险亦较低[9,32,35]，在大多数情况下应用ESD可达到治愈性切除。因此，后4种情况为ESD的相对适应证。一项中位随访56个月的研究显示，在6 456例(7 979个病灶)符合ESD绝对适应证并接受ESD治疗的早期胃癌患者中局部复发率仅为0.22%，且无一例发生转移性复发；另在4 202例(5 781个病灶)符合ESD相对适应证并接受ESD治疗的早期胃癌患者中局部复发率为1.26%，转移性复发率也仅为0.14%[37]。由此长期随访结果可见，符合ESD治疗绝对/相对适应证的早期胃癌患者接受ESD治疗后远期复发率低。
+早期胃癌病理分型除上述分化型、未分化型外，还有一种混合组织类型癌。目前关于混合组织类型癌的最佳治疗策略存在诸多争议。一般认为混合组织类型癌的淋巴结转移风险较高[38,39,40]。但有研究发现，以分化成分为主(占50%以上)的混合组织类型癌的淋巴结转移风险较低[41,42,43]。对于这类患者亦可应用ESD治疗。
+(二)胃ESD禁忌证 
+目前较为公认的ESD禁忌证为[5,6,8,28]：(1)有淋巴结转移或远处转移患者；(2)肿瘤侵犯固有肌层；(3)合并心、肺、肾、脑、血液等重要脏器严重疾病患者；(4)有严重出血倾向者。
+另外，ESD的相对手术禁忌证还包括抬举征阴性，即指在病灶基底部的黏膜下层注射生理盐水后局部不能形成隆起，提示病灶基底部的黏膜下层与肌层之间已有粘连；此时行ESD治疗，发生穿孔的危险性较高，但是随着ESD操作技术的熟练，即使抬举征阴性也可以安全地进行ESD[5]。
+二、胃ESD术前准备 
+(一)知情同意 
+ESD手术之前一定要向患者及家属详细讲解建议ESD治疗的理由、ESD操作过程、预期疗效、可能存在的风险和并发症、术后可能存在的复发或转移风险，以及术后可能追加外科手术等其他治疗方案[5,28]。如果术前有使用抗凝和抗血小板药物的患者，要告知患者及家属可能增加的术后出血风险[44,45,46,47]，以及停用抗栓药将增加发生血栓栓塞后遗症的风险。ESD治疗需要镇静和麻醉，关于麻醉剂及镇静剂使用过程中可能出现的风险也必须告知患者及家属[48]。以上内容全部获得同意后，签署知情同意书。
+(二)术前诊断 
+ESD术前必须进行细致的评估，获取信息来帮助判断内镜下治疗的适应证，以及病灶的边界，以便评估手术风险及选择最合适的切除方式。具体内容包括以下几方面：
+1．组织病理学分型：主要由活检标本的病理学检查决定[8]。
+2．病变大小：精确的术前病变尺寸测定是比较困难的，可应用活检钳等器械辅助判断，可以通过术后标本的病理学检测进行最终的测定[8]。
+3．是否伴有溃疡：检查有无活动性溃疡或溃疡瘢痕[8]。
+4．病变浸润深度：可应用白光内镜配合靛胭脂染料喷洒进行判断，此外可联合放大内镜进行辅助判断，内镜超声检查术(EUS)也可作为辅助方法[7,8,49,50,51]。
+5．病灶边界：通常采用传统白光内镜联合色素染料喷洒或电子色素内镜来确定[8,50]，大约80%的病变可以通过这种方式确定边界。对于未分化型病变，边缘相较于分化型更难以判断，应在病变周围进行活检并送病理学检查。当单独使用传统内镜判断边缘困难时，可联合放大内镜。
+此外，应术前对患者常规行内镜超声或CT检查排除壁外肿大淋巴结，排除内镜治疗禁忌证[5]。
+(三)术前使用PPI 
+对于术前使用PPI的高质量研究还较少，样本量也有限，目前存在争议。有研究显示，ESD术前使用PPI可有效提高胃内pH值，促进医源性溃疡的愈合，但不显著降低术后出血风险[52,53]；也有研究显示术前使用PPI可明显降低术中出血风险[54]。另外，有研究显示术前应用PPI可以有效减少胃ESD术后疼痛[55]。总之，对于ESD术前使用PPI是否可以降低术后并发症还需要更多设计严谨的大样本、前瞻性的研究来予以佐证。目前仅建议术后使用PPI。
+(四)患者准备 
+ESD术前必需进行凝血功能检测，若存在导致手术风险增高的因素，应纠正之后再予手术[5,28,56]。根据抗血小板药物药代动力学特点，如术前有使用抗凝和抗血小板药物的患者，建议阿司匹林和氯吡格雷至少停用5 d[11]，但是对于需要预防严重出血并发症的特殊病例，应按照个体化要求酌情延长停用时间。若使用华法林，需在内镜检查前至少提前5 d停用，必要时可用低分子肝素替代治疗2 d，最后一次使用低分子肝素的时间距离行ESD的时间间隔需≥24 h[57,58]。
+对于同时服用阿司匹林和华法林或达比加群酯的患者，则ESD应推迟至可停用抗血小板药为止。根据需要，可在华法林换成阿司匹林或西洛他唑，或达比加群酯换成肝素后再行ESD。当内镜下确切止血后，可恢复使用已停用的抗凝药。恢复用药后应密切观察以防术后出血[59]。
+(五)胃肠道准备 
+术前禁食至少6 h，禁水至少2 h[48,60]，可按需使用小于50 mL的黏膜清洁剂。推荐术前联合使用祛泡剂(二甲硅油)和黏液祛除剂(链霉蛋白酶)清洗，术前30 min使用，能够改善胃ESD手术视野的可视性，减少术中水的冲洗，从而缩短手术时间，降低并发症的发生[11,61,62,63,64,65,66,67]。
+(六)麻醉和解痉 
+1．麻醉及监护 
+ESD操作技术要求高、操作难度大且操作时间长，因此多数需要静脉全麻和气管插管全身麻醉[28,48,68,69]。
+(1)静脉全麻：丙泊酚配伍芬太尼、瑞芬太尼等阿片类镇痛药物可用于胃ESD麻醉使用[70]。丙泊酚的持续静脉泵入效果明显优于间断性静脉推注丙泊酚，其更易维持一定的麻醉深度，更加安全有效，且麻醉后容易恢复[71,72,73,74]。即使是老年患者，使用丙泊酚也是安全有效的[75]。静脉全麻后的监测对ESD来说非常重要，常规监测应包括心电图、呼吸、血压、末梢脉氧饱和度和呼气末二氧化碳分压[48,69]。
+(2)气管插管全身麻醉：麻醉诱导主要应用静脉全身麻醉药、苯二氮卓类镇静药、阿片类镇痛药和肌肉松弛药。常用的静脉全身麻醉药有丙泊酚、依托咪酯等。常用的苯二氮卓类镇静药有咪唑安定等。常用的阿片类镇痛药有芬太尼、瑞芬太尼、舒芬太尼等。肌肉松弛药可以是去极化和非去极化肌肉松弛药，常用的有罗库溴铵和维库溴铵[70]。气管插管全身麻醉的维持可以采用静吸复合或全凭静脉麻醉方式。气管插管全身麻醉者由于手术条件佳，手术操作时间明显缩短，出血和穿孔的发生率也有所降低，患者与术者的满意度均明显升高[76]。ESD手术中采用气管插管全身麻醉操作速度明显高于静脉麻醉，而气管插管保证了气道安全，避免了反流、误吸等情况的发生，对于胃ESD手术而言安全可靠[77]。推荐对于贲门、胃底等易出血部位的ESD操作，或ESD操作时间大于30 min，常规使用气管插管全麻，保证气道安全，且需从循环呼吸全面监测生命体征[70]。循环监测：在麻醉过程中应进行心电图、末梢脉搏血氧饱和度等监测，同时进行无创血压监测。老年患者，有呼吸、循环系统基础疾病患者，手术时间长可能会发生呼吸、循环波动的ESD，必要时应用持续有创动脉血压监测[70]。呼吸监测：麻醉医师可以通过观察患者的呼吸频率、胸廓运动、有无口唇发绀来初步评判患者的呼吸状况，同时进行血氧饱和度(SpO2)的监测，通过监测气道压、呼气末二氧化碳分压、呼吸波形等了解呼吸情况[70]。
+2．解痉药 
+胃ESD黏膜下注射和剥离等操作可能刺激胃壁蠕动，而且操作时间相对较长，若确认无严重性心脏病、重症肌无力、青光眼、前列腺增生等禁忌证，可予静脉或肌肉注射解痉药(东莨菪碱、丁溴东莨菪碱)，抑制胃肠蠕动和幽门口收缩，减少唾液、胃液的产生，同时还可以减少呛咳的发生[11,78,79,80]。喷雾薄荷油和L-薄荷醇可有效抑制ESD期间的胃肠蠕动，且药物不良反应少[81,82,83]。
+三、胃ESD术中操作及术中并发症的处理 
+(一)术中操作步骤 
+ESD大体操作步骤如下[5,28,84,85]：(1)确定病变范围与深度：了解病灶的部位、大小和形态，结合染色和放大内镜检查确定病灶的范围、性质和浸润深度。(2)病灶边缘标记：明确病灶边界，距病灶边缘3～5 mm处进行电凝标记。(3)黏膜下注射：于病灶边缘标记点外侧进行多点黏膜下注射，将病灶抬起，与肌层分离，有利于ESD完整地切除病灶，而不容易损伤固有肌层，减少穿孔和出血等并发症的发生。(4)切开：沿标记点或标记点外侧缘切开病变周围部分黏膜，再深入切开处黏膜下层切开周围全部黏膜。(5)黏膜下剥离：进行剥离前判断病灶抬举情况，必要时需反复黏膜下注射维持病灶充分抬举，将黏膜与固有肌层完全剥离，一次完整切除病灶。(6)创面处理：对剥离后创面上所有可见血管进行预防性止血处理，渗血部位使用止血钳、氩离子血浆凝固术，对于局部剥离较深或肌层有裂隙者使用金属夹夹闭。
+使用黏膜下注射可让目标黏膜隆起以便于切除，有效的黏膜下注射可以减少出血、穿孔等并发症。理想的黏膜下注射液应具备以下特点：提供持久的黏膜下液体垫，价格便宜，安全，对组织无毒性、无损伤[28,85,86]。(1)0.9%的生理盐水是安全有效的，而且便宜，但是在黏膜下存留时间短，难以长时间维持黏膜隆起的高度，术中需要反复多次进行黏膜下注射[84,85,86]。(2)高渗盐水和葡萄糖会导致局部组织损伤，因此不常使用[84,85]。(3)透明质酸钠是理想的黏膜下注射液，它黏度高，可有效地将病灶黏膜抬起，与黏膜肌层分离。据文献报道，使用0.4%的透明质酸钠整块切除率高，不良事件发生率低，在亚洲地区广泛使用，但是价格稍贵[28,85,86,87,88,89]。(4)10%的甘油(0.9%氯化钠配比)＋5%的果糖混合液比0.9%生理盐水在黏膜下留存时间更长、更加有效，并且安全、相对便宜、制备方便[28,84,86]。(5)纤维蛋白原比0.9%的生理盐水黏膜维持时间长，但是价格偏高[84,86]。(6)0.4%的羟丙基甲基纤维素在动物试验中被证明是安全的，能否用于人体还有待进一步研究[85,89]。
+通常注射剂生理盐水需要使用染料着色(如靛胭脂)以帮助辨别剥离范围。生理盐水添加肾上腺素(肾上腺素浓度约为0.005‰)后便于手术，而且术后出血发生率下降[28,84]。
+(二)术中并发症的处理 
+1．出血 
+(1)术中出血及出血的危险因素：急性少量出血是指术中创面渗血或喷射性出血持续1 min以下，能够成功内镜下止血；急性大量出血是指术中活动性渗血或喷射性出血且内镜下止血困难，需中断手术和(或)输血治疗，手术当日或次日Hb较术前降低20 g/L以上[11,28,84,90,91]。操作者的经验及规范性同样重要，需谨慎、清晰地进行黏膜下剥离，对于解剖结构及血管情况应全面掌握。据文献报道，在胃黏膜病变的ESD中急性出血的发生率为2.9%～22.2%[92,93,94,95,96,97,98]。由于胃上2/3的黏膜下血管直径较下1/3黏膜大，因此位于上2/3黏膜病变行ESD时，术中急性出血的风险显著高于胃黏膜下1/3的病变[5,11,28,90,91]。急性出血与位于远端的肿瘤、肿瘤直径≥40 mm、组织病变及2种或2种以上抗栓治疗等因素密切相关[93,98,99,100]。
+(2)出血治疗原则：在ESD操作中，预防出血比止血更重要，剥离过程中对发现裸露的血管进行预防性止血是减少出血的重要手段。对较小黏膜下层血管，可用各种切开刀、铥激光电凝，对于较粗的血管，用止血钳钳夹后电凝[28]。黏膜剥离过程中一旦发生出血，可用冰生理盐水(含去甲肾上腺素)冲洗创面，明确出血点后可用APC电凝止血[28]。小血管的渗血可以通过电凝刀或止血钳电凝处理[5,8,84,85,101]，而对于明显的活动性出血和动脉出血，可以用止血夹夹闭，但往往影响后续的黏膜下剥离操作[5,8,85,102]。
+2．穿孔 
+(1)术中穿孔及穿孔危险因素：术中内镜直视下发现穿孔，或临床上可见腹膜刺激征，术后腹部X线或CT提示穿孔表现，应考虑为穿孔[5,11,101]。据文献报道，胃ESD的穿孔多为术中穿孔，病灶>2 cm、位于胃上部的肿瘤(胃上2/3)、大面积黏膜下浸润、伴有溃疡瘢痕、手术时间长(如>2 h)等是术中穿孔的危险因素[5,11,28,91,100,103,104,105]。
+(2)穿孔治疗原则：由于胃ESD操作时间长，应最大限度地限制空气/CO2的注入，否则消化道内会积聚大量气体，压力较高，有时较小的肌层裂伤也会造成穿孔。当穿孔发生时，可通过止血夹或其他设备夹闭裂孔。必要时可抽吸腹腔中空气/CO2，以降低术后并发症的风险和患者的疼痛[5,9,28,101]。当穿孔发生时，内镜下即可夹闭裂口进行修补[5,84]，可使用金属夹缝合裂口，以预防腹腔感染，降低腹膜炎的发生风险[84,85,101]。内镜下成功夹闭后，建议予患者禁食禁水(胃穿孔建议禁食2 d)、胃肠减压、静脉输液、抗生素使用等保守治疗[5,8,84]。对于术中忽视的较小面积穿孔，经保守治疗后，一般可以自行愈合。如果内镜下穿孔未能闭合或怀疑出现腹膜炎征象，应当请外科医生参与评估是否需要外科治疗[5,8]。
+四、胃ESD术后处理 
+(一)患者复苏和观察 
+采用深度镇静或麻醉的患者应按规定予以复苏，建议在专设的复苏区由专人照看，密切监测血压、脉搏、呼吸等生命体征，直至患者意识清醒。术后第1天禁食；继续监测生命体征的变化；进行相关实验室检查和胸部、腹部X线检查，如临床表现及相关检查无异常，术后第2天进流质或软食，随后逐渐恢复正常饮食。如有穿孔、出血等并发症出现时，可适当延长禁食禁水时间。
+(二)减少术后并发症发生用药 
+1．抑酸药 
+胃ESD术后应常规应用抑酸剂，以提高胃内pH，促进医源性溃疡(文中特指胃ESD后创面，因直接剥离深度超过黏膜层，符合"溃疡"定义，又称人工溃疡或人造溃疡[11])愈合，减少迟发性出血发生。研究证实，PPI在减少胃ESD术后迟发出血和促进医源性溃疡愈合方面效果优于H2RA[11,85,106,107,108]。一项纳入5项RCT研究的Meta分析结果显示[107]，PPI在减少迟发性出血方面显著优于H2RA(OR＝0.41，95%CI: 0.20～0.85，P＝0.02)，而且疗程为8周时与H2RA相比，PPI减少ESD后溃疡出血的作用也更明显(OR＝0.36，95%CI：0.17～0.76，P＝0.007)。一项纳入74项研究的荟萃分析亦证实，应用H2RA代替PPI是ESD术后出血的危险因素[45]。因此，推荐PPI作为胃ESD术后减少出血和促进医源性溃疡愈合的首选药物。在具体选择哪种PPI时应注意避免选择有药物相互作用的药物。
+ESD术后PPI的用法类似消化性溃疡的治疗[8]。目前大多研究建议从手术当天起静脉应用PPI[11,109,110,111,112,113]，可选择抑酸作用强效、持久的PPI，以有效促进ESD医源性溃疡的愈合，降低再出血的风险，2～3 d后改为口服标准剂量PPI，一般疗程为4～8周[11,109,110,112]。不过，也有研究建议在没有延迟溃疡愈合因素的患者中服用2周即可[114,115]。
+荟萃分析和大量研究显示，切除标本直径>40 mm、肿瘤直径>20 mm、服用抗栓药物(尤其是≥2种抗栓药物)、平坦/凹陷型病变、组织类型为癌、病变位于胃小弯侧、伴有溃疡、合并心脏病/肝硬化/慢性肾病/血液透析、操作时间长(>60 min)等均是ESD术后迟发性出血的危险因素。对于伴有上述ESD术后迟发性出血危险因素的患者建议可酌情增加PPI用量、延长疗程或加用胃黏膜保护剂。且对于伴有多个迟发性出血危险因素的患者，建议延长住院时间[24,45,47,98,99,105,111,116,117,118,119,120,121,122,]。
+研究显示[11,110,115,123]，切除标本直径>40 mm、术中反复电凝止血、凝血功能异常、合并糖尿病等为胃ESD术后医源性溃疡延迟愈合的危险因素。Oh TH等进行的一项研究发现[110]，泮托拉唑治疗4周时几乎所有ESD术后初始直径≤30 mm的溃疡在4周时按溃疡愈合程度均被归为小溃疡组(4周时溃疡面积≤10 mm2)，而绝大部分ESD术后初始直径>40 mm的溃疡在4周时被归为大溃疡组(>10 mm2)。可见，对于ESD术后直径≤30 mm的溃疡，PPI治疗4周可能已足够，但对于术后直径>40 mm的患者则需要延长治疗时间。Lee等[124]进行的一项前瞻性研究亦发现，在ESD术后溃疡面积>40 mm2的患者中，PPI治疗8周组的溃疡完全愈合率显著高于PPI治疗4周组(83.3%比42.6%, P<0.01)。因此，对于伴有上述胃ESD术后医源性溃疡延迟愈合危险因素的患者建议至少接受8周的PPI治疗，并可酌情增加PPI用量、延长疗程或加用胃黏膜保护剂。
+2．胃黏膜保护剂 
+胃黏膜保护剂与PPI联用有一定协同作用[11,112,125,126,127,128,129]。多项荟萃分析显示[128,129]，ESD术后PPI联合胃黏膜保护剂的医源性溃疡愈合率显著高于单用PPI。且无论是治疗4周，还是8周时，PPI联合胃黏膜保护剂的溃疡愈合率均显著高于单用PPI。
+3．抗生素 
+我国抗菌药物的不合理应用现象不容忽视。多项前瞻性研究结果显示[130,131]，胃ESD治疗后出现菌血症的风险低，而且是一过性的，因此不推荐胃ESD围手术期常规预防性使用抗菌药物[11,132]。
+而对于术前评估切除范围大、操作时间长、消化道穿孔高危患者，以及高龄、伴有糖尿病、免疫功能低下(尤其是接受器官移植者)、营养不良等感染风险高的患者，可酌情使用抗菌药物。药物的选择参照卫生部抗菌素使用原则，ESD术后可选用第1或2代头孢菌素，酌情加用硝基咪唑类药物。术后用药总时间一般不应超过72 h，但可酌情延长[5,11]。
+4．止血药物 
+止血药物对胃ESD术后出血的预防和治疗作用尚未证实，部分药物有致血栓风险，不推荐作为一线药物使用。对无凝血功能障碍的患者，应避免滥用此类药物；对有血栓栓塞风险或服用抗栓药物的患者应慎用或禁用[11]。
+5．根除幽门螺旋杆菌 
+研究显示，幽门螺旋杆菌(HP)感染状态并不是胃ESD术后医源性溃疡延迟愈合的影响因素，根除HP不会促进医源性溃疡的愈合[123,133,134]。但HP感染是胃ESD术后溃疡复发的危险因素，且根除HP可显著降低早期胃癌ESD术后异时癌发生率[8,106,135,136,137,138]。因此，对于接受胃ESD治疗的HP阳性患者，推荐行HP根除治疗。Huh等[139]进行的一项研究显示，在514例接受HP根除方案治疗的胃部肿瘤内镜切除术后患者中，ESD后早期(≤2周)即行HP根除可达到更高的根除率[早期根除组90.0%，中期根除(2～8周)组76.2%，晚期根除(≥8周)组72.4%；P<0.001]。因此，建议胃ESD术后2周内行HP根除治疗。具体根除方案请参见《第五次全国幽门螺旋杆菌感染处理共识报告》[140]。
+(三)术后并发症的处理 
+1．术后迟发性出血的处理 
+目前关于ESD术后迟发性出血的定义，各研究和指南中各有不同，尚未达成统一的共识。迟发性出血最常见的定义为ESD所致溃疡的明显出血且需要再次内镜下止血的情况[5,114]。当与术前相比血红蛋白较术前下降20 g/L，生命体征发生变化，或出血呕血、便血、黑便时则可在内镜检查前就发现出血[5,45,114]。迟发性出血可分为48 h内出血和超过48 h出血[5,45]。大部分迟发性出血发生在ESD术后48 h内，可持续至术后2周[45,114]。
+由于各研究中关于迟发性出血的定义不同，因此，不同研究中报道的迟发性出血发生率差异较大[72,122,141,142,143,144,145,146,147,148]。一项纳入了74项研究的meta分析显示[45]，汇总的胃ESD后迟发性出血发生率为5.1%(95%CI：4.5%～5.7%)，各研究间的异质性较大。但若按照不同研究设计来看，迟发性出血发生率并无显著差异(RCT 5.9%，前瞻性研究6.1%，回顾性研究4.9%)。
+胃ESD术后迟发性出血首选内镜下止血，如止血钳止血、黏膜下注射药物止血等[5,90]。纳入10项RCT研究、1 283例内镜成功治疗后上消化道出血患者的meta分析显示[149]，与H2RA相比，PPI显著降低再出血率((OR＝0.36，95%CI: 0.25～0.51，P<0.000 01)，减少需手术治疗的患者数(OR＝0.29; 95%CI: 0.09～0.96，P＝0.04)。因此，对于大量出血患者，推荐静脉应用PPI[150,151,152]，以迅速提高胃内pH值，使其达到6以上，促进血小板聚集和防止血凝块溶解，有利于止血和降低上消化道出血患者再出血发生率，预防再出血的发生。
+2．术后迟发性穿孔的处理 
+迟发性穿孔是指ESD期间无穿孔，ESD术后即刻无症状或游离气体存在，随后突然出现腹膜刺激症状，或术后腹部平片或CT提示纵隔下有游离气体存在的情况[5,19,153,154]。迟发性穿孔是一种非常少见的并发症，发生率约为0.1%～0.45%，多发生在ESD术后1～2 d[153,154,155,156]。研究发现，管状胃(食管切除术后将胃管拉至胸腔以代替食管)可能与迟发性穿孔有关[154]。另外，Hanaoka等[153,154]报道迟发性穿孔的发生可能与ESD期间电灼烧或反复电凝，造成胃壁缺血性改变，导致组织坏死有关。因此，ESD期间最好避免过度电灼烧或反复电凝，以预防迟发性穿孔的发生。
+出现迟发性穿孔时，若是穿孔较小，发现早，且未发生广泛性腹膜炎或严重纵隔炎(如管状胃的情况下)，可考虑保守治疗，如在CO2注气的情况下用endoloop-endoclip技术、OTSC关闭迟发性穿孔造成的胃壁缺口[154,157,158]。闭合成功后，可以采用包括放置鼻胃管、禁食、静脉给予抗生素和PPI等在内的保守治疗[153,154,155]。采用CO2代替空气注气可减少胃ESD穿孔导致气腹症的发生率[5,90]。CO2注气可预防气腹引起的呼吸循环不稳定，并减轻术后呕吐、腹胀等症状，同时还可预防空气栓塞发生[5]。虽然小部分患者通过保守治疗和小心的随访可成功治疗迟发性穿孔，但是如果穿孔未能闭合或者怀疑出现腹膜炎征象，应当请外科医生参与评估是否需要外科治疗[8,154]。
+3．术后狭窄的处理 
+当胃ESD术后，直径为1 cm的内镜不能通过时即发生了胃ESD术后狭窄[90,159,160,161]。狭窄是胃ESD术后的一种严重迟发性并发症，可导致吞咽困难和恶心等临床症状，会明显降低患者生活质量[159,160]。狭窄可发生于ESD术后几周溃疡愈合期间[90,159]，主要见于贲门、幽门或胃窦部面积较大的ESD术后[5]。狭窄在所有胃ESD患者中的发生率为0.9%～2.5%，在贲门处的发生率为0%～21.3%，胃窦和幽门前发生率为3.2%～18.8%[159,160,161,162,163]。多项研究显示，黏膜环周缺损>3/4和切除纵向长度>5 cm是胃ESD术后发生狭窄的危险因素[159,160,161]。
+内镜球囊扩展是一种有效的治疗方法，多数患者通过多次内镜球囊扩张，症状可得到有效缓解[5,90,159,160,161]。推荐在具有狭窄危险因素的患者中进行定期内镜随访，建议在狭窄真正形成前开始进行内镜球囊扩张治疗。预防性应用内镜球囊扩张，可避免狭窄区域压力过高，从而减少并发症发生。需要注意的是，内镜球囊扩展可能会引起穿孔[5,90,159,160,161,162]。对于高危穿孔患者，球囊扩张期间进行早期干预可避免穿孔的发生[90,160]。若狭窄不适合内镜治疗，则可进行手术治疗[91]。此外，有研究显示胃ESD术后应用糖皮质激素可预防和治疗狭窄，但还有待进一步验证[91,164,166]。
+五、胃ESD术后标本的处理 
+目前国内针对ESD标本的病理学检查无统一规范性指南。我们参照WHO诊断标准、美国病理医生学会、欧洲、日本胃癌研究会有关胃癌标本病理学检查的指南，整理出我们对早期ESD标本规范化病理学检查的建议草案[8,167,168,169]。ESD标本病理评估，除需要确定病变的病理类型外，更需要关注病变的切缘是否干净，浸润深度及有无脉管浸润等[170]。
+(一)标本预处理 
+1．冲洗：用生理盐水将标本表面的血液及黏液冲洗干净，充分暴露病变。2.延展：沿着标本最外侧将蜷曲的标本展平后用不锈钢细针(推荐使用昆虫标本针或针灸针)固定于塑料泡沫或橡胶板上。若断端距离病变3 mm以内，禁止在此处钉针，以避免机械破坏影响对病变的观察。标明其在体内的相对位置(如口侧、肛侧、前壁、后壁等)[167,170]。3.固定：标本放在平板上展平后，立即浸泡于10%的福尔马林溶液中固定，通常情况下，应在室温下浸泡12～48 h[5,8,28,165,170]。固定液体积不少于标本体积的5倍[167]。
+(二)大体检查 
+1．照相、测量、描述、记录：拍摄大体照片至少两张(取材前全貌和取材切割图)。仔细观察标本，测量、记录组织信息，包括标本的大小、病变大小、形状、颜色、硬度、水平边缘、肉眼分型(巴黎分型)[167]。2.全面取材：确定切缘后，沿着病灶边缘至标本外侧缘最短距离的连线开始切片，然后平行于这条线连续切片，间隔为2.0～3.0 mm[5,8,28,165,167,170]。3.组织脱水、包埋：取材结束后将翻转好的组织条按顺序放入包埋盒，每盒≤3条，并记录放置顺序。组织脱水、浸蜡、石蜡包埋，切片厚度4～6 μm[5,8,28,165,167]。
+(三)规范化病理学报告要求 
+需描述肿瘤的大体形态、大小、病理组织学分型、分化程度、淋巴管和血管浸润、肿瘤浸润深度、黏膜状态和切缘情况以及有无脉管浸润，以确定内镜下切除是否达到完全切除或者是否还需要补充治疗[5,7,8,28,165]，此外还需记录辅助检查结果，如免疫组织化学HER2蛋白等的表达状态，利用免疫组化确定少见组织类型，如神经内分泌癌等[167]。显微镜下需观察内容：
+1．有无溃疡及周围黏膜：溃疡及瘢痕影响ESD手术及对预后的判断。周围黏膜的非肿瘤性改变(包括炎性反应、萎缩、化生等改变)[170]。
+2．组织来源和分型标准：有无上皮内瘤变，不确定的上皮内瘤变，低级别上皮内瘤变，高级别上皮内瘤变(原位癌可疑浸润癌，黏膜内浸润癌)，黏膜下浸润癌(日本和西方标准不同)[170]。
+3．组织学类型及分化程度：多种组织病理学类型同时存在时，应记录每种类型并按照其对应面积大小以降序排列[8]。
+4．肿瘤浸润深度：肿瘤的浸润深度应该以病灶浸润的最深层记录。若肿瘤浸润至黏膜下层，需要测量病灶最深处至黏膜肌层(可通过免疫组化Desmin协助显示)下缘距离。胃肠道不同部位肿瘤对于SM1的界定标准不同，胃<500 μm，超过以上深度则为SM2。若病灶因为溃疡或溃疡瘢痕而使黏膜肌层不易辨认，可通过画一条虚线连接临近残存黏膜肌层假想为完整之黏膜肌层，再通过测定肿瘤下缘至该线的距离来记录黏膜下肿瘤浸润深度[8,167,170]。
+5．切缘状态：切缘干净是指在切除组织的各个水平及垂直切缘未见到肿瘤细胞[170]。切缘阴性：若肿瘤距切缘较近，则应记录癌灶距切缘的最近距离[170]。水平切缘阳性：记录阳性切缘块数[170]。垂直切缘阳性：记录肿瘤所在部位[170]。
+6．脉管浸润：可借助特殊染色和免疫组化[167]。亚甲蓝和苏木精-伊红(HE)双重染色以及弹力纤维染色的免疫组化检查可用于识别静脉，而抗淋巴管内皮抗体(D2-40)则用于淋巴管的识别[8,165]。VG染色和CD31或CD34免疫组化染色也广泛用于血管和淋巴管浸润的鉴定[165]。
+点击查看大图 
+图1 
+测量大小 
+图2 
+ESD标本病变全貌图 注：虚线为病灶边缘距离水平切缘(外侧缘)最近处的切线，"4"号实线为第一次切片的切线，需垂直于虚线；通过固定标本的拍照，可以重建肿瘤侵犯深度(黑色代表黏膜层累及，红色代表黏膜下层累及)和在黏膜内扩散的范围，"1"～"8"为标本的切线 
+图3 
+3A：ESD标本固定后的处理和对于肿瘤扩散程度的重建示意图；3B：ESD 标本取材 
+图4 
+HE染色 
+图1 
+测量大小 
+图2 
+ESD标本病变全貌图 注：虚线为病灶边缘距离水平切缘(外侧缘)最近处的切线，"4"号实线为第一次切片的切线，需垂直于虚线；通过固定标本的拍照，可以重建肿瘤侵犯深度(黑色代表黏膜层累及，红色代表黏膜下层累及)和在黏膜内扩散的范围，"1"～"8"为标本的切线 
+图3 
+3A：ESD标本固定后的处理和对于肿瘤扩散程度的重建示意图；3B：ESD 标本取材 
+图4 
+HE染色 
+点击查看大图 
+图5 
+病理报告模板 
+图5 
+病理报告模板 
+六、结语 
+作为治疗胃非浸润性肿瘤和早期胃癌的首选治疗方式，ESD具有侵袭性小、一次性完整切除较大黏膜病变、病理诊断准确、术后复发率低及康复快等优势和特点，在临床中发挥了重要作用。目前ESD在国外已相当成熟，在国内该技术也日臻完善。而胃ESD围手术期管理更是一个重要的临床课题。
+本指南从ESD治疗的适应证、术前准备、术中操作、并发症的处理等多方面对胃ESD围手术期的相关问题进行了详细的阐述，其中需要注意涉及用药时须遵照药品使用说明书的适应证范围使用。期望本指南能够在临床实践中为医生提供切实的帮助，促使我国未来胃ESD的围手术期管理更加规范和专业。期待随着研究的发展和技术的进步，未来能不断完善《胃内镜黏膜下剥离术围手术期指南》。
+专家组成员 
+专家组成员(按姓氏汉语拼音排序)：
+陈光勇(首都医科大学附属北京友谊医院病理科)；陈幼祥(南昌大学第一附属医院消化内科)；戴宁(浙江大学医学院附属邵逸夫医院消化内科)；冀明(首都医科大学附属北京友谊医院消化分中心)；季峰(浙江大学附属第一医院消化内科)；金震东(上海长海医院消化内科)；李鹏(首都医科大学附属北京友谊医院消化分中心)；令狐恩强(解放军总医院消化内科)；刘缚鲲(首都医科大学附属北京友谊医院麻醉科)；刘俊(武汉协和医院消化内科)；刘思德(南方大学附属南方医院消化内科)；孙思予(中国医科大学附属盛京医院消化内科)；王拥军(首都医科大学附属北京友谊医院消化分中心)；杨爱明(中国医学科学院北京协和医学院北京协和医院消化内科)；叶国良(宁波大学医学院附属医院消化内科)；于红刚(武汉大学人民医院消化内科)；于中麟(首都医科大学附属北京友谊医院消化分中心)；张春清(山东大学附属省立医院消化内科)；张澍田(首都医科大学附属北京友谊医院消化分中心);赵秋(武汉大学中南医院消化内科)；周平红(复旦大学附属中山医院内镜中心)；邹晓平(南京大学医学院附属鼓楼医院消化内科)；左秀丽(山东大学齐鲁医院消化内科)。
+执笔者：程芮(首都医科大学附属北京友谊医院消化分中心);李鹏(首都医科大学附属北京友谊医院消化分中心)。
+参考文献 
+[1] 
+ChenW, ZhengR, BaadePD, et al. 
+Cancer statistics in China, 2015[J]. 
+CA Cancer J Clin, 
+2016, 
+66( 
+2): 
+115- 
+132. 
+DOI: 10.3322/caac.21338. 
+[2] 
+AjaniJA, BentremDJ, BeshS, et al. 
+Gastric cancer, version 2.2013: featured updates to the NCCN Guidelines[J]. 
+J Natl Compr Canc Netw, 
+2013, 
+11( 
+5): 
+531- 
+546. 
+[3] 
+IsobeY, NashimotoA, AkazawaK, et al. 
+Gastric cancer treatment in Japan: 2008 annual report of the JGCA nationwide registry[J]. 
+Gastric Cancer, 
+2011, 
+14( 
+4): 
+301- 
+316. 
+DOI: 10.1007/s10120-011-0085-6. 
+[4] 
+MengFS, ZhangZH, WangYM, et al. 
+Comparison of endoscopic resection and gastrectomy for the treatment of early gastric cancer: a meta-analysis[J]. 
+Surg Endosc, 
+2016, 
+30( 
+9): 
+3673- 
+3683. 
+DOI: 10.1007/s00464-015-4681-0. 
+[5] 
+中华医学会消化内镜学分会，中国抗癌协会肿瘤内镜专业委员会. 
+中国早期胃癌筛查及内镜诊治共识意见(2014年，长沙)[J]． 
+中华消化内镜杂志， 
+2014， 
+31( 
+7): 
+361- 
+377. 
+DOI: 10.3760/cma.j.issn.1007-5232.2014.07.001. 
+[6] 
+Japanese gastric cancer treatment guidelines 2014 (ver. 4)[J]. 
+Gastric Cancer, 
+2017, 
+20( 
+1): 
+1- 
+19. 
+DOI: 10.1007/s10120-016-0622-4. 
+[7] 
+O′DonnellMR, TallmanMS, AbboudCN, et al. 
+Acute Myeloid Leukemia, Version 3.2017, NCCN Clinical Practice Guidelines in Oncology[J]. 
+J Natl Compr Canc Netw, 
+2017, 
+15( 
+7): 
+926- 
+957. 
+DOI: 10.6004/jnccn.2017.0116. 
+[8] 
+OnoH, YaoK, FujishiroM, et al. 
+Guidelines for endoscopic submucosal dissection and endoscopic mucosal resection for early gastric cancer[J]. 
+Dig Endosc, 
+2016, 
+28( 
+1): 
+3- 
+15. 
+DOI: 10.1111/den.12518. 
+[9] 
+Pimentel-NunesP, Dinis-RibeiroM, PonchonT, et al. 
+Endoscopic submucosal dissection: European Society of Gastrointestinal Endoscopy (ESGE) Guideline[J]. 
+Endoscopy, 
+2015, 
+47( 
+9): 
+829- 
+854. 
+DOI: 10.1055/s-0034-1392882. 
+[10] 
+ZhangXL, LuZS, TangP, et al. 
+Current application situation of gastrointestinal endoscopy in China[J]. 
+World J Gastroenterol, 
+2013, 
+19( 
+19): 
+2950- 
+2955. 
+DOI: 10.3748/wjg.v19.i19.2950. 
+[11] 
+BaiY, CaiJT, ChenYX, et al. 
+Expert consensus on perioperative medications during endoscopic submucosal dissection for gastric lesions (2015, Suzhou, China)[J]. 
+J Dig Dis, 
+2016, 
+17( 
+12): 
+784- 
+789. 
+DOI: 10.1111/1751-2980.12430. 
+[12] 
+FléjouJF. 
+WHO Classification of digestive tumors: the fourth edition[J]. 
+Ann Pathol, 
+2011, 
+31( 
+5 Suppl): 
+S27- 
+31. 
+DOI: 10.1016/j.annpat.2011.08.001. 
+[13] 
+KimJW, JangJY. 
+Optimal management of biopsy-proven low-grade gastric dysplasia[J]. 
+World J Gastrointest Endosc, 
+2015, 
+7( 
+4): 
+396- 
+402. 
+DOI: 10.4253/wjge.v7.i4.396. 
+[14] 
+黄受方. 
+胃肠道上皮性肿瘤的WHO/Vienna分类——着重结直肠癌前驱病变[J]. 
+中华病理学杂志， 
+2005， 
+34( 
+8): 
+540- 
+541. 
+DOI: 10.3760/j.issn:0529-5807.2005.08.040. 
+[15] 
+SungJK. 
+Diagnosis and management of gastric dysplasia[J]. 
+Korean J Intern Med, 
+2016, 
+31( 
+2): 
+201- 
+209. 
+DOI: 10.3904/kjim.2016.021. 
+[16] 
+ChoSJ, ChoiIJ, KimCG, et al. 
+Risk of high-grade dysplasia or carcinoma in gastric biopsy-proven low-grade dysplasia: an analysis using the Vienna classification[J]. 
+Endoscopy, 
+2011, 
+43( 
+6): 
+465- 
+471. 
+DOI: 10.1055/s-0030-1256236. 
+[17] 
+ChoiCW, KangDH, KimHW, et al. 
+Endoscopic submucosal dissection as a treatment for gastric adenomatous polyps: predictive factors for early gastric cancer[J]. 
+Scand J Gastroenterol, 
+2012, 
+47( 
+10): 
+1218- 
+1225. 
+DOI: 10.3109/00365521.2012.666674. 
+[18] 
+ChoiCW, KimHW, ShinDH, et al. 
+The risk factors for discrepancy after endoscopic submucosal dissection of gastric category 3 lesion (low grade dysplasia)[J]. 
+Dig Dis Sci, 
+2014, 
+59( 
+2): 
+421- 
+427. 
+DOI: 10.1007/s10620-013-2874-8. 
+[19] 
+KatoM, NishidaT, TsutsuiS, et al. 
+Endoscopic submucosal dissection as a treatment for gastric noninvasive neoplasia: a multicenter study by Osaka University ESD Study Group[J]. 
+J Gastroenterol, 
+2011, 
+46( 
+3): 
+325- 
+331. 
+DOI: 10.1007/s00535-010-0350-1. 
+[20] 
+LeeJH, MinYW, LeeJH, et al. 
+Diagnostic group classifications of gastric neoplasms by endoscopic resection criteria before and after treatment: real-world experience[J]. 
+Surg Endosc, 
+2016, 
+30( 
+9): 
+3987- 
+3993. 
+DOI: 10.1007/s00464-015-4710-z. 
+[21] 
+RyuDG, ChoiCW, KangDH, et al. 
+Clinical outcomes of endoscopic submucosa dissection for high-grade dysplasia from endoscopic forceps biopsy[J]. 
+Gastric Cancer, 
+2017, 
+20( 
+4): 
+671- 
+678. 
+DOI: 10.1007/s10120-016-0665-6. 
+[22] 
+XuG, ZhangW, LvY, et al. 
+Risk factors for under-diagnosis of gastric intraepithelial neoplasia and early gastric carcinoma in endoscopic forceps biopsy in comparison with endoscopic submucosal dissection in Chinese patients[J]. 
+Surg Endosc, 
+2016, 
+30( 
+7): 
+2716- 
+2722. 
+DOI: 10.1007/s00464-015-4534-x. 
+[23] 
+EvansJA, ChandrasekharaV, ChathadiKV, et al. 
+The role of endoscopy in the management of premalignant and malignant conditions of the stomach[J]. 
+Gastrointest Endosc, 
+2015, 
+82( 
+1): 
+1- 
+8. 
+DOI: 10.1016/j.gie.2015.03.1967. 
+[24] 
+ChungIK, LeeJH, LeeSH, et al. 
+Therapeutic outcomes in 1000 cases of endoscopic submucosal dissection for early gastric neoplasms: Korean ESD Study Group multicenter study[J]. 
+Gastrointest Endosc, 
+2009, 
+69( 
+7): 
+1228- 
+1235. 
+DOI: 10.1016/j.gie.2008.09.027. 
+[25] 
+KimSY, SungJK, MoonHS, et al. 
+Is endoscopic mucosal resection a sufficient treatment for low-grade gastric epithelial dysplasia？[J]. 
+Gut Liver, 
+2012, 
+6( 
+4): 
+446- 
+451. 
+DOI: 10.5009/gnl.2012.6.4.446. 
+[26] 
+LeeSY. 
+Gastric adenoma with low-grade dysplasia: two countries, two outcomes[J]. 
+Dig Dis Sci, 
+2014, 
+59( 
+2): 
+235- 
+237. 
+DOI: 10.1007/s10620-013-2860-1. 
+[27] 
+OjimaT, TakifujiK, NakamuraM, et al. 
+Complications of endoscopic submucosal dissection for gastric noninvasive neoplasia: an analysis of 647 lesions[J]. 
+Surg Laparosc Endosc Percutan Tech, 
+2014, 
+24( 
+4): 
+370- 
+374. 
+DOI: 10.1097/SLE.0b013e318290132e. 
+[28] 
+内镜黏膜下剥离术专家协作组. 
+消化道黏膜病变内镜黏膜下剥离术治疗专家共识[J]． 
+中华胃肠外科杂志， 
+2012， 
+15( 
+10): 
+1083- 
+1086. 
+DOI: 10.3760/cma.j.issn.1671-0274.2012.10.028. 
+[29] 
+ChoiKK, BaeJM, KimSM, et al. 
+The risk of lymph node metastases in 3951 surgically resected mucosal gastric cancers: implications for endoscopic resection[J]. 
+Gastrointest Endosc, 
+2016, 
+83( 
+5): 
+896- 
+901. 
+DOI: 10.1016/j.gie.2015.08.051. 
+[30] 
+GotodaT, YanagisawaA, SasakoM, et al. 
+Incidence of lymph node metastasis from early gastric cancer: estimation with a large number of cases at two large centers[J]. 
+Gastric Cancer, 
+2000, 
+3( 
+4): 
+219- 
+225. 
+[31] 
+KimYI, LeeJH, KookMC, et al. 
+Lymph node metastasis risk according to the depth of invasion in early gastric cancers confined to the mucosal layer[J]. 
+Gastric Cancer, 
+2016, 
+19( 
+3): 
+860- 
+868. 
+DOI: 10.1007/s10120-015-0535-7. 
+[32] 
+SekiguchiM, OdaI, TaniguchiH, et al. 
+Risk stratification and predictive risk-scoring model for lymph node metastasis in early gastric cancer[J]. 
+J Gastroenterol, 
+2016, 
+51( 
+10): 
+961- 
+970. 
+DOI: 10.1007/s00535-016-1180-6. 
+[33] 
+AsakawaY, OhtakaM, MaekawaS, et al. 
+Stratifying the risk of lymph node metastasis in undifferentiated-type early gastric cancer[J]. 
+World J Gastroenterol, 
+2015, 
+21( 
+9): 
+2683- 
+2692. 
+DOI: 10.3748/wjg.v21.i9.2683. 
+[34] 
+BangCS, BaikGH, ShinIS, et al. 
+Endoscopic submucosal dissection for early gastric cancer with undifferentiated-type histology: A meta-analysis[J]. 
+World J Gastroenterol, 
+2015, 
+21( 
+19): 
+6032- 
+6043. 
+DOI: 10.3748/wjg.v21.i19.6032. 
+[35] 
+GotodaT, JungHY. 
+Endoscopic resection (endoscopic mucosal resection/endoscopic submucosal dissection) for early gastric cancer[J]. 
+Dig Endosc, 
+2013, 
+25( 
+Suppl 1): 
+55- 
+63. 
+DOI: 10.1111/den.12003. 
+[36] 
+HirasawaT, GotodaT, MiyataS, et al. 
+Incidence of lymph node metastasis and the feasibility of endoscopic resection for undifferentiated-type early gastric cancer[J]. 
+Gastric Cancer, 
+2009, 
+12( 
+3): 
+148- 
+152. 
+DOI: 10.1007/s10120-009-0515-x. 
+[37] 
+TanabeS, IshidoK, MatsumotoT, et al. 
+Long-term outcomes of endoscopic submucosal dissection for early gastric cancer: a multicenter collaborative study[J]. 
+Gastric Cancer, 
+2017, 
+20( 
+Suppl 1): 
+45- 
+52. 
+DOI: 10.1007/s10120-016-0664-7. 
+[38] 
+FuQY, CuiY, LiXB, et al. 
+Relevant risk factors for positive lateral margin after en bloc endoscopic submucosal dissection for early gastric adenocarcinoma[J]. 
+J Dig Dis, 
+2016, 
+17( 
+4): 
+244- 
+251. 
+DOI: 10.1111/1751-2980.12342. 
+[39] 
+LeeIS, LeeS, ParkYS, et al. 
+Applicability of endoscopic submucosal dissection for undifferentiated early gastric cancer: Mixed histology of poorly differentiated adenocarcinoma and signet ring cell carcinoma is a worse predictive factor of nodal metastasis[J]. 
+Surg Oncol, 
+2017, 
+26( 
+1): 
+8- 
+12. 
+DOI: 10.1016/j.suronc.2016.12.001. 
+[40] 
+ShimCN, ChungH, ParkJC, et al. 
+Early gastric cancer with mixed histology predominantly of differentiated type is a distinct subtype with different therapeutic outcomes of endoscopic resection[J]. 
+Surg Endosc, 
+2015, 
+29( 
+7): 
+1787- 
+1794. 
+DOI: 10.1007/s00464-014-3861-7. 
+[41] 
+HanaokaN, TanabeS, MikamiT, et al. 
+Mixed-histologic-type submucosal invasive gastric cancer as a risk factor for lymph node metastasis: feasibility of endoscopic submucosal dissection[J]. 
+Endoscopy, 
+2009, 
+41( 
+5): 
+427- 
+432. 
+DOI: 10.1055/s-0029-1214495. 
+[42] 
+TakizawaK, OnoH, KakushimaN, et al. 
+Risk of lymph node metastases from intramucosal gastric cancer in relation to histological types: how to manage the mixed histological type for endoscopic submucosal dissection[J]. 
+Gastric Cancer, 
+2013, 
+16( 
+4): 
+531- 
+536. 
+DOI: 10.1007/s10120-012-0220-z. 
+[43] 
+TakizawaK, OnoH, YamamotoY, et al. 
+Incidence of lymph node metastasis in intramucosal gastric cancer measuring 30 mm or less, with ulceration; mixed, predominantly differentiated-type histology; and no lymphovascular invasion: a multicenter retrospective study[J]. 
+Gastric Cancer, 
+2016, 
+19( 
+4): 
+1144- 
+1148. 
+DOI: 10.1007/s10120-015-0569-x. 
+[44] 
+KonoY, MatsubaraM, ToyokawaT, et al. 
+Multicenter Prospective Study on the Safety of Upper Gastrointestinal Endoscopic Procedures in Antithrombotic Drug Users[J]. 
+Dig Dis Sci, 
+2017, 
+62( 
+3): 
+730- 
+738. 
+DOI: 10.1007/s10620-016-4437-2. 
+[45] 
+LibânioD, CostaMN, Pimentel-NunesP, et al. 
+Risk factors for bleeding after gastric endoscopic submucosal dissection: a systematic review and meta-analysis[J]. 
+Gastrointest Endosc, 
+2016, 
+84( 
+4): 
+572- 
+586. 
+DOI: 10.1016/j.gie.2016.06.033. 
+[46] 
+OnoS, FujishiroM, YoshidaN, et al. 
+Thienopyridine derivatives as risk factors for bleeding following high risk endoscopic treatments: Safe Treatment on Antiplatelets (STRAP) study[J]. 
+Endoscopy, 
+2015, 
+47( 
+7): 
+632- 
+637. 
+DOI: 10.1055/s-0034-1391354. 
+[47] 
+TakeuchiT, OtaK, HaradaS, et al. 
+The postoperative bleeding rate and its risk factors in patients on antithrombotic therapy who undergo gastric endoscopic submucosal dissection[J]. 
+BMC Gastroenterol, 
+2013, 
+13: 
+136. 
+DOI: 10.1186/1471-230X-13-136. 
+[48] 
+中华医学会消化内镜学分会，中华医学会麻醉学分会. 
+中国消化内镜诊疗镇静/麻醉的专家共识意见[J]． 
+中华消化内镜杂志， 
+2014， 
+31( 
+8): 
+421- 
+428. 
+DOI: 10.3760/cma.j.issn.1007-5232.2014.08.001. 
+[49] 
+KikuchiD, IizukaT, HoteyaS, et al. 
+Usefulness of endoscopic ultrasound for the prediction of intraoperative bleeding of endoscopic submucosal dissection for gastric neoplasms[J]. 
+J Gastroenterol Hepatol, 
+2011, 
+26( 
+1): 
+68- 
+72. 
+DOI: 10.1111/j.1440-1746.2010.06412.x. 
+[50] 
+YaoK, NagahamaT, MatsuiT, et al. 
+Detection and characterization of early gastric cancer for curative endoscopic submucosal dissection[J]. 
+Dig Endosc, 
+2013, 
+25( 
+Suppl 1): 
+44- 
+54. 
+DOI: 10.1111/den.12004. 
+[51] 
+ZhouY, LiXB. 
+Endoscopic prediction of tumor margin and invasive depth in early gastric cancer[J]. 
+J Dig Dis, 
+2015, 
+16( 
+6): 
+303- 
+310. 
+DOI: 10.1111/1751-2980.12251. 
+[52] 
+MyungYS, HongSJ, HanJP, et al. 
+Effects of administration of a proton pump inhibitor before endoscopic submucosal dissection for differentiated early gastric cancer with ulcer[J]. 
+Gastric Cancer, 
+2017, 
+20( 
+1): 
+200- 
+206. 
+DOI: 10.1007/s10120-015-0578-9. 
+[53] 
+NishizawaT, SuzukiH, AkimotoT, et al. 
+Effects of preoperative proton pump inhibitor administration on bleeding after gastric endoscopic submucosal dissection: A systematic review and meta-analysis[J]. 
+United European Gastroenterol J, 
+2016, 
+4( 
+1): 
+5- 
+10. 
+DOI: 10.1177/2050640615588023. 
+[54] 
+陈磊，朱海航，王璐，等. 
+术前使用质子泵抑制剂对胃部内镜黏膜下剥离术相关性出血作用的初步研究[J]． 
+中华临床医师杂志(电子版)， 
+2014， 
+8( 
+10): 
+1839- 
+1842. 
+DOI: 10.3969/cma.j.issn.1674-0785.2014.10.009. 
+[55] 
+JungDH, YounYH, KimJH, et al. 
+Factors influencing development of pain after gastric endoscopic submucosal dissection: a randomized controlled trial[J]. 
+Endoscopy, 
+2015, 
+47( 
+12): 
+1119- 
+1123. 
+DOI: 10.1055/s-0034-1392537. 
+[56] 
+PashaSF, AcostaR, ChandrasekharaV, et al. 
+Routine laboratory testing before endoscopic procedures[J]. 
+Gastrointest Endosc, 
+2014, 
+80( 
+1): 
+28- 
+33. 
+DOI: 10.1016/j.gie.2014.01.019. 
+[57] 
+AcostaRD, AbrahamNS, ChandrasekharaV, et al. 
+The management of antithrombotic agents for patients undergoing GI endoscopy[J]. 
+Gastrointest Endosc, 
+2016, 
+83( 
+1): 
+3- 
+16. 
+DOI: 10.1016/j.gie.2015.09.035. 
+[58] 
+VeitchAM, VanbiervlietG, GershlickAH, et al. 
+Endoscopy in patients on antiplatelet or anticoagulant therapy, including direct oral anticoagulants: British Society of Gastroenterology (BSG) and European Society of Gastrointestinal Endoscopy (ESGE) guidelines[J]. 
+Gut, 
+2016, 
+65( 
+3): 
+374- 
+389. 
+DOI: 10.1136/gutjnl-2015-311110. 
+[59] 
+FujimotoK, FujishiroM, KatoM, et al. 
+Guidelines for gastroenterological endoscopy in patients undergoing antithrombotic treatment[J]. 
+Dig Endosc, 
+2014, 
+26( 
+1): 
+1- 
+14. 
+DOI: 10.1111/den.12183. 
+[60] 
+LichtensteinDR, JagannathS, BaronTH, et al. 
+Sedation and anesthesia in GI endoscopy[J]. 
+Gastrointest Endosc, 
+2008, 
+68( 
+5): 
+815- 
+826. 
+DOI: 10.1016/j.gie.2008.09.029. 
+[61] 
+ChaJM, WonKY, ChungIK, et al. 
+Effect of pronase premedication on narrow-band imaging endoscopy in patients with precancerous conditions of stomach[J]. 
+Dig Dis Sci, 
+2014, 
+59( 
+11): 
+2735- 
+2741. 
+DOI: 10.1007/s10620-014-3218-z. 
+[62] 
+ChangWK, YehMK, HsuHC, et al. 
+Efficacy of simethicone and N-acetylcysteine as premedication in improving visibility during upper endoscopy[J]. 
+J Gastroenterol Hepatol, 
+2014, 
+29( 
+4): 
+769- 
+774. 
+DOI: 10.1111/jgh.12487. 
+[63] 
+ChenHW, HsuHC, HsiehTY, et al. 
+Pre-medication to improve esophagogastroduodenoscopic visibility: a meta-analysis and systemic review[J]. 
+Hepatogastroenterology, 
+2014, 
+61( 
+134): 
+1642- 
+1648. 
+[64] 
+ElvasL, AreiaM, BritoD, et al. 
+Premedication with simethicone and N-acetylcysteine in improving visibility during upper endoscopy: a double-blind randomized trial[J]. 
+Endoscopy, 
+2017, 
+49( 
+2): 
+139- 
+145. 
+DOI: 10.1055/s-0042-119034. 
+[65] 
+KimGH, ChoYK, ChaJM, et al. 
+Effect of pronase as mucolytic agent on imaging quality of magnifying endoscopy[J]. 
+World J Gastroenterol, 
+2015, 
+21( 
+8): 
+2483- 
+2489. 
+DOI: 10.3748/wjg.v21.i8.2483. 
+[66] 
+WooJG, KimTO, KimHJ, et al. 
+Determination of the optimal time for premedication with pronase, dimethylpolysiloxane, and sodium bicarbonate for upper gastrointestinal endoscopy[J]. 
+J Clin Gastroenterol, 
+2013, 
+47( 
+5): 
+389- 
+392. 
+DOI: 10.1097/MCG.0b013e3182758944. 
+[67] 
+YooIK, JeenYT, KangSH, et al. 
+Improving of bowel cleansing effect for polyethylene glycol with ascorbic acid using simethicone: A randomized controlled trial[J]. 
+Medicine (Baltimore), 
+2016, 
+95( 
+28): 
+e4163. 
+DOI: 10.1097/MD.0000000000004163. 
+[68] 
+AjaniJA, D′AmicoTA, AlmhannaK, et al. 
+Gastric Cancer, Version 3.2016, NCCN Clinical Practice Guidelines in Oncology[J]. 
+J Natl Compr Canc Netw, 
+2016, 
+14( 
+10): 
+1286- 
+1312. 
+[69] 
+ObaraK, HarumaK, IrisawaA, et al. 
+Guidelines for sedation in gastroenterological endoscopy[J]. 
+Dig Endosc, 
+2015, 
+27( 
+4): 
+435- 
+449. 
+DOI: 10.1111/den.12464. 
+[70] 
+姚礼庆，周平红． 
+内镜黏膜下的剥离术[M]. 
+上海： 
+复旦大学出版社， 
+2009. 
+[71] 
+ParkCH, MinJH, YooYC, et al. 
+Sedation methods can determine performance of endoscopic submucosal dissection in patients with gastric neoplasia[J]. 
+Surg Endosc, 
+2013, 
+27( 
+8): 
+2760- 
+2767. 
+DOI: 10.1007/s00464-013-2804-z. 
+[72] 
+ParkCH, ParkJC, LeeH, et al. 
+Second-look endoscopy after gastric endoscopic submucosal dissection for reducing delayed postoperative bleeding[J]. 
+Gut Liver, 
+2015, 
+9( 
+1): 
+43- 
+51. 
+DOI: 10.5009/gnl13252. 
+[73] 
+SasakiT, TanabeS, AzumaM, et al. 
+Propofol sedation with bispectral index monitoring is useful for endoscopic submucosal dissection: a randomized prospective phase II clinical trial[J]. 
+Endoscopy, 
+2012, 
+44( 
+6): 
+584- 
+589. 
+DOI: 10.1055/s-0032-1306776. 
+[74] 
+WadhwaV, IssaD, GargS, et al. 
+Similar Risk of Cardiopulmonary Adverse Events Between Propofol and Traditional Anesthesia for Gastrointestinal Endoscopy: A Systematic Review and Meta-analysis[J]. 
+Clin Gastroenterol Hepatol, 
+2017, 
+15( 
+2): 
+194- 
+206. 
+DOI: 10.1016/j.cgh.2016.07.013. 
+[75] 
+GotodaT, KusanoC, NonakaM, et al. 
+Non-anesthesiologist administrated propofol (NAAP) during endoscopic submucosal dissection for elderly patients with early gastric cancer[J]. 
+Gastric Cancer, 
+2014, 
+17( 
+4): 
+686- 
+691. 
+DOI: 10.1007/s10120-013-0336-9. 
+[76] 
+RongQH, ZhaoGL, XieJP, et al. 
+Feasibility and safety of endoscopic submucosal dissection of esophageal or gastric carcinomas under general anesthesia[J]. 
+Med Princ Pract, 
+2013, 
+22( 
+3): 
+280- 
+284. 
+DOI: 10.1159/000344002. 
+[77] 
+YurtluDA, AslanF, AyvatP, et al. 
+Propofol-Based Sedation Versus General Anesthesia for Endoscopic Submucosal Dissection[J]. 
+Medicine (Baltimore), 
+2016, 
+95( 
+20): 
+e3680. 
+DOI: 10.1097/MD.0000000000003680. 
+[78] 
+HikiN, KaminishiM, YasudaK, et al. 
+Multicenter phase II randomized study evaluating dose-response of antiperistaltic effect of L-menthol sprayed onto the gastric mucosa for upper gastrointestinal endoscopy[J]. 
+Dig Endosc, 
+2012, 
+24( 
+2): 
+79- 
+86. 
+DOI: 10.1111/j.1443-1661.2011.01163.x. 
+[79] 
+TanakaS, KashidaH, SaitoY, et al. 
+JGES guidelines for colorectal endoscopic submucosal dissection/endoscopic mucosal resection[J]. 
+Dig Endosc, 
+2015, 
+27( 
+4): 
+417- 
+434. 
+DOI: 10.1111/den.12456. 
+[80] 
+朱春平，邹多武，李兆申. 
+丁溴东莨菪碱在消化内镜诊疗中的临床应用[J]． 
+中华消化内镜杂志， 
+2014， 
+31( 
+5): 
+298- 
+300. 
+DOI: 10.3760/cma.j.issn.1007-5232.2014.05.025. 
+[81] 
+FujishiroM, KaminishiM, HikiN, et al. 
+Efficacy of spraying l-menthol solution during endoscopic treatment of early gastric cancer: a phase III, multicenter, randomized, double-blind, placebo-controlled study[J]. 
+J Gastroenterol, 
+2014, 
+49( 
+3): 
+446- 
+454. 
+DOI: 10.1007/s00535-013-0856-4. 
+[82] 
+HikiN, KaminishiM, TanabeS, et al. 
+An open-label, single-arm study assessing the efficacy and safety of L：-menthol sprayed onto the gastric mucosa during upper gastrointestinal endoscopy[J]. 
+J Gastroenterol, 
+2011, 
+46( 
+7): 
+873- 
+882. 
+DOI: 10.1007/s00535-011-0395-9. 
+[83] 
+HikiN, KaminishiM, YasudaK, et al. 
+Antiperistaltic effect and safety of L-menthol sprayed on the gastric mucosa for upper GI endoscopy: a phase III, multicenter, randomized, double-blind, placebo-controlled study[J]. 
+Gastrointest Endosc, 
+2011, 
+73( 
+5): 
+932- 
+941. 
+DOI: 10.1016/j.gie.2010.12.013. 
+[84] 
+Fernández-EsparrachG, CalderónÁ, De-la-PeñaJ, et al. 
+Endoscopic submucosal dissection. Sociedad Española de Endoscopia Digestiva (SEED) clinical guideline[J]. 
+Rev Esp Enferm Dig, 
+2014, 
+106( 
+2): 
+120- 
+132. 
+[85] 
+MapleJT, AbuDBK, ChauhanSS, et al. 
+Endoscopic submucosal dissection[J]. 
+Gastrointest Endosc, 
+2015, 
+81( 
+6): 
+1311- 
+1325. 
+DOI: 10.1016/j.gie.2014.12.010. 
+[86] 
+UraokaT, SaitoY, YamamotoK, et al. 
+Submucosal injection solution for gastrointestinal tract endoscopic mucosal resection and endoscopic submucosal dissection[J]. 
+Drug Des Devel Ther, 
+2009, 
+2( 
+4): 
+131- 
+138. 
+[87] 
+KimYD, LeeJ, ChoJY, et al. 
+Efficacy and safety of 0.4 percent sodium hyaluronate for endoscopic submucosal dissection of gastric neoplasms[J]. 
+World J Gastroenterol, 
+2013, 
+19( 
+20): 
+3069- 
+3076. 
+DOI: 10.3748/wjg.v19.i20.3069. 
+[88] 
+SchölvinckDW, AlvarezHL, GotoO, et al. 
+Efficacy and safety of a novel submucosal lifting gel used for endoscopic submucosal dissection: a study in a porcine model[J]. 
+Surg Endosc, 
+2015, 
+29( 
+9): 
+2651- 
+2660. 
+DOI: 10.1007/s00464-014-3985-9. 
+[89] 
+HirasakiS, KozuT, YamamotoH, et al. 
+Usefulness and safety of 0.4% sodium hyaluronate solution as a submucosal fluid " cushion" for endoscopic resection of colorectal mucosal neoplasms: a prospective multi-center open-label trial[J]. 
+BMC Gastroenterol, 
+2009, 
+9: 
+1. 
+DOI: 10.1186/1471-230X-9-1. 
+[90] 
+OdaI, SuzukiH, NonakaS, et al. 
+Complications of gastric endoscopic submucosal dissection[J]. 
+Dig Endosc, 
+2013, 
+25( 
+Suppl 1): 
+71- 
+78. 
+DOI: 10.1111/j.1443-1661.2012.01376.x. 
+[91] 
+SaitoI, TsujiY, SakaguchiY, et al. 
+Complications related to gastric endoscopic submucosal dissection and their managements[J]. 
+Clin Endosc, 
+2014, 
+47( 
+5): 
+398- 
+403. 
+DOI: 10.5946/ce.2014.47.5.398. 
+[92] 
+HeZ, SunC, WangJ, et al. 
+Efficacy and safety of endoscopic submucosal dissection in treating gastric subepithelial tumors originating in the muscularis propria layer: a single-center study of 144 cases[J]. 
+Scand J Gastroenterol, 
+2013, 
+48( 
+12): 
+1466- 
+1473. 
+DOI: 10.3109/00365521.2013.845796. 
+[93] 
+JangJS, ChoiSR, GrahamDY, et al. 
+Risk factors for immediate and delayed bleeding associated with endoscopic submucosal dissection of gastric neoplastic lesions[J]. 
+Scand J Gastroenterol, 
+2009, 
+44( 
+11): 
+1370- 
+1376. 
+DOI: 10.3109/00365520903194609. 
+[94] 
+JeonSW, JungMK, ChoCM, et al. 
+Predictors of immediate bleeding during endoscopic submucosal dissection in gastric lesions[J]. 
+Surg Endosc, 
+2009, 
+23( 
+9): 
+1974- 
+1979. 
+DOI: 10.1007/s00464-008-9988-7. 
+[95] 
+MatsushitaM, MoriS, TahashiY, et al. 
+Immediate bleeding during endoscopic submucosal dissection: a predictor of delayed bleeding？[J]. 
+Gastrointest Endosc, 
+2011, 
+73( 
+2): 
+413- 
+414; 
+author reply 414-415. DOI: 10.1016/j.gie.2010.05.026. 
+[96] 
+SaitoY, UraokaT, MatsudaT, et al. 
+Endoscopic treatment of large superficial colorectal tumors: a case series of 200 endoscopic submucosal dissections (with video)[J]. 
+Gastrointest Endosc, 
+2007, 
+66( 
+5): 
+966- 
+973. 
+DOI: 10.1016/j.gie.2007.02.053. 
+[97] 
+OnozatoY, IshiharaH, IizukaH, et al. 
+Endoscopic submucosal dissection for early gastric cancers and large flat adenomas[J]. 
+Endoscopy, 
+2006, 
+38( 
+10): 
+980- 
+986. 
+DOI: 10.1055/s-2006-944809. 
+[98] 
+YanoT, TanabeS, IshidoK, et al. 
+Different clinical characteristics associated with acute bleeding and delayed bleeding after endoscopic submucosal dissection in patients with early gastric cancer[J]. 
+Surg Endosc, 
+2017, 
+31( 
+11): 
+4542- 
+4550. 
+DOI: 10.1007/s00464-017-5513-1. 
+[99] 
+MatsumuraT, AraiM, MaruokaD, et al. 
+Risk factors for early and delayed post-operative bleeding after endoscopic submucosal dissection of gastric neoplasms, including patients with continued use of antithrombotic agents[J]. 
+BMC Gastroenterol, 
+2014, 
+14( 
+1): 
+172. 
+DOI: 10.1186/1471-230X-14-172. 
+[100] 
+MiyaharaK, IwakiriR, ShimodaR, et al. 
+Perforation and postoperative bleeding of endoscopic submucosal dissection in gastric tumors: analysis of 1190 lesions in low-and high-volume centers in Saga, Japan[J]. 
+Digestion, 
+2012, 
+86( 
+3): 
+273- 
+280. 
+DOI: 10.1159/000341422. 
+[101] 
+LeeDW, JeonSW. 
+Management of Complications during Gastric Endoscopic Submucosal Dissection[J]. 
+Diagn Ther Endosc, 
+2012, 
+2012: 
+624835. 
+DOI: 10.1155/2012/624835. 
+[102] 
+CoumarosD, TsesmeliN. 
+Active gastrointestinal bleeding: use of hemostatic forceps beyond endoscopic submucosal dissection[J]. 
+World J Gastroenterol, 
+2010, 
+16( 
+16): 
+2061- 
+2064. 
+[103] 
+MannenK, TsunadaS, HaraM, et al. 
+Risk factors for complications of endoscopic submucosal dissection in gastric tumors: analysis of 478 lesions[J]. 
+J Gastroenterol, 
+2010, 
+45( 
+1): 
+30- 
+36. 
+DOI: 10.1007/s00535-009-0137-4. 
+[104] 
+OhtaT, IshiharaR, UedoN, et al. 
+Factors predicting perforation during endoscopic submucosal dissection for gastric cancer[J]. 
+Gastrointest Endosc, 
+2012, 
+75( 
+6): 
+1159- 
+1165. 
+DOI: 10.1016/j.gie.2012.02.015. 
+[105] 
+ToyokawaT, InabaT, OmoteS, et al. 
+Risk factors for perforation and delayed bleeding associated with endoscopic submucosal dissection for early gastric neoplasms: analysis of 1123 lesions[J]. 
+J Gastroenterol Hepatol, 
+2012, 
+27( 
+5): 
+907- 
+912. 
+DOI: 10.1111/j.1440-1746.2011.07039.x. 
+[106] 
+Fernández-EsparrachG, CalderónA, de la PeñaJ, et al. 
+Endoscopic submucosal dissection[J]. 
+Endoscopy, 
+2014, 
+46( 
+4): 
+361- 
+370. 
+DOI: 10.1055/s-0034-1364921. 
+[107] 
+YangZ, WuQ, LiuZ, et al. 
+Proton pump inhibitors versus histamine-2-receptor antagonists for the management of iatrogenic gastric ulcer after endoscopic mucosal resection or endoscopic submucosal dissection: a meta-analysis of randomized trials[J]. 
+Digestion, 
+2011, 
+84( 
+4): 
+315- 
+320. 
+DOI: 10.1159/000331138. 
+[108] 
+YeBD, CheonJH, ChoiKD, et al. 
+Omeprazole may be superior to famotidine in the management of iatrogenic ulcer after endoscopic mucosal resection: a prospective randomized controlled trial[J]. 
+Aliment Pharmacol Ther, 
+2006, 
+24( 
+5): 
+837- 
+843. 
+DOI: 10.1111/j.1365-2036.2006.03050.x. 
+[109] 
+LeeJY, KimCG, ChoSJ, et al. 
+Is the Reinitiation of Antiplatelet Agents Safe at 1 Week after Gastric Endoscopic Submucosal Dissection? Assessment of Bleeding Risk Using the Forrest Classification[J]. 
+Gut Liver, 
+2017, 
+11( 
+4): 
+489- 
+496. 
+DOI: 10.5009/gnl16232. 
+[110] 
+OhTH, JungHY, ChoiKD, et al. 
+Degree of healing and healing-associated factors of endoscopic submucosal dissection-induced ulcers after pantoprazole therapy for 4 weeks[J]. 
+Dig Dis Sci, 
+2009, 
+54( 
+7): 
+1494- 
+1499. 
+DOI: 10.1007/s10620-008-0506-5. 
+[111] 
+OkadaK, YamamotoY, KasugaA, et al. 
+Risk factors for delayed bleeding after endoscopic submucosal dissection for gastric neoplasm[J]. 
+Surg Endosc, 
+2011, 
+25( 
+1): 
+98- 
+107. 
+DOI: 10.1007/s00464-010-1137-4. 
+[112] 
+ShinWG, KimSJ, ChoiMH, et al. 
+Can rebamipide and proton pump inhibitor combination therapy promote the healing of endoscopic submucosal dissection-induced ulcers? A randomized, prospective, multicenter study[J]. 
+Gastrointest Endosc, 
+2012, 
+75( 
+4): 
+739- 
+747. 
+DOI: 10.1016/j.gie.2011.11.004. 
+[113] 
+TakayamaM, MatsuiS, KawasakiM, et al. 
+Efficacy of treatment with rebamipide for endoscopic submucosal dissection-induced ulcers[J]. 
+World J Gastroenterol, 
+2013, 
+19( 
+34): 
+5706- 
+5712. 
+DOI: 10.3748/wjg.v19.i34.5706. 
+[114] 
+FujishiroM, ChiuPW, WangHP. 
+Role of antisecretory agents for gastric endoscopic submucosal dissection[J]. 
+Dig Endosc, 
+2013, 
+25( 
+Suppl 1): 
+86- 
+93. 
+DOI: 10.1111/j.1443-1661.2012.01370.x. 
+[115] 
+NiimiK, FujishiroM, GotoO, et al. 
+Prospective single-arm trial of two-week rabeprazole treatment for ulcer healing after gastric endoscopic submucosal dissection[J]. 
+Dig Endosc, 
+2012, 
+24( 
+2): 
+110- 
+116. 
+DOI: 10.1111/j.1443-1661.2011.01178.x. 
+[116] 
+HigashiyamaM, OkaS, TanakaS, et al. 
+Risk factors for bleeding after endoscopic submucosal dissection of gastric epithelial neoplasm[J]. 
+Dig Endosc, 
+2011, 
+23( 
+4): 
+290- 
+295. 
+DOI: 10.1111/j.1443-1661.2011.01151.x. 
+[117] 
+KataokaY, TsujiY, SakaguchiY, et al. 
+Bleeding after endoscopic submucosal dissection: Risk factors and preventive methods[J]. 
+World J Gastroenterol, 
+2016, 
+22( 
+26): 
+5927- 
+5935. 
+DOI: 10.3748/wjg.v22.i26.5927. 
+[118] 
+KohR, HirasawaK, YaharaS, et al. 
+Antithrombotic drugs are risk factors for delayed postoperative bleeding after endoscopic submucosal dissection for gastric neoplasms[J]. 
+Gastrointest Endosc, 
+2013, 
+78( 
+3): 
+476- 
+483. 
+DOI: 10.1016/j.gie.2013.03.008. 
+[119] 
+NodaH, OgasawaraN, IzawaS, et al. 
+Risk factors for bleeding evaluated using the Forrest classification in Japanese patients after endoscopic submucosal dissection for early gastric neoplasm[J]. 
+Eur J Gastroenterol Hepatol, 
+2015, 
+27( 
+9): 
+1022- 
+1029. 
+DOI: 10.1097/MEG.0000000000000419. 
+[120] 
+ParkSE, KimDH, JungHY, et al. 
+Risk factors and correlations of immediate, early delayed, and late delayed bleeding associated with endoscopic resection for gastric neoplasms[J]. 
+Surg Endosc, 
+2016, 
+30( 
+2): 
+625- 
+632. 
+DOI: 10.1007/s00464-015-4250-6. 
+[121] 
+TsujiY, OhataK, ItoT, et al. 
+Risk factors for bleeding after endoscopic submucosal dissection for gastric lesions[J]. 
+World J Gastroenterol, 
+2010, 
+16( 
+23): 
+2913- 
+2917. 
+[122] 
+KonoY, ObayashiY, BabaY, et al. 
+Postoperative bleeding risk after gastric endoscopic submucosal dissection during antithrombotic drug therapy[J]. 
+J Gastroenterol Hepatol, 
+2017, 
+Jul 11. 
+DOI: 10.1111/jgh.13872. 
+[123] 
+LimJH, KimSG, ChoiJ, et al. 
+Risk factors of delayed ulcer healing after gastric endoscopic submucosal dissection[J]. 
+Surg Endosc, 
+2015, 
+29( 
+12): 
+3666- 
+3673. 
+DOI: 10.1007/s00464-015-4123-z. 
+[124] 
+LeeSH, LeeCK, ChungIK, et al. 
+Optimal duration of proton pump inhibitor in the treatment of endoscopic submucosal dissection-induced ulcers: a retrospective analysis and prospective validation study[J]. 
+Dig Dis Sci, 
+2012, 
+57( 
+2): 
+429- 
+434. 
+DOI: 10.1007/s10620-011-1941-2. 
+[125] 
+KatoT, ArakiH, OnogiF, et al. 
+Clinical trial: rebamipide promotes gastric ulcer healing by proton pump inhibitor after endoscopic submucosal dissection--a randomized controlled study[J]. 
+J Gastroenterol, 
+2010, 
+45( 
+3): 
+285- 
+290. 
+DOI: 10.1007/s00535-009-0157-0. 
+[126] 
+KobayashiM, TakeuchiM, HashimotoS, et al. 
+Contributing factors to gastric ulcer healing after endoscopic submucosal dissection including the promoting effect of rebamipide[J]. 
+Dig Dis Sci, 
+2012, 
+57( 
+1): 
+119- 
+126. 
+DOI: 10.1007/s10620-011-1850-4. 
+[127] 
+NakamuraM, TaharaT, ShiroedaH, et al. 
+The effect of short-term proton pump inhibitor plus anti-ulcer drug on the healing of endoscopic submucosal dissection-derived artificial ulcer: a randomized controlled trial[J]. 
+Hepatogastroenterology, 
+2015, 
+62( 
+137): 
+219- 
+224. 
+[128] 
+NishizawaT, SuzukiH, KanaiT, et al. 
+Proton pump inhibitor alone vs proton pump inhibitor plus mucosal protective agents for endoscopic submucosal dissection-induced ulcer: a systematic review and meta-analysis[J]. 
+J Clin Biochem Nutr, 
+2015, 
+56( 
+2): 
+85- 
+90. 
+DOI: 10.3164/jcbn.14-101. 
+[129] 
+WangJ, GuoX, YeC, et al. 
+Efficacy and safety of proton pump inhibitors (PPIs) plus rebamipide for endoscopic submucosal dissection-induced ulcers: a meta-analysis[J]. 
+Intern Med, 
+2014, 
+53( 
+12): 
+1243- 
+1248. 
+[130] 
+ItabaS, IboshiY, NakamuraK, et al. 
+Low-frequency of bacteremia after endoscopic submucosal dissection of the stomach[J]. 
+Dig Endosc, 
+2011, 
+23( 
+1): 
+69- 
+72. 
+DOI: 10.1111/j.1443-1661.2010.01066.x. 
+[131] 
+KatoM, KaiseM, ObataT, et al. 
+Bacteremia and endotoxemia after endoscopic submucosal dissection for gastric neoplasia: pilot study[J]. 
+Gastric Cancer, 
+2012, 
+15( 
+1): 
+15- 
+20. 
+DOI: 10.1007/s10120-011-0050-4. 
+[132] 
+KhashabMA, ChithadiKV, AcostaRD, et al. 
+Antibiotic prophylaxis for GI endoscopy[J]. 
+Gastrointest Endosc, 
+2015, 
+81( 
+1): 
+81- 
+89. 
+DOI: 10.1016/j.gie.2014.08.008. 
+[133] 
+KakushimaN, FujishiroM, YahagiN, et al. 
+Helicobacter pylori status and the extent of gastric atrophy do not affect ulcer healing after endoscopic submucosal dissection[J]. 
+J Gastroenterol Hepatol, 
+2006, 
+21( 
+10): 
+1586- 
+1589. 
+DOI: 10.1111/j.1440-1746.2006.04321.x. 
+[134] 
+KimSG, SongHJ, ChoiIJ, et al. 
+Helicobacter pylori eradication on iatrogenic ulcer by endoscopic resection of gastric tumour: a prospective, randomized, placebo-controlled multi-centre trial[J]. 
+Dig Liver Dis, 
+2013, 
+45( 
+5): 
+385- 
+389. 
+DOI: 10.1016/j.dld.2012.12.009. 
+[135] 
+FukaseK, KatoM, KikuchiS, et al. 
+Effect of eradication of Helicobacter pylori on incidence of metachronous gastric carcinoma after endoscopic resection of early gastric cancer: an open-label, randomised controlled trial[J]. 
+Lancet, 
+2008, 
+372( 
+9636): 
+392- 
+397. 
+DOI: 10.1016/S0140-6736(08)61159-9. 
+[136] 
+HuangY, KakushimaN, TakizawaK, et al. 
+Risk factors for recurrence of artificial gastric ulcers after endoscopic submucosal dissection[J]. 
+Endoscopy, 
+2011, 
+43( 
+3): 
+236- 
+239. 
+DOI: 10.1055/s-0030-1255927. 
+[137] 
+JungDH, KimJH, ChungHS, et al. 
+Helicobacter pylori Eradication on the Prevention of Metachronous Lesions after Endoscopic Resection of Gastric Neoplasm: A Meta-Analysis[J]. 
+PLoS One, 
+2015, 
+10( 
+4): 
+e0124725. 
+DOI: 10.1371/journal.pone.0124725. 
+[138] 
+YoonSB, ParkJM, LimCH, et al. 
+Effect of Helicobacter pylori eradication on metachronous gastric cancer after endoscopic resection of gastric tumors: a meta-analysis[J]. 
+Helicobacter, 
+2014, 
+19( 
+4): 
+243- 
+248. 
+DOI: 10.1111/hel.12146. 
+[139] 
+HuhCW, YounYH, JungdH, et al. 
+Early Attempts to Eradicate Helicobacter pylori after Endoscopic Resection of Gastric Neoplasm Significantly Improve Eradication Success Rates[J]. 
+PLoS One, 
+2016, 
+11( 
+9): 
+e0162258. 
+DOI: 10.1371/journal.pone.0162258. 
+[140] 
+中华医学会消化病学分会幽门螺杆菌和消化性溃疡学组，全国幽门螺杆菌研究协作组． 
+第五次全国幽门螺杆菌感染处理共识报告[J]． 
+中华消化杂志， 
+2017， 
+37( 
+6): 
+364- 
+378. 
+DOI: 10.3760/cma.j.issn.0254-1432.2017.06.002. 
+[141] 
+ChoiCW, KangDH, KimHW, et al. 
+High Dose Proton Pump Inhibitor Infusion Versus Bolus Injection for the Prevention of Bleeding After Endoscopic Submucosal Dissection: Prospective Randomized Controlled Study[J]. 
+Dig Dis Sci, 
+2015, 
+60( 
+7): 
+2088- 
+2096. 
+DOI: 10.1007/s10620-015-3560-9. 
+[142] 
+KimER, KimJH, KangKJ, et al. 
+Is a second-look endoscopy necessary after endoscopic submucosal dissection for gastric neoplasm？[J]. 
+Gut Liver, 
+2015, 
+9( 
+1): 
+52- 
+58. 
+DOI: 10.5009/gnl13422. 
+[143] 
+KimJS, ChungMW, ChungCY, et al. 
+The need for second-look endoscopy to prevent delayed bleeding after endoscopic submucosal dissection for gastric neoplasms: a prospective randomized trial[J]. 
+Gut Liver, 
+2014, 
+8( 
+5): 
+480- 
+486. 
+DOI: 10.5009/gnl13226. 
+[144] 
+KimS, CheoiKS, LeeHJ, et al. 
+Safety and patient satisfaction of early diet after endoscopic submucosal dissection for gastric epithelial neoplasia: a prospective, randomized study[J]. 
+Surg Endosc, 
+2014, 
+28( 
+4): 
+1321- 
+1329. 
+DOI: 10.1007/s00464-013-3336-2. 
+[145] 
+LimSM, ParkJC, LeeH, et al. 
+Impact of cumulative time on the clinical outcomes of endoscopic submucosal dissection in gastric neoplasm[J]. 
+Surg Endosc, 
+2013, 
+27( 
+4): 
+1397- 
+1403. 
+DOI: 10.1007/s00464-012-2643-3. 
+[146] 
+MochizukiS, UedoN, OdaI, et al. 
+Scheduled second-look endoscopy is not recommended after endoscopic submucosal dissection for gastric neoplasms (the SAFE trial): a multicentre prospective randomised controlled non-inferiority trial[J]. 
+Gut, 
+2015, 
+64( 
+3): 
+397- 
+405. 
+DOI: 10.1136/gutjnl-2014-307552. 
+[147] 
+NaS, AhnJY, ChoiKD, et al. 
+Delayed Bleeding Rate According to the Forrest Classification in Second-Look Endoscopy After Endoscopic Submucosal Dissection[J]. 
+Dig Dis Sci, 
+2015, 
+60( 
+10): 
+3108- 
+3117. 
+DOI: 10.1007/s10620-015-3693-x. 
+[148] 
+OnoS, OnoM, NakagawaM, et al. 
+Delayed bleeding and hemorrhage of mucosal defects after gastric endoscopic submucosal dissection on second-look endoscopy[J]. 
+Gastric Cancer, 
+2016, 
+19( 
+2): 
+561- 
+567. 
+DOI: 10.1007/s10120-015-0507-y. 
+[149] 
+ZhangYS, LiQ, HeBS, et al. 
+Proton pump inhibitors therapy vs H2 receptor antagonists therapy for upper gastrointestinal bleeding after endoscopy: A meta-analysis[J]. 
+World J Gastroenterol, 
+2015, 
+21( 
+20): 
+6341- 
+6351. 
+DOI: 10.3748/wjg.v21.i20.6341. 
+[150] 
+HsuYC, PerngCL, YangTH, et al. 
+A randomized controlled trial comparing two different dosages of infusional pantoprazole in peptic ulcer bleeding[J]. 
+Br J Clin Pharmacol, 
+2010, 
+69( 
+3): 
+245- 
+251. 
+DOI: 10.1111/j.1365-2125.2009.03575.x. 
+[151] 
+HungWK, LiVK, ChungCK, et al. 
+Randomized trial comparing pantoprazole infusion, bolus and no treatment on gastric pH and recurrent bleeding in peptic ulcers[J]. 
+ANZ J Surg, 
+2007, 
+77( 
+8): 
+677- 
+681. 
+DOI: 10.1111/j.1445-2197.2007.04185.x. 
+[152] 
+SacharH, VaidyaK, LaineL. 
+Intermittent vs continuous proton pump inhibitor therapy for high-risk bleeding ulcers: a systematic review and meta-analysis[J]. 
+JAMA Intern Med, 
+2014, 
+174( 
+11): 
+1755- 
+1762. 
+DOI: 10.1001/jamainternmed.2014.4056. 
+[153] 
+HanaokaN, UedoN, IshiharaR, et al. 
+Clinical features and outcomes of delayed perforation after endoscopic submucosal dissection for early gastric cancer[J]. 
+Endoscopy, 
+2010, 
+42( 
+12): 
+1112- 
+1115. 
+DOI: 10.1055/s-0030-1255932. 
+[154] 
+SuzukiH, OdaI, SekiguchiM, et al. 
+Management and associated factors of delayed perforation after gastric endoscopic submucosal dissection[J]. 
+World J Gastroenterol, 
+2015, 
+21( 
+44): 
+12635- 
+12643. 
+DOI: 10.3748/wjg.v21.i44.12635. 
+[155] 
+IkezawaK, MichidaT, IwahashiK, et al. 
+Delayed perforation occurring after endoscopic submucosal dissection for early gastric cancer[J]. 
+Gastric Cancer, 
+2012, 
+15( 
+1): 
+111- 
+114. 
+DOI: 10.1007/s10120-011-0089-2. 
+[156] 
+KangSH, LeeK, LeeHW, et al. 
+Delayed Perforation Occurring after Endoscopic Submucosal Dissection for Early Gastric Cancer[J]. 
+Clin Endosc, 
+2015, 
+48( 
+3): 
+251- 
+255. 
+DOI: 10.5946/ce.2015.48.3.251. 
+[157] 
+AbeS, MinagawaT, TanakaH, et al. 
+Successful endoscopic closure using over-the-scope clip for delayed stomach perforation caused by nasogastric tube after endoscopic submucosal dissection[J]. 
+Endoscopy, 
+2017, 
+49( 
+S 01): 
+E56- 
+E57. 
+DOI: 10.1055/s-0042-123696. 
+[158] 
+NishiyamaN, MoriH, KobaraH, et al. 
+Efficacy and safety of over-the-scope clip: including complications after endoscopic submucosal dissection[J]. 
+World J Gastroenterol, 
+2013, 
+19( 
+18): 
+2752- 
+2760. 
+DOI: 10.3748/wjg.v19.i18.2752. 
+[159] 
+CodaS, OdaI, GotodaT, et al. 
+Risk factors for cardiac and pyloric stenosis after endoscopic submucosal dissection, and efficacy of endoscopic balloon dilation treatment[J]. 
+Endoscopy, 
+2009, 
+41( 
+5): 
+421- 
+426. 
+DOI: 10.1055/s-0029-1214642. 
+[160] 
+SumiyoshiT, KondoH, MinagawaT, et al. 
+Risk factors and management for gastric stenosis after endoscopic submucosal dissection for gastric epithelial neoplasm[J]. 
+Gastric Cancer, 
+2017, 
+20( 
+4): 
+690- 
+698. 
+DOI: 10.1007/s10120-016-0673-6. 
+[161] 
+TsunadaS, OgataS, MannenK, et al. 
+Case series of endoscopic balloon dilation to treat a stricture caused by circumferential resection of the gastric antrum by endoscopic submucosal dissection[J]. 
+Gastrointest Endosc, 
+2008, 
+67( 
+6): 
+979- 
+983. 
+DOI: 10.1016/j.gie.2007.12.023. 
+[162] 
+IizukaH, KakizakiS, SoharaN, et al. 
+Stricture after endoscopic submucosal dissection for early gastric cancers and adenomas[J]. 
+Dig Endosc, 
+2010, 
+22( 
+4): 
+282- 
+288. 
+DOI: 10.1111/j.1443-1661.2010.01008.x. 
+[163] 
+KakushimaN, TanakaM, SawaiH, et al. 
+Gastric obstruction after endoscopic submucosal dissection[J]. 
+United European Gastroenterol J, 
+2013, 
+1( 
+3): 
+184- 
+190. 
+DOI: 10.1177/2050640613490288. 
+[164] 
+KimGH, JeeSR, JangJY, et al. 
+Stricture occurring after endoscopic submucosal dissection for esophageal and gastric tumors[J]. 
+Clin Endosc, 
+2014, 
+47( 
+6): 
+516- 
+522. 
+DOI: 10.5946/ce.2014.47.6.516. 
+[165] 
+NagataK, ShimizuM. 
+Pathological evaluation of gastrointestinal endoscopic submucosal dissection materials based on Japanese guidelines[J]. 
+World J Gastrointest Endosc, 
+2012, 
+4( 
+11): 
+489- 
+499. 
+DOI: 10.4253/wjge.v4.i11.489. 
+[166] 
+ShojiH, YamaguchiN, IsomotoH, et al. 
+Oral prednisolone and triamcinolone injection for gastric stricture after endoscopic submucosal dissection[J]. 
+Ann Transl Med, 
+2014, 
+2( 
+3): 
+22. 
+DOI: 10.3978/j.issn.2305-5839.2014.02.09. 
+[167] 
+孙琦，樊祥山，黄勤. 
+近端胃早期癌及癌前病变内镜下黏膜剥离切除标本的病理学规范化检查建议[J]． 
+中华消化内镜杂志， 
+2016， 
+33( 
+9): 
+585- 
+588. 
+DOI: 10.3760/cma.j.issn.1007-5232.2016.09.002. 
+[168] 
+WaddellT, VerheijM, AllumW, et al. 
+Gastric cancer: ESMO-ESSO-ESTRO clinical practice guidelines for diagnosis, treatment and follow-up[J]. 
+Eur J Surg Oncol, 
+2014, 
+40( 
+5): 
+584- 
+591. 
+DOI: 10.1016/j.ejso.2013.09.020. 
+[169] 
+Japanese classification of gastric carcinoma: 3rd English edition[J]. 
+Gastric Cancer, 
+2011, 
+14( 
+2): 
+101- 
+112. 
+DOI: 10.1007/s10120-011-0041-5. 
+[170] 
+中华医学会消化内镜学分会病理学协作组. 
+中国消化内镜活组织检查与病理学检查规范专家共识(草案)[J]． 
+中华消化内镜杂志， 
+2014， 
+31( 
+9): 
+481- 
+485. 
+DOI: 10.3760/cma.j.issn.1007-5232.2014.09.001. 
+贡献者信息 
+国家消化系统疾病临床医学研究中心 
+中华医学会消化内镜学分会 
+中国医师协会消化医师分会 
+基金项目 
+国家科技部科技支撑计划 （2015BAll3809） 
+北京市科委科技北京百名领军人才培养工程 （Z151100000315018） 
+北京市卫生局（首发）重点攻关计划 （首发2014—1.2021） 
+北京市科委健康培育项目 （Z151100003915097） 
+北京市卫计委重点攻关首发基金项目 （首发2016-1-2022） 
+历史 
+出版日期：2017-12-20 
+收稿日期：2017-11-14 
+本文编辑 
+钱程 唐涌进 
+Guideline 
+Clinical guidelines for gastric endoscopic submucosal dissection during the perioperative period 
+National Clinical Research Center for Digestive Diseases, Chinese Society of Digestive Endoscopy, Chinese Association of endoscopologists, gastroenterologists & hepatologists 
+Published 
+2017-12-20 
+Cite as 
+Chin J Dig Endosc, 2017,34(12): 837-851. DOI: 10.3760/cma.j.issn.1007-5232.2017.12.001 
+Contributor Information 
+National Clinical Research Center for Digestive Diseases 
+Chinese Society of Digestive Endoscopy 
+Chinese Association of endoscopologists, gastroenterologists & hepatologists 
+共有 
+条评论 
+验证码 
+发布 
+本文被引情况 
+CSCD： 
+0次 
+学位论文： 
+0次 
+数据支持(点击图标了解更多) 
+施引文献 
+(最多仅列5条文献，进入CSCD官网发现更多) 
+未获取施引文献信息... 
+暂无相关资源 
+[1]
+夏鹏(译者).
+如何阻止悲伤成为职业负担[J].
+测试杂志,
+2015,
+1(1):575–576.
+--> 
+相关视频 
+查看更多 
+无相关视频 
+无相关视频 
+无相关视频 
+表1 
+推荐的ESD治疗适应证
+绝对适应证 
+(1)非浸润性肿瘤，不论病灶大小； 
+(2)病灶直径≤2cm、无合并存在溃疡的分化型黏膜内癌
+相对适应证
+(1)病灶直径>2 cm、无合并溃疡存在的分化型黏膜内癌；
+(2)病灶直径≤3 cm、合并溃疡存在的分化型黏膜内癌；
+(3)病灶直径≤2 cm、无合并溃疡存在的未分化型黏膜内癌；
+(4)病灶直径≤3 cm的分化型浅层黏膜下癌(SM1，黏膜下层浸润深度≤500 μm)
+图1 
+测量大小 
+图2 
+ESD标本病变全貌图 注：虚线为病灶边缘距离水平切缘(外侧缘)最近处的切线，"4"号实线为第一次切片的切线，需垂直于虚线；通过固定标本的拍照，可以重建肿瘤侵犯深度(黑色代表黏膜层累及，红色代表黏膜下层累及)和在黏膜内扩散的范围，"1"～"8"为标本的切线 
+图3 
+3A：ESD标本固定后的处理和对于肿瘤扩散程度的重建示意图；3B：ESD 标本取材 
+图4 
+HE染色 
+图5 
+病理报告模板 
+向我们报错 
+PDF与文章不符错误 
+PDF失效 
+文档错误 
+出处错误 
+作者姓名或顺序错误 
+作者单位错误 
+上报错误 --> 
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型 
+中华内科杂志期刊畅读会员（下载余量： 123）
+中华内科杂志期刊畅读会员（下载余量： 123）
+中华内科杂志期刊畅读会员（下载余量： 123） --> 
+取消 
+下载 
+出 处：中华消化内镜杂志2017年34卷12期
+文 题：胃内镜黏膜下剥离术围手术期指南
+优惠价：0 元
+账户余额支付 
+账户余额：0 元
+余额足够时不再提示 
+取消 
+直接购买 
+刊 期：中华消化内镜杂志2017年34卷12期
+优惠价：0 元 原价：0 元
+账户余额支付 
+账户余额：0 元
+余额足够时不再提示 
+取消 
+直接购买 
+支付成功！ 
+关闭 
+购买失败,请稍后再试! 
+取消 
+去充值 
+点赞成功！ 
+关闭 
+收藏成功！ 
+关闭 
+收藏 
+选择收藏夹： 
+第二个 第二个 
+新建收藏夹

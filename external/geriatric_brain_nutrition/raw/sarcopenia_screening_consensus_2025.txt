@@ -1,0 +1,616 @@
+SOURCE: 社区老年人肌肉减少症筛查专家共识 | 《中国全科医学》2025,28(36)，DOI:10.12114/j.issn.1007-9572.2025.0150
+URL: https://www.chinagp.net/CN/10.12114/j.issn.1007-9572.2025.0150 （期刊官网公开全文,经JATS-XML接口 article/2025/1007-9572/9068/1007-9572-28-36-001.xml 抽取）
+发布/评审时间: 2025年
+抓取方式: curl/浏览器下载 + 本地脚本正文抽取(pypdf/pymupdf/HTML清洗/JATS-XML解析)；抓取日期 2026-09-25
+
+社区老年人肌肉减少症筛查专家共识
+
+肌肉减少症（简称肌少症）是一种与增龄相关的老年综合征，表现为肌肉质量减少、肌肉力量下降和/或身体功能减退[1，2]，已纳入国际疾病分类（ICD-11）[3]。社区老年人肌少症患病率逐年上升，为4.3%~58.5%[4，5，6，7，8，9，10，11，12，13，14，15]，已成为影响老年人功能状态和生活质量的重要公共卫生问题。一项纳入140项队列研究和横断面研究，涵盖了来自亚洲多个国家的156 325名参与者（其中67.1%为居家社区肌少症老年人）的Meta分析显示，在社区老年人群中，肌少症的总体患病率为16.5%（95%CI=14.7%~18.4%），肌少症的患病率更高，为28.7%（95%CI=22.0%~36.5%），而重度肌少症的患病率较低，为4.4%（95%CI=3.3%~5.8%），该研究表明，亚洲地区老年人肌少症疾病负担沉重，需重视早期识别和干预，以减少其对公众健康的不良影响[16]。
+
+中国老年人肌少症患病率也不容忽视。一项纳入45项研究、涉及37 571名中国老年人的系统综述显示，中国老年人群中肌少症的总体患病率为20.7%（95%CI=18.3%~23.0%），且2019—2024年的患病率（21.4%）较2014—2018年（19.2%）有所上升[17]，另一项纳入26项研究、涉及25 921名受试者的系统综述也得出类似结论[18]，表明中国老年人的肌少症问题亟待关注。
+
+肌少症是营养不良的重要危险因素[19]，显著增加了抑郁[20]、跌倒[21]、骨折[4]的发生风险，与患心脑血管疾病等共病[22]、功能依赖[23]、残疾[22，24]、住院频率[25]有关，降低了健康相关生活质量[26]，增加了全因死亡率[27，28]。Meta分析结果显示，肌少症患者中心力衰竭的合并患病率为32%（95%CI=0.07~0.61，P<0.001）[29]。一项整合了43项观察性研究的系统综述显示，肌少症患者的健康相关生活质量显著降低[26]。肌少症显著影响了老年人生活质量和健康寿命，患者通常需要更多的医疗照护资源[30]。在社区人群中，肌少症常处于早期或隐匿阶段，易被忽视，错失干预时机。有学者建议对所有老年人进行肌少症筛查[21]。开展规范化、系统化的社区老年人肌少症筛查，对早期发现、精准干预、延缓功能衰退、预防和减轻残疾、降低医疗成本、应对老龄化社会具有重要意义。
+
+国内外已有多项研究[31，32，33]、共识[34，35，36，37，38，39，40，41，42]和指南[43，44，45，46]提出了关于肌少症诊断标准和干预措施的建议，但目前在社区层面缺乏针对老年人肌少症筛查的指南或专家共识，筛查对象、流程、工具、时机及管理策略存在较大差异，限制了筛查实践的推广和效果的实现。一项研究对来自19个国家的20篇研究进行综述，发现患者、医务人员和公众对肌少症的认知普遍较低，即便部分卫生专业人员具备相关知识，也未能在临床实践中落实，部分原因与其缺乏对肌少症及其管理的认知有关[47]。如何对社区老年人进行肌少症的有效筛查，并进行有效干预，目前多基于医护个人或团队经验。因此，迫切需要包括医生、护士和各类健康相关专业人员在内的社区卫生服务人员对肌少症提高认知、具备识别能力，并能进行恰当的管理干预[48]。本研究将以多学科干预为背景，针对该问题进行专家讨论并形成推荐意见，为各级社区卫生服务机构和基层医务人员开展老年人肌少症筛查提供科学、实用的决策依据，可为早期识别高风险人群、制订肌少症预防干预策略、延缓功能衰退和预防残疾提供科学依据，也可供公众、患者作为健康管理的参考。
+
+1　专家共识制订方法
+
+1.1　专家共识的目标人群和适用人群
+
+本专家共识服务的目标人群为居住在社区的老年人，适用于基层医疗机构中可能接触到社区老年人的医护人员。
+
+1.2　专家共识制订方法
+
+根据世界卫生组织指南制定手册[49]和卫生保健实践指南报告规范（Reporting Items for Practice Guidelines in Healthcare，RIGHT）[50]制订专家共识计划书和报告专家共识内容。
+
+1.3　专家共识发起单位
+
+本指南由中国康复科学所、中国残疾人康复协会社区康复专业委员会、中国老年保健医学研究会老年康复分会、南方医科大学附属广东省人民医院（广东省医学科学院）、广州市康复医学会发起，专家遴选遵循专业性、权威性和多学科的原则。启动时间为2024年5月，定稿时间为2025年5月。
+
+1.4　专家共识注册
+
+已在国际实践指南注册与透明化平台注册（PREPARE-2024CN779）。
+
+1.5　文献检索
+
+对于纳入的主题，按照人群、干预措施、对照和结局指标（Population，Intervention，Comparison，and Outcome，PICO）原则在PubMed、Embase、Cochrane Library、中国知网、万方数据知识服务平台进行系统检索。检索时限为建库至2025年3月。
+
+1.6　推荐意见分级标准
+
+采用推荐意见分级的评价、制定及评估（Grading of Recommendation Assessment，Development and Evaluation，GRADE）[51]对证据质量进行评价并对推荐意见进行分级。GRADE证据质量和推荐强度的分级和定义见表1。
+
+【表格】
+分级 | 定义
+证据质量分级 | 
+高质量（A） | 非常有把握观察值接近真实值
+中等质量（B） | 对观察值有中等把握：观察值有可能接近真实值，但也有可能差别很大
+低质量（C） | 对观察值的把握有限：观察值可能与真实值有很大差别
+极低质量（D） | 对观察值几乎没有把握：观察值与真实值可能有极大差别
+推荐强度分级 | 
+强推荐（1） | 明确显示干预措施利大于弊或弊大于利
+弱推荐（2） | 利弊不确定或无论质量高低的证据均显示利弊相当
+良好实践主张（GPS） | 基于文献综述或专家意见形成的建议
+【表格完】
+
+部分暂无足够循证医学证据支持的临床问题，形成基于专家共识的推荐意见，即良好实践主张（good practice statement，GPS）[39]。
+
+1.7　德尔菲法
+
+采用德尔菲法收集针对社区老年人肌少症筛查相关的初始问题30项，以问卷形式匿名征集专家意见并进行整理、归纳、统计。问卷投票共3轮，最终形成社区老年人肌少症的危险因素、评估肌肉质量的工具和标准、评估肌肉力量的工具和标准、评估身体功能的工具和标准、建议用于社区老年人肌少症筛查的工具和标准、肌少症的筛查流程、肌少症的分级和筛查后管理9个主题14条共识意见。共识意见最终得票率均>70%，Kendall协调系数W=0.496（P<0.001），视为达成共识。
+
+1.8　推荐意见形成
+
+基于证据评价结果，经过3轮德尔菲法，最终确定14条推荐意见，见表2。
+
+【表格】
+主题 | 推荐意见和证据级别
+1.社区老年人肌少症的危险因素 | 【推荐意见1】 高龄（1A）、低BMI（1A）、低身体活动水平（1C）和营养不良（1B）是肌少症的危险因素
+2.肌少症的诊断标准 | 【推荐意见2】 亚洲工作组标准（Asian Working Group Standard，AWGS）2019修订版更适合社区早期筛查使用（1B）
+3.评估肌肉力量的工具和标准 | 【推荐意见3】 推荐采用握力作为肌肉力量测量指标；男性握力<28 kg，女性握力<18 kg，可诊断为低握力（1B）
+4.评估肌肉质量的工具和标准 | 【推荐意见4】 生物电阻抗分析法（bioelectrical impedance analysis，BIA）测量四肢骨骼肌质量（appendicular skeletal muscle mass，ASM），男性ASM<7.0 kg/m2，女性ASM<5.7 kg/m2（1B）可诊断为低肌肉质量；如果没有生物电阻抗分析设备，推荐采用小腿围做初筛，男性<34 cm，女性<33 cm（1B），可诊断为低肌肉质量，高风险者再转诊评估
+5.评估身体功能的工具和标准 | 【推荐意见5】 推荐采用6米步行测试，步速<1.0 m/s（1B）；5次坐站测试≥12 s（1B）；简易体能测试量表（Short Physical Performance Battery，SPPB）≤ 9分（1B），提示身体功能下降
+6.建议用于社区老年人肌少症筛查的工具和标准 | 【推荐意见6】 男性握力<28 kg，女性握力<18 kg（1B）；联合力量、步行辅助、从椅子站起、爬楼梯和跌倒（Strength，Assistance with walking，Rise from a chair，Climb stairs，and Falls，SARC-F）问卷和小腿围测量（SARC-F+Calf Circumference，SARC-CalF），SARC-F≥4分（1B）和/或男性小腿围<34 cm，女性小腿围<33 cm（1B），可作为肌少症筛查工具
+7.肌少症的筛查流程 | 【推荐意见7】 推荐社区卫生服务机构通过握力和SARC-CalF进行肌少症筛查（1C），如发现可能肌少症患者，可进一步明确诊断和后续处理方式；推荐采用肌肉力量联合肌肉质量和/或身体功能筛查肌少症（1B）
+8.肌少症的分级 | 【推荐意见8】 分为可能肌少症、确诊肌少症和重度肌少症（2B）
+9.筛查后管理 | 【推荐意见9】 推荐根据肌少症患者的严重程度和共病情况制定个体化、以运动干预为核心的干预方案，联合营养干预，辅以其他干预措施（1A）
+【推荐意见10】 推荐开展个性化的运动干预方案（1A）
+【推荐意见11】 推荐开展个性化营养干预（1A）
+【推荐意见12】 推荐建立社区医疗协作机制（2B）
+【推荐意见13】 加强社区与家庭的社会支持（2B）
+【推荐意见14】 利用智能化技术手段提升干预效率（2B）
+【表格完】
+
+1.9　专家共识发布与修订
+
+本专家共识在行业期刊《中国全科医学》杂志发布，同时，因当前研究证据与临床实践之间仍存在差异，适合中国社区老年人肌少症的筛查方法和筛查标准仍需进一步研究，并进一步完善共识推荐意见。本共识将适时进行修订。
+
+2　推荐意见及证据说明
+
+2.1　社区老年人肌少症的危险因素
+
+【推荐意见1】　高龄（1A）、低BMI（1A）、低身体活动水平（1C）和营养不良（1B）是肌少症的危险因素。
+
+循证依据：一项纳入68项研究、涉及98 502名社区老年人的Meta分析显示，肌少症与多种社会人口学、行为和疾病相关因素有关，其中主要因素包括年龄、体质量过低、身体活动不足、营养不良、糖尿病等[52]。
+
+在已研究的12项衰老标志中，肌少症与线粒体功能障碍、表观遗传改变、营养感应调控紊乱、细胞间通讯异常等方面表现出显著关联[53]。肌少症患病风险随年龄增加而升高[54，55，56]，女性年龄增加（OR=1.10，95%CI=1.06~1.15）和男性年龄增加（OR=1.08，95%CI=1.04~1.12）[57]。
+
+低BMI与肌少症显著相关[58]。一项纳入45项研究、涉及37 571名中国老年人的系统综述显示，低BMI、高龄、小腿围偏小、吸烟、抑郁、骨质疏松、营养不良及营养不良风险均为中国老年人群肌少症的危险因素[17]。Meta分析结果表明，低BMI（OR=8.95，95%CI=6.05~13.25）是肌少症的最强预测因子，其次为年龄增长（OR=4.60，95%CI=3.07~6.91）和营养不良（OR=2.78，95%CI=2.09-3.70）[59]。
+
+低身体活动水平是肌少症的重要危险因素[52，60，61，62，63，64]。一项纳入66项研究、涉及433 091名参与者的Meta分析发现，身体活动不足与肌少症的发生密切相关[65]。久坐行为与老年人肌少症之间存在独立正向关联[61]。
+
+营养不良、肌少症和衰弱在老年人群中常同时出现。通过对2008年美国国家健康统计中心的国家住院出院调查数据165 630个病例中的59 029例65岁及以上的老年人分析发现，营养不良与衰弱和肌少症相关[66]。Meta分析显示，蛋白质摄入不足可能与老年人肌少症有关[67]。一项纳入33项研究的系统综述表明，营养不良是最重要的肌少症潜在危险因素[15]。
+
+2.2　肌少症的诊断标准
+
+【推荐意见2】　亚洲工作组标准（Asian Working Group Standard，AWGS） 2019更强调早发现、早诊断、早干预，新增了"可能肌少症"概念，适合社区早期筛查使用（1B）。
+
+实施要点：该条目主要针对筛查工具进行推荐。AWGS 2019修订版新增"可能肌少症"概念，指肌肉力量或身体功能下降但未达肌少症标准，提示早期风险，通过握力（男<28 kg，女<18 kg）和步速（<1.0 m/s）等指标筛查；推荐社区采用小腿围（男<34 cm，女<33 cm）或力量、步行辅助、从椅子站起、爬楼梯和跌倒（Strength，Assistance with walking，Rise from a chair，Climb stairs，and Falls，SARC-F）问卷（≥4分为阳性）初筛，阳性者复测握力、步速以确诊，该流程易操作、成本低，适合基层推广，可早期发现高风险人群，避免漏诊并降低医疗负担。
+
+循证依据：肌少症的流行程度在很大程度上依赖于具体采用的测量方法和诊断指标[68]。肌少症的诊断标准近年来在国际和国内多个指南中有明确定义，目前广泛使用的主要诊断标准有欧洲老年人肌少症工作组初始标准（European Working Group on Sarcopenia in Older People，EWGSOP1）[69]、修订版标准（EWGSOP2）[70]、AWGS[71，72]、国际工作组标准（International Working Group on Sarcopenia，IWGS）[73]和美国国立卫生研究院肌少症项目标准（Foundation for the National Institutes of Health，FNIH）[74]。肌少症的患病率因所采用的诊断标准不同而存在显著差异。因此，建议制定统一的全球性肌少症诊断标准，以实现早期识别和干预，提升诊断一致性和临床实用性[55]。在社区老年人群中，根据EWGSOP2所测得的肌少症患病率差异较大[68]，其更强调诊断，较少关注早期筛查。IWGS主要针对研究环境，强调以步速为中心，不适合简化筛查流程。FNIH聚焦于研究人群数据，标准严格，工具依赖性强，不便于在基层采用。AWGS 2019在社区成年人中更适用于肌少症筛查[75]，且在诊断肌少症方面与AWGS 2014保持较高一致性，AWGS 2019"重度肌少症"标准在筛查特征上表现出不同的特性[76]。一项纳入19项研究、涉及33 515人的系统综述表明，52.63%使用了AWGS 2019进行筛查，且AWGS 2019诊断出的肌少症及重度肌少症患病率更高[55]。流行病学调查发现，AWGS 2019"可能肌少症"标准在检测肌少症方面具有极高的敏感度[77]。一项纳入30项研究、覆盖23 193名中国老年人的系统评价表明，多数研究采用AWGS 2019进行评估[78]。
+
+2.3　评估肌肉力量的工具和标准
+
+【推荐意见3】　推荐采用握力作为肌肉力量测量指标；男性握力<28 kg，女性握力<18 kg，可诊断为低握力（1B）。
+
+循证依据：肌力被认为是诊断肌少症的核心指标，握力测量简便、低成本、重复性好，且具有良好的信效度，被EWGSOP推荐为首选测量方法[14，79]。握力和下肢肌力均能反映个体肌力状况，握力测量更为便捷而且成本低廉，被广泛应用于肌少症的筛查和诊断[80，81，82，83，84，85，86]。下肢肌力与老年人行动能力的关系可能更密切，但其测量则更具挑战[87]，且缺乏用于诊断肌少症的最佳标准。国内外多部肌少症指南或专家共识建议采用握力评估肌力并作为肌少症的诊断标准[88，89，90，91，92，93，94，95，96，97]。
+
+握力标准的选择对肌少症的诊断具有重要影响[79]。一项基于8个亚洲社区人群队列（包括中国人群）、纳入34 265名受试者的研究显示，男性和女性低握力的标准分别为30.4 kg和18.1 kg[98]。AWGS 2019推荐男性、女性低握力诊断标准分别为<28 kg和<18 kg[96]，本指南推荐以此标准评估社区老年人的肌肉力量。根据此标准诊断的低握力患者发生不良健康结局的风险升高、死亡率增加[99，100，101，102，103]，表明采用此标准诊断的低握力具有临床价值。
+
+2.4　评估肌肉质量的工具和标准
+
+【推荐意见4】　生物电阻抗分析法（bioelectrical impedance analysis，BIA）测量四肢骨骼肌质量（appendicular skeletal muscle mass，ASM），男性ASM<7.0 kg/m2，女性ASM<5.7 kg/m2（1B）可诊断为低肌肉质量；如果没有生物电阻抗分析设备，推荐采用小腿围做初筛，男性<34 cm，女性<33 cm（1B），可诊断为低肌肉质量，高风险者再转诊评估。
+
+循证依据：一项纳入30项研究、涉及23 193名中国老年人的系统评价表明，多数研究采用AWGS 2019进行评估，小腿围在灵敏度和特异度方面整体优于其他工具；SARC-F问卷和SARC-F联合小腿围（筛查工具）（SARC-F+Calf Circumference，SARC-CalF）在中国老年人中灵敏度普遍偏低，建议与其他工具联合使用；小腿围测量操作简便、非侵入性，适合基层和大规模初筛[78]。将标准化小腿围作为肌肉质量的衡量指标，与传统肌肉质量测量法在诊断肌少症方面有中等一致性，并具有相似的预测价值[104]，将小腿围纳入SARC-F问卷可提升其特异性和诊断准确性[105]。
+
+多种检测手段可用于肌肉质量评估和肌少症诊断。相位角（phase angle，PhA）与肌肉质量、力量和身体功能呈正相关，老年群体中其下降与肌少症、衰弱关系密切，AWGS 2019建议将其作为筛查肌少症的"补充工具"。系统综述表明，PhA筛查肌少症的受试者工作特征曲线下面积（area under the receiver operating characteristic curve，AUC）为0.81，综合灵敏度和特异度分别为80%和70%，筛查肌少症的PhA截断值95%CI为4.54°~5.25°，老年群体中其下降与肌少症、衰弱关系密切，AWGS 2019建议将其作为筛查肌少症的补充工具[106]。此外，超声、CT、MRI、肌肉超声和BIA等检测手段也有相关研究[107]，其中肌肉超声在老年人肌少症诊断中显示出良好能力，其灵敏度为0.85，特异度为0.74，AUC为0.87[108]。
+
+社区筛查的工具应具有操作简单、成本低、时间短、无创伤的特点，便于社区医护人员掌握和常规使用，并且被AWGS 2019、EWGSOP2等筛查标准认可。BIA可通过测量身体电阻和反应来估算脂肪量、去脂体质量、骨骼肌质量，计算附肢骨骼肌指数，测量过程快速，无创，可作为追踪干预效果的手段。相比双能X线吸收法（dual-energy X-ray absorptiometry，DXA）和MRI，BIA设备较轻便，部分型号适合社区或居家检测，成本远低于DXA和CT，适合广泛部署于初级医疗机构。由于BIA的上述优势，AWGS 2019等指南中推荐BIA作为评估骨骼肌质量的重要方法之一，并给出具体的判定标准（男性ASM<7.0 kg/m2，女性ASM<5.7 kg/m2）。小腿围测量简便易行、无创、无设备依赖、操作简单，能反映外周肌肉质量，适用于大规模筛查和低资源地区，在缺乏专业设备（如DXA、MRI、BIA）的条件下，小腿围可作为初筛指标，帮助识别高危人群，小腿围小于某一特定阈值（如男性<34 cm，女性<33 cm）可作为肌少症风险筛查工具。
+
+2.5　评估身体功能的工具和标准
+
+【推荐意见5】　推荐采用6米步行测试，步速<1.0 m/s（1B）；5次坐站测试≥12 s（1B）；简易体能测试量表（Short Physical Performance Battery，SPPB）≤9分（1A），提示身体功能下降。
+
+循证依据：全球肌少症领导倡议（Global Leadership Initiative on Sarcopenia）认为功能下降是肌少症最核心的特征[13，109]。身体功能评估是肌少症筛查和诊断不可或缺的重要内容，在社区老年人筛查中尤为重要。在社区老年人中，将肌少症定义为"低肌肉质量+低身体功能"，其对预测未来不良健康事件（如跌倒、功能障碍）更具价值[88]。身体功能可采用6米步行测试[110，111，112]、5次坐站测试[96]和SPPB[113]等进行测量。
+
+最常用的身体功能测量指标是短距离步行速度，通常为3~6 m[87]。AWGS 2019推荐使用步速≤1.0 m/s区分是否存在步速低[96]。当前证据整体提供了中等质量的证据支持步速≤1.0 m/s适用于诊断步速低（反映身体功能障碍），本专家共识参考此诊断标准。
+
+关于5次坐站测试的标准，一项纳入1 027名中国社区老年人的诊断试验得出5次坐站测试诊断肌少症的标准，在60~69岁组中为9.2 s（男性）和10.8 s（女性），在70~79岁组中为10.2 s（男性）和10.9 s（女性），在80岁及以上组中为14.0 s（男性）和11.5 s（女性），全体人群的最佳截断值为10.9 s，5次坐站测试用于识别肌少症的AUC为男性0.632，女性0.650[114]。在AWGS 2019中，5次坐站测试的推荐标准为≥12 s[115]，本专家共识参考此标准。
+
+SPPB评分在评估身体功能方面的预测效能优于其他方法，特别是在预测跌倒并发骨折及工具性日常生活活动能力障碍方面敏感度更高[88]。SPPB总分随年龄增长而显著下降[116]，在诊断肌少症方面表现出中等诊断价值（AUC=0.644~0.770）[117]。AWGS 2019推荐SPPB≤9分作为诊断标准以取得满意的灵敏度[115]。现有研究提供了充分证据支持将SPPB≤9分作为身体功能障碍的标准，本专家共识推荐参考此诊断标准。
+
+2.6　建议用于社区老年人肌少症筛查的工具和标准
+
+【推荐意见6】　男性握力<28 kg，女性握力<18 kg（1B）；联合SARC-CalF，包括SARC-F问卷和小腿围测量，SARC-F≥4分（1B）和/或男性小腿围<34 cm，女性小腿围<33 cm（1B），可作为肌少症筛查工具。
+
+循证依据：在进行社区老年人肌少症筛查时，需要选择简便易行、经济且相对可靠的工具。肌力测量方法简便，使用手握力计可快速、非侵入性地测量肌力，测量过程仅需几分钟，不依赖复杂或昂贵设备，非常适合基层卫生服务机构或社区开展初步筛查。小腿围也是一种简便易行的人体测量学方法。当单独使用男性小腿围<34 cm，女性小腿围<33 cm的标准用于筛查肌少症时，其灵敏度范围为83.3%~100%，特异度范围为59.8%~62.8%[76，118]，测量时应注意体位对小腿围度的影响。
+
+一项诊断准确性试验表明，仅SARC-CalF在6种诊断标准下的AUC均为0.7~0.9，表现出良好的诊断能力[119]。AWGS 2019推荐采用SARC-CalF在社区和初级卫生保健场景中进行肌少症的初步筛查，当SARC-CalF≥11分时，提示可能肌少症，需要进一步评估肌力和肌肉质量[96]。
+
+本专家共识推荐以肌力联合SARC-CalF作为社区老年人肌少症筛查的工具。
+
+2.7　社区老年人肌少症的筛查流程
+
+【推荐意见7】　推荐社区卫生服务机构通过握力和SARC-CalF进行肌少症筛查（1C），如发现可能肌少症患者，可进一步明确诊断和后续处理方式；推荐采用肌肉力量联合肌肉质量和/或身体功能筛查肌少症（1B）。
+
+循证依据：虽然肌少症风险筛查通常在临床环境中进行，但是社区中的筛查同样重要[48]。有学者建议对所有老年人进行肌少症筛查[21]，而全面筛查只能在社区才能实现。全科医生和执业护士均适合进行肌少症筛查。对于风险较高的人群，如患有急慢性疾病、BMI降低或近期非自愿性体质量下降、年龄较大的社区老年人，应优先筛查。被识别为有风险的老年人，应转诊到有资质的医疗机构进行正式评估，即由营养师评估营养不良风险、物理治疗师/运动医学治疗师评估肌少症风险。
+
+患者本人可以并且应当参与筛查过程。既往研究表明，公众和患者对于肌少症缺乏认识，这在一定程度上影响了他们对筛查和干预的依从性[120]。针对社区老年人的肌少症筛查应以人为本、以服务对象为中心，让老年人充分了解筛查的目的、结果和意义，让他们参与筛查和干预过程，保障他们的知情权，以便做出合理的医疗决策。
+
+社区卫生工作人员可以通过使用经过验证的筛查工具识别可能有肌少症风险的社区老年人，提供更高质量、更个性化的干预措施，或将患者转诊到其他医疗机构[121]。
+
+一项纳入了2010—2023年发布的36份关于肌少症、肌肉萎缩或肌肉流失的临床实践指南、共识声明和立场文件的系统综述表明，有14份指南文件推荐SARC-F问卷作为筛查工具，肌肉功能评估被视为诊断肌少症的第一步[122]。
+
+2.8　肌少症分级
+
+【推荐意见8】　分为可能肌少症、确诊肌少症和重度肌少症（2B）。
+
+循证依据：尽管目前已有相对公认的肌少症诊断标准，但这些标准通常需要对肌肉质量、肌肉力量和肌肉功能进行全面评估。然而，这些评估手段往往耗时、耗力、操作复杂，不适用于大规模人群筛查[123]。若能在早期通过筛查发现疑似肌少症个体，并对其进行全面评估，不仅可节省人力和时间，还能提升检测率。对于可能肌少症的人群，及时干预可以有效阻止疾病进一步发展，显著改善个体的生活质量。
+
+区分可能肌少症、确诊肌少症和重度肌少症，是AWGS 2019的重要创新。在公共卫生方面，便于在社区、老年健康体检和基层卫生服务中早期识别高风险人群。在临床方面，避免"一刀切"诊断，提高诊断的灵敏度和特异度，帮助医生更有针对性地制订治疗方案。对肌少症进行区分，有助于实现早识别、早干预、分层管理、合理分配医疗资源，进一步支持老龄社会健康老龄化目标。
+
+AWGS 2019引入"可能肌少症"的概念，将其定义为仅存在肌肉力量减弱或身体功能下降，可能肌少症主要用于基层卫生服务与社区健康促进，以便更早开展生活方式干预；若满足"低肌肉质量+低肌肉力量或低身体功能表现"，可确诊为肌少症；当一个老年人同时符合低肌肉质量、低肌肉力量和低身体功能表现时，可诊断为"重度肌少症"[96]。
+
+WENG等[16]开展的系统综述和Meta分析纳入140项研究，涉及156 325人，该研究发现，社区老年人中肌少症总体患病率为16.5%，可能肌少症患病率为28.7%，重度肌少症患病率为4.4%[16]。该研究揭示了亚洲老年人中肌少症负担较重的现实，尤其是可能肌少症的患病率较高，强调了在社区层面早期识别和干预策略的重要性。调查研究发现，19.7%社区老年人患有可能肌少症（女性22.2%，男性16.2%），11.9%患有肌少症（女性10.1%，男性14.5%），7.7%患有严重肌少症（女性7.0%，男性8.6%），强调了早期识别与干预肌少症的必要性[13]。
+
+在中国社区居住的老年人中，可能肌少症显著增加全因死亡风险，并与心脑血管疾病、功能依赖和住院频率有关[23]。可能肌少症与健康相关生活质量显著负相关，主要表现为身体角色功能受限、健康自评状况较差、社交功能下降、心理与生理整体生活质量评分下降[124]，这表明早期肌少症筛查与干预对改善老年人群的生活质量具有重要意义。
+
+2.9　筛查后管理
+
+【推荐意见9】　推荐根据肌少症患者的严重程度和共病情况制订个体化干预措施，以运动干预为核心，联合营养干预，辅以其他干预措施（1A）。
+
+循证依据：分析2010—2023年发布的36份肌少症、肌肉萎缩或肌肉流失相关的临床实践指南、共识声明和立场文件发现，无论是与年龄相关还是疾病相关的肌少症，管理策略主要集中在运动干预和营养干预上[122]。身体活动是预防肌少症的有效保护性策略[125]。系统综述表明，大多数关于老年人运动干预的研究显示，参与者取得了积极效果，但维持肌力的效果可能依赖于持续进行特定类型的身体活动[126]。对近20年肌少症干预相关文献进行文献计量学分析，发现抗阻训练与蛋白质补充是目前最常用且公认有效的干预手段[127]。一项纳入42项随机对照试验（randomized controlled trial，RCT），涉及3 728例肌少症患者（中位年龄72.9岁，女性占73.3%）、干预中位持续时间为12周的Meta分析显示，抗阻运动（无论是否结合营养干预）以及抗阻运动联合有氧和平衡训练，在提高生活质量方面最为有效[标准化均数差（Standardized Mean Difference，SMD）：0.68~1.11]；阻力+平衡运动联合营养干预在改善握力方面效果最佳（SMD=4.19 kg）；阻力+平衡运动（是否结合营养）在改善步速方面效果最佳（SMD=0.16 m/s）；在改善起立行走测试结果方面，阻力+平衡运动表现为中等效果（SMD=1.85 s）[128]。
+
+循证证据证明，运动干预和营养干预在预防和干预肌少症方面具有协同作用，能够互相促进，产生"1+1>2"的效果。一项纳入14项RCT的系统综述发现，运动训练可能增强营养干预的效果[129]。硒和镁与肌肉质量、肌力、身体功能以及肌少症患病率显著相关[130]。与单纯运动相比，蛋白质补充联合运动干预显著改善骨骼肌指数[均数差（mean difference，MD）=0.89 kg/m2，95%CI=0.45~1.33]和握力（MD=2.64 kg，95%CI=0.75~4.53）[131]。对体弱老年人开展联合运动与营养干预，骨骼肌指数增加0.16 kg/m2，握力提升1.41 kg，5次坐站测试用时减少1.89 s，步行速度增加0.06 m/s，SPPB评分提升0.43分，起立行走测试（timed up and go test，TUGT）时间缩短0.56 s[132]。蛋白质补充与阻力运动相结合在改善和维持社区老年肌少症患者的肌肉质量（SMD=0.95，95%CI=0.13~1.78，P<0.05）、肌肉力量（SMD=0.32，95%CI=0.08~0.56，P<0.05）和身体功能方面展现出良好前景[133]。RIOS-ESCALANTE等[134]在社区中对存在肌少症风险的中老年女性实施包括舞蹈+抗阻训练与营养教育在内的干预策略，历时12周，显著提升了握力和步速。在肌肉质量方面，联合干预组SMD为0.95（95%CI=0.13~1.78，P<0.05）；在肌肉力量方面，SMD为0.32（95%CI=0.08~0.56，P<0.05）；抗阻训练+蛋白质补充剂联合干预显著优于单独措施，对社区老年人群肌少症的管理具有良好适用性，蛋白质补充可基于个体营养评估制订方案，优选乳清蛋白或富含亮氨酸的营养制剂；抗阻训练应因地制宜，结合弹力带、哑铃、抗阻练习等形式，建议每周2~3次，持续≥12周[133]。
+
+自然衰老动物模型中，联合干预（特别是鱼油400 mg/kg+小麦低聚肽200 mg/kg组）在提高肌肉质量、增强握力、减轻脂肪浸润及改善肌肉炎症和氧化应激方面，优于单独干预组，建议探索将富含鱼油来源的ω-3多不饱和脂肪酸与小麦低聚肽联合应用，用于预防和改善老年人肌少症[135]。
+
+药物治疗也能取得一定疗效。应用于肌少症治疗的药物在提高肌力、减少身体残疾、增强整体功能方面均表现出不同程度的疗效[136]。中药单独使用或与常规治疗联合使用，可在多个维度上改善肌少症的症状[137]。
+
+其他干预措施包括：辅以神经肌肉电刺激、全身振动疗法等物理干预手段，以增强肌肉激活效果，以及为步态不稳者配备助行器、矫形鞋降低跌倒风险；认知与心理支持需通过团体辅导、双任务训练改善认知功能与心理状态，提升干预依从性；家庭与社会支持需整合社区康复资源，提供集体运动课程，并指导家属协助患者安全训练与营养管理；动态监测需每3~6个月评估肌肉力量、功能及营养指标，及时预警跌倒、失能等风险并调整方案；多学科协作（医生、康复医师和营养师等联合参与）是确保干预有效性的关键，尤其针对高龄、共病复杂患者，综合干预可显著延缓病情进展并改善生活质量。
+
+推荐根据肌少症患者疾病严重程度制订个体化的社区综合干预方案，以运动干预为核心，结合营养干预、健康管理、物理治疗等措施，以延缓肌少症进展、改善身体功能和生活质量。
+
+【推荐意见10】　推荐制订个体化的运动干预计划（1A）。
+
+实施要点：建议肌少症患者制订个体化运动干预计划，核心在于根据年龄、共病类型、基础运动能力及功能目标进行精准设计。首先通过基础健康评估（如心肺功能、关节状态、跌倒风险），以SPPB为主、辅以6米步行测试和5次坐站测试客观评估运动功能并进行运动能力分级（低/中/高功能组），明确干预方向，针对不同组别选择适宜运动类型，如低功能组（需辅助行走或卧床）以被动关节活动、全身振动训练被动运动、神经肌肉电刺激结合弹力带抗阻为主，中功能组（可独立行走但肌力下降）予渐进式抗阻训练（如坐立训练、墙推举）结合平衡训练（如单腿站立），高功能组（可完成日常活动）采用深蹲哑铃高强度抗阻训练及有氧运动（如快走、游泳），并遵循"渐进负荷"原则动态调整强度与频率；针对共病需求（如糖尿病患者避免空腹运动、骨质疏松患者规避脊柱过度扭转动作）及高龄衰弱患者采用"碎片化运动"模式，结合认知训练提升协调性；实施中强调多学科协作（康复医师、物理治疗师联合制订方案）、动态监测（每月评估握力、步速等指标）及患者教育（通过可视化工具提升依从性），确保方案安全有效。该策略通过"评估-分级-动态调整"闭环，显著改善患者肌肉质量与功能，降低跌倒及失能风险。
+
+循证依据：规律的运动干预是预防和延缓肌少症发生与进展的核心措施，尤其是抗阻训练，已被多项研究证实可显著提升肌肉力量、改善身体功能与生活质量。对于社区老年人，推荐开展中等强度至高强度身体活动干预，推广"日常生活即运动"理念，鼓励定期身体活动监测。老年人个体差异大，存在不同的基础疾病、体能水平和运动能力，制订个体化、阶段化的运动干预方案至关重要。
+
+抗阻运动能显著降低白细胞介素-6[加权均数差（weighted mean difference，WMD）=-0.73，95%CI=-1.02~-0.44]，显著降低炎性反应[138]。运动干预对肌肉质量无显著改善作用（SMD=0.04，95%CI=-0.15~0.22）；对下肢肌肉力量有积极影响（SMD=0.34，95%CI=0.02~0.66）；对步行速度具有显著改善作用（SMD=0.42，95%CI=0.11~0.72）[139]。与主动运动训练相比，心身治疗在起立行走测试和Berg平衡量表评分方面依然表现出显著优势，在握力方面呈现改善趋势[140]。WU等[141]发现，社区老年肌少症患者对运动干预的综合依从率为85%（95%CI=79%~89%），干预持续时间<24周的运动项目，比持续时间≥24周者具有更高的依从性，研究表明，社区老年肌少症人群的运动干预依从性相对较高，短期干预可能更有利于提高依从性。然而，目前大多数研究在设计中仅使用有限的行为改变技术，可能难以在实际中有效促进长期依从性。因此，未来需开展更多基于理论的行为干预研究，以系统提升肌少症老年人群的运动依从性。
+
+多项研究证实了运动干预对于肌少症的效果。SÁNCHEZ-SÁNCHEZ等[142]共纳入124项研究，涉及230 174名老年人（平均年龄≥65岁），研究发现，总身体活动量越高，肌少症发生风险越低，中高强度身体活动（如快走、有氧操）与较低的肌少症发生风险显著相关，推荐每周进行≥150 min中等强度活动，推广"日常生活即运动"理念。中等强度的身体运动可对肌少症产生积极作用，表现为减少氧化应激和炎症反应[143]。高强度间歇训练在改善老年人肌肉功能和身体机能方面显示出较为一致的正向效果[144]。与被动控制组相比，身心运动在多项指标上表现出显著改善，包括握力（WMD=0.99，95%CI=0.06~1.92；I2=3%，P=0.04）、TUGT（WMD=-4.04，95%CI=-5.54~-2.53；I2=12%，P<0.01）和Berg平衡量表得分（WMD=3.63，95%CI=0.38~6.87；I2=0，P=0.03）[145]。运动对身体功能具有显著的大效应（效应值d=1.21，95%CI=0.79~1.62，P<0.001），对肌肉力量具有中等效应（效应值d=0.51，95%CI=0.25~0.76，P<0.001）[146]。应关注多领域干预的积极作用，强调应将身体活动作为公共卫生干预中的核心内容，以促进健康老龄化，降低年龄相关疾病的负担[147]。低至中负荷的阻力训练可显著增加肌肉质量，运动联合营养干预可改善握力、步速、TUGT测试时间和坐站测试表现等身体功能指标，推荐通过低至中负荷的抗阻训练以及营养支持来预防和改善肌少症[148]。
+
+运动干预对握力和膝伸肌肌力具有积极影响，其中以阻力训练最为有效[149]。一项基于系统评价的系统综述表明，参与任何形式的运动训练均可为老年人肌少症带来益处，其中抗阻训练更有利于提升肌力和骨骼肌质量，而混合运动模式在改善身体功能方面可能更优，抗阻训练对提升骨骼肌质量和肌力效果更佳，非抗阻训练对改善身体功能指标方面更有优势，对于重度肌少症患者，采用多种训练方式结合的混合干预可能更为合适[150]。抗阻训练方案应根据个体的年龄、性别及其他基础条件进行个性化设计，并可根据场地条件选择徒手训练或使用阻力器械等方式进行[151]。在实施过程中，应由物理治疗师、康复医师或社区健康管理团队为老年人制订个体化运动处方，包括运动种类、频率、强度与安全注意事项。
+
+【推荐意见11】　推荐开展个性化营养干预（2B）。
+
+循证依据：充足而科学的营养摄入，特别是蛋白质、ω-3多不饱和脂肪酸等关键营养素的补充，对改善肌肉质量、提高肌力和身体功能具有显著作用。建议将营养干预作为社区老年人肌少症管理的重要组成部分，对肌少症筛查阳性者进行系统营养状况评估，尤其适用于肌肉质量或力量下降但尚未严重功能障碍的个体。营养干预可作为单独措施，或与运动干预联合应用，制订个体化营养方案，提升肌肉合成能力，以改善肌少症核心指标。与单纯肌少症相比，营养不良联合肌少症与更高的死亡风险相关[风险比（hazard ratio，HR）=4.04，95%CI=1.36~11.94][152]。
+
+鼓励结合运动干预（如抗阻训练）联合营养补充，形成综合干预模式，增强效果；应优先考虑制订个体化、可持续的饮食和运动计划，特别强调高蛋白摄入与维生素D的适量补充，以延缓肌少症进展、减少相关并发症。基于系统综述的系统综述明确聚焦于营养干预对肌少症核心诊断指标（如肌肉质量、肌力、身体功能）的独立影响，结果显示营养干预在改善肌少症核心诊断指标（如肌肉质量或力量）方面具有统计学和临床意义，应予以强推荐，尤其适用于有肌少症风险的社区老年人[153]。建议针对中老年女性肌少症的预防和管理，采用营养干预与运动训练相结合的综合策略。单纯营养干预（如蛋白质、维生素D、镁、鱼油等补充）对肌肉蛋白合成、肌力和功能可能有轻度至中等改善作用，但作用有限。结合规律的抗阻运动或多模态运动训练，能显著增强干预效果，尤其是在绝经后女性等营养吸收与激素水平变化明显的群体中[129]。一项纳入10项RCT的系统综述建议将口服营养补充与适当的身体活动结合使用，以作为高风险人群中预防肌少症的策略之一[154]。一项纳入123项研究的系统综述和Meta分析发现，补充ω-3长链多不饱和脂肪酸对总体肌肉质量和肌力具有积极作用，可能与降低肌少症风险有关[155]。
+
+营养干预方面，联合补充蛋白质、维生素D、镁以及鱼油，对肌肉蛋白合成、肌肉力量和/或肌肉功能具有积极影响[129]。JAYAWARDENA等[156]强调了海鲜作为一种营养干预手段在肌少症防治中的潜力。
+
+针对吞咽困难、口腔疾病等特殊人群，应进行口腔运动和吞咽功能训练，保障营养摄入安全性与持续性。CELIS等[157]纳入8项包括评估口腔干预对60岁及以上个体衰弱和肌少症影响的实验性和准实验性研究，发现口腔运动显著改善了肌肉力量和体质量，吞咽治疗与握力增加（+1.8 kg，P=0.03）和步行速度提升（+0.2 m/s，P=0.04）相关，该研究表明口腔健康干预能改善肌少症患者握力和步速[157]。
+
+补充维生素D对于改善肌少症症状的效果存在争议。规律的抗阻训练联合每日补充必需氨基酸、乳清蛋白或维生素D，可显著改善肌少症老年人的ASM和总体质量，保持维持或增长。数据显示，这种运动+营养干预的协同作用不仅对主要结果指标有效，也对力量、步速、身体稳定性及其他生活质量相关指标产生积极影响[158]。支链氨基酸联合维生素D可能在治疗肌少症方面具有潜力，并能增强线粒体的生物能量代谢和氧化还原活性[159]。一项纳入35项RCT、涉及6 628名受试者的Meta分析显示，口服维生素D对ASM无显著影响（SMD=0.05，95%CI=-0.33~0.44，P=0.79），对肌肉力量（如握力）无显著改善（P=0.26）；对身体功能指标无显著影响（P=0.45）[160]。
+
+鉴于老年人存在多样化的健康状况与膳食需求，建议针对个体营养状况、基础疾病情况、功能水平和生活习惯，制订个性化营养干预策略，提升干预精准性和依从性。建议将个性化营养管理纳入家庭医生签约服务和慢病管理体系，并探索居家膳食服务与社区食堂的联动机制。
+
+【推荐意见12】　推荐建立社区医疗协作机制（2B）。
+
+循证依据：老年人肌少症等慢性功能障碍性疾病的防治具有长期性、综合性和多学科协作的特点。当前基层社区在服务能力、资源整合与专业支持方面仍存在一定不足，不能完全实现早期筛查与连续干预。建议建立"社区-基层医疗机构-综合医院"三级联动的医疗协作机制，以推动肌少症等老年综合征的全周期健康管理。
+
+明确社区卫生服务中心在健康宣教、筛查预警、随访管理中的"守门人"作用，强化家庭医生团队在老年人群健康管理中的作用。有学者建议，肌少症确诊后首月，每周进行1次随访，记录营养摄入和运动训练的依从性和完成度，并于首月末再次进行肌少症诊断；随后，每1个月进行1次随访；肌少症确诊后1年，每3个月随访1次；当诊断无肌少症后，随访时间延长为每6~12个月1次[161]。
+
+建立社区与上级医院之间的转诊绿色通道和双向转诊机制，实现资源共享、诊疗互通，提高诊疗效率。通过信息化设备，鼓励设立区域协同管理平台，依托信息化系统整合个体健康数据、肌少症筛查信息和干预计划，实现多部门协同。
+
+组建跨专业协作团队（如康复医生、营养师、护理人员、社会工作者等）下沉社区，为高风险人群提供综合干预服务建议。对存在肌少症风险的老年患者实施个体化营养与运动联合干预应谨慎，需充分评估其健康状况、意愿与参与能力。在制订干预计划时，应由康复专业人员根据患者的个体差异进行调整，并提高高蛋白饮食和功能性运动训练的可行性与依从性。对于体质虚弱者，可采用循序渐进、负担较小的干预形式，如简化的营养支持（每日补充蛋白）等，逐步引导其参与更完整的生活方式干预[162]。
+
+探索医防融合、医养结合模式，将老年人肌少症防治纳入基本公共卫生服务与居家养老支持体系。通过建立社区医疗协作机制，可有效提升早筛早治率，强化基层卫生服务能力，实现对老年人健康状况的连续管理、闭环服务与精准干预，提高全生命周期健康保障水平。
+
+【推荐意见13】　推荐加强社区与家庭的社会支持（2B）。
+
+循证依据：社区与家庭是支持老年人应对肌少症的重要基础。生活方式因素对肌少症的发生和健康结局有着重要影响，包括饮食习惯和运动、饮酒、吸烟等[163]。强化生活方式干预有助于延缓肌少症进展[58]。饮食质量与肌少症3大核心成分，即肌肉质量、肌肉力量和身体功能，有着密切联系，以膳食多样性和营养充分性衡量的饮食质量，与肌肉质量、肌力和身体功能等肌少症相关指标之间存在正向关联[164]。增加身体活动水平和改善饮食摄入有助于降低肌少症风险[15]。良好的社会支持系统不仅有助于改善老年人的生活方式，形成健康饮食、规律运动、戒烟限酒的良好生活习惯，提升老年人的自我照护能力、治疗依从性及生活质量，还能有效延缓身体功能衰退和减少孤独、抑郁等负面心理影响。
+
+通过社区、家庭、社会多方共同努力，能有效降低肌少症的患病风险并促进健康老龄化。推进社区"健康养老站点"建设，为老年人提供日间照料、运动康复、营养指导和心理支持等服务；鼓励家庭成员积极参与老年人日常生活管理和康复锻炼，并提供照护培训和心理减压服务；建立以家庭医生为纽带的连续照护网络，提升基层健康服务的主动识别与干预能力；动员社区志愿者、社会工作组织和邻里互助网络，增强老年人社会参与和情感联结，营造友善、包容的社区环境。通过强化社会支持，有助于形成"共建、共治、共享"的老龄健康支持格局，从而实现对老年人肌少症及相关综合征的早发现、早干预与长期管理。
+
+【推荐意见14】　推荐利用智能化技术手段提升干预效率（2B）。
+
+循证依据：随着信息技术和人工智能的发展，智能化手段在老年健康管理中的应用日益广泛。面对肌少症等老年综合征的早筛查、早诊治和持续干预，传统方式在效率和可持续性方面存在局限。建议积极推动将可穿戴设备、远程监测、人工智能评估系统、大数据分析平台等智能化技术应用于老年人群体干预全过程，以提升筛查效率、个体化管理水平与服务可及性。
+
+数字干预能显著改善握力、步行速度、5次坐站测试和30秒起坐测试结果[165]，表明其在提升身体功能方面具有一定效果。因此，建议将数字化干预作为辅助性工具，结合传统干预手段（如营养干预和抗阻训练）共同应用，特别适用于行动便利、有自主学习能力的社区老年人。将基于社交媒体的健康教育与运动干预模式作为社区年轻老年人（60~74岁）预防肌少症的创新补充手段，尤其适用于数字接入能力较强的社区人群，该干预包括系列健康科普视频（4~6 min）与30 min多模式运动视频（包括热身、有氧、抗阻与柔韧性训练，每周≥3次），可增强老年人对肌少症的认知、促进预防性健康行为并提高肌力水平，干预后，握力显著提升（平均由15.92 kg增至19.13 kg，P<0.001）[166]。
+
+SHI等[24]建议探索性采用数字健康运动干预作为老年人肌少症防控的补充策略。数字干预形式包括但不限于：远程视频指导、移动应用程序、自主训练平台或可穿戴设备支持的个性化运动方案，主要目标是提升肌肉力量、肌肉质量及身体功能，该干预手段有望提升老年人运动依从性，扩大预防性康复服务覆盖面，并提供更可持续的家庭运动路径，但目前缺乏高质量、多中心RCT的验证。有研究指出，结合理论模型构建的健康教育内容（如视频短片、互动问答）、运动指导和行为激励机制，并通过熟悉的社交媒体平台（如微信群、视频号、小程序等）实施干预，这种方式具备成本低、传播快、易于接受等优势，适合在可能肌少症尚未发展为确诊肌少症阶段进行及早干预[167]。
+
+推荐在社区肌少症干预管理中探索应用数字化干预手段，辅助提升老年人身体功能表现，尤其适用于轻中度肌少症个体。数字化干预可涵盖远程运动指导、线上反馈评估及虚拟锻炼系统等方式。结合"线上+线下"管理，根据老年人个体能力设定频次和强度，提升健康行为依从性与干预精准性。
+
+社区老年人肌少症筛查与诊断流程见图1，筛查后管理策略见图2。
+
+【图】社区老年人肌少症筛查与诊断流程图 Flowchart of screening and diagnosis of sarcopenia among community-dwelling older adults【图完】
+
+【图】社区老年人肌少症筛查后管理策略 Post-screening management strategies for sarcopenia among community-dwelling older adults【图完】
+
+3　小结与展望
+
+本共识是国内首部聚焦于老年人肌少症社区筛查的专家共识文件。鉴于老年人肌少症是一种以肌肉质量减少、肌肉力量下降和身体功能进行性减退为特征的综合征，广泛存在于老年群体中，且常伴随跌倒、失能、住院和死亡风险升高，制定适用于社区层面的筛查策略尤为必要。当前，尽管国际上多个组织（如EWGSOP、AWGS）已发布相关诊断标准与筛查工具，但如何将其有效转化应用于我国基层医疗卫生实践，尚缺乏统一指导。
+
+肌少症的社区筛查目标在于及早识别高风险个体，促进早期干预，从而延缓功能衰退，改善健康结局。共识中所推荐的筛查流程和筛查工具（如SARC-F问卷、SARC-CalF等），具备操作简便、依从性高、适宜基层推广的优势，尤其适用于卫生服务资源有限的社区环境，有助于实现社区老年人肌少症的早识别、早干预、多学科协作和个体化管理，未来仍需持续开展研究，不断优化筛查和管理方法，以全面应对肌少症带来的功能损害，促进健康老龄化。
+
+《社区老年人肌肉减少症筛查专家共识》编写组成员
+
+执笔人：
+
+刘巧艳（中国康复科学所），白文芳[南方医科大学附属广东省人民医院（广东省医学科学院）]
+
+编写组成员（按姓氏笔画排序）：
+
+于海洋（北京市丰台区王佐镇社区卫生服务中心），王淑安（南京大学医学院附属鼓楼医院），王德利[十堰市人民医院（湖北医药学院附属人民医院）]，白文芳[南方医科大学附属广东省人民医院（广东省医学科学院）]，朱佳宇（张家港港城康复医院），刘巧艳（中国康复科学所），麦镇荣（广州医科大学附属第四医院），李戈[南方医科大学附属广东省人民医院（广东省医学科学院）]，李伟坤（广州医科大学附属第四医院），张莹[南方医科大学附属广东省人民医院（广东省医学科学院）]，张睿（中国康复研究中心北京博爱医院），张劲珊（广东开放大学健康产业学院），张鸣生（高州市人民医院），张金明（中国康复科学所），张爱民（中国康复科学所），陈迪（中国康复科学所），陈斌（中国康复科学所），陈蕾[十堰市太和医院（湖北医药学院附属太和医院）]，周茂华（广州医科大学附属番禺中心医院），柯丽（湖北医药学院护理学院），夏阳（广州港颐康医院），徐丽姝[南方医科大学附属广东省人民医院（广东省医学科学院）]，唐丽（中国康复研究中心北京博爱医院），黄德钦（杭州师范大学护理学院），曹沛莲（张家港港城康复医院）
+
+执笔人：
+
+刘巧艳，白文芳
+
+100068　北京市，中国康复科学所
+
+Writers：
+
+LIU Qiaoyan，BAI Wenfang
+
+China Rehabilitation Science Institute，Beijing 100068，China
+
+参考文献
+参考文献
+
+海鹏程，梁艳虹. 《老年人肌少症门诊管理规范中国专家共识（2024版）》解读[J]. 河北医科大学学报，2025，46（5）：502-506. DOI：10.3969/j.issn.1007-3205.2025.05.002.
+
+姜珊，康琳. 肌少症的概念性定义——全球肌少症领袖倡议的德尔菲共识解读[J]. 中华老年医学杂志，2024，43（8）：971-975. DOI：10.3760/cma.j.issn.0254-9026.2024.08.003.
+
+HAASE C B，BRODERSEN J B，BÜLOW J. Sarcopenia：early prevention or overdiagnosis?[J]. BMJ，2022，376：e052592. DOI：10.1136/bmj-2019-052592.
+
+ZHANG Y，HAO Q，GE M，et al. Association of sarcopenia and fractures in community-dwelling older adults：a systematic review and meta-analysis of cohort studies[J]. Osteoporos Int，2018，29（6）：1253-1262. DOI：10.1007/s00198-018-4429-5.
+
+LIN Y H，LEE K C，TZENG Y L，et al. Comparison of four screening methods for sarcopenia among community-dwelling older adults：a diagnostic accuracy study[J]. Geriatr Nurs，2023，49：157-163. DOI：10.1016/j.gerinurse.2022.12.007.
+
+PIODENA-APORTADERA M R B，LAU S，TAN C N，et al. Yubi-wakka test for sarcopenia screening in the community：comparative agreement，diagnostic performance and validity with calf circumference measurements[J]. J Frailty Aging，2024，13（2）：98-107. DOI：10.14283/jfa.2024.25.
+
+PAPADOPOULOU S K，TSINTAVIS P，POTSAKI P，et al. Differences in the prevalence of sarcopenia in community-dwelling，nursing home and hospitalized individuals. A systematic review and meta-analysis[J]. J Nutr Health Aging，2020，24（1）：83-90. DOI：10.1007/s12603-019-1267-x.
+
+XU W，CHEN T，CAI Y，et al. Sarcopenia in community-dwelling oldest old is associated with disability and poor physical function[J]. J Nutr Health Aging，2020，24（23）：339-345. DOI：10.1007/s12603-020-1325-4.
+
+GUPTA N，KUMAR P G，PATEL D J. Sarcopenia and frailty among the elderly population in the community：an observational study[J]. J Family Med Prim Care，2024，13（8）：2964-2971. DOI：10.4103/jfmpc.jfmpc_696_23.
+
+GUO Q，CHEN Q F，CHEN K K. Comparative analysis of SARC-F-EBM，Ishii test，and six other screening tools for sarcopenia in Chinese community-dwelling older adults：a cross-sectional diagnostic study[J]. Sci Rep，2024，14（1）：24679. DOI：10.1038/s41598-024-75975-0.
+
+KERMINEN H，JYVÄKORPI S，URTAMO A，et al. Performance of the SARC-F，SARC-CalF，and calf circumference for sarcopenia case finding in community-dwelling older adults[J]. Eur Geriatr Med，2024，15（6）：1817-1826. DOI：10.1007/s41999-024-01060-4.
+
+YUENYONGCHAIWAT K，AKEKAWATCHAI C. Prevalence and incidence of sarcopenia and low physical activity among community-dwelling older Thai people：a preliminary prospective cohort study 2-year follow-up[J]. PeerJ，2022，10：e13320. DOI：10.7717/peerj.13320.
+
+HE X F，SONG Y P，MA L，et al. Prevalence and factors influencing sarcopenia among community-dwelling older adults using the Asian working group for sarcopenia definition[J]. Clin Interv Aging，2022，17：1707-1727. DOI：10.2147/CIA.S388319.
+
+FOX B，HENWOOD T，SCHAAP L，et al. Adherence to a standardized protocol for measuring grip strength and appropriate cut-off values in adults over 65 years with sarcopenia：a systematic review protocol[J]. JBI Database System Rev Implement Rep，2015，13（10）：50-59. DOI：10.11124/jbisrir-2015-2256.
+
+BAYGI F，BUHL S F，THILSING T，et al. Sarcopenia and sarcopenic obesity among older adults in the Nordic countries：a scoping review[J]. BMC Geriatr，2024，24（1）：421. DOI：10.1186/s12877-024-04970-x.
+
+WENG S E，HUANG Y W，TSENG Y C，et al. The evolving landscape of sarcopenia in Asia：a systematic review and meta-analysis following the 2019 Asian working group for sarcopenia（AWGS）diagnostic criteria[J]. Arch Gerontol Geriatr，2025，128：105596. DOI：10.1016/j.archger.2024.105596.
+
+MENG S，HE X，FU X，et al. The prevalence of sarcopenia and risk factors in the older adult in China：a systematic review and meta-analysis[J]. Front Public Health，2024，12：1415398. DOI：10.3389/fpubh.2024.1415398.
+
+REN X Y，ZHANG X L，HE Q，et al. Prevalence of sarcopenia in Chinese community-dwelling elderly：a systematic review[J]. BMC Public Health，2022，22（1）：1702. DOI：10.1186/s12889-022-13909-z.
+
+CHANG C S，CHANG Y F，LIU P Y，et al. Interaction of central obesity and sarcopenia on nutritional status in the community-dwelling older people[J]. Arch Gerontol Geriatr，2020，87：104003. DOI：10.1016/j.archger.2019.104003.
+
+CHANG K V，HSU T H，WU W T，et al. Is sarcopenia associated with depression? A systematic review and meta-analysis of observational studies[J]. Age Ageing，2017，46（5）：738-746. DOI：10.1093/ageing/afx094.
+
+MARTY E，LIU Y，SAMUEL A，et al. A review of sarcopenia：Enhancing awareness of an increasingly prevalent disease[J]. Bone，2017，105：276-286. DOI：10.1016/j.bone.2017.09.008.
+
+VERONESE N，DEMURTAS J，SOYSAL P，et al. Sarcopenia and health-related outcomes：an umbrella review of observational studies[J]. Eur Geriatr Med，2019，10（6）：853-862. DOI：10.1007/s41999-019-00233-w.
+
+LIU B Y，LIU R Y，JIN Y H，et al. Association between possible sarcopenia，all-cause mortality，and adverse health outcomes in community-dwelling older adults in China[J]. Sci Rep，2024，14（1）：25913. DOI：10.1038/s41598-024-77725-8.
+
+SHI Y，STANMORE E，MCGARRIGLE L，et al. Effectiveness of digital health exercise interventions on muscle function and physical performance in older adults with possible，confirmed or severe sarcopenia：a protocol for a systematic review[J]. BMJ Open，2024，14（10）：e086124. DOI：10.1136/bmjopen-2024-086124.
+
+ZHAO Y L，ZHANG Y X，HAO Q K，et al. Sarcopenia and hospital-related outcomes in the old people：a systematic review and meta-analysis[J]. Aging Clin Exp Res，2019，31（1）：5-14. DOI：10.1007/s40520-018-0931-z.
+
+BEAUDART C，DEMONCEAU C，REGINSTER J Y，et al. Sarcopenia and health-related quality of life：a systematic review and meta-analysis[J]. J Cachexia Sarcopenia Muscle，2023，14（3）：1228-1243. DOI：10.1002/jcsm.13243.
+
+孔洁，李树铁，黄攀登，等. 中国老年居民肌肉减少症与全因死亡率的关联实证分析[J/OL]. 上海预防医学，2025. （2025-01-07）[2025-05-20]. https://kns.cnki.net/kcms/detail/31.1635.R.20250107.1507.006.html.
+
+XU J，WAN C S，KTORIS K，et al. Sarcopenia is associated with mortality in adults：a systematic review and meta-analysis[J]. Gerontology，2022，68（4）：361-376. DOI：10.1159/000517099.
+
+CAMPOS P I C，DIZ J B M，LEOPOLDINO A A O，et al. Heart failure in patients with sarcopenia：systematic review and meta-analysis[J]. Ann Geriatr Med Res，2025. DOI：10.4235/agmr.24.0186.
+
+CHEN Y L，LIU P T，CHIANG H K，et al. Ultrasound measurement of rectus femoris muscle parameters for discriminating sarcopenia in community-dwelling adults[J]. J Ultrasound Med，2022，41（9）：2269-2277. DOI：10.1002/jum.15913.
+
+XU J Q，JIA S S，XIE R N，et al. Associations of nutritional intake and inflammatory factors with sarcopenia in community-dwelling older adults：a cross-sectional study[J]. Eur Geriatr Med，2025，16（1）：33-44. DOI：10.1007/s41999-024-01147-y.
+
+GAO Y J，HUANG Y L，AN R，et al. Risk factors for sarcopenia in community setting across the life course：a systematic review and a meta-analysis of longitudinal studies[J]. Arch Gerontol Geriatr，2025，133：105807. DOI：10.1016/j.archger.2025.105807.
+
+VANITCHAROENKUL E，UNNANUNTANA A，CHOTIYARNWONG P，et al. Sarcopenia in Thai community-dwelling older adults：a national，cross-sectional，epidemiological study of prevalence and risk factors[J]. BMC Public Health，2024，24（1）：311. DOI：10.1186/s12889-024-17804-7.
+
+KALRA S，SHAIKH I A，SHENDE S，et al. An Indian consensus on sarcopenia：epidemiology，etiology，clinical impact，screening，and therapeutic approaches[J]. Int J Gen Med，2025，18：1731-1745. DOI：10.2147/IJGM.S510412.
+
+BEAUDART C，ALCAZAR J，APRAHAMIAN I，et al. Health outcomes of sarcopenia：a consensus report by the outcome working group of the Global Leadership Initiative in Sarcopenia（GLIS）[J]. Aging Clin Exp Res，2025，37（1）：100. DOI：10.1007/s40520-025-02995-9.
+
+COLETTA G，PHILLIPS S M. An elusive consensus definition of sarcopenia impedes research and clinical treatment：a narrative review[J]. Ageing Res Rev，2023，86：101883. DOI：10.1016/j.arr.2023.101883.
+
+ZANKER J，SCOTT D，REIJNIERSE E M，et al. Establishing an operational definition of sarcopenia in Australia and New Zealand：Delphi method based consensus statement[J]. J Nutr Health Aging，2019，23（1）：105-110. DOI：10.1007/s12603-018-1113-6.
+
+KIRK B，CAWTHON P M，ARAI H，et al. The conceptual definition of sarcopenia：Delphi consensus from the global leadership initiative in sarcopenia（GLIS）[J]. Age Ageing，2024，53（3）：afae052. DOI：10.1093/ageing/afae052.
+
+肌少症膳食营养处方及运动干预中国专家共识工作组. 肌少症膳食营养处方及运动干预中国专家共识（2025）[J]. 营养学报，2025，47（1）：1-11. DOI：10.13325/j.cnki.acta.nutr.sin.2025.01.008.
+
+于普林，高超，周白瑜，等. 预防老年人肌少症核心信息中国专家共识（2021）[J]. 中华老年医学杂志，2021，40（8）：953-954. DOI：10.3760/cma.j.issn.0254-9026.2021.08.002.
+
+中华医学会老年医学分会，《中华老年医学杂志》编辑委员会. 老年人肌少症口服营养补充中国专家共识（2019）[J]. 中华老年医学杂志，2019，38（11）：1193-1197. DOI：10.3760/cma.j.issn.0254-9026.2019.11.001.
+
+崔华，王朝晖，吴剑卿，等. 老年人肌少症防控干预中国专家共识（2023）[J]. 中华老年医学杂志，2023，42（2）：144-153. DOI：10.3760/cma.j.issn.0254-9026.2023.02.002.
+
+中华医学会老年医学分会，国家老年疾病临床医学研究中心（湘雅医院）. 中国肌肉减少症诊疗指南（2024版）[J]. 中华医学杂志，2025，105（3）：181-203. DOI：10.3760/cma.j.cn112137-20240724-01701.
+
+李代萍，沈妍交，郝秋奎，等. 老年肌少症综合干预循证临床实践指南（患者版）[J]. 中国循证医学杂志，2024，24（8）：876-878. DOI：10.7507/1672-2531.202403090.
+
+沈妍交，郝秋奎，张蒙，等. 老年肌少症综合干预循证临床实践指南[J]. 中国循证医学杂志，2024，24（4）：378-384. DOI：10.7507/1672-2531.202306172.
+
+陈作兵，窦祖林，何成奇，等. 中国老年人肌少症临床康复治疗指南[J]. 加速康复外科杂志，2022，5（1）：1-7.
+
+LEWIS E G，HURST C，ERRINGTON L，et al. Perceptions of sarcopenia in patients，health and care professionals，and the public：a scoping review of studies from different countries[J]. Eur Geriatr Med，2025，16（1）：99-113. DOI：10.1007/s41999-024-01132-5.
+
+ROBERTS S，COLLINS P，RATTRAY M. Identifying and managing malnutrition，frailty and sarcopenia in the community：a narrative review[J]. Nutrients，2021，13（7）：2316. DOI：10.3390/nu13072316.
+
+World Health Organization. WHO handbook for guideline development，2nd Edition[EB/OL].（2014-12-18）[2025-04-29]. https://www.who.int/publications/i/item/9789241548960.
+
+CHEN Y L，YANG K H，MARUŠIC A，et al. A reporting tool for practice guidelines in health care：the RIGHT statement[J]. Ann Intern Med，2017，166（2）：128-132. DOI：10.7326/M16-1565.
+
+GUYATT G H，ALONSO-COELLO P，SCHÜNEMANN H J，et al. Guideline panels should seldom make good practice statements：guidance from the GRADE Working Group[J]. J Clin Epidemiol，2016，80：3-7. DOI：10.1016/j.jclinepi.2016.07.006.
+
+GAO Q Q，HU K Y，YAN C J，et al. Associated factors of sarcopenia in community-dwelling older adults：a systematic review and meta-analysis[J]. Nutrients，2021，13（12）：4291. DOI：10.3390/nu13124291.
+
+NUNES-PINTO M，BANDEIRA DE MELLO R G，PINTO M N，et al. Sarcopenia and the biological determinants of aging：a narrative review from a geroscience perspective[J]. Ageing Res Rev，2025，103：102587. DOI：10.1016/j.arr.2024.102587.
+
+GUILLAMÓN-ESCUDERO C，DIAGO-GALMÉS A，TENÍAS-BURILLO J M，et al. Prevalence of sarcopenia in community-dwelling older adults in Valencia，Spain[J]. Int J Environ Res Public Health，2020，17（23）：9130. DOI：10.3390/ijerph17239130.
+
+PEDAUYÉ-RUEDA B，GARCÍA-FERNÁNDEZ P，MAICAS-PÉREZ L，et al. Different diagnostic criteria for determining the prevalence of sarcopenia in older adults：a systematic review[J]. J Clin Med，2024，13（9）：2520. DOI：10.3390/jcm13092520.
+
+LI S L，XIE K Q，XIAO X X，et al. Correlation between sarcopenia and esophageal cancer：a narrative review[J]. World J Surg Oncol，2024，22（1）：27. DOI：10.1186/s12957-024-03304-w.
+
+CHEN X，HOU L，ZHANG Y，et al. Analysis of the prevalence of sarcopenia and its risk factors in the elderly in the Chengdu community[J]. J Nutr Health Aging，2021，25（5）：600-605. DOI：10.1007/s12603-020-1559-1.
+
+YANG L J，WANG M H，MO L Y，et al. The relationship between sarcopenia and related bioindicators and changes after intensive lifestyle intervention in elderly East-China populations[J]. BMC Musculoskelet Disord，2024，25（1）：704. DOI：10.1186/s12891-024-07835-x.
+
+WHAIKID P，PIASEU N. The prevalence and factors associated with sarcopenia in Thai older adults：a systematic review and meta-analysis[J]. Int J Nurs Sci，2023，11（1）：31-45. DOI：10.1016/j.ijnss.2023.11.002.
+
+MARZBAN ABBAS ABADI M，HOSSEINZADE D，KHALILIZAD M. Prevalence of，and factors associated with，sarcopenia in Iran：a systematic review and meta-analysis[J]. Front Nutr，2025，11：1457768. DOI：10.3389/fnut.2024.1457768.
+
+MO Y H，ZHOU Y X，CHAN H，et al. The association between sedentary behaviour and sarcopenia in older adults：a systematic review and meta-analysis[J]. BMC Geriatr，2023，23（1）：877. DOI：10.1186/s12877-023-04489-7.
+
+DIZ J B M，LEOPOLDINO A A O，MOREIRA B S，et al. Prevalence of sarcopenia in older brazilians：a systematic review and meta-analysis[J]. Geriatr Gerontol Int，2017，17（1）：5-16. DOI：10.1111/ggi.12720.
+
+MO Y H，CHEN L H，ZHOU Y X，et al. Sarcopenia interventions in long-term care facilities targeting sedentary behaviour and physical inactivity：a systematic review[J]. J Cachexia Sarcopenia Muscle，2024，15（6）：2208-2233. DOI：10.1002/jcsm.13576.
+
+LIU J，ZHU Y Z，TAN J K，et al. Factors associated with sarcopenia among elderly individuals residing in community and nursing home settings：a systematic review with a meta-analysis[J]. Nutrients，2023，15（20）：4335. DOI：10.3390/nu15204335.
+
+LI X Y，WANG R Y，HOU Z E，et al. Urban-rural differences in the prevalence and associated factors of sarcopenia：a systematic review and meta-analysis[J]. Arch Gerontol Geriatr，2024，122：105390. DOI：10.1016/j.archger.2024.105390.
+
+HERNANDEZ S G，FELDMAN S，PEREZ-ABALO M. Malnutrition，dysphagia，sarcopenia and weakness in the older population：a retrospective review to enlighten future directions for health system best practices[J]. Dysphagia，2024，39（3）：514-521. DOI：10.1007/s00455-023-10636-4.
+
+COELHO-JUNIOR H J，CALVANI R，AZZOLINO D，et al. Protein intake and sarcopenia in older adults：a systematic review and meta-analysis[J]. Int J Environ Res Public Health，2022，19（14）：8718. DOI：10.3390/ijerph19148718.
+
+KIM M，WON C W. Prevalence of sarcopenia in community-dwelling older adults using the definition of the European Working Group on Sarcopenia in Older People 2：findings from the Korean Frailty and Aging Cohort Study[J]. Age Ageing，2019，48（6）：910-916. DOI：10.1093/ageing/afz091.
+
+CRUZ-JENTOFT A J，BAEYENS J P，BAUER J M，et al. Sarcopenia：European consensus on definition and diagnosis：report of the European working group on sarcopenia in older people[J]. Age Ageing，2010，39（4）：412-423. DOI：10.1093/ageing/afq034.
+
+PHU S，VOGRIN S，ZANKER J，et al. Agreement between initial and revised European working group on sarcopenia in older people definitions[J]. J Am Med Dir Assoc，2019，20（3）：382-383.e1. DOI：10.1016/j.jamda.2018.11.026.
+
+CHEN L K，LIU L K，WOO J，et al. Sarcopenia in Asia：consensus report of the Asian working group for sarcopenia[J]. J Am Med Dir Assoc，2014，15（2）：95-101. DOI：10.1016/j.jamda.2013.11.025.
+
+CHEN L K，LEE W J，PENG L N，et al. Recent advances in sarcopenia research in Asia：2016 update from the Asian working group for sarcopenia[J]. J Am Med Dir Assoc，2016，17（8）：767.e1-767.e7. DOI：10.1016/j.jamda.2016.05.016.
+
+FIELDING R A，VELLAS B，EVANS W J，et al. Sarcopenia：an undiagnosed condition in older adults. current consensus definition：prevalence，etiology，and consequences. international working group on sarcopenia[J]. J Am Med Dir Assoc，2011，12（4）：249-256. DOI：10.1016/j.jamda.2011.01.003.
+
+MCLEAN R R，SHARDELL M D，ALLEY D E，et al. Criteria for clinically relevant weakness and low lean mass and their longitudinal association with incident mobility impairment and mortality：the foundation for the National Institutes of Health（FNIH）sarcopenia project[J]. J Gerontol A Biol Sci Med Sci，2014，69（5）：576-583. DOI：10.1093/gerona/glu012.
+
+KO C H，CHUANG H Y，WU S J，et al. Changes of sarcopenia case finding by different Asian Working Group for Sarcopenia in community indwelling middle-aged and old people[J]. Front Med，2022，9：1041186. DOI：10.3389/fmed.2022.1041186.
+
+ITO A，ISHIZAKA M，KOBAYASHI K，et al. Changes in the screening efficacy of lower calf circumference，SARC-F score，and SARC-CalF score following update from AWGS 2014 to 2019 sarcopenia diagnostic criteria in community-dwelling older adults[J]. J Phys Ther Sci，2021，33（3）：241-245. DOI：10.1589/jpts.33.241.
+
+ADULKASEM N，VANITCHAROENKUL E，CHOTIYARNWONG P，et al. Evaluation of the diagnosis accuracy of the AWGS 2019 criteria for "possible sarcopenia" in Thai community-dwelling older adults[J]. Clin Interv Aging，2025，20：425-433. DOI：10.2147/CIA.S513657.
+
+QIAN S Y，ZHANG S Q，LU M C，et al. The accuracy of screening tools for sarcopenia in older Chinese adults：a systematic review and meta-analysis[J]. Front Public Health，2024，12：1310383. DOI：10.3389/fpubh.2024.1310383.
+
+LIM J P，YEW S，TAY L，et al. Grip strength criterion matters：impact of average versus maximum handgrip strength on sarcopenia prevalence and predictive validity for low physical performance[J]. J Nutr Health Aging，2020，24（9）：1031-1035. DOI：10.1007/s12603-020-1461-x.
+
+YOSHIMURA Y，WAKABAYASHI H，NAGANO F，et al. Sex differences in sarcopenia prevalence and muscle-related outcomes among post-stroke inpatients[J]. Eur Geriatr Med，2025，16（3）：1071-1079. DOI：10.1007/s41999-025-01186-z.
+
+WEST E C，WILLIAMS L J，DAVIS J A，et al. Associations between sarcopenia and domains of quality of life in older adults：a population-based cross-sectional study[J]. Health Qual Life Outcomes，2025，23（1）：38. DOI：10.1186/s12955-025-02358-y.
+
+YOO J I，CHOI H，HA Y C. Mean hand grip strength and cut-off value for sarcopenia in Korean adults using KNHANES VI[J]. J Korean Med Sci，2017，32（5）：868-872. DOI：10.3346/jkms.2017.32.5.868.
+
+HUO Z Y，CHONG F F，LUO S Y，et al. Grip-Strength-Lean-Mass Index（GSLMI）as a valuable tool for sarcopenia diagnosis and survival prognosis in cancer patients：a nationwide multicenter cohort study[J]. J Nutr Health Aging，2025，29（1）：100409. DOI：10.1016/j.jnha.2024.100409.
+
+KIM H S，KIM S，KIM H，et al. Correlation between individual thigh muscle volume and grip strength in relation to sarcopenia with automated muscle segmentation[J]. PLoS One，2024，19（12）：e0312107. DOI：10.1371/journal.pone.0312107.
+
+AVANCINI L P，DA COSTA L F，DE SOUZA VIEIRA M，et al. Risk of sarcopenia identified by sarc-calf，nutritional status and hand grip strength in patients with hematological cancer[J]. Int J Hematol Oncol Stem Cell Res，2024，18（2）：147-155. DOI：10.18502/ijhoscr.v18i2.15370.
+
+LI Y H，WANG X H，YA S. Prevalence and diagnostic agreement of sarcopenia based on handgrip strength and 5-time chair-stand test among Chinese community-dwelling older adults[J]. Int J Older People Nurs，2024，19（5）：e12635. DOI：10.1111/opn.12635.
+
+CAWTHON P M. Assessment of lean mass and physical performance in sarcopenia[J]. J Clin Densitom，2015，18（4）：467-471. DOI：10.1016/j.jocd.2015.05.063.
+
+OH M H，SHIN H E，KIM K S，et al. Combinations of sarcopenia diagnostic criteria by Asian working group of sarcopenia（AWGS）2019 guideline and incident adverse health outcomes in community-dwelling older adults[J]. J Am Med Dir Assoc，2023，24（8）：1185-1192. DOI：10.1016/j.jamda.2023.04.005.
+
+TANGVORAPHONKCHAI K，HUNG R，SADEGHI-ALAVIJEH O，et al. Differences in prevalence of muscle weakness（sarcopenia）in haemodialysis patients determined by hand grip strength due to variation in guideline definitions of sarcopenia[J]. Nutr Clin Pract，2018，33（2）：255-260. DOI：10.1002/ncp.10003.
+
+ABRO A，DELICATA L A，VONGSANIM S，et al. Differences in the prevalence of sarcopenia in peritoneal dialysis patients using hand grip strength and appendicular lean mass：depends upon guideline definitions[J]. Eur J Clin Nutr，2018，72（7）：993-999. DOI：10.1038/s41430-018-0238-3.
+
+KOTLARCZYK M P，PERERA S，NACE D A，et al. Identifying sarcopenia in female long-term care residents：a comparison of current guidelines[J]. J Am Geriatr Soc，2018，66（2）：316-320. DOI：10.1111/jgs.15213.
+
+PETERMANN-ROCHA F，CHEN M H，GRAY S R，et al. New versus old guidelines for sarcopenia classification：What is the impact on prevalence and health outcomes?[J]. Age Ageing，2020，49（2）：300-304. DOI：10.1093/ageing/afz126.
+
+YANG Z Y，LI X X，SONG W，et al. Associations between meeting 24-h movement guidelines and sarcopenia risk among adults aged ≥ 55 years in five low- and middle-income countries[J]. Complement Ther Clin Pract，2024，57：101887. DOI：10.1016/j.ctcp.2024.101887.
+
+MONTEMURRO A，RUIZ-CÁRDENAS J D，MARTÍNEZ-GARCÍA M D M，et al. Consequences of applying the different criteria of the EWGSOP2 guideline for sarcopenia case-finding in Spanish community-dwelling older adults[J]. Arch Gerontol Geriatr，2023，109：104964. DOI：10.1016/j.archger.2023.104964.
+
+REIS J M S，ALVES L S，VOGT B P. According to revised EWGSOP sarcopenia consensus cut-off points，low physical function is associated with nutritional status and quality of life in maintenance hemodialysis patients[J]. J Ren Nutr，2022，32（4）：469-475. DOI：10.1053/j.jrn.2021.06.011.
+
+CHEN L K，WOO J，ASSANTACHAI P，et al. Asian working group for sarcopenia：2019 consensus update on sarcopenia diagnosis and treatment[J]. J Am Med Dir Assoc，2020，21（3）：300-307.e2. DOI：10.1016/j.jamda.2019.12.012.
+
+YANG M，HU X Y，XIE L L，et al. Screening sarcopenia in community-dwelling older adults：SARC-F vs SARC-F combined with calf circumference（SARC-CalF）[J]. J Am Med Dir Assoc，2018，19（3）：277.e1-277.e8. DOI：10.1016/j.jamda.2017.12.016.
+
+CHEN L K，MENG L C，PENG L N，et al. Mapping normative muscle health metrics across the aging continuum：a multinational study pooling data from eight cohorts in Japan，Malaysia and Taiwan[J]. J Cachexia Sarcopenia Muscle，2025，16（1）：e13731. DOI：10.1002/jcsm.13731.
+
+JIANG X M，XU X Y，DING L Y，et al. Preoperative low absolute and relative handgrip strength as predictors of postoperative short-term outcomes：a prospective study based on patients aged 60 years and older with gastric cancer[J]. Eur Geriatr Med，2023，14（2）：251-262. DOI：10.1007/s41999-023-00768-z.
+
+TOBE A，TANAKA A，SHIRAI Y，et al. Impact of handgrip strength on clinical outcomes after percutaneous coronary intervention[J]. J Atheroscler Thromb，2023，30（9）：1115-1122. DOI：10.5551/jat.63854.
+
+ZHANG X M，JIAO J，ZHU C，et al. Association between low handgrip strength and 90-day mortality among older Chinese inpatients：a national multicenter prospective cohort study[J]. Front Nutr，2021，8：628628. DOI：10.3389/fnut.2021.628628.
+
+SEGURA-DUARTE A A，MÉNDEZ-SUÁREZ G，BURGOS-MORELOS L P，et al. Concordance of grip strength measurement between a digital handheld dynamometer and a Hydraulic dynamometer[J]. Gac Med Mex，2024，160（3）：308-312. DOI：10.24875/GMM.24000109.
+
+GUERRA R S，AMARAL T F，SOUSA A S，et al. Comparison of jamar and bodygrip dynamometers for handgrip strength measurement[J]. J Strength Cond Res，2017，31（7）：1931-1940. DOI：10.1519/JSC.0000000000001666.
+
+ÁLVAREZ-BUSTOS A，CARNICERO J A，COELHO-JUNIOR H J，et al. Diagnostic and prognostic value of calf circumference for sarcopenia in community-dwelling older adults[J]. J Nutr Health Aging，2024，28（8）：100290. DOI：10.1016/j.jnha.2024.100290.
+
+BAHAT G，OREN M M，YILMAZ O，et al. Comparing SARC-F with SARC-CalF to screen sarcopenia in community living older adults[J]. J Nutr Health Aging，2018，22（9）：1034-1038. DOI：10.1007/s12603-018-1072-y.
+
+ZHANG J，WANG N，LI J T，et al. The diagnostic accuracy and cutoff value of phase angle for screening sarcopenia：a systematic review and meta-analysis[J]. J Am Med Dir Assoc，2024，25（11）：105283. DOI：10.1016/j.jamda.2024.105283.
+
+ANG S W，LIEW J，DHARMARATNAM V M，et al. Diagnostic performance of various radiological modalities in the detection of sarcopenia within Asian populations：a systematic review[J]. Ann Coloproctol，2025，41（1）：27-39. DOI：10.3393/ac.2024.00080.0011.
+
+YANG F X，ZHU L F，CAO B，et al. Accuracy of ultrasound measurements of muscle thickness in identifying older patients with sarcopenia and its impact on frailty：a systematic review and meta-analysis[J]. J Am Med Dir Assoc，2025，26（2）：105419. DOI：10.1016/j.jamda.2024.105419.
+
+MUÑOZ-REDONDO E，MORGADO-PÉREZ A，PÉREZ-SÁEZ M J，et al. New perspectives on frailty in light of the Global Leadership Initiative on Malnutrition，the Global Leadership Initiative on Sarcopenia，and the WHO's concept of intrinsic capacity：a narrative review[J]. Maturitas，2023，177：107799. DOI：10.1016/j.maturitas.2023.107799.
+
+WOODS J L，IULIANO-BURNS S，KING S J，et al. Poor physical function in elderly women in low-level aged care is related to muscle strength rather than to measures of sarcopenia[J]. Clin Interv Aging，2011，6：67-76. DOI：10.2147/CIA.S16979.
+
+WANG B S，HE S L，NONG C Y，et al. Preliminary study on nutritional and exercise strategies to prevent and reverse sarcopenia in aging：an open-label single-arm trial[J]. Asia Pac J Clin Nutr，2025，34（1）：249-261. DOI：10.6133/apjcn.202504_34(2).0012.
+
+WU L C，KAO H H，CHEN H J，et al. Preliminary screening for sarcopenia and related risk factors among the elderly[J]. Medicine，2021，100（19）：e25946. DOI：10.1097/MD.0000000000025946.
+
+YOSHIDA K，HAMAGUCHI T，MASUDA K，et al. Empowering physical functions in older women with sarcopenia through Aomori gymnastics：a prospective，observational，nested case-control study in Aomori prefecture[J]. Cureus，2025，17（3）：e79988. DOI：10.7759/cureus.79988.
+
+LI Y H，WANG X H，YA S，et al. The optimal cut-off value of five-time chair stand test for assessing sarcopenia among Chinese community-dwelling older adults[J]. J Cachexia Sarcopenia Muscle，2024，15（2）：756-764. DOI：10.1002/jcsm.13441.
+
+CHEN L K，WOO J，ARAI H. Asian working group for sarcopenia response to the emphasis on anterior thigh muscle mass in sarcopenia diagnosis[J]. J Am Med Dir Assoc，2020，21（8）：1174-1175. DOI：10.1016/j.jamda.2020.04.002.
+
+LEE S Y，CHOO P L，PANG B W J，et al. SPPB reference values and performance in assessing sarcopenia in community-dwelling Singaporeans - Yishun study[J]. BMC Geriatr，2021，21（1）：213. DOI：10.1186/s12877-021-02147-4.
+
+PHU S，KIRK B，BANI HASSAN E，et al. The diagnostic value of the short physical performance battery for sarcopenia[J]. BMC Geriatr，2020，20（1）：242. DOI：10.1186/s12877-020-01642-4.
+
+王鑫，娜日松，史萌萌，等. 基于亚洲肌肉减少症工作组专家共识的4种筛查工具对中国老年人肌肉减少症的诊断价值[J]. 实用临床医药杂志，2023，27（21）：1-6，12. DOI：10.7619/jcmp.20232515.
+
+KRZYMIŃSKA-SIEMASZKO R，TOBIS S，LEWANDOWICZ M，et al. Comparison of four sarcopenia screening questionnaires in community-dwelling older adults from Poland using six sets of international diagnostic criteria of sarcopenia[J]. PLoS One，2020，15（4）：e0231847. DOI：10.1371/journal.pone.0231847.
+
+LEWIS E G，HURST C，ERRINGTON L，et al. Perceptions of sarcopenia in patients，health and care professionals，and the public：a scoping review of studies from different countries[J]. Eur Geriatr Med，2025，16（1）：99-113. DOI：10.1007/s41999-024-01132-5.
+
+XU J Q，JIA S S，XIE R N，et al. Associations of nutritional intake and inflammatory factors with sarcopenia in community-dwelling older adults：a cross-sectional study[J]. Eur Geriatr Med，2025，16（1）：33-44. DOI：10.1007/s41999-024-01147-y.
+
+ZHANG Y，GUO J Y，WANG F，et al. Start with muscle mass or muscle strength in diagnosis and management of sarcopenia? A systematic review of guidance documents[J]. Asia Pac J Clin Nutr，2024，33（2）：247-271. DOI：10.6133/apjcn.202406_33(2).0011.
+
+XIE W Q，XIAO G L，HU P W，et al. Possible sarcopenia：early screening and intervention-narrative review[J]. Ann Palliat Med，2020，9（6）：4283-4293. DOI：10.21037/apm-20-967.
+
+FÁBREGA-CUADROS R，HITA-CONTRERAS F，MARTÍNEZ-AMAT A，et al. Associations between the severity of sarcopenia and health-related quality of life in community-dwelling middle-aged and older adults[J]. Int J Environ Res Public Health，2021，18（15）：8026. DOI：10.3390/ijerph18158026.
+
+STEFFL M，BOHANNON R W，SONTAKOVA L，et al. Relationship between sarcopenia and physical activity in older people：a systematic review and meta-analysis[J]. Clin Interv Aging，2017，12：835-845. DOI：10.2147/CIA.S132940.
+
+LEE S Y，TUNG H H，LIU C Y，et al. Physical activity and sarcopenia in the geriatric population：a systematic review[J]. J Am Med Dir Assoc，2018，19（5）：378-383. DOI：10.1016/j.jamda.2018.02.003.
+
+ZENG Y X，HE X F，PENG X C，et al. Combined nutrition with exercise：fueling the fight against sarcopenia through a bibliometric analysis and review[J]. Int J Gen Med，2024，17：1861-1876. DOI：10.2147/IJGM.S462594.
+
+SHEN Y J，SHI Q Y，NONG K L，et al. Exercise for sarcopenia in older people：a systematic review and network meta-analysis[J]. J Cachexia Sarcopenia Muscle，2023，14（3）：1199-1211. DOI：10.1002/jcsm.13225.
+
+THORNTON M，SIM M，KENNEDY M A，et al. Nutrition interventions on muscle-related components of sarcopenia in females：a systematic review of randomized controlled trials[J]. Calcif Tissue Int，2024，114（1）：38-52. DOI：10.1007/s00223-023-01157-1.
+
+VAN DRONKELAAR C，FULTINGA M，HUMMEL M，et al. Minerals and sarcopenia in older adults：an updated systematic review[J]. J Am Med Dir Assoc，2023，24（8）：1163-1172. DOI：10.1016/j.jamda.2023.05.017.
+
+YOSHIMURA Y，MATSUMOTO A，INOUE T，et al. Protein supplementation alone or combined with exercise for sarcopenia and physical frailty：a systematic review and meta-analysis of randomized controlled trials[J]. Arch Gerontol Geriatr，2025，131：105783. DOI：10.1016/j.archger.2025.105783.
+
+PARK S H，LEE H. Effectiveness of combined exercise and nutrition interventions in preventing and improving sarcopenia in frail or healthy older adults：a systematic review[J]. Res Gerontol Nurs，2023，16（6）：312-320. DOI：10.3928/19404921-20230817-03.
+
+WHAIKID P，PIASEU N. The effectiveness of protein supplementation combined with resistance exercise programs among community-dwelling older adults with sarcopenia：a systematic review and meta-analysis[J]. Epidemiol Health，2024，46：e2024030. DOI：10.4178/epih.e2024030.
+
+RIOS-ESCALANTE V，PEREZ-BARBA J C，ESPINEL-BERMUDEZ M C，et al. Effects of a multicomponent preventive intervention in women at risk of sarcopenia：a pilot study[J]. Healthcare，2024，12（12）：1191. DOI：10.3390/healthcare12121191.
+
+PAN D，YANG L G，YANG X，et al. Potential nutritional strategies to prevent and reverse sarcopenia in aging process：Role of fish oil-derived ω-3 polyunsaturated fatty acids，wheat oligopeptide and their combined intervention[J]. J Adv Res，2024，57：77-91. DOI：10.1016/j.jare.2023.04.005.
+
+ALORFI N M，ALSHEHRI F S，ASHOUR A M. Therapeutics for sarcopenia and functional disabilities in older adults：a review of phase 4 clinical trials[J]. Drug Des Devel Ther，2025，19：2307-2314. DOI：10.2147/DDDT.S507033.
+
+ZHANG Y J，LIU K Q，ZHAN Y F，et al. Impact of Chinese herbal medicine on sarcopenia in enhancing muscle mass，strength，and function：a systematic review and meta-analysis of randomized controlled trials[J]. Phytother Res，2024，38（5）：2303-2322. DOI：10.1002/ptr.8154.
+
+XUE J X，HAN X，ZHENG Y，et al. Effectiveness of resistance training in modulating inflammatory biomarkers among Asian patients with sarcopenia：a systematic review and meta-analysis of randomized controlled trials[J]. Front Immunol，2024，15：1385902. DOI：10.3389/fimmu.2024.1385902.
+
+SONG S，KIM G，KIM H. A systematic review and meta-analysis of exercise beneficial for locomotion in community-dwelling elderly people with sarcopenia[J]. J Funct Morphol Kinesiol，2023，8（3）：92. DOI：10.3390/jfmk8030092.
+
+CHIEN S Y，WANG T H，TZENG Y L，et al. Time allocation to physical activity and sedentary behaviour and its impact on sarcopenia risk：a systematic review and meta-analysis[J]. J Adv Nurs，2025. DOI：10.1111/jan.16781.
+
+WU S，NAN J H，CHANG J，et al. Adherence to exercise intervention for community-dwelling older adults with sarcopenia：a systematic review and meta-analysis[J]. Age Ageing，2025，54（4）：afaf094. DOI：10.1093/ageing/afaf094.
+
+SÁNCHEZ-SÁNCHEZ J L，HE L X，MORALES J S，et al. Association of physical behaviours with sarcopenia in older adults：a systematic review and meta-analysis of observational studies[J]. Lancet Healthy Longev，2024，5（2）：e108-e119. DOI：10.1016/S2666-7568(23)00241-6.
+
+HERNÁNDEZ-ÁLVAREZ D，ROSADO-PÉREZ J，GAVIA-GARCÍA G，et al. Aging，physical exercise，telomeres，and sarcopenia：a narrative review[J]. Biomedicines，2023，11（2）：598. DOI：10.3390/biomedicines11020598.
+
+HAYES L D，ELLIOTT B T，YASAR Z，et al. High intensity interval training（HIIT）as a potential countermeasure for phenotypic characteristics of sarcopenia：a scoping review[J]. Front Physiol，2021，12：715044. DOI：10.3389/fphys.2021.715044.
+
+WAN R H，HUANG J，WANG K L，et al. Effectiveness of mind-body exercise in older adults with sarcopenia and frailty：a systematic review and meta-analysis[J]. J Cachexia Sarcopenia Muscle，2025，16（2）：e13806. DOI：10.1002/jcsm.13806.
+
+ESCRICHE-ESCUDER A，FUENTES-ABOLAFIO I J，ROLDÁN-JIMÉNEZ C，et al. Effects of exercise on muscle mass，strength，and physical performance in older adults with sarcopenia：a systematic review and meta-analysis according to the EWGSOP criteria[J]. Exp Gerontol，2021，151：111420. DOI：10.1016/j.exger.2021.111420.
+
+GARCÍA-LLORENTE A M，CASIMIRO-ANDÚJAR A J，LINHARES D G，et al. Multidomain interventions for sarcopenia and cognitive flexibility in older adults for promoting healthy aging：a systematic review and meta-analysis of randomized controlled trials[J]. Aging Clin Exp Res，2024，36（1）：47. DOI：10.1007/s40520-024-02700-2.
+
+FU Z Y，WANG Y J，ZHAO L，et al. Seeking optimal non-pharmacological interventions for sarcopenia：a systematic review and network meta-analysis[J]. Aging Clin Exp Res，2025，37（1）：24. DOI：10.1007/s40520-024-02920-6.
+
+WANG X X，WANG L J，WU Y，et al. Effect of different exercise interventions on grip strength，knee extensor strength，appendicular skeletal muscle index，and skeletal muscle index strength in patients with sarcopenia：a meta-analysis of randomized controlled trials[J]. Diseases，2024，12（4）：71. DOI：10.3390/diseases12040071.
+
+FERREIRA L F，SCARIOT E L，DA ROSA L H T. The effect of different exercise programs on sarcopenia criteria in older people：a systematic review of systematic reviews with meta-analysis[J]. Arch Gerontol Geriatr，2023，105：104868. DOI：10.1016/j.archger.2022.104868.
+
+RODRIGUES F，DOMINGOS C，MONTEIRO D，et al. A review on aging，sarcopenia，falls，and resistance training in community-dwelling older adults[J]. Int J Environ Res Public Health，2022，19（2）：874. DOI：10.3390/ijerph19020874.
+
+PROKOPIDIS K，TESTA G D，GIANNAKI C D，et al. Prognostic and associative significance of malnutrition in sarcopenia：a systematic review and meta-analysis[J]. Adv Nutr，2025，16（5）：100428. DOI：10.1016/j.advnut.2025.100428.
+
+FERREIRA L F，RODA CARDOSO J，TELLES DA ROSA L H. Effects of different nutrition interventions on sarcopenia criteria in older people：a study protocol for a systematic review of systematic reviews with meta-analysis[J]. PLoS One，2024，19（5）：e0302843. DOI：10.1371/journal.pone.0302843.
+
+KAMIŃSKA M S，RACHUBIŃSKA K，GROCHANS S，et al. The impact of whey protein supplementation on sarcopenia progression among the elderly：a systematic review and meta-analysis[J]. Nutrients，2023，15（9）：2039. DOI：10.3390/nu15092039.
+
+BIRD J K，TROESCH B，WARNKE I，et al. The effect of long chain omega-3 polyunsaturated fatty acids on muscle mass and function in sarcopenia：a scoping systematic review and meta-analysis[J]. Clin Nutr ESPEN，2021，46：73-86. DOI：10.1016/j.clnesp.2021.10.011.
+
+JAYAWARDENA T U，KIM S Y，JEON Y J. Sarcopenia; functional concerns，molecular mechanisms involved，and seafood as a nutritional intervention - review article[J]. Crit Rev Food Sci Nutr，2023，63（14）：1983-2003. DOI：10.1080/10408398.2021.1969889.
+
+CELIS A，CÁCERES B，ESCOBAR B，et al. Impact of oral health interventions on sarcopenia and frailty in older adults：a systematic review[J]. J Clin Med，2025，14（6）：1991. DOI：10.3390/jcm14061991.
+
+HERNÁNDEZ-LEPE M A，MIRANDA-GIL M I，VALBUENA-GREGORIO E，et al. Exercise programs combined with diet supplementation improve body composition and physical function in older adults with sarcopenia：a systematic review[J]. Nutrients，2023，15（8）：1998. DOI：10.3390/nu15081998.
+
+COCHET C，BELLONI G，BUONDONNO I，et al. The role of nutrition in the treatment of sarcopenia in old patients：from restoration of mitochondrial activity to improvement of muscle performance，a systematic review[J]. Nutrients，2023，15（17）：3703. DOI：10.3390/nu15173703.
+
+WIDAJANTI N，HADI U，SOELISTIJO S A，et al. The effect of vitamin D supplementation to parameter of sarcopenia in elderly people：a systematic review and meta-analysis[J]. Can Geriatr J，2024，27（1）：63-75. DOI：10.5770/cgj.27.694.
+
+上海市抗癌协会肿瘤营养与支持治疗专业委员会，余鼎业，余震. 肌肉减少症规范化筛查、评估、诊断、治疗和监测技术标准[J]. 肿瘤代谢与营养电子杂志，2024，11（6）：782-789. DOI：10.16689/j.cnki.cn11-9349/r.2024.06.007.
+
+VAN EXTER S H，KOENDERS N，VAN DER WEES P J，et al. Lessons learned from a combined，personalized lifestyle intervention in hospitalized patients at risk for sarcopenia：a feasibility study[J]. Disabil Rehabil，2025，47（14）：3679-3686. DOI：10.1080/09638288.2024.2426685.
+
+BRUYÈRE O，REGINSTER J Y，BEAUDART C. Lifestyle approaches to prevent and retard sarcopenia：a narrative review[J]. Maturitas，2022，161：44-48. DOI：10.1016/j.maturitas.2022.02.004.
+
+RAMADAS A，LAW H H，KRISHNAMOORTHY R，et al. Diet quality and measures of sarcopenia in developing economies：a systematic review[J]. Nutrients，2022，14（4）：868. DOI：10.3390/nu14040868.
+
+MAKIZAKO H，SHIRATSUCHI D，AKAIDA S，et al. Effects of digital-based interventions on the outcomes of the eligibility criteria for sarcopenia in healthy older adults：a systematic review and meta-analysis[J]. Ageing Res Rev，2025，104：102663. DOI：10.1016/j.arr.2025.102663.
+
+SHI Y，STANMORE E，MCGARRIGLE L，et al. Development of a community intervention combining social media-based health education plus exercise programme（SHEEP）to improve muscle function among young-old adults with possible sarcopenia：co-design approach[J]. Maturitas，2024，186：108027. DOI：10.1016/j.maturitas.2024.108027.
+
+SHI Y，STANMORE E，MCGARRIGLE L，et al. Social-media based Health Education plus Exercise Programme（SHEEP）to improve muscle function among community-dwelling young-old adults with possible sarcopenia in China：a study protocol for intervention development[J]. PLoS One，2024，19（3）：e0286490. DOI：10.1371/journal.pone.0286490.

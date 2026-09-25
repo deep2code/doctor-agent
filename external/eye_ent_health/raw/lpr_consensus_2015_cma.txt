@@ -1,0 +1,130 @@
+SOURCE: 咽喉反流性疾病诊断与治疗专家共识(2015年) | 中华耳鼻咽喉头颈外科杂志编辑委员会咽喉组、中华医学会耳鼻咽喉头颈外科学分会咽喉学组 | 2016 | https://seleguide.yiigle.com/uploads/guide_html/%E5%92%BD%E5%96%89%E5%8F%8D%E6%B5%81%E6%80%A7%E7%96%BE%E7%97%85%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282015%E5%B9%B4%29.html
+
+咽喉反流性疾病诊断与治疗专家共识(2015年)
+中华耳鼻咽喉头颈外科杂志编辑委员会咽喉组
+中华医学会耳鼻咽喉头颈外科学分会咽喉学组
+中华耳鼻咽喉头颈外科杂志, 2016,51(5) : 324-326. DOI: 10.3760/cma.j.issn.1673-0860.2016.05.002
+咽喉反流与许多耳鼻咽喉头颈外科疾病密切相关，其引起的咽喉反流性疾病(laryngopharyngeal reflux disease，LPRD)症状和体征无特异性，国内外仍缺乏统一的诊断和治疗标准，在临床诊疗过程中存在认识不足或过度诊断、治疗不规范等情况。为此，国内咽喉科专家参考国内外诊疗文献，共同讨论制订本专家共识，目的是规范LPRD的诊断和治疗，为制订《咽喉反流性疾病的诊断与治疗指南》奠定基础。
+一、定义
+LPRD是指胃内容物反流至食管上括约肌以上部位，引起一系列症状和体征的总称。临床表现为咽喉部异物感、持续清嗓、声嘶、发音疲劳、咽喉疼痛、慢性咳嗽、呼吸困难、喉痉挛、哮喘等症状，以及声带后连合区域黏膜增生、肥厚，声带弥漫性充血、水肿，严重时出现肉芽肿、喉室消失、声门下狭窄等喉部体征[1,2,3]。
+咽喉反流(laryngopharyngeal reflux)是指胃内容物反流至食管上括约肌以上部位(包括鼻腔、口腔、咽、喉、气管、肺等)的现象[1]。
+二、诊断依据
+通过详细地询问病史和喉镜检查，对照反流症状指数评分量表(reflux symptom index, RSI)和反流体征评分量表(reflux finding score, RFS)可作出初步诊断(图1，图2)。若RSI>13分和/或RFS>7分，可诊断为疑似LPRD。这些患者可以进行至少8周的质子泵抑制剂(proton pump inhibitor，PPI)治疗，如有效可以确诊[4,5,6,7]。
+图1
+反流症状指数评分量表
+图1
+反流症状指数评分量表
+图2
+反流体征评分量表
+图2
+反流体征评分量表
+24 h喉咽食管pH(或阻抗-pH)监测和咽部pH监测(DX-pH)是目前客观诊断手段[8,9,10,11,12,13]。
+24 h喉咽食管pH(或阻抗-pH)监测诊断指标[8,9,10]：24 h咽喉酸反流事件≥3次或喉咽部pH值<4总时间≥1%或24 h内喉咽反流面积指数(reflux area index，RAI)>6.3即可诊断。
+咽部pH监测(DX-pH)诊断指标[11,12,13]：直立位时Ryan指数>9.41和/或卧位时>6.79即可诊断。
+胃镜检查对LPRD的诊断和鉴别诊断有帮助。食管测压有助于查找LPRD的致病原因，对诊断和治疗有一定指导作用。
+三、治疗原则
+(一)一般治疗
+改变不良生活方式和饮食习惯[14,15,16]。
+(二)内科治疗
+抑酸治疗是最常用的内科治疗方法。目前首选药物为PPI,其他药物包括H2受体阻滞剂、促胃肠动力剂、胃黏膜保护剂等。
+1．质子泵抑制剂：
+推荐的治疗方案如下[17,18,19,20,21,22]：(1)PPI给药剂量与时间：PPI标准剂量，每天2次，饭前30～60 min服用，症状消失后逐渐减量至停药。(2)用于诊断性治疗的患者，PPI建议至少应用8周，8周后评估治疗效果，有效者可以确诊并继续用药，无效者建议行24 h喉咽食管pH监测等检查，进一步明确诊断或除外诊断。(3)对疗效不佳者，关注患者用药依从性，优化PPI使用(包括增加剂量或更换PPI)。
+2．促胃肠动力药：
+必要时加用促胃肠动力剂[23]。
+3．H2受体阻滞剂：
+用于不能耐受或不适合PPI治疗的患者，或用于维持治疗。必要时睡前可加用一次H2受体阻滞剂[24,25]。
+(三)外科治疗
+如果积极内科药物治疗有效，但停药后反复复发的患者，或因酸反流所致危及患者生命的并发症持续存在时，可考虑行增加食管下括约肌张力的外科治疗[26,27,28,29]。
+四、疗效评估
+治疗中、治疗后可以随时评估疗效，症状好转程度用视觉模拟评分法(visual analogue scale，VAS)评分。
+显效：症状基本消失，RSI≤13分。
+有效：症状改善50%以上，RSI降低，但仍>13分。
+无效：症状无好转，RSI无降低。
+本共识推荐的LPRD简易诊疗流程见图3。
+图3
+咽喉反流性疾病诊疗流程图注：LPRD：咽喉反流性疾病；RSI：反流症状指数评分；RFS：反流体征评分；PPI：质子泵抑制剂；MII-pH监测：多通道腔内阻抗-pH监测
+图3
+咽喉反流性疾病诊疗流程图注：LPRD：咽喉反流性疾病；RSI：反流症状指数评分；RFS：反流体征评分；PPI：质子泵抑制剂；MII-pH监测：多通道腔内阻抗-pH监测
+执笔起草专家：
+李进让肖水芳李湘平吕秋萍闫燕张立红
+参与讨论专家(按姓氏拼音排序)：
+柴丽萍陈世彩崔鹏程葛平江黄冬雁林志宏鲁宏华
+石力苏纪平王剑王丽萍肖旭平徐文叶京英
+易红良于萍张华(女) 张庆泉张亚梅郑宏良
+庄佩耘邹剑
+参考文献
+[1]
+KoufmanJA. Laryngopharyngeal reflux 2002: a new paradigm of airway disease[J]. Ear Nose Throat J, 2002, 81( 9 Suppl 2): 2- 6.
+[2]
+CohenJT, BachKK, PostmaGN, et al. Clinical manifestations of laryngopharyngeal reflux[J]. Ear Nose Throat J, 2002, 81( 9 Suppl 2): 19- 23.
+[3]
+HomC, VaeziMF. Extra-esophageal manifestations of gastroesophageal reflux disease: diagnosis and treatment[J]. Drugs, 2013, 73( 12): 1281- 1295. DOI:10.1007/s40265-013-0101-8.
+[4]
+BelafskyPC, PostmaGN, KoufmanJA. The validity and reliability of the reflux finding score (RFS)[J]. Laryngoscope, 2001, 111( 8): 1313- 1317.
+[5]
+BelafskyPC, PostmaGN, KoufmanJA. Validity and reliability of the reflux symptom index (RSI)[J]. J Voice, 2002, 16( 2): 274- 277.
+[6]
+郑杰元，张立红，李晶兢，等．咽喉反流症状指数量表中文版的信度及效度[J]．中华耳鼻咽喉头颈外科杂志，2012，47( 11)：894- 898. DOI:10.3760/cma.j.issn.1673-0860.2012.11.004.
+ZhengJY, ZhangLH, LiJJ, et al. Chinese version of the reflux symptom index was evaluated for reliability and validity[J]. Chin J Otorhinolaryngol Head Neck Surg, 2012, 47(11):894-898. DOI:10.3760/cma.j.issn.1673-0860.2012.11.004.
+[7]
+彭莉莉，李进让，张立红．三位不同职称喉科医师对咽喉反流体征评分量表的应用研究[J]．中华耳鼻咽喉头颈外科杂志，2013，48( 6)：461- 464. DOI:10.3760/cma.j.issn.1673-0860.2013.06.005.
+PengLL, LiJR, ZhangLH. Study on the consistency of reflux score evaluated by three different level of throat physicians[J]. Chin J Otorhinolaryngol Head Neck Surg, 2013, 48(6):461-464. DOI:10.3760/cma.j.issn.1673-0860.2013.06.005.
+[8]
+VincentDA Jr, GarrettJD, RadionoffSL, et al. The proximal probe in esophageal pH monitoring: development of a normative database[J]. J Voice, 2000, 14( 2): 247- 254.
+[9]
+PostmaGN, BelafskyPC, AvivJE, et al. Laryngopharyngeal reflux testing[J]. Ear Nose Throat J, 2002, 81( 9 Suppl 2): 14- 18.
+[10]
+ReichelO, IssingWJ. Impact of different pH thresholds for 24-hour dual probe pH monitoring in patients with suspected laryngopharyngeal reflux[J]. J Laryngol Otol, 2008, 122( 5): 485- 489.
+[11]
+SunG, MuddanaS, SlaughterJC, et al. A new pH catheter for laryngopharyngeal reflux: normal values[J]. Laryngoscope, 2009, 119( 8): 1639- 1643. DOI:10.1002/lary.20282.
+[12]
+WienerGJ, TsukashimaR, KellyC, et al. Oropharyngeal pH monitoring for the detection of liquid and aerosolized supraesophageal gastric reflux[J]. J Voice, 2009, 23( 4): 498- 504. DOI:10.1016/j.jvoice.2007.12.005.
+[13]
+VailatiC, MazzoleniG, BondiS, et al. Oropharyngeal pH monitoring for laryngopharyngeal reflux: is it a reliable test before therapy?[J]. J Voice, 2013, 27( 1): 84- 89. DOI:10.1016/j.jvoice.2012.08.006.
+[14]
+KoufmanJA. Low-acid diet for recalcitrant laryngopharyngeal reflux: therapeutic benefits and their implications[J]. Ann Otol Rhinol Laryngol, 2011, 120( 5): 281- 287.
+[15]
+ChappityP, KumarR, DekaRC, et al. Proton pump inhibitors versus solitary lifestyle modification in management of laryngopharyngeal reflux and evaluating who is at risk: Scenario in a developing country[J]. Clin Med Insights Ear Nose Throat, 2014, 7: 1- 5. DOI:10.4137/CMENT.S13799.
+[16]
+KoufmanJA, JohnstonN. Potential benefits of pH 8.8 alkaline drinking water as an adjunct in the treatment of reflux disease[J]. Ann Otol Rhinol Laryngol, 2012, 121( 7): 431- 434.
+[17]
+FordCN. Evaluation and management of laryngopharyngeal reflux[J]. JAMA, 2005, 294( 12): 1534- 1540.
+[18]
+NaikRD, VaeziMF. Extra-esophageal manifestations of GERD: who responds to GERD therapy?[J]. Curr Gastroenterol Rep, 2013, 15( 4): 318. DOI:10.1007/s11894-013-0318-4.
+[19]
+HomC, VaeziMF. Extra-esophageal manifestations of gastroesophageal reflux disease: diagnosis and treatment[J]. Drugs, 2013, 73( 12): 1281- 1295. DOI:10.1007/s40265-013-0101-8.
+[20]
+BoveMJ, RosenC. Diagnosis and management of laryngopharyngeal reflux disease[J]. Curr Opin Otolaryngol Head Neck Surg, 2006, 14( 3): 116- 123.
+[21]
+CelikM, ErcanI. Diagnosis and management of laryngopharyngeal reflux disease[J]. Curr Opin Otolaryngol Head Neck Surg, 2006, 14( 3): 150- 155.
+[22]
+PostmaGN, JohnsonLF, KoufmanJA. Treatment of laryngopharyngeal reflux[J]. Ear Nose Throat J, 2002, 81( 9 Suppl 2): 24- 26.
+[23]
+GlicksmanJT, MickPT, FungK, et al. Prokinetic agents and laryngopharyngeal reflux disease: a systematic review[J]. Laryngoscope, 2014, 124( 10): 2375- 2379. DOI:10.1002/lary.24738.
+[24]
+ParkW, HicksDM, KhandwalaF, et al. Laryngopharyngeal reflux: prospective cohort study evaluating optimal dose of proton-pump inhibitor therapy and pretherapy predictors of response[J]. Laryngoscope, 2005, 115( 7): 1230- 1238.
+[25]
+SatoK. Laryngopharyngeal reflux disease with nocturnal gastric acid breakthrough while on proton pump inhibitor therapy[J]. Eur Arch Otorhinolaryngol, 2006, 263( 12): 1121- 1126.
+[26]
+WestcottCJ, HopkinsMB, BachK, et al. Fundoplication for laryngopharyngeal reflux disease[J]. J Am Coll Surg, 2004, 199( 1): 23- 30.
+[27]
+CataniaRA, KavicSM, RothJS, et al. Laparoscopic Nissen fundoplication effectively relieves symptoms in patients with laryngopharyngeal reflux[J]. J Gastrointest Surg, 2007, 11( 12): 1579- 1587.
+[28]
+SalaE, SalminenP, SimbergS, et al. Laryngopharyngeal reflux disease treated with laparoscopic fundoplication[J]. Dig Dis Sci, 2008, 53( 9): 2397- 2404. DOI:10.1007/s10620-007-0169-7.
+[29]
+van der WesthuizenL, VonSJ, WilkersonBJ, et al. Impact of Nissen fundoplication on laryngopharyngeal reflux symptoms[J]. Am Surg, 2011, 77( 7): 878- 882.
+中华耳鼻咽喉头颈外科杂志编辑委员会咽喉组
+中华医学会耳鼻咽喉头颈外科学分会咽喉学组
+李静
+Experts consensus on diagnosis and treatment of laryngopharyngeal reflux disease(2015)
+Subspecialty Group of Laryngopharyngology, Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery, Subspecialty Group of Laryngopharyngology, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association
+Published 2016-05-07
+Cite as Chin J Otorhinolaryngol Head Neck Surg, 2016,51(5): 324-326. DOI: 10.3760/cma.j.issn.1673-0860.2016.05.002
+Subspecialty Group of Laryngopharyngology, Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery
+Subspecialty Group of Laryngopharyngology, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association
+图1
+反流症状指数评分量表
+图2
+反流体征评分量表
+图3
+咽喉反流性疾病诊疗流程图注：LPRD：咽喉反流性疾病；RSI：反流症状指数评分；RFS：反流体征评分；PPI：质子泵抑制剂；MII-pH监测：多通道腔内阻抗-pH监测

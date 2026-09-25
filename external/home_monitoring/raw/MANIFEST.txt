@@ -1,0 +1,25 @@
+# external/home_monitoring/raw/MANIFEST.txt
+# 居家自测（血压/血糖/体重腰围）与慢病随访周期 — 官方原文节选清单（本批次只取原文，未写条目JSON、未改代码、未跑make_gz/seed-knowledge/go test）
+# 格式: 文件名\t标题\t发布机构\t年份\tURL\t下载日期
+#
+home_bp_monitoring_2019_cnhal.txt	2019中国家庭血压监测指南	中国高血压联盟《家庭血压监测指南》委员会（中华高血压杂志2019,27(8):806-810）	2019	http://zhgxyzz.xml-journal.net/cn/article/pdf/preview/10.16439/j.cnki.1673-7245.2019.08.005.pdf	2026-09-24
+primary_care_hypertension_2025_ncchd.txt	国家基层高血压防治管理指南2025版	国家心血管病中心国家基本公共卫生服务项目基层高血压管理办公室、国家基层高血压管理专家委员会（中华心血管病杂志2025,53(9):977-991）	2025	https://33507512.s21i.faiusr.com/61/ABUIABA9GAAg8YS4ygYoxL-9lwI.pdf	2026-09-24
+primary_care_diabetes_2018_cma.txt	国家基层糖尿病防治管理指南（2018）	中华医学会糖尿病学分会、国家基层糖尿病防治管理办公室（中华内科杂志2018,57(12):885-893）	2018	https://www.cma.org.cn/module/download/downfile.jsp?classid=0&filename=244cfc3bb8bb4cef842158b62ec32ba6.pdf	2026-09-24
+diabetes_guideline_2024_cds.txt	中国糖尿病防治指南（2024版）	中华医学会糖尿病学分会（中华糖尿病杂志2025,17(1):16-109）	2024	https://www.huasan.net/wp-content/uploads/2025/10/%E4%B8%AD%E5%9B%BD%E7%B3%96%E5%B0%BF%E7%97%85%E9%98%B2%E6%B2%BB%E6%8C%87%E5%8D%97%EF%BC%882024%E7%89%88%EF%BC%89.pdf	2026-09-24
+glucometer_quality_ws781_2021_nhc.txt	便携式血糖仪临床操作和质量管理指南（WS/T 781—2021）	国家卫生健康委员会	2021	https://www.nhc.gov.cn/fzs/c100048/202105/481e639c307a4effa14957f4d0d738fd/files/1733125306422_83807.pdf	2026-09-24
+adult_weight_criteria_ws428_2013.txt	成人体重判定（WS/T 428—2013）	国家卫生和计划生育委员会（起草含中国疾控中心营养与食品安全所、新探健康发展研究中心）	2013	https://www.chinacdc.cn/jkyj/yyyjk2/jswj13949/201501/P020240905519516012465.pdf	2026-09-24
+anthropometry_ws424_2013.txt	人群健康监测人体测量方法（WS/T 424—2013）	卫生部（起草单位含中国疾病预防控制中心营养与食品安全所）	2013	https://www.chinacdc.cn/jkyj/yyyjk2/jswj13949/201501/P020240905519517137337.pdf	2026-09-24
+#
+# 原件PDF与整篇提取文本同存本目录：
+#   jiating_xueya_2019.pdf/.txt/_clean.txt        2019中国家庭血压监测指南（杂志官网PDF，有文字层）
+#   jiceng_hypertension_2025.pdf/.txt/_clean.txt  国家基层高血压防治管理指南2025版（中华医学会杂志社镜像PDF，有文字层）
+#   jiceng_tangniaobing_2018.pdf/_clean.txt       国家基层糖尿病防治管理指南2018（cma.org.cn官方PDF，有文字层）
+#   t2dm_prevention_2024.pdf/_full.txt/_clean.txt 中国糖尿病防治指南2024版（华山医院镜像PDF，有文字层）
+#   xuetangyi_quality_nhc2021.pdf/_full.txt       WS/T 781—2021（nhc.gov.cn官网附件PDF，有文字层）
+#   ws_t428_chengren_tizhong.pdf/ws_t428_ocr_raw.txt  WS/T 428—2013（chinacdc.cn附件，扫描件无文字层→本地OCR+逐页人工核对）
+#   ws_t424_renti_celiang.pdf/ws_t424_ocr_raw.txt      WS/T 424—2013（chinacdc.cn附件，扫描件无文字层→本地OCR+逐页人工核对）
+#
+# 取数备注：nhc.gov.cn 的 .shtml 正文页与 /ewebeditor/ 路径被WAF拦（412/404），只有 /fzs/.../files/*.pdf 附件直链可用；
+#   上海市疾控中心科普页 https://www.scdc.sh.cn/shjk/gxy-gfzn/20251031/11000.html 的PDF附件404，改用中华医学会杂志社镜像PDF（元数据含DOI/刊期，已核验）。
+# 未取到（如实报告）：WHO中文官网无"家庭血压监测/家用血糖自测"专门中文原文；国家疾控局/中疾控官网无对应原创科普全文；
+#   药监部门（NMPA）家用血糖仪科普未检索到满足白名单的原创全文；故本批次以"学会指南+国家卫健委行业标准+国家基层管理指南"覆盖。

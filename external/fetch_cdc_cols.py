@@ -30,10 +30,13 @@ COLUMNS = {
     "ggws":   ("公共卫生", "https://www.chinacdc.cn/jkkp/ggws/"),
     "fsws":   ("消毒", "https://www.chinacdc.cn/jkkp/fsws/"),
     "jkts":   ("健康提示", "https://www.chinacdc.cn/jkts/"),
+    "yckz":   ("烟草控制", "https://www.chinacdc.cn/jkkp/yckz/"),
+    "yyjk":   ("营养健康", "https://www.chinacdc.cn/jkkp/yyjk/"),
+    "zyjk":   ("职业健康", "https://www.chinacdc.cn/jkkp/zyjk/"),
 }
-PAGES_PER_COL = 3  # index_N.shtml 尝试页数
+PAGES_PER_COL = 20  # index_N.shtml 尝试页数
 
-ARTICLE_RE = re.compile(r'href="(\.{1,2}/(?:\d{6}/)?t\d+_\d+\.html)"')
+ARTICLE_RE = re.compile(r'href="((?:\.{1,2}/|/)?(?:[A-Za-z0-9_-]+/)*t\d{8}_\d+\.html)"')
 TITLE_RES = [
     re.compile(r"<h1[^>]*>(.*?)</h1>", re.S),
     re.compile(r'<meta name="ArticleTitle" content="([^"]{5,120})"'),
@@ -85,12 +88,10 @@ async def harvest_lists() -> dict[str, tuple[str, str, str]]:
                     break
                 html = await p.content()
                 arts = set()
+                from urllib.parse import urljoin
                 for rel in ARTICLE_RE.findall(html):
-                    parts = rel.replace("../", "").split("/")
-                    if len(parts) == 2:
-                        abs_url = base + parts[1]
-                    else:
-                        abs_url = base + "/".join(parts[1:] if parts[0] == "." else parts)
+                    abs_url = urljoin(url, rel.lstrip("./")) if not rel.startswith("/") \
+                        else "https://www.chinacdc.cn" + rel
                     arts.add(abs_url)
                 new = 0
                 for a in arts:
@@ -150,7 +151,20 @@ def main() -> int:
         time.sleep(0.4)
     print(f"新抓 {ok}, 已有 {skip}", file=sys.stderr)
 
-    # 转换: 全量 (新+旧) → corpus_cdc.json
+    # 索引: id -> URL -> 标题（正文 txt 内不含 URL，引用时要靠这份索引回查）
+    idx_path = OUT / "index.tsv"
+    with idx_path.open("w", encoding="utf-8") as fh:
+        fh.write("file\tdataset_id\ttitle\turl\n")
+        for out, url, slug, name in arts:
+            head = out.read_text(encoding="utf-8").split("\n", 1)[0].strip()
+            fh.write("%s\t%s\t%s\t%s\n" % (
+                out.relative_to(OUT), "cdc_kp-" + out.stem, head, url))
+    print(f"wrote {idx_path}", file=sys.stderr)
+
+    # 转换: 全量 (新+旧) → corpus_cdc.json（--no-convert 时只抓不转，供纯下载阶段使用）
+    if "--no-convert" in sys.argv:
+        print("--no-convert: 跳过 corpus_cdc.json 转换", file=sys.stderr)
+        return 0
     docs = []
     for out, url, slug, name in arts:
         text = out.read_text(encoding="utf-8")

@@ -1,0 +1,638 @@
+来源：白求恩·骨科加速康复联盟、白求恩公益基金会创伤骨科专业委员会／关节外科专业委员会等／骨科手术围手术期禁食禁饮管理指南（ERAS 相关）
+URL：https://cmab.yiigle.com/uploads/guide_html/骨科手术围手术期禁食禁饮管理指南.html
+发布时间：《中华创伤骨科杂志》2019, 21(10): 829-834（DOI 10.3760/cma.j.issn.1671-7600.2019.10.001）
+抓取方式：curl 下载中华医学会杂志社网络版全文 HTML + 标签剥离，自标题/作者组/期刊卷期行起逐字保留至指南末，去除站点分享按钮区
+
+骨科手术围手术期禁食禁饮管理指南 
+白求恩·骨科加速康复联盟 
+白求恩公益基金会创伤骨科专业委员会 
+白求恩公益基金会关节外科专业委员会 
+中国医疗保健国际交流促进会加速康复外科学分会创伤骨科学组 
+中华创伤骨科杂志, 2019,21(10) : 829-834. DOI: 10.3760/cma.j.issn.1671-7600.2019.10.001 
+近年来，加速康复外科（enhanced recovery after surgery, ERAS）理念在我国骨科领域发展迅速。饮食管理作为ERAS围手术期管理的一项重要内容，也受到越来越多医生的重视。为了进一步规范骨科手术围手术期禁食禁饮管理策略，特制定本指南。该指南在《创伤骨科围术期禁食水管理专家共识》的基础上修订并经专家组讨论形成，增加了儿童骨科手术以及急诊骨科手术禁食禁饮管理的内容，删除了术后体位的相关内容，并根据最新研究成果，对部分其他内容进行了修订[1]。本指南仅对骨科医护人员较为关心的围手术期不同类型食物的禁食时间进行了推荐，并未涉及非空腹患者麻醉技巧、减少吸入性肺炎的药物使用等内容。指南意在为骨科医护人员提供指导，并非作为诊疗标准使用，在使用本指南的过程中，需根据患者的具体情况进行个体化风险评估，切忌生搬硬套。
+一、指南制定流程
+依据中华医学会《制订/修订《临床诊疗指南》的基本方法及程序》制订该指南[2]。按照使用人群、干预措施、对照措施和结局的方式构建临床问题。由专家组系统检索相关临床问题证据。使用证据推荐分级的评估、制订与评价(GRADE)方法对证据的质量和推荐意见的强度分为以下4级：强烈推荐（干预措施获益远大于危害）、一般推荐(干预措施获益可能大于危害)、一般不推荐(干预措施获益与危害关系不明确或者危害可能大于获益)、强烈不推荐(干预措施危害远大于获益)[3]。同时在专家讨论会上对专家进行调查，得到基于专家观点的推荐意见（表1）。
+点击查看表格
+表1
+专家组推荐意见观点汇总
+表1
+专家组推荐意见观点汇总
+推荐意见
+调查人数
+强烈推荐人数
+一般推荐人数
+不推荐人数
+对于不同类型的液体、固体食物，骨科手术麻醉前建议禁食时间
+74
+60
+14
+0
+对无经口进食禁忌患者，推荐术前给予糖负荷，成人患者可于术前夜间、手术前2 h分别给予800 mL和400 mL含糖饮品。对有经口进食禁忌者，推荐经静脉给予糖负荷
+74
+47
+27
+0
+对于绝大多数骨科患者，术后一旦清醒即可进食清饮料，如无不良反应，1～2 h后即可进行正常饮食；一般术后第2天应停止静脉补液
+74
+48
+26
+0
+对非吸入性肺炎高风险患者，骨科急诊手术前的禁食禁饮时间要求同择期手术。对无法满足术前禁食禁饮时间要求或存在吸入性肺炎高风险的患者，急诊手术麻醉应按照饱腹状态处理
+74
+44
+28
+2
+二、术前禁食禁饮管理
+（一）术前禁食及禁饮时间
+手术前禁食禁饮的要求在医学发展史上几经变革。从最开始的均不禁食禁饮，到认识到术中发生误吸风险开始要求术前胃内不能有固体食物，术前2 h禁饮，再到要求术前1 d夜间开始禁食禁饮，最后到现在的管理理念[4]。这期间伴随着医学家认识和理念的转变。我国在西医迅速发展的时期，正好处于西方国家要求"在手术前1 d夜间即开始禁食禁饮"成为主流的时期，因此这种观点也被广大医务人员所接受，并一直影响至今[5]。而在实际工作中，由于手术患者的增多和手术台次的限制，接台手术不断增加，接台时间的不确定性使接台手术患者禁食、禁饮时间更长。过长的禁食禁饮时间会增加患者口渴、饥饿等不适感，甚至发生低血糖或脱水[6]。
+20世纪末期，随着国内外相关研究的开展与深入，新的禁食禁饮时间标准形成。学者们关注的焦点也从单纯的安全性转移到兼顾安全与患者舒适上。1999年美国麻醉医师协会（American Society of Anesthesiologists, ASA）将围手术期禁食禁饮指南修改为任何年龄患者术前2 h可以进饮不含酒精、含少许糖的透明液体，如清水、茶、咖啡、无渣果汁等；成人和儿童术前6 h可进易消化食物如面包、牛奶等，8 h可进固体食物。因为固体食物相对于液体而言胃排空时间更长，而对于丰盛的用餐可能需要更长的禁食时间[7]。
+2011年，欧洲麻醉医师协会也发表了成人以及儿童的术前禁食禁饮指南，推荐意见针对不同类型食物要求的禁食时间与ASA指南类似。不同的是，该指南认为在茶或黑咖啡中加入少量奶（不超过总量的1/5）仍可按照清饮料处理，可最短在术前2 h饮用。此外，该指南认为对于肥胖、胃食管返流、糖尿病和妊娠期患者同样可以遵守上述规定，因为没有足够证据表明此类患者胃排空时间会明显延迟。需要注意的是，此两点与ASA指南不同的推荐，循证医学证据均不高，推荐等级均较低[8]。
+2011年和2017年，ASA对该ASA指南进行了2次修订。比较来看，3版指南里对清饮、母乳、配方奶粉、牛奶等液体乳制品、淀粉类固体食物等禁食时间上没有大的变化，但伴随各自证据的研究数量大量增多，相应禁食时间的证据等级不断提高[9,10]。
+Lambert等[11]对2006~2012年国际上19项术前禁食禁饮指南进行了系统分析，得出了以下结论：①术前禁食禁饮时间应尽量缩短，从午夜开始让大多数患者禁食禁饮是没有必要的。患者可在麻醉开始前2 h饮用清饮料（高级别推荐）。②患者若在麻醉开始前即刻曾咀嚼口香糖、吮吸糖水或吸烟，不应取消或延迟手术（低级别推荐，值得更多研究）。
+在国内骨科领域，李庭等[12]对190例患者进行了前瞻性队列研究，结果证实术前2 h进食清饮料是安全的，无吸入性肺炎等并发症发生。而且有助于改善患者焦虑、口渴、饥饿等主观感受。
+值得注意的是，骨科手术绝大多数不涉及胃肠道，因此无需特殊的胃肠道准备，手术麻醉前禁食禁饮管理的目的重点在于：①减少胃内容物容量，防止胃酸pH值过低，避免出现围手术期胃内容物返流而导致的误吸；②防止脱水，维持血液动力学稳定；③防止低血糖；④防止过度禁食禁饮所致的饥饿、恶心呕吐及烦燥不安等不适[10]。
+在实际执行的过程中，医护人员应向患者宣教禁食、禁饮的原因，根据患者的实际情况（第一台手术还是接台手术）进行指导，关注患者实际发生的禁食、禁饮的时间，并且做好与手术医生、麻醉医生的沟通，尽量缩短患者的禁食、禁饮时间。同时应结合各科室患者的特点，根据手术实际开始时间和患者的生活习惯制定个体化的、明确的禁食禁饮时间，尽量使术前实际禁食禁饮时间与标准时间接近。对于不能按医嘱时间准时手术造成过度禁食禁饮的患者，可经静脉补充适量的水和葡萄糖。此外，由于骨科手术属于术后尿潴留低风险手术，对于持续时间较短的手术无需常规留置导尿管，由于患者术前2 h口服了饮品，应嘱患者术前排尿。
+（二）儿童术前禁食禁饮问题
+儿童作为一个特殊的群体，其围手术期发生吸入性肺炎的风险较成年人增加，但发生率仍非常低。大量证据表明，儿科患者术前2 h进食清饮料不会对胃容积和pH产生影响[13]。因此，上述推荐意见同样适用于儿童患者，缩短儿童术前禁食禁饮时间同样有助于改善患儿主观感受，且便于父母配合。目前关于母乳和配方奶粉的胃排空时间的研究很少，有限的证据表明，母乳的胃排空时间超过2 h，而配方奶粉由于成份的不同，所需胃排空时间也不同，但均比母乳时间长[14]。因此，目前各大国外指南和专家均推荐母乳的最短禁食时间为4 h，配方奶粉最短为6 h。
+推荐：对于不同类型的液体、固体食物，骨科手术麻醉前建议禁食时间见表2。（推荐等级：强烈推荐）
+点击查看表格
+表2
+不同类型的液体、固体食物，骨科手术麻醉前建议禁食时间
+表2
+不同类型的液体、固体食物，骨科手术麻醉前建议禁食时间
+食物种类
+最短禁食时间
+清饮料
+2h
+母乳
+4h
+婴儿配方奶粉
+6h
+牛奶等液体乳制品
+6h
+淀粉类固体食物
+6h
+油炸、脂肪及肉类食物
+可能需要更长时间，应该≥8 h
+对该推荐的几点说明：
+1．适用人群：
+上述推荐意见适用于在麻醉或镇静下接受择期手术的所有年龄段的健康患者。
+2．禁忌人群：
+①骨科急诊手术患者；②各种形式的胃肠道梗阻患者；③上消化道肿瘤患者；④病理性肥胖患者；⑤妊娠期女性患者；⑥胃食管返流及胃排空障碍患者；⑦糖尿病患者（视为相对禁忌）；⑧困难气道患者；⑨其他无法经口进食患者。
+3．清饮料：
+包括清水、糖水、无渣果汁、碳酸类饮料、清茶及黑咖啡（不加奶），但不包括含酒精类饮品。除了对饮料种类有限制以外，对饮料摄入的量也有要求，麻醉前2 h可饮用的清饮料量应≤5 mL/kg或总量≤400 mL。
+4．牛奶等乳制品：
+胃排空时间与固体食物相当。牛奶和配方奶粉的主要成分为牛或其他动物的乳汁，其中酪蛋白和饱和脂肪的含量较高，容易在胃内形成较大的乳块，不利于消化，其在胃内的排空时间明显长于母乳，因此牛奶和配方奶粉往往被视为固体类食物，需要更长的禁食时间。
+5．淀粉类固体食物：
+主要指面粉和谷类食物，如馒头、面包、面条、米饭等，其主要成分为碳水化合物，含有部分蛋白质，脂肪含量少。由于胃液内含有淀粉酶和蛋白酶，因此其在胃内的排空时间明显短于脂肪类食物，其中淀粉类食物的排空时间短于蛋白类食物。
+6．脂肪类固体食物：
+主要指肉类和油炸类食物，由于其脂肪和蛋白含量高，且胃内缺乏相应的消化酶，因此其在胃内的排空时间也较长。
+（三）术前葡萄糖预处理
+研究表明空腹状态会影响机体代谢水平，而仅在术前2 h口服清水对机体代谢水平并无明显影响，因为清水并不能提供能量，而术前口服含糖饮品可以达到改变患者代谢状态的目的[8]。能自主进食液体的患者，术前口服含糖饮品有助于改善患者的主观感受，减少口渴、饥饿、恶心、呕吐、焦虑等情况[15,16,17]；减少蛋白质丢失，改善体重减轻和肌肉功能受损情况[18]；改善围手术期代谢水平，减少炎症反应[19]；并且有心脏保护功能[20]。此外，Meta分析发现，术前口服含糖饮品还可以缩短住院时间[21,22]。对于含糖饮品是否有助于改善患者胰岛素抵抗，目前尚存在争议，尤其对于创伤骨科患者，术前患者已处于外伤的应激状态，其胰岛素分泌可能与正常患者不同。目前，已有研究表明含糖饮品能提高胰岛素敏感性，减少术后胰岛素抵抗，但仍有待进一步研究[21,23]。
+如果不能进食，以每分钟5 mg/kg的速度静脉输注葡萄糖也能达到类似的效果[24]。目前欧洲临床营养与代谢学会（ESPEN）指南推荐对多数择期手术的患者，术前口服含糖饮品，对于不能进食的患者，应通过静脉给予糖负荷[25]。
+术前口服的含糖饮品使用的是多糖，以麦芽糖糊精为主，市售含糖饮品含糖浓度12%~32%不等，以12.5%含糖饮品最为常用[26]。糖负荷的时间推荐术前12 h和2~4 h,临床上成人患者多在手术前1 d夜间口服800 mL含糖饮品，手术当天术前2 h口服400 mL含糖饮品[23]。应尽量在少的容量负荷下达到足够的胰岛素反应。多数关于术前糖负荷的研究是在非糖尿病患者中进行的，但有研究表明，糖负荷也可以在麻醉前3 h用于2型糖尿病的患者，不影响胃的排空，也不会出现明显的高血糖和误吸的风险，但仍需要进一步研究支持[27]。
+ERAS理念下，应尽量改善围手术期应激水平，降低围手术期炎症反应。在这方面，加入谷氨酰胺的含糖饮品可能更具优势。研究表明，含谷氨酰胺的含糖饮品可以进一步改善患者抗代谢能力，但其临床效果需进一步证实[28]。
+推荐：对无经口进食禁忌患者，推荐术前给予糖负荷，成人患者可于术前夜间、手术前2 h分别给予800 mL和400 mL含糖饮品。对有经口进食禁忌者，推荐经静脉给予糖负荷。（推荐等级：强烈推荐）
+三、术后恢复饮食推荐意见
+术后及早恢复肠道内营养对患者术后康复同样至关重要。关于术后禁食时间，即从麻醉结束到恢复经口进食间隔的时间，没有明确的界定，这与患者的耐受程度和手术类型相关。早期理论认为，受到麻醉的影响，患者术后胃肠功能紊乱，早期进饮进食会导致恶心呕吐，加之患者反应迟钝，易导致误吸等不良反应[29]。所以以往观点认为术后一定需要等到肠道通气才能恢复进食进水。在我国术后禁食禁饮6 h的做法仍然是主流[5]。近些年来，尤其在ERAS理念的影响下，术后早期恢复患者进食水的做法已成为专家的共识。
+2011年欧洲麻醉学会指南指出儿童和成人患者术后均应根据患者进食意愿尽早恢复经口进食[8]。2017年欧洲临床营养与代谢学会指南指出，通常来讲患者术后经口进食不应中断，应根据患者的耐受程度和手术类型选择恢复进食时间，绝大多数患者应在术后数小时内恢复饮食[25]。中国医师协会麻醉学医师分会在2015年发表的《促进术后康复的麻醉管理专家共识》中同样也建议术后早期进食和下床活动[30]。对于骨科手术患者，因未涉及胃肠道、不引起或较少引起全身反应，麻醉清醒后，无恶心呕吐即可进食。李庭等[12]对创伤骨科择期手术患者的研究也表明，术后清醒即恢复进水进食，未导致不良事件发生。Meta分析表明，术后早期恢复进食，有助于降低患者并发症的发生率，促进术后康复[31,32]。
+目前研究证实，每30 min口服50 mL清流质和水，不会引起恶心和呕吐，并可增加患者的舒适性，同时促进肠蠕动功能的恢复。术后患者饮食的恢复，应根据患者的耐受程度，由液体向流食、半流食和固体食物过渡，并遵循由少到多的原则，直至恢复正常饮食。根据ERAS理念，早期进食、早期下床、充分止痛、限制性液体输入及微创手术是术后实现快速康复的关键技术。这提示临床医生可以与护理人员、麻醉医生一起，改变现行术后禁食禁饮流程，鼓励患者术后早期进饮进食，以促进术后患者胃肠道功能的恢复，实现早期快速康复[33]。
+推荐：对于绝大多数骨科患者，术后一旦清醒即可进食清饮料，如无不良反应，1~2 h后即可进行正常饮食；一般术后第2天应停止静脉补液。（推荐等级：一般推荐）
+四、骨科急诊手术患者的术前禁食禁饮管理
+急诊手术患者通常面临着复杂的临床问题，因此术前的禁食禁饮问题也应得到特殊关注。研究表明，急诊手术患者发生吸入性肺炎的风险是择期手术患者的4.1倍，即便如此，其发生率仍处于较低水平，约为0.1%[34]。目前，对于急诊手术患者的术前禁食禁饮时间缺少足够的循证医学证据。2010年，北欧针对急诊全身麻醉手术的指南指出，对于非吸入性肺炎高风险患者，术前禁食禁饮管理可按择期手术处理，即清饮料禁食2 h，固体类食物禁食6 h[35]。吸入性肺炎高风险患者包括各种形式肠梗阻患者、妊娠期女性、食管裂孔疝或胃食管返流患者、术前出现过恶心、呕吐患者、病理性肥胖患者、糖尿病患者、术前口服阿片类药物患者以及严重疼痛或病情极度危重的患者[35]。对于无法达到术前禁食禁饮时间要求或存在吸入性肺炎高风险患者，急诊手术麻醉应按照饱腹状态处理，建议由有经验的麻醉医师实施麻醉。
+近年来，床旁超声技术判断胃残余物的研究大量涌现，证实了该技术的准确性[36]。对于急诊手术而言，床旁超声技术可作为判断患者误吸风险的辅助工具，帮助麻醉医师进行麻醉决策[37]。如超生判断患者处于空腹状态，则可按照空腹进行麻醉，如果超声判断患者仍残余食物，则应根据急诊手术的急迫程度，选择继续禁食水或者按照饱腹状态进行麻醉。
+推荐：对非吸入性肺炎高风险患者，骨科急诊手术前的禁食禁饮时间要求同择期手术。对无法满足术前禁食禁饮时间要求或存在吸入性肺炎高风险的患者，急诊手术麻醉应按照饱腹状态处理。（推荐等级：一般推荐）
+委员会成员
+顾问（按姓氏拼音顺序）：
+曾炳芳 戴 戎 高 鹏 姜保国 李 宁 刘 璠
+罗卓荆 马信龙 裴福兴 邱贵兴 孙天胜 唐佩福
+王坤正 王满宜 王 岩 严世贵 杨惠林 杨述华
+张英泽 张长青
+专家组成员（按姓氏拼音顺序）：
+白 波 蔡新宇 曹 阳 曹玉净 柴益民 陈伯华
+陈海啸 陈 亮 陈 瀛 陈 仲 程细高 东靖明
+董乐乐 杜世新 方 跃 冯 卫 高 鹏 高志强
+关振鹏 郭永智 韩昕光 何久胜 胡三保 纪 方
+姜保国 孔 荣 李 庭 李柄钻 李洪飞 李 军
+李开南 李伟栩 梁军波 梁向党 廖 琦 林 朋
+林焱斌 刘国辉 刘宏建 刘 辉 刘黎军 刘利民
+刘文革 刘新宇 刘震宁 陆志东 罗卓荆 吕 智
+马献忠 孟增东 米 萌 糜菁熠 倪江东 潘勇卫
+潘长军 裴福兴 邱贵兴 曲彦隆 荣绍远 芮云峰
+桑锡光 申才良 史宗新 宋李军 孙大辉 孙海钰
+孙天胜 孙 旭 孙志坚 汤 欣 唐佩福 陶惠人
+田 伟 田 耘 童培建 汪玉良 王爱国 王宝军
+王光林 王 剑 王金辉 王 凯 王 蕾 王鲁博
+王 楠 王鹏程 王现海 王 新 文良元 翁习生
+吴新宝 武明鑫 向 明 肖鸿鹄 谢洪峰 谢增如
+邢洪涛 训陆声 严世贵 杨 操 杨海波 杨惠林
+杨 军 杨明辉 杨 强 杨晓飞 余 斌 禹宝庆
+郁 凯 袁 峰 张保中 张海军 张建政 张 堃
+张 民 张 培 张培训 张 伟 张亚奎 张 一
+赵 霞 赵建民 赵文斌 赵学凌 赵 岩 赵 宇
+郑龙坡 周大鹏 周 方 周君琳 周雪峰 周 雁
+周志勇 庄 岩
+执笔者：
+李 庭1 孙志坚1 周 雁2 米 萌1 肖鸿鹄1
+孙 旭1 赵 霞3 李开南4 王爱国5 刘利民6
+胡三保7 史宗新8 张建政9 庄 岩10 林 朋11
+东靖明12
+1北京积水潭医院创伤骨科 100035；2北京积水潭医院麻醉科 100035；3北京积水潭医院营养科 100035；4成都大学附属医院骨科610081；5郑州市骨科医院骨科 450052；6首都医科大学附属宣武医院骨科，北京 100053；7首都医科大学附属北京安贞医院骨科 100029；8首都医科大学良乡教学医院骨科，北京 102401；9解放军总医院第七医学中心，北京100700；10西安交通大学附属红会医院创伤骨科环骨盆病区710054；11卫生部中日友好医院骨科，北京 100029；12天津市天津医院骨科 300211
+参考文献
+[1]
+吴新宝，余斌．
+创伤骨科围术期禁食水管理专家共识[J]．
+中华创伤骨科杂志, 
+2018, 
+20(
+9): 
+1-
+6.
+DOI: 10.3760/cma.j.issn.1671-7600.2018.09.001.
+WuXB, YuB. Experts＇consensus on perioperative fasting management in traumatic orthopedics[J]. Chin J Orthop Trauma, 2018, 20(9): 1-6. DOI: 10.3760/cma.j.issn.1671-7600.2018.09.001.
+[2]
+蒋朱明，詹思延，贾晓巍，等．
+制订/修订《临床诊疗指南》的基本方法及程序[J]．
+中华医学杂志, 
+2016, 
+96(
+4): 
+250-
+253.
+DOI: 10.3760/cma.j.issn.0376-2491.2016.04.004.
+JiangZM, ZhanSY, JiaXW, et al. Fundamentals and process for developing/revising guidelines for clinical diagnosis and management[J]. Natl Med J China, 2016, 96(4): 250-253. DOI: 10.3760/cma.j.issn.0376-2491.2016.04.004.
+[3]
+GuyattG, OxmanAD, AklEA, et al. 
+GRADE guidelines: 1. Introduction-GRADE evidence profiles and summary of findings tables[J]. 
+J Clin Epidemiol, 
+2011, 
+64(
+4): 
+383-
+394. 
+DOI: 10.1016/j.jclinepi.2010.04.026.
+[4]
+MaltbyJR. 
+Fasting from midnight -- the history behind the dogma[J]. 
+Best Pract Res Clin Anaesthesiol, 
+2006, 
+20(
+3): 
+363-
+378. 
+DOI: 10.1016/j.bpa.2006.02.001.
+[5]
+孙志坚，孙旭，孙伟桐，等．
+我国创伤骨科医生围手术期饮食管理现状调查[J]．
+中华创伤骨科杂志, 
+2018
+,20(
+8): 
+683-
+688.
+DOI: 10.3760/cma.j.issn.1671-7600.2018.08.009.
+SunZJ, SunX, SunWT, et al. Perioperative fasting management by traumatic surgeons in China[J]. Chin J Orthop Trauma, 2018, 20(8): 683-688. DOI: 10.3760/cma.j.issn.1671-7600.2018.08.009.
+[6]
+LjungqvistO, SoreideE. 
+Preoperative fasting[J]. 
+Br J Surg, 
+2003, 
+90(
+4): 
+400-
+406. 
+DOI: 10.1002/bjs.4066.
+[7]
+Practice guidelines for preoperative fasting and the use of pharmacologic agents to reduce the risk of pulmonary aspiration: application to healthy patients undergoing elective procedures: a report by the American Society of Anesthesiologist Task Force on Preoperative Fasting[J]. 
+Anesthesiology, 
+1999, 
+90(
+3): 
+896-
+905. 
+DOI: 10.1097/ALN.0000000000001452.
+[8]
+SmithI, KrankeP, MuratI, et al. 
+Perioperative fasting in adults and children: guidelines from the European Society of Anaesthesiology[J]. 
+Eur J Anaesthesiol, 
+2011, 
+28(
+8): 
+556-
+569. 
+DOI: 10.1097/EJA.0b013e3283495ba1.
+[9]
+No authors.
+Practice guidelines for preoperative fasting and the use of pharmacologic agents to reduce the risk of pulmonary aspiration: application to healthy patients undergoing elective procedures: an up-dated report by the American Society of Anesthesiologists Committee on Standards and Practice Parameters[J]. 
+Anesthesiology, 
+2011, 
+114(
+3): 
+495-
+511. 
+DOI: 10.1097/ALN.0b013e3181fcbfd9.
+[10]
+No authors.
+Practice guidelines for preoperative fasting and the use of pharmacologic agents to reduce the risk of pulmonary aspiration: application to healthy patients undergoing elective procedures: an up-dated report by the American Society of Anesthesiologists task force on preoperative fasting and the use of pharmacologic agents to reduce the risk of pulmonary aspiration[J]. 
+Anesthesiology, 
+2017, 
+126(
+3): 
+376-
+393. 
+DOI: 10.1097/ALN.0000000000001452.
+[11]
+LambertE, CareyS. 
+Practice guideline recommendations on perioperative fasting: a systematic review[J]. 
+JPEN J Parenter Enteral Nutr, 
+2016, 
+40(
+8): 
+1158-
+1165. 
+DOI: 10.1177/0148607114567713.
+[12]
+李庭，周雁，孙旭，等．
+缩短创伤骨科择期手术患者围手术期禁食水时间的前瞻性队列研究[J]．
+中华创伤骨科杂志, 
+2018, 
+20(
+4): 
+312-
+317.
+DOI: 10.3760/cma.j.issn.1671-7600.2018.04.007.
+LiT, ZhouY, SunX, et al. A prospective cohort study on reducing perioperative fasting in traumatic patients following Enhanced Recovery After Surgery protocol[J]. Chin J Orthop Trauma, 2018, 20(4): 312-317. DOI: 10.3760/cma.j.issn.1671-7600.2018.04.007.
+[13]
+BradyM, KinnS, NessV, et al. 
+Preoperative fasting for preventing perioperative complications in children[J]. 
+Cochrane Database Syst Rev,
+2009(
+4): 
+CD005285. 
+DOI: 10.1002/14651858.CD005285.pub2.
+[14]
+BilleaudC, GuilletJ, SandlerB. 
+Gastric emptying in infants with or without gastro-oesophageal reflux according to the type of milk[J]. 
+Eur J Clin Nutr, 
+1990, 
+44(
+8): 
+577-
+583.
+[15]
+SadaF, KrasniqiA, HamzaA, et al. 
+A randomized trial of preoperative oral carbohydrates in abdominal surgery[J]. 
+BMC Anesthesiol, 
+2014, 
+14: 
+93. 
+DOI: 10.1186/1471-2253-14-93.
+[16]
+KaskaM, GrosmanovaT, HavelE, et al. 
+The impact and safety of preoperative oral or intravenous carbohydrate administration versus fasting in colorectal surgery -- a randomized controlled trial[J]. 
+Wien Klin Wochenschr, 
+2010, 
+122(
+1-2): 
+23-
+30. 
+DOI: 10.1007/s00508-009-1291-7.
+[17]
+MathurS, PlankLD, McCallJL, et al. 
+Randomized controlled trial of preoperative oral carbohydrate treatment in major abdominal surgery[J]. 
+Br J Surg, 
+2010, 
+97(
+4): 
+485-
+494. 
+DOI: 10.1002/bjs.7026.
+[18]
+PaseroC, BeldenJ. 
+Evidence-based perianesthesia care: accelerated postoperative recovery programs[J]. 
+J Perianesth Nurs, 
+2006, 
+21(
+3): 
+168-
+176. 
+DOI: 10.1016/j.jopan.2006.03.010.
+[19]
+ViganoJ, CeredaE, CaccialanzaR, et al. 
+Effects of preoperative oral carbohydrate supplementation on postoperative metabolic stress response of patients undergoing elective abdominal surgery[J]. 
+World J Surg, 
+2012, 
+36(
+8): 
+1738-
+1743. 
+DOI: 10.1007/s00268-012-1590-4.
+[20]
+BreuerJP, von DossowV, von HeymannC, et al. 
+Preoperative oral carbohydrate administration to ASA III-IV patients undergoing elective cardiac surgery[J]. 
+Anesth Analg, 
+2006, 
+103(
+5): 
+1099-
+1108. 
+DOI: 10.1213/01.ane.0000237415.18715.1d.
+[21]
+SmithMD, McCallJ, PlankL, et al. 
+Preoperative carbohydrate treatment for enhancing recovery after elective surgery[J]. 
+Cochrane Database Syst Rev, 
+2014(
+8): 
+D9161. 
+DOI: 10.1002/14651858.CD009161.pub2.
+[22]
+AmerMA, SmithMD, HerbisonGP, et al. 
+Network meta-analysis of the effect of preoperative carbohydrate loading on recovery after elective surgery[J]. 
+Br J Surg, 
+2017, 
+104(
+3): 
+187-
+197. 
+DOI: 10.1002/bjs.10408.
+[23]
+DilmenOK, YenturE, TunaliY, et al. 
+Does preoperative oral carbohydrate treatment reduce the postoperative surgical stress response in lumbar disc surgery?[J]. 
+Clin Neurol Neurosurg, 
+2017, 
+153: 
+82-
+86. 
+DOI: 10.1016/j.clineuro.2016.12.016.
+[24]
+Powell-TuckJ, LewingtonA, PearseR, et al. 
+British Consensus Guidelines on Intravenous Fluid Therapy for Adult Surgical Patients[J]. 
+London: NHS National Library of Health, 
+2009.
+http://www.ics.ac.uk/.
+[25]
+WeimannA, BragaM, CarliF, et al. 
+ESPEN guideline: clinical nutrition in surgery[J]. 
+Clin Nutr, 
+2017, 
+36(
+3): 
+623-
+650. 
+DOI: 10.1016/j.clnu.2017.02.013.
+[26]
+PogatschnikC, SteigerE. 
+Review of preoperative carbohydrate loading[J]. 
+Nutr Clin Pract, 
+2015, 
+30(
+5): 
+660-
+664. 
+DOI: 10.1177/0884533615594013.
+[27]
+GustafssonUO, NygrenJ, ThorellA, et al. 
+Pre-operative carbohydrate loading may be used in type 2 diabetes patients[J]. 
+Acta Anaesthesiol Scand, 
+2008, 
+52(
+7): 
+946-
+951. 
+DOI: 10.1111/j.1399-6576.2008.01599.x.
+[28]
+BragaM, BissolatiM, RocchettiS, et al. 
+Oral preoperative antioxidants in pancreatic surgery: a double-blind, randomized, clinical trial[J]. 
+Nutrition, 
+2012, 
+28(
+2): 
+160-
+164. 
+DOI: 10.1016/j.nut.2011.05.014.
+[29]
+MendelsonCL. 
+The aspiration of stomach contents into the lungs during obstetric anesthesia[J]. 
+Am J Obstet Gynecol, 
+1946, 
+52: 
+191-
+205.
+[30]
+中国医师协会麻醉学医师分会．
+促进术后康复的麻醉管理专家共识[J]．
+中华麻醉学杂志, 
+2015, 
+35(
+2):
+141-
+148.
+DOI: 10.3760/cma.j.issn.0254-1416.2015.02.001.
+Society of Anesthesiologists, Association of Chinese Doctors. Experts＇ consensus on anaesthesia management for enhanced recovery after surgery[J]. Chinese Journal of Anesthesiology, 2015, 35(2): 141-148. DOI: 10.3760/cma.j.issn.0254-1416.2015.02.001.
+[31]
+AndersenHK, LewisSJ, ThomasS. 
+Early enteral nutrition within 24h of colorectal surgery versus later commencement of feeding for postoperative complications[J]. 
+Cochrane Database Syst Rev, 
+2006(
+4): 
+D4080. 
+DOI: 10.1002/14651858.CD004080.pub2.
+[32]
+OslandE, YunusRM, KhanS, et al. 
+Early versus traditional post-operative feeding in patients undergoing resectional gastrointestinal surgery: a meta-analysis[J]. 
+JPEN J Parenter Enteral Nutr, 
+2011, 
+35(
+4): 
+473-
+487. 
+DOI: 10.1177/0148607110385698.
+[33]
+LjungqvistO, ScottM, FearonKC. 
+Enhanced recovery after surgery: a review[J]. 
+JAMA Surg, 
+2017, 
+152(
+3): 
+292-
+298. 
+DOI: 10.1001/jamasurg.2016.4952.
+[34]
+Mellin-OlsenJ, FastingS, GisvoldSE. 
+Routine preoperative gastric emptying is seldom indicated. A study of 85,594 anaesthetics with special focus on aspiration pneumonia[J]. 
+Acta Anaesthesiol Scand, 
+1996, 
+40(
+10): 
+1184-
+1188. 
+DOI: 10.1111/j.1399-6576.1996.tb05548.x.
+[35]
+JensenAG, CallesenT, HagemoJS, et al. 
+Scandinavian clinical practice guidelines on general anaesthesia for emergency situations[J]. 
+Acta Anaesthesiol Scand, 
+2010, 
+54(
+8): 
+922-
+950. 
+DOI: 10.1111/j.1399-6576.2010.02277.x.
+[36]
+Van de PutteP, PerlasA. 
+Ultrasound assessment of gastric content and volume[J]. 
+Br J Anaesth, 
+2014, 
+113(
+1): 
+12-
+22. 
+DOI: 10.1093/bja/aeu151.
+[37]
+Van de PutteP. 
+Bedside gastric ultrasonography to guide anesthetic management in a nonfasted emergency patient[J]. 
+J Clin Anesth, 
+2013, 
+25(
+2): 
+165-
+166. 
+DOI: 10.1016/j.jclinane.2012.10.005.
+贡献者信息
+白求恩·骨科加速康复联盟 
+白求恩公益基金会创伤骨科专业委员会 
+白求恩公益基金会关节外科专业委员会 
+中国医疗保健国际交流促进会加速康复外科学分会创伤骨科学组 
+基金项目
+首都卫生发展科研专项 （首发2018-1-2072，首发2018-1-2073） 
+历史
+出版日期：2019-10-15
+收稿日期：2019-09-20
+本文编辑
+张宁 
+Guidelines
+Guidelines on perioperative fasting management in orthopeadic surgery 
+Bethune Alliance of Enhanced Recovery After Surgery in Orthopedics, Trauma Orthopedics Professional Committee, Bethune Charitable Foundation, Joint Surgery Professional Committee, Bethune Charitable Foundation, Society of Enhanced Recovery After Surgery, China International Exchange and Promotion Association for Medical and Health Care 
+Published 
+2019-10-15 
+Cite as 
+Chin J Orthop Trauma, 2019,21(10): 829-834. DOI: 10.3760/cma.j.issn.1671-7600.2019.10.001 
+Contributor Information
+Bethune Alliance of Enhanced Recovery After Surgery in Orthopedics
+Trauma Orthopedics Professional Committee, Bethune Charitable Foundation
+Joint Surgery Professional Committee, Bethune Charitable Foundation
+Society of Enhanced Recovery After Surgery, China International Exchange and Promotion Association for Medical and Health Care
+共有
+条评论
+验证码 
+发布 
+本文被引情况 
+CSCD: 
+0次 
+万方数据： 
+0次 
+Scopus: 
+0次 
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源 
+[1]
+夏鹏(译者).
+如何阻止悲伤成为职业负担[J].
+测试杂志,
+2015,
+1(1):575–576.
+--> 
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+专家组推荐意见观点汇总
+推荐意见
+调查人数
+强烈推荐人数
+一般推荐人数
+不推荐人数
+对于不同类型的液体、固体食物，骨科手术麻醉前建议禁食时间
+74
+60
+14
+0
+对无经口进食禁忌患者，推荐术前给予糖负荷，成人患者可于术前夜间、手术前2 h分别给予800 mL和400 mL含糖饮品。对有经口进食禁忌者，推荐经静脉给予糖负荷
+74
+47
+27
+0
+对于绝大多数骨科患者，术后一旦清醒即可进食清饮料，如无不良反应，1～2 h后即可进行正常饮食；一般术后第2天应停止静脉补液
+74
+48
+26
+0
+对非吸入性肺炎高风险患者，骨科急诊手术前的禁食禁饮时间要求同择期手术。对无法满足术前禁食禁饮时间要求或存在吸入性肺炎高风险的患者，急诊手术麻醉应按照饱腹状态处理
+74
+44
+28
+2
+表2
+不同类型的液体、固体食物，骨科手术麻醉前建议禁食时间
+食物种类
+最短禁食时间
+清饮料
+2h
+母乳
+4h
+婴儿配方奶粉
+6h
+牛奶等液体乳制品
+6h
+淀粉类固体食物
+6h
+油炸、脂肪及肉类食物
+可能需要更长时间，应该≥8 h
+向我们报错
+PDF与文章不符错误 
+PDF失效 
+文档错误 
+出处错误 
+作者姓名或顺序错误 
+作者单位错误 
+上报错误 --> 
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+中华内科杂志期刊畅读会员（下载余量： 123）
+中华内科杂志期刊畅读会员（下载余量： 123）
+中华内科杂志期刊畅读会员（下载余量： 123） --> 
+取消 
+下载 
+出 处：中华创伤骨科杂志2019年21卷10期
+文 题：骨科手术围手术期禁食禁饮管理指南
+优惠价：0 元
+账户余额支付 
+账户余额：0 元
+余额足够时不再提示 
+取消 
+直接购买 
+刊 期：中华创伤骨科杂志2019年21卷10期
+优惠价：0 元 原价：0 元
+账户余额支付 
+账户余额：0 元
+余额足够时不再提示 
+取消 
+直接购买 
+支付成功！
+关闭 
+购买失败,请稍后再试!
+取消 
+去充值 
+点赞成功！
+关闭 
+收藏成功！
+关闭 
+没有权限下载,请稍后再试!
+关闭 
+收藏
+选择收藏夹： 
+第二个 第二个 
+新建收藏夹

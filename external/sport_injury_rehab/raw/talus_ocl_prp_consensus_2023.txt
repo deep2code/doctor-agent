@@ -1,0 +1,1077 @@
+来源: 《富血小板血浆治疗距骨骨软骨损伤专家共识（2023版）》编写组
+URL: http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=11910
+发布/评审时间: 2023年5月（中华创伤杂志 2023,39(5)，9页）
+抓取方式: curl 直连 + PDF 逐字文本提取，未改写文字
+
+中华创伤杂志  2023  年 5  月第  39  卷第  5  期　 Chin J Trauma ,  May 2023 ,  Vol .  39 ,  No .  5
+富血小板血浆治疗距骨骨软骨损伤
+专家共识 （ 2023 版 ）
+施忠民
+1 ， 2
+ 顾文奇
+1 ， 2
+ 杨云峰
+3
+ 王 旭
+4
+ 徐海林
+5
+ 张晖
+6
+ 洪劲松
+7
+ 李棋
+6
+ 张明 珠
+8
+ 
+陶旭
+9
+ 胡勇
+10
+ 魏民
+11
+ 邢丹
+5
+ 袁霆
+1 ， 2
+ 郭秦炜
+12
+ 张长青
+1 ， 2
+中国医师协会骨科医师分会足踝基础与矫形学组  中国医师协会运动医学医师分会
+足踝专业组  上海市医学会骨科专科分会足踝学组
+1
+上海交通大学医学院附属第六人民医院 ，  上海  200233 ；  
+2
+上海市第六人民医院国家
+骨科医学中心 ，  上海  200233 ；  
+3
+同济大学附属同济医院 ，  上海  200065 ；  
+4
+复旦大学附 属
+华山医院 ，  上海  200040 ；  
+5
+北京大学人民医院 ，  北京  100044 ；  
+6
+四川大学华西医院 ，  
+成都  610041 ；  
+7
+广州市正骨医院 ，  广州  510045 ；  
+8
+首都医科大学附属北京同仁医院 ，  
+北京  100730 ；  
+9
+陆军军医大学第一附属医院 ，  重庆  400038 ；  
+10
+山东大学第二医院 ，  
+济 南  250033 ；  
+11
+中国人民解放军总医院第四医学中心 ，  北京  100037 ；  
+12
+北京大学第 三
+医院 ，  北京  100081
+通信作者 ： 施忠民 ，  Email ： 18930177323 @ 163 . com ，  电话 ： 18930177323 ；  郭秦炜 ，  Email ：
+guoqinwei@vip . sina . com ，  电话 ： 010 ⁃ 82267502 ；  张长青 ，  Email ： zhangcq@sjtu . edu . cn ，  
+电话 ： 13003104089
+【 摘要 】 　距骨骨软骨损伤 （ OLT ） 是一种以踝关节疼痛为特征的足踝部疾病 ， 可影响患者关节功
+能及生活质量 ， 若处理不当 ， 可造成远期踝关节炎 ， 严重影响预后 。 采用非手术治疗 OLT 的疗效尚不
+确切 。 手术治疗仍是目前治疗 OLT 的主要手段 ， 且手术方式多样 ， 然而最佳手术方式尚无定论 ， 同时 ，
+病变软骨清理后的再生修复亦是治疗难点 。 富血小板血浆 （ PRP ） 对软骨损伤具有较好的修复效果 ，
+现已逐渐应用于 OLT 的治疗 ， 但 PRP 治疗 OLT 的技术与规范尚缺乏统一认识 。 因此 ， 上海市第六人
+民医院国家骨科医学中心联合中国医师协会骨科医师分会足踝基础与矫形学组 、 中国医师协会运动
+医学医师分会足踝专业组及上海市医学会骨科专科分会足踝学组组织相关领域专家 ， 制订 《 富血小板
+血浆治疗距骨骨软骨损伤专家共识 （ 2023 版 ） 》 ， 就 PRP 的制备及使用 ， PRP 治疗 OLT 的适应证 、 禁忌
+证 、 方法及相关问题提出 15 条推荐意见 ， 以规范 PRP 对 OLT 的治疗 。
+【 关键词 】 　富血小板血浆 ； 　距骨 ； 　软骨疾病 ； 　注射 ， 关节内 ； 　共识
+基金 项目 ： 国 家重点研发计划 （ 2022 YFC 2009505 ）
+指南注册 ： PREPARE⁃ 2023 CN 269
+DOI ： 10 . 3760 /cma . j . cn 501098 ⁃ 202 30309 ⁃ 00127
+Expert consensus on platelet⁃rich plasma tre atment for osteochondral lesion of talus ( version 2023 )  
+Shi Zhongmin
+1 , 2
+,  Gu Wenqi
+1 , 2
+,  Yang Yunfeng
+3
+,  Wang Xu
+4
+,  Xu Hailin
+5
+,  Zhang Hui
+6
+,  Hong Jinsong
+7
+,  Li Qi
+6
+,  
+Zhang Mingzhu
+8
+,  Tao Xu
+9
+,  Hu Yong
+10
+,  Wei Min
+11
+,  Xing Dan
+5
+,  Yuan Ting
+1 , 2
+,  Guo Qinwei
+12
+,  Zhang Changqing
+1 , 2
+Foot Ankle Basic Research & Orthopedics Group ,  Chinese Association of Orthopedic Surgeons ;  Foot and Ankle 
+Committee of Chinese Association of Sports Medicine Physicians ;  Foot and Ankle Group of Orthopedic Specialized 
+Branch of Shanghai Medical Association
+1
+Shanghai Sixth People ′ s Hospital Affiliated to Shanghai Jiao Tong University School of Medicine ,  Shanghai 
+200233 ,  China ;  
+2
+National Orthopedics Center ,  Shanghai Sixth People ′ s Hospital ,  Shanghai 200233 ,  China ;
+3
+Tongji Hospital of Tongji University ,  Shanghai 200065 ,  China ;  
+4
+Huashan Hospital ,  Fudan University ,  
+Shanghai 200040 ,  China ;  
+5
+Peking University People ′ s Hospital ,  Beijing 100044 ,  China ;  
+6
+West China Hospital ,  
+Sichuan University ,  Chengdu 610041 ,  China ;  
+7
+Guangzhou Orthopedic Hospital ,  Guangzhou 510045 ,  China ;
+8
+Beijing Tongren Hospital ,  Capital Medical University ,  Beijing 100730 ,  China ;  
+9
+First Affiliated Hospital ,  Army 
+· 共识与指南 ·
+·· 385
+中华创伤杂志  2023  年 5  月第  39  卷第  5  期　 Chin J Trauma ,  May 2023 ,  Vol .  39 ,  No .  5
+Medical University ,  Chongqing 400038 ,  China ;  
+10
+Second Hospital ,  Shandong University ,  Jinan 250033 ,  China ;
+11
+Forth Medical Center of PLA General Hospital ,  Beijing 100037 ,  China ;  
+12
+Peking University Third Hospital ,  
+Beijing 100081 ,  China
+Corresponding authors :  Shi Zhongmin ,  Email :  189301773323 @ 163 . com ,  Tel :  0086 ‑ 1893 ‑ 0177 ‑ 323 ;  Guo Qinwei ,  
+Email :  guoqinwei@vip . sina . com ,  Tel :  0086 ‑ 10 ‑ 8226 ‑ 7502 ;  Zhang Changqing ,  Email :  zhangcq@sjtu . edu . cn ,  
+Tel :  0086 ‑ 1300 ‑ 3104 ‑ 089
+【 Abstract 】  Osteochondral lesion of talus ( OLT )  is a foot and ankle disease characterized by ankle 
+pain ,  which may impact the joint function and life quality .  If managed improperly ,  it may lead to a further 
+ankle arthritis ,  severely compromising the prognosis .  The therapeutic effect of conservative treatment for 
+OLT is still uncertain .  Surgery is still the main treatment modality for OLT with various techniques .  
+However ,  the optimized surgical technique is still inconclusive ,  furthermore ,  regeneration and repair of 
+cartilage after debridement is also a great challenge for the treatment of OLT .  Platelet⁃rich plasma ( PRP )  
+with good repair effect on cartilage injury is gradually applied in the treatment of OLT .  However ,  there still 
+lacks the unified understanding of the technique and specification of PRP for the treatment of OLT .  
+Therefore ,  National Orthopedics Center of Shanghai Sixth People ′ s Hospital allied Foot Ankle Basic 
+Research & Orthopedics Group ,  Chinese Association of Orthopedic Surgeons ;  Foot and Ankle Committee of 
+Chinese Association of Sports Medicine Physicians ;  and Foot and Ankle Group of Orthopedic Specialized 
+Branch of Shanghai Medical Association to organize related experts to formulate the Expert consensus on 
+platelet ⁃ rich plasma treatment for osteochondral lesion of talus ( version  2023 ).  Fifteen recommendations were 
+put forward upon PRP preparation ,  indications ,  contraindications and treatment methods of PRP for OLT ,  
+so as to standardize the PRP treatment for OLT .
+【 Key words 】  Platelet ⁃ rich plasma ;  Talus ;  Cartilage diseases ;  Injections ,  intra⁃articular ;  Consensus
+Fund program :  National Key R&D Pro gram  of China ( 2022 YFC 2009505 )
+Registration number of guideline ：  PREPARE⁃ 2023 CN 269
+DOI ： 10 . 3760 /cma . j . cn 501098 ⁃ 20230309 ⁃ 00127
+距 骨 骨 软 骨 损 伤 （ osteochondral lesion of talus ，
+OLT ） 为距骨穹隆部损伤导致关节软骨或软骨下骨
+的部分或完全分离
+［ 1 ］
+， 发病与各类踝关节损伤密切
+相关 ， 尤其是踝关节扭伤 ， 且多见于 30 岁年龄段的
+男性患者
+［ 2 ⁃ 4 ］
+。 OLT 是导致踝关节疼痛的主要病因
+之一 ， 并可对患者的踝关节功能造成不同影响 ， 若
+处理不当 ， 还可导致远期创伤性关节炎 ， 致残率高 ，
+严重影响患者预后 。 近年来 ， OLT 的诊治受到广泛
+重视 ， 成为临床研究热点之一 。
+目前 ， 对于 OLT 的治疗主要根据其分期 、 遵循
+阶梯化及个体化治疗策略
+［ 5 ］
+来制订相应的治疗方
+案 。 Hepple 分期是目前临床上常用的分期系统 ， 共
+包括 5 期 ： Ⅰ 期仅为关节软骨损伤 ； Ⅱ A 期为软骨损
+伤合并软骨下骨折及周围骨髓水肿 ； Ⅱ B 期为软骨
+损伤合并软骨下骨折 ， 但不伴周围骨髓水肿 ； Ⅲ 期
+为分离的骨软骨片 ， 但无移位 ； Ⅳ 期为分离且移位
+的骨软骨片 ； 而 Ⅴ 期则为软骨下骨囊肿形成 。 在治
+疗初期 ， 可尝试口服药物 、 关节腔内注射 、 支具保护
+及康复锻炼等常规非手术治疗手段 ， 尤其是 Hepple
+Ⅰ 期损伤或病灶小及无明显症状的患者
+［ 6 ⁃ 7 ］
+， 但非手
+术治疗的失败率可高达 50 %
+［ 8 ］
+。 因此 ， 手术治疗仍
+是目前治疗 OLT 的主要方法之一 ， 主要包括修复和
+替换两大技术
+［ 9 ］
+。 然而 ， 手术技术虽然众多 ， 但仍存
+在一定问题 ： 微骨折技术是最常用的修复技术 ， 主
+要适用于小病灶的 OLT ， 对于面积较大的患者 ， 效果
+常欠佳 ， 且微骨折术后再生的软骨往往是纤维软
+骨
+［ 10 ］
+， 其质量不及透明软骨 。 自体骨软骨移植是目
+前主流的替换技术 ， 但该技术存在供区损伤的问
+题 ， 而采用同种异体移植则可能出现疾病传播 、 来
+源有限等问题 ， 且采用骨软骨移植还可能存在供区
+软骨与缺损区匹配欠佳的情况
+［ 11 ］
+。
+富血小板血浆 （ platelet⁃rich plasma ， PRP ） 是一
+类血浆衍生物 ， 其血小板浓度至少高于基线浓度的
+2 倍 ， 且含有大量生物因子和细胞因子 ， 并证实可在
+膝关节病的治疗中取得良好的疗效
+［ 12 ⁃ 15 ］
+。 临床研究
+结 果 表 明 ， PRP 治 疗 OLT 可 获 得 较 好 的 治 疗 效
+果
+［ 11 ， 16 ⁃ 25 ］
+， 尤其是手术联合 PRP 的治疗效果可能更
+佳
+［ 26 ］
+。 然而 ， 对于如何规范应用 PRP 治疗 OLT 仍缺
+乏高质量循证医学证据支持和一致性意见 ， 尤其在
+PRP 制备 、 浓度及类型 、 适应证 、 使用方法等方面仍
+缺少共识 ， 迫切需要制订专家共识以指导临床诊疗
+工作 。 为此 ， 上海市第六人民医院国家骨科医学中
+心联合中国医师协会骨科医师分会足踝基础与矫
+形学组 、 中国医师协会运动医学医师分会足踝专业
+·· 386
+中华创伤杂志  2023  年 5  月第  39  卷第  5  期　 Chin J Trauma ,  May 2023 ,  Vol .  39 ,  No .  5
+组及上海市医学会骨科专科分会足踝学组组织相
+关领域专家 ， 遵循循证医学原则 ， 本着科学性和实
+用性 ， 基于目前的诊疗现状 ， 结合专家组临床经验 ，
+制订 《 富血小板血浆治疗距骨骨软骨损伤专家共识
+（ 2023 版 ） 》 （ 下称 “ 本共识 ” ） ， 就 PRP 的制备及使用 ，
+PRP 治疗 OLT 的适应证 、 禁忌证 、 方法及相关问题提
+出 15 条推荐意见 ， 以规范 PRP 对 OLT 的治疗 。
+1  方法学
+1 . 1  共识制订方法
+本共识由上海市第六人民医院国家骨科医学
+中心牵头 ， 联合相关学术组织 ， 国内 42 名相关领域
+专家参与 ， 通过四轮专家会议讨论后产生 ： 第一轮
+会议进行 “ PRP 治疗 OLT ” 临床问题重要性调查 ， 组
+织专家组进行讨论论证并提出建议 ， 经过梳理 、 归
+纳与总结 ， 最终确定 15 个临床问题纳入本共识 。 然
+后通过确定检索词和检索年限 ， 按照纳入和排除标
+准对检索到的文献进行筛选 ， 最终纳入证据文献 。
+根据文献内容评定证据等级 ， 提取有效信息 ， 最后
+根据纳入文献信息给出相应的推荐建议及说明 。
+第二轮会议组织专家对共识初稿进行讨论及修改 。
+第三轮会议对 15 项推荐意见进行投票 ， 确定推荐强
+度 。 第四轮会议对共识进行修改定稿 。
+1 . 2  文献检索及筛选过程
+针对纳入的临床问题 ， 按照  PICOS （ 人群 、 干预
+措施 、 对照 、 结局指标 、 研究类型 ） 原则进行解构 。
+根据解构的临床问题进行证据检索 ， 以 “ osteochondral 
+lesion of talus ” “ osteochondritis dissecans of talus ”
+“ platelet⁃rich plasma ” “ 距骨骨软骨损伤 ” “ 距骨软骨
+损伤 ” “ 距骨剥脱性骨软骨炎 ” “ 富血小板血浆 ” 等作
+为关键词 ， 检索 PubMed 、 中国生物医学文献数据库
+及 万 方 数 据 知 识 服 务 平 台 。 检 索 时 限 为 建 库 至
+2022 年 12 月 31 日 。
+文献纳入标准 ： （ 1 ） 研究内容为 PRP 的制备方
+法 及 使 用 、 PRP 治 疗 OLT 的 指 征 及 治 疗 方 法 等 ；
+（ 2 ） 研究类型包括系统评价 、 Meta 分析 、 随机对照试
+验 （ RCT ） 、 队列研究 、 病例对照研究 、 病例系列研究
+等 ； （ 3 ） 文献类型为基础及临床论著 、 专家共识 、 综
+述 。 文献排除标准 ： （ 1 ） 内容前后严重不符 ； （ 2 ） 内
+容重复 ； （ 3 ） 无法获取全文 。 专家组对检索文献依
+据纳入及排除标准 ， 根据提出的相关问题 ， 进行题
+目 、 摘 要 及 全 文 排 除 和 参 考 文 献 追 踪 ， 最 终 纳 入
+39 篇证据文献 ， 其中英文 25 篇 ， 中文 14 篇 。
+1 . 3  证据等级评定标准和推荐强度
+文献证据等级如下
+［ 27 ］
+： A 1 ， 多个 （ 2 个或更多 ） 一
+级 RCT 研究有着相似的发现或结论 ， 或有 1 个 Meta
+分析 ； A 2 ， 1 个一级 RCT ； B 1 ， 前瞻性队列研究 ； B 2 ，
+设立对照组 ， 但并非一级 RCT ； C ， 病例系列研究 ； D ，
+病例报告 ； E ， 专家观点或基础研究 。
+投票同意率超过 70 % 的推荐意见形成共识
+［ 28 ］
+。
+最终纳入 15 条共识意见 。 根据投票同意率 ， 推荐强
+度划分为 3 个等级 ： 90 %~ 100 % 为强 ， 80 %~ 89 % 为
+中 ， 70 %~ 79 % 为弱 。
+2  PRP 的制备及使用
+2 . 1  PRP 的制备
+推荐意见 1 ： PRP 的制备在符合感控要求的专
+用治疗室或层流手术室进行 ， 应严格遵照相关制
+备 系 统 的 操 作 流 程 ， 制 备 后 应 尽 快 使 用 （ 推 荐 强
+度 ： 强 ） 。
+共 纳 入 4 篇 文 献 ， 其 中 A 1 级 1 篇
+［ 26 ］
+， B 2 级
+2 篇
+［ 29 ⁃ 30 ］
+， C 级 1 篇
+［ 31 ］
+。 由于 PRP 治疗属于有创操作 ，
+具有一定的无菌要求 ， 因此建议在符合感控要求的
+专用治疗室或层流手术室进行 。 PRP 的制备和使用
+流程需要严格遵循血液制品技术质控规范 。 制备
+器具要求应符合国家食品药品监督管理局修订的
+《 医疗器械分类目录 》 中的输血 、 透析和体外循环器
+械 ： 一级产品为血液分离 、 处理 、 贮存器具 ； 二类产
+品为富血小板血浆制备器 ； 产品管理级别为 Ⅲ 类 。
+此外 ， 根据不同 PRP 制备设备 ， 其操作流程可能有
+所不同 ， 医务人员操作过程应严格按照操作流程说
+明进行制备 。 不同类型 PRP 的制备流程存在差异 ：
+贫白细 胞 PRP 的制备过程略有不同 ， 具体过 程仍应根
+据具体制备设备的操作流程进行
+［ 29 ⁃ 30 ］
+。 PRP 制取后
+加入凝血酶 ， 即可得到 PRP 凝胶
+［ 31 ］
+。 PRP 制备后应尽
+快使用 ， 以免影响血小板寿命和 功能
+［ 26 ］
+。
+2 . 2  PRP 的激活
+推 荐 意 见 2 ： 非 手 术 治 疗 时 可 不 使 用 激 活 剂 。
+术中使用 PRP 时可使用凝血酶激活 ， 或者使用氯化
+钙激活 （ 推荐强度 ： 中 ） 。
+共纳入 8 篇文献 ， 其中 ， B 2 级 4 篇
+［ 20 ， 24 ， 29 ， 32 ］
+， C 级
+3 篇
+［ 11 ， 21 ， 31 ］
+， E 级 1 篇
+［ 33 ］
+。 目前对于是否需要使用激
+活剂及其类型尚无定论 ， 亦缺少高级别循证医学证
+据 。 对于术中使用 PRP 时 ， 可以考虑使用激活剂 。
+·· 387
+中华创伤杂志  2023  年 5  月第  39  卷第  5  期　 Chin J Trauma ,  May 2023 ,  Vol .  39 ,  No .  5
+若采用关节镜下微骨折术联合 PRP 注射 ， 凝血酶是
+目前临床上常用的 PRP 激活剂 ， 经凝血酶激活后的
+PRP 起效更快
+［ 33 ］
+， 且凝胶状的 PRP 可以填补软骨区
+域 ， 并与软骨缺损区有较稳定的黏附
+［ 21 ］
+。 亦有采用
+氯化钙激活
+［ 24 ， 29 ， 32 ］
+， 其优势在于激活后诸如转化生
+长因子 ⁃ β 1（ TGF⁃ β 1 ） 和血小板衍生因子 （ PDGF ） ⁃AB
+释放浓度较高 ， 释放时间较长
+［ 33 ］
+。 而对于病损区采
+用松质骨移植填充的患者 ， 建议术中使用凝血酶激
+活 PRP 后直接覆盖于移植物表面 ， 以覆盖软骨缺损
+区
+［ 11 ， 31 ］
+； 用于移植物浸泡时 ， 目前临床尚缺少相关报
+道 ， 本专家组讨论后认为可以考虑在术中将移植物
+经 PRP 浸泡后添加凝血酶激活 ； 用于非手术治疗关
+节腔内注射时 ， 建议使用氯化钙激活
+［ 20 ］
+或不使用激
+活剂 。
+2 . 3  PRP 的浓度及类型
+推荐意见 3 ： PRP 治疗 OLT 的血小板浓度为基
+线浓度的 4 ~ 6 倍为宜 。 针对 OLT 的治疗 ， 可使用贫
+白细胞 PRP （ 推荐强度 ： 中 ） 。
+共 纳 入 13 篇 文 献 ， 其 中 A 2 级 1 篇
+［ 19 ］
+， B 2 级
+8 篇
+［ 17 ⁃ 18 ， 20 ， 22 ， 29 ⁃ 30 ， 32 ， 34 ］
+， E 级 4 篇
+［ 35 ⁃ 38 ］
+。 目前对于 PRP 的
+最佳使用浓度尚无定论 。 王勇等
+［ 22 ］
+和杨金杰
+［ 32 ］
+采
+用微骨折技术联合 PRP 治疗 OLT 获得良好的治疗
+效果 ， 两者制备 PRP 后检测其浓度均为基线浓度的
+4 倍以上 。 而在贾岩波等
+［ 34 ］
+的报告中 ， 其 PRP 浓度
+平均增加 6 . 1 倍 ， 并获得较好的治疗效果 。 在国外
+学者的相关研究中 ， 其血小板浓度亦均为基线浓度
+的 4 倍 以 上 ， 同 样 获 得 良 好 的 治 疗 效 果
+［ 17 ⁃ 19 ］
+。 而
+Mei⁃Dan 等
+［ 20 ］
+报告的血小板浓度相对较低 ， 为基线
+浓 度 的 2 ~ 3 倍 。 由 于 血 小 板 浓 度 与 临 床 效 果 相
+关
+［ 35 ⁃ 36 ］
+， 故在 Mei⁃Dan 等
+［ 20 ］
+的研究中 ， PRP 组的疼痛
+视觉模拟评分 （ VAS ） 与透明质酸组无明显差异 。 然
+而 ， 过高的血小板浓度又可能会抑制血管生成 。 因
+此 ， 鉴于以上循证医学证据 ， PRP 治疗 OLT 的血小板
+最佳浓度建议为基线浓度的 4 ~ 6 倍为宜 。
+PRP 制备时所得到的炎性细胞或炎性因子会影
+响其使用效果
+［ 37 ⁃ 38 ］
+， 尤其是白细胞释放的活性氧 、 炎
+症因子及基质金属蛋白酶等物质反而会损伤软骨
+组 织 。 位 付 涛 和 王 振
+［ 29 ］
+、 娄 磊 等
+［ 30 ］
+采 用 贫 白 细 胞
+PRP 或纯 PRP 治疗 OLT 获得良好效果 ， 认为其可有
+效避免炎症因子等对软骨的破坏 。 因此 ， 对于 OLT
+的治疗 ， 建议使用贫白细胞 PRP ， 但目前仍需更多的
+高级别循证医学证据支持 。
+3  PRP 治疗 OLT 的适应证及禁忌证
+推荐意见 4 ： PRP 治疗 OLT 的 适 应 证包括 ： （ 1 ） 外
+用及口服药物无效 ； （ 2 ） PRP 治疗有效后复发 ； （ 3 ） 术
+中辅助治疗 （ 推荐强度 ： 中 ） 。
+共 纳 入 5 篇 文 献 ， 其 中 A 1 级 1 篇
+［ 26 ］
+， B 2 级
+2 篇
+［ 16 ， 20 ］
+， E 级 2 篇
+［ 27 ， 39 ］
+。 原则上 PRP 的使用对于患
+者 无 明 确 要 求 ， 对 不 同 活 动 需 求 的 患 者 均 可 使
+用
+［ 27 ］
+。 目前认为 ， 无论采用何种方式使用 PRP 治疗
+OLT ， 均 可 有 效 缓 解 疼 痛 症 状 、 改 善 关 节 功 能
+［ 26 ］
+。
+OLT 的治疗仍建议采用阶梯化治疗策略 ， 尤其是对
+于 Hepple Ⅰ 期损伤 ， 可首选非手术治疗 ， 而 PRP 注
+射 则 可 在 口 服 药 物 等 传 统 非 手 术 治 疗 无 效 后 进
+行
+［ 16 ， 20 ， 39 ］
+， 通常为 4 ~ 6 周
+［ 39 ］
+。 亦可根据所在医疗机构
+条件 、 患者具体情况及要求适当调整 。 在 PRP 治疗
+其他骨科疾病的专家共识中提出 ， 对于 PRP 治疗有
+效后复发的患者 ， 仍可尝试再次注射
+［ 27 ］
+。 对于 OLT
+患者 ， 同样可以考虑再次注射 PRP 以巩固疗效 ， 改
+善症状 。 但鉴于 OLT 非手术治疗效果的不确定性 ，
+对于此类患者应考虑手术治疗的必要性 。 而对于
+Hepple Ⅱ 期以上的损伤 ， 尤其是病灶面积较大 、 关节
+内已形成移位或游离的骨软骨块 ， 或者软骨下骨囊
+肿形成的患者 ， 以及非手术治疗失败的患者 ， 则建
+议以手术治疗为主 。 而 PRP 亦可作为有效的辅助
+技术 ， 根据手术方法及术中需要以关节腔内注射 、
+缺损区覆盖 、 与移植物浸泡混合等不同方式使用 。
+推荐意见 5 ： PRP 治疗 OLT 的 绝 对禁忌证包括 ：
+（ 1 ） 感染性关节病 ； （ 2 ） 血小板减少症或血小板功能
+不全 ； （ 3 ） 全身其他部位感染活动期 ； （ 4 ） 注射区存
+在 皮 肤 伤 口 、 感 染 或 溃 疡 ； （ 5 ） 恶 性 肿 瘤 （ 推 荐 强
+度 ： 强 ） 。
+共 纳 入 5 篇 文 献 ， 其 中 A 2 级 1 篇
+［ 19 ］
+， B 2 级
+2 篇
+［ 17 ， 20 ］
+， E 级 2 篇
+［ 27 ， 40 ］
+。 在禁忌证方面 ， 目前仍存在
+一定的争议 。 感染性关节炎 、 注射区存在伤口或感
+染 、 感染活动期及血小板减少或功能不全是 PRP 治
+疗 OLT 的绝对禁忌证
+［ 17 ， 19 ⁃ 20 ， 27 ， 40 ］
+。 此外 ， 由于恶性肿
+瘤患者使用 PRP 治疗骨科疾病时仍可能存在不确
+定性和潜在风险
+［ 27 ］
+， 且目前缺乏证据支持 ， 故本共
+识仍将其列为禁忌证 。
+推荐意见 6 ： PRP 治疗 OLT 的 相对禁忌证包括 ：
+（ 1 ） 妊娠或哺乳期患者 ； （ 2 ） 凝血功能异常者 ； （ 3 ） 近
+期接受过抗凝药物治疗者 ； （ 4 ） 贫血 （ 推荐强 度 ： 中 ） 。
+共 纳 入 5 篇 文 献 ， 其 中 A 2 级 1 篇
+［ 19 ］
+， B 2 级
+·· 388
+中华创伤杂志  2023  年 5  月第  39  卷第  5  期　 Chin J Trauma ,  May 2023 ,  Vol .  39 ,  No .  5
+2 篇
+［ 17 ， 20 ］
+， E 级 2 篇
+［ 27 ， 40 ］
+。 近期使用过抗凝药及凝血
+功能异常的患者曾被视为 PRP 使用禁忌证
+［ 19 ⁃ 20 ］
+， 而
+穿刺抽血 、 PRP 注射所导致血肿的可能性仍相对较 低 ，
+因此 ， 对于使用抗凝药物者或存在出血倾向者 ， 可
+根据其凝血功能状态酌情谨慎使用 PRP 。 妊娠和哺
+乳 期 患 者 亦 是 既 往 临 床 研 究 中 PRP 使 用 的 禁 忌
+证
+［ 17 ， 19 ⁃ 20 ］
+。 但 PRP 作为自体血浆成分 ， 具有较高的安
+全性 ， 这两类人群仍可考虑使用 ， 同时亦期待高级
+别的循证医学证据 。 亦有学者将血红蛋白 < 80  g/L
+的贫血患者作为 PRP 使用禁忌证
+［ 40 ］
+， 根据中国国家
+药品监督管理局批准使用的 PRP 制备套装 ， 采血量
+为 8 ~ 100  ml ， 对患者的血红蛋白影响通常较小
+［ 27 ］
+。
+总之 ， 对于以上需谨慎使用 PRP 的患者 ， 使用前必
+须充分告知相关风险及并发症可能 。
+4  PRP 治疗 OLT 的方法
+4 . 1  非手术治疗
+推荐意见 7 ： 采用单点关节腔内注射 ， 并根据需
+要决定疗程 （ 推荐强度 ： 弱 ） 。
+共纳入 2 篇文献 ， 均为 B 2 级
+［ 16 ， 20 ］
+。 PRP 注射作
+为非手术方式治疗 OLT 时 ， 可采用单注射点关节腔
+内注射 ， 且可多次注射 。 Mei⁃Dan 等
+［ 20 ］
+进行了一项
+单纯 PRP 与透明质酸关节腔内注射治疗 OLT 的对
+照研究 ， PRP 注射周期间隔为 2 周 ， 共注射 3 次 ， 末次
+随访时 PRP 组踝关节及后足评分 、 VAS 僵硬评分及
+VAS 功能评分均优于透明质酸组 。 而 Akpancar 和
+Gül 等
+［ 16 ］
+也报告 PRP 作为非手术方式治疗 OLT 获得
+较好的疗效 ， 剂量为 4  ml ， 共 3 次注射 ， 间隔周期为
+3 周 。 因此 ， 对于 PRP 非手术治疗 OLT ， 建议每次注
+射量为 3 ~ 4  ml ， 必要时可间隔 2 ~ 3 周重复注射 ， 每个
+疗程一般可达 3 次 ， 并根据需要确定疗程 ， 以确保疗
+效 。 此外 ， 为了保证 PRP 在关节腔内的有效弥散 ，
+建议注射后即刻进行被动的全范围踝关节活动 。
+4 . 2  手术治疗
+4 . 2 . 1  关节腔内 PRP 注射
+推荐意见 8 ： PRP 关节腔内注射可用于 OLT 手
+术的辅助治疗 （ 推荐强度 ： 中 ） 。
+共 纳 入 12 篇 文 献 ， 其 中 A 1 级 1 篇
+［ 26 ］
+， A 2 级
+2 篇
+［ 19 ， 41 ］
+， B 2 级 6 篇
+［ 17 ⁃ 18 ， 24 ， 34 ， 42 ］
+， C 级 3 篇
+［ 21 ， 23 ， 43 ］
+， E 级
+1 篇
+［ 44 ］
+。 手术联合关节腔内 PRP 注射是治疗 OLT 的 有
+效手段 ， 其效果优于单纯使用 PRP 或单纯手术治 疗
+［ 17 ， 26 ］
+，
+尤 其 是 在 微 骨 折 后 可 考 虑 注 射 PRP
+［ 17 ⁃ 19 ， 21 ， 23 ⁃ 24 ， 34 ， 44 ］
+。
+关节腔内 PRP 注射建议在手术操作完成后 ， 经止血
+并通过吸引将关节内残留液体清除后进行 。 对于
+关节镜手术者 ， 可在 “ 干镜 ” 技术 ， 即关节腔内不进
+行 液 体 灌 注 的 情 况 下 ， 将 PRP 直 接 注 射 于 微 骨 折
+区 ， 以更利于将 PRP 准确地注射至病损部位 。 推荐
+注射量 3 ~ 4  ml 。 为了 保证 PRP 注射效果 ， 必要时可
+在 2 ~ 3 周后重复注射 ， 疗程一般可达 3 次 。 此外 ， 对
+于 PRP 用于术中关节腔内注射者 ， 一般不建议留置
+引流 ， 以避免 PRP 流失 。
+需要指出的是 ， 目前关于术中或术后注射尚无
+定论 。 Görmeli 等
+［ 19 ］
+于微骨折术后 24 ~ 48  h 进行关节
+腔内 PRP 注射 ， 获得良好疗效 。 而 Do ğ ar 等
+［ 41 ］
+则在
+术后第 1 天完成注射 ， 另有学者在手术操作完成后
+便进行注射
+［ 21 ， 23 ， 34 ］
+。 虽然在骨软骨或骨移植后同样
+可以考虑采用 PRP 注射 ， 以提高疗效
+［ 42 ⁃ 43 ］
+， 但仍缺少
+高级别循证医学证据支持 。
+4 . 2 . 2  与移植物混合
+推荐意见 9 ： 采用自体或同种异体松质骨或骨
+软骨移植治疗 OLT 时 ， 可将移植物经 PRP 充分浸泡
+混合后移植 （ 推荐强度 ： 弱 ） 。
+共纳入 4 篇文献 ， 均为 E 级
+［ 40 ， 45 ⁃ 47 ］
+。 PRP 释放的
+多种生长因子有助于促进移植物及受区界面的愈
+合 ， 并减轻移植物 退变
+［ 45 ］
+。 因此 ， 采用自体或同种
+异 体 松 质 骨 或 骨 软 骨 移 植 治 疗 OLT 时 ， 尤 其 是 同
+种异体移植物自身细胞活性较低 ， 可以考虑将移
+植物与 PRP 充分浸泡混合后植入
+［ 40 ］
+。 国外专家共
+识 亦 推 荐 在 采 用 自 体 或 同 种 异 体 移 植 物 时 使 用
+PRP
+［ 46 ⁃ 47 ］
+。 然而 ， 该技术同样缺少高级别临床研究
+支持 。
+4 . 2 . 3  填充软骨缺损
+推荐意见 10 ： 若骨软骨缺损区移植物填充后仍
+存 在 软 骨 缺 损 ， 可 制 备 PRP 凝 胶 覆 盖 于 移 植 物 表
+面 ， 以促进软骨再生 （ 推荐强度 ： 弱 ） 。
+共纳入 3 篇文献 ， 其中 C 级 2 篇
+［ 11 ， 31 ］
+， E 级 1 篇
+［ 48 ］
+。
+对于 Hepple Ⅴ 期 OLT 患者 ， 常需要采用自体或同种
+异体松质骨填充骨软骨缺损区 ， 然而缺损区填充后
+常残留软骨缺损 ， 此时建议制备 PRP 凝胶覆盖于松
+质骨表面 ， 以填充软骨缺损 ， 促进软骨再生
+［ 11 ］
+。 PRP
+凝胶可有效避免液态 PRP 固定性及组织黏合能力
+差 等 劣 势 ， 改 善 软 骨 的 黏 附 性
+［ 48 ］
+。 施 忠 民 等
+［ 11 ］
+和
+连 伟飞等
+［ 31 ］
+均采用自体松质骨移植联合 PRP 凝 胶
+覆盖治疗 OLT 患者 ， 取得良好的治疗效果 。 该技术
+·· 389
+中华创伤杂志  2023  年 5  月第  39  卷第  5  期　 Chin J Trauma ,  May 2023 ,  Vol .  39 ,  No .  5
+仍需要更高级别循证医学证据支持 。
+4 . 2 . 4  与生物支架技术联合应用
+推荐意见 11 ： 采用生物支架技术治疗 OLT 时 ，
+可辅助使用 PRP （ 推荐强度 ： 中 ） 。
+共 纳 入 5 篇 文 献 ， 其 中 B 2 级 2 篇
+［ 49 ⁃ 50 ］
+， C 级
+2 篇
+［ 51 ⁃ 52 ］
+， E 级 1 篇
+［ 53 ］
+。 随着组织工程技术的发展及
+成熟 ， 生物支架技术已在 OLT 的治疗中逐步推广 ，
+而 联 合 应 用 PRP 的 生 物 支 架 技 术 则 可 为 多 能 细
+胞 的生长提供支持 ， 并促进向软骨细胞分化
+［ 49 ， 53 ］
+。
+有 学 者 采 用 基 于 细 胞 移 植 的 生 物 支 架 技 术 联 合
+PRP 凝胶治疗 OLT 并获得良好的治疗效果
+［ 49 ， 51 ⁃ 52 ］
+。
+Allahabadi 等
+［ 50 ］
+则使用经 PRP 加强后的脱水微粒化
+同种异体软骨基质治疗 OLT ， 患者疼痛症状明显缓
+解 ， 功能评分亦较好 。 因此 ， 在采用生物支架技术
+治疗 OLT 时 ， 同样可以联合使用 PRP ， 以提高疗效 。
+5  PRP 治疗 OLT 的相关问题
+5 . 1  不良反应及处理
+推荐意见 12 ： PRP 治疗 OLT 后的主要不良反应
+包括局部疼痛 、 肿胀 、 关节活动受限等 ， 症状出现后
+应及时评估 ， 并完善相关辅助检查 ， 以排除其他疾
+病可能 ， 积极对症处理 （ 推荐强度 ： 中 ） 。
+共纳入 3 篇文献 ， 其中 A 1 级 1 篇
+［ 26 ］
+， B 2 级 1 篇
+［ 20 ］
+，
+E 级 1 篇
+［ 27 ］
+。 患者在接受 PRP 治疗 ， 尤其是关节腔
+内注射后可能会产生局部疼痛 、 肿胀及关节活动受
+限等问题
+［ 20 ， 26 ］
+， 主要以对症治疗为主 ， 抬高患肢 、 冷
+敷及制动有助于缓解肿痛症状 ， 若无效则建议口服
+对乙酰氨基酚或弱阿片类药物镇痛
+［ 27 ］
+。 而对于肿
+胀明显者 ， 还可联合口服消肿药以促进肿胀消退 。
+对于头晕 、 恶心 、 头痛 、 多汗及心动过速等少数自限
+性不良反应
+［ 26 ］
+， 同样以观察病情及对症处理为主 。
+若症状持续或进行性加重 ， 必须完善相关辅助检
+查 ， 以排除其他疾病可能 。
+5 . 2  康复方案
+推荐意见 13 ： PRP 治疗 OLT 后的康复方案主要
+根据治疗方案 （ 非手术或手术 ） 及手术方法决定 （ 推
+荐强度 ： 中 ） 。
+共 纳 入 5 篇 文 献 ， 其 中 A 2 级 1 篇
+［ 19 ］
+， B 2 级
+3 篇
+［ 17 ⁃ 18 ， 20 ］
+， E 级 1 篇
+［ 54 ］
+。 对于非手术治疗者 ， 原则上
+注射后 24  h 内避免负重及行走 ， 2 ~ 3  d 内避免体育运
+动及重体力活动
+［ 20 ］
+， 2 ~ 3 个月内不建议进行对抗性
+运动 。 对于手术联合 PRP 治疗 OLT 后的康复方案
+尚无定论 ， 主要根据病损面积和类型 、 手术方法 、 术
+后症状及愈合情况等制订康复及重返运动计划
+［ 54 ］
+。
+国外学者提出了微骨折联合 PRP 注射后的不同康
+复方案
+［ 17 ⁃ 19 ］
+， 但本共识专家组认为 ， 具体的康复计划
+还应根据医疗或康复机构条件 、 患者依从性及功能
+要求等综合评估后制订 ， 必要时可联合康复医师制
+订相关康复规范 。
+5 . 3  疗效评估
+推荐意见 14 ： PRP 治疗 OLT 的疗效评价主要包
+括主观评估 、 功能评估及影像学评估 （ 推荐强 度 ： 中 ） 。
+共纳入 5 篇文献 ， 其中 A 1 级 1 篇
+［ 55 ］
+， A 2 级 1 篇
+［ 19 ］
+，
+B 2 级 2 篇
+［ 17 ⁃ 18 ］
+， C 级 1 篇
+［ 21 ］
+。 VAS 及治疗满意度是既
+往主观评价的主要指标 ， 而通过患者报告结果评估
+也为 PRP 治疗 OLT 的疗效评估提供了新的方法
+［ 55 ］
+。
+患者报告结果信息测量 （ PROMIS ） 系统近年来在足
+踝外科领域逐渐推广应用 ， 其优势在于患者能够自
+我报告信息和主观感受 ， 以避免来自临床医师或观
+察者的主观影响和偏倚 ， 从而获得最大程度的精确
+性 、 可靠性和通用性 。 因此 ， 未来可将 PROMIS 系统
+纳入主观评价指标中 。 除主观评价外 ， 功能评价同
+样至关重要 ， 美国足踝外科协会 （ AOFAS ） 踝 ⁃ 后足评
+分及足踝功能量表 （ FAAM ） 评分是既往常用的评分
+系统
+［ 17 ⁃ 19 ］
+， 可对疗效进行综合评价 。 MRI 是目前最
+常用的术后影像学评估方法 ， 可以显示骨髓水肿范
+围及病灶修复情况 ， 并可通过 MOCART 评分对修复
+效 果 进 行 评 估
+［ 21 ］
+。 鉴 于 此 ， 建 议 在 术 后 6 个 月 及
+12 个月复查 MRI ， 以明确骨软骨修复情况 。
+5 . 4  医患沟通
+推 荐 意 见 15 ： PRP 治 疗 前 做 好 充 分 的 医 患 沟
+通 ， 并权衡经济利弊 ， 患者知情同意签字后方可使
+用 （ 推荐强度 ： 中 ） 。
+共纳入 1 篇文献 ， 为 E 级
+［ 27 ］
+。 PRP 治疗前后应
+当进行充分的医患沟通 ， 告知患者整个治疗流程及
+可能发生的问题或并发症及其处理方法 ， 同时做好
+相关健康宣教 ， 详细告知注意事项及必要的康复计
+划 。 在卫生经济学评价方面 ， 应充分评估患者风险
+与获益比
+［ 27 ］
+， 并告知患者治疗费用相对较高 ， 可能
+需要自费支付 ， 且存在效果不佳或无效的可能 。 患
+者必须在签署同意书后方可使用 。
+6  总结与说明
+本 共 识 聚 焦 于 PRP 治 疗 OLT 的 相 关 内 容 ， 从
+·· 390
+中华创伤杂志  2023  年 5  月第  39  卷第  5  期　 Chin J Trauma ,  May 2023 ,  Vol .  39 ,  No .  5
+PRP 的制备及使用 ， PRP 治疗 OLT 的适应证及禁忌
+证 、 方法及相关问题提供基于循证医学的建议 ， 有
+助于指导临床工作者实践 。 但本共识并非 PRP 治
+疗 OLT 的 “ 金标准 ” ， 不作为法律依据 。 在患者个体
+情况及实际临床条件等各种因素制约下 ， PRP 治疗
+OLT 的方案应根据实际情况进行选择 。 随着相关技
+术的发展及对 OLT 认知的深入 ， 本共识内容将进一
+步修订及 完善 。
+专家组名单 （ 按姓氏汉语拼音排序 ）  常非 （ 吉林大学第二医院 ） 、
+邓 宇 （ 武汉大学中南医院 ） 、 杜虎羽 （ 北京大学第一医院太原医院 ） 、
+段小军 （ 陆军军医大学第一附属医院 ） 、 顾文奇 （ 上海交通大学医学 院
+附属第六人民医院 ， 上海市第六人民医院国家骨科医学中心 ） 、 桂鉴 超
+（ 南京医科大学附属南京医院 ） 、 郭秦炜 （ 北京大学第三医院 ） 、 洪劲 松
+（ 广州市正骨医院 ） 、 胡勇 （ 山东大学第二医院 ） 、 华伟伟 （ 武警安徽省
+总队医院 ） 、 华英汇 （ 复旦大学附属华山医院 ） 、 黄建华 （ 上海交通大 学
+医学院附属第一人民医院 ） 、 黄雷 （ 宁波市第六医院 ） 、 黄轩 （ 海军军 医
+大学第一附属医院 ） 、 李棋 （ 四川大学华西医院 ） 、 刘华 （ 中南大学湘 雅
+医院 ） 、 曲文庆 （ 烟台市烟台山医院 ） 、 沈雷 （ 上海交通大学医学院
+附 属新华医院 ） 、 施忠民 （ 上海交通大学医学院附属第六人民医院 ，
+上海市第六人民医院国家骨科医学中心 ） 、 陶旭 （ 陆军军医大学第一
+附属医院 ） 、 王培 （ 承德医学院附属医院 ） 、 王旭 （ 复旦大学附属华山
+医院 ） 、 魏民 （ 中国人民解放军总医院 ） 、 魏世隽 （ 解放军中部战区
+总 医院 ） 、 武勇 （ 北京积水潭医院 ） 、 邢崇慧 （ 云南省体育运动创伤专 科
+医院 ） 、 邢丹 （ 北京大学人民医院 ） 、 徐海林 （ 北京大学人民医院 ） 、
+杨 云峰 （ 同济大学附属同济医院 ） 、 杨宗宇 （ 河北省沧州中西医结合
+医院 ） 、 于晓巍 （ 上海交通大学医学院附属第六人民医院 ， 上海市
+第六人民医院国家骨科医学中心 ） 、 袁霆 （ 上海交通大学医学院附属
+第六人民医院 ， 上海市第六人民医院国家骨科医学中心 ） 、 张长青
+（ 上海交通大学医学院附属第六人民医院 ， 上海市第六人民医院国 家
+骨科医学中心 ） 、 张超 （ 上海交通大学医学院附属仁济医院 ） 、 张洪涛
+（ 苏州大学附属第一医院 ） 、 张晖 （ 四川大学华西医院 ） 、 张明珠 （ 首都
+医科大学附属同仁医院 ） 、 张宇 （ 四川省骨科医院 ） 、 赵宏谋 （ 西安交 通
+大学附属红会医院 ） 、 朱永展 （ 佛山市中医院 ） 、 朱渊 （ 上海交通大学
+医学院附属瑞金医院 ） 、 庄汝杰 （ 浙江省中医院 ）
+利益冲突  所有作者声明不存在利益冲突
+作者贡献声明  施忠民 ： 共识设计 、 撰写及修改 ； 顾文奇 ： 文献检索 、
+共识撰写 ； 杨云峰 、 王旭 、 张明珠 ： 文献评定 ； 徐海林 、 李棋 、 邢丹 、
+郭 秦炜 ： 方法学制订 ； 张晖 、 洪劲松 、 陶旭 、 胡勇 、 魏民 、 袁霆 ： 共识撰 写 ；
+张长青 ： 共识制订指导及审 定
+参 考 文 献
+［ 1 ］ Grossman JP ,  Lyons MC .  A review of osteochondral lesions of 
+the talus ［ J ］ .  Clin Podiatr Med Surg ,  2009 ,  26 ( 2 ): 205 ⁃ 226 .  DOI :
+10 . 1016 /j . cpm . 2009 . 01 . 003 .
+［ 2 ］ Barbier O ,  Amouyel T ,  de l ′ Escalopier N ,  et al .  Osteochondral 
+lesion of the talus :  What are we talking about ?［ J ］  Orthop Trau ⁃
+matol Surg Res ,  2021 ,  107 ( 8 S ): 103068 .  DOI : 10 . 1016 /j . otsr .  
+2021 . 103068 .
+［ 3 ］ Toale J ,  Shimozono Y ,  Mulvin C ,  et al .  Midterm outcomes of 
+bone marrow stimulation for primary osteochondral lesions of the 
+talus :  A systematic review ［ J ］ .  Orthop J Sports Med ,  2019 ,  7 ( 10 ):
+2325967119879127 .  DOI : 10 . 1177 / 2325967119879127 .
+［ 4 ］ Dahmen J ,  Lambers KTA ,  Reilingh ML ,  et al .  No superior treat ⁃
+ment for primary osteochondral defects of the talus ［ J ］ .  Knee 
+Surg Sports Traumatol Arthrosc ,  2018 ,  26 ( 7 ): 2142 ⁃ 2157 .  DOI :
+10 . 1007 /s 00167 ⁃ 017 ⁃ 4616 ⁃ 5 .
+［ 5 ］ Rikken QGH ,  Kerkhoffs GMMJ .  Osteochondral lesions of the  
+talus :  An individualized treatment paradigm from the Amsterdam 
+perspective ［ J ］ .  Foot Ankle Clin ,  2021 ,  26 ( 1 ): 121 ⁃ 136 .  DOI :
+10 . 1016 /j . fcl . 2020 . 10 . 002 .
+［ 6 ］ Guimarães JB ,  da Cruz IAN ,  Nery C ,  et al .  Osteochondral lesions  
+of the talar dome :  an up⁃to⁃date approach to multimodality imag ing 
+and surgical techniques ［ J ］ .  Skeletal Radiol ,  2021 ,  50 ( 11 ): 2151 ⁃ 
+2168 .  DOI : 10 . 1007 /s 00256 ⁃ 021 ⁃ 03823 ⁃ 7 .
+［ 7 ］ Wang CC ,  Yang KC ,  Chen IH .  Current treatment concepts for 
+osteochondral lesions of the talus ［ J ］ .  Tzu Chi Med J ,  2020 ,  33 ( 3 ):  
+243 ⁃ 249 .  DOI : 10 . 4103 /tcmj . tcmj_ 106 _ 20 .
+［ 8 ］ Zengerink M ,  Szerb I ,  Hangody L ,  et al .  Current concepts :  treat ⁃
+ment of osteochondral ankle defects ［ J ］ .  Foot Ankle Clin ,  2006 ,  
+11 ( 2 ): 331 ⁃ 359 ,  vi .  DOI : 10 . 1016 /j . fcl . 2006 . 03 . 008 .
+［ 9 ］ Krause F ,  Anwander H .  Osteochondral lesion of the talus :  still a 
+problem ? ［ J ］  EFORT Open Rev ,  2022 ,  7 ( 6 ): 337 ⁃ 343 .  DOI : 10 .  
+1530 /EOR⁃ 22 ⁃ 0024 .
+［ 10 ］ Qulaghassi M ,  Cho YS ,  Khwaja M ,  et al .  Treatment strategies for 
+osteochondral lesions of the talus :  A review of the recent evi ⁃
+dence ［ J ］ .  Foot ( Edinb ),  2021 ,  47 : 101805 .  DOI : 10 . 1016 /j . foot .  
+2021 . 101805 .
+［ 11 ］ 施忠民 ,  顾文奇 ,  许同龙 ,  等 .  Hepple Ⅴ 型距骨骨软骨损伤的
+手术治疗 ［ J ］ .  中华骨与关节外科杂志 ,  2015 ,  8 ( 4 ): 291 ⁃ 295 .  
+DOI : 10 . 3969 /j . issn . 2095 ⁃ 9958 . 2015 . 04 - 004 .
+［ 12 ］ Johnson DS ,  Dhiman N ,  Badhal S ,  et al .  Effects of intra⁃articular 
+platelet rich plasma on cartilage thickness ,  clinical and function al 
+outcomes in knee osteoarthritis ［ J ］ .  Cureus ,  2022 ,  14 ( 12 ): e 32256 .  
+DOI : 10 . 7759 /cureus . 32256 .
+［ 13 ］ Wang L ,  Wei L ,  Ma H ,  et al .  Is platelet⁃rich plasma better than 
+hyaluronic acid in the treatment of knee osteoarthritis ?  A 
+meta⁃analysis of randomized controlled trials ［ J ］ .  Wideochir Inne 
+Tech Maloinwazyjne ,  2022 ,  17 ( 4 ): 611 ⁃ 623 .  DOI : 10 . 5114 /wiitm .  
+2022 . 118777 .
+［ 14 ］ Dong C ,  Zhao C ,  Wang F .  Clinical benefit of high tibial osteotomy  
+combined with the intervention of platelet⁃rich plasma for severe 
+knee osteoarthritis ［ J ］ .  J Orthop Surg Res ,  2022 ,  17 ( 1 ): 405 .  
+DOI : 10 . 1186 /s 13018 ⁃ 022 ⁃ 03304 ⁃ 0 .
+［ 15 ］ Peng YN ,  Chen JL ,  Hsu CC ,  et al .  Intra⁃articular leukocyte⁃rich 
+platelet⁃rich plasma versus intra⁃articular hyaluronic acid in the 
+treatment of knee osteoarthritis :  A meta⁃analysis of 14  random ized 
+controlled trials ［ J ］ .  Pharmaceuticals ( Basel ),  2022 ,  15 ( 8 ): 974 .  
+DOI : 10 . 3390 /ph 15080974 .
+［ 16 ］ Akpancar S ,  Gül D .  Comparison of platelet rich plasma and  
+prolotherapy in the management of osteochondral lesions of the 
+talus :  A retrospective cohort study ［ J ］ .  Med Sci Monit ,  2019 ,  25 :
+5640 ⁃ 5647 .  DOI : 10 . 12659 /MSM . 914111 .
+［ 17 ］ Guney A ,  Akar M ,  Karaman I ,  et al .  Clinical outcomes of plate ⁃
+let rich plasma ( PRP )  as an adjunct to microfracture surgery in 
+osteochondral lesions of the talus ［ J ］ .  Knee Surg Sports Trauma tol 
+Arthrosc ,  2015 ,  23 ( 8 ): 2384 ⁃ 2389 .  DOI : 10 . 1007 /s 00167 ⁃ 013 ⁃ 
+2784 ⁃ 5 .
+·· 391
+中华创伤杂志  2023  年 5  月第  39  卷第  5  期　 Chin J Trauma ,  May 2023 ,  Vol .  39 ,  No .  5
+［ 18 ］ Guney A ,  Yurdakul E ,  Karaman I ,  et al .  Medium⁃term outcomes 
+of mosaicplasty versus arthroscopic microfracture with or without 
+platelet⁃rich plasma in the treatment of osteochondral lesions of 
+the talus ［ J ］ .  Knee Surg Sports Traumatol Arthrosc ,  2016 ,  24 ( 4 ):
+1293 ⁃ 1298 .  DOI : 10 . 1007 /s 00167 ⁃ 015 ⁃ 3834 ⁃y .
+［ 19 ］ Görmeli G ,  Karakaplan M ,  Görmeli CA ,  et al .  Clinical effects of 
+platelet⁃rich plasma and hyaluronic acid as an additional therapy 
+for talar osteochondral lesions treated with microfracture surgery :  
+A prospective randomized clinical trial ［ J ］ .  Foot Ankle Int ,  2015 ,  
+36 ( 8 ): 891 ⁃ 900 .  DOI : 10 . 1177 / 1071100715578435 .
+［ 20 ］ Mei⁃Dan O ,  Carmont MR ,  Laver L ,  et al .  Platelet⁃rich plasma or 
+hyaluronate in the management of osteochondral lesions of the  
+talus ［ J ］ .  Am J Sports Med ,  2012 ,  40 ( 3 ): 534 ⁃ 541 .  DOI : 10 . 1177 / 
+0363546511431238 .
+［ 21 ］ 陈城 ,  傅绍菱 ,  李学谦 ,  等 .  踝关节镜后方入路微骨折术联合
+富血小板血浆注射治疗距骨骨软骨损伤 ［ J ］ .  中华创伤杂志 ,  
+2022 ,  38 ( 8 ): 701 ⁃ 707 .  DOI : 10 . 3760 /cma . j . cn 501098 ⁃ 20220221 ⁃ 
+00119 .
+［ 22 ］ 王勇 ,  张宇 ,  刘英 ,  等 .  富血小板血浆关节腔注射在关节镜下
+微骨折术治疗距骨骨软骨损伤中的应用 ［ J ］ .  中医正骨 ,  2022 ,  
+34 ( 5 ): 6 ⁃ 12 .  DOI : 10 . 3969 /j . issn . 1001 ⁃ 6015 . 2022 . 05 . 002 .
+［ 23 ］ 申成春 ,  黄雷 ,  张峰 ,  等 .  踝关节镜下微骨折术联合富血小板
+血浆治疗滑轨样距骨骨软骨损伤疗效分析 ［ J ］ .  中国骨与 关 节
+损伤杂志 ,  2022 ,  37 ( 6 ): 652 ⁃ 653 .  DOI : 10 . 7531 /j . issn . 1672 ⁃ 9935 .  
+2022 . 06 . 027 .
+［ 24 ］ 任弘 .  富血小板血浆用于距骨软骨损伤治疗中的效果 ［ J/ CD ］ .  
+中华关节外科杂志 : 电子版 ,  2021 ,  15 ( 6 ): 687 ⁃ 692 .  DOI : 10 . 3877 / 
+cma . j . issn . 1674 ⁃ 134 X . 2021 . 06 . 006 .
+［ 25 ］ 徐明明 ,  张焱 ,  刘云鹏 .  镜下微骨折联合富血小板血浆治疗
+距骨软骨损伤 ［ J ］ .  中国矫形外科杂志 ,  2021 ,  29 ( 6 ): 548 ⁃ 551 .  
+DOI : 10 . 3977 /j . issn . 1005 ⁃ 8478 . 2021 . 06 . 16 .
+［ 26 ］ Yausep OE ,  Madhi I ,  Trigkilidas D .  Platelet rich plasma for 
+treatment of osteochondral lesions of the talus :  A systematic re ⁃
+view of clinical trials ［ J ］ .  J Orthop ,  2020 ,  18 : 218 ⁃ 225 .  DOI : 10 .  
+1016 /j . jor . 2020 . 01 . 046 .
+［ 27 ］ 李箭 ,  崔国庆 ,  何成奇 ,  等 .  富血小板血浆治疗肱骨外上髁炎
+临床专家共识 （ 2022 版 ） ［ J ］ .  中华创伤杂志 ,  2022 ,  38 ( 8 ): 673 ⁃ 
+680 .  DOI : 10 . 3760 /cma . j . cn 501098 ⁃ 20220505 ⁃ 00359 .
+［ 28 ］ Niederberger M ,  Köberich S ;  members of the DeWiss Network .  
+Coming to consensus :  the Delphi technique ［ J ］ .  Eur J Cardio ⁃
+vasc Nurs ,  2021 ,  20 ( 7 ): 692 ⁃ 695 .  DOI : 10 . 1093 /eurjcn/zvab 059 .
+［ 29 ］ 位付涛 ,  王振 .  去白细胞富血小板血浆对距骨骨软骨损伤的
+疗效及机制研究 ［ J ］ .  中国修复重建外科杂志 ,  2019 ,  33 ( 5 ):
+555 ⁃ 562 .  DOI : 10 . 7507 / 1002 ⁃ 1892 . 201811096 .
+［ 30 ］ 娄磊 ,  俞光荣 ,  倘艳锋 ,  等 .  纯富血小板血浆关节腔注射联合
+手术治疗 Hepple Ⅴ 型距骨骨软骨损伤 ［ J ］ .  中医正骨 ,  2020 ,  
+32 ( 12 ): 25 ⁃ 30 .
+［ 31 ］ 连伟飞 ,  廖明新 ,  黄杰鑫 ,  等 .  自体松质骨移植联合富血小板
+血浆治疗距骨骨软骨损伤近期疗效分析 ［ J ］ .  中国骨与关节
+损 伤 杂 志 ,  2021 ,  36 ( 4 ): 434 ⁃ 436 .  DOI : 10 . 7531 /j . issn . 1672 ⁃ 
+9935 . 2021 . 04 . 036 .
+［ 32 ］ 杨金杰 .  微骨折术联合关节腔内注射富血小板血浆治疗小
+面积矩骨骨软骨损伤 ［ J ］ .  中国修复重建外科杂志 ,  2020 ,  34 ( 1 ):  
+53 ⁃ 56 .  DOI : 10 . 7507 / 1002 ⁃ 1892 . 201904093 .
+［ 33 ］ 庄雅雯 ,  曾奕明 ,  陈云峰 ,  等 .  不同激活剂对人富血小板血浆
+释放曲线的影响 ［ J ］ .  中华结核和呼吸杂志 ,  2018 ,  41 ( 11 ): 868 ⁃ 
+872 .  DOI : 10 . 3760 /cma . j . issn . 1001 ⁃ 0939 . 2018 . 11 . 008 .
+［ 34 ］ 贾岩波 ,  李伟 ,  任逸众 ,  等 .  关节镜下微骨折术与微骨折术联 合
+富血小板血浆治疗距骨软骨损伤的疗效比较 ［ J ］ .  中国骨与
+关节损伤杂志 ,  2020 ,  35 ( 8 ): 867 ⁃ 869 .  DOI : 10 . 7531 /j . issn . 1672 ⁃ 
+9935 . 2020 . 08 . 031 .
+［ 35 ］ Torricelli P ,  Fini M ,  Filardo G ,  et al .  Regenerative medicine for 
+the treatment of musculoskeletal overuse injuries in competition 
+horses ［ J ］ .  Int Orthop ,  2011 ,  35 ( 10 ): 1569 ⁃ 1576 .  DOI : 10 . 1007 /
+s 00264 ⁃ 011 ⁃ 1237 ⁃ 3 .
+［ 36 ］ Dohan Ehrenfest DM ,  Rasmusson L ,  Albrektsson T .  Classifica ⁃
+tion of platelet concentrates :  from pure platelet⁃rich plasma ( P⁃PRP )  
+to leucocyte⁃and platelet⁃rich fibrin ( L⁃PRF ) ［ J ］ .  Trends Bio ⁃
+technol ,  2009 ,  27 ( 3 ): 158 ⁃ 167 .  DOI : 10 . 1016 /j . tibtech . 2008 .  
+11 . 009 .
+［ 37 ］ Boswell SG ,  Cole BJ ,  Sundman EA ,  et al .  Platelet⁃rich plasma :  a 
+milieu of bioactive factors ［ J ］ .  Arthroscopy ,  2012 ,  28 ( 3 ): 429 ⁃ 
+439 .  DOI : 10 . 1016 /j . arthro . 2011 . 10 . 018 .
+［ 38 ］ Zhang L ,  Chen S ,  Chang P ,  et al .  Harmful effects of leukocyte⁃ 
+rich platelet⁃rich plasma on rabbit tendon stem cells  in vitro ［ J ］ .  
+Am J Sports Med ,  2016 ,  44 ( 8 ): 1941 ⁃ 1951 .  DOI : 10 . 1177 / 03635  
+46516644718 .
+［ 39 ］ Dombrowski ME ,  Yasui Y ,  Murawski CD ,  et al .  Conservative 
+management and biological treatment strategies :  Proceedings of 
+the International Consensus Meeting on Cartilage Repair of the 
+Ankle ［ J ］ .  Foot Ankle Int ,  2018 ,  39 ( 1 _suppl ): 9 S⁃ 15 S .  DOI : 10 .  
+1177 / 1071100718779390 .
+［ 40 ］ Yasui Y ,  Ross AW ,  Kennedy JG .  Platelet⁃rich plasma and con ⁃
+centrated bone marrow aspirate in surgical treatment for osteo ⁃
+chondral lesions of the talus ［ J ］ .  Foot Ankle Clin ,  2016 ,  21 ( 4 ):
+869 ⁃ 884 .  DOI : 10 . 1016 /j . fcl . 2016 . 07 . 010 .
+［ 41 ］ Do ğ ar F ,  Uzun E ,  Gürbüz K ,  et al .  Comparison of arthroscopic 
+treatment methods in talar osteochondral lesions :  A multicenter ,  
+prospective ,  randomized clinical trial ［ J ］ .  J Am Podiatr Med  
+Assoc ,  2021 ,  111 ( 4 ): Article_ 5 .  DOI : 10 . 7547 / 20 ⁃ 218 .
+［ 42 ］ 张志伟 ,  赖良鹏 ,  李兴华 ,  等 .  富血小板血浆关节腔注射联合
+改良双平面 Chevron 内踝截骨自体骨软骨移植术治疗 Hepple 
+Ⅴ 期距骨骨软骨损伤的临床研究 ［ J ］ .  中医正骨 ,  2022 ,  34 ( 10 ):
+38 ⁃ 43 .  DOI : 10 . 3969 /j . issn . 1001 ⁃ 6015 . 2022 . 10 . 006 .
+［ 43 ］ 刘林 ,  杨宗宇 ,  刘核达 ,  等 .  自体带骨膜髂骨移植联合 PRP 治 疗
+Hepple Ⅴ 期距骨骨软骨损伤 ［ J ］ .  中国矫形外科杂志 ,  2021 ,  
+29 ( 2 ): 154 ⁃ 157 .  DOI : 10 . 3977 /j . issn . 1005 ⁃ 8478 . 2021 . 02 . 14 .
+［ 44 ］ Hannon CP ,  Bayer S ,  Murawski CD ,  et al .  Debridement ,  curet ⁃
+tage ,  and bone marrow stimulation :  Proceedings of the Interna ⁃
+tional Consensus Meeting on Cartilage Repair of the Ankle ［ J ］ .  
+Foot Ankle Int ,  2018 ,  39 ( 1 _suppl ): 16 S⁃ 22 S .  DOI : 10 . 1177 / 1071  
+100718779392 .
+［ 45 ］ Smyth NA ,  Haleem AM ,  Murawski CD ,  et al .  The effect of 
+platelet⁃rich plasma on autologous osteochondral transplantation :  
+an in vivo rabbit model ［ J ］ .  J Bone Joint Surg Am ,  2013 ,  95 ( 24 ):
+2185 ⁃ 2193 .  DOI : 10 . 2106 /JBJS . L . 01497 .
+［ 46 ］ Hurley ET ,  Murawski CD ,  Paul J ,  et al .  Osteochondral autograft :  
+Proceedings of the International Consensus Meeting on Cartilage 
+Repair of the Ankle ［ J ］ .  Foot Ankle Int ,  2018 ,  39 ( 1 _suppl ): 28 S⁃ 
+34 S .  DOI : 10 . 1177 / 1071100718781098 .
+［ 47 ］ Smyth NA ,  Murawski CD ,  Adams SB ,  et al .  Osteochondral al ⁃
+lograft :  Proceedings of the International Consensus Meeting on Car ⁃
+tilage Repair of the Ankle ［ J ］ .  Foot Ankle Int ,  2018 ,  39 ( 1 _suppl ):  
+35 S⁃ 40 S .  DOI : 10 . 1177 / 1071100718781097 .
+［ 48 ］ Fang J ,  Wang X ,  Jiang W ,  et al .  Platelet⁃rich plasma therapy in 
+the treatment of diseases associated with orthopedic injuries ［ J ］ .  
+Tissue Eng Part B Rev ,  2020 ,  26 ( 6 ): 571 ⁃ 585 .  DOI : 10 . 1089 /ten .
+TEB . 2019 . 0292 .
+·· 392
+中华创伤杂志  2023  年 5  月第  39  卷第  5  期　 Chin J Trauma ,  May 2023 ,  Vol .  39 ,  No .  5
+［ 49 ］ Giannini S ,  Buda R ,  Cavallo M ,  et al .  Cartilage repair evolution 
+in post⁃traumatic osteochondral lesions of the talus :  from open 
+field autologous chondrocyte to bone⁃marrow⁃derived cells trans ⁃
+plantation ［ J ］ .  Injury ,  2010 ,  41 ( 11 ): 1196 ⁃ 1203 .  DOI : 10 . 1016 /
+j . injury . 2010 . 09 . 028 .
+［ 50 ］ Allahabadi S ,  Johnson B ,  Whitney M ,  et al .  Short⁃term outcomes 
+following dehydrated micronized allogenic cartilage versus iso ⁃
+lated microfracture for treatment of medial talar osteochondral 
+l esions ［ J ］ .  Foot Ankle Surg ,  2022 ,  28 ( 5 ): 642 ⁃ 649 .  DOI : 10 . 1016 / 
+j . fas . 2021 . 07 . 012 .
+［ 51 ］ Giannini S ,  Buda R ,  Vannini F ,  et al .  One⁃step bone marrow⁃ 
+derived cell transplantation in talar osteochondral lesions ［ J ］ .  
+Clin Orthop Relat Res ,  2009 ,  467 ( 12 ): 3307 ⁃ 3320 .  DOI : 10 . 1007 / 
+s 11999 ⁃ 009 ⁃ 0885 ⁃ 8 .
+［ 52 ］ Buda R ,  Vannini F ,  Cavallo M ,  et al .  One⁃step bone marrow⁃ 
+de rived cell transplantation in talarosteochondral lesio ns :  mid⁃term 
+results ［ J ］ .  Joints ,  2014 ,  1 ( 3 ): 102 ⁃ 107 .
+［ 53 ］ Rothrauff BB ,  Murawski CD ,  Angthong C ,  et al .  Scaffold⁃based 
+therapies :  Proceedings of the International Consensus Meeting 
+on Cartilage Repair of the Ankle ［ J ］ .  Foot Ankle Int ,  2018 ,  
+39 ( 1 _suppl ): 41 S⁃ 47 S .  DOI : 10 . 1177 / 1071100718781864 .
+［ 54 ］ D ′ Hooghe P ,  Murawski CD ,  Boakye LAT ,  et al .  Rehabilitation 
+and return to sports :  Proceedings of the International Consensus 
+Meeting on Cartilage Repair of the Ankle ［ J ］ .  Foot Ankle Int ,  
+2018 ,  39 ( 1 _suppl ): 61 S⁃ 67 S .  DOI : 10 . 1177 / 1071100718781862 .
+［ 55 ］ Jazzo SF ,  Scribner D ,  Shay S ,  et al .  Patient⁃reported outcomes 
+following platelet⁃rich plasma injections in treating osteochon ⁃
+dral lesions of the talus :  A critically appraised topic ［ J ］ .  J Sport 
+Rehabil ,  2018 ,  27 ( 2 ): 177 ⁃ 184 .  DOI : 10 . 1123 /jsr . 2016 ⁃ 0184 .
+（ 收稿 日期 ： 2023 ⁃ 03 ⁃ 09 ）
+本文引用格式
+施忠民 ,  顾文奇 ,  杨云峰 ,  等 .  富血小板血浆治疗距骨骨软骨损伤
+专 家 共 识 （ 2023 版 ） [ J ].  中 华 创 伤 杂 志 ,  2023 ,  39 ( 5 ):  385 - 393 .  DOI :  
+10 . 3760 /cma . j . cn 501098 ⁃ 20230309 ⁃ 00127 .
+· 读者 · 作者 · 编者 ·
+《 中华创伤杂志 》 关于论文作者署名与志谢的要求
+我国著作权法自公布以来 ， 已得到社会各界的广 泛重视 ， 作为医学科技期刊必须不折不扣地执行著作权法 。 为此将本刊
+对作者署名和志谢的有关要求重申如下 。
+1  作者署名
+1 . 1  署名的意义 ： （ 1 ） 标明论文的责任人 ， 文责自负 ； （ 2 ） 医学论文是医学科技成果的总结和记录 ， 是作者辛勤劳动的成果
+和创造智慧的结晶 ， 也是作者对医学事业作出的贡献 ， 并以此获得社会的尊重和承认的客观指标 ， 是应得的荣誉 ， 也是论文版
+权归作者的一个声明 ； （ 3 ） 作者署名便于编辑 、 读者与作者联系 ， 沟通信息 ， 互相探讨 ， 共同提高 。 作者姓名在文题下按序排列 ，
+排序应在投稿时确定 ， 在编排过程中不应再做更改 ； 作者单位名称及邮政编码脚注于同页左下方 。
+1 . 2  作者应具备的条件 ： （ 1 ） 参与选题和设计 ， 或参与资料的分析和解释者 ； （ 2 ） 起草或修改论文中关键性理论或其他主
+要内容者 ； （ 3 ） 能对编辑部的修改意见进行核修 ， 在学术界进行答辩 ， 并最终同意该文发表者 。 以上 3 条均需具备 。 仅参与获
+得资金或收集资料者不能列为作者 ， 仅对科研小组进行一般管理者也不宜列为作者 。 其他对该研究有贡献者应列入志谢部
+分 。 对文章中的各主要结论 ， 均必须至少有 1 位作者负责 。 在每篇文章的作者中需要确定 1 位能对该论文全面负责的通信作
+者 。 通信作者应在投稿时确定 ， 如在来稿中未特殊标明 ， 则视第一作者为通信作者 。 第一作者与通信作者不是同一人时 ， 在论
+文首页脚注通信作者姓名 、 单位及邮政编码 。 作者中如有外籍作者 ， 应附本人亲笔签名同意在本刊发表的函件 。 集体署名的
+论文于文题下列署名单位 ， 于文末列整理者姓名 ， 并于论文首页脚注通信作者姓名 、 单位和邮政编码 。 集体署名的文章必须将
+对该文负责的关键人物列为通信作者 。 通信作者一般只列 1 位 ， 由投稿者决定 。
+2  志谢
+在文后志谢是表示感谢并记录在案的意思 。 对给予实质性帮助而又不能列为作者的单位或个人应在文后给予志谢 。 但
+必须征得被志谢人的书面同意 。 志谢应避免以下倾向 ： （ 1 ） 对确实给予了帮助的单位或个人 ， 甚至用了他人的方法 、 思路 、 资
+料 ， 为了抢先发表 ， 而不公开志谢和说明 ； （ 2 ） 出于某种考虑 ， 将应被志谢人放在作者的位置上 ， 混淆了作者和被志谢者的权利
+和义务 ； （ 3 ） 以名人 、 知名专家包装自己的论文 ， 抬高论文的身份 ， 将未曾参与工作的 ， 也未阅读过该论文的知名专家写在志谢
+中 。 被志谢者包括 ： （ 1 ） 对研究提供资助的单位和个人 、 合作单位 ； （ 2 ） 协助完成研究工作和提供便利条件的组织和个人 ； （ 3 ） 协
+助诊断和提出重要建议的人 ； （ 4 ） 给予转载和引用权的资料 、 图片 、 文献 、 研究思想和设想的所有者 ； （ 5 ） 作出贡献又不能成为作
+者的人 ， 如提供技术帮助和给予财力 、 物力支持的人 ， 阐明其支援的性质 ； （ 6 ） 其他需志谢者 。
+·· 393

@@ -1,0 +1,679 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E8%84%91%E5%8D%92%E4%B8%AD%E6%97%A9%E6%9C%9F%E5%BA%B7%E5%A4%8D%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97.html
+# 标题: 中国脑卒中早期康复治疗指南 - 中华神经科杂志
+# 发布方/日期: 中华医学会神经病学分会，中华神经科杂志, 2017,50(06) : 405-412. DOI: 10.3760/cma.j；2017-06-08
+
+中国脑卒中早期康复治疗指南
+中华医学会神经病学分会
+中华医学会神经病学分会神经康复学组
+中华医学会神经病学分会脑血管病学组
+中华神经科杂志, 2017,50(06) : 405-412. DOI: 10.3760/cma.j.issn.1006-7876.2017.06.002
+脑卒中的特点是高发病率、高致残率和高死亡率。中国每年新发卒中患者约200万人，其中70%～80%的卒中患者因为残疾不能独立生活[1]。卒中康复是经循证医学证实的对降低致残率最有效的方法，是脑卒中组织化管理中不可或缺的关键环节。现代康复理论和实践证明，卒中后进行有效的康复能够加速康复的进程，减轻功能上的残疾，节约社会资源。脑卒中早期康复的根本目的是预防并发症，最大限度地减轻障碍和改善功能，提高日常生活能力，其最终目的是使患者回归家庭，回归社会。规范的康复流程和康复治疗方案对降低急性脑血管病的致残率，提高患者的生存质量具有十分重要的意义[2]。
+本指南旨在根据脑卒中康复评定与治疗的最新循证医学进展，参考2012年《中国脑卒中康复治疗指南简化版》[3]的主要内容，面向综合医院的神经内科医师，按照简单实用性的原则，推荐临床评价和治疗的共识性意见，以便于在我国综合医院的神经内科推广普及脑卒中早期康复。证据水平(A、B、C、D)和推荐强度(4级)参考了中国急性缺血性脑卒中诊治指南2010的相关标准[4]。
+脑卒中早期康复的组织管理
+脑卒中患者一般入住综合医院的神经内科进行救治。脑卒中康复管理应采取多学科、多专业人员的团队工作方式，除常规的脑卒中抢救治疗外，还应该能够为卒中患者提供肢体功能训练、语言训练、生活活动训练、认知训练、心理康复和健康教育等全面的管理和系统康复。脑卒中早期康复管理团队需要以神经内科医生或神经康复医生为治疗组组长，由肢体康复治疗师、语言治疗师、康复护士等成员参加，共同完成脑卒中的早期抢救治疗和康复任务[2]。
+卒中单元(stroke unit)是脑卒中有效的组织化医疗和康复管理模式，注重早期康复是其特点，受到各国脑卒中康复治疗指南的普遍推荐。卒中单元模式包括急性期卒中单元(acute stroke unit)、综合卒中单元、卒中康复单元(rehabilitation stroke unit)等，系统评价已证实卒中单元至少能降低20%的脑卒中患者致死率和残疾率[5]。因为脑卒中早期病情不稳定以及需要进行早期康复，所以早期康复住院时间至少需要25 d。
+推荐意见：(1)脑卒中急性期患者入住综合医院神经内科或卒中单元后，应立即给予全面的身体状况评估，成立由多学科组成的脑卒中康复治疗小组(Ⅰ级推荐，A级证据)。(2)建议在发病/入院24 h内应用NIHSS评分评价卒中的功能缺损情况，并启动二级预防措施(Ⅰ级推荐，A级证据)。(3)对脑卒中急性期患者应尽可能首先收入卒中单元进行急性期溶栓等药物治疗稳定病情，再经过康复科或康复中心评估后根据具体情况进行个体化、全面的康复治疗(Ⅰ级推荐，A级证据)。(4)建议应用标准有效的量表来评价患者卒中相关的障碍和功能情况，决定适当的护理水平，制订个体化的治疗方案，并实施康复治疗。评价结果和预期结果都应告知患者及其家庭成员/照顾者，获取家庭支持(Ⅱ级推荐，B级证据)。
+脑卒中早期康复的开始时机和康复强度
+脑卒中早期康复一直是康复领域专家推崇的理念，康复的目的是促进患者功能恢复和独立，在患者能耐受的情况下尽早康复。关于康复治疗开始的最佳时间尚无统一认识[2]。2015年Bernhardt等[6]关于超早期康复的多中心系列研究统计结果表明，卒中发病后24 h开始进行运动康复是安全有效可行的，可以促进患者的移动能力的恢复，进一步同标准卒中单元治疗的大样本、多中心研究正在实施中，其结果将对脑卒中早期康复的疗效提供进一步的循证学证据。国家"十一五"科技支撑课题"脑血管病康复规范化方案的研究"关于早期康复开始时间的多中心对照研究表明，脑血管病病情稳定后分别于2、5、8 d开始康复治疗，在1个月后的运动功能和日常生活能力方面差异没有统计学意义。早期开始的康复治疗应包括床上关节活动度练习、床上良肢位的保持、床上坐位训练、体位转移训练、站立训练和行走训练等，随后活动水平进一步增加，早期康复还应当包括鼓励患者重新开始与外界的交流。
+康复训练强度应该以循序渐进的方式进行，Karges和Smallfied[7]以及Chan[8]认为，在脑卒中康复开始阶段，卒中患者每天接受至少45 min的相关康复训练，能够提高患者的功能目标，在一定范围内，相对增加训练强度可提高训练效果，但要考虑患者的安全性。住院康复机构在患者能耐受的情况下，开展每天3 h、每周5 d的康复训练是可行的，包括物理治疗、作业疗法、言语训练以及必要的康复护理[9]。
+推荐意见：(1)脑卒中患者病情稳定(生命体征稳定，症状体征不再进展)后应尽早介入康复治疗(Ⅰ级推荐，A级证据)。(2)脑卒中轻到中度的患者，在发病24 h后可以进行床边康复、早期离床期的康复训练，康复训练应以循序渐进的方式进行，必要时在监护条件下进行(Ⅰ级推荐，A级证据)。(3)康复训练强度要考虑到患者的体力、耐力和心肺功能情况，在条件许可的情况下，开始阶段每天至少45 min的康复训练，能够改善患者的功能，适当增加训练强度是有益的(Ⅱ级推荐，B级证据)。
+脑卒中早期良肢位摆放、体位转移和关节活动度训练
+脑卒中急性期卧床患者的良肢位摆放、床上体位转移技术、关节活动度训练技术，是脑卒中康复护理的基础和早期康复介入的重要方面，早期良好的肢位摆放和适当的关节活动度训练，能够减少并发症、提高护理质量、加快卒中患者的康复速度[7]。有充分的证据证明，卒中后长期卧床不活动会严重影响患者的神经肌肉功能、心血管功能、呼吸功能和免疫功能；卒中后制动相关的并发症如深静脉血栓、关节挛缩等亦明显增多；此外，长期不运动也会影响患者功能恢复潜力，特别是平衡功能的恢复，降低大脑的可塑性和功能重组[10]。
+良肢位摆放是利用各种软性靠垫将患者置于舒适的抗痉挛体位，正确的体位摆放应该贯穿在偏瘫后的各个时期，注意定时改变体位，一般每2小时体位转换1次。鼓励患侧卧位，该体位增加了患肢的感觉刺激，并使整个患侧被拉长，从而减少痉挛，且健手能自由活动；适当健侧卧位；应尽量避免半卧位，因半坐卧位能引起对称性颈紧张性反射，增加肢体上肢屈曲、下肢伸直的异常痉挛模式；尽可能少采用仰卧位，因为这种体位受颈紧张性反射和迷路反射的影响，会加重异常运动模式和引发骶尾部、足跟和外踝处褥疮的发生，可仅作为一种替换体位或者患者需要这种体位时采用；保持正确的坐姿，与卧床相比，坐位有利于躯干的伸展，可以达到促进全身身体及精神状态改善的作用。
+床上体位转移的实施应当由治疗师、患者、家属、护士和其他陪护人员共同参与，主要包括被动体位转移、辅助体位转移和主动体位转移等方式，训练的原则应该按照完全被动、辅助和完全主动的顺序进行。体位转移的训练内容包括患者床上侧面移动、前后方向移动、被动健侧翻身、患侧翻身起坐训练、辅助和主动翻身起坐训练、床上搭桥训练以及床上到轮椅、轮椅到床上的转移训练等。床上体位转移技术的实施要注意转移过程的安全性问题，在身体条件允许的前提下，应尽早离床。
+关节活动度训练可以维持关节正常的活动范围，有效防止肌肉废用性萎缩的发生，促进全身功能恢复。关节活动度训练开始时可以完全被动形式进行、以后可以过渡到辅助和完全主动的方式进行。一般每个关节每天活动2～3次。开始肢体软瘫时关节活动范围应在正常范围的2/3以内，特别是肩关节，并注意保护关节，避免不必要的损伤，防止异位骨化。关节活动度训练不仅包括肢体关节，还包括躯干的脊柱关节活动度训练，训练以患侧为主，长期卧床者要兼顾健侧肢体。
+推荐意见：(1)脑卒中卧床期应将患者摆放于良肢位：鼓励患侧卧位，适当健侧卧位，尽可能少采用仰卧位，应尽量避免半卧位，保持正确的坐姿(Ⅰ级推荐)。(2)脑卒中卧床期患者应尽早在护理人员的帮助下渐进性地进行体位转移训练，并注意安全性问题(Ⅰ级推荐)。(3)脑卒中卧床期患者应坚持肢体关节活动度训练，注意保护患侧肢体避免机械性损伤(Ⅰ级推荐)。
+脑卒中早期站立、步行康复训练
+脑卒中早期康复的理论证实，长期卧床会影响患者的功能恢复潜力，特别是神经肌肉功能和平衡功能的恢复，降低大脑的可塑性和功能重组[10]。研究证明，脑卒中患者病情稳定后早期离床训练，进行早期的坐位训练、起坐训练、站立训练是安全可行的，能够提高患者3个月后的步行能力[11]。脑卒中后偏瘫、步态异常是卒中患者的主要功能障碍，也是影响患者日常生活能力和生活质量的主要因素。脑卒中离床后进行基本的站立步行训练，能够提高患者的移动能力和日常生活能力(activies of daily living，ADL)恢复。偏瘫的步行基本要素主要有以下几个方面：(1)颈部、躯干及偏瘫下肢抗重力肌能够抗重力；(2)患侧下肢能负重、支撑身体；(3)站立时重心能够前后、左右移动；(4)患侧下肢髋关节能够屈曲、迈步。根据脑卒中患者离床后的功能状态，针对性地按照上述步行基本要素进行早期步行训练，是临床上简单有效的基本步行康复训练方法。进一步的优化步行康复训练，则需要对偏瘫步态进行全面的分析才能制订精细化的训练方案[12]。
+推荐意见：(1)脑卒中偏瘫患者应在病情稳定后尽快离床，借助器械进行站立、步行康复训练。病情稳定指生命体征平稳，且48 h内病情无进展(Ⅰ级推荐，A级证据)。(2)脑卒中偏瘫患者早期应积极进行抗重力肌训练、患侧下肢负重支撑训练、患侧下肢迈步训练及站立重心转移训练，以尽早获得基本步行能力(Ⅱ级推荐，B级证据)。
+脑卒中后的肌力训练和康复
+脑卒中后肌无力和肌肉痉挛是影响卒中后患者运动功能的主要因素，肌肉无力是神经系统损伤后的缺失症状，患者的下肢肌力强化与步行速度是相关的，近期的一些研究表明，膝关节伸展和踝关节跖屈肌肉痉挛与肌肉力量是呈负相关的，研究证实了肌力强化训练对脑卒中患者运动功能恢复的积极作用[13]。Morris等[14]通过给予脑卒中患者高强度渐进式抗阻训练，证明能够明显提高患者患侧和健侧的下肢髋膝力量、提高运动功能，You等[15]和Yamaguchi等[16]证明了早期功能电刺激提高卒中患者上肢功能、ADL和步行速度，从而提高患者的运动功能。
+推荐意见：(1)脑卒中早期应重视瘫痪肌肉的肌力训练，针对相应的肌肉进行渐进式抗阻训练、交互性屈伸肌肉肌力强化训练可以改善脑卒中瘫痪肢体的功能(Ⅰ级推荐，A级证据)。(2)针对相应的肌肉进行功能电刺激治疗、肌电生物反馈疗法，结合常规康复治疗，可以提高瘫痪肢体的肌力和功能(Ⅰ级推荐，A级证据)。
+脑卒中后肌张力变化和痉挛的康复
+脑卒中后早期肢体多是迟缓性瘫痪，随着病情的恢复和主动运动的增加，瘫痪肢体肌张力逐渐增高，并出现痉挛，痉挛是中枢神经损伤后的阳性症状，痉挛加重将会限制肢体的活动能力和掩盖肢体恢复的潜力[17]。痉挛的处理要从发病早期识别和处理开始，严重痉挛的预测因素包括持续升高的肌张力、严重的瘫痪、偏身感觉障碍重的Barthel指数分数[18]。痉挛的处理原则应该是以提高患者的功能为主要目的。典型的治疗痉挛的方法是阶梯式的，开始以最小侵入式的疗法，逐渐过渡到更多侵入式的疗法。体位摆放、被动伸展和关节活动度训练可以缓解痉挛，而且痉挛的患者应该每天做数次。影响到功能的挛缩其矫正方法还包括夹板疗法、连续性造模或手术纠正。没有可靠的资料对不同的运动疗法、使用或不使用抗痉挛药物作过比较。替扎尼定、巴氯芬、丹曲林是常用的治疗痉挛的口服药物[19]。康复训练结合早期局部注射A型肉毒素，可以减少上下肢的痉挛程度，提高肢体功能[20]。
+推荐意见：(1)痉挛的处理要从发病早期开始，痉挛的处理原则应该是以提高患者的功能能力为主要目的(Ⅰ级推荐)。(2)抗痉挛肢位、关节活动度训练、痉挛肌肉缓慢牵伸、夹板疗法等方法可以缓解肢体的痉挛(Ⅱ级推荐，B级证据)。(3)痉挛影响肢体功能时，可使用替扎尼定、丹曲林和巴氯芬等口服抗痉挛药(Ⅱ级推荐，B级证据)。(4)局部肢体肌肉痉挛影响功能和护理时，建议使用A型肉毒素局部注射，康复训练结合早期局部注射A型肉毒素，可以减少上下肢的痉挛程度，改善肢体功能(Ⅰ级推荐，B级证据)。
+脑卒中后早期语言功能的康复
+交流障碍及其相关的认知损害存在于高达40%的卒中后患者，其中最常见的交流障碍是失语和构音障碍。必要的干预措施有助于交流能力得到最大程度的恢复，并且防止习得性废用或不适当的代偿行为[21]。脑卒中早期失语症患者的康复目标主要是促进交流的恢复，帮助患者制定交流障碍的代偿方法，以及教育患者周围的人们，促使其与患者积极交流、减少对患者的孤立、满足患者的愿望和需求。早期可针对患者听、说、读、写、复述等障碍给予相应的简单指令训练、口颜面肌肉发音模仿训练、复述训练，口语理解严重障碍的患者可以试用文字阅读、书写或交流板进行交流[22]。一项随机对照试验研究证实，高强度的治疗比低强度的治疗更有效[23]。
+推荐意见：(1)建议由言语治疗师对存在交流障碍的卒中患者从听、说、读、写、复述等几个方面进行评价，针对性的对语音和语义障碍进行治疗(Ⅱ级推荐，C级证据)。(2)建议卒中后交流障碍的患者早期开始语言功能障碍的康复，适当增加语言康复训练强度是有效的(Ⅰ级推荐，A级证据)。(3)卒中早期可针对患者听、说、读、写、复述等障碍给予相应的简单指令训练、口颜面肌肉发音模仿训练、复述训练，口语理解严重障碍的患者可以试用文字阅读、书写或交流板进行交流(Ⅱ级推荐，B级证据)。
+脑卒中后认知障碍的康复
+针对脑卒中后认知障碍，可应用简易精神状态检查(MMSE)、蒙特利尔认知评估量表(MoCA)进行筛查[24,25]。进一步认知功能检查和康复，可待急性期过后进行认知障碍详细的评测和针对性的康复。卒中后早期偏侧忽略明显影响康复的预后，早期发现和干预偏侧忽略能有效促进卒中患者的功能恢复[26]。
+推荐意见：(1)脑卒中后认知障碍，可应用MMSE、MoCA进行筛查，并评估其对康复和护理的影响(Ⅱ级推荐，B级证据)。(2)脑卒中后进一步认知功能检查和康复，可待急性期过后进行认知障碍详细的评测和针对性的康复，早期发现和干预偏侧忽略是卒中后认知康复重要部分(Ⅱ级推荐，B级证据)。
+脑卒中后吞咽障碍的康复和营养管理
+吞咽障碍是脑卒中患者的常见症状，发生率为22%～65%，常对患者的生理、心理健康造成严重影响。在生理方面，吞咽功能减退可造成误吸、支气管痉挛、气道阻塞窒息以及脱水、营养不良，卒中后误吸与进展为肺炎的高危险性有关[27]。饮水试验是较常用的临床筛查方法，文献报道，饮水试验预测误吸的敏感度>70 %，特异度22%～66%[28]。视频X线透视吞咽检查(VFSS)是评价吞咽功能的"金标准"，纤维内窥镜吞咽功能检查(FEES)也是吞咽功能检查的重要客观手段，能直观地看到吞咽过程中咽喉部的运动，因其价格便宜、便于携带、结果可靠，可以作为VFSS的替代方法。在检测渗透、误吸和滞留方面，该方法与VFSS同样有效。对吞咽障碍、呛咳严重因而不适于VFSS的患者，可以应用FEES进行吞咽功能检查[29]。
+吞咽障碍的治疗与管理最终目的是使患者能够安全、充分、独立地摄取足够的营养及水分[30]。脑卒中急性期、亚急性期吞咽障碍的干预及营养支持的荟萃分析表明，吞咽行为学治疗及针灸可减轻吞咽障碍。经皮咽部电刺激可缩短咽传递时间，重复经颅磁刺激治疗吞咽障碍亦安全、可行，可改善吞咽功能，但仍需大样本研究以证实其效率[31,32]。吞咽功能障碍常常合并营养不良，针对卒中后的营养状况，可用的简单营养评价指标包括肱三头肌皮脂厚度(TSF)、平均上臂肌围(MAMC)和平均上臂周径(MAC)。MAMC(cm)＝MAC(cm)－0.314×TSF(mm)。实验室检查指标包括血浆蛋白、肌酐－身高指数、尿羟脯氨酸指数、氮平衡、机体免疫功能检测。FOOD研究结果并不支持常规给予卒中患者经口补充营养，因为研究者发现，鼻胃管长期应用会出现一些并发症，影响吞咽功能的恢复；有胃食道反流和误吸风险的重度吞咽障碍患者，建议使用鼻肠管进行肠内营养；长期需要肠内营养(>4周)的患者，经皮内镜下胃造瘘术(PEG)是有效方法之一[30,31,32,33]，相较于鼻胃管，PEG可减低治疗失败率、胃肠出血，提高喂养效果。另外，鼻胃管拔除时间没有统一的规定，一般来说重度吞咽障碍达到以下要求可试拔除鼻胃管：病情稳定，饮水试验基本正常；意识清楚并有一定的认知功能；有食训练中每餐可进食200 ml以上，连续3 d无不适；行常规体位或体位代偿下仪器检查未见严重误吸、重度口咽腔滞留。
+推荐意见：(1)建议由临床医师、康复护士或语言治疗师对所有脑卒中患者尽早完成标准的吞咽功能临床床旁评价(Ⅰ级推荐)。(2)饮水试验可以作为卒中患者误吸危险的筛选方法之一(Ⅰ级推荐，B级证据)。(3)建议有饮水试验阳性临床检查结果的患者使用VFSS或FEES进一步检查(Ⅰ级推荐，A级证据)。(4)对有吞咽障碍的患者建议应用口轮匝肌训练、舌运动训练、增强吞咽反射能力的训练、咽喉运动训练、空吞咽训练、冰刺激、神经肌肉电刺激等方法进行吞咽功能训练(Ⅱ级推荐，B级证据)。(5)吞咽评估之后可以采用改变食物性状和采取代偿性进食方法(如调整姿势和手法等)以改善患者吞咽状况(Ⅱ级推荐，B级证据)。(6)吞咽障碍患者鼻胃管拔管参考指征如下：病情稳定，饮水试验基本正常；意识清楚并有一定的认知功能；有食训练中每餐可进食200 ml以上，连续3 d无不适；行常规体位或体位代偿下仪器检查未见严重误吸、重度口咽腔滞留(Ⅱ级推荐，B级证据)。(7)对不能经口维持足够的营养和水分的患者应考虑经鼻胃管肠内营养。有胃食道反流和误吸风险的患者，建议使用鼻肠管进行肠内营养，需长期胃肠营养者(>4周)建议给予PEG喂养。需要长期管饲者应该定期评估营养状态和吞咽功能(Ⅱ级推荐，B级证据)。(8)患者应在入院后48 h内进行营养筛查，任何患者存在营养不良或进食困难时都应给予营养支持(Ⅱ级推荐，B级证据)。
+脑卒中后心脏功能和呼吸功能康复
+卒中早期卧床不动可导致严重的心血管功能障碍。荟萃分析表明卒中后给予特定任务的心血管适应性训练是有益的，卒中后适应性训练可提高作业负荷、步行速度、步行距离以及有氧代谢能力[34]。研究发现卒中后适应性训练，尤其活动平板步行训练、水疗训练以及家庭内干预方法等有益于卒中患者。有研究表明，心率是反映卒中后自感体力负荷的敏感指标，常规的运动康复训练可以提高卒中患者的有氧代谢能力[35]。
+在意识障碍及吞咽困难状态下发生的误吸是导致卒中相关性肺炎的最主要原因。在系统并发症导致的卒中死亡中，肺部感染也是最常见的原因。应加强呼吸道管理，尽早进行呼吸功能康复，预防和治疗吸入性、坠积性肺炎，减少气管切开的风险。对已经气管切开的患者，积极加强呼吸功能康复，防止胃食道反流和误吸，能缩短机械通气时间、封管时间，可尽早拔出气管套管，改善心肺功能，减少住院时间，为将来的系统康复打下基础[36,37]。
+呼吸功能康复的主要内容包括呼吸道管理、手法震动排痰、胸廓活动度训练和抗阻训练、腹式呼吸训练等，目的是增加咳嗽的效率、保持或改善胸廓的活动度；改善呼吸肌的肌力、耐力及协调性，改善肺通气，提高呼吸功能，从而增强患者整体的功能[38,39]。
+推荐意见：(1)脑卒中卧床患者应该尽早离床接受常规的运动功能康复训练，以提高患者的心血管能力，下肢肌群具备足够的力量的卒中患者，建议进行增强心血管适应性方面的训练如活动平板训练、水疗等(Ⅱ级推荐，B级证据) 。(2)重症脑卒中患者合并呼吸功能下降、肺内感染的患者，建议加强床边的呼吸道管理和呼吸功能康复，以改善呼吸功能、增加肺通气和降低卒中相关性肺炎的发生率和严重程度，改善患者的整体功能(Ⅱ级推荐，B级证据)。(3)卒中后血氧分压、氧饱和度、肺活量和1 s用力呼吸量可以作为评价肺功能的监测指标(Ⅱ级推荐，B级证据)。
+脑卒中后肩痛、肩关节半脱位和肩手综合征的康复
+肩痛是脑卒中患者常见的并发症之一，可以发生在脑卒中早期，也可以发生在中后期，通常发生在脑卒中后2～3个月，发生率为5%～84%[40]。卒中后肩痛有很多原因，具体机制仍不明确，粘连性关节囊炎、拖曳/压迫、复杂区域疼痛综合征、肩外伤、滑束炎/肌腱炎、肩轴撕裂及异位骨化等都有可能导致。不适当的肩关节运动会加重损伤和肩痛，如双手做高过头的滑轮样动作进行肩关节运动，会造成过度的肩部屈曲外展损伤局部关节囊和韧带从而引起肩痛[41,42]。肩痛会影响患者主动的康复训练，妨碍患者日常生活的独立，使患者情绪低落，影响睡眠和休息。肩手综合征(shoulder－hand syndrome, SHS)是特殊类型的肩痛，又称反射性交感神经营养障碍，表现为肩、手部疼痛性运动障碍、肿胀，后期可出现营养不良性改变、肌肉萎缩、关节挛缩变形、皮肤色素沉着等[43]。研究表明，经皮神经肌肉电刺激[41,42,43,44]、肩关节的保护和运动、外加压装置改善循环[42]、A型肉毒毒素局部注射[45]等措施可减轻肩痛。
+脑卒中患者肩关节半脱位的发生率为17%～81%，多数在发病3个月内[46]，主要由周围肌肉张力下降、关节囊松弛等原因造成。治疗和护理不当、直立位时缺乏支持及不适当的护理牵位上肢均可造成肩关节半脱位。肩关节半脱位的预防十分重要。一旦发生肩关节半脱位，其处理策略是防止进一步恶化，肩关节局部支撑装置、经皮电刺激、持续肩关节位置保持训练等方法有利于肩关节半脱位的预防和治疗[47]。
+推荐意见：(1)脑卒中早期应避免用力牵拉患者的肩关节，可采取局部经皮电刺激、持续肩关节活动范围训练、保护肩关节等措施来预防和治疗肩痛和肩关节半脱位(Ⅱ级推荐，B级证据)。(2)应避免过度的肩部屈曲外展运动和做双手高举过头的滑轮样动作进行肩关节运动，这会导致不可控制的肩部外展从而导致肩痛(Ⅰ级推荐)。(3)适当运动功能训练和物理治疗可以改善肩痛。(4)对SHS的患者建议抬高患肢配合被动活动，联合应用神经肌肉电刺激较单纯抬高患肢有效(Ⅲ级推荐，C级证据)。(5)对于手肿胀明显的患者可采取外用加压装置，有利于减轻肢体末端肿胀(Ⅲ级推荐，C级证据)。(6)对于严重肌无力、有发展为肩关节半脱位危险的卒中患者，推荐使用电刺激联合传统运动疗法降低肩关节半脱位的发生率，且优于单独使用传统治疗(Ⅱ级推荐，B级证据)。(7)对于肩关节半脱位的患者建议使用牢固的支撑装置防止恶化，持续肩关节位置保持训练可以改善肩关节半脱位(Ⅱ级推荐，B级证据)。
+脑卒中后深静脉血栓和肺栓塞的预防和康复
+深静脉血栓(deep vein thrombosis，DVT)和与之相关的并发症肺栓塞，是脑卒中后数周内非常严重的危险状况，重症卒中、卧床、制动、感染、脱水等是脑卒中急性期DVT形成的危险因素，出现DVT的患者应用抗凝药是常规治疗。Dennis等[48]进行的多中心前瞻性研究统计表明，脑卒中发病30 d内常规治疗组大约12.1%出现DVT，而肢体应用气压助动的患者有8.5%发生DVT，两者差异有统计学意义。一项荟萃分析结果表明，低分子肝素皮下注射对预防和治疗缺血性卒中后DVT和肺栓塞是有明确疗效的，高剂量相关的出血不良反应也明显增多，每天3 000～6 000 U是合适的，且不显著增加出血风险[49]。目前应用的几种预防脑卒中患者DVT的方法包括早期运动、抗凝、间歇性气压静脉驱动、弹力袜等，研究认为药物预防和穿弹力袜能明显降低DVT的发生。虽然没有直接临床证据支持，但是组织化卒中机构均认为，早期运动可能对防止DVT非常重要[48,50]。
+推荐意见：(1)对所有脑卒中的患者均应评价DVT的风险。重症卒中、卧床、制动、心力衰竭、感染、脱水、肢体骨折等是脑卒中急性期DVT形成的危险因素，早期下床、康复是预防DVT的有效方法(Ⅰ级推荐)。(2)对有高度DVT或肺栓塞危险的特定患者，可给予预防剂量的肝素或低分子肝素，在使用7～10 d后要进行血小板计数检查(Ⅱ级推荐，B级证据)。(3)可考虑应用分级弹力袜及间歇气动压力装置作为辅助治疗措施(Ⅱ级推荐，B级证据)。(4)对有肺栓塞风险同时有抗凝禁忌的患者可考虑安置临时或永久性下腔静脉滤器(Ⅱ级推荐，B级证据)。
+脑卒中早期康复护理
+康复护理是脑卒中早期康复的重要内容，康复护士是多学科治疗团队的重要成员，康复护士需要接受正规的康复培训，除掌握基本的护理知识外，还要掌握基本的康复护理知识，包括卒中患者的皮肤管理、大小便功能的管理和康复、良肢位的摆放和体位转移、吞咽障碍的临床评估和吞咽康复指导、营养管理和进食管理技术训练、呼吸道管理和基本的呼吸功能康复技术等。研究表明，有效的康复护理能明显提高卒中患者功能恢复、减少并发症、提高ADL能力[51,52]。
+推荐意见：(1)建议神经内科或卒中单元加强脑卒中患者早期的康复护理工作(Ⅰ级推荐)。(2)建议加强康复护理的健康宣教和护理指导，以调动患者本人、家属及其他护理人员的参与意识和康复信心，提高脑卒中整体的康复质量(Ⅰ级推荐，A级证据)。
+执笔 张通、赵军
+专家委员会成员
+专家委员会成员(按姓氏拼音排列)：蔡斌(福建医科大学第一附属医院)、董强(复旦大学附属华山医院)、高磊(北京医院)、高山(中国医学科学院北京协和医院)、龚涛(北京医院)、郭毅(中国医学科学院北京协和医院)、韩钊(温州医科大学附属第二医院)、何小明(襄阳市中心医院)、贺斌(第二军医大学附属长征医院)、贺茂林(首都医科大学附属北京世纪坛医院)、胡波(华中科技大学同济医学院附属协和医院)、胡治平(中南大学湘雅二医院)、黄一宁(北京大学第一医院)、李冰洁(中国康复研究中心)、李存江(首都医科大学宣武医院)、李红戈(华中科技大学同济医学院附属协和医院)、李继梅(首都医科大学附属北京友谊医院)、李铁山(青岛大学医学院附属医院)、李小刚(北京大学第三医院)、李新(天津医科大学第二医院)、李雪萍(南京市第一医院)、李正仪(西安交通大学医学院第一附属医院)、刘合玉(河南医科大学附属第二医院)、刘建国(海军总医院)、刘丽旭(中国康复研究中心)、刘鸣(四川大学华西医院)、刘楠(福建医科大学附属协和医院)、刘鹏(中山大学附属第一医院)、刘新峰(南京军区南京总医院)、刘雁(广州军区广州总医院)、刘运海(中南大学湘雅医院)、陆正齐(中山大学附属第三医院)、倪俊(中国医学科学院北京协和医院)、彭斌(中国医学科学院北京协和医院)、彭英(中山大学孙逸仙纪念医院)、秦超(广西医科大学第一附属医院)、邵明(四川省八一康复中心)、沈光莉(首都医科大学附属北京世纪坛医院)、宋水江(浙江大学医学院附属第二医院)、田成林(解放军总医院)、王爱民(长沙市第一医院)、王宝军(包头市中心医院)、王宏图(天津市环湖医院)、王亮(复旦大学附属华山医院)、王宁华(北京大学第一医院)、王伟(华中科技大学同济医学院附属同济医院)、王文志(首都医科大学附属北京天坛医院)、王拥军(首都医科大学附属北京天坛医院)、翁长水(解放军总医院)、吴波(四川大学华西医院)、吴钢(福建医科大学附属第一医院)、吴江(吉林大学第一医院)、吴珊(贵阳医学院附属医院)、吴世政(青海省人民医院)、武剑(首都医科大学宣武医院)、肖卫民(广东东莞市人民医院)、徐安定(暨南大学附属第一医院)、徐恩(广州医科大学第二附属医院)、徐运(南京大学医学院附属鼓楼医院)、许予明(郑州大学第一附属医院)、杨弋(吉林大学第一医院)、尹明慧(黑龙江省康复医院)、曾进胜(中山大学附属第一医院)、展群岭(重庆医科大学附属南岸五院)、张光运(第四军医大学第一附属医院)、张洁(湖南省儿童医院)、张黎明(哈尔滨医科大学第一临床医学院)、张丽芳(宁夏医科大学总医院)、张通(中国康复研究中心)、张微微(陆军总医院)、张祥建(河北医科大学附属第二医院)、赵军(中国康复研究中心)、赵性泉(首都医科大学附属北京天坛医院)、周华东(第三军医大学大坪医院)、周筠(首都医科大学附属北京天坛医院)、周盛年(山东大学齐鲁医院)、朱遂强(华中科技大学同济医学院附属同济医院)、朱榆红(昆明医学院第二附属医院)
+参考文献
+[1]
+高一鹭，王文志.
+脑血管病流行病学研究进展[J].
+中华神经科杂志，
+2015,
+48(
+4):
+337-
+340.
+DOI: 10.3760/cma.j.issn.1006-7876.2015.04.021.
+[2]
+"九五"攻关课题组.
+急性脑卒中早期康复的研究[J].
+中国康复医学杂志，
+2001，
+16(
+5)：
+266-
+272.
+DOI：10.3969/j.issn.1001-1242.2001.05.004.
+[3]
+中华医学会神经病学分会脑血管病学组，神经康复学组.
+中国卒中康复治疗指南简化版[J].
+中华神经科杂志，
+2012,
+45(
+3):
+201-
+204.
+DOI: 10.3760/cma.j.issn.1006-7876.2012.03.015.
+[4]
+中华医学会神经内科分会脑血管病学组急性缺血性脑卒中诊治指南撰写组．
+中国急性缺血性脑卒中诊治指南2010[J].
+中华神经科杂志，
+2010,
+43(
+2):
+146-
+153.
+DOI: 10.3760/cma.j.issn.1006-7876.2010.02.022.
+[5]
+LanghorneP, FearonP, RonningOM, et al.
+Stroke unit care benefits patients with intracerebral hemorrhage: systematic review and meta－analysis[J].
+Stroke,
+2013,
+44(
+11):
+3044-
+3049.
+DOI: 10.1161/STROKEAHA.113.001564.
+[6]
+BernhardtJ, LindleyRI, LalorE, et al.
+AVERT2 (a very early rehabilitation trial, a very effective reproductive trigger): retrospective observational analysis of the number of babies born to trial staff[J].
+BMJ,
+2015,
+351:
+h6432.
+DOI: 10.1136/bmj.h6432.
+[7]
+KargesJ, SmallfiedS.
+A description of the outcomes, frequency, duration, andintensity of occupational, physical, and speech therapy in inpatient strokerehabilitation[J].
+J Allied Health,
+2009,
+38(
+1):
+E1-
+10.
+[8]
+ChanB.
+Effect of Increased Intensity of Physiotherapy on Patient Outcomes After Stroke: An Economic Literature Review and Cost－Effectiveness Analysis[J].
+Ont Health Technol Assess Ser,
+2015,
+15(
+7):
+1-
+43.
+[9]
+MillerEL, MurrayL, RichardsLet al.
+Comprehensive overview of nursing and interdisciplinary rehabilitation care of the stroke patient: a scientific statement from the American Heart Association[J].
+Stroke,
+2010,
+41(
+10):
+2402-
+2448.
+DOI: 10.1161/STR.0b013e3181e7512b.
+[10]
+BernhardtJ, ChurilovL, DeweyH, et al.
+Statistical analysis plan (SAP) for A Very Early Rehabilitation Trial (AVERT): an international trial to determine the efficacy and safety of commencing out of bed standing and walking training (very early mobilization) within 24 h of stroke onset vs. usual stroke unit care[J].
+Int J Stroke,
+2015，
+10(
+1):
+23-
+24.
+DOI: 10.1111/ijs.12423.
+[11]
+Mutin－CarninoM, CarninoA, RoffinoS, et al.
+Effect of muscle unloading, reloading and exercise on inflammation during a head－down bed rest[J].
+Int J Sports Med,
+2014,
+35(
+1):
+28-
+34.
+DOI: 10.1055/s-0033-1343407.
+[12]
+赵军，张通，芦海涛，等.
+脑卒中偏瘫步态表面肌电图和动态关节角度分析和康复策略[J].
+中国实用内科杂志，
+2013,
+33(
+12):
+1029-
+1033.
+[13]
+AbdollahiI, TaghizadehA, ShakeriH, et al.
+The relationship between isokinetic muscle strength and spasticity in the lower limbs of stroke patients[J].
+J Bodyw Mov Ther,
+2015,
+19(
+2):
+284-
+290.
+DOI: 10.1016/j.jbmt.2014.07.002.
+[14]
+MorrisSL, DoddKJ, MorrisME.
+Outcomes of progressive resistancestrength training following stroke: a systematic review[J].
+Clin Rehabil,
+2004,
+18(
+1):
+27-
+39.
+DOI: 10.1191/0269215504cr699oa.
+[15]
+YouG, LiangH, YanT.
+Functional electrical stimulation early after stroke improves lower limb motor function and ability in activities of daily living[J].
+NeuroRehabilitation,
+2014,
+35(
+3):
+381-
+389.
+DOI: 10.3233/NRE-141129.
+[16]
+YamaguchiT, TanabeS, MuraokaY, et al.
+Immediate effects of electrical stimulation combined with passive locomotion－like movement on gait velocity and spasticity in persons with hemiparetic stroke: a randomized controlled study[J].
+Clin Rehabil,
+2012,
+26(
+7):
+619-
+628.
+DOI: 10.1177/0269215511426803.
+[17]
+PicelliA, TamburinS, GajofattoF, et al.
+Association between severe upper limb spasticity and brain lesion location in stroke patients[J].
+Biomed Res Int,
+2014,
+2014:
+162754.
+DOI: 10.1155/2014/162754.
+[18]
+WisselJ, VerrierM, SimpsonDM, et al.
+Post－stroke spasticity: predictors of early development and considerations for therapeutic intervention[J].
+PM R,
+2015,
+7(
+1):
+60-
+67.
+DOI: 10.1016/j.pmrj.2014.08.946.
+[19]
+DajprathamP, KuptniratsaikulV, KovindhaA, et al.
+Prevalence and management of poststroke spasticity in Thai stroke patients: a multicenter study[J].
+J Med Assoc Thai,
+2009,
+92(
+10):
+1354-
+1360.
+[20]
+FietzekUM, KossmehlP, ScheloskyL, et al.
+Early botulinum toxin treatment for spastic pesequinovarus－a randomized double－blind placebo－controlled study[J].
+Eur J Neurol,
+2014,
+21(
+8):
+1089-
+1095.
+DOI: 10.1111/ene.12381.
+[21]
+BakheitAM, ShawS, BarrettL, et al.
+A prospective, randomized，parallel group, controlled study of the effect of intensityof speech and language therapy on early recovery from poststrokeaphasia[J].
+Clin Rehabil,
+2007,
+21(
+10):
+885-
+894.
+DOI: 10.1177/0269215507078486.
+[22]
+YoungA, GomersallT, BowenA, et al.
+Trial participants′ experiences of early enhanced speech and language therapy after stroke compared with employed visitor support: a qualitative study nested within a randomized controlled trial[J].
+Clin Rehabil,
+2013,
+27(
+2):
+174-
+182.
+DOI：10.1177/0269215512450042.
+[23]
+BerthierML, GreenC, LaraJP, et al.
+Memantine and constraint－induced aphasia therapy in chronic poststroke aphasia[J].
+Ann Neurol,
+2009,
+65(
+5):
+577-
+585.
+DOI: 10.1002/ana.21597.
+[24]
+王荫华.
+如何提高认知功能障碍相关量表在临床的应用[J].
+中华内科杂志，
+2005,
+44(
+9):
+237-
+239.
+DOI：10.3760/j.issn:0578-1426.2005.09.034.
+[25]
+王炜，王鲁宁.
+"蒙特利尔认知评估量表"在轻度认知损伤患者筛查中的应用[J].
+中华内科杂志，
+2007,
+46(
+5):
+414-
+416.
+DOI：10.3760/j.issn:0578-1426.2007.05.031.
+[26]
+ChenP, McKennaC, KutlikAM, et al.
+Interdisciplinary communication in inpatient rehabilitation facility: evidence of under－documentation of spatial neglect after stroke[J].
+Disabil Rehabil,
+2013,
+35(
+12):
+1033-
+1038.
+DOI: 10.3109/09638288.2012.717585.
+[27]
+WhiteGN, O′RourkeF, OngBS, et al.
+Dysphagia: causes, asassessment，treatment, and management [J].
+Geriatrics,
+2008,
+63(
+5):
+15-
+20.
+[28]
+SpeyerR, BaijensL, HeijnenM, et al.
+Effects of therapy in oropharyngeal dysphagia by speech and language therapists: a systematic review.
+Dysphagia,
+2010,
+25(
+1):
+40-
+65.
+DOI: 10.1007/s00455-009-9239-7.
+[29]
+李冰洁，张通，李胜利，等.
+脑卒中患者吞咽障碍及康复效果影像学研究[J].
+中华神经科杂志，
+2006,
+51(
+5):
+301-
+304.
+DOI: 10.3760/j.issn:1006-7876.2006.05.004.
+[30]
+GeeganageC, BeavanJ, EllenderS, et al.
+Interventions for dysphagia and nutritional support in acute and subacute stroke[J].
+Cochrane Database Syst Rev,
+2012
+Oct 17,
+10：
+CD000323.
+DOI: 10.1002/14651858.CD000323.pub2.
+[31]
+PermsirivanichW, TipchatyotinS, WongchaiM, et al.
+Comparingthe effects of rehabilitation swallowing therapy vs. neuromuscularelectrical stimulation therapy among stroke patientswith persistent pharyngeal dysphagia: a randomized controlledstudy [J].
+J Med Assoc Thai,
+2009,
+92(
+2):
+259-
+265.
+[32]
+MomosakiR, AboM, WatanabeS, et al.
+Repetitive Peripheral Magnetic Stimulation With Intensive Swallowing Rehabilitation for Poststroke Dysphagia: An Open－Label Case Series[J].
+Neuromodulation,
+2015,
+18(
+7):
+630-
+634.
+DOI: 10.1111/ner.12308.
+[33]
+DennisM, LewisS, CranswickG, et al.
+FOOD Trial Collaboration. FOOD: a multicentrerandomised trial evaluating feedingpolicies in patients admitted to hospital with a recentstroke [J].
+Health Technol Assess,
+2006,
+10(
+2):
+iii-iv, ix-x，1-120.
+[34]
+TangA, MarzoliniS, OhP, et al.
+Feasibility and effects of adapted cardiac rehabilitation after stroke: a prospective trial[J].
+BMC Neurology，
+2010,
+10:
+40.
+DOI: 10.1186/1471-2377-10-40.
+[35]
+StollerO, SchindelholzM, BichselL, et al.
+Feedback－controlled robotics－assisted treadmill exercise to assess and influence aerobic capacity early afterstroke: a proof－of－concept study[J].
+Disabil Rehabil Assist Technol,
+2014,
+9(
+4):
+271-
+278.
+DOI: 10.3109/17483107.2013.785038.
+[36]
+KimCB, ShinJH, ChoiJD.
+The effect of chest expansion resistance exercise inchronic stroke patients: a randomized controlled trial[J].
+J Phys Ther Sci,
+2015,
+27(
+2):
+451-
+453.
+DOI: 10.1589/jpts.27.451.
+[37]
+KimCY, LeeJS, KimHD, et al.
+Effects of the combination of respiratory muscle training and abdominal drawing－in maneuver on respiratory muscle activity in patients with post－stroke hemiplegia: a pilot randomized controlled trial[J].
+Top Stroke Rehabil,
+2015,
+22(
+4):
+262-
+270.
+DOI: 10.1179/1074935714Z.0000000020.
+[38]
+SongGB, ParkEC.
+Effects of chest resistance exercise and chest expansion exercise on stroke patients′ respiratoryfunction and trunk control ability[J].
+J Phys Ther Sci,
+2015,
+27(
+6):
+1655-
+1658.
+DOI: 10.1589/jpts.27.1655.
+[39]
+Messaggi－SartorM, Guillen－SolàA, DepoloM, et al.
+Inspiratory and expiratory muscle training in subacute stroke: A randomized clinical trial[J].
+Neurology,
+2015,
+85(
+7):
+564-
+572.
+DOI: 10.1212/WNL.0000000000001827.
+[40]
+LynchD, FerraroM, KrolJ, et al.
+Continuous passive motion improves shoulder joint integrity following stroke[J].
+Clin Rehabil,
+2005,
+19(
+6):
+594-
+599.
+DOI: 10.1191/0269215505cr901oa.
+[41]
+ChurchC, PriceC, PandyanAD, et al.
+Randomized controlled trial to evaluate the effect of surface neuromuscular electrical stimulation to the shoulder after acute stroke[J].
+Stroke,
+2006 ,
+37(
+12):
+2995-
+3001.
+DOI: 10.1161/01.STR.0000248969.78880.82.
+[42]
+GriffinA, BernhardtJ.
+Strapping the hemiplegic shoulder prevents development of pain during rehabilitation: a randomized controlled trial[J].
+Clin Rehabil,
+2006,
+20(
+4):
+287-
+295.
+DOI: 10.1191/0269215505cr941oa.
+[43]
+PertoldiS, Di BenedettoP.
+Shoulder－hand syndrome after stroke. A complex regional pain syndrome[J].
+Eura Medicophys,
+2005,
+41(
+4):
+283-
+292.
+[44]
+ChaeJ, YuDT, WalkerME, et al.
+Intramuscular electrical stimulation for hemiplegic shoulder pain: a 12－month follow－up of a multiple－center, randomized clinical trial[J].
+Am J Phys Med Rehabil,
+2005,
+84(
+11):
+832-
+842.
+[45]
+MalhotraS, RosewilliamS, HermensH, et al.
+A randomized controlled trial of surface neuromuscular electrical stimulation applied early after acute stroke: effects on wrist pain, spasticity and contractures[J].
+Clin Rehabil,
+2013,
+27(
+7):
+579-
+590.
+DOI: 10.1177/0269215512464502.
+[46]
+ChatterjeeS, HaynerKA, ArumugamN, et al.
+The California Tri－pull Taping Method in the Treatment of Shoulder Subluxation After Stroke: A Randomized Clinical Trial[J].
+N Am J Med Sci,
+2016,
+8(
+4)：
+175-
+182.
+DOI: 10.4103/1947-2714.179933.
+[47]
+AdaL, GoddardE, McCullyJ, et al.
+Thirty minutesof positioning reduces the development of external rotation butnot flexion contracture in the shoulder after stroke: a randomizedcontrolled trial[J].
+Arch Phys Med Rehabil,
+2005,
+86(
+2):
+230-
+234.
+DOI: 10.1016/j.apmr.2004.02.031.
+[48]
+DennisM, SandercockP, GrahamC, et al.
+The Clots in Legs OrsTockings after Stroke (CLOTS) 3 trial: a randomised controlled trial to determine whether or not intermittent pneumatic compression reduces the risk of post－stroke deep vein thrombosis and to estimate its cost－effectiveness[J].
+Health Technol Assess,
+2015,
+19(
+76):
+1-
+90.
+DOI: 10.3310/hta19760.
+[49]
+KamphuisenPW, AgnelliG.
+What is the optimal pharmacological prophylaxis for the prevention of deep－vein thrombosis and pulmonary embolism in patients with acute ischemic stroke? [J].
+Thromb Res,
+2007,
+119:
+265-
+274.
+DOI: 10.1016/j.thromres.2006.03.010.
+[50]
+RiabinkinaIV, PiradovMA, ProkazovaPR, et al.
+Prevention of venous thromboembolism in the acute stroke[J].
+Zh Nevrol Psikhiatr Im S S Korsakova,
+2015,
+115(
+3
+Pt 2):
+33-
+39.
+[51]
+李慧，姜亚芳.
+脑卒中患者早期康复护理干预措施的研究进展[J].
+中华护理杂志，
+2010,
+45(
+2):
+187-
+189.
+DOI: 10.3761/j.issn.0254-1769.2010.02.039.
+[52]
+FisherRJ, GaynorC, KerrM, et al.
+A consensus on stroke: early supported discharge[J].
+Stroke,
+2011,
+42(
+5):
+1392-
+1397.
+DOI: 10.1161/STROKEAHA.110.606285.
+贡献者信息
+中华医学会神经病学分会
+中华医学会神经病学分会神经康复学组
+中华医学会神经病学分会脑血管病学组
+历史
+出版日期：2017-06-08
+收稿日期：2017-01-26
+本文编辑
+郑晴
+Guideline
+Guidelines for early rehabilitation of stroke in China
+Chinese Society of Neurology,  Neurorehabilitation Society, Chinese Society of Neurology,  Cerebrovascular Disease Society, Chinese Society of Neurology
+Published
+2017-06-08
+Cite as
+Chin J Neurol, 2017,50(06): 405-412. DOI: 10.3760/cma.j.issn.1006-7876.2017.06.002
+Contributor Information
+Chinese Society of Neurology
+Neurorehabilitation Society, Chinese Society of Neurology
+Cerebrovascular Disease Society, Chinese Society of Neurology
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华神经科杂志2017年50卷06期
+文    题：中国脑卒中早期康复治疗指南
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华神经科杂志2017年50卷06期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

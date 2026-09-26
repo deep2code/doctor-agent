@@ -1,0 +1,1307 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E7%8B%82%E7%8A%AC%E7%97%85%E6%9A%B4%E9%9C%B2%E9%A2%84%E9%98%B2%E5%A4%84%E7%BD%AE%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 狂犬病暴露预防处置专家共识 - 中华预防医学杂志
+# 发布方/日期: 中华医学会，中华预防医学杂志, 2019,53(7) : 668-679. DOI: 10.3760/cma.j；2019-07-06
+
+AUTO TRANSLATION​▼
+狂犬病暴露预防处置专家共识
+殷文武
+王传林
+陈秋兰
+董关木
+李玉华
+朱武洋
+刘斯
+陈庆军
+吕新军
+朱政纲
+陶晓燕
+李昱
+牟笛
+王显军
+中华预防医学杂志, 2019,53(7) : 668-679. DOI: 10.3760/cma.j.issn.0253-9624.2019.07.004
+狂犬病（rabies）是由狂犬病病毒属（lyssavirus）病毒感染引起的一种动物源性传染病。病毒主要通过破损的皮肤或黏膜侵入人体，临床多以特异性恐风、恐水、咽肌痉挛、进行性瘫痪等为表现，一旦发病，病死率几乎100%，给人类生命健康造成严重威胁。人的狂犬病99%由犬咬伤传播，加强犬的管理、给犬接种狂犬病疫苗，是防控狂犬病的基础性和根本性策略。及时、规范的暴露后预防（post exposure prophylaxis，PEP）处置是预防狂犬病的最有效策略。
+2018年4月，WHO发布了2018年狂犬病疫苗立场文件，基于狂犬病相关研究的最新证据，更新了狂犬病暴露预防处置程序。为指导基层医疗机构做好狂犬病暴露预防处置，中国疾病预防控制中心国家免疫规划技术工作组狂犬病疫苗工作组及特邀专家，参考WHO的最新技术文件及国内外最新研究进展，就狂犬病暴露预防处置达成专家共识。本共识仅提供学术性指导意见，具体实施应当依据病例的实际条件进行。
+一、狂犬病病原学
+狂犬病病毒属于单股负链病毒目（mononegavirales）弹状病毒科（rhabdoviridae）狂犬病病毒属。病毒颗粒呈子弹状，长100~300 nm，直径约为75 nm。病毒基因为不分节段的单股负链RNA，编码5种结构蛋白：核蛋白（N）、磷蛋白（P）、基质蛋白（M）、糖蛋白（G）和依赖RNA的RNA聚合酶（L）[1,2]。病毒颗粒由囊膜和核衣壳两部分组成[1,2]。狂犬病病毒体外存活能力较差，易被脂溶剂等灭活[3,4,5]。截至2018年国际病毒分类委员会（International Committee of Taxonomy Virus，ICTV）明确的狂犬病病毒属病毒共16种（Species）[1]，根据遗传距离和血清学交叉反应，16种病毒又被划分为3个不同的遗传谱系（Phylogroup）：遗传谱系Ⅰ包括RABV、DUVV、EBLV-1、EBLV-2、ABLV、KHUV、ARAV、IRKV、BBLV和GBLV；遗传谱系Ⅱ包括LBV、MOKV和SHIBV；遗传谱系Ⅲ包括WCBV、IKOV和LLEBV[7]。我国目前主要流行RABV[6]，2013年在吉林报道了蝙蝠病毒IRKV，二者均属于遗传谱系Ⅰ，现有疫苗均可预防[8,9]。
+二、发病机理
+狂犬病病毒具有高度嗜神经性。病毒最初进入伤口时，在被咬伤的肌肉组织中复制，然后通过运动神经元的终板和轴突侵入外周神经系统。在一些蝙蝠变异株中，由于嗜皮肤性，病毒增殖也可以发生在感觉神经[8,9]。病毒进入外周神经后，以运输小泡为载体，沿轴突以逆轴浆运动的方向向中枢神经系统"向心性"移行。病毒沿轴突上行到背根神经节后，在其内大量增殖，然后侵入脊髓和整个中枢神经系统。在中枢神经系统中增殖后，病毒通过在运动轴突的顺向轴浆运输"离心性"扩散进入腹侧根、背根神经节及其感觉轴突，并感染感觉轴突支配的肌梭、皮肤、毛囊及其他非神经组织。
+人狂犬病潜伏期通常1~3个月，可短至数天，极少超过1年。潜伏期长短与病毒的数量、毒力和侵入部位的神经分布等因素相关。病毒数量越多、毒力越强、侵入部位神经越丰富、越靠近中枢神经系统，潜伏期就越短。
+三、狂犬病临床表现与诊断
+狂犬病是目前世界上病死率最高的传染病，一旦出现临床症状，病死率几乎为100%[9]。根据临床症状狂犬病分为狂躁型和麻痹型。
+（一）临床表现
+狂犬病的自然病程可分为潜伏期、前驱期、急性神经症状期（兴奋期）、麻痹期、昏迷和死亡几个阶段。实际上，疾病发展呈现连续的过程，各阶段并不能截然分开。
+1．潜伏期：
+从感染到发病前无任何症状的时期，多数为1~3个月，1周以内或1年以上极少[10]。
+2．前驱期：
+一般为2~10 d，通常有不适、厌食、疲劳、头痛和发热等不典型症状，无端的恐惧、焦虑、激动、易怒、神经过敏、失眠或抑郁等症状。
+3．急性神经症状期：
+一般持续1~3 d，分为狂躁型与麻痹型。狂躁型病例突出表现为极度恐惧、恐水、怕风、咽肌痉挛、呼吸困难、排尿排便困难及多汗流涎等。麻痹型病例无典型的兴奋期及恐水现象，而以高热、头痛、呕吐、咬伤处疼痛，继而出现肢体软弱、腹胀、共济失调、大小便失禁等。
+4．麻痹期：
+一般持续6~18 h。指的是病例在急性神经症状期过后，逐渐进入安静状态的时期，此时痉挛停止，病例渐趋安静，出现弛缓性瘫痪，尤以肢体软瘫最为多见。
+5．死亡：
+病例麻痹期后很快呼吸心跳停止死亡。病例在首次出现临床症状的7~10 d后往往因呼吸、心脏衰竭死亡[10]。本病在临床上需与破伤风、病毒性脑炎、脊髓灰质炎、急性播散性脑脊髓炎等相鉴别。
+（二）诊断标准
+根据狂犬病诊断标准，综合病例的流行病学史、临床表现和实验室检查结果做出诊断。有流行病学史，并符合狂躁型或麻痹型狂犬病临床症状者，即可诊断为临床病例。在此基础上，满足任意一项实验室检测结果阳性者，即可诊断为确诊病例。
+1．病原学检测：
+荧光抗体实验（fluorescent antibody test，FAT），也叫直接免疫荧光法（direct fluorescent antibody test，DFA），是狂犬病诊断的金标准，可以快速、敏感、特异地检测人和动物脑组织中的病毒抗原[9, 13]。临床病例活体组织标本（如颈后部皮肤毛囊）亦可进行FAT检测[9]。直接快速免疫组化法（direct rapid immunohistochemical test，DRIT）及酶联免疫法（enzyme-linked immunosorbent assay，ELISA）亦可特异检测病毒抗原[9,14]。
+可通过检测病毒核酸进行早期诊断，病例的液体标本（唾液、尿液等）和脑组织等均可通过RT-PCR（包括Real-time PCR）进行病毒核酸检测，但需要严格的质量控制[9]。脑组织及唾液等病毒含量高的样本还可进行病毒分离，细胞法分离病毒所需时间（1~2 d）远少于小鼠颅内接种（10~21 d）[9]。若检测结果阳性则可以确诊狂犬病，但结果阴性不能完全排除。
+2．特异性抗体检测：
+未接种过疫苗的病例，发病早期几乎没有中和抗体产生，到发病晚期（通常临床症状出现后7~8 d），病例机体会出现低水平的中和抗体[9]，此时通过小鼠脑内中和试验（mouse neutralization test，MNT）或快速荧光灶抑制试验（rapid fluorescent focus inhibition test，RFFIT）[15]，检测病例血清或脑脊液中的中和抗体，可作为狂犬病诊断的依据之一[9,11]。
+四、流行病学
+（一）全球流行概况
+目前，全球有100多个国家和地区有狂犬病流行，年死亡例数约59 000例，是致死人数最多的动物源性传染病[16,17]。狂犬病主要发生在亚洲和非洲，亚洲的狂犬病病例数居全球首位，估计年死亡例数达30 000（95%CI：8 100~61 400）例，40%的狂犬病病例为不满15周岁的少年[18]。目前，多个太平洋岛国无狂犬病报告，西欧国家、澳大利亚、加拿大、美国、韩国、日本和部分拉丁美洲国家报告消除了犬狂犬病[12,16]。
+（二）狂犬病的宿主及传染源
+狂犬病在自然界的储存宿主动物包括犬、猫等食肉目动物和翼手目动物（蝙蝠）。猪、马、牛、羊、骆驼等家畜非狂犬病储存宿主，但可感染发病，传播狂犬病风险较低。啮齿类和兔形目动物极少感染狂犬病，目前无导致人间狂犬病病例的证据[12,19,20]。禽类、鱼类、昆虫类、爬行类（如蜥蜴、蛇、龟鳖）等不感染和传播狂犬病。
+全球99%以上的狂犬病是因犬咬伤或抓伤引起[9]；犬狂犬病疫情控制较好的欧洲、北美、澳大利亚及部分拉丁美洲国家的常见传染源为蝙蝠、狐、豺、狨猴、猫鼬和浣熊等野生动物[21,22,23,24]。由于蝙蝠暴露可能为极难察觉的细微咬伤，且部分蝙蝠携带的病毒具有嗜皮肤性，导致其致病风险大为提高[21,22,23,24]，故WHO及美国疾病预防控制中心均将暴露于蝙蝠按照Ⅲ级暴露进行处置[12,20,25]。犬是我国狂犬病的主要传染源，约占95%；其次为猫，占5%左右；鼬獾、红狐、貉、狼是我国重要的野生狂犬病宿主和传染源[26]。
+在狂犬病病例的唾液、泪液、尿液和神经组织中可以发现狂犬病病毒，暴露于这些体液和组织在理论上有感染的风险，但狂犬病病毒在人与人之间的传播极其罕见，已证实的人与人之间的狂犬病病毒传播仅发生于通过狂犬病感染者的组织和器官移植传播。
+（三）狂犬病感染途径
+狂犬病主要经直接接触传播，常见的感染方式有被发病动物咬伤、抓伤，破损的皮肤（包括新鲜或尚未愈合的伤口）或黏膜（包括完整的黏膜，如口腔、会阴等）接触发病动物的唾液和分泌物；对狂犬病动物解剖、宰杀、剥皮偶尔也会造成感染；而食用死于狂犬病的动物的生肉而感染罕见，彻底煮熟的动物肉和巴氏消毒过的奶，不会传播狂犬病[8]。特殊情况下，在实验室操作狂犬病病毒含量很高的材料或在狂犬病蝙蝠密度高的洞穴中活动，可由气溶胶经呼吸道感染狂犬病。人传人仅发现于移植狂犬病病例器官的病例[27,28]。
+（四）我国人间狂犬病流行特征
+近十余年来，我国狂犬病报告发病的最高峰为2007年，报告3 300例[29]，而后逐年下降，2018年狂犬病发病422例，较高峰下降87%。历史上我国所有省份均报告过人间狂犬病。近年来，疫情主要分布在人口稠密的华南、西南、华东地区。狂犬病夏秋季高发[30]，不同地区的季节性特征存在差异，纬度越高季节性越明显，发病时间相对集中[31]。我国狂犬病病例呈现"三多"的特征：农村地区病例较多，农民一般占病例总数的65%以上；男性病例数约为女性的2倍；15岁以下儿童和50岁以上人群发病较多[32,33,34]。
+部分狂犬病高发省份的监测显示，90%以上的暴露就诊人群为Ⅱ和Ⅲ级暴露，其中Ⅲ级暴露约40%。全部暴露者中，约10%未全程接种疫苗[35,36]；Ⅲ级暴露者中，仅15%左右使用被动免疫制剂。绝大多数病例由狂犬病病毒感染所致，但也有少量由狂犬病病毒属相关病毒感染致病的报道[37]。
+五、狂犬病暴露预防处置相关生物制品
+（一）狂犬病疫苗
+狂犬病疫苗是将降低了致病力的狂犬病病毒固定毒株接种到适宜的培养基质中，经过病毒扩增、收获、灭活、浓缩和纯化等一系列工艺过程制造而成。狂犬病疫苗经历了脑组织弱毒疫苗、脑组织灭活疫苗和现代的细胞培养纯化疫苗3个发展阶段。
+1．我国目前上市的人用狂犬病疫苗：
+我国于2005年上市了经高度浓缩和纯化的细胞培养狂犬病疫苗，批准上市的原代地鼠肾细胞疫苗、Vero细胞疫苗、人二倍体细胞疫苗以及进口的鸡胚细胞疫苗均达到国际标准。
+2．人用狂犬病疫苗标准：
+我国目前上市应用的疫苗规格、剂型不一，分为液体和冻干剂型及1.0 ml/剂和0.5 ml/剂，其效价均为在效期内≥2.5 IU/剂[38]。冻干疫苗复溶以后应立即使用，如果需保存，在2~8 ℃环境下不得超过6~8 h，否则极易污染[38]。我国疫苗实行批签发制度，疫苗均需经过批签发检验，取得法定的疫苗质量控制机构出具的批签发证明文件方可上市流通。
+3．狂犬病疫苗的适用性：
+狂犬病疫苗上市前需进行严格、系统、规范的临床前研究和临床试验，确定疫苗接种程序、给药途径、保护的起始和持续时间，以及疫苗加强接种的要求和时机。在与被动免疫制剂联合使用的程序中，虽未对联合应用进行专门系统的临床评价，但每年数百万人群的实际应用数据显示了联合使用的效果，对疫苗产生的主动免疫效果的影响在可接受的范围内[40]。
+4．疫苗接种途径和部位：
+（1）接种途径：目前全球范围内可采用的接种途径包括肌内注射（intramuscular injection，IM）和皮内注射（intradermal injection，ID），我国目前批准的狂犬病疫苗无论暴露前预防（pre-exposure prophylaxis，PrEP）或PEP处置只有IM单一途径。2018年WHO立场文件推荐了ID途径，ID途径在PrEP和PEP处置过程中，具有与IM途径相同的效果。由于皮肤组织内抗原呈递细胞密集，免疫应答强烈，故ID途径具有程序时间更短、使用疫苗量更节省的优势[41,42]。建议疫苗生产企业向国家授权机构提交许可证变更申请，以增加该注射途径。（2）IM途径的接种部位：2岁及以上人群疫苗接种于上臂三角肌，2岁以下幼童可选择大腿外侧上1/3处IM接种。由于臀部脂肪组织丰富且抗原呈递细胞贫乏，免疫效果差，因此，狂犬病疫苗不建议臀部注射[3]。
+5．疫苗免疫程序和剂量：
+（1）WHO推荐的暴露前免疫程序：在第0和7天分别给予2位点ID接种，每个位点注射0.1 ml；如果采用IM接种，第0和7天分别给予1剂IM接种[9,10,43]。（2）WHO推荐的暴露后免疫程序：以前WHO推荐的IM注射程序仍然适用，但相比之下，ID程序在成本、剂量和时间更具有优势。在第0、3、7、14、28天单剂IM接种5剂的方案；或者在第0、3、7天各1剂，第14~28天中任1天IM接种1剂共4剂的方案；或者4剂次的"2-1-1"方案（第0天2个部位各接种1剂，第7和21天各注射1剂）；或者在第0、3、7、28天给予2位点ID接种的泰国红十字会方案；或者在第0、3、7天给予2位点ID接种的IPC ID方案[10,43]。ID方案比IM方案至少节省25%疫苗剂量，当诊所的病例数目增加时，ID方案的成本效益更加显著，最多可以节省85%以上的疫苗剂量[10,43]。（3）WHO推荐的再暴露的免疫程序：上次免疫程序最后一剂完成后3个月及以上再次暴露者，在第0和3天分别给予1位点ID接种或在第0天给予4位点ID接种；如果采用IM接种，第0和3天分别给予1剂IM接种[10]。
+2018年WHO狂犬病疫苗立场文件基于疫苗的临床试验、实际的PEP应用和实验室数据的评价显示，所有的细胞培养狂犬病疫苗均能有效诱导免疫应答，快速产生高水平的中和抗体；暴露后第14天，无论是否同时注射狂犬病被动免疫制剂、无论受种者营养状况，各年龄段人群中和抗体均可达到阳转水平（≥0.5 IU/ml）[44]。因此，立场文件继续推荐将PEP的5剂免疫程序缩短为第0、3和7天各注射1剂，第4剂在第14~28天任选1天注射1剂，共4剂的免疫程序；而暴露前的IM或ID途径均为第0和7天共2剂的程序[44]。
+我国一项临床研究纳入了181名健康成人，观察"2-1"程序（第0天2剂和第7天1剂）的免疫反应及疫苗诱导的抗体持久性，该研究结果显示，第7、14和45天各关键时间点的中和抗体水平与5针组程序差异无统计学意义，观察到至少180 d中和抗体水平仍然≥0.5 IU/ml[43]。
+6．特殊人群接种：
+孕妇和哺乳期妇女接种细胞培养狂犬病疫苗和狂犬病被动免疫制剂是安全有效的[45]。接受正规的抗逆转录病毒治疗且临床监测和控制良好的HIV感染者，已证明其对狂犬病疫苗具有正常的免疫反应。严重免疫功能缺陷者，如HIV感染临床期病例、造血干细胞移植后病例等，可能影响狂犬病疫苗的免疫反应。此类病例暴露前免疫程序：在第0和7天，第21或28天分别给予1剂IM接种[10,43]。如发生再次暴露，仍需按照首次暴露进行全程暴露后预防处置[10,43]。
+7．疫苗的安全性：
+通常来说，细胞培养疫苗的安全性和耐受性良好。但35%~45%的接种者仍可在注射部位发生轻微短暂性红斑、疼痛或肿胀等局部不良反应；5%~15%的接种者伴有短暂轻微的发热、头痛、头晕、胃肠道症状等全身不良反应，大多无需临床处理可自行缓解[10]；过敏、神经系统不良反应等严重不良反应很少发生[43,44,45,46,47]。
+8．疫苗免疫后的持久性：
+细胞培养疫苗免疫后建立的免疫记忆几乎可维持终身。临床数据证实，接受过暴露前或暴露后免疫的个体在疫苗加强免疫后7 d内即可激发良好的免疫记忆反应[10]，即使暴露前或暴露后免疫是在几十年前进行的，同样可以快速激发免疫记忆反应[10]。对于职业原因具有持续或频繁暴露风险的人员，应进行加强免疫[41]。
+（二）狂犬病被动免疫制剂
+狂犬病被动免疫制剂的作用机制为在伤口局部浸润注射以中和伤口清洗、消毒后残留的病毒，降低伤口局部病毒数量从而降低发病率。目前我国的狂犬病被动免疫制剂（狂犬病免疫球蛋白；rabies immunoglobulin，RIG）有：人源狂犬病免疫球蛋白（通用名：狂犬病人免疫球蛋白；human rabies immunoglobulin，HRIG）和马源狂犬病F（ab′）2片段制剂（通用名：抗狂犬病血清；equine rabies immunoglobulin，ERIG）。HRIG由供浆员免疫狂犬病疫苗并不定期加强，待其血液抗体水平≥10 IU/ml时捐献血浆，用低温乙醇法提取完整的IgG分子而成[48]。ERIG由无任何人源物质的狂犬病病毒抗原加佐剂免疫马匹，采集马匹血浆提取免疫球蛋白，经胃酶作用，将IgG分子酶切成Fc段和F（ab′）2片段，再分离提取高度纯化的F（ab′）2片段而成，非特异性蛋白含量在3%以内[43,49]。但由于该产品存在残余的完整IgG分子和其他微量马源蛋白，有引起过敏反应甚至血清病的可能性[43]。
+1．使用条件：
+狂犬病Ⅲ级暴露（特别是头面部、手指、手臂、会阴部等神经终板丰富的部位暴露），以及严重免疫功能缺陷的Ⅱ级暴露病例应当在第1剂疫苗免疫同时进行伤口部位的浸润注射。
+2．剂量：
+HRIG和ERIG的最大使用剂量分别为20 IU/kg（体重）和40 IU/kg（体重）。对于伤口多而严重的病例，被动免疫制剂剂量不足以浸润注射全部伤口的，可以将其做适当稀释以满足全部伤口的浸润注射[43]。对于伤口位于手指、脚趾、鼻尖、耳廓、男性外生殖器末端等部位者需按照局部可接受的最大剂量给药，根据2018年WHO狂犬病疫苗立场文件，在远离伤口部位IM给予狂犬病被动免疫制剂作用非常有限，因此不再推荐[10,50]。
+3．使用时机：
+最好在首次暴露者疫苗接种后立刻使用，最迟不超过首剂疫苗接种后7 d。狂犬病病毒在进入神经组织前，通常有一段时间在局部肌肉细胞中缓慢复制，且疫苗初次免疫后的1周内人体尚不能产生较高水平的中和抗体。故首剂疫苗免疫时应给予但未给予狂犬病被动免疫制剂的，如果仍在首剂疫苗注射后7 d以内，应尽早注射狂犬病被动免疫制剂。
+4．皮试：
+HRIG使用前无需皮试。抗狂犬病血清使用前需皮试，如皮试呈现阳性反应，但不得不使用时，需在准备好过敏反应救治条件的情况下继续使用[10]。
+（三）单克隆抗体
+一种抗狂犬病单克隆抗体（monoclonal antibody，mAb）产品SII RMAb（商品名Rabishield）已于2017年在印度获批上市[51]，在临床试验中被证明是安全有效的。mAb的优势还在于可大规模生产和质量标准化，且生产过程中不使用动物，可降低不良反应风险[52]。我国开发的抗狂犬病单克隆抗体NM57已经进入三期临床试验阶段。单克隆抗体替代人血及动物来源产品是被动免疫制剂的发展方向，WHO多年来一直建议将含有针对两种或两种以上具有不重叠表位的单克隆抗体产品列为优先研究领域。
+六、PEP的处置建议
+暴露的定义：狂犬病暴露是指被狂犬、疑似狂犬或者不能确定健康的狂犬病宿主动物咬伤、抓伤、舔舐黏膜或者破损皮肤处，或者开放性伤口、黏膜接触可能感染狂犬病病毒的动物唾液或者组织。罕见情况下，器官移植和气溶胶吸入（实验室操作狂犬病病毒含量很高的材料或进入狂犬病蝙蝠密度高的洞穴时）也可作为暴露途径而感染狂犬病病毒。规范的PEP处置可几乎100%预防发病。处置失败的病例相对罕见，主要是由于处置不及时、不规范或病例存在免疫功能缺陷等影响免疫应答的情况[10]。
+PEP处置的内容包括：尽早进行伤口局部处理；尽早进行狂犬病疫苗接种；必要时，尽早使用狂犬病被动免疫制剂。判定暴露分级后，在充分告知暴露者狂犬病危害及应当采取的处置措施并获得知情同意后，采取相应处置措施。详见表1。
+点击查看表格
+表1
+狂犬病暴露分级和预防处置原则
+表1
+狂犬病暴露分级和预防处置原则
+暴露分级
+接触方式
+暴露后预防处置
+Ⅰ
+完好的皮肤接触动物及其分泌物或排泄物
+清洗暴露部位，无需进行其他医学处理
+Ⅱ
+符合以下情况之一：（1）无明显出血的咬伤、抓伤；（2）无明显出血的伤口或已闭合但未完全愈合的伤口接触动物及其分泌物或排泄物
+（1）处理伤口；（2）接种狂犬病疫苗；（3）必要时使用狂犬病被动免疫制剂a
+Ⅲ
+符合以下情况之一：（1）穿透性的皮肤咬伤或抓伤，临床表现为明显出血；（2）尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物；（3）暴露于蝙蝠
+（1）处理伤口；（2）使用狂犬病被动免疫制剂；（3）接种狂犬病疫苗
+注：a当判断病例存在严重免疫功能缺陷等影响疫苗免疫效果的因素时，Ⅱ级暴露者也应该给予狂犬病被动免疫制剂
+（一）伤口处置
+伤口处置的目的是尽可能清除伤口中的狂犬病病毒和细菌。局部伤口处理越早越好，包括对每处伤口进行彻底的冲洗、消毒以及后续的外科处置。如需要，可先给予局部麻醉以减轻清洗或消毒时的疼痛。应根据具体情况使用抗菌素。
+1．伤口冲洗：
+用肥皂水（或其他弱碱性清洗剂）和一定压力的流动清水交替冲洗伤口约15 min。如条件允许，建议使用国家二类医疗器械资质的狂犬病暴露专业冲洗设备和专用冲洗剂对伤口内部进行冲洗。冲洗时应避免水流垂直于创面，应让水流方向与创面成一定角度，以提高冲洗效果并减少冲洗导致的组织损伤[53]。对于污染严重和就诊延迟（超过6 h）的病例，建议冲洗的同时用无菌棉球或无菌纱布擦拭创面以利于更彻底的清除创面表面附着的污染物[54,55]。最后用生理盐水冲洗伤口以避免肥皂液或其他清洗剂残留。
+2．消毒处理：
+彻底冲洗后用含碘制剂[5]或其他具有病毒灭活效力的皮肤黏膜消毒剂消毒涂擦或消毒伤口内部。
+3．清创与缝合：
+清创前，应仔细探查伤口，避免遗漏肌腱、神经、骨骼等深部组织损伤，并避免异物残留于伤口内。对需要注射被动免疫制剂且清创后需缝合的伤口，应在完成被动免疫制剂局部浸润注射后予松散缝合（避免缝合张力过大影响被动免疫制剂在伤口中的弥散）[43]。动物致伤伤口具有伤情复杂、软组织损伤严重、细菌感染率高等特点，应谨慎缝合[56]。伤口是否进行Ⅰ期缝合需要综合考虑多方面因素，如受伤时间、致伤动物、受伤部位、伤口的污染程度、病例的基础健康状况以及医务人员的临床经验等[57,58,59,60]。对于存在高感染风险因素的病例应避免Ⅰ期缝合，包括就诊延迟（超过6 h）、不易冲洗清创的穿刺伤、贯通伤、累及手足部位的伤口、伴有广泛软组织缺损的伤口、合并糖尿病、免疫功能缺陷以及接受糖皮质激素或免疫抑制剂治疗的病例等[57,58,61,62]。此类伤口应充分冲洗、清创、开放引流，可用透气性敷料覆盖创面，伤口内可放置引流条或引流管，以利于伤口污染物及分泌物的排出，3~5 d后根据伤口情况决定是否延期缝合。
+对于手、足部位的犬咬伤，以往认为缝合后感染率高而不宜Ⅰ期缝合，但有研究发现如果做到彻底清创，发生在肢体的犬咬伤进行Ⅰ期缝合后的效果满意[57,58,61,62,63]，因此对发生在6 h以内的犬咬伤，如果能做到彻底清创，均可考虑清创后Ⅰ期缝合[64]，特别是头面部的伤口，对于美观的需求较高，并且头面部供血丰富，应当更积极进行Ⅰ期缝合。猫咬伤的伤口类型多为小而深的穿刺伤，易于感染，除头面部的伤口外，应尽量避免Ⅰ期缝合，可考虑延期缝合[61,62,65,66]。被病例咬伤产生的伤口，除位于头面部外，均不建议进行Ⅰ期缝合[61,67]。病例自我伤害造成的伤口感染率不高[59]，发生在6 h以内的伤口在清创满意的情况下，均可考虑Ⅰ期缝合。
+如果就诊时伤口已缝合且无明确感染征象（伤口及周围组织无红肿、皮温高，无浆液性或脓性渗出等），原则上不主张拆除缝线。若缝合前未按需注射被动免疫制剂，且在首剂疫苗接种7 d内，应在伤口周围补充浸润注射。如果已经缝合的伤口出现感染征象，可考虑拆除部分或全部缝线敞开伤口以利于引流。
+动物致伤涉及骨科、耳鼻喉科、眼科、整形外科、普通外科、泌尿外科等多个临床专业，严重、复杂的动物咬伤伤口的后续外科处置，最好由专科医生或在专科医生协助下完成。
+4．抗菌素使用：
+预防伤口感染的关键在于尽早正确进行彻底的伤口清洗、清创及伤口覆盖或闭合[68,69,70,71,72]，不推荐常规预防性使用抗菌素[67,73,74,75]。尚未出现伤口感染征象但存在感染高危因素的病例，可预防性使用抗菌素，见表2，包括被猫、灵长类、猪咬伤、手足部咬伤、有失活组织的挤压伤、难以清创的深部伤口、伴有深静脉和/或淋巴管受损的伤口、有植入物、糖尿病和免疫功能障碍的病例（如艾滋病、肝炎、脾切除后、癌症、中性粒细胞减少症以及接受免疫抑制治疗的病例等）[67,73,74,75]。啮齿类动物的咬伤一般不需要预防性使用抗菌素。对可疑感染的伤口，可在使用抗菌素前留取伤口的分泌物或剔除的坏死组织进行细菌培养及药物敏感试验，在得到药敏结果前建议使用广谱抗菌素，推荐含有β-内酰胺酶抑制剂的β-内酰胺类、克林霉素和第四代喹诺酮类口服3~7 d[56,75,76,77,78]。得到细菌培养和药敏结果后，应根据药敏结果调整抗菌素使用。已出现伤口感染征象应使用抗菌素，建议蜂窝织炎使用抗菌素10~14 d，肌腱滑膜炎3周，化脓性关节炎4周，骨髓炎6周[56,75,76,77,78]。
+点击查看表格
+表2
+动物致伤6 h内咬伤伤口Ⅰ期缝合建议及预防性抗菌素使用指征
+表2
+动物致伤6 h内咬伤伤口Ⅰ期缝合建议及预防性抗菌素使用指征
+致伤物种
+Ⅰ期缝合建议a
+预防性抗菌素使用
+犬
+所有的b
+手足部、有感染高危风险c
+猫
+只有头面部
+所有的
+被患者咬伤
+只有头面部
+手足部、有感染高危风险c
+啮齿类
+所有的（通常不需要缝合）
+不需要
+注：a不建议Ⅰ期缝合的情况：不易冲洗清创的穿刺伤、贯通伤、伴有广泛软组织缺损的伤口、合并糖尿病、免疫功能缺陷以及接受糖皮质激素或免疫抑制剂治疗的病例；b对手足部位的犬咬伤，如果不能确保彻底清创，不建议Ⅰ期缝合；c感染高危风险：有失活组织的挤压伤、难以清创的深部伤口、伴有深静脉和/或淋巴管受损的伤口、有植入物、糖尿病和免疫功能障碍的病例（如艾滋病、肝炎、脾切除后、癌症、中性粒细胞减少症以及接受免疫抑制治疗的病例等）
+5．破伤风预防：
+动物致伤造成的伤口是破伤风高风险伤口，处理过程中均需对破伤风的风险进行评估并采取合理的预防措施，狂犬病暴露后对应的破伤风风险分类：（1）无破伤风风险：狂犬病Ⅰ级暴露，完好的黏膜被唾液污染，无皮肤破损的蝙蝠接触；（2）破伤风低风险：狂犬病Ⅱ级暴露伤口；（3）破伤风高风险：狂犬病Ⅲ级暴露伤口（完好的黏膜被唾液污染、无皮肤破损的蝙蝠接触除外）。根据破伤风风险等级和暴露情况，建议按照表3进行免疫接种。
+点击查看表格
+表3
+狂犬病暴露后破伤风疫苗免疫接种程序[79]
+表3
+狂犬病暴露后破伤风疫苗免疫接种程序[79]
+注射最后1剂含破伤风类毒素疫苗至今
+伤口类型
+破伤风疫苗
+破伤风被动免疫制剂
+全程免疫
+<5年
+低、高风险
+无需接种
+无需接种
+≥5年且<10年
+低风险
+无需接种
+无需接种
+≥5年且<10年
+高风险
+加强1剂
+无需接种
+≥10年
+低、高风险
+加强1剂
+无需接种
+非全程或不详
+低风险
+全程免疫
+无需接种
+非全程或不详
+高风险
+全程免疫
+需要HTIG或TAT/F(ab ′)2
+注：HTIG：破伤风人免疫球蛋白；TAT/F（ab′）2：破伤风抗毒素/破伤风马免疫球蛋白
+（二）疫苗接种
+1．应用人群：
+Ⅱ和Ⅲ级暴露者。
+2．接种部位、剂量和免疫程序：
+目前中国上市的狂犬病疫苗均采用肌内注射，接种部位为：2岁及以上人群疫苗接种于上臂三角肌，2岁以下幼童可选择大腿外侧上1/3处IM接种。5针免疫程序：第0、3、7、14和28天各接种1剂，共接种5剂。"2-1-1"免疫程序：第0天接种2剂（左、右上臂三角肌各接种1剂），第7和21天各接种1剂，共接种4剂。简化4针免疫程序：第0、3、7、14天，或第14~28天的任意1天，各1剂。免疫功能低下者应接受5针免疫程序。
+3．联合免疫：
+正在进行计划免疫接种的儿童可按照正常免疫程序接种狂犬病疫苗。接种狂犬病疫苗期间接种无细胞百白破联合疫苗、日本乙型脑炎疫苗或脊髓灰质炎疫苗等计划免疫疫苗是安全的，可以同时接种，但优先接种狂犬病疫苗[80]。
+（三）使用禁忌
+狂犬病为致死性疾病，暴露后狂犬病疫苗使用无任何禁忌，但接种前应充分询问受种者个体基本情况（如有无严重过敏史、其他严重疾病等）。即使存在不适合接种疫苗的情况，也应在严密监护下接种疫苗。如受种者对某一品牌疫苗的成分有明确过敏史，应更换无该成分的疫苗品种。
+（四）接种延迟
+狂犬病疫苗接种应当按时完成全程免疫，按照程序正确接种对机体产生抗狂犬病的免疫力非常关键，如某一剂次延迟1天或数天注射，其后续剂次接种时间按原免疫程序的时间间隔相应顺延[81]，不需要重新开始接种。
+（五）疫苗品牌更换
+尽量使用同一品牌狂犬病疫苗完成全程接种。若无法实现，可使用不同品牌的合格狂犬病疫苗继续按原程序完成全程接种。
+（六）被动免疫制剂注射
+1．应用人群：
+首次暴露的Ⅲ级暴露者；存在严重免疫功能缺陷的首次Ⅱ级暴露者；首次暴露未使用被动免疫制剂，7 d内发生再次暴露的Ⅲ级暴露者；处于HIV临床期或接受过造血干细胞移植，再次暴露的Ⅱ级及Ⅲ级暴露者。
+2．应用剂量：
+狂犬病被动免疫制剂最大剂量应按照病例体重计算，HRIG按照20 IU/kg（体重），ERIG按照40 IU/kg（体重）计算。
+3．应用方法：
+（1）将全部被动免疫制剂直接浸润注射在伤口周围，所有伤口均应覆盖。如所用总剂量不足以浸润注射全部伤口，可用生理盐水适当稀释，至全部伤口均浸润。如果解剖学结构不允许将被动免疫制剂大量注射在伤口周围，如暴露位于手指、脚趾、鼻尖、耳廓及男性外生殖器等部位，则按局部可接受的最大剂量使用，以避免出现筋膜室综合征，剩余制剂不再推荐远离伤口处IM接种[10]。（2）黏膜暴露者，可将狂犬病被动免疫制剂滴/涂在黏膜上。如果解剖学结构允许，也可进行局部浸润注射。对于深部黏膜暴露，可以考虑用稀释的被动免疫制剂进行深部冲洗。（3）建议被动免疫制剂和狂犬病疫苗同一天使用。若不能实现，应先注射疫苗，7 d内仍可注射被动免疫制剂。接种狂犬病疫苗首剂7 d后不再使用被动免疫制剂。（4）不得将RIG和狂犬病疫苗注射在同一部位；禁止用同一注射器注射被动免疫制剂和狂犬病疫苗。
+（七）再次暴露后的处置
+对既往进行过暴露前预防或者PEP处置的病例，以及至少注射过2剂细胞培养狂犬病疫苗的病例进行的PEP处置均按照再次PEP处置进行处理[10]。
+1．伤口处理：
+任何一次暴露后均应及时进行规范的伤口处理。
+2．疫苗接种：
+如再次暴露发生在免疫接种过程中，则继续按照原有程序完成全程接种，不需加大剂量和剂次。上次免疫程序最后1剂完成后3个月内再次暴露，无需加强免疫。上次免疫程序最后1剂完成后3个月及以上再次暴露者，需第0和3天各接种1剂疫苗。
+3．被动免疫制剂：
+按暴露前或暴露后程序完成了至少2剂狂犬病疫苗接种者，除HIV感染者临床期或造血干细胞移植病例外，再次暴露均无需使用被动免疫制剂。
+（八）人用狂犬病疫苗不良反应的临床处置
+1．轻度不良反应：
+（1）局部反应：接种疫苗后24 h内，注射部位可出现红肿（直径<15 mm）、疼痛和发痒（均不影响活动），一般不需处理即可自行缓解。（2）全身性反应：可有轻度发热、无力、头痛、眩晕、关节痛、肌肉痛、呕吐、腹痛等，一般不需处理即可自行消退。
+2．罕见不良反应：
+（1）中度以上发热反应：可先采用物理降温方法，必要时可以使用解热镇痛剂。（2）过敏性皮疹：接种疫苗后72 h内出现荨麻疹，出现反应时，应及时就诊，给予抗组胺药物。
+3．极罕见不良反应：
+（1）过敏性休克[82]：一般在注射疫苗后数分钟至数十分钟内发生。病例快速出现过敏的表现（如皮肤充血潮红、瘙痒、广泛的荨麻疹等），以及血管神经性水肿的表现（如口唇水肿、舌水肿等）。在过敏表现出现之后或同时，出现呼吸异常（如咽喉堵塞感、呼吸困难、喘鸣、哮鸣等）以及休克表现（如血压下降、心动过速、晕厥、小便失禁等）。发生过敏性休克至呼吸心跳停止的中位时间间隔为5 min[83,84]，因此迅速处理十分重要。只要怀疑过敏性休克，就启动急救流程，避免因为延迟诊断而延误抢救。开始治疗的关键是维持呼吸道通畅和保持有效血液循环，尤其强调肾上腺素的紧急使用。（2）过敏性紫癜：①过敏性紫癜的临床表现：皮肤紫癜、关节炎和关节痛、腹痛、肾病等[83,84]。通常根据典型的临床表现做出过敏性紫癜诊断。②一般治疗：急性期卧床休息。要注意出入液量、营养及保持电解质平衡。有消化道出血者，如腹痛不重、仅大便潜血阳性者，可进流食。如有明显感染，应给予有效抗菌素。对轻度关节痛的病例，可给以非甾体类抗炎药对症治疗。对腹痛、伴有肾脏损害的病例，避免使用非甾体类抗炎药[85]。③应用抗组织胺药物。④应用抗血小板药物，如口服双嘧达莫、阿司匹林等。⑤对腹痛严重、重度关节痛（活动受限）、消化道出血、精神状态改变、有显著肾脏病的证据（肌酐升高、高血压和蛋白尿等）的过敏性紫癜病例，应住院进一步治疗。（3）血管神经性水肿：是体液外渗进入间质组织导致的局部皮下（或黏膜下）肿胀。可应用抗组织胺药物治疗，必要时可联合使用糖皮质激素类药物治疗。如果初步治疗后缓解不明显，应住院进一步治疗。
+4．ERIG：
+（1）ERIG的局部和全身不良反应的发生率分别约为12.5%和1.05%[86,87]，一般不需处理即可自行缓解。（2）过敏性休克：同上。（3）血清病：发生率约1%~3%，主要症状为荨麻疹、发热、淋巴结肿大、局部水肿，偶有蛋白尿、呕吐、关节痛，注射部位可出现红斑、瘙痒及水肿，一般在注射后7~14 d发病，称为延缓型；亦有在注射后2~4 d发病者，称为加速型。治疗主要是对症处理和抗组织胺药物治疗，必要时可联合使用糖皮质激素类药物（如静脉使用甲泼尼龙和口服泼尼松）治疗。一般数天至十余天可痊愈。
+5．HRIG：
+一般无不良反应，少数病例在注射后出现局部红肿、疼痛，一般不需处理即可自行缓解。极罕见有血管神经性水肿、皮疹及过敏性休克者，治疗同上[88]。
+七、PrEP的处置建议
+大规模的人群PrEP并无必要，仅在狂犬病被动免疫制剂难以获得，且当地犬伤发生率超过5%时，在普通人群中开展大规模PrEP才符合成本效益[10]。
+（一）适用人群
+所有持续、频繁暴露于狂犬病危险环境下的个体均推荐进行PrEP，如接触狂犬病病毒的实验室工作人员、可能涉及狂犬病病例管理的医护人员、狂犬病病例的密切接触者、兽医、猎人、动物驯养师以及经常接触动物的农学院学生等。此外，建议到偏远、难以获得及时的PrEP处置的地区，且存在暴露风险的游客进行PrEP[9]。
+（二）基础免疫
+免疫程序和剂量：第0和7天分别IM接种1剂，共接种2剂。接种部位为：2岁及以上人群疫苗接种于上臂三角肌，2岁以下幼童可选择大腿外侧上1/3处IM接种。
+免疫功能低下者应接受3针PrEP程序，第0和7天，以及第21~28天分别肌内注射1剂。因为免疫缺陷病例的2针PrEP（第0和7天）尚未得到研究。
+（三）加强免疫
+通常情况下，已接受全程基础免疫者无需定期进行加强免疫。定期加强免疫仅推荐用于因职业原因存在持续、频繁或较高的狂犬病病毒暴露风险者，如接触狂犬病病毒的实验室工作人员和兽医。
+免疫程序和剂量：接触狂犬病病毒的实验室人员每年监测1次血清中和抗体水平，应采用RFFIT或MNT检测抗体水平[9,10,15,89]。当血清中和抗体水平<0.5 IU/ml时需加强接种1剂。一般人群不需要监测抗体水平或加强免疫。
+（四）使用禁忌
+对于PrEP，对疫苗中任何成分曾有严重过敏史者应视为接种同种疫苗的禁忌症。妊娠、患急性疾病、慢性疾病的活动期、使用类固醇和免疫抑制剂者可酌情推迟PrEP。对1种疫苗过敏者，可更换另一种基质的疫苗继续原有免疫程序。
+八、狂犬病暴露预防处置门诊
+1．县级及以上地方卫生行政部门应当对辖区内狂犬病暴露预防处置门诊进行合理布局，每个县区至少应有一家24 h为狂犬病暴露者提供服务的门诊。从事狂犬病暴露预防处置的医师须经培训考核合格后方可上岗。
+2．狂犬病暴露预防处置门诊应当具备必要的伤口冲洗、冷链等设备和破伤风疫苗等应急抢救药品。如有条件，应备有至少两种不同基质的狂犬病疫苗、狂犬病及破伤风被动免疫制剂。
+3．暴露预防处置门诊应建立健全相应管理制度。主要包括冷链管理、知情同意书、接种登记、不良反应登记报告、药械设备管理制度等。
+4．暴露预防处置门诊承担狂犬病暴露及其处置的监测工作。
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+AmarasingheGK, Aréchiga CeballosNG, BanyardAC, et al.
+Taxonomy of the order Mononegavirales: update 2018[J].
+Arch Virol,
+2018,
+163(
+8):
+2283-
+2294.
+DOI: 10.1007/s00705-018-3814-x.
+[2]
+NelLH, MarkotterW.
+Lyssaviruses[J].
+Crit Rev Microbiol,
+2007,
+33(
+4):
+301-
+324.
+DOI: 10.1021/ef960058s.
+[3]
+俞永新.
+狂犬病和狂犬病疫苗[M].
+二版.
+北京:
+中国医药科技出版社,
+2009.
+[4]
+OldingStenkvistE.
+Rapid laboratory techniques for the diagnosis of viral infections[J].
+J Clin Pathol,
+1982,
+35(
+1):
+124.
+DOI:10.1136/jcp.35.1.124-a.
+[5]
+World Health Organization.
+Laboratory techniques in rabies[M].
+4th ed.
+Geneva:
+WHO,
+1996.
+[6]
+TaoXY, TangQ, RaynerS, et al.
+Molecular phylodynamic analysis indicates lineage displacement occurred in Chinese rabies epidemics between 1949 to 2010[J].
+PLoS Negl Trop Dis,
+2013,
+7(
+7):
+e2294.
+DOI: 10.1371/journal.pntd.0002294.
+[7]
+LiuY, ZhangS, ZhaoJ, et al.
+Isolation of Irkut virus from a Murina leucogaster bat in China[J].
+PLoS Negl Trop Dis,
+2013,
+7(
+3):
+e2097.
+DOI: 10.1371/journal.pntd.0002097.
+[8]
+LiuY, ChenQ, ZhangF, et al.
+Evaluation of rabies biologics against Irkut virus isolated in China[J].
+J Clin Microbiol,
+2013,
+51(
+11):
+3499-
+3504.
+DOI: 10.1128/JCM.01565-13.
+[9]
+World Health Organization.
+WHO Expert Consultation on Rabies[EB/OL].[
+2019-06-15].
+https://apps.who.int/iris/bitstream/handle/10665/272364/9789241210218-eng.pdf?ua=1.
+[10]
+Group SW.
+Background paper: proposed revision of the policy on rabies vaccines and rabies immunoglobolins [Z].
+Geneva:
+WHO,
+20171-52.
+[11]
+中华人民共和国卫生部.
+WS281-2008狂犬病诊断标准[S].
+北京：
+中国标准出版社，
+2008.
+[12]
+World Health Organization.
+WHO Expert Consultation on Rabies[EB/OL].[
+2019-06-15].
+https://apps.who.int/iris/bitstream/handle/10665/272364/9789241210218-eng.pdf?sequence=1&isAllowed=y.
+[13]
+DacheuxL, WacharapluesadeeS, HemachudhaT, et al.
+More accurate insight into the incidence of human rabies in developing countries through validated laboratory techniques[J].
+PLoS Negl Trop Dis,
+2010,
+4(
+11):
+e765.
+DOI: 10.1371/journal.pntd.0000765.
+[14]
+WangZ, SunY, WuX, et al.
+Development of a relative potency test using ELISA for human rabies vaccines[J].
+Biologicals,
+2018,
+55:
+59-
+62.
+DOI: 10.1016/j.biologicals.2018.06.003.
+[15]
+SmithJS, YagerPA, BaerGM.
+A rapid reproducible test for determining rabies neutralizing antibody[J].
+Bull World Health Organ,
+1973,
+48(
+5):
+535-
+541.
+[16]
+HampsonK, CoudevilleL, LemboT, et al.
+Correction: Estimating the global burden of endemic canine rabies[J].
+PLoS Negl Trop Dis,
+2015,
+9(
+5):
+e0003786.
+DOI: 10.1371/journal.pntd.0003786.
+[17]
+DodetB, Africa Rabies Expert Bureau (AfroREB), AdjogouaEV, et al.
+Fighting rabies in Africa: the Africa Rabies Expert Bureau (AfroREB)[J].
+Vaccine,
+2008,
+26(
+50):
+6295-
+6298.
+DOI: 10.1016/j.vaccine.2008.04.087.
+[18]
+KnobelDL, CleavelandS, ColemanPG, et al.
+Re-evaluating the burden of rabies in Africa and Asia[J].
+Bull World Health Organ,
+2005,
+83(
+5):
+360-
+368.
+DOI:/S0042-96862005000500012.
+[19]
+World Health Organization.
+Rabies vaccines: WHO position paper--recommendations[J].
+Vaccine,
+2010,
+28(
+44):
+7140-
+7142.
+DOI: 10.1016/j.vaccine.2010.08.082.
+[20]
+ManningSE, RupprechtCE, FishbeinD, et al.
+Human rabies prevention--United States, 2008: recommendations of the advisory committee on immunization practices[J].
+MMWR Recomm Rep,
+2008,
+57(
+RR-3):
+1-
+28.
+DOI:10.1111/j.1600-6143.2011.03793.x.
+[21]
+WandelerAI.
+The rabies situation in Western Europe[J].
+Dev Biol (Basel),
+2008,
+131:
+19-
+25.
+[22]
+SabetaCT, MansfieldKL, McElhinneyLM, et al.
+Molecular epidemiology of rabies in bat-eared foxes (Otocyon megalotis) in South Africa[J].
+Virus Res,
+2007,
+129(
+1):
+1-
+10.
+DOI: 10.1016/j.virusres.2007.04.024.
+[23]
+ZuluGC, SabetaCT, NelLH.
+Molecular epidemiology of rabies: focus on domestic dogs (Canis familiaris) and black-backed jackals (Canis mesomelas) from northern South Africa[J].
+Virus Res,
+2009,
+140(
+1-2):
+71-
+78.
+DOI: 10.1016/j.virusres.2008.11.004.
+[24]
+RupprechtCE, BarrettJ, BriggsD, et al.
+Can rabies be eradicated?[J].
+Dev Biol (Basel),
+2008,
+131:
+95-
+121.
+DOI: 10.1111/j.1540-8175.2006.00309.x.
+[25]
+World Health Organization.
+The immunological basis for immunization series[EB/OL]. [
+2019-06-20].
+https://www.who.int/immunization/documents/immunological_basis_series/en/.
+[26]
+王力华,唐青,梁国栋.
+野生动物在狂犬病流行病学中的作用[J].
+中国动物检疫,
+2014,
+31(
+6):
+39-
+42.
+DOI: 10.3969/j.issn.1005-944X.2014.06.013.
+[27]
+范鹏飞,杜焕民,张玮晔.
+经器官移植感染狂犬病毒的研究进展[J].
+实用器官移植电子杂志,
+2018,
+6(
+1):
+70-
+71.
+DOI: 10.3969/j.issn.2095-5332.2018.01.018.
+[28]
+李侗曾,梁连春.
+经器官移植传播的狂犬病[J].
+北京医学,
+2014,(
+9):
+784-
+786.
+DOI: 10.3969/j.issn.0253-9713.2014.09.027.
+[29]
+YaoHW, YangY, LiuK, et al.
+The spatiotemporal expansion of human rabies and its probable explanation in mainland China, 2004-2013[J].
+PLoS Negl Trop Dis,
+2015,
+9(
+2):
+e3502.
+DOI: 10.1371/journal.pntd.0003502.
+[30]
+宋森,唐青,冯子健,等.
+1996-2006年中国狂犬病流行特征分析[J].
+中国人兽共患病学报,
+2008,
+24(
+6):
+584-
+586.
+DOI: 10.3969/j.issn.1002-2694.2008.06.024
+[31]
+王梅,周航,殷文武,等.
+中国2005-2011年人狂犬病不同地区季节分布特征研究[J].
+中华流行病学杂志,
+2012,
+33(
+11):
+1151-
+1154.
+DOI: 10.3760/cma.j.issn.0254-6450.2012.11.012.
+[32]
+SongM, TangQ, WangDM, et al.
+Epidemiological investigations of human rabies in China[J].
+BMC Infect Dis,
+2009,
+9:
+210.
+DOI: 10.1186/1471-2334-9-210.
+[33]
+许真,刘波,殷文武,等.
+2006-2008年全国狂犬病流行病学监测分析[J].
+疾病监测,
+2010,
+25(
+5):
+360-
+364.
+DOI: 10.3784/j.issn.1003-9961.2010.05.008.
+[34]
+周航,满腾飞,李群,等.
+2009年中国狂犬病监测分析[J].
+疾病监测,
+2010,
+25(
+12):
+934-937,957.
+DOI: 10.3784/j.issn.1003-9961.2010.12.003.
+[35]
+李浩,陶晓燕,曹玉玺,等.
+2013年中国狂犬病流行特征分析[J].
+中华实验和临床病毒学杂志,
+2015,
+29(
+1):
+53-
+55.
+DOI: 10.3760/cma.j.issn.1003-9279.2015.01.018.
+[36]
+周航,李昱,牟笛,等.
+中国2012年狂犬病流行特征分析[J].
+中华流行病学杂志,
+2015,
+36(
+3):
+205-
+209.
+DOI: 10.3760/cma.j.issn.0254-6450.2015.03.004.
+[37]
+RupprechtCE, HanlonCA, HemachudhaT.
+Rabies re-examined[J].
+Lancet Infect Dis,
+2002,
+2(
+6):
+327-
+343.
+DOI:10.1210/jc.83.10.3523.
+[38]
+国家药典委员会.
+冻干人用狂犬病疫苗[M].
+中国药典（三部）2015版,
+北京：
+中国医药科技出版社,
+2015:
+146.
+[39]
+World Health Organization.
+WHO guidance note: vaccine diluents, revision 2015[EB/OL].[
+2019-06-15].
+https://apps.who.int/iris/bitstream/handle/10665/192741/WHO_IVB_15.08_eng.pdf.
+[40]
+张爱珍,陈荣.
+362例狂犬病免疫球蛋白与疫苗联合应用分析及抗体检测情况[J].
+中国社区医师（医学专业半月刊）,
+2009,
+11(
+2):
+74.
+DOI: 10.3969/j.issn.1007-614x.2009.02.080.
+[41]
+SudarshanMK, MadhusudanaSN, MahendraBJ, et al.
+Boosting effect of purified chick embryo cell rabies vaccine using the intradermal route in persons previously immunized by the intramuscular route or vice versa[J].
+Natl Med J India,
+2006,
+19(
+4):
+192-
+194.
+[42]
+RavishHS, SudarshanMK, MadhusudanaSN, et al.
+Assessing safety and immunogenicity of post-exposure prophylaxis following interchangeability of rabies vaccines in humans[J].
+Hum Vaccin Immunother,
+2014,
+10(
+5):
+1354-
+1358.
+DOI: 10.4161/hv.28064.
+[43]
+OrganizationWH.
+Rabies vaccines: WHO position paper, April 2018-Recommendations[J].
+Vaccine,
+2018,
+36(
+37):
+5500-
+5503.
+DOI: 10.1016/j.vaccine.2018.06.061.
+[44]
+World Health Organization.
+The immunological basis for immunization series: module 17: rabies vaccines[EB/OL].[
+2019-06-15].
+http://www.doc88.com/p-9935243952593.html.
+[45]
+de MartinoM.
+Dismantling the Taboo against Vaccines in Pregnancy[J].
+Int J Mol Sci,
+2016,
+17(
+6)
+DOI: 10.3390/ijms17060894.
+[46]
+Simani OE, IzuA, ViolariA, et al.
+Effect of HIV-1 exposure and antiretroviral treatment strategies in HIV-infected children on immunogenicity of vaccines during infancy[J].
+AIDS,
+2014,
+28(
+4):
+531-
+541.
+DOI: 10.1097/QAD.0000000000000127.
+[47]
+World Health Organization.
+Adverse events following immunization (AEFI)[EB/OL].[
+2019-06-15].
+http://www.who.int/vaccine_safety/initiative/detection/AEFI/en/.
+[48]
+董关木.
+对国内外狂犬病抗血清/免疫球蛋白使用剂量和方法的商榷[J].
+中国药品标准,
+2009,
+10(
+4):
+243-
+245.
+DOI: 10.3969/j.issn.1009-3656.2009.04.001.
+[49]
+ReveneauE, CottinP, RasuliA.
+Two decades of pharmacovigilance and clinical experience with highly purified rabies immunoglobulin F(ab′)2 fragments[J].
+Expert Rev Vaccines,
+2017,
+16(
+3):
+273-
+287.
+DOI: 10.1080/14760584.2017.1244009.
+[50]
+SaesowN, ChaiwatanaratT, MitmoonpitakC, et al.
+Diffusion and fate of intramuscularly injected human rabies immune globulin[J].
+Acta Trop,
+2000,
+76(
+3):
+289-
+292.
+[51]
+GogtayNJ, MunshiR, Ashwath NarayanaDH, et al.
+Comparison of a Novel Human Rabies Monoclonal Antibody to Human Rabies Immunoglobulin for Postexposure Prophylaxis: A Phase 2/3, Randomized, Single-Blind, Noninferiority, Controlled Study[J].
+Clin Infect Dis,
+2018,
+66(
+3):
+387-
+395.
+DOI: 10.1093/cid/cix791.
+[52]
+IlinaEN, LarinaMV, AlievTK, et al.
+Recombinant monoclonal antibodies for rabies post-exposure prophylaxis[J].
+Biochemistry (Mosc),
+2018,
+83(
+1):
+1-
+12.
+DOI:10.1134/S0006297918010017.
+[53]
+FryDE.
+Pressure Irrigation of Surgical Incisions and Traumatic Wounds[J].
+Surg Infect (Larchmt),
+2017,
+18(
+4):
+424-
+430.
+DOI: 10.1089/sur.2016.252.
+[54]
+KAPLANMM, COHEND, KOPROWSKIH, et al.
+Studies on the local treatment of wounds for the prevention of rabies[J].
+Bull World Health Organ,
+1962,
+26:
+765-
+775.
+[55]
+KalteisT, LehnN, SchröderHJ, et al.
+Contaminant seeding in bone by different irrigation methods: an experimental study[J].
+J Orthop Trauma,
+2005,
+19(
+9):
+591-
+596.
+[56]
+EvgeniouE, MarkesonD, IyerS, et al.
+The management of animal bites in the United kingdom[J].
+Eplasty,
+2013,
+13:
+e27.
+DOI:10.1080/02681300308522995.
+[57]
+JaindlM, GrünauerJ, PlatzerP, et al.
+The management of bite wounds in children--a retrospective analysis at a level I trauma centre[J].
+Injury,
+2012,
+43(
+12):
+2117-
+2121.
+DOI: 10.1016/j.injury.2012.04.016.
+[58]
+JaindlM, OberleitnerG, EndlerG, et al.
+Management of bite wounds in children and adults-an analysis of over 5000 cases at a level I trauma centre[J].
+Wien Klin Wochenschr,
+2016,
+128(
+9-10):
+367-
+375.
+DOI: 10.1007/s00508-015-0900-x.
+[59]
+KennedySA, StollLE, LauderAS.
+Human and other mammalian bite injuries of the hand: evaluation and management[J].
+J Am Acad Orthop Surg,
+2015,
+23(
+1):
+47-
+57.
+DOI: 10.5435/JAAOS-23-01-47.
+[60]
+PaschosNK, MakrisEA, GantsosA, et al.
+Primary closure versus non-closure of dog bite wounds. a randomised controlled trial[J].
+Injury,
+2014,
+45(
+1):
+237-
+240.
+DOI:10.1016/j.injury.2013.07.010.
+[61]
+RotheK, TsokosM, HandrickW.
+Animal and Human Bite Wounds[J].
+Dtsch Arztebl Int,
+2015,
+112(
+25):
+433-
+442;
+quiz 443.
+DOI: 10.3238/arztebl.2015.0433.
+[62]
+AzizH, RheeP, PanditV, et al.
+The current concepts in management of animal (dog, cat, snake, scorpion) and human bite wounds[J].
+J Trauma Acute Care Surg.
+2015,
+78(
+3):
+641-
+648.
+DOI: 10.1097/TA.0000000000000531.
+[63]
+NaitoK, SugiyamaY, IgetaY, et al.
+Thorough debridement and immediate primary wound closure for animal bite injuries of the upper limbs[J].
+Eur J Trauma Emerg Surg,
+2016,
+42(
+2):
+213-
+217.
+DOI: 10.1007/s00068-015-0522-z.
+[64]
+ChengHT, HsuYC, WuCI.
+Does primary closure for dog bite wounds increase the incidence of wound infection? A meta-analysis of randomized controlled trials[J].
+J Plast Reconstr Aesthet Surg,
+2014,
+67(
+10):
+1448-
+1450.
+DOI: 10.1016/j.bjps.2014.05.051.
+[65]
+王传林,张晓威,白峰.
+犬咬伤伤口一期缝合与延迟缝合的对比分析[J].
+临床急诊杂志,
+2012,
+13(
+4):
+263-
+265.
+[66]
+ChenE, HoringS, ShepherdSM, et al.
+Primary closure of mammalian bites[J].
+Acad Emerg Med,
+2008,
+7(
+2):
+157-
+161.
+DOI:10.1111/j.1553-2712.2000.tb00519.x.
+[67]
+StefanopoulosP, KaraboutaZ, BisbinasI, et al.
+Animal and human bites: evaluation and management[J].
+Acta Orthop Belg,
+2004,
+70(
+1):
+1-
+10.
+[68]
+EllisR, EllisC.
+Dog and cat bites[J].
+Am Fam Physician,
+2014,
+90(
+4):
+239-
+243.
+[69]
+MorganM, PalmerJ.
+Dog bites[J].
+BMJ,
+2007,
+334(
+7590):
+413-
+417.
+DOI: 10.1136/bmj.39105.659919.BE.
+[70]
+FleisherGR.
+The management of bite wounds[J].
+N Engl J Med,
+1999,
+340(
+2):
+138-
+140.
+DOI: 10.1056/NEJM199901143400210.
+[71]
+StevensDL, BisnoAL, ChambersHF, et al.
+Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America[J].
+Clin Infect Dis,
+2014,
+59(
+2):
+e10-
+e52.
+DOI:10.1093/cid/ciu296.
+[72]
+BassettiM, BaguneidM, BouzaE, et al.
+European perspective and update on the management of complicated skin and soft tissue infections due to methicillin-resistant Staphylococcus aureus after more than 10 years of experience with linezolid[J].
+Clin Microbiol Infect,
+2014,
+20
+Suppl 4∶
+3-
+18.
+DOI: 10.1111/1469-0691.12463.
+[73]
+TaplitzRA.
+Managing bite wounds. Currently recommended antibiotics for treatment and prophylaxis[J].
+Postgrad Med,
+2004,
+116(
+2):
+49-52, 55-56, 59.
+DOI:10.1136/pgmj.2003.016055.
+[74]
+KramerA, AssadianO, FrankM, et al.
+Prevention of post-operative infections after surgical treatment of bite wounds[J].
+GMS Krankenhhyg Interdiszip,
+2010,
+5(
+2)
+DOI: 10.3205/dgkh000155.
+[75]
+PhilipsenTE, MolderezC, GysT.
+Cat and dog bites. What to do? Guidelines for the treatment of cat and dog bites in humans[J].
+Acta Chir Belg,
+2006,
+106(
+6):
+692-
+695.
+DOI:10.1038/sj.bdj.4814305.
+[76]
+SinghSP, AggarwalA, KaurS, et al.
+Self inflicted human teeth bites: a case report[J].
+Pan Afr Med J,
+2014,
+19:
+353.
+DOI:10.11604/pamj.2014.19.353.4561.
+[77]
+AkingbaAG, RobinsonEA, JesterAL, et al.
+Management of vascular trauma from dog bites[J].
+J Vasc Surg,
+2013,
+58(
+5):
+1346-
+1352.
+DOI: 10.1016/j.jvs.2013.05.101.
+[78]
+SnyderCC.
+Animal bite wounds[J].
+Hand Clin,
+1989,
+5(
+4):
+571-
+590.
+[79]
+中国医学救援协会办公室.
+关于中国医学救援协会发布《外伤后破伤风预防规范》团体标准的公示[EB/OL]. [
+2019/6/18].
+http://www.caderm.org/files/190328/20190328164614.html.
+[80]
+KesselsJA, RecuencoS, Navarro-VelaAM, et al.
+Pre-exposure rabies prophylaxis: a systematic review[J].
+Bull World Health Organ,
+2017,
+95(
+3):
+210-
+219C.
+DOI: 10.2471/BLT.16.173039.
+[81]
+2009年版狂犬病暴露预防处置工作规范发布[J].
+中国工作犬业,
+2010(
+1):
+60.
+[82]
+SimonsFE, ArdussoLR, BilòMB, et al.
+2012 Update: world allergy organization guidelines for the assessment and management of anaphylaxis[J].
+Curr Opin Allergy Clin Immunol,
+2012,
+12(
+4):
+389-
+399.
+DOI: 10.1097/ACI.0b013e328355b7e4.
+[83]
+PumphreyRS.
+Lessons for management of anaphylaxis from a study of fatal reactions[J].
+Clin Exp Allergy,
+2000,
+30(
+8):
+1144-
+1150.
+DOI:10.1046/j.1365-2222.2000.00864.x.
+[84]
+PilleboutE, ThervetE, HillG, et al.
+Henoch-Schönlein Purpura in adults: outcome and prognostic factors[J].
+J Am Soc Nephrol,
+2002,
+13(
+5):
+1271-
+1278.
+DOI: 10.1097/01.asn.0000013883.99976.22.
+[85]
+Audemard-VergerA, PilleboutE, GuillevinL, et al.
+IgA vasculitis (Henoch-Shönlein purpura) in adults: Diagnostic and therapeutic aspects[J].
+Autoimmun Rev,
+2015,
+14(
+7):
+579-
+585.
+DOI: 10.1016/j.autrev.2015.02.003.
+[86]
+花高荣,葛传远.
+接种抗狂犬病血清不良反应观察[J].
+安徽预防医学杂志,
+2013,
+19(
+03):
+158-
+159+162.
+[87]
+左永波,杜松涛,钱燕玲,等.
+精制抗狂犬病血清的接种反应[J].
+中国生物制品学杂志,
+2007,
+20(
+12):
+930-
+931.
+DOI: 10.3969/j.issn.1004-5503.2007.12.017.
+[88]
+沈洁,顾海燕,张维.
+1087例不同来源狂犬免疫球蛋白的不良反应文献分析[J].
+中国药物警戒,
+2017,
+14(
+6):
+364-
+368.
+DOI: 10.3969/j.issn.1672-8629.2017.06.011.
+[89]
+CliquetF, AubertM, SagnéL.
+Development of a fluorescent antibody virus neutralisation test (FAVN test) for the quantitation of rabies-neutralising antibody[J].
+J Immunol Methods,
+1998,
+212(
+1):
+79-
+87.
+贡献者信息
+殷文武
+中国疾病预防控制中心传染病管理处，北京 102206
+王传林
+北京大学人民医院急诊科/创伤救治中心 100044
+陈秋兰
+中国疾病预防控制中心传染病管理处，北京 102206
+董关木
+中国食品药品检定研究院疫苗一室，北京 102629
+李玉华
+中国食品药品检定研究院疫苗一室，北京 102629
+朱武洋
+中国疾病预防控制中心病毒病预防控制所，北京 102206
+刘斯
+北京大学第一医院急诊科 100034
+陈庆军
+北京市和平里医院急诊科 100013
+吕新军
+中国疾病预防控制中心病毒病预防控制所，北京 102206
+朱政纲
+武汉市疾病预防控制中心狂犬病门诊 430015
+陶晓燕
+中国疾病预防控制中心病毒病预防控制所，北京 102206
+李昱
+中国疾病预防控制中心传染病管理处，北京 102206
+牟笛
+中国疾病预防控制中心传染病管理处，北京 102206
+王显军
+山东省疾病预防控制中心病毒病预防控制所，济南 250014
+通信作者
+殷文武
+Email：
+yinww@chinacdc.cn
+王传林
+Email：
+wangchuanlinvip@163.com
+关键词
+狂犬病;
+狂犬病病毒;
+暴露后预防;
+疫苗;
+免疫球蛋白;
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2019-07-06
+收稿日期：2019-06-20
+本文编辑
+梁明修
+Criterion•Guideline•Consensus
+Expert consensus on rabies exposure prophylaxis
+Yin Wenwu,  Wang Chuanlin,  Chen Qiulan,  Dong Guanmu,  Li Yuhua,  Zhu Wuyang,  Liu Si,  Chen Qingjun,  Lyu Xinjun,  Zhu Zhenggang,  Tao Xiaoyan,  Li Yu,  Mou Di,  Wang Xianjun
+Published
+2019-07-06
+Cite as
+Chin J Prev Med, 2019,53(7): 668-679. DOI: 10.3760/cma.j.issn.0253-9624.2019.07.004
+Abstract
+Rabies is a zoonotic infectious disease caused by lyssavirus and characterized by central nervous system symptoms. The fatality rate of rabies is almost 100%. About 59 000 cases die of rabies worldwide every year, mainly in Asia and Africa. China is an epidemic country of rabies. Grade II and III exposures are the main types of rabies exposures in China. Standardized post-exposure prophylaxis (PEP) can prevent rabies almost 100%. Human Rabies Vaccine Technical Working Group, National Immunization Advisory Committee and invited experts reached an expert consensus on PEP by referring to the World Health Organization′s position paper on rabies vaccine in 2018 and related research progress in recent.
+Key words:
+Rabies; Lyssavirus; Post-exposure prophylaxis; Vaccine; Immunoglobulin
+Contributor Information
+Yin Wenwu
+Infectious Disease Management Department, Chinese Center for Disease Control and Prevention, Beijing 102206, China
+Wang Chuanlin
+Emergency Department/Trauma Center, Peking University People′s Hospital, Beijing 100044, China
+Chen Qiulan
+Infectious Disease Management Department, Chinese Center for Disease Control and Prevention, Beijing 102206, China
+Dong Guanmu
+Department of Arboviruses and Rabies, National Institute for Food and Drug Control, Beijing 102629, China
+Li Yuhua
+Department of Arboviruses and Rabies, National Institute for Food and Drug Control, Beijing 102629, China
+Zhu Wuyang
+Institute for Viral Disease Control and Prevention, Chinese Center for Disease Control and Prevention, Beijing 102206, China
+Liu Si
+Emergency Department, First Hospital of Peking University, Beijing 100034, China
+Chen Qingjun
+Emergency Department, Beijing Hepingli Hospital, Beijing 100013, China
+Lyu Xinjun
+Institute for Viral Disease Control and Prevention, Chinese Center for Disease Control and Prevention, Beijing 102206, China
+Zhu Zhenggang
+Rabies Clinic, Wuhan Center for Disease Control and Prevention, Wuhan 430015, China
+Tao Xiaoyan
+Institute for Viral Disease Control and Prevention, Chinese Center for Disease Control and Prevention, Beijing 102206, China
+Li Yu
+Infectious Disease Management Department, Chinese Center for Disease Control and Prevention, Beijing 102206, China
+Mou Di
+Infectious Disease Management Department, Chinese Center for Disease Control and Prevention, Beijing 102206, China
+Wang Xianjun
+Institute for Viral Disease Control and Prevention, Shandong Center for Disease Control and Prevention, Jinan 250014, China
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+狂犬病暴露分级和预防处置原则
+暴露分级
+接触方式
+暴露后预防处置
+Ⅰ
+完好的皮肤接触动物及其分泌物或排泄物
+清洗暴露部位，无需进行其他医学处理
+Ⅱ
+符合以下情况之一：（1）无明显出血的咬伤、抓伤；（2）无明显出血的伤口或已闭合但未完全愈合的伤口接触动物及其分泌物或排泄物
+（1）处理伤口；（2）接种狂犬病疫苗；（3）必要时使用狂犬病被动免疫制剂a
+Ⅲ
+符合以下情况之一：（1）穿透性的皮肤咬伤或抓伤，临床表现为明显出血；（2）尚未闭合的伤口或黏膜接触动物及其分泌物或排泄物；（3）暴露于蝙蝠
+（1）处理伤口；（2）使用狂犬病被动免疫制剂；（3）接种狂犬病疫苗
+注：a当判断病例存在严重免疫功能缺陷等影响疫苗免疫效果的因素时，Ⅱ级暴露者也应该给予狂犬病被动免疫制剂
+表2
+动物致伤6 h内咬伤伤口Ⅰ期缝合建议及预防性抗菌素使用指征
+致伤物种
+Ⅰ期缝合建议a
+预防性抗菌素使用
+犬
+所有的b
+手足部、有感染高危风险c
+猫
+只有头面部
+所有的
+被患者咬伤
+只有头面部
+手足部、有感染高危风险c
+啮齿类
+所有的（通常不需要缝合）
+不需要
+注：a不建议Ⅰ期缝合的情况：不易冲洗清创的穿刺伤、贯通伤、伴有广泛软组织缺损的伤口、合并糖尿病、免疫功能缺陷以及接受糖皮质激素或免疫抑制剂治疗的病例；b对手足部位的犬咬伤，如果不能确保彻底清创，不建议Ⅰ期缝合；c感染高危风险：有失活组织的挤压伤、难以清创的深部伤口、伴有深静脉和/或淋巴管受损的伤口、有植入物、糖尿病和免疫功能障碍的病例（如艾滋病、肝炎、脾切除后、癌症、中性粒细胞减少症以及接受免疫抑制治疗的病例等）
+表3
+狂犬病暴露后破伤风疫苗免疫接种程序[79]
+注射最后1剂含破伤风类毒素疫苗至今
+伤口类型
+破伤风疫苗
+破伤风被动免疫制剂
+全程免疫
+<5年
+低、高风险
+无需接种
+无需接种
+≥5年且<10年
+低风险
+无需接种
+无需接种
+≥5年且<10年
+高风险
+加强1剂
+无需接种
+≥10年
+低、高风险
+加强1剂
+无需接种
+非全程或不详
+低风险
+全程免疫
+无需接种
+非全程或不详
+高风险
+全程免疫
+需要HTIG或TAT/F(ab ′)2
+注：HTIG：破伤风人免疫球蛋白；TAT/F（ab′）2：破伤风抗毒素/破伤风马免疫球蛋白
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华预防医学杂志2019年53卷7期
+文    题：狂犬病暴露预防处置专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华预防医学杂志2019年53卷7期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+Original text
+Contribute a better translation
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

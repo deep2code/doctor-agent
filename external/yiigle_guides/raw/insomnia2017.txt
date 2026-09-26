@@ -1,0 +1,1619 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%88%90%E4%BA%BA%E5%A4%B1%E7%9C%A0%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%282017%E7%89%88%29.html
+# 标题: 中国成人失眠诊断与治疗指南(2017版) - 中华神经科杂志
+# 发布方/日期: 中华医学会神经病学分会睡眠障碍学组，中华神经科杂志, 2018,51(5) : 324-335. DOI: 10.3760/cma.j；2018-05-08
+
+中国成人失眠诊断与治疗指南(2017版)
+中华医学会神经病学分会
+中华医学会神经病学分会睡眠障碍学组
+中华神经科杂志, 2018,51(5) : 324-335. DOI: 10.3760/cma.j.issn.1006-7876.2018.05.002
+失眠是最为常见的睡眠问题之一。流行病学研究显示，中国有45.4%的被调查者在过去1个月中曾经历过不同程度的失眠[1]。长期失眠影响个体的正常生活和工作，增加罹患各种健康问题的风险。严重的睡眠缺失将降低患者的工作效率和警觉水平，甚至有可能引发恶性意外事故，造成巨大损失[2,3]。为规范国内失眠的诊断和治疗，相关领域的专家于2006年形成了《中国失眠定义、诊断及药物治疗专家共识》，进而于2012年在循证医学框架内经过广泛讨论推出《中国成人失眠诊断与治疗指南》[4]。该指南为临床医师提供了更加全面、规范，更具有操作性的成人失眠诊疗方案。近年来，失眠相关的国际分类和诊断标准出现了调整，新型治疗药物上市，国内针对失眠的临床诊疗经验也在不断地积累和丰富，这些变化促成了本次修订工作。
+本修订版由中华医学会神经病学分会睡眠障碍学组组织专家组，结合国内失眠诊疗实践的现状，经广泛讨论后形成。
+修订说明和适用范围
+专家组参考国际失眠相关指南[5,6,7,8]和临床实践标准[9,10,11,12]，回顾2012年1月至2017年8月新发表的文献资料，结合前版指南使用经验和当前具体国情，依照循证医学证据提出失眠的诊断和治疗推荐意见。作为2012版指南的替代更新版本，本指南主要的变化包括：(1)更新了失眠分类和诊断标准；(2)新增临床评估相关推荐意见；(3)针对不同类型的患者提出具体的干预推荐意见；(4)根据新的证据更新和修订部分治疗推荐意见。本指南适用于所有的临床医师，旨在提供易于临床操作且符合国情的中国成人失眠诊疗规范。指南是针对临床特定问题进行广泛医疗实践后的总结，即使是较低级别的推荐，所涉及的临床实践仍强于单一的个人经验，理应成为临床实践的重要指导。医师参照本指南时应结合患者具体病情，评估潜在风险，实施个体化的精准医学诊疗。
+推荐等级的划分标准
+本指南参考牛津循证医学中心证据等级划分方法[13]，对所获取的资料进行评估，确定证据等级，兼顾国内现有条件下的临床可操作性，经专家讨论给出相应的推荐意见。对于国内常用但循证医学证据不足的方法，参照其疗效评估、风险评估、经济负担和实用性，经专家讨论达成共识进行推荐。推荐等级共分为4级(Ⅰ级最强，Ⅳ级最弱)：Ⅰ级推荐：基于1级证据或获得大多数认可的2级证据；Ⅱ级推荐：基于2级证据或高度一致的专家共识；Ⅲ级推荐：基于3级证据或专家共识；Ⅳ级推荐：基于4级证据或多数专家认可的实践经验、补充方案或者是无法获取其他方案时的替代方案。
+失眠的定义与分类
+失眠是指尽管有合适的睡眠机会和睡眠环境，依然对睡眠时间和(或)质量感到不满足，并且影响日间社会功能的一种主观体验。主要症状表现为入睡困难(入睡潜伏期超过30 min)、睡眠维持障碍(整夜觉醒次数≥2次)、早醒、睡眠质量下降和总睡眠时间减少(通常少于6.5 h)，同时伴有日间功能障碍。失眠引起的日间功能障碍主要包括疲劳、情绪低落或激惹、躯体不适、认知障碍等[14]。失眠根据病程分为：短期失眠(病程<3个月)和慢性失眠(病程≥3个月)[11,12]。有些患者失眠症状反复出现，应按照每次出现失眠持续的时间来判定是否属于慢性失眠。
+失眠是一种主观体验，不应单纯依靠睡眠时间来判断是否存在失眠[15]。部分人群虽然睡眠时间较短(如短睡眠者)，但没有主观睡眠质量下降，也不存在日间功能损害，因此不能视为失眠。失眠常伴随其他健康问题，有时很难确定两者之间的因果关系，无论属于"原发性"还是"继发性"，均需要针对失眠本身进行独立的临床干预，防止症状迁延或反复。因此，本版指南不再划分原发性失眠、继发性失眠以及各种亚型，这不影响针对失眠的临床评估和处置。
+失眠的临床评估
+失眠的临床评估包括病史采集、睡眠日记、量表评估和客观评估等手段[16]。对于每一例患者都应仔细进行病史采集。推荐患者或家人记录睡眠日记。鉴别诊断和疗效评估时可以纳入量表和其他客观评估方法。
+一、病史采集
+临床医师需要仔细询问病史，包括具体的睡眠情况、用药史、可能存在的物质依赖情况、其他躯体疾病史，以及妊娠、月经、哺乳和围绝经期等躯体状态，并进行体格检查和精神心理状态评估，获取睡眠状况的具体内容，如失眠的表现形式、作息时间、与睡眠相关的症状以及失眠对日间功能的影响等。可以通过自评量表、症状筛查表、精神筛查测试、家庭睡眠记录(如睡眠日记)以及家庭成员陈述等多种手段收集病史资料。
+二、睡眠日记
+由患者本人或家人协助完成为期2周的睡眠日记，记录每日上床时间，估计睡眠潜伏期，记录夜间觉醒次数以及每次觉醒的时间，记录从上床开始到起床之间的总卧床时间，根据早晨觉醒时间估计实际睡眠时间，计算睡眠效率[(实际睡眠时间/卧床时间)×100%]，记录夜间异常症状(异常呼吸、行为和运动等)，记录日间精力与社会功能受影响程度的自我体验，记录午休情况、日间用药和饮料品种。
+三、量表测评
+辅助失眠诊断与鉴别诊断的自评与他评量表包括：
+1．匹兹堡睡眠质量指数(Pittsburgh sleep quality index，PSQI)。
+2．失眠严重程度指数(insomnia severity index)。
+3．广泛焦虑量表(Generalized Anxiety Disorder 7)。
+4．状态特质焦虑问卷(State－Trait Anxiety Inventory)。
+5．Epworth思睡量表(Epworth Sleepiness Scale，ESS)。
+6．疲劳严重程度量表(Fatigue Severity Scale)。
+7．生活质量问卷(SF－36)。
+8．睡眠信念和态度问卷(Dysfunctional Beliefs and Attitudes about Sleep Questionnaire)。
+9．清晨型与夜晚型睡眠问卷(Morning and Evening Questionnaire)。
+临床可根据患者具体情况选用。
+四、主观评估
+建议按照以下过程收集病史，其中1～7为必要评估项目，8为建议评估项目。
+1．通过系统回顾明确是否存在神经系统、心血管系统、呼吸系统、消化系统和内分泌系统等疾病，还要排查是否存在其他各种类型的躯体疾病，如皮肤瘙痒和慢性疼痛等，了解躯体状态(妊娠或哺乳等)。
+2．通过问诊明确患者是否存在心境障碍、焦虑障碍、记忆障碍以及其他精神障碍。
+3．回顾药物或物质应用史，特别是抗抑郁药、中枢兴奋性药物、镇痛药、镇静药、茶碱类药、类固醇以及酒精等精神活性物质滥用史。
+4．回顾过去2～4周内总体睡眠状况，包括入睡潜伏期(上床开始睡觉到入睡的时间)，睡眠中觉醒次数、持续时间和总睡眠时间。需要注意在询问上述参数时应取用平均估计值，不宜将单夜的睡眠状况和体验作为诊断依据。
+5．进行睡眠质量评估(PSQI等量表工具)。
+6．通过问诊或借助于量表工具对日间功能进行评估，排除其他损害日间功能的疾病。
+7．针对日间思睡患者进行ESS评估，结合问诊筛查睡眠呼吸紊乱及其他睡眠障碍。
+8．如有可能，在首次系统评估前最好记录睡眠日记。
+五、客观评估
+整夜多导睡眠图(polysomnogram，PSG)监测主要用于失眠的鉴别诊断和疗效评估[9,17]。PSG多次睡眠潜伏期试验(multiple sleep latency test，MSLT)用于鉴别发作性睡病和日间睡眠增多等疾病。体动记录仪(actigraph)用于鉴别昼夜节律失调性睡眠觉醒障碍(circadian rhythm sleep－wake disorders，CRSWDs)，也可以在无PSG条件时作为替代手段评估患者夜间总睡眠时间和睡眠模式[10]。神经功能影像学为失眠诊断和鉴别诊断开拓了新的领域，但目前仍处于临床研究阶段，尚无成熟经验与标准推广应用[18]。失眠患者由于神经心理或认知行为方面的改变[19,20]，对睡眠状况的自我评估容易出现偏差，可能低估或者高估实际睡眠时间[21]，此时应选择客观评估方法进行甄别。
+失眠的诊断与鉴别诊断[11,22]
+一、慢性失眠的诊断标准(必须同时符合1～6项标准)
+1．存在以下一种或者多种睡眠异常症状(患者自述，或者照料者观察到)：(1)入睡困难；(2)睡眠维持困难；(3)比期望的起床时间更早醒来；(4)在适当的时间不愿意上床睡觉。
+2．存在以下一种或者多种与失眠相关的日间症状(患者自述，或者照料者观察到)：(1)疲劳或全身不适感；(2)注意力不集中或记忆障碍；(3)社交、家庭、职业或学业等功能损害；(4)情绪易烦躁或易激动；(5)日间思睡；(6)行为问题(比如：多动、冲动或攻击性)；(7)精力和体力下降；(8)易发生错误与事故；(9)过度关注睡眠问题或对睡眠质量不满意。
+3．睡眠异常症状和相关的日间症状不能单纯用没有合适的睡眠时间或不恰当的睡眠环境来解释。
+4．睡眠异常症状和相关的日间症状至少每周出现3次。
+5．睡眠异常症状和相关的日间症状持续至少3个月。
+6．睡眠和觉醒困难不能被其他类型的睡眠障碍更好地解释。
+二、短期失眠的诊断标准
+符合慢性失眠第1～3、6条标准，但病程不足3个月和(或)相关症状出现的频率未达到每周3次。
+三、失眠的鉴别诊断
+失眠需要与精神障碍、躯体疾病、药物或物质滥用，以及其他类型的睡眠障碍相鉴别。需要鉴别的其他睡眠障碍类型包括呼吸相关性睡眠障碍、不宁腿综合征、周期性肢体运动障碍、CRSWDs、环境性睡眠困难、睡眠不足综合征、短睡眠者等。确定失眠诊断时还应针对可以确定的精神或躯体障碍给予相应的诊断。
+推荐意见：(1)如有可能，在首次系统评估前最好记录睡眠日记(Ⅰ级推荐)；(2)诊断失眠时应关注共存的其他疾病和症状，并给予相应的诊断(Ⅰ级推荐)；(3)鉴别其他睡眠障碍如呼吸性睡眠障碍、周期性肢体运动障碍时应进行PSG检查(Ⅰ级推荐)；(4)失眠患者伴随日间过度思睡，特别是在需要鉴别发作性睡病时，应当同时进行PSG和MSLT检查(Ⅱ级推荐)；(5)失眠患者接受合理干预后疗效反应不理想时，应进行PSG检查排除其他类型睡眠障碍(Ⅱ级推荐)。
+失眠的治疗
+一、总体目标和干预策略
+1．总体目标：
+(1)改善睡眠质量和(或)增加有效睡眠时间；(2)恢复日间社会功能，提高生活质量；(3)防止短期失眠转化成慢性失眠；(4)减少与失眠相关的躯体疾病或与精神疾病共病的风险；(5)尽可能避免包括药物在内的各种干预方式带来的负面效应。
+2．干预方式：
+失眠的干预方式主要包括心理治疗、药物治疗、物理治疗和中医治疗。心理治疗主要包括睡眠卫生教育和针对失眠的认知行为治疗(cognitive behavioral therapy for insomnia，CBT－I)。应强调睡眠卫生教育的重要性，即在建立良好睡眠卫生习惯的基础上，开展其他治疗手段。CBT－I能够有效纠正失眠患者错误的睡眠认知与不恰当的行为因素，有利于消除心理生理性高觉醒，增强入睡驱动力，重建正确的睡眠觉醒认知模式，持续改善失眠患者的临床症状，且没有不良反应[5,7,23,24]。药物治疗失眠的短期疗效已经被临床试验所证实，但是长期应用仍需承担药物不良反应、成瘾性等潜在风险。物理治疗如光照疗法、经颅磁刺激、生物反馈治疗、经颅微电流刺激疗法等，以及饮食疗法、芳香疗法、按摩、顺势疗法等，均缺乏令人信服的大样本对照研究，只能作为可选择的补充治疗方式[25,26,27]。中医治疗失眠的历史悠久，但囿于特殊的个体化医学模式，难以用现代循证医学模式进行评估。
+3．不同类型失眠的干预策略：
+短期失眠患者应该积极寻找并消除可能的诱发因素，同时积极处置失眠症状。相当一部分的短期失眠患者首选自我调适，但是由于睡眠认知错误或者应对的行为方式不当，可能导致短期失眠转化成慢性失眠。短期失眠患者在无法完成CBT－I时应早期应用药物治疗[28,29]。药物治疗能发挥良好的催眠效能，快速消除失眠症状，避免病程迁延。慢性失眠患者在建立良好睡眠卫生习惯的基础上，应当首选CBT－I[7]。药物治疗慢性失眠缺乏符合标准的长程临床对照研究[30]。已经接受药物治疗的慢性失眠患者，除无法依从者之外，应当同时给予心理治疗，即使是那些已经长期服用镇静催眠药物的失眠患者亦是如此[5]。
+二、失眠的药物治疗
+临床实践中所应用的具有催眠作用的药物种类繁多。药物治疗的关键在于把握获益与风险的平衡，同时要兼顾药物获取的容易程度、经济负担以及患者主观意愿上的依从性。选择干预药物时需要考虑症状的针对性、既往用药反应、患者一般状况、与当前用药的相互作用、药物不良反应以及其他的现患疾病。需要注意，部分药物说明书中的主要适应证并不适用于失眠的治疗，比如某些抗抑郁剂和镇静类抗精神病药物，但是这些药物具备治疗失眠的临床证据，可以参照推荐意见进行个体化的治疗。
+目前临床治疗失眠的药物，主要包括苯二氮类受体激动剂(benzodiazepine receptor agonists，BZRAs)、褪黑素受体激动剂、食欲素受体拮抗剂和具有催眠效应的抗抑郁药物。处方药加巴喷丁、喹硫平、奥氮平治疗失眠的临床证据薄弱，不推荐作为失眠治疗的常规用药。抗组胺药物(如苯海拉明)、普通褪黑素以及缬草提取物等非处方药虽然具有催眠作用，但是现有的临床研究证据有限，不宜作为治疗普通成人失眠的常规用药[31]。酒精(乙醇)不能用于治疗失眠。
+1．BZRAs：
+分为苯二氮类药物(benzodiazepine drugs, BZDs)和非苯二氮类药物(nonbenzodiazepine drugs, non－BZDs)。BZDs于20世纪60年代开始使用，可非选择性激动γ－氨基丁酸受体A上不同的γ亚基，具有镇静、催眠、抗焦虑、肌肉松弛和抗惊厥的药理作用。20世纪80年代以来，以唑吡坦(zolpidem)和右佐匹克隆(eszopiclone)为代表的non－BZDs先后应用于失眠的临床治疗，它们对γ氨基丁酸受体A上的α1亚基选择性激动，主要发挥催眠作用，不良反应较BZDs轻，已经逐步成为治疗失眠的临床常用药物[30]。(1)non－BZDs：唑吡坦、右佐匹克隆和佐匹克隆属于快速起效的催眠药物，能够诱导睡眠始发，治疗入睡困难和睡眠维持障碍。扎来普隆的半衰期较短，仅适用于治疗入睡困难。虽然non－BZDs具有与BZDs类似的催眠疗效[32,33]，但是由于non－BZDs半衰期相对较短，次日残余效应被最大限度地降低，一般不产生日间困倦，产生药物依赖的风险较传统BZDs低，治疗失眠安全、有效，无严重药物不良反应[34,35,36,37]。近年来不同剂型的non－BZDs，如唑吡坦控释剂、含化剂和喷雾剂，为临床需要提供更多的选择。需要注意，non－BZDs有可能会在突然停药后发生一过性的失眠反弹[38]。(2)BZDs：美国FDA批准了5种BZDs(艾司唑仑、氟西泮、夸西泮、替马西泮和三唑仑)用于治疗失眠，其中三唑仑属于唯一的短半衰期催眠药物，但是由于其成瘾性和逆行性遗忘发生率高，已被我国列为一类精神药品管理。国内常用于治疗失眠的BZDs还包括阿普唑仑、劳拉西泮和地西泮。BZDs药物可以改善失眠患者的入睡困难，增加总睡眠时间，不良反应包括日间困倦、头昏、肌张力减低、跌倒、认知功能减退等[39,40,41,42]。持续使用BZDs后，在停药时可能会出现戒断症状和反跳性失眠。对于有物质滥用史的失眠患者需要考虑到潜在的药物滥用风险。肝肾功能损害、重症肌无力、中重度阻塞性睡眠呼吸暂停综合征(obstructive sleep apnea，OSA)以及重度通气功能障碍患者禁用BZDs。
+2．褪黑素和褪黑素受体激动剂：
+褪黑素参与调节睡眠觉醒周期，可以改善时差变化所致睡眠觉醒障碍、睡眠觉醒时相延迟障碍等昼夜节律失调性睡眠觉醒障碍，但使用普通褪黑素治疗失眠尚无一致性结论[43]，故不推荐将普通褪黑素作为催眠药物使用。褪黑素受体激动剂雷美替胺(ramelteon)属于褪黑素MT1和MT2受体激动剂，能够缩短睡眠潜伏期、提高睡眠效率、增加总睡眠时间，可用于治疗以入睡困难为主诉的失眠以及昼夜节律失调性睡眠觉醒障碍[44,45]。雷美替胺对于合并睡眠呼吸障碍的失眠患者安全有效，由于没有药物依赖性，也不会产生戒断症状，故已获准长期治疗失眠。阿戈美拉汀既是褪黑素受体激动剂也是5－羟色胺2C受体拮抗剂，因此具有抗抑郁和催眠双重作用，能够改善抑郁障碍相关的失眠，缩短睡眠潜伏期，增加睡眠连续性[46]。褪黑素受体激动剂可以作为不能耐受前述催眠药物的患者和已经发生药物依赖患者的替代治疗。
+3．食欲素受体拮抗剂：
+食欲素又称下丘脑分泌素，具有促醒作用。针对食欲素双受体发挥抑制作用的拮抗剂苏沃雷生(suvorexant)，已获得美国食品药品监督管理局批准用于治疗成人失眠(入睡困难和睡眠维持障碍)。其发挥催眠作用的靶点不同于其他催眠药，现有研究数据显示其具有较好的临床疗效和耐受性[47,48]。
+4．抗抑郁药物：
+部分抗抑郁药具有镇静作用，在失眠伴随抑郁、焦虑心境时应用较为有效[5]。(1)三环类抗抑郁药物：小剂量的多塞平(3～6 mg/d)因有特定的抗组胺机制，可以改善成年和老年慢性失眠患者的睡眠状况，具有临床耐受性良好，无戒断效应的特点，近年已作为治疗失眠的推荐药物之一[49,50,51]。阿米替林能够缩短入睡潜伏期、减少睡眠中觉醒、增加睡眠时间、提高睡眠效率，但其同时减少慢波睡眠和快速眼动睡眠，不良反应多(如抗胆碱能作用引起的口干﹑心率加快﹑排尿困难等)，因此，老年患者和心功能不全患者慎用，不作为治疗失眠的首选药物。(2)曲唑酮：小剂量曲唑酮(25～150 mg/d)具有镇静催眠效果，可改善入睡困难，增强睡眠连续性，可以用于治疗失眠和催眠药物停药后的失眠反弹。(3)米氮平：小剂量米氮平(3.75～15.00 mg/d)能缓解失眠症状，适合睡眠表浅和早醒的失眠患者[52]。(4)选择性5－羟色胺再摄取抑制剂(selective serotonin reuptake inhibitor，SSRI)：虽无明确催眠作用，但可以通过治疗抑郁和焦虑障碍而改善失眠症状。部分SSRI能够延长睡眠潜伏期，增加睡眠中的觉醒，减少睡眠时间和睡眠效率，减少慢波睡眠，多用于治疗共病抑郁症状的失眠患者；SSRI可能增加周期性肢体运动，某些患者在服用时甚至可能加重其失眠症状。因此，一般建议SSRI在白天服用。(5)选择性5－羟色胺和去甲肾上腺素再摄取抑制剂：包括文拉法辛和度洛西汀等可通过治疗抑郁和焦虑障碍而改善失眠症状，更适用于疼痛伴随失眠的患者，不足之处与SSRI相似。(6)抗抑郁药物与BZRAs联合应用：慢性失眠常与抑郁症状同时存在，部分SSRI与短效BZRAs(如唑吡坦、右佐匹克隆)联用，可以快速缓解失眠症状，提高生活质量，同时协同改善抑郁和焦虑症状[53,54]。
+常用失眠治疗药物的用法用量和主要适应证参见表1。
+点击查看表格
+表1
+临床常用具有镇静催眠作用的药物
+表1
+临床常用具有镇静催眠作用的药物
+药物名称
+药物达峰时间(h)
+半衰期(h)
+成人睡前口服剂量(mg)
+主要适应证
+常见不良反应
+妊娠分级(FDA)a
+哺乳分级b
+备注
+非苯二氮类
+唑吡坦
+0.50~3.00
+0.7~3.5
+10.000
+入睡困难或睡眠维持障碍
+头晕、头痛、遗忘
+C
+L3
+老年人5 mg
+佐匹克隆
+1.50~2.00
+≤5.0
+7.500
+入睡困难或睡眠维持障碍
+口苦
+C
+L2
+老年人3.75 mg；老年人半衰期约7 h
+右佐匹克隆
+≤1.00
+≤6.0
+1.000~3.000
+入睡困难或睡眠维持障碍
+味觉异常
+C
+L2
+老年人1～2 mg；65岁以上半衰期约9 h
+扎来普隆
+≤1.00
+≤1.0
+5.000~10.000
+入睡困难
+头晕、共济障碍
+C
+L2
+老年人5～10 mg
+苯二氮类
+艾司唑仑
+3.00
+10.0~24.0
+1.000~2.000
+入睡困难或睡眠维持障碍
+宿醉、口干、虚弱。高剂量可致呼吸抑制
+X
+L3
+老年人0.5 mg；老年人可出现呼吸抑制
+氟西泮
+≤0.50
+30.0~100.0
+15.000~30.000
+入睡困难、睡眠维持障碍
+宿醉、头昏、乏力、共济失调
+X
+L3
+老年人15 mg，注意半衰期过长
+夸西泮
+≤0.50
+20.0~40.0
+7.500~15.000
+入睡困难、睡眠维持障碍
+站立不稳、思睡、口干、头晕、头痛
+C
+未知
+老年人减量
+替马西泮
+1.20~1.60
+3.5~18.4
+15.000~30.000
+入睡困难、睡眠维持障碍
+头晕、共济失调
+X
+未知
+老年人7.5～15.0 mg
+三唑仑
+0.25~0.50
+1.5~5.5
+0.125~0.500
+入睡困难
+遗忘、欣快、胃部不适、头痛头晕、皮肤刺痛
+X
+L3
+一类精神药品，短期使用
+阿普唑仑
+1.00~2.00
+12.0~15.0
+0.40~0.80
+入睡困难或睡眠维持障碍
+撤药反应、呼吸抑制、头痛、乏力、言语不清
+D
+L3
+老年人半衰期约19 h
+地西泮
+0.50~2.00
+20.0~70.0
+5.000~10.000
+入睡困难或睡眠维持障碍
+思睡、头痛、乏力、共济失调
+D
+L3
+主要用于焦虑伴失眠
+劳拉西泮
+≤2.00
+12.0~18.0
+2.000~4.000
+入睡困难或睡眠维持障碍
+疲劳、思睡
+D
+L3
+主要用于焦虑伴失眠
+褪黑素类
+褪黑素缓释片
+未知
+6.0
+2.000
+入睡困难或睡眠维持障碍
+无明确描述
+N/A
+N/A
+适用于大于55岁的失眠人群
+雷美替胺
+0.75
+1.0~2.6
+8.000
+入睡困难
+疲乏、头晕、恶心呕吐、失眠恶化、幻觉
+C
+未知
+禁与氟伏沙明联用
+阿戈美拉汀
+未
+知
+1.0~2.0
+25.000~50.000
+抑郁症
+头痛、恶心和乏力等
+D
+L3
+具有催眠作用的抗抑郁药
+多塞平
+1.50~4.00
+10.0~50.0
+6.000
+睡眠维持障碍
+思睡、头痛
+C
+L5
+老年人剂量减半
+阿米替林
+2.00~5.00
+10.0~100.0
+10.000~25.000
+抑郁症
+过度镇静、直立性低血压、抗胆碱能作用、心脏损害
+C
+L2
+曲唑酮
+1.00~2.00
+3.0~14.0
+25.000~150.000
+抑郁症
+直立性低血压、头晕、阴茎异常勃起
+C
+L2
+适用焦虑/抑郁伴失眠
+米氮平
+0.25~2.00
+20.0~40.0
+3.750~15.000
+抑郁症
+过度镇静、食欲/体重增加、抗胆碱能作用
+C
+L3
+适用焦虑/抑郁伴失眠
+食欲素受体拮抗剂苏沃雷生
+0.50~6.00
+9.0~13.0
+10.000~20.000
+入睡困难，睡眠维持障碍
+残余的镇静作用
+C
+未知
+发作性睡病禁用
+注：a妊娠分级：C：可能有害，D：孕妇慎用，X：孕妇禁用；b哺乳分级：L2：较安全；L3：中等安全：L5，禁用；FDA：食品药品监督管理局；N/A：不可用/不适用
+5．药物治疗注意事项：
+(1)给药方式：镇静催眠药物每晚睡前服用1次，称为连续治疗。若非每晚服用，比如每周选择数晚服药而不是连续每晚用药则称之为间歇治疗。间歇治疗具体的频次尚无定论，推荐间歇给药的频率为每周3～5次[37,55,56]。至于具体哪一晚给药更合适，基于唑吡坦的临床试验结果认为，应由患者根据睡眠需求"按需"服用[57,58,59]。"按需"的具体决策可参考如下标准[28]：①预期入睡困难时(比如当日的各种事件导致了情绪变化)，于上床睡眠前5～10 min服用；②根据夜间睡眠的需求，上床后30 min仍不能入睡时，立即服用；③夜间醒来无法再次入睡，且距预期起床时间>5 h，可以服用(仅适合使用短半衰期药物)；④根据次日白天活动的需求(有重要工作或事务)，于睡前服用。对于慢性失眠患者，若需长期服药，从安全角度和服药依从性方面考虑[60]，推荐使用non－BZDs进行药物间歇治疗。具有镇静作用的抗抑郁剂和褪黑素受体激动剂可于睡前服用。由于药理学机制不同，抗抑郁剂一般不采用间歇给药或按需用药的方式。褪黑素受体激动剂和食欲素受体拮抗剂是否可以间歇给药或按需服用，有待进一步研究。(2)疗程：少数药物，如唑吡坦、右佐匹克隆、雷美替胺具备长期应用的临床证据，但考虑到潜在的成瘾问题，仍建议尽可能短期使用，一般不超过4周。4周以内的药物干预可选择连续治疗，超过4周需重新评估，必要时变更干预方案或者根据患者睡眠改善状况适时采用间歇治疗。(3)变更药物：换药指征包括：①推荐的治疗剂量无效；②产生耐受性；③不良反应严重；④与治疗其他疾病的药物有相互作用；⑤使用超过6个月；⑥高危人群(有成瘾史的患者)。(4)终止治疗：当患者感觉能够自我控制睡眠时，可考虑逐渐停药。如失眠与其他疾病(如抑郁障碍等)或生活事件相关，当病因去除后，应考虑停用镇静催眠药物。需要注意，长期接受药物连续治疗的患者应当避免突然终止药物治疗，后者可能带来潜在的失眠反弹和严重的精神症状。常用的减量方法包括逐步减少夜间用药量和变更连续治疗为间歇治疗。(5)药物治疗无效时的处理：部分失眠患者对药物治疗反应有限，或者是仅能获得一过性的睡眠改善。此外，一些失眠患者同时罹患多种疾病，多种药物同时应用存在药物交互反应，干扰治疗效果。当规范的药物治疗无法获得满意效果时，应将认知行为干预作为添加或替代的治疗手段。
+推荐意见：(1)失眠患者药物治疗的具体策略(可视为序贯方案)：①首选non－BZDs，如唑吡坦、右佐匹克隆；②如首选药物无效或无法依从，更换为另一种短－中效的BZRAs、褪黑素受体激动剂、食欲素受体拮抗剂；③添加具有镇静催眠作用的抗抑郁药物(如多塞平、曲唑酮、米氮平或帕罗西汀等)，尤其适用于伴随焦虑和抑郁症状的失眠患者(Ⅱ级推荐)。(2)长期应用BZRAs的慢性失眠患者至少每4周进行1次临床评估(Ⅰ级推荐)。(3)推荐慢性失眠患者在医师指导下采用间歇治疗或按需治疗方式服用non－BZDs(Ⅲ级推荐)。(4)抗组胺药物、抗过敏药物以及其他辅助睡眠的非处方药不宜用于慢性失眠的治疗(Ⅰ级推荐)。
+三、失眠的心理治疗
+心理治疗的本质是改变患者的信念系统，发挥其自我效能，进而改善失眠症状。要完成这一目标，常常需要专业医师的参与。心理治疗通常包括睡眠卫生教育、刺激控制疗法、睡眠限制疗法、认知治疗和放松疗法。CBT－I是认知治疗和行为治疗(睡眠限制、刺激控制)的组合。CBT－I能够缓解入睡困难(缩短睡眠潜伏期)，增加总睡眠时间，提升睡眠效率，改善睡眠质量，对老年失眠亦有治疗效果，并可以长期维持疗效[61,62,63,64,65,66,67]。
+1．睡眠卫生教育：
+大部分失眠患者存在不良睡眠习惯，破坏正常的睡眠模式，形成对睡眠的错误概念，从而导致失眠。睡眠卫生教育主要是帮助失眠患者认识不良睡眠习惯及其在失眠发生与发展中的重要作用，重塑有助于睡眠的行为习惯。睡眠卫生教育的主要内容包括：(1)睡前4～6 h内避免接触咖啡、浓茶或吸烟等兴奋性物质；(2)睡前不要饮酒，特别是不能利用酒精帮助入睡；(3)每日规律安排适度的体育锻炼，睡前3～4 h内应避免剧烈运动；(4)睡前不宜暴饮暴食或进食不易消化的食物；(5)睡前1 h内不做容易引起兴奋的脑力劳动或观看容易引起兴奋的书刊和影视节目；(6)卧室环境应安静、舒适，保持适宜的光线及温度；(7)保持规律的作息时间。保持良好的睡眠卫生是消除失眠的前提条件，但是单纯依靠睡眠卫生教育治疗失眠是不够的。
+2．放松疗法：
+应激、紧张和焦虑是诱发失眠的常见因素，放松治疗可以缓解这些因素带来的不良效应，已经成为治疗失眠最常用的非药物疗法。其目的是降低卧床时的警觉性及减少夜间觉醒。减少觉醒和促进夜间睡眠的技巧训练，主要包括渐进性肌肉放松、指导性想象和腹式呼吸训练。放松训练的初期应在专业人员指导下进行，环境要求整洁、安静，患者接受放松训练后应坚持每天练习2～3次。
+3．刺激控制疗法：
+刺激控制疗法是一套行为干预措施，目的在于改善睡眠环境与睡眠倾向(睡意)之间的相互作用，恢复卧床作为诱导睡眠信号的功能，消除由于卧床后迟迟不能入睡而产生的床与觉醒、焦虑等不良后果之间的消极联系，使患者易于入睡，重建睡眠觉醒生物节律。刺激控制疗法具体内容：(1)只在有睡意时才上床；(2)如果卧床20 min不能入睡，应起床离开卧室，可从事一些简单活动，等有睡意时再返回卧室睡觉；(3)不要在床上做与睡眠无关的活动，如进食、看电视、听收音机及思考复杂问题等；(4)不管何时入睡，应保持规律的起床时间；(5)避免日间小睡。
+4．睡眠限制疗法：
+睡眠限制疗法通过缩短卧床清醒的时间，增加入睡驱动能力以提高睡眠效率。睡眠限制疗法的具体内容：(1)减少卧床时间以使其和实际睡眠时间相符，在睡眠效率维持85%以上至少1周的情况下，可增加15～20 min的卧床时间；(2)当睡眠效率低于80%时则减少15～20 min的卧床时间；(3)当睡眠效率在80%～85%之间则保持卧床时间不变；(4)可以有不超过半小时的规律的午睡，避免日间小睡，并保持规律的起床时间。
+5．认知治疗：
+失眠患者常对失眠本身感到恐惧，过分关注失眠的不良后果，常在临近睡眠时感到紧张，担心睡不好。这些负性情绪使失眠症状进一步恶化，失眠的加重又反过来影响患者的情绪，形成恶性循环。认知治疗目的就是改变患者对失眠的认知偏差，改变对于睡眠问题的非理性信念和态度。认知行为疗法的基本内容：(1)保持合理的睡眠期望，不要把所有的问题都归咎于失眠；(2)保持自然入睡，避免过度主观的入睡意图(强行要求自己入睡)；(3)不要过分关注睡眠，不因为一晚没睡好就产生挫败感，培养对失眠影响的耐受性。
+6．CBT－I与药物联合治疗：
+CBT－I不仅具有短期疗效，只要患者坚持应用，可以长期保持疗效[67,68]。CBT－I治疗的初期阶段联合应用non－BZDs可以在短期内改善失眠症状，提高患者的依从性，当联合治疗的效果稳定后，将non－BZDs改为间断治疗或者逐步停药，继续坚持CBT－I仍然能够维持疗效，充分体现这种优化组合治疗的远期效果[69]。
+推荐意见：(1)睡眠卫生教育需要同其他干预方式同时进行，不推荐将其作为独立的干预方式实施(Ⅰ级推荐)；(2)放松疗法与刺激控制疗法可以分别作为独立的干预措施或参与到其他的CBT－I之中(Ⅰ级推荐)；(3)睡眠限制疗法可做为独立的干预措施或参与到其他的CBT－I之中(Ⅱ级推荐)；(4)CBT－I联合药物(首选non－BZDs)治疗可以发挥更好的效果(Ⅱ级推荐)。
+四、特殊人群失眠的治疗
+1．老年：
+老年失眠患者应首选非药物治疗，如睡眠卫生教育，尤其强调进行CBT－I[70]。CBT－I能够缓解老年患者的失眠程度，提升睡眠质量，缩短睡眠潜伏期，减少入睡后觉醒，提升睡眠效率，无明确不良反应[62,71,72,73,74]。患者无法依从非药物治疗时，可以考虑药物治疗[75]。右佐匹克隆可以改善老年失眠患者的失眠症状，缓解日间功能障碍，疗效持续3个月无严重不良反应，停药后无反弹[76]。唑吡坦可以缓解老年失眠患者的入睡困难。食欲素受体拮抗剂苏沃雷生(suvorexant)可以缩短老年失眠患者的睡眠潜伏期，增加总睡眠时间，减少睡眠后觉醒，耐受良好[48]。褪黑素受体激动剂可以缓解老年失眠患者的入睡困难[77,78]。褪黑素缓释剂用于55岁以上的失眠患者，可以改善睡眠质量[79]。小剂量多塞平(3～6 mg/d)可以降低老年失眠患者的失眠严重指数评分，缩短睡眠潜伏期，增加总睡眠时间，减少入睡后觉醒[80,81]。老年失眠患者使用BZDs药物时需谨慎，若发生共济失调、意识模糊、幻觉、呼吸抑制时，需立即停药并妥善处理，同时需注意BZDs引起的肌张力降低有可能产生跌倒等意外伤害。老年患者的用药应从最低有效剂量开始，短期应用或采用间歇疗法，不主张大剂量给药，治疗过程中需密切观察药物不良反应[82]。
+推荐意见：(1)老年失眠患者首选非药物治疗，尤其强调进行CBT－I(Ⅰ级推荐)；(2)药物治疗推荐选择non－BZDs(右佐匹克隆、唑吡坦)、褪黑素受体激动剂、食欲素受体拮抗剂和小剂量多塞平(Ⅱ级推荐)；(3)褪黑素缓释剂可用于改善老年失眠患者的睡眠质量(Ⅲ级推荐)；(4)镇静催眠药物应该采用最低有效剂量，尽可能短期应用，密切观察药物不良反应(Ⅰ级推荐)；(5)老年慢性失眠患者长期用药时，在维持疗效的前提下推荐使用间歇疗法(Ⅳ级推荐)。
+2．妊娠期及哺乳期：
+妊娠期妇女使用镇静催眠药物的安全性缺乏资料。如表1所示，所有non－BZDs均为美国食品药品监督管理局妊娠期用药分级中的C级，阿米替林、多塞平、曲唑酮和米氮平等抗抑郁剂也属于C级，此类药物只有在明确其获益可能胜于潜在危害的情况下才能谨慎使用。大多数BZDs为D－X级，属于妊娠期禁用。苯海拉明(B级)可用于处理妊娠期呕吐，同时具有催眠作用，但是用于治疗妊娠期失眠缺乏循证医学证据。哺乳期应用镇静催眠药物以及抗抑郁剂需谨慎，避免药物通过乳汁影响婴儿。
+推荐意见：(1)妊娠期和哺乳期失眠患者首选睡眠卫生教育，推荐CBT－I(Ⅱ级推荐)；(2)心理治疗不满意或者难以依从时可以选择non－BZDs(Ⅳ级推荐)；(3)哺乳期确需用药时应谨慎，不能确定药物是否通过哺乳影响婴儿时应当停止哺乳后用药(Ⅰ级推荐)。
+3．围绝经期和绝经期患者：
+对于围绝经期和绝经期的失眠患者，应首先鉴别和处理同时存在的影响睡眠的常见疾病，如抑郁、焦虑和睡眠呼吸暂停综合征等，依据症状给予相应的诊断和处理。应当关注患者的激素水平，必要时经专科会诊给予激素替代治疗[6]。
+推荐意见：建议围绝经期和绝经期失眠患者接受妇科、内分泌科以及必要的精神心理专科会诊，处理相应的躯体和心理问题；失眠症状的处理与普通成人相同(Ⅳ级推荐)。
+4．伴有呼吸系统疾病：
+慢性阻塞性肺疾病(chronic obstructive pulmonary disease，COPD)患者中有17%～50%存在失眠，主要表现为入睡困难和睡眠中频繁觉醒[83]。临床上经常使用BZRAs改善COPD患者的失眠和焦虑症状[84,85]。但是，BZRAs中的BZDs可增加COPD患者发生呼吸衰竭的风险。相比而言，non－BZDs中的唑吡坦和右佐匹克隆治疗COPD患者的失眠更为安全[86]。褪黑素受体激动剂雷美替胺能够改善COPD失眠患者的睡眠质量，不增加呼吸紊乱事件，耐受良好[87,88]。OSA患者中存在失眠症状的比例为39%～58%[89]。应用药物治疗OSA患者的失眠时，non－BZDs高度选择γ氨基丁酸受体A的α1亚基以发挥催眠作用，而BZDs非选择性作用于α2、3亚基，后者产生的肌肉松弛有可能导致气道塌陷，增加呼吸紊乱，降低氧饱和度[90]。右佐匹克隆与唑吡坦可以改善轻、中度OSA失眠患者的入睡困难，减少睡眠后觉醒，提高睡眠效率[90,91]，增加患者对持续正压通气PSG压力滴定调适以及持续正压通气治疗的依从性，减少诱发阻塞型睡眠呼吸暂停的可能[92,93,94]。老年OSA失眠患者复杂性睡眠呼吸紊乱增多，睡前服用右佐匹克隆或唑吡坦，可以减少中枢性睡眠呼吸暂停的发生，提高同时应用无创呼吸机治疗时的顺应性。此外，基础研究显示右佐匹克隆还可以阻止呼吸暂停动物模型海马区的兴奋性毒性损伤以及局部的神经变性[95]。雷美替胺同样可以改善轻中度OSA患者的睡眠障碍，且无呼吸抑制，不增加呼吸紊乱，耐受良好[96]。扎来普隆对于OSA失眠患者的疗效尚未确定[97]。食欲素受体拮抗剂苏沃雷生(suvorexant)对COPD和OSA的影响尚缺乏大样本研究。
+推荐意见：(1)伴有呼吸系统疾病的失眠患者适用于心理治疗(Ⅰ级推荐)；(2)伴有COPD和轻中度OSA的失眠患者推荐选择non－BZDs(右佐匹克隆、唑吡坦)、褪黑素受体激动剂(雷美替胺)治疗(Ⅱ级推荐)；(3)COPD和OSA患者应慎用BZDs，对高碳酸血症明显的COPD急性加重期患者和限制性通气功能障碍失代偿期的患者禁用BZDs，必要时需在有创或无创机械通气支持下应用(Ⅳ级推荐)。
+5．共病精神障碍：
+精神障碍患者中常存在失眠症状，此类失眠患者在治疗失眠的同时还应该由精神科医师按专科原则治疗和控制原发病。抑郁障碍常与失眠共病，此时不能仅治疗失眠症状，以免陷入恶性循环的困境[98,99]。针对抑郁障碍的治疗包括认知行为治疗和抗抑郁剂[100]。抗抑郁剂和催眠药物组合可以同时改善抑郁和失眠症状[101]。需要注意抗抑郁药物和催眠药物的使用有可能加重睡眠呼吸暂停综合征和周期性肢体运动障碍[91,102,103]。焦虑障碍患者存在失眠时，以抗焦虑药物为主，必要时在睡前加用镇静催眠药物。精神分裂症患者存在失眠时，应选择抗精神病药物治疗为主，必要情况下可辅以镇静催眠药物治疗失眠症状。
+推荐意见：(1)共病精神疾病的失眠患者应当由精神科专业医师会诊，同时对精神疾病和失眠进行干预(Ⅰ级推荐)；(2)共病抑郁的失眠患者应当采用组合治疗，包括抗抑郁剂(单药或组合)加镇静催眠药物(如non－BZDs药物或褪黑素受体激动剂)以及采用CBT－I的同时应用具有镇静作用的抗抑郁剂(Ⅱ级推荐)。
+综上所述，失眠治疗的总体原则包括：(1)失眠继发于或伴发于其他疾病时，应同时治疗原发或伴发疾病(Ⅰ级推荐)；(2)应及时发现并纠正失眠患者存在的睡眠卫生不良，给予正确的睡眠卫生教育，并在此基础上给予其他干预方式(Ⅰ级推荐)；(3)CBT－I是治疗成人(包括老年人)失眠的首选方案之一，即使已经接受药物治疗的慢性失眠患者，也应当辅以CBT－I(Ⅰ级推荐)；(4)短期失眠患者无法完成CBT－I时应及时选择药物治疗(Ⅱ级推荐)；(5)慢性失眠患者无法完成CBT－I，或者CBT－I无效时可以选择药物治疗，长期给药应参照药物治疗推荐意见个体化实施(Ⅲ级推荐)；(6)物理治疗可以做为补充和替代干预方案(Ⅳ级推荐)。失眠的具体治疗流程见图1。
+点击查看大图
+图1
+失眠治疗流程图
+BZDAs:苯二氮类受体激动剂；non－BZDs：非苯二氮类药物
+图1
+失眠治疗流程图
+专家委员会成员
+执笔 张鹏、李雁鹏、吴惠涓、赵忠新
+专家委员会成员名单(按姓氏拼音排列)陈贵海(安徽医科大学附属巢湖医院)、崔丽英(中国医学科学院北京协和医院)、邓丽影(南昌大学第二附属医院)、杜怡峰(山东省立医院)、顾平(河北医科大学第一医院)、韩芳(北京大学人民医院)、洪震(复旦大学附属华山医院)、黄颜(中国医学科学院北京协和医院)、何金彩(温州医科大学第一医院)、黄流清(第二军医大学东方肝胆外科医院)、黄志力(复旦大学基础医学院)、贾建平(首都医科大学宣武医院)、季建林(复旦大学附属中山医院)、蒋晓江(第三军医大学大坪医院)、李宁(首都医科大学宣武医院)、李雁鹏(第二军医大学长征医院)、李舜伟(中国医学科学院北京协和医院)、刘春风(苏州大学附属二院)、乐卫东(大连医科大学附属一院)、龙小艳(中南大学湘雅医院)、马建芳(上海交通大学附属瑞金医院)、彭丹涛(北京中日友好医院)、潘集阳(暨南大学第一医院)、蒲传强(解放军总医院)、尚伟(山东大学第二医院)、沈扬(北京大学三院)、宿长军(第四军医大学唐都医院)、唐向东(四川大学华西医院)、唐吉友(山东大学千佛山医院)、王涛(华中科技大学同济医学院附属协和医院)、王赞(吉林大学附属第一医院)、王学峰(重庆医科大学第一医院)、王玉平(首都医科大学宣武医院)、吴惠涓(第二军医大学长征医院)、吴中亮(第四军医大学西京医院)、肖波(中南大学湘雅医院)、徐江涛(解放军乌鲁木齐总医院)、薛蓉(天津医科大学总医院)、于欢(复旦大学华山医院)、尹又(第二军医大学长征医院)、于逢春(北京大学第三医院海淀院区)、詹淑琴(首都医科大学宣武医院)、张斌(南方医科大学南方医院)、张鹏(解放军第九一中心医院)、张熙(解放军总医院)、张红菊(河南省人民医院)、赵忠新(第二军医大学长征医院)
+利益冲突
+利益冲突 无
+参考文献
+[1]
+SoldatosCR, AllaertFA, OhtaT, et al.
+How do individuals sleep around the world? Results from a single－day survey in ten countries[J].
+Sleep Med,
+2005,
+6(
+1):
+5－
+13.
+DOI: 10.1016/j.sleep.2004.10.006.
+[2]
+张照环，赵忠新.
+应给予睡眠更多的关注[J].
+中华神经科杂志，
+2011,
+44(
+8):
+513－
+515.
+DOI: 10.3760/cma.j.issn.1006-7876.2011.08.001.
+[3]
+LaugsandLE, StrandLB, VattenLJ, et al.
+Insomnia symptoms and risk for unintentional fatal injuries－－the HUNT Study[J].
+Sleep,
+2014,
+37(
+11):
+1777－
+1786.
+DOI: 10.5665/sleep.4170.
+[4]
+中华医学会神经病学分会睡眠障碍学组.
+中国成人失眠诊断与治疗指南[J].
+中华神经科杂志，
+2012,
+45(
+7):
+534－
+540.
+DOI: 10.3760/cma.j.issn.1006-7876.2012.07.022.
+[5]
+Schutte－RodinS, BrochL, BuysseD, et al.
+Clinical guideline for the evaluation and management of chronic insomnia in adults[J].
+J Clin Sleep Med,
+2008,
+4(
+5):
+487－
+504.
+[6]
+WilsonSJ, NuttDJ, AlfordC, et al.
+British Association for Psychopharmacology consensus statement on evidence－based treatment of insomnia, parasomnias and circadian rhythm disorders[J].
+J Psychopharmacol,
+2010,
+24(
+11):
+1577－
+1601.
+DOI: 10.1177/0269881110379307.
+[7]
+QaseemA, KansagaraD, ForcieaMA, et al.
+Management of Chronic Insomnia Disorder in Adults: A Clinical Practice Guideline From the American College of Physicians[J].
+Ann Intern Med,
+2016,
+165(
+2):
+125－
+133.
+DOI: 10.7326/M15-2175.
+[8]
+SateiaMJ, BuysseDJ, KrystalAD, et al.
+Clinical Practice Guideline for the Pharmacologic Treatment of Chronic Insomnia in Adults: An American Academy of Sleep Medicine Clinical Practice Guideline[J].
+J Clin Sleep Med,
+2017,
+13(
+2):
+307－
+349.
+DOI：10.5664/jcsm.6470.
+[9]
+KushidaCA, LittnerMR, MorgenthalerT, et al.
+Practice parameters for the indications for polysomnography and related procedures: an update for 2005[J].
+Sleep,
+2005,
+28(
+4):
+499－
+521.
+[10]
+MorgenthalerT, AlessiC, FriedmanL, et al.
+Practice parameters for the use of actigraphy in the assessment of sleep and sleep disorders: an update for 2007[J].
+Sleep,
+2007,
+30(
+4):
+519－
+529.
+[11]
+Medicine AAoS.
+The International Classification of Sleep Disorders－Third Edition (ICSD－3)[S].
+Darien, IL:
+American Academy of Sleep Medicine,
+2014.
+[12]
+Association AP.
+Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM－5)[S].
+Arlington，VA:
+American Psychiatric Association,
+2013.
+[13]
+Oxford Centre for Evidence－Based Medicine.
+The Oxford Levels of Evidence 2[EB/OL]. (
+2016－05－01)[
+2017－08－08].
+http://www.cebm.net/index.aspx?o=5653.
+[14]
+张鹏，赵忠新.
+《中国成人失眠诊断与治疗指南》解读[J].
+中国现代神经疾病杂志，
+2013，
+13(
+5):
+363－
+367.
+DOI: 10.3969/j.issn.1672-6731.2013.05.002.
+[15]
+赵忠新，赵翔翔，吴惠涓.
+重视睡眠感知对失眠诊断与疗效评估的影响[J].
+中华神经科杂志，
+2017,
+50(
+8):
+561－
+566.
+DOI: 10.3760/cma.j.issn.1006-7876.2017.08.001.
+[16]
+ChessonA, HartseK, AndersonWM, et al.
+Practice parameters for the evaluation of chronic insomnia. An American Academy of Sleep Medicine report. Standards of Practice Committee of the American Academy of Sleep Medicine[J].
+Sleep,
+2000,
+23(
+2):
+237－
+241.
+[17]
+LittnerM, HirshkowitzM, KramerM, et al.
+Practice parameters for using polysomnography to evaluate insomnia: an update[J].
+Sleep,
+2003,
+26(
+6):
+754－
+760.
+[18]
+贾晓颖，王玉平，詹淑琴.
+失眠、抑郁、焦虑脑功能成像研究进展[J].
+中华神经科杂志，
+2009,
+42(
+7):
+496－
+498.
+DOI: 10.3760/cma.j.issn.1006-7876.2009.07.019.
+[19]
+李志华，陈贵海.
+九盒迷宫试验检测慢性失眠者记忆功能[J].
+中华神经科杂志，
+2011,
+44(
+8):
+524－
+527.
+DOI: 10.3760/cma.j.issn.1006-7876.2011.08.004.
+[20]
+麻小莉，何金彩.
+慢性原发性失眠患者的前瞻性记忆研究[J].
+中华神经科杂志，
+2012,
+45(
+1):
+36－
+39.
+DOI: 10.3760/cma.j.issn.1006-7876.2012.01.010.
+[21]
+张鹏，李雁鹏，赵忠新，等.
+失眠患者与健康人睡眠感知水平的对比分析[J].
+中国现代神经疾病杂志，
+2008,
+8(
+3):
+212－
+116.
+DOI: 10.3969/j.issn.1672-6731.2008.03.011.
+[22]
+赵忠新.
+睡眠医学[M].
+北京：
+人民卫生出版社，
+2016:
+87－
+95.
+[23]
+MorgenthalerT, KramerM, AlessiC, et al.
+Practice parameters for the psychological and behavioral treatment of insomnia: an update. An american academy of sleep medicine report[J].
+Sleep,
+2006,
+29(
+11):
+1415－
+1419.
+[24]
+BrasureM, FuchsE, MacDonaldR, et al.
+Psychological and Behavioral Interventions for Managing Insomnia Disorder: An Evidence Report for a Clinical Practice Guideline by the American College of Physicians[J].
+Ann Intern Med,
+2016,
+165(
+2):
+113－
+124.
+DOI: 10.7326/M15-1782.
+[25]
+CooperKL, ReltonC.
+Homeopathy for insomnia: a systematic review of research evidence[J].
+Sleep Med Rev,
+2010,
+14(
+5):
+329－
+337.
+DOI: 10.1016/j.smrv.2009.11.005.
+[26]
+SarrisJ, ByrneGJ.
+A systematic review of insomnia and complementary medicine[J].
+Sleep Med Rev,
+2011,
+15(
+2):
+99－
+106.
+DOI: 10.1016/j.smrv.2010.04.001.
+[27]
+McCurrySM, PikeKC, VitielloMV, et al.
+Increasing walking and bright light exposure to improve sleep in community－dwelling persons with Alzheimer′s disease: results of a randomized, controlled trial[J].
+J Am Geriatr Soc,
+2011,
+59(
+8):
+1393－
+1402.
+DOI：10.1111/j.1532-5415.2011.03519.x.
+[28]
+失眠定义、诊断及药物治疗共识专家组.
+失眠定义、诊断及药物治疗专家共识(草案)[J].
+中华神经科杂志，
+2006,
+39(
+2):
+141－
+143.
+DOI: 10.3760/j.issn:1006-7876.2006.02.026.
+[29]
+WinkelmanJW.
+CLINICAL PRACTICE. Insomnia Disorder[J].
+N Engl J Med,
+2015,
+373(
+15):
+1437－
+1444.
+DOI: 10.1056/NEJMcp1412740.
+[30]
+WiltTJ, MacDonaldR, BrasureM, et al.
+Pharmacologic Treatment of Insomnia Disorder: An Evidence Report for a Clinical Practice Guideline by the American College of Physicians[J].
+Ann Intern Med,
+2016,
+165(
+2):
+103－
+112.
+DOI：10.7326/M15-1781.
+[31]
+SullivanSS.
+Insomnia pharmacology[J].
+Med Clin North Am,
+2010,
+94(
+3):
+563－
+580.
+DOI: 10.1016/j.mcna.2010.02.012.
+[32]
+DündarY, BolandA, StroblJ, et al.
+Newer hypnotic drugs for the short－term management of insomnia: a systematic review and economic evaluation[J].
+Health Technol Assess,
+2004,
+8(
+24):
+iii－x, 1－125.
+[33]
+DundarY, DoddS, StroblJ, et al.
+Comparative efficacy of newer hypnotic drugs for the short－term management of insomnia: a systematic review and meta－analysis[J].
+Hum Psychopharmacol,
+2004,
+19(
+5):
+305－
+322.
+DOI: 10.1002/hup.594.
+[34]
+Ancoli－IsraelS, RichardsonGS, ManganoRM, et al.
+Long－term use of sedative hypnotics in older patients with insomnia[J].
+Sleep Med,
+2005,
+6(
+2):
+107－
+113.
+DOI：10.1016/j.sleep.2004.10.015.
+[35]
+RothT, WalshJK, KrystalA, et al.
+An evaluation of the efficacy and safety of eszopiclone over 12 months in patients with chronic primary insomnia[J].
+Sleep Med,
+2005,
+6(
+6):
+487－
+495.
+DOI: 10.1016/j.sleep.2005.06.004.
+[36]
+WalshJK, KrystalAD, AmatoDA, et al.
+Nightly treatment of primary insomnia with eszopiclone for six months: effect on sleep, quality of life, and work limitations[J].
+Sleep,
+2007,
+30(
+8):
+959－
+968.
+[37]
+KrystalAD, ErmanM, ZammitGK, et al.
+Long－term efficacy and safety of zolpidem extended－release 12.5 mg, administered 3 to 7 nights per week for 24 weeks, in patients with chronic primary insomnia: a 6－month, randomized, double－blind, placebo－controlled, parallel－group, multicenter study[J].
+Sleep,
+2008,
+31(
+1):
+79－
+90.
+[38]
+ZammitG.
+Comparative tolerability of newer agents for insomnia[J].
+Drug Saf,
+2009,
+32(
+9):
+735－
+748.
+DOI: 10.2165/11312920-000000000-00000.
+[39]
+NowellPD, MazumdarS, BuysseDJ, et al.
+Benzodiazepines and zolpidem for chronic insomnia: a meta－analysis of treatment efficacy[J].
+JAMA,
+1997,
+278(
+24):
+2170－
+2177.
+[40]
+HolbrookAM, CrowtherR, LotterA, et al.
+Meta－analysis of benzodiazepine use in the treatment of insomnia[J].
+CMAJ,
+2000,
+162(
+2):
+225－
+233.
+[41]
+GlassJ, LanctotKL, HerrmannN, et al.
+Sedative hypnotics in older people with insomnia: meta－analysis of risks and benefits[J].
+BMJ,
+2005,
+331(
+7526):
+1169.
+DOI：10.1136/bmj.38623.768588.47.
+[42]
+尹贞云，赵忠新.
+镇静催眠作用药物对失眠患者睡眠结构的影响[J].
+中华神经科杂志，
+2010,
+41(
+1):
+69－
+71.
+DOI: 10.3760/cma.j.issn.1006-7876.2010.01.017.
+[43]
+FergusonSA, RajaratnamSM, DawsonD.
+Melatonin agonists and insomnia[J].
+Expert Rev Neurother,
+2010，
+10(
+2)：
+305－
+318.
+DOI：10.1586/ern.10.1.
+[44]
+RajaratnamSM, PolymeropoulosMH, FisherDM, et al.
+Melatonin agonist tasimelteon (VEC－162) for transient insomnia after sleep－time shift: two randomised controlled multicentre trials[J].
+Lancet,
+2009,
+373(
+9662):
+482－
+491.
+DOI: 10.1016/S0140-6736(08)61812-7.
+[45]
+ZeePC, Wang－WeigandS, WrightKP, et al.
+Effects of ramelteon on insomnia symptoms induced by rapid, eastward travel[J].
+Sleep Med,
+2010,
+11(
+6):
+525－
+533.
+DOI：10.1016/j.sleep.2010.03.010.
+[46]
+SrinivasanV, Pandi－PerumalSR, TrahktI, et al.
+Melatonin and melatonergic drugs on sleep: possible mechanisms of action[J].
+Int J Neurosci,
+2009,
+119(
+6):
+821－
+846.
+DOI: 10.1080/00207450802328607.
+[47]
+HerringWJ, SnyderE, BuddK, et al.
+Orexin receptor antagonism for treatment of insomnia: a randomized clinical trial of suvorexant[J].
+Neurology,
+2012,
+79(
+23):
+2265－
+2274.
+DOI ：10.1212/WNL.0b013e31827688ee.
+[48]
+HerringWJ, ConnorKM, Ivgy－MayN, et al.
+Suvorexant in Patients With Insomnia: Results From Two 3－Month Randomized Controlled Clinical Trials[J].
+Biol Psychiatry,
+2016，
+79(
+2):
+136－
+148.
+DOI: 10.1016/j.biopsych.2014.10.003.
+[49]
+GoforthHW.
+Low－dose doxepin for the treatment of insomnia: emerging data[J].
+Expert Opin Pharmacother,
+2009,
+10(
+10):
+1649－
+1655.
+DOI: 10.1517/14656560903005587.
+[50]
+WeberJ, SiddiquiMA, WagstaffAJ, et al.
+Low－dose doxepin: in the treatment of insomnia[J].
+CNS Drugs,
+2010,
+24(
+8):
+713－
+720.
+DOI: 10.2165/11200810-000000000-00000.
+[51]
+KrystalAD, LankfordA, DurrenceHH, et al.
+Efficacy and safety of doxepin 3 and 6 mg in a 35－day sleep laboratory trial in adults with chronic primary insomnia[J].
+Sleep,
+2011,
+34(
+10):
+1433－
+1442.
+DOI: 10.5665/SLEEP.1294.
+[52]
+詹淑琴，沈扬，王玉平，等.
+米氮平治疗抑郁症患者的早期睡眠多导图改变[J].
+中华神经科杂志，
+2008,
+41(
+11):
+766－
+769.
+DOI: 10.3321/j.issn:1006-7876.2008.11.014.
+[53]
+AsnisGM, ChakraburttyA, DuBoffEA, et al.
+Zolpidem for persistent insomnia in SSRI－treated depressed patients[J].
+J Clin Psychiatry,
+1999,
+60(
+10):
+668－
+676.
+[54]
+季建林，刘文娟，张宁，等.
+帕罗西汀合并唑吡坦对抑郁症伴失眠患者的治疗效果：多中心合作随机对照研究[J].
+中华医学杂志，
+2007,
+87(
+23):
+1585－
+1589.
+DOI: 10.3760/j:issn:0376-2491.2007.23.001.
+[55]
+WalshJK, RothT, RandazzoA, et al.
+Eight weeks of non－nightly use of zolpidem for primary insomnia[J].
+Sleep,
+2000,
+23(
+8):
+1087－
+1096.
+[56]
+PerlisML, McCallWV, KrystalAD, et al.
+Long－term, non－nightly administration of zolpidem in the treatment of patients with primary insomnia[J].
+J Clin Psychiatry,
+2004,
+65(
+8):
+1128－
+1137.
+[57]
+CluydtsR, PeetersK, de BouyalskyI, et al.
+Comparison of continuous versus intermittent administration of zolpidem in chronic insomniacs: a double－blind, randomized pilot study[J].
+J Int Med Res,
+1998,
+26(
+1):
+13－
+24.
+DOI: 10.1177/030006059802600102.
+[58]
+AllainH, ArbusL, SchückS.
+Efficacy and safety of zolpidem administered 'as needed' in primary insomnia[J].
+Clin Drug Investig,
+2001,
+21:
+391－
+400.
+DOI: 10.2165/00044011-200121060-00001.
+[59]
+HajakG, CluydtsR, DeclerckA, et al.
+Continuous versus non－nightly use of zolpidem in chronic insomnia: results of a large－scale, double－blind, randomized, outpatient study[J].
+Int Clin Psychopharmacol,
+2002,
+17(
+1):
+9－
+17.
+[60]
+窦伟，赵忠新.
+镇静催眠药物的耐受性研究进展[J].
+中华神经科杂志，
+2004,
+37(
+5):
+459－
+462.
+DOI: 10.3760/j.issn:1006-7876.2004.05.034.
+[61]
+EspieCA, LindsayWR, BrooksDN, et al.
+A controlled comparative investigation of psychological treatments for chronic sleep－onset insomnia[J].
+Behav Res Ther,
+1989,
+27(
+1):
+79－
+88.
+[62]
+MorinCM, ColecchiC, StoneJ, et al.
+Behavioral and pharmacological therapies for late－life insomnia: a randomized controlled trial[J].
+JAMA,
+1999,
+281(
+11):
+991－
+999.
+[63]
+CurrieSR, WilsonKG, PontefractAJ, et al.
+Cognitive－behavioral treatment of insomnia secondary to chronic pain[J].
+J Consult Clin Psychol,
+2000,
+68(
+3):
+407－
+416.
+[64]
+LichsteinKL, WilsonNM, JohnsonCT.
+Psychological treatment of secondary insomnia[J].
+Psychol Aging,
+2000,
+15(
+2):
+232－
+240.
+[65]
+EdingerJD, WohlgemuthWK, RadtkeRA, et al.
+Cognitive behavioral therapy for treatment of chronic primary insomnia: a randomized controlled trial[J].
+JAMA,
+2001,
+285(
+14):
+1856－
+1864.
+[66]
+JacobsGD, Pace－SchottEF, StickgoldR, et al.
+Cognitive behavior therapy and pharmacotherapy for insomnia: a randomized controlled trial and direct comparison[J].
+Arch Intern Med,
+2004,
+164(
+17):
+1888－
+1896.
+DOI：10.1001/archinte.164.17.1888.
+[67]
+MorinCM, BootzinRR, BuysseDJ, et al.
+Psychological and behavioral treatment of insomnia：update of the recent evidence (1998－2004)[J].
+Sleep,
+2006,
+29(
+11):
+1398－
+1414.
+[68]
+李雁鹏，张鹏，储静，等.
+药物、认知－行为疗法及其联合应用治疗慢性失眠的对照研究[J].
+解放军医学杂志，
+2010,
+35(
+1):
+5.
+[69]
+MorinCM, VallieresA, GuayB, et al.
+Cognitive behavioral therapy, singly and combined with medication, for persistent insomnia: a randomized controlled trial[J].
+JAMA,
+2009,
+301(
+19):
+2005－
+2015.
+DOI: 10.1001/jama.2009.682.
+[70]
+KrishnanP, HawranikP.
+Diagnosis and management of geriatric insomnia: a guide for nurse practitioners[J].
+J Am Acad Nurse Pract,
+2008,
+20(
+12):
+590－
+599.
+DOI: 10.1111/j.1745-7599.2008.00366.x.
+[71]
+RybarczykB, StepanskiE, FoggL, et al.
+A placebo－controlled test of cognitive－behavioral therapy for comorbid insomnia in older adults[J].
+J Consult Clin Psychol,
+2005，
+73(
+6):
+1164－
+1174.
+DOI: 10.1037/0022-006X.73.6.1164.
+[72]
+MorganK, GregoryP, TomenyM, et al.
+Self－help treatment for insomnia symptoms associated with chronic conditions in older adults: a randomized controlled trial[J].
+J Am Geriatr Soc,
+2012,
+60(
+10):
+1803－
+1810.
+DOI: 10.1111/j.1532-5415.2012.04175.x.
+[73]
+EpsteinDR, SidaniS, BootzinRR, et al.
+Dismantling multicomponent behavioral treatment for insomnia in older adults: a randomized controlled trial[J].
+Sleep,
+2012,
+35(
+6):
+797－
+805.
+DOI: 10.5665/sleep.1878.
+[74]
+IrwinMR, OlmsteadR, CarrilloC, et al.
+Cognitive behavioral therapy vs. Tai Chi for late life insomnia and inflammatory risk: a randomized controlled comparative efficacy trial[J].
+Sleep,
+2014,
+37(
+9):
+1543－
+1552.
+DOI: 10.5665/sleep.4008.
+[75]
+McCallWV.
+Diagnosis and management of insomnia in older people[J].
+J Am Geriatr Soc,
+2005,
+53(
+7
+Suppl):
+S272－
+277.
+DOI: 10.1111/j.1532-5415.2005.53393.x.
+[76]
+Ancoli－IsraelS, KrystalAD, McCallWV, et al.
+A 12－week, randomized, double－blind, placebo－controlled study evaluating the effect of eszopiclone 2 mg on sleep/wake function in older adults with primary and comorbid insomnia[J].
+Sleep,
+2010,
+33(
+2):
+225－
+234.
+[77]
+RothT, SeidenD, SainatiS, et al.
+Effects of ramelteon on patient－reported sleep latency in older adults with chronic insomnia[J].
+Sleep Med,
+2006,
+7(
+4):
+312－
+318.
+DOI：10.1016/j.sleep.2006.01.003.
+[78]
+KrystalAD.
+A compendium of placebo－controlled trials of the risks/benefits of pharmacological treatments for insomnia: the empirical basis for U．S. clinical practice[J].
+Sleep Med Rev,
+2009,
+13(
+4):
+265－
+274.
+DOI: 10.1016/j.smrv.2008.08.001.
+[79]
+LuthringerR, MuzetM, ZisapelN, et al.
+The effect of prolonged－release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia[J].
+Int Clin Psychopharmacol,
+2009,
+24(
+5):
+239－
+249.
+DOI: 10.1097/YIC.0b013e32832e9b08.
+[80]
+KrystalAD, DurrenceHH, ScharfM, et al.
+Efficacy and Safety of Doxepin 1 mg and 3 mg in a 12－week Sleep Laboratory and Outpatient Trial of Elderly Subjects with Chronic Primary Insomnia[J].
+Sleep,
+2010,
+33(
+11):
+1553－
+1561.
+[81]
+LankfordA, RogowskiR, EssinkB, et al.
+Efficacy and safety of doxepin 6 mg in a four－week outpatient trial of elderly adults with chronic primary insomnia[J].
+Sleep Med,
+2012,
+13(
+2):
+133－
+138.
+DOI: 10.1016/j.sleep.2011.09.006.
+[82]
+KamelNS, GammackJK.
+Insomnia in the elderly: cause, approach, and treatment[J].
+Am J Med,
+2006,
+119(
+6):
+463－
+469.
+DOI: 10.1016/j.amjmed.2005.10.051.
+[83]
+StegeG, VosPJ, van den ElshoutFJ, et al.
+Sleep, hypnotics and chronic obstructive pulmonary disease[J].
+Respir Med,
+2008,
+102(
+6):
+801－
+814.
+DOI: 10.1016/j.rmed.2007.12.026.
+[84]
+KrollDS, NievaHR, BarskyAJ, et al.
+Benzodiazepines are Prescribed More Frequently to Patients Already at Risk for Benzodiazepine－Related Adverse Events in Primary Care[J].
+J Gen Intern Med,
+2016,
+31(
+9):
+1027－
+1034.
+DOI: 10.1007/s11606-016-3740-0.
+[85]
+LuXM, ZhuJP, ZhouXM.
+The effect of benzodiazepines on insomnia in patients with chronic obstructive pulmonary disease: a meta－analysis of treatment efficacy and safety[J].
+Int J Chron Obstruct Pulmon Dis,
+2016,
+11:
+675－
+685.
+DOI: 10.2147/COPD.S98082.
+[86]
+ChenSJ, YehCM, ChaoTF, et al.
+The Use of Benzodiazepine Receptor Agonists and Risk of Respiratory Failure in Patients with Chronic Obstructive Pulmonary Disease: A Nationwide Population－Based Case－Control Study[J].
+Sleep,
+2015，
+38(
+7)：
+1045－
+1050.
+DOI：10.5665/sleep.4808.
+[87]
+KrygerM, RothT, Wang－WeigandS, et al.
+The effects of ramelteon on respiration during sleep in subjects with moderate to severe chronic obstructive pulmonary disease[J].
+Sleep Breath,
+2009,
+13(
+1):
+79－
+84.
+DOI: 10.1007/s11325-008-0196-4.
+[88]
+KrygerM, Wang－WeigandS, ZhangJ, et al.
+Effect of ramelteon, a selective MT(1)/MT (2)－receptor agonist, on respiration during sleep in mild to moderate COPD[J].
+Sleep Breath,
+2008,
+12(
+3):
+243－
+250.
+DOI: 10.1007/s11325-007-0156-4.
+[89]
+LuysterFS, BuysseDJ, StrolloPJ.
+Comorbid insomnia and obstructive sleep apnea: challenges for clinical practice and research[J].
+J Clin Sleep Med,
+2010,
+6(
+2):
+196－
+204.
+[90]
+ZhangXJ, LiQY, WangY, et al.
+The effect of non－benzodiazepine hypnotics on sleep quality and severity in patients with OSA: a meta－analysis[J].
+Sleep Breath,
+2014,
+18(
+4):
+781－
+789.
+DOI: 10.1007/s11325-014-0943-7.
+[91]
+RosenbergR, RoachJM, ScharfM, et al.
+A pilot study evaluating acute use of eszopiclone in patients with mild to moderate obstructive sleep apnea syndrome[J].
+Sleep Med,
+2007,
+8(
+5):
+464－
+470.
+DOI: 10.1016/j.sleep.2006.10.007.
+[92]
+LettieriCJ, QuastTN, EliassonAH, et al.
+Eszopiclone improves overnight polysomnography and continuous positive airway pressure titration: a prospective, randomized, placebo－controlled trial[J].
+Sleep,
+2008,
+31(
+9):
+1310－
+1316.
+[93]
+CollenJ, LettieriC, KellyW, et al.
+Clinical and polysomnographic predictors of short－term continuous positive airway pressure compliance[J].
+Chest,
+2009,
+135(
+3):
+704－
+709.
+DOI: 10.1378/chest.08-2182.
+[94]
+QaseemA, HoltyJE, OwensDK, et al.
+Management of obstructive sleep apnea in adults: A clinical practice guideline from the American College of Physicians[J].
+Ann Intern Med,
+2013,
+159(
+7):
+471－
+483.
+DOI: 10.7326/0003-4819-159-7-201310010-00704.
+[95]
+FungSJ, XiMC, ZhangJH, et al.
+Eszopiclone prevents excitotoxicity and neurodegeneration in the hippocampus induced by experimental apnea[J].
+Sleep,
+2009,
+32(
+12):
+1593－
+1601.
+[96]
+KrygerM, Wang－WeigandS, RothT.
+Safety of ramelteon in individuals with mild to moderate obstructive sleep apnea[J].
+Sleep Breath,
+2007,
+11(
+3):
+159－
+164.
+DOI: 10.1007/s11325-006-0096-4.
+[97]
+RothT.
+Hypnotic use for insomnia management in chronic obstructive pulmonary disease[J].
+Sleep Med,
+2009,
+10(
+1):
+19－
+25.
+DOI: 10.1016/j.sleep.2008.06.005.
+[98]
+ChungKH, LiCY, KuoSY, et al.
+Risk of psychiatric disorders in patients with chronic insomnia and sedative－hypnotic prescription: a nationwide population－based follow－up study[J].
+J Clin Sleep Med,
+2015,
+11(
+5):
+543－
+551.
+DOI: 10.5664/jcsm.4700.
+[99]
+CreadoS, PlanteDT.
+An Update on the Use of Sedative－Hypnotic Medications in Psychiatric Disorders[J].
+Curr Psychiatry Rep,
+2016,
+18(
+9):
+78.
+DOI: 10.1007/s11920-016-0717-y.
+[100]
+QaseemA, BarryMJ, KansagaraD, et al.
+Nonpharmacologic Versus Pharmacologic Treatment of Adult Patients With Major Depressive Disorder: A Clinical Practice Guideline From the American College of Physicians[J].
+Ann Intern Med,
+2016,
+164(
+5):
+350－
+359.
+DOI: 10.7326/M15-2570.
+[101]
+StanerL.
+Comorbidity of insomnia and depression[J].
+Sleep Med Rev,
+2010，
+14(
+1):
+35－
+46.
+DOI: 10.1016/j.smrv.2009.09.003.
+[102]
+PicchiettiD, WinkelmanJW.
+Restless legs syndrome, periodic limb movements in sleep, and depression[J].
+Sleep,
+2005，
+28(
+7)：
+891－
+898.
+[103]
+BerryRB, PatelPB.
+Effect of zolpidem on the efficacy of continuous positive airway pressure as treatment for obstructive sleep apnea[J].
+Sleep,
+2006，
+29(
+8)：
+1052－
+1056.
+贡献者信息
+中华医学会神经病学分会
+中华医学会神经病学分会睡眠障碍学组
+利益冲突
+利益冲突 无
+历史
+出版日期：2018-05-08
+收稿日期：2017-08-08
+本文编辑
+郑晴
+Guideline
+Guideline for the evaluation and treatment of insomnia in Chinese adults(2017)
+Chinese Society of Neurology,  Sleep Disorder Society, Chinese Society of Neurology
+Published
+2018-05-08
+Cite as
+Chin J Neurol, 2018,51(5): 324-335. DOI: 10.3760/cma.j.issn.1006-7876.2018.05.002
+Contributor Information
+Chinese Society of Neurology
+Sleep Disorder Society, Chinese Society of Neurology
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+临床常用具有镇静催眠作用的药物
+药物名称
+药物达峰时间(h)
+半衰期(h)
+成人睡前口服剂量(mg)
+主要适应证
+常见不良反应
+妊娠分级(FDA)a
+哺乳分级b
+备注
+非苯二氮类
+唑吡坦
+0.50~3.00
+0.7~3.5
+10.000
+入睡困难或睡眠维持障碍
+头晕、头痛、遗忘
+C
+L3
+老年人5 mg
+佐匹克隆
+1.50~2.00
+≤5.0
+7.500
+入睡困难或睡眠维持障碍
+口苦
+C
+L2
+老年人3.75 mg；老年人半衰期约7 h
+右佐匹克隆
+≤1.00
+≤6.0
+1.000~3.000
+入睡困难或睡眠维持障碍
+味觉异常
+C
+L2
+老年人1～2 mg；65岁以上半衰期约9 h
+扎来普隆
+≤1.00
+≤1.0
+5.000~10.000
+入睡困难
+头晕、共济障碍
+C
+L2
+老年人5～10 mg
+苯二氮类
+艾司唑仑
+3.00
+10.0~24.0
+1.000~2.000
+入睡困难或睡眠维持障碍
+宿醉、口干、虚弱。高剂量可致呼吸抑制
+X
+L3
+老年人0.5 mg；老年人可出现呼吸抑制
+氟西泮
+≤0.50
+30.0~100.0
+15.000~30.000
+入睡困难、睡眠维持障碍
+宿醉、头昏、乏力、共济失调
+X
+L3
+老年人15 mg，注意半衰期过长
+夸西泮
+≤0.50
+20.0~40.0
+7.500~15.000
+入睡困难、睡眠维持障碍
+站立不稳、思睡、口干、头晕、头痛
+C
+未知
+老年人减量
+替马西泮
+1.20~1.60
+3.5~18.4
+15.000~30.000
+入睡困难、睡眠维持障碍
+头晕、共济失调
+X
+未知
+老年人7.5～15.0 mg
+三唑仑
+0.25~0.50
+1.5~5.5
+0.125~0.500
+入睡困难
+遗忘、欣快、胃部不适、头痛头晕、皮肤刺痛
+X
+L3
+一类精神药品，短期使用
+阿普唑仑
+1.00~2.00
+12.0~15.0
+0.40~0.80
+入睡困难或睡眠维持障碍
+撤药反应、呼吸抑制、头痛、乏力、言语不清
+D
+L3
+老年人半衰期约19 h
+地西泮
+0.50~2.00
+20.0~70.0
+5.000~10.000
+入睡困难或睡眠维持障碍
+思睡、头痛、乏力、共济失调
+D
+L3
+主要用于焦虑伴失眠
+劳拉西泮
+≤2.00
+12.0~18.0
+2.000~4.000
+入睡困难或睡眠维持障碍
+疲劳、思睡
+D
+L3
+主要用于焦虑伴失眠
+褪黑素类
+褪黑素缓释片
+未知
+6.0
+2.000
+入睡困难或睡眠维持障碍
+无明确描述
+N/A
+N/A
+适用于大于55岁的失眠人群
+雷美替胺
+0.75
+1.0~2.6
+8.000
+入睡困难
+疲乏、头晕、恶心呕吐、失眠恶化、幻觉
+C
+未知
+禁与氟伏沙明联用
+阿戈美拉汀
+未
+知
+1.0~2.0
+25.000~50.000
+抑郁症
+头痛、恶心和乏力等
+D
+L3
+具有催眠作用的抗抑郁药
+多塞平
+1.50~4.00
+10.0~50.0
+6.000
+睡眠维持障碍
+思睡、头痛
+C
+L5
+老年人剂量减半
+阿米替林
+2.00~5.00
+10.0~100.0
+10.000~25.000
+抑郁症
+过度镇静、直立性低血压、抗胆碱能作用、心脏损害
+C
+L2
+曲唑酮
+1.00~2.00
+3.0~14.0
+25.000~150.000
+抑郁症
+直立性低血压、头晕、阴茎异常勃起
+C
+L2
+适用焦虑/抑郁伴失眠
+米氮平
+0.25~2.00
+20.0~40.0
+3.750~15.000
+抑郁症
+过度镇静、食欲/体重增加、抗胆碱能作用
+C
+L3
+适用焦虑/抑郁伴失眠
+食欲素受体拮抗剂苏沃雷生
+0.50~6.00
+9.0~13.0
+10.000~20.000
+入睡困难，睡眠维持障碍
+残余的镇静作用
+C
+未知
+发作性睡病禁用
+注：a妊娠分级：C：可能有害，D：孕妇慎用，X：孕妇禁用；b哺乳分级：L2：较安全；L3：中等安全：L5，禁用；FDA：食品药品监督管理局；N/A：不可用/不适用
+BZDAs:苯二氮类受体激动剂；non－BZDs：非苯二氮类药物
+图1
+失眠治疗流程图
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华神经科杂志2018年51卷5期
+文    题：中国成人失眠诊断与治疗指南(2017版)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华神经科杂志2018年51卷5期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

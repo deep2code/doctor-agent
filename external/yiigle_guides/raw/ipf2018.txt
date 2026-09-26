@@ -1,0 +1,536 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E7%89%B9%E5%8F%91%E6%80%A7%E8%82%BA%E7%BA%A4%E7%BB%B4%E5%8C%96%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 特发性肺纤维化诊断和治疗中国专家共识 - 中华结核和呼吸杂志
+# 发布方/日期: 中华医学会呼吸病学分会，中华结核和呼吸杂志, 2016,39(6) : 427-432. DOI: 10.3760/cma.j；2016-06-12
+
+特发性肺纤维化诊断和治疗中国专家共识
+中华医学会呼吸病学分会间质性肺疾病学组
+中华结核和呼吸杂志, 2016,39(6) : 427-432. DOI: 10.3760/cma.j.issn.1001-0939.2016.06.005
+2002年7月中华医学会呼吸病学分会制定了"特发性肺(间质)纤维化诊断和治疗指南(草案)"[1]。近十几年来对特发性肺纤维化(idiopathic pulmonary fibrosis，IPF)的自然病程、病因学、发病机制和诊断方法都有了进一步的认识[2,3]，特别是抗肺纤维化药物的研发取得了一定进展，使IPF的治疗进入了新阶段[4]。为规范IPF的诊断和治疗，中华医学会呼吸病学分会间质性肺疾病学组组织专家充分讨论后，结合国内外研究进展，参照国际最新指南，制定本专家共识。
+一、概念
+IPF是一种病因不明，慢性进行性纤维化性间质性肺炎，病变局限在肺脏，好发于中老年男性人群，主要表现为进行性加重的呼吸困难，伴限制性通气功能障碍和气体交换障碍，导致低氧血症、甚至呼吸衰竭，预后差，其肺组织学和胸部高分辨率CT(HRCT)表现为普通型间质性肺炎(UIP)[1,2,3]。在临床上，IPF的概念需要与以下疾病概念区分。
+1．间质性肺疾病(interstitial lung disease, ILD)：
+亦称作弥漫性实质性肺疾病(DPLD)，是一组主要累及肺间质和肺泡腔，导致肺泡－毛细血管功能单位丧失的弥漫性肺疾病的总称。临床主要表现进行性加重的呼吸困难、通气功能障碍伴弥散功能降低、低氧血症和影像学上的双肺弥漫性病变。
+2．特发性间质性肺炎(idiopathic interstitial pneumonias, IIPs)：
+即目前病因不明的间质性肺炎，属于ILD疾病谱的一组疾病。2013年发表的有关IIPs的国际多学科分类，将IIPs分为主要的IIPs、罕见的IIPs和未分类的IIPs[3](表1)。主要的IIPs有6种类型，包括IPF、特发性非特异性间质性肺炎(iNSIP)、呼吸性细支气管炎伴间质性肺疾病(RB－ILD)、脱屑性间质性肺炎(DIP)、隐源性机化性肺炎(COP)、急性间质性肺炎(AIP)。罕见的IIPs有2种类型，包括特发性淋巴细胞性间质性肺炎(iLIP)和特发性胸膜肺实质弹力纤维增生症(iPPFE)。IPF是主要的特发性间质性肺炎中最为重要的一种类型。
+点击查看表格
+表1
+美国胸科学会/欧洲呼吸学会有关特发性间质性肺炎(IIPs)的国际多学科分类(2013)
+表1
+美国胸科学会/欧洲呼吸学会有关特发性间质性肺炎(IIPs)的国际多学科分类(2013)
+分类
+临床－影像－病理诊断
+相应影像和(或)组织病理形态学类型
+主要的IIPs
+慢性纤维化性间质性肺炎
+特发性肺纤维化(IPF)
+普通型间质性肺炎(UIP)
+特发性非特异性间质性肺炎(iNSIP)
+非特异性间质性肺炎(NSIP)
+吸烟相关性间质性肺炎
+呼吸性细支气管炎伴间质性肺疾病(RB－ILD)
+呼吸性细支气管炎(RB)
+脱屑性间质性肺炎(DIP)
+DIP
+急性/亚急性间质性肺炎
+隐源性机化性肺炎(COP)
+机化性肺炎(OP)
+急性间质性肺炎(AIP)
+弥漫性肺泡损伤(DAD)
+罕见的IIPs
+特发性淋巴细胞性间质性肺炎(iLIP)
+LIP
+特发性胸膜肺实质弹力纤维增生症(iPPFE)
+PPFE
+未分类的IIPs
+二、诊断
+1．临床表现：
+发病年龄多在中年及以上，男性多于女性。起病隐匿，主要表现为干咳、进行性呼吸困难，活动后明显。大多数患者双下肺可闻及吸气末爆裂音(velcro啰音)，超过半数可见杵状指(趾)。终末期可出现发绀、肺动脉高压、肺心病和右心功能不全的征象。
+2．胸部HRCT：
+胸部X片诊断IPF的敏感性和特异性差，胸部HRCT是诊断IPF的必要手段。UIP的胸部HRCT特征性表现为胸膜下、基底部分布为主的网格影和蜂窝影，伴(或不伴)牵拉性支气管扩张，磨玻璃样改变不明显[2](图1，图2)，其中蜂窝影是诊断确定UIP型的重要依据。当胸部HRCT显示病变呈胸膜下、基底部分布，但只有网格改变，没有蜂窝影时，为可能UIP型[2](图3，图4，图5)。当胸部HRCT示肺部病变分布特征和病变性质与上述情况不符时为非UIP型(图6)，如广泛微结节、气体陷闭、非蜂窝状改变的囊状影、广泛的磨玻璃影、实变影，或沿支气管血管束为著的分布特点，均提示其他疾病。如UIP型改变合并胸膜异常，如胸膜斑、钙化、显著的胸腔积液时，多提示为其他疾病引起的继发性UIP。IPF患者可见轻度的纵隔淋巴结肿大，短轴直径通常<1.5 cm。
+点击查看大图
+图1，2
+普通型间质性肺炎(UIP)型：患者男，74岁，轴位高分辨率CT肺窗(图1)示双下肺胸膜下网格影及蜂窝影(箭头所示)；冠状位重组像(图2)示网格影及蜂窝影，双下肺分布
+图3～5
+可能普通型间质性肺炎(UIP)型：患者男，78岁，轴位高分辨率CT肺窗中间支气管层面(图3) 显示双肺胸膜下少许小叶间隔增厚；冠状重组像(图4) 显示双肺外周胸膜下线状及网状影，双下肺分布；两侧肺底层面(图5) 显示双侧下叶后基底段网状影，无蜂窝影
+图6
+非普通型间质性肺炎(UIP)型：患者男，62岁，淋巴瘤化疗后，冠状重组像显示双肺多发斑片状实变影及磨玻璃影，内见多发小含气腔，病变以双上肺分布为主，双肺含气腔不是蜂窝影，为小叶中心型肺气肿基础上的实变影和磨玻璃所致
+图1，2
+普通型间质性肺炎(UIP)型：患者男，74岁，轴位高分辨率CT肺窗(图1)示双下肺胸膜下网格影及蜂窝影(箭头所示)；冠状位重组像(图2)示网格影及蜂窝影，双下肺分布
+图3～5
+可能普通型间质性肺炎(UIP)型：患者男，78岁，轴位高分辨率CT肺窗中间支气管层面(图3) 显示双肺胸膜下少许小叶间隔增厚；冠状重组像(图4) 显示双肺外周胸膜下线状及网状影，双下肺分布；两侧肺底层面(图5) 显示双侧下叶后基底段网状影，无蜂窝影
+图6
+非普通型间质性肺炎(UIP)型：患者男，62岁，淋巴瘤化疗后，冠状重组像显示双肺多发斑片状实变影及磨玻璃影，内见多发小含气腔，病变以双上肺分布为主，双肺含气腔不是蜂窝影，为小叶中心型肺气肿基础上的实变影和磨玻璃所致
+3．肺功能：
+主要表现为限制性通气功能障碍、弥散量降低伴低氧血症或Ⅰ型呼吸衰竭。早期静息肺功能可以正常或接近正常，但运动肺功能表现P(A－a)O2增加和氧分压降低。
+4．组织病理学：
+对于HRCT呈不典型UIP改变，诊断不清楚，没有手术禁忌证的患者需考虑外科肺活检。IPF的特征性组织病理学改变是UIP，其主要病变为纤维化，病变的程度及分布不均一。低倍显微镜下观察，同时可见伴有蜂窝肺改变的瘢痕纤维化区域和病变较轻甚至正常的肺组织区域[2](图7)。病变通常以胸膜下和间隔旁肺实质为著。炎症较为轻微，可有少量淋巴细胞和浆细胞间质浸润，伴Ⅱ型肺泡上皮细胞和细支气管上皮细胞增生。纤维化区域主要由致密的胶原纤维组成，可见散在分布的成纤维细胞灶[2](图8)。蜂窝肺区域由囊性纤维化的气腔组成，通常衬附着细支气管上皮细胞，腔内有黏液和炎症细胞填充。肺纤维化区域和蜂窝肺病变区域中的肺脏间质可见平滑肌增生。
+点击查看大图
+图7
+病理组织学普通型间质性肺炎(UIP)：显微镜下可见斑片状肺纤维化，病变分布不均，有残存正常的肺组织，纤维化病变主要分布于肺周边部肺膜下 HE染色 低倍放大
+图8
+普通型间质性肺炎(UIP)病变中的纤维母细胞灶。显微镜下可见纤维母细胞灶位于肺泡壁一侧，常呈梭形，微隆起，其内见增生的肌纤维母细胞及蓝染的间质 HE染色 高倍放大
+图7
+病理组织学普通型间质性肺炎(UIP)：显微镜下可见斑片状肺纤维化，病变分布不均，有残存正常的肺组织，纤维化病变主要分布于肺周边部肺膜下 HE染色 低倍放大
+图8
+普通型间质性肺炎(UIP)病变中的纤维母细胞灶。显微镜下可见纤维母细胞灶位于肺泡壁一侧，常呈梭形，微隆起，其内见增生的肌纤维母细胞及蓝染的间质 HE染色 高倍放大
+UIP的病理鉴别诊断主要包括结缔组织病相关性ILD、慢性过敏性肺炎、药物性肺损伤和石棉肺等。
+5．诊断标准：
+(1)排除其他已知原因的ILD(例如家庭或职业环境暴露、结缔组织病和药物毒性)。(2)HRCT表现为UIP型(此类患者不建议行外科肺活检)。(3)已进行外科肺活检的患者，根据HRCT和外科肺活检特定的组合进行诊断。
+三、鉴别诊断
+1．鉴别诊断流程：
+IPF的临床诊断过程采用排除法，对疑似患者均需要详细采集现病史、既往史、治疗经过、职业和环境暴露史、吸烟史、个人史、家族史，并进行体格检查。此外，以下辅助检查，如自身抗体、肿瘤标志物、支气管肺泡灌洗液(BALF)细胞计数和分类，经支气管镜肺活检(TBLB)、经皮穿刺肺活检、经支气管淋巴结穿刺活检以及外科肺活检和纵隔镜淋巴结活检等，均有助于与其他ILD相鉴别。
+2．其他辅助诊断技术的临床价值：
+(1)BALF细胞计数和分类：IPF的BALF细胞学检查不具有特异性，细胞总数在正常范围，中性粒细胞和(或)嗜酸粒细胞比例增高，部分患者细胞分类在正常范围[5]。胸部HRCT表现为肯定UIP型的IPF患者，诊断通常不需要进行BALF细胞学分析[5]。有条件进行BALF细胞学分析的医院或胸部影像表现为不典型UIP型的患者，可以考虑做这项检查，对于排除其他诊断，如过敏性肺炎、嗜酸粒细胞肺浸润、肺孢子菌肺炎及恶性肿瘤等具有一定价值。(2)TBLB：TBLB对于某些ILD，如结节病，具有诊断价值。TBLB由于所获取的组织块小，部位局限，通常不能有效地反映肺组织整体病变特征，对于IPF诊断的特异性低[6]。(3)自身免疫病血清学检查：结缔组织病相关性ILD可以表现为UIP型。ILD可以作为某种结缔组织病的首发表现，先于其他特定症状出现。大多数患者均需要筛查血清学标志物，特别是抗核抗体类型和滴度、类风湿因子、抗环瓜氨酸肽抗体、自身抗体谱和抗中性粒细胞胞质抗体等[7]。IPF患者的抗核抗体和类风湿因子水平可以呈低滴度阳性，但是缺乏结缔组织病的其他临床特征。因此，需要仔细筛查有无结缔组织病的症状和体征，如关节炎、雷诺现象、皮肤肌肉改变、食管运动异常等。当除外结缔组织病后，才能够诊断为IPF。在患者随访的过程中，需要定期复查上述临床症状、体征或血清学指标，当达到结缔组织病的诊断标准时，应当修正IPF的诊断[2]。(4)临床－放射－病理(CRP)多学科诊断：多学科诊断模式有助于提高ILD，包括IPF诊断的准确性[8]。虽然目前许多医院，呼吸专科医生、胸部放射科医生和呼吸病理科医生共同诊断的模式在实施中尚存在困难，但是仍必须提倡在有条件的医院开展临床－放射－病理多学科诊断。
+四、IPF的自然病程与急性加重
+1．自然病程：
+IPF是一类慢性进行性加重的疾病，肺功能逐渐恶化，因呼吸衰竭或合并症而死亡。IPF患者的自然病程呈现异质性，大多数患者表现为缓慢渐进性病程，几年内病情稳定。部分患者病情进展较为迅速，少部分患者经历一次或几次急性加重，进展为呼吸衰竭或死亡[3]。这些不同自然病程的IPF患者是否代表着不同的临床表型以及影响自然病程的危险因素尚不清楚。合并肺动脉高压和肺气肿可能影响IPF疾病病程[9,10]。
+2．IPF急性加重：
+IPF急性加重是指在无明确诱因时出现的病情急剧恶化、呼吸困难加重和肺功能下降，导致呼吸衰竭甚至死亡[11]。IPF急性加重的诊断标准如下：(1)有IPF病史，或目前临床、影像和(或)组织学符合IPF的诊断标准；如果根据诊断标准，既往没有诊断为IPF，目前的影像和(或)肺组织病理应该符合普通型间质性肺炎型。(2)近30天内呼吸困难加重或肺功能恶化，不能用其他原因解释。(3)胸部高分辨率CT显示双肺网格或蜂窝影，符合普通型间质性肺炎的表现，在此基础上出现新的磨玻璃影和(或)实变影；如果没有既往的高分辨率CT做对比，可忽略"新出现的肺部影像表现"。(4)气管内分泌物或支气管肺泡灌洗液检查没有肺部感染的证据；病原学检查应该包括常规的细菌、机会性病原体和常见的病毒。(5)排除其他原因，包括左心衰竭、肺血栓栓塞症和其他原因引起的急性肺损伤。急性肺损伤的病因包括脓毒症、误吸、创伤、再灌注性肺水肿、肺挫伤、脂肪栓塞、吸入性损伤、心脏搭桥术、药物中毒、急性胰腺炎、输注血液制品以及干细胞移植等。当临床资料不完整，不符合上述全部5项诊断标准时，定义为疑似IPF急性加重。其组织病理学通常表现为UIP和弥漫性肺泡损伤(DAD)同时存在，可以出现机化性肺炎和显著的成纤维细胞灶。急性加重能够使IPF患者的肺功能加剧恶化，缩短生存时间，治疗效果差，病死率高。
+五、治疗
+(一)非药物治疗
+1．戒烟：
+大多数IPF患者是吸烟者，吸烟与疾病的发生具有一定的相关性，必须劝导和帮助吸烟的患者戒烟。
+2．氧疗：
+氧疗可以改善患者的缺氧状况。虽然没有直接证据证明氧疗可以影响伴有低氧血症IPF患者的预后，但从慢性阻塞性肺疾病得出的间接证据表明，长程氧疗对患者预后有显著的改善作用。推荐参照慢性阻塞性肺疾病氧疗指征，静息状态低氧血症(PaO2≤55 mmHg，1 mmHg＝0.133 kPa，或SaO2≤88%)的IPF患者应该接受长程氧疗，氧疗时间>15 h/d[12]。
+3．机械通气：
+对于预后不良的终末期肺纤维化患者，气管插管机械通气治疗不能降低病死率[13]。医生应该权衡利弊，与患者及家属充分沟通。机械通气可能是极少数IPF患者进行肺移植之前的过渡方式。无创正压通气可能改善部分IPF患者的缺氧，延长生存时间。
+4．肺康复：
+肺康复是针对有症状及日常活动能力下降的慢性肺疾病患者的一项干预手段，旨在减轻症状，改善机体功能，稳定或延缓疾病发展，降低医疗花费。肺康复的内容包括呼吸生理治疗，肌肉训练(全身性运动和呼吸肌锻炼)，营养支持，精神治疗和教育。肺康复已经用于呼吸功能障碍的慢性阻塞性肺疾病患者的治疗，IPF患者肺康复治疗的研究虽然有限，大多数IPF患者可以推荐接受肺康复治疗。但IPF患者肺康复的适应证、肺康复处方以及肺康复对患者肺脏病理生理、生活质量和预后的影响值得进一步研究[14]。
+5．肺移植：
+不断发展的肺移植技术已经成为各种终末期肺疾病的主要治疗手段之一。肺移植可以改善IPF患者的生活质量，提高生存率，5年生存率达50%～56%[15]。国内已经有多家医疗机构开展肺移植，供体捐赠与资源共享网络的逐步健全，脏器移植准入制度的建立与完善，使IPF患者筛选和等待肺移植的登记随访成为可能。推荐符合肺移植适应证的IPF患者纳入等待名单，进行移植前评估。IPF接受肺移植的时机以及单肺或双肺移植对IPF患者预后的影响，需要进一步研究。
+(二)药物治疗
+1．酌情使用的药物：
+IPF尚无肯定显著有效的治疗药物。根据近年来的随机对照临床试验的结果，结合我国临床实际情况，可以酌情使用下列药物。(1)吡非尼酮：吡非尼酮是一种多效性的吡啶化合物，具有抗炎、抗纤维化和抗氧化特性。在动物和体外实验中，吡非尼酮能够抑制重要的促纤维化和促炎细胞因子，抑制成纤维细胞增殖和胶原沉积。吡非尼酮能够显著地延缓用力呼气肺活量下降速率，可能在一定程度上降低病死率[16]，但副作用包括光过敏、乏力、皮疹、胃部不适和厌食[17]。推荐轻到中度肺功能障碍的IPF患者应用吡非尼酮治疗。重度肺功能受损的IPF患者服用吡非尼酮治疗能否获益，以及药物服用的疗程需要进一步研究。(2)尼达尼布：是一种多靶点络氨酸激酶抑制剂，能够抑制血小板衍化生长因子受体、血管内皮生长因子受体及成纤维细胞生长因子受体。尼达尼布能够显著地减少IPF患者FVC下降的绝对值，一定程度上缓解疾病进程[18]，希望可为IPF的治疗增加选项。最常见的不良反应是腹泻，大多数病情不严重，无严重不良事件发生[18]。推荐轻到中度肺功能障碍的IPF患者应用尼达尼布治疗。重度肺功能障碍的IPF患者服用尼达尼布治疗能否获益，以及药物服用的疗程需要进一步探讨。(3)抗酸药物：IPF合并高发的胃食管反流病，其中近半数患者没有临床症状[19]。慢性微吸入包括胃食管反流是继发气道和肺脏炎症的危险因素，可能引起或加重IPF。应用抗酸药物包括质子泵抑制剂或组织胺2受体拮抗剂，可能降低胃食管反流相关肺损伤的风险。虽然没有足够的证据证实抗酸药物治疗能够延缓IPF肺功能的下降，抗酸治疗也不能降低IPF患者的全因病死率或住院率[2,4,19]。但是鉴于慢性微吸入包括胃食管反流可能的肺损伤作用，IPF患者可以规律应用抗酸治疗。IPF抗酸治疗的有效性和安全性以及与抗纤维化治疗药物的相互作用，需要进一步研究。(4)N－乙酰半胱氨酸：N－乙酰半胱氨酸能够打破黏蛋白的二硫键，降低黏液的黏稠度；高剂量(1 800 mg/d)时，N－乙酰半胱氨酸在IPF患者体内可以转化为谷胱甘肽前体，间接提高肺脏上皮细胞衬液中谷胱甘肽水平，起到抗氧化作用。N－乙酰半胱氨酸单药治疗可以改善IPF患者的咳痰症状，长期服用安全性好[20]。在临床试验中，N－乙酰半胱氨酸单药治疗，对IPF患者FVC的下降没有延缓作用，不能改善生活质量，也不能降低IPF急性加重频率和病死率[21]，但对于部分TOLLIP基因表型的IPF患者，N－乙酰半胱氨酸有一定疗效[22]。并且，N－乙酰半胱氨酸联合吡非尼酮治疗中晚期IPF患者优于单用吡非尼酮[23]。对于已经应用N－乙酰半胱氨酸单药治疗的IPF患者，可以维持治疗。
+2．不推荐使用的药物或治疗方案：
+下列药物或治疗方案对于大多数IPF患者不推荐使用，医生应根据临床情况酌情掌握。(1)泼尼松、硫唑嘌呤和N－乙酰半胱氨酸联合治疗：糖皮质激素(以下简称激素)联合硫唑嘌呤和N－乙酰半胱氨酸曾经被认为是IPF的"标准治疗"。IPF以肺纤维化改变为主，激素联合免疫抑制剂治疗缺乏理论依据。三药联合治疗IPF患者，不能延缓疾病进展却伴有诸多的副作用，或使原有合并症如糖尿病、心脑血管疾病和骨质疏松等恶化[24]。不推荐应用泼尼松、硫唑嘌呤和N－乙酰半胱氨酸联合治疗稳定期的IPF。(2)抗凝药物：肺纤维化形成中伴随着血管内皮的损伤，凝血系统激活、纤维蛋白沉积和纤溶异常。口服华法林治疗IPF有可能增加病死率、出血等副作用[25]。对于没有合并静脉血栓栓塞症或心房颤动的IPF患者，不推荐长期应用抗凝药物治疗。(3)西地那非：西地那非是一种磷酸二酯酶5抑制剂，能够改善IPF患者的生活质量，但是不能延缓IPF疾病进展，也不能降低IPF急性加重频率或病死率，可能带来副作用和高昂的医疗花费[26]。不推荐IPF患者应用西地那非治疗。(4)波生坦和马西替坦：波生坦和马西替坦是双重内皮素－A、内皮素－B拮抗剂，用于肺动脉高压的治疗，均不能延缓IPF疾病进展或降低病死率[27]。不管IPF患者是否合并肺动脉高压，均不推荐波生坦或马西替坦治疗。但是，合并肺动脉高压是IPF患者死亡的独立危险因素[9]，由于IPF合并肺动脉高压的治疗研究资料有限，需要探讨选择适当的药物治疗肺动脉高压，评估其有效性和安全性。(5)伊马替尼：伊马替尼是一种酪氨酸激酶抑制剂，主要抑制PDGFR，抑制肺成纤维细胞向肌成纤维细胞的分化和增殖，抑制细胞外基质的产生，发挥抗肺纤维化作用。口服伊马替尼不能延缓IPF疾病进展或降低病死率，可能带来副作用和高昂的医疗花费[28]。不推荐IPF患者应用伊马替尼治疗。
+(三)IPF急性加重的治疗
+由于IPF急性加重病情严重，病死率高，虽然缺乏随机对照研究，临床上仍然应用激素冲击(甲泼尼龙500～1 000 mg/d)或高剂量激素治疗(泼尼松≥1 mg·kg－1·d－1)[3,11]。激素的剂量、使用途径和疗程尚没有形成一致的意见。也可以联用免疫抑制剂，如环磷酰胺、环孢素A等。氧疗、机械通气和对症治疗是IPF急性加重患者的主要治疗手段。
+(四)姑息治疗
+姑息治疗的目的是减轻患者的症状，安慰患者，而不是治疗疾病本身。姑息性治疗的具体目标包括缓解躯体症状和减轻心理的焦虑和痛苦，给患者和家属精神上的支持。根据不同患者的情况和需要，进行个性化的治疗。对于终末期IPF患者，应给予临终关怀。
+大多数IPF患者有咳嗽症状，咳嗽导致患者生活质量下降。有吸烟史、呼吸困难严重、用力呼气肺活量降低、氧合差，以及病情进展期的IPF患者更容易出现咳嗽症状[29]。除了肺纤维化疾病本身，合并胃食管反流、支气管哮喘、慢性阻塞性肺疾病、上气道综合征，以及使用血管紧张素转换酶抑制剂，也是IPF咳嗽的病因[30]，应注意识别。根据不同的病因，给予针对性治疗。反应停或吡非尼酮均可能减轻IPF患者的咳嗽症状[31,16]。针对IPF目前尚无特效治疗药物，缺乏中医药治疗循证医学依据的现状，可以酌情考虑以辩证施治的原则，采用中医药减轻IPF患者症状。
+六、结语
+随着对IPF疾病本质认识的不断深入，需要进一步规范IPF的诊断，对疾病进行评估，采取可能的治疗方案。肺移植可以延长具有适应证IPF患者的生存期，但是对技术要求高、移植后生存率不确定、供体肺脏稀缺、费用昂贵等因素，从客观上限制了肺移植在临床的实施。IPF未来的治疗策略可能是针对肺纤维化不同靶点采用多种药物的联合治疗。组织多中心的随机对照研究是评价IPF新的治疗药物的重要手段。
+执笔：叶俏 代华平
+专家组成员
+专家组成员(按姓氏拼音)：蔡后荣(南京大学医学院附属鼓楼医院呼吸与危重症医学科)、曹卫军(同济大学附属上海市肺科医院呼吸与危重症医学科)、陈起航(北京医院放射科)、程晓明(第三军医大学第二附属医院呼吸与危重症医学科)、代华平(中日医院呼吸与危重症医学科)、董绍兴(昆明医科大学第二附属医院呼吸科)、方芳(北京医院病理科)、冯瑞娥(北京协和医院病理科)、高凌云(四川省医学科学院四川省人民医院)、黄慧(北京协和医院呼吸科)、蒋捍东(上海交通大学医学院附属仁济医院呼吸科)、金洪(四川大学华西医院呼吸与危重症医学科)、金建敏(首都医科大学附属北京同仁医院呼吸与危重症医学科)、康健(中国医科大学附属第一医院呼吸与危重症医学科)、李海潮(北京大学第一医院呼吸与危重症医学科)、李惠萍(同济大学附属上海市肺科医院呼吸与危重症医学科)、李振华(中国医科大学附属第一医院呼吸与危重症医学科)、罗群(广州医学院第一附属医院呼吸与危重症医学科)、罗自强(中南大学基础医学院)、吕长俊(滨州医学院附属医院)、马万里(华中科技大学同济医学院附属协和医院与危重症医学科)、孟婕(中南大学湘雅医院呼吸与危重症医学科)、宁文(南开大学生命科学院)、彭红(中南大学湘雅二医院呼吸与危重症医学科)、王思勤(河南省人民医院呼吸与危重症医学科)、王笑歌(中国医科大学附属第四医院呼吸科)、魏路清(武警医学院附属医院平津医院呼吸与危重症医学科)、徐作军(北京协和医院呼吸科)、杨炯(武汉大学中南医院呼吸科)、杨俊玲(吉林大学白求恩第二医院呼吸与危重症医学科)、杨晓红(新疆维吾尔自治区人民医院呼吸科)、叶俏(首都医科大学附属北京朝阳医院呼吸与危重症医学科)、于文成(青岛大学医学院附属医院呼吸科)、张国俊(郑州大学第一附属医院呼吸与危重症医学科)、赵亚滨(中国医科大学附属第一医院呼吸与危重症医学科)、郑金旭(江苏大学附属医院镇江市江滨医院呼吸科)、朱元珏(北京协和医院呼吸科)
+致      谢
+志谢 陈起航教授和冯瑞娥教授分别提供影像和病理图片及其描述
+参考文献
+[1]
+中华医学会呼吸病学分会.
+特发性肺(间质)纤维化诊断和治疗指南(草案)[J]．
+中华结核和呼吸杂志，
+2002，
+25(
+7)：
+387–
+389.
+[2]
+RaghuG, CollardHR, EganJJ, et al.
+ATS/ERS/JRS/ALAT Committee on Idiopathic Pulmonary Fibrosis. An official ATS/ERS/JRS/ALAT statement: idiopathic pulmonary fibrosis: evidence－based guidelines for diagnosis and management[J].
+Am J Respir Crit Care Med,
+2011,
+183(
+6):
+788–
+824.
+[3]
+TravisWD, CostabelU, HansellDM, et al.
+American Thoracic Society, European Respiratory Society. An official American Thoracic Society/European Respiratory Society statement: update of the international multidisciplinary classification of the idiopathic interstitial pneumonias[J].
+Am J Respir Crit Care Med,
+2013，
+188(
+6)：
+733–
+748.
+[4]
+RaghuG, RochwergB, ZhangY, et al.
+An official ATS/ERS/JRS/ALAT clinical practice guideline: treatment of idiopathic pulmonary fibrosis. An update of the 2011 clinical practice guideline[J].
+Am J Respir Crit Care Med,
+2015,
+192(
+2)：
+e3–
+e19.
+[5]
+MeyerKC, RaghuG, BaughmanRP, et al.
+An official American Thoracic Society clinical practice guideline: the clinical utility of bronchoalveolar lavage cellular analysis in interstitial lung disease[J].
+Am J Respir Crit Care Med,
+2012,
+185(
+9)：
+1004–
+1014.
+[6]
+BerbescuEA, KatzensteinAA, SnowJL, et al.
+Transbronchial biopsy in usual interstitial pneumonia[J].
+Chest,
+2006,
+129(
+5)：
+1126–
+1131.
+[7]
+FischerA, AntoniouKM, BrownKK, et al.
+An official European Respiratory Society/American Thoracic Society research statement: interstitial pneumonia with autoimmune features[J].
+Eur Respir J,
+2015,
+46(
+4)：
+976–
+987.
+[8]
+FlahertyKR, KingTE, RaghuG, et al.
+Idiopathic interstitial pneumonia: what is the effect of a multidisciplinary approach to diagnosis？[J].
+Am J Respir Crit Care Med,
+2004,
+170(
+8)：
+904–
+910.
+[9]
+YanW, PengLY, BanCJ，et al.
+Incidence and clinical characteristics of pulmonary hypertension in patients with idiopathic pulmonary fibrosis[J].
+Chin Med J,
+2015,
+128(
+7)：
+896–
+901.
+[10]
+YeQ, HuangK, DingY, et al.
+Cigarette smoking contributes to idiopathic pulmonary fibrosis associated with emphysema[J].
+Chin Med J,
+2014，
+127(
+3)：
+469–
+474.
+[11]
+CollardHR, MooreBB, FlahertyKR, et al.
+Idiopathic pulmonary fibrosis clinical research network investigators. Acute exacerbations of idiopathic pulmonary fibrosis[J].
+Am J Respir Crit Care Med,
+2007,
+176(
+7)：
+636–
+643.
+[12]
+StollerJK, PanosRJ, KrachmanS, et al.
+Oxygen therapy for patients with COPD: current evidence and the long－term oxygen treatment trial[J].
+Chest,
+2010，
+138(
+1)：
+179–
+187.
+[13]
+MallickS.
+Outcome of patients with idiopathic pulmonary fibrosis (IPF) ventilated in intensive care unit[J].
+Respir Med,
+2008，
+102(
+10)：
+1355–
+1359.
+[14]
+FerreiraA, GarveyC, ConnorsGL, et al.
+Pulmonary rehabilitation in interstitial lung disease: benefits and predictors of response[J].
+Chest,
+2009,
+135(
+2)：
+442–
+447.
+[15]
+KeatingD, LevveyB, KotsimbosT, et al.
+Lung transplantation in pulmonary fibrosis: challenging early outcomes counterbalanced by surprisingly good outcomes beyond 15 years[J].
+Transplant Proc,
+2009,
+41(
+1)：
+289–
+291.
+[16]
+KingTG, BradfordWZ, Castro–BernardiniS, et al.
+A phase 3 trial of pirfenidone in patients with idiopathic pulmonary fibrosis[J].
+N Engl J Med,
+2014,
+370(
+22)：
+2083–
+2092.
+[17]
+JiangC, HuangH, LiuJ, et al.
+Adverse events of pirfenidone for the treatment of pulmonary fibrosis: a meta－analysis of randomized controlled trials[J].
+PLoS One,
+2012，
+7(
+10)：
+e47024.
+[18]
+RicheldiL, du BiosRM, RaghuG, et al.
+INPULSIS Trial Investigators. Efficacy and safety of nintedanib in idiopathic pulmonary fibrosis[J].
+N Engl J Med,
+2014，
+370(
+22)：
+2071–
+2082.
+[19]
+LeeJS, CollardHR, AnstromKJ, et al.
+IPFnet Investigators. Anti－acid treatment and disease progression in idiopathic pulmonary fibrosis: an analysis of data from three randomized controlled trials[J].
+Lancet Repir Med,
+2013，
+1(
+5)：
+369–
+376.
+[20]
+DemedtsM, BehrJ, BuhlR, et al.
+IFIGENIA Study Group. High－dose acetylcysteine in idiopathic pulmonary fibrosis[J].
+N Engl J Med,
+2005,
+353(
+21)：
+2229–
+2242.
+[21]
+MartinezFJ, de AndradeJA, AnstromKJ, et al.
+Idiophatic Pulmonary Fibrosis Clinical Research Network. Randomized trial of acetylcysteine in idiopathic pulmonary fibrosis[J].
+N Engl J Med,
+2014，
+370(
+22)：
+2093–
+2101.
+[22]
+OldhamJM, MaSF, MartinezFJ, et al.
+TOLLIP, MUC5B and the response to N－acetylcysteine among individuals with idiopathic pulmonary fibrosis[J].
+Am J Respir Crit Care Med,
+2015,
+192(
+12)：
+1475–
+1482.
+[23]
+SakamotoS, MuramatsuY, SatohK, et al.
+Effectiveness of combined therapy with pirfenidone and inhaled N－acetylcysteine for advanced idiopathic pulmonary fibrosis: a case－control study[J].
+Respirology,
+2015,
+20(
+3):
+445–
+452.
+[24]
+MartinezFJ, de AndradeJA, AnstromKJ, et al.
+Idiophatic Pulmonary Fibrosis Clinical Research Network. Prednisone, azathioprine, and N－acetylcysteine for pulmonary fibrosis[J].
+N Engl J Med,
+2012，
+366(
+21)：
+1968–
+1977.
+[25]
+NothI, AnstromKJ, CalvertSB, et al.
+Idiopahtic Pulmonary Fibrosis Clinical Research Network (IPFnet). A placebo－controlled randomized trial of warfarin in idiopathic pulmonary fibrosis[J].
+Am J Respir Crit Care Med,
+2012，
+186(
+1)：
+88–
+95.
+[26]
+ZismanDA, SchwarzM, AnstromKJ, et al.
+Idiopathic Pulmonary Fibrosis Clinical Research Network. A controlled trial of sidenafil in advanced idiopathic pulmonary fibrosis[J].
+N Engl J Med,
+2010，
+363(
+7)：
+620–
+628.
+[27]
+RaghuG, Million–RousseauR, MorgantiA, et al.
+MUSIC Study Group. Macitentan for the treatment of idiopathic pulmonary fibrosis: the randomized controlled MUSIC trial[J].
+Eur Respir J,
+2013，
+42(
+6)：
+1622–
+1632.
+[28]
+DanielsCE, LaskyJA, LimperAH, et al.
+Imatinib－IPF Study Investigators. Imatinib treatment for idiopathic pulmonary fibrosis: randomized placebo－controlled trial results[J].
+Am J Respir Crit Care Med,
+2010,
+181(
+6)：
+604–
+610.
+[29]
+KeyAL, HoltK, HamiltonA, et al.
+Objective cough frequency in idiopathic pulmonary fibrosis[J].
+Cough,
+2010，
+6：
+4.
+[30]
+BrownKK.
+Chronic cough due to chronic interstitial pulmonary diseases. ACCP evidence－based clinical practice guidelines[J].
+Chest,
+2006，
+129(
+1
+suppl):
+180s–
+185s.
+[31]
+HortonMR, SantopietroV, MathewL, et al.
+Thalidomide for the treatment of cough in idiopathic pulmonary fibrosis: a randomized trial[J].
+Ann Intern Med,
+2012，
+157(
+6)：
+398–
+406.
+贡献者信息
+中华医学会呼吸病学分会间质性肺疾病学组
+基金项目
+国家科技支撑计划课题 （2012BAI05B02）
+历史
+出版日期：2016-06-12
+收稿日期：2016-03-29
+本文编辑
+蔡蜀菁
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+美国胸科学会/欧洲呼吸学会有关特发性间质性肺炎(IIPs)的国际多学科分类(2013)
+分类
+临床－影像－病理诊断
+相应影像和(或)组织病理形态学类型
+主要的IIPs
+慢性纤维化性间质性肺炎
+特发性肺纤维化(IPF)
+普通型间质性肺炎(UIP)
+特发性非特异性间质性肺炎(iNSIP)
+非特异性间质性肺炎(NSIP)
+吸烟相关性间质性肺炎
+呼吸性细支气管炎伴间质性肺疾病(RB－ILD)
+呼吸性细支气管炎(RB)
+脱屑性间质性肺炎(DIP)
+DIP
+急性/亚急性间质性肺炎
+隐源性机化性肺炎(COP)
+机化性肺炎(OP)
+急性间质性肺炎(AIP)
+弥漫性肺泡损伤(DAD)
+罕见的IIPs
+特发性淋巴细胞性间质性肺炎(iLIP)
+LIP
+特发性胸膜肺实质弹力纤维增生症(iPPFE)
+PPFE
+未分类的IIPs
+图1，2
+普通型间质性肺炎(UIP)型：患者男，74岁，轴位高分辨率CT肺窗(图1)示双下肺胸膜下网格影及蜂窝影(箭头所示)；冠状位重组像(图2)示网格影及蜂窝影，双下肺分布
+图3～5
+可能普通型间质性肺炎(UIP)型：患者男，78岁，轴位高分辨率CT肺窗中间支气管层面(图3) 显示双肺胸膜下少许小叶间隔增厚；冠状重组像(图4) 显示双肺外周胸膜下线状及网状影，双下肺分布；两侧肺底层面(图5) 显示双侧下叶后基底段网状影，无蜂窝影
+图6
+非普通型间质性肺炎(UIP)型：患者男，62岁，淋巴瘤化疗后，冠状重组像显示双肺多发斑片状实变影及磨玻璃影，内见多发小含气腔，病变以双上肺分布为主，双肺含气腔不是蜂窝影，为小叶中心型肺气肿基础上的实变影和磨玻璃所致
+图7
+病理组织学普通型间质性肺炎(UIP)：显微镜下可见斑片状肺纤维化，病变分布不均，有残存正常的肺组织，纤维化病变主要分布于肺周边部肺膜下 HE染色 低倍放大
+图8
+普通型间质性肺炎(UIP)病变中的纤维母细胞灶。显微镜下可见纤维母细胞灶位于肺泡壁一侧，常呈梭形，微隆起，其内见增生的肌纤维母细胞及蓝染的间质 HE染色 高倍放大
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华结核和呼吸杂志2016年39卷6期
+文    题：特发性肺纤维化诊断和治疗中国专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华结核和呼吸杂志2016年39卷6期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

@@ -158,3 +158,6 @@ external/home_environment/raw/*.pdf
 external/gov_health/
 external/piyao_health/
 external/jkb_health/
+
+# 采集脚本的工作日志：排除项与原因已汇总进各自 raw/MANIFEST.txt，日志本身不入库
+external/*/.skips.log

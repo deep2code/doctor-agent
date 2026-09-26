@@ -1,0 +1,1322 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E8%84%91%E5%87%BA%E8%A1%80%E8%AF%8A%E6%B2%BB%E6%8C%87%E5%8D%97%EF%BC%882019%EF%BC%89.html
+# 标题: 中国脑出血诊治指南（2019） - 中华神经科杂志
+# 发布方/日期: 中华医学会神经病学分会，中华神经科杂志, 2019,52(12) : 994-1005. DOI: 10.3760/cma.；2019-12-08
+
+中国脑出血诊治指南（2019）
+中华医学会神经病学分会
+中华医学会神经病学分会脑血管病学组
+中华神经科杂志, 2019,52(12) : 994-1005. DOI: 10.3760/cma.j.issn.1006-7876.2019.12.003
+自发性脑出血（intracerebral hemorrhage）指非创伤性脑内血管破裂，导致血液在脑实质内聚集，其在脑卒中各亚型中的发病率仅次于缺血性脑卒中，位居第二。脑出血的发病率为（12~15）/10万人年，在西方国家中，脑出血约占所有脑卒中的15%，占所有住院卒中患者的10%~30%，我国脑出血的比例更高，占脑卒中的18.8%~47.6%[1,2,3,4]。脑出血发病凶险，发病30 d的病死率高达35%~52%，仅有约20%的患者在6个月后能够恢复生活自理能力[2,5]，给社会和家庭都带来了沉重的负担[6]。近年来，在脑出血的诊疗方面已取得众多进展，且国内外学者仍在努力探寻有效的治疗方法。为此，中华医学会神经病学分会脑血管病学组总结了近年来国内外的研究进展，参考了相关国际指南[7,8,9]，在对中国脑出血诊治指南（2014）[10]更新修订的基础上编写了本指南，主要适用于成年人自发性脑出血（继发于外伤的脑出血不在本指南讨论范围）。本指南的修订原则、推荐强度及证据等级标准遵循中华医学会神经病学分会脑血管病学组的相关共识[11]。
+院前处理
+院前处理的关键是迅速识别疑似脑卒中患者并尽快送往医院。脑出血症状突发，多在活动中起病，常表现为头痛、恶心、呕吐、不同程度的意识障碍及肢体瘫痪等。
+推荐意见：对突然出现脑卒中症状的患者，急救人员应进行简要评估和急救处理并尽快送往附近有救治条件的医院（Ⅰ级推荐，D级证据）。
+诊断与评估
+脑出血的诊断与评估包括：病史与体征、影像学检查、实验室检查、疾病诊断及病因分型等。
+一、病史与体征
+1．病史采集：
+重点询问患者或目击者脑卒中发生的时间、症状、当时患者的活动情况、年龄及下述情况：是否有外伤史、高血压病史、卒中病史、糖尿病史、冠心病史及吸烟饮酒史、用药史（是否服用阿司匹林、氯吡格雷、华法林等抗栓药）、有无药物滥用（如可卡因等）、是否存在凝血功能障碍或其他诱发出血的内科疾病（如肝病等）。
+2．一般体格检查、神经系统体格检查与病情评估：
+首先对患者的生命体征进行评估，在完成气道、呼吸和循环功能评估后，进行一般体格检查和神经系统体检，可借助脑卒中量表评估病情严重程度、判断预后及指导治疗。常用的量表有：（1）格拉斯哥昏迷量表（GCS）；（2）美国国立卫生研究院卒中量表（NIHSS）；（3）脑出血评分量表[12]。
+二、影像学检查
+影像学检查是脑出血诊断的重要手段，尤其是脑CT检查是诊断早期脑出血的"金标准"。因此，只要患者病情允许，都应该做影像学检查以明确诊断和有助于了解病因。一旦确诊脑出血，应尽快安排转入神经重症监护病房或卒中单元。
+1．脑出血检查：
+（1）CT平扫：CT平扫可迅速、准确地显示血肿的部位、出血量、占位效应、是否破入脑室或蛛网膜下腔及周围脑组织受损等情况，是疑似卒中患者首选的影像学检查方法[13]。（2）增强CT和灌注CT：需要时，可做此2项检查。增强CT扫描发现造影剂外溢的"点征"（spot sign）是提示血肿扩大高风险的重要证据[14,15,16]。（3）标准MRI：标准MRI包括T1、T2及质子密度加权序列在慢性出血及发现血管畸形方面优于CT[17,18,19]。（4）多模式MRI：多模式MRI包括弥散加权成像、灌注加权成像、FLAIR和梯度回波序列（GRE）等，其有助于提供脑出血更多的信息，但不作为急诊检查手段。磁敏感加权成像（SWI）对微出血十分敏感[17]。
+2．脑血管检查：
+脑血管检查有助于了解导致脑出血病变的血管及病因，指导选择治疗方案。常用检查包括CT血管成像（CTA）、磁共振血管成像（MRA）、CT静脉成像（CTV）、磁共振静脉成像（MRV）、经颅多普勒超声和数字减影血管造影（DSA）等。（1）CTA和MRA：两者是快速、无创性评价颅内、外血管的可靠方法，可用于筛查可能存在的脑血管畸形或动脉瘤，但阴性结果不能完全排除病变的存在[20,21]。与CTA早期（动脉期）发现的"点征"相比[14,15,16]，延迟CTA显示的"渗漏征"预示血肿扩大风险的敏感度和特异度更高[22]；多时相CTA（包括动脉晚期、静脉早期以及延迟像）也更易检出"点征"[23]。如果血肿部位、组织水肿程度或颅内静脉窦内异常信号提示静脉血栓形成，应该考虑行MRV或CTV检查。（2）DSA：能清晰显示脑血管各级分支及动脉瘤的位置、大小、形态及分布，畸形血管的供血动脉及引流静脉，了解血流动力学改变，为血管内栓塞治疗或外科手术治疗提供可靠的病因病理解剖，是当前血管病变检查的"金标准"。
+三、实验室检查
+对脑出血患者应进行常规的实验室检查以了解基本状况和排除相关系统疾病。此外，应根据患者病情及医院条件，进行必要的专科检查明确病因。常规检查通常包括：（1）血常规、血糖、肝肾功能和电解质；（2）心电图和心肌缺血标志物；（3）凝血酶原时间、国际标准化比率（INR）和活化部分凝血活酶时间；（4）氧饱和度。必要时应进行特殊检查，如疑似脑血管淀粉样变（cerebral amyloid angiopathy, CAA），可行APOE基因检测。疑似毒药物滥用时应行毒药物检查。
+四、疾病诊断
+1．诊断标准：
+（1）急性起病；（2）局灶神经功能缺损症状（少数为全面神经功能缺损），常伴有头痛、呕吐、血压升高及不同程度意识障碍；（3）头颅CT或MRI显示出血灶；（4）排除非血管性脑部病因。
+2．病因分型按SMASH-U病因分为：
+血管结构性损伤（structural vascular lesions）、药物（medication）、CAA、系统性疾病（systemic disease）、高血压（hypertension）和未知原因（undetermined）[24]。SMASH-U病因分类可行性强、接受度高，与脑出血后短期、长期生存率和致死率一致相关。
+3．诊断流程：
+脑出血的诊断流程应包括如下步骤：第一步，是否为脑卒中？第二步，是否为脑出血？行脑CT或MRI以明确诊断。第三步，脑出血的严重程度？可根据GCS或NIHSS等量表评估。第四步，脑出血的分型。
+推荐意见：（1）尽早对脑出血患者进行全面评估，包括病史、一般检查、神经系统检查和有关实验室检查，特别是血常规、凝血功能和影像学检查（Ⅰ级推荐，C级证据）。（2）对疑似脑卒中患者应尽快行CT或MRI检查以明确诊断（Ⅰ级推荐，A级证据）。（3）脑出血后数小时内常出现血肿扩大，加重神经功能损伤，应密切监测（Ⅰ级推荐，A级证据）。CTA和增强CT的"点征"（spot sign）有助于预测血肿扩大风险，必要时可行有关评估（Ⅱ级推荐，B级证据）。（4）如怀疑血管病变（如血管畸形等）、肿瘤或CAA者，可根据需要选择行CTA、CTV、增强CT、增强MRI、MRA、MRV、DSA、GRE-T2*或SWI检查，以明确诊断（Ⅱ级推荐，B级证据）。（5）可应用GCS或NIHSS等量表评估病情的严重程度（Ⅱ级推荐，C级证据）。
+脑出血的治疗
+脑出血的治疗包括内科治疗和外科治疗，大多数的患者均以内科治疗为主，如果病情危重或发现有继发原因，且有手术适应证者，则应该进行外科治疗。
+一、内科治疗
+（一）一般治疗
+脑出血患者在发病后的最初数天病情往往不稳定，应常规予以持续生命体征监测、神经系统评估、持续心肺监护，包括袖带血压监测、心电图监测、氧饱和度监测。脑出血患者的吸氧、呼吸支持及心脏病的处理原则同《中国急性缺血性脑卒中诊治指南2018》[11]。
+（二）血压管理
+脑出血患者常常出现血压明显升高，多种因素（应激、疼痛、高颅压等）均可使血压升高，且血压升高（>180 mmHg；1 mmHg=0.133 kPa）与血肿扩大和预后不良相关[25]。
+1．早期降压治疗的安全性：
+观察性研究未发现血肿周围存在缺血性半暗带。ADAPT研究发现脑出血后数小时内将收缩压降至<140 mmHg不降低血肿周围的脑血流量和脑灌注压，也不增加脑缺血事件[26]。随后的ATACH[27]和INTERACT-1研究[28]均发现脑出血后早期降收缩压至<140 mmHg是安全的。
+2．早期降压治疗的有效性：
+INTERACT-2研究纳入2 829例轻至中度收缩压150~220 mmHg的急性脑出血患者，随机分为强化降压组（收缩压<140 mmHg）和标准降压组（收缩压<180 mmHg），研究显示发病数小时内强化降压组功能预后优于标准降压组[29]。后续分析提示：收缩压变异性越大，预后越差，早期通过平稳与持续地控制好血压可增强早期积极降压治疗措施的临床获益[30]，且130~139 mmHg的收缩压是理想的控制目标值[31]。然而，ATACH-Ⅱ研究并未显示强化降压所致获益，反而增加治疗相关的肾脏损伤[32]。这两项研究结果的差异可能主要源于对血压处理的不同：INTERACT-2研究所选降压药物多样，在降压治疗开始的1 h只有33.4%的患者血压达标，6 h内有53%的患者达到目标收缩压；24 h的收缩压为135~145 mmHg。ATACHⅡ只选用了尼卡地平控制血压且降压更积极，最初2 h内87.8%的患者达到降压目标且24 h收缩压为120~130 mmHg。对于血压极高（收缩压>220 mmHg）的脑出血患者，缺乏积极降压治疗的安全性和有效性的资料。由于血压已超过正常脑血流调节的上限，在密切监测的情况下，应积极静脉降压治疗，收缩压160 mmHg可为参考目标值。
+推荐意见：（1）应综合管理脑出血患者的血压，分析血压升高的原因，再根据血压情况决定是否进行降压治疗（Ⅰ级推荐，C级证据）。（2）对于收缩压150~220 mmHg的住院患者，在没有急性降压禁忌证的情况下，数小时内降压至130~140 mmHg是安全的（Ⅱ级推荐，B级证据），其改善患者神经功能的有效性尚待进一步验证（Ⅱ级推荐，B级证据）；对于收缩压>220 mmHg的脑出血患者，在密切监测血压的情况下，持续静脉输注药物控制血压可能是合理的，收缩压目标值为160 mmHg（Ⅱ级推荐，D级证据）。（3）在降压治疗期间应严密观察血压水平的变化，避免血压波动，每隔5~15 min进行1次血压监测（Ⅰ级推荐，C级证据）。
+（三）血糖管理
+1．高血糖：
+无论患者既往是否有糖尿病史，入院时高血糖均预示脑出血患者的死亡和不良转归风险增高[33]。目前认为应对脑出血后高血糖进行控制，但还需进一步研究明确应用降糖药物的种类及目标血糖值。
+2．低血糖：
+低血糖可导致脑缺血损伤及脑水肿，严重时导致不可逆损害。需密切监测，尽早发现，及时纠正。不过脑出血患者的最佳血糖管理方案和目标值尚未确定。
+推荐意见：血糖值可控制在7.8~10.0 mmol/L。应加强血糖监测并相应处理：（1）血糖超过10 mmol/L时可给予胰岛素治疗；（2）血糖低于3.3 mmol/L时，可给予10%~20%葡萄糖口服或注射治疗。目标是达到正常血糖水平。
+（四）体温
+脑出血患者早期可出现中枢性发热，特别是在大量脑出血、丘脑出血或脑干出血者中出现。入院72 h内患者的发热持续时间与临床转归相关[34]，然而，尚无资料表明治疗发热能改善临床转归。发病3 d后，患者可因感染等原因引起发热，此时应针对病因治疗。
+（五）药物治疗
+1．止血治疗：
+重组Ⅶa因子（recombinant factor Ⅶa，rFⅦa）的Ⅱ期临床试验[35]结果显示，脑出血发病后4 h内应用rFⅦa治疗可限制血肿扩大和改善临床转归，但血栓栓塞事件的发生率轻度增高。随后进行的rFⅦa的Ⅲ期临床试验（FAST）[36]提示大剂量rFⅦa（80 μg/kg）不改善临床预后，且增加严重血栓栓塞性不良事件的发生。目前应用rFⅦa对脑出血患者的益处（无论是否接受口服抗凝剂治疗）尚未得到证实，对于特定的脑出血患者亚组是否获益，仍然有待进一步研究。
+氨甲环酸治疗脑出血的多中心随机对照研究（TICH-2研究）显示，与安慰剂相比，接受氨甲环酸治疗的脑出血患者出现血肿扩大的较少且7 d时病死率更低，然而其90 d时主要结局[改良Rankin量表（mRS）评分]无获益[37]。
+推荐意见：rFⅦa治疗脑出血的临床疗效尚不确定，且可能增加血栓栓塞的风险，不推荐常规使用（Ⅰ级推荐，A级证据）。氨甲环酸有助于限制血肿体积扩大和降低早期病死率，但长期获益不确定，不推荐无选择性使用（Ⅱ级推荐，A级证据）。
+2．其他药物：
+（1）神经保护剂：研究显示自发性脑出血6 h内应用自由基清除剂NXY-059治疗是安全、可耐受的，但未改善临床预后[38]。铁螯合剂的疗效有待进一步临床研究。此外，还有一些神经保护剂，如依达拉奉，在脑出血的临床研究与分析中发现对改善患者神经功能起到了一定积极作用[39,40]。（2）中药制剂：中药制剂在我国也较多应用于治疗出血性脑卒中。有中药制剂用于脑出血治疗的临床研究与分析，但因研究质量及研究样本的局限性，尚需进行高质量、大样本的随机对照试验予以进一步证实。
+推荐意见：神经保护剂、中药制剂的疗效与安全性尚需开展更多高质量临床试验进一步证实（Ⅱ级推荐，C级证据）。
+（六）病因治疗
+1．口服抗凝药（OACs）相关脑出血：
+脑出血是服用华法林的患者最严重的并发症，12%~14%的脑出血患者发病时正接受OACs治疗。OACs相关脑出血较自发性脑出血血肿体积更大（当INR>3时）[41]、预后更差[42,43,44]。传统上一般使用维生素K及新鲜冰冻血浆（FFP）来治疗华法林相关脑出血。维生素K使INR正常化需数小时，FFP的效果受过敏、输血反应和纠正INR时所需容量等的限制。浓缩型凝血酶原复合物（PCC）和rFⅦa亦可作为备选治疗药物。一项随机临床研究比较了PCC与FFP治疗华法林相关脑出血（INR≥1.4）的疗效，研究发现PCC可更快纠正INR且血肿扩大几率更小[45]。rFⅦa不能补充所有的维生素K依赖的凝血因子[46]，不推荐常规使用rFⅦa以对抗华法林的作用。
+新型口服抗凝剂相关脑出血逐渐受到更多重视，国内已上市一些药物的特异性逆转剂（如达比加群酯的特异性拮抗剂依达赛珠单抗）。但尚需更多证据以指导临床管理。
+2．肝素相关脑出血：
+关于肝素相关性脑出血目前只有流行病学资料可以参考。可以用硫酸鱼精蛋白使活化的部分凝血酶原时间恢复正常[47]。由于肝素在体内代谢迅速，与鱼精蛋白给药的间隔时间越长，拮抗所需用量越少。
+3．溶栓治疗相关的脑出血：
+目前研究证实，对缺血性脑卒中患者，采用静脉重组组织型纤溶酶原激活剂（rt-PA）溶栓治疗时，症状性脑出血的发生率为3%~9%；采用动静脉同时溶栓时为6%；而采用动脉尿激酶溶栓时为10.9%。因血肿有持续增大倾向且呈多位点出血，溶栓治疗相关脑出血一般预后差。目前推荐的治疗方法包括输入血小板（6~8个单位）和包含凝血因子Ⅷ的冷沉淀物，以快速纠正rt-PA造成的系统性纤溶状态[48]。
+4．抗血小板药物相关脑出血：
+抗血小板药物可能增加脑出血的发生。有研究发现服用阿司匹林人群中，每10 000人中脑出血增加12例[49]。老年人尤其是未经治疗的高血压患者中大剂量阿司匹林引起脑出血的风险进一步增加。长期联合使用阿司匹林和氯吡格雷可能增加脑出血的风险。一项多中心随机对照研究（PATCH）显示：与标准治疗组相比，常规接受血小板输注的患者出现3个月时死亡或功能依赖的概率更高，且住院期间更易出现严重不良事件[50]。
+推荐意见：（1）使用抗栓药物发生脑出血时，应立即停药（Ⅰ级推荐，B级证据）。（2）华法林相关性脑出血患者可考虑将PCC作为FFP的一种替代选择（Ⅱ级推荐，A级证据），同时静脉应用维生素K（Ⅰ级推荐，C级证据）。对新型口服抗凝药物（达比加群、阿哌沙班、利伐沙班）相关脑出血，有条件者可应用相应拮抗药物（如依达赛珠单抗）（Ⅱ级推荐，C级证据）。（3）不推荐rFⅦa单药治疗口服抗凝药相关性脑出血（Ⅳ级推荐，D级证据）。（4）对普通肝素相关性脑出血，推荐使用硫酸鱼精蛋白治疗（Ⅱ级推荐，C级证据）。（5）对溶栓药物相关脑出血，可选择输注凝血因子和血小板治疗（Ⅱ级推荐，B级证据）。（6）对于使用抗血小板药物相关性脑出血，不推荐常规输注血小板治疗（Ⅰ级推荐，A级证据）。
+（七）并发症治疗
+1．颅内压增高的处理：
+有研究表明颅内出血患者颅内压的高变异性与其不良预后相关，脑出血患者早期的颅内压控制在合适的水平，可以改善患者的功能预后[51]。有条件情况下，重症患者可以对颅内压和脑灌注压进行监测[7]。常用控制颅内压增高的方法：（1）抬高床头法。（2）镇痛和镇静。（3）脱水降低颅内压：尽管缺乏高质量的研究证实，甘露醇仍是我国目前脱水降低颅内压的首选药物，但应该注意其不良反应，尤其是在使用较长时间时。2015年的一项研究显示：急性脑出血（<20 ml）应用甘露醇无严重不良反应，也不影响预后[52]。呋塞米（速尿）、甘油果糖和白蛋白也常用于降低颅内压，可酌情个体化应用[53]。高渗盐水有助于降低颅内压、减轻灶周水肿[54]。最近的荟萃分析认为高渗盐水的效果似乎更优于甘露醇[55,56]。也有研究报道低温治疗和单纯去骨瓣减压术的疗效。（4）脑室引流：如脑出血患者出现严重脑积水（脑室扩大），且药物脱水治疗无明显效果的情况下，可考虑行脑室引流，以挽救生命[7]。
+推荐意见：颅内压升高者，应卧床、适度抬高床头、严密观察生命体征（Ⅰ级推荐，C级证据）。需要脱水降颅压时，应给予甘露醇（Ⅰ级推荐，C级证据）和高渗盐水（Ⅱ级推荐，B级证据）静脉滴注，用量及疗程依个体化而定。同时，注意监测心、肾及电解质情况。必要时，也可用呋塞米、甘油果糖和（或）白蛋白（Ⅱ级推荐，B级证据）。对伴有意识障碍的脑积水患者可行脑室引流以缓解颅内压增高（Ⅱ级推荐，B级证据）。
+2．痫性发作：
+出血性卒中尤其脑叶出血更易引起痫性发作，出血后2周内的发生率为2.7%~17%[57]。研究显示脑出血患者预防性应用抗癫痫药物治疗不能降低痫性发作的发生率，且可能增加致死或致残风险[58]。若出现临床痫性发作或脑电图提示痫性发作伴有认知行为改变，均需给予抗癫痫药物治疗。早发痫性发作（<7 d）由脑出血所致的组织损伤所致，应给予3~6个月抗癫痫药物治疗[59]。对于晚发痫性发作（>7 d），可用CAVE评分[60]评价发生可能性，其变量包括皮质受累（C）、年龄<65岁（A）、出血体积（V）及早发痫性发作（E），晚发痫性发作的抗癫痫药物治疗原则与其他癫痫患者相同。
+推荐意见：（1）不推荐预防性应用抗癫痫药物（Ⅱ级推荐，B级证据）。（2）有临床痫性发作者应进行抗癫痫药物治疗（Ⅰ级推荐，A级证据）。（3）疑为痫性发作者应考虑持续脑电图监测（Ⅱ级推荐，B级证据）；如检测到痫样放电，应给予抗癫痫药物治疗（Ⅰ级推荐，C级证据）。
+3．深静脉血栓和肺栓塞的防治：
+脑出血患者发生深静脉血栓形成（deep vein thrombosis, DVT）和肺栓塞（pulmonary embolism）的风险很高。两项全球性的临床试验显示脑出血后DVT和肺栓塞的3个月发生率分别为1.1%~3.7%和1.1%~1.8%[61,62]，且常于前两周内发生[62]，并明显增加病死率[63]。
+可采取以下手段进行预防：
+（1）外部压迫装置：一项多中心随机对照研究（CLOT-3）显示：与未使用气压治疗的患者相比，瘫痪患者入院后即应用间断充气加压可降低DVT风险，发生率绝对值降低3.6%（95%CI 1.4~5.8）或可提高生存率[64]。另一项多中心随机对照研究（CLOT-1）发现，与不使用弹力袜相比，使用弹力袜不降低DVT的发生风险，反而增加其他并发症（如皮肤破溃、坏死）的发生[65]。
+（2）药物：在脑出血发病后第2天开始抗凝治疗的非对照研究表明，抗凝治疗使血栓栓塞性疾病减少且不增加再出血。一项荟萃分析显示，脑出血患者早期（发病1~6 d内）应用低分子肝素或普通肝素可以显著降低肺栓塞的发生风险且不增加再出血风险[66]。对于每一例脑出血患者来说，需要权衡肺栓塞致死（致死率50%）与再出血的风险。
+（3）其他：下腔静脉滤网置入在最初的几周可降低已发生近端DVT患者出现肺栓塞的风险，但长期使用可能增加静脉栓塞的风险。对于脑出血患者，没有对比下腔静脉滤网置入与抗凝剂效果的随机对照研究[67]。
+尽管目前尚无有关脑出血后DVT与肺栓塞治疗的高质量证据，但是一旦发生，应该积极个体化治疗。
+推荐意见：（1）卧床患者应注意预防DVT（Ⅰ级推荐，C级证据）；如疑似患者可做D-二聚体检测及肢体多普勒超声检查（Ⅰ级推荐，C级证据）。（2）鼓励患者尽早活动、腿抬高；尽可能避免下肢静脉输液，特别是瘫痪侧肢体（Ⅳ级推荐，D级证据）。（3）瘫痪患者入院后即应用气压泵装置，可预防深静脉血栓及相关栓塞事件（Ⅰ级推荐，A级证据）；不推荐弹力袜预防深静脉血栓（Ⅰ级推荐，A级证据）。（4）对易发生深静脉血栓的高危患者（排除凝血功能障碍所致的脑出血患者），血肿稳定后可考虑发病后1~4 d皮下注射小剂量低分子肝素或普通肝素预防DVT，但应注意出血的风险（Ⅱ级推荐，B级证据）。（5）当患者出现深静脉血栓或肺动脉栓塞症状时，可使用系统性抗凝治疗或下腔静脉滤器植入（Ⅱ级推荐，C级证据）；合适治疗方案的选择取决于多重因素（出血时间、血肿稳定性、出血原因及全身情况）（Ⅱ级推荐，C级证据）。
+二、外科治疗
+（一）脑实质出血
+外科手术以其快速清除血肿、缓解颅高压、解除机械压迫的优势成为高血压脑出血治疗的重要方法。
+1．开颅血肿清除术：
+纳入1 033例幕上脑出血患者的多中心随机对照试验（Surgical Trial in Intracerebral Hemorrhage, STICH）[68]在2005年发表初步结果，认为早期实施外科手术并不能使患者明显获益，亚组分析显示早期外科手术对距离脑表面<1 cm的脑叶血肿患者可能有益，但差异未达统计学意义。随后的STICHⅡ研究[69]纳入601例不伴有脑室出血的自发性浅表脑出血患者，与单纯内科保守治疗相比，早期手术清除脑叶出血并没有导致更好的临床转归（59%比62%；OR=0.86，95%CI 0.62~1.20，P=0.367），仅有轻微的生存优势。关于小脑出血，以往研究认为对那些血肿大于3 cm，伴脑干受压或脑积水的患者行手术治疗预后较好[7]。
+2．微创手术（minimal invasive surgery）：
+近年来精准立体定向穿刺设备的应用（如立体定向仪等）、手术通道建立后局部溶栓药物应用以及局部监测等在脑出血的微创诊治研究中得到了发展。MISTIEⅡ是一项多中心随机对照研究，旨在评估微创手术联合rt-PA清除血肿治疗幕上脑出血（≥ 20 ml）的可行性，研究发现脑出血后72 h内行微创手术+rt-PA治疗是安全的，能够减轻灶周水肿，有改善180 d神经功能的趋势[70,71]，rt-PA的用药方案为1 mg/8 h、≤9.0 mg，连续用药≤3 d。MISTIEⅢ研究进一步评估了微创手术联合rt-PA治疗幕上脑出血（≥30 ml）的疗效，发现微创治疗是安全的、有助于降低365 d时的病死率（HR=0.67，95%CI 0.45~0.98；P=0.037），但未改善神经功能；研究也发现血肿清除程度与预后好（mRS评分0~3分）相关（OR=0.68，95%CI 0.59~0.78；P<0.000 1），探索性分析发现微创治疗后剩余血肿体积≤15 ml时，微创组患者预后好的比例较保守治疗组增加10.5%（95%CI 1.0~20.0；P=0.03）[72]。国内的一项随机对照研究对比了微创术联合尿激酶与小骨窗开颅血肿清除术治疗30~80 ml基底节区脑出血的疗效与安全性，纳入了22个中心的304例患者，研究发现微创术联合尿激酶显著降低了术后再出血风险（8.8%比21.4%）和90 d时的病死率，改善了患者90 d时的日常活动能力[73]。另一项研究对比了微创术联合尿激酶与内科治疗小量基底节区脑出血（25~40 ml）的疗效，纳入了来自42个中心的465例患者，证实微创治疗明显改善了患者发病14 d时的神经功能和3个月时的功能预后[74]。此外，一项荟萃分析比较了微创术与其他方法（内科治疗、外科开颅手术）治疗自发性幕上脑出血的疗效，发现与其他治疗方式相比，患者从微创术治疗中获益较大，尤其是年龄在30~80岁伴表浅血肿、GCS评分≥9分、血肿体积25~40 ml、发病72 h内的患者[75]。2018年的另一篇荟萃分析纳入了15项高质量随机对照试验，共计2 152例患者。研究显示与保守治疗或外科常规开颅手术相比，经过筛选的幕上脑出血患者能够从微创治疗中获益，不同微创技术（立体定向溶栓、内窥镜等）和不同时间窗内做微创治疗（24 h内或72 h内）皆能获益[76]。此外，由于微创手术为盲穿操作，目前国内各临床中心在操作前均实施头颅MRA/CTA或DSA检查进行病因筛查，以最大限度地降低操作中由于血管病变所致再出血的发生。
+3．去骨瓣减压术：
+目前研究还探索了单纯去骨瓣减压在脑出血患者中的可行性。研究表明，去骨瓣减压或可降低病死率，但尚需大样本前瞻性队列研究评估其安全性及有效性[77]。
+推荐意见：对于大多数原发性脑出血患者，外科开颅手术治疗的有效性尚不能充分确定，不主张无选择地常规使用外科开颅手术（Ⅱ级推荐，B级证据），微创治疗是安全的、有助于降低病死率（Ⅰ级推荐，A级证据）。以下临床情况，可个体化考虑选择外科开颅手术或微创手术治疗：（1）出现神经功能恶化或脑干受压的小脑出血者，无论有无脑室梗阻致脑积水的表现，都应尽快手术清除血肿（Ⅰ级推荐，B级证据）；不推荐单纯脑室引流而不进行血肿清除（Ⅱ级推荐，C级证据）。（2）对于脑叶出血超过30 ml且距皮质表面1 cm内的患者，可考虑标准开颅术清除幕上血肿或微创手术清除血肿（Ⅱ级推荐，B级证据）。（3）发病72 h内、血肿体积20~40 ml、GCS≥9分的幕上高血压脑出血患者，在有条件的医院，经严格选择后可应用微创手术联合或不联合溶栓药物液化引流清除血肿（Ⅱ级推荐，A级证据）。（4）40 ml以上重症脑出血患者由于血肿占位效应导致意识障碍恶化者，可考虑微创手术清除血肿（Ⅱ级推荐，B级证据）。（5）微创治疗应尽可能清除血肿，使治疗结束时残余血肿体积≤15 ml（Ⅱ级推荐，B级证据）。（6）病因未明确的脑出血患者行微创手术前应行血管相关检查（CTA/MRA/DSA）排除血管病变，规避和降低再出血风险（Ⅱ级推荐，D级证据）。
+（二）脑室出血
+脑室引流/溶栓药物：脑室出血（intracerebral ventricular hemorrhage）可见于45%的自发性脑出血患者[78]，可以是原发性或继发性的[79]。由于难以保证引流管通畅，单纯脑室外引流（external ventricular drainage, EVD）可能是无效的[80]。研究者尝试对脑室出血使用溶栓药作为EVD的一种辅助手段。CLEARⅢ是一项纳入500例患者的大型多中心随机对照研究，采用EVD联合rt-PA（用药方案为1 mg/8 h、≤12.0 mg，连续用药≤4 d）治疗脑室出血，发现EVD联合rt-PA清除脑室出血安全性好，有助于降低严重脑室出血患者的病死率，但不改善患者的神经功能[80]。2017年，一项小样本随机对照研究[81]评估了EVD+rt-PA与EVD+rt-PA联合腰椎穿刺置管引流治疗脑室出血，研究发现EVD+rt-PA联合腰椎穿刺置管引流有助于更快速地清除脑室出血，后续脑室腹腔分流的风险和再出血风险均显著降低。
+推荐意见：EVD联合rt-PA治疗脑室出血是安全的，有助于降低重症患者的病死率（Ⅰ级推荐，A级证据），神经功能改善有待进一步研究（Ⅱ级推荐，A级证据）；联合腰椎穿刺置管引流有助于加速清除脑室出血、降低行脑室腹腔分流的风险（Ⅱ级推荐，B级证据）。
+预防脑出血复发
+脑出血患者的复发风险很高，年复发率约为1%~5%[82,83,84]。高血压是脑出血复发的重要危险因素[85]。PROGRESS研究发现，降低血压可降低脑出血复发的风险[82,86,87]，随访期间血压最低的患者卒中复发率最低[88]。SPS3研究显示将收缩压降至≤130 mmHg可显著降低脑小血管病患者的脑出血发生风险[89]。但脑出血后启动降压治疗以预防脑出血复发的最佳时间点尚不清楚。在INTERACT2研究中，数小时内将收缩压将至140 mmHg以下是安全的，意味着降压治疗可以在脑出血发病后尽快启动[29]。
+其他危险因素，包括阻塞性睡眠呼吸暂停[90]、肥胖和不良生活方式，也应该进行干预。频繁饮酒（每天>2次）[91]和精神药物的使用与血压升高和脑出血相关[92]，应予避免。吸烟也与脑出血风险升高相关[93]，应予戒烟。
+抗凝药物的使用与脑出血的发病风险、复发风险升高相关[94]。一项纳入了8项队列研究、共5 306例抗凝相关脑出血患者的荟萃分析提示，重启抗凝治疗并未增加脑出血复发的风险[95]。Eckman等[96]发现在血栓栓塞风险特别高时，深部出血可以考虑抗凝治疗，而脑叶出血应避免抗凝治疗。CAA是老年患者华法林相关脑叶出血的一个重要原因。一项对脑出血、缺血性卒中和TIA患者进行的汇总分析发现，微出血与口服华法林的脑出血患者更高的复发风险相关[97]。
+脑出血后重启抗凝治疗的最佳时间点尚不清楚。一项纳入234例华法林相关脑出血患者的研究发现，若抗凝治疗在约10周之后重启，缺血性和出血性卒中的整体风险最低，而且作者建议抗凝治疗至少应在脑出血后4周重启[98]。与华法林相比，抗血小板单药治疗[99]或经皮左心耳封堵术[100]可能是某些心房颤动患者更为安全的选择。
+多项荟萃分析指出，阿司匹林与脑出血发病率和病死率的轻度增加相关[49,101]，但是其在普通人群中的脑出血绝对风险较小[49]。两项观察性研究均发现脑出血后重启抗血小板治疗与脑出血复发风险增高不相关[102,103]。因此，在脑出血（包括CAA所致的脑出血）后应用似乎是安全的。
+他汀对脑出血的影响目前研究结论尚未统一。SPARCL研究发现高剂量阿托伐他汀降低复发性缺血性脑卒中的获益被增加的脑出血风险部分抵消[104]。但是，一项对大型随机对照研究的荟萃分析并未发现他汀和脑出血之间的显著关联[105]。目前，脑出血患者是否应继续他汀治疗尚不清楚。
+推荐意见：（1）对患者脑出血复发风险分层评估将影响治疗策略，脑出血复发风险应考虑以下因素：①初发脑出血部位（脑叶）；②高龄；③MRI GRE-T2*，SWI序列显示微出血病灶部位及其数量；④正在口服抗凝药物；⑤载脂蛋白Eε2或ε4等位基因的携带者（Ⅱ级推荐，B级证据）。（2）所有脑出血患者均应控制血压，脑出血发生后应立即给予控制血压的措施（Ⅰ级推荐，A级证据）。长期血压控制目标为130/80 mmHg是合理的（Ⅱ级推荐，B级证据）。（3）生活方式的改变，包括避免每天超过2次的饮酒，避免吸烟和药物滥用，以及治疗阻塞性睡眠呼吸暂停等可能对预防脑出血复发有益（Ⅱ级推荐，B级证据）。（4）需要抗栓治疗时，对合并非瓣膜性心房颤动的脑叶出血患者建议避免长期服用华法林抗凝治疗以防增加出血复发风险（Ⅱ级推荐，B级证据）。（5）当具有抗栓药物的明显指征时，非脑叶出血患者可以应用抗凝药物，所有脑出血患者都可应用抗血小板单药治疗（Ⅱ级推荐，B级证据）。（6）当有明显的抗凝药物使用指征时，抗凝药物相关性脑出血重启抗凝治疗的最佳时间尚不明确。在非机械性瓣膜患者中，至少在4周内应避免口服抗凝药物（Ⅱ级推荐，B级证据）。如果有使用指征，脑出血后数天可开始阿司匹林单药治疗，尽管其最佳使用时间尚不清楚（Ⅱ级推荐，B级证据）。（7）没有足够证据表明脑出血患者中应限制他汀类药物的使用（Ⅱ级推荐，C级证据）。
+康复治疗
+具体可参见《中国脑卒中早期康复治疗指南》[106]，并根据脑出血患者的具体情况，遵循康复治疗总的原则：如有可能，应尽早开始适合的和安全性好的康复治疗，适度的强化康复治疗措施并逐步合理地增加幅度。建议对脑出血患者进行多学科综合性康复治疗。实施医院、社区及家庭三级康复治疗措施，并力求妥善衔接，以期使患者获得最大益处。
+委员会成员
+执笔 朱遂强、连立飞、张苏明
+专家委员会成员 崔丽英（中国医学科学院北京协和医院）、王拥军（首都医科大学附属北京天坛医院）、蒲传强（解放军总医院）、饶明俐（吉林大学第一医院）、吕传真（复旦大学附属华山医院）、黄如训（中山大学附属第一医院）、贾建平（首都医科大学宣武医院）、张苏明（华中科技大学同济医学院附属同济医院）、董强（复旦大学附属华山医院）、曾进胜（中山大学附属第一医院）、赵钢（空军军医大学西京医院）、樊东升（北京大学第三医院）、刘鸣（四川大学华西医院）、徐运（南京大学医学院附属鼓楼医院）、吴江（吉林大学第一医院）、黄一宁（北京大学第一医院）、彭斌（中国医学科学院北京协和医院）、王伟（华中科技大学同济医学院附属同济医院）、陈海波（北京医院）、张通（北京博爱医院）、王玉平（首都医科大学宣武医院）、施福东（天津医科大学总医院）、郭力（河北医科大学第二医院）、何志义（中国医科大学第一临床学院）、汪昕（复旦大学附属中山医院）、管阳太（上海交通大学医学院附属仁济医院）、卢家红（复旦大学附属华山医院）、王柠（福建医科大学附属第一医院）、焉传祝（山东大学齐鲁医院）、张杰文（河南省人民医院）、谢鹏（重庆医科大学第一附属医院）、王文志（北京市神经外科研究所）、龚涛（北京医院）、贺茂林（首都医科大学附属北京世纪坛医院）、刘新峰（南京军区南京总医院）、刘运海（中南大学湘雅医院）、陆正齐（中山大学附属第三医院）、宋水江（浙江大学医学院附属第二医院）、赵性泉（首都医科大学附属北京天坛医院）、张祥建（河北医科大学第二医院）、徐恩（广州医科大学第二附属医院）、武剑（北京清华长庚医院）、韩钊（温州医科大学附属第二医院）、朱遂强（华中科技大学同济医学院附属同济医院）、许予明（郑州大学第一附属医院）、胡波（华中科技大学同济医学院附属协和医院）、田成林（解放军总医院）、李新（天津医科大学第二医院）、杨弋（吉林大学第一医院）、秦超（广西医科大学第一附属医院）、李继梅（首都医科大学附属北京友谊医院）、杨清武（陆军军医大学新桥医院）、朱以诚（中国医学科学院北京协和医院）、韩建峰（西安交通大学第一附属医院）、吴波（四川大学华西医院）、殷小平（南昌大学第二附属医院）、李刚（上海同济大学附属东方医院）、孙钦健（山东省立医院）、马欣（首都医科大学宣武医院）、汪银洲（福建省立医院）、林毅（福建医科大学附属第一医院）、吴伟（山东大学齐鲁医院）、傅毅（上海交通大学医学院附属瑞金医院）、陈会生（解放军沈阳军区总医院）、孟强（云南省第一人民医院）、汪谋岳（中华神经科杂志编辑部）
+志      谢
+志谢 蔡晓杰（北京医院）、倪俊（中国医学科学院北京协和医院）、许峰（华中科技大学同济医学院附属同济医院）、邓刚（华中科技大学同济医学院附属同济医院）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+利益冲突
+Conflicts of interest: None declared
+参考文献
+[1]
+LiuM, WuB, WangWZ, et al.
+Stroke in China: epidemiology, prevention, and management strategies[J].
+Lancet Neurol,
+2007,
+6(
+5):
+456-
+464.
+[2]
+van AschCJ, LuitseMJ, RinkelGJ, et al.
+Incidence, case fatality, and functional outcome of intracerebral haemorrhage over time, according to age, sex, and ethnic origin: a systematic review and meta-analysis[J].
+Lancet Neurol,
+2010,
+9(
+2):
+167-
+176.
+DOI: 10.1016/S1474-4422(09)70340-0.
+[3]
+TsaiCF, ThomasB, SudlowCL.
+Epidemiology of stroke and its subtypes in Chinese vs white populations: a systematic review[J].
+Neurology,
+2013,
+81(
+3):
+264-
+272.
+DOI: 10.1212/WNL.0b013e31829bfde3.
+[4]
+WuS, WuB, LiuM, et al.
+Stroke in China: advances and challenges in epidemiology, prevention, and management[J].
+Lancet Neurol,
+2019,
+18(
+4):
+394-
+405.
+DOI: 10.1016/S1474-4422(18)30500-3.
+[5]
+BroderickJP, BrottTG, DuldnerJE, et al.
+Volume of intracerebral hemorrhage. A powerful and easy-to-use predictor of 30-day mortality[J].
+Stroke,
+1993,
+24(
+7):
+987-
+993.
+DOI: 10.1161/01.str.24.7.987.
+[6]
+FeiginVL, ForouzanfarMH, KrishnamurthiR, et al.
+Global and regional burden of stroke during 1990-2010: findings from the Global Burden of Disease Study 2010[J].
+Lancet,
+2014,
+383(
+9913):
+245-
+254.
+DOI: 10.1016/s0140-6736(13)61953-4.
+[7]
+HemphillJC 3rd, GreenbergSM, AndersonCS, et al.
+Guidelines for the management of spontaneous intracerebral hemorrhage: aguideline for healthcare professionals from the American Heart Association/American Stroke Association[J].
+Stroke,
+2015,
+46(
+7):
+2032-
+2060.
+DOI: 10.1161/STR.0000000000000069.
+[8]
+KimJE, KoSB, KangHS, et al.
+Clinical practice guidelines for the medical and surgical management of primary intracerebral hemorrhage in Korea[J].
+J Korean Neurosurg Soc,
+2014,
+56(
+3):
+175-
+187.
+DOI: 10.3340/jkns.2014.56.3.175.
+[9]
+SteinerT, Al-Shahi SalmanR, BeerR, et al.
+European Stroke Organisation (ESO) guidelines for the management of spontaneous intracerebral hemorrhage[J].
+Int J Stroke,
+2014,
+9(
+7):
+840-
+855.
+DOI: 10.1111/ijs.12309.
+[10]
+中华医学会神经病学分会，中华医学会神经病学分会脑血管病学组.
+中国脑出血诊治指南(2014)[J].
+中华神经科杂志,
+2015,
+48(
+6):
+435-
+444.
+DOI: 10.3760/cma.j.issn.1006-7876.2015.06.002.
+Chinese Society of Neurology, Chinese Stroke Society. Chinese guidelines for diagnosis and treatment of acute intracerebral hemorrhage 2014[J]. Chin J Neurol, 2015, 48(6): 435-444. DOI: 10.3760/cma.j.issn.1006-7876.2015.06.002.
+[11]
+中华医学会神经病学分会，中华医学会神经病学分会脑血管病学组.
+中国急性缺血性脑卒中诊治指南2018[J].
+中华神经科杂志,
+2018,
+51(
+9):
+666-
+682.
+DOI: 10.3760/cma.j.issn.1006-7876.2018.09.004.
+Chinese Society of Neurology, Chinese Stroke Society. Chinese guidelines for diagnosis and treatment of acute ischemic stroke 2018[J]. Chin J Neurol, 2018, 51(9): 666-682. DOI: 10.3760/cma.j.issn.1006-7876.2018.09.004.
+[12]
+HemphillJC 3rd, BonovichDC, BesmertisL, et al.
+The ICH score: a simple, reliable grading scale for intracerebral hemorrhage[J].
+Stroke,
+2001,
+32(
+4):
+891-
+897.
+DOI: 10.1161/01.str.32.4.891.
+[13]
+KidwellCS, WintermarkM.
+Imaging of intracranial haemorrhage[J].
+Lancet Neurol,
+2008,
+7(
+3):
+256-
+267.
+DOI: 10.1016/S1474-4422(08)70041-3.
+[14]
+MuraiY, IkedaY, TeramotoA, et al.
+Contrast extravasation on CT angiography predicts hematoma expansion in intracerebral hemorrhage[J].
+Neurology,
+2007,
+69(
+6):
+617; author reply 617.
+DOI: 10.1212/01.wnl.0000278894.44311.0b.
+[15]
+WadaR, AvivRI, FoxAJ, et al.
+CT angiography "spot sign" predicts hematoma expansion in acute intracerebral hemorrhage[J].
+Stroke,
+2007,
+38(
+4):
+1257-
+1262.
+DOI: 10.1161/01.STR.0000259633.59404.f3.
+[16]
+DemchukAM, DowlatshahiD, Rodriguez-LunaD, et al.
+Prediction of haematoma growth and outcome in patients with intracerebral haemorrhage using the CT-angiography spot sign (PREDICT): a prospective observational study[J].
+Lancet Neurol,
+2012,
+11(
+4):
+307-
+314.
+DOI: 10.1016/S1474-4422(12)70038-8.
+[17]
+FiebachJB, SchellingerPD, GassA, et al.
+Stroke magnetic resonance imaging is accurate in hyperacute intracerebral hemorrhage: a multicenter study on the validity of stroke imaging[J].
+Stroke,
+2004,
+35(
+2):
+502-
+506.
+DOI: 10.1161/01.STR.0000114203.75678.88.
+[18]
+ChalelaJA, KidwellCS, NentwichLM, et al.
+Magnetic resonance imaging and computed tomography in emergency assessment of patients with suspected acute stroke: a prospective comparison[J].
+Lancet,
+2007,
+369(
+9558):
+293-
+298.
+DOI: 10.1016/S0140-6736(07)60151-2.
+[19]
+SingerOC, SitzerM, du Mesnil de RochemontR, et al.
+Practical limitations of acute stroke MRI due to patient-related problems[J].
+Neurology,
+2004,
+62(
+10):
+1848-
+1849.
+DOI: 10.1212/01.wnl.0000125320.53244.fa.
+[20]
+NüsselF, WegmüllerH, HuberP.
+Comparison of magnetic resonance angiography, magnetic resonance imaging and conventional angiography in cerebral arteriovenous malformation[J].
+Neuroradiology,
+1991,
+33(
+1):
+56-
+61.
+DOI: 10.1007/bf00593336.
+[21]
+YoonHK, ShinHJ, LeeM, et al.
+MR angiography of moyamoya disease before and after encephaloduroarteriosynangiosis[J].
+AJR Am J Roentgenol,
+2000,
+174(
+1):
+195-
+200.
+DOI: 10.2214/ajr.174.1.1740195.
+[22]
+MuraiY.
+Letter by Murairegarding article, "leakage sign for primary intracerebral hemorrhage: anovel predictor of hematoma growth"[J].
+Stroke,
+2016,
+47(
+8):
+e211.
+DOI: 10.1161/STROKEAHA.116.013575.
+[23]
+Rodriguez-LunaD, CoscojuelaP, Rodriguez-VillatoroN, et al.
+Multiphase CT angiography improves prediction of intracerebral hemorrhage expansion[J].
+Radiology,
+2017,
+285(
+3):
+932-
+940.
+DOI: 10.1148/radiol.2017162839.
+[24]
+MeretojaA, StrbianD, PutaalaJ, et al.
+SMASH-U: a proposal for etiologic classification of intracerebral hemorrhage[J].
+Stroke,
+2012,
+43(
+10):
+2592-
+2597.
+DOI: 10.1161/STROKEAHA.112.661603.
+[25]
+Rodriguez-LunaD, PiñeiroS, RubieraM, et al.
+Impact of blood pressure changes and course on hematoma growth in acute intracerebral hemorrhage[J].
+Eur J Neurol,
+2013,
+20(
+9):
+1277-
+1283.
+DOI: 10.1111/ene.12180.
+[26]
+ButcherKS, JeerakathilT, HillM, et al.
+The intracerebral hemorrhage acutely decreasing arterial pressure trial[J].
+Stroke,
+2013,
+44(
+3):
+620-
+626.
+DOI: 10.1161/STROKEAHA.111.000188.
+[27]
+Antihypertensive Treatment of Acute Cerebral Hemorrhage (ATACH) investigators.
+Antihypertensive treatment of acute cerebral hemorrhage[J].
+Crit Care Med,
+2010,
+38(
+2):
+637-
+648.
+DOI: 10.1097/CCM.0b013e3181b9e1a5.
+[28]
+AndersonCS, HuangY, WangJG, et al.
+Intensive blood pressure reduction in acute cerebral haemorrhage trial (INTERACT): a randomised pilot trial[J].
+Lancet Neurol,
+2008,
+7(
+5):
+391-
+399.
+DOI: 10.1016/S1474-4422(08)70069-3.
+[29]
+AndersonCS, HeeleyE, HuangY, et al.
+Rapid blood-pressure lowering in patients with acute intracerebral hemorrhage[J].
+N Engl J Med,
+2013,
+368(
+25):
+2355-
+2365.
+DOI: 10.1056/NEJMoa1214609.
+[30]
+ManningL, HirakawaY, ArimaH, et al.
+Blood pressure variability and outcome after acute intracerebral haemorrhage: a post-hoc analysis of INTERACT2, a randomised controlled trial[J].
+Lancet Neurol,
+2014,
+13(
+4):
+364-
+373.
+DOI: 10.1016/S1474-4422(14)70018-3.
+[31]
+ArimaH, HeeleyE, DelcourtC, et al.
+Optimal achieved blood pressure in acute intracerebral hemorrhage: INTERACT2[J].
+Neurology,
+2015,
+84(
+5):
+464-
+471.
+DOI: 10.1212/WNL.0000000000001205.
+[32]
+QureshiAI, PaleschYY, BarsanWG, et al.
+Intensive blood-pressure lowering in patients with acute cerebral hemorrhage[J].
+N Engl J Med,
+2016,
+375(
+11):
+1033-
+1043.
+DOI: 10.1056/NEJMoa1603460.
+[33]
+KimuraK, IguchiY, InoueT, et al.
+Hyperglycemia independently increases the risk of early death in acute spontaneous intracerebral hemorrhage[J].
+J Neurol Sci,
+2007,
+255(
+1-2):
+90-
+94.
+DOI: 10.1016/j.jns.2007.02.005.
+[34]
+SchwarzS, HäfnerK, AschoffA, et al.
+Incidence and prognostic significance of fever following intracerebral hemorrhage[J].
+Neurology,
+2000,
+54(
+2):
+354-
+361.
+DOI: 10.1212/wnl.54.2.354.
+[35]
+FriedrichJO.
+Recombinant activated factor Ⅶ for acute intracerebral hemorrhage[J].
+N Engl J Med,
+2005,
+352(
+20):
+2133-2134; author reply 2133-2134.
+DOI: 10.1056/NEJM200505193522017.
+[36]
+MayerSA, BrunNC, BegtrupK, et al.
+Efficacy and safety of recombinant activated factor Ⅶ for acute intracerebral hemorrhage[J].
+N Engl J Med,
+2008,
+358(
+20):
+2127-
+2137.
+DOI: 10.1056/NEJMoa0707534.
+[37]
+SpriggN, FlahertyK, AppletonJP, et al.
+Tranexamic acid for hyperacute primary Intra Cerebral Haemorrhage (TICH-2): an international randomised, placebo-controlled, phase 3 superiority trial[J].
+Lancet,
+2018,
+391(
+10135):
+2107-
+2115.
+DOI: 10.1016/S0140-6736(18)31033-X.
+[38]
+WangJ, TsirkaSE.
+Tuftsin fragment 1-3 is beneficial when delivered after the induction of intracerebral hemorrhage[J].
+Stroke,
+2005,
+36(
+3):
+613-
+618.
+DOI: 10.1161/01.STR.0000155729.12931.8f.
+[39]
+YangJ, LiuM, ZhouJ, et al.
+Edaravone for acute intracerebral haemorrhage[J].
+Cochrane Database Syst Rev,
+2011, (
+2):
+CD007755.
+DOI: 10.1002/14651858.CD007755.pub2.
+[40]
+YangJ, CuiX, LiJ, et al.
+Edaravone for acute stroke: meta-analyses of data from randomized controlled trials[J].
+Dev Neurorehabil,
+2015,
+18(
+5):
+330-
+335.
+DOI: 10.3109/17518423.2013.830153.
+[41]
+FlahertyML, TaoH, HaverbuschM, et al.
+Warfarin use leads to larger intracerebral hematomas[J].
+Neurology,
+2008,
+71(
+14):
+1084-
+1089.
+DOI: 10.1212/01.wnl.0000326895.58992.27.
+[42]
+FlibotteJJ, HaganN, O′DonnellJ, et al.
+Warfarin, hematoma expansion, and outcome of intracerebral hemorrhage[J].
+Neurology,
+2004,
+63(
+6):
+1059-
+1064.
+DOI: 10.1212/01.wnl.0000138428.40673.83.
+[43]
+ZubkovAY, MandrekarJN, ClaassenDO, et al.
+Predictors of outcome in warfarin-related intracerebral hemorrhage[J].
+Arch Neurol,
+2008,
+65(
+10):
+1320-
+1325.
+DOI: 10.1001/archneur.65.10.1320.
+[44]
+CucchiaraB, MesseS, SansingL, et al.
+Hematoma growth in oral anticoagulant related intracerebral hemorrhage[J].
+Stroke,
+2008,
+39(
+11):
+2993-
+2996.
+DOI: 10.1161/STROKEAHA.108.520668.
+[45]
+SteinerT, PoliS, GriebeM, et al.
+Fresh frozen plasma versus prothrombin complex concentrate in patients with intracranial haemorrhage related to vitamin K antagonists (INCH): a randomised trial[J].
+Lancet Neurol,
+2016,
+15(
+6):
+566-
+573.
+DOI: 10.1016/S1474-4422(16)00110-1.
+[46]
+TanakaKA, SzlamF, DickneiteG, et al.
+Effects of prothrombin complex concentrate and recombinant activated factor VII on vitamin K antagonist induced anticoagulation[J].
+Thromb Res,
+2008,
+122(
+1):
+117-
+123.
+DOI: 10.1016/j.thromres.2007.09.002.
+[47]
+SchulmanS, BijsterveldNR.
+Anticoagulants and their reversal[J].
+Transfus Med Rev,
+2007,
+21(
+1):
+37-
+48.
+DOI: 10.1016/j.tmrv.2006.08.002.
+[48]
+PowersWJ, RabinsteinAA, AckersonT, et al.
+2018 Guidelines for the early management of patients with acute ischemic stroke: aguideline for healthcare professionals from the American Heart Association/American Stroke Association[J].
+Stroke,
+2018,
+49(
+3):
+e46-
+110.
+DOI: 10.1161/STR.0000000000000158.
+[49]
+HeJ, WheltonPK, VuB, et al.
+Aspirin and risk of hemorrhagic stroke: a meta-analysis of randomized controlled trials[J].
+JAMA,
+1998,
+280(
+22):
+1930-
+1935.
+DOI: 10.1001/jama.280.22.1930.
+[50]
+BaharogluMI, CordonnierC, SalmanRA, et al.
+Platelet transfusion versus standard care after acute stroke due to spontaneous cerebral haemorrhage associated with antiplatelet therapy (PATCH): a randomised, open-label, phase 3 trial[J].
+Lancet,
+2016,
+387(
+10038):
+2605-
+2613.
+DOI: 10.1016/S0140-6736(16)30392-0.
+[51]
+TianY, WangZ, JiaY, et al.
+Intracranial pressure variability predicts short-term outcome after intracerebral hemorrhage: a retrospective study[J].
+J Neurol Sci,
+2013,
+330(
+1-2):
+38-
+44.
+DOI: 10.1016/j.jns.2013.04.001.
+[52]
+WangX, ArimaH, YangJ, et al.
+Mannitol and outcome in intracerebral hemorrhage: propensity score and multivariable intensive blood pressure reduction in acute cerebral hemorrhage trial 2 results[J].
+Stroke,
+2015,
+46(
+10):
+2762-
+2767.
+DOI: 10.1161/STROKEAHA.115.009357.
+[53]
+KochS, ConchaM, WazzanT, et al.
+High dose human serum albumin for the treatment of acute ischemic stroke: a safety study[J].
+Neurocrit Care,
+2004,
+1(
+3):
+335-
+341.
+DOI: 10.1385/NCC:1:3:335.
+[54]
+WagnerI, HauerEM, StaykovD, et al.
+Effects of continuous hypertonic saline infusion on perihemorrhagic edema evolution[J].
+Stroke,
+2011,
+42(
+6):
+1540-
+1545.
+DOI: 10.1161/STROKEAHA.110.609479.
+[55]
+MortazaviMM, RomeoAK, DeepA, et al.
+Hypertonic saline for treating raised intracranial pressure: literature review with meta-analysis[J].
+J Neurosurg,
+2012,
+116(
+1):
+210-
+221.
+DOI: 10.3171/2011.7.JNS102142.
+[56]
+KamelH, NaviBB, NakagawaK, et al.
+Hypertonic saline versus mannitol for the treatment of elevated intracranial pressure: a meta-analysis of randomized clinical trials[J].
+Crit Care Med,
+2011,
+39(
+3):
+554-
+559.
+DOI: 10.1097/CCM.0b013e318206b9be.
+[57]
+De ReuckJ, HemelsoetD, Van MaeleG.
+Seizures and epilepsy in patients with a spontaneous intracerebral haematoma[J].
+Clin Neurol Neurosurg,
+2007,
+109(
+6):
+501-
+504.
+DOI: 10.1016/j.clineuro.2007.04.001.
+[58]
+MesséSR, SansingLH, CucchiaraBL, et al.
+Prophylactic antiepileptic drug use is associated with poor outcome following ICH[J].
+Neurocrit Care,
+2009,
+11(
+1):
+38-
+44.
+DOI: 10.1007/s12028-009-9207-y.
+[59]
+De HerdtV, DumontF, HénonH, et al.
+Early seizures in intracerebral hemorrhage: incidence, associated factors, and outcome[J].
+Neurology,
+2011,
+77(
+20):
+1794-
+1800.
+DOI: 10.1212/WNL.0b013e31823648a6.
+[60]
+HaapaniemiE, StrbianD, RossiC, et al.
+The CAVE score for predicting late seizures after intracerebral hemorrhage[J].
+Stroke,
+2014,
+45(
+7):
+1971-
+1976.
+DOI: 10.1161/STROKEAHA.114.004686.
+[61]
+ChristensenMC, DawsonJ, VincentC.
+Risk of thromboembolic complications after intracerebral hemorrhage according to ethnicity[J].
+Adv Ther,
+2008,
+25(
+9):
+831-
+841.
+DOI: 10.1007/s12325-008-0092-0.
+[62]
+GoldsteinJN, FazenLE, WendellL, et al.
+Risk of thromboembolism following acute intracerebral hemorrhage[J].
+Neurocrit Care,
+2009,
+10(
+1):
+28-
+34.
+DOI: 10.1007/s12028-008-9134-3.
+[63]
+KellyJ, RuddA, LewisR, et al.
+Venous thromboembolism after acute stroke[J].
+Stroke,
+2001,
+32(
+1):
+262-
+267.
+DOI: 10.1161/01.str.32.1.262.
+[64]
+CLOTS (Clots in Legs Or sTockings after Stroke) Trials Collaboration, DennisM, SandercockP, et al.
+Effectiveness of intermittent pneumatic compression in reduction of risk of deep vein thrombosis in patients who have had a stroke (CLOTS 3): a multicentre randomised controlled trial[J].
+Lancet,
+2013,
+382(
+9891):
+516-
+524.
+DOI: 10.1016/S0140-6736(13)61050-8.
+[65]
+CLOTS Trials Collaboration, DennisM, SandercockPA, et al.
+Effectiveness of thigh-length graduated compression stockings to reduce the risk of deep vein thrombosis after stroke (CLOTS trial 1): a multicentre, randomised controlled trial[J].
+Lancet,
+2009,
+373(
+9679):
+1958-
+1965.
+DOI: 10.1016/S0140-6736(09)60941-7.
+[66]
+PaciaroniM, AgnelliG, VentiM, et al.
+Efficacy and safety of anticoagulants in the prevention of venous thromboembolism in patients with acute cerebral hemorrhage: a meta-analysis of controlled studies[J].
+J Thromb Haemost,
+2011,
+9(
+5):
+893-
+898.
+DOI: 10.1111/j.1538-7836.2011.04241.x.
+[67]
+KellyJ, HuntBJ, LewisRR, et al.
+Anticoagulation or inferior vena cava filter placement for patients with primary intracerebral hemorrhage developing venous thromboembolism?[J].
+Stroke,
+2003,
+34(
+12):
+2999-
+3005.
+DOI: 10.1161/01.STR.0000102561.86835.17.
+[68]
+MendelowAD, GregsonBA, FernandesHM, et al.
+Early surgery versus initial conservative treatment in patients with spontaneous supratentorial intracerebral haematomas in the International Surgical Trial in Intracerebral Haemorrhage (STICH): a randomised trial[J].
+Lancet,
+2005,
+365(
+9457):
+387-
+397.
+DOI: 10.1016/S0140-6736(05)17826-X.
+[69]
+MendelowAD, GregsonBA, RowanEN, et al.
+Early surgery versus initial conservative treatment in patients with spontaneous supratentorial lobar intracerebral haematomas (STICH II): a randomised trial[J].
+Lancet,
+2013,
+382(
+9890):
+397-
+408.
+DOI: 10.1016/S0140-6736(13)60986-1.
+[70]
+MouldWA, CarhuapomaJR, MuschelliJ, et al.
+Minimally invasive surgery plus recombinant tissue-type plasminogen activator for intracerebral hemorrhage evacuation decreases perihematomal edema[J].
+Stroke,
+2013,
+44(
+3):
+627-
+634.
+DOI: 10.1161/STROKEAHA.111.000411.
+[71]
+HanleyDF, ThompsonRE, MuschelliJ, et al.
+Safety and efficacy of minimally invasive surgery plus alteplase in intracerebral haemorrhage evacuation (MISTIE): a randomised, controlled, open-label, phase 2 trial[J].
+Lancet Neurol,
+2016,
+15(
+12):
+1228-
+1237.
+DOI: 10.1016/S1474-4422(16)30234-4.
+[72]
+HanleyDF, ThompsonRE, RosenblumM, et al.
+Efficacy and safety of minimally invasive surgery with thrombolysis in intracerebral haemorrhage evacuation (MISTIE Ⅲ): a randomised, controlled, open-label, blinded endpoint phase 3 trial[J].
+Lancet,
+2019,
+393(
+10175):
+1021-
+1032.
+DOI: 10.1016/S0140-6736(19)30195-3.
+[73]
+SunH, LiuH, LiD, et al.
+An effective treatment for cerebral hemorrhage: minimally invasive craniopuncture combined with urokinase infusion therapy[J].
+Neurol Res,
+2010,
+32(
+4):
+371-
+377.
+DOI: 10.1179/016164110X12670144526147.
+[74]
+WangWZ, JiangB, LiuHM, et al.
+Minimally invasive craniopuncture therapy vs. conservative treatment for spontaneous intracerebral hemorrhage: results from a randomized clinical trial in China[J].
+Int J Stroke,
+2009,
+4(
+1):
+11-
+16.
+DOI: 10.1111/j.1747-4949.2009.00239.x.
+[75]
+ZhouX, ChenJ, LiQ, et al.
+Minimally invasive surgery for spontaneous supratentorial intracerebral hemorrhage: a meta-analysis of randomized controlled trials[J].
+Stroke,
+2012,
+43(
+11):
+2923-
+2930.
+DOI: 10.1161/STROKEAHA.112.667535.
+[76]
+ScaggianteJ, ZhangX, MoccoJ, et al.
+Minimally invasive surgery for intracerebral hemorrhage[J].
+Stroke,
+2018,
+49(
+11):
+2612-
+2620.
+DOI: 10.1161/STROKEAHA.118.020688.
+[77]
+FungC, MurekM, Z′GraggenWJ, et al.
+Decompressive hemicraniectomy in patients with supratentorial intracerebral hemorrhage[J].
+Stroke,
+2012,
+43(
+12):
+3207-
+3211.
+DOI: 10.1161/STROKEAHA.112.666537.
+[78]
+BhattathiriPS, GregsonB, PrasadKS, et al.
+Intraventricular hemorrhage and hydrocephalus after spontaneous intracerebral hemorrhage: results from the STICH trial[J].
+Acta Neurochir Suppl,
+2006,
+96:
+65-
+68.
+[79]
+HalleviH, AlbrightKC, AronowskiJ, et al.
+Intraventricular hemorrhage: Anatomic relationships and clinical implications[J].
+Neurology,
+2008,
+70(
+11):
+848-
+852.
+DOI: 10.1212/01.wnl.0000304930.47751.75.
+[80]
+HanleyDF, LaneK, McBeeN, et al.
+Thrombolytic removal of intraventricular haemorrhage in treatment of severe stroke: results of the randomised, multicentre, multiregion, placebo-controlled CLEAR Ⅲ trial[J].
+Lancet,
+2017,
+389(
+10069):
+603-
+611.
+DOI: 10.1016/S0140-6736(16)32410-2.
+[81]
+StaykovD, KuramatsuJB, BardutzkyJ, et al.
+Efficacy and safety of combined intraventricular fibrinolysis with lumbar drainage for prevention of permanent shunt dependency after intracerebral hemorrhage with severe ventricular involvement: a randomized trial and individual patient data meta-analysis[J].
+Ann Neurol,
+2017,
+81(
+1):
+93-
+103.
+DOI: 10.1002/ana.24834.
+[82]
+ArimaH, TzourioC, ButcherK, et al.
+Prior events predict cerebrovascular and coronary outcomes in the PROGRESS trial[J].
+Stroke,
+2006,
+37(
+6):
+1497-
+1502.
+DOI: 10.1161/01.STR.0000221212.36860.c9.
+[83]
+VermeerSE, AlgraA, FrankeCL, et al.
+Long-term prognosis after recovery from primary intracerebral hemorrhage[J].
+Neurology,
+2002,
+59(
+2):
+205-
+209.
+DOI: 10.1212/wnl.59.2.205.
+[84]
+HangerHC, WilkinsonTJ, Fayez-IskanderN, et al.
+The risk of recurrent stroke after intracerebral haemorrhage[J].
+J Neurol Neurosurg Psychiatry,
+2007,
+78(
+8):
+836-
+840.
+DOI: 10.1136/jnnp.2006.106500.
+[85]
+IzumiharaA, SuzukiM, IshiharaT.
+Recurrence and extension of lobar hemorrhage related to cerebral amyloid angiopathy: multivariate analysis of clinical risk factors[J].
+Surg Neurol,
+2005,
+64(
+2):
+160-
+164;
+discussion 164.
+DOI: 10.1016/j.surneu.2004.09.010.
+[86]
+TzourioC, ArimaH, HarrapS, et al.
+APOE genotype, ethnicity, and the risk of cerebral hemorrhage[J].
+Neurology,
+2008,
+70(
+16):
+1322-
+1328.
+DOI: 10.1212/01.wnl.0000308819.43401.87.
+[87]
+Progress Collaborative Group.
+Randomised trial of a perindopril-based blood-pressure-lowering regimen among 6,105 individuals with previous stroke or transient ischaemic attack[J].
+Lancet,
+2001,
+358(
+9287):
+1033-
+1041.
+[88]
+ArimaH, ChalmersJ, WoodwardM, et al.
+Lower target blood pressures are safe and effective for the prevention of recurrent stroke: the PROGRESS trial[J].
+J Hypertens,
+2006,
+24(
+6):
+1201-
+1208.
+DOI: 10.1097/01.hjh.0000226212.34055.86.
+[89]
+WhiteCL, PergolaPE, SzychowskiJM, et al.
+Blood pressure after recent stroke: baseline findings from the secondary prevention of small subcortical strokes trial[J].
+Am J Hypertens,
+2013,
+26(
+9):
+1114-
+1122.
+DOI: 10.1093/ajh/hpt076.
+[90]
+Pontes-NetoOM, FernandesRM, SanderHH, et al.
+Obstructive sleep apnea is frequent in patients with hypertensive intracerebral hemorrhage and is related to perihematoma edema[J].
+Cerebrovasc Dis,
+2010,
+29(
+1):
+36-
+42.
+DOI: 10.1159/000255972.
+[91]
+WooD, SauerbeckLR, KisselaBM, et al.
+Genetic and environmental risk factors for intracerebral hemorrhage: preliminary results of a population-based study[J].
+Stroke,
+2002,
+33(
+5):
+1190-
+1195.
+DOI: 10.1161/01.str.0000014774.88027.22.
+[92]
+GeeP, TallonC, LongN, et al.
+Use of recreational drug 1,3 Dimethylamylamine (DMAA) [corrected] associated with cerebral hemorrhage[J].
+Ann Emerg Med,
+2012,
+60(
+4):
+431-
+434.
+DOI: 10.1016/j.annemergmed.2012.04.008.
+[93]
+AriesenMJ, ClausSP, RinkelGJ, et al.
+Risk factors for intracerebral hemorrhage in the general population: a systematic review[J].
+Stroke,
+2003,
+34(
+8):
+2060-
+2065.
+DOI: 10.1161/01.STR.0000080678.09344.8D.
+[94]
+KennedyBS, KaslSV, LichtmanJ, et al.
+Predicting readmission stroke type among blacks and whites in California[J].
+J Stroke Cerebrovasc Dis,
+2005,
+14(
+6):
+251-
+260.
+DOI: 10.1016/j.jstrokecerebrovasdis.2005.08.003.
+[95]
+MurthySB, GuptaA, MerklerAE, et al.
+Restarting anticoagulant therapy after intracranial hemorrhage: asystematic review and meta-analysis[J].
+Stroke,
+2017,
+48(
+6):
+1594-
+1600.
+DOI: 10.1161/STROKEAHA.116.016327.
+[96]
+EckmanMH, RosandJ, KnudsenKA, et al.
+Can patients be anticoagulated after intracerebral hemorrhage? A decision analysis[J].
+Stroke,
+2003,
+34(
+7):
+1710-
+1716.
+DOI: 10.1161/01.STR.0000078311.18928.16.
+[97]
+LovelockCE, CordonnierC, NakaH, et al.
+Antithrombotic drug use, cerebral microbleeds, and intracerebral hemorrhage: a systematic review of published and unpublished studies[J].
+Stroke,
+2010,
+41(
+6):
+1222-
+1228.
+DOI: 10.1161/STROKEAHA.109.572594.
+[98]
+MajeedA, KimYK, RobertsRS, et al.
+Optimal timing of resumption of warfarin after intracranial hemorrhage[J].
+Stroke,
+2010,
+41(
+12):
+2860-
+2866.
+DOI: 10.1161/STROKEAHA.110.593087.
+[99]
+ACTIVE Investigators, ConnollySJ, PogueJ, et al.
+Effect of clopidogrel added to aspirin in patients with atrial fibrillation[J].
+N Engl J Med,
+2009,
+360(
+20):
+2066-
+2078.
+DOI: 10.1056/NEJMoa0901301.
+[100]
+ReddyVY, DoshiSK, SievertH, et al.
+Percutaneous left atrial appendage closure for stroke prophylaxis in patients with atrial fibrillation: 2.3-year follow-up of the PROTECT AF (Watchman Left Atrial Appendage System for Embolic Protection in Patients with Atrial Fibrillation) trial[J].
+Circulation,
+2013,
+127(
+6):
+720-
+729.
+DOI: 10.1161/CIRCULATIONAHA.112.114389.
+[101]
+ThompsonBB, BéjotY, CasoV, et al.
+Prior antiplatelet therapy and outcome following intracerebral hemorrhage: a systematic review[J].
+Neurology,
+2010,
+75(
+15):
+1333-
+1342.
+DOI: 10.1212/WNL.0b013e3181f735e5.
+[102]
+ViswanathanA, RakichSM, EngelC, et al.
+Antiplatelet use after intracerebral hemorrhage[J].
+Neurology,
+2006,
+66(
+2):
+206-
+209.
+DOI: 10.1212/01.wnl.0000194267.09060.77.
+[103]
+TeoKC, LauG, MakR, et al.
+Antiplatelet resumption after antiplatelet-related intracerebral hemorrhage: a retrospective hospital-based study[J].
+World Neurosurg,
+2017,
+106:
+85-
+91.
+DOI: 10.1016/j.wneu.2017.06.015.
+[104]
+GoldsteinLB, AmarencoP, SzarekM, et al.
+Hemorrhagic stroke in the stroke prevention by aggressive reduction in cholesterol levels study[J].
+Neurology,
+2008,
+70(
+24
+Pt 2):
+2364-
+2370.
+DOI: 10.1212/01.wnl.0000296277.63350.77.
+[105]
+McKinneyJS, KostisWJ.
+Statin therapy and the risk of intracerebral hemorrhage: a meta-analysis of 31 randomized controlled trials[J].
+Stroke,
+2012,
+43(
+8):
+2149-
+2156.
+DOI: 10.1161/STROKEAHA.112.655894.
+[106]
+中华医学会神经病学分会，中华医学会神经病学分会神经康复学组，中华医学会神经病学分会脑血管病学组.
+中国脑卒中早期康复治疗指南[J].
+中华神经科杂志,
+2017,
+50(
+6):
+405-
+412.
+DOI: 10.3760/cma.j.issn.1006-7876.2017.06.002.
+Chinese Society of Neurology, Chinese Society of Neurorehabilitation,Chinese Stroke Society. Guidelines for early rehabilitation of stroke in China[J]. Chin J Neurol, 2017, 50(6): 405-412. DOI: 10.3760/cma.j.issn.1006-7876.2017.06.002.
+贡献者信息
+中华医学会神经病学分会
+中华医学会神经病学分会脑血管病学组
+关键词
+脑出血;
+诊断;
+治疗;
+指南;
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2019-12-08
+收稿日期：2019-08-06
+本文编辑
+许倩
+Guidelines
+Chinese guidelines for diagnosis and treatment of acute intracerebral hemorrhage 2019
+Chinese Society of Neurology,  Chinese Stroke Society
+Published
+2019-12-08
+Cite as
+Chin J Neurol, 2019,52(12): 994-1005. DOI: 10.3760/cma.j.issn.1006-7876.2019.12.003
+Abstract
+Since the Chinese guidelines for diagnosis and treatment of acute intracerebral hemorrhage 2014 published, great improvements have been made during the past five years. Guidelines update is necessary to improve the management of acute intracerebral hemorrhage. The writing committee met and discussed the narrative text and recommendations. The Chinese guidelines for diagnosis and treatment of acute intracerebral hemorrhage 2019 is approved by Chinese Society of Neurology, Chinese Stroke Society. The aim of this guideline is to present current and comprehensive recommendations for the diagnosis and treatment of acute spontaneous intracerebral hemorrhage.
+Key words:
+Intracerebral hemorrhage; Diagnosis; Treatment; Guidelines
+Contributor Information
+Chinese Society of Neurology
+Chinese Stroke Society
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+ChalelaJA, KidwellCS, NentwichLM, et al.
+Magnetic resonance imaging and computed tomography in emergency assessment of patients with suspected acute stroke: a prospective comparison[J].
+Lancet,
+2007,
+369(
+9558):
+293-
+298.
+DOI: 10.1016/S0140-6736(07)60151-2.
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华神经科杂志2019年52卷12期
+文    题：中国脑出血诊治指南（2019）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华神经科杂志2019年52卷12期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

@@ -1,0 +1,2495 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%85%A2%E6%80%A7%E8%83%83%E7%82%8E%E5%85%B1%E8%AF%86%E6%84%8F%E8%A7%81%282017%E5%B9%B4%EF%BC%8C%E4%B8%8A%E6%B5%B7%29.html
+# 标题: 中国慢性胃炎共识意见(2017年，上海) - 中华消化杂志
+# 发布方/日期: 中华医学会消化病学分会，中华消化杂志, 2017,37(11) : 721-738. DOI: 10.3760/cma.j；2017-11-15
+
+中国慢性胃炎共识意见(2017年，上海)
+中华医学会消化病学分会
+中华消化杂志, 2017,37(11) : 721-738. DOI: 10.3760/cma.j.issn.0254-1432.2017.11.001
+自2012年11月在上海召开的全国慢性胃炎研讨会制定了《中国慢性胃炎共识意见(2012年，上海)》[1]以来，国际上出台了《H.pylori胃炎京都全球共识意见》[2]，既强调了H.pylori的作用，又更加重视慢性胃炎的"可操作的与胃癌风险联系的胃炎评估(operative link for gastritis assessment，OLGA)" [3,4]、甚至"可操作的与胃癌风险联系的肠化生评估(operative link on gastric intestinal metaplasia assessment，OLGIM)"分级分期系统，以及ABC分级标准、Maastricht-5共识[5]和我国第5次全国H.pylori感染处理共识意见[6]，慢性胃炎与胃癌的关系与根除H.pylori的作用、慢性胃炎内镜和病理诊断手段的进步等均要求更新共识意见。为此，由中华医学会消化病学分会主办、上海交通大学医学院附属仁济医院消化内科暨上海市消化疾病研究所承办的2017年全国慢性胃炎诊治共识会议于2017年7月1日在上海召开。
+本共识意见包含48项陈述(条款)，由中华医学会消化病学分会的部分专家撰写草稿，撰写原则按照循证医学PICO(patient or population，intervention，comparison，outcome)原则，会前对共识意见草案进行了反复讨论和修改。会议期间来自全国各地的75名消化病学专家首先听取了撰写小组专家针对每一项陈述的汇报，在充分讨论后采用改良Delphi方法无记名投票形式通过了本共识意见。陈述的证据来源质量和推荐等级标准参照美国内科医师协会临床指南委员会标准(表1)[7]。每一项陈述投票意见为完全同意和(或)基本同意者超过80%则被视为通过；相反，则全体成员再次讨论；若第2次投票仍未达到前述通过所需要求，则当场修改后进行第3次投票，确定接受或者放弃该项陈述。
+点击查看表格
+表1
+美国内科医师协会临床指南委员会标准[7]
+表1
+美国内科医师协会临床指南委员会标准[7]
+证据质量
+推荐强度
+获益显著超过风险或负担，或相反
+获益与风险或负担接近
+高质量
+强烈推荐
+条件推荐(即弱推荐)
+中等质量
+强烈推荐
+条件推荐(即弱推荐)
+(很)低质量
+强烈推荐
+条件推荐(即弱推荐)
+一、流行病学
+1．由于多数慢性胃炎患者无任何症状，因此难以获得确切的患病率。估计的慢性胃炎患病率要高于当地人群中H.pylori感染率。
+推荐等级：强烈。证据质量：中等。陈述同意率：97.2%。
+H．pylori现症感染者几乎均存在慢性活动性胃炎(chronic active gastritis)[2]，即H.pylori胃炎，用血清学方法检测(现症感染或既往感染)阳性者绝大多数存在慢性胃炎。除H.pylori感染外，胆汁反流、药物、自身免疫等因素也可引起慢性胃炎。因此，人群中慢性胃炎的患病率高于或略高于H.pylori感染率。目前我国基于内镜诊断的慢性胃炎患病率接近90%[8]。
+2．慢性胃炎尤其是慢性萎缩性胃炎的发生与H.pylori感染密切相关。
+推荐等级：强烈。证据质量：中等。陈述同意率：82.1%。
+《H.pylori胃炎京都全球共识意见》指出，H.pylori胃炎无论有无症状、伴或不伴有消化性溃疡和胃癌，均应该定义为一种感染性疾病[2]。根据病因分类，H.pylori胃炎是一种特殊类型的胃炎。H.pylori感染与地域、人口种族和经济条件有关。H.pylori感染在儿童时期可导致以胃体胃炎为主的慢性胃炎，而在成人则以胃窦胃炎为主[9]。我国慢性胃炎发病率呈上升趋势，而H.pylori感染率呈下降趋势[8,10]。我国H.pylori的感染率已由2000年前的60.5%降至目前的52.2%左右[11]。除了H.pylori感染，自身免疫性胃炎也可导致胃黏膜萎缩，在50～74岁人群中约20%抗壁细胞抗体阳性[12]。
+3．慢性胃炎特别是慢性萎缩性胃炎的患病率一般随年龄增加而上升。
+推荐等级：强烈。证据质量：高。陈述同意率：98.7%。
+无论慢性萎缩性胃炎还是非萎缩性胃炎，患病率都随年龄的增长而升高[13]。这主要与H.pylori感染率随年龄增长而上升有关，萎缩、肠化生与"年龄老化"也有一定关系。慢性萎缩性胃炎与H.pylori感染有关[14]，年龄越大者其发病率越高，但与性别的关系不明显[15]。这也反映了H.pylori感染产生的免疫反应导致胃黏膜损伤所需的演变过程。
+4．慢性胃炎人群中，慢性萎缩性胃炎的比例在不同国家和地区之间存在较大差异，一般与胃癌的发病率呈正相关。
+推荐等级：强烈。证据质量：高。陈述同意率：93.2%。
+慢性萎缩性胃炎的发生是H.pylori感染、环境因素和遗传因素共同作用的结果。在不同国家或地区的人群中，慢性萎缩性胃炎的患病率大不相同；此差异不但与各地区H.pylori感染率差异有关，而且与感染的H.pylori毒力基因差异、环境因素不同和遗传背景差异有关。胃癌高发区慢性萎缩性胃炎的患病率高于胃癌低发区。H.pylori感染后免疫反应介导慢性胃炎的发生、发展[16]。外周血Runx3甲基化水平可作为判断慢性萎缩性胃炎预后的指标[17]。慢性胃炎患者的胃癌、结直肠肿瘤、胰腺癌患病率均高于正常者[18]。
+5．我国慢性萎缩性胃炎的患病率较高，内镜诊断萎缩性胃炎的敏感性较低，需结合病理检查结果。
+推荐等级：条件。证据质量：中等。陈述同意率：93.2%。
+2014年，由中华医学会消化内镜学分会组织开展了一项横断面调查，纳入包括10个城市、30个中心、共计8 892例有上消化道症状且经胃镜检查证实的慢性胃炎患者[19]。结果表明，在各型慢性胃炎中，内镜诊断慢性非萎缩性胃炎最常见(49.4%)，其次是慢性非萎缩性胃炎伴糜烂(42.3%)，慢性萎缩性胃炎比例为17.7%；病理诊断萎缩占25.8%，肠化生占23.6%，上皮内瘤变占7.3%。以病理诊断为"金标准" ，则内镜诊断萎缩的敏感度仅为42%，特异度为91%。研究表明我国目前慢性萎缩性胃炎的患病率较高，内镜和病理诊断的符合率有待进一步提高。
+二、慢性胃炎的病因及其分类
+1．H.pylori感染是慢性胃炎最主要的病因。
+推荐等级：强烈。证据质量：高。陈述同意率：93.2%。
+70%～90%的慢性胃炎患者有H.pylori感染，慢性胃炎活动性的存在高度提示H.pylori感染[20,21]。
+2．H.pylori胃炎是一种感染性疾病。
+推荐等级：强烈。证据质量：高。陈述同意率：83.8%。
+所有H.pylori感染者几乎都存在慢性活动性胃炎，亦即H.pylori胃炎[20,21]。H.pylori感染与慢性活动性胃炎之间的因果关系符合Koch原则[22,23,24]。H.pylori感染可以在人-人之间传播[25]。因此，不管有无症状和(或)并发症，H.pylori胃炎都是一种感染性疾病[2,5]。
+3．胆汁反流、长期服用NSAID(包括阿司匹林)等药物和乙醇摄入是慢性胃炎相对常见的病因。
+推荐强度：强烈。证据质量：中等。陈述同意率：97.3%。
+胆汁、NSAID(包括阿司匹林)等药物和乙醇可以通过不同机制损伤胃黏膜，这些因素是H.pylori阴性胃炎相对常见的病因[26]。
+4．自身免疫性胃炎在我国相对少见。
+推荐强度：条件。证据质量：中等。陈述同意率：86.3%。
+自身免疫性胃炎是一种由自身免疫功能异常所致的胃炎。主要表现为以胃体为主的萎缩性胃炎，伴有血和(或)胃液壁细胞抗体和(或)内因子抗体阳性，严重者因维生素B12缺乏而有恶性贫血表现[27]。其确切的诊断标准有待统一。此病在北欧国家报道较多，我国少有报道[28,29,30]，其确切患病率尚不清楚。
+5．其他感染性、嗜酸性粒细胞性、淋巴细胞性、肉芽肿性胃炎和Ménétrier病相对少见。
+推荐强度：条件。证据质量：低。陈述同意率：97.1%。
+除H.pylori感染外，同属螺杆菌的海尔曼螺杆菌可单独(<1%)或与H.pylori共同感染引起慢性胃炎[31]。其他感染性胃炎(包括其他细菌、病毒、寄生虫、真菌)更少见。嗜酸性粒细胞性、淋巴细胞性、肉芽肿性胃炎和Ménétrier病相对少见。随着CD在我国发病率的上升，肉芽肿性胃炎的诊断率可能会有所增加。
+6．慢性胃炎的分类尚未统一，一般基于其病因、内镜所见、胃黏膜病理变化和胃炎分布范围等相关指标进行分类。
+推荐强度：强烈。证据质量：中等。陈述同意率：98.6%。
+目前，一般基于悉尼系统(Sydney system)[32]和新悉尼系统(updated Sydney system)[26]进行慢性胃炎分类。WHO国际疾病分类(International Classification of Diseases，ICD)第10版(1989年推出)已过时，以病因分类为主的ICD第11版[2]仍在征询意见中(预期2018年推出，部分内容见附录二)。
+7．基于病因可将慢性胃炎分成H.pylori胃炎和非H.pylori胃炎两大类。
+推荐强度：强烈。证据质量：中等。陈述同意率：83.8%。
+病因分类有助于治疗。H.pylori感染是慢性胃炎的主要病因[20,21]，将慢性胃炎分成H.pylori胃炎和非H.pylori胃炎有助于慢性胃炎处理中重视对H.pylori检测和治疗。
+8．基于内镜和病理诊断可将慢性胃炎分成萎缩性和非萎缩性两大类。
+推荐强度：强烈。证据质量：高。陈述同意率：98.5%。
+这是慢性胃炎新悉尼系统的分类方法[26,33]。胃黏膜萎缩可分成单纯性萎缩和化生性萎缩，胃黏膜腺体有肠化生者属于化生性萎缩[34]。
+9．基于胃炎分布可将慢性胃炎分为胃窦为主胃炎、胃体为主胃炎和全胃炎三大类。
+推荐强度：强烈。证据质量：中等。陈述同意率：85.5%。
+这是慢性胃炎悉尼系统的分类方法[32]。胃体为主胃炎尤其是伴有胃黏膜萎缩者，胃酸分泌多减少，发生胃癌的风险增加；胃窦为主者胃酸分泌多增加，发生十二指肠溃疡的风险增加[35,36]。这一胃炎分类法对预测胃炎并发症有一定作用[2,5]。
+三、慢性胃炎的临床表现
+1．慢性胃炎无特异性临床表现。消化不良症状有无和严重程度与慢性胃炎的分类、内镜下表现、胃黏膜病理组织学分级均无明显相关性。
+推荐强度：强烈。证据质量：中等。陈述同意率：100.0%。
+在前述(流行病学部分第5条陈述)的一项纳入8 892例慢性胃炎患者全国多中心研究显示，13.1%的患者无任何症状，有症状者常见表现依次为上腹痛(52.9%)、腹胀(48.7%)、餐后饱胀(14.3%)和早饱感(12.7%)，近1/3的患者有上述2个以上症状共存，与消化不良症状谱相似[19]。日本一项纳入9 125例慢性胃炎临床研究中，40%的患者有消化不良表现，慢性胃炎与功能性消化不良在临床表现和精神心理状态方面无显著差异[37]。国内Wei等 [38]对符合罗马Ⅲ功能性消化不良诊断的233例患者进行胃镜病理活组织检查(以下简称活检)，发现H.pylori胃炎占37.7%，症状以上腹不适综合征(epigastric pain syndrome，EPS)为主，但无大样本研究进一步证实。Carabotti等[39]比较了胃窦局灶性胃炎与全胃炎患者的消化不良症状，结果两者之间无显著差异。Redéen等[40]发现不同内镜表现和病理组织学结果的慢性胃炎患者症状的严重程度与内镜所见和病理组织学分级无明显相关性。
+2．自身免疫性胃炎可长时间缺乏典型临床症状，胃体萎缩后首诊症状主要以贫血和维生素B12缺乏引起神经系统症状为主。
+推荐强度：条件。证据质量：低。陈述同意率：98.6%。
+传统观点认为自身免疫性胃炎好发于老年北欧女性，但最新流行病调查研究显示以壁细胞抗体阳性为诊断标准，该病在人群中的总发病率为2%，老年女性发病率可达4%～5%，且无种族、地域特异性[41]。患者在胃体萎缩前无典型临床表现，进展至胃体萎缩后多以贫血和维生素B12缺乏引起的神经系统症状就诊[28]。有研究表明，因胃体萎缩、胃酸减少引起缺铁性小细胞性贫血可先于大细胞性贫血出现[42]。自身免疫性胃炎恶性贫血合并原发性甲状旁腺亢进与1型糖尿病的发病率较健康人群增高3～5倍[43,44]。一项国外最新的横断面研究纳入379例临床诊断为自身免疫性胃炎的患者，餐后不适综合征(postprandial distress syndrome, PDS)占有消化道症状者的60.2%，独立相关因素为低龄(<55岁)(OR＝1.6，95%CI 1.0～2.5)、吸烟(OR＝2.2，95%CI 1.2～4.0)、贫血(OR＝3.1，95%CI 1.5～6.4)[45]，国内尚无自身免疫性胃炎大样本研究。
+3．其他感染性、嗜酸性粒细胞性、淋巴细胞性、肉芽肿性胃炎和Ménétrier病症状表现多样。
+推荐强度：条件。证据质量：低。陈述同意率：98.6%。
+淋巴细胞性胃炎：内镜下表现为绒毛状、疣状胃炎伴糜烂，病理特征为胃黏膜上皮内淋巴细胞>25/100上皮细胞。临床表现多样，1/3至1/2的患者表现为食欲下降、腹胀、恶心、呕吐，1/5的患者合并低蛋白血症与乳糜泻[46]。
+肉芽肿性胃炎：CD累及上消化道表现之一，Horjus Talabur Horje等[47]在新诊断的108例CD患者中，发现55%的病例伴有胃黏膜损害，病理表现为局灶性胃炎(focally enhanced gastritis)、肉芽肿性胃炎。
+四、内镜诊断
+1．慢性胃炎的内镜诊断系指肉眼或特殊成像方法所见的黏膜炎性变化，需与病理检查结果结合做出最终判断。
+推荐等级：强烈。证据质量：中等。陈述同意率：94.2%。
+慢性萎缩性胃炎的诊断包括内镜诊断和病理诊断，而普通白光内镜下判断的萎缩与病理诊断的符合率较低，确诊应以病理诊断为依据[19,48,49,50,51]。
+2．内镜结合病理组织学检查，可诊断慢性胃炎为慢性非萎缩性胃炎和慢性萎缩性胃炎两大基本类型。
+推荐等级：强烈。证据质量：低。陈述同意率：98.5%。
+多数慢性胃炎的基础病变均为炎性反应(充血渗出)或萎缩，因此将慢性胃炎分为慢性非萎缩性胃炎和慢性萎缩性胃炎[33]，此也有利于与病理诊断的统一。慢性非萎缩性胃炎内镜下可见黏膜红斑、黏膜出血点或斑块、黏膜粗糙伴或不伴水肿、充血渗出等基本表现[33]。慢性萎缩性胃炎在内镜下可见黏膜红白相间，以白相为主，皱襞变平甚至消失，部分黏膜血管显露；可伴有黏膜颗粒或结节状等表现[33]。
+慢性胃炎可同时存在糜烂、出血或胆汁反流等征象，这些在内镜检查中可获得可靠的证据。其中糜烂可分为2种类型，即平坦型和隆起型，前者表现为胃黏膜有单个或多个糜烂灶，其大小从针尖样到直径数厘米不等；后者可见单个或多个疣状、膨大皱襞状或丘疹样隆起，直径5～10 mm，顶端可见黏膜缺损或脐样凹陷，中央有糜烂[52]。糜烂的发生可与H.pylori感染和服用黏膜损伤药物等有关[53,54,55]。因此，在诊断时应予以描述，如慢性非萎缩性胃炎或慢性萎缩性胃炎伴糜烂、胆汁反流等[2]。
+3．特殊类型胃炎的内镜诊断必须结合病因和病理。
+推荐等级：强烈。证据质量：低。陈述同意率：98.5%。
+特殊类型胃炎的分类与病因和病理有关，包括化学性、放射性、淋巴细胞性、肉芽肿性、嗜酸细胞性，以及其他感染性疾病所致者等[33]。
+4．放大内镜结合染色对内镜下胃炎病理分类有一定帮助。
+推荐等级：强烈。证据质量：中等。陈述同意率：100.0%。
+放大内镜结合染色能清楚地显示胃黏膜微小结构，可指导活检部分，对胃炎的诊断和鉴别诊断和早期发现上皮内瘤变和肠化生具有参考价值。目前，亚甲基蓝染色结合放大内镜对肠化生和上皮内瘤变仍保持了较高的准确率[56,57]。苏木精、靛胭脂、醋酸染色对上皮内瘤变也有诊断作用[57,58,59,60]。
+5．电子染色放大内镜和共聚焦激光显微内镜对慢性胃炎诊断和鉴别诊断有一定价值。
+推荐等级：强烈。证据质量：中等。陈述同意率：98.6%。
+电子染色放大内镜对于慢性胃炎和胃癌前病变具有较高的敏感度和特异度[61,62,63,64,65,66]，但其具体表现特征和分型尚无完全统一的标准。共聚焦激光显微内镜光学活检技术对胃黏膜的观察可达到细胞水平，能够实时辨认胃小凹、上皮细胞、杯状细胞等细微结构变化，对慢性胃炎的诊断和组织学变化分级(慢性炎性反应、活动性、萎缩和肠化生)具有一定的参考价值[67,68,69]。同时，光学活检可选择性对可疑部位进行靶向活检，有助于提高活检取材的准确性[70,71]。
+6．规范的慢性胃炎内镜检查报告，描述内容至少应包括病变部位和特征。
+推荐等级：强烈。证据质量：高。陈述同意率：94.2%。
+建议规范慢性胃炎的内镜检查报告，描述内容除了包括胃黏膜病变部位和特征外，建议最好包括病变性质、胃镜活检部位和活检块数、快速尿素酶检查H.pylori结果等。
+7．活检病理组织学对慢性胃炎的诊断至关重要，应根据病变情况和需要进行活检。临床诊断时建议取2～3块，分别在胃窦、胃角和胃体部位活检；可疑病灶处另外多取活检[33]。有条件时，活检可在色素或电子染色放大内镜和共聚焦激光显微内镜引导下进行[70,72,73,74]。
+推荐等级：条件。证据质量：中等。陈述同意率：91.3%。
+对于慢性胃炎内镜活检块数的多少，历届共识意见研讨会争议较多[1,75,76]，不利于规范我国慢性胃炎的内镜活检和病理资料库的积累。建议有条件的单位根据悉尼系统的要求取5块标本(图1)[33]，即在胃窦和胃体各取2块，胃角取1块，有利于我国慢性胃炎病理资料库的建立；仅用于临床诊断的可以取2～3块标本。
+点击查看大图
+图1
+新悉尼系统的5点取材
+注：A1和A2为胃窦2块组织取材点，分别取自距幽门2～3 cm处的大弯和小弯；IA为胃角1块组织取材点；B1和B2为胃体2块组织取材点，分别取自距贲门8 cm的大弯(胃体大弯中部)和距胃角近侧4 cm的小弯
+图1
+新悉尼系统的5点取材
+五、慢性胃炎的病理诊断标准
+1．要重视贲门炎诊断，必要时增加贲门部黏膜活检。
+推荐等级：条件。证据质量：中等。陈述同意率：84.1%。
+贲门炎是慢性胃炎中未受到重视的一种类型，和GERD、Barrett食管等存在一定关系，值得今后加强研究。反流性食管炎如疑合并贲门炎时，宜取活检。
+2．标本要足够大，达到黏膜肌层(图2)。不同部位的标本需分开装瓶。内镜医师应向病理科提供取材部位、内镜所见和简要病史等临床资料。
+点击查看大图
+图2
+取材深达黏膜肌层的胃黏膜 苏木精-伊红染色 高倍放大
+图2
+取材深达黏膜肌层的胃黏膜 苏木精-伊红染色 高倍放大
+推荐等级：强烈。证据质量：高。陈述同意率：100.0%。
+标本过浅(少)未达黏膜肌层者，失去了判断有无萎缩的依据。活检对诊断自身免疫性胃炎十分重要，诊断时要核实取材部位(送检标本需分瓶装)，另外，临床和实验室资料亦很重要，严重的H.pylori感染性胃炎患者，其胃体黏膜也可能有明显的炎性反应或萎缩。内镜医师应向病理科提供取材部位、内镜所见和简要病史等临床资料，加强临床和病理的联系，可以取得更多的反馈信息[1,33,75,76]。
+3．慢性胃炎有5种组织学变化要分级，即H.pylori、炎性反应、活动性、萎缩和肠化生，分成无、轻度、中度和重度4级(0、＋、＋＋、＋＋＋)。分级标准采用我国慢性胃炎的病理诊断标准(附录)和新悉尼系统的直观模拟评分法(visual analogue scale)并用。
+推荐等级：强烈。证据质量：高。陈述同意率：100.0%。
+直观模拟评分法是新悉尼系统(1996)为提高慢性胃炎国际间交流一致率而提出的[33]。我国慢性胃炎的病理诊断标准是采用文字描述的[1,75,76]，比较具体，容易操作，与新悉尼系统基本类似。将我国文字描述的病理诊断标准与新悉尼系统评分图(图3)结合，可以提高我国慢性胃炎病理诊断与国际诊断标准的一致性。对炎性反应明显而H-E染色切片未发现H.pylori者，要作特殊染色仔细寻找，推荐用较简便的吉姆萨(Giemsa)染色，也可按各病理室惯用的染色方法，有条件的单位可行免疫组织化学检测。胃肠道黏膜是人体免疫系统的主要组成部分，存在生理性免疫细胞(主要为淋巴细胞、组织细胞、树突状细胞、浆细胞)，这些细胞形态在常规H-E染色切片上难以与慢性炎性细胞区分。病理医师建议在内镜检查无明显异常情况下，高倍镜下平均每个腺管有1个单个核细胞浸润可不作为"病理性"胃黏膜对待[1,32,33,75,76,77]。
+点击查看大图
+图3
+直观模拟评分法示意图[33]
+图3
+直观模拟评分法示意图[33]
+4．慢性胃炎病理诊断应包括部位分布特征和组织学变化程度。有病因可循的要报告病因。胃窦和胃体炎性反应程度相差二级或以上时，加上"为主"修饰词，如"慢性(活动性)胃炎，胃窦为主"。病理检查要报告每块活检标本的组织学变化，推荐使用表格式的慢性胃炎病理报告。
+推荐等级：强烈。证据质量：中等。陈述同意率98.6%。
+病理诊断要报告每块活检标本的组织学变化，可向临床医师反馈更详细的信息，有利于减少活检随机误差所造成的结论偏倚，方便临床进行治疗前后比较[33,75]。表格式的慢性胃炎病理报告(图4)可克服活检随机性的缺点，信息简明、全面，便于治疗前后比较。
+点击查看大图
+图4
+表格式慢性胃炎病理报告
+图4
+表格式慢性胃炎病理报告
+5．慢性胃炎病理活检显示固有腺体萎缩，即可诊断为萎缩性胃炎，而不必考虑活检标本的萎缩块数和程度。临床医师可根据病理结果并结合内镜表现，最后做出萎缩范围和程度的判断。
+推荐等级：强烈。证据质量：中等。陈述同意率：98.6%。
+早期或多灶性萎缩性胃炎的胃黏膜萎缩呈灶性分布。即使活检块数少，只要病理活检显示有固有腺体萎缩，即可诊断为萎缩性胃炎。需注意：一切原因引起黏膜损伤的病理过程都可造成腺体数量减少，如于糜烂或溃疡边缘取的活检，不能视为萎缩性胃炎；局限于胃小凹区域的肠化生不算萎缩；黏膜层出现淋巴滤泡不算萎缩，要通过观察其周围区域的腺体情况来决定；此外，活检组织太浅(未达黏膜肌层者)、组织包埋方向不当等因素均可影响对萎缩的判断。
+6．肠化生范围和肠化生亚型对预测胃癌发生危险性均有一定的价值，AB-PAS和HID-AB黏液染色能区分肠化生亚型。
+推荐等级：强烈。证据质量：中等。陈述同意率：87.0%。
+研究强调重视肠化生范围，肠化生范围越广，发生胃癌的危险性越高。新近Meta分析提示肠化生分型对胃癌的预测亦有积极意义，不完全型和(或)结直肠型肠化生与胃癌发生更相关[78,79,80,81]。但从病理检测实际情况看，慢性胃炎的肠化生以混合型肠化生多见，不完全型和(或)结直肠型肠化生的检出与活检数量的多少有密切关系，即存在取样误差问题。AB-PAS染色对不明显肠化生的诊断很有帮助。
+7．异型增生(上皮内瘤变)是最重要的胃癌癌前病变。有异型增生(上皮内瘤变)的要注明，分为轻度、中度和重度异型增生(或低级别和高级别上皮内瘤变)。
+推荐等级：强烈。证据质量：高。陈述同意率：94.2%。
+异型增生和上皮内瘤变是同义词，后者是WHO国际癌症研究协会推荐使用的术语[82]。但是，不论国际还是国内，术语的应用和译法意见尚不完全一致，病理组建议可以同时使用这2个术语[83,84]。
+六、慢性胃炎的治疗
+1．慢性胃炎的治疗应尽可能针对病因，遵循个体化原则。治疗目的是去除病因、缓解症状和改善胃黏膜炎性反应。
+推荐强度：强烈。证据质量：中等。陈述同意率：98.5%。
+慢性胃炎的治疗目的是去除病因、缓解症状和改善胃黏膜组织学。慢性胃炎的消化不良症状的处理与功能性消化不良相同。无症状、H.pylori阴性的慢性非萎缩性胃炎无需特殊治疗；但对慢性萎缩性胃炎，特别是严重的慢性萎缩性胃炎或伴有上皮内瘤变者应注意预防其恶变。
+2．饮食和生活方式的个体化调整可能是合理的建议。
+推荐强度：强烈。证据质量：低。陈述同意率：97.1%。
+虽然尚无明确的证据显示某些饮食摄入与慢性胃炎症状的发生存在因果关系，且亦缺乏饮食干预疗效的大型临床研究，但是饮食习惯的改变和生活方式的调整是慢性胃炎治疗的一部分。目前，临床医师也常建议患者尽量避免长期大量服用引起胃黏膜损伤的药物(如NSAID)，改善饮食与生活习惯(如避免过多饮用咖啡、大量饮酒和长期大量吸烟)[85]。
+3．证实H.pylori阳性的慢性胃炎，无论有无症状和并发症，均应进行H.pylori根除治疗，除非有抗衡因素存在。
+推荐强度：强烈。证据质量：高。陈述同意率：81.1%。
+如前所述，不管有无症状和(或)并发症，H.pylori胃炎均属感染性疾病，应该进行H.pylori根除治疗，除非有抗衡因素存在(抗衡因素包括患者伴存某些疾病、社区高再感染率、卫生资源优先度安排等)。
+4．H.pylori胃炎治疗采用我国第5次H.pylori共识推荐的铋剂四联H.pylori根除方案。
+推荐强度：强烈。证据质量：高。陈述同意率：97.1%。
+我国第5次H.pylori感染处理共识推荐H.pylori根除方案为铋剂四联方案：PPI＋铋剂＋2种抗菌药物，疗程为10或14 d[6]。
+5．H.pylori根除治疗后所有患者都应常规进行H.pylori复查，评估根除治疗的效果；评估最佳的非侵入性方法是尿素呼气试验(13C/14C)；评估应在治疗完成后至少4周进行。
+推荐强度：强烈。证据质量：高。陈述同意率：94.2%。
+6．伴胆汁反流的慢性胃炎可应用促动力药和(或)有结合胆酸作用的胃黏膜保护剂。
+推荐强度：强烈。证据质量：中等。陈述同意率：100.0%。
+胆汁反流也是慢性胃炎的病因之一。幽门括约肌功能不全导致胆汁反流入胃，后者削弱或破坏胃黏膜屏障功能，使胃黏膜遭到消化液作用，产生炎性反应、糜烂、出血和上皮化生等病变。促动力药如盐酸伊托必利、莫沙必利和多潘立酮等可防止或减少胆汁反流。而有结合胆酸作用的铝碳酸镁制剂[86,87]，可增强胃黏膜屏障并可结合胆酸，从而减轻或消除胆汁反流所致的胃黏膜损伤。有条件时，可酌情短期应用熊去氧胆酸制剂[88,89]。
+7．服用引起胃黏膜损伤的药物如NSAID(包括阿司匹林)后出现慢性胃炎症状者，建议加强抑酸和胃黏膜保护治疗；根据原发病充分评估，必要时停用损害胃黏膜的药物。
+推荐强度：强烈。证据质量：高。陈述同意率：95.6%。
+临床上常见的能引起胃黏膜损伤的药物主要有抗血小板药物、NSAID(包括阿司匹林)等。当出现药物相关胃黏膜损伤时，首先根据患者使用药物的治疗目的评估患者是否可以停用该药物；对于须长期服用以上药物者，应进行H.pylori筛查并根除，并根据病情或症状严重程度选用PPI、H2受体拮抗剂(histamine-receptor antagonists，H2RA)或胃黏膜保护剂。多项病例对照研究和随机对照试验研究显示，PPI是预防和治疗NSAID相关消化道损伤的首选药物，优于H2RA和黏膜保护剂[90,91,92,93,94,95,96,97,98,99]。
+8．有胃黏膜糜烂和(或)以上腹痛和上腹烧灼感等症状为主者，可根据病情或症状严重程度选用胃黏膜保护剂、抗酸剂、H2RA或PPI。推荐强度：强烈。证据质量：高。
+以上腹饱胀、恶心或呕吐等为主要症状者可用促动力药。推荐强度：强烈。证据质量：高。
+具有明显的进食相关的腹胀、纳差等消化功能低下症状者，可考虑应用消化酶制剂。推荐强度：条件。证据质量：低。
+陈述同意率：98.6%。
+胃酸/胃蛋白酶在胃黏膜糜烂(尤其是平坦糜烂)和以上腹痛或上腹烧灼感等症状的发生中起重要作用，抗酸或抑酸治疗对愈合糜烂和消除上述症状有效[100]。胃黏膜保护剂如吉法酯、替普瑞酮、铝碳酸镁制剂、瑞巴派特、硫糖铝、依卡倍特、聚普瑞锌等可改善胃黏膜屏障，促进胃黏膜糜烂愈合[101,102,103]，但对症状的改善作用尚有争议。抗酸剂起效迅速但作用相对短暂；包括奥美拉唑、艾司奥美拉唑、雷贝拉唑、兰索拉唑、泮托拉唑和艾普拉唑等在内的PPI抑酸作用强而持久，可根据病情或症状严重程度选用[104,105,106,107,108]。PPI主要在肝脏经细胞色素P450系统中的CYP2C19、CYP3A4代谢，可能与其他药物发生相互作用。其中奥美拉唑发生率最高，艾司奥美拉唑是奥美拉唑的纯左旋结构，既保证了强而持久的抑酸作用，又明显降低了对CYP2C19的依赖。泮托拉唑和艾普拉唑与CYP2C19亲和力低[109]，雷贝拉唑主要经非酶代谢途径；它们均较少受CYP2C19酶基因多态性的影响。在慢性胃炎的治疗中，建议PPI应用需遵从个体化原则，对于长期应用者要掌握适应证、有效性和患者的依从性，并全面评估获益和风险[110]。而H2RA，根据2006年Cochrane数据库系统综述所示，对于非溃疡性消化不良症状，H2RA的疗效较安慰剂高22%；PPI的疗效较安慰剂高14%，从而认为两者治疗消化不良症状的疗效相当[111]。在一项多中心前瞻性单臂开放标签研究中，纳入10 311例临床诊断为慢性胃炎且有症状的患者，给予法莫替丁20 mg/d共4周，结果发现法莫替丁可明显缓解患者上腹痛、上腹饱胀和胃灼热的症状[112]。另外有研究通过对十二指肠球部溃疡患者的比较，发现亚洲患者的壁细胞总量和酸分泌能力明显低于高加索人[113]。因此，某些患者选择抗酸剂或H2RA适度抑酸治疗可能更经济且不良反应更少[114]。
+上腹饱胀或恶心、呕吐的发生可能与胃排空迟缓相关，胃动力异常是慢性胃炎不可忽视的因素。促动力药可改善上述症状[115]。多潘立酮是选择性外周多巴胺D2受体拮抗剂，能增加胃和十二指肠动力，促进胃排空[116]。需要注意的是，因有报道在多潘立酮日剂量超过30 mg和(或)伴有心脏病患者、接受化学疗法的肿瘤患者、电解质紊乱等严重器质性疾病的患者、年龄>60岁的患者中，发生严重室性心律失常甚至心源性猝死的风险可能升高[117]，因此，2016年9月国家食品药品监督管理总局就多潘立酮说明书有关药物安全性方面进行了修订，建议上述患者应用时要慎重，或在医师指导下使用。莫沙必利是选择性5-羟色胺4受体激动剂，能促进食管动力、胃排空和小肠传输，莫沙必利的应用经验主要是在包括我国在内的多个亚洲国家[118]，临床上治疗剂量未见心律失常活性，对QT间期亦无临床有意义的影响。伊托必利为多巴胺D2受体拮抗剂和乙酰胆碱酯酶抑制剂，前瞻性、多中心、随机对照双盲研究显示盐酸伊托必利可显著改善消化不良症状[119,120]。由此2016年"罗马Ⅳ功能性胃肠病"指出，盐酸伊托必利可有效缓解腹胀、早饱等症状，且不良反应发生率低[121]。
+另外，可针对进食相关的中上腹饱胀、纳差等消化不良症状应用消化酶制剂，推荐患者餐中服用，效果优于餐前和餐后服用，目的在于在进食同时提供充足的消化酶，以帮助营养物质的消化，缓解相应症状。消化酶制剂种类较多，我国常用的包括米曲菌胰酶片、复方阿嗪米特肠溶片、胰酶肠溶胶囊、复方消化酶胶囊等。
+9．有消化不良症状且伴明显精神心理因素的慢性胃炎患者可用抗抑郁药或抗焦虑药。
+推荐强度：强烈。证据质量：高。陈述同意率：94.2%。
+流行病学调查发现，精神心理因素与消化不良症状发生相关，尤其是焦虑症和抑郁症[122]。抗抑郁药物或抗焦虑药物可作为伴有明显精神心理因素者，以及常规治疗无效和疗效差者的补救治疗[123,124]，包括三环类抗抑郁药或选择性5-羟色胺再摄取抑制剂等。上述治疗主要是针对消化不良症状。
+10．中医、中药可用于慢性胃炎的治疗。
+推荐强度：条件。证据质量：低。陈述同意率：89.8%。
+多个中成药可缓解慢性胃炎的消化不良症状，甚至可能有助于改善胃黏膜病理状况；如摩罗丹[125]、胃复春、羔羊胃B12胶囊等。但目前尚缺乏多中心、安慰剂对照、大样本、长期随访的临床研究证据。
+七、慢性胃炎的转归和胃癌预防
+1．慢性胃炎特别是慢性萎缩性胃炎的进展与演变受多种因素影响，伴有上皮内瘤变者发生胃癌的危险性有不同程度的增加。
+推荐强度：强烈。证据质量：高。陈述同意率：98.6%。
+当然，反复或持续H.pylori感染、不良饮食习惯等均为加重胃黏膜萎缩和肠化生的潜在因素[126]。水土中含过多硝酸盐，微量元素比例失调，吸烟，长期饮酒，缺乏新鲜蔬菜与水果和所含的必要营养素，经常食用霉变、腌制、熏烤和油炸等快餐食物，过多摄入食盐，有胃癌家族史，均可增加慢性萎缩性胃炎患病风险或加重慢性萎缩性胃炎甚至增加癌变可能[127,128]。新近报告称，AMPH、PCDH10、RSPO2、SORCS3和ZNF610的甲基化可预示胃黏膜病变的进展[129]。
+慢性萎缩性胃炎常合并肠化生，少数出现上皮内瘤变，经历长期的演变，少数病例可发展为胃癌[130,131,132]。低级别上皮内瘤变大部分可逆转而较少恶变为胃癌[126,133,134]。
+2．除遗传因素、H.pylori感染情况和饮食状况、生活习惯因素以外，年龄与组织学的萎缩甚至肠化生的出现相关。综合多种因素可以"胃龄"反映胃黏膜细胞的衰老状况。
+推荐强度：条件。证据质量：中等。陈述同意率：84.0%。
+多数慢性非萎缩性胃炎患者病情较稳定，特别是不伴有H.pylori持续感染者。某些患者随着年龄增加，因衰老而出现萎缩等组织病理学改变[135,136]。更新的观点认为无论年龄，持续H.pylori感染均可能导致慢性萎缩性胃炎。
+同一年龄者胃黏膜的衰老程度不尽相同，即可有不同的"胃龄"；后者可依据胃黏膜细胞端粒的长度进行测定、计算[137]。实际年龄与"胃龄"差大者，可能更需要密切随访。
+3．慢性萎缩性胃炎尤其是伴有中重度肠化生或上皮内瘤变者，要定期内镜、病理组织学检查和随访。
+推荐强度：强烈。证据质量：高。陈述同意率：97.1%。
+一般认为，中、重度慢性萎缩性胃炎有一定的癌变率[138]。为了既减少胃癌的发生，又方便患者且符合医药经济学要求，活检有中-重度萎缩并伴有肠化生的慢性萎缩性胃炎患者需1年左右随访1次，不伴有肠化生或上皮内瘤变的慢性萎缩性胃炎患者可酌情内镜和病理随访[139]。伴有低级别上皮内瘤变并证明此标本并非来于癌旁者，根据内镜和临床情况缩短至6个月左右随访1次；而高级别上皮内瘤变需立即确认，证实后行内镜下治疗或手术治疗[76,77]。
+为了便于对病灶监测、随访，有条件时可考虑进行有目标的光学活检或胃黏膜定标活检(mucosa target biopsy，MTB)[140,141]，以提高活检阳性率和监测随访的准确性。但需指出的是，萎缩病灶呈"灶状分布" ，原定标部位变化不等于未定标部位变化。不能简单拘泥于与上次活检部位的一致性而忽视了新发病灶的活检。目前认为萎缩/肠化生的范围是判断严重程度的重要指标，这是定标不能反映的。
+4．OLGA和OLGIM分级分期系统能反映胃炎患者的胃黏膜萎缩程度和范围，较有利于胃癌风险分层。
+推荐强度：强烈。证据质量：中等。陈述同意率：92.8%。
+2005年国际萎缩研究小组提出胃黏膜炎性反应、萎缩程度和范围的分级、分期标准(即慢性胃炎OLGA分级分期系统)[36]，基于胃炎新悉尼系统对炎性反应和萎缩程度的半定量评分方法，采用胃炎分期代表胃黏膜萎缩范围和程度，将慢性胃炎的组织病理学与癌变危险性联系起来，为临床医师预测病变进展和制定疾病管理措施提供更为直观的信息。Rugge等[142]对93例慢性胃炎进行了12年的随访，发现绝大部分OLGA 0至Ⅱ期患者的胃炎分期维持不变，而癌变均发生在OLGA Ⅲ、Ⅳ期的群体中。多项研究显示，肠型胃癌患者的OLGA分期较高(Ⅲ、Ⅳ期)，而十二指肠溃疡和胃溃疡的OLGA分期主要在0至Ⅱ期和Ⅱ、Ⅲ期[3,143,144,145]。高危等级OLGA分期(Ⅲ、Ⅳ期)与胃癌高危密切相关，但是医师间判断的一致率相对较低。因此，2010年又提出根据胃黏膜肠化生的OLGIM分期标准[146]。与OLGA相比，OLGIM分期系统则有较高的医师间诊断一致率，但是一些潜在的胃癌高危个体有可能被遗漏[147]。研究显示，与OLGA相比，OLGIM可使大约1/3病例的分期下调；按OLGA分期定为高危的病例中，小于1/10的病例则被OLGIM分期定为低危[148]，因此，OLGIM低危等级不可等同于胃癌发生低危。
+国内研究显示，胃癌组与非胃癌组OLGA Ⅲ至Ⅳ期的比例分别是52.1%和22.4%，OLGIM Ⅲ至Ⅳ期的比例分别是42.3%和19.9%(P均<0.01)[149,150]。高OLGA分期患者更易检出上皮内瘤变和腺癌，OLGA分期能有效地根据胃癌风险程度将胃炎患者进行风险分层。
+因此，OLGA分期系统使用简便，可反映萎缩性胃炎的严重程度和患癌风险，利于识别胃癌高危患者(OLGA/OLGIM Ⅲ、Ⅳ期)，有助于早期诊断和预防。在临床实践中，推荐OLGA与OLGIM结合使用，可更精确地预测胃癌风险。
+5．血清胃蛋白酶原(pepsinogen，PG)Ⅰ、Ⅱ以及促胃液素-17(gastrin-17)的检测可能有助于判断有无胃黏膜萎缩和程度。血清PGⅠ、PGⅡ、PGⅠ/PGⅡ比值联合抗H.pylori抗体检测有助于风险分层管理。
+推荐强度：条件。证据质量：中等。陈述同意率：84.1%。
+PG水平反映胃黏膜的功能状态，当胃黏膜出现萎缩时，PGⅠ和PGⅡ水平下降，PGⅠ水平下降更明显，因而PGⅠ/PGⅡ比值随之降低。PG测定有助于判断萎缩的范围[151,152,153,154,155,156,157,158,159]。胃体萎缩者PGⅠ、PGⅠ/PGⅡ比值降低，血清促胃液素-17水平升高；胃窦萎缩者，血清促胃液素-17水平降低，PGⅠ、PGⅠ/PGⅡ比值正常；全胃萎缩者则两者均降低。通常以PGⅠ水平≤70 g/L且PGⅠ/PGⅡ比值≤3.0作为萎缩性胃炎的诊断临界值，并以此作为胃癌高危人群筛查的标准 [160]在欧洲和日本广泛用于胃癌风险的筛查；国内胃癌高发区筛查常采用PGⅠ水平≤70 g/L且PGⅠ/PGⅡ≤7.0的标准[161]，目前尚缺乏大样本的随访数据加以佐证。
+多项研究证明，血清PG检测有助于胃癌高危人群的风险分层[162,163,164]，PG检测诊断萎缩者，以及PG检测虽诊断萎缩阴性但PGⅠ/PGⅡ比值较低者，有较高的胃癌风险，应进一步进行胃镜检查。血清PG联合血清抗H.pylori抗体检测可将人群分为A、B、C、D 4组，不同组别其胃癌的发生率不同，是一项有价值的胃癌风险的预测指标，日本以此作为胃癌风险的分层方法(ABCD法)，制定相应的检查策略[165,166,167,168,169]。最近国内的研究结果显示，PG、促胃液素-17和抗H.pylori抗体联合检测可对胃癌发生风险加以分层，辨识出高危个体进行胃镜检查[170]。
+PGⅠ/PGⅡ比值与OLGA分期呈负相关[142,171]，比值越低，分期越高，以PGⅠ/PGⅡ比值≤3.0为界可区别低危和高危OLGA分期，其敏感度为77%，特异度为85%，阳性预测值为45%，阴性预测值高达96%。H.pylori感染可致PGⅠ、PGⅡ水平升高，尤其是PGⅡ更明显，因此PGⅠ/PGⅡ比值下降，根除H.pylori后则PGⅠ、PGⅡ水平下降，PGⅠ/PGⅡ比值上升。
+6．根除H.pylori可减缓炎性反应向萎缩、肠化生甚至异型增生的进程和降低胃癌发生率，但最佳的干预时间为胃癌前变化(包括萎缩、肠化生和上皮内瘤变)发生前。
+推荐强度：强烈。证据质量：高。陈述同意率：92.7%。
+较多研究发现，H.pylori感染有促进慢性萎缩性胃炎发展为胃癌的作用[172]。根除H.pylori可以明显减缓癌前病变的进展，并有可能减少胃癌发生的危险[173,174,175]。《H.pylori胃炎京都全球共识意见》特别倡导根除H.pylori预防胃癌[2]。
+新近发表的一项根除H.pylori后随访14.7年的研究报告称，H.pylori根除治疗组(1 130例)和安慰剂组(1 128例)胃癌的发生率分别是3.0%和4.6% [176]。随访时间越长，则对胃癌的预防效果越佳，即便根除H.pylori时已经进入肠化生或上皮内瘤变阶段，亦有较好的预防作用[177]。
+根除H.pylori对于轻度慢性萎缩性胃炎将来的癌变具有较好的预防作用[178]。根除H.pylori对于癌前病变病理组织学的好转有利[179]。且根除后，环氧合酶2表达和Ki-67指数均下降，前列腺素E2下调[180]。Meta分析显示，与欧美国家相比，包括我国等在内的东亚国家根除H.pylori以预防胃癌更符合卫生经济学标准[181]。
+7．某些维生素可能有助于延缓萎缩性胃炎的进程，从而降低癌变风险。
+推荐强度：条件。证据质量：中等。陈述同意率：87.0%。
+某些维生素和微量元素硒可能降低胃癌发生的危险度[176,177,182,183,184,185,186,187]。但一项队列研究(并非随机对照试验研究)显示多种维生素并没有降低胃癌发生率[188]。对于部分体内低叶酸水平者，适量补充叶酸可改善慢性萎缩性胃炎病理组织状态而减少胃癌的发生[189,190,191,192,193,194,195,196,197]。
+参与讨论和定稿者
+执笔撰写者(按撰写内容排序)：房静远，杜奕奇，刘文忠，任建林，李延青，陈晓宇，吕农华，陈萦晅，吕宾
+参与讨论和定稿者(按姓氏汉语拼音排序)：白飞虎，白文元，陈红梅，陈旻湖，陈其奎，陈世耀，陈卫昌，陈晓宇，陈萦晅，杜奕奇，段丽平，房殿春，房静远，高峰，郜恒骏，戈之铮，郭晓钟，韩英，郝建宇，侯晓华，霍丽娟，纪小龙，姜泊，蒋明德，蓝宇，李建生，李景南，李良平，李岩，李延青，林琳，刘诗，刘思德，刘文忠，刘玉兰，陆伟，罗和生，吕宾，吕农华，钱家鸣，任建林，沈锡中，盛剑秋，时永全，苏秉忠，唐承薇，唐旭东，田德安，田字彬，庹必光，王邦茂，王吉耀，王江滨，王良静，王巧民，王蔚虹，王小众，王学红，韦红，吴开春，吴小平，谢渭芬，许建明，杨云生，游苏宁，张军，张澍田，张晓岚，张志广，郑鹏远，周丽雅，朱萱，邹多武，邹晓平
+学术秘书：高琴琰
+附录一
+慢性胃炎的病理诊断标准
+一、活检取材
+活检取材块数和部位由内镜医师根据需要决定，一般为2～5块。如取5块，则胃窦2块取自距幽门2～3 cm处的大弯和小弯，胃体2块取自距贲门8 cm处的大弯(约胃体大弯中部)和距胃角近侧4 cm处的小弯，胃角1块。
+标本要足够大，达到黏膜肌层，对可能或肯定存在的病灶要另取标本。不同部位的标本须分开装瓶，并向病理科提供取材部位、内镜所见和简要病史。
+二、组织学分级标准
+有5种组织学变化要分级(H.pylori、慢性炎性反应、活动性、萎缩和肠化生)，分成无、轻度、中度和重度4级(0、＋、＋＋、＋＋＋)。分级方法用下述标准，与悉尼系统的直观模拟评分法并用，病理检查要报告每块活检标本的组织学变化。
+1．H.pylori：
+观察胃黏膜黏液层、表面上皮、小凹上皮和腺管上皮表面的H.pylori。无：特殊染色片上未见H.pylori。轻度：偶见或小于标本全长1/3有少数H.pylori。中度：H.pylori分布超过标本全长1/3而未达2/3或连续性、薄而稀疏地存在于上皮表面。重度：H.pylori成堆存在，基本分布于标本全长。肠化生黏膜表面通常无H.pylori定植，宜在非肠化生处寻找。
+对炎性反应明显而H-E染色切片未发现H.pylori者，要行特殊染色仔细寻找，推荐用较简便的吉姆萨染色，也可按各病理室惯用的染色方法，有条件的单位可行免疫组织化学检测。
+2．活动性：
+慢性炎性反应背景上有中性粒细胞浸润。轻度：黏膜固有层有少数中性粒细胞浸润。中度：中性粒细胞较多存在于黏膜层，可见于表面上皮细胞、小凹上皮细胞或腺管上皮内。重度：中性粒细胞较密集，或除中度所见外还可见小凹脓肿。
+3．慢性炎性反应：
+根据黏膜层慢性炎细胞的密集程度和浸润深度分级，前者更重要。正常：单个核细胞每个高倍视野不超过5个，如数量略超过正常而内镜下无明显异常，病理可诊断为基本正常。轻度：慢性炎细胞较少并局限于黏膜浅层，不超过黏膜层的1/3。中度：慢性炎细胞较密集，不超过黏膜层的2/3。重度：慢性炎细胞密集，占据黏膜全层。计算密度程度时要避开淋巴滤泡及其周围的小淋巴细胞区。
+4．萎缩：
+萎缩是指胃固有腺的减少，分为2种情况。①化生性萎缩，胃固有腺被肠化生或假幽门腺化生的腺体替代；②非化生性萎缩，胃固有腺被纤维或纤维肌性组织替代，或炎性细胞浸润引起固有腺数量减少。
+萎缩程度以胃固有腺减少各1/3来计算。轻度：固有腺体数减少不超过原有腺体的1/3。中度：固有腺体数减少介于原有腺体的1/3～2/3之间。重度：固有腺体数减少超过2/3，仅残留少数腺体，甚至完全消失。局限于胃小凹区域的肠化生不算萎缩。黏膜层出现淋巴滤泡不算萎缩，要观察其周围区域的腺体情况来决定。一切原因引起黏膜损伤的病理过程都可造成腺体数量减少，如溃疡边缘取的活检，不一定就是萎缩性胃炎。
+标本过浅未达黏膜肌层者，可以参考黏膜层腺体大小、密度和间质反应情况推断是否萎缩，同时加上评注取材过浅的注释，提醒临床只供参考。
+5．肠化生：
+肠化生区占腺体和表面上皮总面积1/3以下为轻度，1/3～2/3为中度，2/3以上为重度。AB-PAS染色对不明显肠化生的诊断很有帮助。用AB-PAS和HID-AB黏液染色区分肠化生亚型预测胃癌发生危险性的价值仍有争议。
+6．其他组织学特征：
+出现不需要分级的组织学变化时需注明。分为非特异性和特异性两类，前者包括淋巴滤泡、小凹上皮增生、胰腺化生和假幽门腺化生等；后者包括肉芽肿、集簇性嗜酸性粒细胞浸润、明显上皮内淋巴细胞浸润和特异性病原体等。假幽门腺化生是泌酸腺萎缩的指标，判断时要核实取材部位，胃角部活检见到黏液分泌腺的不能诊断为假幽门腺化生，只有出现肠化生，才是诊断萎缩的标志。
+有异型增生(上皮内瘤变)时要注明，分轻度、中度和重度异型增生(或低级别和高级别上皮内瘤变)。
+三、慢性胃炎的分类和病理诊断
+慢性胃炎分为非萎缩性胃炎和萎缩性胃炎两类，按照病变的部位分为胃窦胃炎、胃体胃炎和全胃炎。有少部分是特殊类型胃炎，如化学性胃炎、淋巴细胞性胃炎、肉芽肿性胃炎、嗜酸细胞性胃炎、胶原性胃炎、放射性胃炎、感染性(细菌、病毒、真菌和寄生虫)胃炎和Ménétrier病。
+诊断应包括部位分布特征和组织学变化程度，有病因可循的要报告病因。胃窦和胃体炎性程度相差2级或以上时，加上"为主"修饰词，如"慢性(活动性)胃炎，胃窦为主"。
+萎缩性胃炎的诊断标准：只要慢性胃炎的病理活检显示固有层腺体萎缩即可诊断萎缩性胃炎，而不管活检标本的萎缩块数和程度。临床医师可根据病理结果并结合内镜所见，最后做出萎缩范围和程度的判断。
+附录二
+慢性胃炎的病因分类
+点击查看表格
+现行的国际疾病分类第10版胃炎分类
+《幽门螺杆菌胃炎京都全球共识意见》提议胃炎的病因学分类
+正在讨论中的国际疾病分类第11版β胃炎分类(2017年6月25日更新)
+K29胃炎和十二指肠炎
+自身免疫性胃炎
+外在因素引起的胃炎
+自身免疫性胃炎
+外在因素引起的胃炎
+排除：嗜酸性胃炎或胃肠炎 (K52.8)
+感染性胃炎
+药物性胃炎
+幽门螺杆菌性胃炎
+酒精性胃炎
+幽门螺杆菌性胃炎
+酒精性胃炎
+嗜酸细胞性胃炎
+放射性胃炎
+Zollinger-Ellison综合征(E16.4)
+除幽门螺杆菌外其
+放射性胃炎
+食物诱导的嗜酸细胞性胃肠炎
+化学性胃炎
+K29.0急性出血性胃炎
+他细菌性胃炎
+化学性胃炎
+淋巴细胞性胃炎
+其他特殊性外在因素引起 的胃炎
+包括急性(糜烂性)胃炎伴出血
+海尔曼螺杆菌性
+十二指肠反流性胃炎
+变应性胃炎
+排除胃糜烂(急性)(K25.-)
+胃炎
+其他特殊性外在
+IgE介导的过敏反应引起的变 应性胃炎
+药物性胃炎
+K29.1其他急性胃炎
+肠球菌性胃炎
+因素引起的胃炎
+其他疾病相关性胃炎
+K29.2酒精性胃炎
+分支杆菌性胃炎
+特殊性胃炎
+食物诱导的IgE介导的胃肠道过敏反应
+克罗恩病相关性胃炎
+K29.3慢性浅表性胃炎
+二期梅毒性胃炎
+淋巴细胞性胃炎
+结节病相关性胃炎
+K29.4慢性萎缩性胃炎
+胃蜂窝织炎
+Ménétrier病
+非IgE介导的过敏反应引起的 变应性胃炎
+血管炎相关性胃炎
+包括胃萎缩
+病毒性胃炎
+变应性胃炎
+胃蜂窝织炎
+K29.5慢性胃炎，非特异性
+肠病毒性胃炎
+嗜酸性胃炎
+食物诱导的非IgE介导的胃肠 道过敏反应
+包括慢性胃窦炎
+巨细胞病毒性胃炎
+其他疾病相关性胃炎
+慢性胃底炎
+真菌性胃炎
+结节病相关性胃炎
+十二指肠胃反流引起的胃炎
+K29.6其他类型胃炎
+毛霉菌性胃炎
+血管炎相关性胃炎
+Ménétrier病
+包括肥厚性胃炎
+胃念珠菌病
+克罗恩病相关性胃炎
+未知病因引起的特异性内镜
+肉芽肿性胃炎
+胃组织胞浆菌病
+表现或病理表现的胃炎
+Ménétrier病(胃巨皱襞症)
+寄生虫性胃炎
+急性浅表性胃炎
+K29.7胃炎，非特异性
+隐孢子虫性胃炎
+慢性浅表性胃炎
+K29.8十二指肠炎
+胃粪类圆线虫病
+急性出血性胃炎
+K29.9胃十二指肠炎，非特异性
+胃异尖线虫病
+慢性萎缩性胃炎
+轻中度胃萎缩
+重度胃萎缩
+化生性胃炎
+肉芽肿性胃炎
+肥厚性胃炎
+参考文献
+[1]
+中华医学会消化病学分会，房静远，刘文忠，等．
+中国慢性胃炎共识意见(2012年，上海)[J]．
+中华消化杂志，
+2013，
+33(
+1):
+5-
+16.
+DOI：10.3760/cma.j.issn.0254-1432.2013.01.003.
+[2]
+SuganoK, TackJ, KuipersEJ, et al.
+Kyoto global consensus report on Helicobacter pylori gastritis[J].
+Gut，
+2015,
+64(
+9):
+1353-
+1367.
+DOI：10.1136/gutjnl-2015-309252.
+[3]
+RuggeM, MeggioA, PennelliG, et al.
+Gastritis staging in clinical practice: the OLGA staging system[J].
+Gut,
+2007,
+56(
+5):
+631-
+636.
+DOI：10.1136/gut.2006.106666.
+[4]
+RuggeM, CorreaP, Di MarioF, et al.
+OLGA staging for gastritis: a tutorial[J].
+Dig Liver Dis,
+2008,
+40(
+8):
+650-
+658.
+DOI：10.1016/j.dld.2008.02.030.
+[5]
+MalfertheinerP, MegraudF, O′MorainCA, et al.
+Management of Helicobacter pylori infection—the Maastricht Ⅴ/Florence consensus report[J].
+Gut,
+2017,
+66(
+1):
+6-
+30.
+DOI: 10.1136/gutjnl-2016-312288.
+[6]
+中华医学会消化病学分会，幽门螺杆菌和消化性溃疡学组，全国幽门螺杆菌研究协作组．
+第五次全国幽门螺杆菌感染处理共识报告[J]．
+中华消化杂志，
+2017，
+37(
+6):
+364-
+378.
+DOI：10.3760/cma.j.issn.0254-1432.2017.06.002.
+[7]
+QaseemA, SnowV, OwensDK, et al.
+The development of clinical practice guidelines and guidance statements of the American College of Physicians: summary of methods[J].
+Ann Intern Med,
+2010,
+153(
+3):
+194-
+199.
+DOI：10.7326/0003-4819-153-3-201008030-00010.
+[8]
+JiangJX, LiuQ, MaoXY, et al.
+Downward trend in the prevalence of Helicobacter pylori infections and corresponding frequent upper gastrointestinal diseases profile changes in Southeastern China between 2003 and 2012[J].
+Springerplus,
+2016,
+5(
+1):
+1601.
+DOI：10.1186/s40064-016-3185-2.
+[9]
+HoeplerW, HammerK, HammerJ.
+Gastric phenotype in children with Helicobacter pylori infection undergoing upper endoscopy[J].
+Scand J Gastroenterol,
+2011,
+46(
+3):
+293-
+298.
+DOI：10.3109/00365521.2010.533383.
+[10]
+张慧，薛艳，周丽雅，等．
+北京某三级甲等医院35年间主要上消化道疾病及幽门螺杆菌感染的演变[J]．
+中华内科杂志，
+2016，
+55(
+6):
+440-
+444.
+DOI：10.3760/cma.j.issn.0578-1426.2016.06.008.
+[11]
+HooiJKY, LaiWY, NgWK, et al.
+Global prevalence of Helicobacter pylori infection: systematic review and meta-analysis[J].
+Gastroenterology,
+2017,
+153(
+2):
+420-
+429.
+DOI：10.1053/j.gastro.2017.04.022.
+[12]
+ZhangY, WeckMN, SchöttkerB, et al.
+Gastric parietal cell antibodies, Helicobacter pylori infection, and chronic atrophic gastritis: evidence from a large population-based study in Germany[J].
+Cancer Epidemiol Biomarkers Prev,
+2013,
+22(
+5):
+821-
+826.
+DOI：10.1158/1055-9965.EPI-12-1343.
+[13]
+SipponenP, MaaroosHI.
+Chronic gastritis[J].
+Scand J Gastroenterol,
+2015,
+50(
+6):
+657-
+667.
+DOI：10.3109/00365521.2015.1019918.
+[14]
+AdamuMA, WeckMN, GaoL, et al.
+Incidence of chronic atrophic gastritis: systematic review and meta-analysis of follow-up studies[J].
+Eur J Epidemiol,
+2010,
+25(
+7):
+439-
+448.
+DOI：10.1007/s10654-010-9482-0.
+[15]
+Marques-SilvaL, AreiaM, ElvasL, et al.
+Prevalence of gastric precancerous conditions: a systematic review and meta-analysis[J].
+Eur J Gastroenterol Hepatol,
+2014,
+26(
+4):
+378-
+387.
+DOI：10.1097/MEG.0000000000000065.
+[16]
+HuntRH, CamilleriM, CroweSE, et al.
+The stomach in health and disease[J].
+Gut,
+2015,
+64(
+10):
+1650-
+1668.
+DOI：10.1136/gutjnl-2014-307595.
+[17]
+ZhaoC, LiP, ZhangL, et al.
+An observational study on aberrant methylation of Runx3 with the prognosis in chronic atrophic gastritis patients[J].
+Medicine (Baltimore),
+2016,
+95(
+20):
+e3356.
+DOI：10.1097/MD.0000000000003356.
+[18]
+ChenXZ, SchöttkerB, CastroFA, et al.
+Association of Helicobacter pylori infection and chronic atrophic gastritis with risk of colonic, pancreatic and gastric cancer: a ten-year follow-up of the ESTHER cohort study[J].
+Oncotarget,
+2016,
+7(
+13):
+17182-
+17193.
+DOI：10.18632/oncotarget.7946.
+[19]
+DuY, BaiY, XieP, et al.
+Chronic gastritis in China: a national multi-center survey[J/OL].
+BMC Gastroenterol,
+2014,
+14:
+21[
+2014-02-07].
+https:∥bmcgastroenterol.biomedcentral.com/articles/10.1186/1471-230X-14-21.
+DOI: 10.1186/1471-230X-14-21.
+[20]
+WarrenJR.
+Gastric pathology associated with Helicobacter pylori[J].
+Gastroenterol Clin North Am,
+2000,
+29(
+3):
+705-
+751.
+[21]
+SonnenbergA, LashRH, GentaRM.
+A national study of Helicobactor pylori infection in gastric biopsy specimens[J].
+Gastroenterology,
+2010,
+139(
+6):
+1894-
+1901.
+DOI: 10.1053/j.gastro.2010.08.018.
+[22]
+Veldhuyzen van ZantenSJ, ShermanPM.
+Helicobacter pylori infection as a cause of gastritis, duodenal ulcer, gastric cancer and nonulcer dyspepsia: a systematic Overview[J].
+CMAJ,
+1994,
+150(
+2):
+177-
+185.
+[23]
+MarshallBJ, ArmstrongJA, McGechieDB, et al.
+Attempt to fulfil Koch′s postulates for pyloric Campylobacter[J].
+Med J Aust,
+1985,
+142(
+8):
+436-
+439.
+[24]
+MorrisA, NicholsonG.
+Ingestion of Campylobacter pyloridis causes gastritis and raised fasting gastric pH[J].
+Am J Gastroenterol,
+1987,
+82(
+3):
+192-
+199.
+[25]
+LejaM, AxonA, BrennerH.
+Epidemiology of Helicobacter pylori infection[J].
+Helicobacter,
+2016,
+21(
+Suppl 1):
+S3-
+7.
+DOI：10.1111/hel.12332.
+[26]
+DixonMF, GentaRM, YardleyJH, et al.
+Classification and grading of gastritis. The updated Sydney System. International Workshop on the Histopathology of Gastritis, Houston 1994[J].
+Am J Surg Pathol,
+1996,
+20(
+10):
+1161-
+1181.
+[27]
+NeumannWL, CossE, RuggeM, et al.
+Autoimmune atrophic gastritis—pathogenesis, pathology and management[J].
+Nat Rev Gastroenterol Hepatol，
+2013,
+10(
+9):
+529-
+541.
+DOI：10.1038/nrgastro.2013.101.
+[28]
+XiaoSD, JiangSJ, ShiY, et al.
+Pernicious anemia and type A atrophic gastritis in the Chinese[J].
+Chin Med J (Engl),
+1990,
+103(
+3):
+192-
+196.
+[29]
+Wun ChanJC, Yu LiuHS, Sang KhoBC, et al.
+Pernicious anemia in Chinese: a study of 181 patients in a Hong Kong hospital[J].
+Medicine (Baltimore),
+2006,
+85(
+3):
+129-
+138.
+DOI：10.1097/01.md.0000224710.47263.70.
+[30]
+ZhangH, JinZ, CuiR, et al.
+Autoimmune metaplastic atrophic gastritis in Chinese: a study of 320 patients at a large tertiary medical center[J].
+Scand J Gastroenterol,
+2017,
+52(
+2):
+150-
+156.
+DOI：10.1080/00365521.2016.1236397.
+[31]
+LiuJ, HeL, HaesebrouckF, et al.
+Prevalence of coinfection with gastric non-Helicobacter pylori Helicobacter (NHPH) species in Helicobacter pylori-infected patients suffering from gastric disease in Beijing, China[J].
+Helicobacter,
+2015,
+20(
+4):
+284-
+290.
+DOI：10.1111/hel.12201.
+[32]
+SipponenP, PriceAB.
+The Sydney System for classification of gastritis 20 years ago[J].
+J Gastroenterol Hepatol,
+2011,
+26 (
+Suppl 1):
+S31-
+34.
+DOI：10.1111/j.1440-1746.2010.06536.x.
+[33]
+TytgatGN.
+The Sydney System: endoscopic division. Endoscopic appearances in gastritis/duodenitis[J].
+J Gastroenterol Hepatol,
+1991,
+6(
+3):
+223-
+234.
+DOI：10.1111/j.1440-1746.1991.tb01469.x.
+[34]
+RuggeM, CorreaP, DixonMF, et al.
+Gastric mucosal atrophy: interobserver consistency using new criteria for classification and grading[J].
+Aliment Pharmacol Ther,
+2002,
+16(
+7):
+1249-
+1259.
+DOI：10.1046/j.1365-2036.2002.01301.x.
+[35]
+MalfertheinerP.
+The intriguing relationship of Helicobacter pylori infection and acid secretion in peptic ulcer disease and gastric cancer[J].
+Dig Dis，
+2011,
+29(
+5):
+459-
+464.
+DOI：10.1159/000332213.
+[36]
+RuggeM, GentaRM.
+Staging and grading of chronic gastritis[J].
+Hum Pathol,
+2005,
+36(
+3):
+228-
+233.
+DOI：10.1016/j.humpath.2004.12.008.
+[37]
+KinoshitaY, ChibaT.
+Characteristics of Japanese patients with chronic gastritis and comparison with functional dyspepsia defined by ROME Ⅲ criteria: based on the large-scale survey, FUTURE study[J].
+Intern Med，
+2011,
+50(
+20):
+2269-
+2276.
+DOI：10.2169/internalmedicine.50.5678.
+[38]
+WeiZ, YingL, WenG, et al.
+Rome Ⅲ criteria cannot distinguish patients with chronic gastritis from those functional dyspepsia patients[J].
+Helicobacter,
+2014,
+19(
+2):
+124-
+128.
+DOI：10.1111/hel.12108.
+[39]
+CarabottiM, LahnerE, PorowskaB, et al.
+Are clinical features able to predict Helicobacter pylori gastritis patterns? Evidence from tertiary centers[J].
+Intern Emerg Med,
+2014,
+9(
+8):
+841-
+845.
+DOI：10.1007/s11739-014-1055-x.
+[40]
+RedéenS, PeterssonF, JönssonKA, et al.
+Relationship of gastroscopic features to histological findings in gastritis and Helicobacter pylori infection in a general population sample[J].
+Endoscopy,
+2003,
+35(
+11):
+946-
+950.
+DOI：10.1055/s-2003-43479.
+[41]
+TohBH.
+Diagnosis and classification of autoimmune gastritis[J].
+Autoimmun Rev,
+2014,
+13(
+4-5):
+459-
+462.
+DOI：10.1016/j.autrev.2014.01.048.
+[42]
+HershkoC, RonsonA, SouroujonM, et al.
+Variable hematologic presentation of autoimmune gastritis: age-related progression from iron deficiency to cobalamin depletion[J].
+Blood,
+2006,
+107(
+4):
+1673-
+1679.
+DOI：10.1182/blood-2005-09-3534.
+[43]
+MassironiS, CavalcoliF, RossiRE, et al.
+Chronic autoimmune atrophic gastritis associated with primary hyperparathyroidism: a transversal prospective study[J].
+Eur J Endocrinol,
+2013,
+168(
+5):
+755-
+761.
+DOI：10.1530/EJE-12-1067.
+[44]
+De BlockCE, De LeeuwIH, Van GaalLF.
+Autoimmune gastritis in type 1 diabetes: a clinically oriented review[J].
+J Clin Endocrinol Metab,
+2008,
+93(
+2):
+363-
+371.
+DOI：10.1210/jc.2007-2134.
+[45]
+CarabottiM, LahnerE, EspositoG, et al.
+Upper gastrointestinal symptoms in autoimmune gastritis: a cross-sectional study[J].
+Medicine (Baltimore),
+2017,
+96(
+1):
+e5784.
+DOI：10.1097/MD.0000000000005784.
+[46]
+HaotJ, JouretA, WilletteM, et al.
+Lymphocytic gastritis—prospective study of its relationship with varioliform gastritis[J].
+Gut，
+1990,
+31(
+3):
+282-
+285.
+DOI：10.1136/gut.31.3.282.
+[47]
+Horjus Talabur HorjeCS, MeijerJ, RoversL, et al.
+Prevalence of upper gastrointestinal lesions at primary diagnosis in adults with inflammatory bowel disease[J].
+Inflamm Bowel Dis,
+2016,
+22(
+8):
+1896-
+1901.
+DOI：10.1097/MIB.0000000000000786.
+[48]
+KaminishiM, YamaguchiH, NomuraS, et al.
+Endoscopic classification of chronic gastritis based on a pilot study by the research society for gastritis[J].
+Dig Endosc,
+2002,
+14(
+4):
+138-
+151.
+DOI：10.1046/j.1443-1661.2002.00199.x.
+[49]
+EshmuratovA, NahJC, KimN, et al.
+The correlation of endoscopic and histological diagnosis of gastric atrophy[J].
+Dig Dis Sci,
+2010,
+55(
+5):
+1364-
+1375.
+DOI：10.1007/s10620-009-0891-4.
+[50]
+NomuraS, IdaK, TeraoS, et al.
+Endoscopic diagnosis of gastric mucosal atrophy: multicenter prospective study[J].
+Dig Endosc,
+2014,
+26(
+6):
+709-
+719.
+DOI：10.1111/den.12286.
+[51]
+陈星，马瑞军，汪嵘，等．
+萎缩性胃炎内镜下程度分类与病理的相关研究[J]．
+中华消化内镜杂志，
+2009，
+26(
+11):
+590-
+592.
+DOI：10.3760/cma.j.issn.1007-5232.2009.11.012.
+[52]
+LaineL, WeinsteinWM.
+Subepithelial hemorrhages and erosions of human stomach[J].
+Dig Dis Sci,
+1988,
+33(
+4):
+490-
+503.
+[53]
+ToljamoK, NiemeläS, KarvonenAL, et al.
+Histopathology of gastric erosions. Association with etiological factors and chronicity[J].
+Helicobacter,
+2011,
+16(
+6):
+444-
+451.
+DOI：10.1111/j.1523-5378.2011.00871.x.
+[54]
+HartJ, HawkeyCJ, LanasA, et al.
+Predictors of gastroduodenal erosions in patients taking low-dose aspirin[J].
+Aliment Pharmacol Ther,
+2010,
+31(
+1):
+143-
+149.
+DOI：10.1111/j.1365-2036.2009.04133.x.
+[55]
+ZouTH, ZhengRH, GaoQY, et al.
+Factors affecting occurrence of gastric varioliform lesions: a case-control study[J].
+World J Gastroenterol,
+2016,
+22(
+22):
+5228-
+5236.
+DOI：10.3748/wjg.v22.i22.5228.
+[56]
+AreiaM, AmaroP, Dinis-RibeiroM, et al.
+External validation of a classification for methylene blue magnification chromoendoscopy in premalignant gastric lesions[J].
+Gastrointest Endosc,
+2008,
+67(
+7):
+1011-
+1018.
+DOI：10.1016/j.gie.2007.08.044.
+[57]
+ZhaoZ, YinZ, WangS, et al.
+Meta-analysis: the diagnostic efficacy of chromoendoscopy for early gastric cancer and premalignant gastric lesions[J].
+J Gastroenterol Hepatol,
+2016,
+31(
+9):
+1539-
+1545.
+DOI：10.1111/jgh.13313.
+[58]
+沙杰，李学良，施瑞华，等．
+醋酸联合靛胭脂染色诊断早期胃癌及癌前病变的临床价值[J]．
+中华消化内镜杂志，
+2010，
+27(
+12):
+644-
+646.
+DOI：10.3760/cma.j.issn.1007-5232.2010.12.010.
+[59]
+MouzykaS, FedoseevaA.
+Chromoendoscopy with hematoxylin in the classification of gastric lesions[J].
+Gastric Cancer,
+2008,
+11(
+1):
+15-
+22.
+DOI：10.1007/s10120-007-0445-4.
+[60]
+TaoG, Xing-HuaL, Ai-MingY, et al.
+Enhanced magnifying endoscopy for differential diagnosis of superficial gastric lesions identified with white-light endoscopy[J].
+Gastric Cancer,
+2014,
+17(
+1):
+122-
+129.
+DOI：10.1007/s10120-013-0250-1.
+[61]
+TaharaT, ShibataT, NakamuraM, et al.
+Gastric mucosal pattern by using magnifying narrow-band imaging endoscopy clearly distinguishes histological and serological severity of chronic gastritis[J].
+Gastrointest Endosc,
+2009,
+70(
+2):
+246-
+253.
+DOI：10.1016/j.gie.2008.11.046.
+[62]
+SongJ, ZhangJ, WangJ, et al.
+Meta-analysis: narrow band imaging for diagnosis of gastric intestinal metaplasia[J/OL].
+PLoS One,
+2014,
+9(
+4):
+e94869[
+2014-04-17].
+http:∥journals.plos.org/plosone/article?id=10.1371/journal.pone.0094869.
+DOI：10.1371/journal.pone.0094869.
+[63]
+ZhangQ, WangF, ChenZY, et al.
+Comparison of the diagnostic efficacy of white light endoscopy and magnifying endoscopy with narrow band imaging for early gastric cancer: a meta-analysis[J].
+Gastric Cancer,
+2016,
+19(
+2):
+543-
+552.
+DOI：10.1007/s10120-015-0500-5.
+[64]
+DohiO, YagiN, MajimaA, et al.
+Diagnostic ability of magnifying endoscopy with blue laser imaging for early gastric cancer: a prospective study[J].
+Gastric Cancer,
+2017,
+20(
+2):
+297-
+303.
+DOI：10.1007/s10120-016-0620-6.
+[65]
+郑丰平，陶力，林显艺，等．
+窄带成像放大内镜诊断慢性胃炎胃黏膜改变的临床价值[J]．
+中华消化内镜杂志，
+2011，
+28(
+6):
+330-
+332.
+DOI：10.3760/cma.j.issn.1007-5232.2011.06.010.
+[66]
+郭涛，陆星华，周炜洵，等．
+放大胃镜结合窄带成像技术在早期胃癌诊断中的应用价值研究[J]．
+中华消化内镜杂志，
+2011，
+28(
+7):
+375-
+379.
+DOI：10.3760/cma.j.issn.1007-5232.2011.07.006.
+[67]
+LiZ, ZuoXL, LiCQ, et al.
+New classification of gastric pit patterns and vessel architecture using probe-based confocal laser endomicroscopy[J].
+J Clin Gastroenterol,
+2016,
+50(
+1):
+23-
+32.
+DOI：10.1097/MCG.0000000000000298.
+[68]
+JiR, LiYQ, GuXM, et al.
+Confocal laser endomicroscopy for diagnosis of Helicobacter pylori infection: a prospective study[J].
+J Gastroenterol Hepatol,
+2010,
+25(
+4):
+700-
+705.
+DOI：10.1111/j.1440-1746.2009.06197.x.
+[69]
+郭玉婷，李延青，于涛，等．
+共聚焦激光显微内镜对胃黏膜肠上皮化生的分级诊断[J]．
+中华消化杂志，
+2008，
+28(
+11):
+724-
+727.
+DOI：10.3760/j.issn:0254-1432.2008.11.002.
+[70]
+LiZ, ZuoXL, YuT, et al.
+Confocal laser endomicroscopy for in vivo detection of gastric intestinal metaplasia: a randomized controlled trial[J].
+Endoscopy,
+2014,
+46(
+4):
+282-
+290.
+DOI：10.1055/s-0033-1359215.
+[71]
+NeumannH, KiesslichR, WallaceMB, et al.
+Confocal laser endomicroscopy: technical advances and clinical applications[J].
+Gastroenterology,
+2010,
+139(
+2):
+388-
+392.
+DOI：10.1053/j.gastro.2010.06.029.
+[72]
+宋洁莹，李海燕，朱凌音，等．
+放大内镜结合窄带成像技术指导活检对诊断早期胃癌的重要性[J]．
+中华消化内镜杂志，
+2014，
+31(
+8):
+455-
+458.
+DOI：10.3760/cma.j.issn.1007-5232.2014.08.009.
+[73]
+王芳军，汪娟，赵可，等．
+放大结合窄带成像在上消化道内镜检查中指导靶向活检的价值[J]．
+中华消化内镜杂志，
+2014，
+31(
+7):
+393-
+397.
+DOI：10.3760/cma.j.issn.1007-5232.2014.07.007.
+[74]
+Pimentel-NunesP, LibanioD, LageJ, et al.
+A multicenter prospective study of the real-time use of narrow-band imaging in the diagnosis of premalignant gastric conditions and lesions[J].
+Endoscopy,
+2016,
+48(
+8):
+723-
+730.
+DOI：10.1055/s-0042-108435.
+[75]
+中华医学会消化病学分会．
+全国慢性胃炎研讨会共识意见 [J]．
+中华消化杂志，
+2000,
+20(
+3):
+199-
+201.
+DOI：10.3760/j.issn:0254-1432.2000.03.015.
+[76]
+中华医学会消化病学分会．
+中国慢性胃炎共识意见(上)(2006，上海)[J]．
+中华消化杂志，
+2007，
+27(
+1):
+45-
+50.
+DOI：10.3760/j.issn:0254-1432.2007.01.013.
+[77]
+中华医学会消化病学分会．
+中国慢性胃炎共识意见(下)(2006，上海)[J]．
+中华消化杂志，
+2007，
+27(
+2):
+118-
+120.
+DOI：10.3760/j.issn:0254-1432.2007.02.012.
+[78]
+LauwersGY.
+Defining the pathologic diagnosis of metaplasia, atrophy，dysplasia, and gastric adenocarcinoma[J].
+J Clin Gastroenterol,
+2003,
+36(
+5
+Suppl):
+S37-43, S61-62.
+[79]
+EctorsN, DixonMF.
+The prognostic value of sulphomucin positive intestinal metaplasia in the development of gastric cancer[J].
+Histopathology,
+1986,
+10(
+12):
+1271-
+1277.
+DOI：10.1111/j.1365-2559.1986.tb02570.x.
+[80]
+El-ZimaityHM, RamchatesinghJ, SaeedMA, et al.
+Gastric intestinal metaplasia: subtypes and natural history[J].
+J Clin Pathol,
+2001,
+54(
+9):
+679-
+683.
+[81]
+GonzálezCA, Sanz-AnquelaJM, GisbertJP, et al.
+Utility of subtyping intestinal metaplasia as marker of gastric cancer risk. A review of the evidence[J].
+Int J Cancer,
+2013,
+133(
+5):
+1023-
+1032.
+DOI：10.1002/ijc.28003.
+[82]
+Fenoglio-PreiserC, CarneiroF, CorreaP, et al.
+Gastric carcinoma[A]∥
+HamiltonSR, AaltonenLA.
+World Health Organization classification of tumours: pathology and genetics tumours of the digestive system[M].
+Lyon:
+IARC Press,
+2000：
+46-
+52.
+[83]
+RuggeM, CorreaP, DixonMF, et al.
+Gastric dysplasia: the Padova international classification[J].
+Am J Surg Pathol,
+2000,
+24(
+2):
+167-
+176.
+[84]
+DixonMF.
+Gastrointestinal epithelial neoplasia: Vienna revisited[J].
+Gut,
+2002,
+51(
+1):
+130-
+131.
+DOI：10.1136/gut.51.1.130.
+[85]
+Feinle-BissetC, AzpirozF.
+Dietary and lifestyle factors in functional dyspepsia[J].
+Nat Rev Gastroenterol Hepatol,
+2013,
+10(
+3):
+150-
+157.
+DOI：10.1038/nrgastro.2012.246.
+[86]
+MiedererSE, WirtzM, FladungB.
+Acid neutralization and bile acid binding capacity of hydrotalcite compared with other antacids: an in vitro study[J]．
+Chin J Dig Dis,
+2003,
+4(
+3):
+140-
+146.
+[87]
+ChenH, LiX, GeZ, et al.
+Rabeprazole combined with hydrotalcite is effective for patients with bile reflux gastritis after cholecystectomy[J].
+Can J Gastroenterol,
+2010,
+24(
+3):
+197-
+201.
+[88]
+StefaniwskyAB, TintGS, SpeckJ, et al.
+Ursodeoxycholic acid treatment of bile reflux gastritis[J].
+Gastroenterology,
+1985,
+89(
+5):
+1000-
+1004.
+[89]
+赵振飞，高鸿亮，姚萍．
+熊去氧胆酸治疗胆汁反流性胃炎疗效的系统评价[J]．
+世界华人消化杂志，
+2013，
+21(
+26):
+2708-
+2716.
+DOI：10.11569/wcjd.v21.i26.2708.
+[90]
+LanasA, García-RodríguezLA, ArroyoMT, et al.
+Effect of antisecretory drugs and nitrates on the risk of ulcer bleeding associated with nonsteroidal anti-inflammatory drugs, antiplatelet agents, and anticoagulants[J].
+Am J Gastroenterol,
+2007,
+102(
+3):
+507-
+515.
+DOI：10.1111/j.1572-0241.2006.01062.x.
+[91]
+LanasA, ScheimanJ.
+Low-dose aspirin and upper gastrointestinal damage: epidemiology, prevention and treatment[J].
+Curr Med Res Opin,
+2007,
+23(
+1):
+163-
+173.
+DOI：10.1185/030079907X162656.
+[92]
+SuganoK, ChoiMG, LinJT, et al.
+Multinational, double-blind, randomised, placebo-controlled, prospective study of esomeprazole in the prevention of recurrent peptic ulcer in low-dose acetylsalicylic acid users: the LAVENDER study[J].
+Gut,
+2014,
+63(
+7):
+1061-
+1068.
+DOI：10.1136/gutjnl-2013-304722.
+[93]
+SuganoK, MatsumotoY, ItabashiT, et al.
+Lansoprazole for secondary prevention of gastric or duodenal ulcers associated with long-term low-dose aspirin therapy: results of a prospective, multicenter, double-blind, randomized, double-dummy, active-controlled trial[J].
+J Gastroenterol,
+2011,
+46(
+6):
+724-
+735.
+DOI：10.1007/s00535-011-0397-7.
+[94]
+ColeAT, BrundellS, HudsonN, et al.
+Ranitidine: differential effects on gastric bleeding and mucosal damage induced by aspirin[J]．
+Aliment Pharmacol Ther,
+1992,
+6(
+6):
+707-
+715.
+DOI：10.1111/j.1365-2036.1992.tb00735.x.
+[95]
+MizukamiK, MurakamiK, HirashitaY, et al.
+Efficacy of rebamipide for low-dose aspirin-related gastrointestinal symptoms[J].
+J Clin Biochem Nutr,
+2012,
+51(
+3):
+216-
+220.
+DOI：10.3164/jcbn.12-27.
+[96]
+SeoYI, ParkSH, MinDJ, et al.
+Effects of rebamipide against nonsteroidal anti-inflammatory drugs (NSAIDs)induced gastroduodenal mucosal injury[J].
+J Korean Rheum Assoc，
+2001,
+8(
+2):
+73-
+80.
+[97]
+TozawaK, OshimaT, OkugawaT, et al.
+A randomized, double-blind，placebo-controlled study of rebamipide for gastric mucosal injury taking aspirin with or without clopidogrel[J].
+Dig Dis Sci,
+2014,
+59(
+8):
+1885-
+1890.
+DOI：10.1007/s10620-014-3108-4.
+[98]
+KurokawaS, KatsukiS, FujitaT, et al.
+A randomized, double-blinded, placebo-controlled, multicenter trial, healing effect of rebamipide in patients with low-dose aspirin and/or non-steroidal anti-inflammatory drug induced small bowel injury[J].
+J Gastroenterol,
+2014,
+49(
+2):
+239-
+244.
+DOI：10.1007/s00535-013-0805-2.
+[99]
+KimJH, ParkSH, ChoCS, et al.
+Preventive efficacy and safety of rebamipide in nonsteroidal anti-inflammatory drug-induced mucosal toxicity[J].
+Gut Liver,
+2014,
+8(
+4):
+371-
+379.
+DOI：10.5009/gnl.2014.8.4.371.
+[100]
+Pinto-SanchezMI, YuanY, BercikP, et al.
+Proton pump inhibitors for functional dyspepsia[J].
+Cochrane Database Syst Rev,
+2017,
+3:
+CD011194.
+DOI：10.1002/14651858.CD011194.
+[101]
+DuYQ, SuT, HaoJY, et al.
+Gastro-protecting effect of gefarnate on chronic erosive gastritis with dyspeptic symptoms[J].
+Chin Med J (Engl),
+2012,
+125(
+16):
+2878-
+2884.
+[102]
+SakamotoC, OgoshiK, SaigenjiK, et al.
+Comparison of the effectiveness of geranylgeranylacetone with cimetidine in gastritis patients with dyspeptic symptoms and gastric lesions: a randomized, double-blind trial in Japan[J]．
+Digestion,
+2007,
+75(
+4):
+215-
+224.
+DOI：10.1159/000110654.
+[103]
+TalleyNJ, RiffDS, SchwartzH, et al.
+Double-blind placebo-controlled multicentre studies of rebamipide, a gastroprotective drug, in the treatment of functional dyspepsia with or without Helicobacter pylori infection[J].
+Aliment Pharmacol Ther,
+2001,
+15(
+10):
+1603-
+1611.
+DOI：10.1046/j.1365-2036.2001.01074.x.
+[104]
+Veldhuyzen van ZantenSJ, ChibaN, ArmstrongD, et al.
+A randomized trial comparing omeprazole, ranitidine, cisapride, or placebo in Helicobacter pylori negative, primary care patients with dyspepsia: the CADET-HN Study[J].
+Am J Gastroenterol,
+2005,
+100(
+7):
+1477-
+1488.
+DOI：10.1111/j.1572-0241.2005.40280.x.
+[105]
+van ZantenSV, WahlqvistP, TalleyNJ, et al.
+Randomised clinical trial: the burden of illness of uninvestigated dyspepsia before and after treatment with esomeprazole—results from the STARS Ⅱ study[J].
+Aliment Pharmacol Ther,
+2011,
+34(
+7):
+714-
+723.
+DOI：10.1111/j.1365-2036.2011.04789.x.
+[106]
+IwakiriR, TominagaK, FurutaK, et al.
+Randomised clinical trial: rabeprazole improves symptoms in patients with functional dyspepsia in Japan[J].
+Aliment Pharmacol Ther,
+2013,
+38(
+7):
+729-
+740.
+DOI：10.1111/apt.12444.
+[107]
+SuzukiH, KusunokiH, KamiyaT, et al.
+Effect of lansoprazole on the epigastric symptoms of functional dyspepsia (ELF study): a multicentre, prospective, randomized, double-blind, placebo-controlled clinical trial[J].
+United European Gastroenterol J,
+2013,
+1(
+6):
+445-
+452.
+DOI：10.1177/2050640613510904.
+[108]
+HoKY, KuanA, ZañoF, et al.
+Randomized, parallel, double-blind comparison of the ulcer-healing effects of ilaprazole and omeprazole in the treatment of gastric and duodenal ulcers[J].
+J Gastroenterol，
+2009,
+44(
+7):
+697-
+707.
+DOI：10.1007/s00535-009-0072-4.
+[109]
+ChoH, ChoiMK, ChoDY, et al.
+Effect of CYP2C19 genetic polymorphism on pharmacokinetics and pharmacodynamics of a new proton pump inhibitor, ilaprazole[J].
+J Clin Pharmacol，
+2012,
+52(
+7):
+976-
+984.
+DOI：10.1177/0091270011408611.
+[110]
+YadlapatiR, KahrilasPJ.
+When is proton pump inhibitor use appropriate？[J/OL]
+BMC Med,
+2017,
+15(
+1):
+36[
+2017-02-21].
+https:∥bmcmedicine.biomedcentral.com/articles/10.1186/s12916-017-0804-x.
+DOI：10.1186/s12916-017-0804-x.
+[111]
+MoayyediP, SooS, DeeksJ, et al.
+Pharmacological interventions for non-ulcer dyspepsia[J].
+Cochrane Database Syst Rev,
+2006, (
+4):
+CD001960.
+[112]
+KinoshitaY, ChibaT.
+Therapeutic effects of famotidine on chronic symptomatic gastritis: subgroup analysis from FUTURE study[J].
+J Gastroenterol,
+2012,
+47(
+4):
+377-
+386.
+DOI：10.1007/s00535-011-0503-x.
+[113]
+LamSK.
+Differences in peptic ulcer between East and West[J].
+Baillieres Best Pract Res Clin Gastroenterol,
+2000,
+14(
+1):
+41-
+52.
+[114]
+孙菁，房静远，李兆申，等．
+铝碳酸镁咀嚼片治疗功能性消化不良上腹痛综合征的多中心、随机、开放、平行阳性对照临床研究[J]．
+中华消化杂志，
+2010,
+30(
+9):
+619-
+622.
+DOI：10.3760/cma.j.issn.0254-1432.2010.09.012.
+[115]
+HiyamaT, YoshiharaM, MatsuoK, et al.
+Meta-analysis of the effects of prokinetic agents in patients with functional dyspepsia[J].
+J Gastroenterol Hepatol,
+2007,
+22(
+3):
+304-
+310.
+DOI：10.1111/j.1440-1746.2006.04493.x.
+[116]
+Veldhuyzen van ZantenSJ, JonesMJ, VerlindenM, et al.
+Efficacy of cisapride and domperidone in functional (nonulcer) dyspepsia: a meta-analysis[J].
+Am J Gastroenterol,
+2001,
+96(
+3):
+689-
+696.
+DOI：10.1111/j.1572-0241.2001.03521.x.
+[117]
+HondeghemLM.
+Domperidone: limited benefits with significant risk for sudden cardiac death[J].
+J Cardiovasc Pharmacol,
+2013,
+61(
+3):
+218-
+225.
+DOI：10.1097/FJC.0b013e31827afd0d.
+[118]
+HongoM, HarasawaS, MineT, et al.
+Large-scale randomized clinical study on functional dyspepsia treatment with mosapride or teprenone: Japan Mosapride Mega-Study (JMMS)[J].
+J Gastroenterol Hepatol,
+2012,
+27(
+1):
+62-
+68.
+DOI：10.1111/j.1440-1746.2011.06949.x.
+[119]
+HoltmannG, TalleyNJ, LiebregtsT, et al.
+A placebo-controlled trial of itopride in functional dyspepsia[J].
+N Engl J Med,
+2006,
+354(
+8):
+832-
+840.
+DOI：10.1056/NEJMoa052639.
+[120]
+HuangX, LvB, ZhangS, et al.
+Itopride therapy for functional dyspepsia: a meta-analysis[J].
+World J Gastroenterol,
+2012,
+18(
+48):
+7371-
+7377.
+DOI: 10.3748/wjg.v18.i48.7371.
+[121]
+StanghelliniV, ChanFK, HaslerWL, et al.
+Gastroduodenal disorders[J].
+Gastroenterology,
+2016,
+150(
+6):
+1380-
+1392.
+DOI：10.1053/j.gastro.2016.02.011.
+[122]
+JonesMP, OudenhoveLV, KoloskiN, et al.
+Early life factors initiate a 'vicious circle’ of affective and gastrointestinal symptoms: a longitudinal study[J].
+United European Gastroenterol J,
+2013,
+1(
+5):
+394-
+402.
+DOI：10.1177/2050640613498383.
+[123]
+TalleyNJ, LockeGR, SaitoYA, et al.
+Effect of amitriptyline and escitalopram on functional dyspepsia: a multicenter, randomized controlled study[J].
+Gastroenterology,
+2015,
+149(
+2):
+340-
+349.
+DOI：10.1053/j.gastro.2015.04.020.
+[124]
+BraakB, KlookerTK, WoutersMM, et al.
+Randomised clinical trial: the effects of amitriptyline on drinking capacity and symptoms in patients with functional dyspepsia, a double-blind placebo-controlled study[J].
+Aliment Pharmacol Ther,
+2011,
+34(
+6):
+638-
+648.
+DOI：10.1111/j.1365-2036.2011.04775.x.
+[125]
+TangXD, ZhouLY, ZhangST, et al.
+Randomized double-blind clinical trial of Moluodan for the treatment of chronic atrophic gastritis with dysplasia[J].
+Chin J Integr Med,
+2016,
+22(
+1):
+9-
+18.
+DOI：10.1007/s11655-015-2114-5.
+[126]
+ChooiEY, ChenHM, MiaoQ, et al.
+Chronic atrophic gastritis is a progressive disease: analysis of medical reports from Shanghai (1985-2009)[J].
+Singapore Med J,
+2012,
+53(
+5):
+318-
+324.
+[127]
+NomuraA, GroveJS, StemmermannGN, et al.
+A prospective study of stomach cancer and its relation to diet, cigarettes, and alcohol consumption[J].
+Cancer Res,
+1990,
+50(
+3):
+627-
+631.
+[128]
+GaoQY, WangZH, ChooiEY, et al.
+A novel model might predict the risk of chronic atrophic gastritis: a multicenter prospective study in China[J].
+Scand J Gastroenterol,
+2012,
+47(
+5):
+509-
+517.
+DOI：10.3109/00365521.2012.658857.
+[129]
+SchneiderBG, MeraR, PiazueloMB, et al.
+DNA methylation predicts progression of human gastric lesions[J].
+Cancer Epidemiol Biomarkers Prev,
+2015,
+24(
+10):
+1607-
+1613.
+DOI：10.1158/1055-9965.EPI-15-0388.
+[130]
+CorreaP, HaenszelW, CuelloC, et al.
+A model for gastric cancer epidemiology[J].
+Lancet,
+1975,
+2(
+7924):
+58-
+60.
+[131]
+CorreaP.
+A human model of gastric carcinogenesis[J].
+Cancer Res,
+1988,
+48(
+13):
+3554-
+3560.
+[132]
+CorreaP.
+Human gastric carcinogenesis: a multistep and multifactorial process—First American Cancer Society Award Lecture on cancer epidemiology and prevention[J].
+Cancer Res,
+1992,
+52(
+24):
+6735-
+6740.
+[133]
+de VriesAC, van GriekenNC, LoomanCW, et al.
+Gastric cancer risk in patients with premalignant gastric lesions: a nationwide cohort study in the Netherlands[J].
+Gastroenterology,
+2008,
+134(
+4):
+945-
+952.
+DOI：10.1053/j.gastro.2008.01.071.
+[134]
+SipponenP.
+Natural history of gastritis and its relationship to peptic ulcer disease[J].
+Digestion,
+1992,
+51
+Suppl 1:
+S70-
+75.
+[135]
+SonnenbergA, GentaRM.
+Changes in the gastric mucosa with aging[J].
+Clin Gastroenterol Hepatol,
+2015,
+13(
+13):
+2276-
+2281.
+DOI：10.1016/j.cgh.2015.02.020.
+[136]
+BossGR, SeegmillerJE.
+Age-related physiological changes and their clinical significance[J].
+West J Med,
+1981,
+135(
+6):
+434-
+440.
+[137]
+GaoQY, WangZH, CuiY, et al.
+Evaluation and clinical significance of the stomach age model for evaluating aging of the stomach—a multicenter study in China[J/OL].
+BMC Clin Pathol,
+2014,
+14:
+29[
+2014-06-28].
+https:∥bmcclinpathol.biomedcentral.com/articles/10.1186/1472-6890-14-29.
+DOI：10.1186/1472-6890-14-29.
+[138]
+KuipersEJ, Klinkenberg-KnolEC, Vandenbroucke-GraulsCM, et al.
+Role of Helicobacter pylori in the pathogenesis of atrophic gastritis[J].
+Scand J Gastroenterol Suppl,
+1997,
+223:
+28-
+34.
+[139]
+ShinWG, KimHU, SongHJ, et al.
+Surveillance strategy of atrophic gastritis and intestinal metaplasia in a country with a high prevalence of gastric cancer[J].
+Dig Dis Sci,
+2012,
+57(
+3):
+746-
+752.
+DOI：10.1007/s10620-011-1919-0.
+[140]
+SiJM, SunLM, FanYJ, et al.
+Trial of a novel endoscopic tattooing biopsy forceps on animal model[J].
+World J Gastroenterol,
+2005,
+11(
+12):
+1859-
+1861.
+[141]
+SunL, SiJ, ChenS, et al.
+The establishment and clinical appliance of technique of mucosa marking targeting biopsy[J].
+Hepatogastroenterology,
+2009,
+56(
+89):
+59-
+62.
+[142]
+RuggeM, de BoniM, PennelliG, et al.
+Gastritis OLGA-staging and gastric cancer risk: a twelve-year clinico-pathological follow-up study[J].
+Aliment Pharmacol Ther,
+2010,
+31(
+10):
+1104-
+1111.
+DOI：10.1111/j.1365-2036.2010.04277.x.
+[143]
+SatohK, OsawaH, YoshizawaM, et al.
+Assessment of atrophic gastritis using the OLGA system[J].
+Helicobacter,
+2008,
+13(
+3):
+225-
+229.
+DOI：10.1111/j.1523-5378.2008.00599.x.
+[144]
+DauguleI, SudrabaA, ChiuHM, et al.
+Gastric plasma biomarkers and operative link for gastritis assessment gastritis stage[J].
+Eur J Gastroenterol Hepatol,
+2011,
+23(
+4):
+302-
+307.
+DOI：10.1097/MEG.0b013e3283438ac3.
+[145]
+QuachDT, LeHM, NguyenOT, et al.
+The severity of endoscopic gastric atrophy could help to predict operative link on gastritis assessment gastritis stage[J].
+J Gastroenterol Hepatol,
+2011,
+26(
+2):
+281-
+285.
+DOI：10.1111/j.1440-1746.2010.06474.x.
+[146]
+CapelleLG, de VriesAC, HaringsmaJ, et al.
+The staging of gastritis with the OLGA system by using intestinal metaplasia as an accurate alternative for atrophic gastritis[J].
+Gastrointest Endosc,
+2010,
+71(
+7):
+1150-
+1158.
+DOI：10.1016/j.gie.2009.12.029.
+[147]
+IsajevsS, Liepniece-KareleI, JanciauskasD, et al.
+Gastritis staging: interobserver agreement by applying OLGA and OLGIM systems[J].
+Virchows Arch,
+2014,
+464(
+4):
+403-
+407.
+DOI：10.1007/s00428-014-1544-3.
+[148]
+RuggeM, FassanM, PizziM, et al.
+Operative link for gastritis assessment vs operative link on intestinal metaplasia assessment[J].
+World J Gastroenterol,
+2011,
+17(
+41):
+4596-
+4601.
+DOI：10.3748/wjg.v17.i41.4596.
+[149]
+ZhouY, LiHY, ZhangJJ, et al.
+Operative link on gastritis assessment stage is an appropriate predictor of early gastric cancer[J].
+World J Gastroenterol,
+2016,
+22(
+13):
+3670-
+3678.
+DOI：10.3748/wjg.v22.i13.3670.
+[150]
+张贺军，金珠，崔荣丽，等．
+OLGA分期、分级评估系统在胃镜活检组织病理学评价中的应用[J]．
+中华消化内镜杂志，
+2014，
+31(
+3):
+121-
+125.
+DOI：10.3760/cma.j.issn.1007-5232.2014.03.001.
+[151]
+VäänänenH, VauhkonenM, HelskeT, et al.
+Non-endoscopic diagnosis of atrophic gastritis with a blood test. Correlation between gastric histology and serum levels of gastrin-17 and pepsinogen Ⅰ：a multicentre study[J].
+Eur J Gastroenterol Hepatol,
+2003,
+15(
+8):
+885-
+891.
+DOI：10.1097/01.meg.0000059169.46867.01.
+[152]
+WuKC, LiHT, QiaoTD, et al.
+Diagnosis of atrophic body gastritis in Chinese patients by measuring serum pepsinogen[J].
+Chin J Dig Dis,
+2004,
+5(
+1):
+22-
+27.
+DOI：10.1111/j.1443-9573.2004.00148.x.
+[153]
+曹勤，冉志华，萧树东．
+血清胃蛋白酶原、胃泌素-17和幽门螺杆菌IgG抗体筛查萎缩性胃炎和胃癌[J]．
+胃肠病学，
+2006，
+11(
+7):
+388-
+394.
+DOI：10.3969/j.issn.1008-7125.2006.07.002.
+[154]
+PasechnikovVD, ChukovSZ, KotelevetsSM, et al.
+The non-invasive diagnosis of precancerous changes of stomach mucosa[J].
+Rocz Akad Med Bialymst,
+2004,
+49:
+66-
+71.
+[155]
+KimEH, KangH, ParkCH, et al.
+The optimal serum pepsinogen cut-off value for predicting histologically confirmed atrophic gastritis[J].
+Dig Liver Dis,
+2015,
+47(
+8):
+663-
+668.
+DOI：10.1016/j.dld.2015.05.014.
+[156]
+LeeJY, KimN, LeeHS, et al.
+Correlations among endoscopic, histologic and serologic diagnoses for the assessment of atrophic gastritis[J].
+J Cancer Prev,
+2014,
+19(
+1):
+47-
+55.
+[157]
+Dinis-RibeiroM, YamakiG, MikiK, et al.
+Meta-analysis on the validity of pepsinogen test for gastric carcinoma, dysplasia or chronic atrophic gastritis screening[J].
+J Med Screen,
+2004,
+11(
+3):
+141-
+147.
+[158]
+LejaM, KupcinskasL, FunkaK, et al.
+The validity of a biomarker method for indirect detection of gastric mucosal atrophy versus standard histopathology[J].
+Dig Dis Sci,
+2009,
+54(
+11):
+2377-
+2384.
+DOI：10.1007/s10620-009-0947-5.
+[159]
+杨莉，孙明军，徐倩，等．
+血清胃蛋白酶原、促胃液素-17在慢性胃窦部萎缩性胃炎诊断中的价值[J]．
+中华消化杂志，
+2014，
+34(
+7):
+478-
+480.
+DOI：10.3760/cma.j.issn.0254-1432.2014.07.009.
+[160]
+GotodaT, IshikawaH, OhnishiH, et al.
+Randomized controlled trial comparing gastric cancer screening by gastrointestinal X-ray with serology for Helicobacter pylori and pepsinogens followed by gastrointestinal endoscopy[J].
+Gastric Cancer,
+2015,
+18(
+3):
+605-
+611.
+DOI: 10.1007/s10120-014-0408-5.
+[161]
+中华医学会消化内镜分会，中国抗癌协会肿瘤内镜专业委员会．
+中国早期胃癌筛查及内镜诊治共识意见(2014年，长沙)[J]．
+中华消化杂志，
+2014,
+34(
+7):
+433-
+448.
+DOI：10.3760/cma.j.issn.0254-1432.2014.07.001.
+[162]
+TuH, SunL, DongX, et al.
+Temporal changes in serum biomarkers and risk for progression of gastric precancerous lesions: a longitudinal study[J].
+Int J Cancer,
+2015,
+136(
+2):
+425-
+434.
+DOI: 10.1002/ijc.29005.
+[163]
+YanaokaK, OkaM, MukoubayashiC, et al.
+Cancer high-risk subjects identified by serum pepsinogen tests：outcomes after 10-year follow-up in asymptomatic middle-aged males[J].
+Cancer Epidemiol Biomarkers Prev,
+2008,
+17(
+4):
+838-
+845.
+DOI：10.1158/1055-9965.EPI-07-2762.
+[164]
+王霄腾，蔡利军，吕宾．
+血清幽门螺杆菌抗体联合胃蛋白酶原检测在胃癌和癌前病变筛查中的应用[J]．
+中华消化杂志，
+2016，
+36(
+9):
+582-
+587.
+DOI：10.3760/cma.j.issn.0254-1432.2016.09.002.
+[165]
+MikiK.
+Gastric cancer screening by combined assay for serum anti-Helicobacter pylori IgG antibody and serum pepsinogen levels—" ABC method" [J].
+Proc Jpn Acad Ser B Phys Biol Sci,
+2011,
+87(
+7):
+405-
+414.
+[166]
+YamaguchiY, NagataY, HiratsukaR, et al.
+Gastric cancer screening by combined assay for serum anti-Helicobacter pylori IgG antibody and serum pepsinogen levels—the ABC method[J].
+Digestion,
+2016,
+93(
+1):
+13-
+18.
+DOI：10.1159/000441742.
+[167]
+TerasawaT, NishidaH, KatoK, et al.
+Prediction of gastric cancer development by serum pepsinogen test and Helicobacter pylori seropositivity in Eastern Asians: a systematic review and meta-analysis[J/OL].
+PLoS One,
+2014,
+9(
+10):
+e109783[
+2014-10-14].
+http:∥journals.plos.org/plosone/article?id=10.1371/journal.pone.0109783.
+DOI：10.1371/journal.pone.0109783.
+[168]
+YoshidaT, KatoJ, InoueI, et al.
+Cancer development based on chronic active gastritis and resulting gastric atrophy as assessed by serum levels of pepsinogen and Helicobacter pylori antibody titer[J].
+Int J Cancer,
+2014,
+134(
+6):
+1445-
+1457.
+DOI：10.1002/ijc.28470.
+[169]
+WatanabeM, KatoJ, InoueI, et al.
+Development of gastric cancer in nonatrophic stomach with highly active inflammation identified by serum levels of pepsinogen and Helicobacter pylori antibody together with endoscopic rugal hyperplastic gastritis[J].
+Int J Cancer,
+2012,
+131(
+11):
+2632-
+2642.
+DOI: 10.1002/ijc.27514.
+[170]
+TuH, SunL, DongX, et al.
+A serological biopsy using five stomach-specific circulating biomarkers for gastric cancer risk assessment: a multi-phase study[J].
+Am J Gastroenterol,
+2017,
+112(
+5):
+704-
+715.
+DOI：10.1038/ajg.2017.55.
+[171]
+WangX, LuB, MengL, et al.
+The correlation between histological gastritis staging-'OLGA/OLGIM’ and serum pepsinogen test in assessment of gastric atrophy/intestinal metaplasia in China[J].
+Scand J Gastroenterol,
+2017,
+52(
+8):
+822-
+827.
+DOI：10.1080/00365521.2017.1315739.
+[172]
+YouWC, ZhangL, GailMH, et al.
+Gastric dysplasia and gastric cancer: Helicobacter pylori, serum vitamin C, and other risk factors[J].
+J Natl Cancer Inst,
+2000,
+92(
+19):
+1607-
+1612.
+[173]
+YouWC, BrownLM, ZhangL, et al.
+Randomized double-blind factorial trial of three treatments to reduce the prevalence of precancerous gastric lesions[J].
+J Natl Cancer Inst,
+2006,
+98(
+14):
+974-
+983.
+[174]
+WongBC, LamSK, WongWM, et al.
+Helicobacter pylori eradication to prevent gastric cancer in a high-risk region of China: a randomized controlled trial[J].
+JAMA,
+2004,
+291(
+2):
+187-
+194.
+DOI：10.1001/jama.291.2.187.
+[175]
+KodamaM, MurakamiK, OkimotoT, et al.
+Ten-year prospective follow-up of histological changes at five points on the gastric mucosa as recommended by the updated Sydney system after Helicobacter pylori eradication[J].
+J Gastroenterol,
+2012,
+47(
+4):
+394-
+403.
+DOI：10.1007/s00535-011-0504-9.
+[176]
+MaJL, ZhangL, BrownLM, et al.
+Fifteen-year effects of Helicobacter pylori, garlic, and vitamin treatments on gastric cancer incidence and mortality[J].
+J Natl Cancer Inst,
+2012,
+104(
+6):
+488-
+492.
+DOI：10.1093/jnci/djs003.
+[177]
+LiWQ, MaJL, ZhangL, et al.
+Effects of Helicobacter pylori treatment on gastric cancer incidence and mortality in subgroups[J/OL].
+J Natl Cancer Inst,
+2014,
+106(
+7):
+dju116[
+2014-06-12].
+https:∥academic.oup.com/jnci/article-lookup/doi/10.1093/jnci/dju116.
+[178]
+YanaokaK, OkaM, OhataH, et al.
+Eradication of Helicobacter pylori prevents cancer development in subjects with mild gastric atrophy identified by serum pepsinogen levels[J].
+Int J Cancer,
+2009,
+125(
+11):
+2697-
+2703.
+DOI：10.1002/ijc.24591.
+[179]
+HojoM, MiwaH, OhkusaT, et al.
+Alteration of histological gastritis after cure of Helicobacter pylori infection[J].
+Aliment Pharmacol Ther,
+2002,
+16(
+11):
+1923-
+1932.
+DOI：10.1046/j.1365-2036.2002.01346.x.
+[180]
+ZhangY, PanKF, ZhangL, et al.
+Helicobacter pylori, cyclooxygenase-2 and evolution of gastric lesions: results from an intervention trial in China[J].
+Carcinogenesis,
+2015,
+36(
+12):
+1572-
+1579.
+DOI：10.1093/carcin/bgv147.
+[181]
+FordAC, FormanD, HuntRH, et al.
+Helicobacter pylori eradication therapy to prevent gastric cancer in healthy asymptomatic infected individuals: systematic review and meta-analysis of randomised controlled trials[J/OL]．
+BMJ,
+2014,
+348:
+g3174[
+2014-05-20].
+http:∥www.bmj.com/content/348/bmj.g3174.long.
+DOI：10.1136/bmj.g3174.
+[182]
+YuanJM, RossRK, GaoYT, et al.
+Prediagnostic levels of serum micronutrients in relation to risk of gastric cancer in Shanghai, China[J].
+Cancer Epidemiol Biomarkers Prev,
+2004,
+13(
+11
+Pt 1):
+1772-
+1780.
+[183]
+TaylorPR, QiaoYL, AbnetCC, et al.
+Prospective study of serum vitamin E levels and esophageal and gastric cancers[J].
+J Natl Cancer Inst,
+2003,
+95(
+18):
+1414-
+1416.
+[184]
+JacobsEJ, ConnellCJ, McCulloughML, et al.
+Vitamin C, vitamin E, and multivitamin supplement use and stomach cancer mortality in the cancer prevention study Ⅱ cohort[J].
+Cancer Epidemiol Biomarkers Prev,
+2002,
+11(
+1):
+35-
+41.
+[185]
+van den BrandtPA, GoldbohmRA.
+Nutrition in the prevention of gastrointestinal cancer[J].
+Best Pract Res Clin Gastroenterol,
+2006,
+20(
+3):
+589-
+603.
+DOI：10.1016/j.bpg.2006.04.001.
+[186]
+VermaA, AttenMJ, AttarBM, et al.
+Selenomethionine stimulates MAPK (ERK) phosphorylation, protein oxidation, and DNA synthesis in gastric cancer cells[J].
+Nutr Cancer,
+2004,
+49(
+2):
+184-
+190.
+DOI：10.1207/s15327914nc4902_10.
+[187]
+ZhangL, BlotWJ, YouWC, et al.
+Serum micronutrients in relation to pre-cancerous gastric lesions[J]．
+Int J Cancer,
+1994,
+56(
+5):
+650-
+654.
+DOI：10.1002/ijc.2910560508.
+[188]
+DawseySP, HollenbeckA, SchatzkinA, et al.
+A prospective study of vitamin and mineral supplement use and the risk of upper gastrointestinal cancers[J/OL].
+PLoS One,
+2014,
+9(
+2):
+e88774[
+2014-02-18].
+http:∥journals.plos.org/plosone/article?id=10.1371/journal.pone.0088774.
+DOI：10.1371/journal.pone.0088774.
+[189]
+FangJY, XiaoSD, ZhuSS, et al.
+Relationship of plasma folic acid and status of DNA methylation in human gastric cancer[J].
+J Gastroenterol,
+1997,
+32(
+2):
+171-
+175.
+[190]
+FenechM.
+The role of folic acid and Vitamin B12 in genomic stability of human cells[J].
+Mutat Res,
+2001,
+475(
+1-2):
+57-
+67.
+DOI：10.1016/S0027-5107(01)00079-3.
+[191]
+ChoiSW, MasonJB.
+Folate status: effects on pathways of colorectal carcinogenesis[J].
+J Nutr,
+2002,
+132(
+8
+Suppl):
+2413S-
+2418S.
+[192]
+ChoiSW, MasonJB.
+Folate and carcinogenesis: an integrated scheme[J].
+J Nutr,
+2000,
+130(
+2):
+129-
+132.
+[193]
+WangX, ThomasP, XueJ, et al.
+Folate deficiency induces aneuploidy in human lymphocytes in vitro—evidence using cytokinesis-blocked cells and probes specific for chromosomes 17 and 21[J].
+Mutat Res,
+2004,
+551(
+1-2):
+167-
+180.
+DOI：10.1016/j.mrfmmm.2004.03.008.
+[194]
+MayneST, RischHA, DubrowR, et al.
+Nutrient intake and risk of subtypes of esophageal and gastric cancer[J].
+Cancer Epidemiol Biomarkers Prev,
+2001,
+10(
+10):
+1055-
+1062.
+[195]
+FangJY, XiaoSD.
+Folic acid, polymorphism of methyl-group metabolism genes，and DNA methylation in relation to GI carcinogenesis[J].
+J Gastroenterol,
+2003,
+38(
+9):
+821-
+829.
+DOI：10.1007/s00535-003-1207-7.
+[196]
+XiaoSD, MengXJ, ShiY, et al.
+Interventional study of high dose folic acid in gastric carcinogenesis in beagles[J].
+Gut,
+2002,
+50(
+1):
+61-
+64.
+DOI：10.1136/gut.50.1.61.
+[197]
+ZhuS, MasonJ, ShiY, et al.
+The effect of folic acid on the development of stomach and other gastrointestinal cancers[J].
+Chin Med J (Engl),
+2003,
+116(
+1):
+15-
+19.
+贡献者信息
+中华医学会消化病学分会
+历史
+出版日期：2017-11-15
+收稿日期：2017-07-31
+本文编辑
+冯缨
+Consensus and Guideline
+Consensus on chronic gastritis in China (2017, shanghai)
+The Chinese Society of digestive Diseases
+Published
+2017-11-15
+Cite as
+Chin J Dig, 2017,37(11): 721-738. DOI: 10.3760/cma.j.issn.0254-1432.2017.11.001
+Contributor Information
+The Chinese Society of digestive Diseases
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+美国内科医师协会临床指南委员会标准[7]
+证据质量
+推荐强度
+获益显著超过风险或负担，或相反
+获益与风险或负担接近
+高质量
+强烈推荐
+条件推荐(即弱推荐)
+中等质量
+强烈推荐
+条件推荐(即弱推荐)
+(很)低质量
+强烈推荐
+条件推荐(即弱推荐)
+注：A1和A2为胃窦2块组织取材点，分别取自距幽门2～3 cm处的大弯和小弯；IA为胃角1块组织取材点；B1和B2为胃体2块组织取材点，分别取自距贲门8 cm的大弯(胃体大弯中部)和距胃角近侧4 cm的小弯
+图1
+新悉尼系统的5点取材
+图2
+取材深达黏膜肌层的胃黏膜 苏木精-伊红染色 高倍放大
+图3
+直观模拟评分法示意图[33]
+图4
+表格式慢性胃炎病理报告
+现行的国际疾病分类第10版胃炎分类
+《幽门螺杆菌胃炎京都全球共识意见》提议胃炎的病因学分类
+正在讨论中的国际疾病分类第11版β胃炎分类(2017年6月25日更新)
+K29胃炎和十二指肠炎
+自身免疫性胃炎
+外在因素引起的胃炎
+自身免疫性胃炎
+外在因素引起的胃炎
+排除：嗜酸性胃炎或胃肠炎 (K52.8)
+感染性胃炎
+药物性胃炎
+幽门螺杆菌性胃炎
+酒精性胃炎
+幽门螺杆菌性胃炎
+酒精性胃炎
+嗜酸细胞性胃炎
+放射性胃炎
+Zollinger-Ellison综合征(E16.4)
+除幽门螺杆菌外其
+放射性胃炎
+食物诱导的嗜酸细胞性胃肠炎
+化学性胃炎
+K29.0急性出血性胃炎
+他细菌性胃炎
+化学性胃炎
+淋巴细胞性胃炎
+其他特殊性外在因素引起 的胃炎
+包括急性(糜烂性)胃炎伴出血
+海尔曼螺杆菌性
+十二指肠反流性胃炎
+变应性胃炎
+排除胃糜烂(急性)(K25.-)
+胃炎
+其他特殊性外在
+IgE介导的过敏反应引起的变 应性胃炎
+药物性胃炎
+K29.1其他急性胃炎
+肠球菌性胃炎
+因素引起的胃炎
+其他疾病相关性胃炎
+K29.2酒精性胃炎
+分支杆菌性胃炎
+特殊性胃炎
+食物诱导的IgE介导的胃肠道过敏反应
+克罗恩病相关性胃炎
+K29.3慢性浅表性胃炎
+二期梅毒性胃炎
+淋巴细胞性胃炎
+结节病相关性胃炎
+K29.4慢性萎缩性胃炎
+胃蜂窝织炎
+Ménétrier病
+非IgE介导的过敏反应引起的 变应性胃炎
+血管炎相关性胃炎
+包括胃萎缩
+病毒性胃炎
+变应性胃炎
+胃蜂窝织炎
+K29.5慢性胃炎，非特异性
+肠病毒性胃炎
+嗜酸性胃炎
+食物诱导的非IgE介导的胃肠 道过敏反应
+包括慢性胃窦炎
+巨细胞病毒性胃炎
+其他疾病相关性胃炎
+慢性胃底炎
+真菌性胃炎
+结节病相关性胃炎
+十二指肠胃反流引起的胃炎
+K29.6其他类型胃炎
+毛霉菌性胃炎
+血管炎相关性胃炎
+Ménétrier病
+包括肥厚性胃炎
+胃念珠菌病
+克罗恩病相关性胃炎
+未知病因引起的特异性内镜
+肉芽肿性胃炎
+胃组织胞浆菌病
+表现或病理表现的胃炎
+Ménétrier病(胃巨皱襞症)
+寄生虫性胃炎
+急性浅表性胃炎
+K29.7胃炎，非特异性
+隐孢子虫性胃炎
+慢性浅表性胃炎
+K29.8十二指肠炎
+胃粪类圆线虫病
+急性出血性胃炎
+K29.9胃十二指肠炎，非特异性
+胃异尖线虫病
+慢性萎缩性胃炎
+轻中度胃萎缩
+重度胃萎缩
+化生性胃炎
+肉芽肿性胃炎
+肥厚性胃炎
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华消化杂志2017年37卷11期
+文    题：中国慢性胃炎共识意见(2017年，上海)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华消化杂志2017年37卷11期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

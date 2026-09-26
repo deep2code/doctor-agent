@@ -1,0 +1,118 @@
+htn2018.txt | 中国高血压防治指南(2018年修订版) | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%AB%98%E8%A1%80%E5%8E%8B%E9%98%B2%E6%B2%BB%E6%8C%87%E5%8D%97%282018%E5%B9%B4%E4%BF%AE%E8%AE%A2%E7%89%88%29.html | 中国高血压防治指南修订委员会 | 2018
+lipid-abnormal2016.txt | 中国成人血脂异常防治指南(2016年修订版) | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%88%90%E4%BA%BA%E8%A1%80%E8%84%82%E5%BC%82%E5%B8%B8%E9%98%B2%E6%B2%BB%E6%8C%87%E5%8D%97%282016%E5%B9%B4%E4%BF%AE%E8%AE%A2%E7%89%88%29.html | 中华医学会心血管病学分会 | 2016
+hf2018.txt | 中国心力衰竭诊断和治疗指南2018 | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%BF%83%E5%8A%9B%E8%A1%B0%E7%AB%AD%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%972018.html | 中华医学会心血管病学分会 | 2018
+vte2018.txt | 肺血栓栓塞症诊治与预防指南 | https://cmab.yiigle.com/uploads/guide_html/%E8%82%BA%E8%A1%80%E6%A0%93%E6%A0%93%E5%A1%9E%E7%97%87%E8%AF%8A%E6%B2%BB%E4%B8%8E%E9%A2%84%E9%98%B2%E6%8C%87%E5%8D%97.html | 中华医学会呼吸病学分会 | 
+tnod2012.txt | 甲状腺结节和分化型甲状腺癌诊治指南 | https://cmab.yiigle.com/uploads/guide_html/%E7%94%B2%E7%8A%B6%E8%85%BA%E7%BB%93%E8%8A%82%E5%92%8C%E5%88%86%E5%8C%96%E5%9E%8B%E7%94%B2%E7%8A%B6%E8%85%BA%E7%99%8C%E8%AF%8A%E6%B2%BB%E6%8C%87%E5%8D%97.html | 中华医学会内分泌学分会 | 
+hyperthyroid2022.txt | 甲状腺功能亢进症基层诊疗指南（2019年） | https://cmab.yiigle.com/uploads/guide_html/%E7%94%B2%E7%8A%B6%E8%85%BA%E5%8A%9F%E8%83%BD%E4%BA%A2%E8%BF%9B%E7%97%87%E5%9F%BA%E5%B1%82%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882019%E5%B9%B4%EF%BC%89.html | 中华医学会 | 2019
+gout2019.txt | 中国高尿酸血症与痛风诊疗指南(2019) | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%AB%98%E5%B0%BF%E9%85%B8%E8%A1%80%E7%97%87%E4%B8%8E%E7%97%9B%E9%A3%8E%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%282019%29.html | 中华医学会内分泌学分会 | 2019
+osteoporosis2017.txt | 原发性骨质疏松症诊疗指南(2017) | https://cmab.yiigle.com/uploads/guide_html/%E5%8E%9F%E5%8F%91%E6%80%A7%E9%AA%A8%E8%B4%A8%E7%96%8F%E6%9D%BE%E7%97%87%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%282017%29.html | 中华医学会骨质疏松和骨矿盐疾病分会 | 2017
+copd2013.txt | 慢性阻塞性肺疾病诊治指南(2013年修订版) | https://cmab.yiigle.com/uploads/guide_html/%E6%85%A2%E6%80%A7%E9%98%BB%E5%A1%9E%E6%80%A7%E8%82%BA%E7%96%BE%E7%97%85%E8%AF%8A%E6%B2%BB%E6%8C%87%E5%8D%97%282013%E5%B9%B4%E4%BF%AE%E8%AE%A2%E7%89%88%29.html | 中华医学会呼吸病学分会 | 2013
+ipf2018.txt | 特发性肺纤维化诊断和治疗中国专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E7%89%B9%E5%8F%91%E6%80%A7%E8%82%BA%E7%BA%A4%E7%BB%B4%E5%8C%96%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 中华医学会呼吸病学分会 | 
+cap2016.txt | 中国成人社区获得性肺炎诊断和治疗指南(2016年版) | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%88%90%E4%BA%BA%E7%A4%BE%E5%8C%BA%E8%8E%B7%E5%BE%97%E6%80%A7%E8%82%BA%E7%82%8E%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%282016%E5%B9%B4%E7%89%88%29.html | 中华医学会呼吸病学分会 | 2016
+asthma-acute.txt | 支气管哮喘急性发作评估及处理中国专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E6%94%AF%E6%B0%94%E7%AE%A1%E5%93%AE%E5%96%98%E6%80%A5%E6%80%A7%E5%8F%91%E4%BD%9C%E8%AF%84%E4%BC%B0%E5%8F%8A%E5%A4%84%E7%90%86%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 中华医学会呼吸病学分会 | 
+stroke2018.txt | 中国急性缺血性脑卒中诊治指南2018 | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%80%A5%E6%80%A7%E7%BC%BA%E8%A1%80%E6%80%A7%E8%84%91%E5%8D%92%E4%B8%AD%E8%AF%8A%E6%B2%BB%E6%8C%87%E5%8D%972018.html | 中华医学会神经病学分会 | 2018
+ih2019.txt | 中国脑出血诊治指南（2019） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E8%84%91%E5%87%BA%E8%A1%80%E8%AF%8A%E6%B2%BB%E6%8C%87%E5%8D%97%EF%BC%882019%EF%BC%89.html | 中华医学会神经病学分会 | 2019
+insomnia2017.txt | 中国成人失眠诊断与治疗指南(2017版) | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%88%90%E4%BA%BA%E5%A4%B1%E7%9C%A0%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%282017%E7%89%88%29.html | 中华医学会神经病学分会睡眠障碍学组 | 2017
+constip2019.txt | 中国慢性便秘专家共识意见(2019，广州) | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%85%A2%E6%80%A7%E4%BE%BF%E7%A7%98%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%E6%84%8F%E8%A7%81%282019%EF%BC%8C%E5%B9%BF%E5%B7%9E%29.html | 中华医学会消化病学分会 | 2019
+ibd2018.txt | 炎症性肠病诊断与治疗的共识意见(2018年，北京) | https://cmab.yiigle.com/uploads/guide_html/%E7%82%8E%E7%97%87%E6%80%A7%E8%82%A0%E7%97%85%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E7%9A%84%E5%85%B1%E8%AF%86%E6%84%8F%E8%A7%81%282018%E5%B9%B4%EF%BC%8C%E5%8C%97%E4%BA%AC%29.html | 中华医学会消化病学分会炎症性肠病学组 | 2018
+pcos2017.txt | 多囊卵巢综合征中国诊疗指南 | https://cmab.yiigle.com/uploads/guide_html/%E5%A4%9A%E5%9B%8A%E5%8D%B5%E5%B7%A2%E7%BB%BC%E5%90%88%E5%BE%81%E4%B8%AD%E5%9B%BD%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97.html | 中华医学会妇产科学分会内分泌学组 | 
+fibroid2017.txt | 子宫肌瘤的诊治中国专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%AD%90%E5%AE%AB%E8%82%8C%E7%98%A4%E7%9A%84%E8%AF%8A%E6%B2%BB%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 中华医学会妇产科学分会 | 
+adeno2015.txt | 子宫腺肌病诊治中国专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%AD%90%E5%AE%AB%E8%85%BA%E8%82%8C%E7%97%85%E8%AF%8A%E6%B2%BB%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 中华医学会妇产科学分会 | 
+child-asthma2016.txt | 儿童支气管哮喘诊断与防治指南(2016年版) | https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E6%94%AF%E6%B0%94%E7%AE%A1%E5%93%AE%E5%96%98%E8%AF%8A%E6%96%AD%E4%B8%8E%E9%98%B2%E6%B2%BB%E6%8C%87%E5%8D%97%282016%E5%B9%B4%E7%89%88%29.html | 中华医学会儿科学分会呼吸学组 | 2016
+child-flu2020.txt | 儿童流感诊断与治疗专家共识(2020年版) | https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E6%B5%81%E6%84%9F%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282020%E5%B9%B4%E7%89%88%29.html | 中华医学会儿科学分会呼吸学组 | 2020
+rabies-exposure2023.txt | 狂犬病暴露预防处置专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E7%8B%82%E7%8A%AC%E7%97%85%E6%9A%B4%E9%9C%B2%E9%A2%84%E9%98%B2%E5%A4%84%E7%BD%AE%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 中华医学会 | 
+neonatal-jaundice2014.txt | 新生儿高胆红素血症诊断和治疗专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E6%96%B0%E7%94%9F%E5%84%BF%E9%AB%98%E8%83%86%E7%BA%A2%E7%B4%A0%E8%A1%80%E7%97%87%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 中华医学会围产医学分会 | 
+t2d2017.txt | 中国2型糖尿病防治指南（2017年版） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD2%E5%9E%8B%E7%B3%96%E5%B0%BF%E7%97%85%E9%98%B2%E6%B2%BB%E6%8C%87%E5%8D%97%EF%BC%882017%E5%B9%B4%E7%89%88%EF%BC%89.html | 中华医学会糖尿病学分会 | 2017
+gastritis2017.txt | 中国慢性胃炎共识意见(2017年，上海) | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%85%A2%E6%80%A7%E8%83%83%E7%82%8E%E5%85%B1%E8%AF%86%E6%84%8F%E8%A7%81%282017%E5%B9%B4%EF%BC%8C%E4%B8%8A%E6%B5%B7%29.html | 中华医学会消化病学分会 | 2017
+hp5-2017.txt | 第五次全国幽门螺杆菌感染处理共识报告 | https://cmab.yiigle.com/uploads/guide_html/%E7%AC%AC%E4%BA%94%E6%AC%A1%E5%85%A8%E5%9B%BD%E5%B9%BD%E9%97%A8%E8%9E%BA%E6%9D%86%E8%8F%8C%E6%84%9F%E6%9F%93%E5%A4%84%E7%90%86%E5%85%B1%E8%AF%86%E6%8A%A5%E5%91%8A.html | 中华医学会消化病学分会幽门螺杆菌学组 | 
+gerd-primary.txt | 胃食管反流病基层诊疗指南（2019年） | https://cmab.yiigle.com/uploads/guide_html/%E8%83%83%E9%A3%9F%E7%AE%A1%E5%8F%8D%E6%B5%81%E7%97%85%E5%9F%BA%E5%B1%82%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882019%E5%B9%B4%EF%BC%89.html | 中华医学会 | 2019
+obesity-primary.txt | 肥胖症基层诊疗指南（2019年） | https://cmab.yiigle.com/uploads/guide_html/%E8%82%A5%E8%83%96%E7%97%87%E5%9F%BA%E5%B1%82%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882019%E5%B9%B4%EF%BC%89.html | 中华医学会 | 2019
+stroke-rehab2017.txt | 中国脑卒中早期康复治疗指南 | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E8%84%91%E5%8D%92%E4%B8%AD%E6%97%A9%E6%9C%9F%E5%BA%B7%E5%A4%8D%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97.html | 中华医学会神经病学分会 | 
+alc2018.txt | 酒精性肝病防治指南（2018更新版） | https://cmab.yiigle.com/uploads/guide_html/%E9%85%92%E7%B2%BE%E6%80%A7%E8%82%9D%E7%97%85%E9%98%B2%E6%B2%BB%E6%8C%87%E5%8D%97%EF%BC%882018%E6%9B%B4%E6%96%B0%E7%89%88%EF%BC%89.html | 中华医学会肝病学分会 | 2018
+child-cap2013.txt | 儿童社区获得性肺炎管理指南(2013修订)(上) | https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E7%A4%BE%E5%8C%BA%E8%8E%B7%E5%BE%97%E6%80%A7%E8%82%BA%E7%82%8E%E7%AE%A1%E7%90%86%E6%8C%87%E5%8D%97%282013%E4%BF%AE%E8%AE%A2%29%28%E4%B8%8A%29.html | 中华医学会儿科学分会呼吸学组 | 2013
+pci2016.txt | 中国经皮冠状动脉介入治疗指南(2016) | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E7%BB%8F%E7%9A%AE%E5%86%A0%E7%8A%B6%E5%8A%A8%E8%84%89%E4%BB%8B%E5%85%A5%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%282016%29.html | 中华医学会心血管病学分会 | 2016
+cvd-pp2023.txt | 中国心血管病一级预防指南 | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%BF%83%E8%A1%80%E7%AE%A1%E7%97%85%E4%B8%80%E7%BA%A7%E9%A2%84%E9%98%B2%E6%8C%87%E5%8D%97.html | 中华医学会心血管病学分会 | 
+# 未命中（cmab.yiigle.com 无同名 guide_html 文件，含全角/半角括号变体重试；未编造年份）:
+#   中国高血压防治指南（2024年修订版）
+#   国家基层高血压防治管理指南（2020版）
+#   中国心力衰竭诊断和治疗指南2024
+#   慢性冠脉综合征患者医疗管理中国指南（2018）
+#   心房颤动诊断和治疗中国指南
+#   经皮冠状动脉介入治疗指南（2025）
+#   中国2型糖尿病防治指南（2020年版）
+#   中国1型糖尿病诊治指南（2021版）
+#   中国糖尿病肾脏病防治指南（2021年版）
+#   中国胰岛素注射技术指南（2016版）
+#   痛风抗炎症治疗指南（2025版）
+#   咳嗽的诊断与治疗指南（2021）
+#   中国成人阻塞性睡眠呼吸暂停诊治指南（2018修订版）
+#   中国缺血性脑卒中和短暂性脑缺血发作二级预防指南2022
+#   中国帕金森病治疗指南（第四版）
+#   中国偏头痛诊断与治疗指南（2022版）
+#   重症肌无力诊断和治疗中国指南（2022版）
+#   中国阿尔茨海默病痴呆诊疗指南（2020年版）
+#   中国精神分裂症防治指南（第二版）
+#   中国抑郁障碍防治指南（第二版）
+#   中国慢性胃炎诊治共识意见（2017，上海）
+#   第六次全国幽门螺杆菌感染处理共识报告
+#   胃食管反流病治疗中国共识（2020）
+#   酒精性肝病防治指南（2018年更新版）
+#   肝硬化肝性脑病诊疗指南（2018年）
+#   自身免疫性肝炎诊断和治疗指南（2021）
+#   高尿酸血症相关疾病诊疗多学科专家共识（2023年版）
+#   中国类风湿关节炎诊疗指南（2022版）
+#   中国强直性脊柱炎诊疗指南
+#   中国系统性红斑狼疮诊疗指南
+#   糖皮质激素性骨质疏松症诊疗指南（2022）
+#   骨关节炎诊疗指南
+#   孕前和孕期保健指南（2018）
+#   中国绝经管理与绝经激素治疗指南（2023版）
+#   细菌性阴道病诊断和治疗专家共识
+#   子宫内膜异位症诊治指南（第三版）
+#   妊娠期铁缺乏和缺铁性贫血诊治指南
+#   复方口服避孕药临床应用专家共识（2025）
+#   儿童社区获得性肺炎管理指南（2013修订）
+#   中国儿童过敏性鼻炎诊疗临床实践指南
+#   儿童缺铁和缺铁性贫血防治建议
+#   抽动障碍诊断与治疗中国专家共识（2017版）
+#   中国银屑病诊疗指南（2023版）
+#   中国玫瑰痤疮诊疗指南（2021版）
+#   中国黄褐斑诊疗专家共识（2021版）
+#   中国儿童特应性皮炎诊疗指南（2023版）
+#   中国手癣和足癣诊疗指南（2026版）
+#   中国结节性湿疹诊疗指南
+#   中国白癜风诊疗专家共识
+#   中国甲状腺相关眼病诊断和治疗指南（2022年）
+#   中国白内障诊疗指南（2018年修订版）
+#   分泌性中耳炎诊断和治疗指南（2021修订版）
+#   鼻出血的诊断与治疗中国专家共识
+#   中国牙周炎诊疗指南（2023年版）
+#   颈椎病诊治与康复指南
+#   中国老年髋部骨折患者围手术期管理专家共识
+#   老年跌倒风险综合管理专家共识
+#   肿瘤放化疗相关中性粒细胞减少症规范化管理指南
+#   流行性感冒基层合理用药指南
+#   失眠基层合理用药指南
+#   幽门螺杆菌感染基层合理用药指南
+#   2型糖尿病基层合理用药指南
+#   国家基层高血压防治管理指南2020版
+#   心房颤动诊断和治疗中国指南（2023）
+#   中国持续葡萄糖监测临床应用指南（2018年版）
+#   咳嗽的诊断与治疗指南（2015版）
+#   中国缺血性脑卒中和短暂性脑缺血发作二级预防指南（2022）
+#   中国帕金森病治疗指南（第三版）
+#   幽门螺杆菌根除与胃癌防控的专家共识意见（2019年，上海）
+#   痛风基层诊疗指南（2019年）
+#   血脂异常基层诊疗指南（2018年）
+#   变应性鼻炎基层诊疗指南（2018年）
+#   中国高尿酸血症相关疾病诊疗多学科专家共识（2023年版）
+#   中国类风湿关节炎诊疗指南
+#   中国系统性红斑狼疮诊疗指南（2019）
+#   中国绝经管理与绝经激素治疗指南（2018年）
+#   中国银屑病诊疗指南（2023版）
+#   中国玫瑰痤疮诊疗指南（2021版）
+#   中国黄褐斑诊疗专家共识（2021版）
+#   中国儿童特应性皮炎诊疗共识（2023版）
+#   中国白癜风诊疗指南（2019）
+#   中国荨麻疹诊疗指南（2022版）
+# 不可达: 无（站点全程返回 200/404，未出现网络不可达；精选指南库 /webs/zhinan 条目详情需登录，getperinfo.html 仅返回登录壳页）

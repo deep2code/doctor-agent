@@ -1,0 +1,676 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%AD%90%E5%AE%AB%E8%85%BA%E8%82%8C%E7%97%85%E8%AF%8A%E6%B2%BB%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 子宫腺肌病诊治中国专家共识 - 中华妇产科杂志
+# 发布方/日期: 中华医学会妇产科学分会，中华妇产科杂志, 2020,55(06) : 376-383. DOI: 10.3760/cma.j；2020-06-25
+
+子宫腺肌病诊治中国专家共识
+中国医师协会妇产科医师分会子宫内膜异位症专业委员会
+中华妇产科杂志, 2020,55(06) : 376-383. DOI: 10.3760/cma.j.cn112141-20200228-00150
+子宫腺肌病是指子宫内膜（包括腺体和间质）侵入子宫肌层生长而产生的病变[1]；主要临床症状包括月经过多（甚至致严重贫血）、严重痛经和不孕，会对患者身心健康造成严重影响。子宫腺肌病好发于生育年龄妇女，发病率为7%~23%。子宫腺肌病的病因不清，目前仍无良好的临床分型，治疗手段有限，除子宫切除术外，保守性治疗的效果不能令人满意，还存在诸多争议。中国医师协会妇产科医师分会子宫内膜异位症专业委员会组织全国的专家，经过多次讨论，推出了我国首个子宫腺肌病诊治的专家共识以更好地为广大患者的生殖健康服务。
+一、子宫腺肌病的发病机制
+子宫腺肌病的病理生理机制不明，临床表现多样化，目前并无单一学说可以解释此复杂病症[2, 3]。主要的发病机制学说有：
+1. 子宫内膜基底部内陷及组织损伤修复学说：
+该学说可以解释临床上子宫腺肌病大部分好发于已生育、多产或有多次宫腔操作史的妇女。学说的主要内容包括：（1）子宫内膜-肌层结合带（JZ）的改变与在位内膜的内陷；（2）高雌激素、高蠕动状态与JZ微损伤。
+2. 苗勒管遗迹化生及成体干细胞分化学说：
+该学说可以解释本病部分见于年轻、无婚育史、无宫腔操作史的妇女以及某些子宫浆肌层局限性病灶其周围合并存在深部浸润型子宫内膜异位症结节的情况。该学说认为，子宫腺肌病起源于子宫肌层内的胚胎多能干细胞化生，包括苗勒管遗迹化生、来自经血逆流时种植在子宫肌层的子宫内膜上皮祖细胞和子宫内膜间质祖细胞分化。
+3. 炎症刺激学说：
+子宫腺肌病病灶中高表达炎症因子及神经源性介质即神经生长调节因子，两者相互作用，共同参与本病的发生和进展。该学说在一定程度上解释了子宫腺肌病的疼痛及异常出血机制，在位内膜的炎症因子表达异常升高也部分解释了子宫腺肌病继发不孕的机制。
+4. 其他：
+可能的机制还有上皮-间质转化学说、血管生成学说、遗传学说、免疫学说等。
+二、子宫腺肌病的临床表现
+子宫腺肌病的典型临床表现为继发性痛经且进行性加重、月经失调、子宫增大以及不孕，典型的临床表现对于临床诊断非常有价值；其临床症状可表现多样，复杂化及不典型的临床表现值得临床医师重视[4]。
+1. 痛经：
+是子宫腺肌病特异的临床症状。患者可有典型的继发性进行性加重的痛经，但少数痛经症状不典型；同时还可伴有性交痛或慢性盆腔痛等临床症状。
+2. 月经失调：
+可表现为月经过多、经期延长及月经前后点滴出血。月经过多最常见，严重时可致贫血。与子宫体积增大、子宫腔内膜面积增加及子宫肌壁间病灶影响子宫肌纤维收缩等有关。
+3. 子宫增大：
+是本病的固有症状、体征，患者几乎均有不同程度的子宫增大。
+4. 生育力低下：
+本病有20%以上的患者合并不孕；妊娠后出现流产、早产和死产的概率显著增高，相应的不良产科并发症包括胎膜早破、子痫前期、胎位异常、胎盘早剥和前置胎盘的发生率也增高。
+5. 其他相关症状：
+子宫增大可压迫邻近器官引起相关的临床症状，如压迫膀胱可引起尿路症状，如压迫肠管可引起肠刺激症状。长期疼痛以及不孕引起的精神心理相关的躯体障碍等。
+三、子宫腺肌病的分型
+除1882年Cullen提出至今仍沿用的弥漫性（diffuse uterine adenomyosis）与局灶性子宫腺肌病(focal adenomyosis)两种类型外，其他的子宫腺肌病分型目前仍存争论。本共识认为，子宫腺肌病目前可按影像学表现[5, 6]分为弥漫性子宫腺肌病与局灶性子宫腺肌病[包括子宫腺肌瘤（uterine adenomyoma）及子宫囊性腺肌病(uterine cystic adenomyosis；囊肿直径>1 cm)]，此外，特殊类型还有息肉样子宫腺肌病[包括子宫内膜腺肌瘤样息肉(adenomyomatous polyp of the endometrium)及非典型息肉样腺肌瘤（atypical polypoid adenomyoma, APA）]。
+1. 弥漫性子宫腺肌病：
+异位的子宫内膜腺体和间质在子宫肌层内形似小岛状、弥漫性生长，可以部分或完全累及子宫后壁和(或)前壁，导致子宫前后径增大，子宫对称或不对称性体积增加，呈球形。子宫剖面见子宫肌壁显著增厚且质地较硬，无子宫肌瘤的漩涡状结构，在子宫肌壁中可见粗厚肌纤维带和微囊腔，腔内偶有陈旧性血液。临床上以此型居多。
+2. 局灶性子宫腺肌病：
+包括子宫腺肌瘤和子宫囊性腺肌病。异位的子宫内膜腺体和间质在子宫肌层内局限性生长，与正常肌层组织结集形成结节或团块，类似子宫肌壁间肌瘤，称为子宫腺肌瘤。
+子宫囊性腺肌病的特征为子宫肌层内出现1个或多个囊腔，囊腔内含棕褐色陈旧性血性液体，囊腔内衬上皮、有子宫内膜腺体和间质成分，又称为囊性子宫腺肌瘤(cystic adenomyoma)或子宫腺肌病囊肿(intradural endometriotic cyst)。
+3. 特殊类型：
+（1）子宫内膜腺肌瘤样息肉，或称子宫腺肌瘤样息肉(adenomyomatous polyp of the uterus)、子宫内膜息肉样腺肌瘤（polypoid adenomyoma of the endometrium），其组织学特点是由子宫平滑肌纤维、子宫内膜腺体和子宫内膜间质交织构成。（2）APA，是1种较罕见的恶性潜能未定的宫腔内病变。该病细胞生长活跃，显微镜下见杂乱不规则的腺体，似子宫内膜复杂性增生，基质组成中含有大量的平滑肌细胞，而且腺体结构及细胞学形态存在不同程度的不典型性改变。
+四、子宫腺肌病的诊断
+患者的病史、临床症状、体征以及相关的辅助检查结果是诊断子宫腺肌病的重要依据，但诊断的“金标准”仍然是病理诊断。
+1. 详细询问病史：
+包括：（1）妊娠及分娩史，宫腔操作史包括人工流产、诊刮、宫腔镜手术等，子宫手术史（如子宫肌瘤剔除术等）；（2）生殖道畸形导致生殖道梗阻的病史；（3）子宫腺肌病或子宫内膜异位症家族史；（4）其他疾病史，如高催乳素血症等。
+2. 临床表现：
+①进行性加重的痛经；②月经过多和(或)经期延长；③不孕；④妇科检查，常可及子宫增大，呈球形，或有局限性结节隆起，质硬且有压痛，经期压痛更为明显。子宫常为后位，活动度差。如患者具有典型的临床表现，可以临床诊断。
+3. 影像学检查：
+主要包括超声、MRI及CT检查。
+（1）子宫腺肌病的超声诊断：
+子宫腺肌病的超声表现与其组织病理学表现密切相关[7]。超声可较清晰地显示与子宫腺肌病病理变化相应的声像图特征，且方便、价廉、易重复，为子宫腺肌病首选的影像学检查方式。超声检查诊断子宫腺肌病的准确性与MRI检查相近；经阴道超声检查诊断子宫腺肌病的敏感度、特异度和准确率分别为84.0%、91.9%和87.4%[8, 9]。
+子宫腺肌病的超声检查采用经阴道及经腹部均可，不能行经阴道超声检查者可经直肠超声检查。三维超声检查可加强超声对JZ的观察能力。
+①超声表现[5,7,10, 11]：(a)子宫增大、子宫前后壁不对称性增厚，多以子宫后壁及宫底增厚为著；(b)子宫肌层回声明显不均、粗糙；(c)受累的子宫肌层内有小囊肿或微囊肿，直径通常为1~5 mm；呈无回声或低回声，为子宫腺肌病较为特异的超声特征；(d)子宫内可见很多垂直且细、呈放射状排列的扇形声影，又称百叶窗帘征或铅笔状声影；(e)子宫内膜-肌层分界不清，内膜下线状、芽状或岛状高回声结节；(f)彩色多普勒血流显像（CDFI）显示子宫肌层受累区域血流信号增加、血流走行为穿入血流方式；(g)三维超声显示JZ增厚、不规则、中断或难以分辨。
+②超声分型：根据病灶特点和累及范围可分为弥漫性与局灶性子宫腺肌病，局灶性子宫腺肌病包括子宫腺肌瘤、子宫囊性腺肌病。
+③鉴别诊断：超声检查中子宫腺肌病需与子宫肌瘤、子宫肌层局部收缩及子宫内膜癌的肌层浸润等相鉴别。
+（2）子宫腺肌病的MRI诊断：
+MRI由于其图像直观、无操作者依赖性、多参数多平面成像、自身的软件和硬件快速发展等优势，已经越来越多地应用于子宫腺肌病的诊断、分型及药物治疗后的连续监测。
+①子宫腺肌病的MRI典型表现：子宫弥漫增大，轮廓光滑，在T2加权像病灶显示较清晰，为子宫肌层内边界欠清的低信号病灶，与子宫内膜毗邻，与JZ分界不清；也可以表现为JZ的增粗或扭曲。肌层内的病灶表现为多发点状高信号，这些点状高信号在组织病理学上对应增生的异位内膜，而周围的低信号区域对应于子宫肌层的平滑肌增生。T1加权像对病灶显示稍差，但有出血的灶性组织可表现为高信号。
+②子宫腺肌病的MRI分型：基于MRI的成像优势，学者们将子宫腺肌病MRI下多种多样的表现[12, 13]尝试进行分型，这些分型各有优点和不足，还未形成界定明确、临床指导意义强、又便于推广的分型[6]。其中报道较多的分型有：Kishi在2012年提出的四亚型分型[6]及Bazot提出的更为复杂的A~K型11亚型的分型[13]。后者的分型相对复杂，是目前最新和全面的分型，其接受度还有待更多的临床验证。
+4. 实验室检查：
+主要是血CA125水平升高。
+5. 子宫腺肌病的确诊仍然需要组织病理学。
+五、子宫腺肌病的药物治疗
+缓解疼痛、减少出血和促进生育是子宫腺肌病的主要治疗目标。但药物治疗的疗效是暂时性的，停药后症状复发，因此需要长期使用。药物治疗前应当充分知情告知。目前可用于子宫腺肌病治疗的药物主要有：
+1. 非甾体类抗炎药（NSAID）：
+主要用于缓解子宫腺肌病的疼痛，以及减少月经量。副作用：主要为胃肠道反应，偶有肝肾功能异常。长期应用要警惕胃溃疡的可能。
+2. 口服避孕药：
+主要用于缓解子宫腺肌病的疼痛，以及减少月经量。副作用：较少，偶有消化道症状或肝功能异常。40岁以上或有高危因素（如糖尿病、高血压、血栓史及吸烟）的患者，要警惕血栓栓塞的风险。
+3. 口服孕激素类药物：
+可缓解子宫腺肌病的疼痛，以及减少月经量。其中，地诺孕素（dienogest）是1种新型合成孕激素，作用机制：通过负反馈作用中度抑制促性腺激素的分泌，造成低雌激素的内分泌环境；抑制子宫内膜增生，抑制子宫内膜中的炎症反应和抑制内膜血管生成。副作用主要是子宫不规则出血，其他少见副作用包括体重增加、头痛、乳房胀痛等。
+4. 促性腺激素释放激素激动剂(GnRH-a)：
+可以有效、快速缓解疼痛、治疗月经过多以及缩小子宫体积。GnRH-a用药剂量及注意事项同子宫内膜异位症的治疗[1]。GnRH-a也可作为大子宫或合并贫血患者的术前预处理及术后巩固治疗。
+副作用：主要是低雌激素血症引起的绝经相关症状如潮热、阴道干燥、性欲降低、失眠及抑郁等，长期应用则有骨质丢失的可能。副作用的治疗：包括联合调节、反向添加治疗，详见《子宫内膜异位症的诊治指南》[1]。
+5. 左炔诺孕酮宫内缓释系统（LNG-IUS）：
+LNG-IUS放置方便，可以持续缓释左炔诺孕酮5年。临床应用表明，LNG-IUS对子宫腺肌病痛经[14, 15, 16]、慢性盆腔痛[17]和月经过多[18, 19, 20]均有效，已经得到多个指南的推荐以及患者的认可，其效果优于复方口服避孕药。可作为月经过多的子宫腺肌病患者的首选治疗[21]。副作用：月经模式的改变，包括淋漓出血及闭经；子宫腺肌病患者中LNG-IUS使用后的脱落和下移时有发生，使用前应让患者充分知情。
+放置时机：（1）直接放置：可于月经来潮的7 d内，避开月经量多时放置；（2）对于子宫过大、重度痛经或严重贫血患者，可在GnRH-a预处理后再放置；（3）术中放置。对于月经不规律或影像学提示子宫内膜异常者应在放置前诊刮或宫腔镜检查并诊刮以除外子宫内膜病变。
+6. 中医中药：
+以缓解痛经为主。
+7. 其他可用于减少出血的药物：
+云南白药、氨甲环酸[21]。氨甲环酸有血栓形成的可能性，对于有血栓形成倾向及有心肌梗死倾向者应慎用。对缺铁性贫血者止血的同时还应使用铁剂，同时服用维生素C可提高铁的吸收率。
+子宫腺肌病药物治疗的选择取决于患者的年龄、症状严重程度和生育要求，药物治疗时需个体化与规范化结合、长期疗效与不良反应兼顾。同子宫内膜异位症一样，子宫腺肌病患者也需要长期管理甚至终身管理。
+六、子宫腺肌病的手术治疗
+1. 子宫全切除术：
+有症状的子宫腺肌病患者的根治性治疗是子宫全切除术，可以经腹腔镜、开腹或经阴道完成，手术路径的选择基于子宫大小、盆腔粘连情况等多种因素的考虑。需要指出的是，应避免子宫次全切除术，因为有子宫颈或直肠阴道隔病灶复发的报道[22, 23]。
+2. 保留子宫的手术：
+从缓解症状和促进生育考虑，子宫腺肌病患者应首先选择药物治疗；对于无法耐受长期药物治疗、药物治疗失败的生育年龄患者，可以选择保留子宫的手术，即保留生育功能的手术（fertility-sparing procedures）。子宫腺肌病保留子宫的手术分为：局灶性子宫腺肌病的腺肌瘤切除术（adenomyomectomy）、弥漫性子宫腺肌病的病灶减少术（cytoreductive surgery）以及子宫内膜消融或切除术。目前有经腹腔镜、开腹及机器人辅助的腹腔镜下腺肌瘤切除术的报道。与子宫肌瘤不同，子宫腺肌瘤与正常肌层分界并不清楚，病灶难以切净，这是术后疼痛复发的主要原因，疼痛复发与残留的病灶大小有一定的相关性[24]。对于弥漫性子宫腺肌病的病灶减少术也有多种术式的报道，子宫壁上的切口可以是垂直的、对角的、H形切口[25, 26]，子宫重建的术式有U形缝合、“重叠法”（overlapping flaps）、“三瓣法”（triple flaps）等。为了延缓或减少术后的复发，需要尽可能多地切除病灶，可能进入宫腔，切除病灶后子宫壁的重塑比较困难，因此更适于开腹手术完成。
+保留子宫的手术后症状的缓解、复发、生育的结局以及子宫破裂的风险是应该关注的问题。子宫腺肌病病灶部分切除的研究中报道的复发率为19%[27]。荟萃分析显示，子宫囊性腺肌病的切除手术后妊娠率最高，局灶性子宫腺肌病手术后的妊娠率比弥漫性高、子宫破裂率低[23,28]。子宫腺肌病保守性手术后妊娠子宫破裂的风险（6.8%）远高于子宫肌瘤剔除术（约0.26%）[29, 30]。此外，子宫腺肌病手术后还有妊娠胎盘植入等高危妊娠的报道[23,30]。因此，本共识推荐在子宫腺肌病保守性手术前与患者充分沟通手术的利弊和可能的风险；从有利于病灶切除和修复子宫壁的角度，开腹手术更为适宜。
+3. 子宫腺肌病的宫腔镜治疗：
+为子宫腺肌病的保守性手术治疗。宫腔镜不推荐作为子宫腺肌病的一线治疗方案，仅在部分局灶性及浅层弥漫性子宫腺肌病中有一定的治疗作用。可在微型器械或双极电极下去除囊性出血灶和直径<1.5 cm的浅层子宫腺肌瘤。在腺肌瘤切除术中要注意动态监护正常子宫肌层的完整性，防止切除过深。电切镜下治疗适用于去除直径<1.5 cm的浅层子宫腺肌病结节及弥漫性子宫腺肌病。子宫内膜-肌层切除术(endomyometrectomy)为治疗浅层子宫腺肌病的手段之一，成功率不尽相同，也可能造成异位内膜播散，从而加重病情。深层弥漫性子宫腺肌病无法通过宫腔镜治疗。
+七、子宫腺肌病的介入治疗
+子宫腺肌病的介入治疗包括：子宫动脉栓塞术（uterine arterial embolization, UAE）、高强度聚焦超声（high intensity focused ultrasound，HIFU）消融治疗及其他（如射频或微波消融等）治疗方法。在临床应用中，应充分认识这些方法仅能缩小病灶、改善症状，而不能切除病灶、无法获取病变组织进行病理检查，故应严格掌握治疗的适应证。
+1. UAE：
+UAE属于血管介入治疗的1种，通过栓塞双侧子宫动脉，导致异位内膜缺血、缺氧，发生坏死、吸收，从而达到减小病灶及子宫体积、减轻临床症状的治疗作用。医师及患者均应充分了解治疗过程及风险。符合下列情况之一的患者可选择UAE治疗方法[31, 32]：(1)子宫腺肌病导致大量急性子宫出血时；(2)非手术治疗失败或拒绝手术治疗或有多次手术史而再次手术治疗难度大或患者难以耐受手术治疗时。
+禁忌证：(1)有介入治疗的一般禁忌证，如造影剂过敏、全身严重感染或穿刺点皮肤感染；严重的心、肝、肾等重要器官功能障碍无法耐受治疗；严重凝血功能障碍；严重的免疫抑制者。(2)月经期、妊娠期或哺乳期子宫腺肌病患者。(3)合并急性泌尿、生殖系统感染者。(4)已知或可疑子宫腺肌病恶变，或合并子宫及其他可疑或已知的恶性病变者，除病变引起急性大量子宫出血时可行介入治疗止血外，一般不行介入治疗控制其他症状。(5)经CT血管成像数字化三维重建提示病灶主要由双侧卵巢动脉供血者。
+术中术后并发症详见《子宫肌瘤及子宫腺肌病子宫动脉栓塞术治疗专家共识》[31]。
+对妊娠及生育的影响：UAE对妊娠及生育的影响仍不明确，有UAE后正常妊娠并分娩的报道，但UAE有导致卵巢功能下降的风险[33]，考虑与栓塞剂沿血流至卵巢动脉有关，且与患者年龄呈正相关。UAE可能造成子宫内膜粘连，可能增加不良妊娠结局的风险。因此，对于有生育要求的子宫腺肌病患者应慎重采用UAE治疗。
+2. HIFU：
+HIFU是1种新型的无创治疗方法，应用超声波良好的穿透性、方向性和可聚焦性的特点，将超声波自体外聚焦于体内靶区域，使组织温度骤升至65 ℃以上产生热效应，导致病变局部组织细胞发生凝固性坏死，同时产生空化效应及机械效应，以达到不损伤周围组织但破坏病灶的效果。
+适应证[34]：（1）有症状的子宫腺肌病；（2）病变处肌壁厚度>3 cm；（3）绝经前妇女；（4）机载影像学设备定位成功，有足够声通道；（5）患者要求HIFU治疗。
+禁忌证[34]：（1）盆腔急性感染或慢性感染急性发作；（2）月经期、妊娠（包括可疑妊娠）及哺乳期；（3）不排除恶变或合并需行子宫切除的良恶性病变；（4）下腹部多次手术史或腹壁抽脂术史致瘢痕形成严重者；（5）预定位超声波入射通道内有不能推离的肠管；（6）严重的心、脑、肺等重要器官功能障碍，无法耐受治疗者；（7）患者无法正常交流或无法耐受俯卧位。
+并发症主要有治疗区域皮肤水泡、橘皮样改变等，下腹部疼痛，阴道排液及流血，骶尾部和(或)臀部疼痛，下肢感觉异常等[34, 35, 36]。
+对妊娠的影响：目前缺乏高质量的临床证据，有研究报道未增加不孕、流产等产科并发症的发生，但也有治疗后子宫内膜损伤的病例报道。因此若患者有生育要求，应严格把握指征，做好治疗前的影像学评估，严格控制消融剂量及范围，避免损伤子宫内膜、影响治疗后的妊娠。
+3. 微波（射频）消融：
+微波或射频消融也是热消融治疗方法，在子宫腺肌病的临床应用较少，缺乏对妊娠影响的随机对照大样本量研究。考虑微波（射频）消融不排除造成子宫内膜热损伤的可能，且有文献报道经阴道射频消融后出现宫腔粘连[37]，对于有生育要求的患者应慎重选择。
+子宫腺肌病诊治流程见图1。
+点击查看大图
+图1
+子宫腺肌病诊治流程图
+注：GnRH-a表示促性腺激素释放激素激动剂
+图1
+子宫腺肌病诊治流程图
+八、子宫腺肌病与不孕
+子宫腺肌病对生育力会产生不良影响，机制主要包括JZ功能障碍、子宫内膜容受性改变、ER和PR调节失衡、宫腔氧自由基水平异常、免疫调节紊乱等。子宫腺肌病对体外受精-胚胎移植（IVF-ET）的结局也有不良影响，表现为种植率、临床妊娠率、持续妊娠率、活产率下降，流产率升高，早产、胎膜早破等不良产科结局的发生概率明显增加[38, 39, 40]。
+子宫腺肌病合并不孕者，应首先详细询问病史，包括不孕年限、临床症状、诊疗经过，是否有复发性流产或反复胚胎种植失败病史，是否合并盆腔子宫内膜异位症、子宫肌瘤、子宫内膜息肉、输卵管积水等。需行子宫腺肌病评估和全面的生育力评估，包括卵巢储备功能（年龄、窦卵泡数、抗苗勒管激素、基础内分泌水平）、输卵管通畅性检查、男方精液分析等。评估卵巢储备功能对于辅助生殖治疗方式的选择尤为重要。
+辅助生殖治疗方式的选择应个体化，需结合患者年龄、卵巢储备功能、子宫腺肌病病情严重程度、输卵管通畅性、男方因素等其他不孕因素评估患者的生育力，结合患者意愿综合考虑，以期在最短时间内实现妊娠。一般情况下，推荐IVF-ET。若患者年轻（<35岁），生育力良好，具备自然试孕条件，子宫腺肌病病情较轻，可在GnRH-a治疗3~6个月后自然试孕或促排卵指导同房试孕半年，如未孕，可考虑再推荐IVF-ET。一般推荐全胚冷冻策略，经药物或保留生育功能手术治疗，待子宫基本恢复正常或到达可妊娠时限后，行冷冻胚胎移植。IVF促排卵方案也应以个体化为原则，对于卵巢储备功能下降、高龄（≥35岁）或反复胚胎种植失败者，建议采用促性腺激素释放激素拮抗剂、微刺激等非降调方案，先行IVF或卵母细胞胞质内单精子注射法（ICSI）积累冷冻胚胎。冷冻胚胎移植前的预处理方法，首选GnRH-a治疗2~6个周期，也可选用LNG-IUS或其他药物。反复胚胎种植失败的年轻患者可从手术中获益，但≥40岁者手术获益不明显[41]。建议保守性手术仅作为症状严重或反复辅助生殖治疗失败者的候选方案，如患者术后仍不愿意接受辅助生殖治疗，可行GnRH-a治疗后自然试孕。
+子宫腺肌病合并不孕诊治流程见图2。
+点击查看大图
+图2
+子宫腺肌病合并不孕诊治流程图
+注：IVF-ET表示体外受精-胚胎移植；GnRH-a表示促性腺激素释放激素激动剂
+图2
+子宫腺肌病合并不孕诊治流程图
+九、子宫腺肌病恶变的相关问题
+子宫腺肌病的恶变十分罕见，缺乏典型的临床表现，易被忽略。其临床表现主要有：绝经前异常子宫出血或绝经后阴道流血，下腹部或盆腔疼痛。恶变机制不明，可能的危险因素包括：年龄、初潮早、月经周期短、分娩年龄小、多产、妊娠早期刮宫、肥胖、他莫昔芬摄入史等。
+1. 诊断：
+病理诊断是子宫腺肌病恶变的“金标准”，其基础是Sampson的标准和Scott的补充标准，（1）在子宫内膜及盆腔其他部位无癌灶；（2）确保恶性病变来源于子宫腺肌病的上皮或间叶部分，而不是来自其他部位的恶性侵袭或转移；（3）子宫内膜腺体或基质细胞位于肿瘤周围，或有证据表明子宫腺肌病的存在；（4）有证据表明腺体结构从良性转变为恶性。
+子宫腺肌病恶变的主要病理类型为子宫内膜样腺癌，其他病理类型有浆液性癌、苗勒腺肉瘤、透明细胞腺癌、苗勒黏液性交界性肿瘤（MMBT）及子宫内膜间质肉瘤，也有恶变为腺鳞癌的个例报道。
+2. 治疗：
+早发现、早诊断至关重要。治疗方式为手术+术后化疗，手术为子宫全切除、双侧输卵管卵巢切除、盆腔及腹主动脉旁淋巴结切除，然后紫杉醇联合卡铂辅助化疗。
+3. 预防：
+加强子宫腺肌病患者的定期随访是早发现恶变，甚至阻止恶变的重要机制。
+十、积极开展子宫腺肌病患者教育
+1. 内容：
+月经相关的生理知识，子宫腺肌病的症状、高危因素等，各项检查的必要性，各种治疗方案及其优缺点，心理健康辅导。
+2. 方式及途径：
+可在医院内外、传统及新媒体平台上通过健康讲堂、制作健康教育宣传手册、播放科普视频、患者沙龙等方式宣教；鼓励并指导患者记录自己症状的变化。患者健康教育，不仅可增加医师与患者的交流，消除不良情绪，相互补充对疾病的认识，同时便于即时了解患者的状态，找寻更佳的治疗方法。
+本共识专家组名单（按姓氏拼音顺序）：陈子江（山东大学附属生殖医院）、戴晴（中国医学科学院北京协和医院）、戴毅（中国医学科学院北京协和医院）、邓成艳（中国医学科学院北京协和医院）、狄文（上海交通大学医学院附属仁济医院）、方小玲（中南大学湘雅二医院）、冯力民（首都医科大学附属北京天坛医院）、郭红燕（北京大学第三医院）、华克勤（复旦大学附属妇产科医院）、纪妹（郑州大学第一附属医院）、郎景和（中国医学科学院北京协和医院）、冷金花（中国医学科学院北京协和医院）、陆菁菁（中国医学科学院北京协和医院）、马彩虹（北京大学第三医院）、彭超（北京大学第一医院）、孙赟（上海交通大学医学院附属仁济医院）、王国云（山东大学齐鲁医院）、王建（空军医科大学西京医院）、王立杰（山东大学齐鲁医院）、许泓（上海交通大学医学院附属国际和平妇幼保健院）、薛敏（中南大学湘雅三医院）、薛晴（北京大学第一医院）、颜磊（山东大学附属生殖医院）、姚书忠（中山大学附属第一医院）、张俊吉（中国医学科学院北京协和医院）、张信美（浙江大学医学院附属妇产科医院）、周应芳（北京大学第一医院）
+秘书：戴毅（中国医学科学院北京协和医院）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+1
+中华医学会妇产科学分会子宫内膜异位症协作组.
+子宫内膜异位症的诊治指南[J].
+中华妇产科杂志,
+2015,
+50(
+03):
+161-
+169.
+DOI: 10.3760/cma.j.issn.0529-567x.2015.03.001.
+2
+VannucciniS, TostiC, CarmonaF, et al.
+Pathogenesis of adenomyosis: an update on molecular mechanisms[J].
+Reprod Biomed Online,
+2017,
+35(
+05):
+592-
+601.
+DOI: 10.1016/j.rbmo.2017.06.016.
+3
+García-SolaresJ, DonnezJ, DonnezO, et al.
+Pathogenesis of uterine adenomyosis: invagination or metaplasia?[J].
+Fertil Steril,
+2018,
+109(
+03):
+371-
+379.
+DOI:10.1016/j.fertnstert.2017.12.030.
+4
+GordtsS, GrimbizisG, CampoR.
+Symptoms and classification of uterine adenomyosis, including the place of hysteroscopy in diagnosis[J].
+Fertil Steril,
+2018,
+109(
+03):
+380-
+388.e1.
+DOI: 10.1016/j.fertnstert.2018.01.006.
+5
+Van den BoschT, de BruijnAM, de LeeuwRA, et al.
+Sonographic classification and reporting system for diagnosing adenomyosis[J].
+Ultrasound Obstet Gynecol,
+2019,
+53(
+05):
+576-
+582.
+DOI: 10.1002/uog.19096.
+6
+KishiY, SuginamiH, KuramoriR, YabutaM, et al.
+Four subtypes of adenomyosis assessed by magnetic resonance imaging and their specification[J].
+Am J Obstet Gynecol,
+2012,
+207(
+02):
+114.
+e1-e7.
+DOI: 10.1016/j.ajog.2012.06.027.
+7
+Van den BoschT, Van SchoubroeckD.
+Ultrasound diagnosis of endometriosis and adenomyosis: State of the art[J].
+Best Pract Res Clin Obstet Gynaecol,
+2018,
+51:
+16-
+24.
+DOI: 10.1016/j.bpobgyn.2018.01.013.
+8
+SamM, RaubenheimerM, ManoleaF, et al.
+Accuracy of findings in the diagnosis of uterine adenomyosis on ultrasound[J].
+Abdom Radiol (NY),
+2020,
+45(
+03):
+842-
+850.
+DOI: 10.1007/s00261-019-02231-9.
+9
+CunninghamRK, HorrowMM, SmithRJ, et al.
+Adenomyosis: a sonographic diagnosis[J].
+Radiographics,
+2018,
+38(
+05):
+1576-
+1589.
+DOI: 10.1148/rg.2018180080.
+10
+Van den BoschT, DueholmM, LeoneFP, et al.
+Terms, definitions and measurements to describe sonographic features of myometrium and uterine masses: a consensus opinion from the Morphological Uterus Sonographic Assessment (MUSA) group[J].
+Ultrasound Obstet Gynecol,
+2015,
+46(
+03):
+284‐
+298.
+DOI:10.1002/uog.14806.
+11
+PinzautiS, LazzeriL, TostiC, et al.
+Transvaginal sonographic features of diffuse adenomyosis in 18-30-year-old nulligravid women without endometriosis: association with symptoms[J].
+Ultrasound Obstet Gynecol,
+2015,
+46(
+06):
+730-
+736.
+DOI: 10.1002/uog.14834.
+12
+TamaiK, TogashiK, ItoT, et al.
+MR imaging findings of adenomyosis: correlation with histopathologic features and diagnostic pitfalls[J].
+Radiographics,
+2005,
+25(
+01):
+21-
+40.
+DOI: 10.1148/rg.251045060.
+13
+BazotM, DaraïE.
+Role of transvaginal sonography and magnetic resonance imaging in the diagnosis of uterine adenomyosis[J].
+Fertil Steril,
+2018,
+109(
+03):
+389-
+397.
+DOI: 10.1016/j.fertnstert.2018.01.024.
+14
+李雷, 冷金花, 戴毅, 等.
+LNG-IUS治疗子宫腺肌病相关重度痛经的前瞻性研究[J].
+中华妇产科杂志,
+2016,
+51(
+05):
+345-
+351.
+DOI: 10.3760/cma.j.issn.0529-567x.2016.05.005.
+15
+LiL, LengJ, JiaS, et al.
+Treatment of symptomatic adenomyosis with the levonorgestrel-releasing intrauterine system[J].
+Int J Gynaecol Obstet,
+2019,
+146(
+03):
+357‐
+363.
+DOI:10.1002/ijgo.12887.
+16
+ImaiA, MatsunamiK, TakagiH, et al.
+Levonorgestrel-releasing intrauterine device used for dysmenorrhea: five-year literature review[J].
+Clin Exp Obstet Gynecol,
+2014,
+41(
+05):
+495‐
+498.
+17
+Bayoglu TekinY, DilbazB, AltinbasSK, et al.
+Postoperative medical treatment of chronic pelvic pain related to severe endometriosis: levonorgestrel-releasing intrauterine system versus gonadotropin-releasing hormone analogue[J].
+Fertil Steril,
+2011,
+95(
+02):
+492-
+496.
+DOI: 10.1016/j.fertnstert.2010.08.042.
+18
+Heliövaara-PeippoS, HurskainenR, TeperiJ, et al.
+Quality of life and costs of levonorgestrel-releasing intrauterine system or hysterectomy in the treatment of menorrhagia: a 10-year randomized controlled trial[J].
+Am J Obstet Gynecol,
+2013,
+209(
+06):
+535.
+e1-535.e14.
+DOI: 10.1016/j.ajog.2013.08.041.
+19
+KingmanCE, KadirRA, LeeCA, et al.
+The use of levonorgestrel-releasing intrauterine system for treatment of menorrhagia in women with inherited bleeding disorders[J].
+BJOG,
+2004,
+111(
+12):
+1425-
+1428.
+DOI: 10.1111/j.1471-0528.2004.00305.x.
+20
+李雷, 冷金花, 史精华, 等.
+LNG-IUS治疗子宫腺肌病相关经量过多的前瞻性研究[J].
+中华妇产科杂志,
+2016,
+51(
+06):
+424-
+430.
+DOI: 10.3760/cma.j.issn.0529-567x.2016.06.005.
+21
+中华医学会妇产科学分会妇科内分泌学组.
+异常子宫出血诊断与治疗指南[J].
+中华妇产科杂志,
+2014,
+49(
+11):
+801-
+806.
+DOI: 10.3760/cma.j.issn.0529-567x.2014.11.001.
+22
+PepasL, DeguaraC, DavisC.
+Update on the surgical management of adenomyosis[J].
+Curr Opin Obstet Gynecol,
+2012,
+24(
+04):
+259-
+264.
+DOI: 10.1097/GCO.0b013e328355213a.
+23
+OliveiraMAP, CrispiCP, BrolloLC, et al.
+Surgery in adenomyosis[J].
+Arch Gynecol Obstet,
+2018,
+297(
+03):
+581‐
+589.
+DOI:10.1007/s00404-017-4603-6.
+24
+SunAJ, LuoM, WangW, et al.
+Characteristics and efficacy of modified adenomyomectomy in the treatment of uterine adenomyoma[J].
+Chin Med J (Engl),
+2011,
+124(
+09):
+1322‐
+1326.
+25
+FujishitaA, MasuzakiH, KhanKN, et al.
+Modified reduction surgery for adenomyosis. A preliminary report of the transverse H incision technique[J].
+Gynecol Obstet Invest,
+2004,
+57(
+03):
+132-
+138.
+DOI: 10.1159/000075830.
+26
+SaremiA, BahramiH, SalehianP, et al.
+Treatment of adenomyomectomy in women with severe uterine adenomyosis using a novel technique[J].
+Reprod Biomed Online,
+2014,
+28(
+06):
+753-
+760.
+DOI: 10.1016/j.rbmo.2014.02.008.
+27
+YounesG, TulandiT.
+Conservative surgery for adenomyosis and results: a systematic review[J].
+J Minim Invasive Gynecol,
+2018,
+25(
+02):
+265-
+276.
+DOI: 10.1016/j.jmig.2017.07.014.
+28
+TanJ, MoriartyS, TaskinO, et al.
+Reproductive outcomes after fertility-sparing surgery for focal and diffuse adenomyosis: a systematic review[J].
+J Minim Invasive Gynecol,
+2018,
+25(
+04):
+608‐
+621.
+DOI:10.1016/j.jmig.2017.12.020.
+29
+SizziO, RossettiA, MalzoniM, et al.
+Italian multicenter study on complications of laparoscopic myomectomy[J].
+J Minim Invasive Gynecol,
+2007,
+14(
+04):
+453-
+462.
+DOI: 10.1016/j.jmig.2007.01.013.
+30
+OsadaH.
+Uterine adenomyosis and adenomyoma: the surgical approach[J].
+Fertil Steril,
+2018,
+109(
+03):
+406‐
+417.
+DOI:10.1016/j.fertnstert.2018.01.032.
+31
+郎景和, 陈春林, 向阳, 等.
+子宫肌瘤及子宫腺肌病子宫动脉栓塞术治疗专家共识[J].
+中华妇产科杂志,
+2018,
+53(
+05):
+289-
+293.
+DOI: 10.3760/cma.j.issn.0529-567x.2018.05.001.
+32
+向阳.
+子宫动脉栓塞术治疗子宫肌瘤的相关问题[J].
+中国实用妇科与产科杂志,
+2008,
+24(
+01):
+28-
+30.
+33
+El ShamyT, AmerS, MohamedAA, et al.
+The impact of uterine artery embolization on ovarian reserve: a systematic review and meta-analysis[J].
+Acta Obstet Gynecol Scand,
+2020,
+99(
+01):
+16-
+23.
+DOI: 10.1111/aogs.13698.
+34
+ZhangL, RaoF, SetzenR.
+High intensity focused ultrasound for the treatment of adenomyosis: selection criteria, efficacy, safety and fertility[J].
+Acta Obstet Gynecol Scand,
+2017,
+96(
+06):
+707-
+714.
+DOI: 10.1111/aogs.13159.
+35
+ChenJ, ChenW, ZhangL, et al.
+Safety of ultrasound-guided ultrasound ablation for uterine fibroids and adenomyosis: a review of 9988 cases[J].
+Ultrason Sonochem,
+2015,
+27:
+671-
+676.
+DOI: 10.1016/j.ultsonch.2015.05.031.
+36
+FengY, HuL, ChenW, et al.
+Safety of ultrasound-guided high-intensity focused ultrasound ablation for diffuse adenomyosis: a retrospective cohort study[J].
+Ultrason Sonochem,
+2017,
+36:
+139-
+145.
+DOI: 10.1016/j.ultsonch.2016.11.022.
+37
+HaiN, HouQ, DingX, et al.
+Ultrasound-guided transcervical radiofrequency ablation for symptomatic uterine adenomyosis[J].
+Br J Radiol,
+2017,
+90(
+1069):
+20160119.
+DOI:10.1259/bjr.20160119.
+38
+SalimR, RirisS, SaabW, et al.
+Adenomyosis reduces pregnancy rates in infertile women undergoing IVF[J].
+Reprod Biomed Online,
+2012,
+25(
+03):
+273-
+277.
+DOI: 10.1016/j.rbmo.2012.05.003.
+39
+VercelliniP, ConsonniD, DridiD, et al.
+Uterine adenomyosis and in vitro fertilization outcome: a systematic review and meta-analysis[J].
+Hum Reprod,
+2014,
+29(
+05):
+964-
+977.
+DOI: 10.1093/humrep/deu041.
+40
+YounesG, TulandiT.
+Effects of adenomyosis on in vitro fertilization treatment outcomes: a meta-analysis[J].
+Fertil Steril,
+2017,
+108(
+03):
+483-
+490.e3.
+DOI: 10.1016/j.fertnstert.2017.06.025.
+41
+KishiY, YabutaM, TaniguchiF.
+Who will benefit from uterus-sparing surgery in adenomyosis-associated subfertility?[J].
+Fertil Steril,
+2014,
+102(
+03):
+802‐
+807.e1.
+DOI:10.1016/j.fertnstert.2014.05.028.
+贡献者信息
+中国医师协会妇产科医师分会子宫内膜异位症专业委员会
+通信作者
+冷金花
+Email：
+lengjenny@vip.sina.com
+作者声明
+引用本文：中国医师协会妇产科医师分会子宫内膜异位症专业委员会. 子宫腺肌病诊治中国专家共识[J]. 中华妇产科杂志, 2020, 55(6): 376-383. DOI: 10.3760/cma.j.cn112141-20200228-00150.
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-06-25
+收稿日期：2020-02-28
+本文编辑
+沈平虎
+Consensus
+Chinese experts' consensus on diagnosis and treatment of adenomyosis
+Published
+2020-06-25
+Cite as
+Chin J Obstet Gynecol, 2020,55(06): 376-383. DOI: 10.3760/cma.j.cn112141-20200228-00150
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+注：GnRH-a表示促性腺激素释放激素激动剂
+图1
+子宫腺肌病诊治流程图
+注：IVF-ET表示体外受精-胚胎移植；GnRH-a表示促性腺激素释放激素激动剂
+图2
+子宫腺肌病合并不孕诊治流程图
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华妇产科杂志2020年55卷06期
+文    题：子宫腺肌病诊治中国专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华妇产科杂志2020年55卷06期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

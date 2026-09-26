@@ -1,0 +1,1092 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E6%B5%81%E6%84%9F%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282020%E5%B9%B4%E7%89%88%29.html
+# 标题: 儿童流感诊断与治疗专家共识(2020年版) - 中华实用儿科临床杂志
+# 发布方/日期: 中华医学会儿科学分会呼吸学组，中华实用儿科临床杂志, 2020,35(17) : 1281-1288. DOI: 10.3760/cma；2020-09-05
+
+儿童流感诊断与治疗专家共识(2020年版)
+国家呼吸系统疾病临床医学研究中心
+中华医学会儿科学分会呼吸学组
+中华实用儿科临床杂志, 2020,35(17) : 1281-1288. DOI: 10.3760/cma.j.cn101070-20200224-00240
+流感是人类面临的主要公共健康问题之一，儿童是流感的高发人群及重症病例的高危人群。自2017年以来乙型流感出现了新的流行趋势，重症流感的表现形式也有所变化。为进一步提高儿童流感的诊断及治疗水平，中华医学会儿科学分会呼吸学组组织了我国流感防治研究领域的临床、病原学、流行病学及疾病预防控制等方面的专家，在总结既往流感诊疗方案和临床实践的基础上，参考国内外最新研究成果，在《儿童流感诊断与治疗专家共识(2015年版)》[1]的基础上，重新修订了儿童流感诊治共识，以提高对儿童流感的诊断防治水平，减轻流感对儿童健康及社会造成的危害。
+1 病原学及发病机制
+1.1 流感病毒病原学
+流感病毒属正黏病毒科(orthomyxoviridae)，为有包膜病毒。根据病毒内部的核蛋白(nucleocapside protein，NP)和基质蛋白(matrix protein，MP)抗原性的不同分为A(甲)、B(乙)、C(丙)、D(丁)4型[2]。A型流感病毒宿主范围广，能感染包括人、猪、马、狗、禽类和海豹等多种动物，并多次引起世界性的人流感大流行；B型流感病毒分为Victoria系和Yamagata系，在人和海豹中发现，可引起季节性流行和暴发，但不会引起世界性的大流行；C型流感病毒能在人和猪中分离到，但多以散发病例形式出现，一般不引起流行，且感染后症状较轻[2,3]；D型流感病毒主要感染猪、牛等，尚未发现感染人。
+目前已知A型流感病毒表面的血凝素蛋白(hemagglutinin，HA)有18种亚型(H1～H18)，神经氨酸酶蛋白(neuraminidase，NA)有11种亚型(N1～N11)，除H17N10和H18N11两种亚型仅在蝙蝠中发现，其余所有亚型均能在鸟类中检测到[2,4,5]。目前，引起流感季节性流行的病毒是A型中的H1N1、H3N2亚型及B型病毒的Victoria和Yamagata系。
+HA是流感病毒的主要抗原之一，能与宿主细胞表面的唾液酸受体结合，介导病毒颗粒进入细胞，能诱导宿主产生保护性中和抗体；NA参与子代病毒从细胞表面的释放，也是主要的抗流感药物——神经氨酸酶抑制剂的靶蛋白。基质蛋白2 (M2蛋白)为离子通道蛋白，参与病毒进入细胞后的脱壳，是烷胺类药物的靶蛋白[6]。流感病毒RNA的合成依赖于RNA聚合酶(RdRp)，RdRP由异三聚的PA、PB1、PB2三个亚基构成，其中Cap-依赖型核酸内切酶(CEN)，属于流感病毒聚合酶PA亚基；PB1作为RNA依赖型RNA聚合酶发挥作用。美国、日本等批准上市的巴洛沙韦是一种Cap-依赖型核酸内切酶抑制剂。
+流感病毒对热、酸碱和紫外线均敏感，通常56 ℃下30 min即可被灭活。病毒在pH值3.0以下或10.0以上环境时感染力很快被破坏。此外，流感病毒外层有包膜，对消毒剂和乙醚、氯仿、丙酮等有机溶剂均敏感，75%乙醇或1%碘伏作用30 min，均可灭活流感病毒[7]。
+1.2 发病机制
+感染人类的流感病毒的靶细胞主要是呼吸道黏膜上皮细胞[8]。流感病毒首先通过病毒表面的HA蛋白与宿主上、下呼吸道或肺泡上皮细胞的唾液酸(SAs)结合，然后病毒体进入宿主细胞内质网系统，与内质网解离后释放病毒核糖核蛋白复合体(vRNP)，通过细胞质运输到宿主细胞核。病毒RNA通过宿主细胞翻译系统合成流感病毒的蛋白和RNA，在宿主细胞膜组装成新的病毒体，通过出芽、剪切、释放等过程，形成新的病毒体[1,9]。在流感病毒感染过程中的不同环节，均有药物的作用靶点，见图1。
+点击查看大图
+图1
+流感病毒复制周期中抗病毒药物作用靶点
+Figure 1
+Inhibition of influenza virus replication cycle by antiviral medications
+图1
+流感病毒复制周期中抗病毒药物作用靶点
+Figure 1
+Inhibition of influenza virus replication cycle by antiviral medications
+流感病毒也可以感染其他细胞，包括某些免疫细胞，但感染人类的流感病毒HA抗原只能在呼吸道上皮细胞中分离产生新的感染性病毒子代[10]。流感病毒感染后1～3 d往往是决定预后的关键时期，跟宿主是否具有保护性抗体及自身免疫功能有关，在流感流行时小年龄的儿童和老年患者中尤为重要[11]。
+流感病毒感染呼吸道上皮细胞后，最初的致病机制包括病毒感染直接引起肺组织的炎症和免疫系统处理流感病毒感染时继发的炎症反应。这种炎症反应如果进一步加重，可导致肺组织的严重损伤，甚至引起急性呼吸窘迫综合征(acute respiratory distress syndrome，ARDS)[12]。
+儿童重症流感出现比例较高，可能与以下机制有关[13]：婴幼儿天然免疫系统发育不成熟，婴儿和儿童鼻部的炎性细胞因子水平显著高于成人[14]，机体免疫功能异常，如过度活化的Toll样受体3(TLR3)或肺巨噬细胞功能异常等，可导致过度的炎性反应[15,16]、合并细菌感染和宿主细胞能量代谢衰竭[17,18]
+儿童流感相关脑病，特别是急性坏死性脑病(acute necrotizing encephalopathy，ANE)的发病机制目前尚不清楚。
+2 流行病学
+2.1 传染源、传播途径及潜伏期
+流感患者和隐性感染者是流感的主要传染源，主要通过其呼吸道分泌物的飞沫传播，也可以通过口腔、鼻腔、眼睛等黏膜直接或间接接触传播。潜伏期常为1～4 d(平均2 d)，从潜伏期末到发病的急性期均有传染性。一般感染者在临床症状出现前24～48 h即可排出病毒，在发病后24 h内达到高峰[19]。成人和较大年龄儿童一般持续排毒3～8 d(平均5 d)，低龄儿童发病时的排毒量与成人无显著差异，但排毒时间更长。与成人相比，婴幼儿病例长期排毒很常见(1～3周)[20]。儿童在流感的流行和传播中具有重要作用，流感流行季节儿童的感染率和发病率通常最高，经常将流感病毒传给家庭成员，或作为传染源带入学校和社区[21]。
+2.2 流感的历史及流行特点
+在过去100年，全球共暴发5次全球性的流感大流行，分别为1918年至1919年"西班牙流感"[A(H1N1)]，1957年至1958年"亚洲流感"[A(H2N2)]，1968年至1969年"香港流感"[A(H3N2)]，1977年"俄罗斯流感"[A(H1N1)]和2009年甲型H1N1流感[A(H1N1)pdm09]；其中"西班牙流感"导致4 000万～5 000万人死亡。
+季节性流感在温带地区表现为每年冬春季流行和高发，热带地区流感的季节性呈高度多样化，既有半年或全年周期性流行，也有全年循环[22]。我国A型流感在北纬33度以北的北方省份呈冬季流行模式，北纬27度以南的最南方省份呈春季单一年度高峰，中纬度地区呈每年冬季和夏季的双周期高峰；而B型流感在我国大部分地区呈单一冬季高发[23]。B型流感在我国的流行强度整体低于A型，B/Yamagata系和B/Victoria系交替占优势，流行强度在各年间存在差异[24]。
+2.3 重点人群
+婴幼儿、老年人和慢性病患者是流感高危人群，患流感后出现严重疾病和死亡的风险较高[25,26]。流感所致儿童死亡多见于存在基础疾病儿童，包括神经系统疾病(如神经发育异常、神经肌肉疾病)、呼吸系统疾病(如哮喘)、心血管疾病(如先天性心脏病)、染色体病或基因缺陷病、肿瘤、糖尿病等，部分死亡病例无基础疾病，这部分儿童多<5岁，尤其是<2岁儿童[27,28]。
+2.4 儿童的流感疾病负担
+每年流感流行季节，儿童流感罹患率为20%～30%，某些高流行季节年感染率可高达50%左右[29,30]。北京市2017年至2018流感季节，0～4岁和5～14岁2个年龄组流感发病率最高，分别为33.0%和21.7%[31]。5岁以下儿童感染流感病毒后出现重症和住院的风险较高[32]，估计全球每年约有数万名5岁以下儿童死于流感相关呼吸道疾病[33]。流感流行还可引起大量学龄儿童缺课和父母缺勤，导致较高的超额死亡率，并可能造成沉重的社会和经济负担[34]。
+3 临床表现及诊断
+3.1 临床表现
+儿童流感多突然起病，主要症状为发热，体温可达39～40 ℃，可有畏寒、寒战，多伴头痛、全身肌肉酸痛、乏力、食欲减退等全身症状，常有咳嗽、咽痛、流涕或鼻塞、恶心、呕吐、腹泻等，儿童消化道症状多于成人，常见于乙型流感。婴幼儿流感的临床症状往往不典型。新生儿流感少见，但易合并肺炎，常有脓毒症表现，如嗜睡、拒奶、呼吸暂停等。大多数无并发症的流感患儿症状在3～7 d缓解，但咳嗽和体力恢复常需1～2周。
+重症患儿病情发展迅速，体温常持续在39 ℃以上，可快速进展为ARDS、脓毒症、脓毒性休克、心力衰竭、肾衰竭，甚至多器官功能障碍。主要死亡原因是呼吸系统并发症和流感相关性脑病或脑炎。合并细菌感染增加流感病死率，常见细菌为金黄色葡萄球菌、肺炎链球菌及其他链球菌属细菌[35,36]。
+3.2 并发症[37]
+3.2.1 肺炎及其他呼吸系统并发症
+肺炎是流感患儿最常见的并发症，多见于2岁以下婴幼儿，多于48 h内持续高热或起病2～3 d后体温逐渐升高，常有气促、喘息、发绀、呼吸困难，可伴有呕吐、腹泻等症状。胸片检查早期双肺呈点状或絮状不规则影，后期融合为小片或大片状阴影，可见气漏综合征，可以有塑型性支气管炎表现。
+流感肺炎可同时合并其他病毒、支原体等不同病原感染，合并细菌感染是病情严重和死亡的主要原因之一。
+还可出现其他呼吸系统并发症，如喉炎、气管炎、支气管炎等，也可使哮喘等呼吸系统基础疾病加重。
+3.2.2 神经系统并发症
+包括脑病、脑炎、脑膜炎、脊髓炎、吉兰-巴雷综合征(Guillain-Barre syndrome)等。ANE是一种相对少见、危及生命、快速进展的感染后急性脑病，多在流感病毒感染后12～72 h出现不同程度的意识障碍、惊厥，可在24 h内进展至昏迷、脑疝，甚至死亡。血清转氨酶水平不同程度升高，无高氨血症，脑脊液细胞数基本正常，蛋白增高。影像学显示多灶性脑损伤，包括双侧丘脑、脑室周围白质、内囊、壳核、脑干被盖上部和小脑髓质等。死亡率和致残率较高。
+3.2.3 心脏损伤
+部分患儿出现心肌酶升高，心电图改变，少数可能发生心肌炎甚至暴发性心肌炎。
+3.2.4 肌炎和横纹肌溶解
+急性肌炎是流感的一种相对少见的并发症，受累肌肉极度压痛，最常见于小腿肌肉，严重病例可出现肌肉肿胀和海绵样变性。血清磷酸肌酸酶显著增高，肌红蛋白升高，可引起肾衰竭。轻微的暂时性肌炎伴肌酸激酶轻度升高较典型急性肌炎更常见。
+3.2.5 其他并发症
+中耳炎较常见，有10%～50%的患儿会并发中耳炎，中耳炎的典型发病时间为流感症状出现后3～4 d。肝脏损害多表现为转氨酶异常、继发性硬化性胆管炎等。流感病毒感染后可引起免疫功能紊乱，尤以CD4比例降低明显。还可出现低钾血症等电解质紊乱等。重症病例可出现肌酐水平增高，甚至溶血尿毒综合征、急性肾小球肾炎、急性肾损伤等。危重症病例可出现脓毒性休克、噬血细胞综合征，危及生命。
+3.3 实验室检查
+3.3.1 血常规检查
+白细胞总数正常或减少，C反应蛋白(CRP)可正常或轻度增高。合并细菌感染时，白细胞和中性粒细胞总数增高[38]。重症病例淋巴细胞计数明显降低。
+3.3.2 血生化
+肝酶、乳酸脱氢酶、肌酸激酶、肌酸激酶同工酶可升高。
+3.3.3 脑脊液
+中枢神经系统受累时脑脊液细胞数和蛋白可正常或升高。ANE典型表现为细胞数大致正常，蛋白升高。
+3.3.4 影像学
+合并肺炎时可表现为肺内斑片影、磨玻璃影、双侧或多叶段渗出性病灶或实变，少数病例可见胸腔积液。
+3.3.5 病原学检测
+流感的病原学检测方法主要包括抗原检测、核酸检测和病毒分离与鉴定，标本类型包括鼻(咽)拭子、鼻咽吸取物及肺泡灌洗液等呼吸道标本。高质量的合格呼吸道标本是病原学诊断的基础。呼吸道标本的采集规范见《儿童呼吸道感染微生物检验标本采集转运与检测建议(病毒篇)》[39]。
+3.3.5.1 流感病毒抗原和核酸检测
+抗原和核酸检测是临床上主要的流感实验室诊断方法。由于抗原检测的敏感性较低，其阴性不能除外流感病毒感染。在流感流行季节，所有流感病毒抗原检测阴性的呼吸道感染住院患儿，有条件的情况下均建议进行核酸检测。病毒分离虽是流感病例确诊的金标准，但其费时费力，不适合临床中流感病毒感染的实验室诊断。呼吸道标本流感病毒检测方法比较见表1[40]。
+点击查看表格
+表1
+呼吸道标本的流感诊断方法比较
+Table 1
+Comparison of methods for influenza diagnosis in respiratory specimens
+表1
+呼吸道标本的流感诊断方法比较
+Table 1
+Comparison of methods for influenza diagnosis in respiratory specimens
+检测类型
+方法
+检测的流感病毒
+鉴别甲型流感病毒亚型
+报告结果时间
+性能
+备注
+抗原检测
+快速流感诊断试验
+抗原检测
+甲型或乙型流感病毒抗原
+否
+10～15 min
+低至中度敏感性；高特异性
+对标本质量要求较高，免疫荧光法要求有一定量的呼吸道上皮细胞，否则会造成假阴性结果。鼻咽吸出物标本优于鼻咽拭子
+直接或间接免疫荧光法
+抗原检测
+甲型或乙型流感病毒抗原
+否
+1～4 h
+中度敏感性；高特异性
+核酸检测
+快速核酸检测法
+核酸扩增
+甲型或乙型流感病毒RNA
+否
+15～30 min
+高敏感性；高特异性
+阳性结果具有诊断价值，阴性结果不能完全除外流感，但要注意是否存在标本采集时间较晚(病程>1周)与标本质量有关
+核酸检测法(RT-PCR和多重分子检测)
+核酸扩增
+甲型或乙型流感病毒RNA(多重分子检测可以检测其他病毒或细菌RNA或DNA)
+是，如果使用亚型引物
+1～8 h
+高敏感性；高特异性
+细胞培养
+快速细胞培养(壳瓶或混合细胞)
+病毒分离
+甲型或乙型流感病毒
+是
+1～3 d
+中度敏感性；高特异性
+费时费力，不适合临床中用于流感的实验室诊断
+细胞培养(组织细胞培养)
+病毒分离
+甲型或乙型流感病毒
+是
+3～10 d
+中度敏感性；高特异性
+注：阴性结果不能完全除外流感。应在发病后尽早采集呼吸道标本进行检测。对于检测试剂批准使用的呼吸道标本类型，临床医师应参考试剂说明书。RT-PCR：反转录-聚合酶链反应 Negative results cannot completely exclude influenza.Respiratory samples should be collected as early as possible after the onset of the disease.For the type of respiratory specimen approved by the test reagent，the clinician should refer to the reagent manual.RT-PCR：reverse transcription polymerase chain reaction
+3.3.5.2 血清免疫学检测
+血清免疫学方法用于检测血清中的抗流感病毒抗体，包括红细胞凝集抑制实验(hemagglutination inhibition，HI)、微量中和法(microneutralization，MN)和酶联免疫吸附试验(enzyme-linked immunosorbent assay，ELISA)等，血清抗体检测主要用于流感的回顾性诊断和流行病学调查。单份血清流感病毒特异性IgM抗体阳性不能作为流感的实验室诊断标准，当病人恢复期血清较急性期血清特异性抗体滴度有4倍或4倍以上升高时具有诊断价值。
+3.3.5.3 流感病原学诊断的建议[40]
+流感的实验室诊断有助于患儿的管理、感染控制及避免抗菌药物的滥用。下列情况建议进行流感病原学检测，最好进行流感的核酸检测。
+(1)流感流行季节
+①门诊患儿：出现呼吸道症状的流感危重症高危患儿及免疫功能不全患儿；慢性病恶化的患儿(如哮喘、心力衰竭等)。②住院患儿：所有因急性呼吸道疾病住院的患儿；所有住院期间出现呼吸道症状的患儿(伴或不伴发热)，或没有明确诊断的呼吸窘迫患儿；所有慢性心肺疾病急性恶化的患儿。
+(2)非流感流行季节
+①门诊患儿：出现急性发热伴呼吸道症状的免疫功能不全患儿和流感危重症高危患儿；②住院患儿：因急性呼吸道疾病(伴或不伴发热)住院的患儿，同时与流感患者、来自流感暴发地区发热伴有急性呼吸道症状者、有流感活动区域近期旅行史者有流行病学上的联系；免疫功能低下或有出现并发症高风险的急性发热性呼吸道疾病患儿。
+3.4 诊断标准[9,41,42]
+诊断主要结合流行病学史、临床表现和病原学检查。
+3.4.1 流感样病例
+在流感流行季节，出现以下表现：(1)发热，体温≥38 ℃；(2)伴有咳嗽和/或咽痛。
+3.4.2 临床诊断病例
+出现上述流感临床表现，有流行病学史(发病前7 d内在无有效个人防护的情况下与疑似或确诊流感患者有密切接触，或属于流感样病例聚集发病者之一，或有明确传染他人的证据)且排除其他引起流感样症状的疾病。
+3.4.3 确诊病例
+流感临床诊断病例，具有以下1种或以上病原学检测结果阳性：(1)流感病毒核酸检测阳性；(2)流感抗原检测阳性；(3)流感病毒分离培养阳性；(4)急性期和恢复期双份血清流感病毒特异性IgG抗体水平呈4倍或4倍以上升高。
+3.4.4 重症病例
+流感病例出现下列1项或1项以上情况者为重症流感病例：
+(1)呼吸困难和/或呼吸频率增快：5岁以上儿童>30次/min；1～5岁>40次/min；2～12月龄>50次/min；新生儿～2月龄>60次/min；(2)神志改变：反应迟钝、嗜睡、躁动、惊厥等；(3)严重呕吐、腹泻，出现脱水表现；(4)少尿：儿童尿量<0.8 mL/(kg·h)，或每日尿量婴幼儿<200 mL/m2，学龄前儿童<300 mL/m2，学龄儿童<400 mL/m2，14岁以上儿童<17 mL/h，或出现急性肾衰竭；(5)合并肺炎；(6)原有基础疾病明显加重；(7)需住院治疗的其他临床情况。
+3.4.5 危重病例
+出现以下情况之一者：(1)呼吸衰竭；(2)ANE；(3)脓毒性休克；(4)多脏器功能不全；(5)出现其他需进行监护治疗的严重临床情况。
+3.5 鉴别诊断
+3.5.1 普通感冒
+通常流感的全身症状比普通感冒重；追踪流行病学史有助于鉴别；普通感冒的流感病原学检测阴性，或可找到相应的感染病原证据。流感和普通感冒的区别见表2。
+点击查看表格
+表2
+流感和普通感冒的区别
+Table 2
+Comparison of influenza and common cold
+表2
+流感和普通感冒的区别
+Table 2
+Comparison of influenza and common cold
+项目
+流感
+普通感冒
+传染性
+丙类传染病，传染性强
+非传染病
+病原
+流感病毒
+鼻病毒、冠状病毒、副流感病毒及呼吸道合胞病毒等
+季节性
+有明显季节性(中国北方为11月至次年3月)
+季节性不明显
+发热程度
+多高热(39～40 ℃)，可伴有寒战
+不发热或轻、中度热，无寒战
+发热持续时间
+3～5 d
+1～2 d
+全身症状
+重，头痛、全身肌肉酸痛、乏力、食欲差
+少或没有
+并发症
+可以出现中耳炎、肺炎、脑病或脑炎、心肌炎
+罕见
+病程
+5～10 d
+1～3 d
+病死率
+较高，死亡多由于流感引起原发病急性加重(肺病、心脑血管病)或合并细菌感染(尤其是肺炎链球菌)或死于并发症(肺炎、脑病)
+较低
+3.5.2 其他病原引起的呼吸道感染
+包括急性咽炎、扁桃体炎、鼻炎和鼻窦炎、气管、支气管炎。合并肺炎时需与其他肺炎，包括细菌性肺炎、支原体肺炎、衣原体肺炎、其他病毒性肺炎、真菌性肺炎、肺结核等相鉴别。根据临床特征可作出初步判断，病原学检查可确诊。
+3.5.3 新型冠状病毒(2019-nCoV)感染
+感染早期一般表现为发热、乏力、干咳，多数患儿症状在1周内消失。少数患儿发病后1周病情加重，出现呼吸困难、呼吸窘迫、休克等，伴/不伴发热。部分儿童、小婴儿及新生儿感染后症状可不典型，表现为呕吐、腹泻等消化道症状或仅表现为反应差、呼吸急促。其临床表现与流感相似，2019-nCoV感染流行病学史是早期识别和鉴别诊断的重要依据，2019-nCoV核酸和抗体检测可帮助明确诊断[43]。
+3.5.4 其他病毒感染相关性脑病和脑炎
+出现神经系统并发症时需与其他病毒感染引起的神经系统损伤相鉴别，如单纯疱疹病毒脑炎、流行性乙型脑炎等。脑脊液检查、病原学检查、头颅CT或磁共振成像(MRI)和脑电图，可助鉴别[41,42]。
+4 治疗
+4.1 治疗原则
+评估患儿的一般状况、疾病的严重程度、症状起始时间及当地流感流行状况等确定流感患儿治疗方案。重症或有重症流感高危因素的患儿在发病48 h内尽早开始抗流感病毒药物治疗，早期治疗可获得更好的临床效果，但是在出现流感样症状48 h后的治疗也有一定临床获益[44]。合理使用对症治疗药物及抗菌药物。
+4.2 抗流感病毒药物
+我国目前获批上市的抗流感病毒药物共有3大类，包括神经氨酸酶抑制剂奥司他韦(Oseltamivir)、帕拉米韦(Peramivir)和扎那米韦(Zanamivir)；细胞血凝素抑制剂阿比多尔(Arbidol)；M2离子通道抑制剂金刚烷胺(Amantadine)和金刚乙胺(Rimantadine)。其中，阿比多尔儿童循证证据不充分，临床使用较少；金刚烷胺和金刚乙胺对目前流行的流感病毒株耐药，已不建议使用。
+我国批准临床研究的抗流感药物还有RNA聚合酶抑制剂法匹拉韦(Favipiravir)和巴洛沙韦(Xofluza)。
+2018年至2019年流感季节临床流感抗病毒治疗推荐总结见表3[44]。
+点击查看表格
+表3
+2018年至2019年流感季节临床流感抗病毒治疗推荐总结
+Table 3
+Summary of antiviral treatment of clinical influenza during the 2018-2019 season
+表3
+2018年至2019年流感季节临床流感抗病毒治疗推荐总结
+Table 3
+Summary of antiviral treatment of clinical influenza during the 2018-2019 season
+尽快给予治疗
+考虑治疗
+疑似流感住院的任意患儿
+任何健康儿童怀疑感染了流感病毒
+因严重复杂、进展性疾病而易患流感的住院患儿，不论症状持续的时间如何
+疑似感染流感病毒的健康儿童在家与兄弟姐妹居住
+有出现并发症高风险的疑似流感患儿
+护理6个月以下婴儿的家庭护理人员
+易发生并发症倾向的有基础疾病人员
+4.2.1 神经氨酸酶抑制剂
+选择性抑制流感病毒表面神经氨酸酶的活性，阻止病毒由被感染细胞释放和入侵邻近细胞，阻止子代病毒颗粒在人体细胞的复制和释放，对甲、乙型流感均具活性。
+目前我国批准上市的是奥司他韦颗粒及胶囊剂、扎那米韦吸入剂和帕拉米韦注射液。推荐的用法和用量见表4，口服奥司他韦仍然是治疗流感的首选抗病毒药物。
+点击查看表格
+表4
+儿童抗流感病毒药物治疗及预防推荐剂量、疗程
+Table 4
+Recommended dosage and schedule of influenza antiviral medications for treatment and chemoprophylaxis in children
+表4
+儿童抗流感病毒药物治疗及预防推荐剂量、疗程
+Table 4
+Recommended dosage and schedule of influenza antiviral medications for treatment and chemoprophylaxis in children
+药物
+治疗量
+预防量
+奥司他韦
+疗程5 d，重症可适当延长
+疗程10 d
+≥12个月
+≤15 kg
+30 mg/次，2次/d
+30 mg/次，1次/d
+>15～23 kg
+45 mg/次，2次/d
+45 mg/次，1次/d
+>23～40 kg
+60 mg/次，2次/d
+60 mg/次，1次/d
+>40 kg
+75 mg/次，2次/d
+75 mg/次，1次/d
+9～11个月
+3.5 mg/(kg·次)，2次/d
+3.5 mg/(kg·次)，1次/d
+0～8个月
+3.0 mg/(kg·次)，2次/d
+(3～8月龄)3.0 mg/(kg·次)，1次/d
+(0～3月龄)不推荐使用，除非紧急情况下，经临床评估必须应用
+扎那米韦
+10 mg，2次/d
+10 mg，1次/d
+儿童(≥7岁治疗量，≥5岁预防量)
+帕拉米韦
+每天给药1次，最大量600 mg，不少于30 min滴注完毕，治疗1～5 d，重症可适当延长
+91 d～17岁
+10 mg/kg
+31～90 d
+8 mg/kg
+0～30 d
+6 mg/kg
+注：美国食品药品监督管理局(FDA)批准帕拉米韦为2岁以上人群使用；2009年H1N1流行期间美国FDA紧急批准帕拉米韦可用于2岁以下急危重症患儿使用[50] The use of Peramivir is approved by the U．S.Food and Drug Administration(FDA) for people 2 years and older；during the 2009 H1N1 pandemic，FDA had authorized the emergency use of Peramivir to treat children younger than 2 years with acute，severe or critical illness[50]
+在对1～12岁儿童进行的前瞻性试验中，收集的不良事件数据显示呕吐是奥司他韦较安慰剂更常见的唯一不良反应。在日本报道了奥司他韦引起的神经精神不良反应后，研究者根据对照临床试验的数据和持续监测，未在奥司他韦和神经精神不良反应之间发现必然联系[45]。
+帕拉米韦常见的不良反应为中性粒细胞计数降低、腹泻和呕吐。
+4.2.2 RNA依赖的RNA聚合酶抑制剂
+法匹拉韦2014年在日本获批使用；巴洛沙韦2018年在美国上市，目前国内尚未获批使用。但日本感染学会在抗流感药物使用的公开建议中明确12～19岁及成年人，由于缺乏临床数据，目前无法确定推荐使用或不推荐使用；12岁以下的儿童，考虑到低水平耐药，应慎重考虑给药；对免疫功能低下或重症患者，不推荐单独给药[46]。
+4.2.3 耐药及临床用药选择
+流感病毒随着季节变换很容易产生耐药毒株。但目前测试中99%的甲型H1N1病毒株对奥司他韦和帕拉米韦敏感，所有测试的流感病毒株均对扎那米韦敏感[44]。对奥司他韦治疗无反应或者曾使用奥司他韦预防流感无效的患儿，可考虑使用扎那米韦或帕拉米韦替代治疗[44]。应注意那些免疫功能严重低下，由于病毒再活化而接受了延长疗程抗病毒治疗的患儿，耐药特点可能发生改变。
+4.3 流感患儿联合应用抗菌药物的诊疗建议[40]
+临床或实验室确诊流感患儿如出现以下征象，应在抗病毒治疗同时行进一步检查并经验性治疗合并的细菌感染：出现重症流感的早期征象；早期抗病毒治疗临床好转后病情再次恶化；应用抗病毒治疗3～5 d仍无好转。
+4.4 重症病例的治疗[40]
+治疗原则：积极治疗原发病，防治并发症，并进行有效的器官功能支持。
+4.4.1 呼吸支持
+低氧血症或呼吸衰竭是重症和危重症患儿的表现，需要密切监护，及时给予相应的治疗，包括常规氧疗、鼻导管高流量氧疗、无创通气或有创机械通气等。对常规治疗和挽救性治疗措施无效的难治性低氧血症患儿，可考虑使用体外膜肺(extracorporeal membrane oxygenation，ECMO)。
+4.4.2 循环支持
+临床诊断脓毒性休克的患儿，应尽快积极液体复苏，应用正性肌力药物。
+4.4.3 合并神经系统并发症
+给予降颅压、镇静止惊等对症处理。ANE目前无特效治疗，可给予糖皮质激素和丙种球蛋白等治疗。
+4.4.4 肾脏替代治疗
+合并急性肾损伤的患儿可采用持续的静脉-静脉血液滤过或间断血液透析治疗。肾脏替代治疗有助于合并急性肾功能不全的ARDS患儿的液体管理。
+4.4.5 其他支持治疗
+重视营养支持，纠正内环境紊乱，出现其他脏器功能损害时，给予相应支持治疗。
+4.5 中药治疗与预防
+详见《流行性感冒诊疗方案(2019年版)》[42]。
+5 儿童流感的预防
+5.1 疫苗
+每年接种流感疫苗是预防流感最有效的手段，可以显著降低接种者罹患流感和发生严重并发症的风险。全球已上市的流感疫苗分为流感灭活疫苗(inactivated influenza vaccine，IIV)和流感减毒活疫苗(live attenuated influenza vaccine，LAIV) 。按照疫苗所含组分，流感疫苗包括三价和四价，三价疫苗组分含有A(H3N2)亚型、A(H1N1)亚型和B型毒株的1个系，四价疫苗组分含A(H3N2)亚型、A(H1N1)亚型和B型Victoria系、Yamagata系。根据生产工艺，又可分为基于鸡胚、基于细胞培养和重组流感疫苗等类型。
+5.1.1 流感疫苗对儿童的保护效果
+6月龄以上儿童接种流感疫苗对流感病毒感染有保护作用。Meta分析显示，6～23月龄儿童接种三价流感疫苗效果为40%，24～59月龄儿童为60%，与国内研究结果类似[47,48]。
+四价流感疫苗对A型流感和B型流感均具有不同程度的保护效果，但对B型流感的免疫原性优于三价疫苗[49]。流感疫苗对健康儿童的保护效果高于有基础疾患的儿童，对大龄儿童的保护效果优于低龄儿童[47]。9岁以下儿童首次接种流感疫苗时，接种2剂次较1剂次能提供更好的保护作用[25]。
+5.1.2 儿童接种流感疫苗建议和预防接种实施
+目前我国批准上市的流感疫苗包括三价和四价灭活疫苗。此外，一种鼻喷三价流感减毒活疫苗在上市审批过程中，适用人群为3～17岁。推荐以下人群为优先接种对象：(1)6～23月龄婴幼儿：患流感后出现重症的风险高，流感住院负担重。(2)2～5岁儿童：流感疾病负担也较高，但低于2岁以下儿童。(3)6月龄以下婴儿的家庭成员和看护人员：该人群接种可间接保护6月龄以下婴儿。此外，孕妇接种流感疫苗可通过胎传抗体保护6月龄以内婴儿。
+5.1.3 流感疫苗接种实施和注意事项
+6月龄～8岁儿童，既往未接种过流感疫苗者，首次接种需接种2剂次(间隔≥4周)；上一流行季接种过1剂或以上流感疫苗的儿童，则建议接种1剂。8岁以上儿童仅需接种1剂。为保证受种者在流感高发季节前获得免疫保护，建议各地在疫苗可及后尽快安排接种工作，最好在11月底前完成免疫接种；对11月底前未接种的对象，整个流行季节都可以提供免疫服务。
+各相关单位要按照《疫苗管理法》、《预防接种工作规范》的要求开展流感疫苗接种工作，接种实施和注意事项参照《中国流感预防预防接种技术指南(2019-2020)》[25]相关要求执行。
+5.2 流感的药物预防
+尽管疫苗接种是预防流感病毒感染最好的方法，但在流感暴发时，不能采用疫苗预防的人群和以下重点儿童人群可推荐采用药物预防。
+5.2.1 推荐人群
+(1)有流感疫苗禁忌证的流感并发症高危儿童；(2)接种流感疫苗2周内并未获得最佳免疫力的高危儿童；(3)未经免疫且可能与未经免疫的高危儿童或24个月以下的婴幼儿有持续、密切接触的家庭成员或卫生保健人员；(4)用于封闭的机构环境下(如扩大护理设施)和高风险的儿童有紧密接触的未经免疫的工作人员和儿童控制流感的暴发；(5)作为高危儿童疫苗接种的补充，包括免疫功能受损的儿童和接种疫苗后没有产生足够的保护性免疫反应的高危儿童；(6)作为家庭成员和与流感并发症高风险的人群有密切接触的感染患者的暴露后化学预防；(7)社区内流行性感冒病毒株与季节性流感疫苗株不匹配时，用于流感并发症高风险的儿童及其家庭成员及密切接触者和健康保健人员的抗病毒化学预防。
+因为安全性和有效性数据有限，化学预防上常规不推荐用于小于3个月的婴儿。
+5.2.2 预防药物
+奥司他韦：对符合预防性用药指征者，建议早期(尽量于暴露后48 h内)服用，连续用至末次暴露后7～10 d；未能于暴露后48 h内用药者，仍建议预防给药[44]。详细剂量见表4。
+5.3 非药物干预措施
+保持良好的个人卫生习惯是预防流感等呼吸道传染病的重要手段，包括：勤洗手；在流感流行季节，尽量避免去人群聚集场所，避免接触呼吸道感染患者；出现流感样症状后，要保持良好的呼吸道卫生习惯，咳嗽或打喷嚏时，用纸巾、毛巾等遮住口鼻，咳嗽或打喷嚏后洗手，尽量避免触摸眼睛、鼻或口。家庭成员出现流感患者时，要尽量避免相互接触。当家长带有流感症状的患儿去医院就诊时，应同时做好患儿及自身的防护(如戴口罩)，避免交叉感染。学校、托幼机构等集体单位中出现流感样病例时，患儿应居家休息，减少疾病传播。
+6 住院患儿的防护隔离
+(1)切实落实呼吸道传播疾病的隔离、消毒工作。
+(2)流感患儿必须与其他普通患儿分开，单独收治。有条件宜安置在负压病房。无条件时住单间或收治在同一间病房，床间距不小于1.2 m。隔离室需粘贴隔离标志。
+(3)患儿在病情允许时宜戴医用外科口罩，其活动宜限制在隔离病室内。
+(4)呼吸道传染病原则上不陪住。严格执行探视管理制度，加强住院患儿探视人员的管理，限制探视时间及人数。谢绝发热或有呼吸道症状的人员进入病房探视。
+(徐保平 曹玲 赵宇红 冯录召 刘钢 卢根 钱素云 秦强 谢正德 赵成松 郑跃杰 钟武 朱春梅 王家勤 杨永弘 申昆玲 执笔)
+徐保平和曹玲对本文有同等贡献
+参与本共识讨论、制定的专家(按姓氏拼音排序):曹玲(首都儿科研究所附属儿童医院)；冯录召(中国疾病预防控制中心)；李昌崇(温州医科大学附属育英儿童医院)；刘钢(国家儿童医学中心，首都医科大学附属北京儿童医院，国家呼吸系统疾病临床医学研究中心)；卢根(广州市妇女儿童医疗中心)；钱素云(国家儿童医学中心，首都医科大学附属北京儿童医院，国家呼吸系统疾病临床医学研究中心)；秦强(国家儿童医学中心，首都医科大学附属北京儿童医院，国家呼吸系统疾病临床医学研究中心)；申昆玲(国家儿童医学中心，首都医科大学附属北京儿童医院，国家呼吸系统疾病临床医学研究中心)；王家勤(新乡医学院第三附属医院)；谢正德(国家儿童医学中心，首都医科大学附属北京儿童医院，北京市儿科研究所，国家呼吸系统疾病临床医学研究中心，中国医学科学院儿童危重感染诊治创新单元)；徐保平(国家儿童医学中心，首都医科大学附属北京儿童医院，国家呼吸系统疾病临床医学研究中心)；杨永弘(国家儿童医学中心，首都医科大学附属北京儿童医院，北京市儿科研究所，国家呼吸系统疾病临床医学研究中心)；赵成松(国家儿童医学中心，首都医科大学附属北京儿童医院，国家呼吸系统疾病临床医学研究中心)；赵宇红(国家儿童医学中心，首都医科大学附属北京儿童医院，国家呼吸系统疾病临床医学研究中心)；郑跃杰(深圳市儿童医院)；钟武(国家应急防控药物工程技术研究中心，中国人民解放军军事科学院军事医学研究院)；朱春梅(首都儿科研究所附属儿童医院)
+参与本专家共识编写的机构或学术组织：国家呼吸系统疾病临床医学研究中心；中华医学会儿科学分会呼吸学组；中国医师协会呼吸医师分会儿科呼吸工作委员会；中国医药教育协会儿科专业委员会；中国研究型医院学会儿科学专业委员会；中国非公立医疗机构协会儿科专业委员会；中国中药协会儿童健康与药物研究专业委员会；中国医药新闻信息协会儿童安全用药分会；"六一健康快车"项目专家委员会；全球儿科呼吸联盟
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+中华医学会儿科学分会呼吸学组，《中华实用儿科临床杂志》编辑委员会．
+儿童流感诊断与治疗专家共识(2015年版)[J]．
+中华实用儿科临床杂志，
+2015，
+30(
+17):
+1296-
+1303.
+DOI：10.3760/cma.j.issn.2095-428X.2015.17.005.
+The Subspecialty Group of Respiratory Diseases，the Society of Pedia-trics，Chinese Medical Association；Editorial Board of Chinese Journal of Applied Clinical Pediatrics.Clinical practice guidelines for the diagnosis and management of children with influenza (2015)[J]．Chin J Appl Clin Pediatr，2015，30 (17):1296-1303.DOI：10.3760/cma.j.issn.2095-428X.2015.17.005.
+[2]
+World Health Organization.
+Fact sheet on influenza (seasonal)[EB/OL]．(
+2018-11-06)[
+2019-02-03]．
+https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)．
+[3]
+TaubenbergerJK，MorensDM.
+1918 Influenza：the mother of all pandemics[J]．
+Emerg Infect Dis，
+2006，
+12(
+1):
+15-
+22.
+DOI：10.3201/eid1201.050979.
+[4]
+FouchierRA，MunsterV，WallenstenA，et al.
+Characterization of a novel influenza A virus hemagglutinin subtype (H16) obtained from black-headed gulls[J]．
+J Virol，
+2005，
+79(
+5):
+2814-
+2822.
+DOI：10.1128/JVI.79.5.2814-2822.2005.
+[5]
+WuY，WuY，TefsenB，et al.
+Bat-derived influenza-like viruses H17N10 and H18N11[J]．
+Trends Microbiol，
+2014，
+22(
+4):
+183-
+191.
+DOI：10.1016/j.tim.2014.01.010.
+[6]
+YenHL，WebsterRG.
+Pandemic influenza as a current threat[J]．
+Curr Top Microbiol Immunol，
+2009，
+333:
+3-
+24.
+DOI：10.1007/978-3-540-92165-3_1.
+[7]
+郭元吉，程小雯．
+流行性感冒病毒及其实验技术[M]．
+北京：
+中国三峡出版社，
+1997：
+11.
+GuoYJ，ChengXW.Influenza virus and its experimental technology [M]．Beijing：China Three Gorges Press，1997：11.
+[8]
+PeteranderlC，HeroldS，SchmoldtC．
+Human influenza virus infections[J]．
+Semin Respir Crit Care Med，
+2016，
+37(
+4):
+487-
+500.
+DOI：10.1055/s-0036-1584801.
+[9]
+RossmanJS，LambRA.
+Influenza virus assembly and budding[J]．
+Virology，
+2011，
+411(
+2):
+229-
+236.
+DOI：10.1016/j.virol.2010.12.003.
+[10]
+KalilAC，ThomasPG.
+Influenza virus-related critical illness：pathophysiology and epidemiology[J]．
+Crit Care，
+2019，
+23(
+1):
+258.
+DOI：10.1186/s13054-019-2539-x.
+[11]
+GounderAP，BoonACM.
+Influenza pathogenesis：the effect of host factors on severity of disease[J]．
+J Immunol，
+2019，
+202(
+2):
+341-
+350.
+DOI：10.4049/jimmunol.1801010.
+[12]
+ZangrilloA，Biondi-ZoccaiG，LandoniG，et al.
+Extracorporeal membrane oxygenation (ECMO) in patients with H1N1 influenza infection：a systematic review and meta-analysis including 8 studies and 266 patients receiving ECMO[J]．
+Crit Care，
+2013，
+17(
+1):
+R30.
+DOI：10.1186/cc12512.
+[13]
+秦强，申昆玲．
+儿童重症流感发病机制 [J]．
+中华实用儿科临床杂志，
+2019，
+34(
+2):
+98-
+101.
+DOI：10.3760/cma.j.issn.2095-428X.2019.02.005.
+QinQ，ShenKL.Pathogenesis of severe influenza in children[J]．Chin J Appl Clin Pediatr，2019，34(2):98-101.DOI：10.3760/cma.j.issn.2095-428X.2019.02.005.
+[14]
+OshanskyCM，GartlandAJ，WongS，et al.
+Mucosal immune responses predict clinical outcomes during influenza infection independently of age and viral load[J]．
+Am J Respir Crit Care Med，
+2014，
+189(
+4):
+449-
+462.
+DOI：10.1164/rccm.201309-1616OC.
+[15]
+HuoC，JinY，ZouS，et al.
+Lethal influenza A virus preferentially activates TLR3 and triggers a severe inflammatory response[J]．
+Virus Res，
+2018，
+257:
+102-
+112.
+DOI：10.1016/j.virusres.2018.09.012.
+[16]
+CardaniA，BoultonA，KimTS，et al.
+Alveolar macrophages prevent lethal influenza pneumonia by inhibiting infection of type-1 alveolar epithelial cells[J]．
+PLoS Pathog，
+2017，
+13(
+1):
+e106140.
+DOI：10.1371/journal.ppat.1006140.
+[17]
+LeeB，GopalR，ManniML，et al.
+STAT1 is required for suppression of type 17 immunity during influenza and bacterial superinfection[J]．
+Immunohorizons，
+2017，
+1(
+6):
+81-
+91.
+DOI：10.4049/immunohorizons.1700030.
+[18]
+KidoH，IndalaoIL，KimH，et al.
+Energy metabolic disorder is a major risk factor in severe influenza virus infection：proposals for new therapeutic options based on animal model experiments[J]．
+Respir Investig，
+2016，
+54(
+5):
+312-
+319.
+DOI：10.1016/j.resinv.2016.02.007.
+[19]
+World Health Organization Writing Group，Bell D，Nicoll A，et al.
+Non-pharmaceutical interventions for pandemic influenza，international measures[J]．
+Emerg Infect Dis，
+2006，
+12(
+1):
+81-
+87.
+DOI：10.3201/eid1201.051370.
+[20]
+LauLL，IpDK，NishiuraH，et al.
+Heterogeneity in viral shedding among individuals with medically attended influenza A virus infection[J]．
+J Infect Dis，
+2013，
+207(
+8):
+1281-
+1285.
+DOI：10.1093/infdis/jit034.
+[21]
+CowlingBJ，ChanKH，FangVJ，et al.
+Comparative epidemiology of pandemic and seasonal influenza A in households[J]．
+N Engl J Med，
+2010，
+362(
+23):
+2175-
+2184.
+DOI：10.1056/NEJMoa0911530.
+[22]
+Azziz BaumgartnerE，DaoCN，NasreenS，et al.
+Seasonality，timing，and climate drivers of influenza activity worldwide[J]．
+J Infect Dis，
+2012，
+206(
+6):
+838-
+846.
+DOI：10.1093/infdis/jis467.
+[23]
+YuH，AlonsoWJ，FengL，et al.
+Characterization of regional influenza seasonality patterns in China and implications for vaccination strategies：spatio-temporal modeling of surveillance data[J]．
+PLoS Med，
+2013，
+10(
+11):
+e1001552.
+DOI：10.1371/journal.pmed.1001552.
+[24]
+YangJ，LauYC，WuP，et al.
+Variation in influenza B virus epidemiology by lineage，China[J]．
+Emerg Infect Dis，
+2018，
+24(
+8):
+1536-
+1540.
+DOI：10.3201/eid2408.180063.
+[25]
+国家免疫规划技术工作组流感疫苗工作组．
+中国流感疫苗预防接种技术指南(2019-2020)[J]．
+中华流行病学杂志，
+2019，
+40(
+11):
+1333-
+1349.
+DOI：10.3760/cma.j.issn.0254-6450.2019.11.002.
+National Immunization Advisory Committee(NIAC) Technical Wor-king Group(TWG)，Influenza Vaccination TWG.Technical guidelines for seasonal influenza vaccination in China，2019-2020[J]．Chin J Epidemiol，2019，40(11):1333-1349.DOI：10.3760/cma.j.issn.0254-6450.2019.11.002.
+[26]
+No authorslisted.
+Vaccines against influenza WHO position paper-November 2012[J]．
+Wkly Epidemiol Rec，
+2012，
+87(
+47):
+461-
+476.
+[27]
+WongKK，JainS，BlantonL，et al.
+Influenza-associated pediatric deaths in the United States，2004-2012[J]．
+Pediatrics，
+2013，
+132(
+5):
+796-
+804.
+DOI：10.1542/peds.2013-1493.
+[28]
+PoehlingKA，EdwardsKM，WeinbergGA，et al.
+The underrecognized burden of influenza in young children[J]．
+N Engl J Med，
+2006，
+355(
+1):
+31-
+40.
+DOI：10.1056/NEJMoa054869.
+[29]
+张慕丽，彭质斌，郑建东，等．
+中国儿童流感疾病负担和疫苗应用现状[J]．
+中华实用儿科临床杂志，
+2019，
+34(
+2):
+91-
+97.
+DOI：10.3760/cma.j.issn.2095-428X.2019.02.004.
+ZhangML，PengZB，ZhengJD，et al.Disease burden of influenza in children and current status of vaccine usage in China[J]．Chin J Appl Clin Pediatr，2019，34(2):91-97.DOI：10.3760/cma.j.issn.2095-428X.2019.02.004.
+[30]
+CowlingBJ，PereraRA，FangVJ，et al.
+Incidence of influenza virus infections in children in Hong Kong in a 3-year randomized placebo-controlled vaccine study，2009-2012[J]．
+Clin Infect Dis，
+2014，
+59(
+4):
+517-
+524.
+DOI：10.1093/cid/ciu356.
+[31]
+张惺惺，吴双胜，王全意，等．
+北京市2017-2018流行季流感感染率和发病率研究[J]．
+国际病毒学杂志，
+2019，
+26(
+2):
+73-
+76.
+DOI：10.3760/cma.j.issn.1673-4092.2019.02.001.
+ZhangXX，WuSS，WangQY，et al.Estimated infection rates and incidence rates of seasonal influenza in Beijing during the 2017-2018 influenza season[J]．Int J Virol，2019，26(2):73-76.DOI：10.3760/cma.j.issn.1673-4092.2019.02.001.
+[32]
+YuHJ，HuangJG，HuaiY，et al.
+The substantial hospitalization burden of influenza in central China：surveillance for severe，acute respiratory infection，and influenza viruses，2010-2012[J]．
+Influenza Other Respir Viruses，
+2014，
+8(
+1):
+53-
+65.
+DOI：10.1111/irv.12205.
+[33]
+IulianoAD，RoguskiKM，ChangHH，et al.
+Estimates of global seasonal influenza-associated respiratory mortality：a modelling study[J]．
+Lancet，
+2018，
+391(
+1127):
+1285-
+1300.
+DOI：10.1016/S0140-6736(17)33293-2.
+[34]
+YangJ，JitM，LeungKS，et al.
+The economic burden of influenza-associated outpatient visits and hospitalizations in China：a retrospective survey[J]．
+Infect Dis Poverty，
+2015，
+4:
+44.
+DOI：10.1186/s40249-015-0077-6.
+[35]
+刘珺，王荃，钱素云，等．
+流感病毒感染患儿19例死亡原因分析[J]．
+中华实用儿科临床杂志，
+2019，
+34(
+2):
+134-
+138.
+DOI：10.3760/cma.j.issn.2095-428X.2019.02.012.
+LiuJ，WangQ，QianSY，et al.Analysis of 19 fatal cases of influenza virus infection in children[J]．Chin J Appl Clin Pediatr，2019，34(2):134-138.DOI：10.3760/cma.j.issn.2095-428X.2019.02.012.
+[36]
+卢志威，郑跃杰．
+深圳市19例重症流感死亡病例临床分析[J]．
+中华实用儿科临床杂志，
+2019，
+34(
+2):
+139-
+141.
+DOI：10.3760/cma.j.issn.2095-428X.2019.02.013.
+LuZW，ZhengYJ.Clinical analysis of 19 deaths from severe influenza among children in Shenzhen[J]．Chin J Appl Clin Pediatr，2019，34(2):139-141.DOI：10.3760/cma.j.issn.2095-428X.2019.02.013.
+[37]
+吴喜蓉，刘钢，钱素云，等．
+住院儿童社区获得性流感病毒肺炎临床特点分析[J]．
+中华实用儿科临床杂志，
+2019，
+34(
+2):
+129-
+133.
+DOI：10.3760/cma.j.issn.2095-428X.2019.02.011.
+WuXR，LiuG，QianSY，et al.Clinical characteristics of community-acquired influenza virus pneumonia in hospitalized children[J]．Chin J Appl Clin Pediatr，2019，34(2):129-133.DOI：10.3760/cma.j.issn.2095-428X.2019.02.011.
+[38]
+DalzielSR，ThompsonJM，MaciasCG，et al.
+Predictors of severe H1N1 infection in children presenting within Pediatric Emergency Research Networks (PERN)：retrospective case-control study[J]．
+BMJ，
+2013，
+347:
+f4836.
+DOI：10.1136/bmj.f4836.
+[39]
+中华医学会儿科学分会呼吸学组呼吸道感染协作组，《中国实用儿科杂志》编辑委员会．
+儿童呼吸道感染微生物检验标本采集转运与检测建议(病毒篇)[J]．
+中国实用儿科杂志，
+2018，
+33(
+9):
+657-
+662.
+DOI：10.19538/j.ek2018090601.
+Cooperative Group of Respiratory infection，the Subspecialty Group of Respiratory，the Society of Pediatrics，Chinese Medical Association；The Editorial Board of Chinese Journal of Practical Pediatrics.Advice on the collection，transfer and detection of microbiological testing spe-cimen in children with respiratory infection(focusing on virus) [J]．Chin J Pract Pediatr，2018，33(9):657-662.DOI：10.19538/j.ek2018090601.
+[40]
+UyekiTM，BernsteinHH，BradleyJS，et al.
+Clinical practice guidelines by the infectious diseases society of America：2018 update on diagnosis，treatment，chemoprophylaxis，and institutional outbreak management of seasonal influenza[J]．
+Clin Infect Dis，
+2019，
+68(
+6):
+895-
+902.
+DOI：10.1093/cid/ciy874.
+[41]
+中华人民共和国国家卫生和计划生育委员会．
+流行性感冒诊疗方案(2018年版)[J]．
+中华临床感染病杂志，
+2018，
+11(
+1):
+1-
+5.
+DOI：10.3760/cma.j.issn.1674-2397.2018.01.001.
+National Health and Family Planning Commission of the People′s Republic of China.Diagnostic and treatment protocol for influenza(2018 version)[J]．Chin J Clin Infect Dis，2018，11(1):1-5.DOI：10.3760/cma.j.issn.1674-2397.2018.01.001.
+[42]
+中华人民共和国国家卫生健康委员会．
+流行性感冒诊疗方案(2019年版)[EB/OL]．(
+2019-11-13)[
+2019-12-11]．
+http://www.nhc.gov.cn/yzygj/s7653p/201911/a577415af4e5449cb30ecc6511e369c7.shtml.
+National Health Commission of the People′s Republic of China.Diagnostic and treatment protocol for influenza(2019 version) [EB/OL]．(2019-11-13)[2019-12-11]．http://www.nhc.gov.cn/yzygj/s7653p/201911/a577415af4e5449cb30ecc6511e369c7.shtml.
+[43]
+姜毅，陆小霞，金润铭，等．
+儿童新型冠状病毒感染诊断、治疗和预防专家共识(第二版)[J] .
+中华实用儿科临床杂志，
+2020，
+35 (
+2):
+143-
+150.
+DOI：10.3760/cma.j.issn.2095-428X.2020.02.012.
+JiangY，LuXX，JinRM，et al.Diagnosis，treatment and prevention of 2019 novel coronavirus in children：experts′ consensus statement (Se-cond Edition) [J] .Chin J Appl Clin Pediatr，2020，35(2):143-150.DOI：10.3760/cma.j.issn.2095-428X.2020.02.012.
+[44]
+Committee on Infectious Diseases.
+Recommendations for prevention and control of influenza in children，2018-2019[J]．
+Pediatrics，
+2018，
+142(
+4).
+pii:e20182367.DOI：10.1542/peds.2018-2367.
+[45]
+US Food and Drug Administration.
+Tamiflu pediatric adverse events：questions and answers[EB/OL]．(
+2018-08-21)[
+2018-12-11]．
+https://www.fda.gov/Drugs/DrugSafety/PostmarketDrugSafetyInformationforPatientsandProviders/ucml07840.htm.http://www.fda.gov/downloads/Drugs/DrugSafety/PostmarketDrugSafetyInformationforPatientsandProviders/UCM187811.pdf
+[46]
+洪彩华，钟武．
+新型抗流感病毒药物研究进展[J]．
+中华实用儿科临床杂志，
+2019，
+34(
+2):
+107-
+116.
+DOI：10.3760/cma.j.issn.2095-428X.2019.02.007.
+HongCH，ZhongW．Research progress of new anti-influenza drugs[J]．Chin J Appl Clin Pediatr，2019，34(2):107-116.DOI：10.3760/cma.j.issn.2095-428X.2019.02.007.
+[47]
+OsterholmMT，KelleyNS，SommerA，et al.
+Efficacy and effectiveness of influenza vaccines：a systematic review and meta-analysis[J]．
+Lancet Infect Dis，
+2012，
+12(
+1):
+36-
+44.
+DOI：10.1016/S1473-3099(11)70295-X.
+[48]
+FuC，HeQ，LiZ，et al.
+Seasonal influenza vaccine effectiveness among children，2010-2012[J]．
+Influenza Other Respir Viruses，
+2013，
+7(
+6):
+1168-
+1174.
+DOI：10.1111/irv.12157.
+[49]
+KimiyaT，ShinjohM，AnzoM，et al.
+Effectiveness of inactivated quadrivalent influenza vaccine in the 2015/2016 season as assessed in both a test-negative case-control study design and a traditional case-control study design[J]．
+Eur J Pediatr，
+2018，
+177(
+7):
+1009-
+1017.
+DOI：10.1007/s00431-018-3145-7.
+[50]
+US Food and Drug Administration.
+Emergency use authorization of peramivir IV fact sheet for health care providers[EB/OL]．(
+2019-11-19)[
+2019-12-11]．
+http://www.fda.gov/downloads/Drugs/DrugSafety/PostmarketDrugSafetyInformationforPatientsandProviders/UCM187811.pdf.
+贡献者信息
+国家呼吸系统疾病临床医学研究中心
+中华医学会儿科学分会呼吸学组
+通信作者
+申昆玲
+Email：
+kunlingshen1717@163.com
+杨永弘
+Email：
+yyh628628@sina.com
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-09-05
+收稿日期：2020-02-24
+本文编辑
+李建华
+Standord/Protocol/Guideline
+Expert consensus on diagnosis and treatment of influenza in children (2020 Edition)
+China National Clinical Research Center for Respiratory Diseases;,  Group of Respirology, Chinese Pediatric Society, Chinese Medical Association
+Published
+2020-09-05
+Cite as
+Chin J Appl Clin Pediatr, 2020,35(17): 1281-1288. DOI: 10.3760/cma.j.cn101070-20200224-00240
+Contributor Information
+China National Clinical Research Center for Respiratory Diseases;
+Group of Respirology, Chinese Pediatric Society, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+图1
+流感病毒复制周期中抗病毒药物作用靶点
+Figure 1
+Inhibition of influenza virus replication cycle by antiviral medications
+表1
+呼吸道标本的流感诊断方法比较
+Table 1
+Comparison of methods for influenza diagnosis in respiratory specimens
+检测类型
+方法
+检测的流感病毒
+鉴别甲型流感病毒亚型
+报告结果时间
+性能
+备注
+抗原检测
+快速流感诊断试验
+抗原检测
+甲型或乙型流感病毒抗原
+否
+10～15 min
+低至中度敏感性；高特异性
+对标本质量要求较高，免疫荧光法要求有一定量的呼吸道上皮细胞，否则会造成假阴性结果。鼻咽吸出物标本优于鼻咽拭子
+直接或间接免疫荧光法
+抗原检测
+甲型或乙型流感病毒抗原
+否
+1～4 h
+中度敏感性；高特异性
+核酸检测
+快速核酸检测法
+核酸扩增
+甲型或乙型流感病毒RNA
+否
+15～30 min
+高敏感性；高特异性
+阳性结果具有诊断价值，阴性结果不能完全除外流感，但要注意是否存在标本采集时间较晚(病程>1周)与标本质量有关
+核酸检测法(RT-PCR和多重分子检测)
+核酸扩增
+甲型或乙型流感病毒RNA(多重分子检测可以检测其他病毒或细菌RNA或DNA)
+是，如果使用亚型引物
+1～8 h
+高敏感性；高特异性
+细胞培养
+快速细胞培养(壳瓶或混合细胞)
+病毒分离
+甲型或乙型流感病毒
+是
+1～3 d
+中度敏感性；高特异性
+费时费力，不适合临床中用于流感的实验室诊断
+细胞培养(组织细胞培养)
+病毒分离
+甲型或乙型流感病毒
+是
+3～10 d
+中度敏感性；高特异性
+注：阴性结果不能完全除外流感。应在发病后尽早采集呼吸道标本进行检测。对于检测试剂批准使用的呼吸道标本类型，临床医师应参考试剂说明书。RT-PCR：反转录-聚合酶链反应 Negative results cannot completely exclude influenza.Respiratory samples should be collected as early as possible after the onset of the disease.For the type of respiratory specimen approved by the test reagent，the clinician should refer to the reagent manual.RT-PCR：reverse transcription polymerase chain reaction
+表2
+流感和普通感冒的区别
+Table 2
+Comparison of influenza and common cold
+项目
+流感
+普通感冒
+传染性
+丙类传染病，传染性强
+非传染病
+病原
+流感病毒
+鼻病毒、冠状病毒、副流感病毒及呼吸道合胞病毒等
+季节性
+有明显季节性(中国北方为11月至次年3月)
+季节性不明显
+发热程度
+多高热(39～40 ℃)，可伴有寒战
+不发热或轻、中度热，无寒战
+发热持续时间
+3～5 d
+1～2 d
+全身症状
+重，头痛、全身肌肉酸痛、乏力、食欲差
+少或没有
+并发症
+可以出现中耳炎、肺炎、脑病或脑炎、心肌炎
+罕见
+病程
+5～10 d
+1～3 d
+病死率
+较高，死亡多由于流感引起原发病急性加重(肺病、心脑血管病)或合并细菌感染(尤其是肺炎链球菌)或死于并发症(肺炎、脑病)
+较低
+表3
+2018年至2019年流感季节临床流感抗病毒治疗推荐总结
+Table 3
+Summary of antiviral treatment of clinical influenza during the 2018-2019 season
+尽快给予治疗
+考虑治疗
+疑似流感住院的任意患儿
+任何健康儿童怀疑感染了流感病毒
+因严重复杂、进展性疾病而易患流感的住院患儿，不论症状持续的时间如何
+疑似感染流感病毒的健康儿童在家与兄弟姐妹居住
+有出现并发症高风险的疑似流感患儿
+护理6个月以下婴儿的家庭护理人员
+易发生并发症倾向的有基础疾病人员
+表4
+儿童抗流感病毒药物治疗及预防推荐剂量、疗程
+Table 4
+Recommended dosage and schedule of influenza antiviral medications for treatment and chemoprophylaxis in children
+药物
+治疗量
+预防量
+奥司他韦
+疗程5 d，重症可适当延长
+疗程10 d
+≥12个月
+≤15 kg
+30 mg/次，2次/d
+30 mg/次，1次/d
+>15～23 kg
+45 mg/次，2次/d
+45 mg/次，1次/d
+>23～40 kg
+60 mg/次，2次/d
+60 mg/次，1次/d
+>40 kg
+75 mg/次，2次/d
+75 mg/次，1次/d
+9～11个月
+3.5 mg/(kg·次)，2次/d
+3.5 mg/(kg·次)，1次/d
+0～8个月
+3.0 mg/(kg·次)，2次/d
+(3～8月龄)3.0 mg/(kg·次)，1次/d
+(0～3月龄)不推荐使用，除非紧急情况下，经临床评估必须应用
+扎那米韦
+10 mg，2次/d
+10 mg，1次/d
+儿童(≥7岁治疗量，≥5岁预防量)
+帕拉米韦
+每天给药1次，最大量600 mg，不少于30 min滴注完毕，治疗1～5 d，重症可适当延长
+91 d～17岁
+10 mg/kg
+31～90 d
+8 mg/kg
+0～30 d
+6 mg/kg
+注：美国食品药品监督管理局(FDA)批准帕拉米韦为2岁以上人群使用；2009年H1N1流行期间美国FDA紧急批准帕拉米韦可用于2岁以下急危重症患儿使用[50] The use of Peramivir is approved by the U．S.Food and Drug Administration(FDA) for people 2 years and older；during the 2009 H1N1 pandemic，FDA had authorized the emergency use of Peramivir to treat children younger than 2 years with acute，severe or critical illness[50]
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华实用儿科临床杂志2020年35卷17期
+文    题：儿童流感诊断与治疗专家共识(2020年版)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华实用儿科临床杂志2020年35卷17期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

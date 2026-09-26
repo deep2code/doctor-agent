@@ -61,6 +61,33 @@ def clean(fragment):
     return "\n".join(ln for ln in lines if ln)
 
 
+def div_inner(doc, open_tag_pattern):
+    """Inner HTML of the div whose opening tag matches open_tag_pattern
+    (which must stop BEFORE the tag's closing ">").
+
+    A non-greedy .*?</div> ends at the first *nested* div — every article with an
+    inline figure wrapper was truncated to ~100 chars — so close by depth instead.
+    """
+    m = re.search(open_tag_pattern, doc, re.I)
+    if not m:
+        return None
+    start = doc.find(">", m.end()) + 1
+    pos, depth, end = start, 0, len(doc)
+    while True:
+        nxt = re.search(r"<(/?)div\b[^>]*>", doc[pos:], re.I)
+        if not nxt:
+            break
+        if nxt.group(1) == "/":
+            if depth == 0:
+                end = pos + nxt.start()
+                break
+            depth -= 1
+        else:
+            depth += 1
+        pos += nxt.end()
+    return doc[start:end]
+
+
 def harvest(chan):
     """Return {id: {title, date, url}} from the server-rendered #ttde_data JSON."""
     out = {}
@@ -103,10 +130,10 @@ def fetch_detail(job, chan_name):
     doc = get(meta["url"])
     if doc is None:
         return None
-    m = re.search(r'id="ttde_con"(.*?)</div>', doc, re.S)
-    if not m:
-        m = re.search(r'<div[^>]*class="[^"]*(?:content|detail)[^"]*"[^>]*>(.*?)</div>', doc, re.S)
-    body = clean(m.group(1)) if m else ""
+    inner = div_inner(doc, r'id="ttde_con"')
+    if inner is None:
+        inner = div_inner(doc, r'<div[^>]*class="[^"]*(?:content|detail)[^"]*"[^>]*')
+    body = clean(inner) if inner else ""
     if len(body) < 120:
         return None
     info = ""

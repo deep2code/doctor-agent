@@ -1,0 +1,39 @@
+# URL: https://www.zgsmyjh.org/nd.jsp?id=627
+# 标题: 2018神经病学与睡眠医学相遇
+# 发布方/日期: 中国睡眠研究会（官网大众科普/新闻资讯） 2019-01-14
+
+谢亮  邓丽影  编译
+南昌大学第二附属医院神经内科
+回首2018年，神经病学和睡眠医学多方交汇，收获满满，有许多亮眼的突破[1]，
+现分享如下：
+一、发作性睡病获自身免疫性疾病的新证据[2]
+发作性睡病是与 HLA-DQB1*06:02密切相关，且越来越多的证据指向与流感疫苗接种也高度相关，这说明发作性睡病可能是一种自身免疫性疾病，但目前尚无在发作性睡病患者中发现有自身反应性淋巴细胞的证据。研究人员采用敏感细胞筛选方法在19例发作性睡病患者中检测到食欲素特异性的CD4+ T细胞；TRB2（另一种食欲素神经元的自身抗原）特异性T细胞也在13名患者中的8名中发现。在几名发作性睡病患者的血液和脑脊液中也检测到了食欲素特异性CD8 + T细胞。自身反应性克隆型也在患者血中被检测到，而健康对照则没有。上述发现都进一步揭示了发作性睡病的自身免疫机制，并且为快速诊断和治疗提供了基础。
+二、羟丁酸钠临床应用拓展：治疗帕金森患者嗜睡和未成年发作性睡病安全有效[3,4]
+睡眠觉醒障碍是帕金森疾病的常见非运动性症状，但是治疗方案却不多。
+羟丁酸钠，发作性睡病的一线治疗药物，是否对帕金森的过度嗜睡和夜间不安有效呢？来自苏黎世大学医院的一项随机双盲对照交叉研究显示，如根据意向性治疗分析结果，12名研究对象的平均睡眠潜伏期增加了2.9min，ESS则减少了4.2分，夜间睡眠质量也有明显好转；如按符合方案集分析，则效果则更加显著。总体试验过程中，患者对于羟丁酸钠都是可耐受的，有2名患者新出现了阻塞性睡眠呼吸暂停，有1名出现了异态睡眠。该研究结果是羟丁酸钠治疗帕金森患者嗜睡的一级证据[3]。
+今年的一项多中心研究显示，羟丁酸钠在未成年发作性睡病的治疗是安全有效的[4]。羟丁酸钠已被批准为成年人发作性睡病的一线用药，而未成年人发作性睡病尚无治疗猝倒和嗜睡的指南用药。一项来自美国等5个国家的多中心试验显示，服用羟丁酸钠的患儿在嗜睡和猝倒方面都有显著的改善。除此之外，患者停用服羟丁酸钠后，猝倒频率平均每周多了12.7次，而继续服用羟丁酸钠组则平均每周多了0.3次。除此之外，羟丁酸钠在儿童及成人患者中是同样安全的。
+三、丘脑室旁核是觉醒维持的关键脑区[5]
+觉醒维持机制一直是神经科学家关注的重点，而丘脑很早就被推测与觉醒维持密切相关。胡志安课题组发现在睡眠向觉醒转换过程中，丘脑室旁核（paraventricular thalamus，PVT）的兴奋性明显增高，且在觉醒期间持续存在高水平活动。抑制PVT谷氨酸能神经元可明显降低觉醒水平；特异性杀死PVT的谷氨酸能神经元或损毁PVT可引起持续性的觉醒障碍；相反，在睡眠期特异地激活PVT谷氨酸能神经元，可快速诱发睡眠向觉醒转换。课题组进一步发现PVT的谷氨酸能神经元接受来自位于外侧下丘脑（lateral hypothalamus，LH）的食欲素（hypocretin，Hcrt）神经元的支配；Hcrt神经元的输入使得PVT的谷氨酸能神经元在觉醒期产生高兴奋性活动，发挥觉醒维持的作用。同时，PVT的谷氨酸能神经元与皮层下伏隔核（nucleus accumbens，NAc）形成兴奋性的单突触功能连接；激活PVT→NAc通路能诱导睡眠向觉醒的转换；反之，抑制这一通路则可降低觉醒水平(图1)。该结果证实PVT是丘脑觉醒维持的关键脑区。
+图1：PVT在觉醒维持中的作用
+四、伏隔核参与调控觉醒[6]
+伏隔核(nucleus accumbens，NAcc)为基底前脑的一个较大的核团，在大脑的奖赏、 快乐、 成瘾、 侵犯、 恐惧以及安慰剂效果等活动中起重要作用。复旦大学黄志力课题组通过运用光遗传、钙离子成像、化学遗传技术，发现伏隔核多巴胺D1受体阳性神经元及其神经环路在觉醒调控中发挥重要作用。研究人员发现特异性激活伏隔核D1受体阳性神经元可将小鼠从睡眠中唤醒，并延长其清醒时间。反之，抑制这一类神经元活动小鼠则表现为睡眠增加，并出现筑巢行为。通过病毒示踪、离体电生理方法研究神经环路发现，伏隔核D1受体阳性神经元主要通过抑制中脑腹侧背盖区和外侧下丘脑，使多巴胺能神经元和食欲素神经元兴奋性增高，从而调控觉醒行为。
+五、过度嗜睡或睡眠不足增加阿尔茨海默病风险
+老化及认知下降与过度嗜睡相关，然而过度嗜睡是否与阿尔茨海默病病理机制相关仍旧不清。梅奥诊所老化研究项目纳入了283例70岁及以上的无痴呆人群，完成了睡眠相关量表，并分别在2009年及2016年完成PiB-PET（一种可以检测脑内ß-淀粉样蛋白含量的技术）。结果发现纳入人群基线嗜睡评分（ESS）评分与扣带回前部、后扣带回楔前叶及顶叶区域的两次PiB差值显著相关（图2）。也就是说，基线嗜睡情况与ß-淀粉样蛋白沉积量呈正相关，研究结果提示嗜睡程度越高，越容易罹患阿尔茨海默病[7]。
+有趣的是，不仅嗜睡与阿尔茨海默病相关，而睡眠缺乏也与阿尔茨海默病相关，今年的一项研究表明睡眠剥夺可导致右海马及丘脑区域的ß-淀粉样蛋白沉积，且与APOE基因分型无关[8]。
+图2：基线嗜睡评分与扣带回前部、后扣带回楔前叶及顶叶区域PiB差值显著相关（有颜色的区域代表PiB差值）
+六、快速眼动期睡眠障碍（RBD）的多模态影像学研究：揭示a-突触核蛋白病的病理机制
+a-突触核蛋白聚集是帕金森病的病理机制之一，根据Braak分期，突触核蛋白先影响自主神经系统，再到脑干，最后影响新皮质等区域。为了评估这个病理假说，研究人员共纳入了22例特发性RBD患者（考虑到RBD可能是帕金森的前驱表型），采用11C-donepezil PET CT评估肠道副交感神经的乙酰胆碱功能，采用123I-间碘苄基胍（MIBG）显像评估心肌交感神经功能，采用神经黑色素磁共振去检测蓝斑的含色素神经元，采用11C-MeNER PET评估源于蓝斑的去甲肾上腺素功能，采用18F-DOPA PET评估纹状体多巴胺的储存能力，并与无神经系统疾病人员及帕金森患者的影像资料进行对照。结果发现，相较于无神经系统疾病组，RBD组的肠道11C-donepezil PET摄取、心脏MIBG摄取比值、蓝斑11C-MeNER PET摄取及壳核的18F-DOPA PET摄取均明显著降低，神经黑色素敏感磁共振中蓝斑信号衰减显著，而相较于帕金森组，肠道11C-donepezil PET摄取、心脏MIBG摄取比值、蓝斑11C-MeNER PET摄取无明显差异，但71%的RBD患者壳核18F-DOPA PET摄取仍处于正常范围内，而帕金森组摄取则显著降低，两组之间有明显差异（图3）。研究发现，RBD患者的周围神经系统及蓝斑的病理与帕金森患者的病理极为相似，但是RBD患者的多巴胺能储存能力基本正常，这提示周围神经系统变性及蓝斑变性发生在多巴胺能系统变性前，这与Braak病理分期基本相符，a-突触核蛋白聚集在帕金森早期病理进展中发挥了关键作用[9]。
+图3：RBD组、PD组及正常组的多模态影像（A-肠道11C-donepezil PET摄取；B-心脏MIBG的摄取比值；C-神经黑色素敏感磁共振的蓝斑信号；D-丘脑11C-MeNER PET摄取；E-壳核的18F-DOPA PET摄取）
+七、丘脑底核深部电刺激可有效治疗帕金森患者的不宁腿症状[10]
+丘脑底核深部电刺激可有效缓解帕金森患者的不宁腿症状。研究共纳入了22名帕金森伴不宁腿患者行丘脑底核深部电刺激手术，分别在术前、术后6个月、术后1年及术后2年进行随访。采用国际不宁腿综合征研究组评估量表（IRLS）和不宁腿综合征生活质量问卷（RLSQoL）进行评估，结果发现术后较术前有明显好转，同时发现RLS症状缓解与帕金森药物减量治疗无关。
+参考文献:
+1、 Xiao F, Zhang J, Strohl K, et al. Neurology met sleep medicine in 2018[J]. Lancet Neurol, 2019,18(1):15-17.
+2、 Latorre D, Kallweit U, Armentani E, et al. T cells in patients with narcolepsy target self-antigens of hypocretin neurons[J]. Nature, 2018,562(7725):63-68.
+3、 Büchele F, Hackius M, Schreglmann SR, et al. Sodium Oxybate for Excessive Daytime Sleepiness and Sleep Disturbance in Parkinson Disease: A Randomized Clinical Trial[J]. JAMA Neurol, 2018,75(1):114-118.
+4、 Plazzi G, Ruoff C, Lecendreux M, et al. Treatment of paediatric narcolepsy with sodium oxybate: a double-blind, placebo-controlled, randomised-withdrawal multicentre study and open-label investigation[J]. Lancet Child Adolesc Health, 2018,2(7):483-494.
+5、 Ren S, Wang Y, Yue F, et al. The paraventricular thalamus is a critical thalamic area for wakefulness[J]. Science, 2018,362(6413):429-434.
+6、 Luo YJ, Li YD, Wang L, et al. Nucleus accumbens controls wakefulness by a subpopulation of neurons expressing dopamine D1 receptors[J]. Nat Commun, 2018,9(1):1576.
+7、 Carvalho DZ, St LEK, Knopman DS, et al. Association of Excessive Daytime Sleepiness With Longitudinal β-Amyloid Accumulation in Elderly Persons Without Dementia[J].JAMA Neurol,2018,75(6):672-680.
+8、 Shokri-Kojori E, Wang GJ, Wiers CE, et al. β-Amyloid accumulation in the human brain after one night of sleep deprivation[J].Proc Natl Acad Sci U S A,2018,115(17):4483-4488.
+9、 Knudsen K, Fedorova TD, Hansen AK, et al. In-vivo staging of pathology in REM sleep behaviour disorder: a multimodality imaging case-control study[J]. Lancet Neurol, 2018,17(7):618-628.
+10、 Klepitskaya O, Liu Y, Sharma S, et al. Deep brain stimulation improves restless legs syndrome in patients with Parkinson disease[J]. Neurology, 2018,91(11):e1013-1013e1021.

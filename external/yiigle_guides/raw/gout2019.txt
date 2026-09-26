@@ -1,0 +1,1437 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%AB%98%E5%B0%BF%E9%85%B8%E8%A1%80%E7%97%87%E4%B8%8E%E7%97%9B%E9%A3%8E%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%282019%29.html
+# 标题: 中国高尿酸血症与痛风诊疗指南(2019) - 中华内分泌代谢杂志
+# 发布方/日期: 中华医学会内分泌学分会，中华内分泌代谢杂志, 2020,36(01) : 1-13. DOI: 10.3760/cma.j.is；2020-01-25
+
+中国高尿酸血症与痛风诊疗指南(2019)
+中华医学会内分泌学分会
+中华内分泌代谢杂志, 2020,36(01) : 1-13. DOI: 10.3760/cma.j.issn.1000-6699.2020.01.001
+近年来，中国高尿酸血症与痛风患病率急剧增加，亟需制订基于国人研究证据的临床循证指南。为此，中华医学会内分泌学分会遵循国际通用GRADE分级方法，采用临床循证指南制订流程，由方法学家在内的多学科专家参与制订了本指南。本指南包含3条推荐总则和针对10个临床问题的推荐意见，涵盖了高尿酸血症与痛风的诊断、治疗和管理；首次提出了亚临床痛风、难治性痛风的概念和诊治意见；首次对碱化尿液相关问题进行了推荐；首次对痛风常见合并症药物选择进行了推荐。本指南旨在为临床医生和相关从业者对高尿酸血症与痛风的诊疗决策提供最佳依据。
+The prevalence of hyperuricemia and gout is increasing dramatically in China in recent years, which has urgently prompted a clinical practice guideline based on evidences from Chinese population. The Chinese Society of Endocrinology, Chinese Medical Association, began to prepare the guideline in 2018 and completed it in 2019. The guideline was developed following the standard procedures of evidence-based clinical practice guideline, with GRADE method, by multidisciplinary experts including methodologists. A systemic review of the literature concerning all aspects of diagnosis and management of hyperuricemia and gout was performed. Three overarching principles and recommendations for 10 key clinical questions were generated. The guideline also recommended for the first time the concept, diagnosis and treatment of subclinical gout and refractory gout, problems addressing urine alkalization, optimized drug options on co-morbidities. This guideline may provide the best strategy on hyperuricemia and gout management for physicians and stakeholders in China.
+高尿酸血症是嘌呤代谢紊乱引起的代谢异常综合征。无论男性还是女性，非同日2次血尿酸水平超过420 μmol/L，称之为高尿酸血症。血尿酸超过其在血液或组织液中的饱和度可在关节局部形成尿酸钠晶体并沉积，诱发局部炎症反应和组织破坏，即痛风；可在肾脏沉积引发急性肾病、慢性间质性肾炎或肾结石，称之为尿酸性肾病。许多证据表明，高尿酸血症和痛风是慢性肾病、高血压、心脑血管疾病及糖尿病等疾病的独立危险因素，是过早死亡的独立预测因子[1]。高尿酸血症和痛风是多系统受累的全身性疾病，已受到多学科的高度关注，其诊治也需要多学科共同参与。
+高尿酸血症与痛风是一个连续、慢性的病理生理过程，其临床表型具有显著的异质性。随着新的更敏感、更特异的影像学检查方法的广泛应用，无症状高尿酸血症与痛风的界限渐趋模糊[2,3]。因此，对其管理也应是一个连续的过程，需要长期、甚至是终生的病情监测与管理。
+高尿酸血症在不同种族患病率为2.6%～36%[4,5,6]，痛风为0.03%～15.3%[7]，近年呈现明显上升和年轻化趋势[4,8,9]。Meta分析显示，中国高尿酸血症的总体患病率为13.3%，痛风为1.1%[10]，已成为继糖尿病之后又一常见代谢性疾病。目前，我国广大医务工作者对高尿酸血症与痛风尚缺乏足够的重视，在对其诊断、治疗及预防等的认知方面存在许多盲区与误区，存在诊疗水平参差不齐、患者依从性差、转归不良等状况[11,12]。
+近10年来，临床循证指南为临床医生提供了合理、安全、规范的诊疗准则，已成为发达国家临床决策的主要依据[13]。目前具有全球影响力的痛风诊疗指南主要为2012年美国风湿病学会(ACR)和2015年ACR/欧洲抗风湿联盟(EULAR)制订的指南，但均未涉及无症状高尿酸血症[14,15,16,17]。此外，以GRADE系统为代表的证据分级系统已成为国内外指南常用分级方法。自2009年以来，我国多个学科专家共识或指南从本专业角度对高尿酸血症与痛风诊疗进行了一定的规范，对该病的诊治发挥了一定的指导作用[18,19,20,21,22,23]。然而，尚缺乏基于临床循证指南制订方法且由多学科参与的高尿酸血症与痛风诊疗指南。鉴于此，中华医学会内分泌学分会遵循国际通用GRADE分级系统，采用临床循证指南制订方法和工作流程，由方法学家在内的多学科专家参与，制订了《中国高尿酸血症与痛风诊疗指南(2019)》。本指南旨在为临床医生和相关从业者在高尿酸血症与痛风预防、诊断及治疗方面提供临床决策依据，减少不恰当治疗，识别和规避潜在的有害治疗，提高治疗的规范性，并有效利用医疗资源。
+本指南针对高尿酸血症与痛风10个临床问题，以3条总则和10条推荐意见呈现。前者是所有患者都应遵守的治疗原则，后者是针对特定目标人群和临床情况的建议。图1汇总了本指南推荐的高尿酸血症与痛风诊治流程。
+点击查看大图
+图1
+高尿酸血症与痛风诊治流程图
+注：ULT:降尿酸治疗；NSAID:非甾体类抗炎药；CKD:慢性肾脏病；COX-2：环氧合酶2；IL-1：白细胞介素1；TNF-α：肿瘤坏死因子α；VAS：视觉模拟评分法
+图1
+高尿酸血症与痛风诊治流程图
+一、推荐总则
+1．建议所有高尿酸血症与痛风患者保持健康的生活方式：包括控制体重、规律运动；限制酒精及高嘌呤、高果糖饮食的摄入；鼓励奶制品和新鲜蔬菜的摄入及适量饮水；不推荐也不限制豆制品(如豆腐)的摄入。
+痛风是与生活方式相关的疾病，与长期高热量饮食和大量酒精摄入密切相关。Choi等[24]队列研究显示，体重增加是痛风发生的独立危险因素(RR＝1.99，P<0.01)，体重减轻则有保护作用(RR＝0.61, P<0.01)。Meta分析也表明，体重下降可显著提高尿酸控制的达标率，降低痛风急性发作频率[25]。与西方饮食(指大量摄入红肉及加工肉类、炸薯条、精粮、甜食和餐后甜点)相比，DASH饮食(指大量摄入水果、蔬菜、坚果、豆类、低脂奶制品和全麦/杂粮，限制摄入钠、含糖甜食及饮料、红肉及加工肉类)明显降低痛风发生率。Meta分析显示，酒精摄入与痛风发病风险呈正相关[26]。其中重度饮酒者，痛风发病风险增加2.64倍。甜味剂果糖应用广泛，meta分析显示，富含果糖的饮料和水果明显增加血尿酸水平，与痛风发病风险呈正相关(RR＝1.62, P<0.000 1)[27]。有研究提示，豆类食品的嘌呤含量因加工方式而异[28]，因此不推荐也不限制豆制品的摄入。
+2．建议所有高尿酸血症与痛风患者知晓并终生关注血尿酸水平的影响因素，始终将血尿酸水平控制在理想范围：血尿酸水平升高是高尿酸血症和痛风及其相关合并症发生、发展的根本原因。血尿酸长期达标可明显减少痛风发作频率、预防痛风石形成、防止骨破坏、降低死亡风险及改善患者生活质量，是预防痛风及其相关合并症的关键。所有患者应知晓需要终生将血尿酸水平控制在目标范围240～420 μmol/L，并为此可能需要长期甚至终身服用降尿酸药物。2018年的meta分析结果显示，降尿酸药物依从性平均为47%(17%～83.5%)[29]。与仅有全科医生参与的常规管理相比，有专职护士参与的患者管理，2年内血尿酸控制达标率由29.7%升至95%，痛风发作频率(每年>2次)由24.3%降至8%，痛风患者每人每年节约治疗费用5 066英镑[30]。大部分患者需终生降尿酸药物治疗；部分患者，若低剂量药物能够维持长期尿酸达标且没有痛风石的证据，可尝试停用降尿酸药物，但仍需定期监测血尿酸水平，维持血尿酸水平在目标范围。
+3．建议所有高尿酸血症与痛风患者都应了解疾病可能出现的危害，并定期筛查与监测靶器官损害和控制相关合并症：应告知所有患者高尿酸血症和痛风是一种慢性、全身性疾病，可导致多个靶器官的损伤，可能影响预期寿命，应定期监测靶器官损害并及时处理相关合并症。高尿酸血症与痛风、肾结石和慢性肾病有明确的因果关系，同时越来越多的研究发现，血尿酸升高是心脑血管疾病、糖尿病等疾病的独立危险因素[31]。合并肾损害的无症状高尿酸血症患者，降尿酸治疗可明显改善其肾功能、延缓慢性肾功能不全的进展[31]，显著降低高血压患者收缩压和舒张压水平[32]。因此推荐定期筛查与监测靶器官损害和相关合并症，以期早期发现、早期治疗，改善患者总体预后。
+二、推荐意见
+1．问题1：
+痛风的诊断及高尿酸血症的临床分型。痛风的诊断推荐采用2015年ACR/EULAR的分类标准(1B)；无症状高尿酸血症患者，关节超声、双能CT或X线发现尿酸钠晶体沉积和(或)痛风性骨侵蚀可作为亚临床痛风的诊断依据(2C)；建议年轻起病或有家族史的痛风患者依据24 h尿尿酸排泄量和肾脏尿酸排泄分数(FEUA)进行高尿酸血症的临床分型(2B)。
+2015年ACR/EULAR共同推出新版痛风分类标准[33]，将"至少发生1次关节肿胀、疼痛或触痛"作为诊断流程准入的必要条件。"在关节或滑膜液中发现尿酸钠结晶，或出现痛风石"作为确诊的充分条件。若不符合此项充分条件，则依据临床症状、体征、实验室及影像学检查结果累计赋分，≥8分可临床诊断痛风，可借助计算机人工智能辅助系统快速诊断[34]。
+近年来，随着高频超声[35]、双能CT[3]等影像检查手段的广泛应用，发现无症状高尿酸血症患者关节及周围组织可出现尿酸盐晶体沉积甚至骨侵蚀现象，提示无症状高尿酸血症和痛风是一个连续的病理过程。专家小组认为，对于无症状高尿酸血症患者，如影像学检查发现尿酸钠晶体沉积和(或)痛风性骨侵蚀，可诊断为亚临床痛风，并启动相应的治疗。
+2006年EULAR指南推荐对年轻起病或有年轻起病家族史的痛风患者，起始降尿酸药物治疗前应检测肾脏尿酸排泄情况，以指导降尿酸药物的选择[36]。传统高尿酸血症的分型多采用肾脏FEUA或24 h尿尿酸排泄量(UUE)单一指标，导致同一患者根据不同的分型方法得到不同的分型结果。2018年中国年轻痛风患者队列研究显示，部分患者UUE>600 mg·d－1·(1.73 m2)－1，FEUA<5.5%，如果按照单一UUE分型，将被归类为生成过多型；如果按照单一FEUA分型，将被归类为排泄减少型[37]。显然依靠单一指标分型，其结果一致性差，不能精准指导临床实践。Ichida及Matsuo等[38]结合临床及基因检测结果，建议高尿酸血症的分型应根据UUE和FEUA综合判定，可分为：(1)肾脏排泄不良型：UUE≤600 mg·d－1·(1.73 m2)－1且FEUA<5.5%；(2)肾脏负荷过多型：UUE>600 mg·d－1·(1.73 m2)－1且FEUA≥5.5%；(3)混合型：UUE>600 mg·d－1·(1.73 m2)－1且FEUA<5.5%；(4)其他型：UUE≤600 mg·d－1·(1.73 m2)－1且FEUA≥5.5%。由于该建议充分考虑了低嘌呤饮食状态下，24 h肾脏尿酸排泄总量和肾脏尿酸排泄率两个指标，分型更加准确，因此，本指南推荐参照上述方法对高尿酸血症进行临床分型。
+2．问题2：
+无症状高尿酸血症患者起始降尿酸药物治疗的时机和控制目标。建议无症状高尿酸血症患者出现下列情况时起始降尿酸药物治疗：血尿酸水平≥540 μmol/L(2B)或血尿酸水平≥480 μmol/L且有下列合并症之一：高血压、脂代谢异常、糖尿病、肥胖、脑卒中、冠心病、心功能不全、尿酸性肾石病、肾功能损害(≥CKD2期)(2B)。无合并症者，建议血尿酸控制在<420 μmol/L；伴合并症时，建议控制在<360 μmol/L(2C)。
+对于无症状高尿酸血症患者的药物治疗，各国指南观点不一[19,23,39,40,41]，欧美指南[39,40]多不推荐，而亚洲国家如日本、中国[19,23,41]多持积极态度。多项观察性研究结果显示，高尿酸血症与多种疾病的发生、发展相关。血尿酸每增加60 μmol/L，高血压发病相对危险增加1.4倍，新发糖尿病的风险增加17%[42]，冠心病死亡风险增加12%[43]。Meta分析显示，血尿酸水平≤360 μmol/L时痛风发生率为0.8/1 000人年，血尿酸水平≥600 μmol/L时痛风发生率为70.2/1 000人年。血尿酸水平越低，痛风发生率越低，如血尿酸水平长期保持<360 μmol/L，痛风发生率明显降低[44]。2019年，Kojima等[45]的多中心前瞻性随机对照研究(FREED)显示，对无症状高尿酸血症患者进行非布司他干预能够显著降低心脑血管不良事件的发生率，并延缓肾功能不全的进展。
+3．问题3：
+痛风患者起始降尿酸药物治疗的时机及控制目标。痛风患者，建议血尿酸≥480 μmol/L时，开始降尿酸药物治疗(2C)；血尿酸≥420 μmol/L且合并下列任何情况之一时起始降尿酸药物治疗：痛风发作次数≥2次/年、痛风石、慢性痛风性关节炎、肾结石、慢性肾脏疾病、高血压、糖尿病、血脂异常、脑卒中、缺血性心脏病、心力衰竭和发病年龄<40岁(2B)；建议痛风急性发作完全缓解后2～4周开始降尿酸药物治疗，正在服用降尿酸药物的痛风急性发作患者，不建议停用降尿酸药物(2B)。建议痛风患者控制血尿酸<360 μmol/L，合并上述情况之一时，控制血尿酸水平<300 μmol/L(2B)；不建议将血尿酸长期控制在<180 μmol/(2B)。
+国内外学者均建议在痛风发作控制2～4周后起始降尿酸药物治疗；已服用降尿酸药物治疗的患者，急性发作期不建议停药[41,46,47,48,49]。针对特殊人群，包括频发性痛风(急性发作≥2次/年)、痛风石、肾石症、发病年龄<40岁、血尿酸水平>480 μmol/L、存在合并症(肾损害、高血压、缺血性心脏病、心力衰竭)等，一经确诊即应考虑降尿酸治疗[17]。
+证据显示，患者血尿酸<360 μmol/L，1年内痛风复发率<14%，血尿酸>480 μmol/L，年复发率超过50%[50]；血尿酸长期控制在<360 μmol/L时，不仅可使尿酸盐结晶溶解，晶体数量减少、体积缩小，同时还可避免新的结晶形成[51]。有效的降尿酸治疗，还能改善痛风患者的心脏、肾脏合并症，降低死亡率[52]。痛风患者血尿酸控制目标，不同国家和地区指南意见比较统一[18,39,53,54]。2016年EULAR痛风管理推荐意见、2018年中国台湾地区多学科共识[17,18]均建议对血尿酸的管理遵循个体化治疗原则，推荐所有痛风患者血尿酸水平控制<360 μmol/L，严重痛风患者血尿酸水平控制<300 μmol/L，不推荐将血尿酸长期控制在<180 μmol/L。
+4．问题4：
+高尿酸血症与痛风患者降尿酸药物的选择。选择降尿酸药物时，应综合考虑药物的适应证、禁忌证和高尿酸血症的分型。推荐别嘌醇、非布司他或苯溴马隆为痛风患者降尿酸治疗的一线用药(1B)；推荐别嘌醇或苯溴马隆为无症状高尿酸血症患者降尿酸治疗的一线用药(1B)；单药足量、足疗程治疗，血尿酸仍未达标的患者，可考虑联合应用两种不同作用机制的降尿酸药物，不推荐尿酸氧化酶与其他降尿酸药物联用(1C)。
+别嘌醇是第一个用于高尿酸血症和痛风患者的黄嘌呤氧化酶抑制剂，具有良好降尿酸效果，尤其适用于尿酸生成增多型的患者。多国指南均推荐别嘌醇为高尿酸血症和痛风患者降尿酸治疗的一线用药，建议从小剂量起始，并根据肾功能调整起始剂量、增量及最大剂量[14,17,20,21,49]。虽然其疗效显著、价格低廉，但在中国人群中使用应特别关注别嘌醇超敏反应(中国台湾地区超敏反应发生率为2.7%[55])，一旦发生，致死率高达30%。已证实，别嘌醇超敏反应的发生与HLA-B*5801存在明显相关性，且汉族人群携带该基因型的频率为10%～20%。因此，对于HLA-B*5801阳性患者，国内外指南均不推荐使用别嘌醇。根据成本-效益分析研究，对亚裔人群使用别嘌醇之前应进行HLA-B*5801基因检测，特别是eGFR<60 ml·min－1·(1.73 m2)－1的高尿酸血症和痛风患者[56,57]。
+非布司他为特异性黄嘌呤氧化酶抑制剂，有良好的降尿酸效果[58]，尤其适用于慢性肾功能不全患者。由于其价格昂贵及潜在的心血管风险，欧美指南多推荐非布司他为别嘌醇的替代用药，仅在别嘌醇不耐受或疗效不佳时使用[59]。但随着非布司他价格的降低，以及亚裔人群中其增加心源性猝死风险并无足够的证据[60]，专家组推荐[14,20]非布司他为痛风患者的一线降尿酸药物，起始剂量为20 mg/d，2～4周后血尿酸水平仍未达标，可增加20 mg/d，最大剂量为80 mg/d。但在合并心脑血管疾病的老年人中应谨慎使用，并密切关注心血管事件。
+苯溴马隆通过抑制肾近端小管尿酸盐转运蛋白1(URAT-1)，抑制肾小管尿酸重吸收，以促进尿酸排泄，特别适用于肾尿酸排泄减少的高尿酸血症和痛风患者。对于尿酸合成增多或有肾结石高危风险的患者不推荐使用。服用苯溴马隆时应注意大量饮水及碱化尿液。由于苯溴马隆在白种人有引起爆发性肝坏死报道[61]，欧洲指南多作为二线药物推荐，但亚裔人中罕有报道，可能与亚裔人群CYP2C9基因多态性不同有关。鉴于此，专家组推荐苯溴马隆作为高尿酸血症与痛风降尿酸治疗的一线用药，建议起始剂量为25 mg/d，2～4周后血尿酸水平仍未达标，可增加25 mg/d，最大剂量为100 mg/d。建议在使用过程中密切监测肝功能，在合并慢性肝病患者中，应谨慎使用苯溴马隆。
+对于单药充分治疗血尿酸仍未达标的患者，可考虑联合应用两种不同作用机制的降尿酸药物，以提高尿酸达标率[62]。
+5．问题5：
+高尿酸血症与痛风患者碱化尿液的方法和控制目标。建议当高尿酸血症与痛风患者晨尿pH值<6.0，尤其是正在服用促尿酸排泄药物时，定期监测晨尿pH值(2C)，可应用简易尿pH仪自行监测(2C)。pH值<6.0时，建议服用枸橼酸制剂、碳酸氢钠碱化尿液，使晨尿pH值维持在6.2～6.9，以降低尿酸性肾结石的发生风险和利于尿酸性肾结石的溶解(2C)。
+低pH尿(尿pH<6)是尿酸性肾结石形成的重要原因。促尿酸排泄药物如苯溴马隆，可导致尿尿酸浓度明显升高，增加尿酸性肾结石形成的风险。尿pH值在24 h内变化较大，应以24 h尿pH值作为金标准，但临床留取24 h尿，患者依从性差[63]。因此建议，晨尿pH值<6.0尤其使用促尿酸排泄药物的患者应定期监测晨尿pH值。已有肾结石的患者，需保持任意时间尿pH值在6.1～7.0，因尿pH>7虽然增加尿尿酸溶解度，但却增加了钙盐结石的发生率，因此推荐高尿酸血症与痛风患者的最佳晨尿pH值为6.2～6.9。有研究显示，便携式pH仪与实验室台式pH检测仪具有较好的一致性，适合家用，但需注意电极的维护[64]。
+碱化尿液是预防和溶解尿酸性肾结石的主要方法[18,22,53,65,66]。常用药物为碳酸氢钠和枸橼酸制剂。碳酸氢钠适用于慢性肾功能不全合并代谢性酸中毒患者。剂量0.5～1.0 g口服，3次/d。不良反应主要为胀气、胃肠道不适；长期应用需警惕血钠升高及高血压[19]。血中碳酸氢根浓度>26 mmol/L，将增加心力衰竭的风险；血碳酸氢根浓度<22 mmol/L，则增加肾脏疾病的风险。因此，在使用碳酸氢钠碱化尿液过程中，血中碳酸氢根浓度应该维持在22～26 mmol/L。枸橼酸盐制剂主要用于尿酸性肾结石、胱氨酸结石及低枸橼酸尿患者。使用剂量主要根据尿pH值决定，一般用量9～10 g/d，疗程2～3个月。第一次使用前需检查肾功能和电解质，当与保钾利尿剂、血管紧张素转换酶抑制剂(ACEI)降压药、非甾体类抗炎药(NSAID)联用时，易引起高钾血症，应注意监测。禁用于急慢性肾功能衰竭、严重酸碱平衡失调、慢性泌尿道尿素分解菌感染及氯化钠绝对禁用患者。
+6．问题6：
+痛风急性发作期的抗炎镇痛治疗。痛风急性发作期，推荐尽早使用小剂量秋水仙碱或NSAID(足量、短疗程)，对上述药物不耐受、疗效不佳或存在禁忌的患者，推荐全身应用糖皮质激素(1B)；有消化道出血风险或需长期使用小剂量阿司匹林患者，建议优先考虑选择性环氧化酶2(COX-2)抑制剂(2B)；痛风急性发作累及多关节、大关节或合并全身症状的患者，建议首选全身糖皮质激素治疗(2B)；疼痛视觉模拟评分法(VAS)评分≥7分，或≥2个大关节受累，或多关节炎，或一种药物疗效差的患者，建议两种抗炎镇痛药物联合治疗，如小剂量秋水仙碱与NSAID或小剂量秋水仙碱与全身糖皮质激素联用(2C)。
+痛风急性发作的抗炎镇痛治疗各国指南、共识推荐意见基本相似。秋水仙碱是第一个用于痛风抗炎镇痛治疗的药物，目前仍是痛风急性发作的一线用药。研究显示，与大剂量用药相比，小剂量秋水仙碱治疗急性痛风同样有效，且不良反应明显减少[67]。因此推荐急性痛风发作时，秋水仙碱首剂1 mg，1 h后追加0.5 mg，12 h后改为0.5 mg qd或bid。秋水仙碱是CYP3A4和P-糖蛋白的底物，在CYP3A4或P-糖蛋白抑制剂存在时，血液中秋水仙碱的浓度增加。因此正在使用P-糖蛋白或强效CYP3A4抑制剂(如酮康唑、红霉素、克拉霉素、环孢素、那非那韦、利托那韦、地尔硫卓、硝苯地平、维拉帕米等)及经CYP3A4代谢的药物(如他汀类降脂药)的患者，慎用秋水仙碱或减量使用。
+NSAID也是痛风急性期一线用药，建议早期足量服用。首选起效快、胃肠道不良反应少的药物。老龄、肾功不全、既往有消化道溃疡、出血、穿孔的患者应慎用。痛风急性发作时，选择性COX-2抑制剂(依托考昔)治疗2～5 d时疼痛缓解程度与非选择性NSAID(吲哚美辛和双氯芬酸)相当，但胃肠道不良反应和头晕的发生率明显减低[68]。非选择性NSAID可能影响小剂量阿司匹林的抗凝活性[69]，增加上消化道不良反应。对于需长期服用小剂量阿司匹林的痛风患者，建议优先考虑选择性COX-2抑制剂(塞来昔布)与阿司匹林联用。所有NSAID均可能导致肾脏缺血，诱发和加重急慢性肾功能不全[70]。因此，对于痛风合并肾功能不全患者，建议慎用或禁用NSAID，GFR<60 ml·min－1·(1.73 m2)－1时不建议长程使用，GFR<30 ml·min－1·(1.73 m2)－1时禁用。
+糖皮质激素在痛风急性发作期镇痛效果与NSAID相似，但能更好地缓解关节活动痛。目前欧美指南多推荐糖皮质激素作为一线抗炎镇痛药物[14,48]。为防止激素滥用及反复使用增加痛风石的发生率[71,72]，专家组将糖皮质激素推荐为二线镇痛药物，仅当痛风急性发作累及多关节、大关节或合并全身症状时，才推荐全身应用糖皮质激素治疗，建议口服强的松0.5 mg·kg－1·d－1，3～5 d停药；其他激素，如地塞米松、倍他米松的用法按照等效抗炎剂量交换[14,20]。当痛风急性发作累及1～2个大关节时，建议有条件者可抽吸关节液后，行关节腔糖皮质激素治疗。
+对于严重的急性痛风发作(疼痛VAS≥7)、多关节炎或累及≥2个大关节者，建议使用2种或以上镇痛药治疗[14]，包括秋水仙碱与NSAID、秋水仙碱与口服糖皮质激素联合使用以及关节腔糖皮质激素注射与其他任何形式的组合。本指南不建议口服NSAID和全身糖皮质激素联用。
+7．问题7：
+痛风患者降尿酸药物治疗初期预防痛风发作措施。痛风患者降尿酸治疗初期，推荐首选小剂量(0.5～1 mg/d)秋水仙碱预防痛风发作，至少维持3～6个月(1A)；对于肾功能不全患者，建议根据eGFR调整秋水仙碱用量(2B)；不能耐受秋水仙碱的患者，建议小剂量NSAID(不超过常规剂量的50%)或糖皮质激素(强的松≤10 mg/d)预防发作，至少维持3～6个月(2B)；建议小剂量起始降尿酸药物，缓慢加量，以避免或减少痛风发作(2B)。
+长期降尿酸治疗是根治痛风的关键。痛风患者开始服用降尿酸药物后，由于血尿酸水平的波动可引起关节内外的痛风石或尿酸盐结晶溶解，导致痛风性关节炎反复发作。降尿酸治疗初期(3～6个月)，血尿酸水平显著降低，约12%～61%的患者可出现痛风反复发作[44,73]，继续治疗8～12个月，痛风发作频率可显著降低[74]；如同时给予小剂量秋水仙碱(0.5～1.0 mg/d)，3～6个月内痛风发作频率下降至20%左右[73]。国内外指南均推荐首选小剂量(0.5～1.0 mg/d)秋水仙碱预防痛风发作，至少维持3～6个月[17,46,49,75]。对于肾功能不全患者，建议根据eGFR调整秋水仙碱用量[19]。eGFR 35～59 ml·min－1·(1.73 m2)－1时，秋水仙碱最大用量0.5 mg/d；eGFR 10～34 ml·min－1·(1.73 m2)－1时，秋水仙碱最大用量0.5 mg/次，隔日1次，eGFR<10 ml·min－1·(1.73 m2)－1时禁用秋水仙碱。
+对秋水仙碱不耐受的患者，国内外指南均推荐使用小剂量NSAID作为预防痛风发作的二线药物。降尿酸治疗期间，小剂量NSAID(萘普生250 mg bid、消炎痛50 mg bid)可明显降低痛风发作频率[14,76]。药物剂量和疗程与药物的不良反应相关。虽有大量研究资料显示选择性COX-2抑制剂长期使用胃肠道副作用明显小于非选择性NSAID，但目前尚无证据支持，预防痛风发作首选选择性COX-2抑制剂。
+对于秋水仙碱和NSAID不耐受或存在禁忌的患者，如慢性肾功能不全，国内外指南均推荐使用小剂量糖皮质激素(强的松≤10 mg/d)作为预防痛风发作用药。有研究显示，小剂量糖皮质激素可明显降低痛风发作频率，疗效与NSAID相当，但略低于秋水仙碱[76]。
+NSAID和糖皮质激素长期使用时，需同时口服胃粘膜保护剂。此外，应密切关注心血管安全性、肝肾毒性、胃肠道反应及骨质疏松等药物不良反应。
+有研究提示[73]，小剂量起始降尿酸药物，缓慢加量，有助于降低降尿酸药物治疗初期痛风急性发作的风险。
+8．问题8：
+难治性痛风的定义和治疗原则。难治性痛风是指具备以下三条中至少一条：(1)单用或联用常规降尿酸药物足量、足疗程，但血尿酸仍≥360 μmol/L；(2)接受规范化治疗，痛风仍发作≥2次/年；(3)存在多发性和(或)进展性痛风石(2C)。治疗方面建议将聚乙二醇重组尿酸酶制剂用于难治性痛风的降尿酸治疗(2B)；疼痛反复发作、常规药物无法控制的难治性痛风患者，可考虑使用白细胞介素1(IL-1)或肿瘤坏死因子α(TNF-α)拮抗剂(2C)；如痛风石出现局部并发症(感染、破溃、压迫神经等)或严重影响生活质量时，可考虑手术治疗(2C)。
+难治性痛风的定义及其治疗原则是目前广大临床医生普遍关注的重点，迄今国内外尚缺乏共识。2008年Fels和Sundy[77]认为，难治性痛风应同时具备以下两条：持续存在的痛风临床表现；血尿酸始终不能降至360 μmol/L以下。该类患者常表现为关节持续肿胀、疼痛、多发性痛风石和关节破坏、生活质量差等。由于依从性差、对降尿酸药物不耐受或合并慢性肾脏疾病降尿酸药物剂量受限等原因，患者血尿酸常不能降至360 μmol/L以下。近年来多项难治性痛风的临床研究将基线血尿酸≥480 μmol/L，且存在下列临床特征中的至少一条定义为难治性痛风[78,79]：(1)在过去18个月，痛风发作3次以上；(2)至少1个痛风石；(3)持续性关节疼痛或者影像学显示痛风相关的关节损伤；(4)别嘌醇治疗存在禁忌，或使用最大剂量别嘌醇治疗3个月以上时血尿酸仍不达标者。本指南基于现有文献及共识意见给出上述定义[46,47]。
+难治性痛风的治疗原则主要包括两点：降低血尿酸水平和改善临床症状。在降低血尿酸水平方面，普瑞凯希(Pegloticase，聚乙二醇重组尿酸酶制剂)对大部分难治性痛风有较好的疗效，且其药代动力学不受年龄、性别、体重和肌酐清除率的影响[80]，可用于传统降尿酸治疗无效的难治性痛风[81]。普瑞凯希8 mg，每2周给药1次疗效最好，不良反应最小。普瑞凯希静脉注射的不良反应(肌肉骨骼疼痛、脸红、红斑、恶心/呕吐、呼吸困难、头疼、血压变化、荨麻疹)发生率为20%～40%[82]，该现象多发生于抗普瑞凯希抗体滴度高的患者，因此在用药前需给予抗组胺药物和糖皮质激素预防以降低不良反应的发生[81]。对于葡萄糖6磷酸酶(G-6-pase)缺陷的患者，应避免使用普瑞凯希，以防止增加溶血和高铁血红蛋白血症的发生风险[81]。对于伴有心血管疾病患者应避免使用普瑞凯希，以防加重心衰。虽然尿酸氧化酶在中国尚未上市，但原研药已引入中国，且仿制品正在开发。基于现有研究及以往指南建议[17,47,52,75]，本指南建议普瑞凯希用于难治性痛风的降尿酸治疗。
+近年来，新型痛风抗炎镇痛药物IL-1拮抗剂逐渐用于痛风的治疗和预防。国际上已批准用于风湿性疾病的IL-1拮抗剂主要有阿纳白滞素(Anakinra)、卡那单抗(Canakinumab)和利纳西普(Rilonacept)，均未在中国上市。ACR分别于2011年、2012年推荐阿纳白滞素和卡那单抗用于严重的急性痛风性关节炎的治疗[15]。2013年卡那单抗被欧洲药品管理局(EMA)批准用于不耐受或常规抗炎镇痛药物存在禁忌的痛风。利纳西普虽然预防痛风有效，但尚未得到国际权威机构的推荐。
+对于存在痛风石并出现局部并发症(感染、破溃、压迫神经等)或严重影响生活质量的患者，可考虑手术治疗[39,83]。
+9．问题9：
+高尿酸血症与痛风合并慢性肾脏疾病时降尿酸药物的选择。高尿酸血症与痛风合并慢性肾脏疾病患者，推荐根据慢性肾脏疾病分期，个体化选择降尿酸药物及剂量(1C)；建议eGFR<30 ml·min－1·(1.73 m2)－1时降尿酸药物优先考虑非布司他(2C)。
+慢性肾脏疾病是高尿酸血症与痛风患者常见合并症，为避免肾功能受损影响药物代谢和排泄，导致药物蓄积中毒，国内外专家均建议应根据肾功能分期合理选择降尿酸药物，及时调整药物的起始剂量和最大剂量[17,21,49,57]。
+别嘌醇进入体内后，在肝脏代谢为有活性的羟嘌呤醇，全部经肾脏排出体外，肾功能不全时易在体内蓄积，增加药物中毒风险[57]。因此建议，CKD1～2期[eGFR≥60 ml·min－1·(1.73 m2)－1]时，别嘌醇起始剂量为100 mg/d，每2～4周增加100 mg/d，最大剂量800 mg/d。CKD 3～4期[eGFR 15～59 ml·min－1·(1.73 m2)－1]时，起始剂量50 mg/d，每4周增加50 mg/d，最大剂量200 mg/d。CKD 5期[eGFR<15 ml·min－1·(1.73 m2)－1]禁用。
+苯溴马隆口服后50%被吸收，其代谢产物主要通过胆道排泄，在轻中度肾功能不全患者，具有良好的降尿酸作用且不导致药物蓄积和肾脏进一步损害[84]。对于CKD 4～5期[eGFR<30 ml·min－1·(1.73 m2)－1]患者不推荐使用。
+非布司他口服后主要在肝脏代谢，经肾脏和肠道双通道排泄，与其他降尿酸药物相比，其降尿酸效果及肾脏的保护作用更佳[84,85,86]。有研究表明，非布司他对合并4～5期慢性肾脏疾病的痛风患者仍有一定的治疗效果[86]。对CKD 4～5期患者，非布司他推荐起始剂量为20 mg/d，最大剂量40 mg/d[57]。
+10．问题10：
+高尿酸血症与痛风患者有合并症时相关药物的选择。高尿酸血症与痛风患者合并高血压时，建议降压药物首选氯沙坦和(或)钙通道阻滞剂(2C)，不推荐噻嗪类和袢利尿剂等单独用于降压治疗(1C)；合并高三酰甘油血症时，调脂药物建议首选非诺贝特；合并高胆固醇血症时，调脂药物建议首选阿托伐他汀钙(2B)；合并糖尿病时，建议优先选择兼有降尿酸作用的降糖药物，次选不升高血尿酸的药物(2C)。
+高尿酸血症与痛风常合并高血压、脂代谢紊乱和糖尿病等，这些疾病相互影响、互为因果。因此，坚持"综合治疗"的原则[87]，选择兼有降尿酸作用的药物、避免升尿酸药物。
+高尿酸血症与痛风患者中47.2%～77.7%合并高血压。迄今仅发现氯沙坦和钙通道阻滞剂(二氢吡啶类钙通道阻滞剂如氨氯地平，长效钙通道阻滞剂如西尼地平)在降压的同时，兼有降尿酸作用[88]，并可降低痛风发作风险。排钾利尿剂、β受体阻滞剂、血管紧张素转换酶抑制剂和非氯沙坦血管紧张素II受体阻滞剂均明显增加痛风发生风险[89]。因此建议降压药物首选氯沙坦和(或)钙通道阻滞剂，不推荐噻嗪类和袢利尿剂等排钾利尿剂单独用于降压治疗。
+高尿酸血症与痛风患者中67%合并脂代谢紊乱。非诺贝特通过抑制URAT1，抑制肾近端小管尿酸重吸收，促进肾脏尿酸排泄[90]。阿托伐他汀钙通过促进肾脏尿酸排泄[91]降低血尿酸水平。因此推荐合并高三酰甘油血症时，调脂药物建议首选非诺贝特。合并高胆固醇血症患者，调脂药物建议首选阿托伐他汀钙。
+高尿酸血症与痛风患者中12.2%～26.9%合并糖尿病。目前已明确具有降尿酸作用的降糖药物主要有α-糖苷酶抑制剂、胰岛素增敏剂、二肽基肽酶4(DPP-4)抑制剂、钠-葡萄糖协同转运蛋白2(SGLT-2)抑制剂和二甲双胍等。胰升糖素样肽1(GLP-1)受体激动剂利拉鲁肽和艾塞那肽均不影响血尿酸水平，但艾塞那肽可增加24 h尿酸排泄量和排泄分数，并改善尿pH[92]。胰岛素通过激活URAT1，促进肾近端小管尿酸重吸收。痛风合并糖尿病患者，胰岛素治疗后血尿酸水平平均升高75 μmol/L[93]，因此建议合并糖尿病时，降糖药物优先选择兼有降尿酸作用的药物，次选对血尿酸水平无不良影响的药物。
+三、总结和展望
+临床循证指南坚持以患者为中心原则，更多关注不同的患者群体，关注临床工作中的具体问题，具有更好的实用性和时效性。指南制订者基于本种族特点、文化背景和本国资源，制订可行性更好的指南，为患者、医务工作者、卫生管理者以及企业提供了决策依据。
+本指南采用国际最新临床循证指南制订方法，遴选目前高尿酸血症与痛风各相关专业临床医生最关注和棘手的问题，采纳最新国内外研究证据，并结合患者偏好和经济学研究，权衡利弊，对重要临床问题进行分级推荐，以期为各相关群体提供目前该领域最佳临床决策依据。
+1．本指南的特色：
+与国内外指南相比，本指南提出了一些新的观点和推荐意见。首先，基于新的经济学研究证据和新的诊疗方法，在总则中我们提出患者对疾病认知的重要性以及高尿酸血症与痛风需长期乃至终生治疗的概念，对患者教育、血尿酸达标治疗、靶器官损害及合并症的监测和处理进行了推荐；第二，根据新近影像学研究成果，我们提出"亚临床痛风"的概念。2019年，全球著名的痛风、高尿酸血症和晶体性疾病学术组织G-CAN对高尿酸血症和痛风领域相关概念和术语进行了规范，提出无关节炎临床症状而有尿酸钠晶体沉积和(或)痛风性骨侵蚀影像证据的患者应诊断为间歇期痛风[94,95]。基于上述证据及我国疾病命名习惯，指南专家小组认为，对于无症状高尿酸血症患者，如影像学检查发现尿酸钠晶体沉积和(或)痛风性骨侵蚀，即可诊断为亚临床痛风，从而及时启动相应的处理。第三，对碱化尿液相关问题给予明确推荐，包括晨尿pH值的控制目标，晨尿pH值监测的方法与工具及碱化尿液药物的选择依据等，具有更好的可行性。第四，首次采纳成本-效益分析的研究结果，对患者教育、HLA-B*5801检测及非布司他的使用进行了基于经济学研究证据的推荐，为患者参与确定治疗方案和公共卫生政策的制订提供了依据；第五，高尿酸血症与痛风群体极易合并高血压、高血脂、高血糖、动脉粥样硬化以及慢性肾病，合并症用药成为临床医生非常关注的问题，本指南检索和评估最新研究结果，首次对合并症的相关用药进行了推荐，并提出多病并存时"综合治疗"的理念；第六，在临床问题的遴选和重要性排序中，难治性痛风的诊治居第10位，基于全面的文献检索和解读，本指南明确提出"难治性痛风"的概念并对其管理和治疗方案进行了详细推荐；第七，NSAID是痛风发作期和预防发作常用药物，基于最新的有效性、安全性和经济学证据，我们对选择性COX-2抑制剂的合理选择给出了明确推荐意见。
+2．本指南与其他指南的不同之处：
+指南制订过程中，充分考虑中国患者的种族特异性和我国当前的卫生健康资源和医疗实践状况，形成了数条与国外指南/共识不同的推荐意见。其一，对全身糖皮质激素在急性痛风抗炎镇痛治疗中的应用做了严格限制，并特别注明需关注糖皮质激素的不良反应；其二，关节腔穿刺是一种有创操作，对技术有一定要求，在我国痛风从业者中尚未全面开展，因此未对关节腔激素治疗形成推荐意见；其三，指南采纳了我国的研究结果，对别嘌醇、非布司他和苯溴马隆的起始剂量和剂量调整的推荐意见均不同于欧美国家和日本的指南。有些在国外指南中已有推荐、国内尚未上市的药物(如重组尿酸氧化酶)，基于国外证据进行了推荐，使指南具有一定的前瞻性。
+3．展望：
+综上所述，《指南》推荐意见更加关注临床实践的真实情况，坚持以患者为中心原则，关注不同疾病时期、不同合并症的患者，关注特殊人群和患者偏好，并与我国当前国情相结合，使得指南更具实践的可行性。指南撰写亦不同于以往国内的指南/共识，除逐条呈现推荐意见和推荐说明，同时解释了推荐意见形成的方法和过程以及推荐依据的强度和限制性，将意见产生过程以透明、可追踪的形式在指南中呈献给读者。
+一部指南并不能解决所有的问题，这就要求临床工作者面对具体患者时在遵循指南推荐原则的基础上结合患者的具体情况综合考虑，采取最有利于当前情况的诊疗措施。同时，有些临床医生关注的问题在本指南中因为证据过少，没有提交指南专家小组投票，例如，尿酸正常痛风患者的治疗、生殖期药物安全性、非布司他在无症状高尿酸血症的应用、痛风发作期降尿酸药物治疗、痛风发作期的局部治疗问题、痛风发作的预测指标以及预防用药选择的依据、根据高尿酸血症分型选择降尿酸药物的证据等。这些在指南中尚未涉及到的临床问题提供了未来研究的方向，并将成为今后指南更新的依据。
+指南指导委员会、共识专家组和制订工作组名单(按汉语拼音排序)
+指导委员会：陈耀龙(兰州大学基础医学院循证医学中心/GRADE中国中心)；母义明(解放军总医院第一医学中心)；滕卫平(中国医科大学附属第一医院)；赵家军(山东省立医院)
+指南共识专家组：陈刚(福建省立医院)；陈康(解放军总医院第一医学中心)；成志锋(哈尔滨医科大学附属第四医院)；冯哲(解放军总医院第一医学中心)；何兰杰[山东大学齐鲁医院(青岛)]；赖晓阳(南昌大学第二附属医院)；李长贵(青岛大学附属医院)；李全民(火箭军特色医学中心)；李裕明(华中科技大学同济医学院附属协和医院)；林淑芃(解放军总医院第一医学中心)；林孝义(中国台湾台北振兴医院)；刘建萍(南昌大学第二附属医院)；刘建英(南昌大学第一附属医院)；吕朝晖(解放军总医院第一医学中心)；彭艾(同济大学附属第十人民医院)；冉兴无(四川大学华西医院)；邵加庆(东部战区总医院)；王清(吉林大学中日联谊医院)；王应灯(上海交通大学医学院附属第九人民医院)；魏枫(内蒙古科技大学包头医学院第一附属医院)；伍沪生(北京积水潭医院)；谢超(北京大学第三医院)；阎德文(深圳大学第一附属医院)；杨涛(南京医科大学第一附属医院)；姚勇利(青海省人民医院)；尹慧勇(中国科学院上海营养与健康研究所)；张楚(浙江大学医学院附属杭州市第一人民医院)；张红(中南大学湘雅二医院)；张栩(山东省立医院)；周京国(成都医学院第一附属医院)；朱筠(广东省深圳市宝安人民医院集团)；祝开思(中国人民解放军第305医院)
+指南制订工作组：白雪山(青岛大学附属医院)；陈海冰(上海市第六人民医院)；崔凌凌(青岛大学附属医院)；戴宇翔(复旦大学附属中山医院)；李鑫德(青岛大学附属医院)；刘振(青岛大学附属医院)；罗旭飞(兰州大学公共卫生学院)；孙明姝(青岛大学附属医院)；孙瑞霞(青岛大学附属医院)；滕晓春(中国医科大学附属第一医院)；王灿(青岛大学附属医院)；徐承富(浙江大学医学院附属第一医院)；徐浣白(上海交通大学附属第一人民医院)
+执笔：李长贵、吕朝晖、孙明姝、陈耀龙
+附录1
+指南形成
+1．指南的发起、指南制定小组的组成及总体方法：
+本指南的制订由中华医学会内分泌学分会发起，成立指南制订指导委员会，组建指南制订专家组和工作组。专家组和工作组最终由30名内分泌专家、4名风湿病专家、4名肾脏病专家、1名心血管病专家、1名消化病专家、2名方法学专家和6名相关资深专家组成。全体成员签署利益冲突声明。兰州大学循证医学中心/GRADE中国中心提供方法学支持。
+本指南的整体设计与实施参照《世界卫生组织指南制订手册》及《临床诊疗指南的基本方法与程序》。指南评价工具采用ARGEEII[96]。指南分级标准采用GRADE分级系统[97]。GRADE分级证据等级说明和推荐强度说明见表1和表2。指南报告格式采用卫生保健实践指南的RIGHT[98]。本指南共组织4次面对面专家讨论会，2次问卷调查，2次Delphi法推荐意见投票，并在国际实践指南注册平台(IPGRP，http：//www.guidelines-registry.org)注册(注册号：IPGRP-2018CN018)，上传指南计划书。
+点击查看表格
+表1
+GRADE证据质量分级与定义
+表1
+GRADE证据质量分级与定义
+质量等级
+定义
+高级(A)
+非常确信真实效应值接近效应估计值
+中级(B)
+对效应估计值有中等程度的信心：真实效应值有可能接近估计效应值，但仍存在两者大不相同的可能性
+低级(C)
+对效应估计值的确信程度有限：真实效应值可能与效应估计值大不相同
+极低级(D)
+对效应估计值几乎无信心：真实效应值很可能与效应估计值大不相同
+点击查看表格
+表2
+GRADE推荐强度分级与定义
+表2
+GRADE推荐强度分级与定义
+推荐强度
+说明
+表达方法
+表示方法
+支持使用某项干预措施的强推荐
+干预措施明显利大于弊
+推荐使用
+1
+支持使用某项干预措施的弱推荐
+干预措施可能利大于弊
+建议使用
+2
+反对使用某项干预措施的弱推荐
+干预措施可能弊大于利或利弊关系不明确
+建议不使用
+2
+反对使用某项干预措施的强推荐
+干预措施明显弊大于利
+推荐不使用
+1
+2．临床问题的遴选及确定：
+工作组对2012年以来国内外该领域发表的指南和共识，进行比对，针对既往指南中没有涉及、存在争议和有研究进展的内容及临床医生重点关注的内容，初步形成52个临床问题。经临床问题重要性问卷调查和专家组面对面会议讨论，最终形成本指南覆盖的19个临床问题，主要涉及高尿酸血症与痛风的诊断、筛查、管理、降尿酸治疗、痛风发作的治疗和预防、合并症、生活方式及特殊人群的治疗。
+3．临床问题解构及证据检索：
+工作组按照PICO原则，对上述19个临床问题进行解构，结合结局指标重要性排序，对涉及痛风和高尿酸血症的指南、系统综述及原始文献进行了检索：(1)文献数据库：中文(中国生物医学文献数据库、中国知网、万方、维普)、英文(PubMed、Web of science、Cochrane Library、Embase)；(2)指南数据库：GIN、NGC、NICE、医脉通；(3)指南制订机构：WHO、ACR、EULAR。检索时间范围为建库至2019年4月。最终检索到指南或共识27部；文献1 623篇，去重681篇，不在选定的临床问题范围内644篇，最终纳入系统评价208篇；针对没有系统评价的PICO问题，补充检索原始研究文献。
+4．证据体的形成、质量评价及推荐意见的形成：
+采用AGREE II对检索到的指南进行评价。使用AMSTAR[99]对纳入的系统评价进行方法学质量评价，采用Cochrane推荐的ROB工具对纳入的RCT偏倚风险进行评价，采用NOS标准对纳入的队列研究和病例对照研究进行评价，剔除不符合要求文献，最终纳入系统评价37篇，原始研究80篇，既往指南和共识27篇，形成支撑推荐意见的证据体。19个临床问题中，有1个问题(尿酸正常痛风患者的治疗)没有检索到相关文献，故本指南涉前18个问题。经过专家面对面讨论，最终合并为10个临床问题，并形成推荐意见。专家指导组综合证据质量、干预措施的利弊、患者偏好与价值观及经济学因素，采用GRADE网格，通过专家共识会议[100]，就现有证据对临床问题及推荐意见进行反复修改、查证，确定证据等级、推荐强度，最终对推荐意见达成共识，交由中华医学会内分泌学分会指导委员会审核通过。
+附录2
+缩略词表
+点击查看表格
+缩写
+全称
+中文名称
+ACR
+American College of Rheumatology
+美国风湿病学会
+AMSTAR
+Assessing the Methodological Quality of Systematic Review
+系统评价的方法学质量评价
+ARGEE
+Appraisal of Guidelines for Research and Evaluation
+临床指南研究与评估系统
+CKD
+Chronic kidney disease
+慢性肾脏疾病
+COX
+Cyclooxygenase
+环氧酶
+DASH
+Dietary Approaches to Stop Hypertension
+高血压防治计划的饮食方案
+DPP-4
+Dipeptidyl peptidase-4
+二肽基肽酶-4
+eGFR
+Estimated glomerular filtration rate
+估算的肾小球滤过率
+EMA
+European Medicines Agency
+欧洲药品局
+EULAR
+European League of Against Rheumatism
+欧洲抗风湿联盟
+FEUA
+Fractional excretion of uric acid
+尿酸排泄分数
+G-6-pase
+Glucose-6-Phosphatase
+葡萄糖-6-磷酸酶
+G-CAN
+Gout, Hyperuricemia and Crystal-Associated Disease Network
+痛风、高尿酸血症及晶体相关疾病网络
+GFR
+Glomerular filtration rate
+肾小球滤过率
+GRADE
+Grading of Recommendations Assessment, Development and Evaluation
+推荐分级的评估、制订与评价
+IL-1
+Interleukin-1
+白细胞介素-1
+IPGRP
+International Practice Guidelines Registry Platform
+国际实践指南注册平台
+NOS
+Newcastle-Ottawa Scale
+纽卡斯尔-渥太华量表
+NSAID
+Non-steroidal anti-inflammatory drug
+非甾体类抗炎药
+P-gp
+P-glycoprotein
+P-糖蛋白
+PICO
+Patient/Population, Intervention, Comparison, Outcome
+患者/人群，干预，比较，结果
+RCT
+Randomized controlled trial
+随机对照试验
+RIGHT
+Reporting Items for Practice Guidelines in Healthcare
+医疗保健实践指南报告项目
+ROB
+Risk of bias
+偏倚风险
+SGLT-2
+Sodium-glucose cotransporter-2
+钠-葡萄糖协同转运蛋白2
+URAT-1
+Urate anion transporter 1
+尿酸盐离子转运体-1
+UUE
+Urinary urate excretion
+尿尿酸排泄
+参考文献
+[1]
+BardinT, RichetteP.
+Impact of comorbidities on gout and hyperuricaemia: an update on prevalence and treatment options[J].
+BMC Med,
+2017,
+15(
+1):
+123.
+DOI: 10.1186/s12916-017-0890-9.
+[2]
+AndresM, QuintanillaMA, SiveraF, et al.
+Silent monosodium urate crystal deposits are associated with severe coronary calcification in asymptomatic hyperuricemia: an exploratory study[J].
+Arthritis Rheumatol,
+2016,
+68(
+6):
+1531-
+1539.
+DOI: 10.1002/art.39581.
+[3]
+DalbethN, HouseME, AatiO, et al.
+Urate crystal deposition in asymptomatic hyperuricaemia and symptomatic gout: a dual energy CT study[J].
+Ann Rheum Dis,
+2015,
+74(
+5):
+908-
+911.
+DOI: 10.1136/annrheumdis-2014-206397.
+[4]
+UaratanawongS, SuraamornkulS, AngkeawS, et al.
+Prevalence of hyperuricemia in Bangkok population[J].
+Clin Rheumatol,
+2011,
+30(
+7):
+887-
+893.
+DOI: 10.1007/s10067-011-1699-0.
+[5]
+KlempP, StansfieldSA, CastleB, et al.
+Gout is on the increase in New Zealand[J].
+Ann Rheum Dis,
+1997,
+56(
+1):
+22-
+26.
+[6]
+XiaY, WuQ, WangH, et al.
+Global, regional and national burden of gout, 1990-2017: a systematic analysis of the Global Burden of Disease Study[J].
+Rheumatology (Oxford),
+2019,
+pii:
+kez476.
+DOI: 10.1093/rheumatology/kez476.
+[7]
+MikulsTR, SaagKG.
+New insights into gout epidemiology[J].
+Curr Opin Rheumatol,
+2006,
+18(
+2):
+199-
+203.
+DOI: 10.1097/01.bor.0000209435.89720.7c.
+[8]
+KuoCF, GraingeMJ, ZhangW, et al.
+Global epidemiology of gout: prevalence, incidence and risk factors[J].
+Nat Rev Rheumatol,
+2015,
+11(
+11):
+649-
+662.
+DOI: 10.1038/nrrheum.2015.91.
+[9]
+FordES, LiC, CookS, et al.
+Serum concentrations of uric acid and the metabolic syndrome among US children and adolescents[J].
+Circulation,
+2007,
+115(
+19):
+2526-
+2532.
+DOI: 10.1161/CIRCULATIONAHA.106.657627.
+[10]
+LiuR, HanC, WuD, et al.
+Prevalence of hyperuricemia and gout in mainland China from 2000 to 2014: a systematic review and meta-analysis[J].
+Biomed Res Int,
+2015,
+2015:
+762820.
+DOI: 10.1155/2015/762820.
+[11]
+孟娟，袁晓旭，明昕，等．
+原发性痛风患者治疗依从性及达标率调查研究[J].
+中华全科医师杂志，
+2018，
+17(
+4):
+281-
+285.
+DOI: 10.3760/cma.j.issn.1671-7368.2018.04.009.
+[12]
+章璐，赵孟君，周惠琼，等.
+痛风诊治现状调查[J].
+2011，
+5(
+2):
+427-
+430.
+DOI: 10.3877/cma.j.issn.1674-0785.2011.02.022.
+[13]
+ChenY, YangK, NorrisSL.
+Managing conflicts of interest in practice guidelines panels[J].
+JAMA,
+2017,
+318(
+9):
+866-
+867.
+DOI: 10.1001/jama.2017.9672.
+[14]
+KhannaD, FitzgeraldJD, KhannaPP, et al.
+2012 American College of Rheumatology guidelines for management of gout. Part 1: systematic nonpharmacologic and pharmacologic therapeutic approaches to hyperuricemia[J].
+Arthritis Care Res (Hoboken),
+2012,
+64(
+10):
+1431-
+1446.
+DOI: 10.1002/acr.21772.
+[15]
+KhannaD, KhannaPP, FitzgeraldJD, et al.
+2012 American College of Rheumatology guidelines for management of gout. Part 2: therapy and antiinflammatory prophylaxis of acute gouty arthritis[J].
+Arthritis Care Res (Hoboken),
+2012,
+64(
+10):
+1447-
+1461.
+DOI: 10.1002/acr.21773.
+[16]
+NeogiT, JansenTL, DalbethN, et al.
+2015 Gout Classification Criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative[J].
+Arthritis Rheumatol,
+2015,
+67(
+10):
+2557-
+2568.
+DOI: 10.1002/art.39254.
+[17]
+RichetteP, DohertyM, PascualE, et al.
+2016 updated EULAR evidence-based recommendations for the management of gout[J].
+Ann Rheum Dis,
+2017,
+76(
+1):
+29-
+42.
+DOI: 10.1136/annrheumdis-2016-209707.
+[18]
+YuKH, ChenDY, ChenJH, et al.
+Management of gout and hyperuricemia: Multidisciplinary consensus in Taiwan[J].
+Int J Rheum Dis,
+2018,
+21(
+4):
+772-
+787.
+DOI: 10.1111/1756-185X.13266.
+[19]
+高尿酸血症相关疾病诊疗多学科共识专家组.
+中国高尿酸血症相关疾病诊疗多学科专家共识[J].
+中华内科杂志，
+2017，
+56(
+3):
+235-
+248.
+DOI: 10.3760/cma.j.issn.0578-1426.2017.03.021.
+[20]
+中华医学会风湿病学分会.
+2016中国痛风诊疗指南[J].
+中华内科杂志，
+2016，
+55(
+11):
+892-
+899.
+DOI: 10.3760/cma.j.issn.0578-1426.2016.11.019.
+[21]
+中国医师协会肾脏内科医师分会．
+中国肾脏疾病高尿酸血症诊治的实践指南(2017版)[J].
+中华医学杂志，
+2017，
+25(
+97):
+1927-
+1936.
+DOI: 10.3760/cma.j.issn.0376-2491.2017.25.003.
+[22]
+中华医学会内分泌学分会.
+高尿酸血症和痛风治疗的中国专家共识[J].
+中华内分泌代谢杂志，
+2013，
+29(
+11):
+913-
+920.
+DOI: 10.3760/cma.j.issn.1000-6699.2013.11.001
+[23]
+中国医师协会心血管内科医师分会，中国医师协会循证医学专业委员会．
+无症状高尿酸血症合并心血管疾病诊治建议中国专家共识[J].
+中国当代医药，
+2009，
+16(
+24):
+4-
+8.
+DOI: 10.3969/j.issn.1674-4721.2009.24.003.
+[24]
+ChoiHK, AtkinsonK, KarlsonEW, et al.
+Obesity, weight change, hypertension, diuretic use, and risk of gout in men: the health professionals follow-up study[J].
+Arch Intern Med,
+2005,
+165(
+7):
+742-
+748.
+DOI: 10.1001/archinte.165.7.742.
+[25]
+NielsenSM, BartelsEM, HenriksenM, et al.
+Weight loss for overweight and obese individuals with gout: a systematic review of longitudinal studies[J].
+Ann Rheum Dis,
+2017,
+76(
+11):
+1870-
+1882.
+DOI: 10.1136/annrheumdis-2017-211472
+[26]
+WangM, JiangX, WuW, et al.
+A meta-analysis of alcohol consumption and the risk of gout[J].
+Clin Rheumatol,
+2013,
+32(
+11):
+1641-
+1648.
+DOI: 10.1007/s10067-013-2319-y.
+[27]
+JamnikJ, RehmanS, MejiaSB, et al.
+Fructose intake and risk of gout and hyperuricemia: a systematic review and meta-analysis of prospective cohort studies[J].
+BMJ Open,
+2016,
+6(
+10):
+e013191.
+DOI: 10.1136/bmjopen-2016-013191.
+[28]
+ZhangM, LinL, LiuH.
+Acute effect of soy and soy products on serum uric acid concentration among healthy Chinese men[J].
+Asia Pac J Clin Nutr,
+2018,
+27(
+6):
+1239-
+1242.
+DOI: 10.6133/apjcn.201811_27(6).0010.
+[29]
+YinR, LiL, ZhangG, et al.
+Rate of adherence to urate-lowering therapy among patients with gout: a systematic review and meta-analysis[J].
+BMJ Open,
+2018,
+8(
+4):
+e017542.
+DOI: 10.1136/bmjopen-2017-017542.
+[30]
+DohertyM, JenkinsW, RichardsonH, et al.
+Efficacy and cost-effectiveness of nurse-led care involving education and engagement of patients and a treat-to-target urate-lowering strategy versus usual care for gout: a randomised controlled trial[J].
+Lancet,
+2018,
+392(
+10156):
+1403-
+1412.
+DOI: 10.1016/S0140-6736(18)32158-5.
+[31]
+WangH, WeiY, KongX, et al.
+Effects of urate-lowering therapy in hyperuricemia on slowing the progression of renal function: a meta-analysis[J].
+J Ren Nutr,
+2013,
+23(
+5):
+389-
+396.
+DOI: 10.1053/j.jrn.2012.08.005.
+[32]
+AgarwalV, HansN, MesserliFH.
+Effect of allopurinol on blood pressure: a systematic review and meta-analysis[J].
+J Clin Hypertens (Greenwich),
+2013,
+15(
+6):
+435-
+442.
+DOI: 10.1111/j.1751-7176.2012.00701.x.
+[33]
+NeogiT, JansenTL, DalbethN, et al.
+2015 Gout classification criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative[J].
+Ann Rheum Dis,
+2015,
+74(
+10):
+1789-
+1798.
+DOI: 10.1136/annrheumdis-2015-208237.
+[34]
+王飞跃，李长贵，国元元，等.
+平行高特：基于ACP的平行痛风诊疗系统框架[J].
+模式识别与人工智能，
+2017，
+30(
+12):
+1057-
+1068.
+DOI: 10.16451/j.cnki.issn1003-6059.201712001.
+[35]
+PuigJG, BeltranLM, Mejia-ChewC, et al.
+Ultrasonography in the diagnosis of asymptomatic hyperuricemia and gout[J].
+Nucleosides Nucleotides Nucleic Acids,
+2016,
+35(
+10-12):
+517-
+523.
+DOI: 10.1080/15257770.2015.1124999.
+[36]
+ZhangW, DohertyM, PascualE, et al.
+EULAR evidence based recommendations for gout. Part I: Diagnosis. Report of a task force of the Standing Committee for International Clinical Studies Including Therapeutics (ESCISIT)[J].
+Ann Rheum Dis,
+2006,
+65(
+10):
+1301-
+1311.
+DOI: 10.1136/ard.2006.055251.
+[37]
+李谦华，梁锦坚，陈梁欣，等.
+年轻起病的痛风患者的临床特点及尿酸排泄特征分析[J].
+中华内科杂志，
+2018，
+57(
+3):
+185-
+190.
+DOI: 10.3760/cma.j.issn.0578-1426.2018.03.007.
+[38]
+IchidaK, MatsuoH, TakadaT, et al.
+Decreased extra-renal urate excretion is a common cause of hyperuricemia[J].
+Nat Commun,
+2012,
+3:
+764.
+DOI: 10.1038/ncomms1756.
+[39]
+GrafSW, WhittleSL, WechalekarMD, et al.
+Australian and New Zealand recommendations for the diagnosis and management of gout: integrating systematic literature review and expert opinion in the 3e Initiative[J].
+Int J Rheum Dis,
+2015,
+18(
+3):
+341-
+351.
+DOI: 10.1111/1756-185X.12557.
+[40]
+SiveraF, AndresM, CarmonaL, et al.
+Multinational evidence-based recommendations for the diagnosis and management of gout: integrating systematic literature review and expert opinion of a broad panel of rheumatologists in the 3e initiative[J].
+Ann Rheum Dis,
+2014,
+73(
+2):
+328-
+335.
+DOI: 10.1136/annrheumdis-2013-203325.
+[41]
+YamanakaH, Japanese Society of Gout and Nucleic Acid Metabolism.
+Japanese guideline for the management of hyperuricemia and gout: second edition[J].
+Nucleosides Nucleotides Nucleic Acids,
+2011,
+30(
+12):
+1018-
+1029.
+DOI: 10.1080/15257770.2011.596496.
+[42]
+KodamaS, SaitoK, YachiY, et al.
+Association between serum uric acid and development of type 2 diabetes[J].
+Diabetes Care,
+2009,
+32(
+9):
+1737-
+1742.
+DOI: 10.2337/dc09-0288.
+[43]
+KimSY, GuevaraJP, KimKM, et al.
+Hyperuricemia and coronary heart disease: a systematic review and meta-analysis[J].
+Arthritis Care Res (Hoboken),
+2010,
+62(
+2):
+170-
+180.
+DOI: 10.1002/acr.20065.
+[44]
+ShiozawaA, SzaboSM, BolzaniA, et al.
+Serum uric acid and the risk of incident and recurrent gout: a systematic review[J].
+J Rheumatol,
+2017,
+44(
+3):
+388-
+396.
+DOI: 10.3899/jrheum.160452.
+[45]
+KojimaS, MatsuiK, HiramitsuS, et al.
+Febuxostat for Cerebral and CaRdiorenovascular Events PrEvEntion StuDy[J].
+Eur Heart J,
+2019,
+40(
+22):
+1778-
+1786.
+DOI: 10.1093/eurheartj/ehz119.
+[46]
+HamburgerM, BarafHS, AdamsonTC 3rd, et al.
+2011 recommendations for the diagnosis and management of gout and hyperuricemia[J].
+Phys Sports Med,
+2011,
+39(
+4):
+98-
+123.
+DOI: 10.3810/psm.2011.11.1946.
+[47]
+The University of Texas at Austin, School of Nursing, Family Nurse Practitioner Program.
+Management of initial gout in adults. Austin (TX): University of Texas at Austin, School of Nursing[EB/OL],
+2009,
+May，9p.
+http://g-i-n.net/libravy/international-guidelines-library/@@guideline-search_results?type=basic&basic-searchable-text=gout.
+[48]
+Perez-RuizF, SchlesingerN.
+Management of gout[J].
+Scand J Rheumatol,
+2008,
+37(
+2):
+81-
+89.
+DOI: 10.1080/03009740701867372.
+[49]
+HuiM, CarrA, CameronS, et al.
+The British Society for rheumatology guideline for the management of gout[J].
+Rheumatology (Oxford),
+2017,
+56(
+7):
+e1-
+e20.
+DOI: 10.1093/rheumatology/kex156.
+[50]
+ShojiA, YamanakaH, KamataniN.
+A retrospective study of the relationship between serum urate level and recurrent attacks of gouty arthritis: evidence for reduction of recurrent gouty arthritis with antihyperuricemic therapy[J].
+Arthritis Rheum,
+2004,
+51(
+3):
+321-
+325.
+DOI: 10.1002/art.20405.
+[51]
+Perez-RuizF.
+Treating to target: a strategy to cure gout[J].
+Rheumatology (Oxford),
+2009,
+48(
+Suppl 2):
+ii9-
+ii14.
+DOI: 10.1093/rheumatology/kep087.
+[52]
+LiuX, ZhaiT, MaR, et al.
+Effects of uric acid-lowering therapy on the progression of chronic kidney disease: a systematic review and meta-analysis[J].
+Ren Fail,
+2018,
+40(
+1):
+289-
+297.
+DOI: 10.1080/0886022X.2018.1456463.
+[53]
+HuiM, CarrA, CameronS, et al.
+The British Society for rheumatology guideline for the management of gout[J].
+Rheumatology (Oxford),
+2017,
+56(
+7):
+1246.
+DOI: 10.1093/rheumatology/kex250
+[54]
+KiltzU, SmolenJ, BardinT, et al.
+Treat-to-target (T2T) recommendations for gout[J].
+Ann Rheum Dis,
+2017,
+76(
+4):
+632-
+638.
+DOI: 10.1136/annrheumdis-2016-209467.
+[55]
+ChenCH, ChenCB, ChangCJ, et al.
+Hypersensitivity and cardiovascular risks related to allopurinol and febuxostat therapy in asians: a population-based cohort study and meta-analysis[J].
+Clin Pharmacol Ther,
+2019,
+106(
+2):
+391-
+401.
+DOI: 10.1002/cpt.1377.
+[56]
+JutkowitzE, DubreuilM, LuN, et al.
+The cost-effectiveness of HLA-B*5801 screening to guide initial urate-lowering therapy for gout in the United States[J].
+Semin Arthritis Rheum,
+2017,
+46(
+5):
+594-
+600.
+DOI: 10.1016/j.semarthrit.2016.10.009.
+[57]
+中国慢性肾脏病患者合并高尿酸血症诊治共识专家组.
+中国慢性肾脏病患者合并高尿酸血症诊治专家共识[J].
+中华肾脏病杂志，
+2017，
+33(
+6):
+463-
+469.
+DOI: 10.3760/cma.j.issn.1001-7097.2017.06.012.
+[58]
+顾平，李钟勇，袁琳.
+不同剂量非布司他与别嘌醇治疗痛风有效性和安全性的Meta分析[J].
+临床合理用药杂志，
+2018，
+11(
+5):
+9-10，21.
+DOI: 10.15887/j.cnki.13-1389/r.2018.05.005.
+[59]
+JutkowitzE, ChoiHK, PizziLT, et al.
+Cost-effectiveness of allopurinol and febuxostat for the management of gout[J].
+Ann Intern Med,
+2014,
+161(
+9):
+617-
+626.
+DOI: 10.7326/M14-0227.
+[60]
+WhiteWB, SaagKG, BeckerMA, et al.
+Cardiovascular safety of febuxostat or allopurinol in patients with gout[J].
+N Engl J Med,
+2018,
+378(
+13):
+1200-
+1210.
+DOI: 10.1056/NEJMoa1710895.
+[61]
+HaringB, KudlichT, RautheS, et al.
+Benzbromarone: a double-edged sword that cuts the liver？[J].
+Eur J Gastroenterol Hepatol,
+2013,
+25(
+1):
+119-
+121.
+DOI: 10.1097/MEG.0b013e328358ace9.
+[62]
+Perez-RuizF, CalabozoM, PijoanJI, et al.
+Effect of urate-lowering therapy on the velocity of size reduction of tophi in chronic gout[J].
+Arthritis Rheum,
+2002,
+47(
+4):
+356-
+360.
+DOI: 10.1002/art.10511.
+[63]
+OmarM, SarkissianC, JianboL, et al.
+Dipstick spot urine pH does not accurately represent 24 hour urine PH measured by an electrode[J].
+Int Braz J Urol,
+2016,
+42(
+3):
+546-
+549.
+DOI: 10.1590/S1677-5538.IBJU.2015.0071.
+[64]
+RaskinRE, MurrayKA, LevyJK.
+Comparison of home monitoring methods for feline urine pH measurement[J].
+Vet Clin Pathol,
+2002,
+31(
+2):
+51-
+55.
+[65]
+AraujoF, CordeiroI, TeixeiraF, et al.
+Portuguese recommendations for the diagnosis and management of gout[J].
+Acta Reumatol Port,
+2014,
+39(
+2):
+158-
+1571.
+[66]
+中华医学会风湿病学分会.
+原发性痛风诊断和治疗指南[J].
+中华风湿病学杂志，
+2011，
+15(
+6):
+410-
+413.
+DOI: 10.3760/cma.j.issn.1007-7480.2011.06.013.
+[67]
+WechalekarMD, VinikO, MoiJH, et al.
+The efficacy and safety of treatments for acute gout: results from a series of systematic literature reviews including Cochrane reviews on intraarticular glucocorticoids, colchicine, nonsteroidal antiinflammatory drugs, and interleukin-1 inhibitors[J].
+J Rheumatol Suppl,
+2014,
+92:
+15-
+25.
+DOI: 10.3899/jrheum.140458.
+[68]
+ZhangS, ZhangY, LiuP, et al.
+Efficacy and safety of etoricoxib compared with NSAIDs in acute gout: a systematic review and a meta-analysis[J].
+Clin Rheumatol,
+2016,
+35(
+1):
+151-
+158.
+DOI: 10.1007/s10067-015-2991-1.
+[69]
+ScarpignatoC, LanasA, BlandizziC, et al.
+Safe prescribing of non-steroidal anti-inflammatory drugs in patients with osteoarthritis—an expert consensus addressing benefits as well as gastrointestinal and cardiovascular risks[J].
+BMC Med,
+2015,
+13:
+55.
+DOI: 10.1186/s12916-015-0285-8.
+[70]
+MoonKW, KimJ, KimJH, et al.
+Risk factors for acute kidney injury by non-steroidal anti-inflammatory drugs in patients with hyperuricaemia[J].
+Rheumatology (Oxford),
+2011,
+50(
+12):
+2278-
+2282.
+DOI: 10.1093/rheumatology/ker286.
+[71]
+Vázquez-MelladoJ, CruzJ, GuzmánS, et al.
+Severe tophaceous gout. Characterization of low socioeconomic level patients from México[J].
+Clin Exp Rheumatol,
+2006,
+24(
+3):
+233-
+238.
+[72]
+HuangZ, LiuX, LiuY, et al.
+Clinical characteristics and risk factors of ulceration over tophi in patients with gout[J].
+Int J Rheum Dis,
+2019,
+22(
+6):
+1052-
+1057.
+DOI: 10.1111/1756-185X.13581.
+[73]
+YamanakaH, TamakiS, IdeY, et al.
+Stepwise dose increase of febuxostat is comparable with colchicine prophylaxis for the prevention of gout flares during the initial phase of urate-lowering therapy: results from FORTUNE-1, a prospective, multicentre randomised study[J].
+Ann Rheum Dis,
+2018,
+77(
+2):
+270-
+276.
+DOI: 10.1136/annrheumdis-2017-211574.
+[74]
+BeckerMA, SchumacherHR, WortmannRL, et al.
+Febuxostat compared with allopurinol in patients with hyperuricemia and gout[J].
+N Engl J Med,
+2005,
+353(
+23):
+2450-
+2461.
+DOI: 10.1056/NEJMoa050373.
+[75]
+Diagnosis and management of gout: clinical practice guidelines from the American College of Physicians[J].
+Ann Intern Med,
+2017,
+166(
+1).
+DOI: 10.7326/P16-9025.
+[76]
+LatourteA, BardinT, RichetteP.
+Prophylaxis for acute gout flares after initiation of urate-lowering therapy[J].
+Rheumatology (Oxford),
+2014,
+53(
+11):
+1920-
+1926.
+DOI: 10.1093/rheumatology/keu157.
+[77]
+FelsE, SundyJS.
+Refractory gout: what is it and what to do about it？[J].
+Curr Opin Rheumatol,
+2008,
+20(
+2):
+198-
+202.
+DOI: 10.1097/BOR.0b013e3282f4eff5.
+[78]
+Lawrence EdwardsN, SinghJA, TroumO, et al.
+Characterization of patients with chronic refractory gout who do and do not have clinically apparent tophi and their response to pegloticase[J].
+Rheumatology (Oxford),
+2019,
+pii:
+kez017.
+DOI: 10.1093/rheumatology/kez017.
+[79]
+MandellBF, YeoAE, LipskyPE.
+Tophus resolution in patients with chronic refractory gout who have persistent urate-lowering responses to pegloticase[J].
+Arthritis Res Ther,
+2018,
+20(
+1):
+286.
+DOI: 10.1186/s13075-018-1782-x.
+[80]
+SundyJS, GansonNJ, KellySJ, et al.
+Pharmacokinetics and pharmacodynamics of intravenous PEGylated recombinant mammalian urate oxidase in patients with refractory gout[J].
+Arthritis Rheum,
+2007,
+56(
+3):
+1021-
+1028.
+DOI: 10.1002/art.22403.
+[81]
+SoskindR, AbaziaDT, BridgemanMB.
+Updates on the treatment of gout, including a review of updated treatment guidelines and use of small molecule therapies for difficult-to-treat gout and gout flares[J].
+Expert Opin Pharmacother,
+2017,
+18(
+11):
+1115-
+1125.
+DOI: 10.1080/14656566.2017.1349099.
+[82]
+BeckerMA, BarafHS, YoodRA, et al.
+Long-term safety of pegloticase in chronic gout refractory to conventional treatment[J].
+Ann Rheum Dis,
+2013,
+72(
+9):
+1469-
+1474.
+DOI: 10.1136/annrheumdis-2012-201795.
+[83]
+KasperIR, JurigaMD, GiuriniJM, et al.
+Treatment of tophaceous gout: when medication is not enough[J].
+Semin Arthritis Rheum,
+2016,
+45(
+6):
+669-
+674.
+DOI: 10.1016/j.semarthrit.2016.01.005.
+[84]
+YuH, LiuX, SongY, et al.
+Safety and efficacy of benzbromarone and febuxostat in hyperuricemia patients with chronic kidney disease: a prospective pilot study[J].
+Clin Exp Nephrol,
+2018,
+22(
+6):
+1324-
+1330.
+DOI: 10.1007/s10157-018-1586-y.
+[85]
+KimS, KimHJ, AhnHS, et al.
+Renoprotective effects of febuxostat compared with allopurinol in patients with hyperuricemia: A systematic review and meta-analysis[J].
+Kidney Res Clin Pract,
+2017,
+36(
+3):
+274-
+281.
+DOI: 10.23876/j.krcp.2017.36.3.274.
+[86]
+JugePA, TruchetetME, PilleboutE, et al.
+Efficacy and safety of febuxostat in 73 gouty patients with stage 4/5 chronic kidney disease: A retrospective study of 10 centers[J].
+Joint Bone Spine,
+2017,
+84(
+5):
+595-
+598.
+DOI: 10.1016/j.jbspin.2016.09.020.
+[87]
+李长贵，
+主编.
+实用痛风病学[M].
+北京：
+人民军医出版社，
+2018.
+[88]
+WurznerG, GersterJC, ChioleroA, et al.
+Comparative effects of losartan and irbesartan on serum uric acid in hypertensive patients with hyperuricaemia and gout[J].
+J Hypertens,
+2001,
+19(
+10):
+1855-
+1860.
+[89]
+ChoiHK, SorianoLC, ZhangY, et al.
+Antihypertensive drugs and risk of incident gout among patients with hypertension: population based case-control study[J].
+BMJ,
+2012,
+344:
+d8190.
+DOI: 10.1136/bmj.d8190.
+[90]
+DerosaG, MaffioliP, SahebkarA.
+Plasma uric acid concentrations are reduced by fenofibrate: A systematic review and meta-analysis of randomized placebo-controlled trials[J].
+Pharmacol Res,
+2015,
+102:
+63-
+70.
+DOI: 10.1016/j.phrs.2015.09.012.
+[91]
+LeeSJ, TerkeltaubRA.
+New developments in clinically relevant mechanisms and treatment of hyperuricemia[J].
+Curr Rheumatol Rep,
+2006,
+8(
+3):
+224-
+230.
+[92]
+TonneijckL, MuskietMHA, SmitsMM, et al.
+Effect of immediate and prolonged GLP-1 receptor agonist administration on uric acid and kidney clearance: Post-hoc analyses of four clinical trials[J].
+Diabetes Obes Metab,
+2018,
+20(
+5):
+1235-
+1245.
+DOI: 10.1111/dom.13223.
+[93]
+MacFarlaneLA, LiuCC, SolomonDH.
+The effect of initiating pharmacologic insulin on serum uric acid levels in patients with diabetes: a matched cohort analysis[J].
+Semin Arthritis Rheum,
+2015,
+44(
+5):
+592-
+596.
+DOI: 10.1016/j.semarthrit.2014.10.008.
+[94]
+BursillD, TaylorWJ, TerkeltaubR, et al.
+The nomenclature of the basic disease elements of gout: A content analysis of contemporary medical journals[J].
+Semin Arthritis Rheum,
+2018,
+48(
+3):
+456-
+461.
+DOI: 10.1016/j.semarthrit.2018.03.017.
+[95]
+BursillD, TaylorWJ, TerkeltaubR, et al.
+Gout, hyperuricemia, and crystal-associated disease network consensus statement regarding labels and definitions for disease elements in gout[J].
+Arthritis Care Res (Hoboken),
+2019,
+71(
+3):
+427-
+434.
+DOI: 10.1002/acr.23607.
+[96]
+BrouwersMC, KhoME, BrowmanGP, et al.
+AGREE II: advancing guideline development, reporting and evaluation in health care[J].
+J Clin Epidemiol,
+2010,
+63(
+12):
+1308-
+1311.
+DOI: 10.1016/j.jclinepi.2010.07.001.
+[97]
+JaeschkeR, GuyattGH, DellingerP, et al.
+Use of GRADE grid to reach decisions on clinical practice guidelines when consensus is elusive[J].
+BMJ,
+2008,
+337:
+a744.
+DOI: 10.1136/bmj.a744.
+[98]
+ChenY, YangK, MarusicA, et al.
+A reporting tool for practice guidelines in health care: the RIGHT statement[J].
+Ann Intern Med,
+2017,
+166(
+2):
+128-
+132.
+DOI: 10.7326/M16-1565.
+[99]
+SheaBJ, GrimshawJM, WellsGA, et al.
+Development of AMSTAR: a measurement tool to assess the methodological quality of systematic reviews[J].
+BMC Med Res Methodol,
+2007,
+7:
+10.
+DOI: 10.1186/1471-2288-7-10.
+[100]
+SchunemannHJ, MustafaR, BrozekJ, et al.
+GRADE Guidelines: 16. GRADE evidence to decision frameworks for tests in clinical practice and public health[J].
+J Clin Epidemiol,
+2016,
+76:
+89-
+98.
+DOI: 10.1016/j.jclinepi.2016.01.032.
+贡献者信息
+中华医学会内分泌学分会
+关键词
+高尿酸血症;
+痛风;
+诊断;
+治疗;
+指南;
+基金项目
+科技部重点研发计划 （2016YFC0903400）
+历史
+出版日期：2020-01-25
+收稿日期：2019-10-14
+本文编辑
+周丽斌
+Guideline and Consensus
+Guideline for the diagnosis and management of hyperuricemia and gout in China(2019)
+Chinese Society of Endocrinology, Chinese Medical Association
+Published
+2020-01-25
+Cite as
+Chin J Endocrinol Metab, 2020,36(01): 1-13. DOI: 10.3760/cma.j.issn.1000-6699.2020.01.001
+Contributor Information
+Chinese Society of Endocrinology, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+RichetteP, DohertyM, PascualE, et al.
+2016 updated EULAR evidence-based recommendations for the management of gout[J].
+Ann Rheum Dis,
+2017,
+76(
+1):
+29-
+42.
+DOI: 10.1136/annrheumdis-2016-209707.
+注：ULT:降尿酸治疗；NSAID:非甾体类抗炎药；CKD:慢性肾脏病；COX-2：环氧合酶2；IL-1：白细胞介素1；TNF-α：肿瘤坏死因子α；VAS：视觉模拟评分法
+图1
+高尿酸血症与痛风诊治流程图
+表1
+GRADE证据质量分级与定义
+质量等级
+定义
+高级(A)
+非常确信真实效应值接近效应估计值
+中级(B)
+对效应估计值有中等程度的信心：真实效应值有可能接近估计效应值，但仍存在两者大不相同的可能性
+低级(C)
+对效应估计值的确信程度有限：真实效应值可能与效应估计值大不相同
+极低级(D)
+对效应估计值几乎无信心：真实效应值很可能与效应估计值大不相同
+表2
+GRADE推荐强度分级与定义
+推荐强度
+说明
+表达方法
+表示方法
+支持使用某项干预措施的强推荐
+干预措施明显利大于弊
+推荐使用
+1
+支持使用某项干预措施的弱推荐
+干预措施可能利大于弊
+建议使用
+2
+反对使用某项干预措施的弱推荐
+干预措施可能弊大于利或利弊关系不明确
+建议不使用
+2
+反对使用某项干预措施的强推荐
+干预措施明显弊大于利
+推荐不使用
+1
+缩写
+全称
+中文名称
+ACR
+American College of Rheumatology
+美国风湿病学会
+AMSTAR
+Assessing the Methodological Quality of Systematic Review
+系统评价的方法学质量评价
+ARGEE
+Appraisal of Guidelines for Research and Evaluation
+临床指南研究与评估系统
+CKD
+Chronic kidney disease
+慢性肾脏疾病
+COX
+Cyclooxygenase
+环氧酶
+DASH
+Dietary Approaches to Stop Hypertension
+高血压防治计划的饮食方案
+DPP-4
+Dipeptidyl peptidase-4
+二肽基肽酶-4
+eGFR
+Estimated glomerular filtration rate
+估算的肾小球滤过率
+EMA
+European Medicines Agency
+欧洲药品局
+EULAR
+European League of Against Rheumatism
+欧洲抗风湿联盟
+FEUA
+Fractional excretion of uric acid
+尿酸排泄分数
+G-6-pase
+Glucose-6-Phosphatase
+葡萄糖-6-磷酸酶
+G-CAN
+Gout, Hyperuricemia and Crystal-Associated Disease Network
+痛风、高尿酸血症及晶体相关疾病网络
+GFR
+Glomerular filtration rate
+肾小球滤过率
+GRADE
+Grading of Recommendations Assessment, Development and Evaluation
+推荐分级的评估、制订与评价
+IL-1
+Interleukin-1
+白细胞介素-1
+IPGRP
+International Practice Guidelines Registry Platform
+国际实践指南注册平台
+NOS
+Newcastle-Ottawa Scale
+纽卡斯尔-渥太华量表
+NSAID
+Non-steroidal anti-inflammatory drug
+非甾体类抗炎药
+P-gp
+P-glycoprotein
+P-糖蛋白
+PICO
+Patient/Population, Intervention, Comparison, Outcome
+患者/人群，干预，比较，结果
+RCT
+Randomized controlled trial
+随机对照试验
+RIGHT
+Reporting Items for Practice Guidelines in Healthcare
+医疗保健实践指南报告项目
+ROB
+Risk of bias
+偏倚风险
+SGLT-2
+Sodium-glucose cotransporter-2
+钠-葡萄糖协同转运蛋白2
+URAT-1
+Urate anion transporter 1
+尿酸盐离子转运体-1
+UUE
+Urinary urate excretion
+尿尿酸排泄
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华内分泌代谢杂志2020年36卷01期
+文    题：中国高尿酸血症与痛风诊疗指南(2019)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华内分泌代谢杂志2020年36卷01期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解

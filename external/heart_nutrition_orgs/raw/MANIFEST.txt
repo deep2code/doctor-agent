@@ -1,0 +1,165 @@
+# external/heart_nutrition_orgs/raw/MANIFEST.txt
+# 国家心血管病中心 / 阜外医院站内页 / 中国营养学会(cnsoc.org+dg.cnsoc.org) 公众科普正文清单
+# 格式: 相对文件名 | 标题 | 直链 | 发布机构 | 日期
+cnsoc-acadconfn-112620200.txt | 首届“天坛・科学汇”在京召开 | https://www.cnsoc.org/acadconfn/112620200.html | 中国营养学会（www.cnsoc.org） | 2026-01-16
+cnsoc-acadconfn-412501200.txt | “科创中国”生命全周期营养健康产业科技服务团走进襄阳助力区域营养健康产业高质量发展 | https://www.cnsoc.org/acadconfn/412501200.html | 中国营养学会（www.cnsoc.org） | 2025-11-04
+cnsoc-acadconfn-472620201.txt | “科创中国”生命全周期营养健康产业科技服务团赴山东滨州调研——助力地方食品产业转型升级 | https://www.cnsoc.org/acadconfn/472620201.html | 中国营养学会（www.cnsoc.org） | 2026-07-22
+cnsoc-acadconfn-622521200.txt | 青年力量、洞见未来—— 《IJVNR》编委会第一次会议暨中国营养学会“青托人才”学术交流会在珠海成功举办 | https://www.cnsoc.org/acadconfn/622521200.html | 中国营养学会（www.cnsoc.org） | 2025-12-25
+cnsoc-acadconfn-862610202.txt | 多方聚力-《中国居民膳食指南》第五次修订工作会议在沪召开 | https://www.cnsoc.org/acadconfn/862610202.html | 中国营养学会（www.cnsoc.org） | 2026-06-18
+cnsoc-acadconfn-892520201.txt | 中国营养学会与香港理工大学、香港营养学会 签署注册营养师合作备忘录 | https://www.cnsoc.org/acadconfn/892520201.html | 中国营养学会（www.cnsoc.org） | 2025-09-28
+cnsoc-acadconfn-892520205.txt | 17th CNSC 分论坛丨青年力量，营养未来：第六届中国营养青年科学家报告会在京成功举办 | https://www.cnsoc.org/acadconfn/892520205.html | 中国营养学会（www.cnsoc.org） | 2025-09-28
+cnsoc-acadconfn-892610206.txt | 2026“科创中国”生命全周期营养健康产业科技服务团在台州启动 | https://www.cnsoc.org/acadconfn/892610206.html | 中国营养学会（www.cnsoc.org） | 2026-09-18
+cnsoc-othernews-012321200.txt | 国际组织领导人盛赞ACN大会和中国的营养工作 | https://www.cnsoc.org/othernews/012321200.html | 中国营养学会（www.cnsoc.org） | 2023-09-18
+cnsoc-othernews-062510200.txt | 中国营养学会发布成立80周年纪念标识 | https://www.cnsoc.org/othernews/062510200.html | 中国营养学会（www.cnsoc.org） | 2025-04-27
+cnsoc-othernews-222021200.txt | 中国营养学会发布《2020年中国人群轻食消费行为白皮书》 | https://www.cnsoc.org/othernews/222021200.html | 中国营养学会（www.cnsoc.org） | 2020-12-22
+cnsoc-othernews-472620202.txt | 第十二次全国省级营养学会理事长联席会顺利召开 | https://www.cnsoc.org/othernews/472620202.html | 中国营养学会（www.cnsoc.org） | 2026-07-22
+cnsoc-othernews-592520201.txt | 中国营养学会80周年纪念活动在京举行 | https://www.cnsoc.org/othernews/592520201.html | 中国营养学会（www.cnsoc.org） | 2025-09-25
+cnsoc-othernews-712501200.txt | 中国营养学会及中益老龄事业发展中心等七家全国性社会组织，在保定共同启动全国“助老行动” | https://www.cnsoc.org/othernews/712501200.html | 中国营养学会（www.cnsoc.org） | 2025-11-07
+cnsoc-publicac-272420200.txt | 香港大学生暑期实习活动正式启动 | https://www.cnsoc.org/publicac/272420200.html | 中国营养学会（www.cnsoc.org） | 2024-07-01
+cnsoc-publicac-412511202.txt | 2025全民营养周主场活动正式启动！ | https://www.cnsoc.org/publicac/412511202.html | 中国营养学会（www.cnsoc.org） | 2025-05-18
+cnsoc-publicac-412511203.txt | 中国营养学会2025香港大学生暑期实习活动启动仪式在京举行 | https://www.cnsoc.org/publicac/412511203.html | 中国营养学会（www.cnsoc.org） | 2025-07-02
+cnsoc-publicac-412511204.txt | 2025香港大学生暑期实习活动圆满结束 | https://www.cnsoc.org/publicac/412511204.html | 中国营养学会（www.cnsoc.org） | 2025-08-01
+cnsoc-publicac-892610201.txt | 2026香港大学生暑期实习活动圆满结束 | https://www.cnsoc.org/publicac/892610201.html | 中国营养学会（www.cnsoc.org） | 2026-07-31
+cnsoc-publicac-892610202.txt | 2026年香港大学生暑期实习活动开班仪式在京举行 | https://www.cnsoc.org/publicac/892610202.html | 中国营养学会（www.cnsoc.org） | 2026-06-30
+cnsoc-publicac-892610203.txt | 第八届全国营养科普大会在京成功举办 | https://www.cnsoc.org/publicac/892610203.html | 中国营养学会（www.cnsoc.org） | 2026-05-16
+cnsoc-publicac-892610204.txt | 2026全民营养周主场活动在京举办 | https://www.cnsoc.org/publicac/892610204.html | 中国营养学会（www.cnsoc.org） | 2026-05-16
+cnsoc-scienpopuln-382610201.txt | 《低GI食品科学与产业白皮书》在乌鲁木齐正式发布 | https://www.cnsoc.org/scienpopuln/382610201.html | 中国营养学会（www.cnsoc.org） | 2026-08-13
+cnsoc-scienpopuln-462620203.txt | 第八届全国营养科普大会在京成功举办 | https://www.cnsoc.org/scienpopuln/462620203.html | 中国营养学会（www.cnsoc.org） | 2026-05-16
+cnsoc-scienpopuln-642220200.txt | 《中国居民膳食指南（2022）》在京发布 | https://www.cnsoc.org/scienpopuln/642220200.html | 中国营养学会（www.cnsoc.org） | 2022-04-26
+cnsoc-scienpopuln-852510200.txt | “吃动平衡 健康体重 全民行动”倡议 | https://www.cnsoc.org/scienpopuln/852510200.html | 中国营养学会（www.cnsoc.org） | 2025-05-18
+cnsoc-scienpopuln-852510202.txt | 第七届全国营养科普大会在京成功举办 | https://www.cnsoc.org/scienpopuln/852510202.html | 中国营养学会（www.cnsoc.org） | 2025-05-18
+cnsoc-scienpopuln-892520203.txt | 《食物植物化学物与人类健康概论》为中国营养学会80周年华诞献礼，解码植物活性物质健康价值 | https://www.cnsoc.org/scienpopuln/892520203.html | 中国营养学会（www.cnsoc.org） | 2025-09-28
+cnsoc-talentservicen-062630200.txt | 2026年香港大学生暑期实习活动开班仪式在京举行 | https://www.cnsoc.org/talentservicen/062630200.html | 中国营养学会（www.cnsoc.org） | 2026-06-30
+cnsoc-talentservicen-172630201.txt | 2026香港大学生暑期实习活动圆满结束 | https://www.cnsoc.org/talentservicen/172630201.html | 中国营养学会（www.cnsoc.org） | 2026-07-31
+cnsoc-talentservicen-382600200.txt | 以躬身践行锻造领导力——第九期营养领导才能培训班在乌鲁木齐开班 | https://www.cnsoc.org/talentservicen/382600200.html | 中国营养学会（www.cnsoc.org） | 2026-08-03
+cnsoc-talentservicen-782600201.txt | 以青春之我担时代使命——第九期营养领导才能培训班在乌鲁木齐圆满结业 | https://www.cnsoc.org/talentservicen/782600201.html | 中国营养学会（www.cnsoc.org） | 2026-08-07
+dg-7X2i2theSzu8JOqAd6JKqg.txt | 《中国居民膳食指南科学研究报告（2021）》正式出版 | http://dg.cnsoc.org/article/04/7X2i2theSzu8JOqAd6JKqg.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2022-03-08
+dg-7dFWBzmrTOyPOMsrVHQOfw.txt | 《中国学龄儿童膳食指南（2022）》在京发布 | http://dg.cnsoc.org/article/04/7dFWBzmrTOyPOMsrVHQOfw.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2022-05-20
+dg-8a2389fd5087fb3a0150cc8e4b3b0472.txt | 《中国居民膳食指南》修订第一次意见征询会 纪要 | http://dg.cnsoc.org/article/04/8a2389fd5087fb3a0150cc8e4b3b0472.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2015-10-22
+dg-8a2389fd5087fb3a0150cca053730473.txt | 《中国居民膳食指南（2015）》第二次意见征询会议 纪要 | http://dg.cnsoc.org/article/04/8a2389fd5087fb3a0150cca053730473.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2015-10-30
+dg-8a2389fd51aad7430151b475708200ad.txt | 《中国居民膳食指南》（２０１５版）第四次意见征询会议 | http://dg.cnsoc.org/article/04/8a2389fd51aad7430151b475708200ad.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2015-11-30
+dg-8a2389fd5520b4f30155a5c7b7d421c2.txt | 《6月龄内婴儿母乳喂养指南》新鲜出炉！ | http://dg.cnsoc.org/article/04/8a2389fd5520b4f30155a5c7b7d421c2.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2015-08-03
+dg-8a2389fd5520b4f30155a5d10e0a21c3.txt | 中国营养学会《中国7~24月龄婴幼儿喂养指南》发布会 | http://dg.cnsoc.org/article/04/8a2389fd5520b4f30155a5d10e0a21c3.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2015-12-11
+dg-8a2389fd5520b4f30155a5d4d78621c4.txt | 《7～24月龄婴幼儿喂养指南》出炉！ | http://dg.cnsoc.org/article/04/8a2389fd5520b4f30155a5d4d78621c4.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2015-12-12
+dg-8a2389fd5520b4f30155a5d93f1721c6.txt | 国家卫生计生委发布《中国居民膳食指南（2016）》 | http://dg.cnsoc.org/article/04/8a2389fd5520b4f30155a5d93f1721c6.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2016-05-13
+dg-8a2389fd5520b4f30155b3fd93c723cc.txt | 中国营养学会妇幼营养分会发布《中国妇幼人群膳食指南（2016）》 | http://dg.cnsoc.org/article/04/8a2389fd5520b4f30155b3fd93c723cc.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2016-05-20
+dg-HMzWKmqsS2mKjDV-wjc5Bw.txt | 中国居民膳食指南修订第七次工作讨论会顺利召开 | http://dg.cnsoc.org/article/04/HMzWKmqsS2mKjDV_wjc5Bw.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2020-11-26
+dg-KPdqLy3SRQmiLsdpuX2pFg.txt | 中国居民膳食指南修订第五次和第六次工作讨论会顺利召开 | http://dg.cnsoc.org/article/04/KPdqLy3SRQmiLsdpuX2pFg.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2020-10-29
+dg-MJD0XjxgST2xm-6tmXZfTw.txt | 关于举办《中国居民膳食指南（2022）》科普线上培训的通知 | http://dg.cnsoc.org/article/04/MJD0XjxgST2xm-6tmXZfTw.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2022-12-14
+dg-PuTKaM37RKG39puDs2zLLw.txt | 首届“天坛・科学汇”在京召开 | http://dg.cnsoc.org/article/04/PuTKaM37RKG39puDs2zLLw.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2026-01-28
+dg-Qokq-WkDRZW3nhyFH0qF5A.txt | 六一国际儿童节之际，《中国婴幼儿喂养指南（2022）》发布 | http://dg.cnsoc.org/article/04/Qokq-WkDRZW3nhyFH0qF5A.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2022-06-02
+dg-VQocp-iITrutzK4FILTdTw.txt | 中国老年人平衡膳食宝塔图示解析 | http://dg.cnsoc.org/article/04/VQocp-iITrutzK4FILTdTw.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2024-05-16
+dg-Wja8mRsxReWMKgvk8G-gWQ.txt | 大家一起帮助哺乳妈妈！《中国孕妇、乳母膳食指南（2022）》发布 | http://dg.cnsoc.org/article/04/Wja8mRsxReWMKgvk8G-gWQ.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2022-08-03
+dg-Y7RZAtxgScyTLr-J9-y5Mg.txt | 《中国老年人膳食指南（2022）》发布，老年营养改善行动启动 | http://dg.cnsoc.org/article/04/Y7RZAtxgScyTLr_J9-y5Mg.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2022-11-22
+dg-cr0HYth-RP-eBITeiCQsdg.txt | 中国居民膳食指南修订第一次全体会议顺利召开 | http://dg.cnsoc.org/article/04/cr0HYth_RP-eBITeiCQsdg.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2020-09-30
+dg-fKbTBSICRNCK7p3hsER1mg.txt | 《中国学龄儿童膳食指南（2022）》核心推荐 | http://dg.cnsoc.org/article/04/fKbTBSICRNCK7p3hsER1mg.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2022-05-20
+dg-glVJd6DRRCqm-hYzWlEVNQ.txt | 《中国居民膳食指南（2022）》在京发布 | http://dg.cnsoc.org/article/04/glVJd6DRRCqm-hYzWlEVNQ.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2022-04-26
+dg-t8jgjBCmQnW8uscC-OLLfA.txt | 《中国居民膳食指南科学研究报告（2021）》正式发布 | http://dg.cnsoc.org/article/04/t8jgjBCmQnW8uscC_OLLfA.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2021-02-24
+dg-waGfsQ0aR9-yPu6Y-ebl5A.txt | 多方聚力——《中国居民膳食指南》第五次修订工作会议在沪召开 | http://dg.cnsoc.org/article/04/waGfsQ0aR9-yPu6Y_ebl5A.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2026-06-18
+dg-xcIUgHazTFS3Rl8ZsPxOQA.txt | 中国学龄儿童平衡膳食宝塔（2022）图示解析 | http://dg.cnsoc.org/article/04/xcIUgHazTFS3Rl8ZsPxOQA.html | 中国营养学会·中国居民膳食指南官网（dg.cnsoc.org） | 2022-05-21
+fuwai-205500.txt | 心力衰竭的家庭护理 | https://www.fuwaihospital.org/News/Articles/Index/205500 | 中国医学科学院阜外医院（栏目:健康新闻；页面来源:阜外心血管病医院 心力衰竭中心） | 2015-08-03
+fuwai-207287.txt | 地高辛与中药合用的4种致死问题 | https://www.fuwaihospital.org/News/Articles/Index/207287 | 中国医学科学院阜外医院（栏目:健康新闻；页面来源:中国循环杂志） | 2016-06-16
+fuwai-207332.txt | 应该告诉慢性心衰患者这8个要点 | https://www.fuwaihospital.org/News/Articles/Index/207332 | 中国医学科学院阜外医院（栏目:健康新闻；页面来源:中国循环杂志） | 2016-06-22
+fuwai-207960.txt | 中国《2016年儿童用药安全调查报告白皮书》：二成家长将药物溶于牛奶、糖水、饮料和汤粥等 | https://www.fuwaihospital.org/News/Articles/Index/207960 | 中国医学科学院阜外医院（栏目:健康科普；页面来源:中国循环杂志） | 2016-09-21
+fuwai-207964.txt | 英国警示外用咪康唑与华法林的严重相互作用风险 | https://www.fuwaihospital.org/News/Articles/Index/207964 | 中国医学科学院阜外医院（栏目:健康科普；页面来源:中国循环杂志） | 2016-09-20
+fuwai-208285.txt | 老年人不恰当用药筛查工具：心血管病患者须警惕的24种危险用药方式 | https://www.fuwaihospital.org/News/Articles/Index/208285 | 中国医学科学院阜外医院（栏目:健康科普；页面来源:中国循环杂志） | 2016-10-31
+nccd-kp-3020.txt | “阜外心知 大医生说”系列健康科普直播  累计触达千万观众 | https://www.nccd.org.cn/News/Articles/Index/3020 | 国家心血管病中心（www.nccd.org.cn，栏目:国家心血管病中心 党政办公室） | 2025-11-25
+nccd-news-2689.txt | 第三届国家心血管病专家委员会换届大会暨第一次全体会议在京举行 | https://www.nccd.org.cn/News/Articles/Index/2689 | 国家心血管病中心（www.nccd.org.cn，栏目:1086） | 2024-09-14
+nccd-news-2920.txt | 《中国心血管健康与疾病报告（2024）》第一轮审稿会顺利召开 | https://www.nccd.org.cn/News/Articles/Index/2920 | 国家心血管病中心（www.nccd.org.cn，栏目:防治资讯部） | 2024-10-08
+nccd-news-2924.txt | “中国居民心血管病及其危险因素监测”项目启动培训会（2025）顺利召开 | https://www.nccd.org.cn/News/Articles/Index/2924 | 国家心血管病中心（www.nccd.org.cn，栏目:社区防治部） | 2025-01-24
+nccd-news-2956.txt | 第十届血管创新论坛-临床研究设计与评价峰会成功在京召开 | https://www.nccd.org.cn/News/Articles/Index/2956 | 国家心血管病中心（www.nccd.org.cn，栏目:医学统计部） | 2025-05-16
+nccd-news-3003.txt | 国家心血管病专家委员会护理专业委员会心血管护理过程质控工具包临床试用总结系列会议圆满召开 | https://www.nccd.org.cn/News/Articles/Index/3003 | 国家心血管病中心（www.nccd.org.cn，栏目:国家心血管病专家委员会护理专业委员会） | 2025-09-02
+nccd-news-3010.txt | 心血管影像学发展新篇章！国家心血管病专家委员会心血管影像专业委员会成立 | https://www.nccd.org.cn/News/Articles/Index/3010 | 国家心血管病中心（www.nccd.org.cn，栏目:1086） | 2025-10-14
+nccd-news-3014.txt | 凝聚顶尖智慧，聚焦黄金救治——国家心血管病专家委员会心血管病急重症专业委员会在京成立 | https://www.nccd.org.cn/News/Articles/Index/3014 | 国家心血管病中心（www.nccd.org.cn，栏目:1086） | 2025-10-24
+nccd-news-3037.txt | 国家心血管病中心肺动脉高压专科联盟2025年度工作总结大会在京召开 | https://www.nccd.org.cn/News/Articles/Index/3037 | 国家心血管病中心（www.nccd.org.cn，栏目:国家心血管病中心肺动脉高压专科联盟） | 2026-01-24
+nccd-news-3044.txt | 国家心血管病专家委员会第四届血管外科专业委员会顺利完成换届 | https://www.nccd.org.cn/News/Articles/Index/3044 | 国家心血管病中心（www.nccd.org.cn，栏目:1086） | 2026-06-02
+nccd-report-2024.txt | 中国心血管健康与疾病报告2024 | https://www.nccd.org.cn/Sites/Uploaded/File/2025/12/%E4%B8%AD%E5%9B%BD%E5%BF%83%E8%A1%80%E7%AE%A1%E5%81%A5%E5%BA%B7%E4%B8%8E%E7%96%BE%E7%97%85%E6%8A%A5%E5%91%8A2024.pdf | 国家心血管病中心 | 2025-11-19
+# 已排除:
+# http://lianghui.people.com.cn/2026/n1/2026/0307/c461827-40676568.html | 【人民网】习近平在看望参加政协会议的农工党九三学社医药卫生界社会福利和社会保障界委员时强调：坚定不移走中国特色卫生与健康发展道路 推动“十五五”时期健康中国建设取得决定性进展 | 外部链接(非站内正文页)，跳过
+# https://www.fuwaihospital.org/News/Articles/Index/202478 | 你不知道的五个关于心脏的真相 | 门户站(39健康网)2013年转载趣闻文，非权威科普，弃
+# https://www.fuwaihospital.org/News/Articles/Index/202717 | 防心血管病 六种食物清理血管 | 新浪转载“食物清血管”式洗稿清单文，不符合权威科普标准，弃
+# https://www.gov.cn/yaowen/liebiao/202603/content_7061810.htm | 【新华社】十四届全国人大四次会议举行第二次全体会议 习近平等出席 | 外部链接(非站内正文页)，跳过
+# https://www.nccd.org.cn/News/Articles/Index/2153 | 【NCCD·高小堂】高血压小讲堂：“白大衣性高血压”的特征 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2164 | 【NCCD·高小堂】高血压小讲堂：重视家庭血压测量的原因 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2168 | 【NCCD·高小堂】高血压小讲堂：测量高血压最科学的时间 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2169 | 【NCCD·高小堂】高血压小讲堂：坐着和躺着测量的血压不同的原因 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2170 | 【NCCD·高小堂】高血压小讲堂：高血压患者生活中的注意事项 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2171 | 【NCCD·高小堂】高血压小讲堂：袖带松紧对血压读数的影响 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2172 | 【NCCD·科普】心血管病科普问答（十一） | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2177 | 【NCCD·科普】心血管病科普问答（十四） | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2178 | 【NCCD·高小堂】高血压小讲堂：不良情绪对血压的影响 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2179 | 【NCCD·高小堂】高血压小讲堂：熬夜对血压的影响 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2203 | 【NCCD·全国高血压日】心血管病科普问答（十九） | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2204 | 【NCCD·高小堂】高血压小讲堂：血压平稳后可以停药吗？ | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2205 | 【NCCD·高小堂】高血压小讲堂：哪些患者容易出现并发症？ | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2220 | 【NCCD·高小堂】高血压小讲堂：青年高血压患者应注意的事项 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2224 | 【NCCD·科普】心血管病科普问答（二十六） | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2225 | 【NCCD·先心课堂】先心病宝宝的营养支持 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2226 | 【NCCD·先心课堂】先心病术后的出入量管理 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2232 | 【NCCD·先心课堂】新生儿持续性肺动脉高压到底是啥？ | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2233 | 【NCCD·先心课堂】“假的”胎儿先天性心脏病 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2252 | 【NCCD·先心课堂】先天性心脏病治疗的常见误区 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2253 | 【NCCD·科普】血脂健康管理专题科普（一） | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2254 | 【NCCD·科普】心血管病科普问答（三十一） | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2262 | 【NCCD·科普】吸烟伤“心”，你需要知道的3个要点 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2263 | 【NCCD·科普】吸烟增加中青年8.5倍心梗风险 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2337 | 【NCCD·全国高血压日】平稳降压，优选长效降压药 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2338 | 【NCCD·全国高血压日】控制高血压，保护心脑肾 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2339 | 【NCCD·全国高血压日】预防高血压，从每一天做起 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2340 | 【NCCD·全国高血压日】血压超过140/90要关注 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2345 | 【NCCD·卒中日】得了房颤要重视，规范治疗防卒中 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2346 | 【NCCD·卒中日】心血管病科普问答（五十） | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2354 | 【NCCD·心力衰竭日】心力衰竭知多少，一文了解 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2687 | 国家心血管病专家委员会护理专业委员会2024心血管护理质量管理培训会及中国心脏大会心血管护理论坛顺利召开 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2925 | 聚焦老龄化健康挑战，共筑心血管疾病防治体系——国家心血管病专家委员会 老年心血管病专业委员会在京成立 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2926 | 国家心血管病专家委员会第二届右心与肺血管病专业委员会换届大会圆满召开 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2927 | 国家心血管病专家委员会微创心血管外科专业委员会第二届委员会顺利完成换届 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2928 | 心血管重症护理规范培训班在中国医学科学院阜外医院成功举办 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2929 | 五十年刀锋舞心尖：中国冠脉外科的开拓与传承 | 纪念中国首例冠脉搭桥手术成功50年 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2979 | 国家心血管病专家委员会老年心血管病专业委员会在金融街社区开展老年健康科普活动 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2981 | 【世界高血压日】西山园区党总支第三党支部、内科第三党总支高血压病区党支部 主题党日活动——走进门头沟区东辛房街道 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2982 | 权威引领 网络联动——肺动脉高压专科联盟开展健康科普系列活动 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2983 | 点亮医学梦想，助力健康成长：国家心血管病中心科普教育在行动 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2984 | 京西山区暖心医事：健康科普与生命守护同行 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2988 | 党建联建聚合力，携手共建促发展——国家心血管病中心 中国医学科学院阜外医院西山园区党总支与京西智谷党支部开展联学联建活动 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2989 | 权威引领 网络联动——肺动脉高压专科联盟开展健康科普系列活动‌ | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2990 | 国家心血管病中心在国家卫生健康委“读讲一本书”青年演讲比赛决赛中获得佳绩 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2991 | 【世界高血压日】加强自我管理，守护血压健康 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2992 | 【世界高血压日】不用吃药，也能降血压？——关于高血压与生活方式你必须知道的真相 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2993 | 【世界高血压日】西山园区党总支第三党支部、内科第三党总支高血压病区党支部主题党日活动——走进门头沟区东辛房街道 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/2994 | 【NCCD • 科普】国家心血管病专家委员会老年心血管病专业委员会在金融街社区开展老年健康科普活动 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/3006 | 第三届国家心血管病专家委员会第二次会议在京召开 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/3023 | 2026年全国卫生健康工作会议在北京召开 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/3026 | 潘湘斌团队携手中科院在《Nature》发布磁流体封堵技术——宣告实现心脏在体3D打印梦想 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/3035 | 【健康报】国家卫生健康委党组书记、主任雷海潮：开展爱国卫生运动 加快建设健康中国 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/3038 | 国家心血管病专家委员会第二届护理专业委员会换届大会在京举行 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/3039 | 2025年“健康中国心血管病防治技术论坛”在北京召开 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/3040 | 【CLMC2025】国家心血管病专家委员会第二届健康生活方式医学专业委员会换届大会圆满召开 | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.nccd.org.cn/News/Articles/Index/3048 | 国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍推动健康中国建设取得决定性进展有关情况（文字实录） | 外链微信公众号，本机取不到正文，按规则跳过
+# https://www.news.cn/politics/20260305/02d94f68ddb44e97aed9947b58cf25aa/c.html | 【新华网】李强作政府工作报告 | 外部链接(非站内正文页)，跳过
+# https://www.news.cn/politics/20260305/fb0189a2672143a5934b871d216c73bb/c.html | 【新华社】政府工作报告提出2026年政府工作十大任务 | 外部链接(非站内正文页)，跳过
+# https://www.news.cn/politics/20260306/1ae297c049e349b49091e2028f1961a1/c.html | 【新华网】中共中央、全国人大常委会、国务院等领导同志分别参加十四届全国人大四次会议代表团分组审议 | 外部链接(非站内正文页)，跳过
+# https://www.news.cn/politics/20260311/7fab200dd56f44b0a7d075095986079f/c.html | 【新华网】全国政协十四届四次会议闭幕 习近平等出席 | 外部链接(非站内正文页)，跳过
+# https://www.news.cn/politics/leaders/20260305/3befbd2618dc477fb79bf41979d9a295/c.html | 【新华网】习近平在参加江苏代表团审议时强调 经济大省要在研究新情况解决新问题上下功夫出经验 | 外部链接(非站内正文页)，跳过
+# https://www.news.cn/politics/leaders/20260305/bb57080732ff4ed0ac92a40051c888fc/c.html | 【新华社】十四届全国人大四次会议在京开幕 习近平等在主席台就座 | 外部链接(非站内正文页)，跳过
+# https://www.nhc.gov.cn/wjw/xwdt/202603/7076807d73b44189ac97c6eecc87a80c.shtml | 【国家卫生健康委】国家卫生健康委员会主任雷海潮出席十四届全国人大四次会议民生主题记者会文字实录 | 外部链接(非站内正文页)，跳过
+# 不可达:
+# http://dg.cnsoc.org/article/04/I2bVT2sVSOCHguX5JLQynw.html | 《中国居民膳食指南（2022）（科普版）》入选向全国老年人推荐优秀出版物 | 正文仅149中文字(<400)
+# http://dg.cnsoc.org/article/04/gc5cUak3RhSGheqSaRljnA.html | 《中国婴幼儿喂养指南（2022）》核心信息 | 正文仅41中文字(<400)
+# http://dg.cnsoc.org/article/04/hjgfxca3Ra69sKbvqDETbg.html | 《中国孕妇、乳母膳食指南（2022）》核心信息 | 正文仅33中文字(<400)
+# http://dg.cnsoc.org/article/04/op9MZtpBQHehHCo0SSqsmw.html | 《中国老年人膳食指南（2022）》核心推荐 | 正文仅299中文字(<400)
+# http://dg.cnsoc.org/article/05/8a2389fd549555080154adcacce00a37.html | 营养素参考值nrv | 正文仅0中文字(<400)
+# http://dg.cnsoc.org/article/05/8a2389fd549555080154ae9d74700b3c.html | 营养标签导航 | 正文仅0中文字(<400)
+# http://dg.cnsoc.org/article/05/f7b994dd49ea37dd014a0adaac500007.html | 《中国居民膳食指南》第三次修订在京启动 | 正文仅0中文字(<400)
+# https://www.cnsoc.org/othernews/772510202.html | 团标升行标 推荐性卫生行业标准——《高龄老年人体质指数适宜范围与体重管理标准》发布_人才服务 | 正文仅360中文字(<400)
+# https://www.fuwaihospital.org/News/Articles/Index/200219 | 心律失常病人平常应注意什么？ | 正文仅284中文字(<400)
+# https://www.fuwaihospital.org/News/Articles/Index/200220 | - | 页面已失效(信息不存在)
+# https://www.fuwaihospital.org/News/Articles/Index/208173 | 食药监总局：慎用含阿司匹林中成药 | 正文仅352中文字(<400)
+# https://www.nccd.org.cn/News/Articles/Index/2977 | 神经内科 李淑娟主任医师、预防医学处 李希研究员 即将做客“阜外心知 大医生说”健康科普直播，敬请关注 | 正文仅0中文字(<400)
+# https://www.nccd.org.cn/News/Articles/Index/2978 | 小儿外科中心 李守军主任医师、张旌主任医师 做客“阜外心知 大医生说”健康科普直播 | 正文仅115中文字(<400)
+# https://www.nccd.org.cn/News/Articles/Index/2980 | 国家心血管病中心参加门头沟区开展2025年健康素养宣传月活动 | 正文仅167中文字(<400)
+# https://www.nccd.org.cn/News/Articles/Index/2985 | 央视频“阜外心知 大医生说”正式开播！每月一期，敬请关注！ | 正文仅224中文字(<400)
+# https://www.nccd.org.cn/News/Articles/Index/2986 | 国家心血管病中心 中国医学科学院阜外医院助力门头沟区人保局“京颐智能行”活动 | 正文仅140中文字(<400)
+# https://www.nccd.org.cn/News/Articles/Index/2987 | 《中国心血管健康与疾病报告》2025年版第一轮审稿会顺利召开 | 正文仅385中文字(<400)
+# https://www.nccd.org.cn/News/Articles/Index/3005 | 2025国家心血管病中心“三高”共管项目山东省“三高”共管基层医生培训班顺利开展 | 正文仅0中文字(<400)
+# https://www.nccd.org.cn/Sites/Uploaded/File/2024/12/%E4%B8%AD%E5%9B%BD%E5%BF%83%E8%A1%80%E7%AE%A1%E5%81%A5%E5%BA%B7%E4%B8%8E%E7%96%BE%E7%97%85%E6%8A%A5%E5%91%8A2023.pdf | 中国心血管健康与疾病报告2023 | PDF下载失败 HTTP Error 404: Not Found

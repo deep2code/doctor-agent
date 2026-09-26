@@ -1,0 +1,3097 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E7%BB%8F%E7%9A%AE%E5%86%A0%E7%8A%B6%E5%8A%A8%E8%84%89%E4%BB%8B%E5%85%A5%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%282016%29.html
+# 标题: 中国经皮冠状动脉介入治疗指南(2016) - 中华心血管病杂志
+# 发布方/日期: 中华医学会心血管病学分会，中华心血管病杂志, 2016,44(5) : 382-400. DOI: 10.3760/cma.j；2016-05-24
+
+中国经皮冠状动脉介入治疗指南(2016)
+中华医学会心血管病学分会介入心脏病学组
+中国医师协会心血管内科医师分会血栓防治专业委员会
+中华心血管病杂志编辑委员会
+中华心血管病杂志, 2016,44(5) : 382-400. DOI: 10.3760/cma.j.issn.0253-3758.2016.05.006
+自"中国经皮冠状动脉介入治疗指南2012(简本)" [1]更新以来，在经皮冠状动脉介入治疗(percutaneous coronary intervention，PCI)及其相关领域又积累了众多临床证据。为此，中华医学会心血管病学分会介入心脏病学组、中国医师协会心血管内科医师分会血栓防治专业委员会、中华心血管病杂志编辑委员会组织专家组，在2009和2012年中国PCI指南[1,2]的基础上，根据最新临床研究成果、特别是结合中国人群的大型随机临床试验结果，参考最新美国心脏病学学院/美国心脏协会(ACC/AHA)以及欧洲心脏病学学会(ESC)等组织发布的相关指南[3,4,5,6,7,8,9]、并结合我国国情及临床实践，对PCI治疗领域的热点和焦点问题进行了全面讨论并达成一致共识，在此基础上编写了本指南。
+为便于读者了解PCI对某一适应证的价值或意义，本指南对推荐类别的表述沿用国际通用的方式。
+Ⅰ类：指已证实和(或)一致公认有益、有用和有效的操作或治疗，推荐使用。
+Ⅱ类：指有用和(或)有效的证据尚有矛盾或存在不同观点的操作或治疗。
+Ⅱa类：有关证据/观点倾向于有用和(或)有效，应用这些操作或治疗是合理的。
+Ⅱb类：有关证据/观点尚不能被充分证明有用和(或)有效，可考虑应用。
+Ⅲ类：指已证实和(或)一致公认无用和(或)无效，并对一些病例可能有害的操作或治疗，不推荐使用。
+对证据来源的水平表达如下。
+证据水平A：资料来源于多项随机临床试验或荟萃分析。
+证据水平B：资料来源于单项随机临床试验或多项非随机对照研究。
+证据水平C：仅为专家共识意见和(或)小规模研究、回顾性研究和注册研究。
+概述
+一、建立质量控制体系
+对于每一个开展PCI的中心，应建立质量控制体系(Ⅰ，C)，包括：(1)回顾分析整个中心的介入治疗结局和质量；(2)回顾分析每个术者的介入治疗结局和质量；(3)引入风险调控措施；(4)对复杂病例进行同行评议；(5)随机抽取病例作回顾分析。
+资质要求：每年完成的心血管疾病介入诊疗病例不少于200例，其中治疗性病例不少于100例，主要操作者具备介入治疗资质且每年独立完成PCI>50例，血管造影并发症发生率低于0.5%，心血管病介入诊疗技术相关病死率低于0.5%。
+二、危险评分系统
+风险-获益评估是对患者进行血运重建治疗决策的基础。运用危险评分可以预测心肌血运重建手术病死率或术后主要不良心脑血管事件(major adverse cardiac and cerebrovascular event，MACCE)发生率，指导医师对患者进行风险分层，从而为选择适宜的血运重建措施提供参考。常用的危险评分系统特点如下。
+1.欧洲心脏危险评估系统Ⅱ(EuroSCORE Ⅱ)[7,10,11]：
+由于EuroSCORE基于较早期的研究结果，过高估计了血运重建的死亡风险，不建议继续使用，由EuroSCOREⅡ替代。EuroSCOREⅡ通过18项临床特点评估院内病死率。
+2. SYNTAX评分：
+是根据11项冠状动脉造影病变解剖特点定量评价病变的复杂程度的危险评分方法。对于病变既适于PCI又适于冠状动脉旁路移植术(coronary artery bypass grafting，CABG)且预期外科手术病死率低的患者，可用SYNTAX评分帮助制定治疗决策，至今仍在临床上广泛使用。
+3. SYNTAXⅡ评分[12]：
+是在SYNTAX评分的基础上，新增是否存在无保护左主干病变，并联合6项临床因素(包括年龄、肌酐清除率、左心室功能、性别、是否合并慢性阻塞性肺疾病和周围血管病)的风险评估法，在预测左主干和复杂三支病变血运重建的远期死亡率方面，优于单纯的SYNTAX评分。
+以上评分及推荐均由欧美人群得出，评分标准及推荐类别详见表1。
+点击查看表格
+表1
+推荐用于PCI或CABG患者的常用危险评分系统
+表1
+推荐用于PCI或CABG患者的常用危险评分系统
+评分标准
+评估危险的变量数
+验证结果
+CABG
+PCI
+临床因素(项)
+CAG因素(项)
+推荐类别
+证据水平
+推荐类别
+证据水平
+短期(院内或30 d内)
+EuroSCOREⅡ
+18
+0
+院内病死率
+Ⅱa
+B
+Ⅱb
+C
+EuroSCORE
+17
+0
+手术病死率
+Ⅲ
+B
+Ⅲ
+C
+中、远期
+SYNTAX
+0
+11
+≥1年MACCE风险
+Ⅰ
+B
+Ⅰ
+B
+SYNTAXⅡ
+6
+12
+4年病死率
+Ⅱa
+B
+Ⅱa
+B
+注：PCI：经皮冠状动脉介入治疗，CABG：冠状动脉旁路移植术，CAG：冠状动脉造影，MACCE：主要不良心脑血管事件。EuroSCOREⅡ评分临床因素包括年龄、性别、肾功能损伤、外周动脉疾病、严重活动障碍、既往心脏手术史、慢性肺脏疾病、活动性心内膜炎、术前状态差、正在应用胰岛素治疗的糖尿病、纽约心脏协会(NYHA)心功能分级、加拿大心血管病学学会心绞痛分型、左心室功能、近期心肌梗死、肺动脉高压、紧急外科手术、是否为单纯CABG和胸主动脉手术。EuroSCORE评分临床因素包括年龄、性别、慢性肺脏疾病、外周动脉系统疾病、神经系统功能障碍、既往心脏手术史、肾功能不全、活动性心内膜炎、术前危急状态、不稳定性心绞痛、左心室功能不全、90 d内心肌梗死史、肺动脉高压、急诊外科手术、是否单纯CABG、胸主动脉手术和心肌梗死后室间隔穿孔。SYNTAX评分中的CAG因素包括冠状动脉分布类型、狭窄部位、是否完全闭塞、三分叉病变、双分叉病变、主动脉相关开口病变、严重扭曲、病变长度>20 mm、严重钙化、血栓、弥漫病变/小血管病变。SYNTAXⅡ评分CAG因素除SYNTAX评分的11项因素外，还包括无保护左主干病变；其临床因素包括年龄、性别、肌酐清除率、左心室射血分数、外周血管疾病和慢性阻塞性肺疾病
+来自中国的研究显示，对于无保护左主干病变患者，SYNTAXⅡ评分预测PCI术后远期病死率的价值，优于SYNTAX评分[13]。另一项中国的多中心研究显示，对无保护左主干病变患者，用整合了临床和冠状动脉解剖学因素的NERSⅡ评分预测主要不良心脏事件(MACE)发生率，优于SYNTAX评分，NERSⅡ评分>19分是MACE独立预测因素[14]。
+血运重建策略选择
+一、稳定性冠心病(stable coronary artery disease，SCAD)
+对强化药物治疗下仍有缺血症状及存在较大范围心肌缺血证据、且预判选择PCI或CABG治疗其潜在获益大于风险的SCAD患者，可根据病变特点选择相应的治疗策略。
+对合并左主干和(或)前降支近段病变、多支血管病变患者，是选择CABG还是PCI仍有争议。近年药物洗脱支架(drug-eluting stent，DES)的广泛应用显著降低了PCI术后长期不良事件发生率，PCI在SCAD中的适应证逐渐拓宽。建议对上述患者，根据SYNTAX评分[11](Ⅰ，B)和SYNTAX Ⅱ评分[12](Ⅱa，B)评估中、远期风险，选择合适的血运重建策略。
+建议以冠状动脉病变直径狭窄程度作为是否干预的决策依据。病变直径狭窄≥90%时，可直接干预；当病变直径狭窄<90%时，建议仅对有相应缺血证据，或血流储备分数(fractional flow reserve, FFR)≤0.8的病变进行干预(表2，表3)。
+点击查看表格
+表2
+稳定性冠心病患者血运重建推荐
+表2
+稳定性冠心病患者血运重建推荐
+冠心病程度(解剖/功能)
+推荐类别
+证据水平
+证据来源
+针对预后
+左主干直径狭窄>50%a
+Ⅰ
+A
+文献[15]
+前降支近段直径狭窄>70%a
+Ⅰ
+A
+文献[16, 17]
+二支或三支冠状动脉直径狭窄>70%a，且左心室功能受损(LVEF<40%)a
+Ⅰ
+A
+文献[16，18, 19, 20, 21]
+大面积缺血(缺血面积>左心室10%)
+Ⅰ
+B
+文献[22, 23, 24]
+单支通畅冠状动脉直径狭窄>50%a
+Ⅰ
+C
+针对症状
+任一冠状动脉直径狭窄>70%a，表现为活动诱发的心绞痛或等同症状，并对药物治疗反应欠佳
+Ⅰ
+A
+文献[22, 25, 26, 27, 28]
+注：a且该冠状动脉直径狭窄<90%并有缺血证据，或血流储备分数≤0.8；LVEF：左心室射血分数
+点击查看表格
+表3
+稳定性冠心病患者血运重建方法推荐[7]
+表3
+稳定性冠心病患者血运重建方法推荐[7]
+冠心病程度(解剖/功能)
+PCI
+CABG
+证据来源
+推荐类别
+证据水平
+推荐类别
+证据水平
+无前降支近段病变的单支或双支病变
+Ⅰ
+C
+Ⅱb
+C
+存在前降支近段病变的单支病变
+Ⅰ
+A
+Ⅰ
+A
+文献[29, 30]
+存在前降支近段病变的双支病变
+Ⅰ
+C
+Ⅰ
+B
+文献[21]
+左主干病变
+SYNTAX评分≤22分
+Ⅰ
+B
+Ⅰ
+B
+文献[15，31]
+SYNTAX评分22～32分
+Ⅱa
+B
+Ⅰ
+B
+文献[31]
+SYNTAX评分>32分
+Ⅲ
+B
+Ⅰ
+B
+文献[31]
+三支病变
+SYNTAX评分≤22分
+Ⅰ
+B
+Ⅰ
+A
+文献[31, 32, 33]
+SYNTAX评分>22分
+Ⅲ
+B
+Ⅰ
+A
+文献[31, 32, 33]
+SCAD血运重建方式选择应依据指南，不能开展CABG的医院，应将适宜患者转诊至有心脏外科手术能力的医院手术治疗。
+二、非ST段抬高型急性冠状动脉综合征(non-ST-segment elevation acute coronary syndrome, NSTE-ACS)
+在无心电图ST段抬高的前提下，推荐用高敏肌钙蛋白(high-sensitivity cardiac troponin，hs-cTn)检测作为早期诊断工具之一，并在60min内获取检测结果[3](Ⅰ，A)，根据即刻和1 h hs-cTn水平快速诊断或排除NSTEMI。
+建议根据患者的病史、症状、体征、心电图和肌钙蛋白作为风险分层的工具(Ⅰ，A)[34,35]。采用全球急性冠状动脉事件注册(global registry of acute coronary events，GRACE)预后评分进行缺血危险分层，分为紧急(2 h以内)、早期(24 h以内)和延迟(72 h以内)3种血运重建策略(包括PCI和CABG)。具体推荐见表4。
+点击查看表格
+表4
+NSTE-ACS患者冠状动脉造影和血运重建推荐
+表4
+NSTE-ACS患者冠状动脉造影和血运重建推荐
+推荐
+推荐类别
+证据水平
+证据来源
+极高危患者，包括：(1)血液动力学不稳定或心原性休克；(2)顽固性心绞痛；(3)危及生命的心律失常或心脏停搏；(4)心肌梗死机械性并发症；(5)急性心力衰竭伴难治性心绞痛和ST段改变；(6)再发心电图ST-T动态演变，尤其是伴有间歇性ST段抬高。推荐进行紧急冠状动脉造影(<2 h)
+Ⅰ
+C
+高危患者，包括：(1)肌钙蛋白升高；(2)心电图ST段或T波动态演变(有或无症状)；(3)GRACE评分>140分。推荐早期行冠状动脉造影，根据病变情况决定是否行侵入策略(<24 h)
+Ⅰ
+A
+文献[36, 37]
+中危患者，包括：(1)糖尿病；(2)肾功能不全，eGFR<60 ml·min-1·1.73 m-2；(3)左心室功能下降(LVEF<40%)或慢性心力衰竭；(4)心肌梗死后早发心绞痛；(5)近期行PCI治疗；(6)既往行CABG治疗；(7)109分<GRACE评分<140分；(8)无创性负荷试验时再发心绞痛症状或出现缺血性心电图改变。推荐侵入策略(<72 h)
+Ⅰ
+A
+文献[38, 39]
+低危缺血患者，先行非侵入性检查(首选心脏超声等影像检查)，寻找缺血证据，再决定是否采用侵入策略
+Ⅰ
+A
+文献[40]
+根据患者临床情况、合并症、冠状动脉病变严重程度(如SYNTAX评分)，由心脏团队或心脏内、外科联合会诊制定血运重建策略
+Ⅰ
+C
+注：NSTE-ACS：非ST段抬高型急性冠状动脉综合征，eGFR：估算的肾小球滤过率
+对首诊于非PCI中心的患者，极高危者，建议立即转运至PCI中心行紧急PCI；高危者，建议发病24 h内转运至PCI中心行早期PCI；中危者，建议转运至PCI中心，发病72 h内行延迟PCI；低危者，可考虑转运行PCI或药物保守治疗。
+三、急性ST段抬高型心肌梗死(ST-segment elevation myocardial infarction，STEMI)
+减少时间延误是STEMI实施再灌注治疗的关键问题，应尽量缩短首次医疗接触(first medical contact，FMC)至PCI的时间和FMC至医院转出时间，从而降低院内死亡风险。对首诊可开展急诊PCI的医院，要求FMC至PCI时间<90 min(Ⅰ，A)。对首诊不能开展急诊PCI的医院，当预计FMC至PCI的时间延迟<120 min时，应尽可能将患者转运至有直接PCI条件的医院[3](Ⅰ，B)。根据我国国情，可请有资质的医生到有PCI设备的医院行直接PCI，但要求FMC至PCI时间<120 min[41](Ⅱb，B)。
+如预计FMC至PCI的时间延迟>120 min，对有适应证的患者，应于30 min内尽早启动溶栓治疗[6,42](Ⅰ，A)。早期荟萃分析[43]、近期FAST-MI注册研究[44]、FAST-PCI研究[45]、STREAM研究[46]以及2项基于中国人群的研究[47,48]均显示，溶栓后早期实施PCI的患者30 d病死率与直接PCI的患者无差异，溶栓后早期常规PCI的患者1年MACCE发生率有优于直接PCI的趋势。因此，对STEMI患者尽早溶栓并进行早期PCI治疗是可行的，尤其适用于无直接PCI治疗条件的患者。溶栓后早期实施冠状动脉造影的时间宜在3～24 h[43](Ⅱa，A)，其最佳时间窗尚需进一步研究。
+对合并多支病变的STEMI患者，美国2013年[6]及中国2015年STEMI指南均建议仅对梗死相关动脉(infarct relative artery，IRA)进行干预，除非合并心原性休克或梗死IRA行PCI后仍有持续性缺血征象，不应对非IRA行急诊PCI。然而，2013至2015年4项随机对照研究(PRAMI[49]、CvLPRIT[50]、DANAMI-3 PRIMULTI[51]和PRAGUE-13[52]试验)及2015年最新荟萃分析[53]均显示，对部分STEMI合并多支血管病变的患者行急诊PCI或择期PCI时，干预非IRA可能有益且安全。美国2015年STEMI指南更新中，建议对STEMI合并多支病变、血液动力学稳定患者，可考虑干预非IRA(可与直接PCI同时或择期完成)。HORIZONS-AMI[54]、REAL[55]等观察性研究以及网络荟萃分析[56]提示，择期完成多支PCI的临床获益可能优于直接PCI同期干预非IRA。对于合并心原性休克和严重心力衰竭的STEMI患者，应由经验丰富的医师完成PCI。具体推荐见表5。
+点击查看表格
+表5
+STEMI患者PCI治疗推荐
+表5
+STEMI患者PCI治疗推荐
+推荐
+推荐类别
+证据水平
+证据来源
+直接PCI
+发病12 h内(包括正后壁心肌梗死)或伴有新出现左束支传导阻滞的患者
+Ⅰ
+A
+文献[7, 57]
+伴严重急性心力衰竭或心原性休克(不受发病时间限制)
+Ⅰ
+B
+文献[7]
+发病>12 h仍有缺血性胸痛或致命性心律失常
+Ⅰ
+C
+文献[6]
+对就诊延迟(发病后12～48 h)并具有临床和(或)心电图缺血证据的患者行直接PCI
+Ⅱa
+B
+文献[7]
+溶栓后PCI
+建议所有患者溶栓后24 h内送至PCI中心
+Ⅰ
+A
+文献[46, 58, 59]
+建议溶栓成功24 h内行冠状动脉造影并根据需要对IRA行血运重建
+Ⅰ
+A
+文献[46, 59, 60]
+溶栓后出现心原性休克或急性严重心力衰竭时建议行急诊冠状动脉造影并对相关血管行血运重建
+Ⅰ
+B
+文献[61]
+建议对溶栓失败患者(溶栓后60 min ST段下降<50%或仍有胸痛)行急诊补救性PCI
+Ⅰ
+A
+文献[60, 62]
+溶栓成功后出现再发缺血、血液动力学不稳定、危及生命的室性心律失常或有再次闭塞证据时建议急诊PCI
+Ⅰ
+A
+文献[62]
+溶栓成功后血液动力学稳定的患者3～24 h行冠状动脉造影
+Ⅱa
+A
+文献[43]
+非IRA的PCI
+STEMI多支病变患者在血液动力学稳定情况下
+择期完成非IRA的PCI
+Ⅱa
+B
+文献[50, 51, 52]
+可考虑非IRA的PCI，与直接PCI同期完成
+Ⅱb
+B
+文献[49, 50]
+注：STEMI：ST段抬高型心肌梗死，IRA：梗死相关动脉
+PCI术中操作
+一、介入治疗入径
+股动脉径路是PCI的经典径路。但随着技术的发展，目前在我国大多选择经桡动脉径路(血管相关并发症少，患者痛苦少)，应作为首选推荐[63](Ⅰ，A)。特殊情况下可酌情选择其他适宜的血管径路，如尺动脉[64]、肱动脉等。
+二、术中辅助诊断及治疗技术
+1．血管内超声(intravascular ultrasound, IVUS)：
+IVUS通常用于造影结果不明确、或者不可靠的情况下，如开口病变、血管重叠及分叉病变等。采用IVUS指导有助于查明支架失败原因(Ⅱa，C)。IVUS对PCI有非常重要的指导价值，尤其是对高危病变(包括左主干、钙化及分叉病变等)，可明确支架大小、膨胀是否充分以及定位是否准确等。对选择性的患者(无保护左主干、三支、分叉、慢性闭塞及支架内再狭窄病变等)，推荐IVUS指导的优化支架置入[65,66,67](Ⅱa，B)。对慢性闭塞病变，IVUS指导有助于明确闭塞始点及帮助判断指引导丝是否走行在真腔，提高PCI成功率[68]。
+2．FFR：
+FFR能特异地反映心外膜下冠状动脉狭窄的功能学严重程度，对开口、分支、多支和弥漫性病变均有一定的指导意义。
+对没有缺血证据的SCAD患者，推荐对冠状动脉造影目测直径狭窄50%～90%的病变行FFR评估[69,70](Ⅰ，A)。DEFER研究提示，对冠状动脉造影提示直径狭窄>50%临界病变的SCAD患者，当病变FFR≥0.75时延迟PCI，其5年随访期内心血管事件显著低于FFR<0.75而实施PCI的患者[69]。
+FAME研究[70]发现，对存在多支病变的SCAD、不稳定性心绞痛和NSTEMI患者，FFR指导的介入治疗组患者1年内复合终点事件显著低于单纯造影指导的介入治疗组。对单支或多支血管病变的SCAD患者，FAME2研究[22]提示，在有FFR<0.80的病变存在的患者中，PCI组患者1年内MACE发生率明显低于单纯药物治疗组。因此，对多支血管病变患者，推荐FFR指导的PCI(Ⅱa，B)。近期的大样本注册研究证实，FFR指导的血运重建在真实世界中的获益与随机对照研究中一致；且对FFR在0.75～0.80之间的病变，介入治疗联合最佳药物治疗较单纯药物治疗预后更好[71]。
+关于冠状动脉真性分叉病变，DKCRUSH-Ⅵ研究[72]结果提示，应用"必要时分支支架技术"处理分支病变，FFR指导与造影指导相比较，分支干预的概率减少，而1年MACE无差异。提示FFR可用于指导真性分叉病变的分支介入治疗。
+3．光学相干断层成像(optical coherence tomography，OCT)：
+OCT较IVUS具有更好的空间分辨率，但穿透力较差，因此对发现靠近冠状动脉腔内病变及支架边缘损伤的细微解剖学变化更有价值，但对判定斑块负荷及组织内部特征依然不够准确。迄今尚无大规模前瞻性随机对照试验探讨OCT指导的PCI治疗。
+OCT对明确血栓、造影未识别的斑块破裂及支架膨胀不良的价值优于IVUS，有助于查明支架失败原因(Ⅱa，C)。对选择性患者，OCT可优化支架置入(Ⅱb，C)。
+三、支架选择
+第一代DES(西罗莫司DES和紫杉醇DES)采用永久材料作涂层，可增加晚期和极晚期血栓形成和内皮化不良风险。2006年后逐渐上市的新一代DES采用了与第一代不同的支架框架材料(包括钴铬合金、铂铬合金等)、新的抗增生药物[包括百奥莫司(biolimus)、依维莫司(evemlimus)和佐他莫司(zotamlimus)]以及生物可降解材料作涂层，其生物相容性更好，支架梁更薄，因而DES处管壁较早内皮化，降低了新生内膜过度增生、再狭窄率及晚期和极晚期支架内血栓形成的发生率。中国的I-LOVE-IT 2研究[73]显示，新一代生物可降解涂层DES 1年内靶病变失败率不劣于永久涂层DES，且前者服用6个月双联抗血小板治疗(dual antiplatelet therapy，DAPT)的效果和安全性不劣于12个月[74]。
+对以下情况推荐置入新一代DES：NSTE-ACS患者[75,76](Ⅰ，A)，STEMI直接PCI患者[77,78](Ⅰ，A)，冠心病合并糖尿病患者[79,80](Ⅰ，A)，冠心病合并慢性肾脏疾病(chronic kidney disease，CKD)患者[81,82](Ⅰ，B)。
+对以下冠状动脉病变推荐置入新一代DES：开口处病变[83,84](Ⅱa，B)、静脉桥血管病变[85,86](Ⅰ，A)及支架内再狭窄病变[87,88](Ⅰ，A)。对左主干合并分叉病变和慢性闭塞病变，优先考虑应用新一代DES，以降低再狭窄率。
+对3个月内计划接受择期非心脏外科手术的患者行PCI时，可考虑置入裸金属支架(bare-metal stent, BMS)或经皮冠状动脉腔内血管成形术(percutaneous transluminal coronary angioplasty，PTCA)[89](Ⅱa，B)；对高出血风险、不能耐受12个月DAPT，或因12个月内可能接受侵入性或外科手术必须中断DAPT的患者，建议置入BMS[90]或行PTCA(Ⅰ，B)。
+近年完全生物可吸收支架成为新一代支架的发展方向。目前多种完全生物可吸收支架已开始在中国进行临床试验。ABSORB China研究[91]显示使用完全生物吸收支架后1年支架节段内晚期管腔丢失不劣于金属DES。
+四、药物洗脱球囊
+药物洗脱球囊通过扩张时球囊表面的药物与血管壁短暂接触，将抗再狭窄的药物释放于病变局部，从而达到治疗的目的。推荐用药物洗脱球囊治疗BMS或DES支架内再狭窄病变[92,93](Ⅰ，A)。虽然目前药物洗脱球囊还有很多问题需进一步研究明确，如远期疗效，是否联合应用切割球囊以及哪种药物效果更好，但对BMS和DES相关的再狭窄病变、多层支架病变、大的分支病变及不能耐受DAPT的患者，药物洗脱球囊可考虑作为优先选择的治疗方案。也有研究显示药物洗脱球囊治疗小血管病变有一定的疗效，但不优于新一代DES。
+五、血栓抽吸装置
+对STEMI患者，基于INFUSE-AMI[94]、TASTE[95]和TOTAL[96]试验结果，不推荐直接PCI前进行常规冠状动脉内手动血栓抽吸(Ⅲ，A)。
+在直接PCI时，对经过选择的患者(如血栓负荷较重、支架内血栓)，可用手动或机械血栓抽吸，或将其作为应急使用(Ⅱb，C)。
+血栓抽吸时应注意技术方法的规范化，以发挥其对血栓性病变的治疗作用。
+六、冠状动脉斑块旋磨术
+对无法充分扩张的纤维性或严重钙化病变，置入支架前采用旋磨术是合理的[97](Ⅱa，C)，可提高钙化病变PCI成功率，但不降低再狭窄率[98]。不推荐对所有病变(包括首次行PCI的病变或支架内再狭窄)常规使用旋磨术[99](Ⅲ，A)。
+完全生物可降解支架置入前需要在血管病变处行充分预扩张，当球囊导管预扩张效果不理想时，可考虑应用旋磨术[7]。
+七、主动脉内球囊反搏(intra-aortic balloon pump，IABP)及左心室辅助装置
+对STEMI合并心原性休克患者，不推荐常规应用IABP[100,101](Ⅲ，A)，但对药物治疗后血液动力学仍不能迅速稳定者，可用IABP支持[101](Ⅱa，B)。急性冠状动脉综合征(acute coronary syndromes，ACS)合并机械性并发症患者，发生血液动力学不稳定或心原性休克时可置入IABP(Ⅱa，C)。在严重无复流患者中，IABP有助于稳定血液动力学[102]。
+少量国内外经验表明，体外膜肺氧合系统等左心室辅助装置，可降低危重复杂患者PCI病死率，有条件时可选用。
+PCI主要并发症防治措施
+一、急性冠状动脉闭塞
+急性冠状动脉闭塞大多数发生在术中或离开导管室之前，也可发生在术后24 h。可能由主支血管夹层、壁内血肿、支架内血栓、斑块和或嵴移位及支架结构压迫等因素所致。主支或大分支闭塞可引起严重后果，立即出现血压降低、心率减慢，甚至很快导致心室颤动、心室停搏而死亡。上述情况均应及时处理或置入支架，尽快恢复冠状动脉血流。
+二、无复流
+推荐冠状动脉内注射替罗非班[103,104]、钙通道阻滞剂[105]、硝酸酯类、硝普钠、腺苷等药物，或应用血栓抽吸[106]及置入IABP，可能有助于预防或减轻无复流，稳定血液动力学。关于给药部位，与冠状动脉口部给药比较，经灌注导管在冠状动脉靶病变以远给予替罗非班可改善无复流患者心肌灌注[107]。
+三、冠状动脉穿孔
+冠状动脉穿孔是少见但非常危险的并发症。发生穿孔时，可先用直径匹配的球囊在穿孔处低压力扩张封堵，对供血面积大的冠状动脉，封堵时间不宜过长，可间断进行，对小穿孔往往能奏效；如果穿孔较大或低压力扩张球囊封堵失败，可置入覆膜支架封堵穿孔处，并停用血小板膜糖蛋白Ⅱb/Ⅲa受体拮抗剂(glycoprotein Ⅱb/Ⅲa receptor inhibitor, GPI)，做好心包穿刺准备。监测活化凝血时间(activated clotting time，ACT)，必要时应用鱼精蛋白中和肝素。若介入手段不能封堵破口，应行急诊外科手术。若出现心脏压塞则在维持血液动力学稳定的同时立即行心包穿刺或心包切开引流术。指引导丝造成的冠状动脉穿孔易发生延迟心包填塞，需密切观测，若穿孔较大，必要时应用自体脂肪颗粒或弹簧圈封堵。无论哪种穿孔类型，都应在术后随访超声心动图，以防延迟的心包填塞发生。
+四、支架血栓形成
+支架血栓形成虽发生率较低(30 d内发生率0.6%，3年内发生率2.9%)[108]，但病死率高达45%[109]。与支架血栓形成的相关危险因素主要包括：(1)高危患者：如糖尿病、肾功能不全、心功能不全、高残余血小板反应性、过早停用DAPT等；(2)高危病变：如B2或C型复杂冠状动脉病变、完全闭塞、血栓及弥漫小血管病变等；(3)操作因素：置入多个支架、长支架、支架贴壁不良、支架重叠、Crush技术，支架直径选择偏小或术终管腔内径较小、支架结构变形、分叉支架、术后持续慢血流、血管正性重构、病变覆盖不完全或夹层撕裂等操作因素；(4)支架自身因素：对支架药物涂层或多聚物过敏、支架引起血管局部炎症反应、支架断裂、血管内皮化延迟等。
+支架内血栓的预防措施包括：(1)术前及围术期充分DAPT和抗凝治疗，对高危患者或病变，可加用GPI，但应充分权衡出血与获益风险。(2)选择合适的介入治疗方案。应权衡利弊，合理选用球囊扩张术、BMS或DES置入术；支架贴壁要尽可能良好，建议高压力释放支架(必要时选用后扩张球囊)，尽量减少支架两端血管的损伤；对选择性患者，可选用IVUS指导。(3)强调术后充分使用DAPT。
+一旦发生支架血栓，应立即行冠状动脉造影，建议行IVUS或OCT检查，明确支架失败原因，对血栓负荷大者，可采用血栓抽吸，可应用GPI持续静脉输注48 h。球囊扩张或重新置入支架仍是主要治疗方法，必要时可给予冠状动脉内溶栓治疗，应检测血小板功能、了解有无高残余血小板反应性，以便调整抗血小板治疗，对反复、难治性支架血栓形成者，必要时需外科手术治疗。
+五、支架脱载
+支架脱载较为少见，多见于病变未经充分预扩张(或直接支架术)、近端血管扭曲(或已置入支架)、支架跨越狭窄或钙化病变阻力过大且推送支架过于用力时，或支架置入失败、回撤支架至指引导管内时，因支架与指引导管同轴性不佳、支架与球囊装载不牢，导致支架脱载。术前充分预判病变特点及预处理病变(如钙化病变采取旋磨术预处理等)，是防止支架脱落的有效手段。发生支架脱落后，若指引导丝仍在支架腔内，可经导丝送入直径≤1.5 mm小球囊至支架内偏远端，轻微扩张后，将支架缓慢撤入指引导管。若因支架近端变形无法撤入指引导管，可先更换更大外径指引导管重新尝试；也可经另一血管路径，送入抓捕器，将支架捕获后取出。如上述方法无效，可沿指引导丝送入与血管直径1∶1球囊将支架原位释放，或置入另一支架将其在原位贴壁。必要时行外科手术，取出脱载支架。
+六、出血
+围术期出血是引发死亡及其他严重不良事件的主要危险因素[110]。大出血(包括脑出血)可能直接导致死亡，出血后停用抗栓药物也可能导致血栓事件乃至死亡。
+出血的预防措施包括：所有患者PCI术前均应评估出血风险(Ⅰ，C)，建议用CRUSADE评分评估出血风险；建议采用桡动脉路径(Ⅰ，A)；对出血风险高的患者(如肾功能不全、高龄、有出血史及低体重等)，围术期优先选择出血风险较小的抗栓药物，如比伐芦定、磺达肝癸钠等；PCI术中根据体重调整抗凝药物剂量；监测ACT，以避免过度抗凝。
+出血后是否停用或调整抗血小板和抗凝药物，需权衡出血和再发缺血事件风险进行个体化评价。出血后通常首先采用非药物一般止血措施，如机械压迫止血；记录末次抗凝药或溶栓药的用药时间及剂量、是否存在肝肾功能损害等；估算药物半衰期；评估出血来源；检测全血细胞计数、凝血指标、纤维蛋白原浓度和肌酐浓度；条件允许时行药物的抗栓活性检测；对血液动力学不稳定者静脉补液和输注红细胞；必要时使用内镜、介入或外科方法局部止血；若出血风险大于缺血风险，尽快停用抗栓药物。若上述方法效果不满意，可进一步采用药物治疗的方法：应用鱼精蛋白中和肝素，以硫酸鱼精蛋白1 mg/80～100 U肝素剂量注射，总剂量一般不超过50 mg；鱼精蛋白可中和60%的低分子量肝素(low-molecular-weight heparin，LMWH)，LMWH用药不足8 h者，可以硫酸鱼精蛋白1 mg/100 U抗Xa活性剂量注射，无效时可追加0.5 mg/100 U抗Xa活性。在停用阿司匹林或替格瑞洛3 d、氯吡格雷5 d后，应再次权衡出血和再发缺血事件的风险，适时恢复适度的抗栓治疗[111,112]。
+七、血管并发症
+血管并发症主要与穿刺点相关，其危险因素有女性、年龄≥70岁、体表面积<1.6 m2、急诊介入治疗、外周血管疾病和围术期应用GPI[113,114]。
+股动脉穿刺主要并发症及其防治方法如下：(1)穿刺点及腹膜后血肿。少量局部出血或小血肿且无症状时，可不予处理。血肿较大、出血过多且血压下降时，应充分加压止血，并适当补液或输血。若PCI后短时间内发生低血压(伴或不伴腹痛、局部血肿形成)，应怀疑腹膜后出血，必要时行超声或CT检查，并及时补充血容量。(2)假性动脉瘤。多普勒超声可明确诊断，局部加压包扎，减少下肢活动，多可闭合。对不能压迫治愈的较大假性动脉瘤，可在超声指导下向瘤体内注射小剂量凝血酶治疗。少数需外科手术治疗。(3)动静脉瘘。少部分可自行闭合，也可作局部压迫，但大的动静脉瘘常需外科修补术。(4)动脉夹层和(或)闭塞。可由指引导丝或导管损伤血管内膜或斑块脱落引起。预防的方法包括低阻力和(或)透视下推送导丝、导管。
+桡动脉穿刺主要并发症及其防治方法如下。(1)桡动脉术后闭塞：发生率<5%。术前常规行Allen试验检查桡、尺动脉的交通情况，术中充分抗凝，术后及时减压，能有效预防桡动脉闭塞和PCI后手部缺血。(2)桡动脉痉挛：较常见，穿刺时麻醉不充分、器械粗硬、操作不规范或指引导丝进入分支，均增加痉挛发生概率。桡动脉痉挛时，严禁强行拔出导管，应首先经动脉鞘内注射硝酸甘油200～400 μg、维拉帕米200～400 μg或地尔硫5 mg(必要时反复给药)，直至痉挛解除后再进行操作。(3)前臂血肿：可由亲水涂层导丝穿孔桡动脉小分支或不恰当应用桡动脉压迫器引起，预防方法为透视下推送导丝；如遇阻力，应做桡动脉造影。术后穿刺局部压迫时应注意确压迫血管穿刺点。(4)筋膜间隙综合征：少见但后果严重。当前臂血肿快速进展引起骨筋膜室内压力增高至一定程度时，常会导致桡、尺动脉及正中神经受压，进而引发手部缺血、坏死。因此一旦发生本征，应尽快外科手术治疗。(5)假性动脉瘤：发生率低于0.01%[115]，若局部压迫不能奏效，可行外科手术治疗。
+八、对比剂导致的急性肾损伤(contrast induced acute kidney injury，CIAKI)
+可应用AGEF评分系统评估CIAKI的风险。影响AGEF评分的因素包括：年龄、eGFR和LVEF。其计算公式为：AGEF评分＝年龄/LVEF(%)＋1(如eGRF<60 ml·min-1·1.73 m-2)。有研究显示，AGEF评分≤0.92、0.92～1.16和>1.16的CIAKI发生率分别为1.1%、2.3%和5.8%。AGEF评分增高是CIAKI发生的独立预测因素[116]。
+水化疗法是应用最早、被广泛接受、可有效减少CIAKI发生的预防措施。对CKD合并慢性心力衰竭患者，可在中心静脉压监测下实施水化治疗，以减少CIAKI的发生[117]。近年来，包括荟萃分析[118]、PRATO-ACS研究[119]、尤其是纳入2 998例中国患者的TRACK-D研究(瑞舒伐他汀10 mg/d)[120]等提示，他汀治疗对预防CIAKI有一定效果。预防CIAKI的措施详见表6。
+点击查看表格
+表6
+预防CIAKI的措施推荐
+表6
+预防CIAKI的措施推荐
+干预
+推荐类别
+证据水平
+证据来源
+对所有准备应用对比剂的患者
+预先评估CIAKI的风险
+Ⅱa
+C
+合并中重度CKD的患者
+推荐等渗盐水水化
+Ⅰ
+A
+文献[121, 122]
+推荐应用等渗或低渗对比剂(<350 ml或<4 ml/kg或对比剂总量/eGFR<3.4)
+Ⅰ
+A
+文献[123, 124]
+推荐他汀治疗
+Ⅱa
+A
+文献[119, 120]
+优先考虑使用等渗对比剂
+Ⅱa
+A
+文献[123, 125]
+尽量减少对比剂用量
+Ⅱa
+B
+文献[126]
+对CIAKI的高危患者或在术前无法完成预防性标准水化情况下，可考虑速尿合用水化
+Ⅱb
+A
+文献[127, 128]
+合并严重CKD的患者
+可考虑复杂PCI前6 h行预防性血液滤过
+Ⅱb
+B
+文献[129, 130]
+注：CIAKI：对比剂导致的急性肾损伤，CKD：慢性肾脏疾病，eGFR：估算的肾小球滤过率
+PCI围术期抗栓治疗
+一、抗血小板治疗
+目前国内常用的抗血小板药物包括口服阿司匹林、氯吡格雷和替格瑞洛及静脉注射替罗非班。替格瑞洛是一种直接作用、可逆结合的新型P2Y12受体拮抗剂，相比氯吡格雷，具有更快速、强效抑制血小板的特点[131,132]，其良好的疗效及安全性已在中国人群中得到证实[133,134]。PLATO研究遗传亚组分析表明，无论是否携带CYP2C19功能缺失等位基因，替格瑞洛治疗ACS的疗效均优于氯吡格雷[135]。中国ACS研究[136]显示，CYP2C19功能缺失与氯吡格雷治疗中的血小板高反应性相关，能增加接受DES患者的血栓性不良事件(心血管死亡、心肌梗死、支架血栓和缺血性卒中)风险。对治疗期高残余血小板反应性患者，替格瑞洛疗效优于高剂量氯吡格雷[137]。替格瑞洛不良反应有出血、诱发心动过缓等，尤其呼吸困难发生率高，PLATO研究提示，呼吸困难的发生率为14.5%，高于氯吡格雷(8.7%)[138]。服用替格瑞洛的患者因不良反应停药，其原因为呼吸困难者占55.6%[139]。抗血小板药物治疗推荐详见表7。
+点击查看表格
+表7
+PCI围术期抗血小板治疗推荐
+表7
+PCI围术期抗血小板治疗推荐
+推荐
+推荐类别
+证据水平
+证据来源
+SCAD
+抗血小板治疗预处理
+已知冠状动脉病变且决定行择期PCI的患者，术前6 h以上PCI，给予氯吡格雷300～600 mg；术前2～6 h，给予氯吡格雷600 mg
+Ⅰ
+A
+文献[140, 141]
+长期服用75 mg/d氯吡格雷的患者，一旦确定行PCI，可考虑重新给予300～600 mg氯吡格雷的负荷剂量
+Ⅱb
+C
+择期支架置入前服用阿司匹林负荷剂量100～300 mg，其后100 mg/d维持
+Ⅰ
+B
+文献[142]
+PCI术中抗血小板治疗
+如术前未行氯吡格雷、阿司匹林预处理，推荐口服负荷剂量氯吡格雷300～600 mg、阿司匹林100～300 mg
+Ⅰ
+C
+紧急情况下考虑使用GPI
+Ⅱa
+C
+支架置入后抗血小板治疗
+BMS置入后至少接受4周DAPT
+Ⅰ
+A
+文献[143, 144]
+因计划接受择期非心脏外科手术置入BMS或PTCA的患者，术后DAPT 4～6周
+Ⅱa
+B
+文献[89]
+因出血风险高、不能耐受12个月DAPT，或12个月内可能中断DAPT而置入BMS或PTCA的患者，术后DAPT 4～6周
+Ⅰ
+B
+文献[90]
+DES置入后接受6个月DAPT
+Ⅰ
+B
+文献[73, 144, 145, 146]
+高出血风险患者，DES置入后可考虑缩短DAPT(<6个月)
+Ⅱb
+A
+文献[147, 148]
+高出血风险、需接受不能推迟的非心脏外科手术或同时接受口服抗凝剂治疗者，DES置入后可给予1～3个月DAPT
+Ⅱb
+C
+文献[5]
+缺血高危、出血低危的患者，DAPT可维持6个月以上
+Ⅱb
+C
+停氯吡格雷后，推荐阿司匹林行终生抗血小板治疗
+Ⅰ
+A
+文献[142, 149]
+对患者进行抗血小板治疗重要性的教育，以提高依从性
+Ⅰ
+C
+NSTE-ACS
+所有无阿司匹林禁忌证患者初始口服负荷剂量100～300 mg，并长期100 mg/d维持
+Ⅰ
+A
+文献[149, 150]
+在阿司匹林基础上加1种P2Y12受体拮抗剂，并维持至少12个月，除非存在禁忌证(如出血风险较高)。选择包括
+Ⅰ
+A
+文献[151, 152]
+替格瑞洛：负荷剂量180 mg，维持剂量90 mg、2次/d。所有无禁忌证、缺血中-高危风险(如肌钙蛋白升高、包括已服用氯吡格雷)的患者，建议首选替格瑞洛
+Ⅰ
+B
+文献[152]
+氯吡格雷：负荷剂量600 mg，维持剂量75 mg、1次/d。用于无禁忌证或需要长期口服抗凝药治疗的患者
+Ⅰ
+B
+文献[151]
+需早期行PCI时，首选替格瑞洛，次选氯吡格雷
+Ⅱa
+B
+文献[152, 153]
+对缺血风险高、出血风险低的患者，可考虑在阿司匹林基础上加用P2Y12受体拮抗剂治疗>1年
+Ⅱb
+A
+文献[154, 155]
+紧急情况或发生血栓并发症时考虑使用GPI
+Ⅱa
+C
+未知冠状动脉病变的患者，不推荐行GPI预处理
+Ⅲ
+A
+文献[156, 157]
+STEMI
+所有无阿司匹林禁忌证的患者初始口服负荷剂量100～300 mg，并长期100 mg/d维持
+Ⅰ
+A
+文献[142, 149]
+在阿司匹林基础上增加1种P2Y12受体拮抗剂，并维持至少12个月，除非存在禁忌证(如出血风险较高)。选择包括
+Ⅰ
+A
+替格瑞洛：无禁忌证患者给予负荷剂量180 mg，维持剂量90 mg、2次/d
+Ⅰ
+B
+文献[158]
+氯吡格雷：负荷剂量600 mg，维持剂量75 mg、1次/d，用于无替格瑞洛或存在替格瑞洛禁忌者
+Ⅰ
+B
+文献[159]
+首次就诊时给予P2Y12受体拮抗剂
+Ⅰ
+B
+文献[160, 161, 162]
+紧急情况、存在无复流证据或发生血栓并发症时使用GPI
+Ⅱa
+C
+转运行直接PCI的高危患者可于PCI之前使用GPI
+Ⅱb
+B
+文献[163, 164, 165]
+注：SCAD：稳定性冠心病，GPI：血小板膜糖蛋白Ⅱb/Ⅲa受体拮抗剂，BMS：裸金属支架，DAPT：双联抗血板治疗，PTCA：经皮冠状动脉腔内血管成形术
+二、抗凝治疗
+PCI术中均应抗凝治疗。目前国内常用的抗凝药物包括普通肝素、依诺肝素、比伐芦定和磺达肝癸钠。
+目前STEMI患者抗凝治疗争议焦点是比伐芦定与肝素孰优孰劣。HORIZONS-AMI[166,167]和EUROMAX[168]研究显示，STEMI患者行直接PCI期间使用比伐芦定与肝素(常规或临时合用GPI)相比，前者可显著减少死亡和主要出血事件，但均伴有急性支架内血栓风险增高。单中心HEAT-PPCI研究[169]显示，与单用肝素(仅紧急情况下合用GPI)相比，比伐芦定不减少主要出血风险，反而显著增加缺血事件(主要是支架内血栓风险显著增高)。新近发表的MATRIX研究显示，与单用肝素对比，比伐芦定降低全因死亡和心性死亡，同时降低出血风险[170]。我国的BRIGHT研究[171]采用延时注射比伐芦定的方式(PCI术后持续静脉滴注术中剂量的比伐芦定3～4 h)，发现急性心肌梗死患者直接PCI期间，使用比伐芦定相比肝素或肝素联合GPI可减少总不良事件和出血风险，且不增加支架内血栓风险。纳入22项研究、共22 434例患者的最新荟萃分析[172]表明，比伐芦定与肝素或LMWH联合GPI相比，出血风险最低。抗凝治疗推荐详见表8。
+点击查看表格
+表8
+PCI围术期抗凝治疗推荐
+表8
+PCI围术期抗凝治疗推荐
+推荐
+推荐类别
+证据水平
+证据来源
+SCAD
+术中应用普通肝素70～100 U/kg
+Ⅰ
+B
+文献[173]
+如有肝素诱导的血小板减少症，使用比伐芦定(一次性静脉注射0.75 mg/kg，随后1.75 mg·kg-1·h-1维持至术后4 h)
+Ⅰ
+C
+高出血风险患者，使用比伐芦定(一次性静脉注射0.75 mg/kg，随后1.75 mg·kg-1·h-1维持至术后3～4 h)
+Ⅱa
+A
+文献[174, 175, 176]
+依诺肝素0.5 mg/kg静脉注射
+Ⅱa
+B
+文献[177]
+NSTE-ACS
+所有患者PCI术中在抗血小板治疗基础上加用抗凝药物
+Ⅰ
+A
+文献[178]
+综合考虑缺血和出血风险及有效性和安全性，选择性地使用抗凝药物
+Ⅰ
+C
+PCI术中使用比伐芦定(一次性静脉注射0.75 mg/kg，随后1.75 mg·kg-1·h-1维持至术后3～4 h)作为普通肝素合用GPI的替代治疗
+Ⅰ
+A
+文献[157, 168, 170, 171, 179]
+PCI开始时，对未用其他抗凝剂患者，一次性静脉注射普通肝素70～100 U/kg。合用GPI时，一次性静脉注射普通肝素50～70 U/kg
+Ⅰ
+B
+文献[180, 181]
+PCI开始时应用肝素抗凝的患者，可考虑在ACT监测下追加肝素(ACT≥225 s)
+Ⅱb
+B
+文献[182]
+PCI术前使用磺达肝癸钠(2.5 mg/d)的患者，在PCI术中一次性静脉注射普通肝素85 U/kg，或普通肝素60 U/kg合用GPI
+Ⅰ
+B
+文献[180]
+对皮下依诺肝素预处理患者，PCI术中应考虑使用依诺肝素
+Ⅱa
+B
+文献[183]
+除非存在其他抗凝指征，PCI后停止抗凝治疗
+Ⅱa
+C
+STEMI
+所有患者PCI术中在抗血小板治疗基础上加用抗凝药物
+Ⅰ
+A
+综合考虑缺血和出血风险及有效性和安全性，选择性地使用抗凝药物
+Ⅰ
+C
+常规静脉注射普通肝素70～100 U/kg；如合用GPI，一次性静脉注射普通肝素50～70 U/kg
+Ⅰ
+C
+PCI术中使用比伐芦定(一次性静脉注射0.75 mg/kg，随后1.75 mg·kg-1·h-1维持至术后3～4 h)
+Ⅰ
+A
+文献[166, 167, 168, 171]
+三、特殊人群的抗栓治疗
+对某些特殊ACS患者，如糖尿病[184]、CKD、复杂冠状动脉病变、拟接受非心脏外科手术、CYP2C19慢代谢型及高残余血小板反应性者或正在口服抗凝药物的SCAD或ACS患者，其血栓或出血风险相对增高，应用抗血栓药物时更应充分权衡其疗效与安全性。
+对糖尿病患者，抗血小板治疗首选替格瑞洛(负荷剂量180 mg，维持剂量90 mg、2次/d)，与阿司匹林联合应用至少12个月[184]。替格瑞洛受肾功能影响较小，因此，CKD患者首选替格瑞洛，且无需调整剂量；在接受透析治疗的患者中使用替格瑞洛经验较少，可选择氯吡格雷。根据PLATO研究结果，对ACS合并复杂冠状动脉病变患者，首选替格瑞洛。对接受非心脏外科手术患者，抗血小板方案的调整应充分权衡外科手术的紧急程度和患者出血及血栓的风险，需多学科医生会诊，选择优化的抗血小板治疗方案；对心脏事件低危患者，术前5～7 d停用DAPT，术后保证止血充分可重新用药。对于已知CYP2C19慢代谢型的患者，或血小板功能检测提示有残余高反应者，如无出血高危因素，首选替格瑞洛[137]。
+对CHA2DS2-VAS评分≥2分、HAS-BLED≤2分的SCAD合并心房颤动患者，建议置入BMS或新一代DES后，口服抗凝药物加阿司匹林100mg/d、氯吡格雷75 mg/d至少1个月，然后口服抗凝药物加阿司匹林100 mg/d或氯吡格雷75 mg/d持续至1年(Ⅱa，C)。对ACS合并心房颤动患者，如HAS-BLED评分≤2分，建议不考虑支架类型，均口服抗凝药物加阿司匹林100 mg/d、氯吡格雷75 mg/d 6个月，然后口服抗凝药物加阿司匹林100 mg/d或氯吡格雷75 mg/d持续至1年(Ⅱa，C)。对HAS-BLED评分≥3分需口服抗凝药物的冠心病患者(包括SCAD和ACS)，建议不考虑支架类型，口服抗凝药物加阿司匹林100 mg/d、氯吡格雷75 mg/d至少1个月，然后改为口服抗凝药物加阿司匹林100 mg/d或氯吡格雷75 mg/d(持续时间根据临床具体情况而定)(Ⅱa，C)。
+其他围术期药物治疗及术后管理
+PCI后控制危险因素、积极进行康复及合理的药物治疗等二级预防措施，对于改善患者预后至关重要，应予重视。
+一、康复治疗
+康复治疗包括运动、合理膳食、戒烟、心理调整和药物治疗5个方面。ACS患者PCI治疗后应实施以合理运动为主的心脏康复治疗[185](Ⅱa，A)。同时，应注意合理的膳食，控制总热量和减少饱和脂肪酸、反式脂肪酸以及胆固醇摄入。超重和肥胖者在6～12个月内减重5%～10%，使体重指数≤25 kg/m2；腰围控制在男性≤90 cm、女性≤85 cm。彻底戒烟，并避免被动吸烟；严格控制酒精摄入(男性≤20 g/d，非孕期女性≤10 g/d)。另外，有研究显示，冠心病患者PCI后焦虑、抑郁与术后10年全因死亡增加相关，其中抑郁是独立的预测因素[186]。因此，需调整患者PCI术后的心理状态。首先，需对患者进行多次、耐心的程序化教育，这是帮助患者克服不良情绪的关键之一。内容包括什么是冠心病、冠心病的发病原因及诱发因素、不适症状的识别、发病后的自救、如何保护冠状动脉等，并教会患者监测血压和脉搏。使患者充分了解自己的疾病及程度，缓解紧张情绪，提高治疗依从性和自信心，学会自我管理。其次，需识别患者的精神心理问题，并给予对症处理。其措施包括：(1)评估患者的精神心理状态。(2)了解患者对疾病的担忧、患者的生活环境、经济状况和社会支持，给予有针对性的治疗措施。(3)对患者进行健康教育和咨询。促进患者伴侣和家庭成员、朋友等参与患者的教育和咨询。(4)轻度焦虑抑郁治疗以运动康复为主，对焦虑和抑郁症状明显者给予对症药物治疗，病情复杂或严重时应请精神科会诊或转诊治疗[187]。
+二、调脂治疗
+1．术前他汀预处理：
+对ACS患者，无论是否接受PCl治疗，无论基线胆固醇水平高低，均应及早服用他汀，必要时联合服用依折麦布，使低密度脂蛋白胆固醇(LDL-C)<1.8 mmol/L。目前缺少硬终点高质量随机对照试验证据支持在这些患者PCI术前早期使用负荷高剂量他汀，亚洲与我国的研究结果显示PCI术前使用负荷剂量他汀不优于常规剂量[188,189]，不建议对ACS患者PCI术前使用负荷剂量他汀。
+2．长期调脂治疗：
+对冠心病患者，不论何种类型，均推荐长期服用他汀类药物，使LDL-C<1.8 mmol/L[190](Ⅰ，A)，且达标后不应停药或盲目减小剂量。若应用最大可耐受剂量他汀类药物治疗后LDL-C仍不能达标，可联合应用非他汀类调脂药物[191](Ⅰ，B)。
+三、冠心病合并高血压
+进行有效的血压管理(包括药物和非药物治疗措施)，控制血压<140/90 mmHg(1 mmHg＝0.133 kPa)[7](Ⅱa，A)。ACS患者降压药物建议首选血管紧张素转换酶抑制剂(ACEI)[不能耐受者可用血管紧张素Ⅱ受体拮抗剂(ARB)代替]和β受体阻滞剂。β受体阻滞剂可改善心肌梗死患者生存率，应结合患者的临床情况采用最大耐受剂量长期治疗。
+有近期心肌梗死病史的高血压患者，建议服用β受体阻滞剂和ACEI/ARB。对有心绞痛的高血压患者，应给予降压治疗，首选β受体阻滞剂和钙拮抗剂[192](Ⅰ，A)。
+四、冠心病合并糖尿病
+积极控制饮食和改善生活方式并给予降糖药物治疗。应尽量选择不易导致低血糖的药物，如二甲双胍、DPP-4抑制剂、SGLT2抑制剂等。推荐将糖化血红蛋白控制在7%以下[7](Ⅰ，A)。
+五、冠心病合并心力衰竭
+建议冠心病合并心力衰竭或心肌梗死后LVEF<40%的患者尽早服用ACEI[193](Ⅰ，A)；如不能耐受ACEI，选用ARB[194](Ⅰ，A)。所有心力衰竭或左心室功能不全患者如无禁忌，尽早服用β受体阻滞剂[195]，至最大可耐受剂量(Ⅰ，A)，并长期服用，以降低PCI后患者心肌梗死及心原性死亡发生率。症状持续(NYHA心功能Ⅱ～Ⅳ级)且LVEF<35%的患者，可在服用ACEI/ARB及β受体阻滞剂的基础上，给予醛固酮受体拮抗剂[196](I，A)。
+窦性心律、心率>70次/min且LVEF<35%的心力衰竭患者，给予伊伐布雷定治疗可降低住院风险；如患者症状持续(NYHAⅡ～Ⅳ级)，可在服用建议剂量的β受体阻滞剂(或已达最大耐受量)、ACEI/ARB及醛固酮受体拮抗剂的基础上，给予伊伐布雷定[197](Ⅱa，B)。
+六、ACS后
+心功能正常ACS患者，PCI后服用β受体阻滞剂持续至少3年[198](Ⅰ，B)，至最大可耐受剂量，以降低PCI后心肌梗死及心原性死亡发生率。
+七、PCI术后随访
+对某些特定患者(从事危险行业，如飞行员、驾驶员或潜水员，以及竞技运动员；需参与高耗氧量娱乐活动；猝死复苏；未完全血运重建；PCI过程复杂；合并糖尿病；多支病变术后非靶血管仍有中等程度狭窄)，建议早期复查冠状动脉造影或CT血管成像(Ⅱa，C)。PCI术后>2年的患者应常规行负荷试验(Ⅱb，C)，负荷试验提示中高危(低负荷出现缺血、试验早期出现缺血发作、多区域的室壁运动异常或可逆的灌注缺损)的患者应复查冠状动脉造影(Ⅰ，C)。高危患者(如无保护左主干狭窄)PCI后无论有无症状，术后3～12个月复查冠状动脉造影(Ⅱb，C)。
+(执笔：韩雅玲)
+专家组成员(按姓氏拼音排序)：曹蘅(皖南医学院弋矶山医院)，曾武涛(中山大学附属第一医院)，常荣(青海省人民医院)，陈纪言(广东省人民医院)，陈良龙(福建医科大学附属协和医院),陈茂(四川大学华西医院)，陈绍良(南京市第一医院)，陈玉国(山东大学齐鲁医院)，陈韵岱(解放军总医院)，丛洪良(天津胸科医院)，崔连群(山东省立医院)，丁世芳(解放军广州军区武汉总医院)，杜志民(中山大学附属第一医院),方唯一(上海胸科医院)，冯颖青(广东省人民医院)，傅国胜(浙江大学医学院附属邵逸夫医院)，傅向华(河北医科大学附属第二医院)，高传玉(河南省人民医院)，高润霖(中国医学科学院阜外医院),高炜(北京大学第三医院)，葛均波(复旦大学附属中山医院)，郭丽君(北京大学第三医院)，郭延松(福建省立医院)，韩雅玲(沈阳军区总医院)，何奔(上海交通大学医学院附属仁济医院)，侯静波(哈尔滨医科大学附属第二医院)，侯玉清(南方医科大学附属南方医院)，胡大一(北京大学人民医院),华琦(首都医科大学附属北京宣武医院)，黄岚(第三军医大学附属新桥医院)，惠永明(北京丰台医院)，霍勇(北京大学第一医院)，贾大林(中国医科大学附属第一医院)，贾绍斌(宁夏医科大学附属医院)，江洪(武汉大学人民医院)，江力勤(嘉兴学院附属第二医院)，姜铁民(武警医学院附属医院)，荆全民(沈阳军区总医院)，荆志成(中国医学科学院阜外医院)，黎辉(大庆油田总医院)，李保(山西心血管病研究所)，李春坚(江苏省人民医院)，李浪(广西医科大学附属第一医院)，李潞(沈阳医学院附属沈洲医院)，李田昌(解放军海军总医院)，李晓东(中国医科大学附属盛京医院)，李晓燕(济南军区总医院)，李妍(第四军医大学附属第一医院)，李毅(沈阳军区总医院)，梁春(第二军医大学附属长征医院)，刘斌(吉林大学第二医院),刘朝中(解放军空军总医院)，刘惠亮(武警总医院)，刘健(北京大学人民医院)，刘强(深圳市孙逸仙心血管医院)，吕树铮(首都医科大学附属北京安贞医院)，马根山(东南大学附属中大医院)，马礼坤(安徽省立医院)，马丽萍(第二军医大学附属长海医院)，马依彤(新疆医科大学附属第一医院)，聂绍平(首都医科大学附属北京安贞医院)，牛丽丽(北京军区总医院)，钱菊英(复旦大学附属中山医院)，乔树宾(中国医学科学院阜外医院)，邱春光(郑州大学附属第一医院)，史旭波(首都医科大学附属同仁医院)，苏国海(济南市中心医院)，苏晞(武汉亚洲心脏病医院)，孙艺红(北京大学人民医院)，孙英贤(中国医科大学附属第一医院)，陶剑虹(四川省人民医院)，陶凌(第四军医大学附属第一医院)，田军(武警后勤学院附属医院)，田野(哈尔滨医科大学附属第一医院)，王斌(沈阳军区总医院)，王刚(鞍山市中心医院)，王海昌(第四军医大学附属第一医院)，王建安(浙江大学医学院附属第二医院)，王建昌(解放军空军总医院)，王乐丰(首都医科大学附属北京朝阳医院)，王守力(解放军第三○六医院)，王伟民(北京大学人民医院)，王效增(沈阳军区总医院)，温尚煜(大庆油田总医院)，吴翔(南通大学附属医院)，吴永健(中国医学科学院阜外医院)，徐标(南京市鼓楼医院)，徐波(中国医学科学院阜外医院)，徐亚伟(上海同济大学附属第十人民医院)，许锋(北京医院)，颜红兵(中国医学科学院阜外医院)，杨丽霞(成都军区昆明总医院)，杨跃进(中国医学科学院阜外医院)，叶平(解放军总医院)，于波(哈尔滨医科大学附属第二医院)，余再新(中南大学湘雅医院)，袁晋青(中国医学科学院阜外医院)，袁祖贻(西安交通大学附属第一医院)，张俊杰(南京市第一医院)，张立(四川大学华西医院)，张明(辽宁省金秋医院)，张奇(上海交通大学医学院附属瑞金医院)，张瑞岩(上海交通大学医学院附属瑞金医院)，张文琪(吉林大学中日联谊医院)，张育民(长沙市第三医院)，张钲(兰州大学附属第一医院)，赵红丽(沈阳医学院附属沈洲医院)，赵水平(中南大学湘雅二医院)，赵仙先(第二军医大学附属长海医院)，郑扬(吉林大学第一医院)，钟诗龙(广东省人民医院)，周玉杰(首都医科大学附属北京安贞医院)，朱建华(浙江医科大学附属第一医院)
+利益冲突
+利益冲突 无
+参考文献
+[1]
+中华医学会心血管病学分会介入心脏病学组，中华心血管病杂志编辑委员会.
+中国经皮冠状动脉介入治疗指南2012(简本)[J].
+中华心血管病杂志，
+2012，
+40(
+4):
+271-
+277.
+DOI: 10.3760/cma.j.issn.0253-3758.2012.04.003.
+[2]
+中华医学会心血管病学分会，中华心血管病杂志编辑委员会.
+经皮冠状动脉介入治疗指南(2009)[J]．
+中华心血管病杂志，
+2009，
+37(
+1):
+4-
+25.
+DOI: 10.3760/cma.j.issn.0253-3758.2009.01.003.
+[3]
+RoffiM, PatronoC, ColletJP, et al.
+2015 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation: Task Force for the Management of Acute Coronary Syndromes in Patients Presenting without Persistent ST-segment Elevation of the European Society of Cardiology (ESC)[J]．
+Eur Heart J,
+2016,
+37(
+3):
+267-
+315.
+DOI: 10.1093/eurheartj/ehv320.
+[4]
+LevineGN, BatesER, BlankenshipJC, et al.
+2015 ACC/AHA/SCAI focused update on primary percutaneous coronary intervention for patients with ST-elevation myocardial infarction: an update of the 2011 ACCF/AHA/SCAI guideline for percutaneous coronary intervention and the 2013 ACCF/AHA guideline for the management of ST-elevation myocardial infarction: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Society for Cardiovascular Angiography and Interventions[J].
+Circulation,
+2016,
+133:
+1135-
+1147.
+DOI: 10.1161/CIR.0000000000000336.
+[5]
+MontalescotG, SechtemU, AchenbachS, et al.
+2013 ESC guidelines on the management of stable coronary artery disease: the Task Force on the Management of Stable Coronary Artery Disease of the European Society of Cardiology[J].
+Eur Heart J,
+2013，
+34(
+38):
+2949-
+3003.
+DOI: 10.1093/eurheartj/eht296.
+[6]
+O′GaraPT, KushnerFG, AscheimDD, et al.
+2013 ACCF/AHA guideline for the management of ST-elevation myocardial infarction: a report of the American College of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines[J].
+Circulation,
+2013，
+127(
+4):
+e362-
+e425.
+DOI: 10.1161/CIR.0b013e3182742cf6.
+[7]
+WindeckerS, KolhP, AlfonsoF, et al.
+2014 ESC/EACTS Guidelines on myocardial revascularization: the Task Force on Myocardial Revascularization of the European Society of Cardiology (ESC) and the European Association for Cardio-Thoracic Surgery (EACTS) developed with the special contribution of the European Association of Percutaneous Cardiovascular Interventions (EAPCI)[J].
+Eur Heart J,
+2014，
+35(
+37):
+2541-
+2619.
+DOI: 10.1093/eurheartj/ehu278.
+[8]
+FihnSD, BlankenshipJC, AlexanderKP, et al.
+2014 ACC/AHA/AATS/PCNA/SCAI/STS focused update of the guideline for the diagnosis and management of patients with stable ischemic heart disease: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines, and the American Association for Thoracic Surgery, Preventive Cardiovascular Nurses Association, Society for Cardiovascular Angiography and Interventions, and Society of Thoracic Surgeons[J]．
+J Thorac Cardiovasc Surg,
+2015,
+149(
+3):
+e5-
+e23.
+DOI: 10.1016/j.jtcvs.2014.11.002.
+[9]
+AmsterdamEA, WengerNK, BrindisRG, et al.
+2014 AHA/ACC guideline for the management of patients with non-ST-elevation acute coronary syndromes: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines[J].
+Circulation,
+2014，
+130(
+25):
+e344-
+e426.
+DOI: 10.1161/CIR.0000000000000134.
+[10]
+NashefSA, RoquesF, SharplesLD, et al.
+EuroSCORE Ⅱ[J].
+Eur J Cardiothorac Surg，
+2012，
+41(
+4):
+734-
+745.
+DOI: 10.1093/ejcts/ezs043.
+[11]
+SianosG, MorelMA, KappeteinAP, et al.
+The SYNTAX Score: an angiographic tool grading the complexity of coronary artery disease[J].
+EuroIntervention,
+2005，
+1(
+2):
+219-
+227.
+[12]
+FarooqV, van KlaverenD, SteyerbergEW, et al.
+Anatomical and clinical characteristics to guide decision making between coronary artery bypass surgery and percutaneous coronary intervention for individual patients: development and validation of SYNTAX score Ⅱ[J].
+Lancet,
+2013，
+381(
+9867):
+639-
+650.
+DOI: 10.1016/S0140-6736(13)60108-7.
+[13]
+XuB, GénéreuxP, YangY, et al.
+Validation and comparison of the long-term prognostic capability of the SYNTAX score-Ⅱ among 1528 consecutive patients who underwent left main percutaneous coronary intervention[J].
+JACC Cardiovasc Interv,
+2014，
+7(
+10):
+1128-
+1137.
+DOI: 10.1016/j.jcin.2014.05.018.
+[14]
+ChenSL, HanYL, ZhangYJ, et al.
+The anatomic- and clinical-based NERS (new risk stratification) score Ⅱ to predict clinical outcomes after stenting unprotected left main coronary artery disease: results from a multicenter, prospective, registry study[J].
+JACC Cardiovasc Interv,
+2013，
+6(
+12):
+1233-
+1241.
+DOI: 10.1016/j.jcin.2013.08.006.
+[15]
+BittlJA, HeY, JacobsAK, et al.
+Bayesian methods affirm the use of percutaneous coronary intervention to improve survival in patients with unprotected left main coronary artery disease[J].
+Circulation,
+2013，
+127(
+22):
+2177-
+2185.
+DOI: 10.1161/CIRCULATIONAHA.112.000646.
+[16]
+HuebW, LopesN, GershBJ, et al.
+Ten-year follow-up survival of the medicine, angioplasty, or surgery study (MASS Ⅱ): a randomized controlled clinical trial of 3 therapeutic strategies for multivessel coronary artery disease[J].
+Circulation,
+2010，
+122(
+10):
+949-
+957.
+DOI: 10.1161/CIRCULATIONAHA.109.911669.
+[17]
+SmithPK, CaliffRM, TuttleRH, et al.
+Selection of surgical or percutaneous coronary intervention provides differential longevity benefit[J].
+Ann Thorac Surg,
+2006，
+82(
+4):
+1420-
+1428;
+discussion 1428-1429.
+DOI: 10.1016/j.athoracsur.2006.04.044.
+[18]
+FryeRL, AugustP, BrooksMM, et al.
+A randomized trial of therapies for type 2 diabetes and coronary artery disease[J].
+N Engl J Med,
+2009，
+360(
+24):
+2503-
+2515.
+DOI: 10.1056/NEJMoa0805796.
+[19]
+ChaitmanBR, HardisonRM, AdlerD, et al.
+The bypass angioplasty revascularization investigation 2 diabetes randomized trial of different treatment strategies in type 2 diabetes mellitus with stable ischemic heart disease: impact of treatment strategy on cardiac mortality and myocardial infarction[J].
+Circulation,
+2009，
+120(
+25):
+2529-
+2540.
+DOI: 10.1161/CIRCULATIONAHA.109.913111.
+[20]
+HannanEL, SamadashviliZ, CozzensK, et al.
+Comparative outcomes for patients who do and do not undergo percutaneous coronary intervention for stable coronary artery disease in New York[J].
+Circulation,
+2012，
+125(
+15):
+1870-
+1879.
+DOI: 10.1161/CIRCULATIONAHA.111.071811.
+[21]
+HannanEL, WuC, WalfordG, et al.
+Drug-eluting stents vs. coronary-artery bypass grafting in multivessel coronary disease[J].
+N Engl J Med,
+2008，
+358(
+4):
+331-
+341.
+DOI: 10.1056/NEJMoa071804.
+[22]
+De BruyneB, PijlsNH, KalesanB, et al.
+Fractional flow reserve-guided PCI versus medical therapy in stable coronary disease[J].
+N Engl J Med,
+2012，
+367(
+11):
+991-
+1001.
+DOI: 10.1056/NEJMoa1205361.
+[23]
+BodenWE, O′RourkeRA, TeoKK, et al.
+Optimal medical therapy with or without PCI for stable coronary disease[J].
+N Engl J Med,
+2007，
+356(
+15):
+1503-
+1516.
+DOI: 10.1056/NEJMoa070829.
+[24]
+ShawLJ, BermanDS, MaronDJ, et al.
+Optimal medical therapy with or without percutaneous coronary intervention to reduce ischemic burden: results from the clinical outcomes utilizing revascularization and aggressive drug evaluation (COURAGE) trial nuclear substudy[J].
+Circulation,
+2008，
+117(
+10):
+1283-
+1291.
+DOI: 10.1161/CIRCULATIONAHA.107.743963.
+[25]
+BangaloreS, PursnaniS, KumarS, et al.
+Percutaneous coronary intervention versus optimal medical therapy for prevention of spontaneous myocardial infarction in subjects with stable ischemic heart disease[J].
+Circulation,
+2013，
+127(
+7):
+769-
+781.
+DOI: 10.1161/CIRCULATIONAHA.112.131961.
+[26]
+PursnaniS, KorleyF, GopaulR, et al.
+Percutaneous coronary intervention versus optimal medical therapy in stable coronary artery disease: a systematic review and meta-analysis of randomized clinical trials[J].
+Circ Cardiovasc Interv,
+2012，
+5(
+4):
+476-
+490.
+DOI: 10.1161/CIRCINTERVENTIONS.112.970954.
+[27]
+SchömigA, MehilliJ, de WahaA, et al.
+A meta-analysis of 17 randomized trials of a percutaneous coronary intervention-based strategy in patients with stable coronary artery disease[J].
+J Am Coll Cardiol,
+2008，
+52(
+11):
+894-
+904.
+DOI: 10.1016/j.jacc.2008.05.051.
+[28]
+ThomasS, GokhaleR, BodenWE, et al.
+A meta-analysis of randomized controlled trials comparing percutaneous coronary intervention with medical therapy in stable angina pectoris[J].
+Can J Cardiol,
+2013，
+29(
+4):
+472-
+482.
+DOI: 10.1016/j.cjca.2012.07.010.
+[29]
+AzizO, RaoC, PanesarSS, et al.
+Meta-analysis of minimally invasive internal thoracic artery bypass versus percutaneous revascularisation for isolated lesions of the left anterior descending artery[J].
+BMJ,
+2007，
+334(
+7594):
+617.
+DOI: 10.1136/bmj.39106.476215.BE.
+[30]
+BlazekS, HolzheyD, JungertC, et al.
+Comparison of bare-metal stenting with minimally invasive bypass surgery for stenosis of the left anterior descending coronary artery: 10-year follow-up of a randomized trial[J].
+JACC Cardiovasc Interv,
+2013，
+6(
+1):
+20-
+26.
+DOI: 10.1016/j.jcin.2012.09.008.
+[31]
+MohrFW, MoriceMC, KappeteinAP, et al.
+Coronary artery bypass graft surgery versus percutaneous coronary intervention in patients with three-vessel disease and left main coronary disease: 5-year follow-up of the randomised, clinical SYNTAX trial[J].
+Lancet,
+2013，
+381(
+9867):
+629-
+638.
+DOI: 10.1016/S0140-6736(13)60141-5.
+[32]
+HeadSJ, DavierwalaPM, SerruysPW, et al.
+Coronary artery bypass grafting vs. percutaneous coronary intervention for patients with three-vessel disease: final five-year follow-up of the SYNTAX trial[J].
+Eur Heart J,
+2014，
+35(
+40):
+2821-
+2830.
+DOI: 10.1093/eurheartj/ehu213.
+[33]
+FarkouhME, DomanskiM, SleeperLA, et al.
+Strategies for multivessel revascularization in patients with diabetes[J].
+N Engl J Med,
+2012，
+367(
+25):
+2375-
+2384.
+DOI: 10.1056/NEJMoa1211585.
+[34]
+SciricaBM, MorrowDA, BudajA, et al.
+Ischemia detected on continuous electrocardiography after acute coronary syndrome: observations from the MERLIN-TIMI 36 (metabolic efficiency with ranolazine for less ischemia in non-ST-elevation acute coronary syndrome-thrombolysis in myocardial infarction 36) trial[J].
+J Am Coll Cardiol,
+2009，
+53(
+16):
+1411-
+1421.
+DOI: 10.1016/j.jacc.2008.12.053.
+[35]
+AkkerhuisKM, KlootwijkPA, LindeboomW, et al.
+Recurrent ischaemia during continuous multilead ST-segment monitoring identifies patients with acute coronary syndromes at high risk of adverse cardiac events; meta-analysis of three studies involving 995 patients[J].
+Eur Heart J,
+2001，
+22(
+21):
+1997-
+2006.
+DOI: 10.1053/euhj.2001.2750.
+[36]
+KatritsisDG, SiontisGC, KastratiA, et al.
+Optimal timing of coronary angiography and potential intervention in non-ST-elevation acute coronary syndromes[J].
+Eur Heart J,
+2011，
+32(
+1):
+32-
+40.
+DOI: 10.1093/eurheartj/ehq276.
+[37]
+MehtaSR, GrangerCB, BodenWE, et al.
+Early versus delayed invasive intervention in acute coronary syndromes[J].
+N Engl J Med,
+2009，
+360(
+21):
+2165-
+2175.
+DOI: 10.1056/NEJMoa0807986.
+[38]
+BavryAA, KumbhaniDJ, RassiAN, et al.
+Benefit of early invasive therapy in acute coronary syndromes: a meta-analysis of contemporary randomized clinical trials[J].
+J Am Coll Cardiol,
+2006，
+48(
+7):
+1319-
+1325.
+DOI: 10.1016/j.jacc.2006.06.050.
+[39]
+FoxKA, ClaytonTC, DammanP, et al.
+Long-term outcome of a routine versus selective invasive strategy in patients with non-ST-segment elevation acute coronary syndrome a meta-analysis of individual patient data[J].
+J Am Coll Cardiol,
+2010，
+55(
+22):
+2435-
+2445.
+DOI: 10.1016/j.jacc.2010.03.007.
+[40]
+AmsterdamEA, KirkJD, DiercksDB, et al.
+Immediate exercise testing to evaluate low-risk patients presenting to the emergency department with chest pain[J].
+J Am Coll Cardiol,
+2002，
+40(
+2):
+251-
+256.
+[41]
+ZhangQ, ZhangRY, QiuJP, et al.
+One-year clinical outcome of interventionalist-versus patient-transfer strategies for primary percutaneous coronary intervention in patients with acute ST-segment elevation myocardial infarction: results from the REVERSE-STEMI study[J].
+Circ Cardiovasc Qual Outcomes,
+2011，
+4(
+3):
+355-
+362.
+DOI: 10.1161/CIRCOUTCOMES.110.958785.
+[42]
+McNamaraRL, HerrinJ, WangY, et al.
+Impact of delay in door-to-needle time on mortality in patients with ST-segment elevation myocardial infarction[J].
+Am J Cardiol,
+2007，
+100(
+8):
+1227-
+1232.
+DOI: 10.1016/j.amjcard.2007.05.043.
+[43]
+BorgiaF, GoodmanSG, HalvorsenS, et al.
+Early routine percutaneous coronary intervention after fibrinolysis vs. standard therapy in ST-segment elevation myocardial infarction: a meta-analysis[J].
+Eur Heart J,
+2010，
+31(
+17):
+2156-
+2169.
+DOI: 10.1093/eurheartj/ehq204.
+[44]
+DanchinN, CosteP, FerrièresJ, et al.
+Comparison of thrombolysis followed by broad use of percutaneous coronary intervention with primary percutaneous coronary intervention for ST-segment-elevation acute myocardial infarction: data from the french registry on acute ST-elevation myocardial infarction (FAST-MI)[J].
+Circulation,
+2008，
+118(
+3):
+268-
+276.
+DOI: 10.1161/CIRCULATIONAHA.107.762765.
+[45]
+BhattNS, SolhpourA, BalanP, et al.
+Comparison of in-hospital outcomes with low-dose fibrinolytic therapy followed by urgent percutaneous coronary intervention versus percutaneous coronary intervention alone for treatment of ST-elevation myocardial infarction[J].
+Am J Cardiol,
+2013，
+111(
+11):
+1576-
+1579.
+DOI: 10.1016/j.amjcard.2013.01.326.
+[46]
+ArmstrongPW, GershlickAH, GoldsteinP, et al.
+Fibrinolysis or primary PCI in ST-segment elevation myocardial infarction[J].
+N Engl J Med,
+2013，
+368(
+15):
+1379-
+1387.
+DOI: 10.1056/NEJMoa1301092.
+[47]
+ShenLH, WanF, ShenL, et al.
+Pharmacoinvasive therapy for ST elevation myocardial infarction in China: a pilot study[J].
+J Thromb Thrombolysis,
+2012，
+33(
+1):
+101-
+108.
+DOI: 10.1007/s11239-011-0657-7.
+[48]
+HanYL, LiuJN, JingQM, et al.
+The efficacy and safety of pharmacoinvasive therapy with prourokinase for acute ST-segment elevation myocardial infarction patients with expected long percutaneous coronary intervention-related delay[J].
+Cardiovasc Ther,
+2013，
+31(
+5):
+285-
+290.
+DOI: 10.1111/1755-5922.12020.
+[49]
+WaldDS, MorrisJK, WaldNJ, et al.
+Randomized trial of preventive angioplasty in myocardial infarction[J].
+N Engl J Med,
+2013，
+369(
+12):
+1115-
+1123.
+DOI: 10.1056/NEJMoa1305520.
+[50]
+GershlickAH, KhanJN, KellyDJ, et al.
+Randomized trial of complete versus lesion-only revascularization in patients undergoing primary percutaneous coronary intervention for STEMI and multivessel disease: the CvLPRIT trial[J].
+J Am Coll Cardiol,
+2015，
+65(
+10):
+963-
+972.
+DOI: 10.1016/j.jacc.2014.12.038.
+[51]
+EngstrømT, KelbækH, HelqvistS, et al.
+Complete revascularisation versus treatment of the culprit lesion only in patients with ST-segment elevation myocardial infarction and multivessel disease (DANAMI-3—PRIMULTI): an open-label, randomised controlled trial[J]．
+Lancet，
+2015，
+386(
+9994):
+665-
+671.
+[52]
+HlinomazO.
+Multivessel coronary disease diagnosed at the time of primary PCI for STEMI: complete revascularization versus conservative strategy. PRAGUE 13 trial[R/OL].
+2015[
+2016-03-02].
+http：//sbhci.org.br/wpcontent/uploads/2015/05/PRAGUE-13-Trial.pdf.
+[53]
+SarathyK, NagarajaV, KapurA, et al.
+Target-vessel versus multivessel revascularisation in ST-elevation myocardial infarction: a meta-analysis of randomised trials[J].
+Heart Lung Circ,
+2015，
+24(
+4):
+327-
+334.
+DOI: 10.1016/j.hlc.2014.10.013.
+[54]
+KornowskiR, MehranR, DangasG, et al.
+Prognostic impact of staged versus " one-time" multivessel percutaneous intervention in acute myocardial infarction: analysis from the HORIZONS-AMI (harmonizing outcomes with revascularization and stents in acute myocardial infarction) trial[J].
+J Am Coll Cardiol,
+2011，
+58(
+7):
+704-
+711.
+DOI: 10.1016/j.jacc.2011.02.071.
+[55]
+ManariA, VaraniE, GuastarobaP, et al.
+Long-term outcome in patients with ST segment elevation myocardial infarction and multivessel disease treated with culprit-only, immediate, or staged multivessel percutaneous revascularization strategies: Insights from the REAL registry[J].
+Catheter Cardiovasc Interv,
+2014，
+84(
+6):
+912-
+922.
+DOI: 10.1002/ccd.25374.
+[56]
+VlaarPJ, MahmoudKD, HolmesDR, et al.
+Culprit vessel only versus multivessel and staged percutaneous coronary intervention for multivessel disease in patients presenting with ST-segment elevation myocardial infarction: a pairwise and network meta-analysis[J].
+J Am Coll Cardiol,
+2011，
+58(
+7):
+692-
+703.
+DOI: 10.1016/j.jacc.2011.03.046.
+[57]
+中华医学会心血管病学分会，中华心血管病杂志编辑委员会.
+急性ST段抬高型心肌梗死诊断和治疗指南[J].
+中华心血管病杂志，
+2015，
+43(
+5):
+380-
+393.
+DOI: 10.3760/cma.j.issn.0253-3758.2015.05.003.
+[58]
+CantorWJ, FitchettD, BorgundvaagB, et al.
+Routine early angioplasty after fibrinolysis for acute myocardial infarction[J].
+N Engl J Med,
+2009，
+360(
+26):
+2705-
+2718.
+DOI: 10.1056/NEJMoa0808276.
+[59]
+BøhmerE, HoffmannP, AbdelnoorM, et al.
+Efficacy and safety of immediate angioplasty versus ischemia-guided management after thrombolysis in acute myocardial infarction in areas with very long transfer distances results of the NORDISTEMI (Norwegian study on district treatment of ST-elevation myocardial infarction)[J].
+J Am Coll Cardiol,
+2010，
+55(
+2):
+102-
+110.
+DOI: 10.1016/j.jacc.2009.08.007.
+[60]
+DiMC, DudekD, PiscioneF, et al.
+Immediate angioplasty versus standard therapy with rescue angioplasty after thrombolysis in the combined abciximab reteplase stent study in acute myocardial infarction (CARESS-in-AMI): an open, prospective, randomised, multicentre trial[J].
+Lancet,
+2008，
+371(
+9612):
+559-
+568.
+DOI: 10.1016/S0140-6736(08)60268-8.
+[61]
+HochmanJS, SleeperLA, WhiteHD, et al.
+One-year survival following early revascularization for cardiogenic shock[J].
+JAMA,
+2001，
+285(
+2):
+190-
+192.
+[62]
+GershlickAH, Stephens-LloydA, HughesS, et al.
+Rescue angioplasty after failed thrombolytic therapy for acute myocardial infarction[J].
+N Engl J Med,
+2005，
+353(
+26):
+2758-
+2768.
+DOI: 10.1056/NEJMoa050849.
+[63]
+ValgimigliM, GagnorA, CalabróP, et al.
+Radial versus femoral access in patients with acute coronary syndromes undergoing invasive management: a randomised multicentre trial[J].
+Lancet,
+2015，
+385(
+9986):
+2465-
+2476.
+DOI: 10.1016/S0140-6736(15)60292-6.
+[64]
+GengW, FuX, GuX, et al.
+Safety and feasibility of transulnar versus transradial artery approach for coronary catheterization in non-selective patients[J].
+Chin Med J (Engl),
+2014，
+127(
+7):
+1222-
+1228.
+[65]
+PariseH, MaeharaA, StoneGW, et al.
+Meta-analysis of randomized studies comparing intravascular ultrasound versus angiographic guidance of percutaneous coronary intervention in pre-drug-eluting stent era[J].
+Am J Cardiol,
+2011，
+107(
+3):
+374-
+382.
+DOI: 10.1016/j.amjcard.2010.09.030.
+[66]
+WitzenbichlerB, MaeharaA, WeiszG, et al.
+Relationship between intravascular ultrasound guidance and clinical outcomes after drug-eluting stents: the assessment of dual antiplatelet therapy with drug-eluting stents (ADAPT-DES) study[J].
+Circulation,
+2014，
+129(
+4):
+463-
+470.
+DOI: 10.1161/CIRCULATIONAHA.113.003942.
+[67]
+ParkSJ, KimYH, ParkDW, et al.
+Impact of intravascular ultrasound guidance on long-term mortality in stenting for unprotected left main coronary artery stenosis[J]．
+Circ Cardiovasc Interv,
+2009,
+2(
+3):
+167-
+177.
+DOI: 10.1161/CIRCINTERVENTIONS.108.799494.
+[68]
+ParkY, ParkHS, JangGL, et al.
+Intravascular ultrasound guided recanalization of stumpless chronic total occlusion[J].
+Int J Cardiol,
+2011，
+148(
+2):
+174-
+178.
+DOI: 10.1016/j.ijcard.2009.10.052.
+[69]
+PijlsNH, van SchaardenburghP, ManoharanG, et al.
+Percutaneous coronary intervention of functionally nonsignificant stenosis: 5-year follow-up of the DEFER Study[J].
+J Am Coll Cardiol,
+2007，
+49(
+21):
+2105-
+2111.
+DOI: 10.1016/j.jacc.2007.01.087.
+[70]
+ToninoPA, De BruyneB, PijlsNH, et al.
+Fractional flow reserve versus angiography for guiding percutaneous coronary intervention[J].
+N Engl J Med,
+2009，
+360(
+3):
+213-
+224.
+DOI: 10.1056/NEJMoa0807611.
+[71]
+LiJ, ElrashidiMY, FlammerAJ, et al.
+Long-term outcomes of fractional flow reserve-guided vs. angiography-guided percutaneous coronary intervention in contemporary practice[J].
+Eur Heart J,
+2013，
+34(
+18):
+1375-
+1383.
+DOI: 10.1093/eurheartj/eht005.
+[72]
+ChenSL, YeF, ZhangJJ, et al.
+Randomized comparison of FFR-guided and angiography-guided provisional stenting of true coronary bifurcation lesions: the DKCRUSH-Ⅵ trial (double kissing crush versus provisional stenting technique for treatment of coronary bifurcation lesions Ⅵ)[J].
+JACC Cardiovasc Interv,
+2015，
+8(
+4):
+536-
+546.
+DOI: 10.1016/j.jcin.2014.12.221.
+[73]
+HanY, XuB, JingQ, et al.
+A randomized comparison of novel biodegradable polymer- and durable polymer-coated cobalt-chromium sirolimus-eluting stents[J].
+JACC Cardiovasc Interv,
+2014，
+7(
+12):
+1352-
+1360.
+DOI: 10.1016/j.jcin.2014.09.001.
+[74]
+HanY, XuB, XuK, et al.
+Six versus 12 months of dual antiplatelet therapy after implantation of biodegradable polymer sirolimus-eluting stent: randomized substudy of the I-LOVE-IT 2 trial[J].
+Circ Cardiovasc Interv,
+2016，
+9(
+2):
+e003145.
+DOI: 10.1161/CIRCINTERVENTIONS.115.003145.
+[75]
+BangaloreS, KumarS, FusaroM, et al.
+Short- and long-term outcomes with drug-eluting and bare-metal coronary stents: a mixed-treatment comparison analysis of 117762 patient-years of follow-up from randomized trials[J].
+Circulation,
+2012，
+125(
+23):
+2873-
+2891.
+DOI: 10.1161/CIRCULATIONAHA.112.097014.
+[76]
+StefaniniGG, BaberU, WindeckerS, et al.
+Safety and efficacy of drug-eluting stents in women: a patient-level pooled analysis of randomised trials[J].
+Lancet,
+2013，
+382(
+9908):
+1879-
+1888.
+DOI: 10.1016/S0140-6736(13)61782-1.
+[77]
+RäberL, KelbækH, OstojicM, et al.
+Effect of biolimus-eluting stents with biodegradable polymer vs bare-metal stents on cardiovascular events among patients with acute myocardial infarction: the COMFORTABLE AMI randomized trial[J].
+JAMA,
+2012，
+308(
+8):
+777-
+787.
+DOI: 10.1001/jama.2012.10065.
+[78]
+SabateM, CequierA, IñiguezA, et al.
+Everolimus-eluting stent versus bare-metal stent in ST-segment elevation myocardial infarction (EXAMINATION): 1 year results of a randomised controlled trial[J].
+Lancet,
+2012，
+380(
+9852):
+1482-
+1490.
+DOI: 10.1016/S0140-6736(12)61223-9.
+[79]
+BangaloreS, KumarS, FusaroM, et al.
+Outcomes with various drug eluting or bare metal stents in patients with diabetes mellitus: mixed treatment comparison analysis of 22844 patient years of follow-up from randomised trials[J].
+BMJ,
+2012，
+345:
+e5170.
+[80]
+StettlerC, AllemannS, WandelS, et al.
+Drug eluting and bare metal stents in people with and without diabetes: collaborative network meta-analysis[J].
+BMJ,
+2008，
+337:
+a1331.
+[81]
+TsaiTT, MessengerJC, BrennanJM, et al.
+Safety and efficacy of drug-eluting stents in older patients with chronic kidney disease: a report from the linked CathPCI Registry-CMS claims database[J].
+J Am Coll Cardiol,
+2011，
+58(
+18):
+1859-
+1869.
+DOI: 10.1016/j.jacc.2011.06.056.
+[82]
+ShenoyC, BouraJ, OrshawP, et al.
+Drug-eluting stents in patients with chronic kidney disease: a prospective registry study[J].
+PLoS One,
+2010，
+5(
+11):
+e15070.
+DOI: 10.1371/journal.pone.0015070.
+[83]
+Al-LameeR, IelasiA, LatibA, et al.
+Comparison of long-term clinical and angiographic outcomes following implantation of bare metal stents and drug-eluting stents in aorto-ostial lesions[J].
+Am J Cardiol,
+2011，
+108(
+8):
+1055-
+1060.
+DOI: 10.1016/j.amjcard.2011.06.004.
+[84]
+LeeSW, KimSH, KimSO, et al.
+Comparative long-term efficacy and safety of drug-eluting stent versus coronary artery bypass grafting in ostial left main coronary artery disease: analysis of the MAIN-COMPARE registry[J].
+Catheter Cardiovasc Interv,
+2012，
+80(
+2):
+206-
+212.
+DOI: 10.1002/ccd.23369.
+[85]
+MehilliJ, PacheJ, Abdel-WahabM, et al.
+Drug-eluting versus bare-metal stents in saphenous vein graft lesions (ISAR-CABG): a randomised controlled superiority trial[J].
+Lancet,
+2011，
+378(
+9796):
+1071-
+1078.
+DOI: 10.1016/S0140-6736(11)61255-5.
+[86]
+FröbertO, SchersténF, JamesSK, et al.
+Long-term safety and efficacy of drug-eluting and bare metal stents in saphenous vein grafts[J].
+Am Heart J,
+2012，
+164(
+1):
+87-
+93.
+DOI: 10.1016/j.ahj.2012.04.012.
+[87]
+KastratiA, MehilliJ, von BeckerathN, et al.
+Sirolimus-eluting stent or paclitaxel-eluting stent vs balloon angioplasty for prevention of recurrences in patients with coronary in-stent restenosis: a randomized controlled trial[J]．
+JAMA,
+2005,
+293(
+2):
+165-
+171.
+DOI: 10.1001/jama.293.2.165.
+[88]
+MehilliJ, ByrneRA, TirochK, et al.
+Randomized trial of paclitaxel-versus sirolimus-eluting stents for treatment of coronary restenosis in sirolimus-eluting stents: the ISAR-DESIRE 2 (intracoronary stenting and angiographic results: drug eluting stents for in-stent restenosis 2) study[J].
+J Am Coll Cardiol,
+2010，
+55(
+24):
+2710-
+2716.
+DOI: 10.1016/j.jacc.2010.02.009.
+[89]
+CrudenNL, HardingSA, FlapanAD, et al.
+Previous coronary stent implantation and cardiac events in patients undergoing noncardiac surgery[J].
+Circ Cardiovasc Interv,
+2010，
+3(
+3):
+236-
+242.
+DOI: 10.1161/CIRCINTERVENTIONS.109.934703.
+[90]
+GrinesCL, BonowRO, CaseyDE, et al.
+Prevention of premature discontinuation of dual antiplatelet therapy in patients with coronary artery stents: a science advisory from the American Heart Association, American College of Cardiology, Society for Cardiovascular Angiography and Interventions, American College of Surgeons, and American Dental Association, with representation from the American College of Physicians[J].
+J Am Coll Cardiol,
+2007，
+49(
+6):
+734-
+739.
+DOI: 10.1016/j.jacc.2007.01.003.
+[91]
+GaoR, YangY, HanY, et al.
+Bioresorbable vascular scaffolds versus metallic stents in patients with coronary artery disease: ABSORB China Trial[J].
+J Am Coll Cardiol,
+2015，
+66(
+21):
+2298-
+2309.
+DOI: 10.1016/j.jacc.2015.09.054.
+[92]
+ByrneRA, NeumannFJ, MehilliJ, et al.
+Paclitaxel-eluting balloons, paclitaxel-eluting stents, and balloon angioplasty in patients with restenosis after implantation of a drug-eluting stent (ISAR-DESIRE 3): a randomised, open-label trial[J].
+Lancet,
+2013，
+381(
+9865):
+461-
+467.
+DOI: 10.1016/S0140-6736(12)61964-3.
+[93]
+XuB, GaoR, WangJ, et al.
+A prospective, multicenter, randomized trial of paclitaxel-coated balloon versus paclitaxel-eluting stent for the treatment of drug-eluting stent in-stent restenosis: results from the PEPCAD China ISR trial[J].
+JACC Cardiovasc Interv,
+2014，
+7(
+2):
+204-
+211.
+DOI: 10.1016/j.jcin.2013.08.011.
+[94]
+StoneGW, MaeharaA, WitzenbichlerB, et al.
+Intracoronary abciximab and aspiration thrombectomy in patients with large anterior myocardial infarction: the INFUSE-AMI randomized trial[J].
+JAMA,
+2012，
+307(
+17):
+1817-
+1826.
+DOI: 10.1001/jama.2012.421.
+[95]
+FröbertO, LagerqvistB, OlivecronaGK, et al.
+Thrombus aspiration during ST-segment elevation myocardial infarction[J].
+N Engl J Med,
+2013，
+369(
+17):
+1587-
+1597.
+DOI: 10.1056/NEJMoa1308789.
+[96]
+JollySS, CairnsJA, YusufS, et al.
+Stroke in the TOTAL trial: a randomized trial of routine thrombectomy vs. percutaneous coronary intervention alone in ST elevation myocardial infarction[J].
+Eur Heart J,
+2015，
+36(
+35):
+2364-
+2372.
+DOI: 10.1093/eurheartj/ehv296.
+[97]
+VaquerizoB, SerraA, MirandaF, et al.
+Aggressive plaque modification with rotational atherectomy and/or cutting balloon before drug-eluting stent implantation for the treatment of calcified coronary lesions[J].
+J Interv Cardiol,
+2010，
+23(
+3):
+240-
+248.
+DOI: 10.1111/j.1540-8183.2010.00547.x.
+[98]
+Abdel-WahabM, RichardtG, JoachimBH, et al.
+High-speed rotational atherectomy before paclitaxel-eluting stent implantation in complex calcified coronary lesions: the randomized ROTAXUS (rotational atherectomy prior to taxus stent treatment for complex native coronary artery disease) trial[J].
+JACC Cardiovasc Interv,
+2013，
+6(
+1):
+10-
+19.
+DOI: 10.1016/j.jcin.2012.07.017.
+[99]
+BittlJA, ChewDP, TopolEJ, et al.
+Meta-analysis of randomized trials of percutaneous transluminal coronary angioplasty versus atherectomy, cutting balloon atherotomy, or laser angioplasty[J].
+J Am Coll Cardiol,
+2004，
+43(
+6):
+936-
+942.
+DOI: 10.1016/j.jacc.2003.10.039.
+[100]
+BuerkeM, ProndzinskyR, LemmH, et al.
+Intra-aortic balloon counterpulsation in the treatment of infarction-related cardiogenic shock--review of the current evidence[J].
+Artif Organs,
+2012，
+36(
+6):
+505-
+511.
+DOI: 10.1111/j.1525-1594.2011.01408.x.
+[101]
+SjauwKD, EngströmAE, VisMM, et al.
+A systematic review and meta-analysis of intra-aortic balloon pump therapy in ST-elevation myocardial infarction: should we change the guidelines[J]．
+Eur Heart J,
+2009,
+30(
+4):
+459-
+468.
+DOI: 10.1093/eurheartj/ehn602.
+[102]
+BahekarA, SinghM, SinghS, et al.
+Cardiovascular outcomes using intra-aortic balloon pump in high-risk acute myocardial infarction with or without cardiogenic shock: a meta-analysis[J].
+J Cardiovasc Pharmacol Ther,
+2012，
+17(
+1):
+44-
+56.
+DOI: 10.1177/1074248410395019.
+[103]
+杨新春，张大鹏，王乐丰，等.
+冠状动脉内应用国产替罗非班对急性ST段抬高心肌梗死急诊介入治疗后心肌灌注和临床预后的影响[J]．
+中华心血管病杂志，
+2007，
+35(
+6):
+517-
+522.
+DOI: 10.3760/j.issn：0253-3758.2007.06.006.
+[104]
+ZhuTQ, ZhangQ, QiuJP, et al.
+Beneficial effects of intracoronary tirofiban bolus administration following upstream intravenous treatment in patients with ST-elevation myocardial infarction undergoing primary percutaneous coronary intervention: the ICT-AMI study[J].
+Int J Cardiol,
+2013，
+165(
+3):
+437-
+443.
+DOI: 10.1016/j.ijcard.2011.08.082.
+[105]
+NiccoliG, BurzottaF, GaliutoL, et al.
+Myocardial no-reflow in humans[J].
+J Am Coll Cardiol,
+2009，
+54(
+4):
+281-
+292.
+DOI: 10.1016/j.jacc.2009.03.054.
+[106]
+ZhouSS, TianF, ChenYD, et al.
+Combination therapy reduces the incidence of no-reflow after primary per-cutaneous coronary intervention in patients with ST-segment elevation acute myocardial infarction[J].
+J Geriatr Cardiol,
+2015，
+12(
+2):
+135-
+142.
+DOI: 10.11909/j.issn.1671-5411.2015.02.003.
+[107]
+孙宇珺，周雯，丁嵩，等.
+经靶向灌注导管在冠状动脉靶病变远段给予替罗非班对急性冠状动脉综合征患者心肌灌注的影响[J]．
+中国介入心脏病学杂志，
+2015，
+23(
+1):
+5-
+10.
+DOI: 10.3969/j.issn.1004-8812.2015.01.003.
+[108]
+IakovouI, SchmidtT, BonizzoniE, et al.
+Incidence, predictors, and outcome of thrombosis after successful implantation of drug-eluting stents[J].
+JAMA,
+2005，
+293(
+17):
+2126-
+2130.
+DOI: 10.1001/jama.293.17.2126.
+[109]
+DaemenJ, WenaweserP, TsuchidaK, et al.
+Early and late coronary stent thrombosis of sirolimus-eluting and paclitaxel-eluting stents in routine clinical practice: data from a large two-institutional cohort study[J].
+Lancet,
+2007，
+369(
+9562):
+667-
+678.
+DOI: 10.1016/S0140-6736(07)60314-6.
+[110]
+ManoukianSV, FeitF, MehranR, et al.
+Impact of major bleeding on 30-day mortality and clinical outcomes in patients with acute coronary syndromes: an analysis from the ACUITY trial[J].
+J Am Coll Cardiol,
+2007，
+49(
+12):
+1362-
+1368.
+DOI: 10.1016/j.jacc.2007.02.027.
+[111]
+LiC, HirshJ, XieC, et al.
+Reversal of the anti-platelet effects of aspirin and clopidogrel[J].
+J Thromb Haemost,
+2012，
+10(
+4):
+521-
+528.
+DOI: 10.1111/j.1538-7836.2012.04641.x.
+[112]
+MakrisM, Van VeenJJ, TaitCR, et al.
+Guideline on the management of bleeding in patients on antithrombotic agents[J].
+Br J Haematol,
+2013，
+160(
+1):
+35-
+46.
+DOI: 10.1111/bjh.12107.
+[113]
+AhmedB, PiperWD, MalenkaD, et al.
+Significantly improved vascular complications among women undergoing percutaneous coronary intervention: a report from the northern New England percutaneous coronary intervention registry[J].
+Circ Cardiovasc Interv,
+2009，
+2(
+5):
+423-
+429.
+DOI: 10.1161/CIRCINTERVENTIONS.109.860494.
+[114]
+ApplegateRJ, SacrintyMT, KutcherMA, et al.
+Trends in vascular complications after diagnostic cardiac catheterization and percutaneous coronary intervention via the femoral artery, 1998 to 2007[J]．
+JACC Cardiovasc Interv,
+2008,
+1(
+3):
+317-
+326.
+DOI: 10.1016/j.jcin.2008.03.013.
+[115]
+FreestoneB, NolanJ.
+Transradial cardiac procedures: the state of the art[J].
+Heart,
+2010，
+96(
+11):
+883-
+891.
+DOI: 10.1136/hrt.2007.134213.
+[116]
+LiJ, LiY, WangX, et al.
+Age, estimated glomerular filtration rate and ejection fraction score predicts contrast-induced acute kidney injury in patients with diabetes and chronic kidney disease: insight from the TRACK-D study[J].
+Chin Med J (Engl),
+2014，
+127(
+12):
+2332-
+2336.
+[117]
+QianG, FuZ, GuoJ, et al.
+Prevention of contrast-induced nephropathy by central benous pressure-guided fluid administration in chronic kidney disease and congestive heart failure patients[J].
+JACC Cardiovasc Interv,
+2016，
+9(
+1):
+89-
+96.
+DOI: 10.1016/j.jcin.2015.09.026.
+[118]
+LiY, LiuY, FuL, et al.
+Efficacy of short-term high-dose statin in preventing contrast-induced nephropathy: a meta-analysis of seven randomized controlled trials[J].
+PLoS One,
+2012，
+7(
+4):
+e34450.
+DOI: 10.1371/journal.pone.0034450.
+[119]
+LeonciniM, TosoA, MaioliM, et al.
+Early high-dose rosuvastatin for contrast-induced nephropathy prevention in acute coronary syndrome：results from the PRATO-ACS study (protective effect of rosuvastatin and antiplatelet therapy on contrast-induced acute kidney injury and myocardial damage in patients with acute coronary syndrome)[J].
+J Am Coll Cardiol,
+2014，
+63(
+1):
+71-
+79.
+DOI: 10.1016/j.jacc.2013.04.105.
+[120]
+HanY, ZhuG, HanL, et al.
+Short-term rosuvastatin therapy for prevention of contrast-induced acute kidney injury in patients with diabetes and chronic kidney disease[J].
+J Am Coll Cardiol,
+2014，
+63(
+1):
+62-
+70.
+DOI: 10.1016/j.jacc.2013.09.017.
+[121]
+MertenGJ, BurgessWP, GrayLV, et al.
+Prevention of contrast-induced nephropathy with sodium bicarbonate: a randomized controlled trial[J].
+JAMA,
+2004，
+291(
+19):
+2328-
+2334.
+DOI: 10.1001/jama.291.19.2328.
+[122]
+BrarSS, ShenAY, JorgensenMB, et al.
+Sodium bicarbonate vs sodium chloride for the prevention of contrast medium-induced nephropathy in patients undergoing coronary angiography: a randomized trial[J].
+JAMA,
+2008，
+300(
+9):
+1038-
+1046.
+DOI: 10.1001/jama.300.9.1038.
+[123]
+AspelinP, AubryP, FranssonSG, et al.
+Nephrotoxic effects in high-risk patients undergoing angiography[J].
+N Engl J Med,
+2003，
+348(
+6):
+491-
+499.
+DOI: 10.1056/NEJMoa021833.
+[124]
+SolomonRJ, NatarajanMK, DoucetS, et al.
+Cardiac angiography in renally impaired patients (CARE) study: a randomized double-blind trial of contrast-induced nephropathy in patients with chronic kidney disease[J].
+Circulation,
+2007，
+115(
+25):
+3189-
+3196.
+DOI: 10.1161/CIRCULATIONAHA.106.671644.
+[125]
+JoSH, YounTJ, KooBK, et al.
+Renal toxicity evaluation and comparison between visipaque (iodixanol) and hexabrix (ioxaglate) in patients with renal insufficiency undergoing coronary angiography: the RECOVER study: a randomized controlled trial[J].
+J Am Coll Cardiol,
+2006，
+48(
+5):
+924-
+930.
+DOI: 10.1016/j.jacc.2006.06.047.
+[126]
+MarenziG, AssanelliE, CampodonicoJ, et al.
+Contrast volume during primary percutaneous coronary intervention and subsequent contrast-induced nephropathy and mortality[J].
+Ann Intern Med,
+2009，
+150(
+3):
+170-
+177.
+[127]
+MarenziG, FerrariC, MaranaI, et al.
+Prevention of contrast nephropathy by furosemide with matched hydration: the MYTHOS (induced diuresis with matched hydration compared to standard hydration for contrast induced nephropathy prevention) trial[J].
+JACC Cardiovasc Interv,
+2012，
+5(
+1):
+90-
+97.
+DOI: 10.1016/j.jcin.2011.08.017.
+[128]
+BriguoriC, ViscontiG, FocaccioA, et al.
+Renal insufficiency after contrast media administration trial Ⅱ(REMEDIAL Ⅱ): renalguard system in high-risk patients for contrast-induced acute kidney injury[J].
+Circulation,
+2011，
+124(
+11):
+1260-
+1269.
+DOI: 10.1161/CIRCULATIONAHA.111.030759.
+[129]
+MarenziG, MaranaI, LauriG, et al.
+The prevention of radiocontrast-agent-induced nephropathy by hemofiltration[J].
+N Engl J Med,
+2003，
+349(
+14):
+1333-
+1340.
+DOI: 10.1056/NEJMoa023204.
+[130]
+CruzDN, GohCY, MarenziG, et al.
+Renal replacement therapies for prevention of radiocontrast-induced nephropathy: a systematic review[J].
+Am J Med,
+2012，
+125(
+1):
+66-78.e3.
+DOI: 10.1016/j.amjmed.2011.06.029.
+[131]
+GurbelPA, BlidenKP, ButlerK, et al.
+Randomized double-blind assessment of the ONSET and OFFSET of the antiplatelet effects of ticagrelor versus clopidogrel in patients with stable coronary artery disease: the ONSET/OFFSET study[J].
+Circulation,
+2009，
+120(
+25):
+2577-
+2585.
+DOI: 10.1161/CIRCULATIONAHA.109.912550.
+[132]
+ChenY, DongW, WanZ, et al.
+Ticagrelor versus clopidogrel in Chinese patients with acute coronary syndrome: A pharmacodynamic analysis[J].
+Int J Cardiol,
+2015，
+201:
+545-
+546.
+DOI: 10.1016/j.ijcard.2015.06.030.
+[133]
+LiH, ButlerK, YangL, et al.
+Pharmacokinetics and tolerability of single and multiple doses of ticagrelor in healthy Chinese subjects: an open-label, sequential, two-cohort, single-centre study[J].
+Clin Drug Investig,
+2012，
+32(
+2):
+87-
+97.
+DOI: 10.2165/11595930-000000000-00000.
+[134]
+王贺阳，苏晞，沈成兴，等.
+替格瑞洛在急性冠脉综合征患者中应用的安全性和有效性分析[J]．
+中国循证心血管医学杂志，
+2015，(
+4):
+468-
+471.
+DOI: 10.3969/j.1674-4055.2015.04.11.
+[135]
+WallentinL, JamesS, StoreyRF, et al.
+Effect of CYP2C19 and ABCB1 single nucleotide polymorphisms on outcomes of treatment with ticagrelor versus clopidogrel for acute coronary syndromes: a genetic substudy of the PLATO trial[J].
+Lancet,
+2010，
+376(
+9749):
+1320-
+1328.
+DOI: 10.1016/S0140-6736(10)61274-3.
+[136]
+LiangZY, HanYL, ZhangXL, et al.
+The impact of gene polymorphism and high on-treatment platelet reactivity on clinical follow-up: outcomes in patients with acute coronary syndrome after drug-eluting stent implantation[J].
+EuroIntervention,
+2013，
+9(
+3):
+316-
+327.
+DOI: 10.4244/EIJV9I3A53.
+[137]
+LiP, YangY, ChenT, et al.
+Ticagrelor overcomes high platelet reactivity in patients with acute myocardial infarction or coronary artery in-stent restenosis: a randomized controlled trial[J].
+Sci Rep,
+2015，
+5:
+13789.
+DOI: 10.1038/srep13789.
+[138]
+StoreyRF, BeckerRC, HarringtonRA, et al.
+Characterization of dyspnoea in PLATO study patients treated with ticagrelor or clopidogrel and its association with clinical outcomes[J].
+Eur Heart J,
+2011，
+32(
+23):
+2945-
+2953.
+DOI: 10.1093/eurheartj/ehr231.
+[139]
+GaubertM, LaineM, RichardT, et al.
+Effect of ticagrelor-related dyspnea on compliance with therapy in acute coronary syndrome patients[J].
+Int J Cardiol,
+2014，
+173(
+1):
+120-
+121.
+DOI: 10.1016/j.ijcard.2014.02.028.
+[140]
+DiSG, PattiG, PasceriV, et al.
+Effectiveness of in-laboratory high-dose clopidogrel loading versus routine pre-load in patients undergoing percutaneous coronary intervention: results of the ARMYDA-5 PRELOAD (antiplatelet therapy for reduction of myocardial damage during angioplasty) randomized trial[J].
+J Am Coll Cardiol,
+2010，
+56(
+7):
+550-
+557.
+DOI: 10.1016/j.jacc.2010.01.067.
+[141]
+WidimskyP, MotovskáZ, SimekS, et al.
+Clopidogrel pre-treatment in stable angina: for all patients>6 h before elective coronary angiography or only for angiographically selected patients a few minutes before PCI? a randomized multicentre trial PRAGUE-8[J].
+Eur Heart J,
+2008，
+29(
+12):
+1495-
+1503.
+DOI: 10.1093/eurheartj/ehn169.
+[142]
+BaigentC, BlackwellL, CollinsR, et al.
+Aspirin in the primary and secondary prevention of vascular disease: collaborative meta-analysis of individual participant data from randomised trials[J].
+Lancet,
+2009，
+373(
+9678):
+1849-
+1860.
+DOI: 10.1016/S0140-6736(09)60503-1.
+[143]
+SteinhublSR, BergerPB, MannJT, et al.
+Early and sustained dual oral antiplatelet therapy following percutaneous coronary intervention: a randomized controlled trial[J].
+JAMA,
+2002，
+288(
+19):
+2411-
+2420.
+[144]
+ValgimigliM, CampoG, MontiM, et al.
+Short-versus long-term duration of dual-antiplatelet therapy after coronary stenting: a randomized multicenter trial[J].
+Circulation,
+2012，
+125(
+16):
+2015-
+2026.
+DOI: 10.1161/CIRCULATIONAHA.111.071589.
+[145]
+GwonHC, HahnJY, ParkKW, et al.
+Six-month versus 12-month dual antiplatelet therapy after implantation of drug-eluting stents: the efficacy of Xience/Promus bersus cypher to reduce late loss after stenting (EXCELLENT) randomized, multicenter study[J].
+Circulation,
+2012，
+125(
+3):
+505-
+513.
+DOI: 10.1161/CIRCULATIONAHA.111.059022.
+[146]
+HanY, JingQ, LiY, et al.
+Sustained clinical safety and efficacy of a biodegradable-polymer coated sirolimus-eluting stent in "real-world" practice: three-year outcomes of the CREATE (multi-center registry of EXCEL biodegradable polymer drug eluting stents) study[J].
+Catheter Cardiovasc Interv,
+2012，
+79(
+2):
+211-
+216.
+DOI: 10.1002/ccd.23113.
+[147]
+FeresF, CostaRA, AbizaidA, et al.
+Three vs twelve months of dual antiplatelet therapy after zotarolimus-eluting stents: the OPTIMIZE randomized trial[J].
+JAMA,
+2013，
+310(
+23):
+2510-
+2522.
+DOI: 10.1001/jama.2013.282183.
+[148]
+KimBK, HongMK, ShinDH, et al.
+A new strategy for discontinuation of dual antiplatelet therapy: the RESET trial (real safety and efficacy of 3-month dual antiplatelet therapy following endeavor zotarolimus-eluting stent implantation)[J].
+J Am Coll Cardiol,
+2012，
+60(
+15):
+1340-
+1348.
+DOI: 10.1016/j.jacc.2012.06.043.
+[149]
+Collaborative meta-analysis of randomised trials of antiplatelet therapy for prevention of death, myocardial infarction, and stroke in high risk patients[J].
+BMJ,
+2002，
+324(
+7329):
+71-
+86.
+[150]
+PatronoC, AndreottiF, ArnesenH, et al.
+Antiplatelet agents for the treatment and prevention of atherothrombosis[J].
+Eur Heart J,
+2011，
+32(
+23):
+2922-
+2932.
+DOI: 10.1093/eurheartj/ehr373.
+[151]
+MehtaSR, YusufS, PetersRJ, et al.
+Effects of pretreatment with clopidogrel and aspirin followed by long-term therapy in patients undergoing percutaneous coronary intervention: the PCI-CURE study[J].
+Lancet,
+2001，
+358(
+9281):
+527-
+533.
+[152]
+WallentinL, BeckerRC, BudajA, et al.
+Ticagrelor versus clopidogrel in patients with acute coronary syndromes[J].
+N Engl J Med,
+2009，
+361(
+11):
+1045-
+1057.
+DOI: 10.1056/NEJMoa0904327.
+[153]
+LindholmD, VarenhorstC, CannonCP, et al.
+Ticagrelor vs. clopidogrel in patients with non-ST-elevation acute coronary syndrome with or without revascularization: results from the PLATO trial[J].
+Eur Heart J,
+2014，
+35(
+31):
+2083-
+2093.
+DOI: 10.1093/eurheartj/ehu160.
+[154]
+MauriL, KereiakesDJ, YehRW, et al.
+Twelve or 30 months of dual antiplatelet therapy after drug-eluting stents[J].
+N Engl J Med,
+2014，
+371(
+23):
+2155-
+2166.
+DOI: 10.1056/NEJMoa1409312.
+[155]
+BonacaMP, BhattDL, CohenM, et al.
+Long-term use of ticagrelor in patients with prior myocardial infarction[J]．
+N Engl J Med,
+2015,
+372(
+19):
+1791-
+1800.
+DOI: 10.1056/NEJMoa1500857.
+[156]
+GiuglianoRP, WhiteJA, BodeC, et al.
+Early versus delayed, provisional eptifibatide in acute coronary syndromes[J].
+N Engl J Med,
+2009，
+360(
+21):
+2176-
+2190.
+DOI: 10.1056/NEJMoa0901316.
+[157]
+StoneGW, McLaurinBT, CoxDA, et al.
+Bivalirudin for patients with acute coronary syndromes[J].
+N Engl J Med,
+2006，
+355(
+21):
+2203-
+2216.
+DOI: 10.1056/NEJMoa062437.
+[158]
+StegPG, JamesS, HarringtonRA, et al.
+Ticagrelor versus clopidogrel in patients with ST-elevation acute coronary syndromes intended for reperfusion with primary percutaneous coronary intervention: a platelet onhibition and patient outcomes (PLATO) trial subgroup analysis[J].
+Circulation,
+2010，
+122(
+21):
+2131-
+2141.
+DOI: 10.1161/CIRCULATIONAHA.109.927582.
+[159]
+MehtaSR, TanguayJF, EikelboomJW, et al.
+Double-dose versus standard-dose clopidogrel and high-dose versus low-dose aspirin in individuals undergoing percutaneous coronary intervention for acute coronary syndromes (CURRENT-OASIS 7): a randomised factorial trial[J].
+Lancet,
+2010，
+376(
+9748):
+1233-
+1243.
+DOI: 10.1016/S0140-6736(10)61088-4.
+[160]
+Bellemain-AppaixA, O′ConnorSA, SilvainJ, et al.
+Association of clopidogrel pretreatment with mortality, cardiovascular events, and major bleeding among patients undergoing percutaneous coronary intervention: a systematic review and meta-analysis[J].
+JAMA,
+2012，
+308(
+23):
+2507-
+2516.
+DOI: 10.1001/jama.2012.50788.
+[161]
+KoulS, SmithJG, SchersténF, et al.
+Effect of upstream clopidogrel treatment in patients with ST-segment elevation myocardial infarction undergoing primary percutaneous coronary intervention[J].
+Eur Heart J,
+2011，
+32(
+23):
+2989-
+2997.
+DOI: 10.1093/eurheartj/ehr202.
+[162]
+MontalescotG, van′t HofAW, LapostolleF, et al.
+Prehospital ticagrelor in ST-segment elevation myocardial infarction[J].
+N Engl J Med,
+2014，
+371(
+11):
+1016-
+1027.
+DOI: 10.1056/NEJMoa1407024.
+[163]
+EllisSG, TenderaM, de BelderMA, et al.
+Facilitated PCI in patients with ST-elevation myocardial infarction[J].
+N Engl J Med,
+2008，
+358(
+21):
+2205-
+2217.
+DOI: 10.1056/NEJMoa0706816.
+[164]
+HerrmannHC, LuJ, BrodieBR, et al.
+Benefit of facilitated percutaneous coronary intervention in high-risk ST-segment elevation myocardial infarction patients presenting to nonpercutaneous coronary intervention hospitals[J].
+JACC Cardiovasc Interv,
+2009，
+2(
+10):
+917-
+924.
+DOI: 10.1016/j.jcin.2009.06.018.
+[165]
+Van′tHAW, TenBJ, HeestermansT, et al.
+Prehospital initiation of tirofiban in patients with ST-elevation myocardial infarction undergoing primary angioplasty (On-TIME 2): a multicentre, double-blind, randomised controlled trial[J].
+Lancet,
+2008，
+372(
+9638):
+537-
+546.
+DOI: 10.1016/S0140-6736(08)61235-0.
+[166]
+StoneGW, WitzenbichlerB, GuagliumiG, et al.
+Heparin plus a glycoprotein Ⅱb/Ⅲa inhibitor versus bivalirudin monotherapy and paclitaxel-eluting stents versus bare-metal stents in acute myocardial infarction (HORIZONS-AMI): final 3-year results from a multicentre, randomised controlled trial[J].
+Lancet,
+2011，
+377(
+9784):
+2193-
+2204.
+DOI: 10.1016/S0140-6736(11)60764-2.
+[167]
+StoneGW, WitzenbichlerB, GuagliumiG, et al.
+Bivalirudin during primary PCI in acute myocardial infarction[J].
+N Engl J Med,
+2008，
+358(
+21):
+2218-
+2230.
+DOI: 10.1056/NEJMoa0708191.
+[168]
+StegPG, van′t HofA, HammCW, et al.
+Bivalirudin started during emergency transport for primary PCI[J].
+N Engl J Med,
+2013，
+369(
+23):
+2207-
+2217.
+DOI: 10.1056/NEJMoa1311096.
+[169]
+ShahzadA, KempI, MarsC, et al.
+Unfractionated heparin versus bivalirudin in primary percutaneous coronary intervention (HEAT-PPCI): an open-label, single centre, randomised controlled trial[J].
+Lancet,
+2014，
+384(
+9957):
+1849-
+1858.
+DOI: 10.1016/S0140-6736(14)60924-7.
+[170]
+ValgimigliM, FrigoliE, LeonardiS, et al.
+Bivalirudin or unfractionated heparin in acute coronary syndromes[J]．
+N Engl J Med,
+2015,
+373(
+11):
+997-
+1009.
+DOI: 10.1056/NEJMoa1507854.
+[171]
+HanY, GuoJ, ZhengY, et al.
+Bivalirudin vs heparin with or without tirofiban during primary percutaneous coronary intervention in acute myocardial infarction: the BRIGHT randomized clinical trial[J].
+JAMA,
+2015，
+313(
+13):
+1336-
+1346.
+DOI: 10.1001/jama.2015.2323.
+[172]
+BangaloreS, TokluB, KotwalA, et al.
+Anticoagulant therapy during primary percutaneous coronary intervention for acute myocardial infarction: a meta-analysis of randomized trials in the era of stents and P2Y12 inhibitors[J].
+BMJ,
+2014，
+349:
+g6419.
+[173]
+SchulzS, MehilliJ, NeumannFJ, et al.
+ISAR-REACT 3A: a study of reduced dose of unfractionated heparin in biomarker negative patients undergoing percutaneous coronary intervention[J].
+Eur Heart J,
+2010，
+31(
+20):
+2482-
+2491.
+DOI: 10.1093/eurheartj/ehq330.
+[174]
+LincoffAM, KleimanNS, KereiakesDJ, et al.
+Long-term efficacy of bivalirudin and provisional glycoprotein Ⅱb/Ⅲa blockade vs heparin and planned glycoprotein Ⅱb/Ⅲa blockade during percutaneous coronary revascularization: REPLACE-2 randomized trial[J].
+JAMA,
+2004，
+292(
+6):
+696-
+703.
+DOI: 10.1001/jama.292.6.696.
+[175]
+KastratiA, NeumannFJ, MehilliJ, et al.
+Bivalirudin versus unfractionated heparin during percutaneous coronary intervention[J].
+N Engl J Med,
+2008，
+359(
+7):
+688-
+696.
+DOI: 10.1056/NEJMoa0802944.
+[176]
+NdrepepaG, SchulzS, KetaD, et al.
+Bleeding after percutaneous coronary intervention with Bivalirudin or unfractionated Heparin and one-year mortality[J].
+Am J Cardiol,
+2010，
+105(
+2):
+163-
+167.
+DOI: 10.1016/j.amjcard.2009.08.668.
+[177]
+MontalescotG, WhiteHD, GalloR, et al.
+Enoxaparin versus unfractionated heparin in elective percutaneous coronary intervention[J].
+N Engl J Med,
+2006，
+355(
+10):
+1006-
+1017.
+DOI: 10.1056/NEJMoa052711.
+[178]
+HammCW, BassandJP, AgewallS, et al.
+ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation: The Task Force for the management of acute coronary syndromes (ACS) in patients presenting without persistent ST-segment elevation of the European Society of Cardiology (ESC)[J]．
+Eur Heart J,
+2011,
+32(
+23):
+2999-
+3054.
+DOI: 10.1093/eurheartj/ehr236.
+[179]
+KastratiA, NeumannFJ, SchulzS, et al.
+Abciximab and heparin versus bivalirudin for non-ST-elevation myocardial infarction[J].
+N Engl J Med,
+2011，
+365(
+21):
+1980-
+1989.
+DOI: 10.1056/NEJMoa1109596.
+[180]
+StegPG, JollySS, MehtaSR, et al.
+Low-dose vs standard-dose unfractionated heparin for percutaneous coronary intervention in acute coronary syndromes treated with fondaparinux: the FUTURA/OASIS-8 randomized trial[J].
+JAMA,
+2010，
+304(
+12):
+1339-
+1349.
+DOI: 10.1001/jama.2010.1320.
+[181]
+MehtaSR, StegPG, GrangerCB, et al.
+Randomized, blinded trial comparing fondaparinux with unfractionated heparin in patients undergoing contemporary percutaneous coronary intervention: arixtra study in percutaneous coronary intervention: a randomized evaluation (ASPIRE) pilot trial[J].
+Circulation,
+2005，
+111(
+11):
+1390-
+1397.
+DOI: 10.1161/01.CIR.0000158485.70761.67.
+[182]
+BrenerSJ, MoliternoDJ, LincoffAM, et al.
+Relationship between activated clotting time and ischemic or hemorrhagic complications: analysis of 4 recent randomized clinical trials of percutaneous coronary intervention[J].
+Circulation,
+2004，
+110(
+8):
+994-
+998.
+DOI: 10.1161/01.CIR.0000139868.53594.24.
+[183]
+SilvainJ, BeyguiF, BarthélémyO, et al.
+Efficacy and safety of enoxaparin versus unfractionated heparin during percutaneous coronary intervention: systematic review and meta-analysis[J].
+BMJ,
+2012，
+344:
+e553.
+[184]
+JamesS, AngiolilloDJ, CornelJH, et al.
+Ticagrelor vs. clopidogrel in patients with acute coronary syndromes and diabetes: a substudy from the platelet inhibition and patient outcomes (PLATO) trial[J].
+Eur Heart J,
+2010，
+31(
+24):
+3006-
+3016.
+DOI: 10.1093/eurheartj/ehq325.
+[185]
+AndersonL, ThompsonDR, OldridgeN, et al.
+Exercise-based cardiac rehabilitation for coronary heart disease[J].
+Cochrane Database Syst Rev,
+2016，
+1:
+CD001800.
+DOI: 10.1002/14651858.CD001800.pub3.
+[186]
+van DijkMR, UtensEM, DulferK, et al.
+Depression and anxiety symptoms as predictors of mortality in PCI patients at 10 years of follow-up[J].
+Eur J Prev Cardiol,
+2016，
+23(
+5):
+552-
+558.
+DOI: 10.1177/2047487315571889.
+[187]
+中华医学会心血管病学分会，中国康复医学会心血管病专业委员会，中国老年学学会心脑血管病专业委员会.
+冠心病康复与二级预防中国专家共识[J]．
+中华心血管病杂志，
+2013，
+41(
+4):
+267-
+275.
+DOI: 10.3760/cma.j.issn.0253-3758.2013.04.003.
+[188]
+JangY, ZhuJ, GeJ, et al.
+Preloading with atorvastatin before percutaneous coronary intervention in statin-naïve Asian patients with non-ST elevation acute coronary syndromes: A randomized study[J].
+J Cardiol,
+2014，
+63(
+5):
+335-
+343.
+DOI: 10.1016/j.jjcc.2013.09.012.
+[189]
+ZhengB, JiangJ, LiuH, et al.
+Efficacy and safety of serial atorvastatin load in Chinese patients undergoing elective percutaneous coronary intervention: results of the ISCAP (intensive statin therapy for Chinese patients with coronary artery disease undergoing percutaneous coronary intervention) randomized controlled trial[J].
+Euro Heart J,
+2015,
+17
+Suppl B:
+B47-
+B56.
+DOI: 10.1093/eurheartj/suv021.
+[190]
+CannonCP, BraunwaldE, McCabeCH, et al.
+Intensive versus moderate lipid lowering with statins after acute coronary syndromes[J].
+N Engl J Med,
+2004，
+350(
+15):
+1495-
+1504.
+DOI: 10.1056/NEJMoa040583.
+[191]
+ReinerZ, CatapanoAL, De BackerG, et al.
+ESC/EAS Guidelines for the management of dyslipidaemias: the Task Force for the management of dyslipidaemias of the European Society of Cardiology (ESC) and the European Atherosclerosis Society (EAS)[J]．
+Eur Heart J,
+2011,
+32(
+14):
+1769-
+1818.
+DOI: 10.1093/eurheartj/ehr158.
+[192]
+LawMR, MorrisJK, WaldNJ.
+Use of blood pressure lowering drugs in the prevention of cardiovascular disease: meta-analysis of 147 randomised trials in the context of expectations from prospective epidemiological studies[J].
+BMJ,
+2009，
+338:
+b1665.
+[193]
+PfefferMA, BraunwaldE, MoyéLA, et al.
+Effect of captopril on mortality and morbidity in patients with left ventricular dysfunction after myocardial infarction. Results of the survival and ventricular enlargement trial. The SAVE Investigators[J].
+N Engl J Med,
+1992，
+327(
+10):
+669-
+677.
+DOI: 10.1056/NEJM199209033271001.
+[194]
+GrangerCB, McMurrayJJ, YusufS, et al.
+Effects of candesartan in patients with chronic heart failure and reduced left-ventricular systolic function intolerant to angiotensin-converting-enzyme inhibitors: the CHARM-Alternative trial[J].
+Lancet,
+2003，
+362(
+9386):
+772-
+776.
+DOI: 10.1016/S0140-6736(03)14284-5.
+[195]
+FlatherMD, ShibataMC, CoatsAJ, et al.
+Randomized trial to determine the effect of nebivolol on mortality and cardiovascular hospital admission in elderly patients with heart failure (SENIORS)[J].
+Eur Heart J,
+2005，
+26(
+3):
+215-
+225.
+DOI: 10.1093/eurheartj/ehi115.
+[196]
+ZannadF, McMurrayJJ, KrumH, et al.
+Eplerenone in patients with systolic heart failure and mild symptoms[J].
+N Engl J Med,
+2011，
+364(
+1):
+11-
+21.
+DOI: 10.1056/NEJMoa1009492.
+[197]
+SwedbergK, KomajdaM, BöhmM, et al.
+Ivabradine and outcomes in chronic heart failure (SHIFT): a randomised placebo-controlled study[J].
+Lancet,
+2010，
+376(
+9744):
+875-
+885.
+DOI: 10.1016/S0140-6736(10)61198-1.
+[198]
+de PeuterOR, LussanaF, PetersRJ, et al.
+A systematic review of selective and non-selective beta blockers for prevention of vascular events in patients with acute coronary syndrome or heart failure[J].
+Neth J Med,
+2009，
+67(
+9):
+284-
+294.
+贡献者信息
+中华医学会心血管病学分会介入心脏病学组
+中国医师协会心血管内科医师分会血栓防治专业委员会
+中华心血管病杂志编辑委员会
+利益冲突
+利益冲突 无
+历史
+出版日期：2016-05-24
+收稿日期：2016-03-10
+本文编辑
+干岭
+Guideline and Recommendation
+Chinese guideline for percutaneous coronary intervention(2016)
+Section of Interventional Cardiology of Chinese Society of Cardiology of Chinese Medical Association,  Specialty Committee on Prevention and Treatment of Thrombosis of Chinese College of Cardiovascular Physicians,  Editorial Board of Chinese Journal of Cardiology
+Published
+2016-05-24
+Cite as
+Chin J Cardiol, 2016,44(5): 382-400. DOI: 10.3760/cma.j.issn.0253-3758.2016.05.006
+Contributor Information
+Section of Interventional Cardiology of Chinese Society of Cardiology of Chinese Medical Association
+Specialty Committee on Prevention and Treatment of Thrombosis of Chinese College of Cardiovascular Physicians
+Editorial Board of Chinese Journal of Cardiology
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+推荐用于PCI或CABG患者的常用危险评分系统
+评分标准
+评估危险的变量数
+验证结果
+CABG
+PCI
+临床因素(项)
+CAG因素(项)
+推荐类别
+证据水平
+推荐类别
+证据水平
+短期(院内或30 d内)
+EuroSCOREⅡ
+18
+0
+院内病死率
+Ⅱa
+B
+Ⅱb
+C
+EuroSCORE
+17
+0
+手术病死率
+Ⅲ
+B
+Ⅲ
+C
+中、远期
+SYNTAX
+0
+11
+≥1年MACCE风险
+Ⅰ
+B
+Ⅰ
+B
+SYNTAXⅡ
+6
+12
+4年病死率
+Ⅱa
+B
+Ⅱa
+B
+注：PCI：经皮冠状动脉介入治疗，CABG：冠状动脉旁路移植术，CAG：冠状动脉造影，MACCE：主要不良心脑血管事件。EuroSCOREⅡ评分临床因素包括年龄、性别、肾功能损伤、外周动脉疾病、严重活动障碍、既往心脏手术史、慢性肺脏疾病、活动性心内膜炎、术前状态差、正在应用胰岛素治疗的糖尿病、纽约心脏协会(NYHA)心功能分级、加拿大心血管病学学会心绞痛分型、左心室功能、近期心肌梗死、肺动脉高压、紧急外科手术、是否为单纯CABG和胸主动脉手术。EuroSCORE评分临床因素包括年龄、性别、慢性肺脏疾病、外周动脉系统疾病、神经系统功能障碍、既往心脏手术史、肾功能不全、活动性心内膜炎、术前危急状态、不稳定性心绞痛、左心室功能不全、90 d内心肌梗死史、肺动脉高压、急诊外科手术、是否单纯CABG、胸主动脉手术和心肌梗死后室间隔穿孔。SYNTAX评分中的CAG因素包括冠状动脉分布类型、狭窄部位、是否完全闭塞、三分叉病变、双分叉病变、主动脉相关开口病变、严重扭曲、病变长度>20 mm、严重钙化、血栓、弥漫病变/小血管病变。SYNTAXⅡ评分CAG因素除SYNTAX评分的11项因素外，还包括无保护左主干病变；其临床因素包括年龄、性别、肌酐清除率、左心室射血分数、外周血管疾病和慢性阻塞性肺疾病
+表2
+稳定性冠心病患者血运重建推荐
+冠心病程度(解剖/功能)
+推荐类别
+证据水平
+证据来源
+针对预后
+左主干直径狭窄>50%a
+Ⅰ
+A
+文献[15]
+前降支近段直径狭窄>70%a
+Ⅰ
+A
+文献[16, 17]
+二支或三支冠状动脉直径狭窄>70%a，且左心室功能受损(LVEF<40%)a
+Ⅰ
+A
+文献[16，18, 19, 20, 21]
+大面积缺血(缺血面积>左心室10%)
+Ⅰ
+B
+文献[22, 23, 24]
+单支通畅冠状动脉直径狭窄>50%a
+Ⅰ
+C
+针对症状
+任一冠状动脉直径狭窄>70%a，表现为活动诱发的心绞痛或等同症状，并对药物治疗反应欠佳
+Ⅰ
+A
+文献[22, 25, 26, 27, 28]
+注：a且该冠状动脉直径狭窄<90%并有缺血证据，或血流储备分数≤0.8；LVEF：左心室射血分数
+表3
+稳定性冠心病患者血运重建方法推荐[7]
+冠心病程度(解剖/功能)
+PCI
+CABG
+证据来源
+推荐类别
+证据水平
+推荐类别
+证据水平
+无前降支近段病变的单支或双支病变
+Ⅰ
+C
+Ⅱb
+C
+存在前降支近段病变的单支病变
+Ⅰ
+A
+Ⅰ
+A
+文献[29, 30]
+存在前降支近段病变的双支病变
+Ⅰ
+C
+Ⅰ
+B
+文献[21]
+左主干病变
+SYNTAX评分≤22分
+Ⅰ
+B
+Ⅰ
+B
+文献[15，31]
+SYNTAX评分22～32分
+Ⅱa
+B
+Ⅰ
+B
+文献[31]
+SYNTAX评分>32分
+Ⅲ
+B
+Ⅰ
+B
+文献[31]
+三支病变
+SYNTAX评分≤22分
+Ⅰ
+B
+Ⅰ
+A
+文献[31, 32, 33]
+SYNTAX评分>22分
+Ⅲ
+B
+Ⅰ
+A
+文献[31, 32, 33]
+表4
+NSTE-ACS患者冠状动脉造影和血运重建推荐
+推荐
+推荐类别
+证据水平
+证据来源
+极高危患者，包括：(1)血液动力学不稳定或心原性休克；(2)顽固性心绞痛；(3)危及生命的心律失常或心脏停搏；(4)心肌梗死机械性并发症；(5)急性心力衰竭伴难治性心绞痛和ST段改变；(6)再发心电图ST-T动态演变，尤其是伴有间歇性ST段抬高。推荐进行紧急冠状动脉造影(<2 h)
+Ⅰ
+C
+高危患者，包括：(1)肌钙蛋白升高；(2)心电图ST段或T波动态演变(有或无症状)；(3)GRACE评分>140分。推荐早期行冠状动脉造影，根据病变情况决定是否行侵入策略(<24 h)
+Ⅰ
+A
+文献[36, 37]
+中危患者，包括：(1)糖尿病；(2)肾功能不全，eGFR<60 ml·min-1·1.73 m-2；(3)左心室功能下降(LVEF<40%)或慢性心力衰竭；(4)心肌梗死后早发心绞痛；(5)近期行PCI治疗；(6)既往行CABG治疗；(7)109分<GRACE评分<140分；(8)无创性负荷试验时再发心绞痛症状或出现缺血性心电图改变。推荐侵入策略(<72 h)
+Ⅰ
+A
+文献[38, 39]
+低危缺血患者，先行非侵入性检查(首选心脏超声等影像检查)，寻找缺血证据，再决定是否采用侵入策略
+Ⅰ
+A
+文献[40]
+根据患者临床情况、合并症、冠状动脉病变严重程度(如SYNTAX评分)，由心脏团队或心脏内、外科联合会诊制定血运重建策略
+Ⅰ
+C
+注：NSTE-ACS：非ST段抬高型急性冠状动脉综合征，eGFR：估算的肾小球滤过率
+表5
+STEMI患者PCI治疗推荐
+推荐
+推荐类别
+证据水平
+证据来源
+直接PCI
+发病12 h内(包括正后壁心肌梗死)或伴有新出现左束支传导阻滞的患者
+Ⅰ
+A
+文献[7, 57]
+伴严重急性心力衰竭或心原性休克(不受发病时间限制)
+Ⅰ
+B
+文献[7]
+发病>12 h仍有缺血性胸痛或致命性心律失常
+Ⅰ
+C
+文献[6]
+对就诊延迟(发病后12～48 h)并具有临床和(或)心电图缺血证据的患者行直接PCI
+Ⅱa
+B
+文献[7]
+溶栓后PCI
+建议所有患者溶栓后24 h内送至PCI中心
+Ⅰ
+A
+文献[46, 58, 59]
+建议溶栓成功24 h内行冠状动脉造影并根据需要对IRA行血运重建
+Ⅰ
+A
+文献[46, 59, 60]
+溶栓后出现心原性休克或急性严重心力衰竭时建议行急诊冠状动脉造影并对相关血管行血运重建
+Ⅰ
+B
+文献[61]
+建议对溶栓失败患者(溶栓后60 min ST段下降<50%或仍有胸痛)行急诊补救性PCI
+Ⅰ
+A
+文献[60, 62]
+溶栓成功后出现再发缺血、血液动力学不稳定、危及生命的室性心律失常或有再次闭塞证据时建议急诊PCI
+Ⅰ
+A
+文献[62]
+溶栓成功后血液动力学稳定的患者3～24 h行冠状动脉造影
+Ⅱa
+A
+文献[43]
+非IRA的PCI
+STEMI多支病变患者在血液动力学稳定情况下
+择期完成非IRA的PCI
+Ⅱa
+B
+文献[50, 51, 52]
+可考虑非IRA的PCI，与直接PCI同期完成
+Ⅱb
+B
+文献[49, 50]
+注：STEMI：ST段抬高型心肌梗死，IRA：梗死相关动脉
+表6
+预防CIAKI的措施推荐
+干预
+推荐类别
+证据水平
+证据来源
+对所有准备应用对比剂的患者
+预先评估CIAKI的风险
+Ⅱa
+C
+合并中重度CKD的患者
+推荐等渗盐水水化
+Ⅰ
+A
+文献[121, 122]
+推荐应用等渗或低渗对比剂(<350 ml或<4 ml/kg或对比剂总量/eGFR<3.4)
+Ⅰ
+A
+文献[123, 124]
+推荐他汀治疗
+Ⅱa
+A
+文献[119, 120]
+优先考虑使用等渗对比剂
+Ⅱa
+A
+文献[123, 125]
+尽量减少对比剂用量
+Ⅱa
+B
+文献[126]
+对CIAKI的高危患者或在术前无法完成预防性标准水化情况下，可考虑速尿合用水化
+Ⅱb
+A
+文献[127, 128]
+合并严重CKD的患者
+可考虑复杂PCI前6 h行预防性血液滤过
+Ⅱb
+B
+文献[129, 130]
+注：CIAKI：对比剂导致的急性肾损伤，CKD：慢性肾脏疾病，eGFR：估算的肾小球滤过率
+表7
+PCI围术期抗血小板治疗推荐
+推荐
+推荐类别
+证据水平
+证据来源
+SCAD
+抗血小板治疗预处理
+已知冠状动脉病变且决定行择期PCI的患者，术前6 h以上PCI，给予氯吡格雷300～600 mg；术前2～6 h，给予氯吡格雷600 mg
+Ⅰ
+A
+文献[140, 141]
+长期服用75 mg/d氯吡格雷的患者，一旦确定行PCI，可考虑重新给予300～600 mg氯吡格雷的负荷剂量
+Ⅱb
+C
+择期支架置入前服用阿司匹林负荷剂量100～300 mg，其后100 mg/d维持
+Ⅰ
+B
+文献[142]
+PCI术中抗血小板治疗
+如术前未行氯吡格雷、阿司匹林预处理，推荐口服负荷剂量氯吡格雷300～600 mg、阿司匹林100～300 mg
+Ⅰ
+C
+紧急情况下考虑使用GPI
+Ⅱa
+C
+支架置入后抗血小板治疗
+BMS置入后至少接受4周DAPT
+Ⅰ
+A
+文献[143, 144]
+因计划接受择期非心脏外科手术置入BMS或PTCA的患者，术后DAPT 4～6周
+Ⅱa
+B
+文献[89]
+因出血风险高、不能耐受12个月DAPT，或12个月内可能中断DAPT而置入BMS或PTCA的患者，术后DAPT 4～6周
+Ⅰ
+B
+文献[90]
+DES置入后接受6个月DAPT
+Ⅰ
+B
+文献[73, 144, 145, 146]
+高出血风险患者，DES置入后可考虑缩短DAPT(<6个月)
+Ⅱb
+A
+文献[147, 148]
+高出血风险、需接受不能推迟的非心脏外科手术或同时接受口服抗凝剂治疗者，DES置入后可给予1～3个月DAPT
+Ⅱb
+C
+文献[5]
+缺血高危、出血低危的患者，DAPT可维持6个月以上
+Ⅱb
+C
+停氯吡格雷后，推荐阿司匹林行终生抗血小板治疗
+Ⅰ
+A
+文献[142, 149]
+对患者进行抗血小板治疗重要性的教育，以提高依从性
+Ⅰ
+C
+NSTE-ACS
+所有无阿司匹林禁忌证患者初始口服负荷剂量100～300 mg，并长期100 mg/d维持
+Ⅰ
+A
+文献[149, 150]
+在阿司匹林基础上加1种P2Y12受体拮抗剂，并维持至少12个月，除非存在禁忌证(如出血风险较高)。选择包括
+Ⅰ
+A
+文献[151, 152]
+替格瑞洛：负荷剂量180 mg，维持剂量90 mg、2次/d。所有无禁忌证、缺血中-高危风险(如肌钙蛋白升高、包括已服用氯吡格雷)的患者，建议首选替格瑞洛
+Ⅰ
+B
+文献[152]
+氯吡格雷：负荷剂量600 mg，维持剂量75 mg、1次/d。用于无禁忌证或需要长期口服抗凝药治疗的患者
+Ⅰ
+B
+文献[151]
+需早期行PCI时，首选替格瑞洛，次选氯吡格雷
+Ⅱa
+B
+文献[152, 153]
+对缺血风险高、出血风险低的患者，可考虑在阿司匹林基础上加用P2Y12受体拮抗剂治疗>1年
+Ⅱb
+A
+文献[154, 155]
+紧急情况或发生血栓并发症时考虑使用GPI
+Ⅱa
+C
+未知冠状动脉病变的患者，不推荐行GPI预处理
+Ⅲ
+A
+文献[156, 157]
+STEMI
+所有无阿司匹林禁忌证的患者初始口服负荷剂量100～300 mg，并长期100 mg/d维持
+Ⅰ
+A
+文献[142, 149]
+在阿司匹林基础上增加1种P2Y12受体拮抗剂，并维持至少12个月，除非存在禁忌证(如出血风险较高)。选择包括
+Ⅰ
+A
+替格瑞洛：无禁忌证患者给予负荷剂量180 mg，维持剂量90 mg、2次/d
+Ⅰ
+B
+文献[158]
+氯吡格雷：负荷剂量600 mg，维持剂量75 mg、1次/d，用于无替格瑞洛或存在替格瑞洛禁忌者
+Ⅰ
+B
+文献[159]
+首次就诊时给予P2Y12受体拮抗剂
+Ⅰ
+B
+文献[160, 161, 162]
+紧急情况、存在无复流证据或发生血栓并发症时使用GPI
+Ⅱa
+C
+转运行直接PCI的高危患者可于PCI之前使用GPI
+Ⅱb
+B
+文献[163, 164, 165]
+注：SCAD：稳定性冠心病，GPI：血小板膜糖蛋白Ⅱb/Ⅲa受体拮抗剂，BMS：裸金属支架，DAPT：双联抗血板治疗，PTCA：经皮冠状动脉腔内血管成形术
+表8
+PCI围术期抗凝治疗推荐
+推荐
+推荐类别
+证据水平
+证据来源
+SCAD
+术中应用普通肝素70～100 U/kg
+Ⅰ
+B
+文献[173]
+如有肝素诱导的血小板减少症，使用比伐芦定(一次性静脉注射0.75 mg/kg，随后1.75 mg·kg-1·h-1维持至术后4 h)
+Ⅰ
+C
+高出血风险患者，使用比伐芦定(一次性静脉注射0.75 mg/kg，随后1.75 mg·kg-1·h-1维持至术后3～4 h)
+Ⅱa
+A
+文献[174, 175, 176]
+依诺肝素0.5 mg/kg静脉注射
+Ⅱa
+B
+文献[177]
+NSTE-ACS
+所有患者PCI术中在抗血小板治疗基础上加用抗凝药物
+Ⅰ
+A
+文献[178]
+综合考虑缺血和出血风险及有效性和安全性，选择性地使用抗凝药物
+Ⅰ
+C
+PCI术中使用比伐芦定(一次性静脉注射0.75 mg/kg，随后1.75 mg·kg-1·h-1维持至术后3～4 h)作为普通肝素合用GPI的替代治疗
+Ⅰ
+A
+文献[157, 168, 170, 171, 179]
+PCI开始时，对未用其他抗凝剂患者，一次性静脉注射普通肝素70～100 U/kg。合用GPI时，一次性静脉注射普通肝素50～70 U/kg
+Ⅰ
+B
+文献[180, 181]
+PCI开始时应用肝素抗凝的患者，可考虑在ACT监测下追加肝素(ACT≥225 s)
+Ⅱb
+B
+文献[182]
+PCI术前使用磺达肝癸钠(2.5 mg/d)的患者，在PCI术中一次性静脉注射普通肝素85 U/kg，或普通肝素60 U/kg合用GPI
+Ⅰ
+B
+文献[180]
+对皮下依诺肝素预处理患者，PCI术中应考虑使用依诺肝素
+Ⅱa
+B
+文献[183]
+除非存在其他抗凝指征，PCI后停止抗凝治疗
+Ⅱa
+C
+STEMI
+所有患者PCI术中在抗血小板治疗基础上加用抗凝药物
+Ⅰ
+A
+综合考虑缺血和出血风险及有效性和安全性，选择性地使用抗凝药物
+Ⅰ
+C
+常规静脉注射普通肝素70～100 U/kg；如合用GPI，一次性静脉注射普通肝素50～70 U/kg
+Ⅰ
+C
+PCI术中使用比伐芦定(一次性静脉注射0.75 mg/kg，随后1.75 mg·kg-1·h-1维持至术后3～4 h)
+Ⅰ
+A
+文献[166, 167, 168, 171]
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华心血管病杂志2016年44卷5期
+文    题：中国经皮冠状动脉介入治疗指南(2016)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华心血管病杂志2016年44卷5期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解

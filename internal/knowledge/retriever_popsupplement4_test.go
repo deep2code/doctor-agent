@@ -147,7 +147,8 @@ func TestRetrieverPopSupplement4Recall(t *testing.T) {
 		"糖尿病能运动吗":         "hm-dm-target",
 		"血糖高还能锻炼吗":        "hm-dm-target",
 		"糖尿病多久随访一次":       "hm-dm-followup",
-		"二甲双胍做增强CT要停吗":    "hm-dm-followup",
+		// 造影前暂停用二甲双胍的口径写在老年降糖药条目里，随访节奏条目只说「减停由医生决定」
+		"二甲双胍做增强CT要停吗":    "ef-poly-glucose",
 		"BMI多少算胖":         "hm-bmi-waist",
 		"腰围多少算超标":         "hm-bmi-waist",
 		"怎么量腰围":           "hm-measure-how",

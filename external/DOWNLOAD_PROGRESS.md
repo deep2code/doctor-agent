@@ -69,13 +69,15 @@ external/
 
 | 四方向权威知识扩充（2026-09-04） | ✅ 完成并接入 | **62 条 KnowledgeEntry 并入 medical + 5 篇诊疗方案并入 nhc（44 条）**：① `elderly_care.json` 34 条（老年失能预防核心信息 689号 16 条拆分 + 阿尔茨海默预防干预核心信息 738号 + 老年人膳食指南 2022 核心（一般 65-79/高龄 80+）+ 防治骨质疏松知识要点 542号）② `gyn_health.json` 23 条（宫颈癌/乳腺癌筛查工作方案 635号 nwccw PDF 附件 + 更年期核心信息 15 条——原文是山西疾控 2 张图片，vision MCP 切片转录）③ `ortho_child_health.json` 5 条（0~6 岁儿童孤独症筛查干预服务规范 12号 + 附件1 预警征象筛查表全表入 clinical_features）④ nhc_guides +5 篇：麻疹/登革热/禽流感 2024（gov.cn 政策库 PDF 附件，免 Playwright）+ 手足口 2018（gov.cn .doc textutil）+ 狂犬病暴露预防处置 2023（ndcpa JS 渲染，web_reader 转录手工缓存）。Go 改动仅 `seed.go` 3 个 case → DSMedical。管线：`fetch_elderly/gyn/child_health/id_guidelines.py` + `structurize_elderly/gyn/child.py`（glm-4-flash）+ `postprocess_health_json.py`（顿号 keywords 拆分 + treatment name/details→method/notes 字段映射 + EXTRA 表手工 patch 口语词与权威参数）| 坑：glm-4-flash `response_format:json_object` 对部分文档服务端挂起 190s 后 500（disability 文档），去掉 json_object 用纯文本+parse 即成；宫颈癌方案 PDF 文字流无"每 X 年筛查"表述（在流程图），多方来源冲突（题库/指南/共识各说各话）故不写入具体间隔数字，只保留已验证的 35-64 周岁与筛查方法；老年膳食 cnsoc 正文容器是 `right-con news-show`；bjchy.gov.cn gb2312 且正文在 .doc 附件；更年期/政府站 JS 渲染页用 web_reader 或 vision 切片转录。evals 加 11 题（elderly×4/gyn×3/id×3/child×1）共 57 题 |
 
+| WHO 中文健康资讯（2026-09-27） | ✅ 完成并接入 | **336 条** WHO官网中文版健康内容（`who_zh_health.json`，1.0MB），`knowledge_search dataset=medical` 自动检索。分类：健康资讯166条 + 健康问答147条 + 健康专题23条。覆盖流产安全、避孕方法、艾滋病预防、癌症预防、儿童生长、心理健康等全球健康议题。管线：`external/convert_who_zh_health.py`（解析raw文本→KnowledgeEntry，零LLM调用）。回归门：`retriever_who_zh_test.go`（336条计数验证 + 6个口语查询top5命中测试，需MariaDB :3307）。 | 坑：raw文本头部三行是元数据（# URL/# 标题/# 发布方/日期），正文从第5行开始；部分news条目正文含换行符和Markdown链接，直接保留原文不做清洗；journal字段留空（WHO官方出版物无DOI/PMID设计），citation level用official_guideline显示🏛图标。seed.go注册在DSMedical分支（与who_factsheets/who_vaccines同级）。 |
+
 ## 接下来（按序）
 
 1. **MedlinePlus 内容利用**：1017 页无官方中文，暂缓或极精选（如需做，走 WHO 同款 LLM 结构化管线）。
 2. **HPO 利用**：决定是否做中文术语映射或仅作参考。
 3. **在线评测基线**：`go run ./evals -online`（中文）+ `go run ./evals -online -questions evals/questions_en.json`（英文）需要 ANTHROPIC_API_KEY，跑出真实准确率。
 4. 改提示词/知识库前先跑 `go run ./evals`（中文 36 题）+ 英文评测集。
-5. WHO 全量扩展（可选）：已全量入库 232/234 页（`fetch_who_factsheets_zh.py` 234 页中文，`who_factsheets.json` 232 条；2 页未结构化）；如需补充可查缺后重跑 `structurize_who.py`（幂等）。
+5. ~~WHO 全量扩展（可选）~~：**已完成** — 2026-09-27补充WHO中文健康资讯336条（见上表）；原who_factsheets 232条仍保留（事实表专题，与此批news/qa/topic互补）。
 6. 疫苗立场文件扩展（可选）：`fetch_position_papers.py` 的 VACCINES 表加条目（如乙肝 2025 新版/水痘/流感中文版已含）后重跑。
 7. NHC 指南扩展（可选）：`fetch_nhc_all.py` 已抓 39 篇；`convert_nhc.py` 幂等可重跑，新抓指南放入 `external/nhc/guides/` 或 `guides_ocr/` 后重跑即可自动并入。
 

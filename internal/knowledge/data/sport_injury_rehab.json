@@ -1,0 +1,2057 @@
+[
+ {
+  "id": "si-ldh-conservative",
+  "condition_zh": "腰椎间盘突出症保守治疗",
+  "condition_en": "Conservative treatment success rate for lumbar disc herniation",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "腰突能保守治疗吗",
+   "腰椎间盘突出一定要手术吗",
+   "腰突不做手术会好吗",
+   "突出的椎间盘会萎缩吗",
+   "腰突保守治疗成功率",
+   "腰突治好后容易复发吗",
+   "腰椎间盘突出非手术治疗",
+   "腰突要不要开刀",
+   "腰椎间盘突出"
+  ],
+  "prevention": [
+   "中华医学会2020版指南：大部分腰椎间盘突出症患者经保守治疗症状能得到改善，且突出椎间盘随时间推移通常会出现不同程度萎缩；非手术治疗的成功率约为80%~90%，但临床症状复发率达25%。",
+   "换算成就诊决策：十个人里约八到九个人不必走到手术这一步，需要手术评估的是剩下的少数；同时「缓解了」不等于「不会再犯」，预防复发的姿势与训练是疗程的一部分。",
+   "决定能不能继续保守的关键是神经功能有没有在进展（肌力下降、麻木范围扩大、大小便改变），而不是疼痛主观上有多难受。疼痛剧烈但肌力稳定，通常仍先按保守治疗走完观察窗。"
+  ],
+  "when_to_seek_care": [
+   "系统保守治疗期间疼痛逐渐加重、麻木范围扩大或出现肢体无力，提前复诊重新评估，不必等到满6~12周。",
+   "既往有腰突病史、这次发作出现与以往不同的表现（例如原来只是腰痛，现在出现腿麻无力），按新发神经损害处理，尽早就诊。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《腰椎间盘突出症诊疗指南》（中华医学会骨科学分会脊柱外科学组、骨科康复学组，中华骨科杂志2020,40(8):477-487）",
+    "journal": "",
+    "year": 2020,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/腰间盘突出康复指南/腰椎间盘突出症诊疗指南.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-ldh-conservative-course",
+  "condition_zh": "腰突保守治疗观察窗",
+  "condition_en": "How long to continue conservative treatment for lumbar disc herniation",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "腰突保守治疗多久见效",
+   "腰突要保守治疗几周",
+   "保守治疗6到12周",
+   "腰突多久能判断治疗无效",
+   "腰突什么时候考虑手术",
+   "腰椎间盘突出治疗周期",
+   "系统保守治疗指什么",
+   "腰突观察窗多长",
+   "腰突保守治疗几周",
+   "腰突时候考虑手术",
+   "腰突什么时候考虑"
+  ],
+  "prevention": [
+   "文献报道多数腰突症患者经保守治疗6~12周症状得到改善；对无显著神经损害的病例，一般推荐保守治疗的时间为6~12周（2020版指南，1级推荐）。",
+   "这个窗口既是给椎间盘吸收和自己恢复留出时间，也是判断手术是否必要的依据：不足6周就要求手术，或超过12周仍然拖延不评估，两个方向都不合适。",
+   "窗口内要做的是完整、系统的保守治疗（药物、康复训练、姿势与负重管理、必要的物理治疗），而不是断断续续贴膏药、忍着不复查。"
+  ],
+  "when_to_seek_care": [
+   "病史超过6~12周经系统保守治疗无效，或治疗过程中症状加重、反复发作，到脊柱外科讨论手术评估。",
+   "中国康复医学会2022版指南把手术观察窗的下限写为「病史超过6周」，比2020版的6~12周更短——以主诊医生所采用的版本为准，不必自己按周数硬卡。【冲突】"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《腰椎间盘突出症诊疗指南》（中华医学会骨科学分会脊柱外科学组、骨科康复学组，中华骨科杂志2020,40(8):477-487）",
+    "journal": "",
+    "year": 2020,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/腰间盘突出康复指南/腰椎间盘突出症诊疗指南.pdf",
+    "level": "official_guideline"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《腰椎间盘突出症诊治与康复管理指南》（中国康复医学会脊柱脊髓专业委员会基础研究与转化学组，中华外科杂志2022,60(5)）",
+    "journal": "",
+    "year": 2022,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/腰间盘突出康复指南/腰椎间盘突出症诊治与康复管理指南.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-ldh-bedrest",
+  "condition_zh": "腰突急性期要不要卧床",
+  "condition_en": "Bed rest versus activity in acute lumbar disc herniation",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "腰突要卧床多久",
+   "腰椎间盘突出需要一直躺着吗",
+   "腰痛卧床休息几天",
+   "腰突躺着不动好吗",
+   "腰痛要不要绝对卧床",
+   "腰突多久开始下床活动",
+   "急性期腰突怎么休息",
+   "卧床太久肌肉萎缩",
+   "腰椎间盘突出一直躺",
+   "腰椎间盘突出需要一直",
+   "卧床休息几天",
+   "腰痛卧床休息"
+  ],
+  "prevention": [
+   "三份文件口径不一致，如实并列：中华医学会2020版指南指出，与正常日常活动相比，卧床休息并不能降低腰突症患者的疼痛程度及促进功能恢复；对疼痛严重需卧床休息的患者应尽量缩短卧床时间，症状缓解后鼓励尽早恢复适度正常活动。",
+   "中国康复医学会2022版指南（推荐意见4）仍写道：腰椎间盘突出症患者在急性期时应卧床休息（推荐强度1级，证据等级中）。",
+   "《腰痛病居家康复上海地区专家共识》给出量化口径：一般的腰痛可休息1~3天，最多不超过2~4周。",
+   "可操作的折中读法：疼痛剧烈时短时间卧床（以天计，不按周计），能耐受就恢复走动；把「卧床」理解成去掉弯腰与负重，而不是整天一动不动。"
+  ],
+  "when_to_seek_care": [
+   "按天计短期休息后疼痛毫无减轻，或卧床超过2~4周仍不能恢复日常活动，需要复诊而不是继续躺着。",
+   "卧床期间出现下肢无力、麻木范围扩大、大小便异常，立即就医（见「腰突手术红旗信号」）。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《腰椎间盘突出症诊疗指南》（中华医学会骨科学分会脊柱外科学组、骨科康复学组，中华骨科杂志2020,40(8):477-487）",
+    "journal": "",
+    "year": 2020,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/腰间盘突出康复指南/腰椎间盘突出症诊疗指南.pdf",
+    "level": "official_guideline"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《腰椎间盘突出症诊治与康复管理指南》（中国康复医学会脊柱脊髓专业委员会基础研究与转化学组，中华外科杂志2022,60(5)）",
+    "journal": "",
+    "year": 2022,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/腰间盘突出康复指南/腰椎间盘突出症诊治与康复管理指南.pdf",
+    "level": "official_guideline"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《腰痛病居家康复上海地区专家共识》（国家中医药管理局中医康复服务能力规范化建设项目专家委员会等，上海中医药大学学报2019,33(3)）",
+    "journal": "",
+    "year": 2019,
+    "url": "http://medi-guide.meditool.cn/ymtpdf/257B1B28-0704-7815-35C3-2C87683B58FE.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-ldh-posture",
+  "condition_zh": "腰突日常姿势与负重",
+  "condition_en": "Posture and load management after lumbar disc herniation",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "腰突能搬东西吗",
+   "腰椎间盘突出忌讳什么动作",
+   "弯腰搬重物伤腰吗",
+   "腰突要避免哪些动作",
+   "恢复日常活动注意什么姿势",
+   "反复弯腰旋转伤腰",
+   "腰突转身应该怎么转",
+   "脊柱负荷增加的活动",
+   "腰椎间盘突出忌讳动作",
+   "腰椎间盘突出忌讳什么"
+  ],
+  "prevention": [
+   "2020版指南：腰突症患者恢复日常活动时需注意日常活动姿势，避免扭转、屈曲及过量负重。2022版指南：在可耐受范围内维持日常活动，但使脊柱负荷增加的活动、反复弯腰和旋转动作应尽量避免（1级推荐）。",
+   "落地动作：搬地上重物时先靠近物体再蹲下（见「蹲位搬重物姿势」）；需要转身时用脚步把整个身体转过去，不要站着扭腰；抱孩子、拎水桶尽量分成两趟。",
+   "「避免」不等于「完全不动」——指南同时强调在可耐受范围内维持日常活动，长期不动会带来腰背肌萎缩，恢复反而更慢。"
+  ],
+  "when_to_seek_care": [
+   "工作确实无法回避弯腰负重、症状反复发作，可到康复科做工作姿势与护具使用评估，而不是自行长期戴腰围硬扛。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《腰椎间盘突出症诊疗指南》（中华医学会骨科学分会脊柱外科学组、骨科康复学组，中华骨科杂志2020,40(8):477-487）",
+    "journal": "",
+    "year": 2020,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/腰间盘突出康复指南/腰椎间盘突出症诊疗指南.pdf",
+    "level": "official_guideline"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《腰椎间盘突出症诊治与康复管理指南》（中国康复医学会脊柱脊髓专业委员会基础研究与转化学组，中华外科杂志2022,60(5)）",
+    "journal": "",
+    "year": 2022,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/腰间盘突出康复指南/腰椎间盘突出症诊治与康复管理指南.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-ldh-surgery-redflags",
+  "condition_zh": "腰突手术红旗信号",
+  "condition_en": "Red flags mandating surgery evaluation in lumbar disc herniation",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "腰突什么情况必须手术",
+   "腰椎间盘突出手术指征",
+   "腰突必须开刀的信号",
+   "马尾神经受压什么症状",
+   "腰痛伴大小便失禁",
+   "脚背不起来是什么病",
+   "腰突肌肉瘫痪",
+   "中央型腰椎间盘突出危险"
+  ],
+  "prevention": [
+   "2020版指南列出的手术适应证有三条：①病史超过6~12周、经系统保守治疗无效，或保守治疗过程中症状加重或反复发作；②疼痛剧烈或处于强迫体位，影响工作与生活；③出现单根神经麻痹或马尾神经麻痹，表现为肌肉瘫痪或出现直肠、膀胱症状。",
+   "第③条与前两条性质不同：前两条是「效果不够好」，属于可以商量时间的问题；第三条是「神经正在受损」，属于不能等的问题。",
+   "2022版指南对第③条的表述更具体：神经支配区浅感觉减退、关键肌肌力下降、大小便功能障碍，出现这些情况应进行手术治疗。"
+  ],
+  "when_to_seek_care": [
+   "会阴区（骑车坐垫接触的区域）麻木、尿不出来或控制不住、大便失禁——立即急诊，这是马尾神经综合征。",
+   "脚背抬不起来（足下垂）、踮脚无力、走路明显拖步——尽快脊柱外科，不要先去做按摩或牵引。",
+   "神经系统症状迅速恶化（麻木范围几小时到几天内扩大）——上海共识将其列为居家腰痛患者必须转入医疗机构的情形之一。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《腰椎间盘突出症诊疗指南》（中华医学会骨科学分会脊柱外科学组、骨科康复学组，中华骨科杂志2020,40(8):477-487）",
+    "journal": "",
+    "year": 2020,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/腰间盘突出康复指南/腰椎间盘突出症诊疗指南.pdf",
+    "level": "official_guideline"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《腰椎间盘突出症诊治与康复管理指南》（中国康复医学会脊柱脊髓专业委员会基础研究与转化学组，中华外科杂志2022,60(5)）",
+    "journal": "",
+    "year": 2022,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/腰间盘突出康复指南/腰椎间盘突出症诊治与康复管理指南.pdf",
+    "level": "official_guideline"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《腰痛病居家康复上海地区专家共识》（国家中医药管理局中医康复服务能力规范化建设项目专家委员会等，上海中医药大学学报2019,33(3)）",
+    "journal": "",
+    "year": 2019,
+    "url": "http://medi-guide.meditool.cn/ymtpdf/257B1B28-0704-7815-35C3-2C87683B58FE.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-lowback-referral-signs",
+  "condition_zh": "居家腰痛何时转去医院",
+  "condition_en": "When home-managed low back pain must be referred to a hospital",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "居家腰痛什么情况要去医院",
+   "腰痛剧烈难以入睡要紧吗",
+   "强迫体位是什么意思",
+   "保守治疗无效要不要转诊",
+   "在家养腰痛的危险信号",
+   "腰痛什么时候不能再拖",
+   "腰疼到睡不着要就医吗",
+   "肛门括约肌功能紊乱腰痛",
+   "腰突居家康复转诊标准",
+   "居家腰痛情况去医院",
+   "腰痛剧烈难入睡紧",
+   "腰痛剧烈难以",
+   "居家腰痛"
+  ],
+  "prevention": [
+   "《腰痛病居家康复上海地区专家共识》列出居家腰痛患者应转入医疗机构的三种情况：①腰痛剧烈甚至难以入睡、呈强迫体位、保守治疗无法缓解；②中央型腰椎间盘突出症压迫马尾神经，有尿道或肛门括约肌功能紊乱；③神经系统症状迅速恶化，出现肌肉麻痹或足下垂现象。",
+   "第①条判断的是「疼的程度是否已经影响基本睡眠和体位」，第②③条判断的是「神经功能」。两条线只要有一条越过，居家康复就该停下来。",
+   "居家康复的前提是已经明确诊断。没有做过影像与神经查体就照搬网上动作，等于把第②③条的识别交给了运气。"
+  ],
+  "when_to_seek_care": [
+   "夜间痛醒、平躺无法入眠且逐渐加重——按第①条转诊，不要仅靠止痛药维持。",
+   "伴随发热、消瘦、有肿瘤病史或近期明显外伤的腰痛，属另一类需要排查的原因，直接就诊。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《腰痛病居家康复上海地区专家共识》（国家中医药管理局中医康复服务能力规范化建设项目专家委员会等，上海中医药大学学报2019,33(3)）",
+    "journal": "",
+    "year": 2019,
+    "url": "http://medi-guide.meditool.cn/ymtpdf/257B1B28-0704-7815-35C3-2C87683B58FE.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-ldh-brace",
+  "condition_zh": "腰围怎么用",
+  "condition_en": "How long and when to wear a lumbar brace",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "腰突要戴腰围吗",
+   "腰围戴多久合适",
+   "护腰带有没有用",
+   "腰围能不能一直戴着",
+   "睡觉要不要戴腰围",
+   "弹性腰围作用",
+   "戴腰围肌肉萎缩吗",
+   "腰围戴多高",
+   "戴腰围肌肉萎缩",
+   "肌肉萎缩"
+  ],
+  "prevention": [
+   "临床对照研究显示，亚急性腰痛患者佩戴弹性腰围30天及90天后，对镇痛药物的需求减少、功能状态改善（2022版指南引述）。",
+   "同一份指南也指出腰围的代价：可带来心理负担，以及腰背活动受限引起的肌肉萎缩——因此仅建议在长时间高强度工作或加重脊柱负荷的工作时佩戴，并注意定时放松。",
+   "上海共识给出佩戴边界：一般上至肋弓、下至髂嵴下，松紧适宜；持续佩戴时间不超过1个月，卧床时不要戴腰围。"
+  ],
+  "when_to_seek_care": [
+   "需要一直靠腰围才敢活动、去掉就痛，应到康复科评估腰背肌力，而不是把腰围当长期解决方案。",
+   "佩戴腰围期间出现下肢麻木加重，停止佩戴并复诊。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《腰椎间盘突出症诊治与康复管理指南》（中国康复医学会脊柱脊髓专业委员会基础研究与转化学组，中华外科杂志2022,60(5)）",
+    "journal": "",
+    "year": 2022,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/腰间盘突出康复指南/腰椎间盘突出症诊治与康复管理指南.pdf",
+    "level": "official_guideline"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《腰痛病居家康复上海地区专家共识》（国家中医药管理局中医康复服务能力规范化建设项目专家委员会等，上海中医药大学学报2019,33(3)）",
+    "journal": "",
+    "year": 2019,
+    "url": "http://medi-guide.meditool.cn/ymtpdf/257B1B28-0704-7815-35C3-2C87683B58FE.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-lowback-mattress",
+  "condition_zh": "腰痛睡什么床",
+  "condition_en": "Mattress firmness for low back pain",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "腰突睡硬板床吗",
+   "腰椎间盘突出选什么床垫",
+   "中等硬度床垫是什么意思",
+   "腰疼睡软床还是硬床",
+   "床垫多硬算合适",
+   "平卧骨盆塌陷正常吗",
+   "腰痛要不要睡地板",
+   "腰痛睡木板床好不好",
+   "乳胶床垫对腰好吗",
+   "腰椎间盘突出选床垫",
+   "腰椎间盘突出选什么"
+  ],
+  "prevention": [
+   "2022版指南推荐腰椎间盘突出症患者使用中等硬度床垫（推荐强度1级，证据等级中），中等硬度床垫有助于改善腰部功能。",
+   "上海共识的口径是选择硬板床或偏硬的床垫，且床垫硬度以平卧后骨盆区无明显塌陷为宜。",
+   "两者共同点是把判据放在「躺下后腰臀不陷进去、同时身体曲线还能被托住」，而不是「越硬越好」。直接睡硬地板通常会在肩、髋处产生新的受压点。"
+  ],
+  "when_to_seek_care": [
+   "换床垫后晨起腰痛反而加重、或夜间痛醒，说明问题不只在床垫，需要就诊查原因。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《腰椎间盘突出症诊治与康复管理指南》（中国康复医学会脊柱脊髓专业委员会基础研究与转化学组，中华外科杂志2022,60(5)）",
+    "journal": "",
+    "year": 2022,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/腰间盘突出康复指南/腰椎间盘突出症诊治与康复管理指南.pdf",
+    "level": "official_guideline"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《腰痛病居家康复上海地区专家共识》（国家中医药管理局中医康复服务能力规范化建设项目专家委员会等，上海中医药大学学报2019,33(3)）",
+    "journal": "",
+    "year": 2019,
+    "url": "http://medi-guide.meditool.cn/ymtpdf/257B1B28-0704-7815-35C3-2C87683B58FE.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-ldh-traction",
+  "condition_zh": "腰椎牵引",
+  "condition_en": "Lumbar traction: what it helps and its limits",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "腰突牵引有用吗",
+   "牵引治疗腰痛靠谱吗",
+   "牵引是不是越重越好",
+   "家用牵引带有用吗",
+   "倒挂器牵引安全吗",
+   "牵引要在哪里做",
+   "牵引对腿麻有效吗",
+   "腰椎牵引副作用",
+   "骨盆牵引腿部放射痛",
+   "牵引治疗腰痛",
+   "牵引治疗"
+  ],
+  "prevention": [
+   "2022版指南：牵引治疗可短期缓解腰椎间盘突出症的坐骨神经症状（也就是腿部放射痛），但对腰痛本身改善不明显；应在专业康复医学人员指导下进行，避免牵引重量过大、时间过长（2级推荐）。",
+   "换句话说，牵引的目标症状是「一条腿串着痛/麻」，不是「腰这块酸」；指望它治好腰痛通常失望。",
+   "家用的充气牵引带、门上倒挂器无法控制重量与持续时间，不属于指南所说的牵引治疗，自行加长时间还有循环受阻的风险。"
+  ],
+  "when_to_seek_care": [
+   "牵引过程中出现下肢麻木加重、疼痛放射范围向远端扩展，立即停止并告知治疗师。",
+   "有腰椎不稳、重度滑脱、骨质疏松或肿瘤者，牵引前必须先把病史告诉医生。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《腰椎间盘突出症诊治与康复管理指南》（中国康复医学会脊柱脊髓专业委员会基础研究与转化学组，中华外科杂志2022,60(5)）",
+    "journal": "",
+    "year": 2022,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/腰间盘突出康复指南/腰椎间盘突出症诊治与康复管理指南.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-lowback-training-dose",
+  "condition_zh": "居家腰背训练怎么做",
+  "condition_en": "Home lumbar exercise dosing and timing",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "腰背肌锻炼每天做几次",
+   "腰痛训练每个动作做几次",
+   "急性腰痛能做腰背训练吗",
+   "核心肌群训练腰突",
+   "腰突运动疗法",
+   "飞燕式怎么做算过量",
+   "拱桥式骨盆斜抬",
+   "腰痛训练要持之以恒吗",
+   "训练每个动作做几次",
+   "腰痛训练每个动作"
+  ],
+  "prevention": [
+   "上海共识的居家康复要求：衣着宽松，运动前后放松肌肉，用力要柔和缓慢，每项动作重复5~10次。",
+   "急性腰痛疼痛剧烈时不建议进行特异性腰背运动，可以适度保持日常活动；疼痛减轻后应积极训练、持之以恒。",
+   "2022版指南把运动疗法提到预防层面：运动疗法可预防腰椎间盘突出症初次起病及复发，经常运动的患者疼痛持续时间缩短且复发更少，早期运动治疗能更好地预防复发；腰突症患者可在专业康复医师指导下进行核心肌群训练，以加强腰椎稳定性（1级推荐）。",
+   "常见动作包括飞燕式、拱桥式、骨盆斜抬等（上海共识动作节），先从治疗师确认过的2~3个动作开始，逐个加量，不要一次性把整套网络视频做完。"
+  ],
+  "when_to_seek_care": [
+   "训练中出现下肢放射痛、麻木加重或无力，立即停止该动作并复诊。",
+   "从未确诊过腰突、按自己判断练了4~6周仍无改善，应就诊明确腰痛原因再决定练什么。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《腰痛病居家康复上海地区专家共识》（国家中医药管理局中医康复服务能力规范化建设项目专家委员会等，上海中医药大学学报2019,33(3)）",
+    "journal": "",
+    "year": 2019,
+    "url": "http://medi-guide.meditool.cn/ymtpdf/257B1B28-0704-7815-35C3-2C87683B58FE.pdf",
+    "level": "official_guideline"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《腰椎间盘突出症诊治与康复管理指南》（中国康复医学会脊柱脊髓专业委员会基础研究与转化学组，中华外科杂志2022,60(5)）",
+    "journal": "",
+    "year": 2022,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/腰间盘突出康复指南/腰椎间盘突出症诊治与康复管理指南.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-lowback-sitting-break",
+  "condition_zh": "久坐每小时起身",
+  "condition_en": "Hourly position change for sedentary and standing workers",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "久坐腰疼怎么办",
+   "上班久坐多久起来一次",
+   "站着工作久了对腰好吗",
+   "腰痛劳逸结合怎么做",
+   "办公室怎么保护腰",
+   "腰突能久坐吗",
+   "多久起来活动一次腰",
+   "腰突能坐着上班吗",
+   "久坐起身活动腰",
+   "久坐腰疼办",
+   "久坐腰疼"
+  ],
+  "prevention": [
+   "上海共识（劳逸结合教育）：长期从事站位工作的人，一段时间后需要坐下休息；长期从事坐位工作的人，每隔1小时需要起身活动。",
+   "一小时是「同一姿势不改」的上限，不是坐着换一把更贵的椅子的提醒。起身走几步、站直后做几下温和的腰部后伸，比继续坐着更直接。",
+   "站位工作者的问题常被忽略：久站会让腰椎前凸增加、腰部肌肉持续紧张，同样需要中间坐下放松。"
+  ],
+  "when_to_seek_care": [
+   "起身活动时出现一过性下肢麻痛、或走几步就必须停下休息，与单纯久坐酸痛不同，需要就诊评估。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《腰痛病居家康复上海地区专家共识》（国家中医药管理局中医康复服务能力规范化建设项目专家委员会等，上海中医药大学学报2019,33(3)）",
+    "journal": "",
+    "year": 2019,
+    "url": "http://medi-guide.meditool.cn/ymtpdf/257B1B28-0704-7815-35C3-2C87683B58FE.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-lowback-lifting",
+  "condition_zh": "蹲位搬重物姿势",
+  "condition_en": "Squat lifting technique to protect the low back",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "搬重物正确姿势",
+   "弯腰搬东西伤腰吗",
+   "怎么搬地上的重箱子",
+   "提重物怎么不伤腰",
+   "抱孩子姿势伤腰",
+   "搬东西腰扭了",
+   "腰部挺直双腿用力怎么做到",
+   "搬箱子怎么不闪腰",
+   "抱小孩姿势护腰"
+  ],
+  "prevention": [
+   "上海共识给出的提取低处重物正确姿势：尽量靠近重物，蹲下，保持腰部挺直，握紧重物，双腿用力，提起重物至身体直立，整个过程保持上半身挺直。",
+   "同一段落把弯腰、提重物列为加重腰痛的危险因素，也就是初次起病与复发的常见诱因。",
+   "要点可以拆成三句：靠近（别伸手够）、蹲下（别弯腰）、上半身挺直（别边搬边扭）。转身时先落脚转身，再搬起。"
+  ],
+  "when_to_seek_care": [
+   "搬抬后出现腰痛并伴一侧下肢放射痛或麻木，按神经受压处理就诊，不要自行推拿「复位」。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《腰痛病居家康复上海地区专家共识》（国家中医药管理局中医康复服务能力规范化建设项目专家委员会等，上海中医药大学学报2019,33(3)）",
+    "journal": "",
+    "year": 2019,
+    "url": "http://medi-guide.meditool.cn/ymtpdf/257B1B28-0704-7815-35C3-2C87683B58FE.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-lowback-activity-choice",
+  "condition_zh": "腰痛适合哪些运动",
+  "condition_en": "Low-intensity activities recommended in low back pain",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "腰痛能跑步吗",
+   "腰突可以游泳吗",
+   "八段锦对腰好吗",
+   "太极拳腰疼能练吗",
+   "腰部疼痛避免什么运动",
+   "腰痛低强度运动有哪些",
+   "易筋经腰痛",
+   "腰突能打球吗",
+   "腰痛跑步"
+  ],
+  "prevention": [
+   "上海共识：日常活动应避免过度冲撞、跳跃等动作，可采用步行、游泳、传统功法（如易筋经、太极拳、八段锦）等低强度运动；注意运动中不要引起或加重腰痛。",
+   "同一条还给了一个具体限制：腰部有疼痛时应避免做带腰部扭转动作的运动——也就是「疼着还去转腰」是不行的，不疼之后可以逐步恢复。",
+   "冲撞与跳跃类（篮球对抗、跳绳、波比跳）在症状期属于明确要避开的动作；游泳时若某一种泳姿需要明显腰背过伸而诱发疼痛，也要暂时停那一种泳姿。"
+  ],
+  "when_to_seek_care": [
+   "运动中或运动后出现下肢麻木、无力，停止运动并就诊。",
+   "症状缓解后想恢复对抗性运动，先让康复科或骨科医生评估腰背肌力与活动范围。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《腰痛病居家康复上海地区专家共识》（国家中医药管理局中医康复服务能力规范化建设项目专家委员会等，上海中医药大学学报2019,33(3)）",
+    "journal": "",
+    "year": 2019,
+    "url": "http://medi-guide.meditool.cn/ymtpdf/257B1B28-0704-7815-35C3-2C87683B58FE.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-lowback-cupping",
+  "condition_zh": "腰痛拔罐",
+  "condition_en": "Cupping for acute low back pain: dosing and contraindications",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "腰痛拔罐有用吗",
+   "拔罐留罐几分钟",
+   "拔罐多久一次",
+   "什么人不能拔罐",
+   "孕妇能拔罐吗",
+   "委中拔罐位置",
+   "发烧能拔罐吗",
+   "皮肤破损拔罐"
+  ],
+  "prevention": [
+   "上海共识急性期拔罐方案：最后在委中留罐5~10分钟，隔日1次，5次为1疗程。",
+   "同一条列出的不宜人群：发热、过于消瘦、腰部湿疹或皮肤破损者，以及孕妇。",
+   "时长与频次的意义在于避免烫伤和皮肤破损：留罐时间不是越长「出痧」越多越好，隔日一次是给皮肤恢复留时间。"
+  ],
+  "when_to_seek_care": [
+   "拔罐后出现大水疱、皮肤破损渗液或局部明显红肿热痛，停止拔罐并到门诊处理。",
+   "有出血倾向、正在服用抗凝药的人，拔罐前必须告知医生。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《腰痛病居家康复上海地区专家共识》（国家中医药管理局中医康复服务能力规范化建设项目专家委员会等，上海中医药大学学报2019,33(3)）",
+    "journal": "",
+    "year": 2019,
+    "url": "http://medi-guide.meditool.cn/ymtpdf/257B1B28-0704-7815-35C3-2C87683B58FE.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-lowback-massage-contraindications",
+  "condition_zh": "推拿按摩的禁忌",
+  "condition_en": "Contraindications to tuina massage for low back pain",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "腰痛能按摩吗",
+   "哪些人不能推拿",
+   "怀孕几个月不能推拿",
+   "来月经能推拿吗",
+   "骨质疏松能按摩吗",
+   "腰椎滑脱可以推拿吗",
+   "脊髓损伤按摩危险",
+   "推拿前要排除什么",
+   "腰痛按摩",
+   "腰痛能按摩"
+  ],
+  "prevention": [
+   "上海共识列出的推拿禁忌：合并脊柱外伤并出现脊髓损伤症状者；合并严重皮肤病、传染病，或怀疑结核、肿瘤者；妊娠3个月以上的女性，以及妇女月经期间；伴骨折、骨关节结核、骨髓炎、肿瘤、严重骨质疏松症、重度腰椎滑脱症者。",
+   "这份清单的实际用法：去任何手法治疗之前，先把「有没有外伤、是不是可能怀孕、有没有骨质疏松或肿瘤病史、有没有在用抗凝药」说清楚，让医生判断能不能做。",
+   "已经出现下肢无力、走路不稳、大小便异常的人不应先去找按摩店——这些表现提示神经受压，需要先做影像与神经查体定性。"
+  ],
+  "when_to_seek_care": [
+   "按摩后疼痛加重，或出现以前没有的麻木、无力，立即停止手法治疗并就诊。",
+   "有肿瘤病史、结核病史或长期激素使用史的人，任何腰部手法治疗前都需先由骨科医生评估。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《腰痛病居家康复上海地区专家共识》（国家中医药管理局中医康复服务能力规范化建设项目专家委员会等，上海中医药大学学报2019,33(3)）",
+    "journal": "",
+    "year": 2019,
+    "url": "http://medi-guide.meditool.cn/ymtpdf/257B1B28-0704-7815-35C3-2C87683B58FE.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-lowback-burden",
+  "condition_zh": "腰痛反复负担",
+  "condition_en": "Lifetime prevalence and recurrence rate of low back pain",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "腰痛终生患病率",
+   "腰痛会复发吗",
+   "腰痛复发率多高",
+   "为什么腰痛老是反复",
+   "腰痛为什么难断根",
+   "腰痛康复教育重要吗",
+   "大多数腰痛能缓解吗",
+   "腰痛看自愈还是看医生",
+   "腰痛反复发作怎么办",
+   "腰痛复发"
+  ],
+  "prevention": [
+   "腰痛在全球人口的终生患病率高达85%，是绝大多数成年人一生中都会遇到的问题；同时绝大多数患者经保守治疗可以缓解。",
+   "但复发率甚至可高达24%~33%——这是上海共识把「居家康复与健康教育」列为核心的干预措施，而不是治疗之外可有可无的补充的原因。",
+   "对患者的实际含义：一次缓解不代表结束，姿势、运动、体重、作息这些不显眼的部分决定了会不会反复发作。"
+  ],
+  "when_to_seek_care": [
+   "每次发作间隔越来越短、发作时症状一次比一次重（尤其出现下肢症状），需要系统评估而不是每次都自行贴膏药。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《腰痛病居家康复上海地区专家共识》（国家中医药管理局中医康复服务能力规范化建设项目专家委员会等，上海中医药大学学报2019,33(3)）",
+    "journal": "",
+    "year": 2019,
+    "url": "http://medi-guide.meditool.cn/ymtpdf/257B1B28-0704-7815-35C3-2C87683B58FE.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-cervical-nonsurgical",
+  "condition_zh": "颈椎病大多不需手术",
+  "condition_en": "Most cervical spondylosis improves without surgery",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "颈椎病要手术吗",
+   "颈椎病能治好吗",
+   "颈椎病不做手术能缓解吗",
+   "颈椎病先保守治疗吗",
+   "颈椎病治疗基本原则",
+   "颈椎病非手术痊愈率",
+   "颈椎病推拿牵引",
+   "颈椎病自己会好吗",
+   "颈椎病手术",
+   "颈椎病治好"
+  ],
+  "prevention": [
+   "《颈椎病诊治与康复指南》：目前报道90%~95%的颈椎病患者经过非手术治疗获得痊愈或缓解；各型颈椎病治疗的基本原则是先非手术治疗，无效后再考虑手术。",
+   "所以「颈椎病」这个诊断本身不等于要动刀。真正改变这一判断的是分型和神经受压的证据，尤其是脊髓型（见「脊髓型颈椎病危险信号」）。",
+   "非手术治疗包括牵引、物理治疗、手法、药物与姿势管理等多条线，指南同时强调应在正规医疗机构完成，而不是自行长期反复按摩。"
+  ],
+  "when_to_seek_care": [
+   "正规保守治疗3~4周无显效，或症状反复影响生活，回到专科重新评估分型与方案。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《颈椎病诊治与康复指南》（中国康复医学会颈椎专业委员会、中华医学会，2010年版）",
+    "journal": "",
+    "year": 2010,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/颈椎病康复指南/颈椎诊治与康复指南.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-cervical-conservative-course",
+  "condition_zh": "颈椎病保守治疗疗程",
+  "condition_en": "A 3 to 4 week trial of formal non-surgical treatment for neck disease",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "颈椎病保守治疗多久见效",
+   "颈椎病要治疗几周",
+   "颈椎病3到4周无效怎么办",
+   "颈椎病多久考虑手术",
+   "正规非手术疗法包括什么",
+   "颈椎病进行性发展是什么意思",
+   "颈椎病看哪个科正规治疗",
+   "颈椎病保守治疗无效",
+   "颈椎病3到4周",
+   "颈椎病34周无效办",
+   "颈椎病治疗几周"
+  ],
+  "prevention": [
+   "指南：除具有明确手术适应症的少数病例外，一般应先从正规的非手术疗法开始，并持续3~4周，一般均可显效。",
+   "同一条明确指出例外：对呈进行性发展者（多为脊髓型颈椎病）需当机立断、及早手术。也就是说3~4周这个观察窗不适用于「症状在一步一步加重」的情况。",
+   "「正规」的含义是可核对的治疗记录：明确了分型、有具体项目与频次、由医疗机构执行。只在home贴膏药、断断续续找人按两下不算走完了这个疗程。"
+  ],
+  "when_to_seek_care": [
+   "手脚变笨（扣扣子困难、拿筷子不稳）、走路发飘或踩棉花感，不要等满3~4周，尽快脊柱外科评估。",
+   "保守治疗期间症状一天比一天重，同样按「进行性发展」处理，提前就诊。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《颈椎病诊治与康复指南》（中国康复医学会颈椎专业委员会、中华医学会，2010年版）",
+    "journal": "",
+    "year": 2010,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/颈椎病康复指南/颈椎诊治与康复指南.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-cervical-myelopathy",
+  "condition_zh": "脊髓型颈椎病",
+  "condition_en": "Cervical spondylotic myelopathy: proportion and consequence",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "脊髓型颈椎病是什么",
+   "脊髓型颈椎病会瘫吗",
+   "颈椎病哪一型最危险",
+   "脊髓型颈椎病发病率",
+   "脊髓型颈椎病多大年龄",
+   "颈椎病致残率",
+   "脊髓型颈椎病保守治疗行吗",
+   "40到60岁颈椎病类型"
+  ],
+  "prevention": [
+   "指南：脊髓型颈椎病的发病率占颈椎病的12%~20%，由于可造成肢体瘫痪、致残率高，通常起病缓慢，以40~60岁中年人为多。",
+   "这一型的特点是「不疼但功能在丢」：很多人以为是腰腿问题或年纪大了，实际压迫部位在颈段脊髓。",
+   "其余以颈肩痛、上肢麻痛为主的类型（颈型、神经根型、椎动脉型、交感型）预后明显好于脊髓型，这也是为什么先按分型再谈治疗。"
+  ],
+  "when_to_seek_care": [
+   "40~60岁出现缓慢加重的行走不稳、下肢发紧、手部精细动作变差，优先排查颈段脊髓受压。",
+   "有颈椎病诊断史且症状从「麻痛」转为「无力、笨拙」，按脊髓型处理路径复诊。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《颈椎病诊治与康复指南》（中国康复医学会颈椎专业委员会、中华医学会，2010年版）",
+    "journal": "",
+    "year": 2010,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/颈椎病康复指南/颈椎诊治与康复指南.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-cervical-cotton-feet",
+  "condition_zh": "双腿发麻踩棉花感",
+  "condition_en": "Cotton-wool gait and leg numbness as cervical myelopathy red flag",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "双腿发麻踩棉花感",
+   "脚踩棉花是什么病",
+   "走路不稳要查颈椎吗",
+   "登台阶要扶着拉手",
+   "步态不稳原因",
+   "双腿沉重发麻颈椎病",
+   "颈椎红旗信号",
+   "走路发飘要查颈椎",
+   "手拿不稳筷子颈椎病"
+  ],
+  "prevention": [
+   "脊髓型颈椎病常先出现一侧或双侧下肢麻木、沉重感，随后逐渐出现行走困难（例如需要扶着拉手才能登上台阶、步态不稳），患者双脚有踩棉感；病情继续发展须拄拐或由他人搀扶，直至双下肢瘫痪。",
+   "这是一组「症状在腿上、病灶常在颈段脊髓」的表现，因此只查腰椎、只吃止痛药很容易延误。",
+   "自我判断的抓手是趋势：踩棉花感、走路发飘在几周至几个月内逐渐加重，比某一个孤立症状更有提示价值。"
+  ],
+  "when_to_seek_care": [
+   "出现踩棉花感、步态不稳或需要扶物登台阶，尽早到脊柱外科评估，指南对这一类明确写的是及早手术。",
+   "同时出现手部变笨、写字系扣困难，或大小便控制变差，属急诊级别就诊理由。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《颈椎病诊治与康复指南》（中国康复医学会颈椎专业委员会、中华医学会，2010年版）",
+    "journal": "",
+    "year": 2010,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/颈椎病康复指南/颈椎诊治与康复指南.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-cervical-acute-rest",
+  "condition_zh": "颈椎病急性期休息",
+  "condition_en": "Rest and bed rest in acute cervical spondylosis",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "颈椎病发作要休息吗",
+   "颈椎病卧床多久",
+   "颈椎病急性发作怎么办",
+   "颈椎病初次发作注意什么",
+   "颈椎病要平躺吗",
+   "脖子痛要不要限制活动",
+   "颈椎病发作能运动吗",
+   "脖子痛平躺休息",
+   "颈椎病急性发作办"
+  ],
+  "prevention": [
+   "指南：颈椎病急性发作期或初次发作的病人要适当注意休息，病情严重者更要卧床休息2~3周。",
+   "颈部休息的具体做法是去掉长时间低头与负重（包括长时间看手机、伏案、提重物、趴着睡），平躺时颈肌负荷最小，这也是卧床对颈椎的机制。",
+   "从预防角度指南同时强调应选择有利于病情稳定、保持颈椎正常曲度的睡姿与枕高（见「枕头多高合适」），只休息不换枕头等于把病因留下。"
+  ],
+  "when_to_seek_care": [
+   "卧床2~3周后颈肩痛与上肢麻痛无减轻，回到专科重新评估分型。",
+   "休息期间出现下肢无力、走路不稳，按脊髓型路径就诊，不要继续观察。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《颈椎病诊治与康复指南》（中国康复医学会颈椎专业委员会、中华医学会，2010年版）",
+    "journal": "",
+    "year": 2010,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/颈椎病康复指南/颈椎诊治与康复指南.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-cervical-pillow-height",
+  "condition_zh": "枕头多高合适",
+  "condition_en": "Pillow height for the neck",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "枕头多高合适",
+   "仰卧颈部垫高10公分",
+   "高枕头有什么危害",
+   "侧卧枕头要多高",
+   "颈椎病选什么枕头",
+   "不垫枕头对吗",
+   "护颈枕有用吗",
+   "颈椎病的枕头选择",
+   "枕头让脖子悬空",
+   "选什么枕头"
+  ],
+  "prevention": [
+   "指南：睡眠时一般成年人颈部垫高约10公分较好；高枕使颈部处于屈曲状态，其结果与低头姿势相同。",
+   "侧卧时枕头要加高至头部不出现侧屈的高度——也就是仰卧和侧卧需要的枕高不是一把数字，侧睡要更高一些。",
+   "「高枕无忧」在这个部位正好相反：枕头把头顶抬起来而颈部悬空，等于整晚保持低头姿势。「不枕枕头」也不是解法，颈部同样失去支撑。"
+  ],
+  "when_to_seek_care": [
+   "更换枕具后出现或加重上肢麻木、晨起头痛，说明高度不合适，需要重新调整并就诊。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《颈椎病诊治与康复指南》（中国康复医学会颈椎专业委员会、中华医学会，2010年版）",
+    "journal": "",
+    "year": 2010,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/颈椎病康复指南/颈椎诊治与康复指南.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-cervical-desk-break",
+  "condition_zh": "伏案一小时改变体位",
+  "condition_en": "Changing posture about every hour of desk work",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "长期低头怎么办",
+   "伏案工作多久休息一次",
+   "低头族颈椎怎么保护",
+   "卧床看书伤颈椎吗",
+   "办公室颈椎保护",
+   "电脑前脖子疼",
+   "哪些职业容易颈椎病",
+   "躺着看手机伤颈椎吗",
+   "低头多久要活动脖子"
+  ],
+  "prevention": [
+   "指南：避免长时间低头工作（银行财会、办公室伏案、电脑操作等），工作1小时左右后改变一下体位；同时改变不良的工作和生活习惯，如卧床阅读、看电视。",
+   "「改变体位」的具体动作不需要复杂：站起来、把头颈缓慢后伸与左右转动几下、耸肩放松，两三分钟即可打断持续屈曲。",
+   "卧床阅读、躺着看手机是同一机制里最容易被忽略的一项——它往往比坐在桌前角度更低、时间更无节制。"
+  ],
+  "when_to_seek_care": [
+   "低头时出现手指麻痛、或某一体位反复诱发上肢放电样疼痛，就诊评估神经根受压。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《颈椎病诊治与康复指南》（中国康复医学会颈椎专业委员会、中华医学会，2010年版）",
+    "journal": "",
+    "year": 2010,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/颈椎病康复指南/颈椎诊治与康复指南.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-cervical-neck-exercise",
+  "condition_zh": "颈部操与颈背肌锻炼",
+  "condition_en": "Neck range-of-motion and isometric exercise",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "颈部操怎么做",
+   "颈椎病能转脖子吗",
+   "脖子锻炼动作",
+   "颈背肌肉等长收缩",
+   "预防颈椎病锻炼",
+   "每天早晚颈部运动",
+   "无症状要做颈部操吗",
+   "脖子可以大幅度转吗",
+   "米字操安全吗"
+  ],
+  "prevention": [
+   "指南：无任何颈椎病症状者，可以每日早、晚各数次进行缓慢的颈部屈、伸、左右侧屈及旋转运动，并加强颈背肌肉的等长抗阻收缩锻炼。",
+   "两个限定词是重点：一是「无症状者」，已有神经压迫症状（尤其脊髓型）的人不宜自行大力旋转颈部；二是「缓慢」，快速环转、扳颈响是另一回事。",
+   "等长抗阻的做法是用手掌抵住额头或头侧、颈部用力但头不移动，保持几秒后放松——肌肉在不改变关节位置的情况下得到锻炼，比大幅度转动安全。"
+  ],
+  "when_to_seek_care": [
+   "锻炼中出现头晕、上肢麻木或走路发飘，立即停止并就诊。",
+   "已被诊断为脊髓型颈椎病的人，任何颈部手法与大幅度活动前先问医生。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《颈椎病诊治与康复指南》（中国康复医学会颈椎专业委员会、中华医学会，2010年版）",
+    "journal": "",
+    "year": 2010,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/颈椎病康复指南/颈椎诊治与康复指南.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-cervical-collar-riding",
+  "condition_zh": "颈围与长途乘车",
+  "condition_en": "Cervical collar use during high-speed travel, and its limits",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "坐长途车戴颈围",
+   "颈托有必要吗",
+   "高速事故脖子",
+   "颈椎病要不要戴颈围",
+   "颈围能长期戴吗",
+   "戴颈围肌肉萎缩",
+   "坐车睡着脖子",
+   "坐高铁要戴颈托吗",
+   "颈椎保护坐车"
+  ],
+  "prevention": [
+   "指南：乘坐高速汽车等交通工具时，无论有没有颈椎病，戴颈围保护都很有必要；但应避免不合理长期使用颈围，以免导致颈肌无力及颈椎活动度不良。",
+   "这一条被很多人忽略：它的价值在于防止突发减速时的挥鞭样损伤，属于「关键时刻的保险」，而不是日常矫正姿势的工具。",
+   "长期戴的代价指南已写明——颈肌无力、活动度变差，形成「越戴越不稳、越不稳越想戴」的循环。除医嘱外，只在乘车等特定场景使用。"
+  ],
+  "when_to_seek_care": [
+   "乘车后出现颈部疼痛伴上肢麻木、或当时有明确撞击史，就诊排查颈椎损伤。",
+   "已经每天离不开颈围才舒服，需到专科评估颈肌力与训练方案。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《颈椎病诊治与康复指南》（中国康复医学会颈椎专业委员会、中华医学会，2010年版）",
+    "journal": "",
+    "year": 2010,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/颈椎病康复指南/颈椎诊治与康复指南.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-cervical-traction-params",
+  "condition_zh": "颈椎牵引的参数",
+  "condition_en": "Cervical traction weight and course parameters",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "颈椎牵引重量",
+   "牵引多少公斤合适",
+   "颈椎牵引多久一次",
+   "牵引一个疗程几天",
+   "家用牵引器安全吗",
+   "老年人牵引注意什么",
+   "牵引不舒服要不要停",
+   "颈椎牵引6公斤开始",
+   "牵引头晕恶心中止"
+  ],
+  "prevention": [
+   "指南给出的牵引参数：间歇牵引的重量可以自身体重的10%~20%确定，持续牵引适当减轻，一般自6 kg开始逐渐增加；连续牵引20分钟，间歇牵引20~30分钟，每天一次，10~15天为一疗程。",
+   "同时明确：年老体弱者重量应轻些、时间短些；牵引过程中出现不适或症状加重应立即停止。",
+   "把这些参数写出来的目的是可核对——在正规机构做牵引时可以对照重量与时长是否个体化设定；家用悬挂式牵引用沙袋或自身头重，很难稳定控制在体重的10%~20%，也不是指南所指的牵引方式。"
+  ],
+  "when_to_seek_care": [
+   "牵引中出现头晕、恶心、上肢麻木加重或无力，立即停止并告知医生。",
+   "有颈椎不稳、椎动脉问题或严重骨质疏松者，牵引前必须由医生评估。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《颈椎病诊治与康复指南》（中国康复医学会颈椎专业委员会、中华医学会，2010年版）",
+    "journal": "",
+    "year": 2010,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/颈椎病康复指南/颈椎诊治与康复指南.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-cervical-surgery-timing",
+  "condition_zh": "颈椎病手术指征",
+  "condition_en": "When surgery is indicated in cervical spondylosis",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "颈椎病什么情况要手术",
+   "脊髓型颈椎病要开刀吗",
+   "保守治疗无效加重要手术吗",
+   "神经根型颈椎病手术指征",
+   "颈椎病肌肉运动障碍",
+   "颈椎病手术早还是晚",
+   "颈椎病拖久了会瘫吗",
+   "上肢肌肉无力手术",
+   "脊髓型颈椎病开刀",
+   "颈椎病情况手术",
+   "脊髓型颈椎病要开刀"
+  ],
+  "prevention": [
+   "指南：脊髓型颈椎病一旦确诊、经非手术治疗无效且病情日益加重者应当积极手术治疗；神经根型颈椎病症状重、影响患者生活或工作，或出现肌肉运动障碍者亦应考虑手术治疗。",
+   "两条线的差别：脊髓型看的是「有没有在加重」（一旦确诊加上进行性加重就要积极手术），神经根型看的是「严重程度和功能影响」（疼麻重到影响生活或出现肌力问题）。",
+   "对「当机立断、及早手术」的常见误区是以为手术是最后一步。对脊髓受压而言，压迫时间越长恢复越有限，早评估不等于早挨刀，而是别把可恢复的窗口拖过去。"
+  ],
+  "when_to_seek_care": [
+   "确诊脊髓型颈椎病且近几个月症状逐渐加重，尽快到脊柱外科评估手术。",
+   "上肢某一块肌肉明显无力（握力下降、抬肩困难、手指抬不起），即使疼痛不重也属手术评估范畴。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《颈椎病诊治与康复指南》（中国康复医学会颈椎专业委员会、中华医学会，2010年版）",
+    "journal": "",
+    "year": 2010,
+    "url": "https://ansonznl.github.io/RehabilitationGuide/颈椎病康复指南/颈椎诊治与康复指南.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-oa-prevalence",
+  "condition_zh": "骨关节炎有多常见",
+  "condition_en": "Age-specific prevalence of primary osteoarthritis in China",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "骨关节炎发病率",
+   "多少人有关节炎",
+   "膝盖退化正常吗",
+   "多大年龄开始得骨关节炎",
+   "女性更容易骨关节炎吗",
+   "原发性OA患病率",
+   "膝盖响是关节炎吗",
+   "骨质增生要治疗吗",
+   "女性容易骨关节炎"
+  ],
+  "prevention": [
+   "《中国骨关节炎诊疗指南（2021年版）》：我国40岁及以上人群不同年龄段原发性骨关节炎（OA）患病率分别为30.1%（40~49岁）、48.7%（50~59岁）、62.2%（60~69岁）和62.1%（70岁以上）；女性患病和发病风险明显高于男性。",
+   "这组数字的含义有两个方向：一方面关节疼痛在中年以后极其常见，不必因为「拍了片说有骨质增生」就恐慌；另一方面到六七十岁患病率已超过六成，所以「忍一忍就过去了」也不是正确答案，规范的基础治疗能明显改善生活质量。",
+   "女性风险明显更高，围绝经期是同一个高危清单里的条目，因此女性在50岁后的膝髋痛更值得主动管理体重与肌力。"
+  ],
+  "when_to_seek_care": [
+   "40岁以后出现活动后膝关节痛、休息后缓解并逐渐加重，可到骨科或康复科评估是否OA及严重度。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国骨关节炎诊疗指南（2021年版）》（中华医学会骨科学分会关节外科学组等，中华骨科杂志2021,41(18):1291-1312）",
+    "journal": "",
+    "year": 2021,
+    "url": "https://www.hnysfww.com/data/article/1646116515674060520.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-oa-risk-groups",
+  "condition_zh": "骨关节炎高危人群",
+  "condition_en": "High-risk groups for osteoarthritis, including post-injury risk",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "骨关节炎高危人群",
+   "什么人容易得骨关节炎",
+   "膝盖受伤后会关节炎吗",
+   "半月板损伤后遗症",
+   "前十字韧带损伤关节炎",
+   "肥胖和骨关节炎",
+   "骨关节炎遗传吗",
+   "绝经期关节痛",
+   "手部劳动关节磨损",
+   "膝盖受伤后关节炎",
+   "膝盖受伤后会"
+  ],
+  "prevention": [
+   "指南列出OA高危人群：年龄在40岁及以上、女性、肥胖或超重、有创伤史、从事特殊手部劳动、处于围绝经期、家族中有OA患者或肠道菌群紊乱等。",
+   "其中最有确定量化的一项来自运动损伤：膝关节前十字韧带或半月板损伤后，膝关节OA风险升高4~6倍。也就是说一次膝外伤之后的康复与肌力恢复，是几十年的关节保护投资。",
+   "可干预的项目主要是体重、肌力、劳动姿势与损伤后的规范康复；年龄与家族史不可改变，因此对高危人群更应主动做前面几项。"
+  ],
+  "when_to_seek_care": [
+   "膝外伤（韧带或半月板损伤）后规范康复未完成、或伤后仍有关节不稳感，应到运动医学科评估，而不是自行恢复剧烈运动。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国骨关节炎诊疗指南（2021年版）》（中华医学会骨科学分会关节外科学组等，中华骨科杂志2021,41(18):1291-1312）",
+    "journal": "",
+    "year": 2021,
+    "url": "https://www.hnysfww.com/data/article/1646116515674060520.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-oa-morning-stiffness",
+  "condition_zh": "骨关节炎的晨僵",
+  "condition_en": "Morning stiffness in osteoarthritis versus inflammatory disease",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "骨关节炎晨僵",
+   "晨僵多久算正常",
+   "晨僵超过30分钟",
+   "早起关节僵硬",
+   "关节僵硬活动后缓解",
+   "怎么区分骨关节炎和类风湿",
+   "久坐后关节僵硬",
+   "关节僵硬几分钟正常",
+   "区分骨关节炎类风湿"
+  ],
+  "prevention": [
+   "指南：OA的关节僵硬多发生于晨起或较长时间未活动后，活动后可缓解，持续时间一般较短，常为几分钟至十几分钟，极少超过30分钟。",
+   "这一条的价值在于和炎症性关节病（如类风湿关节炎）区分：后者晨僵往往持续很久，且伴关节明显肿胀、发热。以「十几分钟以内、活动开就好」为主的，更像 OA 的机械性表现。",
+   "「久坐后起身也僵硬」属于同一种机制（较长时间未活动后出现），因此办公或乘车后起步那几步发僵也在 OA 的常见表现里。"
+  ],
+  "when_to_seek_care": [
+   "晨僵持续超过30分钟、或多个关节对称性肿痛发热，到风湿免疫科排查炎症性关节病。",
+   "关节夜间痛醒、静息时也持续疼痛，不是典型OA表现，需就诊。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国骨关节炎诊疗指南（2021年版）》（中华医学会骨科学分会关节外科学组等，中华骨科杂志2021,41(18):1291-1312）",
+    "journal": "",
+    "year": 2021,
+    "url": "https://www.hnysfww.com/data/article/1646116515674060520.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-oa-avoid-load",
+  "condition_zh": "膝盖要避免的动作",
+  "condition_en": "Activities to avoid in knee osteoarthritis",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "膝盖不好避免什么动作",
+   "骨关节炎能跑步吗",
+   "爬楼梯伤膝盖吗",
+   "爬山对膝盖不好吗",
+   "久蹲伤膝",
+   "OA基础治疗生活方式",
+   "下蹲做家务伤膝吗",
+   "关节炎能爬山吗",
+   "深蹲对膝盖好不好",
+   "骨关节炎跑步"
+  ],
+  "prevention": [
+   "指南在基础治疗（健康教育）中建议改变不良生活及工作习惯：避免长时间跑、跳、蹲，同时减少或避免爬楼梯、爬山等。",
+   "关键词是「长时间」和「减少或避免」，不是绝对不能上下楼。把每天几趟的高层爬楼换成电梯、把蹲着擦地改成跪垫或拖把，是这一条的落地方式。",
+   "同属基础治疗的还有减重、规律锻炼与行动辅助（见对应条目）——指南把 OA 的治疗顺序写成基础治疗先于药物。"
+  ],
+  "when_to_seek_care": [
+   "活动后关节肿胀持续数天不消，说明运动量超出关节承受能力，需要调整方案并就诊。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国骨关节炎诊疗指南（2021年版）》（中华医学会骨科学分会关节外科学组等，中华骨科杂志2021,41(18):1291-1312）",
+    "journal": "",
+    "year": 2021,
+    "url": "https://www.hnysfww.com/data/article/1646116515674060520.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-oa-weight-loss",
+  "condition_zh": "骨关节炎减重",
+  "condition_en": "Weight loss and knee osteoarthritis symptom dose-response",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "减肥能缓解膝盖痛吗",
+   "骨关节炎要减重吗",
+   "体重和膝关节痛",
+   "BMI大于28减重",
+   "减重剂量反应关系",
+   "肥胖膝盖负担",
+   "减轻体重改善关节功能",
+   "膝盖痛减肥有用吗",
+   "体重减轻关节功能",
+   "骨关节炎减重"
+  ],
+  "prevention": [
+   "指南：减轻体重既可以减轻关节疼痛，又可改善关节功能；特别是BMI＞28 kg/m²的膝关节OA患者，其体重减轻与症状改善之间存在剂量反应关系。",
+   "「剂量反应」是这一条最有用的部分：不是减不减的问题，而是减得越多收益越大，所以从体重基数高的人群开始做，性价比最高。",
+   "减重与运动要同时安排——只用饿减重会带走肌肉，而股四头肌力量恰恰是膝关节稳定的关键。"
+  ],
+  "when_to_seek_care": [
+   "BMI超过28且有膝关节症状，可在骨科/营养科共同指导下制定减重目标与运动方式（优先低负荷的游泳、水上运动）。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国骨关节炎诊疗指南（2021年版）》（中华医学会骨科学分会关节外科学组等，中华骨科杂志2021,41(18):1291-1312）",
+    "journal": "",
+    "year": 2021,
+    "url": "https://www.hnysfww.com/data/article/1646116515674060520.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-oa-exercise-frequency",
+  "condition_zh": "骨关节炎运动频率",
+  "condition_en": "Exercise frequency prescribed for osteoarthritis",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "骨关节炎每周锻炼几次",
+   "关节炎要不要运动",
+   "OA运动处方",
+   "关节不好怎么锻炼",
+   "规律运动习惯骨关节炎",
+   "医生指导制定运动方案",
+   "关节炎锻炼计划",
+   "每周锻炼几次养习惯"
+  ],
+  "prevention": [
+   "指南：建议在医生指导下制定个体化运动方案，推荐OA患者每周定期锻炼2~3次，逐渐养成规律运动习惯。",
+   "「每周2~3次」是一个刻意保守、可长期坚持的门槛，而不是上限。它针对的常见失败模式恰恰是「疼了不动、不疼时猛练」。",
+   "「个体化」在这里有具体含义：受累关节是膝还是髋、单关节还是多关节，推荐的项目不一样（见「膝髋骨关节炎分别练什么」）。"
+  ],
+  "when_to_seek_care": [
+   "锻炼后疼痛持续超过24小时或关节肿胀，说明强度过大，回到医生或治疗师处调整处方。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国骨关节炎诊疗指南（2021年版）》（中华医学会骨科学分会关节外科学组等，中华骨科杂志2021,41(18):1291-1312）",
+    "journal": "",
+    "year": 2021,
+    "url": "https://www.hnysfww.com/data/article/1646116515674060520.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-oa-exercise-type",
+  "condition_zh": "膝髋骨关节炎分别练什么",
+  "condition_en": "Exercise modality by joint: knee versus hip or polyarticular OA",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "膝关节锻炼项目",
+   "膝OA做什么运动",
+   "髋关节骨关节炎运动",
+   "瑜伽太极骨关节炎",
+   "水上运动关节炎",
+   "股四头肌力量锻炼",
+   "多关节OA怎么运动",
+   "膝关节有氧运动",
+   "游泳对关节炎好",
+   "多关节OA运动",
+   "关节OA怎么运动"
+  ],
+  "prevention": [
+   "指南：膝关节OA患者推荐以有氧运动、肌肉力量锻炼和水上运动为主的运动锻炼；髋关节或多关节OA患者推荐以瑜伽、太极等身心运动和水上运动为主的运动锻炼。",
+   "差别在于负荷方式：膝OA需要靠股四头肌力量来稳定关节，所以力量训练是主角；髋与多关节受累时，把负荷分散到柔韧、平衡与水中减重项目上更可行。",
+   "两组的共同项是水上运动——浮力分担体重，是疼痛明显时最容易坚持的一种。"
+  ],
+  "when_to_seek_care": [
+   "不会确定自己属于哪一型、或合并多种慢性病，请康复科开具具体运动处方后再开始。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国骨关节炎诊疗指南（2021年版）》（中华医学会骨科学分会关节外科学组等，中华骨科杂志2021,41(18):1291-1312）",
+    "journal": "",
+    "year": 2021,
+    "url": "https://www.hnysfww.com/data/article/1646116515674060520.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-oa-aids-footwear",
+  "condition_zh": "手杖、助行器与鞋具",
+  "condition_en": "Assistive devices and footwear in hip and knee osteoarthritis",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "膝盖不好用手杖吗",
+   "手杖哪只手拿",
+   "关节炎穿什么鞋",
+   "助行器需要吗",
+   "关节支具有用吗",
+   "外侧楔形鞋垫",
+   "平底厚实柔软的鞋",
+   "辅助器械医生指导"
+  ],
+  "prevention": [
+   "指南：髋、膝关节OA患者日常生活中推荐行动辅助支持，必要时在医生指导下选择手杖、拐杖、助行器、关节支具等；也可选择平底、厚实、柔软、宽松的鞋具辅助行走。",
+   "关于改变负重力线的工具（如外侧楔形鞋垫），指南明确写的是效果尚存争议、应谨慎选用——不必被商品宣传推着买。",
+   "手杖的正确用法要点：握在患肢对侧的手上，才能在患侧承重时分摊负荷；高度以站立时肘关节轻度屈曲为宜。"
+  ],
+  "when_to_seek_care": [
+   "行走距离明显缩短、需要他人搀扶才能出门，到骨科评估疾病分期与治疗选择。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国骨关节炎诊疗指南（2021年版）》（中华医学会骨科学分会关节外科学组等，中华骨科杂志2021,41(18):1291-1312）",
+    "journal": "",
+    "year": 2021,
+    "url": "https://www.hnysfww.com/data/article/1646116515674060520.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-oa-topical-nsaid",
+  "condition_zh": "膝关节OA一线用药",
+  "condition_en": "Topical NSAIDs as first-line for knee osteoarthritis pain",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "膝盖疼用什么药膏",
+   "外用药和口服药哪个好",
+   "骨关节炎一线用药",
+   "非甾体抗炎药外用",
+   "胃病能用口服止痛药吗",
+   "双氯芬酸凝胶",
+   "老年人关节痛用药",
+   "扶他林乳胶剂膝盖",
+   "外用药和口服止痛药",
+   "膝盖疼用药膏"
+  ],
+  "prevention": [
+   "指南：推荐局部外用非甾体抗炎药（NSAIDs）作为膝关节OA疼痛的一线治疗药物，尤其适用于合并胃肠疾病、心血管疾病或身体虚弱的患者（强推荐，证据等级A）。",
+   "「一线」的实际含义是顺序：先外用，疼痛持续或为中重度再考虑口服。这一顺序对合并胃肠疾病、心血管疾病、年老体弱者尤其重要。",
+   "需要理解的一点是外用不等于没有风险：仍属NSAIDs，皮肤破损处不用，口服与外用同时叠加时总剂量也要一并告知医生。"
+  ],
+  "when_to_seek_care": [
+   "自行外用药物超过1~2周无缓解，就诊调整方案，不要自行长期叠加口服止痛药。",
+   "有消化道溃疡、心脑血管病史或肾功能问题的人，任何口服NSAIDs都需医生开具。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国骨关节炎诊疗指南（2021年版）》（中华医学会骨科学分会关节外科学组等，中华骨科杂志2021,41(18):1291-1312）",
+    "journal": "",
+    "year": 2021,
+    "url": "https://www.hnysfww.com/data/article/1646116515674060520.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-oa-opioid-limits",
+  "condition_zh": "OA镇痛的阿片类限制",
+  "condition_en": "Strong opioids not recommended; caution with tramadol in OA",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "关节炎疼能用曲马多吗",
+   "骨关节炎止痛药限制",
+   "强阿片类不推荐",
+   "曲马多风险",
+   "老年人止痛药骨折风险",
+   "关节痛吃止痛药种类",
+   "关节痛能吃止疼片吗",
+   "曲马多心肌梗死风险",
+   "关节痛吃止疼片",
+   "关节痛能吃止疼片"
+  ],
+  "prevention": [
+   "指南推荐17：不推荐使用强阿片类药物进行OA镇痛管理，谨慎使用曲马多等弱阿片类药物。",
+   "研究提示：曲马多可显著升高OA患者全因死亡率、心肌梗死发生率及髋部骨折发生率。",
+   "这条的现实价值：如果别的医生因为「疼得厉害」开出了这类药，可以把这三项风险主动提出来讨论；对自己在吃的复方镇痛药，看清成分是否含曲马多是必要的一步。"
+  ],
+  "when_to_seek_care": [
+   "已在服用含曲马多或阿片类药物后出现头晕、跌倒、便秘加重或意识改变，尽快复诊评估。",
+   "多科同时开止痛药时，把全部在用药物清单给任一位医生看一遍，避免重复与叠加。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国骨关节炎诊疗指南（2021年版）》（中华医学会骨科学分会关节外科学组等，中华骨科杂志2021,41(18):1291-1312）",
+    "journal": "",
+    "year": 2021,
+    "url": "https://www.hnysfww.com/data/article/1646116515674060520.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-oa-steroid-injection-limit",
+  "condition_zh": "关节腔激素注射的次数",
+  "condition_en": "Intra-articular corticosteroid injection frequency limits",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "关节打封闭一年几次",
+   "玻璃酸和激素注射区别",
+   "关节腔注射糖皮质激素",
+   "封闭针一年最多几次",
+   "激素注射间隔多久",
+   "关节注射软骨损害",
+   "封闭针打多了软骨",
+   "关节注射间隔3个月"
+  ],
+  "prevention": [
+   "指南：关节腔注射糖皮质激素可较快缓解疼痛，但长期多次使用有加速关节软骨量丢失的风险——每年最多不超过2~3次，注射间隔时间不应短于3~6个月。",
+   "这两个数字是「能不能再打一针」最直接的答案：短期止痛效果确实快，所以容易被反复追加；指南把上限和间隔都写死，就是为了防止把「止痛」变成「消耗软骨」。",
+   "就诊时可以直接问：上一针是什么时候打的、这一针按哪个间隔排。"
+  ],
+  "when_to_seek_care": [
+   "注射后关节红肿热痛明显加重伴发热，需立即就诊排除感染性关节炎。",
+   "两次注射间隔不足3个月却被建议再打，换一位医生或再确认一次。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国骨关节炎诊疗指南（2021年版）》（中华医学会骨科学分会关节外科学组等，中华骨科杂志2021,41(18):1291-1312）",
+    "journal": "",
+    "year": 2021,
+    "url": "https://www.hnysfww.com/data/article/1646116515674060520.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-oa-steroid-injection-glucose",
+  "condition_zh": "关节注射后血糖监测",
+  "condition_en": "Glucose monitoring for 3 days after intra-articular steroid",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "关节打针后血糖升高",
+   "糖尿病能打封闭吗",
+   "注射激素后监测血糖",
+   "血糖控制不好关节注射",
+   "封闭针影响血糖几天",
+   "封闭针升血糖",
+   "打封闭后测血糖几天",
+   "糖尿病关节注射注意",
+   "糖尿病打封闭",
+   "糖尿病能打封闭"
+  ],
+  "prevention": [
+   "指南：对糖尿病患者（尤其血糖控制不佳者），应告知关节腔注射糖皮质激素有暂时升高血糖的风险，并建议该类患者在注射后3天内监测血糖水平。",
+   "要点是「局部打针也会升血糖」：很多人以为不打在血管里就不影响血糖，实际3天内的波动是可测量的，血糖控制不佳者更明显。",
+   "配合降糖药的人，监测结果要留给内分泌或开药医生看，以便决定是否临时调整方案。"
+  ],
+  "when_to_seek_care": [
+   "注射后出现持续明显口渴多尿、血糖远高于平时范围，联系医生而不是自行加大降糖药。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国骨关节炎诊疗指南（2021年版）》（中华医学会骨科学分会关节外科学组等，中华骨科杂志2021,41(18):1291-1312）",
+    "journal": "",
+    "year": 2021,
+    "url": "https://www.hnysfww.com/data/article/1646116515674060520.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-oa-hyaluronan",
+  "condition_zh": "玻璃酸钠关节注射",
+  "condition_en": "Intra-articular hyaluronan: who it suits and what it does not prove",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "玻璃酸钠有用吗",
+   "关节注射玻璃酸钠",
+   "封闭和玻璃酸区别",
+   "玻璃酸钠适用人群",
+   "玻璃酸钠保护软骨吗",
+   "关节注射选哪种",
+   "玻璃酸钠注射几次",
+   "玻璃酸钠胃肠道心血管"
+  ],
+  "prevention": [
+   "指南：关节腔注射玻璃酸钠可改善关节功能、短期缓解疼痛并减少镇痛药物用量，安全性较高，适用于轻中度患者或有胃肠道和（或）心血管危险因素的OA患者。",
+   "同时如实标注：玻璃酸钠在软骨保护和延缓病程中的作用尚存争议。也就是说它能被期待的是症状与功能，不是「把软骨长回来」。",
+   "「有胃肠道或心血管危险因素」这句适用条件，正对应了为什么外用药与玻璃酸钠常被排在口服NSAIDs之前。"
+  ],
+  "when_to_seek_care": [
+   "轻中度膝OA、口服止痛药受限（胃或心血管问题），可与医生讨论玻璃酸钠或外用方案。",
+   "注射后关节疼痛加重、活动受限，就诊评估。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《中国骨关节炎诊疗指南（2021年版）》（中华医学会骨科学分会关节外科学组等，中华骨科杂志2021,41(18):1291-1312）",
+    "journal": "",
+    "year": 2021,
+    "url": "https://www.hnysfww.com/data/article/1646116515674060520.pdf",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-acl-frequency",
+  "condition_zh": "前交叉韧带损伤有多常见",
+  "condition_en": "Frequency of ACL injury in athletes and return-to-sport proportion",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "前交叉韧带损伤概率",
+   "打篮球十字韧带",
+   "ACL损伤发生率",
+   "运动员前交叉韧带",
+   "十字韧带断了能恢复运动吗",
+   "ACL重返运动比例",
+   "前交叉韧带撕裂人数",
+   "转向运动膝盖受伤"
+  ],
+  "prevention": [
+   "《竞技体育运动员前交叉韧带损伤后重返运动的手术与康复治疗专家共识（2025版）》：竞技体育运动员前交叉韧带（ACL）损伤十分常见，参加篮球、足球、手球等转向运动项目的运动员发生率最高，可达10%~15%；仅有65%的患者能重返运动。",
+   "「10%~15%」限定了人群（从事转向类项目的竞技运动员），不是普通人的概率，但它说明这类动作模式的风险量级。",
+   "「65%重返运动」是理解后面所有康复目标与复出标准的前提：手术成功不等于自动回到球场，剩下的35%大多卡在康复与复出判断上。"
+  ],
+  "when_to_seek_care": [
+   "运动中膝部受伤后出现明显肿胀、走路打软，按ACL损伤路径就诊（见「打软腿」条目）。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《竞技体育运动员前交叉韧带损伤后重返运动的手术与康复治疗专家共识（2025版）》（中华创伤杂志2025,41(4)）",
+    "journal": "",
+    "year": 2025,
+    "url": "http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=12253",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-acl-giving-way",
+  "condition_zh": "膝盖打软腿",
+  "condition_en": "Knee giving-way episodes multiply lateral meniscus injury risk",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "膝盖打软腿",
+   "走路突然打软",
+   "膝关节不稳半月板",
+   "打软腿一次后果",
+   "膝盖发软什么原因",
+   "十字韧带术后打软腿",
+   "膝盖突然软一下",
+   "打软腿半月板"
+  ],
+  "prevention": [
+   "共识：膝关节旋转不稳定持续发生是ACL损伤后继发半月板和软骨损伤的明确危险因素；每发生一次「打软腿」，外侧半月板损伤的概率增加3倍。",
+   "这一条把「打软腿」从「有点不稳、忍忍就好」提升为有明确量化后果的事件：每一次都是新的损伤概率，不是同一次损伤的症状。",
+   "术后康复期的意义更大：肌力与本体感觉训练没做到位，就会出现打软，而打软又会带来继发损伤——所以力量与平衡练习不是形式。"
+  ],
+  "when_to_seek_care": [
+   "ACL损伤后或重建术后反复出现打软腿，及时告知主刀与康复医生，不要靠护膝硬撑运动。",
+   "伤后未确诊但活动时反复打软、伴关节卡顿或锁住感，需影像与查体评估半月板。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《竞技体育运动员前交叉韧带损伤后重返运动的手术与康复治疗专家共识（2025版）》（中华创伤杂志2025,41(4)）",
+    "journal": "",
+    "year": 2025,
+    "url": "http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=12253",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-acl-partial-tear",
+  "condition_zh": "ACL部分撕裂会不会进展",
+  "condition_en": "Progression of partial ACL tears in young active patients",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "部分撕裂需要手术吗",
+   "ACL部分撕裂会加重吗",
+   "前交叉韧带部分断裂",
+   "年轻运动员部分撕裂",
+   "保守观察部分撕裂",
+   "韧带部分撕裂进展比例",
+   "部分撕裂会全断吗",
+   "35岁以下韧带损伤"
+  ],
+  "prevention": [
+   "共识：年龄≤35岁和参与转向性接触运动被认为是ACL损伤进展的重要危险因素；47.3%的年轻、活跃的ACL部分撕裂患者在非手术治疗后进展为完全撕裂。",
+   "接近一半这个比例，解释了为什么「现在是部分撕裂」不足以作为安心理由：对年轻、仍要回到转向类运动的人，进展风险与年龄、运动类型绑在一起。",
+   "反过来，对不做急停急转运动的年长患者，非手术观察的合理性更高——所以这不是一个通用数字，而是一个人群限定数字。"
+  ],
+  "when_to_seek_care": [
+   "确诊部分撕裂但仍要恢复球类等转向运动，与医生讨论进展风险与防护、康复安排。",
+   "观察期间出现打软腿、肿胀反复，提示可能进展，复查评估。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《竞技体育运动员前交叉韧带损伤后重返运动的手术与康复治疗专家共识（2025版）》（中华创伤杂志2025,41(4)）",
+    "journal": "",
+    "year": 2025,
+    "url": "http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=12253",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-acl-nonop-conversion",
+  "condition_zh": "非手术后有多少人转手术",
+  "condition_en": "Conversion to reconstruction after initial non-operative ACL care",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "ACL保守治疗失败率",
+   "前交叉韧带不手术行吗",
+   "非手术组转手术比例",
+   "韧带重建二次手术",
+   "半月板损伤再手术",
+   "职业运动员重返运动比例",
+   "韧带不手术会好吗",
+   "重建术后重返赛场"
+  ],
+  "prevention": [
+   "共识引述随机对照研究：初始分配至非手术组的年轻活跃ACL撕裂运动员中，近40%后期又行ACL重建术，32%在2年随访期因半月板损伤行后续手术；手术组中只有10%因半月板损伤需再次手术。",
+   "重返运动的结局也按人群分层：职业足球和篮球运动员术后重返运动比例分别为78.0%和82.0%，而只有12.8%的高水平运动员在非手术治疗后恢复到伤前水平。",
+   "这几组数字的正确用法不是替患者决定方案，而是让沟通变成具体可问的问题：按我的年龄、项目、损伤情况，观察的代价是什么？"
+  ],
+  "when_to_seek_care": [
+   "参与转向类运动的年轻人，把「非手术观察会不会延误」当作明确问题问一遍再决定。",
+   "非手术管理期间反复打软或肿胀，提前复诊讨论重建。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《竞技体育运动员前交叉韧带损伤后重返运动的手术与康复治疗专家共识（2025版）》（中华创伤杂志2025,41(4)）",
+    "journal": "",
+    "year": 2025,
+    "url": "http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=12253",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-acl-prehab-targets",
+  "condition_zh": "术前康复目标",
+  "condition_en": "Pre-operative rehab targets before ACL reconstruction",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "术前为什么要练腿",
+   "ACL术前康复目标",
+   "股四头肌力量对称",
+   "术前活动度120度",
+   "肢体对称指数85",
+   "为什么要等消肿再手术",
+   "术前为什么要练肌肉",
+   "术前膝盖伸直",
+   "等消肿手术",
+   "消肿再手术"
+  ],
+  "prevention": [
+   "共识：术前患侧股四头肌力量达到对侧的80%以上有利于术后完全康复，术前肢体对称指数（LSI）达到85%以上有利于预后；建议完成术前康复目标（关节活动度达到0°~120°、患侧股四头肌力量达对侧80%以上）后可及早进行手术。",
+   "也就是说手术前有一段「练到标准再开刀」的准备期。它常被误读成浪费时间，实际是把术后的康复起点提前，避免关节僵硬与肌肉萎缩从术前就开始。",
+   "活动度0°意味着能完全伸直，这一项在术后同样关键（伸不直是常见遗留问题），术前先建立起来更容易。"
+  ],
+  "when_to_seek_care": [
+   "伤后肿痛明显、膝盖伸不直或弯不到90°，先到康复科/运动医学科安排术前训练，不要在家干等手术日期。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《竞技体育运动员前交叉韧带损伤后重返运动的手术与康复治疗专家共识（2025版）》（中华创伤杂志2025,41(4)）",
+    "journal": "",
+    "year": 2025,
+    "url": "http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=12253",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-acl-surgery-timing",
+  "condition_zh": "ACL手术时机",
+  "condition_en": "Timing of ACL reconstruction after injury",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "前交叉韧带多久手术",
+   "ACL早期重建",
+   "伤后8天内手术",
+   "等消肿再手术对吗",
+   "韧带重建最佳时机",
+   "术后关节僵硬风险",
+   "伤后几周手术合适",
+   "韧带重建要等多久",
+   "伤后6到10周手术"
+  ],
+  "prevention": [
+   "共识：与延迟手术（伤后6~10周）相比，伤后8天内早期ACL重建不会对关节活动度产生不利影响或导致膝关节僵硬；早期（<6周）与延迟重建在活动度、稳定性、Tegner/IKDC评分和不良并发症方面结果相似。",
+   "这一条推翻了「一定要等消肿几周才能开刀」的旧口径，但读的时候要留一个边界：早期重建的前提是关节活动度与肿痛条件允许，不是抢时间。",
+   "同一份共识另外提到伤后3个月内手术与较低的关节损伤（包括半月板和软骨损伤）相关，与前面「每发生一次打软腿、外侧半月板损伤概率增加3倍」共同构成一个结论：不要把不稳定的关节长期暴露在反复打软中。"
+  ],
+  "when_to_seek_care": [
+   "等待手术期间膝关节反复打软，联系医生而不是自己恢复运动。",
+   "伤后肿胀、活动度受限未纠正，由医生决定早期还是延迟重建。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《竞技体育运动员前交叉韧带损伤后重返运动的手术与康复治疗专家共识（2025版）》（中华创伤杂志2025,41(4)）",
+    "journal": "",
+    "year": 2025,
+    "url": "http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=12253",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-acl-rom-schedule",
+  "condition_zh": "ACL术后活动度时间表",
+  "condition_en": "Range-of-motion milestones after ACL reconstruction",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "ACL术后弯腿时间表",
+   "重建术后两周90度",
+   "膝盖弯曲练多久",
+   "术后活动度多少正常",
+   "术后肿痛怎么消",
+   "康复要压腿吗",
+   "ACL术后弯不到90度",
+   "术后一个月弯腿进度"
+  ],
+  "prevention": [
+   "共识：关节活动度训练应在ACL重建术后立即开始；一般建议术后2周内达到90°，并在4~6周内逐渐达到完全的关节活动度。",
+   "「立即开始」与「逐渐达到」两件事必须一起理解：早期开始不等于强行压腿，进度以疼痛与肿胀能接受为界。",
+   "早期肿痛可通过冰敷、神经肌肉电刺激或针灸等物理治疗改善——把肿痛压下来本身就是完成活动度目标的必要条件，而不是额外待遇。"
+  ],
+  "when_to_seek_care": [
+   "术后某一周活动度不增反减、或膝关节卡住伸不直，尽快复查评估粘连或移植物问题。",
+   "肿胀持续加重伴发热，就诊排除感染与关节积血。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《竞技体育运动员前交叉韧带损伤后重返运动的手术与康复治疗专家共识（2025版）》（中华创伤杂志2025,41(4)）",
+    "journal": "",
+    "year": 2025,
+    "url": "http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=12253",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-acl-return-time",
+  "condition_zh": "多久能重返运动",
+  "condition_en": "Time threshold and function criteria for return to sport after ACL",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "十字韧带多久能打球",
+   "术后几个月复出",
+   "重返运动标准",
+   "LSI90重返运动",
+   "ACL复出评估项目",
+   "为什么不能按时间复出",
+   "韧带重建多久跑步",
+   "术后9个月评估"
+  ],
+  "prevention": [
+   "共识：系统综述显示大部分以时间为重返运动标准的研究建议在9个月内让运动员重返运动（即不早于9个月的窗口进行评估）；也有学者提倡将LSI（肢体对称指数）达到90%以上作为重返运动标准。",
+   "重返运动前需要完成的评估是一整套：韧带稳定性、关节活动度、肌肉力量检测、跳跃测试、主观报告及综合成绩评估。所以「时间到了」不是复出的理由。",
+   "把9个月读成「9个月以后就可以打」是最常见的误读；共识读法是9个月内不安排重返，且评估达标才放行。"
+  ],
+  "when_to_seek_care": [
+   "术后不足9个月被要求或自行恢复急停急转运动，与医生重新确认评估结果。",
+   "单腿跳、双腿跳明显不对称或落地打软，说明功能未达标，继续康复。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《竞技体育运动员前交叉韧带损伤后重返运动的手术与康复治疗专家共识（2025版）》（中华创伤杂志2025,41(4)）",
+    "journal": "",
+    "year": 2025,
+    "url": "http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=12253",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-acl-testing-reinjury",
+  "condition_zh": "复出前测试能降多少风险",
+  "condition_en": "Quadriceps and jump symmetry testing lowers re-injury by 75 to 84 percent",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "ACL再损伤风险",
+   "复出测试降低风险",
+   "股四头肌力量对称",
+   "跳跃对称性测试",
+   "二次撕裂概率",
+   "术后多久再损伤最多",
+   "二次断裂预防",
+   "单腿跳测试十字韧带"
+  ],
+  "prevention": [
+   "共识：在重返运动前满足股四头肌力量及跳跃对称性测试条件，可以将ACL再损伤的风险降低75%~84%；运动员重返急停和急转运动是术后2年内再损伤的最大风险因素。",
+   "75%~84%这个区间是全篇最有行动价值的一句：它意味着再损伤在很大程度上是可预防的，而预防手段具体到两项可测量的测试。",
+   "后半句也要读进去：风险最大的窗口是术后2年内、且诱发动作是急停与急转——所以复出后头两年仍要把这两类动作的强度按阶段加回去。"
+  ],
+  "when_to_seek_care": [
+   "复出后再次扭伤伴肿胀，尽快复查评估移植物与半月板。",
+   "未做对称性测试就恢复对抗训练，请康复科补测后再决定。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《竞技体育运动员前交叉韧带损伤后重返运动的手术与康复治疗专家共识（2025版）》（中华创伤杂志2025,41(4)）",
+    "journal": "",
+    "year": 2025,
+    "url": "http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=12253",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-acl-psychological",
+  "condition_zh": "重返运动的心理准备度",
+  "condition_en": "Psychological readiness scales as return-to-sport decision factor",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "怕再次受伤不敢运动",
+   "ACL心理评估",
+   "恐动症量表",
+   "重返运动心理准备",
+   "疼得不敢用腿",
+   "运动恐惧症康复",
+   "术后不敢发力",
+   "ACL-RSI量表",
+   "怕次受伤不敢运动",
+   "怕再次受伤不敢"
+  ],
+  "prevention": [
+   "共识：术后9个月的心理评估表明ACL-RSI是术后2年重返运动的预测因子，测试达到85%临界值的运动员中无一例发生ACL再损伤；心理评估量表还包括疼痛灾难化级别（PCS）、恐动症评估（TSK）、恐惧-回避信念问卷（FABQ）。心理状态应作为重返运动的重要决策因素。",
+   "这条的现实意义很直接：功能练到了但不敢用腿，一样会出事——因为回避会让动作模式变形、发力不对称，反而把风险留在场上。",
+   "「无一例再损伤」是针对达到85%临界值的那群人，不是说分数高就免检；它给出的信号是心理评估可以、也应该被量化。"
+  ],
+  "when_to_seek_care": [
+   "已符合身体指标但仍恐惧发力、回避某些动作，找运动康复或心理专业人员介入，不要靠硬着头皮上场解决。",
+   "复出后再受伤导致情绪明显低落、拒绝继续康复，同样是需要专业帮助的信号。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《竞技体育运动员前交叉韧带损伤后重返运动的手术与康复治疗专家共识（2025版）》（中华创伤杂志2025,41(4)）",
+    "journal": "",
+    "year": 2025,
+    "url": "http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=12253",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-olt-who",
+  "condition_zh": "距骨骨软骨损伤",
+  "condition_en": "Osteochondral lesion of the talus: who and why",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "距骨骨软骨损伤是什么",
+   "踝关节扭伤后总痛",
+   "脚踝反复痛原因",
+   "创伤性关节炎踝关节",
+   "OLT是什么病",
+   "踝关节软骨损伤年龄",
+   "崴脚后踝关节长期痛",
+   "距骨软骨损伤30岁"
+  ],
+  "prevention": [
+   "《富血小板血浆治疗距骨骨软骨损伤专家共识（2023版）》：距骨骨软骨损伤（OLT）的发病与各类踝关节损伤密切相关，尤其是踝关节扭伤，且多见于30岁年龄段的男性患者；若处理不当可造成远期踝关节炎（创伤性关节炎），致残率高。",
+   "把它与「崴脚」连起来看是这条的重点：一次扭伤后长期、反复的踝部疼痛，不应只当成软组织伤没好。",
+   "远期后果是创伤性关节炎且致残率高，所以「忍一忍就好」在这里代价更大。"
+  ],
+  "when_to_seek_care": [
+   "踝关节扭伤后疼痛超过数月不退、反复肿胀或有关节卡住感，就诊排查距骨骨软骨损伤。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《富血小板血浆治疗距骨骨软骨损伤专家共识（2023版）》（中华创伤杂志2023,39(5)）",
+    "journal": "",
+    "year": 2023,
+    "url": "http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=11910",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-olt-stepped-care",
+  "condition_zh": "OLT的阶梯治疗",
+  "condition_en": "Stepped care for talar osteochondral lesions",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "OLT怎么治疗",
+   "距骨骨软骨损伤保守治疗",
+   "先吃药还是先打针",
+   "PRP什么时候用",
+   "Hepple一期治疗",
+   "非手术治疗多久无效升级",
+   "踝关节软骨损伤支具",
+   "传统非手术无效再注射",
+   "LT怎么治疗",
+   "T怎么治疗"
+  ],
+  "prevention": [
+   "共识建议阶梯化治疗：HeppleⅠ期损伤可首选非手术治疗（口服药物、关节腔内注射、支具保护及康复锻炼）。",
+   "PRP注射可在口服药物等传统非手术治疗无效后进行，通常为4~6周。也就是升级的触发条件是「传统非手术做了4~6周仍无效」，不是越早打越好。",
+   "支具保护与康复锻炼被明确列在非手术方案之内，说明这一阶段不是只吃药，活动管理与固定同样是指南内容。"
+  ],
+  "when_to_seek_care": [
+   "非手术治疗4~6周症状无改善，与医生讨论下一步（PRP或手术），而不是自行长期口服止痛药。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《富血小板血浆治疗距骨骨软骨损伤专家共识（2023版）》（中华创伤杂志2023,39(5)）",
+    "journal": "",
+    "year": 2023,
+    "url": "http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=11910",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-olt-prp-schedule",
+  "condition_zh": "PRP注射的剂量与疗程",
+  "condition_en": "PRP injection volume, interval and course for OLT",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "PRP注射几次",
+   "富血小板血浆间隔多久",
+   "PRP每次注射量",
+   "PRP间隔几周",
+   "打完PRP要活动脚踝吗",
+   "PRP疗程几次",
+   "富血小板血浆踝关节",
+   "PRP被动活动踝关节",
+   "PRP血小板浓度基线"
+  ],
+  "prevention": [
+   "共识（非手术关节腔内注射）：建议每次注射量为3~4 ml，必要时可间隔2~3周重复注射，每个疗程一般可达3次，并根据需要确定疗程以确保疗效。",
+   "注射后即刻进行被动的全范围踝关节活动，以保证药物在关节内弥散——这是操作细节，也解释了为什么打完不是立刻绷住不动。",
+   "「血小板浓度为基线浓度的4~6倍为宜」「采血量为8~100 ml」属制备参数，就诊时可用来核对机构是否规范，但不需要自己判断。"
+  ],
+  "when_to_seek_care": [
+   "注射后关节肿痛明显加重、发热，就诊评估。",
+   "多个疗程后仍无改善，回到阶梯上一步讨论手术方案。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《富血小板血浆治疗距骨骨软骨损伤专家共识（2023版）》（中华创伤杂志2023,39(5)）",
+    "journal": "",
+    "year": 2023,
+    "url": "http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=11910",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-olt-prp-aftercare",
+  "condition_zh": "PRP注射后的活动限制",
+  "condition_en": "Weight-bearing and sport restrictions after PRP injection",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "PRP打完多久能走路",
+   "注射后能运动吗",
+   "富血小板血浆后负重",
+   "打完PRP多久能打球",
+   "注射后几天不能锻炼",
+   "PRP后对抗运动限制",
+   "PRP后24小时别走路",
+   "PRP后三个月对抗运动",
+   "注射后运动"
+  ],
+  "prevention": [
+   "共识给出的非手术PRP治疗后康复原则：注射后24小时内避免负重及行走；2~3天内避免体育运动及重体力活动；2~3个月内不建议进行对抗性运动。",
+   "三个时间窗各管一件事：当天保护注射部位与药物分布，几天内避免炎症反应被运动放大，几个月内避开有撞击和扭伤风险的对抗项目。",
+   "「2~3个月避免对抗运动」最容易被忽略，也最容易与「不疼了就想上场」冲突——按窗口执行才与疗效判断一致。"
+  ],
+  "when_to_seek_care": [
+   "限制期内不慎负重或运动后疼痛加重，告知医生重新评估。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《富血小板血浆治疗距骨骨软骨损伤专家共识（2023版）》（中华创伤杂志2023,39(5)）",
+    "journal": "",
+    "year": 2023,
+    "url": "http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=11910",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "si-olt-mri-followup",
+  "condition_zh": "骨软骨修复术后复查MRI",
+  "condition_en": "MRI follow-up at 6 and 12 months after osteochondral repair",
+  "category": "sport_injury_rehab",
+  "keywords": [
+   "骨软骨修复术后复查",
+   "踝关节术后多久查MRI",
+   "MOCART评分",
+   "术后骨髓水肿",
+   "软骨修复恢复情况",
+   "踝关节术后随访",
+   "踝关节术后一年复查",
+   "MOCART踝关节修复"
+  ],
+  "prevention": [
+   "共识：MRI是最常用的术后影像学评估方法，可显示骨髓水肿范围及病灶修复情况（MOCART评分）；建议在术后6个月及12个月复查MRI，以明确骨软骨修复情况。",
+   "两个时间点是有原因的：软骨与软骨下骨的修复周期长，早于6个月看不出稳定的修复状态，12个月则用于确认修复是否维持。",
+   "症状好转不能替代影像复查——病灶未修复仍可能在恢复运动后再次出现疼痛与肿胀。"
+  ],
+  "when_to_seek_care": [
+   "未按6个月、12个月复查就恢复运动，或复查前症状反复，先完成评估再决定活动量。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《富血小板血浆治疗距骨骨软骨损伤专家共识（2023版）》（中华创伤杂志2023,39(5)）",
+    "journal": "",
+    "year": 2023,
+    "url": "http://manu24.magtech.com.cn/jweb_zgcszz/CN/article/downloadArticleFile.do?attachType=PDF&id=11910",
+    "level": "official_guideline"
+   }
+  ]
+ }
+]

@@ -1,0 +1,1977 @@
+[
+ {
+  "id": "ra-asthma-control-check",
+  "condition_zh": "哮喘控制水平自查",
+  "condition_en": "Asthma control level self-assessment over the past four weeks",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "哮喘控制得好不好",
+   "过去四周哮喘症状",
+   "夜间憋醒哮喘",
+   "活动受限哮喘",
+   "急救喷剂用几次",
+   "哮喘四项自查",
+   "哮喘控制水平分级",
+   "白天症状每周两次",
+   "缓解药用得越来越频繁",
+   "哮喘控制好不好",
+   "哮喘控制得"
+  ],
+  "prevention": [
+   "按哮喘控制水平分级，回顾过去4周的四项情况：日间哮喘症状>2次/周、夜间因哮喘憋醒、使用缓解药(SABA)次数>2次/周、哮喘引起的活动受限。四项全为「无」属于良好控制，存在1~2项为部分控制，存在3~4项为未控制。",
+   "这四问不需要器械，患者本人和家属都能回答，是复诊时最有用的信息。把它写在手机备忘录里按周记录，比凭印象说「最近还行」准确得多。",
+   "「部分控制」和「未控制」都不是继续原方案不动的理由：控制水平变化的主要用途就是提示医生调整用药级别，需要带着记录去复诊。"
+  ],
+  "when_to_seek_care": [
+   "四项中出现2项及以上，或近一周使用急救喷剂超过2次，应预约复诊评估控制方案。",
+   "夜间因哮喘憋醒频率增加，属于控制恶化的早期信号，不要等到影响白天再就诊。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（中华医学会呼吸病学分会哮喘学组；哮喘控制水平分级）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-act-score",
+  "condition_zh": "ACT哮喘控制测试",
+  "condition_en": "Asthma Control Test scoring: 20-25 well controlled, 16-19 not well controlled",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "ACT评分",
+   "哮喘控制测试问卷",
+   "哮喘自评25分",
+   "ACT19分什么意思",
+   "哮喘控制不佳评分",
+   "ACT问卷五道题",
+   "ACT20分代表什么",
+   "哮喘自评量表打分"
+  ],
+  "prevention": [
+   "ACT 问卷共5题（回顾过去4周），总分25分：评分20~25分代表哮喘控制良好；16~19分代表哮喘控制不佳；5~15分代表哮喘控制很差。",
+   "它适用于缺乏肺功能设备的基层场合做自评，也适合在家复测。分数是趋势指标——同一个人从24分掉到17分，比单次绝对值更值得警惕。",
+   "ACT 分值不能替代肺功能检查：它反映症状与生活影响，不反映气流受限程度，两者一起看才完整。"
+  ],
+  "when_to_seek_care": [
+   "ACT≤19分时联系医生评估是否需要上调治疗级别；≤15分属于控制很差，应尽快就诊。",
+   "自行填写有疑问（比如题目理解不一致）时，把问卷带给医生当面核对一次，之后照同样口径自评。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（中华医学会呼吸病学分会哮喘学组；ACT 控制水平评估）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-peak-flow",
+  "condition_zh": "峰流速仪居家监测",
+  "condition_en": "Home peak expiratory flow monitoring with a meter",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "峰流速仪怎么用",
+   "PEF个人最佳值",
+   "呼气峰流速监测",
+   "家里测峰流速",
+   "哮喘监测仪",
+   "峰流速下降提示",
+   "峰流速仪个人最佳值",
+   "峰流速下降说明什么",
+   "晨晚峰流速差异"
+  ],
+  "prevention": [
+   "峰流速仪携带方便、操作简单，患者可以居家自我监测呼气峰流速（PEF），根据监测结果及时调整用药。FEV1 和 PEF 是客观判断哮喘病情最常用的指标。",
+   "使用要点是「先建立个人最佳值」：在状态稳定的2~3周内每天测，取最好值作为基准，之后的下降幅度才有意义。只查一次数字和别人的数值比较没有价值。",
+   "监测频率按医生要求执行（通常早晚各一次并记录），变化幅度是判断急性加重和疗效的客观依据，比「感觉喘不喘」可靠。"
+  ],
+  "when_to_seek_care": [
+   "峰流速明显低于自己的个人最佳值、或短时间内持续下降，按哮喘行动计划用药并联系医生。",
+   "不会正确操作（吹气力度、体位、读数）时，先在门诊让护士或医生看一次动作，再回家自测。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（中华医学会呼吸病学分会哮喘学组，PEF 监测部分）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-asthma-diagnosis",
+  "condition_zh": "哮喘确诊",
+  "condition_en": "Objective lung-function criteria for diagnosing asthma",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "哮喘怎么确诊",
+   "支气管舒张试验",
+   "支气管激发试验",
+   "PEF变异率",
+   "可变气流受限",
+   "肺功能查哮喘",
+   "哮喘确诊的肺功能标准",
+   "可变气流受限怎么查",
+   "怎么确诊",
+   "哮喘确诊"
+  ],
+  "prevention": [
+   "哮喘诊断需具备可变气流受限的客观依据，以下3条至少符合1条：①支气管舒张试验阳性；②支气管激发试验阳性；③24 h PEF 变异率>10%。",
+   "换句话说，单靠症状（咳、喘、胸闷）不能确诊哮喘；反过来症状典型但肺功能三项全阴性，也需要医生考虑其他原因或安排复查。",
+   "支气管激发试验需要在停用相关药物后进行，检查前把正在用的吸入药、口服药告诉医生，否则结果可能出现假阳性或假阴性。"
+  ],
+  "when_to_seek_care": [
+   "反复喘息、胸闷、夜间或凌晨症状加重者，到能做肺功能的医院做上述客观检查而不是长期按「支气管炎」输液。",
+   "已按哮喘治疗但从未做过肺功能确认的，应在情况稳定时补做一次建立客观基线。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《常规肺功能检查基层指南（2018年）》（中华医学会，哮喘诊断气流受限标准）",
+    "journal": "",
+    "year": 2018,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-asthma-severity",
+  "condition_zh": "哮喘病情严重程度分级",
+  "condition_en": "Asthma severity grading: intermittent to severe persistent with FEV1 and PEF variability",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "哮喘严重度分级",
+   "间歇状态哮喘",
+   "轻度持续哮喘",
+   "中度持续哮喘",
+   "重度持续哮喘",
+   "FEV1占预计值",
+   "PEF变异率百分之三十",
+   "哮喘病情分级FEV1",
+   "夜间症状每月两次",
+   "严重度分级",
+   "哮喘严重度",
+   "状态哮喘",
+   "间歇状态"
+  ],
+  "prevention": [
+   "慢性持续期按症状频率与肺功能分为4级：间歇状态（症状<每周1次，夜间症状≤每月2次，FEV1占预计值%≥80% 或 PEF≥80%个人最佳值、PEF变异率<20%）；轻度持续（症状≥每周1次但<每日1次，夜间>每月2次但<每周1次，PEF变异率20%~30%）；中度持续（每日有症状，夜间≥每周1次，FEV1占预计值%60%~79%，PEF变异率>30%）；重度持续（每日症状频繁出现，FEV1占预计值%<60%，PEF变异率>30%）。",
+   "这套分级决定起始治疗级别，但患者常混淆两点：分级不等于「一辈子这样」，控制达标后可降级；而 FEV1 已经<60%预计值属于重度持续，需要严密随访。",
+   "自己在家无法测 FEV1，但 PEF 变异率可以通过峰流速仪获得，症状频率（每周几次、夜间醒几次）也可自查，把这些带给医生即可参与分级。"
+  ],
+  "when_to_seek_care": [
+   "出现每日症状、或每周夜间憋醒一次以上，说明病情不在轻症区间，应尽快就诊评估治疗级别。",
+   "肺功能提示 FEV1 占预计值<60%者需按医嘱固定间隔随访，不宜自行减药。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（中华医学会呼吸病学分会哮喘学组；病情严重程度分级表）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-feno",
+  "condition_zh": "FeNO呼出气一氧化氮",
+  "condition_en": "FeNO reference values and its role in predicting steroid response",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "FeNO是什么检查",
+   "呼出气一氧化氮",
+   "FeNO正常值",
+   "FeNO50",
+   "激素治疗反应",
+   "吹气查气道炎症",
+   "FeNO儿童正常范围",
+   "FeNO低于25提示"
+  ],
+  "prevention": [
+   "呼出气一氧化氮（FeNO）正常参考值：健康儿童5~20 ppb，成人5~25 ppb。FeNO>50 ppb 提示激素治疗效果好，<25 ppb 提示激素治疗反应性差。",
+   "它的实际用途是帮助判断气道炎症类型与吸入激素的可能反应，从而支持选药，不是「哮喘确诊依据」，也不能单独用来判断病情轻重。",
+   "检查只需一次平稳吹气，几分钟完成，儿童配合度要求低；若 FeNO 偏低而症状明显，医生可能考虑非嗜酸粒细胞途径的其他病因。"
+  ],
+  "when_to_seek_care": [
+   "吸入激素效果不理想、或反复咳嗽原因不明时，可与医生讨论加做 FeNO 帮助判断。",
+   "不要凭 FeNO 一项自行停用吸入激素；治疗调整需结合症状与肺功能。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（中华医学会呼吸病学分会哮喘学组；FeNO 参考值）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-asthma-controller-daily",
+  "condition_zh": "哮喘规律用药",
+  "condition_en": "When daily controller therapy is required in asthma",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "哮喘要每天用药吗",
+   "控制性药物和缓解药",
+   "哮喘不用天天吸",
+   "急性发作危险因素",
+   "FEV1低于八十",
+   "哮喘复诊间隔",
+   "哮喘长期控制治疗",
+   "规律吸入激素的必要性",
+   "哮喘每天用药"
+  ],
+  "prevention": [
+   "如症状超出轻度水平，存在任何急性发作危险因素（如 FEV1<80%预计值或个人最佳值），或过去一年有哮喘急性发作病史，均需要每天规律使用控制性药物。",
+   "「不喘就停、喘了再吸」对控制性药物（吸入激素及联合制剂）不成立——它靠持续抑制气道炎症起效，间断使用等于没有治疗。",
+   "随访节奏同样重要：通常起始治疗后每2~4周需复诊，以后每1~3个月随访1次；定期指导正确掌握药物吸入技术有助于哮喘控制。"
+  ],
+  "when_to_seek_care": [
+   "过去一年因哮喘急性发作就诊或夜间症状频繁者，应确认自己是否已在使用每日控制药。",
+   "起始治疗2~4周未复诊、或长期只拿急救药而没有随访的，应尽快挂号评估。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（中华医学会呼吸病学分会哮喘学组；控制性药物使用条件与随访）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-asthma-diary",
+  "condition_zh": "哮喘日记",
+  "condition_en": "Keeping an asthma diary as part of self-management",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "哮喘日记",
+   "哮喘自我管理",
+   "记录哮喘发作诱因",
+   "哮喘行动计划",
+   "记症状和用药",
+   "哮喘日记写什么",
+   "记录天气饮食和症状",
+   "峰流速记录表",
+   "哮喘日记写"
+  ],
+  "prevention": [
+   "哮喘患者自我管理包括：写哮喘日记，记录天气、饮食、症状和用药等内容；使用峰流速仪监测病情；定期就诊与医师确定哮喘管理计划。",
+   "日记的价值在「模式」而不是「流水」：连续几次的发作若都发生在同一季节、同一场所或同一类食物后，就指向可回避的诱因。",
+   "就诊时把日记（或手机里的记录）直接给医生看，能显著减少「记不清最近怎么样」造成的方案误判。"
+  ],
+  "when_to_seek_care": [
+   "还没建立记录的哮喘患者，从记「每天症状＋急救药用了几次」两项开始即可。",
+   "日记显示症状逐周加重或使用急救药次数上升时，按预约时间提前复诊。"
+  ],
+  "citations": [
+   {
+    "type": "official_guidance",
+    "title": "2024年世界哮喘日科普材料（石狮市政府网转载）",
+    "journal": "",
+    "year": 2024,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-asthma-comorbidities",
+  "condition_zh": "哮喘合并症",
+  "condition_en": "Common comorbidities in asthma and the 0.7 fixed limitation caveat",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "哮喘合并过敏性鼻炎",
+   "哮喘合并胃食管反流",
+   "哮喘和慢阻肺重叠",
+   "哮喘睡眠呼吸暂停",
+   "哮喘肥胖",
+   "FEV1/FVC低于0.7",
+   "哮喘合并鼻窦炎",
+   "哮喘伴抑郁焦虑",
+   "哮喘合并敏性鼻炎",
+   "过敏性鼻炎"
+  ],
+  "prevention": [
+   "哮喘常见合并症包括变应性鼻炎、鼻窦炎、胃食管反流、肥胖、慢性阻塞性肺疾病、支气管扩张症、阻塞性睡眠呼吸暂停低通气综合征、抑郁和焦虑等。",
+   "合并症处理不好，哮喘本身也难以控制：鼻炎鼻塞与反流夜间发作都会加重下气道症状，肥胖则同时增加症状和药物需求。",
+   "肺功能方面要注意：部分患者即使吸入支气管舒张剂后 FEV1/FVC 仍<0.7，可能是哮喘未控制，也可能合并了慢阻肺——两种情况的长期方案并不相同，需要医生结合病史判断。"
+  ],
+  "when_to_seek_care": [
+   "哮喘控制不佳同时有明显鼻塞流涕、烧心反酸、打鼾憋醒或体重超标者，复诊时主动提出，评估合并症。",
+   "长期吸入治疗后 FEV1/FVC 持续<0.7 者，应做系统评估排除哮喘-慢阻肺重叠。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（中华医学会呼吸病学分会哮喘学组，合并症部分）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-ics-rinse-mouth",
+  "condition_zh": "吸入激素后清水漱口",
+  "condition_en": "Rinsing the mouth after inhaled corticosteroid use",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "吸入激素后漱口",
+   "激素喷剂声音嘶哑",
+   "口腔念珠菌吸入激素",
+   "储雾罐减少副作用",
+   "干粉吸入剂不良反应",
+   "喷完药要漱口吗",
+   "吸入激素咽部不适",
+   "ICS口腔副作用"
+  ],
+  "prevention": [
+   "ICS（吸入性糖皮质激素）在口咽局部可引起声音嘶哑、咽部不适和念珠菌感染；吸药后应及时用清水含漱口咽部，选用干粉吸入剂或加用储雾器可减少上述不良反应。",
+   "漱口水要吐掉而不是咽下，这一步是把沉积在口咽的药剂冲走；只漱口不留水吐出，效果会打折扣。",
+   "出现白色膜状物、疼痛性吞咽或持续声音嘶哑，说明局部不良反应已发生，应就诊处理而不是自行停药放弃吸入治疗。",
+   "储雾器（间隔器）对使用压力定量气雾剂的儿童尤其有价值，能减少口咽沉积并降低使用技巧的要求。"
+  ],
+  "when_to_seek_care": [
+   "反复声音嘶哑或口腔白膜，就诊评估并调整装置（换干粉或加储雾器）。",
+   "不确定自己是否漱对了方法，请医生或护士当场看一次操作流程。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（中华医学会呼吸病学分会哮喘学组；ICS 局部不良反应）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-saba-reliever",
+  "condition_zh": "哮喘缓解药沙丁胺醇",
+  "condition_en": "SABA reliever use: on-demand, paired with low-dose ICS, short onset duration",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "沙丁胺醇气雾剂",
+   "急救喷雾长期用",
+   "缓解药按需使用",
+   "只用万托林行吗",
+   "支气管扩张剂起效时间",
+   "SABA每月几支",
+   "万托林能长期用吗",
+   "缓解药过量危害"
+  ],
+  "prevention": [
+   "SABA（沙丁胺醇等）是缓解轻至中度哮喘急性症状的首选药、应按需使用，不宜长期、单一、过量应用；目前认为当按需使用 SABA 时应同时联合吸入低剂量的 ICS（证据等级A）。",
+   "把急救喷剂当「平时用的顺气药」是危险用法：单靠它压症状会让气道炎症继续进展，并增加急性发作风险。缓解药用量上升本身就是复诊信号。",
+   "起效与持续时长（WHO 口径）：短效支气管扩张剂在几秒钟内开始起作用，效果可持续4-6小时，常在发作期间使用；长效支气管扩张剂起效更慢但持续时间更长，应每天使用。",
+   "使用吸入剂必须采用正确技术，必要时用「间隔器」（储雾罐）协助给药。"
+  ],
+  "when_to_seek_care": [
+   "每周需要喷急救药超过2次，或一盒用得非常快，应就诊把控制治疗升级。",
+   "喷药后缓解不明显、或很快又喘起来，按急性发作处理并及时就医。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（中华医学会呼吸病学分会哮喘学组；SABA 使用原则）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   },
+   {
+    "type": "official_guidance",
+    "title": "WHO 中文实况报道《慢性阻塞性肺病》（支气管扩张剂起效与持续时间）",
+    "journal": "",
+    "year": 2024,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-laba-alone-risk",
+  "condition_zh": "长效支气管扩张剂不可单用",
+  "condition_en": "LABA must not be used alone in asthma because of mortality risk",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "福莫特罗单用",
+   "沙美特罗不配合激素",
+   "LABA增加死亡风险",
+   "哮喘死亡风险用药",
+   "长效β2激动剂单独用",
+   "哮喘联合制剂",
+   "沙美特罗不配激素",
+   "长效扩张剂单独使用风险"
+  ],
+  "prevention": [
+   "长期单独使用 LABA（长效β2受体激动剂）有增加哮喘死亡的风险，不推荐长期单独使用 LABA 治疗（证据等级A）。它必须与 ICS 联合使用。",
+   "临床上这一点通常由「联合制剂」保证（同一支药里含激素+长效扩张剂）；风险出现在患者自行只买长效扩张剂、或把别人的药拿来用。",
+   "家属可以核对的一件具体事：查看药盒上的成分名，如果只含福莫特罗/沙美特罗而没有布地奈德/氟替卡松等激素成分，应向医生确认用法。"
+  ],
+  "when_to_seek_care": [
+   "正在单独使用长效支气管扩张剂的哮喘患者，尽快复诊确认方案是否需要加吸入激素。",
+   "借用他人哮喘药、或自行网购来源不明的喷剂，属高风险行为，应停止并请医生开具方案。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（中华医学会呼吸病学分会哮喘学组；LABA 单用风险）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-inhaler-technique",
+  "condition_zh": "吸入装置正确用法",
+  "condition_en": "Inhaler device technique errors and clearing sputum before dosing",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "吸入器用不对",
+   "吸入装置误用",
+   "喷剂正确用法",
+   "吸气技巧哮喘",
+   "慢阻肺吸药前清痰",
+   "干粉吸入剂步骤",
+   "准纳器都保使用方法",
+   "吸入药物后屏气多久"
+  ],
+  "prevention": [
+   "国外研究显示70%~80%的患者不能正确使用吸入装置，许多医生也不能正确指导；使用不当会导致哮喘控制不佳、增加急性发作风险和药物不良反应。控制不理想时，首先要怀疑的是用法而不是「药不管用」。",
+   "不同装置（压力定量气雾剂、干粉吸入剂、软雾剂）的操作要点差别很大：前者需要缓慢深吸同步按压，后者多要求快速有力深吸气；混用同一套动作会显著降低入肺剂量。",
+   "慢阻肺患者存在黏液过度分泌可能阻塞小气道，建议吸入药物前主动咳嗽，如有痰声，需要清除痰液后再吸入药物、避免吸入药物被痰液带出无法发挥药效。",
+   "每次复诊都可以要求护士或医生现场看一遍自己的操作，这是最便宜也最少被使用的干预。"
+  ],
+  "when_to_seek_care": [
+   "症状控制不佳或反复急性发作，先复训吸入技术再考虑加药。",
+   "手上同时有两种以上吸入装置且分不清顺序、剂量时，请医生写明使用顺序与间隔。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（中华医学会呼吸病学分会哮喘学组；吸入装置正确使用）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病诊治指南（2021年修订版）》（中华医学会呼吸病学分会COPD学组等；吸药前清除痰液）",
+    "journal": "",
+    "year": 2021,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-nebulizer-device",
+  "condition_zh": "家用雾化器类型选择",
+  "condition_en": "Nebulizer types: ultrasonic nebulizers are unsuitable for wheezing diseases",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "超声雾化器能不能用",
+   "家用雾化器怎么选",
+   "混悬液雾化",
+   "小容量雾化器",
+   "雾化颗粒直径",
+   "雾化器药液升温",
+   "压缩雾化器和超声区别",
+   "婴幼儿雾化机选择"
+  ],
+  "prevention": [
+   "超声雾化器会影响混悬液（如糖皮质激素雾化制剂）释出比例并使药液升温，药雾微粒输出效能低，不适用于哮喘等喘息性疾病的治疗。",
+   "关键在于药液类型：布地奈德混悬液这类「混悬液」需要射流（压缩气体）或振动筛孔雾化器才能有效雾化；老的「插上电就能用」的超声雾化器做不到。",
+   "小容量雾化器储液容量一般小于10 mL，一次只能装少量药液；给孩子做雾化时若药液剩余而不出雾，属于正常结束而不是「再加水接着做」。",
+   "理想 ICS 的空气动力学粒径应<5 μm；颗粒 5~10 μm 主要沉积口咽部，3~<5 μm 沉积肺部，<3 μm 约50%~60%可到达肺泡。这也解释了为什么「雾化出雾大小」不是越小越好或越大越好。"
+  ],
+  "when_to_seek_care": [
+   "准备购买家用雾化器前，先确认医生开的是哪种剂型（混悬液/溶液），据此选射流或振动筛孔雾化器。",
+   "雾化中症状反而加重（见「雾化中出现哪些表现要停」条目）应停止并就医。"
+  ],
+  "citations": [
+   {
+    "type": "expert_consensus",
+    "title": "《雾化吸入疗法合理用药专家共识（2019年版）》（中华医学会临床药学分会等；雾化器选择与粒径）",
+    "journal": "",
+    "year": 2019,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-nebulization-procedure",
+  "condition_zh": "家庭雾化操作规范",
+  "condition_en": "Home nebulization procedure: fasting before, rinsing after, when to stop",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "雾化前能吃饭吗",
+   "雾化前要洗脸吗",
+   "雾化后漱口",
+   "面罩雾化皮肤刺激",
+   "雾化中咳嗽加重",
+   "雾化要多久一次",
+   "雾化前不抹油性面膏",
+   "孩子睡着做雾化"
+  ],
+  "prevention": [
+   "雾化吸入治疗前1 h不应进食，并清洁口腔分泌物和食物残渣，以防气流刺激引起呕吐；洗脸、不抹油性面膏，以免药物吸附皮肤；婴幼儿宜在安静或睡眠状态下治疗，前30 min不应进食。",
+   "使用 ICS 雾化后药物可沉积口咽引起局部不良反应，使用后立即漱口和漱喉可有效减少；雾化吸入结束时应及时漱口和洗脸，面罩使用者用湿毛巾抹干净口鼻部以下雾珠，以防残留雾滴刺激皮肤。",
+   "过程中需要观察的反应：急剧频繁咳嗽及喘息加重应放缓吸入速度；出现震颤、肌肉痉挛（SABA 所致者一般停药后即恢复）应停药并告知医生；出现呼吸急促、感到困倦或突然胸痛，应停止治疗并立即就医。"
+  ],
+  "when_to_seek_care": [
+   "家庭雾化中出现上述任一种停止信号，尤其呼吸急促、困倦或胸痛，立即停止并就医。",
+   "每次雾化后孩子不肯漱口时，可用清水擦拭口周并喂少量水，同时向护士学习减少口咽沉积的面罩使用方法。"
+  ],
+  "citations": [
+   {
+    "type": "expert_consensus",
+    "title": "《雾化吸入疗法合理用药专家共识（2019年版）》（中华医学会临床药学分会等；操作前中后注意事项）",
+    "journal": "",
+    "year": 2019,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-asthma-attack-home",
+  "condition_zh": "哮喘家庭急救",
+  "condition_en": "Home management of an asthma attack and the two-day treatment failure rule",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "哮喘发作在家怎么办",
+   "哮喘行动计划",
+   "家庭急救药",
+   "常备短效支气管舒张剂",
+   "家里要不要备雾化器",
+   "哮喘发作几天不好要就医",
+   "哮喘初始治疗两天无效",
+   "中重度发作立即医院",
+   "哮喘发作几天不好医",
+   "几天不好要就医"
+  ],
+  "prevention": [
+   "轻度和部分中度急性发作可遵循「哮喘行动计划」自我处理，但初始治疗2 d后如效果不佳或持续恶化者应到医院就诊；即便获得缓解，也建议到医院评估控制水平、查找诱因、调整方案。中重度及危重度发作应尽快到医院治疗。",
+   "家庭准备的具体内容：牢记哮喘急性加重的家庭急救方法，常备短效支气管舒张剂，能熟练正确地使用吸入气雾剂，或者在家中配备雾化器以备不时之需。",
+   "「缓解了就没事」是最容易出事的判断：一次急性发作本身提示控制方案失效，需要复诊调整，否则下一次发作往往更重。"
+  ],
+  "when_to_seek_care": [
+   "家庭处理2天仍不缓解、或期间持续恶化，务必就诊；即使缓解也应在近期复诊。",
+   "讲话只能成单词、端坐呼吸、大汗、嗜睡或意识模糊，属危重信号，立即拨打120或送急诊（见「哮喘危重信号」条目）。"
+  ],
+  "citations": [
+   {
+    "type": "expert_consensus",
+    "title": "《支气管哮喘急性发作评估及处理中国专家共识》（中华医学会呼吸病学分会哮喘学组、中国哮喘联盟；家庭与社区处理）",
+    "journal": "",
+    "year": 2018,
+    "url": "",
+    "level": "official_guideline"
+   },
+   {
+    "type": "official_guidance",
+    "title": "2024年世界哮喘日科普材料（石狮市政府网转载，家庭急救准备）",
+    "journal": "",
+    "year": 2024,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-asthma-attack-saba-dose",
+  "condition_zh": "哮喘发作急救喷剂用量",
+  "condition_en": "SABA dosing during an asthma attack: 2-4 puffs every 20 minutes in the first hour",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "沙丁胺醇喷几次",
+   "哮喘急救每二十分钟",
+   "一次吸几喷",
+   "急性发作吸入次数上限",
+   "急救喷剂重复使用",
+   "家庭雾化沙丁胺醇剂量",
+   "中度发作每1到2小时喷",
+   "哮喘急救喷两次四喷"
+  ],
+  "prevention": [
+   "急性发作时 SABA 的初始剂量为2~4喷，每20分钟吸入1次，1 h后观察治疗反应（约第1小时内可每20分钟吸入2~4喷）。",
+   "随后按严重程度调整：轻度发作每3~4小时2~4喷。中度发作的频次在同一份共识中有两处口径——家庭与社区处理节为每1~2小时6~10喷，医院内处理节为每1~2小时4~8喷（轻度口径一致，中度不一致，本条如实并列）。",
+   "按需重复吸入不能替代就医：若首小时反应不佳，说明需要全身激素等处理，应尽快到医院而不是继续自行加喷。"
+  ],
+  "when_to_seek_care": [
+   "初始1小时内反复吸入后仍明显气短、或需要比上述更频繁地用药，立即就医。",
+   "出现讲话困难、嗜睡、胸腹矛盾呼吸等表现，按危重处理并拨打120。"
+  ],
+  "citations": [
+   {
+    "type": "expert_consensus",
+    "title": "《支气管哮喘急性发作评估及处理中国专家共识》（家庭与医院内 SABA 剂量频次，两处口径并存）",
+    "journal": "",
+    "year": 2018,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-asthma-attack-ipratropium",
+  "condition_zh": "异丙托溴铵联合雾化",
+  "condition_en": "Adding ipratropium bromide to SABA during acute asthma",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "异丙托溴铵哮喘",
+   "爱全乐雾化剂量",
+   "两种喷雾一起用",
+   "抗胆碱能支气管扩张剂",
+   "联合雾化减少住院",
+   "爱全乐和沙丁胺醇一起",
+   "异丙托溴铵500微克",
+   "联合雾化减少住院次数",
+   "丙托溴铵哮喘",
+   "异丙托溴铵"
+  ],
+  "prevention": [
+   "SABA 与短效抗胆碱能药物（异丙托溴铵）联合使用舒张支气管作用更佳，可更有效改善肺功能并减少哮喘急性发作住院次数。",
+   "异丙托溴铵使用剂量为每次2喷或500 μg雾化，每6小时1次。这是需要医生指派的联合方案，不是自行加药。",
+   "联合用药的目的之一是争取时间、减少住院；若家庭已同时使用两种喷剂仍未缓解，应立即转到医院处理而不是继续家中观察。"
+  ],
+  "when_to_seek_care": [
+   "家中需同时使用两种吸入药物才能勉强缓解时，说明发作偏重，应尽早就诊评估。",
+   "出现口干、排尿困难等抗胆碱能不良反应明显时告知医生调整。"
+  ],
+  "citations": [
+   {
+    "type": "expert_consensus",
+    "title": "《支气管哮喘急性发作评估及处理中国专家共识》（中华医学会呼吸病学分会哮喘学组、中国哮喘联盟）",
+    "journal": "",
+    "year": 2018,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-asthma-attack-formoterol",
+  "condition_zh": "布地奈德福莫特罗加量缓解",
+  "condition_en": "Using budesonide-formoterro as reliever with a daily puff ceiling",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "信必可加用几吸",
+   "布地奈德福莫特罗缓解",
+   "每日总量不超过8吸",
+   "哮喘维持加缓解疗法",
+   "一个药既维持又急救",
+   "MART疗法",
+   "信必可按需吸入",
+   "福莫特罗当急救药"
+  ],
+  "prevention": [
+   "若患者的控制治疗药物为福莫特罗低剂量激素联合制剂，急性发作时可直接加用1~2吸，每日总量不超过8~12吸。",
+   "这一方案的意义在于「同一支药既做维持也做缓解」，减少随身携带两种装置和混淆用法的风险；上限是安全边界，超过上限仍不缓解必须就医。",
+   "只有含福莫特罗的联合制剂才适用于这种加用方式；其他长效制剂不可套用同一逻辑，需严格按医生书面指示执行。"
+  ],
+  "when_to_seek_care": [
+   "达到每日8~12吸的上限仍有症状，立即就医，不再自行加吸。",
+   "使用这一方案期间需要每天累计吸数并记录，复诊时提供总量数据。"
+  ],
+  "citations": [
+   {
+    "type": "expert_consensus",
+    "title": "《支气管哮喘急性发作评估及处理中国专家共识》（福莫特罗联合制剂加用剂量与每日上限）",
+    "journal": "",
+    "year": 2018,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-asthma-attack-steroid",
+  "condition_zh": "哮喘发作期激素用量",
+  "condition_en": "Escalating corticosteroids during an asthma attack: doubled ICS ceiling and oral prednisolone",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "哮喘发作吸入激素加倍",
+   "布地奈德1600",
+   "口服泼尼松哮喘",
+   "哮喘要不要打激素针",
+   "发作期雾化布地奈德",
+   "全身激素效果",
+   "泼尼松龙30到50毫克",
+   "哮喘发作口服激素",
+   "哮喘发作吸入激素加"
+  ],
+  "prevention": [
+   "急性发作应增加控制用 ICS 剂量，至少为基础量的2倍，最高剂量可达布地奈德1 600 μg/d 或等效的其他 ICS；条件允许者雾化吸入布地奈德混悬液每次1~2 mg、每日3次。",
+   "治疗反应不佳（尤其在控制性治疗基础上发作）应加用全身激素。口服泼尼松吸收快、生物利用度高，与静脉激素效果类似，急性发作可首选口服泼尼松龙30~50 mg或等效的其他激素，除非呕吐或过度气短无法吞咽。",
+   "「口服和输液效果类似」这一点常被忽略，它意味着许多患者不必为了激素而反复跑急诊输液；但前提是医生已经评估过发作程度并明确开具口服方案。"
+  ],
+  "when_to_seek_care": [
+   "家庭处理1小时后反应不佳、或本次发作发生在规律吸入控制药的基础上，应就医并评估全身激素使用。",
+   "需要反复使用口服激素者，应与医生讨论长期方案（含副作用管理），不要自行在每次发作时翻出剩药服用。"
+  ],
+  "citations": [
+   {
+    "type": "expert_consensus",
+    "title": "《支气管哮喘急性发作评估及处理中国专家共识》（ICS 加量与全身激素应用）",
+    "journal": "",
+    "year": 2018,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-asthma-home-oxygen",
+  "condition_zh": "哮喘吸氧浓度",
+  "condition_en": "Home oxygen therapy target SpO2 93-95% during an asthma attack",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "哮喘吸氧浓度",
+   "血氧饱和度93",
+   "家用制氧机哮喘",
+   "指夹血氧仪哮喘",
+   "发作时吸氧多少",
+   "哮喘吸氧目标93到95",
+   "家用制氧机哮喘用",
+   "初始高流量吸氧",
+   "吸氧浓度",
+   "哮喘吸氧"
+  ],
+  "prevention": [
+   "有条件的哮喘急性发作患者可家庭氧疗，初始可为高流量吸氧，应根据脉搏血氧饱和度（SpO2）监测调整吸氧浓度，维持 SpO2 93%~95%即可。",
+   "指夹血氧仪的读数比「感觉好点」客观：吸氧后 SpO2 仍低于目标区间，或气短不缓解，说明家庭处理已经不够，需要转诊。",
+   "血氧仪在手指冰冷、涂指甲油、心律不齐时读数可能不准，测量时让手 warm 至常温、去掉指甲油并静坐后再读。"
+  ],
+  "when_to_seek_care": [
+   "家庭吸氧后 SpO2 仍不能维持在93%以上，或患者意识改变，立即急诊。",
+   "吸氧管、制氧机的使用清洁按说明执行，慢阻肺合并哮喘者的长期氧疗目标另行按医生处方。"
+  ],
+  "citations": [
+   {
+    "type": "expert_consensus",
+    "title": "《支气管哮喘急性发作评估及处理中国专家共识》（氧疗与 SpO2 目标）",
+    "journal": "",
+    "year": 2018,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-asthma-severe-signs",
+  "condition_zh": "重度哮喘发作表现",
+  "condition_en": "Red flags of severe and life-threatening asthma including silent chest",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "重度哮喘发作表现",
+   "端坐呼吸",
+   "只能讲一个字",
+   "三凹征",
+   "胸腹矛盾呼吸",
+   "沉默肺",
+   "哮鸣音消失危险",
+   "哮喘大汗脉搏120",
+   "不能讲话哮鸣音减弱",
+   "辅助呼吸肌参与呼吸"
+  ],
+  "prevention": [
+   "提示重度/危重度发作的表现：气短发生于休息时、端坐呼吸、讲话只能成单词或单字乃至不能讲话、嗜睡或意识模糊、大汗淋漓、呼吸频率常>30次/min、脉率>120次/min 或变慢不规则、辅助呼吸肌活动及三凹征、胸腹矛盾呼吸、哮鸣音减弱乃至无。",
+   "只要符合某一程度的某些指标，无需满足全部指标，即可提示为该级别的急性发作。家属不需要凑齐所有表现才决定送医。",
+   "「沉默肺」特别反直觉：哮喘严重发作时哮鸣音可消失称沉默肺，为危重型。听到喘鸣声「突然不响了」而人更难受，是恶化而不是好转。",
+   "儿童重度发作评估需注重精神状态改变、说话方式、辅助呼吸肌参与、SpO2 及肺部哮鸣音——孩子往往不会主诉，靠观察。"
+  ],
+  "when_to_seek_care": [
+   "出现上述任一危重表现，立即拨打120或就近急诊，不要等待下一轮喷药效果。",
+   "既往有过因哮喘住院或插管史者阈值更低，一有加重趋势就直接急诊。"
+  ],
+  "citations": [
+   {
+    "type": "expert_consensus",
+    "title": "《支气管哮喘急性发作评估及处理中国专家共识》（急性发作分级指标与沉默肺）",
+    "journal": "",
+    "year": 2018,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-child-asthma-warning",
+  "condition_zh": "儿童哮喘先兆",
+  "condition_en": "Acting on paediatric asthma prodromal symptoms with inhaled budesonide",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "孩子哮喘先兆",
+   "流涕打喷嚏是发作前",
+   "儿童雾化布地奈德",
+   "孩子哮喘急诊次数",
+   "儿童哮喘加重信号",
+   "感冒后咳嗽警惕哮喘",
+   "先兆期雾化布地奈德7天",
+   "儿童重度发作评估要点"
+  ],
+  "prevention": [
+   "儿童哮喘急性发作前常有流涕、打喷嚏、咳嗽等先兆症状；出现先兆时选用雾化吸入布地奈德1 mg/次、2次/d、连用7 d，可减少急性发作和急诊次数。",
+   "先兆被识别为「感冒」而只做退热和止咳，是儿童哮喘发作的常见延误路径。有哮喘史的孩子出现这类症状时，应同时启动医生预先交代的花生剂量方案。",
+   "这套短期加量方案需要医生预先书面指定（什么时候开始、用几天、何时复诊），家长不宜自行反复启用。"
+  ],
+  "when_to_seek_care": [
+   "孩子出现呼吸加快、鼻翼扇动、说话断断续续或口唇发青，立即急诊。",
+   "按先兆方案处理3天仍无好转，或夜间因咳喘醒来，尽早复诊。"
+  ],
+  "citations": [
+   {
+    "type": "expert_consensus",
+    "title": "《支气管哮喘急性发作评估及处理中国专家共识》（儿童哮喘急性发作先兆处理）",
+    "journal": "",
+    "year": 2018,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-asthma-stepdown",
+  "condition_zh": "哮喘降级治疗",
+  "condition_en": "Asthma step-down: after three months of control, dose first then frequency",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "哮喘药什么时候减",
+   "哮喘能停药吗",
+   "降级治疗",
+   "减药顺序先减激素",
+   "最低有效治疗级别",
+   "停吸入激素风险",
+   "哮喘药什么时候能减",
+   "哮喘控制三个月降级",
+   "哮喘药时候减",
+   "哮喘停药"
+  ],
+  "prevention": [
+   "哮喘控制维持至少3个月以上可以考虑降级治疗，以找到维持哮喘控制的最低有效治疗级别；完全停用 ICS 有可能增加急性发作风险。",
+   "药物减量顺序通常是首先减少激素用量（口服或吸入），再减少使用次数（由每日2次减至每日1次），然后减去与激素合用的其他控制药物，以最低剂量 ICS 维持治疗。",
+   "「减到不吸激素只吸扩张剂」不符合这个顺序——降级是以保留最低剂量 ICS 为目标的，把激素先停掉、留下长效扩张剂恰恰是危险组合。"
+  ],
+  "when_to_seek_care": [
+   "自认为已控制、想自行停药时，改为预约复诊按上述顺序降级。",
+   "降级过程中症状回升，应恢复原方案并复诊，而不是硬撑验证「能不能减」。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（中华医学会呼吸病学分会哮喘学组；降级治疗原则与顺序）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-asthma-stepdown-rate",
+  "condition_zh": "哮喘减药速度与不宜降级人群",
+  "condition_en": "Safe step-down rate of 25-50% ICS every three months and contraindicating factors",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "每三个月减百分之二十五",
+   "ICS减量速度",
+   "降阶梯感染妊娠",
+   "SABA每月一支",
+   "降级失败恢复方案",
+   "哮喘降级危险因素",
+   "怀孕旅行期间不降级",
+   "吸入技术差能不能降级"
+  ],
+  "prevention": [
+   "降级治疗原则：每3个月减少 ICS 剂量25%~50%通常是安全可行的；需避开呼吸道感染、妊娠、旅行期；每次降级都视为一次可能失败的试验，一旦症状恶化需恢复原方案。",
+   "存在急性发作危险因素者一般不推荐降级：SABA 用量每月>1支（200喷/支）、依从性或吸入技术差、FEV1 占预计值%<60%、吸烟或暴露于变应原、痰或血嗜酸粒细胞增高、存在合并症或重大心理/社会经济问题、固定气流受限；确需降级也应严密监督。",
+   "旅行、搬家、换季这些时段的「症状好像稳定了」不宜作为降级时机——外部诱因改变会让评估失真。"
+  ],
+  "when_to_seek_care": [
+   "过去一个月急救喷剂用完超过一支（约200喷）者，先解决控制问题，暂缓讨论减量。",
+   "降级后两周内症状回升，立即恢复原剂量并联系医生。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（中华医学会呼吸病学分会哮喘学组；降级速率与不推荐降级情形）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-cva-cough-variant",
+  "condition_zh": "咳嗽变异性哮喘",
+  "condition_en": "Cough variant asthma: at least eight weeks of therapy and 32.6% of chronic cough",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "咳嗽变异性哮喘",
+   "只咳不喘是哮喘吗",
+   "CVA治疗多久",
+   "慢性咳嗽最常见病因",
+   "久咳吸入激素",
+   "咳嗽变异型哮喘要查什么",
+   "CVA疗程八周以上",
+   "夜间干咳为主是哮喘",
+   "只咳不喘哮喘",
+   "咳嗽变异型"
+  ],
+  "prevention": [
+   "咳嗽变异性哮喘（CVA）治疗原则与哮喘相同，大多数患者 ICS 或 ICS+LABA 治疗有效，治疗时间在8周以上；部分患者停药后复发需长期治疗。",
+   "国内慢性咳嗽病因中 CVA 最常见，占慢性咳嗽病因的32.6%。长期干咳查不出感染、鼻窦和胃食管问题的，CVA 是首先要考虑的方向之一。",
+   "8周以上是疗程要求：咳了两三周见轻就停，是复发和转成典型哮喘的常见原因。"
+  ],
+  "when_to_seek_care": [
+   "干咳超过8周、夜间或凌晨明显、遇冷空气和运动加重，就诊做肺功能与支气管激发试验。",
+   "按 CVA 治疗有效者应完成8周以上疗程后复诊评估，不自行停药。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（咳嗽变异性哮喘治疗原则与疗程）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《咳嗽基层诊疗指南（实践版·2018）》（慢性咳嗽病因构成，CVA 占32.6%）",
+    "journal": "",
+    "year": 2018,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-cough-duration",
+  "condition_zh": "急性咳嗽病程",
+  "condition_en": "Cough classification by duration: acute under 3 weeks, chronic over 8 weeks",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "急性咳嗽多久",
+   "亚急性咳嗽三到八周",
+   "慢性咳嗽八周",
+   "湿咳痰量十毫升",
+   "咳嗽几周要查",
+   "干咳湿咳区别",
+   "咳嗽三周以内算急性",
+   "慢性咳嗽病因占比",
+   "咳嗽几周查",
+   "咳嗽几周",
+   "急性咳嗽"
+  ],
+  "prevention": [
+   "按病程咳嗽可分为急性咳嗽（<3周）、亚急性咳嗽（3~8周）和慢性咳嗽（>8周）；按性质分为干咳与湿咳（每天痰量>10 ml）。",
+   "这条分界决定了检查策略：急性咳嗽多为呼吸道感染，而超过8周的慢性咳嗽需要按病因清单排查（咳嗽变异性哮喘、上气道咳嗽综合征、嗜酸粒细胞性支气管炎、胃食管反流性咳嗽等），继续吃消炎药往往无效。",
+   "痰量以「每天大约多少毫升」估计即可，用来区分干咳与湿咳；黄绿痰、铁锈色痰或带血属于需要就诊评估的信号。"
+  ],
+  "when_to_seek_care": [
+   "咳嗽超过3周仍未缓解应就诊；超过8周按慢性咳嗽路径系统检查。",
+   "伴发热不退、气促、胸痛、咯血或消瘦者不等病程界限，立即就医。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《咳嗽基层诊疗指南（实践版·2018）》（病程分类与湿咳界定）",
+    "journal": "",
+    "year": 2018,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-atypical-asthma",
+  "condition_zh": "胸闷变异性哮喘",
+  "condition_en": "Atypical asthma: cough or chest tightness over two months, worse at night, with allergy history",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "不典型哮喘",
+   "胸闷变异性哮喘",
+   "咳嗽两月不缓解",
+   "夜间症状重于白天",
+   "过敏性鼻炎合并哮喘",
+   "湿疹的人容易哮喘",
+   "只咳不喘要查肺功能",
+   "刺激性干咳查过敏"
+  ],
+  "prevention": [
+   "反复咳嗽或胸闷2个月以上不缓解，夜间症状较日间明显，尤其伴过敏性鼻炎或湿疹、荨麻疹等过敏性疾病者，需就诊排查咳嗽变异性哮喘/胸闷变异性哮喘（做肺功能和支气管激发试验）。",
+   "这类哮喘没有「喘息」这个最典型的标签，常被长期当作感冒后咳嗽、气管炎或心脏问题处理；不典型哮喘同样需要规范吸入激素治疗。",
+   "个人过敏史（鼻炎、湿疹、荨麻疹）与家族过敏史是提示方向的关键信息，就诊时应主动说明。"
+  ],
+  "when_to_seek_care": [
+   "咳嗽/胸闷超过2个月且夜间更重者，做肺功能与激发试验而不是继续服用止咳药。",
+   "有过敏性疾病史、换季或接触过敏原后症状加重者，可提前到呼吸科评估。"
+  ],
+  "citations": [
+   {
+    "type": "official_guidance",
+    "title": "2024年世界哮喘日科普材料（石狮市政府网转载；不典型哮喘识别）",
+    "journal": "",
+    "year": 2024,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-copd-diagnosis",
+  "condition_zh": "慢阻肺肺功能诊断界值",
+  "condition_en": "COPD diagnosis: post-bronchodilator FEV1/FVC below 70 percent",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "慢阻肺怎么确诊",
+   "FEV1/FVC低于70",
+   "持续气流受限",
+   "吸入支气管舒张剂后肺功能",
+   "临界值复查三个月",
+   "慢阻肺过度诊断",
+   "慢阻肺诊断金标准",
+   "吸入支气管舒张剂",
+   "慢阻肺确诊"
+  ],
+  "prevention": [
+   "吸入支气管舒张剂后 FEV1/FVC<70% 是判断存在持续气流受限、诊断慢阻肺的肺功能标准。",
+   "临界带的处理有明确建议：若 FEV1/FVC 在68%~70%之间，建议3个月后复查，减少临界值过度诊断。刚感冒、未停用支气管舒张药物都会影响这个比值。",
+   "肺功能检查是诊断的必经步骤，只凭「咳嗽咳痰多年、吸烟」可以提示但不能确诊；反过来单看胸片正常也不能排除。"
+  ],
+  "when_to_seek_care": [
+   "长期吸烟或职业粉尘接触者出现活动后气短，应做一次吸入支气管舒张剂后的肺功能。",
+   "报告在临界值附近者按医嘱3个月后复查，不要就此接受或否认诊断。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病诊治指南（2021年修订版）》（中华医学会呼吸病学分会COPD学组等；气流受限标准）",
+    "journal": "",
+    "year": 2021,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-lung-function-screen",
+  "condition_zh": "四十岁以上肺功能筛查",
+  "condition_en": "Spirometry screening after age 40 in at-risk people and GOLD airflow grades",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "肺功能筛查年龄",
+   "四十岁以上查肺功能",
+   "GOLD一级到四级",
+   "FEV1占预计值百分之五十",
+   "慢阻肺分级",
+   "重度气流受限",
+   "慢阻肺GOLD2级",
+   "肺通气功能筛查"
+  ],
+  "prevention": [
+   "对40岁以上、有慢阻肺高危因素者要常规进行肺通气功能筛查以早期诊断。",
+   "气流受限按支气管舒张剂后 FEV1 占预计值%分为4级：FEV1≥80%预计值为 GOLD 1级，50%≤FEV1<80%为 GOLD 2级，30%≤FEV1<50%为 GOLD 3级，FEV1<30%为 GOLD 4级。",
+   "分级影响治疗强度与随访频率，也影响手术、麻醉等风险评估；患者拿到报告时可以先看落在哪一级，再与医生讨论对应管理。",
+   "很多人直到 FEV1 已降到50%以下才第一次做肺功能，因此把这项检查纳入40岁后的常规体检是本方向最有价值的一步。"
+  ],
+  "when_to_seek_care": [
+   "40岁以上、吸烟或长期接触粉尘/生物质燃料烟雾、有慢性咳嗽咳痰者，主动要求做一次肺通气功能检查。",
+   "GOLD 3级及以下者应与医生约定固定随访间隔并复查肺功能。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《常规肺功能检查基层指南（2018年）》（高危人群筛查建议）",
+    "journal": "",
+    "year": 2018,
+    "url": "",
+    "level": "official_guideline"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病诊治指南（2021年修订版）》（GOLD 气流受限分级）",
+    "journal": "",
+    "year": 2021,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-copd-symptom-scores",
+  "condition_zh": "慢阻肺症状自评量表",
+  "condition_en": "mMRC dyspnea grades and CAT score thresholds in COPD",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "mMRC呼吸困难分级",
+   "走一百米要停下喘",
+   "CAT评分二十分",
+   "慢阻肺自评问卷",
+   "症状多还是加重风险高",
+   "呼吸困难自评",
+   "mMRC三级要转诊",
+   "CAT评分八道题",
+   "呼吸困难量表0到4级"
+  ],
+  "prevention": [
+   "mMRC 分级：0级仅剧烈活动气短；1级平地快走或爬小坡气短；2级因气短平地行走比同龄慢或需停下休息；3级平地行走100 m左右或数分钟后需要停下来喘气；4级不能离开家或穿脱衣时呼吸困难。",
+   "基层口径给出行动线：mMRC 3级或以上应转诊进行肺疾病康复；mMRC 0~1分症状少、≥2分症状多。",
+   "CAT（慢阻肺患者自我评估测试）为8题、每题0~5分问卷。B 组若 CAT>20分推荐起始 LAMA+LABA 联合；血嗜酸粒细胞计数≥300个/μl 且症状较重（CAT>20分）者可考虑 ICS+LAMA+LABA 三联。",
+   "两个量表一个衡量气短、一个衡量整体影响，患者可自行记录，用于判断趋势和是否到了该升级/转诊的程度（CAT≥10分也是基层用于识别症状负担的界值）。"
+  ],
+  "when_to_seek_care": [
+   "平地走100米左右就要停下喘气（mMRC 3级），应转诊做肺康复评估。",
+   "CAT 超过20分或逐年上升，就诊讨论联合吸入方案。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病诊治指南（2021年修订版）》（mMRC 与 CAT 评估及治疗分组）",
+    "journal": "",
+    "year": 2021,
+    "url": "",
+    "level": "official_guideline"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病基层诊疗指南（实践版·2018）》（mMRC 转诊与高风险界值）",
+    "journal": "",
+    "year": 2018,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-copd-exacerbation-risk",
+  "condition_zh": "慢阻肺加重风险",
+  "condition_en": "High risk of COPD exacerbation: two moderate episodes or one hospitalization per year",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "慢阻肺频繁加重",
+   "一年两次急性加重",
+   "因急性加重住院",
+   "慢阻肺高风险人群",
+   "加重后要不要转诊",
+   "去年住过院",
+   "频繁加重怎么定义",
+   "急性加重住院过一次",
+   "频繁加重"
+  ],
+  "prevention": [
+   "上一年发生2次及以上中/重度急性加重、或1次及以上因急性加重住院，即评估为急性加重高风险人群（2021版指南）。",
+   "基层口径相同方向：每年≥2次急性加重为频繁加重，考虑专科转诊。",
+   "这一条的实际作用是「记账」：很多患者只记得最重的那次住院，不记得每年还有几次需要吃激素或抗生素的加重。按年数清加重次数，会直接改变长期方案（例如是否加用长效抗胆碱能药或三联吸入）。"
+  ],
+  "when_to_seek_care": [
+   "过去一年有2次以上需要治疗的加重，或住过一次院，应转专科重新评估维持方案。",
+   "每次加重后2周内安排随访有助于降低再住院（见「急性加重出院后随访」条目）。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病诊治指南（2021年修订版）》（急性加重风险评估）",
+    "journal": "",
+    "year": 2021,
+    "url": "",
+    "level": "official_guideline"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病基层诊疗指南（实践版·2018）》（频繁加重与转诊）",
+    "journal": "",
+    "year": 2018,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-copd-symptoms-risk",
+  "condition_zh": "慢阻肺常见症状与高危人群",
+  "condition_en": "Common COPD symptoms and the at-risk groups that should be screened",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "慢阻肺有什么症状",
+   "晨起咳痰呼吸困难",
+   "慢阻肺高危人群",
+   "二手烟会得慢阻肺吗",
+   "儿童期反复肺炎后果",
+   "慢阻肺家族史",
+   "慢阻肺乏力体重下降",
+   "慢阻肺九类高危人群",
+   "慢阻肺症状",
+   "二手烟慢阻肺",
+   "慢阻肺有什么"
+  ],
+  "prevention": [
+   "呼吸困难、慢性咳嗽和（或）咳痰是慢阻肺最常见的症状，重度患者常有乏力、体重下降和食欲减退。",
+   "高危人群包括：40岁及以上人群、长期吸烟及二手烟暴露者、哮喘或气道高反应者、接触粉尘有害气体者、儿童期反复呼吸系统感染史者、有慢阻肺家族史者等9类（中疾控2022世界慢阻肺日科普）。",
+   "「慢阻肺是老年病、和年轻人无关」不成立：儿童期反复下呼吸道感染、长期二手烟暴露都在名单内，出现症状就应检查。",
+   "咳痰常被当成「吸烟者的正常早晨」，但它是本病的核心症状之一；症状持续存在并逐渐影响活动量才是就诊的关键线索。"
+  ],
+  "when_to_seek_care": [
+   "属于上述高危人群且有慢性咳嗽咳痰或活动后气短者，做一次肺功能检查。",
+   "出现乏力、体重下降、食欲减退的重度症状时尽快就诊评估。"
+  ],
+  "citations": [
+   {
+    "type": "official_guidance",
+    "title": "中国疾控中心2022年世界慢阻肺日科普（症状与高危人群）",
+    "journal": "",
+    "year": 2022,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-copd-sp02",
+  "condition_zh": "血氧低于92就医",
+  "condition_en": "SpO2 below 92 percent warrants arterial blood gas and referral",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "血氧92危险吗",
+   "指夹血氧仪多少正常",
+   "需要查血气分析",
+   "呼吸衰竭信号",
+   "嘴唇发紫血氧",
+   "慢阻肺血氧监测",
+   "慢阻肺血氧低于92",
+   "什么时候查动脉血气",
+   "动脉血气"
+  ],
+  "prevention": [
+   "临床症状提示呼吸衰竭或右心衰竭时应监测 SpO2；慢阻肺指南（2021）与基层指南：SpO2<92% 应进行动脉血气分析检查/转诊专科评估。",
+   "GOLD 2024 中译本的口径为「≤92%」应测动脉血气，两者对是否含等号表述不一致（本条如实并列）。对患者的实际含义一样：读数在92%附近就应该做血气而不是自行观察。",
+   "血气分析是判断有无二氧化碳潴留的唯一常规手段，血氧仪替代不了它——有些患者血氧尚可但已存在二氧化碳升高。"
+  ],
+  "when_to_seek_care": [
+   "家用血氧仪读数低于92%、或伴嗜睡头痛水肿，应尽快就诊查动脉血气。",
+   "呼吸衰竭诊断口径为 PaO2<60 mmHg 伴/不伴 PaCO2>50 mmHg，需按血气结果由医生判断。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病诊治指南（2021年修订版）》（SpO2 监测与血气指征）",
+    "journal": "",
+    "year": 2021,
+    "url": "",
+    "level": "official_guideline"
+   },
+   {
+    "type": "official_guidance",
+    "title": "GOLD 2024 报告中文译本第1~4章（血气检查界值表述）",
+    "journal": "",
+    "year": 2024,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-copd-breathing-technique",
+  "condition_zh": "缩唇腹式呼吸与节能技巧",
+  "condition_en": "Pursed-lip and diaphragmatic breathing plus energy-saving techniques at home",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "缩唇呼吸怎么做",
+   "腹式呼吸练习",
+   "慢阻肺省力技巧",
+   "穿鞋用鞋拔",
+   "走路控制呼吸",
+   "气短怎么省力",
+   "助行器减少气短",
+   "降低氧耗的呼吸方法"
+  ],
+  "prevention": [
+   "慢阻肺患者居家康复的节能指导：借助鞋拔子穿鞋、助行器行走，步行时控制吸呼比等可减少氧耗、减轻呼吸困难。",
+   "自我控制病情的技巧包括腹式呼吸及缩唇呼吸。缩唇呼吸（鼻吸口呼、呼气时嘴唇缩成小口）有助于减轻气体陷闭，是随时随地可练、不需要器械的方法。",
+   "把费力动作改造比硬撑有效：坐着而不是站着洗漱、分次完成家务、走路时配合呼吸节律，都能维持日常活动量。",
+   "这类技巧属于呼吸康复的组成部分，医院、社区和居家开展若频次强度一致可得等效结果，关键在于坚持。"
+  ],
+  "when_to_seek_care": [
+   "不会正确做缩唇/腹式呼吸时，先到康复门诊或护士处学一次，再回家自行练习。",
+   "练习中头晕、胸闷加重应暂停并告知医生。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病诊治指南（2021年修订版）》（稳定期呼吸康复与节能技巧）",
+    "journal": "",
+    "year": 2021,
+    "url": "",
+    "level": "official_guideline"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病基层诊疗指南（实践版·2018）》（自我管理技巧）",
+    "journal": "",
+    "year": 2018,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-copd-discharge-followup",
+  "condition_zh": "慢阻肺加重出院后随访",
+  "condition_en": "Post-discharge follow-up at 1-4 weeks and 12-16 weeks after a COPD exacerbation",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "慢阻肺住院后复查",
+   "出院一到四周随访",
+   "十二到十六周查肺功能",
+   "出院后要不要看吸入技术",
+   "加重后复查血气",
+   "出院后要不要复查血气",
+   "慢阻肺住院后康复时机",
+   "12到16周复查肺功能"
+  ],
+  "prevention": [
+   "慢阻肺急性加重出院后1~4周随访（评估吸入技术、是否需要长期氧疗、活动能力、mMRC/CAT 及合并症），12~16周再次随访并测定肺功能（FEV1）。",
+   "第12~16周的复查更可靠：此时急性炎症消退，测得的气流受限水平接近稳定期真实状态，也是判断长期方案与氧疗需求的时点。",
+   "两个节点的目的一样——把一次住院变成重新校准维持治疗的机会，只出院拿药、不按时复诊，是最常见的再住院路径。"
+  ],
+  "when_to_seek_care": [
+   "出院时即约定1~4周和12~16周两次复诊时间。",
+   "出院早期出现气短回升、痰量增多、下肢水肿，不必等到预约时间，提前就诊。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病诊治指南（2021年修订版）》（急性加重出院后随访）",
+    "journal": "",
+    "year": 2021,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-home-oxygen-therapy",
+  "condition_zh": "长期家庭氧疗",
+  "condition_en": "Long-term oxygen therapy: start criteria, 1-2 L/min over 15 hours daily, reassess at 60-90 days",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "家庭氧疗条件",
+   "长期氧疗每天多久",
+   "氧流量1到2升",
+   "超过15小时氧疗",
+   "吸氧60到90天复评",
+   "红细胞压积55氧疗",
+   "PaO255毫米汞柱",
+   "SaO288以下要氧疗",
+   "鼻导管吸氧流量升"
+  ],
+  "prevention": [
+   "稳定期慢阻肺长期氧疗（LTOT）启动条件：①PaO2≤7.3 kPa（55 mmHg）或 SaO2≤88%（GOLD 2024 补充：需3周内两次确认）；②PaO2为55~60 mmHg 且伴肺动脉高压、外周水肿（充血性心衰迹象）或红细胞增多症（红细胞压积>55%）。",
+   "处方式执行：LTOT 一般经鼻导管吸入，流量1.0~2.0 L/min，>15 h/d。GOLD 2024：长期氧疗（>15小时/天）可延长重度静息低氧血症患者的生存期。氧疗目标为海平面静息状态 PaO2≥60 mmHg 和（或）SaO2 达到90%。",
+   "「>15小时」是疗效条件而不是舒适选择：断续、低时长吸氧不产生生存获益，很多人误以为「难受时才吸」。",
+   "开始 LTOT 后，在60~90 d 期间内应对患者的疗效进行重新评估，判断氧疗是否有效及是否继续。"
+  ],
+  "when_to_seek_care": [
+   "是否开始长期氧疗需依据动脉血气/血氧结果由医生判定，不能凭家用血氧仪自行开始或停用。",
+   "吸氧期间出现嗜睡、头痛加重或呼吸困难加剧，应就诊复查血气。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病诊治指南（2021年修订版）》（LTOT 指征、流量、时长与复评）",
+    "journal": "",
+    "year": 2021,
+    "url": "",
+    "level": "official_guideline"
+   },
+   {
+    "type": "official_guidance",
+    "title": "GOLD 2024 报告中文译本第1~4章（长期氧疗生存获益与确认要求）",
+    "journal": "",
+    "year": 2024,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-pulmonary-rehab",
+  "condition_zh": "呼吸康复疗程与内容",
+  "condition_en": "Pulmonary rehabilitation: at least 6-8 weeks, twice weekly, four training types",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "肺康复怎么做",
+   "呼吸康复至少几周",
+   "每周两次康复训练",
+   "有氧阻抗平衡呼吸肌",
+   "出院两周内康复",
+   "太极拳八段锦康复",
+   "呼吸康复减少再住院",
+   "缩唇呼吸康复训练",
+   "呼吸肌耐力训练",
+   "肺康复做"
+  ],
+  "prevention": [
+   "呼吸康复可减轻呼吸困难、提高运动耐力、改善生活质量、减少急性加重后4周内的再住院风险；稳定期患者康复疗程至少6~8周，医务人员监督下至少每周2次。急性加重住院后出院2周内开始康复可减少再住院和死亡。",
+   "运动训练是呼吸康复核心，分为四类：有氧训练（快走、慢跑、游泳等）、阻抗训练（哑铃、弹力带、深蹲、俯卧撑等）、平衡柔韧训练（太极拳、八段锦、瑜伽等）与呼吸肌训练（缩唇呼吸、腹式呼吸及呼吸肌耐力训练）。",
+   "医院、社区和居家开展若频次强度一致可得等效结果——即没有条件去康复中心时，按处方在家做同样有效，但强度和周期要对得上。",
+   "两周内的时间窗和6~8周的疗程是「减少再住院」的关键条件，多数人在出院后再没运动，是肌肉流失和气短加重的恶性循环起点。"
+  ],
+  "when_to_seek_care": [
+   "因急性加重住院者，出院2周内联系康复门诊或基层医生开具运动处方。",
+   "训练中胸痛、明显气短、头晕或血氧下降时立即停止并就医。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病诊治指南（2021年修订版）》（呼吸康复疗程、内容与开展场所）",
+    "journal": "",
+    "year": 2021,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-spirometry-yearly",
+  "condition_zh": "慢阻肺肺功能随访",
+  "condition_en": "At least annual spirometry plus non-drug management items in follow-up",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "慢阻肺多久查一次肺功能",
+   "每年一次肺量计",
+   "慢阻肺随访项目",
+   "书面哮喘行动计划",
+   "合并症管理与疫苗",
+   "慢阻肺随访管理项目",
+   "肺量计检查频率",
+   "合并症管理与自我管理"
+  ],
+  "prevention": [
+   "GOLD 2024 将「肺量计检查（至少每年一次）」列为随访期管理项目。",
+   "随访期非药物治疗还包括氧疗/无创通气需求评估、疫苗接种、合并症管理、自我管理技能与书面行动计划。也就是说年度随访不止抽血拍片，肺功能与「书面计划」是同一层内容。",
+   "书面行动计划（写明什么症状加什么药、何时就医）能明显减少家庭处理犹豫，值得主动请医生开一份。"
+  ],
+  "when_to_seek_care": [
+   "确诊慢阻肺后每年至少做一次肺量计检查；症状变化时随时复查。",
+   "就诊时确认自己有没有书面的急性加重应对计划，没有就请医生给一份。"
+  ],
+  "citations": [
+   {
+    "type": "official_guidance",
+    "title": "GOLD 2024 报告中文译本第1~4章（随访期管理与肺量计频率）",
+    "journal": "",
+    "year": 2024,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-quit-smoking-service",
+  "condition_zh": "戒烟求助渠道与随访",
+  "condition_en": "Smoking cessation hotline, 5A/5R counselling and six-month follow-up",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "戒烟热线号码",
+   "4008085531",
+   "12320卫生热线",
+   "戒烟门诊5A",
+   "没有戒烟意愿5R",
+   "戒烟随访六个月",
+   "全国专业戒烟热线号码",
+   "5A戒烟干预方案"
+  ],
+  "prevention": [
+   "戒烟求助渠道：全国专业戒烟热线400-808-5531、卫生热线12320。对愿意戒烟者采用「5A」干预方案（询问/建议/评估/提供帮助/安排随访），暂无戒烟意愿者用「5R」增强动机。",
+   "吸烟者开始戒烟后，应安排随访至少6个月，6个月内随访次数不宜少于6次（戒烟门诊复诊或电话随访）。戒断反应多集中在早期，随访是防复吸的主要抓手。",
+   "「暂时没打算戒」也有对应做法（5R 增强动机），不必因为做不到立刻掐断就完全回避这个话题；慢阻肺患者尤应把戒烟列为每次随访的固定议题。"
+  ],
+  "when_to_seek_care": [
+   "准备戒烟或多次自行失败者，拨打戒烟热线或挂戒烟门诊，把随访排进日历。",
+   "戒断后3个月内复吸，不要视为失败，联系随访人员重新制定方案。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病诊治指南（2021年修订版）》（戒烟干预与随访安排）",
+    "journal": "",
+    "year": 2021,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-quit-smoking-drugs",
+  "condition_zh": "一线戒烟药物",
+  "condition_en": "First-line cessation drugs: nicotine replacement available over the counter, others prescription",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "尼古丁贴片",
+   "戒烟咀嚼胶",
+   "安非他酮缓释片",
+   "伐尼克兰处方",
+   "戒烟药哪种非处方",
+   "戒烟药物加行为支持",
+   "尼古丁替代疗法",
+   "戒烟药哪些能自己买",
+   "戒烟药哪种非",
+   "戒烟药哪些自己买"
+  ],
+  "prevention": [
+   "临床戒烟指南推荐的一线戒烟药物包括尼古丁替代疗法（NRT）、盐酸安非他酮缓释片及酒石酸伐尼克兰；NRT 类药物可以非处方购买（包括贴片和咀嚼胶），安非他酮与伐尼克兰为处方药须在戒烟医生指导下使用；药物+行为支持可提高戒烟成功率。",
+   "贴片与咀嚼胶可自行购买，但仍需按剂量递减方案使用；有心脑血管疾病、近期心梗或不稳定心绞痛者使用任何戒烟药物前应先咨询医生。",
+   "关于时机：WHO 指出戒除吸烟或电子烟是改善慢阻肺症状最重要的事情，即使已经吸烟多年，戒烟仍然有帮助；同时应避免二手烟雾或室内灶火烟雾，并坚持身体活动。"
+  ],
+  "when_to_seek_care": [
+   "想用处方戒烟药者挂戒烟门诊，由医生评估适应证与禁忌。",
+   "同时患有哮喘/慢阻肺者，戒烟与吸入方案调整应一并在呼吸科随访中完成。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病诊治指南（2021年修订版）》（一线戒烟药物）",
+    "journal": "",
+    "year": 2021,
+    "url": "",
+    "level": "official_guideline"
+   },
+   {
+    "type": "official_guidance",
+    "title": "WHO 中文实况报道《慢性阻塞性肺病》（戒烟与烟雾暴露）",
+    "journal": "",
+    "year": 2024,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-copd-vaccine-flu-pcv",
+  "condition_zh": "慢阻肺流感疫苗",
+  "condition_en": "Annual influenza vaccine and pneumococcal vaccination in COPD, with differing schedules",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "慢阻肺打流感疫苗",
+   "每年接种流感疫苗",
+   "肺炎球菌疫苗每五年",
+   "23价肺炎疫苗60岁",
+   "PCV15 PPSV23顺序",
+   "疫苗降低下呼吸道感染",
+   "65岁以上流感疫苗",
+   "慢阻肺要不要打肺炎针",
+   "每年接种",
+   "流感疫苗"
+  ],
+  "prevention": [
+   "慢阻肺尤其是年龄>65岁患者，推荐每年接种流感疫苗和每5年接种肺炎球菌疫苗；我国相关指南推荐60岁及以上或存在包括慢阻肺在内的肺炎链球菌感染高危因素人群接种23价肺炎球菌多糖疫苗（PPSV23）。",
+   "GOLD 2024 采用美国日程口径：先接种 PCV15 再接种 PPSV23，或接种一剂 PCV20（获批≥65岁；19~64岁有慢性肺病等基础疾病者也可接种）。「每5年」与 PCV 序贯属不同体系方案，本条并列保留，实际接种按当地接种门诊与医生采用的方案执行。",
+   "GOLD 2024：接种流感疫苗和肺炎球菌疫苗可降低下呼吸道感染的发病率；流感疫苗可减少慢阻肺患者需住院治疗的下呼吸道感染和死亡。COVID-19 疫苗对预防 SARS-CoV-2 感染非常有效，慢阻肺患者应按国家建议接种。"
+  ],
+  "when_to_seek_care": [
+   "慢阻肺患者每年秋季主动接种流感疫苗，并向接种门诊说明基础肺病以确认肺炎球菌疫苗程序。",
+   "既往对疫苗成分严重过敏、正在发热者暂缓接种并咨询医生。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病诊治指南（2021年修订版）》（疫苗接种推荐）",
+    "journal": "",
+    "year": 2021,
+    "url": "",
+    "level": "official_guideline"
+   },
+   {
+    "type": "official_guidance",
+    "title": "GOLD 2024 报告中文译本第1~4章（PCV/PPSV 序贯与流感、新冠疫苗获益）",
+    "journal": "",
+    "year": 2024,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-copd-vaccine-others",
+  "condition_zh": "慢阻肺加种疫苗清单",
+  "condition_en": "Tdap, herpes zoster and RSV vaccination in COPD patients",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "慢阻肺打带状疱疹疫苗",
+   "RSV疫苗60岁",
+   "百日咳破伤风白喉补种",
+   "慢性心肺疾病疫苗",
+   "Tdap补种",
+   "未接种Tdap要补种",
+   "呼吸道合胞病毒疫苗",
+   "带状疱疹疫苗慢性病人群",
+   "SV疫苗60岁",
+   "V疫苗60岁",
+   "慢阻肺打"
+  ],
+  "prevention": [
+   "GOLD 2024 引 CDC 建议：青春期未接种 Tdap（百日咳/破伤风/白喉）的慢阻肺患者应补种 Tdap；所有慢阻肺患者应常规接种带状疱疹疫苗；呼吸道合胞病毒（RSV）疫苗适用于60岁以上和/或患有慢性心肺疾病的个体。",
+   "带状疱疹在老年慢阻肺人群中并不少见，且疼痛可显著影响咳痰与活动；把疫苗与年度流感疫苗一起安排在门诊一次说明即可。",
+   "具体品种与间隔以当地可获得的疫苗和接种门诊方案为准，慢阻肺患者就诊时主动提出「我有慢性肺病，是否属于优先接种人群」。"
+  ],
+  "when_to_seek_care": [
+   "60岁以上或患慢性心肺疾病者，咨询 RSV 与带状疱疹疫苗的接种安排。",
+   "免疫力低下、正在使用大剂量激素者接种前评估时机。"
+  ],
+  "citations": [
+   {
+    "type": "official_guidance",
+    "title": "GOLD 2024 报告中文译本第1~4章（Tdap/带状疱疹/RSV 疫苗建议）",
+    "journal": "",
+    "year": 2024,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-bronchiectasis-vaccine",
+  "condition_zh": "支扩疫苗接种",
+  "condition_en": "Vaccination and childhood infection control in bronchiectasis prevention",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "支气管扩张疫苗",
+   "肺炎疫苗减少急性加重",
+   "支扩每年流感疫苗",
+   "儿童期下呼吸道感染预防",
+   "麻疹百日咳疫苗支扩",
+   "多价肺炎疫苗",
+   "预防支扩急性加重",
+   "儿童期麻疹百日咳疫苗",
+   "减少急性加重",
+   "急性加重",
+   "支气管扩张"
+  ],
+  "prevention": [
+   "支气管扩张症预防：随机对照研究显示注射肺炎疫苗可减少急性加重次数，推荐注射多价肺炎疫苗；每年注射流感疫苗预防流感所致的继发性肺部感染。",
+   "还应积极防治儿童期下呼吸道感染、接种麻疹与百日咳疫苗、戒烟——支扩很多源于幼年感染造成的气道损伤，预防是双向的（既有已病者的加重预防，也有一般人群的病因预防）。",
+   "支扩患者日常管理的核心是有效排痰与感染控制，疫苗能减少的是「每一次感染都会加重结构破坏」这条链条。"
+  ],
+  "when_to_seek_care": [
+   "确诊支气管扩张者按年度接种流感疫苗并与医生确认多价肺炎疫苗接种。",
+   "孩子下呼吸道感染反复（尤其需要输液的肺炎）要彻底治疗并随访，减少日后支扩风险。"
+  ],
+  "citations": [
+   {
+    "type": "expert_consensus",
+    "title": "《成人支气管扩张症诊治专家共识》（预防与疫苗部分）",
+    "journal": "",
+    "year": 2012,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-asthma-risk-factors",
+  "condition_zh": "哮喘病因",
+  "condition_en": "Host and environmental risk factors for asthma from the Chinese CARE study",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "为什么会得哮喘",
+   "哮喘危险因素",
+   "宠物饲养哮喘",
+   "非母乳喂养哮喘",
+   "肥胖哮喘",
+   "一级亲属哮喘遗传",
+   "养宠物孩子容易哮喘吗",
+   "哮喘是不是遗传病",
+   "养宠物孩子容易",
+   "宠物孩子容易"
+  ],
+  "prevention": [
+   "我国 CARE 研究（164 215名14岁以上人群）显示，吸烟、非母乳喂养、肥胖、宠物饲养、一级亲属患有哮喘、过敏性鼻炎、花粉症以及本人患有过敏性鼻炎、湿疹均为哮喘发病的危险因素。",
+   "同一研究显示14岁以上人群医生诊断哮喘患病率为1.24%。也就是说哮喘并不罕见，但多数危险因素（吸烟、肥胖、宠物暴露）是可以调整的。",
+   "家族中有人患哮喘或过敏性疾病时，对本人（尤其儿童）的咳喘症状应保持更低门槛的排查，而不是等典型喘息出现。"
+  ],
+  "when_to_seek_care": [
+   "有多项危险因素者出现反复咳嗽胸闷，主动到呼吸科评估而非长期自服止咳药。",
+   "计划养宠、减重或戒烟的家庭，可把这些因素作为哮喘管理的组成部分与医生讨论。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（中华医学会呼吸病学分会哮喘学组；CARE 研究危险因素）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-dust-mite-asthma",
+  "condition_zh": "尘螨过敏哮喘",
+  "condition_en": "Dust mite exposure as a driver of asthma in southern China; indoor allergen avoidance",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "尘螨过敏哮喘",
+   "南方儿童哮喘高发",
+   "室内过敏原回避",
+   "防螨床品",
+   "哮喘避免接触过敏原",
+   "过敏原室外室内",
+   "尘螨回避措施",
+   "除螨对哮喘有用吗",
+   "除螨哮喘用",
+   "除螨对哮喘",
+   "尘螨过敏",
+   "尘螨敏哮喘"
+  ],
+  "prevention": [
+   "尘螨暴露与哮喘发生的相关性已获公认，尘螨过敏是中国南方儿童哮喘患病率上升的重要危险因素。",
+   "对室内吸入性致敏原的回避比对室外过敏原更重要，避免过敏原暴露是哮喘治疗的关键。这意味着防螨（热水洗烫床品、控制湿度、减少毛绒织物与地毯）是治疗的一部分而不是「可有可无的保养」。",
+   "室外花粉、雾霾等难以完全回避，室内环境是可实际改变的部分，家庭干预应从卧室开始。"
+  ],
+  "when_to_seek_care": [
+   "尘螨过敏明确者按医生指导做环境控制，并评估是否需要变应原特异性免疫治疗。",
+   "孩子在换季或搬入新居后咳喘加重，应排查室内过敏原因素。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（中华医学会呼吸病学分会哮喘学组；过敏原回避）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-asthma-exercise",
+  "condition_zh": "哮喘运动",
+  "condition_en": "Exercise in asthma: pre-exercise advice and stopping red lines",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "哮喘能跑步吗",
+   "运动性哮喘预防",
+   "运动前咨询医生",
+   "花粉季户外运动",
+   "运动中呼吸困难停止",
+   "哮喘缓解后正常运动",
+   "哮喘能不能锻炼",
+   "运动中咳嗽加重要停",
+   "哮喘跑步"
+  ],
+  "prevention": [
+   "规范治疗达到临床缓解后，哮喘患者可以像正常人一样运动。因怕发作而长期不运动，反而使体能和症状同时恶化。",
+   "运动三注意：运动前咨询医生确定类型与运动量；选择环境清洁通风、避免花粉灰尘的场所；如果感到呼吸困难、喘息、咳嗽加重，应立即停止锻炼，使用支气管舒张剂急救或寻求医生的帮助。",
+   "预防运动诱发症状有一条具体用药路径：低剂量 ICS+福莫特罗按需使用可用于预防运动性哮喘（2020年指南），需在医生指导下执行。",
+   "花粉季节户外运动可配合戴口罩减少吸入刺激；这类措施属于辅助，不能替代控制药物。"
+  ],
+  "when_to_seek_care": [
+   "每次运动后都咳嗽或胸闷者，说明控制不达标，复诊调整而不是放弃运动。",
+   "运动中发作需使用急救药缓解者，随身携带药物并由医生书面确认运动方案。"
+  ],
+  "citations": [
+   {
+    "type": "official_guidance",
+    "title": "2024年世界哮喘日科普材料（石狮市政府网转载；哮喘患者运动指导）",
+    "journal": "",
+    "year": 2024,
+    "url": "",
+    "level": "official_guideline"
+   },
+   {
+    "type": "national_guideline",
+    "title": "《支气管哮喘防治指南（2020年版）》（运动性哮喘的按需预防用药）",
+    "journal": "",
+    "year": 2020,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-osa-snoring",
+  "condition_zh": "睡眠呼吸暂停自查",
+  "condition_en": "Obstructive sleep apnoea: AHI definition, STOP-Bang risk and daytime sleepiness",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "打呼噜憋醒是什么病",
+   "睡眠呼吸暂停诊断",
+   "AHI五次每小时",
+   "STOP-Bang问卷",
+   "白天嗜睡ESS评分",
+   "打鼾高血压",
+   "睡眠呼吸暂停基层诊断",
+   "慢阻肺合并呼吸暂停"
+  ],
+  "prevention": [
+   "成人 OSA（阻塞性睡眠呼吸暂停）定义：每夜7 h 睡眠中呼吸暂停及低通气反复发作30次以上，或 AHI≥5次/h。判定单次事件要求口鼻气流停止≥10 s。",
+   "基层简易诊断要素含打鼾、夜间呼吸中断或憋气、夜间睡眠节律紊乱、白天嗜睡（ESS 评分>9分）等；STOP-Bang 问卷评分≥3分为 OSA（AHI≥5次/h）高危（敏感度84.7%，特异度52.6%）。",
+   "OSA 可引起夜间发作的支气管哮喘、与慢阻肺形成重叠综合征，并且是高血压的独立危险因素——夜间或难治性高血压合并响亮鼾声时，应筛查睡眠呼吸监测。",
+   "病情严重程度按 AHI 分为5~15、15~30、>30次/h（轻/中/重度）并配合最低血氧饱和度；CPAP 适应证为中重度（AHI>15次/h），或轻度但症状明显、合并心脑血管病和糖尿病者。"
+  ],
+  "when_to_seek_care": [
+   "同床者观察到呼吸中断、或本人晨起头痛白天嗜睡明显，做睡眠监测而不是只看「打呼噜吵」。",
+   "已有哮喘或慢阻肺且夜间症状为主者，应加筛 OSA。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《成人阻塞性睡眠呼吸暂停基层诊疗指南（2018年）》（定义、STOP-Bang 与严重度分级）",
+    "journal": "",
+    "year": 2018,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-lung-nodule-size",
+  "condition_zh": "肺结节管理",
+  "condition_en": "Lung nodule size strata: 5 mm, 5-10 mm and 10-30 mm management",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "体检肺结节怎么办",
+   "微小结节5毫米",
+   "小结节五到十毫米",
+   "肺结节的10到30毫米",
+   "肺结节恶性概率大小",
+   "低剂量CT随访",
+   "肺结节多大要治疗",
+   "微小结节基层随访",
+   "肺结节怎么办"
+  ],
+  "prevention": [
+   "《肺结节诊治中国专家共识(2024年版)》按最大直径分层管理：≤5 mm 为微小结节（可在基层医院随访管理），最大径5~10 mm 为小结节（在有诊治经验的医院管理），10~30 mm 的肺结节应尽早诊治。",
+   "结节大小与恶性概率明显相关，但「大小」不是唯一维度，形态（实性/部分实性/磨玻璃）、边缘与生长速度同样决定随访间隔，须按医生的具体方案复查。",
+   "最常见的两种误判是「看到结节就要求手术」和「不复查」，分层管理正是为这两种极端提供的中间路径。"
+  ],
+  "when_to_seek_care": [
+   "体检发现肺结节先确认最大直径和密度类型，据此决定在基层随访还是转有经验的医院。",
+   "随访中结节增大、出现实性成分增加或新症状（咯血、持续咳嗽）时提前就诊。"
+  ],
+  "citations": [
+   {
+    "type": "expert_consensus",
+    "title": "《肺结节诊治中国专家共识（2024年版）》（结节按最大直径分层管理）",
+    "journal": "",
+    "year": 2024,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-copd-exacerbation-signs",
+  "condition_zh": "慢阻肺急性加重识别",
+  "condition_en": "Recognising a COPD exacerbation: symptoms worsening beyond daily variation",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "慢阻肺急性加重表现",
+   "痰量突然增多",
+   "痰颜色变黄变稠",
+   "呼吸困难加重算加重",
+   "气短变化超出日常",
+   "脓性痰要不要吃抗生素",
+   "症状突然加重超出日常",
+   "痰液黏度改变是加重",
+   "慢阻肺急性加重",
+   "急性加重表现"
+  ],
+  "prevention": [
+   "慢阻肺急性加重诊断主要靠呼吸系统症状突然恶化超出日常变异，主要症状为呼吸困难加重，常伴痰量增加、痰液颜色和（或）黏度改变等。",
+   "关键词是「超出日常变异」：慢阻肺本身症状就波动，判断依据是与自己的常态比，而不是与别人的病比。家属的旁观记录往往比患者自述更准。",
+   "支气管扩张症的急性加重提示可对照记忆：出现至少一种症状加重（痰量增加或脓性痰、呼吸困难加重、咳嗽增加、肺功能下降、疲劳乏力加重）或新症状（发热、胸膜炎、咯血、需抗菌药物治疗）。",
+   "痰变成黄绿色脓性、量明显增加并伴气短加重，是启动医生预先交代方案（含是否用抗生素）的信号，不要拖到夜间憋醒。"
+  ],
+  "when_to_seek_care": [
+   "症状明显超出平时且伴发热、下肢水肿、口唇发青或意识变化，立即就诊。",
+   "加重持续数天不缓解，或 SpO2 低于92%，需医院评估（见「血氧低于92就医」条目）。"
+  ],
+  "citations": [
+   {
+    "type": "national_guideline",
+    "title": "《慢性阻塞性肺疾病诊治指南（2021年修订版）》（急性加重定义与识别）",
+    "journal": "",
+    "year": 2021,
+    "url": "",
+    "level": "official_guideline"
+   },
+   {
+    "type": "expert_consensus",
+    "title": "《成人支气管扩张症诊治专家共识》（急性加重判定条目）",
+    "journal": "",
+    "year": 2012,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ },
+ {
+  "id": "ra-bronchiectasis-care",
+  "condition_zh": "支气管扩张排痰与咯血",
+  "condition_en": "Bronchiectasis airway clearance timing and haemoptysis warning",
+  "category": "respiratory_asm_copd",
+  "keywords": [
+   "支气管扩张体位引流",
+   "饭前饭后多久引流",
+   "支扩咯血危险",
+   "干性支气管扩张",
+   "高张盐水雾化FEV1",
+   "痰多怎么排",
+   "体位引流什么时候禁忌",
+   "大咯血能不能体位引流",
+   "体位引流时候禁忌",
+   "体位引流什么时候"
+  ],
+  "prevention": [
+   "有效排痰是支气管扩张症长期治疗的重要环节；体位引流应在饭前或饭后1~2 h 内进行。禁忌证包括无法耐受所需体位、无力排出分泌物、抗凝治疗、胸廓或脊柱骨折、近期大咯血和严重骨质疏松。",
+   "首次吸入高张盐水应在吸入前和吸入后5 min 测 FEV1 或呼气峰流速，评估有无气道痉挛。",
+   "咯血是重要预警信号：半数患者出现不同程度咯血，多为少量咯血，少数可发生致命性大咯血（出血量可达数百甚至上千毫升），咯血量与病变范围不一定成正比；部分患者以反复咯血为唯一症状（「干性支气管扩张」）。",
+   "因此无法解释的咯血或无痰性咳嗽应做胸部高分辨率 CT 除外支气管扩张——「没有很多痰」并不能排除本病。"
+  ],
+  "when_to_seek_care": [
+   "正在抗凝治疗、有近期大咯血或严重骨质疏松者，不要自行做体位引流，由医生安排气道廓清方式。",
+   "出现咯血量增多、血色鲜红伴气促，立即急诊；反复少量咯血也应做高分辨率 CT 明确病因。"
+  ],
+  "citations": [
+   {
+    "type": "expert_consensus",
+    "title": "《成人支气管扩张症诊治专家共识》（体位引流与咯血）",
+    "journal": "",
+    "year": 2012,
+    "url": "",
+    "level": "official_guideline"
+   }
+  ]
+ }
+]

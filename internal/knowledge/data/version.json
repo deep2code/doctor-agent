@@ -1,8 +1,14 @@
 {
-  "version": "1.48.0",
-  "updated": "2026-09-27",
-  "description": "2026-09-27 科普扩充第七批: 老年脑营养36条 + 消化与肠道健康53条 + 呼吸哮喘慢阻肺51条 + 运动损伤康复55条 + 科学辟谣精选535条并入 medical 数据集",
+  "version": "1.49.0",
+  "updated": "2026-09-28",
+  "description": "2026-09-28 权威科普扩充第九至十五批合并发布: WHO中文健康336 + 中国营养学会73 + 健康报科普189 + 科学辟谣扩展至1288 + yiigle临床指南全文34 + 儿童睡眠红十字56 + 中国疾控科普178 + 健康报续抓185 + 省级疾控46，全部并入 medical 数据集；同时永久移除政策批文库(gov_health/gov_dept_health)与商业平台(网易/果壳)原始素材，不入库",
   "sources": [
+    "2026-09-28 新增(第九批): WHO官方中文站健康内容336条(who_zh_health.json)——23主题页+147官方问答+166新闻稿，覆盖堕胎安全/避孕/HIV预防/癌症筛查/儿童生长/心理健康/心血管/食品安全/环境健康，来源 www.who.int/zh/，引用 level=official_guideline、journal留空(WHO机构出版物无DOI/PMID属设计)",
+    "2026-09-28 新增(第十批): 中国营养学会73条(heart_nutrition_orgs.json)——学术会议/科学普及/出版物/营养资讯，覆盖心脏健康与膳食指南，来源 cnsoc.org/dg.cnsoc.org/nccd/fuwai，external/convert_heart_nutrition_orgs.py 转换",
+    "2026-09-28 新增(第十一批): 健康报医学科普189条(jkb_health.json)——从828篇中只取「医学科普」栏目(剔除医院管理/中医政策稿)，覆盖避孕/口腔/健康生活/儿童健康/用药安全/出生缺陷/感冒药风险/生育力保护/肥胖近视防控，健康报为国家卫健委主管全国卫生行业报纸，level=official_guideline",
+    "2026-09-28 扩展(第十二批): 科学辟谣精选 piyao_selected.json 由535条扩至1288条(+753)——补入食品安全py2/生物py7/美容健身py16全量并从大样本py6/py15/py1抽样，覆盖疾病预防264/营养158/生活解惑53/食品安全481/美容健身205/生物127，中国科协·中央网信办科学辟谣平台官方辟谣，level=official_guideline",
+    "2026-09-28 新增(第十四批): yiigle临床指南全文34条(yiigle_clinical_guides.json,ycg-)——中华医学会系列指南全文(高血压/血脂/心衰/VTE/COPD/CAP/IPF/卒中/脑出血/失眠/T2DM/甲状腺/痛风/骨质疏松/胃炎/HP/GERD/酒精性肝病/PCOS/儿童哮喘/新生儿黄疸/狂犬病暴露等)，均含卷期+DOI；儿童睡眠·红十字急救56条(sleep_child_redcross.json,scr-)；中国疾控科普178条(chinacdc_science.json,ccs-)",
+    "2026-09-28 新增(第十五批): 健康报网续抓185条(jkb_more_popular.json,jkbm-;112医学科普+65医药视界+8中医中药) + 省级疾控科普46条(provincial_cdc_health.json,pcdc-;四川/贵州/湖北/湖南/天津)，external/convert_jkbmore_provincialcdc.py 转换，keywords仅取标题+condition(防磁铁词)，level=official_guideline",
     "2026-09-27 新增(第七批方向五): 科学辟谣平台精选535条(piyao_selected.json)——中国科协/中央网信办「科学辟谣平台」高频主题谣言粉碎，覆盖儿童用药误区(宝宝发烧捂汗/婴儿喂水)、孕妇饮食禁忌(孕期吃蟹流产/哈密瓜李斯特菌)、老年保健迷思(骨质疏松补钙过量/降压药伤肾)、慢性病管理谣言(糖尿病只吃不甜/高血压无症状不吃药)、疫苗误解(新冠疫苗影响生育/HPV疫苗导致不孕)、减肥伪科学(负卡路里食物/暴汗服减脂)、食品安全传言(草莓致癌/椰汁丰胸)、网络养生骗局(生酮饮食治百病/碱性食物养生)等。来源：https://piyao.kepuchina.cn/，经规则提取正文+结构化，筛选含关键人群/疾病词的535篇入库（全量4469篇存external/piyao_health/raw/）",
     "2026-09-27 新增(第七批方向一): 老年脑营养36条(geriatric_brain_nutrition.json)——《中国阿尔茨海默病防治指南》认知训练与地中海饮食、维生素B12与叶酸缺乏性痴呆筛查、DHA/EPA补充证据等级、轻度认知障碍MCI随访间隔、肌少症蛋白质摄入目标、老年人多重用药与跌倒风险清单、骨质疏松再骨折风险评估(FRAX)、肺炎球菌疫苗PPV23接种程序、钙剂与维生素D剂量分层、吞咽困难家庭护理要点(来源见 external/geriatric_brain_nutrition/raw/ 与 MANIFEST)",
     "2026-09-27 新增(第七批方向二): 消化与肠道健康53条(digestive_gut.json)——《中国胃食管反流病诊疗指南》洛杉矶分级与PPI维持治疗、幽门螺杆菌尿素呼气试验与根除后复查时机、非酒精性脂肪肝减重目标(≥5%体重)、肝硬化营养支持(蛋白质摄入量与支链氨基酸)、溃疡性结肠炎癌变监测肠镜间隔、肠易激综合征分型(IBS-D/M/C)与解痉剂选择、急性胰腺炎疼痛识别与轻症病程、便秘警报征象(便血/消瘦/贫血/家族史)、低FODMAP饮食原则、功能性消化不良罗马IV标准(来源见 external/digestive_gut/raw/ 与 MANIFEST)",

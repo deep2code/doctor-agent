@@ -1,0 +1,1527 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%85%A2%E6%80%A7%E4%B9%99%E5%9E%8B%E8%82%9D%E7%82%8E%E9%98%B2%E6%B2%BB%E6%8C%87%E5%8D%97%282015%E6%9B%B4%E6%96%B0%E7%89%88%29.html
+# 标题: 慢性乙型肝炎防治指南(2015更新版) - 中华传染病杂志
+# 发布方/日期: 中华医学会肝病学分会，中华传染病杂志, 2015,33(11) : 641-662. DOI: 10.3760/cma.j
+
+慢性乙型肝炎防治指南(2015更新版)
+中华医学会肝病学分会
+中华医学会感染病学分会
+中华传染病杂志, 2015,33(11) : 641-662. DOI: 10.3760/cma.j.issn.1000-6680.2015.11.001
+本指南为规范慢性乙型肝炎(CHB)的预防、诊断和抗病毒治疗而制订，涉及CHB其他治疗方法和策略请参阅相关的指南和共识。
+中华医学会肝病学分会和感染病学分会于2005年组织国内有关专家制订了《慢性乙型肝炎防治指南》(第1版)，并于2010年第1次修订。近5年来，国内外有关CHB的基础和临床研究取得很大进展，为此我们对本指南再次修订。
+本指南旨在帮助临床医师在CHB诊断、预防和抗病毒治疗中做出合理决策，但不是强制性标准，也不可能涵盖或解决CHB诊治及管理中的所有问题。因此，临床医师在面对某一患者时，应在充分了解有关本病的最佳临床证据、认真考虑患者具体病情及其意愿的基础上，根据自己的专业知识、临床经验和可利用的医疗资源，制订全面合理的诊疗方案。我们将根据国内外的有关进展，继续对本指南进行不断更新和完善。
+本指南中的证据等级分为A、B和C三个级别，推荐等级分为1和2两个级别(表1，根据GRADE分级修订)。
+点击查看表格
+表1
+推荐意见的证据等级和推荐等级
+表1
+推荐意见的证据等级和推荐等级
+级别
+详细说明
+证据级别
+A高质量
+进一步研究不大可能改变对该疗效评估结果的信心
+B中等质量
+进一步研究有可能对该疗效评估结果的信心产生重要影响
+C低质量
+进一步研究很有可能影响该疗效评估结果，且该评估结果很可能改变
+推荐等级
+1强推荐
+充分考虑到了证据的质量、患者可能的预后情况及治疗成本而最终得出的推荐意见
+2弱推荐
+证据价值参差不齐，推荐意见存在不确定性，或推荐的治疗意见可能会有较高的成本疗效比等，更倾向于较低等级的推荐
+一、术语
+慢性乙型肝炎病毒(HBV)感染(chronic HBV infection): HBsAg和(或)HBV DNA阳性6个月以上。
+慢性乙型肝炎(chronic hepatitis B, CHB)：由HBV持续感染引起的慢性肝脏炎症性疾病。可分为HBeAg阳性CHB和HBeAg阴性CHB。
+HBeAg阳性慢性乙型肝炎(HBeAg positive CHB)：血清HBsAg阳性、HBeAg阳性、HBV DNA阳性，ALT持续或反复升高，或有肝组织学病变。
+HBeAg阴性慢性乙型肝炎(HBeAg negative CHB)：血清HBsAg阳性，HBeAg阴性，HBV DNA阳性，ALT持续或反复升高，或有肝组织学病变。
+非活动性HBsAg携带者(inactive HBsAg carrier)：血清HBsAg阳性，HBeAg阴性，HBV DNA低于检测下限，1年内连续随访3次以上，每次至少间隔3个月，ALT均在正常范围内。肝组织学检查显示，组织学活动指数(HAI)评分<4分或根据其他的半定量计分系统判定病变轻微。
+乙型肝炎康复(resolved hepatitis B)：既往有急性或CHB病史，HBsAg阴性，抗-HBs阳性或阴性，抗-HBc阳性，HBV DNA低于检测下限，ALT在正常范围内。
+慢性乙型肝炎急性发作(acute exacerbation or flare of hepatitis B)：排除其他肝损伤因素后ALT升高至正常值上限(ULN)10倍以上。
+乙型肝炎再活动(reactivation of hepatitis B)：在HBV DNA持续稳定的患者中，HBV DNA升高≥2 log10 IU/mL，或基线HBV DNA阴性者由阴性转为阳性且≥100 IU/mL，缺乏基线HBV DNA者HBV DNA≥20 000 IU/mL。往往再次出现ALT升高和肝脏炎症坏死。常发生于非活动性HBsAg携带者或乙型肝炎康复者，特别是在接受免疫抑制治疗或化学治疗时。
+HBeAg阴转(HBeAg clearance)：既往HBeAg阳性的患者HBeAg消失。
+HBeAg血清学转换(HBeAg seroconversion)：既往HBeAg阳性的患者HBeAg阴转，出现抗-HBe。
+HBeAg逆转(HBeAg reversion)：既往HBeAg阴性、抗-HBe阳性的患者再次出现HBeAg。
+组织学应答(histological response)：肝组织炎症坏死降低≥2分，且无肝纤维化评分的增高；或按Metavir评分，肝纤维化评分降低≥1分。
+完全应答(complete response)：持续病毒学应答且HBsAg阴转或伴有抗-HBs阳转。
+临床治愈(clinical cure)：持续病毒学应答且HBsAg阴转或伴有抗-HBs阳转、ALT正常、肝组织病变轻微或无病变。
+原发性无应答(primary nonresponse)：核苷(酸)类药物[nucleos(t)ide analogs, NA]治疗依从性良好的患者，治疗12周时HBV DNA较基线下降幅度<1 log10IU/mL或24周时HBV DNA较基线下降幅度<2 log10 IU/mL。
+应答不佳或部分病毒学应答(suboptimal or partial virological response): NA抗病毒治疗中依从性良好的患者，治疗24周时HBV DNA较基线下降幅度>2 log10 IU/mL，但仍然可以检测到。
+病毒学应答(virological response)：治疗过程中，血清HBV DNA低于检测下限。
+病毒学突破(virological breakthrough): NA治疗依从性良好的患者，在未更改治疗的情况下，HBV DNA水平比治疗中最低点上升1个log10值，或一度转阴后又转为阳性，并在1个月后以相同试剂重复检测加以确定，可有或无ALT升高。
+病毒学复发(viral relapse)：获得病毒学应答的患者停药后，间隔1个月两次检测HBV DNA均>2 000 IU/mL。
+临床复发(clinical relapse)：病毒学复发并且ALT>2×ULN，但应排除其他因素引起的ALT升高。
+持续病毒学应答(sustained off-treatment virological response)：停止治疗后血清HBV DNA持续低于检测下限。
+耐药(drug resistance)：检测到与NA相关的HBV耐药基因突变，称为基因型耐药(genotypic resistance)。体外实验显示抗病毒药物敏感性降低、并与基因耐药相关，称为表型耐药(phenotypic resistance)。针对一种抗病毒药物出现的耐药突变对另外一种或几种抗病毒药物也出现耐药，称为交叉耐药(cross resistance)。至少对两种不同类别的NA耐药，称为多药耐药(multidrug resistance)。
+二、流行病学和预防
+(一)流行病学
+HBV感染呈世界性流行，但不同地区HBV感染的流行强度差异很大。据世界卫生组织报道，全球约20亿人曾感染HBV，其中2.4亿人为慢性HBV感染者[1]，每年约有65万人死于HBV感染所致的肝功能衰竭、肝硬化和肝细胞癌(HCC)[2]。全球肝硬化和HCC患者中，由HBV感染引起的比例分别为30%和45%[2,3]。我国肝硬化和HCC患者中，由HBV感染引起的比例分别为60%和80%[4]。由于乙型肝炎疫苗免疫的普及，急性HBV感染明显减少，以及感染HBV人口的老龄化，再加上抗病毒药物的广泛应用，近年HBeAg阴性CHB患者的比例有所上升[5]。
+2006年全国乙型肝炎血清流行病学调查表明，我国1～59岁一般人群HBsAg携带率为7.18%[6,7]。据此推算，我国有慢性HBV感染者约9 300万人，其中CHB患者约2 000万例[8]。2014年中国疾病预防控制中心(CDC)对全国1～29岁人群乙型肝炎血清流行病学调查结果显示，1～4岁、5～14岁和15～29岁人群HBsAg检出率分别为0.32%、0.94%和4.38%。
+HBV主要经血(如不安全注射等)、母婴及性接触传播[9]。由于对献血员实施了严格的HBsAg和HBV DNA筛查，经输血或血液制品引起的HBV感染已较少发生；经破损的皮肤或黏膜传播主要是由于使用未经严格消毒的医疗器械、侵入性诊疗操作、不安全注射特别是注射毒品等；其他如修足、纹身、打耳洞、医务人员工作中的意外暴露、共用剃须刀和牙刷等也可传播[10]。母婴传播主要发生在围生期，大多在分娩时接触HBV阳性母亲的血液和体液。随着乙型肝炎疫苗联合乙型肝炎免疫球蛋白(HBIG)的应用，母婴传播已明显减少[10]。与HBV阳性者发生无防护的性接触，特别是有多个性伴侣者，其感染HBV的危险性增高。
+HBV不经呼吸道和消化道传播，因此，日常学习、工作或生活接触，如同一办公室工作(包括共用计算机等办公用品)、握手、拥抱、同住一宿舍、同一餐厅用餐和共用厕所等无血液暴露的接触不会传染HBV。流行病学和实验研究未发现HBV能经吸血昆虫(蚊和臭虫等)传播[9]。
+(二)预防
+1．乙型肝炎疫苗预防：
+接种乙型肝炎疫苗是预防HBV感染最有效的方法。乙型肝炎疫苗的接种对象主要是新生儿[11]，其次为婴幼儿，15岁以下未免疫人群和高危人群(如医务人员、经常接触血液的人员、托幼机构工作人员、接受器官移植患者、经常接受输血或血液制品者、免疫功能低下者、HBsAg阳性者的家庭成员、男男同性性行为、有多个性伴侣者和静脉内注射毒品者等)。
+乙型肝炎疫苗全程需接种3针，按照0、1和6个月程序，即接种第1针疫苗后，在1个月和6个月时注射第2和第3针疫苗。新生儿接种第1针乙型肝炎疫苗要求在出生后24 h内，越早越好。新生儿接种部位为臀前部外侧肌肉内或上臂三角肌肌内注射，儿童和成人为上臂三角肌中部肌内注射。
+单用乙型肝炎疫苗阻断母婴传播的阻断率为87.8%[12]。对HBsAg阳性母亲所生新生儿，应在出生后24 h内尽早(最好在出生后12 h)注射HBIG，剂量应≥100 IU，同时在不同部位接种10 μg重组酵母乙型肝炎疫苗，在1个月和6个月时分别接种第2和第3针乙型肝炎疫苗，可显著提高母婴传播的阻断成功率[13,14]。新生儿在出生12 h内注射HBIG和乙型肝炎疫苗后，可接受HBsAg阳性母亲的哺乳[10]。
+HBV DNA水平是影响HBV母婴传播的最关键因素[13]。HBV DNA水平较高(106 IU/mL)母亲的新生儿更易发生母婴传播。近年有研究显示，对这部分母亲在妊娠中后期应用口服抗病毒药物，可使孕妇产前血清中HBV DNA水平降低，进一步提高母婴阻断成功率[14,15,16,17]。具体请参见"特殊人群抗病毒治疗推荐意见——妊娠相关情况处理"。
+对HBsAg阴性母亲所生新生儿可用10 μg重组酵母乙型肝炎疫苗免疫；对新生儿时期未接种乙型肝炎疫苗的儿童应进行补种，剂量为10 μg重组酵母乙型肝炎疫苗或20 μg仓鼠卵巢细胞(Chinese hamster ovary，CHO)重组乙型肝炎疫苗；对成人建议接种3针20 μg重组酵母乙型肝炎疫苗或20 μg CHO重组乙型肝炎疫苗。对免疫功能低下或无应答者，应增加疫苗的接种剂量(如60 μg)和针次；对3针免疫程序无应答者可再接种1针60 μg或3针20 μg乙型肝炎疫苗，并于第2次接种乙型肝炎疫苗后1～2个月检测血清中抗-HBs，如仍无应答，可再接种1针60 μg重组酵母乙型肝炎疫苗。
+接种乙型肝炎疫苗后有抗体应答者的保护效果一般至少可持续12年[18]，因此，一般人群不需要进行抗-HBs监测或加强免疫。但对高危人群可进行抗-HBs监测，如抗-HBs<10 mIU/mL，可给予加强免疫[19]。
+2．意外暴露后预防：
+当有破损的皮肤或黏膜意外暴露HBV感染者的血液和体液后，可按照以下方法处理。①血清学检测：应立即检测HBV DNA、HBsAg、抗-HBs、HBeAg、抗-HBe、抗-HBc和肝功能，酌情在3个月和6个月内复查。②主动和被动免疫：如已接种过乙型肝炎疫苗，且已知抗-HBs阳性者，可不进行特殊处理。如未接种过乙型肝炎疫苗，或虽接种过乙型肝炎疫苗，但抗-HBs<10 mIU/L或抗-HBs水平不详者，应立即注射HBIG 200～400 IU，并同时在不同部位接种1针乙型肝炎疫苗(20 μg)，于1个月和6个月后分别接种第2和第3针乙型肝炎疫苗(各20 μg)。
+3．对患者和携带者的管理：
+对已经确定的HBsAg阳性者，应按规定向当地疾病预防控制中心报告，并建议对患者的家庭成员进行血清HBsAg、抗-HBc和抗-HBs检测，并对其中的易感者(该三种标志物均阴性者)接种乙型肝炎疫苗。
+乙型肝炎患者和HBV携带者的传染性高低主要取决于血液中HBV DNA水平，与血清ALT、AST或胆红素水平无关。对乙型肝炎患者和携带者的随访见本指南"患者的随访管理"。
+对慢性HBV感染者及非活动性HBsAg携带者，除不能捐献血液、组织器官及从事国家明文规定的职业或工种外，可照常工作和学习，但应定期进行医学随访。
+4．切断传播途径：
+大力推广安全注射(包括针灸的针具)，并严格遵循医院感染管理中的预防原则。服务行业所用的理发、刮脸、修脚、穿刺和文身等器具也应严格消毒。注意个人卫生，杜绝共用剃须刀和牙具等用品。若性伴侣为HBsAg阳性者，应接种乙型肝炎疫苗或采用安全套；在性伙伴健康状况不明的情况下，一定要使用安全套，以预防乙型肝炎及其他血源性或性传播疾病。对HBsAg阳性的孕妇，应避免羊膜腔穿刺，保证胎盘的完整性，尽量减少新生儿暴露于母血的机会。
+推荐意见1：对HBsAg阳性母亲的新生儿，应在出生后24 h内尽早(最好在出生后12 h内)注射HBIG，剂量应≥100 IU，同时在不同部位接种10 μg重组酵母乙型肝炎疫苗，在1个月和6个月时分别接种第2和第3针乙型肝炎疫苗(A1)。
+推荐意见2：对新生儿时期未接种乙型肝炎疫苗的儿童应进行补种，剂量为10 μg重组酵母乙型肝炎疫苗或20 μg CHO重组乙型肝炎疫苗(A1)。
+推荐意见3：新生儿在出生12 h内注射HBIG和乙型肝炎疫苗后，可接受HBsAg阳性母亲的哺乳(B1)。
+推荐意见4：对免疫功能低下或无应答者，应增加疫苗的接种剂量(如60 μg)和针次；对3针免疫程序无应答者可再接种1针60 μg或3针20 μg乙型肝炎疫苗，并于第2次接种乙型肝炎疫苗后1～2个月检测血清中抗-HBs，如仍无应答，可再接种1针60 μg重组酵母乙型肝炎疫苗(A1)。
+三、病原学
+HBV属嗜肝DNA病毒科(hepadnaviridae)，基因组长约3.2 kb，为部分双链环状DNA。其基因组编码HBsAg、HBeAg、HBcAg、病毒DNA多聚酶和HBx蛋白。HBV的抵抗力较强，但65 ℃10 h、煮沸10 min或高压蒸气均可灭活HBV。环氧乙烷、戊二醛、过氧乙酸和碘伏对HBV也有较好的灭活效果。
+近来研究发现，肝细胞膜上的钠离子-牛磺胆酸-协同转运蛋白(sodium taurocholate cotransporting polypeptide，NTCP)是HBV感染所需的细胞膜受体[20]。当HBV侵入肝细胞后，部分双链环状HBV DNA在细胞核内以负链DNA为模板延长正链以修补正链中的裂隙区，形成共价闭合环状DNA(cccDNA)；然后以cccDNA为模板，转录成几种不同长度的mRNA，分别作为前基因组RNA并编码HBV的各种抗原。cccDNA半寿(衰)期较长，难以从体内彻底清除，对慢性感染起重要作用。HBV至少有9个基因型(A～J)[21]，我国以B型和C型为主。HBV基因型与疾病进展和α干扰素(IFNα)治疗应答有关，与C基因型感染者相比，B基因型感染者较少进展为慢性肝炎、肝硬化和HCC[22,23,24]。HBeAg阳性患者对IFNα治疗的应答率，B基因型高于C基因型，A基因型高于D基因型。病毒准种可能在HBeAg血清学转换、免疫清除以及抗病毒治疗应答中具有重要意义[25,26,27]。
+四、自然史及发病机制
+自然史：HBV感染的自然史取决于病毒、宿主和环境之间的相互作用。HBV感染时的年龄是影响慢性化的最主要因素。在围生期和婴幼儿时期感染HBV者中，分别有90%和25%～30%将发展成慢性感染，而5岁以后感染者仅有5%～10%发展为慢性感染[28]。我国HBV感染者多为围产期或婴幼儿时期感染。
+婴幼儿期HBV感染的自然史一般可人为划分为4个期，即免疫耐受期、免疫清除期、非活动或低(非)复制期和再活动期[29]。
+免疫耐受期：血清HBsAg和HBeAg阳性，HBV DNA水平高，ALT正常，肝组织无明显异常或轻度炎症坏死，无或仅有缓慢肝纤维化的进展[30]。
+免疫清除期：血清HBV DNA水平>2 000 IU/mL，ALT持续或间歇升高，肝组织学中度或严重炎症坏死，肝纤维化可快速进展，部分可发展为肝硬化和肝功能衰竭。
+低(非)复制期：血清HBeAg阴性、抗-HBe阳性，HBV DNA水平低或检测不到，ALT正常，肝组织无炎症或仅有轻度炎症。在发展为明显肝病之前出现HBeAg血清学转换的此期患者，发生肝硬化和HCC的风险明显减少。
+再活动期：5%～15%的非活动期患者可出现一次或数次肝炎发作，表现为HBeAg阴性，抗-HBe阳性，HBV DNA水平常>2 000 IU/mL，ALT持续或反复异常，成为HBeAg阴性CHB[31]。也可再次出现HBeAg阳转。
+并非所有HBV感染者都经过以上4期。青少年和成年时期感染HBV，多无免疫耐受期而直接进入免疫清除期。
+自发性HBeAg血清学转换主要出现在免疫清除期，年发生率为2%～15%。年龄<40岁、ALT升高、HBV基因A型和B型者发生率较高[29,32]。HBeAg血清学转换后，每年有0.5%～1.0%的患者发生HBsAg清除[33]。有研究显示，HBsAg消失10年后，约14%的患者肝脏中仍可检测出cccDNA[34]。HBsAg消失时患者年龄>50岁，或已经发展为肝硬化，或合并HCV或HDV感染者，尽管发展为HCC的概率低，但仍可能发生[35]。
+CHB患者肝硬化的年发生率为2%～10%[36]，危险因素包括宿主(高龄、男性、发生HBeAg血清学转换时年龄>40岁[37]和ALT持续升高[38])，病毒(HBV DNA >2 000 IU/mL)，HBeAg持续阳性[39]，C基因型，合并HCV、HDV或HIV感染以及环境(乙醇和肥胖)[36,40]。代偿期肝硬化进展为肝功能失代偿的年发生率为3%～5%，失代偿期肝硬化5年生存率为14%～35%[36]。
+非肝硬化HBV感染者的HCC年发生率为0.5%～1.0%[36]，肝硬化患者HCC年发生率为3%～6%[41,42,43]。发生HCC和肝硬化的危险因素相似。此外，罹患肝硬化、糖尿病、直系亲属有HCC病史、血清HBsAg高水平，以及黄曲霉毒素均与HCC发生相关[36,40,44,45,46,47,48]。较低的HBsAg水平常反映宿主对HBV复制和感染具有较好的免疫控制。对HBeAg阴性、HBV DNA低水平(<2 000 IU/mL)、B或C基因型的HBV感染者，高水平HBsAg(HBsAg≥1 000 IU/mL)与HCC的发生风险呈正相关[47,48]。
+发病机制：CHB的发病机制较为复杂，迄今尚未完全阐明。大量研究表明，HBV不直接杀伤肝细胞，其引起的免疫应答是肝细胞损伤及炎症发生的主要机制。而炎症反复存在是CHB患者进展为肝硬化甚至HCC的重要因素。
+固有免疫在HBV感染初期发挥作用，并诱导后续的特异性免疫应答。慢性HBV感染者的非特异免疫应答受到损伤[49,50]。HBV可通过自身HBeAg和HBx等多种蛋白成分，通过干扰Toll样受体(Toll-like receptors，TLR)和维甲酸诱导基因(retinoic acid inducible gene-Ⅰ，RIG-Ⅰ)两种抗病毒信号转导途径，来抑制非特异免疫应答的强度。CHB患者常表现为髓样树突状细胞(mDC)、浆细胞样树突状细胞(pDC)在外周血中频数低，mDC存在成熟障碍，pDC产生IFNα的能力明显降低，从而导致机体直接清除病毒和诱导HBV特异性T淋巴细胞功能产生的能力下降，不利于病毒清除。
+HBV特异性免疫应答在HBV清除中起主要作用[51]。主要组织相容性复合物(MHC)Ⅰ类分子限制性的CD8＋细胞毒性T淋巴细胞可诱导肝细胞凋亡，也可分泌IFNγ，以非细胞裂解机制抑制其他肝细胞内HBV基因复制和表达[52]。慢性感染时，HBV特异性T淋巴细胞易凋亡，寡克隆存在，分泌细胞因子功能和增殖能力显著降低，T淋巴细胞功能耗竭，HBV持续复制[53]。
+五、实验室检查
+(一) HBV血清学检测
+HBV血清学标志物包括HBsAg、抗-HBs、HBeAg、抗-HBe、抗-HBc和抗-HBc-IgM。HBsAg阳性表示HBV感染；抗-HBs为保护性抗体，其阳性表示对HBV有免疫力，见于乙型肝炎康复及接种乙型肝炎疫苗者；抗-HBc-IgM阳性多见于急性乙型肝炎及CHB急性发作；抗-HBc总抗体主要是IgG型抗体，只要感染过HBV，无论病毒是否被清除，此抗体多为阳性。在HBeAg阳性的CHB患者中，基线抗-HBc定量对聚乙二醇干扰素(Peg IFN)和NA治疗的效果有一定的预测价值[54,55]。血清HBsAg定量检测可用于预测疾病进展、抗病毒疗效和预后[9,56,57]。
+(二) HBV DNA、基因型和变异检测
+1．HBV DNA定量检测：
+主要用于判断慢性HBV感染的病毒复制水平，可用于抗病毒治疗适应证的选择及疗效的判断。建议采用灵敏度和精确度高的实时定量聚合酶链反应(real-time quantitative PCR)检测。
+2．HBV基因分型和耐药突变株检测：
+常用的方法有：①基因型特异性引物聚合酶链反应(PCR)法；②基因序列测定法；③线性探针反向杂交法。
+(三)生物化学检查
+1．血清ALT和AST：
+血清ALT和AST水平一般可反映肝细胞损伤程度，最为常用。
+2．血清胆红素：
+血清胆红素水平与胆汁代谢、排泄程度有关，胆红素升高主要原因为肝细胞损害、肝内外胆道阻塞和溶血。肝功能衰竭患者血清胆红素可呈进行性升高，每天上升≥1×ULN，且有出现胆红素升高与ALT和AST下降的"胆酶分离"现象。
+3．血清白蛋白和球蛋白：
+反映肝脏合成功能，CHB、肝硬化和肝功能衰竭患者可有血清白蛋白下降。
+4．凝血酶原时间(PT)及凝血酶原活动度(PTA)：
+PT是反映肝脏凝血因子合成功能的重要指标，常用国际标准化比值(INR)表示，对判断疾病进展及预后有较大价值。
+5．γ-谷氨酰转肽酶(GGT)：
+正常人血清中GGT主要来自肝脏。此酶在急性肝炎、慢性活动性肝炎及肝硬化失代偿时仅轻中度升高。各种原因导致的肝内外胆汁淤积时可以显著升高。
+6．血清碱性磷酸酶(ALP)：
+ALP经肝胆系统进行排泄。所以当ALP产生过多或排泄受阻时，均可使血中ALP发生变化。临床上常借助ALP的动态观察来判断病情发展、预后和临床疗效。
+7．总胆汁酸(TBA)：
+健康人的周围血液中血清胆汁酸含量极低，当肝细胞损害或肝内、外胆管阻塞时，胆汁酸代谢就会出现异常，TBA就会升高。
+8．胆碱酯酶：
+可反映肝脏合成功能，对了解肝脏应急功能和贮备功能有参考价值。
+9．甲胎蛋白(AFP)：
+血清AFP及其异质体是诊断HCC的重要指标。应注意AFP升高的幅度、动态变化及其与ALT和AST的消长关系，并结合临床表现和肝脏影像学检查结果进行综合分析[58,59,60,61]。
+10．维生素K缺乏或拮抗剂-Ⅱ诱导蛋白(protein induced by vitamin K absence or antagonist-Ⅱ，PIVKA-Ⅱ)：
+又名脱γ羧基凝血酶原(des-gamma-carboxyprothrombin，DCP)，是诊断HCC的另一个重要指标，可与AFP互为补充[62,63,64]。
+六、肝纤维化无创性诊断
+1．APRI评分：
+AST和血小板(PLT)比率指数(aspartate aminotransferase-to-platelet ratio index, APRI)可用于肝硬化的评估。成人APRI评分>2分，预示患者已经发生肝硬化。APRI计算公式为[AST(ULN)×100/PLT(×109/L)][65]。
+2．FIB-4指数：
+基于ALT、AST、PLT和患者年龄的FIB-4指数可用于CHB患者肝纤维化的诊断和分期。FIB-4＝(年龄×AST)/(血小板×ALT的平方根)。
+3．瞬时弹性成像(transient elastography，TE)：
+TE作为一种较为成熟的无创检查，其优势为操作简便、可重复性好，能够比较准确地识别出轻度肝纤维化和进展性肝纤维化或早期肝硬化[66,67]；但其测定成功率受肥胖、肋间隙大小以及操作者的经验等因素影响，其测定值受肝脏炎症坏死、胆汁淤积以及脂肪变等多种因素影响。由于胆红素异常对TE诊断效能的显著影响，应考虑在胆红素正常情况下进行TE检查。TE结果判读需结合患者ALT水平等指标，将TE与其他血清学指标联合使用可以提高诊断效能[68,69]。
+TE的临床应用：胆红素正常且没有进行过抗病毒治疗者肝硬度测定值(LSM)≥17.5 kPa诊断肝硬化，LSM≥12.4 kPa(ALT<2×ULN时为10.6 kPa)可诊断为进展性肝纤维化；LSM<10.6 kPa可排除肝硬化可能；LSM≥9.4 kPa可诊断显著肝纤维化；LSM<7.4 kPa可排除进展性肝纤维化；LSM在7.4～9.4 kPa患者可以考虑肝活组织检查。转氨酶及胆红素均正常者LSM≥12.0 kPa诊断肝硬化，LSM≥9.0 kPa诊断进展性肝纤维化，LSM<9.0 kPa排除肝硬化，LSM<6.0 kPa排除进展性肝纤维化，LSM在6.0～9.0 kPa者如难以临床决策，考虑肝活组织检查[69,70]。
+七、影像学诊断
+影像学检查的主要目的是监测CHB的临床进展、了解有无肝硬化、发现占位性病变和鉴别其性质，尤其是监测和诊断HCC。
+1．腹部超声(US)检查：
+操作简便、直观、无创性和价廉，US检查已成为肝脏检查最常用的重要方法。该方法可以协助判断肝脏和脾脏的大小和形态、肝内重要血管情况及肝内有无占位性病变，但容易受到仪器设备、解剖部位及操作者的技术和经验等因素的限制。
+2．电子计算机断层成像(CT)：
+目前是肝脏病变诊断和鉴别诊断的重要影像学检查方法，用于观察肝脏形态，了解有无肝硬化，及时发现占位性病变和鉴别其性质，动态增强多期扫描对于HCC的诊断具有高度敏感性和特异性。
+3．核磁共振(MRI或MR)：
+无放射性辐射，组织分辨率高，可以多方位、多序列成像，对肝脏的组织结构变化如出血坏死、脂肪变性及肝内结节的显示和分辨率优于CT和US。动态增强多期扫描及特殊增强剂显像对鉴别良性和恶性肝内占位性病变优于CT[58]。
+八、病理学诊断
+肝活组织检查的目的是评价CHB患者肝脏病变程度、排除其他肝脏疾病、判断预后和监测治疗应答。
+CHB的病理学特点是：不同程度的汇管区及其周围炎症，浸润的炎细胞以单个核细胞为主，主要包括淋巴细胞及少数浆细胞和巨噬细胞，炎细胞聚集常引起汇管区扩大，并可引起界板肝细胞凋亡和坏死形成界面炎，旧称碎屑样坏死。小叶内肝细胞变性、坏死及凋亡，并可见毛玻璃样肝细胞，肝细胞坏死形式包括点灶状坏死、桥接坏死和融合性坏死等，凋亡肝细胞可形成凋亡小体，且随炎症病变活动而愈加显著。尽管少数CHB可无肝纤维化形成，但多数往往因病毒持续感染、炎症病变活动导致细胞外基质过度沉积，呈现不同程度的汇管区纤维性扩大、纤维间隔形成，Masson三色染色及网状纤维染色有助于肝纤维化程度的评价。明显的(significant fibrosis, Metavir分期≥F2)和进展期肝纤维化(advanced fibrosis, Metavir分期≥F3)进一步发展，可引起肝小叶结构紊乱，肝细胞结节性再生，形成假小叶结构，即肝硬化。病毒清除或抑制，炎症病变消退，组织学上肝纤维化及肝硬化可呈现不同程度的逆转[71,72]。
+免疫组织化学染色法可检测肝组织内HBsAg和HBcAg的表达。如临床需要，可采用核酸原位杂交法或PCR法行肝组织内HBV DNA或cccDNA检测[73]。
+CHB肝组织炎症坏死的分级和纤维化程度的分期，推荐采用国际上常用的Metavir[74]评分系统(表2，表3)。此外，采用计算机辅助数字化图像分析测定肝组织胶原面积比例(collagen proportionate area，CPA)可以用于临床试验的肝纤维化定量评价，但目前没有用于临床实践[75,76]。
+点击查看表格
+表2
+Metavir评分系统--肝组织炎症活动度评分
+表2
+Metavir评分系统--肝组织炎症活动度评分
+界面炎
+小叶内炎症坏死
+组织学活动度(histologic activity，A)a
+0(无)
+0(无或轻度)
+0(无)
+0
+1(中度)
+1(轻度)
+0
+2(重度)
+2(中度)
+1(轻度)
+0，1
+1
+1
+2
+2
+2(中度)
+0，1
+2
+2
+2
+3(重度)
+3(重度)
+0，1，2
+3
+注：a：组织学活动度A根据界面炎和小叶内炎症坏死程度综合确定
+点击查看表格
+表3
+Metavir评分系统--肝组织纤维化分期评分
+表3
+Metavir评分系统--肝组织纤维化分期评分
+病变
+纤维化分期(Fibrosis，F)
+无纤维化
+0
+汇管区纤维性扩大，但无纤维间隔形成
+1
+汇管区纤维性扩大，少数纤维间隔形成
+2
+多数纤维间隔形成，但无硬化结节
+3
+肝硬化
+4
+九、临床诊断
+根据HBV感染者的血清学、病毒学、生物化学及其他临床和辅助检查结果，可将慢性HBV感染分为以下几种。
+1．慢性HBV携带者：
+多为年龄较轻的处于免疫耐受期的HBsAg、HBeAg和HBV DNA阳性者，1年内连续随访3次，每次至少间隔3个月，均显示血清ALT和AST在正常范围，HBV DNA通常高水平，肝组织检查无病变或病变轻微[9,57,77,78]。
+2．HBeAg阳性CHB：
+血清HBsAg阳性，HBeAg阳性，HBV DNA阳性，ALT持续或反复异常或肝组织学检查有肝炎病变。
+3．HBeAg阴性CHB：
+血清HBsAg阳性，HBeAg持续阴性，HBV DNA阳性，ALT持续或反复异常，或肝组织学有肝炎病变。
+4．非活动性HBsAg携带者：
+血清HBsAg阳性、HBeAg阴性、抗-HBe阳性或阴性，HBV DNA低于检测下限或<200 IU/mL，1年内连续随访3次以上，每次至少间隔3个月，ALT和AST均在正常范围。肝组织检查显示：组织活动指数(HAI)评分<4或根据其他的半定量计分系统判定病变轻微。
+5．隐匿性CHB：
+血清HBsAg阴性，但血清和(或)肝组织中HBV DNA阳性，并有CHB的临床表现。除HBV DNA阳性外，患者可有血清抗-HBs、抗-HBe和(或)抗-HBc阳性，但约20%隐匿性CHB患者的血清学标志物均为阴性。诊断主要通过HBV DNA检测，尤其对抗-HBc持续阳性者。
+6．乙型肝炎肝硬化：
+建立HBV相关肝硬化临床诊断的必备条件包括：①组织学或临床提示存在肝硬化的证据；②病因学明确的HBV感染证据。通过病史或相应的检查予以明确或排除其他常见引起肝硬化的病因如HCV感染、乙醇和药物等[79]。
+临床上常根据有无主要并发症将肝硬化分为代偿期及失代偿期。代偿期肝硬化影像学、生物化学或血液学检查有肝细胞合成功能障碍或门静脉高压症证据，或组织学符合肝硬化诊断，但无食管胃底静脉曲张破裂出血、腹水或肝性脑病等症状或严重并发症；失代偿期肝硬化患者可以出现食管胃底静脉曲张破裂出血、肝性脑病、腹水等其他严重并发症[80]。
+为更准确地预测肝硬化患者的疾病进展，判断死亡风险，可按5期分类法评估肝硬化并发症情况，1期：无静脉曲张，无腹水；2期：有静脉曲张，无出血及腹水；3期：有腹水，无出血，伴或不伴静脉曲张；4期：有出血，伴或不伴腹水；5期：脓毒血症。1、2期为代偿期肝硬化，3～5期为失代偿期肝硬化。1、2、3、4和5期1年的病死率分别为<1%、3%～4%、20%、50%和>60%。并发症的出现与肝硬化患者预后和死亡风险密切相关[79,81,82]。
+十、治疗目标
+(一)治疗的目标
+最大限度地长期抑制HBV复制，减轻肝细胞炎性坏死及肝纤维化，延缓和减少肝功能衰竭、肝硬化失代偿、HCC及其他并发症的发生，从而改善生活质量和延长生存时间。在治疗过程中，对于部分适合的患者应尽可能追求CHB的临床治愈，即停止治疗后持续的病毒学应答、HBsAg消失、并伴有ALT复常和肝脏组织病变改善。
+(二)治疗终点
+1．理想的终点：
+HBeAg阳性与HBeAg阴性患者，停药后获得持久的HBsAg消失，可伴或不伴HBsAg血清学转换。
+2．满意的终点：
+HBeAg阳性患者，停药后获得持续的病毒学应答，ALT复常，并伴有HBeAg血清学转换；HBeAg阴性患者，停药后获得持续的病毒学应答和ALT复常。
+3．基本的终点：
+如无法获得停药后持续应答，抗病毒治疗期间长期维持病毒学应答(HBV DNA检测不到)。
+十一、抗病毒治疗的适应证
+抗病毒治疗的适应证主要根据血清HBV DNA水平、血清ALT和肝脏疾病严重程度来决定[78,83,84]，同时结合患者年龄、家族史和伴随疾病等因素，综合评估患者疾病进展风险后决定是否启动抗病毒治疗(图1)。动态的评估比单次的检测更具有临床意义。对HBeAg阳性患者，发现ALT水平升高后，可以考虑观察3～6个月，如未发生自发性HBeAg血清学转换，且ALT持续升高，再考虑抗病毒治疗。
+点击查看大图
+图1
+慢性乙型肝炎病毒感染者管理流程图
+点击查看大图
+注：HBV为乙型肝炎病毒；HBeAg为乙型肝炎e抗原；AFP为甲胎蛋白；ALT为丙氨酸转氨酶；ULN为正常值上限，HBsAg为乙型肝炎表面抗原。a肝硬化：①组织学或临床提示存在肝硬化的证据；②病因学明确的HBV感染证据。通过病史或相应的检查予以明确或排除其他常见引起肝硬化的病因如HCV感染、乙醇和药物等。bALT升高的其他常见原因：其他病原体感染、药物、乙醇、免疫、脂肪肝等
+图1
+慢性乙型肝炎病毒感染者管理流程图
+推荐接受抗病毒治疗的人群需同时满足以下条件[9,80,83,85]：
+1．HBV DNA水平：
+HBeAg阳性患者，HBV DNA≥20 000 IU/mL(相当于1×105拷贝/mL)；HBeAg阴性患者，HBV DNA≥2 000 IU/mL(相当于1×104拷贝/mL)；
+2．ALT水平：
+一般要求ALT持续升高≥2×ULN；如用IFN治疗，一般情况下ALT应≤10×ULN，血清总胆红素应<2×ULN。
+对持续HBV DNA阳性、达不到上述治疗标准、但有以下情形之一者，疾病进展风险较大，可考虑给予抗病毒治疗：
+1．存在明显的肝脏炎症(2级以上)或纤维化，特别是肝纤维化2级以上(A1)。
+2．ALT持续处于(1～2)×ULN之间，特别是年龄>30岁者，建议行肝活组织检查或无创性检查，若明显肝脏炎症或纤维化则给予抗病毒治疗(B2)。
+3．ALT持续正常(每3个月检查1次)，年龄>30岁，伴有肝硬化或HCC家族史，建议行肝活组织检查或无创性检查，若明显肝脏炎症或纤维化则给予抗病毒治疗(B2)。
+4．存在肝硬化的客观依据时，无论ALT和HBeAg情况，均建议积极抗病毒治疗(A1)。
+需要特别提醒的是，在开始治疗前应排除合并其他病原体感染或药物、乙醇和免疫等因素所致的ALT升高，尚需注意应用降酶药物后ALT暂时性正常。
+十二、普通IFNα和Peg IFNα治疗
+我国已批准普通IFNα和Peg IFNα用于治疗CHB。
+(一)普通IFNα和Peg IFNα治疗的方案及疗效
+普通IFNα治疗CHB患者具有一定的疗效。Peg IFNα相较于普通IFNα能取得相对较高的HBeAg血清学转换率、HBV DNA抑制及生物化学应答率[86]。多项国际多中心随机对照临床试验显示，HBeAg阳性的CHB患者，采用Peg IFNα-2a 180 μg/周治疗48周，停药随访24周时HBeAg血清学转换率为32%～36%，其中基线ALT在(2～5)×ULN患者停药24周HBeAg血清学转换率为44.8%，ALT在(5～10)×ULN患者为61.1%；停药24周时HBsAg转换率为2.3～3%[80,87]。研究显示，对于HBeAg阳性的CHB，应用Peg IFNα-2b也可取得类似的HBV DNA抑制、HBeAg血清学转换和HBsAg清除率[80]，停药3年HBsAg清除率为11%[88]。
+对HBeAg阴性CHB患者(60%为亚洲人)用Peg IFNα-2a治疗48周，停药随访24周时HBV DNA<2 000 IU/mL的患者为43%，停药后随访48周时为42%；HBsAg消失率在停药随访24周时为3%，停药随访至3年时增加至8.7%[80]，停药5年增加至12%[89]。有研究显示延长Peg IFNα疗程至2年可提高治疗应答率[90,91]，但考虑延长治疗带来的更多不良反应和经济负担，从药物经济学角度考虑，现阶段并不推荐延长治疗。
+(二) Peg IFNα与NA联合或序贯治疗
+同步Peg IFNα与NA的联合治疗方案是否能提高疗效仍不确切。同步联合方案较Peg IFNα单药在治疗结束时HBeAg转换、HBsAg清除、病毒学应答、生物化学应答等方面存在一定优势，但未显著改善停药后的持久应答率[92,93,94]。另有研究显示，在Peg IFNα基础上加用恩替卡韦(entecavir，ETV)，并未提高HBeAg血清学转换率以及HBsAg清除率[95]。
+使用NA降低病毒载量后联合或序贯Peg IFNα的方案，较NA单药在HBeAg血清学转换及HBsAg下降方面有一定的优势[96,97,98,99,100]。一项多中心随机开放研究显示，HBeAg阳性CHB患者使用ETV单药治疗9～36个月并达到HBV DNA<1 000拷贝/mL以及HBeAg<100 PEIU/mL的患者，序贯Peg IFNα-2a治疗48周的患者相对较继续使用ETV单药治疗患者有较高的HBeAg血清学转换率(14.9%比6.1%)和HBsAg清除率(8.5%比0%)[97]；另一项研究显示HBeAg阳性患者接受NA[拉米夫定(lamivudine，LAM)、ETV或阿德福韦酯(adefovir dipivoxil，ADV)]治疗1～3年后达到HBV DNA<200 IU/mL及HBeAg转阴者，再接受Peg IFNα-2a序贯治疗48周的HBsAg清除率及转换率分别为16.2%和12.5%[98]。然而，上述二项研究中序贯使用Peg IFN治疗可能带来更多的不良反应和更大的经济负担，因此需从药物经济学角度进一步评估。
+(三) IFNα抗病毒疗效的预测因素
+1．治疗前的预测因素：
+具有以下因素的HBeAg阳性CHB患者接受Peg IFNα治疗HBeAg血清学转换率更高：① HBV DNA<2×108 IU/mL; ②高ALT水平；③基因型为A或B型；④基线低HBsAg水平；⑤肝组织炎症坏死G2以上；HBeAg阴性CHB患者尚无有效的治疗前预测病毒学应答的因素[78]。在有抗病毒指征的患者中，相对年轻的患者(包括青少年患者)、希望近年内生育的患者、期望短期完成治疗的患者和初次接受抗病毒治疗的患者，可优先考虑Peg IFNα治疗。
+2．治疗过程中的预测因素：
+HBeAg阳性CHB患者治疗24周HBsAg和HBV DNA的定量水平是治疗应答的预测因素[78]。接受Peg IFNα治疗，如果24周HBsAg<1 500 IU/mL，继续单药治疗至48周可获得较高的HBeAg血清学转换率[87]。若经过24周治疗HBsAg定量仍>20 000 IU/mL，建议停止Peg IFNα治疗[101]，改用NA治疗。
+HBeAg阴性CHB患者治疗过程中HBsAg的下降、HBV DNA水平是停药后持续病毒学应答的预测因素[89]。如果经过12周治疗后HBsAg未下降且HBV DNA较基线下降<2 log10IU/mL，应考虑停止Peg IFNα治疗[102,103]，改用NA治疗。具体请参见"抗病毒治疗推荐意见"。
+(四) IFNα的不良反应及其处理
+1．流感样症候群：
+表现为发热、头痛、肌痛和乏力等，可在睡前注射IFNα，或在注射的同时服用解热镇痛药。
+2．一过性外周血细胞减少：
+如中性粒细胞绝对计数≤0.75×109/L和(或)血小板计数<50×109/L，应降低IFN-α剂量；1～2周后复查，如恢复，则逐渐增加至原量。中性粒细胞绝对计数≤0.5×109/L和(或)血小板计数<25×109/L，则应暂停使用IFN-α。对中性粒细胞明显降低者，可试用粒细胞集落刺激因子(G-CSF)或粒细胞巨噬细胞集落刺激因子(GM-CSF)治疗。
+3．精神异常：
+可表现为抑郁、妄想和重度焦虑等精神病症状。对症状严重者，应及时停用IFNα，必要时会同精神心理方面的专科医师进一步诊治。
+4．自身免疫现象：
+一些患者可出现自身抗体，仅少部分患者出现甲状腺疾病、糖尿病、血小板减少、银屑病、白斑、类风湿关节炎和系统性红斑狼疮样综合征等，应请相关科室医师共同诊治，严重者应停药。
+5．其他少见的不良反应：
+包括肾脏损害、心血管并发症、视网膜病变、听力下降和间质性肺炎等，应停止IFNα治疗。
+(五) IFNα治疗的禁忌证
+IFNα治疗的绝对禁忌证包括：妊娠或短期内有妊娠计划、精神病史(具有精神分裂症或严重抑郁症等病史)、未能控制的癫痫、失代偿期肝硬化、未控制的自身免疫性疾病、伴有严重感染，视网膜疾病，心力衰竭和慢性阻塞性肺病等基础疾病。
+IFNα治疗的相对禁忌证包括：甲状腺疾病，既往抑郁症史，未有效控制的糖尿病和高血压病，治疗前中性粒细胞计数<1.5×109/L和(或)血小板计数<90×109/L。
+十三、NA治疗和监测
+(一)五种NA药物疗效(表4，表5)
+点击查看表格
+表4
+HBeAg阳性CHB患者各种抗病毒药物的疗效汇总(%)
+表4
+HBeAg阳性CHB患者各种抗病毒药物的疗效汇总(%)
+抗病毒药物
+HBeAg血清学转换率
+HBV DNA转阴率
+ALT复常率
+HBsAg转阴率
+参考文献
+短期治疗(48～52周)
+Peg IFNα-2a
+32
+14
+41
+3
+[125]
+Peg IFNα-2b
+29
+7
+32
+7
+[126]
+LAM
+16～18
+36～44
+41～72
+0～1
+[104,125,127,128,129]
+LdT
+22
+60
+77
+0.5
+[129]
+ETV
+21
+67
+68
+2
+[104]
+ADV
+12～18
+13～21
+48～54
+0
+[130]
+TDF
+21
+76
+68
+3
+[109]
+长期治疗(2～8年)
+Peg IFN(停药后3年)
+35
+19
+－
+11
+[88]
+LAM(5年)
+22
+－
+58
+－
+[122]
+LdT(2年)
+30
+56
+70
+1.3
+[116]
+ETV(5年)
+－
+94
+80
+5(2年)[131]
+[106]
+ADV(5年)
+29
+55
+77
+－
+[132]
+TDF(8年)
+31
+98
+－
+13
+[110]
+注：HBeAg为乙型肝炎e抗原；CHB为慢性乙型肝炎；Peg IFN为聚乙二醇干扰素；LAM为拉米夫定；LdT为替比夫定；ETV为恩替卡韦；ADV为阿德福韦酯；TDF为替诺福韦酯；HBV为乙型肝炎病毒；ALT为丙氨酸转氨酶；"－"为无相关数据
+点击查看表格
+表5
+HBeAg阴性CHB患者各种抗病毒药物的疗效汇总(%)
+表5
+HBeAg阴性CHB患者各种抗病毒药物的疗效汇总(%)
+抗病毒药物
+HBV DNA转阴率
+ALT复常率
+HBsAg转阴率
+参考文献
+短期治疗(48～52周)
+Peg IFNα-2a
+19
+59
+3
+[133]
+LAM
+72～73
+71～79
+0
+[129,133,134]
+LdT
+88
+74
+0
+[129]
+ETV
+90
+78
+0
+[105]
+ADV
+51～63
+72～77
+0
+[109,135]
+TDF
+93
+76
+0
+[109]
+长期治疗(2～8年)
+Peg IFN(停药后3年)
+18
+31
+8
+[136]
+LAM
+－
+－
+－
+－
+LdT(2年)
+82
+78
+0.5
+[116]
+ETV
+－
+－
+－
+－
+ADV(5年)
+67
+69
+5
+[120]
+TDF(8年)
+99
+－
+1.1
+[110]
+注：HBeAg为乙型肝炎e抗原；CHB为慢性乙型肝炎；Peg IFN为聚乙二醇干扰素；LAM为拉米夫定；LdT为替比夫定；ETV为恩替卡韦；ADV为阿德福韦酯；TDF为替诺福韦酯；HBV为乙型肝炎病毒；ALT为丙氨酸转氨酶；"－"为无相关数据
+1．ETV：
+Ⅲ期临床试验ETV治疗48周时，HBeAg阳性CHB患者中，HBV DNA转阴(<300拷贝/mL)率为67%、HBeAg血清学转换率为21%、ALT复常率为68%、肝组织病变改善率为72%[104]。在HBeAg阴性CHB患者中，HBV DNA转阴(<300拷贝/mL)率为90%、ALT复常率为78%、肝组织病变改善率为70%[105]。
+ETV治疗5年的随访研究表明，HBeAg阳性CHB患者HBV DNA转阴(<300拷贝/mL)率94%，ALT复常率为80%[106]。在NA初治CHB患者中(HBeAg阳性或阴性)，ETV治疗5年的累积耐药发生率为1.2%，然而，在已发生LAM耐药的患者中，ETV治疗5年的累积基因型耐药发生率升高至51%[107]。应用ETV治疗5年的肝脏组织病理研究显示，88%(55/57)获得肝纤维化改善，40%(4/10)肝硬化逆转[71,108]。严重肝病患者有发生乳酸酸中毒的报告，应引起关注。
+2．替诺福韦酯(tenofovir disoproxil fumarate，TDF)：
+Ⅲ期临床试验表明，TDF治疗48周时HBeAg阳性CHB患者中HBV DNA转阴(<400拷贝/mL)率为76%、HBeAg血清学转换率为21%、ALT复常率为68%。在HBeAg阴性CHB患者中HBV DNA转阴(<400拷贝/mL)率为93%、ALT复常率为76%[109]。
+TDF治疗5年的组织学改善率为87%，纤维化逆转率为51%；在治疗前被诊断为肝硬化的患者中(Ishak评分为5或6分)，经5年治疗后，74%患者的Ishak评分下降至少1分[72]。
+经过8年TDF治疗，HBeAg阳性患者的HBV DNA转阴(<400拷贝/mL)率为98%，HBeAg血清学转换率为31%，HBsAg消失率为13%。HBeAg阴性患者的HBV DNA转阴(<400拷贝/mL)率为99.6%。未检测到TDF相关耐药。在长期治疗过程中，2.2%的患者发生血肌酐升高≥44.2 μol/L，1%的患者发生肌酐清除率低于50 mL/min，长期用药的患者应警惕肾功能不全和低磷性骨病的发生[110]。
+TDF治疗NA经治患者48～168周的研究显示，无论是LAM耐药、ADV耐药、ETV耐药，还是ADV应答不佳、LAM和ADV联合耐药等情况，TDF都表现出较高的病毒学应答，且耐受性良好[111,112,113,114]。
+3．替比夫定(telbivudine，LdT)：
+国内Ⅲ期临床试验的52周结果，以及全球多中心研究104周结果均表明，LdT抗病毒活性优于LAM，且耐药发生率低于LAM[115,116]，但总体耐药率仍然偏高。基线HBV DNA<1×109拷贝/mL及ALT≥2×ULN的HBeAg阳性患者，或HBV DNA<1×107拷贝/mL的HBeAg阴性患者，经LdT治疗24周时如达到HBV DNA<300拷贝/mL，治疗到1年、2年时有更好的疗效和较低的耐药发生率[117]。
+LdT的总体不良事件发生率和LAM相似，但治疗52周和104周时发生3～4级肌酸激酶(CK)升高者分别为7.5%和12.9%，而LAM组分别为3.1%和4.1%[115,116]。有个案发生肌炎、横纹肌溶解和乳酸酸中毒等的报道，应引起关注。本品与IFN-α类合用时可致末稍神经病，应列为禁忌。
+4．ADV：
+国内外随机双盲临床试验表明，HBeAg阳性CHB患者口服ADV可明显抑制HBV DNA复制、促进ALT复常、改善肝组织炎症坏死和纤维化。对HBeAg阳性患者治疗1、2、3和5年时，HBV DNA<1 000拷贝/mL者分别为28%、45%、56%和58%，HBeAg血清学转换率分别为12%、29%、43%和48%；耐药率分别为0、1.6%、3.1%和20%[118,119]。对HBeAg阴性患者治疗5年，HBV DNA<1 000拷贝/mL者为67%、ALT复常率为69%；治疗5年时的累积耐药基因突变发生率为29%[120]。
+ADV联合LAM，对于LAM耐药的CHB患者能有效抑制HBV DNA，且联合用药者对ADV的耐药发生率更低[121]。
+ADV长期治疗5年时，血清肌酐升高超过44.2 μol/L者达3%，但血清肌酐的升高为可逆性[118,120]。国家食品药品监督管理局(CFDA)要求警惕ADV长期使用后可能导致低磷血症及骨软化风险。骨软化主要是非矿化的骨样组织增生，骨质软化，易产生骨痛、骨畸形、骨折等一系列临床症状和体征。长期用药的患者应警惕肾功能不全和低磷性骨病，特别是范可尼综合征的发生。
+5．LAM：
+国内外随机对照临床试验结果表明，口服LAM 100 mg 1次/d，可明显抑制HBV DNA水平；HBeAg血清学转换率随治疗时间延长而提高，治疗1、2、3、4和5年时分别为16%、17%、23%、28%和35%[122]。随机双盲临床试验表明，CHB伴明显肝纤维化和代偿期肝硬化患者经LAM治疗3年可延缓疾病进展、降低肝功能失代偿及HCC的发生率[123]。失代偿期肝硬化患者经LAM治疗后也能改善肝功能，延长生存期[124]。
+随治疗时间延长，病毒耐药突变的发生率增高(第1、2、3、4年分别为14%、38%、49%和66%)[122]。
+(二) NA治疗中预测疗效和优化治疗
+应用NA治疗CHB，强调首选高耐药基因屏障的药物；如果应用低耐药基因屏障的药物，应该进行优化治疗以提高疗效和减少耐药性产生。一项前瞻性多中心临床试验EFFORT研究2年结果表明，对于LdT治疗早期应答良好的患者(24周HBV DNA<300拷贝/mL)继续单药治疗，治疗2年88.6%的患者实现HBV DNA<300拷贝/mL，HBeAg血清学转换率为41.3%，耐药率为5.5%；对于LdT治疗早期应答不佳的患者(24周HBV DNA≥300拷贝/mL)，加用ADV优化治疗，2年HBV DNA<300拷贝/mL者为71.1%，耐药率为0.5%。应用优化治疗方案后，整体试验人群2年HBV DNA<300拷贝/mL者为76.7%，耐药率为2.7%[117]。从国内外研究数据来看，优化治疗可以提高疗效，减少耐药的产生，但总体耐药发生率仍高于ETV和TDF(非头对头比较)。
+(三) NA治疗中的监测
+1．治疗基线相关指标检测：
+①肝脏生物化学指标，主要有ALT、AST、胆红素和白蛋白等；②病毒学和血清学标志，主要有HBV DNA、HBsAg、HBeAg和抗-HBe；③根据病情需要，检测血常规、血清肌酐和CK等，必要时可检测血磷和乳酸；④无创性肝纤维化检测，如肝脏弹性检测；⑤如条件允许，治疗前可考虑肝活组织检查。
+2．密切关注患者治疗依从性问题：
+包括用药剂量、使用方法、是否有漏用药物或自行停药、自行减量、自行延长服药间隔时间等情况，确保患者已经了解随意停药可能导致的风险，提高患者依从性。
+3．少见、罕见不良反应的预防和处理：
+NA总体安全性和耐受性良好，但在临床应用中确有少见、罕见严重不良反应的发生，如肾功能不全(主要见于ADV治疗)、低磷性骨病(主要见于ADV和TDF治疗)、肌炎(主要见于LdT治疗)、横纹肌溶解(主要见于LdT)、乳酸酸中毒(可见于LAM、ETV和LdT)等，应引起关注。建议NA治疗前仔细询问相关病史，以减少风险。对治疗中出现血肌酐、CK、乳酸脱氢酶明显升高或血磷下降，并伴相关临床表现者，如全身情况变差、明显肌痛、肌无力、骨痛等症状的患者，应密切观察，一旦确诊为药物相关的肾损害、低磷血症、肌炎、横纹肌溶解或乳酸酸中毒等，应及时停药或改用其他药物，并给予积极的相应治疗干预。
+4．耐药监测：
+耐药是NA长期治疗CHB所面临的主要问题之一。耐药可引发病毒学突破、生物化学突破、病毒学反弹及肝炎发作，少数患者可出现肝功能失代偿、急性肝功能衰竭，甚至死亡[137]。
+(四) NA耐药的预防和处理
+1．严格评估患者是否需要抗病毒治疗：
+对于肝脏炎症病变轻微、难以取得持续应答的患者(如ALT正常、HBeAg阳性的免疫耐受期)，特别是当这些患者年龄<30岁时，不宜开始抗病毒治疗。
+2．NA的选择：
+初治时优先推荐ETV或TDF。
+3．治疗中定期检测HBV DNA：
+以及时发现原发性无应答或病毒学突破。一旦发生病毒学突破，需要进行基因型耐药的检测，并尽早给予挽救治疗(表6)。对于NA发生耐药者，改用Peg IFNα治疗的应答率较低[138]。
+点击查看表格
+表6
+NA耐药挽救治疗推荐
+表6
+NA耐药挽救治疗推荐
+耐药种类
+推荐药物
+LAM或LdT耐药
+换用TDF，或加用ADV
+ADV耐药，之前未使用LAM
+换用ETV，或TDF
+治疗LAM/LdT耐药时出现对ADV耐药
+换用TDF，或ETV＋ADV
+ETV耐药
+换用TDF，或加用ADV
+发生多药耐药突变(A181T＋N236T＋M204V)
+ETV＋TDF，或ETV＋ADV
+注：NA为核苷(酸)类药物；LAM为拉米夫定；LdT为替比夫定；TDF为替诺福韦酯；ADV为阿德福韦酯
+十四、抗病毒治疗推荐意见及随访管理
+(一)抗病毒治疗推荐意见
+1．HBeAg阳性CHB：
+在HBV感染自然史中，部分ALT升高的HBeAg阳性CHB患者在随访过程中随着肝内炎症活动的减轻，可出现自发的HBeAg血清学转换，ALT恢复正常[139]。因此，对于ALT升高的HBeAg阳性CHB患者可以先观察3～6个月，如未发生自发性的HBeAg血清学转换且ALT持续升高，再考虑开始抗病毒治疗[140]。
+药物选择
+推荐意见5：对初治患者优先推荐选用ETV、TDF或Peg IFN(A1)。对于已经开始服用LAM或LdT的患者，如果治疗24周后病毒定量>300拷贝/mL，改用TDF或加用ADV治疗；对于已经开始服用ADV的患者，如果治疗24周后病毒定量较基线下降<2 log10 IU/mL，改用ETV或TDF[117,141](A1)。
+推荐疗程
+推荐意见6：NA的总疗程建议至少4年，在达到HBV DNA低于检测下限、ALT复常、HBeAg血清学转换后，再巩固治疗至少3年(每隔6个月复查1次)仍保持不变者，可考虑停药，但延长疗程可减少复发[142,143,144,145](B1)。
+推荐意见7：IFNα和Peg IFNα的推荐疗程为1年，若经过24周治疗HBsAg定量仍>20 000 IU/mL，建议停止治疗[146]，改用NA治疗(B1)。
+2．HBeAg阴性CHB：
+HBeAg阴性患者抗病毒治疗具体疗程不明确，且停药后肝炎复发率高，因此治疗疗程宜长[147]。
+药物选择
+推荐意见8：对初治患者优先推荐选用ETV、TDF或Peg IFN(A1)。对于已经开始服用LAM或LdT的患者，如果治疗24周后病毒定量>300拷贝/mL，改用TDF或加用ADV治疗；对于已经开始服用ADV的患者：如果治疗24周后病毒定量较基线下降<2 log10 IU/mL，改用ETV或TDF治疗(A1)。
+推荐疗程
+推荐意见9：NA治疗建议达到HBsAg消失且HBV DNA检测不到，再巩固治疗1年半(经过至少3次复查，每次间隔6个月)仍保持不变时，可考虑停药[143,148](B1)。
+推荐意见10：IFNα和Peg IFNα的推荐疗程为1年。若经过12周治疗未发生HBsAg定量的下降，且HBV DNA较基线下降<2 log10 IU/mL，建议停用IFNα[103]，改用NA治疗(B1)。
+3．代偿期和失代偿期乙型肝炎肝硬化：
+对于病情已经进展至肝硬化的患者，需要长期抗病毒治疗。
+药物选择
+推荐意见11：对初治患者优先推荐选用ETV或TDF(A1)。IFNα有导致肝功能衰竭等并发症的可能，因此禁用于失代偿期肝硬化患者，对于代偿期肝硬化患者也应慎用[149](A1)。
+(二)患者的随访管理
+1．慢性HBV携带者和非活动性HBsAg携带者的随访：
+慢性HBV携带者因处于免疫耐受期，一般情况下患者肝内无炎症活动或仅有轻微炎症，且此期患者抗病毒治疗效果欠佳，一般不推荐抗病毒治疗[140]，但对于年龄超过35岁、有HCC家族史的高病毒载量患者需要考虑抗病毒治疗。必须注意相当一部分免疫耐受期患者在成年后随着免疫耐受的打破会出现肝炎活动[46]。因此，对于HBV携带者应每3～6个月进行血常规、生物化学、病毒学、AFP、B型超声和无创肝纤维化等检查，必要时行肝活组织检查，若符合抗病毒治疗指征，应及时启动治疗。
+点击查看表格
+表7
+抗病毒治疗过程中的检查项目及频率
+表7
+抗病毒治疗过程中的检查项目及频率
+检查项目
+IFN治疗患者建议检测频率
+NAs治疗患者建议检测频率
+血常规
+治疗第1个月每1～2周检测1次，以后每月检测1次至治疗结束
+每6个月检测1次直至治疗结束
+生物化学指标
+每月检测1次直至治疗结束
+每3～6个月检测1次直至治疗结束
+HBV DNA
+每3个月检测1次直至治疗结束
+每3～6个月检测1次直至治疗结束
+HBsAg/抗-HBs/HBeAg/抗-HBe
+每3个月检测1次
+每6个月检测1次直至治疗结束
+甲胎蛋白
+每6个月检测1次
+每6个月检测1次直至治疗结束
+肝硬度测定值
+每6个月检测1次
+每6个月检测1次直至治疗结束
+甲状腺功能和血糖
+每3个月检测1次，如治疗前就已存在甲状腺功能异常或已患糖尿病，建议应每个月检查甲状腺功能和血糖水平
+根据既往病情决定
+精神状态
+密切观察，定期评估精神状态：对出现明显抑郁症状和有自杀倾向的患者，应立即停止治疗并密切监护
+根据既往病情决定
+腹部超声
+每6个月检测1次，肝硬化患者每3个月检测1次。如B超发现异常，建议行CT或MRI检查
+每6个月检测1次直至治疗结束
+其他检查
+根据患者病情决定
+服用LdT的患者，应每3～6个月监测肌酸激酶；服用TDF或ADV的患者应每3～6个月监测血肌酐和血磷
+注：IFN为干扰素；NAs为核苷(酸)类药物；HBV为乙型肝炎病毒；HBsAg为乙型肝炎表面抗原；HBeAg为乙型肝炎e抗原；CT为电子计算机断层成像；MRI为核磁共振；LdT为替比夫定；TDF为替诺福韦酯；ADV为阿德福韦酯
+非活动性HBsAg携带者也不推荐抗病毒治疗，但此类患者有发展成HBeAg阴性CHB的可能，且长期随访仍有发生HCC的风险[150]，因此建议每6个月进行血常规、生物化学、病毒学，AFP、B型超声和无创肝纤维化等检查。若符合抗病毒治疗指征，也应及时启动治疗。
+2．抗病毒治疗过程中的患者随访：
+抗病毒治疗过程中定期随访的目的是为了监测抗病毒治疗的疗效、用药依从性，以及耐药和不良反应。
+3．治疗结束后的患者随访：
+治疗结束后对停药患者进行密切随访的目的在于能够评估抗病毒治疗的长期疗效，监测疾病的进展以及HCC的发生。因此，不论患者在抗病毒治疗过程中是否获得应答，在停药后3个月内应每个月检测1次肝功能，HBV血清学标志物及HBV DNA；之后每3个月检测1次肝功能，HBV血清学标志物及HBV DNA，至少随访1年时间，以便及时发现肝炎复发及肝脏功能恶化。此后，对于持续ALT正常且HBV DNA低于检测下限者，建议至少半年进行1次HBV DNA、肝功能、AFP和超声影像检查。对于ALT正常但HBV DNA阳性者，建议每6个月进行1次HBV DNA、ALT、AFP和超声影像检查。对于肝硬化患者，应每3个月检测AFP和腹部超声显像，必要时做CT或MRI以早期发现HCC。对肝硬化患者还应每1～2年进行胃镜检查，以观察有无食管胃底静脉曲张及其进展情况。
+十五、特殊人群抗病毒治疗推荐意见
+1．无应答及应答不佳患者：
+经过规范的普通IFNα或Peg IFNα治疗无应答的患者，应选用NA重新治疗(A1)。在依从性良好的情况下，使用耐药基因屏障低的NA治疗后原发无应答或应答不佳的患者，应及时调整治疗方案继续治疗[117,141](A1)。对于使用ETV或TDF治疗后出现原发无应答或应答不佳的患者，是否需要调整治疗方案目前仍未阐明[151]。
+2．应用化学治疗和免疫抑制剂治疗的患者：
+慢性HBV感染患者在接受肿瘤化疗或免疫抑制治疗过程中，有20%～50%的患者可以出现不同程度的乙型肝炎再活动，重者出现急性肝功能衰竭甚至死亡。高病毒载量是发生乙型肝炎再活动最重要的危险因素[152]。预防性抗病毒治疗可以明显降低乙型肝炎再活动[153]。并建议选用强效低耐药的ETV或TDF治疗[154]。
+对于所有因其他疾病而接受化疗或免疫抑制剂治疗的患者，在起始治疗前都应常规筛查HBsAg、抗-HBc和HBV DNA，并评估接受免疫抑制剂的风险程度。在开始免疫抑制剂及化疗药物前1周开始应用抗病毒治疗。对HBsAg阴性、抗-HBc阳性者，若使用B细胞单克隆抗体等，可以考虑预防使用抗病毒药物[155,156](A1)。在化疗和免疫抑制剂治疗停止后，应当继续NA治疗至少6个月；若应用B细胞单克隆抗体者，停止化疗后继续NA治疗至少12个月。NA停用后可出现复发，甚至病情恶化，应注意随访和监测(A1)。
+3．HBV和HCV合并感染患者的治疗：
+HBV合并HCV感染要综合患者HBV DNA水平、HCV RNA水平以及ALT情况，采取不同治疗方案。对HBV DNA低于检测下限，HCV RNA可检出者，参照抗HCV治疗方案(A1)。HBV DNA和HCV RNA均可检出，应先用标准剂量Peg IFNα和利巴韦林治疗3个月，如HBV DNA下降<2 log10IU/mL或升高，建议加用ETV或TDF治疗；或换用抗HCV直接作用抗病毒药物并加用ETV或TDF治疗(A1)[9,56,157,158,159]。
+4．HBV和HIV合并感染患者的治疗：
+对于近期不需要进行抗反转录病毒治疗(antiretroviral therapy，ART)(CD4＋T淋巴细胞>500/μL)，如符合CHB抗病毒治疗标准的患者，建议使用Peg IFNα或ADV抗HBV治疗(C1)。对一过性或轻微ALT升高[(1～2)×ULN]的患者，建议肝活组织检查或无创肝纤维化评估(B2)。
+CD4＋T淋巴细胞≤500/μL时，无论CHB处于何种阶段，均应开始ART，优先选用TDF加LAM，或TDF加恩曲他滨(FTC)(A1)[2,160,161,162]。对于正在接受ART且治疗有效的患者，若ART方案中无抗HBV药物，则可加用NA或Peg IFNα治疗(C2)。
+当需要改变ART方案时，除非患者已经获得HBeAg血清学转换、并完成了足够的巩固治疗时间，不应当在无有效药物替代前中断抗HBV的有效药物(B1)。
+5．乙型肝炎导致的肝功能衰竭：
+对HBsAg阳性或HBV DNA阳性的急性、亚急性、慢加急性及慢性肝功能衰竭患者应尽早应用NA抗病毒治疗[3,163,164,165,166,167](A1)，建议选择ETV或TDF(A1)。抗病毒治疗应持续至发生HBsAg血清学转换(C1)。肝功能衰竭患者抗病毒治疗中应注意监测血浆乳酸水平(C1)。
+6．乙型肝炎导致的HCC：
+对于HBV相关的HCC患者，外科手术切除、肝动脉化疗栓塞、放射治疗或消融等治疗可导致HBV复制活跃。较多的研究显示，HCC肝切除术时HBV DNA水平是预测术后复发的独立危险因素之一，且抗病毒治疗可显著延长HCC患者的无复发生存期及提高总体生存率[168,169]。因此，对HBV DNA阳性的HCC患者建议应用NA抗病毒治疗，并优先选择ETV或TDF治疗(A1)。
+7．肝移植患者：
+对于HBV相关疾病接受肝移植的患者，推荐尽早使用抑制HBV作用强且耐药发生率低的NA治疗，以获得尽可能低的病毒载量，防止移植肝再感染。对于移植肝HBV再感染低风险患者，即移植前患者HBV DNA不可测，可在移植前直接予ETV或TDF治疗，术后无需使用HBIG[170](B1)。对于移植肝HBV再感染高风险患者，术中无肝期给予HBIG，移植后主要抗病毒方案为NA联合低剂量HBIG，其中选择ETV或TDF联合低剂量HBIG能更好地抑制肝移植术后乙型肝炎复发[170,171,172](A1)。对于已经使用其他NA药物的患者需密切监测耐药发生，及时调整治疗方案。HBV相关肝移植患者需要终身应用抗病毒药物以预防乙型肝炎复发[173](A1)。
+8．妊娠相关情况处理：
+有生育要求的CHB患者，若有治疗适应证，应尽量在孕前应用IFN或NA治疗，以期在孕前6个月完成治疗。在治疗期间应采取可靠避孕措施(A1)。
+对于妊娠期间CHB患者，ALT轻度升高可密切观察，肝脏病变较重者，在与患者充分沟通并权衡利弊后，可以使用TDF或LdT抗病毒治疗(A1)。
+对于抗病毒治疗期间意外妊娠的患者，如应用IFNα治疗，建议终止妊娠(B2)。如应用口服NA药物：若应用的是妊娠B级药物(LdT或TDF)或LAM，在充分沟通、权衡利弊的情况下，可继续治疗；若应用的是ETV和ADV，在充分沟通、权衡利弊的情况下，需换用TDF或LdT继续治疗，可以继续妊娠[174,175](A1)。
+免疫耐受期妊娠患者血清HBV DNA高水平是母婴传播的高危因素之一，新生儿标准乙型肝炎免疫预防及母亲有效的抗病毒治疗可显著降低HBV母婴传播的发生率。妊娠中后期如果HBV DNA>2×106 IU/mL，在与患者充分沟通、知情同意基础上，可于妊娠第24～28周开始给予TDF、LdT或LAM(A1)。可于产后停药，并加强随访和监测。产后可以母乳喂养[16,176,177,178](C2)。
+男性抗病毒治疗患者的生育问题：应用IFNα治疗的男性患者，应在停药后6个月方可考虑生育；应用NA抗病毒治疗的男性患者，目前尚无证据表明NA治疗对精子的不良影响，可在与患者充分沟通的前提下考虑生育(C2)。
+9．儿童患者：
+儿童HBV感染者常处于免疫耐受期，通常不考虑抗病毒治疗。对于进展期肝病或肝硬化患儿，应及时抗病毒治疗，但需考虑长期治疗安全性及耐药性问题。目前美国食品药品监督管理局(FDA)批准用于儿童患者治疗的药物包括普通IFN-α(2～17岁)、LAM(2～17岁)、ADV(12～17岁)、ETV(2～17岁)和TDF(12～17岁)。临床试验表明，普通IFN-α治疗儿童患者的疗效与成人患者相当。IFN-α用于儿童患者的推荐剂量为每周3次，每次3～6 MU/m2体表面积，最大剂量不超过10 MU/m2。但IFN-α不能用于1岁以下儿童治疗。在充分知情同意的基础上，2～11岁也可选用ETV治疗，12～17岁可选用ETV或TDF治疗(A1)。剂量参照美国FDA和世界卫生组织推荐意见(表8)[9,179,180,181]。
+点击查看表格
+表8
+儿童使用核苷(酸)类药物的推荐剂量
+表8
+儿童使用核苷(酸)类药物的推荐剂量
+药物
+体质量(kg)
+剂量(mg/d)
+ETV(年龄≥2岁)
+10～11
+0.15
+>11～14
+0.20
+>14～17
+0.25
+>17～20
+0.30
+>20～23
+0.35
+>23～26
+0.40
+>26～30
+0.45
+>30
+0.50
+TDF(年龄≥12岁)
+≥35
+300
+注：ETV为恩替卡韦；TDF为替诺福韦酯
+10．肾功能损害患者：
+NA抗病毒治疗是HBV相关肾小球肾炎治疗的关键，推荐使用强效、低耐药的药物。NA多数以药物原型通过肾脏清除，因此，用药时需根据患者的肾功能受损程度进行给药间隔和(或)剂量调整，具体剂量调整方案可参考相关药品说明书。对于已经存在肾脏疾患及其高危风险的CHB患者，应尽可能避免应用ADV或TDF。有研究提示LdT可能具有改善估算肾小球滤过率(estimated glomerular filtration rate, eGFR)的作用，但其机制不明。对于存在肾损害风险的CHB患者，推荐使用LdT或ETV治疗[9,179,180,181](B1)。
+推荐意见12：经过规范的普通IFNα或Peg IFNα治疗无应答的患者，可用NA再治疗。在依从性良好的情况下，对于使用耐药基因屏障低的NA治疗后原发无应答或应答不佳的患者，应及时调整治疗方案继续治疗(A1)。
+推荐意见13：对于所有因其他疾病而接受化疗和免疫抑制剂治疗的患者，在起始治疗前都应常规筛查HBsAg、抗-HBc和HBV DNA，在开始免疫抑制剂及化疗药物前1周开始应用抗病毒治疗，优先选择ETV或TDF。对HBsAg阴性但抗-HBc阳性者，若使用B细胞单克隆抗体等，可以考虑预防使用抗病毒药物(A1)。
+推荐意见14：对于HBV合并HIV感染者，若CD4＋T淋巴细胞≤500/μL时，无论CHB处于何种阶段，均应开始针对艾滋病的联合抗病毒治疗(ART)，优先选用含有TDF＋LAM，或TDF＋恩曲他滨(FTC)的方案(A1)。
+推荐意见15：对HBsAg阳性或HBV DNA阳性的急性、亚急性、慢加急性及慢性肝功能衰竭患者均应尽早应用NA抗病毒治疗，建议选择ETV或TDF(A1)。
+推荐意见16：对HBV DNA阳性的HCC患者建议应用NA抗病毒治疗，并优先选择ETV或TDF治疗(A1)。
+推荐意见17：对于移植前患者HBV DNA不可测的HBV再感染低风险患者，可在移植前予ETV或TDF治疗，术后无需使用HBIG(B1)。对于移植肝HBV再感染高风险患者，肝移植后主要抗病毒方案为NA联合低剂量HBIG，其中选择ETV或TDF联合低剂量HBIG能更好地抑制肝移植术后乙型肝炎复发(A1)。
+推荐意见18：妊娠期间乙型肝炎发作患者，ALT轻度升高可密切观察，肝脏病变较重者，在与患者充分沟通并权衡利弊后，可以使用TDF或LdT抗病毒治疗(A1)。
+推荐意见19：对于抗病毒治疗期间意外妊娠的患者，如应用IFN-α治疗，建议终止妊娠(B2)。若应用的是妊娠B级药物(LdT或TDF)或LAM，治疗可继续；若应用的是ETV和ADV，需换用TDF或LdT继续治疗，可以继续妊娠(A1)。
+推荐意见20：为进一步减少HBV母婴传播，免疫耐受期妊娠中后期HBV DNA>2×106 IU/mL，在充分沟通知情同意基础上，可于妊娠第24～28周开始给予TDF、LdT或LAM(A1)。可于产后停药，并加强随访和监测。产后可以母乳喂养(C2)。
+推荐意见21：对于儿童进展期肝病或肝硬化患儿，应及时抗病毒治疗，但需考虑长期治疗安全性及耐药性问题。2～11岁可选用IFNα或ETV治疗，12～17岁可选用IFNα、ETV或TDF治疗(A1)。
+推荐意见22：应用NA治疗HBV相关肾小球肾炎，推荐使用强效、低耐药的药物。对于已经存在肾脏疾患及其高危风险的CHB患者，应尽可能避免应用ADV或TDF。对于存在肾损害风险的CHB患者，推荐使用LdT或ETV治疗(B1)。
+十六、待解决的问题
+1．生物学标志在乙型肝炎自然史、治疗指征、疗效预测及预后判断方面的地位和作用；
+2．肝纤维化无创诊断手段在治疗适应证、疗效判断及长期随访中的地位和作用；
+3．NA和IFNα联合/序贯方案的疗效确认及成本效果分析；
+4．寻找预测NA停药的临床标准及生物学标志；
+5．长期NA治疗对肝硬化逆转、HCC发生率的影响；
+6．长期NA治疗的安全性以及妊娠期NA治疗对母婴长期安全性的影响；
+7．基于长期随访队列及大数据库的临床疗效研究；
+8．探索建立医患互动新型慢病管理模式，提高患者依从性；
+9．开展卫生经济学研究、探索降低药物价格、提高治疗可及性的有效途径；
+10．探索清除HBsAg的新疗法及HBsAg清除后的长期临床转归。
+作者按姓氏笔画排序：
+王贵强、王福生、成军、任红、庄辉、孙剑、李兰娟、李杰、孟庆华、赵景民、段钟平、侯金林、贾继东、唐红、盛吉芳、彭劼、鲁凤民、谢青、魏来
+参考文献
+[1]
+OttJJ, StevensGA, GroegerJ, et al.
+Global epidemiology of hepatitis B virus infection: new estimates of age-specific HBsAg seroprevalence and endemicity [J].
+Vaccine,
+2012，
+30(
+12)：
+2212–
+2219.
+[2]
+LozanoR, NaghaviM, ForemanK，et al.
+Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010 [J].
+Lancet,
+2012，
+380(
+9859)：
+2095–
+2128.
+[3]
+GoldsteinST, ZhouF, HadlerSC, et al.
+A mathematical model to estimate global hepatitis B disease burden and vaccination impact [J].
+Int J Epidemiol,
+2005，
+34(
+6)：
+1329–
+1339.
+[4]
+WangFS, FanJG, ZhangZ, et al.
+The global burden of liver disease: the major impact of China [J].
+Hepatology,
+2014,
+60(
+6):
+2099–
+2108.
+[5]
+FungJ, SetoWK, LaiCL, et al.
+Profiles of HBV DNA in a large population of Chinese patients with chronic hepatitis B: implications for antiviral therapy [J].
+J Hepatol,
+2011，
+54(
+2)：
+195–
+200.
+[6]
+LiangX, BiS, YangW，et al.
+Epidemiological serosurvey of hepatitis B in China—declining HBV prevalence due to hepatitis B vaccination [J].
+Vaccine,
+2009，
+27(
+47)：
+6550–
+6557.
+[7]
+LiangX, BiS, YangW, et al.
+Evaluation of the impact of hepatitis B vaccination among children born during 1992-2005 in China [J].
+J Infect Dis,
+2009，
+200(
+1)：
+39–
+47.
+[8]
+LuFM, ZhuangH.
+Management of hepatitis B in China [J].
+Chin Med J(Engl),
+2009，
+122(
+1)：
+3–
+4.
+[9]
+WHO.
+Guidelines for the Prevention, Care and Treatment of Persons with Chronic Hepatitis B Infection[M].
+Geneva:
+World Health Organization,
+2015.
+[10]
+MastEE, MargolisHS, FioreAE，et al
+.A comprehensive immunization strategy to eliminate transmission of hepatitis B virus infection in the United States: recommendations of the Advisory Committee on Immunization Practices (ACIP) part 1: immunization of infants, children, and adolescents [J].
+MMWR Recomm Rep,
+2005，
+54(
+RR-16)：
+1–
+31.
+[11]
+中国疾病预防控制中心．
+乙型肝炎疫苗儿童计划免疫技术管理规程(试行)[Z]．
+中国预防科学院，
+2002.
+[12]
+夏国良，龚健，王继杰，等．
+重组乙型肝炎疫苗阻断乙型肝炎病毒母婴传播方案的保护效果评价[J]．
+中华流行病学杂志，
+2003，
+24(
+5)：
+362–
+365.
+[13]
+SinghAE, PlittSS, OsiowyC，et al.
+Factors associated with vaccine failure and vertical transmission of hepatitis B among a cohort of Canadian mothers and infants [J].
+J Viral Hepat,
+2011，
+18(
+7)：
+468–
+473.
+[14]
+TranTT.
+Management of hepatitis B in pregnancy: weighing the options [J].
+Cleve Clin J Med,
+2009，
+76
+Suppl 3：
+S25–
+29.
+[15]
+HanL, ZhangHW, XieJX, et al.
+A meta-analysis of lamivudine for interruption of mother-to-child transmission of hepatitis B virus [J].
+World J Gastroenterol,
+2011，
+17(
+38)：
+4321–
+4333.
+[16]
+HanGR, CaoMK, ZhaoW, et al.
+A prospective and open-label study for the efficacy and safety of telbivudine in pregnancy for the prevention of perinatal transmission of hepatitis B virus infection [J].
+J Hepatol,
+2011,
+55(
+6):
+1215–
+1221.
+[17]
+PanCQ, MiLJ, BunchorntavakulC, et al.
+Tenofovir disoproxil fumarate for prevention of vertical transmission of hepatitis B virus infection by highly viremic pregnant women: a case series
+[J]．Dig Dis Sci,
+2012，
+57(
+9)：
+2423–
+2429.
+[18]
+ZanettiAR, MarianoA, RomanòL，et al.
+Long-term immunogenicity of hepatitis B vaccination and policy for booster: an Italian multicentre study [J].
+Lancet,
+2005，
+366(
+9494)：
+1379–
+1384.
+[19]
+U.S. Public Health Service.
+Updated U．S. Public Health Service Guidelines for the Management of Occupational Exposures to HBV, HCV, and HIV and Recommendations for Postexposure Prophylaxis [J].
+MMWR Recomm Rep,
+2001，
+50(
+RR-11)：
+1–
+52.
+[20]
+YanH, ZhongG, XuG，et al.
+Sodium taurocholate cotransporting polypeptide is a functional receptor for human hepatitis B and D virus [J/OL].
+Elife,
+2012，
+1：
+e00049[
+2012-11-13].
+http：//elifesciences.org/content/1/e00049.
+[21]
+LiuCJ, KaoJH.
+Global perspective on the natural history of chronic hepatitis B: role of hepatitis B virus genotypes A to J [J].
+Semin Liver Dis,
+2013，
+33(
+2)：
+97–
+102.
+[22]
+LinCL, KaoJH.
+The clinical implications of hepatitis B virus genotype: Recent advances [J].
+J Gastroenterol Hepatol,
+2011，
+26
+Suppl 1：
+123–
+130.
+[23]
+LivingstonSE, SimonettiJP, BulkowLR, et al.
+Clearance of hepatitis B e antigen in patients with chronic hepatitis B and genotypes A, B, C, D, and F [J].
+Gastroenterology,
+2007，
+133(
+5)：
+1452–
+1457.
+[24]
+YuMW, YehSH, ChenPJ，et al.
+Hepatitis B virus genotype and DNA level and hepatocellular carcinoma: a prospective study in men [J].
+J Natl Cancer Inst,
+2005，
+97(
+4)：
+265–
+272.
+[25]
+LimSG, ChengY, GuindonS, et al.
+Viral quasi-species evolution during hepatitis B e antigen seroconversion [J].
+Gastroenterology,
+2007，
+133(
+3)：
+951–
+958.
+[26]
+WangHY, ChienMH, HuangHP, et al.
+Distinct hepatitis B virus dynamics in the immunotolerant and early immunoclearance phases [J].
+J Virol,
+2010,
+84(
+7):
+3454–
+3463.
+[27]
+LiuF, ChenL, YuDM, et al.
+Evolutionary patterns of hepatitis B virus quasispecies under different selective pressures: correlation with antiviral efficacy [J].
+Gut,
+2011，
+60(
+9)：
+1269–
+1277.
+[28]
+LaiCL, RatziuV, YuenMF，et al.
+Viral hepatitis B [J].
+Lancet,
+2003,
+362(
+9401)：
+2089–
+2094.
+[29]
+LiawYF.
+Natural history of chronic hepatitis B virus infection and long-term outcome under treatment [J].
+Liver Int,
+2009，
+29
+Suppl 1：
+100–
+107.
+[30]
+HuiCK, LeungN, YuenST，et al.
+Natural history and disease progression in Chinese chronic hepatitis B patients in immune-tolerant phase [J].
+Hepatology,
+2007,
+46(
+2):
+395–
+401.
+[31]
+McMahonBJ.
+The natural history of chronic hepatitis B virus infection
+[J]．Hepatology,
+2009，
+49(
+5
+Suppl)：
+S45–
+55.
+[32]
+LiawYF.
+Hepatitis flares and hepatitis B e antigen seroconversion: implication in anti-hepatitis B virus therapy [J].
+J Gastroenterol Hepatol,
+2003，
+18(
+3)：
+246–
+252.
+[33]
+ChuCM, HungSJ, LinJ, et al.
+Natural history of hepatitis B e antigen to antibody seroconversion in patients with normal serum aminotransferase levels [J].
+Am J Med,
+2004，
+116(
+12)：
+829–
+834.
+[34]
+ChuCM, LiawYF.
+Prevalence of and risk factors for hepatitis B viremia after spontaneous hepatitis B surface antigen seroclearance in hepatitis B carriers [J].
+Clin Infect Dis,
+2012，
+54(
+1)：
+88–
+90.
+[35]
+ChuCM, LiawYF.
+Hepatitis B surface antigen seroclearance during chronic HBV infection [J].
+Antivir Ther,
+2010，
+15(
+2)：
+133–
+143.
+[36]
+FattovichG, BortolottiF, DonatoF.
+Natural history of chronic hepatitis B：special emphasis on disease progression and prognostic factors [J].
+J Hepatol,
+2008，
+48(
+2)：
+335–
+352.
+[37]
+ChenYC, ChuCM, LiawYF.
+Age-specific prognosis following spontaneous hepatitis B e antigen seroconversion in chronic hepatitis B [J].
+Hepatology,
+2010，
+51(
+2)：
+435–
+444.
+[38]
+ParkBK, ParkYN, AhnSH，et al
+.Long-term outcome of chronic hepatitis B based on histological grade and stage [J].
+J Gastroenterol Hepatol,
+2007,
+22(
+3)：
+383–
+388.
+[39]
+LinSM, YuML, LeeCM，et al.
+Interferon therapy in HBeAg positive chronic hepatitis reduces progression to cirrhosis and hepatocellular carcinoma [J].
+J Hepatol,
+2007，
+46(
+1)：
+45–
+52.
+[40]
+YimHJ, LokAS.
+Natural history of chronic hepatitis B virus infection: what we knew in 1981 and what we know in 2005 [J].
+Hepatology,
+2006，
+43(
+2
+Supp11)：
+S173–
+181.
+[41]
+ChuCM, LiawYF.
+Hepatitis B virus-related cirrhosis: natural history and treatment [J].
+Semin Liver Dis,
+2006，
+26(
+2)：
+142–
+152.
+[42]
+ChenYC, ChuCM, YehCT，et al.
+Natural course following the onset of cirrhosis in patients with chronic hepatitis B: a long-term follow-up study
+[J]．Hepatol Int,
+2007，
+1(
+1)：
+267–
+273.
+[43]
+HsuYS, ChienRN, YehCT，et al.
+Long-term outcome after spontaneous HBeAg seroconversion in patients with chronic hepatitis B [J].
+Hepatology,
+2002，
+35(
+6)：
+1522–
+1527.
+[44]
+McMahonBJ, HolckP, BulkowL, et al
+.Serologic and clinical outcomes of 1536 Alaska Natives chronically infected with hepatitis B virus [J].
+Ann Intern Med,
+2001，
+135(
+9):
+759–
+768.
+[45]
+FattovichG, GiustinaG, SchalmSW, et al.
+Occurrence of hepatocellular carcinoma and decompensation in western European patients with cirrhosis type B. The EUROHEP Study Group on Hepatitis B Virus and Cirrhosis [J].
+Hepatology,
+1995，
+21(
+1)：
+77–
+82.
+[46]
+FattovichG.
+Natural history and prognosis of hepatitis B [J].
+Semin Liver Dis，
+2003，
+23(
+1)：
+47–
+58.
+[47]
+TsengTC, LiuCJ, YangHC，et al.
+Serum hepatitis B surface antigen levels help predict progression in patients with low hepatitis B virus loads [J].
+Hepatology,
+2013,
+57(
+2):
+441–
+450.
+[48]
+TsengTC, LiuCJ, YangHC, et al.
+High levels of hepatitis B surface antigen increase risk of hepatocellular carcinoma in patients with low HBV load [J].
+Gastroenterology,
+2012,
+142(
+5):
+1140–
+1149.
+[49]
+DandriM, LocarniniS.
+New insight in the pathobiology of hepatitis B virus infection [J].
+Gut,
+2012，
+61
+Suppl 1：
+i6–
+17.
+[50]
+ZhangZ, ZhangJY, WangLF，et al.
+Immunopathogenesis and prognostic immune markers of chronic hepatitis B virus infection [J].
+J Gastroenterol Hepatol,
+2012，
+27(
+2)：
+223–
+230.
+[51]
+IsogawaM, TanakaY.
+Immunobiology of hepatitis B virus infection [J].
+Hepatol Res,
+2015，
+45(
+2)：
+179–
+189.
+[52]
+GuidottiLG, ChisariFV.
+Noncytolytic control of viral infections by the innate and adaptive immune response [J].
+Annu Rev Immunol,
+2001，
+19：
+65–
+91.
+[53]
+BertolettiA, FerrariC.
+Innate and adaptive immune responses in chronic hepatitis B virus infections: towards restoration of immune control of viral infection [J].
+Gut,
+2012，
+61(
+12)：
+1754–
+1764.
+[54]
+FanR, SunJ, YuanQ，et al
+.Baseline quantitative hepatitis B core antibody titre alone strongly predicts HBeAg seroconversion across chronic hepatitis B patients treated with peginterferon or nucleos(t)ide analogues [J].
+Gut,
+2015
+Jan 13. [
+Epub ahead of print]．
+[55]
+HouFQ, SongLW, YuanQ, et al.
+Quantitative hepatitis B core antibody level is a new predictor for treatment response in HBeAg-positive chronic hepatitis B patients receiving peginterferon [J].
+Theranostics,
+2015,
+5(
+3)：
+218–
+226.
+[56]
+LamperticoP, MainiM, PapatheodoridisG.
+Optimal management of hepatitis B virus infection-EASL Special Conference [J].
+J Hepatol,
+2015,
+63(
+5)：
+1238–
+1253.
+[57]
+LiawYF, KaoJH, PiratvisuthT, et al
+.Asian-Pacific consensus statement on the management of chronic hepatitis B: a 2012 update [J].
+Hepatol Int,
+2012，
+6(
+3)：
+531–
+561.
+[58]
+中华人民共和国卫生部．
+原发性肝癌诊疗规范(2011年版)摘要[J]．
+中华肝脏病杂志，
+2012，
+20(
+6)：
+419–
+426.
+[59]
+WongGL, ChanHL, TseYK，et al.
+On-treatment alpha-fetoprotein is a specific tumor marker for hepatocellular carcinoma in patients with chronic hepatitis B receiving entecavir [J].
+Hepatology,
+2014，
+59(
+3):
+986–
+995.
+[60]
+HannHW, FuX, MyersRE，et al
+.Predictive value of alpha-fetoprotein in the long-term risk of developing hepatocellular carcinoma in patients with hepatitis B virus infection—results from a clinic-based longitudinal cohort [J].
+Eur J Cancer,
+2012，
+48(
+15):
+2319–
+2327.
+[61]
+AmaddeoG, CaoQ, LadeiroY, et al
+.Integration of tumour and viral genomic characterizations in HBV-related hepatocellular carcinomas [J].
+Gut,
+2015，
+64(
+5)：
+820–
+829.
+[62]
+MarreroJA, SuGL, WeiW，et al
+.Des-gamma carboxyprothrombin can differentiate hepatocellular carcinoma from nonmalignant chronic liver disease in american patients [J].
+Hepatology,
+2003，
+37(
+5):
+1114–
+1121.
+[63]
+InagakiY, TangW, MakuuchiM, et al
+.Clinical and molecular insights into the hepatocellular carcinoma tumour marker des-γ-carboxyprothrombin [J].
+Liver Int,
+2011,
+31(
+1):
+22–
+35.
+[64]
+SeoSI, KimHS, KimWJ，et al.
+Diagnostic value of PIVKA-II and alpha-fetoprotein in hepatitis B virus-associated hepatocellular carcinoma [J].
+World J Gastroenterol,
+2015，
+21(
+13)：
+3928–
+3935.
+[65]
+WaiCT, GreensonJK, FontanaRJ，et al.
+A simple noninvasive index can predict both significant fibrosis and cirrhosis in patients with chronic hepatitis C [J].
+Hepatology,
+2003，
+38(
+2)：
+518–
+526.
+[66]
+ScottDR, LevyMT.
+Liver transient elastography (Fibroscan): a place in the management algorithms of chronic viral hepatitis [J].
+Antivir Ther,
+2010，
+15(
+1)：
+1–
+11.
+[67]
+ShaheenAA, WanAF, MyersRP.
+FibroTest and FibroScan for the prediction of hepatitis C-related fibrosis: a systematic review of diagnostic test accuracy [J].
+Am J Gastroenterol,
+2007，
+102(
+11):
+2589–
+2600.
+[68]
+European Association for Study of Liver, Asociacion Latinoamericana para el Estudio del Higado.
+EASL-ALEH Clinical Practice Guidelines: Non-invasive tests for evaluation of liver disease severity and prognosis [J].
+J Hepatol,
+2015,
+63(
+1):
+237–
+264.
+[69]
+肝脏硬度评估小组．
+瞬时弹性成像技术诊断肝纤维化专家意见[J]．
+中华肝脏病杂志，
+2013，
+21(
+6)：
+420–
+424.
+[70]
+JiaJ, HouJ, DingH, et al.
+Transient elastography compared to serum markers to predict liver fibrosis in a cohort of Chinese patients with chronic hepatitis B [J].
+J Gastroenterol Hepatol,
+2015，
+30(
+4)：
+756–
+762.
+[71]
+ChangTT, LiawYF, WuSS，et al.
+Long-term entecavir therapy results in the reversal of fibrosis/cirrhosis and continued histological improvement in patients with chronic hepatitis B [J].
+Hepatology,
+2010，
+52(
+3)：
+886–
+893.
+[72]
+MarcellinP, GaneE, ButiM，et al
+.Regression of cirrhosis during treatment with tenofovir disoproxil fumarate for chronic hepatitis B: a 5-year open-label follow-up study [J].
+Lancet,
+2013,
+381(
+9865):
+468–
+475.
+[73]
+LiW, ZhaoJ, ZouZ，et al.
+Analysis of hepatitis B virus intrahepatic covalently closed circular DNA and serum viral markers in treatment-naive patients with acute and chronic HBV infection [J/OL].
+PLoS One,
+2014,
+9(
+2)：
+e89046[
+2014-02-13].
+http：//journals.plos.org/plosone/article？id＝10.1371/journal.pone.0089046.
+[74]
+BedossaP, PoynardT.
+An algorithm for the grading of activity in chronic hepatitis C. The METAVIR Cooperative Study Group [J].
+Hepatology,
+1996，
+24(
+2)：
+289–
+293.
+[75]
+XuS, WangY, TaiDC, et al
+.qFibrosis: a fully-quantitative innovative method incorporating histological features to facilitate accurate fibrosis scoring in animal model and chronic hepatitis B patients [J].
+J Hepatol,
+2014，
+61(
+2)：
+260–
+269.
+[76]
+DingH, MaJJ, WangWP, et al.
+Assessment of liver fibrosis: the relationship between point shear wave elastography and quantitative histological analysis [J].
+J Gastroenterol Hepatol,
+2015，
+30(
+3):
+553–
+558.
+[77]
+GanemD, PrinceAM.
+Hepatitis B virus infection—natural history and clinical consequences [J].
+N Engl J Med,
+2004，
+350(
+11)：
+1118–
+1129.
+[78]
+European Association For The Study Of The Liver.
+EASL clinical practice guidelines: Management of chronic hepatitis B virus infection [J].
+J Hepatol,
+2012，
+57(
+1)：
+167–
+185.
+[79]
+科技部十二五重大专项联合课题组．
+乙型肝炎病毒相关肝硬化的临床诊断、评估和抗病毒治疗的综合管理[J]．
+中华肝脏病杂志，
+2014，
+22(
+5)：
+327–
+335.
+[80]
+中华医学会肝病学分会，中华医学会感染病学分会．
+慢性乙型肝炎防治指南(2010年版)
+[J]．中华传染病杂志，
+2011，
+29(
+2)：
+65–
+80.
+[81]
+ArvanitiV, D'AmicoG, FedeG，et al.
+Infections in patients with cirrhosis increase mortality four-fold and should be used in determining prognosis [J].
+Gastroenterology,
+2010，
+139(
+4)：
+1246–
+1256,
+e1-5.
+[82]
+TsochatzisEA, BoschJ, BurroughsAK.
+Liver cirrhosis [J].
+Lancet,
+2014，
+383(
+9930)：
+1749–
+1761.
+[83]
+CavigliaGP, AbateML, PellicanoR，et al.
+Chronic hepatitis B therapy：available drugs and treatment guidelines [J].
+Minerva Gastroenterol Dietol,
+2015，
+61(
+2)：
+61–
+70.
+[84]
+Vallet-PichardA, PolS.
+Hepatitis B virus treatment beyond the guidelines：special populations and consideration of treatment withdrawal [J].
+Therap Adv Gastroenterol,
+2014，
+7(
+4)：
+148–
+155.
+[85]
+TangCM, YauTO, YuJ.
+Management of chronic hepatitis B infection: current treatment guidelines, challenges, and new developments [J].
+World J Gastroenterol,
+2014,
+20(
+20):
+6262–
+6278.
+[86]
+ZhaoH, KurbanovF, WanMB，et al
+.Genotype B and younger patient age associated with better response to low-dose therapy: a trial with pegylated/nonpegylated interferon-alpha-2b for hepatitis B e antigen-positive patients with chronic hepatitis B in China [J].
+Clin Infect Dis,
+2007,
+44(
+4):
+541–
+548.
+[87]
+LiawYF, JiaJD, ChanHL，et al.
+Shorter durations and lower doses of peginterferon alfa-2a are associated with inferior hepatitis B e antigen seroconversion rates in hepatitis B virus genotypes B or C [J].
+Hepatology,
+2011，
+54(
+5)：
+1591–
+1599.
+[88]
+BusterEH, FlinkHJ, CakalogluY，et al.
+Sustained HBeAg and HBsAg loss after long-term follow-up of HBeAg-positive patients treated with peginterferon alpha-2b [J].
+Gastroenterology,
+2008，
+135(
+2):
+459–
+467.
+[89]
+MarcellinP, BoninoF, YurdaydinC，et al.
+Hepatitis B surface antigen levels: association with 5-year response to peginterferon alfa-2a in hepatitis B e-antigen-negative patients [J].
+Hepatol Int,
+2013,
+7(
+1)：
+88–
+97.
+[90]
+LamperticoP, ViganòM, ColomboM.
+Treatment of HBeAg-negative chronic hepatitis B with pegylated interferon [J].
+Liver Int,
+2011，
+31
+Suppl 1：
+90–
+94.
+[91]
+LamperticoP, ViganòM, Di CostanzoGG，et al.
+Randomised study comparing 48 and 96 weeks peginterferon α-2a therapy in genotype D HBeAg-negative chronic hepatitis B [J].
+Gut,
+2013，
+62(
+2)：
+290–
+298.
+[92]
+KimV, AbreuRM, NakagawaDM, et al.
+Pegylated interferon alfa for chronic hepatitis B: systematic review and meta-analysis [J].
+J Viral Hepat,
+2015
+May 13.[
+Epub ahead of print]．
+[93]
+WongGL, WongVW, ChanHL.
+Combination therapy of interferon and nucleotide/nucleoside analogues for chronic hepatitis B [J].
+J Viral Hepat,
+2014，
+21(
+12)：
+825–
+834.
+[94]
+MarcellinP, AhnSH, MaXL, et al.
+HBsAg loss with tenofovir disoproxil fumarate (TDF) plus peginterferon alfa-2a (PEG) in chronic hepatitis B (CHB): results of a global randomized controlled trial [J].
+Hepatology,
+2014，
+60(
+Suppl 1)：
+294A–
+295A.
+[95]
+XieQ, ZhouH, BaiX, et al
+.A randomized, open-label clinical study of combined pegylated interferon Alfa-2a (40KD) and entecavir treatment for hepatitis B"e" antigen-positive chronic hepatitis B [J].
+Clin Infect Dis,
+2014，
+59(
+12)：
+1714–
+1723.
+[96]
+ChiH, XieQ, ZhangNP, et al.
+Addition of peginterferon alfa-2b during long-term nucleos(t)ide analogue therapy increases HBeAg seroconversion and hbsag decline-week 48 results from a multicenter randomized controlled trial (PEGON study) [J].
+Hepatology,
+2014,
+60(
+Suppl 1)：
+1106A.
+[97]
+NingQ, HanM, SunY, et al
+.Switching from entecavir to PegIFN alfa-2a in patients with HBeAg-positive chronic hepatitis B: a randomised open-label trial (OSST trial) [J].
+J Hepatol,
+2014，
+61(
+4)：
+777–
+784.
+[98]
+HuP, JiaS, ZhangWH, et al.
+A multi-center randomized study on the efficacy and safety of switching to peginterferon alpha-2a (40KD) for 48 or 96 weeks in HBeAg positive CHB patients with a prior NUC history for 1 to 3 years: an interim analysis of NEW SWITCH study [J].
+Hepatology,
+2014，
+60(
+6)：
+1273A–
+1274A.
+[99]
+BrouwerWP, XieQ, SonneveldMJ, et al.
+Adding pegylated interferon to entecavir for hepatitis B e antigen-positive chronic hepatitis B: A multicenter randomized trial (ARES study) [J].
+Hepatology,
+2015,
+61(
+5)：
+1512–
+1522.
+[100]
+LiGJ, YuYQ, ChenSL，et al.
+Sequential combination therapy with pegylated interferon leads to loss of hepatitis B surface antigen and hepatitis B e antigen (HBeAg) seroconversion in HBeAg-positive chronic hepatitis B patients receiving long-term entecavir treatment [J].
+Antimicrob Agents Chemother,

@@ -1,0 +1,792 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%A2%85%E5%B0%BC%E5%9F%83%E7%97%85%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%282017%29.html
+# 标题: 梅尼埃病诊断和治疗指南(2017) - 中华耳鼻咽喉头颈外科杂志
+# 发布方/日期: 中华医学会耳鼻咽喉头颈外科学分会，中华耳鼻咽喉头颈外科杂志, 2017,52(03) : 167-172. DOI: 10.3760/cma.j；2017-03-07
+
+梅尼埃病诊断和治疗指南(2017)
+中华耳鼻咽喉头颈外科杂志编辑委员会
+中华医学会耳鼻咽喉头颈外科学分会
+中华耳鼻咽喉头颈外科杂志, 2017,52(03) : 167-172. DOI: 10.3760/cma.j.issn.1673-0860.2017.03.002
+前言
+梅尼埃病是常见的耳源性眩晕疾病，为规范和提高我国梅尼埃病的临床诊疗工作，1996年中华耳鼻咽喉科杂志编辑委员会和中华医学会耳鼻咽喉科学分会联合制定了我国第一个《梅尼埃病诊断依据和疗效分级》标准[1]，并于2006年修订为《梅尼埃病的诊断依据和疗效评估(2006年，贵阳)》[2]。随着前庭功能检查技术的进步和眩晕医学的蓬勃发展，原有标准已无法满足临床诊疗和研究的需要。同时国际上也多次制定或修订关于梅尼埃病的诊疗指南或标准[3,4,5,6,7]。为此，中华耳鼻咽喉头颈外科杂志编辑委员会和中华医学会耳鼻咽喉头颈外科学分会组织国内专家多次研讨，在参考借鉴国外最新指南的同时，结合自身的临床实践经验和中国国情，出台了新版《梅尼埃病诊断和治疗指南(2017)》。本指南的制定基于循证医学证据，是在对梅尼埃病临床研究结果进行谨慎、认真地分析与评估后，所做出的最佳临床决策。
+临床定义
+梅尼埃病是一种原因不明的、以膜迷路积水为主要病理特征的内耳病，临床表现为发作性眩晕、波动性听力下降、耳鸣和(或)耳闷胀感。
+流行病学
+文献报道的梅尼埃病发病及患病率差异较大，发病率(10～157)/10万，患病率(16～513)/10万[8,9,10,11,12,13]。女性多于男性(约1.3∶1)，40～60岁高发[14,15]。儿童梅尼埃病患者约占3%[16]。部分梅尼埃病患者存在家族聚集倾向[17]。文献报道双侧梅尼埃病所占比例为2%～78%[18,19]。
+病因、发病机制及诱因
+梅尼埃病病因不明，可能与内淋巴产生和吸收失衡有关。目前公认的发病机制主要有内淋巴管机械阻塞与内淋巴吸收障碍学说、免疫反应学说、内耳缺血学说等[20]。通常认为梅尼埃病的发病有多种因素参与，其诱因包括劳累、精神紧张及情绪波动、睡眠障碍、不良生活事件、天气或季节变化等[21,22,23]。
+临床表现
+梅尼埃病是发作性眩晕疾病，分为发作期和间歇期。
+一、眩晕
+发作性眩晕多持续20 min至12 h，常伴有恶心、呕吐等自主神经功能紊乱和走路不稳等平衡功能障碍，无意识丧失；间歇期无眩晕发作，但可伴有平衡功能障碍。双侧梅尼埃病患者可表现为头晕、不稳感、摇晃感或振动幻视。
+二、听力下降
+一般为波动性感音神经性听力下降，早期多以低中频为主，间歇期听力可恢复正常。随着病情进展，听力损失逐渐加重，间歇期听力无法恢复至正常或发病前水平。多数患者可出现听觉重振现象。
+三、耳鸣及耳闷胀感
+发作期常伴有耳鸣和(或)耳闷胀感。疾病早期间歇期可无耳鸣和(或)耳闷胀感，随着病情发展，耳鸣和(或)耳闷胀感可持续存在。
+诊断
+分为临床诊断和疑似诊断。
+一、临床诊断
+(一)诊断标准
+1. 2次或2次以上眩晕发作，每次持续20 min至12 h。
+2．病程中至少有一次听力学检查证实患耳有低到中频的感音神经性听力下降。
+3．患耳有波动性听力下降、耳鸣和(或)耳闷胀感。
+4．排除其他疾病引起的眩晕，如前庭性偏头痛、突发性聋、良性阵发性位置性眩晕、迷路炎、前庭神经炎、前庭阵发症、药物中毒性眩晕、后循环缺血、颅内占位性病变等；此外，还需要排除继发性膜迷路积水。
+(二)临床分期
+根据患者最近6个月内间歇期听力最差时0.5、1.0及2.0 kHz纯音的平均听阈进行分期。梅尼埃病的临床分期与治疗方法的选择及预后判断有关。双侧梅尼埃病，需分别确定两侧的临床分期。
+一期：平均听阈≤25 dBHL；
+二期：平均听阈为26～40 dBHL；
+三期：平均听阈为41～70 dBHL；
+四期：平均听阈>70 dBHL。
+注：(1)梅尼埃病的诊断和鉴别诊断必须依据完整详实的病史调查和必要的听-平衡功能检查、影像学检查等；(2)如梅尼埃病患者合并其他不同类型的眩晕疾病，则需分别做出多个眩晕疾病的诊断；(3)部分患者的耳蜗症状和前庭症状不是同时出现，中间有可能间隔数月至数年。
+二、疑似诊断
+诊断标准如下。
+1. 2次或2次以上眩晕发作，每次持续20 min至24 h。
+2.患耳有波动性听力下降、耳鸣和(或)耳闷胀感。
+3.排除其他疾病引起的眩晕，如前庭性偏头痛、突发性聋、良性阵发性位置性眩晕、迷路炎、前庭神经炎、前庭阵发症、药物中毒性眩晕、后循环缺血、颅内占位性病变等；此外，还需要排除继发性膜迷路积水。
+检查
+一、基本检查
+包括耳镜检查、纯音测听和声导抗检查。
+二、根据情况可以选择的检查项目
+1．听力学检查：
+包括脱水剂试验、耳蜗电图、耳声发射(OAE)、听性脑干反应(ABR)等[24,25]。
+2．前庭功能检查：
+包括自发性眼震、凝视眼震、视动、平稳跟踪、扫视、位置试验、冷热试验、旋转试验、摇头试验、头脉冲试验、前庭自旋转试验、前庭诱发肌源性电位(VEMP)、主观垂直视觉/主观水平视觉等[26,27]。
+3．平衡功能检查：
+静态或动态姿势描记、平衡感觉整合能力测试以及步态评价等[28]。
+4．耳鸣检查：
+耳鸣声调及强度匹配检查。
+5．影像学检查：
+首选含内听道-桥小脑角的颅脑MRI，有条件者可行钆造影内耳膜迷路MRI成像[29]。
+6．病因学检查：
+包括免疫学检查、变应原检查、遗传学检查、内分泌功能检查等[30]。
+治疗
+治疗目的：减少或控制眩晕发作，保存听力，减轻耳鸣及耳闷胀感[20]。
+一、发作期的治疗
+治疗原则：控制眩晕、对症治疗[20,31]。
+(一)前庭抑制剂
+包括抗组胺类、苯二氮类、抗胆碱能类以及抗多巴胺类药物，可有效控制眩晕急性发作，原则上使用不超过72 h。临床常用药物包括异丙嗪、苯海拉明、安定、氯苯甲嗪、普鲁氯嗪、氟哌利多等。
+(二)糖皮质激素
+如果急性期眩晕症状严重或听力下降明显，可酌情口服或静脉给予糖皮质激素。
+(三)支持治疗
+如恶心、呕吐症状严重，可加用补液支持治疗。
+注：对诊断明确的患者，按上述方案治疗的同时可加用甘露醇、碳酸氢钠等脱水剂。
+二、间歇期的治疗
+治疗原则：减少、控制或预防眩晕发作，同时最大限度地保护患者现存的内耳功能。
+(一)患者教育
+向患者解释梅尼埃病相关知识，使其了解疾病的自然病程规律、可能的诱发因素、治疗方法及预后。做好心理咨询和辅导工作，消除患者恐惧心理。
+(二)调整生活方式
+规律作息，避免不良情绪、压力等诱发因素。建议患者减少盐分摄入，避免咖啡因制品、烟草和酒精类制品的摄入[20]。
+(三)倍他司汀
+可以改善内耳血供、平衡双侧前庭神经核放电率以及通过与中枢组胺受体的结合，达到控制眩晕发作的目的[32,33]。
+(四)利尿剂
+有减轻内淋巴积水的作用，可以控制眩晕的发作。临床常用药物包括双氢克尿噻、氨苯蝶啶等，用药期间需定期监测血钾浓度[34,35]。
+(五)鼓室注射糖皮质激素
+可控制患者眩晕发作，治疗机制可能与其改善内淋巴积水状态、调节免疫功能等有关[36,37,38]。该方法对患者耳蜗及前庭功能无损伤，初始注射效果不佳者可重复鼓室给药，以提高眩晕控制率[39]。
+(六)鼓室低压脉冲治疗
+可减少眩晕发作频率，对听力无明显影响。其治疗机制不清，可能与压力促进内淋巴吸收有关。通常先行鼓膜置通气管，治疗次数根据症状的发作频率和严重程度而定[40,41]。
+(七)鼓室注射庆大霉素
+可有效控制大部分患者的眩晕症状(80%～90%)，注射耳听力损失的发生率约为10%～30%，其机制与单侧化学迷路切除有关[42,43]。
+对于单侧发病、年龄小于65岁、眩晕发作频繁、剧烈，保守治疗无效的三期及以上梅尼埃病患者，可考虑鼓室注射庆大霉素(建议采用低浓度、长间隔的方式)，治疗前应充分告知患者发生听力损失的风险。
+(八)手术治疗
+包括内淋巴囊手术、三个半规管阻塞术、前庭神经切断术、迷路切除术等。适应证为眩晕发作频繁、剧烈，6个月非手术治疗无效的患者。
+1．内淋巴囊手术：
+包括内淋巴囊减压术和内淋巴囊引流术，手术旨在减轻内淋巴压力，对听力和前庭功能多无损伤[44]。适应证：三期及部分眩晕症状严重、有强烈手术意愿的二期梅尼埃病患者。鉴于晚期梅尼埃病患者常发生内淋巴囊萎缩和内淋巴管闭塞，因此四期梅尼埃病患者不建议行内淋巴囊手术。
+2．三个半规管阻塞术：
+可有效控制梅尼埃病的眩晕发作，机制尚未明确，部分患者的听力和前庭功能可能会受到损伤[45,46]。适应证：原则上适用于四期梅尼埃病患者；对于部分三期患者、内淋巴囊手术无效、言语识别率小于50%且强烈要求手术者也可以行该手术治疗。
+3．前庭神经切断术：
+旨在去除前庭神经传入，手术完全破坏前庭功能，对听力可能会产生影响[20]。适应证：前期治疗(包括非手术及手术)无效的四期梅尼埃病患者。
+4．迷路切除术：
+旨在破坏前庭终器，手术完全破坏听力及前庭功能[20]。适应证：无实用听力、多种治疗方法(包括非手术及手术)无效的四期梅尼埃病患者。
+三、前庭和听力康复治疗
+治疗梅尼埃病，在控制眩晕的基础上，应尽可能地保留耳蜗及前庭功能，提高患者生活质量。
+前庭康复训练：是一种物理治疗方法，适应证为稳定、无波动性前庭功能损伤的梅尼埃病患者，可缓解头晕，改善平衡功能，提高生活质量。前庭康复训练的方法包括一般性前庭康复治疗(如Cawthorne-Cooksey练习)、个体化前庭康复治疗以及基于虚拟现实的平衡康复训练等[47,48]。
+听力康复：对于病情稳定的三期及四期梅尼埃病患者，可根据听力损失情况酌情考虑验配助听器或植入人工耳蜗[49,50,51]。
+四、治疗方案的选择
+基于梅尼埃病的病程、各种治疗对眩晕的控制率以及对听力的影响等因素，本指南对梅尼埃病治疗方案进行了总结(表1)，在进行对内耳功能有潜在损伤的治疗前，需根据患者意愿综合考虑并充分告知。
+点击查看表格
+表1
+梅尼埃病治疗方案的选择
+表1
+梅尼埃病治疗方案的选择
+临床分期
+治疗方案
+一期
+患者教育，改善生活方式，倍他司汀，利尿剂，鼓室注射糖皮质激素，前庭康复训练
+二期
+患者教育，改善生活方式，倍他司汀，利尿剂，鼓室注射糖皮质激素，低压脉冲治疗，前庭康复训练
+三期
+患者教育，改善生活方式，倍他司汀，利尿剂，鼓室注射糖皮质激素，低压脉冲治疗，内淋巴囊手术，鼓室注射庆大霉素，前庭康复训练
+四期
+患者教育，改善生活方式，倍他司汀，利尿剂，鼓室注射糖皮质激素，低压脉冲治疗，鼓室注射庆大霉素，三个半规管阻塞术，前庭神经切断术，迷路切除术，前庭康复训练
+注：对于部分眩晕发作频繁、剧烈，有强烈手术意愿的二期患者也可以考虑行内淋巴囊手术；对于部分眩晕发作频繁、剧烈，内淋巴囊手术无效，言语识别率小于50%，强烈要求手术的三期患者也可考虑行三个半规管阻塞术
+疗效评定
+一、眩晕疗效评定
+1．梅尼埃病眩晕发作次数(需排除非梅尼埃病眩晕发作)：
+采用治疗后18～24个月期间眩晕发作次数与治疗之前6个月眩晕发作次数进行比较，按分值计。得分＝(结束治疗后18～24个月期间发作次数/开始治疗之前6个月发作次数)×100。
+根据得分值将眩晕控制程度分为5级：A级，0分(完全控制)；B级，1～40分(基本控制)；C级，41～80分(部分控制)；D级，81～120分(未控制)；E级，>120分(加重)。
+2．眩晕发作的严重程度及对日常生活的影响：
+从轻到重，划分为5级：0分，活动不受眩晕影响；1分，轻度受影响，可进行大部分活动；2分，中度受影响，活动需付出巨大努力；3分，日常活动受限，无法工作，必须在家中休息；4分，活动严重受限，整日卧床或无法进行绝大多数活动。
+3．生活质量评价：
+可采用头晕残障问卷(dizziness handicap inventory，DHI)等量表进行评价[52,53]。
+二、听力疗效评定
+以治疗前6个月最差一次纯音测听0.5、1.0、2.0 kHz的平均听阈减去治疗后18～24个月期间最差一次的相应频率平均听阈进行评定。A级：改善>30 dB或各频率听阈< 20 dBHL；B级：改善15～30 dB；C级：改善0～14 dB；D级：改善<0 dB。
+双侧梅尼埃病，应分别进行听力评定。
+三、耳鸣评价
+耳鸣是梅尼埃病的伴随症状，部分患者的耳鸣可影响其生活质量。通过耳鸣匹配或掩蔽试验可以了解耳鸣声的特征。改良的患者"耳鸣痛苦程度"分级如下：0级，没有耳鸣；1级，偶有(间歇性)耳鸣，但不影响睡眠及工作；2级，安静时持续耳鸣，但不影响睡眠；3级，持续耳鸣，影响睡眠；4级，持续耳鸣，影响睡眠及工作；5级，持续严重耳鸣，不能耐受。
+此外，可以采用耳鸣残障问卷(tinnitus handicap inventory, THI)等量表评价耳鸣对患者生活质量的影响[54,55]。
+执笔起草专家(按姓氏拼音排序)
+金 昕 孔维佳 冷杨名 刘 博 刘 波 余力生
+张甦琳 张 祎
+参与讨论专家(按姓氏拼音排序)
+陈太生 陈晓巍 迟放鲁 樊兆民 冯 永 高志强
+韩东一 黄魏宁 蒋子栋 金 昕 孔维佳 冷杨名
+李华伟 梁 勇 林 鹏 林 颖 刘 博 刘 波
+刘秀丽 刘玉和 倪道凤 区永康 邱建华 任基浩
+宋海涛 孙建军 王海波 王 璟 王利一 王武庆
+魏均民 吴海燕 吴 皓 吴子明 余力生 徐先荣
+杨 军 殷善开 曾祥丽 张道宫 张 华(女)
+张 青 张甦琳 张 祎 郑 虹 郑亿庆 周慧芳
+参考文献
+[1]
+中华医学会耳鼻咽喉科学会，中华耳鼻咽喉科杂志编辑委员会.
+梅尼埃病诊断依据和疗效分级[J].
+中华耳鼻咽喉科杂志，
+1997,
+32(
+2)：
+71.
+Editorial Board of Chinese Journal of Otorhinolaryngology, Chinese Otorhinolaryngology Society of Chinese Medical Association. Diagnosis basis and curative effect appraisal of Meniere disease[J]. Chin J Otorhinolaryngol, 1997, 32(2)：71.
+[2]
+中华耳鼻咽喉头颈外科杂志编辑委员会，中华医学会耳鼻咽喉科学分会.
+梅尼埃病的诊断依据和疗效评估(2006年，贵阳)[J].
+中华耳鼻咽喉头颈外科杂志，
+2007,
+42(
+3)：
+163.
+DOI: 10.3760/j.issn:1673-0860.2007.03.002.
+Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery, Chinese Otorhinolaryngology Head and Neck Surgery Society of Chinese Medical Association. Diagnosis basis and curative effect appraisal of Meniere disease[J]. Chin J Otorhinolaryngol Head Neck Surg, 2007, 42(3)：163. DOI: 10.3760/j.issn:1673-0860.2007.03.002.
+[3]
+Committee on Hearing and Equilibrium.
+Report of subcommittee on equilibrium and its measurement. Meniere′s disease: criteria for diagnosis and evaluation of therapy for reporting[J].
+Trans Am Acad Ophthalmol Otolaryngol,
+1972,
+76(
+6)：
+1462-
+1464.
+[4]
+PearsonBW, BrackmannDE.
+Committee on Hearing and Equilibrium guidelines for reporting treatment results in Meniere′s disease[J].
+Otolaryngol Head Neck Surg,
+1985,
+93(
+5)：
+579-
+581.
+DOI：10.1177/019459988509300501.
+[5]
+Committee on Hearing and Equilibrium guidelines for the diagnosis and evaluation of therapy in Menière′s disease.
+American Academy of Otolaryngology-Head and Neck Foundation, Inc[J].
+Otolaryngol Head Neck Surg,
+1995,
+113(
+3)：
+181-
+185.
+DOI: 10.1016/S0194-5998(95)70102-8.
+[6]
+Lopez-EscamezJA, CareyJ, ChungWH, et al.
+Diagnostic criteria for Menière′s disease[J].
+J Vestib Res,
+2015,
+25(
+1)：
+1-
+7.
+DOI: 10.3233/VES-150549.
+[7]
+NevouxJ, Franco-VidalV, BouccaraD, et al.
+Diagnostic and therapeutic strategy in Menière′s disease. Guidelines of the French Otorhinolaryngology-Head and Neck Surgery Society (SFORL)[J].
+Eur Ann Otorhinolaryngol Head Neck Dis,
+2017,
+pii:
+S1879-7296(
+16)
+30222-
+8
+[Epub ahead of print].
+DOI: 10.1016/j.anorl.2016.12.003.
+[8]
+TokumasuK, TashiroN, GotoK.
+Incidence and prevalence of Meniere′s disease in Asgamihara City, Kanagawa-ken[J].
+Pract Otol (Kyoto),
+1983,
+1(
+suppl 3):
+1165-
+1175.
+[9]
+WilmotTJ.
+Ménière′s disorder[J].
+Clin Otolaryngol Allied Sci,
+1979,
+4(
+2)：
+131-
+143.
+[10]
+OkaforBC.
+Incidence of Menière′s disease[J].
+J Laryngol Otol,
+1984,
+98(
+8)：
+775-
+779.
+[11]
+Wladislavosky-WasermanP, FacerGW, MokriB, et al.
+Meniere′s disease: a 30-year epidemiologic and clinical study in Rochester, Mn, 1951-1980[J].
+Laryngoscope,
+1984,
+94(
+8)：
+1098-
+1102.
+[12]
+StahleJ, StahleC, ArenbergIK.
+Incidence of Ménière′s disease[J].
+Arch Otolaryngol,
+1978,
+104(
+2)：
+99-
+102.
+[13]
+KotimäkiJ, SorriM, AantaaE, et al.
+Prevalence of Meniere disease in Finland[J].
+Laryngoscope,
+1999,
+109(
+5)：
+748-
+753.
+[14]
+PaparellaMM.
+The cause (multifactorial inheritance) and pathogenesis (endolymphatic malabsorption) of Meniere′s disease and its symptoms (mechanical and chemical)[J].
+Acta Otolaryngol,
+1985,
+99(
+3-4)：
+445-
+451.
+[15]
+PaparellaMM.
+The natural course of Meniere′s disease// Filipo R, Barbara M. Proceedings of the third international symposium on Meniere′s disease[M].
+Amsterdam:
+Kugler,
+1994:
+9-
+20.
+[16]
+MeyerhoffWL, PaparellaMM, SheaD.
+Ménière′s disease in children[J].
+Laryngoscope,
+1978,
+88(
+9
+Pt 1)：
+1504-
+1511.
+[17]
+MorrisonAW, MowbrayJF, WilliamsonR, et al.
+On genetic and environmental factors in Menière′s disease[J].
+Am J Otol,
+1994,
+15(
+1)：
+35-
+39.
+[18]
+BalkanyTJ, SiresB, ArenbergIK.
+Bilateral aspects of Meniere′s disease: an underestimated clinical entity[J].
+Otolaryngol Clin North Am,
+1980,
+13(
+4)：
+603-
+609.
+[19]
+NabiS, ParnesLS.
+Bilateral Ménière′s disease[J].
+Curr Opin Otolaryngol Head Neck Surg,
+2009,
+17(
+5)：
+356-
+362.
+DOI: 10.1097/MOO.0b013e3283304cb3.
+[20]
+SajjadiH, PaparellaMM.
+Meniere′s disease[J].
+Lancet,
+2008,
+372(
+9636)：
+406-
+414.
+DOI: 10.1016/S0140-6736(08)61161-7.
+[21]
+WeinreichHM, AgrawalY.
+The link between allergy and Menière′s disease[J].
+Curr Opin Otolaryngol Head Neck Surg,
+2014,
+22(
+3)：
+227-
+230.
+DOI: 10.1097/MOO.0000000000000041.
+[22]
+SchmidtW, SarranC, RonanN, et al.
+The weather and Ménière′s disease: a longitudinal analysis in the UK[J].
+Otol Neurotol,
+2017,
+38(
+2)：
+225-
+233.
+DOI: 10.1097/MAO.0000000000001270.
+[23]
+NakayamaM, KabayaK.
+Obstructive sleep apnea syndrome as a novel cause for Ménière′s disease[J].
+Curr Opin Otolaryngol Head Neck Surg,
+2013,
+21(
+5)：
+503-
+508.
+DOI: 10.1097/MOO.0b013e32836463bc.
+[24]
+Jablonka-StromA, PospiechL, ZatonskiM, et al.
+Dynamics of pure tone audiometry and DPOAE changes induced by glycerol in Meniere′s disease[J].
+Eur Arch Otorhinolaryngol,
+2013,
+270(
+5)：
+1751-
+1756.
+DOI: 10.1007/s00405-012-2246-6.
+[25]
+OhashiT, NishinoH, AraiY, et al.
+Electrocochleography in Meniere′s disease: recovery from adaptation of the auditory action potential[J].
+Acta Otolaryngol,
+2013,
+133(
+6)：
+564-
+568.
+DOI: 10.3109/00016489.2012.761351.
+[26]
+ZhangS, LengY, LiuB, et al.
+Diagnostic value of vestibular evoked myogenic potentials in endolymphatic hydrops: a Meta-analysis[J].
+Sci Rep,
+2015,
+5：
+14951.
+DOI: 10.1038/srep14951.
+[27]
+McGarvieLA, CurthoysIS, MacDougallHG, et al.
+What does the head impulse test versus caloric dissociation reveal about vestibular dysfunction in Ménière′s disease[J].
+Ann N Y Acad Sci,
+2015,
+1343：
+58-
+62.
+DOI: 10.1111/nyas.12687.
+[28]
+SotoA, LabellaT, SantosS, et al.
+The usefulness of computerized dynamic posturography for the study of equilibrium in patients with Meniere′s disease: correlation with clinical and audiologic data[J].
+Hear Res,
+2004,
+196(
+1-2)：
+26-
+32.
+DOI: 10.1016/j.heares.2004.06.010.
+[29]
+NakashimaT, NaganawaS, SugiuraM, et al.
+Visualization of endolymphatic hydrops in patients with Meniere′s disease[J].
+Laryngoscope,
+2007,
+117(
+3)：
+415-
+420.
+DOI: 10.1097/MLG.0b013e31802c300c.
+[30]
+KimSH, KimJY, LeeHJ, et al.
+Autoimmunity as a candidate for the etiopathogenesis of Meniere′s disease: detection of autoimmune reactions and diagnostic biomarker candidate[J].
+PLoS One,
+2014,
+9(
+10)：
+e111039.
+DOI: 10.1371/journal.pone.0111039.
+[31]
+MinorLB, SchesselDA, CareyJP.
+Ménière′s disease[J].
+Curr Opin Neurol,
+2004,
+17(
+1)：
+9-
+16.
+[32]
+AdrionC, FischerCS, WagnerJ, et al.
+Efficacy and safety of betahistine treatment in patients with Meniere′s disease: primary results of a long term, multicentre, double blind, randomised, placebo controlled, dose defining trial (BEMED trial)[J].
+BMJ,
+2016,
+352：
+h6816.
+[33]
+MurdinL, HussainK, SchilderAG.
+Betahistine for symptoms of vertigo[J].
+Cochrane Database Syst Rev,
+2016, (
+6)：
+CD010696.
+DOI: 10.1002/14651858.CD010696.pub2.
+[34]
+CrowsonMG, PatkiA, TucciDL.
+A Systematic Review of Diuretics in the Medical Management of Ménière′s Disease[J].
+Otolaryngol Head Neck Surg,
+2016，
+154(
+5)：
+824-
+834.
+DOI: 10.1177/0194599816630733.
+[35]
+ThirlwallAS, KunduS.
+Diuretics for Ménière′s disease or syndrome[J].
+Cochrane Database Syst Rev,
+2006, (
+3)：
+CD003599.
+DOI: 10.1002/14651858.CD003599.pub2.
+[36]
+PhillipsJS, WesterbergB.
+Intratympanic steroids for Ménière′s disease or syndrome[J].
+Cochrane Database Syst Rev,
+2011, (
+7)：
+CD008514.
+DOI: 10.1002/14651858.CD008514.pub2.
+[37]
+PatelM, AgarwalK, ArshadQ, et al.
+Intratympanic methylprednisolone versus gentamicin in patients with unilateral Ménière′s disease: a randomised, double-blind, comparative effectiveness trial[J].
+Lancet,
+2016,
+388(
+10061)：
+2753-
+2762.
+DOI: 10.1016/S0140-6736(16)31461-1.
+[38]
+Garduño-AnayaMA, De Toledo HC, Hinojosa-GonzálezR, et al.
+Dexamethasone inner ear perfusion by intratympanic injection in unilateral Ménière′s disease: a two-year prospective, placebo-controlled, double-blind, randomized trial[J].
+Otolaryngol Head Neck Surg,
+2005,
+133(
+2)：
+285-
+294.
+DOI: 10.1016/j.otohns.2005.05.010.
+[39]
+LengY, LiuB, ZhouR, et al.
+Repeated courses of intratympanic dexamethasone injection are effective for intractable Meniere′s disease[J].
+Acta Otolaryngol,
+2017,
+137(
+2)：
+154-
+160.
+DOI: 10.1080/00016489.2016.1224920.
+[40]
+ZhangSL, LengY, LiuB, et al.
+Meniett Therapy for Ménière′s Disease: An Updated Meta-analysis[J].
+Otol Neurotol,
+2016,
+37(
+3)：
+290-
+298.
+DOI: 10.1097/MAO.0000000000000957.
+[41]
+van SonsbeekS, PullensB, van BenthemPP.
+Positive pressure therapy for Ménière′s disease or syndrome[J].
+Cochrane Database Syst Rev,
+2015, (
+3)：
+CD008419.
+DOI: 10.1002/14651858.CD008419.pub2.
+[42]
+PullensB, van BenthemPP.
+Intratympanic gentamicin for Ménière′s disease or syndrome[J].
+Cochrane Database Syst Rev,
+2011, (
+3)：
+CD008234.
+DOI: 10.1002/14651858.CD008234.pub2.
+[43]
+Boleas-AguirreMS, Sánchez-FerrandizN, Guillén-GrimaF, et al.
+Long-term disability of class A patients with Ménière′s disease after treatment with intratympanic gentamicin[J].
+Laryngoscope,
+2007,
+117(
+8)：
+1474-
+1481.
+DOI: 10.1097/MLG.0b013e318065aa27.
+[44]
+ThomsenJ, BretlauP, TosM, et al.
+Ménière′s disease: endolymphatic sac decompression compared with sham (placebo) decompression[J].
+Ann N Y Acad Sci,
+1981,
+374：
+820-
+830.
+[45]
+YinS, ChenZ, YuD, et al.
+Triple semicircular canal occlusion for the treatment of Ménière′s disease[J].
+Acta Otolaryngol,
+2008,
+128(
+7)：
+739-
+743.
+DOI: 10.1080/00016480701730000.
+[46]
+ZhangD, FanZ, HanY, et al.
+Triple semicircular canal plugging: a novel modality for the treatment of intractable Meniere′s disease[J].
+Acta Otolaryngol,
+2016,
+136(
+12)：
+1230-
+1235.
+DOI: 10.1080/00016489.2016.1206966.
+[47]
+Dowdal-OsbornM.
+Early vestibular rehabilitation in patients with Meniere′s disease[J].
+Otolaryngol Clin North Am,
+2002，
+35(
+3)：
+683-690, ix.
+[48]
+ClendanielRA, TucciDL.
+Vestibular rehabilitation strategies in Meniere′s disease[J].
+Otolaryngol Clin North Am,
+1997,
+30(
+6)：
+1145-
+1158.
+[49]
+MukherjeeP, EykampK, BrownD, et al.
+Cochlear Implantation in Ménière′s Disease With and Without Labyrinthectomy[J].
+Otol Neurotol,
+2017,
+38(
+2)：
+192-
+198.
+DOI: 10.1097/MAO.0000000000001278.
+[50]
+MickP, AmoodiH, ArnoldnerC, et al.
+Cochlear implantation in patients with advanced Ménière′s disease[J].
+Otol Neurotol,
+2014,
+35(
+7)：
+1172-
+1178.
+DOI: 10.1097/MAO.0000000000000202.
+[51]
+张道宫，徐磊，韩月臣，等.
+半规管阻塞术联合人工耳蜗植入治疗晚期梅尼埃病疗效分析[J].
+中华耳鼻咽喉头颈外科杂志，
+2017,
+52(
+1)：
+25-
+30.
+DOI：10.3760/cma.j.issn.1673-0860.2017.01.005.
+ZhangDG, XuL, HanYC, et al. Simultaneous triple semicircular canal plugging and cochlear implantation in advanced Meniere′s disease[J]. Chin J Otorhinolaryngol Head Neck Surg, 2017, 52(1)：25-30. DOI：10.3760/cma.j.issn.1673-0860.2017.01.005.
+[52]
+JacobsonGP, NewmanCW.
+The development of the Dizziness Handicap Inventory[J].
+Arch Otolaryngol Head Neck Surg,
+1990,
+116(
+4)：
+424-
+427.
+[53]
+张祎，刘博，王拥军，等.
+头晕评价量表中文版信度和效度分析[J].
+中华耳鼻咽喉头颈外科杂志，
+2015,
+50(
+9)：
+738-
+743.
+DOI: 10.3760/cma.j.issn.1673-0860.2015.09.008.
+ZhangY, LiuB, WangYJ, et al. Analysis of reliability and validity of the Chinese Version of Dizziness Handicap Inventory (DHI)[J]. Chin J Otorhinolaryngol Head Neck Surg, 2015, 50(9)：738-743. DOI: 10.3760/cma.j.issn.1673-0860.2015.09.008.
+[54]
+NewmanCW, JacobsonGP, SpitzerJB.
+Development of the Tinnitus Handicap Inventory[J].
+Arch Otolaryngol Head Neck Surg,
+1996,
+122(
+2)：
+143-
+148.
+[55]
+刘蓬，李明.
+对耳鸣疗效评价的思考[J]．
+中华耳鼻咽喉头颈外科杂志，
+2008,
+43(
+9)：
+710-
+713.
+DOI: 10.3321/j.issn:1673-0860.2008.09.020.
+LiuP, LiM. Communication evaluation of curative effect in tinnitus[J]. Chin J Otorhinolaryngol Head Neck Surg, 2008, 43(9)：710-713. DOI: 10.3321/j.issn:1673-0860.2008.09.020.
+贡献者信息
+中华耳鼻咽喉头颈外科杂志编辑委员会
+中华医学会耳鼻咽喉头颈外科学分会
+基金项目
+"十二五"国家科技支撑计划 （2012BAI12B02）
+历史
+出版日期：2017-03-07
+收稿日期：2017-02-27
+本文编辑
+金昕
+Pratical Guidelines
+Guideline of diagnosis and treatment of Meniere disease (2017)
+Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery,  Society of Otorhinolaryngology Head and Neck Surgery Chinese Medical Association
+Published
+2017-03-07
+Cite as
+Chin J Otorhinolaryngol Head Neck Surg, 2017,52(03): 167-172. DOI: 10.3760/cma.j.issn.1673-0860.2017.03.002
+Contributor Information
+Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery
+Society of Otorhinolaryngology Head and Neck Surgery Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+梅尼埃病治疗方案的选择
+临床分期
+治疗方案
+一期
+患者教育，改善生活方式，倍他司汀，利尿剂，鼓室注射糖皮质激素，前庭康复训练
+二期
+患者教育，改善生活方式，倍他司汀，利尿剂，鼓室注射糖皮质激素，低压脉冲治疗，前庭康复训练
+三期
+患者教育，改善生活方式，倍他司汀，利尿剂，鼓室注射糖皮质激素，低压脉冲治疗，内淋巴囊手术，鼓室注射庆大霉素，前庭康复训练
+四期
+患者教育，改善生活方式，倍他司汀，利尿剂，鼓室注射糖皮质激素，低压脉冲治疗，鼓室注射庆大霉素，三个半规管阻塞术，前庭神经切断术，迷路切除术，前庭康复训练
+注：对于部分眩晕发作频繁、剧烈，有强烈手术意愿的二期患者也可以考虑行内淋巴囊手术；对于部分眩晕发作频繁、剧烈，内淋巴囊手术无效，言语识别率小于50%，强烈要求手术的三期患者也可考虑行三个半规管阻塞术
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华耳鼻咽喉头颈外科杂志2017年52卷03期
+文    题：梅尼埃病诊断和治疗指南(2017)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华耳鼻咽喉头颈外科杂志2017年52卷03期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

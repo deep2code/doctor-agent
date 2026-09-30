@@ -1,0 +1,1138 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%80%A5%E6%80%A7%E5%BF%83%E5%8A%9B%E8%A1%B0%E7%AB%AD%E6%80%A5%E8%AF%8A%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%282017%29.html
+# 标题: 中国急性心力衰竭急诊临床实践指南(2017) - 中华急诊医学杂志
+# 发布方/日期: 中华医学会急诊医学分会，中华急诊医学杂志, 2017,26(12) : 1347-1357. DOI: 10.3760/cma；2017-12-10
+
+中国急性心力衰竭急诊临床实践指南(2017)
+中国医师协会急诊医师分会
+中国心胸血管麻醉学会急救与复苏分会
+中华急诊医学杂志, 2017,26(12) : 1347-1357. DOI: 10.3760/cma.j.issn.1671-0282.2017.12.003
+心力衰竭(heart failure，简称心衰)是由于心脏结构或功能异常导致心室充盈或射血能力受损的一组临床综合征，其病理生理学特征为肺淤血和(或)体循环淤血、以及组织器官低灌注，主要临床表现为呼吸困难、乏力(活动耐量受限)以及液体潴留(外周水肿)。
+急性心力衰竭(acute heart failure，AHF)是指继发于心脏功能异常而迅速发生或恶化的症状和体征并伴有血浆利钠肽水平的升高，既可以是急性起病，也可以表现为慢性心力衰竭急性失代偿(acute decompensated heart failure，ADHF)，其中后者更为多见，约占70%～80%。临床上最为常见的AHF是急性左心衰，急性右心衰虽较少见，但近年有增加的趋势。基于右心从胚胎起源、结构及功能皆不同于左心，本指南主要述及急性左心衰竭的相关内容。
+AHF是常见急症，常危及生命，必须快速诊断和紧急抢救治疗。AHF预后很差，住院病死率为3%，6个月的再住院率约50%，5年病死率高达60%。近年来，绝大多数AHF患者在急诊科首诊和救治，而目前我国尚缺乏急诊统一规范的AHF诊断及治疗指南，基于此，中国医师协会急诊分会组织相关专家复习国内外相关学术文献，反复讨论，形成具有我国急诊特色的诊治指南，期望能更好的指导急诊医师对AHF诊治的临床实践。
+本指南按国际通用的方式，标示了诊断方法、药物和各种治疗方法的应用推荐类别与证据水平。推荐类别：Ⅰ类为已证实和(或)一致认为有益和有效；II类为疗效的证据尚不一致或存在争议，其中相关证据倾向于有效的为Ⅱa类，尚不充分的为Ⅱ b类；Ⅲ类为已证实或者一致认为无用或者无效，甚至可能有害。证据水平：证据来自多项随机对照临床试验或者多项荟萃分析为A级，证据来自单项随机对照临床试验或非随机研究为B级，证据来自小型研究或专家共识为C级。
+1 AHF的病因和诱发因素
+新发AHF最常见的病因包括由急性缺血、感染和中毒等所致的急性心肌细胞损伤或坏死、急性瓣膜功能不全和急性心包压塞。ADHF可以无诱因，但更多地是由一个或多个诱发因素所引发，例如感染、心律失常、高血压、不恰当地调整或停止药物(治疗依从性差)等，常见病因和诱发因素见表1。
+点击查看表格
+表1
+AHF常见病因及诱发因素
+表1
+AHF常见病因及诱发因素
+病因/诱发因素
+1.
+急性冠脉综合征(ACS)
+2.
+心动过速(例如房颤、室速等)或心动过缓
+3.
+高血压危象
+4.
+感染(肺炎、病毒性心肌炎、感染性心内膜炎、脓毒症等)
+5.
+钠盐过量摄入，过多或过快输注液体
+6.
+中毒(酒精、毒品、化学毒物等)
+7.
+药物(如非甾体类抗炎药、糖皮质激素、负性肌力药物、具心脏毒性的化疗药物等)
+8.
+慢性阻塞性肺疾病急性加重
+9.
+肺栓塞
+10.
+外科手术或围手术期并发症
+11.
+交感神经张力增高，应激性心肌病
+12.
+代谢/激素水平变化(如甲状腺功能亢进、糖尿病酮症酸中毒、肾上腺皮质功能不全、妊娠、围产期、严重贫血等)
+13.
+肾衰竭
+14.
+脑卒中
+15.
+急性机械性损伤：ACS并发心脏破裂(游离壁破裂、室间隔穿孔、腱索断裂或乳头肌急性功能不全)、胸部外伤、心脏介入、急性原发性或继发于感染性心内膜炎的瓣膜关闭不全、主动脉夹层
+2 AHF的初始评估和处理流程
+2.1 AHF的临床表现
+推荐意见：
+AHF临床表现是以肺淤血、体循环淤血以及组织器官低灌注为特征的各种症状、体征[I C]。
+①肺循环淤血的症状和体征：端坐呼吸、夜间阵发性呼吸困难、咳嗽并咯(粉红色)泡沫痰，肺部湿啰音伴或不伴哮鸣音，P2亢进，S3或(和)S4奔马律。
+②体循环淤血的症状和体征：颈静脉充盈、外周水肿(双侧)、肝淤血(肿大伴压痛)、肝颈静脉回流征、胃肠淤血(腹胀、纳差)、腹腔积液。
+③低灌注的临床表现：低血压(收缩压<90 mmHg)、四肢皮肤湿冷、少尿[尿量<0.5 mL/(kg·h)]、意识模糊、头晕。需注意，低灌注常伴有低血压，但不等同于低血压。
+④心源性休克：没有低血容量存在的情况下，收缩压<90 mmHg持续30 min及以上、或平均动脉压<65 mmHg持续30 min及以上，或需要血管活性药物才能维持收缩压>90 mmHg；心脏指数显著降低，存在肺淤血或左室充盈压升高；组织器官低灌注表现之一或以上，如神志改变、皮肤湿冷、少尿、血乳酸升高。
+⑤呼吸衰竭：是由于心力衰竭、肺淤血或肺水肿所导致的严重呼吸功能障碍，引起动脉血氧分压(PaO2)降低，静息状态吸空气时<60 mmHg，伴或不伴有动脉血二氧化碳分压(PaCO2)增高(>50 mmHg)而出现一系列病理生理紊乱的临床综合征。
+2.2 AHF的初始评估与处置
+推荐意见：
+从院前开始就应启动评估、诊断(如心电图、血利钠肽检测)与无创监测策略，以及必要的氧疗甚至是呼吸支持[I C]。
+尽快转送至附近有完备急诊科、心内科和(或)CCU/ICU的大中型医院[I C]。
+到达急诊科后采取进一步的综合措施紧急评估，必要时进行循环和(或)呼吸支持[I C]。
+迅速识别出致命性病因的心力衰竭及需要紧急处理的促使心功能恶化的各种可逆性因素，并尽早处理[I C]。
+对处于院前阶段的AHF患者，首要的是紧急评估循环和呼吸状态，并给予必要的支持治疗。积极采取下列措施可能带来早期获益：完善心电图；早期无创监测，包括脉搏血氧饱和度(SpO2)、血压、呼吸频率及连续心电监测等；若SpO2<90%，应及时进行氧疗；对于呼吸困难明显的患者，可尽早使用无创通气治疗，即使在转运途中，有条件者也应尽早应用；早期检测血利钠肽也将对明确诊断带来益处；根据患者血压情况和(或)淤血程度决定血管扩张剂、利尿剂的应用；若需要应用升压药，首选去甲肾上腺素。尽快转诊至附近有完备急诊科、心内科和(或)CCU/ICU的大中型医院。
+到达急诊科后继续采取进一步的综合措施紧急评估，并给予必要的循环和(或)呼吸支持治疗。在此基础上，应迅速识别出致命性病因的心力衰竭及需要紧急处理的促使心功能恶化的各种可逆性因素(如ACS、高血压危象、急性肺栓塞、严重心律失常等)，尽早给予相应处理。
+院前和急诊科对于AHF患者的初始评估和处理流程如图1。
+点击查看大图
+图1
+AHF患者初始评估和处置流程
+C：acute Coronary syndrome; H：Hypertension emergency；A：Arrhythmia, M acute Mechanical cause; P：Pulmonary embolism
+图1
+AHF患者初始评估和处置流程
+3 AHF的诊断
+推荐意见：
+仔细询问AHF相关病史、症状和本次发作的心源性或非心源性促发因素[I C]；
+全面评估淤血和(或)低灌注的表现[I C];
+常规进行利钠肽检查，辅助快速诊断[I A](有条件者最好行床旁即时检验[POCT])[I C]；
+常规进行肌钙蛋白I/T(cTnI/T)等生物学标记物、心电图、胸部X线检查[I C]；
+尽早(24～48 h内)行超声心动图检查，明确AHF诊断[I C]；
+常规实验室检查(全血细胞计数、乳酸、电解质，肌酐、尿素氮，转氨酶、胆红素，D-二聚体，T3、T4、TSH等)与动脉血气分析，综合评估病情[I C]。
+AHF的最初诊断(疑诊)大多是基于以呼吸困难为突出临床表现而开始的。早诊断、早治疗可以明显改善预后。
+3.1 病史与临床表现
+既往基础心脏病史和(或)心力衰竭史，以夜间阵发性呼吸困难、端坐呼吸为主要症状，若咯出大量粉红色泡沫痰伴两肺湿啰音，基本可明确急性心源性肺水肿。S3或(和)S4奔马律也是心力衰竭较为特异的体征。
+虽然肺水肿和外周水肿提示液体负荷过重，外周组织低灌注提示心搏量下降，但是仅仅通过症状和体征评价AHF的特异性和敏感性较差。
+3.2 心脏生物学标记物检查
+3.2.1 利钠肽(NPs)
+血浆B型钠尿肽(B-type natriuretic peptides，BNP)或N末端钠尿肽前体(NT-proBNP)或中段心房利钠肽前体(MR-proANP)有助于鉴别心源性和非心源性呼吸困难[1,2]，所有怀疑AHF的呼吸困难患者均应进行检测。利钠肽敏感性较高，阴性预测价值突出[3,4]，当血BNP<100 pg/mL、NT-proBNP<300 pg/mL、MR-proANP<120 pg/mL基本可排除AHF[5]。目前利钠肽可在床旁快速检测，操作便捷，其在AHF的诊断与鉴别诊断中的价值日益重要。NPs还有助于心力衰竭严重程度和预后的评估[6,7]，心力衰竭程度越重，NPs水平越高。
+年龄、性别和体质量指数是影响利钠肽的主要生理因素；许多病理状况如缺血性卒中、肾功能不全、肝硬化伴腹水、肺血栓栓塞症、甲状腺疾病、严重感染与脓毒症等都可引起血浆利钠肽升高，一些药物如β-受体阻滞剂、血管紧张素转换酶抑制剂等也可影响血浆利钠肽浓度。因此，要充分结合临床，做出合理解读。也需注意的是，有极少数失代偿的终末期心力衰竭、急性右心衰竭患者的利钠肽水平也可以不升高。
+3.2.2 肌钙蛋白I / T(cTn I / T)
+对AMI的诊断有明确意义，也用于对肺血栓栓塞危险分层[8]，可作为AHF的常规检测项目。虽然多数肌钙蛋白升高的AHF患者没有明显的心肌缺血或急性冠脉事件，但提示存在进行性心肌损伤[9]。重要的是，心肌细胞损伤与心功能恶化或加重往往互为因果，研究认为，与低的cTn I / T患者相比，增高的cTn I / T患者的病死率和再住院率明显增高[10,11]。
+还有一些反映炎症、氧化应激、神经内分泌紊乱、心肌和基质重构的生物标志物，如sST2[12,13,14]、copeptin(和肽素)[15,16]等，研究证实对AHF的诊断和预后评估有价值，部分已应用于临床。
+3.3 心电图
+AHF患者的心电图极少完全正常，因此其阴性预测价值较高[17]。虽然心力衰竭患者的心电图无特征性表现，但心电图异常对于识别基础心脏病(陈旧心肌梗死、高血压心脏病、肥厚型心肌病等)和心力衰竭的诱因(心律失常、急性心肌缺血等)都很有帮助。
+3.4 胸部X线
+尽管20%左右的AHF患者X线胸片可正常[18]，胸部X线检查对AHF的诊断仍很重要，其典型表现为肺静脉淤血、胸腔积液、间质性或肺泡性肺水肿，心影增大。胸部X线检查还能为肺炎、气胸等疾病的鉴别诊断提供依据。仰卧位胸片的诊断价值有限。
+患者情况与检查条件许可，也可尽早行肺部CT扫描，以进一步全面了解心肺病理状况。
+3.5 超声心动图与急诊肺部超声
+超声心动图可准确评价心脏形态、结构、运动与功能，尤其可清晰甄别收缩功能还是舒张功能异常[19]。对于首发AHF的所有患者和心脏功能不明的患者，应当早期(最好在入院24～48 h内)检查；但对血流动力学不稳定特别是心源性休克的患者、或是怀疑有致命的心脏结构和功能异常的患者(如机械并发症、急性瓣膜反流、主动脉夹层)，应紧急行床旁超声心动图检查。
+床旁急诊肺部超声可发现肺间质水肿的征象(增多的B线，呈现肺"火箭征")[20]，对于临床诊断有良好价值，且操作便捷。
+3.6 动脉血气分析
+急性左心衰时，PaO2常不同程度降低，并且由于组织缺氧产生无氧代谢，致代谢性酸中毒；PaCO2在病情早期多因过度换气而降低，但在病情晚期升高可出现混合性酸中毒。血气分析不能直接用于AHF的诊断，但对于确定呼吸衰竭有不可替代的价值，并提供酸碱平衡失调等关键信息，是判断AHF病情严重程度、指导治疗的必要检查之一。
+临床多功能监护的SpO2虽能及时获得动脉氧供的资料，但在循环(灌注)不良和(或)休克的状况下不能真实反映动脉氧饱和度(SaO2)水平，应以直接测动脉血气为准。
+3.7 其他实验室检查
+除上述外还应进行以下实验室指标的常规检测，辅助检出可能的AHF病因和诱因，以及综合评价患者病情与预后：全血细胞计数、血乳酸、尿素氮(BUN)、肌酐(Scr)、电解质、肝功能、血糖、甲状腺功能与促甲状腺激素(TSH)。怀疑肺血栓栓塞的患者还应完善D-二聚体(D-dimer)，怀疑合并肺部感染的患者尚需完善降钙素原(PCT)检测。
+乳酸是葡萄糖无氧酵解的产物。高乳酸血症是急重症患者氧代谢障碍的结果，往往提示存在组织缺氧，且在器官功能障碍早期即可出现，是急重症患者的早期预警指标。增高的血乳酸水平与急重症的严重程度和不良预后密切相关，血乳酸越高，病情越严重，患者的预后越差。组织缺氧与低灌注虽不能等同视之，但多数情况下二者是直接关联的，临床上，与尿量和部分体征相比较，血乳酸是更好反映组织低灌注的替代指标[21,22,23]。
+伴有肾功能不全的AHF或是AHF治疗中出现急性肾损伤是预后不良的危险因素。最好在住院期间定期(每1～2 d)测定肌酐、尿素氮和电解质，可以根据病情的严重程度调整检测频次。与血肌酐相比，半胱氨酸蛋白酶抑制剂C(cystatin C，胱抑素C)不受年龄、性别、肌肉含量等因素的影响，能更好的反映肾小球滤过率以及敏感地反映早期肾损害，是有前景的理想生物学标记物之一[24]。近期的研究还证明，中性粒细胞明胶酶相关脂质运载蛋白(NGAL)也是急性肾损伤的早期标志物，有良好价值[25,26]。
+由于血流动力学紊乱(心输出量减少和静脉充血增多)，肝功能通常是受损的。肝功能检查异常可识别存在预后不良风险的患者，对优化管理可能有用。
+甲状腺功能减退和甲状腺功能亢进都可并发AHF，尤其对新诊断的AHF应检测甲状腺功能。
+4 AHF的分型与分级
+推荐意见：
+AHF的"冷暖湿干"临床分型简洁，与血流动力学相对应，便于快速应用[ⅠC]。
+基于患者临床特征进行个体化临床分型以评价病情和决定治疗措施[ⅠC]。
+依据临床表现特征、血流动力学等进行AHF临床分型，以便于临床医师进行恰当的病情评估和制定个体化治疗方案。
+根据是否存在淤血和外周组织器官低灌注的临床表现，将AHF快速分为四型[27,28]，见表2，在上述四型中以暖而湿型最常见。此分类实际上与血液动力学分类是相对应的，其突出优势在于简洁，便于快速应用。
+点击查看表格
+表2
+AHF临床分型
+表2
+AHF临床分型
+分型
+外周低灌注
+淤血
+暖而干型
+-
+-
+暖而湿型
+-
+＋
+冷而干型
+＋
+-
+冷而湿型
+＋
+＋
+依据左心室射血分数(left ventricular ejection fraction，LVEF)，心衰可分为LVEF降低(<40%)的心衰(heart failure with reduced left ventricular ejection fraction，HF-REF)和LVEF保留(≥50%)的心衰(heart failure with preserved left ventricular ejection fraction，HF-PEF)以及EF中间值(40%～49%)的心衰。一般来说，此分型多用于慢性心衰，且HF-REF指传统概念上的收缩性心衰，而HF-PEF指舒张性心衰，但由于AHF的多数是ADHF，而且早期超声心动图检查可提供依据，保留此种分类对于临床应用正性肌力药物有很好指导意义。仍需注意，LVEF保留或正常的情况下收缩功能仍可能是异常的，部分心衰患者收缩功能异常和舒张功能异常可以共存。
+AMI出现AHF可应用Killip-Kimball分级[29]，其与患者的近期病死率相关，见表3。
+点击查看表格
+表3
+AMI的Killip分级
+表3
+AMI的Killip分级
+分级
+表 现
+近期病死率(%)
+Ⅰ级
+无明显心功能损害，肺部无啰音
+6
+Ⅱ级
+轻～中度心衰，肺部啰音和S3奔马律，及X线肺淤血
+17
+Ⅲ级
+重度心衰，肺啰音超过两肺野的50%，X线肺水肿
+38
+Ⅳ级
+心源性休克，伴或不伴肺水肿
+81
+此外，在大多数情况下，AHF患者表现为收缩压正常(90～140 mmHg)收缩压升高(>140 mmHg；高血压性AHF)，只有少数(约5%)表现为收缩压降低(<90 mmHg；低血压性AHF)[30]。低血压性AHF与预后不良相关，特别是同时存在低灌注时。
+5 AHF的监测
+推荐意见：
+应用无创方法严密监测AHF患者的心率和心律、呼吸频率、SpO2和血压[ⅠC]；
+控制与记录出入液量，每日称重，反复评估患者的容量状态、淤血证据[ⅠC]；
+监测肾功能和电解质[Ⅰ C]；
+血流动力学状态不稳定、病情严重且治疗效果不理想、心功能恶化机制不明的患者应尽早使用有创血流动力学监测[Ⅱa B]；
+中心静脉压不作为常规监测[Ⅱb B]。
+AHF患者均应监测症状和体征，并首先应用无创性方法严密监测心率和心律、呼吸频率、SpO2和血压。严格控制与记录出入液量，每日称体质量，反复评估患者的容量状态、淤血证据。动态监测肾功能和电解质。
+血流动力学监测一般分为无创性和有创性两大类：无创性监测(non-invasive hemodynamic monitoring)方法使用安全方便，患者易于接受，可获得相关的心血管功能参数；有创性监测(invasive hemodynamic monitoring)包括动脉内血压监测、肺动脉导管、脉搏波指示连续心排量(PiCCO)等，能够获得较为全面、准确的血流动力学参数，有利于深入和全面地了解病情，尤其适用于危重患者的诊治，其缺点是对机体有一定损伤，操作不当会引起并发症。临床上，应根据患者的病情与治疗的需要充分权衡利弊，选择实施具体的监测方法[31]。医务人员须准确地理解所监测指标的含义，并正确解读。
+中心静脉压(central venous pressure，CVP)是上、下腔静脉进入右心房处的压力，多年来一直是临床评价血液动力学的主要指标之一。然而，CVP的变化不仅仅依赖于容量状态，还受总容量、腹内压及血管张力的影响，而且，研究表明CVP在接近正常(8～12 mmHg)时是难以预测液体反应性的[32]，目前不作为常规监测与评价。
+6 AHF的治疗
+6.1 AHF的治疗目标与治疗原则
+推荐意见：
+AHF的治疗目标依据心力衰竭的不同阶段而采取不同的策略[ⅠC]。
+AHF治疗目标依据心力衰竭的不同阶段而不同，早期急诊抢救阶段以迅速稳定血流动力学状态、纠正低氧、改善症状、维护重要脏器灌注和功能、预防血栓栓塞为主要治疗目标；后续阶段应进一步明确心力衰竭的病因和诱因给予相应处理、控制症状和淤血，并优化血压，制定随访计划，改善远期预后。
+AHF治疗原则为减轻心脏前后负荷、改善心脏收缩与舒张功能、积极去除诱因以及治疗原发病变。
+AHF危及生命，对疑诊AHF的患者，在完善检查的同时即应开始药物和非药物治疗。
+6.2 一般处理
+无创性多功能心电监测，建立静脉通路等。
+允许患者采取最舒适的体位，通常为端坐位，两下肢下垂，保持此体位10～20 min后，可使肺血容量降低约25%(单纯坐位而下肢不下垂收益不大)。
+6.3 氧疗与通气支持
+推荐意见：
+氧疗适用于呼吸困难明显伴低氧血症(SaO2<90%或PO2<60 mmHg)的患者[Ⅰ C]。
+当常规氧疗方法(鼻导管和面罩)效果不满意时，应尽早使用无创正压通气(NIPPV)[Ⅰ B]。
+经积极治疗后病情仍继续恶化、或者不能耐受NIPPV或是存在NIPPV治疗禁忌证者，应气管插管，行有创机械通气[Ⅰ C]。
+氧疗适用于呼吸困难明显伴低氧血症(SaO2<90%或PO2<60 mmHg)的患者。
+常规氧疗方法包括：①鼻导管吸氧：是常用的给氧方法，适用于轻中度缺氧者，氧流量从1～2 L/min起始，根据动脉血气结果可增加到4～6 L/min。②面罩吸氧：适用于伴呼吸性碱中毒的患者。
+呼吸频率>25次/min，SpO2<90%的患者在有条件的情况下应尽早使用无创正压通气(non-invasive positive pressure ventilation，NIPPV)。早先的一项前瞻性、随机、对照研究中，L’Her等[33]比较、评估了89例由心源性肺水肿引起的急性低氧型呼吸衰竭(PaO2/FiO2≤300)老年患者接受标准面罩氧疗与7.5 mmHg面罩CPAP(持续气道正压)治疗的结果，中期评估时即显示，两组患者疾病的严重程度具有可比性，但CPAP组对气管内插管通气的需要率(7%)与接受标准氧疗组(24%)相比，减少了17%，48 h早期病死率CPAP组(9%)比标准氧疗组(30%)降低了21%。其后的多项研究皆显示，NIPPV治疗急性心源性肺水肿可改善氧合，减轻呼吸困难，缓解呼吸肌疲劳、降低呼吸功耗，降低插管率。NIPPV有两种方式包括CPAP和BiPAP(双水平气道正压)，孰优孰劣，尚待进一步研究[34,35]，不过，对于有二氧化碳潴留者，应首先考虑BiPAP模式。
+经积极治疗后病情仍继续恶化(意识障碍，呼吸节律异常，或呼吸频率<8次/min，自主呼吸微弱或消失，PaCO2进行性升高者)、不能耐受NIPPV或是存在NIPPV治疗禁忌证者，应气管插管，行有创机械通气(invasive positive pressure ventilation，IPPV)。
+此外，对于有NIPPV适应证而又不能良好耐受NIPPV的患者可应用高流量鼻导管给氧(Nasal high flow oxygen，NHFO)。NHFO是通过无需密封的鼻塞导管，持续提供超过吸气峰流速的高流量的加温(37℃)加湿(44 mg/L，100%相对湿度)的空氧混合气体。NHFO具有以下特点：①可提供低水平的持续压力支持(当流量达到50 L/min时氧体积分数可接近60%)；②通过持续鼻塞导管给的高流量可冲刷上气道的解剖学死腔，降低PaCO2；③同时提供最佳湿化可维持气道纤毛清理功能，稀释痰液，促进排痰；④与NIPPV相比，NHFO有更高的舒适度和耐受性，无胃胀气、呕吐、误吸、痰液干涸、无幽闭感等症状，不影响咳痰、进食水及交谈，可持续不间断治疗[36]。
+对于非低氧血症的AHF患者，可不常规给氧[37,38]。
+6.4 心源性休克的救治
+推荐意见：
+对于所有疑似心源性休克的患者，尽早行超声心动图检查[Ⅰ C]。
+对于ACS并发心源性休克的患者，建议尽早(在入院2 h内)行冠脉造影，以期对冠脉行血运重建[Ⅰ C]。
+无临床征象提示容量负荷增多的情况下，首先在15～30 min内给予生理盐水或平衡盐溶液200 ml[Ⅰ C]。
+静脉使用正性肌力药物限于心输出量严重降低导致组织器官低灌注的患者[Ⅱb C]。
+存在持续组织低灌注，需要使用血管收缩药物维持收缩压者，首选去甲肾上腺素[Ⅱb B]，并最好监测动脉内血压[Ⅱa C]。
+对于心源性休克的治疗，不常规使用主动脉内球囊反搏(IABP)[Ⅲ B]。
+根据患者的年龄、合并症和神经功能情况，可考虑使用短期机械循环支持以治疗难治性心源性休克[Ⅱb C]。
+6.4.1 扩容
+心源性休克时，心脏泵功能及外周循环功能障碍并存，此时补液应严格掌握补液量及补液速度，最好在血流动力学监测下指导补液。若肺毛细血管楔压(PCWP)和CVP等提示血容量不足且有相应临床表现时，可选用晶体液如生理盐水或平衡液适当补充血容量；无临床征象提示容量负荷增多的情况下，首先在15～30 min内给予生理盐水或平衡盐溶液200 ml。进行容量负荷试验时，心输出量增加至少10%～15%提示患者对输液有反应。
+6.4.2 正性肌力药物
+见下文详述。
+6.4.3 血管收缩药物
+应用了正性肌力药物仍然存在低血压的心源性休克患者，可给予去甲肾上腺素增加血压和重要器官灌注，然而这可能将以增加左室后负荷为代价。有研究提示，与多巴胺相比，去甲肾上腺素组具有不增加心室率、不增加心肌氧耗的优势，不良反应较少且病死率较低[39]。
+因血管收缩药物可致心律失常、心肌缺血，除常规监测心电图和无创血压等外，最好能监测动脉内血压。
+6.4.4 机械辅助装置
+主动脉内球囊反搏(IABP)可有效改善心肌灌注，降低心肌耗氧量和增加心输出量，常规适应证包括外科手术解决急性机械问题(如室间隔穿孔和急性二尖瓣反流)前、重症急性心肌炎、急性心肌缺血或心肌梗死患者在PCI或手术血运重建之前、之中和之后，用以循环支持。目前无证据表明在其他原因所致的心源性休克患者中IABP可以改善预后，不推荐常规使用IABP治疗心源性休克。
+根据患者的年龄、合并症和神经功能情况，可考虑使用短期机械循环支持以治疗难治性心源性休克。临床研究表明，体外模式人工肺氧合器(ECMO)可以部分或全部代替心肺功能，短期应用可改善预后。
+6.5 识别并紧急处理导致AHF的急性可逆病因和诱因
+推荐意见：
+早期识别并处理AHF的急性病因或者诱因，可以避免心功能的进一步恶化[Ⅰ C]。
+早期识别AHF的病因或诱因，并积极处理部分急性可逆性因素，可以避免心功能的进一步恶化，有利于控制心衰。STEMI或NSTEMI的AHF患者应积极进行再灌注治疗；高血压急症所致的AHF应尽早应用血管扩张剂积极控制血压；因快速型心律失常或严重的缓慢型心律失常所致AHF应通过药物或电转复、临时起搏等纠正心律失常[40,41,42]，对于急性心脏机械并发症所致AHF应急诊给予机械循环支持，而急性肺血栓栓塞合并AHF者应给予药物溶栓、介入或外科取栓治疗[8]。
+6.6 药物治疗
+推荐意见：
+AHF的药物治疗主要基于其病理生理学特征或临床分型(见图2)[Ⅰ C]。
+点击查看大图
+图2
+不同临床分型的AHF患者的治疗策略流程图
+图2
+不同临床分型的AHF患者的治疗策略流程图
+关于利尿剂：
+①有容量超负荷证据的AHF患者应在初始治疗中采用静脉利尿剂[Ⅰ B]。
+②有低灌注表现的AHF患者，在达到足够的灌注前，应避免用利尿剂[Ⅰ B]。
+③袢利尿剂(如呋塞米、布美他尼和托拉塞米)作为治疗AHF的一线药物[Ⅰ C]。
+④应注意由于过度利尿可能发生的低血容量、休克与电解质紊乱如低钾血症等[Ⅰ C]。
+关于血管扩张剂：
+①血管扩张剂通过降低静脉张力(优化前负荷)和动脉张力(降低后负荷)，治疗伴有高血压的AHF特别有效[Ⅱa B]。
+②SBP<90 mmHg或有症状性低血压的患者应避免使用血管扩张剂[Ⅱa B]。
+③血管扩张剂通常选择静脉用药，应谨慎控制剂量以免过度降压，过度降压与预后不良相关[Ⅱa B]。
+④有明显二尖瓣或主动脉瓣狭窄的患者，血管扩张剂应慎用[Ⅱa C]。
+关于正性肌力药物：
+静脉使用正性肌力药物限用于心输出量严重降低导致组织器官低灌注的患者[Ⅱb C]。
+其他：
+①不推荐常规使用吗啡。对烦躁不安又除外持续低血压、意识障碍、严重慢性阻塞性肺疾病的患者，可小剂量缓慢静脉注射，同时注意个体化[Ⅱb B]。
+②先前未接受抗凝治疗或无抗凝禁忌证的患者，应用低分子肝素(LMWH)，以降低深静脉血栓(DVT)和肺血栓栓塞危险[Ⅰ A]。
+③控制房颤(AF)心室率，洋地黄和(或)β-受体阻滞剂是一线选择[Ⅰ A]；若无效或存在禁忌证，可用胺碘酮[Ⅱa B]。
+④AHF患者发生持续的心肌缺血或心动过速，可考虑谨慎地静脉使用美托洛尔或艾司洛尔[Ⅱa C]。
+高血压导致速发型肺水肿的患者需要积极的扩血管、降压治疗。对于血压正常的容量超负荷患者，最佳的治疗方案是利尿剂联合血管扩张剂。低血压的血管内容量超负荷患者无法耐受血管扩张剂，单用利尿剂或利尿剂联合正性肌力药物可能有效。正性肌力药不适用于LVEF保留的心力衰竭患者。
+6.6.1 利尿剂
+利尿剂是治疗心衰的重要基石，通过增加尿量和减轻水肿有效治疗AHF的作用已被临床观察所证实。无论病因为何，有容量超负荷证据的AHF患者均应在初始治疗中采用静脉利尿剂[43,44]。但对于有低灌注表现的AHF患者，在达到足够的灌注前，应避免用利尿剂。
+袢利尿剂(如呋塞米、布美他尼和托拉塞米)作为治疗AHF的一线药物，AHF时多首选静脉注射，呋塞米静脉注射后5 min出现利尿效果，30～60 min达到高峰，作用持续约2 h。一般首剂量为20～40 mg，对正在使用呋塞米或有大量水钠潴留或高血压或肾功能不全的患者，首剂量可加倍。单次给药和持续输注在有效性及安全性终点上均无显著差异[45]。也可以用布美他尼(丁尿胺)1～2 mg、或依他尼酸25～100 mg、或托拉塞米5～10 mg静脉注射。利尿剂剂量应个体化，并根据疗效和患者状态逐步调整。长期使用袢利尿剂的患者在紧急情况下可能需要更高剂量；静脉给药剂量应等于或者大于(如2.5倍)口服维持剂量，然后根据治疗反应进行调整。
+应注意由于过度利尿可能发生的低血容量、休克与电解质紊乱如低钾血症等。
+新型利尿剂托伐普坦(tolvaptan)是血管加压素受体拮抗剂，选择性阻断肾小管上的精氨酸血管加压素受体，具有排水不排钠的特点，能减轻容量负荷加重诱发的呼吸困难和水肿[46]，并使低钠血症患者的血钠正常化，特别适用于心力衰竭合并低钠血症的患者。其不良反应主要是血钠增高。
+6.6.2 血管扩张剂
+①硝酸甘油与硝酸异山梨酯：其作用主要是扩张静脉容量血管、降低心脏前负荷，较大剂量时可同时降低心脏后负荷，在不减少每搏输出量和不增加心肌耗氧的情况下减轻肺淤血。虽然硝酸盐类一直用于AHF的治疗，但只是2000年前后的几个前瞻性、随机、对照研究肯定了对AHF的疗效[47,48]，尤其是适用于ACS伴心衰的患者。硝酸甘油静脉给药，一般采用微量泵输注，从10～20 μg/min开始，以后每5 min递增5～10 μg/min，直至心力衰竭的症状缓解或收缩压降至100 mmHg左右；硝酸异山梨酯静脉滴注剂量1 mg/h，根据症状体征可以增加到不超过10 mg /h。病情稳定后逐步减量至停用，突然终止用药可能会出现反跳现象。硝酸酯类药物长期应用均可能产生耐药。收缩压<90 mmHg或较基础血压降低>30%、严重心动过缓(<40次/min)或心动过速(>120次/min)患者不宜使用硝酸酯类药物。
+②硝普钠：能均衡的扩张动脉和静脉，同时降低心脏前、后负荷，适用于严重心衰、有高血压以及伴肺淤血或肺水肿患者。宜从小剂量10～20 μg/min开始静脉滴注，以后酌情每5～10 min递增5～10 μg，直至症状缓解、血压由原水平下降30 mmHg或血压降至100 mmHg左右为止。由于具有强的降压效应，用药过程中要密切监测血压，调整剂量；停药应逐渐减量，以免反跳。通常疗程不超过72 h。长期用药可引起氰化物和硫氰酸盐中毒，合并肾功能不全患者尤其谨慎。静脉输注时需要避光。
+③重组人利钠肽--奈西立肽(nesritide)、新活素：是重组人BNP，具有扩张静脉、动脉和冠脉，降低前、后负荷，增加心排量，增加钠盐排泄，抑制肾素-血管紧张素系统和交感神经系统的作用，无直接正性肌力作用。几项随机、安慰剂对照的临床研究显示，AHF患者静脉输注重组人利钠肽可获有益的临床与血流动力学效果：左室充盈压或PCWP降低、心排量增加，呼吸困难症状改善，安全性良好[49,50,51]。该药可作为血管扩张剂单独使用，也可与其他血管扩张剂(如硝酸酯类)合用，还可与正性肌力药物(如多巴胺、多巴酚丁胺或米力农等)合用。给药方法：1.5～2 μg/ kg负荷剂量缓慢静脉注射，继以0.01 μg/(kg·min)持续静脉滴注；也可不用负荷剂量而直接静脉滴注，给药时间在3 d以内。
+④乌拉地尔：主要阻断突触后α1受体，使外周阻力降低，同时激活中枢5-羟色胺1A受体，降低延髓心血管中枢的交感反馈调节，外周交感张力下降。可降低心脏负荷和平均肺动脉压，改善心功能，对心率无明显影响[52。通常静脉注射12.5～25 mg，如血压无明显降低可重复注射，然后50～100 mg于100 ml液体中静脉滴注维持，速度为0.4～2 mg/min，根据血压调整速度。
+6.6.3 正性肌力药物
+临床上应用的正性肌力药物主要包括多巴胺和多巴酚丁胺、磷酸二酯酶抑制剂、新型钙增敏剂，传统的洋地黄类制剂已很少作为正性肌力药物用于AHF治疗。对于收缩功能障碍的ADHF患者，如果存在低血压，或在采取吸氧、利尿和可耐受血管扩张剂治疗的情况下仍有肺水肿，静脉给予正性肌力药物以缓解症状。使用静脉正性肌力药物时需要持续或频繁监测血压，并持续监测心律。
+①儿茶酚胺类：常用者为多巴胺和多巴酚丁胺。
+多巴胺(dopamine)小剂量[1～4 μg/(kg·min)]时主要是多巴胺样激动剂作用，有轻度正性肌力和肾血管扩张作用，5～10 μg/(kg·min)时主要兴奋β受体，可增加心肌收缩力和心输出量，10～20 μg/(kg·min)时α受体激动效应占主导地位，使外周血管阻力增加。静脉内应用。可引起低氧血症，宜监测SaO2。
+多巴酚丁胺(dobutamine)主要通过激动β1受体发挥作用，具有很强的正性肌力效应，在增加心排出量的同时伴有左室充盈压的下降，且具有剂量依赖性，常用于严重收缩性心力衰竭的治疗。用量与用法与多巴胺相似，一般在2～20 μg/(kg·min)，但对急重症患者来讲，药物反应的个体差异较大，老年患者对多巴酚丁胺的反应显著下降。常见不良反应有心律失常、心动过速。用药72 h后可出现耐受。
+正在应用β-受体阻滞剂的患者不宜应用多巴胺和多巴酚丁胺。
+②磷酸二酯酶抑制剂：选择性抑制心肌和平滑肌的磷酸二酯酶同工酶Ⅲ，减少cAMP的降解而提高细胞内cAMP的含量，发挥强心与直接扩血管作用。常用药物有米力农、依诺昔酮等。米力农首剂25～75 μg/ kg静脉注射(>10 min)，继以0.375～0.75 μg/(kg·min)滴注。常见不良反应有低血压和心律失常，有研究表明米力农可能增加心脏不良事件和病死率[53,54]。
+③新型钙增敏剂-左西孟旦：与Tnc结合，增加Tnc与Ca2＋复合物的构象稳定性而不增加细胞内Ca2＋浓度，促进横桥与细肌丝的结合，增强心肌收缩力而不增加心肌耗氧量，并能改善心脏舒张功能；同时激活血管平滑肌的K＋通道，扩张组织血管。几项研究结果显示，左西孟旦增加急性失代偿心力衰竭患者的每搏输出量与左室射血分数，改善临床症状，使患者的BNP水平明显下降，安全性良好[55,56,57,58,59]。左西孟旦宜在低心排血量或低灌注时尽早使用，负荷量12 μg/kg静脉注射(>10 min)，继以0.1～0.2 μg/(kg·min)滴注，维持用药24 h；如血压偏低患者，可不予负荷量，直接静脉滴注维持量24 h。应用期间一旦出现快速心律失常应立即停药。
+④洋地黄类制剂：主要适应证是房颤伴快速心室率(>110次/min)的AHF患者。可选用毛花甙丙(西地兰)0.2～0.4 mg缓慢静注；必要时2～4 h后再给0.2～0.4 mg，直至心室率控制在80次/min左右或24 h总量达到1.0～1.4 mg。使用洋地黄之前，应描记心电图确定心律，了解是否有AMI、心肌炎或低血钾等，AMI后24 h内应尽量避免用洋地黄药物；单纯性二尖瓣狭窄合并急性肺水肿时，如为窦性心律不宜使用洋地黄制剂，因洋地黄能增加心肌收缩力，使右室排血量增加，加重肺水肿；但若二尖瓣狭窄合并二尖瓣关闭不全的肺水肿患者，可用洋地黄制剂。此外，要注意其他禁忌证。
+6.6.4 阿片类药物
+阿片类药物(吗啡)主要作用在于抑制中枢交感神经，反射性地降低周围血管阻力，扩张静脉而减少回心血量；其他作用包括减轻焦虑、烦躁，抑制呼吸中枢兴奋、避免呼吸过频，直接松弛支气管平滑肌，改善通气。主要不良反应是低血压与呼吸抑制，并呈剂量依赖性。急性失代偿心衰国家注册研究(ADHERE)结果提示[60]，AHF应用吗啡者(14.1%)其机械通气比例增多、在ICU时间和住院时间延长、以及病死率更高。目前没有证据表明吗啡能改善预后，不推荐常规使用。但对烦躁不安又除外持续低血压、意识障碍、严重慢性阻塞性肺疾病的患者，可小剂量缓慢静脉注射吗啡，也可皮下注射，同时需注意个体化。
+6.6.5 抗凝治疗
+由于病理性血管、血液成分异常、血流动力学改变、纤溶系统激活、炎症等诸多因素，心力衰竭存在血液高凝状态，易于血栓形成，并与年龄、肥胖等人群特征相关[61]。血栓栓塞是心力衰竭患者重要的并发症，心力衰竭患者血栓栓塞风险估计为每年1%～4.5%[62]。住院的心力衰竭患者发生有症状的肺动脉栓塞的风险为非心力衰竭患者的2.15倍，发生有症状的深静脉血栓栓塞的风险为非心力衰竭患者的1.21倍，且由于临床表现不一，鉴别困难，心力衰竭患者发生肺动脉栓塞及深静脉血栓形成的风险可能较上述数值偏高[63]。MEDENOX研究发现，353例心力衰竭住院患者给予依诺肝素40 mg，每日1次，与安慰剂组相比，深静脉血栓风险从14.5%降低到4%[62,63,64]。
+6.6.6 抗心律失常与抗心肌缺血治疗
+房颤合并快速心室率的AHF患者，洋地黄和(或)β-受体阻滞剂是控制心率的一线选择，若无效或存在禁忌证，可用胺碘酮。
+目前尚无随机临床研究使用β-受体阻滞剂治疗AHF改善急性期病情。若AHF患者发生持续的心肌缺血或心动过速，可考虑谨慎地静脉使用美托洛尔或艾司洛尔。EF降低的AHF，若未长期行β-受体阻滞剂治疗，不宜在早期治疗阶段使用β-阻滞剂；若是平时服用β-受体阻滞剂者，除明显低血压或有明显灌注不足证据，β-阻滞剂可根据耐受情况继续使用，部分研究[65,66,67]表明，对于AHF住院的患者，停用β-阻滞剂与住院病死率、短期病死率和短期再住院或死亡联合终点增高相关。严重的容量超负荷和(或)需要正性肌力药物支持的患者，不能用β-受体阻滞剂。
+6.6.7 其他药物治疗
+氨茶碱具有：①扩张支气管改善通气；②轻度扩张静脉，降低心脏前负荷，增强心肌收缩力；③增加肾血流与利尿作用。适用于伴有支气管痉挛的AHF患者。因其会增加心肌耗氧量，AMI和心肌缺血者不宜使用，老年人与肝肾功能不全者用量酌减。严重不良反应包括低血压与休克、甚至室性心律失常而猝死。目前临床已少用。
+6.7 肾脏替代治疗
+推荐意见：
+肾脏替代治疗AHF患者减轻容量负荷很有效，但不建议代替袢利尿剂作为AHF患者的一线治疗[Ⅱa C]。
+对于难治性容量负荷过重、或对液体复苏无效的少尿，建议进行肾脏替代治疗[Ⅱb B]；
+出现下列情况者建议进行肾脏替代治疗：严重高钾血症(K＋≥6.5 mmol/L)、严重酸中毒(pH<7.2)、血清尿素氮水平≥25 mmol/L(≥150 mg/dL)和血肌酐≥300 mmol/L(≥3.4 mg/dL)的患者[Ⅱa C]。
+肾脏替代治疗可以清除血浆水分，对于治疗AHF患者减轻容量负荷很有效，但是不建议代替袢利尿剂作为AHF患者的一线治疗[68,69]，而是应用于对利尿剂无效的患者。
+6.8 其他机械辅助装置
+对于AHF经常规药物治疗无明显改善时，有条件的还可应用其他心室机械辅助装置技术如心室辅助泵(可置入式电动左心辅搏泵、全人工心脏)。根据AHF的不同类型，可选择应用不同种类的心室辅助装置，在积极治疗基础心脏疾病的前提下，短期辅助心脏功能，也可作为心脏移植或心肺移植的过渡。
+7 AHF患者出院标准
+AHF患者符合下述标准可考虑出院[70]：①血流动力学稳定、恰当的容量、已加用有明确循证学证据的口服药物以及肾功能至少稳定24 h；②已给患者制定了个体化的健康宣教方案和自我管理的方案。
+委员会成员
+专家组成员(按拼音排序)：陈峰(福建省立医院)、陈凤英(内蒙古医学院附属医院)、陈晓辉(广州医学院)、陈志(北京市急救中心)、邓颖(哈尔滨医科大学第二附属医院)、黄亮(江西医科大学第一附属医院)、梁显泉(贵阳市第二医院)、蔺佩鸿(福建医科大学第一附属医院)、刘明华(陆军军医大学西南医院)、卢中秋(温州医科大学第一附属医院)、吕瑞娟(山东大学齐鲁医院)、马青变(北京大学第三医院)、米玉红(北京安贞医院)、钱传云(云南医科大学第一附属医院)、商德亚(山东省立医院)、田英平(河北医科大学第二附属医院)、杨立山(宁夏医科大学总医院)、杨艳敏(北京阜外医院，国家心血管病中心)、魏捷(武汉大学人民医院)、温伟(北京医院)、许铁(徐州医学院附属医院)、于学忠(北京协和医院)张新超(北京医院)、赵敏(中国医科大学附属盛京医院)、赵晓东(解放军总院第一附属医院)、尹文(空军军医大学西京医院)、周荣斌(陆军总医院)、朱华栋(北京协和医院)、朱继红(北京大学人民医院)
+参考文献
+[1]
+MoeGW, HowlettJ, JanuzziJL, et al.
+N-terminal pro-B-type natriuretic peptide testing improves the management of patients with suspected acute heart failure: primary results of the Canadian prospective randomized multicenter IMPROVE-CHF study[J].
+Circulation,
+2007,
+115(
+24) :
+3103-
+3110.
+DOI: 10.1016/j.jacc.2010.02.025.
+[2]
+MaiselA, MuellerC, NowakR, et al.
+Mid-region pro-hormone markers for diagnosis and prognosis in acute dyspnea[J].
+J Am Coll Cardiol,
+2010,
+55(
+19):
+2062-
+2076.
+DOI: 10.1016/j.jacc.2010.02.025.
+[3]
+RobertsE, LudmanAJ, DworzynskiK, et al.
+The diagnostic accuracy of the natriuretic peptides in heart failure: systematic review and diagnostic meta-analysis in the acute care setting[J].
+BMJ,
+2015,
+350:
+h910.
+doi: 10.1136/bmj.h910.
+[4]
+KelderJC, CramerMJ, VerweijWM, et al.
+Clinical utility of three B-type natriuretic peptide assays for the initial diagnostic assessment of new slow-onset heart failure[J].
+J Card Fail,
+2011,
+17(
+9):
+729-
+734.
+DOI: 10.1016/j.cardfail.2011.04.013.
+[5]
+KelderJC, CowieMR, McDonaghTA, et al.
+Quantifying the added value of BNP in suspected heart failure in general practice: an individual patient data meta-analysis[J].
+Heart,
+2011,
+97(
+12):
+959-
+963.
+DOI: 10.1136/hrt.2010.220426.
+[6]
+RichardsAM, NichollsMG, EspinerEA, et al.
+B-type natriuretic peptides and ejection fraction for prognosis after myocardial infarction[J].
+Circulation,
+2003,
+107(
+22):
+2786-
+2792.
+DOI: 10.1161/01.cir.0000070953.76250.b9.
+[7]
+KoglinJ, PehlivanliS, SchwaiblmairM, et al.
+Role of brain natriuretic peptide in risk stratification of patients with congestive heart failure[J].
+J Am Coll Cardiol,
+2001,
+38(
+7):
+1934-
+1941.
+[8]
+KonstantinidesSV, TorbickiA, AgnelliG, et al.
+2014 ESC Guidelines on the diagnosis and management of acute pulmonary embolism[J].
+Eur Heart J,
+2014,
+35(
+43):
+3033-
+3069.
+DOI: 10.1093/eurheartj/ehu283.
+[9]
+FelkerGM, MentzRJ, TeerlinkJR, et al.
+Serial high sensitivity cardiac troponin T measurement in acute heart failure: insights from the RELAX-AHF study[J].
+Eur J Heart Fail,
+2015,
+17(
+12):
+1262-
+1270.
+DOI: 10.1002/ejhf.341.
+[10]
+MillerWL, HartmanKA, BurrittMF, et al.
+Serial biomarker measurements in ambulatory patients with chronic heart failure[J].
+Circulation,
+2007,
+116(
+3):
+249-
+257.
+DOI: 10.1161/circulationaha.107.694562.
+[11]
+XueY, CloptonP, PeacockWF, et al.
+Serial changes in high-sensitive troponin I predict outcome in patients with decompensated heart failure[J].
+Eur J Heart Fail,
+2011,
+13(
+1):
+37-
+42.
+DOI: 10.1093/eurjhf/hfq210.
+[12]
+JanuzziJL, PeacockWF, MaiselAS, et al.
+Measurement of the interleukin familymember ST2 in patients with acute dyspnea: results from the PRIDE (Pro-brain natriuretic peptide investigation of dyspnea in the emergency department) study[J].
+J Am Coll Cardiol,
+2007,
+50(
+7):
+607-
+613.
+DOI: 10.1016/j.jacc.2007.05.014.
+[13]
+AldousSJ, RichardsAM, TroughtonR, et al.
+ST2 has diagnostic and prognostic utility for all-cause mortality and heart failure in patients presenting to the emergency department with chest pain[J].
+J Card Fail,
+2012,
+18(
+4):
+304-
+310.
+DOI: 10.1016/j.cardfail.2012.01.008.
+[14]
+胡振,张新超.
+血清可溶性ST2评价老年急性心力衰竭患者病情与预后的研究[J].
+中华急诊医学杂志,
+2016,
+25(
+8):
+746-
+749.
+DOI: 10.3760/cma.j.issn.1671-0282.2016.08.014.
+[15]
+MaiselA.
+Increased 90-day mortality in patients with acute heart failure with elevated copeptin: secondary results from the Biomarkers in Acute Heart Failure (BACH) study[J].
+Circ Heart Fail,
+2011,
+4(
+5):
+613-
+620.
+DOI: 10.1161/CIRCHEARTFAILURE.110.960096.
+[16]
+AlehagenU, DahlstromU, RehfeldJF, et al.
+Association of copeptin and N-terminal proBNP concentrations with risk of cardiovascular death in older patients with symptoms of heart failure[J].
+JAMA,
+2011,
+305(
+20):
+2088-
+2095.
+DOI: 10.1001/jama.2011.666.
+[17]
+WangCS, FitzGeraldJM, SchulzerM, et al.
+Does this dyspneic patient in the emergency department have congestive heart failure[J].
+JAMA,
+2005,
+294(
+15):
+1944-
+1956.
+DOI: 10.1001/jama.294.15.1944.
+[18]
+ChakkoS, WoskaD, MartinezH, et al.
+Clinical, radiographic, and hemodynamic correlations in chronic congestive heart failure: conflicting results may lead to inappropriate care[J].
+Am J Med,
+1991,
+90:
+353-
+359.
+DOI: 10.1016/0002-9343(91)90576-j.
+[19]
+TemporelliPL, ScapellatoF, EleuteriE, et al.
+Doppler echocardiography in advancd systolic heart failure: a noninvasive alternative to Swan-Ganz catheter[J].
+Circ Heart Fail,
+2010,
+3(
+3):
+387.
+DOI: 10.1161/CIRCHEARTFAILURE.108.809590.
+[20]
+急诊超声标准操作规范专家组.
+急诊超声标准操作规范[J].
+中华急诊医学杂志,
+2013,
+22(
+7) :
+700-
+711.
+DOI: 10.3760/cma.j.issn.1671-0282.2013.07.003.
+[21]
+LevyB.
+Lactate and shock state: the metabolic view[J].
+Curr Opin Crit Care,
+2006,
+12(
+4):
+315-
+321.
+DOI: 10.1097/01.ccx.0000235208.77450.15.
+[22]
+JansenTC, van BommelJ, SchoonderbeekFJ, et al.
+LACTATE study group: Early lactate-guided therapy in intensive care unit patients: a multicenter, open-label, randomized controlled trial[J].
+Am J Respir Crit Care Med,
+2010,
+182(
+3):
+752-
+761.
+DOI: 10.1097/ccm.0000000000000742.
+[23]
+CasserlyB, PhillipsGS, SchorrC, et al.
+Lactate measurements in sepsis-induced tissue hypoperfusion: results from the Surviving Sepsis Campaign database[J].
+Crit Care Med,
+2015,
+43(
+3):
+567-
+573.
+DOI: 10.1097/ccm.0000000000000742.
+[24]
+Manzano-FernandezS, JanuzziJL, Boronat-GarciaM, et al.
+β-trace protein and cystatin C as predictors of long-term outcomes in patients with acute heart failure[J].
+J Am Coll Cardiol,
+2011,
+57(
+7):
+849-
+858.
+DOI: 10.1016/j.jacc.2010.08.644.
+[25]
+de GeusHR, BakkerJ, LesaffreEM, et al.
+Neutrophil gelatinase-associated lipocalin at ICU admission predicts for acute kidney injury in adult patients[J].
+Am J Respir Crit Care Med,
+2011,
+183(
+7):
+907-
+914.
+DOI: 10.1164/rccm.200908-1214OC.
+[26]
+HaaseM, DevarajanP, Haase-FielitzA, et al.
+The outcome of neutrophil gelatinase-associated lipocalin-positive subclinical acute kidney injury: a multicenter pooled analysis of prospective studies[J].
+J Am Coll Cardiol,
+2011,
+57(
+17):
+1752-
+1761.
+DOI: 10.1016/j.jacc.2010.11.051.
+[27]
+NohriaA, TsangSW, FangJC, et al.
+Clinical assessment identifies hemodynamic profiles that predict outcomes in patients admitted with heart failure[J].
+J Am Coll Cardiol,
+2003,
+41(
+10):
+1797-
+1804.
+DOI: 10.1016/s0735-1097(03)00309-7.
+[28]
+StevensonLW.
+Design of therapy for advanced heart failure[J].
+Eur J Heart Fail,
+2005,
+7(
+3):
+323-
+331.
+DOI: 10.1016/j.ejheart.2005.01.004.
+[29]
+KillipT, KimballJT.
+Treatment of myocardial infarction in a coronary care unit. A two year experience with 250 patients[J].
+Am J Cardiol,
+1967,
+20(
+4):
+457-
+464.
+DOI: 10.1016/0002-9149(67)90023-9.
+[30]
+WangGG, WangSJ, QinJ, et al.
+Characteristics, Management, and Outcomes of Acute Heart Failure in the Emergency Department: A Multicenter Registry Study with 1-year Follow-up in a Chinese Cohort in Beijing [J].
+Chin Med J,
+2017,
+130(
+16):
+1894-
+1901.
+DOI: 10.4103/0366-6999.211880.
+[31]
+NieminenMS, BöhmM, CowieMR, et al.
+Executive summary of the guidelines on the diagnosis and treatment of acute heart failure: the Task Force on Acute Heart Failure of the European Society of Cardiology[J].
+Eur Heart J,
+2005,
+26(
+4):
+384-
+416.
+DOI: 10.1093/eurheartj/ehi044.
+[32]
+EskesenTG, WetterslevM, PernerA.
+Systematic review including re-analyses of 1148 individual data sets of central venous pressure as a predictor of fluid responsiveness[J].
+Intensive Care Med,
+2016,
+42(
+3):
+324-
+332.
+DOI: 10.1007/s00134-015-4168-4.
+[33]
+LHerE, DuquesneF, GirouE, et al.
+Noninvasive continuous positive airway pressure in elderly cardiogenic pulmonary edema patients[J].
+Intensive Care Med,
+2004,
+30(
+5):
+882-
+888.
+DOI: 10.1007/s00134-004-2183-y.
+[34]
+BelloneA, MonariA, CortellaroF, et al.
+Myocardial infarction rate in acute pulmonary edema: noninvasive pressure support ventilation versus continuous positive airway pressure[J].
+Crit Care Med,
+2004,
+32(
+9):
+1860-
+1865.
+DOI: 10.1097/01.ccm.0000139694.47326.b6.
+[35]
+MasipJ.
+Non-invasive ventilation[J].
+Heart Fail Rev,
+2007,
+12(
+2):
+119-
+124.
+DOI: 10.1007/s10741-007-9012-7.
+[36]
+RitchieJE, WilliamsAB, GerardC, et al.
+Evaluation of a humidified nasal high-flow oxygen system, using oxygraphy, capnography and measurement of upper airway pressures[J].
+Anaesth Intensive Ca.
+2011,
+9(
+6):
+1103-
+1110.
+[37]
+RawlesJM, KenmureAC.
+Controlled trial of oxygen in uncomplicated myocardial infarction[J].
+BMJ,
+1976,
+1(
+6018):
+1121-
+1123.
+[38]
+ParkJH, BalmainS, BerryC, et al.
+Potentially detrimental cardiovascular effects of oxygen in patients with chronic left ventricular systolic dysfunction[J].
+Heart,
+2010,
+96(
+7):
+533-
+538.
+DOI: 10.1136/bmj.1.6018.1121.
+[39]
+De BackerD, BistonP, DevriendtJ, et al.
+Comparison of dopamine and norepinephrine in the treatment of shock[J].
+N Engl J Med,
+2010,
+362(
+24):
+779-
+789.
+DOI: 10.1136/hrt.2009.175257.
+[40]
+PrioriSG, Blomstro¨m-LundqvistC, MazzantiA, et al.
+2015 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death: The Task Force for the Management of Patients with Ventricular Arrhythmias and the Prevention of Sudden Cardiac Death of the Europe[J].
+Eur Heart J,
+2015,
+36:
+2793-
+2867.
+[41]
+KirchofP, BenussiS, KotechaD, et al.
+2016 ESC Guidelines for the management of atrial fibrillation developed in collaboration with EACTS[J].
+Eur Heart J,
+2016,
+37(
+38):
+2893-
+2962.
+DOI: 10.1093/eurheartj/ehw210.
+[42]
+BrignoleM, AuricchioA, Baron-EsquiviasG, et al.
+2013 ESC Guidelines on cardiac pacing and cardiac resynchronization therapy: the Task Force on cardiac pacing and resynchronization therapy of the European Society of Cardiology (ESC)[J].
+Eur Heart J,
+2013,
+15(
+8):
+1070-
+1118.
+DOI: 10.1093/europace/eut206.
+[43]
+MichaelFG, O'ConnorCM, EugeneB, et al.
+Heart Failure Clinical Research Network Investigators. Loop diuretics in acute decompensated heart failure: necessary Evil A necessary evil[J].
+Circ Heart Fail,
+2009,
+2(
+1):
+56-
+62.
+DOI: 10.1161/CIRCHEARTFAILURE.108.821785.
+[44]
+FordiagnosisTTF, AcuteTO.
+2013 ACCF/AHA guideline for the management of heart failure: a report of the American College of Cardiology Foundation/American Heart Association Task Force on practice guidelines//ESC Guidelines for the diagnosis and treatment of acute[J].
+Circulation,
+2013,
+128(
+16):
+e240.
+[45]
+FelkerGM, LeeKL, BullDA, et al.
+Diuretic strategies in patients with acute decompensated heart failure[J].
+N Engl J Med,
+2011,
+364(
+9):
+797-
+805.
+DOI: 10.1056/NEJMoa1005419.
+[46]
+KonstamMA, GheorghiadeM, BurnettJC Jr, et al.
+Effects of oral tolvaptan in patients hospitalized for worsening heart failure: the EVEREST outcome trial[J].
+JAMA,
+2007,
+297(
+12):
+1319-
+1331.
+DOI: 10.1001/jama.297.12.1319.
+[47]
+CotterG, MetzkorE, KaluskiE, et al.
+Randomised trial of high-dose isosorbide dinitrate plus low-dose furosemide versus high-dose furosemide plus low-dose isosorbide dinitrate in severe pulmonary oedema[J].
+Lancet,
+1998,
+351(
+9100):
+389-
+393.
+DOI: 10.1016/S0140-6736(97)08417-1.
+[48]
+AbrahamWT, AdamsKF, FonarowGC, et al.
+In-hospital mortality in patients with acute decompensated heart failure requiring intravenous vasoactive medications: an analysis from the Acute Decompensated Heart Failure National Registry(ADHERE)[J].
+J Am Coll Cardiol,
+2005,
+46(
+1):
+57-
+64.
+DOI: 10.1016/j.jacc.2005.03.051.
+[49]
+Publication committee for the VMAC investigators.
+Intravenous nesiritide vs nitroglycerin for treatment of decompensated congestive heart failure: a randomized controlled trial[J].
+JAMA,
+2002,
+287(
+12):
+1531-
+1540.
+[50]
+O'ConnorCM, StarlingRC, HernandezAF, et al.
+Effect of nesiritide in patients with acute decompensated heart failure[J].
+N Engl J Med,
+2011,
+365(
+1):
+32-
+43.
+DOI: 10.1056/NEJMoa1100171.
+[51]
+重组人脑利钠肽多中心研究协作组.
+重组人脑利钠肽治疗心力衰竭安全性和疗效的开放性随机对照多中心临床研究[J].
+中华心血管病杂志,
+2011,
+39(
+4):
+305-
+308.
+DOI: 10.3760/cma.j.issn.0253-3758.2011.04.005.
+[52]
+HeJY, WangJ, HuaQ, et al.
+Safety and efficacy of urapidil and nitroglycerin in the treatment of elderly patients with acute heart failure: a randomized multicenter parallel-control study in China[J].
+Int J Clin Exp Med,
+2017,
+10(
+6):
+9729-
+9739.
+[53]
+FelkerGM, BenzaRL, ChandlerAB, et al.
+Heart failure etiology and response to milrinone in decompensated heart failure: results from the OPTIME-CHF study[J].
+J Am Coll Cardiol,
+2003,
+41(
+6):
+997.
+[54]
+AbrahamWT, AdamsKF, FonarowGC, et al.
+In-hospital mortality in patients with acute decompensated heart failure requiring intravenous vasoactive medications: an analysis from the Acute Decompensated Heart Failure National Registry (ADHERE)[J].
+J Am Coll Cardiol,
+2005,
+46(
+1):
+57.
+DOI: 10.1016/j.jacc.2005.03.051.
+[55]
+FollathF, ClelandJ, JustH, et al.
+Efficacy and safety of intravenous levosimendan compared with dobutamine in severe low-output heart failure (the LIDO study): a randomised double-blind trial[J].
+Lancet,
+2002,
+360(
+9328):
+196-
+202.
+DOI: 10.1016/s0140-6736(02)09455-2.
+[56]
+MoiseyevV, PoderP, AndrejevsN, et al.
+Safety and efficacy of a novel calcium sensitizer, levosimendan, in patients with left ventricular failure due to an acute myocardial infarction: A randomized, placebo-controlled, double-blind study (RUSSLAN)[J].
+Eur Heart J,
+2002,
+23(
+18):
+1422-
+1432.
+DOI: 10.1053/euhj.2001.3158.
+[57]
+MebazaaA, NieminenMS, PackerM, et al.
+Levosimendan vs dobutamine for patients with acute decompensated heart failure: the SURVIVE randomized trial[J].
+JAMA,
+2007,
+297(
+17):
+1883-
+1891.
+DOI: 10.1001/jama.297.17.1883.
+[58]
+王雷,崔亮,魏嘉平, 等.
+静脉注射左西孟旦治疗重度失代偿心力衰竭患者的疗效分析[J].
+中华心血管病杂志,
+2010,
+38(
+6):
+527-
+530.
+DOI: 10.3760/cma.j.issn.0253-3758.2010.06.011.
+[59]
+张宇辉,张健,卿恩明, 等.
+国产左西孟旦与多巴酚丁胺治疗急性失代偿性心力衰竭患者临床研究[J].
+中华心血管病杂志,
+2012,
+40(
+2):
+153-
+156.
+DOI: 10.3760/cma.j.issn.0253-3758.2012.02.015.
+[60]
+PeacockWF, HollanderJE, DiercksDB, et al.
+Morphine and outcomes in acute decompensated heart failure: an ADHERE analysis[J].
+Emerg Med J,
+2008,
+25(
+4):
+205-
+209.
+DOI: 10.1136/emj.2007.050419.
+[61]
+JafriSM.
+Hypercoagulability in heart failure[J].
+Semin Thromb Hemost,
+1997,
+23(
+6):
+543-
+545.
+DOI: 10.1055/s-2007-996133.
+[62]
+AhnertAM, FreudenbergerRS.
+What do we know about anticoagulation in patients with heart failure[J].
+Curr Opin Caldiol,
+2008,
+23(
+3):
+228-
+232.
+DOI: 10.1097/HCO.0b013e3282fcd64d.
+[63]
+BeemathA, SteinPD, SkafE, et al.
+Risk of venous thromboembolism in patients hospitalized with heart failure[J].
+Am J Caldiol,
+2006,
+98(
+6):
+793-
+795.
+DOI: 10.1016/j.amjcard.2006.03.064.
+[64]
+KleinL, O'connellJB.
+Thromboembolic risk in the patient with heart failure[J].
+Curr Treat Options Cardiovasc Med,
+2007,
+9(
+4):
+310-
+317.
+DOI: 10.1007/s11936-007-0026-1.
+[65]
+MetraM, Torp-PedersenC, ClelandJG, et al.
+Should beta-blocker therapy be reduced or withdrawn after an episode of decompensated heart failure Results from COMET[J].
+Eur J Heart Fail,
+2007,
+9(
+9):
+901-
+909.
+DOI: 10.1016/j.ejheart.2007.05.011.
+[66]
+FonarowGC, AbrahamWT, AlbertNM, et al.
+Influence of beta-blocker continuation or withdrawal on outcomes in patients hospitalized with heart failure: findings from the OPTIMIZE-HF program[J].
+J Am Coll Cardiol,
+2008,
+52(
+3):
+190-
+199.
+DOI: 10.1016/j.jacc.2008.03.048.
+[67]
+OrsoF, BaldasseroniS, FabbriG, et al.
+Role of beta-blockers in patients admitted for worsening heart failure in a real world setting: data from the Italian Survey on Acute Heart Failure[J].
+Eur J Heart Fail,
+2009,
+11(
+1):
+77-
+84.
+DOI: 10.1093/eurjhf/hfn008.
+[68]
+MentzRJ, KjeldsenK, RossiGP, et al.
+Decongestion in acute heart failure[J].
+Eur J Heart Fail,
+2014,
+16(
+5):
+471-
+482.
+DOI: 10.1002/ejhf.74.
+[69]
+BartBA, GoldsmithSR, LeeKL, et al.
+Ultrafiltration in decompensated heart failure with cardiorenal syndrome[J].
+N Engl J Med,
+2012,
+367(
+24):
+2296-
+2304.
+DOI: 10.1056/NEJMoa1210357.
+[70]
+MebazaaA, ParissisJ, PorcherR, et al.
+Short-term survival by treatment among patients hospitalized with acute heart failure: the global ALARM-HF registry using propensity scoring methods[J].
+Intensive Care Med,
+2011, (
+2):
+290-
+301.
+DOI: 10.1007/s00134-010-2073-4.
+贡献者信息
+中国医师协会急诊医师分会
+中国心胸血管麻醉学会急救与复苏分会
+历史
+出版日期：2017-12-10
+收稿日期：2017-11-15
+本文编辑
+何小军
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+AHF常见病因及诱发因素
+病因/诱发因素
+1.
+急性冠脉综合征(ACS)
+2.
+心动过速(例如房颤、室速等)或心动过缓
+3.
+高血压危象
+4.
+感染(肺炎、病毒性心肌炎、感染性心内膜炎、脓毒症等)
+5.
+钠盐过量摄入，过多或过快输注液体
+6.
+中毒(酒精、毒品、化学毒物等)
+7.
+药物(如非甾体类抗炎药、糖皮质激素、负性肌力药物、具心脏毒性的化疗药物等)
+8.
+慢性阻塞性肺疾病急性加重
+9.
+肺栓塞
+10.
+外科手术或围手术期并发症
+11.
+交感神经张力增高，应激性心肌病
+12.
+代谢/激素水平变化(如甲状腺功能亢进、糖尿病酮症酸中毒、肾上腺皮质功能不全、妊娠、围产期、严重贫血等)
+13.
+肾衰竭
+14.
+脑卒中
+15.
+急性机械性损伤：ACS并发心脏破裂(游离壁破裂、室间隔穿孔、腱索断裂或乳头肌急性功能不全)、胸部外伤、心脏介入、急性原发性或继发于感染性心内膜炎的瓣膜关闭不全、主动脉夹层
+C：acute Coronary syndrome; H：Hypertension emergency；A：Arrhythmia, M acute Mechanical cause; P：Pulmonary embolism
+图1
+AHF患者初始评估和处置流程
+表2
+AHF临床分型
+分型
+外周低灌注
+淤血
+暖而干型
+-
+-
+暖而湿型
+-
+＋
+冷而干型
+＋
+-
+冷而湿型
+＋
+＋
+表3
+AMI的Killip分级
+分级
+表 现
+近期病死率(%)
+Ⅰ级
+无明显心功能损害，肺部无啰音
+6
+Ⅱ级
+轻～中度心衰，肺部啰音和S3奔马律，及X线肺淤血
+17
+Ⅲ级
+重度心衰，肺啰音超过两肺野的50%，X线肺水肿
+38
+Ⅳ级
+心源性休克，伴或不伴肺水肿
+81
+图2
+不同临床分型的AHF患者的治疗策略流程图
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华急诊医学杂志2017年26卷12期
+文    题：中国急性心力衰竭急诊临床实践指南(2017)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华急诊医学杂志2017年26卷12期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

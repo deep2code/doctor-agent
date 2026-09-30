@@ -1,0 +1,1415 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E9%AA%A8%E5%85%B3%E8%8A%82%E7%82%8E%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882018%E5%B9%B4%E7%89%88%EF%BC%89.html
+# 标题: 骨关节炎诊疗指南（2018年版） - 中华骨科杂志
+# 发布方/日期: 中华医学会骨科学分会，中华骨科杂志, 2018,38(12) : 705-715. DOI: 10.3760/cma.j；2018-06-16
+
+骨关节炎诊疗指南（2018年版）
+中华医学会骨科学分会关节外科学组
+中华骨科杂志, 2018,38(12) : 705-715. DOI: 10.3760/cma.j.issn.0253-2352.2018.12.001
+骨关节炎（osteoarthritis, OA）是一种严重影响患者生活质量的关节退行性疾病，预计到2020年将成为第四大致残性疾病，给患者、家庭和社会造成巨大的经济负担。2007年，中华医学会骨科学分会发布的《骨关节炎诊治指南》对我国OA的诊断及治疗起到了巨大的指导和规范作用。
+为了及时反映当今OA药物和手术治疗的新理念和循证医学进展，优化OA诊疗策略，规范骨科医生诊疗行为，自2017年6月开始，中华医学会骨科学分会关节外科学组和《中华骨科杂志》编辑部组织国内关节领域相关专家，根据近年OA药物及手术治疗的最新进展，参考国内外OA诊疗指南，遵循科学性、实用性和先进性原则对原指南进行更新。
+一、定义
+OA指由多种因素引起关节软骨纤维化、皲裂、溃疡、脱失而导致的以关节疼痛为主要症状的退行性疾病。病因尚不明确，其发生与年龄、肥胖、炎症、创伤及遗传因素等有关。病理特点为关节软骨变性破坏、软骨下骨硬化或囊性变、关节边缘骨质增生、滑膜病变、关节囊挛缩、韧带松弛或挛缩、肌肉萎缩无力等。
+OA分为原发性和继发性。原发性OA多发生于中老年人群，无明确的全身或局部诱因，与遗传和体质因素有一定的关系。继发性OA可发生于青壮年，继发于创伤、炎症、关节不稳定、积累性劳损或先天性疾病等。
+二、流行病学
+OA好发于中老年人群，发病率高，65岁以上的人群50%以上为OA患者[1]。累及部位包括膝、髋、踝、手和脊柱（颈椎、腰椎）等关节。来自中国健康与养老追踪调查数据库（China Health and Retirement Longitudinal Study, CHARLS）的研究结果显示，我国膝关节症状性OA（膝关节Kellgren & Lawrence评分≥2分，同时存在膝关节疼痛）的患病率为8.1%；女性高于男性；呈现明显的地域差异，即西南地区（13.7%）和西北地区（10.8%）最高，华北地区（5.4%）和东部沿海地区（5.5%）相对较低[2]。从区域特征来看，农村地区膝关节症状性OA患病率高于城市地区[2,3,4,5]。在城市人口中，手部关节OA的患病率为3%（男性）和5.8%（女性）[6]；髋关节影像学OA（采用Croft等[7]的标准，即双侧髋关节正位X线片上存在以下影像学征象中的任意一条：关节间隙最窄处≤1.5 mm；≥2分的骨赘，及上外侧关节间隙狭窄≥2分或上内侧关节间隙狭窄≥3分；其他≥3分的OA影像学征象）的患病率为1.1%（男性）和0.9%（女性）[8]，农村地区髋关节OA患病率为0.59%[3]。随着我国人口老龄化的进展，OA的发病率还有逐渐上升的趋势。
+OA可导致关节疼痛、畸形与活动功能障碍[9]，进而增加心血管事件的发生率及全因死亡率[10,11,12]。尤其是症状性膝关节OA，研究认为可导致全因死亡率增加近1倍[13]。导致OA发病的相关因素较多，女性、肥胖和关节损伤与膝关节OA发病有关[14]；年龄、性别及某些特殊职业是手部OA发病的危险因素[15]；年龄、性别是髋关节OA发病的相关因素[16]。髋、膝关节OA的发病率均随年龄增加而增高，且女性发病率高于男性[17]。
+三、诊断
+（一）临床表现
+1．关节疼痛及压痛：
+关节疼痛及压痛是OA最为常见的临床表现，发生率为36.8%~60.7%；疼痛在各个关节均可出现，其中以髋、膝及指间关节最为常见[17,18]。初期为轻度或中度间断性隐痛，休息后好转，活动后加重；疼痛常与天气变化有关，寒冷、潮湿环境均可加重疼痛。OA晚期可以出现持续性疼痛或夜间痛。关节局部可有压痛，在伴有关节肿胀时尤其明显[19,20]。
+2．关节活动受限：
+常见于髋、膝关节。晨起时关节僵硬及发紧感，俗称晨僵，活动后可缓解。关节僵硬持续时间一般较短，常为几至十几分钟，极少超过30 min[19,20]。患者在疾病中期可出现关节绞锁，晚期关节活动受限加重[19,20]，最终导致残疾。
+3．关节畸形：
+关节肿大以指间关节OA最为常见且明显，可出现Heberden结节和Bouchard结节。膝关节因骨赘形成或滑膜炎症积液也可以造成关节肿大[21]。
+4．骨摩擦音（感）：
+常见于膝关节OA[19,20]。由于关节软骨破坏，关节面不平整，活动时可以出现骨摩擦音（感）。
+5．肌肉萎缩：
+常见于膝关节OA。关节疼痛和活动能力下降可以导致受累关节周围肌肉萎缩，关节无力。
+（二）影像学检查
+1．X线检查：
+为OA明确临床诊断的"金标准"，是首选的影像学检查。在X线片上OA的三大典型表现为：受累关节非对称性关节间隙变窄，软骨下骨硬化和（或）囊性变，关节边缘骨赘形成。部分患者可有不同程度的关节肿胀，关节内可见游离体，甚至关节变形[19,20]。
+2．MRI：
+表现为受累关节的软骨厚度变薄、缺损，骨髓水肿、半月板损伤及变性、关节积液及腘窝囊肿。MRI对于临床诊断早期OA有一定价值，目前多用于OA的鉴别诊断或临床研究[22]。
+3．CT：
+常表现为受累关节间隙狭窄、软骨下骨硬化、囊性变和骨赘增生等，多用于OA的鉴别诊断。
+（三）实验室检查
+骨关节炎患者血常规、蛋白电泳、免疫复合物及血清补体等指标一般在正常范围内。若患者同时有滑膜炎症，可出现C反应蛋白（C-reactive protein，CRP）和红细胞沉降率（erythrocyte sedimentation rate，ESR）轻度增高。继发性OA患者可出现与原发病相关的实验室检查异常。
+（四）诊断要点
+OA诊断需根据患者病史、症状、体征、X线表现及实验室检查做出临床诊断，具体可参照图1。此外，本指南提出了髋关节、膝关节和指间关节OA的诊断标准以供参考（表1，表2，表3）。本指南的诊断标准参照了美国风湿病学会和欧洲抗风湿联盟制定的标准并经部分骨科专家讨论确定[19,20,21,22,23,24]。
+点击查看表格
+表1
+髋关节骨关节炎的诊断标准
+表1
+髋关节骨关节炎的诊断标准
+1
+近1个月内反复的髋关节疼痛
+2
+红细胞沉降率≤ 20 mm/1 h
+3
+X线片示骨赘形成，髋臼边缘增生
+4
+X线片示髋关节间隙变窄
+注：满足诊断标准1+2+3条或1+3+4条，可诊断髋关节骨关节炎
+点击查看表格
+表2
+膝关节骨关节炎的诊断标准
+表2
+膝关节骨关节炎的诊断标准
+序号
+症状或体征
+1
+近1个月内反复的膝关节疼痛
+2
+X线片（站立位或负重位）示关节间隙变窄、软骨下骨硬化和（或）囊性变、关节边缘骨赘形成
+3
+年龄≥50岁
+4
+晨僵时间≤30 min
+5
+活动时有骨摩擦音（感）
+注：满足诊断标准1+（2、3、4、5条中的任意2条）可诊断膝关节骨关节炎
+点击查看表格
+表3
+指间关节骨关节炎的诊断标准
+表3
+指间关节骨关节炎的诊断标准
+序号
+症状或体征
+1
+指间关节疼痛、发酸、发僵
+2
+10个指间关节中有骨性膨大的关节≥2个
+3
+远端指间关节骨性膨大≥2个
+4
+掌指关节肿胀<3个
+5
+10个指间关节中有畸形的关节≥1个
+注：满足诊断标准1+（2、3、4、5条中的任意3条）可诊断指间关节骨关节炎；10个指间关节为双侧示、中指远端及近端指间关节、双侧第一腕掌关节
+点击查看大图
+图1
+骨关节炎的诊断与评估流程
+图1
+骨关节炎的诊断与评估流程
+（五）临床分期
+目前，对OA的临床分期有多种方法，包括根据临床特点的四级分期[21]、根据X线改变的Kellgren & Lawrence分级[25]（表4）和根据关节镜下关节软骨损伤的Outbridge分级[26]（表5）。但是上述各类分级方法对于患者的临床治疗并无明确的指导意义，绝大部分被用于临床研究。
+点击查看表格
+表4
+Kellgren & Lawrence分级
+表4
+Kellgren & Lawrence分级
+分级
+描述
+0级
+无改变（正常）
+Ⅰ级
+轻微骨赘
+Ⅱ级
+明显骨赘，但未累及关节间隙
+Ⅲ级
+关节间隙中度狭窄
+Ⅳ级
+关节间隙明显变窄，软骨下骨硬化
+点击查看表格
+表5
+Outbridge分级
+表5
+Outbridge分级
+分级
+描述
+0级
+正常
+S级
+软骨软化
+Ⅰ级
+软骨变软、肿胀
+Ⅱ级
+直径< 1.3 cm的破碎和裂开
+Ⅲ级
+直径 >1.3 cm的破碎和裂开
+Ⅳ级
+软骨下骨裸露
+四、治疗
+OA的治疗目的是缓解疼痛，延缓疾病进展，矫正畸形，改善或恢复关节功能，提高患者生活质量。
+OA的总体治疗原则是依据患者年龄、性别、体重、自身危险因素、病变部位及程度等选择阶梯化及个体化治疗（图2）。
+点击查看大图
+图2
+OA阶梯化治疗示意图。底层为基础治疗，适用于所有OA患者；早期患者，依据患者的需求和一般情况，可选择适宜的基础治疗方案；病情加重，进入第二层药物治疗，在考虑患者发病的部位及自身危险因素的基础上，选择正确的用药途径及药物种类；病情进一步加重，在基础治疗和药物治疗无效的前提下进行手术治疗，手术方案需依据患者病变部位、病变程度、一般情况以及自身意愿综合考虑
+图2
+OA阶梯化治疗示意图。底层为基础治疗，适用于所有OA患者；早期患者，依据患者的需求和一般情况，可选择适宜的基础治疗方案；病情加重，进入第二层药物治疗，在考虑患者发病的部位及自身危险因素的基础上，选择正确的用药途径及药物种类；病情进一步加重，在基础治疗和药物治疗无效的前提下进行手术治疗，手术方案需依据患者病变部位、病变程度、一般情况以及自身意愿综合考虑
+（一）基础治疗
+对病变程度不重、症状较轻的OA患者是首选的治疗方式。强调改变生活及工作方式的重要性，使患者树立正确的治疗目标，减轻疼痛、改善和维持关节功能，延缓疾病进展。
+1．健康教育：
+医务工作者应通过口头或书面形式进行OA的知识宣教并帮助患者建立长期监测及评估机制，根据每日活动情况，建议患者改变不良的生活及工作习惯，避免长时间跑、跳、蹲，同时减少或避免爬楼梯、爬山等[27,28,29,30]。减轻体重不但可以改善关节功能，而且可减轻关节疼痛[27,31]。
+2．运动治疗：
+在医生的指导下选择正确的运动方式，制定个体化的运动方案，从而达到减轻疼痛，改善和维持关节功能，保持关节活动度，延缓疾病进程的目的。
+（1）低强度有氧运动：采用正确合理的有氧运动方式可以改善关节功能，缓解疼痛[32,33,34]。应依据患者发病部位及程度，在医生的指导下选择。
+（2）关节周围肌肉力量训练：加强关节周围肌肉力量，既可改善关节稳定性，又可促进局部血液循环，但应注重关节活动度及平衡（本体感觉）的锻炼[32]。由医生依据患者自身情况及病变程度指导并制定个体化的训练方案。常用方法：①股四头肌等长收缩训练；②直腿抬高加强股四头肌训练；③臀部肌肉训练；④静蹲训练；⑤抗阻力训练[35]。
+（3）关节功能训练：主要指膝关节在非负重位的屈伸活动，以保持关节最大活动度。常用方法包括：①关节被动活动；②牵拉；③关节助力运动和主动运动[35]。
+3．物理治疗：
+主要是通过促进局部血液循环、减轻炎症反应，达到减轻关节疼痛、提高患者满意度的目的。常用方法包括：水疗、冷疗、热疗、经皮神经电刺激、按摩、针灸等[36,37,38,39,40]。不同治疗方法适用人群不同，但目前经皮神经电刺激、针灸的使用尚存一定争议[27,39,40,41,42]，临床医生应根据患者的具体情况选择合适的治疗方法。
+4．行动辅助：
+通过减少受累关节负重来减轻疼痛和提高患者满意度，但不同患者的临床收益存在一定差异。患者必要时应在医生指导下选择合适的行动辅助器械，如手杖、拐杖、助行器、关节支具等[23,35]，也可选择平底、厚实、柔软、宽松的鞋具辅助行走。但对改变负重力线的辅助工具，如外侧楔形鞋垫尚存在争议[43]，应谨慎选用。
+（二）药物治疗
+应根据OA患者病变的部位及病变程度，内外结合，进行个体化、阶梯化的药物治疗。
+1．非甾体类抗炎药物（nonsteroidal antiinflammatory drugs，NSAIDs类）：
+是OA患者缓解疼痛、改善关节功能最常用的药物[23,27,35,44,45]。包括局部外用药物和全身应用药物。
+（1）局部外用药物：在使用口服药物前，建议先选择局部外用药物，尤其是老年人，可使用各种NSAIDs类药物的凝胶贴膏[46]、乳胶剂、膏剂、贴剂等，如氟比洛芬凝胶贴膏。局部外用药物可迅速、有效缓解关节的轻、中度疼痛，其胃肠道不良反应轻微，但需注意局部皮肤不良反应的发生。对中、重度疼痛可联合使用局部外用药物与口服NSAIDs类药物。
+（2）全身应用药物：根据给药途径可分为口服药物、针剂以及栓剂，最为常用是口服药物。
+用药原则：①用药前进行危险因素评估，关注潜在内科疾病风险；②根据患者个体情况，剂量个体化；③尽量使用最低有效剂量，避免过量用药及同类药物重复或叠加使用；④用药3个月后，根据病情选择相应的实验室检查。
+注意事项：口服NSAIDs类药物的疗效与不良反应对于不同患者并不完全相同，应参阅药物说明书并评估服用NSAIDs类药物的风险，包括上消化道、脑、肾、心血管疾病风险后选择性用药（表6）。如果患者上消化道不良反应的危险性较高，可使用选择性COX-2抑制剂，如使用非选择性NSAIDs类药物，应同时加用H2受体拮抗剂、质子泵抑制剂或米索前列醇等胃黏膜保护剂。如果患者心血管疾病危险性较高，应慎用NSAIDs类药物（包括非选择性和选择性COX-2抑制剂）。同时口服两种不同的NSAIDs类药物不但不会增加疗效，反而会增加不良反应的发生率。
+点击查看表格
+表6
+NSAIDs类药物治疗的危险因素评估
+表6
+NSAIDs类药物治疗的危险因素评估
+序号
+上消化道不良反应高危患者
+心、脑、肾不良反应高危患者
+1
+高龄（年龄>65岁）
+高龄（年龄>65岁）
+2
+长期应用
+脑血管病史（有过中风史或目前有一过性脑缺血发作）
+3
+口服糖皮质激素
+心血管病史
+4
+上消化道溃疡、出血病史
+肾脏病史
+5
+使用抗凝药
+同时使用血管紧张素转换酶抑制剂及利尿剂
+6
+酗酒史
+冠脉搭桥术围手术期（慎用NSAIDs类药物）
+2．镇痛药物：
+对NSAIDs类药物治疗无效或不耐受者，可使用非NSAIDs类药物、阿片类镇痛剂、对乙酰氨基酚与阿片类药物的复方制剂[23,27,44]。但需强调的是，阿片类药物的不良反应和成瘾性发生率相对较高[47,48]，建议谨慎采用。
+3．关节腔注射药物：
+可有效缓解疼痛，改善关节功能。但该方法是侵入性治疗，可能会增加感染的风险，必须严格无菌操作及规范操作。
+（1）糖皮质激素：起效迅速，短期缓解疼痛效果显著[49]，但反复多次应用激素会对关节软骨产生不良影响[50]，建议每年应用最多不超过2~3次，注射间隔时间不应短于3~6个月[23,27]。
+（2）玻璃酸钠：可改善关节功能，缓解疼痛，安全性较高，可减少镇痛药物用量，对早、中期OA患者效果更为明显[23,27,51,52]。但其在软骨保护和延缓疾病进程中的作用尚存争议[27,45]，建议根据患者个体情况应用。
+（3）医用几丁糖：可以促进软骨细胞外基质的合成，降低炎症反应，调节软骨细胞代谢[53]；具有黏弹性，缓吸收性，可作为关节液的补充成分，减缓关节炎进展[54]，减轻关节疼痛，改善功能，适用于早、中期OA患者，每疗程注射2~3次，每年1~2个疗程。
+（4）生长因子和富血小板血浆：可改善局部炎症反应，并可参与关节内组织修复及再生；但目前对于其作用机制及长期疗效尚需进一步研究[55]。临床上对有症状的OA患者可选择性使用。
+4．缓解OA症状的慢作用药物（symptomatic slow-acting drugs for osteoarthritis，SYSADOAs）：
+包括双醋瑞因、氨基葡萄糖等。有研究认为这些药物有缓解疼痛症状、改善关节功能、延缓病程进展的作用，但也有研究认为其并不能延缓疾病进展[56,57]。目前，该类药物对OA的临床疗效尚存争议[45,58]，对有症状的OA患者可选择性使用。
+5．抗焦虑药物：
+可应用于长期持续疼痛的OA患者，尤其是对NSAIDs类药物不敏感的患者[59]，可在短期内达到缓解疼痛、改善关节功能的目的。但应用时需注意药物不良反应，包括口干、胃肠道反应等[60]。目前，尚需进一步的远期随访研究证明其在OA治疗中的作用，建议在专科医生指导下使用。
+6．中成药：
+包括含有人工虎骨粉[61]、金铁锁[62]等有效成分的口服中成药及外用膏药。目前，有研究表明中药可通过多种途径减轻疼痛、延缓OA的疾病进程、改善关节功能，但对于其作用机制和长期疗效尚需高级别的研究证据[63,64,65]。
+（三）手术治疗
+OA的外科手术治疗包括关节软骨修复术、关节镜下清理手术、截骨术、关节融合术及人工关节置换术，适用于非手术治疗无效、影响正常生活的患者。手术的目的是减轻或消除患者疼痛症状、改善关节功能和矫正畸形。
+1．关节软骨修复术：
+采用组织工程及外科手段修复关节表面损伤的透明软骨，主要适用于年轻、活动量大、单处小面积负重区软骨缺损，对退行性关节炎的老年患者、多处损伤、激素引起坏死等效果较差，包括自体骨软骨移植[66]、软骨细胞移植[67,68,69]和微骨折[70]等技术。
+2．关节镜清理术：
+关节镜兼具诊断和治疗的作用，对伴有机械症状的膝关节OA治疗效果较好，如存在游离体、半月板撕裂移位、髌骨轨迹不良、滑膜病变、软骨面不适合等，通过关节镜下摘除游离体、清理半月板碎片及增生的滑膜等[71]，能减轻部分早、中期OA患者症状，但有研究认为其远期疗效与保守治疗相当[72]。对伴有机械症状但关节间隙狭窄较明显的患者，关节镜手术的益处可能有限[73]。
+3．截骨术：
+截骨术多用于膝关节OA，能最大限度地保留关节，通过改变力线来改变关节面的接触面。该方法适合青中年活动量大、力线不佳的单间室病变，膝关节屈曲超过90°、无固定屈曲挛缩畸形、无关节不稳及半脱位、无下肢动静脉严重病变的患者[74,75]。
+膝关节截骨术包括：①胫骨近端截骨术，多用于合并股胫关节内翻较轻，胫骨平台塌陷< 0.5 cm，髌股关节基本正常的患者，截骨后易愈合，患者术后主观和客观临床结果评分均明显改善[76]。②股骨远端截骨术，主要用于矫正膝外翻畸形合并膝关节外侧间室OA的患者。适用于股胫外翻较轻，关节线倾斜不重，胫骨外侧平台塌陷< 0.5 cm。③腓骨近端截骨术：近年来新兴起的技术，术后近期能缓解膝关节疼痛，适用于内翻角< 100°的内侧间室退行性OA患者，短期随访KSS、VAS评分等均有大幅改善[77]，远期疗效有待高级别的循证医学证据支持。选择开放截骨与闭合截骨要根据肢体长度、韧带肌腱止点是否受干扰、骨折是否愈合等因素进行个体化选择[78,79]。
+4．关节融合术：
+实施关节融合术后会造成关节功能障碍，现已不作为大关节OA的常规治疗手段。但对于严重的慢性踝关节、指或趾间关节OA且非手术治疗无效者，融合术成功率高[80]。
+5．人工关节置换术：
+终末期OA成熟且有效的治疗方法，应用日益广泛。
+髋关节置换术：①全髋关节置换术，适用于大多数非手术治疗无效的终末期髋关节OA[81,82]。②表面置换术，主要适用于年轻的OA患者，女性患者后平均10年翻修率达6%~17%，男性达2%~7%，且存在血清金属离子增高、假瘤等并发症[83,84,85]。目前临床应用较少，对育龄女性、骨质疏松或肾功能不全者更应慎用。
+髋关节骨水泥型假体与非骨水泥型假体的选择：骨水泥型假体短期内可获得更优秀的稳定性，但从长期来看，尤其对于年轻或活动量大的患者，骨水泥型假体会带来更高的并发症及松动率。对于70岁以下患者，骨水泥型假体翻修率是非骨水泥型假体的1~2倍，松动率为2~4倍；而70岁以上患者翻修率相似[86,87,88]。55~64岁患者非骨水泥型假体15年生存率为80%，高于骨水泥型假体（71%）。65~74岁患者非骨水泥型假体15年生存率为94%，高于骨水泥型假体（85%）。75岁以上患者10年生存率均高于90%且无明显差异[89]。对于翻修手术，两种假体翻修后并发症发生率无明显区别[90]。
+膝关节置换术：①全膝关节置换术，适用于严重的膝关节多间室OA，尤其伴有各种畸形时其远期疗效确切。全膝关节置换术后15年生存率为88%~89%[91]。②单髁置换术，适用于力线改变5°~10°、韧带完整、屈曲挛缩不超过15°的膝关节单间室OA患者[92]。单髁置换术后15年假体生存率为68%~71%[91]。全膝关节置换术与单髁置换术后KOS-ADLS、HAAS评分等的短期随访结果相似[93]，且均较截骨术有更好的运动和生存率优势[94]。③髌股关节置换术，主要适用于单纯髌股关节OA患者[95]。
+肩关节置换术：①反肩置换术，适用于肩袖撕裂损伤的肩关节退变患者、骨不愈合或内植物感染后的翻修、肿瘤切除后的重建。10年假体生存率达93%[96]。②全肩关节置换术，适用于关节盂病变严重、关节盂骨量足够、肩袖完整且功能良好的患者。术后5年临床满意率为92%~95%[97]。③半肩关节置换术，适用于病变仅累及肱骨头或盂肱关节炎合并肩袖损伤的高龄患者。长期临床满意率较低，15年以上的临床满意率仅25%[98]。全肩关节置换术与半肩关节置换术中期随访在活动度方面无明显差异，但全肩关节置换术后疼痛改善更明显，运动功能更佳[99]。
+肘关节置换术适用于肘关节严重疼痛、非手术治疗无效、关节不稳或关节僵直的患者[100]。但术后并发症发生率较高[101]，10年假体生存率为69%~94%[102]。
+踝关节置换术能有效解除疼痛、保留踝关节活动功能，与踝关节融合术一样，均为治疗终末期踝关节OA的有效方法。相对于踝关节融合术，踝关节置换术后临床功能更优异[103]。术后AOFAS踝与后足评分、Kofoed评分、VAS评分均较术前有较大幅度地改善[104]。
+参考文献
+[1]
+BijlsmaJW, BerenbaumF, LafeberFP.
+Osteoarthritis: an update with relevance for clinical practice[J].
+Lancet,
+2011,
+377(
+9783):
+2115-
+2126.
+DOI: 10.1016/S0140-6736(11)60243-2.
+[2]
+TangX, WangS, ZhanS, et al.
+The Prevalence of Symptomatic Knee Osteoarthritis in China: Results From the China Health and Retirement Longitudinal Study[J].
+Arthritis Rheumatol,
+2016,
+68(
+3):
+648-
+653.
+DOI: 10.1002/art.39465.
+[3]
+ZhangJF, SongLH, WeiJN, et al.
+Prevalence of and risk factors for the occurrence of symptomatic osteoarthritis in rural regions of Shanxi Province, China[J].
+Int J Rheum Dis,
+2016,
+19(
+8):
+781-
+789.
+DOI: 10.1111/1756-185X.12470.
+[4]
+KangX, FransenM, ZhangY, et al.
+The high prevalence of knee osteoarthritis in a rural Chinese population: the Wuchuan osteoarthritis study[J].
+Arthritis Rheum,
+2009,
+61(
+5):
+641-
+647.
+DOI: 10.1002/art.24464.
+[5]
+林剑浩，康晓征，李虎,等.
+武川县农村居民膝关节骨关节炎患病率调查[J].
+中华骨科杂志,
+2009,
+29(
+10):
+929-
+933.
+DOI: 10.3760/cma.j.issn.0253-2352.2009.10.008.
+LinJH, KangXZ, LiH, et al. The high prevalence of knee osteoarthritis in a rural Wuchuan population[J]. Chin J Orthop, 2009, 29(10): 929-933. DOI: 10.3760/cma.j.issn.0253-2352.2009.10.008.
+[6]
+ZhangY, XuL, NevittMC, et al.
+Lower prevalence of hand osteoarthritis among Chinese subjects in Beijing compared with white subjects in the United States: the Beijing Osteoarthritis Study[J].
+Arthritis Rheum,
+2003,
+48(
+4):
+1034-
+1040.
+DOI: 10.1002/art.10928.
+[7]
+CroftP, CooperC, WickhamC, et al.
+Defining osteoarthritis of the hip for epidemiologic studies[J].
+Am J Epidemiol,
+1990,
+132(
+3):
+514-
+522.
+[8]
+NevittMC, XuL, ZhangY, et al.
+Very low prevalence of hip osteoarthritis among Chinese elderly in Beijing, China, compared with whites in the United States: the Beijing osteoarthritis study[J].
+Arthritis Rheum,
+2002,
+46(
+7):
+1773-
+1779.
+DOI: 10.1002/art.10332.
+[9]
+LinJ, FransenM, KangX, et al.
+Marked disability and high use of nonsteroidal antiinflammatory drugs associated with knee osteoarthritis in rural China: a cross-sectional population-based survey[J].
+Arthritis Res Ther,
+2010,
+12(
+6):
+R225.
+DOI: 10.1186/ar3212.
+[10]
+HawkerGA, CroxfordR, BiermanAS, et al.
+All-cause mortality and serious cardiovascular events in people with hip and knee osteoarthritis: a population based cohort study[J].
+PLoS One,
+2014,
+9(
+3):
+e91286.
+DOI: 10.1371/journal.pone.0091286.
+[11]
+LiuQ, NiuJ, LiH, et al.
+Knee Symptomatic Osteoarthritis, Walking Disability, NSAIDs Use and All-cause Mortality: Population-based Wuchuan Osteoarthritis Study[J].
+Sci Rep,
+2017,
+7(
+1):
+3309.
+DOI: 10.1038/s41598-017-03110-3.
+[12]
+XingD, XuY, LiuQ, et al.
+Osteoarthritis and all-cause mortality in worldwide populations: grading the evidence from a meta-analysis[J].
+Sci Rep,
+2016,
+6:
+24393.
+DOI: 10.1038/srep24393.
+[13]
+LiuQ, NiuJ, HuangJ, et al.
+Knee osteoarthritis and all-cause mortality: the Wuchuan Osteoarthritis Study[J].
+Osteoarthritis Cartilage,
+2015,
+23(
+7):
+1154-
+1157.
+DOI: 10.1016/j.joca.2015.03.021.
+[14]
+SilverwoodV, Blagojevic-BucknallM, JinksC, et al.
+Current evidence on risk factors for knee osteoarthritis in older adults: a systematic review and meta-analysis[J].
+Osteoarthritis Cartilage,
+2015,
+23(
+4):
+507-
+515.
+DOI: 10.1016/j.joca.2014.11.019.
+[15]
+LeungGJ, RainsfordKD, KeanWF.
+Osteoarthritis of the hand I: aetiology and pathogenesis, risk factors, investigation and diagnosis[J].
+J Pharm Pharmacol,
+2014,
+66(
+3):
+339-
+346.
+DOI: 10.1111/jphp.12196.
+[16]
+Prieto-AlhambraD, JudgeA, JavaidMK, et al.
+Incidence and risk factors for clinically diagnosed knee, hip and hand osteoarthritis: influences of age, gender and osteoarthritis affecting other joints[J].
+Ann Rheum Dis,
+2014,
+73(
+9):
+1659-
+1664.
+DOI: 10.1136/annrheumdis-2013-203355.
+[17]
+HuangZ, ChenJ, MaJ, et al.
+Effectiveness of low-level laser therapy in patients with knee osteoarthritis: a systematic review and meta-analysis[J].
+Osteoarthritis Cartilage,
+2015,
+23(
+9):
+1437-
+1444.
+DOI: 10.1016/j.joca.2015.04.005.
+[18]
+HuangZ, MaJ, ChenJ, et al.
+The effectiveness of low-level laser therapy for nonspecific chronic low back pain: a systematic review and meta-analysis[J].
+Arthritis Res Ther,
+2015,
+17:
+360.
+DOI: 10.1186/s13075-015-0882-0.
+[19]
+AltmanR, AschE, BlochD, et al.
+Development of criteria for the classification and reporting of osteoarthritis. Classification of osteoarthritis of the knee. Diagnostic and Therapeutic Criteria Committee of the American Rheumatism Association[J].
+Arthritis Rheum,
+1986,
+29(
+8):
+1039-
+1049.
+[20]
+AltmanR, AlarcónG, AppelrouthD, et al.
+The American College of Rheumatology criteria for the classification and reporting of osteoarthritis of the hip[J].
+Arthritis Rheum,
+1991,
+34(
+5):
+505-
+514.
+[21]
+ZhangW, DohertyM, LeebBF, et al.
+EULAR evidence-based recommendations for the diagnosis of hand osteoarthritis: report of a task force of ESCISIT[J].
+Ann Rheum Dis,
+2009,
+68(
+1):
+8-
+17.
+DOI: 10.1136/ard.2007.084772.
+[22]
+ZhangW, DohertyM, PeatG, et al.
+EULAR evidence-based recommendations for the diagnosis of knee osteoarthritis[J].
+Ann Rheum Dis,
+2010,
+69(
+3):
+483-
+489.
+DOI: 10.1136/ard.2009.113100.
+[23]
+中华医学会骨科学分会.
+骨关节炎诊治指南(2007年版)[J].
+中华骨科杂志,
+2007,
+27(
+10):
+793-
+796.
+Osteoporosis Group of Chinese Orthopaedic Association. Guideline for diagnosis and treatment of osteoarthritis[J]. Chin J Orthop, 2007, 27(10): 793-796.
+[24]
+AltmanR, AlarcónG, AppelrouthD, et al.
+The American College of Rheumatology criteria for the classification and reporting of osteoarthritis of the hand[J].
+Arthritis Rheum,
+1990,
+33(
+11):
+1601-
+1610.
+[25]
+KellgrenJH, LawrenceJS.
+Radiological assessment of osteo-arthrosis[J].
+Ann Rheum Dis,
+1957,
+16(
+4):
+494-
+502.
+[26]
+OuterbridgeRE.
+The etiology of chondromalacia patellae[J].
+J Bone Joint Surg Br,
+1961,
+43:
+752-
+757.
+[27]
+NelsonAE, AllenKD, GolightlyYM, et al.
+A systematic review of recommendations and guidelines for the management of osteoarthritis: The chronic osteoarthritis management initiative of the U.S. bone and joint initiative[J].
+Semin Arthritis Rheum,
+2014,
+43(
+6):
+701-
+712.
+DOI: 10.1016/j.semarthrit.2013.11.012.
+[28]
+ThorstenssonCA, GarellickG, RystedtH, et al.
+Better Management of Patients with Osteoarthritis: Development and Nationwide Implementation of an Evidence-Based Supported Osteoarthritis Self-Management Programme[J].
+Musculoskeletal Care,
+2015,
+13(
+2):
+67-
+75.
+DOI: 10.1002/msc.1085.
+[29]
+BrandE, NylandJ, HenzmanC, et al.
+Arthritis self-efficacy scale scores in knee osteoarthritis: a systematic review and meta-analysis comparing arthritis self-management education with or without exercise[J].
+J Orthop Sports Phys Ther,
+2013,
+43(
+12):
+895-
+910.
+DOI: 10.2519/jospt.2013.4471.
+[30]
+FernandesL, HagenKB, BijlsmaJW, et al.
+EULAR recommendations for the non-pharmacological core management of hip and knee osteoarthritis[J].
+Ann Rheum Dis,
+2013,
+72(
+7):
+1125-
+1135.
+DOI: 10.1136/annrheumdis-2012-202745.
+[31]
+ChristensenR, BartelsEM, AstrupA, et al.
+Effect of weight reduction in obese patients diagnosed with knee osteoarthritis: a systematic review and meta-analysis[J].
+Ann Rheum Dis,
+2007,
+66(
+4):
+433-
+439.
+[32]
+BeumerL, WongJ, WardenSJ, et al.
+Effects of exercise and manual therapy on pain associated with hip osteoarthritis: a systematic review and meta-analysis[J].
+Br J Sports Med,
+2016,
+50(
+8):
+458-
+463.
+DOI: 10.1136/bjsports-2015-095255.
+[33]
+LaucheR, LanghorstJ, DobosG, et al.
+A systematic review and meta-analysis of Tai Chi for osteoarthritis of the knee[J].
+Complement Ther Med,
+2013,
+21(
+4):
+396-
+406.
+DOI: 10.1016/j.ctim.2013.06.001.
+[34]
+MattosF, LeiteN, PittaA, et al.
+Effects of aquatic exercise on muscle strength and functional performance of individuals with osteoarthritis: a systematic review[J].
+Rev Bras Reumatol Engl Ed,
+2016,
+56(
+6):
+530-
+542.
+DOI: 10.1016/j.rbre.2016.09.003.
+[35]
+周谋望，岳寿伟，何成奇,等.
+骨关节炎的康复治疗专家共识[J].
+中华物理医学与康复杂志,
+2012,
+34(
+12):
+951-
+953.
+DOI: 10.3760/cma.j.issn.0254-1424.2012.012.021.
+ZhouMW, YueSW, HeCQ, et al. Expert concensus on rehabiliation treatment of osteoarthritis[J]. Chin J Phys Med Rehabil, 2012, 34(12): 951-953. DOI: 10.3760/cma.j.issn.0254-1424.2012.012.021.
+[36]
+WallerB, Ogonowska-SlodownikA, VitorM, et al.
+Effect of therapeutic aquatic exercise on symptoms and function associated with lower limb osteoarthritis: systematic review with meta-analysis[J].
+Phys Ther,
+2014,
+94(
+10):
+1383-
+1395.
+DOI: 10.2522/ptj.20130417.
+[37]
+CorbettMS, RiceSJ, MadurasingheV, et al.
+Acupuncture and other physical treatments for the relief of pain due to osteoarthritis of the knee: network meta-analysis[J].
+Osteoarthritis Cartilage,
+2013,
+21(
+9):
+1290-
+1298.
+DOI: 10.1016/j.joca.2013.05.007.
+[38]
+ForestierR, Erol ForestierFB, FranconA.
+Spa therapy and knee osteoarthritis: A systematic review[J].
+Ann Phys Rehabil Med,
+2016,
+59(
+3):
+216-
+226.
+DOI: 10.1016/j.rehab.2016.01.010.
+[39]
+ManyangaT, FroeseM, ZarychanskiR, et al.
+Pain management with acupuncture in osteoarthritis: a systematic review and meta-analysis[J].
+BMC Complement Altern Med,
+2014,
+14:
+312.
+DOI: 10.1186/1472-6882-14-312.
+[40]
+ZengC, LiH, YangT, et al.
+Electrical stimulation for pain relief in knee osteoarthritis: systematic review and network meta-analysis[J].
+Osteoarthritis Cartilage,
+2015,
+23(
+2):
+189-
+202.
+DOI: 10.1016/j.joca.2014.11.014.
+[41]
+VaarbakkenK, LjunggrenAE.
+Superior effect of forceful compared with standard traction mobilizations in hip disability?[J].
+Adv Physiother,
+2007,
+9(
+3):
+117-
+128.
+DOI: 10.1080/14038190701395739.
+[42]
+BrantinghamJW, Parkin-SmithG, CassaTK, et al.
+Full kinetic chain manual and manipulative therapy plus exercise compared with targeted manual and manipulative therapy plus exercise for symptomatic osteoarthritis of the hip: a randomized controlled trial[J].
+Arch Phys Med Rehabil,
+2012,
+93(
+2):
+259-
+267.
+DOI: 10.1016/j.apmr.2011.08.036.
+[43]
+ParkesMJ, MaricarN, LuntM, et al.
+Lateral wedge insoles as a conservative treatment for pain in patients with medial knee osteoarthritis: a meta-analysis[J].
+JAMA,
+2013,
+310(
+7):
+722-
+730.
+DOI: 10.1001/jama.2013.243229.
+[44]
+BruyèreO, CooperC, PelletierJP, et al.
+An algorithm recommendation for the management of knee osteoarthritis in Europe and internationally: a report from a task force of the European Society for Clinical and Economic Aspects of Osteoporosis and Osteoarthritis (ESCEO)[J].
+Semin Arthritis Rheum,
+2014,
+44(
+3):
+253-
+263.
+DOI: 10.1016/j.semarthrit.2014.05.014.
+[45]
+JevsevarDS, BrownGA, JonesDL, et al.
+The American Academy of Orthopaedic Surgeons evidence-based guideline on: treatment of osteoarthritis of the knee, 2nd edition[J].
+J Bone Joint Surg Am,
+2013,
+95(
+20):
+1885-
+1886.
+[46]
+叶华，左晓霞，古洁若,等.
+氟比洛芬巴布膏治疗膝骨关节炎疼痛的全国多中心随机开放阳性药对照临床研究[J].
+中华风湿病学杂志,
+2012,
+16(
+9):
+606-
+610.
+DOI: 10.3760/ema.j.issn.1007-7480.2012.09.007.
+YeH, ZuoXX, GuJR, et al. Nationwide multicentre clinical research on flurbiprofen cataplasm for treating patients with osteoarthritis pain[J]. Chin J Rheumatol, 2012, 16(9): 606-610. DOI: 10.3760/ema.j.issn.1007-7480.2012.09.007.
+[47]
+HochbergMC, AltmanRD, AprilKT, et al.
+American College of Rheumatology 2012 recommendations for the use of nonpharmacologic and pharmacologic therapies in osteoarthritis of the hand, hip, and knee[J].
+Arthritis Care Res (Hoboken),
+2012,
+64(
+4):
+465-
+474.
+[48]
+da CostaBR, NüeschE, KastelerR, et al.
+Oral or transdermal opioids for osteoarthritis of the knee or hip[J].
+Cochrane Database Syst Rev,
+2014(
+9):
+CD003115.
+DOI: 10.1002/14651858.CD003115.pub4.
+[49]
+BannuruRR, NatovNS, ObadanIE, et al.
+Therapeutic trajectory of hyaluronic acid versus corticosteroids in the treatment of knee osteoarthritis: a systematic review and meta-analysis[J].
+Arthritis Rheum,
+2009,
+61(
+12):
+1704-
+1711.
+DOI: 10.1002/art.24925.
+[50]
+VandeweerdJM, ZhaoY, NisolleJF, et al.
+Effect of corticosteroids on articular cartilage: have animal studies said everything?[J].
+Fundam Clin Pharmacol,
+2015,
+29(
+5):
+427-
+438.
+DOI: 10.1111/fcp.12137.
+[51]
+BannuruRR, VaysbrotEE, SullivanMC, et al.
+Relative efficacy of hyaluronic acid in comparison with NSAIDs for knee osteoarthritis: a systematic review and meta-analysis[J].
+Semin Arthritis Rheum,
+2014,
+43(
+5):
+593-
+599.
+DOI: 10.1016/j.semarthrit.2013.10.002.
+[52]
+IshijimaM, NakamuraT, ShimizuK, et al.
+Intra-articular hyaluronic acid injection versus oral non-steroidal anti-inflammatory drug for the treatment of knee osteoarthritis: a multi-center, randomized, open-label, non-inferiority trial[J].
+Arthritis Res Ther,
+2014,
+16(
+1):
+R18.
+DOI: 10.1186/ar4446.
+[53]
+OprenyeszkF, SanchezC, DubucJE, et al.
+Chitosan enriched three-dimensional matrix reduces inflammatory and catabolic mediators production by human chondrocytes[J].
+PLoS One,
+2015,
+10(
+5):
+e0128362.
+DOI: 10.1371/journal.pone.0128362.
+[54]
+OprenyeszkF, ChaussonM, MaquetV, et al.
+Protective effect of a new biomaterial against the development of experimental osteoarthritis lesions in rabbit: a pilot study evaluating the intra-articular injection of alginate-chitosan beads dispersed in an hydrogel[J].
+Osteoarthritis Cartilage,
+2013,
+21(
+8):
+1099-
+1107.
+DOI: 10.1016/j.joca.2013.04.017.
+[55]
+ShethU, SimunovicN, KleinG, et al.
+Efficacy of autologous platelet-rich plasma use for orthopaedic indications: a meta-analysis[J].
+J Bone Joint Surg Am,
+2012,
+94(
+4):
+298-
+307.
+DOI: 10.2106/jbjs.k.00154.
+[56]
+WandelS, JüniP, TendalB, et al.
+Effects of glucosamine, chondroitin, or placebo in patients with osteoarthritis of hip or knee: network meta-analysis[J].
+BMJ,
+2010,
+341:
+c4675.
+DOI: 10.1136/bmj.c4675.
+[57]
+KongtharvonskulJ, AnothaisintaweeT, McEvoyM, et al.
+Efficacy and safety of glucosamine, diacerein, and NSAIDs in osteoarthritis knee: a systematic review and network meta-analysis[J].
+Eur J Med Res,
+2015,
+20:
+24.
+DOI: 10.1186/s40001-015-0115-7.
+[58]
+McAlindonTE, BannuruRR, SullivanMC, et al.
+OARSI guidelines for the non-surgical management of knee osteoarthritis[J].
+Osteoarthritis Cartilage,
+2014,
+22(
+3):
+363-
+388.
+DOI: 10.1016/j.joca.2014.01.003.
+[59]
+RisserRC, HochbergMC, GaynorPJ, et al.
+Responsiveness of the Intermittent and Constant Osteoarthritis Pain (ICOAP) scale in a trial of duloxetine for treatment of osteoarthritis knee pain[J].
+Osteoarthritis Cartilage,
+2013,
+21(
+5):
+691-
+694.
+DOI: 10.1016/j.joca.2013.02.007.
+[60]
+HochbergMC, WohlreichM, GaynorP, et al.
+Clinically relevant outcomes based on analysis of pooled data from 2 trials of duloxetine in patients with knee osteoarthritis[J].
+J Rheumatol,
+2012,
+39(
+2):
+352-
+358.
+DOI: 10.3899/jrheum.110307.
+[61]
+曹建刚，王天仪，王磊,等.
+金天格胶囊治疗膝骨关节炎的临床研究[J].
+中国骨质疏松杂志,
+2015,
+21(
+1):
+84-
+87.
+DOI: 10.3969/j.issn.1006-7108.2015.01.018.
+CaoJG, WangTY, WangL, et al. The clinical research of Chinese traditional medicine Jintiange capsule for the treatment of osteoarthritis[J]. Clin J Osteoporos, 2015, 21(1): 84-87. DOI: 10.3969/j.issn.1006-7108.2015.01.018.
+[62]
+阮海军，赵冬梅，刘锋卫.
+金骨莲胶囊治疗骨关节炎40例[J].
+中医临床研究,
+2016,
+8(
+21):
+68-
+69.
+RuanHJ, ZhaoDM, LiuFW. Treating 40 cases of osteoarthritis with the Jinguliang capsule[J]. Clin J Chin Med, 2016, 8(21): 68-69.
+[63]
+ChenB, ZhanH, MarszalekJ, et al.
+Traditional Chinese Medications for Knee Osteoarthritis Pain: A Meta-Analysis of Randomized Controlled Trials[J].
+Am J Chin Med,
+2016,
+44(
+4):
+677-
+703.
+DOI: 10.1142/s0192415x16500373.
+[64]
+LiL, LiuH, ShiW, et al.
+Insights into the Action Mechanisms of Traditional Chinese Medicine in Osteoarthritis[J].
+Evid Based Complement Alternat Med,
+2017,
+2017:
+5190986.
+DOI: 10.1155/2017/5190986.
+[65]
+WangX, WeiS, LiuT, et al.
+Effectiveness, medication patterns, and adverse events of traditional chinese herbal patches for osteoarthritis: a systematic review[J].
+Evid Based Complement Alternat Med,
+2014,
+2014:
+343176.
+DOI: 10.1155/2014/343176.
+[66]
+SadrKN, PulidoPA, McCauleyJC, et al.
+Osteochondral Allograft Transplantation in Patients With Osteochondritis Dissecans of the Knee[J].
+Am J Sports Med,
+2016,
+44(
+11):
+2870-
+2875.
+[67]
+ErdleB, HerrmannS, PorichisS, et al.
+Sporting Activity Is Reduced 11 Years After First-Generation Autologous Chondrocyte Implantation in the Knee Joint[J].
+Am J Sports Med,
+2017,
+45(
+12):
+2762-
+2773.
+DOI: 10.1177/0363546517716920.
+[68]
+王庆，黄华扬，张涛,等.
+基质诱导自体软骨细胞移植修复膝关节软骨损伤的早期疗效[J].
+中华骨科杂志,
+2016,
+36(
+1):
+28-
+34.
+DOI: 10.3760/cma.j.issn.0253-2352.2016.01.005.
+WangQ, HuangHY, ZhangT, et al. Early efficacy study of matrix-induced autologous chondrocyte implantation repairing knee joint cartilage injury[J]. Chin J Orthop, 2016, 36(1): 28-34. DOI: 10.3760/cma.j.issn.0253-2352.2016.01.005.
+[69]
+李梦远，马元琛，陈宏,等.
+自体软骨细胞结合Ⅰ型胶原蛋白支架治疗膝关节软骨缺损的近期疗效[J].
+中华骨科杂志,
+2015,
+35(
+9):
+906-
+913.
+DOI：10.3760/cma.j.issn.0253-2352.2015.09.004.
+LiMY, MaYC, ChenH, et al. Clinical research of 3-dimensional scaffold of typeⅠcollagen based autologous chondrocyte implantation for knee articular cartilage defect[J]. Chin J Orthop, 2015, 35(9): 906-913. DOI：10.3760/cma.j.issn.0253-2352.2015.09.004.
+[70]
+KnutsenG, DrogsetJO, EngebretsenL, et al.
+A Randomized Multicenter Trial Comparing Autologous Chondrocyte Implantation with Microfracture: Long-Term Follow-up at 14 to 15 Years[J].
+J Bone Joint Surg Am,
+2016,
+98(
+16):
+1332-
+1339.
+DOI: 10.2106/JBJS.15.01208.
+[71]
+SihvonenR, EnglundM, TurkiewiczA, et al.
+Mechanical symptoms as an indication for knee arthroscopy in patients with degenerative meniscus tear: a prospective cohort study[J].
+Osteoarthritis Cartilage,
+2016,
+24(
+8):
+1367-
+1375.
+DOI: 10.1016/j.joca.2016.03.013.
+[72]
+MoseleyJB, O'MalleyK, PetersenNJ, et al.
+A controlled trial of arthroscopic surgery for osteoarthritis of the knee[J].
+N Engl J Med,
+2002,
+347(
+2):
+81-
+88.
+[73]
+HowellSM.
+The role of arthroscopy in treating osteoarthritis of the knee in the older patient[J].
+Orthopedics,
+2010,
+33(
+9):
+652.
+DOI: 10.3928/01477447-20100722-34.
+[74]
+PoignardA, Flouzat LachanietteCH, et al.
+Revisiting high tibial osteotomy: fifty years of experience with the opening-wedge technique[J].
+J Bone Joint Surg Am,
+2010,
+92
+Suppl 2:
+187-
+195.
+DOI: 10.2106/JBJS.I.00771.
+[75]
+CoventryMB, IlstrupDM, WallrichsSL.
+Proximal tibial osteotomy. A critical long-term study of eighty-seven cases[J].
+J Bone Joint Surg Am,
+1993,
+75(
+2):
+196-
+201.
+[76]
+LapradeRF, SpiridonovSI, NystromLM, et al.
+Prospective outcomes of young and middle-aged adults with medial compartment osteoarthritis treated with a proximal tibial opening wedge osteotomy[J].
+Arthroscopy,
+2012,
+28(
+3):
+354-
+364.
+DOI: 10.1016/j.arthro.2011.08.310.
+[77]
+YangZY, ChenW, LiCX, et al.
+Medial Compartment Decompression by Fibular Osteotomy to Treat Medial Compartment Knee Osteoarthritis: A Pilot Study[J].
+Orthopedics,
+2015,
+38(
+12):
+e1110-
+e1114.
+DOI: 10.3928/01477447-20151120-08.
+[78]
+DuivenvoordenT, BrouwerRW, BaanA, et al.
+Comparison of closing-wedge and opening-wedge high tibial osteotomy for medial compartment osteoarthritis of the knee: a randomized controlled trial with a six-year follow-up[J].
+J Bone Joint Surg Am,
+2014,
+96(
+17):
+1425-
+1432.
+DOI: 10.2106/JBJS.M.00786.
+[79]
+PortnerO.
+High tibial valgus osteotomy: closing, opening or combined? Patellar height as a determining factor[J].
+Clin Orthop Relat Res,
+2014,
+472(
+11):
+3432-
+3440.
+DOI: 10.1007/s11999-014-3821-5.
+[80]
+TownshendD, Di SilvestroM, KrauseF, et al.
+Arthroscopic versus open ankle arthrodesis: a multicenter comparative case series[J].
+J Bone Joint Surg Am,
+2013,
+95(
+2):
+98-
+102.
+DOI: 10.2106/JBJS.K.01240.
+[81]
+赵海燕，夏亚一，康鹏德,等.
+直接前入路和后外侧入路全髋关节置换术早期功能康复的比较研究[J].
+中华骨科杂志,
+2017,
+37(
+19):
+1185-
+1192.
+DOI: 10.3760/cma.j.issn.0253-2352.2017.19.001.
+ZhaoHY, XiaYY, KangPD, et al. Comparison of earlier functional recovery in total hip arthroplasty patients using a direct anterior approach or posterolateral approach[J]. Chin J Orthop, 2017, 37(19): 1185-1192. DOI: 10.3760/cma.j.issn.0253-2352.2017.19.001.
+[82]
+曾羿，沈彬，杨静,等.
+大直径股骨头金属对金属全髋关节置换术的中期随访结果[J].
+中华骨科杂志,
+2016,
+36(
+7):
+385-
+391.
+DOI: 10.3760/cma.j.issn.0253-2352.2016.07.001.
+ZengY, ShenB, YangJ, et al. Mid-term effects of total hip arthroplasty using metal-on-metal prosthesis with large diameter femoral head[J]. Chin J Orthop, 2016, 36(7): 385-391. DOI: 10.3760/cma.j.issn.0253-2352.2016.07.001.
+[83]
+DonahueGS, LindgrenV, GaleaVP, et al.
+Are Females at Greater Risk for Revision Surgery After Hip Resurfacing Arthroplasty With the Articular Surface Replacement Prosthesis?[J].
+Clin Orthop Relat Res,
+2016,
+474(
+10):
+2257-
+2265.
+DOI: 10.1007/s11999-016-4860-x.
+[84]
+de SteigerRN, HangJR, MillerLN, et al.
+Five-year results of the ASR XL Acetabular System and the ASR Hip Resurfacing System: an analysis from the Australian Orthopaedic Association National Joint Replacement Registry[J].
+J Bone Joint Surg Am,
+2011,
+93(
+24):
+2287-
+2293.
+DOI: 10.2106/JBJS.J.01727.
+[85]
+BörnertS, LütznerJ, BeyerF, et al.
+Revision Rate and Patient-Reported Outcome After Hip Resurfacing Arthroplasty: A Concise Follow-Up of 1064 Cases[J].
+J Arthroplasty,
+2015,
+30(
+12):
+2190-
+2195.
+DOI: 10.1016/j.arth.2015.06.041.
+[86]
+WechterJ, ComfortTK, TatmanP, et al.
+Improved survival of uncemented versus cemented femoral stems in patients aged < 70 years in a community total joint registry[J].
+Clin Orthop Relat Res,
+2013,
+471(
+11):
+3588-
+3595.
+DOI: 10.1007/s11999-013-3182-5.
+[87]
+BerryDJ, HarmsenWS, CabanelaME, et al.
+Twenty-five-year survivorship of two thousand consecutive primary Charnley total hip replacements: factors affecting survivorship of acetabular and femoral components[J].
+J Bone Joint Surg Am,
+2002,
+84(
+2):
+171-
+177.
+[88]
+CortenK, BourneRB, CharronKD, et al.
+What works best, a cemented or cementless primary total hip arthroplasty?: minimum 17-year followup of a randomized controlled trial[J].
+Clin Orthop Relat Res,
+2011,
+469(
+1):
+209-
+217.
+DOI: 10.1007/s11999-010-1459-5.
+[89]
+MäkeläKT, EskelinenA, PulkkinenP, et al.
+Total hip arthroplasty for primary osteoarthritis in patients fifty-five years of age or older. An analysis of the Finnish arthroplasty registry[J].
+J Bone Joint Surg Am,
+2008,
+90(
+10):
+2160-
+2170.
+DOI: 10.2106/JBJS.G.00870.
+[90]
+GromovK, PedersenAB, OvergaardS, et al.
+Do Rerevision Rates Differ After First-time Revision of Primary THA With a Cemented and Cementless Femoral Component?[J].
+Clin Orthop Relat Res,
+2015,
+473(
+11):
+3391-
+3398.
+DOI: 10.1007/s11999-015-4245-6.
+[91]
+NiinimäkiT, EskelinenA, MäkeläK, et al.
+Unicompartmental knee arthroplasty survivorship is lower than TKA survivorship: a 27-year Finnish registry study[J].
+Clin Orthop Relat Res,
+2014,
+472(
+5):
+1496-
+1501.
+DOI: 10.1007/s11999-013-3347-2.
+[92]
+戴雪松，宓云峰，熊炎,等.
+活动与固定平台的单髁假体置换治疗膝关节内侧间室骨关节炎[J].
+中华骨科杂志,
+2015,
+35(
+7):
+691-
+698.
+DOI：10.3760/cma.j.issn.0253-2352.2015.07.001.
+DaiXS, MiYF, XiongY, et al. Mobile bearing and fixed bearing unicompartmental knee arthroplasty for medial knee osteoarthritis[J]. Chin J Orthop, 2015, 35(7): 691-698. DOI：10.3760/cma.j.issn.0253-2352.2015.07.001.
+[93]
+KulshresthaV, DattaB, KumarS, et al.
+Outcome of Unicondylar Knee Arthroplasty vs Total Knee Arthroplasty for Early Medial Compartment Arthritis: A Randomized Study[J].
+J Arthroplasty,
+2017,
+32(
+5):
+1460-
+1469.
+DOI: 10.1016/j.arth.2016.12.014.
+[94]
+KrychAJ, ReardonP, SousaP, et al.
+Unicompartmental Knee Arthroplasty Provides Higher Activity and Durability Than Valgus-Producing Proximal Tibial Osteotomy at 5 to 7 Years[J].
+J Bone Joint Surg Am,
+2017,
+99(
+2):
+113-
+122.
+DOI: 10.2106/JBJS.15.01031.
+[95]
+伍卫刚，何荣新，王祥华,等.
+髌股关节置换术治疗单纯髌股关节骨关节炎[J].
+中华骨科杂志,
+2015,
+35(
+4):
+407-
+413.
+DOI：10.3760/cma.j.issn.0253-2352.2015.04.017.
+WuWG, HeRX, WangXH, et al. The treatment of patellofemoral arthroplasty for isolated patellofemoral osteoarthritis[J]. Chin J Orthop, 2015, 35(4): 407-413. DOI：10.3760/cma.j.issn.0253-2352.2015.04.017.
+[96]
+BacleG, Nové-JosserandL, GaraudP, et al.
+Long-Term Outcomes of Reverse Total Shoulder Arthroplasty: A Follow-up of a Previous Study[J].
+J Bone Joint Surg Am,
+2017,
+99(
+6):
+454-
+461.
+DOI: 10.2106/JBJS.16.00223.
+[97]
+GarciaGH, LiuJN, SinatroA, et al.
+High Satisfaction and Return to Sports After Total Shoulder Arthroplasty in Patients Aged 55 Years and Younger[J].
+Am J Sports Med,
+2017,
+45(
+7):
+1664-
+1669.
+DOI: 10.1177/0363546517695220.
+[98]
+LevineWN, FischerCR, NguyenD, et al.
+Long-term follow-up of shoulder hemiarthroplasty for glenohumeral osteoarthritis[J].
+J Bone Joint Surg Am,
+2012,
+94(
+22):
+e164.
+DOI: 10.2106/JBJS.K.00603.
+[99]
+GarciaGH, LiuJN, MahonyGT, et al.
+Hemiarthroplasty Versus Total Shoulder Arthroplasty for Shoulder Osteoarthritis: A Matched Comparison of Return to Sports[J].
+Am J Sports Med,
+2016
+Mar 9. pii: 0363546516632527.
+[Epub ahead of print]
+[100]
+尹庆伟，张海彬，高玉贵,等.
+全肘关节置换术的临床应用及疗效分析[J].
+中华骨科杂志,
+2015,
+35(
+3):
+253-
+260.
+DOI：10.3760/cma.j.issn.0253-2352.2015.03.008.
+YinQW, ZhangHB, GaoYG, et al. Clinical application and effective analysis for total elbow arthroplasty[J]. Chin J Orthop, 2015, 35(3): 253-260. DOI：10.3760/cma.j.issn.0253-2352.2015.03.008.
+[101]
+KrenekL, FarngE, ZingmondD, et al.
+Complication and revision rates following total elbow arthroplasty[J].
+J Hand Surg Am,
+2011,
+36(
+1):
+68-
+73.
+DOI: 10.1016/j.jhsa.2010.09.036.
+[102]
+ToulemondeJ, AncelinD, AzoulayV, et al.
+Complications and revisions after semi-constrained total elbow arthroplasty: a mono-centre analysis of one hundred cases[J].
+Int Orthop,
+2016,
+40(
+1):
+73-
+80.
+DOI: 10.1007/s00264-015-3008-z.
+[103]
+BenichMR, LedouxWR, OrendurffMS, et al.
+Comparison of Treatment Outcomes of Arthrodesis and Two Generations of Ankle Replacement Implants[J].
+J Bone Joint Surg Am,
+2017,
+99(
+21):
+1792-
+1800.
+DOI: 10.2106/JBJS.16.01471.
+[104]
+武勇，赖良鹏，王岩,等.
+全踝关节置换治疗终末期踝关节炎疗效分析[J].
+中华骨科杂志,
+2015,
+35(
+7):
+699-
+706.
+DOI:10.3760/cma.j.issn.0253-2352.2015.07.002.
+WuY, LaiLP, WangY, et al. Total ankle replacement for end-stage ankle arthritis: outcome and indications[J]. Chin J Orthop, 2015, 35(7): 699-706. DOI:10.3760/cma.j.issn.0253-2352.2015.07.002.
+贡献者信息
+中华医学会骨科学分会关节外科学组
+历史
+出版日期：2018-06-16
+收稿日期：2018-02-24
+本文编辑
+闫富宏 马宏庆
+Guideline
+Chinese guideline for diagnosis and management of osteoarthritis（2018 edition）
+Osteoporosis Group of Chinese Orthopaedic Associationg
+Published
+2018-06-16
+Cite as
+Chin J Orthop, 2018,38(12): 705-715. DOI: 10.3760/cma.j.issn.0253-2352.2018.12.001
+Contributor Information
+Osteoporosis Group of Chinese Orthopaedic Associationg
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+髋关节骨关节炎的诊断标准
+1
+近1个月内反复的髋关节疼痛
+2
+红细胞沉降率≤ 20 mm/1 h
+3
+X线片示骨赘形成，髋臼边缘增生
+4
+X线片示髋关节间隙变窄
+注：满足诊断标准1+2+3条或1+3+4条，可诊断髋关节骨关节炎
+表2
+膝关节骨关节炎的诊断标准
+序号
+症状或体征
+1
+近1个月内反复的膝关节疼痛
+2
+X线片（站立位或负重位）示关节间隙变窄、软骨下骨硬化和（或）囊性变、关节边缘骨赘形成
+3
+年龄≥50岁
+4
+晨僵时间≤30 min
+5
+活动时有骨摩擦音（感）
+注：满足诊断标准1+（2、3、4、5条中的任意2条）可诊断膝关节骨关节炎
+表3
+指间关节骨关节炎的诊断标准
+序号
+症状或体征
+1
+指间关节疼痛、发酸、发僵
+2
+10个指间关节中有骨性膨大的关节≥2个
+3
+远端指间关节骨性膨大≥2个
+4
+掌指关节肿胀<3个
+5
+10个指间关节中有畸形的关节≥1个
+注：满足诊断标准1+（2、3、4、5条中的任意3条）可诊断指间关节骨关节炎；10个指间关节为双侧示、中指远端及近端指间关节、双侧第一腕掌关节
+图1
+骨关节炎的诊断与评估流程
+表4
+Kellgren & Lawrence分级
+分级
+描述
+0级
+无改变（正常）
+Ⅰ级
+轻微骨赘
+Ⅱ级
+明显骨赘，但未累及关节间隙
+Ⅲ级
+关节间隙中度狭窄
+Ⅳ级
+关节间隙明显变窄，软骨下骨硬化
+表5
+Outbridge分级
+分级
+描述
+0级
+正常
+S级
+软骨软化
+Ⅰ级
+软骨变软、肿胀
+Ⅱ级
+直径< 1.3 cm的破碎和裂开
+Ⅲ级
+直径 >1.3 cm的破碎和裂开
+Ⅳ级
+软骨下骨裸露
+图2
+OA阶梯化治疗示意图。底层为基础治疗，适用于所有OA患者；早期患者，依据患者的需求和一般情况，可选择适宜的基础治疗方案；病情加重，进入第二层药物治疗，在考虑患者发病的部位及自身危险因素的基础上，选择正确的用药途径及药物种类；病情进一步加重，在基础治疗和药物治疗无效的前提下进行手术治疗，手术方案需依据患者病变部位、病变程度、一般情况以及自身意愿综合考虑
+表6
+NSAIDs类药物治疗的危险因素评估
+序号
+上消化道不良反应高危患者
+心、脑、肾不良反应高危患者
+1
+高龄（年龄>65岁）
+高龄（年龄>65岁）
+2
+长期应用
+脑血管病史（有过中风史或目前有一过性脑缺血发作）
+3
+口服糖皮质激素
+心血管病史
+4
+上消化道溃疡、出血病史
+肾脏病史
+5
+使用抗凝药
+同时使用血管紧张素转换酶抑制剂及利尿剂
+6
+酗酒史
+冠脉搭桥术围手术期（慎用NSAIDs类药物）
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华骨科杂志2018年38卷12期
+文    题：骨关节炎诊疗指南（2018年版）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华骨科杂志2018年38卷12期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解

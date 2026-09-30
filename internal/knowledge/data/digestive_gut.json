@@ -650,7 +650,7 @@
  },
  {
   "id": "dg-ibs-overview",
-  "condition_zh": "肠易激综合征的患病与病因",
+  "condition_zh": "一紧张就拉肚子",
   "condition_en": "IBS prevalence in China, age pattern and post-infection risk",
   "category": "digestive_gut",
   "keywords": [
@@ -687,7 +687,7 @@
  },
  {
   "id": "dg-ibs-subtype",
-  "condition_zh": "肠易激综合征分型",
+  "condition_zh": "肠易激综合征腹泻型",
   "condition_en": "IBS subtyping by stool form (Bristol scale): D, C, M, U",
   "category": "digestive_gut",
   "keywords": [

@@ -1,0 +1,1817 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E8%82%A0%E6%98%93%E6%BF%80%E7%BB%BC%E5%90%88%E5%BE%81%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%E6%84%8F%E8%A7%81%282015%E5%B9%B4%EF%BC%8C%E4%B8%8A%E6%B5%B7%29.html
+# 标题: 中国肠易激综合征专家共识意见(2015年，上海) - 中华消化杂志
+# 发布方/日期: 中华医学会消化病学分会，中华消化杂志, 2016,36(5) : 299-312. DOI: 10.3760/cma.j；2016-05-15
+
+中国肠易激综合征专家共识意见(2015年，上海)
+中华医学会消化病学分会胃肠功能性疾病协作组
+中华医学会消化病学分会胃肠动力学组
+中华消化杂志, 2016,36(5) : 299-312. DOI: 10.3760/cma.j.issn.0254-1432.2016.05.005
+IBS是临床常见的一组以腹痛、腹胀、腹部不适伴排便习惯改变为主要症状的临床综合征。2003年我国即制订了IBS诊断与治疗共识意见，2007年又进行了修订。近些年来国内外对于IBS的诊治有了新的认识，特别是我国学者对于IBS的临床实践与研究不断深入，获得了不少国人的资料。因此，有必要结合我国的研究资料和国际最新的共识意见，对我国IBS共识意见进行更新。本共识意见分为定义与流行病学、病因与发病机制、诊断、治疗等4个部分，共28条。
+共识意见的修订采用了国际通用的Delphi程序。首先成立工作小组，工作小组专家在检索Medline、Embase、Cochrane图书馆和万方中文期刊数据库相关文献的基础上，起草共识意见初稿(共33个条目)。核心专家针对初稿面对面地进行了讨论，确定了30个条目供全国相关领域28位专家网上投票。经过两轮投票并参照专家建议进行修改，2015年8月15日组织全国28位专家在上海召开会议，会议上专家们对共识意见稿进行充分讨论，直至达成共识意见；共修改10条，删除3条，增加1条。共识意见分为6个推荐级别：A＋，非常同意；A，同意但有少许保留意见；A－，同意但有较多保留意见；D－，不同意但有较多保留意见；D，不同意但有少许保留意见；D＋，完全不同意。证据分为4个等级：高质量，进一步研究也不可能改变该评估结果的可信度；中等质量，进一步研究很有可能影响该评估结果的可信度，且可能改变该评估结果；低质量，进一步研究极有可能影响该评估结果的可信度，且很可能改变该评估结果；极低质量，任何评估结果都很不确定。
+定义与流行病学
+1．IBS是一种功能性肠病，以腹痛、腹胀或腹部不适为主要症状，排便后症状多改善，常伴有排便习惯[频率和(或)性状]的改变，缺乏临床常规检查可发现的能解释这些症状的器质性病变。
+证据等级：高质量7.4%，中等质量88.9%，低质量3.7%。
+推荐级别：A＋ 64.3%，A 28.6%，A－ 7.1%。
+在亚洲9个国家和地区(中国、印度、印度尼西亚、韩国、泰国、菲律宾、马来西亚、新加坡和中国台湾地区)的调查发现，中国IBS患者认为最困扰的症状依次为腹痛、腹部不适和腹胀[1]。虽然既往罗马Ⅲ诊断标准并未将腹胀列为IBS的主要症状[2]，但腹胀在中国IBS患者的发生比例(52.8%)比较高，应将其列入诊断标准并在IBS定义中得以体现。罗马Ⅲ标准中强调：诊断IBS时应排除可解释肠道症状的形态学和生物化学异常，但越来越多的研究发现，与健康对照组相比，IBS存在炎性标志物、肠道微生态、肠黏膜通透性、基因表型、神经递质受体分子和中枢神经系统对疼痛处理的异常等[3]。因此，本工作小组专家提出缺乏临床常规检查可发现的能解释患者症状的器质性病变即为IBS。
+2．我国普通人群IBS总体患病率为6.5%，患病率因地域、调查方法、调查对象和诊断标准不同有较大差异，大学生和中、小学生患病率较高。
+证据等级：高质量10.7%，中等质量82.2%，低质量7.1%。
+推荐级别：A＋25.0%，A 67.9%，A－7.1%。
+中国已报道的IBS相关流行病学调查有数十项，但不同调查检出的IBS患病率差异较大，这与研究对象的选取、所采用的调查方法和诊断标准不同有关[4,5]。Meta分析显示中国人群IBS患病率为1.0%～16.0%，总体患病率为6.5%，其中符合Manning标准的患病率为11.8%，符合罗马Ⅱ标准的患病率为4.4%，符合罗马Ⅲ标准的患病率为8.9%[6]。大学生中符合罗马Ⅱ标准的IBS患病率为15.7%[7]，中、小学生符合罗马Ⅱ诊断标准的IBS患病率为20.2%[1]。
+3．女性IBS患病率略高于男性；各个年龄段均有发病，但中青年更为常见，老年人IBS患病率有所下降。
+证据等级：高质量7.1%，中等质量57.2%，低质量28.6%，极低质量7.1%。
+推荐级别：A＋ 11.1%，A 81.5%，A－ 7.4%。
+不同国家的调查表明，女性IBS患病率高于男性，女性患病率在14%～24%之间，男性则在5%～19%之间。中国报道男女患病率比在1∶1～1∶2.85之间，绝大多数为1∶2左右[1]。广东省的调查显示IBS男女患病率为1∶1.34(Manning标准)和1∶1.25(罗马Ⅱ标准)[4]。大学生中符合罗马Ⅱ标准的男性IBS患病率为14.5%，女性为16.8%[7]。Meta分析也显示我国女性IBS患病率(8.1%)略高于男性(6.8%)。IBS症状可发生于任何年龄组，各年龄组患病率有所不同，以中青年较高，其中30～59岁患病率为6.9%，老年人患病率有降低的趋势[4,6,8]。我国IBS患病率在城乡间无显著差异，是否接受过高等教育对IBS患病风险无显著影响[4]。
+4．饮食因素可诱发或加重IBS症状；肠道感染是国人IBS的危险因素。
+证据等级：高质量10.7%，中等质量67.9%，低质量21.4%。
+推荐级别：A＋ 48.1%，A 48.1%，A－ 3.8%。
+饮食因素是诱发或加重IBS症状的主要因素[9,10]。饮食因素主要包括免疫性(食物过敏)和非免疫性(食物不耐受)两方面。有食物过敏史者患IBS的危险性增加[9]。但真正食物过敏引起IBS并不常见，大多数研究倾向于认为食物不耐受才是IBS的主要危险因素。20%～67%的IBS患者诉有食物不耐受，其发生率明显高于健康人群。国外研究认为，发酵性寡糖、双糖、单糖及多元醇(fermentable oligosaccharides, disaccharides, monosaccharides and polyols，FODMAP)在IBS的发病中起重要作用。
+FODMAP饮食在小肠难以被吸收，升高肠腔渗透压，在结直肠中易被发酵产气，从而引起腹痛、腹胀、腹部不适等IBS症状。由于中西方饮食差异较大，并且相关临床研究缺乏，FODMAP饮食在我国IBS发病中的作用并不清楚。
+国内外研究均表明肠道感染是IBS重要发病因素。有肠道感染史者IBS患病率为9.8%，明显高于对照组(1.2%)[11]。我国的Meta分析资料证实有肠道感染史者IBS的患病风险增加(OR＝2.39)[4,6,12]。国人患痢疾或肠炎时腹泻的病程越长，以后发生肠功能紊乱的风险性就越高[12]。
+5. IBS影响患者的生命质量。
+证据等级：高质量35.7%，中等质量60.7%，低质量3.6%。
+推荐级别：A＋ 81.5%，A 18.5%。
+IBS给个人和社会带来很大影响，严重影响患者的工作、学习和生活，降低患者的生命质量[4,13]。即便如此，仍有很大一部分符合IBS症状的人群并未到医院就诊。发作时腹痛持续时间长、具有肠外症状促使患者就医[14]，世界各地IBS就诊率约为30%，我国约为22.4%[4]。频繁就诊者多有心理障碍，如焦虑症、抑郁症，或有更多的童年身体或性方面的受虐史，或有神经质，或得到来自家庭、社会、亲人和朋友的社会支持差[15]。
+病因与发病机制
+6．IBS的病因和发病机制尚未完全阐明，目前认为是多种因素共同作用的结果。
+证据等级：高质量32.1%，中等质量60.8%，低质量7.1%。
+推荐级别：A＋ 72.0%，A 28.0%。
+世界范围内包括欧美、亚太、日本和中国等对IBS发病机制的研究发现，遗传因素、精神心理异常、肠道感染、黏膜免疫和炎性反应、脑-肠轴功能紊乱、胃肠道动力异常、内脏高敏感、食物不耐受和肠道菌群紊乱等多种因素参与IBS发病[16,17,18,19]。
+IBS的各种病理生理机制并非各自独立，而是相互作用、相互联系，其中，胃肠道动力异常和内脏高敏感是IBS主要的病理生理基础。
+7．肠道动力异常是IBS的重要发病机制，不同IBS亚型肠道动力改变有所不同。
+证据等级：高质量10.7%，中等质量67.9%，低质量21.4%。
+推荐级别：A＋ 46.4%，A 50.0%，A－ 3.6%。
+消化道动力异常是IBS病理生理机制的重要方面。IBS患者的动力异常主要表现在结肠。研究发现IBS患者结肠运动异常，与健康对照者比较，IBS患者进餐后结肠运动增加，乙状结肠收缩幅度增加，推进性蠕动频率增加，非推进性蠕动频率变化较小[20]。另有研究发现乙状结肠球囊扩张可增加IBS患者结肠运动和收缩幅度[21,22]。除结肠外，IBS患者的食管和胃、小肠、肛门和直肠，甚至胆囊等在一定程度上也存在动力学异常[23,24,25,26]。
+IBS胃肠运动的改变缺乏特异性。在使用不透X线标志物的研究中，各亚型间的结肠传输时间不尽相同。便秘型IBS患者结肠传输时间延长，腹泻型IBS患者结肠传输时间缩短，混合型与未定型IBS患者结肠传输时间不定[27,28]。粪便的性状与结肠传输时间相关[29]。
+8．内脏高敏感是IBS的核心发病机制，在IBS症状发生和疾病发展中有重要作用。
+证据等级：高质量32.1%，中等质量64.3%，低质量3.6%。
+推荐级别：A＋ 60.7%，A 39.3%。
+绝大多数研究证实，IBS患者存在内脏高敏感，即肠道对刺激的感受性增强，是IBS腹痛、腹胀等腹部不适症状发生的核心病理生理机制[30]。①IBS患者对结直肠扩张(压力)刺激敏感：IBS患者直肠感觉阈值和顺应性下降，中枢内脏躯体痛觉感知区域与健康对照者相比增加[31]，内脏敏感性明显增加[32,33]。不同IBS亚型内脏感觉的改变不同，腹泻型IBS直肠感觉阈值下降，直肠最大耐受压力降低，无论腹泻型还是便秘型IBS患者的疼痛阈值均比对照组降低，腹泻型IBS比便秘型IBS排便阈值低[34]。②IBS患者对温度(包括冰水)的刺激呈高敏感：IBS患者行直肠温度刺激后，内脏感觉阈值显著下降[35]。IBS患者饮冷水后内脏感觉阈值降低，腹泻型IBS患者的感觉阈值降低与腹部症状呈负相关[36]。③IBS的内脏高敏感还表现为对生理刺激(进餐)的高反应性：进食后可诱发与内脏高敏感有关的症状，包括腹痛、腹胀、饱胀或胀气，以及排便急迫感[37,38]。腹泻型IBS患者排便不尽感与餐后直肠高敏感和高顺应性引起的肠蠕动增加显著相关[39]。
+内脏高敏感的产生机制主要涉及内脏初级传入神经致敏、脊髓后角神经元兴奋性增加和中枢感觉异常。临床上大多数IBS患者有与症状相关的感觉异常，内脏高敏感可以放大胃肠动力事件而产生症状。内脏高敏感的改变可能与疾病的活动有关。我国IBS患者存在广泛内脏高敏感，不仅直肠和结肠表现为内脏高敏感，消化道其他区域如空肠、食管也可表现为内脏高敏感。
+9．中枢神经系统对肠道刺激的感知异常和脑-肠轴调节异常可能参与IBS的发生。
+证据等级：高质量14.3%，中等质量78.6%，低质量7.1%。
+推荐级别：A＋ 39.3%，A 53.6%，A－ 7.1%。
+脑-肠轴是将胃肠道与中枢神经系统联系起来的神经-内分泌网络，对胃肠道各种功能进行调控。IBS患者存在脑-肠轴功能调节异常，主要表现在中枢神经系统对肠道刺激的感知异常与神经-内分泌系统调节异常[40,41]。
+功能性磁共振(functional magnetic resonance imaging，fMRI)发现，IBS患者脑部代谢和内脏感觉的中枢通路与健康人有较大差异。Meta分析表明，给予IBS患者结直肠扩张可激活前扣带皮质、杏仁核和中脑[42]。内脏高敏感IBS患者背外侧前额叶皮质、脑岛、海马和上前扣带回活动明显增强[43,44]。IBS患者疼痛活化的前扣带回皮质和上前扣带回皮质活动增强与焦虑症状有关；前额叶皮质和小脑区与抑郁症状有关[45]。长期反复出现内脏疼痛的IBS患者有大脑内微观结构的变化，特别是在与融合感觉信息和皮质丘脑调节有关的区域[46]。国内学者研究发现IBS患者存在脑部自发电位活动改变，参与内脏传入信息和躯体痛处理有关的大脑区域间连接网络活动的变化[47]，以及中枢神经系统对肠道刺激的感知异常[48]，其前扣带回、杏仁核、前额叶皮质和丘脑等脑区活动发生改变[49]。但目前仍不能确定这些改变与症状的特异性关系。
+IBS患者大脑相应脑区活化后，继而引起神经、内分泌通路的改变，致敏肠神经系统，包括肠神经重构和神经内分泌递质释放异常等。神经-内分泌递质在IBS患者脑-肠轴中起到了桥梁和调控功能的作用。5-羟色胺(5-hydroxy tryptamine)是胃肠道的关键神经递质之一，影响肠道的动力、感觉和分泌等功能，IBS患者5-羟色胺增加，通过脑-肠轴调节，最终可影响胃肠道动力和内脏感觉功能[50,51]。国内外研究发现腹泻型IBS患者进食标准餐或冰水后血浆5-羟色胺和5-羟吲哚乙酸(5-hydroxyinde leacetic acid)水平升高[52]，结肠黏膜5-羟色胺阳性细胞与5-羟色胺3受体表达上调，并与患者临床症状有一定的关系[53,54]。除了5-羟色胺外，促肾上腺激素释放激素(corticotropin releasing hormone，CRH)的介质作用也越来越受到重视，研究发现先给予心理应激，再进行直肠扩张的IBS患者其血浆CRH水平明显升高[55]。
+10．肠道微生态失衡可能与IBS有关。
+证据等级：高质量3.8%，中等质量57.7%，低质量38.5%。
+推荐级别：A＋ 50.0%，A 35.7%，A－ 14.3%。
+大量研究资料证实IBS患者存在肠道微生态失衡[56,57]。肠道微生态失衡包括微生物构成比例的改变或微生物代谢活性的改变。目前关于IBS微生物比例失衡的国外研究显示，IBS患者粪便乳酸菌和双歧杆菌的水平降低，由链球菌和大肠埃希菌为主的兼性厌氧菌水平升高，厚壁菌门的比例增加，拟杆菌和厌氧生物体(如梭菌)数量增加[58]，厚壁菌对拟杆菌的比例(Firmicutes to Bacteroidetes ratio，FBR)增加[59]，同时发现菌群多样性减少[60]，黏膜相关菌群数量增多和成分改变[61]。国内学者研究发现IBS患者同样存在肠道微生态失衡，表现为粪便肠杆菌增加，双歧杆菌和乳杆菌减少，肠道菌群定植抗力受损[62,63]。国内外Meta分析结果显示益生菌治疗可显著改善IBS患者症状[64,65]。
+此外，IBS患者存在明显的小肠细菌过度生长[66]。一项Meta分析纳入12项病例系列研究和病例对照研究，氢呼气试验检测提示IBS患者小肠细菌过度生长的发生率高[67]。另一项Meta分析纳入11项病例对照研究发现，IBS患者氢呼气试验异常发生率是对照组的4.46倍[68]。
+11．肠道感染和免疫因素可能参与部分IBS的发病。
+证据等级：高质量21.4%，中等质量53.6%，低质量21.4%，极低质量3.6%。
+推荐级别：A＋ 51.9%，A 37.0%，A－ 7.4%，D－ 3.7%。
+约1/4的IBS患者症状起自胃肠炎、痢疾或其他直接影响胃肠功能的感染性疾病[69]，称为感染后IBS。研究证实各种细菌、病毒感染因素促使肠黏膜肥大细胞或者其他免疫炎性细胞释放炎性细胞因子，引起肠道功能紊乱而发生IBS[70]。感染后IBS患者肠道黏膜可持续存在低度炎性反应，肥大细胞、肠嗜铬细胞、T淋巴细胞、中性粒细胞等黏膜浸润增多[71]，并释放多种生物活性物质，诱发免疫炎性细胞因子风暴反应[72]，如IL-1β，IL-6，IL-10，TNF-α等表达增加。这些细胞因子作用于肠道神经和免疫系统，削弱肠道黏膜屏障作用，致黏膜通透性增加[73]，并影响肠道动力和感觉，从而产生IBS症状。国内学者在IBS免疫-炎性反应激活方面也做了大量研究，发现IBS患者外周血CD8细胞水平升高，CD4细胞水平下降，CD4/CD8比值水平下降[74]，黏膜非特异性炎性反应区域Th17增加[75]。腹泻型IBS患者肠黏膜IL-12和IFN-γ升高，而IL-4和IL-10降低[76]。感染后IBS患者肠黏膜IFN-γ水平和IL-1β mRNA表达量升高，IL-10水平降低，提示感染影响Th1/Th2平衡[77,78]。这些研究均表明免疫-炎性激活可能在IBS的发病中起作用。
+IBS作为功能性肠道疾病，长期以来被认为不存在形态学的改变，而IBS患者肠道的低度炎性反应改变了这一说法[79]，但并非所有IBS患者都存在炎性反应，且这种肠道低度炎性存在的原因尚不明确，有待于进一步研究。
+12．精神心理因素与部分IBS密切相关。
+证据等级：高质量42.9%，中等质量46.4%，极低质量10.7%。
+推荐级别：A＋ 71.4%，A 28.6%。
+相当比例的IBS患者伴有不同程度的精神心理障碍，包括焦虑、紧张、抑郁、失眠和神经过敏等。IBS患者的焦虑抑郁评分均较健康人增高[80,81]，焦虑和抑郁发生率高[82,83]。抑郁或焦虑障碍是IBS的危险因素，严重影响其发生、发展和预后。
+国内外临床研究发现，IBS患者在情感学习、认知行为能力、心理压力和精神心理等多方面存在能力障碍与缺陷[44,84,85,86,87]。
+精神心理因素通过多种机制参与IBS的发病，适用于理解IBS病理生理学的生物心理模型假设如下：精神心理因素与周围/中央神经内分泌和免疫系统的相互作用，可能导致IBS症状，调节症状的严重程度，影响疾病的发展和生命质量[88]。精神因素与消化道生理功能之间通过脑-肠轴相互影响，可以改变肠道运动，提高内脏的敏感性，调节肠道菌群，激活肠道黏膜炎性反应，诱导免疫激活并且影响肠上皮功能等，在IBS发病机制中起重要作用[89]。
+诊断
+13．依据罗马Ⅲ标准诊断IBS主要基于患者的症状，该标准适合中国人群IBS的诊断和分型。
+证据等级：高质量11.1%，中等质量85.2%，低质量3.7%。
+推荐级别：A＋ 59.3%，A 33.3%，A－ 3.7%，D－ 3.7%。
+罗马Ⅲ标准对IBS的诊断主要基于患者的症状[90,91]。国内外研究资料均表明罗马Ⅲ标准对IBS的诊断优于或等同于罗马Ⅱ标准[91,92,93]；采用罗马Ⅲ标准在国内进行的多项研究表明，该标准对症状频率的定义清晰，分型方法相对简单[92,93,94]，适合在我国临床应用。应用罗马Ⅲ标准时，要充分考虑我国IBS患者临床表现的特殊性，如与排便相关的腹胀，包括上腹胀[94,95,96]；在依据Bristol粪便性状量表诊断便秘型IBS时，应包括1型至3型粪便[3]。
+国内2007年的研究资料表明，在就诊的IBS患者中此前已诊断为IBS的比例不足5%[97]；罗马Ⅲ诊断标准中采用6个月的病程可提高对IBS的诊断率，使近1/7以罗马Ⅱ标准(要求病程至少12个月)不能诊断的患者得到了早期诊断[98]，没有发现因病程缩短而将器质性疾病误诊为IBS的现象。罗马Ⅲ标准强调近3个月症状频率至少为每个月3 d，用该标准诊断的IBS患者近3个月的就诊率较高(35.6%)[93]，提示更多患者需要治疗。IBS占我国三级甲等医院接受结肠镜检查患者的31.8%[96]。IBS患者接受内镜检查、胆囊切除和子宫切除等手术的比例明显高于非IBS患者[3,99,100]。因此，对表现为反复腹痛、腹胀或腹部不适的患者，要特别注意询问症状与排便的关系，在可排除器质性疾病的基础上，尽早做出IBS诊断，可避免不必要的检查和手术。国外对诊断为IBS的患者进行追踪，5年后和普通人群比较，IBS患者结直肠癌的风险并无增加[100]。
+14．对有警报征象的患者，要有针对性地选择进一步检查排除器质性疾病。警报征象包括：年龄>40岁、便血、粪便隐血试验阳性、贫血、腹部包块、腹水、发热、体质量减轻、结直肠癌家族史。
+证据等级：高质量7.4%，中等质量70.4%，低质量22.2%。
+推荐级别：A＋ 36.0%，A 44.0%，A－ 16.0%，D－ 4.0%。
+与排便相关的腹痛、腹胀和腹部不适并非IBS的特异性症状[101]。美国的研究资料表明，拟诊为非便秘型IBS患者不伴有警报征象时，结肠镜检出的器质性疾病(如腺瘤)较少[102]。国内李晓波等[103]的资料表明，在结肠镜检查发现恶性肿瘤、结直肠良性器质性疾病和无异常发现的患者中，有警报症状者分别占81.9%、48.5%和14.8%；年龄>40岁、便血、黑便和贫血有助于鉴别器质性疾病和功能性疾病。对有IBS样症状的患者应常规询问是否存在警报征象。综合国内外研究资料和我国结直肠癌筛查、诊治现状[104,105,106]，本工作组专家提出IBS的警报征象包括：年龄>40岁新发病患者、便血、粪便隐血试验阳性、贫血、腹部包块、腹水、发热、体质量减轻、结直肠癌家族史。对有警报征象的患者要有针对性地选择进一步检查排除器质性疾病。
+15．便秘型IBS与功能性便秘有所不同，前者腹痛、腹部不适表现突出，且排便后腹痛症状改善。
+证据等级：高质量3.7%，中等质量51.9%，低质量37.0%，极低质量7.4%。
+推荐级别：A＋ 11.1%，A 63.0%，A－ 18.5%，D＋ 7.4%。
+便秘型IBS和功能性便秘同属功能性肠病，均可表现为便秘，前者以腹痛、腹部不适为主要表现，腹部症状与排便和便秘相关。有资料表明，89.5%的便秘型IBS患者同时符合功能性便秘的诊断；而在符合功能性便秘诊断标准的患者中，43.8%符合便秘型IBS的诊断[107]。罗马Ⅲ专家对IBS诊断标准的释义中强调，当患者症状能诊断便秘型IBS时，不再考虑功能性便秘的诊断[91]。区分诊断便秘型IBS和功能性便秘对治疗具有一定的指导意义[108]。中国香港的一项前瞻性研究发现，在诊断为便秘型IBS和功能性便秘的患者中，各有1/3在1年后其诊断发生转换[109]。
+16．IBS常与功能性消化不良、GERD等重叠。
+证据等级：高质量53.8%，中等质量46.2%。
+推荐级别：A＋ 88.9%，A 11.1%。
+不论是普通人群中有IBS症状者，还是就诊的IBS患者，合并消化不良、胃食管反流症状均很常见[110,111,112,113,114]。在用罗马Ⅲ标准诊断的IBS患者中，有31.5%同时符合功能性消化不良的诊断；同样，在功能性消化不良患者中，24.8%同时符合IBS的诊断[113]。平均37.5%的IBS患者合并胃食管反流症状[115]。有症状重叠的IBS患者其肠道症状更严重[116]。在亚洲和中国，IBS患者常表现为上腹部症状，与进餐有关，症状与排便有明显相关性且伴有排便习惯和性状的改变，更支持IBS的诊断[98,116]。诊断IBS并不排除对其他功能性胃肠病的诊断[91]。
+17．IBS严重程度和肠道症状、肠道外症状、精神心理状态和生命质量有关，应从多方面评估IBS的严重程度。
+证据等级：高质量3.7%，中等质量88.9%，低质量7.4%。
+推荐级别：A＋ 33.3%，A 63.0%，A－ 3.7%。
+除腹部症状和排便异常外，IBS患者常合并肠道外症状、精神心理异常，且生命质量明显下降[94,113,117]。肠道症状、肠道外症状和合并的精神心理障碍均对患者的生命质量造成影响[112,118,119]，生命质量下降成为患者就诊的主要原因之一。IBS严重程度取决于患者的肠道症状、肠道外症状、疾病对生命质量的影响(伤残程度)、患者与疾病相关的感受和应对方式[120]。诊断IBS时，特别是对严重的病例，从多维度进行临床评估对治疗具有重要指导意义。罗马标准专家委员会推荐的多维度临床资料剖析包括以下5个方面：①按罗马标准做出的疾病诊断，②对治疗有指导意义的分型，③疾病对患者的影响，④精神状态和社会活动，⑤生理功能异常和(或)标志物[121]。
+治疗
+18．IBS的治疗目标是改善症状，提高患者的生命质量。需要制订个体化治疗策略。
+证据等级：高质量24.0%，中等质量72.0%，低质量4.0%。
+推荐级别：A＋ 68.0%，A 32.0%。
+IBS对患者最主要的危害是腹痛、腹胀、腹部不适和排便障碍等主观痛苦感受，以及对生命质量(包括社会功能)的影响。其具有反复发作的特点，目前尚无法"治愈"。2项长期的研究结果显示，经过充分的干预，患者腹痛和粪便性状等获得改善，短期内(1～3个月内)有85%的患者症状改善，有65%的患者在随访5年期间症状得以改善，但并未完全消失[122,123]。因此，IBS的治疗目标是改善IBS症状，提高生命质量，恢复患者的社会功能，而非治愈疾病[124]。
+IBS的病因和发病机制复杂，极具个体化特征，故处置策略亦应遵从个体化原则。即针对每例IBS患者，均需要个体化细致分析病因、病理生理改变、分型、心理因素、诱发因素等。需考虑到所有的症状及其背后的病理生理学环节。分析病因时，特别要重视精神心理和社会生活因素，尽管患者所合并的精神心理障碍的程度可能尚未达到精神疾病的专业诊断标准[125]，但仍应该引起足够的重视[116]。
+19．IBS处置过程中应建立良好的医患沟通和信任关系。
+证据等级：高质量16.0%，中等质量60.0%，低质量24.0%。
+推荐级别：A＋ 95.8%，A 4.2%。
+临床医师与IBS患者之间建立良好的沟通和信任关系，能够帮助医师准确把握病因和病理生理学的关键环节，正确选择治疗策略，取得患者的理解和配合也是获得满意疗效的前提。医师在IBS的处置实践中应尽量做到[126]：①真正了解和把握患者的关切点。尽量用客观的证据解释患者的症状，使患者确信IBS不危及生命，消除患者的恐病疑虑状态。②尽可能取得患者的配合，准确把握和区分各种致病因素对症状的不同影响，使患者正确理解症状的病理生理变化。③努力使患者充分理解并自愿接受治疗。帮助患者建立合理的生活方式，明确行为改善的目标，增强对治疗措施的依从性。医师与患者的良好沟通，以及对症状的解释，对于近期和远期症状改善均优于对照组[123]。
+20．避免诱发或加重症状的食物，调整相关的生活方式对改善IBS症状有益。
+证据等级：高质量8.3%，中等质量70.8%，低质量16.7%，极低质量4.2%。
+推荐级别：A＋ 52.0%，A 48.0%。
+限制的食物种类包括：①富含FODMAP等成分的食物，②高脂肪、辛辣、麻辣和重香料的食物，③高膳食纤维素食物可能对便秘有效(但对腹痛和腹泻不利)[123]，④一旦明确食物过敏原，应避免摄入含有该过敏原成分的食物。
+随机交叉研究显示低FODMAP饮食能较好改善IBS患者腹痛、腹胀症状，提高患者对排便的满意度[127]。但低FODMAP饮食的长期疗效、安全性和是否适用于所有IBS患者尚不清楚，尤其是我国IBS患者。Meta分析证实，富含膳食纤维素的食物可以增加便秘型IBS患者的排便次数，改善粪便性状，但对腹痛无明显作用[125]。除考虑食物成分以外，还应该考虑食物的物理性状、进食习惯等诸多方面。
+不被耐受的食物类型较杂，种类繁多。研究显示不被耐受的食物约有60种以上，40%的患者每人有6种或以上食物不耐受。食物不耐受也可能与饮食行为不当和精神心理因素有关，尤其是女性IBS患者[128,129]。IBS症状发作期和缓解期对食物耐受性也有不同，所采用的饮食方案也应有所区别。关于食物过敏的检测研究显示，只有IgG阳性的食物成分摄入与IBS症状有关联，而IgE无确定的关联。避免食物过敏原IgG测试阳性的食物12周，IBS症状显著改善[130]。
+有限的研究认为，生活方式和社会行为的调整能够减轻IBS症状。如减少烟酒摄入、注意休息、充足睡眠等行为改善，每周3～5次高负荷的体格锻炼，坚持12周后，明显阻止IBS症状恶化[131]。
+21．认知治疗是IBS治疗中的必要环节。
+证据等级：中等质量66.7%，低质量33.3%。
+推荐级别：A＋ 50.0%，A 50.0%。
+一定程度上，IBS患者对疾病的病因和危害的不恰当认知是导致其就医的主要原因，有时超过其症状本身，故认知治疗非常重要。部分患者如能克服疑虑，其症状就可明显减轻，以至于不影响日常生活。认知治疗，以及针对治疗策略的良好沟通，能够显著提高安慰剂对IBS患者的近期和远期疗效[132,133]。
+认知治疗的内容和目标是使患者充分了解IBS属于"功能性疾病"的本质，让患者了解：①IBS是功能性疾病；②没有证据显示IBS可以直接进展成严重的器质性疾病或恶性肿瘤；③通过生活方式调整，以及适当的药物治疗，多数患者的IBS症状是可以比较理想地得到改善；④IBS症状有可能复发，但调整生活方式可能预防症状复发。
+22．解痉剂可以改善腹泻型IBS患者总体症状，对腹痛疗效较明显。
+证据等级：中等质量88.9%，低质量3.7%，极低质量7.4%。
+推荐级别：A＋ 42.4%，A 53.8%，A－ 3.8%。
+多项随机双盲安慰剂对照研究和Meta分析证实解痉剂可以有效缓解IBS患者腹痛症状，对腹泻型IBS患者的腹痛和(或)腹部不适疗效优于安慰剂，并改善IBS总体症状[134]，我国近期的多中心随机双盲对照研究也证实匹维溴铵可显著改善腹泻型IBS患者腹痛和总体症状[135]。IBS患者肠道平滑肌痉挛与患者疼痛等症状有关，选择性肠道平滑肌钙离子拮抗剂(匹维溴铵、奥替溴铵、西托溴铵、美贝维林、阿尔维林)或离子通道调节剂(曲美布汀)可以直接作用于平滑肌相应离子通道，缓解平滑肌痉挛。国际多个指南和共识意见将其列为一线药物[3]，但前期随机双盲研究的样本例数不多、试验方法评分不高且缺乏长期疗效证据，因此专家认为其证据等级不高。
+23．止泻药物可以有效缓解IBS腹泻症状。
+证据等级：高质量3.8%，中等质量48.1%，低质量48.1%。
+推荐级别：A＋ 14.8%，A 66.7%，A－ 18.5%。
+临床止泻药物较多，但只有洛哌丁胺的随机双盲安慰剂对照研究证实其可以显著降低IBS患者排便频率，增加粪便硬度，以及改善排便失禁症状，安全性与安慰剂无差异。洛哌丁胺通过作用于肠道平滑肌阿片受体，延缓肠道传输，从而增加肠道水分吸收，还可降低肛门直肠敏感性。国际指南和共识意见推荐适用于有进餐后腹泻和(或)排便失禁症状患者，或腹泻症状发作前1～2 h预防性短期服用[136]，但洛哌丁胺对腹痛和腹部不适症状的疗效与安慰剂无差异，对腹泻型IBS总体症状疗效不优于安慰剂[137]，且有关洛哌丁胺治疗IBS的研究较少，样本例数少，尚无长期应用的报道。
+其他治疗腹泻型IBS的重要药物还有阿洛司琼和viberzi(eluxadoline)。阿洛司琼是5-羟色胺3受体拮抗剂，可显著改善患者腹痛、腹泻症状[138]，但因缺血性肠炎的严重不良反应，美国FDA批准用于常规治疗无效的女性腹泻型IBS患者。viberzi是选择性μ-阿片类受体激动剂/δ-阿片类受体拮抗剂，可以改善患者腹痛和腹泻症状[139]，2015年被美国FDA批准用于腹泻型IBS的治疗。
+24．利福昔明可改善非便秘型IBS总体症状以及腹胀、腹泻症状。
+证据等级：高质量29.6%，中等质量55.6%，低质量14.8%。
+推荐级别：A＋ 18.5%，A 74.1%，A－ 7.4%。
+多项大样本随机双盲安慰剂对照研究和Meta分析证实，短期使用利福昔明可以改善非便秘型IBS患者总体症状和腹痛、腹胀、腹泻等症状，疗效显著优于安慰剂和新霉素等其他肠道不吸收的抗生素，安全性与安慰剂无差异[140,141]。
+随机双盲对照研究证实利福昔明对IBS的疗效与患者氢气呼气试验转阴有关，对有腹胀和(或)肠道产气增多等菌群失调症状的患者疗效更佳[140]，利福昔明治疗IBS的机制可能与调节肠道细菌有关[142]。美国FDA近期已批准利福昔明用于临床治疗非便秘型IBS。仅有1篇随机双盲对照研究表明利福昔明对防止IBS症状复发有效[143]，其长期使用疗效，大范围使用后耐药情况，是否需要证实患者存在肠道菌群失调，以及价-效比等均是今后需要考虑的问题。
+25．渗透性泻剂可用于缓解便秘型IBS的便秘症状。
+证据等级：高质量19.2%，中等质量69.2%，低质量11.6%。
+推荐级别：A＋ 26.9%，A 69.3%，A－ 3.8%。
+用于改善IBS患者便秘症状的泻剂品种较多，对既往研究的回顾性分析表明，容积性泻剂可能加重腹胀和腹痛症状，刺激性泻剂可导致腹部绞痛。渗透性泻剂中，乳果糖可增加腹胀症状。2项随机双盲安慰剂对照研究表明，聚乙二醇可以显著增加便秘型IBS患者自主排便频率，降低粪便硬度，有效缓解患者便秘症状，安全性高[144,145]，美国FDA已批准聚乙二醇用于临床治疗便秘型IBS，但渗透性泻剂不能改善腹痛、腹胀和总体症状。
+利那洛肽是鸟苷酸环化酶-C激动剂，可增加肠液分泌，加快胃肠道移行，降低痛觉神经的敏感度，多项随机双盲安慰剂对照研究证实，其可显著增加便秘型IBS患者自主排便频率，缓解腹痛症状[146]，美国FDA已批准用于便秘型IBS患者，国内正在进行Ⅲ期临床试验。鲁比前列酮可显著增加便秘型IBS患者自主排便频率和改善腹痛症状，美国FDA批准其用于18岁以上女性便秘型IBS患者。
+26．益生菌对改善IBS症状有一定疗效。
+证据等级：高质量11.6%，中等质量69.2%，低质量19.2%。
+推荐级别：A＋ 32.0%，A 56.0%，A－ 12.0%。
+多项随机双盲安慰剂对照研究和Meta分析表明，益生菌可以改善IBS患者腹胀、腹痛、腹泻、便秘和总体症状，且安全性与安慰剂相似[64,147,148,149]。国外指南和共识意见推荐用于治疗IBS，但目前益生菌的治疗机制尚不明确，具体起效的细菌种属和菌株也不清楚，导致研究方法、结果偏差较大，有关益生菌的最佳种属、剂量、组合和治疗疗程等均难以得出结论性意见。
+27．抗抑郁焦虑药可试用于IBS的治疗。
+证据等级：高质量13.0%，中等质量78.3%，低质量8.7%。
+推荐级别：A＋ 70.8%，A 25.0%，A－ 4.2%。
+抗抑郁药物治疗的适应证：①合并明显精神心理障碍。针对这部分患者，抗抑郁药物治疗比单纯针对IBS症状治疗更有效，对改善患者生命质量的效果明显优于常规药物[150]。②常规药物治疗效果不好。对于没有精神心理障碍的患者，如果常规药物治疗4～8周不理想时推荐采用抗抑郁药物治疗。
+小剂量三环类抗抑郁药物(tricyclic antidepressants，TCA)和5-羟色胺再摄取抑制剂(selective serotonin reuptake inhibitors，SSRI)可以缓解IBS总体症状和腹痛症状，即使对于没有明显伴随精神和心理障碍表现的患者也有效[151,152]。然而，也有研究显示，TCA和SSRI对IBS排便相关症状的改善并不优于容积性泻剂和解痉药物。
+抗焦虑药物或镇静剂亦能够有效改善IBS症状，但只推荐短期应用于有显著焦虑情绪或行为的患者[153,154]。
+心理治疗主要用于对常规药物没有反应的患者，包括分组集体疗法、认知疗法、人际关系疗法、催眠疗法、应激管控和放松治疗等[155,156,157,158]。
+IBS患者伴有的精神和心理障碍达到显性专业诊断程度时，应由精神专科资质的医师诊断和处置。符合以下条件是尽早转诊精神专科的红色警报信号[159]：①严重抑郁，可能伴有自杀倾向；②慢性顽固性疼痛；③严重的社会功能丧失；④不良的疾病适应行为；⑤医患沟通困难；⑥偏执的健康理念；⑦其他可识别的精神问题(躯体化障碍、创伤后应激障碍、重度焦虑)；⑧导致持续痛苦和(或)明显的痛苦受虐史。
+28．中医药可能对改善IBS症状有一定疗效。
+证据等级：中等质量21.7%，低质量78.3%。
+推荐级别：A 19.0%，A－ 61.5%，C 11.5%，D－ 4.0%，D 4.0%。
+近年来有关中药和针灸治疗IBS的随机双盲安慰剂对照研究不少，可以有效改善IBS患者腹痛、腹胀、腹泻、便秘和总体症状，安全性与安慰剂相似，数个Meta分析也证实了这一结果[160,161]。但中医药治疗IBS方剂较多、成分复杂，导致难以固定组方，安慰剂效应难以排除。近年的Meta分析研究针灸治疗IBS的随机双盲对照试验，发现研究方法和结果偏差较大，无法进行分析[162]。因此，虽然中医药对治疗IBS在临床上表现出一定的疗效，但是仍需要进一步大样本更高质量的研究证实。
+工作小组专家
+工作小组专家：刘劲松，熊理守，左秀丽，方秀才，陈胜良，陈旻湖，侯晓华
+现场与网上投票专家(按姓氏汉语拼音排序)：戴菲，戴宁，范红，房殿春，冯桂建，霍继荣，蓝宇，梁列新，廉亚美，李延青，林琳，刘诗，罗和生，吕宾，孟凡冬，彭丽华，尚占民，苏秉忠，孙晓红，汪安江，王邦茂，王承党，王春晖，王琳，汪荣泉，夏志伟，袁耀宗，余跃，张玲，张振书，张军，赵威，邹多武
+参考文献
+[1]
+李定国，周惠清，宋艳艳，等.
+全国城市中小学生肠易激综合征现况调查[J].
+中华内科杂志，
+2007,
+46(
+2)：
+99-
+102.
+DOI:10.3760/j.issn:0578-1426.2007.02.005.
+[2]
+LongstrethGF, ThompsonWG, CheyWD, et al.
+Functional bowel disorders[J].
+Gastroenterology,
+2006,
+130(
+5)：
+1480-
+1491.
+DOI:10.1053/j.gastro.2005.11.061.
+[3]
+GweeKA, BakYT, GhoshalUC, et al.
+Asian consensus on irritable bowel syndrome[J].
+J Gastroenterol Hepatol,
+2010,
+25(
+7)：
+1189-
+1205.
+DOI:10.1111/j.1440-1746.2010.06353.x.
+[4]
+XiongLS, ChenMH, ChenHX, et al.
+A population-based epidemiologic study of irritable bowel syndrome in South China: stratified randomized study by cluster sampling[J].
+Aliment Pharmacol Ther,
+2004,
+19(
+11)：
+1217-
+1224.
+DOI:10.1111/j.1365-2036.2004.01939.x.
+[5]
+LiuJ, HouX.
+A review of the irritable bowel syndrome investigation on epidemiology, pathogenesis and pathophysiology in China[J].
+J Gastroenterol Hepatol,
+2011,
+26
+Suppl 3：
+S88-
+93.
+DOI:10.1111/j.1440-1746.2011.06641.x.
+[6]
+张璐，段丽萍，刘懿萱，等.
+中国人群肠易激综合征患病率和相关危险因素的Meta分析[J].
+中华内科杂志，
+2014,
+53(
+12)：
+969-
+975.
+DOI:10.3760/cma.j.issn.0578-1426.2014.12.011.
+[7]
+ShenL, KongH, HouX.
+Prevalence of irritable bowel syndrome and its relationship with psychological stress status in Chinese university students[J].
+J Gastroenterol Hepatol,
+2009,
+24(
+12)：
+1885-
+1890.
+DOI:10.1111/j.1440-1746.2009.05943.x.
+[8]
+PanG, LuS, KeM, et al.
+Epidemiologic study of the irritable bowel syndrome in Beijing: stratified randomized study by cluster sampling[J].
+Chin Med J,
+2000,
+113(
+1)：
+35-
+39.
+[9]
+LockeGR 3rd, ZinsmeisterAR, TalleyNJ, et al.
+Risk factors for irritable bowel syndrome: role of analgesics and food sensitivities[J].
+Am J Gastroenterol,
+2000,
+95(
+1)：
+157-
+165.
+DOI:10.1111/j.1572-0241.2000.01678.x.
+[10]
+王维达，方秀才，朱丽明，等．
+肠易激综合征患者症状发作与饮食关系的调查[J]．
+胃肠病学，
+2012，
+17(
+2)：
+110-
+114.
+[11]
+HalvorsonHA, SchlettCD, RiddleMS.
+Postinfectious irritable bowel syndrome—a meta-analysis[J].
+Am J Gastroenterol,
+2006,
+101(
+8)：
+1894-
+1899.
+DOI:10.1111/j.1572-0241.2006.00654.x.
+[12]
+王利华，方秀才，潘国宗.
+肠道感染与肠易激综合征[J].
+中华内科杂志，
+2002,
+41(
+2)：
+21-
+24.
+[13]
+LongstrethGF, YaoJF.
+Irritable bowel syndrome and surgery: a multivariable analysis[J].
+Gastroenterology,
+2004,
+126(
+7)：
+1665-
+1673.
+[14]
+熊理守，彭穗，陈为，等.
+肠易激综合征患者的就医行为及其影响因素[J].
+中华全科医师杂志，
+2010,
+9(
+12)：
+829-
+832.
+DOI:10.3760/cma.j.issn.1671-7368.2010.12.006.
+[15]
+KoloskiNA, TalleyNJ, BoycePM.
+Predictors of health care seeking for irritable bowel syndrome and nonulcer dyspepsia: a critical review of the literature on symptom and psychosocial factors[J].
+Am J Gastroenterol,
+2001,
+96(
+5)：
+1340-
+1349.
+DOI:10.1111/j.1572-0241.2001.03789.x.
+[16]
+SpillerR, AzizQ, CreedF, et al.
+Guidelines on the irritable bowel syndrome: mechanisms and practical management[J].
+Gut,
+2007,
+56(
+12)：
+1770-
+1798.
+DOI:10.1136/gut.2007.119446.
+[17]
+GuptaA.
+Peripheral mechanisms in irritable bowel syndrome[J].
+N Engl J Med,
+2013,
+368(
+6)：
+578.
+DOI:10.1056/NEJMc1214185#SA2.
+[18]
+FukudoS, KanekoH, AkihoH, et al.
+Evidence-based clinical practice guidelines for irritable bowel syndrome[J].
+J Gastroenterol,
+2015,
+50(
+1)：
+11-
+30.
+DOI:10.1007/s00535-014-1017-0.
+[19]
+ZhongL, HouX.
+Pathophysiologic findings of irritable bowel syndrome in China[J].
+J Neurogastroenterol Motil,
+2012,
+18(
+1)：
+19-
+33.
+DOI:10.5056/jnm.2012.18.1.19.
+[20]
+KusunokiH, KamadaT, SatoM, et al.
+Ultrasonographic assessment of sigmoid colon in patients with irritable bowel syndrome[J].
+Nippon Rinsho,
+2006,
+64(
+8)：
+1461-
+1466.
+[21]
+FukudoS, KanazawaM, KanoM, et al.
+Exaggerated motility of the descending colon with repetitive distention of the sigmoid colon in patients with irritable bowel syndrome[J].
+J Gastroenterol,
+2002,
+37
+Suppl 14：
+S145-
+150.
+[22]
+KanazawaM, PalssonOS, van TilburgMA, et al.
+Motility response to colonic distention is increased in postinfectious irritable bowel syndrome (PI-IBS)[J].
+Neurogastroenterol Motil,
+2014,
+26(
+5)：
+696-
+704.
+DOI:10.1111/nmo.12318.
+[23]
+DuPontAW, JiangZD, HaroldSA, et al.
+Motility abnormalities in irritable bowel syndrome[J].
+Digestion,
+2014,
+89(
+2)：
+119-
+123.
+DOI:10.1159/000356314.
+[24]
+王深皓，董蕾，罗金燕，等.
+肠易激综合征患者小肠移行性复合运动的研究[J].
+中华内科杂志，
+2009,
+48(
+2)：
+106-
+110.
+DOI:10.3760/cma.j.issn.0578-1426.2009.02.009.
+[25]
+ParkJH, BaekYH, ParkDI, et al.
+Analysis of rectal dynamic and static compliances in patients with irritable bowel syndrome[J].
+Int J Colorectal Dis,
+2008,
+23(
+7)：
+659-
+664.
+DOI:10.1007/s00384-008-0469-1.
+[26]
+KanazawaF, MineK, MishimaN, et al.
+A study of the dynamics of gallbladder contraction in irritable bowel syndrome[J].
+Nihon Shokakibyo Gakkai Zasshi,
+1992,
+89(
+4)：
+1185-
+1190.
+[27]
+TörnblomH, Van OudenhoveL, SadikR, et al.
+Colonic transit time and IBS symptoms: what's the link[J].
+Am J Gastroenterol,
+2012,
+107(
+5)：
+754-
+760.
+DOI:10.1038/ajg.2012.5.
+[28]
+LeeOY.
+Asian motility studies in irritable bowel syndrome[J].
+J Neurogastroenterol Motil,
+2010,
+16(
+2)：
+120-
+130.
+DOI:10.5056/jnm.2010.16.2.120.
+[29]
+ChibaT, KudaraN, SatoM, et al.
+Colonic transit, bowel movements, stool form, and abdominal pain in irritable bowel syndrome by treatments with calcium polycarbophil[J].
+Hepatogastroenterology,
+2005,
+52(
+65)：
+1416-
+1420.
+[30]
+CatanzaroR, OcchipintiS, CalabreseF, et al.
+Irritable bowel syndrome: new findings in pathophysiological and therapeutic field[J].
+Minerva Gastroenterol Dietol,
+2014,
+60(
+2)：
+151-
+163.
+[31]
+TörnblomH, Van OudenhoveL, TackJ, et al.
+Interaction between preprandial and postprandial rectal sensory and motor abnormalities in IBS[J].
+Gut,
+2014,
+63(
+9)：
+1441-
+1449.
+DOI:10.1136/gutjnl-2013-305853.
+[32]
+SpetalenS, SandvikL, BlomhoffS, et al.
+Rectal visceral sensitivity in women with irritable bowel syndrome without psychiatric comorbidity compared with healthy volunteers[J].
+Gastroenterol Res Pract,
+2009,
+2009：
+130684.
+DOI:10.1155/2009/130684.
+[33]
+ParkJH, RheePL, KimG, et al.
+Enteroendocrine cell counts correlate with visceral hypersensitivity in patients with diarrhoea-predominant irritable bowel syndrome[J].
+Neurogastroenterol Motil,
+2006,
+18(
+7)：
+539-
+546.
+DOI:10.1111/j.1365-2982.2006.00771.x.
+[34]
+董文珠，邹多武，李兆申，等.
+肠易激综合征患者内脏高敏感性的机制研究[J].
+中华消化杂志，
+2004,
+24(
+1)：
+18-
+22.
+DOI:10.3760/j.issn:0254-1432.2004.01.006.
+[35]
+LiY, WangY, ZuoX, et al.
+Visceral perception thresholds after rectal thermal and pressure stimuli in irritable bowel syndrome patients[J].
+J Gastroenterol Hepatol,
+2004,
+19(
+2)：
+187-
+191.
+[36]
+ZuoXL, LiYQ, ShiL, et al.
+Visceral hypersensitivity following cold water intake in subjects with irritable bowel syndrome[J].
+J Gastroenterol,
+2006,
+41(
+4)：
+311-
+317.
+DOI:10.1007/s00535-005-1766-x.
+[37]
+ZhuY, ZhengX, CongY, et al.
+Bloating and distention in irritable bowel syndrome: the role of gas production and visceral sensation after lactose ingestion in a population with lactase deficiency[J].
+Am J Gastroenterol,
+2013,
+108(
+9)：
+1516-
+1525.
+DOI:10.1038/ajg.2013.198.
+[38]
+ArsièE, ColettaM, CesanaBM, et al.
+Symptom-association probability between meal ingestion and abdominal pain in patients with irritable bowel syndrome. Does somatization play a role[J].
+Neurogastroenterol Motil,
+2015,
+27(
+3)：
+416-
+422.
+DOI:10.1111/nmo.12510.
+[39]
+LeeKJ, KimJH, ChoSW.
+Relationship of underlying abnormalities in rectal sensitivity and compliance to distension with symptoms in irritable bowel syndrome[J].
+Digestion,
+2006,
+73(
+2-3)：
+133-
+141.
+DOI:10.1159/000094099.
+[40]
+李宁宁，方秀才.
+脑-肠轴在肠易激综合征发病中的作用[J].
+胃肠病学和肝病学杂志，
+2013,
+22(
+2)：
+163-
+166.
+[41]
+张磊，宋军，侯晓华.
+脑-肠轴失调在肠易激综合征发病中作用的研究进展[J].
+胃肠病学，
+2014,
+19(
+11)：
+688-
+691.
+DOI:10.3969/j.issn.1008-7125.2014.11.012.
+[42]
+TillischK, MayerEA, LabusJS.
+Quantitative meta-analysis identifies brain regions activated during rectal distension in irritable bowel syndrome[J].
+Gastroenterology,
+2011,
+140(
+1)：
+91-
+100.
+DOI:10.1053/j.gastro.2010.07.053.
+[43]
+LarssonMB, TillischK, CraigAD, et al.
+Brain responses to visceral stimuli reflect visceral sensitivity thresholds in patients with irritable bowel syndrome[J].
+Gastroenterology,
+2012,
+142(
+3)：
+463-
+472.
+e3.
+DOI:10.1053/j.gastro.2011.11.022.
+[44]
+AizawaE, SatoY, KochiyamaT, et al.
+Altered cognitive function of prefrontal cortex during error feedback in patients with irritable bowel syndrome, based on FMRI and dynamic causal modeling[J].
+Gastroenterology,
+2012,
+143(
+5)：
+1188-
+1198.
+DOI:10.1053/j.gastro.2012.07.104.
+[45]
+ElsenbruchS, RosenbergerC, EnckP, et al.
+Affective disturbances modulate the neural processing of visceral pain stimuli in irritable bowel syndrome: an fMRI study[J].
+Gut,
+2010,
+59(
+4)：
+489-
+495.
+DOI:10.1136/gut.2008.175000.
+[46]
+EllingsonBM, MayerE, HarrisRJ, et al.
+Diffusion tensor imaging detects microstructural reorganization in the brain associated with chronic irritable bowel syndrome[J].
+Pain,
+2013,
+154(
+9)：
+1528-
+1541.
+DOI:10.1016/j.pain.2013.04.010.
+[47]
+MaX, LiS, TianJ, et al.
+Altered brain spontaneous activity and connectivity network in irritable bowel syndrome patients: a resting-state fMRI study[J].
+Clin Neurophysiol,
+2015,
+126(
+6)：
+1190-
+1197.
+DOI:10.1016/j.clinph.2014.10.004.
+[48]
+ZuoXL, LiYQ, HuangKM, et al.
+Alterations in cerebral potentials evoked by rectal distention and drinking ice water in patients with irritable bowel syndrome[J].
+J Gastroenterol Hepatol,
+2006,
+21(
+12)：
+1844-
+1849.
+DOI:10.1111/j.1440-1746.2006.04176.x.
+[49]
+YuanYZ, TaoRJ, XuB, et al.
+Functional brain imaging in irritable bowel syndrome with rectal balloon-distention by using fMRI[J].
+World J Gastroenterol,
+2003,
+9(
+6)：
+1356-
+1360.
+[50]
+StasiC, BelliniM, BassottiG, et al.
+Serotonin receptors and their role in the pathophysiology and therapy of irritable bowel syndrome[J].
+Tech Coloproctol,
+2014,
+18(
+7)：
+613-
+621.
+DOI:10.1007/s10151-013-1106-8.
+[51]
+PosserudI, AgerforzP, EkmanR, et al.
+Altered visceral perceptual and neuroendocrine response in patients with irritable bowel syndrome during mental stress[J].
+Gut,
+2004,
+53(
+8)：
+1102-
+1108.
+DOI:10.1136/gut.2003.017962.
+[52]
+HoughtonLA, AtkinsonW, WhitakerRP, et al.
+Increased platelet depleted plasma 5-hydroxytryptamine concentration following meal ingestion in symptomatic female subjects with diarrhoea predominant irritable bowel syndrome[J].
+Gut,
+2003,
+52(
+5)：
+663-
+670.
+[53]
+左秀丽，李延青，郭敏，等.
+5-羟色胺与冷刺激诱发肠易激综合征症状关系的研究[J].
+中华消化杂志，
+2007,
+27(
+8)：
+516-
+519.
+DOI:10.3760/j.issn:0254-1432.2007.08.004.
+[54]
+李兆申，詹丽杏，邹多武，等.
+肠易激综合征患者分泌5-羟色胺的肠嗜铬细胞形态及功能的改变[J].
+中华消化杂志，
+2004,
+24(
+2)：
+94-
+97.
+DOI:10.3760/j.issn:0254-1432.2004.02.009.
+[55]
+曾宏翔，周文博，高建平，等.
+腹泻型肠易激综合征临床特征与结肠黏膜5-羟色胺3受体表达[J].
+中华消化杂志，
+2009,
+29(
+3)：
+201-
+202.
+DOI:10.3760/cma.j.issn.0254-1432.2009.03.021.
+[56]
+DupontHL.
+Review article: evidence for the role of gut microbiota in irritable bowel syndrome and its potential influence on therapeutic targets[J].
+Aliment Pharmacol Ther,
+2014,
+39(
+10)：
+1033-
+1042.
+DOI:10.1111/apt.12728.
+[57]
+SimrénM.
+IBS with intestinal microbial dysbiosis: a new and clinically relevant subgroup[J].
+Gut,
+2014,
+63(
+11)：
+1685-
+1686.
+DOI:10.1136/gutjnl-2013-306434.
+[58]
+Jalanka-TuovinenJ, SalojärviJ, SalonenA, et al.
+Faecal microbiota composition and host-microbe cross-talk following gastroenteritis and in postinfectious irritable bowel syndrome[J].
+Gut,
+2014,
+63(
+11)：
+1737-
+1745.
+DOI:10.1136/gutjnl-2013-305994.
+[59]
+JefferyIB, O'ToolePW, ÖhmanL, et al.
+An irritable bowel syndrome subtype defined by species-specific alterations in faecal microbiota[J].
+Gut,
+2012,
+61(
+7)：
+997-
+1006.
+DOI:10.1136/gutjnl-2011-301501.
+[60]
+CarrollIM, Ringel-KulkaT, KekuTO, et al.
+Molecular analysis of the luminal- and mucosal- associated intestinal microbiota in diarrhea-predominant irritable bowel syndrome[J].
+Am J Physiol Gastrointest Liver Physiol,
+2011,
+301(
+5)：
+G799-
+G807.
+DOI:10.1152/ajpgi.00154.2011.
+[61]
+ParkesGC, RaymentNB, HudspithBN, et al.
+Distinct microbial populations exist in the mucosa-associated microbiota of sub-groups of irritable bowel syndrome[J].
+Neurogastroenterol Motil,
+2012,
+24(
+1)：
+31-
+39.
+DOI:10.1111/j.1365-2982.2011.01803.x.
+[62]
+SiJM, YuYC, FanYJ, et al.
+Intestinal microecology and quality of life in irritable bowel syndrome patients[J].
+World J Gastroenterol,
+2004,
+10(
+12)：
+1802-
+1805.
+[63]
+王巧民，胡乐义，姜彬言，等.
+利福昔明治疗腹泻型肠易激综合征肠道菌群变化及疗效观察[J].
+中华消化杂志，
+2012,
+32(
+7)：
+482-
+484.
+DOI:10.3760/cma.j.issn.0254-1432.2012.07.015.
+[64]
+McFarlandLV, DublinS.
+Meta-analysis of probiotics for the treatment of irritable bowel syndrome[J].
+World J Gastroenterol,
+2008,
+14(
+17)：
+2650-
+2661.
+[65]
+胡玥，陶丽媛，吕宾.
+益生菌制剂治疗肠易激综合征的Meta分析[J].
+中华内科杂志，
+2015,
+54(
+5)：
+445-
+451.
+DOI:10.3760/cma.j.issn.0578-1426.2015.05.014.
+[66]
+SpiegelBM.
+Questioning the bacterial overgrowth hypothesis of irritable bowel syndrome: an epidemiologic and evolutionary perspective[J].
+Clin Gastroenterol Hepatol,
+2011,
+9(
+6)：
+461-
+469.
+DOI:10.1016/j.cgh.2011.02.030.
+[67]
+ReddymasuSC, SostarichS, McCallumRW.
+Small intestinal bacterial overgrowth in irritable bowel syndrome: are there any predictors[J].
+BMC Gastroenterol,
+2010,
+10：
+23.
+DOI:10.1186/1471-230X-10-23.
+[68]
+ShahED, BasseriRJ, ChongK, et al.
+Abnormal breath testing in IBS: a meta-analysis[J].
+Dig Dis Sci,
+2010,
+55(
+9)：
+2441-
+2449.
+DOI:10.1007/s10620-010-1276-4.
+[69]
+PorterCK, GormleyR, TribbleDR, et al.
+The incidence and gastrointestinal infectious risk of functional gastrointestinal disorders in a healthy US adult population[J].
+Am J Gastroenterol,
+2011,
+106(
+1)：
+130-
+138.
+DOI:10.1038/ajg.2010.371.
+[70]
+RhodesDY, WallaceM.
+Post-infectious irritable bowel syndrome[J].
+Curr Gastroenterol Rep,
+2006,
+8(
+4)：
+327-
+332.
+[71]
+HughesPA, ZolaH, PenttilaIA, et al.
+Immune activation in irritable bowel syndrome: can neuroimmune interactions explain symptoms[J].
+Am J Gastroenterol,
+2013,
+108(
+7)：
+1066-
+1074.
+DOI:10.1038/ajg.2013.120.
+[72]
+HughesPA, HarringtonAM, CastroJ, et al.
+Sensory neuro-immune interactions differ between irritable bowel syndrome subtypes[J].
+Gut,
+2013,
+62(
+10)：
+1456-
+1465.
+DOI:10.1136/gutjnl-2011-301856.
+[73]
+MatriconJ, MeleineM, GelotA, et al.
+Review article: associations between immune activation, intestinal permeability and the irritable bowel syndrome[J].
+Aliment Pharmacol Ther,
+2012,
+36(
+11-12)：
+1009-
+1031.
+DOI:10.1111/apt.12080.
+[74]
+令狐恩强，杨云生.
+肠易激综合征患者外周血T淋巴细胞亚群分析[J].
+中华消化杂志，
+2002,
+22(
+7)：
+423-
+425.
+DOI:10.3760/j.issn:0254-1432.2002.07.011.
+[75]
+付妤，童晶晶，潘琦，等.
+肠易激综合征患者肠黏膜和外周血Th细胞亚型的改变[J].
+中华医学杂志，
+2009,
+89(
+30)：
+2120-
+2123.
+[76]
+李延青，张海燕，左秀丽，等.
+肠易激综合征患者肠黏膜Th1/Th2漂移的研究[J].
+中华消化杂志，
+2004,
+24(
+12)：
+728-
+731.
+DOI:10.3760/j.issn:0254-1432.2004.12.007.
+[77]
+ChenJ, ZhangY, DengZ.
+Imbalanced shift of cytokine expression between T helper 1 and T helper 2 (Th1/Th2) in intestinal mucosa of patients with post-infectious irritable bowel syndrome[J].
+BMC Gastroenterol,
+2012,
+12：
+91.
+DOI:10.1186/1471-230X-12-91.
+[78]
+WangLH, FangXC, PanGZ.
+Bacillary dysentery as a causative factor of irritable bowel syndrome and its pathogenesis[J].
+Gut,
+2004,
+53(
+8)：
+1096-
+1101.
+DOI:10.1136/gut.2003.021154.
+[79]
+FordAC, TalleyNJ.
+Mucosal inflammation as a potential etiological factor in irritable bowel syndrome: a systematic review[J].
+J Gastroenterol,
+2011,
+46(
+4)：
+421-
+431.
+DOI:10.1007/s00535-011-0379-9.
+[80]
+KoloskiNA, JonesM, KalantarJ, et al.
+The brain-gut pathway in functional gastrointestinal disorders is bidirectional: a 12-year prospective population-based study[J].
+Gut,
+2012,
+61(
+9)：
+1284-
+1290.
+DOI:10.1136/gutjnl-2011-300474.
+[81]
+DongYY, ZuoXL, LiCQ, et al.
+Prevalence of irritable bowel syndrome in Chinese college and university students assessed using Rome Ⅲ criteria[J].
+World J Gastroenterol,
+2010,
+16(
+33)：
+4221-
+4226.
+[82]
+付朝伟，陈维清，栾荣生，等.
+综合医院门诊肠易激综合征病人抑郁/焦虑影响因素研究[J].
+中国健康心理学杂志，
+2007,
+15(
+3)：
+250-
+252.
+DOI:10.3969/j.issn.1005-1252.2007.03.027.
+[83]
+LeeS, WuJ, MaYL, et al.
+Irritable bowel syndrome is strongly associated with generalized anxiety disorder: a community study[J].
+Aliment Pharmacol Ther,
+2009,
+30(
+6)：
+643-
+651.
+DOI:10.1111/j.1365-2036.2009.04074.x.
+[84]
+LabusJS, HubbardCS, BuellerJ, et al.
+Impaired emotional learning and involvement of the corticotropin-releasing factor signaling system in patients with irritable bowel syndrome[J].
+Gastroenterology,
+2013,
+145(
+6)：
+1253-
+1261.
+DOI:10.1053/j.gastro.2013.08.016.
+[85]
+王伟岸，潘国宗，钱家鸣.
+精神因素对肠易激综合征患者内脏敏感性的影响[J].
+中华医学杂志，
+2002,
+82(
+5)：
+308-
+311.
+DOI:10.3760/j:issn:0376-2491.2002.05.007.
+[86]
+BlanchardEB, LacknerJM, JaccardJ, et al.
+The role of stress in symptom exacerbation among IBS patients[J].
+J Psychosom Res,
+2008,
+64(
+2)：
+119-
+128.
+DOI:10.1016/j.jpsychores.2007.10.010.
+[87]
+BradfordK, ShihW, VidelockEJ, et al.
+Association between early adverse life events and irritable bowel syndrome[J].
+Clin Gastroenterol Hepatol,
+2012,
+10(
+4)：
+385-
+390.
+e3.
+DOI:10.1016/j.cgh.2011.12.018.
+[88]
+PaeCU, LeeSJ, HanC, et al.
+Atypical antipsychotics as a possible treatment option for irritable bowel syndrome[J].
+Expert Opin Investig Drugs,
+2013,
+22(
+5)：
+565-
+572.
+DOI:10.1517/13543784.2013.782392.
+[89]
+MuscatelloMR, BrunoA, ScimecaG, et al.
+Role of negative affects in pathophysiology and clinical expression of irritable bowel syndrome[J].
+World J Gastroenterol,
+2014,
+20(
+24)：
+7570-
+7586.
+DOI:10.3748/wjg.v20.i24.7570.
+[90]
+WhiteheadWE, DrossmanDA.
+Validation of symptom-based diagnostic criteria for irritable bowel syndrome: a critical review[J].
+Am J Gastroenterol,
+2010,
+105(
+4)：
+814-
+820.
+DOI:10.1038/ajg.2010.56.
+[91]
+柯美云，方秀才.
+功能性胃肠病研究进展与罗马Ⅲ[J].
+胃肠病学，
+2006,
+11(
+12)：
+709-
+712.
+[92]
+汪安江，廖献花，胡品津，等.
+罗马Ⅲ和罗马Ⅱ标准诊断肠易激综合征的比较[J].
+中华内科杂志，
+2007,
+46(
+8)：
+644-
+647.
+[93]
+YaoX, YangYS, CuiLH, et al.
+Subtypes of irritable bowel syndrome on Rome Ⅲ criteria: a multicenter study[J].
+J Gastroenterol Hepatol,
+2012,
+27(
+4)：
+760-
+765.
+DOI:10.1111/j.1440-1746.2011.06930.x.
+[94]
+黄虹，刘劲松.
+罗马Ⅲ标准诊断肠易激综合征各亚型临床症状特点分析[J].
+临床内科杂志，
+2008,
+25(
+12)：
+833-
+835.
+DOI:10.3969/j.issn.1001-9057.2008.12.012.
+[95]
+GersonCD, GersonMJ, AwadRA, et al.
+Irritable bowel syndrome: an international study of symptoms in eight countries[J].
+Eur J Gastroenterol Hepatol,
+2008,
+20(
+7)：
+659-
+667.
+DOI:10.1097/MEG.0b013e3282f53a24.
+[96]
+GhoshalUC, GweeKA, ChenM, et al.
+Development, translation and validation of enhanced Asian Rome Ⅲ questionnaires for diagnosis of functional bowel diseases in major asian languages: a Rome foundation-Asian neurogastroenterology and motility association working team report[J].
+J Neurogastroenterol Motil,
+2015,
+21(
+1)：
+83-
+92.
+DOI:10.5056/jnm14045.
+[97]
+姚欣，杨云生，赵卡冰，等.
+罗马Ⅲ标准研究肠易激综合征临床特点及亚型[J].
+世界华人消化杂志，
+2008,
+16(
+5)：
+563-
+566.
+DOI:10.3969/j.issn.1009-3079.2008.05.023.
+[98]
+龙艳芹，侯晓华.
+肠易激综合征患者临床症状特点分析[J].
+胃肠病学，
+2007,
+12(
+1)：
+23-
+26.
+DOI:10.3969/j.issn.1008-7125.2007.01.006.
+[99]
+LuCL, ChenCY, LangHC, et al.
+Current patterns of irritable bowel syndrome in Taiwan: the Rome Ⅱ questionnaire on a Chinese population[J].
+Aliment Pharmacol Ther,
+2003,
+18(
+11-12)：
+1159-
+1169.
+[100]
+CanavanC, CardT, WestJ.
+The incidence of other gastroenterological disease following diagnosis of irritable bowel syndrome in the UK: a cohort study[J].
+PLoS One,
+2014,
+9(
+9)：
+e106478.
+DOI:10.1371/journal.pone.0106478.
+[101]
+王伟岸，钱家鸣，潘国宗.
+肠易激综合症的诊断标准和鉴别诊断[J].
+胃肠病学和肝病学杂志，
+2001,
+10(
+2)：
+106-
+109.
+DOI:10.3969/j.issn.1006-5709.2001.02.004.
+[102]
+CheyWD, NojkovB, RubensteinJH, et al.
+The yield of colonoscopy in patients with non-constipated irritable bowel syndrome: results from a prospective, controlled US trial[J].
+Am J Gastroenterol,
+2010,
+105(
+4)：
+859-
+865.
+DOI:10.1038/ajg.2010.55.
+[103]
+李晓波，刘文忠，戈之铮，等.
+报警症状在胃肠道疾病诊断中的作用[J].
+胃肠病学，
+2005,
+10(
+4)：
+198-
+202.
+DOI:10.3969/j.issn.1008-7125.2005.04.002.
+[104]
+中国抗癌学会结直肠癌专业委员会．
+中国结直肠癌住院病例临床病理特点及变化趋势.
+2009年．
+[105]
+中华医学会消化病学分会.
+中国结直肠肿瘤筛查、早诊早治和综合预防共识意见(一)[J].
+胃肠病学，
+2011,
+16(
+11)：
+666-
+675.
+DOI:10.3969/j.issn.1008-7125.2011.11.007.
+[106]
+黄彦钦，蔡善荣，张苏展，等.
+中国结直肠癌人群筛查方案的应用价值初探[J].
+中华预防医学杂志，
+2011,
+45(
+7)：
+601-
+604.
+DOI:10.3760/cma.j.issn.0253-9624.2011.07.007.
+[107]
+BharuchaAE, LockeGR, ZinsmeisterAR, et al.
+Differences between painless and painful constipation among community women[J].
+Am J Gastroenterol,
+2006,
+101(
+3)：
+604-
+612.
+DOI:10.1111/j.1572-0241.2006.00435.x.
+[108]
+辛海威.
+功能性便秘和便秘型肠易激综合征——我们能鉴别吗？[J].
+胃肠病学和肝病学杂志，
+2013,
+22(
+2)：
+158-
+162.
+DOI:10.3969/j.issn.1006-5709.2013.02.020.
+[109]
+WongRK, PalssonOS, TurnerMJ, et al.
+Inability of the Rome Ⅲ criteria to distinguish functional constipation from constipation-subtype irritable bowel syndrome[J].
+Am J Gastroenterol,
+2010,
+105(
+10)：
+2228-
+2234.
+DOI:10.1038/ajg.2010.200.
+[110]
+RasmussenS, JensenTH, HenriksenSL, et al.
+Overlap of symptoms of gastroesophageal reflux disease, dyspepsia and irritable bowel syndrome in the general population[J].
+Scand J Gastroenterol,
+2015,
+50(
+2)：
+162-
+169.
+DOI:10.3109/00365521.2014.983157.
+[111]
+FangXC, KeMY, PanGZ, et al.
+Functional gastrointestinal disorders: overlapping syndrome or a single complex syndrome? A stratifies randomized epidemiologic study by cluster sampling in north China.
+Gastroenterology,
+2006，
+130
+Suppl 4:
+A513.
+[112]
+SiJM, WangLJ, ChenSJ, et al.
+Irritable bowel syndrome consulters in Zhejiang province: the symptoms pattern, predominant bowel habit subgroups and quality of life[J].
+World J Gastroenterol,
+2004,
+10(
+7)：
+1059-
+1064.
+[113]
+WangA, LiaoX, XiongL, et al.
+The clinical overlap between functional dyspepsia and irritable bowel syndrome based on Rome Ⅲ criteria[J].
+BMC Gastroenterol,
+2008,
+8：
+43.
+DOI:10.1186/1471-230X-8-43.
+[114]
+吴珺玮，诸琦，谭继宏，等.
+肠易激综合征重叠功能性消化不良的问卷调查[J].
+胃肠病学，
+2011,
+16(
+1)：
+22-
+25.
+DOI:10.3969/j.issn.1008-7125.2011.01.007.
+[115]
+de BortoliN.
+Overlap of functional heartburn and gastroesophageal reflux disease with irritable bowel syndrome[J].
+World J Gastroenterol,
+2013,
+19(
+35)：
+5787-
+5797.
+DOI:10.3748/wjg.v19.i35.5787-5797.
+[116]
+LuCL, LangHC, ChangFY, et al.
+Prevalence and health/social impacts of functional dyspepsia in Taiwan: a study based on the Rome criteria questionnaire survey assisted by endoscopic exclusion among a physical check-up population[J].
+Scand J Gastroenterol,
+2005,
+40(
+4)：
+402-
+411.
+[117]
+常敏，陈卫，方秀才，等.
+腹泻型肠易激综合征患者肠外症状分析[J].
+胃肠病学，
+2010,
+15(
+11)：
+654-
+656.
+DOI:10.3969/j.issn.1008-7125.2010.11.004.
+[118]
+ZhuL, HuangD, ShiL, et al.
+Intestinal symptoms and psychological factors jointly affect quality of life of patients with irritable bowel syndrome with diarrhea[J].
+Health Qual Life Outcomes,
+2015,
+13：
+49.
+DOI:10.1186/s12955-015-0243-3.
+[119]
+TangYR, YangWW, WangYL, et al.
+Sex differences in the symptoms and psychological factors that influence quality of life in patients with irritable bowel syndrome[J].
+Eur J Gastroenterol Hepatol,
+2012,
+24(
+6)：
+702-
+707.
+DOI:10.1097/MEG.0b013e328351b2c2.
+[120]
+DrossmanDA, ChangL, BellamyN, et al.
+Severity in irritable bowel syndrome: a Rome foundation working team report[J].
+Am J Gastroenterol,
+2011,
+106(
+10)：
+1749-
+1759.
+DOI:10.1038/ajg.2011.201.
+[121]
+FlochMH.
+Multidimensional clinical profile (MDCP) for the functional gastrointestinal disorders first edition[J].
+J Clin Gastroenterol,
+2015,
+49(
+3)：
+261.
+DOI:10.1097/mcg.0000000000000288.
+[122]
+HarveyRF, MauadEC, BrownAM.
+Prognosis in the irritable bowel syndrome: a 5-year prospective study[J].
+Lancet,
+1987,
+1(
+8539)：
+963-
+965.
+[123]
+IlnyckyjA, GraffLA, BlanchardJF, et al.
+Therapeutic value of a gastroenterology consultation in irritable bowel syndrome[J].
+Aliment Pharmacol Ther,
+2003,
+17(
+7)：
+871-
+880.
+[124]
+SpiegelB, CamilleriM, BolusR, et al.
+Psychometric evaluation of patient-reported outcomes in irritable bowel syndrome randomized controlled trials: a Rome foundation report[J].
+Gastroenterology,
+2009,
+137(
+6)：
+1944-
+1953.
+DOI:10.1053/j.gastro.2009.08.047.
+[125]
+DrossmanDA, ThompsonWG.
+The irritable bowel syndrome: review and a graduated multicomponent treatment approach[J].
+Ann Intern Med,
+1992,
+116(
+12
+Pt 1)：
+1009-
+1016.
+[126]
+BijkerkCJ, MurisJW, KnottnerusJA, et al.
+Systematic review: the role of different types of fibre in the treatment of irritable bowel syndrome[J].
+Aliment Pharmacol Ther,
+2004,
+19(
+3)：
+245-
+251.
+[127]
+StaudacherHM, WhelanK, IrvingPM, et al.
+Comparison of symptom response following advice for a diet low in fermentable carbohydrates (FODMAPs) versus standard dietary advice in patients with irritable bowel syndrome[J].
+J Hum Nutr Diet,
+2011,
+24(
+5)：
+487-
+495.
+DOI:10.1111/j.1365-277X.2011.01162.x.
+[128]
+CrowellMD, CheskinLJ, MusialF.
+Prevalence of gastrointestinal symptoms in obese and normal weight binge eaters[J].
+Am J Gastroenterol,
+1994,
+89(
+3)：
+387-
+391.
+[129]
+BoydC, AbrahamS, KellowJ.
+Appearance and disappearance of functional gastrointestinal disorders in patients with eating disorders[J].
+Neurogastroenterol Motil,
+2010,
+22(
+12)：
+1279-
+1283.
+DOI:10.1111/j.1365-2982.2010.01576.x.
+[130]
+AtkinsonW, SheldonTA, ShaathN, et al.
+Food elimination based on IgG antibodies in irritable bowel syndrome: a randomised controlled trial[J].
+Gut,
+2004,
+53(
+10)：
+1459-
+1464.
+DOI:10.1136/gut.2003.037697.
+[131]
+JohannessonE, SimrénM, StridH, et al.
+Physical activity improves symptoms in irritable bowel syndrome: a randomized controlled trial[J].
+Am J Gastroenterol,
+2011,
+106(
+5)：
+915-
+922.
+DOI:10.1038/ajg.2010.480.
+[132]
+KaptchukTJ, KelleyJM, ConboyLA, et al.
+Components of placebo effect: randomised controlled trial in patients with irritable bowel syndrome[J].
+BMJ,
+2008,
+336(
+7651)：
+999-
+1003.
+DOI:10.1136/bmj.39524.439618.25.
+[133]
+PatelSM, StasonWB, LegedzaA, et al.
+The placebo effect in irritable bowel syndrome trials: a meta-analysis[J].
+Neurogastroenterol Motil,
+2005,
+17(
+3)：
+332-
+340.
+DOI:10.1111/j.1365-2982.2005.00650.x.
+[134]
+PoynardT, NaveauS, MoryB, et al.
+Meta-analysis of smooth muscle relaxants in the treatment of irritable bowel syndrome[J].
+Aliment Pharmacol Ther,
+1994,
+8(
+5)：
+499-
+510.
+[135]
+ZhengL, LaiY, LuW, et al.
+Pinaverium reduces symptoms of irritable bowel syndrome in a multicenter, randomized, controlled trial[J].
+Clin Gastroenterol Hepatol,
+2015,
+13(
+7)：
+1285-
+1292.
+e1.
+DOI:10.1016/j.cgh.2015.01.015.
+[136]
+ChangL, LacyBE, SpiegelBM.
+An evidence-based approach to therapy in IBS-D: a case study compendium[J].
+Gastroenterol Hepatol (N Y),
+2010,
+6(
+9
+Suppl 15)：
+1-
+12.
+[137]
+EfskindPS, BernklevT, VatnMH.
+A double-blind placebo-controlled trial with loperamide in irritable bowel syndrome[J].
+Scand J Gastroenterol,
+1996,
+31(
+5)：
+463-
+468.
+DOI:10.3109/00365529609006766.
+[138]
+HoughtonLA, FosterJM, WhorwellPJ.
+Alosetron, a 5-HT3 receptor antagonist, delays colonic transit in patients with irritable bowel syndrome and healthy volunteers[J].
+Aliment Pharmacol Ther,
+2000,
+14(
+6)：
+775-
+782.
+[139]
+LemboAJ, LacyBE, ZuckermanMJ, et al.
+Eluxadoline for irritable bowel syndrome with diarrhea[J].
+N Engl J Med,
+2016,
+374(
+3)：
+242-
+253.
+DOI:10.1056/NEJMoa1505180.
+[140]
+PimentelM, LemboA, CheyWD, et al.
+Rifaximin therapy for patients with irritable bowel syndrome without constipation[J].
+N Engl J Med,
+2011,
+364(
+1)：
+22-
+32.
+DOI:10.1056/NEJMoa1004409.
+[141]
+SchoenfeldP, PimentelM, ChangL, et al.
+Safety and tolerability of rifaximin for the treatment of irritable bowel syndrome without constipation: a pooled analysis of randomised, double-blind, placebo-controlled trials[J].
+Aliment Pharmacol Ther,
+2014,
+39(
+10)：
+1161-
+1168.
+DOI:10.1111/apt.12735.
+[142]
+ZhaoJ, ZhengX, ChuH, et al.
+A study of the methodological and clinical validity of the combined lactulose hydrogen breath test with scintigraphic oro-cecal transit test for diagnosing small intestinal bacterial overgrowth in IBS patients[J].
+Neurogastroenterol Motil,
+2014,
+26(
+6)：
+794-
+802.
+DOI:10.1111/nmo.12331.
+[143]
+PimentelM, MoralesW, ChuaK, et al.
+Effects of rifaximin treatment and retreatment in nonconstipated IBS subjects[J].
+Dig Dis Sci,
+2011,
+56(
+7)：
+2067-
+2072.
+DOI:10.1007/s10620-011-1728-5.
+[144]
+AwadRA, CamachoS.
+A randomized, double-blind, placebo-controlled trial of polyethylene glycol effects on fasting and postprandial rectal sensitivity and symptoms in hypersensitive constipation-predominant irritable bowel syndrome[J].
+Colorectal Dis,
+2010,
+12(
+11)：
+1131-
+1138.
+DOI:10.1111/j.1463-1318.2009.01990.x.
+[145]
+ChapmanRW, StanghelliniV, GeraintM, et al.
+Randomized clinical trial: macrogol/PEG 3350 plus electrolytes for treatment of patients with constipation associated with irritable bowel syndrome[J].
+Am J Gastroenterol,
+2013,
+108(
+9)：
+1508-
+1515.
+DOI:10.1038/ajg.2013.197.
+[146]
+CheyWD, LemboAJ, LavinsBJ, et al.
+Linaclotide for irritable bowel syndrome with constipation: a 26-week, randomized, double-blind, placebo-controlled trial to evaluate efficacy and safety[J].
+Am J Gastroenterol,
+2012,
+107(
+11)：
+1702-
+1712.
+DOI:10.1038/ajg.2012.254.
+[147]
+NivE, NaftaliT, HallakR, et al.
+The efficacy of Lactobacillus reuteri ATCC 55730 in the treatment of patients with irritable bowel syndrome—a double blind, placebo-controlled, randomized study[J].
+Clin Nutr,
+2005,
+24(
+6)：
+925-
+931.
+DOI:10.1016/j.clnu.2005.06.001.
+[148]
+KimHJ, CamilleriM, McKinzieS, et al.
+A randomized controlled trial of a probiotic, VSL#3, on gut transit and symptoms in diarrhoea-predominant irritable bowel syndrome[J].
+Aliment Pharmacol Ther,
+2003,
+17(
+7)：
+895-
+904.
+[149]
+Ortiz-LucasM, TobíasA, SazP, et al.
+Effect of probiotic species on irritable bowel syndrome symptoms: a bring up to date meta-analysis[J].
+Rev Esp Enferm Dig,
+2013,
+105(
+1)：
+19-
+36.
+[150]
+CreedF, RatcliffeJ, FernandesL, et al.
+Outcome in severe irritable bowel syndrome with and without accompanying depressive, panic and neurasthenic disorders[J].
+Br J Psychiatry,
+2005,
+186：
+507-
+515.
+DOI:10.1192/bjp.186.6.507.
+[151]
+FordAC, TalleyNJ, SchoenfeldPS, et al.
+Efficacy of antidepressants and psychological therapies in irritable bowel syndrome: systematic review and meta-analysis[J].
+Gut,
+2009,
+58(
+3)：
+367-
+378.
+DOI:10.1136/gut.2008.163162.
+[152]
+TabasG, BeavesM, WangJ, et al.
+Paroxetine to treat irritable bowel syndrome not responding to high-fiber diet: a double-blind, placebo-controlled trial[J].
+Am J Gastroenterol,
+2004,
+99(
+5)：
+914-
+920.
+DOI:10.1111/j.1572-0241.2004.04127.x.
+[153]
+NigamP, KapoorKK, RastogCK, et al.
+Different therapeutic regimens in irritable bowel syndrome[J].
+J Assoc Physicians India,
+1984,
+32(
+12)：
+1041-
+1044.
+[154]
+PaceF, MauranoA, CiacciC, et al.
+Octatropine methyl bromide and diazepam combination (Valpinax) in patients with irritable bowel syndrome: a multicentre, randomized, placebo-controlled trial[J].
+Eur Rev Med Pharmacol Sci,
+2010,
+14(
+3)：
+155-
+162.
+[155]
+ZijdenbosIL, de WitNJ, van der HeijdenGJ, et al.
+Psychological treatments for the management of irritable bowel syndrome[J].
+Cochrane Database Syst Rev,
+2009(
+1)：
+CD006442.
+DOI:10.1002/14651858.CD006442.pub2.
+[156]
+WebbAN, KukuruzovicRH, Catto-SmithAG, et al.
+Hypnotherapy for treatment of irritable bowel syndrome[J].
+Cochrane Database Syst Rev,
+2007(
+4)：
+CD005110.
+DOI:10.1002/14651858.CD005110.pub2.
+[157]
+GonsalkoraleWM, MillerV, AfzalA, et al.
+Long term benefits of hypnotherapy for irritable bowel syndrome[J].
+Gut,
+2003,
+52(
+11)：
+1623-
+1629.
+[158]
+MillerV, WhorwellPJ.
+Hypnotherapy for functional gastrointestinal disorders: a review[J].
+Int J Clin Exp Hypn,
+2009,
+57(
+3)：
+279-
+292.
+DOI:10.1080/00207140902881098.
+[159]
+DrossmanDA.
+Rome Ⅲ：the functional gastrointestinal disorders.
+3rded.
+Yale University Section of Digestive Disease:
+Degnon Associates,
+2006.
+[160]
+LeungWK, WuJC, LiangSM, et al.
+Treatment of diarrhea-predominant irritable bowel syndrome with traditional Chinese herbal medicine: a randomized placebo-controlled trial[J].
+Am J Gastroenterol,
+2006,
+101(
+7)：
+1574-
+1580.
+DOI:10.1111/j.1572-0241.2006.00576.x.
+[161]
+XiaoY, LiuY, HuangS, et al.
+The efficacy of Shugan Jianpi Zhixie therapy for diarrhea-predominant irritable bowel syndrome: a meta-analysis of randomized, double-blind, placebo-controlled trials[J].
+PLoS One,
+2015,
+10(
+4)：
+e0122397.
+DOI:10.1371/journal.pone.0122397.
+[162]
+LimB, ManheimerE, LaoL, et al.
+Acupuncture for treatment of irritable bowel syndrome[J].
+Cochrane Database Syst Rev,
+2006(
+4)：
+CD005111.
+贡献者信息
+中华医学会消化病学分会胃肠功能性疾病协作组
+中华医学会消化病学分会胃肠动力学组
+历史
+出版日期：2016-05-15
+收稿日期：2016-04-05
+本文编辑
+冯缨
+Consensus and Guideline
+Chinese consensus on irritable bowel syndrome (2015, Shanghai)
+Study Group of Functional Gastrointestinal Disorders,  Study Group of Gastrointestinal Motility,  Chinese Society of Gastroenterology,  Chinese Medical Association
+Published
+2016-05-15
+Cite as
+Chin J Dig, 2016,36(5): 299-312. DOI: 10.3760/cma.j.issn.0254-1432.2016.05.005
+Contributor Information
+Study Group of Functional Gastrointestinal Disorders
+Study Group of Gastrointestinal Motility
+Chinese Society of Gastroenterology
+Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华消化杂志2016年36卷5期
+文    题：中国肠易激综合征专家共识意见(2015年，上海)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华消化杂志2016年36卷5期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

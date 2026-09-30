@@ -1,0 +1,1024 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E8%82%9D%E8%A1%B0%E7%AB%AD%E8%AF%8A%E6%B2%BB%E6%8C%87%E5%8D%97%282018%E5%B9%B4%E7%89%88%29.html
+# 标题: 肝衰竭诊治指南(2018年版) - 中华临床感染病杂志
+# 发布方/日期: 中华医学会感染病学分会，中华临床感染病杂志, 2018,11(6) : 401-410. DOI: 10.3760/cma.j；2018-12-28
+
+AUTO TRANSLATION​▼
+肝衰竭诊治指南(2018年版)
+中华医学会感染病学分会肝衰竭与人工肝学组
+中华医学会肝病学分会重型肝病与人工肝学组
+中华临床感染病杂志, 2018,11(6) : 401-410. DOI: 10.3760/cma.j.issn.1674-2397.2018.06.001
+肝衰竭是临床常见的严重肝病症候群，病死率极高。多年来，各国学者对肝衰竭的定义、病因、分类、分型、诊断和治疗、预后判断等问题不断进行探索。2005年，美国肝病研究学会(AASLD)发布了《急性肝衰竭处理》[1]的建议书。2006年10月，中华医学会感染病学分会肝衰竭与人工肝学组和中华医学会肝病学分会重型肝病与人工肝学组制订了我国第一部《肝衰竭诊疗指南》[2]，从定义、诱因、分类、诊断和治疗等方面对肝衰竭进行了系统而精要的阐述，既与国际接轨，又独具中国特色，诊断分型突出了实用性，指导和规范了我国肝衰竭的临床诊疗，并于2012年进行了修订，制订了《肝衰竭诊治指南(2012年版)》[3]。2014年，亚太肝脏研究协会(APASL)对2009年制订的《慢加急性肝衰竭共识》进行了更新[4]；2017年，欧洲肝病学会(EASL)发布了《急性(暴发性)肝衰竭治疗实践指南》[5]；美国胃肠病学协会(AGA)发布了《急性肝衰竭的诊断和管理》[6]。根据国内外最新研究成果，中华医学会感染病学分会肝衰竭与人工肝学组和中华医学会肝病学分会重型肝病与人工肝学组再次对我国的《肝衰竭诊治指南(2012年版)》进行更新。
+《肝衰竭诊治指南(2018年版)》(简称《指南》)旨在使医生对肝衰竭的诊疗有进一步了解，并做出较为合理的决策，并非强制性标准。鉴于肝衰竭是由多种病因引起的复杂病理生理过程，本指南不可能包括或解决肝衰竭诊治中的所有问题。因此，在针对具体病情，临床医生应参照本《指南》，并充分了解肝衰竭的最佳临床证据和现有的医疗资源，在全面考虑患者具体病情及其意愿的基础上，制订合理的诊治方案。随着对肝衰竭发病机制及诊断、治疗研究的逐渐深入，本《指南》将根据最新的临床医学证据不断更新和完善。
+本《指南》的制订遵守了循证医学原则，推荐意见所依据的证据共分为3个级别5个等级(表1)，文中以括号内斜体罗马数字表示。
+点击查看表格
+表1
+推荐意见的证据分级及定义
+表1
+推荐意见的证据分级及定义
+证据等级a
+定义
+Ⅰ
+随机对照试验
+Ⅱ-1
+非随机对照试验
+Ⅱ-2
+分组或病例对照分析研究
+Ⅱ-3
+多时间序列，明显非对照实验
+Ⅲ
+专家、权威的意见和经验，流行病学描述
+注：a数字越小，证据等级越高
+1 肝衰竭的定义和病因
+1.1 定义
+肝衰竭是多种因素引起的严重肝脏损害，导致合成、解毒、代谢和生物转化功能严重障碍或失代偿，出现以黄疸、凝血功能障碍、肝肾综合征、肝性脑病、腹水等为主要表现的一组临床症候群。
+1.2 病因
+在我国引起肝衰竭的主要病因是肝炎病毒(尤其是乙型肝炎病毒)，其次是药物及肝毒性物质(如酒精、化学制剂等)。儿童肝衰竭还可见于遗传代谢性疾病。肝衰竭的常见病因见表2。
+点击查看表格
+表2
+肝衰竭的常见病因
+表2
+肝衰竭的常见病因
+病因
+常见分类
+肝炎病毒
+甲型、乙型、丙型、丁型、戊型肝炎病毒(HAV、HBV、HCV、HDV、HEV)
+其他病毒
+巨细胞病毒(CMV)、EB病毒(EBV)、肠道病毒、疱疹病毒、黄热病毒等
+药物
+对乙酰氨基酚、抗结核药物、抗肿瘤药物、部分中草药、抗风湿病药物、抗代谢药物等
+肝毒性物质
+酒精、毒蕈、有毒的化学物质等
+细菌及寄生虫等
+严重或持续感染(如脓毒症、血吸虫病等)
+肝脏其他疾病
+肝脏肿瘤、肝脏手术、妊娠急性脂肪肝、自身免疫性肝病、肝移植术后等
+胆道疾病
+先天性胆道闭锁、胆汁淤积性肝病等
+代谢异常
+肝豆状核变性、遗传性糖代谢障碍等
+循环衰竭
+缺血缺氧、休克、充血性心力衰竭等
+其他
+创伤、热射病等
+原因不明
+－
+注："－"．无相关数据
+2 肝衰竭的分类和诊断[7,8,9]
+2.1 分类
+基于病史、起病特点及病情进展速度，肝衰竭可分为四类：急性肝衰竭(Acute liver failure, ALF)、亚急性肝衰竭(Subacute liver failure, SALF)、慢加急性(亚急性)肝衰竭[Acute(Subacute)-on-chronic liver failure, ACLF或SACLF]和慢性肝衰竭(Chronic liver failure, CLF)，见表3。
+点击查看表格
+表3
+肝衰竭的分类及定义
+表3
+肝衰竭的分类及定义
+分类
+定义
+急性肝衰竭
+急性起病，无基础肝病史，2周内出现以Ⅱ度以上肝性脑病为特征的肝衰竭
+亚急性肝衰竭
+起病较急，无基础肝病史，2～26周出现肝功能衰竭的临床表现
+慢加急性(亚急性)肝衰竭
+在慢性肝病基础上，短期内出现急性肝功能失代偿和肝功能衰竭的临床表现
+慢性肝衰竭
+在肝硬化基础上，缓慢出现肝功能进行性减退导致的以反复腹水和/或肝性脑病等为主要表现的慢性肝功能失代偿
+2.2 组织病理学表现
+组织病理学检查在肝衰竭诊断、分类及预后判定上具有重要价值，但由于肝衰竭患者的凝血功能严重降低，实施肝穿刺具有较高的风险，在临床工作中应特别注意。肝衰竭发生时(慢性肝衰竭除外)，肝脏组织学可观察到广泛的肝细胞坏死，坏死的部位和范围因病因和病程的不同而不同。按照坏死的范围程度，可分为大块坏死(坏死范围超过肝实质的2/3)，亚大块坏死(约占肝实质的1/2～2/3)，融合性坏死(相邻成片的肝细胞坏死)及桥接坏死(较广泛的融合性坏死并破坏肝实质结构)。在不同病程肝衰竭肝组织中，可观察到一次性或多次性的新旧不一肝细胞坏死病变。
+2.2.1 急性肝衰竭
+肝细胞呈一次性坏死，可呈大块或亚大块坏死，或桥接坏死，伴存活肝细胞严重变性，肝窦网状支架塌陷或部分塌陷。
+2.2.2 亚急性肝衰竭
+肝组织呈新旧不等的亚大块坏死或桥接坏死；较陈旧的坏死区网状纤维塌陷，或有胶原纤维沉积；残留肝细胞有程度不等的再生，并可见细、小胆管增生和胆汁淤积。
+2.2.3 慢加急性(亚急性)肝衰竭
+在慢性肝病病理损害的基础上，发生新的程度不等的肝细胞坏死性病变。
+2.2.4 慢性肝衰竭
+弥漫性肝脏纤维化以及异常增生结节形成，可伴有分布不均的肝细胞坏死。
+2.3 临床诊断
+肝衰竭的临床诊断需要依据病史、临床表现和辅助检查等综合分析而确定。
+2.3.1 急性肝衰竭
+急性起病，2周内出现Ⅱ度及以上肝性脑病(按Ⅳ级分类法划分)并有以下表现者：(1)极度乏力，并伴有明显厌食、腹胀、恶心、呕吐等严重消化道症状；(2)短期内黄疸进行性加深，血清总胆红素(TBil)≥10×正常值上限(ULN)或每日上升≥17.1 μmol/L；(3)有出血倾向，凝血酶原活动度(PTA)≤40%，或国际标准化比值(INR)≥1.5，且排除其他原因；(4)肝脏进行性缩小。
+2.3.2 亚急性肝衰竭
+起病较急，2～26周出现以下表现者：(1)极度乏力，有明显的消化道症状；(2)黄疸迅速加深，血清TBil≥10×ULN或每日上升≥17.1 μmol/L；(3)伴或不伴肝性脑病；(4)有出血表现，PTA≤40%(或INR≥1.5)并排除其他原因者。
+2.3.3 慢加急性(亚急性)肝衰竭
+在慢性肝病基础上，由各种诱因引起以急性黄疸加深、凝血功能障碍为肝衰竭表现的综合征，可合并包括肝性脑病、腹水、电解质紊乱、感染、肝肾综合征、肝肺综合征等并发症，以及肝外器官功能衰竭。患者黄疸迅速加深，血清TBil≥10×ULN或每日上升≥17.1 μmol/L；有出血表现，PTA≤40%(或INR≥1.5)。根据不同慢性肝病基础分为3型，A型：在慢性非肝硬化肝病基础上发生的慢加急性肝衰竭；B型：在代偿期肝硬化基础上发生的慢加急性肝衰竭，通常在4周内发生；C型：在失代偿期肝硬化基础上发生的慢加急性肝衰竭。
+2.3.4 慢性肝衰竭
+在肝硬化基础上，缓慢出现肝功能进行性减退和失代偿：(1)血清TBil升高，常<10×ULN；(2)白蛋白(Alb)明显降低；(3)血小板明显下降，PTA≤40%(或INR≥1.5)，并排除其他原因者；(4)有顽固性腹水或门静脉高压等表现；(5)肝性脑病。
+2.4 分期
+根据临床表现的严重程度，亚急性肝衰竭和慢加急性(亚急性)肝衰竭可分为早期、中期和晚期。在未达到标准时的前期要提高警惕，须密切关注病情发展。
+2.4.1 前期
+(1)极度乏力，并有明显厌食、呕吐和腹胀等严重消化道症状；
+(2)丙氨酸转氨酶(ALT)和/或天冬氨酸转氨酶(AST)大幅升高，黄疸进行性加深(85.5≤TBil<171 μmol/L)或每日上升≥17.1 μmol/L；
+(3)有出血倾向，40%<PTA≤50%(INR<1.5)。
+2.4.2 早期
+(1)极度乏力，并有明显厌食、呕吐和腹胀等严重消化道症状；
+(2)ALT和/或AST继续大幅升高，黄疸进行性加深(TBil≥171 μmol/L或每日上升≥17.1 μmol/L)；
+(3)有出血倾向，30%<PTA≤40%(或1.5≤INR<1.9)；
+(4)无并发症及其他肝外器官衰竭。
+2.4.3 中期
+在肝衰竭早期表现基础上，病情进一步发展，ALT和/或AST快速下降，TBil持续上升，出血表现明显(出血点或瘀斑)，20%<PTA≤30%(或1.9≤INR<2.6)，伴有1项并发症和/或1个肝外器官功能衰竭。
+2.4.4 晚期
+在肝衰竭中期表现基础上，病情进一步加重，有严重出血倾向(注射部位瘀斑等)，PTA≤20%(或INR≥2.6)，并出现2个以上并发症和/或2个以上肝外器官功能衰竭。
+肝衰竭是连续演变的过程，各临床分期的时间可长短不一，且临床分期实际上是连贯发展的，依诱因和个体体质不同，与疾病发生机制密切相关，如及时有效治疗，疾病可进入相对稳定的平台期，或者缓解，症状逐渐好转，生命体征逐渐稳定，各项生化指标得以改善。
+2.5 肝衰竭诊断格式
+肝衰竭不是一个独立的临床诊断，而是一种功能判断。在临床实际应用中，完整的诊断应包括病因、临床类型及分期，建议按照以下格式书写：
+肝衰竭(分类、分型、分期)
+疾病病因诊断(病毒、药物、酒精、免疫、血吸虫等)
+例如：(1)慢加急性肝衰竭A型 早期
+乙型病毒性肝炎
+(2)亚急性肝衰竭 中期
+药物性肝炎
+(3)慢性肝衰竭
+血吸虫性肝硬化
+(4)急性肝衰竭
+病因待查
+2.6 疗效判断
+2.6.1 疗效指标
+主要疗效指标是生存率(4、12、24和48周生存率)。次要疗效指标包括：(1)症状和体征：患者乏力、纳差、腹胀、尿少、出血、肝性脑病、感染及腹水等临床症状和体征的变化；(2)实验室指标：血液生化学检查示TBil、PTA(INR)和Alb等改变。
+2.6.2 疗效判断标准
+2.6.2.1 临床治愈率
+急性、亚急性肝衰竭以临床治愈率作为判断标准：(1)乏力、纳差、腹胀、尿少、出血倾向和肝性脑病等临床症状消失；(2)黄疸消退(TBil≤2×ULN)，肝脏大小恢复正常；(3)肝功能指标基本恢复；(4)PTA(INR)恢复正常。
+2.6.2.2 临床好转率
+慢加急性(亚急性)、慢性肝衰竭以临床好转率作为判断标准：(1)乏力、纳差、腹胀、出血等临床症状明显好转，肝性脑病消失；(2)黄疸、腹水等体征明显好转；(3)肝功能指标明显好转(TBil<5×ULN，PTA>40%或者INR<1.5)。
+2.6.2.3 临床恶化
+慢加急性(亚急性)、慢性肝衰竭临床恶化标准：(1)乏力、纳差、腹胀、出血等临床症状及体征加重；(2)肝功能指标加重；(3)新发并发症和/或肝外脏器功能衰竭，或原有并发症加重。
+2.7 预后评估
+肝衰竭预后评估应贯穿诊疗全程，尤其强调早期预后评估的重要性。多因素预后评价模型，如终末期肝病模型(Model for end-stage liver disease，MELD)、MELD联合血清Na(MELD-Na)、iMELD、皇家医学院医院(King’s college hospital，KCH)标准、序贯器官衰竭评估(Sequential organ failure assessment，SOFA)、慢性肝功能衰竭联盟-器官功能衰竭评分(CLIF-C OFs)、CLIF-C ACLF等，以及单因素指标如年龄、肝性脑病的发生、TBil、凝血酶原(PT)或INR、血肌酐、前白蛋白、胆碱酯酶、甲胎蛋白(AFP)、乳酸、血糖、血清钠、血小板等对肝衰竭预后评估有一定价值，临床可参考应用。吲哚箐绿(ICG)清除试验可动态观察受试者有效肝功能或肝储备功能，对肝衰竭及肝移植前后预后评估有重要价值。
+3 肝衰竭的治疗
+目前肝衰竭的内科治疗尚缺乏特效药物和手段。原则上强调早期诊断、早期治疗，采取相应的病因治疗和综合治疗措施，并积极防治并发症。肝衰竭诊断明确后，应动态评估病情、加强监护和治疗。
+3.1 内科综合治疗
+3.1.1 一般支持治疗
+(1)卧床休息，减少体力消耗，减轻肝脏负担(Ⅲ)，病情稳定后加强适当运动。
+(2)加强病情监护(Ⅲ)：评估神经状态，监测血压、心率、呼吸频率、血氧饱和度，记录体重、腹围变化、24 h尿量、排便次数，性状等；建议完善病因及病情评估相关实验室检查，包括PT/INR、纤维蛋白原、乳酸脱氢酶、肝功能、血脂、电解质、血肌酐、尿素氮、血氨、动脉血气和乳酸、内毒素、嗜肝病毒标志物、铜蓝蛋白、自身免疫性肝病相关抗体检测、球蛋白谱、脂肪酶、淀粉酶、血培养、痰或呼吸道分泌物培养，尿培养；进行腹部超声波(肝、胆、脾、胰、肾，腹水)、胸片、心电图等物理诊断检查，定期监测评估[10]。有条件单位可完成血栓弹力图、凝血因子V、凝血因子Ⅷ、人类白细胞抗原(HLA)分型等。
+(3)推荐肠内营养，包括高碳水化合物、低脂、适量蛋白饮食。肝性脑病患者详见"肝性脑病"部分。进食不足者，每日静脉补给热量、液体、维生素及微量元素(Ⅲ)，推荐夜间加餐补充能量。
+(4)积极纠正低蛋白血症，补充白蛋白或新鲜血浆，并酌情补充凝血因子(Ⅲ)。
+(5)进行血气监测，注意纠正水电解质及酸碱平衡紊乱，特别要注意纠正低钠、低氯、低镁、低钾血症(Ⅲ)。
+(6)注意消毒隔离，加强口腔护理、肺部及肠道管理，预防医院内感染发生(Ⅲ)。
+3.1.2 对症治疗
+3.1.2.1 护肝药物治疗的应用
+推荐应用抗炎护肝药物、肝细胞膜保护剂、解毒保肝药物以及利胆药物。不同护肝药物分别通过抑制炎症反应、解毒、免疫调节、清除活性氧、调节能量代谢、改善肝细胞膜稳定性、完整性及流动性等途径，达到减轻肝脏组织损害，促进肝细胞修复和再生，减轻肝内胆汁淤积，改善肝功能(Ⅲ)。
+3.1.2.2 微生态调节治疗
+肝衰竭患者存在肠道微生态失衡，益生菌减少，肠道有害菌增加[11]，而应用肠道微生态制剂可改善肝衰竭患者预后。建议应用肠道微生态调节剂、乳果糖或拉克替醇，以减少肠道细菌易位或内毒素血症(Ⅲ)[12]。有报道粪便菌群移植(Faecal microbiota transplantation，FMT)作为一种治疗肝衰竭尤其是肝性脑病的新思路，可能优于单用益生菌[13]，可加强研究。
+3.1.2.3 免疫调节剂的应用
+肾上腺皮质激素在肝衰竭治疗中的应用尚存在不同意见。非病毒感染性肝衰竭，如自身免疫性肝炎及急性酒精中毒(重症酒精性肝炎)等，可考虑肾上腺皮质激素治疗(甲强龙，1.0～1.5 mg·kg－1·d－1)(Ⅲ)，治疗中需密切监测，及时评估疗效与并发症。其他原因所致的肝衰竭前期或早期，若病情发展迅速且无严重感染、出血等并发症者，可酌情短期使用(Ⅲ)。
+胸腺肽α1单独或联合乌司他丁治疗肝病合并感染患者可能有助于降低28 d病死率(Ⅱ)。胸腺肽α1用于慢性肝衰竭、肝硬化合并自发性腹膜炎、肝硬化患者，有助于降低病死率和继发感染发生率。对肝衰竭合并感染患者建议早期应用(Ⅲ)。
+3.1.3 病因治疗
+肝衰竭病因对指导治疗及判断预后具有重要价值，包括发病原因及诱因两类。对其尚不明确者应积极寻找病因以期达到正确处理的目的[14]。
+3.1.3.1 去除诱因
+如重叠感染、各种应激状态、饮酒、劳累、药物影响、出血等。
+3.1.3.2 针对不同病因治疗
+(1)肝炎病毒感染：对HBV DNA阳性的肝衰竭患者，不论其检测出的HBV DNA载量高低，建议立即使用核苷(酸)类药物抗病毒治疗。在肝衰竭前、早、中期开始抗病毒治疗，疗效相对较好；对慢加急性肝衰竭的有关研究指出，早期快速降低HBV DNA载量是治疗的关键[15]，若HBV DNA载量在2周内能下降2次方，患者存活率可提高[16]。抗病毒药物应选择快速强效的核苷(酸)类药物。建议优先使用核苷类似物，如恩替卡韦、替诺福韦(Ⅱ)。HCV RNA阳性的肝衰竭患者，可根据肝衰竭发展情况选择抗病毒时机及药物治疗。若MELD评分<18～20，可在移植术前尽快开始抗病毒治疗，部分患者经治疗后可从移植列表中退出；若MELD评分≥18～20，可先行移植术，术后再行抗病毒治疗。如果等待移植时间超过6个月，可在移植术前行抗病毒治疗。所有移植术后HCV再感染患者应在移植术后早期开始治疗，理想的情况是患者稳定后(通常为移植术后前3个月)尽早开始，因为移植术后进展期肝病患者12周持续病毒学应答(SVR)会降低[13]。抗病毒治疗首选无干扰素的直接抗病毒药物(Direct-acting antiviral agents，DAAs)治疗方案，并根据HCV基因型、患者耐受情况等进行个体化治疗。蛋白酶抑制剂是失代偿期肝硬化患者的禁忌证[17] (Ⅱ-1)。在治疗过程中应定期监测血液学指标和HCV RNA，以及不良反应等[17] (Ⅱ-1)。甲型、戊型病毒性肝炎引起的急性肝衰竭，目前尚未证明病毒特异性治疗有效(Ⅲ)。
+其他病毒感染：确诊或疑似疱疹病毒或水痘-带状疱疹病毒感染导致急性肝衰竭的患者，应使用阿昔洛韦(5～10 mg/kg，1次/8 h，静脉滴注)治疗，且危重者可考虑进行肝移植(Ⅲ)。
+(2)药物性肝损伤：因药物肝毒性所致急性肝衰竭，应停用所有可疑的药物(Ⅲ)。追溯过去6个月服用的处方药、某些中草药、非处方药、膳食补充剂的详细信息(包括服用数量和最后一次服用的时间)(Ⅲ)。尽可能确定非处方药的成分(Ⅲ)。已有研究证明，N-乙酰半胱氨酸(NAC)对药物性肝损伤所致急性肝衰竭有效[18,19](Ⅰ)。其中，确诊或疑似对乙酰氨基酚(APAP)过量引起的急性肝衰竭患者，如摄入APAP在4 h内，在给予NAC之前应先口服活性肽(Ⅰ)。摄入大量APAP患者，血清药物浓度或转氨酶升高提示即将或已经发生了肝损伤，应立即给予NAC(Ⅱ-1)。怀疑APAP中毒的急性肝衰竭患者也可应用NAC(Ⅲ)，必要时进行人工肝治疗。在非APAP引起的急性肝衰竭患者中，NAC能改善轻度肝性脑病的急性肝衰竭成人患者的预后[20]。确诊或疑似毒蕈中毒的急性肝衰竭患者，考虑应用青霉素G和水飞蓟素[21,22,23](Ⅲ)。
+(3)急性妊娠期脂肪肝/HELLP综合征导致的肝衰竭：建议立即终止妊娠，如果终止妊娠后病情仍继续进展，需考虑人工肝和肝移植治疗(Ⅲ)。
+(4)肝豆状核变性：采用血浆置换、白蛋白透析、血液滤过，以及各种血液净化方法组合的人工肝支持治疗，可以在较短时间内改善病情。
+3.1.4 并发症的内科综合治疗
+3.1.4.1 脑水肿
+(1)有颅内压增高者，给予甘露醇0.5～1.0 g/kg[24]或者高渗盐水治疗[25](Ⅱ-2)；
+(2)襻利尿剂，一般选用呋塞米，可与渗透性脱水剂交替使用(Ⅲ)；
+(3)应用人血白蛋白，特别是肝硬化白蛋白偏低的患者，提高胶体渗透压，可能有助于降低颅内压，减轻脑水肿症状(Ⅲ)；
+(4)人工肝支持治疗(Ⅲ)；
+(5)肾上腺皮质激素不推荐用于控制颅内高压[25](Ⅰ)；
+(6)对于存在难以控制的颅内高压急性肝衰竭患者可考虑应用轻度低温疗法[26,27]和吲哚美辛[28]，后者只能用于大脑高血流灌注的情况下(Ⅲ)。
+3.1.4.2 肝性脑病
+(1)去除诱因，如严重感染、出血及电解质紊乱等(Ⅲ)。
+(2)调整蛋白质摄入及营养支持，一般情况下蛋白质摄入量维持在1.2～1.5 g·kg－1·d－1，Ⅲ度以上肝性脑病者蛋白质摄入量为0.5～1.2 g·kg－1·d－1，营养支持能量摄入在危重期推荐25～35 kCal·kg－1·d－1，病情稳定后推荐35～40 kCal·kg－1·d－1[29]。一旦病情改善，可给予标准饮食。告知患者在白天少食多餐，夜间也加餐复合碳水化合物，仅严重蛋白质不耐受患者需要补充支链氨基酸(BCAA)[30](Ⅲ)。
+(3)应用乳果糖或拉克替醇，口服或高位灌肠，可酸化肠道，促进氨的排出，调节微生态，减少肠源性毒素吸收[31,32](Ⅲ)。
+(4)视患者电解质和酸碱平衡情况酌情选择精氨酸、门冬氨酸-鸟氨酸等降氨药物[33](Ⅲ)。
+(5)酌情使用BCAA或BCAA与精氨酸混合制剂以纠正氨基酸失衡[34](Ⅲ)。
+(6)Ⅲ度以上的肝性脑病患者建议气管插管(Ⅲ)。
+(7)抽搐患者可酌情使用半衰期短的苯妥英或苯二氮卓类镇静药物[35]，不推荐预防用药(Ⅲ)。
+(8)人工肝支持治疗[36,37](Ⅲ)。
+(9)对于早期肝性脑病要转移至安静的环境中，并密切评估其病情变化，防止病情进展恶化(Ⅲ)。
+(10)常规评估患者的颅内压(Ⅲ)，轻度体温降低[26,27]、吲哚美辛[28]可以考虑应用于难控制的颅内高压患者(Ⅱ-2)。
+3.1.4.3 感染
+(1)推荐常规进行血液和体液的病原学检测[38,39,40](Ⅲ)。
+(2)除肝移植前围手术期患者外，不推荐常规预防性使用抗感染药物[41](Ⅱ-2)。
+(3)一旦出现感染征象，应首先根据经验选择抗感染药物，并及时根据病原学检测及药敏试验结果调整用药[42](Ⅱ-3)。
+(4)应用广谱抗感染药物，联合应用多个抗感染药物，以及应用糖皮质激素类药物等治疗时，应注意防治继发真菌感染[43](Ⅱ-3)。
+3.1.4.4 低钠血症及顽固性腹水
+低钠血症是常见并发症。而低钠血症、顽固性腹水与急性肾损伤(AKI)等并发症相互关联。水钠潴留所致稀释性低钠血症是其常见原因，托伐普坦作为精氨酸加压素V2受体阻滞剂，可通过选择性阻断集合管主细胞V2受体，促进自由水的排泄，已成为治疗低钠血症及顽固性腹水的新措施[44]。对顽固性腹水患者：(1)推荐螺内酯联合呋塞米起始联用，应答差者，可应用托伐普坦[45]；(2)特利加压素1～2 mg/次，1次/12 h；(3)腹腔穿刺放腹水；(4)输注白蛋白。
+3.1.4.5 AKI及肝肾综合征
+防止AKI的发生：纠正低血容量，积极控制感染，避免肾毒性药物，需用静脉造影剂的检查者需权衡利弊后选择。AKI早期治疗：(1)减少或停用利尿治疗，停用可能肾损伤药物，血管扩张剂或非甾体消炎药。(2)扩充血容量可使用晶体或白蛋白或血浆；(3)怀疑细菌感染时应早期控制感染。后期治疗：停用利尿剂或按照1 g·kg－1·d－1剂量连续2 d静脉使用白蛋白扩充血容量，无效者需考虑是否有肝肾综合征，可使用血管收缩剂(特利加压素或去甲肾上腺素)，不符合者按照其他AKI类型处理(如肾性AKI或肾后性AKI)。
+肝肾综合征治疗：(1)可用特利加压素(1 mg/4～6 h)联合白蛋白(20～40 g/d)，治疗3 d血肌酐下降<25%，特利加压素可逐步增加至2 mg/4 h。若有效，疗程7～14 d；若无效，停用特利加压素。(2)去甲肾上腺素(0.5～3.0 mg/h)联合白蛋白(10～20 g/L)对1型或2型肝肾综合征有与特利加压素类似结果[44,45,46,47]。
+3.1.4.6 出血
+(1)常规推荐预防性使用H2受体阻滞剂或质子泵抑制剂[48,49](Ⅰ)。
+(2)对门静脉高压性出血患者，为降低门静脉压力，首选生长抑素类似物或特利加压素[50]，也可使用垂体后叶素(或联合应用硝酸酯类药物)[51](Ⅲ)；食管胃底静脉曲张所致出血者可用三腔管压迫止血；或行内镜下套扎、硬化剂注射或组织黏合剂治疗止血[52]；可行介入治疗，如经颈静脉肝内门体支架分流术(TIPS)[53](Ⅲ)。
+(3)对弥漫性血管内凝血患者，可给予新鲜血浆、凝血酶原复合物和纤维蛋白原等补充凝血因子，血小板显著减少者可输注血小板(Ⅲ)，可酌情给予小剂量低分子肝素或普通肝素，对有纤溶亢进证据者可应用氨甲环酸或止血芳酸等抗纤溶药物(Ⅲ)。
+(4)在明确维生素K1缺乏后可短期使用维生素K1(5～10 mg)[54](Ⅲ)。
+3.1.4.7 肝肺综合征
+PaO2<80 mmHg(1 mmHg＝0.133 kPa)时给予氧疗，通过鼻导管或面罩给予低流量氧(2～4 L/min)，对于氧气量需要增加的患者，可以加压面罩给氧或者气管插管(Ⅲ)。
+3.2 非生物型人工肝支持治疗
+3.2.1 概述
+人工肝是治疗肝衰竭的有效方法之一，其治疗机制是基于肝细胞的强大再生能力，通过一个体外的机械、理化和生物装置，清除各种有害物质，补充必需物质，改善内环境，暂时替代衰竭肝脏的部分功能，为肝细胞再生及肝功能恢复创造条件或等待机会进行肝移植。
+人工肝支持系统分为非生物型、生物型和混合型三种。非生物型人工肝已在临床广泛应用并被证实有一定疗效(Ⅱ-2)。根据病情不同进行不同组合治疗的李氏非生物型人工肝系统地应用和发展了血浆置换(Plasma exchange，PE)/选择性血浆置换(Fractional PE，FPE)、血浆(血液)灌流(Plasma-or-hemoperfusion，PP/HP)/特异性胆红素吸附、血液滤过(Hemofiltration，HF)、血液透析(Hemodialysis，HD)等经典方法。组合式人工肝常用模式包括血浆透析滤过(Plasmadiafiltration，PDF)、血浆置换联合血液滤过(Plasma exchange with hemofiltration, PERT)、配对血浆置换吸附滤过(Coupled plasma exchange filtration adsorption, CPEFA)、双重血浆分子吸附系统(Double plasma molecules adsorption system, DPMAS)、其他还有分子吸附再循环系统(Molecular absorbent recycling system, MARS)、连续白蛋白净化治疗(Continuous albumin purification system, CAPS)、成分血浆分离吸附(Fractional plasma separation and absorption, FPSA)等。推荐人工肝治疗肝衰竭方案采用联合治疗方法为宜，选择个体化治疗，注意操作的规范化。
+3.2.2 适应证[55](Ⅲ)
+(1)各种原因引起的肝衰竭前、早、中期，PTA介于20%～40%的患者为宜；晚期肝衰竭患者也可进行治疗，但并发症多见，治疗风险大，临床医生应权衡利弊，慎重进行治疗，同时积极寻求肝移植机会。
+(2)终末期肝病肝移植术前等待肝源、肝移植术后出现排异反应、移植肝无功能期的患者。
+(3)严重胆汁淤积性肝病，经内科治疗效果欠佳者；各种原因引起的严重高胆红素血症者。
+3.2.3 相对禁忌证[55](Ⅲ)
+(1)严重活动性出血或弥散性血管内凝血者；
+(2)对治疗过程中所用血制品或药品如血浆、肝素和鱼精蛋白等高度过敏者；
+(3)循环功能衰竭者；
+(4)心脑梗死非稳定期者；
+(5)妊娠晚期。
+3.2.4 并发症[55](Ⅲ)
+人工肝治疗的并发症有出血、凝血、低血压、继发感染、过敏反应、失衡综合征、高枸橼酸盐血症等。需要在人工肝治疗前充分评估并预防并发症的发生，在人工肝治疗中和治疗后严密观察并发症。随着人工肝技术的发展，并发症发生率逐渐下降，一旦出现，可根据具体情况给予相应处理。
+3.3 肝移植
+肝移植是治疗各种原因所致的中晚期肝功能衰竭的最有效方法之一，适用于经积极内科综合治疗和/或人工肝治疗疗效欠佳，不能通过上述方法好转或恢复者。
+3.3.1 适应证
+(1)对于急性/亚急性肝衰竭、慢性肝功能衰竭患者，MELD评分是评估肝移植的主要参考指标，MELD评分在15～40分是肝移植的最佳适应证[56,57,58,59,60,61]。
+(2)对于慢加急性肝衰竭，经过积极的内科综合治疗及人工肝治疗后分级为2～3级的患者，如CLIF-C评分<64分，建议28 d内尽早行肝移植[43]。
+(3)对于合并肝癌患者，应符合肿瘤无大血管侵犯；肿瘤累计直径≤8 cm或肿瘤累计直径>8 cm、术前AFP≤400 ng/mL且组织学分级为高/中分化。
+3.3.2 禁忌证[61]
+(1)4个及以上器官功能衰竭(肝、肾、肺、循环、脑)；
+(2)脑水肿并发脑疝；
+(3)循环功能衰竭，需要2种及以上血管活性物质维持，且对血管活性物质剂量增加无明显反应；
+(4)肺动脉高压，平均肺动脉压力(mPAP)>50 mmHg；
+(5)严重的呼吸功能衰竭，需要最大程度的通气支持[吸入氧浓度(FiO2)≥0.8,高呼气末正压通气(PEEP)]或者需要体外膜肺氧合(ECMO)支持；
+(6)持续严重的感染，细菌或真菌引起的败血症，感染性休克，严重的细菌或真菌性腹膜炎，组织侵袭性真菌感染，活动性肺结核；
+(7)持续的重症胰腺炎或坏死性胰腺炎；
+(8)营养不良及肌肉萎缩引起的严重的虚弱状态需谨慎评估肝移植。
+委员会成员
+专家组成员(按姓氏笔画)：丁洋、于岩岩、马慧、马臻、王介非、王宇明、王凯、王荣琦、王艳、王磊、韦嘉、毛小荣、邓国宏、甘建和、左维泽、白浪、白菡、冯萍、宁琴、邢卉春、朱英、任红、任万华、刘景院、安纪红、杜翔、李武、李玉芳、李用国、李兰娟、李树臣、李莹、李海、李家斌、李智伟、何金秋、辛绍杰、宋红丽、张大志、张立婷、张跃新、张缭云、陆伦根、陆海英、陆爽、陈智、陈靖、陈煜、范建高、林春、林锋、尚佳、罗新华、金清龙、周东辉、周新民、郑欢伟、郑昕、孟庆华、封波、赵守松、赵景民、胡颖、南月敏、段钟平、徐小元、高志良、高海兵、郭利民、黄燕、黄建荣、曹海芳、龚国忠、龚晓兵、盛吉芳、盛慧萍、康谊、阎明、韩涛、程计林、游绍莉、谢青、甄真、路青华、蔺淑梅、廖柏明、熊墨龙、霍小林、戴炜、戴菲
+秘书组：黄建荣、陈佳佳、朱丹华、徐小微、杨芊、刘小丽
+利益冲突
+利益冲突 无
+参考文献
+[1]
+PolsonJ, LeeWM.
+AASLD position paper: the management of acute liver failure[J].
+Hepatology,
+2005,
+41(
+5):
+1179-
+1197.
+DOI: 10.1002/hep.20703.
+[2]
+中华医学会感染病学分会肝衰竭与人工肝学组，中华医学会肝病学分会重型肝病与人工肝学组.
+肝衰竭诊疗指南[J].
+中华肝脏病杂志，
+2006,
+14(
+9):
+643-
+646.
+Liver Failure and Artificial Liver Group, Chinese Society of Infectious Diseases, Chinese Medical Association；Severe Liver Diseases and Artificial Liver Group, Chinese Society of Hepatology, Chinese Medical Association. Diagnostic and treatment guidelines for liver failure[J]．Chin J Hepatol, 2006, 14(9): 643-646.(in Chinese)
+[3]
+中华医学会感染病学分会肝衰竭与人工肝学组，中华医学会肝病学分会重型肝病与人工肝学组．
+肝衰竭诊治指南(2012年版)[J]．
+中华临床感染病杂志，
+2012,
+5(
+6):
+321-
+327.
+DOI：10.3969/j.issn.1672-5069.2013.03.007.
+Liver Failure and Artificial Liver Group, Chinese Society of Infectious Diseases, CMA；Severe Liver Disease and Artificial Liver Group, Chinese Society of Hepatology, CMA. Guideline for diagnosis and treatment of liver failure[J]. Chin J Clin Infect Dis, 2012, 5(6): 321-327. DOI：10.3969/j.issn.1672-5069.2013.03.007.(in Chinese)
+[4]
+SarinSK, KedarisettyCK, AbbasZ, et al.
+Acute-on-chronic liver failure: consensus recommendations of the Asian Pacific Association for the Study of the Liver (APASL) 2014[J].
+Hepatol Int,
+2014,
+8(
+4):
+453-
+471.
+DOI: 10.1007/s12072-014-9580-2.
+[5]
+European Association for the Study of the Liver.
+EASL clinical practical guidelines on the management of acute (fulminant) liver failure[J].
+J Hepatol,
+2017,
+66(
+5):
+1047-
+1081.
+DOI: 10.1016/j.jhep.2016.12.003.
+[6]
+FlammSL, YangYX, SinghS, et al.
+American gastroenterological association institute guidelines for the diagnosis and management of acute liver failure[J].
+Gastroenterology,
+2017,
+152(
+3):
+644-
+647.
+DOI: 10.1053/j.gastro.2016.12.026.
+[7]
+WuT, LiJ, ShaoL, et al.
+Development of diagnostic criteria and a prognostic score for hepatitis B virus-related acute-on-chronic liver failure[J].
+Gut,
+2018,
+67(
+12):
+2181-
+2191.
+DOI: 10.1136/gutjnl-2017-314641.
+[8]
+JalanR, YurdaydinC, BajajJS, et al.
+Toward an improved definition of acute-on-chronic liver failure[J].
+Gastroenterology,
+2014,
+147(
+1):
+4-
+10.
+DOI: 10.1053/j.gastro.2014.05.005.
+[9]
+ZhangQ, LiY, HanT, et al.
+Comparison of current diagnostic criteria for acute-on-chronic liver failure[J/OL].
+PLoS One,
+2015,
+10(
+3):
+e0122158.
+DOI: 10.1371/journal.pone.0122158.
+[10]
+European Association for the Study of the Liver.
+EASL Clinical Practice Guidelines on nutrition in chronic liver disease[J].
+J Hepatol,
+2018,
+pii：S0168-8278(18)：32177-32179.
+DOI: 10.1016/j.jhep.2018.06.024.
+[11]
+ChenY, YangF, LuH, et al.
+Characterization of fecal microbial communities in patients with liver cirrhosis[J].
+Hepatology,
+2011,
+54(
+2):
+562-
+572.
+DOI: 10.1002/hep.24423.
+[12]
+TilgH, CaniPD, MayerEA.
+Gut microbiome and liver diseases[J].
+Gut,
+2016,
+65(
+12):
+2035-
+2044.
+DOI: 10.1136/gutjnl-2016-312729.
+[13]
+PetrofEO, KhorutsA.
+From stool transplants to next-generation microbiota therapeutics[J].
+Gastroenterology,
+2014,
+146(
+6):
+1573-
+1582.
+DOI: 10.1053/j.gastro.2014.01.004.
+[14]
+RockeyDC, SeeffLB, RochonJ, et al.
+Causality assessment in drug-induced liver injury using a structured expert opinion process: comparison to the Roussel-Uclaf causality assessment method[J].
+Hepatology,
+2010,
+51(
+6):
+2117-
+2126.
+DOI: 10.1002/hep.23577.
+[15]
+JindalA, KumarM, SarinSK.
+Management of acute hepatitis B and reactivation of hepatitis B[J].
+Liver Int,
+2013,
+33
+Suppl 1:
+164-
+175.
+DOI: 10.1111/liv.12081.
+[16]
+SunLJ, YuJW, ZhaoYH, et al.
+Influential factors of prognosis in lamivudine treatment for patients with acute-on-chronic hepatitis B liver failure[J].
+J Gastroenterol Hepatol,
+2010,
+25(
+3):
+583-
+590.
+DOI: 10.1111/j.1440-1746.2009.06089.x.
+[17]
+European Association for the Study of the Liver.
+EASL recommendations on treatment of hepatitis C 2018[J].
+J Hepatol,
+2018,
+69(
+2):
+461-
+511.
+DOI: 10.1016/j.jhep.2018.03.026.
+[18]
+SmilksteinMJ, KnappGL, KuligKW, et al.
+Efficacy of oral N-acetylcysteine in the treatment of acetaminophen overdose. Analysis of the national multicenter study (1976 to 1985)[J].
+N Engl J Med,
+1988,
+319(
+24):
+1557-
+1562.
+DOI: 10.1056/NEJM198812153192401.
+[19]
+KeaysR, HarrisonPM, WendonJA, et al.
+Intravenous acetylcysteine in paracetamol induced fulminant hepatic failure: a prospective controlled trial[J].
+BMJ,
+1991,
+303(
+6809):
+1026-
+1029.
+DOI：10.1136/bmj.303.6809.1026.
+[20]
+LeeWM, HynanLS, RossaroL, et al.
+Intravenous N-acetylcysteine improves transplant-free survival in early stage non-acetaminophen acute liver failure[J].
+Gastroenterology,
+2009,
+137(
+3):
+856-
+864.
+DOI: 10.1053/j.gastro.2009.06.006.
+[21]
+HrubyK, CsomosG, FuhrmannM, et al.
+Chemotherapy of amanita phalloides poisoning with intravenous silibinin[J].
+Hum Toxicol,
+1983,
+2(
+2):
+183-
+195.
+[22]
+BroussardCN, AggarwalA, LaceySR, et al.
+Mushroom poisoning--from diarrhea to liver transplantation[J].
+Am J Gastroenterol,
+2001,
+96(
+11):
+3195-
+3198.
+DOI: 10.1111/j.1572-0241.2001.05283.x.
+[23]
+EnjalbertF, RapiorS, Nouguier-SouléJ, et al.
+Treatment of amatoxin poisoning: 20-year retrospective analysis[J].
+J Toxicol Clin Toxicol,
+2002,
+40(
+6):
+715-
+757.
+DOI：10.1081/CLT-120014646.
+[24]
+CanaleseJ, GimsonAE, DavisC, et al.
+Controlled trial of dexamethasone and mannitol for the cerebral oedema of fulminant hepatic failure[J].
+Gut,
+1982,
+23(
+7):
+625-
+629.
+DOI：10.1136/gut.23.7.625.
+[25]
+KlinckJ, McNeillL, Di AngelantonioE, et al.
+Predictors and outcome impact of perioperative serum sodium changes in a high-risk population[J].
+Br J Anaesth,
+2015,
+114(
+4):
+615-
+622.
+DOI: 10.1093/bja/aeu409.
+[26]
+JalanR, Olde DaminkSW, DeutzNE, et al.
+Restoration of cerebral blood flow autoregulation and reactivity to carbon dioxide in acute liver failure by moderate hypothermia[J].
+Hepatology,
+2001,
+34(
+1):
+50-
+54.
+DOI: 10.1053/jhep.2001.25386.
+[27]
+JalanR, O DaminkSW, DeutzNE, et al.
+Moderate hypothermia for uncontrolled intracranial hypertension in acute liver failure[J].
+Lancet,
+1999,
+354(
+9185):
+1164-
+1168.
+DOI：10.1016/S0140-6736(98)12440-6.
+[28]
+ToftengF, LarsenFS.
+The effect of indomethacin on intracranial pressure, cerebral perfusion and extracellular lactate and glutamate concentrations in patients with fulminant hepatic failure[J].
+J Cereb Blood Flow Metab,
+2004,
+24(
+7):
+798-
+804.
+DOI: 10.1097/01.WCB.0000125648.03213.1D.
+[29]
+中华医学会肝病学分会.
+肝硬化肝性脑病诊疗指南[J].
+中华内科杂志，
+2018,
+57(
+10):
+705-
+718.
+DOI: 10.3760/cma.j.issn.0578-1426.2018.10.004.
+Chinese Society of Hepatology, Chinese Medical Association. Guidelines on the management of hepatic encephalopathy in cirrhosis[J]. Chin J Intern Med, 2018, 57(10):705-718. DOI: 10.3760/cma.j.issn.0578-1426.2018.10.004.(in Chinese)
+[30]
+VilstrupH, AmodioP, BajajJ, et al.
+Hepatic encephalopathy in chronic liver disease: 2014 Practice Guideline by the American Association for the Study of Liver Diseases and the European Association for the Study of the Liver[J].
+Hepatology,
+2014,
+60(
+2):
+715-
+735.
+DOI: 10.1002/hep.27210.
+[31]
+GluudLL, VilstrupH, MorganMY.
+Nonabsorbable disaccharides for hepatic encephalopathy: A systematic review and meta-analysis[J].
+Hepatology,
+2016,
+64(
+3):
+908-
+922.
+DOI: 10.1002/hep.28598.
+[32]
+GluudLL, VilstrupH, MorganMY.
+Non-absorbable disaccharides versus placebo/no intervention and lactulose versus lactitol for the prevention and treatment of hepatic encephalopathy in people with cirrhosis[J].
+Cochrane Database Syst Rev,
+2016 (
+5):
+p. CD003044.
+DOI: 10.1002/14651858.CD003044.pub4.
+[33]
+BaiM, YangZ, QiX, et al.
+L-ornithine-L-aspartate for hepatic encephalopathy in patients with cirrhosis: a meta-analysis of randomized controlled trials[J].
+J Gastroenterol Hepatol,
+2013,
+28(
+5):
+783-
+792.
+DOI: 10.1111/jgh.12142.
+[34]
+GluudLL, DamG, LesI, et al.
+Branched-chain amino acids for people with hepatic encephalopathy[J].
+Cochrane Database Syst Rev,
+2017,
+5:
+CD001939.
+DOI: 10.1002/14651858.CD001939.pub4.
+[35]
+LaccettiM, ManesG, UomoG, et al.
+Flumazenil in the treatment of acute hepatic encephalopathy in cirrhotic patients: a double blind randomized placebo controlled study[J].
+Dig Liver Dis,
+2000,
+32(
+4):
+335-
+338.
+[36]
+HanishSI, SteinDM, ScaleaJR, et al.
+Molecular adsorbent recirculating system effectively replaces hepatic function in severe acute liver failure[J].
+Ann Surg,
+2017,
+266(
+4):
+677-
+684.
+DOI: 10.1097/SLA.0000000000002361.
+[37]
+SalibaF, CamusC, DurandF, et al.
+Albumin dialysis with a noncell artificial liver support device in patients with acute liver failure: a randomized, controlled trial[J].
+Ann Intern Med,
+2013,
+159(
+8):
+522-
+531.
+DOI: 10.7326/0003-4819-159-8-201310150-00005.
+[38]
+RolandoN, Philpott-HowardJ, WilliamsR.
+Bacterial and fungal infection in acute liver failure[J].
+Semin Liver Dis,
+1996,
+16(
+4):
+389-
+402.
+DOI: 10.1055/s-2007-1007252.
+[39]
+SilvestreJP, CoelhoLM, PóvoaPM.
+Impact of fulminant hepatic failure in C-reactive protein？[J].
+J Crit Care,
+2010,
+25(
+4):
+657. e7-
+12.
+DOI: 10.1016/j.jcrc.2010.02.004.
+[40]
+RuleJA, HynanLS, AttarN, et al.
+Procalcitonin identifies cell injury, not bacterial infection, in acute liver failure[J/OL].
+PLoS One,
+2015,
+10(
+9):
+e0138566.
+DOI: 10.1371/journal.pone.0138566.
+[41]
+KarvellasCJ, CavazosJ, BattenhouseH, et al.
+Effects of antimicrobial prophylaxis and blood stream infections in patients with acute liver failure: a retrospective cohort study[J].
+Clin Gastroenterol Hepatol,
+2014,
+12(
+11):
+1942-
+1949. e1.
+DOI: 10.1016/j.cgh.2014.03.011.
+[42]
+BernalW, AuzingerG, DhawanA, et al.
+Acute liver failure[J].
+Lancet,
+2010,
+376(
+9736):
+190-
+201.
+DOI: 10.1016/S0140-6736(10)60274-7.
+[43]
+FarmakiotisD, KontoyiannisDP.
+Emerging issues with diagnosis and management of fungal infections in solid organ transplant recipients[J].
+Am J Transplant,
+2015,
+15(
+5):
+1141-
+1147.
+DOI: 10.1111/ajt.13186.
+[44]
+UojimaH, KinbaraT, HidakaH, et al.
+Close correlation between urinary sodium excretion and response to tolvaptan in liver cirrhosis patients with ascites[J].
+Hepatol Res,
+2017,
+47(
+3):
+E14-
+E21.
+DOI: 10.1111/hepr.12716.
+[45]
+YanL, XieF, LuJ, et al.
+The treatment of vasopressin V2-receptor antagonists in cirrhosis patients with ascites: a meta-analysis of randomized controlled trials[J].
+BMC Gastroenterol,
+2015,
+15:
+65.
+DOI: 10.1186/s12876-015-0297-z.
+[46]
+European Association for the Study of the Liver.
+EASL Clinical Practice Guidelines for the management of patients with decompensated cirrhosis[J].
+J Hepatol,
+2018,
+69(
+2):
+406-
+460.
+DOI: 10.1016/j.jhep.2018.03.024.
+[47]
+MindikogluAL, PappasSC.
+New developments in hepatorenal syndrome[J].
+Clin Gastroenterol Hepatol,
+2018,
+16(
+2):
+162-
+177. e1.
+DOI: 10.1016/j.cgh.2017.05.041.
+[48]
+SelbyNM, KubbaAK, HawkeyCJ.
+Acid suppression in peptic ulcer haemorrhage: a 'meta-analysis’[J].
+Aliment Pharmacol Ther,
+2000,
+14(
+9):
+1119-
+1126.
+[49]
+LeontiadisGI, SharmaVK, HowdenCW.
+Proton pump inhibitor therapy for peptic ulcer bleeding: Cochrane collaboration meta-analysis of randomized controlled trials[J].
+Mayo Clin Proc,
+2007,
+82(
+3):
+286-
+296.
+DOI: 10.4065/82.3.286.
+[50]
+IoannouG, DoustJ, RockeyDC.
+Terlipressin for acute esophageal variceal hemorrhage[J].
+Cochrane Database Syst Rev,
+2003, (
+1):
+CD002147.
+DOI: 10.1002/14651858.CD002147.
+[51]
+ImperialeTF, TeranJC, McCulloughAJ.
+A meta-analysis of somatostatin versus vasopressin in the management of acute esophageal variceal hemorrhage[J].
+Gastroenterology,
+1995,
+109(
+4):
+1289-
+1294.
+[52]
+LaineL, CookD.
+Endoscopic ligation compared with sclerotherapy for treatment of esophageal variceal bleeding. A meta-analysis[J].
+Ann Intern Med,
+1995,
+123(
+4):
+280-
+287.
+[53]
+LinLL, DuSM, FuY, et al.
+Combination therapy versus pharmacotherapy, endoscopic variceal ligation, or the transjugular intrahepatic portosystemic shunt alone in the secondary prevention of esophageal variceal bleeding: a meta-analysis of randomized controlled trials[J].
+Oncotarget,
+2017,
+8(
+34):
+57399-
+57408.
+DOI: 10.18632/oncotarget.18143.
+[54]
+PereiraSP, RowbothamD, FittS, et al.
+Pharmacokinetics and efficacy of oral versus intravenous mixed-micellar phylloquinone (vitamin K1) in severe acute liver disease[J].
+J Hepatol,
+2005,
+42(
+3):
+365-
+370.
+DOI: 10.1016/j.jhep.2004.11.030.
+[55]
+中华医学会感染病学分会肝衰竭与人工肝学组.
+非生物型人工肝治疗肝衰竭指南(2016年版)[J].
+中华临床感染病杂志，
+2016,
+9(
+2):
+97-
+103.
+DOI: 10.3760/cma.j.issn.1674-2397.2016.02.001.
+Liver Failure and Artificial Liver Group, Branch of Infectious Diseases, Chinese Medical Association. Guideline for non-bioartificial liver support systems in treatment of liver failure：2016 update[J]. Chin J Clin Infect Dis, 2016, 9(2):97-103. DOI: 10.3760/cma.j.issn.1674-2397.2016.02.001.(in Chinese)
+[56]
+SteadmanRH, Van RensburgA, KramerDJ.
+Transplantation for acute liver failure: perioperative management[J].
+Curr Opin Organ Transplant,
+2010,
+15(
+3):
+368-
+373.
+DOI: 10.1097/MOT.0b013e32833982dd.
+[57]
+LingQ, XuX, WeiQ, et al.
+Downgrading MELD improves the outcomes after liver transplantation in patients with acute-on-chronic hepatitis B liver failure[J/OL].
+PLoS One,
+2012,
+7(
+1):
+e30322.
+DOI: 10.1371/journal.pone.0030322.
+[58]
+MochidaS.
+Indication criteria for liver transplantation for acute liver failure in Japan[J].
+Hepatol Res,
+2008,
+38
+Suppl 1:
+S52-
+55.
+DOI: 10.1111/j.1872-034X.2008.00427.x.
+[59]
+饶慧瑛，郭芳，魏来.
+2005年美国肝病学会急性肝衰竭诊治和肝移植患者评价指南简介[J]．
+中华肝脏病杂志，
+2006,
+14(
+2):
+154-
+156.
+DOI: 10.3760/j.issn:1007-3418.2006.02.025.
+RaoHY, GuoF, WeiL. Introduction and comments on AASLD practice guidelines: diagnosis and treatment of acute liver failure and assessment of liver transplant patients[J]．Chin J Hepatol, 2006, 14(2):154-156. DOI: 10.3760/j.issn:1007-3418.2006.02.025. (in Chinese)
+[60]
+ArroyoV, MoreauR, KamathPS, et al.
+Acute-on-chronic liver failure in cirrhosis[J].
+Nat Rev Dis Primers,
+2016,
+2:
+16041.
+DOI: 0.1038/nrdp.2016.41.
+[61]
+LineckerM, KronesT, BergT, et al.
+Potentially inappropriate liver transplantation in the era of the "sickest first" policy-A search for the upper limits[J].
+J Hepatol,
+2017,
+pii: S0168-8278(17)32430-3.
+DOI: 0.1016/j.jhep.2017.11.008.
+贡献者信息
+中华医学会感染病学分会肝衰竭与人工肝学组
+中华医学会肝病学分会重型肝病与人工肝学组
+关键词
+肝功能衰竭;
+肝，人工;
+诊断;
+治疗;
+指南;
+作者声明
+引用格式：中华医学会感染病学分会肝衰竭与人工肝学组，中华医学会肝病学分会重型肝病与人工肝学组．肝衰竭诊治指南(2018年版)[J]．中华临床感染病杂志，2018，11(6)：401-410. DOI：10.3760/cma.j.issn.1674-2397.2018.06.001.
+利益冲突
+利益冲突 无
+历史
+出版日期：2018-12-28
+收稿日期：2018-11-10
+本文编辑
+彭芳
+Standard and Guideline
+Guideline for diagnosis and treatment of liver failure
+Liver Failure and Artificial Liver Group, Chinese Society of Infectious Diseases, Chinese Medical Association,  Severe Liver Disease and Artificial Liver Group, Chinese Society of Hepatology, Chinese Medical Association
+Published
+2018-12-28
+Cite as
+Chin J Clin Infect Dis, 2018,11(6): 401-410. DOI: 10.3760/cma.j.issn.1674-2397.2018.06.001
+Contributor Information
+Liver Failure and Artificial Liver Group, Chinese Society of Infectious Diseases, Chinese Medical Association
+Severe Liver Disease and Artificial Liver Group, Chinese Society of Hepatology, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+推荐意见的证据分级及定义
+证据等级a
+定义
+Ⅰ
+随机对照试验
+Ⅱ-1
+非随机对照试验
+Ⅱ-2
+分组或病例对照分析研究
+Ⅱ-3
+多时间序列，明显非对照实验
+Ⅲ
+专家、权威的意见和经验，流行病学描述
+注：a数字越小，证据等级越高
+表2
+肝衰竭的常见病因
+病因
+常见分类
+肝炎病毒
+甲型、乙型、丙型、丁型、戊型肝炎病毒(HAV、HBV、HCV、HDV、HEV)
+其他病毒
+巨细胞病毒(CMV)、EB病毒(EBV)、肠道病毒、疱疹病毒、黄热病毒等
+药物
+对乙酰氨基酚、抗结核药物、抗肿瘤药物、部分中草药、抗风湿病药物、抗代谢药物等
+肝毒性物质
+酒精、毒蕈、有毒的化学物质等
+细菌及寄生虫等
+严重或持续感染(如脓毒症、血吸虫病等)
+肝脏其他疾病
+肝脏肿瘤、肝脏手术、妊娠急性脂肪肝、自身免疫性肝病、肝移植术后等
+胆道疾病
+先天性胆道闭锁、胆汁淤积性肝病等
+代谢异常
+肝豆状核变性、遗传性糖代谢障碍等
+循环衰竭
+缺血缺氧、休克、充血性心力衰竭等
+其他
+创伤、热射病等
+原因不明
+－
+注："－"．无相关数据
+表3
+肝衰竭的分类及定义
+分类
+定义
+急性肝衰竭
+急性起病，无基础肝病史，2周内出现以Ⅱ度以上肝性脑病为特征的肝衰竭
+亚急性肝衰竭
+起病较急，无基础肝病史，2～26周出现肝功能衰竭的临床表现
+慢加急性(亚急性)肝衰竭
+在慢性肝病基础上，短期内出现急性肝功能失代偿和肝功能衰竭的临床表现
+慢性肝衰竭
+在肝硬化基础上，缓慢出现肝功能进行性减退导致的以反复腹水和/或肝性脑病等为主要表现的慢性肝功能失代偿
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华临床感染病杂志2018年11卷6期
+文    题：肝衰竭诊治指南(2018年版)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华临床感染病杂志2018年11卷6期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+Original text
+Contribute a better translation
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

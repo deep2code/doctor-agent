@@ -1,0 +1,700 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%96%B0%E7%94%9F%E5%84%BF%E8%B4%A5%E8%A1%80%E7%97%87%E8%AF%8A%E6%96%AD%E5%8F%8A%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882019%E5%B9%B4%E7%89%88%EF%BC%89.html
+# 标题: 新生儿败血症诊断及治疗专家共识（2019年版） - 中华儿科杂志
+# 发布方/日期: 中华医学会儿科学分会新生儿学组，中华儿科杂志, 2019,57(4) : 252-257. DOI: 10.3760/cma.j；2019-04-02
+
+AUTO TRANSLATION​▼
+新生儿败血症诊断及治疗专家共识（2019年版）
+中华医学会儿科学分会新生儿学组
+中国医师协会新生儿科医师分会感染专业委员会
+中华儿科杂志, 2019,57(4) : 252-257. DOI: 10.3760/cma.j.issn.0578-1310.2019.04.005
+新生儿败血症仍然是威胁新生儿生命的重大疾病，其在存活新生儿中的发病率为4.5‰~9.7‰[1]。1986年及2003年中华医学会儿科学分会新生儿学组分别制定"新生儿败血症诊断标准初步方案""新生儿败血症诊疗方案"[2,3]。近年来，病原谱发生变化，如B族链球菌（group B streptococcus，GBS）在早发败血症（early-onset sepsis，EOS）中检出有增高趋势[4]；国内外专家对非特异性检查在新生儿败血症中指导价值的认识有所改变；在抗菌药物使用的观念、时机上也发生了变化。因此，中华医学会儿科学分会新生儿学组及中国医师协会新生儿科医师分会感染专业委员会于2016年5月成立共识制定工作组，历经3年，全面检索并评价相关文献，并经过多轮专家函审及会议讨论，结合我国实际国情制定"新生儿败血症诊断及治疗专家共识（2019版）"。本共识旨在进一步规范新生儿败血症的诊断及治疗，帮助新生儿科医生严格掌握抗菌药物使用及停用指征。
+一、定义
+脓毒症（sepsis）是指各种病原体（包括细菌、病毒、原虫等）感染所引起的全身炎症反应综合征，其中血液（或者脑脊液等无菌腔隙）能培养出致病菌（包括细菌和真菌）引起的全身炎症反应综合征称败血症（septicemia）。细菌仍是引起新生儿脓毒症的主要病原体，另外，在临床实践中，新生儿科医生更习惯用败血症而非细菌性脓毒症（bacteria sepsis），同时为了与前两版方案保持一致，因此，本共识将沿用败血症这个词，主要讨论细菌性脓毒症这部分内容。
+根据发病时间，新生儿败血症又被分为EOS及晚发败血症（late-onset sepsis，LOS）。EOS一般发病时间≤3日龄，LOS一般>3日龄[5]。由于EOS与LOS在高危因素、致病菌乃至治疗上都有差别，故本共识将分别阐述。
+二、新生儿败血症的危险因素
+（一）EOS
+大多系母体病原菌垂直传播（产前或产时感染）。
+1．早产和（或）低出生体重儿：
+早产和（或）低出生体重儿是EOS最重要的危险因素。胎龄越小、出生体重越低，风险越大。在美国，出生体重>2 500 g的新生儿EOS发病率为0.57‰；出生体重1 500~2 500 g的新生儿EOS发病率则为1.38‰；而出生体重<1 500 g的极低出生体重儿发病率高达10.96‰[6]。
+2．胎膜早破（premature rupture of fetal membranes，PROM）≥18 h：
+PROM常常伴随着早产，79%的EOS患儿母亲有PROM≥18 h的病史[7]。一方面，PROM可能是母体绒毛膜羊膜炎的表现；另一方面或为病原菌的入侵提供了机会，PROM的母体羊膜腔微生物检出率是胎膜完整的母体羊膜腔微生物检出率的2.3倍。若羊膜腔内检出GBS，EOS发生的概率为20%，如伴发PROM且母体产时没有预防性使用抗菌药物，EOS发生概率将上升到33%~50%[8]。
+3．羊膜腔内感染：
+包括羊水、胎盘、绒毛膜感染，在临床上主要是指绒毛膜羊膜炎。患或不患绒毛膜羊膜炎的母亲，新生儿患EOS的概率相差4.5倍[7,9]。绒毛膜羊膜炎最主要的临床表现是母亲发热，临床通常以母亲体温>38 ℃为基本诊断条件，且同时具备下述中的2项即可诊断：母亲白细胞计数>15×109/L；母亲心率>100次/min；胎儿心动过速（>160次/min）；母亲子宫触痛，羊水浑浊或发臭[5]。
+（二）LOS
+系院内感染和社区获得性感染。
+1．早产和（或）低出生体重儿：
+与EOS相似，早产和（或）低出生体重儿是LOS首要的危险因素。出生胎龄小于28周的早产儿中LOS的发病率超过1/3，在超低出生体重儿中LOS发生率为30%~40%，胎龄越小，体重越低，其发病率越高[10,11,12]。出生胎龄越小、体重越轻的新生儿住院时间越长，发生院内感染的风险越大。
+2．有创诊疗措施：
+机械通气、中心静脉置管、脐动脉或静脉置管以及肠外营养等都是LOS明确的危险因素，这些有创操作增加了细菌进入新生儿血液循环的可能性[10,12]。
+3．不合理应用抗菌药物：
+延长经验性使用抗菌药物的疗程是LOS的高危因素[13]。
+4．不恰当的新生儿处理：
+在中国部分欠发达地区，仍有一些新生儿处理不当，如不洁处理脐带、挑"马牙"、挤乳房、挤痈疖等，都是LOS重要的高危因素。
+三、病原菌
+细菌谱因地区不同而有差异，在西方发达国家或地区，EOS常见的病原为GBS及大肠埃希菌，而在国内则以肠杆菌属为主（如大肠埃希菌），但近年来GBS有逐渐增多的趋势，李斯特菌虽然检出率不高，但其致死率及并发症发生率极高；对于LOS，国外以凝固酶阴性葡萄球菌（coagulase negative Staphylococcus，CONS）主要是表皮葡萄球菌为最多，多见于早产儿，尤其长期动脉或静脉置管者。国内的LOS除CONS外，金黄色葡萄球菌主要见于皮肤化脓性感染[14]；气管插管机械通气患儿以革兰阴性（gram negative，G-）菌如铜绿假单胞菌、肺炎克雷伯菌、沙雷菌等多见[12,15]。
+四、新生儿败血症的临床表现
+新生儿败血症临床表现多样，详见表1。部分EOS患儿临床表现不典型（尤其是早产儿），刚出生时无明显症状，但很快出现休克、弥漫性血管内凝血以及死亡，此时临床诊断将更多依靠产前高危因素及实验室检查。
+点击查看表格
+表1
+新生儿败血症的常见临床表现[16]
+表1
+新生儿败血症的常见临床表现[16]
+系统位置
+临床表现
+全身
+发热，体温不稳，反应差，喂养差，水肿，Apgar评分低
+消化系统
+黄疸，腹胀，呕吐或胃潴留，腹泻及肝脾肿大
+呼吸系统
+呼吸困难以及呼吸暂停，发绀等；其中早发败血症可以呼吸暂停或呼吸窘迫为首要表现且持续超过6 h［17］
+循环系统
+面色苍白，四肢冷，心动过速、过缓，皮肤大理石样花纹，低血压或毛细血管充盈时间>3 s
+泌尿系统
+少尿及肾功能衰竭
+血液系统
+出血，紫癜
+五、实验室检查
+（一）病原学检查
+1．血培养：
+是诊断败血症的金标准，然而出结果时间慢，一般至少需要2 d；敏感度低，EOS患儿尤其低，生长速度慢以及培养条件苛刻的细菌检出率更低。根据He等[18]的研究发现，在其疑似的EOS中血培养阳性率仅4%左右。由于新生儿尤其低、极低或超低出生体重儿取血量的限制，导致血培养敏感度更差，故要求每次抽血量不少于1 ml[5]。
+2．尿培养：
+需采用清洁导尿或耻骨上膀胱穿刺抽取的尿液标本，仅用于LOS的病原学诊断[5]。
+3．核酸检测：
+随着分子生物学的发展，越来越多的检测病原体核酸，如检测细菌16 S rRNA基因的PCR试剂盒用于临床。
+（二）血液非特异性检查
+1．白细胞计数：
+采血时间一般应等到6小时龄以后（EOS）或起病6 h以后（LOS），白细胞计数为6小时龄~3日龄≥30×109/L，≥3日龄为≥20×109/L，或任何日龄<5×109/L，均提示异常。该项指标在EOS中诊断价值不大，白细胞计数减少比增高更有价值[19]。
+2．不成熟中性粒细胞（包括早、中、晚幼粒细胞和杆状核细胞）/总中性粒细胞（immature/total neutrophil，I/T）：
+出生至3日龄I/T≥0.16为异常，≥3日龄≥0.12为异常[20]。I/T可能在25%~50%无感染患儿中升高，故只是该项升高，诊断新生儿败血症的证据不足，但其阴性预测值高达99%[5]。
+3．血小板计数：
+在诊断败血症中特异度及灵敏度均不高，且反应较慢，不能用于抗菌药物效果及时评判[21]，但血小板减低与预后不良有关。
+4．C反应蛋白（C-reactive protein，CRP）：
+临床上常用的急相反应蛋白包括CRP以及降钙素原。CRP在感染后6~8 h升高，24 h达到顶峰，当发生炎症时，首先募集白细胞介素6，随后刺激释放CRP。因此，如产时感染发生的EOS，患儿刚出生时CRP值可能不高[22]，6小时龄内CRP≥3 mg/L，6~24小时龄≥5 mg/L提示异常，>24小时龄≥10 mg/L提示异常。在生后或者怀疑感染后6~24 h以及再延24 h后连续2次测定，如均正常，对败血症（包括EOS以及LOS）的阴性预测值达到99.7%，可以作为停用抗菌药物的指征[23,24]。
+5．降钙素原：
+≥0.5 mg/L提示异常，通常在感染后4~6 h开始升高，12 h达到峰值，比CRP更快地诊断或排除感染。3日龄内降钙素原有生理性升高，参考范围应该考虑生后日龄[25]。降钙素原在EOS和LOS中的指导价值不完全一样，在EOS疑似病例，降钙素原更多作为抗菌药物停药的指征，一般连续2次（间隔24 h）降钙素原值正常可考虑停用抗菌药物；而在LOS中降钙素原在诊断以及停药方面都有一定指导价值[26,27,28]。
+6．血液非特异性检查的筛查组合：
+尽管很多非特异性检查在EOS中阳性预测价值不高，但对LOS的诊断及指导停药方面仍有一定价值。由于新生儿各系统发育成熟度不一，机体对感染的反应也不固定，所以必须综合判断，不同非特异性检查批次中≥2项阳性有一定的诊断价值。需要注意的是，这样组合非特异性指标，其对新生儿败血症的阳性预测值仍然不高。
+（三）脑脊液检查
+有报道称23%的新生儿败血症患儿可能合并脑膜炎[29]，腰椎穿刺检查在诊断中极为重要。新生儿脑膜炎中血培养阴性率高达38%，所以血培养阴性不能作为排除新生儿脑膜炎和败血症的指标[30]。腰椎穿刺指征（下列3项任意1项）：（1）血培养阳性；（2）有临床表现且非特异性感染指标≥2项阳性；（3）抗感染治疗效果不佳。值得注意的是，足月儿只有实验室检查异常（指不包括血培养阳性的实验室检查）而无临床表现的EOS，不需常规做脑脊液检查[31]。取脑脊液后2 h内完成检验，否则糖浓度和白细胞计数会下降。通常多数足月正常新生儿脑脊液白细胞计数<20×106个/L[32]，正常新生儿脑脊液蛋白<1.7 g/L及糖>400 mg/L（或>当时血糖的40%），与年长儿童类似[33,34]。
+六、诊断标准
+1．新生儿EOS：
+（1）疑似诊断为3日龄内有下列任何一项，①异常临床表现，②母亲有绒毛膜羊膜炎，③早产PROM≥18 h。如无异常临床表现，血培养阴性，间隔24 h的连续2次血非特异性检查<2项阳性，则可排除败血症。（2）临床诊断为有临床异常表现，同时满足下列条件中任何一项，①血液非特异性检查≥2项阳性，②脑脊液检查为化脓性脑膜炎改变，③血中检出致病菌DNA。（3）确定诊断为有临床表现，血培养或脑脊液（或其他无菌腔液）培养阳性。
+2．新生儿LOS：
+临床诊断和确定诊断均为>3日龄，其余条件分别同新生儿EOS。
+七、治疗
+无论是EOS还是LOS，一旦怀疑即应使用抗菌药物，然后根据血培养及药物敏感试验结果及其他非特异性检查结果，判断继续使用、换用还是停用。疑似EOS的新生儿即使暂时没有异常临床表现，在出生后应尽早用抗菌药物，依据围生期的高危因素及早产（不成熟）的程度，或有新生儿败血症表现，或母亲有绒毛膜羊膜炎[35]。疑似EOS如在2~3日龄排除诊断，则必须停用抗菌药物；而LOS用抗菌药物既要考虑高危因素如插管等，也要考虑患儿的临床表现以及实验室检查数据。EOS应用抗菌药物的指征主要依靠高危因素及临床医生对患儿临床表现的判断，实验室检查作为停抗菌药物的依据。EOS处理流程见图1。
+点击查看大图
+图1
+新生儿早发败血症处理流程
+a应做腰椎穿刺的情况：血培养阳性；有异常表现且非特异性检查≥2项阳性；抗感染治疗效果不佳，不必等待血培养结果
+图1
+新生儿早发败血症处理流程
+（一）抗菌药物的选择
+1．EOS：
+在血培养和其他非特异性检查结果出来前，经验性选用广谱抗菌药物组合，尽早针对革兰阳性（gram positive，G+）菌、G-菌，用氨苄西林（或青霉素）+第三代头孢菌素作为一线抗菌药物组合。尽管第三代头孢菌素较氨基糖苷类药物抗菌谱更广，但是患儿的病死率、引起新生儿坏死性小肠结肠炎等严重并发症率较高、诱导耐药菌产生以及继发真菌感染可能性也较高[13,36]。西方国家最常使用氨苄西林+氨基糖苷类（主要是庆大霉素）[5]，对GBS和李斯特菌有很好的协同杀菌作用，但用氨基糖苷类需要进行血药谷浓度监测，对于体重1 500 g以下患儿还需完善耳聋相关基因检测，因有发生耳毒性和肾毒性的可能性[37]。我国有关部门已明确规定在<6岁小儿禁用氨基糖苷类抗菌药物，若药物敏感试验提示病原菌仅对该类药物敏感并取得家长知情同意的情况下可考虑使用，但不作为首选和常规使用。
+2．LOS：
+在得到血培养结果前，考虑到CONS以及金黄色葡萄球菌较多，经验性选用苯唑西林、萘夫西林（针对表皮葡萄球菌）或者万古霉素代替氨苄西林联用第三代头孢。如怀疑铜绿假单胞菌感染则用头孢他啶。对于极低出生体重儿或者出生胎龄<28周早产儿预防性使用氟康唑等抗真菌药尚有争议。
+3．血培养阳性结果：
+原则上应根据药物敏感试验结果进行抗菌药物调整，能单用不联用，如果经验性选用的抗菌药物不在药物敏感试验所选的范围内，临床效果好则继续用，否则改为药物敏感试验中敏感的抗菌药物种类。如果患儿已经进行经验性两联抗菌药物治疗，确认GBS感染后，因其对青霉素敏感（尽管GBS对青霉素耐药有增加的报道[38]），可以考虑停用另一种，仅用氨苄西林或青霉素即可，合并脑膜炎者可考虑联合三代头孢。对李斯特菌一般选氨苄西林，或必要时联用氨基糖苷类药物（在查血药浓度、体重1 500 g以下患儿查耳聋基因以及家长知情同意条件下）。对于厌氧菌应当使用克林霉素或者是甲硝唑。对于耐甲氧西林金黄色葡萄球菌（methicillin-resistant Staphylococcusaureus，MRSA）和CONS，建议使用万古霉素或利奈唑胺，可考虑联用萘夫西林。万古霉素或利奈唑胺应当作为整个新生儿败血症抗菌药物疗法选用的二、三线药物，应谨慎使用以防止产生耐药，使用万古霉素时还应监测血药浓度。对于多重耐药的MRSA且万古霉素效果欠佳时，若有药物敏感试验结果支持，可在临床药师会诊同意后选用氟喹诺酮、磺胺甲恶唑联合甲氧苄氨嘧啶等药物[39]。若为产β内酰胺酶的病原菌应采用碳青霉烯类抗菌药物如亚胺培南或美洛培南[40]，怀疑或确诊合并脑膜炎，应避免用亚胺培南，因有引起惊厥的不良反应，可采用美洛培南代替。抗菌药物疗程在10~14 d，血培养在用药2~3 d后应该转阴，持续阳性需要考虑换用抗菌药物。置管者导管相关感染如血培养出G-菌、金黄色葡萄糖球菌或者真菌，则应拔出导管，如果是CONS可应用抗菌药物后复查。
+4．并发脑膜炎：
+一般用头孢噻肟+氨苄西林，如果脑脊液培养出金黄色葡萄球菌，用万古霉素或利奈唑胺。GBS引发的脑膜炎通常疗程需要14~21 d。G-菌则需要21 d或者脑脊液正常后再用14 d，少数有并发症（室管膜炎、脑炎、硬膜下积液等）者需要更长时间，铜绿假单胞菌需要使用头孢他啶或根据药物敏感试验调整，脆弱类拟杆菌需要甲硝唑。
+（二）支持治疗
+纠正电解质及酸碱失衡，对于感染性休克患儿，则应在用抗菌药物的同时，积极抗休克治疗。
+八、预防
+1．EOS：
+已经证实，母亲产前静脉点滴抗菌药物（青霉素、氨苄西林或头孢唑林等）能够预防GBS引起的EOS，使用指征如下[41]。（1）在孕晚期经培养或者细菌16 S rRNA基因证实的GBS感染或定植。（2）GBS感染状况未知但存在1项或多项产时危险因素如胎龄<37周、PROM≥18 h或者产前体温超过38 ℃。（3）孕期尿检GBS阳性。（4）前次分娩有明确GBS感染。以上是母亲GBS定植或感染的证据或依据，均为产前使用抗菌药物预防的指征，母亲应在产前预防性使用抗菌药物至少4 h，如预防性使用抗菌药物不恰当，婴儿出生后无异常表现，则根据胎龄决定进一步处理，①≥37周，胎膜早破<18 h，密切观察不用抗菌药物；胎膜早破≥18 h，则做全套实验室检查（必要时相隔24 h的2次检查），并院内观察48 h，未达到前述使用抗菌药物指征时不使用抗菌药物；②胎龄<37周，无论有无胎膜早破，完善全套实验室检查（同样必要时相隔24 h的2次检查），院内观察48 h，未达到前述使用抗菌药物指征时不使用抗菌药物[35]。
+2．LOS：
+控制院内感染是控制LOS的关键。动静脉置管的护理是重中之重，其基本原则包括以下3点[42,43]。（1）置管，尽量建立专职的团队，掌握置管的指征及时机，选取合适的置管血管，在专门的隔离间内穿戴好无菌外衣、帽子、口罩及手套置管；（2）置管后护理，穿刺点周围酒精或碘伏消毒，每日观察穿刺周围皮肤情况；（3）拔管，尽量减少置管时间（尽量不要超过21 d），血培养阳性（CONS除外）立即拔管。除此之外，手卫生及母乳喂养也是控制院内感染的关键措施[44,45]。
+（余加林 贺雨 俞惠民 执笔）
+参与讨论审定的专家（按单位名称拼音排序）：北京大学第三医院（童笑梅）；北京市朝阳区妇幼保健院（刘敬）；重庆医科大学附属儿童医院（史源）；复旦大学附属儿科医院（曹云、陈超）；广东省妇幼保健院（杨杰）；广东省人民医院（何少茹）；广州市妇女儿童医疗中心（周伟）；贵阳市妇幼保健院（刘玲）；河北省儿童医院（刘翠青）；湖北省妇幼保健院（夏世文）；湖南省儿童医院（高喜容）；华中科技大学同济医院（常立文）；吉林大学白求恩第一医院（严超英）；解放军第三〇二医院（张雪峰）；解放军总医院第七医学中心（封志纯、黄柳明）；昆明市儿童医院（李杨方）；南方医科大学南方医院（黄为民）；南方医科大学珠江医院（王斌）；南京医科大学附属儿童医院（周晓玉）；山东大学齐鲁医院（卢宪梅）；山西省儿童医院（姚建宏）；西北妇女儿童医院（李占魁）；上海交通大学医学院附属上海儿童医学中心（孙建华）；上海交通大学医学院附属新华医院（何振娟）；深圳市妇幼保健院（杨传忠）；首都儿科研究所附属儿童医院（李莉）；四川大学华西第二医院（母得志）；天津市中心妇产科医院（郑军）；温州医科大学附属第二医院（林振浪）；西安交通大学医学院第一附属医院（刘俐）；厦门市妇幼保健院（林新祝）；香港中文大学医学院威尔斯亲王医院（伍百祥）；浙江大学医学院附属儿童医院（陈理华、杜立中、马晓路、施丽萍、袁天明）；郑州大学第一附属医院（程秀永）；中国医科大学盛京医院（毛健）；中国医学科学院北京协和医学院北京协和医院（丁国芳）；中南大学湘雅医院（岳少杰）；中山大学附属第八医院（付雪梅）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+Fleischmann-StruzekC,GoldfarbDM,SchlattmannP, et al.
+The global burden of paediatric and neonatal sepsis: a systematic review[J].
+Lancet Respir Med,
+2018,
+6(
+3):
+223-
+230.
+DOI: 10.1016/S2213-2600(18)30063-8.
+[2]
+吴仕孝执笔.
+新生儿败血症诊断标准修订方案[J].
+中华儿科杂志,
+1988,
+26(
+3):
+163.
+[3]
+中华医学会儿科学分会新生儿学组,中华医学会中华儿科杂志编辑委员会.
+新生儿败血症诊疗方案(2003年昆明)[J].
+中华儿科杂志,
+2003,
+41(
+12):
+897-
+899.
+DOI: 10.3760/j.issn:0578-1310.2003.12.005.
+[4]
+高楚楚, 杨祖铭, 王三南,等.
+早发型与晚发型新生儿败血症的临床特点及病原学比较[J].
+中国中西医结合儿科学,
+2018,
+10(
+4):
+327-
+329.
+DOI: 10.3969/j.issn.1674-3865.2018.04.016.
+[5]
+PolinRA.
+Management of neonates with suspected or proven early-onset bacterial sepsis[J].
+Pediatrics,
+2012,
+129(
+5):
+1006-
+1015.
+DOI:10.1542/peds.2012-0541.
+[6]
+StollBJ,HansenNI,SánchezPJ, et al.
+Early onset neonatal sepsis: the burden of group B Streptococcal and E. coli disease continues[J].
+Pediatrics,
+2011,
+127(
+5):
+817-
+826.
+DOI: 10.1542/peds.2010-2217.
+[7]
+SchuchatA,ZywickiSS,DinsmoorMJ, et al.
+Risk factors and opportunities for prevention of early-onset neonatal sepsis: a multicenter case-control study[J].
+Pediatrics,
+2000,
+105(
+1
+Pt 1):
+21-
+26.
+[8]
+RomeroR,QuinteroR,OyarzunE, et al.
+Intraamniotic infection and the onset of labor in preterm premature rupture of the membranes[J].
+Am J Obstet Gynecol,
+1988,
+159(
+3):
+661-
+666.
+[9]
+MartiusJA,RoosT,GoraB, et al.
+Risk factors associated with early-onset sepsis in premature infants[J].
+Eur J Obstet Gynecol Reprod Biol,
+1999,
+85(
+2):
+151-
+158.
+[10]
+StrunkT,DohertyD,JacquesA, et al.
+Histologic chorioamnionitis is associated with reduced risk of late-onset sepsis in preterm infants[J].
+Pediatrics,
+2012,
+129(
+1):
+e134-
+141.
+DOI: 10.1542/peds.2010-3493.
+[11]
+TsaiMH,HsuJF,ChuSM, et al.
+Incidence, clinical characteristics and risk factors for adverse outcome in neonates with late-onset sepsis[J].
+Pediatr Infect Dis J,
+2014,
+33(
+1):
+e7-
+7e13.
+DOI: 10.1097/INF.0b013e3182a72ee0.
+[12]
+StollBJ,HansenN,FanaroffAA, et al.
+Late-onset sepsis in very low birth weight neonates: the experience of the NICHD Neonatal Research Network[J].
+Pediatrics,
+2002,
+110(
+2
+Pt 1):
+285-
+291.
+[13]
+KuppalaVS,Meinzen-DerrJ,MorrowAL, et al.
+Prolonged initial empirical antibiotic treatment is associated with adverse outcomes in premature infants[J].
+J Pediatr,
+2011,
+159(
+5):
+720-
+725.
+DOI: 10.1016/j.jpeds.2011.05.033.
+[14]
+贾忠兰, 毕福玲, 张彩明.
+新生儿败血症病原菌分布及耐药性分析[J].
+中华医院感染学杂志,
+2017,
+27(
+1):
+197-
+200.
+DOI: 10.11816/cn.ni.2017-162558.
+[15]
+BizzarroMJ,RaskindC,BaltimoreRS, et al.
+Seventy-five years of neonatal sepsis at Yale: 1928-2003[J].
+Pediatrics,
+2005,
+116(
+3):
+595-
+602.
+DOI: 10.1542/peds.2005-0552.
+[16]
+LutsarI,ChazallonC,CarducciFI, et al.
+Current management of late onset neonatal bacterial sepsis in five European countries[J].
+Eur J Pediatr,
+2014,
+173(
+8):
+997-
+1004.
+DOI: 10.1007/s00431-014-2279-5.
+[17]
+BenitzWE,WynnJL,PolinRA.
+Reappraisal of guidelines for management of neonates with suspected early-onset sepsis[J].
+J Pediatr,
+2015,
+166(
+4):
+1070-
+1074.
+DOI: 10.1016/j.jpeds.2014.12.023.
+[18]
+HeY,DuWX,JiangHY, et al.
+Multiplex cytokine profiling identifies interleukin-27 as a novel biomarker for neonatal early onset sepsis[J].
+Shock,
+2017,
+47(
+2):
+140-
+147.
+DOI: 10.1097/SHK.0000000000000753.
+[19]
+ReschB,BR,NH.
+Comparison between pathogen associated laboratory and clinical parameters in early-onset sepsis of the newborn[J].
+Open Microbiol J,
+2016,
+10:
+133-
+139.
+DOI: 10.2174/1874285801610010133.
+[20]
+WangJ,YuJ,FanJ, et al.
+Evaluation of altitude-appropriate reference ranges for neutrophils in diagnosis of sepsis in very low birth weight infants: a multicenter retrospective study[J].
+PLoS One,
+2017,
+12(
+2):
+e0171571.
+DOI: 10.1371/journal.pone.0171571.
+[21]
+ManzoniP,MostertM,GallettoP, et al.
+Is thrombocytopenia suggestive of organism-specific response in neonatal sepsis?[J].
+Pediatr Int,
+2009,
+51(
+2):
+206-
+210.
+DOI: 10.1111/j.1442-200X.2008.02689.x.
+[22]
+GabayC,KushnerI.
+Acute-phase proteins and other systemic responses to inflammation[J].
+N Engl J Med,
+1999,
+340(
+6):
+448-
+454.
+DOI: 10.1056/NEJM199902113400607.
+[23]
+HoferN,ZachariasE,MüllerW, et al.
+An update on the use of C-reactive protein in early-onset neonatal sepsis: current insights and new tasks[J].
+Neonatology,
+2012,
+102(
+1):
+25-
+36.
+DOI: 10.1159/000336629.
+[24]
+ChiesaC,NataleF,PasconeR, et al.
+C reactive protein and procalcitonin: reference intervals for preterm and term newborns during the early neonatal period[J].
+Clin Chim Acta,
+2011,
+412(
+11-12):
+1053-
+1059.
+DOI: 10.1016/j.cca.2011.02.020.
+[25]
+中华医学会儿科学分会医院感染管理与控制专业委员会.
+血清降钙素原检测在儿童感染性疾病中的临床应用专家共识[J].
+中华儿科杂志,
+2019,
+57(
+1):
+9-
+15.
+DOI: 10.3760/cma.j.issn.0578-1310.2019.01.005
+[26]
+MakhoulIR,YacoubA,SmolkinT, et al.
+Values of C-reactive protein, procalcitonin, and Staphylococcus-specific PCR in neonatal late-onset sepsis[J].
+Acta Paediatr,
+2006,
+95(
+10):
+1218-
+1223.
+DOI: 10.1080/08035250600554250.
+[27]
+ReinhartK,BauerM,RiedemannNC, et al.
+New approaches to sepsis: molecular diagnostics and biomarkers[J].
+Clin Microbiol Rev,
+2012,
+25(
+4):
+609-
+634.
+DOI: 10.1128/CMR.00016-12.
+[28]
+YuZ,LiuJ,SunQ, et al.
+The accuracy of the procalcitonin test for the diagnosis of neonatal sepsis: a meta-analysis[J].
+Scand J Infect Dis,
+2010,
+42(
+10):
+723-
+733.
+DOI: 10.3109/00365548.2010.489906.
+[29]
+IsaacsD,BarfieldCP,GrimwoodK, et al.
+Systemic bacterial and fungal infections in infants in Australian neonatal units. Australian Study Group for Neonatal Infections[J].
+Med J Aust,
+1995,
+162(
+4):
+198-
+201.
+[30]
+GargesHP,MoodyMA,CottenCM, et al.
+Neonatal meningitis: what is the correlation among cerebrospinal fluid cultures, blood cultures, and cerebrospinal fluid parameters?[J].
+Pediatrics,
+2006,
+117(
+4):
+1094-
+1100.
+DOI: 10.1542/peds.2005-1132.
+[31]
+Bedford RussellAR.
+Neonatal sepsis[J].
+Paediatrics Child Health,
+2011,
+21(
+6):
+265-
+269.
+DOI:https//doi.org/10.1016/j.paed.2010.11.003.
+[32]
+SmithPB,GargesHP,CottonCM, et al.
+Meningitis in preterm neonates: importance of cerebrospinal fluid parameters[J].
+Am J Perinatol,
+2008,
+25(
+7):
+421-
+426.
+DOI: 10.1055/s-0028-1083839.
+[33]
+ChadwickSL,WilsonJW,LevinJE, et al.
+Cerebrospinal fluid characteristics of infants who present to the emergency department with fever: establishing normal values by week of age[J].
+Pediatr Infect Dis J,
+2011,
+30(
+4):
+e63-
+67.
+DOI: 10.1097/INF.0b013e31820ad2ba.
+[34]
+PatelSJ,SaimanL.
+Principles and strategies of antimicrobial stewardship in the neonatal intensive care unit[J].
+Semin Perinatol,
+2012,
+36(
+6):
+431-
+436.
+DOI: 10.1053/j.semperi.2012.06.005.
+[35]
+BradyMT,PolinRA.
+Prevention and management of infants with suspected or proven neonatal sepsis[J].
+Pediatrics,
+2013,
+132(
+1):
+166-
+168.
+DOI: 10.1542/peds.2013-1310.
+[36]
+CottenCM,McDonaldS,StollB, et al.
+The association of third-generation cephalosporin use and invasive candidiasis in extremely low birth-weight infants[J].
+Pediatrics,
+2006,
+118(
+2):
+717-
+722.
+DOI: 10.1542/peds.2005-2677.
+[37]
+StollBJ,HansenNI,Adams-ChapmanI, et al.
+Neurodevelopmental and growth impairment among extremely low-birth-weight infants with neonatal infection[J].
+JAMA,
+2004,
+292(
+19):
+2357-
+2365.
+DOI: 10.1001/jama.292.19.2357.
+[38]
+NaganoN,NaganoY,ToyamaM, et al.
+Nosocomial spread of multidrug-resistant group B streptococci with reduced penicillin susceptibility belonging to clonal complex 1[J].
+J Antimicrob Chemother,
+2012,
+67(
+4):
+849-
+856.
+DOI: 10.1093/jac/dkr546.
+[39]
+TziallaC,BorghesiA,PozziM, et al.
+Neonatal infections due to multi-resistant strains: epidemiology, current treatment, emerging therapeutic approaches and prevention[J].
+Clin Chim Acta,
+2015,
+451(
+Pt A):
+71-
+77.
+DOI: 10.1016/j.cca.2015.02.038.
+[40]
+PacificiGM,AllegaertK.
+Clinical pharmacology of carbapenems in neonates[J].
+J Chemother,
+2014,
+26(
+2):
+67-
+73.
+DOI: 10.1179/1973947813Y.0000000110.
+[41]
+VeraniJR,McGeeL,SchragSJ.
+Prevention of perinatal group B streptococcal disease--revised guidelines from CDC, 2010[J].
+MMWR Recomm Rep,
+2010,
+59(
+RR-10):
+1-
+36.
+[42]
+BorghesiA,StronatiM.
+Strategies for the prevention of hospital-acquired infections in the neonatal intensive care unit[J].
+J Hosp Infect,
+2008,
+68(
+4):
+293-
+300.
+DOI: 10.1016/j.jhin.2008.01.011.
+[43]
+SaimanL.
+Strategies for prevention of nosocomial sepsis in the neonatal intensive care unit[J].
+Curr Opin Pediatr,
+2006,
+18(
+2):
+101-
+106.
+DOI: 10.1097/01.mop.0000193300.25141.c5.
+[44]
+PittetD.
+Improving compliance with hand hygiene in hospitals[J].
+Infect Control Hosp Epidemiol,
+2000,
+21(
+6):
+381-
+386.
+DOI: 10.1086/501777.
+[45]
+PittetD,HugonnetS,HarbarthS, et al.
+Effectiveness of a hospital-wide programme to improve compliance with hand hygiene. Infection Control Programme[J].
+Lancet,
+2000,
+356(
+9238):
+1307-
+1312.
+贡献者信息
+中华医学会儿科学分会新生儿学组
+中国医师协会新生儿科医师分会感染专业委员会
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2019-04-02
+收稿日期：2019-02-13
+本文编辑
+李伟
+Standard/Protocol/Guideline
+Expert consensus on the diagnosis and management of neonatal sepsis (version 2019)
+The Subspecialty Group of Neonatology, the Society of Pediatric, Chinese Medical Association,  Professional Committee of Infectious Diseases, Neonatology Society, Chinese Medical Doctor Association
+Published
+2019-04-02
+Cite as
+Chin J Pediatr, 2019,57(4): 252-257. DOI: 10.3760/cma.j.issn.0578-1310.2019.04.005
+Contributor Information
+The Subspecialty Group of Neonatology, the Society of Pediatric, Chinese Medical Association
+Professional Committee of Infectious Diseases, Neonatology Society, Chinese Medical Doctor Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+新生儿败血症的常见临床表现[16]
+系统位置
+临床表现
+全身
+发热，体温不稳，反应差，喂养差，水肿，Apgar评分低
+消化系统
+黄疸，腹胀，呕吐或胃潴留，腹泻及肝脾肿大
+呼吸系统
+呼吸困难以及呼吸暂停，发绀等；其中早发败血症可以呼吸暂停或呼吸窘迫为首要表现且持续超过6 h［17］
+循环系统
+面色苍白，四肢冷，心动过速、过缓，皮肤大理石样花纹，低血压或毛细血管充盈时间>3 s
+泌尿系统
+少尿及肾功能衰竭
+血液系统
+出血，紫癜
+a应做腰椎穿刺的情况：血培养阳性；有异常表现且非特异性检查≥2项阳性；抗感染治疗效果不佳，不必等待血培养结果
+图1
+新生儿早发败血症处理流程
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华儿科杂志2019年57卷4期
+文    题：新生儿败血症诊断及治疗专家共识（2019年版）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华儿科杂志2019年57卷4期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+Original text
+Contribute a better translation
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

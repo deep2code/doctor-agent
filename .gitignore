@@ -161,3 +161,7 @@ external/jkb_health/
 
 # 采集脚本的工作日志：排除项与原因已汇总进各自 raw/MANIFEST.txt，日志本身不入库
 external/*/.skips.log
+
+# 第十七批（2026-09-30）医师报抓取器的续抓断点（增量抓取游标，重跑 fetch_mdweekly.py 即可重建）；
+# raw/*.txt 正文逐字摘录与 MANIFEST.txt 入库作溯源
+external/mdweekly/state.json

@@ -44,7 +44,7 @@ func TestRetrieverPopSupplement6Recall(t *testing.T) {
 		"戒烟药有什么副作用":             "ta-quit-drugs",
 		"想戒烟去医院挂什么科":            "ta-quit-services",
 		"戒烟门诊在哪里找":              "ta-quit-services",
-		"戒烟热线电话号码是多少":           "ta-quit-services",
+		"戒烟热线电话号码是多少":           "ra-quit-smoking-service",
 		"老公英子在二手烟环境里要紧吗":        "ta-secondhand-smoke",
 		"家里有人抽烟开窗通风还有害吗":        "ta-secondhand-smoke",
 		"二手烟会致癌吗":               "ta-secondhand-smoke",

@@ -63,8 +63,8 @@ func TestRetrieverBatch7DigestiveRecall(t *testing.T) {
 		"腹泻夜间排便是癌吗": "dg-ibs-alert",
 		"便血是肠易激吗":   "dg-ibs-alert",
 		// 肠易激综合征的患病与病因
-		"肠易激综合征是什么病": "dg-ibs-overview",
-		"IBS会癌变吗":    "dg-ibs-overview",
+		"一紧张就拉肚子是不是肠易激": "dg-ibs-overview",
+		"IBS会癌变吗":          "dg-ibs-overview",
 		// 肠易激综合征分型
 		"IBS-D是什么意思": "dg-ibs-subtype",
 		"肠易激综合征腹泻型":  "dg-ibs-subtype",

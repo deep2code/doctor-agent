@@ -1,0 +1,1835 @@
+# URL: https://seleguide.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E7%A4%BE%E5%8C%BA%E8%8E%B7%E5%BE%97%E6%80%A7%E8%82%BA%E7%82%8E%E7%AE%A1%E7%90%86%E6%8C%87%E5%8D%97%282013%E4%BF%AE%E8%AE%A2%29%28%E4%B8%8B%29.html
+# 标题: 儿童社区获得性肺炎管理指南(2013修订)(下) - 中华儿科杂志
+# 发布方/日期: 中华医学会儿科学分会呼吸学组，中华儿科杂志, 2013,51(11) : 856-862. DOI: 10.3760/cma.j；2013-11-02
+
+儿童社区获得性肺炎管理指南(2013修订)(下)
+中华医学会儿科学分会呼吸学组
+《中华儿科杂志》编辑委员会
+中华儿科杂志, 2013,51(11) : 856-862. DOI: 10.3760/cma.j.issn.0578-1310.2013.11.012
+(接第10期752页)
+概 要
+本指南在循证基础上，较广泛参阅当今儿童社区获得性肺炎(community acquired pneumonia, CAP)相关文献，尽可能结合我国国情，以贴近临床、贴近基层。概要是本指南各部分的要点并列上推荐等级。推荐等级分为3级，等级A的证据来自随机对照研究(randomized controlled trials，RCTs)及高质量的系统综述；等级B的证据来自一项或多项研究；等级C则是专家观点及其他资料[3,4]，但可供儿科临床参考。
+一、定义
+CAP是指原本健康的儿童在医院外获得的感染性肺炎，包括感染了具有明确潜伏期的病原体而在入院后潜伏期内发病的肺炎。
+二、病原学(表1)
+点击查看表格
+表1
+不同年龄儿童社区获得性肺炎的病原情况[1,3,5]
+表1
+不同年龄儿童社区获得性肺炎的病原情况[1,3,5]
+年龄组
+常见病原
+少见病原
+>28 d～3月龄
+细菌
+细菌
+肺炎链球菌
+非发酵革兰阴性菌
+大肠埃希菌
+百日咳杆菌
+肺炎克雷伯杆菌
+流感嗜血杆菌(b型、不定型)
+金黄色葡萄球菌
+卡他莫拉菌
+沙眼衣原体
+病毒
+病毒
+呼吸道合胞病毒
+巨细胞病毒
+副流感病毒Ⅰ型、Ⅱ型、Ⅲ型
+流感病毒A型、B型
+腺病毒
+人类偏肺病毒
+>3月龄～5岁
+细菌
+细菌
+肺炎链球菌
+肺炎克雷伯杆菌
+流感嗜血杆菌(b型、不定型)
+大肠埃希菌
+卡他莫拉菌
+结核分枝杆菌
+金黄色葡萄球菌
+肺炎支原体
+嗜肺军团菌
+肺炎衣原体
+病毒
+病毒
+呼吸道合胞病毒
+鼻病毒
+腺病毒
+人类偏肺病毒
+副流感病毒Ⅰ型、Ⅱ型、Ⅲ型
+肠道病毒
+流感病毒A型、B型
+人禽流感病毒
+新型冠状病毒
+EB病毒
+麻疹病毒
+>5岁～15岁
+细菌
+细菌
+肺炎链球菌
+化脓性链球菌
+金黄色葡萄球菌
+结核分枝杆菌
+流感嗜血杆菌(b型、不定型)
+肺炎支原体
+肺炎衣原体
+嗜肺军团菌
+病毒
+病毒
+流感病毒A型、B型
+腺病毒
+EB病毒
+新型冠状病毒
+人禽流感病毒
+CAP病原包括细菌、病毒、支原体、衣原体、真菌、原虫等，本指南未涉及结核分枝杆菌、真菌和原虫。必须注意儿童CAP往往有混合病原感染。
+1．根据年龄能很好地预示儿童CAP的可能病原[B]。
+2．年幼儿CAP 50%由病毒病原引起，年长儿常由细菌、肺炎支原体(MP)感染所致[B]。
+3．呼吸道合胞病毒(RSV)是引起CAP的首位病毒病原，其次是副流感病毒Ⅰ型、Ⅱ型、Ⅲ型和流感病毒A型、B型[B]。
+4．肺炎链球菌(SP)是儿童CAP最常见细菌病原，流感嗜血杆菌(HI)、卡他莫拉菌(MC)仍是儿童CAP常见病原，社区相关性耐甲氧西林金黄色葡萄球菌(CA-MRSA)是CAP的重要病原菌之一，多发生在年幼儿[B]。
+5．MP不仅是学龄期和学龄前期儿童CAP常见病原，在1～5岁儿童中亦不少见[B]。
+6．婴幼儿常见病毒-细菌、病毒-病毒混合感染，年长儿多为细菌和非典型病原混合感染[C]。
+三、临床特征
+1．呼吸增快：< 2月龄RR ≥60次/min，2月龄～RR≥50次/min，1～5岁RR ≥40次/min，>5岁RR ≥30次/min提示肺炎；RR >70次/min常提示低氧血症[B]。
+2．呼吸困难对肺炎的提示意义比呼吸增快更大[B]。
+3．病毒性肺炎和MP肺炎可出现喘鸣，喘鸣对判定婴幼儿肺炎的严重度没有帮助[B]。
+4．MP肺炎经大环内酯类抗菌药物正规治疗7 d及以上，临床征象加重、仍持续发热、肺部影像学表现加重者，可考虑为难治性MP肺炎[B]。
+四、严重度评估(表2)
+点击查看表格
+表2
+社区获得性肺炎患儿病情严重度评估
+表2
+社区获得性肺炎患儿病情严重度评估
+临床特征
+轻度CAP
+重度CAP
+一般情况
+好
+差
+拒食或脱水征
+无
+有
+意识障碍
+无
+有
+呼吸频率
+正常或略增快
+明显增快a
+紫绀
+无
+有
+呼吸困难(呻吟、鼻翼扇动、三凹征)
+无
+有
+肺浸润范围
+≤1/3的肺
+多肺叶受累或≥2/3的肺
+胸腔积液
+无
+有
+脉搏血氧饱和度
+>0.96
+≤0.92
+肺外并发症
+无
+有
+判断标准
+出现上述所有表现
+存在以上任何一项
+注：a呼吸明显增快：婴儿RR>70次/min，年长儿RR>50次/min
+1．2月龄～5岁CAP儿童出现胸壁吸气性凹陷或鼻翼扇动或呻吟之一表现者，提示有低氧血症，为重度肺炎；如果出现中心性紫绀、严重呼吸窘迫、拒食或脱水征、意识障碍(嗜睡、昏迷、惊厥)之一表现者为极重度肺炎[C]。
+2．CAP住院指征，有下列1项者[C]：
+(1)呼吸空气条件下，SaO2 ≤ 0.92(海平面)或≤ 0.90(高原)或有中心性紫绀；
+(2)呼吸空气条件下，RR >70次/min(婴儿)，RR >50次/min(年长儿)，除外发热、哭吵等因素的影响；
+(3)呼吸困难：胸壁吸气性凹陷、鼻翼扇动；
+(4)间歇性呼吸暂停，呼吸呻吟；
+(5)持续高热3～5 d不退者或有先天性心脏病、先天性支气管肺发育不良、先天性呼吸道畸形、重度贫血、重度营养不良等基础疾病者；
+(6)胸片等影像学资料证实双侧或多肺叶受累或肺叶实变并肺不张、胸腔积液或短期内病变进展者；
+(7)拒食或有脱水征者；
+(8)家庭不能提供恰当充分的观察和监护，或2月龄以下CAP患儿。
+3．收住或转至ICU的指征，具备下列1项者[C]：
+(1)吸入氧浓度(FiO2)≥ 0.6，SaO2≥ 0.92(海平面)或0.90(高原)；
+(2)休克和(或)意识障碍；
+(3)呼吸频率加快、脉速伴严重呼吸窘迫和耗竭征象，伴或不伴PaCO2升高；
+(4)反复呼吸暂停或出现慢而不规则的呼吸。
+五、放射学诊断评估
+1．对于一般状况良好且可以在门诊治疗的疑似CAP患儿，无需常规行胸片检查[A]。
+2．对于初始抗菌药物治疗失败，需要验证是否存在肺炎并发症或病情加重的患儿应及时做胸片检查[B]。
+3．胸部CT扫描和胸部侧位片不宜列为常规[B]。
+4．在除外肺不张、肺梗死、肺出血等之后，胸片实变征象可诊断肺炎[B]。
+5．胸片征象对CAP病原学的提示性差[B]。
+6．对于临床上肺炎已康复，一般状况良好的患儿，无需反复胸片复查[B]。
+六、实验室检查
+1．红细胞沉降率(ESR)、C反应蛋白(CRP)浓度或血清降钙素原(PCT)浓度，不能单独或联合用来区分细菌性或病毒性CAP[A]。
+2．CAP死亡的危险性和低氧血症程度关系密切，因此所有住院肺炎和疑似低氧血症的患儿，有条件者都应监测血氧饱和度[A]。
+3．拟诊细菌性CAP、病情严重，或有并发症的住院患儿应常规进行血培养，阳性者经治疗后应复查，但SP菌血症患儿经治疗临床改善明显者可不复查[B]。
+4．拟诊病毒性CAP应常规检测流感病毒与其他常见呼吸道病毒[B]。
+5．临床怀疑MP感染者应进行MP检测，急性期和恢复期双份血清特异性IgG抗体比较有4倍以上的升高或下降到原来的1/4是MP感染的确诊依据[A]。
+6．有胸腔积液者应尽可能进行胸腔积液涂片染色与细菌培养[B]。
+七、治疗
+1．原则
+(1)轻度CAP可以在门诊/家中治疗，由社区/乡镇医疗中心管理，如治疗48 h无效、高热不退，或病情恶化出现呼吸急促、呼吸困难、紫绀等，必须及时转诊治疗[C]。
+(2)重度CAP应收住院治疗，选择区/县级及以上医院[C]。
+2．对症支持治疗
+(1)海平面、呼吸空气条件下，SaO2 ≤ 0.92或PaO2 ≤ 60 mm Hg(1 mm Hg＝0.133 kPa)应予吸氧[A]；氧疗患儿应每4小时监测体温、脉率、RR和脉搏血氧饱和度[C]。
+(2)鼻胃管可能影响小婴儿的呼吸，尽可能选择小号胃管[C]，少量多次喂食可减轻对呼吸的影响[B]。
+(3)如必须静脉补液，总液量按基础代谢正常需要量的80%计算，补液种类应为5%～10%葡萄糖溶液与生理盐水比例为4～5∶1，应监测血清电解质[C]。
+(4)胸部物理治疗无确切益处，不必常规采用[B]。
+3．CAP患儿无常规使用糖皮质激素的指征[C]
+4．抗病原微生物治疗(表3)
+点击查看表格
+表3
+儿童社区获得性肺炎常用抗微生物药物的剂量和用法
+表3
+儿童社区获得性肺炎常用抗微生物药物的剂量和用法
+抗微生物药物
+剂量及给药间隔[mg/(kg·次)]
+最大剂量(g/次)
+给药途径
+青霉素类
+青霉素G(penicillin G)
+2.5万～5.0万U/(kg·次)，q 6 h
+肌肉注射或静脉滴注
+大剂量5.0万～10.0万U/(kg·次), q 6 h
+肌肉注射或静脉滴注
+青霉素V(penicillin V)
+8～12，q 6～8 h
+口服
+氨苄西林(ampicillin)
+常用剂量：15～25, q 6～8 h 大剂量：50～75, q 6～8 h
+2.0
+口服或肌肉注射或静脉滴注
+阿莫西林(amoxicillin)
+常用剂量：10～15，q 6～8 h 大剂量：25～30，q 6～8 h
+2.0
+口服
+羧苄西林(carbenicillin)
+25～50，q 6～8 h
+2.0
+肌肉注射或静脉滴注
+美洛西林(mezlocillin)
+75, q 6～8 h
+3.0
+肌肉注射或静脉滴注
+哌拉西林(piperacillin)
+25～50, q 6～8 h
+2.0
+肌肉注射或静脉滴注
+苯唑西林(oxacillin)
+25～50, q 6～8 h
+2.0
+静脉滴注
+氯唑西林(cloxacillin)
+12.5～25.0, q 6～8 h
+2.0
+静脉滴注
+氨苄西林＋舒巴坦(ampicillin/sulbactam)
+(规格：2∶1注射剂)(25.0/12.5)～(75.0/37.5), q 6～8 h
+1.0/0.5
+静脉滴注
+阿莫西林＋克拉维酸(amoxicillin/clavulanic acid)
+(规格：7∶1口服剂)(20.00/2.85)～(30.00/4.29)，q 8 h(规格：5∶1注射剂)(25.00/5.00), q 6～8 h
+1.0/0.1431.0/0.2
+口服静脉滴注
+替卡西林＋克拉维酸(ticarcillin/clavulanic acid)
+(规格：15∶1注射剂)(50.00/3.34)～(75.00/5.00)，q 6～8 h(规格：30∶1注射剂)(30.00/1.00)～(50.00/1.70)，q 6～8 h
+3.0/0.23.0/0.1
+静脉滴注
+哌拉西林＋他唑巴坦(piperacillin/tazobactam)
+(规格：8∶1注射剂)大于9月龄100.0/12.5 q 8 h 2～9月龄80.0/10.0 q 8 h
+4.0/0.5
+静脉滴注
+阿莫西林＋舒巴坦(amoxicillin-sulbactam)
+(规格：2∶1注射剂) 按阿莫西林计算30，q 6～8 h
+肌肉注射或静脉滴注
+头孢菌素类
+头孢拉定(cefradine)
+6.25～12.50, q 6 h
+1.0
+口服
+12.50～25.00, q 6～8 h
+1.0
+肌肉注射或静脉滴注
+头孢唑啉(cefazolin)
+15～25, q 6～8 h
+1.0
+肌肉注射或静脉滴注
+头孢羟氨苄(cefadroxil)
+15～25, q 12 h
+1.0
+口服
+头孢克洛(cefaclor)
+10～15, q 8 h
+0.5
+口服
+头孢丙烯(cefprozil)
+7.5～15.0, q 12 h
+0.5
+口服
+头孢地尼(cefdinir)
+3～6, q 8 h
+0.2
+口服
+头孢呋辛(cefuroxime)
+10～15, q 12 h
+0.75
+口服
+15～25, q 6～8 h
+1.0
+肌肉注射或静脉滴注
+头孢噻肟(cefotaxime)
+50，q 8 h
+2.0
+静脉滴注
+头孢曲松(ceftriaxone)
+40～80, q d
+2.0
+肌肉注射或静脉滴注
+头孢哌酮(cefoperazone)
+15～50, q 8 h
+2.0
+肌肉注射或静脉滴注
+头孢他啶(ceftazidime)
+15～50, q 8 h
+2.0
+肌肉注射或静脉滴注
+头孢哌酮＋舒巴坦(cefoperazone/culbactam)
+(规格：2∶1注射剂)常用剂量：(15.0/7.5)～(30.0/15.0) q 6 h～q 12 h大剂量：(40.0/20.0)～(80.0/40.0)q 6 h～q 12 h
+舒巴坦不超过80.0 mg/(kg·d)
+静脉滴注
+头孢吡肟(cefapime)
+30～50，q 8～12 h
+1.5
+肌肉注射或静脉滴注
+大环内酯类
+红霉素(erythromycin)
+10～15, q 8 h10～15, q 12 h
+0.5
+口服静脉滴注
+罗红霉素(roxithromycin)
+2.5～5, q 12 h
+0.15
+口服
+阿奇霉素(azithromycin)
+10 q d，连用3 d
+0.5
+口服
+克拉霉素(clarithromycin)
+7.5, q 12 h
+0.5
+口服
+其他
+多西环素(doxycycline)
+8岁以上，2.2，q 12 h(第一日)，后2.2～4.4，qd
+0.1
+口服
+万古霉素(vancomycin)
+10，q 6 h或20，q 12 h
+0.5
+静脉滴注
+利奈唑胺(linezolid)
+10，q 8 h
+0.6
+口服或静脉滴注
+利福平(rifampin)
+10～20，qd
+0.3
+口服
+氨曲南(aztreonam)
+30，q 6～8 h
+0.5
+肌肉注射或静脉滴注
+厄他培南(ertapenem)
+15，q 12 h
+1.0
+静脉滴注
+亚胺培南(imipenem)
+15～25，q 6 h
+0.5
+静脉滴注
+美罗培南(meropenem)
+10～20，q 8 h
+0.5
+静脉滴注
+帕尼培南(panipenem)
+轻症感染：10～20，q 8 h 重症或难治性感染：25～30，q 6～8 h
+0.5
+静脉滴注
+克林霉素(clindamycin)
+10，q 8～12 h
+0.45
+口服或静脉滴注
+甲硝唑(metronidazole)
+12.5，q 12 h
+0.5
+口服
+首剂15.0，继之7.5，q 6～8 h
+1.0
+静脉滴注
+(1)单纯病毒性肺炎无使用抗菌药物指征[B]，但必须注意细菌、病毒、MP、衣原体等混合感染的可能性[C]。
+(2)有效和安全是选择抗菌药物的首要原则，轻度CAP可以口服抗菌药物治疗，不强调抗菌药物联合使用[A]。
+(3) CAP初始治疗均是经验性的。
+轻度CAP：3个月以下儿童有沙眼衣原体肺炎可能，而5岁以上者MP肺炎、CP肺炎比率较高，均可首选大环内酯类，若疑及SP混合感染，可联合阿莫西林口服[B]。对4月龄～5岁CAP，首选口服阿莫西林，也可以选择阿莫西林/克拉维酸(7∶1剂型)、头孢羟氨苄、头孢克洛、头孢丙烯、头孢地尼等[B]。如怀疑早期SA肺炎，应优先考虑口服头孢地尼[C]。
+重度CAP：多选择静脉途径给药。可以首选下列方案之一[B]：
+①阿莫西林/克拉维酸(5∶1)、氨苄西林/舒巴坦(2∶1)或阿莫西林/舒巴坦(2∶1)；②头孢呋辛、头孢曲松或头孢噻肟；③怀疑SA肺炎，选择苯唑西林或氯唑西林，万古霉素不作首选；④考虑细菌合并有MP或CP肺炎，可以联合使用大环内酯类＋头孢曲松/头孢噻肟。
+(4)CAP患儿口服抗菌药物是安全有效的[A]，仅在重症肺炎或因呕吐等致口服难以吸收时才考虑胃肠道外抗菌药物疗法[B]，抗菌药物序贯疗法有良好的推广前景[C]。
+(5)使用适当剂量的青霉素或阿莫西林对青霉素不敏感肺炎链球菌(PNSP)依然有效[B]。
+(6)一旦明确病原微生物，应即开始针对性强的目标治疗[B]。
+(7)初始治疗48 h后应作病情和疗效评估，CAP抗菌药物疗程一般用至热退且平稳、全身症状明显改善、呼吸道症状部分改善后3～5 d[C]。
+(8)病毒性CAP的支持疗法、对症疗法和加强护理等仍居重要地位，而特异性病因治疗尚不多[C]。
+5．2%～12%的CAP患儿有胸腔积液，最常见于细菌性肺炎(包括SP、化脓性链球菌以及SA等)[B]，积液量的多少和患儿呼吸窘迫的程度是决定治疗方案的重要因素[A]。
+6．儿科支气管镜术对于儿童重症或难治性肺炎的诊治有效[B]。
+八、特异性预防
+1．对高危婴幼儿可给予RSV单克隆抗体(Palivizumab等)预防治疗[C]。
+2．已有肺炎链球苗疫苗、b型流感嗜血杆菌疫苗、流感病毒疫苗、百日咳疫苗等，疫苗的预防接种对减少CAP患病率效果肯定[A]。
+(李昌崇 尚云晓 沈叙庄 陈志敏 赵顺英 执笔)
+参与本指南审定人员
+参与本指南审定人员(以姓氏笔画为序) 王丽 邓力 申昆玲 成焕吉 向莉 刘传合 刘兆秋 刘恩梅 江澜 杨永弘 张海邻 陈爱欢 陈强 陈慧中 赵德育 俞蕙 洪建国 钱素云 董宗祈 鲁继荣 曾津津
+参考文献
+[1]
+中华医学会儿科学分会呼吸学组，《中华儿科杂志》编辑委员会.
+儿童社区获得性肺炎管理指南(试行)(上).
+中华儿科杂志，
+2007,
+45：
+83–
+90.
+[2]
+中华医学会儿科学分会呼吸学组，《中华儿科杂志》编辑委员会.
+儿童社区获得性肺炎管理指南(试行)(下).
+中华儿科杂志，
+2007,
+45：
+223–
+230.
+[3]
+HarrisM, ClarkJ, CooteN, et al.
+British Thoracic Society guidelines for the management of community acquired pneumonia in children：update 2011.
+Thorax,
+2011,
+66
+Suppl 2：
+ii1–
+23.
+[4]
+Oxford Centre.
+Levels of evidence and grades of recommendations [DB/OL].
+Center for evidence based medicine,
+2009 [
+2013-05-09].
+http：//www.cebm.net/？o＝1025.
+[5]
+DonM, CancianiM, KorppiM.
+Community-acquired pneumonia in children：what's old?
+What's new ? Acta Paediatr,
+2010,
+99：
+1602–
+1608.
+[6]
+RuuskanenO, LahtiE, JenningsLC, et al.
+Viral pneumonia.
+Lancet,
+2011,
+377：
+1264–
+1275.
+[7]
+Garcia-GarciaML, CalvoC, PozoF, et al.
+Spectrum of respiratory viruses in children with community-acquired pneumonia.
+Pediatr Infect Dis J,
+2012,
+31：
+808–
+813.
+[8]
+赵顺英，钱素云，徐樨巍，等.
+关注社区获得性肺炎细菌病原的变化.
+中华儿科杂志，
+2010,
+60：
+437–
+453.
+[9]
+赵德育，秦厚兵.
+儿童社区获得性肺炎常见细菌病原的近年变化.
+中国实用儿科杂志，
+2012,
+27：
+244–
+247.
+[10]
+Iroh TamPY.
+Approach to common bacterial infections：community-acquired pneumonia.
+Pediatr Clin North Am,
+2013,
+60：
+437–
+453.
+[11]
+CampbellH, ByassP, LamontAC, et al.
+Assessment of clinical criteria for identification of severe acute lower respiratory tract infections in children.
+Lancet,
+1989,
+1：
+297–
+299.
+[12]
+TurnerRB, LandeAE, ChaseP, et al.
+Pneumonia in pediatric outpatients：cause and clinical manifestations.
+J Pediatr,
+1987,
+111：
+194–
+200.
+[13]
+World Health Organization.
+Assessment of the child with cough or difficult breathing.
+Geneva：
+WHO.
+1990：
+5.
+[14]
+PalafoxM, GuiscafréH, ReyesH, et al.
+Diagnostic value of tachypnoea in pneumonia defined radiologically.
+Arch Dis Child,
+2000,
+82：
+41–
+45.
+[15]
+SmythA, CartyH, HartCA.
+Clinical predictors of hypoxaemia in children with pneumonia.
+Ann Trop Paediatr,
+1998,
+18：
+31–
+40.
+[16]
+PereiraJC, EscuderMM.
+The importance of clinical symptoms and signs in the diagnosis of community-acquired pneumonia.
+J Trop Pediatr,
+1998,
+44：
+18–
+24.
+[17]
+BroughtonRA.
+Infections due to mycoplasma pneumoniae in childhood.
+Pediatr Infect Dis J,
+1986,
+5：
+71–
+85.
+[18]
+NgeowYF, SuwanjuthaS, ChantarojanasririT, et al.
+An asian study on the prevalence of atypical respiratory pathogens in community-acquired pneumonia.
+Int J Infect Dis,
+2005,
+9：
+144–
+153.
+[19]
+HarariM, ShannF, SpoonerV, et al.
+Clinical signs of pneumonia in children.
+Lancet,
+1991,
+338：
+928–
+930.
+[20]
+BradleyJS, ByingtonCL, ShahSS, et al.
+The management of community-acquired pneumonia in infants and children older than 3 months of age：clinical practice guidelines by the Pediatric Infectious Diseases Society and the Infectious Diseases society of America.
+Clin Infect Dis,
+2011,
+53：
+e25–
+76.
+[21]
+BurgosJ, FalcoV, PahissaA.
+The increasing incidence of empyema.
+Curr Opin Pulm Med,
+2013,
+19：
+350–
+356.
+[22]
+HsiehYC, HsuehPR, LuCY, et al.
+Clinical manifestations and molecular epidemiology of necrotizing pneumonia and empyema caused by Streptococcus pneumoniae in children in taiwan.
+Clin Infect Dis,
+2004,
+38：
+830–
+835.
+[23]
+江载芳，申昆玲.
+肺炎//
+胡亚美，江载芳.
+诸福棠实用儿科学.
+7版．
+北京：
+人民卫生出版社，
+2002：
+1174-
+1206.
+[24]
+ThomasB, PugalenthiA, ChilversM.
+Pleuropulmonary complications of PVL-positive Staphylococcus aureus infection in children.
+Acta Paediatr,
+2009,
+98：
+1372–
+1375.
+[25]
+DavisSF, SutterRW, StrebelPM, et al.
+Concurrent outbreaks of pertussis and mycoplasma pneumoniae infection：clinical and epidemiological characteristics of illnesses manifested by cough.
+Clin Infect Dis,
+1995,
+20：
+621–
+628.
+[26]
+WortisN, StrebelPM, WhartonM, et al.
+Pertussis deaths：report of 23 cases in the united states, 1992 and 1993.
+Pediatrics,
+1996,
+97：
+607–
+612.
+[27]
+LeeKY, LeeHS, HongJH, et al.
+Role of prednisolone treatment in severe mycoplasma pneumoniae pneumonia in children.
+Pediatr Pulmonol,
+2006,
+41：
+263–
+268.
+[28]
+刘金荣，彭芸，杨海明，等.
+难治性肺炎支原体肺炎的表现特征和判断指标探讨.
+中华儿科杂志，
+2012,
+50：
+915–
+918.
+[29]
+TamuraA, MatsubaraK, TanakaT, et al.
+Methylprednisolone pulse therapy for refractory mycoplasma pneumoniae pneumonia in children.
+J Infect,
+2008,
+57：
+223–
+228.
+[30]
+ZarHJ, JeenaP, ArgentA, et al.
+Diagnosis and management of community-acquired pneumonia in childhood - South African Thoracic Society Guidelines.
+S Afr Med J,
+2005,
+95(
+12
+Pt 2)：
+977–
+981,
+984-990.
+[31]
+GoveS.
+Integrated management of childhood illness by outpatient health workers：technical basis and overview. The WHO Working Group on Guidelines for Integrated Management of the Sick Child.
+Bull World Health Organ,
+1997,
+75
+Suppl 1：
+7-
+24.
+[32]
+World Health Organization.
+Programme for the control of acute respiratory infections. Programme report WHO/ARI/90.7.
+Geneva：
+WHO.
+1990.
+[33]
+UeharaS, SunakawaK, EguchiH, et al.
+Japanese guidelines for the management of respiratory infectious diseases in children 2007 with focus on pneumonia.
+Pediatr Int,
+2011,
+53：
+264–
+276.
+[34]
+LimWS, LewisS, MacfarlaneJT.
+Severity prediction rules in community acquired pneumonia：a validation study.
+Thorax,
+2000,
+55：
+219–
+223.
+[35]
+LozanoJM.
+Epidemiology of hypoxaemia in children with acute lower respiratory infection.
+Int J Tuberc Lung Dis,
+2001,
+5：
+496–
+504.
+[36]
+SwinglerGH, HusseyGD, ZwarensteinM.
+Randomised controlled trial of clinical outcome after chest radiograph in ambulatory acute lower-respiratory infection in children.
+Lancet,
+1998,
+351：
+404–
+408.
+[37]
+HazirT, NisarYB, QaziSA, et al.
+Chest radiography in children aged 2-59 months diagnosed with non-severe pneumonia as defined by World Health Organization：descriptive multicentre study in Pakistan.
+BMJ,
+2006,
+333：
+629.
+[38]
+LeePI, ChiuCH, ChenPY, et al.
+Guidelines for the management of community-acquired pneumonia in children.
+Acta Paediatr Taiwan,
+2007,
+48：
+167–
+180.
+[39]
+DaviesHD, WangEE, MansonD, et al.
+Reliability of the chest radiograph in the diagnosis of lower respiratory infections in young children.
+Pediatr Infect Dis J,
+1996,
+15：
+600–
+604.
+[40]
+KorppiM, DonM, ValentF, et al.
+The value of clinical features in differentiating between viral, pneumococcal and atypical bacterial pneumonia in children.
+Acta Paediatr,
+2008,
+97：
+943–
+947.
+[41]
+VirkkiR, JuvenT, MertsolaJ, et al.
+Radiographic follow-up of pneumonia in children.
+Pediatr Pulmonol,
+2005,
+40：
+223–
+227.
+[42]
+FloodRG, BadikJ, AronoffSC.
+The utility of serum C-reactive protein in differentiating bacterial from nonbacterial pneumonia in children：a meta-analysis of 1230 children.
+Pediatr Infect Dis J,
+2008,
+27：
+95–
+99.
+[43]
+DonM, ValentF, KorppiM, et al.
+Differentiation of bacterial and viral community-acquired pneumonia in children.
+Pediatr Int,
+2009,
+51：
+91–
+96.
+[44]
+KorppiM.
+Non-specific host response markers in the differentiation between pneumococcal and viral pneumonia：What is the most accurate combination?
+Pediatr Int,
+2004,
+46：
+545–
+550.
+[45]
+DonM, ValerioG, KorppiM, et al.
+Hyponatremia in pediatric community-acquired pneumonia.
+Pediatr Nephrol,
+2008,
+23：
+2247–
+2253.
+[46]
+NairV, NiedermanMS, MasaniN, et al.
+Hyponatremia in community-acquired pneumonia.
+Am J Nephrol,
+2007,
+27：
+184–
+190.
+[47]
+SinghiS, DhawanA.
+Frequency and significance of electrolyte abnormalities in pneumonia.
+Indian Pediatr,
+1992,
+29：
+735–
+740.
+[48]
+ChanKH, PeirisJS, LimW, et al.
+Comparison of nasopharyngeal flocked swabs and aspirates for rapid diagnosis of respiratory viruses in children.
+J Clin Virol,
+2008,
+42：
+65–
+69.
+[49]
+MurdochDR, O'BrienKL, DriscollAJ, et al.
+Laboratory methods for determining pneumonia etiology in children.
+Clin Infect Dis,
+2012,
+54
+Suppl 2：
+S146–
+152.
+[50]
+PretoriusMA, MadhiSA, CohenC, et al.
+Respiratory viral coinfections identified by a 10-plex real-time reverse-transcription polymerase chain reaction assay in patients hospitalized with severe acute respiratory illness--South Africa, 2009-2010.
+J Infect Dis,
+2012,
+206
+Suppl 1：
+S159–
+165.
+[51]
+BandettiniR, MelioliG.
+Laboratory diagnosis of streptococcus pneumoniae infections：past and future.
+J Prev Med Hyg,
+2012,
+53：
+85–
+88.
+[52]
+UstianowskiA.
+Diagnostics for community-acquired and atypical pneumonia.
+Curr Opin Pulm Med,
+2012,
+18：
+259–
+263.
+[53]
+KumarRM, KabraSK, SinghM.
+Efficacy and acceptability of different modes of oxygen administration in children：implications for a community hospital.
+J Trop Pediatr,
+1997,
+43：
+47–
+49.
+[54]
+WeberMW, PalmerA, OparaugoA, et al.
+Comparison of nasal prongs and nasopharyngeal catheter for the delivery of oxygen in children with hypoxemia because of a lower respiratory tract infection.
+J Pediatr,
+1995,
+127：
+378–
+383.
+[55]
+van SomerenV, LinnettSJ, StothersJK, et al.
+An investigation into the benefits of resiting nasoenteric feeding tubes.
+Pediatrics,
+1984,
+74：
+379–
+383.
+[56]
+SporikR.
+Why block a small hole? The adverse effects of nasogastric tubes.
+Arch Dis Child,
+1994,
+71：
+393-
+394.
+[57]
+PaludoC, ZhangL, LinchoCS, et al.
+Chest physical therapy for children hospitalised with acute pneumonia：a randomised controlled trial.
+Thorax,
+2008,
+63：
+791–
+794.
+[58]
+LukrafkaJL, FuchsSC, FischerGB, et al.
+Chest physiotherapy in paediatric patients hospitalised with community-acquired pneumonia：a randomised clinical trial.
+Arch Dis Child,
+2012,
+97：
+967–
+971.
+[59]
+ConfalonieriM, UrbinoR, PotenaA, et al.
+Hydrocortisone infusion for severe community-acquired pneumonia：a preliminary randomized study.
+Am J Respir Crit Care Med,
+2005,
+171：
+242–
+248.
+[60]
+MikamiK, SuzukiM, KitagawaH, et al.
+Efficacy of corticosteroids in the treatment of community-acquired pneumonia requiring hospitalization.
+Lung,
+2007,
+185：
+249–
+255.
+[61]
+LuA, WangL, ZhangX, et al.
+Combined treatment for child refractory mycoplasma pneumoniae pneumonia with ciprofloxacin and glucocorticoid.
+Pediatr Pulmonol,
+2011,
+46：
+1093–
+1097.
+[62]
+FriisB, AndersenP, BrenøeE, et al.
+Antibiotic treatment of pneumonia and bronchiolitis. A prospective randomised study.
+Arch Dis Child,
+1984,
+59：
+1038–
+1045.
+[63]
+KabraSK, LodhaR, PandeyRM.
+Antibiotics for community-acquired pneumonia in children [J/CD].
+Cochrane Database Syst Rev,
+2010(
+3)：
+CD004874.
+[64]
+MuszynskiJA, KnatzNL, SargelCL, et al.
+Timing of correct parenteral antibiotic initiation and outcomes from severe bacterial community-acquired pneumonia in children.
+Pediatr Infect Dis J,
+2011,
+30：
+295–
+301.
+[65]
+EspositoS, BosisS, FaelliN, et al.
+Role of atypical bacteria and azithromycin therapy for children with recurrent respiratory tract infections.
+Pediatr Infect Dis J,
+2005,
+24：
+438–
+444.
+[66]
+JainR, DanzigerLH.
+The macrolide antibiotics：a pharmacokinetic and pharmacodynamic overview.
+Curr Pharm Des,
+2004,
+10：
+3045–
+3053.
+[67]
+KoganR, MartinezMA, RubilarL, et al.
+Comparative randomized trial of azithromycin versus erythromycin and amoxicillin for treatment of community-acquired pneumonia in children.
+Pediatr Pulmonol,
+2003,
+35：
+91–
+98.
+[68]
+KimSH, SongJH, ChungDR, et al.
+Changing trends in antimicrobial resistance and serotypes of streptococcus pneumoniae isolates in Asian countries：an Asian Network for Surveillance of Resistant Pathogens (ANSORP) study.
+Antimicrob Agents Chemother,
+2012,
+56：
+1418–
+1426.
+[69]
+SongJH, JungSI, KoKS, et al.
+High prevalence of antimicrobial resistance among clinical Streptococcus pneumoniae isolates in asia (an ANSORP study).
+Antimicrob Agents Chemother,
+2004,
+48：
+2101–
+2107.
+[70]
+杨青，陈晓，孔海深，等.
+Mohnarin 2011年度报告：0-14岁儿童细菌耐药监测.
+中华医院感染学杂志，
+2012,
+22：
+5488–
+5492.
+[71]
+中华人民共和国卫生部，国家中医药管理局，中国人民解放军总后勤部卫生部.
+抗菌药物临床应用指导原则.
+2004-08-19.
+[72]
+国家药典委员会.
+中华人民共和国药典：临床用药须知.
+2010版.
+北京：
+人民卫生出版社，
+2010:
+729-
+731.
+[73]
+FriedlandIR.
+Comparison of the response to antimicrobial therapy of penicillin-resistant and penicillin-susceptible pneumococcal disease.
+Pediatr Infect Dis J,
+1995,
+14：
+885–
+890.
+[74]
+ChettyK, ThomsonAH.
+Management of community-acquired pneumonia in children.
+Paediatr Drugs,
+2007,
+9：
+401–
+411.
+[75]
+WeinsteinMP, KlugmanKP, JonesRN.
+Rationale for revised penicillin susceptibility breakpoints versus streptococcus pneumoniae：coping with antimicrobial susceptibility in an era of resistance.
+Clin Infect Dis,
+2009,
+48：
+1596–
+1600.
+[76]
+KorppiM.
+Community-acquired pneumonia in children：issues in optimizing antibacterial treatment.
+Paediatr Drugs,
+2003,
+5：
+821–
+832.
+[77]
+WubbelL, MunizL, AhmedA, et al.
+Etiology and treatment of community-acquired pneumonia in ambulatory children.
+Pediatr Infect Dis J,
+1999,
+18：
+98–
+104.
+[78]
+McIntoshK.
+Community-acquired pneumonia in children.
+N Engl J Med,
+2002,
+346：
+429–
+437.
+[79]
+WeissK, TillotsonGS.
+The controversy of combination vs monotherapy in the treatment of hospitalized community-acquired pneumonia.
+Chest,
+2005,
+128：
+940–
+946.
+[80]
+LiuC, BayerA, CosgroveSE, et al.
+Clinical practice guidelines by the infectious diseases society of america for the treatment of methicillin-resistant Staphylococcus aureus infections in adults and children.
+Clin Infect Dis,
+2011,
+52：
+e18–
+55.
+[81]
+WunderinkRG, NiedermanMS, KollefMH, et al.
+Linezolid in methicillin-resistant Staphylococcus aureus nosocomial pneumonia：a randomized, controlled study.
+Clin Infect Dis,
+2012,
+54：
+621–
+629.
+[82]
+WalkeyAJ, O'DonnellMR, WienerRS.
+Linezolid vs glycopeptide antibiotics for the treatment of suspected methicillin-resistant staphylococcus aureus nosocomial pneumonia：a meta-analysis of randomized controlled trials.
+Chest,
+2011,
+139：
+1148–
+1155.
+[83]
+SongJH, HsuehPR, ChungDR, et al.
+Spread of methicillin-resistant Staphylococcus aureus between the community and the hospitals in asian countries：an ANSORP study.
+J Antimicrob Chemother,
+2011,
+66：
+1061–
+1069.
+[84]
+ForrestGN, TamuraK.
+Rifampin combination therapy for nonmycobacterial infections.
+Clin Microbiol Rev,
+2010,
+23：
+14–
+34.
+[85]
+MulhollandS, GavranichJB, GilliesMB, et al.
+Antibiotics for community-acquired lower respiratory tract infections secondary to mycoplasma pneumoniae in children [J/CD].
+Cochrane Database Syst Rev,
+2012(
+9)：
+CD004875.
+[86]
+RojasMX, GranadosC.
+Oral antibiotics versus parenteral antibiotics for severe pneumonia in children [J/CD].
+Cochrane Database Syst Rev,
+2006(
+9),
+CD004875.
+[87]
+NixDE.
+Intrapulmonary concentrations of antimicrobial agents.
+Infect Dis Clin North Am,
+1998,
+12：
+631–
+646.
+[88]
+ZhanelGG.
+Influence of pharmacokinetic and pharmacodynamic principles on antibiotic selection.
+Curr Infect Dis Rep,
+2001,
+3：
+29–
+34.
+[89]
+CraigWA.
+Pharmacokinetic/pharmacodynamic parameters：rationale for antibacterial dosing of mice and men.
+Clin Infect Dis,
+1998,
+26：
+1–
+10.
+[90]
+BradleyJS, ChingDK, HartCL.
+Invasive bacterial disease in childhood：efficacy of oral antibiotic therapy following short course parenteral therapy in non-central nervous system infections.
+Pediatr Infect Dis J,
+1987,
+6：
+821–
+825.
+[91]
+TiceAD, RehmSJ, DalovisioJR, et al.
+Practice guidelines for outpatient parenteral antimicrobial therapy.
+IDSA guidelines. Clin Infect Dis,
+2004,
+38：
+1651–
+1672.
+[92]
+MenendezR, TorresA.
+Treatment failure in community-acquired pneumonia.
+Chest,
+2007,
+132：
+1348–
+1355.
+[93]
+ZaoutisT, LocalioAR, LeckermanK, et al.
+Prolonged intravenous therapy versus early transition to oral antimicrobial therapy for acute osteomyelitis in children.
+Pediatrics,
+2009,
+123：
+636–
+642.
+[94]
+CorrêaJC, BadaróR, BumroongkitC, et al.
+Randomized, open-label, parallel-group, multicenter study of the efficacy and tolerability of iv gatifloxacin with the option for oral stepdown gatifloxacin versus iv ceftriaxone (with or without erythromycin or clarithromycin) with the option for oral stepdown clarithromycin for treatment of patients with mild to moderate community-acquired pneumonia requiring hospitalization.
+Clin Ther,
+2003,
+25：
+1453–
+1468.
+[95]
+陆权.
+儿童急性呼吸道感染的抗生素序贯疗法.
+中国实用儿科杂志，
+2003,
+18：
+196–
+198.
+[96]
+IsonMG.
+Clinical use of approved influenza antivirals：Therapy and prophylaxis.
+Influenza Other Respi Viruses,
+2013,
+7
+Suppl 1：
+7–
+13.
+[97]
+HsuJ, SantessoN, MustafaR, et al.
+Antivirals for treatment of influenza：A systematic review and meta-analysis of observational studies.
+Ann Intern Med,
+2012,
+156：
+512–
+524.
+[98]
+HeinonenS, SilvennoinenH, LehtinenP, et al.
+Early oseltamivir treatment of influenza in children 1-3 years of age：a randomized controlled trial.
+Clin Infect Dis,
+2010,
+51：
+887–
+894.
+[99]
+McGeerA, GreenKA, PlevneshiA, et al.
+Antiviral therapy and outcomes of influenza requiring hospitalization in Ontario, Canada.
+Clin Infect Dis,
+2007,
+45：
+1568–
+1575.
+[100]
+SistonAM, RasmussenSA, HoneinMA, et al.
+Pandemic 2009 influenza a(H1N1) virus illness among pregnant women in the United States.
+JAMA,
+2010,
+303：
+1517–
+1525.
+[101]
+FariasJA, FernandezA, MonteverdeE, et al.
+Critically ill infants and children with influenza a (H1N1) in pediatric intensive care units in Argentina.
+Intensive Care Med,
+2010,
+36：
+1015–
+1022.
+[102]
+LeeN, ChoiKW, ChanPK, et al.
+Outcomes of adults hospitalised with severe influenza.
+Thorax,
+2010,
+65：
+510–
+515.
+[103]
+Alves GalvãoMG, Rocha Crispino SantosMA, Alves da CunhaAJ.
+Amantadine and rimantadine for influenza A in children and the elderly [J/CD].
+Cochrane Database Syst Rev,
+2012(
+1)：
+CD002745.
+[104]
+KrilovLR.
+Respiratory syncytial virus disease：update on treatment and prevention.
+Expert Rev Anti Infect Ther,
+2011,
+9：
+27–
+32.
+[105]
+SharlandM, LuckS, GriffithsP, et al.
+Antiviral therapy of CMV disease in children.
+Adv Exp Med Biol,
+2011,
+697：
+243–
+260.
+[106]
+SenstadAC, SurénP, BrautesetL, et al.
+Community-acquired pneumonia (CAP) in children in Oslo, Norway.
+Acta Paediatr,
+2009,
+98：
+332–
+336.
+[107]
+ClarkJE, HammalD, SpencerD, et al.
+Children with pneumonia：how do they present and how are they managed？.
+Arch Dis Child,
+2007,
+92：
+394–
+398.
+[108]
+WeiglJA, PuppeW, BelkeO, et al.
+Population-based incidence of severe pneumonia in children in kiel, germany.
+Klin Padiatr,
+2005,
+217：
+211–
+219.
+[109]
+MichelowIC, OlsenK, LozanoJ, et al.
+Epidemiology and clinical characteristics of community-acquired pneumonia in hospitalized children.
+Pediatrics,
+2004,
+113：
+701–
+707.
+[110]
+Balfour-LynnIM, AbrahamsonE, CohenG, et al.
+BTS guidelines for the management of pleural infection in children.
+Thorax,
+2005,
+60
+Suppl 1：
+i1–
+21.
+[111]
+ChanW, Keyser-GauvinE, DavisGM, et al.
+Empyema thoracis in children：a 26-year review of the montreal children's hospital experience.
+J Pediatr Surg,
+1997,
+32：
+870–
+872.
+[112]
+St PeterSD, TsaoK, SpildeTL, et al.
+Thoracoscopic decortication vs tube thoracostomy with fibrinolysis for empyema in children：a prospective, randomized trial.
+J Pediatr Surg,
+2009,
+44：
+106–
+111;
+discussion 111.
+[113]
+SonnappaS, CohenG, OwensCM, et al.
+Comparison of urokinase and video-assisted thoracoscopic surgery for treatment of childhood empyema.
+Am J Respir Crit Care Med,
+2006,
+174：
+221–
+227.
+[114]
+GrewalH, JacksonRJ, WagnerCW, et al.
+Early video-assisted thoracic surgery in the management of empyema.
+Pediatrics,
+1999,
+103：
+e63.
+[115]
+中华医学会儿科学分会呼吸学组儿科支气管镜协作组.
+儿科支气管镜术指南(2009年版).
+中华儿科杂志，
+2009,
+47：
+740–
+744.
+[116]
+孟晨.
+重症支原体肺炎的支气管镜下表现和治疗.
+中华儿科杂志，
+2010,
+48：
+954–
+956.
+[117]
+饶小春，刘玺诚，江沁波，等.
+儿童支原体肺炎的纤维支气管镜诊治研究.
+中国实用儿科杂志，
+2007,
+22：
+264–
+265.
+[118]
+BlankenMO, RoversMM, MolenaarJM, et al.
+Respiratory syncytial virus and recurrent wheeze in healthy preterm infants.
+N Engl J Med,
+2013,
+368：
+1791–
+1799.
+[119]
+Committee on Infectious Diseases.
+From the American Academy of Pediatrics：Policy statements--modified recommendations for use of palivizumab for prevention of respiratory syncytial virus infections.
+Pediatrics,
+2009,
+124：
+1694–
+1701.
+[120]
+Carbonell-EstranyX, SimoesEA, DaganR, et al.
+Motavizumab for prophylaxis of respiratory syncytial virus in high-risk children：a noninferiority trial.
+Pediatrics,
+2010,
+125：
+e35–
+51.
+[121]
+FrenchN, NakiyingiJ, CarpenterL, et al.
+23-valent pneumococcal polysaccharide vaccine in HIV-1-infected Ugandan adults：double-blind, randomised and placebo controlled trial.
+Lancet,
+2000,
+355：
+2106–
+2111.
+[122]
+Weil-OlivierC, van der LindenM, de SchutterI, et al.
+Prevention of pneumococcal diseases in the post-seven valent vaccine era：a European perspective.
+BMC Infect Dis,
+2012,
+12：
+207.
+[123]
+WHOPublication.
+Pneumococcal vaccines WHO position paper - 2012 - recommendations.
+Vaccine,
+2012,
+30：
+4717–
+4718.
+[124]
+中华预防医学会.
+肺炎链球菌性疾病相关疫苗应用技术指南(2012版).
+中华流行病学杂志，
+2012,
+33：
+1101–
+1110.
+[125]
+Centers for Disease Control and Prevention (CDC).
+Global routine vaccination coverage, 2009.
+MMWR Morb Mortal Wkly Rep,
+2010,
+59：
+1367–
+1371.
+[126]
+ValencianoM, KisslingE, CohenJM, et al.
+Estimates of pandemic influenza vaccine effectiveness in Europe, 2009-2010：results of Influenza Monitoring Vaccine Effectiveness in Europe (I-MOVE) multicentre case-control study.
+PLoS Med,
+2011,
+8：
+e1000388.
+[127]
+KwongJC, StukelTA, LimJ, et al.
+The effect of universal influenza immunization on mortality and health care use.
+PLoS Med,
+2008,
+5：
+e211.
+[128]
+MarchisioP, BaggiE, BianchiniS, et al.
+Clinical and socioeconomic impact of pediatric seasonal and pandemic influenza.
+Hum Vaccin Immunother,
+2012,
+8：
+17–
+20.
+[129]
+RanganathanS, TaskerR, BooyR, et al.
+Pertussis is increasing in unimmunized infants：is a change in policy needed?
+Arch Dis Child,
+1999,
+80：
+297–
+299.
+[130]
+陆权.
+疫苗与儿童呼吸道感染性疾病.
+临床儿科杂志，
+2010,
+28：
+513–
+517.
+贡献者信息
+中华医学会儿科学分会呼吸学组
+《中华儿科杂志》编辑委员会
+作者声明
+(2013年8月)
+历史
+出版日期：2013-11-02
+收稿日期：2013-07-09
+本文编辑
+江澜
+Standard/Protocol/Guideline
+Guidelines for management of community acquired pneumonia in children (the revised edition of 2013) (II)
+The Subspecialty Group of Respiratory Diseases, The Society of Pediatrics, Chinese Medical Association,  The Editorial Board, Chinese Journal of Pediatrics
+Published
+2013-11-02
+Cite as
+Chin J Pediatr, 2013,51(11): 856-862. DOI: 10.3760/cma.j.issn.0578-1310.2013.11.012
+Contributor Information
+The Subspecialty Group of Respiratory Diseases, The Society of Pediatrics, Chinese Medical Association
+The Editorial Board, Chinese Journal of Pediatrics
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+不同年龄儿童社区获得性肺炎的病原情况[1,3,5]
+年龄组
+常见病原
+少见病原
+>28 d～3月龄
+细菌
+细菌
+肺炎链球菌
+非发酵革兰阴性菌
+大肠埃希菌
+百日咳杆菌
+肺炎克雷伯杆菌
+流感嗜血杆菌(b型、不定型)
+金黄色葡萄球菌
+卡他莫拉菌
+沙眼衣原体
+病毒
+病毒
+呼吸道合胞病毒
+巨细胞病毒
+副流感病毒Ⅰ型、Ⅱ型、Ⅲ型
+流感病毒A型、B型
+腺病毒
+人类偏肺病毒
+>3月龄～5岁
+细菌
+细菌
+肺炎链球菌
+肺炎克雷伯杆菌
+流感嗜血杆菌(b型、不定型)
+大肠埃希菌
+卡他莫拉菌
+结核分枝杆菌
+金黄色葡萄球菌
+肺炎支原体
+嗜肺军团菌
+肺炎衣原体
+病毒
+病毒
+呼吸道合胞病毒
+鼻病毒
+腺病毒
+人类偏肺病毒
+副流感病毒Ⅰ型、Ⅱ型、Ⅲ型
+肠道病毒
+流感病毒A型、B型
+人禽流感病毒
+新型冠状病毒
+EB病毒
+麻疹病毒
+>5岁～15岁
+细菌
+细菌
+肺炎链球菌
+化脓性链球菌
+金黄色葡萄球菌
+结核分枝杆菌
+流感嗜血杆菌(b型、不定型)
+肺炎支原体
+肺炎衣原体
+嗜肺军团菌
+病毒
+病毒
+流感病毒A型、B型
+腺病毒
+EB病毒
+新型冠状病毒
+人禽流感病毒
+表2
+社区获得性肺炎患儿病情严重度评估
+临床特征
+轻度CAP
+重度CAP
+一般情况
+好
+差
+拒食或脱水征
+无
+有
+意识障碍
+无
+有
+呼吸频率
+正常或略增快
+明显增快a
+紫绀
+无
+有
+呼吸困难(呻吟、鼻翼扇动、三凹征)
+无
+有
+肺浸润范围
+≤1/3的肺
+多肺叶受累或≥2/3的肺
+胸腔积液
+无
+有
+脉搏血氧饱和度
+>0.96
+≤0.92
+肺外并发症
+无
+有
+判断标准
+出现上述所有表现
+存在以上任何一项
+注：a呼吸明显增快：婴儿RR>70次/min，年长儿RR>50次/min
+表3
+儿童社区获得性肺炎常用抗微生物药物的剂量和用法
+抗微生物药物
+剂量及给药间隔[mg/(kg·次)]
+最大剂量(g/次)
+给药途径
+青霉素类
+青霉素G(penicillin G)
+2.5万～5.0万U/(kg·次)，q 6 h
+肌肉注射或静脉滴注
+大剂量5.0万～10.0万U/(kg·次), q 6 h
+肌肉注射或静脉滴注
+青霉素V(penicillin V)
+8～12，q 6～8 h
+口服
+氨苄西林(ampicillin)
+常用剂量：15～25, q 6～8 h 大剂量：50～75, q 6～8 h
+2.0
+口服或肌肉注射或静脉滴注
+阿莫西林(amoxicillin)
+常用剂量：10～15，q 6～8 h 大剂量：25～30，q 6～8 h
+2.0
+口服
+羧苄西林(carbenicillin)
+25～50，q 6～8 h
+2.0
+肌肉注射或静脉滴注
+美洛西林(mezlocillin)
+75, q 6～8 h
+3.0
+肌肉注射或静脉滴注
+哌拉西林(piperacillin)
+25～50, q 6～8 h
+2.0
+肌肉注射或静脉滴注
+苯唑西林(oxacillin)
+25～50, q 6～8 h
+2.0
+静脉滴注
+氯唑西林(cloxacillin)
+12.5～25.0, q 6～8 h
+2.0
+静脉滴注
+氨苄西林＋舒巴坦(ampicillin/sulbactam)
+(规格：2∶1注射剂)(25.0/12.5)～(75.0/37.5), q 6～8 h
+1.0/0.5
+静脉滴注
+阿莫西林＋克拉维酸(amoxicillin/clavulanic acid)
+(规格：7∶1口服剂)(20.00/2.85)～(30.00/4.29)，q 8 h(规格：5∶1注射剂)(25.00/5.00), q 6～8 h
+1.0/0.1431.0/0.2
+口服静脉滴注
+替卡西林＋克拉维酸(ticarcillin/clavulanic acid)
+(规格：15∶1注射剂)(50.00/3.34)～(75.00/5.00)，q 6～8 h(规格：30∶1注射剂)(30.00/1.00)～(50.00/1.70)，q 6～8 h
+3.0/0.23.0/0.1
+静脉滴注
+哌拉西林＋他唑巴坦(piperacillin/tazobactam)
+(规格：8∶1注射剂)大于9月龄100.0/12.5 q 8 h 2～9月龄80.0/10.0 q 8 h
+4.0/0.5
+静脉滴注
+阿莫西林＋舒巴坦(amoxicillin-sulbactam)
+(规格：2∶1注射剂) 按阿莫西林计算30，q 6～8 h
+肌肉注射或静脉滴注
+头孢菌素类
+头孢拉定(cefradine)
+6.25～12.50, q 6 h
+1.0
+口服
+12.50～25.00, q 6～8 h
+1.0
+肌肉注射或静脉滴注
+头孢唑啉(cefazolin)
+15～25, q 6～8 h
+1.0
+肌肉注射或静脉滴注
+头孢羟氨苄(cefadroxil)
+15～25, q 12 h
+1.0
+口服
+头孢克洛(cefaclor)
+10～15, q 8 h
+0.5
+口服
+头孢丙烯(cefprozil)
+7.5～15.0, q 12 h
+0.5
+口服
+头孢地尼(cefdinir)
+3～6, q 8 h
+0.2
+口服
+头孢呋辛(cefuroxime)
+10～15, q 12 h
+0.75
+口服
+15～25, q 6～8 h
+1.0
+肌肉注射或静脉滴注
+头孢噻肟(cefotaxime)
+50，q 8 h
+2.0
+静脉滴注
+头孢曲松(ceftriaxone)
+40～80, q d
+2.0
+肌肉注射或静脉滴注
+头孢哌酮(cefoperazone)
+15～50, q 8 h
+2.0
+肌肉注射或静脉滴注
+头孢他啶(ceftazidime)
+15～50, q 8 h
+2.0
+肌肉注射或静脉滴注
+头孢哌酮＋舒巴坦(cefoperazone/culbactam)
+(规格：2∶1注射剂)常用剂量：(15.0/7.5)～(30.0/15.0) q 6 h～q 12 h大剂量：(40.0/20.0)～(80.0/40.0)q 6 h～q 12 h
+舒巴坦不超过80.0 mg/(kg·d)
+静脉滴注
+头孢吡肟(cefapime)
+30～50，q 8～12 h
+1.5
+肌肉注射或静脉滴注
+大环内酯类
+红霉素(erythromycin)
+10～15, q 8 h10～15, q 12 h
+0.5
+口服静脉滴注
+罗红霉素(roxithromycin)
+2.5～5, q 12 h
+0.15
+口服
+阿奇霉素(azithromycin)
+10 q d，连用3 d
+0.5
+口服
+克拉霉素(clarithromycin)
+7.5, q 12 h
+0.5
+口服
+其他
+多西环素(doxycycline)
+8岁以上，2.2，q 12 h(第一日)，后2.2～4.4，qd
+0.1
+口服
+万古霉素(vancomycin)
+10，q 6 h或20，q 12 h
+0.5
+静脉滴注
+利奈唑胺(linezolid)
+10，q 8 h
+0.6
+口服或静脉滴注
+利福平(rifampin)
+10～20，qd
+0.3
+口服
+氨曲南(aztreonam)
+30，q 6～8 h
+0.5
+肌肉注射或静脉滴注
+厄他培南(ertapenem)
+15，q 12 h
+1.0
+静脉滴注
+亚胺培南(imipenem)
+15～25，q 6 h
+0.5
+静脉滴注
+美罗培南(meropenem)
+10～20，q 8 h
+0.5
+静脉滴注
+帕尼培南(panipenem)
+轻症感染：10～20，q 8 h 重症或难治性感染：25～30，q 6～8 h
+0.5
+静脉滴注
+克林霉素(clindamycin)
+10，q 8～12 h
+0.45
+口服或静脉滴注
+甲硝唑(metronidazole)
+12.5，q 12 h
+0.5
+口服
+首剂15.0，继之7.5，q 6～8 h
+1.0
+静脉滴注
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华儿科杂志2013年51卷11期
+文    题：儿童社区获得性肺炎管理指南(2013修订)(下)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华儿科杂志2013年51卷11期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

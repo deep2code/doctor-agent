@@ -1,0 +1,746 @@
+# URL: https://seleguide.yiigle.com/uploads/guide_html/%E8%80%81%E5%B9%B4%E6%82%A3%E8%80%85%E8%A1%B0%E5%BC%B1%E8%AF%84%E4%BC%B0%E4%B8%8E%E5%B9%B2%E9%A2%84%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 老年患者衰弱评估与干预中国专家共识 - 中华老年医学杂志
+# 发布方/日期: 中华医学会老年医学分会，中华老年医学杂志, 2017,36(03) : 251-256. DOI: 10.3760/cma.j；2017-03-14
+
+老年患者衰弱评估与干预中国专家共识
+中华医学会老年医学分会
+郝秋奎
+李峻
+董碧蓉
+李小鹰
+中华老年医学杂志, 2017,36(03) : 251-256. DOI: 10.3760/cma.j.issn.0254-9026.2017.03.007
+衰弱(Frailty)是指老年人生理储备下降导致机体易损性增加、抗应激能力减退的非特异性状态。衰弱老人经历外界较小刺激即可导致一系列临床负性事件的发生[1,2]。衰弱涉及多系统病理、生理变化，包括神经肌肉、代谢及免疫系统等[2]。衰弱、失能和多病共存是不同的概念，三者关系密切、相互影响并伴有一定的重叠，衰弱和多病共存可预测失能、失能可作为衰弱和多病共存的危险因素、多病共存又可促使衰弱和失能进展[3]。
+因衰弱评估方法的不同，各文献报道的患病率也不尽相同。但总的趋势是患病率随增龄而增加，且女性高于男性。医疗机构中老人衰弱患病率高于社区老人。社区老人衰弱患病率4.0%～59.1%[4]。西班牙养老院65岁以上老人衰弱患病率为68.8%，衰弱前期比例为28.4%，无衰弱的老年人仅占2.8% [5]。来自荷兰的横断面研究结果显示，入住老年科的患者均为衰弱老人，其他病房的老年人衰弱患病率为50%～80% [6,7]。国内研究数据相对较少，诊断标准不统一，纳入人群的异质性较大，衰弱患病率为4.9%～83.4%[8,9,10,11]。
+衰弱是人体内多个系统生理功能和储备的进行性下降，不仅可使老人面对应激时的脆性增加、发生失能、功能下降、住院和死亡的风险增加，还可导致老年人对长期照护的需求和医疗费用增加[12]。如能早期识别衰弱并给予相应的处理，可减少失能、降低照护机构的入住率、长期照护的需求和医疗/社会的花费，衰弱前期可被逆转至健康状态，一些衰弱状态也可被逆转至衰弱前期[13]。但目前的证据表明，仅通过处理传统的慢性疾病并不能克服衰弱，必须用一种新的概念和方法来治疗和管理衰弱。为提高对老年衰弱的识别、评估、预防和治疗水平，中华医学会老年医学分会组织国内专家，结合现有研究证据制定本共识，以规范老年衰弱的临床诊治方法。
+危险因素
+衰弱常为多种慢性疾病、某次急性事件或严重疾病的后果。目前，尚未发现最佳的生物学标记物能识别衰弱[1,2,14,15]。遗传因素、增龄、经济条件差、教育程度低、不良的生活方式、老年综合征(跌倒、疼痛、营养不良、肌少症、多病共存、活动能力下降、多重用药、睡眠障碍、焦虑和抑郁)、未婚及独居等均是衰弱的危险因素，可促进衰弱发展。
+一、遗传因素
+基因多态性可能影响衰弱的临床表型[16]。非裔美国人衰弱比例是其他美国人的4倍；墨西哥裔美国人衰弱患病率比欧裔美国人高4.3%。载脂蛋白E(ApoE)基因、胰岛素受体样基因-2(DAF-2)、胰岛素受体样基因-16(DAF-16)、C反应蛋白编码区(CRP1846G>A)、肌肉细胞线粒体DNA(mt204 C)、白细胞介素(IL)-6、维生素B12基因及血管紧张素转换酶(ACE)基因多态性等均可能与衰弱相关。
+二、人口学特征和生活方式
+健康相关行为、社会经济学状态和生活方式与衰弱相关[17]。职业、社会地位及婚姻状况均可影响衰弱发生：未婚和独居者衰弱发生率增加。女性、健康自评差、受教育少和经济状况较差的人群中，衰弱患病率较高。
+三、增龄
+单因素分析和多变量分析结果均显示，衰弱与增龄密切相关[4]。年轻者较易恢复至相对健康状态，这种能力随年龄增加而降低。流行病学调查结果显示，衰弱平均患病率随年龄增长而递增[4]。
+四、躯体疾病
+躯体疾病是衰弱的重要危险因素之一。慢性疾病和某些亚临床问题与衰弱的患病率及发病率呈显著相关性[9,18]。心脑血管疾病(冠心病、卒中)、其他血管疾病、髋部骨折、慢性阻塞性肺病、糖尿病、关节炎、恶性肿瘤、肾功能衰竭、人类免疫缺陷病毒(HIV)感染及手术均可促进衰弱发生。
+五、营养不良和摄入营养素不足
+营养不良是衰弱发生、发展的重要生物学机制[19]。老年人25-羟维生素D<50 nmol/L可增加衰弱的发生率。日常能量摄入不足、营养评分较低和摄入营养素缺乏的老人，衰弱发生率增加[20,21]。
+六、精神心理因素
+老年人的精神心理状态与衰弱密切相关，焦虑、抑郁可增加衰弱的发生[22,23]。
+七、药物
+在老年人群中，多重用药普遍存在，可增加老年人衰弱的发生。某些特定药物(比如抗胆碱能药物、抗精神病药物)已经被证实与衰弱及衰弱相关因素有关[24]。此外，不恰当的药物也可引起衰弱。如在老年人中过度使用质子泵抑制剂可能引起维生素B12缺乏、减少钙吸收，而增加骨折和死亡风险，并且和病死率增高有一定相关性。
+临床特征、筛查、评估和分级
+一、衰弱老人可有以下一种或几种临床表现[2]
+1．非特异性表现：
+疲劳、无法解释的体重下降和反复感染。
+2．跌倒：
+平衡功能及步态受损是衰弱的主要特征，也是跌倒的重要危险因素。衰弱状态下，即使轻微疾病也会导致肢体平衡功能受损，不足以维持步态完整性而跌倒。
+3．谵妄：
+衰弱老人多伴有脑功能下降，应激时可导致脑功能障碍加剧而出现谵妄。
+4．波动性失能：
+患者可出现功能状态变化较大，常表现为功能独立和需要人照顾交替出现。
+二、衰弱的筛查和评估方法
+衰弱目标人群的识别十分重要，我们推荐应对所有70岁及以上人群或最近1年内，非刻意节食情况下出现体重下降(≥5%)的人群进行衰弱的筛查和评估[25]。
+衰弱的筛查和评估工具常有混用，筛查工具和评估工具的要求不同，筛查工具要求简洁且敏感性较高，筛查阳性后临床人员可以处理衰弱或者将病人推荐给老年科医生；而评估的工具则要求较高的准确度、并具有实用性、有合理生物学理论支持、能够准确识别衰弱状态、准确预测老人对治疗的反应和临床负性事件的发生，如失能、死亡等。目前已经存在的衰弱评估工具包括：Fried衰弱综合征标准、Rockwood衰弱指数，国际老年营养和保健学会提出的FRAIL量表、骨质疏松性骨折研究中提出的SOF指数、日本学者提出的Kihon检查列表(Kihon Check-list，KCL)、临床衰弱量表、Gérontopole衰弱筛查工具、Groningen衰弱指示工具、Edmonton衰弱量表及多维预后评价工具等[26]。本共识推荐下面常用的方法，但需指出，目前尚无针对中国老年人衰弱的评估和筛查方法。我们呼吁研究者提出适合中国人自己的衰弱评估工具。
+1．Fried衰弱综合征标准：
+也称Fried衰弱表型，满足以下5条中3条或以上：(1)不明原因体重下降；(2)疲乏；(3)握力下降；(4)行走速度下降；(5)躯体活动降低(体力活动下降)。具有1条或2条的状态是为衰弱前期(Pre-Frail)，而无以上5条人群为无衰弱的健壮老人(Robust)[27]。见表1。
+点击查看表格
+表1
+Fried衰弱评估方法[27]
+表1
+Fried衰弱评估方法[27]
+序号
+检测项目
+男性
+女性
+1
+体重下降
+过去1年中，意外出现体重下降>10磅(4.5 kg)或>5.0%体重
+2
+行走时间(4.57 m)
+身高≤173 cm：≥7 s
+身高≦159 cm：≥7 s
+身高>173 cm：≥6 s
+身高>159 cm：≥6 s
+3
+握力(kg)
+BMI ≤24.0 kg/m2：≤29
+BMI ≤23.0 kg/m2：≤17
+BMI 24.1～26.0 kg/m2：≤30
+BMI 23.1～26.0 kg/m2：≤17.3
+BMI 26.1～28.0 kg/m2：≤30
+BMI 26.1～29.0 kg/m2：≤18
+BMI>28 kg/m2：≤32
+BMI>29.0 kg/m2：≤21
+4
+体力活动(MLTA)
+<383 kcal /周(约散步2.5 h)
+<270 kcal/周(约散步2 h)
+5
+疲乏
+CES-D的任一问题得分2～3分
+您过去的1周内以下现象发生了几天？
+(1)我感觉我做每一件事都需要经过努力；
+(2)我不能向前行走。
+0分：<1 d；1分：1～2 d；2分：3～4 d；3分：>4 d
+注：BMI：体质指数；MLTA：明达休闲时间活动问卷；CES-D：流行病学调查用抑郁自评量表；散步60 min约消耗150千卡能量；具备表中5条中3条及以上被诊断为衰弱综合征；不足3条为衰弱前期；0条为无衰弱健康老人
+Fried衰弱评估把衰弱作为临床事件的前驱状态，可独立预测3年内跌倒、行走能力下降、日常生活能力受损情况、住院率及死亡，便于采取措施预防不良事件[3]。但该研究排除了帕金森病、卒中史、认知功能异常及抑郁患者，且在临床使用时部分变量不易测量，在该标准中也未包含其他重要系统功能障碍的变量，但是本评估方法目前在临床和研究中应用最多，适用于医院和养老机构，在临床研究中也常应用。
+2．衰弱指数(Frailty Index，FI)：
+衰弱指数的评估是基于健康缺陷理论上发展而来的，也称缺陷累积的评估方法。FI指个体在某一个时点潜在的不健康测量指标占所有测量指标的比例。其选取的变量包括躯体、功能、心理及社会等多维健康变量[28]。选取变量时需遵守一定原则：后天获得、与年龄相关、具有生物学合理性、给健康带来不良后果、不会过早饱和。目前变量的数量无统一标准，实际应用中，通常为30～70个[28]。如老年人综合评估(CGA)包含约60项潜在的健康缺陷。在此情况下，无任何健康缺陷老年人的衰弱指数评分为0/60＝0。同理，假设患者有24项健康缺陷，其衰弱指数评分则为24/60＝0.4。通常认为，FI≥0.25提示该老年人衰弱；FI<0.12为无衰弱老人；FI：0.12～0.25为衰弱前期[29,30]。
+FI把个体健康缺陷的累计数量作为重点，将多种复杂健康信息整合成单一指标，突破了单一变量描述功能状态的局限性，可更好评测老年人整体健康状况。FI在反映健康功能状态及变化、健康服务需求、公共卫生管理和干预等方面具有重要应用价值。FI能很好评估老年人衰弱程度，预测临床预后，在临床研究、社区应用较为广泛，但评估项目多，需要专业人员进行评估[2]。
+3．FRAIL量表：
+国际老年营养学会提出FRAIL量表也包括5项：(1)疲劳感；(2)阻力感：上一层楼梯即感困难；(3)自由活动下降：不能行走1个街区；(4)多种疾病共存：≥5个；(5)体重减轻：1年内体重下降>5.0%[31]。判断衰弱的方法与Fried标准相同，见表2。这种评估方法较为简易，可能更适合进行快速临床评估。
+点击查看表格
+表2
+FRAIL量表[31]
+表2
+FRAIL量表[31]
+序号
+条目
+询问方式
+1
+疲乏
+过去4周内大部分时间或者所有时间感到疲乏
+2
+阻力增加/耐力减退
+在不用任何辅助工具以及不用他人帮助的情况下，中途不休息爬1层楼梯有困难
+3
+自由活动下降
+在不用任何辅助工具以及不用他人帮助的情况下，走完1个街区(100 m)较困难
+4
+疾病情况
+医生曾经告诉你存在5种以上如下疾病：高血压、糖尿病；急性心脏疾病发作、卒中、恶性肿瘤(微小皮肤癌除外)、充血性心力衰竭、哮喘、关节炎、慢性肺病、肾脏疾病、心绞痛等
+5
+体重下降
+1年或更短时间内出现体重下降≥5%
+注：具备以上5条中3条及以上被诊断为衰弱；不足3条为衰弱前期；0条为无衰弱健壮老人
+三、衰弱的分级
+按照不同诊断标准衰弱可分为不同等级，根据Fried衰弱表型的定义将老年人分为健康期、衰弱前期(存在1～2条)和衰弱期(满足3条或以上)。在FI上发展而来的临床衰弱量表是准确、可靠且敏感的指标，按照功能状况分为9级(见表3)[32]。该量表可评估老年痴呆患者，易于临床应用。
+点击查看表格
+表3
+临床衰弱评估量表[32]
+表3
+临床衰弱评估量表[32]
+序号
+衰弱等级
+图示
+具体测量
+1
+非常健康
+身体强壮、积极活跃、精力充沛、充满活力，定期进行体育锻炼，处于所在年龄段最健康的状态
+2
+健康
+无明显的疾病症状，但不如等级1健康，经常进行体育锻炼，偶尔非常活跃，如季节性地
+3
+维持健康
+存在可控制的健康缺陷，除常规行走外，无定期的体育锻炼
+4
+脆弱易损伤
+日常生活不需他人帮助，但身体的某些症状会限制日常活动。常见的主诉为白天"行动缓慢"和感觉疲乏
+5
+轻度衰弱
+明显的动作缓慢，工具性日常生活活动需要帮助(如去银行，乘公交车、干重的家务活、用药)。轻度衰弱会进一步削弱患者独自在外购物、行走、备餐及干家务活的能力
+6
+中度衰弱
+所有的室外活动均需要帮助，在室内上下楼梯，洗澡需要帮助，可能穿衣服也会需要(一定限度的)辅助
+7
+严重衰弱
+个人生活完全不能自理，但身体状态较稳定，一段时间内(<6个月)不会有死亡的危险
+8
+非常严重的衰弱
+生活完全不能自理，接近生命终点，已不能从任何疾病中恢复
+9
+终末期
+接近生命终点，生存期<6个月的垂危患者
+衰弱的干预
+衰弱的预防和治疗尚处于初步探索阶段，特异性干预衰弱的临床试验较少，但其早期干预十分重要，中度衰弱的老年人对干预反应良好，而重度衰弱患者的干预效果不佳。根据衰弱病因和病理、生理变化，结合现有证据，提出以下治疗衰弱的方法[33]。
+一、运动锻炼
+运动锻炼是提高老年人生活质量和功能的最有效方法。阻抗运动与有氧耐力运动是预防及治疗衰弱状态的有效措施。值得注意的是，在老年衰弱人群中，即使最衰弱的老年人也可以从任何可耐受的体力活动中获益。衰弱老人运动量的细化、风险评估、运动限制和保护以及主动运动和被动运动的选择可参考中华医学会老年医学分会的《高龄稳定性冠心病患者运动康复中国专家共识》提出的运动康复的原则，即使老年人运动具有安全性、科学性、有效性、个体化等特点。其中，安全是基石，科学和有效是核心、个体化是关键。运动是在做好安全风险评估和对老人的保护的前提下进行的，应根据患者的个人兴趣、训练条件和目的选择运动强度、频率、方式和运动时间。重度衰弱患者可选用被动运动的方式进行康复。
+二、营养干预
+营养干预能改善营养不良衰弱老人的体重下降，降低病死率，但在非营养不良的衰弱人群中尚缺乏足够证据支持。
+1．补充能量或蛋白质：
+补充蛋白质特别是富含亮氨酸的必需氨基酸混合物可以增加肌容量进而改善衰弱状态。老年人日常所需要的蛋白质及氨基酸要略高于年轻人。健康成人需要蛋白质0.83 g·kg－1·d－1，老年人需要0.89 g·kg－1·d－1，衰弱患者合并肌少症时则需要1.20 g·kg－1·d－1，应激状态时需要1.30 g·kg－1·d－1[21]。
+2．补充维生素D(常联合钙剂)：
+我们推荐当血清25-羟维生素D水平<100 nmol/L时可考虑给予补充，每天补充800 U维生素D3以改善下肢力量和功能[21]。
+三、共病和多重用药管理
+老年人常存在的共病是衰弱的潜在因素，如抑郁、心力衰竭、肾衰竭、认知功能受损、糖尿病、视力及听力问题等，均可促进衰弱的发生与发展。衰弱的预防和治疗应包括积极管理老年人现患共病，尤其重视处理可逆转疾病。评估衰弱老人用药合理性并及时纠正不恰当用药，建议临床根据Beers、STOPP及START标准评估衰弱老人的用药情况，减少不合理用药，对改善衰弱具有效果[34]。
+四、多学科团队合作的医疗护理模式
+CGA对衰弱老人非常重要并可使其得到最大获益。衰弱护理应以患者为中心，强调多学科团队合作，对衰弱老人行CGA和管理。团队应包括老年科医生、护理人员、临床药师、康复治疗师、营养师、专科医师和社会工作者。老年长期照护和老年住院患者的急性照护均应以提高功能为目标，使衰弱老人从中受益。同时医疗护理模式必须个体化，强调尊重老年人意愿、保持老年人自己的价值观。
+不同群体衰弱老人的干预模式侧重点不相同。(1)社区老人：可进行基于CGA的综合干预，通过减少护理需求及跌倒，降低入住医疗机构风险及其他负性临床事件发生。(2)入住护理机构和住院老人：采用针对性的康复训练可改善患者的步行能力，减少活动受限。衰弱的住院患者应入住老年专科病房，由老年专科医生对其进行CGA及综合干预。这样比入住普通病房患者，其功能更易恢复，认知及其他功能继续下降的可能性减小，且具有较低的院内病死率。(3)CGA管理单元和老年人急性期快速恢复病房：包含CGA和针对性综合干预措施，如个体化护理、营养支持、康复及出院计划等，可降低衰弱老人再次入住医疗机构的概率，减少住院费用、降低出院及1年后功能下降程度。
+五、减少医疗伤害
+对衰弱老人很多有创检查和治疗常导致并发症，有时会增加患者负担并损害其生活质量。因此，对中、重度衰弱老人应该仔细评估患者情况，避免过度医疗行为。
+六、药物治疗
+目前尚无可靠证据，是未来研究重点，可能涉及抗炎药物、激素类似物、性激素受体调节剂、血管紧张素转化酶抑制剂等[21]。目前使用这些药物时，需根据患者的具体情况权衡利弊。
+执笔：郝秋奎(四川大学华西医院老年科)，李峻(四川大学华西医院老年科)
+专家组成员
+专家组成员(按姓氏汉语拼音排序)：陈峥(北京老年病医院老年医学科)；单培彦(山东大学齐鲁医院老年科)；董碧蓉(四川大学华西医院老年科)；樊瑾(中国人民解放军总医院老年急诊科)；洪华山(福建医科大学附属协和医院心内科)；李玺(西安交通大学医学院第二附属医院老年科)；李小鹰(中国人民解放军总医院南楼心血管一科)；楼慧玲(广州市第一人民医院老年科)；王建业(卫生部北京医院国家老年医学中心泌尿外科)；王衍富(大连医科大学附属第一医院老年科)；肖谦(重庆医科大学附属第一医院老年科)；于普林(卫生部北京医院老年医学研究所国家老年医学中心)；张存泰(华中科技大学同济医学院附属同济医院老年科)；郑松柏(复旦大学附属上海华东医院老年科)
+利益冲突
+利益冲突：无
+参考文献
+[1]
+WalstonJ，HadleyEC，FerrucciL，et al.
+Research agenda for frailty in older adults：toward a better understanding of physiology and etiology：summary from the American Geriatrics Society/National Institute on Aging Research Conference on Frailty in Older Adults[J]．
+J Am Geriatr Soc，
+2006，
+54(
+6)：
+991-
+1001.
+DOI：10.1111/j.1532-5415.2006.00745.x.
+[2]
+CleggA，YoungJ，IliffeS，et al.
+Frailty in elderly people[J]．
+Lancet，
+2013，
+381(
+9868)：
+752-
+762.
+DOI：10.1016/S0140-6736(12)62167-9.
+[3]
+FriedLP，FerrucciL，DarerJ，et al.
+Untangling the concepts of disability，frailty，and comorbidity：implications for improved targeting and care[J]．
+J Gerontol A Biol Sci Med Sci，
+2004，
+59(
+3)：
+255-
+263.
+DOI：10.1093/gerona/59.3.M255.
+[4]
+CollardRM，BoterH，SchoeversRA，et al.
+Prevalence of frailty in community-dwelling older persons：a systematic review[J]．
+J Am Geriatr Soc，
+2012，
+60(
+8)：
+1487-
+1492.
+DOI：10.1111/j.1532-5415.2012.04054.x.
+[5]
+Garcia-GarciaFJ，Gutierrez AvilaG，Alfaro-AchaA，et al.
+The prevalence of frailty syndrome in an older population from Spain.The Toledo Study for Healthy Aging[J]．
+J Nutr Health Aging，
+2011，
+15(
+10)：
+852-
+856.
+DOI：10.1007/s12603-011-0075-8.
+[6]
+OliveiraDR，BettinelliLA，PasqualottiA，et al.
+Prevalence of frailty syndrome in old people in a hospital institution[J]．
+Rev Lat Am Enfermagem，
+2013，
+21(
+4)：
+891-
+898.
+DOI：10.1590/S0104-11692013000400009.
+[7]
+DentE，ChapmanI，HowellS，et al.
+Frailty and functional decline indices predict poor outcomes in hospitalised older people[J]．
+Age Ageing，
+2014
+.43(
+4)：
+477-
+484.
+DOI：10.1093/ageing/aft181.
+[8]
+ChenCY，WuSC，ChenLJ，et al.
+The prevalence of subjective frailty and factors associated with frailty in Taiwan[J]．
+Arch Gerontol Geriatr，
+2010，
+50 (
+Suppl 1)：
+S43-
+S47.
+DOI：10.1016/S0167-4943(10)70012-1.
+[9]
+TangZ，WangC，SongX，et al.
+Co-occurrence of cardiometabolic diseases and frailty in older Chinese adults in the Beijing Longitudinal Study of Ageing[J]．
+Age Ageing，
+2013，
+42(
+3)：
+346-
+351.
+DOI：10.1093/ageing/aft004.
+[10]
+HaoQ，SongX，YangM，et al.
+Understanding risk in the oldest old: Frailty and the metabolic syndrome in a Chinese community sample aged 90＋ years[J].
+The Journal of Nutrition Health & Aging,
+2016,
+20(
+1)：
+82-
+88.
+DOI：10.1007/s12603-015-0553-5.
+[11]
+ChenS，HaoQ，YangM, et al.
+Association between angiotensin-converting enzyme insertion/deletion polymorphisms and frailty among Chinese older People[J].
+J Am Med Dir Assoc,
+2015,
+16(
+5)：
+1-
+6.
+DOI：10.1016/Ij.jamda.2015.01.094.
+[12]
+CesariM，PrinceM，ThiyagarajanJA，et al.
+Frailty：An emerging public health priority[J]．
+J Am Med Dir Assoc，
+2016，
+17(
+3)：
+188-
+192.
+DOI：10.1016/j.jamda.2015.12.016.
+[13]
+于普林，王建业．
+加强老年人衰弱综合征的防治研究[J]．
+中华老年医学杂志，
+2015，
+34(
+12)：
+1281.
+DOI：10.3760/cma.j.issn.0254-9026.2015.12.001.
+YuPL，WangJY.Emphasis on prevention and treatment of frailty syndrome[J]．Chin J Geriatr，2015，34(12)：1281.DOI：0.3760/cma.j.issn.0254-9026.2015.12.001.
+[14]
+De MartinisM，FranceschiC，MontiD，et al.
+Inflammation markers predicting frailty and mortality in the elderly[J]．
+Exp Mol Pathol，
+2006，
+80(
+3)：
+219-
+227.
+DOI：10.1016/j.yexmp.2005.11.004.
+[15]
+CalvaniR，MariniF，CesariM，et al.
+Biomarkers for physical frailty and sarcopenia：state of the science and future developments[J]．
+J Cachexia Sarcopenia Muscle，
+2015，
+6(
+4)：
+278-
+286.
+DOI：10.1002/jcsm.12051.
+[16]
+VinaJ，Tarazona-SantabalbinaFJ，Perez-RosP，et al.
+Biology of frailty：Modulation of ageing genes and its importance to prevent age-associated loss of function[J]．
+Mol Aspects Med，
+2016，
+50(
+4)：
+88-
+108.
+DOI：10.1016/j.mam.2016.04.005.
+[17]
+WooJ，ChanR，LeungJ，et al.
+Relative contributions of geographic，socioeconomic，and lifestyle factors to quality of life，frailty，and mortality in elderly[J]．
+PLoS One，
+2010，
+5(
+1)：
+e8775.
+DOI：10.1371/journal.pone.0008775.
+[18]
+McphailSM.
+Multimorbidity in chronic disease：impact on health care resources and costs[J]．
+Risk Manag Healthc Policy，
+2016，
+9(
+1ssue 1)：
+143-
+156.
+DOI：10.2147/RMHP.S97248.
+[19]
+JeejeebhoyKN.
+Malnutrition，fatigue，frailty，vulnerability，sarcopenia and cachexia：overlap of clinical features[J]．
+Curr Opin Clin Nutr Metab Care，
+2012，
+15(
+3)：
+213-
+219.
+DOI：10.1097/MCO.0b013e328352694f.
+[20]
+MichelJP，Cruz-JentoftAJ，CederholmT．
+Frailty，exercise and nutrition[J]．
+Clin Geriatr Med，
+2015，
+31(
+3)：
+375-
+387.
+DOI：10.1016/j.cger.2015.04.006.
+[21]
+MorleyJE，MalmstromTK.
+Frailty，sarcopenia，and hormones[J]．
+Endocrinol Metab Clin North Am，
+2013，
+42(
+2)：
+391-
+405.
+DOI：10.1016/j.ecl.2013.02.006.
+[22]
+LohmanM，DumenciL，MezukB．
+Depression and frailty in late life：Evidence for a common vulnerability[J]．
+J Gerontol B Psychol Sci Soc Sci，
+2015，
+71(
+4)：
+630-
+640.
+DOI：10.1093/geronb/gbu180.
+[23]
+Ni MhaolainAM，FanCW，Romero-OrtunoR，et al.
+Frailty，depression，and anxiety in later life[J]．
+Int Psychogeriatr，
+2012，
+24(
+8)：
+1265-
+1274.
+DOI：10.1017/S1041610211002110.
+[24]
+OlaroiuM，GhinescuM，NaumovV，et al.
+Does Frailty predict health care utilization in community-living older romanians[J]．
+Curr Gerontol Geriatr Res，
+2016，
+2016(
+10)：
+1-
+6.
+DOI：10.1155/2016/6851768.
+[25]
+MorleyJE，VellasB，van KanGA，et al.
+Frailty consensus：a call to action[J]．
+J Am Med Dir Assoc，
+2013，
+14(
+6)：
+392-
+397.
+DOI：10.1016/j.jamda.2013.03.022.
+[26]
+DentE，KowalP，HoogendijkEO.
+Frailty measurement in research and clinical practice：A review[J]．
+Eur J Intern Med，
+2016，
+31(
+1)：
+3-
+10.
+DOI：10.1016/j.ejim.2016.03.007.
+[27]
+FriedLP，TangenCM，WalstonJ，et al.
+Frailty in older adults：evidence for a phenotype[J]．
+J Gerontol A Biol Sci Med Sci，
+2001，
+56(
+3)：
+146-
+156.
+DOI：10.1093/gerona/56.3.M146.
+[28]
+SearleSD，MitnitskiA，GahbauerEA，et al.
+A standard procedure for creating a frailty index[J]．
+BMC Geriatr，
+2008，
+8(
+1)：
+24.
+DOI：10.1186/1471-2318-8-24.
+[29]
+MalmstromTK，MillerDK，MorleyJE.
+A comparison of for frailty models[J]．
+J Am Geriatr Soc，
+2014，
+62(
+4)：
+721-
+726.
+DOI：10.1111/jgs.12735.
+[30]
+RockwoodK，AndrewM，MitnitskiA．
+A comparison of two approaches to measuring frailty in elderly people[J]．
+J Gerontol A Biol Sci Med Sci，
+2007，
+62(
+7)：
+738-
+743.
+DOI：10.1093/gerona/62.7.738.
+[31]
+MorleyJE，MalmstromTK，MillerDK.
+A simple frailty questionnaire(FRAIL)predicts outcomes in middle aged African Americans[J]．
+J Nutr Health Aging，
+2012，
+16(
+7)：
+601-
+608.
+DOI：10.1007/s12603-012-0084-2
+[32]
+RockwoodK，SongX，MitnitskiA，et al.
+老年医学与衰弱老年人的医疗服务[J]．
+中华老年医学杂志，
+2009，
+28(
+5)：
+353-
+365.
+DOI：10.3760/cma.j.issn.0254-9026.2009.05.001.
+RockwoodK，SongX，MitnitskiA，et al.Geriatric medicine and the care of frail elderly people[J]．Chin J Geriatr，2009，28(5)：353-365.DOI：10.3760/cma.j.issn.0254-9026.2009.05.001.
+[33]
+孟丽，于普林．
+英国老年医学会老年人衰弱管理实践指南解读[J]．
+中华老年医学杂志，
+2015，
+34(
+12)：
+1300-
+1302.
+DOI：10.3760/cma.j.issn.0254-9026.2015.12.006.
+MengL，YuPL.The interpretation of practice guidelines for the management of frailty by British Geriatrics Society[J]．Chin J Geriatr，2015，34(12)：1300-1302.DOI：10.3760/cma.j.issn.0254-9026.2015.12.006.
+[34]
+HerrM，RobineJM，PinotJ，et al.
+Polypharmacy and frailty：prevalence，relationship，and impact on mortality in a French sample of 2 350 old people[J]．
+Pharmacoepidemiol Drug Saf，
+2015，
+24(
+6)：
+637-
+646.
+DOI：10.1002/pds.3772.
+贡献者信息
+中华医学会老年医学分会
+郝秋奎
+610041 成都，四川大学华西医院老年医学中心
+李峻
+610041 成都，四川大学华西医院老年医学中心
+董碧蓉
+610041 成都，四川大学华西医院老年医学中心
+李小鹰
+1000853 中国人民解放军总医院心血管科
+通信作者
+董碧蓉
+Email：
+birongdong@163.com
+李小鹰
+Email：
+xyli301@163.com
+关键词
+衰弱;
+利益冲突
+利益冲突：无
+历史
+出版日期：2017-03-14
+收稿日期：2016-12-16
+本文编辑
+段春波
+Guidline
+Chinese experts consensus on assessment and intervention for elderly patients with frailty
+Geriatric Medicine Branch of Chinese Medical Association,  Hao Qiukui,  Li Jun,  Dong Birong,  Li Xiaoying
+Published
+2017-03-14
+Cite as
+Chin J Geriatr, 2017,36(03): 251-256. DOI: 10.3760/cma.j.issn.0254-9026.2017.03.007
+Contributor Information
+Geriatric Medicine Branch of Chinese Medical Association
+Hao Qiukui
+The Center Gerontology and Geriatrics West China Hospital Sichuan University , Chengdu 610041, China
+Li Jun
+The Center Gerontology and Geriatrics West China Hospital Sichuan University , Chengdu 610041, China
+Dong Birong
+The Center Gerontology and Geriatrics West China Hospital Sichuan University , Chengdu 610041, China
+Li Xiaoying
+Geriatric Cardiovascular Department, PLA General Hospital, Beijing 100853, China
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+Fried衰弱评估方法[27]
+序号
+检测项目
+男性
+女性
+1
+体重下降
+过去1年中，意外出现体重下降>10磅(4.5 kg)或>5.0%体重
+2
+行走时间(4.57 m)
+身高≤173 cm：≥7 s
+身高≦159 cm：≥7 s
+身高>173 cm：≥6 s
+身高>159 cm：≥6 s
+3
+握力(kg)
+BMI ≤24.0 kg/m2：≤29
+BMI ≤23.0 kg/m2：≤17
+BMI 24.1～26.0 kg/m2：≤30
+BMI 23.1～26.0 kg/m2：≤17.3
+BMI 26.1～28.0 kg/m2：≤30
+BMI 26.1～29.0 kg/m2：≤18
+BMI>28 kg/m2：≤32
+BMI>29.0 kg/m2：≤21
+4
+体力活动(MLTA)
+<383 kcal /周(约散步2.5 h)
+<270 kcal/周(约散步2 h)
+5
+疲乏
+CES-D的任一问题得分2～3分
+您过去的1周内以下现象发生了几天？
+(1)我感觉我做每一件事都需要经过努力；
+(2)我不能向前行走。
+0分：<1 d；1分：1～2 d；2分：3～4 d；3分：>4 d
+注：BMI：体质指数；MLTA：明达休闲时间活动问卷；CES-D：流行病学调查用抑郁自评量表；散步60 min约消耗150千卡能量；具备表中5条中3条及以上被诊断为衰弱综合征；不足3条为衰弱前期；0条为无衰弱健康老人
+表2
+FRAIL量表[31]
+序号
+条目
+询问方式
+1
+疲乏
+过去4周内大部分时间或者所有时间感到疲乏
+2
+阻力增加/耐力减退
+在不用任何辅助工具以及不用他人帮助的情况下，中途不休息爬1层楼梯有困难
+3
+自由活动下降
+在不用任何辅助工具以及不用他人帮助的情况下，走完1个街区(100 m)较困难
+4
+疾病情况
+医生曾经告诉你存在5种以上如下疾病：高血压、糖尿病；急性心脏疾病发作、卒中、恶性肿瘤(微小皮肤癌除外)、充血性心力衰竭、哮喘、关节炎、慢性肺病、肾脏疾病、心绞痛等
+5
+体重下降
+1年或更短时间内出现体重下降≥5%
+注：具备以上5条中3条及以上被诊断为衰弱；不足3条为衰弱前期；0条为无衰弱健壮老人
+表3
+临床衰弱评估量表[32]
+序号
+衰弱等级
+图示
+具体测量
+1
+非常健康
+身体强壮、积极活跃、精力充沛、充满活力，定期进行体育锻炼，处于所在年龄段最健康的状态
+2
+健康
+无明显的疾病症状，但不如等级1健康，经常进行体育锻炼，偶尔非常活跃，如季节性地
+3
+维持健康
+存在可控制的健康缺陷，除常规行走外，无定期的体育锻炼
+4
+脆弱易损伤
+日常生活不需他人帮助，但身体的某些症状会限制日常活动。常见的主诉为白天"行动缓慢"和感觉疲乏
+5
+轻度衰弱
+明显的动作缓慢，工具性日常生活活动需要帮助(如去银行，乘公交车、干重的家务活、用药)。轻度衰弱会进一步削弱患者独自在外购物、行走、备餐及干家务活的能力
+6
+中度衰弱
+所有的室外活动均需要帮助，在室内上下楼梯，洗澡需要帮助，可能穿衣服也会需要(一定限度的)辅助
+7
+严重衰弱
+个人生活完全不能自理，但身体状态较稳定，一段时间内(<6个月)不会有死亡的危险
+8
+非常严重的衰弱
+生活完全不能自理，接近生命终点，已不能从任何疾病中恢复
+9
+终末期
+接近生命终点，生存期<6个月的垂危患者
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华老年医学杂志2017年36卷03期
+文    题：老年患者衰弱评估与干预中国专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华老年医学杂志2017年36卷03期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

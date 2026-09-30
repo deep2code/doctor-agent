@@ -1,0 +1,736 @@
+# 中国康复医学会 www.carm.org.cn 全文抓取清单
+# 格式: 文件名 | 标题 | 直链 | 中国康复医学会 | 日期
+
+carm_056e10dd65f9.txt | 科普|吞咽功能障碍老年人如何安全进食， 这5点建议要牢记 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_056e10dd65f94244aeaefe7c288c04bf.html | 中国康复医学会 | 2025-01-09
+carm_0705ed1f7797.txt | 轮椅上的自由：脊髓损伤患者的轮椅选择 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_0705ed1f779746d799b6c01e5ea9a31f.html | 中国康复医学会 | 2024-10-30
+carm_09ee13b3a4e1.txt | 科普|带你了解脑出血及康复 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_09ee13b3a4e14b70a4650fffb093f72f.html | 中国康复医学会 | 2025-01-23
+carm_0de2fbeecd3e.txt | 高血压科普宣教 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_0de2fbeecd3e4ca8a4dd928c99494695.html | 中国康复医学会 | 2025-01-09
+carm_142a155cf04f.txt | 【康复治疗专委会】肩关节疼痛患者疫情期间的居家护理及康复指导 | https://www.carm.org.cn/kpgy/yjkp/art/2020/art_142a155cf04f493c92994e21ab740597.html | 中国康复医学会 | 2020-03-01
+carm_1801fe7d68b7.txt | 脑卒中后睡眠障碍患者的康复护理指导 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_1801fe7d68b7496e9ab830f7a530009f.html | 中国康复医学会 | 2024-12-21
+carm_262ee28650b1.txt | 科学运动——糖友的“良药” | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_262ee28650b14b6ca27196c15bd56add.html | 中国康复医学会 | 2024-11-07
+carm_29ad8b431ffa.txt | 科普|此“作业”非彼“作业”， 让我们一起揭开“作业治疗”的神秘面纱！ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_29ad8b431ffa49b4b98709ba4f76343f.html | 中国康复医学会 | 2025-06-12
+carm_353651f46e03.txt | 科普文章|守护呼吸，从了解慢阻肺开始 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_353651f46e034fcab63cb7f1cc8a0a5b.html | 中国康复医学会 | 2024-12-07
+carm_376a2f06c157.txt | 【脑功能检测与调控康复专委会】重型新冠肺炎恢复期患者床上康复训练方案 | https://www.carm.org.cn/kpgy/yjkp/art/2020/art_376a2f06c15740f2aa0e8d44f01aa9ea.html | 中国康复医学会 | 2020-03-02
+carm_39f106894518.txt | 【科普工作委员会】如何正确使用体温计 | https://www.carm.org.cn/kpgy/yjkp/art/2020/art_39f1068945184a2d86c3e598af29511b.html | 中国康复医学会 | 2020-04-17
+carm_3a007fdd2e45.txt | 科普|感冒后声音持续嘶哑的康复之道 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_3a007fdd2e454a39b70a9d9efc0436d9.html | 中国康复医学会 | 2025-03-26
+carm_3c774bd12977.txt | 下肢骨折术后早期只能卧床吗？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_3c774bd129774d44b998060a0c939a84.html | 中国康复医学会 | 2025-02-11
+carm_3d0e0dfafe46.txt | 科普|体外冲击波——肌骨疾病的治疗“神器 ” | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_3d0e0dfafe46444db220090ab1322f3d.html | 中国康复医学会 | 2025-01-23
+carm_4189525722bf.txt | 科普|吞咽障碍在口腔期有什么表现？（下期） | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_4189525722bf4b40ba7e8ac616453370.html | 中国康复医学会 | 2025-01-23
+carm_495cbb204a58.txt | 科普文章|“手” 护健康欢乐多——摆脱鼠标手 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_495cbb204a58495fb0ac87b13412d019.html | 中国康复医学会 | 2024-12-29
+carm_52ffaa8e8179.txt | 科普文章|控糖饮食“锦囊”——“大雪”时节益肾壮阳，温中暖下，晨饮姜茶暖暖身 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_52ffaa8e8179448f870f2ce099880953.html | 中国康复医学会 | 2024-12-29
+carm_533f6bed2fa9.txt | 全国科普日|康复科普活动之健康生活方式-科学减盐 | https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_533f6bed2fa94c1097d78db5b8db106f.html | 中国康复医学会 | 2024-09-14
+carm_536f79121b63.txt | 11·14联合国糖尿病日|科学运动治糖，共享幸福生活 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_536f79121b63434d95964e32edf53ae2.html | 中国康复医学会 | 2024-11-30
+carm_61d1ccb5356f.txt | 科普|一块胶布的“魔法”，肌内效贴如何帮肌肉减负？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_61d1ccb5356f4b86aeadb5aff403b03e.html | 中国康复医学会 | 2025-05-14
+carm_622ffbe373fc.txt | 【科普工作委员会】提高免疫防新冠，居家儿童有妙招 | https://www.carm.org.cn/kpgy/yjkp/art/2020/art_622ffbe373fc43a0aab089f32c768adf.html | 中国康复医学会 | 2020-03-01
+carm_63dcfcfb128a.txt | 科普|黑色素瘤的早期症状知多少 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_63dcfcfb128a4f5d84e821bdf2729075.html | 中国康复医学会 | 2025-02-19
+carm_66507f9c02f0.txt | 科普文章|不可“轻视”的慢阻肺， 日常康复管理应该如何做？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_66507f9c02f04da788e8cf906ce6face.html | 中国康复医学会 | 2025-01-03
+carm_67a6e1bd3c81.txt | 科普|等速肌力训练处方如何定制？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_67a6e1bd3c814d2dbcd8985c0bca4a11.html | 中国康复医学会 | 2025-02-26
+carm_6917949a60e1.txt | 科普文章|喝水呛咳？吞咽障碍的可能原因（二） | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_6917949a60e140268c309c13042132b9.html | 中国康复医学会 | 2024-12-30
+carm_6b55a6c5e7ed.txt | 【作业治疗专委会】疫情期间如何通过居家游戏来提高特殊儿童操作及认知能力 | https://www.carm.org.cn/kpgy/yjkp/art/2020/art_6b55a6c5e7ed44598ff0f9971dbdf0bc.html | 中国康复医学会 | 2020-03-01
+carm_6bb896b97add.txt | 科普文章|产后康复之运动指南：活力妈妈养成记 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_6bb896b97add4e5a94f59281dba559b9.html | 中国康复医学会 | 2024-12-30
+carm_71b76f0ba042.txt | 科普|糖尿病与老年认知健康：守护记忆的关键防线 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_71b76f0ba0424737820474ffb033b2c1.html | 中国康复医学会 | 2025-03-26
+carm_7bf72bdb6997.txt | 科普文章|了解X型腿~ | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_7bf72bdb699744939c2efe19e52ef96d.html | 中国康复医学会 | 2024-12-28
+carm_7e571b79b69d.txt | 科普|如何正确通过鼻饲管喂药？了解这些要点，药效更好！ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_7e571b79b69d40c6abd4233570e6ac18.html | 中国康复医学会 | 2025-04-17
+carm_7f49b2c703eb.txt | 科普|针对性运动处方！让“又胖又瘦”的 老年人减肥增肌助健康！ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_7f49b2c703eb442187f6a5f12342984e.html | 中国康复医学会 | 2025-05-14
+carm_7fdb005b49e7.txt | 科普|甲流来袭，如何科学应对，这份防护指南请收好~ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_7fdb005b49e74d71a90c02f39c335997.html | 中国康复医学会 | 2025-02-09
+carm_808269efc68a.txt | 科普文章|学会这些，一“马”当先，不伤膝！ | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_808269efc68a46f3a85017c152b8b98c.html | 中国康复医学会 | 2024-12-21
+carm_857932d6f6b2.txt | 科普|急性腰椎间盘突出症康复 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_857932d6f6b24538b60a1ddcd3a90d4c.html | 中国康复医学会 | 2025-01-23
+carm_892916d2cd20.txt | 10·8全国高血压日|高血压患者的运动秘籍 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_892916d2cd20466088d33bee4412e8ed.html | 中国康复医学会 | 2024-10-15
+carm_8e7cff051e97.txt | 科普辟谣|“超级防癌食物”真的存在吗？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_8e7cff051e974fbda133a20f2b822946.html | 中国康复医学会 | 2025-04-17
+carm_948569e0babc.txt | 科普|稳如泰山健步行 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_948569e0babc4389a35d49b9c3a68b65.html | 中国康复医学会 | 2025-02-09
+carm_949d20b084d7.txt | 4·2世界孤独症关注日|“内向”≠“自闭症”，别再说我“自闭了” | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_949d20b084d74766bab22d32c0b2c9f1.html | 中国康复医学会 | 2025-04-10
+carm_94c0cb22dbdb.txt | 科普|手指康复操--延缓认知障碍的健脑秘籍 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_94c0cb22dbdb4115a5a16f4ae0fef805.html | 中国康复医学会 | 2025-04-17
+carm_976ac653e7c9.txt | 睡眠健康，优先之选，解锁睡眠奇妙的密码 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_976ac653e7c943fa8778e685dfb8c56e.html | 中国康复医学会 | 2025-03-26
+carm_98db7a74031e.txt | 科普|医学冲击波治疗——无创疗法的新篇章 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_98db7a74031e4e198e483139857af3c1.html | 中国康复医学会 | 2025-04-10
+carm_99109ccb1ee0.txt | 科普|成人人工耳蜗术后发音不清怎么办？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_99109ccb1ee048b7b9c4479e30d38b9e.html | 中国康复医学会 | 2025-03-26
+carm_999d85f010c1.txt | 科普文章|吞咽障碍在口腔期有什么表现？（上期） | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_999d85f010c146fdbc9dfb566d10d23a.html | 中国康复医学会 | 2025-01-08
+carm_a0f17c6b37e6.txt | 科普文章|喝水呛咳？吞咽障碍的可能原因 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_a0f17c6b37e64d6f87f11d31836114e4.html | 中国康复医学会 | 2024-11-30
+carm_a39fac58bf8b.txt | 科普|点色素痣能预防黑色素瘤吗？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_a39fac58bf8b4526971400318265c655.html | 中国康复医学会 | 2025-02-09
+carm_a81ee571cd2f.txt | 科普视频|什么是足底筋膜炎 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_a81ee571cd2f4ce7aa793524eed897e4.html | 中国康复医学会 | 2024-12-21
+carm_aadbac82076a.txt | 科普视频|六招运动康复助你远离肩背痛 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_aadbac82076a4e81b348c8c5c34167fa.html | 中国康复医学会 | 2025-06-01
+carm_ad9ad7c3c6d3.txt | 全国爱耳日科普|老年人头晕都是脑梗吗？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_ad9ad7c3c6d34b81af9af51f79b535ef.html | 中国康复医学会 | 2025-02-26
+carm_aee13275b3cc.txt | 科普|重获新“声”——术后声带麻痹康复之路 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_aee13275b3cc478c977d563f97482e11.html | 中国康复医学会 | 2025-03-25
+carm_b57351def874.txt | 科普|我不是调皮捣蛋---带你认识儿童多动症 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_b57351def874429da6c7f5b2db5d1259.html | 中国康复医学会 | 2025-01-10
+carm_b9e812b79541.txt | 科普|康复“明星”——等速技术，为您的康复精准护航 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_b9e812b795414ebba3a7c136f7f97bc5.html | 中国康复医学会 | 2025-02-26
+carm_be57d02f8ead.txt | 科普|流涎症的康复之路： 从“口水横流”到“滴水不漏” | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_be57d02f8ead4813a9c6a2ea686a3858.html | 中国康复医学会 | 2025-03-06
+carm_c021ae402b70.txt | 科普|漫“话”腱鞘囊肿 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_c021ae402b704f0988f2fe96c35e1444.html | 中国康复医学会 | 2025-02-26
+carm_cbb0e95ef6cf.txt | 【科普工作委员会】居家运动减肥，居然又胖了怎么破？ | https://www.carm.org.cn/kpgy/yjkp/art/2020/art_cbb0e95ef6cf49bd813cea59d40a1d92.html | 中国康复医学会 | 2020-04-07
+carm_ce904c2b0a62.txt | 全国爱耳日科普|分泌性中耳炎与新生儿听力筛查 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_ce904c2b0a6246a6828a763dba02de18.html | 中国康复医学会 | 2025-02-26
+carm_cf2b4f3e0a40.txt | 科普|老年人闯关“冬”，做个健康“不倒翁” | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_cf2b4f3e0a4049c588ac1487245946e4.html | 中国康复医学会 | 2025-01-23
+carm_d281cc8649cc.txt | 科普文章|“小早产” 大挑战，早产宝宝的 “吃奶大作战” | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_d281cc8649cc44b28b8d0b48ee043c3b.html | 中国康复医学会 | 2025-01-08
+carm_d3ba29bc5d41.txt | 健康科普|血常规----小检查，大作用 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_d3ba29bc5d41419d95244dd59293ea54.html | 中国康复医学会 | 2024-10-22
+carm_d6ee41bf01ff.txt | 科普文章|睡眠障碍不要慌 康复能够帮大忙 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_d6ee41bf01ff428483b5ff3d51a8c706.html | 中国康复医学会 | 2024-12-29
+carm_d922d5209200.txt | 12·12世界吞咽日|认识吞咽障碍，让您畅所欲“咽” | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_d922d52092004bacbf960f4ed6f24855.html | 中国康复医学会 | 2024-12-31
+carm_dacf9d7483df.txt | 科普|警惕儿童听力潜在危险--分泌性中耳炎 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_dacf9d7483df4de7b6ca0b0103ab1986.html | 中国康复医学会 | 2025-03-25
+carm_dfcb2fa243d8.txt | 科普|Pilon骨折术后的康复攻略，请查收！ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_dfcb2fa243d8453fbaeb1fc23a6d11a4.html | 中国康复医学会 | 2025-06-12
+carm_e07dd60ae47b.txt | 【物理治疗专委会】居家脊柱功能锻炼 | https://www.carm.org.cn/kpgy/yjkp/art/2020/art_e07dd60ae47b4529910fac3fc9fef8f3.html | 中国康复医学会 | 2020-03-16
+carm_e4bf407c7119.txt | 科普|警惕肺癌的危险信号 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_e4bf407c711949e9868608ba6e1e2c1b.html | 中国康复医学会 | 2025-03-26
+carm_e5947c5ae5b1.txt | 科普|“颈”上添花，“托”住健康 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_e5947c5ae5b14039b2c8f106fa26fa25.html | 中国康复医学会 | 2025-02-09
+carm_e80bb9ff7332.txt | 科普|等速肌力测试报告里的“密码”如何解读？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_e80bb9ff73324e6e980258fa463d623a.html | 中国康复医学会 | 2025-02-26
+carm_e8a59ab2e7a8.txt | 科普文章|我们是怎么吃进食物的？一块食团的冒险旅程：吞咽的分期 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_e8a59ab2e7a845cf9ca70606fdaccf06.html | 中国康复医学会 | 2024-11-30
+carm_ed76ec49c3d9.txt | 科普|揉腹预防便秘，你做对了吗？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_ed76ec49c3d9427e9d4eb2229d3931da.html | 中国康复医学会 | 2025-01-23
+carm_f10081a7b8ca.txt | 10·8全国高血压日|守护心脉，乐享压力平衡日 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_f10081a7b8ca40b4a3f02322d3c65b42.html | 中国康复医学会 | 2024-10-16
+carm_f15bfefe4985.txt | 科普文章|膝前交叉韧带重建术人工韧带（LARS）与自体肌腱的不同 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_f15bfefe49854290996fd1583ed1ae84.html | 中国康复医学会 | 2024-11-30
+carm_f7a87edb2c81.txt | 科普|癌性疲劳怎么缓解？“运动处方”或是良方 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_f7a87edb2c8146daa83eef43a2f73b06.html | 中国康复医学会 | 2025-04-29
+carm_faf264a77d5b.txt | 科普|经颅磁刺激技术，助您拥抱 甜美梦境，重启生命活力 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_faf264a77d5b47cfa9bc28abad6f1a01.html | 中国康复医学会 | 2025-03-26
+carm_fe0e714f2be7.txt | 10·8全国高血压日|高血压治疗的这些“雷区”，您踩到了吗？ | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_fe0e714f2be740c48a5513309c8823f6.html | 中国康复医学会 | 2024-10-15
+
+# 已排除
+https://www.carm.org.cn/bzzd/qtfgzd/art/2014/art_1a2d6898e09f45649032a7b6c6b54fc1.html | 全国性学会召开全国会员代表大会及理事会换届工作办法 | 标题预筛:通知/会务类
+https://www.carm.org.cn/bzzd/qtfgzd/art/2015/art_2c11fb1df0ea4f988e2b380a932adcdc.html | 中国科协转发《民政部 财政部 人民银行关于加强社会团体分支（代表）机构财务管理的通知》的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/bzzd/qtfgzd/art/2015/art_7c58bc3b9c194837ae42bab9f1305fee.html | 民政部财政部关于调整社会团体会费政策等有关问题的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/bzzd/qtfgzd/art/2016/art_c0573b28cf6c490ba99ef878516e5f41.html | 关于新增部分医疗康复项目纳入基本医疗保障支付范围的通知 ... | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2026/art_6a51eccba86a4bb3850a3dca8282e189.html | 中国康复医学会2026全国科普月康复科普主场活动暨康复科普年会在银川圆满举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/xwzx/xhdt/art/2025/art_46ba76eea708418e918199edf690dec7.html | 2025中国康复医学会综合学术年会暨康复医疗产业博览会在京成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/xwzx/xhdt/art/2026/art_a45fc5a3cab5441c82c49df7b590198f.html | 关于进一步加强学会分支机构管理工作的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kfhmxbx/art/2023/art_62de5eb55b5e47b3bd49f69865911c73.html | 【康复惠民西部行走进青海】关注老年陪护者身心健康爱心科普公益活动 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kfhmxbx/art/2023/art_75fb2f5d10174dc68433ae28ef988e13.html | 【康复惠民西部行走进新疆克州】关爱特殊儿童：康复医疗帮扶与义诊公益活动 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kfhmxbx/art/2024/art_0218541851e344ea9e798de8e9c0ec57.html | 惠民兴县|中国康复医学会科技志愿服务望城行走进茶亭镇东城卫生院 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kfhmxbx/art/2024/art_1100bf8097c949478fd41396f9ec1d7d.html | 科技助力·惠民兴县|中国康复医学会儿童康复医疗帮扶活动走进广西贺州钟山县 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kfhmxbx/art/2024/art_227fe64ac1184955b9ce869bf5981b1b.html | 新春走基层·呼吸康复专委会|“呼吸健康·你我同行”康复科技志愿服务走进宁夏银川 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kfhmxbx/art/2024/art_36cb114d8c7d40e6b86d0825cbd2e4c9.html | 全国科技活动周|残疾儿童筛查、义诊走进青海大通县塔尔镇 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kfhmxbx/art/2024/art_86928762ccb04777a1308e50078b8703.html | 康复惠民西部行|脊柱微创技术推广系列义诊救助活动走进青海 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kfhmxbx/art/2024/art_8f2ad41db58948c787e96d67bce3f16b.html | 康复助力·惠民兴县|中国康复医学会科技志愿服务走进浙江湖州德清县 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kfhmxbx/art/2024/art_97a8e5e76bca47d7b858f7c6d0047ecc.html | 惠民兴县|医教结合促交流 康复互助共提升—中国康复医学会&渭南富平县科协儿童康复科技志愿服务活动走进富平县特校 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kfhmxbx/art/2024/art_e749321744dc4324ab8074b80efecaf6.html | 全国科技活动周|科技助残·共享美好生活——残疾儿童筛查、义诊活动走进青海西宁大通县 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_0a6714b70007428ca0910c4caf4de73c.html | 学雷锋科技志愿服务周|辽宁中医药大学附属医院脑病康复二科成功举办居民健康义诊与科普公益活动 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_1a23c36bc8944ff7ab8a601707c004d8.html | 科普工作委员会|关爱儿童健康 守护成长未来——咸阳市儿童福利院科普慰问活动圆满举行 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_1ef23c07367d49d999f9061efc5a4b5e.html | 学雷锋科技志愿服务周|“姿势健康”科普讲座走进辽宁医药职业学院 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_20c652fd8fdf4239b7d24921ec1f2832.html | 康复评定专委会|康复服务下基层，科技惠民暖人心科普义诊活动走进广东惠州 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_21326133e21540c28ed354c70192e365.html | 老年康复专委会|雪域暖阳映高原 康复服务筑健康 林芝市“雪域暖阳，共筑健康” 康复公益、科普交流行动圆满举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_21af82ff2f4545bb859f803fdb283366.html | 特殊环境作业损伤防治与康复专委会|居家守护，自护安康——多学科联合义诊走进洛阳市第二外国语学校 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_2a4b018bed6b4fc78ddb8366dee39e1d.html | 残疾预防主题科普教育活动走进深圳市龙岗区幼儿园 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_2d71a09bab1646bba94fdd3946285022.html | 儿童康复专委会|重庆百草园融爱睿星融合幼儿园科普活动成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_3f23062923b047a396b821a5931cba75.html | 科普工作委员会|残疾预防科技志愿服务走进深圳市龙岗区幼儿园 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_518aff355aaa4e24a75c898e3edfc2d5.html | 守护青春健康 共筑医校融合新篇章 ——郑大三附院联合树青医学中等专科学校成功举办科普义诊进校园活动 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_54418880e65743a880e6a941314d256f.html | 健康管理专委会|志愿服务走进成都市温江区永福社区、长石社区 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_57f005419ced4a97bad2f6c0a4698a23.html | 学雷锋科技志愿服务周|走进美好春天，书写绚丽人生-滨医附院康复医学科举行住院患者绘画比赛 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_5961362967a64f21816f1b8ffd960a19.html | 科普工作委员会|“小手牵大手 彩虹微笑表演日”六一儿童节融合活动 走进深圳市龙岗区妇幼保健院特殊儿童中间 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_693e2c899f5b4a15ab5c0864c008ad19.html | 学雷锋科技志愿服务周|足踝康复专委会：“冀中康复”研学健行培训班暨骨伤康复理论专题线上培训顺利召开 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_73bd4704ab66455b9827dd20f3bda6b0.html | 学雷锋科技志愿服务周|“学雷锋践初心，康复义诊进社区”志愿活动在河石家庄十三所社区服务中心成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_76dbf626ad8a4546a72af479a91afe0e.html | 学雷锋科技志愿服务周|足踝康复专委会：“足踝健康科普与筛查”公益活动在北京亚运村安翔里社区成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_7a54a8ec0b8a452aa9e610b49b2f72fa.html | 科普工作委员会|“助力儿童健康，义诊走进边疆”科技志愿服务在云南省迪庆州维西傈僳族自治县顺利开展 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_8a603b3866e74c168d4be481138ae070.html | 足踝康复专委会|爱足日渭南义诊行成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_9163dc43d8b44f99927b32596388678f.html | 学雷锋科技志愿服务周|沧州市人民医院3.7学雷锋日走进万盛老年公寓健康科普赶大集活动顺利举行 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_a3dc027d4ace48a191674014b53e4022.html | 标准工作委员会|“科普促健康，义诊惠民生”全国科工作者日、全国科技活动周康复志愿服务活动走进安徽合肥瑶海区皖江社区 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_a645e152ebc149a6a2c0814df8ea3910.html | 重症康复专委会|心脏骤停与心肺复苏科普走进黑龙江东方学院 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_bd858682217149aba04f43e6748e41ef.html | 修复重建外科专委会|“让关节活起来”团队走进苏州科技大学天平学院 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_c4623037417245b98d79f98514d08844.html | 学雷锋科技志愿服务周|“运动损伤康复双通道—当物理治疗遇见中医智慧” 湖北省中西医结合医院康复医学科成功举办大型康复义诊活动 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_cea1d4fd4fa64b58a6dd7a82c38e2b5f.html | 科普工作委员会|爱银龄·健康同行志愿服务走进咸阳市不老帮养老院 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_e94e1964ae294b1dbffbba36ef4cb161.html | “惠民兴县”足踝健康科技志愿服务活动在天津成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_eb2c445d75264d1a92a607bb0f2a14e7.html | 科普工作委员会|残疾预防科技志愿服务走进广东梅州市梅县区中医医院 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_f41095a56a4b4657be43d0b95cee3b0e.html | 科普工作委员会|“康复惠民践初心，爱心义诊暖人心”义诊活动走进唐山市新华南里社区 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_fa8016d94a02436e9c349c799584cde6.html | 学雷锋科技志愿服务周|“送你一朵小红花”亲子手工主题活动走进哈医大附属第四医院儿童康复中心 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_fb59f8d137ee46239d7603db650cc9ad.html | 居家康复专委会|全国科技活动周康复志愿服务之走进青岛灵珠山社区大型义诊活动成功举行 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2023/art_e027a718ed8e44c294eb861beca5486e.html | 关于开展第五届康复科普创新作品（短视频类）征集评选的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2023/art_f4f232dc997b432ea8135c0378a0e9fc.html | “健康口腔，康复同行”——中国康复医学会第一届口腔疾病预防与康复科普作品征集活动的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2024/art_266a7a8a502b4590bc172b89e1a33951.html | 关于举办中国康复医学会儿童康复护理专业委员会首届儿童康复护理科普大赛决赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2024/art_5b27b324368f41b7a36eb9a197022bb2.html | 关于举办中国康复医学会运动健康与产业发展专业委员会第一届运动健康科普作品与讲解大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2024/art_887c9c00e7e24c2094677dfc9cdd5077.html | 关于举办中国康复医学会儿童康复专业委员会第一届儿童康复科普大赛通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2024/art_8f1358c584c0429b8539f7fc91345123.html | 关于举办中国康复医学会脑机接口与康复专业委员会2024年脑机接口与康复科普比赛作品征集的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2024/art_94799a10a6a24558a43365d36cb45ac3.html | 关于举办中国康复医学会变态反应性疾病康复专业委员会第一届敏医智行·过敏科普大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2024/art_9d80b247362b4e999fe642662f1cb754.html | 关于举办2024中国康复医学会青年工作委员会科普大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2024/art_aac93dfd82df4648a9b9a053a3a7a3d0.html | 中国康复医学会物理治疗专业委员会第五届全国康复与物理治疗科普大赛通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2024/art_b82b8eec09ff4301a37a5fddcd5c6b8e.html | 关于举办中国康复医学会高压氧康复专业委员会第六届“氧与健康”科普大赛决赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2024/art_c50c3c51823844b9a84cb24349cb37ac.html | 关于举办中国康复医学会康复辅具应用专业委员会第一届康复辅助器具科普大赛（初赛）的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2024/art_df6c92caa32447b3bc1ea20048531746.html | 中国康复医学会第三届“脑康复与脑健康促进”科普大赛作品征集的通知（第一轮） | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2024/art_e512317f96a94033815666ce1ae5f63b.html | 关于举办中国康复医学会言语康复专业委员会2024年言语康复科普比赛作品征集的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2024/art_e98841b8ea9e4c6dbf2b7229ccd5eb63.html | 关于举办中国康复医学会孤独症康复专业委员会2024年孤独症康复科普比赛作品征集的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2024/art_f7ac4098cb3a4f7fb1a371e8e7799681.html | 关于举办中国康复医学会智能康复专业委员会首届肿瘤智能康复特色技术科普大赛决赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_0aaef48ea7ca4c46bf13287af8d85046.html | 关于举办2025年慢病康复科普比赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_0bca111daa2d4f7da849f878909b50c4.html | 关于举办中国康复医学会青年工作委员会“健康生活，康复同行”康复科普演讲大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_0ebebeb99ec0409884793d65ae1a98dd.html | 关于举办中国康复医学会作业治疗专业委员会第五届作业治疗科普大赛作品征集的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_18643b6e99b34fc7ad0a28f8de7b9c60.html | 关于举办第二届“ 肾脏康复科普之星 ” 科普创作大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_18984aeb88d842ea8bc1ce572e2b3a27.html | 关于举办中国康复医学会科学普及工作委员会第七届康复科普创新作品（职业组）大赛作品征集的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_1badfba109a84deda2ce783fc0f39d0a.html | 关于举办中国康复医学会脑血管病介入治疗与康复专业委员会2025年科普短视频比赛决赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_2299347e826f41128d32ecb3947f22de.html | 中国康复医学会生殖健康专业委员会首届辅助生殖科普大赛通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_2e3ad67a61254707a3d097158fedc5c1.html | 关于举办中国康复医学会皮肤病康复专业委员会特应性皮炎科普大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_32e0d9dffd2d456ba18f5d9af6c35175.html | 关于举办“运动促进健康，体育保健康复”2025年科普短视频大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_37a36047f5a545c1a9f3d8a1c475cb9b.html | 中国康复医学会脑功能检测与调控专业委员会第四届“脑康复与脑健康促进”科普比赛作品征集的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_384ab196b5e44be7b3c9ec65792316c6.html | 关于举办首届中国康复医学会科普大赛精神卫生康复专业委员会初赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_42f18ca6713049778a931947192aefe4.html | 关于举办中国康复医学会老年康复专业委员会2025年老年康复科普比赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_45b6f529fe794f849eb62b162be54edf.html | 关于举办中国康复医学会精神卫生康复专业委员会精神心理科普作品创作大赛的通知（第一轮） | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_4a9f9446eac547a0bf36c33af1d83612.html | 关于举办心理健康科普文章征集活动的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_51293f58d7174825b4a8c46675523a9a.html | 关于举办第三届口腔疾病预防与康复科普创新作品比赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_514be835ee4d4bf3ba78f770c1508a00.html | 关于举办中国康复医学会精神卫生康复专业委员会精神心理科普演讲比赛的通知（第二轮） | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_58f1a4cd2e324dbe8e81e0ab3d2e08c2.html | 关于举办中国康复医学会精神卫生康复专业委员会精神心理科普演讲大赛的通知（第一轮） | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_5a59977424e84eb3b6422126f3eeaad2.html | 关于举办中国康复医学会医学冲击波技术与康复专业委员会首届“波动未来”冲击波治疗科普大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_5b882997aacc4bc1b056e0c156262027.html | 关于举办2025年居家康复科普比赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_622fb29da0b84cb485406c077883d440.html | 关于举办2025年“人人健康、主动健康”健康科普比赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_76c9168bb36f4f1eb1e857f8f869ba5a.html | 关于举办“运动促进健康，体育保健康复”2025年科普短视频大赛的通知（第二轮） | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_95759c9ebdc7453aad835ea59d84b41d.html | 关于举办2025中国康复医学会青年工作委员会科普大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_9b5d77989be84c78a2b7837c54027919.html | 关于举办2025中国康复医学会心肺康复护理专业委员会科普大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_a8b61cb09b0c4f99ab96fe27b152265b.html | 中国康复医学会青年工作委员会2025“健康生活，康复同行”康复科普演讲大赛决赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_ac8fc6b2fa4846fbb44131f9ed33585a.html | 关于公布首届中国康复医学会科普大赛获奖名单的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_c1f26109632f4cd2aad5b50195c97aa9.html | 关于举办中国康复医学会脑机接口与康复专业委员会2025年脑机接口与康复科普比赛作品征集的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_c8439115d42a43dbaaacd80414dcd1df.html | 关于举办第二届儿童康复护理科普大赛作品征集的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_ca8d01354c714976ba68b852a30f276f.html | 关于公布第二届中国康复医学会青年工作委员会科普大赛入围决赛作品名单的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_cae40a3ecc974593af594e94e40e52eb.html | 关于举办中国康复医学会脑血管病介入治疗与康复专业委员会2025年科普短视频大赛的通知（第一轮） | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_d3afb17e40594db9b3cb29a62887d2c6.html | 关于举办中国康复医学会科普工作委员会第七届康复科普创新作品（学生组）大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_d9bf32ee2c544766a756e045c09ecddf.html | 关于举办首届中国康复医学会科普大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_dcb7997610424180a84e227eb390a97f.html | 关于举办第二届儿童康复科普大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_e8491f1def1e47ea9ce8e257f1b06288.html | 关于举办中国康复医学会吞咽障碍康复专业委员会2025年吞咽康复科普演讲比赛活动的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_ee358e9abdb743d68a9e21bf157882f4.html | 中国康复医学会生殖健康专业委员会首届生殖健康科普大赛决赛通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2025/art_f7b73f0c6e09434297d0d168b1d11336.html | 关于举办中国康复医学会听力康复专业委员会第一届听力健康科普大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_08212a2e215347818a3298d0f8c40270.html | 关于举办中国康复医学会医学冲击波技术与康复专业委员会第二届“波动未来”冲击波治疗科普大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_0d83c604fb934b6d8004b0204f77bcc8.html | 关于举办中国康复医学会特殊环境作业损伤防治与康复专业委员会“健行万里·康复护航”科普大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_19f9933a0ee2426baf6dc83bfde4dae2.html | 关于举办2026中国康复医学会青年工作委员会第三届科普大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_1f5dfccebfab4622839324d894e3281d.html | 关于举办2026中国康复医学会血管外科专业委员会血管康复医护说科普大赛作品征集的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_41ddfff798cd48f883e40fac4c911713.html | 关于举办中国康复医学会物理治疗专业委员会第七届康复与物理治疗科普大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_47befb98d6484922b183642fbf52b26b.html | 关于举办中国康复医学会作业治疗专业委员会第六届作业治疗科普大赛作品征集的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_61d8025e7ed540559454cd13210f34f0.html | 关于举办中国康复医学会脑机接口与康复专业委员会2026年脑机接口与康复科普比赛作品征集的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_659bdb65285d470f89eded85db53d6ab.html | 关于举办中国康复医学会足踝康复专业委员会2026年“行走无忧”足踝损伤科普比赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_68fecc901b6644cda758b7684b5d125c.html | 关于举办中国康复医学会听力康复专委会第二届听力健康科普大赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_6b7dd51b4ea9466a80c7c4d2b3af2b60.html | 关于举办中国康复医学会康复职业教育专业委员会2026年知“康复”，行“无碍”康复专业学生科普比赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_6d7d8bd255a841b1b9c2531cd1ac535b.html | 关于举办中国康复医学会生殖健康专业委员会第二届生殖健康科普作品征集展示活动的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_858bd297d7fd42639dbc282445689676.html | 关于开展2026中国康复医学会心肺康复护理科普作品征集展示活动的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_ab5f423e555b43d6b3dcf059178e547a.html | 关于举办2026中国康复医学会认知障碍康复专业委员会第一届认知科普大赛的通知（第一轮） | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_b31bc1a606e84007b032f623458ad00a.html | 关于举办第二届中国康复医学会科普作品征集展示活动的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_c87a573405334d63b2c877815ae3d2fe.html | 关于举办中国康复医学会居家康复专业委员会2026居家康复科普大赛作品征集的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_d4210107e9e244e6adb2f253429bb0e0.html | 关于举办中国康复医学会远程康复专业委员会第二届创新科普大赛通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_d4f495923cb942d3b74ad40ce740fdcf.html | 关于举办2026中国康复医学会器官移植康复专业委员会康复科普作品征集展示活动的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_dfa1fbb8753045e2b87c80b640df231a.html | 关于开展中国康复医学会儿童康复护理专业委员会第三届儿童康复护理科普大赛及作品征集的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_efc95d4a7bce4d789f07710258863eeb.html | 关于举办中国康复医学会疼痛康复专业委员会2026年疼痛康复科普竞赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2026/art_fdd0111169e04f45963361fa7b5c6092.html | 关于举办中国康复医学会老年康复专业委员会2026年老年康复科普视频大赛的通知（第一轮） | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_01d45cfa6b3f4a51908d0b39fb19400a.html | 关于上报2025年康复科普比赛（竞赛）活动计划的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_0380612856ec42d8a7cc9f6ad82310ac.html | 中国康复医学会关于组织开展2024年“全国科技工作者日”科普系列活动的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_0888a08ff8a8424c850ba75f3e3df269.html | 第二届口腔疾病预防与康复科普创新作品评选通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_0a17bb85254f4a7b988e33303aa67908.html | 中国康复医学会关于组织开展2024年“全国科普日”康复科普联合行动的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_202a9d64db6041abba8bf5e77183a28f.html | 关于筹建康复医学博物馆征集历史器物及文史资料的公告 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_248df03da0f646e3b02d181101176789.html | 关于举办2024年全国科技工作者日康复科普大会暨中国康复医学会会员日主题活动的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_2cf86785a2eb4d19ada9e6e72db7000c.html | 关于举办中国康复医学会体育保健康复专业委员会2024年健康科普微视频比赛的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_6fc5c0c161414c65863eb7af96a03300.html | 中国康复医学会儿童康复护理专委会成功举办首届科普大赛 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_877c78168e7f4a9d807924d8eb296b15.html | 科技志愿基层行——中国康复医学会走进山西岚县王家村 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_92f5bf414c7e411b8c6b1c2c4bdccca9.html | 第六届康复科普创新作品评选通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_a40ba246b43142939c3c220fcbf336f9.html | 关于举办中国康复医学会2024全国科普日康复科普联合行动暨康复科普年会通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_e3918ae39cf34208ba6b3a6ff1ab7239.html | 科技赋能 谱写康复科普新华章——中国康复医学会2024全国科普日康复科普联合行动暨康复科普年会在上海成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_232b75202c26402b8e918f05f7d38fd5.html | 关于举办中国康复医学会2025年全国科技工作者日康复科普大会暨第二届温州康复大会的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_421da013917c4c6c90f42bfaf76958ea.html | 中国康复医学会关于组织开展首个全国科普月系列科普活动的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_42365b3b382d4c519de0b70e902ae301.html | 关于举办中国康复医学会2025年全国科技工作者日康复科普大会的通知（第二轮） | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_6379e3dbcb184b1c9976f717180171d1.html | 关于下达中国康复医学会2025年度科普比赛（竞赛）计划的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_6749b8d1e7de479b980616802f335757.html | 关于举办中国康复医学会2025全国科普月康复科普主场活动暨康复科普年会的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_768b05aec6644ddb802d326daa4d5c80.html | 康复赋能，助力健康素养提升 中国康复医学会2025全国科普月康复科普主场活动暨康复科普年会在上海圆满举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_7ef5e654b87c4ddfb8083d815ef5c78b.html | 中国康复医学会关于组织开展2025年“全国科技工作者日”“全国科技活动周”系列科普活动的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_9457d81f823a4077b4d771708ca15894.html | 关于认真学习贯彻新修订《中华人民共和国科学技术普及法》的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_9616c6a1e62641509caa6ae80482531b.html | 中国康复医学会在山西省岚县举办基层适宜康复技术培训班及系列公益活动 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_9e02d2351eef48b48b5205aea5b9838c.html | 中国康复医学会2025年全国科技工作者日康复科普大会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_d093e9025d914934878a58af08df1f23.html | 关于印发《中国康复医学会2025年科普工作要点》的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_d9361b6b4b2c4cbcb24b8fa49980ab55.html | 关于上报2026年康复科普比赛（竞赛）活动计划的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_e71b9f99d48d4eabbc8ae3f849796baf.html | 关于组织开展“世界吞咽日”中国康复医学会吞咽障碍康复专业委员会系列科普活动的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_f808cda714fb44849b7320ce23dadda7.html | “银龄科普护安康 暖冬行动送温情”山西临县定点帮扶康复服务暨主题党日活动圆满举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2026/art_226d800f81dd4ff8a9babc6ae588ae1b.html | 关于印发《中国康复医学会2026年科普工作要点》的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2026/art_28f6e6e05778415a80aba9cf49a5d443.html | 关于下达中国康复医学会2026年度科普比赛（竞赛）计划的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2026/art_3c10a7d03265413e97caece0bbacd028.html | “新春走基层科技志愿服务活动”在甘肃省临夏市圆满举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2026/art_4db8538d446349b29b3699818fdc5ff8.html | 中国康复医学会关于组织开展2026年全国科普月系列科普活动的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2026/art_5403047d73f14ccfaaf2e98e5332db40.html | 关于举办中国康复医学会2026全国科普月康复科普主场活动暨康复科普年会的通知（第二轮） | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2026/art_71f8a3bfa0a44d39ab601a27eae208d8.html | 关于举办中国康复医学会2026全国科普月康复科普主场活动暨康复科普年会的通知（第一轮） | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2026/art_89b41b5c5f7942388e7e7d422e6ede69.html | 关于公布中国康复医学会推荐参加2026全国优质科普作品征集活动入选作品名单的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2026/art_a575315755684f0e8a61d7cf702a0f27.html | 2026中国康复医学会心肺康复护理科普作品展示活动成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2026/art_b39725a494e54873a290beb68fb7dd81.html | 关于组织开展2026年全国科技活动周和全国科技工作者日科技志愿服务活动的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_f6566928201a43cf8fc84be98cca6c9c.html | 中国康复医学会在山西省临县成功举办基层康复基本技术培训班 | 标题预筛:通知/会务类
+https://www.carm.org.cn/xwzx/xhdt/art/2024/art_14e4bdf865974dd5b72480b698ba5bb5.html | 2024年全国科技工作者日康复科普大会暨中国康复医学会会员日主题活动成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/kpdt/art/2023/art_a877e78ac76749619c3528e9c2b820b8.html | 弘扬延安精神，奋楫科普征程——2023年中国康复医学会全国科技工作者日康复科普高峰论坛成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2023/art_22fa62ac9a4e4e83864640d743b0079d.html | 倒计时4天——中国康复医学会2023全国科普日康复科普联合行动暨第五届上海崇明健康康复大会即将开幕 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_0d47fa207b4b43e3b5419c6ab4748b54.html | 全国科普日|阿尔兹海默病科普及义诊走进三亚市落笔村委会 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_35667a1632ba4e44b0887fe31ea0a6b9.html | 全国科普日|青年工作委员会走进琼海市中原镇中心卫生院开展肌骨康复科普活动 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_423a863732984a9487abaf12ba51dac3.html | 全国科普日|推拿技术与康复专委会：义诊送健康，科普惠民生走进湖北襄阳 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_47f3ac06ea104b5ab92585237619ad98.html | 全国科普日|推拿技术与康复专委会走进北京第二外国语学院开展科普义诊活动 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_6b3a8837d2034886a8ba746aede8805f.html | 呵护健康，从“心”开始|脑机接口与康复专委会：心脏科普宣讲活动走进福州 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_991d57c95ca7464aa0e55214795549f4.html | 科普教育基地|“爱在人医 情暖桑榆”志愿服务活动走进河北沧州市海兴县南赵村 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2026/art_17f83a697d474561abeab81ef0d03755.html | 关于举办中国康复医学会2026全国科普月康复科普主场活动暨康复科普年会的通知（第二轮） | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2026/art_2ef5c79c06d44a0197fdf6aed367fd48.html | 中国康复医学会2025全国科普月康复科普主场活动暨康复科普年会在上海圆满举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2026/art_3430db09ca2944878a33f25693739acf.html | 关于举办中国康复医学会2025全国科普月康复科普主场活动暨康复科普年会的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2026/art_4a63e9c0a09049acb16f04610afde058.html | 中国康复医学会2026年全国科普月基层科普活动（新疆乌鲁木齐站）成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2026/art_69db0abb6dee4fe18e4973b7dc675b98.html | 关于举办中国康复医学会2026全国科普月康复科普主场活动暨康复科普年会的通知（第一轮） | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2026/art_7d989c76736f4bc4acb74d6ea04da59d.html | 中国康复医学会2026年全国科普月基层科普活动（新疆伊犁站）成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2026/art_8496a552722a45baa8c6d21d066f3fbd.html | 中国康复医学会2026年全国科普月基层科普活动（甘肃兰州站）成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2026/art_98b09441725f4668b132ab8aaee9807d.html | 中国康复医学会2026年全国科普月基层科普活动（陕西榆林站）成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2026/art_ce76b2e44f564ee39bd0a39ade0cfbfd.html | 中国康复医学会2026全国科普月康复科普主场活动暨康复科普年会在银川圆满举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/ttbz/art/2022/art_5eee66e75ff843c39d7f7d7173519551.html | 关于印发《中国康复医学会团体标准制定常规工作程序（试行）》的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/tzgg/art/2024/art_51b5c4de36c449dfbc89b4860fdc00b9.html | 深化会地合作|第二届黄石磁湖康复医学论坛成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_01eface19bef47968f92e37ed68fce1f.html | 中国康复医学会科技管理与评估工作委员会及康复机构管理专业委员会学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_044e67043e604e5f8d61a417f428fab4.html | 2024中国康复医学会脑功能检测与调控康复专业委员会学术年会暨第六届脑功能检测与调控康复论坛在厦门成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_0513f02c80ae468ea350b6112ae05604.html | 2024中国康复医学会智能康复专业委员会学术年会暨第三届智能康复学术与产业大会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_0514b9a873f446339c977b0ddbc5aaf6.html | 2024中国康复医学会远程康复专业委员会学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_093d2568fc81414aa7d12eb09c95191c.html | 2024中国康复医学会言语康复专业委员会第四届学术年会在上海成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_0d4a9463db57472a95f22c0b45ee7f22.html | 2024中国康复医学会“一带一路”西部康复医学论坛成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_11862e9437d945febd092c0962f6e380.html | 2024中国康复医学会疼痛康复专业委员会第五届学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_18b0d9c5705143378862c802ef39e3b7.html | 2024中国康复医学会居家康复专业委员会学术年会在青岛成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_22d1b7742199407485eace8365fb1d39.html | 2024中国康复医学会物理治疗专业委员会第五届学术年会在上海成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_2843fc318dbe437983ff97ddbdd201cb.html | 中国康复医学会言语康复专业委员会儿童言语康复治疗与研究论坛暨唇腭裂语音康复评估与治疗学习班成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_2847ca65c5fa4fd6af150f3b316c0fad.html | 中国康复医学会主办的《中国伤残医学》杂志第七届编委会换届会议在海口顺利召开 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_321580dd1fdf4df29a75742f7270c8fd.html | 2024中国康复医学会营养与康复专业委员会学术年会郑州成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_3374d13370b84bad897c1262f43021cd.html | 2024中国康复医学会健康管理专业委员会学术年会在武汉成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_34e6646ee903484c9aaac93a49362534.html | 中国康复医学会运动健康与产业发展专业委员会第二届学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_41e4db621bf043478c6277309dc66962.html | 2024中国康复医学会推拿技术与康复专业委员会学术年会暨“神经康复的中西医结合疗法及应用”培训班成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_439ddf611db24b54b2a271ee6473bbd8.html | 中国康复医学会脑机接口与康复专业委员会2024学术年会暨珠江康复论坛成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_4f580cd3a4d34405b9cc78b368e71260.html | 2024中国康复医学会作业治疗专业委员会学术年会暨2024作业治疗教育（国际）学术会议成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_58aa508b12ee4cee9cb15b3c9096b7e8.html | 中国康复医学会修复重建外科专业委员会第23次学术交流大会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_5a57b5ac35694295b699e537b02f0bed.html | 中国康复医学会颈椎病专业委员会2024颈椎病多学科学术论坛（江西站）成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_64e9f14423f54ca29864750f35f8538b.html | 2024中国康复医学会眩晕康复专业委员会学术年会在西安成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_6892ca5f3aef4da0acd87cf7b00b7a98.html | 中国康复医学会精神卫生康复专业委员会第六届学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_6909ddc7f38f4c928bd3bf7b5886c6e4.html | 2024中国康复医学会康复护理专业委员会学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_7081fbb0360e4a328364a1110bfcd2b8.html | 全面康复 开启未来——2024中国康复医学会粤港澳大湾区康复论坛成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_787da577240841bcac4fef641de37cb9.html | 中国康复医学会骨伤康复专业委员会第二届学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_78a1e835ddb545e9a5d892e92d00e702.html | 中国康复医学会肿瘤康复专业委员会第六届学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_7bc7323a1a174039833899fa6aa8bf26.html | 继往开来，砥砺奋进｜2024中国康复医学会皮肤病康复专业委员会第六届学术年会在武汉成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_7df8d1621ad740e48cb90479285e0967.html | 2024中国康复医学会神经康复专业委员会学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_7e51b78482d94fe59bb8dcb3bcf0e6cc.html | 2024中国康复医学会运动康复专业委员会学术年会在福建漳州成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_826aede7c6404593bc13b4f02dba76bb.html | 2024中国康复医学会老年康复专业委员会学术年会在上海成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_877d0ce523834ba28b7f4eec1abd680f.html | 2024中国康复医学会心肺康复护理专业委员会学术年会暨心肺康复护理新进展学习班成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_8c62876c3d914fb9af0185152911c646.html | 2024中国康复医学会工伤康复工作委员会学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_8fd2365a9225488198868b227be9e330.html | 2024年中国康复医学会骨与关节康复专业委员会学术年会在郑州成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_9538e2d3902f4b569b971d1b7f9e26b8.html | 2024中国康复医学会器官移植康复专业委员会学术年会在上海成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_9fd65a6529424f159693115166a83859.html | 2024中国康复医学会视觉康复专业委员会学术年会在日照成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_a4962507d04b493eaca6cf052e969156.html | 2024中国康复医学会疗养康复专业委员会第三十三次学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_aeaf001743ee4142a40f64dda24de544.html | 中国康复医学会光动力治疗与康复专业委员会第二届学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_b4a80f886cab449ba4145b56c8698acd.html | 2024中国康复医学会“一带一路”东部康复医学论坛暨海峡康复产业论坛成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_b4b9daac7d74401ab7310de1a0dc0593.html | 2024中国康复医学会骨质疏松预防与康复专业委员会学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_bc2a63e078ba4e40a3e66d704f6ca9f3.html | 中国康复医学会呼吸康复专业委员会第八届学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_c2f23f7f4bab41d1ab804b52370f1608.html | 2024中国康复医学会综合学术年会暨国际康复医疗产业博览会在厦门盛大开幕 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_c9e95b5b368d40aab966f20bcccca158.html | 中国康复医学会儿童康复护理专业委员会第二届学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_d10e38875ca1463bb670fed74fc64dda.html | 中国康复医学会康复辅具应用专业委员会第四届学术年会在广西北海成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_d159eb4367514a46a79207411bf2e6fb.html | 2024中国康复医学会综合学术年会暨国际康复医疗产业博览会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_daddbb5abd6c407fb36693e7c3fcc69c.html | 2024中国康复医学会中药学与康复专业委员会学术年会在南京成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_dd4dfafc5268498babc9daa9baf8a9eb.html | 2024中国康复医学会社区康复工作委员会学术年会在上海成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_e42d6a93d1c74a548542e49bb6b2da2d.html | 2024中国康复医学会儿童康复专业委员会学术年会在深圳成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_e752e833dd1b48df87bfc7350a4f4a0a.html | 中国康复医学会生殖健康专业委员会第六届学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_ebe5969dbab14ae7aab5aaac8e8739a5.html | 2024中国康复医学会康复治疗专业委员会学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_f00d7b765f61418bbaeab221d105251f.html | 2024中国康复医学会医学检验与康复专业委员会学术年会暨第三届疾病标志物检测技术与临床应用论坛在上海成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_043c9c4cbb71451aa4ca375eee0fd521.html | 2025中国康复医学会皮肤病康复专业委员会学术年会在上海成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_0a89e7200a224af19a70ef1f93ba00ed.html | 第二十七届中国科协年会——脑机接口与科技自强•智能创新与未来趋势专题论坛成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_1b57ded0b13943bb85375d92ba4857e6.html | 2025年中国康复医学会运动系统疾病康复互联网工作委员会学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_1fd3b1f1337b42848e329eb6549fa69d.html | 2025中国康复医学会康复评定专业委员会学术年会暨智能康复评定技术进展培训班在上海成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_205cf4c419e14f8c9d1e91322aedaba6.html | 融合创新 引领康复 2025中国康复医学会骨与关节康复专委会学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_235698390286445dba851a9e252f2e7d.html | 2025中国康复医学会骨伤康复专业委员会学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_3009d815667b483fa73de253123bd9b8.html | 《中国脊柱脊髓杂志》脊柱外科学术创新论坛成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_4a8b88a8d24544b6819ab5b90670050d.html | 第二十七届中国科协年会——构建慢病康复护理高质量发展体系专题论坛成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_4cefa27028ef4f9890bd90422a91dd10.html | 2025中国康复医学会心肺康复护理专业委员会学术年会暨心肺康复护理新进展培训班成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_6b5df2ab0ddb469da3d264de1d2a9aa0.html | 中国康复医学会主办的《中国脊柱脊髓杂志》第九届编委会换届会议在温州顺利召开 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_6c19c0ec4a24421a9e32c4c4c6a0ec3e.html | 中国康复医学会呼吸康复专业委员会第九届学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_6e6afc4893bf401a9849892525f510c9.html | 中国康复医学会多学科康复诊疗工作委员会第三届学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_ba143238ca854930bbe21ea7912c02b9.html | 2025中国康复医学会居家康复专业委员会学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_cecf2613c9d14c57a5cab9ae9a417a11.html | 2025中国康复医学会脑机接口与康复专业委员会学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_e0a432779a8e43a1acdbb8519fd9f78b.html | 第二十七届中国科协年会系列学术活动——脑机接口在康复领域的创新应用与战略探索专题论坛成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_ea8ed3a536ae452d8ecf4ac7781e5d6b.html | 中国康复医学会脊柱专业委员会第十六届脊柱脊髓学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_ece3f01067d74699b5a9a426760dac6c.html | 2025中国康复医学会口腔疾病预防与康复专业委员会学术年会在长沙成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_ed6f41fba7394d33ace6475fa94b1d4d.html | 第二十七届中国科协年会系列学术活动——脑机接口·智慧康复·健康未来专题论坛成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2026/art_27845889a813490da99374f3c797f295.html | 中国康复医学会社区康复工作委员会2026学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2026/art_4398dfc1c8234e84b7803c78e209d8fb.html | 中国康复医学会脑机接口与康复专业委员会2026学术年会成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2026/art_607279e0db5844cdad309126387ae031.html | 中国康复医学会成功举办第二十八届中国科协年会“衰老的机制和干预”专题论坛 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/xsdt/art/2026/art_a1c2e09796854b83a68161da1602dd85.html | 智汇潇湘谋发展，共护吞咽启新篇——中国康复医学会吞咽障碍康复专业委员会第八届学术年会在长沙成功举办 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/tzgg/art/2025/art_2c48806d3bc84422a214836b0e9409c9.html | 关于编纂《中国康复医学年鉴(2025卷)》征集信息的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/kyxs/zgkfyxnj/art/2025/art_0cdfbb509d194b5ca65136bcc5f754c6.html | 中国康复医学会关于组织编纂《中国康复医学年鉴（2025卷）》的通知 | 标题预筛:通知/会务类
+https://www.carm.org.cn/bzzd/qtfgzd/art/2014/art_b71a7939095244179c85848c6a3b7a15.html | 中国科协全国学会组织通则（试行） | 会议/活动报道(标记44次)
+https://www.carm.org.cn/bzzd/qtfgzd/art/2015/art_42c75567d8ec4fc3870f262354595f03.html | 中国科协关于贯彻落实中央群团工作部署加强和改进科协工作的意见 | 无康复临床内容关键词
+carm_c0b1be3071bb.txt | 中共中央组织部关于规范退（离）休领导干部在社会团体兼职问题的通知 | https://www.carm.org.cn/bzzd/qtfgzd/art/2015/art_c0b1be3071bb4d6cbe1c184f02dde6e3.html | 中国康复医学会 | 2015-05-13
+https://www.carm.org.cn/xwzx/tpxw/art/2026/art_33cd6b8c1fe4d4636ae34a4df99dd440.html | 中国康复医学会专家团队出席WFOT第37届理事大会及第19届世界作业治疗大会 | 会议/活动报道(标记21次)
+https://www.carm.org.cn/xwzx/xhdt/art/2026/art_e17c5ae90c254bccad2d3db3ecdb9740.html | 国家卫生健康委医院管理研究所与中国康复医学会研究落实“康复护理扩容提升工程” | 会议/活动报道(标记7次)
+carm_388906b07046.txt | 康复惠民西部行 助力社区居民健康 | https://www.carm.org.cn/hyzj/hyfc/art/2024/art_388906b070464d0f869a214d245e1544.html | 中国康复医学会 | 2024-05-13
+https://www.carm.org.cn/kpgy/kfhmxbx/art/2023/art_b1d3c59ebf544e2ba2a49c1003970249.html | 康复惠民西部行项目介绍 | 正文过短(202汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kfhmxbx/art/2024/art_6988ca4520594b9ebfbe059f86dd2bcd.html | 【康复惠民西部行】传承雷锋精神 关爱残疾儿童 | 会议/活动报道(标记4次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_0283e01c0348448abb7e87c40a9e52a5.html | 科普工作委员会|湖南省儿童医院团队赴衡阳助力儿童康复志愿服务活动 | 会议/活动报道(标记7次)
+carm_033ecc6c1ec5.txt | 科普工作委员会|科普知识进校园-脊柱侧弯筛查与预防活动顺利举行 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_033ecc6c1ec54f06a60efd166ad65e14.html | 中国康复医学会 | 2025-06-12
+carm_0656c40b1dc9.txt | 科普工作委员会|“认知健康与脑力训练”康复惠民敬老公益活动圆满举行 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_0656c40b1dc94314b20d286ef6b38af7.html | 中国康复医学会 | 2025-05-23
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_0c344aea545947ef9254edc538bce676.html | 元素大荟萃，科普不掉队——广西健康科普技能拓展营活动顺利举办 | 会议/活动报道(标记3次)
+carm_11372003ded2.txt | 弘扬雷锋精神，凝聚青春力量——滨州医学院特殊教育与康复学院开展“追梦桥”关爱特殊儿童志愿服务 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_11372003ded24ef5befe6f9f2a726eb6.html | 中国康复医学会 | 2025-03-25
+carm_13f1cdcf36a1.txt | 学雷锋科技志愿服务周|传承雷锋精神 践悟医者初心 ——上海健康医学院全生命周期康复科普基地开展“学雷锋”主题公益活动纪实 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_13f1cdcf36a14ff39ca7b728195703e1.html | 中国康复医学会 | 2025-03-15
+carm_1557d0f35afd.txt | 重症康复专委会|赴甘南县中医院开展科普讲座与诊疗活动 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_1557d0f35afd441e89af792938a48fa6.html | 中国康复医学会 | 2025-05-02
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_15e8ba7c16aa4715a08000bec3e09024.html | 科普工作委员会|白鸟湖医院中医康复科开展义诊活动 助力群众健康守护 | 会议/活动报道(标记6次)
+carm_18e750dc5680.txt | “心手相连，让爱无间”活动在江苏盐城顺利开展 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_18e750dc5680447da3107da6258d9e6a.html | 中国康复医学会 | 2025-04-21
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_19b6744ceff54fc9a558beab635e1a3d.html | 学雷锋科技志愿服务周|“学习雷锋精神，助力老人健康”宁波卫生职业技术学院在文华社区开展科普与义诊志愿服务活动 | 会议/活动报道(标记4次)
+carm_23bf2b44f641.txt | 哈医大四院儿童康复中心“接纳不同，理解不同”世界孤独症日活动顺利举行 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_23bf2b44f6414069aac13dd172442ad8.html | 中国康复医学会 | 2025-04-08
+carm_387707b47cf0.txt | 绿色康复，拥抱自然——济医附院儿童康复科植树节主题活动圆满结束 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_387707b47cf0423e9d46d0637426dd05.html | 中国康复医学会 | 2025-03-25
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_3d4251d453d84f159c830b2174a665f3.html | 生殖健康专委会共促生殖医学新发展：河南省妇幼生殖联盟汝南站活动圆满收官 | 会议/活动报道(标记3次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_3d510c82042a4f8180c70ef88d920212.html | 学雷锋科技志愿服务周|《健康生活方式对肿瘤疾病的影响》健康教育讲座在徐州市风华园党群服务中心举办 | 正文过短(392汉字,多为图片/视频页)
+carm_430caf5166f0.txt | 科普工作委员会|广西医科大学第一附属医院康复医学科开展2025年全国科技活动周志愿服务之科普进校园活动 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_430caf5166f04ef9b6f812b753bcdcd2.html | 中国康复医学会 | 2025-06-01
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_479f62818d5b44cebe53ef7f439c748e.html | 科学防治肥胖，健康你我同行——陕西中医药大学第二附属医院开展“世界防治肥胖日”专题义诊活动顺利举行 | 会议/活动报道(标记6次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_52b480d232f74249a590d25625be4953.html | 照亮星程，让爱不孤独 世界孤独症日宣传活动在深圳罗湖区东晓社区医院顺利举办 | 会议/活动报道(标记6次)
+carm_4c5549d00f28.txt | 重症康复专委会|赴宾县人民医院开展科普讲座与诊疗活动 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_4c5549d00f2841439270d6e8df401d7a.html | 中国康复医学会 | 2025-06-01
+carm_567559ac2ab6.txt | 科普工作委员会|童声舞影映童趣，艺术疗愈暖童心——济宁医学院附属医院儿童康复科“六一儿童节”活动纪实 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_567559ac2ab64796a19d88e7857b0e04.html | 中国康复医学会 | 2025-06-08
+carm_56b4141d204e.txt | 学雷锋科技志愿服务周|科学护颈从“头”开始健康大讲堂在上海市浦东医院顺利举行 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_56b4141d204e45dcad6e5f41e43a68df.html | 中国康复医学会 | 2025-03-20
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_56d0c95e673443b38c6d9bb0ccf1d7bc.html | “五一‘趣’运动 志愿‘益’起来 ”志愿服务在江西南昌铜锣湾广场顺利举行 | 会议/活动报道(标记3次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_58bc00c5612544b6ace9f35448a03c78.html | 科普工作委员会|抗阻联合平衡，肌强不跌倒-动之有方，随“肌”应变老年性肌少症居家康复锻炼系列科普顺利开展 | 正文过短(292汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_5a5c6994fb6a4c10a3ea2dfc33374b6f.html | 康复心理学专委会|长春市第六医院开展大学生心理健康日主题活动 | 会议/活动报道(标记4次)
+carm_5bd188310c46.txt | 上海新华医院康复医学科举办“星星市集，与爱同行” ——自闭症日融合关爱活动 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_5bd188310c464caa8225513d5c1b6f6c.html | 中国康复医学会 | 2025-04-17
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_5d8b11dbb57f43fca6f46ff513ecec74.html | 学雷锋科技志愿服务周|情暖三月学雷锋，健康义诊志愿行——同济大学附属养志康复医院开展学雷锋日义诊系列活动之花桥社区义诊圆满落幕 | 会议/活动报道(标记9次)
+carm_60b7b715a02f.txt | 学雷锋科技志愿服务周|践行雷锋精神守护儿童健康-广西医科大学第一附属医院康复医学科“学雷锋送健康”儿童免费评估公益活动圆满结束 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_60b7b715a02f4fb89d8feabad58a7bcf.html | 中国康复医学会 | 2025-03-20
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_64ca7c4d1cc24edeb484d0cd20871c2d.html | 学雷锋科技志愿服务周|足踝康复专委会：深圳市第二人民医院 南方科技大学医院专家团队赴连平开展"学雷锋送健康"义诊活动 | 会议/活动报道(标记12次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_679d985f9fb74b08a34bca7e90d0c4c3.html | 息县人民医院儿童医院举办世界孤独症日系列活动 | 会议/活动报道(标记9次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_705ca17b7b784b499de8a990a97d446e.html | 学雷锋科技志愿服务周|践行雷锋精神，守护社区健康 ——广西医科大学第二附属医院多科室联合开展学雷锋义诊活动 | 会议/活动报道(标记3次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_73c942b5938d4fdea50eabd340bc441b.html | 学雷锋科技志愿服务周|足踝康复专委会： 2025年雷锋月公益活动在广东东莞顺利举行 | 会议/活动报道(标记5次)
+carm_77c962ba89d5.txt | 唐宝筑梦活动在哈尔滨医科大学附属第四医院儿童康复中心顺利举行 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_77c962ba89d54b37a781693e879361a0.html | 中国康复医学会 | 2025-04-08
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_781bcb8a31ac47b4a5d5da45f7c181aa.html | 造梦童年，亲密相伴——青海省妇女儿童医院4月2日世界孤独症日主题活动顺利举办 | 会议/活动报道(标记3次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_7be8c08e39294f3bbf2567e433a65784.html | 传递医学力量，共筑健康未来 ——广西医科大学第二附属医院多学科联合开展学雷锋义诊活动 | 会议/活动报道(标记4次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_8301a8ccda2a40ea81668e67e4be6804.html | 惠民兴县|中国康复医学会儿童康复科技志愿服务秭归行顺利举行 | 会议/活动报道(标记3次)
+carm_830e279e896d.txt | 江苏医药职业学院助力2025盐城、宿迁马拉松赛后保障顺利开展 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_830e279e896d4d41946da1043fbadb81.html | 中国康复医学会 | 2025-04-08
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_83f0543ada11451ebabbd84a573829e0.html | 科普工作委员会|点亮童心，爱我请让我奔跑——哈医大四院儿童康复中心2025年六一儿童节大型公益活动 | 会议/活动报道(标记4次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_84730b8515db406898e41d8bc9a9d8c9.html | 科普工作委员会|“睛”彩小卫士·光明向未来——上海健康医学院附属崇明医院开展全国爱眼日主题活动 | 无康复临床内容关键词
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_858bf63ab0b4447790835e4d9a5505e8.html | 远程康复专委会|岐黄薪火传湟中 远程康复护健康——远程康复专委会联合湟中区中医院开展2025年“全国科技活动周”惠民西部行活动 | 会议/活动报道(标记4次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_86419c2d2a6e4f59a071b36c2474400d.html | 生殖健康专委会|共筑生殖医学新高度：河南省妇幼生殖联盟尉氏站活动圆满收官 | 会议/活动报道(标记3次)
+carm_8b2b1297d986.txt | 学雷锋科技志愿服务周|烧伤治疗与康复专委会：践行雷锋精神，筑牢“烧烫伤”防治健康屏障活动在南通市文峰社区顺利举行 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_8b2b1297d98647ae894302c4203e5de9.html | 中国康复医学会 | 2025-03-20
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_9972f92d035449d19f05f1d4bb634cf0.html | 孤独症主题日关爱行动“友情有义、点亮星光” 志愿者服务活动在江苏苏州圆满落幕 | 会议/活动报道(标记3次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_abe1eecaa4834ffeb4af05bdd59941f5.html | 科普工作委员会|“院园同育”守护儿童健康科技志愿服务活动在沈阳沈飞兰庭幼儿园举行 | 会议/活动报道(标记6次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_b6e8cefb623e4a2e80a6a37b6cb038c1.html | 足踝康复专委会|学雷锋见行动，湖南省康复医院情暖浏阳金源村 | 会议/活动报道(标记3次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_bc7c30a529934516b094ca05e9a68f4e.html | “惠民兴县”康复科技志愿服务在陕西宝鸡市千阳县顺利举行活动 | 正文过短(376汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_bf78fa9280b74913a77065fe52ba809e.html | 足踝康复专委会|医疗科普惠民西部行之西安站 | 会议/活动报道(标记6次)
+carm_c2a9ef48c491.txt | 科普工作委员会|快乐康复、梦想启航六一儿童节志愿服务在江西新余市举行 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_c2a9ef48c4914458911f511dba7d771d.html | 中国康复医学会 | 2025-06-07
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_c2b681b0492044e4ae2a84e93ecd2e1e.html | 科普工作委员会|健康守护进基层——赴旌德县人民医院开展“慢性疾病康复与急诊创伤”多学科联合义诊活动 | 会议/活动报道(标记6次)
+carm_c311f358a4ad.txt | 科普工作委员会|爱心市集活动在苏州桐泾公园举行 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_c311f358a4ad45dc93e9215d6ad4310b.html | 中国康复医学会 | 2025-06-07
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_cb21c9fcf3dc4cf1b7f4baf711edc3af.html | 学雷锋科技志愿服务周|“暖心三月学雷锋，惠民服务进社区”志愿服务活动于江苏盐城八菱小区顺利举行 | 会议/活动报道(标记3次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_cead68a15dff4676b2e095a709b6f026.html | 陕西省康复医学会|2025年 “科技之春”宣传月义诊活动——咸阳站 | 会议/活动报道(标记8次)
+carm_d4e1b2bd1311.txt | 科普工作委员会|“儿童健康嘉年华”护理科普活动在重庆医科大学附属儿童医院两江院区举办 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_d4e1b2bd131144dea80a4770e122313a.html | 中国康复医学会 | 2025-05-26
+carm_d8fd21728938.txt | 上海健康医学院康复学院开展“世界哮喘日”系列医学科普宣传活动 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_d8fd217289384c028d3349bbb33f7b59.html | 中国康复医学会 | 2025-05-23
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_dcafb6cbc6f842019028d58656f5f2e1.html | 孤独症家庭心理沙龙“星光绘未来” 志愿者服务活动在江苏苏州圆满落幕 | 会议/活动报道(标记3次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_e513a18820dd4ae29a8e7ce1c84a209f.html | 学雷锋科技志愿服务周|河南省儿童医院至洛阳市洛宁县社会福利院开展儿童发育评估及康复义诊活动 | 会议/活动报道(标记6次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_e5ea2382391a4a8cbc88d9c77658bb21.html | 学雷锋科技志愿服务周|深圳市罗湖区妇幼保健院于深圳天河城广场开展健康义诊活动 | 会议/活动报道(标记3次)
+carm_e6d61d7951a9.txt | 学雷锋科技志愿服务周|足踝康复专委会：“守护足踝健康，从‘足’开始”线上线下科普活动顺利举行 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_e6d61d7951a94c19a712d609a8c6fd20.html | 中国康复医学会 | 2025-03-15
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_e72266c41aea4321a825057e6d3b18b4.html | 学雷锋科技志愿服务周|赣南医科大学第一附属医院神经内科学雷锋践行动科普义诊进花园城 | 会议/活动报道(标记6次)
+carm_e7911e82df7c.txt | 科普工作委员会|“童星闪耀心向党，欢歌笑语庆六一” —融合教育特别活动温馨回顾 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_e7911e82df7c47d981e2de250defcc9f.html | 中国康复医学会 | 2025-06-08
+carm_e83bd27ef537.txt | 科普工作委员会|深圳市龙岗区妇幼保健院举行注意缺陷多动障碍、 学习困难康复知识科普教育宣讲活动 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_e83bd27ef53749c481031e6c628ad821.html | 中国康复医学会 | 2025-06-12
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_eb94b30001be4e9aa6e5cbf1253a1c14.html | 科普工作委员会|点亮家乡健康之路—康复专家赴咸阳市永寿县开展志愿服务 | 会议/活动报道(标记4次)
+carm_ec44136acadf.txt | 学雷锋科技志愿服务周|海口市人民医院康复医学科赴海港社区开展轮椅及辅具志愿活动 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_ec44136acadf45b5a792d7fcc43e2266.html | 中国康复医学会 | 2025-03-19
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_eeb90c18d8d849b48b50151fd230d503.html | 科普工作委员会|肿瘤日义诊：点亮社区健康 “灯塔” | 会议/活动报道(标记5次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_f1f1a91ef25244b6930b6f099c726555.html | 学雷锋科技志愿服务周|器官移植康复专委会：“学雷锋 我行动”社区居民健康义诊在山西太原顺利举行 | 会议/活动报道(标记7次)
+carm_f4c848e6afd4.txt | 科普工作委员会|医心护幼，健康同行-沈阳市儿童医院与辽宁省政府幼儿园家长科普活动顺利举行 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_f4c848e6afd44325ba3a14a5d9b03fcf.html | 中国康复医学会 | 2025-05-02
+carm_f58206b35908.txt | 科普工作委员会|劳有所获，快乐成长——哈尔滨医科大学附属第四医院儿童康复中心“五一”主题活动圆满落幕 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_f58206b35908462db08d74ab3488217b.html | 中国康复医学会 | 2025-05-02
+carm_f8b567e424cf.txt | 科普工作委员会|学龄前儿童心理健康知识讲座 走进罗湖区鹿鸣园及木棉岭第二幼儿园 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_f8b567e424cf444b8226a8accd3728a5.html | 中国康复医学会 | 2025-05-23
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_fe3c3dc6140f4b56afd3e4ce642cbbb4.html | 康复义诊志愿行—大理站完美落幕 | 会议/活动报道(标记9次)
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_fe61a18eacb34b78bde4cfe7a95a563b.html | 学雷锋科技志愿服务周|南昌大学附属康复医院开展“五维四进”系列科技志愿服务 | 会议/活动报道(标记3次)
+https://www.carm.org.cn/kpgy/kpdshdtz/art/2024/art_4ed46dc3a3e1417c9bd0eb88c72df7a9.html | 关于举办中国康复医学会医学检验与康复专委会2024年康复检验科普知识大赛作品征集的通知 | 会议/活动报道(标记8次)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_0b85e6d0026d4d17ab5cd7597fa48dcb.html | 云科普大讲堂|5月30日精彩预告 | 正文过短(39汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_1c53f92160e74406a60697d4a66b6a68.html | 云科普大讲堂|5月22日精彩预告 | 正文过短(46汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_1f843ba139b949f586a20149063ef1f7.html | 云科普大讲堂|5月31日精彩预告 | 正文过短(46汉字,多为图片/视频页)
+carm_24781028a1f0.txt | 【2024对话康复】意识障碍的评定与治疗！深度解读康复治疗重点及综合管理，6月13日19：30敬请关注 | https://www.carm.org.cn/kpgy/kpdt/art/2024/art_24781028a1f043bd97d02c361aa54942.html | 中国康复医学会 | 2024-06-12
+carm_285c3665ce57.txt | 【2024年对话康复】认知障碍的防治策略和康复方案，2月22日晚19：30，敬请关注 | https://www.carm.org.cn/kpgy/kpdt/art/2024/art_285c3665ce57465d921abef18f11221f.html | 中国康复医学会 | 2024-02-21
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_291ffb5f9b0041be897da7a9b5b0006c.html | 【2024对话康复】健康科普助力中国康养事业！大咖深度解读康养一体化发展内涵,5月30日19：30敬请关注 | 正文过短(397汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_2fad568f5f4e4b4ba68798b27c841a8d.html | 儿童外伤性白内障的相关问题！治疗及康复要点总结 | 正文过短(254汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_31ed6a27ea874eac9c6b4f9209a487c5.html | 云科普大讲堂|5月24日精彩预告 | 正文过短(46汉字,多为图片/视频页)
+carm_32384252789f.txt | 关于进一步加强规范康复科普比（竞）赛管理工作的通知 | https://www.carm.org.cn/kpgy/kpdt/art/2024/art_32384252789f482abe75ae9d7b812b84.html | 中国康复医学会 | 2024-02-08
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_3a5c15a6129e447cbc85a54dcabdd126.html | 【2024对话康复】青少年特发性脊柱侧弯的预防与康复，4月25日19：30敬请关注 | 正文过短(387汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_406776e7fd7f47c4b9cb5e1bb64a6212.html | 【3月12日19：30直播】专业解读慢性肾脏病患者的康复策略！多管齐下保护肾脏健康！ | 正文过短(399汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_43c3ae6824004f5b85d17756e7abd574.html | 喜报|祝贺中国康复医学会科普号“康复科普”荣获科普号典型代表 | 正文过短(352汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_4ac347d35dcc4d8186c0a71913b91132.html | 【2024对话康复】脑性瘫痪手术康复一体化模式的应用与推广，5月9日19：30敬请关注 | 正文过短(399汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_694912fcddf345aab270e1f812fe50a7.html | 【2024对话康复】老年性尿失禁的原因及临床防治策略，7月25日19：30敬请关注 | 正文过短(394汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_6ec3aef85aa340789db039b9e9b69d0d.html | 云科普大讲堂|5月25日精彩预告 | 正文过短(46汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_77d6d2f67214402a830117e356e59375.html | 云科普大讲堂|5月29日精彩预告 | 正文过短(46汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_83372e5ccdf64859a35d1c87188be214.html | 【2024年对话康复】辅助生殖技术研究进展及趋势解析！3月7日晚19：30，敬请关注 | 正文过短(293汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_8ad13e11ec2c470da90120083e727b89.html | 云科普大讲堂|5月27日精彩预告 | 正文过短(46汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_98a78ba3e54149fea0a4d53d47ec9196.html | 云科普大讲堂|5月26日精彩预告 | 正文过短(321汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_9ab1e2d16d36498a8e81050bfe5e581f.html | 云科普大讲堂|5月20日精彩预告 | 正文过短(39汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_a1befe55f79c4f6dbe204a29e7038281.html | 【2024年对话康复】老年脑血管病康复策略解读！专家面对面分享！2月1日晚19：30，敬请关注 | 正文过短(399汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_ada5955941c6416491043f6c8902f071.html | 云科普大讲堂|5月21日精彩预告 | 正文过短(46汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_affea10020954853b2751c89b6e45af3.html | 【2024年对话康复】光动力疗法在痤疮康复中的临床应用！1月18日晚19：30，敬请关注 | 正文过短(373汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_bd5a777fe49e4cb591a05504d0e80bf7.html | 云科普大讲堂|6月2日精彩预告 | 正文过短(39汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_d1711ec7b2f746d48faca7a2ae228849.html | 云科普大讲堂|5月23日精彩预告 | 正文过短(46汉字,多为图片/视频页)
+carm_d6f9c28bccf4.txt | 【2024对话康复】儿童语言发育迟缓的病因与康复训练对策，4月11日19：30敬请关注 | https://www.carm.org.cn/kpgy/kpdt/art/2024/art_d6f9c28bccf44a62ae4fb68fd0031b97.html | 中国康复医学会 | 2024-04-10
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_de95329d549a46d6bf7bf9e1f9cd565a.html | 【2024对话康复】社会康复的内容、流程及评估，大咖面对面解读！3月21日19：30敬请关注 | 正文过短(399汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_f90d028acb3e46c5b1fce8568f1f5db1.html | 云科普大讲堂|5月28日精彩预告 | 正文过短(46汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_fb60c2e469fd427fa05b1fa433ff6fea.html | 云科普大讲堂|6月1日精彩预告 | 正文过短(46汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_63ef279b995e493792bbf4b97d3fe4d5.html | 健康护航助力乡村振兴•中国康复医学会在山西临县、岚县开展义诊带教、疑难病例会诊康复服务活动 | 会议/活动报道(标记14次)
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_add8faabf9c541539548a648b9393521.html | “筑梦童康・科普同行”中国康复医学会儿童康复护理专委会第二届科普大赛圆满落幕 | 会议/活动报道(标记24次)
+https://www.carm.org.cn/kpgy/kpdt/art/2025/art_ff847079355642e08a798a94b13e8e5c.html | 中国康复医学会在山西临县举办基层适宜康复技术培训及科普活动 | 会议/活动报道(标记8次)
+carm_9743f852e846.txt | 中国科协办公厅关于印发《科技工作者科普创作指南》的通知 | https://www.carm.org.cn/kpgy/kpdt/art/2026/art_9743f852e8464d0ab7509df2d524ebdf.html | 中国康复医学会 | 2026-04-28
+carm_dacf9d7483df.txt | 科普|警惕儿童听力潜在危险--分泌性中耳炎 | https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_dacf9d7483df4de7b6ca0b0103ab1986.html | 中国康复医学会 | 2025-03-25
+carm_0705ed1f7797.txt | 轮椅上的自由：脊髓损伤患者的轮椅选择 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_0705ed1f779746d799b6c01e5ea9a31f.html | 中国康复医学会 | 2024-10-30
+https://www.carm.org.cn/kpgy/kpxc/art/2024/art_0bc4eee1bbc5420abe5011b44fd6f2a7.html | 一图读懂|守护女性健康 宫颈癌防治全攻略 | 正文过短(18汉字,多为图片/视频页)
+carm_1801fe7d68b7.txt | 脑卒中后睡眠障碍患者的康复护理指导 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_1801fe7d68b7496e9ab830f7a530009f.html | 中国康复医学会 | 2024-12-21
+carm_1dcc0f3e6ac9.txt | 康复个案管理团队的“陪伴式”照护 ， 让瘫痪患者摆脱困境独立行走！ | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_1dcc0f3e6ac94bb3ace1db557f41d64c.html | 中国康复医学会 | 2024-11-30
+carm_262ee28650b1.txt | 科学运动——糖友的“良药” | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_262ee28650b14b6ca27196c15bd56add.html | 中国康复医学会 | 2024-11-07
+https://www.carm.org.cn/kpgy/kpxc/art/2024/art_27e94f4f6a714788ba413e544f231ade.html | 科普视频|糖尿病为何伤“心”于无声 | 正文过短(82汉字,多为图片/视频页)
+carm_353651f46e03.txt | 科普文章|守护呼吸，从了解慢阻肺开始 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_353651f46e034fcab63cb7f1cc8a0a5b.html | 中国康复医学会 | 2024-12-07
+carm_495cbb204a58.txt | 科普文章|“手” 护健康欢乐多——摆脱鼠标手 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_495cbb204a58495fb0ac87b13412d019.html | 中国康复医学会 | 2024-12-29
+carm_52ffaa8e8179.txt | 科普文章|控糖饮食“锦囊”——“大雪”时节益肾壮阳，温中暖下，晨饮姜茶暖暖身 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_52ffaa8e8179448f870f2ce099880953.html | 中国康复医学会 | 2024-12-29
+carm_536f79121b63.txt | 11·14联合国糖尿病日|科学运动治糖，共享幸福生活 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_536f79121b63434d95964e32edf53ae2.html | 中国康复医学会 | 2024-11-30
+https://www.carm.org.cn/kpgy/kpxc/art/2024/art_5e05ec5caa9d434a80eca88e13449538.html | 科普视频|患肢的独白—良肢位摆放之旅 | 正文过短(59汉字,多为图片/视频页)
+carm_6917949a60e1.txt | 科普文章|喝水呛咳？吞咽障碍的可能原因（二） | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_6917949a60e140268c309c13042132b9.html | 中国康复医学会 | 2024-12-30
+carm_6bb896b97add.txt | 科普文章|产后康复之运动指南：活力妈妈养成记 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_6bb896b97add4e5a94f59281dba559b9.html | 中国康复医学会 | 2024-12-30
+carm_7bf72bdb6997.txt | 科普文章|了解X型腿~ | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_7bf72bdb699744939c2efe19e52ef96d.html | 中国康复医学会 | 2024-12-28
+carm_808269efc68a.txt | 科普文章|学会这些，一“马”当先，不伤膝！ | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_808269efc68a46f3a85017c152b8b98c.html | 中国康复医学会 | 2024-12-21
+carm_892916d2cd20.txt | 10·8全国高血压日|高血压患者的运动秘籍 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_892916d2cd20466088d33bee4412e8ed.html | 中国康复医学会 | 2024-10-15
+carm_a0f17c6b37e6.txt | 科普文章|喝水呛咳？吞咽障碍的可能原因 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_a0f17c6b37e64d6f87f11d31836114e4.html | 中国康复医学会 | 2024-11-30
+carm_a81ee571cd2f.txt | 科普视频|什么是足底筋膜炎 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_a81ee571cd2f4ce7aa793524eed897e4.html | 中国康复医学会 | 2024-12-21
+https://www.carm.org.cn/kpgy/kpxc/art/2024/art_c67c31bc511a4a638e092663cb16fb50.html | 科普视频|什么疾病可以到康复科就诊？ | 正文过短(285汉字,多为图片/视频页)
+carm_d3ba29bc5d41.txt | 健康科普|血常规----小检查，大作用 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_d3ba29bc5d41419d95244dd59293ea54.html | 中国康复医学会 | 2024-10-22
+carm_d6ee41bf01ff.txt | 科普文章|睡眠障碍不要慌 康复能够帮大忙 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_d6ee41bf01ff428483b5ff3d51a8c706.html | 中国康复医学会 | 2024-12-29
+carm_d922d5209200.txt | 12·12世界吞咽日|认识吞咽障碍，让您畅所欲“咽” | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_d922d52092004bacbf960f4ed6f24855.html | 中国康复医学会 | 2024-12-31
+https://www.carm.org.cn/kpgy/kpxc/art/2024/art_de807c7a63fb400799bda28645c69197.html | 一图读懂|孩子过敏性鼻炎发作，怎么办？ | 正文过短(16汉字,多为图片/视频页)
+carm_e8a59ab2e7a8.txt | 科普文章|我们是怎么吃进食物的？一块食团的冒险旅程：吞咽的分期 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_e8a59ab2e7a845cf9ca70606fdaccf06.html | 中国康复医学会 | 2024-11-30
+https://www.carm.org.cn/kpgy/kpxc/art/2024/art_edd7fc0f3e8448b38325fa987396a99d.html | 一图读懂|“胖”孩子也会出现营养不良？这些信号需要注意 | 正文过短(23汉字,多为图片/视频页)
+carm_f10081a7b8ca.txt | 10·8全国高血压日|守护心脉，乐享压力平衡日 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_f10081a7b8ca40b4a3f02322d3c65b42.html | 中国康复医学会 | 2024-10-16
+carm_f15bfefe4985.txt | 科普文章|膝前交叉韧带重建术人工韧带（LARS）与自体肌腱的不同 | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_f15bfefe49854290996fd1583ed1ae84.html | 中国康复医学会 | 2024-11-30
+https://www.carm.org.cn/kpgy/kpxc/art/2024/art_f603cef08a80450397b8e29fc9f0a82c.html | 科普视频|颈椎不适，上肢麻木可别忽略“斜角肌”! | 正文过短(80汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpxc/art/2024/art_fb1d7a24ae07493dbd0b0af7ab8002f1.html | 一图读懂|你的睡眠正常吗?失眠障碍全解析 | 正文过短(18汉字,多为图片/视频页)
+carm_fe0e714f2be7.txt | 10·8全国高血压日|高血压治疗的这些“雷区”，您踩到了吗？ | https://www.carm.org.cn/kpgy/kpxc/art/2024/art_fe0e714f2be740c48a5513309c8823f6.html | 中国康复医学会 | 2024-10-15
+carm_056e10dd65f9.txt | 科普|吞咽功能障碍老年人如何安全进食， 这5点建议要牢记 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_056e10dd65f94244aeaefe7c288c04bf.html | 中国康复医学会 | 2025-01-09
+carm_09ee13b3a4e1.txt | 科普|带你了解脑出血及康复 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_09ee13b3a4e14b70a4650fffb093f72f.html | 中国康复医学会 | 2025-01-23
+carm_0de2fbeecd3e.txt | 高血压科普宣教 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_0de2fbeecd3e4ca8a4dd928c99494695.html | 中国康复医学会 | 2025-01-09
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_177fcbcec3c24fb9990414951acdce0e.html | 科普视频|吞咽障碍训练方法 | 正文过短(167汉字,多为图片/视频页)
+carm_29ad8b431ffa.txt | 科普|此“作业”非彼“作业”， 让我们一起揭开“作业治疗”的神秘面纱！ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_29ad8b431ffa49b4b98709ba4f76343f.html | 中国康复医学会 | 2025-06-12
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_2a41ca92bfcf4402a18f7cf4a14c8db2.html | 科普|动之有方，随“肌”应变：平衡运动防跌倒 | 正文过短(17汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_2aece6261a4d4d49ba9341aaa45b9daa.html | 科普视频|吞咽障碍科普 | 正文过短(69汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_2fa3ab1bf70d42a59f302ca23c0a4953.html | 科普|紫外线治疗带状疱疹 | 正文过短(83汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_342590047448410780c11bed74be19e0.html | 科普|迎新春辞旧岁，谨防这些“春节病” | 正文过短(82汉字,多为图片/视频页)
+carm_3a007fdd2e45.txt | 科普|感冒后声音持续嘶哑的康复之道 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_3a007fdd2e454a39b70a9d9efc0436d9.html | 中国康复医学会 | 2025-03-26
+carm_3c774bd12977.txt | 下肢骨折术后早期只能卧床吗？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_3c774bd129774d44b998060a0c939a84.html | 中国康复医学会 | 2025-02-11
+carm_3d0e0dfafe46.txt | 科普|体外冲击波——肌骨疾病的治疗“神器 ” | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_3d0e0dfafe46444db220090ab1322f3d.html | 中国康复医学会 | 2025-01-23
+carm_4189525722bf.txt | 科普|吞咽障碍在口腔期有什么表现？（下期） | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_4189525722bf4b40ba7e8ac616453370.html | 中国康复医学会 | 2025-01-23
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_441bbc1092124c34a16d7c2aff7f8dce.html | 科普|生命护航 爱与营养同行 | 正文过短(74汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_6033c86972bd401da892adfda28e963e.html | 科普视频|运动健康天天学---你身体里的“智能教练”自主神经系统 | 正文过短(87汉字,多为图片/视频页)
+carm_61d1ccb5356f.txt | 科普|一块胶布的“魔法”，肌内效贴如何帮肌肉减负？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_61d1ccb5356f4b86aeadb5aff403b03e.html | 中国康复医学会 | 2025-05-14
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_626af785d425446eaf67b20eb3694127.html | 科普视频|胰腺手术后，如何快速恢复？胰腺外科医生的康复秘籍 | 正文过短(88汉字,多为图片/视频页)
+carm_63dcfcfb128a.txt | 科普|黑色素瘤的早期症状知多少 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_63dcfcfb128a4f5d84e821bdf2729075.html | 中国康复医学会 | 2025-02-19
+carm_66507f9c02f0.txt | 科普文章|不可“轻视”的慢阻肺， 日常康复管理应该如何做？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_66507f9c02f04da788e8cf906ce6face.html | 中国康复医学会 | 2025-01-03
+carm_67a6e1bd3c81.txt | 科普|等速肌力训练处方如何定制？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_67a6e1bd3c814d2dbcd8985c0bca4a11.html | 中国康复医学会 | 2025-02-26
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_68044bc216ec4fb2a030e095c698f49e.html | 科普|动之有方，随“肌”应变：有氧运动主健体 | 正文过短(17汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_68c7510815e743628112b3475605be4a.html | 科普视频|髋关节保卫战，蛙氏支具来帮忙 | 正文过短(84汉字,多为图片/视频页)
+carm_71b76f0ba042.txt | 科普|糖尿病与老年认知健康：守护记忆的关键防线 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_71b76f0ba0424737820474ffb033b2c1.html | 中国康复医学会 | 2025-03-26
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_75f4dd3a987f4d7780875c035dc11234.html | 科普视频|七招助你改善骶髂关节痛 | 正文过短(321汉字,多为图片/视频页)
+carm_7e571b79b69d.txt | 科普|如何正确通过鼻饲管喂药？了解这些要点，药效更好！ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_7e571b79b69d40c6abd4233570e6ac18.html | 中国康复医学会 | 2025-04-17
+carm_7f49b2c703eb.txt | 科普|针对性运动处方！让“又胖又瘦”的 老年人减肥增肌助健康！ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_7f49b2c703eb442187f6a5f12342984e.html | 中国康复医学会 | 2025-05-14
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_7fb159339d40431b95639f5fea62f3c9.html | 科普|肩周炎和肩袖损伤的区分 | 正文过短(397汉字,多为图片/视频页)
+carm_7fdb005b49e7.txt | 科普|甲流来袭，如何科学应对，这份防护指南请收好~ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_7fdb005b49e74d71a90c02f39c335997.html | 中国康复医学会 | 2025-02-09
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_85063ade473344858fc2dea38b613a6c.html | 一图读懂|难“咽”之隐 | 正文过短(8汉字,多为图片/视频页)
+carm_857932d6f6b2.txt | 科普|急性腰椎间盘突出症康复 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_857932d6f6b24538b60a1ddcd3a90d4c.html | 中国康复医学会 | 2025-01-23
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_8cf52e6234b84c5994c787121cbd2e63.html | 一图读懂|寻常痤疮——青春期的标志还是健康的警示？ | 正文过短(21汉字,多为图片/视频页)
+carm_8e7cff051e97.txt | 科普辟谣|“超级防癌食物”真的存在吗？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_8e7cff051e974fbda133a20f2b822946.html | 中国康复医学会 | 2025-04-17
+carm_915b78b5e0fd.txt | 一项医患共同制定的康复治疗计划， 助力脑出血患者重获自理能力 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_915b78b5e0fd4c9caf9764dc5625f9bd.html | 中国康复医学会 | 2025-01-08
+carm_948569e0babc.txt | 科普|稳如泰山健步行 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_948569e0babc4389a35d49b9c3a68b65.html | 中国康复医学会 | 2025-02-09
+carm_949d20b084d7.txt | 4·2世界孤独症关注日|“内向”≠“自闭症”，别再说我“自闭了” | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_949d20b084d74766bab22d32c0b2c9f1.html | 中国康复医学会 | 2025-04-10
+carm_94c0cb22dbdb.txt | 科普|手指康复操--延缓认知障碍的健脑秘籍 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_94c0cb22dbdb4115a5a16f4ae0fef805.html | 中国康复医学会 | 2025-04-17
+carm_976ac653e7c9.txt | 睡眠健康，优先之选，解锁睡眠奇妙的密码 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_976ac653e7c943fa8778e685dfb8c56e.html | 中国康复医学会 | 2025-03-26
+carm_98db7a74031e.txt | 科普|医学冲击波治疗——无创疗法的新篇章 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_98db7a74031e4e198e483139857af3c1.html | 中国康复医学会 | 2025-04-10
+carm_99109ccb1ee0.txt | 科普|成人人工耳蜗术后发音不清怎么办？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_99109ccb1ee048b7b9c4479e30d38b9e.html | 中国康复医学会 | 2025-03-26
+carm_999d85f010c1.txt | 科普文章|吞咽障碍在口腔期有什么表现？（上期） | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_999d85f010c146fdbc9dfb566d10d23a.html | 中国康复医学会 | 2025-01-08
+carm_a39fac58bf8b.txt | 科普|点色素痣能预防黑色素瘤吗？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_a39fac58bf8b4526971400318265c655.html | 中国康复医学会 | 2025-02-09
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_a64b1dbea5ed4c8a892c85f7b5937ef3.html | 科普|动之有方，随“肌”应变：肌少症的筛查与评估 | 正文过短(19汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_a84e1db60c894e138e01bd9b2e97b491.html | 科普视频|运动健康天天学第1期 | 正文过短(84汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_aa21b88d0dbe41fc9ab837d39763520e.html | 科普|“卒”不及防迎“风”来 | 正文过短(71汉字,多为图片/视频页)
+carm_aadbac82076a.txt | 科普视频|六招运动康复助你远离肩背痛 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_aadbac82076a4e81b348c8c5c34167fa.html | 中国康复医学会 | 2025-06-01
+carm_ad9ad7c3c6d3.txt | 全国爱耳日科普|老年人头晕都是脑梗吗？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_ad9ad7c3c6d34b81af9af51f79b535ef.html | 中国康复医学会 | 2025-02-26
+carm_aee13275b3cc.txt | 科普|重获新“声”——术后声带麻痹康复之路 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_aee13275b3cc478c977d563f97482e11.html | 中国康复医学会 | 2025-03-25
+carm_b9e812b79541.txt | 科普|康复“明星”——等速技术，为您的康复精准护航 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_b9e812b795414ebba3a7c136f7f97bc5.html | 中国康复医学会 | 2025-02-26
+carm_ba50655d49bd.txt | 科学前沿|运动健康与产业发展专委会回顾2024年度我国运动与糖脂代谢领域关键突破与重要成就 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_ba50655d49bd47cc968d88050e696495.html | 中国康复医学会 | 2025-01-23
+carm_b57351def874.txt | 科普|我不是调皮捣蛋---带你认识儿童多动症 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_b57351def874429da6c7f5b2db5d1259.html | 中国康复医学会 | 2025-01-10
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_bbb59258575245d3b31d67e671eb5a03.html | 科普视频|预“颈”信号，你中招了吗？ | 正文过短(13汉字,多为图片/视频页)
+carm_be57d02f8ead.txt | 科普|流涎症的康复之路： 从“口水横流”到“滴水不漏” | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_be57d02f8ead4813a9c6a2ea686a3858.html | 中国康复医学会 | 2025-03-06
+carm_c021ae402b70.txt | 科普|漫“话”腱鞘囊肿 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_c021ae402b704f0988f2fe96c35e1444.html | 中国康复医学会 | 2025-02-26
+carm_ce904c2b0a62.txt | 全国爱耳日科普|分泌性中耳炎与新生儿听力筛查 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_ce904c2b0a6246a6828a763dba02de18.html | 中国康复医学会 | 2025-02-26
+carm_cf2b4f3e0a40.txt | 科普|老年人闯关“冬”，做个健康“不倒翁” | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_cf2b4f3e0a4049c588ac1487245946e4.html | 中国康复医学会 | 2025-01-23
+carm_d281cc8649cc.txt | 科普文章|“小早产” 大挑战，早产宝宝的 “吃奶大作战” | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_d281cc8649cc44b28b8d0b48ee043c3b.html | 中国康复医学会 | 2025-01-08
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_d542290594b74982b3e5935976c8c06f.html | 科普|珍”膝“当下，把握未来 | 正文过短(10汉字,多为图片/视频页)
+carm_dfcb2fa243d8.txt | 科普|Pilon骨折术后的康复攻略，请查收！ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_dfcb2fa243d8453fbaeb1fc23a6d11a4.html | 中国康复医学会 | 2025-06-12
+carm_e4bf407c7119.txt | 科普|警惕肺癌的危险信号 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_e4bf407c711949e9868608ba6e1e2c1b.html | 中国康复医学会 | 2025-03-26
+carm_e5947c5ae5b1.txt | 科普|“颈”上添花，“托”住健康 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_e5947c5ae5b14039b2c8f106fa26fa25.html | 中国康复医学会 | 2025-02-09
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_e733538219f249abbce8cecb7533556c.html | 科普视频|认识吞咽障碍，解决难“咽”之隐 | 正文过短(109汉字,多为图片/视频页)
+carm_e80bb9ff7332.txt | 科普|等速肌力测试报告里的“密码”如何解读？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_e80bb9ff73324e6e980258fa463d623a.html | 中国康复医学会 | 2025-02-26
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_e9f264b35bab4d96bd60364375558c58.html | 科普视频|正念训练与岛叶-解锁情绪调节的秘密 | 正文过短(20汉字,多为图片/视频页)
+carm_ed76ec49c3d9.txt | 科普|揉腹预防便秘，你做对了吗？ | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_ed76ec49c3d9427e9d4eb2229d3931da.html | 中国康复医学会 | 2025-01-23
+carm_f7a87edb2c81.txt | 科普|癌性疲劳怎么缓解？“运动处方”或是良方 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_f7a87edb2c8146daa83eef43a2f73b06.html | 中国康复医学会 | 2025-04-29
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_fac2a17ca1224edd9d8487300d65d74d.html | 科普|动之有方，随“肌”应变：肌少症患者如何高效增肌 | 正文过短(21汉字,多为图片/视频页)
+carm_faf264a77d5b.txt | 科普|经颅磁刺激技术，助您拥抱 甜美梦境，重启生命活力 | https://www.carm.org.cn/kpgy/kpxc/art/2025/art_faf264a77d5b47cfa9bc28abad6f1a01.html | 中国康复医学会 | 2025-03-26
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_fd2d3f4a6da84761b93a534887780d8e.html | 科普视频|吞咽障碍训练方法 | 正文过短(73汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/qgkjgzzrxlhd/art/2024/art_d00f8af77ea44d0ca42469261463e9fb.html | 中国康复医学会多个分支机构联动，全国各地开展科技志愿服务活动 | 会议/活动报道(标记8次)
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2023/art_ba94dee3b55b4ec7a51ce713e9782029.html | 康复赋能 科普惠民 | 中国康复医学会2023年全国科普日主场活动在上海正式启动 | 会议/活动报道(标记16次)
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_01c4edc370ef48a7a178df38bedea354.html | 全国科普日|血液病康复专委会：“爱不留白，愈见新生”，血液科急性白血病患者关爱活动 | 会议/活动报道(标记5次)
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_08a2f87ec90b48d0b0706eb27e6257ee.html | 全国科普日|物理治疗专委会：神经肌骨康复惠民广西行在北海顺利举行 | 会议/活动报道(标记9次)
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_2099a7d3f1b3495d995a0e1897448450.html | 全国科普日|红色老区寻乌残疾预防科普宣教活动 | 会议/活动报道(标记7次)
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_21c3da2f4ae84ec391c42ea1dbaa4ad6.html | 全国科普日|足踝康复专委会——足踝健康进校园门头沟筛查回头看 | 会议/活动报道(标记4次)
+carm_2dbbb1291ba2.txt | 全国科普日|关注膀胱管理，让生活更轻松 | https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_2dbbb1291ba2404ab80bb3e915d261bf.html | 中国康复医学会 | 2024-09-15
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_3b8b6c55ec4042a28031f8f52b71aaec.html | 全国科普日|标准工作委员会-科普点亮生活，义诊传递健康系列科普活动在安徽合肥顺利举行 | 会议/活动报道(标记11次)
+carm_533f6bed2fa9.txt | 全国科普日|康复科普活动之健康生活方式-科学减盐 | https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_533f6bed2fa94c1097d78db5b8db106f.html | 中国康复医学会 | 2024-09-14
+carm_591aa2c07001.txt | 远程康复专委会|中西康复促健康，情系含灵护民生科普活动在南京举行 | https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_591aa2c070014a2d9721c4d942596e90.html | 中国康复医学会 | 2024-10-10
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_5d86915c6d2943a4a5837ba3e6c87f01.html | 作业治疗专委会|老年痴呆义诊活动在广州顺利举行 | 正文过短(208汉字,多为图片/视频页)
+carm_8532dbc58f69.txt | 全国科普日|重症康复专委会：多学科联合重症康复科普论坛在宁夏银川成功举行 | https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_8532dbc58f69452784866f59b532ee51.html | 中国康复医学会 | 2024-10-01
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_a1d47f64fe204415bc92a10e1500b49b.html | 全国科普日|迎国庆·关爱老年人科普义诊在青海举行 | 正文过短(348汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_a79750b44c754d0ea10c2fd2767c005a.html | 全国科普日·全国爱牙日|口腔疾病预防与康复专委会：“全生命周期守护，让健康从‘齿’开始”口腔健康科普活动在上海顺利举行 | 会议/活动报道(标记10次)
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_acebc7d01fda4b1aa9f7736bc6b9234b.html | 全国科普日|“天使助力，健康生活”——郑州大学第三附属医院生殖健康医院与儿内科及新生儿科联合开展健康教育活动 | 会议/活动报道(标记6次)
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_b233db946f204e3c9d38f4bef1d78447.html | “膝骨关节炎的预防与治疗”科普讲座与义诊在鸿飞居委会顺利举行 | 会议/活动报道(标记6次)
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_b4b6ba557a3c4bbc9539a4227019e03d.html | 科普教育基地|“康复暖夕阳 温暖促健康”义诊活动在江苏常州德安医院举行 | 会议/活动报道(标记3次)
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_baded38a5f6d4260b76a967c7be982a4.html | 全国科普日|世界物理治疗日科普义诊活动——聚焦物理治疗与下背痛，共筑健康脊柱未来 | 会议/活动报道(标记4次)
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_c0c44e34258841519f52de25400a312a.html | 健康管理专委会全国科普日康复科普联合行动 | 会议/活动报道(标记9次)
+carm_c87f592798e2.txt | 全国科普日|智慧“助”老，“辅”你同行 | https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_c87f592798e24052b49d84737a93ace2.html | 中国康复医学会 | 2024-09-16
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_da915fa9ba1a412e8803a300e1b6586f.html | 全国科普日|护理科普宣传活动在河北沧州顺利举行 | 会议/活动报道(标记4次)
+carm_e5f53f9bc6a7.txt | 全国科普日|远程康复专委会：脑卒中居家康复训练指导与科普宣教活动在绵阳举行 | https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_e5f53f9bc6a74bbb9cd135fd9d67526a.html | 中国康复医学会 | 2024-09-30
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_f41bafe5b11449b4998dd0be0e2f8e04.html | 【中国康复医学会科普教育基地】全国科普日 我们在行动 ——南昌大学附属康复医院 | 会议/活动报道(标记12次)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_007ad0dd686e4d26aa484b9ea16f05dc.html | 【高压氧康复专委会】灸退时疫，有如篝火驱狼…… | 正文过短(18汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_00a26fe4c86b46d79de40ffc1fc5cff5.html | 【作业治疗专委会】新冠病毒防控及宝宝居家康复训练 | 正文过短(22汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_013c3a3e7856492e95d7b379b3fd351f.html | 【儿童康复专委会】疫情当下，小儿居家健康小窍门 | 正文过短(20汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_07a5f9e619f84aff957f8ed2a01895e6.html | 【康复治疗专委会】疫情期间膝关节疼痛的居家康复指导 | 正文过短(23汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_0bc151694b1545bf9b0b944140db074b.html | 【上海市阳光康复中心】口腔食物残留患者的家庭康复指导 | 正文过短(24汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_0ddc91f7dd3d49a3809cc29c53f1f5ed.html | 【康复医学教育专委会】面对疫情，重整生活 | 正文过短(17汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_102da5f4ccfd48b5bd53c23e033020a1.html | 【科普工作委员会】居家期间发现宝宝总是摇头正常吗？ | 正文过短(22汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_108c01eb1d4440ed99271eb3470afc43.html | 【科普工作委员会】罕见病宝宝康复--因为珍稀，所以珍惜 | 正文过短(22汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_10f67c7934f648deb600cbc93f904ced.html | 【疗养康复专委会】助力居家“心”健康 山河无恙人间安 | 正文过短(41汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_110feda94f264d319469c98f95c070ea.html | 【科普工作委员会】家庭健康操--让您在家做防控 | 正文过短(19汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_120ca22912234541a6da202a1ca00cad.html | 【作业治疗专委会】新冠肺炎疫情期间，如何过有意义的一天？ | 正文过短(24汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_134fc9ea43ba4dab852e816e04f533b2.html | 【中西医结合专委会】一套适合老年人的居家健身操！ | 正文过短(21汉字,多为图片/视频页)
+carm_142a155cf04f.txt | 【康复治疗专委会】肩关节疼痛患者疫情期间的居家护理及康复指导 | https://www.carm.org.cn/kpgy/yjkp/art/2020/art_142a155cf04f493c92994e21ab740597.html | 中国康复医学会 | 2020-03-01
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_16a317c7a805414c8d0c905e51ee0bf7.html | 【科普工作委员会】寻找属于你们的“亲子时光” | 正文过短(18汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_181defc3e92746fab9fc6648d39d8145.html | 【儿童康复专委会】疫情期间脑瘫患儿居家护理之一 饮食管理——如何让孩子“慧”吃、“慧”喝 | 正文过短(34汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_18d2d6a9f95c40c0ba5a1133e72439a0.html | 【儿童康复专委会】居家期间如何提高孩子的感觉统合能力？ | 正文过短(24汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_19ca6855d9914c909a0ef2b579e4ab0c.html | 【科普工作委员会】疫情期间外出归家注意事项 | 正文过短(19汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_1dbc0382642246509d54e0fa03d05d3e.html | 【疗养康复专委会】隔离期间的你，可以这样做 | 正文过短(18汉字,多为图片/视频页)
+carm_22d7db2ed079.txt | 【肾脏病康复专委会】战疫魔，肾脏病康复党员专家在一线 | https://www.carm.org.cn/kpgy/yjkp/art/2020/art_22d7db2ed07944589304b50d1c47ab04.html | 中国康复医学会 | 2020-02-26
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_22ed8359af234507a7a7083030c6a932.html | 【中西医结合专委会】心动护理 | 一道粥方——“薯蓣粥” | 正文过短(19汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_2471d26b4e584bf092dc0abafca83609.html | 【科普工作委员会】新冠期间居家健康运动——有氧运动篇 | 正文过短(22汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_2cd69969935e4b56a5b907bf7517cb66.html | 【科普工作委员会】我的名字叫2019-nCov | 正文过短(12汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_30a96c4e6733473fadb7d76a17be0376.html | 【科普工作委员会】家庭亲子社交游戏玩起来！ | 正文过短(18汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_313b81123703479aae753c4d9c3f94c0.html | 【儿童康复专委会】儿童流口水的原因及干预方法 | 正文过短(20汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_31fe32f3a7144a449657bc2e87d76f2e.html | 【科普工作委员会】老年失能患者便秘的居家护理 | 正文过短(20汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_34119d3fc6fd49b9ad88639631172a84.html | 【脑功能检测与调控康复专委会】轻型新冠肺炎患者肺康复训练方案 | 正文过短(28汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_345ea1d312464d8ab92c0f933c179a2a.html | 【科普工作委员会】新冠病毒防护特殊期里“慧吃慧动”自我健康管理 | 正文过短(27汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_352589332c5940338a4782551b809604.html | 【作业治疗专委会】疫情宅家也可感统训练，专家教你家中打造“感统室” | 正文过短(28汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_35c012a16bf847eb8b72d1557acf1530.html | 【科普工作委员会】病毒肆虐期间儿童如何就诊？ | 正文过短(19汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_36448f529e294651ad471b462bb81ce6.html | 【科普工作委员会】居家学习的学生，如何心理防“疫” | 正文过短(20汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_36e089fb15b341f78a9a030e9930ffe7.html | 【运动疗法专委会】疫情与康复：吞咽功能障碍居家康复训练 | 正文过短(24汉字,多为图片/视频页)
+carm_376a2f06c157.txt | 【脑功能检测与调控康复专委会】重型新冠肺炎恢复期患者床上康复训练方案 | https://www.carm.org.cn/kpgy/yjkp/art/2020/art_376a2f06c15740f2aa0e8d44f01aa9ea.html | 中国康复医学会 | 2020-03-02
+carm_39f106894518.txt | 【科普工作委员会】如何正确使用体温计 | https://www.carm.org.cn/kpgy/yjkp/art/2020/art_39f1068945184a2d86c3e598af29511b.html | 中国康复医学会 | 2020-04-17
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_3a511bde3bda439284a5981b81b50610.html | 【科普工作委员会】久坐之后，这些肌肉容易失忆哦！ | 正文过短(20汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_3d16f98022f74951bc5f8f284802cb66.html | 【儿童康复专委会】帮助孤独症宝宝建立良好的规则意识 | 正文过短(23汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_3d6e1350087d4864a6878935e3860ba4.html | 【科普工作委员会】疫情期间，在家怎么玩配对？ | 正文过短(18汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_39d81bb25bab42f6ade6c9e6cd8ae41e.html | 【吞咽障碍康复专委会】病毒性肺炎及细菌性肺炎 | 正文过短(20汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_3eed3f3056184616a520f62fd87591c7.html | 【科普工作委员会】 疫情期间宅在家,教你如何给脑瘫宝宝推拿? | 正文过短(25汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_3ff6746166e746aea497f386dae71722.html | 【科普工作委员会】因为罕见，更需关爱 | 正文过短(15汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_430e4c81a3c943ceb012f682b6d4612e.html | 【儿童康复专委会】新冠肺炎疫情期间脑瘫儿童居家训练系列之四（脑瘫儿童居家小游戏） | 正文过短(36汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_45b7c5a8bbad4b2690c10b84d842cb88.html | 【科普工作委员会】 面对新型冠状病毒肺炎，一线医护人员如何做好自我调整 | 正文过短(31汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_5ff93b8397cd41438a14dd03c1d7c86c.html | 【康复医学教育专委会】孤独症孩子宅家康复系列——客厅篇 | 正文过短(23汉字,多为图片/视频页)
+carm_622ffbe373fc.txt | 【科普工作委员会】提高免疫防新冠，居家儿童有妙招 | https://www.carm.org.cn/kpgy/yjkp/art/2020/art_622ffbe373fc43a0aab089f32c768adf.html | 中国康复医学会 | 2020-03-01
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_69188815039e4a1284680f656c733f79.html | 【科普工作委员会】居家嗓音训练方法 | 正文过短(15汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_693bcde0b5c14724b5e2b849ba5ebb3b.html | 【科普工作委员会】疫情期间不要因为讳疾忌医而酿成大患 | 正文过短(24汉字,多为图片/视频页)
+carm_6b55a6c5e7ed.txt | 【作业治疗专委会】疫情期间如何通过居家游戏来提高特殊儿童操作及认知能力 | https://www.carm.org.cn/kpgy/yjkp/art/2020/art_6b55a6c5e7ed44598ff0f9971dbdf0bc.html | 中国康复医学会 | 2020-03-01
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_6ca1693a932a4f8882ff42a27a325822.html | 【上海市阳光康复中心】您的吞咽功能还好吗？两招教你轻松辨别！ | 正文过短(26汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_6d96b5364e40426d9203bd145c47eed0.html | 【康复医学教育专委会】呆在家中不用慌，感统游戏缓紧张——常见的感觉统合器具在家庭中的应用 | 正文过短(39汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_6f43a488043943a48c4fee0d2a99b9b0.html | 【科普工作委员会】战疫情，TRX训练教会您 | 正文过短(15汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_72be10c933ec4e37a9a1d4dea20af490.html | 【科普工作委员会】拒绝吞咽障碍，重食舌尖美味 ---疫情防控期间如何做好吞咽障碍训练 | 正文过短(35汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_72c181dcbb074c298b4f627ed3c16d8b.html | 【康复治疗专委会】疫情期间的踝扭伤居家康复指导 | 正文过短(21汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_744c1b40896d4b429ec7b64a6983c308.html | 【科普工作委员会】新冠肺炎患者恢复期居家呼吸康复建议 | 正文过短(24汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_78ea6d0ed910496c80f94197dc1440f1.html | 【康复治疗专委会】新冠肺炎疫情期间前交叉韧带损伤居家康复指导 | 正文过短(28汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_79991ed963d34fa8a4c4dc7809a999dc.html | 【儿童康复专委会】如何应对孤独症儿童逃避、拖延任务的行为 | 正文过短(25汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_7d0a10ad583c4e1bba8d60e50dda0cdd.html | 【作业治疗专委会】触觉与居家触觉刺激 | 正文过短(16汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_7d72b5fe0aa64bacb085a0a7f70c51b1.html | 【儿童康复专委会】新冠肺炎疫情期间脑瘫儿童居家训练序列之一 | 正文过短(27汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_80b688c03b434b93a21147d9a917e1a5.html | 【科普工作委员会】新冠病毒肺炎患者住院期呼吸康复建议 | 正文过短(24汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_8761174be5e149d0a6b30ce6b7aa1c4f.html | 【科普工作委员会】嗓音保健，让你“声”材无敌 | 正文过短(17汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_886b50474880468dbc4dad64afbda5b0.html | 【科普工作委员会】体温评估 | 正文过短(11汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_8db224e54e96436cac3099383b02e67b.html | 【科普工作委员会】 复工抗疫必备攻略 | 正文过短(15汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_8ed76403ed32469793c41263b42eba6d.html | 【儿童康复专委会】疫情宅家，孩子“情绪变化大咋办？” | 正文过短(20汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_9061207e6a764d15af56c0cde829d2ad.html | 【体育保健康复专委会】肩颈部不适？这些动作不能错过 | 正文过短(22汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_9596d258ff4e4e2597bbc85de7d31093.html | 【康复医学教育专委会】传染性肺炎呼吸功能障碍的康复 | 正文过短(23汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_9992ce14444b488ab393ac68db7c2195.html | 【作业治疗专委会】居家防跌倒的功能训练 | 正文过短(17汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_9d3178cf751046618497ca8c9d9a5f92.html | 【康复治疗专委会】积极战疫，共筑心“防” | 正文过短(15汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_9eea6d07e4bf43d89109006fc58012fe.html | 【吞咽障碍康复专委会】居家吞咽训练体操 | 正文过短(17汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_a576bb62335a4e23a62f393aac32bc1f.html | 【科普工作委员会】远离新冠状，“宅”出新高度 | 正文过短(17汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_ad6451063712411e8723a8c90b439ec1.html | 【 吞咽障碍康复专委会 】免疫力，世上最好的医生 | 正文过短(23汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_a842b9b32c2244a68764036933355487.html | 【儿童康复专委会】新冠肺炎疫情期间高危儿居家早期干预系列—— “通过观察，评估宝宝是否处于良好的状态中” | 正文过短(44汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_ae9fbf3898c547859d1487bf951ee499.html | 【推拿技术与康复专委会】强化体质管理才能有效把控新型冠状病毒传播 | 正文过短(30汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_b05c5805e2ef4b97b2a75681abcadf0d.html | 【儿童康复专委会】新冠肺炎疫情期间脑瘫儿童居家训练系列之二 | 正文过短(27汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_b176abf83c8340eba04de1ddf326eee8.html | 【中西医结合专委会】众志成城，抗击疫情——居家胃肠康复 | 正文过短(91汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_b328b191c5b8403cbcee6c16095c7866.html | 【中西医结合专委会】宣肺理气，试试这招中医运动抗疫处方 | 正文过短(76汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_b685b552f9604c5f94240a45ef55e575.html | 【科普工作委员会】第六版新冠肺炎诊疗方案来啦！ | 正文过短(20汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_b921253a55844a88ae2a1b272e17ce83.html | 【科普工作委员会】疫情防控，宝宝如何安全完成疫苗接种？ | 正文过短(23汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_ba1e75b31d7d4da6b41a3917bf7fd177.html | 【科普工作委员会】就要上班了!如何做好上班自我防护呢？ | 正文过短(23汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_c074dd89c9224f6388473a42a9a1c528.html | 【儿童康复专委会】孤独症儿童如何做好冠状病毒感染的居家防护及康复训练 | 正文过短(57汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_c2a504bc0b4f4c3c9e4c1ca59c6ecffb.html | 【儿童康复专委会】智力障碍儿童的居家防护与家庭康复指导 | 正文过短(25汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_c44f93b8558f41e6b4feceb6b15080eb.html | 【儿童康复专委会】 脑瘫儿童口功能与吞咽障碍，疫期家长能做什么？ | 正文过短(27汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_c479f24ef21c4ea4945fee4592d973e8.html | 【康复医学教育专委会】孤独症孩子宅家康复系列——卧室篇 | 正文过短(23汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_c7940a751a7545988f704473c74daaae.html | 【科普工作委员会】疫苗——战胜新冠肺炎的科学武器 | 正文过短(20汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_c9e7026a7ade4f7cb37529a7ec56fa0e.html | 【科普工作委员会】失语症的家庭康复建议 | 正文过短(17汉字,多为图片/视频页)
+carm_cbb0e95ef6cf.txt | 【科普工作委员会】居家运动减肥，居然又胖了怎么破？ | https://www.carm.org.cn/kpgy/yjkp/art/2020/art_cbb0e95ef6cf49bd813cea59d40a1d92.html | 中国康复医学会 | 2020-04-07
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_cd0d9b0cf01f408fb951d89cfc2619fb.html | 【骨与关节康复专委会】疫情期间，请保护好自“脊” | 正文过短(19汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_cdf6363258df44919e739595b2ad14a3.html | 【儿童康复专委会​】新冠肺炎疫情期间脑瘫儿童居家训练系列之三（日常生活能力训练） | 正文过短(35汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_cdfe63d1347343568cbc23b6c10a10a4.html | 【科普工作委员会】增强儿童免疫力，小儿推拿有奇招！ | 正文过短(21汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_d0b94edd0e6e46c9913a0c543bd1573d.html | 【儿童康复专委会】癫痫儿童疫情期间的居家护理及康复指导 | 正文过短(25汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_d6bf448fd96643d9ad3fa0909bfc1965.html | 【科普工作委员会】儿童“战疫”居家防护宝典 | 正文过短(17汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_d6eaf27000ac41e1b2063c0c246bf38e.html | 【科普工作委员会】新冠疫情特殊时期， 再谈癫痫及癫痫患儿的居家管理 | 正文过短(29汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_da8ad894139c4e90b1f4cc41aa9029bd.html | 【儿童康复专委会】提高免疫防新冠，居家儿童有妙招 | 正文过短(21汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_dcc11177968148f88a32ab6ef71801b2.html | 【推拿技术与康复专委会】八段锦助你增强免疫力，改善肺功能 | 正文过短(31汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_de38dae0236b4168b2682b67b9e5b102.html | 【科普工作委员会】疫情期间宅在家，儿童视力保健如何做？ | 正文过短(23汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_e045a1342f714d9e886b0fdf1e25e354.html | 【儿童康复专委会】特殊儿童的家庭日常生活训练之行走训练 | 正文过短(25汉字,多为图片/视频页)
+carm_e07dd60ae47b.txt | 【物理治疗专委会】居家脊柱功能锻炼 | https://www.carm.org.cn/kpgy/yjkp/art/2020/art_e07dd60ae47b4529910fac3fc9fef8f3.html | 中国康复医学会 | 2020-03-16
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_e9a60f71975040ef93aacc3b67757641.html | 【科普工作委员会】疫情期间，孕产妇应该怎样照顾好自己？ | 正文过短(23汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_f0767ea0cb7e4400998e4d8bdcf977dc.html | 【科普工作委员会】谢谢你们，一线的战士！ | 正文过短(16汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_f9c67fb59bdd461ab856f17715870a16.html | 【科普工作委员会】抵御疫情不出门，待在家中把身健 | 正文过短(21汉字,多为图片/视频页)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_ffa366ee0e86415d85212747e85e76b3.html | 【科普工作委员会】心肺康复科普之能量节约技术 | 正文过短(20汉字,多为图片/视频页)
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_0a7137f88ad54dac8dbf5f3fbd795ad0.html | 中国康复医学会唐强副会长受邀参加第二届远东地区科学和实践会议 | 会议/活动报道(标记9次)
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_1e7ac80d34c047079fb8dd12cc05084b.html | 第七届国际言语语言病理学论坛顺利召开 | 会议/活动报道(标记8次)
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_3473501aadd94f0cbe1412e6b179d9a4.html | 中国康复医学会吞咽障碍康复专业委员会第六届学术年会圆满落幕 | 会议/活动报道(标记31次)
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_f4cf0d238f624d8cabe63c0a73c0c4ca.html | 【科普工作委员会】新冠肺炎流行期间康复医务人员自我防护知识 | 正文过短(27汉字,多为图片/视频页)
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_3fdc34da67564da391bf8554c043ae71.html | 中国康复医学会听力康复专业委员会2024学术年会顺利召开 | 会议/活动报道(标记10次)
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_53667cabf30b4680a5a06a01bf65e098.html | 中国康复医学会副监事长贺西京教授荣获第十三届发明创业奖人物奖 | 会议/活动报道(标记7次)
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_593374efa99849d0b481018706cbaa1d.html | 喜讯！中国康复医学会物理治疗专业委员会正式获批加入世界物理治疗联盟 | 正文过短(362汉字,多为图片/视频页)
+carm_725c6d8a0264.txt | 中国康复医学会主办的《中国组织工程研究》（CJTER）杂志再次被评为RCCSE中国核心学术期刊（A+） | https://www.carm.org.cn/kyxs/xsdt/art/2024/art_725c6d8a026444d289373c06b76d046a.html | 中国康复医学会 | 2024-06-11
+carm_adc8bfe840f2.txt | 中国康复医学会主办《中国神经再生研究（英文版）》（NRR）杂志最新CiteScore为8.0 | 位居神经科学第3名 | https://www.carm.org.cn/kyxs/xsdt/art/2024/art_adc8bfe840f240c79da310e3d0c97381.html | 中国康复医学会 | 2024-06-11
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_b7a6006dc70c47bea459a7e0f12464ce.html | 2024中国康复医学会烧伤治疗与康复专业委员会学术年会成功召开 | 会议/活动报道(标记18次)
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_bce315eb5b3041b8ab75ceb4d7b40ddc.html | 2024中国康复医学会口腔疾病预防与康复专业委员会学术年会在山东青岛举办 | 会议/活动报道(标记22次)
+carm_bf15144e7896.txt | 中国康复医学会主办《中国神经再生研究（英文版）》（NRR）杂志2023年JCR影响因子为5.9 | 晋升神经科学Q1区前11% | https://www.carm.org.cn/kyxs/xsdt/art/2024/art_bf15144e789645db82376cc2d3507841.html | 中国康复医学会 | 2024-06-21
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_c3a05f196b444469b72a128a2abd9e6d.html | 中国康复医学会高压氧康复专业委员会第五届学术年会在浙江宁波成功召开 | 会议/活动报道(标记7次)
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_cba74b92716e4ae297fd5e9baea22c38.html | 中国康复医学会医学冲击波技术与康复专业委员会第一届学术年会成功召开 | 会议/活动报道(标记9次)
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_0108f834e4a749a2a71713a7898c9023.html | 喜报！中国康复医学会脑血管病介入治疗与康复专业委员会主任委员刘建民教授荣获世界神经介入大会“科学成就奖” | 会议/活动报道(标记3次)
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_57656cc247a949779b400745d1e3a971.html | 特别报道|中国康复医学会儿童康复专业委员会专家代表团出席第四届国际残疾儿童学会联盟大会暨第三十七届欧洲儿童残疾学会年会 | 会议/活动报道(标记5次)
+carm_7412573b8ef4.txt | 《中国康复医学年鉴（2024卷）》正式出版发行 | https://www.carm.org.cn/kyxs/xsdt/art/2025/art_7412573b8ef445b996c649011e4aaa1f.html | 中国康复医学会 | 2025-05-06
+carm_9e9ad3a04fdb.txt | 中国康复医学会智能康复装备发展决策咨询专家团队荣获中国科协2024年度决策咨询优秀项目团队殊荣 | https://www.carm.org.cn/kyxs/xsdt/art/2025/art_9e9ad3a04fdb4ca08fe8c6463e71c00a.html | 中国康复医学会 | 2025-04-30
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_b1bfc650192847f284fff0b8b760e500.html | 2025中国康复医学会“一带一路”东部康复医学论坛在福州成功召开 | 会议/活动报道(标记21次)
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_cee7834d884e4535b730e25c3f39926e.html | 2025中国康复医学会康复心理学专业委员会学术年会在太原举办 | 会议/活动报道(标记7次)
+carm_cf76a376b852.txt | 中国康复医学会主办《中国神经再生研究（英文版）》（NRR）杂志2024年JCR影响因子为6.7 | 晋升神经科学Q1区前10% | https://www.carm.org.cn/kyxs/xsdt/art/2025/art_cf76a376b852468f82e330e8c65a2afa.html | 中国康复医学会 | 2025-06-20
+carm_d32b1df7700f.txt | 中国康复医学会多学科康复诊疗工作委员会主任委员张通教授及团队首创脑卒中“时辰康复”理念在国际权威期刊《Stroke》正式发表 | https://www.carm.org.cn/kyxs/xsdt/art/2025/art_d32b1df7700f4da1a820c286b6cc1a36.html | 中国康复医学会 | 2025-05-19
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_d4858044a8b94b129ccb13e3655d435c.html | 《中国康复医学年鉴（2025卷）》编纂工作启动会成功召开 | 会议/活动报道(标记10次)
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_fdb276d9d2224dfe8c5426867101edd8.html | 2025中国康复医学会精神卫生康复专业委员会第七届学术年会顺利召开 | 会议/活动报道(标记9次)
+https://www.carm.org.cn/kyxs/xsdt/art/2026/art_480e90a0a5264d3898c3db6053fb1060.html | 谋全周期康复之策 启心肺护理新征程——2026中国康复医学会心肺康复护理专业委员会学术年会在武汉圆满落幕 | 会议/活动报道(标记19次)
+https://www.carm.org.cn/kyxs/xsdt/art/2026/art_87a658c66a5c4d3eb12a3b57b07f18e9.html | 《中国康复医学年鉴（2026卷）》编纂工作启动会成功召开 | 会议/活动报道(标记12次)
+carm_90e00638dac2.txt | 《中国康复医学年鉴（2025卷）》正式出版发行 | https://www.carm.org.cn/kyxs/xsdt/art/2026/art_90e00638dac24739ba3a5da984aaf260.html | 中国康复医学会 | 2026-01-20
+carm_a55c17d334b2.txt | 《中国康复医学年鉴》编情通报（2025第一期） | https://www.carm.org.cn/kyxs/zgkfyxnj/art/2025/art_a55c17d334b244c6be8940b0e2b1b0f1.html | 中国康复医学会 | 2025-04-09
+carm_ee8661203689.txt | 《中国康复医学年鉴（2023卷）》正式发布！ | https://www.carm.org.cn/kyxs/zgkfyxnj/art/2025/art_ee86612036894d7e961bb98dd3c6b628.html | 中国康复医学会 | 2023-11-11
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_033ecc6c1ec54f06a60efd166ad65e14.html | 科普工作委员会|科普知识进校园-脊柱侧弯筛查与预防活动顺利举行 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_0656c40b1dc94314b20d286ef6b38af7.html | 科普工作委员会|“认知健康与脑力训练”康复惠民敬老公益活动圆满举行 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_11372003ded24ef5befe6f9f2a726eb6.html | 弘扬雷锋精神，凝聚青春力量——滨州医学院特殊教育与康复学院开展“追梦桥”关爱特殊儿童志愿服务 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_13f1cdcf36a14ff39ca7b728195703e1.html | 学雷锋科技志愿服务周|传承雷锋精神 践悟医者初心 ——上海健康医学院全生命周期康复科普基地开展“学雷锋”主题公益活动纪实 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_1557d0f35afd441e89af792938a48fa6.html | 重症康复专委会|赴甘南县中医院开展科普讲座与诊疗活动 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_18e750dc5680447da3107da6258d9e6a.html | “心手相连，让爱无间”活动在江苏盐城顺利开展 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kpxc/art/2024/art_1dcc0f3e6ac94bb3ace1db557f41d64c.html | 康复个案管理团队的“陪伴式”照护 ， 让瘫痪患者摆脱困境独立行走！ | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/yjkp/art/2020/art_22d7db2ed07944589304b50d1c47ab04.html | 【肾脏病康复专委会】战疫魔，肾脏病康复党员专家在一线 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_23bf2b44f6414069aac13dd172442ad8.html | 哈医大四院儿童康复中心“接纳不同，理解不同”世界孤独症日活动顺利举行 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_24781028a1f043bd97d02c361aa54942.html | 【2024对话康复】意识障碍的评定与治疗！深度解读康复治疗重点及综合管理，6月13日19：30敬请关注 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_285c3665ce57465d921abef18f11221f.html | 【2024年对话康复】认知障碍的防治策略和康复方案，2月22日晚19：30，敬请关注 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_2dbbb1291ba2404ab80bb3e915d261bf.html | 全国科普日|关注膀胱管理，让生活更轻松 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_32384252789f482abe75ae9d7b812b84.html | 关于进一步加强规范康复科普比（竞）赛管理工作的通知 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_387707b47cf0423e9d46d0637426dd05.html | 绿色康复，拥抱自然——济医附院儿童康复科植树节主题活动圆满结束 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/hyzj/hyfc/art/2024/art_388906b070464d0f869a214d245e1544.html | 康复惠民西部行 助力社区居民健康 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_430caf5166f04ef9b6f812b753bcdcd2.html | 科普工作委员会|广西医科大学第一附属医院康复医学科开展2025年全国科技活动周志愿服务之科普进校园活动 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_4c5549d00f2841439270d6e8df401d7a.html | 重症康复专委会|赴宾县人民医院开展科普讲座与诊疗活动 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_567559ac2ab64796a19d88e7857b0e04.html | 科普工作委员会|童声舞影映童趣，艺术疗愈暖童心——济宁医学院附属医院儿童康复科“六一儿童节”活动纪实 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_56b4141d204e45dcad6e5f41e43a68df.html | 学雷锋科技志愿服务周|科学护颈从“头”开始健康大讲堂在上海市浦东医院顺利举行 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_591aa2c070014a2d9721c4d942596e90.html | 远程康复专委会|中西康复促健康，情系含灵护民生科普活动在南京举行 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_5bd188310c464caa8225513d5c1b6f6c.html | 上海新华医院康复医学科举办“星星市集，与爱同行” ——自闭症日融合关爱活动 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_60b7b715a02f4fb89d8feabad58a7bcf.html | 学雷锋科技志愿服务周|践行雷锋精神守护儿童健康-广西医科大学第一附属医院康复医学科“学雷锋送健康”儿童免费评估公益活动圆满结束 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_725c6d8a026444d289373c06b76d046a.html | 中国康复医学会主办的《中国组织工程研究》（CJTER）杂志再次被评为RCCSE中国核心学术期刊（A+） | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_7412573b8ef445b996c649011e4aaa1f.html | 《中国康复医学年鉴（2024卷）》正式出版发行 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_77c962ba89d54b37a781693e879361a0.html | 唐宝筑梦活动在哈尔滨医科大学附属第四医院儿童康复中心顺利举行 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_830e279e896d4d41946da1043fbadb81.html | 江苏医药职业学院助力2025盐城、宿迁马拉松赛后保障顺利开展 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_8532dbc58f69452784866f59b532ee51.html | 全国科普日|重症康复专委会：多学科联合重症康复科普论坛在宁夏银川成功举行 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_8b2b1297d98647ae894302c4203e5de9.html | 学雷锋科技志愿服务周|烧伤治疗与康复专委会：践行雷锋精神，筑牢“烧烫伤”防治健康屏障活动在南通市文峰社区顺利举行 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kyxs/xsdt/art/2026/art_90e00638dac24739ba3a5da984aaf260.html | 《中国康复医学年鉴（2025卷）》正式出版发行 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_915b78b5e0fd4c9caf9764dc5625f9bd.html | 一项医患共同制定的康复治疗计划， 助力脑出血患者重获自理能力 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kpdt/art/2026/art_9743f852e8464d0ab7509df2d524ebdf.html | 中国科协办公厅关于印发《科技工作者科普创作指南》的通知 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_9e9ad3a04fdb4ca08fe8c6463e71c00a.html | 中国康复医学会智能康复装备发展决策咨询专家团队荣获中国科协2024年度决策咨询优秀项目团队殊荣 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kyxs/zgkfyxnj/art/2025/art_a55c17d334b244c6be8940b0e2b1b0f1.html | 《中国康复医学年鉴》编情通报（2025第一期） | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_adc8bfe840f240c79da310e3d0c97381.html | 中国康复医学会主办《中国神经再生研究（英文版）》（NRR）杂志最新CiteScore为8.0 | 位居神经科学第3名 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kpxc/art/2025/art_ba50655d49bd47cc968d88050e696495.html | 科学前沿|运动健康与产业发展专委会回顾2024年度我国运动与糖脂代谢领域关键突破与重要成就 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kyxs/xsdt/art/2024/art_bf15144e789645db82376cc2d3507841.html | 中国康复医学会主办《中国神经再生研究（英文版）》（NRR）杂志2023年JCR影响因子为5.9 | 晋升神经科学Q1区前11% | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/bzzd/qtfgzd/art/2015/art_c0b1be3071bb4d6cbe1c184f02dde6e3.html | 中共中央组织部关于规范退（离）休领导干部在社会团体兼职问题的通知 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_c2a9ef48c4914458911f511dba7d771d.html | 科普工作委员会|快乐康复、梦想启航六一儿童节志愿服务在江西新余市举行 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_c311f358a4ad45dc93e9215d6ad4310b.html | 科普工作委员会|爱心市集活动在苏州桐泾公园举行 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_c87f592798e24052b49d84737a93ace2.html | 全国科普日|智慧“助”老，“辅”你同行 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_cf76a376b852468f82e330e8c65a2afa.html | 中国康复医学会主办《中国神经再生研究（英文版）》（NRR）杂志2024年JCR影响因子为6.7 | 晋升神经科学Q1区前10% | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kyxs/xsdt/art/2025/art_d32b1df7700f4da1a820c286b6cc1a36.html | 中国康复医学会多学科康复诊疗工作委员会主任委员张通教授及团队首创脑卒中“时辰康复”理念在国际权威期刊《Stroke》正式发表 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_d4e1b2bd131144dea80a4770e122313a.html | 科普工作委员会|“儿童健康嘉年华”护理科普活动在重庆医科大学附属儿童医院两江院区举办 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kpdt/art/2024/art_d6f9c28bccf44a62ae4fb68fd0031b97.html | 【2024对话康复】儿童语言发育迟缓的病因与康复训练对策，4月11日19：30敬请关注 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_d8fd217289384c028d3349bbb33f7b59.html | 上海健康医学院康复学院开展“世界哮喘日”系列医学科普宣传活动 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/qgkprkfkplhxd/art/2024/art_e5f53f9bc6a74bbb9cd135fd9d67526a.html | 全国科普日|远程康复专委会：脑卒中居家康复训练指导与科普宣教活动在绵阳举行 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_e6d61d7951a94c19a712d609a8c6fd20.html | 学雷锋科技志愿服务周|足踝康复专委会：“守护足踝健康，从‘足’开始”线上线下科普活动顺利举行 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_e7911e82df7c47d981e2de250defcc9f.html | 科普工作委员会|“童星闪耀心向党，欢歌笑语庆六一” —融合教育特别活动温馨回顾 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_e83bd27ef53749c481031e6c628ad821.html | 科普工作委员会|深圳市龙岗区妇幼保健院举行注意缺陷多动障碍、 学习困难康复知识科普教育宣讲活动 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_ec44136acadf45b5a792d7fcc43e2266.html | 学雷锋科技志愿服务周|海口市人民医院康复医学科赴海港社区开展轮椅及辅具志愿活动 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kyxs/zgkfyxnj/art/2025/art_ee86612036894d7e961bb98dd3c6b628.html | 《中国康复医学年鉴（2023卷）》正式发布！ | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_f4c848e6afd44325ba3a14a5d9b03fcf.html | 科普工作委员会|医心护幼，健康同行-沈阳市儿童医院与辽宁省政府幼儿园家长科普活动顺利举行 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_f58206b35908462db08d74ab3488217b.html | 科普工作委员会|劳有所获，快乐成长——哈尔滨医科大学附属第四医院儿童康复中心“五一”主题活动圆满落幕 | 人工复核剔除:活动报道/新闻/学会事务类
+https://www.carm.org.cn/kpgy/kjzyfwjcx/art/2025/art_f8b567e424cf444b8226a8accd3728a5.html | 科普工作委员会|学龄前儿童心理健康知识讲座 走进罗湖区鹿鸣园及木棉岭第二幼儿园 | 人工复核剔除:活动报道/新闻/学会事务类

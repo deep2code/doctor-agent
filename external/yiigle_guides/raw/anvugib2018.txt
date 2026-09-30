@@ -1,0 +1,866 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%80%A5%E6%80%A7%E9%9D%9E%E9%9D%99%E8%84%89%E6%9B%B2%E5%BC%A0%E6%80%A7%E4%B8%8A%E6%B6%88%E5%8C%96%E9%81%93%E5%87%BA%E8%A1%80%E8%AF%8A%E6%B2%BB%E6%8C%87%E5%8D%97%EF%BC%882018%E5%B9%B4%EF%BC%8C%E6%9D%AD%E5%B7%9E%EF%BC%89.html
+# 标题: 急性非静脉曲张性上消化道出血诊治指南（2018年，杭州） - 中华内科杂志
+# 发布方/日期: 中华医学会消化病学分会，中华内科杂志, 2019,58(3) : 173-180. DOI: 10.3760/cma.j；2019-03-01
+
+急性非静脉曲张性上消化道出血诊治指南（2018年，杭州）
+《中华内科杂志》编辑委员会
+《中华医学杂志》编辑委员会
+《中华消化杂志》编辑委员会
+《中华消化内镜杂志》编辑委员会
+中国医师协会内镜医师分会消化内镜专业委员会
+中华内科杂志, 2019,58(3) : 173-180. DOI: 10.3760/cma.j.issn.0578-1426.2019.03.005
+急性非静脉曲张性上消化道出血（acute non-variceal upper gastrointestinal bleeding，ANVUGIB）是临床最常见的急危重症之一，《中华内科杂志》编辑委员会、《中华医学杂志》编辑委员会、《中华消化杂志》编辑委员会、《中华消化内镜杂志》编辑委员会及中华医学会消化内镜学分会曾于2015年底在南昌组织消化内科、消化内镜、普通外科及急危重症医学等多个学科专家进行专题讨论，共同制定并颁布了《急性非静脉曲张性上消化道出血诊治指南（2015，南昌）》[1]，该指南对我国ANVUGIB的临床诊治起到了很好的指导作用。近3年来，随着各学科技术的飞速发展，对于ANVUGIB的诊断和治疗又有了新的认识和进展，因此《中华内科杂志》《中华医学杂志》《中华消化杂志》《中华消化内镜杂志》及中国医师协会内镜医师分会消化内镜专业委员会于2018年再次组织相关领域的专家，结合近年来国内外高质量临床证据及参考相关指南，对2015年颁布的指南修订如下。
+一、定义及流行病学
+ANVUGIB是指屈氏韧带以上消化道非静脉曲张性疾病引起的出血，也包括胰管或胆管的出血和胃空肠吻合术后吻合口附近疾病引起的出血。ANVUGIB的发病率近20年来逐渐下降，目前趋于稳定。如美国ANVUGIB的发病率已从2001年的78.4/10万降至2009年的60.6/10万，其中消化性溃疡所致ANVUGIB的发病率也从48.7/10万降至32.1/10万；欧洲地区ANVUGIB的发病率从1990年的55/10万~60/10万下降至2000年的25/10万~35/10万[2]。近期我国一项回顾性大宗病例分析显示，与1997—1998年相比，2012—2013年消化性溃疡出血仍然是上消化道出血的最主要原因（52.7%）；高危溃疡（Forrest Ⅰa、Ⅰb、Ⅱa和Ⅱb）的检出率增加（28.2%比15.7%）；总体病死率无明显下降（1.7%比1.1%）[3]。
+二、ANVUGIB的诊断
+1．症状及体征：
+若患者出现呕血和黑便症状，伴或不伴头晕、心悸、面色苍白、心率增快、血压降低等周围循环衰竭征象时，急性上消化道出血诊断基本可成立。部分患者出血量较大、肠蠕动过快也可出现血便。少数患者仅有周围循环衰竭征象，而无显性出血，此类患者应避免漏诊。
+2．内镜检查：
+无食管、胃底静脉曲张并在上消化道发现出血病灶，可确诊ANVUGIB。
+3．应避免将下列情况误诊为ANVUGIB：
+某些口、鼻、咽部或呼吸道病变出血被吞入消化道，服用某些药物（如铁剂、铋剂等）和食物（如动物血等）可引起粪便发黑。对可疑患者可行胃液、呕吐物或粪便隐血试验。
+三、ANVUGIB的病因诊断
+1．ANVUGIB的病因：
+多为上消化道病变所致，少数为胆胰疾患引起，其中以消化性溃疡、上消化道肿瘤、应激性溃疡、急慢性上消化道黏膜炎症最为常见。近年来服用非甾体消炎药（NSAIDs），尤其是阿司匹林或其他抗血小板聚集药物也逐渐成为上消化道出血的重要病因。少见的病因有食管黏膜撕裂症（Mallory-Weiss综合征）、上消化道血管畸形、Dieulafoy病、胃黏膜脱垂或套叠、急性胃扩张或扭转、理化和放射损伤、壶腹周围肿瘤、胰腺肿瘤、胆胰管结石、胆管肿瘤等。某些全身性疾病，如感染、肝肾功能障碍、凝血机制障碍、结缔组织病等也可引起上消化道出血。我国ANVUGIB病因主要包括消化性溃疡（56.6%）、急性胃黏膜病变（13.6%）、恶性肿瘤（13.2%）、其他病因（16.6%）等[4]。
+2．重视病史与体征在病因诊断中的作用：
+如消化性溃疡常有慢性反复发作上腹痛史；应激性溃疡患者多有明确的应激源；恶性肿瘤患者多有乏力、食欲不振、消瘦等表现；有黄疸、右上腹绞痛症状应考虑胆道出血。药物性溃疡常有服用NSAIDs、抗血小板药、抗凝药史。
+3．内镜检查是病因诊断中的关键：
+（1）内镜检查能发现上消化道的病变，应尽量在出血后24 h内进行，并备好止血药物和器械。对于合并血流动力学不稳的上消化道出血的患者，应在积极液体复苏纠正血流动力学紊乱后尽早行紧急内镜检查。（2）有循环衰竭征象者，如意识淡漠、皮肤苍白、四肢湿冷等，应先迅速纠正循环衰竭后再行内镜检查。危重患者内镜检查时应进行血氧饱和度和心电、血压监护。（3）应仔细检查贲门、胃底部、胃体小弯、十二指肠球部后壁及球后等比较容易遗漏病变的区域。对检查至十二指肠球部未能发现出血病变者，应深插内镜至乳头部检查。若发现有2个以上的病变，应判断哪个是出血性病灶。
+4．不明原因消化道出血：
+是指经常规内镜检查（包括胃镜与结肠镜）不能明确病因的持续或反复发作的出血。可分为隐性出血和显性出血，前者表现为反复发作的缺铁性贫血和粪隐血试验阳性，而后者则表现为呕血和/或黑便、血便等肉眼可见的出血[5]。可行下列检查：（1）仍有活动性出血的患者，可考虑急诊行腹腔肠系膜上动脉CT血管成像（CTA）检查，以明确出血部位和病因，必要时行栓塞止血治疗；（2）在出血停止、病情稳定后可行小肠相关检查（钡剂造影或CT成像、胶囊内镜或小肠镜检查等），以进一步明确小肠是否有病变。
+5．内镜治疗导致的人工溃疡出血：
+分为术中急性出血和术后迟发性出血。目前胃内镜黏膜下剥离术（endoscopic submucosal dissection，ESD）相关出血发生率各研究报道不一。《胃黏膜病变内镜黏膜下剥离术围手术期用药专家建议（2015年，苏州）》报道，胃ESD术中急性大量出血发生率为0.6%~22.1%，迟发性出血发生率为0.5%~15.6%[6]。一项纳入74项研究的Meta分析结果显示，ESD术后迟发性出血发生率为5.1%[7]。胃上2/3部的黏膜病变、远端的肿瘤（胃角至胃窦）、肿瘤长径≥40 mm、组织病理为癌、2种或2种以上抗栓治疗为术中急性出血的危险因素[8]。切除标本长径>40 mm、肿瘤长径>20 mm、服用抗栓药物（尤其是≥2种抗栓药物）、平坦/凹陷型病变、组织病理类型为癌、病变位于胃小弯侧、伴有溃疡、合并心脏病/肝硬化/慢性肾病/血液透析、操作时间长（>60 min）等均是ESD术后迟发性出血的危险因素[8]。切除标本长径>40 mm、术中反复电凝止血、凝血功能异常、糖尿病等是胃ESD人工溃疡延迟愈合的危险因素[8]。
+四、ANVUGIB的定性诊断
+对内镜检查发现的病灶，凡疑有恶性病变，只要情况许可，应在直视下进行活组织检查以明确病灶性质。
+五、出血严重度与预后的判断
+1．实验室检查：
+常用项目包括胃液、呕吐物或粪便隐血试验、血常规等。为明确病因、判断病情和指导治疗，尚需进行凝血功能试验、肝肾功能、肿瘤标志物等检查。
+2．失血量的判断：
+病情严重度与失血量呈正相关，因呕血与黑便混有胃内容物与粪便，而部分血液贮留在胃肠道内未排出，故难以根据呕血或黑便量判断出血量。常根据临床综合指标判断失血量的多少，如根据血容量减少导致周围循环的改变（伴随症状、心率和血压、实验室检查）来判断失血量，休克指数（心率/收缩压）是判断失血量的重要指标。体格检查中可以通过皮肤黏膜色泽、颈静脉充盈程度、神志和尿量等情况来判断血容量减少程度，客观指标包括中心静脉压和血乳酸水平。
+3．活动性出血的判断：
+判断出血是否停止对决定治疗措施极有帮助。若患者症状好转、心率及血压稳定、尿量足（>0.5 ml·kg－1·h－1），提示出血停止。由于留置胃管对改善患者预后无明确价值，因此不建议常规留置胃管[9]。（1）临床上，下述症候与实验室检查均提示有活动性出血：①呕血或黑便次数增多，呕吐物呈鲜红色或排出暗红血便，或伴有肠鸣音活跃；②经快速输液输血，周围循环衰竭的表现未见明显改善，或虽暂时好转而后又恶化，中心静脉压仍有波动，稍稳定又再下降；③红细胞计数、血红蛋白浓度和血细胞比容继续下降，网织红细胞计数持续增高；④补液和尿量足够的情况下，血尿素氮持续或再次增高；⑤胃管抽出物有较多新鲜血。（2）内镜检查时如发现溃疡出血，可根据溃疡基底特征判断患者发生再出血的风险（表1），内镜检查时对出血性病变应进行改良的Forrest分级，凡基底有血凝块、血管裸露者易于再出血（图1）。近期一项多中心研究显示，我国的出血性溃疡中43.4%为高危溃疡（Forrest Ⅰa~Ⅱb），但其中仅25.2%接受内镜下止血治疗[10]。然而近期有研究显示，Forrest Ⅰb类溃疡再出血率较低，可能需要重新评估其作为高危溃疡征象的临床价值[11]。
+点击查看表格
+表1
+出血性消化性溃疡改良Forrest分级及再出血风险[12]
+表1
+出血性消化性溃疡改良Forrest分级及再出血风险[12]
+Forrest分级
+溃疡病变
+再出血概率（%）
+Ⅰa
+喷射样出血
+55
+Ⅰb
+活动性渗血
+55
+Ⅱa
+血管裸露
+43
+Ⅱb
+附着血凝块
+22
+Ⅱc
+黑色基底
+10
+Ⅲ
+基底洁净
+5
+点击查看大图
+图1
+出血性消化性溃疡的改良Forrest分级 1A Forrest Ⅰa级，喷射样出血 1B Forrest Ⅰb级，活动性渗血 1C Forrest Ⅱa级，血管裸露 1D Forrest Ⅱb级，血凝块附着 1E Forrest Ⅱc级，黑色基底 1F Forrest Ⅲ级，基底洁净
+图1
+出血性消化性溃疡的改良Forrest分级 1A Forrest Ⅰa级，喷射样出血 1B Forrest Ⅰb级，活动性渗血 1C Forrest Ⅱa级，血管裸露 1D Forrest Ⅱb级，血凝块附着 1E Forrest Ⅱc级，黑色基底 1F Forrest Ⅲ级，基底洁净
+4．预后的评估：
+（1）病情严重程度分级：一般根据年龄、症状、失血量等指标对ANVUGIB患者进行病情分级。年龄超过65岁、合并重要器官疾患、休克、血红蛋白浓度低、需要输血者的再出血危险增高。无肝肾疾患者的血尿素氮、肌酐或血清转氨酶升高时，病死率增高。（2）此外，多部国际指南中一致推荐使用经过临床验证的预后评分体系来评估患者的病情严重度，以指导后续治疗。这类评分中应用较为广泛的有：①Blatchford评分（表2）：Blatchford评分系统用于在内镜检查前预判哪些患者需要接受输血、内镜检查或手术等后续干预措施，其取值范围为0~23分[13]；②Rockall评分（表3）：Rockall评分系统用于评估患者的病死率，是目前临床广泛使用的评分依据之一，该系统依据患者年龄、休克状况、伴发病、内镜诊断和内镜下出血征象5项指标，将患者分为高危、中危或低危人群，其取值范围为0~11分[14]。上述评分体系因计算复杂，临床应用受限。因此2011年提出AIMS65评分系统，该系统相对较为简便[15]，包括以下几项指标（危险因素）：白蛋白（albumin）<30 g/L，国际标准化比值（INR）>1.5，神志改变（altered mental status），收缩压（systolic blood pressure）<90 mmHg（1 mmHg=0.133 kPa），年龄>65岁。随着危险因素的增加，其预测消化道出血患者病死率的准确性也逐渐增高。有研究显示AIMS65评分在预测上消化道出血患者病死率方面优于Blatchford评分，而后者在预测输血率方面优于前者；两者在预测再出血和需收入ICU救治方面差异无统计学意义[16]。另一项研究显示，在预测住院病死率方面，AIMS65评分优于Blatchford评分和内镜Rockall评分，与全Rockall评分相当；在预测收入ICU救治和住院时间方面，AIMS65评分优于以上其他评分系统[17]。然而，近期大样本量、多中心研究显示，与Rockall评分、AIMS65评分相比，在预测干预措施（包括输血、内镜治疗、手术等）与病死率方面，Blatchford评分系统最优[18]。一项纳入26项研究的系统评价也证实了这一观点[19]。因此，AIMS65评分系统的临床价值尚待进一步确认。
+点击查看表格
+表2
+Blatchford评分系统
+表2
+Blatchford评分系统
+项目
+评分
+收缩压（mmHg）
+100~109
+1
+90~99
+2
+<90
+3
+血尿素氮（mmol/L）
+6.5~7.9
+2
+8.0~9.9
+3
+10.0~24.9
+4
+≥25.0
+6
+血红蛋白（g/L）
+男性
+120~129
+1
+100~119
+3
+<100
+6
+女性
+100~119
+1
+<100
+6
+其他表现
+脉搏≥100次/min
+1
+黑便
+1
+晕厥
+2
+肝脏疾病
+2
+心力衰竭
+2
+注：积分≥ 6分为中高危，<6分为低危；1 mmHg=0.133 kPa
+点击查看表格
+表3
+Rockall评分系统
+表3
+Rockall评分系统
+项目
+评分
+年龄（岁）
+<60
+0
+60~79
+1
+≥80
+2
+休克状况
+无休克a
+0
+心动过速b
+1
+低血压c
+2
+伴发病
+无
+0
+心力衰竭、缺血性心脏病或其他重要伴发病
+2
+肾衰竭、肝功能衰竭和癌肿播散
+3
+内镜诊断
+无病变，Mallory-Weiss综合征
+0
+溃疡等其他病变
+1
+上消化道恶性疾病
+2
+内镜下出血征象
+无或有黑斑
+0
+上消化道血液潴留，黏附血凝块，血管显露或喷血
+2
+注：a收缩压>100 mmHg（1 mmHg=0.133 kPa），心率<100次/min；b收缩压>100 mmHg，心率>100次/min；c收缩压<100 mmHg，心率>100次/min；Mallory-Weiss综合征为食管黏膜撕裂症；积分≥5分为高危，3~4分为中危，0~2分为低危
+5．收入ICU或抢救室指征：
+符合以下任何一条情况者，建议收入ICU或抢救室进行治疗：意识障碍；脉搏增快，超过100次/min，脉搏细弱或不能触及；收缩压<90 mmHg（或在未使用药物降压的情况下收缩压较平时水平下降>30 mmHg）；四肢湿冷，皮肤花纹，黏膜苍白或发绀；尿量小于30 ml/h或无尿，以及持续的呕血或便血。
+六、ANVUGIB的治疗
+应根据病情、按照循证医学原则行个体化分级救治，高危ANVUGIB的救治应由相关学科协作实施。推荐的诊治流程见图2。
+点击查看大图
+图2
+急性非静脉曲张性上消化道出血诊治流程
+注：PPI为质子泵抑制剂；H2RA为H2受体拮抗剂
+图2
+急性非静脉曲张性上消化道出血诊治流程
+（一）出血征象的监测
+1．症状和实验室检查：
+记录呕血、黑便和便血的频度、颜色、性质、次数和总量，定期复查红细胞计数、血红蛋白、血细胞比容与血尿素氮等，需要注意血细胞比容在24~72 h后才能真实反映出血程度。
+2．生命体征和循环状况：
+监测意识状态、心率、脉搏、血压、呼吸、肢体温度、皮肤和甲床色泽、周围静脉特别是颈静脉充盈情况、尿量等，对意识丧失、呼吸停止及大动脉搏动不能触及的患者应立即开始心肺复苏；对存在气道阻塞的患者，应当采取必要的措施以保持气道开放，特别是当使用高流量吸氧仍不能缓解呼吸窘迫时，应及时实施人工通气支持；对出现意识障碍或呼吸循环障碍的患者，应常规采取"OMI"处理，即：吸氧（oxygen，O）、监护（monitoring，M）和建立静脉通路（intravenous，I）；意识障碍患者，因无创通气增加误吸的危险，不提倡应用；意识障碍和排尿困难者需留置导尿管，危重大出血者必要时进行中心静脉压、血清乳酸测定，老年及危重患者常需心电、血氧饱和度和呼吸监护。
+（二）液体复苏
+1．血容量的补充：
+应立即建立快速静脉通道，并选择较粗静脉以备输血，建议留置中心静脉导管。常用液体包括氯化钠注射液（0.85%~0.95%）、平衡液、全血或其他血浆代用品。根据失血的多少在短时间内输入足量液体，以纠正循环血量的不足。对于血流动力学不稳的患者，液体复苏要优先于内镜止血治疗。为防止出现肺水肿、稀释性凝血功能障碍、血管外液体的蓄积等，在液体复苏达到终点指标，血流动力学稳定后应尽早采用限制性液体复苏。对于急性大量出血者，应尽可能施行中心静脉压监测以指导液体的输入量。下列情况时可输血，紧急时输液、输血同时进行：（1）收缩压<90 mmHg，或较基础收缩压降低幅度>30 mmHg；（2）血红蛋白<70 g/L，血细胞比容<25%；（3）心率增快（>120次/min）。随机对照研究及Meta分析均显示，与开放性输血相比，对上消化道出血患者采取限制性输血可改善预后，减少再出血率和降低病死率[20,21]。对于合并有缺血性心脏病等严重疾患者，输血治疗的血红蛋白目标值可适当提高[22]。下述征象对血容量补充有很好的指导作用：意识恢复；四肢末端由湿冷、青紫转为温暖、红润，肛温与皮温差减小（<1℃）；脉搏由快弱转为正常有力，收缩压接近正常，脉压差大于30 mmHg；尿量多于0.5 ml·kg－1·h－1；中心静脉压改善。
+2．血管活性药物的使用：
+在积极补液的前提下，可以适当选用血管活性药物（如多巴胺或去甲肾上腺素），以改善重要脏器的血液灌注。
+（三）止血措施
+1．抑酸药物：
+抑酸药能提高胃内pH值，既可促进血小板聚集和纤维蛋白凝块的形成，避免血凝块过早溶解，有利于止血和预防再出血，又可治疗消化性溃疡。临床常用的抑酸剂包括质子泵抑制剂（PPIs）和H2受体拮抗剂（H2RAs），常用的PPIs针剂有艾司奥美拉唑、奥美拉唑、泮托拉唑、兰索拉唑、雷贝拉唑、艾普拉唑等，常用的H2RAs针剂包括雷尼替丁、法莫替丁等。临床研究表明：（1）PPIs的抑酸效果显著优于H2RAs，它起效快并可显著降低再出血的发生率[23]。近期国内一项大样本量、多中心、随机对照双盲高质量研究显示，艾普拉唑组患者的72 h总体止血率达97.69%，与奥美拉唑治疗消化性溃疡出血的疗效相当，且用药次数更少[24]；（2）尽可能早期应用PPIs，建议在内镜诊疗前静脉给予大剂量（80 mg）PPIs，再持续静脉输注（8 mg/h）至内镜检查开始，内镜检查前应用PPIs可以改善出血病灶的内镜下表现，从而减少内镜下止血的需要[25]；（3）内镜诊疗后，应用大剂量PPIs可以降低高危患者再出血的发生率，并降低病死率。国外一项随机对照研究显示，内镜成功止血后，与安慰剂组相比，静脉应用大剂量艾司奥美拉唑（80 mg静脉注射+8 mg/h速度持续输注72 h）可显著减少术后再出血风险，而且还可降低再次内镜治疗率、手术率及病死率[26]。我国一项多中心随机对照研究也同样证实了高危溃疡内镜止血后静脉应用大剂量艾司奥美拉唑对预防再出血的价值[27]。且有研究证实大剂量静脉应用艾司奥美拉唑及后续口服治疗具有良好的安全性，不增加不良事件[28]。
+对于低危患者，可采用常规剂量PPIs治疗，如艾司奥美拉唑40 mg静脉输注，每天2次，实用性强，适于基层医院开展。建议对内镜止血治疗后的高危患者，如Forrest分级Ⅰa~Ⅱb的溃疡、内镜止血困难或内镜止血效果不确定者、合并服用抗血小板药物或NSAIDs者，给予静脉大剂量PPIs（如艾司奥美拉唑）72 h，并可适当延长大剂量PPIs疗程，然后改为标准剂量PPIs静脉输注，每日2次，3~5 d，此后口服标准剂量PPIs至溃疡愈合。如果患者病情允许且能够耐受口服药物，也可考虑大剂量口服PPIs预防再出血（如艾司奥美拉唑40 mg/次，1次/12 h，连用3 d）。
+对于内镜黏膜下剥离术/内镜下黏膜切除术（ESD/EMR）术后形成的人工溃疡，应按照消化性溃疡的标准给予抑酸治疗，PPIs是胃ESD术后预防出血和促进人工溃疡愈合的首选药物。目前研究大多建议从手术当天起静脉应用标准剂量PPIs，每天2次，2~3 d后改为口服标准剂量PPIs，每日1次，疗程4~8周[6]。对于ESD术后形成的高危溃疡也可使用80 mg静脉注射+8 mg/h速度持续输注72 h的方案。有研究显示，ESD术前使用PPIs可促进人工溃疡的愈合，但并不能显著降低术后出血风险[29,30]。目前，对于ESD术前使用PPIs是否可以降低术后并发症的高质量研究数量极少，尚需更多高质量、大样本的随机对照研究明确。一项纳入10项随机对照研究共1 283例上消化道出血行内镜治疗患者的Meta分析结果显示，与H2RA相比，PPIs显著降低再出血率，减少需手术治疗的患者数[31]。因此，胃ESD术后迟发性出血患者内镜止血后推荐大剂量静脉应用PPIs。伴有ESD术后迟发性出血危险因素及人工溃疡延迟愈合高危因素的患者，可酌情增加PPIs用量、延长疗程或加用胃黏膜保护剂。
+2．内镜下止血：
+起效迅速、疗效确切。推荐对Forrest分级Ⅰa~Ⅱb的出血病变行内镜下止血治疗。在内镜下止血前，对严重大出血或急性活动性出血患者必要时可使用红霉素（250 mg静脉输注），可显著减少胃内积血量、改善内镜视野，且不良事件无明显增加[22,23,32]。常用的内镜止血方法包括药物局部注射、热凝止血和机械止血3种。药物注射可选用1∶10 000去甲肾上腺素盐水、高渗钠-肾上腺素溶液（HSE）等，其优点为简便易行；热凝止血包括高频电凝、氩离子凝固术（APC）、热探头、微波等方法，止血效果可靠，但需要一定的设备与技术经验；机械止血主要采用各种止血夹，尤其适用于活动性出血，但对某些部位的病灶难以操作。临床证据表明，在药物注射治疗的基础上，联合一种热凝或机械止血方法，可以进一步提高局部病灶的止血效果[33]。对部分初始止血后再出血风险高的患者，例如血流动力学状态不稳、严重贫血（Hb<80 g/L）、活动性出血（Forrest Ⅰa/Ⅰb）、巨大溃疡（>2 cm）、呕血和Forrest Ⅱa类溃疡等，在进行止血并使用PPIs后可考虑复查内镜[34]。对于常规止血方法难以控制出血者，Over-The-Scope-Clip（OTSC）系统是有效的补救手段。最近一项使用OTSC对复发性消化性溃疡出血进行止血的随机对照研究显示，与标准内镜治疗相比，接受OTSC治疗的患者再出血率明显下降（15%比58%）[35]，因此对于常规止血方法无效的出血病灶或复发性消化性溃疡出血，有条件的医院建议采用OTSC进行补救治疗。对于其他新型止血方法，例如止血粉喷洒（Hemospray和多聚糖止血粉等）、组织胶注射等，目前尚缺乏与传统止血方法的高质量对照研究。
+3．静脉使用止血药物：
+静脉使用止血药物对ANVUGIB的疗效尚未证实，不推荐作为一线药物使用，以免加重血栓风险。
+4．数字减影血管造影（DSA）：
+对内镜止血失败或外科手术风险过大的患者，DSA有助于明确出血的部位与病因，必要时可行栓塞治疗。
+5．手术治疗：
+对经各种检查仍未能明确诊断而出血不止，病情特别凶险者，或药物、内镜和放射介入治疗失败者，可进行内科、影像介入、外科等多学科协作诊疗，病情紧急时可考虑剖腹探查，可在术中结合内镜检查，明确出血部位后进行治疗。
+七、病因治疗
+对出血病因明确者，为提高疗效、防止复发，应采取针对原发病的病因治疗。如幽门螺杆菌（Hp）阳性的消化性溃疡患者，应予Hp根除治疗及抗溃疡治疗，根除治疗应在出血停止后尽早开始，根除治疗结束后应注意随访评估根除的效果[36]。Hp感染不仅是早期胃癌ESD术后溃疡复发的危险因素，更是肿瘤复发的危险因素，根除Hp可显著降低早期胃癌ESD术后异时癌的发生率。近期一项随机对照研究发现，早期胃癌ESD治疗后，Hp根除组发生异时胃癌的比例明显低于安慰剂组（7.2%比13.4%，P=0.03）[37]。因此推荐在早期胃癌ESD治疗后对Hp感染者进行根除治疗。对服用抗血小板药物所致溃疡、出血的患者，应积极给予抑酸药和胃黏膜保护剂，首选PPIs，并根除Hp，详见《抗血小板药物消化道损伤的预防和治疗中国专家共识》[38]。新型口服抗凝药（NOACs）（例如：达比加群酯、利伐沙班、阿哌沙班、依度沙班等）不断涌现。近期有研究报道，NOACs与传统抗凝药物致严重消化道出血比例相似[39]，亦有Meta分析结果显示，NOACs的颅内出血发生率低于华法林，但其消化道出血的发生率高于华法林[40]。相关处理详见《抗栓治疗消化道损伤防治中国专家建议》[41]。
+指南推荐要点：
+1．消化性溃疡出血是我国ANVUGIB的最主要原因。
+2．对ANVUGIB患者应立即进行全身情况及血流动力学评估，并尽快进行液体复苏。对于合并血流动力学不稳的患者，应在积极液体复苏纠正血流动力学紊乱后尽早行紧急内镜检查。
+3．对需要输血的ANVUGIB患者，建议采取限制性输血治疗。
+4．建议采用经过临床验证的预后评分体系对患者进行病情评估，在内镜下采用Forrest分级对出血溃疡进行再出血风险判断。
+5．内镜治疗前采用大剂量PPIs可减少内镜下止血的需要、降低内镜治疗难度；内镜治疗后大剂量PPIs可以降低高危患者再出血率及病死率。对于常规止血方法无效的难治性消化性溃疡出血，可采用OTSC进行补救治疗。
+6．对于ESD/EMR术后形成的人工溃疡，应按照消化性溃疡的标准给予抑酸治疗。对伴有ESD术后迟发性出血危险因素及人工溃疡延迟愈合高危因素的患者，可酌情增加PPIs用量、延长疗程或加用胃黏膜保护剂。
+7．ANVUGIB在成功止血后，应积极采取针对原发病的病因治疗，预防再出血。对于Hp阳性的消化性溃疡出血患者，成功止血后应尽早开始根除Hp治疗。
+委员会成员
+参加指南修订的专家（以姓氏汉语拼音排序）：柏愚（海军军医大学附属长海医院消化科）；蔡全才（海军军医大学临床流行病学与循证医学中心）；陈东风（陆军特色医学中心消化科）；陈旻湖（中山大学附属第一医院消化科）；杜奕奇（海军军医大学附属长海医院消化科）；冯缨（中华消化杂志编辑部）；郭学刚（空军军医大学西京医院消化科）；侯晓华（华中科技大学同济医学院附属协和医院消化科）；胡志前（海军军医大学长征医院普外科）；李延青（山东大学齐鲁医院消化科）；李兆申（海军军医大学附属长海医院消化科）；令狐恩强（解放军总医院消化科）；吕农华（南昌大学第一附属医院消化科）；聂时南（东部战区总医院急诊科）；钱家鸣（中国医学科学院 北京协和医学院 北京协和医院消化科）；任旭（黑龙江省医院消化病院）；沈志伟（中华内科杂志编辑部）；唐承薇（四川大学华西医院消化科）；唐涌进（中华消化内镜杂志编辑部）；田文华（上海复旦大学社会发展与公共政策学院）；王子卫（重庆医科大学附属第一医院普外科）；吴健（浙江大学计算机学院）；谢渭芬（海军军医大学长征医院消化科）；徐红（吉林大学白求恩第一医院消化科）；游苏宁（中华医学会）；杨仕明（陆军军医大学第二附属医院消化科）；余佩武（陆军军医大学第一附属医院普外科）；张建波（解放军总医院第四医学中心急诊科）；张玲娟（海军军医大学附属长海医院护理部）；张澍田（首都医科大学附属北京友谊医院消化科）；周丽雅（北京大学第三医院消化科）；周荣斌（解放军总医院急诊科）；邹多武（上海交通大学医学院附属瑞金医院消化科）；邹晓平（南京大学医学院附属鼓楼医院消化科）；周阳（中华医学杂志编辑部）
+执笔：柏愚、孟茜茜、王树玲、赵胜兵（海军军医大学附属长海医院消化科）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+《中华内科杂志》，《中华医学杂志》，《中华消化杂志》，等.
+急性非静脉曲张性上消化道出血诊治指南（2015年,南昌）[J].
+中华内科杂志,
+2016,
+55(
+2):
+164-
+168.
+DOI:10.3760/cma.j.issn.0578-1426.2016.02.025.
+[2]
+LanasA, DumonceauJM, HuntRH, et al.
+Non-variceal upper gastrointestinal bleeding[J].
+Nat Rev Dis Primers,
+2018,
+4∶
+18020.
+DOI: 10.1038/nrdp.2018.20.
+[3]
+王锦萍,崔毅,王锦辉,等.
+上消化道出血15年临床流行病学变化趋势[J].
+中华胃肠外科杂志,
+2017,
+20(
+4):
+425-
+431.
+DOI: 10.3760/cma.j.issn.1671-0274.2017.04.012.
+[4]
+王海燕,顿晓熠,柏愚,等.
+中国上消化道出血的临床流行病学分析[J].
+中华消化内镜杂志,
+2013,
+30(
+2):
+83-
+86.
+DOI: 10.3760/cma.j.issn.1007-5232.2013.02.007.
+[5]
+RockeyDC.
+Occult and obscure gastrointestinal bleeding: causes and clinical management[J].
+Nat Rev Gastroenterol Hepatol,
+2010,
+7(
+5):
+265-
+279.
+DOI: 10.1038/nrgastro.2010.42.
+[6]
+中华医学会消化内镜学分会.
+胃黏膜病变内镜黏膜下剥离术围手术期用药专家建议（2015年，苏州）[J].
+中华内科杂志,
+2015,
+54(
+10):
+905-
+908.
+DOI: 10.3760/cma.j.issn.0578-1426.2015.10.023.
+[7]
+LibânioD, CostaMN, Pimentel-NunesP, et al.
+Risk factors for bleeding after gastric endoscopic submucosal dissection: a systematic review and meta-analysis[J].
+Gastrointest Endosc,
+2016,
+84(
+4):
+572-
+586.
+DOI: 10.1016/j.gie.2016.06.033.
+[8]
+国家消化系统疾病临床医学研究中心,中华医学会消化内镜学分会,中国医师协会消化医师分会.
+胃内镜黏膜下剥离术围手术期指南[J].
+中华消化内镜杂志,
+2017,
+34(
+12):
+837-
+851.
+DOI: 10.3760/cma.j.issn.1007-5232.2017.12.001.
+[9]
+SrygleyFD, GerardoCJ, TranT, et al.
+Does this patient have a severe upper gastrointestinal bleed?[J].
+JAMA,
+2012,
+307(
+10):
+1072-
+1079.
+DOI: 10.1001/jama.2012.253.
+[10]
+BaiY, DuYQ, WangD, et al.
+Peptic ulcer bleeding in China: a multicenter endoscopic survey of 1006 patients[J].
+J Dig Dis,
+2014,
+15(
+1):
+5-
+11.
+DOI: 10.1111/1751-2980.12104.
+[11]
+JensenDM, EklundS, PerssonT, et al.
+Reassessment of rebleeding risk of Forrest IB (Oozing) peptic ulcer bleeding in a large international randomized trial[J].
+Am J Gastroenterol,
+2017,
+112(
+3):
+441-
+446.
+DOI: 10.1038/ajg.2016.582.
+[12]
+LaineL, PetersonWL.
+Bleeding peptic ulcer[J].
+N Engl J Med,
+1994,
+331(
+11):
+717-
+727.
+DOI: 10.1056/NEJM199409153311107.
+[13]
+BlatchfordO, MurrayWR, BlatchfordM.
+A risk score to predict need for treatment for upper-gastrointestinal haemorrhage[J].
+Lancet,
+2000,
+356(
+9238):
+1318-
+1321.
+DOI: 10.1016/S0140-6736(00)02816-6.
+[14]
+RockallTA, LoganRF, DevlinHB, et al.
+Risk assessment after acute upper gastrointestinal haemorrhage[J].
+Gut,
+1996,
+38(
+3):
+316-
+321.
+[15]
+SaltzmanJR, TabakYP, HyettBH, et al.
+A simple risk score accurately predicts in-hospital mortality, length of stay, and cost in acute upper GI bleeding[J].
+Gastrointest Endosc,
+2011,
+74(
+6):
+1215-
+1224.
+DOI: 10.1016/j.gie.2011.06.024.
+[16]
+PalmerAJ, MoroniF, McleishS, et al.
+Risk assessment in acute non-variceal upper GI bleeding: the AIMS65 score in comparison with the Glasgow-Blatchford score in a Scottish population[J].
+Frontline Gastroenterol,
+2016,
+7(
+2):
+90-
+96.
+DOI: 10.1136/flgastro-2015-100594.
+[17]
+RobertsonM, MajumdarA, BoyapatiR, et al.
+Risk stratification in acute upper GI bleeding: comparison of the AIMS65 score with the Glasgow-Blatchford and Rockall scoring systems[J].
+Gastrointest Endosc,
+2016,
+83(
+6):
+1151-
+1160.
+DOI: 10.1016/j.gie.2015.10.021.
+[18]
+StanleyAJ, LaineL, DaltonHR, et al.
+Comparison of risk scoring systems for patients presenting with upper gastrointestinal bleeding: international multicentre prospective study[J].
+BMJ,
+2017,
+356:
+i6432.
+DOI: 10.1136/bmj.i6432.
+[19]
+RamaekersR, MukarramM, SmithCA, et al.
+The predictive value of preendoscopic risk scores to predict adverse outcomes in emergency department patients with upper gastrointestinal bleeding: a systematic review[J].
+Acad Emerg Med,
+2016,
+23(
+11):
+1218-
+1227.
+DOI: 10.1111/acem.13101.
+[20]
+VillanuevaC, ColomoA, BoschA, et al.
+Transfusion strategies for acute upper gastrointestinal bleeding[J].
+N Engl J Med,
+2013,
+368(
+1):
+11-
+21.
+DOI: 10.1056/NEJMoa1211801.
+[21]
+OdutayoA, DesboroughMJ, TrivellaM, et al.
+Restrictive versus liberal blood transfusion for gastrointestinal bleeding: a systematic review and meta-analysis of randomised controlled trials[J].
+Lancet Gastroenterol Hepatol,
+2017,
+2(
+5):
+354-
+360.
+DOI: 10.1016/S2468-1253(17)30054-7.
+[22]
+GralnekIM, DumonceauJM, KuipersEJ, et al.
+Diagnosis and management of nonvariceal upper gastrointestinal hemorrhage: European Society of Gastrointestinal Endoscopy (ESGE) Guideline[J].
+Endoscopy,
+2015,
+47(
+10):
+a1-
+46.
+DOI: 10.1055/s-0034-1393172.
+[23]
+LaineL, JensenDM.
+Management of patients with ulcer bleeding[J].
+Am J Gastroenterol,
+2012,
+107(
+3):
+345-
+360.
+DOI: 10.1038/ajg.2011.480.
+[24]
+索宝军,王晔,周丽雅,等.
+注射用艾普拉唑钠治疗消化性溃疡出血的多中心、随机、双盲、阳性药物平行对照Ⅲ期临床研究[J].
+中华消化杂志,
+2018,
+38(
+10):
+691-
+696.
+DOI: 10.3760/cma.j.issn.0254-1432.2018.10.009.
+[25]
+LauJY, LeungWK, WuJC, et al.
+Omeprazole before endoscopy in patients with gastrointestinal bleeding[J].
+N Engl J Med,
+2007,
+356(
+16):
+1631-
+1640.
+DOI: 10.1056/NEJMoa065703.
+[26]
+SungJJ, BarkunA, KuipersEJ, et al.
+Intravenous esomeprazole for prevention of recurrent peptic ulcer bleeding: a randomized trial[J].
+Ann Intern Med,
+2009,
+150(
+7):
+455-
+464.
+[27]
+BaiY, ChenDF, WangRQ, et al.
+Intravenous esomeprazole for prevention of peptic ulcer rebleeding: a randomized trial in Chinese patients[J].
+Adv Ther,
+2015,
+32(
+11):
+1160-
+1176.
+DOI: 10.1007/s12325-015-0265-6.
+[28]
+KuipersEJ, SungJJ, BarkunA, et al.
+Safety and tolerability of high-dose intravenous esomeprazole for prevention of peptic ulcer rebleeding[J].
+Adv Ther,
+2011,
+28(
+2):
+150-
+159.
+DOI: 10.1007/s12325-010-0095-5.
+[29]
+MyungYS, HongSJ, HanJP, et al.
+Effects of administration of a proton pump inhibitor before endoscopic submucosal dissection for differentiated early gastric cancer with ulcer[J].
+Gastric Cancer,
+2017,
+20(
+1):
+200-
+206.
+DOI: 10.1007/s10120-015-0578-9.
+[30]
+NishizawaT, SuzukiH, AkimotoT, et al.
+Effects of preoperative proton pump inhibitor administration on bleeding after gastric endoscopic submucosal dissection: a systematic review and meta-analysis[J].
+United European Gastroenterol J,
+2016,
+4(
+1):
+5-
+10.
+DOI: 10.1177/2050640615588023.
+[31]
+ZhangYS, LiQ, HeBS, et al.
+Proton pump inhibitors therapy vs H2 receptor antagonists therapy for upper gastrointestinal bleeding after endoscopy: a meta-analysis[J].
+World J Gastroenterol,
+2015,
+21(
+20):
+6341-
+6351.
+DOI: 10.3748/wjg.v21.i20.6341.
+[32]
+BaiY, GuoJF, LiZS.
+Meta-analysis: erythromycin before endoscopy for acute upper gastrointestinal bleeding[J].
+Aliment Pharmacol Ther,
+2011,
+34(
+2):
+166-
+171.
+DOI: 10.1111/j.1365-2036.2011.04708.x.
+[33]
+GralnekIM, BarkunAN, BardouM.
+Management of acute bleeding from a peptic ulcer[J].
+N Engl J Med,
+2008,
+359(
+9):
+928-
+937.
+DOI: 10.1056/NEJMra0706113.
+[34]
+FujishiroM, IguchiM, KakushimaN, et al.
+Guidelines for endoscopic management of non-variceal upper gastrointestinal bleeding[J].
+Dig Endosc,
+2016,
+28(
+4):
+363-
+378.
+DOI: 10.1111/den.12639.
+[35]
+SchmidtA, GölderS, GoetzM, et al.
+Over-the-scope clips are more effective than standard endoscopic therapy for patients with recurrent bleeding of peptic ulcers[J].
+Gastroenterology,
+2018,
+155(
+3):
+674-
+686.e6.
+DOI: 10.1053/j.gastro.2018.05.037.
+[36]
+中华医学会消化病学分会幽门螺杆菌和消化性溃疡学组,全国幽门螺杆菌研究协作组,刘文忠,等.
+第五次全国幽门螺杆菌感染处理共识报告[J].
+中华内科杂志,
+2017,
+56(
+7):
+532-
+545.
+DOI: 10.3760/cma.j.issn.0578-1426.2017.07.014.
+[37]
+ChoiIJ, KookMC, KimYI, et al.
+Helicobacter pylori therapy for the prevention of metachronous gastric cancer[J].
+N Engl J Med,
+2018,
+378(
+12):
+1085-
+1095.
+DOI: 10.1056/NEJMoa1708423.
+[38]
+抗血小板药物消化道损伤的预防和治疗中国专家共识组.
+抗血小板药物消化道损伤的预防和治疗中国专家共识（2012更新版）[J].
+中华内科杂志,
+2013,
+52(
+3):
+264-
+270.
+DOI: 10.3760/cma.j.issn.0578-1426.2013.03.027.
+[39]
+MillerCS, DorreenA, MartelM, et al.
+Risk of gastrointestinal bleeding in patients taking non-vitamin K antagonist oral anticoagulants: a systematic review and meta-analysis[J].
+Clin Gastroenterol Hepatol,
+2017,
+15(
+11):
+1674-
+1683.e3.
+DOI: 10.1016/j.cgh.2017.04.031.
+[40]
+RuffCT, GiuglianoRP, BraunwaldE, et al.
+Comparison of the efficacy and safety of new oral anticoagulants with warfarin in patients with atrial fibrillation: a meta-analysis of randomised trials[J].
+Lancet,
+2014,
+383(
+9921):
+955-
+962.
+DOI: 10.1016/S0140-6736(13)62343-0.
+[41]
+抗栓治疗消化道损伤防治专家组.
+抗栓治疗消化道损伤防治中国专家建议（2016·北京）[J].
+中华内科杂志,
+2016,
+55(
+7):
+564-
+567.
+DOI: 10.3760/cma.j.issn.0578-1426.2016.07.020.
+贡献者信息
+《中华内科杂志》编辑委员会
+《中华医学杂志》编辑委员会
+《中华消化杂志》编辑委员会
+《中华消化内镜杂志》编辑委员会
+中国医师协会内镜医师分会消化内镜专业委员会
+关键词
+急性非静脉曲张性上消化道出血;
+指南;
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2019-03-01
+收稿日期：2018-12-23
+本文编辑
+沈志伟
+Standard and Interpretation
+Guidelines for the diagnosis and treatment of acute non-variceal upper gastrointestinal bleeding (2018, Hangzhou)
+Chinese Journal of Internal Medicine,  National Medical Journal of China,  Chinese Journal of Digestion,  Chinese Journal of Digestive Endoscopy,  Chinese Digestive Endoscopist Association
+Published
+2019-03-01
+Cite as
+Chin J Intern Med, 2019,58(3): 173-180. DOI: 10.3760/cma.j.issn.0578-1426.2019.03.005
+Abstract
+Acute non-variceal upper gastrointestinal bleeding (ANVUGIB) is one of the most common medical emergencies worldwide. In 2009, the first edition of "Guidelines for the diagnosis and treatment of acute non-variceal upper gastrointestinal bleeding" was published in China. These guidelines were updated in 2015, which aimed to provide the standard diagnosis and management for patients with ANVUGIB. Based on the rapid development of multiple disciplines and latest understanding of ANVUGIB, this new edition of guidelines was therefore released for standardizing the diagnosis and management process of ANVUGIB.
+Key words:
+Acute non-variceal upper gastrointestinal bleeding; Guideline
+Contributor Information
+Chinese Journal of Internal Medicine
+National Medical Journal of China
+Chinese Journal of Digestion
+Chinese Journal of Digestive Endoscopy
+Chinese Digestive Endoscopist Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+出血性消化性溃疡改良Forrest分级及再出血风险[12]
+Forrest分级
+溃疡病变
+再出血概率（%）
+Ⅰa
+喷射样出血
+55
+Ⅰb
+活动性渗血
+55
+Ⅱa
+血管裸露
+43
+Ⅱb
+附着血凝块
+22
+Ⅱc
+黑色基底
+10
+Ⅲ
+基底洁净
+5
+图1
+出血性消化性溃疡的改良Forrest分级 1A Forrest Ⅰa级，喷射样出血 1B Forrest Ⅰb级，活动性渗血 1C Forrest Ⅱa级，血管裸露 1D Forrest Ⅱb级，血凝块附着 1E Forrest Ⅱc级，黑色基底 1F Forrest Ⅲ级，基底洁净
+表2
+Blatchford评分系统
+项目
+评分
+收缩压（mmHg）
+100~109
+1
+90~99
+2
+<90
+3
+血尿素氮（mmol/L）
+6.5~7.9
+2
+8.0~9.9
+3
+10.0~24.9
+4
+≥25.0
+6
+血红蛋白（g/L）
+男性
+120~129
+1
+100~119
+3
+<100
+6
+女性
+100~119
+1
+<100
+6
+其他表现
+脉搏≥100次/min
+1
+黑便
+1
+晕厥
+2
+肝脏疾病
+2
+心力衰竭
+2
+注：积分≥ 6分为中高危，<6分为低危；1 mmHg=0.133 kPa
+表3
+Rockall评分系统
+项目
+评分
+年龄（岁）
+<60
+0
+60~79
+1
+≥80
+2
+休克状况
+无休克a
+0
+心动过速b
+1
+低血压c
+2
+伴发病
+无
+0
+心力衰竭、缺血性心脏病或其他重要伴发病
+2
+肾衰竭、肝功能衰竭和癌肿播散
+3
+内镜诊断
+无病变，Mallory-Weiss综合征
+0
+溃疡等其他病变
+1
+上消化道恶性疾病
+2
+内镜下出血征象
+无或有黑斑
+0
+上消化道血液潴留，黏附血凝块，血管显露或喷血
+2
+注：a收缩压>100 mmHg（1 mmHg=0.133 kPa），心率<100次/min；b收缩压>100 mmHg，心率>100次/min；c收缩压<100 mmHg，心率>100次/min；Mallory-Weiss综合征为食管黏膜撕裂症；积分≥5分为高危，3~4分为中危，0~2分为低危
+注：PPI为质子泵抑制剂；H2RA为H2受体拮抗剂
+图2
+急性非静脉曲张性上消化道出血诊治流程
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华内科杂志2019年58卷3期
+文    题：急性非静脉曲张性上消化道出血诊治指南（2018年，杭州）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华内科杂志2019年58卷3期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

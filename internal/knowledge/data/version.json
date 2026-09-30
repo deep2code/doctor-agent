@@ -1,8 +1,9 @@
 {
-  "version": "1.50.0",
-  "updated": "2026-09-29",
-  "description": "2026-09-29 科普扩充第十六批: 科学辟谣平台全量续入库——从已结构化的 piyao_articles.json(3633条) 取未选中的2357条(剔正文<150字)新建 piyao_more.json，与既有 piyao_selected(1288条)零 id 冲突；累计科学辟谣条目达3645条",
+  "version": "1.51.0",
+  "updated": "2026-09-30",
+  "description": "2026-09-30 科普扩充第十七批: 五路权威来源并入库——中华医学会科普157(cmap-)+中国康复医学会73(kf-)+数字科技馆「科学」流言榜逐条辟谣247(dsc-)+医师报科普738(mw-)+中华医学会临床指南全文续抓38(yg2-)，共1253条并入单一 medical 数据集；另卫健委诊疗指南全文层 nhc_guides 由47扩至69篇(新增22本官方诊疗方案/规范/技术指南，行政公文·办事指南类按口径不入库；仍走 nhc 全文层)",
   "sources": [
+    "2026-09-30 新增(第十七批): 中华医学会科普157条(cma_society_popular.json,cmap-)——消化/肝胆/肾内/男科/妇产/新生儿/过敏/肿瘤/心脑/老年/心理/急救科普，来源 cmab 中华医学会系列，external/convert_batch17.py 转换，keywords仅[标题+condition](防磁铁词)、level=official_guideline·journal留空；中国康复医学会科普73条(rehab_society.json,kf-)——吞咽障碍/卒中后康复/骨折术后/运动处方/儿童康复/睡眠障碍，来源 carm.org.cn；数字科技馆「科学」流言榜辟谣247条(cdstm_rumor_board.json,dsc-)——按每条流言单独拆条(月榜聚合页不可召回)，覆盖咳嗽变肺炎/头孢配酒/防弹咖啡减肥/阿托品逆转近视/降压药换药耐药/输液疏通血管等谣言粉碎，来源 cdstm.cn，category=rumor_debunking·evidence=official_statement；医师报科普738条(mdweekly_popular.json,mw-)——健康报社主管国家级医学报纸医学科普，抑郁/HPV疫苗/海姆立克/卒中/甲状腺/痛风/儿科/肿瘤筛查等，来源 mdweekly.com.cn 的 index/article/detail 全文页(早期抓取误用数字报版面目录页，正文为空、只有「标题导航」头版列表；本轮按 raw 全量重转换并把该版式识别为必须跳过)，中位1256汉字；中华医学会临床指南全文续抓38条(yiigle_guides_more.json,yg2-)——房颤/哮喘/COPD/手足口/乙肝/丙肝/青光眼/肺栓塞/肺结节/骨关节炎/新生儿败血症等基层诊疗指南全文，与批次14 ycg- 零重叠；另卫健委诊疗指南全文层 nhc_guides.json 由47扩至69篇(fetch_nhc_all.py 扩10司局栏目+修复代理附件magic-byte分派，行政公文·办事指南类不入库)，五路共1253条全部并入单一 medical 数据集(零检索层改动)",
     "2026-09-29 新增(第十六批): 科学辟谣平台续入库2357条(piyao_more.json)——中国科协/中央网信办科学辟谣平台已结构化语料中此前未选中的部分，营养健康862/疾病防治820/生活解惑675，正文中位949字，每条 keywords 仅[标题+主题](防磁铁词)、category=rumor_debunking、citation type=national_guideline·journal留空·level=official_guideline、URL 指向 piyao.kepuchina.cn 原辟谣页；与 piyao_selected.json 无 id 重叠，全部并入单一 medical 数据集",
     "2026-09-28 新增(第九批): WHO官方中文站健康内容336条(who_zh_health.json)——23主题页+147官方问答+166新闻稿，覆盖堕胎安全/避孕/HIV预防/癌症筛查/儿童生长/心理健康/心血管/食品安全/环境健康，来源 www.who.int/zh/，引用 level=official_guideline、journal留空(WHO机构出版物无DOI/PMID属设计)",
     "2026-09-28 新增(第十批): 中国营养学会73条(heart_nutrition_orgs.json)——学术会议/科学普及/出版物/营养资讯，覆盖心脏健康与膳食指南，来源 cnsoc.org/dg.cnsoc.org/nccd/fuwai，external/convert_heart_nutrition_orgs.py 转换",

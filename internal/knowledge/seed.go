@@ -139,7 +139,7 @@ func seedFile(base string, raw []byte) (string, []KBRow, error) {
 		"adult_vaccines.json",
 		"adult_diet.json", "myopia_prevention.json", "oral_health.json",
 		"cancer_prevention.json",
-		"chronic_diet.json", "safe_medication.json", "infection_food_safety.json",
+		"chronic_diet.json", "chronic_diet_obesity.json", "safe_medication.json", "infection_food_safety.json",
 		"checkup_labs.json",
 		"elderly_meds_falls.json", "symptom_triage.json",
 		"womens_health.json", "home_monitoring.json",

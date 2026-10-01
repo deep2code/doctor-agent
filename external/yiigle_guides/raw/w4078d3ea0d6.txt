@@ -1,0 +1,917 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%84%BF%E7%AB%A5%E8%82%BA%E7%82%8E%E6%94%AF%E5%8E%9F%E4%BD%93%E6%84%9F%E6%9F%93%E5%AE%9E%E9%AA%8C%E5%AE%A4%E8%AF%8A%E6%96%AD%E8%A7%84%E8%8C%83%E5%92%8C%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882019%E5%B9%B4%EF%BC%89.html
+# 标题: 中国儿童肺炎支原体感染实验室诊断规范和临床实践专家共识（2019年） - 中华儿科杂志
+# 发布方/日期: 儿科，中华儿科杂志, 2020,58(05) : 366-373. DOI: 10.3760/cma.j；2020-05-02
+
+中国儿童肺炎支原体感染实验室诊断规范和临床实践专家共识（2019年）
+国家卫生计生委合理用药专家委员会儿童用药专业组
+中华儿科杂志, 2020,58(05) : 366-373. DOI: 10.3760/cma.j.cn112140-20200304-00176
+中国政府历来十分重视临床抗菌药物的合理使用，2004年原国家卫生部发布关于实施"抗菌药物临床应用指导原则"的通知，由此揭开抗菌药物专项管理的新序幕，之后逐年均推出有关抗菌药物临床应用的相应通知、管理办法、指导原则等，2018年原国家卫生计生委发布"关于持续做好抗菌药物临床应用管理有关工作的通知"(国卫办医发〔2018〕9号)[1]，正面提出要逐步转变抗菌药物临床应用管理模式，从"以行政部门干预为主"转变为"以多学科专业协作管理为主"，并明确提出"加强儿童等重点人群抗菌药物临床应用管理，采取综合措施解决当前儿童使用抗菌药物面临的突出问题"，通知要求"持续完善多学科诊疗体系""充分发挥临床微生物检验在多学科抗菌药物管理中的作用"。按照这一原则，国家卫生计生委合理用药专家委员会发出关于召开"中国儿童肺炎支原体感染实验室诊断规范及其临床应用专家共识"编写启动会的通知（国卫合药委函〔2019〕5号)，并于2019年2月组织儿科临床专业与检验专业专家启动编写"中国儿童肺炎支原体感染实验室诊断规范和临床实践专家共识（2019年）"（以下简称"共识"），目的是进一步规范肺炎支原体（Mycoplasma pneumoniae,MP）的实验室诊断，促进临床合理用药。
+针对MP感染及其肺炎等，中华儿科杂志在2016年2月的第54卷第2期有5篇专论和2篇系统评价，并有述评指出儿科医生对肺炎支原体感染的认知有更新之必要[2]。无独有偶，在组织编写"共识"之际，中华医学会儿科学分会临床检验学组在中华检验医学杂志上刊出了"儿童肺炎支原体呼吸道感染实验室诊断中国专家共识"[3]，这更激励和促成儿科临床专业与检验专业专家编写出与临床实践密切结合的"共识"，规范MP的实验室诊断。
+"共识"分成3个部分：第一部分为MP感染的临床学若干问题；第二部分是MP感染的实验室诊断规范；第三部分则是前两部分的结合，从中国实际情况出发，针对儿童MP感染，分层推出不同等级医院、不同环境如门诊或病房、不同年龄和不同病期以及某些特殊状况如免疫功能低下者MP感染的实验室诊断方法。"共识"推荐的依据是检测方法的敏感性和特异性，兼顾其实用性、可及性和经济性。
+一、MP感染的临床学若干问题
+（一）微生物学及其致病机制
+MP归属支原体属支原体科支原体目柔膜体纲，是迄今发现的能在体外固体培养基（如SP4培养基）上生长、不依靠活体细胞而生存的最小微生物。其菌落在高倍显微镜下呈典型的煎蛋状。MP无细胞壁，形态多样，常为纺锤体状，长1~2 μm、宽0.1~0.2 μm，体积不及细菌平均体积的5%，可以通过0.45 μm孔径的细菌滤器。MP结构呈环状双股DNA，共有687个基因，全长816 394 bp[4]。
+MP感染的致病机制尚未完全明确，感染的MP载量、宿主的免疫状态以及呼吸道正常菌群的分布均可能影响MP感染的进程。MP可通过黏附及细胞毒效应对呼吸道上皮造成直接损伤、通过免疫机制引起呼吸系统和其他系统损伤[5]，当侵入呼吸道并借滑行运动定位于纤毛间时，MP丝状体顶端的P1和P30黏附蛋白可使其牢固地黏附于上皮细胞的表面受体，抵抗纤毛的清除和吞噬细胞的吞噬，黏附蛋白也具有直接细胞毒性并激活初始炎症反应。内源性活性氧及过氧化物、脂蛋白也是重要毒力因素[6]，而MP分泌的社区获得性呼吸窘迫综合征毒素可造成上皮细胞空泡化、纤毛功能丧失等气道黏膜损伤。另一方面，机体的免疫炎性反应、细胞因子产生的炎症级联放大效应以及机体自身免疫机制等共同参与了MP复杂的致病机制。
+(二）流行病学特点
+MP感染全年散发，我国北方以冬季、南方则以夏秋季为多，每3~7年有一次流行高峰。在社区、家庭内或聚集人群中可以有流行感染，暴发则往往多在学校、幼托机构、夏令营等较封闭的群体中。MP感染无显著性别差异。
+MP患者是主要的传染源，通过飞沫经呼吸道传播，各年龄段人群对其普遍易感，儿童则是最易感的人群。发病高峰年龄是学龄前期和学龄期儿童，3~15岁儿童的社区获得性肺炎（community acquired pneumonia,CAP)中8%~40%由MP感染引起，但反复感染者少见[7,8]。婴幼儿常表现为轻症感染。MP呼吸道感染潜伏期2~3周，有学者观察到肺炎支原体肺炎（Mycoplasma pneumoniae pneumonia, MPP）随着平均温度和相对湿度的增高而增多，温度和湿度对MPP的影响还存在滞后效应，温度的滞后效应0~1周，湿度滞后则长达3~8周[9]。
+（三）临床表现
+MP呼吸道感染临床表现呈多样性，可以从无症状到鼻咽炎、鼻窦炎、中耳炎、咽扁桃体炎、气管支气管炎、细支气管炎和肺炎等。
+1．上呼吸道感染：
+学龄期儿童的上呼吸道疾病中约5%为MP感染，儿童和青少年扁桃体炎的MP检测阳性率为5%~16%[10]。慢性鼻窦炎及其合并腺样体肥大者MP检出率也高，长期滞留于鼻咽部及腺样体可能会造成腺样体增生[11]。与MPP有关的头痛者，需考虑伴发鼻窦炎[12]。MP中耳炎临床表现缺乏特异性，在儿童急性中耳炎出现β-内酰胺类疗效不佳时，需警惕MP感染的可能性。
+2．下呼吸道感染：
+MP气管支气管炎发生率约是肺炎的20倍，而10%~40% MP呼吸道感染会发展成肺炎[5,13]。MPP的主要临床表现是发热、咳嗽，肺部体征与临床症状及影像学所见常不一致。临床表现不具有特征性，胸部影像呈多样性改变，同样缺乏特异性。所以任何一项临床征象的存在或缺失都不能作为肯定或否定MPP的识别依据[14]，确诊MPP需要综合流行病学史、临床资料和胸部影像学资料，并进行MP的病原学检查。MP气管支气管炎者咳嗽时间过长要注意合并百日咳感染[15]。喘息是MP致细支气管炎的主要表现，婴幼儿MPP者喘息症状较年长儿明显[13]。MP感染还与哮喘样急性发作相关，有31%~50%MP感染者会出现哮喘样急性发作[13,16]。
+3．MP感染肺外表现：
+发生率约25%。MP感染可有全身各系统并发症，也可以单独以肺外症状首发起病，容易误诊和漏诊。MP感染引起消化系统表现以肝功能轻中度损害为主；神经系统症状的发生率10%[17]，最常见为脑炎；也可引起急性肾小球肾炎综合征、间质性肾炎和IgA肾病，少数可引起急性肾功能衰竭[18]。MP感染引起皮疹呈多样性，极少数可发生渗出性多形性红斑，这是MP感染最严重的皮肤损害表现[19]。血液系统的表现以溶血性贫血多见，也可引起血小板减少或增多、粒细胞生成减少、再生障碍性贫血、凝血异常、噬血细胞综合征、传染性单核细胞增多症等，已有脑、肺、肢体血管栓塞及弥漫性血管内凝血的报道[20]。骨关节肌肉异常表现为关节痛、关节炎、非特异性肌痛和横纹肌溶解症等。MP感染肺外多系统、多器官受累的特点提示可能与免疫炎性反应及自身免疫反应相关。
+4．重症肺炎支原体肺炎（severe Mycoplasma pneumoniae pneumonia，SMPP）和难治性肺炎支原体肺炎（refractory Mycoplasma pneumoniae pneumonia，RMPP）:
+（1）SMPP指MPP病情严重，其诊断标准与CAP严重度判定标准相一致[21]。SMPP可表现为一般情况差、拒食或脱水征、意识障碍、肺部浸润呈多肺叶或≥2/3的一侧肺受累、明显气促或发绀或呼吸困难、胸腔积液、气胸、肺不张、肺坏死、肺脓肿以及肺外并发症，具备上述表现之一者可判断为SMPP。SMPP表明肺炎病情严重，SMPP者可以是RMPP，但并不等同RMPP。(2）RMPP指MPP患儿使用大环内酯类抗菌药物正规治疗7 d及以上，临床征象加重、仍持续发热、肺部影像学所见加重、出现肺外并发症者[21]。"难治"表明该患儿对MPP常规治疗的疗效反应差，其发生机制包括肺部与全身过强的炎症反应[22]、合并肺外并发症、合并其他病原体感染、MP感染的高载量、MP对大环内酯类抗菌药物耐药、气道黏蛋白高分泌导致塑形性支气管炎、机体高凝状态促使微血栓形成甚至出现肺栓塞、坏死性肺炎、社区获得性呼吸窘迫综合征毒素损伤气道上皮细胞等。要具体分析每例患儿"难治"的原因，可以是多因素的综合。
+(四）儿童MP感染误诊、漏诊及过度诊断的原因
+1．临床表现不典型、缺乏特异性，不同年龄阶段的临床表现各不相同，尤其在婴幼儿。
+2．以肺外表现为首发者往往被漏诊，混合感染患儿MP作为病原也易被忽视。
+3．部分MPP患儿呼吸系统症状轻，甚至无呼吸道症状，影像学异常改变滞后，从而未做MP病原学检查而导致漏诊。尚需注意有些确诊为MPP的患儿胸部CT发现的异常在胸X线片上未能显示出来[23]。
+4．大环内酯类抗菌药物耐药的MP感染者，经验性给予大环内酯类疗效不佳，届时如果轻易除外MP感染就有可能导致漏诊。
+5．实验室诊断误差致临床误诊、漏诊和过诊：（1）血清学检测IgM抗体误差，MP抗体检测应该定量而非定性，单纯定性容易过多诊断MP感染（详见"实验室检测"节)。此外，一项调查急性Q热肺炎流行率的研究表明，Q热肺炎者可由于交叉反应引起MP-IgM阳性，容易被误诊为MPP[24]。（2）PCR检测误差，虽然核酸扩增技术有特异性强、灵敏和快速的优点，但也不可忽略样品中存在PCR抑制物、试剂制备和反应条件不理想、靶DNA提取效率低下等造成假阴性的情况[25]。感染MP后可不出现症状但持续携带，这会造成假阳性的结果。核酸扩增DNA检测并不能区分携带者与感染者、急性感染者与恢复期患者，单纯依赖PCR检测有可能导致MP感染的过度诊断[25]。
+二、MP感染的实验室检测
+实验室检测对于MP感染的临床诊治具有重要指导意义。MP不同检测方法各有优势和局限性，需要合理而选择性地应用。
+1．MP病原体培养:
+MP生长缓慢，对培养环境要求苛刻，培养时间长，其敏感性低于60%，但MP培养阳性可确认MP感染的诊断，是判断MP感染的"金标准"[3,5,26]，并能对分离株进行菌种鉴定、分型及药敏实验，故仍具有重要的临床意义，建议有条件的医院开展MP培养。培养基推荐使用SP4培养基，推荐采用液体-固体法。标本接种至液体培养基后将浓度自1×10-1梯度稀释至1×10-3，以降低某些抑制物的影响，提高MP检出率。MP培养的时间至少4~7 d，最佳培养时间需要21 d或者更长，MP生长分解葡萄糖产酸使液体培养基中酚红显色剂变为黄色，多次固体培养基传代培养后，镜下呈现典型的煎蛋状菌落。有一种可在临床应用的MP快速培养试剂盒，基于高营养和快速生长因子使MP快速生长，通过培养基颜色变化来判断MP的存在。该方法与MP生长特性不符，且快速培养法易受其他微生物污染而出现假阳性，因此不予以常规推荐。若确有需要开展的，一般认为4 d以后出现培养基颜色变化且呈极微弱的浑浊状态可以提供给临床作为MP感染的参考，有条件的进一步采用血清学和PCR方法证实[27,28]。
+2．MP核酸检测:
+包括DNA或者RNA，具有高灵敏度和特异性的特点，适用于MP感染的快速诊断[29]。(1)MP-DNA的检测方法主要是荧光定量PCR，根据P1蛋白或16S rRNA靶基因设计扩增引物。部分呼吸道病原多重PCR检测试剂盒中也设置了MP靶点。特异性和敏感度高，检测时间约3 h，结果稳定，可满足临床早期诊断需求。要注意MP感染后在恢复期可持续携带，其DNA的载量呈逐渐下降过程，因此，MP-DNA应定量检测，检测结果需要结合临床进行综合分析[30]。定量检测以1×103拷贝数/L或1×103U/L为单位报告，如果检测结果高于检测方法的上限，则报告≥XX×103拷贝数）/L或≥XX×103U/L，低于检测下限则报告<XX×103拷贝数/L或<XX×103U/L。（2）MP-RNA的检测是核酸恒温扩增技术和实时荧光检测技术相结合的一种核酸检测方法，简称为实时荧光恒温扩增技术（simultaneous amplification and testing，SAT）。其采用的靶标为16S rRNA，特异性高，灵敏度和扩增效率高于荧光定量PCR方法。SAT-RNA的检测结果可用于现症感染的诊断及评价MP感染治疗的疗效和预后。RNA易降解的特点可以有效减少实验室的污染和假阳性结果，但标本采集后应及时进行前处理，以避免假阴性结果。
+3．MP抗原直接检测:
+MP抗原检测通过制备P1蛋白或者50S核糖体L7/L12核糖体蛋白特异性单克隆抗体，经抗原抗体反应检测MP特定抗原。该方法特异性高，但有缺陷：敏感性较低，最小检测灵敏度一般为1×106菌落形成单位（clonal formation unit,CFU）/L，而MP阳性患者的咽拭子标本病原体含量一般为1×105~1×106 CFU/L[31]，易造成假阴性，有研究报道该方法灵敏度仅为实时PCR方法的60%~70%[32]。目前商品化的试剂盒大部分使用的是胶体金法。
+4．MP血清抗体检测:
+MP感染机体后,体内可产生特异性的IgM、IgG、IgA类抗体，IgM抗体一般在感染后4~5 d出现，3~4周后达高峰，持续1~3个月甚至更长，可作为近期感染的诊断指标[33]。IgA抗体在MP感染早期迅速上升，由IgM型转换产生，7~14 d至峰值水平，其变化与IgM基本一致。IgG抗体出现较迟，其浓度峰值在感染后的第5周，一般提示有既往感染，单独检测临床意义不大，但可用作MP感染的流行病学调查[34]。（1）颗粒凝集法（PA法）是实验室常用的诊断MP感染的血清抗体测定法，无需特殊检测设备，人工操作判读，重复性好，非特异性反应小。抗体滴度可检测范围为1∶40~1∶10 240，患儿血清抗体滴度≥1∶160，可以作为MP近期感染或急性感染的参考标准[35]。数据显示血清MP抗体滴度与MP感染患儿严重程度呈正相关，故为临床治疗及预后判断提供了依据[35]。但该方法检测的抗体是MP总抗体，有极少数感染MP的患儿可能出现持续的高滴度，建议再检测MP抗体的亚型，必要时可联合检测MP的核酸分析其原因。（2）IgM、IgG、IgA等亚型抗体测定,通常采用胶体金法、酶联免疫吸附试验（enzyme linked immunosorbent assay，ELISA）和化学发光法等。免疫胶体金技术可定性检测MP-IgM抗体，该方法检测简便、可用末梢全血，所需血量少、出具结果迅速，阳性提示MP感染，适合门诊或急诊患儿疑似MP感染快速筛查[36]。MP-IgM快速筛查阴性的结果并不能完全排除MP感染，临床高度疑似时建议进行MP抗体的定量检测或MP核酸检测以进一步明确[37]。间接免疫荧光方法也可定性检测IgM抗体，但易受人为因素、类风湿因子、多种自身免疫抗体等的影响。而ELISA法和化学发光法可定性或定量检测，定量结果对诊断和病程的判断更有价值。ELISA法可检测IgM、IgG、IgA，化学发光法可检测IgM、IgG。化学发光法较ELISA具有更高的灵敏度且重复性更好。MP-IgM抗体水平检测对6月龄以上儿童诊断急性期感染的价值较大，而对于特异性IgM产生有缺陷的个体，IgG和IgA抗体尤其是后者的检测更有意义[34,38,39]，建议根据不同人群选择检测不同抗体亚型。（3）冷凝集试验为MP感染后刺激机体产生非特异性冷凝集素，但冷凝集效价增高也可见于其他疾病，如流行性感冒，传染性单核细胞增多症、风疹等，其特异性低，现已被其他MP的检测方法所取代。（4）MP抗体血清学检测结果需要结合患儿的临床病程、基础状况以及年龄等因素综合评价。测定MP-IgM阳性对诊断MP的急性感染有价值，而仅有IgG抗体阳性者提示可能为既往感染[40]。对于反复发生MP感染或免疫缺陷的人群及婴幼儿，可能不产生或仅产生低水平的抗体而导致假阴性。另一方面，抗体产生后在部分治愈患儿体内会持续一段时间，出现抗体持续阳性情况，必要时建议检测MP核酸以明确诊断。
+5．药物敏感试验和耐药基因检测:
+美国临床与实验室标准委员会2011年颁布了支原体体外药敏测定即M43-A指南，因MP培养条件要求苛刻、生长缓慢，临床实验室一般无法常规开展体外药物敏感性试验，但对MP进行耐药状况流行病学调查时可参照执行[41]。大环内酯类药物的结合位点在23S rRNA结构域，23S rRNA结构域Ⅱ区和Ⅴ区基因位点变异会降低抗菌药物和核糖体之间的亲和力，从而使MP产生耐药性[42,43]。已发现的变异位点包括2063、2064、2067和2617。A2063G阳性表现为对14-环大环内酯类耐药，A2064G阳性表现为对14-和16-环大环内酯类耐药，C2617G阳性表现为对14-和15-环大环内酯类抗菌药物耐药，A2067G阳性表现为对交沙霉素耐药[44]。临床上可以参考MP 23S rRNA基因变异位点进行耐药分析[45,46]。现有荧光PCR法和测序法检测MP的耐药基因变异位点，但体外检测结果和体内治疗效果之间没有必然的联系，临床意义尚需进一步评价。
+6．MP检测的标本采集、运送和储存:
+咽拭子、痰液、支气管肺泡灌洗液等均可以进行MP病原体直接检测[31,47]，标本采集、运输、保存、接种等环节直接影响检测结果。标本采集的最佳时机是使用抗菌药物之前。采集咽拭子推荐使用铝制或塑料杆的藻酸钙、涤纶和聚酯拭子等，采集时需在咽后壁部位用力旋转以获取尽可能多的脱落上皮细胞，提高MP检测的阳性率。痰液标本直接来自感染部位，MP核酸数量比咽拭子高[41]，是分子方法检测MP的最佳标本[31,47,48]，儿童推荐使用鼻咽吸取物代替痰液，而支气管肺泡灌洗液中的MP含量更高。血清学检测MP抗体为静脉抽取血液标本置于黄色分离胶真空试管内，离心分离血清，如不能及时测定，血清应置于2~8 ℃保存，保存时间不超过3 d。针对MP的各种检测方法及其检测目标、标本采集和保存、结果判定和特点等见表1、表2。
+点击查看表格
+表1
+MP病原学各检测方法的相关情况
+表1
+MP病原学各检测方法的相关情况
+检测方法
+检测目标
+标本种类
+标本保存
+结果判定
+报告结果时间
+方法学特点
+传统培养法
+病原体
+咽拭子、肺泡灌洗液、痰
+分离培养的标本应尽可能在1 h内接种于培养基，24 h不能接种者应于-70 ℃冻存
+培养出典型菌落
+≥21 d
+低敏感度、高特异性，对操作者技术要求较高
+快速培养法
+病原体
+咽拭子、肺泡灌洗液、痰
+3 d后出现培养基颜色变化且呈极微弱浑浊
+3~7 d
+可同时进行药敏试验，低敏感度，易受污染出现假阳性
+Q-PCR
+DNA
+咽拭子、肺泡灌洗液、痰
+DNA检测标本送检时限为4 h，如不能及时测定应置于2~8 ℃保存，一般建议保存时间不超过3 d，-20 ℃可保存1~2周；长期保存均应冻存于-70 ℃。
+核酸载量超过阈值提示有MP感染
+1~8 h
+可进行分子分型，并检测耐药位点，高敏感度、高特异性，对操作者技术要求较高。DNA在MP停止繁殖后仍可在患儿体内存在一段时间，定量检测才具有判断价值
+RNA-SAT
+RNA
+咽拭子、肺泡灌洗液、痰
+RNA检测需要新鲜标本，采集后需使用专用保存液送检，以阻止RNA酶对RNA的降解，应在4 h内送至实验室并及时检测，如不能及时检测可置-20 ℃冷冻保存，否则容易造成假阴性，长期保存应冻存于-70 ℃
+阳性提示可能有现症的MP感染
+1~8 h
+高敏感度、高特异性，对操作者技术要求较高。标本保存不当，RNA降解可导致假阴性
+抗原检测
+抗原
+咽拭子、肺泡灌洗液、痰
+保存要求基本同DNA检测标本
+阳性提示可能有近期MP感染
+3~4 h
+快速简便，敏感度较低
+注：MP为肺炎支原体；Q-PCR为定量PCR；SAT为实时荧光核酸恒温扩增检测
+点击查看表格
+表2
+MP血清学各检测方法的相关情况
+表2
+MP血清学各检测方法的相关情况
+检测方法
+检测目标
+标本保存
+结果判断
+报告结果时间
+方法学特点
+GICT
+IgM
+末梢全血，采集后立即测定
+阳性提示可能有MP急性感染
+20~30 min
+快速简便，灵敏度和特异性均高，适用于门急诊快速筛查，阴性结果不能排除MP的感染
+PA
+总抗体
+离心分离血清，如不能及时测定应置于2~8 ℃保存，一般建议保存时间不超过3 d
+单份血清滴度1∶160以上提示有近期MP感染，恢复期、急性期双份血清滴度呈4倍及以上变化可确诊
+3~4 h
+灵敏度和特异性均高，可进行抗体滴度检测，抗体滴度与疾病严重程度有相关性
+ELISA
+IgM、IgG或IgA
+IgM或IgA阳性提示可能有MP急性感染,IgG阳性提示有既往感染，恢复期、急性期双份血清抗体水平呈4倍及以上变化可确诊
+3~4 h
+灵敏度和特异性均高，可定性、可定量，可批量检测，还可进行抗体亚型测定
+CLIA
+IgM、IgG
+1~2 h
+较ELISA方法具有更高的灵敏度和特异性，定量检测，自动化程度高，重复性好
+IFA
+IgM
+阳性提示可能有MP急性感染
+3~4 h
+灵敏度高，易受人为因素、类风湿因子、多种自身免疫抗体等的影响
+冷凝集法
+非特异性冷凝集素
+凝集效价高于1∶32提示有MP感染
+3~4 h
+除MP感染外,如流感病毒、立克次体和腺病毒等感染也会产生冷凝集素,造成假阳性
+注：MP为肺炎支原体；GICT为免疫胶体金技术；PA为颗粒凝集法；ELISA为酶联免疫吸附试验；CLIA为化学发光测定；IFA为间接免疫荧光法；PA、ELISA、CLIA、IFA、冷凝集法标本保存一致
+7．MP实验室检测质量要求：
+MP的实验室检测项目在投入使用前应参照相关的标准进行性能验证[49,50]，检测时需同步进行实验室内质控、参加室间质评，在试剂批号更换时应进行比对以评估批次间差异。
+三、MP实验室诊断方法的临床实践建议
+随着MP感染重症和难治病例的不断增多，早期、快速、准确诊断是临床对实验室诊断方法学提出的迫切需求，而实验室结果的合理解读也是临床恰当诊治的重要前提。我国地域辽阔，医疗卫生资源分布、人们对疾病的认知、诊断MP感染的送检习惯、选用试剂质量等区域差异较大，如何能更为合理地应用不同的检测方法，是一个需要不断摸索但临床意义重大的问题。不可能在全国强求统一MP感染的实验室诊断方法，但必须基于各种检测方法的敏感性和特异性，实用性、可及性和经济性加以规范化。在充分梳理国内临床和实验室现状的前提下，遵照国家卫生计生委合理用药专委会的要求，提出以下推荐建议。
+1．MP感染的实验室诊断，目前选择抗体检测优先于抗原检测，抗原检测法和试剂临床尚未广泛普及。如能获取急性期与恢复期双份血清，抗体检测的价值更大。血清抗体滴度≥1∶160可以作为MP近期感染或急性感染参考标准；恢复期和急性期MP-IgG抗体滴度呈4倍及以上增高或减低时，可确诊MP感染。免疫胶体金法定性检测MP-IgM抗体可作为门诊或急诊快速筛查的常用方法，建议选取定性的阳性折点相当于MP-IgM抗体滴度为1∶160的试剂。过低标准的试剂必将导致MP感染的过多诊断。MP抗体定量检测推荐目前国内最广泛使用的PA法，亚型抗体测定有免疫胶体金技术、ELISA、间接免疫荧光试验和化学发光法，可作为补充检测手段。
+2．MP-IgM抗体检测尤其适用于6月龄以上儿童和免疫功能正常儿童。ELISA测MP-IgA抗体作为补充检测项目，不作常规推荐。MP-IgG抗体检测提示曾经有过MP感染，适用于MP感染的流行病学调查，但获取恢复期和急性期双份血清MP-IgG抗体滴度呈4倍及以上增高或减低时，可确诊MP感染。
+3．有条件的医院应当采用MP-DNA检测或者MP-RNA检测，并进一步摸索DNA拷贝数大小的临界值，这主要限于住院病例。
+4．有条件的医院应当充分重视MP液体-固体培养法实验室管理路径的规范与创新，这主要应用于住院病例。MP培养对深入研究MP的特性、结构、致病机制乃至其耐药等相关问题具有重要意义。科学而严谨地改进方法学或将会带来对MP的新认识，而要深入研究MP必先获取其菌落。现有的"快速液体培养法"在基层医院MP感染病程早期可选作筛查，但不宜在临床普遍推广。
+分层推荐的MP感染实验室诊断方法概括于表3，推荐的基础是目前对MP的研究和认识，相信这一切还需要临床实践的检验、修正和完善。
+点击查看表格
+表3
+MP感染分层推荐的实验室诊断方法
+表3
+MP感染分层推荐的实验室诊断方法
+年龄与免疫状况
+病程（d）
+二级及以下医院
+三级医院
+门诊
+病房
+门诊
+病房
+<6月龄或免疫功能低下者
+<7
+MP抗原或抗体定性检测（GICT）
+快速MP培养或MP-DNA
+MP抗原或抗体检测（GICT）或MP-DNA
+MP-DNA或RNAa和MP固体培养
+≥7
+MP-DNA和MP抗体定量检测（PA)
+MP-DNA和MP抗体第1份血清定量检测（PA)
+MP-DNA或RNAa和MP固体培养和MP抗体第2份血清定量检测（PA)
+≥6月龄
+<7
+MP抗原或抗体定性检测（GICT）
+快速MP培养或MP-DNA
+MP抗原或抗体检测（GICT）或MP抗体第1份血清定量检测（PA）或MP-DNA
+MP-DNA或RNAa和MP固体培养和MP抗体第2份血清定量检测（PA)
+≥7
+MP抗体定性检测（GICT）或MP抗体第1份血清定量检测（PA)a
+MP抗体第2份血清定量检测（PA）或MP-DNA
+MP抗体第1份血清定量检测（PA）或血清IgM、IgG等亚型MP抗体测定或MP-DNA
+MP抗体第2份血清定量检测（PA）或血清IgM、IgG等亚型MP抗体测定和MP-DNA或RNAa和MP固体培养
+注：MP为肺炎支原体；GICT为免疫胶体金法；a为有条件必要时送检；PA为颗粒凝集法
+(临床部分 陆权 陈志敏 刘恩梅 刘瀚旻 殷勇 赵顺英 赵德育 张晓波 实验室检测部分 张泓 马丽娟 陈运生 徐锦 执笔)
+参与讨论和审阅的专家（按单位汉语拼音排序）：成都市妇女儿童中心医院（艾涛）；重庆医科大学附属儿童医院（刘恩梅、符州、罗征秀）；复旦大学附属儿科医院（张晓波、徐锦）；广州市妇女儿童医疗中心（邓力）；江西省儿童医院（陈强）；南京医科大学附属南京儿童医院（赵德育）；上海交通大学医学院附属上海儿童医学中心（殷勇、潘秋辉）；上海交通大学附属儿童医院（陆权、董晓艳、张泓）；深圳市儿童医院（陈运生）；首都儿科研究所附属儿童医院（陈慧中、马丽娟）；首都医科大学附属北京儿童医院（王天有、赵顺英、宋文琪）；四川大学华西第二医院（刘瀚旻、江咏梅）；天津市儿童医院（邹映雪）；西安市儿童医院（陈艳妮）；浙江大学医学院附属儿童医院（陈志敏、尚世强）；中国医科大学附属盛京医院（尚云晓）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+中华人民共和国国家卫生健康委员会办公厅.
+关于持续做好抗菌药物临床应用管理有关工作的通知.国卫办医发〔2018〕9号[EB/OL]. (
+2018-05-10)[
+2020-03-01].
+http://www.nhc.gov.cn/xxgk/pages/viewdocument.jsp?dispatchDate=&staticUrl=/yzygj/s7659/201805/c79c998bdf8f4744858051cdfd1e6818.shtml&wenhao=国卫办医发[2018]9号&utitle=关于持续做好抗菌药物临床应用管理有关工作的通知.
+[2]
+陆权，赵顺英.
+儿童肺炎支原体感染的再认识[J].
+中华儿科杂志，
+2016,
+54(
+2):
+81-
+83.
+DOI: 10.3760/cma.j.issn.0578-1310.2016.02.001.
+[3]
+中华医学会儿科学分会临床检验学组.
+儿童肺炎支原体呼吸道感染实验室诊断中国专家共识[J].
+中华检验医学杂志,
+2019,
+42(
+7):
+507-
+513.
+DOI: 10.3760/cma.j.issn.1009-9158.2019.07.005.
+[4]
+刘杨，张泓.
+肺炎支原体的临床微生物学特征[J].
+中华儿科杂志,
+2016,
+54(
+2):
+88-
+90.
+DOI: 10.3760/cma.j.issn.0578-1310.2016.02.003.
+[5]
+中华医学会儿科学分会呼吸学组，《中华实用儿科临床杂志》编辑委员会.
+儿童肺炎支原体肺炎诊治专家共识（2015年版)[J].
+中华实用儿科临床杂志,
+2015,
+30(
+17):
+1304-
+1308.
+DOI: 10.3760/cma.j.issn.2095-428X.2015.17.006.
+[6]
+AlmagorM, KahaneI, YatzivS.
+Role of superoxide anion in host cell injury induced by mycoplasma pneumoniae infection. A study in normal and trisomy 21 cells[J].
+J Clin Invest,
+1984,
+73(
+3):
+842-
+847.
+DOI: 10.1172/JCI111279.
+[7]
+JainS, WilliamsDJ, ArnoldSR, et al.
+Community-acquired pneumonia requiring hospitalization among U.S. Children[J].
+N Engl J Med,
+2015,
+372(
+9):
+835-
+845.
+DOI:10.1056/NEJMoa1405870.
+[8]
+ChenK, JiaR, LiL, et al.
+The aetiology of community associated pneumonia in children in Nanjing, China and aetiological patterns associated with age and season[J].
+BMC Public Health,
+2015,
+15:
+113.
+DOI: 10.1186/s12889-015-1422-1.
+[9]
+OnozukaD, HashizumeM, HagiharaA.
+Impact of weather factors on Mycoplasma pneumoniae pneumonia[J].
+Thorax,
+2009,
+64(
+6):
+507-
+511.
+DOI: 10.1136/thx.2008.111237.
+[10]
+EspositoS, BosisS, BegliattiE, et al.
+Acute tonsillopharyngitis associated with atypical bacterial infection in children: natural history and impact of macrolide therapy[J].
+Clin Infect Dis,
+2006,
+43(
+2):
+206-
+209.
+DOI: 10.1086/505120.
+[11]
+NoorbakhshS, FarhadiM, TabatabaeiA, et al.
+Searching Mycoplasma pneumonia by serology & PCR in children with adenoid hypertrophy and rhinosinusitis: a case control study, Tehran, Iran[J].
+Iran J Microbiol,
+2013,
+5(
+1):
+63-
+67.
+[12]
+WaitesKB, AtkinsonTP.
+The role of Mycoplasma in upper respiratory infections[J].
+Curr Infect Dis Rep,
+2009,
+11(
+3):
+198-
+206.
+DOI: 10.1007/s11908-009-0030-6.
+[13]
+SøndergaardMJ, FriisMB, HansenDS, et al.
+Clinical manifestations in infants and children with Mycoplasma pneumoniae infection[J].
+PLoS One,
+2018,
+13(
+4):
+e0195288.
+DOI: 10.1371/journal.pone.0195288.
+[14]
+赵德育，陈慧中，杨倩媛, 等.
+临床征象对识别儿童社区获得性肺炎支原体肺炎价值的系统综述[J].
+中华儿科杂志,
+2016,
+54(
+2):
+104-
+110.
+DOI: 10.3760/cma.j.issn.0578-1310.2016.02.008.
+[15]
+HallanderHO, GnarpeJ, GnarpeH, et al.
+Bordetella pertussis, Bordetella parapertussis, Mycoplasma pneumoniae, Chlamydia pneumoniae and persistent cough in children[J].
+Scand J Infect Dis,
+1999,
+31(
+3):
+281-
+286.
+DOI: 10.1080/00365549950163581.
+[16]
+KumarS, RoyRD, SethiGR, et al.
+Mycoplasma pneumoniae infection and asthma in children[J].
+Trop Doct,
+2019,
+49(
+2):
+117-
+119.
+DOI: 10.1177/0049475518816591.
+[17]
+BajantriB, VenkatramS, Diaz-FuentesG.
+Mycoplasma pneumoniae: a potentially severe infection[J].
+J Clin Med Res,
+2018,
+10(
+7):
+535-
+544.
+DOI: 10.14740/jocmr3421w.
+[18]
+WaitesKB, XiaoL, LiuY, et al.
+Mycoplasma pneumoniae from the respiratory tract and beyond[J].
+Clin Microbiol Rev,
+2017,
+30(
+3):
+747-
+809.
+DOI: 10.1128/CMR.00114-16.
+[19]
+NaritaM.
+Classification of extrapulmonary manifestations due to mycoplasma pneumoniae infection on the basis of possible pathogenesis[J/OL].
+Front Microbiol,
+2016,
+7:
+23[
+2020-03-02].
+https://www.frontiersin.org/articles/10.3389/fmicb.2016.00023/full.
+DOI: 10.3389/fmicb.2016.00023.
+[20]
+CunhaBA, PherezFM.
+Mycoplasma pneumoniae community-acquired pneumonia (CAP) in the elderly: Diagnostic significance of acute thrombocytosis[J].
+Heart Lung,
+2009,
+38(
+5):
+444-
+449.
+DOI: 10.1016/j.hrtlng.2008.10.005.
+[21]
+中华医学会儿科学分会呼吸学组，《中华儿科杂志》编辑委员会.
+儿童社区获得性肺炎管理指南（2013修订)(上)[J].
+中华儿科杂志,
+2013,
+51(
+10):
+745-
+752.
+DOI: 10.3760/cma.j.issn.0578-1310.2013.10.006.
+[22]
+GuoL, LiuF, LuMP, et al.
+Increased T cell activation in BALF from children with Mycoplasma pneumoniae pneumonia[J].
+Pediatr Pulmonol,
+2015,
+50(
+8):
+814-
+819.
+DOI: 10.1002/ppul.23095.
+[23]
+江载芳，申昆玲，沈颖.
+诸福棠实用儿科学[M].
+8版.
+北京：
+人民卫生出版社,
+2015:
+1280-
+1281.
+[24]
+LaiCH, ChangLL, LinJN, et al.
+High seroprevalence of Mycoplasma pneumoniae IgM in acute Q fever by enzyme-linked immunosorbent assay (ELISA)[J].
+PLoS One,
+2013,
+8(
+10):
+e77640.
+DOI: 10.1371/journal.pone.0077640.
+[25]
+WaitesKB, XiaoL, LiuY, et al.
+Mycoplasma pneumoniae from the Respiratory Tract and Beyond[J].
+Clin Microbiol Rev,
+2017,
+30(
+3):
+747-
+809.
+DOI: 10.1128/CMR.00114-16.
+[26]
+AtkinsonTP, BalishMF, WaitesKB.
+Epidemiology, clinical manifestations, pathogenesis and laboratory detection of Mycoplasma pneumoniae infections[J].
+FEMS Microbiol Rev,
+2008,
+32(
+6):
+956-
+973.
+DOI: 10.1111/j.1574-6976.2008.00129.x.
+[27]
+SheRC, ThurberA, HymasWC, et al.
+Limited utility of culture for Mycoplasma pneumoniae and Chlamydophila pneumoniae for diagnosis of respiratory tract infections[J].
+J Clin Microbiol,
+2010,
+48(
+9):
+3380-
+3382.
+DOI: 10.1128/JCM.00321-10.
+[28]
+尚红，王毓三，申子瑜.
+全国临床检验操作规程[M].
+4版.
+北京：
+人民教育出版社,
+2015:
+485-
+486.
+[29]
+林苗苗，施李芬，余坚, 等.
+肺炎支原体RNA和DNA检测技术对儿童肺炎支原体肺炎诊断的价值[J].
+中国妇幼保健,
+2018,
+33(
+5):
+1054-
+1056.
+DOI: 10.7620/zgfybj.j.issn.1001-4411.2018.05.31.
+[30]
+LoensK, IevenM.
+Mycoplasma pneumoniae: current knowledge on nucleic acid amplification techniques and serological diagnostics[J/OL].
+Front Microbiol,
+2016,
+7:
+448[
+2020-03-02].
+https://www.frontiersin.org/articles/10.3389/fmicb.2016.00448/full.
+DOI: 10.3389/fmicb.2016.00448.
+[31]
+LoensK, Van HeirstraetenL, Malhotra-KumarS, et al.
+Optimal sampling sites and methods for detection of pathogens possibly causing community-acquired lower respiratory tract infections[J].
+J Clin Microbiol,
+2009,
+47(
+1):
+21-
+31.
+DOI: 10.1128/JCM.02037-08.
+[32]
+MiyashitaN, KawaiY, KatoT, et al.
+Rapid diagnostic method for the identification of Mycoplasma pneumoniae respiratory tract infection[J].
+J Infect Chemother,
+2016,
+22(
+5):
+327-
+330.
+DOI: 10.1016/j.jiac.2016.02.005.
+[33]
+TabassumI, ChaudhryR, ChourasiaBK, et al.
+Identification of an N-terminal 27 kDa fragment of Mycoplasma pneumoniae P116 protein as specific immunogen in M. pneumoniae infections[J/OL].
+BMC Infect Dis,
+2010,
+10:
+350[
+2020-03-02].
+https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-10-350.
+DOI:10.1186/1471-2334-10-350.
+[34]
+LeeWJ, HuangEY, TsaiCM, et al.
+Role of serum mycoplasma pneumoniae IgA, IgM, and IgG in the diagnosis of mycoplasma pneumoniae-related pneumonia in school-age children and adolescents[J/OL].
+Clin Vaccine Immunol,
+2017,
+24(
+1)[
+2020-03-02].
+https://cvi.asm.org/content/24/1/e00471-16.long.
+DOI: 10.1128/CVI.00471-16.
+[35]
+韦勇，唐建英.
+被动凝集法检测肺炎支原体抗体在儿科的应用[J].
+国际检验医学杂志,
+2010,
+31(
+10):
+1148-
+1149.
+DOI: 10.3969/j.issn.1673-4130.2010.10.043.
+[36]
+刘引，王子才，方洁, 等.
+肺炎支原体IgM测定的临床意义[J].
+临床儿科杂志,
+2005,
+23(
+8):
+560-
+561.
+DOI: 10.3969/j.issn.1000-3606.2005.08.022.
+[37]
+OzakiT, NishimuraN, AhnJ, et al.
+Utility of a rapid diagnosis kit for Mycoplasma pneumoniae pneumonia in children, and the antimicrobial susceptibility of the isolates[J].
+J Infect Chemother,
+2007,
+13(
+4):
+204-
+207.
+DOI: 10.1007/s10156-007-0519-6.
+[38]
+SillisM.
+The limitations of IgM assays in the serological diagnosis of Mycoplasma pneumoniae infections[J].
+J Med Microbiol,
+1990,
+33(
+4):
+253-
+258.
+DOI: 10.1099/00222615-33-4-253.
+[39]
+Watkins-RiedelT, StanekG, DaxboeckF.
+Comparison of SeroMP IgA with four other commercial assays for serodiagnosis of Mycoplasma pneumoniae pneumonia[J].
+Diagn Microbiol Infect Dis,
+2001,
+40(
+1-2):
+21-
+25.
+DOI: 10.1016/s0732-8893(01)00250-4.
+[40]
+白晓晨.
+肺炎支原体血清学抗体检测现状与研究进展[J].
+国际儿科学杂志,
+2017,
+44(
+3):
+147-
+151.
+DOI: 10.3760/cma.j.issn.1673-4408.2017.03.001.
+[41]
+WaitesKB, BadeDJ, CecileB, et al.
+Methods for antimicmbial susceptibility testing of human Mycoplasmas, Approved Guideline[M].
+USA：
+Clinical and Laboratory Standards Institute，
+2011,
+10:
+M43-
+A.
+[42]
+PereyreS, GoretJ, BébéarC.
+Mycoplasma pneumoniae: current knowledge on macrolide resistance and treatment[J/OL].
+Front Microbiol,
+2016,
+7:
+974 [
+2020-03-02].
+https://www.frontiersin.org/articles/10.3389/fmicb.2016.00974/full.
+DOI: 10.3389/fmicb.2016.00974.
+[43]
+KawaiY, MiyashitaN, YamaguchiT, et al.
+Clinical efficacy of macrolide antibiotics against genetically determined macrolide-resistant Mycoplasma pneumoniae pneumonia in paediatric patients[J].
+Respirology,
+2012,
+17(
+2):
+354-
+362.
+DOI: 10.1111/j.1440-1843.2011.02102.x.
+[44]
+CardinaleF, ChironnaM, DumkeR, et al.
+Macrolide-resistant Mycoplasma pneumoniae in paediatric pneumonia[J].
+Eur Respir J,
+2011,
+37(
+6):
+1522-
+1524.
+DOI: 10.1183/09031936.00172510.
+[45]
+LeeE, ChoHJ, HongSJ, et al.
+Prevalence and clinical manifestations of macrolide resistant Mycoplasma pneumoniae pneumonia in Korean children[J].
+Korean J Pediatr,
+2017,
+60(
+5):
+151-
+157.
+DOI: 10.3345/kjp.2017.60.5.151.
+[46]
+潘芬，孟磊俊，秦惠宏, 等.
+儿童肺炎支原体23SrRNA基因位点突变检测分析[J].
+国际检验医学杂志,
+2017,
+38(
+6):
+760-
+762.
+DOI: 10.3969/j.issn.1673-4130.2017.06.014.
+[47]
+ChoMC, KimH, AnD, et al.
+Comparison of sputum and nasopharyngeal swab specimens for molecular diagnosis of Mycoplasma pneumoniae, Chlamydophila pneumoniae, and Legionella pneumophila[J].
+Ann Lab Med,
+2012,
+32(
+2):
+133-
+138.
+DOI: 10.3343/alm.2012.32.2.133.
+[48]
+RätyR, RönkköE, KleemolaM.
+Sample type is crucial to the diagnosis of Mycoplasma pneumoniae pneumonia by PCR[J].
+J Med Microbiol,
+2005,
+54
+Pt 3:
+287-
+291.
+DOI: 10.1099/jmm.0.45888-0.
+[49]
+中国合格评定国家认可委员会.
+医学实验室质量和能力认可准则在临床免疫学定性检验领域的应用说明[EB/OL]. (
+2016-09-11)[
+2020-03-01].
+https://www.cnas.org.cn/rkgf/sysrk/rkyyzz/2014/05/782594.shtml.
+[50]
+中国合格评定国家认可委员会.
+医学实验室质量和能力认可准则在分子诊断领域的应用说明[EB/OL].(
+2016-09-11)[
+2020-03-01].
+https://www.cnas.org.cn/rkgf/sysrk/rkyyzz/2018/03/889110.shtml.
+贡献者信息
+国家卫生计生委合理用药专家委员会儿童用药专业组
+通信作者
+陆权
+上海交通大学附属儿童医院呼吸科 200040
+Email：
+luquan-sh@vip.sina.com
+张泓
+上海交通大学附属儿童医院检验科 200040
+Email：
+zhanghong3010@vip.126.com
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-05-02
+收稿日期：2020-03-04
+本文编辑
+刘瑾
+Standard/Protocol/Guideline
+Expert consensus on laboratory diagnostics and clinical practice of
+Mycoplasma pneumoniae infection in children in China (2019)
+Expert Committee on Rational Use of Medicines for Children Pharmaceutical Group, National Health and Family Planning Commission
+Published
+2020-05-02
+Cite as
+Chin J Pediatr, 2020,58(05): 366-373. DOI: 10.3760/cma.j.cn112140-20200304-00176
+Contributor Information
+Expert Committee on Rational Use of Medicines for Children Pharmaceutical Group, National Health and Family Planning Commission
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+MP病原学各检测方法的相关情况
+检测方法
+检测目标
+标本种类
+标本保存
+结果判定
+报告结果时间
+方法学特点
+传统培养法
+病原体
+咽拭子、肺泡灌洗液、痰
+分离培养的标本应尽可能在1 h内接种于培养基，24 h不能接种者应于-70 ℃冻存
+培养出典型菌落
+≥21 d
+低敏感度、高特异性，对操作者技术要求较高
+快速培养法
+病原体
+咽拭子、肺泡灌洗液、痰
+3 d后出现培养基颜色变化且呈极微弱浑浊
+3~7 d
+可同时进行药敏试验，低敏感度，易受污染出现假阳性
+Q-PCR
+DNA
+咽拭子、肺泡灌洗液、痰
+DNA检测标本送检时限为4 h，如不能及时测定应置于2~8 ℃保存，一般建议保存时间不超过3 d，-20 ℃可保存1~2周；长期保存均应冻存于-70 ℃。
+核酸载量超过阈值提示有MP感染
+1~8 h
+可进行分子分型，并检测耐药位点，高敏感度、高特异性，对操作者技术要求较高。DNA在MP停止繁殖后仍可在患儿体内存在一段时间，定量检测才具有判断价值
+RNA-SAT
+RNA
+咽拭子、肺泡灌洗液、痰
+RNA检测需要新鲜标本，采集后需使用专用保存液送检，以阻止RNA酶对RNA的降解，应在4 h内送至实验室并及时检测，如不能及时检测可置-20 ℃冷冻保存，否则容易造成假阴性，长期保存应冻存于-70 ℃
+阳性提示可能有现症的MP感染
+1~8 h
+高敏感度、高特异性，对操作者技术要求较高。标本保存不当，RNA降解可导致假阴性
+抗原检测
+抗原
+咽拭子、肺泡灌洗液、痰
+保存要求基本同DNA检测标本
+阳性提示可能有近期MP感染
+3~4 h
+快速简便，敏感度较低
+注：MP为肺炎支原体；Q-PCR为定量PCR；SAT为实时荧光核酸恒温扩增检测
+表2
+MP血清学各检测方法的相关情况
+检测方法
+检测目标
+标本保存
+结果判断
+报告结果时间
+方法学特点
+GICT
+IgM
+末梢全血，采集后立即测定
+阳性提示可能有MP急性感染
+20~30 min
+快速简便，灵敏度和特异性均高，适用于门急诊快速筛查，阴性结果不能排除MP的感染
+PA
+总抗体
+离心分离血清，如不能及时测定应置于2~8 ℃保存，一般建议保存时间不超过3 d
+单份血清滴度1∶160以上提示有近期MP感染，恢复期、急性期双份血清滴度呈4倍及以上变化可确诊
+3~4 h
+灵敏度和特异性均高，可进行抗体滴度检测，抗体滴度与疾病严重程度有相关性
+ELISA
+IgM、IgG或IgA
+IgM或IgA阳性提示可能有MP急性感染,IgG阳性提示有既往感染，恢复期、急性期双份血清抗体水平呈4倍及以上变化可确诊
+3~4 h
+灵敏度和特异性均高，可定性、可定量，可批量检测，还可进行抗体亚型测定
+CLIA
+IgM、IgG
+1~2 h
+较ELISA方法具有更高的灵敏度和特异性，定量检测，自动化程度高，重复性好
+IFA
+IgM
+阳性提示可能有MP急性感染
+3~4 h
+灵敏度高，易受人为因素、类风湿因子、多种自身免疫抗体等的影响
+冷凝集法
+非特异性冷凝集素
+凝集效价高于1∶32提示有MP感染
+3~4 h
+除MP感染外,如流感病毒、立克次体和腺病毒等感染也会产生冷凝集素,造成假阳性
+注：MP为肺炎支原体；GICT为免疫胶体金技术；PA为颗粒凝集法；ELISA为酶联免疫吸附试验；CLIA为化学发光测定；IFA为间接免疫荧光法；PA、ELISA、CLIA、IFA、冷凝集法标本保存一致
+表3
+MP感染分层推荐的实验室诊断方法
+年龄与免疫状况
+病程（d）
+二级及以下医院
+三级医院
+门诊
+病房
+门诊
+病房
+<6月龄或免疫功能低下者
+<7
+MP抗原或抗体定性检测（GICT）
+快速MP培养或MP-DNA
+MP抗原或抗体检测（GICT）或MP-DNA
+MP-DNA或RNAa和MP固体培养
+≥7
+MP-DNA和MP抗体定量检测（PA)
+MP-DNA和MP抗体第1份血清定量检测（PA)
+MP-DNA或RNAa和MP固体培养和MP抗体第2份血清定量检测（PA)
+≥6月龄
+<7
+MP抗原或抗体定性检测（GICT）
+快速MP培养或MP-DNA
+MP抗原或抗体检测（GICT）或MP抗体第1份血清定量检测（PA）或MP-DNA
+MP-DNA或RNAa和MP固体培养和MP抗体第2份血清定量检测（PA)
+≥7
+MP抗体定性检测（GICT）或MP抗体第1份血清定量检测（PA)a
+MP抗体第2份血清定量检测（PA）或MP-DNA
+MP抗体第1份血清定量检测（PA）或血清IgM、IgG等亚型MP抗体测定或MP-DNA
+MP抗体第2份血清定量检测（PA）或血清IgM、IgG等亚型MP抗体测定和MP-DNA或RNAa和MP固体培养
+注：MP为肺炎支原体；GICT为免疫胶体金法；a为有条件必要时送检；PA为颗粒凝集法
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华儿科杂志2020年58卷05期
+文    题：中国儿童肺炎支原体感染实验室诊断规范和临床实践专家共识（2019年）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华儿科杂志2020年58卷05期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

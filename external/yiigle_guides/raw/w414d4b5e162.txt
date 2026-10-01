@@ -1,0 +1,862 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E8%84%91%E5%8D%92%E4%B8%AD%E7%97%85%E6%83%85%E7%9B%91%E6%B5%8B%E4%B8%AD%E5%9B%BD%E5%A4%9A%E5%AD%A6%E7%A7%91%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 脑卒中病情监测中国多学科专家共识 - 中华医学杂志
+# 发布方/日期: 内科，中华医学杂志, 2021,101(5) : 317-326. DOI: 10.3760/cma.j；2021-02-02
+
+脑卒中病情监测中国多学科专家共识
+中国医师协会神经外科学分会神经重症专家委员会
+上海卒中学会
+重庆市卒中学会
+中华医学杂志, 2021,101(5) : 317-326. DOI: 10.3760/cma.j.cn112137-20201026-02927
+脑卒中（intra cerebral stroke）又称脑血管意外（cerebralvascular accident，CVA），分为缺血性脑卒中（ischemic stroke，IS）、脑出血（intracerebral hemorrhage，ICH）、蛛网膜下腔出血（subarachnoid hemorrhage，SAH）和未分类的卒中（stroke of undetermined type）。脑卒中是西方国家继冠心病和癌症之后第三位的死亡原因［1, 2］，根据2019年系统性全国总体疾病负担研究显示，脑卒中已成为我国国民首位死亡原因［3］，我国脑卒中死亡人数几乎占到全世界脑卒中死亡人数三分之一［2］。我国脑卒中总体患病率、年发病率和年死亡率分别为1114.8/10万、246.8/10万和114.8/10万［4］。
+脑卒中的预后不仅与原发损伤有关，并与随时间推移而发生的继发性脑损伤相关，降低原发损伤和防治继发损伤是脑卒中救治的核心，这一核心很大程度上依赖于病情的严密监测。随着医疗技术的发展，影像学、颅内压（intracranial prssure，ICP）监测、经颅多普勒（transcranial doppler，TCD）、电生理等手段可以提供包括大脑结构、生理、生化和功能等方面的信息，揭示许多超前于临床观察所获得的颅脑病情变化。将这些来自于不同监测手段的信息聚合起来，形成多模态监测（multi-modality monitoring，MMM）是未来发展趋势［5］。所以，规范脑卒中病情监测措施，有助于及时掌握患者病情变化，指导临床救治，改善神经功能预后。
+为此，笔者组织国内相关学科的专家，通过查询和评价现有相关的研究证据，参考国际相关共识和指南内容，结合国情和国内需求，对脑卒中病情监测相关内容和技术方法进行了梳理，经国内不同学科多位专家反复讨论后定稿，提出了脑卒中病情监测的共识性意见，希望为脑卒中病情监测及临床诊治提供重要参考。
+一、文献检索、证据等级及推荐力度
+本专家共识针对脑卒中监测相关重要问题，在MEDLINE、EMBASE和Cochrane Library、中国知网、万方数据库等综合数据库中进行文献检索，文献检索时间为1993年1月到2019年5月。采用美国心脏协会（American Heart Association，AHA）/美国卒中协会（American Stroke Association，ASA）统一方法，将推荐力度分为Ⅰ类（应当实施）、Ⅱa类（实施是适当的）、Ⅱb类（可以考虑）、Ⅲ类（无益或有害），证据级别分为A（多项随机临床试验或荟萃分析）、B（单项随机试验或非随机研究）、C（专家共识、病例研究或医疗标准）三级。根据该系统先对证据类别及级别进行评估，然后评估监测获益与风险之间的平衡、负担以及费用，综合确定推荐力度。
+二、入院时病情评估
+脑卒中患者入院后第一时间应对患者病情进行初步评估，主要从生命体征、意识、瞳孔和神经系统查体等方面进行。在生命体征基本稳定的前提下，对患者意识状态进行评估，脑卒中意识障碍发生率高达36.9%，病死率明显高于无意识障碍患者［6］。传统的意识障碍分级标准虽简便易行，但不能量化。常用简单量化的方法有格拉斯哥昏迷评分（Glasgow coma scale， GCS）、美国国立卫生研究院卒中量表（National Institute of Health stroke scale， NIHSS）评分、Glasgow-Pittsburgh昏迷量表和脑出血Hamphill评分量表（ICH评分量表）等对意识障碍进行评分，初步了解脑损伤严重程度，根据情况迅速决定诊疗方案，从而降低病死率和致残率。
+推荐意见
+•脑卒中患者入院后需要先对生命体征进行评估，初步的病史、神经查体有助病情判断和初步诊断（A级证据，Ⅰ类推荐）。
+•常用GCS、NIHSS评分和Glasgow-Pittsburgh昏迷量表等对意识障碍和病情程度进行评分（A级证据，Ⅰ类推荐）。
+三、脑卒中类型的鉴别诊断
+病情评估完成以后，需要尽快明确诊断。CT扫描是鉴别缺血性卒中和出血性卒中最常规的首选筛查方法。脑缺血一般24~48 h后才会在CT平扫出现明显的低密度区，故其重要作用为排除脑出血。MRI对早期脑梗死的诊断具有明显的优势，缺血组织在发病数分钟至数小时出现表面扩散系数下降，从而在弥散加权成像（diffusion-weighted imaging，DWI）上表现出高信号。在脑卒中超急性期（发病<6 h）及急性期，MRI敏感度及特异度分别为91%和95%，敏感度由高到低的顺序为DWI>液体衰减反转恢复序列（FLAIR）>T2WI。
+全脑血管造影（digital subtraction angiography，DSA）能够清晰直观地判断闭塞血管及侧支循环情况，指导血管内治疗的操作，是脑梗死诊断的“金标准”。但其为有创检查，有一定的风险和禁忌证。而CT血管造影（CTA）、磁共振血管造影（MRA）可帮助我们了解血管闭塞部位、有无斑块及其性质、有无血管畸形、动脉瘤等。
+移动卒中单元（mobile stroke unit）是针对急性脑卒中的一种新的院前诊疗模式，以救护车为载体，装配小型移动CT、MRI相关检验、监测设备及信息化支持系统，将脑卒中的检查、影像学诊断、治疗、监测融为一体，赢得救治“黄金时间”。
+另外，目前由陆军军医大学第一附属医院神经外科和上海复旦大学附属华山医院神经内科牵头的无创脑水肿监护仪的重点研发计划的初步结果显示，无创脑水肿监护仪可以早期对脑卒中类型进行鉴别诊断。鉴于无创脑水肿监护仪的便携性，还可以将其集成于移动卒中单元，尤其在战时和重大灾害等特殊环境下，可以为及时干预提供鉴别诊断和病情监测的信息。
+推荐意见
+•CT是急性脑卒中鉴别诊断的首选方法，诊断脑出血的敏感性非常高，对于急性缺血性脑卒中患者行CT平扫以排除脑出血（A级证据，Ⅰ类推荐）。
+•MRI诊断脑梗死的敏感性高于CT，其中DWI诊断脑梗死的敏感度及特异度优于其他序列，有助于急性缺血性脑卒中的早期诊断（A级证据，Ⅰ类推荐）。
+•DSA是诊断脑梗死的“金标准”，在时间紧急或条件不具备的情况下，CTA、MRA也有助了解血管闭塞部位、有无斑块及其性质等（A级证据，Ⅰ类推荐）。
+•移动卒中单元（包括移动CT和移动MRI单元）为急性卒中的快速院前诊治提供重要支撑（B级证据，Ⅰ类推荐）。
+四、出血性脑卒中（脑出血）
+（一）基础生命体征
+1.体温：发热在ICH和急性缺血性脑卒中（acute ischemic stroke，AIS）患者中分别为50%和37%［7］。在ICH发生12~24 h内，将膀胱温度控制在35 ℃低温，连续8~10 d，可明显减轻ICH患者血肿周围水肿，降低3个月和1年病死率［8］。但一项最新的英国Delphi共识［9］指出，由于不同文献证据之间存在较大的异质性，目标温度管理用于ICH和AIS患者的证据有限。
+2.呼吸与给氧：一项RCT研究结果显示，预防性低流量吸氧并不会改变卒中患者7 d NIHSS评分，以及3、6、12个月的死亡和致残率［10］。另一项回顾性多中心队列研究结果显示，对于脑卒中患者，高氧分压组的病死率高于低氧分压组和正常氧分压组，提示对于行机械呼吸的脑卒中患者要避免不必要的氧输送［11］。
+3.血压：血压升高在ICH患者中较普遍，与不良预后有关。INTERACT2［12］和ATACH-2［13］研究显示，幕上ICH患者，将SBP控制在≤140 mmHg（1 mmHg=0.133 kPa）是安全的，与AHA指南推荐的SBP≤180 mmHg标准相比，接受强化降压的ICH患者NIHSS评分、mRS评分、病死率，以及血肿扩大率更低。
+推荐意见
+•ICH患者应连续进行体温监测，建议采用更加接近脑温的核心体温（膀胱、直肠等）监测（C级证据，Ⅱa类推荐）。亚低温（34~35 ℃）治疗脑出血的获益证据尚不足（C级证据，Ⅱb类推荐）。
+•ICH患者需行血氧管控，必要时尽早建立人工气道 （或）机械通气，管控目标为血氧饱和度（SpO2）≥94%，血氧分压（PO2）≥75 mmHg（B级证据，Ⅰ类推荐）。但对于SpO2正常的脑卒中患者，氧疗并不能明显改善预后（A级证据，Ⅱa类推荐）。
+•ICH患者须行血压控制（A级证据，Ⅰ类推荐），控制SBP≤140 mmHg可使患者获益（A级证据，Ⅰ类推荐）。降压药物应选择对颅内压影响较小的药物。
+（二）重要实验室指标监测
+1.反映全身情况的指标：神经重症患者的管理同一般重症患者的管理，同样要兼顾到循环、呼吸、凝血、泌尿等涉及到心、肺、肝、肾等器官的功能状态，临床工作者可参考2017年《重症右心功能管理专家共识》和2014版的《中国严重脓毒症/脓毒性休克治疗指南》等。
+2.血钠：研究显示入院时低钠（<135 mmol/L）血症的ICH患者住院期间病死率是正常血钠患者的2倍［14］。治疗上应根据病因和低钠血症程度区别对待，包括限水和利尿，必要时静脉输注高渗盐水。静脉输注高渗（浓度≤3%）盐水的第1个24 h血钠增加<10 mmol/L，此后每24小时增加<8 mmol/L，直至血钠恢复至130 mmol/L；治疗后6和12 h分别测量血钠一次，此后每天一次，直至血钠达到稳态［15］。纠正高钠血症的有效方法包括增加水摄入和限制钠摄入，保持血钠<155 mmol/L。血钠大幅度的波动可能导致脱髓鞘病变［16］，需要加强血钠监测。
+3.血糖：入院时ICH患者血糖≥11 mmol/L死亡风险增加［17］。荟萃分析显示，与常规血糖治疗组（目标值8.0~16.7 mmol/L）相比，强化胰岛素治疗组（目标值3.9~7.8 mmol/L）不能降低病死率，低血糖发生率增加［18］。约40%的脑缺血患者存在卒中后高血糖，高血糖是溶栓后出血性转化、死亡和残障率增高等不良结局的相关因素。中国急性期缺血性卒中诊治指南2018版建议：血糖超过10 mmol/L时可给予胰岛素治疗；应加强血糖监测，可将高血糖患者血糖控制在7.8~10.0 mmol/L；血糖低于3.3 mmol/L时，可给予10%~20%葡萄糖口服或注射治疗。目标是达到正常血糖［18］。
+推荐意见
+•脑卒中重症患者需要进行包括循环、呼吸、凝血、泌尿等涉及到心、肺、肝、肾等器官的功能状态的全面管理。
+•脑卒中患者血钠管控目标为135~155 mmol/L（C级证据，Ⅰ类推荐），每日血钠控制在8~10 mmol/L以内波动，以减少渗透性脑病的发生（C级证据，Ⅰ类推荐）。
+•脑卒中患者血糖管控目标为7.8~10.0 mmol/L（B级证据，Ⅰ类推荐）。急性期降血糖药物可选择短效胰岛素静脉持续泵注，每2~4小时测定血糖一次，以免发生低血糖（A级证据，Ⅰ类推荐）。
+（三）神经影像学检查
+CT平扫不仅用于脑出血的诊断，而且平扫所见的“混合征”“黑洞征”“岛征”等是血肿扩大的独立预测因子。增强CT上的造影剂外溢已被证明是脑出血后血肿扩大和死亡的独立预测因子［19］，30%~50%的患者在自发性发作后3 h内出现“点征”“鸟嘴征”等［20］，提示患者血肿继续扩大风险。MRI成像对脑水肿和继发性缺血和脑积水等比较敏感，用于脑出血后继发病情变化的观察。MRA、CTA和DSA等血管成像技术，利于发现颅内动静脉畸形、烟雾病、脑静脉系统血栓、肿瘤等导致出血的病因。
+推荐意见
+•脑出血急性期应定期复查CT或MRI，利于及时发现血肿扩大、脑水肿、脑积水等病情变化（B级证据，Ⅰ类推荐）。
+•CT平扫所见的“混合征”“黑洞征”“岛征”等、CT增强扫描所见“点征”“鸟嘴征”是血肿扩大预测因子（B级证据，Ⅱa类推荐）。
+（四）颅内压及脑灌注压（CPP）监测
+研究显示70%的ICH患者病程中至少存在1次高颅压（颅内压>20 mmHg）［21］，颅内压>20 mmHg是脑出血（血肿>30 ml）死亡的危险因素。脑出血患者因血肿、水肿或继发脑积水等导致颅内压增高，严重者脑疝形成，故需进行颅内压监测。无创颅内压监测技术的精确度和稳定性还有待进一步的研究和发展［22］。有创颅内压监测可以通过脑室、硬膜外、硬膜下和脑实质内等部位进行监测。临床常首选脑室内颅压监测［23］，但当颅内出血较多，脑室受压变窄、移位甚至消失时，脑实质内放置探针是测量颅内压使用最广泛的方法［24］。腰椎穿刺测量颅内压对于颅内高压患者，有导致脑疝的危险，不推荐。
+CPP是平均动脉压和颅内压之差。长期高血压可使脑血管自动调节曲线明显右移，ICH患者在强化降压时更易出现CPP过低导致脑缺血，而过高的CPP可能使脑血管无法承受高灌注压而破裂再出血［25］。CPP低于50 mmHg会出现脑缺血信号，而>60 mmHg则可避免［26］。Diedler等［27］研究指出ICH患者的最优CPP值在83 mmHg，最接近该值的一组患者病死率最低，而这个值远高于目前颅脑损伤指南推荐的CPP最大值70 mmHg。因此，ICH患者最佳CPP还需进一步研究明确，但进行必要的颅内压监测以维持合适的CPP对于患者的预后非常重要。
+推荐意见
+•当ICH患者GCS≤8分，且患者症状、体征、CT结果等提示颅内压增高的证据时建议行有创颅内压监测（C级证据，Ⅱa类推荐）。
+•有创颅内压监测优先顺序为脑室内、脑实质、硬膜下、硬膜外，脑出血选择同侧脑室内颅内压监测更为准确（C级证据，Ⅱb级推荐）。
+·ICH患者颅内压持续高于20 mmHg时建议进行干预（B级证据，Ⅱb级推荐）。有颅内压监测的患者，将CPP控制在50~70 mmHg是合理的（C级证据，Ⅱb类推荐）。
+（五）神经电生理监测
+脑出血后脑电图（electroencephalogram，EEG）无特征性改变，EEG分级是重症脑功能损伤后判断病情严重程度和预后重要指标。EEG分级与预后之间存在相关性，分级越高，其预后越差。诱发电位可以帮助动态评价患者的临床神经功能恢复情况，可用于患者病情及预后判断。视交叉以后的脑卒中，视觉诱发电位（VEP）随脑卒中病情的变化而发生一定的改变，病灶越大、数量越多，VEP中P100波的潜伏期就越长。
+脑干出血，其脑干听觉诱发电位（BAEP）波形变化与脑出血部位相关。在脑桥上、中段出血时，其BAEP的Ⅰ、Ⅱ、Ⅲ波均保持，Ⅳ波和Ⅴ波的绝对潜伏期延长，波幅低；一侧脑桥与中脑部位出血，同侧Ⅴ波消失，对侧BAEP正常。而脑桥下段出血一般其Ⅲ波和其后各波均异常。
+推荐意见
+•对脑卒中患者应用EEG监测，有助判断意识昏迷程度和非惊厥性的癫痫活动，并用于脑功能损伤的评价（B级证据，Ⅱa类推荐）。
+•可行诱发电位监测以了解各感觉传导通路和脑干功能状态，帮助动态评价患者的临床神经功能恢复情况（C级证据，Ⅱb类推荐）。
+（六）脑组织氧监测
+脑组织缺血缺氧导致ICH患者预后不良，监测脑组织氧水平可及早发现组织代谢异常，对降低死残率有重要意义［28］。目前临床脑氧监测的方式有脑组织氧分压（brain tissue oxygen，PbtO2）和颈静脉血氧饱和度（jugular venous O2 saturation，SjvO2）两种有创床旁监测技术。PbtO2直接可靠地监测局部脑组织氧合情况及供需平衡关系，但是目前针对PbtO2干预治疗的阈值、干预措施尚无统一标准［29］。正常PbtO2为23~35 mmHg ［30］，PbtO2和颅内压/CPP联合应用比单独使用颅内压/CPP效果更好［31, 32］。
+SjvO2监测能持续反映整个大脑半球脑组织氧供需关系，存在颅内压监测禁忌或颅内压监测无法使用时，能够较早地识别脑组织低灌注或脑缺血状态。正常SjvO2在55%~75%之间，当SjvO2<55%时存在脑组织缺血、缺氧［33］。但是定位、导管上凝块的形成以及采样技术的不完善会影响SjvO2的准确性和可靠性［34］。
+推荐意见
+•PbtO2为局部脑组织氧水平指标，SjvO2为全脑氧合的指标，PbtO2和SjvO2可提供互补信息，较全面反映脑的氧供需关系（C级证据，Ⅱb类推荐）。
+•建议与颅内压/CPP等其他监测方式结合使用，可获得更准确的病情评估和预后预测（B级证据，Ⅱa类推荐）。
+（七）无创脑水肿监护仪监测
+无创脑水肿动态监护仪是一种无创、床旁、动态的颅脑病情监护设备，其核心原理是生物电阻抗技术，即利用生物组织与器官的电特性及其变化规律与人体生理、病理状况相关的生物医学信息的一种无损伤检测技术，脑电阻抗值（cerebral electrical impedance， CEI）是其常用检测参数之一。当CEI出现变化时，往往提示颅内出现异常情况，比如水肿、血肿或颅内高压等。张英杰等［35］研究显示脑出血患者患侧扰动系数明显高于健侧扰动系数，脑出血患者患侧扰动系数与水肿体积、NIHSS评分呈正相关。Lou等［36］发现大面积脑梗死患者的CEI阳性率为88.4%。Liu等［37］研究显示CEI对ICH和脑梗死均有明显变化，并发现当病灶体积>20 ml，敏感度较高，但当体积<20 ml时敏感性较低。
+目前正在进行的国家重点研发计划研究结果提示该仪器对出血性与缺血性脑卒中的早期鉴别诊断具有较高的敏感度和特异度。并在脑出血后血肿扩大、继发水肿、脑梗死溶/取栓后出血转化等病情预警方面具有较高的临床价值。
+推荐意见
+无创脑水肿动态监护仪可为患者提供一种无创、床旁、动态的颅脑病情监测，对血肿扩大和溶/取栓后出血转化具有较好的预警价值，但尚需进一步的研究（B级证据，Ⅱb类推荐）。
+（八）经颅超声监测
+经颅超声将声波从骨质较薄处或去骨瓣减压窗口穿透入颅，得以非侵入性地观察脑实质、脑室形态及大小、颅内血肿定位及大小、颅内血管的解剖结构和毗邻关系，将超声与彩色多普勒血流显像、多普勒频结合起来形成TCD，可获得管径、流速、脉动指数、阻力指数、血流量等多普勒血流参数。
+常用的床旁颅脑超声检测还包括视神经鞘直径（optical nerve sheath diameter，ONSD）的测量，其原理是颅内压增高引起蛛网膜下腔内脑脊液进入视神经鞘内，视神经鞘直径增宽。以CT诊断颅内高压为参照，ONSD的成人正常上限值为5 mm，儿童则为4~4.5 mm。Rajajee等研究发现，ONSD>4.8 mm诊断颅内压>20 mmHg的敏感度为96%，特异度为94%。但ONSD判断颅高压的阈值目前还未有统一标准。纵向和横向超声波视图是最有可能产生高质量图像的位置，ONSD测量应取其平均值。
+推荐意见
+•经颅超声可实时提供一定的颅脑结构和血流动力学信息，其动态变化可为卒中患者病情评估提供依据（B级证据，Ⅱa类推荐）。
+•ONSD对颅内高压的诊断具有较高的准确性，当ONSD>5 mm提示颅内压可能>20 mmHg，建议使用纵、横方向的ONSD平均值（B级证据，Ⅱb类推荐）。
+五、AIS（脑梗死）
+AIS占我国脑卒中的69.6%~70.8%［4， 38］。《中国急性缺血性脑卒中诊治指南2018版》将急性期定义为发病后2周内，轻型患者为1周内，重型病例为1个月内［39］。轻、中型AIS的预后相对较好，对监测的需求较少。但急性大血管病变导致的脑梗死（或称大面积脑梗死）患者病情重、易致恶性脑水肿，预后不好，因此大血管病变所致AIS的病情监测就成为临床工作的重点。
+（一）基础生命体征
+1.体温：体温与AIS的病情严重程度相关，重症AIS患者发病4~6 h后即可出现体温升高。入院时AIS体温每升高1 ℃，住院期间死亡的相对危险度增加3.9倍，1年内死亡的相对危险度增加2.1倍［40］。体温与溶栓效果也存在关联。入院后24 h体温≥37 ℃，与AIS溶栓治疗后的低再通率、脑梗死面积增大及神经功能恶化之间存在相关性［41］。
+2.呼吸和血氧：SOS、SO2S研究显示，对于所有脑卒中患者，预防性低流量吸氧并不会改变7 d NIHSS评分远期病死率和残疾率［10］。另外，AIS患者高流量吸氧仅仅在急性卒中早期（1周内）促进了NIHSS评分的改善，减小了DWI梗死体积和促进了缺血半暗带的存活，而3个月远期预后并未得到改善［42］。
+3.心率和心电图（electrocardiogram，ECG）：20%的缺血性卒中是心源性的，房颤是导致AIS主要的因素之一。67%的AIS患者发病24 h的ECG有缺血性改变或节律异常［43］。由于脑心综合征的存在，AIS后发现的心率和ECG异常很难判定是卒中的原因还是结果。心率和ECG异常也是AIS预后的影响因素。例如房颤，尤其是快房颤患者，早期AIS的再发率和卒中的死亡/残疾率均明显增加。
+4.血压：血压的干预将影响AIS的预后。SCAST研究显示，发病30 h内的AIS和ICH急性卒中患者（SBP≥140 mmHg），通过坎地沙坦降低血压，6个月后两组血管不良事件、全因死亡率［44］、mRS评分［45］、意识和生存质量［46］无明显差异；随后的AIS亚组分析显示，坎地沙坦对于大面积AIS患者的mRS评分具有明显的改善作用［47］。我国CATIS研究显示，发病48 h内未溶栓的AIS患者（SBP：140~220 mmHg，DBP≤120 mmHg），降压治疗并未减少14 d或出院时患者的死亡和严重残疾，但也提示在AIS急性期降压治疗可能是安全的［47］。
+由于脑梗死发病后48 h或72 h内启动降压治疗的获益尚不明确，AHA/ASA推荐对SBP>200 mmHg或DBP≥110 mmHg、未接受静脉溶栓及血管内治疗、无需要紧急降压处理的严重合并症的患者，可在发病后24 h内将血压降低15%［47］。对静脉溶栓的患者，溶栓前血压应该降到180/110 mmHg以下，溶栓后保持在180/105 mmHg以下。未接受静脉溶栓而计划进行动脉内治疗的患者，手术前应控制血压水平≤180/110 mmHg。血管开通后对于高血压患者控制血压低于基础血压20~30 mmHg，但不应低于90/60 mmHg［47］。我国推荐接受血管内取栓治疗患者术前血压控制在180/105 mmHg［47］。
+推荐意见
+•体温与AIS患者病情及预后相关，应密切监测。体温升高的患者应寻找和处理发热原因，有感染者应及时予抗感染治疗。不主张预防性应用抗生素。体温>38 ℃的患者给予退热措施（B级证据，Ⅱa类推荐）。
+•推荐AIS患者进行呼吸监测，危重患者至少每小时监测一次，维持氧饱和度>94%（A级证据，Ⅱa类推荐）。呼吸频率、呼吸模式、呼吸动度监测有助于发现脑疝、推测脑损伤病变部位、发现肺栓塞、吉兰巴雷综合征等并发症（B级证据，Ⅱa类推荐）。
+•SpO2正常的脑卒中患者，氧疗并不能明显改善预后，过度氧疗（PaO2≥300 mmHg）与不良预后有关（A级证据，Ⅱa类推荐）。机械通气拔管后的患者，无创通气联合高流量鼻吸氧可以降低再插管风险（A级证据，Ⅱa类推荐）。
+•2/3的AIS患者存在心率和ECG异常，推荐常规进行心率和ECG监测。发病24 h内进行12导联ECG检查，发病7 d内进行24 h心电监测和心脏超声检查（A级证据，Ⅰ类推荐）。
+•AIS患者血压升高是普遍现象，应密切监测。溶栓和（或）机械取栓的患者应该加强术前和术后血压监测，避免血压过度、过快波动（A级证据，Ⅱa类推荐），早期降压治疗的获益证据尚不充分。
+（二）重要实验室指标监测
+推荐意见和证据背景参见第四部分第（二）点内容，在此不再赘述。
+（三）神经影像学检查
+CT平扫对AIS的敏感性呈时间依赖性，在发病前3 h，CT阳性率<50%，6 h后增加到80%~90%左右，在24~48 h后才出现明显的低密度区。急性卒中样发作的患者头部CT平扫排除出血或占位等病变后，若无其他禁忌即可开始按照缺血性卒中进行相关诊治，包括静脉溶栓和动脉取栓。
+CTA识别脑供血动脉闭塞的敏感度和准确度分别为92%~100%和82%~100%。CTA对钙化斑块敏感，并可以观察弓上血管的入路路径是否迂曲，为血管内治疗选择适合的材料和技术方案提供参考依据［48］。
+CT灌注（CT perfusion，CTP）可以了解脑组织血液灌注状况，对AIS发病24 h内判断是否存在缺血半暗带，是否有溶栓或取栓价值有很好的辅助作用。DEFUSE-3研究结果显示，CBF<30%正常镜像组织视为核心梗死区，TTP延迟6 s以上视为低灌注区域，二者的不匹配视为缺血半暗带，半暗带至少要在15 ml以上或低灌注区≥梗死区［49］。
+MRI对AIS的诊断和鉴别具有明显的优势。DWI可以更早显示梗死区，结合ADC图可区别陈旧、急性期和亚急性期梗死。一般将DWI视为核心梗死区。灌注加权成像（PWI）能显示灌注异常的区域，PWI-DWI的不匹配被视为缺血半暗带。DWI与磁共振成像FLAIR的不匹配也可以作为溶栓的依据之一。
+DSA能够清晰直观地判断闭塞血管及侧支循环情况，指导血管内治疗的操作。但其为有创检查，有一定的风险和禁忌证，不作为常规评估AIS的检查。由于AIS机械取栓时间窗由8 h延长到24 h，大血管病变的AIS在CTA检查确认血管病变位置后，需要尽快通过DSA证实的同时进行相关治疗。当客观条件受限，无法快速有效实施CTA或MRA，而进行DSA检查较为迅速时，可在行CT平扫排除颅内出血后，直接进行DSA判断大血管情况。侧支循环评价的金标准也是基于DSA的全脑血管造影。
+DSA检查和血管内治疗前后多采用改良的脑梗死溶栓（modified thrombolysis in Cerebral Infarction，mTICI）评分。mTICI分级标准评估血管再通和侧支循环恢复程度，具有较好的一致性和可靠性［50］。
+推荐意见
+•推荐应用头部CT平扫或MRI快速进行神经影像学检查，以区分缺血性卒中和出血性卒中，以决定后续的治疗策略（A级证据，Ⅰ类推荐）。
+•AIS患者实施血管内治疗前，推荐使用无创影像检查明确有无颅内外大血管闭塞；对可疑大血管闭塞患者，推荐使用一站式CTA+CTP影像检查方案，快速实施术前影像评估，指导血管内治疗（A级证据，Ⅰ类推荐）。
+•发病3 h内、NIHSS评分≥9分或发病6 h内、NIHSS评分≥7分时，提示存在大血管闭塞；无条件实施无创影像评估时，CT排除出血后，快速进行全脑血管DSA评估血管闭塞情况及侧支循环代偿，选择适合的患者实施血管内治疗，并可根据mTICI评分预测患者的预后（A级证据，Ⅰ类推荐）。
+（四）颅内压监测
+大面积幕上脑梗死和直径>3 cm小脑梗死时多伴有颅内压升高，大血管病变AIS患者常常在发病24~48 h内病情恶化，发展为大面积梗死进而发展成恶性脑水肿［51］，脑疝风险增高，是7 d内死亡的主要原因。大面积脑梗死中线移位超过5 mm或需要去骨瓣减压的患者病死率可达35%［52］。这类患者尽管进行积极的渗透性脱水治疗，仍有30%~60%的患者死于恶性脑水肿［53］。颅内压监测可以先于临床症状的出现发现疾病变化，可以避免患者突发脑疝抢救不及而死亡。对于此类患者颅内压监测联合去骨瓣减压，可将死亡率降低至22%［54］。具体颅内压监测方法可以参考前述“脑出血”部分内容。
+推荐意见
+•大面积的幕上脑梗死和小脑梗死患者因颅内压升高导致脑疝的风险较高，推荐此类患者进行颅内压监测（B级证据，Ⅱa类推荐）。
+•发病48 h内的去骨瓣减压术后的AIS患者推荐进行有创颅内压监测，并根据监测结果指导临床治疗，干预阈值参考前述推荐意见（B级证据，Ⅱa类推荐）。
+（五）TCD脑血流监测
+AIS早期伴有颈内动脉狭窄或闭塞的患者，TCD主要表现为患侧大脑中动脉（middle cerebral artery，MCA）、大脑前动脉（anterior cerebral artery，ACA）血流速度降低及明显的搏动指数（pulsatility index，PI）下降。MCA急性卒中的患者，卒中后6~12 h血流速度<30 cm/s多提示预后不良。另外，AIS发病6 h内TCD诊断的MCA近段闭塞对出血性转化的阳性预测值达72%，优于CT的阳性预测值［55］。AIS恢复期MCA血流速度的升高与AIS复发具有密切相关性。平均流速（Vm） ≥120 cm/s时较<120 cm/s时有更多的AIS临床卒中事件再发［56］。收缩期峰值流速（Vs>140 cm/s）是AIS再发的独立风险因子。TCD频谱分析提示的栓子信号有助于AIS病因分型的确定。因此，TCD相关指标可用于指导AIS患者的治疗选择。
+推荐意见
+TCD相关参数在发现大血管狭窄、血液内栓子信号、预测AIS再发风险、卒中后出血性转化以及预后判断方面具有一定价值。推荐有条件的单位对AIS患者采用TCD技术进行床旁脑血流监测（B级证据，Ⅱa类推荐）。
+（六）神经电生理监测
+AIS早期（≤72 h）头部CT异常率只有61.6%，但其EEG异常率高达88.1%；AIS梗死范围越大，部位越表浅，EEG异常越明显，预后越差［57］。前瞻性研究提示AIS发病72 h内的EEG背景活动变慢或不对称性与1年后不良预后独立相关，且脑电抑制是1年内死亡的独立危险因素［58］。
+Lavizzari、Synek和Young等EEG分级标准是重症脑功能损伤后判断病情严重程度和预后重要指标。在重症脑血管病研究中发现，Synek标准与预后的相关性最高，此标准对生存、死亡预测准确率为最高，综合预测准确率达89.2%［59］。大面积脑梗死若出现RAWOD（regional attenuation without delta）模式，EEG表现为区域性所有频率波弱化，未出现δ波，预后较差［60］。
+诱发电位参见前述“脑出血”部分内容。
+推荐意见
+EEG可反映脑损伤的部位和程度，梗死范围越大，部位越表浅，EEG异常越明显。推荐重症AIS患者进行EEG监测，并采用Synek等分级标准判断病情严重程度和预后（B级证据，Ⅱa类推荐）。
+（七）其他监测
+脑组织氧监测、无创脑水肿监护仪在缺血性脑卒中也有一定的临床应用，具体参见前述“脑出血”部分内容，在此不赘述。
+近年来，脑卒中监测的新技术不断出现，整合多种监测手段和监测指标的多模态监测是未来发展的趋势，综合评估各项监测参数可为脑卒中提供重要的诊疗依据，从而实现个性化治疗。鉴于我国区域发展不平衡，神经科医师和神经重症医师可根据所在地区、医院、科室和患者的具体情况，结合共识意见作出选择进行规范化的监测与治疗。本共识仅代表参与编写及讨论专家的观点。共识内容仅用于指导临床医生实践，不具有法律约束性质。共识内容是该领域的阶段性认识，今后会根据新的临床证据随时更新。
+执笔者：胡荣（重庆市神经外科临床医学研究中心）；丁宏岩（上海复旦大学附属华山医院神经内科）；陈渝杰（陆军军医大学第一附属医院神经外科）；赵大威（陆军军医大学第一附属医院神经外科）
+牵头专家：冯华（陆军军医大学第一附属医院神经外科）；董强（上海复旦大学附属华山医院神经内科）；胡荣（重庆市神经外科临床医学研究中心）
+专家组成员（按姓氏拼音排序）：包赟（南方医科大学南方医院神经外科）；陈志（陆军军医大学第一附属医院神经外科）；陈康宁（陆军军医大学第一附属医院神经内科）；陈礼刚（西南医科大学附属医院神经外科）；程远（重庆医科大学附属第二医院神经外科）；陈渝杰（陆军军医大学第一附属医院神经外科）；董强（上海复旦大学附属华山医院神经内科）；丁宏岩（上海复旦大学附属华山医院神经内科）；冯华（陆军军医大学第一附属医院神经外科）；樊双义（解放军总医院第五医学中心神经内科）；胡锦（上海复旦大学附属华山医院神经外科）；胡荣（重庆市神经外科临床医学研究中心）；侯立军（海军军医大学长征医院神经外科）；江荣才（天津医科大学总医院神经外科）；林江凯（陆军军医大学第一附属医院神经外科）；李飞（陆军军医大学第一附属医院神经外科）；毛更生（解放军总医院第三医学中心神经外科）；邱炳辉（南方医科大学南方医院神经外科）；秦新月（重庆医科大学附属第一医院神经内科）；孙晓川（重庆医科大学附属第一医院神经外科）；唐洲平（华中科技大学同济医学院附属同济医院神经外科）；魏俊吉（中国医学科学院附属北京协和医院神经外科）；鲜继淑（陆军军医大学第一附属医院神经外科）；徐磊（重庆市急救中心神经外科）；杨朝华（四川大学华西医院神经外科）；杨小锋（浙江大学医学院附属第一医院神经外科）；杨清武（陆军军医大学第二附属医院神经内科）；余政（重庆涪陵中心医院神经外科）；赵宁辉（昆明医科大学第二附属医院神经外科）；朱刚（陆军军医大学第一附属医院神经外科）；周振华（陆军军医大学第一附属医院神经内科）；朱继（重庆医科大学附属第一医院神经外科）；国家重点研发计划（2017YFC0111900）项目组全体成员
+利益冲突
+所有作者均声明无利益冲突
+参考文献
+1
+NgM, FlemingT, RobinsonM, et al.
+Global, regional, and national prevalence of overweight and obesity in children and adults during 1980—2013: a systematic analysis for the Global Burden of Disease Study 2013[J].
+Lancet,
+2014,
+384(
+9945):
+766-
+781.
+DOI:10.1016/S0140-6736(14)60460-8.
+2
+FeiginVL, KrishnamurthiRV, ParmarP, et al.
+Update on the Global Burden of ischemic and hemorrhagic stroke in 1990—2013: the GBD 2013 study[J].
+Neuroepidemiology,
+2015,
+45(
+3):
+161-
+176.
+DOI: 10.1159/000441085.
+3
+ZhouM, WangH, ZengX, et al.
+Mortality, morbidity, and risk factors in China and its provinces, 1990—2017: a systematic analysis for the Global Burden of Disease Study 2017[J].
+Lancet,
+2019,
+394(
+10204):
+1145-
+1158.
+DOI: 10.1016/S0140-6736(19)30427-1.
+4
+WangW, JiangB, SunH, et al.
+Prevalence,incidence, and mortality of stroke in China: results from a nationwide population-based survey of 480 687 adults[J].
+Circulation,
+2017,
+135(
+8):
+759-
+771.
+DOI: 10.1161/CIRCULATIONAHA.116.025250.
+5
+VespaP, MenonD, Le RouxP, et al.
+The international multi-disciplinary consensus conference on multimodality monitoring: future directions and emerging technologies[J].
+Neurocrit Care,
+2014,
+21
+Suppl 2:
+S270-
+S281.
+DOI: 10.1007/s12028-014-0049-x.
+6
+MittalS, GoelD, MittalM, et al.
+Identification of mortality-related predictive factors in hospitalized patients with ischemic stroke[J].
+Astrocyte,
+2015,
+1(
+4):
+272-
+276.
+DOI: 10.4103/2349-0977.161613.
+7
+RinconF, HunterK, SchorrC, et al.
+The epidemiology of spontaneous fever and hypothermia on admission of brain injury patients to intensive care units: a multicenter cohort study[J].
+J Neurosurg,
+2014,
+121(
+4):
+950-
+960.
+DOI: 10.3171/2014.7.JNS132470.
+8
+StaykovD, WagnerI, VolbersB, et al.
+Mild prolonged hypothermia for large intracerebral hemorrhage[J].
+Neurocrit Care,
+2013,
+18(
+2):
+178-
+183.
+DOI: 10.1007/s12028-012-9762-5.
+9
+AndrewsP, VermaV, HealyM, et al.
+Targeted temperature management in patients with intracerebral haemorrhage, subarachnoid haemorrhage, or acute ischaemic stroke: consensus recommendations[J].
+Br J Anaesth,
+2018,
+121(
+4):
+768-
+775.
+DOI: 10.1016/j.bja.2018.06.018.
+10
+RoffeC, NevatteT, SimJ, et al.
+Effect of routine low-dose oxygen supplementation on death and disability in adults with acute stroke: the stroke oxygen study randomized clinical trial[J].
+JAMA,
+2017,
+318(
+12):
+1125-
+1135.
+DOI: 10.1001/jama.2017.11463.
+11
+RinconF, KangJ, MaltenfortM, et al.
+Association between hyperoxia and mortality after stroke: a multicenter cohort study[J].
+Crit Care Med,
+2014,
+42(
+2):
+387-
+396.
+DOI: 10.1097/CCM.0b013e3182a27732.
+12
+MoullaaliTJ, WangX, MartinRH, et al.
+Statistical analysis plan for pooled individual patient data from two landmark randomized trials (INTERACT2 and ATACH-Ⅱ) of intensive blood pressure lowering treatment in acute intracerebral hemorrhage[J].
+Int J Stroke,
+2019,
+14(
+3):
+321-
+328.
+DOI: 10.1177/1747493018813695.
+13
+ToyodaK, KogaM, YamamotoH, et al.
+Clinical outcomes depending on acute blood pressure after cerebral hemorrhage[J].
+Ann Neurol,
+2019,
+85(
+1):
+105-
+113.
+DOI: 10.1002/ana.25379.
+14
+KuramatsuJB, BobingerT, VolbersB, et al.
+Hyponatremia is an independent predictor of in-hospital mortality in spontaneous intracerebral hemorrhage[J].
+Stroke,
+2014,
+45(
+5):
+1285-
+1291.
+DOI: 10.1161/STROKEAHA.113.004136.
+15
+SoodL, SternsRH, HixJK, et al.
+Hypertonic saline and desmopressin: a simple strategy for safe correction of severe hyponatremia[J].
+Am J Kidney Dis,
+2013,
+61(
+4):
+571-
+578.
+DOI: 10.1053/j.ajkd.2012.11.032.
+16
+SinghTD, FugateJE, RabinsteinAA.
+Central pontine and extrapontine myelinolysis: a systematic review[J].
+Eur J Neurol,
+2014,
+21(
+12):
+1443-
+1450.
+DOI: 10.1111/ene.12571.
+17
+KimuraK, IguchiY, InoueT, et al.
+Hyperglycemia independently increases the risk of early death in acute spontaneous intracerebral hemorrhage[J].
+J Neurol Sci,
+2007,
+255(
+1-2):
+90-
+94.
+DOI: 10.1016/j.jns.2007.02.005.
+18
+KramerAH, RobertsDJ, ZygunDA.
+Optimal glycemic control in neurocritical care patients: a systematic review and meta-analysis[J].
+Crit Care,
+2012,
+16(
+5):
+R203.
+DOI: 10.1186/cc11812.
+19
+KimJ, SmithA, 3rdHemphill JC, et al.
+Contrast extravasation on CT predicts mortality in primary intracerebral hemorrhage[J].
+AJNR Am J Neuroradiol,
+2008,
+29(
+3):
+520-
+525.
+DOI: 10.3174/ajnr.A0859.
+20
+GazzolaS, AvivRI, GladstoneDJ, et al.
+Vascular and nonvascular mimics of the CT angiography "spot sign" in patients with secondary intracerebral hemorrhage[J].
+Stroke,
+2008,
+39(
+4):
+1177-
+1183.
+DOI: 10.1161/STROKEAHA.107.499442.
+21
+KamelH, 3rdHemphill JC.
+Characteristics and sequelae of intracranial hypertension after intracerebral hemorrhage[J].
+Neurocrit Care,
+2012,
+17(
+2):
+172-
+176.
+DOI: 10.1007/s12028-012-9744-7.
+22
+ZhangX, MedowJE, IskandarBJ, et al.
+Invasive and noninvasive means of measuring intracranial pressure: a review[J].
+Physiol Meas,
+2017,
+38(
+8):
+R143-
+R182.
+DOI: 10.1088/1361-6579/aa7256.
+23
+The Brain Trauma Foundation.
+The American Association of Neurological Surgeons. The Joint Section on Neurotrauma and Critical Care. Guidelines for cerebral perfusion pressure[J].
+J Neurotrauma,
+2000,
+17(
+6-7):
+507-
+511.
+DOI: 10.1089/neu.2000.17.507.
+24
+RossN,EynonCA.
+Intracranial pressure monitoring[J].
+Curr Anaesth Crit Care,
+2005,
+16(
+4):
+255-
+261.
+DOI: 10.1016/j.cacc.2005.11.013.
+25
+OkumuraK, OhyaY, MaeharaA, et al.
+Effects of blood pressure levels on case fatality after acute stroke[J].
+J Hypertens,
+2005,
+23(
+6):
+1217-
+1223.
+DOI: 10.1097/01.hjh.0000170385.76826.4a.
+26
+Le RouxP.
+Physiological monitoring of the severe traumatic brain injury patient in the intensive care unit[J].
+Curr Neurol Neurosci Rep,
+2013,
+13(
+3):
+331.
+DOI: 10.1007/s11910-012-0331-2.
+27
+DiedlerJ, SantosE, PoliS, et al.
+Optimal cerebral perfusion pressure in patients with intracerebral hemorrhage: an observational case series[J].
+Crit Care,
+2014,
+18(
+2):
+R51.
+DOI: 10.1186/cc13796.
+28
+OddoM, BöselJ,
+Participants in the International Multidisciplinary Consensus Conference on Multimodality Monitoring. Monitoring of brain and systemic oxygenation in neurocritical care patients[J].
+Neurocrit Care,
+2014,
+21
+Suppl 2:
+S103-
+S120.
+DOI: 10.1007/s12028-014-0024-6.
+29
+MartiniRP, DeemS, YanezND, et al.
+Management guided by brain tissue oxygen monitoring and outcome following severe traumatic brain injury[J].
+J Neurosurg,
+2009,
+111(
+4):
+644-
+649.
+DOI: 10.3171/2009.2.JNS08998.
+30
+PenningsFA, SchuurmanPR, van den MunckhofP, et al.
+Brain tissue oxygen pressure monitoring in awake patients during functional neurosurgery: the assessment of normal values[J].
+J Neurotrauma,
+2008,
+25(
+10):
+1173-
+1177.
+DOI: 10.1089/neu.2007.0402.
+31
+GreenJA, PellegriniDC, VanderkolkWE, et al.
+Goal directed brain tissue oxygen monitoring versus conventional management in traumatic brain injury: an analysis of in hospital recovery[J].
+Neurocrit Care,
+2013,
+18(
+1):
+20-
+25.
+DOI: 10.1007/s12028-012-9797-7.
+32
+FletcherJJ, BergmanK, BlosteinPA, et al.
+Fluid balance, complications, and brain tissue oxygen tension monitoring following severe traumatic brain injury[J].
+Neurocrit Care,
+2010,
+13(
+1):
+47-
+56.
+DOI: 10.1007/s12028-010-9345-2.
+33
+SchoonP, Benito MoriL, OrlandiG, et al.
+Incidence of intracranial hypertension related to jugular bulb oxygen saturation disturbances in severe traumatic brain injury patients[J].
+Acta Neurochir Suppl,
+2002,
+81:
+285-
+287.
+DOI: 10.1007/978-3-7091-6738-0_73.
+34
+ColesJP, FryerTD, SmielewskiP, et al.
+Incidence and mechanisms of cerebral ischemia in early clinical head injury[J].
+J Cereb Blood Flow Metab,
+2004,
+24(
+2):
+202-
+211.
+DOI: 10.1097/01.WCB.0000103022.98348.24.
+35
+张英杰, 元小冬, 吴宗武, 等.
+无创动态脑水肿监测在脑出血患者临床应用探讨[J].
+中华老年心脑血管病杂志,
+2017,
+19(
+12):
+1302-
+1305.
+DOI: 10.3969/j.issn.1009-0126.2017.12.019.
+36
+LouJH, WangJ, LiuLX, et al.
+Measurement of brain edema by noninvasive cerebral electrical impedance in patients with massive hemispheric cerebral infarction[J].
+Eur Neurol,
+2012,
+68(
+6):
+350-
+357.
+DOI: 10.1159/000342030.
+37
+LiuL, DongW, JiX, et al.
+A new method of noninvasive brain-edema monitoring in stroke: cerebral electrical impedance measurement[J].
+Neurol Res,
+2006,
+28(
+1):
+31-
+37.
+DOI: 10.1179/016164106X91843.
+38
+WangD, LiuJ, LiuM, et al.
+Patterns of stroke between university hospitals and nonuniversity hospitals in mainland China: prospective multicenter hospital-based registry study[J].
+World Neurosurg,
+2017,
+98:
+258-
+265.
+DOI: 10.1016/j.wneu.2016.11.006.
+39
+中华医学会神经病学分会, 中华医学会神经病学分会脑血管病学组.
+中国急性缺血性脑卒中诊治指南2018[J].
+中华神经科杂志,
+2018,
+51(
+9):
+666-
+682.
+DOI: 10.3760/cma.j.issn.1006-7876.2018.09.004.
+40
+WangY, LimLL, LeviC, et al.
+Influence of admission body temperature on stroke mortality[J].
+Stroke,
+2000,
+31(
+2):
+404-
+409.
+DOI: 10.1161/01.str.31.2.404.
+41
+MillánM, GrauL, CastellanosM, et al.
+Body temperature and response to thrombolytic therapy in acute ischaemic stroke[J].
+Eur J Neurol,
+2008,
+15(
+12):
+1384-
+1389.
+DOI: 10.1111/j.1468-1331.2008.02321.x.
+42
+SinghalAB, BennerT, RoccatagliataL, et al.
+A pilot study of normobaric oxygen therapy in acute ischemic stroke[J].
+Stroke,
+2005,
+36(
+4):
+797-
+802.
+DOI: 10.1161/01.STR.0000158914.66827.2e.
+43
+ChenZ, VenkatP, SeyfriedD, et al.
+Brain-heart interaction: cardiac complications after stroke[J].
+Circ Res,
+2017,
+121(
+4):
+451-
+468.
+DOI: 10.1161/CIRCRESAHA.117.311170.
+44
+SandsetEC, BathPM, BoysenG, et al.
+The angiotensin-receptor blocker candesartan for treatment of acute stroke (SCAST): a randomised, placebo-controlled, double-blind trial[J].
+Lancet,
+2011,
+377(
+9767):
+741-
+750.
+DOI: 10.1016/S0140-6736(11)60104-9.
+45
+JusufovicM, SandsetEC, BathPM, et al.
+Blood pressure-lowering treatment with candesartan in patients with acute hemorrhagic stroke[J].
+Stroke,
+2014,
+45(
+11):
+3440-
+3442.
+DOI: 10.1161/STROKEAHA.114.006433.
+46
+HornslienAG, SandsetEC, BathPM, et al.
+Effects of candesartan in acute stroke on cognitive function and quality of life: results from the Scandinavian Candesartan Acute Stroke Trial[J].
+Stroke,
+2013,
+44(
+7):
+2022-
+2024.
+DOI: 10.1161/STROKEAHA.113.001022.
+47
+SandsetEC, JusufovicM, SandsetPM, et al.
+Effects of blood pressure-lowering treatment in different subtypes of acute ischemic stroke[J].
+Stroke,
+2015,
+46(
+3):
+877-
+879.
+DOI: 10.1161/STROKEAHA.114.008512.
+48
+中国卒中学会, 中国卒中学会神经介入分会, 中华预防医学会卒中预防与控制专业委员会介入学组.
+急性缺血性卒中血管内治疗影像评估中国专家共识[J].
+中国卒中杂志,
+2017,
+12(
+11):
+1041-
+1056.
+DOI: 10.3969/j.issn.1673-5765.2017.11.014.
+49
+AlbersGW, MarksMP, KempS, et al.
+Thrombectomy for stroke at 6 to 16 hours with selection by perfusion imaging[J].
+N Engl J Med,
+2018,
+378(
+8):
+708-
+718.
+DOI: 10.1056/NEJMoa1713973.
+50
+ZaidatOO, YooAJ, KhatriP, et al.
+Recommendations on angiographic revascularization grading standards for acute ischemic stroke: a consensus statement[J].
+Stroke,
+2013,
+44(
+9):
+2650-
+2663.
+DOI: 10.1161/STROKEAHA.113.001972.
+51
+WijdicksEF, ShethKN, CarterBS, et al.
+Recommendations for the management of cerebral and cerebellar infarction with swelling: a statement for healthcare professionals from the American Heart Association/American Stroke Association[J].
+Stroke,
+2014,
+45(
+4):
+1222-
+1238.
+DOI: 10.1161/01.str.0000441965.15164.d6.
+52
+OngCJ, GlucksteinJ, Laurido-SotoO, et al.
+Enhanced detection of edema in malignant anterior circulation stroke (EDEMA) score: arisk prediction tool[J].
+Stroke,
+2017,
+48(
+7):
+1969-
+1972.
+DOI: 10.1161/STROKEAHA.117.016733.
+53
+FrankJI, SchummLP, WroblewskiK, et al.
+Hemicraniectomy and durotomy upon deterioration from infarction-related swelling trial: randomized pilot clinical trial[J].
+Stroke,
+2014,
+45(
+3):
+781-
+787.
+DOI: 10.1161/STROKEAHA.113.003200.
+54
+VahediK, HofmeijerJ, JuettlerE, et al.
+Early decompressive surgery in malignant infarction of the middle cerebral artery: a pooled analysis of three randomised controlled trials[J].
+Lancet Neurol,
+2007,
+6(
+3):
+215-
+222.
+DOI: 10.1016/S1474-4422(07)70036-4.
+55
+MolinaCA, MontanerJ, AbilleiraS, et al.
+Timing of spontaneous recanalization and risk of hemorrhagic transformation in acute cardioembolic stroke[J].
+Stroke,
+2001,
+32(
+5):
+1079-
+1084.
+DOI: 10.1161/01.str.32.5.1079.
+56
+ArenillasJF, MolinaCA, MontanerJ, et al.
+Progression and clinical recurrence of symptomatic middle cerebral artery stenosis: a long-term follow-up transcranial Doppler ultrasound study[J].
+Stroke,
+2001,
+32(
+12):
+2898-
+2904.
+DOI: 10.1161/hs1201.099652.
+57
+JordanKG.
+Emergency EEG and continuous EEG monitoring in acute ischemic stroke[J].
+J Clin Neurophysiol,
+2004,
+21(
+5):
+341-
+352.
+58
+BentesC, PeraltaAR, MartinsH, et al.
+Seizures, electroencephalographic abnormalities, and outcome of ischemic stroke patients[J].
+Epilepsia Open,
+2017,
+2(
+4):
+441-
+452.
+DOI: 10.1002/epi4.12075.
+59
+SynekVM.
+Prognostically important EEG coma patterns in diffuse anoxic and traumatic encephalopathies in adults[J].
+J Clin Neurophysiol,
+1988,
+5(
+2):
+161-
+174.
+DOI: 10.1097/00004691-198804000-00003.
+60
+SchneiderAL, JordanKG.
+Regional attenuation without delta (RAWOD): a distinctive EEG pattern that can aid in the diagnosis and management of severe acute ischemic stroke[J].
+Am J Electroneurodiagnostic Technol,
+2005,
+45(
+2):
+102-
+117.
+贡献者信息
+中国医师协会神经外科学分会神经重症专家委员会
+上海卒中学会
+重庆市卒中学会
+通信作者
+冯华
+Email：
+fenghua8888@vip.163.com
+董强
+Email：
+qiang_dong163@163.com
+胡荣
+Email：
+huchrong@aliyun.com
+关键词
+卒中;
+监测;
+共识;
+基金项目
+国家重点研发计划 （2017YFC0111900）
+作者声明
+引用本文：中国医师协会神经外科学分会神经重症专家委员会，上海卒中学会，重庆市卒中学会. 脑卒中病情监测中国多学科专家共识[J]. 中华医学杂志, 2021, 101(5): 317-326. DOI: 10.3760/cma.j.cn 112137-20201026-02927.
+利益冲突
+所有作者均声明无利益冲突
+历史
+出版日期：2021-02-02
+收稿日期：2020-10-26
+本文编辑
+朱瑶
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华医学杂志2021年101卷05期
+文    题：脑卒中病情监测中国多学科专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华医学杂志2021年101卷05期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

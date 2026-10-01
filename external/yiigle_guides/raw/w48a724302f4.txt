@@ -1,0 +1,460 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E7%BE%8A%E6%B0%B4%E6%A0%93%E5%A1%9E%E4%B8%B4%E5%BA%8A%E8%AF%8A%E6%96%AD%E4%B8%8E%E5%A4%84%E7%90%86%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882018%EF%BC%89.html
+# 标题: 羊水栓塞临床诊断与处理专家共识（2018） - 中华妇产科杂志
+# 发布方/日期: 妇产科，中华妇产科杂志, 2018,53(12) : 831-835. DOI: 10.3760/cma.j；2018-12-25
+
+AUTO TRANSLATION​▼
+羊水栓塞临床诊断与处理专家共识（2018）
+中华医学会妇产科学分会产科学组
+中华妇产科杂志, 2018,53(12) : 831-835. DOI: 10.3760/cma.j.issn.0529-567x.2018.12.006
+羊水栓塞（amniotic fluid embolism，AFE）是产科特有的罕见并发症，其临床特点为起病急骤、病情凶险、难以预测，可导致母儿残疾甚至死亡等严重的不良结局。中华医学会妇产科学分会产科学组结合国内外文献，参考美国母胎医学会（Society for Maternal-Fetal Medicine，SMFM）"AFE指南"[1]等，根据我国的临床实践制定了本共识，旨在提高及规范AFE诊断和抢救治疗能力，以改善孕产妇和围产儿结局。
+一、AFE的流行病学及病理生理
+全球范围内AFE的发生率和死亡率存在很大的差异，根据现有的文献，AFE的发生率为（1.9~7.7）/10万[2,3,4,5]，死亡率为19%~86%[2,3,4,5]。近年来，由于各医学学科的发展及支持治疗能力的提高，AFE孕产妇的死亡率已有明显的下降。
+临床研究和动物实验的证据显示，在母体血循环中发现羊水的有形成分与AFE的发病并没有直接的联系[6,7]。AFE的发病机制尚不明确。通常认为，当母胎屏障破坏时，羊水成分进入母体循环，一方面引起机械性的阻塞，另一方面母体将对胎儿抗原和羊水成分发生免疫反应，当胎儿的异体抗原激活母体的炎症介质时，发生炎症、免疫等"瀑布样"级联反应，从而发生类似全身炎症反应综合征，引起肺动脉高压、肺水肿、严重低氧血症、呼吸衰竭、循环衰竭、心脏骤停及孕产妇严重出血、DIC、多器官功能衰竭等一系列表现[2,8,9]；在这个过程中，补体系统的活化可能发挥着重要的作用[10]。
+二、临床表现
+AFE通常起病急骤。70%的AFE发生在产程中，11%发生在经阴道分娩后，19%发生于剖宫产术中及术后；通常在分娩过程中或产后立即发生，大多发生在胎儿娩出前2 h及胎盘娩出后30 min内[1,2]。有极少部分发生在中期妊娠引产、羊膜腔穿刺术中和外伤时[11]。
+AFE的典型临床表现为产时、产后出现突发的低氧血症、低血压和凝血功能障碍。
+1．前驱症状：
+30%~40%的AFE孕产妇会出现非特异性的前驱症状，主要表现为憋气、呛咳、呼吸急促、心慌、胸痛、寒颤、头晕、恶心、呕吐、乏力、麻木、针刺样感觉、焦虑、烦躁、精神状态的改变及濒死感等[8,12]，临床上需重视这些前驱症状。
+AFE如在胎儿娩出前发生，胎心电子监护可显示胎心减速、胎心基线变异消失等异常；严重的胎儿心动过缓可为AFE的首发表现[5,8]。
+2．呼吸循环功能衰竭：
+孕产妇出现突发呼吸困难和（或）口唇发绀、血氧饱和度下降、肺底部较早出现湿啰音、插管者的呼气末二氧化碳分压测不出；心动过速、低血压休克、抽搐、意识丧失或昏迷、心电图可表现为右心负荷增加等。病情严重者，可出现心室颤动、无脉性室性心动过速及心脏骤停，于数分钟内猝死[13]。
+3．凝血功能障碍：
+大部分AFE孕产妇存在DIC，发生率高达83%以上[1,13]，且可为AFE的首发表现。表现为胎儿娩出后无原因的、即刻大量产后出血，且为不凝血，以及全身皮肤黏膜出血、血尿、消化道出血、手术切口及静脉穿刺点出血等DIC表现。
+4．急性肾功能衰竭等多器官功能损害：
+AFE孕产妇的全身器官均可受损，除心、肺功能衰竭及凝血功能障碍外，肾脏和中枢神经系统是最常受损的器官和系统，存活的AFE孕产妇可出现肾功能衰竭和中枢神经系统功能受损等表现。
+由于被累及的器官与系统不同，AFE的临床表现具有多样性和复杂性。
+三、诊断
+目前尚无国际统一的AFE诊断标准和有效的实验室诊断依据，建议的诊断标准如下。
+1．诊断AFE，需以下5条全部符合[13]：
+（1）急性发生的低血压或心脏骤停。
+（2）急性低氧血症：呼吸困难、紫绀或呼吸停止。
+（3）凝血功能障碍：有血管内凝血因子消耗或纤溶亢进的实验室证据，或临床上表现为严重的出血，但无其他可以解释的原因。
+（4）上述症状发生在分娩、剖宫产术、刮宫术或是产后短时间内（多数发生在胎盘娩出后30 min内）。
+（5）对于上述出现的症状和体征不能用其他疾病来解释。
+2．当其他原因不能解释的急性孕产妇心、肺功能衰竭伴以下1种或几种情况：
+低血压、心律失常、呼吸短促、抽搐、急性胎儿窘迫、心脏骤停、凝血功能障碍、孕产妇出血、前驱症状（乏力、麻木、烦躁、针刺感），可考虑为AFE。这不包括产后出血但没有早期凝血功能障碍证据者，或其他原因的心肺功能衰竭者[4]。
+AFE的诊断是临床诊断。符合AFE临床特点的孕产妇，可以做出AFE的诊断，母体血中找到胎儿或羊水成分不是诊断的必须依据。不具备AFE临床特点的病例，仅仅依据实验室检查不能做出AFE的诊断[1,4]。孕产妇行尸体解剖，其肺小动脉内见胎儿鳞状上皮或毳毛可支持AFE的诊断[4]。
+血常规、凝血功能、血气分析、心电图、心肌酶谱、胸片、超声心动图、血栓弹力图、血流动力学监测等有助于AFE的诊断、病情监测及治疗。
+四、鉴别诊断
+AFE的诊断强调为细致、全面的排他性诊断。排除导致心力衰竭、呼吸衰竭、循环衰竭的疾病，包括肺栓塞、心肌梗死、心律失常、围产期心肌病、主动脉夹层、脑血管意外、药物性过敏反应、输血反应、麻醉并发症（全身麻醉或高位硬膜外阻滞）、子宫破裂、胎盘早剥、子痫、脓毒血症等[13]。
+AFE需特别注意与严重产后出血引起的凝血功能异常相鉴别。一旦产后很快发生阴道流血且为不凝血，或大量阴道流血及与出血量不符的血压下降或氧饱和度下降，应立即进行凝血功能的相关检查，如出现急性凝血功能障碍，特别是有低纤维蛋白原血症时[4,8]，应高度怀疑AFE或者胎盘早剥。
+在分娩过程中或产后出现心肺、凝血功能异常等表现时，在保证基本的呼吸循环支持治疗的同时，充分结合病史、发病特征及凝血功能等辅助检查结果，多数情况下做出正确的鉴别诊断并不困难，重要的是能考虑到AFE的诊断。
+五、处理
+一旦怀疑AFE，立即按AFE急救。推荐多学科密切协作参与抢救处理，及时、有效的多学科合作对于孕产妇抢救成功及改善其预后至关重要[1,14]。
+AFE的治疗主要采取生命支持、对症治疗和保护器官功能，高质量的心肺复苏（CPR）和纠正DIC至为重要。
+（一）呼吸支持治疗
+立即保持气道通畅，充分给氧，尽早保持良好的通气状况是成功的关键，包括面罩给氧、无创面罩或气管插管辅助呼吸等。
+（二）循环支持治疗
+根据血流动力学状态，在AFE的初始治疗中使用血管活性药物和正性肌力药物，以保证心输出量和血压稳定，并应避免过度输液。
+1．液体复苏：以晶体液为基础，常用林格液。在循环支持治疗时一定要注意限制液体入量，否则很容易引发心力衰竭、肺水肿，且肺水肿也是治疗后期发生严重感染、脓毒血症的诱因之一[15,16]。
+2．使用去甲肾上腺素和正性肌力药物等维持血流动力学稳定：AFE初始阶段主要表现为右心衰竭，心脏超声检查可提供有价值的信息。针对低血压，应使用去甲肾上腺素或血管加压素等药物维持血压，如去甲肾上腺素0.05~3.30 μg·kg-1·min-1，静脉泵入。多巴酚丁胺、磷酸二酯酶抑制剂兼具强心和扩张肺动脉的作用，是治疗的首选药物，使用多巴酚丁胺2.5~5.0 μg·kg-1·min-1，静脉泵入；磷酸二酯酶抑制剂（米力农）0.25~0.75 μg·kg-1·min-1，静脉泵入[1,17]。
+3．解除肺动脉高压：使用前列环素、西地那非、一氧化氮及内皮素受体拮抗剂等特异性舒张肺血管平滑肌的药物[1,18,19]。前列环素即依前列醇（epoprostenol）10~50 ng·kg-1·min-1，吸入；或伊洛前列素（iloprost）10~20 μg/次，吸入，6~9次/d；或曲前列尼尔（treprostinil）1~2 ng·kg-1·min-1起始剂量，静脉泵入，逐步增加直至达到效果；西地那非20 mg/次，口服，3次/d，或通过鼻饲和（或）胃管给药；一氧化氮5~40 ppm，吸入。也可给予罂粟碱、阿托品、氨茶碱、酚妥拉明等药物。
+4．当孕产妇出现AFE相关的心脏骤停时，应首先、即刻进行标准的基础心脏生命支持（BCLS）和高级心脏生命支持（ACLS）等高质量的心肺复苏。心脏骤停复苏初期不需要明确AFE的诊断，此时，最关键的紧急行动是高质量的心肺复苏。对未分娩的孕妇，应左倾30°平卧位或子宫左牵防止负重子宫压迫下腔静脉[14]。
+5．应用糖皮质激素：糖皮质激素用于AFE的治疗存在争议[1]。基于临床实践的经验，尽早使用大剂量糖皮质激素，应作为有益的尝试[4,9]。氢化可的松500~1 000 mg/d，静脉滴注；或甲泼尼龙80~160 mg/d，静脉滴注；或地塞米松20 mg静脉推注，然后再予20 mg静脉滴注。
+6．新的循环支持策略：AFE发生后，对于血管活性药物无效的顽固性休克孕产妇，进行有创性血流动力学支持可能是有益的。体外膜肺氧合（ECMO）[20]和主动脉内球囊反搏[21]等策略已经在多个病例报道中被证明是有效的。因此，在初步复苏干预无反应的情况下，可考虑上述有创性支持方法。
+（三）处理凝血功能障碍
+凝血功能障碍可在AFE并发心血管系统异常后出现，也可为首发表现，推荐早期进行凝血状态的评估。AFE引发的产后出血、DIC往往较严重，应积极处理，快速补充红细胞和凝血因子（新鲜冰冻血浆、冷沉淀、纤维蛋白原、血小板等）至关重要，尤其需要注意补充纤维蛋白原。同时进行抗纤溶治疗，如静脉输注氨甲环酸等。如有条件，早期即按大量输血方案进行输血治疗可使抢救更有效；有条件者可使用床旁血栓弹力图指导血液成分的输注。
+AFE常伴有宫缩乏力，需要积极治疗，必要时使用宫缩剂，例如缩宫素、麦角新碱和前列腺素[8,22]。经阴道分娩者要注意检查是否存在子宫颈、阴道等产道裂伤。
+临床上对于肝素治疗AFE引起的DIC的争议很大。由于AFE进展迅速，难以掌握何时是DIC的高凝阶段，使用肝素治疗弊大于利，因此不常规推荐肝素治疗，除非有早期高凝状态的依据[1,2,4,8]。
+（四）产科处理
+若AFE发生在胎儿娩出前，抢救孕妇的同时应及时终止妊娠，行阴道助产或短时间内行剖宫产术。当孕产妇发生心脏骤停，胎儿已达妊娠23周以上，立即进行心肺复苏的同时准备紧急剖宫产术；如孕产妇心肺复苏4 min后仍无自主心率，可以考虑行紧急剖宫产术[1]，这不仅可能会拯救胎儿的生命，而且在理论上可以通过去除孕产妇下腔静脉的压力从而有利于其复苏[14]。但当AFE孕产妇发生心脏骤停时，在孕产妇围死亡期做出剖宫产术的决定是比较困难的，须根据抢救现场的具体情况做出决策，并无统一的处理标准。
+子宫切除不是治疗AFE的必要措施，不应实施预防性子宫切除术。若产后出血难以控制，危及产妇生命时，果断、快速地切除子宫是必要的[4,8]。
+（五）迅速、全面的监测
+立即进行严密的监护，全面的监测应贯穿于抢救过程的始终，包括血压、心率、呼吸、尿量、凝血功能、电解质、肝肾功能、血氧饱和度、心电图、动脉血气分析、中心静脉压、心输出量等。经孕产妇食管或胸超声心动图和肺动脉导管，可作为监测其血流动力学的有效手段。
+（六）器官功能支持与保护
+AFE急救成功后往往会发生急性肾功能衰竭、急性呼吸窘迫综合征、缺血缺氧性脑损伤等多器官功能衰竭及重症脓毒血症等。
+心肺复苏后要给予适当的呼吸、循环等对症支持治疗，以继续维持孕产妇的生命体征和内环境稳定，包括神经系统保护、亚低温治疗、稳定血流动力学及足够的血氧饱和度、血糖水平的控制、血液透析和（或）滤过的应用、积极防治感染、胃肠功能的维护、微循环的监测与改善、免疫调节与抗氧化治疗等[1,4]。
+羊水栓塞临床诊断与处理专家共识（2018）的要点：
+•羊水栓塞属临床诊断
+•推荐多学科协作参与抢救处理，特别是有经验的麻醉科医师参与抢救
+•高质量的心肺复苏至为重要。初始治疗主要是辅助呼吸和升压强心，应避免过度输液
+•使用前列环素、西地那非等药物解除肺动脉高压，也可给予罂粟碱等
+•基于临床实践经验，尽早使用大剂量糖皮质激素或有价值
+•常出现凝血功能障碍，应及早评估凝血功能，积极纠正凝血功能紊乱。肝素治疗DIC弊大于利，不常规推荐使用
+•疑似和（或）诊断羊水栓塞，抢救的同时应尽快终止妊娠
+•积极治疗宫缩乏力，必要时使用宫缩剂，例如缩宫素、麦角新碱和前列腺素等
+•子宫切除不是治疗的必要措施，不应实施预防性切除。若产后出血危及产妇生命时，果断、快速地切除子宫是必要的
+因为目前并无特异性的检查方法，所以AFE的诊断仍然是以临床表现为基础的排除性诊断。如果临床高度怀疑AFE，及早的治疗是有必要的。准确到位的日常急救演练是保证AFE抢救成功的关键[23,24]。治疗主要是支持、对症治疗，包括呼吸支持（通常以气管插管和机械通气的形式）、适当补液的循环支持、血管活性药物、正性肌力药物、肺血管扩张剂、及时分娩及适时的子宫切除、积极处理凝血功能障碍以及器官功能的支持治疗与保护，而迅速、全面的监测是实施有效治疗措施的保证。AFE的抢救流程见图1。
+点击查看大图
+图1
+羊水栓塞的抢救流程
+图1
+羊水栓塞的抢救流程
+本共识的执笔专家
+本共识的执笔专家：古航（海军军医大学附属长海医院）、杨慧霞（北京大学第一医院）、王谢桐（山东省立医院）
+参与本共识制定及讨论的专家
+参与本共识制定及讨论的专家：杨慧霞（北京大学第一医院）、段涛（上海市第一妇婴保健院）、刘兴会（四川大学华西第二医院）、胡娅莉（南京大学医学院附属鼓楼医院）、古航（海军军医大学附属长海医院）、王谢桐（山东省立医院）、陈敦金（广州医科大学第三附属医院）、漆洪波（重庆医科大学附属第一医院）、杨孜（北京大学第三医院）、李笑天（复旦大学附属妇产科医院）、郑勤田（广州市妇女儿童医疗中心）、李颖川（上海交通大学附属第六人民医院）、贺晶（浙江大学医学院附属妇产科医院）、张建平（中山大学孙逸仙医院）、林建华（上海交通大学医学院附属仁济医院）、丁依玲（中南大学湘雅二医院）、刘彩霞（中国医科大学附属盛京医院）、王子莲（中山大学附属第一医院）、苏放明（深圳市人民医院）、程蔚蔚（上海交通大学医学院附属国际和平妇婴保健院）、马润玫（昆明医科大学第一附属医院）、范玲（首都医科大学附属北京妇产医院）、蔺莉（首都医科大学附属北京友谊医院）、张卫社（中南大学湘雅医院）、樊尚荣（北京大学深圳医院）、马玉燕（山东大学齐鲁医院）、孙丽洲（南京医科大学第一附属医院）、罗国阳（美国霍华德大学医学院）、张为远（首都医科大学附属北京妇产医院）、陈叙（天津市中心妇产科医院）、刘俊涛（中国医学科学院北京协和医院）、时春艳（北京大学第一医院）、常青（陆军军医大学附属西南医院）、崔世红（郑州大学第三附属医院）、邹丽（华中科技大学同济医学院附属协和医院）、赵先兰（郑州大学第一附属医院）、肖梅（湖北省妇幼保健院）、徐先明（上海交通大学第一人民医院）、李力（陆军军医大学附属大坪医院）、刘喆（北京大学第一医院）
+参考文献
+[1]
+Society for Maternal-Fetal Medicine(SMFM).
+Amniotic fluid embolism: diagnosis and management[J].
+Am J Obstet Gynecol,
+2016,
+215(
+2):
+B16-
+B24.
+DOI: 10.1016/j.ajog.2016.03.012.
+[2]
+ClarkSL.
+Amniotic fluid embolism[J].
+Obstet Gynecol,
+2014,
+123(
+2
+Pt 1):
+337-
+348.
+DOI:10.1097/AOG.0000000000000107.
+[3]
+AbenhaimHA, AzoulayL, KramerMS, et al.
+Incidence and risk factors of amniotic fluid embolisms: apopulation-based study on 3 million births in the United States[J].
+Am J Obstet Gynecol,
+2008,
+199(
+1):
+49,e1-e8.
+DOI: 10.1016/j.ajog.2007.11.061.
+[4]
+KnightM, TuffnellD, BrocklehurstP, et al.
+Incidence and risk factors for amniotic-fluid embolism[J].
+Obstet Gynecol,
+2010,
+115(
+5):
+910-
+917.
+DOI:10.1097/AOG.0b013e3181d9f629.
+[5]
+FitzpatrickKE, TuffnellD, KurinczukJJ, et al.
+Incidence, risk factors, management and outcomes of amniotic-fluid embolism: a population-based cohort and nested case-control study[J].
+BJOG,
+2016,
+123(
+1):
+100-
+109.
+DOI: 10.1111/1471-0528.13300.
+[6]
+McDonnellNJ, PercivalV, PaechMJ.
+Amniotic fluid embolism: a leading cause of maternal death yet still a medical conundrum[J].
+Int J Obstet Anesth,
+2013,
+22(
+4):
+329-
+336.
+DOI: 10.1016/j.ijoa.2013.08.004.
+[7]
+NakagamiH, KajiharaT, KameiY, et al.
+Amniotic components in the uterine vasculature and their role in amniotic fluid embolism[J].
+J Obstet Gynaecol Res,
+2015,
+41(
+6):
+870-
+875.
+DOI: 10.1111/jog.12650.
+[8]
+Conde-AgudeloA, RomeroR.
+Amniotic fluid embolism: an evidence-based review[J].
+Am J Obstet Gynecol,
+2009,
+201(
+5):
+445.e1-
+13.
+DOI: 10.1016/j.ajog.2009.04.052.
+[9]
+KobayashiH.
+Amniotic fluid embolism: anaphylactic reactions with idiosyncratic adverse response[J].
+Obstet Gynecol Surv,
+2015,
+70(
+8):
+511-
+517.
+DOI: 10.1097/OGX.0000000000000197.
+[10]
+KanayamaN, TamuraN.
+Amniotic fluid embolism: pathophysiology and new strategies for management[J].
+J Obstet Gynaecol Res,
+2014,
+40(
+6):
+1507-
+1517.
+DOI: 10.1111/jog.12428.
+[11]
+CromeyMG, TaylorPJ, CummingDC.
+Probable amniotic fluid embolism after first-trimester pregnancy termination. A case report[J].
+J Reprod Med,
+1983,
+28(
+3):
+209-
+211.
+[12]
+EckerJL, SoltK, FitzsimonsMG, et al.
+Case records of the Massachusetts General Hospital. Case 40-2012. A 43-year-old woman with cardiorespiratory arrest after a cesarean section[J].
+N Engl J Med,
+2012,
+367(
+26):
+2528-
+2536.
+DOI: 10.1056/NEJMcpc1201413.
+[13]
+ClarkSL, HankinsGD, DudleyDA, et al.
+Amniotic fluid embolism: analysis of the national registry[J].
+Am J Obstet Gynecol,
+1995,
+172(
+4
+Pt 1):
+1158-
+1167;
+discussion 1167-1169.
+[14]
+JeejeebhoyFM, ZelopCM, LipmanS, et al.
+Cardiac arrest in pregnancy: a scientific statement from the American Heart Association[J].
+Circulation,
+2015,
+132(
+18):
+1747-
+1773.
+DOI: 10.1161/CIR.0000000000000300.
+[15]
+MooreJ, BaldisseriMR.
+Amniotic fluid embolism[J].
+Crit Care Med,
+2005,
+33(
+10
+Suppl):
+S279-
+S285.
+[16]
+MoaddabA, KlassenM, PriesterCD, et al.
+Reproductive decisions after the diagnosis of amniotic fluid embolism[J].
+Eur J Obstet Gynecol Reprod Biol,
+2017,
+211:
+33-
+36.
+DOI: 10.1016/j.ejogrb.2017.01.050.
+[17]
+RathWH, HoferrS, SinicinaI.
+Amniotic fluid embolism: an interdisciplinary challenge: epidemiology, diagnosis and treatment[J].
+Dtsch Arztebl Int,
+2014,
+111(
+8):
+126-
+132.
+DOI: 10.3238/arztebl.2014.0126.
+[18]
+DuarteAG, ThomasS, SafdarZ, et al.
+Management of pulmonary arterial hypertension during pregnancy: a retrospective, multicenter experience[J].
+Chest,
+2013,
+143(
+5):
+1330-
+1336.
+DOI: 10.1378/chest.12-0528.
+[19]
+TodoY, TamuraN, ItohH, et al.
+Therapeutic application of C1 esterase inhibitor concentrate for clinical amniotic fluid embolism: a case report[J].
+Clin Case Rep,
+2015,
+3(
+7):
+673-
+675.
+DOI: 10.1002/ccr3.316.
+[20]
+HoCH, ChenKB, LiuSK, et al.
+Early application of extracorporeal membrane oxygenation in a patient with amniotic fluid embolism[J].
+Acta Anaesthesiol Taiwan,
+2009,
+47(
+2):
+99-
+102.
+DOI: 10.1016/S1875-4597(09)60033-3.
+[21]
+HsiehYY, ChangCC, LiPC, et al.
+Successful application of extracorporeal membrane oxygenation and intra-aortic balloon counterpulsation as lifesaving therapy for a patient with amniotic fluid embolism[J].
+Am J Obstet Gynecol,
+2000,
+183(
+2):
+496-
+497.
+DOI: 10.1067/mob.2000.104834.
+[22]
+MatsudaY, KamitomoM.
+Amniotic fluid embolism: a comparison between patients who survived and those who died[J].
+J Int Med Res,
+2009,
+37(
+5):
+1515-
+1521.
+DOI: 10.1177/147323000903700529.
+[23]
+Committee opinion no. 590: preparing for clinical emergencies in obstetrics and gynecology[J].
+Obstet Gynecol,
+2014,
+123(
+3):
+722-
+725.
+DOI: 10.1097/01.AOG.0000444442.04111.c6.
+[24]
+时春艳，丁秀萍，张梦莹,等.
+羊水栓塞的早期识别和团队流程化抢救[J].
+中华妇产科杂志,
+2016,
+51(
+5):
+397-
+400.
+DOI: 10.3760/cma.j.issn.0529-567x.2016.05.018.
+贡献者信息
+中华医学会妇产科学分会产科学组
+历史
+出版日期：2018-12-25
+收稿日期：2018-09-26
+本文编辑
+江琪琪
+Consensus
+Expert consensus on clinical diagnosis and treatment of amniotic fluid embolism（2018）
+Obstetrics Subgroup, Chinese Society of Obstetrics and Gynecology, Chinese Medical Association
+Published
+2018-12-25
+Cite as
+Chin J Obstet Gynecol, 2018,53(12): 831-835. DOI: 10.3760/cma.j.issn.0529-567x.2018.12.006
+Contributor Information
+Obstetrics Subgroup, Chinese Society of Obstetrics and Gynecology, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+Society for Maternal-Fetal Medicine(SMFM).
+Amniotic fluid embolism: diagnosis and management[J].
+Am J Obstet Gynecol,
+2016,
+215(
+2):
+B16-
+B24.
+DOI: 10.1016/j.ajog.2016.03.012.
+图1
+羊水栓塞的抢救流程
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华妇产科杂志2018年53卷12期
+文    题：羊水栓塞临床诊断与处理专家共识（2018）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华妇产科杂志2018年53卷12期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+Original text
+Contribute a better translation
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

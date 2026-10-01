@@ -1,0 +1,586 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%96%89%E7%99%BD%E6%96%91%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 喉白斑诊断与治疗专家共识 - 中华耳鼻咽喉头颈外科杂志
+# 发布方/日期: 耳鼻咽喉科，中华耳鼻咽喉头颈外科杂志, 2018,53(8) : 564-569. DOI: 10.3760/cma.j；2018-08-07
+
+喉白斑诊断与治疗专家共识
+中华耳鼻咽喉头颈外科杂志编辑委员会咽喉组
+中华医学会耳鼻咽喉头颈外科学分会嗓音学组
+中华医学会耳鼻咽喉头颈外科学分会咽喉学组
+中华医学会耳鼻咽喉头颈外科学分会头颈外科学组
+中华耳鼻咽喉头颈外科杂志, 2018,53(8) : 564-569. DOI: 10.3760/cma.j.issn.1673-0860.2018.08.002
+喉白斑(laryngeal leukoplakia)表现为喉黏膜不易擦去的白色病灶，多发生于声带黏膜，又称声带白斑。1877年，Schwimmer[1]首次将"白斑"一词用于描述口腔黏膜不同部位的白色病变，1880年Durant[2]率先将"喉白斑"用于患者的诊断，1920年Pierce[3]首次对喉白斑病进行了详细的阐述，1923年Jackson[4]首次提出喉白斑为癌前病变这一概念。既往将喉白斑完全等同于癌前病变这一观点有失偏颇，目前国内外病理学家与临床医生已有共识，喉白斑仅是一个临床诊断，其病理学类型差异较大。但喉白斑在诊断与治疗上仍存在争议，诊断不统一、治疗不规范等问题诸多。为此，由中华耳鼻咽喉头颈外科杂志编委会咽喉组牵头，中华医学会耳鼻咽喉头颈外科学分会嗓音学组、咽喉学组和头颈外科学组召集近百位国内专家学者，参考国内外研究文献和多个国外学会的共识草案，广泛征询国内本领域诸多专家意见后，经过多次研讨达成此共识。现就喉白斑的病因、组织病理学分类标准、诊断及治疗策略、预后及随访等进行阐述。
+一、基本概念
+1．喉白斑：
+是一个临床诊断，表现为喉黏膜白色斑或斑片状改变，偶有红色病变，范围往往局限于声带，病灶隆起或平坦，表面光滑或粗糙，边界往往较清晰。其病理表现各异，有呈炎症改变或鳞状上皮增生、不同级别的异型增生、原位癌，甚至是癌变。
+2．喉癌前病变(laryngeal precancerous lesions)：
+是多种形式的鳞状上皮细胞单纯增生、异型增生及组织结构紊乱，最终有可能演变为鳞状细胞癌的黏膜上皮病变。喉白斑、喉角化症、喉厚皮病、慢性肥厚性喉炎、喉乳头状瘤等都属于癌前病变。其中喉白斑是最为常见的喉癌前病变。
+二、病因及发病机制
+喉白斑的病因尚不完全清楚，多与喉黏膜的长期慢性刺激相关，其中年龄、吸烟、饮酒、咽喉反流与喉白斑、喉癌前病变及喉癌的发生有明确的关系[5,6]。人乳头状瘤病毒(human papilloma virus，HPV)在喉白斑组织中检测到的比例甚少，因此HPV感染的致病作用仍缺乏有力证据支撑[7]。此外，环境污染，如长期接触多环芳烃类化合物、工业灰尘、石棉或清漆等致癌物、嗓音滥用、慢性炎症、某些维生素如A、C、E等缺乏或微量元素摄入不足、激素失衡等在喉白斑的发生发展过程中有一定的作用[8]。喉白斑从黏膜的异型增生直至演变成癌的病理机制较为复杂，是一个多步骤的渐进演变进程，染色质不稳定性诱导促癌驱动基因的活化启动了一系列信号转导通路，激活相关转录基因，导致细胞分子和形态结构的改变，细胞增殖、分化、凋亡等功能调控失常[9,10]。虽然有研究发现有一些分子生物学标志物与喉白斑的异型增生程度或癌变相关，但缺乏大样本前瞻性研究数据支撑[11]，尚未应用于临床。随着对喉白斑及其癌变研究的深入，有望发现有意义的预测分子标记物和潜在的治疗靶点。
+三、病理分类
+目前临床上对于喉癌前病变的病理组织学分类方法主要有世界卫生组织(WHO)的鳞状上皮异型增生分类法、欧洲病理学会的Ljubljana分类法即鳞状上皮内病变(squamous intraepithelial lesion，SIL)分类法、鳞状上皮内瘤变(squamous intraepithelial neoplasia，SIN)分类法以及喉上皮内瘤变(laryngeal intraepithelial neoplasia，LIN)分类法。上述四种分类方法在命名、诊断标准等相关概念方面有相似之处，四者之间有一定的对应关系，但并非完全等同(表1)。由于这些分类方法是基于不同的基本概念和命名体系，也导致了研究者之间结果的一致性较差[12,13]。Ljubljana分类法在预测病变转归方面有较好的价值，但WHO分类法在研究者之间的一致性最高，也是目前国际上应用最多的病理分类标准[14]，故推荐采用WHO分类法应用于喉白斑的病理诊断分类。
+点击查看表格
+表1
+喉癌前病变的四种病理组织学分类方法
+表1
+喉癌前病变的四种病理组织学分类方法
+WHO分类法
+SIL分类法
+SIN分类法
+LIN分类法
+单纯鳞状上皮细胞增生
+良性单纯性增生
+增生/角化性病变
+无不典型性的角化症
+轻度异型增生
+良性异常增生(轻度不典型增生)
+SIN1(轻度上皮内瘤变)
+LIN1(伴有轻度异型增生的角化症)
+中度异型增生
+潜在恶性病变(中度不典型增生)
+SIN2(中度上皮内瘤变)
+LIN2(伴有中度异型增生的角化症)
+重度异型增生
+高度潜在恶变(重度不典型增生)
+SIN3(重度上皮内瘤变)/原位癌)
+LIN3(伴有重度异型增生的角化症以及原位癌)
+原位癌
+原位癌
+注：WHO：世界卫生组织；SIL：鳞状上皮内病变；SIN：鳞状上皮内瘤变；LIN：喉上皮内瘤变
+正常喉黏膜为非角化鳞状上皮，当组织结构紊乱合并细胞异型性变化，则称为异型增生(dysplasia)。WHO分类法根据上皮细胞异型增生程度分级，能较好地反映病变的生物学行为。具体分级如下。
+1．单纯鳞状上皮细胞增生(simple squamous cell hyperplasia)：
+指细胞数量的增多，而组织结构上细胞分层规则，细胞无异型性改变。
+2．轻度异型增生(mild dysplasia)：
+指组织结构紊乱和细胞异型增生局限于上皮下1/3处。
+3．中度异型增生(moderate dysplasia)：
+组织结构紊乱和细胞异型增生延伸至上皮中1/3处。
+4．重度异型增生(severe dysplasia)：
+组织结构紊乱和细胞异型增生超过上皮2/3处。
+5．原位癌(carcinoma in situ)：
+全层或几乎全层细胞结构紊乱伴有明显的细胞异型增生。
+国内各家医院的病理学分类方法并未统一，故本共识保留上述四种分类方法。但不管用哪种分类标准，仍然有一定主观性，尤其是在轻度和中度异型增生之间，难以区分上皮基底层细胞核形状和大小的变异[15]。而轻中度异型增生和重度异型增生及原位癌较易区分，故采用"低级别(轻中度异型增生)"和"高级别(重度异型增生及原位癌)"划分的二分法应用较为广泛[16]。由于喉白斑的组织病理学分类对恶性转变的风险判断有较大的参考价值，风险级别越高预示癌变可能性越大[17]。因此，我们推荐根据喉白斑患者的病理检查结果，采用"低危组(轻中度异型增生)"和"高危组(重度异型增生及原位癌)"进行划分，以期更好地规范诊断、治疗、随访等临床实践。
+四、临床表现
+喉白斑尽管属于喉癌前病变，但在组织病理学上，既有炎性病变，又有癌前病变，甚至癌变。因此，在临床治疗前需要对其良恶性及恶变倾向做出一个基本判断，避免对良性病变的过度治疗及对恶性潜能高的病变漏诊误治，为治疗策略的制订提供依据。
+1．症状：
+通常以声音嘶哑为首发症状，病程往往较长。还可表现为咽喉部不适、异物感、发音易疲劳、慢性咳嗽等。
+2．体征：
+喉白斑的喉镜所见各异，与病理分类之间有一定的关联性。
+病变多发于声带，单侧病变多于双侧，可累及前连合；范围可局限为单个病灶，也可表现为多个病灶或者融合波及声带全长，累及喉室、室带等其他部位甚为少见。病变表面平坦光滑、边界清晰、呈斑或斑片状的白色病变，大多为良性病变如炎症或低中级别异型增生。病变呈斑块状、疣状或乳头状，表面隆起粗糙、多个病灶融合、边界模糊的白色病变、或合并红斑或溃疡，往往提示有异型增生，甚至高级别异型增生，乃至癌变。
+五、辅助检查与功能评估
+喉白斑的病因复杂、表现多样，详细的病史询问、辅助检查和功能评估，对于喉白斑的诊断、治疗方法的选择、预后的评估均有很高的临床价值。其中喉镜检查及病理学检查最为重要，是诊断的必需检查。
+(一)喉镜检查
+1．硬质(rigid laryngoscopy)或纤维/电子喉镜检查(fibrolaryngoscopy)：
+是观察喉部病变的基本检查，也是诊断喉白斑的必备条件。检查报告应如体征中所描述的那样详细记录病变的性状、范围、大小、表面粗糙与否、有无溃疡与出血等，还应记录声带运动及声门闭合情况。此外，动态(频闪)喉镜(stroboscopy)及窄带成像(narrow band imaging，NBI)等检查对病变性质的评估、疾病的病因判断及治疗方案的选择有重要的指导意义[18]。
+2．动态喉镜检查：
+可观察喉白斑患者声带黏膜波及振动特征，喉白斑如为浅层病变(轻中度异型增生)，只对黏膜波有影响。当病变向深层发展时(重度异型增生及原位癌)将影响到声带黏膜波的产生，甚至影响到声带振动的幅度与周期。黏膜波缺失或声带振动减弱不规则提示存在侵袭性病变的可能，鉴别喉癌前病变和喉癌的特异度和敏感度均约为95%[19]，故强烈推荐该项检查。
+3．NBI技术：
+通过滤除红光增加黏膜表层细微结构和黏膜下血管的对比度和清晰度，有助于微小癌灶的早期发现与判断，有利于鉴别诊断喉炎症、喉癌前病变和早期喉癌[20]。NBI内镜下观察到的上皮内毛细血管襻(intraepithelial papillary capillary loop，IPCL)走行清晰，多见于良性病变；明显扩张迂曲的IPCL，形态不规则，口径不一，形态多样密集的棕色斑点，多见于重度异型增生甚至癌变。
+4．自体荧光内镜(autofluorescent endoscopy)：
+是一项早期诊断喉癌前癌变和喉癌的微创检查，敏感性较高，通常表现为肿瘤细胞无法发出绿色荧光[21]。
+(二)病理学检查
+1．活组织检查(活检)：
+是明确喉白斑病理性质的唯一方法，但并非所有喉白斑患者均接受活检。建议有以下情况之一者作活检：(1)喉镜检查发现病变表面粗糙、范围较广者，尤其是合并红斑或合并溃疡者；(2)频闪喉镜、NBI等检查提示喉癌前病变或恶变可能性较大者；(3)保守治疗无效或密切观察怀疑癌变者；(4)外科治疗后癌前病变处或癌变处怀疑复发者；(5)白色病变性质需要鉴别诊断者；(6)高度怀疑高级别癌前病变，应多点活检或予以病变全切除后分为多个部分分别做病理学检查。
+2．活检方法：
+可采用门诊纤维/电子喉镜局麻活检术，能提供早期的诊断方向。多个病灶或融合成广泛病变的喉白斑，建议尽可能作多点反复活检，以了解病变性质和程度。然而，高度怀疑中重度异型增生甚至癌变者，也可以全麻显微支撑喉镜下行病变全层切除，作术中冰冻或活检，以明确诊断，并达到治疗的目的。
+(三)嗓音的主观评估及客观声学测试
+可量化疾病对喉功能的影响，评估疾病发展程度，评价治疗效果，因此是喉白斑非常重要的常规检查方法[22]。结合我国国情，建议作嗓音主观评估，有条件的单位开展客观声学测试。
+(四)咽喉反流评估
+喉白斑疑为咽喉反流所致，建议首先通过详细询问病史和喉镜检查，参照反流症状指数(reflux symptom index，RSI)量表和反流体征评分(reflux finding score，RFS)量表初步诊断，有条件者采用pH监测明确诊断[23]。
+(五)影像学检查
+病变影响声带运动或高度怀疑恶变者，建议行影像学检查(CT、MRI)，目的是评估病变范围、部位及病变特征，为疾病的诊断提供帮助。
+六、诊断与鉴别诊断
+根据临床表现可诊断喉白斑，结合辅助检查可更好地区别喉白斑属于炎症、良性增生，还是喉癌前病变，甚至癌变。需注意与喉角化症、喉厚皮病、慢性肥厚性喉炎、喉结核、喉真菌病、喉癌等疾病相鉴别，怀疑为癌前病变或癌变者，以及喉部病变难以鉴别诊断者，建议行活检以明确病理诊断。病理诊断建议采用WHO病理分类法。
+七、治疗
+(一)治疗原则
+喉白斑的治疗策略是尽可能解除病因或对因治疗。轻中度异型增生者可保守治疗及密切观察，无效甚至加重者可手术治疗；重度异型增生及原位癌者尽早接受外科治疗；复发者尽早活检，癌变者扩大切除范围。目的是彻底去除病灶，最大程度改善或恢复嗓音功能。
+(二)保守治疗
+喉黏膜局部水肿、增厚、表面光滑平坦、病程较短的喉白斑，大多数属于良性增生或低级别异型增生。另外，活检证实为轻中度异型增生者，建议选择保守治疗1～2个月，有效者继续治疗和密切随访，无效者建议选择手术。
+1．建议患者避免刺激诱导因素，严格戒烟戒酒，补充维生素，健康饮食等[24]。
+2．可酌情采用糖皮质激素雾化吸入。
+3．明确有咽喉反流或疑似患者，建议给予抗反流治疗，例如质子泵抑制剂(proton-pump inhibitor，PPI)，根据具体情况可辅助使用胃肠动力药物[25]。
+4．中医药对喉白斑的治疗有一定的作用。可根据患者体质和症状表现，辨证选用化痰散结、活血祛瘀的中药饮片和中成药。
+5．嗓音训练：嗓音滥用在喉白斑的发生发展过程中有一定的作用，建议有条件的单位对此类患者进行嗓音健康宣教并进行嗓音训练，术后嗓音训练对嗓音质量的恢复也有促进作用。
+(三)手术治疗
+手术是喉白斑最主要的治疗手段，适应证包括：(1)活检明确是"低危组"癌前病变，但经保守治疗无效者；(2)临床高度怀疑高级别异型增生或癌变者，切除病变的同时可完成病理学检查；(3)高级别异型增生以上的病变术后复发者。
+喉白斑的手术治疗原则是保证病变切除的前提下，尽可能地改善或恢复嗓音功能。因此，外科处理应尽量在手术显微镜或内镜辅助下完成。应根据病理组织学诊断选择病变切除的范围：轻中度异型增生仅切除黏膜上皮组织；重度异型增生及原位癌切除需深达声韧带层；一旦术中冰冻检查或术后病理诊断明确为癌变时，则根据侵犯的深度及范围，同期或二期行部分声带切除术[26]。如双侧病变累及前连合，可以一期手术，也可以在首次切除一侧病变3～4周后二期手术切除另外一侧，以降低术后前连合创面粘连的风险。
+1．支撑喉镜冷器械病损切除术：
+推荐在手术显微镜辅助下使用冷器械切除喉白斑病变，可采用撕皮或剥皮术(stripping/decortication)处理喉白斑，尽量采用黏膜微瓣切除术(mucosal microflap resection)，可辅助黏膜下生理盐水注射完成切除[27]。术中尽可能保护正常黏膜组织及声韧带；切除的创面能够缝合者，建议尽量采用显微缝合技术消灭创面，最大程度地恢复嗓音质量。
+2．支撑喉镜CO2激光病损切除术：
+推荐在手术显微镜辅助下使用CO2激光切除病变，适用于所有级别异型增生的喉白斑。前提是病变可在支撑喉镜下充分暴露。由于国内尚没有激光手术切除声带范围及深度分类的统一标准，推荐采用欧洲喉科学会工作委员会(2000年)提出的显微镜下声带切除术分类标准指南[28]。"低危组"病变推荐采用Ⅰ型即黏膜下声带切除术(subepithelial cordectomy)；"高危组"病变推荐采取Ⅱ型即韧带下声带切除术(subligmental cordectomy)。对于术中冰冻或病理提示有局灶癌变者可行Ⅲ型即经声带肌的声带部分切除术(transmuscular cordectomy)，甚至更大范围的切除。
+八、预后与随访
+喉白斑的癌变风险率通常随着异型增生程度的增加而升高，癌变率8%～22%，癌变转化时间1.8～14.4年(平均5.8年)，癌变的转化时间与异型增生的程度无关[17]。病变范围、级别都是喉癌前病变复发和癌变的高风险因素[29]，但重度异型增生者也能通过保守治疗保持病变稳定状态甚至消退。
+喉白斑的随访策略迄今尚无国际统一标准[30]。基于喉白斑的癌变潜能和不同治疗方法都有较高的复发率[31]，参考国外随访策略，推荐以下要点。
+(一)风险度
+喉白斑术后均应评估患者的风险度，根据风险度确定患者随访的间隔时间。
+1．高危病变：
+(1)WHO分类为重度异型增生/原位癌；(2)轻度或中度异型增生伴以下一项或多项：①持续吸烟；②持续嘶哑；③内镜下病变明显。
+2．低危病变：
+轻度或中度异型增生且病变不明显或嘶哑不明显或不吸烟者。
+(二)随访时间
+1．高危患者：
+随访间隔应与早期喉癌相似，第1年每2～3个月1次，第2年每3～4个月1次，第3年后每4～6个月1次。
+2．低危患者：
+每6个月随访1次，至少随访2年；之后，可在发音变化或其他可疑症状出现时就诊。
+(三)控制高危因素
+严格控制癌变的高危险因素如吸烟、饮酒、咽喉反流等。
+(四)复发病例及时进行活检
+根据癌前病变病理分级，可按照初发病例继续处理，但需关注对因治疗，密切随访，高级别异型增生及可疑癌变者应及时外科干预及综合治疗。
+喉白斑的处理流程见图1。
+点击查看大图
+图1
+喉白斑处理流程图
+图1
+喉白斑处理流程图
+委员会成员
+执笔专家：
+郑宏良 肖水芳 徐 文 陈东辉 李晓明 于 萍
+李进让
+参与讨论专家：
+中华耳鼻咽喉头颈外科杂志编委会咽喉组全体成员
+中华医学会耳鼻咽喉头颈外科学分会嗓音学组全体成员
+中华医学会耳鼻咽喉头颈外科学分会咽喉学组全体成员
+中华耳鼻咽喉头颈外科杂志编委会头颈外科组部分成员
+秘书：
+陈东辉
+参考文献
+[1]
+SchwimmerE.
+Die idiopathischen schleimhaut plaques der mundhöhle (leukoplakia buccalis)[J].
+Arch Dermat Syph，
+1877，
+9:
+570-
+611.
+[2]
+DurantG.
+Case of cancer of the larynx[J].
+Arch Otolaryngol,
+1880，
+1:
+61-
+62.
+[3]
+PierceNH.
+Leukoplakia laryngis[J].
+Ann Otol Rhinol Laryngol,
+1920,
+29:
+24.
+[4]
+JacksonC.
+Cancer of the larynx: is it preceded by a recognizable precancerous condition？[J].
+Ann Surg，
+1923，
+77(
+1):
+1-
+14.
+[5]
+LewinJS, GillenwaterAM, GarrettJD, et al.
+Characterization of laryngopharyngeal reflux in patients with premalignant or early carcinomas of the larynx[J].
+Cancer,
+2003，
+97(
+4):
+1010-
+1014.
+DOI：10.1002/cncr.11158.
+[6]
+SadriM, McMahonJ, ParkerA.
+Laryngeal dysplasia：aetiology and molecular biology[J].
+J Laryngol Otol,
+2006，
+120(
+3):
+170-
+177.
+DOI：10.1017/S0022215105005360.
+[7]
+DonàMG, PichiB, RolloF, et al.
+Mucosal and cutaneous human papillomaviruses in head and neck squamous cell papillomas[J].
+Head Neck,
+2017，
+39(
+2):
+254-
+259.
+DOI：10.1002/hed.24575.
+[8]
+BosatraA, BussaniR, SilvestriF.
+From epithelial dysplasia to squamous carcinoma in the head and neck region：an epidemiological assessment[J].
+Acta Otolaryngol Suppl,
+1997，
+527:
+47-
+48.
+[9]
+GaleN, GneppDR, PoljakM, et al.
+Laryngeal squamous intraepithelial lesions：An updated review on etiology, classification, molecular changes, and treatment[J].
+Adv Anat Pathol,
+2016,
+23(
+2):
+84-
+91.
+DOI：10.1097/PAP.0000000000000106.
+[10]
+BergshoeffVE, Van der HeijdenSJ, HaesevoetsA, et al.
+Chromosome instability predicts progression of premalignant lesions of the larynx[J].
+Pathology,
+2014，
+46(
+3):
+216-
+224.
+DOI：10.1097/PAT.0000000000000068.
+[11]
+RodrigoJP, García-PedreroJM, SuárezC, et al.
+Biomarkers predicting malignant progression of laryngeal epithelial precursor lesions：a systematic review[J].
+Eur Arch Otorhinolaryngol,
+2012，
+269(
+4):
+1073-
+1083.
+DOI：10.1007/s00405-011-1831-4.
+[12]
+胡艳萍，刘红刚.
+喉癌前病变的病理诊断差异性及预后分析[J]．
+中华耳鼻咽喉头颈外科杂志，
+2014，
+49(
+12):
+979-
+985.
+DOI：10.3760/cma.j.issn.1673-0860.2014.12.003.
+HuYP, LiuHG. Histopathological variability and the prognosis of laryngeal premalignant lesions[J]．Chin J Otorhinolaryngol Head Neck Surg，2014，49(12):979-985. DOI：10.3760/cma.j.issn.1673-0860.2014.12.003.
+[13]
+SariogluS, CakalagaogluF, ElagozS, et al.
+Inter-observer agreement in laryngeal pre-neoplastic lesions[J].
+Head Neck Pathol,
+2010，
+4(
+4):
+276-
+280.
+DOI：10.1007/s12105-010-0208-0.
+[14]
+SerioG, GiardinaC, ValenteT, et al.
+Quantitative morphometrical investigation of basal cell layer in laryngeal premalignant lesions[J].
+J Exp Clin Cancer Res,
+2002，
+21(
+4):
+495-
+502.
+[15]
+McLarenKM, BurnettRA, GoodladJR, et al.
+Consistency of histopathological reporting of laryngeal dysplasia. The Scottish Pathology Consistency Group[J].
+Histopathology,
+2000，
+37(
+5):
+460-
+463.
+[16]
+UngerJ, LohschellerJ, ReiterM, et al.
+A noninvasive procedure for early-stage discrimination of malignant and precancerous vocal fold lesions based on laryngeal dynamics analysis[J].
+Cancer Res,
+2015，
+75(
+1):
+31-
+39.
+DOI：10.1158/0008-5472.CAN-14-1458.
+[17]
+WellerMD, NankivellPC, McConkeyC, et al.
+The risk and interval to malignancy of patients with laryngeal dysplasia; a systematic review of case series and meta-analysis[J].
+Clin Otolaryngol,
+2010，
+35(
+5):
+364-
+372.
+DOI：10.1111/j.1749-4486.2010.02181.x.
+[18]
+李娟，徐文，程丽宇.
+频闪喉镜及窄带成像内镜在声带白斑诊断中的应用[J]．
+中华耳鼻咽喉头颈外科杂志，
+2017，
+52(
+11):
+806-
+811.
+DOI：10.3760/cma.j.issn.1673-0860.2017.11.002.
+LiJ, XuW, ChengLY. Application of stroboscopy and narrow band imaging endoscopy in the diagnosis of vocal cord leukoplakia[J]. Chin J Otorhinolaryngol Head Neck Surg, 2017, 52(11):806-811. DOI：10.3760/cma.j.issn.1673-0860.2017.11.002.
+[19]
+El-DemerdashA, FawazSA, SabriSM, et al.
+Sensitivity and specificity of stroboscopy in preoperative differentiation of dysplasia from early invasive glottic carcinoma[J].
+Eur Arch Otorhinolaryngol,
+2015，
+272(
+5):
+1189-
+1193.
+DOI：10.1007/s00405-015-3530-z.
+[20]
+KlimzaH, JackowskaJ, TokarskiM, et al.
+Narrow-band imaging (NBI) for improving the assessment of vocal fold leukoplakia and overcoming the umbrella effect[J].
+PLoS One,
+2017，
+12(
+6):
+e0180590.
+DOI：10.1371/journal.pone.0180590.
+[21]
+BaleticN, PetrovicZ, PendjerI, et al.
+Autofluorescent diagnostics in laryngeal pathology[J].
+Eur Arch Otorhinolaryngol,
+2004，
+261(
+5):
+233-
+237.
+DOI：10.1007/s00405-003-0668-x.
+[22]
+徐文.
+声带白斑的诊断与治疗[J]．
+中华耳鼻咽喉头颈外科杂志，
+2015,
+50(
+12):
+1049-
+1052.
+DOI：10.3760/cma.j.issn.1673-0860.2015.12.021.
+XuW. Diagnosis and treatment of laryngeal leukoplakia[J]．Chin J Otorhinolaryngol Head Neck Surg，2015，50(12):1049-1052. DOI：10.3760/cma.j.issn.1673-0860.2015.12.021.
+[23]
+中华耳鼻咽喉头颈外科杂志编辑委员会咽喉组，中华医学会耳鼻咽喉头颈外科学分会咽喉学组.
+咽喉反流性疾病诊断与治疗专家共识(2015年) [J].
+中华耳鼻咽喉头颈外科杂志，
+2016,
+51(
+5):
+324-
+326.
+DOI：10.3760/cma.j.issn.1673-0860.2016.05.002.
+Subspecialty Group of Laryngopharyngology, Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery; Subspecialty Group of Laryngopharyngology, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association. Experts consensus on diagnosis and treatment of laryngopharyngeal reflux disease (2015)[J]. Chin J Otorhinolaryngol Head Neck Surg, 2016, 51(5):324-326. DOI：10.3760/cma.j.issn.1673-0860.2016.05.002.
+[24]
+JohnsonFL.
+Management of advanced premalignant laryngeal lesions[J].
+Curr Opin Otolaryngol Head Neck Surg,
+2003，
+11(
+6):
+462-
+466.
+[25]
+MehannaH, PaleriV, RobsonA, et al.
+Consensus statement by otorhinolaryngologists and pathologists on the diagnosis and management of laryngeal dysplasia[J].
+Clin Otolaryngol,
+2010，
+35(
+3):
+170-
+176.
+DOI：10.1111/j.1749-4486.2010.02119.x.
+[26]
+周莹，李孟，郑宏良，等.
+声带浅固有层切除术治疗声带白斑的疗效分析[J]．
+听力学及言语疾病杂志，
+2013，(
+5):
+489-
+493.
+DOI：10.3969/j.issn.1006-7299.2013.05.014.
+ZhouY, LiM, ZhengHL, et al. Analysis of curative effect of vocal cord shallow lamina propria resection on the treatment of vocal cord leukoplakia[J]．Journal of Audiology and Speech Pathology，2013，(5):489-493. DOI：10.3969/j.issn.1006-7299.2013.05.014.
+[27]
+RemacleM, FriedrichG, DikkersFG, et al.
+Phonosurgery of the vocal folds：a classification proposal[J].
+Eur Arch Otorhinolaryngol,
+2003，
+260(
+1):
+1-
+6.
+DOI：10.1007/s00405-002-0507-5.
+[28]
+RemacleM, EckelHE, AntonelliA, et al.
+Endoscopic cordectomy. A proposal for a classification by the Working Committee, European Laryngological Society[J].
+Eur Arch Otorhinolaryngol,
+2000，
+257(
+4):
+227-
+231.
+[29]
+PanwarA, LindauR, WielandA.
+Management of premalignant lesions of the larynx[J].
+Expert Rev Anticancer Ther,
+2013，
+13(
+9):
+1045-
+1051.
+DOI：10.1586/14737140.2013.829643.
+[30]
+LeeDH, YoonTM, LeeJK, et al.
+Predictive factors of recurrence and malignant transformation in vocal cord leukoplakia[J].
+Eur Arch Otorhinolaryngol,
+2015，
+272(
+7):
+1719-
+1724.
+DOI：10.1007/s00405-015-3587-8.
+[31]
+CoswayB, PaleriV.
+Laryngeal dysplasia：an evidence-based flowchart to guide management and follow up[J].
+J Laryngol Otol,
+2015，
+129(
+6):
+598-
+599.
+DOI：10.1017/S0022215115000833.
+贡献者信息
+中华耳鼻咽喉头颈外科杂志编辑委员会咽喉组
+中华医学会耳鼻咽喉头颈外科学分会嗓音学组
+中华医学会耳鼻咽喉头颈外科学分会咽喉学组
+中华医学会耳鼻咽喉头颈外科学分会头颈外科学组
+历史
+出版日期：2018-08-07
+收稿日期：2018-05-25
+本文编辑
+高洁
+Practical Guideline
+Experts consensus on diagnosis and treatment of laryngeal leukoplakia
+Subspecialty Group of Laryngopharyngology, Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery,  Subspecialty Group of Voice, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association,  Subspecialty Group of Laryngopharyngology, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association,  Subspecialty Group of Head and Neck Surgery, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association
+Published
+2018-08-07
+Cite as
+Chin J Otorhinolaryngol Head Neck Surg, 2018,53(8): 564-569. DOI: 10.3760/cma.j.issn.1673-0860.2018.08.002
+Contributor Information
+Subspecialty Group of Laryngopharyngology, Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery
+Subspecialty Group of Voice, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association
+Subspecialty Group of Laryngopharyngology, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association
+Subspecialty Group of Head and Neck Surgery, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+喉癌前病变的四种病理组织学分类方法
+WHO分类法
+SIL分类法
+SIN分类法
+LIN分类法
+单纯鳞状上皮细胞增生
+良性单纯性增生
+增生/角化性病变
+无不典型性的角化症
+轻度异型增生
+良性异常增生(轻度不典型增生)
+SIN1(轻度上皮内瘤变)
+LIN1(伴有轻度异型增生的角化症)
+中度异型增生
+潜在恶性病变(中度不典型增生)
+SIN2(中度上皮内瘤变)
+LIN2(伴有中度异型增生的角化症)
+重度异型增生
+高度潜在恶变(重度不典型增生)
+SIN3(重度上皮内瘤变)/原位癌)
+LIN3(伴有重度异型增生的角化症以及原位癌)
+原位癌
+原位癌
+注：WHO：世界卫生组织；SIL：鳞状上皮内病变；SIN：鳞状上皮内瘤变；LIN：喉上皮内瘤变
+图1
+喉白斑处理流程图
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华耳鼻咽喉头颈外科杂志2018年53卷8期
+文    题：喉白斑诊断与治疗专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华耳鼻咽喉头颈外科杂志2018年53卷8期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

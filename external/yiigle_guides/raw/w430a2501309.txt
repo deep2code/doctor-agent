@@ -1,0 +1,840 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%84%BF%E7%AB%A5%E7%89%B9%E5%BA%94%E6%80%A7%E7%9A%AE%E7%82%8E%E8%AF%8A%E7%96%97%E5%85%B1%E8%AF%86%EF%BC%882017%E7%89%88%EF%BC%89.html
+# 标题: 中国儿童特应性皮炎诊疗共识（2017版） - 中华皮肤科杂志
+# 发布方/日期: 皮肤科，中华皮肤科杂志, 2017,50(11) : 784-789. DOI: 10.3760/cma.j；2017-11-15
+
+中国儿童特应性皮炎诊疗共识（2017版）
+中华医学会皮肤性病学分会儿童皮肤病学组
+中华皮肤科杂志, 2017,50(11) : 784-789. DOI: 10.3760/cma.j.issn.0412-4030.2017.11.002
+特应性皮炎（AD）是一种慢性反复发作的炎症性皮肤病，以剧烈瘙痒和湿疹样损害为主要特征，好发于儿童，大多数婴儿期发病，患儿往往有特应性素质[1]。特应性体质主要是指个人或家属有过敏性哮喘、过敏性鼻炎、过敏性结膜炎和（或）AD史以及IgE显著升高[2]。AD、过敏性哮喘和过敏性鼻炎被称为儿童特应性三联征，三联征中AD发病年龄最早，因此在儿童期的发病率要远高于成年期。与成人期AD相比，婴幼儿期AD无论在皮损分布、皮损类型、用药选择、护理与预防等方面均有明显不同。为规范我国儿童AD的临床诊疗，中华医学会皮肤性病学分会儿童皮肤病学组组织国内儿童AD诊疗专家依据国内外AD指南以及长期积累的临床经验，针对我国临床诊疗特点制定中国0 ~ 18岁儿童AD的诊疗共识。
+一、流行病学
+我国AD患病率总体呈上升趋势。2004年，中国10个城市问卷调查显示，1 ~ 7岁儿童AD患病率为3.07%[3]。2012年上海地区问卷调查显示，3 ~ 6岁城市儿童AD患病率为8.3%[4]，2013年12月至2014年5月，中华医学会皮肤性病学分会儿童皮肤病学组开展中国首个AD的现场流行病学调查，结果表明，中国12个城市1 ~ 7岁儿童AD的患病率为12.94%，AD患病率随着年龄增长逐步下降，从1 ~ 2岁年龄段的19.94%逐步降至6 ~ 7岁年龄段的10.39%，这与其自然病程一致；74.60%为轻度，23.97%为中度，1.44%为重度[5]。
+二、病因与发病机制
+（一）遗传学机制：
+AD属多基因疾病，遗传是构成AD易感性的重要因素[6]。AD发病有母系遗传倾向：母方患AD，子女出生后3个月发病的概率为25%，2岁内超过50%；父亲有特应性疾病史，子女罹患AD的概率约为22%；父母双方有特应性疾病史，其子女AD患病概率高达79%[7]。AD患儿父亲和母亲中AD的发生率分别为37%和63%[8]，即母方患病的子女患AD的风险高于父方患病的子女。此外，AD患者的同卵双胞胎兄弟或姐妹AD发生率为80%，异卵双生者AD发生率为20%[9]。
+目前已发现32个与AD相关的易感区域[1]，候选易感基因包括与皮肤屏障功能相关的基因[如中间丝聚合蛋白（FLG）基因、丝氨酸蛋白酶抑制剂Kazal5型（SPINK5）基因等]以及与免疫机制相关的基因如编码高亲力IgE受体α链的FCER1A基因、Toll样受体2基因等。其中，编码关键表皮结构蛋白的FLG基因突变是已知最强的遗传危险因素[10]。
+（二）免疫学机制：
+AD患者皮肤屏障功能存在障碍，金黄色葡萄球菌、病毒、尘螨等抗原可经皮肤进入机体。暴露于抗原后，机体产生的IgE与其受体FcεRI结合诱导肥大细胞脱颗粒，释放多种炎症介质，导致AD急性炎症反应[11,12]；抗原激活树突细胞等抗原提呈细胞，后者迁移至局部淋巴结，诱导初始T淋巴细胞分化为以Th2细胞为主的效应T淋巴细胞；同时，初始T淋巴细胞的分化也受到角质形成细胞分泌的胸腺基质淋巴细胞生成素的诱导等[13,14]。免疫细胞与细胞因子网络般交织并相互作用，触发一系列免疫反应，Th2型细胞因子白细胞介素5（IL-5）可诱导嗜酸性粒细胞活化，损伤组织，IL-31引发炎症和瘙痒，Th1型细胞因子干扰素γ（IFN-γ）与AD的慢性化相关，Th2型细胞因子在成人AD中发挥重要作用[1,15]。失衡的免疫状态加剧皮肤炎症，诱发搔抓行为，进一步破坏皮肤屏障功能，形成恶性循环，促使AD不断进展。
+（三）皮肤屏障功能：
+皮肤屏障功能受损通常表现为皮肤pH上升，经表皮水分丢失增加，水含量下降以及皮脂含量降低。皮肤屏障缺陷主要表现为角质层原始结构异常，这与FLG缺乏相关，在正常人群中该基因的突变频率< 10%，而在AD患者中为10% ~ 50%[16,17,18]，在中国AD患者为26% ~ 31.4%[19,20]。FLG基因功能缺失突变及局部皮损内炎症因子的调控均能导致该蛋白缺乏[21]。屏障功能受损导致变应原易于入侵，诱导AD炎症反应发生[22]。AD的皮肤屏障功能缺陷还与编码其他表皮分化复合物、角质层糜蛋白酶、角蛋白16、紧密连接蛋白的基因等有关。
+（四）病因和加重诱发因素：
+主要包括免疫-变应性因素及非免疫性因素两方面[1]。
+1．免疫-变应性因素：
+①吸入变应原，如尘螨、动物皮屑、花粉等，其中最重要的是尘螨，而花粉作为季节性吸入性变应原，是季节性加重的因素[23]；②食物变应原，食物过敏可能是婴儿期AD的诱因之一，但牛奶、鸡蛋等食物过敏则大多会随着年龄的增加、免疫耐受的形成而逐渐减轻，如鸡蛋过敏患者66%在5岁前可缓解，75%在7岁前缓解，而牛奶过敏患者76%在5岁前就能缓解[24]；③接触性变应原，特应性素质者对镍盐过敏很常见[25]；合成纤维、毛织品、洗涤剂、自来水、汗液、日光等均可加重AD，诱发炎症急性发作；④感染，是重要的诱发因素，特应性素质者防御皮肤感染的天然免疫成分如抗菌肽LL-37和β防御素等存在缺陷，局部葡萄球菌、单纯疱疹病毒、浅表真菌如马拉色菌感染均较常见[26,27]。
+2．非免疫性因素：
+情绪因素如压力、焦虑（儿童期晚期和青少年期）等往往能加重病情。
+三、临床表现
+（一）临床分期：
+根据年龄将AD分为婴儿期（0 ~ 2岁）、儿童期（2 ~ 12岁）和青少年及成人期（≥ 12岁）。
+（二）典型临床表现：
+①皮疹分布，婴儿期主要位于面颊部、额部和头皮，逐渐发展至躯干和四肢伸侧；儿童期主要分布于面部、躯干和四肢伸侧，并逐渐转至屈侧，如肘窝、腘窝等部位；②瘙痒和干皮症，几乎是所有AD患者的共同临床特征；③抓痕、炎性皮损（红斑、丘疹、水疱、渗出和脱屑）、苔藓样变，是最主要的皮疹类型，且往往共存。但AD患者临床表现可以不典型，应注意防止误诊漏诊。
+（三）不典型临床表现：
+表1中列出的部分表现在AD患儿中并不少见，因此在对患儿做全面的皮肤科检查时不应遗漏，避免临床误诊或漏诊。
+点击查看表格
+表1
+中国儿童特应性皮炎（AD）患者不典型临床表现及其发生率和临床意义
+表1
+中国儿童特应性皮炎（AD）患者不典型临床表现及其发生率和临床意义
+临床表现
+发生率(%)
+临床意义
+毛周隆起
+59.6
+亚洲人多见，本质为湿疹表现，多位于躯干部［28］
+眼睑湿疹
+50.0
+下眼睑更常见，与吸入性变应原过敏有关
+耳廓/耳后/鼻孔下裂隙
+47.3
+有诊断提示价值
+口角唇炎
+26.1
+特征性表现，儿童期和冬季多见
+外阴湿疹
+8.6
+有时是儿童期AD的唯一表现，应与尿布皮炎鉴别
+乳头湿疹
+7.1
+AD可靠的诊断指标
+指尖湿疹/特应性冬季足
+2.8
+学龄期儿童常见，可以是AD唯一表现
+白色糠疹
+2.5
+通常是AD的轻微表现［28］
+钱币样湿疹
+1.1
+冬季好发，在儿童往往有诊断价值
+甲沟湿疹
+1.3
+与皮肤干燥和过度洗涤有关
+痒疹
+1.0
+儿童少见
+丘疹性苔藓样疹
+1.2
+春夏季好发
+红皮病
+< 1.0
+婴幼儿应排除代谢性、免疫缺陷疾病以及肿瘤等
+注：数据来源于国内一项对1 008例特应性皮炎患者的临床体征研究[29]
+（四）特应性标志：
+干皮症、Hertoghe征、掌纹征、白色划痕等可作为儿童期AD特应性标志（表2）。
+点击查看表格
+表2
+中国儿童特应性皮炎患者的特应性标志及其发生率和临床意义
+表2
+中国儿童特应性皮炎患者的特应性标志及其发生率和临床意义
+临床表现
+发生率(%)
+临床意义
+干皮症
+79.2
+全身性或局限性，受季节、皮肤护理因素影响
+Hertoghe征
+39.0
+搔抓摩擦所致
+掌纹征
+15.0
+与FLG基因突变相关［30］
+白色划痕
+6.4
+是干性皮肤的表现，婴儿早期无
+慢性头皮脱屑
+6.4
+在婴幼儿有重要诊断价值
+眶下皱褶（Dennie⁃Morgan征）
+4.2
+也可见于无皮疹的特应性呼吸道疾病患儿
+眶周色素沉着
+3.2
+眼下方更显著，可能与特应性呼吸道疾病有关
+毛发苔藓
+2.1
+学龄期儿童多见
+注：数据来源于国内一项对1 008例特应性皮炎患者的临床体征研究[29]
+四、诊断、鉴别诊断和临床评估
+（一）诊断标准：
+目前国内诊断主要还是采用Hanifin和Rajka诊断标准，以及英国（Williams）诊断标准。前者是最早制定的诊断标准，条目复杂，较适用于临床观察研究，后者简便，特异性和敏感性与Hanifin和Rajka诊断标准相似，更适用于流行病学调查。在中国婴幼儿AD人群的诊断价值尚缺乏大样本研究的验证。最近的流行病学调查发现[5,31,32]，无论是Hanifin和Rajka诊断标准，还是Williams诊断标准，与临床医生的诊断仍有较大的差距，因此有专家提出中国儿童AD临床诊断标准，但仍在进一步验证中。
+（二）鉴别诊断：
+按AD不同的临床表现进行相应的鉴别诊断。
+1．以红斑、渗出或鳞屑为主要表现：
+应与接触性皮炎、慢性单纯性苔藓、银屑病、鱼鳞病、肠病性肢端皮炎以及朗格汉斯细胞组织细胞增多症等鉴别。
+2．以丘疹、结节、水疱或脓疱为主要表现：
+应与新生儿痤疮、毛周角化病、疥疮、疱疹样皮炎、大疱性类天疱疮、嗜酸性粒细胞增多症、痒疹型隐性遗传营养不良型大疱性表皮松解症以及高IgE综合征等鉴别。
+3．以红皮病为主要表现：
+应与Netherton综合征、Omenn综合征、生物素酶缺乏症、全羧化酶合成酶缺乏症、Wiskott-Aldrich综合征、皮肤T细胞淋巴瘤、先天性低丙种球蛋白血症以及运动失调性毛细血管扩张症等鉴别。
+（三）临床评估：
+1．实验室检查评估：
+AD的诊断主要依靠临床表现，实验室检查仅提供参考依据，可表明患儿处于特应性状态，提示病情活动，或是给予存在相关疾病的提示。常用项目包括嗜酸性粒细胞计数、IgE、特异性IgE（放射变应原吸附法、免疫荧光法或ELISA方法）、皮肤点刺试验、特应性斑贴试验、免疫状态指标（T细胞亚群、免疫球蛋白）等。血清中Th2细胞趋化因子即胸腺活化调节趋化因子水平能反映AD短期内的状况，是评价AD严重程度非常有效和敏感的辅助指标[33]。
+2．疾病严重程度评估：
+评估AD的严重程度，已有的评估方式包括SCORAD评分、湿疹面积及严重度指数评分、研究者整体评分、瘙痒程度视觉模拟尺评分、皮炎生活质量指数问卷（儿童皮肤病生活质量指数、皮肤病生活质量指数）等。
+五、健康教育
+儿童AD患病率高，以剧烈瘙痒、皮疹反复发作和睡眠障碍为主要表现，严重影响患儿及其家庭的生活质量，因此健康宣教的重要性尤为突出。在临床工作中应做到以下内容的健康教育：①AD是一种慢性和反复发作性疾病，缓解期和复发期交替出现，70%的患儿在儿童期后期症状会显著改善，但是发病特别早和严重、有AD家族史和早期变应原致敏的患儿更可能病情迁延[34]；②目前国际上公认的AD治疗策略为"阶梯式"分级治疗，AD治疗的目标是控制症状、减轻瘙痒和改善生活质量；③在基础治疗中，保湿润肤被认为是AD治疗的基础，需要长期坚持；④尽可能避免生活中的一些诱发因素，如温度、湿度的剧烈改变、粗糙的衣服材质、使用有刺激性的沐浴露等；⑤关于饮食：尊重客观临床表现，强调过敏史，需要对过敏原检测结果有正确的解读，避免过度饮食回避；已经明确存在食物过敏的婴幼儿患者应该回避过敏食物，必要时可咨询营养师进行饮食指导；⑥不能滥用或过分恐惧糖皮质激素。
+六、治疗策略
+（一）寻找病因和诱发加重因素：
+①食物，主要通过详细询问病史、过敏原检测、饮食回避和激发试验来针对性回避过敏原，并注意保障营养；②汗液刺激，是重要的诱发因素，因此患儿应勤洗澡，去除汗液的同时，减少皮肤表面变应原和微生物的刺激；③物理刺激，包括衣物、空气干燥、护理用品等；④环境因素，包括特定季节的吸入性变应原、有机溶剂如甲苯等；⑤感染因素，发生细菌/真菌感染时，在明确感染后应针对性治疗；正常清洁皮肤可减少微生物定植，应避免预防性使用抗生素；⑥情绪，缓解压力、紧张等不良情绪；⑦搔抓，避免搔抓，打断"瘙痒-搔抓-瘙痒加重"的恶性循环。
+（二）基础治疗：
+即修复皮肤屏障和保湿，①清洁和沐浴：盆浴更佳，水温32 ~ 37 ℃，时间5 min，最后2 min可加用润肤油；继发细菌感染时要仔细去除痂皮，使用无刺激和低致敏性清洁剂，可含抗菌成分；可在盆浴时加入次氯酸钠，抑制细菌活性，缓解AD引起的瘙痒[35]；②润肤剂：是维持期治疗的主要手段，应做到足量和多次，每日至少使用2次[36]；有报道，含花生[37]或燕麦[38]成分的润肤剂可能会增加部分患者的致敏风险；当发生感染时，单独使用润肤剂而无有效的抗炎治疗，将显著增加发生播散性细菌和病毒感染的风险，应当注意[39]。此外，新生儿期应尽早外用保湿剂，可减少和推迟AD的发生[40]。
+（三）外用治疗：
+1．外用糖皮质激素（topical corticosteroids，TCS）：
+目前仍是治疗和控制各期AD的一线药物，TCS治疗儿童AD应注意的事项包括：①根据年龄、病情严重程度、部位和皮损类型选择不同强度和剂型；②尽可能选择中、弱效TCS，尤其是薄嫩部位应避免使用强效TCS；③面颈部易吸收TCS，故应短期使用，并逐步减量或与外用钙调神经磷酸酶抑制剂交替使用；④皮损控制后，可采用"主动维持疗法"，即在既往皮损部位和新发皮疹部位每周使用2次TCS，可推迟AD的复发时间和减少复发次数，并减少TCS的用量[41]；⑤皮损范围特别广泛时，应以系统用药控制为主；⑥注意TCS的不良反应：皮肤萎缩、多毛、色素减退、继发或加重感染等。
+2．外用钙调神经磷酸酶抑制剂（topical calcineurin inhibitors，TCI）：
+是治疗和控制各期AD的二线药物，是其他治疗疗效不佳或出现不良反应时的选择，但在某些特殊部位，如面部、皱褶处，也可考虑作为一线治疗。目前主要的药物有1%吡美莫司乳膏和0.03%及0.1%他克莫司乳膏，吡美莫司乳膏多用于轻中度AD，他克莫司乳膏多用于中重度AD。Meta分析显示，1%吡美莫司乳膏与0.03%及0.1%他克莫司乳膏相比，治疗AD的整体疗效没有差别[42]。TCI不导致皮肤萎缩，可上调皮肤屏障相关基因表达，增加皮肤含水量，减少经皮水分丢失，发挥修复皮肤屏障的作用[43,44]。
+TCI治疗AD注意事项：①TCI可用于AD急性期和慢性期，特别适用于TCS慎用的部位如皮肤敏感和薄嫩部位；②皮疹反复发作部位每周2次间歇使用TCI，即"主动维持治疗"，可有效预防和减少AD的复发，并减少TCI的总用量[45,46]；③最常见的局部不良反应为灼烧感和局部瘙痒，但是使用数次后能获得较好的耐受性，局部先用润肤剂也可减少不良反应的发生；④用药部位不封包，注意避光。
+（四）系统性治疗：
+1．抗组胺/抗炎症介质药物：
+目前关于抗组胺药治疗AD的随机对照研究显示，抗组胺药对AD相关瘙痒的有效性尚不能确定[47,48,49,50]。第一代抗组胺药具有镇静作用，可用于止痒，第二代还可通过抗炎症细胞因子活性而发挥效用。抗炎症介质药物包括介质阻断剂（血栓素A2、白三烯受体拮抗剂）和细胞因子抑制剂等。
+抗组胺药在AD治疗中的最大优势是能缓解合并的过敏症状如过敏性哮喘、鼻结合膜炎和荨麻疹等，但是疗效的个体差异较大。可根据个体差异，综合决定是否合用抗组胺药物，根据具体情况，选用第一代或第二代抗组胺药物。英国国家卫生医疗质量标准署（National Institute for Health and Clinical Excellence）制定的有关0 ~ 12岁AD患者的治疗指南指出：严重AD患者或伴有严重瘙痒或荨麻疹的患者可给予二代抗组胺药；> 6个月的急性发作期患儿，如果患儿伴有严重睡眠障碍可给予一代抗组胺药[51]。抗组胺药整体安全性高，但儿童需注意预防中枢神经系统的不良反应，尤其是抽搐[2]。
+2．抗微生物治疗：
+①抗细菌治疗，在没有明显继发感染征象时口服抗生素无效，在有明确细菌感染时，短期使用系统性抗生素治疗有效；TCS或TCI能减少AD患者金黄色葡萄球菌的定植率；长期外用抗生素可能导致耐药和过敏的发生；②抗病毒治疗，重症未控制的AD、血清IgE水平升高和AD早期发病是发生病毒感染的危险因素，而规范外用糖皮质激素不是发生病毒感染的危险因素[52]；发生疱疹性湿疹时应积极给予抗病毒治疗如阿昔洛韦、伐昔洛韦等。
+3．糖皮质激素与免疫抑制剂：
+在儿童AD的治疗中，系统应用糖皮质激素风险效益比高，儿童应格外慎重和反复评估[37]。免疫抑制剂如环孢素、硫唑嘌呤、霉酚酸酯以及甲氨蝶呤等治疗儿童或青少年AD均属于超药物适应证范围，因此要反复评估风险效益比，慎重使用。
+4．光疗：
+是AD的二线治疗，注意全身光疗不适用于年龄< 12岁的儿童，并且不能用于AD急性期[37]。光疗主要用于治疗慢性、瘙痒性和肥厚皮损。
+5．生物制剂：
+治疗AD疗效不确定，有潜在不良反应，价格昂贵，在没有足够循证医学证据支持婴幼儿AD使用前，暂不推荐儿童使用。
+6．变应原特异性免疫治疗（allergen-specific immunotherapy，ASIT）：
+对于合适的高致敏状态的AD患者有一定疗效，目前最为有效的是尘螨变应原的免疫治疗。对于合并过敏性鼻结合膜炎、轻度过敏性支气管哮喘的AD患儿可考虑ASIT治疗。
+7．中医中药：
+根据临床症状和体征辨证施治。
+委员会成员
+参加起草及讨论的主要专家名单（按姓氏笔画为序）马琳（首都医科大学附属北京儿童医院），王华（重庆医科大学附属儿童医院），刘强（山西省儿童医院），肖风丽（安徽医科大学第一附属医院），李明（上海交通大学医学院附属新华医院），汤建萍（湖南省儿童医院），陈宏翔（华中科技大学同济医学院附属协和医院），姚志荣（上海交通大学医学院附属新华医院），赵佩云（首都医科大学附属北京儿童医院），郭一峰（上海交通大学医学院附属新华医院），徐子刚（首都医科大学附属北京儿童医院），涂亚庭（华中科技大学同济医学院附属协和医院），韩秀萍（中国医科大学附属盛京医院）
+执笔人郭一峰
+参考文献
+[1]
+WeidingerS, NovakNet al.
+Atopic dermatitis[J].
+Lancet,
+2016,
+387（
+10023）:
+1109-
+1122.
+DOI: 10.1016/S0140-6736(15)00149-X.
+[2]
+KatayamaI, KohnoY, AkiyamaK, et al.
+Japanese guideline for atopic dermatitis 2014[J].
+Allergol Int,
+2014,
+63（
+3）:
+377-
+398.
+DOI: 10.2332/allergolint.14-RAI-0769.
+[3]
+顾恒, 尤立平, 刘永生,等.
+我国10城市学龄前儿童特应性皮炎现况调查[J].
+中华皮肤科杂志,
+2004,
+37（
+1）:
+29-
+31.
+DOI: 10.3760/j.issn:0412-4030.2004.01.011.
+[4]
+XuF, YanS, LiF, et al.
+Prevalence of childhood atopic dermatitis: an urban and rural community-based study in Shanghai, China[J/OL].
+PLoS One,
+2012,
+7（
+5）:
+e36174.
+http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036174.
+DOI: 10.1371/journal.pone.0036174.
+[5]
+GuoY, LiP, TangJ, et al.
+Prevalence of atopic dermatitis in Chinese children aged 1-7 ys[J].
+Sci Rep,
+2016,
+6:
+29751.
+DOI: 10.1038/srep29751.
+[6]
+MaoW, MaoJ, ZhangJ, et al.
+Atopic eczema: a disease modulated by gene and environment[J].
+Front Biosci（Landmark Ed）,
+2014,
+19:
+707-
+717.
+DOI: 10.2741/4237.
+[7]
+AkdisCA, AkdisM, BieberT, et al.
+Diagnosis and treatment of atopic dermatitis in children and adults: European Academy of Allergology and Clinical Immunology/American Academy of Allergy, Asthma and Immunology/PRACTALL Consensus Report[J].
+Allergy,
+2006,
+61（
+8）:
+969-
+987.
+DOI: 10.1111/j.1398-9995.2006.01153.x.
+[8]
+BradleyM, KockumI, SöderhällC, et al.
+Characterization by phenotype of families with atopic dermatitis[J].
+Acta Derm Venereol,
+2000,
+80（
+2）:
+106-
+110.
+[9]
+ThomsenSF, UlrikCS, KyvikKO, et al.
+Importance of genetic factors in the etiology of atopic dermatitis: a twin study[J].
+Allergy Asthma Proc,
+2007,
+28（
+5）:
+535-
+539.
+DOI: 10.2500/aap2007.28.3041.
+[10]
+IrvineAD, McLeanWH, LeungDYet al.
+Filaggrin mutations associated with skin and allergic diseases[J].
+N Engl J Med,
+2011,
+365（
+14）:
+1315-
+1327.
+DOI: 10.1056/NEJMra1011040.
+[11]
+KimJE, KimJS, ChoDH, et al.
+Molecular mechanisms of cutaneous inflammatory disorder: atopic dermatitis[J].
+Int J Mol Sci,
+2016,
+17（
+8）.
+DOI: 10.3390/ijms17081234.
+[12]
+BoguniewiczB, AbramsM, FonacierL.
+Atopic dermatitis and contact dermatitis//Adelman DC, Casale TB, Corren J, et al. Manual of allergy and immunology[M].
+5th ed.
+Philadelphia, PA:
+Lippincott Williams & Wilkins,
+2012:
+494.
+[13]
+DansoMO, van DrongelenV, MulderA, et al.
+TNF-α and Th2 cytokines induce atopic dermatitis-like features on epidermal differentiation proteins and stratum corneum lipids in human skin equivalents[J].
+J Invest Dermatol,
+2014,
+134（
+7）:
+1941-
+1950.
+DOI: 10.1038/jid.2014.83.
+[14]
+PengW, NovakNet al.
+Pathogenesis of atopic dermatitis[J].
+Clin Exp Allergy,
+2015,
+45（
+3）:
+566-
+574.
+DOI: 10.1111/cea.12495.
+[15]
+CzarnowickiT, EsakiH, GonzalezJ, et al.
+Early pediatric atopic dermatitis shows only a cutaneous lymphocyte antigen（CLA）（+）TH2/TH1 cell imbalance, whereas adults acquire CLA（+）TH22/TC22 cell subsets[J].
+J Allergy Clin Immunol,
+2015,
+136（
+4）:
+941-951.e3.
+DOI: 10.1016/j.jaci.2015.05.049.
+[16]
+PalmerCN, IrvineAD, Terron-KwiatkowskiA, et al.
+Common loss-of-function variants of the epidermal barrier protein filaggrin are a major predisposing factor for atopic dermatitis[J].
+Nat Genet,
+2006,
+38（
+4）:
+441-
+446.
+DOI: 10.1038/ng1767.
+[17]
+LeungDYet al.
+Our evolving understanding of the functional role of filaggrin in atopic dermatitis[J].
+J Allergy Clin Immunol,
+2009,
+124（
+3）:
+494-
+495.
+DOI: 10.1016/j.jaci.2009.07.041.
+[18]
+HendersonJ, NorthstoneK, LeeSP, et al.
+The burden of disease associated with filaggrin mutations: a population-based, longitudinal birth cohort study[J].
+J Allergy Clin Immunol,
+2008,
+121（
+4）:
+872-877. e9.
+DOI: 10.1016/j.jaci.2008.01.026.
+[19]
+ZhangH, GuoY, WangW, et al.
+Mutations in the filaggrin gene in Han Chinese patients with atopic dermatitis[J].
+Allergy,
+2011,
+66（
+3）:
+420-
+427.
+DOI: 10.1111/j.1398-9995.2010.02493.x.
+[20]
+LiM, ChenX, ChenR, et al.
+Filaggrin gene mutations are associated with independent atopic asthma in Chinese patients[J].
+Allergy,
+2011,
+66（
+12）:
+1616-
+1617.
+DOI: 10.1111/j.1398-9995.2011.02713.x.
+[21]
+LiM, ChengR, ShiM, et al.
+Analyses of FLG mutation frequency and filaggrin expression in isolated ichthyosis vulgaris（IV）and atopic dermatitis-associated IV[J].
+Br J Dermatol,
+2013,
+168（
+6）:
+1335-
+1338.
+DOI: 10.1111/bjd.12206.
+[22]
+BieberTet al.
+Atopic dermatitis[J].
+N Engl J Med,
+2008,
+358（
+14）:
+1483-
+1494.
+DOI: 10.1056/NEJMra074081.
+[23]
+KrämerU, WeidingerS, DarsowU, et al.
+Seasonality in symptom severity influenced by temperature or grass pollen: results of a panel study in children with eczema[J].
+J Invest Dermatol,
+2005,
+124（
+3）:
+514-
+523.
+DOI: 10.1111/j.0022-202X.2005.23625.x.
+[24]
+LackGet al.
+Clinical practice. Food allergy[J].
+N Engl J Med,
+2008,
+359（
+12）:
+1252-
+1260.
+DOI: 10.1056/NEJMcp0800871.
+[25]
+GoldenbergA, SilverbergN, SilverbergJI, et al.
+Pediatric allergic contact dermatitis: lessons for better care[J].
+J Allergy Clin Immunol Pract,
+2015,
+3（
+5）:
+661-667; quiz 668.
+DOI: 10.1016/j.jaip.2015.02.007.
+[26]
+De BenedettoA, AgnihothriR, McGirtLY, et al.
+Atopic dermatitis: a disease caused by innate immune defects?[J].
+J Invest Dermatol,
+2009,
+129（
+1）:
+14-
+30.
+DOI: 10.1038/jid.2008.259.
+[27]
+NiebuhrM, WerfelTet al.
+Innate immunity, allergy and atopic dermatitis[J].
+Curr Opin Allergy Clin Immunol,
+2010,
+10（
+5）:
+463-
+468.
+DOI: 10.1097/ACI.0b013e32833e3163.
+[28]
+SchachnerLA, HansenRC.
+Pediatric dermatology[M].
+3rd ed.
+London:
+Mosby,
+2003.
+[29]
+ShiM, ZhangH, ChenX, et al.
+Clinical features of atopic dermatitis in a hospital-based setting in China[J].
+J Eur Acad Dermatol Venereol,
+2011,
+25（
+10）:
+1206-
+1212.
+DOI: 10.1111/j.1468-3083.2010.03953.x.
+[30]
+LiM, LiuQ, LiuJ, et al.
+Mutations analysis in filaggrin gene in northern China patients with atopic dermatitis[J].
+J Eur Acad Dermatol Venereol,
+2013,
+27（
+2）:
+169-
+174.
+DOI: 10.1111/j.1468-3083.2011.04435.x.
+[31]
+ChoiWJ, KoJY, KimJW, et al.
+Prevalence and risk factors for atopic dermatitis: a cross-sectional study of 6,453 Korean preschool children[J].
+Acta Derm Venereol,
+2012,
+92（
+5）:
+467-
+471.
+DOI: 10.2340/00015555-1252.
+[32]
+SaekiH, IizukaH, MoriY, et al.
+Prevalence of atopic dermatitis in Japanese elementary schoolchildren[J].
+Br J Dermatol,
+2005,
+152（
+1）:
+110-
+114.
+DOI: 10.1111/j.1365-2133.2004.06271.x.
+[33]
+KyoyaM, KawakamiT, SomaYet al.
+Serum thymus and activation-regulated chemokine（TARC）and interleukin-31 levels as biomarkers for monitoring in adult atopic dermatitis[J].
+J Dermatol Sci,
+2014,
+75（
+3）:
+204-
+207.
+DOI: 10.1016/j.jdermsci.2014.06.001.
+[34]
+GustafssonD, SjöbergO, FoucardTet al.
+Development of allergies and asthma in infants and young children with atopic dermatitis--a prospective follow-up to 7 years of age[J].
+Allergy,
+2000,
+55（
+3）:
+240-
+245.
+DOI: 10.1034/j.1398-9995.2000.00391.x.
+[35]
+HuangJT, AbramsM, TlouganB, et al.
+Treatment of Staphylococcus aureus colonization in atopic dermatitis decreases disease severity[J].
+Pediatrics,
+2009,
+123（
+5）:
+e808-
+e814.
+DOI: 10.1542/peds.2008-2217.
+[36]
+RingJ, AlomarA, BieberT, et al.
+Guidelines for treatment of atopic eczema（atopic dermatitis）part I[J].
+J Eur Acad Dermatol Venereol,
+2012,
+26（
+8）:
+1045-
+1060.
+DOI: 10.1111/j.1468-3083.2012.04635.x.
+[37]
+LackG, FoxD, NorthstoneK, et al.
+Factors associated with the development of peanut allergy in childhood[J].
+N Engl J Med,
+2003,
+348（
+11）:
+977-
+985.
+DOI: 10.1056/NEJMoa013536.
+[38]
+BoussaultP, Léauté-LabrèzeC, SaubusseE, et al.
+Oat sensitization in children with atopic dermatitis: prevalence, risks and associated factors[J].
+Allergy,
+2007,
+62（
+11）:
+1251-
+1256.
+DOI: 10.1111/j.1398-9995.2007.01527.x.
+[39]
+WollenbergA, WetzelS, BurgdorfWH, et al.
+Viral infections in atopic dermatitis: pathogenic aspects and clinical management[J].
+J Allergy Clin Immunol,
+2003,
+112（
+4）:
+667-
+674.
+DOI: 10.1016/S0091.
+[40]
+HorimukaiK, MoritaK, NaritaM, et al.
+Application of moisturizer to neonates prevents development of atopic dermatitis[J].
+J Allergy Clin Immunol,
+2014,
+134（
+4）:
+824-830. e6.
+DOI: 10.1016/j.jaci.2014.07.060.
+[41]
+Berth-JonesJ, DamstraRJ, GolschS, et al.
+Twice weekly fluticasone propionate added to emollient maintenance treatment to reduce risk of relapse in atopic dermatitis: randomised, double blind, parallel group study[J].
+BMJ,
+2003,
+326（
+7403）:
+1367.
+DOI: 10.1136/bmj.326.7403.1367.
+[42]
+HuangX, XuBet al.
+Efficacy and safety of tacrolimus versus pimecrolimus for the treatment of atopic dermatitis in children: a network meta-analysis[J].
+Dermatology,
+2015,
+231（
+1）:
+41-
+49.
+DOI: 10.1159/000381948.
+[43]
+Dähnhardt-PfeifferS, DähnhardtD, BuchnerM, et al.
+Comparison of effects of tacrolimus ointment and mometasone furoate cream on the epidermal barrier of patients with atopic dermatitis[J].
+J Dtsch Dermatol Ges,
+2013,
+11（
+5）:
+437-
+443.
+DOI: 10.1111/ddg.12074.
+[44]
+AschoffR, SchwanebeckU, BräutigamM, et al.
+Skin physiolo-gical parameters confirm the therapeutic efficacy of pimecrolimus cream 1% in patients with mild-to-moderate atopic dermatitis[J].
+Exp Dermatol,
+2009,
+18（
+1）:
+24-
+29.
+DOI: 10.1111/j.1600-0625.2008.00756.x.
+[45]
+WollenbergA, ReitamoS, AtzoriF, et al.
+Proactive treatment of atopic dermatitis in adults with 0.1% tacrolimus ointment[J].
+Allergy,
+2008,
+63（
+6）:
+742-
+750.
+DOI: 10.1111/j.1398-9995.2008.01683.x.
+[46]
+ThaçiD, ReitamoS, GonzalezEMA, et al.
+Proactive disease management with 0.03% tacrolimus ointment for children with atopic dermatitis: results of a randomized, multicentre, compara-tive study[J].
+Br J Dermatol,
+2008,
+159（
+6）:
+1348-
+1356.
+DOI: 10.1111/j.1365-2133.2008.08813.x.
+[47]
+LangelandT, FagertunHE, LarsenSet al.
+Therapeutic effect of loratadine on pruritus in patients with atopic dermatitis. A multi-crossover-designed study[J].
+Allergy,
+1994,
+49（
+1）:
+22-
+26.
+DOI: 10.1111/j.1398-9995.1994.tb00768.x.
+[48]
+WahlgrenCF, HägermarkO, BergströmRet al.
+The antipruritic effect of a sedative and a non-sedative antihistamine in atopic dermatitis[J].
+Br J Dermatol,
+1990,
+122（
+4）:
+545-
+551.
+DOI: 10.1111/j.1365-2133.1990.tb14732.x.
+[49]
+MundayJ, BloomfieldR, GoldmanM, et al.
+Chlorpheniramine is no more effective than placebo in relieving the symptoms of childhood atopic dermatitis with a nocturnal itching and scratching component[J].
+Dermatology,
+2002,
+205（
+1）:
+40-
+45.
+DOI: 10.1159/000063138.
+[50]
+KleinPA, ClarkRAet al.
+An evidence-based review of the efficacy of antihistamines in relieving pruritus in atopic dermatitis[J].
+Arch Dermatol,
+1999,
+135（
+12）:
+1522-
+1525.
+[51]
+National Collaborating Centre for Women′s and Children′s Health （UK）.
+Atopic eczema in children: management of atopic eczema in children from birth up to the age of 12 years[M].
+London:
+RCOG Press,
+2007.
+[52]
+WollenbergA, ZochC, WetzelS, et al.
+Predisposing factors and clinical features of eczema herpeticum: a retrospective analysis of 100 cases[J].
+J Am Acad Dermatol,
+2003,
+49（
+2）:
+198-
+205.
+DOI: 10.1067/S0190-9622(03)00896-X.
+贡献者信息
+中华医学会皮肤性病学分会儿童皮肤病学组
+历史
+出版日期：2017-11-15
+收稿日期：2017-01-06
+本文编辑
+尚淑贤
+Guideline and Consensus
+Diagnosis and treatment of atopic dermatitis in children in China: an expert consensus statement（2017）
+Pediatric Dermatology Group, Chinese Society of Dermatology
+Published
+2017-11-15
+Cite as
+Chin J Dermatol, 2017,50(11): 784-789. DOI: 10.3760/cma.j.issn.0412-4030.2017.11.002
+Contributor Information
+Pediatric Dermatology Group, Chinese Society of Dermatology
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+中国儿童特应性皮炎（AD）患者不典型临床表现及其发生率和临床意义
+临床表现
+发生率(%)
+临床意义
+毛周隆起
+59.6
+亚洲人多见，本质为湿疹表现，多位于躯干部［28］
+眼睑湿疹
+50.0
+下眼睑更常见，与吸入性变应原过敏有关
+耳廓/耳后/鼻孔下裂隙
+47.3
+有诊断提示价值
+口角唇炎
+26.1
+特征性表现，儿童期和冬季多见
+外阴湿疹
+8.6
+有时是儿童期AD的唯一表现，应与尿布皮炎鉴别
+乳头湿疹
+7.1
+AD可靠的诊断指标
+指尖湿疹/特应性冬季足
+2.8
+学龄期儿童常见，可以是AD唯一表现
+白色糠疹
+2.5
+通常是AD的轻微表现［28］
+钱币样湿疹
+1.1
+冬季好发，在儿童往往有诊断价值
+甲沟湿疹
+1.3
+与皮肤干燥和过度洗涤有关
+痒疹
+1.0
+儿童少见
+丘疹性苔藓样疹
+1.2
+春夏季好发
+红皮病
+< 1.0
+婴幼儿应排除代谢性、免疫缺陷疾病以及肿瘤等
+注：数据来源于国内一项对1 008例特应性皮炎患者的临床体征研究[29]
+表2
+中国儿童特应性皮炎患者的特应性标志及其发生率和临床意义
+临床表现
+发生率(%)
+临床意义
+干皮症
+79.2
+全身性或局限性，受季节、皮肤护理因素影响
+Hertoghe征
+39.0
+搔抓摩擦所致
+掌纹征
+15.0
+与FLG基因突变相关［30］
+白色划痕
+6.4
+是干性皮肤的表现，婴儿早期无
+慢性头皮脱屑
+6.4
+在婴幼儿有重要诊断价值
+眶下皱褶（Dennie⁃Morgan征）
+4.2
+也可见于无皮疹的特应性呼吸道疾病患儿
+眶周色素沉着
+3.2
+眼下方更显著，可能与特应性呼吸道疾病有关
+毛发苔藓
+2.1
+学龄期儿童多见
+注：数据来源于国内一项对1 008例特应性皮炎患者的临床体征研究[29]
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华皮肤科杂志2017年50卷11期
+文    题：中国儿童特应性皮炎诊疗共识（2017版）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华皮肤科杂志2017年50卷11期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

@@ -1,0 +1,655 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%80%A5%E8%AF%8A%E8%90%A5%E5%85%BB%E6%B2%BB%E7%96%97%E6%8E%A8%E8%8D%90.html
+# 标题: 中国急诊营养治疗推荐 - 中华急诊医学杂志
+# 发布方/日期: 急诊医学科，中华急诊医学杂志, 2020,29(09) : 1148-1154. DOI: 10.3760/cma；2020-09-10
+
+中国急诊营养治疗推荐
+中华急诊医学教育学院营养学院
+北京市心肺脑复苏重点实验室
+首都医科大学附属北京朝阳医院急诊医学临床研究中心
+中华急诊医学杂志, 2020,29(09) : 1148-1154. DOI: 10.3760/cma.j.issn.1671-0282.2020.09.002
+随着国内医疗水平的提高以及我国进入老龄化社会[1]，急诊医务工作者面临的工作压力徒增。慢病及老年患者，当出现某种急症时，必然首选急诊就医，且常常因各种原因滞留在急诊科。随着疾病严重程度以及患病频次的增加，患者全身器官功能均出现不同程度的衰退，伴随免疫功能减退，进而导致多系统疾病并存。与此同时，这类人群的饮食结构可能因为健康、环境或经济原因而改变。另外，急诊患者流动性较大，营养管理较住院患者难度更大，不可避免出现营养堪忧的状况，营养不良发生率显著增加[2,3]。Vivanti等[4]对急诊科就诊的老年患者（>60岁）进行营养筛查，703例患者中84例（12%）被确定为营养不良。Kaiser等[5]研究了12个国家4 507例老年人营养情况，超过三分之二的老年人存在营养不良风险（46.2%）或营养不良（22.8%）。2012年中华医学会肠外肠内营养学分会老年营养支持学组（简称老年学组）组织全国老年住院患者营养调查，选择微营养评价简表（short-form mini-nutritional assessment，MNA-SF）作为评价工具。结果显示，营养不良风险患者达49.7%，营养不良者为14.67%[6]。急诊滞留患者以老年危重病患者居多，长时间滞留者营养不良发生率更高。急诊工作重点在于急危重症诊断和抢救治疗，综合性三甲医院专科床位紧张、许多滞留急诊的患者不能及时收治，急诊医护人员工作繁忙和营养治疗知识相对不足，造成患者处于营养不良状态而不能及时发现，进而影响采取积极的营养治疗方案，导致患者预后不良[7]。
+营养不良的发生与患者的住院时间延长密切相关[8]，若患者在急诊长时间滞留也面临同样的趋势[9]。因此，规范营养状况评估、积极的营养策略，将有利于改善急诊特别是留观患者的营养状况和预后[10,11]。综合国际、国内肠内肠外营养支持与治疗的策略，结合我国急诊患者的实际，中华急诊医学教育学院营养学院组织全国急诊专家，共同制定《中国急诊营养治疗推荐》。本推荐从营养风险评估，营养治疗方式，时机及途径，营养治疗剂量及营养制剂，营养治疗耐受性以及特殊临床状况下的营养治疗等方面作出推荐，帮助急诊医护人员更好地为急诊患者提供营养治疗，为患者康复打好基础。
+1 营养风险评估
+营养不良是由于摄入不足或利用障碍引起的能量或营养要素缺乏进而引起机体成分改变、生理和精神功能下降，导致的不良临床结局。营养评估（nutritional assessment）是指通过人体组成测定、人体物理指标测量、血清学检测、临床物理诊断以及综合营养评定等手段，判定人体营养状况，确定营养不良的类型和程度，估计营养不良所致后果的危害，并评价营养治疗的疗效。患者入院48 h内应常规进行营养筛查和评价，然而在急诊患者中应该使用何种营养评价标准，目前尚缺乏共识。虽然有多种专科营养评估标准用于普通外科、重症监护室或者肿瘤患者，但无明确证据显示哪一种营养评估标准能普遍适用于临床，并能很好提示营养不良与住院患者疾病结局、住院时间和并发症等的相关性，以及预测患者是否可以从临床营养支持中获益。常用评价方法包括用来确定营养风险的NRS 2002（nutritional risk screening 2002）量表[12]，用来确定营养不良的通用筛查工具MUST（malnutrition universal screening tool）[13]、微营养评价简表MNA-SF[14]和改良NUTRIC（modified nutrition risk in critically）[15]等。MNA被认为是特别适合诊断老年人营养不良的一种工具，因为它通过选择与目标人群的相关特征（如阿尔茨海默病、活动能力、喂养方式、压疮）对应的项目，为老年人提供了一种多层面评价的方法。虽然MUST和NRS 2002等工具经常用于评估老年人的营养状况，但正是因为MNA的特点增加了其在老年患者营养评价中的应用[16,17]。MNA-SF为MNA的简化形式，更方便医务工作者在临床实际工作中的应用。改良NUTRIC（不监测IL-6）评分涉及年龄、APACHEⅡ、序贯器官衰竭评价（SOFA评分）、伴随疾病以及入住ICU时间5个维度来评价重症监护室患者。不同评价工具侧重点所有不同，目前NRS 2002量表具有相对高级别的循证医学证据，能预测营养风险与患者结局的相关性，推荐为首选的筛查工具[18]。
+1.1 NRS 2002量表
+NRS 2002量表包括３部分，即营养状态受损评分、疾病严重程度评分和年龄评分，前２部分包括了１~３分３个评分等级。根据评分标准最终得分为３项的总和，最高７分，如果评分≥３分，即认为有营养风险[18]。该评价工具简单、易学，可操作性强。
+1.2 MNA-SF
+MNA-SF是MNA的简化形式，包含6个评价维度：过去三个月食欲变化情况、过去三个月体质量变化情况、活动能力、过去三个月心理创伤或者急性疾病、精神心理问题以及BMI指数。最高评分14分，12分以上提示营养状况令人满意，得分在11分或以下表明有营养不良的风险。MNA-SF可以作为一种有效的筛查工具，用于老年患者营养评估[2,14]。
+推荐1：NRS 2002量表适用于大多数人群，推荐作为急诊患者营养筛查的首选工具。MNA-SF也是可选择的评价工具，因评价内容稍多而稍受影响。
+2 营养治疗方式、时机及途径选择
+2.1 营养治疗方式
+营养支持治疗（medical nutrition therapy）包括经口营养补充（oral nutrition supplement，ONS）、肠内营养（enteral nutrition，EN）及肠外营养（parenteral nutrition，PN）3种方式。经口进食要优于肠内或肠外营养，对可能或已经存在营养不良的急诊患者，如果正常饮食无法满足每日的营养需求，可在自主饮食基础上添加经口营养补充剂，增加其氮源及能量摄入[19,20]。
+如果患者存在吞咽困难或口咽部病变无法正常经口进食,则应给予早期EN（48 h内）。如果单纯EN达不到目标治疗量（<60%，超过1周），则更适于同时给予肠内+肠外的营养支持方式[5]。如果患者不能耐受EN或存在EN的禁忌证，则需要尽早启动PN。为避免过度喂养，不建议过早给予危重症患者全目标量EN及PN，可在3~7 d内逐渐达到目标状态。
+推荐2：营养支持治疗包括ONS、EN及PN 3种方式。首选ONS；如果患者无法正常经口进食,则应早期EN（48 h内）；EN不足者可以部分PN支持；EN禁忌者，则给予完全PN。
+2.2 营养治疗时机
+急诊患者流动性较大，大多高龄体弱并且存在多系统疾病，病情相对较重，加之营养治疗方面缺乏系统严格的管理，所以患者的营养状况可能更差，营养风险发生率更高。急诊患者中慢性重症状态（简称慢重症）较多。慢重症定义为持续器官功能衰竭，且入住ICU>21 d[21]。长期滞留急诊患者的营养支持治疗策略可等同于ICU住院患者。在患者血流动力学稳定后，建议早期启动EN支持治疗，并逐渐增加喂养量。若存在EN支持治疗禁忌证，则采用PN支持治疗替代或补充，并逐渐增加EN输入量。无延迟启动EN适应证的重症患者，在24~48 h内应选择早期EN开始营养支持治疗。
+下列情况需早期（48 h内）使用EN[22]：①创伤性颅脑损伤；②缺血性或出血性卒中；③脊髓损伤；④重症急性胰腺炎；⑤胃肠道术后和腹主动脉术后；⑥无胃肠道损伤的腹部创伤；⑦接受神经-肌肉阻滞剂治疗；⑧俯卧位；⑨腹腔开放；⑩严重腹泻无论肠鸣音存在与否，除外肠道缺血或梗阻所导致。
+下列情况需延迟启动EN[22]：①在休克未得到有效控制，血流动力学及组织灌注未达到目标时，推迟EN时间；在使用液体复苏或血管活性药物控制休克情况后，需尽早使用低剂量EN，此时需警惕是否存在肠道缺血表现；②存在危及生命的低氧血症、高碳酸血症或酸中毒时，推迟EN时间；在稳定性低氧血症以及代偿性或允许性高碳酸血症及酸中毒时，可开始EN；③存在活动性上消化道出血的患者需推迟EN时间，直至出血停止或无症状表明存在再出血时，可开始EN；④存在明显肠道缺血患者需推迟EN时间；⑤肠瘘引流量大，且无法建立达到瘘口远端的营养途径时需推迟EN时间；⑥存在腹腔间隔室综合征（abdominal compartment syndrome, ACS）的患者需推迟EN时间；⑦胃内残余容量大于500 mL/6 h时，需推迟EN时间。
+推荐3：长期急诊留观患者营养支持治疗策略等同于ICU住院患者。无法维持自主摄入的血流动力学稳定、无禁忌证的重症患者，应在24~48 h内早期启动EN；不符合EN条件者则给予PN。
+2.3 营养治疗途径
+营养治疗途径包括经胃肠道和经静脉两种。EN途径包括经口进食和置管。置管途径可分为幽门前和幽门后。幽门后置管还可分为十二指肠内和空肠内置管。鼻胃管是最常用的EN管饲途径，主要适用于胃肠道功能完整、短期内行EN且胃肠道无梗阻者。鼻胃途径能够满足患者EN的需要，置管无创、简单方便、损伤小[23]。胃造口置管适用于口咽部疾病进食困难者、食管或贲门病变无法治愈或其他需要长期EN的患者。幽门后置管主要适用于肠道功能基本正常但胃功能受损、胃瘫及高误吸风险患者[22,24]。自从Ponsky和Gauderer[25]首次报道经皮内镜下胃造口术，其适用范围不断扩展，日益受到临床医师的重视。前提条件是胃肠道功能尚存，非短期存活和EN超过30 d。适应证包括：①中枢神经系统疾病导致的吞咽障碍；②口腔及食管疾病导致的吞咽障碍；③虽然吞咽功能正常，但其他疾病导致摄入不足，如烧伤、获得性免疫缺陷综合征、神经性厌食、骨髓移植等；④易发生营养风险的慢性疾病，如囊性纤维化、先天性心脏病等。
+PN营养途径是指通过静脉途径提供各种营养物质，包括外周静脉和中心静脉两种途径，其中中心静脉途径包括经外周静脉置入中心静脉导管（PICC）、经皮穿刺中心静脉置管（经锁骨下静脉置管、经颈内静脉置管和经股静脉置管）和静脉输液港３种形式[26]。首选周围静脉途径，如需长期接受PN（>14 d）或输注高渗透压（>900 mOsm/L）液体，建议采用中心静脉途径[27]。
+对于单纯经口进食未达到目标热量值的非插管患者，首先考虑ONS，其次才是EN。对于存在吞咽困难的非插管患者，可以考虑改变食物的性状。若仍存在误吸风险，则采用EN。对于吞咽困难且存在高误吸风险的非插管患者，建议幽门后置管喂养。如无法实现幽门后置管，可考虑暂时予以PN。时间较长者，可选择胃造口等方式。对于可进食的危重症患者，经口进食优于EN或PN。若患者不能经口进食，给予早期EN（48 h内）优于延迟EN及早期PN[28]。对于存在经口进食或EN禁忌证的患者，需要在3~7 d内启动PN。对于存在EN禁忌证的严重营养不良患者，早期相对积极的PN优于无任何营养治疗。鼻胃管应作为初始EN支持治疗的标准途径。对于不能耐受经鼻胃管喂养，且应用促胃肠动力药无效的患者，建议行幽门后喂养。对于存在高误吸风险的患者，也可考虑以空肠置管方式行幽门后喂养[22,24]。
+推荐4：鼻胃管是初始EN的标准途径；吞咽困难且存在高误吸风险患者，建议行幽门后置管喂养；特殊患者可选择经皮胃造口或空肠造口喂养。
+3 营养治疗剂量及营养制剂选择
+3.1 营养治疗剂量
+急性疾病早期应用允许性低热量营养支持治疗（低剂量，<70%目标值）[22]，3 d后可酌情逐渐增加至正常量。以下情况时需应用低剂量EN[22]：①接受低温治疗的患者需使用低剂量EN，在复温后逐渐加量；②对于存在腹腔高压但无ACS的患者需使用低剂量EN；当EN过程中出现腹内压持续增高时，需暂时减量或停止EN；③对于合并急性肝功能衰竭的患者，在急性危及生命的代谢紊乱得到控制时（经或未经肝脏支持治疗），需使用低剂量EN（与肝性脑病严重程度无关）。初次给予EN的48 h内，应至少每6 h监测胃残余量（gastric residual volume, GRV），若残余量过多，可适当减慢输注速度，如果残余量大于500 mL/6 h，应及时停止输注。
+PN葡萄糖的补充量不超过5 mg/(kg·min)，一般占非蛋白质热量的50%~60%，并根据糖代谢状态进行调整。静脉脂质补充量为1.0~1.5 g/(kg·d)，占非蛋白质热量40%~50%，并且需根据患者的个体耐受情况调节，特别是高龄及合并脂肪代谢障碍的患者应减少脂肪乳剂的补充。蛋白质补充应包括必需氨基酸和非必需氨基酸，两者比例1∶1至1∶3。蛋白质量控制在1.2~1.5 g/(kg·d)，部分患者可达2.0 g/(kg·d)，其中热氮比为100~150 kcal∶1 g氮（1 kcal=4.184 kJ）[6,22]。但有研究发现蛋白质补充大于1.5 g/(kg·d)与1.0 g/(kg·d)相比，未体现出高剂量蛋白质补充在改善患者最终预后的优势[29,30]。
+对于病情复杂且不稳定的危重症患者，特别是出现肝衰竭和肾衰竭时，严禁静脉应用谷氨酰胺双肽。对于接受PN治疗的患者，可在PN液中添加富含二十碳五烯酸(eicosapentaenoic acid, EPA)和二十二碳六烯酸(docosahexaenic acid, DHA)的脂肪乳制剂。鱼油是EPA和DHA的良好来源，具有抗炎作用，可促进免疫功能，改善肝脏代谢和肝功能，包括逆转肠道衰竭引起的脂肪肝和胆汁淤积症。鱼油摄入量为0.1~0.2 g/(kg·d) [22]。
+推荐5：急性疾病早期应用允许性低热量营养支持治疗（低剂量，<70%目标值），3 d后可酌情逐渐增加至正常量。
+推荐6：葡萄糖是PN主要的碳水化合物来源，一般应占非蛋白质热量的50%~60%，并且需要根据患者糖代谢状态进行调整。
+推荐7：脂肪占非蛋白质热量的40％~50％；摄入量可达1.0~1.5 g/(kg·d)，应根据病情进行调整。鱼油摄入量0.1~0.2 g/(kg·d)。
+推荐8：蛋白质供给量为1.2~1.5 g/(kg·d)，热氮比100~150 kcal∶1 g氮。
+3.2 营养制剂选择
+EN制剂指经消化道途径给予的营养素。根据氮源不同可分为整蛋白型、氨基酸型和短肽型。整蛋白型适合大部分患者，氨基酸型和短肽型的EN制剂适合胃肠功能不全的患者。减少饱和脂肪酸的摄入，增加中链脂肪酸、ω-3和单不饱和脂肪酸，长期应用有益于降低心脑血管疾病发生[31]，但应避免单次应用大剂量富含ω-3配方的EN制品[22]。可适当添加膳食纤维、谷氨酰胺等，有助于肠道功能恢复。
+PN制剂指可以经静脉途径直接注射入血的营养制剂，营养素涵盖全面，包括氨基酸、脂肪、葡萄糖、维生素、矿物质以及微量元素等，用以抑制分解，促进合成并维持机体结构蛋白的组成。PN液渗透压不宜超过850 mOsm/L。在PN中添加微量元素及维生素，以保证底物代谢。PN时各种营养素应同时进入体内，即无菌条件下配置成全合一的全静脉营养混合制剂后持续匀速输注，亦可以选择工业化三合一制剂。
+推荐9：根据病情选择合适的EN和PN制剂；PN优先选择全合一制剂。
+4 营养治疗耐受性
+欧洲重症医学学会（ESICM）于2012年提出了急性胃肠损伤（acute gastrointestinal injury, AGI）概念，AGI对危重病患者的影响受到越来越多的重视[32]。AGI是因急性疾病引起的胃肠道功能障，根据严重程度不同而分为四个级别。
+AGI Ⅰ级：具有自限性胃肠道功能障碍或衰竭的风险，在临床上被认为是损伤后出现的胃肠道症状，具有暂时性和自限性，如腹部手术后第1天出现恶心、呕吐，术后无肠鸣音，休克早期肠动力减弱等。一般情况下不需要对胃肠道症状进行特殊干预，推荐在损伤后24~48 h内开始行早期EN[33,34]。
+AGI Ⅱ级：发生需要干预的胃肠道功能障碍，胃肠道不能进行充分地消化和吸收，以满足身体的营养和液体需求，如胃轻瘫伴有胃残留或反流，下消化道瘫痪，腹泻，腹内高压（intra-abdominal hypertension，IAH）Ⅰ级[腹内压（intra-abdominal pressure，IAP）12~15 mmHg (1 mmHg=0.133 kPa)]，胃内容物或大便中可见血液。如果在尝试喂养的72 h内不能通过肠内途径达到每天至少20 kcal/kg的营养目标，则为喂养不耐受，应采用促动力疗法，并定期评估考虑低剂量EN。若促动力疗法无效，应考虑延迟喂养。
+AGI Ⅲ级：胃肠道功能衰竭，且无法通过干预恢复功能胃肠功能丧失。或尽管进行了干预，胃肠功能仍未恢复，且一般情况没有改善。如治疗后喂养不耐受仍持续存在，GRV高，持续的胃肠瘫痪，肠扩张发生或恶化，IAH进展到Ⅱ级（IAP 15~20 mmHg），腹部灌注压（abdominal perfusion pressure, APP）低于60 mmHg。早期PN（7 d内）辅助少量EN，可能有利于减少此类患者医院感染发生[35]。
+AGI Ⅳ级：胃肠损伤进展为直接和立即危及生命的临床状况、MODS和休克进展恶化。如肠缺血坏死，消化道出血导致失血性休克，需要减压的ACS等。此类患者无法通过EN保守治疗获益，在给予PN的同时应积极处理原发病。
+每天监测患者GRV，观察有无呕吐、腹胀、腹泻等对EN不耐受的临床表现，但不应将GRV作为患者是否耐受EN的唯一标准。如果GRV<500 mL/6 h且没有其他不耐受EN的表现，应避免停用EN。不能仅仅因患者发生腹泻而中止EN。应在查找腹泻病因并给予适当治疗的同时继续坚持EN。应积极采取应对措施以降低患者接受EN过程中的误吸风险。在高误吸风险患者中，可选择促胃动力药物进行治疗。
+推荐10：引入AGI概念，根据AGI评级采取不同营养治疗策略。
+5 特殊临床状况下的营养治疗
+5.1 危重症患者的营养治疗
+2009年，美国危重病医学会（SCCM）与美国肠外肠内营养学会（ASPEN）成人危重症患者营养支持治疗实施与评价指南推荐在成人危重症患者中进行滋养型喂养（trophic feeding, TF）。TF是指以41.84~83.68 kJ/h（10~20 kcal/h）或10~30 mL/h的输注速率给予患者EN支持[36,37]。TF可以防止消化道黏膜萎缩，但不能达到全量EN治疗所取得的营养治疗效果[35]。TF作为一种营养支持策略，给予患者允许性低热量EN，虽对改善患者临床预后作用有限，但对于多数患者来说胃肠耐受性良好，有利于维护胃肠耐受性差患者完好的肠道黏膜屏障功能[38]。
+因危重症患者的高分解代谢状态导致体质量和肌肉迅速丢失，最终使患者并发症和病死率显著增加。以目标能量的15%~30%来确定蛋白质的摄入量不能充分地满足机体对蛋白质的实际需求[39,40]。危重症患者的营养支持策略不但需要考虑能量摄入，还应关注蛋白质摄入是否达到最优。2016年成人危重症患者营养支持治疗实施与评价指南建议[36]：除提供能量外，还应连续评估蛋白质供给的充分性，是否补充充足的蛋白质与患者临床预后密切相关。危重症患者的蛋白质需求量预计为1.2~2.0 g /(kg·d)（按实际体质量计算）。
+推荐11：对于胃肠耐受性差的危重症患者，推荐滋养型喂养。
+推荐12：危重症患者应连续评估蛋白质供给的充分性，蛋白质需求预计为1.2~2.0 g /(kg·d)（按实际体质量计算）。
+5.2 急性胰腺炎患者营养治疗
+初始营养评估应充分考虑患者急性胰腺炎病情的严重程度。轻症患者不使用特殊营养支持治疗。若患者可以耐受EN，应逐步过渡至经口进食。若存在并发症，或在7 d内不能过渡至经口进食，则需要根据病情进行营养支持治疗。需要营养治疗的急性胰腺炎患者优先选择EN而非PN，中-重度急性胰腺炎患者入院24~48 h内即开始TF，喂养途径可经胃或经空肠。存在EN禁忌时，在患病1周后可考虑PN[41]。
+推荐13：急性胰腺炎患者优先选择EN。中-重度急性胰腺炎患者入院24 ~48 h内即开始TF，喂养途径可经胃或经空肠。存在EN禁忌时，患病1周后可考虑PN。
+5.3 慢重症患者营养支持
+随着危重症监护医疗技术的发展，越来越多的危重症患者能度过急性重症状态最终存活。其中一部分患者会由急性重症状态转变为慢重症状态，表现为需要持续机械通气（> 6 d），需要持续治疗器官功能不全，在ICU停留时间大于21 d。慢重症患者中气管切开也非常常见。通过对创伤和手术后慢重症患者的一系列观察性研究，Gentile等[42]于2010年提出持续性炎症、免疫抑制和分解代谢综合征（persistent inflammation, immunosuppression, and catabolic syndrome，PICS）的概念。PICS描述了慢重症的病理生理过程，即多种因素和院内感染导致患者炎性反应、免疫抑制和严重的蛋白质分解代谢持续较长时间[42,43]。慢重症患者通常年龄>65岁，健康状况不容乐观。长时间住院和接受ICU治疗导致以肌肉为主的结构性蛋白质丢失严重，进而造成反复感染，伤口难以愈合，呼吸肌疲劳和乏力等[44]。推荐对此类患者进行标准流程的EN管理和血糖控制，其他治疗还包括运动训练和内分泌治疗，如对于骨质破坏和维生素D缺乏的处理[45,46,47]。慢重症患者可以使用强化的高蛋白质EN治疗，并根据患者病情使用阻抗运动训练。
+推荐14：慢重症患者使用标准化EN管理和血糖控制并强化高蛋白质治疗。
+6 结语
+急诊患者特别是长期滞留的患者是一个特殊的群体，在关注其原发疾病治疗的同时，营养治疗是疾病转归的重要基础。致力于营养治疗普及的中华急诊医学教育学院营养学院的专家们知难而行，初拟《中国急诊营养治疗推荐》，但还存在较多不足，将在后续更新中不断改进和提高。
+执笔：王烁、蔡继飞、何新华
+专家组成员（按姓名拼音排序）：曹钰、陈晓辉、郭树彬、韩小彤、洪玉才、蒋龙元、康健、李建国、李树生、李湘民、马青变、梅雪、彭鹏、童朝阳、王晶、向旭东、熊辉、徐峰、许铁、曾红科、詹红、周人杰、朱长举、朱海燕、朱华栋
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参 考 文 献
+[1]
+中国老年人口发展趋势分析预测及人口老龄化解决对策分析[EB/OL].(
+2019-02-28)
+https://www.chyxx.com/industry/201902/717189.html.
+[2]
+郭利莉，陈罡，何新华.
+急诊留观老年患者营养状况分析[J].
+中国病案,
+2018,
+19(
+9):
+84-
+88.
+DOI: 10.3969/j.issn.1672-2566.2018.09.030.
+[3]
+郭玲.
+急诊科留观老年人营养状况调查[J].
+求医问药（学术版）,
+2012,
+10(
+10):
+200.
+[4]
+VivantiA, IsenringE, BaumannS, et al.
+Emergency department malnutrition screening and support model improves outcomes in a pilot randomised controlled trial[J].
+Emerg Med J,
+2015,
+32(
+3):
+180-
+183.
+DOI:10.1136/emermed-2013-202965.
+[5]
+KaiserMJ, BauerJM, RämschC, et al.
+Frequency of malnutrition in older adults: a multinational perspective using the mini nutritional assessment[J].
+J Am Geriatr Soc,
+2010,
+58(
+9):
+1734-
+1738.
+DOI:10.1111/j.1532-5415.2010.03016.x.
+[6]
+中华医学会肠外肠内营养学分会老年营养支持学组.
+老年患者肠外肠内营养支持中国专家共识[J].
+中华老年医学杂志,
+2013,
+32(
+9):
+913-
+929.
+DOI: 10.3760/cma.j.issn.0254-9026.2013.09.001.
+[7]
+吕扬，陈罡，沈露晖, 等.
+急诊医护人员营养治疗相关知识态度与实践行为的调查分析[J].
+中华急诊医学杂志,
+2020,
+29(
+3):
+422-
+425.
+DOI:10.3760/cma.j.issn.1671-0282.2020.03.024.
+[8]
+AgarwalE, FergusonM, BanksM, et al.
+Nutrition care practices in hospital wards: Results from the Nutrition Care Day Survey 2010[J].
+Clin Nutr,
+2012,
+31(
+6):
+995-
+1001.
+DOI:10.1016/j.clnu.2012.05.014.
+[9]
+Cano-TorresEA, Simental-MendíaLE, Morales-GarzaLA, et al.
+Impact of nutritional intervention on length of hospital stay and mortality among hospitalized patients with malnutrition: a clinical randomized controlled trial[J].
+J Am Coll Nutr,
+2017,
+36(
+4):
+235-
+239.
+DOI:10.1080/07315724.2016.1259595.
+[10]
+金晓虹，顾燕.
+急诊留观患者营养支持策略及护理人员的作用[J].
+海军医学杂志,
+2017,
+38(
+6):
+570-
+572.
+DOI: 10.3969/j.issn.1009-0754.2017.06.031.
+[11]
+金晓虹，顾燕.
+急诊科长期留观患者营养状况的评估[J].
+解放军护理杂志,
+2018,
+35(
+20):
+59-60, 68.
+DOI: 10.3969/j.issn.1008-9993.2018.20.012.
+[12]
+KondrupJ, RasmussenHH, HambergO, et al.
+Nutritional risk screening (NRS 2002): a new method based on an analysis of controlled clinical trials[J].
+Clin Nutr,
+2003,
+22(
+3):
+321-
+336.
+DOI:10.1016/s0261-5614(02)00214-5.
+[13]
+StrattonRJ, HackstonA, LongmoreD, et al.
+Malnutrition in hospital outpatients and inpatients: prevalence, concurrent validity and ease of use of the 'malnutrition universal screening tool’ ('MUST’) for adults[J].
+Br J Nutr,
+2004,
+92(
+5):
+799-
+808.
+DOI:10.1079/bjn20041258.
+[14]
+GuigozY, LauqueS, VellasBJ.
+Identifying the elderly at risk for malnutrition. The Mini Nutritional Assessment [J].
+Clin Geriatr Med,
+2002,
+18(
+4):
+737-
+757.
+DOI:10.1016/s0749-0690(02)00059-9.
+[15]
+RahmanA, HasanRM, AgarwalaR, et al.
+Identifying critically-ill patients who will benefit most from nutritional therapy: Further validation of the "modified NUTRIC" nutritional risk assessment tool[J].
+Clin Nutr,
+2016,
+35(
+1):
+158-
+162.
+DOI:10.1016/j.clnu.2015.01.015.
+[16]
+BauerJM, VoglT, WickleinS, et al.
+Comparison of the Mini Nutritional Assessment, Subjective Global Assessment, and Nutritional Risk Screening (NRS 2002) for nutritional screening and assessment in geriatric hospital patients[J].
+Z Gerontol Geriatr,
+2005,
+38(
+5):
+322-
+327.
+DOI:10.1007/s00391-005-0331-9.
+[17]
+AnthonyPS.
+Nutrition screening tools for hospitalized patients[J].
+Nutr Clin Pract,
+2008,
+23(
+4):
+373-
+382.
+DOI:10.1177/0884533608321130.
+[18]
+许静涌，杨剑，康维明, 等.
+营养风险及营养风险筛查工具营养风险筛查2002临床应用专家共识(2018版)[J].
+中华临床营养杂志,
+2018,
+26(
+3):
+131-
+135.
+DOI: 10.3760/cma.j.issn.1674-635X.2018.03.001.
+[19]
+GariballaS, ForsterS.
+Dietary supplementation and quality of life of older patients: a randomized, double-blind, placebo-controlled trial[J].
+J Am Geriatr Soc,
+2007,
+55(
+12):
+2030-
+2034.
+DOI:10.1111/j.1532-5415.2007.01435.x.
+[20]
+MilneAC, PotterJ, VivantiA, et al.
+Protein and energy supplementation in elderly people at risk from malnutrition[J].
+Cochrane Database Syst Rev,
+2009,
+2009(
+2):
+D3288.
+DOI:10.1002/14651858.cd003288.pub2.
+[21]
+GirardK, RaffinTA.
+The chronically critically ill: to save or let die?[J].
+Respir Care,
+1985,
+30(
+5):
+339-
+347.
+[22]
+SingerP, BlaserAR, BergerMM, et al.
+ESPEN guideline on clinical nutrition in the intensive care unit[J].
+Clin Nutr,
+2019,
+38(
+1):
+48-
+79.
+DOI:10.1016/j.clnu.2018.08.037.
+[23]
+中国抗癌协会，中国抗癌协会肿瘤营养与支持治疗专业委员会，中国抗癌协会肿瘤康复与姑息治疗专业委员会, 等.
+经鼻胃/肠管营养治疗途径[J/CD].
+肿瘤代谢与营养电子杂志,
+2017,
+4(
+1):
+30-
+32.
+DOI: 10.16689/j.cnki.cn11-9349/r.2017.01.007.
+[24]
+李伦超，单凯，赵雅萍, 等.
+2018年欧洲肠外肠内营养学会重症营养治疗指南(摘译)[J].
+临床急诊杂志,
+2018,
+19(
+11):
+723-
+728.
+DOI: 10.13201/j.issn.1009-5918.2018.11.001.
+[25]
+PonskyJL, GaudererMW.
+Precutaneous endoscopic gastrostomy: indications, limitations, techniques, and results[J].
+World J Surg,
+1989,
+13(
+2):
+165-
+170.
+DOI:10.1007/BF01658394.
+[26]
+WeiJ, ChenW, ZhuM, et al.
+Guidelines for parenteral and enteral nutrition support in geriatric patients in China[J].
+Asia Pac J ClinNutr,
+2015,
+24(
+2):
+336-
+346.
+DOI: 10.6133/apjcn.2015.24.2.11.
+[27]
+GuraKM.
+Is there still a role for peripheral parenteral nutrition?[J].
+Nutr Clin Pract,
+2009,
+24(
+6):
+709-
+717.
+DOI:10.1177/0884533609351318.
+[28]
+Reintam BlaserA, StarkopfJ, WaleedAlhazzaniW, et al.
+Early enteral nutrition in critically ill patients: ESICM clinical practice guidelines[J].
+Intensive Care Med,
+2017,
+43(
+3):
+380-
+398.
+DOI:10.1007/s00134-016-4665-0.
+[29]
+PatelJJ, MartindaleRG, McClaveSA.
+Controversies surrounding critical care nutrition: an appraisal of permissive underfeeding, protein, and outcomes[J].
+J Parenter Enteral Nutr,
+2018,
+42(
+3):
+508-
+515.
+DOI:10.1177/0148607117721908.
+[30]
+LeydermanI, YaroshetskiyA, KlekS.
+Protein requirements in critical illness: do we really know why to give so much?[J].
+J Parenter Enter Nutr,
+2020,
+44(
+4):
+589-
+598.
+DOI:10.1002/jpen.1792.
+[31]
+UenoY, MiyamotoN, YamashiroK, et al.
+Omega-3 polyunsaturated fatty acids and stroke burden[J].
+Int J Mol Sci,
+2019,
+20(
+22):
+5549.
+DOI:10.3390/ijms20225549.
+[32]
+Reintam BlaserA, MalbrainMLNG, StarkopfJ, et al.
+Gastrointestinal function in intensive care patients: terminology, definitions and management. Recommendations of the ESICM Working Group on Abdominal Problems[J].
+Intensive Care Med,
+2012,
+38(
+3):
+384-
+394.
+DOI:10.1007/s00134-011-2459-y.
+[33]
+DoigGS, HeighesPT, SimpsonF, et al.
+Early enteral nutrition, provided within 24 h of injury or intensive care unit admission, significantly reduces mortality in critically ill patients: a meta-analysis of randomised controlled trials[J].
+Intensive Care Med,
+2009,
+35(
+12):
+2018-
+2027.
+DOI:10.1007/s00134-009-1664-4.
+[34]
+AntonelliM, AzoulayE, BontenM, et al.
+Year in review in Intensive Care Medicine 2009: I. Pneumonia and infections, sepsis, outcome, acute renal failure and acid base, nutrition and glycaemic control[J].
+Intensive Care Med,
+2010,
+36(
+2):
+196-
+209.
+DOI:10.1007/s00134-009-1742-7.
+[35]
+CasaerMP, MesottenD, HermansG, et al.
+Early versus late parenteral nutrition in critically ill adults[J].
+N Engl J Med,
+2011,
+365(
+6):
+506-
+517.
+DOI:10.1056/nejmoa1102662.
+[36]
+McClaveSA, TaylorBE, MartindaleRG, et al.
+Guidelines for the provision and assessment of nutrition support therapy in the adult critically ill patient[J].
+JPEN J Parenter Enteral Nutr,
+2016,
+40(
+2):
+159-
+211.
+DOI:10.1177/0148607115621863.
+[37]
+McClaveSA, MartindaleRG, VanekVW, et al.
+Guidelines for the provision and assessment of nutrition support therapy in the adult critically ill patient: Society of Critical Care Medicine (SCCM) and American Society for Parenteral and Enteral Nutrition (A.S.P.E.N.)[J].
+JPEN J Parenter Enteral Nutr,
+2009,
+33(
+3):
+277-
+316.
+DOI:10.1177/0148607109335234.
+[38]
+米玉红.
+肠屏障功能与危重症患者早期肠内营养的必要性 [J].
+中华急诊医学杂志,
+2020,
+29(
+4):
+449-
+457.
+DOI: 10.3760/cma.j.issn.1671-0282.2020.04.002.
+[39]
+WeijsPJ, CynoberL, DeLeggeM, et al.
+Proteins and amino acids are fundamental to optimal nutrition support in critically ill patients[J].
+Crit Care,
+2014,
+18(
+6):
+591.
+DOI:10.1186/s13054-014-0591-0.
+[40]
+OshimaT, HeideggerCP, PichardC.
+Protein in nutritional support: the newborn hero for the critically ill?[J].
+Crit Care,
+2014,
+18(
+6):
+592.
+DOI:10.1186/s13054-014-0592-z.
+[41]
+WiesenP, van OvermeireL, DelanayeP, et al.
+Nutrition disorders during acute renal failure and renal replacement therapy[J].
+JPEN J Parenter Enteral Nutr,
+2011,
+35(
+2):
+217-
+222.
+DOI:10.1177/0148607110377205.
+[42]
+GentileLF, CuencaAG, EfronPA, et al.
+Persistent inflammation and immunosuppression: a common syndrome and new horizon for surgical intensive care [J].
+J Trauma Acute Care Surg,
+2012,
+72(
+6):
+1491-
+1501.
+DOI:10.1097/ta.0b013e318256e000.
+[43]
+VanzantEL, LopezCM, Ozrazgat-BaslantiT, et al.
+Persistent inflammation, immunosuppression, and catabolism syndrome after severe blunt trauma[J].
+J Trauma Acute Care Surg,
+2014,
+76(
+1):
+21-
+30.
+DOI:10.1097/ta.0b013e3182ab1ab5.
+[44]
+LamasD.
+Chronic critical illness[J].
+N Engl J Med,
+2014,
+370(
+2):
+175-
+177.
+DOI:10.1056/nejmms1310675.
+[45]
+BoonenE, LangoucheL, JanssensT, et al.
+Impact of duration of critical illness on the adrenal glands of human intensive care patients[J].
+J Clin Endocrinol Metab,
+2014,
+99(
+11):
+4214-
+4222.
+DOI:10.1210/jc.2014-2429.
+[46]
+SchulmanR, MoshierE, RhoL, et al.
+Association of glycemic control parameters with clinical outcomes in chronic critical illness[J].
+Endocr Pract,
+2014,
+20(
+9):
+884-
+893.
+DOI:10.4158/ep13324.or.
+[47]
+ViaMA, PotenzaMV, HollanderJ, et al.
+Intravenous ibandronate acutely reduces bone hyperresorption in chronic critical illness[J].
+J Intensive Care Med,
+2012,
+27(
+5):
+312-
+318.
+DOI:10.1177/0885066611402156.
+贡献者信息
+中华急诊医学教育学院营养学院
+北京市心肺脑复苏重点实验室
+首都医科大学附属北京朝阳医院急诊医学临床研究中心
+通信作者
+何新华
+Email：
+xhhe2000@yeah.net
+郭树彬
+Email：
+shubinguo@126.com
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-09-10
+收稿日期：2020-07-27
+本文编辑
+郑辛甜
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华急诊医学杂志2020年29卷09期
+文    题：中国急诊营养治疗推荐
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华急诊医学杂志2020年29卷09期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

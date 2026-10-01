@@ -1,0 +1,676 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E8%A7%86%E7%BD%91%E8%86%9C%E8%89%B2%E7%B4%A0%E5%8F%98%E6%80%A7%E7%9A%84%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97.html
+# 标题: 视网膜色素变性的临床实践指南 - 中华医学遗传学杂志
+# 发布方/日期: 眼科，中华医学遗传学杂志, 2020,37(03) : 295-299. DOI: 10.3760/cma.j；2020-03-10
+
+视网膜色素变性的临床实践指南
+中华医学会医学遗传学分会遗传病临床实践指南撰写组
+杨正林
+杨季云
+张清炯
+李杨
+中华医学遗传学杂志, 2020,37(03) : 295-299. DOI: 10.3760/cma.j.issn.1003-9406.2020.03.012
+1 简介
+视网膜色素变性(retinitis pigmentosa，RP)(OMIM #268000)是一类以视杆细胞受累为主的进行性遗传性视网膜变性疾病。患者的主诉多为夜盲，少数可因视力逐渐下降或视野缩窄就诊[1,2,3,4,5]。RP可分为综合征型和非综合征型。综合征型病变累及多个器官，导致其功能障碍。非综合征型RP仅累及眼部，占全部病例的70%～80%[6]。本指南仅针对非综合征型RP。
+1.1 遗传方式
+RP具有高度的遗传异质性，已发现的致病基因有90个，其遗传方式包括常染色体显性(autosomal dominant retinitis pigmentosa，adRP)、常染色体隐性(autosomal recessive retinitis pigmentosa，arRP)以及X连锁遗传(X-linked retinitis pigmentosa，XLRP)，其中adRP占30%～40%，arRP占50%～60%，XLRP占5%～15%[1,7,8]。
+1.2 临床表现
+由于遗传学的差异，RP患者的表现多样，在发病年龄、视觉损伤程度、病程进展速度、眼底改变等方面均存在显著的差异，通常为双侧患病且眼底表现对称，但也有极少数为单侧患病。
+RP患者在早期表现为夜盲，通常在儿童期和青春期即出现。一般而言，夜盲出现越早，预后越差。在这一时期，轻度夜盲常被忽视，在中期或晚期才会变得明显[4]。视野进行性缩小是RP的另一个特征。周边视野缺损在暗环境中有表现，但在明亮环境中并不明显。少数患者眼底改变轻微，难以识别，多数有眼底中周部不同程度的毯层样、椒盐样或骨细胞样色素变性，视乳头及血管的改变从轻微到明显不等。视网膜电位图(electroretinogram，ERG)对尚无症状及早期患者有诊断价值，通常可以检测到以视杆细胞反应下降为主的异常。这一时期患者视力正常，日常生活不受影响[9,10]。
+在疾病中期，夜盲症状明显，患者在暗环境中行走困难，表现为周边视野缺失、视力下降。眼底中周部有明显的色素异常，可见典型的骨细胞样色素沉着、脱色素样变、或毯层样变，动脉变细或动、静脉均变细，视乳头蜡黄甚至萎缩[11]。ERG视杆反应重度下降甚至记录不到波形，视锥反应中度下降到记录不到波形[12]。
+在疾病晚期，患者视野进行性缩小，发展为管状视野。视力严重下降甚至完全失明[13]，少数患者可长期保持部分视力[5]。RP并发白内障和中央视网膜异常(如黄斑水肿或囊肿)常可导致视力恶化。
+1.3 流行病学
+在单基因致盲性眼底病中，RP是主要的病种之一，全球共有患者约150万[2,14]。在美国和欧洲，RP的发病率为1/4000～1/3000[15,16,17]，我国约为1/3500[18,19]。
+2 发病机制
+2.1 致病基因
+已发现的RP致病基因共有90个(表1)，其中58个呈常染色体隐性遗传，22个呈常染色体显性遗传，5个兼具常染色体隐性和显性遗传模式，2个为双基因遗传模式，3个为X连锁模式。此外，还发现6个基因组区域与非综合征型RP相关。致病基因的信息可通过OMIM(http：//www.omim.org/)及RetNet(https：//sph.uth.edu/retnet/)网站查询。需要注意的是：(1)即使是十分明确的致病基因(例如研究得最多的RHO)，其部分类型、部分区域的突变也并不一定致病；(2)部分基因(如FSCN2、CA4、GUCA1B、OFD1、PRPH2、ROM1等)的研究报道不多，其突变与RP的关系需要更多的研究来证实。将基因突变信息用于临床诊断或风险预测时应非常慎重。
+点击查看表格
+表1
+已知的RP致病基因及连锁位点
+表1
+已知的RP致病基因及连锁位点
+遗传方式
+致病基因
+连锁位点
+AD
+ADIPOR1、ARL3、BEST1、CA4、CRX、FSCN2、GUCA1B、HK1、IMPDH1、KLHL7、NRL、PRPF3、PRPF4、PRPF6、PRPF8、PRPF31、RDH12、RP9、SEMA4A、SNRNP200、SPP2、TOPORS
+RP63
+AR
+ABCA4、AGBL5、AHR、ARHGEF18、ARL6、ARL2BP、BBS1、BBS2、BEST1、C2orf71、C8orf37、CERKL、CLCC1、CLRN1、CNGA1、CNGB1、CRB1、CYP4V2、DHDDS、DHX38、EMC1、EYS、FAM161A、GPR125、HGSNAT、IDH3B、IFT140、IFT172、IMPG2、KIAA1549、KIZ、LRAT、MAK、MERTK、MVK、NEK2、NEUROD1、NRL、PDE6A、PDE6B、PDE6G、POMGNT1、PRCD、PROM1、RBP3、REEP6、RGR、RLBP1、RP1L1、SAMD11、SLC7A14、SPATA7、TRNT1、TTC8、TULP1、USH2A、ZNF408、ZNF513
+RP22、RP29
+AD或AR
+NR2E3、RHO、RP1、RPE65、SAG
+双基因遗传(digenic)
+PRPH2、ROM1
+XLRP
+OFD1、RP2、RPGR
+RP6、RP24、RP34
+2.2 基因型与表型的对应关系
+RP的临床表现变异极大，这种差异可以体现在双眼之间、同胞之间、不同年龄段、不同家系、不同致病基因、不同突变、不同遗传方式等。在总体上，病情的严重程度与年龄和致病基因的关系更为密切。与arRP比较，XLRP症状更为严重，预后更差。adDRP发病年龄晚，中央视力保持时间长，病情进展慢，预后较好[6]。上述90个RP致病基因仅能解释60%～70%的病例。值得注意的是，各基因的变异在RP人群中的检出比例与RP患者的种族和所在地区也存在一定的关系。中国的RP患者半数以上是由CYP4V2、RHO、USH2A以及RPGR等基因的变异所致。
+2.3 病理生理学机制
+RP的致病机制尚不清楚。基因突变导致视杆细胞外节盘膜的更新和脱落障碍，可能影响光传导通路、视黄醇代谢、mRNA的形成与剪接、转录因子的功能障碍等，与RP的发病相关[1]。
+3 疾病诊断
+3.1 临床诊断
+根据症状、眼底改变以及辅助检查，可对多数RP进行确诊，这些包括：(1)夜盲；(2)视野进行性缩小，晚期形成管状视野；(3)ERG检查提示暗适应显著下降，较明适应明显。晚期患者波形记录不到；(4)眼底检查，疾病初期在眼底赤道部色素沉着，中晚期眼底骨细胞样色素沉着。
+从提高临床诊疗效率、减少费用的角度，典型的RP基于临床表现和眼科常规检查即可诊断。对于需要鉴别诊断、有视力提升需求、或需要进行基因型-表型分析的患者或家系成员，可考虑以下辅助检查：(1)验光与矫正视力检测；(2)周边视野检查；(3)暗适应测定；(4)ERG检查；(5)眼底照相；(6)光相干断层扫描(optical coherence tomography，OCT)。
+上述检查中，以眼底照相和ERG检查尤为重要。由于眼底改变差异巨大，文字描述很难细致精确，而眼底照片对分析基因特异性表型的特点、眼底病变的随访观察等有重要的价值，有条件时应尽量做广角眼底照相检查。ERG是RP重要的诊断和鉴别诊断指标。ERG检查异常早于眼底改变，有助于眼底无明显异常者的早期诊断[20]。
+3.2 基因诊断
+建议所有的RP患者均进行相关基因的突变筛查。基因检测主要有以下作用：(1)确诊RP；(2)评估患者的预后，预测其家系成员的发病风险；(3)随着基因治疗技术的发展，为临床试验入组确定RP的类型；(4)有助于阐明不同原因RP的表型特点、疾病过程以及可能的病理生理学机制。
+已知的RP致病变异以点突变为主。高通量测序技术是最具性价比的手段，可一次性检测所有已知的致病基因[21]。可应用已知RP致病基因区域捕获测序或全外显子组测序，二者对RP的诊断效率为60%～80%[22,23]。针对大片段缺失/重复、复杂的基因重排等类型的变异，可采用荧光定量PCR、多重连接探针扩增(multiple ligation-dependent amplification，MLPA)和染色体微阵列(chromosomal microarray analysis，CMA)进行检测[24,25]。此外，RPGR占XLRP的70%～90%。RPGR基因ORF15区的高GC含量，导致高通量测序技术对该区域的覆盖度极低。因此，针对XLRP或散发的男性RP患者，建议采用Sanger测序对RPGR基因进行测序[26]。鉴于RP高度的遗传及临床异质性，在解读分子诊断结果时应尤其谨慎。已报道的部分RP基因存在矛盾的结论[27,28,29]。某些有争议或突变报道极少的基因，检出的变异并非均为致病性，包括少数既往曾多次报道或在人类基因突变数据库(Human Gene Mutation Database，HGMD)中收录的位点。对与RP患者检出的变异位点，务必要进行家系成员(尤其是父母)分析，依据其表型、变异在各数据库的人群频率，尤其是本民族的频率进行综合分析[30]。此外，PRPF31、SNRNP200及PRPF8相关的RP具有不完全外显(incomplete penetrance)的特点，在家系分析时，应充分考虑其对结果的影响[31,32,33,34]。
+3.3 产前诊断与胚胎植入前诊断
+目前RP尚无有效的治疗手段。由于本病在胎儿期并无明显的结构异常，故无法使用超声及磁共振成像等手段进行产前诊断。对严重致盲的RP患者及其家系中的高风险成员，产前或胚胎植入前诊断有助于降低生育风险。RP的致病基因众多，有些基因与RP的关系尚有待确认。已明确的致病基因的变异并非都会致病，同时还有许多未知的致病基因有待于发掘。因此，产前或胚胎植入前诊断必须建立在基因诊断明确的基础上，同时要明确告知相关的风险和局限性。在临床诊断未明和致病突变未确认的情况下，不宜进行胚胎植入前或产前基因诊断。
+4 临床遗传咨询
+4.1 治疗方法
+(1)常规治疗
+目前尚无有效治愈或阻止RP进展的方法。避免强光刺激和过度用眼、规律饮食及作息时间有助于延缓疾病的进程。适量进食新鲜水果、坚果、维生素(B、A或E类)、神经变性抑制剂等对部分患者可能有益，但这些措施尚缺乏循证医学的支持[35]。对涉及费用较大或有经济压力的家庭不推荐使用。
+(2)基因治疗
+对于致病变异明确的RP患者，基因治疗是具有潜力和有效性的手段。Luxturna已被批准作为首个眼部基因治疗药物上市[36,37,38,39]。多项针对不同RP致病基因的临床试验也在进行中，包括用rAAV2-VMD2-hMERTK治疗MERTK基因相关的RP以及用AAV-RPGR治疗RPGR基因相关的XLRP等。基因治疗的效果主要将取决于RP患者所处的阶段，早期确诊并开始治疗的患者，预后远好于晚期才接受治疗的患者[39]。
+(3)干细胞治疗
+尽管干细胞移植治疗人类视网膜疾病的Ⅰ/Ⅱ期临床试验已显示良好的安全性，但在细胞移植的过程中，免疫应答等并发症仍时有发生，且干细胞的眼内移植途径(尤其是玻璃体内注射)可引起纤维化和视网膜牵引，导致严重的致盲并发症[40,41,42]。
+(4)视网膜假体
+人造硅视网膜与Alpha-IMS已被批准用于治疗包括RP在内的终末期视网膜疾病。但目前的视网膜假体仍存在植入眼的生理功能和技术方面的局限性，仅适用于终末期的失明患者。同时视网膜植入物价格昂贵，仅少数患者能接受，对不同患者的疗效差异很大[43,44,45]。
+4.2 风险评估
+RP的遗传方式涉及adRP、arRP和XLRP。在遗传咨询时，应先通过系谱分析，结合分子诊断的结果明确其遗传方式，之后再进行咨询。
+常染色体显性遗传RP：多数患者的父亲或母亲携带相同的突变并具有相同或相似的症状；少数患者可能由于自发变异而患病。若父母之一携带致病变异，则患者的兄弟姐妹的患病风险为50%。若患者的致病变异在亲代的外周血中未检测到，则其为自发突变的可能性较大。
+常染色体隐性遗传RP：患者的父母通常均为携带者，再生育时后代有25%的概率患病。arRP患者与正常人婚配，其后代均为致病突变的携带者，是否患病将取决于其配偶是否携带相同基因的致病变异。
+X染色体连锁隐性遗传RP：若家系中有多名男性患病，则首先考虑该遗传模式。原则上，先证者的父亲不会患此种疾病，也不会携带致病变异。患者的母亲为致病变异的杂合子。
+5 相关网络资源
+http：//www.omim.org/
+https：//sph.uth.edu/retnet/sum-dis.htm#B-diseases
+https：//www.orpha.net/consor/cgi-bin/Disease_Search_Simple.php？lng＝EN
+参与本指南撰写的专家名单：杨正林、杨季云(电子科技大学医学院、电子科技大学附属医院·四川省人民医院人类疾病基因研究重点实验室)；张清炯(中山大学中山眼科中心)；李杨(首都医科大学附属北京同仁医院；北京同仁眼科中心；北京市眼科研究所；眼科学与视觉科学北京市重点实验室)
+参与本指南审定的专家名单：袁慧军(陆军军医大学第一附属医院医学遗传中心)；赵培泉(上海交通大学医学院附属新华医院眼科)
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+HartongD, BersonE, DryjaTP.
+Retinitis pigmentosa[J].
+Lancet,
+2006,
+368(
+9549):
+1795-
+1809.
+DOI: 10.1016/S0140-6736(06)69740-7.
+[2]
+FerrariS, DiIE, BarbaroV, et al.
+Retinitis pigmentosa: genes and disease mechanisms[J].
+Curr Genomics,
+2011,
+12(
+4):
+238-
+249.
+DOI: 10.2174/138920211795860107.
+[3]
+HamelC.
+Retinitis pigmentosa[J].
+Orphanet J Rare Dis,
+2006,
+1:
+40.
+DOI: 10.1186/1750-1172-1-40.
+[4]
+BirchDG, AndersonJL, FishGE.
+Yearly rates of rod and cone functional loss in retinitis pigmentosa and cone-rod dystrophy[J].
+Ophthalmology,
+1999,
+106(
+2):
+258-
+268.
+DOI: 10.1016/S0161-6420(99)90064-7.
+[5]
+YangYJ, YingD, PengQH, et al.
+A brief review on the pathological role of decreased blood flow affected in retinitis pigmentosa[J].
+J Ophthalmol,
+2018,
+2018:
+3249064.
+DOI: 10.1155/2018/3249064.
+[6]
+VerbakelSK, van HuetRAC, BoonCJF, et al.
+Non-syndromic retinitis pigmentosa[J].
+Prog Retin Eye Res,
+2018,
+66:
+157-
+186.
+DOI: 10.1016/j.preteyeres.2018.03.005.
+[7]
+BunkerCH, BersonEL, BromleyWC, et al.
+Prevalence of retinitis pigmentosa in Maine[J].
+Am J Ophthalmol,
+1984,
+97(
+3):
+357-
+365.
+DOI: 10.1016/0002-9394(84)90636-6.
+[8]
+GrøndahlJ
+Estimation of prognosis and prevalence of retinitis pigmentosa and Usher syndrome in Norway[J].
+Clin Genet,
+1987,
+31(
+4):
+255-
+264.
+DOI: 10.1111/j.1399-0004.1987.tb02804.x.
+[9]
+SzlykJP, SeipleW, FishmanGA, et al.
+Perceived and actual performance of daily tasks: relationship to visual function tests in individuals with retinitis pigmentosa[J].
+Ophthalmology,
+2001,
+108(
+1):
+65-
+75.
+DOI: 10.1016/S0161-6420(00)00413-9.
+[10]
+GellerAM, SievingPA.
+Assessment of foveal cone photoreceptors in Stargardt’s macular dystrophy using a small dot detection task[J].
+Vis Res,
+1993,
+33(
+11):
+1509-
+1524.
+DOI: 10.1016/0042-6989(93)90144-l.
+[11]
+BowneSJ, HumphriesMM, SullivanLS, et al.
+A dominant mutation in RPE65 identified by whole-exome sequencing causes retinitis pigmentosa with choroidal involvement[J].
+Eur J Hum Genet,
+2011,
+19(
+10):
+1074-
+1081.
+DOI: 10.1038/ejhg.2011.132.
+[12]
+GroverS, FishmanGA, AndersonRJ, et al.
+Visual acuity impairment in patients with retinitis pigmentosa at age 45 years or older[J].
+Ophthalmology,
+1999,
+106(
+9):
+1780-
+1785.
+DOI: 10.1016/s0161-6420(99)90342-1.
+[13]
+VirgiliG, PierrottetC, ParmeggianiF, et al.
+Reading performance in patients with retinitis pigmentosa: a study using the MNREAD charts[J].
+Invest Ophthalmol Vis Sci,
+2004,
+45(
+10):
+3418-
+3424.
+DOI: 10.1167/iovs.04-0390.
+[14]
+PagonRA, DaigerSP.
+Retinitis pigmentosa overview[M]//
+GeneReviews.
+PubMed,
+1993.
+[15]
+HaimM.
+Epidemiology of retinitis pigmentosa in Denmark[J].
+Acta Ophthalmol Scand Suppl,
+2002, (
+233):
+1-
+34.
+DOI: 10.1046/j.1395-3907.2002.00001.x.
+[16]
+VeltelS, GasperR, EisenacherE, et al.
+The retinitis pigmentosa 2 gene product is a GTPase-activating protein for Arf-like 3[J].
+Nat Struct Mol Biol,
+2008,
+15(
+4):
+373-
+380.
+DOI: 10.1038/nsmb.1396.
+[17]
+ShintaniK, ShechtmanDL, GurwoodAS.
+Review and update: current treatment trends for patients with retinitis pigmentosa[J].
+Optometry,
+2009,
+80(
+7):
+384-
+401.
+DOI: 10.1016/j.optm.2008.01.026.
+[18]
+滕云，王慧.
+视网膜色素变性的分子遗传学研究进展[J].
+遗传，
+2002,
+24(
+3):
+356-
+358.
+DOI: 10.3321/j.issn：0253-9772.2002.03.034.
+TengY, WangH. A new study progress of molecular genetics in autosomal dominant retinitis pigmentosa[J]. Hereditas (Beijing), 2002, 24(3): 356-358. DOI: 10.3321/j.issn：0253-9772.2002.03.034.
+[19]
+张馨方，盛迅伦.
+视网膜色素变性的相关基因研究进展[J].
+国际眼科杂志，
+2006,
+6(
+3):
+654-
+657.
+DOI: 10.3969/j.issn.1672-5123.2006.03.046.
+ZhangXF, ShengXL. Progress of gene researches on rentinitis pigmentosa[J]. Int J Ophthalmol, 2006, 6(3): 654-657. DOI: 10.3969/j.issn.1672-5123.2006.03.046.
+[20]
+MccullochDL, MarmorMF, BrigellMG, et al.
+ISCEV Standard for full-field clinical electroretinography (2015 update)[J].
+Doc Ophthalmol,
+2015,
+130(
+1):
+81-
+83.
+DOI: 10.1007/s10633-014-9473-7.
+[21]
+MooreAT.
+Genetic testing for inherited retinal disease[J].
+Ophthalmology,
+2017,
+124(
+9):
+1254-
+1255.
+DOI: 10.1016/j.ophtha.2017.06.018.
+[22]
+KhanK, ChanaR, AliN, et al.
+Advanced diagnostic genetic testing in inherited retinal disease: experience from a single tertiary referral centre in the UK National Health Service[J].
+Clin Genet,
+2017,
+91(
+1):
+38-
+45.
+DOI: 10.1111/cge.12798.
+[23]
+EllingfordJM, BartonS, BhaskarS, et al.
+Molecular findings from 537 individuals with inherited retinal disease[J].
+J Med Genet,
+2016,
+53(
+11):
+761-
+767.
+DOI: 10.1136/jmedgenet-2016-103837.
+[24]
+JonssonF, BurstedtM, KellgrenTG, et al.
+Non-homologous recombination between Alu and LINE-1 repeats results in a 91 kb deletion in MERTK causing severe retinitis pigmentosa[J].
+Mol Vis,
+2018,
+24:
+667-
+678.
+[25]
+HuangXF, MaoJY, HuangZQ, et al.
+Genome-wide detection of copy number variations in unsolved inherited retinal disease[J].
+Invest Ophthalmol Vis Sci,
+2017,
+58(
+1):
+424-
+429.
+DOI: 10.1167/iovs.16-20705.
+[26]
+ChurchillJD, BowneSJ, SullivanLS, et al.
+Mutations in the X-linked retinitis pigmentosa genes RPGR and RP2 found in 8.5% of families with a provisional diagnosis of autosomal dominant retinitis pigmentosa[J].
+Invest Ophthalmol Vis Sci,
+2013,
+54(
+2):
+1411-
+1416.
+DOI: 10.1167/iovs.12-11541.
+[27]
+GamundiMJ, HernanI, MaserasM, et al.
+Sequence variations in the retinal fascin FSCN2 gene in a Spanish population with autosomal dominant retinitis pigmentosa or macular degeneration[J].
+Mol Vis,
+2005,
+11:
+922-
+928.
+[28]
+ZhangQ, LiS, XiaoX, et al.
+The 208delG mutation in FSCN2 does not associate with retinal degeneration in Chinese individuals[J].
+Invest Ophthalmol Vis Sci,
+2007,
+48(
+2):
+530-
+533.
+DOI: 10.1167/iovs.06-0669.
+[29]
+JinZB, MandaiM, HommaK, et al.
+Allelic copy number variation in FSCN2 detected using allele-specific genotyping and multiplex real-time PCRs[J].
+Invest Ophthalmol Vis Sci,
+2008,
+49(
+9):
+3799-
+3805.
+DOI: 10.1167/iovs.07-1656.
+[30]
+中国眼遗传病诊疗小组，中国眼科遗传联盟.
+眼遗传病基因诊断方法专家共识[J].
+中华实验眼科杂志，
+2018,
+36(
+7):
+481-
+488.
+DOI: 10.3760/cma.j.issn.2095-0160.2018.07.001.
+Chinese Ocular Genetic Diseases Treatment and Treatment Group, China Ophthalmology Genetic Alliance Expert consensus on genetic diagnosis methods for ocular genetic diseases[J]. Chin J Exp Ophthalmol, 2018, 36(7): 481-488. DOI: 10.3760/cma.j.issn.2095-0160.2018.07.001.
+[31]
+MaubaretCG, VaclavikV, MukhopadhyayR, et al.
+Autosomal dominant retinitis pigmentosa with intrafamilial variability and incomplete penetrance in two families carrying mutations in PRPF8[J].
+Invest Ophthalmol Vis Sci,
+2011,
+52(
+13):
+9304-
+9309.
+DOI: 10.1167/iovs.11-8372.
+[32]
+VenturiniG, RoseAM, ShahAZ, et al.
+CNOT3 is a modifier of PRPF31 mutations in retinitis pigmentosa with incomplete penetrance[J].
+PLoS Genet,
+2012,
+8(
+11):
+e1003040.
+DOI: 10.1371/journal.pgen.1003040.
+[33]
+WuZ, ZhongM, LiM, et al.
+Mutation analysis of pre-mRNA splicing genes PRPF31, PRPF8, and SNRNP200 in Chinese families with autosomal dominant retinitis pigmentosa[J].
+Curr Mol Med,
+2018,
+18(
+5):
+287-
+294.
+DOI: 10.2174/1566524018666181024160452.
+[34]
+RivoltaC, BenaglioP, GuillaumieT, et al.
+Molecular characterization of SNRNP200 mutations causing autosomal dominant retinitis pigmentosa with incomplete penetrance and phenotypic variability[A].
+Invest Ophthalmol Vis Sci,
+2014,
+55(
+13):
+3264.
+[35]
+VingoloEM, RoccoM, GrengaP, et al.
+Slowing the degenerative process, long lasting effect of hyperbaric oxygen therapy in retinitis pigmentosa[J].
+Graefes Arch Clin Exp Ophthalmol,
+2008,
+246(
+1):
+93-
+98.
+DOI: 10.1007/s00417-007-0652-z.
+[36]
+BainbridgeJW, SmithAJ, BarkerSS, et al.
+Effect of gene therapy on visual function in Leber’s congenital amaurosis[J].
+N Engl J Med,
+2008,
+358(
+21):
+2231-
+2239.
+DOI: 10.1056/NEJMoa0802268.
+[37]
+MacLarenRE, GroppeM, BarnardAR, et al.
+Retinal gene therapy in patients with choroideremia: initial findings from a phase 1/2 clinical trial[J].
+Lancet,
+2014,
+383(
+9923):
+1129-
+1137.
+DOI: 10.1016/S0140-6736(13)62117-0.
+[38]
+MaguireAM, SimonelliF, PierceEA, et al.
+Safety and efficacy of gene transfer for Leber’s congenital amaurosis[J].
+N Engl J Med,
+2008,
+358(
+21):
+2240-
+2248.
+DOI: 10.1056/NEJMoa0802315.
+[39]
+RussellS, BennettJ, WellmanJA, et al.
+Efficacy and safety of voretigene neparvovec (AAV2-hRPE65v2) in patients with RPE65-mediated inherited retinal dystrophy: a randomised, controlled, open-label, phase 3 trial[J].
+Lancet,
+2017,
+390(
+10097):
+849-
+860.
+DOI: 10.1016/S0140-6736(17)31868-8.
+[40]
+SiqueiraRC, MessiasA, VoltarelliJC, et al.
+Intravitreal injection of autologous bone marrow-derived mononuclear cells for hereditary retinal dystrophy: a phase Ⅰ trial[J].
+Retina,
+2011,
+31(
+6):
+1207-
+1214.
+DOI: 10.1097/IAE.0b013e3181f9c242.
+[41]
+SiqueiraRC, MessiasA, MessiasK, et al.
+Quality of life in patients with retinitis pigmentosa submitted to intravitreal use of bone marrow-derived stem cells (Reticell -clinical trial)[J].
+Stem Cell Res Ther,
+2015,
+6:
+29.
+DOI: 10.1186/s13287-015-0020-6.
+[42]
+ParkSS, BauerG, AbediM, et al.
+Intravitreal autologous bone marrow CD34＋ cell therapy for ischemic and degenerative retinal disorders: preliminary phase 1 clinical trial findings[J].
+Invest Ophthalmol Vis Sci,
+2014,
+56(
+1):
+81-
+89.
+DOI: 10.1167/iovs.14-15415.
+[43]
+HoAC, HumayunMS, DornJD, et al.
+Long-term results from an epiretinal prosthesis to restore sight to the blind[J].
+Ophthalmology,
+2015,
+122(
+8):
+1547-
+1554.
+DOI: 10.1016/j.ophtha.2015.04.032.
+[44]
+GekelerK, Bartz-SchmidtKU, SachsH, et al.
+Implantation, removal and replacement of subretinal electronic implants for restoration of vision in patients with retinitis pigmentosa[J].
+Curr Opin Ophthalmol,
+2018,
+29(
+3):
+239-
+247.
+DOI: 10.1097/ICU.0000000000000467.
+[45]
+EdwardsTL, CottriallCL, XueK, et al.
+Assessment of the electronic retinal implant alpha AMS in restoring vision to blind patients with end-stage retinitis pigmentosa[J].
+Ophthalmology,
+2018,
+125(
+3):
+432-
+443.
+DOI: 10.1016/j.ophtha.2017.09.019.
+贡献者信息
+中华医学会医学遗传学分会遗传病临床实践指南撰写组
+杨正林
+杨季云
+张清炯
+李杨
+关键词
+视网膜色素变性;
+实践指南;
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-03-10
+收稿日期：2019-03-04
+本文编辑
+李岭
+Guidance and Consensus
+Clinical practice guidelines for retinitis pigmentosa
+Writing Group for Practice Guidelines for Diagnosis and Treatment of Genetic Diseases,Medical Genetics Branch of Chinese Medical Association,  Yang Zhenglin,  Yang Jiyun,  Zhang Qingjiong,  Li Yang
+Published
+2020-03-10
+Cite as
+Chin J Med Genet, 2020,37(03): 295-299. DOI: 10.3760/cma.j.issn.1003-9406.2020.03.012
+Abstract
+Retinitis pigmentosa (RP) is a group of hereditary retinitis disorders which mainly affect the rod cells. In the early stage, the function of rod cells is affected. At the same time or later, the function of cone cells can also be affected. With the progress of the disease, the visual function is gradually damaged until the patient becomes completely blind. Many types of morphological changes suggestive of retinal degeneration may be noticed in the fundus, in particular pigment abnormality. RP features great genetic heterogeneity and phenotypic diversity. Over 90 pathogenic genes have so far been discovered. This guideline aims to standardize the clinical diagnosis and treatment of RP from the aspects of etiology, pathogenesis, genetic diagnosis and clinical consultation.
+Key words:
+Retinitis pigmentosa; Practice guideline
+Contributor Information
+Writing Group for Practice Guidelines for Diagnosis and Treatment of Genetic Diseases,Medical Genetics Branch of Chinese Medical Association
+Yang Zhenglin
+Yang Jiyun
+Zhang Qingjiong
+Li Yang
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+已知的RP致病基因及连锁位点
+遗传方式
+致病基因
+连锁位点
+AD
+ADIPOR1、ARL3、BEST1、CA4、CRX、FSCN2、GUCA1B、HK1、IMPDH1、KLHL7、NRL、PRPF3、PRPF4、PRPF6、PRPF8、PRPF31、RDH12、RP9、SEMA4A、SNRNP200、SPP2、TOPORS
+RP63
+AR
+ABCA4、AGBL5、AHR、ARHGEF18、ARL6、ARL2BP、BBS1、BBS2、BEST1、C2orf71、C8orf37、CERKL、CLCC1、CLRN1、CNGA1、CNGB1、CRB1、CYP4V2、DHDDS、DHX38、EMC1、EYS、FAM161A、GPR125、HGSNAT、IDH3B、IFT140、IFT172、IMPG2、KIAA1549、KIZ、LRAT、MAK、MERTK、MVK、NEK2、NEUROD1、NRL、PDE6A、PDE6B、PDE6G、POMGNT1、PRCD、PROM1、RBP3、REEP6、RGR、RLBP1、RP1L1、SAMD11、SLC7A14、SPATA7、TRNT1、TTC8、TULP1、USH2A、ZNF408、ZNF513
+RP22、RP29
+AD或AR
+NR2E3、RHO、RP1、RPE65、SAG
+双基因遗传(digenic)
+PRPH2、ROM1
+XLRP
+OFD1、RP2、RPGR
+RP6、RP24、RP34
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华医学遗传学杂志2020年37卷03期
+文    题：视网膜色素变性的临床实践指南
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华医学遗传学杂志2020年37卷03期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

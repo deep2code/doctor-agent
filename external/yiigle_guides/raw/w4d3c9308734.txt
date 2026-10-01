@@ -1,0 +1,691 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E8%84%93%E6%AF%92%E7%97%87%E5%B9%B6%E5%8F%91%E5%BC%A5%E6%95%A3%E6%80%A7%E8%A1%80%E7%AE%A1%E5%86%85%E5%87%9D%E8%A1%80%E8%AF%8A%E6%B2%BB%E6%80%A5%E8%AF%8A%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 脓毒症并发弥散性血管内凝血诊治急诊专家共识 - 中华危重病急救医学
+# 发布方/日期: 重症医学科，中华危重病急救医学杂志编辑委员会；2017-07-10
+
+脓毒症并发弥散性血管内凝血诊治急诊专家共识
+中华医学会急诊医学分会
+中华危重病急救医学杂志编辑委员会
+脓毒症并发弥散性血管内凝血诊治急诊专家共识专家组
+王力军
+柴艳芬
+中华危重病急救医学, 2017,29(07) : 577-580. DOI: 10.3760/cma.j.issn.2095-4352.2017.07.001
+1 概述
+弥散性血管内凝血（disseminated intravascular coagulation，DIC）不是独立的疾病，而是一种获得性凝血功能紊乱综合征，以全身凝血系统的止、凝血机制失衡与过度激活、纤溶系统严重紊乱，以及多个器官内微血栓形成等为特征，可发生广泛出血和多器官功能衰竭（multiple organ failure，MOF）而导致死亡[1]。
+DIC在一些疾病中既是原因又是结果。DIC病因包括感染、恶性肿瘤、病理产科、外科手术和创伤、中毒和免疫损伤等，其中感染是最常见的原因[2]。机体对感染的反应失调而导致危及生命的器官功能障碍，即为脓毒症[3]。近年来脓毒症发病率不断上升，且花费巨大，已成为主要公共健康问题[3]。30%~50%的脓毒症患者会发生DIC，约占DIC患者总数的50%[4，5]。脓毒症并发DIC的病死率达28%~43%[6，7，8]。国内外血液学学会曾制定多个DIC诊疗指南[1]，本共识着重论述脓毒症并发DIC的诊治。
+共识专家组在参考相关指南与共识及近年发表的相关研究基础上，依据其学术和临床经验起草这一共识，并提交共识专家讨论，以期制定适合急诊脓毒症并发DIC诊治的指导性文件，旨在帮助临床医师，尤其是急诊医师对这类患者做到早期识别、早期诊断、早期治疗，从而降低病死率。
+2 脓毒症并发DIC的发病机制
+脓毒症并发DIC的发病机制包括促凝物质上调〔例如组织因子（tissue factor，TF）〕、抗凝物质下调〔例如抗凝血酶（antithrombin，AT）、血栓调节蛋白（thrombomodulin，TM）、组织因子途径抑制物（tissue factor pathway inhibitor，TFPI）和蛋白C（protein C，PC）〕，以及纤维蛋白溶解机制受损等，其中以促凝物质上调导致高凝状态最为重要[5，7，9]；除此之外，还与脓毒症本身的特征有关，如病原微生物侵入机体，内、外毒素的作用并由此激发了炎性介质的级联反应扩散，这些炎性介质作用于毛细血管内皮，使血管内皮生理性抗凝血物质减少或功能下降，血管内血细胞促凝血机制加强，纤溶系统受损，加剧了凝血过程[10]。微血管痉挛、缺血缺氧致使毛细血管通透性增加，血管中有形物质渗出，使得液体外漏，血流淤滞形成微血栓DIC。
+由此可见，DIC作为一个综合征，特别是脓毒症，既是疾病启动的原因，又是疾病病理生理作用转化的结果。脓毒症并发DIC的发病机制见图1[11]。
+点击查看大图
+图1
+脓毒症并发DIC发病机制[11]
+注：DIC为弥散性血管内凝血，TF为组织因子，FⅦa为活化因子Ⅶa，TFPI为组织因子途径抑制物，IL-1、IL-6为白细胞介素-1、-6，TNF-α为肿瘤坏死因子-α，APC为活化蛋白C，NETs为中性粒细胞胞外诱捕网，AT为抗凝血酶，TM为血栓调节蛋白，PC为蛋白C
+图1
+脓毒症并发DIC发病机制[11]
+3 脓毒症并发DIC的早期识别与诊断
+国际上多采用积分系统对DIC进行诊断和分期分型，以指导治疗和判断预后[12]。常用的有国际血栓与止血协会（International Society on Thrombosis and Haemostasis，ISTH）、日本卫生福利部（Japanese Ministry of Health and Welfare，JMHW）以及日本急诊医学学会（Japanese Association of Acute Medicine，JAAM）积分系统，其中ISTH DIC积分具有较高的敏感性和特异性，被广泛应用[5，12]，分为显性和非显性DIC积分（表1）。此外，DIC又分为显性和非显性DIC期：前者指患者已处于失代偿期，即临床典型DIC；后者指出现某些DIC的临床表现及实验室检查异常，但未达到诊断标准的代偿状态的DIC，即DIC前期（preDIC）[13，14]。
+点击查看表格
+表1
+ISTH DIC积分系统
+表1
+ISTH DIC积分系统
+指标
+0分
+1分
+2分
+3分
+血小板计数（×109/L）
+≥100
+<100，≥50
+<50
+PT延长时间（s）
+≤3
+>3，≤6
+>6
+纤维蛋白原（g/L）
+≥1.0
+<1.0
+D-二聚体（mg/L）
+≤0.4
+>0.4，≤4.0
+>4.0
+注：ISTH为国际血栓与止血协会，DIC为弥散性血管内凝血，PT为凝血酶原时间；空白代表无此项
+脓毒症时（既往血小板及凝血功能疾病除外，如严重肝病、血栓性血小板减少性紫癜等），若积分≥5分为显性DIC；积分<5分为非显性DIC（表1）。
+血栓弹力图（thromboelastogram，TEG）可监测脓毒症患者凝血功能变化，识别高凝与低凝状态[9，15]，但因样本量小，其对脓毒症并发DIC的诊断价值需进一步试验证实[16]。
+4 脓毒症并发DIC的早期干预与治疗
+脓毒症并发DIC的治疗包括病因治疗、抗凝治疗、替代治疗及中药治疗等[1，17]。
+4.1 病因治疗
+推荐脓毒症并发DIC患者病因（抗感染）治疗。
+病因（抗感染）治疗是治疗DIC的基石[12]。抗菌药物是治疗脓毒症并发DIC的首要措施。此外，需对感染部位尽快引流[18，19]。随机对照临床试验（randomized controlled trial，RCT）显示治疗脓毒症后，DIC情况也随之改善[20，21]。
+此外，及时液体复苏、扩充血容量、减少血液浓缩，小剂量激素治疗改善毛细血管通透性，减少液体渗出，以及减少炎性因子释放等，亦是治疗脓毒症并发DIC的重要内容[21，23]。
+4.2 抗凝治疗
+不推荐脓毒症并发DIC患者常规使用肝素抗凝治疗。
+抗凝治疗可降低脓毒症并发DIC患者的病死率[24，25]。然而Meta分析显示，肝素治疗脓毒症及脓毒症DIC患者的总体疗效尚未确定，有降低病死率的趋势，但也有可能增加严重出血的风险[26]。因此，本专家共识建议在无RCT证据之前，不推荐脓毒症并发DIC患者使用肝素抗凝治疗。
+4.3 替代治疗
+因血小板或凝血因子减少而导致出血或极高的出血风险时（显性DIC），推荐进行替代治疗。
+是否需要替代治疗取决于是否因某种血液成分减少而导致的出血或极高的出血风险[12，22，27]。患者如出现以下情况时，可考虑使用血液制品替代治疗。
+4.3.1 对于血小板计数（platelet，PLT）<10×109/L而无明显出血征象，或者PLT<20×109/L而存在出血高风险，建议预防性输注血小板；对于活动性出血，PLT需要达到50×109/L。
+4.3.2 在没有出血或侵入性操作计划时，不建议使用新鲜冰冻血浆纠正凝血功能异常。伴有凝血酶原时间（prothrombin time，PT）或活化部分凝血活酶时间（activated partial thromboplastin time，APTT）延长>1.5倍，或纤维蛋白原（fibrinogen，FIB）<1.5 g/L，静脉输注新鲜冰冻血浆15~30 mL/kg可能有益。因液体负荷过多导致DIC患者出血时，可使用浓缩凝血因子，如浓缩凝血酶原复合物。DIC患者血浆FIB至少应维持在1.0~1.5 g/L。
+4.4 中药治疗
+推荐脓毒症并发DIC患者使用中药治疗。
+抗感染治疗的同时，更需关注脓毒症并发DIC患者凝血及炎症失衡[7]。目前尚无任何一种具有抗炎、抗菌与改善凝血功能的西药应用于临床。Meta分析显示，中药单体及复方制剂具有活血化瘀、抑制血小板聚集、改善微循环及抗炎等作用，可改善脓毒症患者的预后[17]。
+目前研究较多的血必净注射液由红花、赤芍、川芎、当归、丹参等养血凉血药物组成，具有抗细菌毒素、调节免疫和炎性介质、保护血管内皮细胞及改善微循环等作用[28，29]。临床研究及Meta分析提示，血必净注射液可显著纠正脓毒症和严重脓毒症患者凝血功能紊乱，恢复器官功能，改善血流动力学状态及病情严重程度，降低病死率[30，31，32，33，34，35，36]。研究显示，血必净注射液100 mL、每日2次、连续7 d，可降低脓毒症患者DIC发生率和脓毒症并发DIC患者28 d病死率[37，38]，对于治疗严重脓毒症并发DIC患者安全有效。
+脓毒症并发DIC的诊治流程见图2。
+点击查看大图
+图2
+脓毒症并发DIC患者诊疗流程
+注：DIC为弥散性血管内凝血，qSOFA为快速序贯器官衰竭评分，SOFA为序贯器官衰竭评分，ISTH为国际血栓与止血协会
+图2
+脓毒症并发DIC患者诊疗流程
+5 展望
+AT、TM对脓毒症并发DIC的疗效仍需更大规模RCT证实[5，19，39，40，41，42]。PC虽不能降低早期脓毒症及脓毒性休克患者病死率，但有改善脓毒症DIC患者预后的趋势[41，43，44]。治疗脓毒症DIC合理的抗凝剂是直接拮抗TF活性[27]，TFPI是理想的抗凝药物[45]，但仍需进一步研究证实。此外，双重短效FⅡ和FⅩa抑制剂具有改善凝血和炎症反应、保护器官功能的作用，亦是未来脓毒症并发DIC治疗的新选择[46]。
+专家组成员
+专家组成员（按姓氏汉语拼音为序）：曹钰（四川大学华西医院），柴艳芬（天津医科大学总医院），陈凤英（内蒙古医科大学附属医院），陈晓辉（广州医科大学附属第二医院），陈玉国（山东大学齐鲁医院），邓颖（哈尔滨医科大学附属第二医院），韩继媛（华中科技大学同济医学院附属协和医院），黄亮（南昌大学第一附属医院），李春盛（首都医科大学附属北京友谊医院），李银平（中华危重病急救医学杂志社），林兆奋（海军军医大学附属长征医院），刘志（中国医科大学附属第一医院），吕传柱（海南医学院），潘曙明（上海交通大学医学院附属新华医院），彭鹏（新疆医科大学第一附属医院），秦历杰（河南省人民医院），寿松涛（天津医科大学总医院），田英平（河北医科大学第二医院），王力军（天津医科大学总医院），许铁（徐州医科大学附属医院），杨仁池（中国医学科学院血液病医院），尹文（第四军医大学西京医院），曾红科（广东省人民医院），张国强（中日友好医院），张劲松（南京医科大学第一附属医院），赵斌（北京积水潭医院），郑亚安（北京大学第三医院）
+参考文献
+[1]
+WadaH, MatsumotoT, YamashitaY.
+Diagnosis and treatment of disseminated intravascular coagulation (DIC) according to four DIC guidelines [J].
+J Intensive Care,
+2014,
+2(
+1):
+15.
+DOI: 10.1186/2052-0492-2-15.
+[2]
+KanekoT, WadaH.
+Diagnostic criteria and laboratory tests for disseminated intravascular coagulation [J].
+J Clin Exp Hematop,
+2011,
+51(
+2):
+67-
+76.
+[3]
+SingerM, DeutschmanCS, SeymourCW, et al.
+The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) [J].
+JAMA,
+2016,
+315(
+8):
+801-
+810.
+DOI: 10.1001/jama.2016.0287.
+[4]
+JaimesF, De La RosaG, MoralesC, et al.
+Unfractioned heparin for treatment of sepsis: A randomized clinical trial (The HETRASE Study) [J].
+Crit Care Med,
+2009,
+37(
+4):
+1185-
+1196.
+DOI: 10.1097/CCM.0b013e31819c06bc.
+[5]
+IbaT, ThachilJ.
+Present and future of anticoagulant therapy using antithrombin and thrombomodulin for sepsis-associated disseminated intravascular coagulation: a perspective from Japan [J].
+Int J Hematol,
+2016,
+103(
+3):
+253-
+261.
+DOI: 10.1007/s12185-015-1904-z.
+[6]
+MurataA, OkamotoK, MayumiT, et al.
+The recent time trend of outcomes of disseminated intravascular coagulation in Japan: an observational study based on a national administrative database [J].
+J Thromb Thrombolysis,
+2014,
+38(
+3):
+364-
+371.
+DOI: 10.1007/s11239-014-1068-3.
+[7]
+IbaT, YamadaA, HashiguchiN, et al.
+New therapeutic options for patients with sepsis and disseminated intravascular coagulation [J].
+Pol Arch Med Wewn,
+2014,
+124(
+6):
+321-
+328.
+[8]
+OguraH, GandoS, SaitohD, et al.
+Epidemiology of severe sepsis in Japanese intensive care units: a prospective multicenter study [J].
+J Infect Chemother,
+2014,
+20(
+3):
+157-
+162.
+DOI: 10.1016/j.jiac.2013.07.006.
+[9]
+SemeraroN, AmmolloCT, SemeraroF, et al.
+Coagulopathy of Acute Sepsis [J].
+Semin Thromb Hemost,
+2015,
+41(
+6):
+650-
+658.
+DOI: 10.1055/s-0035-1556730.
+[10]
+LeviM, van der PollT.
+Coagulation and sepsis [J].
+Thromb Res,
+2017,
+149 :
+38-
+44.
+DOI: 10.1016/j.thromres.2016.11.007.
+[11]
+SimmonsJ, PittetJF.
+The coagulopathy of acute sepsis [J].
+Curr Opin Anaesthesiol,
+2015,
+28(
+2):
+227-
+236.
+DOI: 10.1097/ACO.0000000000000163.
+[12]
+WadaH, ThachilJ, DiNM, et al.
+Guidance for diagnosis and treatment of DIC from harmonization of the recommendations from three guidelines [J].
+J Thromb Haemost,
+2013,
+11(
+4):
+761-
+767.
+DOI: 10.1111/jth.12155.
+[13]
+TaylorFB, TohCH, HootsWK, et al.
+Towards definition, clinical and laboratory criteria, and a scoring system for disseminated intravascular coagulation [J].
+Thromb Haemost,
+2001,
+86(
+5):
+1327-
+1330.
+[14]
+LeeJH, SongJ.
+Diagnosis of non-overt disseminated intravascular coagulation made according to the International Society on Thrombosis and Hemostasis criteria with some modifications [J].
+Korean J Hematol,
+2010,
+45(
+4):
+260-
+263.
+DOI: 10.5045/kjh.2010.45.4.260.
+[15]
+钟声健, 张春宝, 胡军涛, 等.
+血栓弹力图评价脓毒症患者的凝血功能障碍[J].
+中华危重病急救医学,
+2016,
+28(
+2):
+153-
+158.
+DOI: 10.3760/cma.j.issn.2095-4352.2016.02.013.
+ZhongSJ, ZhangCB, HuJT, et al. Evaluation of coagulation disorders with thrombelastography in patients with sepsis [J]. Chin Crit Care Med, 2016, 28(2): 153-158. DOI: 10.3760/cma.j.issn.2095-4352.2016.02.013.
+[16]
+穆恩, 刘志永, 马晓春.
+血栓弹力图在重症加强治疗病房中的应用[J].
+中华危重病急救医学,
+2016,
+28(
+5):
+474-
+477.
+DOI: 10.3760/cma.j.issn.2095-4352.2016.05.020.
+MuE, LiuZY, MaXC. Utility of thromboelastography in intensive care unit [J]. Chin Crit Care Med, 2016, 28(5): 474-477. DOI: 10.3760/cma.j.issn.2095-4352.2016.05.020.
+[17]
+闫春江, 周仙仕, 叶烨.
+脓毒症中医辨证处方规律及临床疗效的文献研究[J].
+中国中医急症,
+2016,
+25(
+12):
+2241-
+2244,
+2274.
+DOI: 10.3969/j.issn.1004-745X.2016.12.011.
+YanCJ, ZhouXS, YeY. Literature research on the laws of syndrome differentiation and treatment and clinical effects of traditional Chinese medicine interventions in septic subjects [J]. J Emerg TCM, 2016, 25(12): 2241-2244, 2274. DOI: 10.3969/j.issn.1004-745X.2016.12.011.
+[18]
+MeierJ, HenesJ, RosenbergerP.
+Bleeding and coagulopathies in critical care [J].
+N Engl J Med,
+2014,
+370(
+22):
+2152-
+2153.
+DOI: 10.1056/NEJMc1403768#SA3.
+[19]
+OkamotoK, TamuraT, SawatsubashiY.
+Sepsis and disseminated intravascular coagulation [J].
+J Intensive Care,
+2016,
+4:
+23.
+DOI: 10.1186/s40560-016-0149-0.
+[20]
+HagiwaraA, TanakaN, UemuraT, et al.
+Can recombinant human thrombomodulin increase survival among patients with severe septic-induced disseminated intravascular coagulation: a single-centre, open-label, randomised controlled trial [J].
+BMJ Open,
+2016,
+6(
+12):
+e012850.
+DOI: 10.1136/bmjopen-2016-012850.
+[21]
+RhodesA, EvansLE, AlhazzaniW, et al.
+Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016 [J].
+Intensive Care Med,
+2017,
+43(
+3):
+304-
+377.
+DOI: 10.1007/s00134-017-4683-6.
+[22]
+OdaS, AibikiM, IkedaT, et al.
+The Japanese guidelines for the management of sepsis [J].
+J Intensive Care,
+2014,
+2(
+1):
+55.
+DOI: 10.1186/s40560-014-0055-2.
+[23]
+PolatG, UganRA, CadirciE, et al.
+Sepsis and Septic Shock: Current Treatment Strategies and New Approaches [J].
+Eurasian J Med,
+2017,
+49(
+1):
+53-
+58.
+DOI: 10.5152/eurasianjmed.2017.17062.
+[24]
+UmemuraY, YamakawaK.
+Efficacy and safety of anticoagulant therapy in three specific populations with sepsis: a meta-analysis of randomized controlled trials: reply [J].
+J Thromb Haemost,
+2016,
+14(
+11):
+2310-
+2311.
+DOI: 10.1111/jth.13473.
+[25]
+YamakawaK, UmemuraY, HayakawaM, et al.
+Benefit profile of anticoagulant therapy in sepsis: a nationwide multicentre registry in Japan [J].
+Crit Care,
+2016,
+20(
+1):
+229.
+DOI: 10.1186/s13054-016-1415-1.
+[26]
+ZarychanskiR, Abou-SettaAM, KanjiS, et al.
+The efficacy and safety of heparin in patients with sepsis: a systematic review and metaanalysis [J].
+Crit Care Med,
+2015,
+43(
+3):
+511-
+518.
+DOI: 10.1097/CCM.0000000000000763.
+[27]
+LeviM, TohCH, ThachilJ, et al.
+Guidelines for the diagnosis and management of disseminated intravascular coagulation. British Committee for Standards in Haematology [J].
+Br J Haematol,
+2009,
+145(
+1):
+24-
+33.
+DOI: 10.1111/j.1365-2141.2009.07600.x.
+[28]
+XuQ, LiuJ, WangZ, et al.
+Heat stress-induced disruption of endothelial barrier function is via PAR1 signaling and suppressed by Xuebijing injection [J].
+PLoS One,
+2015,
+10(
+2):
+e0118057.
+DOI: 10.1371/journal.pone.0118057.
+[29]
+WangL, LiuZ, DongZ, et al.
+Effects of Xuebijing injection on microcirculation in septic shock [J].
+J Surg Res,
+2016,
+202(
+1):
+147-
+154.
+DOI: 10.1016/j.jss.2015.12.041.
+[30]
+金铭, 李春盛.
+血必净注射液对重症脓毒症凝血功能及预后影响的研究[J].
+中华内科杂志,
+2009,
+48(
+3):
+235-
+236.
+DOI: 10.3760/cma.j.issn.0578-1426.2009.03.017.
+JinM, LiCS. Effect of Xuebijing injection on blood coagulation and outcome in patients with severe sepsis [J]. Chin J Intern Med, 2009, 48(3): 235-236. DOI: 10.3760/cma.j.issn.0578-1426.2009.03.017.
+[31]
+李春盛, 金铭, 武军元, 等.
+血必净对严重脓毒症患者血管内皮细胞相关促炎因子和凝血因子的影响[J].
+中华医学杂志,
+2009,
+89(
+39):
+2744-
+2747.
+DOI: 10.3760/cma.j.issn.0376-2491.2009.39.003.
+LiCS, JinM, WuJY, et al. Effect of Xuebijing injection upon related proinflammatory factors and blood coagulation factors of vascular endothelial cells in severe septic patients [J]. Natl Med J China, 2009, 89(39): 2744-2747. DOI: 10.3760/cma.j.issn.0376-2491.2009.39.003.
+[32]
+陈云霞, 李春盛.
+血必净治疗脓毒症的随机对照多中心临床研究[J].
+中华急诊医学杂志,
+2013,
+22(
+2):
+130-
+135.
+DOI: 10.3760/cma.j.issn.1671-0282.2013.02.006.
+ChenYX, LiCS. The effectiveness of Xuebijing injection in therapy of sepsis: a multicenter clinical study [J]. Chin J Emerg Med, 2013, 22(2): 130-135. DOI: 10.3760/cma.j.issn.1671-0282.2013.02.006.
+[33]
+ShiH, HongY, QianJ, et al.
+Xuebijing in the treatment of patients with sepsis [J].
+Am J Emerg Med,
+2017,
+35(
+2):
+285-
+291.
+DOI: 10.1016/j.ajem.2016.11.007.
+[34]
+HouSY, FengXH, LinCL, et al.
+Efficacy of Xuebijing for coagulopathy in patients with sepsis [J].
+Saudi Med J,
+2015,
+36(
+2):
+164-
+169.
+DOI: 10.15537/smj.2015.2.9895.
+[35]
+赵森伟, 柴艳芬.
+血必净与低分子肝素对严重脓毒症患者凝血功能及预后的影响[J].
+中华急诊医学杂志,
+2011,
+20(
+4):
+405-
+408.
+DOI: 10.3760/cma.j.issn.1671-0282.2011.04.016.
+ZhaoSW, ChaiYF. The influence of Xuebijing injection and low molecular weight heparin on coagulation function and prognosis in patients with severe sepsis [J]. Chin J Emerg Med, 2011, 20(4): 405-408. DOI: 10.3760/cma.j.issn.1671-0282.2011.04.016.
+[36]
+何健卓, 谭展鹏, 张敏州, 等.
+血必净注射液对严重脓毒症患者血流动力学及内皮功能影响的前瞻性研究[J].
+中华危重病急救医学,
+2015,
+27(
+2):
+127-
+132.
+DOI: 10.3760/cma.j.issn.2095-4352.2015.02.010.
+HeJZ, TanZP, ZhangMZ, et al. Effect of Xuebijing injection on hemodynamics and endothelial function in patients with severe sepsis：a prospective study [J]. Chin Crit Care Med, 2015, 27(2): 127-132. DOI: 10.3760/cma.j.issn.2095-4352.2015.02.010.
+[37]
+张平平, 王庆树, 李志军, 等.
+血必净注射液对脓毒症患者凝血功能的影响[J].
+中国中西医结合急救杂志,
+2014,
+21(
+3):
+198-
+200.
+DOI: 10.3969/j.issn.1008-9691.2014.03.010.
+ZhangPP, WangQS, LiZJ, et al. Effects of Xuebijing injection on blood coagulation in patients with sepsis [J]. Chin J TCM WM Crit Care, 2014, 21(3): 198-200. DOI: 10.3969/j.issn.1008-9691.2014.03.010.
+[38]
+YinQ, LiC.
+Treatment effects of xuebijing injection in severe septic patients with disseminated intravascular coagulation [J].
+Evid Based Complement Alternat Med,
+2014,
+2014 :
+949254.
+DOI: 10.1155/2014/949254.
+[39]
+ZhangC, WangH, YangH, et al.
+Recombinant human soluble thrombomodulin and short-term mortality of infection patients with DIC: a meta-analysis [J].
+Am J Emerg Med,
+2016,
+34(
+9):
+1876-
+1882.
+DOI: 10.1016/j.ajem.2016.06.001.
+[40]
+HayakawaM, YamakawaK, SaitoS, et al.
+Recombinant human soluble thrombomodulin and mortality in sepsis-induced disseminated intravascular coagulation. A multicentre retrospective study [J].
+Thromb Haemost,
+2016,
+115(
+6):
+1157-
+1166.
+DOI: 10.1160/TH15-12-0987.
+[41]
+KienastJ, JuersM, WiedermannCJ, et al.
+Treatment effects of high-dose antithrombin without concomitant heparin in patients with severe sepsis with or without disseminated intravascular coagulation [J].
+J Thromb Haemost,
+2006,
+4(
+1):
+90-
+97.
+DOI: 10.1111/j.1538-7836.2005.01697.x.
+[42]
+HayakawaM, KudoD, SaitoS, et al.
+Antithrombin supplementation and mortality in sepsis-induced disseminated intravascular coagulation: a multicenter retrospective observational study [J].
+Shock,
+2016,
+46(
+6):
+623-
+631.
+DOI: 10.1097/SHK.0000000000000727.
+[43]
+WadaH, MatsumotoT, YamashitaY, et al.
+Disseminated intravascular coagulation: testing and diagnosis [J].
+Clin Chim Acta,
+2014,
+436 :
+130-
+134.
+DOI: 10.1016/j.cca.2014.04.020.
+[44]
+RanieriVM, ThompsonBT, BariePS, et al.
+Drotrecogin alfa (activated) in adults with septic shock [J].
+N Engl J Med,
+2012,
+366(
+22):
+2055-
+2064.
+DOI: 10.1056/NEJMoa1202290.
+[45]
+MaroneySA, HansenKG, MastAE.
+Cellular expression and biological activities of alternatively spliced forms of tissue factor pathway inhibitor [J].
+Curr Opin Hematol,
+2013,
+20(
+5):
+403-
+409.
+DOI: 10.1097/MOH.0b013e3283634412.
+[46]
+SchöchlH, van GriensvenM, HeitmeierS, et al.
+Dual inhibition of thrombin and activated factor Ⅹ attenuates disseminated intravascular coagulation and protects organ function in a baboon model of severe Gram-negative sepsis [J].
+Crit Care,
+2017,
+21(
+1):
+51.
+DOI: 10.1186/s13054-017-1636-y.
+贡献者信息
+中华医学会急诊医学分会
+中华危重病急救医学杂志编辑委员会
+脓毒症并发弥散性血管内凝血诊治急诊专家共识专家组
+王力军
+300052 天津医科大学总医院急诊医学科
+柴艳芬
+300052 天津医科大学总医院急诊医学科
+通信作者
+柴艳芬
+Email：
+chaiyanfen2012@126.com
+历史
+出版日期：2017-07-10
+收稿日期：2017-06-13
+Chinese emergency medicine expert consensus on diagnosis and treatment of sepsis complicated with disseminated intravascular coagulation
+Chinese Society of Emergency Medicine,  Editorial Board of Chinese Critical Care Medicine,  Expert Group of Chinese Emergency Medicine Expert Consensus on Diagnosis and Treatment of Sepsis Complicated with Disseminated Intravascular Coagulation,  Wang Lijun,  Chai Yanfen
+Published
+2017-07-10
+Cite as
+Chin Crit Care Med, 2017,29(07): 577-580. DOI: 10.3760/cma.j.issn.2095-4352.2017.07.001
+Contributor Information
+Chinese Society of Emergency Medicine
+Editorial Board of Chinese Critical Care Medicine
+Expert Group of Chinese Emergency Medicine Expert Consensus on Diagnosis and Treatment of Sepsis Complicated with Disseminated Intravascular Coagulation
+Wang Lijun
+Department of Emergency Medicine, Tianjin Medical University General Hospital, Tianjin 300052, China
+Chai Yanfen
+Department of Emergency Medicine, Tianjin Medical University General Hospital, Tianjin 300052, China
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+注：DIC为弥散性血管内凝血，TF为组织因子，FⅦa为活化因子Ⅶa，TFPI为组织因子途径抑制物，IL-1、IL-6为白细胞介素-1、-6，TNF-α为肿瘤坏死因子-α，APC为活化蛋白C，NETs为中性粒细胞胞外诱捕网，AT为抗凝血酶，TM为血栓调节蛋白，PC为蛋白C
+图1
+脓毒症并发DIC发病机制[11]
+表1
+ISTH DIC积分系统
+指标
+0分
+1分
+2分
+3分
+血小板计数（×109/L）
+≥100
+<100，≥50
+<50
+PT延长时间（s）
+≤3
+>3，≤6
+>6
+纤维蛋白原（g/L）
+≥1.0
+<1.0
+D-二聚体（mg/L）
+≤0.4
+>0.4，≤4.0
+>4.0
+注：ISTH为国际血栓与止血协会，DIC为弥散性血管内凝血，PT为凝血酶原时间；空白代表无此项
+注：DIC为弥散性血管内凝血，qSOFA为快速序贯器官衰竭评分，SOFA为序贯器官衰竭评分，ISTH为国际血栓与止血协会
+图2
+脓毒症并发DIC患者诊疗流程
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华危重病急救医学2017年29卷07期
+文    题：脓毒症并发弥散性血管内凝血诊治急诊专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华危重病急救医学2017年29卷07期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

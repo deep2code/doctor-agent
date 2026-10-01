@@ -1,0 +1,326 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%88%91%E5%9B%BD%E6%95%A3%E5%85%89%E7%9F%AB%E6%AD%A3%E5%9E%8B%E4%BA%BA%E5%B7%A5%E6%99%B6%E7%8A%B6%E4%BD%93%E4%B8%B4%E5%BA%8A%E5%BA%94%E7%94%A8%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882017%E5%B9%B4%EF%BC%89.html
+# 标题: 我国散光矫正型人工晶状体临床应用专家共识（2017年） - 中华眼科杂志
+# 发布方/日期: 眼科，中华眼科杂志, 2017,53(1) : 7-10. DOI: 10.3760/cma.j.is；2017-01-11
+
+我国散光矫正型人工晶状体临床应用专家共识（2017年）
+中华医学会眼科学分会白内障与人工晶状体学组
+中华眼科杂志, 2017,53(1) : 7-10. DOI: 10.3760/cma.j.issn.0412-4081.2017.01.003
+白内障是世界范围内首要的致盲性眼病，手术是目前唯一有效的治疗方法。近年来，随着白内障摘除术技术的日益提高以及多种新型功能性IOL应用于临床，患者对白内障摘除术后视觉质量也有了更高的要求，包括术后的裸眼视力、脱镜率等。因此，白内障摘除术已经从防盲性手术时代进入到屈光性手术时代。
+角膜散光是导致白内障患者术后视力不佳的重要因素之一，可明显影响白内障摘除术后的视觉质量。目前，白内障患者矫正散光的主要方法包括术后戴镜（包括角膜接触镜等）、行角膜屈光手术（包括角膜激光手术、角膜缘松解切口等）和使用散光矫正型IOL。
+Toric IOL在临床得到了越来越广泛的应用。多项临床研究结果表明，Toric IOL的散光矫正范围广，手术预测性强，术后效果良好、稳定，可以显著降低白内障患者术后的残留散光度数，提高患者的裸眼远视力和脱镜率，使患者的满意度提高[1,2,3]。但是，Toric IOL在临床的实际应用中仍然存在一些难点和要点，可能对其矫正散光的效果及患者术后视觉质量产生较大影响。为了进一步规范和指导Toric IOL的使用，中华医学会眼科学分会白内障与IOL学组在参考国内外文献的基础上，结合我国现状及实际的医疗情况，经过认真、全面、充分的讨论达成以下共识性意见，以供眼科医师在临床工作中参考使用。
+一、散光概述
+散光是指眼球在不同子午线上屈光力不同，平行光通过眼屈光系统折射后所成像并非为一个焦点，而是在空间不同位置的两条焦线和最小弥散圆的一种屈光状态。
+散光可分为规则散光和不规则散光。最大屈光力和最小屈光力主子午线相互垂直者为规则散光，而根据最大屈光力主子午线轴位又可分为顺规散光（90°±30°）、逆规散光（180°±30°）和斜向散光（30°~60°或120°~150°）。各子午线屈光力不相同，同一子午线不同部位屈光力不一致者为不规则散光，可见于各种角膜瘢痕、角膜变性、翼状胬肉、圆锥角膜、晶状体半脱位和晶状体圆锥等。
+在白内障人群中，角膜散光普遍存在。美国眼科临床指南（Preferred Practice Pattern，PPP）指出15%~29%白内障患者伴有1.50 D以上的角膜散光[4]。我国的流行病学调查数据显示，白内障摘除术眼术前角膜散光在0.50~1.00 D者占32.5%~36.4%，1.00~1.50 D者占21.3%~22.4%，1.50~2.00 D者占10.6%~12.4%，超过2.00 D者占8.2%~13.0%[5,6]。
+二、Toric IOL植入术的适应证和禁忌证
+规则性角膜散光≥0.75 D，并有远视力脱镜意愿的白内障患者可以考虑使用Toric IOL。翼状胬肉切除术后患者需观察1个月以上，待角膜曲率稳定后再进行选择。
+角膜不规则散光，如角膜瘢痕、角膜变性、圆锥角膜等，不适宜使用Toric IOL。存在以下情况的患者需谨慎使用Toric IOL：（1）白内障伴有可能影响晶状体囊袋稳定性眼病者需慎用，如晶状体悬韧带松弛或轻度离断、假性囊膜剥脱综合征等[7,8]；（2）瞳孔散大不充分或有虹膜松弛综合征的白内障患者，在术中可能影响IOL的准确定位[8]；（3）高度近视眼患者可能因为晶状体囊袋较大，故发生IOL旋转的风险增加[9,10]。
+选择使用Toric IOL时，需告知患者术后实际屈光情况可能与术前规划存在偏差，可能出现过矫或欠矫等。若术中发生影响Toric IOL植入的手术并发症，则需更改手术方案。
+三、术前准备
+（一）角膜曲率测量
+测量角膜曲率可使用角膜曲率计（手动或自动）、光学测量（如光学相干生物测量仪IOLmaster、Lenstar等）和角膜地形图（Orbscan、Pentacam等）。
+在测量过程中建议注意以下问题[8]：（1）须停戴软性角膜接触镜1~2周以上，停戴硬性角膜接触镜至少3周；（2）检查前嘱患者眨眼数次，使泪膜稳定，切勿在使用麻醉药品、散大瞳孔药物等后测量；（3）检查时患者应坐位舒适，注视正前方；（4）重复测量2或3次，测量人员尽量固定，必要时可结合多种测量仪器的数据。
+角膜后表面的平均散光度数为0.30 D，对手术效果影响较小。Pentacam、iTrace等设备可对角膜前、后表面的散光度数进行评估。使用角膜总散光度数计算Toric IOL度数，对术后残留散光度数的预测会更为准确；而对于条件有限的眼科机构，可不考虑角膜后表面散光度数的影响，仅使用角膜前表面散光度数代替角膜总散光度数计算Toric IOL度数。
+（二）眼轴长度测量
+采用超声或光学方法测量眼轴长度，若操作方法适当，结果重复性好，则测量数据均可采用。采用超声方法测量时需注意避免压迫角膜。而光学方法适用于可固视患者，对屈光介质具有一定要求，不适用于部分较成熟的白内障患者。
+（三）手术源性散光（surgically induced astigmatism，SIA）
+手术切口的位置、大小和形态均会对SIA的大小产生影响。既往研究结果显示，1.8 mm切口最终产生的SIA约为0.29 D，2.2 mm切口产生的SIA在0.31~0.40 D，2.6和3.0 mm切口则分别在0.50和0.60~0.70 D[11,12,13]。故建议在计算时1.8、2.2、2.6和3.0 mm切口SIA值可分别采用0.30、0.40、0.50和0.60 D。由于每位术者的操作方法有差异，因此最理想的方法是累积20例以上患者手术前后的角膜曲率数据进行评估计算，得到个性化SIA数值。
+（四）Toric IOL屈光度数计算
+建议采用第三代理论公式（SRK-T）以及Holladay 2、Hoffer Q、Barrett等公式，并结合术者既往的经验和患者的需求等，决定Toric IOL的球镜度数。Toric IOL柱镜度数和轴向可通过在线计算器（如Barrett Toric计算器，http://www.ascrs.org/barrett-toric-calculator）或者各厂商提供的网页进行计算。需要输入的主要数据包括眼别、角膜陡峭轴（最大屈光力）和平坦轴（最小屈光力）曲率和轴位、术源性散光和切口轴位、眼轴长度、球镜度数等。Toric IOL柱镜度数原则上不选择过矫。
+四、手术操作技术
+（一）术前标记
+准确的轴向标记是Toric IOL有效矫正角膜散光最重要的因素之一。每1°的Toric IOL偏位会降低3.3%的散光矫正能力，即30°的偏位将导致Toric IOL无散光矫正能力，并产生散光轴向的改变[14]。
+为避免平卧手术时眼球旋转所带来的影响，标记时患者应取坐位，标记者与患者平齐。患者平视前方，坐姿、头位、眼位都保持正位。目前最为常用的标记方法是在裂隙灯显微镜下水平标记。标记前用表面麻醉眼液点术眼，应在小瞳孔下进行，调整光带最长最细并通过角膜中心。标记者在裂隙灯显微镜下用4.5~5.0号注射器针头和无菌极细医用手术记号笔（线宽0.5 mm）在3点和9点方位做水平标记，标记部位尽量干燥，标记点尽量细小。术者在术中使用带有刻度的标记环（如Mendez量规），根据已标记的水平位置做手术切口和Toric IOL放置轴位标记。Toric IOL轴位可在手术开始时标记，也可在准备植入IOL前标记，也可直接在带刻度的裂隙灯显微镜下坐位直接标记、直视下坐位牛角规标记等。
+近年来采用的手术数字导航系统，如Verion（Alcon）、Callisto（Carl Zeiss Meditec AG）、SG3000（Sensomotoric Instruments GmbH）等，通过记录和比对虹膜、角膜缘和巩膜血管，可以在术中对切口位置和散光轴位进行实时定位。此外，术中使用波前相差测量仪，如Orange（WaveTec）等，也可通过实时测定残留的柱镜屈光度数对Toric IOL轴位进行准确引导。
+（二）手术操作
+术者应注意以下操作要点：（1）做角膜缘切口，尽量固定切口大小，稳定SIA；（2）连续、环形、居中撕囊，直径为5.0~5.5 mm，撕囊口要覆盖Toric IOL光学部边缘，以确保良好的旋转稳定性[8]；（3）Toric IOL应置于囊袋中央，旋转调位时应顺时针旋转，切勿逆时针旋转；（4）初步调位至距目标轴位10°~20°，彻底清除黏弹剂，尤其是位于Toric IOL后方的黏弹剂，残留的黏弹剂可能会增加Toric IOL的旋转；（5）精细调位至标记的Toric IOL轴位处，若Toric IOL位置越过目标轴位，则重新顺时针旋转操作调位；（6）轻压光学部使Toric IOL尽量贴附晶状体后囊膜，避免前囊膜撕囊口边缘夹持；（7）手术结束前保证Toric IOL襻完全伸展；（8）术毕水密切口，不宜注水过急，以免到位的Toric IOL再次旋转，注水适量使眼压适中；（9）手术结束取出开睑器后须最终确认Toric IOL的轴位方向是否与术前标记一致。
+若在手术中出现晶状体悬韧带离断、囊袋撕裂或破损、玻璃体脱失、前房出血、玻璃体出血、无法控制的眼压升高等情况，则不宜使用Toric IOL[7]。
+飞秒激光辅助的白内障摘除手术可以提供更加精准的环形撕囊[15]，可能对Toric IOL的位置居中性和旋转稳定性有利。
+五、术后随访
+Toric IOL植入术后用药和术后随访与常规白内障摘除术相同。在术后随访时应注意检查患者的裸眼视力、残留散光度数、角膜曲率等，尤其需散大瞳孔在裂隙灯显微镜下检查Toric IOL的轴位和倾斜程度等。泪膜状态欠佳的患者，建议术后酌情进行干眼改善性治疗，既可以改善泪膜状况，又有助于提高视觉质量。
+Toric IOL植入术后并发症主要包括角膜散光的欠矫或过矫，Toric IOL的旋转、倾斜或偏心等。Toric IOL旋转主要发生在术后早期，若出现Toric IOL旋转度数过大而导致明显的残留散光度数增加、裸眼视力下降等，查明原因后，应在1个月内及时行二次手术，重新调整Toric IOL的位置（拨位）。
+形成共识意见的专家组成员：
+姚 克 浙江大学医学院附属第二医院眼科中心（白内障及IOL学组组长）
+张劲松 中国医科大学附属第四医院眼科（白内障及IOL学组副组长）
+刘奕志 中山大学中山眼科中心、海南省眼科医院（白内障及IOL学组副组长）
+汤 欣 天津市眼科医院（白内障及IOL学组副组长）
+毕宏生 山东中医药大学附属眼科医院（白内障及IOL学组副组长）
+何守志 解放军总医院眼科（白内障及IOL学组顾问）
+（以下白内障及IOL学组委员按姓氏拼音排序）
+鲍永珍 北京大学人民医院眼科
+陈伟蓉 中山大学中山眼科中心
+崔 巍 内蒙古自治区医院眼科
+管怀进 南通大学附属医院眼科
+郭海科 河南省立眼科医院
+金海鹰 上海交通大学医学院附属新华医院眼科
+兰长骏 川北医学院附属医院眼科
+李 灿 重庆医科大学附属一院眼科
+李志坚 哈尔滨医科大学附属第一医院眼科
+罗 敏 上海交通大学医学院附属第九人民医院眼科
+齐艳华 哈尔滨医科大学附属第二医院眼科
+谭少健 广西医科大学第一附属医院眼科
+王 薇 北京大学第三医院眼科
+王 军 首都医科大学附属北京同仁医院北京同仁眼科中心 北京市眼科研究所
+吴 强 上海交通大学附属第六人民医院眼科
+徐 雯 浙江大学医学院附属第二医院眼科中心
+严 宏 第四军医大学唐都医院眼科
+叶 剑 第三军医大学大坪医院眼科
+张 晗 山东大学第二医院眼科
+张 红 天津医科大学眼科医院
+张素华 山西省眼科医院
+赵梅生 吉林大学第二医院眼科
+赵云娥 温州医学院眼视光医院
+郑广瑛 郑州大学第一附属医院眼科
+朱思泉 首都医科大学附属北京同仁医院北京同仁眼科中心
+申屠形超 浙江大学医学院附属第二医院眼科中心（非学组委员，秘书）
+来凯然 浙江大学医学院附属第二医院眼科中心（非学组委员，记录）
+利益冲突
+声明 本文仅为专家意见，为临床医疗服务提供指导，不是在各种情况下都必须遵循的医疗标准，也不是为个别特殊个人提供的保健措施；本文内容与相关产品的生产和销售厂商无经济利益关系
+参考文献
+[1]
+KesselL, AndresenJ, TendalB, et al.
+Toric intraocular lenses in the correction of astigmatism during cataract surgery: a systematic review and meta-analysis[J].
+Ophthalmology,
+2016,
+123(
+2):
+275-
+286.
+DOI: 10.1016/j.ophtha.2015.10.002.
+[2]
+HollandE, LaneS, HornJD, et al.
+The AcrySof Toric intraocular lens in subjects with cataracts and corneal astigmatism: a randomized, subject-masked, parallel-group, 1-year study[J].
+Ophthalmology,
+2010,
+117(
+11):
+2104-
+2111.
+DOI: 10.1016/j.ophtha.2010.07.033.
+[3]
+WaltzKL, FeatherstoneK, TsaiL, et al.
+Clinical outcomes of TECNIS toric intraocular lens implantation after cataract removal in patients with corneal astigmatism[J].
+Ophthalmology,
+2015,
+122(
+1):
+39-
+47.
+DOI: 10.1016/j.ophtha.2014.06.027.
+[4]
+American Academy of Ophthalmology Cataract and Anterior Segment Panel.
+Preferred Practice Pattern® guidelines: cataract in the adult eye[S].
+San Francisco:
+American Academy of Ophthalmology,
+2011.
+[5]
+ChenW, ZuoC, ChenC, et al.
+Prevalence of corneal astigmatism before cataract surgery in Chinese patients[J].
+J Cataract Refract Surg,
+2013,
+39(
+2):
+188-
+192.
+DOI: 10.1016/j.jcrs.2012.08.060.
+[6]
+YuanX, SongH, PengG, et al.
+Prevalence of corneal astigmatism in patients before cataract surgery in northern China[J].
+J Ophthalmol,
+2014,
+2014:
+536412.
+DOI: 10.1155/2014/536412.
+[7]
+VisserN, BauerNJ, NuijtsRM.
+Toric intraocular lenses: historical overview, patient selection, IOL calculation, surgical techniques, clinical outcomes, and complications[J].
+J Cataract Refract Surg,
+2013,
+39(
+4):
+624-
+637.
+DOI: 10.1016/j.jcrs.2013.02.020.
+[8]
+ChanCC, HollandEJ.
+Management of astigmatism: toric intraocular lenses[J].
+Int Ophthalmol Clin,
+2012,
+52(
+2):
+21-
+30.
+DOI: 10.1097/IIO.0b013e31824b442c.
+[9]
+ZhuX, HeW, ZhangK, et al.
+Factors influencing 1-year rotational stability of AcrySof Toric intraocular lenses[J].
+Br J Ophthalmol,
+2016,
+100(
+2):
+263-
+268.
+DOI: 10.1136/bjophthalmol-2015-306656.
+[10]
+ChangDF.
+Repositioning technique and rate for toric intraocular lenses[J].
+J Cataract Refract Surg,
+2009,
+35(
+7):
+1315-
+1316.
+DOI: 10.1016/j.jcrs.2009.02.035.
+[11]
+LeeKM, KwonHG, JooCK.
+Microcoaxial cataract surgery outcomes: comparison of 1.8 mm system and 2.2 mm system[J].
+J Cataract Refract Surg,
+2009,
+35(
+5):
+874-
+880.
+DOI: 10.1016/j.jcrs.2008.12.031.
+[12]
+MasketS, WangL, BelaniS.
+Induced astigmatism with 2.2- and 3.0-mm coaxial phacoemulsification incisions[J].
+J Refract Surg,
+2009,
+25(
+1):
+21-
+24.
+[13]
+WangJ, ZhangEK, FanWY, et al.
+The effect of micro-incision and small-incision coaxial phaco-emulsification on corneal astigmatism[J].
+Clin Exp Ophthalmol,
+2009,
+37(
+7):
+664-
+669.
+DOI: 10.1111/j.1442-9071.2009.02117.x.
+[14]
+MaJJ, TsengSS.
+Simple method for accurate alignment in toric phakic and aphakic intraocular lens implantation[J].
+J Cataract Refract Surg,
+2008,
+34(
+10):
+1631-
+1636.
+DOI: 10.1016/j.jcrs.2008.04.041.
+[15]
+NagyZ, TakacsA, FilkornT, et al.
+Initial clinical evaluation of an intraocular femtosecond laser in cataract surgery[J].
+J Refract Surg,
+2009,
+25(
+12):
+1053-
+1060.
+DOI: 10.3928/1081597X-20091117-04.
+贡献者信息
+中华医学会眼科学分会白内障与人工晶状体学组
+利益冲突
+声明 本文仅为专家意见，为临床医疗服务提供指导，不是在各种情况下都必须遵循的医疗标准，也不是为个别特殊个人提供的保健措施；本文内容与相关产品的生产和销售厂商无经济利益关系
+历史
+出版日期：2017-01-11
+收稿日期：2016-10-20
+本文编辑
+黄翊彬
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华眼科杂志2017年53卷1期
+文    题：我国散光矫正型人工晶状体临床应用专家共识（2017年）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华眼科杂志2017年53卷1期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

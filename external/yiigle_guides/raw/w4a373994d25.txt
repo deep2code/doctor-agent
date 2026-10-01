@@ -1,0 +1,465 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%97%A9%E4%BA%A7%E5%84%BF%E7%BB%8F%E9%BC%BB%E9%97%B4%E6%AD%87%E6%AD%A3%E5%8E%8B%E9%80%9A%E6%B0%94%E4%B8%B4%E5%BA%8A%E5%BA%94%E7%94%A8%E6%8C%87%E5%8D%97%EF%BC%882019%E5%B9%B4%E7%89%88%EF%BC%89.html
+# 标题: 早产儿经鼻间歇正压通气临床应用指南（2019年版） - 中华儿科杂志
+# 发布方/日期: 儿科，中华儿科杂志, 2019,57(4) : 248-251. DOI: 10.3760/cma.j；2019-04-02
+
+AUTO TRANSLATION​▼
+早产儿经鼻间歇正压通气临床应用指南（2019年版）
+中国医师协会新生儿科医师分会
+中华儿科杂志编辑委员会
+中华儿科杂志, 2019,57(4) : 248-251. DOI: 10.3760/cma.j.issn.0578-1310.2019.04.004
+经鼻间歇正压通气（nasal intermittent positive pressure ventilation，NIPPV）（本指南所述NIPPV不包括双水平气道正压通气）是在经鼻持续气道正压通气（nasal continuous positive airway pressure，NCPAP）的基础上给予间歇正压的一种无创呼吸支持模式，由于其具有避免气管插管等优点，显著降低了气管插管率和机械通气的并发症，已成为早产儿的重要辅助通气方式。但各机构的新生儿科医生对NIPPV的临床应用尚存在较大差异，缺乏同质性和规范性。中国医师协会新生儿科医师分会暨呼吸专业委员会于2018年1月成立指南制定工作组，在全面检索文献的基础上，获取相关研究并经过严格的文献评价及多轮专家讨论，遵照循证医学指南制定的要求制定本指南，旨在帮助新生儿科医生准确掌握NIPPV的临床适应证，规范NIPPV参数设定、撤机时间的把握和疗效判断。本指南已在国际实践指南注册平台注册，注册号IPGRP-2019CN010。本指南目标人群为新生儿科医生、儿科医生。
+采用推荐、评估、发展和评价分级工作组（recommendations assessment，development and evaluation working group，GRADE）评价证据[1]。将证据质量分为"高、中、低和极低"4个等级。将随机对照试验（randomized controlled trials，RCT）、诊断准确性研究初始作为高质量证据，降低证据质量的因素为（1）研究局限性：根据不同研究设计类型，采用相应的方法学质量评价工具；（2）结果不准确性：样本量小、结局事件发生少和效应估计值可信区间宽；（3）研究结果不一致性：临床异质性和统计学异质性；（4）间接证据；（5）发表偏倚。观察性研究（包括队列研究、横断面研究、病例对照研究、病例系列报告和病例报告）初始作为低质量证据，但若某干预措施疗效显著，证据显示存在剂量效应关系，存在各种可能导致疗效显著性降低的偏倚时，观察性研究证据的等级将可能提高。将推荐强度分为"强推荐、弱推荐"两个等级。当明确显示干预措施利大于弊或弊大于利时，指南小组将其列为强推荐。当利弊不确定或无论质量高低的证据均显示利弊相当时，则视为弱推荐（表1）。
+点击查看表格
+表1
+GRADE证据质量及推荐意见强度
+表1
+GRADE证据质量及推荐意见强度
+级别
+强推荐
+弱推荐
+高质量
+大多数情况下，推荐意见适用于大多数患者；对估计值接近真实值非常有把握
+最佳决策会因环境、患者和社会价值而不同；对估计值接近真实值非常有把握
+中等质量
+大多数情况下，推荐意见适用于大多数患者；对估计值有中等把握：估计值有可能接近真实值，但也有可能差别很大
+在某些情况下，替代方案对某些患者有可能更好；对估计值有中等把握：估计值有可能接近真实值，但也有可能差别很大
+低质量
+当有更高质量证据时，推荐意见有可能改变；对估计值的把握有限：估计值可能与真实值有很大差别
+其他的替代方案同样合理；对估计值的把握有限：估计值可能与真实值有很大差别
+极低质量
+当有更高质量证据时，推荐意见有可能改变；对估计值几乎没有把握：估计值与真实值极可能有很大差别
+其他的替代措施同样合理；对估计值几乎没有把握：估计值与真实值极可能有很大差别
+注：GRADE为推荐、评估、发展和评价分级工作组
+一、适应证
+推荐意见1：对于呼吸暂停的早产儿，推荐使用NIPPV治疗（强推荐，中等质量）。
+推荐说明：3项RCT将NIPPV和NCPAP治疗早产儿呼吸暂停进行了比较[2,3,4]；其中两项RCT（80、34例）结果均提示，相对于NCPAP，NIPPV能显著减少呼吸暂停发生率（P均<0.05）[2,3]；仅一项RCT（20例）结果提示，NIPPV在预防和改善呼吸暂停方面相对于NCPAP并无明显优势（P>0.05）[4]。而两项Cochrane系统评价[2002年（纳入2项RCT，54例）及2013年（纳入14项RCT，1 052例）]均显示，NIPPV具有显著改善频发呼吸暂停的疗效（P均<0.05）[5,6]。
+推荐意见2：作为初始呼吸支持，对于轻、中度呼吸困难患儿，需要无创呼吸支持时，可优先考虑应用NIPPV（弱推荐，低质量）。
+推荐说明：上机指征为无论生后何时，一旦出现呼吸急促、吸气性凹陷、呻吟等症状，吸入氧浓度（fraction of inspired oxygen，FiO2）>0.30，即可使用NIPPV进行呼吸支持。NIPPV和NCPAP作为初始呼吸支持模式的疗效尚存在争议。3项RCT（76、179、57例）结果均提示，作为初始呼吸支持模式，NIPPV在降低气管插管率、再次使用PS率及并发症发生率等方面均显著优于NCPAP（P均<0.05）[7,8,9]。而另两项RCT（98和200例）结果提示NIPPV在降低气管插管率方面相对于NCPAP并无明显优势（P均>0.05）[10,11]。
+推荐意见3：作为有创通气撤机后呼吸支持，对于机械通气患儿，撤机后可优先考虑应用NIPPV（强推荐，高质量）。
+推荐说明：有创通气改为NIPPV呼吸支持的指征为FiO2<0.40时血氧饱和度仍可维持在0.90~0.94[12]，通气频率≤25次/min，吸气峰压≤14 cmH2O（1 cmH2O=0.098 kPa），平均气道压（mean airway pressure，MAP）≤7 cmH2O，呼气末压（positive end-expiratory pressure，PEEP）≤5 cmH2O，且不伴呼吸急促及血气分析结果异常。关于NIPPV和NCPAP作为撤机后呼吸支持模式的比较，Cochrane系统评价先后3次进行了更新[13,14,15]，[2001年纳入3项RCT（159例）[16,17,18]，2014年纳入8项RCT（1 316例）[16,17,18,19,20,21,22,23]，2017年纳入10项RCT（1 431例）[16,17,18,19,20,21,22,23,24,25]，结果均显示，NIPPV在降低撤机失败率上显著优于NCPAP（P均<0.05）。
+二、NIPPV模式的选择
+推荐意见4：在NIPPV模式的选择上，可选择同步NIPPV（synchronised NIPPV，sNIPPV）或非同步NIPPV（弱推荐，极低质量）。
+推荐说明：尽管尚无RCT直接比较sNIPPV和非同步NIPPV，美国儿科学院在发布的指南指出，sNIPPV与NCPAP相比降低了拔管失败率[26]，但由于患儿自主吸气时间非常短且频率变化快，需要同步系统反应非常快，加之无创呼吸支持受口鼻部漏气等因素的影响，因此sNIPPV在临床的应用效果尚难以评价[27]。尚缺乏大样本RCT对sNIPPV和NCPAP在新生儿呼吸窘迫综合征和早产儿呼吸暂停中的有效性进行对照评估。
+三、初始参数设置（NIPPV采用双鼻塞密闭环路方式）
+推荐意见5：作为初始呼吸支持模式，参数设置建议吸气峰压15~25 cmH2O，PEEP 4~6 cmH2O，呼吸频率15~40次/min，吸气时间根据疾病性质设置，流速8~10 L/min，FiO2 0.21~0.40，维持血氧饱和度在0.90~0.94[12]（强推荐，中等质量）。
+推荐说明：该标准为综合较多研究采用的标准[6,7,8,9,10,11,23]，其中包括Kirpalani等[23]于2013年发表的目前NIPPV对比NCPAP的最大样本量RCT。各参数可根据患儿的出生体重、胸廓扩张度、血气结果进行调节。
+推荐意见6：有创通气撤机后初始参数设置建议吸气峰压比撤机前增加2~4 cmH2O，PEEP≤6 cmH2O，呼吸频率与撤机前相同，调节FiO2以维持血氧饱和度为0.90~0.94[12]，流速8~10 L/min（强推荐，中等质量）。
+推荐说明：该标准为综合目前较多研究采用的标准[16,17,18,19,20,21,22,23,24,25]，撤机后NIPPV近端实测压力应不低于撤机前的吸气峰压。为了弥补无创管路中漏气对压力的影响，临床操作中可能需要将吸气峰压较撤机前增加2~4 cmH2O；根据患儿的出生体重、胸廓扩张度、临床症状和血气分析结果调节各参数。
+四、撤离NIPPV标准
+推荐意见7：当FiO2<0.30，吸气峰压<14 cmH2O，PEEP<4 cmH2O，呼吸频率<15次/min，在此基础上临床症状和血气结果在可接受范围内，维持病情平稳至少12 h（强推荐，中等质量）。
+推荐说明：该标准为目前较多研究采用的标准[6,7,8,9,10,11,16,17,18,19,20,21,22,23,24,25]。撤离NIPPV时应根据患儿当时状况，考虑是否需要继续吸氧或应用其他无创呼吸支持模式过渡；脱离NIPPV后2 h复查血气，密切监测各项生命体征指标及血液动力学改变。
+五、NIPPV通气失败需要气管插管有创通气标准
+推荐意见8：满足以下任一标准：（1）频繁呼吸暂停，即可自行恢复的呼吸暂停≥3次/h，或者24 h内出现1次需要气囊-面罩正压通气的呼吸暂停，咖啡因或氨茶碱治疗不能缓解；（2）低氧血症，即FiO2>0.40时，动脉血氧分压<50 mmHg（1 mmHg=0.133 kPa）；（3）急性进展的高碳酸血症，即pH<7.25，二氧化碳分压>60 mmHg；（4）出现NIPPV禁忌证的情况（见推荐意见10）（强推荐，中等质量）。
+推荐说明：该标准为目前较多研究采用的标准[7,8,9,10,23,24,25]，在NIPPV治疗过程中，密切观察患儿病情变化，若满足以上标准中任一项，应及时气管插管，以免延误救治时机。
+六、并发症
+推荐意见9：在NIPPV治疗过程中，应选择合适的鼻塞；在维持目标氧饱和度的前提下避免压力过高；对于留置胃管的患儿，建议保持胃管持续开放，酌情抽出胃内残留气体；根据患儿病情及时调整吸气峰压及PEEP，密切监测胃肠道、肺部及颅内情况（弱推荐，中等质量）。
+推荐说明：无创呼吸支持常见并发症为鼻损伤、胃肠道扩张胀气、气胸、颅内出血、支气管肺发育不良等。关于NIPPV与NCPAP并发症发生率的比较，尚无明确定论，且缺乏远期并发症比较。专家组认为两者在并发症发生率无明显差异的情况下，为达到相同的目标氧饱和度，NIPPV所需的FiO2等参数相对NCPAP更低，因此推荐优先考虑NIPPV，各新生儿中心可根据自己的设备配置和临床经验作出选择。
+七、禁忌证
+推荐意见10：使用NIPPV的禁忌证为（1）先天畸形包括先天性膈疝、气管-食管瘘、后鼻道闭锁、腭裂等；（2）呼吸系统包括无自主呼吸、应用NIPPV过程中呼吸困难进行性加重、上气道损伤或阻塞、气胸、鼻黏膜受损等；（3）心血管系统包括心跳骤停、严重心律失常、休克等；（4）消化系统包括频繁呕吐、严重腹胀、新生儿坏死性小肠结肠炎、肠梗阻、消化道大出血等（强推荐，极低质量）。
+推荐说明：专家组一致认为当患儿处于以上任一疾病状态，不推荐使用NIPPV。
+委员会成员
+（汪丽 史源 毛健 封志纯 执笔）
+本指南编写专家委员会（排名不分先后）：解放军总医院第七医学中心（封志纯、李秋平、黄柳明）；北京大学第三医院（童笑梅）；北京朝阳区妇幼保健院（刘敬）；中国医科大学盛京医院（毛健）；复旦大学附属儿科医院（陈超、周文浩）；浙江大学医学院附属儿童医院浙江大学儿科研究所（俞惠民）；广东省人民医院（何少茹）；四川大学华西第二医院（母得志、唐军）；西安交通大学第一附属医院（刘俐）；首都儿科研究所附属儿童医院（李莉）；解放军总医院第五医学中心（张雪峰）；中国医学科学院北京协和医学院北京协和医院（李正红）；首都医科大学附属北京儿童医院（黑明燕）；天津市中心妇产科医院（郑军）；解放军联勤保障部队第九八〇医院（刘芳）；山西省儿童医院（刘克战）；内蒙古医科大学附属医院（梅花）；吉林大学第一医院（严超英）；哈尔滨医科大学附属第一医院（王竹颖）；上海交通大学医学院附属上海儿童医学中心（孙建华）；上海交通大学医学院附属新华医院（何振娟）；上海市儿童医院上海交通大学附属儿童医院（裘刚）；南京医科大学附属儿童医院（周晓玉）；南京医科大学附属妇产医院南京市妇幼保健院（韩树萍）；温州医科大学附属第二医院育英儿童医院（林振浪）；福建省厦门市妇幼保健院（林新祝）；山东大学齐鲁医院（卢宪梅）；济南市儿童医院（李晓莺）；郑州大学第一附属医院（程秀永）；湖北省妇幼保健院（夏世文）；武汉儿童医院（刘汉楚）；中南大学湘雅医院（岳少杰）；湖南省儿童医院（高喜容）；南方医科大学珠江医院（王斌）；暨南大学附属第一医院（宋元宗）；广州市妇女儿童医疗中心（周伟）；广东省妇幼保健院（杨杰）；中山大学附属第八医院（付雪梅）；南方医科大学深圳市妇幼保健院（杨传忠）；重庆医科大学附属儿童医院（史源）；成都市妇女儿童中心医院（巨容）；贵阳市妇幼保健院（刘玲）；昆明医科大学附属儿童医院（李杨方）；西北妇女儿童医院（李占魁）；甘肃省妇幼保健院（易彬）；银川市第一人民医院（陈彦香）；新疆医科大学第一附属医院（李明霞）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+GuyattGH,OxmanAD,VistGE, et al.
+GRADE: an emerging consensus on rating quality of evidence and strength of recommendations[J].
+BMJ,
+2008,
+336(
+7650):
+924-
+926.
+DOI: 10.1136/bmj.39489.470347.AD.
+[2]
+SilveiraCS,LeonardiKM,MeloAP, et al.
+Response of preterm infants to 2 noninvasive ventilatory support systems: nasal CPAP and nasal intermittent positive-pressure ventilation[J].
+Respir Care,
+2015,
+60(
+12):
+1772-
+1776.
+DOI: 10.4187/respcare.03565.
+[3]
+LinCH,WangST,LinYJ, et al.
+Efficacy of nasal intermittent positive pressure ventilation in treating apnea of prematurity[J].
+Pediatr Pulmonol,
+1998,
+26(
+5):
+349-
+353.
+[4]
+RyanCA,FinerNN,PetersKL.
+Nasal intermittent positive-pressure ventilation offers no advantages over nasal continuous positive airway pressure in apnea of prematurity[J].
+Am J Dis Child,
+1989,
+143(
+10):
+1196-
+1198.
+[5]
+LemyreB,DavisPG,de PaoliAG.
+Nasal intermittent positive pressure ventilation (NIPPV) versus nasal continuous positive airway pressure (NCPAP) for apnea of prematurity[J].
+Cochrane Database Syst Rev,
+2002(
+1):
+CD002272.
+DOI: 10.1002/14651858.CD002272.
+[6]
+TangS,ZhaoJ,ShenJ, et al.
+Nasal intermittent positive pressure ventilation versus nasal continuous positive airway pressure in neonates: a systematic review and meta-analysis[J].
+Indian Pediatr,
+2013,
+50(
+4):
+371-
+376.
+[7]
+Sai SunilKishore,DuttaS,KumarP.
+Early nasal intermittent positive pressure ventilation versus continuous positive airway pressure for respiratory distress syndrome[J].
+Acta Paediatr,
+2009,
+98(
+9):
+1412-
+1415.
+DOI: 10.1111/j.1651-2227.2009.01348.x.
+[8]
+ShiY,TangS,ZhaoJ, et al.
+A prospective, randomized, controlled study of NIPPV versus nCPAP in preterm and term infants with respiratory distress syndrome[J].
+Pediatr Pulmonol,
+2014,
+49(
+7):
+673-
+678.
+DOI: 10.1002/ppul.22883.
+[9]
+RamanathanR,SekarKC,RasmussenM, et al.
+Nasal intermittent positive pressure ventilation after surfactant treatment for respiratory distress syndrome in preterm infants<30 weeks′ gestation: a randomized, controlled trial[J].
+J Perinatol,
+2012,
+32(
+5):
+336-
+343.
+DOI: 10.1038/jp.2012.1.
+[10]
+ArmanianAM,BadieeZ,HeidariG, et al.
+Initial treatment of respiratory distress syndrome with nasal intermittent mandatory ventilation versus nasal continuous positive airway pressure: a randomized controlled trial[J].
+Int J Prev Med,
+2014,
+5(
+12):
+1543-
+1551.
+[11]
+MenesesJ,BhandariV,AlvesJG, et al.
+Noninvasive ventilation for respiratory distress syndrome: a randomized controlled trial[J].
+Pediatrics,
+2011,
+127(
+2):
+300-
+307.
+DOI: 10.1542/peds.2010-0922.
+[12]
+SweetDG,CarnielliV,GreisenG, et al.
+European consensus guidelines on the management of respiratory distress syndrome-2016 update[J].
+Neonatology,
+2017,
+111(
+2):
+107-
+125.
+DOI: 10.1159/000448985.
+[13]
+DavisPG,LemyreB,de PaoliAG.
+Nasal intermittent positive pressure ventilation (NIPPV) versus nasal continuous positive airway pressure (NCPAP) for preterm neonates after extubation[J].
+Cochrane Database Syst Rev,
+2001(
+3):
+CD003212.
+DOI: 10.1002/14651858.CD003212.
+[14]
+LemyreB,DavisPG,De PaoliAG, et al.
+Nasal intermittent positive pressure ventilation (NIPPV) versus nasal continuous positive airway pressure (NCPAP) for preterm neonates after extubation[J].
+Cochrane Database Syst Rev,
+2014(
+9):
+CD003212.
+DOI: 10.1002/14651858.CD003212.pub2.
+[15]
+LemyreB,DavisPG,De PaoliAG, et al.
+Nasal intermittent positive pressure ventilation (NIPPV) versus nasal continuous positive airway pressure (NCPAP) for preterm neonates after extubation[J].
+Cochrane Database Syst Rev,
+2017,
+2:
+CD003212.
+DOI: 10.1002/14651858.CD003212.pub3.
+[16]
+BarringtonKJ,BullD,FinerNN.
+Randomized trial of nasal synchronized intermittent mandatory ventilation compared with continuous positive airway pressure after extubation of very low birth weight infants[J].
+Pediatrics,
+2001,
+107(
+4):
+638-
+641.
+[17]
+FriedlichP,LecartC,PosenR, et al.
+A randomized trial of nasopharyngeal-synchronized intermittent mandatory ventilation versus nasopharyngeal continuous positive airway pressure in very low birth weight infants after extubation[J].
+J Perinatol,
+1999,
+19(
+6
+Pt 1):
+413-
+418.
+[18]
+KhalafMN,BrodskyN,HurleyJ, et al.
+A prospective randomized, controlled trial comparing synchronized nasal intermittent positive pressure ventilation versus nasal continuous positive airway pressure as modes of extubation[J].
+Pediatrics,
+2001,
+108(
+1):
+13-
+17.
+[19]
+高薇薇, 谭三智, 陈运彬,等.
+鼻塞式同步间歇指令通气和持续气道正压通气在早产儿呼吸窘迫综合征中的应用比较[J].
+中国当代儿科杂志,
+2010,
+12(
+7):
+524-
+526.
+[20]
+KhoranaM,ParadeevisutH,SangtawesinV, et al.
+A randomized trial of non-synchronized Nasopharyngeal Intermittent Mandatory Ventilation (nsNIMV) vs. Nasal Continuous Positive Airway Pressure (NCPAP) in the prevention of extubation failure in pre-term<1,500 grams[J].
+J Med Assoc Thai,
+2008,
+91
+Suppl 3:
+S136-
+142.
+[21]
+MorettiC,GianniniL,FassiC, et al.
+Nasal flow-synchronized intermittent positive pressure ventilation to facilitate weaning in very low-birthweight infants: unmasked randomized controlled trial[J].
+Pediatr Int,
+2008,
+50(
+1):
+85-
+91.
+DOI: 10.1111/j.1442-200X.2007.02525.x.
+[22]
+O′BrienK,CampbellC,BrownL, et al.
+Infant flow biphasic nasal continuous positive airway pressure (BP-NCPAP) vs. infant flow NCPAP for the facilitation of extubation in infants′ ≤ 1,250 grams: a randomized controlled trial[J].
+BMC Pediatr,
+2012,
+12:
+43.
+DOI: 10.1186/1471-2431-12-43.
+[23]
+KirpalaniH,MillarD,LemyreB, et al.
+A trial comparing noninvasive ventilation strategies in preterm infants[J].
+N Engl J Med,
+2013,
+369(
+7):
+611-
+620.
+DOI: 10.1056/NEJMoa1214533.
+[24]
+KahramanerZ,ErdemirA,TurkogluE, et al.
+Unsynchronized nasal intermittent positive pressure versus nasal continuous positive airway pressure in preterm infants after extubation[J].
+J Matern Fetal Neonatal Med,
+2014,
+27(
+9):
+926-
+929.
+DOI: 10.3109/14767058.2013.846316.
+[25]
+JasaniB,NanavatiR,KabraN, et al.
+Comparison of non-synchronized nasal intermittent positive pressure ventilation versus nasal continuous positive airway pressure as post-extubation respiratory support in preterm infants with respiratory distress syndrome: a randomized controlled trial[J].
+J Matern Fetal Neonatal Med,
+2016,
+29(
+10):
+1546-
+1551.
+DOI: 10.3109/14767058.2015.1059809.
+[26]
+CummingsJJ,PolinRA, Committee on Fetus and Newborn, American Academy of Pediatrics.
+Noninvasive respiratory support[J/OL].
+Pediatrics,
+2016,
+137(
+1).[
+2018-12-01].
+http://pediatrics.aappublications.org/content/137/1/e20153758.long.
+DOI: 10.1542/peds.2015-3758.
+[27]
+OwenLS,ManleyBJ.
+Nasal intermittent positive pressure ventilation in preterm infants: equipment, evidence, and synchronization[J].
+Semin Fetal Neonatal Med,
+2016,
+21(
+3):
+146-
+153.
+DOI: 10.1016/j.siny.2016.01.003.
+贡献者信息
+中国医师协会新生儿科医师分会
+中华儿科杂志编辑委员会
+基金项目
+国家重点研发计划 （2018YFC0114405）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2019-04-02
+收稿日期：2018-12-24
+本文编辑
+李伟
+Standard/Protocol/Guideline
+Guideline for the clinical application of nasal intermittent positive pressure ventilation in premature infants (version 2019)
+Neonatologist Branch of Chinese Medical Doctor Association; the Editorial Board,  Chinese Journal of Pediatrics
+Published
+2019-04-02
+Cite as
+Chin J Pediatr, 2019,57(4): 248-251. DOI: 10.3760/cma.j.issn.0578-1310.2019.04.004
+Contributor Information
+Neonatologist Branch of Chinese Medical Doctor Association; the Editorial Board
+Chinese Journal of Pediatrics
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+GRADE证据质量及推荐意见强度
+级别
+强推荐
+弱推荐
+高质量
+大多数情况下，推荐意见适用于大多数患者；对估计值接近真实值非常有把握
+最佳决策会因环境、患者和社会价值而不同；对估计值接近真实值非常有把握
+中等质量
+大多数情况下，推荐意见适用于大多数患者；对估计值有中等把握：估计值有可能接近真实值，但也有可能差别很大
+在某些情况下，替代方案对某些患者有可能更好；对估计值有中等把握：估计值有可能接近真实值，但也有可能差别很大
+低质量
+当有更高质量证据时，推荐意见有可能改变；对估计值的把握有限：估计值可能与真实值有很大差别
+其他的替代方案同样合理；对估计值的把握有限：估计值可能与真实值有很大差别
+极低质量
+当有更高质量证据时，推荐意见有可能改变；对估计值几乎没有把握：估计值与真实值极可能有很大差别
+其他的替代措施同样合理；对估计值几乎没有把握：估计值与真实值极可能有很大差别
+注：GRADE为推荐、评估、发展和评价分级工作组
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华儿科杂志2019年57卷4期
+文    题：早产儿经鼻间歇正压通气临床应用指南（2019年版）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华儿科杂志2019年57卷4期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+Original text
+Contribute a better translation
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

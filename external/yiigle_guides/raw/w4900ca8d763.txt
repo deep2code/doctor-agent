@@ -1,0 +1,1150 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E8%84%93%E6%AF%92%E7%97%87%E6%B6%B2%E4%BD%93%E6%B2%BB%E7%96%97%E6%80%A5%E8%AF%8A%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 脓毒症液体治疗急诊专家共识 - 中华急诊医学杂志
+# 发布方/日期: 重症医学科，中华急诊医学杂志, 2018,27(1) : 30-38. DOI: 10.3760/cma.j.i；2018-01-10
+
+脓毒症液体治疗急诊专家共识
+中华医学会急诊医学分会
+中国医师协会急诊医师分会
+中国人民解放军急救医学专业委员会
+中国医疗保健国际交流促进会急诊急救专业委员会
+中华急诊医学杂志, 2018,27(1) : 30-38. DOI: 10.3760/cma.j.issn.1671-0282.2018.01.007
+1 概述
+脓毒症是急诊科最常见的危重情况之一。脓毒症被定义为"由感染引起的生理学、病理学以及生物化学异常的临床综合征"或"机体对感染反应失控而引起的致死性器官功能不全"。脓毒症休克则是由"脓毒症引发的循环、细胞或代谢异常，并由此造成病死率增加"的临床状态[1]。无论是脓毒症患者还是发展为脓毒症休克的患者，机体对感染的反应均使体内广泛血管扩张、毛细血管渗漏，进而造成有效循环血量不足、微循环功能障碍、电解质紊乱及酸中毒等内环境变化。因此，脓毒症是急诊科感染性疾病的重要致死因素，受到了急诊医学、重症医学、感染病学等学科专家的广泛关注。拯救脓毒症患者行动(Surviving Sepsis Campaign, SSC)2004年制定了《国际严重脓毒症和脓毒症休克治疗指南》，并在以后的每四年进行一次更新[2]，为脓毒症的临床诊治提供的依据。中华医学会重症医学分会也曾于2014年制定了《中国严重脓毒症/脓毒症休克治疗指南》[3]。同样，中国医师协会急诊分会在2014年也制定《急性循环衰竭中国急诊临床实践专家共识》[4]。中外专家制定的指南、共识对脓毒症与脓毒症休克的临床诊断与治疗起到了积极的指导作用。
+早期、及时的液体治疗或复苏和必要的血管活性药物使用是脓毒症和脓毒症休克积极治疗的基本措施。其中，液体治疗或复苏的目的是通过快速补充液体达到纠正血容量相对或绝对不足，保证正常的心输出量和器官血流灌注，保护脏器功能。目前，在脓毒症与脓毒症休克的液体治疗中，就液体种类、治疗或复苏时机的确定以及复苏目标等都还存在认识上的差异。基层医生对脓毒症患者的液体治疗或复苏的认知和重视程度也存在不足。为进一步指导急诊医师规范化、合理开展脓毒症以及脓毒症休克的液体治疗与复苏，中华医学会急诊医学分会、中国医师协会急诊医师分会、全军急救专业委员会和中国医疗保健国际交流促进会急诊急救专业委员会组织国内部分专家学者，通过查阅国内外重要文献，总结近年来脓毒症液体复苏领域的相关研究进展，并结合中国急诊医生的临床经验，遵照循证医学方法，提出脓毒症与脓毒症休克患者液体治疗急诊专家共识。
+2 脓毒症病理生理与液体治疗的基础
+脓毒症是感染引起的循环功能障碍或衰竭。当病原体感染人体后，机体即启动自身免疫机制，以达到清除病原体的目的。在清除病原体的同时，也常常造成自身毛细血管内皮的损伤、毛细血管的渗漏、凝血功能障碍以及局部炎症损伤。这些病理生理过程可以导致血管容积与血液容量的改变，进而导致组织灌注不足和器官功能障碍。
+2.1 内皮细胞损伤与微循环功能障碍
+内皮细胞位于血管壁内表面，具有抗凝、抗黏附的生理作用，并参与调控血管舒缩[5]。内皮细胞表面有一层糖蛋白复合物的多糖包被，能促进红细胞流动，防止白细胞和血小板黏附。
+血管内皮细胞多糖包被受损是脓毒症患者造成微循环障碍的重要因素之一，它可以使白细胞和血小板发生滚动、聚集和黏附[6]。炎症反应、氧化应激等引起的血管内皮损伤，减少了血管内皮绒毛致密度，使血管通透性增加。血管内皮损伤还可以引起胶原暴露，激活凝血瀑布反应，促进血栓形成，并可能由于凝血因子过度消耗而引起出血，导致弥散性血管内凝血(DIC)[7]。氧自由基、细胞因子、前列腺素类物质释放也可引起内皮细胞释放黏附分子ICAM-1等，进一步放大炎症反应[8]，同时降低了血管对缩血管药物的反应性，失去了调节微循环舒缩运动的能力，从而导致血管功能障碍[9]。在内皮损伤引起的一系列变化中，直接受损的就是体内的微循环，包括毛细血管渗漏、微血栓形成以及广泛的小血管扩张。
+微循环是循环系统最基本的功能单位，主要涉及血液、淋巴液和组织液的流动和交换，承担着组织细胞代谢、物质交互的重要职能，是脏器功能正常的根本保障。微循环功能障碍将导致组织灌注不足，组织缺氧，能量产生减少，乳酸堆积，代谢性酸中毒，进而引起细胞功能障碍，最终导致器官功能衰竭直至患者死亡[10]。
+2.2 血管容积与血液容量失衡及血液流变学异常
+正常人体血管容积与血液容量是在动态平衡下相匹配的，这种匹配是心输出量正常以及外周组织灌注正常的前提。血液的容量依靠摄入水分和排除尿液、汗液等来调整，而血管的容积主要由小动脉的紧张度来调节，通过液体的进出、血管的舒缩保持了血管内压力和液体输送量的稳定。脓毒症发生容积扩大的标志之一是系统血管阻力下降[9]。扩大的血管床必须有更多的液体填充才可能保证正常的心输出量和外周血液灌注。但与之相悖的是脓毒症血管内皮损伤引起的毛细血管渗漏使血管内容量降低。这势必增大血管容积与血液容量的不匹配。毛细血管渗漏主要渗出的是血浆成分，渗漏的结果是血管中的血液变得更加黏稠，外周循环流动不畅，容易导致微血栓形成。
+脓毒症，特别是在脓毒症休克时，血液流变学可以出现不同程度的异常，主要表现为血液高黏、高聚、高凝，红细胞变形性降低，白细胞黏附增多，这些都是微循环障碍的重要发病基础。毛细血管渗漏造成血液浓缩，血管容积扩大造成血液流动减慢、内皮细胞损伤造成凝血及血栓、细胞缺氧造成变形性下降等，形成微循环障碍与血液流变性异常的恶性循环[6,7,8,9,10]。
+[推荐意见]：需要关注的是"脓毒症是宿主对感染反应失控而导致脏器功能损伤，并危及生命的一个临床综合征。其主要机制是容量血管扩张、血管内皮损伤以及毛细血管渗漏造成的微循环功能障碍以及由此带来的组织低灌注和血液流变学改变。"
+3 脓毒症与电解质紊乱
+3.1 高钠血症
+高钠血症最常见的发病机制为口渴中枢损害、溶解性或渗透性利尿、经肾脏或肾外水分的过多丢失以及不适当摄入或输入过多含氯液体。脓毒症及脓毒症性休克本身并不造成高钠血症，但大量输入氯化钠溶液或碳酸氢钠溶液进行液体复苏是导致高钠血症的重要原因之一。根据国内外文献的报道，ICU患者高钠血症的发生率约为2%~9%，其中医源性高钠血症的发生率约为7%~8%[11,12,13,14]。由于重症患者病情复杂，以及高钠血症的治疗困难，对高钠血症的预防成为重症患者抢救的重点之一。国外文献报道，严重高钠血症(血钠大于150 mmo/L)病死率可高达30%~50%[11,13,14]。高钠血症本身并非心脏骤停的独立危险因素，大多出现在心肺复苏成功之后，与缺氧性脑病所致的各种类型尿崩症相关。急性高钠血症起病急骤，主要表现为淡漠、嗜睡、进行性肌肉张力增加、颤抖、运动失调、惊厥、癫痫发作，甚至昏迷而死亡。
+3.2 低钾血症
+脓毒症患者出现低钾血症多与治疗有关。脓毒症患者由于微循环功能障碍，酸中毒，常伴有高钾血症。但在治疗过程中过度使用碱性药物，大量补液过程中忽视了钾的输入，血糖调整等因素常常造成脓毒症患者血钾的相对或绝对降低。合并有昏迷、严重腹泻、呕吐、胃肠持续引流、大量持续使用利尿剂也是体内失钾最重要的原因之一。在脓毒症救治过程中引起低钾血症的其他因素还包括：镁缺失、碱中毒、过量使用胰岛素、β-肾上腺素能受体活性增强等。低钾血症不仅使脓毒症治疗过程变得复杂，也可能导致顽固的室性心律失常，甚至心脏停搏。
+3.3 低钙血症
+低钙血症在脓毒症患者中的发生率为20%~50%，在ICU住院患者中可高达88%[15,16,17]。危重症患者中低钙血症的发生和严重程度与疾病的严重程度及病死率相关[18,19]。脓毒症患者更容易发生低钙血症[20]的原因很多，主要包括：骨钙动员和肾小管内钙重吸收发生障碍；脓毒症时微血管通透性增加，钙离子的主要运载蛋白白蛋白丢失；大量细胞因子激活钙池耗竭依赖型钙通道，促使钙离子内流，同时内毒素降低浆膜钙离子转运蛋白活性，导致细胞内钙聚集。伴有低钙血症的脓毒症患者与正常血钙者相比，住院时间更长、病死率更高[21]。
+3.4 低镁血症
+低镁血症是临床上比较常见，但又常常被忽视的电解质紊乱，在ICU患者的发生率占65%以上[22,23,24]，且低镁血症患者的病死率显著高于血清镁正常患者[23,24,25]，低镁血症与脓毒血症和脓毒症休克发生显著相关[26]，同时脓毒血症也是发生低镁血症的独立危险因素[27]。有研究显示重症低血镁患者适当补充镁剂可以降低病死率[28]。急诊医师更多关注脓毒症等急危患者的器官功能和循环指标，往往忽视了对患者血镁水平的评估。
+3.5 高氯血症
+脓毒症患者不会直接导致患者血氯升高，但随着疾病的发展，脓毒症合并急性肾功能衰竭的发生率升高。患者对于电解质的调节能力减弱，大量输注高氯液体会进一步加重肾脏负担。使用不限氯液体，如生理盐水、林格液进行液体复苏有导致稀释性高氯性酸中毒的可能性[29,30]。
+脓毒症患者使用限氯液体与不限氯液体相比，限氯液体治疗组患者平均肌酐升高水平低于不限氯液体治疗组，其肾脏损伤或衰竭的发生率明显低于不限氯液体治疗组，其需进行肾脏替代治疗的患者数量也明显少于不限氯液体治疗组[31]。对美国电子病历（US electronic health record , EHR）中近11万例全身炎症反应综合征患者输入晶体液的相关资料研究发现，血清氯离子水平的升高与院内病死率增加相关[32]。
+[推荐意见]：在脓毒症的发展和治疗过程中，多种因素可以造成各种电解质紊乱，其中包括医源性的高钠血症和高氯血症，在治疗过程中应当加以关注。
+4 脓毒症早期识别与病情判断
+4.1 早期脓毒症识别
+对于急诊科医生而言，早期识别脓毒症和判断脓毒症休克是保证患者抢救成功的关键。只有尽早筛查、识别与诊断脓毒症，确定是否存在脓毒症休克，及时进行循环支持、药物治疗，才能改善脓毒症患者预后，降低病死率。
+对脓毒症的认识包括确认感染和评估病情。2016年新的脓毒症定义强调了感染对宿主的影响，因此确定感染的存在是诊断脓毒症的前提。虽然尚没有单独判断患者是否有感染的判断标准，但在各种感染性疾病的判断中，体温、白细胞和中性粒细胞、CRP及PCT的变化是确定感染常用的指标。虽然不是所有感染患者都有发热的表现，但仍然可以把体温变化看作是急性感染的重要指标之一。同时进行全血白细胞、CRP和PCT测定，在确定有感染存在或高度疑似感染存在的情况，才能够进一步确定脓毒症的可能性。
+在感染患者中，可以采用qSOFA结合NEWS评分对患者进行评估。被公认的脓毒症识别与诊断工具包括"序贯器官衰竭评分（SOFA）"、"APACHEⅡ评分"等[33]。这些评分方法多以ICU住院病例为基础，需要较多实验检查数据作支持。对于急诊科的感染患者，很多病情判断工具缺乏实用性和可行性。Sepsis 3.0提出适用于早期判断的"快速序贯器官衰竭评分（qSOFA）"（表1），可作为早期脓毒症的筛查工具，以鉴别出预后不良的疑似或确定感染患者[33]。qSOFA评分≥2则为疑似脓毒症。对于普通院内疑似感染人群而言，SOFA≥2者的整体病死率约10%。研究显示，SOFA≥2分的患者比SOFA<2分的患者的死亡风险增加2.0~2.5倍。但在急诊临床工作中，反映危重情况最敏感的指标不是呼吸、意识改变及血压变化，而是心率与脉搏的变化。由英国专家提出来的早期预警评分系统（EWS）、改良的早期预警系统（MEWS）和"英国国家早期预警评分NEWS[34]（表2）"，是急诊医学领域公认的、更为实用的快速评价急诊危重患者的工具。虽然这些评分系统不是针对脓毒症设定的，但从内容中可以看出，其涵盖了qSOFA中的全部三项内容。不难看出，NEWS评分更加符合急诊科患者的判断，其所有指标在医院急诊科都可以取得，而且在氧合指标的判断上，加入吸氧措施的修正，对病情的判断将更加准确，特别是有心肺功能改变的患者。因此，NEWS比qSOFA更能全面评估患者的情况。在改良早期预警评分系统对老年休克患者预后的预测价值的研究[35]中，明确了早期预警评分在急诊患者病情判断中的优势。在更早期，无法判断患者的尿量时，可以采用简化的EWS或qSOFA来进行评估。在诊疗过程中，可以采用NEWS评分进行进一步分类。NEWS在1~3分为一般急症，可以采用常规支持治疗；而NEWS在4~6分则需要急诊医生立即进行评估脓毒症的可能性，并考虑留观或液体支持治疗；NEWS≥7分则需要考虑脓毒症休克，应当立即安排进入抢救室，并开始包括液体复苏、血管活性药物及抗生素的全方位救治。
+点击查看表格
+表1
+快速序贯器官衰竭评分（qSOFA）
+表1
+快速序贯器官衰竭评分（qSOFA）
+评分
+1
+0
+意识形态改变
+是
+否
+收缩压≤100 mmHg(1 mmHg=0.133 kPa)
+是
+否
+呼吸频率≥ 22次/min
+是
+否
+点击查看表格
+表2
+英国国家早期预警评分（NEWS）
+表2
+英国国家早期预警评分（NEWS）
+评分
+3
+2
+1
+0
+1
+2
+3
+呼吸频率(次/min)
+<8
+-
+9~11
+12~20
+-
+21~24
+≥25
+SPO2（%）
+≤91
+92~93
+94~95
+≥96
+-
+-
+-
+吸氧
+-
+是
+-
+否
+-
+-
+-
+心率（次/min）
+≤40
+-
+41~50
+51~90
+91~110
+111~130
+≥131
+收缩压（mmHg）
+≤90
+91~100
+101~110
+111~219
+-
+-
+≥220
+体温(℃)
+≤35.0
+-
+35.1~36.0
+36.1~38.0
+38.1~39.0
+≥ 39.1
+-
+意识
+-
+-
+-
+A
+-
+-
+V.P.U
+注：Ａ为意识清醒；Ｖ为对声音有反应；Ｐ为对疼痛有反应；Ｕ为无反应
+4.2 持续病情评估
+4.2.1 临床评估
+持续评估是急诊患者救治的重要环节之一，对于NEWS评分在4~6分的患者，需要每1 h进行重新评估；而对于大于7分的患者，每0.5 h需要评估一次，以确定病情的发展。
+4.2.2 血清乳酸水平
+与患者的病情严重程度和预后密切相关，是组织低灌注的标志之一[36,37,38]。脓毒症诱发持续低血压但无高乳酸血症的患者病死率并不高[39]。血清乳酸是独立于临床体征和器官功能障碍之外的脓毒症预后因素[40,41]。血清乳酸降低标志着全身组织缺氧情况的改善和液体复苏的有效性，是较准确的预后指标之一[42]，与病死率降低相关[43]。由于患者不同的机体基础状态，单纯监测某一时刻的血清乳酸水平不能准确反映组织氧供、氧耗的动态变化，因此动态监测血清乳酸水平，测量乳酸清除率可加强评估机体组织细胞的灌注和氧代谢情况。因此有条件的科室在液体复苏过程中，推荐在最初8 h中，每2 h进行乳酸监测，并以乳酸水平和乳酸清除率作为判断预后的指标。病情平稳后，每4~6 h监测乳酸，乳酸正常后，可8~12 h监测，直至脓毒症被控制。
+[推荐意见]：（1）首先应当确定患者是否有感染存在。对于急诊感染患者，可采用qSOFA评分结合NEWS或进行病情判断，NEWS同时作为病情转变的客观指标进行观察。（2）乳酸可以作为脓毒症及脓毒症休克的独立预后判断因素，应当根据病情动态监测。
+4.3 脓毒症液体治疗
+临床液体静脉输入治疗的应用可追溯至1831年。Thomas Latta使用输液的方式治疗霍乱患者的严重脱水[44]，开创了经血管注入液体进行快速液体补充和静脉给药等治疗的先河。
+脓毒症患者存在明确的血管扩张以及毛细血管渗漏，造成血容量和血管容积的失衡。对尚未出现休克的脓毒症患者进行早期补液治疗以及对脓毒症休克患者快速液体复苏可提高脓毒症及脓毒症休克患者的存活率[36,45]。
+[推荐意见]：脓毒症和脓毒症休克是临床急重症，一旦确定，应当立即加以关注，并根据病情开始液体治疗和复苏。
+4.4 液体治疗时机
+与所有感染性疾病一样，脓毒症的治疗时机越早越好。早期目标导向治疗（early goal-directed therapy, EGDT）就是针对脓毒症治疗的一个指导性方案。但EGDT在短短的10余年中从"Bible"到"Trouble"，成为一个有争议的话题。EGDT于2001年由美国学者Rivers等[36]研究提出，并于2004年被写入指南。早期目标导向的液体治疗虽然没有明确提出开始液体治疗或液体复苏的时间，但认为一旦诊断脓毒症就应当着手进行液体治疗准备，并且在6 h以内达到治疗目标。然而，2014年发表在新英格兰医学杂志上的ProCESS研究以及ARESE研究却得出了阴性结果，认为EGDT无论是在60 d院内病死率，还是在患者远期病死率及器官支持需要等次要终点均没有优势[42,43]。这种优势的丧失是源于患者的选择、时机的掌握还是目标的制定尚有待探讨研究。但是，无论从感染控制理论还是脏器功能保护的病理生理学，都不能否认早期治疗给患者带来的益处。而在ICU，EGDT得出不同结果的原因可能并非EGDT的观念本身，而是没有真正意义上的"早期"以及缺乏有意义的"目标"。对于急诊科而言，患者能够接受治疗的时间远远早于ICU。因此，专家认为早期积极地治疗对急诊科脓毒症以及脓毒症休克患者仍然是重要的治疗策略之一[44]。
+[推荐意见]：脓毒症和脓毒症休克一经诊断，就应当积极开展液体治疗或液体复苏。
+4.5 液体选择
+临床用于静脉输入的液体主要有三类：晶体、胶体和血液制品。
+4.5.1 晶体液
+晶体液指溶质分子或离子的直径<1 nm的溶液，是最稀薄的溶液，其特点之一是光束透过时不产生反射现象。由于晶体液中没有大分子物质存在，输注血管后，大部分渗透分布于组织间隙，只有1/5~1/3左右的液体可以保留在血管内。因此，晶体液主要用于补充功能性的细胞外液缺失。从这个角度来说，理想的晶体液应该具有同细胞外液相似的特性，包括：相似的渗透压、相似的离子成分、相似的酸碱平衡缓冲系统、相似的pH值等[40]。从生理盐水到新一代醋酸林格液——钠钾镁钙葡萄糖注射液，经历了近200年的发展历程，这也是晶体液越来越接近细胞外液的历程。各种晶体液与细胞外液成分见表3。
+点击查看表格
+表3
+各种晶体液与细胞外液成分对比（mmol/L）
+表3
+各种晶体液与细胞外液成分对比（mmol/L）
+液体类型
+Na+
+K+
+Cl–
+Ca2+
+Mg2+
+HCO3-/-
+葡萄糖（g/L）
+pH
+渗透浓度
+(mOsm/L)
+细胞外液
+142
+5
+117
+3
+1
+23~27
+7.40
+310
+0.9%氯化钠注射液
+154
+—
+154
+—
+—
+—
+—
+310
+林格液
+147
+4
+155.5
+4.5
+—
+—
+—
+311
+乳酸钠林格液
+130
+4
+109
+3
+—
+28/Lactate-
+—
+273
+醋酸钠林格液（plasmalyte A）
+142
+5
+98
+—
+2
+27/Acetate-
+—
+308
+醋酸钠林格液
+140
+4
+115
+1.5
+1
+25/Acetate-
+10
+304
+（钠钾镁钙葡萄糖注射液）
+（1）生理盐水（natural saline, NS）。生理盐水是0.9%的氯化钠溶液，其渗透压同人体相似。生理盐水是临床最常用的晶体液，制备简单，易于储存、保管，液体中没有其他粒子成分，因此不易与其他药物产生配伍禁忌，也不引起高血糖、酸碱紊乱等不良反应。但生理盐水仅考虑了渗透压这一单因素，临床大量使用仍可能产生很多弊端，包括高钠血症和高氯血症，并可以引起低钾、低钙和低镁等并发症、酸碱失衡等。故生理盐水可以作为Na+的补充液或药物输入的载体，也可作为少量快速复苏的液体，但需要大量液体复苏时，则需要根据患者的具体情况谨慎使用。
+（2）复方氯化钠溶液（Ringer's solution,林格液）。林格液是在生理盐水的基础上进行的改良,根据人体电解质特点调整了钠离子浓度，与人体更为接近；添加了K+和Ca2+离子。这种调整，使得在液体复苏中减少了出现离子紊乱的可能性，特别是低钾和低钙血症。因此在很长一段历史时期，成为液体复苏的最常用液体。但是，在林格液中，Cl-依然是唯一的阴离子，其浓度明显高于细胞外液Cl-浓度，大量输注依然有高氯血症的危险。此外，林格液中没有意识到Mg2+对于生理功能的重要影响，而且缺乏对酸碱平衡具有重要调节作用的缓冲碱。
+（3）乳酸林格液（lactated Ringer's solution, LRS）。考虑到大量氯离子造成的不良反应，乳酸林格液在林格液的基础上添加了乳酸盐，降低了氯离子的含量。乳酸为人体内天然存在的物质，乳酸根离子还可代谢为碳酸氢盐，增强体内对酸中毒的缓冲作用。此外，重新调节了钠离子和氯离子的水平，使其与细胞外液的生理水平更为接近。乳酸林格液虽然在离子浓度及缓冲作用上更加接近细胞外液，但在脓毒症的救治过程中使用应当注意以下问题。首先，在脓毒症患者的治疗中，血乳酸含量及乳酸清除率是指导液体治疗和复苏以及判断患者预后的重要指标，外源性乳酸可以对上述指标的参考价值产生干扰；其次，乳酸的代谢有赖正常的肝脏与肾脏功能，脓毒症及脓毒性休克的患者常伴有器官功能衰竭，不宜额外加重肝肾负荷[49,50,51]；最后，相对于血浆渗透浓度为295 mOsm/L，乳酸林格液的血浆渗透浓度为273 mOsm/L，为低渗液。而乳酸盐不能完全离子化时，其渗透浓度仅为255 mOsm/L，大量输注时易加重组织水肿[52]，增加氧弥散距离，加重组织灌注不良。
+（4）醋酸林格液（acetate Ringer's solution, ARS）。1979年研发的醋酸林格液采用醋酸盐替代乳酸盐，旨在纠正乳酸盐在应用中的缺陷。其主要优势在于：①除肝脏代谢途径外，醋酸根可以在肾脏、心脏和肌肉细胞内直接转化为乙酰辅酶A、进入三羧酸循环，产生二氧化碳和水[53]，对肝脏的依赖性较小，因此对肝脏功能的压力也较小。②相对于乳酸根离子，醋酸根代谢更为快速，可减少蓄积，缓解酸碱平衡更快。此外，在电解质水平上醋酸林格液更为接近细胞外液，渗透压及pH值均在生理范围以内。③相对于乳酸林格液，醋酸林格液添加了适量镁离子，有助于血镁的平衡[54,55]。因此，在危重症患者的快速液体治疗中，醋酸林格液较其他晶体液具有比较明显的优势。但在早期研发的醋酸林格液中缺少钙离子，其氯离子的含量过低，在临床使用中可能引起低钙血症和低氯性碱中毒。在国内，最新一代醋酸林格液-钠钾镁钙葡萄糖注射液（商品名"乐加"）进一步完善电解质配比，钠、钾、镁、钙、氯等离子含量与细胞外液基本一致，并增加了1%的葡萄糖，能起到稳定血糖，减少胰岛素抵抗的作用[56,57]。相对于其他晶体液，最新的醋酸林格液在脓毒症休克复苏应用中的安全性及有效性更加良好[58]。
+4.5.2 胶体液
+胶体液是溶质分子直径>1 nm的溶液，其输入后大部分液体保留在血管内，不易渗透到组织间隙，因此对于维持有效血容量可以起到较为持久的作用，常作为战伤现场救护的储备液体。胶体液分为天然胶体液和人工胶体液。天然胶体液通常指白蛋白，而人工胶体液包括明胶制品、右旋糖酐和羟乙基淀粉。
+（1）天然胶体。天然胶体主要为白蛋白。Finfer等[59]进行了第１项评价晶胶体复苏效果的随机研究，证实了白蛋白在脓毒症患者复苏中的安全性。根据这些数据，脓毒症指南曾做出一项低级别推荐，即在脓毒症和脓毒性休克患者中可以选择白蛋白进行液体支持治疗。20世纪90年代初，白蛋白在液体复苏中曾被提到了重要的地位，特别是在脓毒症患者的抢救中。一篇纳入17项相关研究的Meta分析显示，白蛋白可能降低脓毒症患者28 d病死率[60]。但同时有大量研究显示，初始液体复苏选用胶体液对脓毒症患者28~30 d病死率的改善并不优于晶体液[59,61,62,63,64,65,66]。这是因为从病理生理学上来看，脓毒症患者血管内皮细胞受损，胶体液也会渗漏至血管外，从而引起更严重的不良反应。因此，除非患者有明确的低蛋白血症，否则白蛋白不作为常规液体治疗或液体复苏的药物。
+（2）人工胶体。人工胶体使用最普遍的是羟乙基淀粉。羟乙基淀粉类药物应用于临床已有数十年的历史，其扩容效力强，在血管内维持时间长，能够在较短的时间稳定患者血流动力学，是液体复苏治疗的必备药物。但也有反对将羟乙基淀粉类胶体应用于脓毒症休克治疗的研究，主要是它可能增加患者肾脏功能不全，以及肾脏替代治疗的比例，从而增加患者病死率。因此，2012年拯救脓毒症运动指南反对将羟乙基淀粉类胶体应用于脓毒症休克的治疗，主要是基于Perner等[65]和Myburgh等[67]的研究结论得出。当然，也有相当一部分研究持相反结论。因此，实际应用关键在于患者的选择、羟乙基淀粉的种类和使用时机的选择。
+此外，右旋糖酐、明胶制剂在临床也有使用。右旋糖酐的过敏反应和对凝血的影响限制了其在临床的应用。还有学者认为胶体液导致肾小球率过滤降低，对凝血功能也有干扰。
+（3）血液制品。血液制品因其扩容效果不理想、输入后血浆黏滞度增加、并发症危险性大、有病原体传播可能性、资源短缺和价格昂贵等因素不建议作为常规液体复苏使用，只在需要补充血液成分及凝血因子时使用，此共识中不予细述。
+[推荐意见]：（1）晶体液和胶体液在脓毒症和脓毒性休克液体复苏的使用存在争议，但更多的专家认为晶体液应当作为初始液体治疗首选；在维持治疗且排除临床禁忌的情况下可以选择人工胶体液；对于明确低蛋白血症的患者可以选择白蛋白。（2）在晶体液使用中，应当尽可能选择与细胞外液成分相近的液体。
+4.6 液体治疗标准
+脓毒症及脓毒性休克的液体治疗目标是尽快恢复失衡的血管容积与血液容量关系，进而恢复组织灌注，保证器官功能；并在此过程中最大程度地避免治疗过程产生的不良反应。液体治疗的具体目标包括：
+(1)尽快恢复血管容积和容量的平衡：平均动脉压≥65 mmHg；尿量>0.5 mL/（h·kg）；血乳酸<2.0 mmol/L。
+(2)保证电解质平衡和内环境稳定。
+(3) NEWS<4或qSOFA<2。
+4.7 液体治疗中的注意事项
+（1）随时评估。对脓毒症所致的低灌注进行液体治疗应尽快开始，防止发展为脓毒性休克。在有休克可能的患者，起始3 h内可以按照30 mL/kg进行液体复苏，同时密切监测心率、血压、尿量、血乳酸等，随时进行补液速度的调整。在完成初始液体复苏后,需要反复评估血流动力学状态以指导进一步的液体使用。
+（2）避免补液过量。有研究表明，脓毒症液体复苏中，第1天有21%的患者出现组织水肿，3 d内出现液体负荷过高的患者高达48%。如果患者出现组织水肿的情况，应当降低补液速度，或增加胶体液甚至白蛋白制剂。如果补液中患者出现病情恶化的迹象，应当立即进行再评估，可采用侵入性血流动力学监测或超声(例如评价心功能)以判断休克的类型。建议尽可能使用动态指标而非静态指标来预测液体的反应性。
+（3）其他治疗。液体治疗只是脓毒症和脓毒症休克的一个重要环节，在液体复苏的同时，可以根据病情选择使用血管活性药物（不在此共识中做详细讨论）。
+（4）尽早针对原发病采取处理措施。处理措施包括如使用抗生素进行治疗等。
+[推荐意见]：通过密切监测避免误治，包括休克类型错误及输液过量；可以使用血管活性药物提升血压,推荐初始的目标平均动脉压为65 mmHg；尽早对感染等原发病采取处理措施。
+点击查看大图
+图1
+脓毒症患者液体复苏流程
+图1
+脓毒症患者液体复苏流程
+综上，本共识专家组一致认为并提出如下建议：
+（1）脓毒症及脓毒症休克患者应当尽早诊断，诊断的方法包括确定感染的存在，以及病情的评估。
+（2）通过发热、白细胞、PCT、CRP等指标帮助确定患者感染的可能性。
+（3）病情评估推荐采用qSOFA或NEWS评分，并根据不同的病情轻重定期进行再评估。NEWS在4~6分时，应当进行留观和支持治疗；而NEWS≥7分，则需要密切监护；NEWS≥9分，进抢救室进行全方位抢救支持。
+（4）当诊断脓毒症或脓毒症休克后，应当尽快开始液体复苏，复苏的指标是使NEWS<4分或qSOFA<2分，并保证平均动脉压≥65 mmHg，尿量>0.5 mL/（h·kg），血乳酸<2.0 mmol/L。
+（5）晶体液作为液体复苏的首选制剂，在可能获得的晶体液中尽可能选择与细胞外液成分、渗透压等指标相近的晶体液，避免治疗后的不良反应发生。
+（6）最新醋酸林格液在离子成分、对治疗的干扰、维持内坏境等方面综合考虑，更适合于快速液体复苏。
+（7）胶体液不建议作为早期复苏首选，大量输入晶体液后，为了维持血浆渗透压及防止组织水肿，应当适度考虑胶体液的使用；低蛋白血症患者可以考虑适当使用白蛋白。
+此建议由中华医学会急诊医学分会、中国医师协会急诊医师分会、全军急救医学专业委员会和中国医疗保健国际交流促进会急诊急救分会组织部分专家提出，其在临床应用还有待进一步观察，效果也需要更多的临床研究验证。
+共识组成员（按姓名汉语拼音排序）：
+曹钰、柴艳芬、陈玉国、方邦江、郭树彬、李小刚、李小民、刘志、吕传柱、马岳峰、潘曙明、彭鹏、孙树印、田英平、王仲、魏捷、许铁、于学忠、张国强、张劲松、张茂、张新超、赵晓东、朱华栋、朱继红
+参考文献
+[1]
+SingerM,DeutschmanCS,SeymourCW, et al.
+The third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)[J].
+JAMA,
+2016,
+315(
+8):
+801-
+810.
+DOI:10.1001/jama.2016.0287.
+[2]
+AndrewR,LauraEE,WaleedA, et al.
+Surviving sepsis campaign: international guidelines for management of sepsis and septic shock: 2016[J].
+Crit Care Med,
+2017,
+45(
+3):
+1-
+67.
+DOI:10.1097/CCM.0000000000002255.
+[3]
+中华医学会重症医学分会.
+中国严重脓毒症/脓毒症休克治疗指南(2014)[J].
+中华内科杂志,
+2015,
+54(
+6):
+557-
+581.
+DOI：10.3760/cma.j.issn.0578-1426.2015.06.021.
+[4]
+中国医师协会急诊分会.
+急性循环衰竭中国急诊临床实践专家共识(2014)[J].
+中华急诊医学杂志,
+2016,
+25(
+2):
+146-
+152.
+DOI:10.3760/cma.j.issn.1671-0282.2016.02.004.
+[5]
+SchmidtVJ,WölfleSE,BoettcherM, et al.
+Gap junctions synchronize vascular tone within the microcirculation[J].
+Pharmacol Rep,
+2008,
+60 (
+1):
+68-
+74.
+[6]
+ColettaC,SzaboC.
+Potential role of hydrogen sulfide in the pathogenesis of vascular dysfunction in septic shock[J].
+Curr Vasc Pharmacol,
+2013,
+11(
+2):
+208-
+221.
+DOI:10.2174/157016113805290191.
+[7]
+Boisramé-HelmsJ,KremerH,Schini-KerthV, et al.
+Endothelial dysfunction in sepsis[J].
+Curr Vasc Pharmacol,
+2013,
+11(
+2):
+150-
+160.
+DOI:10.2174/1570161111311020005.
+[8]
+PaizeF,SarginsonR,MakwanaN, et al.
+Changes in the sublingual mi- crocirculation and endothelial adhesion molecules during the course of severe meningococcal disease treated in the paediatric intensive care unit[J].
+Intensive Care Med,
+2012,
+38(
+5):
+863-
+871.
+DOI:10.1007/s00134-012-2476-5.
+[9]
+LiaudetL,Rosenblatt-VelinN,PacherP.
+Role of peroxynitrite in the cardiovascular dysfunction of septic shock[J].
+Curr Vasc Pharmacol,
+2013,
+11(
+2):
+196-
+207.
+DOI:10.2174/157016113805290281.
+[10]
+InceC.
+The microcirculation is the motor of sepsis[J].
+Crit Care,
+2005,
+9 (
+Suppl 4):
+S13-
+19.
+DOI:10.1186/cc3753.
+[11]
+PoldermanKH,SchreuderWO,Strack van SchijndelRJ, et al.
+Hypernatremia in the intensive care unit: an indicator of quality of care? [J].
+Crit Care Med,
+1999,
+27(
+6):
+1105-
+1108.
+[12]
+FunkGC,LindnerG,DrumlW, et al.
+Incidence and prognosis of dysnatremias present on ICU admission[J].
+Intensive Care Med,
+2010,
+36(
+2):
+304-
+311.
+[13]
+LindnerG,FunkGC,SchwarzC, et al.
+Hypernatremia in the critically ill is an independent risk factor for mortality[J].
+Am J Kidney Dis,
+2007,
+50(
+6):
+952-
+957.
+[14]
+]O' DonoghueSD，DulhuntyJM，BandesheHK，et al．
+Acquired hypernatraemia is an independent predictor of mortality in critically ill patients[J].
+Anaesthesia,
+2009,
+64(
+5):
+514-
+520．
+DOI: 10.1111/j.1365-2044.2008.05857.x.
+[15]
+ZivinJR,GooleyT,ZagerRA, et al.
+Hypocalcemia: a pervasive metabolic abnormality in the critically ill[J].
+Am J Kidney Dis,
+2001,
+37(
+4):
+689-
+698.
+DOI:10.1016/s0272-6386(01)80116-5.
+[16]
+HolowaychukMK,MartinLG.
+Review of hypocalemia in septic patients[J].
+J Vet Emerg Crit Care,
+2007,
+17(
+4):
+348-
+358.
+DOI:10.1016/s0272-6386(01)80116-5.
+[17]
+徐巧莲,万献尧.
+ICU患者低钙血症发生率调查与危险因素分析[J].
+医学与哲学,
+2012,
+33(
+3B):
+30-
+32.
+[18]
+ZivinJR,GooleyT,ZagerRA, et al.
+Hypocalcemia: A pervasive metabolic abnormality in the critically ill [J].
+Am J Kidney Dis,
+2001,
+37(
+4):
+689-
+698.
+DOI:10.1016/s0272-6386(01)80116-5.
+[19]
+HastbackaJ,PettilaV.
+Prevalence and predictive value of ionized hypocalcemia among critically ill patients [J].
+Acta Anaesthesiol Scand，
+2003,
+47(
+10):
+1264-
+1269.
+DOI:10.1016/s0272-6386(01)80116-5.
+[20]
+HolowaychukMK,MartinLG.
+Review of hypocalcemia in septic patients[J].
+J Vet Emerg Crit Care,
+2007,
+17(
+4):
+348-
+358.
+DOI:10.1111/j.1476-4431.2007.00246.x.
+[21]
+VivienB,LangeronO,MorellE, et al.
+Early hypocalcemia in severe trauma[J].
+Crit Care Med,
+2005,
+33（
+9）:
+1946-
+1952.
+DOI:10.1111/j.1476-4431.2007.00246.x.
+[22]
+DeheinzelinD,NegriEM,TuciMR, et al.
+Hypomagnesemia in criticaly ill cancer patients: a prospective study of predictive factors[J].
+Braz J Med Biol Res,
+2000,
+33(
+12):
+1443-
+1448.
+DOI:10.1590/s0100-879x2000001200007.
+[23]
+ZafarMS,WaniJI,KarimR, et al.
+Significance of serum magnesium levels in criticaly ill-patients[J].
+Int J Appl Basic Med Res,
+2014,
+4(
+1):
+34-
+37.
+DOI:10.4103/2229-516X.125690.
+[24]
+陈敏华,孙仁华,呼邦传.
+重症患者血清镁水平对预后的影响[J].
+中华危重病急救医学,
+2015,
+29(
+3):
+213-
+217.
+DOI:10.3760/cma.j.issn.2095-4352.2015.03.011.
+[25]
+RubeizGJ,Thil-BaharozianM,HardieD,et al.
+Association of hypomagnesemia and mortality in acutely ill medical patients[J].
+Crit Care Med,
+1993,
+21(
+2):
+203-
+209.
+DOI:10.1097/00003246-199302000-00010.
+[26]
+LimayeCS,LondheyVA,NadkartMY, et al.
+Hypomagnesemia in criticaly ill medical patients[J].
+J Asoc Physicians India,
+2011,
+59(
+1):
+19-
+22.
+[27]
+SolimanHM,MercanD,LoboSS, et al.
+Development of ionized hypomagnesemia is associated with higher mortality rates[J].
+Crit Care Med,
+2003,
+31(
+4):
+1082-
+1087.
+DOI:10.1097/01.CCM.0000060867.17556.A0.
+[28]
+SalemM,KasinskiN,MunozR, et al.
+Progressive magnesium deficiency increases mortality from endotoxin challenge: protective effects of acute magnesium replacement therapy[J].
+Crit Care Med,
+1995,
+23(
+1):
+108-
+118.
+DOI:10.1097/00003246-199501000-00019.
+[29]
+RochwergB,WłudarczykA,SzczeklikW, et al.
+Fluid resuscitation in severe sepsis and septic shock: systematic description of fluids used in randomized trials for researchers and clinicians[J].
+Pol Arch Med Wewn,
+2011,
+123(
+11):
+603-
+608.
+DOI:10.20452/pamw.1972.
+[30]
+GuidetB,SoniN,Della RoccaG, et al.
+A balanced view of balanced solutions[J].
+Crit Care,
+2010,
+14(
+5):
+325.
+DOI:10.1186/cc9230.
+[31]
+YunosNM,BellomoR,HegartyC, et al.
+Association between a chloride-liberal vs chloride-restrictive intravenous fluid administration strategy and kidney injury in critically ill adults[J].
+JAMA,
+2012,
+308(
+15):
+1566-
+1572.
+DOI:10.1186/cc9230.
+[32]
+ShawAD,RaghunathanK,PeyerlFW, et al.
+Association between intravenous chloride load during resuscitation and in hospital mortality among patients with SIRS[J].
+Intensive Care Med,
+2014,
+40(
+12):
+1897-
+1905.
+DOI:10.1007/s00134-014-3505-3.
+[33]
+SeymourCW,LiuVX,IwashynaTJ, et al.
+Assessment of clinical criteria for sepsis: for the third international consensus definitions for sepsis and septic shock (Sepsis-3)[ J].
+JAMA,
+2016,
+315(
+8):
+762-
+774.
+DOI:10.1001/jama.2016.0288.
+[34]
+PhysiciansRCO.
+National Early Warming Score (NEWS): Standardising the assessment of acute-illness severity in the NHS[M].
+Regent's Park:
+Royal College of Physicians,
+2012:
+46.
+[35]
+梁镰静,秦溱,胡海,等.
+改良早期预警评分系统对老年休克患者预后的预测价值[J].
+临床急诊杂志，
+2017,
+18(
+3):
+208-
+216.
+[36]
+RiversE,NguyenB,HavstadS, et al.
+Early goal-directed therapy in the treatment of severe sepsis and septic shock[J].
+N Engl J Med,
+2001,
+345(
+19):
+1368-
+1377.
+DOI:10.1001/jama.2016.0288.
+[37]
+JansenTC,van BommelJ,BakkerJ.
+Blood lactate monitoring in critically ill patients: a systematic health technology assessment[J].
+Crit Care Med,
+2009,
+37(
+10):
+2827-
+2839.
+DOI:10.1097/CCM.0b013e3181a98899.
+[38]
+BakkerJ,NijstenMW,JansenTC.
+Clinical use of lactate monitoring in critically ill patients[J].
+Ann Intensive Care,
+2013,
+3(
+1):
+12.
+DOI:10.1186/2110-5820-3-12.
+[39]
+HernandezG,CastroR,RomeroC, et al.
+Persistent sepsis induced hypotension without hyperlactatemia: is it really septic shock?[J].
+J Crit Care,
+2011,
+26(
+4):
+435.435-
+439.
+DOI:10.1016/j.jcrc.2010.09.007.
+[40]
+WacharasintP,NakadaTA,BoydJH, et al.
+Normal-range blood lactate concentration in septic shock is prognostic and predictive[J].
+Shock,
+2012,
+38(
+1):
+4-
+10.
+DOI:10.1097/SHK.0b013e318254d41a.
+[41]
+MikkelsenME,MiltiadesAN,GaieskiDF, et al.
+Serum lactate is associated with mortality in severe sepsis independent of organ failure and shock[J].
+Crit Care Med,
+2009,
+37(
+5):
+1670-
+1677.
+DOI:10.1097/CCM.0b013e31819fcf68.
+[42]
+NguyenHB,RiversEP,KnoblichBP, et al.
+Early lactate clearance is associated with improved outcome in severe sepsis and septic shock[J].
+Crit Care Med,
+2004,
+32(
+8):
+1637-
+1642.
+DOI:10.1097/01.ccm.0000132904.35713.a7.
+[43]
+MarecauxG,PinskyMR,DupontE, et al.
+Blood lactate levels are better prognostic indicators than TNF and IL-6 levels in patients with septic shock[J].
+Intensive Care Med,
+1996,
+22(
+5):
+404-
+408.
+DOI:10.1016/0300-9572(96)89060-5.
+[44]
+KarthikR,PatrickN,RyanK.
+What is the ideal crystalloid?[J].
+Curr Opin Crit Care,
+2015,
+21(
+4):
+309-
+314.
+DOI:10.1097/MCC.0000000000000218.
+[45]
+浙江省早期规范化液体复苏治疗协作组.
+危重病严重脓毒症/脓毒性休克患者早期规范化液体复苏治疗——多中心、前瞻性、随机、对照研究[J].
+中国危重病急救医学,
+2010,
+22(
+6):
+331-
+334.
+DOI：10.3760/cma.j.issn.1003-0603.2010.06.005.
+[46]
+PeakeSL,DelaneyA,BaileyM, et al.
+Goal-directed resuscitation for patients with early septic shock[J].
+N Engl J Med,
+2014,
+371(
+16):
+1496-
+1506.
+DOI:10.1056/NEJMoa1404380.
+[47]
+YealyDM,KellumJA,HuangDT, et al.
+A randomized trial of protocol-based care for early septic shock[J].
+N Engl J Med,
+2014,
+370(
+18):
+1683-
+1693.
+[48]
+CecconiM,De BackerD,AntonelliM, et al.
+Consensus on circulatory shock and hemodynamic monitoring. Task force of the European Society of Intensive Care Medicine[J].
+Intensive Care Med,
+2014,
+40(
+12):
+1795-
+1815.
+DOI:10.1007/s00134-014-3525-z.
+[49]
+HartmannAF,SennMJE.
+Studies in the metabolism od sodium r-lactate. I. Response of normal human subjects to the intravenous injection of sodium r-lactate[J].
+J Clin Invest,
+1932,
+11:
+327-
+335.
+[50]
+ParkR,ArieffAI.
+Lactic acidosis[J].
+Adv Intern Med,
+1980,
+25:
+33-
+68.
+[51]
+HoltzmanS,BaldermanSC.
+Comparison of lactate and pyruvate during endotoxic shock[J].
+Surg Gynecol Obstet,
+1977,
+145:
+677-
+681.
+[52]
+ButscherK,JamaliS,TalibR, et al.
+Effects of different loading solutions on plasma osmolality[J].
+Ann Fr Anesth Reanim,
+1996,
+15(
+7):
+1037-
+1040.
+DOI:10.1007/s00134-014-3525-z.
+[53]
+LundquistF.
+Production and utilization of free acetate in man[J].
+Nature,
+1962,
+193:
+579-
+580.
+[54]
+YokoyamaT,SuwaK,YamasakiF, et al.
+Intraoperative infusion of acetated Ringer solution containing glucose and ionized magnesium reduces ketogenesis and maintains serum magnesium[J].
+Asia Pac J Clin Nutr,
+2008,
+17(
+3):
+525-
+529.
+[55]
+邓小明,左云霞,古妙宁,等.
+钠钾镁钙葡萄糖注射液（乐加）用于手术输液治疗的临床评估——前瞻性、随机、单盲、阳性药物对照、多中心临床试验[J].
+国际麻醉学与复苏杂志,
+2010,
+31(
+6):
+485-
+491.
+DOI：10.3760/cma.j.issn.1673-4378.2010.12.002.
+[56]
+YamasakiK,InagakiY,MochidaS, et al.
+Effect of intraoperative acetated Ringer's solution with 1% glucose on glucose and protein metabolism[J].
+J Anesth，
+2010，
+24（
+3）：
+426-
+431.
+DOI：10.1007/s00540-010-0926-1.
+[57]
+MikuraM,YamaokaI,KawanoY, et al.
+Glucose infusion suppresses surgery-induced muscle protein breakdown by inhibiting ubiquitin-proteasome pathway in rats[J].
+Anesthesiology，
+2009，
+110（
+1）：
+81-
+88.
+DOI：10.1097/ALN.0b013e318190b6c1.
+[58]
+柴家科,李利根,罗高兴,等.
+钠钾镁钙葡萄糖注射液应用于烧伤休克液体复苏的临床疗效评估——前瞻性、随机、单盲、阳性药物对照、多中心临床试验[J].
+国际麻醉学与复苏杂志,
+2013,
+34(
+1):
+1-6,39.
+DOI：10.3760/cma.j.issn.1673-4378.2013.01.001.
+[59]
+FinferS,BellomoR,McEvoyS, et al.
+Effect of baseline serum albumin concentration on outcome of resuscitation with albumin or saline in patients in intensive care units: analysis of data from the saline versus albumin fluid evaluation (SAFE) study[J].
+BMJ,
+2006,
+333(
+7577):
+1044.
+DOI:10.1136/bmj.38985.398704.7C.
+[60]
+DelaneyAP,DanA,McCaffreyJ, et al.
+The role of albumin as a resuscitation fluid for patients with sepsis: a systematic review and meta-analysis[J].
+Crit Care Med,
+2011,
+39(
+2):
+386-
+391.
+10.1097/CCM.0b013e3181ffe217.
+[61]
+MiraJP, CharpentierJ.
+Early albumin resuscitation during septic shock [EB/OL].
+https://www.clinicaltrials.Gov/ct2/show/NCT00327704.
+[62]
+BrunkhorstFM,EngelC,BloosF, et al.
+Intensive insulin therapy and pentastarch resuscitation in severe sepsis[J].
+N Engl J Med,
+2008,
+358(
+2):
+125-
+139.
+DOI：10.1056/nejmoa070716.
+[63]
+GuidetB,MartinetO,BoulainT, et al.
+Assessment of hemodynamic efficacy and safety of 6% hydroxyethylstarch 130/0.4 vs 0.9% NaCl fluid replacement in patients with severe sepsis: the CRYSTMAS study[J].
+Crit Care,
+2012,
+16(
+3):
+R94.
+DOI：10.1186/cc11836.
+[64]
+McIntyreLA,FergussonD,CookDJ, et al.
+Fluid resuscitation in the management of early septic shock (FINESS): a randomized controlled feasibility trial[J].
+Can J Anaesth,
+2008,
+55(
+12):
+819-
+826.
+DOI：10.1007/bf03034053.
+[65]
+PernerA,HaaseN,GuttormsenAB, et al.
+Hydroxyethyl starch 130/0.4 versus Ringer's acetate in severe sepsis[J].
+N Engl J Med,
+2012,
+367(
+2):
+124-
+134.
+DOI:10.1056/NEJMoa1204242.
+[66]
+VenemanTF,Oude NijhuisJ,WoittiezAJ.
+Human albumin and starch administration in critically ill patients: a prospective randomized clinical trial[J].
+Wien Klin Wochenschr,
+2004,
+116(
+9/10):
+305-
+309.
+DOI：10.1007/bf03040900.
+[67]
+MyburghJA,FinferS,BellomoR, et al.
+Hydroxyethyl starch or saline for fluid resuscitation in intensive care[J].
+N Engl J Med,
+2012,
+367(
+20):
+1901-
+1911.
+DOI:10.1056/NEJMoa1209759.
+贡献者信息
+中华医学会急诊医学分会
+中国医师协会急诊医师分会
+中国人民解放军急救医学专业委员会
+中国医疗保健国际交流促进会急诊急救专业委员会
+历史
+出版日期：2018-01-10
+收稿日期：2017-11-03
+本文编辑
+郑辛甜
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+快速序贯器官衰竭评分（qSOFA）
+评分
+1
+0
+意识形态改变
+是
+否
+收缩压≤100 mmHg(1 mmHg=0.133 kPa)
+是
+否
+呼吸频率≥ 22次/min
+是
+否
+表2
+英国国家早期预警评分（NEWS）
+评分
+3
+2
+1
+0
+1
+2
+3
+呼吸频率(次/min)
+<8
+-
+9~11
+12~20
+-
+21~24
+≥25
+SPO2（%）
+≤91
+92~93
+94~95
+≥96
+-
+-
+-
+吸氧
+-
+是
+-
+否
+-
+-
+-
+心率（次/min）
+≤40
+-
+41~50
+51~90
+91~110
+111~130
+≥131
+收缩压（mmHg）
+≤90
+91~100
+101~110
+111~219
+-
+-
+≥220
+体温(℃)
+≤35.0
+-
+35.1~36.0
+36.1~38.0
+38.1~39.0
+≥ 39.1
+-
+意识
+-
+-
+-
+A
+-
+-
+V.P.U
+注：Ａ为意识清醒；Ｖ为对声音有反应；Ｐ为对疼痛有反应；Ｕ为无反应
+表3
+各种晶体液与细胞外液成分对比（mmol/L）
+液体类型
+Na+
+K+
+Cl–
+Ca2+
+Mg2+
+HCO3-/-
+葡萄糖（g/L）
+pH
+渗透浓度
+(mOsm/L)
+细胞外液
+142
+5
+117
+3
+1
+23~27
+7.40
+310
+0.9%氯化钠注射液
+154
+—
+154
+—
+—
+—
+—
+310
+林格液
+147
+4
+155.5
+4.5
+—
+—
+—
+311
+乳酸钠林格液
+130
+4
+109
+3
+—
+28/Lactate-
+—
+273
+醋酸钠林格液（plasmalyte A）
+142
+5
+98
+—
+2
+27/Acetate-
+—
+308
+醋酸钠林格液
+140
+4
+115
+1.5
+1
+25/Acetate-
+10
+304
+（钠钾镁钙葡萄糖注射液）
+图1
+脓毒症患者液体复苏流程
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华急诊医学杂志2018年27卷1期
+文    题：脓毒症液体治疗急诊专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华急诊医学杂志2018年27卷1期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

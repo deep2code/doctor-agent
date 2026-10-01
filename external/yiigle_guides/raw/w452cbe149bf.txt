@@ -1,0 +1,1261 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E9%81%97%E4%BC%A0%E6%80%A7%E7%BB%93%E7%9B%B4%E8%82%A0%E7%99%8C%E4%B8%B4%E5%BA%8A%E8%AF%8A%E6%B2%BB%E5%92%8C%E5%AE%B6%E7%B3%BB%E7%AE%A1%E7%90%86%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 遗传性结直肠癌临床诊治和家系管理中国专家共识 - 中华肿瘤杂志
+# 发布方/日期: 肿瘤科，中华肿瘤杂志, 2018,40(1) : 64-77. DOI: 10.3760/cma.j.i；2018-01-23
+
+遗传性结直肠癌临床诊治和家系管理中国专家共识
+中国抗癌协会大肠癌专业委员会遗传学组
+中华肿瘤杂志, 2018,40(1) : 64-77. DOI: 10.3760/cma.j.issn.0253-3766.2018.01.013
+结直肠癌在我国的发病率和死亡率均呈逐年上升趋势，约1/3的患者有遗传背景，5%～6%的患者可确诊为遗传性结直肠癌[1]。由于对遗传性结直肠癌认识不足，目前我国除了几家肿瘤专科医院和少数综合医院开展了相关工作外，尚缺乏系统的遗传性结直肠癌的登记筛查工作，因此，国内遗传性结直肠癌的实际诊断率仍较低。遗传性结直肠癌根据有无息肉大致可分为2类：第1类是以息肉病为特征，包括家族性腺瘤性息肉病(familial adenomatous polyposis, FAP)、遗传性色素沉着消化道息肉病综合征(peutz－jeghers syndrome, PJS)、幼年性息肉综合征(juvenile polyposis syndrome, JPS)和锯齿状息肉病综合征(serrated polyposis syndrome, SPS)等；第2类为非息肉病性结直肠癌，Lynch综合征是其中的重要代表。
+结直肠癌的遗传易感性包括Lynch综合征、FAP和MUTYH基因相关息肉病(MUTYH－associated polyposis, MAP)等，这些疾病均已发现相关的致病基因，如MLH1、MSH2、MSH6、PMS2、EPCAM、APC和MUTYH等。通过对家系先证者的基因诊断，继而找到突变携带者，并对这些高危人群进行风险管理，从而实现预防、早诊和早治。
+本专家共识主要分为遗传性非息肉病性综合征、息肉病性综合征以及遗传咨询与基因检测等3部分，分别针对各个遗传综合征的定义、临床病理特征、诊断标准、治疗策略和随访监测策略展开阐述和推荐。除了提供相应的诊断和治疗方案，更强调防治结合，注重对家系成员的遗传筛查和监测随访。希望通过制订专家共识，推动全国临床工作者对遗传性结直肠癌的认识和多学科参与的规范化诊治，绘制中国人群中遗传性结直肠癌基因突变图谱并建立数据库，最终旨在有效地提高我国遗传性结直肠癌的临床诊治和家系管理水平。
+此外，考虑到我国各地区之间发展不平衡以及遗传基因检测手段的可及性等实际情况，本专家共识对部分检测策略[如错配修复基因(mismatch repair gene, MMR)检测]做出基本推荐和可选推荐，其中基本推荐属于所需达到的最低要求，而可选推荐可在有条件的医疗单位执行。不同等级的推荐适合不同地区临床工作者根据所在医院的实际情况做出符合各自临床需求的选择。
+一、非息肉病性综合征
+(一) Lynch综合征
+1．定义：
+在2010年之前，Lynch综合征又称遗传性非息肉性结直肠癌(hereditary nonpolyposis colorectal cancer, HNPCC)，2010年之后国际上统一不再使用HNPCC这个名称，统称为Lynch综合征。这是一种常染色体显性遗传肿瘤综合征，可引起结直肠及其他部位(包括子宫内膜、卵巢、胃、小肠、肝胆、上尿道、脑和皮肤等)发生肿瘤，其风险高于正常人群。Lynch综合征约占所有结直肠癌患者的2%～4%，是最常见的遗传性结直肠癌综合征[2,3]。目前，已证实的相关致病基因为MMR家族中的MLH1、MSH2、MSH6或PMS2基因；此外，EPCAM基因缺失导致MSH2启动子高度甲基化，引起MSH2基因沉默，导致Lynch综合征。MLH1和MSH2是最主要的相关基因，其胚系突变占所有Lynch综合征基因突变的80%～90%[4,5]。
+2．临床病理特征：
+Lynch综合征患者有一些特殊的临床病理特征，具体表现为：(1)发病年龄较早，中位年龄约为44岁；(2)肿瘤多位于近端结肠；(3)多原发结直肠癌明显增多；(4)肠外恶性肿瘤(如胃癌、子宫内膜癌和胰腺癌等)发病率高；(5)低分化腺癌和黏液腺癌常见，常伴有淋巴细胞浸润或淋巴样细胞聚集；(6)肿瘤多呈膨胀性生长，而非浸润性生长；(7)预后好于散发性结直肠癌[6]。有研究表明，中国人群Lynch综合征的临床病理特征与欧美人群相似[7,8,9] 。
+从病理学角度看，2/3的Lynch综合征肿瘤位于右半结肠，肿块往往较大，界限清楚，呈息肉状、斑块状或溃疡型，组织学常表现为黏液腺癌或低分化腺癌。黏液腺癌多为高中分化；低分化腺癌亦称为髓样癌，瘤细胞不形成腺腔，呈不规则片状、巢状排列，淋巴细胞浸润上皮现象明显，间质常有显著的淋巴细胞浸润和Crohn样反应。淋巴结转移相对少，免疫组化染色显示MMR蛋白表达缺失。Lynch综合征虽然分化较差，但因其具有错配修复功能缺陷(deficient mismatch repair, dMMR)的表型，仍归于低级别腺癌，患者通常预后较好。
+3．临床诊断标准：
+Lynch综合征既往的临床诊断主要依赖于家族史。1991年国际上成立了HNPCC协作组，先后在1991年和1999年推荐了Amsterdam诊断标准Ⅰ和Amsterdam诊断标准Ⅱ用于Lynch综合征的临床诊断(表1)。基于Yuan等[10,11]研究和中国计划生育国策运作下的家庭规模小型化的现状，2003年全国遗传性大肠癌协作组提出了中国人群HNPCC家系标准[12](后改为中国人Lynch综合征家系标准)：家系中至少有2例组织病理学明确诊断的结直肠癌患者，其中2例为父母与子女或同胞兄弟姐妹的关系(一级血亲)，并且符合以下任一条件：(1)至少1例为多发性结直肠癌患者(包括腺瘤)；(2)至少1例结直肠癌发病年龄<50岁；(3)家系中至少1例患HNPCC综合征相关肠外恶性肿瘤(包括胃癌、子宫内膜癌、小肠癌、输尿管和肾盂癌、卵巢癌和肝胆系统癌)[12]。因此，凡是符合以上标准的患者，均应进行Lynch综合征相关的基因筛检。
+点击查看表格
+表1
+Lynch综合征诊断标准的比较
+表1
+Lynch综合征诊断标准的比较
+诊断标准
+家系描述
+附加条件
+中国人Lynch综合征家系标准
+家系中至少有2例组织病理学明确诊断的结直肠癌患者，其中2例为父母与子女或同胞兄弟姐妹的关系(一级血亲)
+符合以下任一条件：(1)至少1例为多发性结直肠癌患者(包括腺瘤)；(2)至少1例结直肠癌发病年龄<50岁；(3)家系中至少1例患HNPCC综合征相关肠外恶性肿瘤(包括胃癌、子宫内膜癌、小肠癌、输尿管和肾盂癌、卵巢癌和肝胆系统癌)。
+Amsterdam标准Ⅰ
+家系中至少3例确诊的结直肠癌患者
+同时满足以下所有条件：(1)其中1例为其他2例的一级亲属；(2)至少累及连续的2代人；(3)至少1例发病年龄<50岁；(4)除外FAP
+Amsterdam标准Ⅱ
+家系中至少有3例确诊的Lynch相关肿瘤(结直肠癌、子宫内膜癌和小肠癌等)患者
+同时满足以下所有条件：(1)其中1例为其他2例的一级亲属；(2)至少累及连续的2代人；(3)至少1例发病年龄<50岁；(4)除外FAP
+注：HNPCC:遗传性非息肉性结直肠癌；FAP:家族性腺瘤性息肉病
+关于分子诊断，对于有条件的医疗单位，可推荐对所有结直肠癌患者进行肿瘤组织的4个MMR蛋白免疫组化或微卫星不稳定(microsatellite instability, MSI)检测来进行初筛。其中肿瘤组织MMR蛋白(MLH1、MSH2、MSH6、PMS2)免疫组化检测为基本推荐；肿瘤组织MSI检测为可选推荐，建议在有条件的医疗单位开展。
+(1)免疫组化：MMR可纠正DNA复制、基因重组过程中产生或外源性损伤造成的碱基错配、插入及缺失，MMR突变可引起相应的错配修复蛋白表达缺失。免疫组化提示任一MMR蛋白(MLH1、MSH2、MSH6、PMS2)缺失即为dMMR，如4个MMR蛋白均阳性表达，则称为错配修复功能完整(proficient mismatch repair, pMMR)。若有MLH1蛋白表达缺失时，需排除BRAF V600E基因突变或MLH1启动子区甲基化[13]。
+(2)MSI：微卫星序列是存在于细胞基因组中的1～6 bp的简单重复串联DNA序列。错配修复系统功能异常时，微卫星出现的复制错误得不到纠正并不断累积，使得微卫星序列长度或碱基组成发生改变，称为MSI。美国国立癌症研究所推荐用于检测MSI的5个常用位点分别为BAT－25、BAT－26、D2S123、D5S346和D17S250，其中≥2个位点不稳定则称为微卫星高度不稳定(MSI－H)，1个位点不稳定称为微卫星低度不稳定(MSI－L)，0个位点不稳定则称为微卫星稳定(MSS)[14]。MSI－H的患者为dMMR，MSI－L和MSS的患者为pMMR。近年来，也有采用二代测序(next generation sequencing, NGS)的平台进行MSI检测，根据浙江大学医学院附属第二医院的经验，基于NGS的MSI检测结果与传统PCR方法的吻合率>95%。
+对于经免疫组化检测确定的dMMR患者，建议进一步检测蛋白表达缺失基因的胚系突变；对于经MSI方法确定的dMMR患者，建议行MLH1、MSH2、MSH6、PMS2和EPCAM 5个基因的胚系突变检测。胚系突变的检测应在个体正常细胞DNA中进行，可以是外周血DNA，也可以是源于其他正常细胞的DNA。
+4．Lynch综合征患者的外科治疗：
+符合Lynch综合征诊断的患者，初诊时结直肠腺癌患者的治疗有以下2种选择：(1)部分结肠切除加每1～2年肠镜检查；(2)全结肠切除或回肠直肠吻合术(IRA)加直肠监测。目前，尚无临床研究直接比较两种方法的优劣性。部分结肠切除术后患者发生异时性肿瘤的概率为45%，IRA术后12年发生直肠癌的概率为12%[15,16]。扩大切除可以降低异时性结肠肿瘤的发生率，但无证据表明可以显著延长患者的生存时间。部分结肠切除加每年肠镜检查预防异时性肿瘤的效果可能与IRA相似[17]，但患者的生活质量好于IRA。因此，需要制订个体化诊治方案，术前充分告知患者这2种选择的优缺点，并综合考虑患者年龄、术后随访依从性等因素。
+对于女性Lynch综合征患者的治疗，考虑到其子宫内膜癌和卵巢癌的发生风险显著高于普通人群，因此，推荐其完成生育后行预防性子宫和双附件切除手术，或在施行其他腹部手术时切除子宫及附件[12]，特别是对于家族中有子宫内膜癌或卵巢癌病史者。
+5．Lynch综合征患者的内科治疗：
+与散发结直肠癌患者相比，Lynch综合征结直肠癌患者的内科治疗稍有特殊之处。第一，由于Lynch综合征的肿瘤常常表现为MSI－H，结合2010年Sargent等[18]的研究结果，建议对于Ⅱ期MSI－H的Lynch患者尽可能避免氟尿嘧啶的单药辅助治疗。第二，MSI－H的晚期Lynch患者可能从抗PD－1/PD－L1药物中收益较大。
+2015年5月《The New England Journal of Medicine》发表了KEYNOTE－016研究，首次报道了抗PD－1单抗Pembrolizumb用于治疗既往失败的晚期结直肠癌患者的疗效，11例dMMR患者的客观有效率(ORR)为40%，疾病控制率为90%，而pMMR患者无一例有效[19]。最近在《Science》发表的研究显示，40例MSI－H或免疫组化dMMR的结直肠癌患者中，抗PD－1单抗的客观有效率(objective response rate, ORR)达到了52%，而且在与Lynch相关和无关的肿瘤中，ORR分别为46%和59%，差异无统计学意义(P＝0.27)[19]。这些结果初步证实了抗PD－1单抗对dMMR的晚期肿瘤患者有效。因此，dMMR/MSI－H被认为是预测抗PD－1单抗疗效的标志物，美国食品药品监督管理局首次加速批准Pembrolizumab用于治疗dMMR/MSI－H的成人和儿童晚期实体瘤患者，Pembrolizumab为第1个不考虑瘤种、仅以生物标志物进行治疗选择的抗肿瘤药物。随后的CheckMate 142研究证实，另外1个抗PD－1单抗Nivolumab治疗dMMR/MSI－H转移性结直肠癌同样有效，其有效率为31%，中位无进展生存时间为5.3个月。因此，2017年美国国立综合癌症网络(NCCN)指南正式推荐，Pembrolizumab或Nivolumab用于dMMR转移性结直肠癌患者的二线或三线治疗。目前，正在开展的KEYNOTE－177研究拟在dMMR/MSI－H转移性结直肠癌一线治疗中比较Pembrolizumab与常规化疗±靶向治疗的疗效。本共识推荐，对于常规治疗失败的dMMR/MSI－H转移性Lynch综合征患者，应积极参加免疫检查点抑制剂相关的临床研究。
+6．家系筛查的诊断流程：
+采用MMR免疫组化和MSI检测筛查Lynch综合征流程见图1、图2。
+点击查看大图
+图1
+采用MMR免疫组化检测筛查Lynch综合征流程图
+注：MMR：错配修复基因；CRC:结直肠癌；IHC:免疫组化； a考虑到先行免疫组化或微卫星不稳定，再根据结果决定行胚系突变检测的时间较久，对于符合Amsterdam标准或中国人Lynch综合征家系标准、且有意愿将胚系突变的检测前置以辅助决定手术方式的初诊CRC患者可考虑术前直接行胚系突变检测； b家族性CRC X型指符合Amsterdam标准，但是肿瘤组织呈微卫星稳定或未检测到MMR基因胚系突变的患者[20]
+图1
+采用MMR免疫组化检测筛查Lynch综合征流程图
+点击查看大图
+图2
+采用MSI检测筛查Lynch综合征流程图
+注：CRC:结直肠癌；MSI:微卫星不稳定；MSI－H:微卫星高度不稳定；MSI－L:微卫星低度不稳定；MSS:微卫星稳定；a考虑到先行免疫组化或MSI，再根据结果决定行胚系突变检测的时间较久，对于符合Amsterdam标准或中国人Lynch综合征家系标准，且有意愿将胚系突变的检测前置，以辅助决定手术方式的初诊CRC患者，可考虑术前直接行胚系突变检测；b家族性CRC X型指符合Amsterdam标准，但是肿瘤组织呈MSS或未检测到MMR基因胚系突变的患者[20]
+图2
+采用MSI检测筛查Lynch综合征流程图
+7．突变携带者的随访监控：
+与普通人群比较，Lynch家系中携带有MMR基因胚系突变的成员(简称携带者)患结直肠癌、子宫内膜癌以及其他恶性肿瘤(包括胃癌和卵巢癌等)的终身风险明显升高[21,22]。对于携带有MMR胚系突变的个体，建议加强肿瘤的个体化监测(表2)，达到早诊早治的目的。
+点击查看表格
+表2
+Lynch家系中携带有错配修复基因胚系突变成员的随访监控策略
+表2
+Lynch家系中携带有错配修复基因胚系突变成员的随访监控策略
+监测肿瘤类型
+随访监控策略
+结直肠癌
+(1)MLH1或MSH2突变携带者：20～25岁开始行结肠镜检查，每1～2年复查；若家族中结肠癌患者的初发年龄<25岁，则筛查初始年龄较其提前2～5年；(2)MSH6或PMS2突变携带者：25～30岁开始行结肠镜检查，每1～2年复查；若家族中结直肠癌初发年龄<30岁，则筛查初始年龄提前2～5年
+子宫内膜癌和卵巢癌
+(1)已生育的可考虑子宫和双附件预防性切除术；(2)未行预防性手术者，当无临床症状时，建议每1～2年行子宫内膜活检以排除子宫内膜癌的风险，定期经阴道子宫双附件超声及血清CA125检测等排除卵巢癌风险
+胃癌和小肠癌
+从30～35岁开始每1～2年进行胃十二指肠镜检查
+尿路上皮癌
+从25～30岁开始每年进行常规尿液检测
+中枢神经系统肿瘤
+从25～30岁开始每年常规神经系统检查
+胰腺癌
+缺乏有效的筛查手段
+乳腺癌
+常规乳腺癌筛查
+首先是结直肠癌的监控，携带MSH6或PMS2胚系突变的个体到70岁时，患结直肠癌风险为10%～22%，而携带MLH1或MSH2胚系突变个体的风险高达52%～82%[21,23]。因此，对于MLH1或MSH2基因突变的携带者，建议从20～25岁开始行结肠镜检查，每1～2年复查；若家族中结直肠癌初发年龄<25岁，则筛查初始年龄较其提前2～5年[24]。而对MSH6或PMS2基因突变的携带者，则建议从25～30岁开始行结肠镜检查，每1～2年复查；若家族中结直肠癌初发年龄<30岁，则筛查初始年龄较其提前2～5年。
+女性突变携带者一生中罹患子宫内膜癌和卵巢癌的风险也明显升高(分别高达60%和24%)[21,24,25]。为减低发病风险，对已完成生育且携带MMR基因突变的女性，在充分沟通后，可以考虑行子宫和双附件的预防性切除术。对于未行预防性手术的突变携带者，当无临床症状时，建议每1～2年行子宫内膜活检排除子宫内膜癌的风险，也可考虑采取定期经阴道子宫双附件超声及血清CA125检测等排除卵巢癌风险。
+对于其他肿瘤，我们推荐对MMR基因突变携带者进行以下监控策略：(1)胃癌和小肠癌：建议从30～35岁开始每1～2年进行胃十二指肠镜检查，尤其是高度选择的个人或家庭[26]；(2)尿路上皮癌：从25～30岁开始每年进行常规尿液检测；(3)中枢神经系统肿瘤：从25～30岁开始每年常规神经系统检查；(4)胰腺癌：目前缺乏有效的筛查手段，所以暂时无特殊推荐；(5)乳腺癌：参见常规乳腺癌筛查。
+8．Lynch综合征患者和MMR突变携带者的化学预防：
+由于Lynch综合征具有肠道肿瘤发病年龄早和易发生肠外器官恶性肿瘤的特点，除密切随访和有限的外科预防手段外，药物的化学预防，特别是非甾体类抗炎药物(NSAIDs)可能成为有效的预防治疗手段，其中阿司匹林最受关注。但根据目前的证据显示，在Lynch综合征结直肠癌患者中，服用常规剂量阿司匹林(75 mg及以上)，其预防再发结直肠癌的作用可能需要长达4～5年后才能显现[27]。2013年启动的CAPP3研究，拟在3 000例MMR突变携带者中，比较不同剂量阿司匹林(600、300和100 mg)治疗5年对结直肠癌的预防作用，最终结论尚未得出。需要说明的是，CAPP3研究是针对突变携带者，而对于已罹患结直肠癌的患者，尚无确定的数据显示术后的化学预防可延长生存时间，所以不推荐已患结直肠癌的Lynch患者服用阿司匹林等药物进行化学预防。
+基于以上证据，本共识推荐：(1)对于已患结直肠癌的Lynch患者不常规推荐服用阿司匹林等药物进行化学预防。(2)对于MMR基因胚系突变携带者，有可能从阿司匹林治疗中获益，以降低Lynch相关结直肠癌的发病率，但是最佳剂量和服用时间尚不确定，需等待CAPP3临床研究的结果，且需平衡好阿司匹林长期使用的利与弊。
+(二)家族性结直肠癌X型(familial colorectal cancer type X, FCCTX)
+FCCTX指符合Amsterdam标准，但是肿瘤组织呈MSS或未检测到MMR基因胚系突变的患者。有研究显示，约有50%以上符合Amsterdam诊断标准的结直肠癌患者未发现其肿瘤组织存在MSI和(或)错配修复蛋白缺失[3]。
+FCCTX和Lynch综合征的临床病理特征和遗传风险均存在较大差异。(1)临床方面：FCCTX患者诊断时的平均年龄(50～60岁)大于Lynch患者(40岁)，发病部位常见于左半结肠[28,29]；(2)病理方面：FCCTX与Lynch相比，管状生长模式占优势，黏液腺癌、低分化癌不常见，但肿瘤周围或肿瘤浸润性淋巴细胞与Lynch综合征肿瘤一样常见[29]。(3)遗传方面：FCCTX比Lynch罹患结直肠癌的风险低，标准化发病比为2.3∶6.1，且较少出现肠外肿瘤[27]。
+目前，FCCTX被认为是一类异质性极大的家族性结直肠癌。有些家系符合单基因病遗传模式，有些则符合多基因病遗传模式。由于FCCTX病因尚不清楚，故当前无标准的随访和预防策略[30]。未来通过全基因组测序等手段有可能进一步明确FCCTX的遗传病因机制。
+二、息肉病性综合征
+(一)经典型家族性腺瘤性息肉病(classical FAP, CFAP)、衰减型家族性腺瘤性息肉病(attenuated FAP, AFAP)和MAP
+临床上最常见的是FAP，包括CFAP和AFAP，是APC基因突变引起的常染色体显性遗传病，约占所有结直肠癌的1%[31]。
+1．定义：
+(1)CFAP：以遍布整个结直肠、数目>100个的腺瘤性息肉和微腺瘤为临床表现的常染色体显性遗传综合征。患者十几岁时开始出现腺瘤，如不治疗，至50岁时100%的患者会转变为结直肠癌[31]。(2)AFAP：具有10～99个同时性结直肠腺瘤，并有常染色体显性遗传特征的患者被定义为AFAP。与CFAP相比，AFAP患者有腺瘤数目少、发病年龄晚、更多地分布于近端结肠的特点。(3)MAP：由MUTYH双等位基因突变引起，同时APC基因突变检测阴性。MAP临床表现多样，肠道表型有典型的多发性腺瘤样息肉(其息肉类型也可以是增生性或无蒂锯齿状息肉)或无伴发肠道息肉的结直肠癌。(4)Gardner综合征：最早由Gardner和Richards报告的结肠息肉病三联征，即结肠多发息肉、多发骨瘤和皮肤软组织肿瘤。(5)Turcot综合征：是一种少见的常染色体遗传综合征，表现为伴有原发中枢神经系统肿瘤的结直肠腺瘤性息肉病。
+2．临床病理特征：
+CFAP的特征是结肠腺瘤性息肉，息肉开始生长的平均年龄为15岁，在青少年期，患者整个结直肠有成百上千的腺瘤性息肉，CFAP恶变的平均年龄为39岁，如不预防性切除结直肠，患者至50岁时100%腺瘤性息肉均可癌变[31]。同时，CFAP作为累及全身多系统的遗传性疾病，临床表现还包括十二指肠肿瘤(4%～12%)、甲状腺肿瘤(<2%)和肝母细胞瘤(1%～2%)、硬纤维瘤、先天性视网膜色素细胞肥大(CHRPE)等[32,33,34,35,36] 。
+CFAP以结直肠内生长成百上千个不同大小的息肉为特征，单个息肉的恶变倾向很小，但当大量息肉密集时，恶变倾向可达100%。近40%癌变患者为多原发，超过80%的肿瘤位于左半结肠[37]。病理类型以管状腺瘤、绒毛状腺瘤和管状绒毛腺瘤多见，直径一般<1 cm，多数是宽基底，>2 cm的腺瘤通常有蒂。
+与CFAP比较，AFAP息肉数目少(通常为10～100个)，且呈右半结肠分布趋势；息肉发生晚(平均34岁)、恶变晚(平均57岁)、恶变率稍低(60%)，但患者在40岁后恶变率大幅上升，至80岁时达到70%[38]。如不治疗，患者死于结直肠癌时间晚(平均59岁)；常伴胃及十二指肠腺瘤(50%～66%)，伴发硬纤维瘤较少(10%)[39,40]。FAP和AFAP患者的临床特征见表3。
+点击查看表格
+表3
+CFAP和AFAP患者的临床特征
+表3
+CFAP和AFAP患者的临床特征
+分型
+腺瘤息肉数(个)
+发病年龄(岁)
+平均癌变年龄(岁)
+癌变率(%)
+CFAP
+严重型
+>1 000
+<20
+34
+100
+中间型
+100～1 000
+10～30
+42
+100
+AFAP
+<100
+30～50
+50～55
+69
+注：CFAP:经典型家族性腺瘤性息肉病；AFAP:衰减型家族性腺瘤性息肉病
+MAP息肉主要发生在左半结肠(71%)，双等位基因突变携带者中27%的患者同时多发肿瘤。伴有MUTYH基因突变的MAP患者一般有>10个遍布全结肠的息肉，其中2/3的患者<100个息肉，约1/3患者息肉数>100个，有的甚至达到1 000个，但并非像FAP样的铺地毯式分布[41,42]。
+3．临床诊断标准：
+CFAP的临床诊断标准为同时满足以下3个条件：(1)患者结直肠腺瘤性息肉>100个，具有较早的发病年龄(通常在10～20岁长出息肉，在20岁后出现胃肠道症状)；(2)常伴有肠外表现，如CHRPE、骨瘤和硬纤维瘤等；(3)常染色体显性遗传[43]。
+AFAP的临床诊断标准：家族中至少有2例患者的发病年龄>30岁，且发病时有10～99个结直肠腺瘤；或家族中有1例患者发病年龄>30岁，且有10～99个腺瘤，同时1例一级亲属有结直肠癌合并腺瘤病史。以上诊断标准中均必须排除家族成员中有<30岁发现>100个结直肠腺瘤的情况[44]。
+结合中国患者的特征，2003年全国遗传性大肠癌协作组推荐临床诊断FAP的标准为：结直肠内弥漫腺瘤性息肉≥100个；或腺瘤性息肉<100个者，伴有家族史或先天性视网膜色素上皮肥厚[12]。
+MAP目前没有明确的临床诊断标准，临床上对于无显性遗传家族史，但息肉数目>10个，或具有一些相关肠外表现的患者，即应考虑MAP，进行MUTYH全基因测序。
+Gardner综合征具备结直肠多发息肉、骨瘤和软组织肿瘤这三大特征者即可确诊。
+Turcot综合征无明确的临床诊断标准，以结直肠多发腺瘤合并脑肿瘤为诊断参考。
+对可疑为腺瘤性息肉综合征(CFAP、AFAP、MAP)的患者建议行相关基因检测：(1)结直肠腺瘤性息肉>10个；(2)有腺瘤性息肉综合征家族史；(3)结直肠腺瘤患者，且有FAP相关肠外表现。主要筛查基因为APC和MUTYH基因。
+当APC基因检测结果为阴性时，应行MUTYH基因检测。MUTYH基因出现双等位基因突变，或MUTYH基因两条链虽无等位基因突变，但均包含致病性突变，则可确诊MAP[45]。主要检测方式包括一代测序结合多重连接依赖探针扩增法或NGS。腺瘤性息肉综合征的基因筛查检测流程见图3。
+点击查看大图
+图3
+腺瘤性息肉综合征的基因检测筛查流程
+注：FAP:家族性腺瘤性息肉病；CFAP:经典型家族性腺瘤性息肉病；AFAP:衰减型家族性腺瘤性息肉病
+图3
+腺瘤性息肉综合征的基因检测筛查流程
+4．治疗方式：
+各种FAP临床亚型的共同特征为结直肠腺瘤性息肉，由于其恶变率高，因此，目前临床上对于FAP的结直肠腺瘤性息肉仍主要采取外科手术治疗，以避免结直肠癌的发生。
+FAP的手术方式大致有3类：全大肠切除术(total proctocolectomy , TPC)联合回肠末端造瘘术、TPC联合回肠储袋肛管吻合术(ileal pouch－anal anastomosis, IPAA)和全结肠切除术(total abdominal colectomy，TAC)联合回肠直肠吻合术(ileorectal anastomosis, IRA)[40,46]。3种术式优缺点的比较见表4。
+点击查看表格
+表4
+FAP不同手术方式的优缺点比较
+表4
+FAP不同手术方式的优缺点比较
+术式
+未来发生肿瘤
+未来随访监护
+并发症
+生活质量
+TPC＋EI
+无
+无
+并发症多，性功能降低，生育功能降低
+永久造瘘
+TPC＋IPAA
+息肉常见，恶性肿瘤少见
+每年检查Pouch和肛管
+并发症少，性功能降低，生育功能降低
+肛门功能因人而异
+TAC＋IRA
+息肉常见，恶性肿瘤2%～12%
+每年检查直肠
+并发症少，性功能影响小，生育功能影响小
+肛门功能好
+注：FAP:家族性腺瘤性息肉病；TPC:全大肠切除术；EI:回肠末端造瘘术；IPAA:回肠储袋肛管吻合术；TAC:全结肠切除术；IRA:回肠直肠吻合术
+TPC是最有希望治愈FAP的手术术式，是传统的经典手术，以前被认为该术式彻底性最佳，无直肠病变复发和癌变之虑，但此术式带来的并发症多，永久造瘘带来诸多不便，加以盆腔内解剖易损伤神经而影响性功能和生育功能，对年轻患者影响较大。因此，此术式通常被保留作为局部晚期直肠癌或失去肛门括约肌功能患者的选择，已较少使用，目前主要采用的术式是IPAA和IRA。
+IRA手术除保留7～10 cm直肠，其余结直肠全部切除，行回肠直肠吻合。本方法手术损伤小、保留了排便、排尿和性功能，并发症低。但残留的直肠仍有癌变危险，须定期随诊，对发现的息肉及时进行电灼或手术切除。此术式适用于青少年患者或高龄患者、直肠息肉少的患者。
+IPAA可保留肛门，肛门功能尚可，排便功能相对较好，但手术相对复杂。随着手术技术的改进，吻合器械的使用，降低了并发症，IPAA手术变得比较简单安全，已成为治疗FAP越来越普遍的方法。
+FAP患者手术时机及方式的选择，除了依据结直肠腺瘤的严重程度外，还需要考虑发病年龄、纤维瘤病、直肠腺瘤数目、患者意愿和生育愿望等多种因素。
+术前直肠腺瘤数目是FAP患者选择何种术式的重要因素之一，术前应通过直肠镜或纤维肠镜对FAP患者直肠腺瘤进行评估，以判断行IRA术后直肠息肉癌变的可能性。目前认为，对于直肠腺瘤数目<20个的FAP患者适宜选择IRA，而≥20个的患者可能需要IPAA或者TAC，以便降低二次直肠切除的风险。
+5．随访策略和内镜下治疗：
+FAP患者的最早发病年龄为6岁[47]，大部分FAP家系成员有致病性突变者通常于青春期发病。对于腺瘤性息肉综合征的患者和突变基因携带者，建议从10～15岁开始每年进行1次乙状结肠镜或结肠镜筛查[46]。此外，对腺瘤性息肉综合征的患者建议从25～30岁开始随访相关肠外肿瘤。如果20岁之前行结肠切除术，则监测时间也应提前。约有50%以上的FAP患者发现十二指肠息肉，推荐进行上消化道内镜检查，包括观察胆胰壶腹，其随访间隔时间需根据Spigelman分级或其他标准分级决定[48,49,50,51]。患者年龄>50岁，发现大的或绒毛状腺瘤性息肉，则需要更频繁的监测。FAP患者胃底腺息肉发展成癌的概率约为0.6%[52]，当高级别瘤变或浸润癌时应行手术治疗。甲状腺的检查应从10岁开始，每年行1次甲状腺超声检查；对于腹内纤维瘤的检查应包括每年的腹壁触诊，如果患者有相应症状或有纤维瘤家族史，肠切除术后1～3年应进行1次腹部MRI或CT检查，此后间隔5～10年检查1次，对于其他肠外器官目前尚无随访方案[37]。
+对于基因检测阴性的非突变携带者家系成员，与一般风险人群的筛查策略相同。对于未行基因检测的家系成员，建议从10～15岁开始，每年进行1次乙状结肠镜或结肠镜筛查，直到24岁。对于基因检测持续阴性结果的成员，推荐在24～34岁间每2年检查1次乙状结肠镜或结肠镜筛查、35～44岁每3年1次、>44岁每3～5年1次。
+对于AFAP家系成员，由于发病年龄较晚，突变基因携带者可从18～20岁开始，每1～2年行1次乙状结肠镜或全结肠镜检查，并持续终生。MAP患者IRA后，依据息肉负荷，推荐每6～12个月进行直肠内镜下检查。除此之外，推荐患者在30～35岁开始上消化道内镜检查，并推荐进行每年体检。其他随访原则可参考CFAP。
+6．化学预防：
+对于一般人群，阿司匹林尤其是长期小剂量服用可以减少腺瘤性息肉的发病率及术后复发率。然而一项临床随机对照研究显示，年轻FAP患者手术前服用阿司匹林的未能预防获益[53]。术前服用NSAIDs舒林酸也未能减少FAP患者腺瘤性息肉的进展[54]。关于术后服用，FAP患者预防性切除术后长期服用舒林酸，有助于剩余直肠的息肉退缩及预防高级别腺瘤性息肉的复发[55]。
+结直肠腺瘤性息肉和肿瘤组织中COX－2的表达升高。服用COX－2抑制剂塞来昔布可以降低结直肠腺瘤性息肉患者的癌变风险[56,57,58]。然而，由于COX－2抑制剂可能增加心血管事件的发生率，尚未常规推荐用于散发性腺瘤性息肉患者。有研究显示，对于未行全结直肠切除的FAP患者，服用COX－2抑制剂6个月后，息肉数量降低28%，息肉直径减小31%，但仍缺少长期的随访数据[59]。
+FAP患者服用ω－3多不饱和脂肪酸二十碳五烯酸(EPA)6个月后，可以减少息肉数量，降低息肉直径[60]。但目前对于常规应用的推荐证据还不足。
+舒林酸单独或联合EGFR抑制剂埃罗替尼，可能获得FAP患者息肉退化的效果，是否减少肿瘤风险还需长期随访数据[54,61]。
+因此，关于息肉病化学预防的价值目前仍存在争议，应用的药物目前主要包括NSAIDs、EPA和EGFR抑制剂埃罗替尼等。本共识推荐在充分告知获益和风险的情况下，经医师判断推荐高危人群使用。
+(二) PJS、JPS和SPS
+1．PJS
+(1)定义：又称遗传性PJS(简称黑斑息肉病)，是一种由LKB1(即STK11)基因胚系突变引起的、以特定部位皮肤黏膜色素斑和胃肠道多发错构瘤息肉为特征的常染色体显性遗传病[62]。
+(2)临床病理特征：PJS的临床病理特征均非常鲜明，特定部位(口唇、颊黏膜、生殖器、手指或足趾)皮肤黏膜色素斑、胃肠道多发错构瘤息肉和家族遗传性是PJS的三大临床特征[63,64]。
+PJS息肉也叫错构瘤性息肉，病理特征鲜明。大体病理：PJS息肉的数量通常为十几个，也可多达上百个，多有细长的蒂，也可无蒂，表面光滑分叶状。息肉的直径从小至几毫米至8～10 cm不等，但大部分直径均在1 cm左右。息肉主要位于空肠和回肠，也可见于胃、十二指肠和结直肠。镜下病理：息肉的上皮成分与其发生部位的固有上皮类型一致。PJS息肉包括被树状分支的平滑肌所分隔的长短不一的隐窝和绒毛，平滑肌纤维从病变的中心像树样发出分支。肌束一直延伸至息肉的顶部，并且越接近息肉的表面，肌束越细。
+(3)临床诊断标准：2003年全国遗传性大肠癌协作组推荐的PJS临床诊断标准为：胃肠道多发错构瘤息肉伴皮肤、黏膜色素沉着，可有或无家族史[12]。
+鉴于PJS患者的错构瘤息肉不仅局限于小肠，也可分布于胃和结直肠；而且部分PJS患者的色素斑可随年龄增长而变淡，甚至消失；以及部分患者可无明确家族史[54]，我们建议临床诊断PJS应该首先具备胃肠道多发错构瘤息肉，其次是特定部位的皮肤黏膜色素斑，可有或无家族史。对于临床诊断PJS的患者应进行LKB1(即STK11)基因的胚系突变检测。66%～94%的PJS患者中可检测到抑癌基因LKB1(即STK11)基因突变。大约70%～80%家族性PJS患者具有LKB1(即STK11)基因胚系突变，散发性PJS可能发生LKB1(即STK11)基因新生突变或少见类型的突变。
+(4)临床综合治疗模式：PJS的临床治疗应采取外科解救治疗＋内镜局部治疗＋内科药物预防治疗的综合治疗模式(图4)[65,66]。
+点击查看大图
+图4
+PJS综合治疗模式图
+注：PJS:遗传性色素沉着消化道息肉病综合征；DBE:双气囊小肠镜； a根据息肉数目、体积、分布密度程度决定
+图4
+PJS综合治疗模式图
+优先推荐对PJS患者进行小肠镜的定期检查，明确息肉的分布、数量和大小等，对直径>1 cm的息肉进行内镜下圈套切除，切除的息肉需单独进行组织学检查以除外恶变[67]。
+对于息肉巨大或广基息肉无法经内镜圈套切除者，息肉继发套叠、梗阻、出血、穿孔和恶变者，息肉密集的肠段、内镜切除息肉时发生穿孔和出血等并发症者，均应采用手术治疗。手术以复位套叠肠管和摘除息肉为宜，尽可能一次切除更多的息肉。息肉密集或套叠坏死的肠段可行肠段切除。
+(5)患者的随访方案：PJS患者应定期进行内镜(优先推荐小肠镜)的随访观察，评估息肉有无进行性增大或恶变[68]，并对>1 cm的息肉进行镜下治疗。息肉数目较多、体积较大、分布较密集的PJS患者应每年进行1次小肠镜检查以避免延误病情；息肉数目较少、体积较小、分布较稀疏的PJS患者可每2～3年复查1次小肠镜，观察息肉进展及有无恶变，并对较大的息肉进行镜下治疗。
+(6)家系成员的随访方案：对于临床诊断为PJS的患者及其家系成员应该进行LKB1(即STK11)胚系突变的检测。对于确诊为LKB1(即STK11)胚系突变携带者，每2年进行小肠镜的随访监测。
+2．JPS
+(1)定义：JPS是一种由BMPR1A或SMAD4基因突变引起的、以胃肠道(主要是结直肠)多发幼年性息肉为特征的常染色体显性遗传的疾病[63]。
+(2)临床病理特征：胃肠道(主要是结直肠)多发幼年性息肉是JPS的临床特征。多数JPS息肉呈典型的错构瘤特征，但少数可合并腺瘤性息肉。大体病理：JPS患者的息肉数目通常为50个至上百个。息肉体积相对较小，直径为1～5 cm，大多数直径均在1～1.5 cm。息肉之间的肠黏膜外观正常。大多数息肉有蒂。幼年性息肉表面呈红色颗粒状，切面呈囊性、格子样表现。镜下病理：典型的幼年性息肉是由发生部位固有的消化道腺体围以明显的间质组成。大量的间质围绕在分支的、囊性扩张的或扭曲的腺体周围。腺体的大小和形状各不相同。
+(3)临床诊断标准：临床上多采用Jass诊断标准，符合以下条件之一者即可诊断JPS：①结直肠幼年性息肉数目≥5个；②全胃肠道有幼年性息肉；③不论幼年性息肉数目，有家族史者[69]。
+分子检测：大约40%～50%的JPS患者可检测到BMPR1A或SMAD4基因的胚系突变。
+(4)外科治疗方式：JPS临床治疗的重点在于清除胃肠道息肉，防止其继发肠套叠、梗阻、出血等严重并发症。因此，手术结合内镜治疗仍是目前JPS临床治疗的主要手段。对于小的、带蒂息肉应尽可能行内镜下灼除或圈套切除，对于反复便血、严重贫血或营养不良、息肉出现严重并发症者，以及无法进行内镜摘除时，需考虑手术治疗。手术原则是切除全部病变肠管，但应尽可能保留肛门括约肌功能。对于低位直肠内的息肉可经肛门切除。
+(5)患者的随访方案：对于临床诊断为JPS的患者，应进行BMPR1A和SMAD4基因突变的检测。对于确诊JPS的患者建议定期进行肠镜检查，了解息肉的大小、分布等，并对较大息肉进行内镜下治疗。但是，由于JPS患者多为儿童，内镜检查和治疗的难度较大，患者的依从性也较差。因此，建议患者去有治疗经验的医疗单位诊治。
+(6)家系成员的随访方案：对于临床诊断为JPS患者的家系成员，应进行BMPR1A和SMAD4基因胚系突变的检测，对于胚系突变携带者应根据JPS患者的随访监测标准进行相应的随访监控。
+3．SPS
+(1)定义：SPS曾被称为增生性息肉综合征，是一种以结肠内多发和(或)较大的锯齿状息肉为临床特征的遗传病[70]。
+(2)临床病理特征：结肠内多发和(或)较大的锯齿状息肉是SPS的主要临床特征。
+SPS的息肉可分为增生性息肉、无蒂锯齿状腺瘤和传统型锯齿状腺瘤等类型。大体病理：增生性息肉是最常见的锯齿状息肉，约占80%～90%，通常位于远端结肠(80%在乙状结肠)，体积较小(<5 mm)，灰白色，表面有光泽，似周围正常的黏膜组织。无蒂锯齿状腺瘤占所有锯齿状息肉10%～25%，常位于右半结肠，为平坦的或无蒂的息肉。传统型锯齿状腺瘤仅占锯齿状息肉的1%～2%，主要位于左半结肠。镜下病理：锯齿状病变是指隐窝腺体具有锯齿状形态特征的结直肠息肉或腺瘤，常由于隐窝上皮细胞增生、向腺腔内折而形成。
+(3)临床诊断标准：WHO建议SPS的临床诊断标准满足以下任何一条即可诊断为SPS：①乙状结肠相邻部位至少有≥5个的锯齿型息肉，且其中2个直径>10 mm。②乙状结肠临近部位出现任何数量的锯齿状息肉，且其一级亲属罹患锯齿状息肉病。③结肠任何部位分布>20个锯齿状息肉[70]。
+分子检测：锯齿状病变中存在KRAS和(或)BRAF基因体细胞突变。右半结肠好发大的无蒂锯齿状腺瘤，常伴有BRAF突变；左半结肠好发小的增生性息肉，常伴有KRAS突变。
+(4)外科手术方式：由于SPS继发结直肠癌的风险较高，因此，SPS的外科治疗仍以内镜下清除其结肠内的锯齿状息肉为主。如因息肉大小、数目的原因结肠镜检查无法清除全部结肠息肉，或患者不耐受频繁的结肠镜检查，或结肠镜检查发现息肉恶变时，应建议患者行TAC＋IRA。
+(5)患者的随访方案：由于SPS继发结直肠癌的风险较高，临床上对于SPS患者应该密切随访监测，建议患者每1～2年进行1次结肠镜或染色内镜检查以切除所有的息肉，建议检查尽可能在有经验的三级医疗机构进行。
+(6)家系成员的随访方案：SPS具有家族遗传倾向。对于先证者的一级亲属应该比先证者年轻10岁开始，每1～2年进行1次结肠镜筛查，尽可能采用染色内镜。
+PJS、JPS和SPS临床特征的比较见表5。
+点击查看表格
+表5
+PJS、JPS和SPS的临床病理特征和家系随访情况比较
+表5
+PJS、JPS和SPS的临床病理特征和家系随访情况比较
+综合征
+全称
+遗传学病因
+遗传特征
+病理类型
+临床特征
+息肉好发部位
+临床风险
+治疗方式
+患者随访方案
+突变携带者或家系成员随访方案
+PJS
+Peutz－Jeghers Syndrome
+LKB1(即STK11)基因突变
+常染色体显性遗传
+错构瘤息肉
+皮肤黏膜色素斑、胃肠道多发错构瘤息肉
+全消化道分布，特别是高位空肠
+息肉引发的梗阻、套叠、出血、穿孔、恶变以及肠外合并症
+内镜下治疗＋外科手术
+息肉数目较多、体积较大、分布较密集者应每年进行1次小肠镜检查；息肉数目较少、体积较小、分布较稀疏者可每2～3年复查1次小肠镜
+无基因突变者同普通人群，携带突变基因者每2年小肠镜检查
+JPS
+Juvenile Polyposis Syndrome
+BMPR1A或SMAD4基因突变
+常染色体显性遗传
+幼年性息肉
+胃肠道多发幼年性息肉
+胃肠道，主要是结直肠
+息肉引发的梗阻、套叠、出血、穿孔和恶变
+内镜下治疗＋外科手术
+每1～2年复查胃镜和结肠镜(主要是结肠镜)
+无基因突变者同普通人群，携带突变基因者每2年结肠镜检查
+SPS
+Serrated Polyposis Syndrome
+具体遗传病因未明
+家族遗传倾向
+锯齿状息肉
+结肠内多发和(或)较大的锯齿状息肉
+结肠，主要是乙状结肠
+息肉继发恶变、梗阻和出血
+内镜下治疗＋外科手术
+每1～2年复查结肠镜
+比先证者年轻10岁开始，每1～2年复查结肠镜
+注：PJS:遗传性色素沉着消化道息肉病综合征；JPS:幼年性息肉综合征；SPS:锯齿状息肉病综合征
+三、遗传咨询、基因检测及风险预测
+1．遗传咨询以及遗传门诊的重要性：
+肿瘤的遗传咨询是遗传咨询专业人员对患者及其亲属的遗传风险进行评估、解释和讨论患病风险的过程。这是一个非常复杂的工作，不仅涉及判断咨询者的患病风险，而且还需要根据咨询对象的宗教信仰、教育背景、心理承受力及其对患病风险总体观念的理解做出不同的应对。
+遗传咨询是改善遗传性肿瘤诊治一个非常重要的环节。因遗传性肿瘤发病率比较低，大多数医师接触到的病例数均很少。而另一方面，遗传性肿瘤又是非常复杂的疾病，多表现为综合征，临床表现变化多端，完全不同于仅累及一个器官的散发性肿瘤；而且其生长速度、处理方法亦有别于散发性肿瘤。因此，建议有条件的医疗单位建立结直肠癌遗传门诊。
+2．基因突变检测方法的选择及可行性：
+传统的胚系突变检测采用Sanger法测序，只能逐个检测怀疑突变的基因。近年来，NGS逐渐被应用于胚系突变的检测并显示出明显的优势。NGS能一次性检测多个候选基因，明显提高了检测的效率，降低了成本，并提高了遗传性肿瘤的诊断率。但目前国内提供遗传性肿瘤胚系突变检测的第三方机构有数十家之多，检测结果可靠性和数据的解读水平参差不齐，我们建议在选择检测机构时仔细查看相应的资质，以确保检测结果的真实性和可靠性。
+专家组成员
+顾问 郑树(浙江大学肿瘤研究所)、万德森(中山大学肿瘤医院结直肠科)、张苏展(浙江大学医学院附属第二医院肿瘤外科)、蔡三军(复旦大学肿瘤医院大肠外科)、顾晋(北京大学肿瘤医院结直肠肿瘤外科)、丁克峰(浙江大学医学院附属第二医院肿瘤外科)
+专家组组长 袁瑛(浙江大学医学院附属第二医院肿瘤内科)、熊斌(武汉大学中南医院肿瘤外科)、徐烨(复旦大学肿瘤医院大肠外科)
+执笔专家(按姓氏汉语拼音字母排序) 丁培荣(中山大学肿瘤医院结直肠科)、董坚(云南省肿瘤医院肿瘤内科)、顾国利(解放军空军总医院普通外科)、鞠海星(浙江省肿瘤医院结直肠外科)、李德川(浙江省肿瘤医院结直肠外科)、李君(浙江大学医学院附属第一医院病理科)、林洁(南方医科大学南方医院病理科)、邱萌(四川大学华西医院腹部肿瘤科)、盛剑秋(解放军陆军总医院消化内科)、王晰程(北京大学肿瘤医院消化内科)、吴保平(南方医科大学南方医院消化内科)、熊斌(武汉大学中南医院肿瘤外科)、徐栋(浙江大学医学院附属第二医院肿瘤外科)、徐烨(复旦大学肿瘤医院大肠外科)、袁瑛(浙江大学医学院附属第二医院肿瘤内科)
+利益冲突
+利益冲突 无
+参考文献
+[1]
+ChenW, ZhengR, BaadePD, et al.
+Cancer statistics in China, 2015[J].
+CA Cancer J Clin,
+2016,
+66(
+2):
+115-
+132.
+DOI: 10.3322/caac.21338.
+[2]
+HampelH, FrankelWL, MartinE, et al.
+Feasibility of screening for Lynch syndrome among patients with colorectal cancer[J].
+J Clin Oncol,
+2008,
+26(
+35):
+5783-
+5788.
+DOI: 10.1200/JCO.2008.17.5950.
+[3]
+LynchHT, de la ChapelleA.
+Hereditary colorectal cancer[J].
+N Engl J Med,
+2003,
+348(
+10):
+919-
+932.
+DOI: 10.1056/NEJMra012242.
+[4]
+KempersMJ, KuiperRP, OckeloenCW, et al.
+Risk of colorectal and endometrial cancers in EPCAM deletion－positive Lynch syndrome: a cohort study[J].
+Lancet Oncol,
+2011,
+12(
+1):
+49-
+55.
+DOI: 10.1016/S1470-2045(10)70265-5.
+[5]
+MollerP, SeppalaT, BernsteinI, et al.
+Cancer incidence and survival in Lynch syndrome patients receiving colonoscopic and gynaecological surveillance: first report from the prospective Lynch syndrome database[J].
+Gut,
+2017,
+66(
+3):
+464-
+472.
+DOI: 10.1136/gutjnl-2015-309675.
+[6]
+钟晨菡，李晓芬，徐栋，等.
+Lynch综合征的诊治进展和家系管理 [J].
+中国肿瘤临床，
+2016,
+43(
+20):
+883-
+886.
+DOI: 10.3969/j.issn.1000-8179.2016.20.819.
+ZhongCH, LiXF, XuD, et al. Progress on the diagnosis, treatment, and family management of Lynch syndrome[J]. Chin J Clin Oncol, 2016, 43(20): 883-886. DOI: 10.3969/j.issn.1000-8179.2016.20.819.
+[7]
+BarnetsonRA, TenesaA, FarringtonSM, et al.
+Identification and survival of carriers of mutations in DNA mismatch－repair genes in colon cancer[J].
+N Engl J Med,
+2006,
+354(
+26):
+2751-
+2763.
+DOI: 10.1056/NEJMoa053493.
+[8]
+袁瑛，曹文明，蔡善荣，等．
+中国人遗传性非息肉病性结直肠癌家系的临床表型分析 [J].
+中华肿瘤杂志，
+2006,
+28(
+1):
+36-
+38.
+DOI: 10.3760/j.issn:0253-3766.2006.01.010.
+YuanY, CaoWM, CaiSR, et al. Clinical phenotype of Chinese hereditary nonpolyposis colorectal cancer (HNPCC) families[J]. Chin J Oncol, 2006, 28(1): 36-38. DOI: 10.3760/j.issn:0253-3766.2006.01.010.
+[9]
+金黑鹰，颜宏利，马修强，等．
+中国人遗传性非息肉病性结直肠癌相关肿瘤谱及累计发病风险 [J].
+第二军医大学学报，
+2004,
+25(
+2):
+133-
+135.
+DOI：10.3321/j.issn:0258-879X.2004.02.005.
+JinHY, YanHL, MaXQ, et al. Cancer spectum and cumulative lifetime risk for hereditary nonpolyposis colorectal cancer in Chinese[J]. Acad J Sec Mil Med Univ, 2004, 25(2): 133-135. DOI: 10.3321/j.issn:0258-879X.2004.02.005.
+[10]
+YuanY, HanHJ, ZhengS, et al.
+Germline mutations of hMLH1 and hMSH2 genes in patients with suspected hereditary nonpolyposis colorectal cancer and sporadic early－onset colorectal cancer[J].
+Dis Colon Rectum,
+1998,
+41(
+4):
+434-
+440.
+[11]
+YuanY, YeJ, ZhengS.
+Clinical and genetic features of International Collaborative Group－hereditary nonpolyposis colorectal cancer families and suspected hereditary nonpolyposis colorectal cancer families[J].
+Chin Med J (Engl),
+2004,
+117(
+5):
+748-
+752.
+[12]
+袁瑛，张苏展，郑树，等．
+中国人遗传性大肠癌筛检标准的实施方案 [J].
+中华肿瘤杂志，
+2004,
+26(
+3):
+191-
+192.
+DOI: 10.3760/j.issn:0253-3766.2006.01.010.
+YuanY, ZhangSZ, ZhengS, et al. Guideline for chinese hereditary colorectal cancer standardized screening[J]. Chin J Oncol, 2004, 26(3): 191-192. DOI: 10.3760/j.issn:0253-3766.2006.01.010.
+[13]
+HendriksYM, de JongAE, MorreauH, et al.
+Diagnostic approach and management of Lynch syndrome (hereditary nonpolyposis colorectal carcinoma): a guide for clinicians[J].
+CA Cancer J Clin,
+2006,
+56(
+4):
+213-
+225.
+[14]
+XicolaRM, LlorX, PonsE, et al.
+Performance of different microsatellite marker panels for detection of mismatch repair－deficient colorectal tumors[J].
+J Natl Cancer Inst,
+2007,
+99(
+3):
+244-
+252.
+DOI: 10.1093/jnci/djk033.
+[15]
+FitzgibbonsRJ, LynchHT, StanislavGV, et al.
+Recognition and treatment of patients with hereditary nonpolyposis colon cancer (Lynch syndromes Ⅰ and Ⅱ)[J].
+Ann Surg,
+1987,
+206(
+3):
+289-
+295.
+[16]
+Rodriguez－BigasMA, VasenHF, Pekka－MecklinJ, et al.
+Rectal cancer risk in hereditary nonpolyposis colorectal cancer after abdominal colectomy. International Collaborative Group on HNPCC[J].
+Ann Surg,
+1997,
+225(
+2):
+202-
+207.
+[17]
+Van DalenR, ChurchJ, McGannonE, et al.
+Patterns of surgery in patients belonging to amsterdam－positive families[J].
+Dis Colon Rectum,
+2003,
+46(
+5):
+617-
+620.
+DOI: 10.1097/01.DCR.0000064695.98044.6A.
+[18]
+SargentDJ, MarsoniS, MongesG, et al.
+Defective mismatch repair as a predictive marker for lack of efficacy of fluorouracil－based adjuvant therapy in colon cancer[J].
+J Clin Oncol,
+2010,
+28(
+20):
+3219-
+3226.
+DOI: 10.1200/JCO.2009.27.1825.
+[19]
+DiazLA, LeDT.
+PD－1 Blockade in Tumors with Mismatch－Repair Deficiency[J].
+N Engl J Med,
+2015,
+373(
+20):
+1979.
+DOI: 10.1056/NEJMc1510353.
+[20]
+FranciscoI, AlbuquerqueC, LageP, et al.
+Familial colorectal cancer type X syndrome: two distinct molecular entities？[J].
+Fam Cancer,
+2011,
+10(
+4):
+623-
+631.
+DOI: 10.1007/s10689-011-9473-7.
+[21]
+BonadonaV, BonaitiB, OlschwangS, et al.
+Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome[J].
+JAMA,
+2011,
+305(
+22):
+2304-
+2310.
+DOI: 10.1001/jama.2011.743.
+[22]
+EngelC, LoefflerM, SteinkeV, et al.
+Risks of less common cancers in proven mutation carriers with lynch syndrome[J].
+J Clin Oncol,
+2012,
+30(
+35):
+4409-
+4415.
+DOI: 10.1200/JCO.2012.43.2278.
+[23]
+SenterL, ClendenningM, SotamaaK, et al.
+The clinical phenotype of Lynch syndrome due to germ－line PMS2 mutations[J].
+Gastroenterology,
+2008,
+135(
+2):
+419-
+428.
+DOI: 10.1053/j.gastro.2008.04.026.
+[24]
+LindorNM, PetersenGM, HadleyDW, et al.
+Recommendations for the care of individuals with an inherited predisposition to Lynch syndrome: a systematic review[J].
+JAMA,
+2006,
+296(
+12):
+1507-
+1517.
+DOI: 10.1001/jama.296.12.1507.
+[25]
+ChenLM, YangKY, LittleSE, et al.
+Gynecologic cancer prevention in Lynch syndrome/hereditary nonpolyposis colorectal cancer families[J].
+Obstet Gynecol,
+2007,
+110(
+1):
+18-
+25.
+DOI: 10.1097/01.AOG.0000267500.27329.85.
+[26]
+VasenHF, BlancoI, Aktan－CollanK, et al.
+Revised guidelines for the clinical management of Lynch syndrome (HNPCC): recommendations by a group of European experts[J].
+Gut,
+2013,
+62(
+6):
+812-
+823.
+DOI: 10.1136/gutjnl-2012-304356.
+[27]
+RothwellPM, FowkesFG, BelchJF, et al.
+Effect of daily aspirin on long－term risk of death due to cancer: analysis of individual patient data from randomised trials[J].
+Lancet,
+2011,
+377(
+9759):
+31-
+41.
+DOI: 10.1016/S0140-6736(10)62110-1.
+[28]
+ShiovitzS, CopelandWK, PassarelliMN, et al.
+Characterisation of familial colorectal cancer Type X, Lynch syndrome, and non－familial colorectal cancer[J].
+Br J Cancer,
+2014,
+111(
+3):
+598-
+602.
+DOI: 10.1038/bjc.2014.309.
+[29]
+KlarskovL, HolckS, BernsteinI, et al.
+Hereditary colorectal cancer diagnostics: morphological features of familial colorectal cancer type X versus Lynch syndrome[J].
+J Clin Pathol,
+2012,
+65(
+4):
+352-
+356.
+DOI: 10.1136/jclinpath-2011-200535.
+[30]
+GiardielloFM, AllenJI, AxilbundJE, et al.
+Guidelines on genetic evaluation and management of Lynch syndrome: a consensus statement by the US Multi－Society Task Force on colorectal cancer[J].
+Gastroenterology,
+2014,
+147(
+2):
+502-
+526.
+DOI: 10.1053/j.gastro.2014.04.001.
+[31]
+JoWS, ChungDC.
+Genetics of hereditary colorectal cancer[J].
+Semin Oncol,
+2005,
+32(
+1):
+11-
+23.
+DOI: 10.1053/j.seminoncol.2004.09.034.
+[32]
+AretzS, KochA, UhlhaasS, et al.
+Should children at risk for familial adenomatous polyposis be screened for hepatoblastoma and children with apparently sporadic hepatoblastoma be screened for APC germline mutations？[J].
+Pediatr Blood Cancer,
+2006,
+47(
+6):
+811-
+818.
+DOI: 10.1002/pbc.20698.
+[33]
+LevyRA, HuiVW, SoodR, et al.
+Cribriform－morular variant of papillary thyroid carcinoma: an indication to screen for occult FAP[J].
+Fam Cancer,
+2014,
+13(
+4):
+547-
+551.
+DOI: 10.1007/s10689-014-9732-5.
+[34]
+NieuwenhuisMH, VasenHF.
+Correlations between mutation site in APC and phenotype of familial adenomatous polyposis (FAP): a review of the literature[J].
+Crit Rev Oncol Hematol,
+2007,
+61(
+2):
+153-
+161.
+DOI: 10.1016/j.critrevonc.2006.07.004.
+[35]
+NuslihaA, DalpataduU, AmarasingheB, et al.
+Congenital hypertrophy of retinal pigment epithelium (CHRPE) in patients with familial adenomatous polyposis (FAP); a polyposis registry experience[J].
+BMC Res Notes,
+2014,
+7:
+734.
+DOI: 10.1186/1756-0500-7-734.
+[36]
+SturtNJ, GallagherMC, BassettP, et al.
+Evidence for genetic predisposition to desmoid tumours in familial adenomatous polyposis independent of the germline APC mutation[J].
+Gut,
+2004,
+53(
+12):
+1832-
+1836.
+DOI: 10.1136/gut.2004.042705.
+[37]
+SyngalS, BrandRE, ChurchJM, et al.
+ACG clinical guideline: Genetic testing and management of hereditary gastrointestinal cancer syndromes[J].
+Am J Gastroenterol,
+2015,
+110(
+2):
+223-
+263.
+DOI: 10.1038/ajg.2014.435.
+[38]
+KnudsenAL, BulowS, TomlinsonI, et al.
+Attenuated familial adenomatous polyposis: results from an international collaborative study[J].
+Colorectal Dis,
+2010,
+12(
+10 Online):
+e243-
+249.
+DOI: 10.1111/j.1463-1318.2010.02218.x.
+[39]
+SieberOM, SegditsasS, KnudsenAL, et al.
+Disease severity and genetic pathways in attenuated familial adenomatous polyposis vary greatly but depend on the site of the germline mutation[J].
+Gut,
+2006,
+55(
+10):
+1440-
+1448.
+DOI: 10.1136/gut.2005.087106.
+[40]
+苏芳，王涛，王邦茂．
+衰减型家族性腺瘤性息肉病 [J].
+中国消化内镜，
+2008,
+2(
+8):
+20-
+26.
+SuF, WangT, WangBM.
+Attenuated familial adenomatour poyposis[J].
+Chin Gastrointest Endosc,
+2008,
+2(
+8):
+20-
+26.
+[41]
+CroitoruME, ClearySP, Di NicolaN, et al.
+Association between biallelic and monoallelic germline MYH gene mutations and colorectal cancer risk[J].
+J Natl Cancer Inst,
+2004,
+96(
+21):
+1631-
+1634.
+DOI: 10.1093/jnci/djh288.
+[42]
+SieberOM, TomlinsonIP, LamlumH.
+The adenomatous polyposis coli (APC) tumour suppressor: genetics, function and disease[J].
+Mol Med Today,
+2000,
+6(
+12):
+462-
+469.
+[43]
+AretzS.
+The differential diagnosis and surveillance of hereditary gastrointestinal polyposis syndromes[J].
+Dtsch Arztebl Int,
+2010,
+107(
+10):
+163-
+173.
+DOI: 10.3238/arztebl.2010.0163.
+[44]
+Wachsmannova－MatelovaL, StevurkovaV, AdamcikovaZ, et al.
+Different phenotype manifestation of familial adenomatous polyposis in families with APC mutation at codon 1309[J].
+Neoplasma,
+2009,
+56(
+6):
+486-
+489.
+[45]
+GuarinosC, JuarezM, EgoavilC, et al.
+Prevalence and characteristics of MUTYH－associated polyposis in patients with multiple adenomatous and serrated polyps[J].
+Clin Cancer Res,
+2014,
+20(
+5):
+1158-
+1168.
+DOI: 10.1158/1078-0432.CCR-13-1490.
+[46]
+WuthrichP, GervazP, AmbrosettiP, et al.
+Functional outcome and quality of life after restorative proctocolectomy and ileo－anal pouch anastomosis[J].
+Swiss Med Wkly,
+2009,
+139(
+13－14):
+193-
+197.
+[47]
+Ponz de LeonM, BianchiniMA, Reggiani－BonettiL, et al.
+An unusual case of familial adenomatous polyposis with very early symptom occurrence[J].
+Fam Cancer,
+2014,
+13(
+3):
+375-
+380.
+DOI: 10.1007/s10689-014-9718-3.
+[48]
+LatchfordAR, NealeKF, SpigelmanAD, et al.
+Features of duodenal cancer in patients with familial adenomatous polyposis[J].
+Clin Gastroenterol Hepatol,
+2009,
+7(
+6):
+659-
+663.
+DOI: 10.1016/j.cgh.2009.02.028.
+[49]
+DriniM, SpeerA, DowC, et al.
+Management of duodenal adenomatosis in FAP: single centre experience[J].
+Fam Cancer,
+2012,
+11(
+2):
+167-
+173.
+DOI: 10.1007/s10689-011-9496-0.
+[50]
+IaquintoG, FornasarigM, QuaiaM, et al.
+Capsule endoscopy is useful and safe for small－bowel surveillance in familial adenomatous polyposis[J].
+Gastrointest Endosc,
+2008,
+67(
+1):
+61-
+67.
+DOI: 10.1016/j.gie.2007.07.048.
+[51]
+TulchinskyH, KeidarA, StrulH, et al.
+Extracolonic manifestations of familial adenomatous polyposis after proctocolectomy[J].
+Arch Surg,
+2005,
+140(
+2):
+159-
+164.
+DOI: 10.1001/archsurg.140.2.159.
+[52]
+GaliatsatosP, FoulkesWD.
+Familial adenomatous polyposis[J].
+Am J Gastroenterol,
+2006,
+101(
+2):
+385-
+398.
+DOI: 10.1111/j.1572-0241.2006.00375.x.
+[53]
+BurnJ, BishopDT, ChapmanPD, et al.
+A randomized placebo－controlled prevention trial of aspirin and/or resistant starch in young people with familial adenomatous polyposis[J].
+Cancer Prev Res (Phila),
+2011,
+4(
+5):
+655-
+665.
+DOI: 10.1158/1940-6207.CAPR-11-0106.
+[54]
+GiardielloFM, YangVW, HylindLM, et al.
+Primary chemoprevention of familial adenomatous polyposis with sulindac[J].
+N Engl J Med,
+2002,
+346(
+14):
+1054-
+1059.
+DOI: 10.1056/NEJMoa012015.
+[55]
+SteinbachG, LynchPM, PhillipsRK, et al.
+The effect of celecoxib, a cyclooxygenase－2 inhibitor, in familial adenomatous polyposis[J].
+N Engl J Med,
+2000,
+342(
+26):
+1946-
+1952.
+DOI: 10.1056/NEJM200006293422603.
+[56]
+BraskyTM, PotterJD, KristalAR, et al.
+Non－steroidal anti－inflammatory drugs and cancer incidence by sex in the VITamins And Lifestyle (VITAL) cohort[J].
+Cancer Causes Control,
+2012,
+23(
+3):
+431-
+444.
+DOI: 10.1007/s10552-011-9891-8.
+[57]
+RuderEH, LaiyemoAO, GraubardBI, et al.
+Non－steroidal anti－inflammatory drugs and colorectal cancer risk in a large, prospective cohort[J].
+Am J Gastroenterol,
+2011,
+106(
+7):
+1340-
+1350.
+DOI: 10.1038/ajg.2011.38.
+[58]
+ArberN, EagleCJ, SpicakJ, et al.
+Celecoxib for the prevention of colorectal adenomatous polyps[J].
+N Engl J Med,
+2006,
+355(
+9):
+885-
+895.
+DOI: 10.1056/NEJMoa061652.
+[59]
+Cruz－CorreaM, HylindLM, RomansKE, et al.
+Long－term treatment with sulindac in familial adenomatous polyposis: a prospective cohort study[J].
+Gastroenterology,
+2002,
+122(
+3):
+641-
+645.
+[60]
+JonesS, EmmersonP, MaynardJ, et al.
+Biallelic germline mutations in MYH predispose to multiple colorectal adenoma and somatic G: C→T: A mutations[J].
+Hum Mol Genet,
+2002,
+11(
+23):
+2961-
+2967.
+[61]
+SamadderNJ, NeklasonDW, BoucherKM, et al.
+Effect of Sulindac and Erlotinib vs Placebo on Duodenal Neoplasia in Familial Adenomatous Polyposis: A Randomized Clinical Trial[J].
+JAMA,
+2016,
+315(
+12):
+1266-
+1275.
+DOI: 10.1001/jama.2016.2522.
+[62]
+陆相吉，顾国利，魏学明，等．
+经典Wnt通路关键成员在Peutz－Jeghers综合征息肉组织中的表达 [J].
+世界华人消化杂志，
+2013,
+21(
+8):
+655-
+660.
+LuXJ, GuGL, WeiXM, et al.
+The expression of key members of the classical Wnt pathway in the Peutz－Jeghers syndrome[J].
+World Chin J Dig,
+2013,
+21(
+8):
+655-
+660.
+[63]
+丁振，顾国利．
+遗传性结直肠癌的体系结构和诊治进展 [J/CD].
+中华结直肠疾病电子杂志：电子版，
+2013,
+2(
+4):
+184-
+190.
+DOI：10.3877/cma.j.issn.2095-3224.2013.03.09.
+DingZ, GuGL. Systemic structure and recent advances in hereditary colorectal cancer diagnosis[J/CD]. Chin J Colorec Dis: Electronic Edition, 2013, 2(4): 184-190. DOI: 10.3877/cma.j.issn.2095-3224.2013.03.09.
+[64]
+占春玲，吴保平，张亚历．
+β－catenin基因在Peutz－Jeghers综合征组织中的突变及表达 [J].
+世界华人消化杂志，
+2011,
+19(
+16):
+1739-
+1744.
+ZhanCL, WuBP, ZhangYL.
+Mutation and expression of the β－catenin gene in Peutz－Jeghers syndrome[J].
+World Chin J Dig,
+2011,
+19(
+16):
+1739-
+1744.
+[65]
+王石林，顾国利，魏学明，等．
+Peutz－Jeghers综合征临床综合治疗模式初探(附71例报道) [J].
+中国普外基础与临床杂志，
+2012,
+19(
+5):
+502-
+506.
+WangSL, GuGL, WeiXM, et al.
+Clinical Comprehensive Therapy of Peutz－Jeghers Syndrome (Report of 71 Cases)[J].
+Chin J Bases Clin General Surg,
+2012,
+19(
+5):
+502-
+506.
+[66]
+顾国利，魏学明，徐丽梅，等．
+Peutz－Jeghers综合征预防性治疗的研究 [J].
+胃肠病学和肝病学杂志，
+2012,
+21(
+4):
+380-
+383.
+DOI: 10.3969/j.issn.1006-5709.2012.04.028.
+GuGL, WeiXM, XuLM, et al. Preventive Treatment of Peutz－Jeghers syndrome[J]. Chin J Gastroenterol Hepatol, 2012, 21(4): 380-383. DOI: 10.3969/j.issn.1006-5709.2012.04.028.
+[67]
+潘毅，徐丽梅，顾国利，等．
+Peutz－Jeghers综合征中西医研究进展[J].
+中国中西医结合消化杂志，
+2015,
+23(
+8):
+596-
+598.
+PanY, XuLM, GuGL, et al.
+Recent advances of Peutz－Jeghers in chinese traditional and western medicine[J].
+Chin J Integr Trad West Med Dig,
+2015,
+23(
+8):
+596-
+598.
+[68]
+费翔，于鹏飞，杨海瑞，等．
+Peutz－Jeghers综合征肠道息肉恶变的临床分析 [J].
+中国普外基础与临床杂志，
+2016,
+13(
+5):
+598-
+600.
+FeiX, YuPF, YangHR, et al.
+Clinical analysis of malignant transformation of intestinal polyps in Peutz－Jeghers syndrome[J].
+Chin J Bases Clin General Surg,
+2016,
+13(
+5):
+598-
+600.
+[69]
+刘剑，李群，陈丽荣，等．
+家族性幼年性息肉病的家系研究 [J].
+中华普通外科杂志，
+2006,
+21(
+8):
+553-
+556.
+DOI: 10.3760/j.issn:1007-631X.2006.08.003.
+LiuJ, LiQ, ChenLR, et al. The diagnosis and management of familial juvenile polyposis[J]. Chin J Gen Surg, 2006, 21(8): 553-556. DOI: 10.3760/j.issn:1007-631X.2006.08.003.
+[70]
+GuarinosC, Sanchez－FortunC, Rodriguez－SolerM, et al.
+Serrated polyposis syndrome: molecular, pathological and clinical aspects[J].
+World J Gastroenterol,
+2012,
+18(
+20):
+2452-
+2461.
+DOI: 10.3748/wjg.v18.i20.2452.
+贡献者信息
+中国抗癌协会大肠癌专业委员会遗传学组
+关键词
+遗传性结直肠癌;
+Lynch综合征;
+家族性腺瘤性息肉病;
+基因检测;
+基金项目
+国家重点研发计划－NCRCC （2017YFC0908200）
+利益冲突
+利益冲突 无
+历史
+出版日期：2018-01-23
+收稿日期：2017-11-06
+Guideline and Standard
+Consensus on clinical diagnosis, treatment and pedigree management of hereditary colorectal cancer in China
+Genetics Group of the Committee of Colorectal Cancer, China Anti-cancer Association
+Published
+2018-01-23
+Cite as
+Chin J Oncol, 2018,40(1): 64-77. DOI: 10.3760/cma.j.issn.0253-3766.2018.01.013
+Abstract
+Hereditary colorectal cancer can be divded into two categories based on the presence or absence of polyps. The first category is characterized by the development of polyposis, which includes familial adenomatous polyposis (FAP); The second category is nonpolyposis colorectal cancer, which is represented by Lynch syndrome. "Consensus on clinical diagnosis, treatment and pedigree management of hereditary colorectal cancer in China" developed by the Genetics Group of the Committee of Colorectal Cancer, Chinese Anti-cancer Association, is composed of three sections, including hereditary nonpolyposis syndrome, polyposis syndrome as well as genetic evaluation of hereditary colorectal cancer. The consensus aims to provide recommendations on management of the respective hereditary syndromes in terms of definition, clinical and pathological features, diagnostic standards, treatment, and follow-ups. In addition to describing diagnostic and treatment strategies, prophylactic treatment as well as genetic screening and pedigree monitoring is highly recommended. Through the establishment of this expert consensus, we hope to promote better understanding of hereditary colorectal cancer for clinicians and encourage standardized treatment through multidisciplinery approaches, eventually improving clinical treatment and pedigree management of hereditary colorectal cancer in China.
+Key words:
+Hereditary colorectal cancer; Lynch syndrome; Familial adenomatous polyposis; Genetic screening
+Contributor Information
+Genetics Group of the Committee of Colorectal Cancer, China Anti-cancer Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+Lynch综合征诊断标准的比较
+诊断标准
+家系描述
+附加条件
+中国人Lynch综合征家系标准
+家系中至少有2例组织病理学明确诊断的结直肠癌患者，其中2例为父母与子女或同胞兄弟姐妹的关系(一级血亲)
+符合以下任一条件：(1)至少1例为多发性结直肠癌患者(包括腺瘤)；(2)至少1例结直肠癌发病年龄<50岁；(3)家系中至少1例患HNPCC综合征相关肠外恶性肿瘤(包括胃癌、子宫内膜癌、小肠癌、输尿管和肾盂癌、卵巢癌和肝胆系统癌)。
+Amsterdam标准Ⅰ
+家系中至少3例确诊的结直肠癌患者
+同时满足以下所有条件：(1)其中1例为其他2例的一级亲属；(2)至少累及连续的2代人；(3)至少1例发病年龄<50岁；(4)除外FAP
+Amsterdam标准Ⅱ
+家系中至少有3例确诊的Lynch相关肿瘤(结直肠癌、子宫内膜癌和小肠癌等)患者
+同时满足以下所有条件：(1)其中1例为其他2例的一级亲属；(2)至少累及连续的2代人；(3)至少1例发病年龄<50岁；(4)除外FAP
+注：HNPCC:遗传性非息肉性结直肠癌；FAP:家族性腺瘤性息肉病
+注：MMR：错配修复基因；CRC:结直肠癌；IHC:免疫组化； a考虑到先行免疫组化或微卫星不稳定，再根据结果决定行胚系突变检测的时间较久，对于符合Amsterdam标准或中国人Lynch综合征家系标准、且有意愿将胚系突变的检测前置以辅助决定手术方式的初诊CRC患者可考虑术前直接行胚系突变检测； b家族性CRC X型指符合Amsterdam标准，但是肿瘤组织呈微卫星稳定或未检测到MMR基因胚系突变的患者[20]
+图1
+采用MMR免疫组化检测筛查Lynch综合征流程图
+注：CRC:结直肠癌；MSI:微卫星不稳定；MSI－H:微卫星高度不稳定；MSI－L:微卫星低度不稳定；MSS:微卫星稳定；a考虑到先行免疫组化或MSI，再根据结果决定行胚系突变检测的时间较久，对于符合Amsterdam标准或中国人Lynch综合征家系标准，且有意愿将胚系突变的检测前置，以辅助决定手术方式的初诊CRC患者，可考虑术前直接行胚系突变检测；b家族性CRC X型指符合Amsterdam标准，但是肿瘤组织呈MSS或未检测到MMR基因胚系突变的患者[20]
+图2
+采用MSI检测筛查Lynch综合征流程图
+表2
+Lynch家系中携带有错配修复基因胚系突变成员的随访监控策略
+监测肿瘤类型
+随访监控策略
+结直肠癌
+(1)MLH1或MSH2突变携带者：20～25岁开始行结肠镜检查，每1～2年复查；若家族中结肠癌患者的初发年龄<25岁，则筛查初始年龄较其提前2～5年；(2)MSH6或PMS2突变携带者：25～30岁开始行结肠镜检查，每1～2年复查；若家族中结直肠癌初发年龄<30岁，则筛查初始年龄提前2～5年
+子宫内膜癌和卵巢癌
+(1)已生育的可考虑子宫和双附件预防性切除术；(2)未行预防性手术者，当无临床症状时，建议每1～2年行子宫内膜活检以排除子宫内膜癌的风险，定期经阴道子宫双附件超声及血清CA125检测等排除卵巢癌风险
+胃癌和小肠癌
+从30～35岁开始每1～2年进行胃十二指肠镜检查
+尿路上皮癌
+从25～30岁开始每年进行常规尿液检测
+中枢神经系统肿瘤
+从25～30岁开始每年常规神经系统检查
+胰腺癌
+缺乏有效的筛查手段
+乳腺癌
+常规乳腺癌筛查
+表3
+CFAP和AFAP患者的临床特征
+分型
+腺瘤息肉数(个)
+发病年龄(岁)
+平均癌变年龄(岁)
+癌变率(%)
+CFAP
+严重型
+>1 000
+<20
+34
+100
+中间型
+100～1 000
+10～30
+42
+100
+AFAP
+<100
+30～50
+50～55
+69
+注：CFAP:经典型家族性腺瘤性息肉病；AFAP:衰减型家族性腺瘤性息肉病
+注：FAP:家族性腺瘤性息肉病；CFAP:经典型家族性腺瘤性息肉病；AFAP:衰减型家族性腺瘤性息肉病
+图3
+腺瘤性息肉综合征的基因检测筛查流程
+表4
+FAP不同手术方式的优缺点比较
+术式
+未来发生肿瘤
+未来随访监护
+并发症
+生活质量
+TPC＋EI
+无
+无
+并发症多，性功能降低，生育功能降低
+永久造瘘
+TPC＋IPAA
+息肉常见，恶性肿瘤少见
+每年检查Pouch和肛管
+并发症少，性功能降低，生育功能降低
+肛门功能因人而异
+TAC＋IRA
+息肉常见，恶性肿瘤2%～12%
+每年检查直肠
+并发症少，性功能影响小，生育功能影响小
+肛门功能好
+注：FAP:家族性腺瘤性息肉病；TPC:全大肠切除术；EI:回肠末端造瘘术；IPAA:回肠储袋肛管吻合术；TAC:全结肠切除术；IRA:回肠直肠吻合术
+注：PJS:遗传性色素沉着消化道息肉病综合征；DBE:双气囊小肠镜； a根据息肉数目、体积、分布密度程度决定
+图4
+PJS综合治疗模式图
+表5
+PJS、JPS和SPS的临床病理特征和家系随访情况比较
+综合征
+全称
+遗传学病因
+遗传特征
+病理类型
+临床特征
+息肉好发部位
+临床风险
+治疗方式
+患者随访方案
+突变携带者或家系成员随访方案
+PJS
+Peutz－Jeghers Syndrome
+LKB1(即STK11)基因突变
+常染色体显性遗传
+错构瘤息肉
+皮肤黏膜色素斑、胃肠道多发错构瘤息肉
+全消化道分布，特别是高位空肠
+息肉引发的梗阻、套叠、出血、穿孔、恶变以及肠外合并症
+内镜下治疗＋外科手术
+息肉数目较多、体积较大、分布较密集者应每年进行1次小肠镜检查；息肉数目较少、体积较小、分布较稀疏者可每2～3年复查1次小肠镜
+无基因突变者同普通人群，携带突变基因者每2年小肠镜检查
+JPS
+Juvenile Polyposis Syndrome
+BMPR1A或SMAD4基因突变
+常染色体显性遗传
+幼年性息肉
+胃肠道多发幼年性息肉
+胃肠道，主要是结直肠
+息肉引发的梗阻、套叠、出血、穿孔和恶变
+内镜下治疗＋外科手术
+每1～2年复查胃镜和结肠镜(主要是结肠镜)
+无基因突变者同普通人群，携带突变基因者每2年结肠镜检查
+SPS
+Serrated Polyposis Syndrome
+具体遗传病因未明
+家族遗传倾向
+锯齿状息肉
+结肠内多发和(或)较大的锯齿状息肉
+结肠，主要是乙状结肠
+息肉继发恶变、梗阻和出血
+内镜下治疗＋外科手术
+每1～2年复查结肠镜
+比先证者年轻10岁开始，每1～2年复查结肠镜
+注：PJS:遗传性色素沉着消化道息肉病综合征；JPS:幼年性息肉综合征；SPS:锯齿状息肉病综合征
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华肿瘤杂志2018年40卷1期
+文    题：遗传性结直肠癌临床诊治和家系管理中国专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华肿瘤杂志2018年40卷1期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解

@@ -1,0 +1,318 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%85%89%E7%94%B5%E6%8A%80%E6%9C%AF%E6%B2%BB%E7%96%97%E7%9A%AE%E8%82%A4%E5%88%9B%E4%BC%A4%E6%80%A7%E7%98%A2%E7%97%95%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282018%E7%89%88%29.html
+# 标题: 光电技术治疗皮肤创伤性瘢痕专家共识(2018版) - 中华烧伤杂志
+# 发布方/日期: 皮肤科，中华烧伤杂志, 2018,34(9) : 593-597. DOI: 10.3760/cma.j；2018-09-20
+
+光电技术治疗皮肤创伤性瘢痕专家共识(2018版)
+光电技术治疗皮肤创伤性瘢痕专家共识(2018版)编写组
+中华烧伤杂志, 2018,34(9) : 593-597. DOI: 10.3760/cma.j.issn.1009-2587.2018.09.007
+各种创伤(烧伤、外伤、手术)引起的瘢痕一直是整形美容外科治疗的重点和难点。瘢痕不仅可引起外观上的畸形，还常伴有功能障碍及疼痛、瘙痒、感觉异常等问题，此外也可导致心理问题，从而严重影响患者生存质量。目前瘢痕临床治疗主要分为2类：手术治疗和非手术治疗。非手术治疗方法较多，包括压力治疗、外用药物(硅酮制剂、积雪苷乳膏、中药等)、瘢痕内药物注射(类固醇激素、5氟尿嘧啶等)、激光、射频、放射线核素、冷冻等。随着选择性光热作用及点阵光热作用理论和实践的发展，光电技术为创伤性瘢痕的防治带来了突破性进展。然而部分专业人员相应的光电技术知识有所滞后，临床上存在对相关设备认知不统一、使用方法各异的现象。2013年1月—2018年1月，上海交通大学医学院附属第九人民医院整复外科激光治疗组采用光电技术治疗21 953例创伤性瘢痕患者，获得较好疗效。2018年1月起对这些病例资料进行了回顾性分析，同时参考国内外瘢痕激光治疗专家共识[1,2,3,4,5,6]，形成了初步临床治疗方案和原则。2018年3月23日在上海交通大学医学院附属第九人民医院，国内11位专家进行了半天会议讨论，在此基础上制订并撰写了《光电技术治疗皮肤创伤性瘢痕专家共识》初稿。2018年6—7月编写组通过函件方式邀请未能出席共识会议的多位专家对共识进行讨论，专家们均以书面方式提出详细修改意见，经过32次修改，最终形成适合我国当前医疗条件的《光电技术治疗皮肤创伤性瘢痕专家共识(2018版)》，供临床使用参考。
+1 光电技术
+光电技术是利用能量源与组织间产生的光物理学作用(如热、机械、电磁作用)和光生物学作用(如光化学、光生物调节作用)进行医学诊断及治疗的技术和方法。瘢痕治疗常用的光电技术主要有激光、光子、射频(微等离子体)等技术。由Rox Anderson提出的2个激光医学发展史上的"里程碑"理论，即选择性光热作用和点阵光热作用，奠定了激光技术在皮肤治疗领域中应用的基础，也是指导光电技术应用于瘢痕治疗的关键性工作原理。
+2 临床用于皮肤瘢痕治疗的光/激光
+2.1 作用于瘢痕组织血管、减少血供为主的("褪红")治疗
+2.1.1 强脉冲光
+是一种连续、多波长的非相干性光，采用输出波长为540/560～1 200 nm的强脉冲光(IPL)或500～600 nm的窄光谱强脉冲光(DPL)等，均可用于选择性治疗作用于血管中的血红蛋白。其治疗瘢痕的机制是选择性光热作用，具有与激光相似的生物学特性。强脉冲光穿透皮肤后可被瘢痕中血红蛋白选择性吸收，热损伤血管内皮细胞，从而引起血管闭塞起到使瘢痕组织"褪红"的效果，减少瘢痕的营养供给。强脉冲光还可以通过光热作用，导致胶原损伤、促进胶原重塑，并具有波段可选、脉冲宽度可调、能量较脉冲染料激光(PDL)低等特点。由于红斑性瘢痕表皮薄，且其中血管管径微小、弥漫、浅表[7]。因此，IPL和DPL适合作为"褪红"设备对早期红斑性(充血性)增生性瘢痕进行干预，间隔1～2个月可重复多次治疗。强脉冲光能级较低，不易引起局部皮肤损伤。但需要注意，如治疗间隔太短、频率太高可导致局部色素减退，此外，如果使用能量过高也可造成皮肤损害。
+2.1.2 PDL
+波长585 nm或595 nm，基于选择性光热作用，常用于血管性疾病的治疗。一般认为PDL治疗瘢痕的机制主要是以血红蛋白为靶基、选择性破坏瘢痕组织中的微血管，使血管闭塞、内皮细胞变性坏死，从而使瘢痕组织缺血、减少瘢痕的营养物质供给；此外，还可抑制Fb增殖，下调结缔组织生长因子的表达[8]。PDL可用于治疗早期红斑性(充血性)瘢痕，改善瘢痕色泽、厚度及柔韧性。PDL治疗瘢痕应采用中、低能量治疗，间隔1～2个月可重复多次治疗。应注意较高能量时易造成瘢痕表皮损伤形成新的瘢痕或治疗频率高时瘢痕易发生色素脱失等。
+2.1.3 可变脉冲宽度倍频掺钕钇铝石榴石(YAG)激光
+波长532 nm掺钕YAG激光或长脉冲宽度1 064 nm掺钕YAG激光，波长位于血红蛋白吸收峰值附近。理论上，利用血管中的血红蛋白选择性吸收特定波长的激光所释放的能量，导致血管的损伤和破坏，使得病变部位的血管逐渐消退。因此，以上2种激光也可用于瘢痕"褪红"的治疗。但由于是非高特异性作用，能量较高时可使皮肤组织受到损害。532 nm激光毫秒级脉冲宽度可治疗较大管径的血管，但治疗深度受限；长脉冲宽度1 064 nm掺钕YAG激光对血红蛋白产生非特异性热凝固作用，易造成皮肤损伤。值得注意的是，该2种激光使用时须采用中低能量，避免因较高能量造成皮肤损伤而产生新瘢痕。
+2.2 直接作用于瘢痕组织的激光
+点阵激光是激光器传递激光束的一种工作模式，是一种微创治疗方式。传统激光的作用目标是片状的皮肤，造成片状热损伤可形成瘢痕。点阵激光可将片状损伤区分解成数个微小三维的热损伤区域，用激光在皮肤上有规则地均匀排列成阵列打上微细的小孔，即微治疗区。通常来说，在正常皮肤上，微治疗区的直径小于500 μm，可刺激损伤区域通过再生而不是修复的方式完成愈合，因此可避免热损伤所致瘢痕，广泛应用于瘢痕治疗中。点阵激光通过部分剥脱气化、热凝固、热刺激诱导瘢痕重塑，可松解粘连，改善瘢痕的弹性、功能、平整度和色差。点阵激光传输点阵的密度和深度可控，微治疗区在皮肤中形成微柱状热凝固坏死带，因每个微治疗区周围有大量正常组织包绕，形成修复储备库，愈合快，且治疗后通过组织再生过程完成损伤愈合，增加安全性。点阵激光分为剥脱性点阵激光(AFL)和非剥脱性点阵激光(NAFL)。
+2.2.1 AFL
+常见有波长为10 600 nm的点阵二氧化碳激光和波长为2 940 nm的铒∶YAG点阵激光。AFL作用于组织可使组织即刻气化，并引起气化区周围的真皮层受热后胶原收缩，最终可使Ⅰ型胶原和弹力纤维增加，刺激损伤修复，引起瘢痕重塑。铒∶YAG点阵激光对水的吸收率远比点阵二氧化碳激光高，是点阵二氧化碳激光的10～20倍，引起的剥脱更精准，周围组织热损伤较小，恢复时间短，色素沉着发生率较低。但铒∶YAG点阵激光穿透性不如点阵二氧化碳激光强，对真皮层胶原刺激作用较弱，因此更适合于浅表瘢痕的治疗。若通过增加能量或同一部位重叠治疗亦可增加铒∶YAG点阵激光穿透性，但由于其缺乏止血作用，可引起皮肤渗血。点阵二氧化碳激光穿透深度深，可有效刺激真皮胶原纤维增生并促进其重排，但治疗能量密度较高时会出现结痂，易导致色素沉着。
+2.2.2 NAFL
+常见有1 550、1 565 nm波长的铒玻璃激光和1 064、1 320、1 440 nm波长的铒∶YAG点阵激光。因水对此类波长的激光吸收较2 940、10 600 nm波长AFL弱，而表皮角质层含水较真皮少、激光器手具含有即刻冷却功能，因此表皮保持完整，真皮只发生凝固坏死而不气化，可减少感染的可能。NAFL对真皮胶原热刺激相对较小，引起胶原收缩、胶原重塑较AFL弱，常需要增加治疗次数才能达到与AFL类似疗效。但NAFL并非绝对不引起剥脱，当治疗能量足够高时可引起组织剥脱。
+3 临床用于皮肤瘢痕治疗的电(射频)设备
+此类设备也是直接作用于瘢痕组织进行治疗，微等离子技术利用射频激发空气中的氮气产生光和热，作用在皮肤组织上产生剥脱效应和热效应。点阵微等离子体射频技术(FMRT)是一种新兴的、可以调控剥脱效应和热效应比值的治疗手段，可在皮肤表面形成点阵样剥脱性损伤，这种技术对表皮产生轻、中度气化剥脱的同时，能诱导真皮胶原新生和组织重塑。组织学研究表明，FMRT比点阵二氧化碳激光产生的热凝固带要窄，被认为是针对亚洲人皮肤相对安全的光电治疗[9,10,11]。早期或后期陈旧性非增生性瘢痕均可使用FMRT；定点的微等离子治疗具有刺激凹陷性瘢痕生长的作用，因此可用于凹陷性及萎缩性瘢痕治疗，疗效较好。微等离子也可联合超声药物导入的方法，增强创伤性瘢痕的治疗效果。与激光相似，如果治疗能量过高也可引起局部损伤过度，产生新瘢痕和色素改变；此外，微等离子治疗后也需即刻冷却降温。
+4 皮肤瘢痕光电治疗前的评估
+进行光电治疗前，应首先对瘢痕患者进行全面评估，包括：(1)病史(致伤因素、受伤时间、修复时间等)、皮肤局部用药情况。(2)既往史。(3)全身情况。(4)皮肤性质和瘢痕部位。(5)瘢痕局部症状与体征(色泽与质地)。(6)家族史。通过病史询问了解瘢痕发生的原因、发展过程以及既往治疗。通过体格检查对患者全身情况、瘢痕特点进行详细评估，包括瘢痕的色泽(色红、色沉、色减、色脱)、厚度(增生、扁平、萎缩、凹陷)、形态(线状、片状)、累及部位(面部、躯干、四肢)、有无功能障碍以及是否伴随痛痒、感觉异常。这些瘢痕的特点可应用温哥华瘢痕量表或患者与观察者瘢痕评价量表评估。为了方便光电技术治疗瘢痕的临床使用，建议对创伤性瘢痕患者进行评估时，主要根据瘢痕颜色(红色或不红)和类型(增生性、非增生性)进行简单分类，以指导临床医师选择合适的治疗方案、光电仪器，并可监测评价治疗效果。具体内容如下：(1)伴有局部功能障碍，采用手术("Z"字、"V"字或"Y"字)改形，或移植皮片、皮瓣等，并可在术前或术后联合应用光电治疗。(2)红斑性＋增生性瘢痕，采用IPL/DPL或PDL等行"褪红"处理、剥脱性点阵二氧化碳激光/铒∶YAG点阵激光治疗，可加超声导药。(3)红斑性＋非增生性瘢痕，采用IPL/DPL或PDL等行"褪红"处理、低能量点阵二氧化碳激光/铒∶YAG点阵激光、FMRT、NAFL治疗。(4)非红斑性＋增生性瘢痕，采用点阵二氧化碳激光/铒∶YAG点阵激光治疗，可加超声导药。(5)非红斑性＋非增生性瘢痕，采用低能量点阵二氧化碳激光/铒∶YAG点阵激光、FMRT、NAFL治疗。另外，瘢痕部位是否存在张力、患者皮肤类型、是否伴有皮肤疾病和使用皮肤外用药(尤其是光敏性药物)也会影响光电治疗效果，需要认真评估。此外，患者对治疗的期望值(心理评估)、预期的疗效和实际效果、可能存在的风险和并发症也需要仔细评估，以期最终达到医患均对疗效满意。
+5 根据皮肤瘢痕类型及阶段选择合适的光电设备
+根据皮肤外伤后瘢痕的不同类型及分期，结合当前瘢痕治疗的研究进展以及临床经验，制订瘢痕的综合治疗方案(图1)。对于需要进行光电治疗的患者，再按皮肤瘢痕光电治疗流程图(图2)对瘢痕进行分类并选择对应的治疗措施。光电治疗中一些具体事项如下。
+点击查看大图
+图1
+皮肤瘢痕综合治疗流程图
+图1
+皮肤瘢痕综合治疗流程图
+点击查看大图
+图2
+皮肤瘢痕光电治疗流程图
+图2
+皮肤瘢痕光电治疗流程图
+5.1 红斑性瘢痕
+红斑性(充血性)瘢痕可以是新生的未成熟瘢痕，或是伴有浅表血管扩张的成熟增生性瘢痕或瘢痕疙瘩。瘢痕组织内的血管管径微小、分布多弥漫和浅表，可具有表皮结构异常(表皮薄)的特点，针对红斑性瘢痕，一般采用血管靶向的强脉冲光(IPL/DPL等)、PDL、532 nm及长脉冲宽度1 064 nm掺钕YAG激光治疗，对瘢痕组织进行"褪红"处理。对于红斑性＋增生性瘢痕，则可采用IPL/DPL或PDL等联合点阵激光进行治疗，效果更佳。根据瘢痕的动态变化过程，应用IPL/DPL或PDL等进行封闭血管治疗、点阵激光促进胶原新生和重塑，此序贯性治疗可显著改善红斑性＋增生性瘢痕情况。红斑性瘢痕通常采用低能量IPL/DPL或PDL等治疗，根据需要每4～6周可重复治疗。
+5.2 增生性瘢痕
+增生性瘢痕由各种损伤累及皮肤真皮深层而引起，瘢痕明显高于周围正常皮肤，局部增厚变硬，可占位伴有瘢痕收缩。AFL和NAFL均可用于增生性瘢痕治疗，两者可交替进行或同时治疗。目前尚缺乏这2种激光治疗增生性瘢痕效果的随机对照研究数据，根据临床经验，AFL可引起剥脱微柱周围组织一定程度的热凝固，从而促进真皮胶原重塑反应。一般情况下，AFL可穿透瘢痕的最大深度为4.0 mm，高于NAFL的1.8 mm；另外，AFL引起的组织剥脱可缓解瘢痕收缩形成的张力。因此AFL对很厚的瘢痕及伴有收缩瘢痕的疗效优于NAFL。与铒∶YAG点阵激光相比，点阵二氧化碳激光由于被组织中的水吸收更多，可产生更强的重塑反应，同时点阵二氧化碳激光减少了治疗引起的出血。应用激光治疗增生性瘢痕应避免使用过高的能量密度，防止产生热损伤和新瘢痕。一般原则是使用低能量、低密度的点阵激光，避免同一位点同时多次治疗，激光治疗深度可与瘢痕的深度呈正比。若使用较高能量脉冲，应相应减少点阵密度以降低新生瘢痕的风险。增生性瘢痕一般需要通过重复治疗才能达到理想的疗效，患者间治疗次数个体化差异比较大，但多数患者需要行3～6次治疗，每次间隔3个月左右。
+5.3 非增生性瘢痕
+非增生性瘢痕通常包括扁平瘢痕及萎缩性、凹陷性瘢痕，是由于损伤(外伤、手术等)及慢性炎症(痤疮等)导致真皮胶原和/或皮下组织损害所致，瘢痕坚硬或柔软，平坦或略高/低于周围皮肤表面，可与深部肌肉、肌腱、神经等组织紧密粘连，局部血液循环差，表皮薄、不耐磨，易反复破损形成慢性溃疡等。非增生性瘢痕治疗首选AFL、NAFL和/或FMRT，其中NAFL需要多次治疗才能达到与AFL类似的疗效。点阵激光或FMRT利用点阵式热作用，在瘢痕上产生微小的热损伤，这些热损伤所产生的热效应可以促进胶原新生，使瘢痕的组织结构发生变化，从而改善瘢痕的质地、外观及功能。但是热损伤是一把"双刃剑"，可以发挥治疗作用，也能刺激形成新的瘢痕。因此，临床上对于治疗能量的选择要个体化，避免产生新瘢痕。
+6 注意事项
+所有创伤性瘢痕均适合采用光电技术治疗；在外伤性瘢痕创口/创面愈合(拆线)后均可治疗，必须强调的是光电治疗越早开始越好，特别是早期封闭血管"褪红"治疗可限制瘢痕营养、减少各类因子的分泌，防止瘢痕持续增生。因此尽早"褪红"治疗，可明显减少瘢痕形成、提高疗效。
+由于各种光电设备的生产厂家不同，其设置的能量密度也不同，目前很难对各设备具体的能量密度等参数进行详细推荐，笔者建议治疗时先进行能量测试。
+7 皮肤瘢痕光电治疗前后处理原则及并发症防治
+合并明显挛缩的瘢痕，可通过手术(Z成形术、瘢痕松解术、皮肤移植等)缓解瘢痕的张力，再进行光电治疗；也可在光电治疗后，必要时进行手术治疗，提高松解瘢痕挛缩的治疗效果。
+瘢痕光电治疗前需局部外用利多卡因乳膏封包进行局部麻醉止痛，必要时可进行全身麻醉。光电治疗一般都有热效应，鉴于皮肤内散热困难，光电治疗后一般都需进行15～30 min冷敷，帮助即刻降低皮肤内温度。
+瘢痕的激光治疗一般较安全，不良作用少，患者容易耐受[12]。按严重程度，瘢痕激光治疗的并发症可分为轻微、中等及严重。激光治疗引起的轻微并发症包括治疗后即刻出现的灼痛感，持续数小时至1 d。中等程度并发症可表现为治疗区红、肿、水疱、渗出、痂皮、紫癜，通常可持续数天，极少部分患者可出现局部感染。严重并发症指治疗后出现新生增生性瘢痕。AFL治疗后可出现针尖样出血，其中点阵二氧化碳激光因较强的热凝固作用较铒∶YAG点阵激光不易引起出血。当出现结痂、渗出、水疱时，需注意保护治疗区以避免感染，并且必须等治疗区完全愈合后方可进行下次治疗，因此推荐2次点阵激光治疗的间隔期为3个月左右。色素异常(色素沉着、色素减弱或脱失)是瘢痕激光治疗引起的并发症之一，激光治疗时使用恰当的能量、治疗后冷敷及防晒，对避免和减少色素沉着有预防作用。治疗过程中色素减弱和色素脱失也可能发生，往往是由于光电治疗能量太高或次数太频繁所致，因此要注意观察和尽量避免。
+委员会成员
+《光电技术治疗皮肤创伤性瘢痕专家共识(2018版)》编写组
+顾问：海军军医大学第一附属医院夏照帆
+上海交通大学医学院附属第九人民医院李青峰
+组长：上海交通大学医学院附属第九人民医院姚敏
+执笔：上海交通大学医学院附属第九人民医院董继英、傅秀军
+专家组成员(单位名称及姓名以拼音顺序)：复旦大学附属华山医院卢忠，广州军区广州总医院齐向东，海军军医大学第一附属医院夏照帆、肖仕初，暨南大学医学院附属广州红十字会医院李孝建，空军军医大学西京医院胡大海，昆明医科大学附属儿童医院付晋凤，上海交通大学医学院附属第九人民医院董继英、方勇、傅秀军、李青峰、王棽、严敏、姚敏、俞为荣、张余光，上海交通大学医学院附属瑞金医院刘琰、章雄，深圳市宝安区人民医院柳晖，武汉大学附属同仁医院暨武汉市第三医院谢卫国，徐州医科大学附属医院张远贵，郑州市第一人民医院牛希华
+参考文献
+[1]
+GoldMH,McGuireM,MustoeTA, et al.
+Updated international clinical recommendations on scar management: part 2－－algorithms for scar prevention and treatment[J].
+Dermatol Surg,
+2014,
+40(
+8):
+825-
+831.
+DOI: 10.1111/dsu.0000000000000050.
+[2]
+KimS,ChoiTH,LiuW, et al.
+Update on scar management: guidelines for treating Asian patients [J].
+Plast Reconstr Surg,
+2013,
+132(
+6):
+1580-
+1589.
+DOI: 10.1097/PRS.0b013e3182a8070c.
+[3]
+AndersonRR,DonelanMB,HivnorC, et al.
+Laser treatment of traumatic scars with an emphasis on ablative fractional laser resurfacing: consensus report [J].
+JAMA Dermatol,
+2014,
+150(
+2):
+187-
+193.
+DOI: 10.1001/jamadermatol.2013.7761.
+[4]
+TripathiPB,NelsonJS,WongBJ.
+Posttraumatic laser treatment of soft tissue injury[J].
+Facial Plast Surg Clin North Am,
+2017,
+25(
+4):
+617-
+628.
+DOI: 10.1016/j.fsc.2017.06.012.
+[5]
+HultmanCS,FriedstatJS,EdkinsRE, et al.
+Laser resurfacing and remodeling of hypertrophic burn scars: the results of a large, prospective, before－after cohort study, with long－term follow－up [J].
+Ann Surg,
+2014,
+260(
+3):
+519-529 ; discussion 529-532.
+DOI: 10.1097/SLA.0000000000000893.
+[6]
+中国临床瘢痕防治专家共识制定小组.
+中国临床瘢痕防治专家共识 [J/CD].
+中华损伤与修复杂志：电子版,
+2017,
+12(
+6):
+401-
+406.
+DOI: 10.3877/cma.j.issn.1673-9450.2017.06.001.
+[7]
+LiewYM,McLaughlinRA,GongP, et al.
+In vivo assessment of human burn scars through automated quantification of vascularity using optical coherence tomography [J].
+J Biomed Opt,
+2013,
+18(
+6):
+061213.
+DOI: 10.1117/1.JBO.18.6.061213.
+[8]
+ZhuR,YueB,YangQ, et al.
+The effect of 595 nm pulsed dye laser on connective tissue growth factor (CTGF) expression in cultured keloid fibroblasts [J].
+Lasers Surg Med,
+2015,
+47(
+2):
+203-
+209.
+DOI: 10.1002/lsm.22334.
+[9]
+HalachmiS,OrensteinA,MeneghelT, et al.
+A novel fractional micro－plasma radio－frequency technology for the treatment of facial scars and rhytids: a pilot study [J].
+J Cosmet Laser Ther,
+2010,
+12(
+5):
+208-
+212.
+DOI: 10.3109/14764172.2010.514921.
+[10]
+ShinMK,ChoiJH,AhnSB, et al.
+Histologic comparison of microscopic treatment zones induced by fractional lasers and radiofrequency [J].
+J Cosmet Laser Ther,
+2014,
+16(
+6):
+317-
+323.
+DOI: 10.3109/14764172.2014.957216.
+[11]
+WangLZ,DingJP,YangMY, et al.
+Treatment of facial post－burn hyperpigmentation using micro－plasma radiofrequency technology [J].
+Lasers Med Sci,
+2015,
+30(
+1):
+241-
+245.
+DOI: 10.1007/s10103-014-1649-6.
+[12]
+AlamM,WarychaM.
+Complications of lasers and light treatments [J].
+Dermatol Ther,
+2011,
+24(
+6):
+571-
+580.
+DOI: 10.1111/j.1529-8019.2012.01476.x.
+贡献者信息
+光电技术治疗皮肤创伤性瘢痕专家共识(2018版)编写组
+关键词
+创伤和损伤;
+瘢痕;
+激光;
+光;
+射频;
+共识;
+作者声明
+本文引用格式
+光电技术治疗皮肤创伤性瘢痕专家共识(2018版)编写组. 光电技术治疗皮肤创伤性瘢痕专家共识(2018版) [J]. 中华烧伤杂志，2018, 34(9)：593－597. DOI：10.3760/cma.j.issn.1009－2587.2018.09.007.
+Writing group of consensus on treatment of skin traumatic scars with photoelectric therapy and radio－frequency technology (2018 version). Consensus on treatment of skin traumatic scars with photoelectric therapy and radio－frequency technology (2018 version)[J]. Chin J Burns, 2018, 34(9)：593－597. DOI：10.3760/cma.j.issn.1009－2587.2018.09.007.
+历史
+出版日期：2018-09-20
+收稿日期：2018-07-16
+Guideline and Consensus
+Consensus on treatment of skin traumatic scars with photoelectric therapy and radio-frequency technology (2018 version)
+Writing group of consensus on treatment of skin traumatic scars with photoelectric therapy and radio-frequency technology (2018 version)
+Published
+2018-09-20
+Cite as
+Chin J Burns, 2018,34(9): 593-597. DOI: 10.3760/cma.j.issn.1009-2587.2018.09.007
+Abstract
+Traumatic scars not only affect local appearance and function, but also may be accompanied by pain, itching, and even psychological problems, which seriously affect the quality of patients′ life. The prevention and treatment of scars are still quite challengeable for plastic and cosmetic surgery. Recently, photoelectric therapy and radio-frequency technology have brought breakthroughs in the clinical prevention and treatment of traumatic scars due to the developments of theory and practice on selective photothermolysis and fractional photothermolysis. Based on the analysis and summary of experience of treatment of traumatic scars with photoelectric therapy and radiofrequency technology in the past 5 years, the experts in the Department of Plastic and Reconstructive Surgery of Shanghai Ninth People′s Hospital of Shanghai Jiao Tong University School of Medicine, together with expert consensus on treatment of scar using laser at home and abroad, organize the experts in the field of scar management from different regions in China to discuss and write the consensus on treatment of skin traumatic scars with photoelectric therapy and radio-frequency technology (2018 version). This consensus is suitable for currently medical environment in China and aimed to provide standardized protocols for the treatment of skin traumatic scars in clinic.
+Key words:
+Wounds and injuries; Cicatrix; Lasers; Light; Radio-frequency; Consensus
+Contributor Information
+Writing group of consensus on treatment of skin traumatic scars with photoelectric therapy and radio-frequency technology (2018 version)
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+图1
+皮肤瘢痕综合治疗流程图
+图2
+皮肤瘢痕光电治疗流程图
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华烧伤杂志2018年34卷9期
+文    题：光电技术治疗皮肤创伤性瘢痕专家共识(2018版)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华烧伤杂志2018年34卷9期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

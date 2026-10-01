@@ -1,0 +1,770 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E8%83%86%E9%81%93%E9%97%AD%E9%94%81%E8%AF%8A%E6%96%AD%E5%8F%8A%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%282018%E7%89%88%29.html
+# 标题: 胆道闭锁诊断及治疗指南(2018版) - 中华小儿外科杂志
+# 发布方/日期: 小儿外科，中华小儿外科杂志, 2019,40(5) : 392-398. DOI: 10.3760/cma.j；2019-05-15
+
+AUTO TRANSLATION​▼
+胆道闭锁诊断及治疗指南(2018版)
+中华医学会小儿外科学分会肝胆外科学组
+中国医师协会器官移植医师分会儿童器官移植学组
+中华小儿外科杂志, 2019,40(5) : 392-398. DOI: 10.3760/cma.j.issn.0253-3006.2019.05.003
+胆道闭锁(biliary atresia, BA)是婴儿期常见的严重肝胆系统疾病之一，以肝内、外胆管进行性炎症和纤维化为特征；如不及时治疗，晚期会出现胆汁性肝硬化、门静脉高压、肝衰竭。目前早期诊断困难，手术治疗效果欠佳，可能与诊断方法、Kasai手术标准化程度及该病知识普及程度有关。制订一个明确、可靠并在临床上切实可行的指南是当下亟需解决的问题。
+本指南涵盖近年来相关研究，将所有证据基于GRADE系统[1]，包括质量分析(风险评估)及证据推荐强度进行评定，为胆道闭锁诊疗工作提供指导。
+一、定义
+胆道闭锁是一种病因不明的波及肝内、外胆管闭塞性病变，导致胆汁淤积及进行性肝纤维化直至肝硬化并危及患儿生命的疾病[2]。
+二、流行病学
+胆道闭锁发病率具有种族和地区差异。非白种人胆道闭锁发病率是白种人的两倍[3]，亚洲发病率高于欧美。法国：0.51/10000[4]，英国：0.60/10000[5]，瑞士：0.56/10000[6]，北美：1/10000[7]，日本：1.04/10000[8]。中国大陆相关BA发病率数据统计不全面，中国台湾地区为1.78/10000[9]。
+三、临床分型
+1．Kasai分型
+按肝外胆管闭锁不同部位进行分型，Ⅰ型：胆总管闭锁(5%)，包括树枝样(tree-like)和云雾状(cloudy)；Ⅱ型：肝管闭锁(3%)；Ⅲ型：肝门部闭锁(92%)[10]。
+2．Davenport分型
+特发性/孤立型，巨细胞病毒相关型(IgM)、囊肿型、综合征型(合并多脾及内脏转位)[11]。
+3．Ohi分型
+按照Kasai标准分为Ⅰ、Ⅱ、Ⅲ型；Ⅲ型闭锁远端胆管形态分为通畅型、纤维条索型、发育不良型、混合型；近端胆管形态分为扩张型、发育不全型、胆湖型、纤维条索型、纤维斑块型及发育不良型[12]。
+推荐意见1：推荐使用Kasai制订临床分型标准，Ⅰ型胆总管闭锁；Ⅱ型肝管闭锁；Ⅲ型肝门部闭锁(1B)。
+四、临床表现
+1．生后黄疸延迟消退(足月儿大于2周，早产儿大于3周)，或消退后再次出现，并持续性加重。
+2．粪便颜色逐渐变浅至白陶土色，尿色加深至浓茶色。
+3．腹部膨隆，肝脾肿大，腹壁静脉曲张等。
+4．由于脂溶性维生素吸收障碍导致营养不良或生长发育迟缓。
+推荐意见2：对于黄疸延迟消退或退后复现的患儿，有尿色深，粪便颜色变浅的表现，需进一步检查明确诊断(1A)。
+五、伴发畸形
+胆道闭锁并脾脏发育异常综合征(biliary atresia splenic malformation syndrome，BASM)是指胆道闭锁合并脾脏畸形(双脾、无脾、多脾)，以及其他畸形，如十二指肠前门静脉、奇静脉引流的下腔静脉缺失、非典型肝动脉、内脏转位、肠旋转不良、双叶右肺、心脏和胰腺畸形、腹腔内脏转位等。其中腹腔内脏转位患儿，预后差[13]，尤其是伴发严重心脏畸形患儿术后易出现肝肺综合征，病死率较高[14]。
+推荐意见3：胆道闭锁伴发严重畸形患儿，预后差，术前需认真评估，慎重行Kasai手术(1C)。
+六、筛查
+1．粪便比色卡
+异常粪便颜色包括白陶土色至浅黄色，正常粪便颜色包括黄色至绿色。患儿出现大便颜色异常时间存在差异，但粪卡筛查能够提醒患儿家长及时就医，及早确诊。目前粪卡筛查已经在日本、加拿大、瑞士等国家，以及中国台湾地区广泛开展，大大降低了Kasai手术日龄，提高了自体肝生存率[15,16]。
+推荐意见4：粪便比色卡筛查，是全面评估黄疸患儿的一个关键环节，可以使胆道闭锁Kasai手术日龄提前(1A)。
+2．超声
+超声筛查主要参考指标有胆囊形态学改变及胆囊收缩功能。如果胆囊形态不规则，胆囊不可见或者长度小于1.5cm，或胆囊囊壁僵硬而毛糙、厚度不均，胆囊收缩率在20%以下，则认为胆囊发育异常。若胆囊呈条索状或无囊腔，进食前后胆囊体积没有明显变化，对胆道闭锁筛查有提示作用[17]。
+推荐意见5：超声检查可用于胆道闭锁早期筛查，胆囊形态不规则、囊壁僵硬而毛糙、厚度不均，收缩功能改变可做为筛查指标(1C)。
+3．胆红素筛查
+经皮胆红素测定属无创操作，简单易行，其测出胆红素值与血清胆红素水平呈直线相关，可对黄疸患儿做连续性动态观察[18]。
+推荐意见6：经皮胆红素测定，简单无创，可用于观察黄疸患儿胆红素变化趋势(1C)。
+七、辅助检查
+1．血肝功能检查
+血清胆红素水平升高≥300 mg/ml，直接胆红素水平占总胆红素50%以上时，可怀疑胆道闭锁[19]。谷氨酰转移酶(γ-glutamyl transpeptidase，γ-GT)是胆管系统损伤敏感指标，γ-GT增高可表示胆管梗阻。血清胆汁酸升高提示有胆管梗阻及肝细胞损害，但其影响因素较多[20]。
+推荐意见7：血清胆红素水平升高≥300 mg/ml，直接胆红素水平占总胆红素50%以上，伴有γ-GT水平持续增高时，应高度怀疑胆管梗阻(1A)。
+2．超声检查
+可以反复使用、非侵入性和经济性较高。主要参考指标有肝门纤维斑块、胆囊形态改变、肝动脉增粗、肝包膜下血流信号增多及肝硬度。肝门区纤维斑块是肝外胆管纤维化残留于门静脉分叉处、回声反射增强区域，存在则高度怀疑胆道闭锁。胆道闭锁患儿的肝动脉直径显著大于同年龄非胆道闭锁婴儿。超声发现胆道闭锁肝脏包膜下血流信号明显高于非胆道闭锁婴儿，但影响因素较多[17]。Fibroscan是一种基于剪切波技术的弹性成像测量方法，可以检测肝纤维化，在鉴别胆道闭锁与非胆道闭锁中有一定价值[21]。
+推荐意见8：超声检查显示肝门纤维斑块，胆囊形态改变，肝包膜下血流信号增多，肝动脉直径宽，肝弹性数值高时，应高度怀疑胆道闭锁(1B)。
+3．放射性核素肝胆显像
+胆囊或肠道中无放射性核素显影，可考虑胆管梗阻。缺点：其他胆汁淤积性疾病亦可造成该结果，假阳性率较高。
+4．磁共振胰胆管成像
+磁共振胰胆管成像结合薄层扫描各角度观察均未见肝外胆管显示，或见到不连续肝外胆管结构应考虑胆管梗阻，但假阳性率较高。
+5．十二指肠引流液检查
+对十二指肠液进行胆红素测定判断胆管梗阻。缺点是有创，假阳性率高，临床上使用较少。
+6．内镜逆行胰胆管造影
+在直视下纤维十二指肠镜通过十二指肠乳头插入胆管进行造影，显示肝外胆管系统则排除胆道闭锁。小于3个月的婴儿较难进行，可诱发胰腺炎和胆管炎。
+推荐意见9：放射性核素肝胆动态显像、十二指肠引流液检查、磁共振胰胆管成像、内镜逆行胰胆管造影不作为常规胆道闭锁确诊检查项目(1C)。
+7．肝组织病理检查
+肝组织病理检查应在生后6周后进行，组织取样方式分为术前肝活检和术中肝活检。胆道闭锁患儿肝组织切片镜下可见：胆管增生、胆栓形成、胆汁淤积、汇管区炎症细胞浸润、汇管区纤维化及桥接坏死、胆管板发育异常等[22]。肝活检对鉴别诊断胆管发育不良、遗传代谢性肝病及其他胆汁淤积性疾病有比较重要的意义，可评价肝脏损伤程度及肝内胆汁淤积情况。术前肝活检受年龄限制，可有假阴性结果，需多次穿刺明确诊断。术中肝活检可取组织量相对较多，可作为胆道闭锁的辅助诊断及鉴别诊断方法。
+推荐意见10：肝活检可作为胆道闭锁辅助诊断及鉴别诊断方法(1B)。
+8．腹腔镜探查及术中胆管造影
+胆汁淤积的患儿，常规检查不能确诊时，应尽早进行探查。手术探查可直接观察肝脏淤胆情况、肝被膜下血流及胆囊。可将胆囊置管造影，观察肝外胆管及肠内有无显影，若不显影，不能轻易诊断胆道闭锁。近端胆汁过于粘稠堵塞胆管可造成假阳性，需要反复冲洗或加压注射造影剂，或选择胆总管远端临时阻断造影，避免误诊。若胆囊瘪小或仅胆囊痕迹，无法注入造影剂，应解剖肝门直接观察有无肝管[23]。
+推荐意见11：手术探查及术中胆道造影可明确诊断胆道闭锁(1A)。
+八、鉴别诊断
+需要与以下疾病进行鉴别：胆管发育不良、进行性家族性肝内胆汁淤积症、Citrin缺陷病、酪氨酸血症Ⅰ型、α1-抗胰蛋白酶缺乏症、先天性胆汁酸合成障碍、其他胆汁淤积性肝病。
+推荐意见12：胆道闭锁与胆汁淤积性肝病无法鉴别时，可做胆道造影及肝活检以明确诊断(1B)。
+九、Kasai手术
+1．适应证
+明确诊断为胆道闭锁者，且没有以下禁忌证者，可行Kasai手术。
+2．禁忌证
+①严重肝纤维化，不主张行Kasai手术；②患有严重畸形，评估认为不能耐受手术者，不宜做Kasai手术；③胆道造影和肝活检结果示非胆道闭锁的患儿，禁做Kasai手术。
+3．手术方式
+①开腹Kasai手术；②腹腔镜Kasai手术。
+4．手术步骤
+①右肋缘下切口，经胆囊切开置管行术中胆管造影；②解剖并切除胆囊，结扎胆管残迹远端，横断后向近端游离，暴露门静脉及分支，必要时打开肝桥；③解剖肝门部纤维组织块，结扎自纤维组织块深面回流至门静脉的静脉分支(腔镜手术可电凝切断静脉分支)，使肝门部纤维组织块的解剖平面达左右门静脉入肝处，且完全游离；④剪除肝门部游离的纤维组织块，两侧不应超过门静脉入肝处，深面不应剪到肝包膜；断面压迫止血，局部可加用止血材料压迫止血，慎用电凝止血；⑤距Treitz韧带远端15～25 cm处将空肠切断，保留空肠胆支30～45 cm处空肠行端侧吻合，结肠后隧道提至肝门处；⑥肝门-空肠吻合：紧贴纤维块下缘缝合后壁(尽量不要缝合在门静脉上，避免术后发生消化道出血)，前壁与肝脏表面缝合；⑦关闭横结肠系膜裂孔以及肠系膜裂孔；⑧酌情放置引流管于右侧肝肾隐窝。
+推荐意见13：做术中胆管造影，肝门纤维块剪除彻底，断面压迫止血；肝门-空肠吻合胆支长度30～45 cm(1A)。
+5．Kasai术后用药
+①激素：激素治疗存在争议，服用类固醇少数患儿会出现一些副作用，如消化道出血和穿孔[24,25]。可供选择方案包括(但不限于)有2个，方案1为泼尼松龙4 mg·kg-1·d-1，术后肠功能恢复后开始晨服，每天1次，服4周；后减为2 mg·kg-1·d-1，服4周；再减为1 mg·kg-1·d-1，服4周后停药。方案2为甲基氢化泼尼松于术后开始静脉注射，使用剂量为10、8、6、5、4、3、2 mg·kg-1·d-1，共7 d；再口服泼尼松龙2 mg·kg-1·d-1，服4周；后减为1 mg·kg-1·d-1，服4周后停药。
+推荐意见14：术后激素使用可以改善毛细胆管水肿，具有抗炎作用(1C)。
+②抗生素：术后静脉滴注三代头孢不短于2周，后改为口服三代头孢3～6个月[26]。
+推荐意见15：术后使用三代头孢进行抗感染治疗(1B)。
+③利胆药：熊去氧胆酸有细胞保护作用，可替代亲脂性、去污剂样的毒性胆汁酸，还可促进肝细胞的分泌作用和免疫调节。口服熊去氧胆酸10～30 mg·kg-1·d-1，每天2次，术后进食即可开始服用，一般维持6～24个月。
+推荐意见16：术后使用熊去氧胆酸来改善胆汁排放状况(1C)。
+④保肝药：葡醛内酯可与含有羟基或羧基的毒物结合，形成低毒或无毒结合物由尿排出，具有保护肝脏及解毒作用。复方甘草酸苷是肝细胞膜保护剂，减轻肝损伤时局部炎症反应。还可抑制细胞色素C的释放，抑制肝细胞凋亡。
+⑤脂肪酸及维生素：术后患儿需常规补充中链脂肪酸和脂溶性维生素A/D/E/K。
+6．术后胆管炎
+①诊断标准：无其他部位感染的发热(>38.5℃)、进行性黄疸加重、大便颜色变浅、感染指标升高；②胆管炎分期：早期胆管炎(≤1个月)，危害大，发生炎症后局部坏死、肉芽，吻合口瘢痕形成可堵住肝门小胆管，使手术失败或需再次手术。晚期胆管炎(>1个月)，影响胆汁排泄，出现肝脏炎症反应，加重肝硬化；③治疗：应做血微生物培养，使用对微生物敏感性高的抗生素。经验用药可静脉滴注三代头孢联合甲硝唑，或用碳青霉烯类抗生素联合丙种球蛋白。对于反复发作胆管炎的患儿，应做超声检查是否有肝门部胆湖形成或发生肝内囊肿[27]。
+推荐意见17：术后发生胆管炎，做血微生物培养，使用对微生物敏感性高的抗生素(1B)。
+7．术后并发症[28]
+①术后肝内胆管扩张或囊肿，可伴肝内结石形成，表现为黄疸或胆管炎反复发作时，可行经皮经肝胆管引流术；②自体肝长期生存时，出现食管胃底静脉曲张时，建议做胃镜检查，结扎或硬化剂治疗扩张的静脉；③胆道闭锁引发的肝功能不全，患儿可能发生肝肺综合征，建议长期监测动脉血氧饱和度；④术后肝脏肿瘤偶有报道，如肝细胞癌和胆管细胞癌。可定期检测血甲胎蛋白以及定期肝胆超声检查便于早期发现。
+8．预后
+胆道闭锁预后不良与以下因素有关：胆道闭锁类型、伴发畸形、手术时间晚、术后反复发作胆管炎、严重肝脏纤维化[29]。
+9．疫苗接种[30,31]
+①激素冲击治疗≥14 d的患儿，接种灭活疫苗最好在冲击治疗前2周或治疗后再接种，减毒活疫苗在治疗前4周或治疗4周后再接种；②对于激素冲击治疗<14 d的患儿，灭活疫苗接种无禁忌；减毒活疫苗在治疗期间不推荐接种，停用激素后即可以接种；③对于小剂量激素治疗的患儿，接种灭活疫苗，无需延迟。对于减毒活疫苗，长期接受低剂量免疫抑制治疗的患儿需要评估发生麻疹和水痘等传染病的风险以及疾病对患儿影响的严重程度，充分权衡利益与风险，酌情推荐减毒活疫苗接种。
+十、随访
+胆道闭锁患儿术后应加强营养支持，术后定期随访。查血常规、肝功能、超声。可疑门静脉高压症患儿建议做胃镜检查。若患儿肝衰竭，腹水增多较快，及时考虑肝移植治疗，为患儿生存争取时间。
+推荐意见18：胆道闭锁患儿Kasai术后应形成定期随访机制(1A)。
+十一、肝移植手术
+婴幼儿的肝移植技术预后很好，远期生长发育非常接近正常儿童[32]。胆道闭锁患儿如果不进行治疗，通常在2岁之内死于肝硬化或者肝衰竭[33]。
+推荐意见19：Kasai手术应当作为胆道闭锁的首选治疗方案，Kasai手术后出现肝衰竭或者肝功能失代偿需要进行肝移植手术治疗(1B)。
+推荐意见20：胆道闭锁患儿肝功能失代偿时应当首先进行肝移植评估(2B)。
+1．肝移植手术适应证及手术时机
+胆道闭锁肝移植手术的适应证为：失代偿期肝硬化，肝衰竭，门静脉高压导致的反复消化道出血，慢性肝病引起的生长迟缓、瘙痒症、肝肺综合征、反复发作的胆管炎、肝肾综合征、肝脏恶性肿瘤(胆管细胞癌)。符合上述任何一条或者几条都需要行肝移植术[33]。胆道闭锁Kasai术后3个月，如果总胆红素>100 μmol/L应该迅速进行肝移植评估，如果总胆红素在34～100 μmol/L，或者胆红素不高，但出现保守治疗效果不佳的胆汁性肝硬化或者门静脉高压，应该考虑行肝移植术前评估[33]。Kasai术后3个月，如果胆红素恢复正常，在术后10年非移植患儿生存率为75%～90%；如果Kasai术后3个月胆红素仍高，术后3年的非移植患儿生存率为20%[34]。Kasai术后胆管炎可以显著降低术后1、3、5年生存率(80%、51%、23%比92%、76%、76%，P<0.01)。
+推荐意见21:胆道闭锁Kasai术后肝移植手术的适应证为：失代偿期肝硬化，肝衰竭，门静脉高压导致的反复消化道出血，慢性肝病导致的生长迟缓、瘙痒症、肝肺综合征、反复发作的胆管炎(1A)。
+推荐意见22：Kasai术后3个月，如果总胆红素>100 μmol/L应该迅速进行肝移植评估(1B)。
+2．术前评估与准备
+肝移植术前评估应进行肝脏病学评估，营养和发育评估，心肺功能评估，肾脏功能评估，口腔卫生评估，麻醉风险评估，必要的疫苗接种和病毒感染筛查。肝移植术前应该评估回顾患儿的病史，化验检查资料，明确诊断，评估合并症，并发症，并对相关并发症及合并症给予适当的治疗。通过影像学检查评估肝脏血管变异情况。肝移植术前进行营养支持能够改善患儿和移植物的生存率以及神经系统发育的预后[35,36]。肝病患儿移植前牙源性感染会导致移植手术取消或者延迟，以及肝移植后败血症。移植前应该进行口腔健康评估与管理。如果腹水危及患儿的呼吸功能，且患儿对抗腹水的药物治疗无反应时可采用放腹水或者经颈内静脉门体分流术(TIPS)来进行有效的治疗[37]。慢性肝病的患儿通常得不到充足的疫苗接种，肝移植前接种疫苗比移植后接种疫苗更容易获得免疫保护。EB病毒和巨细胞病毒可通过病毒特异性血清学检查检出，对进行肝移植评估的所有供受体应当进行此项检查。对于活体肝移植的供体需要进行详细的医学评估与心理评估。
+推荐意见23：肝移植术前需做影像学评估受体的肝脏血管类型及变异(1B)。
+推荐意见24：肝移植术前需评估患儿营养状况，必要时给予静脉营养支持治疗(1B)。
+推荐意见25：适龄疫苗接种应当在移植术前完成，最好在终末期肝病发生之前(1B)。对未完成必要疫苗接种的患儿可加速疫苗接种时间安排(1B)。
+3．肝移植手术方式
+肝移植供体来源：公民逝世后捐献供体(婴儿肝脏，成人肝脏)，其中成人肝脏根据需要进行劈离(原位或者体外)；活体供体；多米诺供肝。肝移植手术方式：经典术式，背驮式，辅助式。供体的类型：全肝，肝左外叶，左半肝，右半肝(带或不带肝中静脉)，右后叶，单肝段。供受体血型不合患儿肝移植术前ABO血型抗体滴度应该低于1∶16[38]。2岁以下的小儿行血型不合肝移植与血型相同或相合的小儿肝移植有相似的受体及移植物生存率[39]。
+推荐意见26：移植物以成人供体的肝左外叶以及婴幼儿全肝移植物为主(1B)。
+4．肝移植术后管理
+肝移植术后给予他克莫司或者环孢霉素A为主的免疫抑制方案，联合或不联合霉酚酸酯、甲泼尼龙。其他可选用的免疫抑制剂还包括雷帕霉素等。肝移植术后需定期监测主要免疫抑制剂药物浓度、血常规、肝肾功能、巨细胞病毒、EB病毒、乙肝五项、移植肝脏超声。
+推荐意见27：肝移植术后使用以钙调磷酸酶抑制剂(CNI)类为主的免疫抑制方案(1B)。
+推荐意见28：激素通常在肝移植术后3～6个月撤除(1C)。
+推荐意见29：肝移植术后需定期监测主要免疫抑制剂药物浓度、血常规、肝肾功能、巨细胞病毒、EB病毒、乙肝五项、移植肝脏超声(1C)。
+5．胆道闭锁肝移植手术预后
+胆道闭锁患儿肝移植术后5年生存率为82%～98%[40,41]。胆道闭锁患儿肝移植术后10年生存率为71%～90%[33]。美国对1 976例胆道闭锁肝移植患儿进行随访，10年移植物生存率为73%，患儿生存率为86%[42]。日本肝移植协会统计的日本小儿活体肝移植患儿和移植物的1年、5年、10年、15年和20年的生存率分别为91.6%、91.5%、87.1%、85.4%、84.2%和90.5%、90.4%、84.6%、82%、79.9%[33]。
+推荐意见30：肝移植治疗胆道闭锁预后良好(1A)。
+6．肝移植术后并发症
+移植后早期(术后3个月内)主要的并发症包括肝动脉血栓形成、门静脉血栓形成[43,44]、败血症、排斥[45]、病毒感染[46,47,48](特别是巨细胞病毒感染和EB病毒感染)、急性肾损伤、液体失衡。移植后远期(3个月以上)并发症包括肝动脉血栓形成、门静脉血栓形成、下腔静脉或者肝静脉梗阻、胆管狭窄、切口疝、免疫抑制剂副作用(特别是慢性肾脏疾病)、高血压、糖尿病、肿瘤的形成(如移植后淋巴增殖性疾病)。
+推荐意见31:移植后早期主要的并发症包括肝动脉血栓形成、门静脉血栓形成、败血症、排斥、病毒感染、急性肾损伤、液体失衡(1B)。
+十二、结语
+本指南有助于临床医师了解胆道闭锁诊断及治疗方法的适应证和局限性，规范胆道闭锁的诊断及治疗，指导临床工作。同时，本领域尚有较多问题有待进一步研究验证和阐明，需在今后工作中不断总结、修订及完善。
+委员会成员
+执笔：杨媛(天津市儿童医院)，孙超(天津市第一中心医院)，高伟(天津市第一中心医院)，詹江华(天津市儿童医院)
+《胆道闭锁诊断与治疗指南(2018版)》编审委员会成员名单(按姓氏拼音排序)
+阿里木江·阿不都热依木(新疆乌鲁木齐儿童医院)；卞红强(华中科技大学同济医学院附属武汉儿童医院)；蔡金贞(天津市第一中心医院)；陈亚军(首都医科大学附属北京儿童医院)；冯杰雄(华中科技大学同济医学院附属同济医院)；高伟(天津市第一中心医院)；郭源(青岛大学附属医院)；黄格元(香港大学玛丽医院)；黄柳明(北京军区总医院附属八一儿童医院)；黄寿奖(浙江大学医学院附属儿童医院)；胡显良(成都市妇女儿童中心医院)；李龙(首都儿科研究所附属儿童医院)；李万福(新疆医科大学附属第一医院)；李英超(河北医科大学第二医院)；吕志宝(上海市儿童医院)；任红霞(山西省儿童医院)；沈中阳(天津市第一中心医院)；钭金法(浙江大学医学院附属儿童医院)；唐维兵(南京医科大学附属儿童医院)；王斌(深圳市儿童医院)；王兆文(上海交通大学附属第一人民医院)；王正昕(复旦大学附属华山医院)；汪健(苏州大学附属儿童医院)；魏林(首都医科大学附属北京友谊医院)；夏强(上海交通大学医学院附属仁济医院)；徐彬(浙江大学医学院附属儿童医院)；杨合英(郑州大学第一附属医院)；杨家印(四川大学华西医院)；易述红(中山大学附属第三医院)；余家康(广州妇女儿童医疗中心)；詹江华(天津市儿童医院)；张明满(重庆医科大学附属儿童医院)；张文(武汉大学中南医院)；张志波(中国医科大学附属盛京医院)；朱志军(首都医科大学附属北京友谊医院)
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+AtkinsD, BestD, BrissPA, et al.
+Grading quality of evidence and strength of recommendations[J].
+BMJ,
+2004,
+328(
+7454):
+1490.
+DOI: 10.1136/bmj.328.7454.1490.
+[2]
+KasaiM, OkamotoA, OhiR, et al.
+Changes of portal vein pressure and intrahepatic blood vessels after surgery for biliary atresia[J].
+J Pediatr Surg,
+1981,
+16(
+2):
+152-
+159.
+[3]
+YoonPW, BreseeJS, OlneyRS, et al.
+Epidemiology of biliary atresia: a population-based study[J].
+Pediatrics,
+1997,
+99(
+3):
+376-
+382.
+[4]
+GirardM, JannotAS, BesnardM, et al.
+Polynesian ecology determines seasonality of biliary atresia[J].
+Hepatology,
+2011,
+54(
+5):
+1893-
+1894.
+DOI: 10.1002/hep.24534.
+[5]
+McKiernanPJ, BakerAJ, KellyDA.
+The frequency and outcome of biliary atresia in the UK and Ireland[J].
+Lancet,
+2000 ,
+355(
+9197):
+25-
+29.
+DOI: 10.1016/S0140-6736(99)03492-3.
+[6]
+WildhaberBE, MajnoP, MayrJ, et al.
+Biliary atresia: Swiss national study, 1994-2004[J].
+JPGN,
+2008,
+46(
+3):
+299-
+307.
+[7]
+CatonAR, DruschelCM, McNuttLA.
+The epidemiology of extrahepatic biliary atresia in New York State, 1983-98[J].
+Paediatr Perinat Epidemiol,
+2004,
+18(
+2):
+97-
+105.
+[8]
+NioM, OhiR, MiyanoT, et al.
+Five-and 10-year survival rates after surgery for biliary atresia: a report from the Japanese Biliary Atresia Registry[J].
+J Pediatr Surg,
+2003,
+38(
+7):
+997-
+1000.
+[9]
+ChiuCY, ChenPH, ChanCF, et al.
+Biliary atresia in preterm infants in Taiwan: a nationwide survey[J].
+J Pediatr,
+2013,
+163(
+1):
+100-
+103.
+DOI: 10.1016/j.jpeds.2012.12.085.
+[10]
+KasaiM, SawaguchiM, AkiyamaT, et al.
+A proposal of new classification of biliary atresia[J].
+JJSPS,
+1976,
+12:
+327-
+331.
+[11]
+DavenportM.
+Biliary atresia: clinical aspects[J].
+Semin Pediatr Surg,
+2012,
+21(
+3):
+175-
+184.
+DOI: 10.1053/j.sempedsurg.2012.05.010.
+[12]
+SuperinaR, MaqeeJC, BrandtML, et al.
+The anatomic pattern of biliary atresia identified at time of Kasai hepatoportoenterostomy and early postoperative clearance of jaundice are significant predictors of transplant-free survival[J].
+Ann Surg,
+2011,
+254(
+4):
+577-
+585.
+DOI: 10.1097/SLA.0b013e3182300950.
+[13]
+DavenportM, TizzardSA, UnderhillJ, et al.
+The biliary atresia splenic malformation syndrome: A 28-year single center retrospective study[J].
+J Pediatr,
+2006,
+149(
+3):
+393-
+400.
+DOI: 10.1016/j.jpeds.2006.05.030.
+[14]
+DavenportM, De Ville de GoyetJ, StringerMD, et al.
+Seamless management of biliary atresia in England and Wales(1999—2002)[J],
+Lancet,
+2004,
+363(
+9418):
+1354-
+1357.
+DOI: 10.1016/S0140-6736(04)16045-5.
+[15]
+LienTH, ChangMH, WuJF, et al.
+Effects of the infant stool color card screening program on 5-year outcome of bihary atresia in Taiwan[J].
+Hepatology,
+2011,
+53(
+1):
+202-
+208.
+DOI: 10.1002/hep.24023.
+[16]
+LeeM, ChenSC, YangHY, et al.
+Infant stool color card screening helps reduce the hospitalization rate and mortality of biliary atresia: a 14-year nationwide cohort study in Taiwan[J].
+Medicine,
+2016,
+95(
+12):
+1-
+16.
+DOI: 10.1097/MD.0000000000003166.
+[17]
+HumphreyT, StringerM.
+Biliary atresia: US diagnosis[J].
+Radiology,
+2007,
+244(
+3):
+845-
+851.
+DOI: 10.1148/radiol.2443061051.
+[18]
+赵炜，王秀英.
+经皮胆红素测定仪在新生儿高胆红素血症中的临床应用[J].
+中国优生与遗传杂志，
+2003，
+11(
+4)：
+89-
+89.
+DOI：10.3969/j.issn.1006-9534.2003.04.053.
+ZhaoW, WangXY.
+The clinical application of percutaneous bilirubin tester in neonatal hyperbilirubinernia[J].
+Journal of eugenics and genetic,
+2003,
+11(
+4):
+89-
+89.
+DOI: 10.3969/j.issn.1006-9534.2003.04.053.
+[19]
+PerlmutterDH, ShepherdRW.
+Extrahepatic biliary atresia: a disease or a phenotype？[J].
+Hepatology,
+2002,
+35(
+6):
+1297-
+1304.
+DOI: 10.1053/jhep.2002.34170.
+[20]
+卫园园，陈扬，高婷，等.
+谷氨酰转肽酶测定联合超声诊断先天性胆道闭锁[J].
+中华普通外科杂志，
+2017，
+32(
+5)：
+425-
+428.
+DOI：10.3760/cma.j.issn.1007-631X.2017.05.014.
+WeiYY, ChenY, GaoT, et al.
+The diagnostic value of GGT combined with ultrasound found gallbladder abnormality in infants with biliary atresia[J].
+Chin J Gen Surg,
+2017,
+32(
+5):
+425-
+428.
+DOI: 10.3760/cma.j.issn.1007-631X.2017.05.014.
+[21]
+沈秋龙，陈亚军，王增萌，等.
+瞬时弹性成像应用于胆道闭锁肝纤维化评估的研究[J].
+中华小儿外科杂志，
+2014，
+35(
+4)：
+275-
+279.
+DOI：10.3760/cma.j.issn.0253-3006.2014.04.009.
+ShenQL, ChenYJ, WangZM, et al.
+Assessment of liver fibrosis with transient elastography in biliary atresia[J].
+Chin J Pediatr Surg,
+2014,
+35(
+4):
+275-
+279.
+DOI: 10.3760/cma.j.issn.0253-3006.2014.04.009.
+[22]
+LeeJY, SullivanK, EI DemellawyD, et al.
+The value of preoperative liver biopsy in the diagnosis of extrahepatic biliary atresia: A systematic review and meta-analysis[J].
+J Pediatr Surg,
+2016,
+51(
+5):
+753-
+761.
+DOI: 10.1016/j.jpedsurg.2016.02.016.
+[23]
+AsaiA.
+50 Years Ago in The Journal of Pediatrics: Diagnosis of Biliary Atresia: Relative Accuracy of Percutaneous Liver Biopsy, Open Liver Biopsy, and Operative Cholangiography.[J].
+J Pediatr,
+2017,
+189:
+188.
+DOI: 10.1016/j.jpeds.2017.04.040.
+[24]
+BezerraJA, SpinoC, MageeJC, et al.
+Use of corticosteroids after hepatoportoenterostomy for bile drainage in infants with biliary atresia: the START randomized clinical trial[J].
+JAMA,
+2014,
+311(
+17):
+1750-
+1759.
+DOI: 10.1001/jama.2014.2623.
+[25]
+DavenportM, ParsonsC, TizzardS, et al.
+Steroids in biliary atresia: Single surgeon, single centre, prospective study[J].
+J Hepatol,
+2013,
+59(
+5):
+1054-
+1058.
+DOI: 10.1016/j.jhep.2013.06.012.
+[26]
+MeyersRL, BookLS, O'GormanMA, et al.
+High-dose steroids, ursodeoxycholic acid, and chronic intravenous antibiotics improve bile flow after Kasai procedure in infants with biliary atresia[J].
+J Pediatr Surg,
+2003,
+38(
+3):
+406-
+411.
+DOI: 10.1053/jpsu.2003.50069.
+[27]
+张璟，林涛，黄柳明，等．
+胆道闭锁术后反复发作性胆管炎抗感染治疗的中长期随访[J]．
+临床小儿外科杂志，
+2016，
+15(
+1)：
+20-
+22.
+DOI：10.3969/j.issn.1671-6353.2016.01.006.
+ZhangJ, LinT, HuangLM, et al.
+The result of medium to long term follow-ups after anti-infective therapy for recurrent cholangitis after Kasai operation[J].
+J Clin Ped Sur,
+2016,
+15(
+1):
+20-
+22.
+DOI: 10.3969/j.issn.1671-6353.2016.01.006.
+[28]
+NioM.
+Japanese Biliary Atresia Registry[J].
+Pediatr Surg Int,
+2017,
+33(
+12):
+1319-
+1325.
+DOI: 10.1007/s00383-017-4160-x.
+[29]
+SuperinaR.
+Biliary atresia and liver transplantation: results and thoughts for primary liver transplantation in select patients[J].
+Pediatr Surg Int,
+2017,
+33(
+12):
+1297-
+1304.
+DOI: 10.1007/s00383-017-4174-4.
+[30]
+SobhA, BonillaFA.
+Vaccination in primary immunodeficiency disorders[J].
+J Allergy Clin Immunol Pract,
+2016,
+4(
+6):
+1066-
+1075.
+DOI: 10.1016/j.jaip.2016.09.012.
+[31]
+RubinLG.
+2013 IDSA Clinical Practice Guideline for vaccination of the immunocompromised host[J].
+Clin Infect Dis,
+2014,
+58(
+3):
+e44-
+100.
+DOI: 10.1093/cid/cit684.
+[32]
+van MourikID, BeathSV, BrookGA, et al.
+Long-term nutritional and neurodevelopmental outcome of liver transplantation in infants aged less than 12 months[J].
+J Pediatr Gastroenterol Nutr,
+2000,
+30(
+3):
+269-
+275.
+[33]
+KasaharaM, UmeshitaK, SakamotoS, et al.
+Liver transplantation for biliary atresia: a systematic review[J].
+Pediatr Surg Int,
+2017,
+33(
+12):
+1289-
+1295.
+DOI: 10.1007/s00383-017-4173-5.
+[34]
+SundaramSS, MackCL, FeldmanAG, et al.
+Biliary atresia: indications and timing of liver transplantation and optimization of pre-transplant care[J].
+Liver Transpl,
+2017,
+23(
+1):
+96-
+109.
+DOI: 10.1002/lt.24640.
+[35]
+CruzRJ, DewMA, MyaskovskyL, et al.
+Objective radiologic assessment of body composition in patients with endstage liver disease: going beyond the BMI[J].
+Transplantation,
+2013,
+95(
+4):
+617-
+622.
+DOI: 10.1097/TP.0b013e31827a0f27.
+[36]
+SquiresRH.
+End-stage liver disease in children[J].
+Curr Treat Options Gastroenterol,
+2001,
+4:
+409-
+421.
+[37]
+ArnonR, AnnunziatoRA, WillisA, et al.
+Liver transplantation for children with biliary atresia in the pediatric end-stage liver disease era: the role of insurance status[J].
+Liver Transpl,
+2013,
+19(
+5):
+543-
+550.
+DOI: 10.1002/lt.23607.
+[38]
+孙超，高伟，马楠，等.
+小儿ABO血型不合肝移植16例的临床分析[J]．
+中华器官移植杂志，
+2015，
+36(
+10)：
+577-
+581.
+DOI：10.3760/cma.j.issn.0254-1785.2015.10.001.
+SunC, GaoW, MaN, et al.
+Clinical analysis of ABO-incompatible pediatric liver transplantation in 16 patients[J].
+Chin J Organ Transplant,
+2015,
+36(
+10) :
+577-
+581.
+DOI: 10.3760/cma.j.issn.0254-1785.2015.10.001.
+[39]
+Varela-FascinettoG, TreacySJ, LilleheiCW, et al.
+Long-term results in pediatric ABO-incompatible liver transplantation[J].
+Transplant Proc,
+1999,
+31(
+1-2):
+467-
+468.
+[40]
+NetoJS, FeierFH, BirrenbachAL, et al.
+Impact of Kasai portoenterostomy on liver transplantation outcomes: a retrospective cohot study of 347 children with biliary atresia[J].
+Liver Transpl,
+2015,
+21(
+7):
+922-
+927.
+DOI: 10.1002/lt.24132.
+[41]
+KasaharaM, UmeshitaK, InomataY, et al.
+Long-term outcomes of pediatric living donor liver transplantation in Japan: An analysis of more than 2200 cases listed in the registry of the Japanese Liver Transplantation Society[J].
+Am J Transplant,
+2013,
+13(
+7):
+1830-
+1839.
+DOI: 10.1111/ajt.12276.
+[42]
+BarshesNR, LeeTC, BalkrishmanR, et al.
+Orthotopic liver transplantation for biliary atresia: The US experience[J].
+Liver Transpl,
+2005,
+11(
+10):
+1193-
+1200.
+DOI: 10.1002/lt.20509.
+[43]
+AndersonCD, TurmelleYP, DarcyM, et al.
+Biliary strictures in pediatric liver transplant recipients—early diagnosis and treatment results in excellent graft outcomes[J].
+Pediatr Transplant,
+2010,
+14(
+3):
+358-
+363.
+DOI: 10.1111/j.1399-3046.2009.01246.x.
+[44]
+HeffronTG, PillenT, SmallwoodG, et al.
+Incidence, impact, and treatment of portal and hepatic venous complications following pediatric liver transplantation: a single-center 12 year experience[J].
+Pediatr Transplant,
+2010,
+14(
+6):
+722-
+729.
+DOI: 10.1111/j.1399-3046.2009.01259.x.
+[45]
+NgVL, FecteauA, ShepherdR, et al.
+Outcomes of 5-year survivors of pediatric liver transplantation: report on 461 children from a North American multicenter registry[J].
+Pediatrics,
+2008,
+122(
+6):
+e1128-
+e1135.
+DOI: 10.1542/peds.2008-1363.
+[46]
+Danziger-IsakovL, BucavalasJ.
+Current prevention strategies against cytomegalovirus in the studies in pediatric liver transplantation(SPLIT)centers[J].
+Am J Transplant,
+2014,
+14(
+8):
+1908-
+1911.
+DOI: 10.1111/ajt.12755.
+[47]
+GreenM, MichaelsMG.
+Epstein-Barr virus infection and posttransplant lymphoproliferative disorder[J].
+Am J Transplant,
+2013,
+13:
+41-
+54.
+DOI: 10.1111/ajt.12004.
+[48]
+AllenU, GreenM.
+Prevention and treatment of infectious complications after solid organ transplantation in children[J].
+Pediatr Clin North Am,
+2010,
+57(
+2):
+459-
+479.
+DOI: 10.1016/j.pcl.2010.01.005.
+贡献者信息
+中华医学会小儿外科学分会肝胆外科学组
+中国医师协会器官移植医师分会儿童器官移植学组
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2019-05-15
+收稿日期：2019-01-24
+Guideline and Consensus
+Guidelines for diagnosing & treating biliary atresia (2018 Edition)
+Section of Hepatobiliary Surgery, Branch of Pediatric Surgery, Chinese Medical Association,  Section of Pediatric Hepatic Transplantation, Branch of Organ Transplantation, Chinese Medical Doctor Association
+Published
+2019-05-15
+Cite as
+Chin J Pediatr Surg, 2019,40(5): 392-398. DOI: 10.3760/cma.j.issn.0253-3006.2019.05.003
+Contributor Information
+Section of Hepatobiliary Surgery, Branch of Pediatric Surgery, Chinese Medical Association
+Section of Pediatric Hepatic Transplantation, Branch of Organ Transplantation, Chinese Medical Doctor Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华小儿外科杂志2019年40卷5期
+文    题：胆道闭锁诊断及治疗指南(2018版)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华小儿外科杂志2019年40卷5期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+Original text
+Contribute a better translation
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

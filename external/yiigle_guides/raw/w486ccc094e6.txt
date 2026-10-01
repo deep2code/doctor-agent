@@ -1,0 +1,715 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%B8%A6%E7%8A%B6%E7%96%B1%E7%96%B9%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 带状疱疹中国专家共识 - 中华皮肤科杂志
+# 发布方/日期: 皮肤科，中华皮肤科杂志, 2018,51(6) : 403-408. DOI: 10.3760/cma.j；2018-06-15
+
+带状疱疹中国专家共识
+中国医师协会皮肤科医师分会带状疱疹专家共识工作组
+中华皮肤科杂志, 2018,51(6) : 403-408. DOI: 10.3760/cma.j.issn.0412-4030.2018.06.001
+带状疱疹是由长期潜伏在脊髓后根神经节或颅神经节内的水痘-带状疱疹病毒（varicella-zoster virus，VZV）经再激活引起的感染性皮肤病。带状疱疹是皮肤科常见病，除皮肤损害外，常伴有神经病理性疼痛，常出现在年龄较大、免疫抑制或免疫缺陷的人群中，严重影响患者生活质量。目前国内带状疱疹的临床诊疗仍存在不少问题，譬如其在各年龄段人群中的流行病学资料如何？患病的高危因素有哪些？如何诊断？如何与其他疾病鉴别？如何早期规范化治疗以改善患者预后？如何处理常见的并发症——带状疱疹后神经痛（post herpetic neuralgia，PHN）？为了切实解决带状疱疹临床诊治问题，中国医师协会皮肤科医师分会组织该领域专家，以近年国内外发表的重要文献为基础，对文献进行评价并综合分析，提交专家组反复讨论、修改，最终达成本共识，希望能指导带状疱疹的临床规范化诊治，为患者提供经济、高效的诊治方案。
+一、病因
+1. 病原体特点及致病机理：
+VZV属于人类疱疹病毒α科，命名为人类疱疹病毒3型。它是一种DNA病毒，基因组包含70多种开放读码框，编码多种蛋白质，目前研究较多的为糖蛋白gE，是制备疫苗的主要候选抗原[1]。VZV可经飞沫和（或）接触传播，原发感染主要引起水痘。残余的VZV可沿感觉神经轴突逆行，或经感染的T细胞与神经元细胞的融合，转移到脊髓后根神经节或颅神经节内并潜伏[2]，当机体抵抗力降低时，VZV特异性细胞免疫下降，潜伏的病毒被激活，大量复制，通过感觉神经轴突转移到皮肤，穿透表皮，引起带状疱疹[3]。
+2. 带状疱疹发病的危险因素：
+高龄、细胞免疫缺陷、遗传易感性、机械性创伤、系统性疾病（如糖尿病、肾脏病、发热、高血压等）、近期精神压力大、劳累等是常见诱因[3]。女性发生带状疱疹风险高于男性[4]。
+二、流行病学
+据报道，全球普通人群带状疱疹的发病率为（3 ~ 5）/1 000人年[4,5]，亚太地区为（3 ~ 10）/1 000人年[6]，并逐年递增2.5% ~ 5.0%[6,7]。带状疱疹的住院率（2 ~ 25）/10万人年，死亡率（0.017 ~ 0.465）/10万人年，复发率1% ~ 6%[4,5,8]。50岁后随年龄增长，VZV特异性细胞免疫功能逐渐降低，带状疱疹的发病率、住院率和病死率均逐渐升高。血液肿瘤患者带状疱疹发病率高达31/1 000人年[9]，人类免疫缺陷病毒（human immunodeficiency virus，HIV）感染者的发病率也高达（29.4 ~ 51.5）/1 000人年、复发率13% ~ 26%[4,5,10]。
+我国尚缺乏带状疱疹大样本流行病学调查。2011—2013年广东50岁及以上人群带状疱疹发病率分别为4.1/1 000、3.4/1 000和5.8/1 000人年[11]。2010年台湾全年龄组带状疱疹发病率为4.97/1 000人年，住院率约为2.93%，除婴儿住院率高于儿童外，其余年龄组住院率及重症监护率均随年龄增长而升高，平均住院8.3 d[12]。
+三、临床表现
+1. 典型临床表现：
+发疹前有轻度乏力、低热、食欲不振等全身症状，患处皮肤自觉灼热感或神经痛，触之有明显的痛觉敏感，也可无前驱症状即发疹。好发部位为肋间神经（占53%）、颈神经（20%）、三叉神经（15%）及腰骶部神经（11%）。患处先出现潮红斑，很快出现粟粒至黄豆大小丘疹，成簇状分布而不融合，继而迅速变为水疱，疱壁紧张发亮，疱液澄清，外周绕以红晕。皮损沿某一周围神经区域呈带状排列，多发生在身体的一侧，一般不超过正中线。病程一般2 ~ 3周，老年人为3 ~ 4周。水疱干涸、结痂脱落后留有暂时性淡红斑或色素沉着。神经痛为主要症状，可在发疹前、发疹时以及皮损痊愈后出现。疼痛可为钝痛、抽搐痛或跳痛，常伴有烧灼感，多为阵发性，也可为持续性。老年、体弱患者疼痛较为剧烈。
+2. 特殊临床类型：
+①眼带状疱疹：多见于老年人，表现单侧眼睑肿胀，结膜充血，疼痛常较为剧烈，常伴同侧头部疼痛，可累及角膜形成溃疡性角膜炎；②耳带状疱疹：系病毒侵犯面神经及听神经所致，表现为外耳道疱疹及外耳道疼痛。膝状神经节受累同时侵犯面神经时，可出现面瘫、耳痛及外耳道疱疹三联征，称为Ramsay-Hunt综合征；③顿挫型带状疱疹：仅出现红斑、丘疹而不发生水疱；④无疹性带状疱疹：仅有皮区疼痛而无皮疹；⑤侵犯中枢神经系统大脑实质和脑膜时，发生病毒性脑炎和脑膜炎；⑥侵犯内脏神经纤维时，引起急性胃肠炎、膀胱炎，表现为腹部绞痛、排尿困难、尿潴留等；⑦播散性带状疱疹：恶性肿瘤或年老体弱患者，病毒经血液播散导致广泛性水痘样疹并侵犯肺和脑等器官，可致死亡；⑧其他：尚有大疱性、出血性、坏疽性等表现的带状疱疹。
+四、诊断及鉴别诊断
+1. 诊断：
+根据典型临床表现即可诊断。也可通过收集疱液，用PCR检测法、病毒培养予以确诊。无疹性带状疱疹病例的诊断较难，需做VZV活化反应实验室诊断性检测。由于实验室诊断操作难度较大，目前主要依靠临床诊断。
+对于伴发严重神经痛或发生在特殊部位的带状疱疹，如眼、耳等部位，建议同时请相应专业科室会诊。对于分布广泛甚至播散性、出血性或坏疽性等严重皮损、病程较长且愈合较差、反复发作的患者，需要进行抗HIV抗体或肿瘤等相关筛查，以明确可能合并的基础疾病。
+2. 鉴别诊断：
+前驱期无皮损仅有疼痛时诊断较困难，应告知患者有发生带状疱疹可能，密切观察，并排除相关部位的其他疾病。发生在胸部的带状疱疹疼痛容易误诊为心绞痛、肋间神经痛；发生在腹部的带状疱疹疼痛容易误诊为胆结石、胆囊炎、阑尾炎。患者皮损不典型时需与其他皮肤病鉴别，如单纯疱疹变异型虽与带状疱疹类似，但皮损会在同一部位反复发作，疼痛不明显。其他需要鉴别的疾病包括：接触性皮炎、丹毒、虫咬皮炎、脓疱疮、大疱性类天疱疮等[13,14]。
+五、药物治疗（西医）
+带状疱疹的治疗目标是缓解急性期疼痛，缩短皮损持续时间，防止皮损扩散，预防或减轻PHN等并发症。
+1. 抗病毒药物：
+是带状疱疹临床治疗的常用药物[15]，能有效缩短病程，加速皮疹愈合，减少新皮疹形成，减少病毒播散到内脏[16]。应在发疹后24 ~ 72 h内开始使用，以迅速达到并维持有效浓度，获得最佳治疗效果[17,18]。目前批准使用的系统抗病毒药物包括阿昔洛韦、伐昔洛韦、泛昔洛韦、溴夫定和膦甲酸钠。见表1。
+点击查看表格
+表1
+治疗带状疱疹的抗病毒药物
+表1
+治疗带状疱疹的抗病毒药物
+药物
+特点
+用法/用量
+阿昔洛韦a
+在感染细胞内经病毒胸苷激酶磷酸化，生成阿昔洛韦三磷酸，后者可抑制病毒DNA聚合酶，中止病毒DNA链的延伸
+口服：400 ~ 800 mg/次，5次/d，服用7 d；静脉滴注：免疫受损或伴严重神经系统疾病患者每次5 ~ 10 mg/kg，每8小时1次，疗程7 d
+伐昔洛韦
+阿昔洛韦的前体药物，口服吸收快，在胃肠道和肝脏内迅速转化为阿昔洛韦，其生物利用度是阿昔洛韦的3 ~ 5倍
+口服：300 ~ 1 000 mg/次，3次/d，服用7 d
+泛昔洛韦
+喷昔洛韦的前体药物，口服后迅速转化为喷昔洛韦，在细胞内维持较长的半衰期。作用机制同阿昔洛韦[15]，生物利用度高于阿昔洛韦，给药频率和剂量低于阿昔洛韦
+口服：250 ~ 500 mg/次，3次/d，服用7 d
+溴夫定
+抗病毒作用具有高度选择性，抑制病毒复制的过程只在病毒感染的细胞中进行
+口服：125 mg/d，1次/d，服用7 d
+膦甲酸钠
+通过非竞争性方式阻断病毒DNA聚合酶的磷酸盐结合部位，防止DNA病毒链的延伸
+静脉滴注：每次40 mg/kg，每8小时1次
+注：a阿昔洛韦给药期间患者应充足饮水，防止阿昔洛韦在肾小管内沉淀，损害肾功能
+肾功能不全患者，要相应下调使用剂量。肾功能持续下降者，应立即停用阿昔洛韦，改用泛昔洛韦或其他抗病毒药物继续治疗。对于怀疑存在肾功能不全的患者初始给药前应检测肌酐水平，但溴夫定无需检测肌酐水平[18,19]。
+美国感染病学会（Infectious Diseases Society of America，IDSA）指南推荐阿昔洛韦治疗VZV所致的脑膜炎/脑炎：轻中度病例，静脉滴注10 mg/kg，每8小时1次，连续治疗10 ~ 14 d，而严重病例应持续治疗14 ~ 21 d[20]。
+HIV合并VZV感染，推荐使用阿昔洛韦或膦甲酸钠治疗。VZV引起的球后视神经炎较为罕见，几乎只出现在HIV血清反应阳性的艾滋病患者中，同时可伴或不伴皮损，目前并无明确有效的治疗方案。但由于视神经炎可严重危害视力且组织病理学显示有炎症浸润，所以可考虑初始给予静脉滴注阿昔洛韦及糖皮质激素治疗，而对于阿昔洛韦治疗抵抗（耐药）的患者，推荐静脉滴注膦甲酸钠[21]。
+2. 糖皮质激素疗法：
+目前关于是否应用糖皮质激素治疗带状疱疹仍存在争议。普遍观点认为在带状疱疹急性发作早期系统应用糖皮质激素并逐步递减可以抑制炎症过程，缩短急性疼痛的持续时间和皮损愈合时间，但对已发生PHN的疼痛无效[22,23]。推荐剂量泼尼松初始量30 ~ 40 mg/d口服，逐渐减量，疗程1 ~ 2周。该疗法是否能预防PHN的发生尚存在争议。
+年龄大于50岁、出现大面积皮疹及重度疼痛、累及头面部的带状疱疹、疱疹性脑膜炎及内脏播散性带状疱疹可使用糖皮质激素。高血压、糖尿病、消化性溃疡及骨质疏松患者谨慎使用，禁用于免疫抑制或有禁忌证的患者。推荐使用泼尼松治疗带状疱疹引起的Ramsay Hunt综合征[17]和中枢神经系统并发症，如脑炎或Bell麻痹[24]。
+3. 带状疱疹期的镇痛治疗：
+对于轻中度疼痛，考虑处方对乙酰氨基酚、非甾体类抗炎药或曲马多；中重度疼痛使用阿片类药物，如吗啡或羟考酮，或治疗神经病理性疼痛的药物，如钙离子通道调节剂加巴喷丁、普瑞巴林等[25]（该类药物具体用法请参照表2）。带状疱疹期间重度急性疼痛是发生PHN的危险因素，联合钙离子通道调节剂不仅能有效缓解疼痛，而且能减少PHN发生[26]。研究显示，早期使用普瑞巴林可显著降低带状疱疹期疼痛评分，尤其在疱疹发生7 d内使用能显著降低PHN发生率[27]。老年带状疱疹患者的疼痛更常见且为重度，严重影响生活各方面，如发生焦虑、睡眠障碍、无法正常工作或生活[6]。研究显示，普瑞巴林联合羟考酮不仅能进一步降低PHN发生率，还可改善患者日常活动与睡眠，提高生活质量[28]。
+点击查看表格
+表2
+带状疱疹后神经痛的一线治疗药物
+表2
+带状疱疹后神经痛的一线治疗药物
+药物名称
+药物特点
+用法/用量
+注意事项
+普瑞巴林
+第2代钙离子通道调节剂，与 α2⁃δ 亚基亲和力强，通过调节钙离子涌入，减少兴奋性神经递质的过度释放，抑制痛觉过敏和中枢敏化而达到镇痛效果。起效快，呈线性药代动力学特征，疗效无封顶效应
+口服：起始剂量为150 mg/d，可在1周内增加至300 mg/d。肾功能减退的患者应调整剂量。最大剂量600 mg/d
+肾功能不全患者应减量。主要不良反应为头晕、嗜睡
+加巴喷丁
+第1代钙离子通道调节剂，呈非线性药代动力学特征，疗效存在封顶效应
+口服：起始剂量为300 mg/d，逐渐增加至最适剂量，常用有效剂量为900～1 800 mg/d
+不良反应同普瑞巴林
+阿米替林
+可作用于疼痛传导通路的多个环节：阻断多种离子通道，抑制5羟色胺和去甲肾上腺素的再摄取，主要在疼痛传导下行通路发挥作用
+口服：起始剂量为25 mg/d，最大剂量为150 mg/d
+应注意其心脏毒性，青光眼、尿潴留、自杀等高风险患者慎用
+5%利多卡因贴剂
+阻断电压门控钠离子通道，减少损伤后初级传入神经的异位冲动，从而减少痛觉
+疼痛区域1～3贴，1贴最多12 h
+使用部位皮肤反应，如瘙痒、红斑和皮炎
+4. 特殊人群带状疱疹的临床特点与治疗：
+婴儿期、母孕期患水痘的儿童较易发生带状疱疹，但发病较成人轻，可口服阿昔洛韦20 mg/kg，4次/d；或权衡利弊，与患儿家长充分沟通后，慎重口服泛昔洛韦，体重<40 kg者每次12.5 mg/kg每8小时1次，体重≥ 40 kg者250 ~ 500 mg每8小时1次[29,30]。重症患者可静脉滴注阿昔洛韦，≤ 500 mg/m2或≤ 15 mg/kg，每8小时1次[31]。老年人易出现皮肤、内脏播散，以及合并症，宜采用高效低毒的抗病毒药物积极治疗。排除禁忌证也可使用糖皮质激素治疗。妊娠晚期患者可口服阿昔洛韦或伐昔洛韦，严重者静脉滴注阿昔洛韦，但妊娠20周前应慎用。哺乳期口服阿昔洛韦未见乳儿异常[32]，但口服泛昔洛韦需停止哺乳。
+5. 带状疱疹患者教育的重要性：
+健康教育对患者认识本病、依从治疗、减少并发症等有重要意义。患者皮损疱液或糜烂面含有病毒，应避免接触尚未患过水痘的儿童和其他易感者。告知患者及早就医及治疗，坚持正确的药物剂量和疗程，保持皮损清洁，避免继发细菌感染，适当休息，保证足够营养。神经营养类药物对缓解神经炎症与神经痛也有一定帮助，常用药物有甲钴胺、维生素B1和维生素B12等，口服或肌内注射。
+六、中医治疗
+中医学认为本病初起多为湿热困阻、湿毒火盛，后期多为火热伤阴、气滞血瘀或脾虚失运，余毒未清[33]。初期以清热利湿解毒为先，后期以活血化瘀理气为主，兼顾扶正固本。
+1. 肝胆湿热型：
+发病初期，皮疹鲜红，簇集水疱，疱壁紧张，焮红灼热刺痛，治宜清热利湿，解毒止痛。用龙胆泻肝汤加减[34]。中成药可选用龙胆泻肝丸、加味逍遥丸、新癀片、清开灵注射液等[35]。
+2. 脾虚湿蕴型：
+皮疹淡红，疱壁松弛，糜烂渗出较多，疼痛，治宜健脾除湿，行气活血止痛。用除湿胃苓汤加减[36,37]。中成药可选参苓白术散。
+3. 气滞血瘀型：
+多见于老年人，可见皮疹色暗红或结血痂，或皮疹消退，但仍疼痛不止，治宜理气活血化瘀，通络止痛。用血府逐瘀汤加减。中成药可选用七厘散、云南白药、血府逐瘀胶囊、大黄蛰虫丸等[35,38]。
+针灸是中医治疗带状疱疹的特色疗法，可选用火针、电针、局部围刺，刺络放血拔罐、穴位注射或埋线和艾灸等方法治疗。
+七、局部治疗
+1. 物理治疗：
+物理治疗带状疱疹目前尚缺乏高质量研究报告[39]。局部热疗可能有促进皮损消退的作用。我国台湾的一项回顾性对照研究证实，在带状疱疹出疹5日内采用低能量氦氖激光治疗能明显减少PHN发生率，但需要进一步随机对照试验验证[40]。
+2. 外用治疗药物：
+以干燥、消炎为主。疱液未破时可外用炉甘石洗剂、阿昔洛韦乳膏或喷昔洛韦乳膏；疱疹破溃后可酌情用3%硼酸溶液或1∶5 000呋喃西林溶液湿敷，或外用0.5%新霉素软膏或2%莫匹罗星软膏等。眼部可外用3%阿昔洛韦眼膏、碘苷（疱疹净）滴眼液，禁用糖皮质激素外用制剂[41]。
+八、并发症的治疗和管理
+1. 常见并发症：
+最常见的是PHN，可被定义为皮疹出现后至少持续1个月或3个月、6个月的疼痛。目前国际上尚未达成共识，国外最常用的定义即带状疱疹皮疹出现后至少持续3个月的疼痛[42]。我国《带状疱疹后神经痛中国专家诊疗共识》明确指出，PHN是皮疹愈合后持续1个月及以上的疼痛[43]。PHN发病率占带状疱疹患者的5% ~ 30%，我国约有400万PHN患者。PHN多见于高龄、免疫功能低下患者，疼痛部位通常比疱疹区域有所扩大，常见于单侧胸部、三叉神经（主要是眼支）或颈部。疼痛性质多样，可为烧灼样、电击样、刀割样、针刺样或撕裂样。一种疼痛为主，或多样疼痛并存。明显扰乱患者的睡眠、情绪，影响工作和日常生活，严重可导致精神障碍和抑郁。30% ~ 50%的患者疼痛持续超过1年，部分病程可达10年或更长。
+其他常见并发症：溃疡性角膜炎或角膜穿孔，视力下降甚至失明，继发性青光眼；听力障碍；面瘫、耳痛和外耳道疱疹；排便、排尿困难；重度免疫功能缺陷（包括HIV感染）患者皮疹可泛发全身，出现坏死，表现为深脓疱疮样，出现内脏损害，常伴高热，引起肺炎和脑炎。约10%皮肤播散性带状疱疹合并内脏受累，病死率高达55%[44]。
+2. 临床治疗PHN的时机及药物选择：
+患者发生PHN时即进行止痛治疗的最佳时机，早期治疗可缩短疼痛持续时间，降低治疗难度。一线治疗药物包括钙离子通道调节剂（普瑞巴林和加巴喷丁）、三环类抗抑郁药（阿米替林）和5%利多卡因贴剂（表2）。疗程视病情和药物性质而定。
+此外，还可与疼痛科和神经科等相关科室合作，采用神经介入及物理治疗等手段，缓解患者症状[43]。
+3．PHN的预防：
+早期积极抗病毒治疗对减少从带状疱疹发展为PHN的严重程度和持续时间有重要作用，尤其50岁以上有中重度疼痛，严重皮疹，或累及非躯体部位皮疹患者。针对老年患者适当延长抗病毒疗程可减少PHN的发生率。而且早期积极的镇痛治疗也可有效预防PHN发生。另外，研究显示带状疱疹疫苗Zostavax®预防60岁以上人群发生PHN的有效率为66.5%[46,47]。
+九、预防
+提高50岁及以上易感人群的抵抗力是重要的基础预防措施。带状疱疹患者应采取接触隔离措施，水痘和免疫功能低下的播散性带状疱疹患者还应采取呼吸道隔离措施直至皮损结痂[24,45]。接种带状疱疹疫苗Zostavax®适用于50岁以上免疫功能正常人群，可显著降低带状疱疹疾病负担，但有效率随年龄增长而降低[46,47]，严重免疫抑制、孕妇是接种禁忌证。此外，低剂量阿昔洛韦预防用药可能降低HIV感染者带状疱疹发病率[48]。
+专家共识工作组成员（按姓氏汉语拼音顺序排列）常建民（北京医院）、陈学军（四川省医学科学院·四川省人民医院）、顾恒[中国医学科学院皮肤病医院（研究所）]、郭庆（中山大学附属第二医院）、郝飞（第三军医大学第一附属医院）、李恒进（解放军总医院）、李若瑜（北京大学第一医院）、刘巧（江西中医药大学第二附属医院）、刘全忠（天津医科大学总医院）、桑红（解放军南京总医院）、涂亚庭（华中科技大学同济医学院附属协和医院）、王爱平（北京大学第一医院）、王官清（上海交通大学附属第一人民医院）、肖生祥（西安交通大学附属第二医院）、杨慧兰（解放军广州总医院）
+参考文献
+[1]
+BaoL,WeiG,GanH, et al.
+Immunogenicity of varicella zoster virus glycoprotein E DNA vaccine[J].
+Exp Ther Med,
+2016,
+11（
+5）:
+1788-
+1794.
+doi: 10.3892/etm.2016.3086.
+[2]
+GershonAA,GershonMD,BreuerJ, et al.
+Advances in the understanding of the pathogenesis and epidemiology of herpes zoster[J].
+J Clin Virol,
+2010,
+48（
+Suppl 1）:
+S2-
+7.
+doi: 10.1016/S1386-6532(10)70002-0.
+[3]
+SauerbreiA.
+Diagnosis, antiviral therapy, and prophylaxis of varicella-zoster virus infections[J].
+Eur J Clin Microbiol Infect Dis,
+2016,
+35（
+5）:
+723-
+734.
+doi: 10.1007/s10096-016-2605-0.
+[4]
+YawnBP,GildenD.
+The global epidemiology of herpes zoster[J].
+Neurology,
+2013,
+81（
+10）:
+928-
+930.
+doi: 10.1212/WNL.0b013e3182a3516e.
+[5]
+KawaiK,GebremeskelBG,AcostaCJ.
+Systematic review of incidence and complications of herpes zoster: towards a global perspective[J].
+BMJ Open,
+2014,
+4（
+6）:
+e004833.
+doi: 10.1136/bmjopen-2014-004833.
+[6]
+ChenLK,AraiH,ChenLY, et al.
+Looking back to move forward: a twenty-year audit of herpes zoster in Asia-Pacific[J].
+BMC Infect Dis,
+2017,
+17（
+1）:
+213.
+doi: 10.1186/s12879-017-2198-y.
+[7]
+KawaiK,YawnBP,WollanP, et al.
+Increasing incidence of herpes zoster over a 60-year period from a population-based study[J].
+Clin Infect Dis,
+2016,
+63（
+2）:
+221-
+226.
+doi: 10.1093/cid/ciw296.
+[8]
+BricoutH,HaughM,OlatundeO, et al.
+Herpes zoster-associated mortality in Europe: a systematic review[J].
+BMC Public Health,
+2015,
+15:
+466.
+doi: 10.1186/s12889-015-1753-y.
+[9]
+YenikomshianMA,GuignardAP,HaguinetF, et al.
+The epidemi-ology of herpes zoster and its complications in Medicare cancer patients[J].
+BMC Infect Dis,
+2015,
+15:
+106.
+doi: 10.1186/s12879-015-0810-6.
+[10]
+GrabarS,TattevinP,Selinger-LenemanH, et al.
+Incidence of herpes zoster in HIV-infected adults in the combined antiretro-viral therapy era: results from the FHDH-ANRS CO4 cohort[J].
+Clin Infect Dis,
+2015,
+60（
+8）:
+1269-
+1277.
+doi: 10.1093/cid/ciu1161.
+[11]
+ZhuQ,ZhengH,QuH, et al.
+Epidemiology of herpes zoster among adults aged 50 and above in Guangdong, China[J].
+Hum Vaccin Immunother,
+2015,
+11（
+8）:
+2113-
+2118.
+doi: 10.1080/21645515.2015.1016672.
+[12]
+LinYH,HuangLM,ChangIS, et al.
+Disease burden and epidemiology of herpes zoster in pre-vaccine Taiwan[J].
+Vaccine,
+2010,
+28（
+5）:
+1217-
+1220.
+doi: 10.1016/j.vaccine.2009.11.029.
+[13]
+朱学骏,王宝玺,孙建方,等.
+皮肤病学[M].
+2版.
+北京:
+北京大学医学出版社,
+2011:
+1483-
+1494.
+[14]
+张建中.
+中外皮肤病诊疗指南[M].
+北京:
+中华医学电子音像出版社,
+2014:
+86-
+94.
+[15]
+JeonYH.
+Herpes zoster and postherpetic neuralgia: practical consideration for prevention and treatment[J].
+Korean J Pain,
+2015,
+28（
+3）:
+177-
+184.
+doi: 10.3344/kjp.2015.28.3.177.
+[16]
+ChenN,LiQ,YangJ, et al.
+Antiviral treatment for preventing postherpetic neuralgia[J].
+Cochrane Database Syst Rev,
+2014,（
+2）:
+CD006866.
+doi: 10.1002/14651858.CD006866.pub3.
+[17]
+LamoureuxC,FlatrèsC,ValletS, et al.
+Aseptic meningitis caused by the Varicella-zoster virus after primary infection in an immunocompetent child: a case report[J].
+Ann Biol Clin（Paris）,
+2018,
+76（
+2）:
+234-
+236.
+doi: 10.1684/abc.2018.1331.
+[18]
+WernerRN,NikkelsAF,MarinovicB, et al.
+European consensus-based（S2k）Guideline on the Management of Herpes Zoster - guided by the European Dermatology Forum（EDF）in coope-ration with the European Academy of Dermatology and Venereology （EADV）, Part 2: Treatment[J].
+J Eur Acad Dermatol Venereol,
+2017,
+31（
+1）:
+20-
+29.
+doi: 10.1111/jdv.13957.
+[19]
+YoonH,RhewKY.
+Famciclovir as an antiviral agent for a patient with acute renal failure[J].
+Int J Clin Pharm,
+2013,
+35（
+2）:
+173-
+175.
+doi: 10.1007/s11096-012-9737-9.
+[20]
+TunkelAR,GlaserCA,BlochKC, et al.
+The management of encephalitis: clinical practice guidelines by the Infectious Diseases Society of America[J].
+Clin Infect Dis,
+2008,
+47（
+3）:
+303-
+327.
+doi: 10.1086/589747.
+[21]
+DudaJF,CastroJG.
+Bilateral retrobulbar optic neuritis caused by Varicella zoster virus in a patient with AIDS[J].
+Br J Med Med Res,
+2015,
+5（
+11）:
+1381-
+1386.
+doi: 10.9734/BJMMR/2015/14259.
+[22]
+WhitleyRJ,CloudG,GruberW, et al.
+Ganciclovir treatment of symptomatic congenital cytomegalovirus infection: results of a phase II study. National Institute of Allergy and Infectious Diseases Collaborative Antiviral Study Group[J].
+J Infect Dis,
+1997,
+175（
+5）:
+1080-
+1086.
+[23]
+HanY,ZhangJ,ChenN, et al.
+Corticosteroids for preventing postherpetic neuralgia[J].
+Cochrane Database Syst Rev,
+2013,（
+3）:
+CD005582.
+doi: 10.1002/14651858.CD005582.pub4.
+[24]
+WatanabeD,MizukamiA,HollK, et al.
+The potential public health impact of herpes zoster vaccination of people aged≥50 years in Japan: results of a Markov model analysis[J].
+Dermatol Ther（Heidelb）,
+2018.
+doi: 10.1007/s13555-018-0236-3.
+[25]
+GanEY,TianEA,TeyHL.
+Management of herpes zoster and post-herpetic neuralgia[J].
+Am J Clin Dermatol,
+2013,
+14（
+2）:
+77-
+85.
+doi: 10.1007/s40257-013-0011-2.
+[26]
+LapollaW,DigiorgioC,HaitzK, et al.
+Incidence of postherpetic neuralgia after combination treatment with gabapentin and vala-cyclovir in patients with acute herpes zoster: open-label study[J].
+Arch Dermatol,
+2011,
+147（
+8）:
+901-
+907.
+doi: 10.1001/archdermatol.2011.81.
+[27]
+MigitaT.
+Can early administration of pregabalin reduce the incidence of postherpetic neuralgia?[J].
+Clin Exp Dermatol,
+2014,
+39（
+6）:
+755-
+756.
+doi: 10.1111/ced.12386.
+[28]
+LiangL,LiX,ZhangG, et al.
+Pregabalin in the treatment of herpetic neuralgia: results of a multicenter Chinese study[J].
+Pain Med,
+2015,
+16（
+1）:
+160-
+167.
+doi: 10.1111/pme.12564.
+[29]
+Sáez-LlorensX,YogevR,ArguedasA, et al.
+Pharmacokinetics and safety of famciclovir in children with herpes simplex or varicella-zoster virus infection[J].
+Antimicrob Agents Chemother,
+2009,
+53（
+5）:
+1912-
+1920.
+doi: 10.1128/AAC.01054-08.
+[30]
+KimberlinDW,JacobsRF,WellerS, et al.
+Pharmacokinetics and safety of extemporaneously compounded valacyclovir oral suspension in pediatric patients from 1 month through 11 years of age[J].
+Clin Infect Dis,
+2010,
+50（
+2）:
+221-
+228.
+doi: 10.1086/649212.
+[31]
+RaoS,AbzugMJ,Carosone-LinkP, et al.
+Intravenous acyclovir and renal dysfunction in children: a matched case control study[J].
+J Pediatr,
+2015,
+166（
+6）:
+1462-1468.e1-4.
+doi: 10.1016/j.jpeds.2015.01.023.
+[32]
+De PaschaleM,ClericiP.
+Microbiology laboratory and the management of mother-child varicella-zoster virus infection[J].
+World J Virol,
+2016,
+5（
+3）:
+97-
+124.
+doi: 10.5501/wjv.v5.i3.97.
+[33]
+刘巧.
+中西医结合皮肤病治疗学[M].
+北京：
+人民军医出版社,
+2014,
+125.
+[34]
+李成宾,李芸.
+加味龙胆泻肝汤治疗带状疱疹60例[J].
+光明中医,
+2010,
+25（
+5）:
+800-
+801.
+doi: 10.3969/j.issn.1003-8914.2010.05.032.
+[35]
+林燕,郭晓宇,栾杨.
+带状疱疹的中成药及民间偏方疗法[J].
+中国临床医生,
+2011,
+39（
+8）:
+20-
+22.
+doi: 10.3969/j.issn.1008-1089.2011.08.009.
+[36]
+杨志波,范瑞强,邓丙戌.
+中医皮肤性病学[M].
+北京:
+中国中医药出版社,
+2010:
+33.
+[37]
+王伟芳.
+除湿胃苓汤加减治疗脾虚湿蕴型蛇串疮的临床观察[D].
+武汉
+:湖北中医药大学,
+2012.
+[38]
+中华中医药学会皮肤科分会.
+蛇串疮中医诊疗指南（2014年修订版）[J].
+中医杂志,
+2015,
+56（
+13）:
+1163-
+1168.
+doi: 10.13288/j.11-2166/r.2015.13.022.
+[39]
+LiuH,LuF,ZhouD, et al.
+The analgesic and emotional response to intravenous lidocaine infusion in the treatment of postherpetic neuralgia: a randomized, double-blinded, placebo-controlled study[J].
+Clin J Pain,
+2018.
+doi: 10.1097/AJP.0000000000000623.
+[40]
+ChenYT,WangHH,WangTJ, et al.
+Early application of low-level laser may reduce the incidence of postherpetic neuralgia （PHN）[J].
+J Am Acad Dermatol,
+2016,
+75（
+3）:
+572-
+577.
+doi: 10.1016/j.jaad.2016.03.050.
+[41]
+张学军.
+皮肤性病学[M].
+8版.
+北京:
+人民卫生出版社,
+2013:
+67.
+[42]
+PréaudE,UhartM,BöhmK, et al.
+Cost-effectiveness analysis of a vaccination program for the prevention of herpes zoster and post-herpetic neuralgia in adults aged 50 and over in Germany[J].
+Hum Vaccin Immunother,
+2015,
+11（
+4）:
+884-
+896.
+doi: 10.1080/21645515.2015.1011561.
+[43]
+带状疱疹后神经痛诊疗共识编写专家组.
+带状疱疹后神经痛诊疗中国专家共识[J].
+中国疼痛医学杂志,
+2016,
+22（
+3）:
+161-
+167.
+doi: 10.3969/j.issn.1006-9852.2016.03.001.
+[44]
+StratmanE.
+Visceral zoster as the presenting feature of disseminated herpes zoster[J].
+J Am Acad Dermatol,
+2002,
+46（
+5）:
+771-
+774.
+[45]
+GiovanniG,NicolettaV,ParvanèK, et al.
+Prevention of herpes zoster and its complications: from the clinic to the real-life experience with the vaccine[J].
+J Med Microbiol,
+2016,
+65（
+12）:
+1363-
+1369.
+doi: 10.1099/jmm.0.000386.
+[46]
+PellissierJM,BrissonM,LevinMJ.
+Evaluation of the cost-effectiveness in the United States of a vaccine to prevent herpes zoster and postherpetic neuralgia in older adults[J].
+Vaccine,
+2007,
+25（
+49）:
+8326-
+8337.
+doi: 10.1016/j.vaccine.2007.09.066.
+[47]
+AnsaldiF, TrucchiC, AlicinoC, et al.
+Real-world effectiveness and safety of a live-attenuated herpes zoster vaccine: a comprehensive review[J].
+Adv Ther,
+2016,
+33(
+7):
+1094.
+doi:10.1007/s12325-016-0355-0.
+[48]
+BarnabasRV,BaetenJM,LingappaJR, et al.
+Acyclovir prophy-laxis reduces the incidence of herpes zoster among HIV-infected individuals: results of a randomized clinical trial[J].
+J Infect Dis,
+2016,
+213（
+4）:
+551-
+555.
+doi: 10.1093/infdis/jiv318.
+贡献者信息
+中国医师协会皮肤科医师分会带状疱疹专家共识工作组
+历史
+出版日期：2018-06-15
+收稿日期：2018-03-12
+本文编辑
+颜艳
+Guideline and Consensus
+Consensus of Chinese experts on herpes zoster
+Consensus Workgroup on Herpes Zoster, China Dermatologist Association
+Published
+2018-06-15
+Cite as
+Chin J Dermatol, 2018,51(6): 403-408. DOI: 10.3760/cma.j.issn.0412-4030.2018.06.001
+Contributor Information
+Consensus Workgroup on Herpes Zoster, China Dermatologist Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+治疗带状疱疹的抗病毒药物
+药物
+特点
+用法/用量
+阿昔洛韦a
+在感染细胞内经病毒胸苷激酶磷酸化，生成阿昔洛韦三磷酸，后者可抑制病毒DNA聚合酶，中止病毒DNA链的延伸
+口服：400 ~ 800 mg/次，5次/d，服用7 d；静脉滴注：免疫受损或伴严重神经系统疾病患者每次5 ~ 10 mg/kg，每8小时1次，疗程7 d
+伐昔洛韦
+阿昔洛韦的前体药物，口服吸收快，在胃肠道和肝脏内迅速转化为阿昔洛韦，其生物利用度是阿昔洛韦的3 ~ 5倍
+口服：300 ~ 1 000 mg/次，3次/d，服用7 d
+泛昔洛韦
+喷昔洛韦的前体药物，口服后迅速转化为喷昔洛韦，在细胞内维持较长的半衰期。作用机制同阿昔洛韦[15]，生物利用度高于阿昔洛韦，给药频率和剂量低于阿昔洛韦
+口服：250 ~ 500 mg/次，3次/d，服用7 d
+溴夫定
+抗病毒作用具有高度选择性，抑制病毒复制的过程只在病毒感染的细胞中进行
+口服：125 mg/d，1次/d，服用7 d
+膦甲酸钠
+通过非竞争性方式阻断病毒DNA聚合酶的磷酸盐结合部位，防止DNA病毒链的延伸
+静脉滴注：每次40 mg/kg，每8小时1次
+注：a阿昔洛韦给药期间患者应充足饮水，防止阿昔洛韦在肾小管内沉淀，损害肾功能
+表2
+带状疱疹后神经痛的一线治疗药物
+药物名称
+药物特点
+用法/用量
+注意事项
+普瑞巴林
+第2代钙离子通道调节剂，与 α2⁃δ 亚基亲和力强，通过调节钙离子涌入，减少兴奋性神经递质的过度释放，抑制痛觉过敏和中枢敏化而达到镇痛效果。起效快，呈线性药代动力学特征，疗效无封顶效应
+口服：起始剂量为150 mg/d，可在1周内增加至300 mg/d。肾功能减退的患者应调整剂量。最大剂量600 mg/d
+肾功能不全患者应减量。主要不良反应为头晕、嗜睡
+加巴喷丁
+第1代钙离子通道调节剂，呈非线性药代动力学特征，疗效存在封顶效应
+口服：起始剂量为300 mg/d，逐渐增加至最适剂量，常用有效剂量为900～1 800 mg/d
+不良反应同普瑞巴林
+阿米替林
+可作用于疼痛传导通路的多个环节：阻断多种离子通道，抑制5羟色胺和去甲肾上腺素的再摄取，主要在疼痛传导下行通路发挥作用
+口服：起始剂量为25 mg/d，最大剂量为150 mg/d
+应注意其心脏毒性，青光眼、尿潴留、自杀等高风险患者慎用
+5%利多卡因贴剂
+阻断电压门控钠离子通道，减少损伤后初级传入神经的异位冲动，从而减少痛觉
+疼痛区域1～3贴，1贴最多12 h
+使用部位皮肤反应，如瘙痒、红斑和皮炎
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华皮肤科杂志2018年51卷6期
+文    题：带状疱疹中国专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华皮肤科杂志2018年51卷6期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

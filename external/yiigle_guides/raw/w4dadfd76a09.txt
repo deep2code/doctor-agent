@@ -1,0 +1,1218 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E8%83%86%E5%9B%8A%E7%99%8C%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882019%E7%89%88%EF%BC%89.html
+# 标题: 胆囊癌诊断和治疗指南（2019版） - 中华外科杂志
+# 发布方/日期: 外科，中华外科杂志, 2020,58(04) : 243-251. DOI: 10.3760/cma.j；2020-04-01
+
+胆囊癌诊断和治疗指南（2019版）
+中华医学会外科学分会胆道外科学组
+中国医师协会外科医师分会胆道外科专业委员会
+中华外科杂志, 2020,58(04) : 243-251. DOI: 10.3760/cma.j.cn112139-20200106-00014
+胆囊癌指发生于胆囊（包括胆囊底部、体部、颈部及胆囊管）的恶性肿瘤。我国胆囊癌发病率占同期胆道疾病的0.4%~3.8%，居消化道肿瘤第6位，胆囊癌患者5年总体生存率仅为5%[1,2]。胆囊癌具有明确的发病危险因素，亟需贯彻以预防为主的策略，进行胆囊癌预防知识的科学普及；为提高胆囊癌的早期诊断率，亟需加强对胆囊癌危险因素的早期干预及对高危人群的密切随访；为提高胆囊癌的整体治疗效果，亟需贯彻以规范化根治性切除为主，结合化疗、放疗、靶向治疗、免疫治疗等综合治疗的理念。为此，中华医学会外科学分会胆道外科学组、中国医师协会外科医师分会胆道外科专业委员会组织专家，在《胆囊癌诊断和治疗指南（2015版）[3]》的基础上进行了深入讨论，制订了本指南。
+一、胆囊癌发病危险因素及可能相关因素
+目前人们对胆囊癌的发病机制尚未完全了解，多认为与环境、遗传因素相关。流行病学调查结果、临床大样本研究结果及专家经验显示，胆囊癌的发生与以下危险因素相关。
+（一）危险因素
+1．胆囊结石：
+约85%的胆囊癌患者合并胆囊结石[1]。胆囊结石患者患胆囊癌的风险是无胆囊结石人群的13.7倍。胆囊结石直径和数目与胆囊癌的发生呈正相关[2,4]；胆固醇和混合胆固醇类胆囊结石危险度更高[4]。
+2．胆囊息肉样病变：
+具有恶变倾向的胆囊息肉有以下特征：（1）直径≥10 mm；（2）合并胆囊结石、胆囊炎；（3）单发息肉或无蒂息肉，息肉生长速度快（生长速度>3 mm/6个月）；（4）腺瘤样息肉[5]。
+3．胆囊慢性炎症：
+胆囊慢性炎症伴有黏膜腺体内的不均匀钙化或点状钙化被认为是癌前病变。胆囊壁钙化可形成瓷性胆囊，约25%的瓷性胆囊与胆囊癌发生高度相关[6]。
+4．"保胆取石"术后胆囊：
+"保胆取石"术后，导致结石形成的危险因素和胆囊炎症未消除。
+（二）可能的危险因素
+1．先天性胰胆管汇合异常：
+胰胆管汇合异常是一种先天性畸形，胰液逆流入胆囊，长期慢性炎症刺激引起黏膜反复再生和修复，最终导致胆囊恶变。约10%的胆囊癌患者合并胰胆管汇合变异[7]。
+2．胆囊腺肌症[8]：
+约6%的胆囊腺肌症患者合并胆囊癌。胆囊腺肌症合并胆囊结石时，或当术前影像学检查不能确定胆囊腺肌症是否癌变时，特别是胆囊壁厚度>10 mm时，建议尽早手术。
+3．胆道感染：
+胆道系统慢性感染会增加胆囊癌发生风险。常见致病菌有沙门菌和幽门螺杆菌，发病机制可能与细菌导致的持续炎症诱导胆汁酸和代谢物降解有关[9]。
+4．肥胖与糖尿病：
+肥胖症引起的代谢综合征可增加胆囊癌的发生风险。糖尿病是形成胆囊结石的危险因素，糖尿病与结石协同作用会促进胆囊癌的发生[10]。
+5．年龄和性别：
+胆囊癌发病率随年龄增长呈上升趋势。女性胆囊癌发病率是男性的2~6倍。月经初潮早、更年期晚、多胎怀孕和生育的女性，胆囊癌的发生风险增加，可能与雌激素促进胆汁淤积、结石形成有关[11]。
+6．原发性硬化性胆管炎：
+原发性硬化性胆管炎合并胆囊结石、胆囊炎、胆囊息肉的患者，胆囊癌的发生风险增加[12]。
+7．遗传学和基因突变：
+有胆囊癌家族史者，其发病风险增加；有胆囊结石家族史者，胆囊癌发病风险亦增加[13]。
+8．吸烟：
+吸烟是胆囊癌的独立危险因素，与剂量、吸烟时间呈线性正相关[14]。
+9．化学暴露：
+胆囊癌患者外周血中黄曲霉毒素、重金属（镍、镉、铬等）水平高于健康人群，可能与细菌释放β-葡糖醛酸酶或化学性游离毒素直接接触胆囊黏膜，诱导癌变发生有关[15]。
+对伴有胆囊癌危险因素的胆囊良性疾病患者，应择期行胆囊切除术，"保胆取石"是不规范的治疗方法。若不手术者，应每3个月到大型医院肝胆胰外科或普通外科就诊，行超声和肿瘤标志物等检查，进行密切随访。
+二、胆囊癌TNM分期、病理学类型及临床分型
+（一）胆囊癌TNM分期
+AJCC和UICC联合发布的TNM分期系统（表1）提供了胆囊癌临床病理学诊断的统一标准，对胆囊癌的局部浸润深度、邻近器官侵犯程度、门静脉和肝动脉受累情况、淋巴结转移及远处转移等临床病理学因素给予了全面评估，有助于评估胆囊癌的可切除性、选择治疗方法及判断预后[16]。
+点击查看表格
+表1
+AJCC胆囊癌TNM分期系统（第8版与第7版比较）
+表1
+AJCC胆囊癌TNM分期系统（第8版与第7版比较）
+AJCC第7版胆囊癌分期标准
+AJCC第8版胆囊癌分期标准
+原发肿瘤(T)
+分期
+原发肿瘤(T)
+分期
+Tis:原位癌
+0: Tis、N0、M0
+Tis:原位癌
+0: Tis、N0、M0
+T1a:侵及固有层
+Ⅰ: T1、N0、M0
+T1a:侵及固有层
+Ⅰ: T1、N0、M0
+T1b:侵及肌层
+Ⅱ: T2、N0、M0
+T1b:侵及肌层
+ⅡA:T2a、N0、M0
+T2:侵及肌周结缔组织，未超出浆膜或侵入肝脏
+ⅢA:T3、N0、M0
+T2a:腹腔侧肿瘤侵及肌周结缔组织，未超出浆膜
+ⅡB:T2b、N0、M0
+T3:穿透浆膜和（或）直接侵入肝脏和（或）一个邻近器官或结构
+ⅢB:T1~3、N1、M0
+T2b:肝脏侧肿瘤侵及肌周结缔组织，未侵入肝脏
+ⅢA:T3、N0、M0
+T4:侵及门静脉或肝动脉主干，或直接侵入两个或更多肝外器官或结构
+ⅣA:T4、N0~1、M0
+T3:穿透浆膜和（或）直接侵入肝脏和（或）一个邻近器官或结构T4:侵及门静脉或肝动脉主干，或直接侵入两个或更多肝外器官或结构
+ⅢB:T1~3、N1、M0ⅣA:T4、N0~1、M0
+局部淋巴结(N)
+ⅣB:任何T、N2、M0
+局部淋巴结(N)
+ⅣB:任何T、N2、M0
+N0:无区域淋巴结转移
+任何T、任何N、M1
+N0:无区域淋巴结转移
+任何T、任何N、M1
+N1:转移至沿胆囊管、胆总管、肝动脉、门静脉分布的淋巴结
+N1∶1~3枚区域淋巴结转移
+N2:转移至主动脉旁、腔静脉旁、肠系膜上动脉和（或）腹腔动脉干周围淋巴结
+N2:≥4枚区域淋巴结转移
+远处转移(M)
+远处转移(M)
+M0:无远处转移
+M0:无远处转移
+M1:有远处转移
+M1:有远处转移
+第8版AJCC癌症分期系统主要更新内容包括：（1）对T2期胆囊癌进行细分，将腹腔侧肿瘤分期定义为T2a期，肝脏侧为T2b期。（2）按转移阳性淋巴结数目划分N分期，1~3枚淋巴结发生转移定义为N1期，≥4枚淋巴结转移定义为N2期；为了准确判断N分期，建议最少检出淋巴结数目为6枚。
+（二）胆囊癌大体和组织病理学分型
+1．大体类型：
+可分为三种[17,18,19]。（1）浸润型：最多见，占75%~80%，可分为局部浸润型和弥漫浸润型。局部浸润型：亦称内生型，表现为胆囊壁局限性增厚和僵硬；弥漫浸润型：表现为胆囊壁弥漫性增厚和僵硬，呈浸润性灰白色肿块，生长迅速，易侵犯周围组织及器官，如肝脏、胆管及结肠肝曲等。（2）腔内生长型：亦称外生型，约占15%；肿瘤可呈息肉状、菜花样或结节状突入胆囊腔内，外周浸润少。（3）混合型：表现为胆囊壁增厚、僵硬及萎缩，可侵犯周围组织及器官，同时向胆囊腔内生长形成肿块。
+2．胆囊癌组织病理学分型：
+根据WHO 2010年版胆囊癌病理学类型（表2），最常见的病理学类型为腺癌。其他还包括腺鳞癌、鳞状细胞癌、未分化癌、神经内分泌来源肿瘤及间叶组织来源肿瘤等。部分肿瘤虽属良性病变，但其生物学行为介于良性和恶性之间，术后需密切随访[20]。
+点击查看表格
+表2
+WHO 2010年版胆囊癌病理学分型
+表2
+WHO 2010年版胆囊癌病理学分型
+编号
+分类
+生物学行为编码
+编号
+分类
+生物学行为编码
+1
+上皮组织来源
+1.2.4
+与侵袭性癌相关的黏液性囊性肿瘤
+3
+1.1
+癌前病变
+1.2.5
+鳞状细胞癌
+3
+1.1.1
+腺瘤
+0
+1.2.6
+未分化癌
+3
+管状
+0
+1.3
+神经内分泌肿瘤
+乳头状
+0
+1.3.1
+神经内分泌瘤
+3
+管状乳头状混合
+0
+神经内分泌瘤G1级
+3
+1.1.2
+胆道上皮内瘤变3级
+2
+神经内分泌瘤G2级
+3
+1.1.3
+乳头状瘤伴有低或中等级别上皮内瘤变
+0
+1.3.2
+神经内分泌癌
+3
+1.1.4
+乳头状瘤伴有高级别上皮内瘤变
+2
+大细胞型
+3
+1.1.5
+黏液性囊性肿瘤伴有低或中等级别上皮内瘤变
+0
+小细胞型
+3
+1.1.6
+黏液性囊性肿瘤伴有高级别上皮内瘤变
+2
+1.3.3
+混合性腺神经内分泌癌
+3
+1.2
+癌
+1.3.4
+杯状细胞类癌
+3
+1.2.1
+腺癌
+3
+1.3.5
+管状类癌
+1
+胆管型
+3
+2
+间叶组织来源
+胃小凹类型
+3
+2.1
+颗粒细胞瘤
+0
+肠型
+3
+2.2
+平滑肌瘤
+0
+透明细胞腺癌
+3
+2.3
+卡波西肉瘤
+3
+黏液腺癌
+3
+2.4
+平滑肌肉瘤
+3
+印戒细胞癌
+3
+2.5
+横纹肌肉瘤
+3
+1.2.2
+腺鳞癌
+3
+3
+淋巴瘤
+1.2.3
+与侵袭性癌相关的乳头状肿瘤
+3
+4
+继发性胆囊癌
+注：生物学行为编码0：良性肿瘤；1：生物学行为不确定，介于良性和原位癌之间；2：原位癌或3级上皮内瘤变；3：恶性肿瘤；空项示无编码
+（三）胆囊癌的临床分型
+胆囊癌起源于胆囊底部、体部、颈部的比例分别为60%、30%、10%。不同肿瘤部位的进展期胆囊癌，其肿瘤侵犯的器官及组织结构存在差异，预后也存在差异，手术方式和范围应根据肿瘤部位进行相应的调整[21]。一项国际多中心的研究结果表明，T2期肝脏侧的肿瘤（T2h）较腹腔侧的肿瘤（T2p）更易发生血管侵犯（51%比19%）、神经浸润（33%比8%）及淋巴结转移（40%比17%），3年和5年累积生存率分别为52.1%、73.7%和42.6%、64.7%[22]。
+中华医学会外科学分会胆道外科学组提出的胆囊癌的临床分型中，建议T2期及以上胆囊癌根据肿瘤起源部位及侵犯方向分为4型（图1）。（1）Ⅰ型：腹腔型；T2期肿瘤位于腹腔游离侧，未浸透浆膜，T3期及以上肿瘤穿透浆膜，可侵犯邻近器官或结构；（2）Ⅱ型：肝脏型；T2期肿瘤位于肝脏侧，T3期穿透浆膜，侵犯肝脏，未侵犯邻近器官或结构；（3）Ⅲ型：肝门型；T2期包括颈部及胆囊管癌，T3期及以上肿瘤穿透浆膜，可侵犯胆管和（或）肝门血管结构；（4）Ⅳ型：混合型；T2期肿瘤为弥漫性浸润，未浸透浆膜，T3期及以上肿瘤穿透浆膜，既可侵犯肝脏，同时可侵犯一个或以上邻近器官或结构[23]。
+点击查看大图
+图1
+四种胆囊癌临床分型的示意图（箭头所示为肿瘤生长侵犯方向）
+图1
+四种胆囊癌临床分型的示意图（箭头所示为肿瘤生长侵犯方向）
+全国多中心回顾性研究结果显示，胆囊癌的不同临床分型与T分期、N分期、血管侵犯及神经浸润等肿瘤生物学行为相关；不同临床分型患者根治性切除术后中位生存时间的差异有统计学意义。在1 059例根治性切除患者中，腹腔型患者的中位生存时间为48个月，肝脏型为21个月，肝门型为16个月，混合型为11个月[23]。
+三、诊断依据
+（一）临床表现
+胆囊癌无特异性临床症状，常被胆囊炎、胆囊结石及其并发症所掩盖，如腹部不适、食欲下降或体重减轻。一旦出现明显临床症状，多属中晚期，可表现为黄疸、发热及腹痛等。体检可发现黄疸及右上腹包块等。
+（二）肿瘤标志物检查
+血清CA19-9和（或）癌胚抗原升高是最常用的诊断胆囊癌的肿瘤标志物，其他还有CA125、CA724、CA153等。合并梗阻性黄疸时，CA19-9的诊断特异性低。
+（三）影像学检查
+1．超声检查：
+超声检查是胆囊疾病初步筛查及动态随访观察的首选检查方法。
+2．内镜超声：
+内镜超声检查可精确显示胆囊腔内肿块、浸润囊壁结构及深度，以及肝脏、胆道受侵犯的情况。内镜超声引导下细胞学穿刺病理活检可鉴别病变性质[24]。
+3．多层螺旋CT检查：
+诊断准确率为83.0%~93.3%，可显示胆囊壁被侵犯程度、毗邻器官是否受累及淋巴结转移情况[25]。
+4．MRI检查：
+准确率为84.9%~90.4%。磁共振胰胆管成像可清晰显示胰胆管解剖关系，显示胆管梗阻的灵敏度为91%~100%，准确度>90%。动态增强MRI联合血管成像可明确肿瘤大小、肝脏侵犯程度、血管侵犯、腹腔淋巴结转移及远处转移等[26]。
+5．正电子发射型计算机断层显像（positron emission computed tomography，PET）检查：
+PET检查对胆囊癌灵敏度高，可发现胆囊癌早期病变，检出最大径≤1.0 cm的转移淋巴结和转移病灶[27]。当CT或MRI检查有可疑发现时，建议行PET-CT检查[28]。
+（四）鉴别诊断
+需与黄色肉芽肿性胆囊炎、肝癌侵犯胆囊、肝门胆管癌与萎缩性胆囊炎等疾病相鉴别。
+四、胆囊癌术前与术中评估
+胆囊癌病情评估内容包括T分期、淋巴结转移、远处转移情况；术中再次评估分期及可切除性，旨在为选择合适的治疗策略提供依据。
+（一）术前评估
+1．T分期评估：
+T1期胆囊癌通过术前影像学分期较困难，其分期主要依靠术中快速冰冻切片及术后病理学检查；T2、T3和T4期胆囊癌可通过多层螺旋CT和MRI等术前影像学检查进行临床分期[29,30]。三维可视化技术有助于准确地评估胆囊癌的可切除性、制定合理的手术规划[31]。
+2．淋巴结转移评估：
+超声检查，尤其是CT、MRI检查，可较好地显示肝门区、胰头周围、腹膜后、肠系膜根部的淋巴结。淋巴结转移影像学特征：淋巴结最小径≥5 mm、强化、融合分叶或毛刺状、淋巴结内部坏死等[29,30]。
+3．远处转移评估：
+进展期胆囊癌易出现腹腔种植和远处转移，术前可结合增强CT、MRI或PET-CT等检查进行评估。
+（二）术中再次分期评估
+可根据术中超声、诊断性腹腔镜探查、剖腹探查结合可疑转移结节快速冰冻切片、淋巴结活检等进行评估。术中应常规行腹主动脉旁（16组）淋巴结的病理学检查，16组淋巴结阳性可作为放弃根治术的依据。对于术前评估为T3期及以上分期的胆囊癌，因有较高概率存在腹膜和肝脏远处转移，建议先行腹腔镜探查，以避免不必要的开腹手术。
+（三）胆囊癌可切除性评估
+应根据患者一般状况、肝脏和其他重要器官功能及肿瘤分期等情况进行综合评估。需要联合大范围肝切除者，术前应量化评估肝脏储备功能和肝体积，进而确定患者必需功能性肝体积和安全肝切除量。合并黄疸患者，手术预留肝脏体积需>肝体积的40%。
+胆囊癌根治性切除的条件包括：（1）R0切除为目标的胆囊及邻近器官癌灶切除和区域性淋巴结清扫；（2）剩余肝脏功能可代偿，可保存或重建其脉管结构；（3）患者可耐受手术创伤。
+五、胆囊癌外科治疗
+根治性切除手术是唯一可能治愈胆囊癌的方法。胆囊癌的外科治疗建议在具有经验丰富的肝胆胰外科医师和病理科医师的医疗中心完成。
+（一）肝脏切除范围
+Tis或T1a期：可行单纯胆囊切除术[32]。无证据表明联合肝切除可改善预后。
+T1b和T2a期：联合肝脏切除是否获益尚不明确[33,34]。鉴于肝脏楔形切除未明显增加手术难度及并发症，在获得确切循证医学证据之前推荐联合距胆囊床2 cm以上的肝组织楔形切除。
+T2b期：T2b期胆囊癌合并血管、神经侵犯及淋巴结转移的比例高，联合肝切除可延长总体生存时间[34,35]。肝切除的手术切除范围可为肝楔形切除或肝脏4b+5段切除，二者优劣尚不能确定。
+T3期：对于肝床受累<2 cm、无肝十二指肠韧带淋巴结转移者，肝脏4b+5段切除即可达到R0切除。以下情况应结合患者全身状况进行评估，推荐行右半肝或右三叶切除：（1）胆囊癌肝床受累≥2 cm；（2）肿瘤局限于右半肝，且转移灶数目为2个；（3）肿瘤侵犯肝右动脉；（4）肿瘤位于胆囊管、颈，侵犯胆囊三角或合并肝十二指肠韧带淋巴结转移（T3N1期），均提示癌细胞可经肝门淋巴管或Glisson系统转移至整个右半肝[36]。
+T4期：对于合并远处转移的T4期胆囊癌（即M1期），已无根治性手术机会。对于无远处转移的T4期胆囊癌（M0期）是否可行联合器官切除及血管重建的扩大根治术，目前尚有争议。但多数专家认为，随着外科技术的进步，行扩大根治术仍有望达到R0切除，能改善患者预后。手术范围根据肝脏被侵犯程度及邻近器官受累情况而定，肝切除范围为右半肝或右三肝[37]。
+（二）联合器官切除或联合血管切除重建
+胆囊癌联合器官切除应强调以R0切除为首要前提。如能实现R0切除，可根据病情选择创伤更小的术式。如胆囊癌单纯合并十二指肠上段侵犯，无胰头浸润，可联合远端胃及十二指肠上段切除，避免行肝胰十二指肠切除；如胆囊癌侵犯胆管下端或胰头，可实施肝胰十二指肠切除术。对伴有肝动脉侵犯、肝脏转移或需切除肝脏、肝外胆管以外器官的患者，联合器官切除生存获益有限。联合血管切除重建的患者整体预后差，需慎重选择[37]。
+（三）淋巴结清扫范围
+胆囊癌的淋巴结分组见表3。胆囊癌淋巴结清扫的准确范围目前仍有争议。多数T1a期胆囊癌的研究纳入病例数少，且大部分患者未行淋巴结清扫，故而报道的淋巴结转移率差异较大。2011年的一项Meta分析共纳入5项研究280例T1a胆囊癌患者，其中仅5例（1.8%）出现淋巴结转移[32]。Kohn等[38]分析了2004―2014年美国国家肿瘤数据库246例T1a期胆囊癌患者资料，其中88例（36%）患者行淋巴结清扫，淋巴结转移率达13%。但尚无证据表明清扫淋巴结可改善预后。对于T1b期及以上分期胆囊癌，建议行区域淋巴结清扫[39,40]。
+点击查看表格
+表3
+胆囊癌的淋巴结分组
+表3
+胆囊癌的淋巴结分组
+分组
+淋巴结名称
+淋巴结转移
+第1站
+胆囊颈部(12c组)、胆总管旁(12b组)淋巴结
+区域淋巴结
+第2站
+门静脉后方(12p组)、肝总动脉旁（8组）、肝固有动脉(12a)、胰头后上方(13a组)、肝门部(12h)淋巴结
+第3站
+腹腔动脉（9组）、胰头周围（13b、17、18组）、肠系膜上动脉周围(14组)、腹主动脉周围(16组)淋巴结
+远处淋巴结
+建议术中行第16组淋巴结的活检，如快速冰冻病理学检查结果阳性，则表明存在远处转移，应放弃根治性切除手术[16]。在胆囊癌根治性手术中，应至少获取6枚淋巴结送检。胆囊癌行扩大淋巴结清扫并不能改善预后[16]。
+（四）肝外胆管处理
+预防性肝外胆管切除并不能使患者获益[41]。建议术中行胆囊管切缘活检，如胆囊管切缘为阳性，应切除肝外胆管。
+（五）胆囊管癌的处理
+胆囊管癌经典定义：（1）病灶局限于胆囊管；（2）胆囊其余部位、肝脏及肝外胆管无肿瘤侵犯；（3）病理学检查结果证实为恶性肿瘤。该定义近年来泛指肿瘤中心位于胆囊管的恶性肿瘤。
+胆囊管癌易经肝十二指肠韧带侵犯胰头、肝脏Glisson鞘，对周围神经、淋巴结（管）、血管的侵犯比例高于胆囊底、体部癌，预后更差[42]。因此，胆囊管癌手术中应切除肝外胆管，较同期胆囊底、体癌的切除范围大。T1b期胆囊管癌应行肝脏楔形整块切除+肝外胆管切除+淋巴结清扫术。≥T2期胆囊管癌需行右半肝或右三叶切除+肝外胆管切除+区域淋巴结清扫术。
+（六）术中或术后诊断的胆囊癌的处理
+术中或术后诊断的胆囊癌指术前临床诊断为胆囊良性疾病而行胆囊切除术，术中或术后经病理学检查确诊的胆囊癌，文献报告为"意外胆囊癌"。"意外胆囊癌"是不规范的医学诊断命名，其他实体恶性肿瘤亦未见使用此类命名，应予以纠正应命名为早期、进展期或晚期胆囊癌，病理学分期明确的按TNM分期命名。
+Tis期或T1a期：若术中胆囊完整切除，无破溃，无胆汁溢出，且胆囊置入标本袋内取出者，单纯胆囊切除术已达根治目的，不需二次手术[43]。
+≥ T1b期：需行再次根治性手术，以利于改善患者长期生存[43]。再次手术时应重视对胆囊管切缘送检，如快速冰冻病理学检查结果阳性，需联合肝外胆管切除。
+术后诊断的胆囊癌发生Trocar孔种植转移的概率约为10.3%[44]。但多项研究结果显示，切除Trocar窦道并不能改善患者预后，因此，再次手术不需要常规切除Trocar孔窦道。
+术后诊断的胆囊癌再次手术的理想时机为术后4~8周[45]。再次手术时，建议常规先行腹腔镜探查，排除腹膜、肝脏等远处转移。
+初次行胆囊切除手术时，若发生过胆囊破溃或胆汁溢出，则为再次手术的不良预后因素；若再次手术时发现肿瘤残留，即区域淋巴结、肝脏、肝外胆管或周围器官有病理学检查证实的肿瘤转移，则预后更差。
+（七）腹腔镜和机器人手术
+腹腔镜或机器人手术术中若发生胆囊破溃、胆漏或"烟囱"效应等，可能增加穿刺孔转移及腹膜播散的风险，因此，对于T3和T4期胆囊癌不推荐行腹腔镜或机器人手术[46,47]。T1和T2期胆囊癌腹腔镜或机器人根治术仅限于具备娴熟腹腔镜或机器人技术的肝胆胰外科中心作为探索性研究。
+（八）姑息性外科治疗
+晚期胆囊癌患者行姑息性减瘤手术并不能改善患者预后，不推荐实施。外科和介入治疗仅限于解除胆道梗阻和消化道梗阻，以改善患者生活质量和延长生存时间。
+六、胆囊癌非手术治疗
+近年来，许多临床研究从胆囊癌的辅助化疗、一线化疗，再到二线化疗方面进行了探索，改变了胆囊癌的治疗现状[48,49,50,51,52]。同时，胆囊癌的分子靶向治疗、免疫治疗也取得了令人鼓舞的结果。未来胆囊癌的化疗结合靶向治疗及免疫治疗有望为胆囊癌患者带来更大生存获益。
+（一）化疗
+1．术前新辅助化疗：
+目的是经过化疗后降期，提高R0切除率，同时可以筛选病例，排除肿瘤进展过快的患者。
+适应证：（1）术后诊断的胆囊癌，当胆囊管淋巴结阳性时，二次术前建议行新辅助化疗；（2）对于局部进展期胆囊癌[侵犯肝脏和（或）淋巴转移]，可考虑行新辅助化疗。目前胆囊癌新辅助化疗仍为探索性研究，用于确定标准方案或明确获益的临床数据有限。
+2．术后辅助化疗：
+T2期以上、淋巴结阳性或R1切除的患者可以从辅助化疗中获益。推荐的方案有卡培他滨单药、吉西他滨联合奥沙利铂、吉西他滨联合替吉奥等。
+3．治疗性化疗：
+多项前瞻性随机对照临床研究结果均证实，治疗性化疗可延长不可切除胆囊癌的生存期。目前吉西他滨联合顺铂方案是不可切除胆囊癌的标准一线化疗方案；吉西他滨联合替吉奥方案对晚期胆囊癌的总有效率为30%，肿瘤控制率为70%，疗效与吉西他滨联合顺铂方案相似，但可减轻患者恶心、呕吐及骨髓抑制等不良反应；对于有腹腔及腹壁转移者，行腹腔热灌注化疗对控制肿瘤广泛转移及癌性腹水有一定效果。
+（二）放疗
+术前放疗：适用于肿瘤部位深在、瘤体较大、单纯手术切除有困难的患者；或肿瘤虽然不大，但对周围组织浸润粘连明显、有局部淋巴结转移而单纯手术很难根治性切除的患者。
+术中放疗：可以很好地保护正常组织，直视下隔离正常器官，只针对根治性胆囊癌切除的术野进行放疗，以达到根治效果。
+术后放疗：适用于T2期及以上的胆囊癌根治性切除术后、R1切除或淋巴结阳性等高危复发人群；胆囊癌姑息性外科治疗后和肿瘤复发的患者。
+姑息性放疗：适用于胆囊癌范围较大，无法做到根治切除、病期较晚、治愈可能性较小的患者，达到缓解症状、延长生存期的目的，部分患者也能达到治疗效果。
+胆囊癌放疗前应对患者的一般状态作出评价，若Karnofsky活动状态评分<70%，患者往往难以耐受放疗反应；若患者肝功能差或有大量腹水，也不宜进行放疗。由于缺乏大量的前瞻性随机对照研究，外放疗与术中放疗或放、化疗联合治疗等综合治疗模式均未达成共识，仍有待进一步研究。在找到最佳综合治疗模式之前，适形放疗和质子放疗等新技术是提高局部控制率、改善疗效的主要发展方向[53,54,55]。
+（三）免疫治疗和靶向治疗
+在不可切除或复发的胆囊癌患者中，如出现高度微卫星不稳定或细胞错配修复机制缺失，使用免疫检查点抑制剂卡瑞利珠单抗或纳武单抗治疗可能使患者获益。国内一项研究纳入了胆管癌和胆囊癌患者，接受GEMOX化疗联合卡瑞利珠单抗超过2个月后，12例获得部分缓解，12例疾病稳定，2例疾病进展[56]。另一项纳入60例不可切除或复发的胆道癌患者的一期非随机临床对照研究中（胆囊癌占33%），85%的患者微卫星稳定，30例患者在吉西他滨联合顺铂化疗基础上联合纳武单抗治疗，与30例接受单抗单药治疗患者相比，中位生存时间明显延长（15.4个月比5.2个月）[57]。在一项单臂二期临床试验中，共纳入27例进展期胆道癌患者（胆囊癌比例为44%），使用依维莫司单药治疗（10 mg口服，1次/d），12周的疾病控制率为48%[58]。
+七、随访
+应建立胆囊癌患者完整的病历资料数据库，详细记录流行病学、临床分期、病理学类型、手术方式、化疗、靶向治疗、免疫治疗、放疗、肿瘤复发、随访终止时间及原因等，以便于开展多中心临床研究。T1N0M0期胆囊癌患者根治性切除术后建议1年内每3个月复查一次，1年后每6个月复查一次；胆囊癌根治性术后需辅助治疗或胆囊癌姑息治疗的患者，应按治疗周期接受治疗和随访。
+《胆囊癌诊断和治疗指南（2019版）》编审委员会成员
+组长：全志伟（上海交通大学医学院附属新华医院）
+成员（以姓氏汉语拼音排序）：程张军（东南大学附属中大医院）、邓侠兴（上海交通大学医学院附属瑞金医院）、耿智敏（西安交通大学第一附属医院）、龚伟（上海交通大学医学院附属新华医院）、洪德飞（浙江大学医学院附属邵逸夫医院）、刘厚宝（复旦大学附属中山医院）、刘超（中山大学附属孙逸仙纪念医院）、李静（中华外科杂志编辑部）、楼健颖（浙江大学医学院附属第二医院）、李江涛（浙江大学医学院附属第二医院）、李相成（江苏省人民医院）、邵成浩（海军军医大学附属长征医院）、汤朝晖（上海交通大学医学院附属新华医院）、王一帆（浙江大学医学院附属邵逸夫医院）、王巍（复旦大学附属华东医院）、王坚（上海交通大学医学院附属仁济医院）、王剑明（华中科技大学同济医学院附属同济医院）、杨扬（中山大学附属第三医院）、严强（湖州市中心医院）、张永杰（海军军医大学东方肝胆外科医院）
+执笔专家（以姓氏汉语拼音排序）：耿智敏、洪德飞、刘超、王剑明、张永杰
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+HundalR, ShafferEA.
+Gallbladder cancer: epidemiology and outcome[J].
+Clin Epidemiol,
+2014,
+6:
+99-
+109.
+DOI: 10.2147/CLEP.S37357.
+[2]
+邹声泉，张林.
+全国胆囊癌临床流行病学调查报告[J].
+中国实用外科杂志，
+2000,
+20(
+1):
+43-
+46.
+[3]
+中华医学会外科学分会胆道外科学组.
+胆囊癌诊断和治疗指南(2015版)[J].
+中华消化外科杂志,
+2015,
+14(
+11):
+881-
+890.
+DOI:10.3760/cma.j.issn.1673-9752.2015.11.001.
+[4]
+RoaI, IbacacheG, RoaJ, et al.
+Gallstones and gallbladder cancer volume and weight of gallstones are associated with gallbladder cancer: a case-control study[J].
+J Surg 0ncol,
+2006,
+93(
+8):
+624-
+628.
+DOI: 10.1002/jso.20528.
+[5]
+GallahanWC, ConwayJD.
+Diagnosis and management of gallbladder polyps[J].
+Gastroenterol Clin North Am,
+2010,
+39(
+2):
+359-367, x.
+DOI: 10.1016/j.gtc.2010.02.001.
+[6]
+SchnelldorferT.
+Porcelain gallbladder: a benign process or concern for malignancy?[J].
+J Gastrointest Surg,
+2013,
+17(
+6):
+1161-
+1168.
+DOI: 10.1007/s11605-013-2170-0.
+[7]
+NomuraT, ShiraiY, SandohN, et al.
+Cholangiographic criteria for anomalous union of the pancreatic and biliary ducts[J].
+Gastrointest Endosc,
+2002,
+55(
+2):
+204-
+208.
+DOI:10.1067/mge.2002.121341.
+[8]
+王剑明，田礼，敖启林，等.
+胆囊良性病变与胆囊癌关系的新认识[J].
+中华消化外科杂志，
+2017,
+16(
+4):
+363-
+367.
+DOI: 10.3760/cma.j.issn.1673-9752.2017.04.010.
+[9]
+Gonzalez-EscobedoG, MarshallJM, CunnJS.
+Chronic and acute infection of the gall bladder by Salmonella Typhi: understanding the carrier stale[J].
+Nat Rev Microbiol,
+2011,
+9(
+1):
+9-
+14.
+DOI: 10.1038/nrmicro2490.
+[10]
+JacksonSS, Van DykeAL, ZhuB, et al.
+Anthropometric risk factors for cancers of the biliary tract in the biliary tract cancers pooling project[J].
+Cancer Res,
+2019,
+79(
+15):
+3973-
+3982.
+DOI: 10.1158/0008-5472.CAN-19-0459.
+[11]
+KonstantinidisIT, DeshpandeV, GenevayM, et al.
+Trends in presentation and survival for gallbladder cancer during a period of more than 4 decades: a single-institution experience [J].
+Arch Surg,
+2009,
+144(
+5):
+441-
+447.
+DOI: 10.1001/archsurg.2009.46.
+[12]
+RazumilavaN, GoresGJ, LindorKD.
+Cancer surveillance in patients with primary sclerosing cholangitis[J].
+Hepatology,
+2011,
+54(
+5):
+1842-
+1852.
+DOI: 10.1002/hep.24570.
+[13]
+StintonLM, ShafferEA.
+Epidemiology of gallbladder disease: cholelithiasis and cancer[J].
+Gut Liver,
+2012,
+6(
+2):
+172-
+187.
+DOI: 10.5009/gnl.2012.6.2.172.
+[14]
+LugoA, PeveriG, GallusS.
+Should we consider gallbladder cancer a new smoking-related cancer? A comprehensive meta-analysis focused on dose-response relationships[J].
+Int J Cancer,
+2019
+.
+DOI: 10.1002/ijc.32681.[
+published online ahead of print September 12,2019].
+[15]
+NogueiraL, FoersterC, GroopmanJ, et al.
+Association of aflatoxin with gallbladder cancer in Chile[J].
+JAMA,
+2015,
+313(
+20):
+2075-
+2077.
+DOI:10.1001/jama.2015.4559.
+[16]
+MahulBA, StephenE, FrederickLG, et al.
+AJCC Cancer Staging Manual[M].
+8th ed.
+New York:
+Springer,
+2016.
+[17]
+中华医学会.
+临床诊疗指南病理学分册[M].
+北京:
+人民卫生出版社，
+2009:
+525-
+526.
+[18]
+张启瑜.
+钱礼腹部外科学[M].
+2版.
+北京:
+人民卫生出版社,
+2017:
+515-
+516.
+[19]
+石景森，王炳煌.
+胆道外科基础与临床[M].
+北京:
+人民卫生出版社，
+2003:
+657-
+658.
+[20]
+BosmanFT, CarneiroF, HrubanRH, et al.
+WHO classification of tumours of the digestive system[M].
+4th ed.
+Lyon:
+International Agency for Research on Cancer,
+2010:
+266-
+272.
+[21]
+KondoS, NimuraY, KamiyaJ, et al.
+Mode of tumor spread and surgical strategy in gallbladder carcinoma[J].
+Langenbecks Arch Surg,
+2002,
+387(
+5-6):
+222-
+228.
+DOI:10.1007/s00423-002-0318-6.
+[22]
+ShindohJ, DE AretxabalaX, AloiaTA, et al.
+Tumor location is a strong predictor of tumor progression and survival in T2 gallbladder cancer: an international multicenter study[J].
+Ann Surg,
+2015,
+261(
+4):
+733-
+739.
+DOI:10.1097/SLA.0000000000000728.
+[23]
+张东，耿智敏，陈晨，等.
+胆囊癌的临床分型和预后关系初步分析:多中心回顾性临床研究[J].
+中华外科杂志，
+2019，
+57(
+4):
+258-
+264.
+DOI: 10.3760/cma.j.issn.0529-5815.2019.04.004.
+[24]
+OguraT, KurisuY, MasudaD, et al.
+Can endoscopic ultrasound-guided fine needle aspiration offer clinical benefit for thick-walled gallbladders?[J].
+Dig Dis Sci,
+2014,
+59(
+8):
+1917-
+1924.
+DOI: 10.1007/s10620-014-3100-z.
+[25]
+KumaranV, GulatiS, PaulB, et al.
+The role of dual-phase helical CT in assessing resectability of carcinoma of the gallbladder[J].
+Eur Radiol,
+2002,
+12(
+8):
+1993-
+1999.
+DOI: 10.1007/s00330-002-1440-0.
+[26]
+KimSJ, LeeJM, LeeJY, et al.
+Accuracy of preoperative T-staging of gallbladder carcinoma using MDCT[J].
+AJR Am J Roentgenol,
+2008,
+190(
+1):
+74-
+80.
+DOI: 10.2214/AJR.07.2348.
+[27]
+Ramos-FontC, Gómez-RioM, Rodríguez-FernándezA, et al.
+Ability of FDG-PET/CT in the detection of gallbladder cancer[J].
+J Surg Oncol,
+2014,
+109(
+3):
+218-
+224.
+DOI: 10.1002/jso.23476.
+[28]
+SrinivasaS, McEnteeB, KoeaJB.
+The role of PET scans in the management of cholangiocarcinoma and gallbladder cancer: a systematic review for surgeons[J].
+Int J Diagnostic Imaging,
+2015,
+2(
+1):
+1-
+9.
+[29]
+YoshimitsuK, HondaH, ShinozakiK, et al.
+Helical CT of the local spread of carcinoma of the gallbladder: evaluation according to the TNM system in patients who underwent surgical resection[J].
+AJR Am J Roentgenol,
+2002,
+179(
+2):
+423-
+428.
+DOI: 10.2214/ajr.179.2.1790423.
+[30]
+KimSJ, LeeJM, LeeES, et al.
+Preoperative staging of gallbladder carcinoma using biliary MR imaging[J].
+J Magn Reson Imaging,
+2015,
+41(
+2):
+314-
+321.
+DOI: 10.1002/jmri.24537.
+[31]
+中华医学会数字医学分会，中华医学会外科学分会胆道外科学组，中国研究型医院学会数字医学临床外科专业委员会.
+胆囊癌三维可视化诊治专家共识(2018版)[J].
+中国实用外科杂志，
+2018,
+38(
+12):
+1339-
+1346.
+DOI:10.19538/j.cjps.issn1005-2208.2018.12.02.
+[32]
+LeeSE, JangJY, LimCS, et al.
+Systematic review on the surgical treatment for T1 gallbladder cancer[J].
+World J Gastroenterol,
+2011,
+17(
+2):
+174-
+180.
+DOI: 10.3748/wjg.v17.i2.174.
+[33]
+刘鹏，张贤彬，耿智敏，等.
+不同手术方式治疗T1b期胆囊癌效果的多中心研究[J].
+中华外科杂志，
+2018,
+56(
+5):
+355-
+359.
+DOI: 10.3760/cma.j.issn.0529-5815.2018.05.007.
+[34]
+LeeW, JeongCY, JangJY, et al.
+Do hepatic-sided tumors require more extensive resection than peritoneal-sided tumors in patients with T2 gallbladder cancer? Results of a retrospective multicenter study[J].
+Surgery,
+2017,
+162(
+3):
+515-
+524.
+DOI: 10.1016/j.surg.2017.05.004.
+[35]
+HoriguchiA, MiyakawaS, IshiharaS, et al.
+Gallbladder bed resection or hepatectomy of segments 4a and 5 for pT2 gallbladder carcinoma: analysis of Japanese registration cases by the study group for biliary surgery of the Japanese Society of Hepato-Biliary-Pancreatic Surgery[J].
+J Hepatobiliary Pancreat Sci,
+2013,
+20(
+5):
+518-
+524.
+DOI: 10.1007/s00534-012-0584-9.
+[36]
+AraidaT, HiguchiR, HamanoM, et al.
+Hepatic resection in 485 R0 pT2 and pT3 cases of advanced carcinoma of the gallbladder: results of a Japanese Society of Biliary Surgery survey--a multicenter study [J].
+J Hepatobiliary Pancreat Surg,
+2009,
+16(
+2):
+204-
+215.
+DOI: 10.1007/s00534-009-0044-3.
+[37]
+Shimizu,H, KimuraF, YoshidomeH, et al.
+Aggressive surgical approach for stage IV gallbladder carcinoma based on Japanese society of biliary surgery classification[J].
+J Hepatobiliary Pancreat Surg,
+2007,
+14(
+4):
+358-
+364.
+DOI: 10.1007/s00534-006-1188-z.
+[38]
+KohnN, MaubachJ, WarschkowR, et al.
+High rate of positive lymph nodes in T1a gallbladder cancer does not translate to decreased survival: a population-based, propensity score adjusted analysis[J].
+HPB(Oxford),
+2018,
+20(
+11):
+1073-
+1081.
+[39]
+SteffenT, EbingerSM, TarantinoI, et al.
+Prognostic impact of lymph node excision in T1 and T2 gallbladder cancer: a population-based and propensity score-matched SEER analysis[J].
+J Gastrointest Surg,
+2019.
+DOI: 10.1007/s11605-019-04175-3.[
+published online ahead of print March 18,2019].
+[40]
+ShiraiY, WakaiT, HatakeyamaK.
+Radical lymph node dissection for gallbladder cancer: indications and limitations[J].
+Surg Oncol Clin N Am,
+2007,
+16(
+1):
+221-
+232.
+DOI:10.1016/j.soc.2006.10.011.
+[41]
+GaniF, BuettnerS, MargonisGA, et al.
+Assessing the impact of common bile duct resection in the surgical management of gallbladder cancer[J].
+J Surg Oncol,
+2016,
+114(
+2):
+176-
+180.
+DOI: 10.1002/jso.24283.
+[42]
+NakataT, KobayashiA, MiwaS, et al.
+Clinical and pathological features of primary carcinoma of the cystic duct [J].
+J Hepatobiliary Pancreat Surg,
+2009,
+16(
+1):
+75-
+82.
+DOI: 10.1007/s00534-008-0008-z.
+[43]
+SøreideK, GuestRV, HarrisonEM, et al.
+Systematic review of management of incidental gallbladder cancer after cholecystectomy[J].
+Br J Surg,
+2019,
+106(
+1):
+32-
+45.
+DOI: 10.1002/bjs.11035.
+[44]
+Berger-RichardsonD, ChesneyTR, EnglesakisM, et al.
+Trends in port-site metastasis after laparoscopic resection of incidental gallbladder cancer: a systematic review[J].
+Surgery,
+2017,
+161(
+3):
+618-
+627.
+DOI: 10.1016/j.surg.2016.08.007.
+[45]
+EthunCG, PostlewaitLM, LeN, et al.
+Association of optimal time interval to re-resection for incidental gallbladder cancer with overall survival: a multi-institution analysis from the US extrahepatic biliary malignancy consortium[J].
+JAMA Surg,
+2017,
+152(
+2):
+143-
+149.
+DOI: 10.1001/jamasurg.2016.3642.
+[46]
+MiyazakiM, YoshitomiH, MiyakawaS, et al.
+Clinical practice guidelines for the management of biliary tract cancers 2015: the 2nd English edition [J].
+J Hepatobiliary Pancreatic Sci,
+2015,
+22(
+4):
+249-
+273.
+DOI: 10.1002/jhbp.233.
+[47]
+ShenBY, ZhanQ, DengXX, et al.
+Radical resection of gallbladder cancer: could it be robotic?[J].
+Surg Endosc,
+2012,
+26(
+11):
+3245-
+3250.
+DOI:10.1007/s00464-012-2330-4.
+[48]
+MizusawaJ, MorizaneC, OkusakaT, et al.
+Randomized phase Ⅲ study of gemcitabine plus S-1 versus gemcitabine plus cisplatin in advanced biliary tract cancer: Japan Clinical Oncology Group Study(JCOG1113, FUGA-BT)[J].
+Jpn J Clin Oncol,
+2016,
+46(
+4):
+385-
+388.
+DOI: 10.1093/jjco/hyv213.
+[49]
+Ben-josefE, GuthrieKA, El-khoueiryAB, et al.
+SWOG S0809: a phase Ⅱ intergroup trial of adjuvant capecitabine and gemcitabine followed by radiotherapy and concurrent capecitabine in extrahepatic cholangiocarcinoma and gallbladder carcinoma[J].
+J Clin Oncol,
+2015,
+33(
+24):
+2617-
+2622.
+DOI: 10.1200/JCO.2014.60.2219.
+[50]
+FukutomiA, FuruseJ, OkusakaT, et al.
+Effect of biliary drainage on chemotherapy in patients with biliary tract cancer: an exploratory analysis of the BT22 study[J].
+HPB (Oxford),
+2012,
+14(
+4):
+221-
+227.
+DOI: 10.1111/j.1477-2574.2011.00431.x.
+[51]
+EdelineJ, BenabdelghaniM, BertautA, et al.
+Gemcitabine and oxaliplatin chemotherapy or surveillance in resected biliary tract cancer(PRODIGE 12-ACCORD 18-UNICANCER GI): a randomized phase Ⅲ Study[J].
+J Clin Oncol,
+2019,
+37(
+8):
+658-
+667.
+DOI:10.1200/JCO.18.00050.
+[52]
+PrimroseJN, FoxRP, PalmerDH, et al.
+Capecitabine compared with observation in resected biliary tract cancer(BILCAP): a randomised, controlled, multicentre, phase 3 study[J].
+Lancet Oncol,
+2019,
+20(
+5):
+663-
+673.
+DOI:10.1016/S1470-2045(18)30915-X.
+[53]
+HyderO, DodsonRM, SachsT, et al.
+Impact of adjuvant external beam radiotherapy on survival in surgically resected gallbladder adenocarcinoma: a propensity score_matched Surveillance, epidemiologyandresults analysis[J].
+Surgery,
+2014,
+155(
+1):
+85-
+93.
+DOI: 10.1016/j.surg.2013.06.001.
+[54]
+FareedMM, DemorL, EsnaolaNF, et al.
+Concurrent chemoradiation for resected gall bladder cancers and cholangiocarcinomas[J].
+J Gastrointest Oncol,
+2018,
+9(
+4):
+762-
+768.
+DOI: 10.21037/jgo.2018.05.09.
+[55]
+BensonAB, D′AngelicaMI, AbboteDE, et al.
+Guidelines insights: hepatobiliary cancers, version 2.2019[J].
+J Natl Compr Canc Netw,
+2019,
+17(
+4):
+302-
+310.
+DOI: 10.6004/jncc.2019.0019.
+[56]
+ChenXF, WuXF, WuH, et al.
+SHR-1210 plus gemox as first line treatment in biliary tract cancer: results from a single-arm exploratory study [J].
+J Clin Oncol,
+2019,
+37(
+no15-
+suppl):
+4092.
+[57]
+SunD, MaJ, WangJ, et al.
+Anti-PD-1 therapy combined with chemotherapy in patients with advanced biliary tract cancer [J].
+Cancer Immunol Immunother,
+2019,
+68(
+9):
+1527-
+1535.
+DOI: 10.1007/s00262-019-02386-w.
+[58]
+UenoM, IkedaM, MorizaneC, et al.
+Nivolumab alone or in combination with cisplatin plus gemcitabine in Japanese patients with unresectable or recurrent biliary tract cancer: a non-randomised, multicentre, open-label, phase 1 study[J].
+Lancet Gastroenterol Hepatol,
+2019,
+4(
+8):
+611-
+662.
+DOI: 10.1016/S2468-1253(19)30086-X.
+贡献者信息
+中华医学会外科学分会胆道外科学组
+中国医师协会外科医师分会胆道外科专业委员会
+通信作者
+全志伟
+上海交通大学医学院附属新华医院普外科 200092
+Email：
+zhiwquan@163.com
+洪德飞
+浙江大学医学院附属邵逸夫医院普外科，杭州 310016
+Email：
+hongdefi@163.com
+关键词
+胆囊肿瘤;
+危险因素;
+诊断;
+治疗;
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-04-01
+收稿日期：2020-01-06
+本文编辑
+李静
+Guideline
+Guideline for the diagnosis and treatment of gallbladder carcinoma (2019 edition)
+Branch of Biliary Surgery, Chinese Surgical Society,  Chinese Committee of Biliary Surgeons
+Published
+2020-04-01
+Cite as
+Chin J Surg, 2020,58(04): 243-251. DOI: 10.3760/cma.j.cn112139-20200106-00014
+Abstract
+In order to improve the overall therapeutic effect of gallbladder cancer in China, Branch of Biliary Surgery, Chinese Surgical Society and Chinese Committee of Biliary Surgeons have formulated the guideline for the diagnosis and treatment of gallbladder carcinoma (2019 edition) . The guideline provided an overview of the evidence on epidemiological risk factors, treatment and follow-up strategies for patients with gallbladder cancer.It also updated the new TNM stage and proposed the clinical classification of gallbladder cancer for the first time. The guideline highlighted the importance of accurate prediction of TNM stage and type of gallbladder cancer based on modern high-quality imaging technology and endoscopic techniques.The idea of comprehensive treatment should be established as the fundamental principle for patients with advanced gallbladder cancer, and a multidisciplinary approach is recommended to make optimal clinical decisions. Standard radical surgical treatment should be delivered by a team of experienced hepato-pancreato-biliary surgeons and pathologists.The combination regimens of chemotherapy, radiotherapy, targeted therapy and immunotherapy for gallbladder cancer have shown promise in improving prognosis. Further research is still needed to confer greater survival benefits to patients with gallbladder cancer.
+Key words:
+Gallbladder neoplasms; Risk factors; Diagnosis; Treatment
+Contributor Information
+Branch of Biliary Surgery, Chinese Surgical Society
+Chinese Committee of Biliary Surgeons
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+AJCC胆囊癌TNM分期系统（第8版与第7版比较）
+AJCC第7版胆囊癌分期标准
+AJCC第8版胆囊癌分期标准
+原发肿瘤(T)
+分期
+原发肿瘤(T)
+分期
+Tis:原位癌
+0: Tis、N0、M0
+Tis:原位癌
+0: Tis、N0、M0
+T1a:侵及固有层
+Ⅰ: T1、N0、M0
+T1a:侵及固有层
+Ⅰ: T1、N0、M0
+T1b:侵及肌层
+Ⅱ: T2、N0、M0
+T1b:侵及肌层
+ⅡA:T2a、N0、M0
+T2:侵及肌周结缔组织，未超出浆膜或侵入肝脏
+ⅢA:T3、N0、M0
+T2a:腹腔侧肿瘤侵及肌周结缔组织，未超出浆膜
+ⅡB:T2b、N0、M0
+T3:穿透浆膜和（或）直接侵入肝脏和（或）一个邻近器官或结构
+ⅢB:T1~3、N1、M0
+T2b:肝脏侧肿瘤侵及肌周结缔组织，未侵入肝脏
+ⅢA:T3、N0、M0
+T4:侵及门静脉或肝动脉主干，或直接侵入两个或更多肝外器官或结构
+ⅣA:T4、N0~1、M0
+T3:穿透浆膜和（或）直接侵入肝脏和（或）一个邻近器官或结构T4:侵及门静脉或肝动脉主干，或直接侵入两个或更多肝外器官或结构
+ⅢB:T1~3、N1、M0ⅣA:T4、N0~1、M0
+局部淋巴结(N)
+ⅣB:任何T、N2、M0
+局部淋巴结(N)
+ⅣB:任何T、N2、M0
+N0:无区域淋巴结转移
+任何T、任何N、M1
+N0:无区域淋巴结转移
+任何T、任何N、M1
+N1:转移至沿胆囊管、胆总管、肝动脉、门静脉分布的淋巴结
+N1∶1~3枚区域淋巴结转移
+N2:转移至主动脉旁、腔静脉旁、肠系膜上动脉和（或）腹腔动脉干周围淋巴结
+N2:≥4枚区域淋巴结转移
+远处转移(M)
+远处转移(M)
+M0:无远处转移
+M0:无远处转移
+M1:有远处转移
+M1:有远处转移
+表2
+WHO 2010年版胆囊癌病理学分型
+编号
+分类
+生物学行为编码
+编号
+分类
+生物学行为编码
+1
+上皮组织来源
+1.2.4
+与侵袭性癌相关的黏液性囊性肿瘤
+3
+1.1
+癌前病变
+1.2.5
+鳞状细胞癌
+3
+1.1.1
+腺瘤
+0
+1.2.6
+未分化癌
+3
+管状
+0
+1.3
+神经内分泌肿瘤
+乳头状
+0
+1.3.1
+神经内分泌瘤
+3
+管状乳头状混合
+0
+神经内分泌瘤G1级
+3
+1.1.2
+胆道上皮内瘤变3级
+2
+神经内分泌瘤G2级
+3
+1.1.3
+乳头状瘤伴有低或中等级别上皮内瘤变
+0
+1.3.2
+神经内分泌癌
+3
+1.1.4
+乳头状瘤伴有高级别上皮内瘤变
+2
+大细胞型
+3
+1.1.5
+黏液性囊性肿瘤伴有低或中等级别上皮内瘤变
+0
+小细胞型
+3
+1.1.6
+黏液性囊性肿瘤伴有高级别上皮内瘤变
+2
+1.3.3
+混合性腺神经内分泌癌
+3
+1.2
+癌
+1.3.4
+杯状细胞类癌
+3
+1.2.1
+腺癌
+3
+1.3.5
+管状类癌
+1
+胆管型
+3
+2
+间叶组织来源
+胃小凹类型
+3
+2.1
+颗粒细胞瘤
+0
+肠型
+3
+2.2
+平滑肌瘤
+0
+透明细胞腺癌
+3
+2.3
+卡波西肉瘤
+3
+黏液腺癌
+3
+2.4
+平滑肌肉瘤
+3
+印戒细胞癌
+3
+2.5
+横纹肌肉瘤
+3
+1.2.2
+腺鳞癌
+3
+3
+淋巴瘤
+1.2.3
+与侵袭性癌相关的乳头状肿瘤
+3
+4
+继发性胆囊癌
+注：生物学行为编码0：良性肿瘤；1：生物学行为不确定，介于良性和原位癌之间；2：原位癌或3级上皮内瘤变；3：恶性肿瘤；空项示无编码
+图1
+四种胆囊癌临床分型的示意图（箭头所示为肿瘤生长侵犯方向）
+表3
+胆囊癌的淋巴结分组
+分组
+淋巴结名称
+淋巴结转移
+第1站
+胆囊颈部(12c组)、胆总管旁(12b组)淋巴结
+区域淋巴结
+第2站
+门静脉后方(12p组)、肝总动脉旁（8组）、肝固有动脉(12a)、胰头后上方(13a组)、肝门部(12h)淋巴结
+第3站
+腹腔动脉（9组）、胰头周围（13b、17、18组）、肠系膜上动脉周围(14组)、腹主动脉周围(16组)淋巴结
+远处淋巴结
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华外科杂志2020年58卷04期
+文    题：胆囊癌诊断和治疗指南（2019版）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华外科杂志2020年58卷04期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

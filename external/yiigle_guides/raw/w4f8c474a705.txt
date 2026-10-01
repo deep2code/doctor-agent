@@ -1,0 +1,947 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%88%9B%E4%BC%A4%E5%A4%B1%E8%A1%80%E6%80%A7%E4%BC%91%E5%85%8B%E8%AF%8A%E6%B2%BB%E4%B8%AD%E5%9B%BD%E6%80%A5%E8%AF%8A%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 创伤失血性休克诊治中国急诊专家共识 - 中华急诊医学杂志
+# 发布方/日期: 急诊医学科，中华急诊医学杂志, 2017,26(12) : 1358-1365. DOI: 10.3760/cma；2017-12-10
+
+创伤失血性休克诊治中国急诊专家共识
+中国医师协会急诊分会
+中国人民解放军急救医学专业委员会
+中国人民解放军重症医学专业委员会
+中国医师学会急诊分会急诊外科专业委员会
+中华急诊医学杂志, 2017,26(12) : 1358-1365. DOI: 10.3760/cma.j.issn.1671-0282.2017.12.004
+创伤是指机械力作用于人体后所造成的机体结构完整性的破坏和功能障碍。据WHO统计，全球约10%的死亡和16%的致残病例因创伤所致，同时创伤也是全球40岁以下人群的首要死因[1]。
+创伤失血性休克是指创伤造成机体大量失血所致有效循环血量减少、组织灌注不足、细胞代谢紊乱和器官功能受损的病理生理过程。休克常常合并低血压(定义为收缩压<90 mmHg(1 mmHg＝0.133 kPa)，脉压差<20 mmHg，或原有高血压者收缩压自基线下降≥40 mmHg)。30%～40%的创伤患者死亡是因为失血过多所致，此类患者中，有一部分因为错误的救治方案及不恰当的治疗措施而死亡，据估计约占10%～20%。急性失血是创伤首要的可预防性死因[2,3]。及时、快速控制出血，纠正失血性休克对于严重创伤患者至关重要，可有效减少多器官功能障碍综合征(multiple organ dysfunction syndrome，MODS)的发生，降低病死率。
+目前我国尚无创伤失血性休克紧急救治的相关指南。本共识旨在规范和提高创伤失血性休克的急诊救治，为急诊医生提供诊疗依据。
+1 创伤失血性休克的病理生理
+创伤失血性休克的病理生理变化首先是血容量与血管容积的不匹配，造成外周组织灌注不足，从而引起微循环变化、氧代谢动力学异常、炎症反应、凝血障碍以及内脏器官的继发性损害。
+1.1 微循环变化
+创伤失血性休克最根本的病理生理改变是失血所致的微循环功能障碍，尤其是重要脏器微循环改变。导致微循环功能障碍的主要机制包括：①休克产生损伤相关分子模式(damage associated molecular patterns，DAMP)[4,5]，如热休克蛋白和高迁移率族蛋白1触发免疫应答及失控性炎症反应，引起血管内皮损伤、毛细血管渗漏、循环容量减少，最终导致组织灌注不足、细胞缺氧；②内皮损伤引起凝血系统激活、微血栓形成阻塞毛细血管及血管舒缩功能障碍，加重组织缺血缺氧；③创伤所致的持续或强烈的刺激影响神经内分泌功能，导致反射性血管舒缩功能紊乱，加剧微循环障碍。
+1.2 氧代动力学异常及细胞代谢改变
+创伤失血性休克患者存在氧代谢动力学异常。氧代谢动力学异常即氧供应(DO2)与氧消耗(VO2)的不平衡。创伤失血性休克患者混合静脉血氧饱和度(SvO2)的降低反映了反应氧输送与氧消耗的不平衡，而血乳酸升高则间接反映了机体微循环低氧及组织细胞缺氧状态。在此情况下，细胞能量代谢(如糖、脂、蛋白)亦会出现明显异常。
+1.3 创伤性炎症反应与凝血障碍
+创伤失血性休克早期，在致伤因子的刺激下，机体局部可出现炎症反应。损害的组织、器官、细胞不同，炎症介质的质和量也有不同，表现为局部血管通透性增加，血浆成分外渗，白细胞及趋化因子聚集于伤处以吞噬和清除致病菌或异物。适当的炎症反应在一定程度上利于创伤修复，但过度炎症反应会导致炎性介质的大量释放，各种细胞因子与细胞表面信号分子结合后，诱导细胞内发生一系列生物化学变化，引发失控性炎症反应与组织损害，甚至造成凝血功能障碍[6]，见图1。
+点击查看大图
+图1
+创伤导致凝血功能障碍的发生机制
+图1
+创伤导致凝血功能障碍的发生机制
+1.4 内脏器官的继发性损害
+创伤失血性休克常导致全身炎症反应综合征(systemic inflammatory response syndrome, SIRS)的发生，这是进一步造成MODS的重要病理生理基础。目前，关于MODS发生机制有以下几种假说[7]：①创伤后失控性炎症反应；②缺血-再灌注损伤。创伤失血性休克及复苏引起的组织器官微循环缺血和再灌注过程，是MODS发生的基本环节，严重创伤引发休克，导致微循环障碍，如不及时恢复有效血容量，将可能出现MODS或死亡[8]；③胃肠道屏障功能损害及细菌移位。创伤失血性休克可引起胃肠黏膜缺血，导致肠道黏膜屏障的破坏，继而发生肠道内毒素和细菌移位，引发脓毒症[9]；④基因多态性。创伤后MODS的易感性与基因表达多态性相关，如与人类白细胞抗原(HLA)-DR、白细胞介素(IL)-18、肿瘤坏死因子(TNF)-α、γ-干扰素(IFN)等基因表达相关[10]。
+2 创伤失血性休克的快速识别
+创伤失血性休克的快速识别主要是根据致伤机制、组织低灌注临床表现以及血乳酸水平等临床指标。
+2.1 临床表现
+代偿期表现：主要以液体丢失，容量血管收缩代偿为主要表现，包括早期的皮肤或面色苍白，手足发凉，口渴，心动过速，精神紧张、焦虑，注意力不集中，烦躁，呼吸加快，尿量正常或减少等。此时期血压可能正常甚至偏高。
+失代偿期表现：组织缺血进一步加重，可能出现神志淡漠、反应迟钝甚至昏迷；口唇、黏膜发绀，四肢湿冷，脉搏细数，血压下降，脉压明显缩小，少尿、无尿，皮肤花斑。此时期可以出现脏器功能障碍，特别是ARDS，甚至MODS。
+2.2 量化判断方法
+休克指数：休克指数(shock index，SI)是脉搏(次/min)与收缩压(mmHg)的比值，是反映血流动力学的临床指标之一，可用于失血量粗略评估及休克程度分级。休克指数的正常值为0.5～0.8 [11]，休克指数增大的程度与失血量呈正相关性(表1)。
+点击查看表格
+表1
+休克指数与失血量、休克程度的关系
+表1
+休克指数与失血量、休克程度的关系
+休克指数(SI)
+失血量(%)
+休克程度
+≥1.0
+20～30
+血容量减少
+≥1.5
+30～50
+中度休克
+≥2.0
+50～70
+重度休克
+综合评估法：综合心率、血压、呼吸频率、尿量、神经系统症状等对创伤失血性休克程度进行分级[12,13]。
+点击查看表格
+表2
+失血程度的分级
+表2
+失血程度的分级
+分级
+失血量(ml)
+失血量占血容量比例(%)
+心率(次/min)
+血压
+呼吸频率(次/min)
+尿量(mL/h)
+神经系统症状
+Ⅰ
+<750
+<15
+<100
+正常
+14～20
+>30
+轻度焦虑
+Ⅱ
+750～1 500
+15～30
+>100
+下降
+20～30
+20～30
+中度焦虑
+Ⅲ
+1 500～2 000
+30～40
+>120
+下降
+30～40
+5～15
+焦虑、恍惚
+Ⅳ
+>2 000
+>40
+>140
+下降
+>40
+无尿
+恍惚、昏睡
+3 创伤失血性休克的监测与进阶评估
+3.1 一般监测
+①生命体征：主要对血压、脉搏、呼吸、体温进行监测。失血性休克的发生与否及其程度取决于机体血容量丢失的量和速度。心率增快是创伤失血性休克最早的临床表现，但是通过心率评估创伤失血性休克的同时应注意关注其他导致患者心率增快的常见因素如疼痛、发热等。
+②尿量：尿量减少，充分补液后尿量仍<0.5 mL/(kg·h)，提示肾脏功能受损。
+③皮肤：皮肤湿冷、发绀、苍白、花斑等，毛细血管充盈时间>2 s，提示外周组织低灌注。
+④神志状态：意识改变，如烦躁、淡漠、谵妄、昏迷等，是反映脑低灌注的重要指标。
+3.2 血流动力学监测
+对休克患者应立即进行血流动力学监测(表3)。床旁超声检查可动态评估心脏功能、血管外肺水、下腔静脉变异度等指标。脉搏指数连续心排血量监测、肺动脉导管作为有创血流动力学监测方法，可在有条件的重症监护单元应用，或用于复杂、难治性休克或右室功能障碍患者[14]。
+点击查看表格
+表3
+常用的血流动力学监测方法
+表3
+常用的血流动力学监测方法
+血流动力学监测措施
+可评价指标
+无创
+生命体征监测
+血压、心率、脉搏、血氧饱和度
+心脏超声及其他无创监测
+心搏量(SV)、心输出量(CO)、心脏指数(CI)、左室舒张末期容积(LVEDV)、左室收缩末期容积(LVESV)、射血分数(EF)及E/A峰比值等
+微创
+脉搏指数连续心输出量监测(PiCCO)
+(1)CO、心脏前负荷、全心舒张末期容积(GEDV)、每搏量变异(SVV)、心肌收缩力、全心射血分数(GEF)
+(2)全身血管阻力(SVR)/全身血管阻力指数(SVRI)
+(3)容量性指标：GEDV、胸内血容量(ITBV)和血管外肺水(EVLW)
+有创
+肺动脉漂浮导管(PAC)监测
+右房压(RAP)或中心静脉压(CVP)、右室压(RVP)、肺动脉收缩压(PASP)、肺动脉楔压(PAWP)和CO等
+3.3 实验室监测
+①血常规：动态观察血常规、尤其是红细胞计数、红细胞压积、血小板计数等，对判断失血程度、凝血情况非常重要。
+②动脉血气分析：动脉血气分析可反映机体通气、氧合及酸碱平衡状态，有助于评价呼吸和循环功能。休克患者常见代谢性酸中毒及低氧血症。创伤失血性休克者碱剩余水平是评估组织灌注不足引起酸中毒的严重程度及持续时间的间接敏感指标[15,16]，治疗过程中对其变化进行监测可以指导临床治疗。
+③动脉血乳酸：血乳酸是组织低氧的确切指标，在临床上也被作为反映组织灌注不足的敏感指标。血乳酸>2 mmol/L的创伤失血性休克患者病死率显著升高，住院时间明显延长[17]。血乳酸2～4 mmol/L及>4 mmol/L的患者28 d死亡风险分别是<2 mmol/L患者的3.27倍和4.87倍[18]。持续动态监测血乳酸水平对休克的早期诊断、指导治疗及预后评估有重要意义[19]。每隔2～4 h动态监测血乳酸水平不仅可排除一过性血乳酸增高，还可判定液体复苏疗效及组织缺氧改善情况。
+④凝血功能指标：应对创伤失血性休克患者凝血功能进行早期和连续性监测，有条件者应用血栓弹力图可进行更有效的监测。
+⑤生化指标：监测电解质和肝肾功能对了解病情变化和指导治疗亦十分重要。
+⑥炎症因子：炎症反应在创伤病理过程中发挥着重要作用，可能是部分创伤并发症如脓毒症、MODS、高代谢、深静脉血栓形成等的诱因。TNF-α、IL-1、IL-6、CRP等均是反映创伤后炎症反应程度的敏感指标，与患者伤情密切相关，有条件时可进行监测。
+3.4 影像学检查
+存在血流动力学不稳定(对容量复苏无反应)者，应尽量限制实施诊断性的影像学检查。创伤重点超声评估(focused assessment with sonography for trauma，FAST)是一种重要的检查方法，但其阴性并不能完全排除腹腔内和腹膜后出血。对怀疑存在出血的患者，如果血流动力学稳定或对容量复苏有反应，应考虑进行CT扫描。对于严重创伤的患者，不能根据FAST评估结果来决定是否需要进行CT扫描[20]。
+对以下情况应进行全身CT扫描(部分患者还需要动态复查)：交通伤、高空坠落伤、受力部位不清楚创伤、严重钝性创伤或多发伤的成年患者。不建议对儿童创伤患者常规进行全身CT扫描，应根据临床判断限制CT扫描区域，确保仅对必要部位进行CT扫描。
+3.5 创伤评分与评估
+PHI评分：即"院前指数法"，应用收缩压、脉搏、呼吸和意识4个生理指标作为评分参数，若有胸或腹部穿透伤，另加4分。小于3分为轻伤，3～7分为中伤，大于7分为重伤。PHI评分是目前院前检伤评分体系中最好的一种定量分类法，国际上广泛应用。
+GCS评分：GCS评分是根据患者睁眼、言语、运动对刺激的不同反应给予评分，从而对意识状态(中枢神经系统损伤程度)进行判定，总分15分，最低3分，8分以下可判定昏迷，分数越低则昏迷程度越深。
+ISS评分：ISS评分为身体3个最严重损伤区域的最高AIS分值的平方和。AIS是对器官、组织损伤进行量化的手段，按照损伤程度、对生命的威胁性大小将每处损伤评为1～6分。ISS评分范围为1～75分，如果单区域评分达6分，总体评分则直接为75分。通常ISS≥16分为严重创伤，此时死亡风险为10%，随着评分升高死亡风险增加。
+TRISS评分：TRISS评分是一种以伤后生理参数变化(RTS)、损伤解剖区域(ISS)和年龄(A)3种因素为依据的结局评估方法。以存活概率(Ps)反映伤员结局，通常认为Ps>0.5的患者可能存活，Ps<0.5者存活可能性小。
+APACHEⅡ评分：通过APACHEⅡ评分对总体病情进行初步评估。研究显示，APACHEⅡ评分与患者病死率之间具有相关性[21]。
+3.6 动态评估
+有效的监测可以对创伤失血性休克患者的病情和治疗反应做出正确、及时的评估和判断，以利于指导和调整治疗计划，改善患者预后。创伤失血性休克患者伤情常具有隐匿性，变化快，进展快，因此，在严密动态观察临床表现的同时，需尤其强调对前述重要指标进行动态监测和评估。
+4 创伤失血性休克的紧急救治
+4.1 救治原则与目标
+救治原则对创伤患者，应优先解除危及生命的情况，使伤情得到初步控制，然后进行后续处理，遵循"抢救生命第一，保护功能第二，先重后轻，先急后缓"的原则。对于创伤失血性休克患者，基本治疗措施包括控制出血、保持呼吸道通畅、液体复苏、止痛以及其他对症治疗，同时应重视救治过程中的损伤控制复苏策略，如损伤控制外科、限制性液体复苏可允许性低血压，输血策略，预防创伤凝血病等。
+治疗目标创伤失血性休克治疗总目标是积极控制出血，采取个体化措施改善微循环及氧利用障碍，恢复内环境稳定。而不同阶段治疗目标应有所不同，并监测相应指标。
+创伤失血性休克的治疗可分为四期[22]。第一期急救阶段：治疗目标为积极控制出血，最大限度维持生命体征平稳，保证血压、心输出量在正常或安全范围，实施抢救生命的策略。第二期优化调整阶段：治疗目标为增加组织氧供，优化心输出量、静脉血氧饱和度(SVO2)及血乳酸水平。第三期稳定阶段：治疗目标为防止器官功能障碍，即使在血流动力学稳定后仍应高度警惕。第四期降阶梯治疗阶段：治疗目标为撤除血管活性药物，应用利尿剂或肾脏替代疗法调整容量，达到液体平衡，恢复内环境稳定。
+4.2 气道与呼吸管理
+有效的气道管理是创伤失血性休克患者院前呼吸支持治疗的前提和基础[23]。
+对于创伤失血性休克患者来说，如果自身不能维持其气道通畅及有效通气，快速诱导麻醉插管(RSI)是保证气道安全的确切方法。若RSI操作失败，应立即通过基本的气道辅助通气手法和(或)通过声门上装置来维持气道通气，直到使用外科方法建立起稳定的气道[20]。
+在院前环境下，优先选择在事发现场立即展开救治。如果现场不能进行RSI且气道反射消失，建议使用声门上气道设备(如喉罩)。如果气道反射存在或声门上气道装置不能置入，则应使用基本的徒手气道支持手法(常规为仰头提颏法)和装置(如口咽管、鼻咽管及喉管)。徒手开放气道时，应注意患者有无颈椎损伤，伴发颜面损伤或GCS评分<8分时脊柱损伤的危险性大大增加[24]，现场急救时应首选徒手方法固定脊柱，用推举下颌法( Jaw thrust)开放气道。如推举下颌法操作困难，不能有效通气，仍应改用仰头提颏法进行通气。如果转运患者至创伤中心进行RSI，应确保转运时间不超过60 min。如果不能维持气道通畅性或转运至创伤中心的时间预计超过60 min，可以考虑转运至就近的有抢救创伤能力的救护单位[20]。
+4.3 循环通路建立与液体复苏
+(1)循环通路选择
+院前循环通路的选择：首选外周大静脉通路，如建立外周静脉通路失败，有条件应考虑骨髓腔内血管通路。对<16岁的儿童患者，如预期建立外周静脉通路困难，应首选骨髓腔内血管通路。
+院内循环通路的选择：首选建立有效的外周静脉通路，并尽早建立中心静脉通道。若下腔静脉属支出血如严重的骨盆骨折，应选择上肢通道或者锁骨下、颈内静脉通道。骨髓腔内血管通路也是可以同时考虑的重要选择。
+(2)输血与液体治疗
+创伤失血性休克患者通常出血量较大，应及早进行快速输血维持血容量，改善微循环灌注，保证主要脏器的氧供。建议通过生理学指标(包括血流动力学状态、对即时容量复苏的反应情况)来启动大出血抢救预案。医疗机构应建立针对成人患者(≥16岁)和儿童患者(<16岁)的紧急输血预案。针对存在活动性出血的患者，应首选固定比例的成分输血，并应尽快过渡到以实验室检查结果为指导的输血预案上。
+对于成人患者进行输血治疗时，血浆与红细胞的比例为1∶1。对于儿童患者，血浆与红细胞的比例仍为1∶1，但是要基于儿童的全身血容量进行计算[25,26,27]。
+院前环境下无法获得成分血，对活动性出血的患者可应用等渗晶体液进行扩容治疗[28]。在院内，对活动性出血的患者应不建议使用晶体液补液，建议按照1∶1使用血浆和红细胞。输入晶体液会导致稀释性凝血病发生，提升血压使已形成的血凝块脱落进一步加重出血，血液黏稠度低不易形成新的血凝块，同时还会增加发生ARDS和MOF等并发症风险[29]。考虑对机体止血的不良影响，胶体也建议限制使用[6]
+(3)容量复苏策略
+建议对存在活动性出血的患者，使用限制性的容量复苏策略[7]，直至已确定完成早期出血控制。在院前环境下，通过滴定方式进行容量复苏以使大动脉搏动维持在可明显感知状态[30]，一般以维持收缩压80 mmHg或者可触及桡动脉搏动为目标。如果达不到，可降至触及颈动脉搏动或者维持伤者基础意识。通常情况下收缩压(SBP)达到60 mmHg可触及颈动脉，70 mmHg可触及股动脉，80 mmHg可触及桡动脉。在院内环境下，应快速控制出血，在此前提下进行滴定式容量复苏以维持中心循环，直至出血得到控制。针对失血性休克和创伤性脑损伤并存患者，如失血性休克为主要问题，应持续进行限制性容量复苏；如创伤性脑损伤为主要问题，则进行相对宽松的限制性容量复苏以维持脑血流灌注[6]。具体控制目标：对于无脑损伤的患者，在大出血控制之前实施可允许性低血压，应将收缩压维持在80～90 mmHg；对于合并严重颅脑损伤(GCS≤8分)的患者，应维持平均动脉压在80 mmHg以上[31]。
+4.4 控制出血
+4.4.1 敷料和止血带的应用
+对于体表或表浅出血患者，可简单应用敷料压迫法控制外部出血。开放性四肢损伤存在危及生命的大出血，在外科手术前推荐使用止血带，且须标明使用时间。
+4.4.2 骨盆外固定带的应用
+当骨盆受到高能量钝性损伤后怀疑存在活动性出血时，应使用特制的骨盆外固定带。只有当特制的骨盆外固定带不合适时，如对于体型较大的成年人或体型较小的儿童，才考虑使用临时骨盆外固定带。
+4.4.3 止血剂的应用
+当创伤失血性休克患者存在或怀疑存在活动性出血时，应尽快静脉使用氨甲环酸，防治创伤性凝血病[12]。首剂1 g(≥10 min)，后续1 g输注至少持续8 h[32] 。如果创伤失血性休克患者受伤超过3 h，避免静脉应用氨甲环酸，除非有证据证明患者存在纤溶亢进[33]。制订创伤出血处理流程时，建议在患者转送医院的途中应用首剂的氨甲环酸。颅脑、肝脾等重要脏器损伤出血时可考虑选择矛头蝮蛇血凝酶等止血药物静脉或局部应用止血[34,35]。对于发生凝血病并发大出血者亦可在充分的凝血底物替代输注治疗后使用重组凝血因子-Ⅶ。
+4.4.4 逆转抗凝剂的作用
+创伤失血性休克存在活动性出血的患者，若之前使用了影响凝血功能的药物，应快速逆转抗凝剂的作用。如果因心脑血管疾病经常使用华法林，抗血小板制剂(氯吡格雷、阿司匹林)，抗凝血酶制剂(达比加群)，抗Ⅹ因子制剂(利伐沙班)，即使是轻伤，也很容易发生出血事件[6]。有活动性出血的严重创伤患者，应立即使用凝血酶原复合物(PCC)等药物来逆转拮抗剂的作用。当患者无活动性出血或可疑出血的时候，无使用逆转抗凝剂的必要[21]。对于维生素K依赖的口服抗凝药患者，推荐早期使用浓缩的PCC进行紧急拮抗；为减轻使用新型口服抗凝剂的患者发生创伤后致命性出血，建议给予PCC；如果纤维蛋白原水平正常，血栓弹力图监测提示凝血启动延迟时建议使用PCC或血浆[36,37,38,39] 。
+4.5 手术治疗和介入治疗
+4.5.1 损伤控制性手术和确定性手术
+损伤控制性手术是指在救治严重创伤患者，尤其是在患者出现"致死三联征"(低体温、酸中毒和凝血功能障碍)、不能耐受长时间手术时，采用快捷、简单的操作及时控制伤情进一步恶化，使患者获得复苏时间，有机会再进行完整、合理的再次或分期手术。
+对于合并重度失血性休克、有持续出血和凝血病征象的严重创伤患者，推荐实施损伤控制性手术。其他需要实施损伤控制性手术的情况包括严重凝血病、低体温、酸中毒、难以处理的解剖损伤、操作耗时、同时合并腹部以外的严重创伤。对于血流动力学稳定且不存在上述情况的患者，推荐实施确定性手术。如果体内还有大的出血未能控制，积极抗休克的同时建议早期积极手术止血。
+4.5.2 介入治疗
+对盆腔动脉活动性出血，建议考虑介入治疗，除非需要立即进行开放性手术控制其他部位出血。对实质脏器(脾脏、肝脏或肾脏)动脉出血，也可考虑介入治疗的可行性。对于动脉出血的治疗，外科手术与介入治疗相结合的策略，可将治疗拓展至外科手术难以达到的区域。
+4.6 血管活性药与正性肌力药的使用
+血管活性药物的应用一般应建立在液体复苏基础上，但对于危及生命的极度低血压(SBP<50 mmHg)，或经液体复苏后不能纠正的低血压，可在液体复苏的同时使用血管活性药物，以尽快提升平均动脉压至60 mmHg并恢复全身血液灌注[9,10]。首选去甲肾上腺素，尽可能通过中心静脉通路输注，常用剂量为0.1～2 μg/(kg·min)。
+正性肌力药物可考虑在前负荷良好而心输出量仍不足时应用，首选多巴酚丁胺，起始剂量2～3 μg/(kg·min)，静脉滴注速度根据症状、尿量等调整。磷酸二酯酶抑制剂具有强心和舒张血管的综合效应，可增强多巴酚丁胺的作用。当β肾上腺素能受体作用下调、或患者近期应用β受体阻滞剂时，磷酸二酯酶抑制剂治疗可能有效[40]。
+4.7 创伤性凝血病的预防与处理
+在早期即有25%的严重创伤患者可发生凝血病[41,42]。创伤时大量失血、内皮细胞下基质蛋白暴露引起的血小板和凝血因子消耗、低体温性血小板功能障碍和酶活性降低，酸中毒诱导的凝血酶原复合物活性降低以及纤溶亢进等因素均与凝血病有关。虽然复苏时大量液体输入引起的血液稀释也与凝血病的发生和进展有一定关系，但多数重症创伤患者在晶体液和胶体液复苏前就已存在凝血功能障碍。
+创伤失血性休克患者在入院时确定其是否伴凝血病非常重要，开展凝血功能床边快速检验是诊断凝血病的有效手段。推荐使用标准的实验室凝血指标和(或)血栓弹力图制定目标化策略指导复苏。
+除控制出血外，应尽早检测并采取措施维持凝血功能。对大出血患者，早期处理推荐血浆输注，并根据纤维蛋白原、血红蛋白检验结果判断是否需使用纤维蛋白原及红细胞[33]。
+4.8 创伤性休克患者低体温的预防与处理
+创伤失血性休克患者低体温发生率高达10%～65%[43,44]。低体温被认为是严重创伤患者预后不良的独立危险因素。因此，对创伤失血性休克患者，应尽量保温以减少持续的热量丢失。对于体温在32～35℃之间的患者，建议通过提高环境温度、加温毯或者增加主动活动(如果病情允许)来提高核心温度；对于体温低于32℃的患者可以考虑加温输液，如仍无效可考虑通过体外膜肺(ECMO)治疗[45]。
+4.9 疼痛管理
+对于严重创伤患者，应选择适合其年龄、发育和认知功能的疼痛评估量表，定时进行疼痛评估。到达院内后继续使用与院前相同的疼痛评估量表进行疼痛评估。
+对于严重创伤患者，选择吗啡(0.10 mg/kg)作为一线止痛剂静脉应用[46]，并根据疼痛管理目标调整剂量。如静脉途径没有建立，可以考虑通过雾化吸入氯胺酮或二乙酰吗啡。氯胺酮为止痛的二线备选方案[47,48,49,50,51] 。使用吗啡止痛时，应严密监测防止发生呼吸抑制，除非已有呼吸支持措施。
+4.10 炎症控制
+液体复苏治疗旨在恢复循环容量和组织灌注，但不能有效阻止炎症反应发生。应尽早开始抗炎治疗，阻断炎症级联反应，保护内皮细胞，降低血管通透性，改善微循环。因此，抗炎治疗可作为创伤失血性休克治疗选择之一，可选用乌司他丁、糖皮质激素等。乌司他丁可有效控制过度炎症反应，降低血液粒细胞弹性蛋白酶(PMNE)水平和C反应蛋白水平，显著改善脑氧代谢及微循环，降低多发伤患者住院天数、MODS发生率和病死率[52,53]。
+5 创伤救治团队与流程管理
+5.1 救治团队的建立及精细化管理
+建议建立一专多能、具备亚专业分工的急诊外科团队，同时实现创伤失血性休克救治流程精细规范化，这有助于救治工作迅速及时而又有条不紊地顺利开展。
+5.1.1 救治医护人员"角色直观化"
+所有参与救治的医护人员以及工勤人员到达现场后，都有明确的角色分工，各自佩戴相应职责的编码标志，使得抢救现场人员角色分工明晰。
+5.1.2 救治医护人员"职责细分化"
+在医护抢救角色直观化的基础上，职责编码规定了其佩戴者的分工，从负责的伤员编号，到应该执行的操作内容，以及在伤员旁的站位，细致而清晰。
+5.1.3 救治方案的"医嘱套餐化"
+利用抢救现场的白板或显示屏，显示伤员编号以及相应的套餐医嘱编号，医嘱执行快而有序，避免了多个伤员时医生下达医嘱时的嘈杂与混乱。
+5.1.4 创伤急救医护人员编排及职责
+人员编排及职责见表4。
+点击查看表格
+表4
+创伤救治医护人员的编排及职责
+表4
+创伤救治医护人员的编排及职责
+1-D1
+1号伤员指挥协调者
+TN0
+护理总协调
+1-D2
+1号伤员主要评估医师
+1-TN1
+1号伤员责任护士
+1-D3
+1号伤员主要操作医师
+1-TN2
+1号伤员气道护士
+1-D4
+1号伤员创伤中心二线
+1-TN3
+1号伤员循环护士
+1-D5
+1号伤员相关专科二线
+1-S1
+1号伤员外勤人员
+…
+1-S2
+1号伤员辅助外勤人员
+注：第一个数字代表伤员编号；D代表医生；TN代表护理人员；S代表工勤人员
+5.2 创伤失血性休克救治绿色通道
+急救医疗服务体系是现代急诊医学的新理念，是将院前急救体系、院内急诊科急救体系和急危重症监护体系三位一体有机地结合起来，共同构建通畅的急救绿色通道，以提高救治成功率，降低伤残率和减少死亡率。规范的严重创伤救治要求在院前、院内急救之间必须存在有效的信息沟通，这样才能有效缩短救治时间。在加强院前、院内信息沟通方面，应用创伤失血性休克预警联动系统。院前120急救中心接到患者后，应立即行院前快速评估分检，并与接收医院取得联系，启动绿色救治通道，简要地向院内急诊医务人员报告伤员情况，请求做好接诊准备，为伤员的院内救治争取宝贵时间。在院内创伤失血性休克救治中须把握急救的"时效性"，影响因素包括急诊科早期评估及快速救治能力、相应手术人员数量及技术力量、麻醉医师技术水平以及手术室的急诊手术配属力量，非常重要的一点是要在医务处、急诊科协调下建立以患者为中心的绿色通道，优化医疗护理流程，以保证绿色通道的畅通。
+6 总结
+创伤已成为众所周知的公共卫生问题。严重创伤导致的死亡和残疾给社会和相关家庭造成了沉重负担。严重创伤的发生率越来越高，减少创伤的发生和创伤后的有效处理对社会、家庭及个体等具有重要意义。
+创伤失血性休克患者，基本治疗措施包括控制出血、保持呼吸道通畅、液体复苏、止痛以及其他对症治疗，同时注意观察各项指标。休克治疗总目标是采取个体化措施改善微循环及氧利用障碍，恢复内环境稳定。不同阶段治疗目标有所不同，应监测相应指标。
+随着对创伤失血性休克认识的深入和不断探索，严重创伤患者的救治已经从医疗机构提前到事发现场，需要分秒必争地抢救伤员。基于循证指南的多学科策略是改善创伤失血性休克预后的关键。
+专家组成员
+专家组成员(按姓氏笔画排序)：于学忠 于树滨 马朋林 尹文 方邦江 王仲 王成 王振杰 王雪 王瑞兰 王旭东 王天兵 邓颖 卢中秋 司君利 左永波 田英平 田昭涛 白祥军 刘明华 吕传柱 吴京兰 朱长举 朱华栋 朱继红 许铁 许硕贵 闫柏刚 阳文新 何小军 林兆奋 张文武 张可 张玉 张伟 张劲松 张连阳 张国强 张建峰 张泓 张茂 张海燕 张新超 张锡刚 李小刚 李培武 李超乾 李维勤 杨立山 沈开金 苏磊 陆一鸣 陆远强 陈凤英 陈玉国 陈志 陈威 陈海鸣 陈锋 陈飙 陈晓辉 郑亚安 单爱军 单志刚 单毅 周人杰 周飞虎 周荣斌 林炳锵 范晨芳 金红旭 姚咏明 赵小纲 赵晓东 赵敏 赵刚 赵斌 党星波 唐忠志 唐柚青 徐峰(齐鲁医院) 徐峰(苏州大学附属第一医院) 徐军 柴艳芬 桑锡光 秦历杰 聂时南 郭伟 郭树彬 钱传云 商德亚 康健 曹钰 梁显泉 黄亮 彭鹏 曾红科 童朝阳 董士民 蒋龙元 蔡文伟 裴俏 樊毫军 潘险峰 潘曙明 黎檀实 魏蔚 冀兵
+参考文献
+[1]
+WHO.
+Global heath estimates 2014 summary tables: deaths by cause, age and sex[C].
+Violence and injury;
+2000-
+2012.
+[2]
+KauvarDS, LeferingR, WadeCE.
+Impact of hemorrhage on trauma outcome: an overview of epidemiology, clinical presentations, and therapeutic considerations[J].
+J Trauma,
+2006,
+60(
+6
+Suppl):
+S3-
+11.
+DOI: 10.1097/01.ta.0000199961.02677.19.
+[3]
+GruenRL, BrohiK, SchreiberM, et al.
+Haemorrhage control in severely injured patients[J].
+Lancet,
+2012,
+380(
+9847):
+1099-
+108.
+DOI: 10.1016/S0140-6736(12)61224-0.
+[4]
+YiJ, SlaughterA, KotterCV, et al.
+A " clean case" of systemic injury: mesenteric lymph after hemorrhagic shock elicits a sterile inflammatory response[J].
+Shock,
+2015,
+44(
+4):
+336-
+340.
+DOI: 10.1097/SHK.0000000000000431.
+[5]
+MansonJ, ThiemermannC, BrohiK.
+Trauma alarmins as activators of damage- induced inflammation[J].
+Br J Surg,
+2012,
+99(
+Suppl 1):
+12-
+20.
+DOI: 10.1002/bjs.7717.
+[6]
+RossaintR, BouillonB, CernyV, et al.
+The European guideline on management of major bleeding and coagulopathy following trauma: fourth edition[J].
+Crit Care,
+2016,
+20:
+100.
+DOI: 10.1186/s13054-016-1265-x.
+[7]
+BickellWH, WallMJ Jr, PepePE, et al.
+Immediate versus delayed fluid resuscitation for hypotensive patients with penetrating torso injuries [J].
+N Engl J Med,
+1994,
+331(
+17):
+1105-
+1109.
+DOI: 10.1056/NEJM199410273311701.
+[8]
+RobertsI, ShakurH, CoatsT, et al.
+The CRASH-2 trial: a randomised controlled trial and economic evaluation of the effects of tranexamic acid on death, vascular occlusive events and transfusion requirement in bleeding trauma patients[J].
+Health Technol Assess,
+2013,
+17(
+10):
+1-
+79.
+DOI: 10.3310/hta17100.
+[9]
+EtxanizA, PitaE.
+Management of bleeding and coagulopathy following major trauma[J].
+Rev Esp Anestesiol Reanim,
+2016,
+63(
+5):
+289-
+296.
+DOI: 10.1016/j.redar.2015.05.006.
+[10]
+GelmanS, MushlinPS.
+Catecholamine-induced changes in the splanchnic circulation affecting systemic hemodynamics [J].
+Anesthesiology,
+2004,
+100(
+2):
+434-
+439.
+DOI: 10.1097/00000542-200402000-00036.
+[11]
+OlaussenA, BlackburnT, MitraB, et al.
+Review article: shock index for prediction of critical bleeding post-trauma: a systematic review [J].
+Emerg Med Australas,
+2014,
+26(
+3):
+223-
+228.
+DOI: 10.1111/1742-6723.12232.
+[12]
+PearsonJD, RoundJA, IngramM.
+Management of shock in Trauma[J].
+Anaesth Intensive Care Med,
+2014,
+15(
+9):
+408-
+410.
+[13]
+ChapleauW, Al-khatibJ, HaskinD, et al.
+Advanced trauma life support (ATLS ): the ninth edition[J].
+J Trauma Acute Care Surg,
+2013,
+74(
+5):
+1363-
+1366.
+DOI: 10.1097/TA.0b013e31828b82f5.
+[14]
+CecconiM, De BackerD, AntonelliM, et al.
+Consensus on circulatory shock and hemodynamic monitoring. Task force of the European Society of Intensive Care Medicine [J].
+Intensive Care Med,
+2014,
+40(
+12):
+1795-
+1815.
+DOI: 10.1007/s00134-014-3525-z.
+[15]
+RossaintR, BouillonB, CernyV, et al.
+Management of bleeding following major trauma: an updated European guideline [J].
+Crit Care,
+2010,
+14(
+2):
+R52.
+DOI: 10.1186/cc8943.
+[16]
+IbrahimI, ChorWP, ChueKM, et al.
+Is arterial base deficit still a useful prognostic marker in trauma: A systematic review[J].
+Am J Emerg Med,
+2016,
+34(
+3):
+626-
+35.
+DOI: 10.1016/j.ajem.2015.12.012.
+[17]
+OuelletJF, RobertsDJ, TirutaC, et al.
+Admission base deficit and lactate levels in Canadian patients with blunt trauma: are they useful markers of mortality? [J].
+J Trauma Acute Care Surg,
+2012,
+72(
+6):
+1532-
+1535.
+DOI: 10.1097/TA.0b013e318256dd5a.
+[18]
+MikkelsenME, MiltiadesAN, GaieskiDF, et al.
+Serum lactate is associated with mortality in severe sepsis independent of organ failure and shock [J].
+Crit Care Med,
+2009,
+37(
+5):
+1670-
+1677.
+DOI: 10.1097/CCM.0b013e31819fcf68.
+[19]
+JansenTC, Van BommelJ, SchoonderbeekFJ, et al.
+Early lactate-guided therapy in intensive care unit patients: a multicenter, open-label, randomized controlled trial [J].
+Am J Res Crit Care Med,
+2010,
+182(
+6):
+752-
+761.
+DOI: 10.1164/rccm.200912-1918OC.
+[20]
+NICE guideline: Major trauma: Assessment and Initial Management.
+National Clinical Guideline Centre (UK) [M].
+London:
+National Institute for Health and Care Excellence (UK),
+2016.
+[21]
+KnausWA, DraperEA, WagnerDP, et al.
+APACHE II: a severity of disease classification system [J].
+Crit Care Med,
+1985,
+13(
+10):
+818-
+829.
+[22]
+VincentJL, De BackerD.
+Circulatory shock[J].
+N Engl J Med,
+2013,
+369:
+1726-
+1734.
+DOI: 10.1056/NEJMra1208943.
+[23]
+MayglothlingJ, DuaneTM, GibbsM, et al.
+Emergency tracheal intubation immediately following traumatic injury: An Eastern Association for the Surgery of Trauma practice management guideline[J].
+J Trauma Acute Care Surg,
+2012,
+73(
+5
+Suppl 4):
+S333-
+340.
+DOI: 10.1097/TA.0b013e31827018a5.
+[24]
+HollyLT, KellyDF, CounelisGJ, et al.
+Cervical spine trauma associated with moderate and severe head injury: incidence, risk factors, and injury characteristics[J].
+J Neurosurg,
+2002,
+96(
+3S) :
+285-
+291.
+[25]
+KellyJM, CallumJL, RizoliSB.
+1：1：1 - Warranted or wasteful Even where appropriate, high ratio transfusion protocols are costly: early transition to individualized care benefits patients and transfusion services[J].
+Expert Rev Hematol,
+2013,
+6(
+6):
+631-
+633.
+DOI: 10.1586/17474086.2013.859520.
+[26]
+HolcombJB, JenkinsD, RheeP, et al.
+Damage control resuscitation: directly addressing the early coagulopathy of trauma[J].
+J Trauma,
+2007,
+62(
+2):
+307-
+310.
+DOI: 10.1097/TA.0b013e3180324124.
+[27]
+KetchumL, HessJR, HiippalaS.
+Indications for early fresh frozen plasma, cryoprecipitate, and platelet transfusion in trauma[J].
+J Trauma,
+2006,
+60(
+6
+Suppl):
+S51-
+58.
+DOI: 10.1097/01.ta.0000199432.88847.0c.
+[28]
+NealMD, HoffmanMK, CuschieriJ, et al.
+Crystalloid to packed red blood cell transfusion ratio in the massively transfused patient: when a little goes a long way[J].
+J Trauma Acute Care Surg,
+2012,
+72(
+4):
+892-
+898.
+DOI: 10.1097/TA.0b013e31823d84a7.
+[29]
+PalmerL.
+Fluid management in patients with trauma: Restrictive versus liberal approach [J].
+Vet Clin North Am Small Anim Pract,
+47(
+2):
+397-
+410.
+DOI: 10.1016/j.cvsm.2016.10.014.
+[30]
+Pre-hospital initiation of fluid replacement therapy in trauma Technology appraisal guidance[EB/OL]．[
+2004-01-28].
+https://www.nice.org.uk/guidance/ta74.
+[31]
+ButlerFK, HolcombJB, SchreiberMA, et al.
+Fluid Resuscitation for Hemorrhagic Shock in Tactical Combat Casualty Care: TCCC Guidelines Change 14-01-2 June 2014[J].
+J Spec Oper Med,
+2014,
+14(
+3):
+13-
+38.
+[32]
+ShakurH, RobertsI, BautistaR, et al.
+Effects of tranexamic acid on death, vascular occlusive events, and blood transfusion in trauma patients with significant haemorrhage (CRASH-2): a randomised, placebo-controlled trial[J].
+Lancet,
+2010,
+376(
+9734):
+23-
+32.
+DOI: 10.1016/S0140-6736(10)60835-5.
+[33]
+Significant haemorrhage following trauma: tranexamic acid Evidence summary [ESUOM1] [
+2012-10-01]
+https://www.nice.org.uk/advice/esuom1/chapter/Key-points-from-the-evidence.
+[34]
+LuoY, LiuQ, JiaoZ, et al.
+A comparison study of local injection and radiofrequency ablation therapy for traumatic portal vein injure guided by contrast-enhanced ultrasonography[J].
+Ann Hepatol,
+2012,
+11(
+2):
+249-
+256.
+[35]
+WangT, WangDN, LiuWT, et al.
+Hemostatic effect of topical hemocoagulase spray in digestive endoscopy[J].
+World J Gastroenterol,
+2016,
+22(
+25):
+5831-
+5836.
+DOI: 10.3748/wjg.v22.i25.5831.
+[36]
+KesslerCM.
+Urgent reversal of warfarin with prothrombin complex concentrate: where are the evidence-based data? [J].
+J Thromb Haemost,
+2006,
+4(
+5):
+963-
+966.
+DOI: 10.1111/j.1538-7836.2006.01944.x.
+[37]
+BruceD, NokesTJ.
+Prothrombin complex concentrate (Beriplex P/N) in severe bleeding: experience in a large tertiary hospital[J].
+Crit Care,
+2008,
+12(
+4):
+R105.
+DOI: 10.1186/cc6987.
+[38]
+HuynhTK, CostelloJL, RebuckJA.
+Optimizing the dose of three-factor prothrombin complex concentrate in traumatic brain injury patients on warfarin therapy[J].
+Pharmacotherapy,
+2014,
+34(
+3):
+260-
+264.
+DOI: 10.1186/cc6987.
+[39]
+KerebelD, JolyLM, HonnartD, et al.
+A French multicenter randomised trial comparing two dose-regimens of prothrombin complex concentrates in urgent anticoagulation reversal[J].
+Crit Care,
+2013,
+17(
+1):
+R4.
+DOI: 10.1186/cc11923.
+[40]
+VincentJL, De BackerD.
+Circulatory shock [J].
+N Engl J Med,
+2013,
+369(
+18):
+1726-
+1734.
+DOI: 10.1056/NEJMra1208943.
+[41]
+MaegeleM, SchochlH, CohenMJ.
+An update on the coagulopathy of trauma [J].
+Shock,
+2014,
+41
+Suppl 1:
+21-
+25.
+DOI: 10.1097/SHK.0000000000000088.
+[42]
+MaegeleM, SpinellaPC, SchöchlH.
+The acute coagulopathy of trauma: mechanisms and tools for risk stratification[J].
+Shock,
+2012,
+38(
+5):
+450-
+458.
+DOI: 10.1097/SHK.0b013e31826dbd23.
+[43]
+SoarJ, PerkinsGD, AbbasG, et al.
+European resuscitation council guidelines for resuscitation 2010 section 8. Cardiac arrest in special circumstances: Electrolyte abnormalities, poisoning, drowning, accidental hypothermia, hyperthermia, asthma, anaphylaxis, cardiac surgery, trauma, pregnancy, electrocution[J].
+Resuscitation,
+2010,
+81(
+10) :
+1400-
+1433.
+DOI: 10.1016/j.resuscitation.2010.08.015
+[44]
+TsueiBJ, KearneyPA.
+Hypothermia in the trauma patient [J].
+Injury,
+2004,
+35(
+1):
+7-
+15.
+[45]
+BalversK, Van der HorstM, et al.
+Hypothermia as a predictor for mortality in trauma patients at admittance to the Intensive Care Unit[J].
+J Emerg Trauma Shock,
+2016,
+9(
+3):
+97-
+102.
+DOI: 10.4103/0974-2700.185276.
+[46]
+ScholtenAC, BerbenSA, WestmaasAH, et al.
+Pain management in trauma patients in (pre)hospital based emergency care: Current practice versus new guideline[J].
+Injury,
+2015,
+46(
+5):
+798-
+806.
+DOI: 10.1016/j.injury.2014.10.045.
+[47]
+BounesV, BarthélémyR, DiezO, et al.
+Sufentanil is not superior to morphine for the treatment of acute traumatic pain in an emergency setting: a randomized, double-blind, out-of-hospital trial[J].
+Ann Emerg Med,
+2010,
+56(
+5):
+509-
+516.
+DOI: 10.1016/j.annemergmed.2010.03.020.
+[48]
+CraigM, JeavonsR, ProbertJ, et al.
+Randomised comparison of intravenous paracetamol and intravenous morphine for acute traumatic limb pain in the emergency department[J].
+Emerg Med J,
+2012,
+29(
+1):
+37-
+39.
+DOI: 10.1016/j.annemergmed.2010.03.020.
+[49]
+MichaelMD, WangY, CudnikM, et al.
+The Effectiveness and adverse events of morphine versus fentanyl on a physician-staffed Helicopter[J].
+J Emerg Med,
+2010,
+43(
+1):
+69-
+75.
+DOI: 10.1016/j.jemermed.2011.05.018.
+[50]
+JenningsPA, CameronP, BernardS.
+Ketamine as an analgesic in the pre-hospital setting: a systematic review[J].
+Acta Anaesthesiol Scand,
+2011,
+55(
+6):
+638-
+643.
+DOI: 10.1111/j.1399-6576.2011.02446.x.
+[51]
+FarsiD, MovahediM, HafezimoghadamP, et al.
+Acute pain management with intravenous 0.10 mg/kg vs. 0.15 mg/kg morphine sulfate in limb traumatized patients: a randomized double-blinded placebo-controlled trial[J].
+Ulus Travma Acil Cerrahi Derg,
+2013,
+19(
+5):
+398-
+404.
+DOI: 10.5505/tjtes.2013.86383.
+[52]
+ParkKH, LeeKH, KimH, et al.
+The anti-inflammatoryeffects of ulinastatin in trauma patients with hemorrhagicshock [J].
+J Korean Med Sci,
+2010,
+25(
+1):
+128-
+134.
+DOI: 10.3346/jkms.2010.25.1.128.
+[53]
+HuiL, ShenF, ChangH, et al.
+Effects of ulinastatin on cerebral oxygen metabolism and CRP levels in patients with severe traumatic brain injury [J].
+Exp Ther Med,
+2014,
+7(
+6):
+1683-
+1686.
+DOI: 10.3892/etm.2014.1666
+贡献者信息
+中国医师协会急诊分会
+中国人民解放军急救医学专业委员会
+中国人民解放军重症医学专业委员会
+中国医师学会急诊分会急诊外科专业委员会
+历史
+出版日期：2017-12-10
+收稿日期：2017-11-21
+本文编辑
+何小军
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+图1
+创伤导致凝血功能障碍的发生机制
+表1
+休克指数与失血量、休克程度的关系
+休克指数(SI)
+失血量(%)
+休克程度
+≥1.0
+20～30
+血容量减少
+≥1.5
+30～50
+中度休克
+≥2.0
+50～70
+重度休克
+表2
+失血程度的分级
+分级
+失血量(ml)
+失血量占血容量比例(%)
+心率(次/min)
+血压
+呼吸频率(次/min)
+尿量(mL/h)
+神经系统症状
+Ⅰ
+<750
+<15
+<100
+正常
+14～20
+>30
+轻度焦虑
+Ⅱ
+750～1 500
+15～30
+>100
+下降
+20～30
+20～30
+中度焦虑
+Ⅲ
+1 500～2 000
+30～40
+>120
+下降
+30～40
+5～15
+焦虑、恍惚
+Ⅳ
+>2 000
+>40
+>140
+下降
+>40
+无尿
+恍惚、昏睡
+表3
+常用的血流动力学监测方法
+血流动力学监测措施
+可评价指标
+无创
+生命体征监测
+血压、心率、脉搏、血氧饱和度
+心脏超声及其他无创监测
+心搏量(SV)、心输出量(CO)、心脏指数(CI)、左室舒张末期容积(LVEDV)、左室收缩末期容积(LVESV)、射血分数(EF)及E/A峰比值等
+微创
+脉搏指数连续心输出量监测(PiCCO)
+(1)CO、心脏前负荷、全心舒张末期容积(GEDV)、每搏量变异(SVV)、心肌收缩力、全心射血分数(GEF)
+(2)全身血管阻力(SVR)/全身血管阻力指数(SVRI)
+(3)容量性指标：GEDV、胸内血容量(ITBV)和血管外肺水(EVLW)
+有创
+肺动脉漂浮导管(PAC)监测
+右房压(RAP)或中心静脉压(CVP)、右室压(RVP)、肺动脉收缩压(PASP)、肺动脉楔压(PAWP)和CO等
+表4
+创伤救治医护人员的编排及职责
+1-D1
+1号伤员指挥协调者
+TN0
+护理总协调
+1-D2
+1号伤员主要评估医师
+1-TN1
+1号伤员责任护士
+1-D3
+1号伤员主要操作医师
+1-TN2
+1号伤员气道护士
+1-D4
+1号伤员创伤中心二线
+1-TN3
+1号伤员循环护士
+1-D5
+1号伤员相关专科二线
+1-S1
+1号伤员外勤人员
+…
+1-S2
+1号伤员辅助外勤人员
+注：第一个数字代表伤员编号；D代表医生；TN代表护理人员；S代表工勤人员
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华急诊医学杂志2017年26卷12期
+文    题：创伤失血性休克诊治中国急诊专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华急诊医学杂志2017年26卷12期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

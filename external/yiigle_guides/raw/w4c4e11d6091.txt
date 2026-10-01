@@ -1,0 +1,1658 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E7%A5%9E%E7%BB%8F%E5%A4%96%E7%A7%91%E4%B8%AD%E6%9E%A2%E7%A5%9E%E7%BB%8F%E7%B3%BB%E7%BB%9F%E6%84%9F%E6%9F%93%E8%AF%8A%E6%B2%BB%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282021%E7%89%88%29.html
+# 标题: 神经外科中枢神经系统感染诊治中国专家共识(2021版) - 中华神经外科杂志
+# 发布方/日期: 外科，中华神经外科杂志, 2021,37(1) : 2-15. DOI: 10.3760/cma.j.cn；2021-01-28
+
+神经外科中枢神经系统感染诊治中国专家共识(2021版)
+中国医师协会神经外科医师分会神经重症专家委员会
+北京医学会神经外科学分会神经外科危重症学组
+中华神经外科杂志, 2021,37(1) : 2-15. DOI: 10.3760/cma.j.cn112050-20200831-00480
+一、概述
+神经外科中枢神经系统感染(neurosurgical central nervous system infections, NCNSIs)是指继发于神经外科疾病或需要由神经外科处理的颅内和椎管内的感染，包括神经外科术后硬膜外脓肿、硬膜下积脓、脑膜炎、脑室炎及脑脓肿，颅脑创伤引起的颅内感染，脑室和腰大池外引流术、分流及植入物相关的脑膜炎或脑室炎等[1]。其中细菌性感染是CNSIs的主要类型，因此作为本次共识的重点。
+CNSIs分为原发性和继发性感染。原发性CNSIs临床并不多见。继发性CNSIs中以脑脓肿最为典型，曾经是神经外科的常见病，其感染源大多来自临近颅底结构的组织器官感染，如鼻窦炎、中耳炎、牙周脓肿等，目前这类感染的发病率呈下降趋势；而继发于开放性颅脑损伤、各种原因引起的脑脊液漏、人工植入材料、脑室外引流(external ventricular drains，EVD)术、颅内压探头置入及开颅手术等引起的细菌性感染，成为NCNSIs的主要类型。
+目前，NCNSIs的早期确诊有一定的困难。首先，由于病原学标本，如脑脊液的获取有赖于有创的腰椎穿刺、EVD等操作，且脑脊液的细菌学培养阳性率不高；其次，昏迷、发热、颈项强直、白细胞增高等表现均为非特异性；另外，影像学检查依赖于CT或MRI，甚至需要增强扫描，这些检查不易捕捉到早期炎性改变的影像学特征，且不便于进行连续的影像学评价。因此，亟需对CNSIs的诊断方法确定规范的临床路径和标准，以期提高早期的确诊率。
+NCNSIs的治疗也是临床的难题。目前，能够透过血脑屏障或在脑脊液中达到较高浓度的抗菌药不多，在无病原学证据支持的情况下，如何经验性应用抗菌药也是困扰临床医生的问题。近年在神经系统重症感染的患者中，耐药菌较为常见，这使得临床医生在使用抗菌药时面临选择困难。鉴于此，本文组织国内神经外科、神经重症、感染科及临床药学等多学科相关专家，在复习国内外文献的基础上制定了本共识，以期提高这一严重疾病的诊断和治疗水平，改善患者的预后。
+本共识采用世界卫生组织(WHO)推荐的GRADE(grades of recommendation assessment，development，and evaluation，GRADE)标准，将循证证据等级划分如下：(1)高等级：指高质量随机对照临床研究、权威指南及系统评价或Meta分析。(2)中等级：指有一定研究局限性的随机对照研究(如未隐藏分组、未设盲等)、队列研究或病例对照研究等。(3)低等级：是指病例报告、专家意见等。专家推荐等级如下：(1)强推荐：指该方案绝大多数患者或患者的家属、医生及共识制定者均会采纳。(2)中等推荐：指该方案多数相关人员会采纳，但仍有部分人不采纳，要结合患者的具体情况做出决定。(3)弱推荐：指证据不足，需要患者或患者的家属与医生共同讨论决定。
+二、流行病学和常见病原菌
+神经外科术后的CNSIs感染率为4.6%～25%[2]，占CNSIs的0.8%～7%[3]，但不同医院、不同疾病、不同手术方式及不同诊断标准的术后CNSIs发生率不尽相同。依据不同的手术类型，术后脑膜炎的发生率为1.5%～8.6%，EVD相关感染的发生率达8%～22%[4]，颅脑创伤、腰大池外引流术引发CNSIs的发生率分别为1.4%、5%[5]。神经外科术后脑膜炎和(或)脑室炎的病死率为3%～33%[6]，即使CNSIs得以治愈，患者一般会遗留不同程度的神经功能障碍。
+CNSIs常见的病原菌包括革兰阴性菌、革兰阳性菌及真菌，以前两者为主。厌氧菌是脑脓肿常见的致病菌。根据2019年中国细菌耐药监测网的数据(http：//www.chinets.com/Data/AntibioticDrug-Fast)，常见革兰阴性菌为不动杆菌、肺炎克雷伯菌、大肠埃希菌及铜绿假单胞菌等，常见革兰阳性菌为表皮葡萄球菌、人葡萄球菌、头状葡萄球菌、溶血葡萄球菌、肠球菌、金黄色葡萄球菌及肺炎链球菌等；革兰阳性菌的感染率为55%，阴性菌为45%。近年革兰阴性菌所致的CNSIs呈现上升趋势。
+三、临床分类和临床表现
+1．临床分类：
+CNSIs疾病分类繁多[7,8]，NCNSIs根据以下情况进行分类：(1)根据解剖部位分为脑炎、脊髓炎、脑脊髓炎(主要侵犯脑和脊髓实质)，脑膜炎、脊膜炎和脑脊膜炎(主要侵犯脑和脊髓软膜)、脑膜脑炎(脑实质和脑膜合并受累)，脑内脓肿、硬膜外脓肿、硬膜下脓肿及脑室炎。(2)根据病原体分为细菌、真菌、寄生虫感染等。(3)根据发病进程分为急性、亚急性及慢性CNSIs[9]，其中感染病程<2周为急性，2～4周为亚急性，>4周为慢性；慢性脑膜炎是指脑膜炎症状和脑脊液中白细胞数增多>4周[10]。(4)根据感染的严重程度分类，①轻度CNSIs：体温>38 ℃、头痛、意识清楚、格拉斯哥昏迷评分(GCS)为13～15分或无明显的意识变化、颈项强直、脑脊液混浊、脑脊液白细胞计数为(50～500)×106/L。②中度CNSIs：体温>39 ℃、意识障碍、GCS为9～12分或较前下降2分、明显颈项强直、脑脊液混浊、脑脊液白细胞计数为(500～1 000)×106/L，伴全身炎性反应。③重度CNSIs：体温>39 ℃或<36.0 ℃、昏迷、GCS≤8分或较前下降2分及有明显的颈项强直；脑脊液为脓性、白细胞计数>1 000×106/L及脑脊液葡萄糖< 1 mmol/L；头颅CT或MRI显示脑室积脓和(或)分隔。
+2．临床症状和体征：
+(1)临床症状包括，①全身感染症状：患者表现为体温升高，多呈持续高热，常用的降温方法效果欠佳，常伴有心率和呼吸加快，以及其他全身炎症反应。出现血压降低或乳酸增高提示患者的预后不良[11]。②颅内压增高症状：患者出现头痛、恶心呕吐及视盘水肿等典型的颅内压升高症状。③意识和精神状态改变：多数患者出现新发的烦躁、谵妄、嗜睡、昏睡甚至昏迷等进行性意识状态下降[12,13]。老年患者更容易出现意识障碍加重[14]。④伴发症状：颅内感染可以造成患者局部神经功能损伤，出现相对应的症状。部分患者出现癫痫及下丘脑垂体功能降低症状[15,16]。(2)典型体征包括，①脑膜刺激征：感染患者会出现颈强直、克氏征和布氏征阳性，但轻症患者可不出现上述体征。克氏征和布氏征阳性诊断CNSIs的灵敏度及特异度均较低，故不能以没有典型的神经症状及体征排除CNSIs的诊断[17,18]。②分流术后感染体征：分流术后感染患者常出现不明原因的发热，脑室-心房分流术患者可出现导管相关性血流感染的症状及体征；脑室或腰大池-腹腔分流术后发生分流管腹腔端感染者可伴随腹部压痛、反跳痛等腹膜炎体征，沿分流管皮下潜行部位出现红、肿、局部压痛等，提示分流管周围组织感染[19]。
+推荐意见：(1)神经外科术后患者，出现发热、意识水平下降以及全身感染表现，并排除神经系统之外的感染灶要考虑CNSIs(低等级，弱推荐)。(2)脑室或腰大池-腹腔分流术后患者出现分流管皮下潜行部分红、肿、压痛，以及不明原因腹膜炎症状和体征均要高度怀疑分流管术后相关感染(中等级，强推荐)。
+四、影像学表现
+依据感染部位和分期，CNSIs可以有不同的影像学表现，对于临床高度怀疑CNSIs的患者，需要采用有针对性的影像学检查协助诊断。另外，在整个治疗过程中，需多次进行影像学检查，评估治疗的有效性[20]。脑膜炎患者常规CT表现不明显，部分患者强化后可见脑膜和脑皮质增强信号，但无增强表现也不能排除诊断；脑炎患者MRI早期变化比CT更加敏感，故应首先考虑行MRI检查协助诊断[21]。脑脓肿患者增强MRI仍然是寻找和定位脑脓肿最敏感的检查，增强CT可以显示脓肿典型的环形增强病灶和低密度脓腔[22]。另外，MRI弥散加权成像(DWI)与表观扩散系数(ADC)对鉴别包膜期脑脓肿与颅内肿瘤坏死囊变的意义较大：脑脓肿在DWI上表现为高信号，ADC呈低信号；而颅内肿瘤坏死囊变区DWI表现为低信号，ADC呈高信号[23]。
+CNSIs患者常需要行腰椎穿刺，有引发脑疝的风险[24]，故最好在腰椎穿刺前先行头颅CT检查，以明确颅内情况，评估发生脑疝的风险。如出现新发的神经功能缺损症状(除外脑神经麻痹)、新发癫痫及意识障碍加重者需先行头颅CT检查，再行腰椎穿刺[25]。
+推荐意见：(1)高度怀疑颅内感染的患者，推荐行CT或MRI检查以协助诊断和治疗(中等级，强推荐)。(2)推荐使用增强MRI和DWI序列，协助脑脓肿的鉴别诊断(中等级，强推荐)。(3)对以下高度怀疑颅内感染的患者需在腰椎穿刺前行头颅CT检查评估发生脑疝的风险：在水肿高峰期出现新发神经功能缺损症状(除外脑神经麻痹)、新发癫痫、意识障碍加重等(中等级，强推荐)。(4)脑室-腹腔分流术后若患者出现不明原因的腹膜炎症状，可行腹部超声和CT检查协助诊断分流管腹腔端情况(中等级，强推荐)
+五、危险因素
+神经重症患者往往病情危重，在住院期间经历多次神经外科手术或检查操作，增加了CNSIs的发生率。因此，应系统地总结患者的易感因素，有针对性地进行技术改进和预防CNSIs的发生。常见易感因素如下。
+1．患者自身的因素：
+年龄>70岁[26]、合并糖尿病或血糖水平控制不良、免疫功能低下[27,28]，GCS<9分[29]，以及原发性损伤严重，特别是开放性颅脑损伤[30]。
+2．手术相关因素：
+污染伤口[31]、小脑幕下手术[32]、手术时间>4 h、接受≥2次开颅手术[33]及术中出现大量失血或有植入物均明显增加颅内感染的发生率[34]。
+3．术后因素：
+(1)脑室或腰大池引流管放置时间>5 d、留置引流管过程中频繁留取脑脊液标本、引流管口出现脑脊液漏、穿刺道出血及双侧同时行EVD等与引流管相关的因素[35,36,37,38,39]。(2)术后发生伤口或引流管脑脊液漏是发生颅内感染的独立危险因素[39]。(3)手术切口出现皮下积液可增加颅内感染的发生率[40]。
+4．其他因素：
+近期接受化疗和免疫抑制剂治疗[41]、术后长期使用呼吸机及合并全身多器官感染[42]、术后长时间接受全肠外营养及合并严重低蛋白血症[43]、术后长时间使用大剂量糖皮质激素[44]、在监护室接受神经外科操作[45,46]、伤口护理不当等均明显增加CNSIs的发生率。
+六、实验室检查
+1．血常规检查：
+白细胞计数>10.0×109/L,中性粒细胞比例>0.8，部分患者白细胞计数减少或正常。
+2．脑脊液相关检查：
+多数CNSIs患者腰椎穿刺开放压>200 mmH2O(1 mmH2O＝0.0098 kPa)[47]；急性期脑脊液外观呈混浊、黄色或典型脓性表现。颅内感染脑脊液的典型表现为白细胞计数>1 000个/mm3，多核细胞比例>0.7。正常脑脊液葡萄糖浓度为2.5～4.5 mmol/L，因其受血清葡萄糖的影响，是血清葡萄糖水平的2/3(66%)[48]，所以需同时检测血清葡萄糖含量；脑脊液葡萄糖含量低于同期血清葡萄糖含量的0.4被认为异常。高于每500～800个红细胞中有1个白细胞的比例提示为穿刺引起的出血或蛛网膜下腔出血[49]。脑脊液细胞数低于1 000个/mm3也不能完全排除颅内细菌性感染，需结合危险因素、临床症状和体征以及脑脊液中多核细胞比例和葡萄糖等指标综合考虑。
+3．脑脊液涂片和微生物培养：
+若疑似颅内感染时，需要在开始应用或更改抗菌药之前、抗菌药处于谷浓度时收集血清和脑脊液样本行涂片和微生物培养；在行脑脊液培养的同时，也应该行2～4次血培养检查[50]；若疑似CNSIs时，对切口分泌物、引流管头端和取出的分流管等植入物要及时行涂片并送检微生物培养。
+采集脑脊液标本时，因第1管脑脊液被皮肤菌群污染的可能性很大[50]，故脑脊液收集要≥2管，可以采用3管法。第1管脑脊液行生化检查，第2管或第3管脑脊液行常规检查、微生物培养或分子生物学检测[50]。对于普通细菌培养，可以留取2 ml脑脊液，怀疑为真菌或结核分枝杆菌感染者应留取5～10 ml。在送检血和脑脊液微生物培养的同时要及时送检脑脊液涂片，因涂片结果回报速度快，以指导治疗用药[50]。采用传统的脑脊液培养方法阳性率较低，多低于40%[51]，脑脊液培养的阳性依赖于细菌浓度和是否应用过抗菌药及培养方法等[52]。若疑似CNSIs患者的首次脑脊液培养阴性，建议连续取2～3次脑脊液进行培养，同时建议培养≥10 d，以除外痤疮丙酸杆菌等[4]。将脑脊液放置于儿童专用血培养瓶有可能提高培养的阳性率。
+4．分子生物学检测方法：
+目前，已在临床开展的检测方法主要为病原体宏基因组学检测技术，又称宏基因组二代测序技术(metagenomic next generation sequence，mNGS)，其是将待测样本的所有DNA或RNA混合测序，并通过将测序数据与病原体数据库进行比对，从而获得病原体的信息。该技术直接检测临床标本，对一些病因不明或已使用抗感染药物治疗后的感染，仍有一定的检测阳性率[53]。若脑脊液培养阴性，可行mNGS检测可能的病原菌[51]；但因mNGS的背景菌常与某些菌具有高度相似性，易出现假阳性结果，需注意鉴别。
+5．感染标志物的检查：
+包括，(1)降钙素原(PCT)：脑脊液PCT在脑膜炎发作后4 h开始升高，6 h达高峰，并持续24 h以上，是感染早期诊断的有价值的标志物[54]，但其截断值目前仍有争议。(2)乳酸：因脑脊液乳酸含量不受血清浓度的影响，其对CNSIs的诊断可能比葡萄糖更有优势[47]，对其参考值目前仍有争议。
+推荐意见：(1)疑似CNSIs时，若无禁忌证，可进行腰椎穿刺测定开放压、进行脑脊液的常规和生化检查、脑脊液培养，并测定血清葡萄糖(高等级，强推荐)。(2)疑似CNSIs时，在行脑脊液培养的同时进行血培养，检测脑脊液PCT和乳酸(低等级，弱推荐)。(3)若疑似CNSIs者首次脑脊液培养为阴性，建议连续留取2～3次脑脊液进行培养，同时建议培养≥10 d(高等级，强推荐)。(4)若疑似CNSIs，2～3次脑脊液培养阴性，且治疗效果欠佳，建议行脑脊液mNGS检测(中等级，弱推荐)。
+七、CNSIs的诊断
+CNSIs的诊断分为临床诊断和病原学确诊。符合下列1～4条为临床诊断[13,47]，符合1～5条为病原学确诊。
+1．临床表现：
+包括，(1)全身炎性反应：出现发热(体温>38 ℃)[4]或低体温(<36℃)，心率(>90次/min)和呼吸频率(>20次/min)增快等全身感染表现。(2)意识和精神状态的改变：出现嗜睡、昏睡，甚至昏迷等意识状态进行性下降，以及疲乏、精神萎靡不振、谵妄等。(3)颅内压增高的症状和体征：出现头痛头晕、恶心呕吐、视盘水肿等典型颅内压增高的表现。(4)脑膜刺激征：脑膜炎患者会出现颈部抵抗、克氏征和布氏征阳性。(5)伴发症状或体征：因感染的机制不同，患者可出现不同的伴发症状或体征，在不同的功能区会出现不同的局灶性功能缺损体征，同时可能会发生电解质紊乱、脑积水[55]及垂体功能紊乱等。行脑室-腹腔分流术者常伴随腹部压痛、反跳痛等腹膜炎体征。如行脑室-胸腔分流术，可出现胸膜炎体征。
+2．血液相关检查：
+血常规白细胞>10.0×109/L，中性粒细胞比例>0.8。
+3．颅内压和脑脊液相关检查：
+包括，(1)颅内压：多数颅内感染患者腰椎穿刺开放压>200 mmH2O[47]。(2)脑脊液性状：急性期脑脊液多为浑浊、黄色或呈脓性。(3)脑脊液白细胞数及比例：白细胞总数>100×106/L,中性粒细胞比例>0.7。(4)脑脊液生化：脑脊液中葡萄糖含量降低(<2.2 mmol/L)[55]，脑脊液葡萄糖含量/血清葡萄糖含量<0.4[56]。
+4．影像学表现：
+脑膜炎的头颅CT或MRI不具有特异性[57]，常提示脑弥漫性水肿、硬膜增厚强化；脑室炎可显示脑室系统扩张，或脑室内有液平面；典型脑脓肿的CT和MRI增强可显示脑内出现典型的环形强化。
+5．脑脊液、切口分泌物、引流管、植入物及手术标本的涂片和培养：
+标本涂片、引流管头、植入物及脑脊液微生物培养阳性，是诊断的金标准，但需除外污染和定植。mNGS技术、脑脊液PCT和乳酸的检测能协助诊断。
+推荐意见：(1)患者出现发热，颅高压症状，脑脊液浑浊或脓性、白细胞增多、葡萄糖<2.2 mmol/L及脑脊液葡萄糖含量/血清葡萄糖含量≤0.4，CNSIs临床诊断成立(高等级，强推荐)。(2)在临床诊断的基础上，出现标本涂片、引流管头、植入物及脑脊液微生物培养阳性(排除污染和定植)，CNSIs病原学诊断成立(高等级，强推荐)。
+八、治疗
+NCNSIs的治疗包括针对病原菌的药物治疗、感染病灶的外科处理、并发症的处理及系统性支持治疗。
+(一)抗菌药物治疗
+抗菌药的应用是治疗神经系统细菌性感染的重要措施之一。涉及对病原菌敏感的抗菌药选择、最佳给药途径及准确的剂量和给药方式。
+1．用药原则[13]：
+(1)怀疑中枢神经系统细菌性感染时，应在抗菌药使用前留取脑脊液、手术切口分泌物及血标本，行常规、生化、涂片、细菌培养及药敏试验；尽早进行经验性抗菌治疗[58,59]。(2)抗菌药首选易透过血脑屏障的杀菌剂，如头孢曲松、头孢噻肟、美罗培南及万古霉素等。抗菌药根据血脑屏障的穿透性[以脑脊液药物浓度的曲线下面积(AUC脑脊液)/血清药物浓度的曲线下面积(AUC血清)进行评估，取已知无脑膜炎或有脑膜炎时的最大值]分类，AUC脑脊液/ AUC血清>50%为穿透性高、5%～50%为穿透性中等、<5%为穿透性低、微量或检测不到为不能穿透[58,60,61,62,63,64,65,66](表1)。(3)按药效动力学/药代动力学理论用药[61]，剂量建议按说明书允许的最大剂量或按超说明书用药[67]。(4)在经验性治疗48～72 h后对治疗的反应性进行评估。疗效不佳者，需重新考虑诊断；仍怀疑CNSIs时，则需考虑调整治疗方案，如增加剂量、更换药物、联合用药或考虑脑室内注射或腰椎穿刺鞘内注射药物。(5)药物要应用足够的疗程，具体治疗时间取决于致病菌、感染程度及治疗效果。
+点击查看表格
+表1
+常用抗菌药的血脑屏障穿透性分类
+表1
+常用抗菌药的血脑屏障穿透性分类
+穿透性高(>50%a)
+穿透性中等(5%～50%b)
+穿透性低(<5%c)
+不能穿透
+氯霉素、磺胺嘧啶、甲硝唑、氟康唑、伏立康唑、氟胞嘧啶、利奈唑胺、环丙沙星、莫西沙星
+磺胺甲口恶唑/甲氧苄啶、氨苄西林、哌拉西林、青霉素、头孢吡肟、头孢唑肟、头孢他啶、头孢噻肟、头孢曲松、头孢呋辛、氨曲南、头孢哌酮、亚胺培南、美罗培南[63]、氧氟沙星、左氧氟沙星、万古霉素[63]、去甲万古霉素[64]、利福平、乙胺丁醇、氨基糖苷类、舒巴坦、阿维巴坦[65]、磷霉素[66]
+苯唑西林、头孢唑啉、头孢西丁、多黏菌素、替加环素、达托霉素、两性霉素B
+替考拉宁、克林霉素、红霉素、克拉霉素、阿奇霉素、罗红霉素、伊曲康唑、棘白菌素
+注：a、b、c为脑脊液药物浓度的曲线下面积与血清药物浓度的曲线下面积的比值
+2．对疑似患者的经验性抗菌药治疗：
+CNSIs的经验性治疗应考虑患者的年龄、易感因素、可能的致病菌及当地致病微生物的体外药敏数据选择药物[68]。2017年，美国感染病学会指南推荐万古霉素联合抗假单胞菌的头孢菌素(如头孢吡肟、头孢他啶)或碳青霉烯类(美罗培南)作为脑室炎和脑膜炎的经验性治疗药物[4,69]。万古霉素抗菌谱覆盖革兰阳性菌，如葡萄球菌、痤疮丙酸杆菌等；而头孢菌素或碳青霉烯类覆盖需氧的革兰阴性菌，故这两类药物联合应用能覆盖常见的革兰阳性和阴性菌。头孢菌素或碳青霉烯的选择应依赖于当地产超广谱β-内酰胺酶细菌的流行病学[68]。对β-内酰胺类抗菌药过敏和有美罗培南禁忌证的脑室炎和脑膜炎患者，建议使用氨曲南或环丙沙星以覆盖革兰阴性菌。使用万古霉素，肾功能正常者，建议首次给药48 h后(肾功能不全者，建议首次给药72 h后)监测血清药物谷浓度，使谷浓度维持在15～20 μg/ml。头孢菌素类药物对非炎性或轻度炎性脑膜的透过性很低，在严重炎性脑膜炎时可达15%穿透性。美罗培南在非炎性或轻度炎性及严重脑膜炎的透过率分别为4.7%～25%和39%[70]。经验性抗菌治疗抗菌药的选择见表2，推荐剂量见表3。
+点击查看表格
+表2
+中枢神经系统细菌性感染的经验性抗菌药治疗建议[1]
+表2
+中枢神经系统细菌性感染的经验性抗菌药治疗建议[1]
+易感因素
+常见致病菌
+起始治疗药物
+神经外科术后感染
+革兰阴性杆菌、金黄色葡萄球菌、凝固酶阴性葡萄球菌
+万古霉素＋头孢吡肟、头孢他啶或美罗培南
+脑室或腰大池外引流术
+凝固酶阴性葡萄球菌、金黄色葡萄球菌、革兰阴性杆菌、痤疮丙酸杆菌
+万古霉素＋头孢吡肟、头孢他啶或美罗培南
+穿透伤
+金黄色葡萄球菌、凝固酶阴性葡萄球菌、革兰阴性杆菌
+万古霉素＋头孢吡肟、头孢他啶或美罗培南
+颅底骨折
+肺炎链球菌、流感嗜血杆菌、Aβ群溶血链球菌
+万古霉素＋三代头孢菌素
+脑脓肿或硬膜下积脓
+链球菌和葡萄球菌属
+头孢噻肟或头孢曲松＋甲硝唑
+点击查看表格
+表3
+肝肾功能正常患者抗菌药治疗的推荐剂量[4]
+表3
+肝肾功能正常患者抗菌药治疗的推荐剂量[4]
+抗菌药
+成人日剂量(间隔时间，h)
+青霉素G
+2 400万U(4)
+氨苄西林/舒巴坦
+12 g /6 g(4)
+头孢曲松
+4 g (12～24)
+头孢噻肟
+8～12 g (4～6)
+头孢他啶
+6 g (8)
+头孢吡肟
+6 g (8)
+头孢哌酮/舒巴坦 (2 ∶1)
+8 g /4 g(6)
+舒巴坦
+6～8 g(6～8)
+氨曲南
+6～8 g (6～8)
+美罗培南
+6 g(8)；对于最低抑菌浓度<32 μg/ml的耐药革兰阴性菌，每次静脉滴注时间≥3 h可能提高治疗效果
+环丙沙星
+800～1 200 mg (8～12)
+莫西沙星
+400 mg (24)
+阿米卡星
+15 mg/kg (8)
+妥布霉素
+5 mg/kg (8)
+万古霉素
+间歇给药方案：负荷剂量20～30 mg/kg，维持剂量30～60 mg/kg(8～12)；持续给药方案：负荷剂量15～20 mg/kg，维持剂量30～60 mg/kg(24 h持续静脉滴注)，作为间歇给药方案无法达到治疗目标时的替代方案
+利奈唑胺
+1 200 mg (12)
+达托霉素
+6～10 mg/kg (24)
+磷霉素
+6～24 g(6～8)
+利福平
+600 mg (24)
+甲氧苄啶-磺胺甲口恶唑
+10～20 mg/kg (6～12)
+替加环素
+负荷剂量200 mg，维持剂量200 mg(12)
+多黏菌素B
+负荷剂量2.0～2.5 mg/kg，静脉滴注2 h；维持剂量1.5 mg/kg(12)，静脉滴注剂量1 h
+两性霉素B脂质体
+5 mg/kg(24)
+氟康唑
+400～800 mg (24)
+伏立康唑
+400 mg (12)
+推荐意见：(1)经验性抗菌药治疗推荐万古霉素联合抗假单胞菌的头孢菌素或碳青霉烯类(高等级，强推荐)。(2)使用万古霉素肾功能正常者，建议首次给药48 h后(肾功能不全者，建议首次给药72 h后)监测血药谷浓度，使谷浓度应维持在15～20 μg/ ml(高等级，强推荐)。
+3．目标性抗菌药治疗：
+一旦病原学检查明确诊断，应该根据不同病原菌和体外药敏结果选择相应的抗菌药。目标性抗菌治疗抗菌药的推荐方案见表4。
+点击查看表格
+表4
+中枢神经系统感染目标性治疗的推荐方案[13,58]
+表4
+中枢神经系统感染目标性治疗的推荐方案[13,58]
+病原菌
+推荐方案
+备选方案
+金黄色葡萄球菌
+甲氧西林敏感
+苯唑西林或氨苄西林
+万古霉素、利奈唑胺、达托霉素
+耐甲氧西林
+万古霉素
+利奈唑胺、达托霉素
+凝固酶阴性葡萄球菌
+万古霉素
+利奈唑胺、达托霉素
+脑膜炎奈瑟菌
+头孢噻肟或头孢曲松
+头孢吡肟、氟喹诺酮、美罗培南
+肺炎链球菌
+0.12 μg/ml≤青霉素MIC≤0.06 μg/ml
+青霉素G
+头孢曲松、头孢噻肟
+头孢噻肟或头孢曲松MIC<1 μg/ml
+头孢噻肟或头孢曲松
+头孢吡肟、美罗培南
+头孢噻肟或头孢曲松MIC≥1 μg/ml
+万古霉素加头孢噻肟或头孢曲松
+万古霉素加莫西沙星、利福平
+痤疮丙酸杆菌
+青霉素G
+头孢曲松、头孢噻肟、万古霉素、利奈唑胺、达托霉素
+肠球菌属
+耐药低风险
+氨苄西林/舒巴坦
+利奈唑胺＋利福平
+耐药高风险
+万古霉素
+同上
+铜绿假单胞菌
+头孢他啶或头孢吡肟
+环丙沙星、美罗培南
+鲍曼不动杆菌
+美罗培南
+替加环素、多黏菌素B，硫酸黏菌素
+肠杆菌科
+头孢噻肟或头孢曲松
+氨曲南、喹诺酮类、美罗培南
+嗜麦芽窄食单胞菌
+喹诺酮类
+头孢派酮/舒巴坦、替加环素，多黏菌素，磺胺类药物
+产超广谱β-内酰胺酶革兰阴性菌
+美罗培南
+头孢吡肟、氟喹诺酮
+念珠菌
+两性霉素B脂质体
+氟康唑、伏立康唑
+曲霉菌
+伏立康唑
+两性霉素B脂质体、泊沙康唑
+注：MIC为最低抑菌浓度
+(1)革兰阳性菌感染：对甲氧西林敏感的金黄色葡萄球菌引起的感染，可以使用氨苄西林/舒巴坦治疗。万古霉素尽管具有不利的药代动力学和药效学特征，目前仍推荐为耐甲氧西林金黄色葡萄球菌感染的一线用药。根据实际体重计算万古霉素的剂量，对于肥胖、肾功能亢进(肌酐清除率>130 ml/min)者采用20～35 mg/kg的负荷剂量，随后每次以15～20 mg/kg的维持剂量每8小时或12小时给药1次，使血清谷浓度达到15～20 mg/L。利奈唑胺属于口恶唑烷酮类抑菌剂，容易穿过血脑屏障进入脑脊液，AUC脑脊液/AUC血清均接近于1[71,72]，且因其抗菌谱与万古霉素相似，故已成为万古霉素的替代药物[73]。替考拉宁与万古霉素相比，其脑脊液渗透性较差，因此很少用于治疗脑膜炎[70]。在脑膜炎时去甲万古霉素的AUC脑脊液/AUC血清为0.18～0.43[66]，也可用于革兰阳性CNSIs的治疗。葡萄球菌引起的脑室炎和脑膜炎患者不能使用β-内酰胺类或万古霉素治疗时，可采用利奈唑胺、达托霉素或甲氧苄啶磺胺甲口恶唑治疗。治疗痤疮丙酸杆菌感染，建议选用青霉素G。如果分离的葡萄球菌对利福平敏感，可以考虑利福平联合其他抗菌药治疗葡萄球菌性脑室炎和脑膜炎；推荐利福平作为联合治疗的一部分用于有颅内或脊柱植入人工材料的患者，如脑脊液分流或引流术后。
+推荐意见：①对甲氧西林敏感的金黄色葡萄球菌引起的感染，建议采用苯唑西林或氨苄西林治疗(中等级，强推荐)。②对耐甲氧西林金黄色葡萄球菌引起的感染，建议采用万古霉素或利奈唑胺治疗(中等级，强推荐)。③对革兰阳性菌引起的感染，不能使用β-内酰胺类或万古霉素治疗时，推荐使用利奈唑胺、达托霉素或甲氧苄啶磺胺甲口恶唑(低等级，强推荐)。
+(2)革兰阴性菌感染[68]：治疗第三代头孢菌素敏感的革兰阴性杆菌感染，建议使用头孢曲松或头孢噻肟；治疗假单胞菌属菌种感染，建议使用头孢吡肟、头孢他啶或美罗培南，替代药物建议使用氨曲南或具有体外活性的氟喹诺酮类；治疗产广谱β-内酰胺酶的革兰阴性杆菌感染，若对碳青霉烯类敏感，建议使用美罗培南；治疗不动杆菌属菌感染，建议使用美罗培南；对于耐碳青霉烯类菌株，推荐硫酸黏菌素或多黏菌素B(通过静脉和脑室内给药)；美罗培南为时间依赖性抗菌药，延长输注时间(每次≥3 h)可以提高治愈率[74]；亚胺培南因其可降低癫痫发作的阈值而增加癫痫的发作风险[58,67]，应避免应用；替加环素是首个甘氨酰环类抗菌药，对革兰阳性及阴性菌、厌氧菌等均具有抗菌活性，尤其对多重耐药菌包括产超广谱β-内酰胺酶的肠杆菌科细菌和耐碳青霉烯类的鲍曼不动杆菌均具有良好的抗菌活性[62]。Sipahi等[75]报道单用或联合应用替加环素治疗耐碳青霉烯的鲍曼不动杆菌引起的脑膜炎，治疗成功率为70%。多黏菌素B静脉应用后可导致色素沉着，多见于面部和颈部，发生率为8%～15%[76,77]，但色素沉着不影响治疗效果，大部分患者在停药后肤色可恢复。对于全身用药48～72 h仍未取得预期效果的耐碳青霉烯类的革兰阴性杆菌(特别是不动杆菌属、铜绿假单胞菌及肠杆菌)所致的脑膜炎或脑室炎，可每日脑室内或鞘内注射5 mg(5万U)多黏菌素B或12.5万U多黏菌素甲磺酸盐(约含4.1 mg多黏菌素E)[78]。头孢哌酮不易透过血脑屏障，舒巴坦常规剂量在脑脊液中也无法达到有效治疗浓度[79]，但由于舒巴坦对鲍曼不动杆菌有较好的体外抗菌活性，并且随着舒巴坦剂量的增加脑脊液中的浓度也明显增加。因此，由碳青霉烯耐药鲍曼不动杆菌引起的CNSIs可使用高剂量舒巴坦(8 g/d或更高剂量)[80]。阿维巴坦较其他β-内酰胺酶有较高的血脑屏障穿透率，在兔AUC脑脊液为AUC血清的38%[66]。头孢他啶/阿维巴坦在CNSIs中的应用仍待进一步临床实践。磷霉素是一种低分子量抗菌素，有较好的血脑屏障穿透率，对多种革兰阴性和阳性细菌都有杀菌活性，包括多重耐药和泛耐药致病菌[81]。对泛耐药、全耐药革兰阴性菌引起的感染，需联合2种或3种药物进行治疗[82]，见表5[83]。
+点击查看表格
+表5
+泛耐药和全耐药革兰阴性杆菌感染的联合用药方案[83]
+表5
+泛耐药和全耐药革兰阴性杆菌感染的联合用药方案[83]
+细菌类型
+2种药物联合
+3种药物联合
+肠杆菌科
+替加环素或多黏菌素＋阿米卡星、美罗培南或磷霉素；替加环素＋多黏菌素
+替加环素＋多黏菌素＋美罗培南
+鲍曼不动杆菌
+替加环素＋舒巴坦(或含舒巴坦制剂)、美罗培南或多黏菌素；多黏菌素＋美罗培南
+舒巴坦(或含舒巴坦制剂)＋替加环素＋美罗培南
+铜绿假单胞菌
+多黏菌素＋抗假单胞菌β-内酰胺类、环丙沙星或利福平；抗假单胞菌β-内酰胺类＋阿米卡星、环丙沙星或磷霉素
+多黏菌素＋抗假单胞菌β-内酰胺类＋环丙沙星；多黏菌素＋抗假单胞菌β-内酰胺类＋磷霉素
+注：抗假单胞菌β-内酰胺类包括美罗培南、头孢他啶、头孢吡肟、氨曲南、头孢哌酮/舒巴坦；磷霉素建议先于其他抗菌药物前30 min应用
+推荐意见：①第三、四代头孢菌素、氨曲南、美罗培南、磺胺类、喹诺酮类、万古霉素及利福平等药物脑脊液中浓度较高，可根据致病菌的敏感性选择上述药物(高等级，强推荐)。②对泛耐药、全耐药革兰阴性杆菌引起的感染，建议联合2种或3种药物进行治疗(低等级，强推荐)。③替加环素、多黏菌素等脑脊液穿透能力低的抗菌药建议静脉联合鞘内或脑室内注射给药(低等级，强推荐)。
+(3)真菌：中枢神经系统念珠菌病有多种治疗方案，目前推荐两性霉素B脂质体单用或联合氟胞嘧啶治疗。氟康唑每日400～800 mg(6～12 mg/kg)单用或联合氟胞嘧啶作为次选方案，适用于两性霉素B不能耐受或病情相对较轻的患者。由于伏立康唑在脑脊液中有较高浓度，对于光滑念珠菌或克柔念珠菌所致CNSIs的患者，可考虑初始治疗应用两性霉素B联合氟胞嘧啶，病情稳定后改用伏立康唑维持治疗[54]。中枢神经系统曲霉菌感染时推荐伏立康唑作为主要治疗用药，当患者对伏立康唑不耐受或治疗无反应时，考虑应用两性霉素B脂质体或泊沙康唑[84]。
+推荐意见：①中枢神经系统念珠菌感染，推荐两性霉素B脂质体单用或联合氟胞嘧啶治疗，其次为氟康唑(中等级，强推荐)。②中枢神经系统曲霉菌感染，推荐使用伏立康唑治疗，次选两性霉素B脂质体或泊沙康唑(中等级，强推荐)。
+(4)脑室内或鞘内注射药物：治疗CNSIs的难点之一是由于血脑屏障的存在，抗菌药在中枢神经系统内难以达到有效的治疗浓度[85]，尤其是使用免疫抑制和抗炎药物治疗(如糖皮质激素)，进一步减少抗菌药进入中枢神经系统[86]。脑室内或鞘内给药，药物直接进入脑池及蛛网膜下腔，缓慢向脑表面弥散，能够达到有效的药物治疗浓度，从而提高抗菌药的疗效。当静脉用药48～72 h效果不明显，而颅内感染非常严重时可以考虑脑室内或鞘内注射抗菌药[13]。对脑室引流相关的感染建议脑室内注射抗菌药。脑室内或鞘内注射，应选用不含防腐成分的抗菌药，所用的剂量及浓度应根据影像学所估测的脑室大小和脑脊液引流量进行调整(表6)，且需缓慢注射；如需要持续引流，注射后应将引流管夹闭15～120 min，以使药物在整个脑脊液中均匀分布[87,88]。脑脊液中抗菌药有效治疗浓度应是致病菌最低抑菌浓度值的10～20倍[4]。青霉素和头孢菌素会引起显著的神经毒性反应，尤其是癫痫发作，不应通过鞘内途径给药[4]。有研究发现，脑室内和(或)鞘内给予多黏菌素可有效治疗鲍曼不动杆菌脑室炎[87]。抗菌药脑室内或鞘内给药的推荐方案见表6[4,60,64,70,88,89,90]。
+点击查看表格
+表6
+推荐成人脑室内或鞘内注射的抗菌药种类和剂量[4,60,69,70,88,89,90]
+表6
+推荐成人脑室内或鞘内注射的抗菌药种类和剂量[4,60,69,70,88,89,90]
+抗菌药的种类
+推荐剂量
+不良反应
+庆大霉素
+4～8 mg/24 ha，b
+暂时性听力丧失、癫痫、无菌性脑膜炎及脑脊液嗜酸性粒细胞增多
+妥布霉素(不含防腐剂)
+5 mg/24 h
+类似庆大霉素的不良反应
+阿米卡星
+30(5～50)mg/24 h
+类似庆大霉素的不良反应
+链霉素
+1 mg·kg-1·(24～48) h-1
+暂时性听力丧失、癫痛、脊神经根炎、横贯性脊髓炎、蛛网膜炎及截瘫
+美罗培南[89]
+10 mg/12 h
+高浓度时可引起癫痫发作
+万古霉素
+10～20 mg/24 ha，b
+暂时性听力丧失
+多黏菌素B[90]
+5 mg/24 h
+脑膜刺激症状，如发热、头痛、颈部僵硬、脑脊液白细胞计数和蛋白升高
+黏菌素E甲磺酸钠(1 mg＝1.25万U)
+10(1.6～40.0)mg/24 h
+脑膜炎性反应，大剂量可引起癫痫、食欲不振、躁动、水肿、疼痛及嗜酸性粒细胞增多
+替加环素
+1～10 mg/12 h
+未见报道
+达托霉素
+5～10 mg/24 h
+发热
+两性霉素B
+0.1～0.5 mg/24 h
+耳鸣、发热、颤抖、帕金森综合征
+卡泊芬净
+5～10 mg/24 h
+恶心、头痛
+注：a脑室内注射时根据成人脑室大小或容积推荐剂量：裂隙脑室，5 mg万古霉素或2 mg庆大霉素；正常脑室，10 mg万古霉素或3 mg庆大霉素；脑室扩大，15～20 mg万古霉素或4～5 mg庆大霉素。b基于24 h脑脊液引流量的给药频率建议如下：引流量<50 ml/24 h，1次/3 d；50～100 ml/24 h，1次/2 d；>100～150 ml/24 h，1次/d；>150～200 ml/24 h，万古霉素增加5 mg，庆大霉素增加1 mg，1次/d；>200～250 ml/24 h，万古霉素增加10 mg，庆大霉素增加2 mg，1次/d
+患者脑脊液培养出1种多重耐药致病微生物或2种致病微生物时，而静脉采用1种药物脑室内或鞘内注射仍未控制颅内感染时，可考虑联合应用2种或3种药物[86]。2016年，Shofty等[91]报道23例神经外科术后耐碳青霉烯革兰阴性杆菌感染的脑膜炎患者除给予全身用药外，还给予脑室内注射万古霉素和阿米卡星，30 d病死率较对照组明显降低(8.7%对比33.3%；OR＝0.19, 95%CI：0.04～0.99)，且未发现严重的不良反应。
+推荐意见：①严重的中枢神经系统感染经静脉全身给药治疗效果不佳时，建议脑室或鞘内注射抗菌药治疗(低等级，强推荐)。②脑室内或鞘内注射抗菌药时，要根据病情严格选择药物的种类、剂量及注射速度(低等级，强推荐)。③病原菌明确为多重耐药菌或2种致病菌，单用1种抗菌药脑室内或鞘内注射效果差的患者，建议2种或3种药物联合应用(低等级，低推荐)。
+(二)外科干预治疗
+神经系统感染诊断明确后，必须考虑对感染原发病灶进行外科处理，如颅骨固定或修补材料、EVD和腰大池外引流管、Ommaya囊引起的感染，要及时去除人工材料，拔除引流管，并对去除物进行细菌培养；如为切口引起的感染，要及时进行彻底的外科清创并进行引流。如为脑室-腹腔分流管引起的感染，需先行抗感染治疗；若抗感染治疗无效，则拔除分流管，进行临时性外引流，待感染控制，脑脊液培养阴性后7～10 d再行分流术[69]。
+1．充分引流炎性脑脊液：
+EVD和腰大池外引流可引流出蛛网膜下腔脑脊液中含大量病原菌的渗出物及炎性因子，可降低脑脊液中的细菌浓度，能加速脑脊液循环，防止室管膜和蛛网膜下腔粘连，减少脑积水的发生；降低颅内压，减少切口局部脑脊液漏的概率[92]。当出现明显的颅内占位性病变，如脑脓肿或严重的颅内压增高时，禁忌使用腰椎穿刺和腰大池外引流术[90]。出现脑室积脓时，可予脑室灌洗或采用脑室镜治疗[87]。经皮下隧道EVD和经皮下隧道腰大池外引流能减少穿刺部位脑脊液漏、引流管移位脱出及颅内感染的概率，延长引流管引流时间可达2～3周。EVD使用长程皮下隧道经胸或腹部皮肤穿出时引流管引流时间可更长。
+2．脑脓肿的治疗：
+出现下列情况时，则需考虑脓肿穿刺引流或开颅脓肿切除术：(1)脓肿直径>2 cm，有占位效应甚至脑疝。(2)有破入脑室风险。(3)药物治疗无效。(4)真菌感染。(5)神经功能缺损。(6)多房脓肿时。对有骨窗患者可在超声引导下行脓肿穿刺治疗。
+推荐意见：(1)对神经外科植入物引起的感染，抗感染治疗无效，需取出植入物(高等级，强推荐)。(2)脑室和腰大池外引流术，建议引流管经皮下隧道潜行，皮下隧道距离≥5 cm(低等级，强推荐)。(3)脑脓肿直径>2 cm，存在颅内高压等占位效应甚至脑疝，建议外科干预治疗(高等级，强推荐)。(4)脑室积脓建议行脑室灌洗，或行脑室镜治疗(中等级，强推荐)。
+(三)CNSIs并发症的处理和全身支持治疗
+CNSIs的并发症包括癫痫发作(17%)、缺血性卒中(14%～25%)、脑积水(3%～5%)、硬膜下积脓(3%)、脑脓肿(5%)及静脉窦血栓形成(1%)等[52,93]。治疗方案如下。
+1．控制颅内压：
+主要以引流以及渗透性脱水为主要方法。出现脑积水时，可行侧脑室、腰大池外引流术，出现脓肿时可行脓肿穿刺引流术。
+2．癫痫防治：
+CNSIs极易引起癫痫发作，要进行癫痫预防等治疗。
+3．水、电解质酸碱平衡紊乱：
+注意监测电解质及进行血气分析，若出现异常应及时纠正。
+4．激素水平低下：
+注意监测下丘脑-垂体及靶腺激素水平，出现低下及时补充纠正。
+5．全身支持治疗：
+CNSIs需要关注全身情况，需对患者加强全身营养支持，给予充分能量和蛋白质，避免低蛋白血症和营养不良；适当地给予免疫调节辅助治疗，避免免疫功能低下和抑制，维护脏器功能稳定[94]。
+(四)疗效评判标准和治疗时程
+1．疗效判断标准[13]：
+排除身体其他部位感染后，l～2周内下列指标连续3次正常为临床治愈：(1)体温正常。(2)临床感染体征消失。(3)脑脊液生化显示糖含量正常，脑脊液葡萄糖含量/血清葡萄糖含量≥0.66。(4)脑脊液常规白细胞数量符合正常标准。(5)脑脊液细菌培养阴性。(5)血液白细胞和中性粒细胞正常。
+2．治疗时程：
+对轻、中度CNSIs革兰阴性杆菌建议治疗21 d，对金黄色葡萄球菌建议治疗10～14 d[4]；对重度CNSIs推荐长程治疗[13]，治疗时程为4～8周，符合临床治愈标准后继续应用抗菌药治疗10～14 d，以防止复发。脑脓肿治疗通常4～6周或治疗至CT或MRI显示病灶吸收[90]。
+九、预防措施
+1．术前预防性抗菌药的使用：
+神经外科术前抗菌药预防性使用主要针对手术中最有可能引发感染的细菌，而不是将组织中的细菌全部杀灭[95]。Ⅰ类切口手术(清洁手术)：包括无植入物神经外科手术、脑脊液分流术、脊髓手术，有或无植入物、内固定物的脊柱手术预防性用药使用头孢唑啉或头孢呋辛，头孢菌素过敏者可选用克林霉素。Ⅱ类切口手术(清洁-污染手术)：包括经鼻蝶窦神经外科手术，预防性用药可使用头孢唑啉或头孢呋辛＋甲硝唑，头孢菌素过敏者使用克林霉素＋庆大霉素或氨曲南预防。在手术切开皮肤前30 min给药，30 min内静脉滴注完毕，如手术延长至3 h以上，或失血量>1 500 ml，可术中增加l次给药。常规持续预防性使用抗菌素不能减少颅内感染的发生反而增加耐药菌株出现的风险[96]。
+2．术后引流管的管理和拔除：
+神经外科术中应根据病情放置脑室、瘤腔内、皮下等引流管。术后引流管的管理需注意：(1)引流管固定于床边，不可抬高引流管袋，以防引流液逆向流入颅内引起感染。(2)保持引流管通畅，防止受压、扭曲、折角或脱出。(3)一般脑内、硬膜下、硬膜外或皮瓣下引流管应在24～48 h内尽早拔除[97]。
+3．EVD及腰大池外引流管的管理：
+行EVD及腰大池外引流术应尽可能在手术室或者换药室进行。引流管拔除后，进行无菌缝合[98]。EVD和腰大池外引流要采用走皮下隧道技术，能减少引流管移位、脱管、脑脊液漏及感染的发生率[99]。应减少脑脊液标本采集的频率，每日评估引流量及引流液性质，并注意引流管出皮肤处的情况，及时清除局部痂皮，若发现渗液应立即处置，必要时重新缝合或拔除引流管。若病情允许尽早拔除引流管，留置时间不宜超过2～3周，必要时更换新的引流管。带涂层的EVD引流管能减少感染的概率[100]。
+附CNSIs诊断和治疗流程(图1)
+点击查看大图
+图1
+中枢神经系统感染诊断和治疗流程图[68]（mNGS为宏基因组二代测序技术，EVD为脑室外引流术）
+图1
+中枢神经系统感染诊断和治疗流程图[68]（mNGS为宏基因组二代测序技术，EVD为脑室外引流术）
+共同执笔 曲鑫(首都医科大学宣武医院)、程玮涛(首都医科大学宣武医院)、徐跃峤(首都医科大学宣武医院)、胡锦(复旦大学附属华山医院)、余新光(解放军总医院第一医学中心)、周建新(首都医科大学附属北京天坛医院)、王宁(首都医科大学宣武医院)
+共识专家组成员(按姓氏汉语拼音排序)包义君(中国医科大学附属第四医院)、柴尔青(甘肃省人民医院)、陈玥(解放军总医院医疗保障中心)、程玮涛(首都医科大学宣武医院)、崔建忠(唐山工人医院)、窦长武(内蒙古医科大学附属医院)、杜世伟(深圳大学总医院)、冯恩山(首都医科大学附属北京地坛医院)、傅继弟(中国医科大学航空总医院)、冯光(河南省人民医院)、冯华(陆军军医大学西南医院)、付双林(吉林大学第一医院)、高国一(上海交通大学附属仁济医院)、高亮(同济医科大学附属上海第十人民医院)、洪涛(南昌大学第一附属医院)、胡锦(复旦大学附属华山医院)、黄齐兵(山东大学齐鲁医院)、黄贤键(深圳市第二人民医院)、吉宏明(山西省人民医院)、江荣才(天津医科大学总医院)、蒋传路(哈尔滨医科大学附属第二医院)、康德智(福建医科大学附属第一医院)、李刚(山东大学齐鲁医院)、李立宏(空军军医大学唐都医院))、李良(北京大学第一医院)、凌锋(首都医科大学宣武医院)、刘杰(烟台毓璜顶医院)、刘劲芳(中南大学湘雅医院)、刘磊(解放军总医院第一医学中心)、刘如恩(北京大学人民医院)、刘志雄(中南大学湘雅医院)、马小军(中国医学科学院北京协和医院)、庞琦(山东省立医院)、漆松涛(南方医科大学南方医院)、钱涛(河北省人民医院)、邱炳辉(南方医科大学南方医院)、屈延(空军军医大学唐都医院)、曲鑫(首都医科大学宣武医院)、石广志(首都医科大学附属北京天坛医院)、苏亦兵(北京积水潭医院)、孙晓川(重庆医科大学附属第一医院)、田耕(首都医科大学宣武医院)、田恒力(上海交通大学附属第六人民医院)、汪永新(新疆医科大学第一附属医院)、王成伟(山东大学第二医院)、王立群(河北医科大学第二医院)、王茂德(西安交通大学附属第一医院)、王宁(首都医科大学宣武医院)、王任直(中国医学科学院北京协和医院)、王硕(首都医科大学附属北京天坛医院)、王之舟(首都医科大学宣武医院)、魏俊吉(中国医学科学院北京协和医院)、吴安华(中国医科大学附属第一医院)、谢筱琪(四川大学华西医院)、辛涛(山东第一医科大学第一附属医院)、徐广明(山东省立医院)、徐跃峤(首都医科大学宣武医院)、杨朝华(四川大学华西医院)、杨军(北京大学第三医院)、游潮(四川大学华西医院)、于炎冰(中日友好医院)、余新光(解放军总医院第一医学中心)、岳树源(天津医科大学总医院)、张国斌(天津市环湖医院)、张鸿祺(首都医科大学宣武医院)、张建民(浙江大学医学院附属第二医院)、张剑宁(解放军总医院第一医学中心)、张亚卓(北京市神经外科研究所)、赵世光(哈尔滨医科大学第一附属医院)、赵元立(首都医科大学附属北京天坛医院)、郑波(北京大学第一医院临床药理研究所)、钟春龙(同济大学附属东方医院)、钟书(广西壮族自治区人民医院)、周建新(首都医科大学附属北京天坛医院)
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+BrouwerMC, van de BeekD.
+Management of bacterial central nervous system infections[J].
+Handb Clin Neurol,
+2017，
+140:
+349-
+364.
+DOI: 10.1016/B978-0-444-63600-3.00019-2.
+[2]
+Hernández OrtizOH, García GarcíaHI, Muñoz RamírezF, et al.
+Development of a prediction rule for diagnosing postoperative meningitis: a cross-sectional study[J].
+J Neurosurg,
+2018，
+128(
+1):
+262-
+271.
+DOI: 10.3171/2016.10.JNS16379.
+[3]
+PanS, HuangX, WangY, et al.
+Efficacy of intravenous plus intrathecal/intracerebral ventricle injection of polymyxin B for post-neurosurgical intracranial infections due to MDR/XDR acinectobacter baumannii: a retrospective cohort study[J].
+Antimicrob Resist Infect Control,
+2018，
+7:
+8.
+DOI: 10.1186/s13756-018-0305-5.
+[4]
+TunkelAR, HasbunR, BhimrajA, et al.
+2017 infectious diseases society of America's Clinical Practice Guidelines for Healthcare-Associated Ventriculitis and Meningitis[J].
+Clin Infect Dis,
+2017，
+64(
+6):
+e34-
+e65.
+DOI: 10.1093/cid/ciw861.
+[5]
+PivaS, Di PaoloA, GaleottiL, et al.
+Daptomycin plasma and CSF levels in patients with Healthcare-Associated Meningitis[J].
+Neurocrit Care,
+2019，
+31(
+1):
+116-
+124.
+DOI: 10.1007/s12028-018-0657-y.
+[6]
+RemešF, TomášR, JindrákV, et al.
+Intraventricular and lumbar intrathecal administration of antibiotics in postneurosurgical patients with meningitis and/or ventriculitis in a serious clinical state[J].
+J Neurosurg,
+2013，
+119(
+6):
+1596-
+1602.
+DOI: 10.3171/2013.6.JNS122126.
+[7]
+TattevinP, PulciniC.
+Central nervous system infections: work in progress[J].
+Clin Microbiol Infect,
+2017，
+23(
+9):
+599-
+600.
+DOI: 10.1016/j.cmi.2017.07.015.
+[8]
+RobertsonFC, LepardJR, MekaryRA, et al.
+Epidemiology of central nervous system infectious diseases: a meta-analysis and systematic review with implications for neurosurgeons worldwide[J].
+J Neurosurg,
+2019，
+130(
+4):
+1107-
+1126.
+DOI: 10.3171/2017.10.JNS17359.
+[9]
+ThakurKT, WilsonMR.
+Chronic meningitis[J].
+Continuum (Minneap Minn),
+2018，
+24(
+5,
+Neuroinfectious Disease):
+1298-
+1326.
+DOI: 10.1212/CON.0000000000000664.
+[10]
+BaldwinKJ, AvilaJD.
+Diagnostic approach to chronic meningitis[J].
+Neurol Clin,
+2018，
+36(
+4):
+831-
+849.
+DOI: 10.1016/j.ncl.2018.06.004.
+[11]
+StephensDS, GreenwoodB, BrandtzaegP.
+Epidemic meningitis, meningococcaemia, and neisseria meningitidis[J].
+Lancet,
+2007，
+369(
+9580):
+2196-
+2210.
+DOI: 10.1016/S0140-6736(07)61016-2.
+[12]
+YoungN, ThomasM.
+Meningitis in adults: diagnosis and management[J].
+Intern Med J,
+2018，
+48(
+11):
+1294-
+1307.
+DOI: 10.1111/imj.14102.
+[13]
+中华医学会神经外科学分会，中国神经外科重症管理协作组.
+中国神经外科重症患者感染诊治专家共识(2017)[J]．
+中华医学杂志，
+2017，
+97(
+21):
+1607-
+1614.
+DOI: 10.3760/cma.j.issn.0376-2491.2017.21.005.
+[14]
+McGillF, HeydermanRS, MichaelBD, et al.
+Corrigendum to " The UK joint specialist societies guideline on the diagnosis and management of acute meningitis and meningococcal sepsis in immunocompetent adults" [J Infect 72 (2016) 405-438][J].
+J Infect,
+2016，
+72(
+6):
+768-
+769.
+DOI: 10.1016/j.jinf.2016.04.001.
+[15]
+SomandD, MeurerW.
+Central nervous system infections[J].
+Emerg Med Clin North Am,
+2009，
+27(
+1):
+89-100, ix.
+DOI: 10.1016/j.emc.2008.07.004.
+[16]
+ZimmerAJ, BurkeVE, BlochKC.
+Central nervous system infections[J].
+Microbiol Spectr,
+2016，
+4(
+3):
+1-
+21.
+DOI: 10.1128/microbiolspec.DMIH2-0012-2015.
+[17]
+WaghdhareS, KalantriA, JoshiR, et al.
+Accuracy of physical signs for detecting meningitis: a hospital-based diagnostic accuracy study[J].
+Clin Neurol Neurosurg,
+2010，
+112(
+9):
+752-
+757.
+DOI: 10.1016/j.clineuro.2010.06.003.
+[18]
+MofidiM, NegareshN, FarsiD, et al.
+Jolt accentuation and its value as a sign in diagnosis of meningitis in patients with fever and headache[J].
+Turk J Emerg Med,
+2017，
+17(
+1):
+29-
+31.
+DOI: 10.1016/j.tjem.2016.11.001.
+[19]
+ConenA, WaltiLN, MerloA, et al.
+Characteristics and treatment outcome of cerebrospinal fluid shunt-associated infections in adults: a retrospective analysis over an 11-year period[J].
+Clin Infect Dis,
+2008，
+47(
+1):
+73-
+82.
+DOI: 10.1086/588298.
+[20]
+FerreiraNP, OttaGM, do AmaralLL, et al.
+Imaging aspects of pyogenic infections of the central nervous system[J].
+Top Magn Reson Imaging,
+2005，
+16(
+2):
+145-
+154.
+DOI: 10.1097/01.rmr.0000189107.55275.f6.
+[21]
+CaponePM, SchellerJM.
+Neuroimaging of infectious disease[J].
+Neurol Clin,
+2014，
+32(
+1):
+127-
+145.
+DOI: 10.1016/j.ncl.2013.07.009.
+[22]
+BrouwerMC, van de BeekD.
+Epidemiology, diagnosis, and treatment of brain abscesses[J].
+Curr Opin Infect Dis,
+2017，
+30(
+1):
+129-
+134.
+DOI: 10.1097/QCO.0000000000000334.
+[23]
+SwinburneNC, BansalAG, AggarwalA, et al.
+Neuroimaging in central nervous system infections[J].
+Curr Neurol Neurosci Rep,
+2017，
+17(
+6):
+49.
+DOI: 10.1007/s11910-017-0756-8.
+[24]
+BrouwerMC, ThwaitesGE, TunkelAR, et al.
+Dilemmas in the diagnosis of acute community-acquired bacterial meningitis[J].
+Lancet,
+2012，
+380(
+9854):
+1684-
+1692.
+DOI: 10.1016/S0140-6736(12)61185-4.
+[25]
+AprilMD, LongB, KoyfmanA.
+Emergency medicine myths: computed tomography of the head prior to lumbar puncture in adults with suspected bacterial meningitis - due diligence or antiquated practice？[J].
+J Emerg Med,
+2017，
+53(
+3):
+313-
+321.
+DOI: 10.1016/j.jemermed.2017.04.032.
+[26]
+DelermeS, CastroS, ViallonA, et al.
+Meningitis in elderly patients[J].
+Eur J Emerg Med,
+2009，
+16(
+5):
+273-
+276.
+DOI: 10.1097/MEJ.0b013e3283101866.
+[27]
+Gerner-SmidtP, EthelbergS, SchiellerupP, et al.
+Invasive listeriosis in Denmark 1994-2003: a review of 299 cases with special emphasis on risk factors for mortality[J].
+Clin Microbiol Infect,
+2005，
+11(
+8):
+618-
+624.
+DOI: 10.1111/j.1469-0691.2005.01171.x.
+[28]
+AdrianiKS, BrouwerMC, van de BeekD.
+Risk factors for community-acquired bacterial meningitis in adults[J].
+Neth J Med,
+2015，
+73(
+2):
+53-
+60.
+[29]
+GöçmezC, ÇelikF, TekinR, et al.
+Evaluation of risk factors affecting hospital-acquired infections in the neurosurgery intensive care unit[J].
+Int J Neurosci,
+2014，
+124(
+7):
+503-
+508.
+DOI: 10.3109/00207454.2013.863773.
+[30]
+KorinekAM, BaugnonT, GolmardJL, et al.
+Risk factors for adult nosocomial meningitis after craniotomy: role of antibiotic prophylaxis[J].
+Neurosurgery,
+2008，
+62
+Suppl 2:
+532-
+539.
+DOI: 10.1227/01.neu.0000316256.44349.b1.
+[31]
+Sneh-ArbibO, ShifersteinA, DaganN, et al.
+Surgical site infections following craniotomy focusing on possible post-operative acquisition of infection: prospective cohort study[J].
+Eur J Clin Microbiol Infect Dis,
+2013，
+32(
+12):
+1511-
+1516.
+DOI: 10.1007/s10096-013-1904-y.
+[32]
+KanatA.
+Risk factors for neurosurgical site infections after craniotomy: a prospective multicenter study of 2944 patients[J].
+Neurosurgery,
+1998，
+43(
+1):
+189-
+190.
+DOI: 10.1097/00006123-199807000-00133.
+[33]
+SchipmannS, AkalinE, DoodsJ, et al.
+When the infection hits the wound: matched case-control study in a neurosurgical patient collective including systematic literature review and risk factors analysis[J].
+World Neurosurg,
+2016，
+95:
+178-
+189.
+DOI: 10.1016/j.wneu.2016.07.093.
+[34]
+LuP, Raynald, LiuW, et al.
+Risk factors of external ventricular drainage-related infections: a retrospective study of 147 pediatric post-tumor resection patients in a single center[J].
+Front Neurol,
+2019，
+10:
+1243.
+DOI: 10.3389/fneur.2019.01243.
+[35]
+ChampeyJ, MoureyC, FranconyG, et al.
+Strategies to reduce external ventricular drain-related infections: a multicenter retrospective study[J].
+J Neurosurg,
+2019，
+130(
+6):
+2034-
+2039.
+DOI: 10.3171/2018.1.JNS172486.
+[36]
+JamjoomA, JoannidesAJ, PoonMT, et al.
+Prospective, multicentre study of external ventricular drainage-related infections in the UK and Ireland[J].
+J Neurol Neurosurg Psychiatry,
+2018，
+89(
+2):
+120-
+126.
+DOI: 10.1136/jnnp-2017-316415.
+[37]
+ZhengWJ, LiLM, HuZH, et al.
+Bilateral external ventricular drains increase ventriculostomy-associated cerebrospinal fluid infection in low modified Graeb score intraventricular hemorrhage[J].
+World Neurosurg,
+2018，
+116:
+e550-
+e555.
+DOI: 10.1016/j.wneu.2018.05.030.
+[38]
+DorresteijnK, BrouwerMC, JellemaK, et al.
+Bacterial external ventricular catheter-associated infection[J].
+Expert Rev Anti Infect Ther,
+2020，
+18(
+3):
+219-
+229.
+DOI: 10.1080/14787210.2020.1717949.
+[39]
+BuslKM.
+Nosocomial Iinfections in the neurointensive care unit[J].
+Neurosurg Clin N Am,
+2018，
+29(
+2):
+299-
+314.
+DOI: 10.1016/j.nec.2017.11.008.
+[40]
+FangC, ZhuT, ZhangP, et al.
+Risk factors of neurosurgical site infection after craniotomy: a systematic review and meta-analysis[J].
+Am J Infect Control,
+2017，
+45(
+11):
+e123-
+e134.
+DOI: 10.1016/j.ajic.2017.06.009.
+[41]
+LieberBA, AppelboomG, TaylorBE, et al.
+Preoperative chemotherapy and corticosteroids: independent predictors of cranial surgical-site infections[J].
+J Neurosurg,
+2016，
+125(
+1):
+187-
+195.
+DOI: 10.3171/2015.4.JNS142719.
+[42]
+WilliamsonRA, Phillips-ButeBG, McDonaghDL, et al.
+Predictors of extraventricular drain-associated bacterial ventriculitis[J].
+J Crit Care,
+2014，
+29(
+1):
+77-
+82.
+DOI: 10.1016/j.jcrc.2013.08.012.
+[43]
+ChenS, CuiA, YuK, et al.
+Risk factors associated with meningitis after neurosurgery: a retrospective cohort study in a Chinese hospital[J].
+World Neurosurg,
+2018，
+111:
+e546-
+e563.
+DOI: 10.1016/j.wneu.2017.12.110.
+[44]
+WooP, WongHT, PuJ, et al.
+Moving the goalposts: a comparison of different definitions for primary external ventricular drain infection and its risk factors: a multi-center study of 2575 patients[J].
+J Clin Neurosci,
+2017，
+45:
+67-
+72.
+DOI: 10.1016/j.jocn.2017.05.042.
+[45]
+ForemanPM, HendrixP, GriessenauerCJ, et al.
+External ventricular drain placement in the intensive care unit versus operating room: evaluation of complications and accuracy[J].
+Clin Neurol Neurosurg,
+2015，
+128:
+94-
+100.
+DOI: 10.1016/j.clineuro.2014.09.026.
+[46]
+ChidambaramS, VasudevanMC, NairMN, et al.
+Impact of operating room environment on postoperative central nervous system infection in a resource-limited neurosurgical center in South Asia[J].
+World Neurosurg,
+2018，
+110:
+e239-
+e244.
+DOI: 10.1016/j.wneu.2017.10.142.
+[47]
+McGillF, HeydermanRS, PanagiotouS, et al.
+Acute bacterial meningitis in adults[J].
+Lancet,
+2016，
+388(
+10063):
+3036-
+3047.
+DOI: 10.1016/S0140-6736(16)30654-7.
+[48]
+HoenB, VaronE, de DebrouckerT, et al.
+Management of acute community-acquired bacterial meningitis (excluding newborns). Long version with arguments[J].
+Med Mal Infect,
+2019，
+49(
+6):
+405-
+441.
+DOI: 10.1016/j.medmal.2019.03.009.
+[49]
+StahlJP, AzouviP, BruneelF, et al.
+Guidelines on the management of infectious encephalitis in adults[J]．
+Med Mal Infect，
+2017，
+47(
+3):
+179-
+194.
+DOI 10.1016/j.medmal.2017.01.005.
+[50]
+MillerJM, BinnickerMJ, CampbellS, et al.
+A guide to utilization of the microbiology laboratory for diagnosis of infectious diseases: 2018 update by the infectious diseases society of America and the American society for microbiology[J].
+Clin Infect Dis,
+2018，
+67(
+6):
+813-
+816.
+DOI: 10.1093/cid/ciy584.
+[51]
+ZhangY, CuiP, ZhangHC, et al.
+Clinical application and evaluation of metagenomic next-generation sequencing in suspected adult central nervous system infection[J].
+J Transl Med,
+2020，
+18(
+1):
+199.
+DOI: 10.1186/s12967-020-02360-6.
+[52]
+DavisLE.
+Acute bacterial meningitis[J].
+Continuum (Minneap Minn),
+2018，
+24(
+5,
+Neuroinfectious Disease):
+1264-
+1283.
+DOI: 10.1212/CON.0000000000000660.
+[53]
+中国成人念珠菌病诊断与治疗专家共识组.
+中国成人念珠菌病诊断与治疗专家共识[J]．
+中国医学前沿杂志(电子版)，
+2020，
+12(
+1):
+35-
+50.
+DOI: 10.12037/YXQY.2020.01-06.
+[54]
+La RussaR, MaieseA, Di FazioN, et al.
+Post-traumatic meningitis is a diagnostic challenging time: a systematic review focusing on clinical and Pathological Features[J].
+Int J Mol Sci,
+2020，
+21(
+11)
+DOI: 10.3390/ijms21114148.
+[55]
+García-MoncóJC.
+CNS Infections[M].
+Switzerland：
+Springer，
+2018：
+39.
+[56]
+LaPennaPA, RoosKL.
+Bacterial infections of the central nervous system[J].
+Semin Neurol,
+2019，
+39(
+3):
+334-
+342.
+DOI: 10.1055/s-0039-1693159.
+[57]
+ThurnherMM, SundgrenPC.
+Intracranial infection and infla-mmation//
+HodlerJ.
+Diseases of the brain, head and neck, spine 2020-2023[M/OL].
+IDKD Springer Series，
+https://doi.org/10.1007/978-3-030-38490-6_6.
+[58]
+van de BeekD, BrouwerMC, ThwaitesGE, et al.
+Advances in treatment of bacterial meningitis[J].
+Lancet,
+2012，
+380(
+9854):
+1693-
+1702.
+DOI: 10.1016/S0140-6736(12)61186-6.
+[59]
+AuburtinM, WolffM, CharpentierJ, et al.
+Detrimental role of delayed antibiotic administration and penicillin-nonsusceptible strains in adult intensive care unit patients with pneumococcal meningitis: the PNEUMOREA prospective multicenter study[J].
+Crit Care Med,
+2006，
+34(
+11):
+2758-
+2765.
+DOI: 10.1097/01.CCM.0000239434.26669.65.
+[60]
+NauR, SeeleJ, DjukicM, et al.
+Pharmacokinetics and phar-macodynamics of antibiotics in central nervous system infections[J].
+Curr Opin Infect Dis,
+2018，
+31(
+1):
+57-
+68.
+DOI: 10.1097/QCO.0000000000000418.
+[61]
+中国医药教育协会感染疾病专业委员会.
+抗菌药物药代动力学/药效学理论临床应用专家共识[J]．
+中华结核和呼吸杂志，
+2018，
+41(
+6):
+409-
+446.
+DOI: 10.3760/cma.j.issn.1001-0939.2018.06.004.
+[62]
+TattevinP, SolomonT, BrouwerMC.
+Understanding central nervous system efficacy of antimicrobials[J].
+Intensive Care Med,
+2019，
+45(
+1):
+93-
+96.
+DOI: 10.1007/s00134-018-5270-1.
+[63]
+MaderMM, CzorlichP, KönigC, et al.
+Intrathecal penetration of meropenem and vancomycin administered by continuous infusion in patients suffering from ventriculitis-a retrospective analysis[J].
+Acta Neurochir (Wien),
+2018，
+160(
+11):
+2099-
+2105.
+DOI: 10.1007/s00701-018-3680-z.
+[64]
+LiJ, HeS, YangZ, et al.
+Pharmacokinetics and cerebrospinal fluid penetration of norvancomycin in Chinese adult patients[J].
+Int J Antimicrob Agents,
+2017，
+49(
+5):
+603-
+608.
+DOI: 10.1016/j.ijantimicag.2017.01.014.
+[65]
+Lagacé-WiensP, WalktyA, KarlowskyJA.
+Ceftazidime-avibactam: an evidence-based review of its pharmacology and potential use in the treatment of gram-negative bacterial infections[J].
+Core Evid,
+2014，
+9:
+13-
+25.
+DOI: 10.2147/CE.S40698.
+[66]
+裴红莎，张刚利，李军伟.
+颅内鲍曼不动杆菌感染的治疗进展[J]．
+中华神经外科杂志，
+2016，
+32(
+6):
+641-
+644.
+DOI: 10.3760/cma.j.issn.1001-2346.2016.06.026.
+[67]
+中国医药教育协会感染疾病专业委员会，中华结核和呼吸杂志编辑委员会，中国药学会药物临床评价研究专业委员会.
+抗菌药物超说明书用法专家共识[J]．
+中华结核和呼吸杂志，
+2015，
+38(
+6):
+410-
+444.
+DOI: 10.3760/cma.j.issn.1001-0939.2015.06.005.
+[68]
+HusseinK, BittermanR, ShoftyB, et al.
+Management of post-neurosurgical meningitis: narrative review[J].
+Clin Microbiol Infect,
+2017，
+23(
+9):
+621-
+628.
+DOI: 10.1016/j.cmi.2017.05.013.
+[69]
+van de BeekD, DrakeJM, TunkelAR.
+Nosocomial bacterial meningitis[J].
+N Engl J Med,
+2010，
+362(
+2):
+146-
+154.
+DOI: 10.1056/NEJMra0804573.
+[70]
+NauR, SörgelF, EiffertH.
+Penetration of drugs through the blood-cerebrospinal fluid/blood-brain barrier for treatment of central nervous system infections[J].
+Clin Microbiol Rev,
+2010，
+23(
+4):
+858-
+883.
+DOI: 10.1128/CMR.00007-10.
+[71]
+NauR, DjukicM, SpreerA, et al.
+Bacterial meningitis: an update of new treatment options[J].
+Expert Rev Anti Infect Ther,
+2015，
+13(
+11):
+1401-
+1423.
+DOI: 10.1586/14787210.2015.1077700.
+[72]
+BeerR, EngelhardtKW, PfauslerB, et al.
+Pharmacokinetics of intravenous linezolid in cerebrospinal fluid and plasma in neurointensive care patients with staphylococcal ventriculitis associated with external ventricular drains[J].
+Antimicrob Agents Chemother,
+2007，
+51(
+1):
+379-
+382.
+DOI: 10.1128/AAC.00515-06.
+[73]
+TangY, KongL, WuC, et al.
+Pharmacokinetics of linezolid in plasma and cerebrospinal fluid in patients with cerebral hemorrhage post-surgical intervention[J].
+Eur J Clin Pharmacol,
+2017，
+73(
+7):
+919-
+921.
+DOI: 10.1007/s00228-017-2239-x.
+[74]
+CapitanoB, NicolauDP, PotoskiBA, et al.
+Meropenem administered as a prolonged infusion to treat serious gram-negative central nervous system infections[J].
+Pharmacotherapy,
+2004，
+24(
+6):
+803-
+807.
+DOI: 10.1592/phco.24.8.803.36070.
+[75]
+SipahiOR, MermerS, DemirdalT, et al.
+Tigecycline in the treatment of multidrug-resistant acinetobacter baumannii meningitis: results of the Ege study[J].
+Clin Neurol Neurosurg,
+2018，
+172:
+31-
+38.
+DOI: 10.1016/j.clineuro.2018.06.008.
+[76]
+MattosK, CintraML, GouvêaIR, et al.
+Skin hyperpigmentation following intravenous polymyxin B treatment associated with melanocyte activation and inflammatory process[J].
+J Clin Pharm Ther,
+2017，
+42(
+5):
+573-
+578.
+DOI: 10.1111/jcpt.12543.
+[77]
+MattosKP, LloretGR, CintraML, et al.
+Acquired skin hyper-pigmentation following intravenous polymyxin B treatment: a cohort study[J].
+Pigment Cell Melanoma Res,
+2016，
+29(
+3):
+388-
+390.
+DOI: 10.1111/pcmr.12468.
+[78]
+中国研究型医院学会危重医学专业委员会，中国研究型医院学会感染性疾病循证与转化专业委员会.
+多黏菌素临床应用中国专家共识[J]．
+中华急诊医学杂志，
+2019，
+28(
+10):
+1218-
+1222.
+DOI: 10.3760/cma.j.issn.1671-0282.2019.10.007.
+[79]
+CrassRL, PaiMP.
+Pharmacokinetics and pharmacodynamics of β-lactamase inhibitors[J].
+Pharmacotherapy，
+2019，
+39(
+2):
+182-
+195.
+DOI: 10.1002/phar.2210.
+[80]
+《β-内酰胺类抗生素/β-内酰胺酶抑制剂复方制剂临床应用专家共识》编写专家组.
+β-内酰胺类抗生素/β-内酰胺酶抑制剂复方制剂临床应用专家共识(2020年版)[J]．
+中华医学杂志，
+2020，
+100(
+10):
+738-
+747.
+DOI: 10.3760/cma.j.cn112137-20200202-00178.
+[81]
+TsegkaKG, VoulgarisGL, KyriakidouM, et al.
+Intravenous fosfomycin for the treatment of patients with central nervous system infections: evaluation of the published evidence[J].
+Expert Rev Anti Infect Ther,
+2020，
+18(
+7):
+657-
+668.
+DOI: 10.1080/14787210.2020.1754193.
+[82]
+LiJ, FuY, ZhangJ, et al.
+Efficacy of tigecycline monotherapy versus combination therapy with other antimicrobials against carbapenem-resistant acinetobacter baumannii sequence type 2 in Heilongjiang Province[J].
+Ann Palliat Med,
+2019，
+8(
+5):
+651-
+659.
+DOI: 10.21037/apm.2019.11.06.
+[83]
+王明贵.
+广泛耐药革兰阴性菌感染的实验诊断、抗菌治疗及医院感染控制：中国专家共识[J]．
+中国感染与化疗杂志，
+2017，
+17(
+1):
+82-
+93.
+DOI: 10.16718/j.1009-7708.2017.01.015.
+[84]
+PattersonTF, ThompsonGR 3rd, DenningDW, et al.
+Executive summary: practice guidelines for the diagnosis and management of aspergillosis: 2016 update by the infectious diseases society of America[J].
+Clin Infect Dis,
+2016，
+63(
+4):
+433-
+442.
+DOI: 10.1093/cid/ciw444.
+[85]
+ZiaiWC, LewinJJ 3rd.
+Improving the role of intraventricular antimicrobial agents in the management of meningitis[J].
+Curr Opin Neurol,
+2009，
+22(
+3):
+277-
+282.
+DOI: 10.1097/wco.0b013e32832c1396.
+[86]
+LewinJJ 3rd, CookAM, GonzalesC, et al.
+Current practices of intraventricular antibiotic therapy in the treatment of meningitis and ventriculitis: results from a multicenter retrospective cohort study[J].
+Neurocrit Care,
+2019，
+30(
+3):
+609-
+616.
+DOI: 10.1007/s12028-018-0647-0.
+[87]
+ChenF, DengX, WangZ, et al.
+Treatment of severe ventriculitis caused by extensively drug-resistant Acinetobacter baumannii by intraventricular lavage and administration of colistin[J].
+Infect Drug Resist,
+2019，
+12:
+241-
+247.
+DOI: 10.2147/IDR.S186646.
+[88]
+NauR, BleiC, EiffertH.
+Intrathecal antibacterial and antifungal therapies[J].
+Clin Microbiol Rev,
+2020，
+33(
+3):
+e00190-
+19.
+DOI: 10.1128/CMR.00190-19.
+[89]
+LiX, SunS, WangQ, et al.
+Population pharmacokinetics of combined intravenous and local intrathecal administration of meropenem in aneurysm patients with suspected intracranial infections after craniotomy[J].
+Eur J Drug Metab Pharmacokinet,
+2018，
+43(
+1):
+45-
+53.
+DOI: 10.1007/s13318-017-0422-1.
+[90]
+DavidNG, HenryFC, GeorageME, et al.
+桑福德抗微生物治疗指南[M].
+范洪伟，
+译.
+48版．
+北京：
+人民卫生出版社，
+2019：
+7.
+[91]
+ShoftyB, NeubergerA, NaffaaME, et al.
+Intrathecal or intraventricular therapy for post-neurosurgical Gram-negative meningitis: matched cohort study[J].
+Clin Microbiol Infect,
+2016，
+22(
+1):
+66-
+70.
+DOI: 10.1016/j.cmi.2015.09.023.
+[92]
+AbulhasanYB, Al-JehaniH, ValiquetteMA, et al.
+Lumbar drainage for the treatment of severe bacterial meningitis[J].
+Neurocrit Care,
+2013，
+19(
+2):
+199-
+205.
+DOI: 10.1007/s12028-013-9853-y.
+[93]
+JosephA, AndreaG, WilliamA.
+神经重症医学[M]．
+曲鑫，王春亭，周建新，
+译.
+2版．
+北京：
+人民卫生出版社，
+2018：
+398-
+399.
+[94]
+PaceA, DirvenL, KoekkoekJ, et al.
+European association for neuro-oncology (EANO) guidelines for palliative care in adults with glioma[J].
+Lancet Oncol,
+2017，
+18(
+6):
+e330-
+e340.
+DOI: 10.1016/S1470-2045(17)30345-5.
+[95]
+VallejoJG, CainAN, MasonEO, et al.
+Staphylococcus aureus central nervous system infections in children[J].
+Pediatr Infect Dis J,
+2017，
+36(
+10):
+947-
+951.
+DOI: 10.1097/INF.0000000000001603.
+[96]
+StoikesNF, MagnottiLJ, HodgesTM, et al.
+Impact of intracranial pressure monitor prophylaxis on central nervous system infections and bacterial multi-drug resistance[J].
+Surg Infect (Larchmt),
+2008，
+9(
+5):
+503-
+508.
+DOI: 10.1089/sur.2007.032.
+[97]
+MahanM, SpetzlerRF, NakajiP.
+Electromagnetic stereotactic navigation for external ventricular drain placement in the intensive care unit[J].
+J Clin Neurosci,
+2013，
+20(
+12):
+1718-
+1722.
+DOI: 10.1016/j.jocn.2013.03.005.
+[98]
+Hepburn-SmithM, DynkevichI, SpektorM, et al.
+Establishment of an external ventricular drain best practice guideline: the quest for a comprehensive, universal standard for external ventricular drain care[J].
+J Neurosci Nurs,
+2016，
+48(
+1):
+54-
+65.
+DOI: 10.1097/JNN.0000000000000174.
+[99]
+VelásquezC, Rivero-GarvíaM, Mayorga-BuizaMJ, et al.
+Avoi-ding pullout complications in external ventricular drains: technical note[J].
+J Neurosurg,
+2017，
+126(
+3):
+1003-
+1005.
+DOI: 10.3171/2016.2.JNS1678.
+[100]
+RamírezP, GordónM, SorianoA, et al.
+Assessment of the in vivo formation of biofilm on external ventricular drainages[J].
+Eur J Clin Microbiol Infect Dis,
+2013，
+32(
+11):
+1437-
+1443.
+DOI: 10.1007/s10096-013-1895-8.
+贡献者信息
+中国医师协会神经外科医师分会神经重症专家委员会
+北京医学会神经外科学分会神经外科危重症学组
+通信作者
+王宁
+首都医科大学宣武医院神经外科危重症中心，北京 100053
+Email：
+ningjing_wd@163.com
+曲鑫
+首都医科大学宣武医院神经外科危重症中心，北京 100053
+Email：
+xinqu0213@126.com
+周建新
+首都医科大学附属北京天坛医院重症医学科 100070
+Email：
+zhoujx.cn@icloud.com
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2021-01-28
+收稿日期：2020-08-31
+修回日期：2020-11-15
+本文编辑
+张学锋
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+常用抗菌药的血脑屏障穿透性分类
+穿透性高(>50%a)
+穿透性中等(5%～50%b)
+穿透性低(<5%c)
+不能穿透
+氯霉素、磺胺嘧啶、甲硝唑、氟康唑、伏立康唑、氟胞嘧啶、利奈唑胺、环丙沙星、莫西沙星
+磺胺甲口恶唑/甲氧苄啶、氨苄西林、哌拉西林、青霉素、头孢吡肟、头孢唑肟、头孢他啶、头孢噻肟、头孢曲松、头孢呋辛、氨曲南、头孢哌酮、亚胺培南、美罗培南[63]、氧氟沙星、左氧氟沙星、万古霉素[63]、去甲万古霉素[64]、利福平、乙胺丁醇、氨基糖苷类、舒巴坦、阿维巴坦[65]、磷霉素[66]
+苯唑西林、头孢唑啉、头孢西丁、多黏菌素、替加环素、达托霉素、两性霉素B
+替考拉宁、克林霉素、红霉素、克拉霉素、阿奇霉素、罗红霉素、伊曲康唑、棘白菌素
+注：a、b、c为脑脊液药物浓度的曲线下面积与血清药物浓度的曲线下面积的比值
+表2
+中枢神经系统细菌性感染的经验性抗菌药治疗建议[1]
+易感因素
+常见致病菌
+起始治疗药物
+神经外科术后感染
+革兰阴性杆菌、金黄色葡萄球菌、凝固酶阴性葡萄球菌
+万古霉素＋头孢吡肟、头孢他啶或美罗培南
+脑室或腰大池外引流术
+凝固酶阴性葡萄球菌、金黄色葡萄球菌、革兰阴性杆菌、痤疮丙酸杆菌
+万古霉素＋头孢吡肟、头孢他啶或美罗培南
+穿透伤
+金黄色葡萄球菌、凝固酶阴性葡萄球菌、革兰阴性杆菌
+万古霉素＋头孢吡肟、头孢他啶或美罗培南
+颅底骨折
+肺炎链球菌、流感嗜血杆菌、Aβ群溶血链球菌
+万古霉素＋三代头孢菌素
+脑脓肿或硬膜下积脓
+链球菌和葡萄球菌属
+头孢噻肟或头孢曲松＋甲硝唑
+表3
+肝肾功能正常患者抗菌药治疗的推荐剂量[4]
+抗菌药
+成人日剂量(间隔时间，h)
+青霉素G
+2 400万U(4)
+氨苄西林/舒巴坦
+12 g /6 g(4)
+头孢曲松
+4 g (12～24)
+头孢噻肟
+8～12 g (4～6)
+头孢他啶
+6 g (8)
+头孢吡肟
+6 g (8)
+头孢哌酮/舒巴坦 (2 ∶1)
+8 g /4 g(6)
+舒巴坦
+6～8 g(6～8)
+氨曲南
+6～8 g (6～8)
+美罗培南
+6 g(8)；对于最低抑菌浓度<32 μg/ml的耐药革兰阴性菌，每次静脉滴注时间≥3 h可能提高治疗效果
+环丙沙星
+800～1 200 mg (8～12)
+莫西沙星
+400 mg (24)
+阿米卡星
+15 mg/kg (8)
+妥布霉素
+5 mg/kg (8)
+万古霉素
+间歇给药方案：负荷剂量20～30 mg/kg，维持剂量30～60 mg/kg(8～12)；持续给药方案：负荷剂量15～20 mg/kg，维持剂量30～60 mg/kg(24 h持续静脉滴注)，作为间歇给药方案无法达到治疗目标时的替代方案
+利奈唑胺
+1 200 mg (12)
+达托霉素
+6～10 mg/kg (24)
+磷霉素
+6～24 g(6～8)
+利福平
+600 mg (24)
+甲氧苄啶-磺胺甲口恶唑
+10～20 mg/kg (6～12)
+替加环素
+负荷剂量200 mg，维持剂量200 mg(12)
+多黏菌素B
+负荷剂量2.0～2.5 mg/kg，静脉滴注2 h；维持剂量1.5 mg/kg(12)，静脉滴注剂量1 h
+两性霉素B脂质体
+5 mg/kg(24)
+氟康唑
+400～800 mg (24)
+伏立康唑
+400 mg (12)
+表4
+中枢神经系统感染目标性治疗的推荐方案[13,58]
+病原菌
+推荐方案
+备选方案
+金黄色葡萄球菌
+甲氧西林敏感
+苯唑西林或氨苄西林
+万古霉素、利奈唑胺、达托霉素
+耐甲氧西林
+万古霉素
+利奈唑胺、达托霉素
+凝固酶阴性葡萄球菌
+万古霉素
+利奈唑胺、达托霉素
+脑膜炎奈瑟菌
+头孢噻肟或头孢曲松
+头孢吡肟、氟喹诺酮、美罗培南
+肺炎链球菌
+0.12 μg/ml≤青霉素MIC≤0.06 μg/ml
+青霉素G
+头孢曲松、头孢噻肟
+头孢噻肟或头孢曲松MIC<1 μg/ml
+头孢噻肟或头孢曲松
+头孢吡肟、美罗培南
+头孢噻肟或头孢曲松MIC≥1 μg/ml
+万古霉素加头孢噻肟或头孢曲松
+万古霉素加莫西沙星、利福平
+痤疮丙酸杆菌
+青霉素G
+头孢曲松、头孢噻肟、万古霉素、利奈唑胺、达托霉素
+肠球菌属
+耐药低风险
+氨苄西林/舒巴坦
+利奈唑胺＋利福平
+耐药高风险
+万古霉素
+同上
+铜绿假单胞菌
+头孢他啶或头孢吡肟
+环丙沙星、美罗培南
+鲍曼不动杆菌
+美罗培南
+替加环素、多黏菌素B，硫酸黏菌素
+肠杆菌科
+头孢噻肟或头孢曲松
+氨曲南、喹诺酮类、美罗培南
+嗜麦芽窄食单胞菌
+喹诺酮类
+头孢派酮/舒巴坦、替加环素，多黏菌素，磺胺类药物
+产超广谱β-内酰胺酶革兰阴性菌
+美罗培南
+头孢吡肟、氟喹诺酮
+念珠菌
+两性霉素B脂质体
+氟康唑、伏立康唑
+曲霉菌
+伏立康唑
+两性霉素B脂质体、泊沙康唑
+注：MIC为最低抑菌浓度
+表5
+泛耐药和全耐药革兰阴性杆菌感染的联合用药方案[83]
+细菌类型
+2种药物联合
+3种药物联合
+肠杆菌科
+替加环素或多黏菌素＋阿米卡星、美罗培南或磷霉素；替加环素＋多黏菌素
+替加环素＋多黏菌素＋美罗培南
+鲍曼不动杆菌
+替加环素＋舒巴坦(或含舒巴坦制剂)、美罗培南或多黏菌素；多黏菌素＋美罗培南
+舒巴坦(或含舒巴坦制剂)＋替加环素＋美罗培南
+铜绿假单胞菌
+多黏菌素＋抗假单胞菌β-内酰胺类、环丙沙星或利福平；抗假单胞菌β-内酰胺类＋阿米卡星、环丙沙星或磷霉素
+多黏菌素＋抗假单胞菌β-内酰胺类＋环丙沙星；多黏菌素＋抗假单胞菌β-内酰胺类＋磷霉素
+注：抗假单胞菌β-内酰胺类包括美罗培南、头孢他啶、头孢吡肟、氨曲南、头孢哌酮/舒巴坦；磷霉素建议先于其他抗菌药物前30 min应用
+表6
+推荐成人脑室内或鞘内注射的抗菌药种类和剂量[4,60,69,70,88,89,90]
+抗菌药的种类
+推荐剂量
+不良反应
+庆大霉素
+4～8 mg/24 ha，b
+暂时性听力丧失、癫痫、无菌性脑膜炎及脑脊液嗜酸性粒细胞增多
+妥布霉素(不含防腐剂)
+5 mg/24 h
+类似庆大霉素的不良反应
+阿米卡星
+30(5～50)mg/24 h
+类似庆大霉素的不良反应
+链霉素
+1 mg·kg-1·(24～48) h-1
+暂时性听力丧失、癫痛、脊神经根炎、横贯性脊髓炎、蛛网膜炎及截瘫
+美罗培南[89]
+10 mg/12 h
+高浓度时可引起癫痫发作
+万古霉素
+10～20 mg/24 ha，b
+暂时性听力丧失
+多黏菌素B[90]
+5 mg/24 h
+脑膜刺激症状，如发热、头痛、颈部僵硬、脑脊液白细胞计数和蛋白升高
+黏菌素E甲磺酸钠(1 mg＝1.25万U)
+10(1.6～40.0)mg/24 h
+脑膜炎性反应，大剂量可引起癫痫、食欲不振、躁动、水肿、疼痛及嗜酸性粒细胞增多
+替加环素
+1～10 mg/12 h
+未见报道
+达托霉素
+5～10 mg/24 h
+发热
+两性霉素B
+0.1～0.5 mg/24 h
+耳鸣、发热、颤抖、帕金森综合征
+卡泊芬净
+5～10 mg/24 h
+恶心、头痛
+注：a脑室内注射时根据成人脑室大小或容积推荐剂量：裂隙脑室，5 mg万古霉素或2 mg庆大霉素；正常脑室，10 mg万古霉素或3 mg庆大霉素；脑室扩大，15～20 mg万古霉素或4～5 mg庆大霉素。b基于24 h脑脊液引流量的给药频率建议如下：引流量<50 ml/24 h，1次/3 d；50～100 ml/24 h，1次/2 d；>100～150 ml/24 h，1次/d；>150～200 ml/24 h，万古霉素增加5 mg，庆大霉素增加1 mg，1次/d；>200～250 ml/24 h，万古霉素增加10 mg，庆大霉素增加2 mg，1次/d
+图1
+中枢神经系统感染诊断和治疗流程图[68]（mNGS为宏基因组二代测序技术，EVD为脑室外引流术）
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华神经外科杂志2021年37卷01期
+文    题：神经外科中枢神经系统感染诊治中国专家共识(2021版)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华神经外科杂志2021年37卷01期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

@@ -1,0 +1,425 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%B7%8B%E5%B7%B4%E7%98%A4%E7%9B%B8%E5%85%B3%E5%99%AC%E8%A1%80%E7%BB%86%E8%83%9E%E7%BB%BC%E5%90%88%E5%BE%81%E8%AF%8A%E6%B2%BB%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 淋巴瘤相关噬血细胞综合征诊治中国专家共识 - 中华医学杂志
+# 发布方/日期: 肿瘤科，中华医学杂志, 2018,98(18) : 1389-1393. DOI: 10.3760/cma；2018-05-15
+
+淋巴瘤相关噬血细胞综合征诊治中国专家共识
+中国抗癌协会淋巴瘤专业委员会
+中华医学杂志, 2018,98(18) : 1389-1393. DOI: 10.3760/cma.j.issn.0376-2491.2018.18.004
+噬血细胞综合征(HPS)又称噬血细胞性淋巴组织细胞增多症(HLH)，是一种由于各种诱因导致的细胞毒性T细胞和自然杀伤(NK)细胞过度活化，并刺激巨噬细胞活化，分泌大量炎性细胞因子的危重疾病。淋巴瘤是导致HLH的重要病因之一，发病率随着年龄的增长而增高。为了提高血液科医师和肿瘤科医师对淋巴瘤相关HLH的认识和理解，提供规范的临床实践指导，由中国抗癌协会淋巴瘤专业委员会组织国内相关专家论证，广泛征求国内外专家意见，在淋巴瘤相关HLH的诊断程序、实验室检查、诊断标准和治疗原则方面达成以下共识。
+一、定义和分类
+1．HLH的定义[1]：
+HLH是一类由原发或继发性免疫异常导致的过度炎症反应综合征。这种免疫调节异常主要由淋巴细胞、单核细胞和巨噬细胞系统异常激活、增殖，分泌大量炎性细胞因子而引起的一系列炎症反应。临床以持续发热、肝脾肿大、全血细胞减少以及骨髓、肝、脾、淋巴结组织发现巨噬细胞吞噬血细胞现象(即噬血现象)为主要特征。
+2．淋巴瘤相关HLH的定义和分类[2,3]：
+淋巴瘤相关HLH是由淋巴瘤作为主要诱因导致的HLH或在淋巴瘤治疗过程中出现的HLH，根据发生时间的区别，分为"淋巴瘤诱导的HLH"和"化疗期合并的HLH"两大类。
+(1)淋巴瘤诱导的HLH：发生在淋巴瘤治疗之前。HLH可以早于确诊淋巴瘤之前发生，也可于淋巴瘤诊断的同时发生，或在淋巴瘤疾病进展或复发时出现。这可能与肿瘤细胞分泌的细胞因子，如干扰素γ和白细胞介素6等导致高炎症因子状态有关。这类HLH以T细胞或NK细胞淋巴瘤最为多见，其次是弥漫大B细胞淋巴瘤和霍奇金淋巴瘤。
+(2)化疗期合并的HLH：在淋巴瘤化疗过程中出现。主要原因是患者在化疗后机体免疫功能受到抑制，此时在病毒感染、侵袭性真菌感染和一些细菌感染的刺激下出现HLH的临床表现。此时患者的淋巴瘤往往处于缓解状态。
+二、诊断标准
+1．淋巴瘤相关HLH诊断标准：
+目前国际上没有公认的专门用于淋巴瘤HLH的诊断标准。现阶段，关于HLH的诊断仍推荐采用国际组织细胞协会于2004年修订的HLH－2004指南[4]。因此，在具有明确病理诊断的淋巴瘤的基础上，患者符合以下8条指标中的5条时淋巴瘤相关HLH诊断可以成立：①发热：体温>38.5 ℃，持续>7 d；②脾大；③血细胞减少(累及外周血两系或三系)：血红蛋白<90 g/L，血小板<100×109/L，中性粒细胞<1.0×109/L且非骨髓造血功能减低所致；④高三酰甘油血症和(或)低纤维蛋白原血症：三酰甘油>3 mmol/L或高于同年龄的3个标准差，纤维蛋白原<1.5 g/L或低于同年龄的3个标准差；⑤在骨髓、脾脏、肝脏或淋巴结里找到噬血细胞；⑥血清铁蛋白升高：铁蛋白≥500 μg/L；⑦ NK细胞活性降低或缺如；⑧可溶性白细胞介素－2受体(sCD25)升高。
+2．关于淋巴瘤相关HLH诊断标准的补充说明[5,6]：
+首先，尽管HLH根据病因不同分为不同的类型，但是针对各种亚型的诊断标准尚未得到广泛公认。因此，HLH－2004诊断指南是目前临床诊断HLH应该遵循的原则。其次，淋巴瘤疾病本身与HLH在临床特征上有很多交叉重叠之处(如发热、血细胞减少、肝脾肿大、铁蛋白升高、乳酸脱氢酶升高等)，因此判断淋巴瘤患者是否伴发了HLH存在一定的困难，会造成诊断扩大化。在淋巴瘤患者中找到噬血现象可能高度提示HLH的发生。并且，由于HLH的很多临床表现和实验室发现都可以用淋巴细胞和组织细胞浸润组织器官及高细胞因子血症来解释，因此高通量检测HLH相关细胞因子谱，可以协助鉴别淋巴瘤患者是否同时合并了HLH。sCD25/血清铁蛋白比值显著升高也是诊断淋巴瘤相关HLH的手段之一[7]。
+三、诊断程序
+HLH是一种进展迅速的高致死性疾病，因此及时发现HLH疑似病例，及时正确的诊断至关重要。淋巴瘤与HLH两者之间既相互独立又密切相关，既可以同时出现，也可能先后出现。因此如何从淋巴瘤患者中发现HLH，以及从HLH患者中寻找淋巴瘤或其他潜在疾病是临床工作的重点。诊断淋巴瘤相关HLH的过程建议遵循以下原则。
+(一)确诊淋巴瘤的患者如何诊断HLH
+1．及时发现疑似HLH的患者[1,8]：
+当患者出现持续发热、血细胞减少、肝脾肿大或不明原因的肝衰竭，却无法用淋巴瘤本身的临床特点去解释的时候应当怀疑HLH的可能；铁蛋白在短时间内的进行性显著升高也具有强烈的提示意义。患者应完善与HLH诊断相关的检查。
+2．根据HLH－2004诊断标准，完善与诊断相关的检查[9,10]：
+NK细胞活性降低是指NK细胞杀伤靶细胞的功能降低，不能简单的以NK细胞的数量来替代。关于NK细胞活性的检测方法，国内外没有统一的规定，推荐使用荧光细胞构建与流式细胞技术相结合的手段检测NK细胞杀伤活性。关于sCD25水平，国际组织细胞协会曾定义为≥2 400 IU/ml，但很多研究以pg/ml作为检测单位，这与检测的方法不同有关。根据国内协作组研究结果和梅奥医学中心的结果推荐，sCD25水平≥6 400 pg/ml也可以作为诊断标准之一。
+3．判断是"淋巴瘤诱导的HLH"还是"化疗期合并的HLH"[5,6,11]：
+在淋巴瘤化疗期间出现的HLH可能是由于淋巴瘤疾病本身进展导致，也可能由于机体在免疫抑制状态下受到病原体诱发导致，或两者同时存在。尽可能明确类型对进一步的治疗选择具有重要的意义。此时，应积极评估淋巴瘤疾病状态(完全缓解、部分缓解或疾病进展)，并全面筛查可疑的感染诱因(细菌、真菌、病毒、非典型病原体等)。
+(二)确诊HLH的患者如何筛查淋巴瘤和其他潜在病因
+相当一部分淋巴瘤相关HLH患者在起病时以HLH为首发表现，而无明确的淋巴瘤疾病史或临床证据。因此需通过仔细询问病史、查体，以及相关实验室检查，确定导致HLH的可能原因。对于继发性HLH，均应排查潜在的淋巴瘤可能性[11,12,13]。
+1．病史询问：
+应仔细询问婚育史、家族史、过敏史；有无皮疹或淋巴结肿大；有无发热、盗汗、体重下降；详细了解特殊药物使用情况；详细询问旅游史，特别是有无热带地区旅游史。
+2．感染因素：
+完善细菌、真菌、病毒、寄生虫等相关检查。需要指出的是，EB病毒(EBV)感染都可能参与在各种类型HLH的复杂的疾病过程中，尤其是常常参与淋巴瘤相关HLH的发生。由于感染相关HLH通常指发生在无明确免疫缺陷或免疫抑制的人群，因此在诊断感染相关HLH之前应除外其他可能导致HLH的因素，包括淋巴瘤。
+3．肿瘤因素：
+恶性肿瘤引起HLH的原因有多种，绝大多数是淋巴瘤。以HLH为首发表现的淋巴瘤相关HLH患者往往缺乏典型的病史。由于淋巴瘤相关HLH随着年龄增长而发病率升高，因此对HLH患者，尤其是成人患者进行淋巴瘤筛查是必须进行的。CT，PET－CT，骨髓或可疑病变部位组织的免疫分型、病理活检，染色体等检查手段在诊断淋巴瘤相关HLH中具有重要的临床意义。需要指出的是，在部分HLH患者的病程早期即使完善了各项检查却仍然无法确诊淋巴瘤。因此，对于临床高度疑似淋巴瘤的HLH患者，或者原发病不明确的患者应在治疗过程中及治疗后密切随访，必要时重复相关检查以明确诊断。
+4．基因缺陷：
+无论儿童还是成人，都存在原发性HLH的可能。许多HLH相关基因缺陷增加了淋巴瘤发生的风险，如X连锁淋巴组织增生综合征(XLP)、家族性HLH－2型(FHL－2)等原发性HLH患者同时罹患淋巴瘤。因此，淋巴瘤相关HLH不应完全放弃基因评估及HLH相关功能学检查，如NK细胞活性和脱颗粒功能检测[NK细胞和细胞毒性T淋巴细胞(CTL)细胞膜ΔCD107a][14]。但当HLH患者同时存在已知的HLH缺陷基因和淋巴瘤时，仍应诊断为原发性HLH。
+四、治疗
+淋巴瘤相关HLH的治疗分为两个方面，一方面是针对HLH的治疗控制炎症反应及器官功能障碍，以达到控制HLH活化进展的目的；另一方面是针对淋巴瘤的治疗，控制原发病，达到防止HLH复发的目的[5,15]。
+(一)诱导治疗
+1．HLH－94治疗方案：
+目前广泛应用的标准HLH治疗方案是HLH－94或HLH－04方案，由国际组织细胞协会分别与1994年制定[16]，2004年修订[4]。HLH－94方案的诱导治疗包括地塞米松，依托泊苷(VP－16)，以及鞘内注射甲氨蝶呤和地塞米松。HLH－04是基于HLH－94的重新修订，将环孢素A(CsA)提前至诱导期与VP－16同时使用。该诱导方案中VP－16的剂量为每次150 mg/m2。若患者体重<10 kg，VP－16剂量也可按5 mg/kg来计算。由于青少年/成人对依托泊苷的需求量和耐受性均相对较低，对于VP－16的使用建议进行了年龄相关性调整[17]，15岁以下患者75～150 mg/m2，15～39岁患者75～100 mg/m2，40岁以上患者50～75 mg/m2。在年长患者中减低VP－16用量使患者在治疗过程中有更好的耐受性并且不影响疗效。地塞米松：第1～2周10 mg· m－2· d－1，第3～4周5 mg· m－2· d－1，第5～6周2.5 mg· m－2· d－1，第7周1.25 mg· m－2·d－1，第8周减量至停药，给予口服或静脉注射均可，后者为初始治疗的首选。类似HLH－94的治疗方案(调整剂量及用药时间)常常可以个体化的应用于不同状态的患者。根据HLH－94和HLH－04治疗方案的前瞻性临床研究结果和国际组织细胞协会的最新意见，在淋巴瘤相关HLH患者不推荐使用HLH－04方案作为诱导治疗手段。
+2．DEP方案：
+DEP方案是一种由脂质体多柔比星、VP－16和甲泼尼龙组成的联合化疗方案[18]。起始剂量为脂质体多柔比星25 mg·m－2·d－1 d1，VP－16 100 mg· m－2·d－1 d1(年龄剂量调整原则可参照诱导治疗方案)，甲泼尼龙15 mg· kg－1·d－1d1～3，0.75 mg· kg－1·d－1 d4～7，0.25 mg· kg－1·d－1 d8～10，0.1 mg· kg－1·d－1维持至下一疗程。该方案每2周重复一次，第2次及以后重复时，甲泼尼龙起始剂量可改为2 mg·kg－1·d－1。DEP方案可用于淋巴瘤相关HLH的初始诱导治疗，也可用于对HLH－94方案无应答的难治性患者。研究证实，DEP方案对HLH－94方案无应答的难治性淋巴瘤相关HLH患者中有较好的二次应答率[19]。
+(二)分层治疗策略
+对于淋巴瘤相关HLH的治疗应该先针对HLH还是先针对淋巴瘤，目前尚无循证学依据，需根据患者的不同状况决定。多项临床观察证实，在HLH活动期，尤其是合并脏器功能损伤的患者，标准的淋巴瘤化疗方案并不能改善疾病状态，且可能增加死亡率。对于"淋巴瘤诱导的HLH"患者，推荐在开始肿瘤特异性治疗之前采用HLH－94或DEP方案控制HLH[18,20]。HLH一旦得到初步控制，应积极过渡到原发病治疗(即标准的淋巴瘤化疗)，有条件的患者可以考虑进行造血干细胞移植(HSCT)。对于"化疗期合并的HLH"患者，应暂停正在进行的化疗，给予针对性的抗感染治疗，对于重症患者可给予剂量调整的VP－16联合激素(类HLH－94方案)治疗。而对于淋巴瘤进展和感染同时存在的HLH患者，在积极给予有效抗感染措施的基础上，针对HLH和淋巴瘤的治疗不应该被延误[5]。
+(三) HSCT
+HSCT可以用于侵袭性淋巴瘤导致的HLH以及复发/难治性淋巴瘤相关HLH。即使患者的确切病因并未明确，当确诊HLH时也应开始寻找供者，因为发病至移植的时间是一个影响HLH进展和死亡的因素[21,22]。移植应尽可能在患者药物治疗达到临床缓解后及时进行。对于药物治疗后达到完全缓解的淋巴瘤相关HLH患者，可以考虑进行自体HSCT；对于药物治疗后仅达到部分缓解的淋巴瘤相关HLH患者，或即使达到完全缓解，但淋巴瘤病理类型属于高度侵袭性的患者，可以考虑进行异基因HSCT[23,24]。符合上述条件的患者即使只有单倍体供者，在有条件的移植单位也可以积极进行。在选择亲缘供者时应全面评估供者的NK细胞活性和脱颗粒功能检测(NK细胞和CTL细胞膜ΔCD107a)、与HLH缺陷基因相对应的蛋白检测，以及HLH缺陷基因筛查，并检测全血细胞及血浆/血清EBV－DNA。
+(四)支持治疗
+HLH患者常常合并感染和多脏器功能的受累。支持治疗的准则应与正在进行HSCT患者的标准相似，包括预防卡氏肺孢子虫肺炎及真菌感染、静脉补充免疫球蛋白和防范中性粒细胞减少症。任何新出现的发热，需考虑HLH复发以及机会性感染的可能，并予经验性广谱抗生素治疗[8]。
+HLH患者由于严重的血小板减少和凝血功能异常，自发性出血的风险很高。治疗期间的目标是将血小板计数维持在50×109/L以上。对于急性出血患者应输注血小板、新鲜冰冻血浆、凝血酶原复合物，必要时需要补充活化Ⅶ因子。重组人血小板生成素(rhTPO)也可在HLH治疗期间用于提高血小板计数水平[25]。
+由于炎症反应或可能的药物毒性损害，患者可能在疾病过程中出现或发展为心功能、肝功能、肾功能等多脏器功能不全。因此，在诊断时应充分评估患者的脏器储备功能，并给予对症支持治疗，严密监测脏器功能。
+(五)疗效评价[26]
+HLH诱导治疗期间，建议每2周评估一次疗效。疗效评价的主要指标包括sCD25、血清铁蛋白、血细胞计数、三酰甘油、噬血现象、意识水平(有CNS－HLH者)。(1)完全应答(CR)：上述所有指标均恢复正常范围。(2)部分应答(PR)：≥2项症状/实验室指标改善25%以上，个别指标需达到以下标准：① sCD25水平下降1/3以上；②铁蛋白和三酰甘油下降25%以上；③不输血情况下：中性粒细胞<0.5×109/L者需上升100%并>0.5×109/L，中性粒细胞0.5～2.0×109/L者需增加100%并恢复正常；④丙氨酸转氨酶>400 U/L者，需下降50%以上。淋巴瘤疗效评估手段及周期，参照淋巴瘤诊疗指南或诊治专家共识。
+参与本共识修订讨论的专家
+参与本共识修订讨论的专家(按姓氏拼音排序)：白鸥(吉林大学白求恩第一医院肿瘤中心)；郭晔(上海市东方医院肿瘤科)；高玉环(河北医科大学第四医院血液科)；姜文奇(中山大学肿瘤医院淋巴瘤中心)；胡亮钉(解放军第三○七医院造血干细胞移植科)；克晓燕(北京大学第三医院血液科)；刘代红(解放军总医院血液病科)；李军民(上海交通大学医学院附属瑞金医院血液科)；李建勇(南京医科大学第一附属医院血液内科)；罗建民(河北医科大学第二医院血液科)；牛挺(四川大学华西医院血液内科)；邱录贵(中国医学科学院血液病医院淋巴瘤诊疗中心)；任汉云(北京大学第一医院血液内科)；苏航(解放军第三○七医院淋巴瘤科)；石远凯(中国医学科学院肿瘤医院肿瘤内科)；王华庆(天津市人民医院肿瘤科)；王昭(首都医科大学附属北京友谊医院血液科)；周道斌(北京协和医院血液内科)；邹德慧(中国医学科学院血液病医院淋巴瘤诊疗中心)；张会来(天津市肿瘤医院淋巴瘤内科)；张明智(郑州大学第一附属医院肿瘤科)；朱宏丽(解放军总医院老年血液科)；朱军(北京大学肿瘤医院淋巴瘤科)
+志      谢
+志谢 感谢以下国际专家为本共识提出宝贵意见：Jan－Inge Henter (Karolinska Institute, Sweden); Gritta Janka (University of Hamburg, Germany); Milen Minkov (Medical University of Vienna, Austria); Paul La Rosee (Jena University Hospital, Germany)
+参考文献
+[1]
+JankaGE,LehmbergK.
+Hemophagocytic lymphohistiocytosis: pathogenesis and treatment[J].
+Hematology Am Soc Hematol Educ Program,
+2013,
+2013:
+605-
+611.
+DOI: 10.1182/asheducation-2013.1.605.
+[2]
+NikiforowS,BerlinerN.
+The unique aspects of presentation and diagnosis of hemophagocytic lymphohistiocytosis in adults[J].
+Hematology Am Soc Hematol Educ Program,
+2015,
+2015:
+183-
+189.
+DOI: 10.1182/asheducation-2015.1.183.
+[3]
+Ramos－CasalsM,Brito－ZerónP,López－GuillermoA, et al.
+Adult haemophagocytic syndrome[J].
+Lancet,
+2014,
+383(
+9927):
+1503-
+1516.
+DOI: 10.1016/S0140-6736(13)61048-X.
+[4]
+HenterJI,HorneA,AricóM, et al.
+HLH－2004: Diagnostic and therapeutic guidelines for hemophagocytic lymphohistiocytosis[J].
+Pediatr Blood Cancer,
+2007,
+48(
+2):
+124-
+131.
+DOI: 10.1002/pbc.21039.
+[5]
+LehmbergK,NicholsKE,HenterJI, et al.
+Consensus recommendations for the diagnosis and management of hemophagocytic lymphohistiocytosis associated with malignancies[J].
+Haematologica,
+2015,
+100(
+8):
+997-
+1004.
+DOI: 10.3324/haematol.2015.123562.
+[6]
+TamamyanGN,KantarjianHM,NingJ, et al.
+Malignancy－associated hemophagocytic lymphohistiocytosis in adults: Relation to hemophagocytosis, characteristics, and outcomes[J].
+Cancer,
+2016,
+122(
+18):
+2857-
+2866.
+DOI: 10.1002/cncr.30084.
+[7]
+TsujiT,HiranoT,YamasakiH, et al.
+A high sIL－2R/ferritin ratio is a useful marker for the diagnosis of lymphoma－associated hemophagocytic syndrome[J].
+Ann Hematol,
+2014,
+93(
+5):
+821-
+826.
+DOI: 10.1007/s00277-013-1925-8.
+[8]
+JordanMB,AllenCE,WeitzmanS, et al.
+How I treat hemophagocytic lymphohistiocytosis[J].
+Blood,
+2011,
+118(
+15):
+4041-
+4052.
+DOI: 10.1182/blood-2011-03-278127.
+[9]
+BrycesonYT,PendeD,Maul－PavicicA, et al.
+A prospective evaluation of degranulation assays in the rapid diagnosis of familial hemophagocytic syndromes[J].
+Blood,
+2012,
+119(
+12):
+2754-
+2763.
+DOI: 10.1182/blood-2011-08-374199.
+[10]
+ZhangJ,WangY,WuL, et al.
+Application of an improved flow cytometry－based NK cell activity assay in adult hemophagocytic lymphohistiocytosis[J].
+Int J Hematol,
+2017,
+105(
+6):
+828-
+834.
+DOI: 10.1007/s12185-017-2195-3.
+[11]
+LehmbergK,EhlS.
+Diagnostic evaluation of patients with suspected haemophagocytic lymphohistiocytosis[J].
+Br J Haematol,
+2013,
+160(
+3):
+275-
+287.
+DOI: 10.1111/bjh.12138.
+[12]
+LehmbergK,SprekelsB,NicholsKE, et al.
+Malignancy－associated haemophagocytic lymphohistiocytosis in children and adolescents[J].
+Br J Haematol,
+2015,
+170(
+4):
+539-
+549.
+DOI: 10.1111/bjh.13462.
+[13]
+ImashukuS.
+Treatment of Epstein－Barr virus－related hemophagocytic lymphohistiocytosis (EBV－HLH); update 2010[J].
+J Pediatr Hematol Oncol,
+2011,
+33(
+1):
+35-
+39.
+DOI: 10.1097/MPH.0b013e3181f84a52.
+[14]
+AllenCE,McClainKL.
+Pathophysiology and epidemiology of hemophagocytic lymphohistiocytosis[J].
+Hematology Am Soc Hematol Educ Program,
+2015,
+2015:
+177-
+182.
+DOI: 10.1182/asheducation-2015.1.177.
+[15]
+DaverN,McClainK,AllenCE, et al.
+A consensus review on malignancy－associated hemophagocytic lymphohistiocytosis in adults[J].
+Cancer,
+2017,
+123(
+17):
+3229-
+3240.
+DOI: 10.1002/cncr.30826.
+[16]
+HenterJI,AricòM,EgelerRM, et al.
+HLH－94: a treatment protocol for hemophagocytic lymphohistiocytosis. HLH study Group of the Histiocyte Society[J].
+Med Pediatr Oncol,
+1997,
+28(
+5):
+342-
+347.
+[17]
+HenterJI,ChowCB,LeungCW, et al.
+Cytotoxic therapy for severe avian influenza A (H5N1) infection[J].
+Lancet,
+2006,
+367(
+9513):
+870-
+873.
+DOI: 10.1016/S0140-6736(06)68232-9.
+[18]
+WangY,HuangW,HuL, et al.
+Multicenter study of combination DEP regimen as a salvage therapy for adult refractory hemophagocytic lymphohistiocytosis[J].
+Blood,
+2015,
+126(
+19):
+2186-
+2192.
+DOI: 10.1182/blood-2015-05-644914.
+[19]
+La RoséeP.
+First prospective clinical trial in adult HLH[J].
+Blood,
+2015,
+126(
+19):
+2169-
+2171.
+DOI: 10.1182/blood-2015-09-666503.
+[20]
+La RoséeP.
+Treatment of hemophagocytic lymphohistiocytosis in adults[J].
+Hematology Am Soc Hematol Educ Program,
+2015,
+2015:
+190-
+196.
+DOI: 10.1182/asheducation-2015.1.190.
+[21]
+SchramAM,BerlinerN.
+How I treat hemophagocytic lymphohistiocytosis in the adult patient[J].
+Blood,
+2015,
+125(
+19):
+2908-
+2914.
+DOI: 10.1182/blood-2015-01-551622.
+[22]
+JordanMB,FilipovichAH.
+Hematopoietic cell transplantation for hemophagocytic lymphohistiocytosis: a journey of a thousand miles begins with a single (big) step[J].
+Bone Marrow Transplant,
+2008,
+42(
+7):
+433-
+437.
+DOI: 10.1038/bmt.2008.232.
+[23]
+JinZ,WangY,WangJ, et al.
+Multivariate analysis of prognosis for patients with natural killer/T cell lymphoma－associated hemophagocytic lymphohistiocytosis[J].
+Hematology,
+2017:
+1-
+7.
+DOI: 10.1080/10245332.2017.1385191.
+[24]
+JiaJ,SongY,LinN, et al.
+Clinical features and survival of extranodal natural killer/T cell lymphoma with and without hemophagocytic syndrome[J].
+Ann Hematol,
+2016,
+95(
+12):
+2023-
+2031.
+DOI: 10.1007/s00277-016-2805-9.
+[25]
+WangY,WangZ,WuL, et al.
+Recombinant human thromobopoietin is an effective treatment for thrombocytopenia in hemophagocytic lymphohistiocytosis[J].
+Ann Hematol,
+2013,
+92(
+12):
+1695-
+1699.
+DOI: 10.1007/s00277-013-1819-9.
+[26]
+MarshRA,AllenCE,McClainKL, et al.
+Salvage therapy of refractory hemophagocytic lymphohistiocytosis with alemtuzumab[J].
+Pediatr Blood Cancer,
+2013,
+60(
+1):
+101-
+109.
+DOI: 10.1002/pbc.24188.
+贡献者信息
+中国抗癌协会淋巴瘤专业委员会
+历史
+出版日期：2018-05-15
+收稿日期：2018-03-23
+本文编辑
+周阳
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+LehmbergK,NicholsKE,HenterJI, et al.
+Consensus recommendations for the diagnosis and management of hemophagocytic lymphohistiocytosis associated with malignancies[J].
+Haematologica,
+2015,
+100(
+8):
+997-
+1004.
+DOI: 10.3324/haematol.2015.123562.
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华医学杂志2018年98卷18期
+文    题：淋巴瘤相关噬血细胞综合征诊治中国专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华医学杂志2018年98卷18期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

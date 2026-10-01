@@ -1,0 +1,1066 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%99%9A%E6%9C%9F%E9%9D%9E%E5%B0%8F%E7%BB%86%E8%83%9E%E8%82%BA%E7%99%8C%E6%8A%97%E8%A1%80%E7%AE%A1%E7%94%9F%E6%88%90%E8%8D%AF%E7%89%A9%E6%B2%BB%E7%96%97%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882020%E7%89%88%EF%BC%89.html
+# 标题: 晚期非小细胞肺癌抗血管生成药物治疗中国专家共识（2020版） - 中华医学杂志
+# 发布方/日期: 肿瘤科，中华医学杂志, 2020,100(46) : 3659-3673. DOI: 10.3760/cma；2020-12-15
+
+晚期非小细胞肺癌抗血管生成药物治疗中国专家共识（2020版）
+中国临床肿瘤学会血管靶向治疗专家委员会
+中国临床肿瘤学会非小细胞肺癌专家委员会
+中国临床肿瘤学会非小细胞肺癌抗血管生成药物治疗专家组
+中华医学杂志, 2020,100(46) : 3659-3673. DOI: 10.3760/cma.j.cn112137-20200918-02668
+肺癌是目前全球最常见和致死率最高的恶性肿瘤。2018年全球肺癌新发病例高达209万余例，肺癌造成的死亡人数高达176万余例[1]。肺癌是我国男性最常见的癌症[2]，2018年我国约有77.4万的新增肺癌病例，约有69万人死于肺癌。
+非小细胞肺癌（non-small cell lung cancer, NSCLC）是肺癌中最常见的组织学类型，在肺癌病例中占比超过80%[3]。由于NSCLC的侵袭性较高，且缺乏有效的早期筛查方案，导致我国70%的肺癌患者确诊时已是晚期[4]。
+以铂类为基础的双药化疗方案是治疗晚期NSCLC的传统标准方案，但对应的5年生存率依然很低，不足5%[5]。在过去几十年间，越来越多的证据显示新生血管的生成在多种实体肿瘤的生长、增殖和转移中发挥着关键作用[6]。抗血管生成药物可作用于肿瘤微环境，使现有肿瘤血管退化，同时抑制肿瘤新生血管生成。临床数据显示，抗血管生成药物与其他NSCLC系统治疗药物（包括化疗、小分子靶向治疗、免疫治疗）联合使用可发挥更好的抗肿瘤作用，延缓耐药，且不良反应可管理[6]。
+目前已有3种抗血管生成药物在我国获批用于治疗晚期NSCLC患者，包括血管内皮生长因子（vascular endothelial growth factor, VEGF）抑制剂贝伐珠单抗[7]、重组人血管内皮抑制素[8]和小分子多靶点酪氨酸激酶抑制剂（tyrosine kinase inhibitor, TKI）安罗替尼[9]。这三种药品均已进入国家医保目录。因此，随着我国抗血管生成药物的不断发展以及药物可及性的不断提高，抗血管生成药物作为晚期NSCLC患者不可或缺的治疗手段之一，有必要总结符合我国临床实际的共识内容，以指导我国肺癌治疗相关的临床科室合理使用抗血管生成药物，进一步提高我国肺癌规范化诊疗水平。
+方法学
+本共识在《晚期非小细胞肺癌抗血管生成药物治疗中国专家共识（2019年版）》的基础上，由共识专家组组长与执笔作者基于近1年来发表的临床研究证据，并结合临床经验，整理出共识初稿。之后由60名指南撰写专家组成员经过专家组会议对共识更新内容进行讨论和修改，最终确定共识推荐内容。因此，本共识提出的推荐内容是基于现有的中国和国际高质量的循证医学证据以及专家组广泛认可的临床经验。
+通过PubMed、EMBASE、万方医学数据库和中国知网进行文献检索，检索截止时间为2020年5月31日。在PubMed和EMBASE使用的检索式为："bevacizumab OR avastin"AND"non small cell lung cancer"；"recombinant endostatin OR endostar"AND"non small cell lung cancer"；"anlotinib AND non small cell lung cancer"。在万方医学网和中国知网使用的检索式为："摘要-贝伐单抗或摘要-贝伐珠单抗"和"标题-肺癌"；"摘要-重组人血管内皮抑制素或摘要-重组人血管内皮抑素或摘要-重组血管内皮抑制素"和"标题-肺癌"；"摘要-安罗替尼"和"标题-肺癌"。检索的文献限于系统综述、荟萃分析和随机对照临床研究，剔除重复文献、述评、编辑点评、来信、新闻报道、叙述性综述以及后续未发表于同行评审期刊的会议摘要。最后得到贝伐珠单抗、重组人血管内皮抑制素、安罗替尼相关的英文文献分别为153、3、32篇；中文文献分别为110、111、69篇。本共识推荐内容参照中国临床肿瘤学会（Chinese Society of Clinical Oncology, CSCO）证据级别及推荐等级[10,11,12]（表1，表2）。
+点击查看表格
+表1
+中国临床肿瘤学会关于证据级别分类
+表1
+中国临床肿瘤学会关于证据级别分类
+级别
+说明
+1A类证据
+基于高水平证据（严谨的荟萃分析或RCT结果），专家组有统一共识
+1B类证据
+基于高水平证据（严谨的荟萃分析或RCT结果），专家组有小争议
+2A类证据
+基于低水平证据，专家组有统一认识
+2B类证据
+基于低水平证据，专家组无统一认识，但争议不大
+3类证据
+专家组存在较大争议
+注：RCT为随机对照试验
+点击查看表格
+表2
+中国临床肿瘤学会关于推荐等级的分类
+表2
+中国临床肿瘤学会关于推荐等级的分类
+等级
+说明
+Ⅰ级推荐
+可及性好的普适性诊治措施（包括适应证明确），肿瘤治疗价值相对稳定，基本为国家医保所收录；Ⅰ级推荐的确定，不因医疗保险而改变，主要考虑的因素是患者的明确获益性
+Ⅱ级推荐
+在国际或国内已有随机对照的多中心研究提供的高级别证据，但是可及性差或者效价比低，已超出平民经济承受能力的药物或治疗措施；对于获益明显但价格昂贵的措施，以肿瘤治疗价值为主要考虑因素，也可作为Ⅱ级推荐
+Ⅲ级推荐
+正在探索的治疗手段；虽然缺乏强有力的循证学证据，但是专家组具有一定共识
+晚期NSCLC的抗血管生成药物的发展现状
+当前NSCLC的抗血管生成治疗主要包括三大类：（1）靶向VEGF-血管内皮生长因子受体（vascular endothelial growth factor receptor, VEGFR）的大分子单克隆抗体；（2）靶点包括VEGFR的多靶点小分子TKI；（3）重组人血管内皮抑制素。
+一、靶向VEGF-VEGFR的大分子单克隆抗体
+针对VEGF-VEGFR通路的大分子单克隆抗体类药物是研究较早，也是应用较为成熟的血管靶向药物。贝伐珠单抗是首个被批准应用于晚期NSCLC一线治疗的VEGF单克隆抗体。贝伐珠单抗是人源化抗VEGF的单克隆抗体，可通过中和VEGF从而达到抑制肿瘤血管生长的作用[13]。多项大型、前瞻性研究证实，贝伐珠单抗与细胞毒类药物、TKI及免疫检查点抑制剂联合使用，可显著延长患者的无进展生存时间（progression-free survival, PFS）和(或)总生存时间（overall survival, OS）[13,14,15,16,17,18,19,20]。2019年12月国家药品监督管理局（National Medical Products Administration, NMPA）批准首个贝伐珠单抗生物类似药上市。
+雷莫芦单克隆抗体是另一个在国外已获批用于局部晚期或转移性NSCLC的药物，该药是一种全人源化、抗VEGFR-2单克隆抗体，通过与VEGFR-2的胞外结构域结合，阻断VEGFR-2与VEGF结合并抑制VEGFR-2激活[21]，从而抑制血管的生成及迁移。
+二、靶点包括VEGFR的多靶点小分子TKI
+小分子TKI可与胞内段酪氨酸激酶域竞争性结合，抑制其磷酸化过程，阻断细胞下游信号转导通路的激活，从而抑制肿瘤血管生成[22]。除了与血管生成关系密切的VEGF/VEGFR以外，血小板源性生长因子/受体（platelet-derived growth factor/receptor, PDGF/PDGFR）、成纤维细胞生长因子/受体（fibroblast growth factor/receptor, FGF/FGFR）及C-KIT等均是这类药物的作用靶点[22]。由于不具有明显的选择性，因此这一类药物的不良反应通常较单靶点药物明显，从而限制了其在临床试验中的剂量。目前，除安罗替尼等少数药物获得阳性结果外[23,24]，大部分VEGFR-TKI药物在临床研究中显示单独应用或与细胞毒类药物联合应用并不能改善晚期NSCLC患者预后。安罗替尼是国内目前唯一一个获批用于晚期NSCLC治疗的VEGFR-TKI类药物。
+三、重组人血管内皮抑制素
+肿瘤血管的生长过程既受到VEGF/VEGFR等因子的正向调节，也受到血管内皮抑制素等的负向调节[25]，因此，外源性补充抑制血管生长的细胞因子亦可以有效抑制肿瘤血管生成。我国自主生产的重组人血管内皮抑制素已获批应用于肺癌临床。
+NSCLC抗血管生成药物临床应用推荐
+本共识旨在为我国的临床医师在临床使用抗血管生成药物治疗NSCLC患者提供规范指引，因此只针对已在我国批准NSCLC治疗适应证的3类药物，即贝伐珠单抗、重组人血管内皮抑制素、安罗替尼展开，推荐意见基于我国的临床数据以及国际重要研究结果。对于其他无适应证的抗血管生成类药物，只限于临床研究中应用。
+一、一线治疗
+（一）贝伐珠单抗用于晚期非鳞NSCLC一线治疗的临床证据和推荐意见
+多项临床试验证实了贝伐珠单抗联合不同的含铂双药化疗方案在晚期非鳞NSCLC患者中的疗效。Ⅲ期ECOG4599研究共纳入878例复发性或晚期非鳞NSCLC患者，数据显示，卡铂+紫杉醇+贝伐珠单抗一线治疗比较单纯化疗方案可显著延长患者中位OS（12.3个月比10.3个月），HR=0.79，95%CI: 0.67~0.92，P=0.003；中位PFS （6.2个月比4.5个月，HR=0.66，95%CI: 0.57~0.77，P<0.001），提高客观缓解率（objective response rate, ORR）（35%比15%, P<0.001）[14]。2019年欧洲肿瘤内科协会（European Society for Medical Oncology, ESMO）报道的一项多中心、开放标签的Ⅱ期临床试验（CARNAVAL研究）证实了贝伐珠单抗+卡铂+白蛋白紫杉醇方案在晚期非鳞NSCLC患者中的疗效及安全性。临床试验纳入46例晚期非鳞NSCLC患者，接受贝伐珠单抗+卡铂+白蛋白紫杉醇治疗后达到主要终点，ORR为56.5%；中位PFS及中位OS分别为7.79个月和18.90个月。研究期间所有不良反应均可控，且未发生不良事件相关性死亡[26]。
+2009年发表的一项Ⅲ期随机对照临床试验（AVAiL研究）支持贝伐珠单抗联合顺铂及吉西他滨双药化疗方案一线治疗在欧洲晚期非鳞NSCLC患者中的效果[15,16]。该临床试验在1 043例患者中开展，受试者被随机分配接受仅有顺铂+吉西他滨化疗或贝伐珠单抗联合双药化疗方案（两个剂量组：7.5、15 mg/kg）联合化疗方案。数据显示，相比单用化疗方案组（中位PFS为6.1个月），贝伐珠单抗联合化疗方案组的中位PFS延长（较低剂量组为6.7个月，较高剂量组为6.5个月），P值分别为0.003和0.03，ORR也较单用化疗组提高，7.5、15 mg/kg组和单纯化疗组的ORR分别为34.1%、30.4%和20.1%。
+而贝伐珠单抗+培美曲塞+卡铂/顺铂对晚期NSCLC患者的疗效在两项大型Ⅲ期临床试验（Pointbreak研究[27]和AVAPERL研究[28]）中得到确认。Pointbreak研究的意向治疗人群分析结果显示，贝伐珠单抗+培美曲塞+卡铂方案一线治疗与贝伐珠单抗联合紫杉醇+卡铂方案达到疾病控制而接受后续维持治疗的患者比例相当（62%比64%）[27]。从AVAPERL研究的诱导治疗期（贝伐珠单抗+培美曲塞+顺铂治疗4个周期）数据来看，该一线治疗方案用于Ⅲb期/Ⅳ期非鳞NSCLC患者可达到较高的疾病控制率（disease conctrol rate, DCR），为71.9%，ORR达到22.7%[28]。
+此外，对于亚裔或中国的晚期非鳞NSCLC患者人群，贝伐珠单抗联合含铂双药化疗方案显示出较西方患者人群更好的疗效。中国的多中心随机、双盲、安慰剂对照Ⅲ期BEYOND研究[13]，纳入了276例局部晚期、转移性或复发性晚期非鳞NSCLC患者。结果显示，与单纯化疗组比较，贝伐珠单抗联合含铂双药化疗组的ORR显著提高（54%比26%），中位PFS（9.2个月比6.5个月，HR=0.40，P<0.001）及中位OS（24.3个月比17.7个月，HR=0.68，P=0.015）显著延长。AVAiL研究的亚组分析探索了105例亚裔患者的疗效（总体人群1 043例），结果显示应用贝伐珠单抗联合含铂双药化疗方案的中位PFS结果（7.5 mg/kg组8.5个月，15 mg/kg组8.2个月）优于研究总人群结果（7.5 mg/kg组6.7个月，15 mg/kg组6.5个月）[29]。一项纳入了29项临床试验的荟萃分析结果显示，贝伐珠单抗联合的含铂化疗方案无论是否包含紫杉醇，用于非鳞NSCLC一线治疗均可获得良好的疗效。
+上述临床试验结果也得到了临床实践数据的支持[30]。全球多中心Ⅳ期SAiL研究纳入2 212例局部晚期、转移性和复发性非鳞NSCLC初治患者，其中有198例是中国患者。结果发现，中国患者亚组的中位OS（18.5个月）和中位疾病进展时间（time to progression, TTP）（8.8个月）均优于研究总人群数据（中位OS和TTP分别为14.6和7.8个月）[31]。最近发表的一项中国真实世界数据研究对149例晚期非鳞NSCLC患者的病历资料进行分析，比较一线使用含或不含贝伐珠单抗方案对临床结局的影响，发现与一线不含贝伐珠单抗方案组比较，含贝伐珠单抗一线治疗将患者的中位PFS从7.0个月延长至9.7个月（P=0.018）[32]；在野生型基因患者中，含贝伐珠单抗方案的中位PFS同样优于对照组（11.3个月比5.5个月，P=0.023）。
+【推荐意见1】在驱动基因突变阴性且功能状态评分（performance status,PS） 0~1分的晚期NSCLC患者中，推荐贝伐珠单抗联合含铂双药方案作为一线治疗选择（Ⅰ级推荐，1A类证据）。
+IMpower150研究是一项多中心、开放标签、随机、对照Ⅲ期临床试验，纳入1 202例既往未经治疗的Ⅳ期非鳞NSCLC患者，随机分配至阿替利珠单抗+卡铂+紫杉醇（ACP方案）、贝伐珠单抗+卡铂+紫杉醇（BCP方案）、阿替利珠单抗+贝伐珠单抗+卡铂+紫杉醇（ABCP方案）治疗，4~6个周期（21 d为1个周期）后患者分别接受阿替利珠单抗或贝伐珠单抗或两者联合维持治疗。结果显示，在意向治疗（intention to treat, ITT）人群中，ABCP组的中位PFS（8.3个月比6.8个月；HR=0.61；95%CI：0.52~0.72）及中位OS（19.8个月比14.9个月；HR=0.76；95%CI：0.63~0.93）均优于BCP组。在ITT野生型（intention to treat-wild type, ITT-WT）人群中，ABCP组的中位PFS（8.3个月比6.8个月；HR=0.62；95%CI：0.52~0.74；P<0.001）与中位OS（19.5个月比14.7个月；HR=0.8；95%CI：0.67~0.95；P=0.010）较BCP组均显著改善。ABCP组的ORR也较BCP组明显提高（63.5%比8.0%）[33,34]。
+此外，2019年世界肺癌大会（World Conference on Lung Cancer, WCLC）汇报了小分子TKI安罗替尼联合信迪利单抗用于无驱动基因突变晚期NSCLC治疗的Ⅰ期结果，ORR=77.3%，DCR=100%[35]。
+【推荐意见2】在驱动基因突变阴性且PS 0~1分的晚期非鳞NSCLC患者中，推荐阿替利珠单抗联合贝伐珠单抗、卡铂及紫杉醇方案作为一线治疗选择（Ⅱ级推荐，1A类证据）。
+EGFR-TKI如厄洛替尼、吉非替尼、埃克替尼、阿法替尼是EGFR基因敏感突变的晚期非鳞NSCLC患者的一线治疗药物[36]，然而由于后续出现的耐药现象，EGFR-TKI单药治疗对应的中位PFS仍难以突破11个月[37]，这也成为目前临床实践中使用EGFR-TKI的瓶颈。两项日本临床试验为解决这一问题提供了方向。Ⅱ期JO25567研究[38,39]纳入152例EGFR基因敏感突变（19外显子缺失或L858R突变阳性）的Ⅲb期/Ⅳ期非鳞NSCLC患者，比较厄洛替尼联合贝伐珠单抗或单用厄洛替尼的疗效及安全性。2018年美国临床肿瘤学会（American Society of Clinical Oncology, ASCO）大会上发布的最新结果显示，贝伐珠单抗联合治疗组的中位PFS显著优于单用厄洛替尼组（16.4个月比9.8个月；HR=0.52，95%CI：0.35~0.76；P<0.001）；且总体严重不良事件（serious adverse event, SAE）差异无统计学意义，但贝伐珠单抗联合治疗组的≥3级不良反应发生率高于厄洛替尼单药组（90.7%比53.2%，P<0.05），这主要归因于≥3级高血压事件。但绝大部分的高血压事件可通过抗高血压治疗得到控制[40]。
+2019年4月发表于《柳叶刀-肿瘤学》（Lancet Oncology）的Ⅲ期随机对照临床试验（NEJ026研究）旨在进一步确认JO25567研究的结果[41]。临床试验纳入228例未经治疗的EGFR基因敏感突变的晚期非鳞NSCLC患者，包括无症状脑转移患者。中位12.4个月随访的分析数据显示，厄洛替尼联合贝伐珠单抗组的中位PFS相比单用厄洛替尼组显著延长（16.9个月比13.3个月，HR=0.605，P=0.016）。亚组分析发现L858R突变患者中位PFS（17.4个月比13.7个月；HR=0.57，95%CI：0.33~0.97）优于19外显子缺失患者（16.6个月比12.4个月；HR=0.69；95%CI：0.41~1.16）。安全性方面，≥3级不良反应发生率在贝伐珠单抗联合治疗组和厄洛替尼单药组分别为88%与46%，联合治疗组最常见的不良反应是皮疹（88%比87%），其次分别为腹泻（47%比41%）、高血压（46%比10%）、蛋白尿（32%比5%）、转氨酶升高（27%比30%）和出血（除外肺动脉高压；23%比3%）。研究期间未观察到治疗相关的死亡事件。
+中国人群中也观察到类似的结果。2019年ESMO年会期间发表的一项开放标签、随机、多中心、Ⅲ期临床试验（CTONG 1509研究）纳入中国14个中心的311例EGFR基因敏感突变（外显子19缺失或L858R突变）的NSCLC患者，随机给予贝伐珠单抗+厄洛替尼（联合组）或厄洛替尼（单药组）治疗，结果显示，与厄洛替尼单药治疗组相比，贝伐珠单抗+厄洛替尼联合治疗组独立影像评估（IRC）的中位PFS显著延长（18个月比11.3个月，HR=0.55；95%CI：0.41~0.75，P<0.001)。亚组分析发现，19外显子缺失患者中，联合组以及单药组IRC评估的PFS分别为17.9个月和12.5个月（HR=0.62；95%CI：0.41~0.92）；L858R突变患者中，联合组以及单药组IRC评估的PFS分别为19.5个月和9.7个月（HR=0.51；95%CI：0.33~0.79）。安全性方面，联合组和单药组≥3级不良反应发生率分别为53.5%与25.5%，最常见的不良反应为皮疹（68.8%比74.5%），其次为蛋白尿（59.9%比15.7%）、高血压（45.9%比22.9%）以及转氨酶升高[谷丙转氨酶（ALT）：44.6%比30.7%；谷草转氨酶（AST）：43.9%比29.4%][42]。
+目前已有多项临床试验在贝伐珠单抗联合吉非替尼/阿法替尼/奥希替尼治疗EGFR基因敏感突变晚期NSCLC患者中进行了探索，其中贝伐珠单抗联合吉非替尼的Ⅱ期临床试验结果（1年PFS率=56.7%；ORR=73.8%；中位PFS=14.4个月）[43]、贝伐珠单抗联合阿法替尼的Ⅰ期临床试验结果（RR=0.813；DCR=100%）[44]以及贝伐珠单抗联合奥希替尼的Ⅱ期临床试验结果（ORR=80%；中位PFS=19个月）[45]均已证实联合治疗的良好疗效。
+此外，2019年WCLC汇报了小分子TKI安罗替尼联合厄洛替尼的Ⅰ期结果显示，部分缓解率（partial response, PR）=88.2%；DCR=100.0%，提示其在EGFR基因敏感突变晚期NSCLC患者中具有潜在的疗效[46]。
+【推荐意见3】有EGFR基因敏感突变的晚期非鳞NSCLC患者中，推荐厄洛替尼联合贝伐珠单抗作为一线治疗选择（Ⅱ级推荐，1A类证据）。贝伐珠单抗联合吉非替尼可作为一线治疗选择（Ⅱ级推荐，2A类证据）。
+IMpower150研究亚组分析的结果显示，在EGFR基因敏感突变人群中，ABCP组较BCP组的中位PFS有获益趋势（10.2个月比6.9个月，HR=0.61；95%CI：0.36~1.03）；在EGFR敏感突变患者中，ABCP组较BCP组的OS（29.4个月比18.1个月，HR=0.6；95%CI：0.31~1.14）也有获益趋势[34]。IMpower150研究是首个也是目前唯一一个提示免疫联合贝伐珠单抗和化疗方案在EGFR基因敏感突变的晚期非鳞NSCLC人群中获益的临床试验。
+【推荐意见4】 EGFR敏感突变经TKI治疗发生疾病进展后，且无证据提示T790M突变的患者，或伴T790M突变经奥希替尼治疗失败后的患者排除其他靶向药物治疗机会后，推荐使用阿替利珠单抗+贝伐珠单抗+卡铂+紫杉醇四药方案作为后线治疗选择（Ⅲ级推荐，2A类证据)。
+（二）重组人血管内皮抑制素用于晚期NSCLC一线治疗的推荐意见
+我国开展的一项随机、双盲、对照、多中心临床研究纳入了493例初治或经治的Ⅲ期/Ⅳ期NSCLC患者，随机分配给予长春瑞滨和顺铂（NP）联合重组人血管内皮抑制素（YH-16）（试验组）与NP联合安慰剂（对照组）治疗。在486例可评价疗效的患者中，试验组和对照组的ORR、临床获益率（clinical benefit rate, CBR）、中位TTP分别为35.4%比19.5%（P<0.001）、73.3%比64.0%（P=0.035）、6.3个月比3.6个月（P<0.001）。在初治患者中，两组患者ORR、CBR、中位TTP分别为40.0%比23.9%（P=0.003）、76.5%比65.0%（P=0.023）、6.6个月比3.7个月（P<0.001）；在经治患者中，两个治疗组的ORR、CBR、中位TTP分别为23.9%比8.5%（P=0.034）、65.2%比61.7%（P=0.680）、5.7个月比3.2个月（P<0.001）。此外，试验组的临床症状缓解率较对照组略高，但差异无统计学意义（P>0.050），但试验组在治疗后QoL评分有显著提高（P=0.016）。该研究表明，相比单用NP方案，YH-16联合NP方案能改善初治以及经治的晚期NSCLC患者的治疗结局，且安全性良好[47]。
+【推荐意见5】对于驱动基因突变阴性，PS 0~1分的晚期NSCLC患者（包括鳞状NSCLC和非鳞NSCLC），可一线使用重组人血管内皮抑制素联合长春瑞滨和顺铂治疗2~4个周期（Ⅱ级推荐，2B类证据）。
+二、一线治疗后的维持治疗
+在一线治疗结束后，单用贝伐珠单抗维持治疗的疗效得到了大样本临床试验数据的支持。2011年，一项临床试验回顾性分析了美国癌症网络的电子病历资料，结果显示，晚期非鳞NSCLC患者接受一线标准化疗联合贝伐珠单抗治疗后，继续使用贝伐珠单抗单药维持，患者的中位OS与中位PFS分别为20.9个月与10.3个月，优于未接受维持治疗患者的10.2个月与6.5个月（P值均<0.001）[48]。ARIES研究纳入1 967例接受标准一线化疗的晚期非鳞NSCLC患者，结果显示，在诱导治疗的中位OS方面，一线化疗后使用贝伐珠单抗维持治疗患者OS显著优于未接受维持治疗患者（15.6个月比11.3个月，P<0.001）[49]。
+而贝伐珠单抗联合培美曲塞维持治疗的疗效也在多项临床试验中得到证实。2013年发表的AVAPERL研究在晚期非鳞NSCLC患者分析了一线培美曲塞+顺铂+贝伐珠单抗治疗后使用贝伐珠单抗单药维持或培美曲塞+贝伐珠单抗联合方案维持治疗的疗效，最终证明联合方案维持治疗组患者的中位PFS和OS均长于单药维持组[7.4个月比3.7个月（HR=0.48；95%CI：0.35~0.66；P<0.001）]；联合方案维持治疗组的所有级别≥3级，以及SAE更为常见，但未观察到新的安全性事件[30]。
+一项多中心、随机开放标签Ⅲ期临床临床试验（PointBreak研究）纳入939例未经治疗的Ⅲb期或Ⅳ期非鳞NSCLC患者，随机分配接受一线贝伐珠单抗+卡铂+培美曲塞（PemCBev组）或贝伐珠单抗+卡铂+紫杉醇（PacCBev组）治疗，如一线治疗后无进展或达到稳定，PemCBev组给予贝伐珠单抗+培美曲塞维持治疗，PacCBev组给予贝伐珠单抗维持治疗，维持治疗持续至肿瘤进展。结果显示，PemCBev组的292例受试者和PacCBev组的298例受试者接受了维持治疗。PemCBev组维持治疗患者的中位OS达到17.7个月，PacCBev组达到15.7个月。PemCBev组维持治疗患者的中位PFS达到8.6个月，PacCBev组达到6.9个月。研究中未观察到新的安全性问题[27]。
+贝伐珠单抗+培美曲塞维持治疗的疗效在一项随机、开放标签、平行组、多中心Ⅲ期临床试验（COMPASS研究）[50]中得到了进一步的确认。该临床试验纳入了599例既往接受卡铂+培美曲塞+贝伐珠单抗诱导治疗后未发生疾病进展的亚裔晚期非鳞NSCLC患者，1∶1随机给予培美曲塞+贝伐单抗联合治疗或贝伐珠单抗单药维持治疗。结果显示，总体人群中，贝伐珠单抗+培美曲塞组的中位PFS较贝伐珠单抗组显著延长（5.7个月比4.0个月；HR=0.67，95%CI：0.57~0.79，P<0.001）。对EGFR野生型患者进行亚组分析发现，贝伐珠单抗+培美曲塞组的中位OS显著长于贝伐珠单抗组（23.3个月比18.3个月，HR=0.821；95%CI：0.678~0.994，P=0.020）。在<70岁亚组患者中，贝伐珠单抗+培美曲塞组的中位OS同样延长（HR=0.792；95%CI：0.640~0.980）。
+因此，一线贝伐珠单抗联合培美曲塞和卡铂治疗后未发生疾病进展的患者，继续使用贝伐珠单抗联合培美曲塞维持治疗能够取得显著生存获益。
+此外，另一项主要入组高加索裔人群的Ⅲ期临床试验（ECOG-ACRIN 5508研究）纳入1 516例ECOG PS 0~1分的初治Ⅲb期或Ⅳ期非鳞NSCLC患者，在接受卡铂+紫杉醇+贝伐珠单抗治疗后，1∶1∶1随机给予贝伐珠单抗单药、培美曲塞单药或二者联合维持治疗。结果显示，贝伐珠单抗联合培美曲塞作为维持治疗较贝伐珠单抗单药维持并未显著延长患者的中位OS（15.9个月比14.4个月，HR=0.86；97.5%CI：0.70~1.07，P=0.120），且3~4级SAE发生率增加（51%比29%）[51]。因此，在高加索裔人群中，推荐使用贝伐珠单抗单药维持治疗方案。
+【推荐意见6】对于驱动基因突变阴性且PS 0~1分的晚期非鳞NSCLC患者，贝伐珠单抗联合含铂双药一线治疗后达到缓解或疾病稳定，推荐使用贝伐珠单抗单药维持治疗，直至患者不可耐受或出现疾病进展（Ⅰ级推荐，1A类证据）。如患者一线使用贝伐珠单抗+培美曲塞方案，可选择贝伐珠单抗联合培美曲塞维持治疗直至患者不可耐受或出现疾病进展（Ⅱ级推荐，2A类证据）。
+三、二线及以上治疗
+2020年发表的一项随机对照Ⅲ期临床试验（IFCT-1103 ULTIMATE），在166例既往接受过含铂化疗的晚期非鳞NSCLC患者中比较了贝伐珠单抗联合紫杉醇和单用多西他赛的疗效。随访28.9个月的结果显示，贝伐珠单抗联合紫杉醇作为二线或三线治疗的中位PFS较单用多西他赛显著改善（5.4个月比3.9个月，HR=0.61，P=0.005），ORR也显著提高（22.5%比5.5%，P=0.006）[52]。
+2019年《肿瘤学年鉴》（Annals of Oncol）发表的另一项多中心回顾性研究进一步支持了上述研究结果。该研究纳入了76例晚期非鳞NSCLC患者，其中包括了免疫检查点抑制剂治疗后进展的患者。结果显示，贝伐珠单抗联合紫杉醇二线及三线治疗的ORR分别为39%与42%，中位PFS分别为4个月与6个月；二线治疗的中位OS为9.4个月，三线治疗的中位OS未达到[53]。
+此外，贝伐珠单抗联合多西他赛或培美曲塞二线治疗的疗效已得到确认。一项Ⅱ期临床试验共纳入28例既往接受治疗的晚期非鳞NSCLC患者。随访23.9个月的结果显示，贝伐珠单抗联合多西他赛二线治疗的中位PFS为7.2个月，缓解率达66.7%[54]。另一项纳入48例既往接受过一种化疗方案的晚期非鳞NSCLC患者的多中心Ⅱ期临床试验显示，贝伐珠单抗联合培美曲塞二线治疗的中位PFS为4.1个月，CBR为50%[55]。
+对于驱动基因阳性的患者，贝伐珠单抗联合含铂双药化疗在既往靶向治疗失败患者中的疗效也已得到证实。一项前瞻性、多中心、单臂Ⅱ期临床试验表明贝伐珠单抗联合卡铂+紫杉醇方案可成为EGFR-TKI失败后的治疗选择。该研究纳入30例EGFR基因敏感突变的Ⅲb/Ⅳ期非鳞NSCLC患者，结果显示ORR与DCR分别为37%与83%，中位PFS与OS分别为6.6个月与18.2个月[56]。
+除此之外，在既往接受过治疗的EGFR/ALK野生型非鳞NSCLC患者中，卡瑞利珠单抗+阿帕替尼联合治疗方案也表现出潜在的抗肿瘤活性（ORR=30.8%；DCR=82.4%；中位PFS=5.9个月）及可接受的安全性，该研究Ⅰ/Ⅱ期结果已于2019年ASCO年会上发表[57]。
+【推荐意见7】既往化疗或免疫检查点抑制剂治疗失败，且未使用过贝伐珠单抗的晚期非鳞NSCLC患者，可选择贝伐珠单抗联合化疗用于二线及以上治疗（Ⅰ级推荐，1B类证据）。既往经TKI治疗失败的患者，可选择贝伐珠单抗联合化疗用于二线及以上治疗（Ⅰ级推荐，2A类证据）。
+一项安慰剂对照、随机、双盲、多中心Ⅱ期临床试验（ALTER0302研究）旨在明确安罗替尼用于复发性晚期NSCLC三线及以上的治疗效果和安全性。研究纳入117例至少接受过二线方案治疗的复发性Ⅲb期/Ⅳ期肺鳞癌或肺腺癌患者，PS 0~2分，随机分配给予安罗替尼或安慰剂治疗。结果显示，安罗替尼组患者（n=60）的中位PFS（4.8个月比1.2个月，HR=0.32，P<0.001）与ORR（10.0%比0, P=0.028）均显著优于安慰剂组（n=57），但两组的中位OS差异无统计学意义（9.3个月比6.3个月；HR=0.78，P=0.232）[23]。
+后续开展的一项前瞻性、大型、多中心、随机、双盲的Ⅲ期临床试验（ALTER0303研究）共437例患者接受随机分配并完成了研究治疗。总体人群数据显示，相比安慰剂组，安罗替尼组（n=294）的中位OS延长3.3个月（9.6个月比6.3个月，HR=0.68，P=0.002；中位PFS延长4.0个月（5.4个月比1.4个月，HR=0.25，P<0.001）。安罗替尼组的ORR（9.2%比0.7%，P<0.001）和DCR（81.0%比37.1%，P<0.001）等次要终点也均优于对照组。安罗替尼在研究中最常见的≥3级不良反应是高血压和低血钠症[24]。该研究的亚组分析结果于2019年WCLC上发表[58]。研究显示，既往抗血管生成药物（贝伐珠单抗或重组人血管内皮抑制素）治疗对安罗替尼的中位PFS和OS无影响（贝伐珠单抗组、重组人血管内皮抑制素组与未接受抗血管治疗组的中位PFS分别为2.8、5.6和5.5个月，P=0.701；中位OS分别为9.57、9.87和9.40个月，P=0.905）；有胸部放疗（CRT）史的患者从安罗替尼的治疗中PFS获益更多（中位PFS：5.93个月比4.63个月，P=0.027）；接受安罗替尼治疗的患者，EGFR TKI和化疗史对OS的影响大于PFS。一项纳入5项研究的荟萃分析比较了目前多个小分子多靶点TKI在三线治疗的疗效，发现安罗替尼在PFS方面更具优势[59]。
+【推荐意见8】对于驱动基因突变阴性以及EGFR基因敏感突变的复发性晚期NSCLC（包括鳞癌和非鳞癌）患者，推荐安罗替尼作为三线及以上治疗。对于存在EGFR基因敏感突变或ALK突变阳性的患者，应在接受相应的靶向药物治疗后进展且至少接受过2种系统化疗后出现进展或复发后使用安罗替尼（Ⅰ级推荐，1A类证据）。
+四、特定人群的治疗推荐
+（一）伴无症状脑转移的晚期非鳞NSCLC患者
+一项前瞻性非对照Ⅱ期临床试验（BRAIN研究），在91例无症状脑转移非鳞NSCLC患者中分析了贝伐珠单抗治疗的效果及安全性。其中67例患者接受贝伐珠单抗+卡铂+紫杉醇一线治疗。结果显示，贝伐珠单抗方案一线治疗患者的中位PFS为6.7个月（95%CI：5.7~7.1），中位OS为16.0个月，ORR为62.7%。一线治疗相关不良反应均可控[60]。
+一项回顾性研究显示，对于脑转移晚期非小细胞肺腺癌患者，在培美曲塞+铂类的联合方案基础上，联合贝伐珠单抗可明显获益。该研究中71例脑转移晚期非小细胞肺腺癌患者，其中26例联合贝伐珠单抗治疗。结果显示，与培美曲塞+铂类组相比，贝伐珠单抗+培美曲塞+铂类组的中位PFS显著延长（9.2个月比8.2个月，P=0.029），颅内PFS（iPFS）亦显著延长（24.3个月比10.9个月，P=0.008）[61]。
+另一项回顾性研究纳入51例初治或经治晚期脑转移NSCLC患者并接受贝伐珠单抗治疗。结果发现，患者ORR为62.7%，中位PFS与OS分别为6.2个月（95%CI：5.0~7.4）和14.0个月（95%CI：9.6~18.4），颅内中位PFS为7.8个月（95%CI：7.1~8.5）。研究表明贝伐珠单抗可有效治疗合并脑转移的NSCLC[62]。
+而至于其安全性，一项纳入17项研究的回顾性探索性分析显示，脑转移肿瘤患者（包括乳腺癌、NSCLC、肾癌、结直肠癌）接受贝伐珠单抗治疗后的颅内出血发病率为0.8%~3.3%，且与对照组差异无统计学意义（P>0.05），这表明贝伐珠单抗并未增加脑转移患者的颅内出血风险[63]。另一项针对伴脑转移NSCLC患者的系统文献综述也发现，未治或经治的NSCLC脑转移患者接受贝伐珠单抗等抗VEGF靶向药物治疗后，颅内出血风险增加无统计学意义（P>0.05）[64]。
+此外，对于EGFR基因敏感突变患者，一些研究表明贝伐珠单抗联合EGFR-TKI具有一定的效果。CTONG 1509 Ⅲ期临床试验包括了91例脑转移患者，脑转移亚组结果显示，贝伐珠单抗+厄洛替尼联合治疗较厄洛替尼单药治疗可降低58%脑转移风险（HR=0.42；95%CI：0.26~0.67）[42]。
+一项回顾性研究纳入208例EGFR基因敏感突变伴多发脑转移的NSCLC患者，并分析了EGFR-TKI+贝伐珠单抗（n=59）和EGFR-TKI单药（n=149）治疗的疗效。结果显示，与EGFR-TKI单药治疗相比，EGFR-TKI+贝伐珠单抗联合治疗的颅内ORR（66.1%比41.6%，P=0.001）和全身ORR（74.6%比57.1%，P=0.019）显著增加，颅内PFS（14.0个月比8.2个月，P<0.001）、全身中位PFS（14.4个月比9.0个月，P<0.001）以及OS（29.6个月比21.7个月，P<0.001）显著延长[65]。
+【推荐意见9】对驱动基因突变阴性的伴脑转移的晚期NSCLC患者，可选用基于贝伐珠单抗的联合治疗方案（Ⅰ级推荐，1B类证据）；对EGFR基因敏感突变的伴脑转移的晚期NSCLC患者，可选择贝伐珠单抗联合EGFR-TKI的治疗方案（Ⅱ级推荐，2A类证据）。
+ALTER0303研究的事后分析纳入其中97例合并脑转移的NSCLC患者。结果显示，与安慰剂相比，安罗替尼治疗后中位PFS显著延长（4.17个月比1.30个月；HR=0.29，95%CI：0.15~0.56，P<0.001），颅内ORR为14.3%；DCR达85.7%[66]。
+【推荐意见10】对接受过2种系统化疗后的伴脑转移晚期NSCLC患者，推荐使用安罗替尼（Ⅰ级推荐，2A类证据）。
+（二）伴经放射性治疗引起的脑水肿或脑坏死等的晚期NSCLC脑转移患者
+贝伐珠单抗在该类型患者中积累了较为丰富的临床经验。一项随机、多中心、开放标签、对照临床试验纳入112例放射性脑坏死患者，随机分配给予贝伐珠单抗（5 mg/kg静脉滴注，每2周1次）或激素治疗。结果显示，在治疗第8周，贝伐珠单抗较激素治疗可显著提高有效率（65.5%比31.5%，P<0.001），临床获益的患者人数也显著增加（62.1%比42.6%，P=0.039）[67]。
+此外，其他几项小型的临床研究报道了同样的结果。贝伐珠单抗在经放射性治疗引起的症状性脑转移患者中取得PFS、OS及影像学的积极结果。一项纳入13例临床或影像学进展的晚期脑转移NSCLC患者的临床试验显示，贝伐珠单抗+吉西他滨+卡铂治疗，患者中位PFS达9.1个月，中位OS达9.6个月；经治疗后患者脑水肿消失，且无一例患者出现颅内出血、脑血管意外事件及严重高血压等不良反应[68]。另一项回顾性研究纳入11例立体定向放射治疗后发生放射性脑坏死的患者（其中6例为转移性NSCLC患者），予以贝伐珠单抗治疗后，行MRI发现液体衰减反转恢复（FLAIR）相脑坏死体积平均减少64.3%[69]。
+【推荐意见11】对经放射性治疗引起的脑水肿或脑坏死等晚期NSCLC脑转移患者，推荐贝伐珠单抗缓解瘤周水肿、减轻症状。（Ⅱ级推荐，2A类证据）。
+（三）伴肝转移晚期NSCLC患者
+IMpower150研究预设肝转移作为分层因素。该研究最终性分析的肝转移亚组（n=161）结果显示，ABCP组较BCP组的OS有获益趋势[13.2个月（95%CI：11.6~22.3）比9.1个月（95%CI：7.9~11），HR=0.67；95%CI：0.45~1.02][34]，疗效及安全性良好。
+【推荐意见12】对伴肝转移的驱动基因阴性晚期非鳞NSCLC患者，阿替利珠单抗联合贝伐珠单抗、卡铂及紫杉醇治疗方案可作为一线选择方案（Ⅱ级推荐，2A类证据）。
+（四）伴恶性胸腔积液的晚期非鳞NSCLC患者
+一项中国研究纳入72例伴发恶性胸腔积液的晚期转移性非鳞NSCLC患者，分析局部胸腔灌注贝伐珠单抗联合顺铂的治疗效果。受试者胸膜内给予30 mg顺铂加300 mg贝伐珠单抗或30 mg顺铂单药治疗，每两周1次，进行3周期的治疗。结果显示，联合治疗组患者的胸腔积液控制率显著高于顺铂单药治疗组（88.33%比50.00%, P<0.05）；胸水中的VEGF水平在联合治疗后也显著降低，且两组之间VEGF水平的降低幅度具有统计学意义（P<0.01）；此外，在VEGF高表达患者中，贝伐珠单抗联合化疗局部灌注治疗的治疗有效率更高（P<0.001）。治疗过程中患者的耐受性良好[70]。
+日本一项多中心Ⅱ期临床试验纳入20例导管引流或胸膜固定术治疗失败、伴发恶性胸腔积液的Ⅳ期非鳞NSCLC患者，给予贝伐珠单抗（15 mg/kg，每3周1次）联合化疗的方案。结果显示，80%的患者胸腔积液得到控制，胸腔中位PFS和OS分别为16.6个月与19.6个月。此外，胸腔积液中高VEGF水平较低VEGF水平患者的胸腔中位PFS（1.2个月比17.2个月，P=0.010）与OS（P=0.002）均显著降低[71]。
+2017年，中国一项前瞻性、随机对照、多中心Ⅲ期临床临床试验纳入317例伴有中等量以上恶性胸腹腔积液的患者，旨在观察和证实腔内应用重组人血管内皮抑制素注射液和(或)顺铂治疗恶性胸腹腔积液的有效性和安全性。入选中等量以上恶性胸腹腔积液患者，随机分为A组（重组人血管内皮抑制素单药组）、B组（顺铂单药组）和C组（重组人血管内皮抑制素联合顺铂组）。3组均在充分穿刺抽液或引流后给药。A组腔内注射重组人血管内皮抑制素，45 m/次（胸腔）或60 mg/次（腹腔）；B组腔内注射顺铂，40 m/次；C组为上述两种药物联合应用，剂量相同；3组给药时间均为用药第1、4、7天（d1、d4、d7），连用3次为1个疗程。最多可接受2个疗程的治疗。结果显示，重组人血管内皮抑制素单药组（A组）、顺铂单药组（B组）和联合用药组（C组）的ORR分别为48.51%、46.39%和63.00%（P=0.037），两两比较，C组较A组、B组高（P<0.05）；对于血性胸腔积液，A组、C组ORR分别为71.42%和88.88%，均显著优于B组的40.00%（P<0.05）。A、B、C组的中位TTP分别为68.869、44.951和69.030 d（P=0.012），两两比较，A组、C组的中位TTP均长于B组（P值分别为0.024、0.005）。安全性方面，A组不良事件发生率显著低于B组（P<0.001），B组、C组之间差异无统计学意义（P=0.287）[72]。
+【推荐意见13】伴有恶性胸腔积液的晚期非鳞NSCLC患者，可在全身治疗的基础上联合或局部使用贝伐珠单抗或重组人血管内皮抑制素（Ⅱ级推荐，1B类证据）。
+（五）老年晚期非鳞NSCLC患者
+多项研究探索了贝伐珠单抗在老年晚期非鳞NSCLC患者中应用的疗效，Ⅳ期MO19390（SAiL）研究在623例晚期非鳞患者中进行的年龄亚组分析显示，年龄较高（≥65岁）和较低（<65岁）患者一线接受贝伐珠单抗联合任意标准化疗方案（含铂或不含铂）治疗的结局差异无统计学意义：中位OS均为14.6个月，中位TTP分别为8.2个月与7.6个月，缓解率分别为49.3%和52.4%，疾病控制率分别为89.3%和88.4%。而且两组出血、高血压、蛋白尿不良反应发生率差异亦无统计学意义[73]。
+一项法国的非干预性、前瞻性、多中心的真实世界研究（AVANTAGE研究）纳入了249例一线接受贝伐珠单抗+化疗联合治疗的老年晚期非鳞NSCLC患者。结果显示，患者的中位PFS为7.1个月，中位OS为12.3个月（65~70岁患者的中位OS为14.9个月，≥70岁患者的中位OS为11.3个月）[74]。
+一项开放标签、多中心、随机Ⅱ期临床试验（TORG1323研究）入组了103例既往未接受治疗的老年（≥75岁）晚期非鳞NSCLC患者，随机给予贝伐珠单抗+多西他赛（n=51）或贝伐珠单抗+培美曲塞（n=52）治疗。目前研究因入组速度较慢而终止。结果显示，两组中位PFS（6.1个月比4.6个月；HR=1.03，95%CI：0.66~1.61，P=0.901）和中位OS差异无统计学意义（18.7个月比26.6个月；HR=0.69，95%CI：0.36~1.30，P=0.247）[75]。
+ARIES研究的年龄亚组分析结果则显示，一线接受含贝伐珠单抗方案治疗后，≥65岁或者≥75岁患者的中位PFS与<65岁或者<75岁的患者类似，分别为6.4个月比6.8个月与6.6个月比6.6个月；OS分别为14.2个月比12.1个月与13.5个月比11.6个月[76]。
+【推荐意见14】对于老年晚期非鳞NSCLC患者（年龄≥65岁），一线治疗可选择含贝伐珠单抗方案（Ⅰ级推荐，2A类证据）。
+ALTER 0303 Ⅲ期临床试验中包括了28例老年患者，老年患者亚组结果显示，安罗替尼治疗患者的OS（14.5个月比6.3个月，HR=0.34，P=0.030）较安慰剂组显著改善。ALTER0303研究的亚组分析表明，安罗替尼可作为晚期NSCLC老年患者的三线治疗选择[24]。
+【推荐意见15】对于老年晚期NSCLC患者（年龄≥70岁），三线治疗可选择安罗替尼（Ⅰ级推荐，2A类证据）。
+五、不良反应管理
+从临床研究的数据来看，抗血管生成药物用于晚期NSCLC患者治疗期间的不良反应可控，安全性良好。常见的≥3级不良事件包括高血压、蛋白尿、出血和血栓栓塞事件等。值得一提的是，贝伐珠单抗目前已在全球获批7个肿瘤适应证，已有270万人群在实际临床中使用过该药物，临床对其安全性的预控性更高。
+（一）高血压
+使用贝伐珠单抗或安罗替尼的NSCLC患者，≥3级高血压的发生率分别为5%~9%、10.0%~13.6%，究其原因，在肿瘤发生发展过程中，VEGF被阻断，导致一氧化氮水平下降，进而导致血管无法扩张，增加外周阻力，引发高血压。此外，一氧化氮水平较低还与肾排泄量减少相关，继而导致水钠潴留[77]。
+【推荐意见16】使用贝伐珠单抗或安罗替尼治疗时，需动态监测患者血压值；如发生高血压，或患者血压值较基线明显升高，则推荐开始使用降压药，达到良好的血压控制，推荐低危患者的血压控制目标是140 mmHg/90 mmHg（1 mmHg=0.133 kPa），高危患者应为130 mmHg/80 mmHg；血管紧张素转化酶抑制剂（angiotensin-converting enzyme inhibitor, ACEI）、血管紧张素Ⅱ受体拮抗剂（angiotensin Ⅱ receptor antagonist, ARB）、β受体阻滞剂、钙离子通道阻滞剂都是可选择的降压药物；如出现中度以上的高血压（高于160 mmHg/100 mmHg），且降压药暂不能控制，则应暂停贝伐珠单抗或安罗替尼，直至血压恢复至可控状态，如果高血压经过治疗1个月仍未得到控制或出现高血压危象或高血压性脑病，则需停用贝伐珠单抗或安罗替尼。
+（二）蛋白尿
+据统计，治疗方案中选择了贝伐珠单抗或安罗替尼的NSCLC患者，≥3级蛋白尿的发生率分别为<1%~4%和0~2.4%，主要是因为这两类抗血管药物能抑制VEGF通路，导致肾小球毛细血管内皮失窗孔化、内皮水肿和脱离，进而破坏滤过屏障的完整性，出现蛋白尿[78]。
+【推荐意见17】在每次开始贝伐珠单抗或安罗替尼治疗前都应进行尿蛋白的检测；如果出现24 h蛋白尿水平>2 g，应该暂停贝伐珠单抗或安罗替尼治疗，并密切观察，直至24 h蛋白尿水平<2 g；肾病综合征（24 h蛋白尿水平>3.5 g）患者建议停用贝伐珠单抗或安罗替尼；ACEI和ARB类降压药可降低蛋白尿的严重程度和终末期肾病的风险，推荐使用。必要时请专科医生会诊。
+（三）出血
+在贝伐珠单抗或安罗替尼治疗的NSCLC人群中，≥3级咯血的发生率分别为1.0%~4.4%和0~3.1%。一方面，阻断VEGF使其失活，导致一氧化氮水平下调，可能会影响血小板的活化；另一方面，抑制VEGF通路会影响内皮细胞存活和增殖，导致血管完整性受损，特别是在具有高VEGF依赖性的组织中，如气道黏膜受损[78]。
+[推荐意见18]在开始治疗前应评价潜在风险因素，鉴别出血高风险人群，如：存在活动性胃溃疡会增加胃肠道出血风险；空洞型肺鳞癌患者使用安罗替尼存在肺出血风险；近期瘤块中有出血征象的患者，使用抗血管生成药物时应持谨慎态度；3个月内发生过肺出血、咯血（>3 ml的鲜红血液）的患者不应该使用贝伐珠单抗或者安罗替尼治疗；监测患者的中枢神经系统出血症状和体征，一旦出现颅内出血应该中断贝伐珠单抗或者安罗替尼治疗；治疗过程中发生1级出血事件，不需调整抗血管生成药物剂量；发生2级出血事件，需暂停治疗；发生≥3级出血事件，应该永久停用贝伐珠单抗或安罗替尼。
+（四）血栓栓塞事件
+贝伐珠单抗通过阻断VEGF影响受损血管内皮表面的修复过程，导致内皮组织暴露以及内皮细胞的凋亡，同时刺激凝血酶原因子Ⅲ，进而引发凝血级联反应，形成血凝块。血管内皮细胞凋亡可能导致抗凝血因子血栓调节蛋白和硫酸乙酰肝素的下调以及磷脂酰丝氨酸的重新分布，后者可增强凝血酶原因子X的促凝活性[78]。在贝伐珠单抗经治的NSCLC患者中，≥3级血栓栓塞的发生率为0~7%。
+【推荐意见19】对使用抗血管生成药物治疗中出现静脉血栓栓塞事件（venous thromboembolism, VTE）的晚期NSCLC患者，应停止治疗，并推荐使用低分子量肝素（low molecular weight heparin, LMWH）进行抗凝治疗；对于出现≤3级VTE的患者，在开始LMWH后可恢复抗血管生成药物治疗；对于出现≥4级VTE或抗凝治疗后复发性或难治性血栓栓塞的患者，应终止抗血管生成药物治疗；所有使用贝伐珠单抗的患者都应考虑存在动脉血栓栓塞事件（arterial thromboembolism，ATE）风险，有动脉血栓栓塞史、糖尿病或年龄>65岁以及易发血管病（如心脏支架植入史）的患者，使用贝伐珠单抗时应慎重；治疗过程中出现任何级别的ATE事件，急性期应中止贝伐珠单抗治疗；近期发生过ATE的患者，至少在ATE发生后6个月内不能使用贝伐珠单抗治疗，开始贝伐珠单抗治疗前应确定患者处于稳定状态或无症状。必要时请专科医生会诊。
+六、注意事项
+NSCLC抗血管生成药物临床应用有以下注意事项：（1）了解用药风险因素，规范使用抗血管生成药物是降低不良反应发生风险的重要前提，对于某些特殊人群需要用到抗血管生成药物时建议慎重评估患者风险，必要时请研究者在专科医生参与指导下用药。（2）以下因素可能增加出血/咯血风险，使用抗血管生成药物时应慎重：伴有空洞或者中央型鳞状细胞NSCLC、长期或大剂量使用抗风湿/抗炎药物治疗或抗凝治疗的患者、原发病灶比较大且该病灶接受过放射治疗的患者、既往具有动脉硬化症病史的患者、具有消化性溃疡的患者等。（3）3个月内发生过肺出血、咯血（>3 ml的鲜红血液）的患者不应该使用抗血管生成药物治疗。（4）有动脉血栓栓塞史，房颤、血管支架植入术后或糖尿病的患者，在抗血管治疗过程中发生动脉血栓栓塞的风险增高。在采用抗血管生成药物对此类患者进行治疗时，应该慎重。（5）有临床重度心血管病的患者（如有冠心病史或充血性心力衰竭），使用抗血管生成药物时应谨慎。（6）重大手术后至少28 d之内不应该开始抗血管生成药物治疗，或者应该等到手术伤口完全愈合之后再开始。抗血管治疗过程中发生了伤口不愈合等并发症的患者，应该暂停抗血管生成药物治疗，直到伤口完全愈合。需要进行择期手术的患者也应该暂停抗血管生成药物治疗（4~6周）。（7）贝伐珠单抗可能损害女性生育力。因此，在使用贝伐珠单抗治疗前，应当与有潜在生育力的妇女讨论生育力的保护方法。妊娠期间不应该使用贝伐珠单抗。育龄妇女在采用贝伐珠单抗进行治疗时，应采取适当的避孕措施。（8）建议妇女在采用贝伐珠单抗进行治疗时停止哺乳，并且在最后一次贝伐珠单抗治疗后的至少6个月内不要采取母乳喂养。
+抗血管生成药物在晚期NSCLC患者中的临床应用总结
+抗血管生成药物在晚期NSCLC患者中的临床应用推荐意见汇总见附录1。抗血管生成药物在晚期NSCLC患者中的临床应用不良反应管理见附录2。具体实践可参考附件：抗血管生成药物临床不良反应处理手册（http://dx.doi.org/10.3779/j.issn.1009-3419.2019.07.11）。
+总结与展望
+从传统的含铂双药化疗到近10年间得以应用的分子靶向治疗以及近4年来逐渐兴起的肿瘤免疫治疗，晚期NSCLC的治疗理念在不断地发生变化。自美国食品药品监督管理局（Food and Drug Administration, FDA）于2006年批准抗血管生成药物贝伐珠单抗用于晚期NSCLC一线治疗以来，从大量的临床数据和实际临床应用情况来看，这类药物在晚期NSCLC患者的临床管理中一直占据着重要地位。肿瘤新生血管生成与包括NSCLC在内的实体瘤的发生和进展密切相关，且贯穿肿瘤进展的全程，因此抗血管生成药物可使广泛的晚期NSCLC患者达到治疗获益。抗血管药物联合化疗为经典治疗模式，从目前的最新研究结果来看，肿瘤免疫治疗联合抗血管生成药物可扩大肿瘤免疫治疗的受益人群，联合靶向药物也能使驱动基因阳性的患者受益。相比欧美人群，东亚患者可从抗血管生成药物治疗中得到更大获益。随着3种抗血管生成药物在我国陆续获批用于晚期NSCLC患者，这类药物在我国肺癌临床已实际应用了10年，积累了丰富的经验和真实世界数据。贝伐珠单抗已在全球临床应用10余年，获批了7个适应证，已有270万人实际使用过该药，该药在我国的获批是基于大样本的中国人群数据。重组人血管内皮抑制素和安罗替尼则是我国自主研发的抗血管生成药物。这3种药物在中国晚期NSCLC患者中的疗效和安全性均得到了强有力的证据支持。对于抗血管生成药物在晚期NSCLC患者中的应用，还有许多问题有待进一步的研究探讨。首先，探讨最佳的联合治疗新方案是下一步研究的重要方向；第二，抗血管生成药物在晚期NSCLC患者中的最佳给药模式还有待明确；第三，确定疗效生物标志物是选择优势人群和实现精准抗血管生成治疗的前提。但对于抗血管生成药物在NSCLC中治疗有效性的相关生物标志物[如肿瘤内微血管密度（microvessel density，MVD）]的探索[79]，目前仍处于初始阶段。希望更多的大型临床研究及转化研究能解答我们的科学问题，扩展抗血管药物应用的新领域。
+附录1：抗血管生成药物在晚期非小细胞肺癌患者中的临床应用推荐意见汇总
+附录2：抗血管生成药物在晚期非小细胞肺癌患者中的临床应用不良反应管理
+点击查看大图
+执笔人：上海交通大学附属胸科医院储天晴
+共识制定专家组成员（按单位名称汉语拼音排序）
+安徽省立医院（操乐杰）；北京大学肿瘤医院（方健）；复旦大学附属中山医院（胡洁）；复旦大学附属华山医院（梁晓华、王鑫、周鑫莉）；复旦大学附属肿瘤医院（常建华、王佳蕾、赵伟新）；福建省肿瘤医院（黄诚、林根）；吉林大学第一医院（崔久嵬）；吉林省肿瘤医院（程颖）；哈尔滨医科大学附属第二医院（徐玉清）；河南省肿瘤医院（王启鸣）；湖南省肿瘤医院（陈建华）；江苏省人民医院（束永前）；江苏省肿瘤医院（史美祺）；昆明医科大学第二附属医院（林劼）；南昌大学第二附属医院（刘安文）；南方医科大学南方医院（申鹏）；南京大学医学院附属鼓楼医院（刘宝瑞）；青岛大学附属医院（于壮、张晓春）；青岛市中心医院（马学真）；四川大学华西医院（卢铀、周清华）；山东省肿瘤医院（王哲海）；上海长海医院（韩一平）；上海长征医院（臧远胜）；上海交通大学医学院附属瑞金医院（高蓓莉、张俊）；上海交通大学医学院附属新华医院（郑磊贞）；上海市东方医院（李进）；上海同济大学附属肺科医院（周彩存、苏春霞、何雅億）；上海交通大学附属胸科医院（韩宝惠、储天晴、傅小龙、钟华、余科科）；天津医科大学肿瘤医院（李凯、王长利、王晶、张翠翠）；浙江大学医学院附属第一医院（赵琼、周建英）；浙江大学医学院附属邵逸夫医院（方勇、楼海舟、潘宏铭）；浙江省肿瘤医院（陈明、范云）；解放军第三〇七医院（高红军）；中国人民解放军总医院（焦顺昌）；中国人民解放军东部战区总医院（宋勇）；解放军东部战区总医院秦淮医疗区（秦叔逵）；中国医学科学院肿瘤医院（王洁、高树庚）；中山大学附属肿瘤医院（张力）
+志      谢
+志谢 中山大学附属肿瘤医院蔡修宇，华中科技大学同济医学院附属同济医院褚倩，华中科技大学同济医学院附属协和医院董晓荣，陆军军医大学第三附属医院何勇，中国人民解放军总医院胡毅，上海市胸科医院李子明，广州医科大学附属第一医院梁文华，北京大学国际医院汤传昊，河南省肿瘤医院王慧娟，南京大学医学院附属鼓楼医院王立峰，中国医学科学院肿瘤医院王志杰，湖南省肿瘤医院邬麟，北京大学肿瘤医院赵军，广州医科大学附属第一医院周承志，浙江大学医学院附属第一医院周建娅，广东省人民医院周清，广东省人民医院钟文昭，陆军军医大学第二附属医院朱波等教授对共识的审议
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+BrayF, FerlayJ, SoerjomataramI, et al.
+Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries[J].
+CA Cancer J Clin,
+2018,
+68(
+6):
+394-
+424.
+DOI: 10.3322/caac.21492.
+[2]
+FengRM, ZongYN, CaoSM, et al.
+Current cancer situation in China: good or bad news from the 2018 Global Cancer Statistics?[J].
+Cancer Commun (Lond),
+2019,
+39(
+1):
+22.
+DOI: 10.1186/s40880-019-0368-6.
+[3]
+CuferT, KnezL.
+Update on systemic therapy of advanced non-small-cell lung cancer[J].
+Expert Rev Anticancer Ther,
+2014,
+14(
+10):
+1189-
+1203.
+DOI: 10.1586/14737140.2014.940327.
+[4]
+ZhouY, YangY, YangC, et al.
+Epidermal growth factor receptor (EGFR) mutations in non-small cell lung cancer (NSCLC) of Yunnan in southwestern China[J].
+Oncotarget,
+2017,
+8(
+9):
+15023.
+DOI: 10.18632/oncotarget.14706.
+[5]
+GettingerS, HornL, JackmanD, et al.
+Five-year follow-up of nivolumab in previously treated advanced non-small-cell lung cancer: results from the CA209-003 study[J].
+J Clin Oncol,
+2018,
+36(
+17):
+1675-
+1684.
+DOI: 10.1200/JCO.2017.77.0412.
+[6]
+HerbstRS, OnnA, SandlerA.
+Angiogenesis and lung cancer: prognostic and therapeutic implications[J].
+J Clin Oncol,
+2005,
+23(
+14):
+3243-
+3256.
+DOI: 10.1200/JCO.2005.18.853.
+[7]
+Kazazi-HyseniF, BeijnenJH, SchellensJH.
+Bevacizumab[J].
+Oncologist,
+2010,
+15(
+8):
+819-
+825.
+DOI: 10.1634/theoncologist.2009-0317.
+[8]
+李贞贞，于芝颖，李玉珍.
+重组人血管内皮抑制素注射液[J].
+中国新药杂志,
+2007,
+16(
+7):
+571-
+572.
+DOI: 10.3321/j.issn:1003-3734.2007.07.021.
+[9]
+ShenG, ZhengF, RenD, et al.
+Anlotinib: a novel multi-targeting tyrosine kinase inhibitor in clinical development[J].
+J Hematol Oncol,
+2018,
+11(
+1):
+120.
+DOI: 10.1186/s13045-018-0664-7.
+[10]
+中国临床肿瘤学会.
+中国临床肿瘤学会（CSCO）原发性肺癌诊疗指南（2018版)[M].
+北京:
+人民卫生出版社，
+2018.
+[11]
+Ettinger,D, Borghaei,H, Akerley,W.
+NCCN clinical practice guidelines in oncology -non-small cell lung cancer[J].
+J Natl Compr Canc Netw,
+2006,
+2(
+2):
+548-
+582.
+[12]
+HannaNH, SchneiderBJ, TeminS, et al.
+Therapy for stage Ⅳ non-small-cell lung cancer without driver alterations: ASCO and OH (CCO) joint guideline update[J].
+J Clin Oncol,
+2020,
+38(
+14):
+1608-
+1632.
+DOI: 10.1200/JCO.19.03022.
+[13]
+ZhouC, WuYL, ChenG, et al.
+BEYOND: a randomized, double-blind, placebo-controlled, multicenter, phase Ⅲ study of first-line carboplatin/paclitaxel plus bevacizumab or placebo in Chinese patients with advanced or recurrent nonsquamous non-small-cell lung cancer[J].
+J Clin Oncol,
+2015,
+33(
+19):
+2197-
+2204.
+DOI: 10.1200/JCO.2014.59.4424.
+[14]
+SandlerA, GrayR, PerryMC, et al.
+Paclitaxel-carboplatin alone or with bevacizumab for non-small-cell lung cancer[J].
+N Engl J Med,
+2006,
+355(
+24):
+2542-
+2550.
+DOI: 10.1056/NEJMoa061884.
+[15]
+ReckM, von PawelJ, ZatloukalP, et al.
+Overall survival with cisplatin-gemcitabine and bevacizumab or placebo as first-line therapy for nonsquamous non-small-cell lung cancer: results from a randomised phase Ⅲ trial (AVAiL)[J].
+Ann Oncol,
+2010,
+21(
+9):
+1804-
+1809.
+DOI: 10.1093/annonc/mdq020.
+[16]
+ReckM, von PawelJ, ZatloukalP, et al.
+Phase Ⅲ trial of cisplatin plus gemcitabine with either placebo or bevacizumab as first-line therapy for nonsquamous non-small-cell lung cancer: AVAil[J].
+J Clin Oncol,
+2009,
+27(
+8):
+1227-
+1234.
+DOI: 10.1200/JCO.2007.14.5466.
+[17]
+LangerC, SoriaJC.
+The role of anti-epidermal growth factor receptor and anti-vascular endothelial growth factor therapies in the treatment of non-small-cell lung cancer[J].
+Clin Lung Cancer,
+2010,
+11(
+2):
+82-
+90.
+DOI: 10.3816/CLC.2010.n.011.
+[18]
+HerbstRS, JohnsonDH, MininbergE, et al.
+Phase Ⅰ/Ⅱ trial evaluating the anti-vascular endothelial growth factor monoclonal antibody bevacizumab in combination with the HER-1/epidermal growth factor receptor tyrosine kinase inhibitor erlotinib for patients with recurrent non-small-cell lung cancer[J].
+J Clin Oncol,
+2005,
+23(
+11):
+2544-
+2555.
+DOI: 10.1200/JCO.2005.02.477.
+[19]
+HegdePS, WallinJJ, MancaoC.
+Predictive markers of anti-VEGF and emerging role of angiogenesis inhibitors as immunotherapeutics[J].
+Semin Cancer Biol,
+2018,
+52(
+Pt 2):
+117-
+124.
+DOI: 10.1016/j.semcancer.2017.12.002.
+[20]
+SocinskiMA, JotteRM, CappuzzoF, et al.
+Atezolizumab for first-line treatment of metastatic nonsquamous NSCLC[J].
+N Engl J Med,
+2018,
+378(
+24):
+2288-
+2301.
+DOI: 10.1056/NEJMoa1716948.
+[21]
+SpratlinJL, CohenRB, EadensM, et al.
+Phase Ⅰpharmacologic and biologic study of ramucirumab (IMC-1121B), a fully human immunoglobulin G1 monoclonal antibody targeting the vascular endothelial growth factor receptor-2[J].
+J Clin Oncol,
+2010,
+28(
+5):
+780-
+787.
+DOI: 10.1200/JCO.2009.23.7537.
+[22]
+HallRD, LeTM, HaggstromDE, et al.
+Angiogenesis inhibition as a therapeutic strategy in non-small cell lung cancer (NSCLC)[J].
+Transl Lung Cancer Res,
+2015,
+4(
+5):
+515-
+523.
+DOI: 10.3978/j.issn.2218-6751.2015.06.09.
+[23]
+HanB, LiK, ZhaoY, et al.
+Anlotinib as a third-line therapy in patients with refractory advanced non-small-cell lung cancer: a multicentre, randomised phase Ⅱ trial (ALTER0302)[J].
+Br J Cancer,
+2018,
+118(
+5):
+654-
+661.
+DOI: 10.1038/bjc.2017.478.
+[24]
+HanB, LiK, WangQ, et al.
+Effect of anlotinib as a third-line or further treatment on overall survival of patients with advanced non-small cell lung cancer: the ALTER 0303 phase 3 randomized clinical trial[J].
+JAMA Oncol,
+2018,
+4(
+11):
+1569-
+1575.
+DOI: 10.1001/jamaoncol.2018.3039.
+[25]
+AbdollahiA, HahnfeldtP, MaerckerC, et al.
+Endostatin′s antiangiogenic signaling network[J].
+Mol Cell,
+2004,
+13(
+5):
+649-
+663.
+DOI: 10.1016/s1097-2765(04)00102-9.
+[26]
+KuboT, NogamiN, BesshoA, et al.
+Phase Ⅱ trial of carboplatin, nab-paclitaxel and bevacizumab for advanced non-squamous non-small cell lung cancer (CARNAVAL study; TORG1424/OLCSG1402)[J].
+Ann Oncol,
+2019,
+30:
+ix172-
+ix173.
+DOI: 10.1093/annonc/mdz437.037.
+[27]
+PatelJD, SocinskiMA, GaronEB, et al.
+PointBreak: a randomized phase Ⅲ study of pemetrexed plus carboplatin and bevacizumab followed by maintenance pemetrexed and bevacizumab versus paclitaxel plus carboplatin and bevacizumab followed by maintenance bevacizumab in patients with stage ⅢB or Ⅳ nonsquamous non-small-cell lung cancer[J].
+J Clin Oncol,
+2013,
+31(
+34):
+4349-
+4357.
+DOI: 10.1200/JCO.2012.47.9626.
+[28]
+BarlesiF, ScherpereelA, RittmeyerA, et al.
+Randomized phase Ⅲ trial of maintenance bevacizumab with or without pemetrexed after first-line induction with bevacizumab, cisplatin, and pemetrexed in advanced nonsquamous non-small-cell lung cancer: AVAPERL (MO22089)[J].
+J Clin Oncol,
+2013,
+31(
+24):
+3004-
+3011.
+DOI: 10.1200/JCO.2012.42.3749.
+[29]
+MokTS, HsiaTC, TsaiCM, et al.
+Efficacy of bevacizumab with cisplatin and gemcitabine in Asian patients with advanced or recurrent non-squamous non-small cell lung cancer who have not received prior chemotherapy: a substudy of the Avastin in Lung trial[J].
+Asia Pac J Clin Oncol,
+2011,
+7
+Suppl 2∶
+4-
+12.
+DOI: 10.1111/j.1743-7563.2011.01397.x.
+[30]
+SoriaJC, MauguenA, ReckM, et al.
+Systematic review and meta-analysis of randomised, phase Ⅱ/Ⅲ trials adding bevacizumab to platinum-based chemotherapy as first-line treatment in patients with advanced non-small-cell lung cancer[J].
+Ann Oncol,
+2013,
+24(
+1):
+20-
+30.
+DOI: 10.1093/annonc/mds590.
+[31]
+ZhouCC, BaiCX, GuanZZ, et al.
+Safety and efficacy of first-line bevacizumab combination therapy in Chinese population with advanced non-squamous NSCLC: data of subgroup analyses from MO19390 (SAiL) study[J].
+Clin Transl Oncol,
+2014,
+16(
+5):
+463-
+468.
+DOI: 10.1007/s12094-013-1102-5.
+[32]
+XingP, MuY, WangY, et al.
+Real world study of regimen containing bevacizumab as first-line therapy in Chinese patients with advanced non-small cell lung cancer[J].
+Thorac Cancer,
+2018,
+9(
+7):
+805-
+813.
+DOI: 10.1111/1759-7714.12650.
+[33]
+ReckM, MokTSK, NishioM, et al.
+Atezolizumab plus bevacizumab and chemotherapy in non-small-cell lung cancer (IMpower150): key subgroup analyses of patients with EGFR mutations or baseline liver metastases in a randomised, open-label phase 3 trial[J].
+Lancet Resp Med,
+2019,
+7(
+5):
+387-
+401.
+[34]
+SocinskiMA, MokTS, NishioM, et al.
+Abstract CT216: IMpower150 final analysis: Efficacy of atezolizumab (atezo)+bevacizumab (bev) and chemotherapy in first-line (1L) metastatic nonsquamous (nsq) non-small cell lung cancer (NSCLC) across key subgroups[EB/OL].[
+2020-08-12].
+https://cancerres.aacrjournals.org/content/80/16_Supplement/CT216.short.
+[35]
+HanB.
+P1. 04-02 efficacy and safety of sintilimab with anlotinib as first-line therapy for advanced non-small cell lung cancer (NSCLC) [J].
+J Thorac Oncol,
+2019,
+14(
+10):
+S439.
+DOI:10.1016/j.jtho.2019.08.905.
+[36]
+中华医学会呼吸病学分会肺癌学组，中国肺癌防治联盟.
+晚期非小细胞肺癌抗血管生成药物治疗中国呼吸领域专家共识（2016年版)[J].
+中华结核和呼吸杂志,
+2016,
+39(
+11):
+839-
+849.
+DOI:10.3760/cma.j.issn.1001-0939.2016.11.004.
+[37]
+CortotAB, JännePA.
+Molecular mechanisms of resistance in epidermal growth factor receptor-mutant lung adenocarcinomas[J].
+Eur Respir Rev,
+2014,
+23(
+133):
+356-
+366.
+DOI: 10.1183/09059180.00004614.
+[38]
+SetoT, KatoT, NishioM, et al.
+Erlotinib alone or with bevacizumab as first-line therapy in patients with advanced non-squamous non-small-cell lung cancer harbouring EGFR mutations (JO25567): an open-label, randomised, multicentre, phase 2 study[J].
+Lancet Oncol,
+2014,
+15(
+11):
+1236-
+1244.
+DOI: 10.1016/S1470-2045(14)70381-X.
+[39]
+YamamotoN, SetoT, NishioM, et al.
+Erlotinib plus bevacizumab (EB) vs erlotinib alone (E) as first-line treatment for advanced EGFR mutation-positive non-squamous non-small-cell lung cancer (NSCLC): survival follow-up results of JO25567.
+J Clin Oncol,
+36(
+5_
+suppl):
+9007.
+DOI: 10.1200/JCO.2018.36.15_suppl.9007.
+[40]
+KatoT, SetoT, NishioM, et al.
+Erlotinib plus bevacizumab phase Ⅱ study in patients with advanced non-small-cell lung cancer (JO25567): updated safety results[J].
+Drug Saf,
+2018,
+41(
+2):
+229-
+237.
+DOI: 10.1007/s40264-017-0596-0.
+[41]
+SaitoH, FukuharaT, FuruyaN, et al.
+Erlotinib plus bevacizumab versus erlotinib alone in patients with EGFR-positive advanced non-squamous non-small-cell lung cancer (NEJ026): interim analysis of an open-label, randomised, multicentre, phase 3 trial[J].
+Lancet Oncol,
+2019,
+20(
+5):
+625-
+635.
+DOI: 10.1016/S1470-2045(19)30035-X.
+[42]
+ZhouQ, WuYL, ChengY, et al.
+CTONG 1509: Phase Ⅲ study of bevacizumab with or without erlotinib in untreated Chinese patients with advanced EGFR-mutated NSCLC[J].
+Ann Oncol,
+2019,
+30.
+DOI: 10.1093/annonc/mdz260.002.
+[43]
+IchiharaE, HottaK, NogamiN, et al.
+Phase Ⅱ trial of gefitinib in combination with bevacizumab as first-line therapy for advanced non-small cell lung cancer with activating EGFR gene mutations: the Okayama Lung Cancer Study Group Trial 1001[J].
+J Thorac Oncol,
+2015,
+10(
+3):
+486-
+491.
+DOI: 10.1097/JTO.0000000000000434.
+[44]
+NinomiyaT, NogamiN, KozukiT, et al.
+A phase Ⅰ trial of afatinib and bevacizumab in chemo-naïve patients with advanced non-small-cell lung cancer harboring EGFR mutations: okayama lung cancer study group trial 1404[J].
+Lung Cancer,
+2018,
+115:
+103-
+108.
+DOI: 10.1016/j.lungcan.2017.11.025.
+[45]
+YuHA, SchoenfeldAJ, MakhninA, et al.
+Effect of osimertinib and bevacizumab on progression-free survival for patients with metastatic EGFR-mutant lung cancers: a phase 1/2 single-group open-label trial[J].
+JAMA Oncol,
+2020,
+6(
+7):
+1048-
+1054.
+DOI: 10.1001/jamaoncol.2020.1260.
+[46]
+HanB, et al.
+P2. 01-21 Efficacy and safety of combing anlotinib and erlotinib as a first-line therapy in patients with advanced non-small cell lung cancer (NSCLC)[J].
+J Thorac Oncol,
+2019,
+14(
+10):
+S646-
+S647.
+DOI: 10.1016/j.jtho.2019.08.1365.
+[47]
+王金万，孙燕，刘永煜, 等.
+重组人血管内皮抑素联合NP治疗晚期非小细胞肺癌随机、双盲对照、多中心Ⅲ期临床研究[J].
+中国肺癌杂志,
+2005,
+8(
+8):
+283-
+290.
+DOI: 10.3779/cjlc.v8i4.1926.
+[48]
+NadlerE, YuE, RaveloA, et al.
+Bevacizumab treatment to progression after chemotherapy: outcomes from a U.S. community practice network[J].
+Oncologist,
+2011,
+16(
+4):
+486-
+496.
+DOI: 10.1634/theoncologist.2010-0287.
+[49]
+KostyMP, WozniakAJ, JahanzebM, et al.
+Effectiveness and safety of post-induction phase bevacizumab treatment for patients with non-small-cell lung cancer: results from the ARIES observational cohort study[J].
+Target Oncol,
+2015,
+10(
+4):
+509-
+516.
+DOI: 10.1007/s11523-014-0355-4.
+[50]
+SetoT, AzumaK, YamanakaT, et al.
+Randomized phase Ⅲ study of continuation maintenance bevacizumab with or without pemetrexed in advanced nonsquamous non-small-cell lung cancer: COMPASS (WJOG5610L)[J].
+J Clin Oncol,
+2020,
+38(
+8):
+793-
+803.
+DOI: 10.1200/JCO.19.01494.
+[51]
+RamalingamSS, DahlbergSE, BelaniCP, et al.
+Pemetrexed, bevacizumab, or the combination as maintenance therapy for advanced nonsquamous non-small-cell lung cancer: ECOG-ACRIN 5508[J].
+J Clin Oncol,
+2019,
+37(
+26):
+2360-
+2367.
+DOI: 10.1200/JCO.19.01006.
+[52]
+CortotAB, Audigier-ValetteC, MolinierO, et al.
+Weekly paclitaxel plus bevacizumab versus docetaxel as second-or third-line treatment in advanced non-squamous non-small-cell lung cancer: results of the IFCT-1103 ULTIMATE study[J].
+Eur J Cancer,
+2020,
+131:
+27-
+36.
+DOI: 10.1016/j.ejca.2020.02.022.
+[53]
+ValerySC, ChouaidC, Rousseau-BussacG, et al.
+Efficacy of weekly paclitaxel-bevacizumab combination in advanced non squamous non-small cell lung cancer (NSCLC) progressing after immune checkpoint inhibitors -AVATAX, a retrospective multicentric study: preliminary data[J].
+Ann Oncol,
+2019(
+30):
+xi29.
+DOI: 10.1093/annonc/mdz449.035.
+[54]
+OhyanagiF, YanagitaniN, KudoK, et al.
+Phase Ⅱ study of docetaxel-plus-bevacizumab combination therapy in patients previously treated for advanced non-squamous non-small cell lung cancer[J].
+Anticancer Res,
+2014,
+34(
+9):
+5153-
+5158.
+[55]
+AdjeiAA, MandrekarSJ, DyGK, et al.
+Phase Ⅱ trial of pemetrexed plus bevacizumab for second-line therapy of patients with advanced non-small-cell lung cancer: NCCTG and SWOG study N0426[J].
+J Clin Oncol,
+2010,
+28(
+4):
+614-
+619.
+DOI: 10.1200/JCO.2009.23.6406.
+[56]
+HattoriY, SatouchiM, ShimadaT, et al.
+A phase 2 study of bevacizumab in combination with carboplatin and paclitaxel in patients with non-squamous non-small-cell lung cancer harboring mutations of epidermal growth factor receptor (EGFR) after failing first-line EGFR-tyrosine kinase inhibitors (HANSHIN Oncology Group 0109)[J].
+Lung Cancer,
+2015,
+87(
+2):
+136-
+140.
+DOI: 10.1016/j.lungcan.2014.12.007.
+[57]
+ZhouC, GaoG, WangYN, et al.
+Efficacy of PD-1 monoclonal antibody SHR-1210 plus apatinib in patients with advanced nonsquamous NSCLC with wild-type EGFR and ALK[EB/OL].[
+2020-09-28].
+https://ascopubs.org/doi/abs/10.1200/JCO.2019.37.15_suppl.9112.
+[58]
+WangL, HeZ, YangS, et al.
+The impact of previous therapy strategy on the efficiency of anlotinib hydrochloride as a third-line treatment on patients with advanced non-small cell lung cancer (NSCLC): a subgroup analysis of ALTER0303 trial[J].
+Transl Lung Cancer Res,
+2019,
+8(
+5):
+575-
+583.
+DOI: 10.21037/tlcr.2019.09.21.
+[59]
+ZhangZ, ZhaoY, LuF, et al.
+Multi-targeted tyrosine kinase inhibitors as third-line regimen in advanced non-small cell lung cancer: a network meta-analysis[J].
+Ann Transl Med,
+2019,
+7(
+18):
+452.
+DOI: 10.21037/atm.2019.08.51.
+[60]
+BesseB, Le MoulecS, MazièresJ, et al.
+Bevacizumab in patients with nonsquamous non-small cell lung cancer and asymptomatic, untreated brain metastases (BRAIN): a nonrandomized, phase Ⅱ study[J].
+Clin Cancer Res,
+2015,
+21(
+8):
+1896-
+1903.
+DOI: 10.1158/1078-0432.CCR-14-2082.
+[61]
+TianY, ZhaiX, TianH, et al.
+Bevacizumab in combination with pemetrexed and platinum significantly improved the clinical outcome of patients with advanced adenocarcinoma NSCLC and brain metastases[J].
+Cancer Manag Res,
+2019,
+11:
+10083-
+10092.
+DOI: 10.2147/CMAR.S222910.
+[62]
+WangZ, YangJJ, TuHY, et al.
+Retrospective study on bevacizumab in the treatment of non-small cell lung cancer with brain metastases[J].
+Int J Clin Oncol,
+2020,
+25(
+2):
+267-
+273.
+DOI: 10.1007/s10147-019-01552-5.
+[63]
+BesseB, LasserreSF, ComptonP, et al.
+Bevacizumab safety in patients with central nervous system metastases[J].
+Clin Cancer Res,
+2010,
+16(
+1):
+269-
+278.
+DOI: 10.1158/1078-0432.CCR-09-2439.
+[64]
+SandlerA, HirshV, ReckM, et al.
+An evidence-based review of the incidence of CNS bleeding with anti-VEGF therapy in non-small cell lung cancer patients with brain metastases[J].
+Lung Cancer,
+2012,
+78(
+1):
+1-
+7.
+DOI: 10.1016/j.lungcan.2012.07.004.
+[65]
+JiangT, ZhangY, LiX, et al.
+EGFR-TKIs plus bevacizumab demonstrated survival benefit than EGFR-TKIs alone in patients with EGFR-mutant NSCLC and multiple brain metastases[J].
+Eur J Cancer,
+2019,
+121:
+98-
+108.
+DOI: 10.1016/j.ejca.2019.08.021.
+[66]
+JiangS, LiangH, LiuZ, et al.
+The impact of anlotinib on brain metastases of non-small cell lung cancer: post hoc analysis of a phase Ⅲ randomized control trial (ALTER0303)[J].
+Oncologist,
+2020,
+25(
+5):
+e870-
+e874.
+DOI: 10.1634/theoncologist.2019-0838.
+[67]
+XuY, RongX, HuW, et al.
+Bevacizumab monotherapy reduces radiation-induced brain necrosis in nasopharyngeal carcinoma patients: a randomized controlled trial[J].
+Int J Radiat Oncol Biol Phys,
+2018,
+101(
+5):
+1087-
+1095.
+DOI: 10.1016/j.ijrobp.2018.04.068.
+[68]
+ZustovichF, FerroA, LombardiG, et al.
+Bevacizumab-based therapy for patients with brain metastases from non-small-cell lung cancer: preliminary results[J].
+Chemotherapy,
+2014,
+60(
+5-6):
+294-
+299.
+DOI: 10.1159/000376605.
+[69]
+BootheD, YoungR, YamadaY, et al.
+Bevacizumab as a treatment for radiation necrosis of brain metastases post stereotactic radiosurgery[J].
+Neuro Oncol,
+2013,
+15(
+9):
+1257-
+1263.
+DOI: 10.1093/neuonc/not085.
+[70]
+DuN, LiX, LiF, et al.
+Intrapleural combination therapy with bevacizumab and cisplatin for non-small cell lung cancer-mediated malignant pleural effusion[J].
+Oncol Rep,
+2013,
+29(
+6):
+2332-
+2340.
+DOI: 10.3892/or.2013.2349.
+[71]
+NoroR, KobayashiK, UsukiJ, et al.
+Bevacizumab plus chemotherapy in nonsquamous non-small cell lung cancer patients with malignant pleural effusion uncontrolled by tube drainage or pleurodesis: a phase Ⅱ study North East Japan Study group trial NEJ013B[J].
+Thorac Cancer,
+2020,
+11(
+7):
+1876-
+1884.
+DOI: 10.1111/1759-7714.13472.
+[72]
+秦叔逵，杨柳青，梁军, 等.
+腔内应用重组人血管内皮抑制素和/或顺铂治疗恶性胸腹腔积液的前瞻性、随机对照、全国多中心Ⅲ期临床研究[J].
+临床肿瘤学杂志,
+2017,
+22(
+3):
+193-
+202.
+[73]
+LaskinJ, CrinòL, FelipE, et al.
+Safety and efficacy of first-line bevacizumab plus chemotherapy in elderly patients with advanced or recurrent nonsquamous non-small cell lung cancer: safety of avastin in lung trial (MO19390)[J].
+J Thorac Oncol,
+2012,
+7(
+1):
+203-
+211.
+DOI: 10.1097/JTO.0b013e3182370e02.
+[74]
+LionelF, PerolD, SouquetPJ, et al.
+Bevacizumab as first-line treatment in advanced non-squamous non-small cell lung cancer (NSCLC) in patients aged over 65 years in France: final results of the AVANTAGE study[J].
+Ann Oncol,
+2018,
+29.
+DOI: 10.1093/annonc/mdy292.057.
+[75]
+HondaT, KouzukiT, TsunezukaY, et al.
+Open-label multicenter randomized phase II study of docetaxel plus bevacizumab or pemetrexed plus bevacizumab for elderly (≥75 years old) patients (pts) with previously untreated advanced non-squamous non-small cell lung cancer (NSCLC): TORG1323[J].
+Ann Oncol,,
+2018,
+29.
+DOI: 10.1093/annonc/mdy292.025.
+[76]
+WozniakAJ, KostyMP, JahanzebM, et al.
+Clinical outcomes in elderly patients with advanced non-small cell lung cancer: results from ARIES, a bevacizumab observational cohort study[J].
+Clin Oncol (R Coll Radiol),
+2015,
+27(
+4):
+187-
+196.
+DOI: 10.1016/j.clon.2014.12.002.
+[77]
+ZhaoYY, XueC, JiangW, et al.
+Predictive value of intratumoral microvascular density in patients with advanced non-small cell lung cancer receiving chemotherapy plus bevacizumab[J].
+J Thorac Oncol,
+2012,
+7(
+1):
+71-
+75.
+DOI: 10.1097/JTO.0b013e31823085f4.
+[78]
+LiM, KroetzDL.
+Bevacizumab-induced hypertension: clinical presentation and molecular understanding[J].
+Pharmacol Ther,
+2018,
+182:
+152-
+160.
+DOI: 10.1016/j.pharmthera.2017.08.012.
+[79]
+BrandesAA, BartolottiM, TosoniA, et al.
+Practical management of bevacizumab-related toxicities in glioblastoma[J].
+Oncologist,
+2015,
+20(
+2):
+166-
+175.
+DOI: 10.1634/theoncologist.2014-0330.
+贡献者信息
+中国临床肿瘤学会血管靶向治疗专家委员会
+中国临床肿瘤学会非小细胞肺癌专家委员会
+中国临床肿瘤学会非小细胞肺癌抗血管生成药物治疗专家组
+通信作者
+韩宝惠
+上海交通大学附属胸科医院，上海 200030
+Email：
+hanxkyy@aliyun.com
+周彩存
+同济大学附属上海市肺科医院，上海 200090
+Email：
+caicunzhoudr@163.com
+基金项目
+上海市科委西医引导项目 （18411968500）
+上海交通大学医学院多中心临床研究项目 （DLY201816）
+上海市胸科医院合作创新项目 （YJXT20190102）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-12-15
+收稿日期：2020-09-18
+本文编辑
+吕相征
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+中国临床肿瘤学会关于证据级别分类
+级别
+说明
+1A类证据
+基于高水平证据（严谨的荟萃分析或RCT结果），专家组有统一共识
+1B类证据
+基于高水平证据（严谨的荟萃分析或RCT结果），专家组有小争议
+2A类证据
+基于低水平证据，专家组有统一认识
+2B类证据
+基于低水平证据，专家组无统一认识，但争议不大
+3类证据
+专家组存在较大争议
+注：RCT为随机对照试验
+表2
+中国临床肿瘤学会关于推荐等级的分类
+等级
+说明
+Ⅰ级推荐
+可及性好的普适性诊治措施（包括适应证明确），肿瘤治疗价值相对稳定，基本为国家医保所收录；Ⅰ级推荐的确定，不因医疗保险而改变，主要考虑的因素是患者的明确获益性
+Ⅱ级推荐
+在国际或国内已有随机对照的多中心研究提供的高级别证据，但是可及性差或者效价比低，已超出平民经济承受能力的药物或治疗措施；对于获益明显但价格昂贵的措施，以肿瘤治疗价值为主要考虑因素，也可作为Ⅱ级推荐
+Ⅲ级推荐
+正在探索的治疗手段；虽然缺乏强有力的循证学证据，但是专家组具有一定共识
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华医学杂志2020年100卷46期
+文    题：晚期非小细胞肺癌抗血管生成药物治疗中国专家共识（2020版）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华医学杂志2020年100卷46期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

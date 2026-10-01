@@ -1,0 +1,532 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%99%9A%E6%9C%9F%E4%B9%B3%E8%85%BA%E7%99%8C%E7%BB%B4%E6%8C%81%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 中国晚期乳腺癌维持治疗专家共识 - 中华医学杂志
+# 发布方/日期: 肿瘤科，中华医学杂志, 2018,98(2) : 87-90. DOI: 10.3760/cma.j.i；2018-01-09
+
+中国晚期乳腺癌维持治疗专家共识
+徐兵河
+王树森
+江泽飞
+邵志敏
+代表中国抗癌协会乳腺癌专业委员会
+中华医学杂志, 2018,98(2) : 87-90. DOI: 10.3760/cma.j.issn.0376-2491.2018.02.003
+乳腺癌是女性最常见的恶性肿瘤之一。我国女性乳腺癌发病率逐年升高，每年新发患者约27万例[1]，其中3%～8%的乳腺癌患者初诊时即为转移性[2]。即便是接受了手术及规范治疗的早期患者，仍有30%～40%会复发转移[3]。晚期乳腺癌目前虽难以治愈，但可通过研发新型治疗药物，优化治疗模式等方法来缓解患者的临床症状，改善患者的生活质量，进一步延长患者的生存期。
+维持治疗的理念，最早在白血病治疗中被提出，而后在非小细胞肺癌和肠癌等实体肿瘤治疗中陆续得到认可。一项基于11项随机对照研究的荟萃分析显示，延长一线化疗时间，能提高晚期乳腺癌患者的无进展生存期(PFS)和总生存期(OS)[4]。且有研究表明，持续治疗直到疾病进展能提高晚期乳腺癌患者的生活质量[5,6]。自此，乳腺癌也开启了维持治疗模式的探索。关于晚期乳腺癌维持治疗的研究缺乏系统性，目前国内外均缺乏晚期乳腺癌维持治疗的指南或共识。亟需结合研究数据与临床经验，达成共识。
+一、维持治疗的概念
+1．维持治疗的定义：
+本共识所指的维持治疗，是接受规范的一线化疗(通常6～8个周期)后达到疾病控制(包括完全缓解，部分缓解和疾病稳定)的晚期乳腺癌患者，通过延长药物治疗时间，控制肿瘤进展，达到缓解症状，改善生活质量，提高PFS的目的。
+2．维持治疗的模式：
+维持治疗的模式大致可分为三类：(1)原方案维持：将一线化疗方案延长至疾病进展或不可耐受。(2)原方案中部分药物维持：一线化疗后，从原有效方案中选择单个或部分药物来进行维持。(3)换药维持：经过一线化疗后，换用其他适合维持的化疗药物或内分泌药物进行维持。
+3．维持治疗的时间：
+建议持续到疾病进展或不良反应难以耐受。在维持治疗过程中，应定期评估患者的临床获益、长期治疗的不良反应、生活质量、经济水平、家庭照顾及心理状况，适时调整方案。
+二、维持治疗的药物及方式选择
+1．联合化疗方案：
+20世纪90年代的研究发现，环磷酰胺联合甲氨蝶呤和氟尿嘧啶(CMF)方案的延长治疗，能提高患者的无进展生存，但对于总生存的改善不明显，且增加了不良反应的发生[7,8,9]。以蒽环为基础的联合方案延长治疗，虽有研究表明能显著改善患者的无进展生存和总生存[10]，但多数研究都只能观察到近期疗效的提高[11,12]。
+随着更加高效和低毒药物的开发，联合维持的方案得到进一步改善。KCSG－BR0702研究显示，一线接受吉西他滨联合紫杉醇化疗6个周期后，达到疾病控制的患者继续接受该方案维持化疗，能显著改善患者的PFS(7.5与3.8个月，P＝0.026)和OS(32.3与23.5个月，P＝0.047)。亚组分析显示，年龄≤50岁、获得完全缓解(CR)或部分缓解(PR)、发生内脏转移、转移部位≥2个，以及激素受体(HR)阴性的患者，更能从联合方案维持治疗中获益。值得注意的是，该研究两组患者的中位年龄分别为48和47岁，较为年轻，化疗耐受性好。即便如此，维持治疗组3级以上白细胞减少的发生率仍显著高于观察组(61%与0.9%，P<0.001)[13]。
+有一项Ⅱ期随机对照研究，比较一线使用口服卡培他滨联合长春瑞滨，与吉西他滨联合紫杉醇和吉西他滨联合多西他赛。结果显示：3组的疾病控制率(73%、78%、80%)相似，含紫杉类方案的中位无进展生存似乎更长(7.6、9.0、11.4个月)，但3组中位OS相似(30.2、29.6、31.0个月)。卡培他滨联合长春瑞滨组的2级脱发，乏力发生率均低于含紫杉方案组。而吉西他滨联合多西他赛方案组3级以上白细胞减少发生率显著高于其他两组[14]。
+专家建议：部分从一线联合化疗方案中获益且耐受性好的患者，可考虑将联合方案持续用到疾病进展。治疗中可根据患者耐受情况，适时更改维持方式及用药时长。可选的联合药物有紫杉类、吉西他滨、卡培他滨、长春瑞滨等。
+2．单药方案：
+联合方案维持治疗的不良反应，常导致减量甚至停药，在降低疗效的同时也影响了患者的生活质量。因此，使用有效的单一药物进行维持治疗似乎更为切实可行。MANTA1研究显示，使用紫杉醇3周方案进行维持治疗，PFS和OS均无明显改善[15]。另一项GEICAM 2001－01研究显示，使用脂质体阿霉素单药维持治疗能显著延长疾病进展时间，但OS无明显改善[16]。使用紫杉和蒽环类单药进行维持治疗的证据不充分。
+卡培他滨作为一种新型口服氟尿嘧啶类药物，单药在晚期乳腺癌显示出疗效，使用方便且不良反应发生率低，使其成为乳腺癌维持治疗的常用药物。一项Ⅲ期随机对照研究显示，经过卡培他滨联合多西他赛一线化疗后，达到疾病控制的患者继续口服卡培他滨进行维持治疗，中位PFS达到8.4个月，中位OS达到35.3个月[17]。同样，在卡培他滨联合方案后使用卡培他滨单药维持治疗的疗效和安全性，在中国的几个研究中也得到证实[18,19,20]。
+专家建议：维持治疗需要兼顾疗效、安全性与经济因素。因此，在一线化疗有效的前提下，选用其中一种适合长期使用、方便、安全又经济的药物进行维持治疗是目前推荐的方案之一。可选卡培他滨等。
+3．节拍维持：
+节拍化疗是一种低剂量、短间歇的新型化疗方式，可能通过抗肿瘤血管生成、免疫调节等作用发挥抗肿瘤效应。同时具有不良反应发生率低，治疗耐受性好等特点[21]。
+21世纪初期，有一项Ⅱ期单臂研究发现，晚期乳腺癌一线口服低剂量环磷酰胺联合甲氨蝶呤节拍化疗，能达到21个月的PFS[22]。但与之相似的是，其他含环磷酰胺的联合方案节拍化疗均未能进一步改善患者的长期生存[23]。后有研究表明，使用卡培他滨单药节拍化疗，疗效与传统化疗方案相似，且耐受性明显提高[24]。而长春瑞滨单药节拍化疗也在老年患者中显示出良好的疗效与耐受性[25]。近年有研究表明，卡培他滨联合长春瑞滨双口服节拍化疗能达到5.6～10.5个月的至进展生存，但均缺乏长期生存获益的数据[26]。
+然而，目前的节拍化疗，绝大多数都是起始即使用节拍化疗，而不是仅仅从维持治疗开始才使用节拍化疗的策略。节拍维持治疗的真正价值，尚有待于中国研究者发起的多中心、前瞻性、随机对照研究(CAMELLIA/NCT01917279)[27]来证实。
+专家建议：(1)对于难以耐受常规剂量化疗维持的患者，可考虑节拍化疗。(2)适合节拍化疗的药物应为高效、低毒且使用方便的口服制剂，推荐的有卡培他滨、长春瑞滨、环磷酰胺或甲氨蝶呤。
+4．靶向药物维持：
+(1)HER2阳性人群：对于HER2阳性晚期乳腺癌，既往的H0648g，M77001研究均显示，曲妥珠单抗联合化疗后，予曲妥珠单抗治疗至疾病进展，能显著提高患者的PFS与OS，且维持阶段的不良反应发生率低[28]。CLEOPATRA研究表明，帕妥珠单抗联合曲妥珠单抗，在联合化疗结束后，继续使用至疾病进展，能显著提高患者的PFS与OS，且并未增加心脏毒性[29]。对于HER2＋，HR＋的患者，一项基于805例患者的回顾性分析显示，HR状态并不影响患者从曲妥珠单抗治疗中的获益[30]。TAnDEM研究表明，曲妥珠单抗联合阿那曲唑对比阿那曲唑，一线用至进展，PFS得到显著改善，但OS改善不明显[31]。EGF30008研究显示，拉帕替尼联合来曲唑对比来曲唑治疗绝经后患者，一线用至进展，PFS得到显著改善，但OS改善不明显[32]。去年公布的PERTAIN研究显示，使用帕妥珠单抗联合曲妥珠单抗和芳香化酶抑制剂(AI)进行维持治疗，比曲妥珠单抗联合AI维持的PFS更长(18.89与15.80个月，P＝0.007)[33]。今年公布的ALTERNATIVE研究结果显示，拉帕替尼联合曲妥珠单抗和AI组的PFS比曲妥珠单抗联合AI组更长(11与5.7个月，P＝0.006 4)。然而上述两项研究均缺乏OS数据[34]。
+(2) HER2阴性人群：一项基于E2100、AVADO和RIBBON－1研究的荟萃分析显示，贝伐珠单抗联合化疗之后，给予贝伐珠单抗进行维持治疗，可提高临床获益率，延长PFS，但OS改善不明显[35]。后有一项Ⅲ期IMELDA研究表明，接受贝伐珠单抗联合多西他赛一线化疗后，与使用贝伐珠单抗单药维持治疗相比，给予贝伐珠单抗联合卡培他滨维持治疗能显著提高患者的PFS和OS[36]。
+专家建议：(1)HER2阳性晚期乳腺癌，如抗HER2治疗有效，建议持续使用至疾病进展。(2)对于使用帕妥珠单抗联合曲妥珠单抗治疗并获益的患者，建议继续使用双靶药物维持治疗。但考虑到患者耐受情况和经济因素，可考虑使用曲妥珠单抗维持。(3)对于接受抗HER2治疗后达到完全缓解数年的患者，考虑到患者经济因素，可暂时中断治疗。(4)对于HER2阳性且激素受体阳性的患者，经过一线化疗联合抗HER2治疗后，不推荐单用内分泌治疗维持，建议以抗HER2治疗维持，同时也可加用内分泌治疗进行维持。(5)HER2阴性乳腺癌，目前缺乏特异性治疗的药物。贝伐珠单抗在中国无乳腺癌病种适应证，且缺乏长期生存获益的数据，鼓励贝伐珠单抗联合化疗在维持治疗中的临床研究探索，临床若有需要，可酌情考虑使用。
+5．内分泌治疗维持：
+对于ER＋/HER2－的晚期乳腺癌患者，接受了一线化疗达到疾病控制之后，应给予化疗还是内分泌维持治疗，缺乏头对头的大型临床研究证实。一项系统性综述显示，内分泌维持治疗目前多为小样本研究或回顾性分析。与不做维持治疗相比，使用内分泌维持治疗能改善症状，延长PFS，且提高患者生活质量[37]。2017年美国临床肿瘤协会(ASCO)报道的一项前瞻性的多中心Ⅱ期单臂研究显示，一线化疗获益后采用氟维司群的维持治疗中位无进展生存达16.1个月[38]。此外，有部分Ⅱ期单臂研究显示了化疗联合内分泌治疗进行维持的可能性[39]，但仍缺乏足够的证据支持。
+专家建议：对于HER2－，HR＋的晚期乳腺癌患者，一线接受化疗获益后，使用内分泌维持治疗是一种合理的选择。如果一线接受化疗获益且对化疗耐受尚可，也可以继续使用化疗维持。内分泌维持药物的选择，应参照一线内分泌治疗药物的选择策略。
+委员会成员
+顾问组成员名单(按姓氏拼音顺序排序)：
+庞达(哈尔滨医科大学附属肿瘤医院)，任国胜(重庆医科大学附属第一医院)，沈镇宙(复旦大学附属肿瘤医院)，宋尔卫(中山大学孙逸仙纪念医院)，宋三泰(军事医学科学院附属医院)
+专家组成员名单(按姓氏拼音顺序排序)：
+蔡莉(哈尔滨医科大学肿瘤医院)，陈前军(广东省中医院)，陈文艳(南昌大学第一附属医院)，范志民(吉林大学第一医院)，冯继锋(江苏省肿瘤医院)，胡夕春(复旦大学附属肿瘤医院)，黄建(浙江大学医学院附属第二医院)，黄韬(华中科技大学同济医学院附属协和医院)，金锋(中国医科大学附属第一医院)，李青(中国医学科学院肿瘤医院)，厉红元(重庆医科大学附属第一医院)，廖宁(广东省人民医院)，刘冬耕(中山大学附属肿瘤医院)，刘健(福建省肿瘤医院)，刘强(中山大学孙逸仙纪念医院)，马飞(中国医学科学院肿瘤医院)，欧阳取长(湖南省肿瘤医院)，邵志敏(复旦大学附属肿瘤医院)，史艳侠(中山大学附属肿瘤医院)，宋传贵(福建医科大学附属协和医院)，宋国红(北京大学肿瘤医院)，孙涛(辽宁省肿瘤医院)，唐利立(中南大学湘雅医院)，滕月娥(中国医科大学附属第一医院)，佟仲生(天津市肿瘤医院)，王碧芸(复旦大学附属肿瘤医院)，王淑莲(中国医学科学院肿瘤医院)，王树森(中山大学附属肿瘤医院)，王水(江苏省人民医院)，王涛(军事医学科学院附属肿瘤医院)，王晓稼(浙江省肿瘤医院)，王永胜(山东省肿瘤医院)，王中华(复旦大学肿瘤医院)，吴炅(复旦大学附属肿瘤医院)，吴新红(湖北省肿瘤医院)，徐兵河(中国医学科学院肿瘤医院)，姚和瑞(中山大学孙逸仙纪念医院)，殷咏梅(江苏省人民医院)，袁芃(中国医学科学院肿瘤医院)，袁中玉(中山大学附属肿瘤医院)，张频(中国医学科学院肿瘤医院)，张清媛(哈尔滨医科大学附属肿瘤医院)，郑鸿(四川大学华西医院)
+参考文献
+[1]
+ChenW, ZhengR, BaadePD, et al.
+Cancer statistics in China, 2015[J].
+CA Cancer J Clin,
+2016,
+66(
+2):
+115-
+132.
+DOI: 10.3322/caac.21338.
+[2]
+SiegelRL, MillerKD, JemalA.
+Cancer statistics, 2016[J].
+CA Cancer J Clin,
+2016,
+66(
+1):
+7-
+30.
+DOI: 10.3322/caac.21332.
+[3]
+Gonzalez－AnguloAM, Morales－VasquezF, HortobagyiGN.
+Overview of resistance to systemic therapy in patients with breast cancer[J].
+Adv Exp Med Biol,
+2007,
+608:
+1-
+22.
+[4]
+GennariA, StocklerM, PuntoniM, et al.
+Duration of chemotherapy for metastatic breast cancer: a systematic review and meta－analysis of randomized clinical trials[J].
+J Clin Oncol,
+2011,
+29(
+16):
+2144-
+2149.
+DOI: 10.1200/JCO.2010.31.5374.
+[5]
+GennariA, D′amicoM, CorradengoD.
+Extending the duration of first－line chemotherapy in metastatic breast cancer: a perspective review[J].
+Ther Adv Med Oncol,
+2011,
+3(
+5):
+229-
+232.
+DOI: 10.1177/1758834011413423.
+[6]
+CoatesA, GebskiV, BishopJF, et al.
+Improving the quality of life during chemotherapy for advanced breast cancer. A comparison of intermittent and continuous treatment strategies[J].
+N Engl J Med,
+1987,
+317(
+24):
+1490-
+1495.
+DOI: 10.1056/NEJM198712103172402.
+[7]
+MussHB, CaseLD, RichardsF 2nd, et al.
+Interrupted versus continuous chemotherapy in patients with metastatic breast cancer. The Piedmont Oncology Association[J].
+N Engl J Med,
+1991,
+325(
+19):
+1342-
+1348.
+DOI: 10.1056/NEJM199111073251904.
+[8]
+FalksonG, GelmanRS, PandyaKJ, et al.
+Eastern Cooperative Oncology Group randomized trials of observation versus maintenance therapy for patients with metastatic breast cancer in complete remission following induction treatment[J].
+J Clin Oncol,
+1998,
+16(
+5):
+1669-
+1676.
+DOI: 10.1200/JCO.1998.16.5.1669.
+[9]
+NooijMA, de HaesJC, BeexLV, et al.
+Continuing chemotherapy or not after the induction treatment in advanced breast cancer patients. clinical outcomes and oncologists′ preferences[J].
+Eur J Cancer,
+2003,
+39(
+5):
+614-
+621.
+[10]
+EjlertsenB, PfeifferP, PedersenD, et al.
+Decreased efficacy of cyclophosphamide, epirubicin and 5－fluorouracil in metastatic breast cancer when reducing treatment duration from 18 to 6 months[J].
+Eur J Cancer,
+1993,
+29A(
+4):
+527-
+531.
+[11]
+French Epirubicin Study Group.
+Epirubicin－based chemotherapy in metastatic breast cancer patients: role of dose－intensity and duration of treatment[J].
+J Clin Oncol,
+2000,
+18(
+17):
+3115-
+3124.
+DOI: 10.1200/JCO.2000.18.17.3115.
+[12]
+BecherR, KlokeO, HayungsJ, et al.
+Epirubicin and ifosfamide in metastatic breast cancer[J].
+Semin Oncol,
+1996,
+23(
+3
+Suppl 7):
+28-
+33.
+[13]
+ParkYH, JungKH, ImSA, et al.
+Phase Ⅲ, multicenter, randomized trial of maintenance chemotherapy versus observation in patients with metastatic breast cancer after achieving disease control with six cycles of gemcitabine plus paclitaxel as first－line chemotherapy: KCSG－BR07－02[J].
+J Clin Oncol,
+2013,
+31(
+14):
+1732-
+1739.
+DOI: 10.1200/JCO.2012.45.2490.
+[14]
+CinieriS, ChanA, AltundagK, et al.
+Final results of the randomized phase Ⅱ NorCap－CA223 trial comparing first－line all－oral versus taxane－based chemotherapy for HER2－negative metastatic breast cancer[J].
+Clin Breast Cancer,
+2017,
+17(
+2):
+91-
+99.e1.
+DOI: 10.1016/j.clbc.2016.06.014.
+[15]
+GennariA, AmadoriD, De LenaM, et al.
+Lack of benefit of maintenance paclitaxel in first－line chemotherapy in metastatic breast cancer[J].
+J Clin Oncol,
+2006,
+24(
+24):
+3912-
+3918.
+DOI: 10.1200/JCO.2006.06.1812.
+[16]
+AlbaE, Ruiz－BorregoM, MargelíM, et al.
+Maintenance treatment with pegylated liposomal doxorubicin versus observation following induction chemotherapy for metastatic breast cancer: GEICAM 2001－01 study[J].
+Breast Cancer Res Treat,
+2010,
+122(
+1):
+169-
+176.
+DOI: 10.1007/s10549-010-0860-9.
+[17]
+WangJ, XuB, YuanP, et al.
+Capecitabine combined with docetaxel versus vinorelbine followed by capecitabine maintenance medication for first－line treatment of patients with advanced breast cancer: Phase 3 randomized trial[J].
+Cancer,
+2015,
+121(
+19):
+3412-
+3421.
+DOI: 10.1002/cncr.29492.
+[18]
+DongG, JiaY, WangX, et al.
+The comparison of maintenance treatment with capecitabine (CMT) and non－maintenance treatment with capecitabine (non－CMT) in patients with metastatic breast cancer[J].
+Int J Clin Exp Med,
+2015,
+8(
+5):
+8283-
+8287.
+[19]
+LiangX, DiL, SongG, et al.
+Capecitabine maintenance therapy for XT chemotherapy－sensitive patients with metastatic triple－negative breast cancer[J].
+Chin J Cancer Res,
+2014,
+26(
+5):
+550-
+557.
+DOI: 10.3978/j.issn.1000-9604.2014.10.02.
+[20]
+LvH, YanM, ZhangM, et al.
+Efficacy of capecitabine－based combination therapy and single－agent capecitabine maintenance therapy in patients with metastatic breast cancer[J].
+Chin J Cancer Res,
+2014,
+26(
+6):
+692-
+697.
+DOI: 10.3978/j.issn.1000-9604.2014.12.13.
+[21]
+MunzoneE, ColleoniM.
+Clinical overview of metronomic chemotherapy in breast cancer[J].
+Nat Rev Clin Oncol,
+2015,
+12(
+11):
+631-
+644.
+DOI: 10.1038/nrclinonc.2015.131.
+[22]
+ColleoniM, RoccaA, SandriMT, et al.
+Low－dose oral methotrexate and cyclophosphamide in metastatic breast cancer: antitumor activity and correlation with vascular endothelial growth factor levels[J].
+Ann Oncol,
+2002,
+13(
+1):
+73-
+80.
+[23]
+CancelloG, BagnardiV, SangalliC, et al.
+Phase Ⅱ study with epirubicin, cisplatin, and infusional fluorouracil followed by weekly paclitaxel with metronomic cyclophosphamide as a preoperative treatment of triple－negative breast cancer[J].
+Clin Breast Cancer,
+2015,
+15(
+4):
+259-
+265.
+DOI: 10.1016/j.clbc.2015.03.002.
+[24]
+StocklerMR, HarveyVJ, FrancisPA, et al.
+Capecitabine versus classical cyclophosphamide, methotrexate, and fluorouracil as first－line chemotherapy for advanced breast cancer[J].
+J Clin Oncol,
+2011,
+29(
+34):
+4498-
+4504.
+DOI: 10.1200/JCO.2010.33.9101.
+[25]
+De IuliisF, SalernoG, TaglieriL, et al.
+On and off metronomic oral vinorelbine in elderly women with advanced breast cancer[J].
+Tumori,
+2015,
+101(
+1):
+30-
+35.
+DOI: 10.5301/tj.5000207.
+[26]
+CazzanigaME, TorriV, RivaF, et al.
+Efficacy and safety of vinorelbine－capecitabine oral metronomic combination in elderly metastatic breast cancer patients: VICTOR－1 study[J].
+Tumori,
+2017,
+103(
+1):
+e4-
+4e8.
+DOI: 10.5301/tj.5000543.
+[27]
+XuB, MaF.
+Capecitabine maintenance therapy following capecitabine combined with docetaxel in treatment of metastatic breast cancer (camellia)[R].
+Chicago:
+American Society of Clinical Oncology (ASCO) Annual Meeting,
+2015：
+146306.
+[28]
+MartyM, CognettiF, MaraninchiD, et al.
+Randomized phase Ⅱ trial of the efficacy and safety of trastuzumab combined with docetaxel in patients with human epidermal growth factor receptor 2－positive metastatic breast cancer administered as first－line treatment: the M77001 study group[J].
+J Clin Oncol,
+2005,
+23(
+19):
+4265-
+4274.
+DOI: 10.1200/JCO.2005.04.173.
+[29]
+SwainSM, BaselgaJ, KimSB, et al.
+Pertuzumab, trastuzumab, and docetaxel in HER2－positive metastatic breast cancer[J].
+N Engl J Med,
+2015,
+372(
+8):
+724-
+734.
+DOI: 10.1056/NEJMoa1413513.
+[30]
+BrufskyA, LemberskyB, SchiffmanK, et al.
+Hormone receptor status does not affect the clinical benefit of trastuzumab therapy for patients with metastatic breast cancer[J].
+Clin Breast Cancer,
+2005,
+6(
+3):
+247-
+252.
+DOI: 10.3816/CBC.2005.n.027.
+[31]
+KaufmanB, MackeyJR, ClemensMR, et al.
+Trastuzumab plus anastrozole versus anastrozole alone for the treatment of postmenopausal women with human epidermal growth factor receptor 2－positive, hormone receptor－positive metastatic breast cancer: results from the randomized phase Ⅲ TAnDEM study[J].
+J Clin Oncol,
+2009,
+27(
+33):
+5529-
+5537.
+DOI: 10.1200/JCO.2008.20.6847.
+[32]
+JohnstonS, PippenJ, PivotX, et al.
+Lapatinib combined with letrozole versus letrozole and placebo as first－line therapy for postmenopausal hormone receptor－positive metastatic breast cancer[J].
+J Clin Oncol,
+2009,
+27(
+33):
+5538-
+5546.
+DOI: 10.1200/JCO.2009.23.3734.
+[33]
+RimawiM, FerreroJM, Haba－RodriguezJdl, et al.
+Primary analysis of pertain: A randomized, two－arm, open－label, multicenter phase ii trial assessing the efficacy and safety of pertuzumab given in combination with trastuzumab plus an aromatase inhibitor in first－line patients with her2－positive and hormone receptor－positive metastatic or locally advance breast cancer[R].
+San Antonio:
+San Antonio Breast Cancer Symposium (SABCS),
+2016：
+S3－
+04.
+[34]
+GradisharWJ, HeggR, ImSA, et al.
+Phase 3 study of lapatinib plus trastuzumab and aromatase inhibitor vs tras＋AI vs lap＋AI in postmenopausal women with her2＋/hr＋ metastatic breast cancer[R].
+Alternative ASCO annual meeting,
+2017：
+1004.
+[35]
+RossariJR, Metzger－FilhoO, PaesmansM, et al.
+Bevacizumab and Breast Cancer: A Meta－Analysis of First－Line Phase Ⅲ Studies and a Critical Reappraisal of Available Evidence[J].
+J Oncol,
+2012,
+2012:
+417673.
+DOI: 10.1155/2012/417673.
+[36]
+GligorovJ, DovalD, BinesJ, et al.
+Maintenance capecitabine and bevacizumab versus bevacizumab alone after initial first－line bevacizumab and docetaxel for patients with HER2－negative metastatic breast cancer (IMELDA): a randomised, open－label, phase 3 trial[J].
+Lancet Oncol,
+2014,
+15(
+12):
+1351-
+1360.
+DOI: 10.1016/S1470-2045(14)70444-9.
+[37]
+RossiS, SchinzariG, BassoM, et al.
+Maintenance hormonal and chemotherapy treatment in metastatic breast cancer: a systematic review[J].
+Future Oncol,
+2016,
+12(
+10):
+1299-
+1307.
+DOI: 10.2217/fon-2015-0065.
+[38]
+WangS.
+Fulvestrant as maintenance therapy after first－line chemotherapy in patients with hormone receptor－positive, her2－negative advanced breast cancer (fancy), a prospective, multicenter, single arm phase 2 study[J].
+J Clin Oncol,
+2017,
+35(
+48 s):
+1066.
+[39]
+CazzanigaME, DionisioMR, RivaF.
+Metronomic chemotherapy for advanced breast cancer patients[J].
+Cancer Lett,
+2017,
+400:
+252-
+258.
+DOI: 10.1016/j.canlet.2016.12.019.
+贡献者信息
+徐兵河
+100021 北京，中国医学科学院 北京协和医学院 肿瘤研究所肿瘤医院
+王树森
+中山大学附属肿瘤医院
+江泽飞
+解放军第三〇七医院
+邵志敏
+复旦大学附属肿瘤医院
+代表中国抗癌协会乳腺癌专业委员会
+通信作者
+徐兵河
+Email：
+bhxu@hotmail.com
+历史
+出版日期：2018-01-09
+收稿日期：2017-10-26
+本文编辑
+陈新石
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华医学杂志2018年98卷2期
+文    题：中国晚期乳腺癌维持治疗专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华医学杂志2018年98卷2期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

@@ -1,0 +1,1203 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%88%90%E4%BA%BA%E8%82%A1%E9%AA%A8%E5%A4%B4%E5%9D%8F%E6%AD%BB%E4%B8%B4%E5%BA%8A%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882020%EF%BC%89.html
+# 标题: 中国成人股骨头坏死临床诊疗指南（2020） - 中华骨科杂志
+# 发布方/日期: 外科，中华骨科杂志, 2020,40(20) : 1365-1376. DOI: 10.3760/cma；2020-10-16
+
+中国成人股骨头坏死临床诊疗指南（2020）
+中国医师协会骨科医师分会骨循环与骨坏死专业委员会
+中华医学会骨科分会骨显微修复学组
+国际骨循环学会中国区
+中华骨科杂志, 2020,40(20) : 1365-1376. DOI: 10.3760/cma.j.cn121113-20200306-00133
+股骨头坏死曾被称为股骨头缺血性坏死和股骨头无菌性坏死，是骨科常见的难治性疾病。对任何年龄段、任何病理分期的患者，规范的诊疗方案都非常重要。"股骨头坏死诊疗专家意见（2007）"、"成人股骨头坏死诊疗专家共识（2012）"和"成人股骨头坏死临床诊疗指南（2016）"的制定以循证医学为基础，广泛征求业内专家意见，对国内股骨头坏死诊疗的规范化、诊疗水平的提升以及最优诊疗手段的选择都起到了巨大的推动作用，但在分期规范化的统一认识与诊疗方法的选择方面仍存在不足。
+为了更加规范而有效地诊治股骨头坏死，中国医师协会骨科医师分会骨循环与骨坏死委员会、中华医学会骨科分会骨显微修复学组和国际骨循环与骨坏死学会中国区共同组织国内骨关节与股骨头坏死研究领域的专家，于2019年8月经过对既往指南和共识的讨论、修改，结合近几年的研究进展，制定了新一版成人股骨头坏死临床诊疗指南。
+一、概述
+（一）定义
+股骨头坏死是股骨头静脉淤滞、动脉血供受损或中断使骨细胞及骨髓成分部分死亡引起骨组织坏死及随后发生的修复，共同导致股骨头结构改变及塌陷，引起髋关节疼痛及功能障碍的疾病[1,2]。
+（二）流行病学特征
+迄今为止，在全球范围内尚无股骨头坏死的流行病学报告。首次在国内开展的大规模非创伤性骨坏死流行病学调查结果显示：非创伤性股骨头坏死患者累积已达812万，男性患病率（1.02%）显著高于女性（0.51%），北方居民患病率（0.85%）高于南方居民（0.61%），城镇居民高于农村居民，糖皮质激素、酒精、高血脂、肥胖、高危职业（潜水员）、吸烟、糖尿病等均为非创伤性骨坏死的风险因素[3,4]。
+（三）病因及高危人群
+股骨头坏死可分为创伤性和非创伤性两大类。创伤性股骨头坏死的主要致病因素包括股骨头颈骨折、髋臼骨折、髋关节脱位、髋部严重扭伤或挫伤（无骨折，有关节内血肿）[5]；在我国非创伤性股骨头坏死的主要病因为皮质类固醇类药物应用、长期过量饮酒、减压病、血红蛋白病（镰状细胞贫血、血红蛋白C病、地中海贫血、镰状细胞特质等）、自身免疫病和特发性疾病等[1,4,6,7]。吸烟、肥胖、放射治疗、怀孕等增加了发生股骨头坏死的风险[8,9]，被认为与股骨头坏死相关。
+二、诊断标准
+参照成人股骨头坏死专家共识与临床诊疗指南及国际股骨头坏死诊断标准制定[1,2,10]。
+（一）临床特征
+多以髋部、臀部或腹股沟区疼痛为主，偶尔伴有膝关节疼痛、髋关节内旋活动受限。常有髋部外伤史、皮质类固醇类药物应用史、酗酒史及潜水员等职业史[1,3,4]。
+（二）MRI影像
+MR检查对股骨头坏死具有较高的敏感性[11]。表现为T1WI局限性软骨下线样低信号或T2WI "双线征"[12]。
+（三）X线影像
+髋关节正位和蛙式位是诊断股骨头坏死的X线基本体位，通常在早期表现为硬化、囊变及"新月征"，坏死区与正常区域之间往往可见硬化征象等；晚期股骨头因塌陷失去原有球面结构，以及呈现退行性关节炎表现。
+（四）CT扫描征象
+通常可见股骨头星芒征缺失，负重区骨小梁缺失断裂，骨硬化带包绕囊变区或软骨下骨断裂，坏死骨与修复骨交错存在等征象。
+（五）放射性核素检查
+股骨头急性期骨扫描（99Tcm-MDP、99Tcm-DPD等）坏死区为冷区；坏死修复期表现为热区中有冷区，即"面包圈样"改变[13]。单光子发射计算机断层显像（single-photon emission computed tomography，SPECT）或许能提高放射性核素检查对股骨头坏死诊断的灵敏度[14]。PET可能比MRI和SPECT能更早地发现股骨头坏死征象，并预测股坏死进展。
+（六）骨组织活检及病理表现
+病理形态学上分为血运变化早期、中期及晚期。血运变化早期（静脉瘀滞期）：此时血液供应受阻，出现部分细胞坏死迹象，骨小梁的骨细胞空陷窝多于50%且累及邻近骨小梁，骨髓部分坏死；受骨坏死致病因素刺激，骨髓干细胞逐渐分化为肥大脂肪细胞，细胞直径可达10 μm以上；小静脉出现血栓，静脉扩张、静脉窦充血、间质水肿，因血液回流不畅而造成骨内静脉淤滞和高压。血运变化中期（动脉缺血期）：静脉血栓状况进一步加剧，出现动静脉血管的受压狭窄或动脉血栓等，导致动脉系统供血不足，进而进入到动脉缺血状态；此期表现出软骨下骨骨折，坏死区域扩大，局部呈囊性变，部分股骨头区域出现塌陷，坏死骨组织进入主要修复期，可见新生血管及新生纤维组织长入坏死区，形成肉芽组织。血运变化晚期（动脉闭塞期）：动脉血管内皮增生增厚，动脉管径变小，甚至动脉结构缺失进一步加大，完全进入动脉闭塞；股骨头塌陷的范围和程度加大，表现为髋关节骨关节炎（图1）。
+点击查看大图
+图1
+股骨头坏死病理血运变化分期。骨内血管典型DSA（上）和Micro-CT影像（下） A 早期（静脉瘀滞期），DSA示静脉回流瘀滞受阻，造影剂通过上、下支持带动脉（蓝色箭头）进入股骨头，充盈停滞于股骨头内部，聚集于末端毛细血管内，回流时限延长；Micro-CT示造影面积占据整个股骨头区域，表现为静脉瘀滞 B 中期（动脉缺血期），DSA示血运改变主要以动脉缺血为主，虽然上、下支持带动脉（蓝色箭头）通畅，但造影剂难以覆盖整个股骨头，绿色箭头示造影剂缺失区域；Micro-CT示股骨头内部分动脉区域造影剂难以进入（绿色箭头）,表现为动脉缺血 C 晚期（动脉闭塞期），DSA示造影剂能通过下支持带动脉进入股骨头内（红色箭头），但上支持带动脉没有显影（蓝色箭头），提示已处于闭塞阶段，股骨头大部分区域没有造影剂残留（绿色箭头）；Micro-CT可见股骨头内血管大面积闭塞（绿色箭头），造影区域仅存在于股骨颈附近，闭塞的支持带动脉难以为股骨头提供血运，提示此阶段为血运病理分期的动脉闭塞期
+图1
+股骨头坏死病理血运变化分期。骨内血管典型DSA（上）和Micro-CT影像（下） A 早期（静脉瘀滞期），DSA示静脉回流瘀滞受阻，造影剂通过上、下支持带动脉（蓝色箭头）进入股骨头，充盈停滞于股骨头内部，聚集于末端毛细血管内，回流时限延长；Micro-CT示造影面积占据整个股骨头区域，表现为静脉瘀滞 B 中期（动脉缺血期），DSA示血运改变主要以动脉缺血为主，虽然上、下支持带动脉（蓝色箭头）通畅，但造影剂难以覆盖整个股骨头，绿色箭头示造影剂缺失区域；Micro-CT示股骨头内部分动脉区域造影剂难以进入（绿色箭头）,表现为动脉缺血 C 晚期（动脉闭塞期），DSA示造影剂能通过下支持带动脉进入股骨头内（红色箭头），但上支持带动脉没有显影（蓝色箭头），提示已处于闭塞阶段，股骨头大部分区域没有造影剂残留（绿色箭头）；Micro-CT可见股骨头内血管大面积闭塞（绿色箭头），造影区域仅存在于股骨颈附近，闭塞的支持带动脉难以为股骨头提供血运，提示此阶段为血运病理分期的动脉闭塞期
+上述表现多为非创伤性股骨头坏死的病理变化。而创伤性股骨头坏死在创伤初期就出现动、静脉血运受阻或中断，在病理表现上进入缺血状态，逐渐出现血运变化中期相似的组织学改变，并可发展到血运变化晚期[15]。活组织检查通常在大直径环钻髓芯减压术中取样，当MRI提示典型的股骨头坏死病变时可不进行活检。
+（七）数字减影血管造影（digital subtraction angi-ography，DSA）
+表现为股骨头血供减少、受损和中断，对预防股骨颈骨折后骨坏死的发生有重要的指导意义。非创伤性股骨头坏死，早期出现静脉瘀滞、回流受阻，中期表现为动脉缺血，晚期为动脉闭塞。建议在明确骨坏死诊断后，对拟进行保髋手术治疗的患者进行DSA检查，为手术方案的制定提供依据。
+满足以上（一）、（二）即可确诊为股骨头坏死，（三）至（七）为辅助诊疗与治疗的检查方法。
+三、鉴别诊断
+对具有股骨头坏死类似临床症状、X线或MRI影像学表现的患者，应注意鉴别。
+（一）中、晚期髋关节骨关节炎
+当关节间隙变窄并出现软骨下囊性变时与股骨头坏死不易鉴别。但股骨头坏死的CT表现为硬化并有囊性变，且囊性变多远离软骨下骨；关节炎的囊性变多位于负重区软骨下骨对应区域，MRI改变以T1WI低信号为主。此外，骨关节炎股骨头的轮廓变形不严重，以间隙狭窄为主；而骨坏死股骨头塌陷变形严重，其次是间隙狭窄，可据此鉴别。
+（二）髋臼发育不良继发骨关节炎
+X线表现为髋臼对股骨头包裹不全、关节间隙变窄或消失、骨硬化及囊变，髋臼对应区出现类似改变，容易鉴别。
+（三）强直性脊柱炎累及髋关节
+常见于青少年男性，多为双侧骶髂关节受累，血清检测HLA-B27阳性，X线表现为股骨头保持圆形而关节间隙变窄、消失甚至融合，容易鉴别。部分患者长期应用皮质类固醇类药物可并发股骨头坏死，股骨头可出现塌陷但往往不严重。
+（四）暂时性骨质疏松症或骨髓水肿综合征
+中青年发病，属暂时性疼痛性骨髓水肿。X线片表现为股骨头颈甚至转子部骨量减少；MRI主要表现为股骨头和颈部T1WI均匀低信号、T2WI高信号，范围可至股骨颈及转子部，无带状低信号；病灶可在3~12个月内消散[16]。
+（五）股骨头内软骨母细胞瘤
+MRI表现为T2WI片状高信号，CT扫描呈不规则的溶骨破坏。
+（六）软骨下骨不全骨折
+多见于60岁以上患者，无明显外伤史，或长期从事剧烈运动的中青年，如运动员、军人等[17]。表现为突然发作的髋部疼痛，不能行走，关节活动受限。X线片示股骨头外上部稍变扁；MRI表现为T1WI及T2WI软骨下低信号线及周围骨髓水肿，T2抑脂像出现片状高信号[18]。
+（七）色素沉着绒毛结节性滑膜炎
+髋关节色素沉着绒毛结节性滑膜炎不常见，多累及青壮年，轻中度疼痛伴跛行、早中期关节活动轻度受限为特征。CT及X线片表现为股骨头颈或髋臼皮质骨侵蚀，关节间隙轻中度变窄；MRI表现为广泛的滑膜肥厚，低或中度信号均匀分布。
+（八）滑膜疝
+滑膜疝为滑膜组织增生侵入股骨颈皮质的良性病变，多由髋关节撞击综合征所致，通常无临床症状。MRI表现为股骨颈上部皮质T1WI低信号、T2WI高信号的小圆形病灶。
+（九）骨梗死
+发生在干骺端或长骨骨干的骨坏死，不同时期MRI影像表现不同。①急性期：病变中心T1WI呈与正常骨髓相同或略高信号，T2WI呈高信号，边缘呈长T1、T2信号；②亚急性期：病变中心T1WI呈与正常骨髓相同或略低信号，T2WI呈与正常骨髓相同或略高信号，边缘呈长T1、长T2信号；③慢性期：T1WI和T2WI均呈低信号。
+（十）髋关节撞击综合征
+股骨髋臼撞击症分为夹钳型（Pincer型）、凸轮型（Cam型）及混合型。蛙式位或髋关节侧位X线检查可见股骨头颈部明显有骨赘形成，α角增大。MR检查T1WI股骨头颈部呈片状低信号，T2WI股骨头颈部大片状骨髓水肿信号，股骨头颈交界处充盈缺损，α角增大超过55°。CT检查可见股骨头颈部明显增生，斜矢状位片α角增大，股骨头无明显囊性改变，无骨破坏。三维CT重建往往更能清楚地显示股骨头颈部的解剖异常或骨赘增生[19,20]。
+四、分期与分型
+（一）分期
+建议使用最新发布的2019年国际骨微循环研究协会（Association Research Circulation Osseous，ARCO）分期系统升级版（表1）[21]。
+点击查看表格
+表1
+股骨头坏死ARCO分期（2019版）
+表1
+股骨头坏死ARCO分期（2019版）
+分期
+影像所见
+正位影像表现
+分期表现
+1
+X线片正常，MRI有异常
+MRI上可见坏死区域周围低信号带病变，骨扫描可见一冷区，X线片无异常改变
+2
+X线片、MRI均有异常
+X线片或CT可见骨硬化、局部骨质疏松或囊性变，但无证据显示软骨下骨折、坏死部分骨折或股骨头关节面变平
+3A（早期）
+X线片或CT显示软骨下骨折
+X线片或CT可见软骨下骨折、坏死部分骨折和（或）股骨头关节面变平，股骨头塌陷≤2 mm
+3B（晚期）
+X线片或CT可见软骨下骨折、坏死部分骨折和（或）股骨头关节面变平，股骨头塌陷>2 mm
+4
+X线片显示骨关节炎
+X线片可见髋关节骨关节炎伴关节间隙狭窄，髋臼改变及破坏
+ARCO分期是1991年ARCO委员会在综合Ficat分期、Steinberg分期（表2）和日本骨坏死研究会分期后制定的分期系统，较之前的任何一种分期方法都更系统、更全面、更实用，在确定诊断、评估治疗效果和预后方面具有很高的价值。ARCO分期（2019年版）于2019年5月3日在中国大连举行的2019年ARCO年会上提出并获得批准。我国于2015年制订了股骨头坏死中国分期[22]，本版指南进一步对其进行了补充和更新，将中国分型（中日友好医院分型）和各分期病理变化引入中国分期，更方便应用（表3）。
+点击查看表格
+表2
+股骨头坏死Steinberg分期：宾夕法尼亚大学分期
+表2
+股骨头坏死Steinberg分期：宾夕法尼亚大学分期
+分期
+临床及影像学表现
+0期
+X线片、骨扫描与MRI正常
+Ⅰ期
+X线片正常，骨扫描或（和）MRI出现异常
+A:轻度，股骨头病变范围<15%
+B:中度，15%~30%
+C:重度，>30%
+Ⅱ期
+股骨头出现透光和硬化改变
+A:轻度，<15%
+B:中度，15%~30%
+C:重度，>30%
+Ⅲ期
+软骨下塌陷（新月征），股骨头没有变扁
+A:轻度，<关节面长度15%
+B:中度，关节面长度15%~30%
+C:重度，>关节面长度30%
+Ⅳ期
+股骨头变扁
+A:轻度，关节面长度<15%或塌陷<2 mm
+B:中度，关节面长度15%~30%或塌陷2~4 mm
+C:重度，关节面长度>30%或塌陷>4 mm
+Ⅴ期
+关节狭窄或髋臼病变
+A:轻度
+B:中度
+C:重度
+Ⅵ期
+严重退行性改变
+点击查看表格
+表3
+股骨头坏死中国分期
+表3
+股骨头坏死中国分期
+分期
+临床表现
+坏死部位分型
+影像学
+病理改变
+Ⅰ期（临床前期，无塌陷）
+无
+M,C,L（L1,L2,L3)
+MRI（＋），核素（＋），X线片（-），CT（-）
+骨髓组织坏死，骨细胞坏死，股骨头内血运呈静脉瘀滞表现
+依坏死面积：
+Ⅰa：小，<15%
+Ⅰb：中，15%~30%
+Ⅰc：大，>30%
+Ⅱ期（早期，无塌陷）
+无或轻微
+M,C,L（L1,L2,L3)
+MRI（＋），X线片（±），CT（＋）
+坏死灶吸收，组织修复，股骨头内血运静脉瘀滞表现加重或出现早期动脉缺血表现
+依坏死面积：
+Ⅱa：小，<15%
+Ⅱb：中，15%~30%
+Ⅱc：大，>30%
+Ⅲ期（中期，塌陷前期）
+疼痛起始，跛行明显，疼痛中重度，内旋活动受限，内旋痛
+-
+MRI T2WI抑脂像示骨髓水肿；CT示软骨下骨折；X线片示股骨头外轮廓中断，新月征阳性
+软骨下骨折或经坏死骨骨折，股骨头内血运主要呈动脉缺血表现
+依新月征占关节面长度：
+Ⅲa：小，<15%
+Ⅲb：中，15%~30%
+Ⅲc：大，>30%
+Ⅳ期（中晚期，塌陷期）
+疼痛较重，跛行加重，内旋活动受限，内旋痛加重，外展、内收活动稍受限
+-
+X线片示股骨头塌陷，但关节间隙正常
+股骨头塌陷，股骨头内血运呈动脉缺血表现加剧
+依股骨头塌陷程度：
+Ⅳa：轻，<2 mm
+Ⅳb：中，2~4 mm
+Ⅳc：重，>4 mm
+Ⅴ期（晚期，骨关节炎）
+疼痛重，跛行严重，所有活动（屈曲、外展、内外旋、内收）均受限
+-
+X线片示股骨头变扁、关节间隙变窄、髋臼囊性变或硬化
+软骨受累，骨关节炎，股骨头内血运呈动脉闭塞表现
+注：坏死面积评估选用MRI或CT冠状面正中层面影像，通过坏死累及的层面数评估坏死体积。Ⅲ期发生塌陷的风险评估采用蛙式位或正位X线片上新月征占关节面长度的比例。Ⅲ期塌陷程度的评估采用正位或蛙式位X线片，测量关节面塌陷深度。对X线片未显示股骨头塌陷但出现髋部疼痛的患者需进一步行MR与CT检查，出现骨髓水肿或软骨下骨板断裂征象提示坏死已进展到Ⅲ期。已发生股骨头塌陷且髋部疼痛症状超过6个月，提示关节软骨已发生明显退变（Ⅴ期），不是股骨头坏死保髋手术的最佳时机
+（二）分型
+选用MRI冠状面T1WI或CT扫描冠状面重建图像，选择正中层面，确定坏死部位。依圆韧带前缘及后缘划线将此平面分成三柱：内侧柱，占30%；中央柱，占40%；外侧柱，占30%。
+中国分型（中日友好医院分型）依坏死灶占据三柱情况进行分型：M型，坏死灶占据内侧柱；C型，坏死灶占据中央柱、内侧柱；L型，坏死灶占据全部三柱。依坏死灶占据外侧柱状态，外侧型又分为三种亚型：L1型，坏死灶占据部分外侧柱，尚有部分外侧柱存留；L2型，坏死灶占据全部外侧柱，部分占据中央柱，内侧柱未受累；L3型，坏死灶占据整个股骨头（图2）[23]。
+点击查看大图
+图2
+中国分型（中日友好医院分型）。依坏死灶占据三柱情况进行分型：M型，坏死灶占据内侧柱；C型，坏死灶占据中央柱、内侧柱；L型，坏死灶占据全部三柱。依坏死灶占据外侧柱状态又分为：L1型，坏死灶占据部分外侧柱，尚有部分外侧柱存留；L2型，坏死灶占据全部外侧柱，部分占据中央柱，内侧柱未受累；L3型，坏死灶占据整个股骨头。M，内侧柱；C，中央柱；L，外侧柱
+图2
+中国分型（中日友好医院分型）。依坏死灶占据三柱情况进行分型：M型，坏死灶占据内侧柱；C型，坏死灶占据中央柱、内侧柱；L型，坏死灶占据全部三柱。依坏死灶占据外侧柱状态又分为：L1型，坏死灶占据部分外侧柱，尚有部分外侧柱存留；L2型，坏死灶占据全部外侧柱，部分占据中央柱，内侧柱未受累；L3型，坏死灶占据整个股骨头。M，内侧柱；C，中央柱；L，外侧柱
+五、股骨头坏死的预防与治疗
+（一）股骨头坏死的预防
+1．创伤性股骨头坏死的预防：
+可行DSA或CT血管造影和X线片评估股骨头内血运，分析股骨头是否有支持带血管供血。若无供血可行支持带血管探查吻合、带血管蒂的骨瓣移植，内固定时注意保护血运，避免损伤动脉弓[24]。
+2．激素性股骨头坏死的预防：
+在疾病治疗过程中需要使用激素治疗的患者，可考虑使用扩张血管药联合抗凝活血药物，或者活血化瘀中药，预防骨坏死的发生[25]。
+3．其他股骨头坏死的预防：
+对具有骨坏死高诱发因素的人群，解除诱发原因可有效预防股骨头坏死。如减少酗酒可降低酒精性骨坏死的发生。
+（二）非手术治疗
+1．保护性负重：
+避免撞击性和对抗性运动。使用双拐减少股骨头承重可有效减轻疼痛，延缓股骨头塌陷时间，但不主张使用轮椅。
+2．药物治疗：
+建议选用抗凝、增加纤溶、扩张血管与降脂药物联合应用[26]；也可联合应用抑制破骨和增加成骨的药物[27]。药物治疗可单独应用，也可配合保髋手术应用。
+3．中医药治疗：
+以中医整体观为指导，遵循"动静结合、筋骨并重、内外兼治、医患合作"的基本原则，强调早期诊断、病证结合、早期规范治疗，力求达到髋关节局部及整体稳定[28]。对高危易感人群（长期大剂量使用激素）应用活血化瘀、补肾健骨中药，有可能预防坏死发生；对早期髋部无痛患者，结合坏死部位，如塌陷风险较低，采用活血化瘀通络为主、辅以祛痰化湿、补肾健骨等中药，促进坏死修复；如塌陷风险较大，需配合保护性负重以降低塌陷风险[29]。对出现髋部疼痛者，塌陷往往已经发生或股骨头软骨下骨板发生断裂。若坏死、塌陷未累及股骨头前外侧壁，塌陷程度轻（小于2 mm）、髋关节功能良好、再塌陷风险较低者，可在保护性负重的基础上应用活血化瘀通络、补肾健骨等中药治疗，以期缓解疼痛、促进坏死修复及避免手术治疗[29]；对塌陷明显（2~4 mm）、塌陷时间短（不超过6个月）、累及前或外侧壁者，在保髋手术基础上[30]配合采用活血化瘀通络、补肾健骨中药，可以提高保髋手术效果[31,32]。
+4．物理治疗：
+包括体外冲击波[33]、电磁场[34]、高压氧等[35]。
+5．制动与牵引：
+对大范围坏死（面积>30%）患者，塌陷早期可使用制动与牵引；对坏死面积<30%者，不需要牵引治疗[36]。
+（三）手术治疗
+股骨头坏死进展较快，非手术治疗效果不佳，多数患者需要手术治疗。手术方式包括保留患者自身股骨头为主的修复重建术和人工髋关节置换术两大类。保留股骨头的手术包括髓芯减压术、截骨术、带或不带血运的骨移植术等[37]，适用于股骨头坏死早期（ARCO 1期）或中期（ARCO 2~3B期），且坏死体积在15%以上者。如果方法有效，可避免或推迟人工关节置换术。
+1．髓芯减压术：
+DSA、MRI提示血运呈早期静脉瘀滞表现（ARCO分期1期~2A期），可选择髓芯减压术。该术式开展时间长，疗效肯定。主要分为细针多孔钻孔减压术和粗通道髓芯减压术，区别在于减压通道的直径。细针钻孔减压术的孔道直径为3、3.5或4 mm[38]，粗通道髓芯减压术为6 mm以上[39]。目前髓芯减压联合干细胞移植（或浓集自体骨髓单个核细胞移植）在国内医疗机构的临床应用效果较好[40,41]，因此在获得国家资质的前提下可以使用。2.不带血运骨移植术：应用较多的术式有经股骨转子减压植骨术、经股骨头颈灯泡状减压植骨术等[42]。植骨方法包括压紧植骨、支撑植骨等，植骨材料包括自体皮质骨和松质骨、异体骨[43]、骨替代材料[44,45]。
+3．截骨术：
+目的是将坏死区移出股骨头负重区。截骨术包括内翻或外翻截骨、经股骨转子旋转截骨以及经外科脱位入路股骨颈基底部旋转截骨等。以正常骨为负重，截骨后对股骨头血供不干扰，且不影响后期关节置换为原则选择术式[46]。
+4．带血运自体骨移植术：
+DSA、MRI提示血运表现为动脉缺血（ARCO 2B期~3B期）选择该方法，自体骨移植分为髋周骨瓣移植及腓骨移植[2,37]。髋周带血管蒂骨瓣移植包括：①带旋股外侧血管升支髂骨（膜）瓣转移术；②旋股外侧血管升支臀中肌支大转子骨瓣转移术[47]；③带旋股外侧血管横支的大转子骨瓣转移术[48]；④带旋髂深血管蒂的髂骨（膜）瓣转移术；⑤股方肌蒂骨柱移植术[49]；⑥对整个股骨头甚至部分股骨颈受到累及者采用的横支大转子骨瓣联合升支髂骨（膜）瓣再造股骨头（颈）[50]；⑦髋关节后方入路旋股内侧血管深支大转子骨瓣、臀上血管深上支髂骨瓣等。髋周带血管蒂骨瓣手术创伤小、疗效确切、手术方法容易掌握，推荐使用。为增加股骨头内的强力支撑，在应用髋周带血管蒂骨瓣时可联合支撑材料植入，能够避免术后股骨头塌陷，中短期疗效好[51,52]，长期疗效有待确定。吻合血管腓骨移植的手术效果目前也较为肯定[53,54]，推荐使用。带血运自体骨移植术式的选择可根据其各自优缺点、术者的熟练程度等因素综合考虑。
+5．人工关节置换术：
+股骨头塌陷较重，为晚期动脉闭塞表现（ARCO 3C期、4期）、出现关节功能严重丧失或中度以上疼痛，应选择人工关节置换术[55]。一般认为，非骨水泥型或混合型假体的中长期疗效优于骨水泥型假体。股骨头坏死的人工关节置换术要特别注意：①患者长期应用皮质类固醇类药物或有其他基础病需持续治疗，使感染的风险升高；②长期不负重、骨质疏松等原因导致髋臼及股骨骨折风险增大；③既往保留股骨头手术会给关节置换造成技术困难；④激素性、酒精性股骨头坏死不仅仅是股骨头的病变，其周围及全身骨质均已受损，因此关节置换术的远期疗效可能不及应用于骨关节炎或创伤性股骨头坏死的关节置换术。
+（四）治疗方案的选择原则
+股骨头坏死治疗方案的选择应根据MRI、股骨头坏死血运变化表现、骨坏死分期、分型、坏死体积、关节功能及患者年龄、职业及对保存关节治疗的依从性等因素综合考虑（图4）。
+点击查看大图
+图4
+成人股骨头坏死临床诊断流程图
+图4
+成人股骨头坏死临床诊断流程图
+1．无临床症状、坏死位于非负重区、坏死面积<15%者可严密观察，积极抗凝及扩血管，避免负重，定期随访。无临床症状、坏死位于负重区、坏死面积>30%者应积极治疗，评估血运情况，不应等待症状出现。根据血运表现变化、坏死位置，可联合应用髓芯减压术或非手术治疗手段[56]。
+2．ARCO 0期（1994版ARCO分期）：如果一侧确诊为非创伤性股骨头坏死，对侧应高度怀疑，此时宜行双侧MR检查，建议每3~6个月随访一次，并采用抗凝联合扩张血管药物或者活血化瘀中药进行治疗。
+3．ARCO 1、2期：对有症状或坏死面积15%~30%者，应积极行下肢牵引及药物等非手术治疗；根据静脉瘀滞和动脉缺血的血运表现情况也可行保留关节的手术治疗，采用髓芯减压术[38]或配合干细胞移植或浓集自体骨髓单个核细胞移植。ARCO 2C期可采用带或不带血运的骨移植术（可联合支撑材料）[44,45,51,57]、截骨术等。下肢牵引、药物治疗等非手术治疗应作为辅助治疗积极开展。
+4．ARCO 3期早期：动脉缺血的血运表现，采用带血运自体骨移植术（可联合支撑材料）[52]。
+5．ARCO 3期晚期：根据血管闭塞的血运表现情况，采用带血运骨移植术（可联合支撑材料）[52]，部分年轻、坏死塌陷面积小于2/3的患者可以考虑截骨或人工关节置换。
+6．ARCO 4期：出现严重的髋关节功能丧失或疼痛，应选择人工关节置换术。如果症状轻、年龄小（55岁以下），可选择保留关节手术，参考血运表现情况采用带血管自体骨骨移植（如带血管蒂大转子骨瓣联合髂骨移植等）联合支撑材料。保留股骨头的手术常可应用几种术式中的一种或两种以上的组合。非手术治疗也应包含在综合治疗范围内。
+7．年龄因素：是治疗方案选择的另一关键因素。青壮年活动量较大，应选择既能保留股骨头又不会对将来的人工关节置换术造成不利影响的方案。建议参考血运变化，采用髓芯减压术（干细胞移植）、带血运自体骨移植术、不带血运骨移植术（坏死范围15%~30%）。坏死塌陷面积小于2/3的患者可以考虑旋转截骨的手术方法。中年患者若处于较早期阶段（无塌陷）应尽最大努力保留股骨头，如采用髓芯减压术、带或不带血运的骨移植术；若处于中晚期，则应结合患者主观愿望及技术条件选择保留股骨头的治疗方案或人工关节置换术。
+当采用人工关节置换时假体选择应充分考虑二次翻修的可能。老年患者建议行人工全髋关节置换术，对高龄（>75岁）患者视原日常活动状况、髋部骨质情况、寿命长短的预期等因素而定，建议行全髋关节置换术。
+（五）疗效评价与康复练习
+1．疗效评价：
+分为临床评价和影像学评价两部分。临床评价采用髋关节功能评分，如保髋评分（Reconstruction Hip Scores，RHS）[58]（表4）、Harris评分、西安大略和麦克马斯特大学（The Western Ontario and McMaster Universities，WOMAC）骨关节炎指数、中华医学会骨科学分会百分法、股骨头坏死中医疗效评价标准（2019年版）[59]。根据相同分期、相似坏死面积、相同治疗方法分类进行评价，同时建议行步态分析。
+点击查看表格
+表4
+股骨头坏死修复与再造的RHS评分
+表4
+股骨头坏死修复与再造的RHS评分
+项目
+程度
+得分
+疼痛(30分)
+无痛或可忽略的疼痛
+30
+活动后轻微疼痛
+20
+活动后疼痛加重，可能需要服用止痛药
+10
+显著疼痛，严重限制活动，需要服用止痛药
+5
+病废，因疼痛被迫卧床
+0
+行走能力(20分)
+无限制
+20
+1 000 m内
+15
+500 m内
+10
+仅限屋内
+5
+卧床
+0
+关节活动度(20分)
+屈伸110°-0°，其他>110°
+20
+屈伸90°-0°，其他>90°
+15
+屈伸70°-0°，其他>70°
+10
+屈伸50°-0°，其他>50°
+5
+屈伸30°-0°，其他>30
+0
+X线检查(30分)
+正常
+30
+股骨头轮廓清晰有囊性变硬化骨
+20
+股骨头塌陷<2 mm
+10
+股骨头塌陷>2 mm
+5
+骨关节炎改变，半脱位
+0
+注：RHS，保髋评分；关节活动度总分100分，最终结果是屈伸、外展、内收、外旋、内旋活动度评分相加之和
+影像学评价采用X线片，用同心圆模板观察股骨头外形、关节间隙及髋臼变化。股骨头坏死中国分期Ⅱ期以内的病变评估应有MRI。对带血运骨移植患者应行DSA检查，用来评价血运恢复情况。建立患者病例档案，评价不同病因、坏死时期、年龄、治疗方法的疗效，有助于规范股骨头坏死的治疗。
+2．康复锻炼：
+可防止股骨头坏死患者废用性肌肉萎缩，是促使其早日恢复功能的有效手段。功能锻炼应以主动活动为主，被动活动为辅，由小到大，由少到多，逐渐增加；并根据股骨头坏死的分期和分型、治疗方式、髋关节功能评分及步态分析结果选择适宜的锻炼方法。
+（1）平卧分腿法：平卧位，双下肢伸直位紧贴床面，脚尖向上，中立位向外侧展开30°再内收至中立位，动作反复，每日200次，分3~4次完成。应用于股骨头坏死各期及术后的康复治疗始终。
+（2）坐位踢腿法：坐位稍前屈，双膝关节与肩同宽或稍外展，用力将小腿向前上方踢起，直至膝关节完全伸直并停留5 s，可逐渐增加负重踢腿训练，每日200次，分3~4次完成。应用于股骨头坏死各期及术后康复治疗始终。
+（3）卧位抬腿法：平仰卧，抬高患肢，屈髋屈膝90°，再放平患肢，动作反复。每日200次，分3~4次完成。应用于股骨头坏死保守治疗及外科治疗术后半负重及全负重期。
+（4）坐位分合法：坐于椅上，双手扶膝，双脚与肩等宽，双腿同时充分外展、内收。每日300次，分3~4次完成。应用于股骨头坏死保守治疗及外科治疗术后可部分负重期。
+（5）立位抬腿法：手扶固定物，身体保持竖直，抬高患肢，屈髋屈膝90°，使身体与大腿成直角，再放下患肢，动作反复。每日300次，分3~4次完成。应用于股骨头坏死保守治疗及外科治疗术后可部分负重期。
+（6）扶物下蹲法：手扶固定物，身体直立，双脚与肩等宽，下蹲后再起立，动作反复。每日300次，分3~4次完成。应用于股骨头坏死保守治疗及外科治疗术后可完全负重期。
+（7）内旋外展法：手扶固定物，双腿分别做充分的内旋、外展、划圈动作。每日300次，分3~4完成。应用于股骨头坏死保守治疗及外科治疗术后可完全负重期。
+（8）扶拐步行训练或骑自行车锻炼：应用于股骨头坏死保守治疗及外科治疗术后半负重或完全负重期。
+指南制订人员（以姓名汉语拼音排序）
+曹 力 陈晓东 陈卫衡 郭晓忠 何 伟
+胡永成 李子荣 李 璐 刘 璠 刘 强
+刘保一 彭 昊 秦 岭 沈计荣 田晓滨
+童培建 王坤正 王义生 王本杰 夏 春
+严世贵 阎作勤 喻爱喜 张长青 赵德伟
+参考文献
+[1]
+MontMA, CherianJJ, SierraRJ, et al.
+Nontraumatic osteonecrosis of the femoral head: where do we stand today? A ten-year update[J].
+J Bone Joint Surg Am,
+2015,
+97(
+19):
+1604-
+1627.
+DOI: 10.2106/JBJS.O.00071.
+[2]
+赵德伟，胡永成.
+成人股骨头坏死诊疗标准专家共识（2012年版）[J].
+中华关节外科杂志（电子版）,
+2012,
+4(
+3):
+89-
+92.
+DOI: 10.3760/cma.j.issn.0253-2352.2012.06.018.
+ZhaoDW, HuYC. Chinese experts' consensus on the diagnosis and treatment of osteonecrosis of the femoral head in adults[J]. Orthopaedic Surgery, 2012, 4(3): 125-130. DOI: 10.3760/cma.j.issn.0253-2352.2012.06.018.
+[3]
+赵德伟，杨磊，田丰德,等.
+大连市潜水员股骨头坏死发病率的流行病学调查报告[J].
+中华骨科杂志,
+2012,
+32(
+6):
+521-
+525.
+DOI: 10.3760/cma.j.issn.0253-2352.2012.06.002.
+ZhaoDW, YangL, TianFD, et al. Incidence of osteonecrosis of the femoral head in divers: an epidemiologic analysis in Dalian[J]. Chin J Orthop, 2012, 32(6): 521-525. DOI: 10.3760/cma.j.issn.0253-2352.2012.06.002.
+[4]
+ZhaoDW, YuM, HuK, et al.
+Prevalence of nontraumatic osteonecrosis of the femoral head and its associated risk factors in the Chinese population: results from a nationally representative survey[J].
+Chin Med J (Engl),
+2015,
+128(
+21):
+2843-
+2850.
+DOI: 10.4103/0366-6999.168017.
+[5]
+PanteliM, RodhamP, GiannoudisPV.
+Biomechanical rationale for implant choices in femoral neck fracture fixation in the non-elderly[J].
+Injury,
+2015,
+46(
+3):
+445-
+452.
+DOI: 10.1016/j.injury.2014.12.031.
+[6]
+Mukisi-MukazaM, Gomez-BrouchetA, DonkerwolckeM, et al.
+Histopathology of aseptic necrosis of the femoral head in sickle cell disease[J].
+Int Orthop,
+2011,
+35(
+8):
+1145-
+1150.
+DOI: 10.1007/s00264-010-1121-6.
+[7]
+HuaL, ZhangJ, HEJW, et al.
+Symptomatic osteonecrosis of the femoral head after adult orthotopic liver transplantation[J].
+Chin Med J,
+2012,
+125(
+14):
+2422-
+2426.
+DOI: 10.3760/cma.j.issn.0366-6999.2012.14.004.
+[8]
+TakahashiS, FukushimaW, KuboT, et al.
+Pronounced risk of nontraumatic osteonecrosis of the femoral head among cigarette smokers who have never used oral corticosteroids: a multicenter case-control study in Japan[J].
+J Orthop Sci,
+2012,
+17(
+6):
+730-
+736.
+DOI: 10.1007/s00776-012-0293-x.
+[9]
+AbdulkareemIH.
+Radiation-induced femoral head necrosis[J].
+Niger J Clin Pract,
+2013,
+16(
+1):
+123-
+126.
+DOI: 10.4103/1119-3077.106787.
+[10]
+中国医师协会骨科医师分会显微修复工作委员会.
+成人股骨头坏死临床诊疗指南(2016)[J].
+中华骨科杂志,
+2016,
+36(
+15):
+945-
+954.
+DOI: 10.3760/cma.j.issn.0253-2352.2016.15.001.
+Microsurgery Department of the Orthopedics Branch of the Chinese Medical Doctor Association. Chinese guideline for the diagnosis and treatment of osteonecrosis of the femoral head in adults[J]. Chin J Orthop, 2017, 36(15): 945-954. DOI: 10.3760/cma.j.issn.0253-2352.2016.15.001.
+[11]
+SteinbergDR, SteinbergME.
+The University of Pennsylvania classification of osteonecrosis[M]//
+KooKH, MontMA, JonesLC.
+Osteonecrosis.
+1st ed.
+Berlin:
+Springer,
+2014:
+201-
+206.
+[12]
+MalizosKN, KarantanasAH, VaritimidisSE, et al.
+Osteonecrosis of the femoral head: etiology, imaging and treatment[J].
+Eur J Radiol,
+2007,
+63(
+1):
+16-
+28.
+DOI: 10.1016/j.ejrad.2007.03.019.
+[13]
+RyuKN, JinW, ParkJS.
+Radiography, MRI, CT, Bone Scan, and PET-CT[M].
+KooKH, MontMA, JonesLC.
+Osteonecrosis.
+1st ed.
+Berlin:
+Springer,
+2014:
+179-
+195.
+[14]
+MotomuraG, YamamotoT, KarasuyamaK, et al.
+Bone SPECT/CT of femoral head subchondral insufficiency fracture[J].
+Clin Nucl Med,
+2015,
+40(
+9):
+752-
+754.
+DOI: 10.1097/RLU.0000000000000886.
+[15]
+GuoshuangZ, DeweiZ, XingQ.
+Changes in Blood Supply and Bone Structure of Different Stages Osteonecrosis of the Human Femoral Head.
+2019 ARCO Biennial Meeting, Vol. Proceeding in 2019 ARCO Biennial Meeting.
+Dalian:
+The Association Research Circulation Osseous (ARCO) International,
+2019:
+55.
+[16]
+PatelS.
+Primary bone marrow oedema syndromes[J].
+Rheumatology (Oxford),
+2014,
+53(
+5):
+785-
+792.
+DOI: 10.1093/rheumatology/ket324.
+[17]
+YoonPW, YooJJ, YoonKS, et al.
+Case report: multifocal subchondral stress fractures of the femoral heads and tibial condyles in a young military recruit[J].
+Clin Orthop Relat Res,
+2012,
+470(
+3):
+944-
+949.
+DOI: 10.1007/s11999-011-2209-z.
+[18]
+HackneyLA, LeeMH, JosephGB, et al.
+Subchondral insufficiency fractures of the femoral head: associated imaging findings and predictors of clinical progression[J].
+Eur Radiol,
+2016,
+26(
+6):
+1929-
+1941.
+DOI: 10.1007/s00330-015-3967-x.
+[19]
+陈晓东.
+"保髋"之路将越走越宽[J].
+中华关节外科杂志（电子版）,
+2017,
+11(
+3):
+1-
+3.
+DOI: 10.3877/cma.j.issn.1674-134X.2017.03.001.
+ChenXD. Road of hip preservation will only be wide[J]. Chinese Journal of Joint Surgery (Electronic Version), 2017, 11(3): 1-3. DOI: 10.3877/cma.j.issn.1674-134X.2017.03.001.
+[20]
+HamptonSN, NakoneznyPA, RichardHM, et al.
+Pain catastrophizing, anxiety, and depression in hip pathology[J].
+Bone Joint J,
+2019,
+101-B(
+7):
+800-
+807.
+DOI: 10.1302/0301-620X.101B7.BJJ-2018-1309.R1.
+[21]
+YoonBH, MontMA, KooKH, et al.
+The 2019 revised version of Association Research Circulation Osseous Staging System of osteonecrosis of the femoral head[J].
+J Arthroplasty,
+2020,
+35(
+4):
+933-
+940.
+DOI: 10.1016/j.arth.2019.11.029.
+[22]
+中华医学会骨科学分会关节外科学组.
+股骨头坏死临床诊疗规范[J].
+中国矫形外科杂志,
+2016,
+24(
+1):
+49-
+54.
+DOI: 10.3977/j.issn.1005-8478.2016.01.10.
+Joint Surgery Group, Orthopedic Society, Chinese Medical Association. Guidelines for clinical diagnosis and treatment of femoral head necrosis[J]. Chinese Journal of Bone and Joint Surgery, 2016, 24(1): 49-54. DOI: 10.3977/j.issn.1005-8478.2016.01.10.
+[23]
+李子荣，刘朝晖，孙伟,等.
+基于三柱结构的股骨头坏死分型——中日友好医院分型[J].
+中华骨科杂志,
+2012,
+32(
+6):
+515-
+520.
+DOI: 10.3760/cma.j.issn.0253-2352.2012.06.001.
+LiZR, LiuZH, SunW, et al. The classification of osteonecrosis of the femoral head based on the three pillars structure: China Japan Friendship Hospital (CJFH) classification[J]. Chin J Orthop, 2012, 32(6): 515-520. DOI: 10.3760/cma.j.issn.0253-2352.2012.06.001.
+[24]
+ZhaoD, QiuX, WangB, et al.
+Epiphyseal arterial network and inferior retinacular artery seem critical to femoral head perfusion in adults with femoral neck fractures[J].
+Clin Orthop Relat Res,
+2017,
+475(
+8):
+2011-
+2023.
+DOI: 10.1007/s11999-017-5318-5.
+[25]
+刘保一，杨磊，王本杰,等.
+激素性股骨头坏死的预防与内科治疗的长期临床随访观察[J].
+中华医学杂志,
+2017,
+97(
+41):
+3213-
+3218.
+DOI: 10.3760/cma.j.issn.0376-2491.2017.41.004.
+LiuBY, YangL, WangBJ, et al. Prevention for glucocorticoid-induced osteonecrosis of femoral head: a long-term clinical follow-up trail[J]. National Medical Journal of China, 2017, 97(41): 3213-3218. DOI: 10.3760/cma.j.issn.0376-2491.2017.41.004.
+[26]
+PeledE, DavisM, AxelmanE, et al.
+Heapranase role in the treatment of avascular necrosis of femur head[J].
+Thromb Res,
+2013,
+131(
+1):
+94-
+98.
+DOI: 10.1016/j.thromres.2012.09.018.
+[27]
+黄立新，董天华，谢道海,等.
+美多巴治疗早期非创伤性股骨头坏死的近期疗效观察[J].
+中华骨科杂志,
+2010,
+30(
+7):
+641-
+645.
+DOI: 10.3760/cma.j.issn.0253-2352.2010.07.002.
+HuangLX, DongTH, XieDH, et al. Reliminary observation of clinical results of treatment for early non-traumatic osteonecrosis of the femoral head with Madopar[J]. Chin J Orthop, 2010, 30(7):641-645. DOI: 10.3760/cma.j.issn.0253-2352.2010.07.002.
+[28]
+何伟.
+精确诊断前提下股骨头坏死非手术治疗实践[J].
+临床外科杂志,
+2017,
+25(
+8):
+580-
+582.
+DOI: 10.3969/j.issn.1005-6483.2017.08.006.
+HeW. Practice of non-surgical treatment of femoral head necrosis with accurate diagnosis[J]. Journal of Clinical Surgery, 2017, 25(8): 580-582. DOI: 10.3969/j.issn.1005-6483.2017.08.006.
+[29]
+FangB, LiY, ChenC, et al.
+Huo Xue Tong Luo capsule ameliorates osteonecrosis of femoral head through inhibiting lncRNA-Miat[J].
+Journal of Ethnopharmacology,
+2019,
+238:
+111862.
+DOI: 10.1016/j.jep.2019.111862.
+[30]
+陈雷雷，洪志楠，洪郭驹,等.
+打压支撑植骨术治疗股骨头坏死的中长期疗效与影响因素分析[J].
+中华骨科杂志,
+2018,
+38(
+7):
+403-
+410.
+DOI: 10.3760/cma.j.issn.0253-2352.2018.07.004.
+ChenLL, HongZN, HongGJ, et al. Predicting the collapse of the femoral head due to osteonecrosis: from basic methods to application prospects[J]. Chin J Orthop, 2018, 38(7): 403-410. DOI: 10.3760/cma.j.issn.0253-2352.2018.07.004.
+[31]
+何伟.
+科学看待中医药治疗非创伤性股骨头坏死[J].
+中华关节外科杂志（电子版）,
+2013,
+7(
+3):
+284-
+286.
+DOI: CNKI:SUN:ZHGJ.0.2013-03-002.
+HeW. A scientific view on the treatment of non-traumatic femoral head necrosis with traditional Chinese medicine[J]. Chinese Journal of Joint Surgery (Electronic Edition), 2013, 7(3): 284-286. DOI: CNKI:SUN:ZHGJ.0.2013-03-002.
+[32]
+陈卫衡，周宇，何海军,等.
+健脾活骨方治疗早中期非创伤性股骨头坏死的前瞻性临床研究[J].
+中华关节外科杂志（电子版）,
+2013,
+7(
+3):
+3-
+8.
+DOI: CNKI:SUN:ZHGJ.0.2013-03-003.
+ChenWH, ZhouY, HeHJ, et al. Prospective study on Jianpihuogu formula for early- and mid-stage non-traumatic osteonecrosis of femoral head[J]. Chinese Journal of Joint Surgery (Electronic Edition), 2013, 7(3): 3-8. DOI: CNKI:SUN:ZHGJ.0.2013-03-003.
+[33]
+孙伟，高福强，李子荣.
+体外震波在股骨头坏死中的应用研究进展[J].
+中国骨与关节杂志,
+2014,
+3(
+4):
+314-
+317.
+DOI: 10.3969/j.issn.2095-252X.2014.04.017.
+SunW, GaoFQ, LiZR. Application of extracorporeal shock wave in the treatment of osteonecrosis of the femoral head[J]. Chinese Journal of Bone and Joint, 2014, 3(4): 314-17. DOI: 10.3969/j.issn.2095-252X.2014.04.017.
+[34]
+庞承刚，姜文学，姜春乾,等.
+仿生脉冲磁场联合同种异体骨髓间充质干细胞移植治疗股骨头坏死的实验研究[J].
+中华关节外科杂志（电子版）,
+2012,
+6(
+5):
+756-
+763.
+DOI: CNKI:SUN:ZHGJ.0.2012-05-020.
+PangCG, JiangWX, JiangCQ, et al. Effects of allogenic bone marrow mesenchymal stem cells combining with bionics electromagnetic fields on osteonecrosis of femoral head in rabbits[J]. Chinese Journal of Joint Surgery (Electronic Version), 2012, 6(5): 756-763. DOI: CNKI:SUN:ZHGJ.0.2012-05-020.
+[35]
+CamporesiEM, VezzaniG, BoscoG, et al.
+Hyperbaric oxygen therapy in femoral head necrosis[J].
+J Arthroplasty,
+2010,
+25(
+6
+Suppl):
+S118-
+S123.
+DOI: 10.1016/j.arth.2010.05.005.
+[36]
+TripathySK, GoyalT, SenRK.
+Management of femoral head osteonecrosis: current concepts[J].
+Indian J Orthop,
+2015,
+49(
+1):
+28-
+45.
+DOI: 10.4103/0019-5413.143911.
+[37]
+ZhaoDW, HuYC.
+Chinese experts' consensus on the diagnosis and treatment of osteonecrosis of the femoral head in adults[J].
+Orthop Surg,
+2012,
+4(
+3):
+125-
+130.
+DOI: 10.1111/j.1757-7861.2012.00192.x.
+[38]
+Al OmranA.
+Multiple drilling compared with standard core decompression for avascular necrosis of the femoral head in sickle cell disease patients[J].
+Arch Orthop Trauma Surg,
+2013,
+133(
+5):
+609-
+613.
+DOI: 10.1007/s00402-013-1714-9.
+[39]
+RajagopalM, SamoraJB, EllisTJ.
+Efficacy of core decompression as treatment for osteonecrosis of the hip: a systematic review[J].
+Hip International,
+2012,
+22(
+5):
+489-
+493.
+DOI: 10.5301/HIP.2012.9748.
+[40]
+ZhaoD, CuiD, WangB, et al.
+Treatment of early stage osteonecrosis of the femoral head with autologous implantation of bone marrow-derived and cultured mesenchymal stem cells[J].
+Bone,
+2012,
+50(
+1):
+325-
+330.
+DOI: 10.1016/j.bone.2011.11.002.
+[41]
+王秀利，王义生，吴学建,等.
+自体骨髓干细胞种植骨诱导活性材料移植联合髓芯减压术治疗早期股骨头坏死[J].
+中华显微外科杂志,
+2017,
+40(
+2):
+142-
+145.
+DOI: 10.3760/cma.j.issn.1001-2036.2017.02.010.
+WangXL, WangYS, WuXJ, et al. Autologous bone marrow stem cells implantation to bone inducing active material combined with core decompression in the treatment of early femoral head osteonecrosis[J]. Chinese Journal of Microsurgery, 2017, 40(2): 142-145. DOI: 10.3760/cma.j.issn.1001-2036.2017.02.010.
+[42]
+ZhangHJ, LiuYW, DuZQ, et al.
+Therapeutic effect of minimally invasive decompression combined with impaction bone grafting on osteonecrosis of the femoral head[J].
+Eur J Orthop Surg Traumatol,
+2013,
+23(
+8):
+913-
+919.
+DOI: 10.1007/s00590-012-1141-6.
+[43]
+郭晓忠，李兵，岳聚安,等.
+髓芯减压植骨加异体腓骨支撑治疗早期股骨头缺血性坏死的单中心长期临床疗效研究[J].
+中华骨与关节外科杂志,
+2018,
+11(
+12):
+904-
+909.
+DOI: 10.3969/j.issn.2095-9958.2018.12.005.
+GuoXZ, LiB, YueJA, et al. Long-term efficacy of core decompression with allogeneic peroneal transplantation in treatment of osteonecrosis of the femoral head in single center[J]. Chinese Journal Bone and Joint Surgery, 2018, 11(12): 904-909. DOI: 10.3969/j.issn.2095-9958.2018.12.005.
+[44]
+XiaoX, WangW, LiuD, et al.
+The promotion of angiogenesis induced by three-dimensional porous beta-tricalcium phosphate scaffold with different interconnection sizes via activation of PI3K/Akt pathways[J].
+Sci Rep,
+2015,
+5:
+9409.
+DOI: 10.1038/srep09409.
+[45]
+GaoP, ZhangH, LiuY, et al.
+Beta-tricalcium phosphate granules improve osteogenesis in vitro and establish innovative osteo-regenerators for bone tissue engineering in vivo[J].
+Sci Rep,
+2016,
+6:
+23367.
+DOI: 10.1038/srep23367.
+[46]
+HamanishiM, YasunagaY, YamasakiT, et al.
+The clinical and radiographic results of intertrochanteric curved varus osteotomy for idiopathic osteonecrosis of the femoral head[J].
+Arch Orthop Trauma Surg,
+2014,
+134(
+3):
+305-
+310.
+DOI: 10.1007/s00402-013-1919-y.
+[47]
+ZhaoD, XiaobingY, WangT, et al.
+Digital subtraction angiography in selection of the vascularized greater trochanter bone grafting for treatment of osteonecrosis of femoral head[J].
+Microsurgery,
+2013,
+33(
+8):
+656-
+659.
+DOI: 10.1002/micr.22179.
+[48]
+WangB, ZhaoD, LiuB, et al.
+Treatment of osteonecrosis of the femoral head by using the greater trochanteric bone flap with double vascular pedicles[J].
+Microsurgery,
+2013,
+33(
+8):
+593-
+599.
+DOI: 10.1002/micr.22114.
+[49]
+李军伟，李鑫，王义生,等.
+股方肌蒂骨柱加钛网伞状支撑术治疗酒精性股骨头坏死5年随访研究[J].
+中华骨科杂志,
+2015,
+35(
+8):
+787-
+794.
+DOI: 10.3760/cma.j.issn.0253-2352.2015.08.001.
+LiJW, LiX, WangYS, et al. Five-year-follow up comparative study of bone grafting pedicled with the femoral quadratus augmented with a titanium mesh for alcohol-induced osteonecrosis of the femoral head[J]. Chin J Orthop, 2015, 35(8): 787-794. DOI: 10.3760/cma.j.issn.0253-2352.2015.08.001.
+[50]
+ZhaoD, CuiD, LuF, et al.
+Combined vascularized iliac and greater trochanter graftings for reconstruction of the osteonecrosis femoral head with collapse: reports of three cases with 20 years follow-up[J].
+Microsurgery,
+2012,
+32(
+7):
+546-
+551.
+DOI: 10.1002/micr.21995.
+[51]
+ZhaoD, ZhangY, WangW, et al.
+Tantalum rod implantation and vascularized iliac grafting for osteonecrosis of the femoral head[J].
+Orthopedics,
+2013,
+36(
+6):
+789-
+795.
+DOI: 10.3928/01477447-20130523-26.
+[52]
+ZhaoD, LiuB, WangB, et al.
+Autologous bone marrow mesenchymal stem cells associated with tantalum rod implantation and vascularized iliac grafting for the treatment of end-stage osteonecrosis of the femoral head[J].
+Biomed Res Int,
+2015,
+2015:
+240506.
+DOI: 10.1155/2015/240506.
+[53]
+王懋，张长青，丁浩,等.
+股骨头坏死患者腓骨移植后长期服用激素:终点结局中8髋全髋关节置换[J].
+中国组织工程研究,
+2014,
+18(
+53):
+8547-
+8552.
+DOI: 10.3969/j.issn.2095-4344.2014.53.004.
+WangYM, ZhangCQ, DingH, et al. Patients with necrosis of the femoral head and taking hormone for a long time after fibular graft: eight hips receiving total hip replacement[J]. Chinese Journal of Tissue Engineering Research, 2014, 18(53): 8547-8552. DOI: 10.3969/j.issn.2095-4344.2014.53.004.
+[54]
+田雷，王坤正，党晓谦,等.
+吻合血管游离腓骨移植治疗股骨头坏死的中期及远期疗效评估[J].
+中华关节外科杂志（电子版）,
+2013,
+6(
+6):
+34-
+38.
+DOI: 10.3877/cma.j.issn.1674-134X.2012.06.010.
+TianL, WangKZ, DangXQ, et al. Long-term effects of vascularized fibular graft transplantation for avascular necrosis of femoral head[J]. Chinese Journal of Joint Surgery (Electronic Version), 2012, 6(6): 879-887. DOI: 10.3877/cma.j.issn.1674-134X.2012.06.010.
+[55]
+IssaK, JohnsonAJ, NaziriQ, et al.
+Hip osteonecrosis: does prior hip surgery alter outcomes compared to an initial primary total hip arthroplasty?[J].
+J Arthroplasty,
+2014,
+29(
+1):
+162-
+166.
+DOI: 10.1016/j.arth.2013.04.028.
+[56]
+NamKW, KimYL, YooJJ, et al.
+Fate of untreated asymptomatic osteonecrosis of the femoral head[J].
+J Bone Joint Surg Am,
+2008,
+90(
+3):
+477-
+484.
+DOI: 10.2106/JBJS.F.01582.
+[57]
+孙伟，李子荣，高福强,等.
+磷酸三钙多孔生物陶瓷修复股骨头坏死[J].
+中国组织工程研究,
+2014,
+18(
+16):
+2474-
+2479.
+DOI: CNKI:SUN:XDKF.0.2014-16-005.
+SunW, LiZR, GaoFQ, et al. Porous bioceramic beta-tricalcium phosphate for treatment of osteonecrosis of the femoral head[J]. Journal of Clinical Rehabilitative Tissue Engineering Research, 2014, 18(16): 2474-2479. DOI: CNKI:SUN:XDKF.0.2014-16-005.
+[58]
+DeweiZ, BenjieW, WeiminF, et al.
+Osteonecrosis of the femoral head: a new function evaluation technique.
+2019 ARCO Biennial Meeting, Vol. Proceeding in 2019 ARCO Biennial Meeting.
+Dalian:
+The Association Research Circulation Osseous (ARCO) International,
+2019:
+37.
+[59]
+陈卫衡，何伟，赵德伟,等.
+股骨头坏死中医疗效评价标准（2019年版）[J].
+中医正骨,
+2019,
+31(
+6):
+3-
+6.
+DOI: CNKI:SUN:ZYZG.0.2019-06-003.
+ChenWH, HeW, ZhaoDW, et al. Evaluation criteria of traditional Chinese medicine for femoral head necrosis[J]. The Journal of Traditional Chinese Orthopedics and Traumatology, 2019, 31(6): 3-6. DOI: CNKI:SUN:ZYZG.0.2019-06-003.
+贡献者信息
+中国医师协会骨科医师分会骨循环与骨坏死专业委员会
+中华医学会骨科分会骨显微修复学组
+国际骨循环学会中国区
+通信作者
+赵徳伟
+Email：
+zhaodewei2016@163.com
+胡永成
+Email：
+yongchenghu@126.com
+李子荣
+Email：
+lizirongon@163.com
+历史
+出版日期：2020-10-16
+收稿日期：2020-03-06
+本文编辑
+马英
+Guideline
+Chinese guidelines for clinical diagnosis and treatment of osteonecrosis of the femoral head in adults (2020)
+Bone Circulation and Osteonecrosis Department of Chinese Association of Orthopaedic Surgeons of the Chinese Medical Doctor Association;,  Microsurgery and Reconstructive Surgery Group of the Orthopaedics Branch of the Chinese Medical Association;,  Association Research Circulation Osseous (ARCO)—China
+Published
+2020-10-16
+Cite as
+Chin J Orthop, 2020,40(20): 1365-1376. DOI: 10.3760/cma.j.cn121113-20200306-00133
+Abstract
+Osteonecrosis of the femoral head (ONFH) is a common and refractory disease. Although it is thought to be associated with circulatory disruption and resultant bone death, its exact pathophysiologic mechanism is not fully understood. Prevention and treatment of ONFH has always been a clinical challenge for orthopedic surgeons. To further standardize diagnosis and treatment of ONFH, the present clinical practice guideline (2020 version) was updated based on "Chinese guideline for the diagnosis and treatment of osteonecrosis of the femoral head in adults (2016)" . The classification system established by the Association Research Circulation Osseous (ARCO) had been widely used in guiding treatment, estimating prognosis, and evaluating efficacy. The ARCO staging system (2019 version) was also introduced in the present guideline. Based on the changes in the intraosseous blood supply at different stages, the corresponding nonsurgical and surgical treatments were recommended. For patients with risk factors for potential ONFH, preventive interventions to avoid the occurrence of osteonecrosis were recommended. New advances in the epidemiology, etiology, pathophysiology, imaging, diagnosis and treatment of ONFH were renewed in this 2020 version guideline. The guideline not only provided primary diagnosis, treatment and evaluation systems for ONFH, but also added some expert advices and consensus, including epidemiology, etiology, diagnostic criteria, pathological staging, prevention, Chinese traditional medicine treatment and postoperative rehabilitation. The guideline provided brief classification criteria and treatment regimen for ONFH. The guideline emphasized the important steps in diagnosis and developing treatment strategies, including specification of the etiology, treatment plan based on comprehensive consideration of the changes in the intraosseous blood supply at different stages of ONFH, hip function, age and occupation of the patients.
+Contributor Information
+Bone Circulation and Osteonecrosis Department of Chinese Association of Orthopaedic Surgeons of the Chinese Medical Doctor Association;
+Microsurgery and Reconstructive Surgery Group of the Orthopaedics Branch of the Chinese Medical Association;
+Association Research Circulation Osseous (ARCO)—China
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+图1
+股骨头坏死病理血运变化分期。骨内血管典型DSA（上）和Micro-CT影像（下） A 早期（静脉瘀滞期），DSA示静脉回流瘀滞受阻，造影剂通过上、下支持带动脉（蓝色箭头）进入股骨头，充盈停滞于股骨头内部，聚集于末端毛细血管内，回流时限延长；Micro-CT示造影面积占据整个股骨头区域，表现为静脉瘀滞 B 中期（动脉缺血期），DSA示血运改变主要以动脉缺血为主，虽然上、下支持带动脉（蓝色箭头）通畅，但造影剂难以覆盖整个股骨头，绿色箭头示造影剂缺失区域；Micro-CT示股骨头内部分动脉区域造影剂难以进入（绿色箭头）,表现为动脉缺血 C 晚期（动脉闭塞期），DSA示造影剂能通过下支持带动脉进入股骨头内（红色箭头），但上支持带动脉没有显影（蓝色箭头），提示已处于闭塞阶段，股骨头大部分区域没有造影剂残留（绿色箭头）；Micro-CT可见股骨头内血管大面积闭塞（绿色箭头），造影区域仅存在于股骨颈附近，闭塞的支持带动脉难以为股骨头提供血运，提示此阶段为血运病理分期的动脉闭塞期
+表1
+股骨头坏死ARCO分期（2019版）
+分期
+影像所见
+正位影像表现
+分期表现
+1
+X线片正常，MRI有异常
+MRI上可见坏死区域周围低信号带病变，骨扫描可见一冷区，X线片无异常改变
+2
+X线片、MRI均有异常
+X线片或CT可见骨硬化、局部骨质疏松或囊性变，但无证据显示软骨下骨折、坏死部分骨折或股骨头关节面变平
+3A（早期）
+X线片或CT显示软骨下骨折
+X线片或CT可见软骨下骨折、坏死部分骨折和（或）股骨头关节面变平，股骨头塌陷≤2 mm
+3B（晚期）
+X线片或CT可见软骨下骨折、坏死部分骨折和（或）股骨头关节面变平，股骨头塌陷>2 mm
+4
+X线片显示骨关节炎
+X线片可见髋关节骨关节炎伴关节间隙狭窄，髋臼改变及破坏
+表2
+股骨头坏死Steinberg分期：宾夕法尼亚大学分期
+分期
+临床及影像学表现
+0期
+X线片、骨扫描与MRI正常
+Ⅰ期
+X线片正常，骨扫描或（和）MRI出现异常
+A:轻度，股骨头病变范围<15%
+B:中度，15%~30%
+C:重度，>30%
+Ⅱ期
+股骨头出现透光和硬化改变
+A:轻度，<15%
+B:中度，15%~30%
+C:重度，>30%
+Ⅲ期
+软骨下塌陷（新月征），股骨头没有变扁
+A:轻度，<关节面长度15%
+B:中度，关节面长度15%~30%
+C:重度，>关节面长度30%
+Ⅳ期
+股骨头变扁
+A:轻度，关节面长度<15%或塌陷<2 mm
+B:中度，关节面长度15%~30%或塌陷2~4 mm
+C:重度，关节面长度>30%或塌陷>4 mm
+Ⅴ期
+关节狭窄或髋臼病变
+A:轻度
+B:中度
+C:重度
+Ⅵ期
+严重退行性改变
+表3
+股骨头坏死中国分期
+分期
+临床表现
+坏死部位分型
+影像学
+病理改变
+Ⅰ期（临床前期，无塌陷）
+无
+M,C,L（L1,L2,L3)
+MRI（＋），核素（＋），X线片（-），CT（-）
+骨髓组织坏死，骨细胞坏死，股骨头内血运呈静脉瘀滞表现
+依坏死面积：
+Ⅰa：小，<15%
+Ⅰb：中，15%~30%
+Ⅰc：大，>30%
+Ⅱ期（早期，无塌陷）
+无或轻微
+M,C,L（L1,L2,L3)
+MRI（＋），X线片（±），CT（＋）
+坏死灶吸收，组织修复，股骨头内血运静脉瘀滞表现加重或出现早期动脉缺血表现
+依坏死面积：
+Ⅱa：小，<15%
+Ⅱb：中，15%~30%
+Ⅱc：大，>30%
+Ⅲ期（中期，塌陷前期）
+疼痛起始，跛行明显，疼痛中重度，内旋活动受限，内旋痛
+-
+MRI T2WI抑脂像示骨髓水肿；CT示软骨下骨折；X线片示股骨头外轮廓中断，新月征阳性
+软骨下骨折或经坏死骨骨折，股骨头内血运主要呈动脉缺血表现
+依新月征占关节面长度：
+Ⅲa：小，<15%
+Ⅲb：中，15%~30%
+Ⅲc：大，>30%
+Ⅳ期（中晚期，塌陷期）
+疼痛较重，跛行加重，内旋活动受限，内旋痛加重，外展、内收活动稍受限
+-
+X线片示股骨头塌陷，但关节间隙正常
+股骨头塌陷，股骨头内血运呈动脉缺血表现加剧
+依股骨头塌陷程度：
+Ⅳa：轻，<2 mm
+Ⅳb：中，2~4 mm
+Ⅳc：重，>4 mm
+Ⅴ期（晚期，骨关节炎）
+疼痛重，跛行严重，所有活动（屈曲、外展、内外旋、内收）均受限
+-
+X线片示股骨头变扁、关节间隙变窄、髋臼囊性变或硬化
+软骨受累，骨关节炎，股骨头内血运呈动脉闭塞表现
+注：坏死面积评估选用MRI或CT冠状面正中层面影像，通过坏死累及的层面数评估坏死体积。Ⅲ期发生塌陷的风险评估采用蛙式位或正位X线片上新月征占关节面长度的比例。Ⅲ期塌陷程度的评估采用正位或蛙式位X线片，测量关节面塌陷深度。对X线片未显示股骨头塌陷但出现髋部疼痛的患者需进一步行MR与CT检查，出现骨髓水肿或软骨下骨板断裂征象提示坏死已进展到Ⅲ期。已发生股骨头塌陷且髋部疼痛症状超过6个月，提示关节软骨已发生明显退变（Ⅴ期），不是股骨头坏死保髋手术的最佳时机
+图2
+中国分型（中日友好医院分型）。依坏死灶占据三柱情况进行分型：M型，坏死灶占据内侧柱；C型，坏死灶占据中央柱、内侧柱；L型，坏死灶占据全部三柱。依坏死灶占据外侧柱状态又分为：L1型，坏死灶占据部分外侧柱，尚有部分外侧柱存留；L2型，坏死灶占据全部外侧柱，部分占据中央柱，内侧柱未受累；L3型，坏死灶占据整个股骨头。M，内侧柱；C，中央柱；L，外侧柱
+图4
+成人股骨头坏死临床诊断流程图
+表4
+股骨头坏死修复与再造的RHS评分
+项目
+程度
+得分
+疼痛(30分)
+无痛或可忽略的疼痛
+30
+活动后轻微疼痛
+20
+活动后疼痛加重，可能需要服用止痛药
+10
+显著疼痛，严重限制活动，需要服用止痛药
+5
+病废，因疼痛被迫卧床
+0
+行走能力(20分)
+无限制
+20
+1 000 m内
+15
+500 m内
+10
+仅限屋内
+5
+卧床
+0
+关节活动度(20分)
+屈伸110°-0°，其他>110°
+20
+屈伸90°-0°，其他>90°
+15
+屈伸70°-0°，其他>70°
+10
+屈伸50°-0°，其他>50°
+5
+屈伸30°-0°，其他>30
+0
+X线检查(30分)
+正常
+30
+股骨头轮廓清晰有囊性变硬化骨
+20
+股骨头塌陷<2 mm
+10
+股骨头塌陷>2 mm
+5
+骨关节炎改变，半脱位
+0
+注：RHS，保髋评分；关节活动度总分100分，最终结果是屈伸、外展、内收、外旋、内旋活动度评分相加之和
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华骨科杂志2020年40卷20期
+文    题：中国成人股骨头坏死临床诊疗指南（2020）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华骨科杂志2020年40卷20期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

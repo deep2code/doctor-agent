@@ -1,0 +1,842 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E9%9D%92%E5%B0%91%E5%B9%B4%E7%B2%BE%E7%B4%A2%E9%9D%99%E8%84%89%E6%9B%B2%E5%BC%A0%E8%AF%8A%E6%B2%BB%E4%B8%AD%E5%9B%BD%E5%B0%8F%E5%84%BF%E6%B3%8C%E5%B0%BF%E5%A4%96%E7%A7%91%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 青少年精索静脉曲张诊治中国小儿泌尿外科专家共识 - 中华小儿外科杂志
+# 发布方/日期: 小儿外科，中华小儿外科杂志, 2020,41(09) : 777-783. DOI: 10.3760/cma.j；2020-09-15
+
+青少年精索静脉曲张诊治中国小儿泌尿外科专家共识
+中华医学会小儿外科学分会泌尿学组
+中华小儿外科杂志, 2020,41(09) : 777-783. DOI: 10.3760/cma.j.cn421158-20191017-00598
+精索静脉曲张(varicocele，VC)是指精索蔓状静脉丛因各种原因致精索内静脉血液回流不畅或静脉瓣不全导致静脉回流，而引起局部静脉异常伸长、扩张及迂曲，阴囊内形成血管性团块。根据典型的临床表现，结合体格检查和超声检查结果多不难诊断，但由于缺乏青少年VC大样本和长期随访研究结果，临床医生对其认识仍存在不足，尤其在手术指征、手术时机及保守治疗的风险等方面存在很多争议。为了提高临床医生对青少年VC的认识水平、规范治疗方案，现结合国内外新近的研究进展和临床实际情况，中华医学会小儿外科学分会泌尿学组制定了青少年VC诊疗中国专家共识，以期达到更好的服务我国青少年VC患者的目的。
+一、流行病学
+流行病学研究表明，青少年VC多发生在青春期，在青春期开始时更为常见。VC在10岁以下儿童中的发生率不到1%，在10～18岁青少年中约为14%～20%，与成年男性发生率相近[1]。VC主要出现在左侧(占78%～93%)，右侧VC通常只在双侧VC存在时才被发现，很少作为孤立的疾病发生[2]。赵斌等[3]曾报道，6～19岁青少年VC总患病率为10.76%。但其实际发病率可能更高，因为大多数青少年VC患儿没有临床症状，家长无法及时带患儿就诊，从而致使其检出率低于实际发生率[4]。随着近年来卫生保健宣传的大力开展，青少年中自我检查出VC的人数逐年增多。
+研究发现VC与下肢静脉曲张具有相关性，VC手术病人中有72%合并不同程度的静脉瓣功能不全[5]。另有研究发现，VC的发病率与体质量指数呈负相关，随着体质量指数的增加VC发病率反而降低[6]。也有观点认为这种负相关是由于VC在肥胖人群中的检出率较低造成的[7]。此外，VC亦被认为具有遗传倾向，VC病人一级亲属共患病的概率在34%～56%，较对照组高4～8倍，但具体的遗传学因素目前尚不明确[8,9]。
+二、病因学
+目前，VC的确切病因尚不清楚，一般认为是多种因素综合影响的结果，核心机制为静脉压力的增高及精索静脉瓣的缺乏或功能不全[10]。
+左侧VC远多于右侧的原因可能为：①左侧精索静脉因呈直角汇入左肾静脉而承受更大静脉压；②左侧精索内静脉行程较对侧长，使血液回流时压力升高；③左侧精索内静脉瓣缺如[11,12,13]。
+继发性VC的常见病因有：胡桃夹综合征、左肾静脉或腔静脉内瘤栓阻塞、肾肿瘤、腹膜后肿瘤、盆腔肿瘤、巨大肾积水或肾囊肿、异位血管压迫等[14,15]。
+三、病理生理学
+约90%的VC发生在左侧，除了上述病因假说之外，也有观点认为这是青春期一种正常的生理学改变，是睾丸供血增多造成潜在的异常静脉过度灌注出现静脉扩张，而引起的临床症状[16]。
+VC的不良影响主要在于其对生精机能的损害，其病理生理学原因有肾上腺素代谢产物的反流、温度过高、缺氧、局部睾丸激素失调和睾丸内过度灌注损伤。VC的毒性效应表现为睾丸生长障碍、精液异常、支持细胞功能障碍以及组织学改变(曲细精管增厚、间质纤维化、生殖细胞退行性变和成熟障碍等)[17,18,19,20,21]。VC的毒性效应同时体现在部分病例睾丸体积变小[2]。
+四、诊断
+1．病史
+VC多在体检时被发现，也有患儿自我扪及或家长发现患儿阴囊无痛性蚯蚓状团块。典型的VC主要表现为站立时患侧阴囊下垂，有时伴局部坠胀、坠痛感，可向同侧腹股沟、下腹部、腰部及会阴部放射。劳累、行走站立过久后症状加重，休息、平卧后症状减轻或消失。
+2．体格检查
+体格检查是诊断VC的重要手段，也是分级的主要依据。检查时，受试者应处于温暖的室内，使阴囊松弛易于检查精索，检查应依序取站立位及仰卧位进行。首先进行站立位阴囊视诊，之后进行阴囊触诊，以了解阴囊内是否存在迂曲、扩张的静脉团。检查时注意双侧睾丸大小与质地、附睾、输精管、精索血管等。体格检查时应常规进行Valsalva动作(即深吸气后紧闭声门，再用力做呼气动作，呼气时对抗紧闭的会厌，以增加腹压，达到更好的效果)来验证扩张、迂曲的静脉团块是否更明显。站立位检查结束后改仰卧位，平卧5 min后重点观察精索静脉曲张的程度有无得到缓解。
+根据体格检查可将VC分为4个等级(具体分级方法详见分类与分级部分描述)，但结果具有一定主观性。在所有VC中，Ⅲ级VC所占比例小于25%。有学者提出，Ⅱ、Ⅲ级VC可导致70%的患侧睾丸体积减小，在青春期末，对侧正常睾丸体积也会受到影响[2]。对于患侧"睾丸体积减小"的定义，是以对侧正常睾丸大小作为参照。但当病人为双侧VC或单侧重度VC时，由于上述两种情况可使双侧睾丸体积均受影响，所以无法通过检测双侧睾丸大小的差异来判断体积是否减小[22]。研究认为，在青少年VC患儿中，如果VC导致患侧睾丸体积较对侧小2 ml或落后超过20%，可认为是导致精子数减少的显著危险因素[23]。但单纯依靠睾丸体积来判断睾丸功能并不可靠。
+影响体格检查对VC作出准确评估的因素包括：静脉曲张程度较轻、肥胖、合并附睾炎或伴鞘膜积液或阴囊疼痛/感觉过敏等，此时建议采用超声等辅助检查方式[24]。对于单纯右侧VC及平卧位后症状不消失的患儿应警惕腹膜后及肾占位性病变的可能。
+3．辅助检查
+(1)影像学检查超声检查
+可以清晰显示精索静脉内径、有无反流及Valsalva动作后变化，相较于体格检查特异性(94%)与敏感性(97%)更高，可重复度也更高，因此更具有客观性[25]。欧洲泌尿外科协会将彩色超声检查列为确诊VC的必须辅助检查手段[26]。虽然存在争议，但一般均将Valsalva动作时精索静脉内径>3 mm作为确诊依据[27]。但国内外目前均无如何评估VC的超声检查标准流程，包括检查时的体位、如何确定精索静脉内径最扩张部位、如何测定反流血流速度等，需进一步研究后方能制定相关流程。欧洲小儿泌尿外科协会同时还推荐对青春期前的VC患儿及单发右侧VC的患儿行肾超声检查，以排除肾母细胞瘤侵犯肾静脉及下腔静脉造成的继发性VC[2]。VC患儿进行超声检查的另一个目的是评估睾丸体积，这不仅能帮助评估VC引起的器质性损害，也能作为手术指征之一。睾丸体积(ml)＝睾丸三径(mm)的乘积×0.521。而根据睾丸体积则能推算睾丸萎缩指数，具体公式如下：睾丸萎缩指数＝(健侧睾丸体积-患侧睾丸体积)/健侧睾丸体积×100%[28]。当睾丸萎缩指数>15%时，可认为存在患侧睾丸发育不良或萎缩；而当睾丸萎缩指数>20%及最大反流速度>38 cm/s时，睾丸受损会比较严重且很难自愈，建议将之作为手术指征[29]。对于青少年VC患儿来说，至少应该每半年接受一次超声检查以了解病情进展情况。
+其他影像学检查如CT或MRI一般不推荐，仅在寻找继发性VC病因(如胡桃夹综合征)及鉴别诊断时可选。如VC手术后复发，可选用静脉内造影检查，以明确复发原因及部位。
+(2)睾丸功能及其他相关检查
+相较于成人而言，青少年精液质量本身存在很大差异，青春期精子也处于不断成熟的过程中，目前没有青少年精液分析的标准数据，因此不能将其作为青少年VC患儿的常规检查项目，也不能据此判断其疾病严重程度与预后[30]。仅当患儿外阴发育达到Tanner V级时可以参考成人精液标准，将精液分析作为一项可选的随访项目。
+与精液分析类似，成人VC患者常用的性激素检查在青少年也因为缺少标准值而非一线检查项目。GnRH激发实验后黄体生成素与卵泡刺激素水平升高可作为睾丸损伤的间接证据[31]。但目前没有充分依据可将GnRH激发实验结果用于预测青少年VC患儿未来的生育能力，且考虑到检查费用较高、所需血清样本较多，普遍认为其应用价值有限。
+也有研究认为，可将血清抑制素B(inhibin-B，Inh-B)水平降低作为VC引起睾丸受损的证据[32]。但更多的研究提示，无论手术治疗与否，Inh-B水平随年龄及时间均有不同程度的非特异性波动，同时由于总体研究数据较少，因此其临床价值较低[33,34,35]。
+4．分类与分级
+根据VC病因可将其分为原发性和继发性两大类。根据体格及超声检查结果又可将VC分为四个等级，具体如下：①亚临床型：查体阴性，彩色多普勒超声或静脉造影检查可发现；②Ⅰ度(轻度)：仅在作Valsalva试验时可以触及曲张的精索静脉；③Ⅱ度(中度)：不做Valsalva试验，静息即可触及曲张的精索静脉；④Ⅲ度(重度)：任何时候均可通过肉眼观察即发现曲张的精索静脉[36]。
+5．鉴别诊断
+青少年VC通常需与阴囊内体积可变化的包块进行鉴别，如精索鞘膜积液、腹股沟斜疝、阴囊内的脉管瘤等。通常通过体格检查和彩色超声检查就能进行鉴别。另外，需通过彩色超声、CT、MRI或血管造影等技术鉴别是否为腹膜后肿瘤、异位血管压迫、先天性静脉引流异常等继发性VC。
+五、治疗
+1．保守治疗
+(1)行为治疗
+主要包括生活方式与饮食的调节、物理疗法等，如：避免刺激性饮食、限制体力活动[37]、阴囊降温[38]或抬高阴囊减轻疼痛[39]等。但由于缺少系统的临床研究，行为治疗的效果存疑。
+(2)药物治疗
+目前无青少年药物治疗相关报道，药物治疗的安全性和有效性需进一步研究。药物治疗应用于成人VC患者，可显著改善VC患者精液质量，但目前文献报道证据不足以支持单独药物治疗VC，手术效果仍要好于药物治疗。药物治疗可作为辅助治疗，使手术获得更好效果。
+2．手术治疗
+(1)手术指征
+是否在青春期对VC患儿进行积极手术一直存在争议，没有证据表明儿童和青春期行VC手术治疗比成年后手术能得到更好的结果。青春期进行VC筛查和治疗并不会提高成人后的生育机会[40]。因此，应该严格掌握青少年行VC手术治疗的指征，需至少达到以下几点中的一点：①VC合并睾丸发育滞后，包括患侧睾丸较健侧睾丸体积缩小20%或2 ml以上、连续随访发现患侧睾丸进行性发育滞后(睾丸体积差显著增大)、双侧睾丸总容量相对同等Tanner分级的正常睾丸总容量减小；②睾丸存在其他影响生育的情况；③双侧可扪及的VC；④外阴Tanner V级青少年，多次精液质量异常；⑤VC引起严重疼痛不适等症状；⑥导致身心不适的巨大VC[41,42,43,44]。另外，有学者也认为患有睾丸内VC的青少年需要接受手术[45]。
+(2)手术方式
+手术结扎精索内静脉是治疗VC最主要的手段。目前的手术方式包括开放手术、腹腔镜手术和显微镜手术。手术结扎可以在腹股沟管下、腹股沟管内、腹股沟管上等不同层面。大多数学者认为，采用手术结扎精索内静脉时，为避开直径小于0.5 mm的精索内动脉，应使用能放大视野(腹腔镜或显微镜)的技术。采用显微镜在腹股沟管或腹股沟管以下平面行精索内静脉结扎，术后复发率和并发症发生率低，且创伤小[46,47]。采用腹腔镜在腹股沟管上平面的精索内静脉结扎技术，结扎的静脉数量少，结合阴囊内注射亚甲蓝观察淋巴管，能保留淋巴管预防术后睾丸鞘膜积液形成[48]。在行腹腔镜精索内静脉结扎时，可以保留/结扎睾丸动脉。但保留睾丸动脉在术后睾丸追赶生长和降低睾丸萎缩率方面可能没有任何优势，并可能导致较高的复发率[49,50]。若腹腔镜下精索内静脉结扎术保留睾丸动脉后复发，不建议再次保留睾丸动脉[51]。
+介入下精索内静脉栓塞术是在介入下逆行或顺行对精索内静脉硬化，同时也能保留淋巴管。尽管这种方法的创伤小，无须全身麻醉，但会增大辐射伤害，且复发率相对较高[45]。虽然近年来显微镜下结扎手术使用越来越广泛，但在选择手术方式时应该结合患儿实际情况、医院条件、术者手术经验等因素充分考虑。
+(3)手术并发症
+1)鞘膜积液
+手术最常见的并发症，平均发生率在7%～10%，目前广泛认为与淋巴管的损伤有关。术中不慎结扎淋巴管，导致淋巴液回流障碍，睾丸鞘膜腔产生的液体量大于吸收量，从而产生鞘膜积液。
+2)睾丸萎缩
+发生的原因可能是手术结扎位置较低，睾丸侧支动脉一并被阻断，从而影响了睾丸血供，导致睾丸发生缺血萎缩。
+3)VC复发与再发
+可能与以下原因有关：①术中结扎精索内静脉不完全；②术中未发现同侧精索静脉三组间存在交通支而予以结扎导致术后复发或再发；③左右精索静脉存在交通支；④术中神经损伤。可能损伤的神经有髂腹股沟神经、生殖股神经及精索上神经和精索下神经。腹腔镜VC手术过程中，生殖股神经在电刀烧灼和超声刀切开精索被膜时最易被损伤，发生率在2%～9%，症状表现为大腿前内侧和手术切口前外侧暂时麻木，一般出现在手术后0～10 d(平均3 d)，症状平均维持约8个月。
+4)输精管损伤
+VC手术理论上的并发症，因为输精管呈白色管状结构，明显区别于周围血管等组织，泌尿及男科医师都能正确辨认并加以分离。切忌将包括输精管及其动脉等一并结扎，否则将出现严重后果。
+5)其他并发症
+包括术后腰背部、睾丸疼痛，可能与精索本身的解剖结构相关，手术中过分牵拉精索可以引起肾区不适；术中腹腔和盆腔脏器损伤，如肠管、膀胱等，多由手术操作不精细或对解剖不熟悉引起；偶尔也有股血管(如股动脉和股静脉)损伤，多由于术者对腹股沟解剖层次不熟悉或过度牵拉、术中偏离腹外斜肌腱膜而进入股环导致；合并腹外疝；切口感染，与无菌操作不严有关。
+(4)术后复发的判断与处理
+VC术后复发率的高低与以下因素有关：初次干预的适应证(如睾丸萎缩或疼痛)、初始VC严重程度、所采用的手术方式、复发的定义(如临床与亚临床)和随访期限[45]。VC患者无论采取何种外科治疗方式都存在复发的可能，其中显微外科技术治疗VC引起复发的概率最低，可尝试在有经验的医师指导下开展[52]。此外，有观点认为体质量指数过低的患者其术后复发率显著高于其他患者，所以有学者建议对于体质量指数过低的患者应采取显微外科技术治疗VC，进而减少术后复发的风险[53]。
+判断VC是否复发的标准并不统一，有些学者以体格检查作为诊断标准，也有部分学者建议以彩色多普勒超声检查结果为准[54]。随诊时间在判断是否复发时亦有重要意义，有文献报道了术后早期未见复发，术后1年以后才发现复发的儿童VC患者[55]。目前推荐在术后6个月以后行综合体格检查和彩色多普勒超声检查来判断VC是否复发，只有两者均达到诊断标准时才能确认为复发。
+复发性VC的治疗仍需遵循VC的一般治疗原则，在判断是否需要再次手术时也需考量手术指征。在考虑进行再次手术治疗时，应加强与患儿家长的沟通。手术方式可选择传统开放手术、显微手术和腹腔镜手术。再次手术时建议选取经腹膜后或腹股沟管途径，但具体手术入路的选择应充分考虑首次手术时所采取的入路，以避免副损伤。Moon等[56]推荐腹股沟管下显微手术作为复发性VC的首选术式。需要指出的是，腹股沟管途径虽有利于术中操作，但对于首次手术时亦选择该路径的患儿会增加手术难度并增加损伤睾丸血供的机会[45]。
+(5)预后
+大量研究表明，对青少年VC患儿，即使不进行手术干预，发育相对落后于健侧的患侧睾丸仍会出现"追赶生长"的现象，睾丸萎缩指数会逐步下降[57,58,59]。但何时会出现"追赶生长"则因个体差异而存在很大变数，目前认为Tanner分期较高者易出现"追赶生长"[60]。
+但也有大量研究认为，手术可以改善青少年VC患儿的睾丸发育。有研究提示，VC手术患儿术后"追赶生长"现象较非手术患儿更为多见[61,62]。相关Meta分析也提示，在睾丸体积差异>10%的患者人群中，手术治疗有助于缩小这种差异，促进患侧睾丸发育，但手术与否对精液质量的影响不大[63]。
+因患侧疼痛不适主诉进行手术的患儿，术后约有半数患儿的疼痛症状可以完全缓解，40%左右可以部分缓解，但仍有6%的患儿症状完全没有改善，术前疼痛持续时间超过3个月以上者术后缓解的概率更高[64,65]。
+3．VC的过度治疗问题
+绝大多数青少年VC患儿并不会出现生育能力低下[39]。现有的随机对照试验均并没有强有力的证据表明青少年VC的外科治疗与睾丸大小/生长及精子质量的改善有关。同时，青少年期手术是否可以提高生育率也缺乏有力的依据[41]。所以，对于青少年VC患儿，更应严格的掌握手术指征，最大限度地减少手术所带来的不利影响。由于尚缺乏大样本的前瞻性研究，青少年VC的治疗仍存在较多困惑，例如：哪些患儿需要手术、采取何种手术方式、何时进行干预等。
+六、随访
+针对VC患儿的手术或非手术治疗均应严格随访，目的是评估疗效、尽早发现与治疗并发症并提出进一步治疗方案。随访内容包括询问病史、体格检查、阴囊超声、精液分析以及阴囊疼痛等[42]。
+采取保守治疗的青少年VC患儿，若睾丸大小正常，应至少每年随访一次；若睾丸萎缩指数进一步增加、阴囊疼痛无缓解、精液分析(如患儿已适合该项检查)持续异常，可行手术治疗。
+采取手术治疗的患儿，第一次随访可在术后1～2周进行，主要检查有无手术相关并发症；第二次随访在术后半年进行，此后每1～2年随访一次。
+参与本共识制定和执笔的专家包括：
+组长：陈方(上海市儿童医院 上海交通大学附属儿童医院)
+成员(按姓氏拼音排序)：潮敏(安徽医科大学附属省儿童医院)；姜大朋(上海交通大学医学院附属上海儿童医学中心)；贾炜(广州市妇女儿童医疗中心)；马耿(南京医科大学附属儿童医院)；吕逸清(上海市儿童医院 上海交通大学附属儿童医院)；唐耘熳(四川省人民医院)；张敬悌(西安交通大学附属儿童医院)
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+AkbayE, ÇayanS, DorukE，et al.
+The prevalence of varicocele and varicocele-related testicular atrophy in Turkish children and adolescents[J].
+BJU Int，
+2000，
+86(
+4)：
+490-
+493.
+DOI：10.1046/j.1464-410X.2000.00735.x.
+[2]
+European Association of Urology and European Society of Paediatric Urology.
+EAU Guidelines on Paediatric Urology 2018[EB/OL]．[
+2018-03-06].
+http://www.uroweb.org/guideline/paediatricurology/.
+[3]
+赵斌，吴荣德，于启海，等．
+儿童精索静脉曲张患病情况的调查[J]．
+中华小儿外科杂志，
+2005，
+26(
+3)：
+132-
+134.
+ZhaoB, WuRD, YuQH，et al.Study on prevalence of varicocele in children of Shandong Province[J]．Chin J Pediatr Surg，2005，26(3)：132-134.
+[4]
+刘峰，王彦华．
+北京市西城区男性青少年生殖健康现状分析[J].
+中国学校卫生，
+2007，
+28(
+8)：
+752，755.
+DOI：10.3969/j.issn.1000-9817.2007.08.048.
+LiuF, WangYH.Analysis of male adolescent reproductive health status in Xicheng District, Beijing[J]. Chin J Sch Heal，2007，28(8)：752，755. DOI：10.3969/j.issn.1000-9817.2007.08.048.
+[5]
+YasimA, ResimS, SahinkanatT，et al.
+Clinical and subclinical varicocele incidence in patients with primary varicose veins requiring surgery[J]．
+Ann Vasc Surg，
+2013，
+27(
+6)：
+758-
+761.
+DOI：10.1016/j.avsg.2012.07.031.
+[6]
+BaekM, ParkSW, MoonKH，et al.
+Nationwide survey to evaluate the prevalence of varicoceles in South Korean middle school boys：a population based study[J].
+Int J Urol，
+2011，
+18(
+1)：
+55-
+60.
+DOI：10.1111/j.1442-2042.2010.02662.x.
+[7]
+PrabakaranS, KumanovP, TomovaA，et al.
+Adolescent varicocele：association with somatometric parameters[J]．
+Urol Int,
+2006，
+77(
+2)：
+114-
+117.
+DOI：10.1159/000093902.
+[8]
+RamanJD, WalmsleyK, GoldsteinM．
+Inheritance of varicoceles[J].
+Urology,
+2005，
+65(
+6)：
+1186-
+1189.
+DOI：10.1016/j.urology.2004.12.057.
+[9]
+GökçeA, DavarciM, YalçinkayaFR，et al.
+Hereditary behavior of varicocele[J].
+J Androl，
+2010，
+31(
+3)：
+288-
+290.
+DOI：10.2164/jandrol.109.008698.
+[10]
+WeinAJ, KavoussiLR, NovickAC, et al.
+Campbell-Walsh Urology [M/OL].
+11th ed.
+Elsevier,
+2015，
+3393-
+3398.
+http://www.elsevier.ca/ISBN/9781416069119/CampbellWalsh-Urology.
+[11]
+SigmundG, GallH, BährenW．
+Stop-type and shunt-type varicoceles：venographic findings[J]．
+Radiology,
+1987，
+163(
+1)：
+105-
+110.
+DOI：10.1148/radiology.163.1.3547489.
+[12]
+BongGW, KooHP.
+The adolescent varicocele：to treat or not to treat[J]．
+Urol Clin N Am，
+2004，
+31(
+3)：
+509-
+515.
+DOI：10.1016/j.ucl.2004.04.012.
+[13]
+AhlbergNE, BartleyO, ChidekelN．
+Right and left gonadal veins.An anatomical and statistical study[J]．
+Acta Radiol：Diagn，
+1966，
+4(
+6)：
+593-
+601.
+[14]
+SignoriGB, MartinoF, MonticelliL，et al.
+Secondary varicocele as a clinical manifestation of primitive retroperitoneal tumor[J]．
+Minerva Urol E Nefrologica，
+1998，
+50(
+4)：
+267-
+269.
+[15]
+AnanthanK, OnidaS, DaviesAH.
+Nutcracker syndrome：an update on current diagnostic criteria and management guidelines[J]．
+Eur J Vasc Endovascular Surg，
+2017，
+53(
+6)：
+886-
+894.
+DOI：10.1016/j.ejvs.2017.02.015.
+[16]
+李云龙，文建国．
+青少年精索静脉曲张的诊断和治疗进展[J].
+中华实用儿科临床杂志，
+2015，
+30(
+11)：
+877-
+880.
+DOI：10.3760/cma.j.issn.2095-428X.2015.11.023.
+LiYL, WenJG.The progress of diagnosis and treatment of adolescent varicocele[J]．J Appl Clin Pediatr，2015，30(11)：877-880. DOI：10.3760/cma.j.issn.2095-428X.2015.11.023.
+[17]
+AgarwalA, HamadaA, EstevesSC.
+Insight into oxidative stress in varicocele-associated male infertility：part 1[J]．
+Nat Rev Urol，
+2012，
+9(
+12)：
+678-
+690.
+DOI：10.1038/nrurol.2012.197.
+[18]
+HamadaA, EstevesSC, AgarwalA．
+Insight into oxidative stress in varicocele-associated male infertility：part 2[J]．
+Nat Rev Urol，
+2013，
+10(
+1)：
+26-
+37.
+DOI：10.1038/nrurol.2012.198.
+[19]
+SheehanMM, RamasamyR, LambDJ.
+Molecular mechanisms involved in varicocele-associated infertility[J]．
+J Assist Reprod Genet，
+2014，
+31(
+5)：
+521-
+526.
+DOI：10.1007/s10815-014-0200-9.
+[20]
+WangHF, SunYH, WangLH，et al.
+Hypoxia-induced apoptosis in the bilateral testes of rats with left-sided varicocele: a new way to think about the varicocele[J].
+J Androl，
+2010，
+31(
+3)：
+299-
+305.
+DOI：10.2164/jandrol.108.007153.
+[21]
+吴小芬，马若男，唐达星，等．
+精索静脉曲张男童血清抑制素B水平变化的研究[J]．
+中华小儿外科杂志，
+2017，
+38(
+7)：
+551-
+553.
+DOI：10.3760/cma.j.issn.0253-3006.2017.07.014.
+WuXF, MaRN, TangDX，et al.Altered serum levels of inhibin B in boys with varicocele[J]．Chin J Pediatr Surg，2017，38(7)：551-553. DOI：10.3760/cma.j.issn.0253-3006.2017.07.014.
+[22]
+KassEJ, StorkBR, SteinertBW.
+Varicocele in adolescence induces left and right testicular volume loss[J]．
+BJU Int，
+2001，
+87(
+6)：
+499-
+501.
+DOI：10.1046/j.1464-410X.2001.00144.x.
+[23]
+DiamondDA, ZurakowskiD, BauerSB，et al.
+Relationship of varicocele grade and testicular hypotrophy to semen parameters in adolescents[J]．
+J Urol,
+2007，
+178(
+4
+Pt 2)：
+1584-
+1588.
+DOI：10.1016/j.juro.2007.03.169.
+[24]
+LomboyJR, CowardRM.
+The varicocele：clinical presentation，evaluation，and surgical management[J]．
+Semin Interv Radiol，
+2016，
+33(
+3)：
+163-
+169.
+DOI：10.1055/s-0036-1586143.
+[25]
+CariatiM, PieriS, AgrestiP，et al.
+Diagnosis of right-sided varicocele：a retrospective comparative study between clinical examination，Doppler findings，US imaging and vascular anatomy at phlebography[J]．
+Eur J Radiol，
+2012，
+81(
+9)：
+1998-
+2006.
+DOI：10.1016/j.ejrad.2011.05.015.
+[26]
+European Association of Urology and European Society of Paediatric Urology.
+EAU Guidelines on Male Infertility 2013 [EB/OL]．[
+2013-05-03].
+http://www.uroweb.org/guideline/male-infertility/.
+[27]
+StahlP, SchlegelPN.
+Standardization and documentation of varicocele evaluation[J].
+Curr Opin Urol，
+2011，
+21(
+6)：
+500-
+505.
+DOI：10.1097/MOU.0b013e32834b8698.
+[28]
+ChristmanMS, ZdericSA, KolonTF.
+Comparison of testicular volume differential calculations in adolescents with varicoceles[J]．
+J Pediatr Urol，
+2014，
+10(
+2)：
+396-
+398.
+DOI：10.1016/j.jpurol.2013.12.007.
+[29]
+CimadorM, CastagnettiM, GattuccioI，et al.
+The hemodynamic approach to evaluating adolescent varicocele[J]．
+Nat Rev Urol，
+2012，
+9(
+5)：
+247.
+DOI：10.1038/nrurol.2012.41.
+[30]
+FineRG, PoppasDP.
+Varicocele：standard and alternative indications for repair[J].
+Curr Opin Urol，
+2012，
+22(
+6)：
+513-
+516.
+DOI：10.1097/MOU.0b013e328358e1a4.
+[31]
+SerefogluEC, SaitzTR, la Nasa JrJA，et al.
+Adolescent varicocoele management controversies[J]．
+Andrology，
+2013，
+1(
+1)：
+109-
+115.
+DOI：10.1111/j.2047-2927.2012.00004.x.
+[32]
+RomeoC, ArrigoT, ImpellizzeriP，et al.
+Altered serum inhibin b levels in adolescents with varicocele[J]．
+J Pediatr Surg，
+2007，
+42(
+2)：
+390-
+394.
+DOI：10.1016/j.jpedsurg.2006.10.013.
+[33]
+BasarMM, KisaU, TugluD，et al.
+The effect of varicocele on seminal plasma and serum inhibin-B levels in adolescent and adult men[J]．
+Int Urol Nephrol,
+2010，
+42(
+1)：
+47-
+51.
+DOI：10.1007/s11255-009-9605-2.
+[34]
+OzdenC, OzdalOL, BulutS，et al.
+Effect of varicocelectomy on serum inhibin B levels in infertile patients with varicocele[J]．
+Scand J Urol Nephrol，
+2008，
+42(
+5)：
+441-
+443.
+DOI：10.1080/00365590802028141.
+[35]
+di BisceglieC, BertagnaA, BaldiM，et al.
+Varicocele sclerotherapy improves serum inhibin B levels and seminal parameters[J]．
+Int J Androl,
+2007，
+30(
+6)：
+531-
+536.
+DOI：10.1111/j.1365-2605.2007.00747.x.
+[36]
+Al-SalemAH.
+Varicocele[M]//
+An Illustrated Guide to Pediatric Urology.
+Cham:
+Springer International Publishing,
+2016:
+545-
+551.
+[37]
+ChenSS.
+Factors predicting symptomatic relief by varicocelectomy in patients with normospermia and painful varicocele nonresponsive to conservative treatment[J].
+Urology，
+2012，
+80(
+3)：
+585-
+589.
+DOI：10.1016/j.urology.2012.05.014.
+[38]
+JungA, EberlM, SchillWB.
+Improvement of semen quality by nocturnal scrotal cooling and moderate behavioural change to reduce genital heat stress in men with oligoasthenoteratozoospermia[J]．
+Reprod Camb Engl，
+2001，
+121(
+4)：
+595-
+603.
+[39]
+PaickS, ChoiWS.
+Varicocele and testicular pain：a review[J]．
+World J Men's Heal，
+2019，
+37(
+1)：
+4-
+11.
+DOI：10.5534/wjmh.170010.
+[40]
+BogaertG, OryeC, De WinG．
+Pubertal screening and treatment for varicocele do not improve chance of paternity as adult[J]．
+J Urol，
+2013，
+189(
+6)：
+2298-
+2304.
+DOI：10.1016/j.juro.2012.12.030.
+[41]
+GlassbergKI.
+My indications for treatment of the adolescent varicocele (and why？)[J]．
+Transl Androl Urol，
+2014，
+3(
+4)：
+402-
+412.
+DOI：10.3978/j.issn.2223-4683.2014.12.09.
+[42]
+BogaertG．
+Adolescent varicocele：limited indications for treatment during puberty and adolescence[J]．
+Transl Androl Urol，
+2014，
+3(
+4)：
+398-
+401.
+DOI：10.3978/j.issn.2223-4683.2014.12.10.
+[43]
+邓春华，商学军．
+精索静脉曲张诊断与治疗中国专家共识[J]．
+中华男科学杂志，
+2015，
+21(
+11)：
+1035-
+1042.
+DOI：10.13263/j.cnki.nja.2015.11.016.
+DengCH, ShangXJ.Chinese expert consensus on diagnosis and management of varicocele[J]．Natl J Androl，2015，21(11)：1035-1042. DOI：10.13263/j.cnki.nja.2015.11.016.
+[44]
+KolonTF.
+Evaluation and management of the adolescent varicocele[J].
+J Urol，
+2015，
+194(
+5)：
+1194-
+1201.
+DOI：10.1016/j.juro.2015.06.079.
+[45]
+MacLachlanLS, NeesSN, FastAM，et al.
+Intratesticular varicoceles：are they significant？[J]．
+J Pediatr Urol，
+2013，
+9(
+6
+Pt A)：
+851-
+855.
+DOI：10.1016/j.jpurol.2012.11.006.
+[46]
+SigmanM, RotkerK．
+Recurrent varicocele[J]．
+Asian J Androl,
+2016，
+18(
+2)：
+229.
+DOI：10.4103/1008-682x.171578.
+[47]
+MassonP, BranniganRE.
+The varicocele[J]．
+Urol Clin N Am,
+2014，
+41(
+1)：
+129-
+144.
+DOI：10.1016/j.ucl.2013.08.001.
+[48]
+KeeneDJB, CervellioneRM.
+Intravenous methylene blue venography during laparoscopic paediatric varicocelectomy[J]．
+J Pediatr Surg，
+2014，
+49(
+2)：
+308-
+311.
+DOI：10.1016/j.jpedsurg.2013.11.045.
+[49]
+FastAM, DeibertCM, van BataviaJP，et al.
+Adolescent varicocelectomy：does artery sparing influence recurrence rate and/or catch-up growth？[J].
+Andrology，
+2014，
+2(
+2)：
+159-
+164.
+DOI：10.1111/j.2047-2927.2013.00142.x.
+[50]
+KimKS, LeeC, SongSH，et al.
+Impact of internal spermatic artery preservation during laparoscopic varicocelectomy on recurrence and the catch-up growth rate in adolescents[J]．
+J Pediatr Urol，
+2014，
+10(
+3)：
+435-
+440.
+DOI：10.1016/j.jpurol.2013.11.003.
+[51]
+YuWM, RaoT, RuanY，et al.
+Laparoscopic varicocelectomy in adolescents：artery ligation and artery preservation[J].
+Urology，
+2016，
+89：
+150-
+154.
+DOI：10.1016/j.urology.2015.11.028.
+[52]
+ShiraishiK, OkaS, ItoH，et al.
+Comparison of the results and complications of retroperitoneal，microsurgical subinguinal，and high inguinal approaches in the treatment of varicoceles[J]．
+J Androl，
+2012，
+33(
+6)：
+1387-
+1393.
+DOI：10.2164/jandrol.112.016444.
+[53]
+GorurS, CandanY, HelliA，et al.
+Low body mass index might be a predisposing factor for varicocele recurrence：a prospective study[J]．
+Andrologia，
+2015，
+47(
+4)：
+448-
+454.
+DOI：10.1111/and.12287.
+[54]
+LundL, RoebuckDJ, LeeKH，et al.
+Clinical assessment after varicocelectomy[J]．
+Scand J Urol Nephrol,
+2000，
+34(
+2)：
+119-
+122.
+DOI：10.1080/003655900750016733.
+[55]
+MisseriR, GershbeinAB, HorowitzM，et al.
+The adolescent varicocele.II：the incidence of hydrocele and delayed recurrent varicocele after varicocelectomy in a long-term follow-up[J]．
+BJU Int,
+2001，
+87(
+6)：
+494-
+498.
+DOI：10.1046/j.1464-410x.2001.00110.x.
+[56]
+MoonKH, ChoSJ, KimKS，et al.
+Recurrent varicoceles：causes and treatment using angiography and magnification assisted subinguinal varicocelectomy[J].
+Yonsei Med J，
+2012，
+53(
+4)：
+723-
+728.
+DOI：10.3349/ymj.2012.53.4.723.
+[57]
+De SanctisV, MarsellaM．
+Unilateral asymptomatic testis enlargement in children and adolescents[J]．
+Georgian Med News，
+2011(
+193)：
+25-
+29.
+[58]
+KolonTF, ClementMR, CartwrightL，et al.
+Transient asynchronous testicular growth in adolescent males with a varicocele[J]．
+J Urol，
+2008，
+180(
+3)：
+1111-
+1115.
+DOI：10.1016/j.juro.2008.05.061.
+[59]
+PrestonMA, CarnatT, FloodT，et al.
+Conservative management of adolescent varicoceles：a retrospective review[J]．
+Urology，
+2008，
+72(
+1)：
+77-
+80.
+DOI：10.1016/j.urology.2008.02.005.
+[60]
+van BataviaJP, WolduSL, RaimondiPM，et al.
+Adolescent varicocele：influence of tanner stage at presentation on the presence，development，worsening and/or improvement of testicular hypotrophy without surgical intervention[J]．
+J Urol，
+2010，
+184(
+4)：
+1727-
+1732.
+DOI：10.1016/j.juro.2010.05.053.
+[61]
+MoursyEE, El DahshouryM, HusseinM，et al.
+Mp26-07 dilemma of adolescent varicocele：long-term outcome in patients managed surgically and in patients managed expectantly[J].
+J Urol，
+2014，
+191(
+4)：
+e253.
+DOI：10.1016/j.juro.2014.02.895.
+[62]
+SpinelliC, Di GiacomoM, Lo PiccoloR，et al.
+The role of testicular volume in adolescents with varicocele：the better way and time of surgical treatment[J].
+J Urol，
+2010，
+184(
+4
+Suppl)：
+1722-
+1726.
+DOI：10.1016/j.juro.2010.06.057.
+[63]
+ZhouT, ZhangW, ChenQ, et al.
+Effect of varicocelectomy on testis volume and semen parameters in adolescents: a meta-analysis[J]．
+Asian J Androl,
+2015,
+17(
+6)：
+1012-
+1016.
+DOI：10.4103/1008-682X.148075.
+[64]
+ParkHJ, LeeSS, ParkNC.
+Predictors of pain resolution after varicocelectomy for painful varicocele[J]．
+Asian J Androl，
+2011，
+13(
+5)：
+754-
+758.
+DOI：10.1038/aja.2010.87.
+[65]
+ParkYW, LeeJH.
+Preoperative predictors of varicocelectomy success in the treatment of testicular pain[J]．
+World J Mens Health,
+2013,
+31(
+1)：
+58-
+63.
+DOI：10.5534/wjmh.2013.31.1.58.
+贡献者信息
+中华医学会小儿外科学分会泌尿学组
+通信作者
+陈方
+Email：
+doctorchenfang@126.com
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-09-15
+收稿日期：2019-10-17
+Guideline and Consensus
+Chinese pediatric urological surgical expert consensus on managing adolescent varicocele
+Group of Urological Surgery, Branch of Pediatric Surgery, Chinese Medical Association
+Published
+2020-09-15
+Cite as
+Chin J Pediatr Surg, 2020,41(09): 777-783. DOI: 10.3760/cma.j.cn421158-20191017-00598
+Contributor Information
+Group of Urological Surgery, Branch of Pediatric Surgery, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华小儿外科杂志2020年41卷09期
+文    题：青少年精索静脉曲张诊治中国小儿泌尿外科专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华小儿外科杂志2020年41卷09期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

@@ -1,0 +1,709 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E8%85%B9%E8%85%94%E7%83%AD%E7%81%8C%E6%B3%A8%E5%8C%96%E7%96%97%E6%8A%80%E6%9C%AF%E4%B8%B4%E5%BA%8A%E5%BA%94%E7%94%A8%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882019%E7%89%88%EF%BC%89.html
+# 标题: 中国腹腔热灌注化疗技术临床应用专家共识（2019版） - 中华医学杂志
+# 发布方/日期: 肿瘤科，中华医学杂志, 2020,100(2) : 89-96. DOI: 10.3760/cma.j.i；2020-01-14
+
+中国腹腔热灌注化疗技术临床应用专家共识（2019版）
+中国抗癌协会腹膜肿瘤专业委员会
+广东省抗癌协会肿瘤热疗专业委员会
+中华医学杂志, 2020,100(2) : 89-96. DOI: 10.3760/cma.j.issn.0376-2491.2020.02.003
+一、概述
+1．腹腔热灌注化疗现状及问题：
+腹腔热灌注化疗（Hyperthermic Intraperitoneal Chemotherapy，HIPEC）是指通过将含化疗药物的灌注液加热到治疗温度、灌注到肿瘤患者的腹腔内、维持一定的时间，以预防和治疗腹膜癌（PC）及其引起的恶性腹水的一种治疗技术。HIPEC在治疗胃癌、结直肠癌、卵巢癌、腹膜假黏液瘤、恶性腹膜间皮瘤、胰腺癌、胆管癌和肝癌等腹腔恶性肿瘤腹膜转移所致的PC及其并发的恶性腹水方面具有独特的疗效[1,2,3,4,5,6,7,8,9,10]。
+自1980年Spratt等[11]首次报道以来，国内外学者持续完善了HIPEC技术，从简单的灌注液加热后直接灌入法，到恒温水浴箱、内生场和微波加热法，HIPEC技术得到不断创新和改进[12]，但仍然缺乏统一的治疗标准。以欧美国家为代表的腹膜表面肿瘤国际协作组（PSOGI）所使用的HIPEC技术，其特点是大剂量单药单次（主要是奥沙利铂360~460 mg/m2或丝裂霉素30~50 mg/m2）、开放式（30 min）或闭合式（60~90 min）和治疗温度差别大（41~43℃）[13,14,15]。这些技术加温及灌注方法差别很大，控温不够精准，疗效存在较大差异，临床上均称之为HIPEC，但由于标准不一，故不能科学地评价安全性和临床疗效，无法体现HIPEC的准确优势。为了更好地评价和推广HIPEC技术，制订标准和共识势在必行。
+2．中国腹腔热灌注化疗：
+随着现代生物技术的发展和大量HIPEC临床应用带来的技术要求，HIPEC在理论和技术上要求精准化和规范化，国内学者研发了中国腹腔热灌注化疗（China Hyperthermic Intraperitoneal Chemotherapy，C-HIPEC）技术，建立了高精度、大容量、持续循环、恒温灌注的C-HIPEC技术方法，制订了C-HIPEC技术标准[16]：（1）开放式或闭合式：手术结束后开放状态下或关闭腹腔后行灌注治疗。（2）化疗药物：根据原发肿瘤的静脉化疗常用药物、既往敏感药物或药敏试验结果选择化疗药物，也可根据患者既往病史、疾病种类和药物特性，选择肿瘤组织穿透性高、分子量大、腹膜吸收率低、与热效应有协同作用、腹膜刺激性小、对肿瘤有效的药物[17]。（3）化疗药物剂量：参考系统化疗剂量。（4）灌注温度：（43±0.1）℃。（5）灌注时间和次数：灌注时间60~90 min，一般为60 min，多次C-HIPEC时，每次治疗间隔24 h；预防性C-HIPEC：1~2次，治疗性C-HIPEC：1~3次，视患者情况，可以增加到3~5次。（6）灌注液容量：有效灌注液一般为4~6 L，以充盈腹腔和循环通畅为原则。（7）灌注速度：400~600 ml/min。这种由体外和体内双循环进行热交换加温控温的C-HIPEC技术使腹腔灌注液维持在恒定温度[18,19]，是目前国际领先的温度控制技术，已在我国广泛推广应用。
+C-HIPEC包含了精准控温、精准定位和精准清除三大新理念：（1）精准控温：体外和体内双循环控温技术可实现测温精度≤±0.1℃，控温精度≤±0.1℃，流速控制精度≤±5%。（2）精准定位：四条灌注管分别经两侧腹壁戳孔、内交叉放置于腹腔内上腹部肝肾隐窝、脾门和两侧盆底，避免被膈肌、肠管压迫或包埋导致出水不通畅，使热灌注液体充盈整个腹腔，不留治疗盲区，发挥C-HIPEC的最佳治疗效果。（3）精准清除：灌注液充满腹腔后持续循环、恒温灌注治疗，双重过滤系统可精准清除腹腔内>40 μm的游离癌细胞、亚临床病灶和微小癌结节，使其清除过滤后不再进入患者腹腔。精准控温、精准定位和精准清除三大理念的目的是彻底清除游离癌细胞和亚临床病灶，是C-HIPEC技术的精髓，实现了HIPEC技术安全有效的最大化。
+3．肿瘤治疗的C-HIPEC模式：
+C-HIPEC在中晚期腹腔恶性肿瘤的综合治疗中具有重要意义，是与手术、化疗、放疗、免疫治疗、靶向治疗同等重要的治疗手段，肿瘤治疗的C-HIPEC模式包括：（1）预防模式：肿瘤根治术（CIS）CIS+HIPEC，即C-HIPEC，适用于腹膜转移高风险患者根治性切除术后预防腹膜转移的治疗，经C-HIPEC积极处理，清除游离癌细胞和微小癌结节，预防PC的形成，提高患者的治愈率和无瘤生存期。（2）治疗模式：肿瘤细胞减灭术（CRS）CRS+HIPEC，即C-HIPEC，CRS术后残余瘤直径<0.25 cm的满意减瘤PC患者，CRS手术联合C-HIPEC，部分患者有可能达到临床治愈。CRS应在保证手术安全的前提下，尽可能清除腹腔内肉眼可见的肿瘤病灶，最大限度地降低肿瘤负荷[20]。C-HIPEC能够有可能使细胞减灭程度（CC）满意（CC-0和CC-1）的患者达到临床治愈，提高非满意减瘤（CC-2和CC-3）患者的生存期和生活质量。研究表明，与单纯CRS相比，CRS联合HIPEC能够在不增加并发症和死亡率的情况下，提高胃癌腹膜肿瘤患者的总生存和无复发生存时间，尤其是腹膜转移较局限、满意减瘤的患者[1]。（3）转化模式：Conversion+HIPEC，即C-HIPEC，C-HIPEC对于首诊时已经合并大量腹水或者腹腔广泛转移的患者，可先行C-HIPEC治疗，清除或缩小PC结节，改变癌细胞的生物学特性，抑制恶性腹水的生成，待患者病情明显好转、腹水减少或消失，联合全身治疗使PC及原发病灶缩小的情况下，有可能转化为第二种治疗模式CRS+HIPEC，达到成功转化治疗的目的，以改善患者生存质量、提高长期生存率[21]。（4）综合模式：Comprehensive+HIPEC，主要是Chemotherapy+HIPEC或HIPEC+Chemotherapy，即C-HIPEC，对于既往全身化疗后病情进展、出现腹水的患者，C-HIPEC可能提供另一种治疗途径和手段；对于腹水或者腹腔广泛转移的患者，C-HIPEC治疗后病情控制、腹水减少或消失，故以系统化疗为主的综合治疗同样非常重要。消化道肿瘤多属高度异质性肿瘤，具有多种潜能的生物学特性，根据肿瘤学理论，消化道肿瘤的腹膜转移系远处转移范畴，其实质是全身性疾病，必须强调全身性治疗与腹腔内局部治疗相结合的措施。因此，以系统化疗为主的综合治疗也是不可忽视的重要手段。
+二、C-HIPEC在PC治疗中的应用
+1．PC的定义：
+PC是指在腹膜上发生、发展的一类恶性肿瘤，包括原发性和继发性两类，前者主要是指原发性PC和腹膜间皮瘤，后者是指各种恶性肿瘤腹膜转移所形成的PC[22]。继发性PC源于肿瘤发展或手术创伤所致的癌肿脱落、腹腔转移淋巴结破裂、淋巴管癌栓破裂和血管癌栓破裂出血等产生的腹腔游离癌细胞（FCC）[23]，FCC着床壁层和脏层腹膜后逐渐生成微小癌灶、癌结节，形成PC[24,25]。既往的观点认为，PC为癌症晚期或终末期表现，通常采取非手术治疗，即使是外科干预，也仅是姑息性减瘤手术。近年来，国际肿瘤学界对这一问题的认识已经发生了明显转变，原发性PC被认为是一种可以治疗的区域性恶性病变，部分继发性PC经积极治疗后仍可明显改善预后[26,27]。
+2．PC累及范围评估：
+目前，国内外学者通常根据Sugarbaker腹膜癌指数（PCI）分区计数法[28]量化评估PC累及范围。Sugarbaker将腹部分成13个区，结合每个区内病灶的大小（LS）相加计分，尽可能检测所有侵犯腹膜的癌肿数量，评估PC累及程度（图1）。0~8区除腹膜外，尚包括该区内相应解剖结构上的癌结节。LS计分需在分离所有粘连，完全显露腹腔脏层和壁层腹膜表面后，计数各区域内肿瘤结节的大小。LS评分为0~3分，以肉眼可见最大结节直径作为代表性评分对象。LS-0表示未发现腹膜病灶，LS-1表示病灶直径≤ 0.5 cm，LS-2表示病灶直径0.5~5 cm，LS-3表示病灶直径>5 cm或融合。原发肿瘤或局部复发肿瘤能被完全切除者则无需计算在内。若肿瘤结节融合成片或与脏器融合在一起，则直接计分为LS-3，即使薄片状的融合也是如此。各区的LS分值累计所得即为PCI评分，总评分为0~39分，减瘤手术前后分别评估一次PCI指数。研究表明：PCI指数与患者的长期生存率密切相关，不仅对预测PC患者生存率、并发症率和病死率有重要价值，且与CRS、HIPEC等治疗的疗效密切相关[29]。尽管要检测弥漫性腹膜转移癌数量缺乏可操作性，但PCI指数仍是相对较为科学合理的一种腹膜肿瘤严重程度评价方法。
+点击查看大图
+图1
+腹膜癌指数（PCI）的分区模式图
+注：腹膜癌指数（PCI）用于定量评估腹腔内腹膜转移肿瘤负荷程度。九分法将腹腔分为9个区域（0~8），小肠分为4个区域：近端空肠和远端空肠以及近端回肠和远端回肠。在每个区域，对最大腹膜转移瘤的病变大小进行评分，并将其总数相加作为整个腹膜腔的PCI评分（范围0~39）
+图1
+腹膜癌指数（PCI）的分区模式图
+3．PC减瘤满意程度的判断：
+PC患者在行C-HIPEC前应实施CIS或完全的CRS，最大程度地清除肉眼可见肿瘤病灶，再行C-HIPEC则可更好地缩小或清除CRS术后残存的微小病灶。目前国际上通常采用Sugarbaker等制订的CC评分标准[20]，评定术中残余肿瘤大小。CC-0示CRS后整个腹盆腔无肉眼可见肿瘤结节；CC-1示术后残余瘤直径<0.25 cm；CC-2示残余瘤直径介于0.25~2.5 cm之间；CC-3表示残余瘤直径>2.5 cm，或腹盆腔内任何部位存在无法切除的病灶。残余瘤直径不超过0.25 cm（CC-0和CC-1）被视为满意的CRS。
+三、C-HIPEC治疗PC的作用机制
+1．C-HIPEC治疗PC的优势：
+C-HIPEC对于微小腹膜肿瘤病灶较系统化疗具有明显的优势。由于剂量限制性毒性和腹膜-血浆屏障的存在，PC被相对乏血供的腹腔粘连隔离，肿瘤组织内药物浓度不能有效地杀灭癌细胞，单纯的全身治疗对PC疗效甚微。HIPEC经腹腔直接给药，腹腔内化疗药物浓度比血浆水平高20~1 000倍[30]，可增加化疗药物与肿瘤细胞接触的机会，最大程度地杀伤腹膜肿瘤细胞，减少系统化疗引起的毒性反应。化疗药物一方面可以从腹膜吸收，穿过腹膜淋巴孔进入体循环；另一方面，化疗药物也可通过覆盖肝、脾、胃、小肠和结直肠及肠系膜的腹膜脏层，被吸收进入门静脉，预防和治疗肝脏微转移灶。原发肿瘤切除后，24 h残留癌细胞增殖动力学发生变化，残留G0期癌细胞进入增殖期，3 d后增殖速度减缓，1周后恢复到术前水平[31]，CRS术后早期进行C-HIPEC治疗可有效抑制FCC形成PC，达到最佳治疗效果。
+2．C-HIPEC治疗PC的主要机制：
+腹膜由单层间皮细胞、基底膜和5层纤维结缔组织组成，厚度约90 μm，腹膜是晚期腹盆腔恶性肿瘤发生种植转移的主要位置。HIPEC主要通过热疗、化疗、热疗与化疗的协同作用、持续的机械性冲刷和改善机体免疫力作用来杀伤肿瘤细胞，其防治PC的主要机制为：（1）恶性肿瘤在43℃持续1 h即可出现不可逆损害，而正常组织可耐受47℃持续1 h。因此，HIPEC可通过合适的温度直接以热效应杀死肿瘤细胞[32]。（2）HIPEC热效应的多重作用，在组织水平能导致肿瘤血管血栓形成、抑制癌组织内血管再生，使肿瘤细胞变性、坏死；在细胞水平破坏细胞的自稳机制，激活溶酶体、破坏胞浆和胞核并诱导细胞凋亡；在分子水平使癌细胞膜蛋白变性，干扰蛋白质、DNA和RNA合成[33,34]。（3）HIPEC热疗还可加强化疗药物的细胞毒作用，提高肿瘤组织对化疗药物的敏感性。高温状态下，癌细胞膜流动性增强，细胞膜及肿瘤血管通透性增高，有利于化疗药物的渗透和吸收。高温还可减少肿瘤细胞对化疗药物的排泄率，增加肿瘤细胞中化疗药物的浓度[35]。（4）热疗与化疗药物可发挥协同抗肿瘤作用，该协同作用在43℃时明显增强，热效应可增强抗癌药物的渗透性，使药物的渗透深度从1~2 mm加深至5 mm[36]。热效应可通过干扰肿瘤细胞的代谢、激活溶酶体直接杀死S期和M期细胞，化疗药物主要作用于代谢活跃的M期细胞，HIPEC可发挥热疗联合化疗产生的协同效应杀灭肿瘤细胞[33,35,37]。（5）通过持续的循环灌注，对腹腔内游离癌细胞和腹膜微小转移病灶起到机械性冲刷作用，清除腹腔内残留的癌细胞和微小转移灶。HIPEC治疗过程中的液体流动，产生剪切力可直接导致肿瘤细胞死亡，冲刷组织导致肿瘤细胞发生失巢凋亡[38,39]。（6）热效应可通过激活热休克蛋白的方式，诱发自身免疫系统产生抗肿瘤效应，阻断血管新生，导致肿瘤细胞蛋白质变性[40,41]。
+3．C-HIPEC治疗方法：
+（1）灌注管放置方法：传统HIPEC技术一般采用开腹手术置管进行。近年来，在传统开腹手术的基础上，C-HIPEC技术已应用到微创外科领域，腹腔镜辅助或B超引导穿刺置管进行C-HIPEC治疗，充分应用微创的优势，也获得了较好的疗效[42,43,44]。①开腹手术置管：该方法用于恶性肿瘤术后患者，通常在CIS或CRS结束后进行。②腹腔镜辅助置管：该方法用于腹腔镜治疗或探查结束后，在腹腔镜直视下放置灌注管。③B超引导下置管：该方法用于已诊断明确的恶性腹水患者，如果腹水量少也可以在腹腔内注入生理盐水、灭菌注射用水或5%葡萄糖建立人工腹水。B超引导下穿刺置管，选取腹腔内腹水较多、无肠管粘连处的腹壁作为穿刺点，操作时应小心谨慎，避免伤及腹腔内脏器。（2）C-HIPEC的治疗技术参数：灌注管连接腹腔热灌注治疗系统，灌注液恒温、恒速、恒量地注入和排出腹腔。C-HIPEC的灌注液、温度、时间、循环流速等技术参数标准设定如下：①灌注温度：（43±0.1）℃。②灌注时间和次数：灌注时间60~90 min，一般为60 min，多次C-HIPEC时，每次治疗间隔24 h；预防性C-HIPEC：1~2次，治疗性C-HIPEC：3~5次。③灌注液容量：灌注液一般为4~6 L，以充盈腹腔和循环通畅为原则。④灌注速度：400~600 ml/min。
+4．C-HIPEC化疗药物及灌注液的选择：
+（1）化疗药物的选择：实施C-HIPEC时，既可选择单一给药，也可联合序贯给药。C-HIPEC的药物选择除考虑原发病种类外，也要参考患者以往对化疗药物的敏感性，同时兼顾药物本身的特性，如药物对腹腔肿瘤的穿透力、腹膜吸收率、热疗对腹膜的刺激性等[45]。化疗药物的剂量原则上以系统化疗用量为标准，可根据患者年龄、身体状况、化疗药物耐受性和骨髓增生能力进行适当调整。如联合应用，建议在C-HIPEC治疗前后间隔2周，以防发生骨髓抑制；使用顺铂时，常规进行水化处理；使用紫杉醇时，治疗前应常规预防过敏反应。（2）常用的化疗药物有：①胃癌：紫杉醇、多西他赛、奥沙利铂、顺铂、5-氟尿嘧啶和表柔比星等。②结直肠癌：丝裂霉素、奥沙利铂、5-氟尿嘧啶和伊立替康等。③妇科肿瘤：顺铂、紫杉醇、多西他赛、奥沙利铂、卡铂、吉西他滨、伊立替康和培美曲塞等。④腹膜假黏液瘤：奥沙利铂、卡铂、顺铂、丝裂霉素和表柔比星等。⑤肝、胆、胰腺癌：紫杉醇、多西他赛、奥沙利铂、卡铂、顺铂、5-氟尿嘧啶、丝裂霉素、表柔比星和吉西他滨等。⑥腹膜间皮瘤：顺铂、培美曲塞等。临床医生也可以根据化疗药物的特性、适应证和肿瘤的化疗敏感性使用其他药物进行C-HIPEC。（3）灌注液的选择：C-HIPEC的灌注液主要以生理盐水为主，也有采用5%葡萄糖液、林格氏液、代血浆、蒸馏水等的文献报道。C-HIPEC的容量一般为4~6 L，以充满腹腔、建立通畅的内循环为原则。需要注意的是，奥沙利铂和卡铂等化疗药物用生理盐水稀释可导致化疗药物药效不稳定，需用5%葡萄糖液作为灌注液。C-HIPEC过程中需要使用非糖液体静脉补充血容量，以降低渗透性利尿导致脱水的风险。此外，部分患者C-HIPEC过程中可能出现血糖升高，需作相应处理，对于合并糖尿病的患者尤其注意。
+5．C-HIPEC过程中麻醉和镇静剂的使用：
+C-HIPEC治疗可以在气管插管全麻下实施，也可以在全身静脉麻醉下实施；一般开腹或腹腔镜术后在原麻醉下进行，B超引导C-HIPEC在静脉全麻加局麻下进行；C-HIPEC全程需要生命体征监测。
+常用镇静、镇痛药物推荐：右美托咪定、地佐辛、羟考酮及丙泊酚。方法：（1）右美托咪定0.5 μg/kg溶入100 ml生理盐水缓慢静滴（10~20 min滴完）。（2）地佐辛10 mg溶入10 ml生理盐水缓慢静推。（3）如果术中效果不理想，可给予羟考酮10 mg用生理盐水稀释为1 mg/ml，缓慢推注3~5 mg；3 min后评估患者，效果仍不佳时追加药量1~2 mg，根据患者疼痛情况反复追加1~2 mg直到患者疼痛缓解。（4）如多次追加羟考酮患者疼痛仍不能缓解，可在麻醉医生指导下使用小剂量丙泊酚、舒芬太尼或改气管内插管全麻。
+6．C-HIPEC的适应证和禁忌证：
+（1）C-HIPEC的适应证：C-HIPEC用于预防腹盆腔恶性肿瘤术后FCC腹膜种植转移引起的PC，治疗各种恶性肿瘤腹膜转移引起的PC及其并发的恶性腹水。①CIS+C-HIPEC：CIS后预防PC的发生，适用于胃癌、结直肠癌、胆管癌、胰腺癌、肝癌、卵巢癌、子宫内膜癌、腹膜假黏液瘤、腹膜间皮瘤等腹盆腔恶性肿瘤术后预防PC形成。②CRS+C-HIPEC：CRS联合C-HIPEC治疗PC，包括胃癌、结直肠癌、胆管癌、胰腺癌、肝癌、卵巢癌、子宫内膜癌、播散性子宫肉瘤、腹膜假黏液瘤、腹膜间皮瘤等腹盆腔恶性肿瘤CRS后残余PC的辅助治疗。③C-HIPEC+CRS+C-HIPEC：C-HIPEC转化治疗或姑息治疗，适用于胃癌、结直肠癌、胆管癌、胰腺癌、肝癌、卵巢癌、子宫内膜癌、腹膜假黏液瘤、腹膜间皮瘤等腹盆腔恶性肿瘤腹膜转移引起的PC及其并发的恶性腹水。（2）C-HIPEC的禁忌证：①各种原因所致腹腔内广泛粘连。②吻合口存在水肿、缺血、张力等愈合不良因素。③完全肠梗阻。④明显肝肾功能不全。⑤合并骨髓抑制，外周血白细胞、血小板低下。⑥严重心血管系统病变。⑦感染性疾病，尤其是严重腹腔感染。⑧出血倾向或者凝血功能障碍。⑨生命体征不稳定。⑩恶病质。
+四、C-HIPEC临床疗效评价
+1．疗效评价标准：
+（1）肿瘤标志物检测：如CEA、CA199、CA125等，C-HIPEC治疗前后的肿瘤标志物水平改变可一定程度上反应C-HIPEC治疗效果。（2）KPS评分或ECOG评分：可根据患者C-HIPEC治疗前后的生活质量改善情况评价临床治疗效果。（3）B超、CT、MRI、PET-CT等影像学检查：可检测治疗前后PC的大小和范围、腹水多少等影像学数据。目前较为常用的是世界卫生组织（WHO）实体瘤的疗效评价标准（RECIST），根据影像学数据评价肿瘤治疗效果，分为完全缓解（CR）、部分缓解（PR）、病情稳定（SD）和病情进展（PD）四个等级，及客观缓解率（ORR）、疾病控制率（DCR）等指标。（4）腹腔镜微创或开放手术探查：可直观评价原发病灶和PC经C-HIPEC治疗后缩小的情况及PCI评分的变化。（5）患者生存期评估：常用总生存期（OS）、无病生存期（DFS）、无进展生存期（PFS）、无复发生存期（RFS）等指标。
+2．不良反应的处理：
+在C-HIPEC治疗过程中，常见的不良反应有：多汗、心率增快、发热和消化道反应。C-HIPEC治疗时，如果出现大汗淋漓、心率快甚至>120次/min等症状时，应评估血容量是否不足，加强补液。如果出现呼吸抑制或血氧饱和度降低等异常，应注意麻醉药物和灌注液用量，必要时停止治疗。C-HIPEC治疗期间可能出现发热，治疗时患者体温会有上升，但一般≤38.5℃，无需特殊处理；若治疗结束后患者体温>38.5℃，则要排除是否合并感染。C-HIPEC治疗过程中出现胃肠道反应可给予抑酸、护胃、止吐及解痉等对症处理。
+3．并发症的预防及应对措施：
+HIPEC的并发症主要和治疗温度不精准有关，精准控温是降低并发症发生率的重要方式。HIPEC治疗后部分患者可能出现骨髓抑制，术后10 d内应常规监测外周血白细胞变化，进行对症处理。个别患者会出现胃排空障碍、肠麻痹等并发症，但这些并发症多与患者本身的疾病或手术因素有关，经对症处理后可恢复正常。CIS+HIPEC或CRS+HIPEC治疗后胃肠吻合口漏的发生与患者营养状况、吻合口血运和张力、医师吻合技术有关，与HIPEC技术无明确关系，HIPEC不增加吻合口漏的风险[1,3,46]。HIPEC后出现吻合口漏的处理方法与常规术后消化道漏的处理原则一致。
+五、国内外专家对HIPEC的认知
+HIPEC在理论研究和技术层面上不断突破，已成为当前治疗PC的有效辅助手段，很早就得到了国外学者的广泛关注。2014年荷兰阿姆斯特丹国际PC大会，将CRS联合HIPEC治疗策略作为阑尾黏液癌、结直肠癌腹膜转移癌、恶性间皮瘤的标准治疗措施，作为卵巢癌、胃癌腹膜转移癌的推荐治疗手段[27]。2018年《新英格兰医学杂志》报道[3]了首个HIPEC治疗晚期卵巢癌的多中心随机对照临床试验后，2018年FIGO癌症报告将HIPEC纳入卵巢癌诊治指南，2019年第一版NCCN亦将HIPEC纳入卵巢癌治疗指南。美国抗癌协会也将HIPEC作为胃癌腹膜转移患者的推荐治疗措施。
+HIPEC治疗PC也得到了国内专家的普遍认可。2012年国家卫生部将HIPEC列入《胃癌根治手术临床路径（2012年版）》；2015年国内主要PC专家达成《细胞减灭术加腹腔热灌注化疗治疗腹膜表面肿瘤的专家共识》[9]；2015年中国抗癌协会把HIPEC列入了《肝门部胆管癌规范化诊疗专家共识（2015）版》[47]；2016年我国HIPEC技术临床应用专家协作组制订了《HIPEC技术临床应用专家共识（2016版）》[16]；2017年中国抗癌协会胃癌专业委员会将HIPEC纳入《胃癌腹膜转移防治中国专家共识》[48]；2017年中国医师协会结直肠肿瘤专委会腹膜肿瘤专业委员会制订《结直肠癌腹膜转移诊治中国专家意见（2017）》[49]；2017年国家卫生计生委将HIPEC纳入《中国结直肠癌诊疗规范（2017版）》[50]；2017年和2019年中国抗癌协会妇科肿瘤专业委员会分别公布了《妇科恶性肿瘤腹腔热灌注化疗临床应用专家共识（2017和2019版）》[51,52]；2018年中国抗癌协会胰腺癌专业委员会将HIPEC纳入《胰腺癌综合诊治指南2018版》[53]；2019年国内主要PC专家制订了《肿瘤细胞减灭术加腹腔热灌注化疗治疗腹膜假黏液瘤专家共识》[54]；2019年中国医师协会结直肠肿瘤专业委员会腹膜肿瘤专业委员会制订了《结直肠癌腹膜转移预防和治疗腹腔用药中国专家共识（V2019）》[55]。
+六、结语
+C-HIPEC不同于既往传统的HIPEC技术，是高度规范化的精准HIPEC技术。C-HIPEC为外科手术不能解决的腹膜转移问题提供了一种有效的治疗手段，已成为PC治疗领域不可或缺的技术。肿瘤治疗的C-HIPEC模式使C-HIPEC的应用更加科学合理，在各种恶性肿瘤所致的PC综合诊治中具有重要作用。然而，目前国内外专家对于C-HIPEC技术优势、作用机制以及肿瘤治疗的C-HIPEC模式的认识不足，尽管国内外已有多个医学中心正在开展HIPEC预防PC的临床研究（NCT02356276、ChiCTR1900024552、NCT01882933等），但仍需要高质量多中心随机对照临床研究，获得高级别循证医学证据，证实C-HIPEC在预防和治疗PC中的作用。
+专家组成员
+中国腹腔热灌注化疗技术临床应用专家共识（2019版）讨论专家组成员（按姓氏汉语拼音排序）：巴明臣（广州医科大学附属肿瘤医院）；蔡国响（复旦大学附属肿瘤医院）；蔡世荣（中山大学附属第一医院）；陈环球（江苏省肿瘤医院）；陈汝福（广东省人民医院）；崔书中（广州医科大学附属肿瘤医院）；丁克峰（浙江大学医学院附属第二医院）；房学东（吉林大学中日联谊医院）；高雨农（北京大学肿瘤医院）；郭春良（中国武警特色医学中心）；何显力（空军军医大学唐都医院）；胡建昆（四川大学华西医院）；姜小清（上海东方肝胆医院）；揭志刚（南昌大学第一附属医院）；李国新（南方医科大学南方医院）；李雁（首都医科大学附属北京世纪坛医院）；李云峰（云南省肿瘤医院）；梁寒（天津医科大学肿瘤医院）；林仲秋（中山大学附属孙逸仙纪念医院）；刘建华（河北医科大学第二医院）；潘志忠（中山大学肿瘤防治中心）；庞明辉（四川省人民医院）；庞志刚（郑州大学第二附属医院）；裴海平（中南大学湘雅医院）；彭俊生（中山大学附属第六医院）；彭正（中国人民解放军总医院）；覃宇周（广西医科大学附属肿瘤医院）；孙浩（重庆市肿瘤医院）；唐鸿生（广州医科大学附属肿瘤医院）；王贵英（河北医科大学第三医院）；王济平（哈佛大学医学院附属布列根妇女医院）；王宽（哈尔滨医科大学附属肿瘤医院）；王昆华（昆明医科大学附属第一医院）；王莉（河南省肿瘤医院）；王西墨（天津市南开医院）；王锡山（中国医学科学院肿瘤医院）；王玉彬（锦州医科大学附属第一医院）；王振宁（中国医科大学附属第一医院）；熊斌（武汉大学中南医院）；徐惠绵（中国医科大学附属第一医院）；薛敏（中南大学湘雅三医院）；张相良（广州医科大学附属肿瘤医院）；赵群（河北医科大学第四医院）；朱正纲（上海交通大学医学院附属瑞金医院）
+执笔者：崔书中、朱正纲、梁寒、李雁、林仲秋、唐鸿生、巴明臣、张相良
+利益冲突
+利益冲突 专家组所有成员均声明不存在利益冲突
+参考文献
+[1]
+BonnotPE, PiessenG, KepenekianV, et al.
+Cytoreductive surgery with or without hyperthermic intraperitoneal chemotherapy for gastric cancer with peritoneal metastases (CYTO-CHIP study): A propensity score analysis[J].
+J Clin Oncol,
+2019:
+01801688.
+DOI: 10.1200/JCO.18.01688.
+[2]
+EsquivelJ, LowyAM, MarkmanM, et al.
+The American Society of Peritoneal Surface Malignancies (ASPSM) multiinstitution evaluation of the peritoneal surface disease severity score (PSDSS) in 1,013 patients with colorectal cancer with peritoneal carcinomatosis[J].
+Ann Surg Oncol,
+2014,
+21(
+13):
+4195-
+4201.
+DOI: 10.1245/s10434-014-3798-z.
+[3]
+van DrielWJ, KooleSN, SikorskaK, et al.
+Hyperthermic intraperitoneal chemotherapy in ovarian cancer[J].
+N Engl J Med,
+2018,
+378(
+3):
+230-
+240.
+DOI: 10.1056/NEJMoa1708618.
+[4]
+ChuaTC, MoranBJ, SugarbakerPH, et al.
+Early-and long-term outcome data of patients with pseudomyxoma peritonei from appendiceal origin treated by a strategy of cytoreductive surgery and hyperthermic intraperitoneal chemotherapy[J].
+J Clin Oncol,
+2012,
+30(
+20):
+2449-
+2456.
+DOI: 10.1200/JCO.2011.39.7166.
+[5]
+BarattiD, KusamuraS, CabrasAD, et al.
+Diffuse malignant peritoneal mesothelioma: long-term survival with complete cytoreductive surgery followed by hyperthermic intraperitoneal chemotherapy (HIPEC)[J].
+Eur J Cancer,
+2013,
+49(
+15):
+3140-
+3148.
+DOI: 10.1016/j.ejca.2013.05.027.
+[6]
+SchwarzL, VotanopoulosK, MorrisD, et al.
+Is the combination of distal pancreatectomy and cytoreductive surgery with HIPEC reasonable?: Results of an international multicenter study[J].
+Ann Surg,
+2016,
+263(
+2):
+369-
+375.
+DOI: 10.1097/SLA.0000000000001225.
+[7]
+AmblardI, MercierF, BartlettDL, et al.
+Cytoreductive surgery and HIPEC improve survival compared to palliative chemotherapy for biliary carcinoma with peritoneal metastasis: a multi-institutional cohort from PSOGI and BIG RENAPE groups[J].
+Eur J Surg Oncol,
+2018,
+44(
+9):
+1378-
+1383.
+DOI: 10.1016/j.ejso.2018.04.023.
+[8]
+MehtaS, SchwarzL, SpiliotisJ, et al.
+Is there an oncological interest in the combination of CRS/HIPEC for peritoneal carcinomatosis of HCC? Results of a multicenter international study[J].
+Eur J Surg Oncol,
+2018,
+44(
+11):
+1786-
+1792.
+DOI: 10.1016/j.ejso.2018.05.021.
+[9]
+李雁，周云峰，梁寒,等.
+细胞减灭术加腹腔热灌注化疗治疗腹膜表面肿瘤的专家共识[J].
+中国肿瘤临床,
+2015,
+42(
+04):
+198-
+206.
+DOI: 10.3969/j.issn.1000-8179.20150013.
+[10]
+YangXJ, HuangCQ, SuoT, et al.
+Cytoreductive surgery and hyperthermic intraperitoneal chemotherapy improves survival of patients with peritoneal carcinomatosis from gastric cancer: final results of a phase Ⅲ randomized clinical trial[J].
+Ann Surg Oncol,
+2011,
+18(
+6):
+1575-
+1581.
+DOI: 10.1245/s10434-011-1631-5.
+[11]
+SprattJS, AdcockRA, MuskovinM, et al.
+Clinical delivery system for intraperitoneal hyperthermic chemotherapy[J].
+Cancer Res,
+1980,
+40(
+2):
+256-
+260.
+[12]
+崔书中，巴明臣，唐鸿生.
+腹腔热灌注化疗技术方法变迁及展望[J].
+中华临床医师杂志（电子版),
+2011,
+5(
+07):
+2039-
+2042.
+DOI: 10.3877/cma.j.issn.1674-0785.2011.07.034.
+[13]
+EliasD, GoereD, DumontF, et al.
+Role of hyperthermic intraoperative peritoneal chemotherapy in the management of peritoneal metastases[J].
+Eur J Cancer,
+2014,
+50(
+2):
+332-
+340.
+DOI: 10.1016/j.ejca.2013.09.024.
+[14]
+Prada-VillaverdeA, EsquivelJ, LowyAM, et al.
+The American Society of Peritoneal Surface Malignancies evaluation of HIPEC with mitomycin C versus oxaliplatin in 539 patients with colon cancer undergoing a complete cytoreductive surgery[J].
+J Surg Oncol,
+2014,
+110(
+7):
+779-
+785.
+DOI: 10.1002/jso.23728.
+[15]
+KlaverC, WisselinkDD, PuntC, et al.
+Adjuvant hyperthermic intraperitoneal chemotherapy in patients with locally advanced colon cancer (COLOPEC): a multicentre, open-label, randomised trial[J].
+Lancet Gastroenterol Hepatol,
+2019,
+4(
+10):
+761-
+770.
+DOI: 10.1016/S2468-1253(19)30239-0.
+[16]
+腹腔热灌注化疗技术临床应用专家协作组.
+腹腔热灌注化疗技术临床应用专家共识（2016版)[J].
+中华胃肠外科杂志,
+2016,
+19(
+2):
+121-
+125.
+DOI: 10.3760/cma.j.issn.1671-0274.2016.02.001.
+[17]
+LemoineL, SugarbakerP, Van der SpeetenK.
+Drugs, doses, and durations of intraperitoneal chemotherapy: standardising HIPEC and EPIC for colorectal, appendiceal, gastric, ovarian peritoneal surface malignancies and peritoneal mesothelioma[J].
+Int J Hyperthermia,
+2017,
+33(
+5):
+582-
+592.
+DOI: 10.1080/02656736.2017.1291999.
+[18]
+崔书中，巴明臣，黄迪文,等.
+BR-TRG-Ⅰ型体腔热灌注治疗系统的研制与开发[J].
+中国医疗设备,
+2009,
+24(
+09):
+7-
+9.
+DOI: 10.3969/j.issn.1674-1633.2009.09.003.
+[19]
+崔书中，黄狄文，巴明臣.
+高精度腹腔热灌注治疗系统设备的开发研究[J].
+中华生物医学工程杂志,
+2009,
+15(
+6):
+471-
+474.
+DOI: 10.3760/cma.j.issn.1674-1927.2009.06.014.
+[20]
+SugarbakerPH.
+Cytoreductive surgery and peri-operative intraperitoneal chemotherapy as a curative approach to pseudomyxoma peritonei syndrome[J].
+Eur J Surg Oncol,
+2001,
+27(
+3):
+239-
+243.
+DOI: 10.1053/ejso.2000.1038.
+[21]
+GaoT, HuangXX, WangWY, et al.
+Feasibility and safety of neoadjuvant laparoscopic hyperthermic intraperitoneal chemotherapy in patients with advanced stage ovarian cancer: a single-center experience[J].
+Cancer Manag Res,
+2019,
+11:
+6931-
+6940.
+DOI: 10.2147/CMAR.S213882.
+[22]
+郝希山.
+细胞减灭术加腹腔热灌注化疗治疗腹膜表面肿瘤的专家共识导读[J].
+中国肿瘤临床,
+2015,
+42(
+4):
+197.
+DOI: 10.3969/j.issn.1000-8179.20150184.
+[23]
+SugarbakerPH, YuW, YonemuraY.
+Gastrectomy, peritonectomy, and perioperative intraperitoneal chemotherapy: the evolution of treatment strategies for advanced gastric cancer[J].
+Semin Surg Oncol,
+2003,
+21(
+4):
+233-
+248.
+DOI: 10.1002/ssu.10042.
+[24]
+SugarbakerPH.
+Peritoneal carcinomatosis: natural history and rational therapeutic interventions using intraperitoneal chemotherapy[J].
+Cancer Treat Res,
+1996,
+81:
+149-
+168.
+DOI: org/10.1007/978-1-4613-1245-1_13.
+[25]
+YonemuraY, KawamuraT, BandouE, et al.
+The natural history of free cancer cells in the peritoneal cavity[J].
+Recent Results Cancer Res,
+2007,
+169:
+11-
+23.
+DOI: 10.1007/978-3-540-30760-0_2.
+[26]
+MoranB, BarattiD, YanTD, et al.
+Consensus statement on the loco-regional treatment of appendiceal mucinous neoplasms with peritoneal dissemination (pseudomyxoma peritonei)[J].
+J Surg Oncol,
+2008,
+98(
+4):
+277-
+282.
+DOI: 10.1002/jso.21054.
+[27]
+LiY, YuY, LiuY.
+Report on the 9th international congress on peritoneal surface malignancies[J].
+Cancer Biol Med,
+2014,
+11(
+4):
+281-
+284.
+DOI: 10.7497/j.issn.2095-3941.2014.04.008.
+[28]
+JacquetP, SugarbakerPH.
+Clinical research methodologies in diagnosis and staging of patients with peritoneal carcinomatosis[J].
+Cancer Treat Res,
+1996,
+82:
+359-
+374.
+DOI: 10.1007/978-1-4613-1247-5_23.
+[29]
+EliasD, GillyF, BoutitieF, et al.
+Peritoneal colorectal carcinomatosis treated with surgery and perioperative intraperitoneal chemotherapy: retrospective analysis of 523 patients from a multicentric French study[J].
+J Clin Oncol,
+2010,
+28(
+1):
+63-
+68.
+DOI: 10.1200/JCO.2009.23.9285.
+[30]
+LuZ, WangJ, WientjesMG, et al.
+Intraperitoneal therapy for peritoneal cancer[J].
+Future Oncol,
+2010,
+6(
+10):
+1625-
+1641.
+DOI: 10.2217/fon.10.100.
+[31]
+FisherB, GunduzN, SafferEA.
+Influence of the interval between primary tumor removal and chemotherapy on kinetics and growth of metastases[J].
+Cancer Res,
+1983,
+43(
+4):
+1488-
+1492.
+[32]
+GarofaloA, ValleM, GarciaJ, et al.
+Laparoscopic intraperitoneal hyperthermic chemotherapy for palliation of debilitating malignant ascites[J].
+Eur J Surg Oncol,
+2006,
+32(
+6):
+682-
+685.
+DOI: 10.1016/j.ejso.2006.03.014.
+[33]
+MullerM, CherelM, DuprePF, et al.
+Cytotoxic effect of hyperthermia and chemotherapy with platinum salt on ovarian cancer cells: results of an in vitro study[J].
+Eur Surg Res,
+2011,
+46(
+3):
+139-
+147.
+DOI: 10.1159/000324395.
+[34]
+FalkMH, IsselsRD.
+Hyperthermia in oncology[J].
+Int J Hyperthermia,
+2001,
+17(
+1):
+1-
+18.
+DOI: 10.1080/02656730150201552.
+[35]
+ChivaLM, Gonzalez-MartinA.
+A critical appraisal of hyperthermic intraperitoneal chemotherapy (HIPEC) in the treatment of advanced and recurrent ovarian cancer[J].
+Gynecol Oncol,
+2015,
+136(
+1):
+130-
+135.
+DOI: 10.1016/j.ygyno.2014.11.072.
+[36]
+JacquetP, AverbachA, StuartOA, et al.
+Hyperthermic intraperitoneal doxorubicin: pharmacokinetics, metabolism, and tissue distribution in a rat model[J].
+Cancer Chemother Pharmacol,
+1998,
+41(
+2):
+147-
+154.
+DOI: 10.1007/s002800050721.
+[37]
+DidelotC, LanneauD, BrunetM, et al.
+Anti-cancer therapeutic approaches based on intracellular and extracellular heat shock proteins[J].
+Curr Med Chem,
+2007,
+14(
+27):
+2839-
+2847.
+DOI: 10.2174/092986707782360079.
+[38]
+SugarbakerPH, StuartOA, YooD.
+Strategies for management of the peritoneal surface component of cancer: cytoreductive surgery plus perioperative intraperitoneal chemotherapy[J].
+J Oncol Pharm Pract,
+2005,
+11(
+3):
+111-
+119.
+DOI: 10.1191/1078155205jp157oa.
+[39]
+MalloryM, GogineniE, JonesGC, et al.
+Therapeutic hyperthermia: the old, the new, and the upcoming[J].
+Crit Rev Oncol Hematol,
+2016,
+97:
+56-
+64.
+DOI: 10.1016/j.critrevonc.2015.08.003.
+[40]
+PelzJO, VetterleinM, GrimmigT, et al.
+Hyperthermic intraperitoneal chemotherapy in patients with peritoneal carcinomatosis: role of heat shock proteins and dissecting effects of hyperthermia[J].
+Ann Surg Oncol,
+2013,
+20(
+4):
+1105-
+1113.
+DOI: 10.1245/s10434-012-2784-6.
+[41]
+ZuninoB, Rubio-PatinoC, VillaE, et al.
+Hyperthermic intraperitoneal chemotherapy leads to an anticancer immune response via exposure of cell surface heat shock protein 90[J].
+Oncogene,
+2016,
+35(
+2):
+261-
+268.
+DOI: 10.1038/onc.2015.82.
+[42]
+GarofaloA, ValleM, GarciaJ, et al.
+Laparoscopic intraperitoneal hyperthermic chemotherapy for palliation of debilitating malignant ascites[J].
+Eur J Surg Oncol,
+2006,
+32(
+6):
+682-
+685.
+DOI: 10.1016/j.ejso.2006.03.014.
+[43]
+CuiS, BaM, TangY, et al.
+B ultrasound-guided hyperthermic intraperitoneal perfusion chemotherapy for the treatment of malignant ascites[J].
+Oncol Rep,
+2012,
+28(
+4):
+1325-
+1331.
+DOI:10.3892/or.2012.1913.
+[44]
+BaMC, CuiSZ, LinSQ, et al.
+Chemotherapy with laparoscope-assisted continuous circulatory hyperthermic intraperitoneal perfusion for malignant ascites[J].
+World J Gastroenterol,
+2010,
+16(
+15):
+1901-
+1907.
+DOI: 10.3748/wjg.v16.i15.1901.
+[45]
+YanTD, CaoCQ, Munkholm-LarsenS.
+A pharmacological review on intraperitoneal chemotherapy for peritoneal malignancy[J].
+World J Gastrointest Oncol,
+2010,
+2(
+2):
+109-
+116.
+DOI:10.4251/wjgo.v2.i2.109.
+[46]
+朱正纲，李琛，杨秋蒙,等.
+术中腹腔内温热化疗对胃肠道吻合口愈合影响的研究[J].
+中华胃肠外科杂志,
+2001,
+4(
+2):
+99-
+102.
+DOI: 10.3760/cma.j.issn.1671-0274.2001.02.011.
+[47]
+中国抗癌协会.
+肝门部胆管癌规范化诊治专家共识（2015）[J].
+中华肝胆外科杂志,
+2015,
+21(
+8):
+505-
+511.
+DOI: 10.3760/cma.j.issn.1007-8118.2015.08.001.
+[48]
+季加孚，沈琳，徐惠绵,等.
+胃癌腹膜转移防治中国专家共识[J].
+中华普通外科学文献（电子版),
+2017,
+11(
+5):
+289-
+297.
+DOI: 10.3877/cma.j.issn.1674-0793.2017.05.001.
+[49]
+赵志勋，裴炜，熊斌,等.
+结直肠癌腹膜转移诊治中国专家意见（2017)[J].
+中华结直肠疾病电子杂志,
+2017,
+6(
+5):
+360-
+366.
+DOI: 10.3877/cma.j.issn.2095-3224.2017.05.002.
+[50]
+国家卫生计生委医政医管局，中华医学会肿瘤学分会.
+中国结直肠癌诊疗规范（2017年版)[J].
+中华普通外科学文献（电子版),
+2018,
+12(
+3):
+145-
+159.
+DOI: 10.3877/cma.j.issn.1674-0793.2018.03.001.
+[51]
+中国抗癌协会妇科肿瘤专业委员会，中国妇科腹腔热灌注化疗技术临床应用专家协作组.
+妇科恶性肿瘤腹腔热灌注化疗临床应用专家共识[J].
+中国实用妇科与产科杂志,
+2017,
+33(
+9):
+926-
+932.
+DOI:10.19538/j.fk2017090113.
+[52]
+中国抗癌协会妇科肿瘤专业委员会，中国妇科腹腔热灌注化疗技术临床应用专家协作组.
+妇科恶性肿瘤腹腔热灌注化疗临床应用专家共识（2019)[J].
+中国实用妇科与产科杂志,
+2019,
+35(
+2):
+194-
+201.
+DOI: 10.19538/j.fk2019020116.
+[53]
+虞先濬，刘亮，徐华祥,等.
+胰腺癌综合诊治指南（2018版)[J].
+临床肝胆病杂志,
+2018,
+34(
+10):
+2109-
+2120.
+DOI: 10.3969/j.issn.1001-5256.2018.10.011.
+[54]
+李雁，许洪斌，彭正,等.
+肿瘤细胞减灭术加腹腔热灌注化疗治疗腹膜假黏液瘤专家共识[J].
+中华医学杂志,
+2019,
+99(
+20):
+1527-
+1535.
+DOI: 10.3760/cma.j.issn.0376-2491.2019.20.003.
+[55]
+中国医师协会结直肠肿瘤专业委员会腹膜肿瘤专业委员会.
+结直肠癌腹膜转移预防和治疗腹腔用药中国专家共识（Ⅴ2019)[J].
+中华结直肠疾病电子杂志,
+2019,
+8(
+4):
+329-
+335.
+DOI: 10.3877/cma.j.issn.2095-3224.2019.04.002.
+贡献者信息
+中国抗癌协会腹膜肿瘤专业委员会
+广东省抗癌协会肿瘤热疗专业委员会
+基金项目
+广州市医学重点学科-肿瘤治疗学及实验肿瘤学项目
+利益冲突
+利益冲突 专家组所有成员均声明不存在利益冲突
+历史
+出版日期：2020-01-14
+收稿日期：2019-11-04
+本文编辑
+陈新石
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+注：腹膜癌指数（PCI）用于定量评估腹腔内腹膜转移肿瘤负荷程度。九分法将腹腔分为9个区域（0~8），小肠分为4个区域：近端空肠和远端空肠以及近端回肠和远端回肠。在每个区域，对最大腹膜转移瘤的病变大小进行评分，并将其总数相加作为整个腹膜腔的PCI评分（范围0~39）
+图1
+腹膜癌指数（PCI）的分区模式图
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华医学杂志2020年100卷2期
+文    题：中国腹腔热灌注化疗技术临床应用专家共识（2019版）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华医学杂志2020年100卷2期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解

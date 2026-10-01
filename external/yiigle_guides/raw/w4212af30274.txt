@@ -1,0 +1,1320 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E8%85%B9%E8%85%94%E9%95%9C%E8%83%86%E6%80%BB%E7%AE%A1%E5%9B%8A%E8%82%BF%E6%89%8B%E6%9C%AF%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97%282017%E7%89%88%29.html
+# 标题: 腹腔镜胆总管囊肿手术操作指南(2017版) - 中华小儿外科杂志
+# 发布方/日期: 小儿外科，中华小儿外科杂志, 2017,38(7) : 485-494. DOI: 10.3760/cma.j；2017-07-15
+
+腹腔镜胆总管囊肿手术操作指南(2017版)
+中华医学会小儿外科分会腔镜外科学组
+中华小儿外科杂志, 2017,38(7) : 485-494. DOI: 10.3760/cma.j.issn.0253-3006.2017.07.002
+胆总管囊肿(choledochal cysts，CC)又称(先天性)胆道扩张症，是一种胆道系统的发育畸形，其特征是先天性的胆总管扩张(少数患儿胆总管轻度扩张或不扩张)，可合并肝内胆管的扩张，绝大多数合并胰胆合流异常[1,2,3,4]。
+传统上Todani分为五型[2]，临床上常见的是囊肿型和梭型(远端狭窄型和非狭窄型)[3]，前者多合并胆总管远端狭窄，肝内胆管扩张，胰管和共同管不扩张，发病早，产前可以诊断；后者胆总管远端不狭窄，而合并共同管扩张及蛋白栓梗阻[1,3]，合并胰腺炎多，发病稍晚。相当多的患儿合并十二指肠乳头开口向远端异位，提示病因与胚胎早期肝憩室发生远端异位有关[4,5,6,7]。
+胆总管囊肿患儿常表现为腹痛，黄疸和包块[1,2,3]，治疗不及时会导致肝功能损害[8]、胆道穿孔[9,10]、自发性出血[11,12,13,14]，营养不良甚至癌变[15]，根治手术是唯一可靠的治疗方法[1,2,3]。近年来随着腔镜外科的迅速发展，腹腔镜治疗胆总管囊肿日趋成熟，是治疗胆总管囊肿的重要手段。为了进一步提高我国治疗胆总管囊肿的水平，规范手术操作，中华医学会小儿外科分会内镜外科学组和卫计委行业专项"小儿腔镜诊断治疗先天畸形技术规范、标准及新技术评价研究"课题组，组织相关专家制定《腹腔镜胆总管囊肿手术操作指南》。
+一、腹腔镜胆总管囊肿手术适应证和禁忌证
+1．适应证
+(1)已经被临床应用认可的适应证：①胆道扩张(直径≥10 mm)；②有临床症状，胆道轻度扩张或不扩张(直径<10 mm)或者临床症状缓解期胆道不扩张，合并胰胆合流异常者；③胆总管囊肿外引流术后2～8周无腹膜炎者；④腹腔镜或开放手术后肝管空肠吻合口周围狭窄胆道梗阻[16]；⑤产前诊断胆总管囊肿者，如果肝功能损害应该尽早手术，如果无损害表现建议在3个月内根治手术[17,18,19,20,21]。
+(2)可作为临床探索性的适应证：①胆总管囊肿急性穿孔者；②左右肝管出口狭窄合并肝内胆管扩张者[22,23,24,25]；③肝段肝管出口狭窄合并肝内胆管扩张[22]。
+2．禁忌证
+①肝功能严重损害，肝功能不全；②凝血功能不良，术前无法矫正[26]；③反复胆管炎，囊肿炎症重，壁内异常增生血管丰富；④胰管结石伴扩张；⑤囊肿肠管内引流术后；⑥囊肿穿孔生命指征不稳定；⑦不能耐受气腹；⑧合并门静脉海绵样变性。
+二、腹腔镜胆总管囊肿手术的设备与器械
+1．常规设备与器械
+(1)常规设备：高清晰度摄像显示系统或3D摄像显示系统、全自动高流量气腹机、冲洗吸引装置、录像和图像储存设备。
+(2)常规器械：30°镜头、3～12 mm穿刺套管、分离钳、无损伤抓钳、剪刀、持针器，电钩，吸引器，钛夹，Hem-o-lock夹等。
+2．特殊设备与器械
+胆道镜、小儿尿道镜、超声刀、结扎束高能电刀、电凝器、切割吻合器等。
+三、腹腔镜胆总管囊肿手术方式与种类
+1．手术方式
+(1)多孔腹腔镜胆总管囊肿手术：脐窝及左右上腹3至5个切口及穿刺器；腹腔镜辅助胆总管囊肿手术：囊肿切除、肝管空肠吻合在腹腔镜下完成，将空肠从脐窝切口提出，空肠空肠的Roux-en-Y吻合在腹壁外完成，是目前应用最多的手术方式[27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49]。
+(2)单部位腹腔镜胆总管囊肿手术：脐窝部单一切口，或多个切口置入穿刺器[50,51,52,53,54,55,56,57,58,59]。
+(3)全腹腔镜胆总管囊肿手术：囊肿切除、消化道重建均在腹腔镜下完成[44,60,61]。
+(4)机器人胆总管囊肿手术[62,63,64,65,66,67,68,69,70]。
+2．手术种类
+(1)腹腔镜胆总管囊肿切除肝管空肠Roux-en-Y吻合术。
+(2)腹腔镜胆总管囊肿切除肝管十二指肠吻合术，开放术式曾经被否定，目前腹腔镜手术远期效果有待于探讨[71,72,73,74,75,76,77,78,79,80,81]。
+(3)腹腔镜胆总管囊肿外引流术。
+(4)腹腔镜胆囊造瘘术[82]。
+(5)吻合口狭窄腹腔镜狭窄段切除，肝管扩大成形，肝管空肠再吻合术[83,84]。
+四、腹腔镜手术基本原则
+1．病变处理原则
+(1)胆囊和囊肿彻底切除，后者切除范围近端切除至近端较正常的肝总管水平，远端至囊肿与共同管交界处，切线的定位要根据术前良好的影像、术中胆道造影和术中病变标志来决定。
+(2)对于囊肿型，胆总管囊肿远端狭窄(直径≤1 mm)，可以直接横断，不需结扎，以防过度游离远端损伤胰管造成胰漏[85]，但是如果很容易找到远端，可以结扎；对于梭型，胆总管远端不狭窄(直径>1 mm)，必须结扎防止胰漏[86,87]。
+(3)共同管内的蛋白栓、结石应该清除[88,89]。
+(4)肝总管、肝内胆管存在的狭窄(直径≤3 mm，同时合并近端扩张或结石者)要扩大成形，结石要清除[25,90,91,92,93,94,95]。
+(5)横跨压迫肝总管前壁的肝右动脉要移位至肝总管及吻合口的后方[16,96,97,98]。
+(6)空肠袢的长度根据患儿年龄和身高个体化选择，目前多采用脐窝至肝门的距离(15～25 cm左右)，不宜过长[99,100]。
+2．腹腔镜操作原则
+(1)暴露肝门取头高足低位；暴露系膜(暴露横结肠系膜根部)，确定空肠近端和建立结肠后隧道取头低足高位。
+(2)在胆囊窝，肝总管或胆囊管前壁悬吊牵引线有利于胆总管囊肿的游离暴露。
+(3)术中应先在胆囊颈的根部结扎胆囊动脉。
+(4)剥离囊肿特别是后壁操作轻柔，利用放大视野，采用电凝等能量器械锐性分离，少用钝性分离。
+(5)为预防囊肿周围重要血管(如十二指肠上动脉，肝固有动脉，肝右动脉，特别是门静脉)及周围丰富的小血管损伤，避免出血，分离应该紧贴囊肿壁，不必刻意将门静脉和肝动脉等血管解剖暴露游离。
+(6)囊肿壁内的小血管出血，可以通过电凝止血。
+(7)肝管空肠吻合可以在腹腔镜放大视野下进行连续缝合，可靠省时。
+3．中转开腹手术原则
+(1)术中发现囊肿壁与周围组织粘连过于紧密，解剖结构不清楚，腹腔镜下切除困难。
+(2)术中发现肝段胆管狭窄近端胆管扩张，腹腔镜下扩大成形困难。
+(3)术中发现胰管扩张伴结石，腹腔镜下难以确切彻底清除。
+(4)术中出血，腹腔镜下不能有效控制。
+(5)术中损伤十二指肠或胰管，腹腔镜下难以确切修复。
+(6)高位胆管吻合，胆管细小，管壁菲薄，或肝管壁脆弱容易撕裂，腹腔镜难以确切吻合。
+4．术毕腹腔引流原则
+术毕应行腹腔冲洗，通过切口放置引流管于右肝上膈下肝下或温氏孔。如果囊肿炎症轻，胰腺段内囊肿小于整个囊肿体积的1/2，未行肝管扩大成形，吻合确切，也可以不放置腹腔引流管[101]。
+5．外引流手术原则
+对不能矫正肝功能严重损害，凝血功能不良，或者囊肿穿孔弥漫性腹膜炎或病情危重不能耐受根治手术的患儿，可以行腹腔镜胆道外引流术，待全身状态好转后行根治手术。外引流术包括囊肿外引流术和胆囊外引流术两种术式，前者引流充分，但是腹腔镜操作技术相对困难(特别是梭型穿孔者更困难，囊肿型容易)，如果远端梗阻存在胆汁丢失量大，容易导致水电解质紊乱；后者适用于胆囊管通畅无梗阻的情况，操作简单容易，不会在短时间内丢失大量胆汁，采用前最好做胆道造影排除胆囊管梗阻畸形。如果穿孔在胆管的前壁容易发现，可以经穿孔部位置入引流管；如果穿孔在后侧或不容易发现，建议做胆总管切开引流；8～12 F的球囊导管简单易行。外引流后全身状态和肝功能改善，凝血功能指标好转(FIB≥1.0 g/L)，1周后可以根治手术[26]。
+五、术前准备
+1．通过CT、MRI、超声等检查，明确囊肿形态及与周围组织关系，肝内胆管、共同管及胰管形态及腔内结石存在；有无单一或多处肝管狭窄，有无异常血管走形、异位肝右动脉横跨近端肝总管前壁导致压迫性狭窄近端肝管扩张，胆管不扩张患儿建议做ERCP检查，确定胰胆合流异常诊断。
+2．血生化和凝血功能检查，了解肝功能损害程度和凝血功能状态。
+3．纠正贫血、低蛋白血症和水、电解质、酸碱代谢平衡紊乱和凝血机制异常，改善患儿营养状况。
+4．术前1 d进食流质食物，术前4 h禁食，放置胃管，抽空胃内容物。
+5．预防性使用抗生素。
+六、术后一般处理
+1．密切观察患儿生命体征、引流物性质和量。
+2．维持水、电解质、酸碱代谢平衡，给予抗生素防治感染。
+3．术后第1天开始用开塞露，诱导排气，无腹胀及胃液减少后，术后第2天可以开始进食流质食物，逐渐过渡至常规食物。
+4．术后3～5 d左右腹腔引流液清淡，每日量小于20～30 ml拔出引流管[101]。
+七、手术常见并发症及处理
+腹腔镜胆总管囊肿术后并发症包括腹腔镜手术特有并发症和胆道手术相关并发症。
+1．腹腔镜手术特有并发症
+(1)气腹相关并发症可能出现高碳酸血症或心、肺功能异常：预防措施为术中严密监测气腹压力，维持在6～12 mmHg，术中保持良好的肌肉松弛度，新生儿和婴幼儿用最低压力状态保持可操作空间，尽量缩短手术时间。一旦出现上述情况应该立即暂停手术，排除腹腔内残余CO2；并与麻醉医师沟通，适当增加潮气量，待回复正常后恢复手术。
+(2)穿刺相关并发症：小儿腹壁薄腹腔小，建立气腹或Trocar穿刺入腹腔时，可能误伤腹腔内血管及肠管。因为经脐窝切口要提出肠管及切下的囊肿胆囊标本，腹腔镜胆总管囊肿手术最好采用脐窝开放方法，直视下放入第一个Trocar，严密缝合建立气腹，然后在腹腔镜监视下置入其他Trocar，穿刺时提起腹壁。一旦发现损伤，应及时中转开腹，及时缝合、修补损伤血管或肠管。
+(3)切口疝：好发于脐窝部位切口，小儿腹壁薄，要全层缝合关闭≥5 mm的Trocar孔，脐窝切口疝，可以自愈；其他部位切口疝，要缝合修补腹壁缺损[35,102,103,104,105,106,107]。
+2．胆总管手术相关并发症
+(1)术中出血：是导致中转开腹的重要原因之一。原因有两个：一个是囊肿与周围粘连重，囊肿床特别是胰腺区创面渗血；另外一个是囊肿周围较大的血管意外损伤，如胰十二指肠上动脉、肝固有动脉、肝右动脉，特别是门静脉。术者要熟悉肝动脉变异，观察明确组织无搏动后再进行分离，或将动脉剥离牵拉远离游离切面可以避免动脉意外损伤。门静脉壁薄，粗大，容易与扩张的囊肿壁粘连，术中最容易损伤。建议最后游离囊肿的左后侧囊壁，游离时向头侧悬吊掀起囊壁远侧，在放大视野下紧贴囊壁用电凝钩游离，不可过度用力，而将门静脉和肝动脉牵拉变形，意外撕裂或损伤。在游离紧密粘连的囊肿左后壁时，如果囊肿壁的层次不清晰，千万不要轻率使用能量器械分离组织而误伤门静脉，这种情况下可以敞开囊肿壁，放大视野下参照囊肿内膜层次紧贴囊肿壁游离，或者仅剔除内膜而原位保留外膜[53]，避免门静脉等大血管损伤。无论是渗血还是活动性出血，术者应沉着冷静，团队密切配合，正确使用止血工具，如压迫、无损钳夹、电能量平台止血设备、止血夹和缝合等手段止血，正确处理。如果腹腔镜下仍然不能控制，要准确暂时钳夹闭合出血点稍微控制出血，立刻中转开放手术直视下止血[35,102,103,104,105,106,107]。
+(2)术后早期出血：腹腔镜胆总管术后要密切观察血压、脉搏、尿量等生命指征，观察引流管的出血量和颜色，发现出血首先止血药物治疗，及时扩容，必要时输血和手术。术后出血原因主要有两个，一个是术中游离的囊肿床创面渗血，这样患儿术前常常合并肝功能严重损害和凝血机制异常，采用补充血浆、纤维蛋白原、凝血酶原复合物和输血等措施，大多数可以有效控制，如果无效立刻手术，对渗血创面进行加压缝合；另外一个原因是血管活动性出血，最常见是胆囊动脉的断端焦痂脱落出血，也可能是其他周围血管侧壁损伤破裂出血(医源性迟发性血管损伤)，如果保守无停止趋势和血压不稳定，必须立即再手术进行血管结扎或修补止血[26,107]。
+(3)术后迟发性出血：发生在术后1周左右，表现为间断大量便血，伴有腹痛。与胆肠吻合口肝右动脉缝线损伤形成假性动脉瘤有关，采用介入动脉栓塞或者手术结扎有效[35,102,103,104,105,106,107]。
+(4)术后胆漏：表现为术后引流管持续出现大量深黄色胆汁，发生部位在吻合口，与缝合技术不佳、胆管壁血运不良或缝线松脱有关，保守治疗有自愈可能；发生在吻合口近端的胆管壁裂口，与电灼伤迟发穿孔或撕裂有关；发生在吻合口外的迷走胆管开口，与术中遗漏处理有关，为了避免此并发症发生，应该在囊肿与肝总管断离之前，先敞开囊肿的前壁，从囊肿内部明确有无开口在肝总管包括胆囊管周围的迷走胆管入口。如果胆汁量引流无减少趋势，应该尽快腹腔镜再次手术，清除积液，探明病因，采取吻合口修补缝合、拆开再吻合，迷走肝管空肠端侧吻合等相应的治疗方法。
+(5)吻合口狭窄，胆道梗阻：表现为手术后腹痛、发热、肝功能异常甚至黄疸和肝内胆管结石，影像学检查显示梗阻点以上的肝总管或肝内胆管扩张。术后吻合口周围狭窄有三个方面原因，一是吻合口局部狭窄，与残留过多炎症性囊肿壁、非吸收性缝线炎症和吻合技术不佳等有关；二是吻合口近端肝管狭窄，与初次手术近端肝管狭窄残留有关；三是异位的肝右动脉横跨压迫吻合口近端肝总管前壁有关。一旦明确吻合口周围狭窄导致胆道梗阻，肝功能出现异常，应该尽早手术去除梗阻病因，可以行腹腔镜或开放肝管空肠再吻合手术，终止肝功能损害和肝硬化的发生[16,96]。
+(6)胰腺炎：表现为间断上腹部疼痛，淀粉酶升高；影像学检查显示胰管扩张和结石。术后胰腺炎的原因有胆总管远端残留憩室、共同管或胰管结石，可以通过十二指肠镜清除憩室内或共同管胰管内结石。如果胰腺炎由残留胆总管远端的较大憩室所致，需要手术切除[35,102,103,104,105,106,107]。
+(7)空肠胆支袢梗阻：早期症状不典型，表现为腹痛，发热，拒食，因为主肠道通畅，呕吐和腹胀不明显，常常被延误诊断；X线平片可以显示右上腹肠管扩张和气液平。晚期坏死穿孔时，出现胆汁性腹膜炎和麻痹性肠梗阻，甚至休克。原因与空肠袢过长有关，过长的空肠袢穿过横结肠系膜裂孔后以系膜血管为轴心发生扭转导致空肠袢系膜血管绞窄肠管血运障碍，肠管梗阻坏死。采用个体化短空肠袢可以有效地预防此并发症的发生。一旦空肠袢梗阻确诊要立即手术，早期扭转复位，将过长的肠袢游离归位至结肠系膜下间隙，空肠袢与系膜裂孔固定缝合，或切除过多的肠管端端吻合；晚期肠管坏死，行坏死空肠袢切除，一般肝管空肠吻合口处尚存活少许空肠，吻合口不受影响，再次截取短空肠袢行残留空肠与空肠再吻合[99]。
+(8)术后胰漏：表现为术后腹腔引流管持续出现大量无色清亮积液，有时拔出引流管后，肝门处出现巨大单腔假性囊肿，腹腔引流液中淀粉酶含量高。原因有囊肿在胰腺中剥离创面大，胆总管远端游离过度损伤了与之汇合的主胰管及共同管，梭型胆总管远端闭合不全胰液反流外漏，以及共同管内结石未清除造成梗阻胰液反流等。如果保守治疗无效，特别是患儿进食后有腹痛呕吐症状，合并巨大假性胰腺囊肿形成情况，应该尽早手术。多需要开放手术清除积液，探明病因，采取共同管结石清除，漏口修补缝合，以及假性囊肿与十二指肠侧侧吻合或与空肠袢侧侧吻合等治疗方法[35,85]。
+《腹腔镜胆总管手术操作指南(2017版)》编审委员会成员名单
+组长：李龙
+副组长：李索林、汤绍涛、李水学、王晓晔、毕允力、周辉霞
+成员(按姓氏汉语拼音排序)
+白玉作、卞红强、曾骐、高明太、何大维、黄金狮、黄柳明、李爱武、李炳、李贵斌、李龙、李明磊、李鹏、李昭铸、刘继炎、刘潜、刘树立、鹿洪亭、吕志宝、潘伟华、戚士芹、苏毅、孙庆林、王斌、王昆、温哲、席红卫、向波、熊启星、徐冰、杨屹、张大、张世伟、张文、周小渔
+执笔人：刁美、陈震
+附件：
+手术步骤与方法
+一、麻醉与体位
+采用气管插管全身麻醉。患儿取平卧，如果采用单孔手术方式两腿分开位；游离囊肿和肝管空肠吻合操作时，可取头高足低位；建立结肠后隧道时，可取头低足高位，以利于手术视野显露。
+二、气腹建立及Trocar布局
+脐窝正中皮肤切口1.5～2.5 cm，在脐环的中心切开腹壁白线深至腹腔，直视下将Trocar外鞘(不含尖锐的内芯)导入腹腔，荷包缝合脐窝的前鞘，扎紧Trocar鞘，缝线与其缠绕固定，阻止脱落，建立气腹。维持腹内压在6～12 mmHg。脐孔5～10 mm戳孔放置镜头，左右侧腋前线肋缘下分别取2个3～5 mm戳孔，脐右腹直肌外缘取1个3～5 mm戳孔为主操作孔。单孔手术在脐窝1.5～2.5 cm的正中切口内，脐环中心置入1个5 mm戳孔，然后向两侧牵拉切口的皮缘呈菱形，在切口内的两侧角内各一个3 mm戳孔，导入操作器械。
+三、腹腔探查
+确定肝十二指肠周围有无粘连，肝总管前方有无异位动脉压迫，肠旋转不良，其他腹腔器官有无明显异常等。
+四、胆道造影
+多孔术式中腹腔镜下直接从右侧肋缘下戳孔将胆囊底部提出到腹壁外，切开后直视下将8号硅胶管插入胆囊内，抽取胆汁备检查，然后管周围胆囊壁荷包缝合扎紧，加压注入造影剂透视和拍片。显示胆道系统、胰管、共同管及十二指肠的详细形态。之后拔出硅胶管，缝合胆囊切开口送回腹腔，置入Trocar[35,37,102,104,108]。单孔术式中胆囊窝悬吊牵引是经胆囊底的浆膜层放置悬吊线牵引肝脏，将胆囊底固定在前腹壁，经腹壁用12号套管针穿刺入胆囊，注入造影剂[50,51,52,53,54,55]。
+五、悬吊牵引
+一般需要在胆囊窝、肝门和囊肿壁三个部位悬吊。胆囊牵拉在肋缘下胆囊底的上方穿腹壁进2-0带针线，缝合固定在胆囊底与肝脏交界的浆膜层，针线再从腹壁穿出，助手腹壁外提拉牵引线可以将胆囊及肝脏吊起。肝门牵拉在剑突下方穿腹壁进针，缝合在近端肝总管的前壁，从胆囊窝上方穿腹壁出针，提拉缝线呈"V"形，通过将肝脏的方叶牵拉暴露肝门；最后在肝管与空肠吻合时，提拉此线能够起到暴露吻合口后壁和前壁吻合的作用。在游离囊肿远端时，特别是巨大囊肿时，可以根据需要序列接力式缝合牵引线逐步向上提拉囊肿，有利暴露和辨别囊肿壁与胰腺组织和门静脉的间隙，囊肿切除后拆除这些牵引线[35,37,50,51,52,53,54,55]。
+六、囊肿切除手术入路
+根据胆总管扩张的类型，基本手术入路有2种：囊肿型游离的顺序为由右前外侧壁开始，逐渐向远端游离至与共同管的交界部，横断变细狭窄的远端，然后向头侧提起远端游离后壁至近端正常肝总管水平；梭型囊肿游离的顺序为胆总管右前壁开始，在胆总管的前壁中部横行切开，放大视野下横断后壁，提起远端囊肿壁，由近端向远端环周游离至胆总管接近胰管的汇合处，在胆总管远端近胰管的变细处用Hem-o-lock夹闭或2-0可吸收线结扎横断[25,35,37,45,102,104,108,109]。在断离囊肿近端前，先切开囊肿前壁，从内部观察明确没有迷走胆管开口后，在近端较正常肝总管水平横断切除。
+七、手术方法
+1．腹腔镜胆总管囊肿切除肝管空肠Roux-en-Y吻合术
+(1)胆囊切除：首先在胆囊颈部游离结扎胆囊动脉，然后用电刀或超声刀将胆囊游离切除。胆囊管是迷走肝管最常见的汇合部位，为避免意外损伤，在断离胆囊管前，先切开囊肿的前壁，从囊肿内部明确有无开口在胆囊管的迷走胆管入口。
+(2)囊肿切除：见六囊肿切除手术入路。
+(3)肝管扩大成形：囊肿型常常合并单一或多处狭窄伴近端肝管扩张，切除囊肿后，沿着狭窄肝总管的前壁正中劈开至近端扩张的部位，使扩大胆管的口径达到近端扩张肝管的直径，至少要1.5 cm以上；然后清除肝内扩张肝管内的结石，排除肝内胆管存在的狭窄可能[25,37,90,92,93]。
+(4)共同管蛋白栓清除：术前影像学检查或术中胆道造影明确合并共同管扩张和结石后，术中首先切开胆总管的前壁，从戳孔或附加剑突下5 mm切口导入胆道镜(可以由小儿尿道镜替代)，进入胆总管的远端，镜下反复冲洗清除共同管内蛋白栓。如果没有胆道内镜，可以向远端插入8号硅胶尿管，反复冲洗抽吸，待无冲洗阻力后复查造影明确结石确实清除[88]。
+(5)异位前置肝右动脉后移：异位前置的肝右动脉横跨紧密压迫肝总管前壁时，首先在接近动脉的下缘横断肝总管切除囊肿，然后将动脉与肝总管的前壁完全分离，把近端肝总管从动脉弓内提出放置于动脉的前方，如果压迫已经形成肝管狭窄，纵劈开狭窄段前壁扩大成形，与肠管在动脉前方吻合[16,96]。
+(6)空肠吻合及标本取出：取头低足高位，将横结肠向头侧牵拉，显露十二指肠空肠曲，距离Treitz韧带5～10 cm抓住空肠；同时用另一个器械抓住胆囊和囊肿的标本；拔出脐窝Trocar，扩大脐窝白线切口至1.5～2.5 cm，首先将标本送到切口下取出，然后将空肠从切口提出；在距离Treitz韧带5～10 cm横断空肠，根据脐窝至肝门的直线距离取空肠袢，一般长度15～35 cm，肠袢的近端封闭，远端与空肠近端端侧吻合；闭合系膜裂孔，送回腹腔；重新缝合脐窝切口建立气腹[35,92,104,108]。
+(7)结肠后隧道建立：保持头低足高位，在横结肠右侧系膜的无血管区切开，沿着十二指肠前间隙分离形成至肝门的隧道，将空肠袢上提至肝门。如果十二指肠前间隙粘连重分离困难，可以选择结肠前上提空肠袢[35,92,104,108]。
+(8)肝管空肠吻合：经腹壁悬吊肝总管开口的前壁，牵拉前壁，使前后壁分开易于辨别，避免前后壁吻合在一起导致吻合口狭窄；距离肠袢盲端1 cm左右的系膜对侧沿空肠长轴沿着肠管走行方向切开肠壁，长度与肝管口径相当；一般切开10～15 mm，用5-0或6-0 PDS可吸收缝合线吻合，针线从5 mm Trocar引入腹腔；缝针从空肠吻合口的左侧端黏膜面进针浆膜面出针，对应在胆管的左侧壁外侧进针，胆管腔内出针，打结在腔内，然后由左向右连续缝合后壁至肠管切口的右侧，两针之间距离1 mm左右，针眼至边缘的1.0～1.5 mm左右，缝合时要拉开皱褶将后壁展开，避免针距过大形成术后胆漏；后壁吻合完成后，引入另一针线，从左侧前壁紧邻后壁第一针处开始缝合，同样由左向右连续缝合至吻合口的右侧，与后壁缝线汇合，拉紧缝线打结。也可以间断缝合，但是与连续缝合相比，间断缝合耗时且术后吻合口漏和狭窄的发生率并不低[110,111]。
+(9)腹腔引流：冲洗腹腔后在肝门处、膈下或温氏孔放置引流管，多孔术式引流管从右中腹戳孔引出[35,102,104]，单孔术式从脐窝内的右侧戳孔引出；分别缝合脐窝正中线的切口白线和皮肤，将引流管与皮肤固定。
+2．腹腔镜胆囊造瘘术
+(1)胆道造影：方法同上。
+(2)胆囊造瘘：适应于胆囊高度充盈，胆囊管通畅，无明显的扭曲和狭窄，胆总管无穿孔情况。腹腔镜下直接从右侧肋缘下戳孔将胆囊底部提出到腹壁外，切开后直视下将8-12F胆囊造瘘管(8F Foley尿管可以替代)插入胆囊内，然后将管周围胆囊壁荷包缝合线扎紧，最后将造瘘管与皮肤缝合固定。
+3．腹腔镜胆总管囊肿外引流术
+(1)胆道造影：方法同上。
+(2)悬吊牵引：需要胆囊窝和肝门悬吊，方法同胆总管囊肿切除术。
+(3)胆总管造瘘：适用于胆囊干瘪、胆囊管扭曲、细长、狭窄和囊肿穿孔情况。切开肝十二指肠韧带表面的腹膜，暴露胆总管囊肿的前壁，纵向切开囊壁，用弯钳扩大切开，导入吸引器吸出胆汁；然后反复冲洗将囊内或胆总管远端的蛋白栓清除；从右上腹戳孔导入造瘘管，对梭型囊肿，根据胆管直径向胆总管内插入8～12F"T"管；对囊肿型，向囊肿内放置"T"管或球囊造瘘管；在管的周围缝合缩小闭合胆总管切口；如果腹腔冲洗干净，可以不放腹腔引流管。
+4．吻合口狭窄腹腔镜肝管扩大成形再吻合术[16,96]
+(1)粘连松解：首先松解上腹部肠管与腹壁的粘连，不要分离起到牵拉作用的肝脏与膈肌的粘连；然后沿着肝实质的脏面分离与大网膜和胃肠壁的粘连，向下一直达到肝门。
+(2)悬吊牵引：在肝门正上方的肝实质上缝一针牵引线，助手在腹壁外根据需要牵拉，暴露肝门。沿着空肠袢向肝门游离至吻合口，进一步向其近端游离暴露肝总管的前壁，注意有无动脉搏动，避免误伤横跨的肝右动脉。
+(3)胆道造影：经腹壁8号穿刺针或20G套管针入狭窄近端扩张的肝总管腔，抽出胆汁明确针在肝管后，注入造影剂，了解肝内胆管情况。
+(4)吻合口狭窄扩大成形：正中劈开吻合口的前壁，向上延至扩张的肝总管近端，口径达到近端扩张肝管的直径；向下劈开相应口径的空肠；冲洗肝内胆管，清除结石；狭窄段劈开后狭窄消除，如果狭窄段组织没有明显的溃疡、出血、息肉及恶变改变，可以保留劈开的狭窄段组织，将扩大的肝管与肠管侧侧吻合，用5-0可吸收线从左侧角开始连续缝合。如果狭窄段有明显的上述病变存在，切除狭窄段，将肝管与空肠端侧吻合。
+(5)吻合口近端狭窄扩大成形：对于原吻合口无狭窄而吻合口近端胆管存在狭窄情况，与初次手术吻合口过低没有解决近端肝管的狭窄有关。术中要将原吻合口拆开，切除吻合口与狭窄环之间的残留囊肿壁。然后前正中壁劈开狭窄环及近端扩张的胆管壁，使胆管的口径达到扩张肝管的直径，清除结石，重新行肝管空肠端侧吻合。
+(6)异位前置肝右动脉后移＋肝管空肠再吻合：在放大视野下仔细观察肝总管前壁，如果见到横跨肝右动脉的搏动，此动脉的上侧肝总管扩张；切开动脉下侧的肝管，从腔内可以看到动脉搏动性压迫环，以上表现可以诊断肝右动脉横跨压迫性胆管狭窄。术中首先在原吻合口横断肝总管，贴肝总管前壁游离至肝动脉下方，用3 mm的电钩准确分离肝管的前壁与动脉的后壁间隙；然后在动脉的上侧游离至扩张肝管的前壁，悬吊牵引线后提拉肝总管前壁向动脉下侧游离，与下侧肝管的游离面汇合，将肝总管由肝右动脉弓内提出置于动脉前上侧，肝右动脉移位到肝总管的后方。如果受压的肝管存在狭窄，劈开前壁扩大成形，与空肠在动脉前吻合。
+(7)腹腔冲洗引流：方法同上。
+参考文献
+[1]
+MiyanoT, LiL, YamadaK.
+Choledochal cyst. In: Gupta D, Sharma S, Azizkhan R, eds.Pediatric surgery-diagnosis and management[M].
+Jaypee New Delhi:
+Brother Medical Publishers,
+2009.
+1013-
+1025.
+[2]
+O' NeillJA, GoranAG, FonkalsrudE.
+Choledochal cyst. Pediatric Surgery[M].
+St. Louis:
+Mosby,
+2006.
+1620-
+1634.
+[3]
+WangHZ.
+Congenital biliary dilatation. In: Li Z, Wang HZ, Ji SJ, eds. Practical pediatric surgery[M].
+Beijing:
+The People's Health Publishing House,
+2001.
+1060-
+1075.
+[4]
+MiyanoG, YamatakaA, ShimotakaharaA, et al.
+Cholecystectomy alone is inadequate for treating formefrustecholedochal cyst: evidence from a rare but important case report[J].
+Pediatr Surg Int,
+2005,
+21(
+1):
+61-
+63.
+[5]
+LiL, YamatakaA, Yian-XiaW, et al.
+Ectopic distal location of the papilla of vater in congenital biliary dilatation: implications for pathogenesis[J].
+J Pediatr Surg,
+2001,
+36(
+11):
+1617-
+1622.
+[6]
+李龙，王燕霞，王大勇，等.
+胰胆合流共同管开口异位与先天性胆总管囊肿形态关系的探讨[J].
+中华小儿外科杂志，
+2002，
+23(
+2):
+122-
+123.
+DOI：10.3760/cma.j.issn.0253-3006.2002.02.008.
+LiL, WangYX, WangDY, et al.The significance of ectopic pancreaticobiliary communication of choledochal cyst in children[J]. Chin J Pediatr Surg, 2002, 23(2): 122-123. DOI: 10.3760/cma.j.issn.0253-3006.2002.02.008.
+[7]
+李龙，刘雪来，付京波，等.
+先天性胆总管囊肿胰管发育与十二指肠乳头异位的关系[J].
+中华小儿外科杂志，
+2005，
+26(
+6):
+293-
+296.
+LiL, LiuXL, FuJB, et alPancreatic duct anomalies associated with ectopic papilla of vater in choledochal cyst[J]. Chin J Pediatr Surg, 2005, 26(6): 293-296. DOI: 10.3760/cma.j.issn.0253-3006.2005.06.004.
+[8]
+NambirajanL, TanejaP, SinghMK, et al.
+The liver in choledochal cyst[J].
+Trop Gastroenterol,
+2000,
+21(
+3):
+135-
+139.
+[9]
+AndoH, ItoT, WatanabeY, et al.
+Spontaneous perforation of choledochal cyst[J].
+J Am Coll Surg,
+1995,
+181(
+2):
+125-
+128.
+[10]
+ChiangL, ChuiCH, LowY, et al.
+Perforation: a rare complication of choledochal cysts in children[J].
+Pediatr Surg Int,
+2011,
+27(
+8):
+823-
+827.
+[11]
+ChenTY, WangHK, YehML, et al.
+Subdural hemorrhage as a first symptom in an infant with a choledochal cyst: case report[J].
+J Neurosurg Pediatr,
+2012,
+9(
+4):
+414-
+416.
+[12]
+FuminoS, IwaiN, DeguchiE, et al.
+Bleeding tendency as a first symptom in children with congenital biliary dilatation[J].
+Eur J Pediatr Surg,
+2007,
+17(
+1):
+2-
+5.
+[13]
+KrstovskiN, JanicD, DokmanovicL, et al.
+Late vitamin K deficiency bleeding in an infant with choledochal cyst[J].
+Turk J Pediatr,
+2010,
+52(
+6):
+652-
+654.
+[14]
+OnoS, TokiwaK, AoiS, et al.
+A bleeding tendency as the first symptom of a choledochal cyst[J].
+Pediatr Surg Int,
+2000,
+16(
+1):
+111-
+112.
+[15]
+JanYY, ChenHM, ChenMF.
+Malignancy in choledochal cysts[J].
+Hepato-gastroenterology,
+2002,
+49(
+43):
+100-
+103.
+[16]
+MeiD, LongL, WeiC.
+Recurrence of biliary tract obstructions after primary laparoscopic hepaticojejunostomy in children with choledochalcysts[J].
+Surg Endosc,
+2016,
+30(
+9):
+1-
+6.
+DOI: 10.1007/s00464-015-4697-5.
+[17]
+DiaoM, LiL, ChengW.
+Timing of surgery for prenatally diagnosed asymptomatic choledochal cysts: a prospective randomized study[J].
+J Pediatr Surg,
+2012,
+47(
+47):
+506-
+512.
+DOI: 10.1016/j.jpedsurg.2011.09.056.
+[18]
+LiuSL, LiL, HouWY, et al.
+Laparoscopic excision of choledochal cyst and Roux-en-Y hepaticojejunostomy in symptomatic neonates[J].
+J Pediatr Surg,
+2009,
+44(
+3):
+508-
+511.
+[19]
+ChanKW, LeeKH, TsuiSY, et al.
+Laparoscopic management of antenatally detected choledochal cyst: a 10-year review[J].
+Surg Endosc,
+2016,
+30(
+12):
+5494-
+5499.
+[20]
+刁美，孙旭，叶茂，等.
+产前诊断的无症状性胆总管囊肿手术时机的探讨[J].
+中华小儿外科杂志，
+2013，
+34(
+4):
+266-
+270.
+DOI：10.3760/cma.j.issn.0253-3006.2013.04.008.
+DiaoM, SunX, YeM, et al. The rational operating time for prenatally diagnosed asymptomatic choledochal cysts[J]. Chin J Pediatr Surg, 2013, 34(4): 266-270.DOI: 10.3760/cma.j.issn.0253-3006.2013.04.008.
+[21]
+刘树立，李龙，王玉生，等.
+经腹腔镜治疗新生儿先天性胆总管囊肿[J].
+中华小儿外科杂志，
+2008，
+29(
+5):
+264-
+267.
+DOI：10.3760/cma.j.issn.0253-3006.2008.05.003.
+LiuSL, LiL, WangYS, et al. Laparoscopic total cyst excision with Roux-en-Y hepatojejunostomy for neonates with choledochocyst[J]. Chin J Pediatr Surg, 2008, 29(5): 264-267. DOI: 10.3760/cma.j.issn.0253-3006.2008.05.003.
+[22]
+LiL, LiuSL, HouWY, et al.
+Laparoscopic correction of biliary duct stenosis in choledochal cyst.[J].
+J Pediatr Surg,
+2008,
+43(
+4):
+644-
+646.
+[23]
+UrushiharaN, FukumotoK, NousoH, et al.
+Hepatic ductoplasty and hepaticojejunostomy to treat narrow common hepatic duct during laparoscopic surgery for choledochal cyst[J].
+Pediatr Surg Int,
+2015,
+31(
+10):
+983-
+986.
+DOI: 10.1007/s00383-015-3779-8.
+[24]
+WangJ, ZhangW, SunD, et al.
+Laparoscopic treatment for choledochal cysts with stenosis of the common hepatic duct[J].
+J Am Coll Surg,
+2012,
+214(
+6):
+e47-
+e52.
+DOI: 10.1016/j.jamcollsurg.2012.03.001.
+[25]
+LiS, WangW, YuZ, et al.
+Laparoscopically assisted extrahepatic bile duct excision with ductoplasty and a widened hepaticojejunostomy for complicated hepatobiliary dilatation[J].
+Pediatr Surg Intl,
+2014,
+30(
+6):
+593-
+598.
+DOI: 10.1007/s00383-014-3501-2.
+[26]
+DiaoM, LiL, ChengW.
+Coagulopathy in a subtype of choledochal cyst and management strategy[J].
+World J Gastroenterol,
+2014,
+20(
+30):
+10606-
+10612.
+DOI: 10.3748/wjg.v20.i30.10606.
+[27]
+FarelloGA, CerofoliniA, RebonatoM, et al.
+Congenital choledochal cyst: video-guided laparoscopic treatment[J].
+Surg Laparosc Endosc,
+1995,
+5(
+5):
+354-
+358.
+[28]
+LeeH, HiroseS, BrattonB, et al.
+Initial experience with complex laparoscopic biliary surgery in children: biliary atresia and choledochal cyst[J].
+J Pediatr Surg,
+2004,
+39(
+6):
+804-
+807.
+[29]
+O'RourkeRW, LeeNN, ChengJ, et al.
+Laparoscopic biliary reconstruction[J].
+Am J Surg,
+2004,
+187(
+5):
+621-
+624.
+[30]
+TanHL, ShankarKR, FordWD.
+Laparoscopic resection of type I choledochal cyst[J].
+Surg Endosc,
+2003,
+17(
+9):
+1495.
+[31]
+ShimuraH, TanakaM, ShimizuS, et al.
+Laparoscopic treatment of congenital choledochal cyst[J].
+Surg Endosc,
+1998,
+12(
+10):
+1268-
+1271.
+[32]
+WatanabeY, SatoM, TokuiK, et al.
+Laparoscope-assisted minimally invasive treatment for choledochal cyst[J].
+J Laparoendosc Adv Surg Tech A,
+1999,
+9(
+5):
+415-
+418.
+[33]
+LiuDC, RodriguezJA, MericF, et al.
+Laparoscopic excision of a rare type II choledochal cyst: case report and review of the literature[J].
+J Pediatr Surg,
+2000,
+35(
+7):
+1117-
+1119.
+[34]
+ChowbeyPK, KatrakMP, SharmaA, et al.
+Complete laparoscopic management of choledochal cyst: report of two cases[J].
+J Laparoendosc Adv Surg Tech A,
+2002,
+12(
+3):
+217-
+221.
+[35]
+LiL, FengW, JingboF, et al.
+Laparoscopic-assisted total cyst excision of choledochal cyst and Roux-en-Y hepatoenterostomy[J].
+J Pediatr Surg,
+2004,
+39(
+11):
+1663-
+1666.
+[36]
+DiaoM, LiL, ChengW.
+Laparoscopic versus open Roux-en-Y hepatojejunostomy for children with choledochal cysts: intermediate-term follow-up results[J].
+Surg Endosc,
+2011,
+25(
+5):
+1567-
+1573.
+[37]
+DiaoM, LiL, ChengW.
+Role of laparoscopy in treatment of choledochal cysts in children[J].
+Pediatric Surg Int,
+2013,
+29(
+4):
+317-
+326.
+DOI: 10.1007/s00383-013-3266-z.
+[38]
+UreBM, SchierF, SchmidtAI, et al.
+Laparoscopic resection of congenital choledochal cyst, choledochojejunostomy, and extraabdominal Roux-en-Y anastomosis[J].
+Surg Endosc,
+2005,
+19(
+8):
+1055-
+1057.
+[39]
+TanakaM, ShimizuS, MizumotoK, et al.
+Laparoscopically assisted resection of choledochal cyst and Roux-en-Y reconstruction.[J].
+Surg Endosc,
+2001,
+15(
+6):
+545-
+552.
+[40]
+WatanabeY, SatoM, TokuiK, et al.
+Laparoscope-assisted minimally invasive treatment for choledochal cyst[J].
+J Laparoendosc Adv Surg Tech A,
+1999,
+9(
+5):
+415-
+418.
+[41]
+YamatakaA, LaneGJ, CazaresJ.
+Laparoscopic surgery for biliary atresia and choledochal cyst[J].
+Semin Pediatr Surg,
+2012,
+21(
+3):
+201-
+210.
+DOI: 10.1053/j.sempedsurg.2012.05.011.
+[42]
+LiemNT, DungLA, SonTN.
+Laparoscopic complete cyst excision and hepaticoduodenostomy for choledochal cyst: early results in 74 cases[J].
+J Laparoendosc Adv Surg Tech A,
+2009,
+19(
+Suppl 1):
+S87-
+S90.
+[43]
+Nguyen ThanhL, HienPD, DungLA, et al.
+Laparoscopic repair for choledochal cyst: lessons learned from 190 cases[J].
+J Pediatr Surg,
+2010,
+45(
+3):
+540-
+544.
+DOI: 10.1016/j.jpedsurg.2009.08.013.
+[44]
+UrushiharaN, FukuzawaH, FukumotoK, et al.
+Totally laparoscopic management of choledochal cyst: Roux-en-Y Jejunojejunostomy and wide hepaticojejunostomy with hilarductoplasty[J].
+J Laparoendosc Adv Surg Tech A,
+2011,
+21(
+4):
+361-
+366.
+DOI: 10.1089/lap.2010.0373.
+[45]
+TangST, YangY, WangY, et al.
+Laparoscopic choledochal cyst excision, hepaticojejunostomy, and extracorporeal Roux-en-Y anastomosis: a technical skill and intermediate-term report in 62 cases[J].
+Surg Endosc,
+2011,
+25(
+2):
+416-
+422.
+DOI: 10.1007/s00464-010-1183-y.
+[46]
+LiS, WangW, YuZ, et al.
+Laparoscopically assisted extrahepatic bile duct excision with ductoplasty and a widened hepaticojejunostomy for complicated hepatobiliary dilatation[J].
+Pediatr Surg Int,
+2014,
+30(
+6):
+593-
+598.
+DOI: 10.1007/s00383-014-3501-2.
+[47]
+HuangL, ZhangH, LiuG, et al.
+The effect of laparoscopic excision vs open excision in children with choledochal cyst: a midterm follow-up study[J].
+J Pediatr Surg,
+2011,
+46(
+4):
+662-
+665.
+DOI: 10.1016/j.jpedsurg.2010.10.012.
+[48]
+WangJ, ZhangW, SunD, et al.
+Laparoscopic treatment for choledochal cysts with stenosis of the common hepatic duct - journal of the american college of surgeons[J].
+J Am Coll Surg,
+2012,
+214(
+6):
+e47-
+e52.
+DOI: 10.1016/j.jamcollsurg.2012.03.001.
+[49]
+WangB, FengQ, MaoJX, et al.
+Early experience with laparoscopic excision of choledochal cyst in 41 children[J].
+J Pediatr Surg,
+2012,
+47(
+12):
+2175.
+DOI: 10.1016/j.jpedsurg.2012.09.004.
+[50]
+DiaoM, LiL, DongN, et al.
+Single-incision laparoscopic Roux-en-Y hepaticojejunostomy using conventional instruments for children with choledochal cysts[J].
+Surg Endosc,
+2012,
+26(
+6):
+1784-
+1790.
+DOI: 10.1007/s00464-011-2110-6.
+[51]
+DiaoM, LiL, ChengW.
+Single-incision laparoscopic hepaticojejunostomy using conventional instruments for neonates with extrahepatic biliary cystic lesions[J].
+Surg Innov,
+2012,
+20(
+3):
+214-
+218.
+DOI: 10.1177/1553350612446355.
+[52]
+DiaoM, LiL, LiQ, et al.
+Single-incision versus conventional laparoscopic cyst excision and Roux-Y hepaticojejunostomy for children with choledochal cysts: a case-control study[J].
+World J Surg,
+2013,
+37(
+7):
+1707-
+1713.
+DOI: 10.1007/s00268-013-2012-y.
+[53]
+DiaoM, LiL, LiQ, et al.
+Challenges and strategies for single-incision laparoscopic Roux-en-Y hepaticojejunostomy in managing giant choledochal cysts[J].
+Int J Surg,
+2014,
+12(
+5):
+412-
+417.
+DOI: 10.1016/j.ijsu.2014.03.007.
+[54]
+SonTN, LiemNT, HoanVX.
+Transumbilicallaparoendoscopic single-site surgery with conventional instruments for choledochal cyst in children: early results of 86 cases[J].
+J Laparoendosc Adv Surg Tech A,
+2014,
+24(
+12):
+907-
+910.
+DOI: 10.1089/lap.2014.0268.
+[55]
+TangY, LiF, HeG.
+Comparison of single-incision and conventional laparoscopic cyst excision and Roux-en-Y hepaticojejunostomy for children with choledochal cysts[J].
+Indian J Surg,
+2016,
+78(
+4):
+259-
+264.
+DOI: 10.1007/s12262-015-1348-y.
+[56]
+刁美，孙旭，叶茂，等.
+经脐单切口腹腔镜肝管空肠Roux-en-Y吻合术治疗儿童胆总管囊肿的探讨[J].
+中华小儿外科杂志，
+2012，
+33(
+7):
+488-
+492.
+DOI：10.3760/cma.j.issn.0253-3006.2012.07.003.
+DiaoM, YeM, SunX, et al. Single-incision, umbilical Laparoscopic roux-en-Y hepaticojejunostomy for the children with choledochal cysts[J]. Chin J Pediatr Surg, 2012, 33(7): 488-492. DOI: 10.3760/cma.j.issn.0253-3006.2012.07.003.
+[57]
+刁美，叶茂，李龙，等.
+单切口腹腔镜治疗新生儿肝外胆道囊性病变的探讨[J].
+中华小儿外科杂志，
+2013，
+34(
+6):
+407-
+410.
+DOI：10.3760/cma.j.issn.0253-3006.2013.06.003.
+DiaoM, YeM, LiL, et al. Single-Incisional laparoscopic hepaticojejunostomy using conventional instruments for neonates with extrahepatic biliary cystic malformations[J]. Chin J Pediatr Surg, 2013, 34(6): 407-410. DOI: 10.3760/cma.j.issn.0253-3006.2013.06.003.
+[58]
+刁美，叶茂，李龙，等.
+经脐单一切口和传统腹腔镜治疗小儿胆总管囊肿的对比研究[J].
+中华小儿外科杂志，
+2014，
+35(
+12):
+929-
+932.
+DOI：10.3760/cma.j.issn.0253-3006.2014.12.11.
+DiaoM, YeM, LiL, et al. Single-incision versus conventional laparoscopic cyst excision and Roux-en-Y hepaticojejunostomy for children with choledochal cysts: a case-control study[J]. Chin J Pediatr Surg, 2014, 35(12): 929-932. DOI: 10.3760/cma.j.issn.0253-3006.2014.12.11.
+[59]
+唐应明，何国庆，罗淼，等.
+经脐单切口腹腔镜治疗小儿先天性胆总管囊肿的体会[J].
+中华小儿外科杂志，
+2015，
+36(
+4):
+301-
+303.
+DOI：10.3760/cma.j.issn.0253-3006.2015.04.015.
+TangYM, HeGQ, LuoM, et al. The umbilical single incisaionlaparoscopic experience for the treatment of children with congenital bile duct cysts[J]. Chin J Pediatr Surg, 2015, 36(4): 301-303.DOI: 10.3760/cma.j.issn.0253-3006.2015.04.015.
+[60]
+GanderJW, CowlesRA, GrossER, et al.
+Laparoscopic excision of choledochal cysts with total intracorporeal reconstruction[J].
+J Laparoendosc Adv Surg Tech A,
+2010,
+20(
+10):
+877-
+881.
+DOI: 10.1089/lap.2010.0123.
+[61]
+AhnSM, JunJY, LeeWJ, et al.
+Laparoscopic total intracorporeal correction of choledochal cyst in pediatric population[J].
+J Laparoendosc Adv Surg Tech A,
+2009,
+19(
+5):
+683-
+686.
+DOI: 10.1089/lap.2008.0116.
+[62]
+KangCM, ChiHS, KimJY, et al.
+A case of robot-assisted excision of choledochal cyst, hepaticojejunostomy, and extracorporeal Roux-en-y anastomosis using the da Vinci surgical system[J].
+Surg Laparosc Endosc Percutan Tech,
+2008,
+17(
+6):
+538-
+541.
+[63]
+NaitohT, MorikawaT, TanakaN, et al.
+Early experience of robotic surgery for type I congenital dilatation of the bile duct[J].
+J Robot Surg,
+2015,
+9(
+2):
+143-
+148.
+DOI: 10.1007/s11701-015-0504-5.
+[64]
+ChangEY, HongYJ, ChangHK, et al.
+Lessons and tips from the experience of pediatric robotic choledochal cyst resection[J].
+J Laparoendosc Adv Surg Tech A,
+2012,
+22(
+6):
+609-
+614.
+DOI: 10.1089/lap.2011.0503.
+[65]
+KimNY, ChangEY, HongYJ, et al.
+Retrospective assessment of the validity of robotic surgery in comparison to open surgery for pediatric choledochal cyst[J].
+Yonsei Med J,
+2015,
+56(
+3):
+737-
+743.
+DOI: 10.3349/ymj.2015.56.3.737.
+[66]
+AkaraviputhT, TrakarnsangaA, SuksamanapunN.
+Robot-assisted complete excision of choledochal cyst type I, hepaticojejunostomy and extracorporeal Roux-en-y anastomosis: a case report and review literature[J].
+World J Surg Oncol,
+2010,
+8:
+87.
+DOI: 10.1186/1477-7819-8-87.
+[67]
+WooR, LeD, AlbaneseCT, et al.
+Robot-assisted laparoscopic resection of a type I choledochal cyst in a child[J].
+J Laparoendosc Adv Surg Tech A,
+2006,
+16(
+2):
+179-
+183.
+[68]
+AlizaiNK, DawrantMJ, NajmaldinAS.
+Robot-assisted resection of choledochal cysts and hepaticojejunostomy in children[J].
+Pediatr Surg Int,
+2014,
+45(
+3):
+2364-
+2368.
+DOI: 10.1007/s00383-013-3459-5.
+[69]
+MeehanJJ, ElliottS, SandlerA.
+The robotic approach to complex hepatobiliary anomalies in children: preliminary report[J].
+J Pediatr Surg,
+2007,
+42(
+12):
+2110-
+2114.
+[70]
+张茜，曹国庆，汤绍涛，等.
+daVinic机器人腹腔镜治疗小儿先天性胆总管囊肿[J].
+临床小儿外科杂志，
+2016，
+15(
+2):
+137-
+139.
+DOI：10.3969/j.issn.1671-6353.2016.02.011.
+ZhangQ, CaoGY, TanngST, et al. da Vinci Robotic System for choledochal cysts in children[J]. J Clin Pediatr Surg, 2016, 15(2): 137-139. DOI: 10.3969/j.issn.1671-6353.2016.02.011.
+[71]
+TodaniT, WatanabeY, TokiA, et al.
+Hilar duct carcinoma developed after cyst excision followed by hepaticoduodenostomy[J].
+Pancreaticobiliary Maljunction, Tokyo,
+2002:
+17-
+21.
+[72]
+LiemNT, PhamHD, DungLA, et al.
+Early and intermediate outcomes of laparoscopic surgery for choledochal cysts with 400 patients[J].
+J Laparoendosc Adv Surg Tech A,
+2012,
+22(
+6):
+599-
+603.
+DOI: 10.1089/lap.2012.0018.
+[73]
+SantoreMT, DeansKJ, BeharBJ, et al.
+Laparoscopic hepaticoduodenostomy versus open hepaticoduodenostomy for reconstruction after resection of choledochal cyst[J].
+J Laparoendosc Adv Surg Tech A,
+2011,
+21(
+4):
+375-
+378.
+DOI: 10.1089/lap.2010.0478.
+[74]
+OkadaA, HigakiJ, NakamuraT, et al.
+Roux-en-Y versus interposition biliary reconstruction[J].
+Surg Gynecol Obstet,
+1992,
+174(
+4):
+313-
+316.
+[75]
+ShimotakaharaA, YamatakaA.
+Roux-en-Y hepaticojejunostomy or hepaticoduodenostomy for biliary reconstruction during the surgical treatment of choledochal cyst: which is better？[J].
+Pediatr Surg Int,
+2005,
+21(
+1):
+5-
+7.
+[76]
+TakadaK, HamadaY, WatanabeK, et al.
+Duodenogastric reflux following biliary reconstruction after excision of choledochal cyst[J].
+Pediatr Surg Int,
+2005,
+21(
+1):
+1-
+4.
+[77]
+YeungF, ChungPH, WongKK, et al.
+Biliary-enteric reconstruction with hepaticoduodenostomy following laparoscopic excision of choledochal cyst is associated with better postoperative outcomes: a single-centre experience[J].
+Pediatr Surg Int,
+2015,
+31(
+2):
+149-
+153.
+DOI: 10.1007/s00383-014-3648-x.
+[78]
+NarayananSK, ChenY, NarasimhanKL, et al.
+Hepaticoduodenostomy versus hepaticojejunostomy after resection of choledochal cyst: a systematic review and meta-analysis[J].
+J Pediatr Surg,
+2013,
+48(
+11):
+2336-
+2342.
+DOI: 10.1016/j.jpedsurg.2013.07.020.
+[79]
+JonathanK.
+Gastric remnant carcinoma[J].
+Cancer,
+1979,
+44(
+3):
+1129-
+1133.
+[80]
+ZuerleinN, DenzlerT, SchenkenJR.
+Cancer arising in the gastric stump. Occurrence following resection for benign peptic ulcer disease[J].
+Arch Pathol Lab Med,
+1985,
+109(
+10):
+958-
+960.
+[81]
+TanigawaH, UesugiH, MitomiH, et al.
+Possible association of active gastritis, featuring accelerated cell turnover and p53 overexpression, with cancer development at anastomoses after gastrojejunostomy. Comparison with gastroduodenostomy[J].
+Am J Clin Pathol,
+2000,
+114(
+3):
+354-
+363.
+[82]
+尹强，周小渔，肖雅玲，等.
+小儿胆道急症腹腔镜下经皮胆囊造瘘13例临床分析[J].
+临床小儿外科杂志，
+2012，
+11(
+3):
+193-
+195.
+DOI：10.3969/j.issn.1671-6353.2012.03.009.
+YinQ, ZhouXY, XiaoYL, et al. Clinical analysis on 13 cases of laparoscopic percutaneous cholecystostomy for biliary tract emergency in children[J]. J Clin Pediatr Surg, 2012, 11(3): 193-195.DOI: 10.3969/j.issn.1671-6353.2012.03.009.
+[83]
+DiaoM, LiL, ChengW.
+Laparoscopic redo hepaticojejunostomy for children with choledochal cysts[J].
+Surg Endosc,
+2016,
+30(
+12):
+5513-
+5519.
+[84]
+UrushiharaN, FukumotoK, NousoH, et al.
+Hepatic ductoplasty and hepaticojejunostomy to treat narrow common hepatic duct during laparoscopic surgery for choledochal cyst[J].
+Pediatr Surg Int,
+2015,
+31(
+10):
+983-
+986.
+DOI: 10.1007/s00383-015-3779-8.
+[85]
+李索林，张道荣，李英超，等.
+胆总管囊肿切除术中胰管损伤的防治[J].
+中华小儿外科杂志，
+2000，
+21(
+4):
+211-
+213.
+DOI：10.3760/cma.j.issn.0253-3006.2000.04.007.
+LiSL, ZhangDR, LiYC, et al. Prevention and treatment for pancreatic duct injury during the excision of choledochal cyst[J]. Chin J Pediatr Surg, 2000, 21(4): 211-213. DOI: 10.3760/cma.j.issn.0253-3006.2000.04.007.
+[86]
+DiaoM, LiL, ChengW.
+Congenital biliary dilatation may consist of 2 disease entities.[J].
+J Pediatr Surg,
+2011,
+46(
+8):
+1503-
+1509.
+[87]
+DiaoM, LiL, ChengW.
+Is it necessary to ligate distal common bile duct stumps after excising choledochal cysts？[J].
+Pediatr Surg Int,
+2011,
+27(
+8):
+829-
+832.
+DOI: 10.1007/s00383-011-2877-5.
+[88]
+DiaoM, LiL, ZhangJS, et al.
+Laparoscopic-assisted clearance of protein plugs in the common channel in children with choledochalcysts[J].
+J Pediatr Surg,
+2010,
+45(
+10):
+2099-
+102.
+DOI: 10.1016/j.jpedsurg.2010.06.011.
+[89]
+MiyanoG, KogaH, ShimotakaharaA, et al.
+Intralaparoscopic endoscopy: its value during laparoscopic repair of choledochal cyst[J].
+Pediatr Surg Int,
+2011,
+27(
+5):
+463-
+466.
+DOI: 10.1007/s00383-010-2846-4.
+[90]
+LiL, LiuSL, HouWY, et al.
+Laparoscopic correction of biliary duct stenosis in choledochal cyst[J].
+J Pediatr Surg,
+2008,
+43(
+4):
+644-
+646.
+DOI: 10.1016/j.jpedsurg.2007.10.064.
+[91]
+DiaoM, LiL, ChengW.
+Congenital biliary dilatation may consist of 2 disease entities.[J].
+J Pediatr Surg,
+2011,
+46(
+8):
+1503-
+1509.
+[92]
+DiaoM, LiL, ChengW.
+Laparoscopic versus Open Roux-en-Y hepatojejunostomy for children with choledochal cysts: intermediate-term follow-up results[J].
+Surg Endosc,
+2011,
+25(
+5):
+1567-
+1573.
+DOI: 10.1007/s00464-010-1435-x.
+[93]
+WangJ, ZhangW, SunD, et al.
+Laparoscopic treatment for choledochal cysts with stenosis of the common hepatic duct - journal of the american college of surgeons[J].
+J Am Coll Surg,
+2012,
+214(
+6):
+e47-
+e52.
+DOI: 10.1016/j.jamcollsurg.2012.03.001.
+[94]
+李龙，付京波，余奇志，等.
+经腹腔镜行先天性胆总管囊肿肝门部狭窄肝管扩大成形术[J].
+中华小儿外科杂志，
+2004，
+25(
+2):
+151-
+153.
+DOI：10.3760/cma.j.issn.0253-3006.2004.02.020.
+LiL, FuJB, YuQZ, et al. Laparoscopic-assisted hepatobiliaryductoplasty for choledochal cyst with biliary duct stenosis at hepatic triad[J]. Chin J Pediatr Surg, 2004, 25(2): 151-153. DOI: 10.3760/cma.j.issn.0253-3006.2004.02.020.
+[95]
+李爱武，宋亚宁，席栋，等.
+胆总管囊肿伴肝总管狭窄患儿的腹腔镜手术治疗[J].
+中华腔镜外科杂志电子版，
+2010，
+3(
+3):
+25-
+27.
+DOI：10.3969/cma.j.issn.1674-6899.2010.03.009.
+LiAW, SongYN, XiD, et al. Laparoscopic surgery for congenital choledochal cyst with stenosis of common hepatic duct in children patients[J]. Chin J Laparoscopic Surg (Electronic Edition), 2010, 3(3): 25-27. DOI: 10.3969/cma.j.issn.1674-6899.2010.03.009.
+[96]
+DiaoM, LiL, ChengW.
+Laparoscopic redo hepaticojejunostomy for children with choledochal cysts[J].
+Surg Endosc,
+2016,
+30(
+12):
+5513-
+5519.
+[97]
+TodaniDT, WatanabeY, TokiA, et al.
+Co-existing biliary anomalies and anatomical variants in choledochal cyst[J].
+Br J Surg,
+1998,
+85(
+6):
+760-
+763.
+[98]
+LalR, BehariA, HariRH, et al.
+Variations in biliary ductal and hepatic vascular anatomy and their relevance to the surgical management of choledochal cysts[J].
+Pediatr Surg Int,
+2013,
+29(
+8):
+777-
+786.
+DOI: 10.1007/s00383-013-3333-5.
+[99]
+DiaoM, LiL, ZhangJZ, et al.
+A shorter loop in Roux-Y hepatojejunostomy reconstruction for choledochal cysts is equally effective: preliminary results of a prospective randomized study[J].
+J Pediatr Surg,
+2010,
+45(
+4):
+845-
+847.
+DOI: 10.1016/j.jpedsurg.2009.12.022.
+[100]
+YamatakaA, KobayashiH, ShimotakaharaA, et al.
+Recommendations for preventing complications related to Roux-en-Y hepatico-jejunostomy performed during excision of choledochal cyst in children[J].
+J Pediatr Surg,
+2003,
+38(
+12):
+1830-
+1832.
+[101]
+DiaoM, LiL, ChengW.
+To drain or not to drain in Roux-en-Y hepatojejunostomy for children with choledochal cysts in the laparoscopic era: a prospective randomized study[J].
+J Pediatr Surg,
+2012,
+47(
+8):
+1485-
+1489.
+[102]
+李龙，余奇志.
+经腹腔镜行先天性胆总管囊肿根治切除术的技术要点[J].
+中华普通外科杂志，
+2002，
+17(
+8):
+473-
+475.
+DOI：10.3760/j.issn:1007-631X.2002.08.010.
+LiL, YuQZ. Laparoscopic total cyst excision with Roux-Y hepatoenterostomy for choledochal cyst[J]. Chin J General Surg, 2002, 17(8): 473-475. DOI: 10.3760/j.issn:1007-631X.2002.08.010.
+[103]
+刘雪来，李龙，张军，等.
+经腹腔镜行先天性胆总管囊肿根治术并发症的探讨[J].
+中国微创外科杂志，
+2007，
+7(
+5):
+436-
+438.
+DOI：10.3969/j.issn.1009-6604.2007.05.019.
+LiuXL, LiL, ZhangJet al. On complications after laparoscopic total cyst excision with Roux-en-Y hepatoenterostomy for congenital choledochal cyst[J]. Chin J Minimally Invasive Surg, 2007, 7(5): 436-438. DOI: 10.3969/j.issn.1009-6604.2007.05.019.
+[104]
+李龙，余奇志，刘刚，等.
+经腹腔镜行先天性胆总管囊肿切除肝管空肠Roux-Y吻合术的探讨[J].
+临床小儿外科杂志，
+2002，
+1(
+1):
+54-
+56.
+DOI：10.3969/j.issn.1671-6353.2002.01.024.
+LiL, YuQZ, LiuQ, et al. Laparoscopic Total Cyst Excision with Roux-Y Hepatoenterostomy for Choledochal Cyst[J]. J Clin Pediatr Surg, 2002, 1(1): 54-56. DOI: 10.3969/j.issn.1671-6353.2002.01.024.
+[105]
+潘伟华，吴晔明，严志龙，等.
+减少儿童腹腔镜下胆总管囊肿切除术并发症的对策[J]．
+临床儿科杂志，
+2011,
+29(
+10):
+980-
+982.
+DOI：10.3969/j.issn.1000-3606.2011.10.022.
+PanWH, WuYM, YanZL, et al.The strategies to deal with the complication after laparoscopic resection of choledochal cyst in children[J]. J Clin Pediatrics, 2011, 29(10): 980-982.DOI: 10.3969/j.issn.1000-3606.2011.10.022.
+[106]
+穆维靖，张强业，王健，等.
+腹腔镜技术治疗胆总管囊肿经验总结及技巧探讨[J].
+临床小儿外科杂志，
+2015，
+14(
+6):
+525-
+527.
+DOI：10.3969/j.issn.1671-6353.2015.06.019.
+MuWQ, ZhangQY, WangJ, et al. 134 cases with congenital choledochal cyst treated with laparoscope[J]. J Clin Pediatr Surg, 2015, 14(6): 525-527. DOI: 10.3969/j.issn.1671-6353.2015.06.019.
+[107]
+高志刚，钭金法，熊启星，等.
+腹腔镜胆总管囊肿切除肝总管空肠Roux-en-Y吻合术围手术期并发症分析[J].
+中华小儿外科杂志，
+2014，
+35(
+6):
+424-
+428.
+DOI：10.3760/cma.j.issn.0253-3006.2014.06.006.
+GaoZG, DouJF, XiongQX, et al. Perioperative complications for laparoscopic cyst excision with choledochal cyst[J]. Chin J Pediatr Surg, 2014, 35(6): 424-428. DOI: 10.3760/cma.j.issn.0253-3006.2014.06.006.
+[108]
+李龙，付京波，余奇志，等.
+腹腔镜行巨大先天性胆总管囊肿切除术的探讨[J].
+临床小儿外科杂志，
+2003，
+2(
+4):
+250-
+252.
+DOI：10.3969/j.issn.1671-6353.2003.04.003.
+LiL, FuJB, YuZQ, et al. Laparoscopic resection of huge congenital choledochal cyst[J]. J Clin Pediatr Surg, 2003, 2(4): 250-252. DOI: 10.3969/j.issn.1671-6353.2003.04.003.
+[109]
+刁美，李龙，叶茂，等.
+腹腔镜在先天性胆总管囊肿治疗中的作用[J].
+中华小儿外科杂志，
+2014，
+35(
+8):
+615-
+619.
+DOI：10.3760/cma.j.issn.0253-3006.2014.08.014.
+DiaoM, LiL, YeM, et al.The role of laparoscopy in the treatment of congenital choledochal cyst[J]. Chin J Pediatr Surg, 2014, 35(8): 615-619. DOI: 10.3760/cma.j.issn.0253-3006.2014.08.014.
+[110]
+李胜利，张阔，王海滨，等.
+幼兔胆囊空肠吻合模型空肠端-侧吻合缝合方式研究[J].
+中华实验外科杂志，
+2013,
+30(
+4):
+861-
+862.
+DOI：10.3760/cma.j.issn.1001-9030.2013.04.074.
+LiSL, ZhangK, WangHB, et al.Study on the suture of the end to side anastomosis of the jejunum and gallbladder in young rabbits[J]. Chin J Experimental Surg, 2013, 30(4): 861-862. DOI: 10.3760/cma.j.issn.1001-9030.2013.04.074.
+[111]
+周晋航，吴黎明，王江华，等.
+不同缝合方式对胆肠吻合术后并发症的影响[J].
+临床肝胆病杂志，
+2015,
+31(
+10):
+1656-
+1659.
+DOI：10.3969/j.issn.1001-5256.2015.10.024.
+ZhouJH, WuLM, WangJH, et al.Effects of three suture techniques on complications after choledochojejunostomy[J]. J Clin Hepatol, 2015, 31(10): 1656-1659. DOI: 10.3969/j.issn.1001-5256.2015.10.024.
+贡献者信息
+中华医学会小儿外科分会腔镜外科学组
+基金项目
+卫计委行业专项"小儿腔镜诊断治疗先天畸形技术规范、标准及新技术评价研究" （201402007）
+历史
+出版日期：2017-07-15
+收稿日期：2017-02-11
+Clinical Guideline
+Guideline for laparoscopic hepatojejunostomy for choledochal cyst in children(2017)
+Section of Laparoscopic&Endoscopic Surgery; Branch of Pediatric Surgery; Chinese Medical Association
+Published
+2017-07-15
+Cite as
+Chin J Pediatr Surg, 2017,38(7): 485-494. DOI: 10.3760/cma.j.issn.0253-3006.2017.07.002
+Contributor Information
+Section of Laparoscopic&Endoscopic Surgery; Branch of Pediatric Surgery; Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华小儿外科杂志2017年38卷7期
+文    题：腹腔镜胆总管囊肿手术操作指南(2017版)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华小儿外科杂志2017年38卷7期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+微信
+腾讯微博
+一键通
+新浪微博
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+豆瓣网
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+QQ好友
+更多平台...
+(133)
+bShare

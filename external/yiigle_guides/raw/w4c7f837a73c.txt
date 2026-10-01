@@ -1,0 +1,1254 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%84%BF%E7%AB%A5%E6%B0%94%E7%AE%A1%E6%94%AF%E6%B0%94%E7%AE%A1%E5%BC%82%E7%89%A9%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 中国儿童气管支气管异物诊断与治疗专家共识 - 中华耳鼻咽喉头颈外科杂志
+# 发布方/日期: 耳鼻咽喉科，中华耳鼻咽喉头颈外科杂志, 2018,53(5) : 325-338. DOI: 10.3760/cma.j；2018-05-07
+
+中国儿童气管支气管异物诊断与治疗专家共识
+中华医学会耳鼻咽喉头颈外科学分会小儿学组
+中华耳鼻咽喉头颈外科杂志, 2018,53(5) : 325-338. DOI: 10.3760/cma.j.issn.1673-0860.2018.05.002
+气管支气管异物是儿童常见的急重症之一。该病起病急、病情重，甚至可危及生命。尽早诊断和取出异物是减少并发症和降低病死率的关键。虽然近年由于防范意识逐渐增强，气管支气管异物发病率有所下降，但由于该病临床表现的多样性，在诊断和鉴别诊断上仍有一定的难度，因此漏诊、误诊时有发生，并可导致严重后果。针对该病提出系统规范的指导性建议十分必要。制订本专家共识的目的是规范气管支气管异物的诊断和治疗流程，指导快速确诊、准确鉴别、及时取出异物以及有效处理围手术期并发症从而保障患儿的生命安全。同时对儿童气管支气管异物需要进行宣传和科普教育，提高全民的预防意识，降低气管支气管异物给儿童造成的意外伤害。
+流行病学
+一、发病率及好发年龄
+在我国，气管支气管异物占0～14岁儿童意外伤害的7.9%～18.1%，约80%的患儿好发年龄在1～3岁[1,2]。异物的发生具有明显性别、城乡和季节分布特征，男性多于女性，农村远高于城市，冬春季节多于夏秋季节[3]。
+二、异物的种类
+按异物的来源，绝大多数为外源性异物，占99%[3]，内源性异物仅占1%。按异物的性质，植物性异物最常见，约占92%，以可食性异物为主，其中花生米、瓜子和豆类等坚果类约占80%；动物性异物约占3%，以骨头最常见，其次为肉类；其他异物约占5%[3]，如弹簧和金属丝、塑料笔帽、纸片和口哨等异物亦可出现。
+三、异物的位置
+异物的大小决定了异物的位置，综合文献报道，气管异物约占呼吸道异物的10.6%～18%[3,4,5]，右侧支气管异物约占45%，左侧支气管异物约占36%，双侧支气管异物约占1%[3,5]。
+病因病理
+一、病因
+气管支气管异物的病因与儿童生理心理发育、家庭看护、医源性等多种因素有关[4,6,7,8,9,10]。如3岁以下儿童磨牙未萌出，咀嚼功能不完善，吞咽协调功能和喉的保护功能不健全，喜欢口含玩物，以上均可导致本病的发生。看护不当时，可以造成昏迷患儿误吸内源性异物，如塑形支气管炎、肉芽等也是本病的成因。
+二、病理生理
+病理反应取决于异物在气道所处的位置，阻塞程度、异物种类、异物存留时间等因素[7,11]。声门或气管异物可立即出现气道痉挛、呼吸困难、窒息等；在术前、术中和术后的围手术期，均可因胸膜腔极度负压引起负压性肺水肿。支气管异物可分为气体能进能出的部分阻塞型，该型症状不明显；气体只进不出的活瓣阻塞型，该型可出现肺气肿；气体只出不进的活瓣阻塞型，该型可早期出现肺不张；气体不能进出的完全阻塞型，该型可出现阻塞性肺不张。异物移位可突然出现呼吸困难加重。异物的类型不同所致的病理反应不同，植物性异物刺激性强，早期全身症状重，局部炎性反应渗出明显；尖锐异物可导致出血、气肿或气胸；化学腐蚀性异物容易导致气管食管瘘及全身中毒症状等。异物存留时间长可引起肉芽增生、肺炎、肺不张、呼吸窘迫、心力衰竭等。据报道气管异物延误诊断超过24 h的病例约占全部病例数的40%，其中15%可引起严重并发症[10]。
+临床表现
+一、气管异物
+异物进入期，症状剧烈，突然发生剧烈呛咳、憋气、作呕、呼吸困难甚至窒息；特征性症状有撞击声、拍击感，哮鸣音。常有持续性或阵发性咳嗽。
+查体：活动性异物于颈部气管可听到异物拍击音和喘鸣音；肺部听诊双侧呼吸音对称、减弱，可闻及干湿啰音及哮鸣音；颈部触诊，可有异物碰撞振动感(拍击感)。
+二、支气管异物
+症状变化较大，有的异物在支气管内数年可无症状，但若堵塞双侧支气管，可短时间内出现窒息死亡。
+查体：患侧胸部视诊可有呼吸动度减低，单侧肺不张者可有胸廓塌陷；触诊语颤减低；有阻塞性肺气肿者，叩诊呈鼓音；有肺不张者，叩诊呈浊音；听诊一侧肺部呼吸音减弱，可闻及啰音或哮鸣音。
+三、病程分期
+(一)异物进入期
+患儿有呛咳、喉喘鸣、憋气、作呕和痉挛性呼吸困难等症状。
+(二)无症状期
+时间长短不一，与异物性质、感染程度有关，此时由于症状不典型易漏诊、误诊。
+(三)症状再发期
+异物刺激和感染引起炎性反应，分泌物增多，咳嗽加重，出现呼吸道炎性反应或高热症状。
+(四)并发症期
+表现为肺炎、肺不张、哮喘、支气管扩张、肺脓肿等。
+辅助检查
+一、胸部透视
+胸部透视可动态观察肺部情况。X线透视下可观察到纵隔摆动和心影反常大小，如右支气管异物可以出现吸气时纵隔右摆表现，这是支气管异物的间接证据。
+二、胸部X线片
+胸部X线片可将异物分为不透X线和透X线两大类。直接征象：是不透X线的异物本身显影，多见于金属、鱼刺、骨块等异物。间接征象：透X线的异物可通过间接征象来确定，如阻塞性肺气肿、肺不张、肺部片状影等。X线片对气管支气管异物的检出率为73.9%[12,13]，是气管支气管异物诊断的间接证据。
+三、CT扫描
+CT检查见气管内异物影、高密度影、肺气肿、肺不张等认为是阳性结果[14,15]。三维重建能显示支气管树的连贯性，异物所在位置表现为连续性中断。CT仿真模拟成像可显示异物轮廓、大小、部位[16]，也可以显示与支气管黏膜、支气管周围组织的关系。多层螺旋CT(multi-slice CT，MSCT)对气管支气管异物诊断的准确率高达99.8%[17,18]。
+四、可弯曲支气管镜检查
+可弯曲支气管镜检查为诊断气管支气管异物的金标准之一[19,20,21,22,23]，可直接明确诊断并了解异物大小、形态、性状及所处位置。
+(一)气管支气管黏膜表现
+可弯曲支气管镜检查可见异物所致局部黏膜有不同程度的充血肿胀、糜烂、肉芽增生等表现，肉芽增生是异物最常见的间接征象[21,22,23]，其深部常可发现异物。局部黏膜假腱索或假性支气管嵴样改变也是异物长期存在的特征表现之一。
+(二)气管支气管管腔或结构改变
+异物阻塞时间长者，镜下可见支气管扩张征象，严重者可见管腔结构破坏，远端亚支或段支气管管腔狭窄闭塞。
+诊断及鉴别诊断
+主要根据异物吸入病史或可疑病史及典型症状，辅以必要的体格检查和影像学检查确诊；对疑难病例，可行诊断性内镜(硬质或可弯曲内镜)检查确诊。
+一、诊断
+(一)病史
+1．异物吸入史：
+是诊断呼吸道异物最重要的依据[24,25]。具有采集便利、诊断灵敏度高的特点[13]，是快速诊断的关键。
+2．咳嗽病史：
+当出现突发咳嗽或慢性咳嗽，经治疗无效或治疗有效但病情反复时[26]，以及同一部位的反复肺炎或肺脓肿也需注意异物吸入的可能。
+(二)体格检查
+1．气管异物：
+肺部听诊双侧呼吸音粗而对称，可闻及喘鸣音；气管内活动异物时，颈部触诊有拍击感；气管前听诊可闻及拍击音。
+2．单侧支气管异物：
+肺部听诊常有一侧呼吸音减弱，或可闻及单侧哮鸣音。
+3．双侧支气管异物：
+常有双侧呼吸音减低，阻塞程度不一致时，呼吸音也可不对称[27]。
+4．并发症期：
+并发症期有对应体征，如并发肺炎，听诊可闻及干湿啰音；并发肺气肿，叩诊呈鼓音；并发肺不张，叩诊呈浊音，呼吸音可消失。
+(三)辅助检查
+详见上文辅助检查部分
+二、鉴别诊断
+(一)呼吸道感染性疾病
+常见呼吸道感染性疾病如急性喉炎[28]、肺炎等有咳嗽、气促、声嘶、喉鸣甚至呼吸困难等表现，需与气管支气管异物鉴别，但此类疾病多有呼吸道感染病史，无明显异物吸入史，积极抗炎治疗多可获得满意疗效。胸部影像学检查(如CT)[29]、支气管镜检查有助于鉴别。
+(二)喘息性疾病
+罹患哮喘等喘息性疾病的患儿，以反复发作的喘息、咳嗽为主要临床表现[30]，肺部查体可闻及哮鸣音，呼吸音减低，影像学表现可有纵隔心影反常大小、肺气肿，常易与气管异物混淆。需注意喘息诱因，若经平喘治疗有效，可以进行鉴别。
+(三)呼吸道占位性病变
+如喉乳头状瘤[31]、气管及支气管肿瘤[32]。呼吸道占位性病变可引起声音嘶哑、喉鸣、气促、吸气性呼吸困难等临床表现，进行鉴别时需注意有无明确异物吸入病史，是否症状逐渐加重。通过纤维支气管镜和胸部CT等影像学检查可鉴别。
+(四)喉部、气管及支气管结构性畸形
+喉蹼[33]、气管及支气管狭窄等先天性畸形[34]、喉、气管支气管继发瘢痕狭窄[35]，可导致患儿出现声音嘶哑、喉鸣、气促、呼吸困难等，需与气管支气管异物进行鉴别，相应的病史是鉴别要点之一。喉镜、支气管镜及影像学检查可助鉴别。
+手术前评估
+气管支气管异物治疗前应进行恰当准确的术前评估，制订治疗方案，选择手术时机，减少并发症。主要进行生命体征、呼吸状态、并发症和麻醉前评估。
+一、生命体征评估
+包括患儿神智、呼吸、血压、脉搏、血氧饱和度的评估等。除常规体格检查外，可辅助心电监测。
+二、呼吸状态评估
+评估患儿就诊时呼吸状态，是否有呼吸困难，呼吸困难的程度，确定患儿的危急程度。
+三、并发症的评估
+评估患儿是否合并心血管、神经系统等基础疾病；评估患儿是否有肺炎、肺不张、气胸、纵隔和/或皮下气肿等术前并发症及其严重程度；结合症状变化、实验室检查、影像学检查判断是否存在呼吸功能衰竭、心脏功能衰竭等。
+四、麻醉评估
+术前需要评估患儿的麻醉耐受情况，是否为困难气道以及已有的并发症对麻醉的影响。
+五、手术时机选择及危重程度评估[28]
+(一)危症病例
+气管或双侧支气管异物，手术前已有Ⅲ度或Ⅳ度呼吸困难的为危症病例，应进行紧急处理。
+(二)重症病例
+手术前已出现高热、皮下气肿、胸膜炎、气胸、纵隔气肿、肺炎、肺不张、胸腔积液、心功能不全等并发症但未出现明显呼吸困难的为重症病例。针对并发症先予以控制性治疗，病情平稳后实施手术，在此过程中应密切观察患儿病情变化并随时做好手术准备，一旦加重，应紧急手术。
+(三)一般病例
+尚未出现明显并发症的为一般病例。准备手术时需注意异物变位的发生，应完善术前检查后及时实施手术。
+治疗
+一、紧急处理[24,36]
+(一)Ⅲ度和Ⅳ度呼吸困难的患儿
+应立即给予镇静、吸氧、心电监护(必要时气管插管辅助机械通气)，开放静脉通路，建立绿色通道，急诊手术。
+(二)支气管异物活动变位引起呼吸困难的患儿
+应立即将患儿头位向上竖抱扣背，促使异物落于一侧支气管，立即准备急诊手术。
+(三)出现皮下气肿、纵隔气肿或气胸等并发症的患儿
+麻醉术前评估存在影响麻醉安全风险的，需先治疗肺气肿或气胸，实施胸腔闭式引流或皮下穿刺排气，待积气消失或明显缓解后，再行异物取出术；如果气肿继续加重且患儿出现呼吸衰竭，应在矫正呼吸、循环衰竭的同时，立即实施手术取出异物。
+(四)伴发高热、脱水、酸中毒或处于衰竭状态的患儿
+评估异物尚未引起明显阻塞性呼吸困难者，应先改善全身情况，待病情好转后再实施手术[25,37]。
+(五)意识丧失、呼吸心跳骤停患儿
+应立即就地实施心肺复苏，开放静脉通路，复苏成功后立即行异物取出术。
+二、麻醉方法及气道管理
+气管异物取出术的麻醉难点在于麻醉医生和手术操作医生共享气道，如何在维持足够麻醉深度的同时保持气道通畅，保证患儿氧合，一直是摆在麻醉科医生面前的棘手问题。
+影响麻醉管理安全性的主要因素有：(1)患儿年龄：小于3岁的婴幼儿氧耗大，对缺氧的耐受能力差。(2)异物类型：花生、瓜子等植物类异物，油脂大，更易刺激气道产生较多分泌物，增加麻醉管理的难度。当异物为笔帽、纽扣、玩具配件等时，多与气管壁间有一定缝隙，尚能保证部分通气。(3)病程及炎性反应程度：病程长，肺部炎性反应重，术中容易发生支气管痉挛、严重缺氧等麻醉风险。(4)异物所在部位：异物较大，位于气管或隆突附近，对气道通气影响大，麻醉风险明显增高。(5)手术医生操作：医生进行手术操作的时间与通气中断的时间直接相关[38,39]，通气中断时间越长，麻醉的风险越大。
+(一)麻醉方法的选择
+均选用全身麻醉(全麻)，可保留自主呼吸或给予肌松药[40]。明确异物在一侧支气管内，没有呼吸困难的患儿可给肌松药；当异物位置特殊，预估取出困难，有呼吸窘迫表现时，要尽量保留自主呼吸。
+硬质气管镜手术和纤维支气管镜手术麻醉方法不同。
+1．硬质气管镜手术：
+(1)全凭静脉麻醉方案：①术前需要开放静脉，面罩吸氧，麻醉诱导后可经直接喉镜给予喉部表面麻醉，以保证置镜顺利。②血氧饱和度(SPO2)维持稳定后，可开始手术。术中应经气管镜侧管连接呼吸回路供氧，采用容量控制通气模式。麻醉维持视异物取出难易程度而设定给药方式，间断或持续给药。③当异物取出后，对于呼吸不规则的患儿可面罩给氧或行气管插管，置入喉罩，辅助通气至清醒。(2)静脉加吸入复合麻醉方案：①先采用七氟烷吸入快速诱导麻醉，后辅以复合静脉麻醉，既减少吸入麻醉药浓度，又可保证术中平稳。②在SPO2维持稳定后，置入气管镜并于侧管连接呼吸回路供氧，采用容量控制通气模式。术中吸入浓度为3%～4%七氟烷维持麻醉，但由于呼吸回路并非完全密闭，七氟烷会有部分泄露而影响麻醉效果，因此术中患儿有体动、呛咳时可辅助静脉麻醉用药。③术毕的处理方法同全凭静脉麻醉方案。
+2．纤维支气管镜手术：
+麻醉方法可以采用全凭静脉麻醉方法。与硬质气管镜相比，纤维支气管镜具有材料及管径方面的优势，因此麻醉方法上可以采用喉罩辅助通气，术中结合通气三通接头，在保证通气的条件下同时满足镜下异物取出操作。从手术刺激的强度上对比，纤维支气管镜及硬质气管镜并无明显差别，因此纤维支气管镜异物取出术中也要维持足够的麻醉深度，以避免术中出现呛咳情况，影响手术操作及麻醉安全。
+(二)麻醉监测
+无论病情危重与否，患儿入室后需要立即监测SPO2、心电图及无创血压。并严密观察气道压力及胸廓起伏情况，由于术中呼吸回路并非完全密闭，呼气末二氧化碳(PETCO2)测量数值仅供参考。
+(三)围手术期并发症及麻醉处理
+1．支气管痉挛：
+发生支气管痉挛时，如加深麻醉痉挛不能缓解，则需撤镜行面罩加压通气，待SPO2回升(不一定达到100%)并维持稳定后由经验丰富的手术医生再次手术，并注意尽量缩短操作时间。
+2．二氧化碳(CO2)蓄积：
+非密闭呼吸回路可造成患儿术中通气不足，肺部炎症较重的患儿肺换气功能较差，以上两点都可引起术中CO2蓄积。术毕置入喉罩后，如发现PETCO2较高，应适当调节呼吸机参数予以纠正。
+3．声门水肿：
+麻醉诱导时需给予地塞米松减轻水肿程度，术毕可使用喉罩辅助通气以避免声门水肿进一步加重。
+4．气胸：
+异物本身、手术操作、正压通气压力过高都可能会造成气胸。一旦确诊气胸，应该避免正压通气，行胸腔穿刺减压术或胸腔闭式引流术。
+5．肺不张：
+异物取出后需要听诊排除肺不张，如果发现肺不张，可应用20～30 cmH2O(1 cmH2O＝0.098 kPa)的气体压力进行鼓肺，促使萎陷肺泡复张。
+(四)表面麻醉的选择
+完善的表面麻醉可有效减轻气道高反应。表面麻醉操作本身很容易引起屏气、喉痉挛等不良事件发生，因此必须在足够的麻醉深度下完成。具体方法：全麻诱导后，麻醉达到一定深度时用喉镜暴露声门，以2%利多卡因(3～4 mg/kg)在声门上和声门下喷雾行表面麻醉。
+三、手术方法
+(一)直接喉镜下异物取出
+1．适应证：
+适用于在喉咽、喉前庭、声门区的气道异物。
+2．局限性：
+有诱发迷走神经兴奋，导致心跳骤停风险[41,42]。可以通过表面麻醉减少局部刺激。
+3．操作方法：
+取仰卧位，使口腔、喉、气管成一直线。左手持镜，暴露声门，用异物钳直视下取出异物。如果嵌顿无法取出，应行气管切开，保证气道通畅，再分次或经直接喉镜和气管切开口，上下联合取出异物。取出异物后，常规行支气管镜检查，以防异物残留。
+(二)硬质支气管镜下异物取出
+1．适应证：
+硬质支气管镜可提供良好的气道保障，维持足够的视野，对于大型、嵌顿、特殊异物的暴露及钳取更具有优势。适用于气管、支气管及段支气管异物。
+2．局限性：
+段支气管及段支气管以下的异物，以及存在气管、支气管、段支气管狭窄的患儿，该方法取出异物相对困难。
+3．操作方法：
+具体操作方法如下。
+(1)体位：患者取仰卧垫肩位，保持口腔、喉、声门、气管在同一直线上，便于支气管镜的进入，减少气管支气管黏膜的摩擦及损伤可能。也可采用助手抱头的方式来达到并稳定适宜体位。
+(2)置镜方法：气管镜选择见表1。①直接喉镜技术协助置入：用喉镜暴露声门，将硬质支气管镜远端斜面朝向任意一侧声带，当硬质支气管镜通过声门后，即将喉镜撤出，然后缓慢置入气管再将硬质支气管镜推进更深的部位[39]。该方法对头部固定的要求不高，有利于声门区的保护。但因患儿口中需同时放置喉镜和支气管镜，在麻醉深度不够或年龄过小开口较小的患儿，可能会损伤其牙齿或口腔黏膜。②硬质支气管镜直接置入：右手持硬质支气管镜及可视接头部分，左手大拇指放在患者的唇/牙龈处稳定硬质支气管镜远端插入口咽部，推进抵达舌根部，用硬质支气管镜前端斜面挑起会厌的前部，将声带暴露出来，此后与直接喉镜技术协助插入法相同。该方法视野较小，需要头部更好地固定或头位的辅助变动，操作相对困难，但对患儿开口程度要求较小。
+点击查看表格
+表1
+年龄与支气管镜适用规格
+表1
+年龄与支气管镜适用规格
+年龄a
+支气管镜内径与长度(mm×mm)
+≤3个月
+3.0 mm×200～250 mm
+4～6个月
+3.0～3.5 mm×250 mm
+7个月～2岁
+4.0～5.0 mm×300 mm
+3～5岁
+5.0～6.0 mm×300 mm
+6～12岁
+6.0～7.0 mm×300 mm
+13～17岁
+7.0～8.0 mm×300～400 mm
+注：a患儿年龄以整月或整岁计
+(3)异物的钳取：异物钳的选用及手术策略如下。①选用合适的异物钳：抱钳适用于类圆形、硬度不高或较脆的异物，如花生、黄豆等；抓钳对片状方便着力的异物或硬度较高、嵌顿的异物较为适用，如瓜子、塑料片、笔帽等；杯状钳对于肉芽组织或其他异常组织的钳取比较适用。②采取合适的手术策略：对较大、易碎，又易滑脱而有发生窒息危险的异物，可采用"化整为零"分次取出的方法；不能通过支气管镜管腔的异物，夹稳异物取出时，需将异物牵引至镜口端，将内镜及异物钳，连同异物一并取出，若通过声门有阻力需适当旋转，谨防异物滑脱或嵌顿于声门发生窒息；对于无法取出的，联合纤维支气管镜，气管切开或开胸取出异物。异物取出后，常规再行支气管镜检查，避免异物残留。
+(三)可弯曲支气管镜(纤维/电子支气管镜)下异物取出
+1．适应证：
+可弯曲支气管镜具有灵活、可视的特点，对位于深部支气管、上叶支气管和下叶后基底段支气管异物的取出具有优势。随着可弯曲支气管镜技术的发展，其适应证已由深部支气管异物扩展到气管、左右主支气管异物。可弯曲支气管镜处理异物的成功率约为76%～98.5%[19,20,21,22,23]。
+2．局限性：
+可弯曲支气管镜本身会占据相对较窄的儿童气道，在维持通气方面不如硬质支气管镜。气管异物体积较大或形状不规则，有阻塞声门导致窒息风险者，推荐使用硬质支气管镜[43]。中心气道嵌顿、肉芽包裹的异物[42]，推荐硬质支气管镜处理或备硬质支气管镜应急。
+3．操作方法：
+麻醉及操作方法如下。(1)置入途径及麻醉选择：根据气管支气管异物大小、性状、位置、病程及手术难易程度等，选择局部麻醉或全身麻醉下进行异物取出术，有条件的建议全身麻醉。置入途径可经鼻、经口或人工气道。(2)具体操作：随支气管镜进入途径，应顺序探查咽喉部、声门下、气管、左、右主支气管以及各叶、段支气管、段亚支支气管等。通常先探查健侧，后探查患侧；异物取出后，常规再次探查支气管；患侧阻塞严重者，应先取异物改善梗阻，再探查健侧。(3)辅助配件的选择：①网篮形异物钳(螺旋篮形、平行蓝形、网套形等)：多数气管支气管异物均可试用网篮形异物钳钳取[21,43,44]，其中果仁类、球形异物更适宜采用网篮形异物钳。其优点是可完整取出异物，异物不易在声门处滑脱，从而减少声门嵌顿的危险。②有齿异物钳：适用于钳取片状、条状、筒状、不规则或纤细异物等[21,23,44]。若异物过大嵌顿时，可与网篮形异物钳配合使用。③球囊导管：部分异物嵌顿的情况下，可将管径适宜的球囊导管送至异物的底部，加压使球囊膨胀托住异物底部拉出。④细胞刷：适用于血栓、痰栓、支气管塑型等钳取效果不佳者，可使用细胞刷缠绕结合深部支气管灌洗取出。⑤冷冻探头：适用于有一定含水量的异物，如植物性异物、动物性异物、内生性异物、活体动物(如水蛭)异物等；也可用于形态不规则的异物[45,46,47,48]。⑥激光光纤：对于嵌顿的质地坚硬的异物，使用上述配件取异物失败时，有条件者可试用激光分割异物或打孔[49]，再使用其他适宜配件取出。
+(四)经气管切开异物取出[36,50]
+以下3种情况需要经气管切开取出异物。异物取出后，根据术中气道损伤情况，选择放置气管套管或直接关闭气管切开口。
+1．异物体积大：
+无法有效钳取异物通过声门(如大珍珠等，经过声门区时反复滑脱)，估计再取有窒息危险。
+2．异物大且形态特殊：
+难以在支气管镜下通过声门取出(如义齿等)，出声门困难。
+3．异物形态特殊：
+通过声门取出异物时会对声门区造成严重损伤。
+(五)经胸腔镜或开胸手术取异物[51]
+以下3种情况在内镜下取异物危险性高于开胸手术，需要经胸腔镜或开胸手术取出异物，并按胸科手术进行常规术后护理。
+1．位于肺内，支气管镜无法到达又非取不可的异物。
+2．异物形态不规则，无法在支气管镜下移动异物(如义齿、铁钉等金属异物)，或在支气管镜下移动异物时会造成严重损伤时(如玻璃、刀片、骨片等异物)。
+3．异物在支气管内停留时间过长，或大量炎性肉芽组织阻塞气管腔，或包裹异物，或异物粘连严重，内镜试取失败，强行钳取会有严重并发症。
+扫描下方二维码观看支气管异物取出术视频(包括术前器械准备、麻醉准备、体位摆放及手术操作过程)。
+点击查看大图
+四、气管异物的处理
+气管异物可采用直接喉镜法和硬质支气管镜下取异物两种方法。
+(一)直接喉镜法
+直接喉镜挑起会厌，暴露声门，将异物钳置入气管内取出异物[24]。
+(二)硬质支气管镜下钳取
+在硬质支气管镜下以异物钳夹取，尽量避免异物破碎造成双侧支气管异物或变位。异物位于气管隆嵴或异物一次不能完全取出者，则建议把异物推向一侧支气管，分次取出[7]。
+五、双侧支气管异物的处理
+多发性及双侧支气管异物的发生率约占呼吸道异物的11%[52]，呼吸困难较重，双肺听诊呼吸音减低，需要尽快行气管镜下异物取出手术。
+处理原则为：(1)先取大后取小；在手术中，由于较大的异物往往位置浅容易夹取，故应先取出大的异物。(2)对于有一侧肺不张或肺实变的双侧支气管异物，先检查阻塞轻的一侧，快速取出异物，吸净分泌物，尽快恢复一侧的肺通气功能，保证手术中气体交换，再检查肺不张或实变的一侧，必要时需进行纤维支气管灌洗[36]。
+六、特殊异物的处理
+(一)锐性异物
+对于尖锐异物，如缝衣针、大头针、别针或注射器针头等，要观察清楚异物尖端的方向、位置及与周围气管壁的关系。取出时应将异物尖端拉入硬质气管镜内或使尖端朝向远端，尽可能使异物长轴与气道长轴保持一致，利于取出异物。注意绝不可夹住针的其他部位即急于取出，否则异物尖端易伤及气管引起张力性气胸或喉损伤[24]。
+(二)球形异物
+球形异物表面光滑，质地硬，常与支气管壁嵌顿，支气管被完全堵塞，普通异物钳常常无能为力[28]。需借助特殊的设备及方法方能取出，如钩针钩取法、电磁铁法及气囊法，以及网篮形异物钳钳取[21]。
+如果上述方法仍不能取出异物，推荐胸腔镜或开胸手术取出。
+(三)笔帽类异物
+笔帽类异物多为内中空的圆柱形或圆锥形，一侧盲端或有一小孔，常发生在学龄期儿童，容易嵌顿于一侧支气管。取此类异物时尽可能选择较粗的气管镜。其优点为：管径较粗，视野清晰，能充分了解异物与周边组织的情况，利于夹取；同时粗的气管镜能较好地保护异物顺利出喉。
+操作方法有两种：(1)钳夹法：用硬质支气管镜抵住一侧，暴露一侧边缘，用鳄鱼嘴钳夹住异物边缘取出，过声门时尽量从声门三角裂隙的后半部出喉；若病程久，局部负压较大可用血管收缩剂进行灌洗后夹取，夹住后需旋转异物释放负压，再取出。(2)内撑式反张钳法：笔帽类或管状异物均可采用此法。內撑反张钳固定异物后，可做旋转释放局部负压，钳取过程中使异物与气管镜长轴方向一致，以利异物出喉。使用反张钳时需要注意观察异物及周边气管壁的情况，避免造成气管、支气管的医源性损伤。
+(四)粉末状异物
+粉末状异物以吸入钡剂多见，多为医源性[53]。少见的报道有面粉、铜粉、石灰粉等[22,54,55]。治疗原则是清除吸入物，维持气道畅通，减少吸入物的吸收，减轻吸入物对气道黏膜的局部刺激，预防及治疗并发症[56]。
+1．非腐蚀性粉末状异物：
+如钡剂、面粉等，经可弯曲支气管镜行支气管肺泡灌洗是快捷有效的清除方法，常需要多次灌洗至灌洗液清亮。
+2．腐蚀性粉末状异物：
+如石灰粉等，除异物本身阻塞气道外，还可造成呼吸道黏膜上皮细胞的损伤及腺体分泌增加，产生大量分泌物，甚至导致呼吸衰竭。建议硬质气管支气管镜下吸除石灰异物，联合可弯曲支气管镜毛刷刷除残存粉末，并行支气管肺泡灌洗至灌洗液清亮，尽量使气管支气管腔畅通。
+(五)内源性异物
+内源性异物有伪膜、血块、痰痂、结石、干酪样坏死组织、肉芽、支气管塑型等[47,57,58,59,60,61]。治疗原则是快速解除气道梗阻，积极治疗原发病。由于内源性异物可以不断形成，尤其是痰痂、干酪样坏死组织及支气管塑型等，常需反复多次治疗，可弯曲气管镜较硬质支气管镜更有优势。
+1．支气管肺泡灌洗：
+支气管肺泡灌洗是清除内源性异物最常用的方法，可单独或联合其他介入方法使用。尤其适用于支气管深部内源性异物的清除[57]。
+2．细胞刷刷取/异物钳钳取：
+对于伪膜、支气管塑型、痰痂、干酪样物等，单纯支气管肺泡灌洗难以清除，可结合细胞刷缠绕刷取或异物钳钳取予以清除[58,60]。
+3．冷冻冻取：
+含水量高的内源性异物很适于冷冻冻取，尤其是对于中心气道的内源性异物，可安全高效地解除气道梗阻[47,48]。
+4．激光消融：
+支气管结石在儿童少见，游离的支气管结石可用异物钳钳取，嵌顿于管壁的结石或巨大结石，可用激光消融碎石，再以异物钳钳取[49]。
+(六)其他异物
+其他异物有化学性异物、膏状异物、植物性厚皮异物、水蛭。
+1．化学性异物：
+最常见的化学性异物为造影剂的误吸，如硫酸钡[62]，少见的如小苏打粉、面粉、石灰粉、药片等[54,63,64,65]，处理方法同粉末状异物。腐蚀性化学性异物除造成气道阻塞外，短期内即可造成呼吸道黏膜损伤，气道黏膜充血、水肿及溃疡形成[56]，需要尽快处理并抗感染及支持治疗。
+2．膏状异物：
+是特殊的化学性异物，如石灰水[56]、502胶水等。在段支气管形成膏状栓塞，局部肺不张，灌洗无法清除栓塞，可用细胞刷刷洗或异物钳夹取[57]。
+3．植物性厚皮异物：
+如蚕豆[36]。蚕豆壳易与蚕豆分离，钳取时需特别注意在气道内脱落致异物变位阻塞气道，突然出现窒息。也可在内镜下壳内注水冷冻后随镜拖出[23]。
+4．水蛭：
+水蛭误入呼吸道罕见[66]，采用冷冻探头，使其吸盘失去吸附着力，可完整取出虫体[45]。
+(七)异物后肉芽的处理
+1．短期内形成的肉芽：
+异物取出后多可在1周内自行消失，无需特殊处理[21,22,23]。
+2．肉芽增生明显：
+遮挡异物，影响异物取出时，需清理局部肉芽以暴露视野，但易出血。
+3．异物长时间存留合并感染：
+局部肉芽增生阻塞气道时，异物取出后可使用钳取、冷冻冻切等方法清除肉芽[67]。
+4．清理肉芽时有明显出血：
+可局部喷洒1∶10 000肾上腺素1～2 ml，辅以局部灌洗，出血可基本控制。不推荐常规使用热消融清理肉芽及止血。
+围手术期并发症的表现及处理
+一、喉水肿
+喉水肿是常见并发症[4,39,68]，围手术期均可出现。高危因素包括声门异物直接刺激，手术时间长，操作粗暴，支气管镜反复进出等。术前给予糖皮质激素，熟练轻柔操作，可有效预防。出现喉水肿时，立即给予糖皮质激素、氧疗、雾化等治疗，出现重度喉梗阻保守治疗无效时，需及时行气管插管或气管切开术。
+二、喉、支气管痉挛
+异物刺激、反复气道操作、缺氧和CO2潴留等均可导致喉、支气管痉挛。保持自主呼吸的麻醉方式痉挛发生率相对较高[39,68,69]。表现为喉鸣、呼吸困难，严重的出现窒息。需立即解除病因，加深麻醉，托起下颌，经面罩或气管插管行正压通气缓解呼吸困难。
+三、气胸、纵隔气肿和皮下气肿
+气胸、纵隔气肿是危险并发症，早期识别，评估严重程度，及时处理非常重要。若不影响手术安全，尽快取出异物。若出现呼吸困难、心力衰竭、气胸时立即锁骨中线第2肋间穿刺，同时请胸外科会诊，及时行胸腔闭式引流；纵隔气肿、皮下气肿时可行皮下穿刺或纵隔切开引流。术中避免使用正压通气或高频通气，术后常需住院观察，避免Valsalva动作，并给予氧疗、止痛等治疗[70]。
+四、急性肺水肿和心衰
+气道异物致机体缺氧，长时间低氧血症可导致肺水肿发生；肺毛细血管内皮损伤，通透性增加，血液可渗入肺泡，最后可导致右心衰竭。手术前后均可能出现肺水肿和心衰，尤其术后更应关注。肺水肿和心衰表现为面色灰白，口唇发绀，大汗，常咯出泡沫痰，严重时口鼻腔可涌出大量粉红泡沫痰。两肺内可闻及广泛的水泡音和哮鸣音，心尖部可听到奔马律[71,72]。X线片可见典型蝴蝶形大片阴影由肺门向周围扩展。
+治疗及处理原则：(1)及时采取强心利尿等措施，如增加左心室心搏出量、减少肺泡内液体渗入，以保证气体交换，必要时行气管插管。(2)气道异物取出后继续心电监护，一旦病情变化及时处理并请相关科室会诊协助诊治。
+五、肺炎
+气管支气管异物可导致肺炎发生：一是异物本身刺激引起局部炎性反应；二是异物堵塞气道使分泌物无法排出而导致支气管肺炎发生[73,74]。表现为咳嗽、咳痰，间断或持续发热。
+治疗及处理原则：(1)对于婴幼儿反复肺炎，可通过X线、CT或纤维支气管镜检查等排除异物协助诊断。(2)如异物导致肺炎，应尽早手术取出异物。术中脓性分泌物较多时，可在异物取出后进行肺泡灌洗，术后按支气管肺炎继续治疗。
+六、肺气肿
+当异物进入支气管造成不完全性阻塞时，可出现肺气肿。表现为咳嗽、呼吸困难、呼吸音降低等[73,74]，X线胸片提示肺透亮度增高。
+治疗及处理原则：(1)行CT或纤维支气管镜检查以明确有无异物。(2)异物诊断明确后，尽早手术，解除阻塞。异物取出后，肺气肿可自行缓解。
+七、肺不张
+异物阻塞支气管，可导致不同程度的肺不张，表现为胸闷、气促、呼吸困难等，一侧肺不张可表现为患侧肋间隙变窄，气管及心脏向患侧移位。X线胸片提示肺实变。需要及时行支气管镜检取出异物[75]，多数肺不张可自行缓解。对于缓慢形成或存在时间较久的肺不张，引起频繁感染和咯血者，考虑手术切除不张的肺叶或肺段。
+八、支气管扩张
+异物导致支气管扩张的主要症状有慢性咳嗽、咳脓痰和反复咯血，高分辨率CT扫描是主要的诊断方法。对异物导致的支气管扩张症需及时取出支气管异物，改善支气管阻塞，积极控制感染，清除气道分泌物，对于受损严重的肺段或肺叶导致频繁咯血且保守治疗无效的需行手术治疗[76]。
+九、脓胸
+支气管异物所致脓胸的治疗首先要及时清除异物，控制感染，引流脓液，促使肺复张。及时正确、有效引流胸膜腔脓液是主要措施。仍然不能控制可考虑经胸腔镜或开胸行胸膜剥离术[77]，同时给予足够的营养支持。
+十、气管食管瘘
+呼吸道异物出现气管食管瘘并发症比较罕见[78]，需注意是术后出现的并发症。主要表现为反复咳嗽、咳痰，进饮食后咳嗽加剧、发绀或哽气，瘘口较大可咳出食物残渣；常并发支气管炎、肺炎。但瘘口很小或不通畅时，可无症状或数年后出现症状[24]；行支气管或食管造影、纤维/电子支气管镜或食道镜检查，胸部CT可了解瘘口的部位、大小及与周围组织的关系。
+处理原则为：(1)停止经口进食水，留置鼻胃管、肠内营养或深静脉肠外营养支持。(2)足量、敏感的抗生素控制肺部感染。(3)保守治疗无效时，请呼吸介入科置入支架，内镜下烧灼治疗，或者请胸外科开胸手术治疗。
+十一、支气管出血
+支气管出血是常见的并发症。少量出血可局部以肾上腺素棉片或硬质支气管镜唇局部压迫止血；如果无效可采用氩等离子体凝固(APC)治疗。氩等离子体凝固，是一种应用高频电流将电离的氩气流无接触地热凝固组织的方法，纤维/电子支气管镜或硬质支气管镜下均可应用，尤其适用于弥漫性出血的止血[79]。
+十二、窒息或心脏骤停
+窒息、心脏骤停是最危险的并发症，是造成死亡的主要原因，需争分夺秒立即抢救，维持气道畅通，进行心肺复苏。
+处理原则为：(1)异物取出前出现窒息，应立即面罩加压给氧，直接喉镜下迅速钳取异物；异物取出困难，立即经气管插管将异物从主气道推入一侧，加压给氧，改善机体缺氧状况；气管插管后仍然持续低氧的需行气管切开术。(2)异物取出过程中出现窒息，需判断出现原因，对症处理同时给予心肺复苏。(3)心肺复苏成功后视全身状况尽快行手术治疗，术后转入重症监护室(ICU)继续治疗。
+气管、支气管异物护理
+气管、支气管异物的围手术期护理十分重要，正确的护理可减少并及时发现危急状况，减少突发意外情况的发生。
+一、术前护理
+密切观察生命体征，避免剧烈哭闹和跑动，避免异物移位引起窒息。交代家属气管支气管异物可能发生的突发情况，及时报告医护人员，并积极做好术前准备。
+二、术后护理
+气管异物常为急诊手术，术后并发症发生率相对较多，及时发现并有效处理是保证患儿生命安全，有效治愈的重要环节。术后护理需要了解患儿手术中的情况，及时发现并发症并通知医生及时处理。
+健康教育
+一、预防宣教
+(一)家庭教育
+教育儿童不要养成口内含物的习惯；当口含食物时，不要引逗儿童哭笑；发生呕吐时，应把头偏向一侧，避免误吸；咽部有异物时设法诱导其吐出，不可用手指挖取；小于3岁儿童应尽量少吃干果、豆类。
+(二)家庭物品的安全摆放
+小件物品应放在儿童拿不到的地方，年幼儿童需在监护下玩耍。
+二、院前紧急处理
+气管异物的院前急救，对挽救患儿生命，缓解窒息，为异物取出赢得时间，具有重要意义。
+(一)徒手急救
+适用于误吸异物出现呼吸困难、窒息时。
+1．上腹部拍挤法：
+(海姆立克式法[80]，图1)：适用于1岁以上的儿童，注意操作的力度，可反复5～10次。用力过猛或操作不当有导致腹腔和胸腔脏器损伤的风险。
+点击查看大图
+图1
+上腹部拍挤法
+图1
+上腹部拍挤法
+2．拍背法(图2)：
+点击查看大图
+图2
+拍背法
+图2
+拍背法
+适用于1岁以下的婴儿。注意头低于躯体，可重复多次。
+(二)转运
+一旦发生异物吸入则应迅速将患儿送至有条件取气管异物的医院。途中注意尽量减少各种刺激，避免患儿哭闹、咳嗽，保持安静。若患儿出现严重吸气性呼吸困难、发绀、意识障碍，可用16号针头环甲膜穿刺，暂时缓解窒息状态。
+诊疗流程见附件。
+执笔起草专家
+执笔起草专家(按姓氏拼音排序)：
+陈彦球、成琦、窦训武、付勇、焦安夏、李兰、刘海霞、刘原虎、马静、马星钢、倪鑫、僧东杰、沈蓓、文连姬、吴海涛、夏忠芳、姚红兵、叶乐平、张建敏、张杰、张亚梅、赵斯君
+秘书：吴泽斌、张丰珍
+附件：
+诊疗流程
+点击查看大图
+参考文献
+[1]
+韩琨，项骁，王旸，等．
+北京市7 334例住院儿童意外伤害流行病学特征分析[J]．
+中华疾病控制杂志，
+2015，
+19(
+5)：
+431-
+434.
+DOI: 10.16462/j.cnki.zhjbkz.2015.05.001.
+HanK, XiangX, WangY, et al.Epidemiological characteristics of 7 334 cases of unintentional child injuries in Beijing City[J]．Chinese Journal of Disease Control and Prevention，2015，19(5)：431-434.DOI: 10.16462/j.cnki.zhjbkz.2015.05.001.
+[2]
+郭刚智，韦丹.
+2 286例儿童意外伤害的临床分析[J]．
+中国小儿急救医学，
+2017，
+24(
+2)：
+128-
+131.
+DOI: 10.3760/cma.j.issn.1673-4912.2017.02.010.
+GuoGZ, WeiD．Unintentional injuries in children：2286 cases analysis[J]．Chinese Pediatric Emergency Medicine，2017，24(2)：128-131.DOI: 10.3760/cma.j.issn.1673-4912.2017.02.010.
+[3]
+王可为，仇君，李小松，等.
+2010—2014年湖南省儿童医院儿童气管、支气管异物流行病学特征调查[J]．
+伤害医学(电子版)，
+2016，
+5(
+4)：
+37-
+41.
+DOI: 10.3868/j.issn.2095-1566.2016.04.008.
+WangKW, QiuJ, LiXS, et al.The Epidemiological Features of Foreign Bodies Aspiration in Hunan Children′s Hospital during 2010—2014: a Retrospective Study[J]．Injury Medicine(Electronic Edition)，2016，5(4)：37-41.DOI: 10.3868/j.issn.2095-1566.2016.04.008.
+[4]
+FoltranF, BallaliS, PassaliFM, et al.
+Foreign bodies in the airways: a meta-analysis of published papers[J]．
+Int J Pediatr Otorhinolaryngol,
+2012，
+76
+Suppl 1：
+S12-
+19.
+DOI: 10.1016/j.ijporl.2012.02.004.
+[5]
+薛刚，尚小领，林彦涛，等．
+气管支气管异物3018例临床分析[J]．
+中国耳鼻咽喉颅底外科杂志，
+2008, (
+5):
+372-
+374.
+XueG, ShangXL, LinYT, et al.Clinical analysis on 3018 children cases with tracheobronchial foreign body[J]．Chin J Otorhinolaryngol Skull Base Surg, 2008, (5): 372-374.
+[6]
+SidellDR, KimIA, CokerTR, et al.
+Food choking hazards in children[J]．
+Int J Pediatr Otorhinolaryngol,
+2013，
+77(
+12)：
+1940-
+1946.
+DOI: 10.1016/j.ijporl.2013.09.005.
+[7]
+张亚梅，张天宇．
+实用小儿耳鼻咽喉科学．
+北京：
+人民卫生出版社，
+2011.
+ZhangYM, ZhangTY.Practical pediatric otolaryngology.Beijing: People′s Medical Publishing House, 2011.
+[8]
+FoltranF, BallaliS, RodriguezH, et al.
+Inhaled foreign bodies in children: a global perspective on their epidemiological, clinical, and preventive aspects[J]．
+Pediatr Pulmonol,
+2013，
+48(
+4)：
+344-
+351.
+DOI: 10.1002/ppul.22701.
+[9]
+潘宏光，李兰，梁振江，等．
+小儿气管支气管异物368例临床诊治分析[J]．
+临床耳鼻咽喉头颈外科杂志，
+2010，
+24(
+12)：
+544-
+546.
+DOI: 10.3969/j.issn.1001-1781.2010.12.006.
+PanHG, LiL, LiangZJ, et al.Clinical analysis on 368 children cases with tracheobronchial foreign body[J]．J Clin Otorhinolaryngol Head Neck Surg(China)，2010，24(12)：544-546.DOI: 10.3969/j.issn.1001-1781.2010.12.006.
+[10]
+ChenX, ZhangC．
+Foreign body aspiration in children: Focus on the impact of delayed treatment[J]．
+Int J Pediatr Otorhinolaryngol,
+2017，
+96：
+111-
+115.
+DOI: 10.1016/j.ijporl.2017.03.013.
+[11]
+ChatterjiS, ChatterjiP．
+The management of foreign bodies in air passages[J]．
+Anaesthesia,
+1972，
+27(
+4)：
+390-
+395.
+[12]
+郑海军，周海军，黄忠雄，等．
+CT与平片诊断气管、支气管可透光异物的对比分析[J]．
+实用放射学杂志，
+2003，
+19(
+1)：
+32-
+33.
+DOI: 10.3969/j.issn.1002-1671.2003.01.009.
+ZhengHJ, ZhouHJ, HuangZX, et al.The Comparative analysis on CT and x-ray film in diagnosis of transparent foreign body in trachea and bronchus[J]．Journal of Practical Radiology，2003，19(1)：32-33.DOI: 10.3969/j.issn.1002-1671.2003.01.009.
+[13]
+HitterA, HulloE, DurandC, et al.
+Diagnostic value of various investigations in children with suspected foreign body aspiration: review[J]．
+Eur Ann Otorhinolaryngol Head Neck Dis,
+2011，
+128(
+5)：
+248-
+252.
+DOI: 10.1016/j.anorl.2010.12.011.
+[14]
+袁洛花，范敏，蒋锐明，等．
+CT在小儿气管支气管异物诊断中的应用[J]．
+四川医学，
+2015，(
+7)：
+1056-
+1058.
+DOI: 10.16252/j.cnki.issn1004-0501-2015.07.046.
+YuanLH, FanM, JiangRM, et al.CT in the management of tracheobronchial foreign bodies[J]．Sichuan Medical Journal，2015，(7)：1056-1058.DOI: 10.16252/j.cnki.issn1004-0501-2015.07.046.
+[15]
+LatifiX, MustafaA, HysenajQ．
+Rigid tracheobronchoscopy in the management of airway foreign bodies: 10 years experience in Kosovo[J]．
+Int J Pediatr Otorhinolaryngol,
+2006，
+70(
+12)：
+2055-
+2059.
+DOI: 10.1016/j.ijporl.2006.07.017.
+[16]
+DuanSY, LüSM, YeF, et al.
+Three-dimensional CT angiography study on the relations between the vertebral artery and atlantoaxial joint[J]．
+Chin Med J (Engl),
+2009，
+122(
+8)：
+917-
+920.
+[17]
+姚姣利，许智华，刘海霞．
+多层螺旋CT及三维重建在支气管异物定位诊断的临床评价[J]．
+临床耳鼻咽喉头颈外科杂志，
+2013，
+27(
+06)：
+331-
+333.
+YaoJL, XuZH, LiuHX.Clinical evaluation of multi-slice spiral CT and 3 reconstruction in the diagnosis of bronchial foreign bodies[J]．J Clin Otorhinolaryngol Head Neck Surg(China)，2013，27(06)：331-333.
+[18]
+WaniNA, QureshiUA, KosarT, et al.
+Subcutaneous emphysema due to bronchial foreign body demonstrated by multidetector-row computed tomography[J]．
+Lung India,
+2011，
+28(
+4)：
+291-
+293.
+DOI: 10.4103/0970-2113.85693.
+[19]
+SwansonKL, PrakashUB, MidthunDE, et al.
+Flexible bronchoscopic management of airway foreign bodies in children[J]．
+Chest,
+2002，
+121(
+5)：
+1695-
+1700.
+[20]
+TenenbaumT, KählerG, JankeC, et al.
+Management of Foreign Body Removal in Children by Flexible Bronchoscopy[J]．
+J Bronchology Interv Pulmonol,
+2017，
+24(
+1)：
+21-
+28.
+DOI: 10.1097/LBR.0000000000000319.
+[21]
+马渝燕，焦安夏，江沁波，等．
+儿童支气管异物246例临床分析[J]．
+中华医学杂志，
+2010，
+90(
+18)：
+1272-
+1274.
+DOI: 10.3760/cma.j.issn.0376-2491.2010.18.015.
+MaYY, JiaoAX, JiangQB, et al.Clinical analysis of bronchial foreign bodies in 246 children[J]．NATIONAL MEDICAL JOURNAL OF CHINA，2010，90(18)：1272-1274.DOI: 10.3760/cma.j.issn.0376-2491.2010.18.015.
+[22]
+江沁波，刘玺诚，江载芳．
+儿童气管支气管异物临床诊治探讨[J]．
+中国实用儿科杂志，
+2004，
+19(
+12)：
+734-
+737.
+DOI: 10.3969/j.issn.1005-2224.2004.12.012.
+JiangQB, LiuXC, JiangZF.Study on the clinical diagnosis and treatment for tracheobronchus foreign bodies in children[J]．Chin J Pract Pediatr，2004，19(12)：734-737.DOI: 10.3969/j.issn.1005-2224.2004.12.012.
+[23]
+辛丽红，王贞，余宏川．
+电子支气管镜诊治儿童气管支气管异物的临床价值[J]．
+中国内镜杂志，
+2016，
+22(
+10)：
+43-
+46.
+DOI: 10.3969/j.issn.1007-1989.2016.10.010.
+XinLH, WangZ, YuHC.Clinical value of electronic bronchoscope diagnosis and treatment of children tracheal bronchus foreign body[J]．Chin J Endoscopy，2016，22(10)：43-46.DOI: 10.3969/j.issn.1007-1989.2016.10.010.
+[24]
+阎承先．
+小儿耳鼻咽喉科学[M]．
+天津：
+天津科学技术出版社，
+2000.
+YanCX.Pediatric otolaryngology[M]．Tianjin: Tianjin science and technology press, 2000.
+[25]
+张杰，张亚梅．
+降低小儿气管支气管异物并发症及病死率的诊断和治疗方案分析[J]．
+中华耳鼻咽喉科杂志，
+2004，
+39(
+11)：
+658-
+662.
+DOI: 10.3760/j.issn:1673-0860.2004.11.005.
+ZhangJ, ZhangYM.How to reduce the incidence of complication and mortality in pediatric tracheobronchial foreign body patients[J]．Chin J Otorhinolaryngol，2004，39(11)：658-662.DOI: 10.3760/j.issn:1673-0860.2004.11.005.
+[26]
+林小平，雷明盛．
+支气管镜诊治气管及支气管异物10年回顾研究[J]．
+中国实用医药，
+2009，
+4(
+11)：
+15-
+16.
+DOI: 10.3969/j.issn.1673-7555.2009.11.007.
+LinXP, LeiMS.Diagnostic and treatment value of bronchoscopy on tracheobronchial foreign bodies：10 years retrospective study[J]．Chin Pract Med，2009，4(11)：15-16.DOI: 10.3969/j.issn.1673-7555.2009.11.007.
+[27]
+张晓雯，韩敏，郭志娟，等．
+小儿双侧支气管异物的诊疗要点[J]．
+临床耳鼻咽喉头颈外科杂志，
+2016，
+30(
+5)：
+375-
+377.
+ZhangXW, HanM, GuoZJ, et al.Diagnosis and treatment of bilateral bronchial foreign bodies in children[J]．J Clin Otorhinolaryngol Head Neck Surg(China), 2016，30(5)：375-377.
+[28]
+赵斯君，陶礼华，彭湘粤．
+儿童呼吸道异物紧急救治[M]．
+长沙：
+湖南科学技术出版社，
+2009.
+ZhaoSJ, TaoLH, PengXY.Emergency treatment of children′s respiratory foreign bodies.Changsha: Hunan science and technology press, 2009.
+[29]
+孙曼莉，吴白龙．
+临床特征联合多层螺旋CT三维重建在儿童气管支气管异物诊断中的价值[J]．
+临床儿科杂志，
+2016，
+34(
+9)：
+677-
+679.
+DOI: 10.3969/j.issn.1000-3606.2016.09.010.
+SunML, WuBL.The value of clinical features combined with 3-D reconstruction of multi-slice spiral CT in diagnosis of foreign body ；in trachea or bronchus in children[J]．J Clin Pediatr，2016，34(9)：677-679.DOI: 10.3969/j.issn.1000-3606.2016.09.010.
+[30]
+中华医学会儿科学分会呼吸学组，《中华儿科杂志》编辑委员会．
+儿童支气管哮喘诊断与防治指南(2016年版)[J]．
+中华儿科杂志，
+2016，
+54(
+3)：
+167-
+181.
+DOI: 10.3760/cma.j.issn.0578-1310.2016.03.003.
+The Subspecialty Group of Respiratory Diseases, The Society of Pediatrics, Chinese Medical Association, the Editroial Board of Chinese Journal of Pediatrics.Guideline for the diagnosis and optimal management of asthma in children(2016)[J]. Chin J Pediatr, 2016，54(3)：167-181.DOI: 10.3760/cma.j.issn.0578-1310.2016.03.003.
+[31]
+张帆，何培杰，黄芳，等．
+窄带成像内镜在复发性喉乳头状瘤诊疗中的应用[J]．
+中华耳鼻咽喉头颈外科杂志，
+2016，
+51(
+11)：
+868.
+DOI: 10.3760/cma.j.issn.1673-0860.2016.11.017.
+ZhangF, HePJ, HuangF, et al.Application of narrow-band imaging endoscope in diagnosis and treatment of recurrent respirator papillomatosis[J]．Chin J Otorhinolaryngol Head Neck Surg，2016，51(11)：868.DOI: 10.3760/cma.j.issn.1673-0860.2016.11.017.
+[32]
+丁银锋，陈龙，黄海东，等．
+支气管镜介入治疗原发性气管肿瘤的临床分析[J]．
+中华结核和呼吸杂志，
+2017，
+40(
+6)：
+435-
+439.
+DOI: 10.3760/cma.j.issn.1001-0939.2017.06.008.
+DingYF, ChenL, HuangHD, et al.Clinical analysis of therapeutic bronchoscopy for tracheal neoplasm[J]．Chin J Tuberc Respir Dis，2017，40(6)：435-439.DOI: 10.3760/cma.j.issn.1001-0939.2017.06.008.
+[33]
+陈超，许政敏．
+新生儿不同类型喉蹼手术处理的疗效分析[J]．
+中华耳鼻咽喉头颈外科杂志，
+2012，
+47(
+12)：
+1034-
+1035.
+DOI: 10.3760/cma.j.issn.1673-0860.2012.12.016.
+ChenC, XuZM.Evaluation of effect of different surgery in treatment of pediatric congential laryngeal web.[J]．Chin J Otorhinolaryngol Head Neck Surg，2012，47(12)：1034-1035.DOI: 10.3760/cma.j.issn.1673-0860.2012.12.016.
+[34]
+王涛，谢艳丽，汪力，等．
+婴幼儿血管环合并先天性气管狭窄的诊断与治疗[J]．
+中华实用儿科临床杂志，
+2013，
+28(
+7)：
+556-
+558.
+DOI: 10.3760/cma.j.issn.2095-428X.2013.07.022.
+WangT, XieYL, WangL, et al.Diagnosis and treatment of vascular ring associated with congenital tracheal stenosis in infants[J]．J Appl Clin Pediatr，2013，28(7)：556-558.DOI: 10.3760/cma.j.issn.2095-428X.2013.07.022.
+[35]
+李时悦，苏柱泉．
+插管后气管狭窄的危险因素及其处理[J]．
+中华结核和呼吸杂志，
+2014，
+37(
+8)：
+561-
+562.
+DOI: 10.3760/cma.j.issn.1001-0939.2014.08.001.
+LiSY, SuZQ.Risk factors and management of tracheal stenosis after intubation[J]．Chin J Tubercu Respir Dis，2014，37(8)：561-562.DOI: 10.3760/cma.j.issn.1001-0939.2014.08.001.
+[36]
+张亚梅，张振英．
+特殊类型的小儿气管支气管异物的处理[J]．
+中华耳鼻咽喉科杂志，
+2001，
+36(
+3)：
+231-
+234.
+DOI: 10.3760/j.issn:1673-0860.2001.03.022.
+ZhangYM, ZhangZY.Management of irregular shaped airway foreign body in children[J]．Chin J Otorhinolaryngol, 2001，36(3)：231-234.DOI: 10.3760/j.issn:1673-0860.2001.03.022.
+[37]
+EmirH, TekantG, BeşikC, et al.
+Bronchoscopic removal of tracheobroncheal foreign bodies: value of patient history and timing[J]．
+Pediatr Surg Int,
+2001，
+17(
+2-3)：
+85-
+87.
+[38]
+李天佐．
+气管异物取出术麻醉专家共识//中华医学会麻醉学分会．中国麻醉学指南与专家共识[M]．
+北京：
+人民卫生出版，
+2017:
+57-
+65.
+LiTZ.Anesthesia expert consensus on tracheal foreign body removal//Society of Anesthesiology, Chinese Medical Association.Anesthesiology Guidelines and Expert Consensus[M]．Beijing: People′s Medical Publishing House, 2017: 57-65.
+[39]
+BolligerCT, MathurPN, BeamisJF, et al.
+ERS/ATS statement on interventional pulmonology.European Respiratory Society/American Thoracic Society[J]．
+Eur Respir J,
+2002,
+19(
+2):
+356-
+373.
+DOI: 10.1183/09031936.02.00204602.
+[40]
+LiuY, ChenL, LiS．
+Controlled ventilation or spontaneous respiration in anesthesia for tracheobronchial foreign body removal: a meta-analysis[J]．
+Paediatr Anaesth,
+2014，
+24(
+10)：
+1023-
+1030.
+DOI: 10.1111/pan.12469.
+[41]
+李友忠，卢永德，伍伟景，等.
+38例呼吸道异物并严重并发症的治疗[J]．
+中华急诊医学杂志，
+2009，
+18(
+9)：
+986-
+989.
+DOI: 10.3760/cma.j.issn.1671-0282.2009.09.023.
+LiYZ, LuYD, WuWJ, et al.Treatment of severe complications of foreign body aspiration：an experience of 38 cases[J]. Chin J Emerg Med，2009，18(9)：986-989.DOI: 10.3760/cma.j.issn.1671-0282.2009.09.023.
+[42]
+AggarwalSK, SinhaSK, RatanSK, et al.
+Complications of long-standing foreign body in the airway and their outcomes after endoscopic management: an experience of 20 cases[J]．
+J Laparoendosc Adv Surg Tech A,
+2015，
+25(
+1)：
+81-
+87.
+DOI: 10.1089/lap.2014.0354.
+[43]
+陈正贤．
+硬质支气管镜在呼吸系统疾病介入治疗中的应用[J]．
+中华结核和呼吸杂志，
+2008，
+31(
+1)：
+7-
+9.
+DOI: 10.3321/j.issn:1001-0939.2008.01.004.
+ChenZX.The application of rigid bronchoscopy in interventional pulmonology[J]．Chin J Tubercu Respir Dis，2008，31(1)：7-9.DOI: 10.3321/j.issn:1001-0939.2008.01.004.
+[44]
+RodriguesAJ, ScussiattoEA, JacomelliM, et al.
+Bronchoscopic techniques for removal of foreign bodies in children′s airways[J]．
+Pediatr Pulmonol,
+2012，
+47(
+1)：
+59-
+62.
+DOI: 10.1002/ppul.21516.
+[45]
+ZhangL, YinY, ZhangJ, et al.
+Removal of foreign bodies in children′s airways using flexible bronchoscopic CO2 cryotherapy[J]．
+Pediatr Pulmonol,
+2016，
+51(
+9)：
+943-
+949.
+DOI: 10.1002/ppul.23361.
+[46]
+杨中传，熊志举，李荣庆．
+二氧化碳冷冻法取出气管内水蛭2例分析[J]．
+临床肺科杂志，
+2016，
+21(
+6)：
+1159-
+1160.
+DOI: 10.3969/j.issn.1009-6663.2016.06.059.
+YangZC, XiongZJ, LiRQ.Clinical analysis of removal of airway aspiration with hirudo using flexible bronchoscopic CO2 cryotherapy(2 cases report)[J]．J Clin Pulm Med，2016，21(6)：1159-1160.DOI: 10.3969/j.issn.1009-6663.2016.06.059.
+[47]
+李时悦，何颖，迟峰，等．
+经可弯曲支气管镜应用冷冻方法摘除难取性气道异物[J]．
+中华结核和呼吸杂志，
+2006，
+29(
+9)：
+641-
+642.
+DOI: 10.3760/j:issn:1001-0939.2006.09.021.
+LiSY, HeY, ChiF, et al.Removal of refractory airway foreign body using cryotherapy during flexible bronchosopy[J]．Chin J Tubercu Respir Dis，2006，29(9)：641-642.DOI: 10.3760/j:issn:1001-0939.2006.09.021.
+[48]
+周厚利，沈渝菊．
+经电子支气管镜介入冷冻术对气管异物的诊治价值[J]．
+中华肺部疾病杂志(电子版)，
+2017，
+10(
+4)：
+480-
+481.
+DOI: 10.3877/cma.j.issn.1674-6902.2017.04.027.
+ZhouHL, ShenYJ.Treatment for airway foreign body removal using cryotherapy during flexible bronchosopy[J]．Chin J lung Dis(Electronic Edition)，2017，10(4)：480-481.DOI: 10.3877/cma.j.issn.1674-6902.2017.04.027.
+[49]
+程渊，章巍，张红，等．
+经支气管镜钬激光碎石在支气管结石患者治疗中的应用[J]．
+中华结核和呼吸杂志，
+2017，
+40(
+1)：
+29-
+33.
+DOI: 10.3760/cma.j.issn.1001-0939.2017.01.007.
+ChengY, ZhangW, ZhangH, et al.Holmium：yttrium-aluminum-garnet (Ho：YAG) laser lithotripsy in the treatment of broncholithiasis[J]．Chin J Tubercu Respir Dis，2017，40(1)：29-33.DOI: 10.3760/cma.j.issn.1001-0939.2017.01.007.
+[50]
+FragaJC, NetoAM, SeitzE, et al.
+Bronchoscopy and tracheotomy removal of bronchial foreign body[J]．
+J Pediatr Surg,
+2002，
+37(
+8)：
+1239-
+1240.
+[51]
+FragaJC, PiresAF, KomlosM, et al.
+[Bronchoscopic removal of foreign body from airway through tracheotomy or tracheostomy][J]．
+J Pediatr (Rio J),
+2003，
+79(
+4)：
+369-
+372.
+[52]
+徐忠强，王智楠．
+小儿气管支气管多发性异物救治体会(附32例报告)[J]．
+临床耳鼻咽喉科杂志，
+1996，(
+1)：
+3-
+4.
+XuZQ, WangZN.Multiple foreign bodies of tracheobronchi in children (32 cases report) [J]．J Clin Otorhinolaryngol Surg(China), 1996, (1)：3-4.
+[53]
+杨学芳，刘玺诚，江沁波，等．
+儿童钡剂误吸病例分析及儿科纤维支气管镜治疗临床效果评估[J]．
+中华妇幼临床医学杂志(电子版)，
+2008，
+4(
+5)：
+52-
+55.
+DOI: 10.3969/j.issn.1673-5250.2008.05.014.
+YangXF, LiuXC, JiangQB, et al.The Analysis of Barium Sulphate aspiration in children and the evaluation of pediatric bronchoscopy in the treatment[J]．Chin J Obstetr Gynecology Pediatr (Electronic)，2008，4(5)：52-55.DOI: 10.3969/j.issn.1673-5250.2008.05.014.
+[54]
+刘霞，倪彩云，王怀莲，等．
+支气管镜下肺泡灌洗治疗液体和粉末状异物吸入意外21例[J]．
+中华儿科杂志，
+2011，
+49(
+12)：
+947-
+951.
+DOI: 10.3760/cma.j.issn.0578-1310.2011.12.015.
+LiuX, NiCY, WangHL, et al.Application of bronchoalveolar lavage treatment via bronchoscopy in the management of accidental inhalation of liquid and powdery foreign bodies in children[J]．Chin J Pediatr，2011，49(12)：947-951.DOI: 10.3760/cma.j.issn.0578-1310.2011.12.015.
+[55]
+黄志红，刘大波.
+1例石灰粉吸入性异物致呼吸衰竭患儿的气道护理[J]．
+中国实用护理杂志，
+2010，
+26(
+22)：
+55-
+57.
+DOI: 10.3760/cma.j.issn.1672-7088.2010.08.027.
+HuangZH, LiuDB.Nursing care of respiratory failure in a patient with inhalation of lime powder[J]．Chin J PractNurs，2010，26(22)：55-57.DOI: 10.3760/cma.j.issn.1672-7088.2010.08.027.
+[56]
+NicolaiT．
+Pediatric bronchoscopy[J]．
+Pediatr Pulmonol,
+2001,
+31(
+2):
+150-
+164.
+[57]
+胡英惠，焦安夏．
+小儿内生性支气管异物的临床特点及支气管镜术的应用[J]．
+中国当代儿科杂志，
+2010，
+12(
+9)：
+712-
+714.
+HuYH, JiaoAX.Clinical features of endogenous bronchial foreign bodies and application of bronchoscopy in children[J]．Chin J Contemp Pediatr，2010，12(9)：712-714.
+[58]
+中华医学会结核病学分会，《中华结核和呼吸杂志》编辑委员会．
+气管支气管结核诊断和治疗指南(试行)[J]．
+中华结核和呼吸杂志，
+2012，
+35(
+8)：
+581-
+587.
+DOI: 10.3760/cma.j.issn.1001-0939.2012.08.007.
+Chinese Medical Association Tuberculosis Society, Editorial Board of Chinese Journal of Tuberculosis and Respiration Diseases[J]．Chin J Tubercu Respir Dis，2012，35(8)：581-587.DOI: 10.3760/cma.j.issn.1001-0939.2012.08.007.
+[59]
+赵利敏，顾美珍，李晓艳，等．
+儿童内源性支气管异物30例[J]．
+山东大学耳鼻喉眼学报，
+2014，(
+3)：
+51-
+52.
+DOI: 10.6040/j.issn.1673-3770.0.2014.166.
+ZhaoLM, GuMZ, LiXY, et al.A clinical analysis of 30 cases of children endogenous bronchial foreign bodies[J]．J Otolaryngol Ophthalmol Shandong University，2014，(3)：51-52.DOI: 10.6040/j.issn.1673-3770.0.2014.166.
+[60]
+焦安夏，马渝燕，饶小春，等．
+儿童肺炎支原体肺炎细菌性肺炎所致塑型性支气管炎15例临床分析[J]．
+中国循证儿科杂志，
+2010，
+5(
+4)：
+294-
+298.
+DOI: 10.3969/j.issn.1673-5501.2010.04.009.
+JiaoAX, MaYY, RaoXC, et al.Plastic bronchitis caused by mycoplasma pneumoniae pneumonia and bacterial pneumonia in children: 15 cases clinical analysis[J]．Chin J Evidence Based Pediatr，2010，5(4)：294-298.DOI: 10.3969/j.issn.1673-5501.2010.04.009.
+[61]
+曾其毅，刘大波，罗仁忠，等．
+儿童塑型性支气管炎的诊断与治疗[J]．
+中国实用儿科杂志，
+2004，
+19(
+2)：
+81-
+83.
+DOI: 10.3969/j.issn.1005-2224.2004.02.008.
+ZengQY, LiuDB, LuoRZ, et al.Diagnosis and treatment of plastic bronchitis in children[J]．Chin J Pract Pediatr，2004，19(2)：81-83.DOI: 10.3969/j.issn.1005-2224.2004.02.008.
+[62]
+ChiuCY, WongKS, TsaiMH.
+Massive aspiration of barium sulfate during an upper gastrointestinal examination in a child with dysphagia[J]．
+Int J Pediatr Otorhinolaryngol,
+2005，
+69(
+4)：
+541-
+544.
+DOI: 10.1016/j.ijporl.2004.11.008.
+[63]
+王洁，刘大波，黄振云，等．
+小儿石灰粉吸入性异物致呼吸衰竭救治成功一例[J]．
+中华耳鼻咽喉头颈外科杂志，
+2008，
+43(
+10)：
+792-
+793.
+DOI: 10.3321/j.issn:1673-0860.2008.10.017.
+WangJ, LiuDB, HuangZY, et al.Successful treatment of a child with respiratory failure occurred after lime inhalation[J]．Chin J Otorhinolaryngol Head Neck Surg，2008，43(10)：792-793.DOI: 10.3321/j.issn:1673-0860.2008.10.017.
+[64]
+KMRE.
+Foreign body aspiration in patient with cough and dyspnea[J]．
+Visual Journal of Emergency Medicine,
+2017,
+6:
+52-
+53.
+DOI: https://doi.org/10.1016/j.visj.2016.07.013.
+[65]
+KairaK, TakiseA, GotoT, et al.
+Barium sulphate aspiration[J]．
+Lancet,
+2004，
+364(
+9452)：
+2220.
+DOI: 10.1016/S0140-6736(04)17595-8.
+[66]
+高起巧，李志祥，杨聪，等．
+农村儿童气管支气管内活水蛭异物二例[J]．
+中华耳鼻咽喉头颈外科杂志，
+2014，
+49(
+1)：
+66-
+67.
+DOI: 10.3760/cma.j.issn.1673-0860.2014.01.017.
+GaoQQ, LiZX, YangC．Pediatric foreign body aspiration with hirudo: 2 cases from the countryside[J]．Chin J Otorhinolaryngol Head Neck Surg，2014，49(1)：66-67.DOI: 10.3760/cma.j.issn.1673-0860.2014.01.017.
+[67]
+许煊，祝彬，石苗茜，等．
+儿童异物吸入的诊治和预防[J]．
+中华实用儿科临床杂志，
+2015，(
+18)：
+1383-
+1386.
+DOI: 10.3760/cma.j.issn.2095-428X.2015.18.006.
+XuX, ZhuB, ShiMX, et al.Management and prevention of foreign body aspiration in children[J]．J Applied Clin Pediatr，2015，(18)：1383-1386.DOI: 10.3760/cma.j.issn.2095-428X.2015.18.006.
+[68]
+ZhangX, LiWX, CaiYR.
+A time series observation of Chinese children undergoing rigid bronchoscopy for an inhaled foreign body: 3，149 cases in 1991-2010[J]．
+Chin Med J (Engl),
+2015,
+128(
+4):
+504-
+509.
+DOI: 10.4103/0366-6999.151104.
+[69]
+FidkowskiCW, ZhengH, FirthPG.
+The anesthetic considerations of tracheobronchial foreign bodies in children: a literature review of 12，979 cases[J]．
+Anesth Analg,
+2010，
+111(
+4)：
+1016-
+1025.
+DOI: 10.1213/ANE.0b013e3181ef3e9c.
+[70]
+YangXJ, ZhangJ, ChuP, et al.
+Pneumomediastinum Secondary to Foreign Body Aspiration: Clinical Features and Treatment Explorement in 39 Pediatric Patients[J]．
+Chin Med J (Engl),
+2016，
+129(
+22)：
+2691-
+2696.
+DOI: 10.4103/0366-6999.193450.
+[71]
+蔡喜梅，王建明，张念祖，等．
+支气管异物合并心力衰竭28例分析[J]．
+山西医药杂志，
+2000，
+29(
+5)：
+422-
+423.
+DOI: 10.3969/j.issn.0253-9926.2000.05.036.
+CaiXM, WangJM, ZhangNZ, et al.Clinical analysis of heart failure in 28 cases with bronchial foreign bodies[J]．Shanxi Med J，2000，29(5)：422-423.DOI: 10.3969/j.issn.0253-9926.2000.05.036.
+[72]
+王春艳，赵晓蓉．
+小儿气道异物取出术后发生复张性肺水肿一例[J]．
+临床麻醉学杂志，
+2011，
+27(
+3)：
+259.
+WangCY, ZhaoXR.Recurrent pulmonary edema after surgery of pediatric foreign body aspiration: a case report[J]．J Clin Anesthesiol，2011，27(3)：259.
+[73]
+SihT, BunnagC, BallaliS, et al.
+Nuts and seed: a natural yet dangerous foreign body[J]．
+Int J Pediatr Otorhinolaryngol,
+2012，
+76
+Suppl 1：
+S49-
+52.
+DOI: 10.1016/j.ijporl.2012.02.012.
+[74]
+HuangZ, LiuD, ZhongJ, et al.
+Delayed diagnosis and treatment of foreign body aspiration in China: the roles played by physician inexperience and lack of bronchoscopy facilities at local treatment centers[J]．
+Int J Pediatr Otorhinolaryngol,
+2013，
+77(
+12)：
+2019-
+2022.
+DOI: 10.1016/j.ijporl.2013.09.026.
+[75]
+王蓬鹏，张亚梅，张杰，等．
+儿童气管异物合并急性阻塞性肺不张的临床表现及治疗[J]．
+中国耳鼻咽喉头颈外科，
+2012，
+19(
+1)：
+51-
+52.
+WangPP, ZhangYM, ZhangJ, et al.The clinical characteristics and treatment of acute obstructive atelectasis in pediatric foreign body aspiration[J]．Chin Arch Otorhinolaryngol Head Neck Surg, 2012，19(1)：51-52.
+[76]
+刘菁，张晓伦，包楠，等．
+胸腔镜在小儿脓胸治疗中的应用[J]．
+中华小儿外科杂志，
+2012，
+33(
+1)：
+65-
+66.
+DOI: 10.3760/cma.j.issn.0253-3006.2012.01.018.
+LiuJ, ZhangXL, BaoN, et al.Thoracoscopic surgery in pediatric empyema[J]．Chin J Pediatr Surg，2012，33(1)：65-66.DOI: 10.3760/cma.j.issn.0253-3006.2012.01.018.
+[77]
+王小雷，陈康．
+小儿脓胸的外科治疗体会[J]．
+中国综合临床，
+2015，(
+3)：
+282-
+283.
+DOI: 10.3760/cma.j.issn.1008-6315.2015.03.030.
+WangXL, ChengK．Surgical treatment ofpediatric empyema[J]．Clin Med Chin，2015，(3)：282-283.DOI: 10.3760/cma.j.issn.1008-6315.2015.03.030.
+[78]
+华夏，李培华．
+气管支气管异物特殊并发症5例的治疗与分析[J]．
+山东大学耳鼻喉眼学报，
+2013，
+27(
+6)：
+77-78，84.
+DOI: 10.6040/j.issn.1673-3770.0.2013.122.
+HuaX, LiPH.Rare complications of tracheabronchial foreign body (5 cases report)[J]．JOtolaryngolOphthalmologyShandong Univers，2013，27(6)：77-78，84.DOI: 10.6040/j.issn.1673-3770.0.2013.122.
+[79]
+MoriceRC, EceT, EceF, et al.
+Endobronchial argon plasma coagulation for treatment of hemoptysis and neoplastic airway obstruction[J]．
+Chest,
+2001，
+119(
+3)：
+781-
+787.
+[80]
+HeimlichHJ.
+A life-saving maneuver to prevent food-choking[J]．
+JAMA,
+1975，
+234(
+4)：
+398-
+401.
+贡献者信息
+中华医学会耳鼻咽喉头颈外科学分会小儿学组
+历史
+出版日期：2018-05-07
+收稿日期：2018-02-13
+本文编辑
+房玉新
+Practical Guideline
+Experts consensus on diagnosis and treatment of tracheobronchial foreign bodies in children
+Subspecialty Group of Pediatrics, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association
+Published
+2018-05-07
+Cite as
+Chin J Otorhinolaryngol Head Neck Surg, 2018,53(5): 325-338. DOI: 10.3760/cma.j.issn.1673-0860.2018.05.002
+Contributor Information
+Subspecialty Group of Pediatrics, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+年龄与支气管镜适用规格
+年龄a
+支气管镜内径与长度(mm×mm)
+≤3个月
+3.0 mm×200～250 mm
+4～6个月
+3.0～3.5 mm×250 mm
+7个月～2岁
+4.0～5.0 mm×300 mm
+3～5岁
+5.0～6.0 mm×300 mm
+6～12岁
+6.0～7.0 mm×300 mm
+13～17岁
+7.0～8.0 mm×300～400 mm
+注：a患儿年龄以整月或整岁计
+图1
+上腹部拍挤法
+图2
+拍背法
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华耳鼻咽喉头颈外科杂志2018年53卷5期
+文    题：中国儿童气管支气管异物诊断与治疗专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华耳鼻咽喉头颈外科杂志2018年53卷5期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+微信
+腾讯微博
+一键通
+新浪微博
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+豆瓣网
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+QQ好友
+更多平台...
+(133)
+bShare

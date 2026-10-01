@@ -1,0 +1,841 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%BC%8F%E6%96%97%E8%83%B8%E5%A4%96%E7%A7%91%E6%B2%BB%E7%96%97%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 漏斗胸外科治疗中国专家共识 - 中华小儿外科杂志
+# 发布方/日期: 小儿外科，中华小儿外科杂志, 2020,41(01) : 7-12. DOI: 10.3760/cma.j.is；2020-01-15
+
+漏斗胸外科治疗中国专家共识
+中华医学会小儿外科学分会心胸外科学组
+广东省医师协会胸外科分会
+中华小儿外科杂志, 2020,41(01) : 7-12. DOI: 10.3760/cma.j.issn.0253-3006.2020.01.002
+漏斗胸是最常见的胸壁畸形，发病率尚无确切数据，几项针对在校学生的大宗调查显示其发病率约0.1%～2%[1,2,3]。漏斗胸患者多无自觉不适，部分患者可有呼吸困难、活动耐受量下降、心动过速、胸痛等症状，外观畸形严重者还会出现抑郁和焦虑等心理问题[4,5]。漏斗胸的病因和发病机制尚不明确，但其发生具有家族聚集性和遗传背景[6,7]。多数学者认为生长发育期肋骨、肋软骨生长的不平衡和不对称是漏斗胸等胸壁畸形发生的主要机制[8,9]。
+近年来，由于微创漏斗胸矫形术(Nuss手术)等技术的普遍开展，漏斗胸的诊治数量有了明显增加，治疗效果明显提高，但是手术量在不同医院之间存在巨大差异，大部分能开展漏斗胸矫治手术的医院年手术量仅在数十例之内，因此部分医生对漏斗胸诊疗中的各环节认识不足。目前对漏斗胸矫治手术的手术时机、方式、指征等诸多方面尚存争议，而国内外迄今尚无漏斗胸诊疗指南或共识发布。
+基于以上背景，中华医学会小儿外科学分会心胸外科学组联合广东省医师协会胸外科分会成立了专家委员会，共同制定漏斗胸外科诊疗共识，以期促进我国漏斗胸等胸壁畸形的规范化诊疗。
+本共识采用国际通用的Delphi程序，检索Medline、The Cochrane Library、万方等数据库，回顾国内外1940年1月至2018年10月关于漏斗胸畸形的文献3 000多篇，从中选取较高级别证据，并就漏斗胸诊疗中存在争议的31个方面，对国内开展漏斗胸矫治的医疗机构发出电子调查问卷，以了解国内专家意见和临床实践情况，共收回问卷170份。于2017年12月首次召集全国心胸外科、小儿外科等多学科相关专家共150余人与会讨论，并于2018年3月、2018年8月和2019年1月三次组织各方面相关专家讨论，最终形成以下共识。
+本共识推荐的级别为：1A级，基于高水平证据(严谨的Meta分析或RCT结果)，专家组有统一认识；1B级，基于高水平证据(严谨的Meta分析或RCT结果)，专家组有小争议；2A级，基于低水平证据，专家组有统一认识；2B级，基于低水平证据，专家组无统一认识，但争议不大；3级，专家组存在较大争议。
+一、共识一，推荐级别2A
+1．评估漏斗胸畸形程度时，应结合体格检查和影像学手段，同时需评估患者有无脊柱侧弯、先天性心脏病等伴发疾病。
+2．评估漏斗胸程度应同时考虑胸廓畸形的对称性、胸骨旋转程度和胸壁顺应性、心肺功能的受损情况和心理健康状态。
+漏斗胸患者常合并有脊柱侧弯和结构性心脏病等先天畸形[10]。由于此类并发症对患者的生命健康威胁有时较胸壁畸形本身更加严重，因此对漏斗胸进行术前评估时，应重视对并发症严重程度的评估，以制定合理的综合治疗方案。
+除了评价胸骨凹陷的深度和范围，胸廓畸形的对称性、胸骨旋转程度和胸壁顺应性也是评估漏斗胸严重程度的重要指标并对治疗方案和手术方式的选择具有重要的参考意义。漏斗胸畸形可因胸腔容积减少和胸壁活动程度降低而造成不同程度的心肺功能损害，并影响患者发育，因此心肺功能损害是重要的手术指征之一[11]。
+调查显示，漏斗胸畸形会给患者造成胆怯感和羞愧感，往往导致患者的自我价值感缺失、自卑、抑郁甚至导致不良的社会行为[12,13,14]。因此严重的心理障碍也是重要的手术指征，有条件者术前应该对其受损程度进行评估。
+胸壁视诊是漏斗胸严重程度最为直观的检查方法，而胸廓弹性和顺应性是选择手术方式的重要参考，在体格检查时应特别重视。辅助检查常见的方式包括：X线胸片、胸部CT扫描、心电图、心脏超声和/或肺功能检查。
+二、共识二，推荐级别2A
+对拟接受手术治疗的患者，推荐进行胸部CT及胸廓三维重建检查，以明确胸廓畸形的严重程度并为手术计划的制定提供帮助。
+合理的漏斗胸手术治疗方案设计依赖于对患者胸壁形状的准确评估。相比X线平片，胸部CT检查能更准确评估漏斗胸的严重程度、不对称度及其对心肺压迫的情况，并能相对准确的评估胸壁与胸内器官的关系，减少术中损伤的风险[15]。胸部CT还可同时了解肺部有无病变，是否需要同期手术。胸部CT测定的Haller指数是评估漏斗胸严重程度及手术适应证的主要依据[16,17,18]。尽管目前有部分学者提出了数种新的漏斗胸评估模型，但Haller指数测量简便、应用广泛，其重要性尚不可替代[19,20,21,22]。胸壁的CT三维重建较之常规胸部CT更为直观，有助于手术者进行钢板的外形设计及出入点的确定，对制定手术计划可能更有帮助[23]。
+三、共识三，推荐级别2A
+1．建议对青春期前发病的漏斗胸患者应进行一定时间的观察。
+2．手术治疗的年龄也应个体化，一般建议手术时机为3～12岁。
+3．对严重影响心肺功能的患者，手术年龄可以适当提前，但一般不早于3岁。
+4．3岁以前的患者不建议进行截骨重建手术。
+关于漏斗胸的手术年龄一直存在争议，由于患者存在儿童及青春期两个发育高峰，若较早手术，在治疗周期结束后的生长高峰中，仍有一定的复发风险，所以建议对青春期前的患者要详细了解病史，如果胸壁畸形为进行性加重，可考虑相对早期进行手术。美国Nuss等[24,25]报告的1 000多例漏斗胸重建手术随访数据显示，手术在青春期前的12岁左右较佳，因为这个阶段的复发率最低，手术效果好，并发症较少，而12岁前接受微创矫治的患者，畸形复发率高于晚手术的患者，建议对于不太严重的青春期前的低龄儿童胸壁畸形患者不宜过早进行手术干预。但韩国的Park等[26]认为，对于发病早的患者，在3～5岁手术较好，因为这个年龄段儿童的胸壁顺应性更好，此时手术操作容易，能尽早解除发育限制，手术并发症少，纠正肋弓外翻效果较好，且学龄前儿童的外观意识尚不强，此时纠正畸形可减少儿童的心理损害。
+本共识专家认为，漏斗胸手术治疗的年龄应当个体化。对于重度以上、影响心肺功能、或影响生长发育的患者，可提前进行微创手术，但一般不早于3岁。值得一提的是，现在基本上不使用开放手术或截骨等胸廓重建治疗手段，但复杂患者可能需采用联合手术以达到更好的治疗效果[27]。
+四、共识四，推荐级别2A
+1．对于胸壁顺应性好的患者，漏斗胸的非手术吸引技术可作为选择之一。
+2．Haller CT指数>3.2或校正指数>10%的患者，因非手术治疗常无效果，不做推荐。
+胸壁畸形的非手术治疗已有近百年历史，近年来由于新技术和新材料的出现，各种吸盘和支架治疗已有较多报道。漏斗胸可采用真空吸盘吸起胸壁凹陷处，以达到矫治目的[28,29]。婴幼儿至学龄前儿童胸壁柔软，胸部骨骼可塑性较青少年和成人佳，故可选择一定时间内进行保守治疗。相比手术治疗，保守治疗可避免手术矫治的各种并发症。且在尝试保守治疗失败后，患者仍有机会接受手术治疗。但保守治疗需要较长时间不间断的家庭配合治疗，一些患者不能耐受。目前保守治疗的长期效果尚缺乏高水平的证据。研究显示，对重度、严重不对称或大龄的漏斗胸患者，保守治疗效果可能并不理想，因此本共识不做推荐。
+五、共识五，推荐级别1B
+1．开放和微创手术均可为胸廓畸形带来远期获益，对胸壁顺应性好的青春期和青春期前的患者，微创是最佳选择。
+2．对于微创治疗效果不佳、复杂或重度的漏斗胸或者胸壁相对固定的患者，可选择开放手术或开放联合微创等改良术式。
+自1998年Nuss等[30]报道漏斗胸微创手术以来，由于创伤小、恢复快的特点逐渐得到广泛应用，目前国内多数中心漏斗胸治疗术式均以Nuss微创矫治术为主。但研究表明无论开放还是微创矫治术，术后患者满意度均较高，均可为患者带来远期获益[31,32]。一项来自Cochrane数据库系统的Meta分析结果显示，由于缺乏前瞻性随机对照研究，因此尚无法详细判定两种术式之间的优劣[33]。2010年一项纳入了19项研究的Meta分析显示，Nuss微创手术的手术时间、术中出血量均少于开放手术，并且患者术后恢复更快、住院时间更短，可以有效减轻患者痛苦，具有较高优势；但也有研究表明，Nuss微创手术较开放手术术后气胸、血胸发生率更高，术后因钢板移位导致再次手术的风险更高[31,34,35,36]。
+本共识专家认为随着术者手术经验的不断积累，可以更加有效降低微创手术术后并发症的发生。对于胸壁顺应性好的青春期前患者，Nuss微创手术不但效果好，而且整体并发症发生率与开放手术相当；但对于成年患者，由于骨质僵硬、漏斗胸畸形严重，微创手术并发症发生率以及二次手术率显著高于开放手术，对此类患者可采用开放手术或改良Nuss微创手术进行矫治，以改善患者胸廓外形，减少术后并发症的发生[36]。近年来，国内外出现各种改良的微创矫治术式，尝试减少并发症并改善矫治效果，但这些技术的安全性和有效性尚需要进一步临床研究进行验证[37,38,39]。
+六、共识六，推荐级别2B
+对于年龄较大的青少年及成年漏斗胸患者，其美容要求和心理期望是重要的手术指征，可根据畸形的严重程度和复杂程度，选择Nuss微创、微创联合开放等多种整形美容术式。
+漏斗胸可导致心肺功能损害，影响患者健康，通过矫治手术改善心肺功能是手术的主要目的之一[40]。然而，有部分轻中度年龄较大的青少年及成年漏斗胸患者，心肺功能基本得到代偿，往往无症状，仅因美容需求而进行手术[41,42]。本共识专家认为，纠正畸形外观引起的心理损害也是畸形矫治的目的之一。有学者对漏斗胸患者健康相关生活质量调查进行了前瞻性对照研究，结果显示经手术矫治漏斗胸后，患者心理健康相关评分明显提升，生活质量得到改善[14]。因此，心肺功能和心理健康的受损程度均是漏斗胸手术的参考指征。成年漏斗胸患者的心理基本已成熟，这种美容的心理需求更应该得到重视；此类患者往往胸壁僵硬，单纯微创矫治比较困难，而开放矫治创伤较大；需根据患者不同的情况，选择合适的手术方式，如Nuss微创、微创联合开放手术或美容手术也能取得良好的效果。
+七、共识七，推荐级别2A
+在对胸壁畸形进行Nuss微创重建矫正手术时，应该高度重视致命性的心脏损伤、钢板移位、钢板外露和切口愈合不良等术中、术后并发症的预防和处理。
+虽然文献鲜有报道，但Nuss微创漏斗胸矫正手术的术中、术后并发症并不少见，心脏损伤等术中致命性的并发症在开展手术例数有限的医院仍时有发生[43]。资料显示，严重畸形、复发性漏斗胸和心脏手术史可造成胸腔或胸骨后粘连，导致手术中损伤心脏等重要脏器的概率大大上升，但术中心脏、肝脏和膈肌损伤等并发症多出现在学习曲线早期[44]。在一些小规模的回顾性队列报道中，多种改良Nuss手术操作方法的尝试减少了术中致命性损伤的发生。如吸盘吸引、钢丝悬吊、巾钳或剑突下小切口提拉，但对于前胸壁没有手术切口的患者，应尽量不采用影响美观的前胸壁切口。对于先天性心脏病术后胸骨后心脏粘连较轻的患者可以胸腔镜下或剑突下辅助切口直视下分离粘连，再行Nuss术。对于胸骨后心脏粘连非常严重的患者，也可以用悬吊的方式以减少心脏损伤的可能(从原心脏手术的正中切口用钢丝提起胸骨固定到前胸壁皮肤下的钢板上)[10]。本共识专家建议，对开展经验不多的医院，Nuss微创矫治手术应首先选择漏斗胸严重程度较低或胸壁顺应性较好的患者进行。
+术后疼痛是微创手术常见并发症之一，严重疼痛使患者长期处于强迫体位，与继发性脊柱侧弯相关，应积极干预[31]。术后切口愈合不良和钢板移位也是术后常见的并发症，资料显示Nuss术后切口愈合不良的发生率在1.5%～6.9%，而因愈合不良需拆除钢板的发生率在0.3%～1.6%[45,46,47,48,49,50,51]。术中将固定片包埋在胸壁肌肉下方及围术期应用抗生素可降低切口感染导致的愈合不良[51]。钢板移位是漏斗胸微创矫治术失败的常见原因，胸壁僵硬及严重不对称的患者容易发生移位，采用短钢板、双钢板和双侧垫片固定可能会减少钢板移位的发生[53,54,55]。对凹陷面积达3个肋间隙以上的患者，放置1根钢板往往效果不佳，可考虑采用多钢板植入固定技术[56,57]。研究表明，单根矫形钢板与超过2根钢板之间的并发症发生率分别为5.8%和14.2%(P<0.01)，建议谨慎选用3根及3根以上钢板植入固定技术[58]。钢板拆除时造成的血管损伤和气胸也应重视，并应采取有效的预防措施[59]。
+八、共识八，推荐级别2A
+建议对无特殊情况者，钢板在漏斗胸矫形术后的2～4年拆除，钢板拆除术建议在全身麻醉下通过原切口进行。
+漏斗胸患者的钢板取出时机和钢板取出手术方法仍存争议。目前普遍接受的观点是Nuss术后2～4年内行钢板拆除术[51,60,61]。为保证矫形手术不影响患儿的生长发育，对于复发性漏斗胸、有马凡综合征等遗传疾病、曾同期行胸骨正中劈开心脏畸形矫治术及14岁以上的漏斗胸患者，建议延长钢板植入时间。Sacco等[60]认为漏斗胸钢板至少放置两年，全身麻醉下将两个原切口重新开放，用折弯器把钢板的两端拉直后较易取出。Kelly等[51]也认为如果不翻转钢板，就需要两侧游离后将钢板扳直后再取出才能减少取钢板造成并发症。Kelly等[51]发现，如果在置入钢板两年内拆除钢板，拆除后的漏斗胸患者复发病例较多，因此建议钢板至少应在体内停留两年，以2～4年为佳。当钢板植入后患者生长发育快，身高较手术时增高15 cm以上时，如出现由于钢板对胸壁的挤压，或有迟发性的疼痛，或切口慢性血肿、感染、裂开等，应该及时拆除钢板[24]。
+九、共识九，推荐级别2A
+重视胸壁畸形患者的术前、术后的心理辅导和康复训练、体态训练和呼吸锻炼，有助于畸形的矫正和心肺功能的康复，并可减少脊柱侧弯的发生。
+漏斗胸的术后康复训练有助于改善术后肺功能，纠正"圆肩"强迫体位，促进机体正常发育[62]。漏斗胸微创矫治术后第一天可进行深呼吸锻炼(可借助呼吸训练器)以及下地步行；术后第四、五天可进行日常活动；术后康复训练最好有康复科医生参与指导进行[51]。术后早期减少大幅度躯干扭转运动可减少钢板移位的风险。
+一般患者术后2～3周即可上学，术后6周可逐渐进行非竞技性有氧运动；术后3个月以上，可逐渐进行部分竞技性运动，但不包括拳击、橄榄球、冰球等激烈对抗运动；拆钢板2周后，可进行所有运动，同时仍需继续进行深呼吸锻炼及有氧运动等[24]。术后长期的扩肩挺胸等体态的保持有助于保持矫形效果，并避免发生强迫体位引起的继发性脊柱侧弯。
+十、共识十，推荐级别2A
+对于有金属过敏史或特异性过敏史的患儿需常规行金属过敏测试。
+Nuss钢板植入术后的过敏反应常表现为无感染证据的发热、皮疹、红斑、持续性疼痛、积液及肉芽肿形成等。有金属过敏史、家族史或特异性皮炎史的患者为过敏的高危因素，需常规进行金属过敏测试，对于阳性者可使用钛板，但需要注意金属过敏测试阴性者仍有钢板过敏可能[63,64]。发生钢板过敏反应后，使用类固醇类药物可有效缓解症状[65,66]。如果症状持续存在，则需要提前取出钢板。
+委员会成员
+执笔人(按单位及姓名首字拼音排序)：彭卫(南京医科大学附属儿童医院)，陈刚(广东省人民医院)，谢亮(广东省人民医院)
+参与本共识执笔的专家(按单位及姓名首字拼音排序)：安徽省儿童医院(段贤伦)；北京大学深圳医院(刘继先)；重庆医科大学附属儿童医院(李勇刚)；成都市妇女儿童医院(张利兵)；大连市儿童医院(文平)；复旦大学附属儿科医院(贾兵)；广东省人民医院(贲晓松，陈刚，乔贵宾，谢亮)；广西医科大学第一附属医院(陈铭伍)；广州市妇女儿童医疗中心(刘威)；哈尔滨市儿童医院(李怀宁)；河南省儿童医院(翟波)；湖南省儿童医院(黄鹏)；华中科技大学同济医学院附属同济医院(冯杰雄)；华中科技大学同济医学院附属协和医院(汤绍涛)；济南市儿童医院(武玉睿)；江西省儿童医院(明腾)；南方医科大学南方医院(蔡开灿)；南方医科大学珠江医院(闫玉生)；南京医科大学附属儿童医院(莫绪明，彭卫)；青岛市妇女儿童医院(邢泉生，陈瑞)；山东大学齐鲁医院(李爱武)；上海儿童医学中心(刘锦纷)；上海市儿童医院(张儒舫)；首都医科大学附属北京儿童医院(曾骐、张娜)；四川大学华西医院(徐畅)；四川省人民医院(刘文英)；山西省儿童医院(刘彩霞)；武汉市妇女儿童医院(皮名安)；厦门大学附属中山医院(段红兵)；西安交通大学第二附属医院(李鹏)；西安市儿童医院(施伟栋)；新疆维吾尔自治区人民医院(李水学)；长春市儿童医院(陶永欣)；浙江大学附属儿童医院(李建华，舒强)；中国医科大学盛京医院(贾慧敏)；中南大学湘雅二医院(刘文亮)
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+WestphalFL, LimaLC, Lima NetoJC, et al.
+Prevalence of pectus carinatum and pectus excavatum in students in the city of Manaus, Brazil[J].
+J Bras Pneumol,
+2009,
+35(
+3):
+221-
+226.
+DOI: 10.1590/s1806-37132009000300005.
+[2]
+ZouXS, LinYQ, JinH, et al.
+Screening for pectus excavatum among primary students and establishment of a pectus excavatum screening program in Dongguan, China[J].
+J Thorac Dis,
+2015,
+7(
+5):
+868-
+874.
+DOI: 10.3978/j.issn.2072-1439.2015.04.48.
+[3]
+CoskunZK, TurgutHB, DemirsoyS, et al.
+The prevalence and effects of pectus excavatum and pectus carinatum on the respiratory function in children between 7-14 years old[J].
+Indian J Pediatr,
+2010,
+77(
+9):
+1017-
+1019.
+DOI: 10.1007/s12098-010-0155-5.
+[4]
+AbidI, EwaisMM, MarrancaJ, et al.
+Pectus excavatum: A review of diagnosis and current treatment options[J].
+J Am Osteopath Assoc,
+2017,
+117(
+2):
+106-
+113.
+DOI: 10.7556/jaoa.2017.021.
+[5]
+ShaalanAM, KasbI, ElwakeelEE, et al.
+Outcome of surgical repair of Pectus Excavatum in adults[J].
+J Cardiothorac Surg,
+2017,
+12:
+72.
+DOI: 10.1186/s13019-017-0635-z.
+[6]
+CannaertsE, ShuklaA, HasanhodzicM, et al.
+FLNA mutations in surviving males presenting with connective tissue findings: two new case reports and review of the literature[J].
+BMC Med Genet,
+2018,
+19(
+1):
+140.
+DOI: 10.1186/s12881-018-0655-0.
+[7]
+NussD, ObermeyerRJ, KellyRE.
+Pectus excavatum from a pediatric surgeon's perspective[J].
+Ann Cardiothorac Surg,
+2016,
+5(
+5):
+493-
+500.
+DOI: 10.21037/acs.2016.06.04.
+[8]
+ParkCH, KimTH, HaamSJ, et al.
+Rib overgrowth May be a contributing factor for pectus excavatum: Evaluation of prepubertal patients younger than 10years old[J].
+J Pediatr Surg,
+2015,
+50(
+11):
+1945-
+1948.
+DOI: 10.1016/j.jpedsurg.2015.07.010.
+[9]
+DavidVL, IzvernariuDA, PopoiuCM, et al.
+Morphologic, morphometrical and histochemical proprieties of the costal cartilage in children with pectus excavatum[J].
+Revue Roumaine De Morphol Et Embryol,
+2011,
+52(
+2):
+625-
+629.
+[10]
+ChenCH, LiXF, ZhangN, et al.
+Different Nuss procedures and risk management for pectus excavatum after surgery for congenital heart disease[J].
+J Pediatr Surg,
+2018,
+53(
+10):
+1964-
+1969.
+DOI: 10.1016/j.jpedsurg.2018.04.006.
+[11]
+ParkHJ, KimJJ, ParkJK, et al.
+A cross-sectional study for the development of growth of patients with pectus excavatum[J].
+Eur J Cardiothorac Surg,
+2016,
+50(
+6):
+1102-
+1109.
+DOI: 10.1093/ejcts/ezw162.
+[12]
+JaroszewskiDE.
+Physiologic implications of pectus excavatum[J].
+J Thorac Cardiovasc Surg,
+2017,
+153(
+1):
+218-
+219.
+DOI: 10.1016/j.jtcvs.2016.09.045.
+[13]
+BahadirAT, Kuru BektaşoğluP, Çakiroğlu EserA, et al.
+Psychosocial functioning in pediatric patients with pectus excavatum and pectus carinatum[J].
+Turk J Med Sci,
+2017,
+47(
+3):
+771-
+777.
+DOI: 10.3906/sag-1511-66.
+[14]
+LomholtJJ, JacobsenEB, ThastumM, et al.
+A prospective study on quality of life in youths after pectus excavatum correction[J].
+Ann Cardiothorac Surg,
+2016,
+5(
+5):
+456-
+465.
+DOI: 10.21037/acs.2016.08.02.
+[15]
+DeviggianoA, VallejosJ, VinaN, et al.
+Exaggerated interventricular dependence among patients with pectus excavatum: combined assessment with cardiac MRI and chest CT[J].
+AJR Am J Roentgenol,
+2017,
+208(
+4):
+854-
+861.
+DOI: 10.2214/AJR.16.17296.
+[16]
+SujkaJA, St PeterSD.
+Quantification of pectus excavatum: Anatomic indices[J].
+Semin Pediatr Surg,
+2018,
+27(
+3):
+122-
+126.
+DOI: 10.1053/j.sempedsurg.2018.05.006.
+[17]
+DeviggianoA, CarrascosaP, VallejosJ, et al.
+Relationship between cardiac MR compression classification and CT chest wall indexes in patients with pectus excavatum[J].
+J Pediatr Surg,
+2018,
+53(
+11):
+2294-
+2298.
+DOI: 10.1016/j.jpedsurg.2018.05.015.
+[18]
+SinghS, GreenbergSB.
+Hyperinflation of the left anterior basal segment: a new sign of pectus excavatum severity on CT[J].
+Clin Radiol,
+2017,
+72(
+11):
+991.e15-991.991.e18.
+DOI: 10.1016/j.crad.2017.06.123.
+[19]
+TaylorJS, MadhavanS, SzaferD, et al.
+Three-dimensional optical imaging for pectus excavatum assessment[J].
+Ann Thorac Surg,
+2019,
+108(
+4):
+1065-
+1071.
+DOI: 10.1016/j.athoracsur.2019.04.074.
+[20]
+TicchiD, EisingerRS, PilegaardHK, et al.
+Evaluating interest in narrative therapy for decision making about pectus excavatum treatment[J].
+Interact Cardiovasc Thorac Surg,
+2018,
+26(
+2):
+271-
+275.
+DOI: 10.1093/icvts/ivx308.
+[21]
+ApeltN, SchaffzinJ, BatesC, et al.
+Surgical site infection related to use of elastomeric pumps in pectus excavatum repair.Lessons learned from root cause analysis[J].
+J Pediatr Surg,
+2017,
+52(
+8):
+1292-
+1295.
+DOI: 10.1016/j.jpedsurg.2017.01.002.
+[22]
+KimKH, LeeKY, LeeJB, et al.
+Radiologic factors related to double-bar insertion in minimal invasive repair of pectus excavatum[J].
+World J Pediatr,
+2015,
+11(
+2):
+148-
+153.
+DOI: 10.1007/s12519-014-0522-9.
+[23]
+CallowayEH, ChhotaniAN, LeeYZ, et al.
+Three-dimensional computed tomography for evaluation and management of children with complex chest wall anomalies: useful information or just pretty pictures？[J].
+J Pediatr Surg,
+2011,
+46(
+4):
+640-
+647.
+DOI: 10.1016/j.jpedsurg.2010.10.013.
+[24]
+NussD, KellyRE.
+Indications and technique of nuss procedure for pectus excavatum[J].
+Thorac Surg Clin,
+2010,
+20(
+4):
+583-
+597.
+DOI: 10.1016/j.thorsurg.2010.07.002.
+[25]
+NussD.
+Minimally invasive surgical repair of pectus excavatum[J].
+Semin Pediatr Surg,
+2008,
+17(
+3):
+209-
+217.
+DOI: 10.1053/j.sempedsurg.2008.03.003.
+[26]
+ParkHJ, SungSW, ParkJK, et al.
+How early can we repair pectus excavatum: the earlier the better？[J].
+Eur J Cardiothorac Surg,
+2012,
+42(
+4):
+667-
+672.
+DOI: 10.1093/ejcts/ezs130.
+[27]
+SchwabeggerAH, Del FrariB, MetzlerJ.
+Technical consideration of the MOVARPE technique in intricate pectus excavatum deformity[J].
+Wien Klin Wochenschr,
+2017,
+129(
+19/20):
+702-
+708.
+DOI: 10.1007/s00508-017-1214-y.
+[28]
+HaeckerFM, Martinez-FerroM.
+Non-surgical treatment for pectus excavatum and carinatum[M]//
+Chest Wall Deformities and Corrective Procedures.
+Cham:
+Springer International Publishing,
+2015:
+137-
+160.
+DOI: 10.1007/978-3-319-23968-2_17.
+[29]
+HaeckerFM, SesiaS.
+Vacuum bell therapy[J].
+Ann Cardiothorac Surg,
+2016,
+5(
+5):
+440-
+449.
+DOI: 10.21037/acs.2016.06.06.
+[30]
+NussD, KellyRE, CroitoruDP, et al.
+A 10-year review of a minimally invasive technique for the correction of pectus excavatum[J].
+J Pediatr Surg,
+1998,
+33(
+4):
+545-
+552.
+DOI: 10.1016/s0022-3468(98)90314-1.
+[31]
+曾骐，张娜，范茂槐, 等.
+Nuss手术与改良Ravitch手术的对比研究[J].
+中华小儿外科杂志,
+2005,
+26(
+8):
+397-
+400.
+DOI: 10.3760/cma.j.issn.0253-3006.2005.08.002.
+ZengQ, ZhangN, FanMH, et al.Comparison of Nuss procedure and modified ravitch procedure[J]. Chin J Pediatr Surg, 2005, 26(8): 397-400. DOI: 10.3760/cma.j.issn.0253-3006.2005.08.002.
+[32]
+NotricaDM.
+Modifications to the Nuss procedure for pectus excavatum repair: A 20-year review[J].
+Semin Pediatr Surg,
+2018,
+27(
+3):
+133-
+150.
+DOI: 10.1053/j.sempedsurg.2018.05.004.
+[33]
+de Oliveira CarvalhoPE, da SilvaMV, RodriguesOR, et al.
+Surgical interventions for treating pectus excavatum[J].
+Cochrane Database Syst Rev,
+2014(
+10):
+CD008889.
+DOI: 10.1002/14651858.CD008889.pub2.
+[34]
+NasrA, FecteauA, WalesPW.
+Comparison of the Nuss and the Ravitch procedure for pectus excavatum repair: a meta-analysis[J].
+J Pediatr Surg,
+2010,
+45(
+5):
+880-
+886.
+DOI: 10.1016/j.jpedsurg.2010.02.012.
+[35]
+KangCH, ParkS, ParkIK, et al.
+Long-term surveillance comparing satisfaction between the early experience of nuss procedure vs.ravitch procedure[J].
+Korean J Thorac Cardiovasc Surg,
+2012,
+45(
+5):
+308-
+315.
+DOI: 10.5090/kjtcs.2012.45.5.308.
+[36]
+KanagaratnamA, PhanS, TchantchaleishviliV, et al.
+Ravitch versus Nuss procedure for pectus excavatum: systematic review and meta-analysis[J].
+Ann Cardiothorac Surg,
+2016,
+5(
+5):
+409-
+421.
+DOI: 10.21037/acs.2016.08.06.
+[37]
+GouldJL, SharpRJ, PeterSD, et al.
+The minimally invasive repair of pectus excavatum using a subxiphoid incision[J].
+Zeitschrift Fur Kinderchirurgie,
+2017,
+27(
+1):
+2-
+6.
+DOI: 10.1055/s-0036-1587585.
+[38]
+ParkHJ, KimKS.
+The sandwich technique for repair of pectus carinatum and excavatum/carinatum complex[J].
+Ann Cardiothorac Surg,
+2016,
+5(
+5):
+434-
+439.
+DOI: 10.21037/acs.2016.08.04.
+[39]
+李国庆，梅举，丁芳宝, 等.
+新改良NUSS手术临床应用初步体会[J].
+中华小儿外科杂志,
+2013,
+34(
+7):
+493-
+496.
+DOI: 10.3760/cma.j.issn.0253-3006.2013.07.004.
+LiGQ, MeiJ, DingBF, et al. A report on an improved NUSS procedure and its clinical application[J]. Chin J Pediatr Surg, 2013, 34(7): 493-496.DOI: 10.3760/cma.j.issn.0253-3006.2013.07.004.
+[40]
+BrochhausenC, TurialS, MüllerFK, et al.
+Pectus excavatum: history, hypotheses and treatment options[J].
+Interact Cardiovasc Thorac Surg,
+2012,
+14(
+6):
+801-
+806.
+DOI: 10.1093/icvts/ivs045.
+[41]
+SujkaJ, St PeterS, MuellerCM.
+Do health beliefs affect pain perception after pectus excavatum repair？[J].
+Pediatr Surg Int,
+2018,
+34(
+12):
+1363-
+1367.
+DOI: 10.1007/s00383-018-4354-x.
+[42]
+KragtenH, HöppenerP, GielisA, et al.
+Pectus excavatum severity underestimated due to lack of objective measures in radiological reports[J].
+BMJ Case Rep,
+2016,
+2016:
+bcr2015213904.
+DOI: 10.1136/bcr-2015-213904.
+[43]
+ZouJY, LuoCQ, LiuZG, et al.
+Cardiac arrest without physical cardiac injury during Nuss repair of pectus excavatum[J].
+J Cardiothorac Surg,
+2017,
+12(
+1):
+61.
+DOI: 10.1186/s13019-017-0624-2.
+[44]
+HebraA, KellyRE, FerroMM, et al.
+Life-threatening complications and mortality of minimally invasive pectus surgery[J].
+J Pediatr Surg,
+2018,
+53(
+4):
+728-
+732.
+DOI: 10.1016/j.jpedsurg.2017.07.020.
+[45]
+崔瑜，王凯忠，崔有斌, 等.
+NUSS手术(微创漏斗胸矫形术)在治疗小儿漏斗胸中的应用[J].
+吉林医学,
+2007,
+28(
+3):
+320-
+321.
+DOI: 10.3969/j.issn.1004-0412.2007.03.044.
+CuiY, WangKZ, CuiYB, et al.NUSS procedure for the correction of pectus excavatum[J]. Jilin Med J, 2007, 28(3): 320-321. DOI: 10.3969/j.issn.1004-0412.2007.03.044.
+[46]
+ShinS, GoretskyMJ, KellyRE, et al.
+Infectious complications after the Nuss repair in a series of 863 patients[J].
+J Pediatr Surg,
+2007,
+42(
+1):
+87-
+92.
+DOI: 10.1016/j.jpedsurg.2006.09.057.
+[47]
+van RenterghemKM, von BismarckS, BaxNM, et al.
+Should an infected Nuss bar be removed？[J].
+J Pediatr Surg,
+2005,
+40(
+4):
+670-
+673.
+DOI: 10.1016/j.jpedsurg.2004.12.005.
+[48]
+CastellaniC, SchalamonJ, SaxenaAK, et al.
+Early complications of the Nuss procedure for pectus excavatum: a prospective study[J].
+Pediatr Surg Int,
+2008,
+24(
+6):
+659-
+666.
+DOI: 10.1007/s00383-008-2106-z.
+[49]
+CalkinsCM, ShewSB, SharpRJ, et al.
+Management of postoperative infections after the minimally invasive pectus excavatum repair[J].
+J Pediatr Surg,
+2005,
+40(
+6):
+1004-
+1007;
+discussion 1007-8.
+DOI: 10.1016/j.jpedsurg.2005.03.017.
+[50]
+St PeterSD, SharpSW, OstlieDJ, et al.
+Use of a subxiphoid incision for pectus bar placement in the repair of pectus excavatum[J].
+J Pediatr Surg,
+2010,
+45(
+6):
+1361-
+1364.
+DOI: 10.1016/j.jpedsurg.2010.02.115.
+[51]
+KellyRE, GoretskyMJ, ObermeyerR, et al.
+Twenty-one years of experience with minimally invasive repair of pectus excavatum by the Nuss procedure in 1215 patients[J].
+Ann Surg,
+2010,
+252(
+6):
+1072-
+1081.
+DOI: 10.1097/SLA.0b013e3181effdce.
+[52]
+MarculescuCE, OsmonDR.
+Antibiotic prophylaxis in orthopedic prosthetic surgery[J].
+Infect Dis Clin North Am,
+2005,
+19(
+4):
+931-
+946.
+DOI: 10.1016/j.idc.2005.07.002.
+[53]
+HebraA, GaudererMW, TaggeEP, et al.
+A simple technique for preventing bar displacement with the Nuss repair of pectus excavatum[J].
+J Pediatr Surg,
+2001,
+36(
+8):
+1266-
+1268.
+DOI: 10.1053/jpsu.2001.25791.
+[54]
+陈刚，谢亮，唐继鸣, 等.
+胸腔镜辅助下成人漏斗胸的Nuss微创矫治术[J].
+中华胸心血管外科杂志,
+2008,
+24(
+6):
+386-
+388.
+DOI: 10.3760/cma.j.issn.1001-4497.2008.06.010.
+ChenG, XieL, TangJM, et al.Thoracoscopy assisted Nuss procedure for pectus excavatum correction in adult[J]. Chin J Thorac Cardiovasc Surg, 2008, 24(6): 386-388.DOI: 10.3760/cma.j.issn.1001-4497.2008.06.010.
+[55]
+de CamposJR, Das-Neves-PereiraJC, LopesKM, et al.
+Technical modifications in stabilisers and in bar removal in the Nuss procedure[J].
+Eur J Cardiothorac Surg,
+2009,
+36(
+2):
+410-
+412.
+DOI: 10.1016/j.ejcts.2009.03.061.
+[56]
+ChengYL, LeeSC, HuangTW, et al.
+Efficacy and safety of modified bilateral thoracoscopy-assisted Nuss procedure in adult patients with pectus excavatum[J].
+Eur J Cardiothorac Surg,
+2008,
+34(
+5):
+1057-
+1061.
+DOI: 10.1016/j.ejcts.2008.07.068.
+[57]
+谢亮，陈刚，唐继鸣, 等.
+Nuss手术矫治复杂漏斗胸95例[J].
+中华胸心血管外科杂志,
+2011,
+27(
+11):
+648-
+650.
+DOI: 10.3760/cma.j.issn.1001-4497.2011.11.004.
+XieL, ChenG, TangJM, et al.The Nuss procedure for complicated pectus excavatum[J]. Chin J Thorac Cardiovasc Surg, 2011, 27(11): 648-650. DOI: 10.3760/cma.j.issn.1001-4497.2011.11.004.
+[58]
+ChoiS, ParkHJ.
+Complications after pectus excavatum repair using pectus bars in adolescents and adults: risk comparisons between age and technique groups[J].
+Interact Cardiovasc Thorac Surg,
+2017,
+25(
+4):
+606-
+612.
+DOI: 10.1093/icvts/ivx162.
+[59]
+YanagaH, ImaiK, TanakaY, et al.
+Two-stage transplantation of cell-engineered autologous auricular chondrocytes to regenerate chondrofat composite tissue: clinical application in regenerative surgery[J].
+Plast Reconstr Surg,
+2013,
+132(
+6):
+1467-
+1477.
+DOI: 10.1097/01.prs.0000434408.32594.52.
+[60]
+Sacco CasamassimaMG, GoldsteinSD, SalazarJH, et al.
+Perioperative strategies and technical modifications to the Nuss repair for pectus excavatum in pediatric patients: a large volume, single institution experience[J].
+J Pediatr Surg,
+2014,
+49(
+4):
+575-
+582.
+DOI: 10.1016/j.jpedsurg.2013.11.058.
+[61]
+ParkHJ, KimKS.
+Pectus bar removal: surgical technique and strategy to avoid complications[J].
+J Vis Surg,
+2016,
+2:
+60.
+DOI: 10.21037/jovs.2016.02.27.
+[62]
+Abu-TairT, TurialS, HessM, et al.
+Impact of pectus excavatum on cardiopulmonary function[J].
+Ann Thorac Surg,
+2018,
+105(
+2):
+455-
+460.
+DOI: 10.1016/j.athoracsur.2017.09.037.
+[63]
+ObermeyerRJ, GaffarS, KellyRE, et al.
+Selective versus routine patch metal allergy testing to select bar material for the Nuss procedure in 932 patients over 10years[J].
+J Pediatr Surg,
+2018,
+53(
+2):
+260-
+264.
+DOI: 10.1016/j.jpedsurg.2017.11.021.
+[64]
+HeitmillerK, FrenchA, AlaishSM, et al.
+Patch testing for metal allergy with manufacturer-supplied materials before nuss bar insertion[J].
+Dermatitis,
+2015,
+26(
+6):
+271-
+275.
+DOI: 10.1097/DER.0000000000000149.
+[65]
+SakamotoK, AndoK, NomaD.
+Metal allergy to titanium bars after the Nuss procedure for pectus excavatum[J].
+Ann Thorac Surg,
+2014,
+98(
+2):
+708-
+710.
+DOI: 10.1016/j.athoracsur.2013.10.089.
+[66]
+NavratilM, BatinicaM, Ivković-JurekovićI.
+Metal allergy as a late-onset complication of the Nuss procedure in a pediatric patient[J].
+Pediatr Pulmonol,
+2018,
+53(
+8):
+E24-
+E26.
+DOI: 10.1002/ppul.24072.
+贡献者信息
+中华医学会小儿外科学分会心胸外科学组
+广东省医师协会胸外科分会
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-01-15
+收稿日期：2019-08-25
+Guideline and Consensus
+National consensus on surgery for pectus excavatum in China
+Section of Cardiothoracic Surgery, Branch of Pediatric Surgery, Chinese Medical Association,  Branch of Thoracic Surgery, Guangdong Provincial Physician Association
+Published
+2020-01-15
+Cite as
+Chin J Pediatr Surg, 2020,41(01): 7-12. DOI: 10.3760/cma.j.issn.0253-3006.2020.01.002
+Contributor Information
+Section of Cardiothoracic Surgery, Branch of Pediatric Surgery, Chinese Medical Association
+Branch of Thoracic Surgery, Guangdong Provincial Physician Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华小儿外科杂志2020年41卷01期
+文    题：漏斗胸外科治疗中国专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华小儿外科杂志2020年41卷01期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

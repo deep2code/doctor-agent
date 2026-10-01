@@ -1,0 +1,898 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E8%BF%87%E6%95%8F%E6%80%A7%E7%B4%AB%E7%99%9C%E5%BE%AA%E8%AF%81%E8%AF%8A%E6%B2%BB%E5%BB%BA%E8%AE%AE.html
+# 标题: 儿童过敏性紫癜循证诊治建议 - 中华儿科杂志
+# 发布方/日期: 儿科，中华儿科杂志, 2013,51(7) : 502-507. DOI: 10.3760/cma.j；2013-07-02
+
+儿童过敏性紫癜循证诊治建议
+中华医学会儿科学分会免疫学组
+《中华儿科杂志》编辑委员会
+中华儿科杂志, 2013,51(7) : 502-507. DOI: 10.3760/cma.j.issn.0578-1310.2013.07.006
+一、前言
+过敏性紫癜(Henoch-Schönlein purpura，HSP)是儿童期最常发生的血管炎，主要以小血管炎为病理改变的全身综合征。HSP临床表现为非血小板减少性可触性皮肤紫癜，伴或不伴腹痛、胃肠出血、关节痛、肾脏损害等症状。多数呈良性自限性过程，但也可出现严重的胃肠道、肾脏及其他器官损伤[1,2]。目前，HSP发病机制仍不清楚，尚缺乏统一的治疗方案以及规范的随诊。为了规范儿童HSP的临床诊治，2012年2月中华医学会儿科学分会免疫学组在湖南长沙召开了儿童HSP诊断与治疗专家座谈会，决定按照循证方法学的原则制定本诊治建议，2012年9月及10月分别在中华医学会第十七次全国儿科学术大会及中华医学会全国小儿免疫学术会议上对指南初稿进行了讨论。本诊治建议最大限度收集来自成人和儿科的原创性临床研究、国内外各种数据库的综合资料和诊疗指南、专家共识等文献资料，进行分析总结，并以此为基础形成诊治建议。本建议适用于有一定儿科疾病诊治基础或经验的儿科医师。在针对具体患儿时，本指南不是临床医师必须执行的诊治规范，临床医生应充分了解本病的最佳临床证据和现有医疗资源，采纳恰当的诊疗方案。
+二、证据来源
+本指南检索了自1992年2月始截至2012年2月在www.guideline.gov, www.nice.org.uk，mdm.ca/cpgsnew/cpgs/index.asp，www.show.scot.nhs.uk，www.nzgg.org.nz，www.eguidelines.co.uk，www.g-i-n.net，Cochrane图书馆、EMBASE、MEDLINE、中文的相关数据库(中国知网、万方数据库)等。检索关键词为：英文"Purpura，Schönlein -Henoch" OR "Henoch-Schönlein purpura"OR"Schönlein-Henoch purpura" OR "Henoch purpura"OR"Schönlein purpura"。共检索到文献2260篇，其中外文相关指南共0篇，临床研究59篇(来自儿童患者51篇)，随机对照临床试验(RCT) 17篇(来自儿童患者17篇), Meta分析4篇(来自儿童患者2篇)，综述385篇(来自儿童患者185篇)，系统综述24篇(来自儿童患者15篇)，其他相关文献报道2215篇(来自儿童患者1590篇)。中文：检索词"紫癜，过敏性"，共检索到文献4015篇(来自儿童患者831篇)，其中中文儿童紫癜性肾炎相关指南共1篇。
+三、证据分级水平和推荐等级
+本指南参照2001年英国牛津循证医学的证据分级与推荐意见强度，将证据水平分为Ⅰ、Ⅱ、Ⅲ、Ⅳ和Ⅴ共5个级别，推荐等级分为A、B、C、D和E共5个等级(表1)。本指南治疗中以[证据水平/推荐等级]表示。
+点击查看表格
+表1
+证据水平及推荐等级
+表1
+证据水平及推荐等级
+证据水平
+Ⅰ
+大样本，随机研究，结论确定，假阳性或假阴性错误的风险较低
+Ⅱ
+小样本，随机研究，结论不确定，假阳性和(或)假阴性的风险较高
+Ⅲ
+非随机，同期对照研究
+Ⅳ
+非随机，历史对照研究和专家意见
+Ⅴ
+系列病例报道，非对照研究和专家意见
+推荐等级
+A
+至少2项Ⅰ级研究结果支持
+B
+仅有1项Ⅰ级研究结果支持
+C
+仅有Ⅱ级研究结果支持
+D
+至少有1项Ⅲ级研究结果支持
+E
+仅有Ⅳ级或Ⅴ级研究结果支持
+四、流行病学
+HSP可发生于所有年龄段儿童，最小病例报道为6个月患儿，但多见于2～6岁，75%患者小于8岁，90%患者小于10岁。秋冬季节发病多见。国外统计儿童每年的发病率为(10.5～20.4)/10万。我国台湾地区年发病率为12.9/10万，内地尚无大宗流行病学发病率的数据报道。其中4～6岁发病率最高，达到每年70.3/10万。有报道男女发病率之比为1.2∶1，黑人发病率较白人和亚洲人稍低[3,4,5]。
+五、病因
+迄今为止，该病的病因及发病机制仍未完全阐明，病因可能涉及感染、免疫紊乱、遗传等因素。其发病机制以IgA介导的体液免疫异常为主，IgA1沉积于小血管壁引起的自身炎症反应和组织损伤在HSP发病中起重要作用，特别是IgA1糖基化异常及IgA1分子清除障碍在HSP的肾脏损害起着关键作用，紫癜性肾炎(HSPN)患儿血清半乳糖缺乏IgA1(Galactose-deficient IgA1，Gd-IgA1)水平增高，大分子的IgA1-IgG循环免疫复合物沉积于肾脏可能是导致HSPN的重要发病机制[6]。T细胞功能改变、细胞因子和炎症介质的参与、凝血与纤溶机制紊乱、易感基因等因素在HSP发病中也起着重要作用。
+1．感染：
+上呼吸道感染常常是HSP发生的触发因素。HSP最常见的感染以A组β溶血性链球菌所致的上呼吸道感染最多见[7],幽门螺旋菌(HP )、金黄色葡萄球菌等感染可能也是HSP发病的原因之一[8,9]。HSP发生也可能与副流感、微小病毒B19等病毒感染有关[9,10]，其他病原体包括肺炎支原体[11]可能与HSP发生有一定相关性。
+2．疫苗接种：
+有文献报道某些疫苗接种[12,13,14]如流感疫苗、乙肝疫苗、狂犬疫苗、流脑疫苗、白喉疫苗、麻疹疫苗也可能诱发HSP，但尚需可靠研究证据论证。
+3．食物和药物因素：
+有个案报道某些药物[15,16,17,18,19,20,21,22,23]如克拉霉素、头孢呋辛、米诺环素、环丙沙星、双氯芬酸、丙基硫氧嘧啶、肼苯哒嗪、别嘌呤醇、苯妥英钠、卡马西平、异维A酸、阿糖胞苷、阿达木单克隆抗体(adalimumab)、依那西普(Etanercept)等的使用也可能触发HSP发生。但目前尚无明确证据证明食物过敏可导致HSP。
+4．遗传因素：
+HSP存在遗传好发倾向，不同种族人群的发病率也不同，白种人的发病率明显高于黑种人。近年来有关遗传学方面的研究涉及的基因主要有HLA基因[24,25]、家族性地中海基因、血管紧张素转换酶基因(ACE基因)[26]、甘露糖结合凝集素基因[27]、血管内皮生长因子基因、PAX2基因、TIM-1基因等。文献报道黏附分子P-selectin表达增强及基因多态性可能与HSP发病相关，P-selectin基因启动子-2123多态性可能与儿童HSP发病相关[28]。
+六、临床特征
+1．皮疹：
+是HSP的常见症状，是HSP诊断的必需条件。典型的紫癜形成前可能是类似荨麻疹或红色丘疹的皮疹，四肢或臀部对称性分布，以伸侧为主。可逐渐扩散至躯干及面部，并可能形成疱疹、坏死及溃疡，也可出现针尖样出血点[29]。另外，皮疹也可见于阴囊、阴茎、龟头、手掌及足底处。少于5%HSP患儿有皮肤坏死。皮疹一般在数周后消退，可遗留色素沉着，但是会逐渐消退。35%～70%年幼儿还可出现非凹陷性头皮、面部、手背或足背水肿[30]，急性发作期部分患儿尚有手臂、腓肠肌、足背、眼周、头皮、会阴部等神经血管性水肿和压痛。
+2．关节症状：
+皮疹并不是所有患儿的主诉，有30%～43%的患儿以关节痛或腹痛起病，可长达14 d无皮疹，极易误诊。关节受累发生率82%[29,31]，以单个关节为主，主要累及双下肢，尤其是踝关节及膝关节，但鲜有侵蚀性关节炎发生。
+3．胃肠道症状：
+胃肠道症状发生率50%～75%[4,29,32]，包括轻度腹痛和(或)呕吐，但有时为剧烈腹痛，偶尔有大量出血、肠梗阻及肠穿孔。肠套叠是少见但很严重的并发症，发生率为1%～5%。与特发性肠套叠典型回结肠位置相比，HSP肠套叠70%病例是回肠套叠，30%是回结肠部。还可有少见的肠系膜血管炎、胰腺炎、胆囊炎、胆囊积水、蛋白丢失性肠病及肠壁下血肿至肠梗阻[4]。
+4．肾脏损害：
+临床上肾脏受累发生率20%～60%[2,29,30,31,32,33]。常见有镜下血尿和(或)蛋白尿，肉眼血尿也常见，高血压可单发或合并肾脏病变，急性肾小球肾炎或肾病综合征表现占HSP患儿6%～7%，严重的可出现急性肾衰竭。
+5．其他系统表现：
+生殖系统受累以睾丸炎常见，男孩HSP发生率为27%[29,31,34]。神经系统受累占2%，常见头痛，可出现抽搐、瘫痪、舞蹈症、运动失调、失语、失明、昏迷、蛛网膜下腔出血、视神经炎、吉兰-巴雷综合征，也有颅内占位、出血或血管炎报道，但较少见[29,35]。儿童少见肺部改变(<1%)，有肺出血、肺泡出血及间质性肺炎的报道[36]。也有患儿出现肌肉内出血、结膜下出血、反复鼻衄、腮腺炎和心肌炎。
+七、辅助检查
+过敏性紫癜目前尚无特异性的诊断方法，相关辅助检查仅有助于了解病情和并发症，可根据病情选择下列检查。
+1．外周血检查：
+白细胞正常或增加，中性粒细胞可增高。一般情况下无贫血，胃肠道出血严重时可合并贫血、血小板计数正常或升高。红细胞沉降率正常或增快，C-反应蛋白升高。凝血功能检查通常正常，抗凝血酶原-Ⅲ可增高或降低，部分患儿纤维蛋白原含量、D-二聚体含量增高。
+2．尿常规：
+可有红细胞、蛋白、管型，重症可见肉眼血尿。镜下血尿和蛋白尿为最常见的肾脏表现。
+3．血液生化检查：
+血肌酐、尿素氮多数正常，极少数急性肾炎和急进性肾炎表现者可升高。血谷丙转氨酶(ALT)、谷草转氨酶(AST)少数可有升高。少数血磷酸肌酸激酶同工酶(CK-MB)可升高。血白蛋白在合并肾病或蛋白丢失性肠病时可降低。
+4．免疫学检查：
+部分患儿血清IgA升高，类风湿因子IgA和抗中性粒细胞抗体IgA可升高。
+5．影像学检查：
+(1)超声检查：超声检查对于HSP消化道损伤的早期诊断和鉴别诊断起重要作用。高频超声检查HSP急性期肠道损害显示病变肠壁水肿增厚，回声均匀减低，肠腔向心性或偏心性狭窄，其黏膜层及浆膜层呈晕环状低回声表现。彩色多普勒超声在皮肤紫癜出现前可显示受累的肠管节段性扩张、肠壁增厚、黏膜粗糙、肠腔狭窄、增厚肠壁血流丰富，也可显示肠系膜淋巴结大及肠间隙积液。HSP排除肠套叠的检查首先是腹部超声。
+(2)X线及CT检查：HSP合并胃肠道受累时，腹部X线可表现为肠黏膜折叠增厚、指纹征、肠襻间增宽，小肠胀气伴有多数液气平面，同时结肠和直肠内无气体；CT表现为多发节段性肠管损害，受累肠壁水肿增厚、肠管狭窄、受累肠管周围常可见少量腹腔积液。当CT示多节段的跳跃性肠壁增厚、肠系膜水肿、血管充血及非特异性淋巴结肿大，应考虑HSP的诊断。在诊断HSP并发症，如肠套叠、肠穿孔、肠梗阻时，CT表现更具特征性，尤其肠系膜血管炎的诊断中，可见明显肠壁、血管壁水肿及增厚圈。注意对怀疑有肠套叠的HSP患者，行钡剂或空气灌肠对诊断和治疗意义不大，而且有可能会加重炎症，甚至导致肠穿孔，CT检查多在腹部X线及B超检查有疑问时适用。
+(3)内镜检查：消化道内镜能直接观察HSP患儿的胃肠道改变，严重腹痛或胃肠道大出血时可考虑内镜检查。内镜下胃肠黏膜呈紫癜样改变、糜烂和溃疡。典型者为紫癜样斑点、孤立性出血性红斑、微隆起、病灶间可见相对正常黏膜。病变多呈节段性改变，主要累及胃、十二指肠、小肠和结肠，但往往以小肠为重，很少累及食管。侵犯部位以十二指肠黏膜改变最为突出，十二指肠降段不规则溃疡可能也是HSP在胃肠道的典型表现。
+6．皮肤活检：
+对于临床皮疹不典型或疑诊患者可行皮肤活检协助诊断。典型病理改变为白细胞碎裂性血管炎，血管周围有炎症变化，中性粒细胞和嗜酸粒细胞浸润等情况。血管壁可有灶性坏死及血小板血栓形成，严重病例有坏死性小动脉炎、出血及水肿，胃肠道及关节等有类似的病理改变。免疫荧光可见IgA、C3、纤维蛋白、IgM沉积[3,37,38,39]。
+八、诊断标准
+2006年欧洲抗风湿病联盟和欧洲儿科风湿病学会制定了儿童血管炎新的分类标准[40]，本指南参照此标准。
+HSP的诊断标准(EULAR/PReS统一标准)：可触性(必要条件)皮疹伴如下任何一条：①弥漫性腹痛；②任何部位活检示IgA沉积；③关节炎/关节痛；④肾脏受损表现[血尿和(或)蛋白尿]。
+部分患儿仅表现为单纯皮疹而无其他症状，2012年长沙儿童过敏性紫癜诊治专家座谈会根据国内情况建议：对于典型皮疹急性发作的患儿排除相关疾病可以临床诊断，对于皮疹不典型或未见急性期发作性皮疹者，仍需严格按标准诊断，必要时行皮肤活检。
+九、治疗
+HSP具有自限性，单纯皮疹通常不需要治疗干预。治疗包括控制患儿急性症状和影响预后的因素，如急性关节痛、腹痛及肾损害。
+1．一般治疗：
+目前尚无明确证据证明食物过敏是导致HSP的病因，故仅在HSP胃肠道损害时需注意控制饮食，以免加重胃肠道症状。HSP腹痛患儿若进食可能会加剧症状，但是大部分轻症患儿可以进食少量少渣易消化食物，严重腹痛或呕吐者需要营养要素饮食或暂时禁食并胃肠外营养支持治疗。
+2．抗感染治疗：
+急性期呼吸道及胃肠道等感染可适当给予抗感染治疗，注意急性期感染控制后抗感染治疗对HSP的发生并无治疗和预防作用。
+3．皮疹治疗：
+皮疹很少需要治疗，目前尚无证据证明糖皮质激素治疗对皮疹的消退及复发有效，但有报道糖皮质激素用于皮肤疱疹和坏死性皮疹治疗[41]。
+4．关节症状治疗：
+关节痛患儿可使用非甾体类抗炎药止痛治疗。另外，口服泼尼松[1 mg/(kg·d)，2周后减量]可降低HSP关节炎患儿关节疼痛程度及疼痛持续时间[Ⅰ/A][42]。
+5．胃肠道症状治疗：
+糖皮质激素治疗可较快缓解急性HSP的胃肠道症状，缩短腹痛持续时间[Ⅱ/B][42,43]。激素也应用于其他胃肠道症状，如低蛋白性水肿、胃肠蛋白丢失等。腹痛明显时需要严密监测患儿出血情况(如呕血、黑便或血便)，出血严重时需行内镜进一步检查。严重胃肠道血管炎，有应用丙种球蛋白、甲泼尼龙静滴及血浆置换或联合治疗有效的报道[Ⅴ/E][44,45,46]。虽然HSP持续性或慢性腹痛不是很常见，但也有报道应用甲氨蝶呤和吗替麦考酚酯取得了较好疗效[Ⅲ/D][47,48]。
+6．紫癜性肾炎治疗：
+紫癜性肾炎诊疗参照中华医学会儿科学分会肾脏病学组制定的相应诊疗指南[49]。
+7．糖皮质激素的应用：
+糖皮质激素适用于HSP胃肠道症状、关节炎、血管神经性水肿、肾损害较重及表现为其他器官的急性血管炎患儿。目前认为激素对HSP胃肠道及关节症状有效。早期应用激素能有效缓解腹部及关节症状，明显减轻腹痛，提高24 h内的腹痛缓解率，可能减少肠套叠、肠出血的发生风险[Ⅱ/B]；对腹部症状严重的患儿早期应用激素是有益的，有可能降低外科手术干预风险[Ⅰ/B][42,43,50,51,52]。注意HSP腹痛时应用激素治疗同时要注意严密观察肠套叠、肠穿孔、腹膜炎等急腹症症状和体征[Ⅲ/D][53]。多个随机对照试验证明早期应用糖皮质激素不能阻止HSP患者肾病的发生[Ⅱ/C][42,43,52]。也没有证据提示糖皮质激素能预防HSP的复发[Ⅱ/C]，但能有效改善肾脏症状[Ⅰ/A][54]。
+有腹痛症状者推荐采用口服泼尼松治疗，1～2 mg/kg(最大剂量60 mg) 1～2周，后1～2周减量。胃肠症状较重者不能口服患儿(持续腹痛、肠出血、肠系膜血管炎、胰腺炎等)、关节炎、血管神经性水肿及其他器官的急性血管炎病情较重者推荐静脉使用糖皮质激素：推荐使用短效糖皮质激素氢化可的松琥珀酸钠5～10 mg/(kg·次)，根据病情可间断4～8 h重复使用，也可使用中长效糖皮质激素甲泼尼龙5～10 mg/(kg·d)[急性器官血管炎病情病情严重者冲击治疗剂量可达15～30 mg/(kg·d)，最大剂量小于1000 mg/d，连用3 d，必要时1～2周后重复冲击3 d]或地塞米松0.3 mg/(kg·d)，严重症状控制后应改口服糖皮质激素，并逐渐减量，总疗程推荐2～4周，注意疗程不宜过长。
+8．其他免疫抑制剂的应用：
+糖皮质激素治疗HSP反应不佳或依赖者加用或改用吗替麦考酚酯后可改善胃肠道症状(包括腹痛和肠出血)、关节炎症状及皮疹反复发作[Ⅴ/E][55]，也有采用静脉用甲泼尼龙和环磷酰胺冲击治疗HSP合并颅内血管炎、颅内出血及HSP合并肺泡出血的有效治疗病例报道[Ⅴ/E][56,57]，以及静脉环孢霉素A有效治疗HSP合并肺泡出血病例报道[Ⅴ/E][58]。近年吗替麦考酚酯、环磷酰胺、硫唑嘌呤、咪唑立宾、环孢霉素A、他克莫司等免疫抑制剂常用于严重HSPN患者的治疗，但目前尚无较高的证据水平研究证明对HSP肾脏以外症状治疗的有效性，尚需进一步研究证实。有个案报道抗CD20单克隆抗体Rituximab治疗严重慢性HSP可改善皮肤和肾脏症状，疗效有待进一步研究证实[59,60]。
+9．静脉用丙种球蛋白(IVIG)：
+IVIG能明显改善HSP坏死性皮疹、严重胃肠道症状(包括腹痛、肠出血、肠梗阻)、脑血管炎(包括抽搐、颅内出血)的症状[Ⅴ/E]，推荐剂量1 g/(kg·d)，连用2 d，或2 g/(kg·d)用1 d，或400 mg/(kg·d)连用4 d[61,62,63,64]。由于缺乏良好的临床RCT研究证据，对于IVIG应用于治疗HSP适应证和剂量还不确定，仍有待于高质量的临床研究证实。注意有报道部分患儿使用IVIG后出现肾衰竭[65]，故临床不要盲目扩大使用指征，仅在HSP严重症状常规糖皮质激素无效时选用。
+10．血浆置换：
+血浆置换适用于治疗急进性紫癜性肾炎(病理提示新月体肾炎)，HSP伴有严重合并症患者。
+单独血浆置换治疗可以明显提高肾小球滤过率[Ⅴ/E][66]，改善急进性紫癜性肾炎预后[Ⅴ/E][67,68]；但对终末期肾衰竭治疗疗效仍有争议，仍需对照研究[Ⅴ/E][69]。
+血浆置换可缓解HSP神经系统症状，可作为HSP合并严重神经系统并发症的一线治疗[Ⅴ/E][35]。HSP合并肺肾综合征或反复肺出血时建议血浆置换[Ⅴ/E][70]；有报道血浆置换联合免疫抑制剂治疗HSP并多脏器功能衰竭后胃肠道出血停止，因此快速进展或危及生命的HSP推荐使用血浆置换联合免疫抑制剂治疗[Ⅴ/E][71]。
+由于研究证据等级较低，研究结论尚需要大样本RCT研究证实。目前，对于轻-中度过敏性紫癜及肾炎的一线治疗方法仍为药物治疗为主。
+11．白细胞去除法：
+对于HSP糖皮质激素及IVIG治疗无效时使用，可改善皮疹及胃肠道症状[Ⅴ/E][72]，由于病例少，确切疗效需进一步证实。
+12．临床常用的治疗评价：
+(1)抗过敏、抑酸治疗：HSP是一种自身免疫性小血管炎，从已知HSP发生机制上抗过敏及抑酸治疗并无理论基础来支持。通过检索关于HSP的抗过敏治疗后发现，大多数文献将抗过敏治疗作为HSP的基础治疗，却对研究对象几乎均没有给出过敏的基本定义标准，按Jadad量表评价文献均为低质量文献，结论的可靠性低，所以抗过敏治疗的作用缺乏相应的高质量试验依据证实，小样本研究未证实抗过敏药物赛庚啶有预防肾损害的作用[54]。目前临床上采用的抑酸剂多为H2受体拮抗剂，同样，由于研究文献总体文献质量过低，抑酸治疗的作用尚不明确。
+(2)肝素、双嘧达莫、阿司匹林治疗：1项RCT研究证实肝素有预防肾损害的作用[Ⅲ/C][73]，确切疗效还需更多的研究证实。而小样本的研究未证实抗血小板药物双嘧达莫、阿司匹林有预防肾损害的作用，但研究的证据水平不高[Ⅴ/E][54]。
+十、预防
+积极控制口腔、耳鼻喉感染，以及进行扁桃体及腺样体切除术对皮疹反复复发及紫癜性肾炎的治疗有效[74,75]，有研究对40例难治性过敏性紫癜患者中31例积极控制口腔及耳鼻喉感染可促进其临床缓解，9例效果不好者(反复发作、持续严重紫癜或出现肾炎表现者)采取切除扁桃体加用甲泼尼龙冲击治疗取得良好效果，均临床治愈，随访2～10年无复发[Ⅴ/E][75]。
+十一、预后
+过敏性紫癜预后主要与消化道症状及肾炎有关，近期预后与消化道症状有关，远期预后与肾炎有关。有研究认为消化道症状也会影响其远期预后，患HSP有腹痛表现和使用过糖皮质激素的患儿功能性胃肠病(FGID)发病率更高[Ⅲ/D][76]。
+过敏性紫癜患儿20%～60%发生紫癜性肾炎，远期预后与肾脏受累的严重程度有关。总体发生终末期肾病(ESKD)的风险度小于2%。有报道年龄大于4岁患儿并发严重肾炎所占比例高达80%，除了年龄外，严重的腹痛与胃肠道出血，紫癜持续超过1个月及血清Ⅷ因子减少也是肾脏受累的危险因素[32]。起病时表现为肾炎综合征、肾病综合征、肾炎型肾病患儿，约5%～20%发展为终末期肾病。以孤立性血尿或蛋白尿为早期发病表现患者发生长期肾损伤的比例为1.6%，肾炎或肾病综合征为早期发病表现患者发生长期肾损伤的比例为19.5%，以肾炎及肾病综合征混合型为早期发病表现患者中发生长期肾损伤的比例为45%～50%[Ⅲ/D][5,77]。幼年时患过HSP的妊娠妇女易发生高血压、蛋白尿及子痫[Ⅴ/E][5,77]。
+十二、随访
+HSP是自限性疾病，多数在8周内可以痊愈，但是一年内复发率大约有30%～40%。儿童HSP肾脏损害85%发生在病程4周内，91%发生在病程6周内，97%发生在6个月内[Ⅰ/A]，因此建议对尿液分析正常患儿至少随访半年，随访半年后尿液检查无异常者少见长期肾损害发生，6个月后尿液检查仍异常者需继续随访3～5年[78]。
+(吴小川 唐雪梅 胡坚 张秋业 黄建萍 李永柏 执笔)
+参加本指南审定专家
+参加本指南审定专家(以姓氏拼音为序)：胡坚 黄建萍 黄松明 黄文彦 陆彪 李秋 李晓忠 李永柏 宋红梅 唐雪梅 吴凤岐 吴小川 杨锡强 易著文 曾华松 张秋业 周南 张伟 赵晓东
+方法学指导专家：詹思延
+参考文献
+[1]
+McCarthyHJ, TizardEJ.
+Clinical practice: Diagnosis and management of Henoch-Schönlein purpura.
+Eur J Pediatr,
+2010，
+169：
+643–
+650.
+[2]
+TizardEJ, Hamilton-AyresMJ.
+Henoch-Schönlein purpura.
+Arch Dis Child Educ Pract Ed，
+2008，
+93：
+1–
+8.
+[3]
+AalberseJ, DolmanK, RamnathG, et al.
+Henoch-Schönlein purpura in children: an epidemiological study among Dutch paediatricians on incidence and diagnostic criteria.
+Ann Rheum Dis,
+2007，
+66：
+1648–
+1650.
+[4]
+ChangWL, YangYH, LinYT, et al.
+Gastrointestinal manifestations in Henoch-Schönlein purpura: a review of 261 patients.
+Acta Paediatr,
+2004,
+93：
+1427–
+1431.
+[5]
+GoldsteinAR, WhiteRH, AkuseR, et al.
+Long-term follow-up of childhood Henoch-Schönlein purpura.
+Lancet，
+1992，
+339：
+280–
+282.
+[6]
+LauKK, SuzukiH, NovakJ, et al.
+Pathogenesis of Henoch-Schönlein purpura nephritis.
+Pediatr Nephrol,
+2010，
+25：
+19–
+26.
+[7]
+al-SheyyabM, BatiehaA, el-ShantiH, et al.
+Henoch-Schonlein purpura and streptococcal infection: a prospective case-control study.
+Ann Trop Paediatr,
+1999，
+19：
+253–
+255.
+[8]
+王秉慧，周丽群，左亚华.
+儿童腹型过敏性紫癜与幽门螺杆菌感染的关系探讨．
+中国当代儿科杂志，
+2007，
+9:
+367–
+369.
+[9]
+WeissPF, KlinkAJ, LuanX, et al.
+Temporal association of Streptococcus, Staphylococcus, and parainfluenza pediatric hospitalizations and hospitalized cases of Henoch-Schonlein purpura.
+J Rheumatol,
+2010,
+37:
+2587–
+2594.
+[10]
+CiocAM, SedmakDD, NuovoGJ, et al.
+Parvovirus B19 associated adult Henoch Schonlein purpura.
+J Cutan Pathol,
+2002，
+29:
+602–
+607.
+[11]
+LimCS, LimSL.
+Henoch-Schonlein purpura associated with Mycoplasma pneumoniae infection.
+Cutis，
+2011，
+87:
+273–
+276.
+[12]
+WatanabeT．
+Henoch-Schonlein purpura following influenza vaccinations during the pandemic of influenza A (H1N1).
+Pediatr Nephrol,
+2011，
+26:
+795–
+798.
+[13]
+ShuM, LiuQ, WangJ，et al.
+Measles vaccine adverse events reported in the mass vaccination campaign of Sichuan province, China from 2007 to 2008.
+Vaccine，
+2011，
+29：
+3507–
+3510.
+[14]
+张碧丽，王文红，范树颖．
+儿童过敏性紫575例分析．
+中华儿科杂志，
+2001，
+39：
+646–
+649.
+[15]
+AktasB, TopcuogluP, KurtOK, et al.
+Severe Henoch-Schönlein purpura induced by cytarabine.
+Ann Pharmacother,
+2009，
+43：
+792–
+793.
+[16]
+ZinkA, ErniS, FliegnerM.
+Antibiotics, purpura and ulcers: a leukocytoclastic vasculitis after clarithromycin.
+Dtsch Med Wochenschr,
+2006，
+131：
+2217–
+2220.
+[17]
+HenggeUR, JochumC, TschakarjanE, et al.
+Purpura fulminans. A fatal consequence of a widely used medication？.
+Hautarzt,
+2002，
+53：
+483–
+487.
+[18]
+ten HolderSM, JoyMS, FalkRJ.
+Cutaneous and systemic manifestations of drug-induced vasculitis.
+Ann Pharmacother，
+2002，
+36：
+130–
+147.
+[19]
+PonsR, EscutiaB.
+Ciprofloxacin-induced vasculitis with cutaneous and renal involvement.
+Nefrologia,
+2001，
+21：
+209–
+212.
+[20]
+DerungsA, EberhardtK, HeinigerU, et al.
+Possible aggravation of a Henoch Schoenlein purpura by isotretinoin.
+Praxis (Bern 1994),
+2012，
+101：
+827–
+837.
+[21]
+EscuderoA, LucasE, VidalJB, et al.
+Drug-related Henoch-Schönlein Purpura.
+Allergol Immunopathol (Madr)，
+1996，
+24：
+22–
+24.
+[22]
+KanekoK, IgarashiJ, SuzukiY, et al.
+Carbamazepine-induced thrombocytopenia and leucopenia complicated by Henoch-Schönlein purpura symptoms.
+Eur J Pediatr,
+1993，
+152：
+769–
+770.
+[23]
+RolleAS, ZimmermannB, PoonSH.
+Etanercept-induced Henoch-Schönlein purpura in a patient with ankylosing spondylitis.
+J Clin Rheumatol,
+2013，
+19：
+90–
+93.
+[24]
+SaulsburyF.
+Henoch -Schönlein purpura.
+Curr Opin Rheumatol，
+2010，
+22：
+598–
+602.
+[25]
+任少敏，杨光路，仝林虎，等.
+蒙汉族儿童过敏性紫癜临床特点与HLA-DRB1基因关联性对比分析.
+中华风湿病学杂志，
+2003，
+7：
+469–
+473.
+[26]
+吴春蕾，樊忠民，夏正坤，等.
+血管紧张素原基因多态性与儿童过敏性紫癜及紫癜性肾炎的关系.
+临床儿科杂志，
+2009，
+27：
+314–
+316.
+[27]
+杨军，李成荣，李永柏，等.
+甘露糖结合凝集素基因多态性与中国汉族儿童过敏性紫癜的相关性研究.
+中国当代儿科杂志，
+2003，
+5：
+523–
+526.
+[28]
+李晶，王一冰，刘华林，等.
+过敏性紫癜P-选择素基因-2123位点多态性检测与临床分析．
+中国当代儿科杂志，
+2011，
+13：
+278–
+281.
+[29]
+SaulsburyFT.
+Henoch-Schönlein purpura in children.Report of 100 patients and review of the literature.
+Medicine(Baltimore)，
+1999，
+78：
+395-
+409.
+[30]
+OzenS.
+The spectrum of vasculitis in children.
+Best Prac Res Clin Rheumatol,
+2002，
+16:
+411–
+425.
+[31]
+TrapaniS, MicheliA, GrisoliaF, et al.
+Henoch-Schönlein Purpura inchildhood: epidemiological and clinical analysis of 150 cases over a 5 year period and review of literature.
+Semin Arthritis Rheum,
+2005，
+35：
+143–
+153.
+[32]
+SanoH, IzumidaM, ShimizuH, et al.
+Risk factors of renal involvement and significant proteinuria in Henoch-Schönlein purpura.
+Eur J Pediatr,
+2002，
+161：
+196–
+201.
+[33]
+ChangWL, YangYH, LinYT, et al.
+Renal manifestations in Henoch-Schönlein purpura: a 10 year clinical study.
+Pediatr Nephrol,
+2005,
+20：
+1269–
+1272.
+[34]
+HaTS, LeeJS.
+Scrotal involvement in childhood Henoch-Schönlein purpura.
+Acta Paediatr,
+2007，
+96：
+552–
+555.
+[35]
+WenYK, YangY, ChangCC.
+Cerebral vasculitis and intracerebral hemorrhage in Henoch-Schönlein purpura treated with plasmapheresis.
+Pediatr Nephrol，
+2005，
+20：
+223–
+225.
+[36]
+NadrousHF, YuAC, SpecksU, et al.
+Pulmonary involvement in Henoch-Schönlein purpura.
+Mayo Clin Proc,
+2004，
+79：
+1151–
+1157.
+[37]
+FretzayasA, SiontiI, MoustakiM, et al.
+Henoch-Schönlein purpura: a long-term prospective study in Greek children.
+J Clin Rheumatol,
+2008，
+14：
+324–
+331.
+[38]
+WeissPF, KlinkAJ, HexemK, et al.
+Variation in inpatient therapy and diagnostic evaluation of children with Henoch Schönlein purpura.
+J Pediatr,
+2009，
+155：
+812–
+818.
+[39]
+TizardEJ.
+Henoch-Schönlein purpura.
+Arch Dis Child，
+1999，
+80：
+380–
+383.
+[40]
+OzenS, RupertoN, DillonMJ, et al.
+EULAR/PReS endorsed consensus criteria for the classification of childhood vasculitides.
+Ann Rheum Dis,
+2006，
+65：
+936–
+941.
+[41]
+SunderkötterC, BonsmannG, SindrilaruA, et al.
+Management of leukocytoclastic vasculitis.
+J Dermatol Treat,
+2005，
+16：
+193–
+206.
+[42]
+RonkainenJ, KoskimiesO, Ala-HouhalaM，et al.
+Early prednisone therapy in Henoch-Schönlein purpura: a randomized，double-blind, placebo-controlled trial.
+J Pediatr,
+2006，
+149：
+241–
+247.
+[43]
+ReinehrT, BürkG, AndlerW.
+Does steroid treatment of abdominal pain prevent renal involvement in Henoch-Schönlein purpura？.
+J Pediatr Gastroenterol Nutr,
+2000，
+31：
+323–
+324.
+[44]
+WortmannSB, FiselierTJ, Van De KarNC, et al.
+Refractory severe intestinal vasculitis due to Henoch-Schönlein purpura: successful treatment with plasmapheresis.
+Acta Paediatr，
+2006，
+95：
+622–
+623.
+[45]
+LamireauT, RebouissouxL, HehunstreJP.
+Intravenous immunoglobulin therapy for severe digestive manifestations of Henoch-Schönlein purpura.
+Acta Paediatr,
+2001，
+90：
+1081–
+1082.
+[46]
+WangL, HuangFC, KoSF, et al.
+Successful treatment of mesenteric vasculitis caused by Henoch-Schönlein purpura with methylprednisolone pulse therapy.
+Clin Rheumatol,
+2003，
+22：
+140–
+142.
+[47]
+MartinS, CramerCH, HeikenenJ, et al.
+Gastrointestinal symptoms of Henoch-Schönlein purpura treated with mycophenolate mofetil.
+J Pediatr Gastroenterol Nutr,
+2006，
+43：
+245–
+247.
+[48]
+RettigP, CronRQ.
+Methotrexate used as a steroid-sparing agent in non-renal chronic Henoch-Schönlein purpura.
+Clin Exp Rheumatol,
+2003，
+21：
+767–
+769.
+[49]
+黄松明，李秋，郭艳芳．
+紫癜性肾炎的诊治：儿童常见肾脏疾病诊治循证指南(试行)解读(二)．
+中华儿科杂志，
+2009，
+47：
+914–
+916.
+[50]
+WeissPF, KlinkAJ, LocalioR, et al.
+Corticosteroids may improve clinical outcomes during hospitalization for Henoch-Schönlein purpura.
+Pediatrics,
+2010，
+126：
+674–
+681.
+[51]
+WeissPF, FeinsteinJA, LuanX, et al.
+Effects of Corticosteroid on Henoch-Schönlein Purpura: a systematic review.
+Pediatrics,
+2007，
+120：
+1079–
+1086.
+[52]
+HuberAM, KingJ, McLaineP，et al.
+A randomized, placebo-controlled trial of prednisone in early Henoch-Schönlein purpura.
+BMC Med,
+2004，
+2：
+1–
+7.
+[53]
+HaroonM.
+Should children with Henoch-Schonlein purpura and abdominal pain be treated with steroidsö .
+Arch Dis Child,
+2005，
+90：
+1196–
+1198.
+[54]
+ChartapisakW, OpastirakuS, WillisNS, et al.
+Prevention and treatment of renal disease in Henoch-Schonlein purpura: a systematic review.
+Arch Dis Child，
+2009，
+94：
+132–
+137.
+[55]
+NikibakhshAA, MahmoodzadehH, KaramyyarM, et al.
+Treatment of complicated henoch-schönlein purpura with mycophenolate mofetil: a retrospective case series report.
+Int J Rheumatol，
+2010，
+2010：
+254316.
+doi: 10.1155/2010/254316.
+[56]
+KaramadoukisL, LudemanL, WilliamsAJ.
+Henoch-Schönlein purpura with intracerebral haemorrhage in an adult patient: a case report.
+J Med Case Rep，
+2008，
+2:
+200.
+[57]
+RajagopalaS, ShobhaV, DevarajU, et al.
+Pulmonary Hemorrhage in Henoch-Schönlein Purpura: case report and systematic review of the English literature.
+Semin Arthritis Rheum,
+2013，
+42：
+391–
+340.
+[58]
+MatsubayashiR, MatsubayashiT, FujitaN, et al.
+Pulmonary hemorrhage associated with Henoch-Schönlein purpura in a child.
+Clin Rheumatol,
+2008，
+27：
+803–
+805.
+[59]
+DonnithorneKJ, AtkinsonTP, HinzeCH, et al.
+Rituximab therapy for severe refractory chronic Henoch-Schönlein purpura.
+J Pediatr,
+2009，
+155：
+136–
+139.
+[60]
+PilleboutE, RochaF, FardetL，et al.
+Successful outcome using rituximab as the only immunomodulation in Henoch-Schonlein purpura: case report.
+Nephrol Dial Transplant,
+2011，
+26：
+2044–
+2046.
+[61]
+FagbemiAA, TorrenteF, HilsonAJ, et al.
+Massive gastrointestinal haemorrhage in isolated intestinal Henoch-Schonlein purpura with response to intravenous immunoglobulin infusion.
+Eur J Pediatr,
+2007，
+166：
+915–
+919.
+[62]
+HamidouMA, PottierMA, DupasB.
+Intravenous immunoglobulin in Henoch-Schönlein purpura.
+Ann Intern Med，
+1996，
+125：
+1013–
+1014.
+[63]
+LamireauT, RebouissouxL, HehunstreJP.
+Intravenous immunoglobulin therapy for severe digestive manifestations of Henoch-Schönlein purpura.
+Acta Paediatr,
+2001，
+90：
+1081–
+1082.
+[64]
+AriesPM，HellmichB, GrossWL.
+Intravenous immunoglobulin therapy in vasculitis: speculation or evidence？.
+Clin Rev Allergy Immunol，
+2005，
+29：
+237–
+245.
+[65]
+OrbachH，TishlerM，ShoenfeldY.
+Intravenous immunoglobulin and the kidney-a two-edged sword.
+Semin Arthritis Rheum，
+2004,
+34:
+593–
+601.
+[66]
+WrightE, DillonMJ, TullusK.
+Childhood vasculitis and plasma exchange.
+Eur J Pediatr,
+2007，
+166：
+145–
+151.
+[67]
+HattoriM, ItoK, KonomotoT，et al.
+Plasmapheresis as the sole therapy for rapidly progressive Henoch-Schönlein purpura nephritis in children.
+Am J Kidney Dis,
+1999，
+33：
+427–
+433.
+[68]
+KawasakiY, SuzukiJ, MuraiM，et al.
+Plasmapheresis therapy for rapidly progressive Henoch-Schönlein nephritis.
+Pediatr Nephrol，
+2004，
+19：
+920–
+923.
+[69]
+SchärerK，KrmarR，QuerfeldU, et al.
+Clinical outcome of Schönlein-Henoch purpura nephritis in children.
+Pediatr Nephrol,
+1999，
+13：
+816–
+823.
+[70]
+ChenSY，ChangKC，YuMC，et al.
+Pulmonary hemorrhage associated with Henoch-Schönlein purpura in pediatric patients: case report and review of the literature.
+Semin Arthritis Rheum,
+2011，
+41：
+305–
+312.
+[71]
+RechJ, FuchsF, KallertS, et al.
+Plasmapheresis therapy in an elderly patient with rapidly progressive Henoch-Schönlein purpura with disseminated organ involvement.
+Clin Rheumatol,
+2007，
+26:
+112–
+114.
+[72]
+OkiE, TsugawaK, SuzukiK, et al.
+Leukocytapheresis for the treatment of refractory Henoch-Schönlein purpura resistant to both prednisolone and intravenous immunoglobulin therapy.
+Rheumatol Int,
+2008，
+28：
+1181–
+1182.
+[73]
+何艳燕，潘伟，宋红梅，等.
+肝素预防过敏性紫癜肾炎肾损害的临床随机对照研究．
+中华儿科杂志，
+2002，
+40：
+99–
+102.
+[74]
+AdachiM, MatsutaniS.
+Treatment of Henoch-Schonlein purpura nephritis in children with tonsillectomy.
+Nippon Jibiinkoka Gakkai Kaiho,
+2006，
+109：
+696–
+702.
+[75]
+InoueCN, MatsutaniS, IshidoyaM, et al.
+Periodontal and ENT therapy in the treatment of pediatric Henoch-Schonlein purpura and IgA nephropathy.
+Adv Otorhinolaryngol,
+2011，
+72：
+53–
+56.
+[76]
+SapsM, DhrooveG, ChogleA.
+Henoch-Schonlein purpura leads to functional gastrointestinal disorders.
+Dig Dis Sci,
+2011，
+56：
+1789–
+1793.
+[77]
+RonkainenJ, NuutinenM, KoskimiesO.
+The adult kidney 24 years after childhood Henoch-Schonlein purpura: a retrospective cohort study.
+Lancet，
+2002，
+360：
+666–
+670.
+[78]
+NarchiH.
+Risk of long term renal impairment and duration of follow up recommended for Henoch-Schönlein purpura with normal or minimal urinary findings: a systematic review.
+Arch Dis Child,
+2005，
+90：
+916–
+920.
+贡献者信息
+中华医学会儿科学分会免疫学组
+《中华儿科杂志》编辑委员会
+历史
+出版日期：2013-07-02
+收稿日期：2013-01-03
+本文编辑
+关卫屏
+Standard/Protocol/Guideline
+Evidence-based recommendations for the diagnosis and management in the children with Henoch-Schönlein purpura
+The Subspecialty Group of Immunology, The Society of Pediatrics, Chinese Medical Association,  The Editorial Board Chinese Journal of Pediatrics
+Published
+2013-07-02
+Cite as
+Chin J Pediatr, 2013,51(7): 502-507. DOI: 10.3760/cma.j.issn.0578-1310.2013.07.006
+Contributor Information
+The Subspecialty Group of Immunology, The Society of Pediatrics, Chinese Medical Association
+The Editorial Board Chinese Journal of Pediatrics
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+证据水平及推荐等级
+证据水平
+Ⅰ
+大样本，随机研究，结论确定，假阳性或假阴性错误的风险较低
+Ⅱ
+小样本，随机研究，结论不确定，假阳性和(或)假阴性的风险较高
+Ⅲ
+非随机，同期对照研究
+Ⅳ
+非随机，历史对照研究和专家意见
+Ⅴ
+系列病例报道，非对照研究和专家意见
+推荐等级
+A
+至少2项Ⅰ级研究结果支持
+B
+仅有1项Ⅰ级研究结果支持
+C
+仅有Ⅱ级研究结果支持
+D
+至少有1项Ⅲ级研究结果支持
+E
+仅有Ⅳ级或Ⅴ级研究结果支持
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华儿科杂志2013年51卷7期
+文    题：儿童过敏性紫癜循证诊治建议
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华儿科杂志2013年51卷7期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

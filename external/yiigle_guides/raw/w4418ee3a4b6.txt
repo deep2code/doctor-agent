@@ -1,0 +1,602 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%96%B0%E7%94%9F%E5%84%BF%E5%8D%B1%E9%87%8D%E5%85%88%E5%A4%A9%E6%80%A7%E5%BF%83%E8%84%8F%E7%97%85%E6%9C%AF%E5%89%8D%E8%AF%84%E4%BC%B0%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%28%E8%8D%89%E6%A1%88%29.html
+# 标题: 新生儿危重先天性心脏病术前评估中国专家共识(草案) - 中华小儿外科杂志
+# 发布方/日期: 小儿外科，中华小儿外科杂志, 2017,38(3) : 164-169. DOI: 10.3760/cma.j；2017-03-15
+
+新生儿危重先天性心脏病术前评估中国专家共识(草案)
+中华医学会小儿外科学分会心胸外科学组
+中华小儿外科杂志, 2017,38(3) : 164-169. DOI: 10.3760/cma.j.issn.0253-3006.2017.03.002
+新生儿出生缺陷的发生率约在6.67‰～54.83‰，且有逐年上升趋势[1,2]。其中先天性心脏病(以下简称先心病)占各种出生缺陷的首位。在出生缺陷患儿中，约有三分之一至二分之一为多发畸形儿[3]。出生缺陷是导致新生儿死亡的重要原因，并对存活儿的生存质量、生存时间造成不同程度的影响[4,5]。
+新生儿危重先天性心脏病(critical congenital heart diease，CCHD)是指新生儿期即可出现严重症状的心脏解剖畸形，如不及时合理施救极易早期夭折，多需在新生儿期即进行初次心脏干预及手术以挽救生命[6,7]。患儿全身情况，包括合并畸形及继发脏器损害的情况是决定手术时机、手术方式的重要因素之一，也是增加心脏手术死亡的危险因素，对监护室滞留时间、住院时间及预后有极大影响。新生儿CCHD的术前评估策略应根据合并畸形及脏器损害的严重程度及病程缓急而异。
+一、新生儿CCHD的心脏专科检查评估及转运
+(一)新生儿CCHD的心脏专科检查评估
+患儿的病史，包括家族史和胎儿发育过程中的异常情况，是在新生儿CCHD的心脏专科检查时首先要详细追问的。一部分新生儿在产前检查时已提示先心病可能，但大部分新生儿是在生后数天因发现心脏杂音和/或经皮血氧饱和度下降而进行心脏专科检查[8]。测量经皮血氧饱和度是经济、便捷的检查手段，测值的异常具有明显意义[9,10,11]。注意经皮血氧饱和度的准确程度对新生儿监护很有帮助[12]。联合心脏杂音及经皮血氧饱和度测量2种筛查手段，能提高先心病检出率。合并大血管畸形可能时还建议测量四肢的血压和经皮血氧饱和度，以评估下半身血供情况。
+胸部X线摄片、心电图和超声心动图的联合检查对绝大部分先心病的诊断和评估已可以提供足够准确的相关信息[13]。诊断明确后即可及时选择合适的手术方式。这3项检查均可以在床旁完成，对危重患儿尤为适合，是目前常规的心脏检查项目。
+近年来，心脏增强断层扫描(CT)和心血管磁共振成像(MRI)技术进一步完善了对心脏内部结构及大血管形态的评估，使先心病无创伤性诊断更加趋于完善[14,15]。和MRI比较，CT有一定辐射，难以评估反流性病变，但CT的扫描时间少于5 s，无需长时间和深程度的镇静，对危重患儿的检查安全性较高[16]。对于超声心动图诊断有一定困难的复杂先心病，如主动脉病变、血管环、肺静脉畸形及合并侧枝循环的患儿，建议超声心动图联合心脏CT或MRI检查，可明显减少漏、误诊率[17]。现在，除非是新生儿期即需早期心脏介入治疗的先心病，如严重主动脉瓣狭窄、严重肺动脉瓣狭窄等，新生儿已极少需要行单纯诊断为目的的创伤性心导管检查。
+新生儿CCHD的手术时机与患儿临床症状，如严重紫绀或循环衰竭(气急、低血压、少尿、代谢性酸中毒等)密切相关。肺动脉闭锁、左心发育不良综合征、主动脉弓离断、伴有梗阻的完全性肺静脉异位回流、室间隔完整型完全性大动脉转位等，保守治疗难以奏效，一旦发现需限期或急诊手术治疗。此时应以心脏专科检查评估为主，新生儿相关评估可能需待患儿病情稳定后再考虑进行。
+(二)新生儿转运
+胎儿超声心动图可以检出大部分心脏先天畸形[18]。提醒医生早期重视，采取正确的诊断程序及干预措施，必要时可行剖宫产，部分则需作转运准备等。新生儿CCHD的评估及诊断如果能从出生前就开始，有一个包括产科和儿科医生在内的围产医学团队，将对救治帮助更大[19,20]。
+部分CCHD症状可能迅速恶化，如新生儿期的左心发育不良综合征、室间隔完整型完全性大动脉转位、室间隔完整型肺动脉闭锁、伴有梗阻的完全性肺静脉异位回流等，必须尽早实施心脏手术以挽救患儿生命[21,22]。应争取时间转运到相应心脏中心进行评估。完善CCHD新生儿转运机制，使危重新生儿的转运工作更加有序、规范。例如导管依赖型新生儿CCHD，由于出生后动脉导管迅速缩小甚至关闭，使病情迅速恶化[23]。如能及时加用前列腺素E维持动脉导管开放，合理供氧，改善内环境，可改善缺氧和代谢性酸中毒，增加转运的安全性[24]。规范化的转运网络能够提高转运前救治、转运途中处理及转运后的救治能力，全面提升危重新生儿救治质量，降低新生儿CCHD的病死率和并发症发生率[25]。
+建议增加相关先心病知识的教育和培训，提升医师对先心病的认识，提高CCHD的抢救成功率。建立转运前及转运到达时的新生儿危重评分(neonatal critical illness score，NCIS)评估，监测转运网络的质量。
+推荐：
+1．进行多学科技术协作。建议由产科、影像学科、心脏专科等中高级医师进行心脏畸形的产前、产后监测诊断与干预。
+2．有高危因素的先心病新生儿建议转运到具备有诊治CCHD经验的儿科心脏中心。
+3．建议构建规范的CCHD新生儿转运网络。
+二、新生儿CCHD合并畸形的诊断及评估
+此类新生儿转运至心脏监护室后，由于病情危重，生命体征不稳定，部分患儿需急诊或限期行心脏手术治疗，术前可能难以完成常规筛查和合并畸形及脏器功能检查，可在病情稳定后进行或建议出院后至相应科室进一步评估。合并肢体或外观畸形，如唇腭裂、多指(趾)等，易早期识别并告知家属。但还有大量外观"正常"的患儿，除心脏畸形外，还可能存在未检出的出生缺陷如先天性脑血管畸形、智力障碍、酶缺乏、免疫缺陷及内部器官畸形等。多发畸形的患儿整体治疗预后及长期生存质量较差，临床需提高警惕[26]。
+(一)先天畸形筛查
+1．新生儿常规筛查
+我国新生儿疾病筛查开始于1981年，目前覆盖率已接近50%。2004年原卫生部颁发《新生儿疾病筛查技术规范》文件，各省市也根据本地特点制定了相应的筛查常规及执行文件。筛查疾病的种类依据种族、地区而有所不同。我国目前筛查疾病仍以苯丙酮尿症和先天性甲状腺功能减低症为主，并加予听力筛查。部分南方城市增加了葡萄糖-6-磷酸脱氢酶(glucose-6-phosphate dehydrogenase deficiency，G6PD)缺陷病。
+新生儿遗传代谢病筛查一般要求在新生儿出生24 h后至第28天内施行，尽量在开奶喂养后72 h采血，以便及时发现遗传代谢病，在患儿未出现典型临床症状之前进行干预与治疗。由于有CCHD的新生儿病情危重，大多需急诊或限期手术，但术前由于血流动力学不稳定常常需予禁食或少量喂养，可导致筛查延后甚至遗漏。其中甲状腺功能低下和G6PD缺陷病对心脏手术的进行和恢复有一定影响。甲状腺功能异常可能导致心律、心肌收缩力以及黄疸消退异常，干扰术后病情判断及术后恢复[27,28]。G6PD缺陷病对用药有一定禁忌，如心脏术后可能会用到的阿斯匹林、维生素K等，应避免使用，以免引起溶血反应，影响恢复。
+新生儿听力筛查亦是常规项目。新生儿听力协会于1994年建议所有听障儿应在出生后3个月内诊断，需在6月龄前接受听力复健，以免延误正常的语言及身心发展。CCHD新生儿多有缺氧史、生产窒息史及气管插管史等，且易发生高胆红素血症，属于听力障碍高危者。由于听力筛查难以床旁进行，而此类新生儿心脏术前常处于危重状态，导致转运风险极大，应评估患儿病情，如术前病情不稳定无法完成听力筛查，可待术后病情稳定后进行或告知患儿家属出院后五官科门诊检查。
+2．重视心血管综合征的识别，加强染色体病理检查
+染色体异常是导致先天畸形的一个主要因素，出生缺陷患儿染色体异常检出率可达35%以上，多发畸形儿染色体病的风险明显高于单发畸形儿[3,29]。伴有先心病的心血管综合征有各种染色体异常[30]。除21-三体综合征、18-三体综合征和13-三体综合征等以外，较常见的DiGeorge综合征表现为染色体22q11区域片段的缺失或重复，Williams综合征表现为七号染色体长臂7q11.23区段部分缺损，猫叫综合征表现为5号染色体短臂缺失。
+心血管综合征除心脏畸形以外，还常合并智力、内分泌及免疫等其他方面异常，可能影响心脏手术治疗及预后[31]。存活者可能需相应科室的长期随访治疗。如DiGeorge综合征，除染色体22q11区域基因片段异常外，因胸腺和甲状旁腺缺如或发育不全，表现有细胞免疫缺陷和低钙，严重者心脏术后可能有反复感染和难以纠治的低钙血症，影响术后恢复。猫叫综合征合并喉部畸形，可造成术后撤离呼吸机困难，反复气管插管，延长术后恢复时间。
+如果先心病患儿同时伴有其他系统的先天性异常，包括面部的某些特征或肢体异常、其他器官异常、生长发育异常等，需怀疑心血管综合征的存在，可建议患儿进行遗传咨询和诊断，有条件者可考虑行诊断遗传异常的基因测试。在过去的30年中，染色体核型分析是首选的检测方法，可检出如21-三体综合征、18-三体综合征、Turner综合征等异常，但由于染色体核型分析只能检出5 Mb以上的染色体区域的拷贝数变异(缺失或重复)，其检出率仅在3%～15%，携带染色体微缺失和重复的患儿往往漏诊。目前染色体芯片分析技术的分辨率可达100 kb，提高了检出率[32]。临床上可依据患儿合并畸形、外观异常的情况和当地医院的条件适当选择。
+(二)宫内感染及眼科检查
+宫内感染常常是导致先心病的原因之一，可以引起心脏及其它脏器的病变，如弓形虫严重感染者会导致胎儿畸形甚至死亡，造成流产、死产、早产；风疹病毒感染会造成如耳聋、白内障、先天性心脏病等多种畸形；巨细胞病毒感染会引发胎儿智力迟钝和先天性耳聋。建议可以增加优生三项的检测(弓形虫抗体、风疹病毒抗体、巨细胞病毒抗体)。
+早产儿视网膜病变(retinopathy of prematurity，ROP)是早产儿和低体重儿发生的一种视网膜血管增生性病变，占儿童致盲原因的6%～18%。胎龄和出生体重是ROP发生的重要致病因素。早产儿合并高浓度氧气的应用更易造成早产儿视网膜病变的发生，包括：视网膜变性、视网膜脱离、并发性白内障等[33,34]。对于需进行心脏手术的早产儿及低体重儿围手术期应注意控制吸入氧浓度，如病情允许尽早进行眼底筛查[35]。以便早期发现ROP阈值病变，早期进行合理治疗，对降低ROP致盲率、改善早产儿生存质量有着重要意义。
+(三)其他脏器
+1．呼吸系统
+CCHD的新生儿如有严重心功能不全，临床常表现严重气促和吸气凹陷，部分患儿需气管插管机械通气支持，临床呼吸症状严重的新生儿除考虑心功能影响外，应注意是否合并新生儿呼吸困难的呼吸道病因，包括耳鼻咽喉科疾病如上呼吸道囊肿、先天性喉喘鸣等，以及气道畸形如气道狭窄软化、支气管瘘等。一些综合征如皮耶-罗宾综合征(小下颌-舌下垂综合征)及猫叫综合征，除心脏畸形外还伴有下颌骨和喉部发育畸形。
+气道畸形及气管的软化狭窄常常成为先心病矫治术后难以脱离呼吸机的主要原因。鉴别患儿术前是否已经合并气道异常对于判断预后极为重要，以便向家属交待预后及治疗方案。先心病患儿中合并气管狭窄的比例可高达12%以上[36,37]。尤其在合并主动脉弓病变的患儿中更为明显[38]。先天性气管狭窄通过纤维支气管镜和胸部CT检查可以明确诊断并评估病变位置及范围。胸部CT检查简便快速，但对已气管插管患儿无法提示主气道情况，且有一定辐射性。纤维支气管镜具有直观、准确的优点，可动态观察呼吸不同时相的气道内径变化，对患儿无放射性损伤，可以床旁进行，但对设备要求高，临床操作有一定风险。CT检查不能完全替代纤维支气管镜检对气道异常的诊断，特别是在有上呼吸道病变或气道动力性改变、痰栓堵塞时。两者结合可以对气道及其周围组织关系提供更加全面的信息，为手术方案的选择提供更多帮助。
+并非所有气管狭窄都需行气管手术，大部分患儿是由于气管受压引起气管软化，当外界压迫解除后，随着时间会逐渐改善。对CCHD新生儿，术前体检应仔细检查肺部和上呼吸道体征，如有严重呼吸困难、喘鸣音、声音改变(如哭声低哑)，尤其是与心功能不全程度不能完全符合时，临床应怀疑合并气道畸形，建议做胸部CT或纤维支气管镜检查。
+2．神经系统
+神经系统的异常在先心病患儿中较为多见，尤其在早产儿，可能有小头畸形、白质损伤和大脑成熟度异常等，颅脑超声和多普勒血流监测可有所提示。有心肺复苏抢救史、抽搐、肌张力异常及严重缺氧的患儿建议进行神经系统评估，如头颅MRI、脑电图监测。头颅MRI因无法床旁进行，检查时间较长，镇静程度较深，部分危重新生儿可能难以承受，可考虑检查时间较短的头颅CT检查。振幅整合脑电图(amplitude-integrated electroencephalogram, aEEG)能够床旁进行，可以无创、长时间连续进行新生儿脑功能监护，建议有条件的医院可将脑电图检查改为动态脑功能监测即aEEG。对术前有严重缺氧的患儿，有条件者还可进行脑氧监测，提高对神经系统预后的预测。
+3．消化系统
+先心病患儿可合并其他内脏畸形[3]。腹部脏器可能有多种发育畸形，腹部超声可有所提示[39]。严重的消化道畸形如食管闭锁、十二指肠闭锁/狭窄、环状胰腺、小肠闭锁等多可以早期发现并外科手术。但部分畸形如胆总管囊肿、肝脏囊肿、血管瘤等，泌尿系统疾患如肾发育不良、肾积水等早期临床并无症状，但在长时间体外循环心脏手术及术后心排量严重不足时可能影响病情恢复，甚至恶化病情。如患儿病情允许，建议术前予腹部超声检查以了解腹腔重要脏器的情况。
+三、评估继发脏器损伤
+CCHD新生儿因低血压、呼吸循环不稳定或严重紫绀常有心肺复苏抢救、气管插管机械通气史，有缺氧、低氧史，易出现多系统功能损伤，包括神经系统(颅内出血，缺氧缺血性脑病等)、呼吸系统(肺出血、慢性肺病、支气管肺发育不良等)、消化系统(坏死性小肠结肠炎等)及出凝血系统[40]。早产儿尤为明显。
+患儿病情危重程度与预后直接相关[41]。新生儿危重评分在大部分新生儿监护室的应用提示最危重时的总分值具有代表性，其危重总分值对患儿预后有评估价值。目前国内常用的是NCIS，分为：极危重、危重、非危重3个等级。危重评分分值越低，病变程度越重，多器官功能不全的发生率及病死率越高，能在发病早期发现危重病例[42]。对感染性休克的诊断有提示作用，判断缺氧缺血性脑病的危重程度及预后更加客观。
+国内NCIS较简便，在新生儿监护室使用也较广泛，但CCHD新生儿因血流动力学受心血管畸形影响，危重评分预后的估计价值与没有合并心血管畸形的新生儿有一定出入，临床使用时应注意结合具体病情综合考虑[43]。建议患儿在进入监护室时予以评分。
+CCHD新生儿的术前评估除了心脏方面专科评估，还应考虑到遗传代谢、其他脏器畸形和临床危重状况评分等，具体项目见图1。如果病情危重需急诊心脏手术治疗，可在其中任何阶段介入。
+点击查看大图
+图1
+新生儿CCHD术前建议评估项目
+注：PKU：苯丙酮尿症；CH：先天性甲状腺功能减低症；G6PD：葡萄糖-6-磷酸脱氢酶；TO：弓形虫；RV：风疹病毒；CMV：巨细胞病毒；EEG：脑电图；aEEG：振幅整合脑电图
+图1
+新生儿CCHD术前建议评估项目
+推荐：
+1．尽量完成规定的新生儿遗传代谢病筛查及听力筛查。早产儿、低体重儿还建议眼科检查及优生三项检测(弓形虫、风疹病毒、巨细胞病毒抗体)。如术前因病情危重无法完成评估者，可在病情稳定后进行或出院后相应科室进一步评估。
+2．临床合并一种以上心外畸形、面容异常或临床怀疑遗传性疾病或综合征的新生儿，建议行遗传学检查。如术后过程中出现临床难以解释的病情异常，应注意排除相关遗传代谢疾病。
+3．合并严重呼吸困难、喘鸣音、声音改变等情况者，建议行胸部CT和/或纤维气管镜检查。
+4．多发畸形、心肺复苏抢救史、抽搐、严重缺氧及临床怀疑神经系统异常者，建议行头颅超声或CT或MRI检查及脑电图等检查。
+5．建议腹部超声，有助于合并畸形诊断及危重程度评估。
+6．建议入心脏监护室时行新生儿危重评分。
+(宓亚平 贾兵 执笔)
+参与本专家共识起草的专家
+参与本专家共识起草的专家(按姓氏汉语拼音顺序排列)：安琪(四川大学华西医院)；曹华(福建医科大学附属协和医院)；曹云(复旦大学附属儿科医院)；陈寄梅(广东省人民医院)；陈欣欣、崔彦芹(广州市妇女儿童医疗中心)；董念国(华中科技大学同济医学院附属协和医院)；贾兵(复旦大学附属儿科医院)；李守军(中国医学科学院阜外医院)；李晓峰(首都医科大学附属北京儿童医院)；宓亚平(复旦大学附属儿科医院)；明腾(江西省儿童医院)；莫绪明(南京医科大学附属儿童医院)；舒强(浙江大学医学院附属儿童医院)；束亚琴(南京医科大学附属儿童医院)；徐卓明(上海交通大学医学院附属上海儿童医学中心)；杨一峰(中南大学湘雅二医院)；张海波(上海交通大学医学院附属上海儿童医学中心)；张泽伟(浙江大学医学院附属儿童医院)
+参考文献
+[1]
+LiuQG, SunJ, XiaoXW, et al.
+Birth defects data from surveillance hospitals in Dalian city, China, 2006-2010[J].
+J Matern Fetal Neonatal Med，
+2016，
+29(
+22):
+3615-
+3621.
+DOI：10.3109/14767058.2016.1140136.
+[2]
+LamichhaneDK, LeemJH, ParkM，et al.
+Increased prevalence of some birth defects in Korea，2009-2010[J].
+BMC Pregnancy Childbirth，
+2016，
+16:
+61.
+DOI：10.1186/s12884-016-0841-z.
+[3]
+San AgustinJT, KlenaN, GranathK, et al.
+Genetic link between renal birth defects and congenital heart disease[J].
+Nat Commun，
+2016，
+7:
+11103.
+DOI：10.1038/ncomms11103.
+[4]
+KumarP.
+Universal pulse oximetry screening for early detection of critical congenital heart disease[J].
+Clin Med Insights Pediatr，
+2016，
+10:
+35-
+41.
+DOI：10.4137/CMPed.S33086.
+[5]
+AbidD, ElloumiA, AbidL, et al.
+Congenital heart disease in 37，294 births in Tunisia: birth prevalence and mortality rate[J].
+Cardiol Young，
+2014，
+24(
+5):
+866-
+871.
+DOI：10.1017/S1047951113001194.
+[6]
+Chamsi-PashaMA, Chamsi-PashaH.
+Critical congenital heart disease screening[J].
+Avicenna J Med，
+2016，
+6(
+3):
+65-
+68.
+DOI：10.4103/2231-0770.184062.
+[7]
+WoodJ.
+Pulse oximetry screening for critical congenital heart defects[J].
+Neonatal Netw，
+2015，
+34(
+3):
+156-
+164.
+DOI：10.1891/0730-0832.34.3.156.
+[8]
+CrouchL, SperoniKG, JonesRA, et al.
+Timing of newborn pulse oximetry screenings for critical congenital heart defects before discharge[J].
+J Obstet Gynecol Neonatal Nurs，
+2016，
+45(
+1):
+39-
+44.
+DOI：10.1016/j.jogn.2015.10.007.
+[9]
+OsterME, KochilasL.
+Screening for critical congenital heart disease[J].
+Clin Perinatol，
+2016，
+43(
+1):
+73-
+80.
+DOI：10.1016/j.clp.2015.11.005.
+[10]
+BrunoCJ, HavranekT.
+Screening for critical congenital heart disease in newborns[J].
+Adv Pediatr，
+2015，
+62(
+1):
+211-
+226.
+DOI：10.1016/j.yapd.2015.04.002.
+[11]
+ReederMR, KimJ, NanceA, et al.
+Evaluating cost and resource use associated with pulse oximetry screening for critical congenital heart disease: Empiric estimates and sources of variation[J].
+Birth Defects Res A Clin Mol Teratol，
+2015，
+103(
+11):
+962-
+971.
+DOI：10.1002/bdra.23414.
+[12]
+MurphyD, PakY, ClearyJP.
+Pulse oximetry overestimates oxyhemoglobin in neonates with critical congenital heart disease[J].
+Neonatology，
+2016，
+109(
+3):
+213-
+218.
+DOI：10.1159/000442379.
+[13]
+LiRJ, SunZ, YangJ, et al.
+Diagnostic value of transthoracic echocardiography in patients with anomalous origin of the left coronary artery from the pulmonary artery[J].
+Medicine (Baltimore)，
+2016，
+95(
+15):
+e3401.
+DOI：10.1097/MD.0000000000003401.
+[14]
+NishiyamaY, TadaK, NishiyamaY, et al.
+Effect of the forward-projected model-based iterative reconstruction solution algorithm on image quality and radiation dose in pediatric cardiac computed tomography[J].
+Pediatr Radiol，
+2016，
+46(
+12):
+1663-
+1670.
+DOI：10.1007/s00247-016-3676-x.
+[15]
+LapierreC, GarelL, El-JalboutR，et al.
+Cardiac CT and MRI of cardiac malformations：How to interpret them？[J].
+Diagn Interv Imaging，
+2016，
+97(
+5):
+519-
+530.
+DOI：10.1016/j.diii.2016.02.016.
+[16]
+D'AltoM, DimopoulosK, BudtsW, et al.
+Multimodality imaging in congenital heart disease-related pulmonary arterial hypertension[J].
+Heart，
+2016，
+102(
+12):
+910-
+918.
+DOI：10.1136/heartjnl-2015-308903.
+[17]
+DacherJN, BarreE, DurandI, et al.
+CT and MR imaging in congenital cardiac malformations: where do we come from and where are we going？[J].
+Diagn Interv Imaging，
+2016，
+97(
+5):
+505-
+512.
+DOI：10.1016/j.diii.2016.02.009.
+[18]
+储晨，桂永浩.
+先天性心脏病产前诊断对围产儿结局的影响[J].
+中华围产医学杂志，
+2014，
+17(
+10):
+706-
+710.
+DOI: 10.3760/cma.j.issn.1007-9408.2014.10.011.
+ChuC, GuiYH. Effect of prenatal diagnosis of congenital heart disease on perinatal outcome[J]. Chin J Perinatal Med，2014，17(10):706-710. DOI: 10.3760/cmaj.issn.1007-9408.2014.10.011.
+[19]
+HollandBJ, MyersJA, WoodsCR.
+Prenatal diagnosis of critical congenital heart disease reduces risk of death from cardiovascular compromise prior to planned neonatal cardiac surgery: a meta-analysis[J].
+Ultrasound Obstet Gynecol，
+2015，
+45(
+6):
+631-
+638.
+DOI：10.1002/uog.14882.
+[20]
+EckersleyL, SadlerL, ParryE, et al.
+Timing of diagnosis affects mortality in critical congenital heart disease[J].
+Arch Dis Child，
+2016，
+101(
+6):
+516-
+520.
+DOI：10.1136/archdischild-2014-307691.
+[21]
+LauxD, BessieresB, HouyelL, et al.
+Early neonatal death and congenital left coronary abnormalities: ostial atresia，stenosis and anomalous aortic origin[J].
+Arch Cardiovasc Dis，
+2013，
+106(
+4):
+202-
+208.
+DOI：10.1016/j.acvd.2013.01.002.
+[22]
+陈纲，吴琳，刘芳，等.
+经右室肺动脉瓣成形术治疗室间隔完整型肺动脉闭锁的中期随访[J].
+中华小儿外科杂志，
+2016，
+37(
+2):
+85-
+90.
+DOI: 10.3760/cma.j.issn.0253-3006.2016.02.002.
+ChenG, WuL, LiuF，et al. Mid-term outcomes of transventricular valvotomy approach for initial treatment of pulmonary atresia with intact ventricular septum[J]. Chin J Pediatr Surg，2016，37(2):85-90. DOI: 10.3760/cma.j.issn.0253-3006.2016.02.002.
+[23]
+AykanatA, YavuzT, ÖzalkayaE, et al.
+Long-Term prostaglandin E1 infusion for newborns with critical congenital heart disease[J].
+Pediatr Cardiol，
+2016，
+37(
+1):
+131-
+134.
+DOI：10.1007/s00246-015-1251-0.
+[24]
+AlhussinW, VerklanMT.
+Complications of long-term prostaglandin E1 use in newborns with ductal-dependent critical congenital heart disease[J].
+J Perinat Neonatal Nurs，
+2016，
+30(
+1):
+73-
+79.
+DOI：10.1097/JPN.0000000000000152.
+[25]
+OsterME, AucottSW, GlidewellJ，et al.
+Lessons learned from newborn screening for critical congenital heart defects[J].
+Pediatrics，
+2016，
+137(
+5).
+DOI：10.1542/peds.2015-4573.
+[26]
+van RooijIA, van der ZandenLF, BongersEM, et al.
+AGORA, a data- and biobank for birth defects and childhood cancer[J].
+Birth Defects Res A Clin Mol Teratol，
+2016，
+106(
+8):
+675-
+684.
+DOI：10.1002/bdra.23512.
+[27]
+DechantMJ, van der Werf-GrohmannN, NeumannE, et al.
+Thyroidal response following iodine excess for cardiac catheterisation and intervention in early infancy[J].
+Int J Cardiol,
+2016，
+223:
+1014-
+1018.
+DOI：10.1016/j.ijcard.2016.08.292.
+[28]
+Soto-RiveraCL, SchwartzSM, SawyerJE, et al.
+Endocrinologic diseases in pediatric cardiac intensive care[J].
+Pediatr Crit Care Med，
+2016，
+17(
+8
+Suppl 1):
+S296-
+S301.
+DOI：10.1097/PCC.0000000000000827.
+[29]
+Roucher-BoulezF, Mallet-MotakD, Samara-BoustaniD, et al.
+NNT mutations: a cause of primary adrenal insufficiency, oxidative stress and extra-adrenal defects[J].
+Eur J Endocrinol，
+2016，
+175(
+1):
+73-
+84.
+DOI：10.1530/EJE-16-0056.
+[30]
+WangF, WangH, WangL, et al.
+Association between single nucleotide polymorphisms in NFATC1 signaling pathway genes and susceptibility to congenital heart disease in the Chinese population[J].
+Pediatr Cardiol，
+2016，
+7(
+8):
+1548-
+1561.
+DOI：10.1007/s00246-016-1469-5.
+[31]
+MuJ, QuD, BartczakA, et al.
+Fgl2 deficiency causes neonatal death and cardiac dysfunction during embryonic and postnatal development in mice[J].
+Physiol Genomics，
+2007，
+31(
+1):
+53-
+62.
+DOI：10.1152/physiolgenomics.00026.2007.
+[32]
+NaseerMI, ChaudharyAG, RasoolM, et al.
+Copy number variations in Saudi family with intellectual disability and epilepsy[J].
+BMC Genomics，
+2016，
+17(
+Suppl 9):
+757.
+DOI：10.1186/s12864-016-3091-6.
+[33]
+YauGS, LeeJW, TamVT, et al.
+Incidence and risk factors for retinopathy of prematurity in extreme low birth weight Chinese infants[J].
+Int Ophthalmol，
+2015，
+35(
+3):
+365-
+373.
+DOI：10.1007/s10792-014-9956-2.
+[34]
+BroxtermanEC, HugDA.
+Retinopathy of Prematurity: A Review of Current Screening Guidelines and Treatment Options[J].
+Mo Med，
+2016，
+113(
+3):
+187-
+190.
+[35]
+ReidB, WangH, GuilletR.
+Apnea after routine eye examinations in premature infants[J].
+Am J Perinatol，
+2016，
+34(
+2):
+199-
+203.
+DOI：10.1055/s-0036-1585412.
+[36]
+XueB, LiangB, WangS，et al.
+One-stage surgical correction of congenital tracheal stenosis complicated with congenital heart disease in infants and young children[J].
+J Card Surg，
+2015，
+30(
+1):
+97-
+103.
+DOI：10.1111/jocs.12418.
+[37]
+WangS, ZhangH, ZhuL，et al.
+Surgical management of congenital tracheal stenosis associated with tracheal bronchus and congenital heart disease[J].
+Eur J Cardiothorac Surg，
+2016，
+49(
+4):
+1201-
+1206.
+DOI：10.1093/ejcts/ezv317.
+[38]
+李建斌，崔彦芹，陈欣欣，等.
+先天性主动脉弓梗阻性病变合并喉气道疾病的围术期诊疗经验[J].
+中华小儿外科杂志，
+2016，
+37(
+2):
+106-
+109.
+DOI: 10.3760/cma.j.issn.0253-3006.2016.02.006.
+LiJB, CuiYQ, ChenXX，et al. Perioperative evaluations and treatments of airway compression in patients with congenital aortic arch obstruction disease[J]. Chin J Pediatr Surg, 2016，37(2):106-109. DOI: 10.3760/cma.j.issn.0253-3006.2016.02.006.
+[39]
+PostoevVA, GrjibovskiAM, NieboerE, et al.
+Changes in detection of birth defects and perinatal mortality after introduction of prenatal ultrasound screening in the Kola Peninsula (North-West Russia): combination of two birth registries[J].
+BMC Pregnancy Childbirth，
+2015，
+15:
+308.
+DOI：10.1186/s12884-015-0747-1.
+[40]
+MorseS, GroerM, SheltonMM, et al.
+Asystematic review: the utility of the revised version of the score for neonatal acute physiology among critically Ⅲ neonates[J].
+J Perinat Neonatal Nurs，
+2015，
+29(
+4):
+315-
+344.
+DOI：10.1097/JPN.0000000000000135.
+[41]
+HarshaSS, ArchanaBR.
+SNAPPE-II (Score for Neonatal Acute Physiology with Perinatal Extension-II) in Predicting Mortality and Morbidity in NICU[J].
+J Clin Diagn Res，
+2015，
+9(
+10):
+C10-
+C12.
+DOI：10.7860/JCDR/2015/14848.6677.
+[42]
+林慧佳，马晓路，施丽萍，等.
+危重评分预测新生儿坏死性小肠结肠炎预后62例回顾分析[J].
+中华儿科杂志，
+2013，
+51(
+5):
+326-
+330.
+DOI：10.3760/cma.j.issn.0578-1310.2013.05.002.
+LinHJ, MaXL, ShiLP, et al. Predicting outcome in necrotizing enterocolitis with the score for neonatal acute physiology: a retrospective study of 62 cases[J]. Chin J Pediatr, 2013，51(5):326-330. DOI: 10.3760/cmaj.issn.0578-1310.2013.05.002.
+[43]
+王菲，胡风华，宋国维，等.
+简化新生儿危重病例评分法的临床应用评价[J].
+中华急诊医学杂志，
+2011，
+20(
+5):
+469-
+472.
+DOI: 10.3760/cma.j.issn.1671-0282.2011.05.006.
+WangF, HuFH, SongGW, et al. Evaluation of the clinical application of simplified neonatal critical illness score[J]. Chin J Emerg Med, 2011，20(5):469-472. DOI: 10.3760/cmaj.issn.1671-0282.2011.05.006.
+贡献者信息
+中华医学会小儿外科学分会心胸外科学组
+历史
+出版日期：2017-03-15
+收稿日期：2016-10-25
+Expert Consensus
+China expert consensus in preoperative assessment of newborn with critical congenital heart disease (draft)
+The Subspecialty Group of Cardiothoracic Surgery, the Society of Pediatric Surgery, Chinese Medical Association
+Published
+2017-03-15
+Cite as
+Chin J Pediatr Surg, 2017,38(3): 164-169. DOI: 10.3760/cma.j.issn.0253-3006.2017.03.002
+Contributor Information
+The Subspecialty Group of Cardiothoracic Surgery, the Society of Pediatric Surgery, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+注：PKU：苯丙酮尿症；CH：先天性甲状腺功能减低症；G6PD：葡萄糖-6-磷酸脱氢酶；TO：弓形虫；RV：风疹病毒；CMV：巨细胞病毒；EEG：脑电图；aEEG：振幅整合脑电图
+图1
+新生儿CCHD术前建议评估项目
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华小儿外科杂志2017年38卷3期
+文    题：新生儿危重先天性心脏病术前评估中国专家共识(草案)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华小儿外科杂志2017年38卷3期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

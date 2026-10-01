@@ -1,0 +1,989 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%A4%8D%E5%8F%91%E9%BC%BB%E5%92%BD%E7%99%8C%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 复发鼻咽癌治疗专家共识 - 中华放射肿瘤学杂志
+# 发布方/日期: 耳鼻咽喉科，中华放射肿瘤学杂志, 2018,27(1) : 16-22. DOI: 10.3760/cma.j.i；2018-01-15
+
+复发鼻咽癌治疗专家共识
+中国抗癌协会鼻咽癌专业委员会
+林少俊
+陈晓钟
+李金高
+胡超苏
+中华放射肿瘤学杂志, 2018,27(1) : 16-22. DOI: 10.3760/cma.j.issn.1004-4221.2018.01.004
+一、前言
+鼻咽癌是头颈部常见恶性肿瘤之一，来源于鼻咽上皮细胞，其分布存在明显的人种差异和地域分布差异。好发于黄种人，主要分布在东南亚地区如中国南部、马来西亚、泰国、菲律宾等地[1,2]。由于鼻咽癌对放疗敏感，且毗邻脑干、颞叶、脊髓、视神经等重要组织结构，无法手术，因此放疗是鼻咽癌的标准治疗手段。鼻咽癌在接受根治性放疗后，肿瘤复发是治疗失败的主要原因之一。在常规放疗时代鼻咽癌复发率为20%～40%[3,4,5,6]。随IMRT技术应用鼻咽癌LRC率明显提高，LR率下降为10%～15%[7,8,9,10,11]。根据病变部位，鼻咽癌复发分为原发肿瘤部位的LR和颈部淋巴引流区LR。IMRT时代LR率5%～10%左右，RR率5%左右[7,8,9,10,11]。
+鼻咽癌复发定义为首诊鼻咽癌根治性治疗后6个月，期间肿瘤组织达到cCR和pCR，随后再次出现肿瘤增长[12,13]。复发存在明显的时间规律性，50%左右2年内发生，80%～90%在疗后5年内，5年以后极少发生[14,15]。一般将根治性治疗后2年定义为复发高危期，2～5年为中危期，5年以后为低危期。临床上根据复发部位与放疗剂量关系，即是否在照射靶区范围内，分为野内复发、边缘复发及野外复发。研究表明复发主要为野内复发，占50%～72%，边缘复发和野外复发相对较少[16,17]。
+二、病因
+复发主要原因可分为生物学因素和临床因素。生物学因素表现为肿瘤克隆源性细胞放疗抵抗，常用的照射剂量无法完全杀灭，根治性治疗后仍存在微小残留病灶，这些病灶再增殖形成复发病灶[18,19]。也有一种正常鼻咽鳞状上皮恶性癌变[20]，严格意义上属于二源癌，但由于病理类型无法区分，临床上笼统归为复发。临床因素指肿瘤组织照射剂量不足导致复发，常见原因为肿瘤侵犯范围和阳性淋巴结的评估欠准确、靶区内出现冷点、体位固定和摆位误差过大等因素导致部分肿瘤照射不足。
+三、临床表现
+复发鼻咽癌常见的临床表现与原发鼻咽癌类似，可表现为无症状或不典型。与复发的部位密切相关，主要表现为鼻塞、涕中带血、耳鸣、耳聋、头痛、面麻、复视等，主要体征则包括鼻咽部肿物、颈部肿块和颅神经麻痹。
+四、治疗策略
+1．建议对复发鼻咽癌采用多学科综合治疗(MDT)模式，有计划、合理地制定个体化综合治疗方案，有助于提高疗效和生存质量。
+2．优先考虑加入临床试验。
+3．局部复发鼻咽癌：(1)分期为rT1—T2期，手术和放疗均可。具备内镜下鼻咽癌手术的单位，优先考虑内镜下鼻咽癌手术治疗，术后切缘阳性者应补充放疗；(2)分期为rT3—T4期，精确放疗为主要治疗手段，联合化疗和分子靶向治疗是否获益目前尚无明确的证据。
+4．区域复发鼻咽癌：手术治疗是首选治疗方式。再程放疗同样可以选择，特别对于无法耐受手术或者手术无法切除的。对于拒绝手术和放疗者可考虑化疗和靶向治疗，但疗效差。
+5．局部和区域复发鼻咽癌：同时出现局部和区域复发，局部病灶切除联合淋巴结清扫创伤大，应选择局部病灶和淋巴结区域放疗。
+6．无法实施或患者拒绝再次放疗者：可考虑化疗和靶向治疗，如患者已经出现恶液质、KPS评分<60分、鼻咽溃疡或者预计生存期<3个月应予以最佳支持治疗，不推荐积极的治疗措施。
+7．复发合并转移性鼻咽癌：按转移性鼻咽癌治疗，以姑息性化疗为主，参照转移性鼻咽癌治疗共识予以治疗。仅在转移灶取得好的控制后才可考虑复发病灶的放疗。具体治疗策略如图1。
+点击查看大图
+图1
+复发鼻咽癌的治疗策略
+图1
+复发鼻咽癌的治疗策略
+五、放疗
+再程放疗必须慎重，在考虑复发病灶照射剂量时，应严格限制周围重要脏器的剂量，首选IMRT。
+1．IMRT技术：
+IMRT在有效满足肿瘤靶区的照射剂量时有效保护周围正常组织。对于复发鼻咽癌的治疗，有效保护正常组织有特别重要意义。国内外报道复发鼻咽癌IMRT取得理想效果，5年LC率为63.7%～85.5%，5年OS率为30.3%～44.9%[26,27,28]。rT1—T2期鼻咽癌IMRT的5年OS率达60%左右[29,30,31]。但是rT3—T4期鼻咽癌的再程治疗效果欠佳，3年OS率为27.2%～47.2%[32,33]。但是，复发鼻咽癌IMRT晚期不良反应严重影响了患者生存质量，严重晚期不良反应总发生率高达48.1%～73.7%，主要为黏膜坏死/溃疡(15.7%～50.8%)、颞叶坏死(7.0%～24.3%)、颅神经麻痹(9.6%～27.0%)、张口困难(8.6%～23.4%)和鼻咽大出血(11.1%～30.0%)[26,27,28,29,30,31,32,33]。在IMRT再程治疗中患者死于晚期并发症占死亡人数的34.7%～69.2%[26,27,28,29,31,32,33]。因此，在保证治疗效果的同时，应尽量减少晚期并发症。
+2．放疗剂量及分割方式：
+照射剂量越高LRC率越好，但邻近正常组织无法耐受，严重并发症明显增加[34]。然而照射剂量过低，肿瘤控制下降，疗效下降。常规放疗时代研究发现剂量<60 Gy无长期生存[35]，如何选择合适的照射剂量需要在控制率和并发症之间寻找平衡点，既能取得高的控制率，同时有效降低严重并发症发生。基于目前研究无法给出最佳照射总剂量、分割剂量和分割方式的推荐。有研究发现BED10(按肿瘤α/β＝10时计算)<60 Gy时，LRC明显差于BED>60 Gy[34]。而BED＝60～70 Gy与>70 Gy比较，两种LRC率无明显差别。另外，来自于IMRT的Ⅱ期研究对比低剂量((60 Gy分27次))和高剂量(68 Gy分34次)治疗复发鼻咽癌的疗效，研究结果发现LRC率无明显差别，低剂量取得更高的生存率，是因为低剂量放疗可降低晚期并发症相关的死亡[26]。如何选择照射剂量需要更多临床试验进行探索，以便得出最佳照射剂量和分割剂量。
+复发头颈癌的2项RTOG多中心研究表明超分割方案治疗有可能提高治疗效果，但同样也有可能加重不良反应和死亡率[36,37]。在复发鼻咽癌小样本回顾性研究也发现超分割可减少鼻咽大出血发生，有提高生存的潜力[38]。但是目前在复发鼻咽癌中尚缺乏更明确的证据表明超分割方式更优，超分割放疗值得探索。
+因此，在保证重要OAR耐受剂量情况下，照射总剂量可考虑予以60 Gy或BED10(按肿瘤的α/β等于10时计算的BED)>60 Gy，不应追求过高照射剂量。分割照射方式以常规分割为主，超分割放疗应以临床研究为主。
+3．再程放疗的照射靶区
+(1)肿瘤GTV：GTVnx包括影像学及临床检查可见的原发肿瘤部位，GTVnd为符合诊断标准的颈部转移性淋巴结。
+(2)临床CTV：针对临床靶区，目前没有一个统一标准，鼻咽癌高发区的肿瘤中心的CTV勾画并不一致(表1)。复发鼻咽癌均不考虑淋巴结引流区预防性照射。区域复发仅照射转移淋巴结所在区域。推荐CTV为GTV＋5～10 mm。
+点击查看表格
+表1
+复发鼻咽癌再程IMRT的靶区勾画经验
+表1
+复发鼻咽癌再程IMRT的靶区勾画经验
+项目
+中山大学附属肿瘤医院[27]
+香港尤德夫人东方医院[33]
+加拿大玛格丽特公主癌症中心[39]
+复旦大学附属肿瘤医院[31]
+GTV
+影像学上肿瘤大小
+MRI或PET－CT与CT融合图像上的肿瘤大小
+MRI图像上肿瘤大小
+影像学上肿瘤大小
+CTV
+GTV外扩1.0～1.5cm，邻近颅内或脊髓处外扩至少3mm
+－
+GTV外扩5～10mm
+GTV外扩3～5mm
+GTV－P
+GTV外扩2～3mm
+GTV外扩10mm，与重要神经结构密切相邻是可采用更窄边界(至少2mm)
+GTV外扩5mm
+－
+CTV－P
+CTV外扩2～3mm
+－
+CTV外扩5mm
+CTV外扩3～5mm
+(3) PTV是考虑照射时摆位误差、系统误差、器官移动及靶区变化等不确定因素引起的靶区剂量变化而在CTV和GTV外扩到一定安全范围以保证照射剂量，推荐外扩3～5 mm。
+4．OAR限量：
+OAR的限量是复发鼻咽癌再程放疗的难点，也是放射肿瘤科医生必须慎重考虑的因素。不同组织的放射损伤修复存在明显差异，放射损伤修复与器官组织类型、之前照射组织的大小以及放疗间隔时间有关，在设置OAR限量时应考虑上述因素。
+目前尚无OAR限量的标准，不同单位采用的限量不完全一致。中山大学肿瘤医院的经验是OAR的33%体积的照射剂量(D33)限制在5年内严重并发症发生率5%(TD5/5)的耐受剂量的一半以下[27]。香港尤德夫人东方医院的经验是关键OAR (主要神经结构)剂量限制采用终身累计剂量进行限制，即允许终身累计剂量不超过单程最大耐受剂量的130%[33]。复旦大学附属肿瘤医院的经验是再程放疗时脑干和脊髓最大耐受剂量分别为40 Gy和30 Gy[31]。其他OAR限量要求为最大耐受剂量(TD5/5)减去30%的首次照射剂量，计算公式为TD5/5－0.3×首次照射剂量。香港尤德夫人医院的OAR限量最为严格，可作为参考，具体剂量限制如下表2。推荐OAR耐受量为首程的60%～70%。
+点击查看表格
+表2
+OAR终身放射剂量的绝对限量要求
+表2
+OAR终身放射剂量的绝对限量要求
+项目
+器官剂量限定(Gy)
+PRV扩边
+PRV剂量限定
+脑干
+最高剂量70.2
+≥1mm
+D1%<78 Gy
+脊髓
+最高剂量58.5
+≥5mm
+D1cm3≤65%
+视神经
+最高剂量65.0
+≥1mm
+最高剂量78 Gy
+视交叉
+最高剂量65.0
+≥1mm
+最高剂量78 Gy
+颞叶
+最高剂量D1cm3<84.5
+臂丛神经
+最高剂量D1cm3<85.8
+5．其他照射技术
+(1) SRT：可分为分次SRT和SRS两种方式。该放疗技术满足高剂量集中在靶区内，剂量分布锐利，剂量快速下降，适形性好，有利于正常组织的保护。选择性复发鼻咽癌的SRT的LC率在53.8%～92.0%间，5年OS率为40%左右[40,41,42,43]。在一项SRT与SRS的对比研究中，尽管两种生存无明显差别，但是分次SRT取得更好地LC率[40]。SRT要求患者肿瘤体积不宜过大，且与重要神经结构有一定距离。该放疗技术是高精度的治疗方法，对于技术要求高，适合有经验的肿瘤中心开展。
+(2) BT：BT单独或者联合外照射治疗是复发鼻咽癌的一种治疗选择。该技术给予肿瘤高剂量，剂量适形性好，同时剂量衰减迅速，周围正常组织剂量低。但单独BT只适合于肿瘤病变较小的肿瘤，应选择病变厚度<10 mm的病例。对于病变体积较大者可选用外照射联合近距离照射，联合外照射可提高LC率。对于复发早期鼻咽癌(rT1—T2期)，BT的5年LRC率为44.7%～85.0%，5年OS率为28.1%～61.3%，晚期并发症为26.7%～50.0%[44,45,46]。对于rT3—T4期，因为肿瘤巨大，BT并不适合。BT对放疗医生和物理师要求高，且患者治疗期间较为痛苦，随着放疗技术的发展，BT的应用在减少。
+(3)质子重离子放疗：与光子相比，质子和重离子放疗具有独特的物理特征，射线进入人体后剂量释放少，达到其射程终末段时能量释放，形成Bragg峰。但质子与光子相比并无放射生物效应优势，而重离子存在生物效应优势。质子放疗在复发头颈癌中的应用，初步研究已经证明是安全可行的[47]。与其他放疗方式相比，质子放疗能否带来生存获益和降低并发症还需进一步研究，重离子治疗复发鼻咽癌安全性的临床研究即将开展[48]。
+六、手术治疗
+无手术禁忌症，多学科综合治疗讨论评估为可切除rT1和rT2期复发鼻咽癌，可考虑行手术治疗，其中鼻内镜下手术切除更优。对于T1期小病灶者进行内镜下微波电凝同样可以考虑。局部复发鼻咽癌挽救性外科手术方式众多，包括传统开放式手术以及日趋成熟的鼻内镜技术。
+以往采用的传统开放式手术方式有经颚入路切除术、经鼻侧切开入路切除术、经颌颚入路切除术、上颌骨掀翻入路切除术、经颈侧入路切除术，是复发鼻咽癌的一种积极有效的治疗手段，5年OS率为30%～60%[49,50,51,52,53,54]。但存在入路行程长、视野窄、暴露欠佳、破坏结构多、创伤大等术后并发上颌骨坏死、腭瘘、面部麻木、面部瘢痕等并发症大等问题，严重影响患者生活质量[55]。目前常用的鼻内镜下鼻咽癌切除术(endoscopic nasopharyngectomy，ENPG)具有手术路径直接、术野光照清晰、视角灵活和微创的特点，疗效与传统手术相同[56,57]。一项采用ENPG与IMRT治疗复发鼻咽癌的病例对照研究发现，ENPG的生存率和生活质量更高，并发症明显更少，特别是减少晚期并发症相关死亡[29]。另外，其他的中心的回顾性分析表明ENPG治疗也取得类似的治疗效果[58]。中山大学肿瘤院的一项研究通过回顾性分析894例复发鼻咽，根据是否可以手术切除构建了一个外科分期，研究发现该分期能更好提选择手术获益人群[59]。最近研究报道3D内镜下鼻咽癌切除术能提内镜下切除的精准度[60]，有可能提高手术治疗效果。另外，一项研究表明在鼻咽喉镜引导下对复发早期鼻咽癌(rT1期)小病变者进行微波电凝术治疗，患者的5年OS率达93.6%。该研究入组患者是高度选择的，入组条件：(1)在内窥镜检查时可观察到病变，肿瘤直径应≤1.5 cm的，病变不涉及咽鼓管圆枕；(2)肿瘤位于咽隐窝处，咽部窝处的侵及深度不能>0.5 cm；(3)无淋巴结及远处移。放疗能提高手术切缘阳性的患者的生存率[53]，但不良反应也不能忽视。
+手术治疗是区域淋巴结复发的首选治疗方式。考虑到复发肿瘤细胞对放射线抗拒，再程放疗疗效欠佳，5年OS为11.00%～19.78%[62]，且再程放疗可导致皮肤纤维化加重，颈部活动受限，影响生活质量。外科手术切除可取得更好的疗效，5年OS率为20%～52%[63,64,65,66]。手术方式包括根治性颈清扫术、改良性清扫术、选择区清扫术和颈部淋巴结切除术。清扫术后放疗无生存获益[67]，但放疗所致的不良反应会增加。
+七、化疗、分子靶向及免疫治疗
+1．化学治疗：
+复发鼻咽癌的化疗以铂类为基础的联合方案。最近研究表明吉西他滨联合顺铂的化疗方案有较高的反应率和良好的耐受性，疗效优于氟尿嘧啶联合顺铂[68]。尽管同步化疗是晚期鼻咽癌的标准治疗方案，但在复发鼻咽癌中同步化疗价值仍不明确[69]。诱导化疗可以延长再次放疗间隔时间，有效缩小肿瘤，便于放疗计划设计，保护正常组织，但是至今仍无生存获益证据。对于肿瘤巨大、分期晚和复发间隔时间短(<1年)的病例，应采用诱导化疗。辅助化疗耐受性差，目前无获益证据，不推荐。
+2．分子靶向及免疫治疗：
+鼻咽癌组织高表达EGFR和VEGFR，针对EGFR或VEGFR的靶向治疗成为鼻咽癌的治疗选择。常用EGFR单克隆抗体(西妥昔单抗、尼妥珠单抗)、VEGFR单克隆抗体(贝伐单抗)、酪氨酸及酶抑制剂(吉非替尼、索拉非尼等)及重组人血管内皮抑制素等。Ⅱ期临床试验证明靶向药物在2线和3线治疗复发转移鼻咽癌治疗时效果有限[70]。免疫检查点PD-1单克隆抗体(pembroblizumab)在复发转移鼻咽癌中的Ⅰb期研究证明治疗安全客观缓解率为25.9%[71]。期待免疫检查点靶向治疗Ⅲ期随机研究在鼻咽癌的结果。另外，基于EBV抗原的主动免疫和被动免疫治疗方案也在研究中。总之，分子靶向治疗治疗复发鼻咽癌的证据较少，值得探索，但其费用较高，临床治疗时需综合考虑。
+八、随访
+治疗期间及治疗结束后应定期随访复查。治疗结束后前3年，每3个月随诊复查1次。治疗接受后4～5年，每6个月随诊复查1次，以后每年随诊复查1次。每次随诊复查应包括完整病史采集、体格检查、EBV-DNA拷贝数、纤维鼻咽喉镜、头颈部MRI、胸部CT和腹部彩超/CT。根据临床需求也可以选择PET-CT检查和垂体功能检测。
+委员会成员
+顾问：徐国镇(中国医学科学院肿瘤医院)、潘建基(福建省肿瘤医院)、卢泰祥(贵州省肿瘤医院)
+委员：胡超苏(复旦大学附属肿瘤医院)、郎锦义(四川省肿瘤医院)、林少俊(福建省肿瘤医院)、陈晓钟(浙江省肿瘤医院)、马骏(中山大学附属肿瘤医院)、朱小东(广西医科大学附属肿瘤医院)、高黎(中国医科院肿瘤医院)、李金高(江西省肿瘤医院)、夏云飞(中山大学附属肿瘤医院)、金风(贵州省肿瘤医院)、何侠(江苏省肿瘤医院)、胡国清(华中科技大学同济医学院同济医院)、席许平(湖南省肿瘤医院)、胡德胜(湖北省肿瘤医院)、石梅(第四军医大学西京医院)、陈韵彬(中国医学科学院肿瘤医院)、易俊林(中国医学科学院肿瘤医院)、王佩国(天津医科大学附属肿瘤医院)
+参考文献
+[1]
+JemalA, BrayF, CenterMM，et al.
+Global cancer statistics[J]．
+CACancer JClin，
+2011，
+61(
+2)：
+69-
+90.
+DOI：10.3322/caac.20107.
+[2]
+WeiWI, ShamJST.
+Nasopharyngeal carcinoma[J]．
+Lancet，
+2005，
+365(
+9476)：
+2041-
+2054.
+DOI：10.1016/S0140-6736(05)66698-6.
+[3]
+LaiSZ, LiWF, ChenL，et al.
+How does intensity-modulated radiotherapy versus conventional two-dimensional radiotherapy influence the treatment results in nasopharyngeal carcinoma patients？[J]．
+Int J Radiat OncolBiolPhys，
+2011，
+80(
+3)：
+661-
+668.
+DOI：10.1016/j.ijrobp.2010.03.024.
+[4]
+LeungTW, TungSY, SzeWK，et al.
+Treatment results of 1070 patients with nasopharyngeal carcinoma：an analysis of survival and failure patterns[J]．
+HeadNeck，
+2005，
+27(
+7)：
+555-
+565.
+DOI：10.1002/hed.20189.
+[5]
+LeeAWM, SzeWM, AuJSK，et al.
+Treatment results for nasopharyngeal carcinoma in the modern era：the Hong Kong experience[J]．
+Int JRadiat OncolBiolPhys，
+2005，
+61(
+4)：
+1107-
+1116.
+DOI：10.1016/j.ijrobp.2004.07.702.
+[6]
+LeeAWM, PoonYF, FooW，et al.
+Retrospective analysis of 5037 patients with nasopharyngeal carcinoma treated during 1976-1985：overall survival and patterns of failure[J]．
+Int J Radiat OncolBiolPhys，
+1992，
+23(
+2)：
+261-
+270.
+DOI：10.1016/0360-3016(92)90740-9.
+[7]
+NgWT, LeeMCH, ChangATY，et al.
+The impact of dosimetric inadequacy on treatment outcome of nasopharyngeal carcinoma with IMRT[J]．
+Oral Oncol，
+2014，
+50(
+5)：
+506-
+512.
+DOI：10.1016/j.oraloncology.2014.01.017.
+[8]
+ZongJF, LinSJ, LinJ，et al.
+Impact of intensity-modulated radiotherapy on nasopharyngeal carcinoma：validation of the 7th edition AJCC staging system[J]．
+Oral Oncol，
+2015，
+51(
+3)：
+254-
+259.
+DOI：10.1016/j.oraloncology.2014.10.012.
+[9]
+SunXM, SuSF, ChenCY，et al.
+Long-term outcomes of intensity-modulated radiotherapy for 868 patients with nasopharyngeal carcinoma：an analysis of survival and treatment toxicities[J]．
+RadiotherOncol，
+2014，
+110(
+3)：
+398-
+403.
+DOI：10.1016/j.radonc.2013.10.020.
+[10]
+LiuWX, TangY, GaoL，et al.
+Nasopharyngeal carcinoma in children and adolescents-a single institution experience of 158 patients[J]．
+RadiatOncol，
+2014，
+9：
+274.
+DOI：10.1186/s13014-014-0274-7.
+[11]
+YiJL, HuangXD, GaoL，et al.
+Intensity-modulated radiotherapy with simultaneous integrated boost for locoregionally advanced nasopharyngeal carcinoma[J]．
+RadiatOncol，
+2014，
+9：
+56.
+DOI：10.1186/1748-717X-9-56.
+[12]
+StokerSD, Van DiessenJNA, De BoerJP，et al.
+Current treatment options for local residual nasopharyngeal carcinoma[J]．
+Curr Treat Options Oncol，
+2013，
+14(
+4)：
+475-
+491.
+DOI：10.1007/s11864-013-0261-5.
+[13]
+LuJJ, CooperJS, LeeAWM.
+Nasopharyngeal carcinoma：multidisciplinary management[M]．
+Berlin，Heidelberg：
+Springer，
+2010.
+[14]
+LiJX, LuTX, HuangY，et al.
+Clinical characteristics of recurrent nasopharyngeal carcinoma in high-incidence area[J]．
+SciWorldJ，
+2012，
+2012：
+719754.
+DOI：10.1100/2012/719754.
+[15]
+LeeAWM, FooW, LawSCK，et al.
+Recurrent nasopharyngeal carcinoma：the puzzles of long latency[J]．
+Int J Radiat OncolBiolPhys，
+1999，
+44(
+1)：
+149-
+156.
+DOI：10.1016/S0360-3016(98)00524-0.
+[16]
+LiJX, HuangSM, JiangXH，et al.
+Local failure patterns for patients with nasopharyngeal carcinoma after intensity-modulated radiotherapy[J]．
+RadiatOncol，
+2014，
+9：
+87.
+DOI：10.1186/1748-717X-9-87.
+[17]
+KongFF, YingHM, DuCR，et al.
+Patterns of local-regional failure after primary intensity modulated radiotherapy for nasopharyngeal carcinoma[J]．
+RadiatOncol，
+2014，
+9：
+60.
+DOI：10.1186/1748-717X-9-60.
+[18]
+邸小青，胡新荣．
+鼻咽癌放疗后复发的分子机理研究进展[J]．
+西南军医，
+2009，
+11(
+5)：
+936-
+939.
+DOI：10.3969/j.issn.1672-7193.2009.05.085.
+DiXQ, HuXR. Research progress on the molecular mechanism of recurrence after radiotherapy for nasopharyngeal carcinoma[J]．J Mili Surg South Chin，2009，11(5)：936-939.DOI：10.3969/j.issn.1672-7193.2009.05.085.
+[19]
+HongB, LuiVWY, HashiguchiM，et al.
+Targeting tumor hypoxia in nasopharyngeal carcinoma[J]．
+Head Neck，
+2013，
+35(
+1)：
+133-
+145.
+DOI：10.1002/hed.21877.
+[20]
+NichollsJ, ShamJ, NgMH，et al.
+In-situ carcinoma adjacent to recurrent nasopharyngeal carcinoma：evidence of a new growth？[J]．
+PatholRes Pract，
+1993，
+189(
+9)：
+1067-
+1070.
+DOI：10.1016/S0344-0338(11)80682-5.
+[21]
+ChanJKC, BrayF, McCarronP，et al.
+Tumours of the nasopharynx[A]//
+BamesL，EvesonJW，ReichartP，et al.
+Pathology and GeneticsofHead and Neck Tumours：World Heath Organization Classification of Turmours[M]．
+Lyon：
+IARC，
+2005.
+[22]
+NgSH, WanYL, KoSF，et al.
+MRI of nasopharyngeal carcinoma with emphasis on relationship to radiotherapy[J]．
+J Magn Reson Imaging，
+1998，
+8(
+2)：
+327-
+336.
+DOI：10.1002/jmri.1880080212.
+[23]
+ZhouHJ, ShenGH, ZhangWJ，et al.
+18F-FDG PET/CT for the diagnosis of residual or recurrent nasopharyngeal carcinoma after radiotherapy：a metaanalysis[J]．
+JNucl Med，
+2016，
+57(
+3)：
+342-
+347.
+DOI：10.2967/jnumed.115.165407.
+[24]
+ComorettoM, BalestreriL, BorsattiE，et al.
+Detection and restaging of residual and/or recurrent nasopharyngeal carcinoma after chemotherapy and radiation therapy：comparison of MR imaging and FDG PET/CT[J]．
+Radiology，
+2008，
+249(
+1)：
+203-
+211.
+DOI：10.1148/radiol.2491071753.
+[25]
+YenRF, YenMF, HongRL，et al.
+The cost-utility analysis of 18-fluoro-2-deoxyglucose positron emission tomography in the diagnosis of recurrent nasopharyngeal carcinoma[J]．
+AcadRadiol，
+2009，
+16(
+1)：
+54-
+60.
+DOI：10.1016/j.acra.2008.06.012.
+[26]
+TianYM, ZhaoC, GuoY，et al.
+Effect of total dose and fraction size on survival of patients with locally recurrent nasopharyngeal carcinoma treated with intensity-modulated radiotherapy：a phase 2，single-center，randomized controlled trial[J]．
+Cancer，
+2014，
+120(
+22)：
+3502-
+3509.
+DOI：10.1002/cncr.28934.
+[27]
+HanF, ZhaoC, HuangSM，et al.
+Long-term outcomes and prognostic factors of re-irradiation for locally recurrent nasopharyngeal carcinoma using intensity-modulated radiotherapy[J]．
+ClinOncol，
+2012，
+24(
+8)：
+569-
+576.
+DOI：10.1016/j.clon.2011.11.010.
+[28]
+HuaYJ, HanF, LuLX，et al.
+Long-term treatment outcome of recurrent nasopharyngeal carcinoma treated with salvage intensity modulated radiotherapy[J]．
+Eur J Cancer，
+2012，
+48(
+18)：
+3422-
+3428.
+DOI：10.1016/j.ejca.2012.06.016.
+[29]
+YouR, ZouX, HuaYJ，et al.
+Salvage endoscopic nasopharyngectomy is superior to intensity-modulated radiation therapy for local recurrence of selected T1-T3 nasopharyngeal carcinoma-A case-matched comparison[J]．
+RadiotherOncol，
+2015，
+115(
+3)：
+399-
+406.
+DOI：10.1016/j.radonc.2015.04.024.
+[30]
+TianYM, GuanY, XiaoWW，et al.
+Long-term survival and late complications in intensity-modulated radiotherapy of locally recurrent T1 to T2 nasopharyngeal carcinoma[J]．
+HeadNeck，
+2016，
+38(
+2)：
+225-
+231.
+DOI：10.1002/hed.23880.
+[31]
+KongL, WangL, ShenCY，et al.
+Salvage intensity-modulated radiation therapy (IMRT) for locally recurrent nasopharyngeal cancer after definitive IMRT：a novel scenario of the modern era[J]．
+SciRep，
+2016，
+6：
+32883.
+DOI：10.1038/srep32883.
+[32]
+TianYM, HuangWZ, YuanX，et al.
+The challenge in treating locally recurrent T3-4 nasopharyngeal carcinoma：the survival benefit and severe late toxicities of re-irradiation with intensity-modulated radiotherapy[J]．
+Oncotarget，
+2017，
+8(
+26)：
+43450-
+43457.
+DOI：10.18632/oncotarget.15896.
+[33]
+ChanOSH, SzeHCK, LeeMCH，et al.
+Reirradiation with intensity-modulated radiotherapy for locally recurrent T3 to T4 nasopharyngeal carcinoma[J]．
+Head Neck，
+2017，
+39(
+3)：
+533-
+540.
+DOI：10.1002/hed.24645.
+[34]
+LeeAWM, FooW, LawSCK，et al.
+Reirradiation for recurrent nasopharyngeal carcinoma：factors affecting the therapeutic ratio and ways for improvement[J]．
+Int J Radiat OncolBiolPhys，
+1997，
+38(
+1)：
+43-
+52.
+DOI：10.1016/S0360-3016(97)00244-7.
+[35]
+WangCC.
+Re-irradiation of recurrent nasopharyngeal carcinoma-treatment techniques and results[J]．
+Int J Radiat OncolBiolPhys，
+1987，
+13(
+7)：
+953-
+956.
+DOI：10.1016/0360-3016(87)90030-7.
+[36]
+SpencerSA, HarrisJ, WheelerRH，et al.
+Final report of RTOG 9610，a multi-institutional trial of reirradiation and chemotherapy for unresectable recurrent squamous cell carcinoma of the head and neck[J]．
+HeadNeck，
+2008，
+30(
+3)：
+281-
+288.
+DOI：10.1002/hed.20697.
+[37]
+LangerCJ, HarrisJ, HorwitzEM，et al.
+Phase Ⅱ study of low-dose paclitaxel and cisplatin in combination with split-course concomitant twice-daily reirradiation in recurrent squamous cell carcinoma of the head and neck：results of Radiation Therapy Oncology Group Protocol 9911[J]．
+J Clin Oncol，
+2007，
+25(
+30)：
+4800-
+4805.
+DOI：10.1200/JCO.2006.07.9194.
+[38]
+LeeVHF, KwongDLW, LeungTW，et al.
+Hyperfractionation compared to standard fractionation in intensity-modulated radiation therapy for patients with locally advanced recurrent nasopharyngeal carcinoma[J]．
+EurArchOtoRhinoLaryngol，
+2017，
+274(
+2)：
+1067-
+1078.
+DOI：10.1007/s00405-016-4339-0.
+[39]
+KaramI, HuangSH, McNivenA，et al.
+Outcomes after reirradiation for recurrent nasopharyngeal carcinoma：North American experience[J]．
+HeadNeck，
+2016，
+38(
+S1)：
+E1102-
+E1109.
+DOI：10.1002/hed.24166.
+[40]
+ChuaDTT, WuSX, LeeV，et al.
+Comparison of single versus fractionated dose of stereotactic radiotherapy for salvaging local failures of nasopharyngeal carcinoma：a matched-cohort analysis[J]．
+Head Neck Oncol，
+2009，
+1：
+13.
+DOI：10.1186/1758-3284-1-13.
+[41]
+WuSX, ChuaDTT, DengML，et al.
+Outcome of fractionated stereotactic radiotherapy for 90 patients with locally persistent and recurrent nasopharyngeal carcinoma[J]．
+Int J RadiatOncolBiolPhys，
+2007，
+69(
+3)：
+761-
+769.
+DOI：10.1016/j.ijrobp.2007.03.037.
+[42]
+AhnYC, LeeKC, KimDY，et al.
+Fractionated stereotactic radiation therapy for extracranial head and neck tumors[J]．
+Int J Radiat OncolBiolPhys，
+2000，
+48(
+2)：
+501-
+505.
+DOI：10.1016/S0360-3016(00)00612-X.
+[43]
+OrecchiaR, ReddaMGR, RagonaR，et al.
+Results of hypofractionated stereotactic re-irradiation on 13 locally recurrent nasopharyngeal carcinomas[J]．
+RadiotherOncol，
+1999，
+53(
+1)：
+23-
+28.
+DOI：10.1016/S0167-8140(99)00130-9.
+[44]
+LawSCK, LamWK, NgMF，et al.
+Reirradiation of nasopharyngeal carcinoma with intracavitary mold brachytherapy：an effective means of local salvage[J]．
+Int J Radiat OncolBiolPhys，
+2002，
+54(
+4)：
+1095-
+1113.
+DOI：10.1016/S0360-3016(02)03009-2.
+[45]
+KwongDLW, WeiWI, ChengACK，et al.
+Long term results of radioactive gold grain implantation for the treatment of persistent and recurrent nasopharyngeal carcinoma[J]．
+Cancer，
+2001，
+91(
+6)：
+1105-
+1113.
+DOI：3.3.CO;2-Q" xlink:type="simple">10.1002/1097-0142(20010315)91:6<1105::AID-CNCR1106>3.3.CO;2-Q.
+[46]
+LeungTW, TungSY, SzeWK，et al.
+Salvage radiation therapy for locally recurrent nasopharyngeal carcinoma[J]．
+Int J Radiat OncolBiolPhysi，
+2000，
+48(
+5)：
+1331-
+1338.
+DOI：10.1016/S0360-3016(00)00776-8.
+[47]
+RomesserPB, CahlonO, ScherED，et al.
+Proton beam reirradiation for recurrent head and neck cancer：multi-institutional report on feasibility and early outcomes[J]．
+Int J Radiat OncolBiolPhys，
+2016，
+95(
+1)：
+386-
+395.
+DOI：10.1016/j.ijrobp.2016.02.036.
+[48]
+KongL, HuJY, GuanXY，et al.
+Phase Ⅰ/Ⅱ trial evaluating carbon ion radiotherapy for salvaging treatment of locally recurrent nasopharyngeal carcinoma[J]．
+J Cancer，
+2016，
+7(
+7)：
+774-
+783.
+DOI：10.7150/jca.14399.
+[49]
+FeeWE, MoirMS, ChoiEC，et al.
+Nasopharyngectomy for recurrent nasopharyngeal cancer：a 2-to 17-year follow-up[J]．
+Arch OtolaryngolHead Neck Surg，
+2002，
+128(
+3)：
+280-
+284.
+DOI：10.1001/archotol.128.3.280.
+[50]
+WeiWL, LamKHL, ShamJST.
+New approach to the nasopharynx：the maxillary swing approach[J]．
+HeadNeck，
+1991，
+13(
+3)：
+200-
+207.
+DOI：10.1002/hed.2880130306.
+[51]
+KingWWK, KuPKM, MokCO，et al.
+Nasopharyngectomy in the treatment of recurrent nasopharyngeal carcinoma：a twelve-year experience[J]．
+HeadNeck，
+2000，
+22(
+3)：
+215-
+222.
+DOI：3.0.CO;2-B" xlink:type="simple">10.1002/(SICI)1097-0347(200005)22:3<215::AID-HED2>3.0.CO;2-B.
+[52]
+HsuMM, HongRL, TingLL，et al.
+Factors affecting the overall survival after salvage surgery in patients with recurrent nasopharyngeal carcinoma at the primary site：experience with 60 cases[J]．
+Arch OtolaryngolHead Neck Surg，
+2001，
+127(
+7)：
+798-
+802.
+[53]
+Na′araS, AmitM, BillanS，et al.
+Outcome of patients undergoing salvage surgery for recurrent nasopharyngeal carcinoma：a meta-analysis[J]．
+Ann Surg Oncol，
+2014，
+21(
+9)：
+3056-
+3062.
+DOI：10.1245%2Fs10434-014-3683-9.
+[54]
+VlantisAC, ChanHS, TongMCF，et al.
+Surgical salvage nasopharyngectomy for recurrent nasopharyngeal carcinoma：a multivariate analysis of prognostic factors[J]．
+Head Neck，
+2011，
+33(
+8)：
+1126-
+1131.
+DOI：10.1002/hed.21585.
+[55]
+ChanYW, ChowVLY, WeiWI.
+Quality of life of patients after salvage nasopharyngectomy for recurrent nasopharyngeal carcinoma[J]．
+Cancer，
+2012，
+118(
+15)：
+3710-
+3718.
+DOI：10.1002/cncr.26719.
+[56]
+ChenMK, LaiJC, ChangCC，et al.
+Minimally invasive endoscopic nasopharyngectomy in the treatment of recurrent T1-2 a nasopharyngeal carcinoma[J]．
+Laryngoscope，
+2007，
+117(
+5)：
+894-
+896.
+DOI：10.1097/MLG.0b013e3180381644.
+[57]
+YoshizakiT, WakisakaN, MuronoS，et al.
+Endoscopic nasopharyngectomy for patients with recurrent nasopharyngeal carcinoma at the primary site[J]．
+Laryngoscope，
+2005，
+115(
+8)：
+1517-
+1519.
+DOI：10.1097/01.MLG.0000165383.35100.17.
+[58]
+LiuJ, YuHP, SunXC，et al.
+Salvage endoscopic nasopharyngectomy for local recurrent or residual nasopharyngeal carcinoma：a 10-year experience[J]．
+Int J Clin Oncol，
+2017，
+22(
+5)：
+834-
+842.
+DOI：10.1007/s10147-017-1143-9.
+[59]
+YouR, ZouX, WangSL，et al.
+New surgical staging system for patients with recurrent nasopharyngeal carcinoma based on the AJCC/UICC rTNM classification system[J]．
+Eur J Cancer，
+2015，
+51(
+13)：
+1771-
+1779.
+DOI：10.1016/j.ejca.2015.05.014.
+[60]
+ChanJYW, WeiWI.
+Three-dimensional endoscopy for endoscopic salvage nasopharyngectomy：Preliminary report of experience[J]．
+Laryngoscope，
+2017.
+DOI：10.1002/lary.26993.
+[61]
+MaiHQ, MoHY, DengJF，et al.
+Endoscopic microwave coagulation therapy for early recurrent T1 nasopharyngeal carcinoma[J]．
+Eur J Cancer，
+2009，
+45(
+7)：
+1107-
+1110.
+DOI：10.1016/j.ejca.2009.02.028.
+[62]
+ShamJST, ChoyD．
+Nasopharyngeal carcinoma：treatment of neck node recurrence by radiotherapy[J]．
+Australas Radiol，
+1991，
+35(
+4)：
+370-
+373.
+DOI：10.1111/j.1440-1673.1991.tb03050.x.
+[63]
+ZhangL, ZhuYX, WangY，et al.
+Salvage surgery for neck residue or recurrence of nasopharyngeal carcinoma：a 10-year experience[J]．
+Ann Surg Oncol，
+2011，
+18(
+1)：
+233-
+238.
+DOI：10.1245/s10434-010-1292-9.
+[64]
+张纲，李彩，刘磊，等．
+鼻咽癌放疗后颈淋巴结残留/复发的手术治疗分析[J]．
+肿瘤，
+2002，
+22(
+6)：
+514-
+515.
+DOI：10.3781/j.issn.1000-7431.2002.06.025.
+ZhangG, LiC, LiuL，et al. Surgical treatment of cervical lymph node residual/recurrence after radiotherapy of nasopharyngeal carcinoma[J]．Tomor，2002，22(6)：514-515.DOI：10.3781/j.issn.1000-7431.2002.06.025.
+[65]
+徐震纲，屠规益，唐平章．
+鼻咽癌放射治疗失败后的手术治疗[J]．
+中华耳鼻咽喉科杂志，
+1998，
+33(
+2)：
+103-
+105.
+DOI：10.3760/j.issn:1673-0860.1998.02.012.
+XuZG, TuGY, TangPZ. Surgical treatment after the failure of radiotherapy for nasopharyngeal carcinoma[J]．Chin J Otolaryngol，1998，33(2)：103-105.DOI：10.3760/j.issn:1673-0860.1998.02.012.
+[66]
+闵华庆，张锋，张锦明．
+放疗后复发鼻咽癌的手术治疗[J]．
+癌症，
+1989，
+8(
+5)：
+365-
+367.
+MinHQ, ZhangF, ZhangJM.Surgical treatment of recurrent nasopharyngeal carcinoma after radiotherapy[J]．Chin J Cancer，1989，8(5)：365-367.
+[67]
+LoWC, WangCP, KoJY，et al.
+Salvage treatment for isolated regional failure of nasopharyngeal carcinoma after primary radiotherapy[J]．
+Ann Surg Oncol，
+2012，
+19(
+3)：
+1001-
+1018.
+DOI：10.1245/s10434-011-2018-3.
+[68]
+ZhangL, HuangY, HongSD，et al.
+Gemcitabine plus cisplatin versus fluorouracil plus cisplatin in recurrent or metastatic nasopharyngeal carcinoma：a multicentre，randomised，open-label，phase 3 trial[J]．
+Lancet，
+2016，
+388(
+10054)：
+1883-
+1892.
+DOI：10.1016/S0140-6736(16)31388-5.
+[69]
+GuanY, LiuS, WangHY，et al.
+Long-term outcomes of a phase Ⅱ randomized controlled trial comparing intensity-modulated radiotherapy with or without weekly cisplatin for the treatment of locally recurrent nasopharyngeal carcinoma[J]．
+Chin J Cancer，
+2016，
+35：
+20.
+DOI：10.1186/s40880-016-0081-7.
+[70]
+ChanATC, HsuMM, GohBC，et al.
+Multicenter，phase Ⅱ study of cetuximab in combination with carboplatin in patients with recurrent or metastatic nasopharyngeal carcinoma[J]．
+J Clin Oncol，
+2005，
+23(
+15)：
+3568-
+3576.
+DOI：10.1200/JCO.2005.02.147.
+[71]
+HsuC, LeeSH, EjadiS，et al.
+Safety and antitumor activity of pembrolizumab in patients with programmed death-ligand 1-positive nasopharyngeal carcinoma：results of the KEYNOTE-028 study[J]．
+J Clin Oncol，
+2017.
+DOI：10.1200/JCO.2017.73.3675.
+贡献者信息
+中国抗癌协会鼻咽癌专业委员会
+林少俊
+350005 福州，福建省肿瘤医院放疗科
+陈晓钟
+310022 杭州，浙江省肿瘤医院头颈放疗科
+李金高
+330029 南昌，江西省肿瘤医院放疗科
+胡超苏
+200032 上海，复旦大学附属肿瘤医院放疗科
+通信作者
+林少俊
+Email：
+llsj516@126.com
+关键词
+肿瘤复发，鼻咽/治疗;
+共识;
+历史
+出版日期：2018-01-15
+收稿日期：2017-11-29
+Consensus
+Expert consensus on the treatment of recurrent nasopharyngeal carcinoma
+Committee of Nasopharyngeal Cancer of Chinese Anti-Cancer Association,  Lin Shaojun,  Chen Xiaozhong,  Li Jingao,  Hu Chaosu
+Published
+2018-01-15
+Cite as
+Chin J Radiat Oncol, 2018,27(1): 16-22. DOI: 10.3760/cma.j.issn.1004-4221.2018.01.004
+Abstract
+With the application of intensity-modulated radiotherapy, the locoregional control rate of nasopharyngeal carcinoma (NPC) has been significantly increased. However, there are still 10%-15% of patients suffering the recurrenceof NPC.Re-treatment of recurrent NPC is a difficult clinical problem. In addition, the options of recurrent NPC treatment are diverse and each one has its own advantages and disadvantages, which makes the treatment of recurrent NPC more confusing. Due to the lack of strong evidence of clinical trials, treatment guidelines and criteria cannot be formed and standardized. This consensus reviews the literature and clinical trials about the treatment of recurrent NPC, and further stratifies and summarizes the radiotherapy, surgical treatment, chemotherapy, and target therapy for recurrent NPC.Based on expert experiences, we draft out this article for clinically significant issues without sufficient clinical data, which aims to reach a preliminary consensusonthe best therapeutic strategy for recurrent NPC.
+Key words:
+Neoplasms recurrence, nasopharyngeal/therapy; Consensus
+Contributor Information
+Committee of Nasopharyngeal Cancer of Chinese Anti-Cancer Association
+Lin Shaojun
+Department of Radiation Oncology, Fujian Cancer Hospital, Fuzhou 350005, China
+Chen Xiaozhong
+Department of Radiation Oncology, zhejian Cancer Hospital, Hangzhou 310022, China
+Li Jingao
+Department of Radiation Oncology, Jiangxi Cancer Hospital, Nanchang 330029, China
+Hu Chaosu
+Department of Radiation Oncology, Cancer Hospital, Fuda University, Shanghai 200032, China
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+图1
+复发鼻咽癌的治疗策略
+表1
+复发鼻咽癌再程IMRT的靶区勾画经验
+项目
+中山大学附属肿瘤医院[27]
+香港尤德夫人东方医院[33]
+加拿大玛格丽特公主癌症中心[39]
+复旦大学附属肿瘤医院[31]
+GTV
+影像学上肿瘤大小
+MRI或PET－CT与CT融合图像上的肿瘤大小
+MRI图像上肿瘤大小
+影像学上肿瘤大小
+CTV
+GTV外扩1.0～1.5cm，邻近颅内或脊髓处外扩至少3mm
+－
+GTV外扩5～10mm
+GTV外扩3～5mm
+GTV－P
+GTV外扩2～3mm
+GTV外扩10mm，与重要神经结构密切相邻是可采用更窄边界(至少2mm)
+GTV外扩5mm
+－
+CTV－P
+CTV外扩2～3mm
+－
+CTV外扩5mm
+CTV外扩3～5mm
+表2
+OAR终身放射剂量的绝对限量要求
+项目
+器官剂量限定(Gy)
+PRV扩边
+PRV剂量限定
+脑干
+最高剂量70.2
+≥1mm
+D1%<78 Gy
+脊髓
+最高剂量58.5
+≥5mm
+D1cm3≤65%
+视神经
+最高剂量65.0
+≥1mm
+最高剂量78 Gy
+视交叉
+最高剂量65.0
+≥1mm
+最高剂量78 Gy
+颞叶
+最高剂量D1cm3<84.5
+臂丛神经
+最高剂量D1cm3<85.8
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华放射肿瘤学杂志2018年27卷1期
+文    题：复发鼻咽癌治疗专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华放射肿瘤学杂志2018年27卷1期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

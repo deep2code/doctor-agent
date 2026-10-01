@@ -1,0 +1,1331 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E7%B4%AB%E6%9D%89%E7%B1%BB%E8%8D%AF%E7%89%A9%E7%9B%B8%E5%85%B3%E5%91%A8%E5%9B%B4%E7%A5%9E%E7%BB%8F%E7%97%85%E5%8F%98%E8%A7%84%E8%8C%83%E5%8C%96%E7%AE%A1%E7%90%86%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 紫杉类药物相关周围神经病变规范化管理专家共识 - 中华肿瘤杂志
+# 发布方/日期: 肿瘤科，中华肿瘤杂志, 2020,42(03) : 170-179. DOI: 10.3760/cma.j；2020-03-23
+
+紫杉类药物相关周围神经病变规范化管理专家共识
+紫杉类药物相关周围神经病变规范化管理专家共识专家委员会
+中华肿瘤杂志, 2020,42(03) : 170-179. DOI: 10.3760/cma.j.cn112152-20200203-00062
+紫杉类药物的抗肿瘤作用于1962年被发现，经历长达30年的研究后，自1992年12月29日起，由美国食品药品监督管理局(Food and Drug Administration, FDA)正式批准用于治疗晚期卵巢癌等多种肿瘤。在中国，紫杉类药物包括紫杉醇注射液、多西他赛、紫杉醇脂质体和注射用紫杉醇(白蛋白结合型，以下简称紫杉醇白蛋白结合型)。2005年，紫杉醇白蛋白结合型被美国FDA批准用于晚期乳腺癌的治疗，2009年在中国获批上市，是第一个被FDA批准的用于乳腺癌治疗的纳米技术药物。临床实践中，紫杉类药物可用于多种肿瘤性疾病的治疗，如乳腺癌、卵巢癌、肺癌和胰腺癌等，是肿瘤化学治疗的基石药物。紫杉类药物的出现显著提高了肿瘤患者的生存率，然而，其在治疗过程中也会带来多种短期和长期不良反应，严重影响患者的生活质量，进而影响药物使用的依从性，导致减量或停药，对治疗结局产生不利影响。鉴于此，规范化管理紫杉类药物在肿瘤治疗过程中的不良反应至关重要。
+化疗致周围神经病变(chemotherapy-induced peripheral neuropathy, CIPN)是化疗药物对周围神经功能造成的损伤，以及产生的一系列神经功能紊乱症状和体征[1]。CIPN是紫杉类药物的常见不良反应，对临床医师和患者都是一种巨大的挑战[2]。即使停止紫杉类药物治疗后，紫杉类药物相关周围神经病变仍可能继续恶化，这一过程被称为"滑行"现象[3]。周围神经病变导致的疼痛、麻木、无力等症状严重影响患者日常生活，降低患者总体生活质量。因此，为帮助临床医师更好地管理紫杉类药物相关周围神经病变，减轻紫杉类药物相关周围神经病变对患者治疗结局的影响，提高患者的依从性，改善患者生活质量，紫杉类药物相关周围神经病变规范化管理专家共识专家委员会回顾了国际和国内有关紫杉类药物相关周围神经病变的研究资料，广泛征求肿瘤学、神经病学等相关领域专家意见，制定了《紫杉类药物相关周围神经病变规范化管理专家共识》。
+一、紫杉类药物致周围神经病变的发病机制和临床特点
+共识观点：紫杉类药物致周围神经病变的发病机制目前尚未完全清楚；已知微管结构紊乱、神经元和非神经元细胞的线粒体受损均与周围神经病变的发生密切相关。
+紫杉类药物相关周围神经病变以感觉症状较为常见，首先出现于足部和手部，主要表现为麻木和刺痛等；运动和自主神经功能损伤的发生率相对较低；各种紫杉类药物所致周围神经病变发生率和缓解时间有所差异。
+(一)发病机制
+对于紫杉类药物相关周围神经病变为代表的CIPN，目前研究提示可能的发病机制如下。(1)微管结构紊乱：抑制微管是紫杉类药物抗癌作用的主要机制[4]。紫杉类药物通过抑制微管蛋白解聚，可干扰包括神经元轴突在内的微管稳定性。该机制与CIPN的发生、发展明显相关。(2)神经元和非神经元细胞的线粒体受损：也是CIPN发生的重要机制[5,6,7,8,9,10]。紫杉醇可诱发线粒体结构肿胀、空泡形成和结构缺失。(3)轴索变性：紫杉类药物可导致周围神经直接损伤、神经纤维缺失和脱髓鞘的发生[4,11,12,13,14,15]。(4)内环境中的钙失衡：紫杉类药物能够使线粒体通透性转换孔激活并导致快速的线粒体去极化，从而干扰线粒体和内质网的Ca2＋释放[16,17]，进一步导致神经元损伤。
+此外，周围神经兴奋性改变[18,19,20,21]、免疫过程和神经炎症[22]、背根神经节改变[3]等病理变化均可能导致感觉功能障碍和疼痛，参与CIPN的发生。
+(二)临床特点
+临床上，紫杉类药物相关周围神经病变主要表现为感觉、运动和自主神经功能的缺陷[23]。其中，感觉症状较常见，首先出现于足部和手部，表现为部分感觉异常，如麻木、刺痛、振动觉受损和触觉改变等；此外，自发性的灼烧样、放射性、电击样疼痛以及机械性或热性痛觉异常或痛觉过度敏感也经常发生[3]。运动症状包括肢体远端无力、精细运动受损和行走不稳。紫杉类药物治疗导致的无力通常会影响四肢。虽然运动症状较感觉症状罕见，但运动障碍可发展为瘫痪并导致显著的生活功能下降。自主神经症状异常的发生频率较低，通常表现为直立性低血压、便秘、性功能障碍和排尿困难[24]。
+(三)周围神经病变的发生率和缓解时间
+有研究显示，紫杉类药物说明书获批剂量相关重度(3级和4级)周围神经病变的发生率为2%～33%[25,26,27,28,29,30,31,32,33]。一项荟萃分析纳入16个随机对照试验(randomized controlled trial, RCT)共1 340例患者，结果显示，紫杉醇脂质体与溶剂型紫杉醇治疗乳腺癌的总有效率相当，但紫杉醇脂质体导致的神经系统毒性(周围神经炎)的发生率低于溶剂型紫杉醇(P<0.05)[34]。重度周围神经病变的缓解时间在不同紫杉类药物中有较大差异。周围神经病变症状的快速改善可使患者更快地恢复化疗，因此在选择治疗方案时，外周神经病变的恢复时间也应纳入考虑范围。据报道，紫杉醇白蛋白结合型外周神经病变由3级改善至2级的中位时间为20～22 d；多西他赛的中位时间为41 d[35]；紫杉醇注射液的中位时间为15～57 d。
+二、紫杉类药物致周围神经病变的相关危险因素
+共识观点：药物所使用溶剂，如聚氧乙基代蓖麻油和聚山梨酯80与神经毒性发生相关；此外，紫杉类药物的剂量水平(单次和累积剂量)、输注时间和治疗持续时间均与周围神经病变发生相关；年龄、合并症(如糖尿病、甲状腺功能亢进等)、肥胖、吸烟史、饮酒史和神经系统疾病病史等均可能与周围神经病变风险增加相关。基于目前的研究，尚未发现公认的分子生物标志物可以预测哪些患者是CIPN的高危人群。
+(一)药物相关因素
+紫杉类药物相关周围神经病变的严重程度与多种因素有关，包括溶媒、剂量和用法等。紫杉醇难溶于水，其溶剂为聚氧乙基代蓖麻油。聚氧乙基代蓖麻油在体内降解时能释放组胺，导致严重的过敏反应。临床前研究已证实，聚氧乙基代蓖麻油可导致轴突肿胀、变性和脱髓鞘[36]。这种损伤可能与紫杉醇注射液引起的持续性神经病变有关。紫杉醇脂质体不使用聚氧乙基代蓖麻油作为溶剂，可能在一定程度上避免部分溶剂所致神经病变。多西他赛的溶剂为聚山梨酯80(或吐温®80)。聚山梨酯80也可导致神经元囊泡变性[37]，诱发神经病变。紫杉醇白蛋白结合型则利用人源白蛋白作为载体，白蛋白浓度与人体浓度相似，增加了紫杉醇的吸收利用度，减少助溶剂引起的不良反应，这可能与其降低神经毒性不良反应相关。由于去除了容易引起过敏反应和神经毒性的有机溶剂，紫杉醇白蛋白结合型的用药剂量有了较大增加，且给药时间缩短至30 min。有研究显示，高的剂量水平和更短的输注时间亦可能增加周围神经病变的发生风险[38]。除外溶剂、单次给药剂量和给药时间，治疗持续时间和累积剂量水平等亦与周围神经病变的发生相关[38]。
+(二)患者基线特征相关因素
+年龄、合并症(如糖尿病、甲状腺功能亢进等)、肥胖、吸烟史、饮酒史和神经系统疾病病史等均可能与周围神经病变风险增加相关。美国东部肿瘤协作组(Eastern Cooperative Oncology Group, ECOG)5103研究结果显示，神经病变与患者年龄显著相关(年龄每增加10岁，神经病变风险增加12.9%)[39]。一项针对接受含紫杉类药物辅助治疗的乳腺癌患者的ECOG 1199研究结果显示，高血糖和肥胖均与神经病变风险增加相关[40]。众所周知，高血糖会导致周围神经病变。因此，糖尿病患者接受与周围神经病变相关的化疗药物治疗(如紫杉类药物)，其发生周围神经病变的风险更高。一项针对晚期非小细胞肺癌患者的Ⅲ期探索性试验结果显示，合并糖尿病的患者接受紫杉类药物治疗后周围神经毒性的发生率显著升高(P<0.001)[41]。
+(三)遗传和分子标志物
+识别神经毒性高风险患者的遗传或分子标志物可能用于预测CIPN的发生，改善患者生活质量。有研究显示，SK3、NR1I3和UGT2B7的基因多态性均与紫杉类药物的相关神经毒性相关[42,43]。CALGB 40101试验的另一项全基因组关联研究显示，FGD4多态性与紫杉类药物治疗患者早期发生周围神经病变有关。在同一研究中，EPHA5和FZD3也被确定为外周感觉神经病变发病和严重程度的潜在相关危险因素[44]。此外，ABCB1、GSTP1、CYP2C8、CYP3A4、CYP3A5和FGD4等基因的多态性均可能与CIPN的风险增加相关[45,46]。然而，基于目前的研究，尚未有公认可靠的分子生物标志物来预测哪些患者是CIPN的高危人群。
+三、紫杉类药物相关周围神经病变的诊断和评估
+共识观点：紫杉类药物治疗开始前，需要记录患者既往史、合并症及其治疗情况；此外，还需进行神经系统检查，记录可能存在的任何感觉和运动异常。紫杉类药物相关周围神经病变的主要临床特征包括：(1)肢体远端感觉受累为主，符合长度依赖性特点(例如手套和长袜分布)；(2)病变出现与紫杉类药物使用有时相关系，包括用药后发病、停药减轻、再用加重；(3)紫杉类药物相关周围神经病变需与多种其他原因导致的周围神经病相鉴别。紫杉类药物相关周围神经病变严重程度评估包括基于医师的评估和基于患者的评估两方面。
+(一)诊断和鉴别诊断
+一般来说，CIPN的发生是逐渐进展的，但也有部分患者在接受化疗后突然发病。周围神经病变的基本诊断特征包括：(1)远端受累为主的多发性周围神经病，符合长度依赖性特点(例如手套和长袜分布)；(2)病变呈对称性分布；(3)在给予神经毒性化疗药物后发病，临床过程表现为起病缓慢，病初感觉症状可有暂时性缓解，之后可表现为进行性加重(轴突损害)或感觉症状在开始化疗后急性发生、发展(神经元病)；(4)临床主要表现为感觉神经受累的症状和体征，包括感觉异常、感觉迟钝、感觉减退、感觉过敏和疼痛；(5)运动功能相对保留，部分患者可伴有轻度至中度肢体无力，在感觉病变分布区可有肌肉萎缩[47]。周围神经病变的出现与紫杉类药物使用的时相关系，包括用药后发病、停药减轻、再用药时加重等，是确诊紫杉类药物引起周围神经病变的主要依据。
+神经电生理的发展使CIPN的诊断和评估有了更为客观的指标，但是CIPN的诊断还需结合临床症状、体征和神经电生理结果综合分析。神经电生理评估一般包括神经传导(nerve conductionstudies, NCS)和针电极肌电图，其中NCS具有更高的诊断价值。NCS对感觉和运动纤维病变的评估具有无创性、标准化、敏感度高的特点。因此，NCS是CIPN综合诊断中的一种方法[48]。
+紫杉类药物相关周围神经病变须与多种其他原因导致的周围神经病相鉴别。(1)肿瘤本身相关的副肿瘤综合征：可表现为感觉神经元病或慢性感觉运动性周围神经病；(2)营养缺乏相关周围神经病：由于肿瘤消耗或其他因素导致的营养摄入不足，也可导致多发性远端型周围神经病的发生；(3)糖尿病性周围神经病变：由于糖尿病患病率较高，肿瘤患者常可伴有糖尿病，部分患者在肿瘤发生前可能已经存在周围神经病，也需加以鉴别(主要鉴别要点见表1)[47]。
+点击查看表格
+表1
+周围神经病变主要鉴别诊断疾病的诊断要点
+表1
+周围神经病变主要鉴别诊断疾病的诊断要点
+疾病
+鉴别诊断要点
+副肿瘤综合征相关感觉神经病变
+副肿瘤性感觉神经元病的患者通常以亚急性不对称的肢体麻木起病，非长度依赖，逐渐进展为弥漫性感觉缺失，行走不稳，偶有疼痛，查体可见深感觉受累，感觉性共济失调。患者有肿瘤病史(小细胞肺癌最常见)；可有副肿瘤相关抗体如抗-Hu抗体阳性。副肿瘤性慢性感觉运动神经病通常发生于已诊断为恶性肿瘤的患者，通常表现为轻中度远端型对称性感觉运动神经病。CRMP5抗体阳性的患者一般进展较快
+营养缺乏相关神经病变
+多种维生素缺乏可导致周围神经病变，其中以维生素B12和B1缺乏较为常见。维生素B12缺乏的患者有素食或消化道手术等病史，可表现为以下肢为主的肢体远端麻木、无力，疼痛症状不突出，常伴有中枢神经系统受累(病理征阳性、下肢深感觉减退等)；部分患者同时有大细胞贫血，血清学检查可有血维生素B12水平降低、内因子抗体阳性；早期补充维生素B12后症状改善。维生素B1缺乏的患者常有酗酒史、或减肥手术、或持续呕吐；患者常表现为远端肢体麻木、无力，疼痛少见，可急性进展，部分患者伴有智能减退、精神行为异常和行走不稳
+糖尿病性周围神经病变
+患者有糖尿病病史，临床通常表现为慢性远端型感觉性周围神经病，以肢体远端麻木、疼痛为突出特点，常伴有自主神经症状如出汗减少、便秘等；查体可见下肢腱反射减低，针刺觉减退或过敏，音叉觉减退，很少伴有无力或仅为远端轻度无力；患者常同时有糖尿病视网膜病变和肾病
+注：CRMP5蛋白：塌陷反应介导蛋白5
+因此，在开始紫杉类药物化疗前，应充分评估患者是否存在可能混淆或加重CIPN严重程度的既往史和合并症，包括糖尿病、人类免疫缺陷病毒(human immunodeficiency virus, HIV)感染、营养缺乏、酒精中毒、周围神经病病史、遗传性周围神经病家族史等。既往药物治疗史和合并治疗用药史也很重要，许多常见的药物，包括甲硝唑、秋水仙碱、柳氮磺吡啶、他克莫司、核苷类似物、肼屈嗪和双硫仑等均有导致周围神经病变的报道[47]。此外，在开始紫杉类药物化疗前，治疗医师需对患者进行神经系统检查，记录可能存在的任何感觉和运动异常并作为基线资料。在已有神经系统疾病的患者中，神经科医师的专科评价可能对这类患者的未来管理非常重要。
+(二)紫杉类药物相关周围神经病变的评估
+1．基于医师的评估：
+临床常使用量表对CIPN进行评估，最常见基于临床医师的CIPN评估采用美国国家癌症研究所常见不良反应术语评定标准(National Cancer Institute-Common Terminology Criteria for Adverse Events, NCI-CTCAE，表2)。然而NCI-CTCAE尚存在不足之处，包括缺乏对具有临床意义的CIPN描述的参考，以及未能给出每个等级区分的具体标准或参数来进行分级。也有学者担心，该量表不能充分记录CIPN的某些方面，如CIPN相关疼痛。总神经病变评分(total neuropathy score, TNS)由约翰霍普金斯大学研发，是一项较大范围(0～40分)的综合评分，该量表(表3)将症状评分与感觉缺失和神经电生理参数的客观评分相结合进行评价。
+点击查看表格
+表2
+美国国家癌症研究所常见不良反应术语评定标准评估量表
+表2
+美国国家癌症研究所常见不良反应术语评定标准评估量表
+条目
+1级
+2级
+3级
+4级
+5级
+感觉性神经病变
+无症状；深腱反射消失或感觉异常(包括刺痛觉)，但不影响机体功能
+感觉改变或异常(包括刺痛觉)，影响肢体功能但不影响日常生活
+感觉改变或异常(包括刺痛觉)，影响日常生活
+功能丧失
+死亡
+运动性神经病变
+无症状，仅有诊查或检查发现的虚弱无力
+伴影响机体功能但不影响日常生活，有症状的虚弱无力
+影响日常生活的虚弱无力，步行时需要辅助(如手杖、步行器)
+有生命危险，功能丧失(如麻痹)
+死亡
+点击查看表格
+表3
+周围神经病变总神经病变评分
+表3
+周围神经病变总神经病变评分
+条目
+0分
+1分
+2分
+3分
+4分
+感觉神经症状
+无
+症状局限于手指或脚趾
+症状扩展至踝关节或腕关节
+症状扩展至膝关节或肘关节
+症状扩展至膝关节或肘关节以上，或影响功能
+运动神经症状
+无
+轻度运动困难
+中度运动困难
+需要帮助或协助
+瘫痪
+自主神经症状的次数
+无
+1次
+2次
+3次
+4或5次
+针刺觉敏感性
+正常
+手指和(或)脚趾减弱
+手腕和(或)踝关节以下减弱
+肘和(或)膝关节以下减弱
+肘和(或)膝关节以上减弱
+振动觉敏感性
+正常
+手指和(或)脚趾减弱
+手腕和(或)踝关节以下减弱
+肘和(或)膝关节以下减弱
+肘和(或)膝关节以上减弱
+肌力
+正常
+轻度无力(肌力4级)
+中度无力(肌力3级)
+重度无力(肌力2级)
+瘫痪(肌力0～1级)
+深腱反射
+正常
+踝反射减弱
+踝反射消失
+踝反射消失，其他反射减弱
+所有反射均消失
+腓肠神经感觉波幅
+正常或降低<5% LLN
+76%～95% LLN
+51%～75% LLN
+26%～50% LLN
+0～25% LLN
+腓总神经波幅
+正常或降低<5% LLN
+76%～95% LLN
+51%～75% LLN
+26%～50% LLN
+0～25% LLN
+振动觉
+正常至125% ULN
+126%～150% ULN
+151%～200% ULN
+201%～300% ULN
+>300% ULN
+注：LLN:正常值下限；ULN:正常值上限
+2．基于患者的评估：
+较常用于评估紫杉类药物诱导的周围神经病变的患者评估量表包括妇科肿瘤患者神经毒性评估量表(functional assessment of cancer therapy/gynaecologic oncology group-neurotoxicity，FACT/GOG-Ntx; 表4)和患者神经毒性问卷(patient neurotoxicity questionnaire, PNQ; 表5)。FACT/GOG-Ntx一般与生活质量评估量表(functional assessment of cancer therapy/gynaecologic oncology group-neurotoxicity-general，FACT-G)联合使用。FACT/GOG-Ntx包括11个条目，总分为44分，是专门测量化疗引起的神经毒性工具。PNQ包括2个条目，分别主观描述感觉和运动神经障碍的发生率和严重程度，评分分为A～E，其中得分在D之后，则表明神经毒性症状影响日常生活活动。此外，数字评价量表(numerical rating scale, NRS)评分也可用于患者外周神经毒性的评估。NRS将疼痛程度用0～10共11个数字表示，0表示无痛，10表示最痛。被测者根据个人疼痛感受选择一个数字代表其疼痛程度。
+点击查看表格
+表4
+妇科肿瘤患者神经毒性评估量表子量表(分)
+表4
+妇科肿瘤患者神经毒性评估量表子量表(分)
+症状
+无
+轻微
+感觉明显
+感觉强烈
+非常强烈
+手有麻木或刺痛感
+0
+1
+2
+3
+4
+脚有麻木或刺痛感
+0
+1
+2
+3
+4
+手感觉不舒服
+0
+1
+2
+3
+4
+脚感觉不舒服
+0
+1
+2
+3
+4
+关节痛或肌肉痛性痉挛
+0
+1
+2
+3
+4
+感觉乏力
+0
+1
+2
+3
+4
+听力困难
+0
+1
+2
+3
+4
+耳鸣
+0
+1
+2
+3
+4
+系纽扣困难
+0
+1
+2
+3
+4
+不能辨别手中小物体的形状
+0
+1
+2
+3
+4
+行走困难
+0
+1
+2
+3
+4
+注：0级：0分；1级：1～4分；2级：5～8分；3级：9～14分
+点击查看表格
+表5
+患者神经毒性问卷
+表5
+患者神经毒性问卷
+问题
+选项
+请指出下列哪一条描述最适合您？
+A.手足没有麻木、疼痛、刺痛感觉改变
+B.手足有轻微的麻木、疼痛、刺痛感觉改变，但没有影响我的日常生活
+C.手足有中度的麻木、疼痛、刺痛感觉，但没有影响我的日常生活
+D.手足有中度的麻木、疼痛、刺痛感觉，并影响了我的日常生活
+E.手足有中度的麻木、疼痛、刺痛感觉，并完全妨碍我进行大多数日常活动
+请指出下列哪一条描述最适合您？
+A.手足没有虚弱无力
+B.有轻度手足虚弱无力，但没有影响我的日常生活
+C.有中度手足虚弱无力，但没有影响我的日常生活
+D.有中度至重度手足虚弱无力，并影响了我的日常生活
+E.有重度手足虚弱无力，并完全妨碍我进行大多数日常活动
+四、紫杉类药物相关周围神经病变的预防
+共识观点：已有研究证实，加压手套或冰手套可显著减少周围神经病变的发生，且患者耐受性良好，可用于紫杉类药物相关周围神经病变的预防；药物预防目前尚缺乏大型随机对照研究证据。
+1．加压手套或冰手套：
+根据1 725例丹麦早期乳腺癌患者关于周围神经病变的研究分析表明，治疗期间使用冷冻手套和袜子，其周围神经病变的发生率显著降低(OR＝0.56, 95%CI为0.38～0.81)[49]。另一项多中心Ⅱ期临床试验分析了外科手套的作用，其对比了穿戴双层小一码的外科手套(SG)和双层合适外科手套或不穿戴外科手套的周围神经病变发生率。结果显示，受SG保护的试验手较对照手神经毒性发生率明显降低(感觉神经病变的发生率为21.4%和76.1%；运动神经病变的发生率为26.2%和57.1%)[50]。另外，2018年圣安东尼奥会议中发布的纳入16家临床试验机构的研究结果亦证实，冰手套或袜子治疗患者CIPN发生率显著降低[51]。
+2．药物预防：
+早期关于紫杉类药物周围神经病变预防相关的药物研究主要包括乙酰左旋肉碱、谷胱甘肽和维生素E等。然而这些药物在预防CIPN的研究中尚存在很多局限性，包括证据级别低、样本量小、缺乏安慰剂对照以及在某些情况下为非随机研究设计，甚至不同临床试验的数据是相互矛盾的。目前，仍有大量研究致力于发现可用于预防CIPN的药物。目前，许多针对新的有前景的靶点的临床试验正在进行中，乙氧基鸟苷通过热休克蛋白90(heat shock proteins, HSPs 90)调节防止紫杉醇和顺铂诱导的远端轴突变性[52]，而不影响抗肿瘤疗效，目前正在进行临床试验。此外，Bcl-2蛋白家族，包括Bcl-w，可能在紫杉醇引起的轴突变性中发挥作用。Bcl-w可通过影响神经元上的IP3受体活性而预防化疗诱导的神经变性。因此，调节Bcl-w水平可能是预防CIPN的另一种新的治疗策略[53]。有研究显示，氨磷汀[54]、单唾液酸四己糖神经节苷脂(GM1)对减轻神经毒性有一定作用[55,56]，但GM1不良反应多，临床使用尚需更多研究证实。此外，中医在CIPN的预防中也有一定作用。张振等[57]证实，补阳还五汤膏剂可减轻紫杉醇方案化疗致外周神经毒性(P<0.05)。补阳还五汤为中医益气活血的代表方剂，临床可用于气虚血瘀证CIPN患者。
+五、紫杉类药物相关周围神经病变的处理
+共识观点：1级或2级周围神经病变一般无需调整剂量，3级或4级周围神经病变的主要管理方法为降低化疗药物剂量和(或)延长用药间隔周期。感觉异常周围神经病可使用的药物包括B族维生素(B1、B6、B12和复合维生素B)、叶酸和烟酰胺。神经病理性疼痛可使用的药物包括三环类抗抑郁药(阿米替林)、五羟色胺、去甲肾上腺素再摄取抑制剂(度洛西汀和文拉法辛)和钙通道阻滞剂(加巴喷丁和普瑞巴林)。
+1．紫杉类药物剂量调整：
+周围神经病变的主要管理方法为降低化疗药物剂量和(或)延长用药间隔周期。如果周围神经病变不可耐受，则需停止用药。调整剂量和用药时间是最主要的干预措施。紫杉类药物治疗期间患者出现1级或2级周围神经病变一般无需调整剂量，如患者出现3级以上周围神经病变可以个体化判断是否需要停止治疗，直至恢复至2级或<2级，并需在后续治疗中降低用药剂量。对于经紫杉醇注射液治疗发生重度周围神经病变的患者，建议所有后续疗程的剂量降低20%。对于经多西他赛治疗发生3～4级周围神经病变的患者，多西他赛的剂量应由100 mg/m2减至75 mg/m2和(或)由75 mg/m2减至60 mg/m2。若患者在60 mg/m2剂量时仍出现重度周围神经病变，则应停止治疗。紫杉醇白蛋白结合型260 mg/m2 3周方案治疗乳腺癌的剂量调整方法为初次出现严重感觉神经病变，后续疗程减量至220 mg/m2；再次出现严重感觉神经病变，后续疗程减量至180 mg/m2。紫杉醇白蛋白结合型100 mg/m2单周方案治疗非小细胞肺癌和125 mg/m2单周方案治疗胰腺癌时，如患者出现重度周围神经病变，建议所有后续疗程的剂量降低25 mg/m2。
+2．药物治疗：
+外周神经病变的症状主要为感觉异常和神经病理性疼痛。感觉异常周围神经病通常使用营养神经药物改善临床症状。虽然神经营养类药物在治疗紫杉类药物引起的感觉异常周围神经病中的作用数据仍存争议，但临床有一定的治疗效果。感觉异常周围神经病患者可用药物包括B族维生素(B1、B6、B12和复合维生素B)、叶酸和烟酰胺(表6)。神经病理性疼痛推荐药物包括三环类抗抑郁药(阿米替林)、五羟色胺和去甲肾上腺素再摄取抑制剂(度洛西汀和文拉法辛)和钙通道阻滞剂(加巴喷丁和普瑞巴林，表7)[58]。神经痛的治疗对于改善患者生活质量非常重要，美国临床肿瘤学会(American Society of Clinical Oncology, ASCO)指南显示，度洛西汀治疗CIPN相关神经性疼痛可获得目前最佳的数据支持[59]。Smith等[60]在一项多中心、随机、双盲、交叉试验研究中证实，初始接受度洛西汀治疗的患者疼痛评分显著低于初始接受安慰剂治疗的患者。基于此项临床研究结果，ASCO临床实践指南适度推荐度洛西汀用于治疗CIPN。近期在中国开展的一项前瞻性研究亦证实，度洛西汀在预防CIPN方面具有很好的效果(OR＝5.426，95%CI为1.898～15.514，P＝0.002)[61]。目前一些新的治疗神经痛的药物也在研发中。氯沙坦是一种血管紧张素Ⅱ 1型受体拮抗剂，在大鼠模型中已证实其可通过抑制背根神经节中炎症细胞因子的产生，减轻化疗诱导的神经性疼痛[62]。此外，电针也被证实可减轻紫杉醇化疗引起的神经性疼痛。然而，新的治疗方法仍需大型对照研究证实[63]。
+点击查看表格
+表6
+感觉性周围神经病变的临床常用药物剂量
+表6
+感觉性周围神经病变的临床常用药物剂量
+药物
+建议剂量
+维生素B1
+10 mg/次，3次/d
+维生素B6
+10 mg/次，3次/d
+维生素B12
+0.5 mg/次，3次/d
+复合维生素B
+1片/次，3次/d
+叶酸
+5 mg/次，3次/d
+烟酰胺
+50 mg/次，3次/d
+点击查看表格
+表7
+神经病性疼痛常用治疗药物
+表7
+神经病性疼痛常用治疗药物
+药物类别
+药物
+建议剂量
+三环类抗抑郁药
+阿米替林
+起始剂量为口服12.5～25 mg/次，3次/d；最大日剂量150 mg
+五羟色胺和去甲肾上腺素再摄取抑制剂
+度洛西汀
+起始剂量为口服30 mg/次，1～3次/d；最大日剂量60 mg
+文拉法辛
+起始剂量为口服37.5～75 mg/次，1次/d；最大日剂量225 mg
+钙通道阻滞剂
+加巴喷丁
+第1天0.3 g，睡前服用；第2天0.3 g/次，2次/d；第3天0.3 g/次，3次/d；最大日剂量1.8 g
+普瑞巴林
+起始剂量为75～150 mg/次，2次/d，最大日剂量600 mg
+3．其他：
+现代中医学家认为，CIPN相当于"痹证"，治法以益气温经、养血活血、逐瘀通络、健脾益肾等为主，包括口服中药、静脉滴注等内治法和中药熏洗、针灸等外治及内外治结合的方法。近期亦有研究证实，针灸可减轻紫杉醇化疗引起的周围神经病变的严重程度。该研究筛选37例出现Ⅱ级CIPN的患者，28例进入干预阶段，其中1例因违背方案而移除。在接受针灸的27例患者中，26例完成紫杉醇治疗，均未发生Ⅲ级CIPN[64]。然而该研究仍存在一定的局限性，其为非随机对照试验，且未观察在重度CIPN患者中针灸是否可改善CIPN症状。目前，中医治疗CIPN也处于探索阶段。
+六、教育和护理
+共识观点：通过患者教育以减轻神经病变引起的继发性损伤。鼓励患者在接受治疗时，有任何手足麻木、刺痛症状及时向医师报告。周围神经病变会增加患者跌倒风险，应做好防跌倒教育和护理。
+由于缺乏有效的CIPN治疗方法，因此患者教育策略成为更多关注的焦点，以减轻神经病变引起的继发性损伤。目前，鼓励患者在接受治疗时，有任何手足麻木、刺痛症状及时向医师报告，对于防止神经病变加重十分重要。教育患者发现早期周围神经病变的方法以避免因感觉缺失、位置觉减退、感觉性共济失调引起摔伤。对于手足麻木患者需教育其做到五防：防跌倒、防磕碰、防烫伤、防冻伤、防锐器伤。预防意外发生的教育主要包括：(1)鞋和衣裤选择：鞋：外出和居室内均选择包住足趾和足跟的平底鞋，禁止穿高跟鞋、松糕鞋或拖鞋外出；裤：长短、肥瘦适中、腰带松紧适度，防止过长、脱落绊倒。(2)预防烫伤：避免接触热源(开水、热锅、明火等)，使用热水可以让家属协助，无人协助时先倒入凉水，再兑入热水，夏季中午炎热时避免长时间在户外，防止晒伤。(3)预防冻伤：冬季保暖，洗漱尽量使用常温水，外出可以戴手套、穿厚袜子，禁止长时间触摸冷冻的物品，寒冷地方减少直接接触铁质物品。(4)防锐器伤：避免使用剪刀、水果刀等锐器，必须使用时可以让家属帮助。(5)饮食：选择易于消化并富有营养的软食，补充维生素B1含量高的食物，如胚粉、大麦、青稞、小米等杂粮，大豆等豆类，白菜和坚果等。
+此外，CIPN是增加跌倒风险的重要因素，20%的患者在化疗期间可发生跌倒。发生跌倒的患者报告的神经病变症状更严重，伴有与神经病变程度相关的更严重的功能障碍，推荐使用Morse跌倒评估量表(表8)对患者进行跌倒评估。对于有跌倒风险的患者实施如下护理：(1)一般护理措施：加强巡视，及时发现并满足患者需求；固定床、轮椅、座椅等设施；指导患者正确用药，告知用药后的反应；告知患者寻求帮助的方法。(2)环境预防：提供足够的灯光；将物品放置于患者易取处；保持房间地面清洁干燥；清除病房、床旁和通道障碍。(3)健康教育：穿着舒适的鞋和衣裤；患者活动时有人陪伴；指导渐进下床的方法；告知安全使用便器的方法；指导呼叫器使用。
+点击查看表格
+表8
+Morse跌倒评估量表
+表8
+Morse跌倒评估量表
+评分项目
+评分
+跌倒史
+0分：无；25分：有
+超过1个医学诊断
+0分：无；15分：有
+行走辅助
+0分：卧床休息，由护士照顾活动或不需要使用；15分：使用拐杖、手杖、助行器；30分：扶靠家具行走
+静脉治疗或肝素锁
+0分：无；20分：有
+步态
+0分：正常、卧床休息不能活动；10分：双下肢虚弱乏力；20分：残疾或功能障碍
+认知状态
+0分：量力而行；15分：高估自己或忘记自己受限
+注：零危险：0～24分；低度危险：25～45分；高度危险：>45分
+执笔专家 马飞(中国医学科学院肿瘤医院内科)、刘明生(北京协和医院神经科)、王佳妮(中国医学科学院肿瘤医院内科)、李逸群(中国医学科学院肿瘤医院内科)
+参与共识编写和讨论的专家(按姓氏拼音排序) 曹文明(浙江省肿瘤医院肿瘤内科)、崔丽英(北京协和医院神经科)、崔久嵬(吉林大学第一医院肿瘤中心肿瘤科)、杜彩文(中国医学科学院肿瘤医院深圳医院肿瘤内科)、樊英(中国医学科学院肿瘤医院内科)、冯继锋(江苏省肿瘤医院肿瘤内科)、关印(首都医科大学附属北京朝阳医院肿瘤科)、何蕾(中山大学孙逸仙纪念医院神经科)、侯炜(中国中医科学院广安门医院肿瘤科)、胡夕春(复旦大学附属肿瘤医院肿瘤内科)、霍明(日本姬路独协大学医疗保健学部)、贾旺(首都医科大学附属北京天坛医院神经外科)、姜愚(四川大学华西医院头颈肿瘤科)、李冰(北京大学第六医院临床心理病房)、李青(中国医学科学院肿瘤医院内科)、李德岭(首都医科大学附属北京天坛医院神经外科)、李国辉(中国医学科学院肿瘤医院药剂科)、李惠平(北京大学肿瘤医院乳腺肿瘤内科)、黎莉(山东大学齐鲁医院肿瘤中心化疗科)、刘慧(河南省人民医院乳腺外科)、刘健(福建省肿瘤医院乳腺肿瘤内科)、刘明生(北京协和医院神经科)、罗扬(中国医学科学院肿瘤医院内科)、罗志国(复旦大学附属肿瘤医院肿瘤内科)、马飞(中国医学科学院肿瘤医院内科)、梅志红(中国医学科学院肿瘤医院内科)、牛婧雯(北京协和医院神经科)、欧阳取长(湖南省肿瘤医院乳腺内科)、彭英(中山大学孙逸仙纪念医院神经科)、孙涛(辽宁省肿瘤医院乳腺内科)、孙晓莹(中国医学科学院肿瘤医院内科)、佟仲生(天津医科大学肿瘤医院乳腺肿瘤内科)、万冬桂(中日友好医院中西医结合肿瘤内科)、王树森(中山大学肿瘤防治中心肿瘤内科)、王先明(深圳市第二人民医院乳腺甲状腺外科)、王晓稼(浙江省肿瘤医院乳腺肿瘤内科)、徐兵河(中国医学科学院肿瘤医院药物临床试验研究中心)、杨谨(西安交通大学医学院第一附属医院肿瘤内科)、杨俊兰(中国人民解放军总医院肿瘤内科)、姚和瑞(中山大学孙逸仙纪念医院化疗专科)、殷咏梅(江苏省人民医院肿瘤科)、袁中玉(中山大学肿瘤防治中心内科)、张清媛(哈尔滨医科大学附属肿瘤医院肿瘤内科)、赵林(北京协和医院肿瘤内科)、赵久达(青海大学附属医院肿瘤内科)
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+TrecarichiA, FlattersSJL.
+Mitochondrial dysfunction in the pathogenesis of chemotherapy-induced peripheral neuropathy[J].
+Int Rev Neurobiol,
+2019,
+145:
+83-
+126.
+DOI: 10.1016/bs.irn.2019.05.001.
+[2]
+ZangX, LeeJB, DeshpandeK, et al.
+Prevention of paclitaxel-induced neuropathy by formulation approach[J].
+J Control Release,
+2019,
+303:
+109-
+116.
+DOI: 10.1016/j.jconrel.2019.04.013.
+[3]
+FlattersSJL, DoughertyPM, ColvinLA.
+Clinical and preclinical perspectives on Chemotherapy-Induced Peripheral Neuropathy (CIPN): a narrative review[J].
+Br J Anaesth,
+2017,
+119(
+4):
+737-
+749.
+DOI: 10.1093/bja/aex229.
+[4]
+GornsteinEL, SchwarzTL.
+Neurotoxic mechanisms of paclitaxel are local to the distal axon and independent of transport defects[J].
+Exp Neurol,
+2017,
+288:
+153-
+166.
+DOI: 10.1016/j.expneurol.2016.11.015.
+[5]
+FlattersSJ, BennettGJ.
+Studies of peripheral sensory nerves in paclitaxel-induced painful peripheral neuropathy: evidence for mitochondrial dysfunction[J].
+Pain,
+2006,
+122(
+3):
+245-
+257.
+[6]
+XiaoWH, BennettGJ.
+Effects of mitochondrial poisons on the neuropathic pain produced by the chemotherapeutic agents, paclitaxel and oxaliplatin[J].
+Pain,
+2012,
+153(
+3):
+704-
+709.
+DOI: 10.1016/j.pain.2011.12.011.
+[7]
+AretiA, YerraVG, NaiduV, et al.
+Oxidative stress and nerve damage: role in chemotherapy induced peripheral neuropathy[J].
+Redox Biol,
+2014,
+2:
+289-
+295.
+DOI: 10.1016/j.redox.2014.01.006.
+[8]
+BuluaAC, SimonA, MaddipatiR, et al.
+Mitochondrial reactive oxygen species promote production of proinflammatory cytokines and are elevated in TNFR1-associated periodic syndrome (TRAPS)[J].
+J Exp Med,
+2011,
+208(
+3):
+519-
+533.
+DOI: 10.1084/jem.20102049.
+[9]
+GriffithsLA, FlattersSJ.
+Pharmacological modulation of the mitochondrial electron transport Chain in paclitaxel-induced painful peripheral neuropathy[J].
+J Pain,
+2015,
+16(
+10):
+981-
+994.
+DOI: 10.1016/j.jpain.2015.06.008.
+[10]
+DuggettNA, GriffithsLA, FlattersSJL.
+Paclitaxel-induced painful neuropathy is associated with changes in mitochondrial bioenergetics, glycolysis, and an energy deficit in dorsal root ganglia neurons[J].
+Pain,
+2017,
+158(
+8):
+1499-
+1508.
+DOI: 10.1097/j.pain.0000000000000939.
+[11]
+SahenkZ, BarohnR, NewP, et al.
+Taxol neuropathy: electrodiagnostic and sural nerve biopsy findings[J].
+Arch Neurol,
+1994,
+51(
+7):
+726-
+729.
+DOI: 10.1001/archneur.1994.00540190110024.
+[12]
+BoehmerleW, HuehnchenP, PeruzzaroS, et al.
+Electrophysiological, behavioral and histological characterization of paclitaxel, cisplatin, vincristine and bortezomib-induced neuropathy in C57Bl/6 mice[J].
+Sci Rep,
+2014,
+4:
+6370.
+DOI: 10.1038/srep06370.
+[13]
+SiauC, XiaoW, BennettGJ.
+Paclitaxel-and vincristine-evoked painful peripheral neuropathies: loss of epidermal innervation and activation of Langerhans cells[J].
+Exp Neurol,
+2006,
+201(
+2):
+507-
+514.
+DOI: 10.1016/j.expneurol.2006.05.007.
+[14]
+GornsteinE, SchwarzTL.
+The paradox of paclitaxel neurotoxicity: mechanisms and unanswered questions[J].
+Neuropharmacology,
+2014,
+76
+Pt A:
+175-
+183.
+DOI: 10.1016/j.neuropharm.2013.08.016.
+[15]
+Boyette-DavisJ, XinW, ZhangH, et al.
+Intraepidermal nerve fiber loss corresponds to the development of taxol-induced hyperalgesia and can be prevented by treatment with minocycline[J].
+Pain,
+2011,
+152(
+2):
+308-
+313.
+DOI: 10.1016/j.pain.2010.10.030.
+[16]
+KiddJF, PilkingtonMF, SchellMJ, et al.
+Paclitaxel affects cytosolic calcium signals by opening the mitochondrial permeability transition pore[J].
+J Biol Chem,
+2002,
+277(
+8):
+6504-
+6510.
+DOI: 10.1074/jbc.M106802200.
+[17]
+MironovSL, IvannikovMV, JohanssonM.
+[Ca2＋]i signaling between mitochondria and endoplasmic reticulum in neurons is regulated by microtubules. From mitochondrial permeability transition pore to Ca2＋-induced Ca2＋ release[J].
+J Biol Chem,
+2005,
+280(
+1):
+715-
+721.
+DOI: 10.1074/jbc.M409819200.
+[18]
+LiY, NorthRY, RhinesLD, et al.
+DRG voltage-gated sodium channel 1.7 is upregulated in paclitaxel-induced neuropathy in rats and in humans with neuropathic pain[J].
+J Neurosci,
+2018,
+38(
+5):
+1124-
+1136.
+DOI: 10.1523/JNEUROSCI.0899-17.2017.
+[19]
+AromolaranKA, GoldsteinPA.
+Ion channels and neuronal hyperexcitability in chemotherapy-induced peripheral neuropathy; cause and effect？[J].
+Mol Pain,
+2017,
+13:
+1744806917714693.
+DOI: 10.1177/1744806917714693.
+[20]
+GhelardiniC, DesaphyJF, MuragliaM, et al.
+Effects of a new potent analog of tocainide on hNav1.7 sodium channels and in vivo neuropathic pain models[J].
+Neuroscience,
+2010,
+169(
+2):
+863-
+873.
+DOI: 10.1016/j.neuroscience.2010.05.019.
+[21]
+ZhangH, DoughertyPM.
+Enhanced excitability of primary sensory neurons and altered gene expression of neuronal ion channels in dorsal root ganglion in paclitaxel-induced peripheral neuropathy[J].
+Anesthesiology,
+2014,
+120(
+6):
+1463-
+1475.
+DOI: 10.1097/ALN.0000000000000176.
+[22]
+Zaks-ZilbermanM, ZaksTZ, VogelSN.
+Induction of proinflammatory and chemokine genes by lipopolysaccharide and paclitaxel (Taxol) in murine and human breast cancer cell lines[J].
+Cytokine,
+2001,
+15(
+3):
+156-
+165.
+DOI: 10.1006/cyto.2001.0935.
+[23]
+De IuliisF, TaglieriL, SalernoG, et al.
+Taxane induced neuropathy in patients affected by breast cancer: Literature review[J].
+Crit Rev Oncol Hematol,
+2015,
+96(
+1):
+34-
+45.
+DOI: 10.1016/j.critrevonc.2015.04.011.
+[24]
+MolsF, van de Poll-FranseLV, VreugdenhilG, et al.
+Reference data of the European Organisation for Research and Treatment of Cancer (EORTC) QLQ-CIPN20 Questionnaire in the general Dutch population[J].
+Eur J Cancer,
+2016,
+69:
+28-
+38.
+DOI: 10.1016/j.ejca.2016.09.020.
+[25]
+MahnerS, MeierW, du BoisA, et al.
+Carboplatin and pegylated liposomal doxorubicin versus carboplatin and paclitaxel in very platinum-sensitive ovarian cancer patients: results from a subset analysis of the CALYPSO phase Ⅲ trial[J].
+Eur J Cancer,
+2015,
+51(
+3):
+352-
+358.
+DOI: 10.1016/j.ejca.2014.11.017.
+[26]
+WinerEP, BerryDA, WoolfS, et al.
+Failure of higher-dose paclitaxel to improve outcome in patients with metastatic breast cancer: cancer and leukemia group B trial 9342[J].
+J Clin Oncol,
+2004,
+22(
+11):
+2061-
+2068.
+DOI: 10.1200/JCO.2004.08.048.
+[27]
+RiveraE, MejiaJA, ArunBK, et al.
+Phase 3 study comparing the use of docetaxel on an every-3-week versus weekly schedule in the treatment of metastatic breast cancer[J].
+Cancer,
+2008,
+112(
+7):
+1455-
+1461.
+DOI: 10.1002/cncr.23321.
+[28]
+张丹华，周恩相.
+紫杉醇注射液、紫杉醇脂质体以及多西他赛治疗乳腺癌的疗效及安全性[J]．
+中国癌症杂志，
+2013,
+23(
+12):
+1014-
+1016.
+DOI: 10.3969/j.issn.1007-3969.2013.12.014.
+ZhangDH, ZhouEX. Efficacy and safety of paclitaxel injection, paclitaxel liposome and docetaxel in the treatment of breast cancer [J]. Chin J Cancer, 2013, 23 (12): 1014-1016. DOI: 10.3969/j.issn.1007-3969.2013.12.014.
+[29]
+Van CutsemE, MoiseyenkoVM, TjulandinS, et al.
+Phase Ⅲ study of docetaxel and cisplatin plus fluorouracil compared with cisplatin and fluorouracil as first-line therapy for advanced gastric cancer: a report of the V325 Study Group[J].
+J Clin Oncol,
+2006,
+24(
+31):
+4991-
+4997.
+DOI: 10.1200/JCO.2006.06.8429.
+[30]
+GradisharWJ, TjulandinS, DavidsonN, et al.
+Phase Ⅲ trial of nanoparticle albumin-bound paclitaxel compared with polyethylated castor oil-based paclitaxel in women with breast cancer[J].
+J Clin Oncol,
+2005,
+23(
+31):
+7794-
+7803.
+DOI: 10.1200/JCO.2005.04.937.
+[31]
+SocinskiMA, BondarenkoI, KarasevaNA, et al.
+Weekly nab-paclitaxel in combination with carboplatin versus solvent-based paclitaxel plus carboplatin as first-line therapy in patients with advanced non-small-cell lung cancer: final results of a phase Ⅲ trial[J].
+J Clin Oncol,
+2012,
+30(
+17):
+2055-
+2062.
+DOI: 10.1200/JCO.2011.39.5848.
+[32]
+XuR, YuX, HaoJ, et al.
+Efficacy and safety of weekly nab-paclitaxel plus gemcitabine in Chinese patients with metastatic adenocarcinoma of the pancreas: a phase Ⅱ study[J].
+BMC Cancer,
+2017,
+17(
+1):
+885.
+DOI: 10.1186/s12885-017-3887-z.
+[33]
+TaberneroJ, ClimentMA, LluchA, et al.
+A multicentre, randomised phase Ⅱ study of weekly or 3-weekly docetaxel in patients with metastatic breast cancer[J].
+Ann Oncol,
+2004,
+15(
+9):
+1358-
+1365.
+DOI: 10.1093/annonc/mdh349.
+[34]
+田璐，谭力铭，王宏强.
+紫杉醇脂质体与紫杉醇治疗乳腺癌有效性和安全性的Meta分析[J]．
+中国药师，
+2019,
+22(
+1):
+97-101, 105.
+DOI: CNKI:SUN:ZYSG.0.2019-01-026.
+TianL, TanLM, WangHQ. Meta-analysis on the efficacy and safety of paclitaxel liposome and paclitaxel in the treatment of breast cancer [J]. Chin Pharm, 2019, 22(1): 97-101, 105. DOI: CNKI:SUN:ZYSG.0.2019-01-026.
+[35]
+GradisharWJ, KrasnojonD, CheporovS, et al.
+Phase Ⅱ trial of nab-paclitaxel compared with docetaxel as first-line chemotherapy in patients with metastatic breast cancer: final analysis of overall survival[J].
+Clin Breast Cancer,
+2012,
+12(
+5):
+313-
+321.
+DOI: 10.1016/j.clbc.2012.05.001.
+[36]
+WindebankAJ, BlexrudMD, de GroenPC.
+Potential neurotoxicity of the solvent vehicle for cyclosporine[J].
+J Pharmacol Exp Ther,
+1994,
+268(
+2):
+1051-
+1056.
+[37]
+ten TijeAJ, VerweijJ, LoosWJ, et al.
+Pharmacological effects of formulation vehicles : implications for cancer chemotherapy[J].
+Clin Pharmacokinet,
+2003,
+42(
+7):
+665-
+685.
+DOI: 10.2165/00003088-200342070-00005.
+[38]
+ParkSB, GoldsteinD, KrishnanAV, et al.
+Chemotherapy-induced peripheral neurotoxicity: a critical analysis[J].
+CA Cancer J Clin,
+2013,
+63(
+6):
+419-
+437.
+DOI: 10.3322/caac.21204.
+[39]
+RiveraE, CianfroccaM.
+Overview of neuropathy associated with taxanes for the treatment of metastatic breast cancer[J].
+Cancer Chemother Pharmacol,
+2015,
+75(
+4):
+659-
+670.
+DOI: 10.1007/s00280-014-2607-5.
+[40]
+SchneiderBP, ZhaoF, WangM, et al.
+Neuropathy is not associated with clinical outcomes in patients receiving adjuvant taxane-containing therapy for operable breast cancer[J].
+J Clin Oncol,
+2012,
+30(
+25):
+3051-
+3057.
+DOI: 10.1200/JCO.2011.39.8446.
+[41]
+HirshV, OwenS, KoA, et al.
+Nab-paclitaxel in combination with carboplatin as first-line therapy in diabetic patients with advanced non-small cell lung cancer (NSCLC)[J].
+J Thoracic Oncol,
+2013,
+8:
+S584.
+DOI: 10.1097/01.JTO.0000438438.14562.c8.
+[42]
+RuaC, GuéguinouM, SoubaiI, et al.
+SK3 gene polymorphism is associated with taxane neurotoxicity and cell calcium homeostasis[J].
+Clin Cancer Res,
+2018,
+24(
+21):
+5313-
+5320.
+DOI: 10.1158/1078-0432.CCR-18-0870.
+[43]
+ArbitrioM, SciontiF, AltomareE, et al.
+Polymorphic variants in NR1I3 and UGT2B7 predict taxane neurotoxicity and have prognostic relevance in patients with breast cancer: a case-control study[J].
+Clin Pharmacol Ther,
+2019,
+106(
+2):
+422-
+431.
+DOI: 10.1002/cpt.1391.
+[44]
+BaldwinRM, OwzarK, ZembutsuH, et al.
+A genome-wide association study identifies novel loci for paclitaxel-induced sensory peripheral neuropathy in CALGB 40101[J].
+Clin Cancer Res,
+2012,
+18(
+18):
+5099-
+5109.
+DOI: 10.1158/1078-0432.CCR-12-1590.
+[45]
+BrewerJR, MorrisonG, DolanME, et al.
+Chemotherapy-induced peripheral neuropathy: Current status and progress[J].
+Gynecol Oncol,
+2016,
+140(
+1):
+176-
+183.
+DOI: 10.1016/j.ygyno.2015.11.011.
+[46]
+MirO, AlexandreJ, TranA, et al.
+Relationship between GSTP1 Ile(105)Val polymorphism and docetaxel-induced peripheral neuropathy: clinical evidence of a role of oxidative stress in taxane toxicity[J].
+Ann Oncol,
+2009,
+20(
+4):
+736-
+740.
+DOI: 10.1093/annonc/mdn698.
+[47]
+HausheerFH, SchilskyRL, BainS, et al.
+Diagnosis, management, and evaluation of chemotherapy-induced peripheral neuropathy[J].
+Semin Oncol,
+2006,
+33(
+1):
+15-
+49.
+DOI: 10.1053/j.seminoncol.2005.12.010.
+[48]
+EnglandJD, GronsethGS, FranklinG, et al.
+Distal symmetric polyneuropathy: a definition for clinical research: report of the American Academy of Neurology, the American Association of Electrodiagnostic Medicine, and the American Academy of Physical Medicine and Rehabilitation[J].
+Neurology,
+2005,
+64(
+2):
+199-
+207.
+DOI: 10.1212/01.WNL.0000149522.32823.EA.
+[49]
+EckhoffL, KnoopAS, JensenMB, et al.
+Risk of docetaxel-induced peripheral neuropathy among 1，725 Danish patients with early stage breast cancer[J].
+Breast Cancer Res Treat,
+2013,
+142(
+1):
+109-
+118.
+DOI: 10.1007/s10549-013-2728-2.
+[50]
+TsuyukiS, SendaN, KanngY, et al.
+Evaluation of the effect of compression therapy using surgical gloves on nanoparticle albumin-bound paclitaxel-induced peripheral neuropathy: a phase Ⅱ multicenter study by the Kamigata Breast Cancer Study Group[J].
+Breast Cancer Res Treat,
+2016,
+160(
+1):
+61-
+67.
+DOI: 10.1007/s10549-016-3977-7.
+[51]
+YamashitaT, HattoriM, NakadaT, et al.
+Subjective and objective assessment of efficacy of frozen gloves and socks to prevent nab-paclitaxel-induced peripheral neuropathy in patients with breast cancer[EB/OL].
+Cancer Res,
+2019,
+79(
+4
+suppl)：
+p4-11-2.
+DOI：10.1158/15387445.SABCS18-P4-11-02.
+[52]
+ZhuJ, CarozziVA, ReedN, et al.
+Ethoxyquin provides neuroprotection against cisplatin-induced neurotoxicity[J].
+Sci Rep,
+2016,
+6:
+28861.
+DOI: 10.1038/srep28861.
+[53]
+Pease-RaissiSE, Pazyra-MurphyMF, LiY, et al.
+Paclitaxel reduces axonal bclw to initiate IP3R1-dependent axon degeneration[J].
+Neuron,
+2017,
+96(
+2):
+373-386. e6.
+DOI: 10.1016/j.neuron.2017.09.034.
+[54]
+PenzM, KornekGV, RadererM, et al.
+Subcutaneous admin-istration of amifostine: a promising therapeutic option in patients with oxaliplatin related peripheral senstive neuro-pathy[J].
+Ann Oncol,
+2001,
+2(
+3):
+421-
+422.
+DOI: 10.1023/a:1011184609963.
+[55]
+SuY, HuangJ, WangS, et al.
+The effects of ganglioside-monosialic acid in taxane-induced peripheral neurotoxicity in patients with breast cancer: a randomized trial[J].
+J Natl Cancer Inst,
+2020,
+112(
+1):
+55-
+62.
+DOI: 10.1093/jnci/djz086.
+[56]
+ZhuY, YangJ, JiaoS, et al.
+Ganglioside-monosialic acid (GM1) prevents oxaliplatin-induced peripheral neurotoxicity in patients with gastrointestinal tumors[J].
+World J Surg Oncol,
+2013,
+11:
+19.
+DOI: 10.1186/1477-7819-11-19.
+[57]
+张振，孙亚红，安玉姬，等.
+补阳还五汤膏剂防治含紫杉醇方案化疗致外周神经毒性临床研究[J].
+山东中医杂志，
+2017,
+36(
+5):
+383-384，389.
+DOI: 10.16295/j.cnki.0257-358x.2017.05.010.
+ZhangZ, SunYH, AnYJ, et al. Clinical study of buyang huanwu decoction in preventing and treating peripheral neurotoxicity induced by paclitaxel-containing chemotherapy[J]. Shandong J Traditi Chin Med, 2017, 36 (5): 383-384，389. DOI: 10.16295/j.cnki.0257-358x.2017.05.010.
+[58]
+陈瑞，姚广裕，陈路嘉，等.
+紫杉烷类抗肿瘤药物所致外周神经毒性相关研究进展[J].
+中国生化药物杂志，
+2015,
+35(
+4):
+185-
+188.
+ChenR, YaoGY, ChenLJ, et al. Research progress on peripheral neurotoxicity induced by taxanes antineoplastic drugs [J]. Chin J Biochem Drugs, 2015, 35 (4): 185-188.
+[59]
+HershmanDL, LacchettiC, DworkinRH, et al.
+Prevention and management of chemotherapy-induced peripheral neuropathy in survivors of adult cancers: American Society of Clinical Oncology clinical practice guideline[J].
+J Clin Oncol,
+2014,
+32(
+18):
+1941-
+1967.
+DOI: 10.1200/JCO.2013.54.0914.
+[60]
+SmithEM, PangH, CirrincioneC, et al.
+Effect of duloxetine on pain, function, and quality of life among patients with chemotherapy-induced painful peripheral neuropathy: a randomized clinical trial[J].
+JAMA,
+2013,
+309(
+13):
+1359-
+1367.
+DOI: 10.1001/jama.2013.2813.
+[61]
+WangJ, LiQ, XuB, et al.
+Efficacy and safety of duloxetine in Chinese breast cancer patients with paclitaxel-induced peripheral neuropathy[J].
+Chin J Cancer Res,
+2017,
+29(
+5):
+411-
+418.
+DOI: 10.21147/j.issn.1000-9604.2017.05.05.
+[62]
+KimE, HwangSH, KimHK, et al.
+Losartan, an angiotensin Ⅱ type 1 receptor antagonist, alleviates mechanical hyperalgesia in a rat model of chemotherapy-induced neuropathic pain by inhibiting inflammatory cytokines in the dorsal root ganglia[J].
+Mol Neurobiol,
+2019,
+56(
+11):
+7408-
+7419.
+DOI: 10.1007/s12035-019-1616-0.
+[63]
+ZhaoX, LiuL, WangY, et al.
+Electroacupuncture enhances antioxidative signal pathway and attenuates neuropathic pain induced by chemotherapeutic paclitaxel[J].
+Physiol Res,
+2019,
+68(
+3):
+501-
+510.
+DOI: 10.33549/physiolres.934084.
+[64]
+BaoT, SeidmanAD, PiulsonL, et al.
+A phase ⅡA trial of acupuncture to reduce chemotherapy-induced peripheral neuropathy severity during neoadjuvant or adjuvant weekly paclitaxel chemotherapy in breast cancer patients[J].
+Eur J Cancer,
+2018,
+101:
+12-
+19.
+DOI: 10.1016/j.ejca.2018.06.008.
+贡献者信息
+紫杉类药物相关周围神经病变规范化管理专家共识专家委员会
+通信作者
+马飞
+国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院内科 100021
+Email：
+drmafei@126.com
+徐兵河
+国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院药物临床试验研究中心 100021
+Email：
+bhxu@hotmail.com
+关键词
+紫杉类药物;
+周围神经病变;
+专家共识;
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-03-23
+收稿日期：2020-02-03
+Guideline and Standard
+Expert consensus on standardized management of taxane-related peripheral neuropathy
+Taxane-related Peripheral Neuropathy Standardized Management Group
+Published
+2020-03-23
+Cite as
+Chin J Oncol, 2020,42(03): 170-179. DOI: 10.3760/cma.j.cn112152-20200203-00062
+Abstract
+Taxanes are cornerstones of cancer chemotherapy and can be used for the treatment of various tumors, including breast cancer. Taxane-associated peripheral neuropathy is a common adverse effect of taxanes, leading to discontinuation of drug therapy, affecting drug treatment outcomes, and severely affecting patients' quality of life. This consensus addresses and recommends the pathogenesis, clinical features, associated risk factors, diagnostic evaluation, prevention, and treatment of taxane-related peripheral neuropathy. It is hoped that this consensus will standardize the current management of taxane-related peripheral neuropathy in China and improve clinicians′ understanding of taxane-related peripheral neuropathy, thereby improving patient outcomes and improving patient quality of life.
+Key words:
+Taxane; Peripheral neuropathy; Expert consensus
+Contributor Information
+Taxane-related Peripheral Neuropathy Standardized Management Group
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+周围神经病变主要鉴别诊断疾病的诊断要点
+疾病
+鉴别诊断要点
+副肿瘤综合征相关感觉神经病变
+副肿瘤性感觉神经元病的患者通常以亚急性不对称的肢体麻木起病，非长度依赖，逐渐进展为弥漫性感觉缺失，行走不稳，偶有疼痛，查体可见深感觉受累，感觉性共济失调。患者有肿瘤病史(小细胞肺癌最常见)；可有副肿瘤相关抗体如抗-Hu抗体阳性。副肿瘤性慢性感觉运动神经病通常发生于已诊断为恶性肿瘤的患者，通常表现为轻中度远端型对称性感觉运动神经病。CRMP5抗体阳性的患者一般进展较快
+营养缺乏相关神经病变
+多种维生素缺乏可导致周围神经病变，其中以维生素B12和B1缺乏较为常见。维生素B12缺乏的患者有素食或消化道手术等病史，可表现为以下肢为主的肢体远端麻木、无力，疼痛症状不突出，常伴有中枢神经系统受累(病理征阳性、下肢深感觉减退等)；部分患者同时有大细胞贫血，血清学检查可有血维生素B12水平降低、内因子抗体阳性；早期补充维生素B12后症状改善。维生素B1缺乏的患者常有酗酒史、或减肥手术、或持续呕吐；患者常表现为远端肢体麻木、无力，疼痛少见，可急性进展，部分患者伴有智能减退、精神行为异常和行走不稳
+糖尿病性周围神经病变
+患者有糖尿病病史，临床通常表现为慢性远端型感觉性周围神经病，以肢体远端麻木、疼痛为突出特点，常伴有自主神经症状如出汗减少、便秘等；查体可见下肢腱反射减低，针刺觉减退或过敏，音叉觉减退，很少伴有无力或仅为远端轻度无力；患者常同时有糖尿病视网膜病变和肾病
+注：CRMP5蛋白：塌陷反应介导蛋白5
+表2
+美国国家癌症研究所常见不良反应术语评定标准评估量表
+条目
+1级
+2级
+3级
+4级
+5级
+感觉性神经病变
+无症状；深腱反射消失或感觉异常(包括刺痛觉)，但不影响机体功能
+感觉改变或异常(包括刺痛觉)，影响肢体功能但不影响日常生活
+感觉改变或异常(包括刺痛觉)，影响日常生活
+功能丧失
+死亡
+运动性神经病变
+无症状，仅有诊查或检查发现的虚弱无力
+伴影响机体功能但不影响日常生活，有症状的虚弱无力
+影响日常生活的虚弱无力，步行时需要辅助(如手杖、步行器)
+有生命危险，功能丧失(如麻痹)
+死亡
+表3
+周围神经病变总神经病变评分
+条目
+0分
+1分
+2分
+3分
+4分
+感觉神经症状
+无
+症状局限于手指或脚趾
+症状扩展至踝关节或腕关节
+症状扩展至膝关节或肘关节
+症状扩展至膝关节或肘关节以上，或影响功能
+运动神经症状
+无
+轻度运动困难
+中度运动困难
+需要帮助或协助
+瘫痪
+自主神经症状的次数
+无
+1次
+2次
+3次
+4或5次
+针刺觉敏感性
+正常
+手指和(或)脚趾减弱
+手腕和(或)踝关节以下减弱
+肘和(或)膝关节以下减弱
+肘和(或)膝关节以上减弱
+振动觉敏感性
+正常
+手指和(或)脚趾减弱
+手腕和(或)踝关节以下减弱
+肘和(或)膝关节以下减弱
+肘和(或)膝关节以上减弱
+肌力
+正常
+轻度无力(肌力4级)
+中度无力(肌力3级)
+重度无力(肌力2级)
+瘫痪(肌力0～1级)
+深腱反射
+正常
+踝反射减弱
+踝反射消失
+踝反射消失，其他反射减弱
+所有反射均消失
+腓肠神经感觉波幅
+正常或降低<5% LLN
+76%～95% LLN
+51%～75% LLN
+26%～50% LLN
+0～25% LLN
+腓总神经波幅
+正常或降低<5% LLN
+76%～95% LLN
+51%～75% LLN
+26%～50% LLN
+0～25% LLN
+振动觉
+正常至125% ULN
+126%～150% ULN
+151%～200% ULN
+201%～300% ULN
+>300% ULN
+注：LLN:正常值下限；ULN:正常值上限
+表4
+妇科肿瘤患者神经毒性评估量表子量表(分)
+症状
+无
+轻微
+感觉明显
+感觉强烈
+非常强烈
+手有麻木或刺痛感
+0
+1
+2
+3
+4
+脚有麻木或刺痛感
+0
+1
+2
+3
+4
+手感觉不舒服
+0
+1
+2
+3
+4
+脚感觉不舒服
+0
+1
+2
+3
+4
+关节痛或肌肉痛性痉挛
+0
+1
+2
+3
+4
+感觉乏力
+0
+1
+2
+3
+4
+听力困难
+0
+1
+2
+3
+4
+耳鸣
+0
+1
+2
+3
+4
+系纽扣困难
+0
+1
+2
+3
+4
+不能辨别手中小物体的形状
+0
+1
+2
+3
+4
+行走困难
+0
+1
+2
+3
+4
+注：0级：0分；1级：1～4分；2级：5～8分；3级：9～14分
+表5
+患者神经毒性问卷
+问题
+选项
+请指出下列哪一条描述最适合您？
+A.手足没有麻木、疼痛、刺痛感觉改变
+B.手足有轻微的麻木、疼痛、刺痛感觉改变，但没有影响我的日常生活
+C.手足有中度的麻木、疼痛、刺痛感觉，但没有影响我的日常生活
+D.手足有中度的麻木、疼痛、刺痛感觉，并影响了我的日常生活
+E.手足有中度的麻木、疼痛、刺痛感觉，并完全妨碍我进行大多数日常活动
+请指出下列哪一条描述最适合您？
+A.手足没有虚弱无力
+B.有轻度手足虚弱无力，但没有影响我的日常生活
+C.有中度手足虚弱无力，但没有影响我的日常生活
+D.有中度至重度手足虚弱无力，并影响了我的日常生活
+E.有重度手足虚弱无力，并完全妨碍我进行大多数日常活动
+表6
+感觉性周围神经病变的临床常用药物剂量
+药物
+建议剂量
+维生素B1
+10 mg/次，3次/d
+维生素B6
+10 mg/次，3次/d
+维生素B12
+0.5 mg/次，3次/d
+复合维生素B
+1片/次，3次/d
+叶酸
+5 mg/次，3次/d
+烟酰胺
+50 mg/次，3次/d
+表7
+神经病性疼痛常用治疗药物
+药物类别
+药物
+建议剂量
+三环类抗抑郁药
+阿米替林
+起始剂量为口服12.5～25 mg/次，3次/d；最大日剂量150 mg
+五羟色胺和去甲肾上腺素再摄取抑制剂
+度洛西汀
+起始剂量为口服30 mg/次，1～3次/d；最大日剂量60 mg
+文拉法辛
+起始剂量为口服37.5～75 mg/次，1次/d；最大日剂量225 mg
+钙通道阻滞剂
+加巴喷丁
+第1天0.3 g，睡前服用；第2天0.3 g/次，2次/d；第3天0.3 g/次，3次/d；最大日剂量1.8 g
+普瑞巴林
+起始剂量为75～150 mg/次，2次/d，最大日剂量600 mg
+表8
+Morse跌倒评估量表
+评分项目
+评分
+跌倒史
+0分：无；25分：有
+超过1个医学诊断
+0分：无；15分：有
+行走辅助
+0分：卧床休息，由护士照顾活动或不需要使用；15分：使用拐杖、手杖、助行器；30分：扶靠家具行走
+静脉治疗或肝素锁
+0分：无；20分：有
+步态
+0分：正常、卧床休息不能活动；10分：双下肢虚弱乏力；20分：残疾或功能障碍
+认知状态
+0分：量力而行；15分：高估自己或忘记自己受限
+注：零危险：0～24分；低度危险：25～45分；高度危险：>45分
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华肿瘤杂志2020年42卷03期
+文    题：紫杉类药物相关周围神经病变规范化管理专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华肿瘤杂志2020年42卷03期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

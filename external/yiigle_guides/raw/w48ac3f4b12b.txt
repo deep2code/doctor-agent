@@ -1,0 +1,896 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E8%86%9D%E9%AA%A8%E5%85%B3%E8%8A%82%E7%82%8E%E8%BF%90%E5%8A%A8%E6%B2%BB%E7%96%97%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97.html
+# 标题: 膝骨关节炎运动治疗临床实践指南 - 中华医学杂志
+# 发布方/日期: 外科，中华医学杂志, 2020,100(15) : 1123-1129. DOI: 10.3760/cma；2020-04-21
+
+膝骨关节炎运动治疗临床实践指南
+膝骨关节炎运动治疗临床实践指南编写组
+中华医学杂志, 2020,100(15) : 1123-1129. DOI: 10.3760/cma.j.cn112137-20191219-02772
+在中国50岁以上人群中，膝骨关节炎（osteoarthritis, OA）患病率达14.3%[1]；是中老年人致残的主要原因，为社会带来巨大的医疗和经济负担。膝OA治疗选择多样，先前指南建议将运动、减重等非药物治疗作为基石[2,3,4]。由于存在文化及生活习惯的差异，若将国外现有指南直接推广到中国患者，恐将面临执行力不足等问题。目前我国尚无针对膝OA患者运动治疗的临床指南。因此，我们根据文献和临床经验制订了针对中国人群的膝OA运动治疗指南，旨在提供基于循证依据的运动治疗推荐。
+一、指南制订方法
+参照《世界卫生组织指南制订手册》[5]中描述的标准方法制订本指南，主要应用GRADE法（问题1~10，12~13）[6]及COSMIN法（问题11）[7]评估证据，应用改良德尔菲法（RAND法）达成共识[8]。制订的过程包括3次面对面会议、文献检索和患者偏好调查。指南报告和撰写参考卫生保健实践指南的报告条目（RIGHT）[9]。本指南在GRADE中国中心的指导下制订。
+1．指南制订组建立及目标问题产生：
+首先成立多学科指南制订组。所有制订组成员披露与主题相关的任何利益冲突。制订组召开会议充分讨论和投票，就指南中拟解决的13个关键问题达成一致。
+2．文献检索及患者偏好调查：
+使用PICO（患者、干预、对照、结果）格式解构每个临床问题并搜索证据。在以下数据库中检索文献，包括Medline、EMBASE、Cochrane Library、中国生物医学文献数据库、CINAHL、Web of Science、Science Direct、Karger、Scopus、Medical Evidence Matters Archive和Rehabilitation&Sports Medicine Source。应用美国国家医学图书馆的医学主题词"osteoarthritis"、"exercise"、"骨关节炎"、"运动"作为关键词，并结合自由词"osteoarthritis"、"exercise"、"骨关节炎"、"运动"进行检索，获取2014年1月至2017年7月发表的系统评价。对获取到的文献中的参考文献进行人工筛查。系统评价不足以产生证据时，按照临床问题类型检索对应的原始研究进行证据评估。对84例膝OA患者进行面对面访谈和问卷调查（后文简称调查）。
+3．证据质量评估及确定推荐：
+由GRADE方法，证据质量被评估为高（A级）、中（B级）、低（C级）和极低（D级）。根据证据和调查，指南编写组起草推荐草案。制订组根据某推荐的证据质量、可行性、患者偏好等因素进行面对面讨论，投票确定某推荐是否成立及其推荐强度。强推荐指某干预适用于绝大多数情况，应将该干预作为核心治疗方案。对于弱推荐，需要医务人员与患者共同商讨，完成决策过程[6]。
+4．规定相关定义：
+运动治疗指为特定目标设计并开具处方的、以体育活动为主的治疗方式，其目的包括减轻疾病引起的疼痛、改善下肢关节功能、增加总体活动水平等。具体到运动治疗膝OA，指通过科学的锻炼方法增强肌肉、稳定关节、改善运动协调和控制能力，进而减轻疼痛和改善关节功能。
+"躯体活动physical activity"、"运动exercise"等词语描述了近似概念，易混淆，本文提出定义加以区分。躯体活动指骨骼肌收缩产生的任何导致能量消耗的身体运动，如做家务、购物等；而运动是有计划、有组织且为重复性的体育活动的子集，旨在改善或保持身体健康，如慢跑、直腿抬高等[10]。运动强度分为低强度和中等强度。在低强度锻炼中，个体可自如地连续说出一整句话；而在中等强度锻炼中，只能间断说出几个词语。运动剂量则由运动时间和强度决定。
+二、推荐及补充说明
+根据主题相似性，将目标问题分组，包括患者选择（问题1~3）、运动处方（问题4~6）、患者随访（问题10~11）和治疗反应（问题12~14）。每条推荐的强度（1=强、2=弱）及其证据水平（A=高、B=中等、C=低、D=非常低）列于推荐后。
+（一）患者选择
+问题1~3：运动治疗有哪些适应证？有哪些禁忌证？最常见的不良反应是什么？
+推荐：无论患者年龄和疾病严重程度，运动治疗应作为膝OA的一线治疗方法。因运动治疗可减轻疼痛，改善躯体功能，提高生活质量和步行能力，并降低跌倒风险。一般情况下，运动治疗仅偶尔带来有临床意义的不良事件。（1B）
+证据：运动治疗可减轻膝OA及退变性半月板撕裂患者疼痛[11,12,13,14]（GRADE A），改善躯体功能（GRADE B）[11,14]及生活质量[12]，提高老年人行走速度、时间和总距离[12]，并改善平衡及降低跌倒风险[13]。运动治疗最常见的副作用是肌肉骨骼疼痛，发生率为16%~25%[15]；也有报道跌倒、头晕和合并症加重的情况。不良事件偶需干预，常无需中止运动治疗[15]。
+OA发病机制复杂，涉及生物力学、炎症和代谢因素，最终导致关节内结构破坏[16]。而运动治疗可针对上述中间因素改善肌力、关节活动度（ROM）和本体感觉并抑制炎症[17]，调节代谢[16]，达到减轻疼痛、改善膝关节功能和生活质量等目的。同时，躯体活动和运动是预防和治疗多种慢性病的基石，可为OA患者减少合并症的风险和影响[18]。
+运动治疗相对安全[19]，但也应在患者开始治疗前确定有无禁忌证。迄今未发现运动治疗导致严重不良事件的证据[15]。其他疾病指南列出了运动治疗的禁忌证[20]，包括近期心肌梗死、不稳定心绞痛、严重外周血管疾病和未控制的血糖异常。若患者存在潜在风险，我们建议事先进行安全筛查[21]。
+（二）运动处方
+1．问题4：
+可向患者推荐哪些类型的运动？
+推荐：推荐根据患者偏好和可及（行）性提供运动治疗方案，如肌力锻炼和有氧运动。（1C）
+对于膝关节ROM受限者，ROM锻炼可作为有氧运动和肌力锻炼的有效补充。（2D）
+证据：有氧步行、肌力锻炼、ROM锻炼、神经肌肉训练可减轻慢性肌肉骨骼疼痛患者的疼痛（GRADE C）并改善躯体功能（GRADE C）及膝关节功能（GRADE D）[22,23,24,25]。运动类型分为有氧锻炼、肌力锻炼、关节ROM锻炼和神经肌肉训练等。有氧运动为全身大肌群均参与的耐力运动，患者可酌情选择游泳、快走等方式，但不宜进行登山、爬楼梯等过度负重的运动；肌力锻练为下肢肌群的力量练习，推荐非负重肌力锻炼为主，可进行股四头肌多角度收缩练习，使整个ROM内肌群均得到增强；也可仰卧位进行直腿抬高运动。OA患者的ROM锻炼分为主动锻炼和被动锻炼。主动锻炼指患者不借助任何外力，依靠自己肌力进行膝关节屈伸锻炼；而关节周围肌肉因损伤或炎症等无法主动锻炼者，可在旁人辅助下屈伸锻炼，称之为被动锻炼；若应用得当，主动或被动锻炼均可避免关节粘连或挛缩。必要时，可进行增加ROM的拉伸运动。各种运动应强调在尽量减少负重情况下进行。
+OA患者还存在神经肌肉控制和本体感觉受损，跌倒风险增加。本体感觉，也称运动感觉，正常本体感觉使我们能自由移动而无需考虑周围环境。影响肌肉（如OA）、神经和大脑的疾病及衰老都会致本体感觉障碍。故还应包含神经肌肉训练，通过改善感觉运动控制来建立下肢动态稳定并强调尽量恢复中立位下肢动态力线[26]。
+以上运动方式被国内外多部指南推荐[4,27,28,29,30]。如何针对患者个体情况选择不同类型运动是个实际问题。根据最新发表的网状荟萃分析[31]，有氧运动对缓解疼痛和改善运动表现效果最佳。神经肌肉训练对疼痛的缓解效果与有氧运动相当，对功能恢复有最佳效果。肌力锻炼结合ROM锻炼可较均衡地改善多项结果。在治疗不同阶段，可根据需要，向患者推荐不同类型的运动[31]。
+2．问题5、6：
+如何制订运动处方并进行个性化调整？适用于运动治疗的监督模式和情景模式有哪些？
+推荐：推荐患者每周定期锻炼2~3次，逐渐养成规律运动的习惯。（1C）
+运动强度应与患者耐受程度一致，患者掌握运动要领并逐渐适应后，运动强度应逐渐加强。（2C）
+推荐进行小组锻炼。（1B）
+建议在起始阶段，患者最好在3个月内至少锻炼12次，以掌握技巧并保证依从性，之后逐渐将频率提高并保持至每周2~3次。（2D）
+初期，患者通常难以正确进行锻炼或缺乏依从性，建议在医师指导下锻炼。（2D）
+后期，若患者对锻炼计划有信心，可遵守治疗方案且锻炼时动作规范，或不便来医疗场所进行锻炼，则可居家锻炼。（2D）
+证据：（1）频率：就减轻疼痛（GRADE C）和改善躯体功能（GRADE C）而言，每周锻炼3次最为有效[32]。（2）强度：低强度和中等强度运动均可提高伸、屈肌力量（GRADE C）[33]。就减轻疼痛（GRADE C）和改善躯体功能（GRADE C）而言，中等强度运动效果更佳[34]。中等强度运动（3.9%）的不良事件（包括关节或肌肉疼痛、跌倒等）发生率高于低强度运动（2.2%）（GRADE D）[34]。（3）环境：居家锻炼可减轻疼痛（GRADE D）[35]。就减轻疼痛（GRADE C）和改善躯体功能（GRADE B）而言，小组锻炼优于居家锻炼[36]。
+关于频率：本指南与美国运动医学会（ACSM）[21]指南中的推荐一致。过于频繁的锻炼可行性低，且由于肌肉疲劳和协调受损，理论上可增加跌倒风险。在调查中，更多的参与者倾向于每周锻炼2次。关于剂量和强度：避免久坐。每周45 min的躯体活动即可产生积极影响[37]。关于运动疗程：通常需运动治疗8~11周可获得疼痛减轻[38]。实践中，我们建议持续运动超过12周，以解决OA导致的肌力下降和肌肉萎缩[39]。关于环境：初期，专业人员指导和监督及同伴激励均可使患者更好地遵守治疗方案[40]。若患者对锻炼计划有疑问或受伤，应及时咨询医师。86%的被调查者倾向于在指导下进行小组锻炼。
+（三）患者自我管理、教育及依从性
+1．问题7：
+适用于运动治疗的患者自我管理方式和教育策略有哪些？
+推荐：推荐在患者运动的同时持续提供疾病及运动治疗相关的宣教，以提高患者自我管理意识、依从性和运动疗效。（1C）
+证据：参与自我管理及疾病教育可使疼痛略微减轻（GRADE C）[41]。膝OA为慢性疾病，自我管理至关重要，主要包括接受患者教育[42]、药物管控、心理干预[43]和生活方式调整（如减重）等。其中，教育对于消除在中国患者中普遍存在的一些对膝OA的误解至关重要[44]。相当一部分患者害怕运动并认为运动会加速关节磨损。关于教育内容，除包括"OA不是磨损性质的疾病"[44]、"科学运动不会造成伤害，但对膝关节和整体健康有益"[21]等信息外，其他关键问题包括疾病知识（包括自然病程）、治疗方案和自我管理方法等[45]。应主动了解患者需求，得到充分教育的患者才会积极有效地自我管理。
+2．问题8：
+可采取哪些措施来改善患者依从性？
+推荐：推荐与患者讨论并应用不同策略，以提高患者对运动治疗的依从性。（1C）
+证据：使用定期回访辅以小组锻炼加以巩固的方式，可提高患者依从性（GRADE C）[46]。依从性强者可获得更显著的躯体功能改善[47]。其实，患者经常在运动处方开具几周后便不能坚持[48]。除定期随访辅以小组锻炼的方式，一些研究还报道了通过电话[49]、可穿戴设备等进行远程指导以提高依从性的经验。其他措施包括目标设定及个性化定制分级处方等[50]。一些共通原则包括全面的个体化评估，让患者积极参与决策并进行长期监测[40]。
+（四）疼痛管理与随访
+1．问题9：
+可采取哪些措施来处理运动治疗最常见的不良事件（即肌肉疼痛加重）？
+推荐：若患者在运动治疗期间疼痛加重，可首先考虑休息和冷敷。医师应告知患者在初期会出现一些疼痛，但在后期这些疼痛会减少。（2C）
+建议医师为休息和冷敷后仍持续疼痛的患者开具局部非甾体抗炎药，还应仔细检查以排除任何运动损伤，必要时调整运动处方。（2B）
+证据：将下肢浸入冷水中或使用冰袋可帮助缓解运动后的不适（GRADE C）并预防延迟性肌肉酸痛（GRADE C）[51]。扑热息痛可减轻疼痛（GRADE A），但也可导致（严重）副作用（GRADE B），如肝损伤（GRADE A）等[52]。使用局部非甾体抗炎药可减轻疼痛（GRADE B），且不增加全身（GRADE B）或局部（GRADE B）副作用风险[53]。
+据调查，运动后疼痛发生率约40%，可影响依从性。通常，疼痛加重源于肌肉酸痛[54]，而非结构性损伤。虽然将下肢浸入冷水（10~15 ℃）可减痛[51]，但制订组认为浸入冷水可行性差，该推荐经投票遭到否定。患者进行神经肌肉运动8周后发现疼痛自发减轻[55]。约50%的被调查者在未进行任何干预下，发现后期疼痛强度逐渐降低。运动过程中出现疼痛属正常，只要可耐受，且疼痛加重或其他不适可在24 h内降至运动前水平或更低，则无需采取附加措施[26]，反之则需认真评估是运动过量或损伤等情况，并针对性处理。但这种情况并不常发生[24,56]。即使对于重度OA的患者，依然可采用恰当的疼痛管理（如外用止痛药[54]），开始并坚持运动[57]。外用非甾体抗炎药被制订组广泛接受。
+2．问题10、11：
+如何制订运动治疗合适的随访时间？随访时应注重对哪些项目进行评估？
+推荐：建议医师或研究者综合应用经验证的工具，如患者主观报告结果测量工具（PROM）、视觉模拟量表（VAS）、一般健康状况量表及客观体测指标，来监测运动治疗效果。（2B）
+证据：经COSMIN方法[7]评估，膝关节损伤和OA结果评分（KOOS）具有足够的内部一致性、重测信度、内容有效性和构建效度[7]，适用于膝OA患者[58]；其他优秀的主观PROM评分包括牛津膝关节评分（OKS）[59]和西安大略和麦克马斯特大学骨关节炎评分（WOMAC）[60]；最佳的一般健康状况量表是健康调查12条简表（SF12）[59]。6 min步行测试具有较高的评估者内部可靠性[61]。
+定期随访必要且基本，可维持患者依从性，利于疾病管理并巩固医患关系；还有助于指南审计，评估指南实施效果。过去20年，学界开发出许多膝关节评定量表，而仅一小部分经过验证且可靠性、有效性和敏感性较高[58,59]。根据现有证据，制订组无法推荐具体应用哪些量表。建议综合评估疼痛，膝关节功能，一般健康状况并进行客观体测。可考虑一些常用量表，如用KOOS[58]、OKS[59]、WOMAC[60]测试膝关节情况；用SF-36[61,62]、SF-12[59]和欧洲生存质量学会量表（EuroQOL）[63]衡量一般健康状况；用30 s坐起、40 m快走、爬楼梯测试和6 min步行测试等进行客观体测；这些方法也受到国际OA研究协会（OARSI）推荐[64]。目前缺乏关于合适随访时机的证据。大多数被调查者愿在1个月或之后接受再评估。制订组建议在1个月或6周、3、6个月和1年时对患者进行随访，这些时间点用于绝大多数临床试验。
+（五）运动治疗效果预测及与其他治疗的结合
+问题12~14：哪些因素可预测运动治疗效果？哪些患者适合长期接受运动治疗？哪些患者不适用运动治疗，而应以药物或手术治疗？
+推荐：据现有证据，我们无法提出任何建议并回答哪些患者会从运动治疗中长期获益。建议在选择不同治疗方案时，应考虑并和患者讨论其偏好、可及（行）性和成本。（2C）
+证据：运动疗效良好相关因素包括合并症少（0-1）（GRADE C）、社会支持（GRADE C）[65]、（运动治疗3个月后）疼痛、EQ-5D、自我效能、30 s坐起测试改善（GRADE C）[66]及膝内、外翻≤5°（GRADEC）[67]。运动疗效不佳相关因素为依从性差[47]。与疗效无关的因素有年龄（GRADE C）、体质指数（BMI）（GRADE C）、症状持续时间（GRADE C）[68]和影像学严重程度[32]。依从性强相关因素有小组锻炼（GRADE C）[69]、高教育水平（GRADE D）[70]和躯体功能良好[71]。依从性差相关因素有不良事件（GRADE D）[71]和居家运动（GRADE D）[69]。与依从性无关的因素包括年龄（GRADE D）、性别（GRADE D）、BMI（GRADE D）[72]和运动强度（GRADE D）[69]。
+据目前证据，制订组无法就有关"良好治疗反应或依从性的影响因素"或"哪些患者适合运动治疗，哪些患者不适合"提出任何建议。中华医学会骨科学分会在其最新的OA指南[4]中指出，治疗应遵循阶梯升级的方法。本指南也建议向每位患者推荐运动治疗。随后再结合治疗3个月的反应决定是否继续[67]。若某种类型运动对某患者效果不佳则医师应调整运动处方，并鼓励患者尝试不同的运动治疗类型[73]。若运动治疗的确不足以改善患者症状，可向患者提供包括膝关节支具、药物治疗甚至手术在内的其他干预措施[4,30]。
+三、本指南的局限
+本指南的制订存在局限。首先，我们使用2014至2017年发表的系统评价作为证据主要来源，可能导致某些问题证据缺乏或错过一些先前发表文章所提示的证据。我们使用面对面讨论和非匿名投票方式达成共识来弥补该缺陷。其次，本指南未对运动治疗的卫生经济学进行详细评估及讨论。与药物和手术相比，运动治疗是一种具有成本效益的治疗选择。最后，检索证据时我们发现几方面研究及证据的不足，包括（1）如何为有合并症的患者优化运动处方；（2）重度髌股关节炎运动治疗的效果；（3）影响运动治疗效果的相关因素等。相关从业人员的继续教育并促进运动治疗在膝OA患者中的应用、多学科团队合作、运动治疗登记系统的形成以及后续的科学研究都将有助于解决上述问题。
+指导牵头人：林剑浩（北京大学人民医院）、Weiya Zhang (University of Nottingham)
+执笔者：侯云飞（北京大学人民医院）
+指南编写组：侯云飞（北京大学人民医院）、Ewa M Roos（University of Southern Denmark）、Kim Bennell（University of Melbourne）、Yuqing Zhang（Harvard Medical School）、Daniel White（University of Delaware）、陈耀龙（兰州大学）、杨克虎（兰州大学）、Siew Li Goh（University of Malaya）、Weiya Zhang（University of Nottingham）、林剑浩（北京大学人民医院）
+推荐制订组（按汉语拼音顺序排列）：曹永平（北京大学第一医院）、陈坚（北京大学人民医院）、陈耀龙（兰州大学）、Daniel White（University of Delaware）、David Hunter（University of Sydney）、董忠（北京市疾病预防控制中心）、Ewa M Roos（University of Southern Denmark）、冯雪（阜外医院）、郭艾（北京友谊医院）、郭万首（北京中日友好医院）、Kim Bennell（University of Melbourne）、李红新（赵全营社区卫生服务中心）、林剑浩（北京大学人民医院）、卢艳丽（北京隆福医院）、梅轶芳（哈尔滨医科大学第一附属医院）、任景怡（北京中日友好医院）、施举红（北京协和医院）、石秀秀（解放军总医院第四医学中心）、苏琳（北京大学人民医院）、田华（北京大学第三医院）、Weiya Zhang（University of Nottingham）、翁习生（北京协和医院）、徐建华（安徽医科大学第一附属医院）、邢小燕（北京中日友好医院）、杨波（北京协和医院）、杨延砚（北京大学第三医院）、姚建华（解放军总医院第七医学中心）、姚宇（中国社会科学院）、叶红华（宁波第一医院）、袁国华（川北医学院附属医院）、Yuqing Zhang（Harvard Medical School）、詹思延（北京大学循证医学中心）、张海燕（国家卫生健康委医院管理研究所）、张轶超（解放军总医院第四医学中心）、郑群怡（北京大学人民医院）；张桂起、张强、张燕芬（患者代表）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+KangX, FransenM, ZhangY, et al.
+The high prevalence of knee osteoarthritis in a rural Chinese population: the Wuchuan osteoarthritis study[J].
+Arthritis Rheum,
+2009,
+61(
+5):
+641-
+647.
+DOI:10.1002/art.24464.
+[2]
+JevsevarDS, BrownGA, JonesDL, et al.
+The American Academy of Orthopaedic Surgeons evidence-based guideline on: treatment of osteoarthritis of the knee, 2nd edition[J].
+J Bone Joint Surg Am,
+2013,
+95(
+20):
+1885-
+1886.
+DOI: 10.2106/00004623-201310160-00010.
+[3]
+RoddyE, ZhangW, DohertyM, et al.
+Evidence-based recommendations for the role of exercise in the management of osteoarthritis of the hip or knee--the MOVE consensus[J].
+Rheumatology(Oxford),
+2005,
+44(
+1):
+67-
+73.
+DOI: 10.1093/rheumatology/keh399.
+[4]
+中华医学会骨科学分会关节外科学组.
+骨关节炎诊疗指南(2018年版)[J].
+中华骨科杂志,
+2018,
+38(
+12):
+705-
+715.
+DOI: 10.3760/cma.j.issn.0253-2352.2018.12.001.
+[5]
+World Health Organization(WHO).
+WHO handbook for guideline development, 2nd edition[M].
+2014.
+http://apps.who.int/bookorders/anglais/detart1.jsp?codlan=1&codcol=93&codcch=2270.
+[6]
+GuyattGH, OxmanAD, VistGE, et al.
+GRADE: an emerging consensus on rating quality of evidence and strength of recommendations[J].
+BMJ,
+2008,
+336(
+7650):
+924-
+926.
+DOI: 10.1136/bmj.39489.470347.AD.
+[7]
+MokkinkLB, TerweeCB, KnolDL, et al.
+The COSMIN checklist for evaluating the methodological quality of studies on measurement properties: a clarification of its content[J].
+BMC Med Res Methodol,
+2010,
+10:
+22.
+DOI: 10.1186/1471-2288-10-22.
+[8]
+FitchK, BernsteinSJ, AguilarMD, et al.
+Rand/ucla Appropriateness Method User′s Manual[M].
+Natl Book Network,
+2001:
+148-
+149.
+[9]
+ChenY, YangK, MarušicA, et al.
+A reporting tool for practice guidelines in health care: the RIGHT statement[J].
+Ann Intern Med,
+2017,
+166(
+2):
+128-
+132.
+DOI: 10.7326/M16-1565.
+[10]
+CaspersenCJ, PowellKE, ChristensonGM.
+Physical activity, exercise, and physical fitness: definitions and distinctions for health-related research[J].
+Public Health Rep,
+1985,
+100(
+2):
+126-
+131.
+[11]
+FransenM, McConnellS, HarmerAR, et al.
+Exercise for osteoarthritis of the knee: a Cochrane systematic review[J].
+Br J Sports Med,
+2015,
+49(
+24):
+1554-
+1557.
+DOI: 10.1136/bjsports-2015-095424.
+[12]
+TanakaR, OzawaJ, KitoN, et al.
+Effects of exercise therapy on walking ability in individuals with knee osteoarthritis: a systematic review and meta-analysis of randomised controlled trials[J].
+Clin Rehabil,
+2016,
+30(
+1):
+36-
+52.
+DOI: 10.1177/0269215515570098.
+[13]
+MatS, TanMP, KamaruzzamanSB, et al.
+Physical therapies for improving balance and reducing falls risk in osteoarthritis of the knee: a systematic review[J].
+Age Ageing,
+2015,
+44(
+1):
+16-
+24.
+DOI: 10.1093/ageing/afu112.
+[14]
+SwartNM, van OudenaardeK, ReijnierseM, et al.
+Effectiveness of exercise therapy for meniscal lesions in adults: a systematic review and meta-analysis[J].
+J Sci Med Sport,
+2016,
+19(
+12):
+990-
+998.
+DOI: 10.1016/j.jsams.2016.04.003.
+[15]
+QuickeJG, FosterNE, ThomasMJ, et al.
+Is long-term physical activity safe for older adults with knee pain?: a systematic review[J].
+Osteoarthritis Cartilage,
+2015,
+23(
+9):
+1445-
+1456.
+DOI: 10.1016/j.joca.2015.05.002.
+[16]
+FebbraioMA.
+Exercise metabolism in 2016: health benefits of exercise -more than meets the eye![J].
+Nat Rev Endocrinol,
+2017,
+13(
+2):
+72-
+74.
+DOI: 10.1038/nrendo.2016.218.
+[17]
+RunhaarJ, LuijsterburgP, DekkerJ, et al.
+Identifying potential working mechanisms behind the positive effects of exercise therapy on pain and function in osteoarthritis; a systematic review[J].
+Osteoarthritis Cartilage,
+2015,
+23(
+7):
+1071-
+1082.
+DOI: 10.1016/j.joca.2014.12.027.
+[18]
+PedersenBK, SaltinB.
+Exercise as medicine-evidence for prescribing exercise as therapy in 26 different chronic diseases[J].
+Scand J Med Sci Sports,
+2015,
+25
+Suppl 3:
+1-
+72.
+DOI: 10.1111/sms.12581.
+[19]
+NiemeijerA, LundH, StafneSN, et al.
+Adverse events of exercise therapy in randomised controlled trials: a systematic review and meta-analysis[J].
+Br J Sports Med,
+2019[
+2019-09-28].
+DOI: 10.1136/bjsports-2018-100461.
+[20]
+GraceSL, Turk-AdawiKI, ContractorA, et al.
+Cardiac rehabilitation delivery model for low-resource settings: an international council of cardiovascular prevention and rehabilitation consensus statement[J].
+Prog Cardiovasc Dis,
+2016,
+59(
+3):
+303-
+322.
+DOI: 10.1016/j.pcad.2016.08.004.
+[21]
+American College of Sports Medicine.
+ACSM′s Guidelines for Exercise Testing and Prescription [M].
+Alphen:
+Wolters Kwwer,
+2017.
+[22]
+O′ConnorSR, TullyMA, RyanB, et al.
+Walking exercise for chronic musculoskeletal pain: systematic review and meta-analysis[J].
+Arch Phys Med Rehabil,
+2015,
+96(
+4):
+724-734.e3.
+DOI: 10.1016/j.apmr.2014.12.003.
+[23]
+LiY, SuY, ChenS, et al.
+The effects of resistance exercise in patients with knee osteoarthritis: a systematic review and meta-analysis[J].
+Clin Rehabil,
+2016,
+30(
+10):
+947-
+959.
+DOI: 10.1177/0269215515610039.
+[24]
+SkouST, RoosEM, LaursenMB, et al.
+A randomized, controlled trial of total knee replacement[J].
+N Engl J Med,
+2015,
+373(
+17):
+1597-
+1606.
+DOI: 10.1056/NEJMoa1505467.
+[25]
+UthmanOA, van der WindtDA, JordanJL, et al.
+Exercise for lower limb osteoarthritis: systematic review incorporating trial sequential analysis and network meta-analysis[J].
+BMJ,
+2013,
+347:
+f5555.
+DOI: 10.1136/bmj.f5555.
+[26]
+SkouST, RoosEM.
+Good Life with osteoArthritis in Denmark(GLA:D™): evidence-based education and supervised neuromu scular exercise delivered by certified physiotherapists nationwide[J].
+BMC Musculoskelet Disord,
+2017,
+18(
+1):
+72.
+DOI: 10.1186/s12891-017-1439-y.
+[27]
+National Clinical Guideline Centre(UK).
+Osteoarthritis: Care and Management in Adults[M].
+London:
+National Institute for Health and Care Excellence(UK),
+2014.
+[28]
+ZhangW, MoskowitzRW, NukiG, et al.
+OARSI recommendations for the management of hip and knee osteoarthritis, Part Ⅱ: OARSI evidence-based, expert consensus guidelines[J].
+Osteoarthritis Cartilage,
+2008,
+16(
+2):
+137-
+162.
+DOI: 10.1016/j.joca.2007.12.013.
+[29]
+HochbergMC, AltmanRD, AprilKT, et al.
+American College of Rheumatology 2012 recommendations for the use of nonpharmacologic and pharmacologic therapies in osteoarthritis of the hand, hip, and knee[J].
+Arthritis Care Res(Hoboken),
+2012,
+64(
+4):
+465-
+474.
+DOI: 10.1002/acr.21596.
+[30]
+Rausch OsthoffAK, NiedermannK, BraunJ, et al.
+2018 EULAR recommendations for physical activity in people with inflammatory arthritis and osteoarthritis[J].
+Ann Rheum Dis,
+2018,
+77(
+9):
+1251-
+1260.
+DOI: 10.1136/annrheumdis-2018-213585.
+[31]
+GohSL, PerssonM, StocksJ, et al.
+Relative efficacy of different exercises for pain, function, performance and quality of life in knee and hip osteoarthritis: systematic review and network meta-Analysis[J].
+Sports Med,
+2019,
+49(
+5):
+743-
+761.
+DOI: 10.1007/s40279-019-01082-0.
+[32]
+JuhlC, ChristensenR, RoosEM, et al.
+Impact of exercise type and dose on pain and disability in knee osteoarthritis: a systematic review and meta-regression analysis of randomized controlled trials[J].
+Arthritis Rheumatol,
+2014,
+66(
+3):
+622-
+636.
+DOI: 10.1002/art.38290.
+[33]
+ZachariasA, GreenRA, SemciwAI, et al.
+Efficacy of rehabilitation programs for improving muscle strength in people with hip or knee osteoarthritis: a systematic review with meta-analysis[J].
+Osteoarthritis Cartilage,
+2014,
+22(
+11):
+1752-
+1773.
+DOI: 10.1016/j.joca.2014.07.005.
+[34]
+RegnauxJP, Lefevre-ColauMM, TrinquartL, et al.
+High-intensity versus low-intensity physical activity or exercise in people with hip or knee osteoarthritis[J].
+Cochrane Database Syst Rev,
+2015,(
+10):
+CD010203.
+DOI: 10.1002/14651858.CD010203.pub2.
+[35]
+AnwerS, AlghadirA, BrisméeJM.
+Effect of home exercise program in patients with knee osteoarthritis: a systematic review and meta-analysis[J].
+J Geriatr Phys Ther,
+2016,
+39(
+1):
+38-
+48.
+DOI: 10.1519/JPT.0000000000000045.
+[36]
+O′KeeffeM, HayesA, McCreeshK, et al.
+Are group-based and individual physiotherapy exercise programmes equally effective for musculoskeletal conditions? A systematic review and meta-analysis[J].
+Br J Sports Med,
+2017,
+51(
+2):
+126-
+132.
+DOI: 10.1136/bjsports-2015-095410.
+[37]
+DunlopDD, SongJ, LeeJ, et al.
+Physical activity minimum threshold predicting improved function in adults with lower-extremity symptoms[J].
+Arthritis Care Res(Hoboken),
+2017,
+69(
+4):
+475-
+483.
+DOI: 10.1002/acr.23181.
+[38]
+ImotoAM, PardoJP, BrosseauL, et al.
+Evidence synthesis of types and intensity of therapeutic land-based exercises to reduce pain in individuals with knee osteoarthritis[J].
+Rheumatol Int,
+2019,
+39(
+7):
+1159-
+1179.
+DOI: 10.1007/s00296-019-04289-6.
+[39]
+GarberCE, BlissmerB, DeschenesMR, et al.
+American College of Sports Medicine position stand. Quantity and quality of exercise for developing and maintaining cardiorespiratory, musculoskeletal, and neuromotor fitness in apparently healthy adults: guidance for prescribing exercise[J].
+Med Sci Sports Exerc,
+2011,
+43(
+7):
+1334-
+1359.
+DOI: 10.1249/MSS.0b013e318213fefb.
+[40]
+PicorelliAM, PereiraLS, PereiraDS, et al.
+Adherence to exercise programs for older people is influenced by program characteristics and personal factors: a systematic review[J].
+J Physiother,
+2014,
+60(
+3):
+151-
+156.
+DOI: 10.1016/j.jphys.2014.06.012.
+[41]
+KroonFP, van der BurgLR, BuchbinderR, et al.
+Self-management education programmes for osteoarthritis[J].
+Cochrane Database Syst Rev,
+2014,(
+1):
+CD008963.
+DOI: 10.1002/14651858.CD008963.pub2.
+[42]
+BennellKL, AhamedY, JullG, et al.
+Physical Therapist-delivered pain coping skills training and exercise for knee osteoarthritis: randomized controlled trial[J].
+Arthritis Care Res(Hoboken),
+2016,
+68(
+5):
+590-
+602.
+DOI: 10.1002/acr.22744.
+[43]
+O′mooreKA, NewbyJM, AndrewsG, et al.
+Internet cognitive-behavioral therapy for depression in older adults with knee osteoarthritis: a randomized controlled trial[J].
+Arthritis Care Res(Hoboken),
+2018,
+70(
+1):
+61-
+70.
+DOI: 10.1002/acr.23257.
+[44]
+ShrierI.
+Muscle dysfunction versus wear and tear as a cause of exercise related osteoarthritis: an epidemiological update[J].
+Br J Sports Med,
+2004,
+38(
+5):
+526-
+535.
+DOI: 10.1136/bjsm.2003.011262.
+[45]
+ClaassenA, Kremers-van de HeiK, van den HoogenF, et al.
+Most important frequently asked questions from patients with hip or knee osteoarthritis: a best-worst scaling exercise[J].
+Arthritis Care Res(Hoboken),
+2019,
+71(
+7):
+885-
+892.
+DOI: 10.1002/acr.23719.
+[46]
+NicolsonP, BennellKL, DobsonFL, et al.
+Interventions to increase adherence to therapeutic exercise in older adults with low back pain and/or hip/knee osteoarthritis: a systematic review and meta-analysis[J].
+Br J Sports Med,
+2017,
+51(
+10):
+791-
+799.
+DOI: 10.1136/bjsports-2016-096458.
+[47]
+van GoolCH, PenninxBW, KempenGI, et al.
+Effects of exercise adherence on physical function among overweight older adults with knee osteoarthritis[J].
+Arthritis Rheum,
+2005,
+53(
+1):
+24-
+32.
+DOI: 10.1002/art.20902.
+[48]
+NicolsonP, HinmanRS, KaszaJ, et al.
+Trajectories of adherence to home-based exercise programs among people with knee osteoarthritis[J].
+Osteoarthritis Cartilage,
+2018,
+26(
+4):
+513-
+521.
+DOI: 10.1016/j.joca.2018.01.009.
+[49]
+BennellKL, CampbellPK, EgertonT, et al.
+Telephone coaching to enhance a home-based physical activity program for knee osteoarthritis: a randomized clinical Trial[J].
+Arthritis Care Res(Hoboken),
+2017,
+69(
+1):
+84-
+94.
+DOI: 10.1002/acr.22915.
+[50]
+BrosseauL, WellsGA, KennyGP, et al.
+The implementation of a community-based aerobic walking program for mild to moderate knee osteoarthritis(OA): a knowledge translation(KT) randomized controlled trial(RCT): Part Ⅰ: the Uptake of the Ottawa Panel clinical practice guidelines(CPGs)[J].
+BMC Public Health,
+2012,
+12:
+871.
+DOI: 10.1186/1471-2458-12-871.
+[51]
+HohenauerE, TaeymansJ, BaeyensJP, et al.
+The effect of post-exercise cryotherapy on recovery characteristics: a systematic review and meta-analysis[J].
+PLoS One,
+2015,
+10(
+9):
+e0139028.
+DOI: 10.1371/journal.pone.0139028.
+[52]
+MachadoGC, MaherCG, FerreiraPH, et al.
+Efficacy and safety of paracetamol for spinal pain and osteoarthritis: systematic review and meta-analysis of randomised placebo controlled trials[J].
+BMJ,
+2015,
+350:
+h1225.
+DOI: 10.1136/bmj.h1225.
+[53]
+DerryS, MooreRA, GaskellH, et al.
+Topical NSAIDs for acute musculoskeletal pain in adults[J].
+Cochrane Database Syst Rev,
+2015,(
+6):
+CD007402.
+DOI: 10.1002/14651858.CD007402.pub3.
+[54]
+LewisPB, RubyD, Bush-JosephCA.
+Muscle soreness and delayed-onset muscle soreness[J].
+Clin Sports Med,
+2012,
+31(
+2):
+255-
+262.
+DOI: 10.1016/j.csm.2011.09.009.
+[55]
+SandalLF, RoosEM, BøgesvangSJ, et al.
+Pain trajectory and exercise-induced pain flares during 8 weeks of neuromuscular exercise in individuals with knee and hip pain[J].
+Osteoarthritis Cartilage,
+2016,
+24(
+4):
+589-
+592.
+DOI: 10.1016/j.joca.2015.11.002.
+[56]
+王锴,刘强,林剑浩,等.
+患者教育及个性化运动治疗在膝关节骨关节炎患者中的应用[J].
+中华医学杂志,
+2018,
+98(
+27):
+2152-
+2156.
+DOI: 10.3760/cma.j.issn.0376-2491.2018.27.005.
+[57]
+van TunenJA, van der LeedenM, BosWH, et al.
+Optimization of analgesics for greater exercise therapy participation among patients with knee osteoarthritis and severe pain: a feasibility study[J].
+Arthritis Care Res(Hoboken),
+2016,
+68(
+3):
+332-
+340.
+DOI: 10.1002/acr.22682.
+[58]
+CollinsNJ, PrinsenCA, ChristensenR, et al.
+Knee Injury and Osteoarthritis Outcome Score(KOOS): systematic review and meta-analysis of measurement properties[J].
+Osteoarthritis Cartilage,
+2016,
+24(
+8):
+1317-
+1329.
+DOI: 10.1016/j.joca.2016.03.010.
+[59]
+KromanSL, RoosEM, BennellKL, et al.
+Measurement properties of performance-based outcome measures to assess physical function in young and middle-aged people known to be at high risk of hip and/or knee osteoarthritis: a systematic review[J].
+Osteoarthritis Cartilage,
+2014,
+22(
+1):
+26-
+39.
+DOI: 10.1016/j.joca.2013.10.021.
+[60]
+GandekB.
+Measurement properties of the Western Ontario and McMaster Universities Osteoarthritis Index: a systematic review[J].
+Arthritis Care Res(Hoboken),
+2015,
+67(
+2):
+216-
+229.
+DOI: 10.1002/acr.22415.
+[61]
+GagnierJJ, MullinsM, HuangH, et al.
+A systematic review of measurement properties of patient-reported outcome measures used in patients undergoing total knee arthroplasty[J].
+JArthroplasty,
+2017,
+32(
+5):
+1688-1697.e7.
+DOI: 10.1016/j.arth.2016.12.052.
+[62]
+KosinskiM, KellerSD, HatoumHT, et al.
+The SF-36 Health Survey as a generic outcome measure in clinical trials of patients with osteoarthritis and rheumatoid arthritis: tests of data quality, scaling assumptions and score reliability[J].
+Med Care,
+1999,
+37(
+5
+Suppl):
+MS10-
+MS22.
+DOI: 10.1097/00005650-199905001-00002.
+[63]
+FransenM, EdmondsJ.
+Reliability and validity of the EuroQol in patients with osteoarthritis of the knee[J].
+Rheumatology(Oxford),
+1999,
+38(
+9):
+807-
+813.
+DOI: 10.1093/rheumatology/38.9.807.
+[64]
+DobsonF, BennellK, HinmanR, et al.
+OARSI recommended performance-based tests to assess physical function in osteoarthritis of the hip or knee: authors′ reply[J].
+Osteoarthritis Cartilage,
+2013,
+21(
+10):
+1625-
+1626.
+DOI: 10.1016/j.joca.2013.07.011.
+[65]
+WeiglM, AngstF, AeschlimannA, et al.
+Predictors for response to rehabilitation in patients with hip or knee osteoarthritis: a comparison of logistic regression models with three different definitions of responder[J].
+Osteoarthritis Cartilage,
+2006,
+14(
+7):
+641-
+651.
+DOI: 10.1016/j.joca.2006.01.001.
+[66]
+SkouST, SimonsenME, OdgaardA, et al.
+Predictors of long-term effect from education and exercise in patients with knee and hip pain[J].
+Dan Med J,
+2014,
+61(
+7):
+A4867.
+[67]
+LimBW, HinmanRS, WrigleyTV, et al.
+Does knee malalignment mediate the effects of quadriceps strengthening on knee adduction moment, pain, and function in medial knee osteoarthritis? A randomized controlled trial[J].
+Arthritis Rheum,
+2008,
+59(
+7):
+943-
+951.
+DOI: 10.1002/art.23823.
+[68]
+FransenM, CrosbieJ, EdmondsJ.
+Physical therapy is effective for patients with osteoarthritis of the knee: a randomized controlled clinical trial[J].
+J Rheumatol.
+2001,
+28(
+1):
+156-
+64.
+DOI: 10.1300/J094v09n03_13.
+[69]
+CoxKL, BurkeV, GorelyTJ, et al.
+Controlled comparison of retention and adherence in home-vs center-initiated exercise interventions in women ages 40-65 years: the S.W.E.A.T. Study(Sedentary Women Exercise Adherence Trial)[J].
+Prev Med,
+2003,
+36(
+1):
+17-
+29.
+DOI: 10.1006/pmed.2002.1134.
+[70]
+ProhaskaTR, PetersK, WarrenJS.
+Sources of attrition in a church-based exercise program for older African-Americans[J].
+Am J Health Promot,
+2000,
+14(
+6):
+380-385, iii.
+DOI: 10.4278/0890-1171-14.6.380.
+[71]
+SchmidtJA, GrumanC, KingMB, et al.
+Attrition in an exercise intervention: a comparison of early and later dropouts[J].
+J Am Geriatr Soc,
+2000,
+48(
+8):
+952-
+960.
+DOI: 10.1111/j.1532-5415.2000.tb06894.x.
+[72]
+WilderFV, BarrettJr JP.
+The association between medication usage and dropout status among participants of an exercise study for people with osteoarthritis[J].
+Phys Ther,
+2005,
+85(
+2):
+142-
+149.
+DOI: 10.1093/ptj/85.2.142.
+[73]
+SkouST, PedersenBK, AbbottJH, et al.
+Physical activity and exercise therapy benefit more than just symptoms and impairments in people with hip and knee osteoarthritis[J].
+J Orthop Sports Phys Ther,
+2018,
+48(
+6):
+439-
+447.
+DOI: 10.2519/jospt.2018.7877.
+贡献者信息
+膝骨关节炎运动治疗临床实践指南编写组
+通信作者
+林剑浩
+北京大学人民医院骨关节科
+Email：
+linjianhao@pkuph.edu.cn
+Zhang Weiya
+Academic Rheumatology, University of Nottingham
+Email：
+Weiya.Zhang@nottingham.ac.uk
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-04-21
+收稿日期：2019-12-19
+本文编辑
+霍永丰
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华医学杂志2020年100卷15期
+文    题：膝骨关节炎运动治疗临床实践指南
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华医学杂志2020年100卷15期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

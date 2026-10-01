@@ -1,0 +1,450 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%AD%A4%E7%8B%AC%E7%97%87%E8%B0%B1%E7%B3%BB%E9%9A%9C%E7%A2%8D%E6%82%A3%E5%84%BF%E5%B8%B8%E8%A7%81%E5%85%B1%E6%82%A3%E9%97%AE%E9%A2%98%E7%9A%84%E8%AF%86%E5%88%AB%E4%B8%8E%E5%A4%84%E7%90%86%E5%8E%9F%E5%88%99.html
+# 标题: 孤独症谱系障碍患儿常见共患问题的识别与处理原则 - 中华儿科杂志
+# 发布方/日期: 儿童保健科，中华儿科杂志, 2018,56(3) : 174-178. DOI: 10.3760/cma.j；2018-03-02
+
+AUTO TRANSLATION​▼
+孤独症谱系障碍患儿常见共患问题的识别与处理原则
+中华医学会儿科学分会发育行为学组
+中国医师协会儿科分会儿童保健专业委员会
+儿童孤独症诊断与防治技术和标准研究项目专家组
+中华儿科杂志, 2018,56(3) : 174-178. DOI: 10.3760/cma.j.issn.0578-1310.2018.03.004
+在过去的20年中，世界范围内对于孤独症谱系障碍（autism spectrum disorder，ASD）这一类以社会交往障碍为核心缺陷的神经发育障碍的关注显著增加，越来越多的ASD患儿被诊断。人们已充分意识到早期诊断和早期干预的重要性，同时也认识到ASD临床诊断和干预治疗过程中的艰巨性和复杂性，大多数患儿在诊断ASD之前、同时或之后还发现共患各种其他发育障碍、营养问题、躯体疾病、心理行为问题甚至精神障碍等，且多数患儿共患两种问题以上[1]。这些共患问题不仅增加了干预、治疗、教育以及喂养的难度，同时也对患儿的预后产生重大影响。
+为了进一步提高儿科医师对ASD常见共患问题的识别能力，同时掌握ASD常见共患问题的初步处理原则，由中华医学会儿科学分会发育行为学组联合中国医师协会儿科分会儿童保健专业委员会，会同卫生和计划生育委员会行业专项——儿童孤独症诊断与防治技术和标准研究项目专家组，并邀请康复专业、消化专业专家参与讨论，同时参考国外ASD相关临床指南和本领域最新研究进展，达成以下共识。
+一、ASD共患发育相关问题的识别与处理原则
+1．智能障碍：
+智能障碍是由于各种原因导致的18岁以前出现的智力显著落后，同时伴有社会适应行为的显著缺陷。智能障碍和ASD是两个高度共患的发育障碍，在既往报道中典型ASD共患智能障碍的比率高达75%，而在目前ASD中共患智能障碍的比例也有约50%[2]。在美国精神病学会精神疾病诊断统计手册第五版（DSM-5）中还有一个临时性的诊断称为全面发育迟缓（global developmental delay, GDD），当部分5岁以下患儿智力水平测试结果不可靠或不能完成相对可信的标准化测试，但又明确存在≥2个维度的发育里程碑落后，可暂时不用智能障碍而使用GDD的诊断，之后再重新评估确定是否符合智能障碍的诊断标准。值得注意的是，近年来不少国家的流行病学资料显示，ASD患病率的上升与智能障碍患病率的下降正相关，如Polyak等[3]的研究显示智能障碍患病率的下降中有64.2%来自ASD患病率的上升。结合中国的现状我们认为，一方面，在既往ASD认识不足的地区，ASD可能被误诊为智能障碍；另一方面，在ASD早期诊断较为充分的地区，存在单一诊断ASD而忽视智能障碍共患诊断的可能。当然在一些已知病因的智能障碍患者中，如脆性X综合征、结节性硬化、21-三体综合征、Angelman综合征等，也容易出现仅做出病因学诊断，而不再根据行为特征考虑是否同时伴有ASD的诊断等情况。
+处理原则：对已诊断为ASD的患儿，应常规评估智能发育水平、社会适应能力，以判断是否共患智能障碍或GDD等问题，以完成多维度的评估与诊断。临床医师或心理学家完成多维度评估与诊断后，应及时提供给康复训练人员参考，以制定适宜的教育和行为干预方案。针对ASD共患智能障碍的治疗同样是以教育行为干预为首选，当共患智能障碍或GDD时，训练的总体目标除了改善ASD核心症状、减少不适当行为外，还应包括促进语言、认知等智能水平的全面发展。
+2．言语和语言发育障碍：
+依据DSM-5关于ASD的诊断要点，言语和语言发育障碍不再是ASD的核心症状，却是多数ASD患儿就诊的主要原因。ASD患儿中语言发育的水平高度不一致，可以完全没有口语，也可以拥有完整的语言结构仅在实际交流上有缺陷。当然除了语用问题，临床上确实许多ASD患儿同时合并言语和语言发育障碍等各类语言发育的问题，比如语言理解能力落后、语言表达困难、构音困难以及语调异常等，但目前尚无ASD与言语和语言发育障碍共患率的确切报道。多数ASD患儿语言发育落后，常2~3岁时仍不说话，1/4~1/3的ASD患儿还会出现语言发育停滞或倒退的现象；有表达性语言的ASD患儿语言也缺乏交流性，表现为无意义或重复刻板语言，内容单调难以理解，常有鹦鹉学舌的模仿性语言。少数ASD患儿语言过多，常常是滔滔不绝，但基本是单向性的，缺乏与人互动式的交流。ASD患儿的语义和语用障碍表现尤其突出，例如言语不符合场景、声音过响、语言流畅度异常、语法错误、答非所问等[4]。
+处理原则：每例ASD患儿都应该常规评估语言发育水平，明确其是否合并有言语和语言发育障碍等各类语言发育的问题，诊断有困难时可转诊到上级医院。同时，针对ASD共患言语和语言发育障碍的患儿，需要将所需的言语治疗纳入整体的康复训练计划中。
+3．注意缺陷多动障碍：
+多动、冲动以及注意缺陷等注意缺陷多动障碍（attention deficit/hyperactivity disorder, ADHD）的核心症状在ASD患者中的发生率也很高，文献报道ASD共患ADHD的比例为41%~78% [5]。美国国家ASD数据库显示约有20%的患儿在确诊为ASD之前，曾被诊断过ADHD[6]。这说明，ASD和ADHD两者的关系错综复杂。临床实践中普遍存在的现象是当ASD共患ADHD时，一方面容易造成漏诊、误诊，另一方面加大了养育、教学上的困难，损害了患儿的学习、社会适应功能。对于许多ASD患儿尤其是具有高功能ASD特点的患儿来说，注意缺陷、多动、冲动的症状对他们的影响有时甚至超过了ASD本身的症状，在学校及家庭生活中产生的负面影响更大。因此，识别和处理ASD患儿是否共患ADHD有着重要的现实意义。
+处理原则：对于ASD共患ADHD的学龄前儿童或ASD共患轻度至中度ADHD的学龄儿童，首先推荐行为训练改善ASD和ADHD症状，如适合ASD患儿的应用行为分析训练，以及适合高功能ASD患儿的执行功能训练。当充分的行为治疗后注意缺陷、多动或冲动症状仍造成显著影响或共患严重的ADHD，应考虑及时转诊到上级或专科医院，给予治疗ADHD的药物包括哌甲酯类和托莫西汀，或非典型抗精神病药物如利醅酮，有50%~60%的患儿会有临床获益。启动药物治疗前，要排除环境因素的影响以及确认教育行为干预已经有效执行。药物选择时，要充分考虑患儿共患ADHD的症状特点、其他共患疾病以及躯体问题，根据治疗目标权衡利弊选择合适的药物，并定期监测药物治疗的效果及可能的不良反应。
+二、ASD共患躯体问题的识别与处理原则
+1．营养问题：
+ASD患儿的体格发育、营养状况等常规儿童保健内容也需要特别关注。头围监测发现，ASD患儿出生时头围正常；出生后至4岁头围快速增长，其中有15.7%的患儿呈现巨颅（大于第97百分位数）；之后增长速度减慢，到青春期与发育正常儿童头围相当[7]。营养不良、超重和肥胖等现象在ASD患儿中均可见到，文献报道ASD患儿超重的患病率为14.8%，肥胖的患病率为23.3%，且随着年龄的增长超重和肥胖的风险明显增加，16~20岁的ASD青少年超重和肥胖的风险增加分别为同龄青少年的11.1和2.1倍[8]。膳食调查发现ASD患儿摄入蔬菜、新鲜水果少，多数患儿饮食中钙、铁、锌、维生素A、维生素D、维生素E、核黄素、维生素B6、维生素B12、维生素C、叶酸、胆碱摄入不足[9]。较多ASD患儿外周血中存在营养素水平异常[9,10,11,12]，如泛酸、生物素、叶酸、维生素B12、维生素D、维生素A低于正常水平；血浆二十碳五烯酸/花生四烯酸、亚油酸/花生四烯酸、α-亚麻酸/二十二碳六烯酸增高。当然也有部分ASD患儿即使有偏食、挑食，血液中的营养素水平并不异常。
+处理原则：首要选择是行为干预，但ASD患儿普遍存在多种微量营养素的摄入不足，有必要根据流行病学对ASD患儿进行相应营养状况检查，按照循证医学证据补充维生素A、叶酸、维生素D等微量营养素，改善患儿整体营养状况和促进大脑发育，但是营养素与孤独症核心症状的确切关系还需要进一步的研究。
+2．饮食行为问题：
+约70%的ASD患儿有喂养和（或）饮食行为问题，其中36%问题较为严重[13]。饮食行为问题是ASD患儿兴趣狭隘、重复刻板行为的一种表现，有些研究者认为婴儿期的喂养困难可能是ASD的早期症状。常见的饮食行为问题有：挑食（挑餐具、颜色等），只吃某种食物；抗拒新种类食物；不喜欢咀嚼，含在口中，不会吐核；不会用餐具；吃饭时走来走去；吃得慢，要家长喂等等。饮食行为问题也是引起ASD患儿出现营养障碍的原因之一。ASD群体中饮食行为问题如此高发的原因既有患儿的个体因素，又有环境因素，如：患儿的感觉反应过敏或辨别力差、口腔功能、认知能力以及刻板、固执的行为等；家长的态度、食物安排、进食时间以及环境安排不恰当等。
+处理原则：需要在准确分析原因之后，有针对性地开展饮食行为的干预。对于挑食的患儿，通过评价患儿的饮食和营养状况，制定个体化治疗方案，提高喂养技能并逐渐扩大食物选择和耐受性。治疗师也应教会患儿家长如何在家庭中进行行为干预，并监测干预进展情况及效果。对于过食和肥胖的干预方法包括膳食和行为方法，如健康食物的选择，减少食物的总量和减少高能量食物以及增加体育锻炼。有异食癖的患儿则应注意铁缺乏症、锌缺乏症或肠道寄生虫感染等，进行血铅检查，如有异常，进行相应治疗；不异食奖励、注意力引导转移和阻止等行为治疗策略对纠正异食癖有效[14]。
+3．胃肠道问题：
+ASD患儿出现一种或多种胃肠道问题的比例为普通儿童的8倍，可表现为便秘、腹痛、嗳气、腹泻和大便恶臭等[15]。食管反流是由于贲门肌迟缓所致，可引起食管溃疡，临床可表现为咽喉不适或疼痛、声音嘶哑、咳嗽、拒食或睡眠障碍等，在言语表达能力不足的ASD患儿中，可引起刻板或自残行为增加，如上述表现在仰卧位时加重，应注意食管反流的可能。慢性便秘与腹痛有关，甚至可引起肛裂、痔疮和直肠或小肠脱垂。腹痛时可出现用手按住腹部、自慰性刻板动作、烦躁不安、攻击性行为和自残行为等。引起ASD患儿慢性便秘的常见原因有饮食中纤维素不足（特别是无谷蛋白饮食）[16]、药物不良反应以及肠道动力学异常等。也有部分ASD患儿的便秘是与其固定、刻板的生活方式有关，如只能在特定的地点或只能使用特定的座便器。共患慢性腹泻会显著影响患儿的身体健康和生活质量，引起慢性腹泻的原因包括肠道感染、免疫异常、炎症性肠病、肠易激综合征、结肠疾病、食物过敏、乳糖不耐受或摄入过多的特定食物或饮料。
+处理原则：针对便秘可进行如厕行为管理和增加运动、饮食纤维、益生菌，减少引起便秘的食物有助于改善便秘，药物治疗可考虑水溶性纤维素，必要时用泻剂。有报道显示，去除酪蛋白谷蛋白饮食可缓解便秘的问题。慢性腹泻的管理取决于病因，如肠道感染需要抗感染治疗，食物调整可缓解由摄入过多饮料、结肠疾病（谷蛋白不耐受）、食物过敏、乳糖不耐受等引起的腹泻。食管反流的行为学治疗包括睡眠时头部抬高、就寝前避免进食、少食多餐、避免激发症状的食物等，慢性和重症建议转诊专科医师。
+4．睡眠障碍：
+50%~80%的ASD患儿罹患一种或多种慢性睡眠问题，包括入睡困难、经常或长时间的夜醒、过度早起、日夜节律紊乱等。睡眠问题常伴随日间疲劳、刻板行为、交流困难、多动、易激惹、攻击和注意缺陷等问题行为，这些均影响学习和整体生活质量[17]。引起ASD睡眠问题的原因有：调节日间节律的有关基因突变[18]、癫痫或发作性疾病[19]、焦虑障碍[20]、脑内褪黑素水平低下[21]等。
+处理原则：睡眠问题的管理中，健康教育为第一步。家长可通过帮助患儿建立日间良好的生活运动习惯促进夜间睡眠，强调规律日间体育锻炼的重要性和尽可能地保障有一定的室外活动时间，之后进入安静的夜间常规，限制就寝前看电视的时间。另外，父母可以学习创建视觉时间表帮助患儿养成规律就寝习惯，也需要有一些其他策略帮助患儿夜间觉醒后继续入睡。这种方法除了可以改善患儿睡眠外，还可以减轻患儿白天疲劳、焦虑、注意力缺陷和问题行为，有助于提高全家的生活质量[22]。在健康教育、睡眠行为管理无效的情况下，可考虑药物治疗。药物治疗的证据不多，相对应用较多的是褪黑素，无效的情况下可考虑利培酮等非典型抗精神病药物。
+5．癫痫：
+ASD患儿中癫痫的发生率高达11%~39%，远高于普通人群发病率（1%~2%），在ASD伴发严重智能障碍和运动障碍时发生癫痫的比例更高（42%），同时癫痫发作也是7%~30%的ASD患者的致死原因[23]，因此专业人员和照管者对这一问题要高度重视。ASD患儿可以出现各种类型癫痫发作，但是有时候临床表现不典型，容易和重复性行为、刻板动作等非癫痫性发作混淆，需要仔细鉴别[24]。ASD的癫痫发作可出现于任何年龄，但有两个高峰期，一个是学龄前期（5岁之前），另一个是青春期。脑电图异常在ASD也很常见，脑电图异常在伴有精神行为倒退史的ASD中更常见，但亦有研究不支持这一观点[25,26]。
+处理原则：建议ASD患儿常规做脑电图检查。ASD伴发癫痫的治疗与单纯癫痫的治疗一样，都应该由儿童神经内科或癫痫的专病医师根据发作类型和脑电图改变来选取相应的抗癫痫药物。约60%的癫痫发作可通过单药治疗得到控制；如单药治疗不能控制发作，就需要考虑联合用药。难治性癫痫还可使用生酮饮食、迷走神经刺激术或外科手术治疗。普儿科医师除了转诊专科诊治外，还应该在长期维持治疗过程中协助观察抗癫痫药的疗效和不良反应，以保证患儿得到规范诊治。对伴有脑电图异常而无临床癫痫发作的ASD患儿，建议密切随访。
+三、ASD共患情绪行为障碍的识别与处理原则
+1．易激惹和问题行为：
+易激惹是指当患儿愤怒、受挫或痛苦时言语和动作上的爆发，这种突发状态常常被照管者称为"发脾气""崩溃"或"暴怒"。这里所指的"问题行为"是指攻击性行为，造成对他人、对自己或对财产的伤害或损失。ASD患儿的攻击行为包括打、踢、咬、扔东西等伤害性、破坏性行为，68%的ASD患儿有攻击行为，远高于单纯智力障碍患儿。ASD的自伤行为常常表现为：撞头、打自己、抓挠自己、拔头发等，严重者的自伤行为可导致不可逆的损伤或死亡。25%以上的ASD患儿有自伤行为，在同等智力损害水平上，ASD患儿的自伤和他伤行为高于其他人群。影响ASD患儿易激惹和问题行为的因素众多，单纯的量表评定往往不足以反映严重程度，也对制定干预方案无助。因此，在美国儿科学会相关指南中，建议从以下5个维度进行评估：共患的躯体状况、缺乏功能性沟通、心理社会压力、不良的强化模式以及伴发的情绪精神障碍[27]。当然，这5个方面也是ASD易激惹和问题行为的主要影响因素。
+处理原则：提升社交能力是减少易激惹和问题行为的治本之策。但在破坏行为发生之时，应该采取行为治疗或应用行为分析疗法，如对行为的出现原因要有预见性，分析该行为出现的前因，减少或去除引发自伤的诱因，提防自伤的发生，用更为接受的行为替代不当的自伤行为，通过积极关注强化更恰当的行为。如果行为干预效果不佳或无效，或攻击行为是患儿突发的病理性冲动，可酌情用药物治疗，美国食品药品监督管理局（FDA）批准利培酮和阿立哌唑治疗ASD患儿的易激惹、躯体攻击与严重发脾气为主的行为。在"儿童孤独症诊疗康复指南"[28]中，药物治疗推荐首先考虑抗精神病药，疗效不佳考虑心境稳定剂，仍不佳时考虑5-羟色胺再摄取抑制剂（SSRIs）。对于ASD共患行为障碍的患儿，当行为干预、心理治疗无效或当地缺乏相应的医疗资源，且上述问题严重干扰了患儿的学习、生活等社会功能时，应及时转诊，由专科医师根据病情给予必要的药物治疗。而当行为障碍特别严重或门诊干预无效时，应及时调整治疗设置，给予更高强度的干预，如转至专科医院诊治，或者由门诊治疗转为住院治疗。
+2．焦虑障碍：
+焦虑障碍是青春期ASD患儿最易患且功能损害明显的共患疾病，多见于智能正常的高功能ASD患儿。ASD共患焦虑障碍时往往有独特的行为层面上的表现，如刻板行为增加等。由于ASD患儿的认知和语言损害妨碍了他们自主报告焦虑情绪的主观体验，同时ASD的部分症状与焦虑症状有重叠的现象，诊断ASD患儿的焦虑障碍要比发育正常人群困难很多。ASD的情绪问题不仅严重影响患儿的社会功能，而且给照管者带来极大的困扰和困难，需要得到充分的关注。
+处理原则：有一定言语和认知能力的ASD共患焦虑障碍患儿可以接受认知行为治疗（cognitive behavioral therapy，CBT）。针对ASD特征修订的CBT对ASD伴有的焦虑障碍有效，可显著改善焦虑症状，团体治疗比个别治疗更经济。ASD共患焦虑的CBT内容常包括：情绪识别训练、识别焦虑的具体症状、应对焦虑的情绪管理（如放松技术）和逐级暴露。认知活动的内容应更简单、方法更具体和结构化，可采用大量的书面化、视觉化信息和结构化工作表，提供替代性反应。若症状严重，行为干预、心理治疗无效，可根据年龄酌情考虑药物治疗。药物治疗首先考虑SSRIs类药物，如舍曲林、氟西汀、氟伏沙明等。心理教育、与ASD患儿教育和生活环境中的重要人物沟通是处理ASD共患情绪障碍的第一步。当行为干预、心理治疗无效或当地缺乏相应的医疗资源，且上述问题严重干扰患儿的学习、生活等社会功能时，应及时转诊，由专科医师根据病情给予系统治疗。
+总之，ASD患儿常常共患各类发育障碍、营养问题、躯体疾病以及心理行为障碍，需要将识别共患问题纳入儿童保健的诊疗常规中，同时有必要建立多学科协作和转诊机制，以实现ASD患儿个体化综合治疗的需要。尤其当教育干预无效时，应及时转诊，针对目标症状给予相应的药物治疗，可有效控制症状、提高患儿的社会功能。
+（柯晓燕 贾飞勇 李廷玉 执笔）
+参与本共识制定单位及人员（按单位、人员首字拼音排序）：
+参与本共识制定单位及人员（按单位、人员首字拼音排序）：重庆医科大学附属儿童医院儿童青少年生长发育与心理健康中心（程茜、陈立、李廷玉），康复科（肖农）；复旦大学附属儿科医院儿童保健科（徐秀），神经内科（王艺）；哈尔滨医科大学儿童发育行为研究中心（武丽杰）；海南医学院附属儿童医院发育行为中心（李玲）；吉林大学第一医院发育行为儿科（贾飞勇）；南京市妇幼保健院儿童保健科（郭锡熔）；南京医科大学附属脑科医院儿童心理研究中心（柯晓燕）；首都儿科研究所儿童保健科（金春华）；上海交通大学医学院附属上海儿童医学中心发育行为儿科（金星明、章依文）；上海交通大学医学院附属新华医院发育行为儿童临床心理科（张劲松），发育行为儿童青少年保健科（李斐）；中山大学公共卫生学院妇幼卫生系（静进）；中山大学附属第三医院儿童发育行为中心（邹小兵）；广州市妇女儿童医疗中心消化内科（龚四堂）
+参考文献
+[1]
+SimonoffE, PicklesA, CharmanT, et al.
+Psychiatric disorders in children with autism spectrum disorders: prevalence, comorbidity, and associated factors in a population-derived sample[J].
+J Am Acad Child Adolesc Psychiatry,
+2008,
+47(
+8):
+921-
+929.
+DOI: 10.1097/CHI.0b013e318179964f.
+[2]
+American Psychiatric Association.
+Diagnostic and Statistical Manual of Mental Disorders[M].
+5th ed.
+Arlington, VA:
+American Psychiatric Association,
+2013:
+52-
+59.
+[3]
+PolyakA, KubinaRM, GirirajanS.
+Comorbidity of intellectual disability confounds ascertainment of autism: implications for genetic diagnosis[J].
+Am J Med Genet B Neuropsychiatr Genet,
+2015,
+168(
+7):
+600-
+608.
+DOI: 10.1002/ajmg.b.32338.
+[4]
+EylerLT, PierceK, CourchesneE.
+A failure of left temporal cortex to specialize for language is an early emerging and fundamental property of autism[J].
+Brain,
+2012,
+135(
+Pt 3):
+949-
+960.
+DOI: 10.1093/brain/awr364.
+[5]
+MahajanR, BernalMP, PanzerR, et al.
+Clinical practice pathways for evaluation and medication choice for attention-deficit/hyperactivity disorder symptoms in autism spectrum disorders[J].
+Pediatrics,
+2012,
+130
+Suppl 2:
+S125-
+138.
+DOI: 10.1542/peds.2012-0900J.
+[6]
+MiodovnikA, HarstadE, SideridisG, et al.
+Timing of the Diagnosis of Attention-Deficit/Hyperactivity Disorder and Autism Spectrum Disorder[J].
+Pediatrics,
+2015,
+136(
+4):
+e830-
+837.
+DOI: 10.1542/peds.2015-1502.
+[7]
+SaccoR, GabrieleS, PersicoAM.
+Head circumference and brain size in autism spectrum disorder: A systematic review and meta-analysis[J].
+Psychiatry Res,
+2015,
+234(
+2):
+239-
+251.
+DOI: 10.1016/j.pscychresns.2015.08.016.
+[8]
+Broder-FingertS, BrazauskasK, LindgrenK, et al.
+Prevalence of overweight and obesity in a large clinical sample of children with autism[J].
+Acad Pediatr,
+2014,
+14(
+4):
+408-
+414.
+DOI: 10.1016/j.acap.2014.04.004.
+[9]
+RanjanS, NasserJA.
+Nutritional status of individuals with autism spectrum disorders: do we know enough?[J].
+Adv Nutr,
+2015,
+6(
+4):
+397-
+407.
+DOI: 10.3945/an.114.007914.
+[10]
+WangT, ShanL, DuL, et al.
+Serum concentration of 25-hydroxyvitamin D in autism spectrum disorder: a systematic review and meta-analysis[J].
+Eur Child Adolesc Psychiatry,
+2016,
+25(
+4):
+341-
+350.
+DOI: 10.1007/s00787-015-0786-1.
+[11]
+LiuX, LiuJ, XiongX, et al.
+Correlation between Nutrition and Symptoms: Nutritional Survey of Children with Autism Spectrum Disorder in Chongqing, China[J].
+Nutrients,
+2016,
+8(
+5):
+E294
+DOI: 10.3390/nu8050294.
+[12]
+SunC, XiaW, ZhaoY, et al.
+Nutritional status survey of children with autism and typically developing children aged 4-6 years in Heilongjiang Province, China[J].
+J Nutr Sci,
+2013,
+2:
+e16.
+DOI: 10.1017/jns.2013.9.
+[13]
+SharpWG, BerryRC, McCrackenC, et al.
+Feeding problems and nutrient intake in children with autism spectrum disorders: a meta-analysis and comprehensive review of the literature[J].
+J Autism Dev Disord,
+2013,
+43(
+9):
+2159-
+2173.
+DOI: 10.1007/s10803-013-1771-5.
+[14]
+CallNA, SimmonsCA, MeversJE, et al.
+Clinical Outcomes of Behavioral Treatments for Pica in Children with Developmental Disabilities[J].
+J Autism Dev Disord,
+2015,
+45(
+7):
+2105-
+2114.
+DOI: 10.1007/s10803-015-2375-z.
+[15]
+SchieveLA, GonzalezV, BouletSL, et al.
+Concurrent medical conditions and health care use and needs among children with learning and behavioral developmental disabilities, National Health Interview Survey, 2006-2010[J].
+Res Dev Disabil,
+2012,
+33(
+2):
+467-
+476.
+DOI: 10.1016/j.ridd.2011.10.008.
+[16]
+MirandaJ, LasaA, BustamanteMA, et al.
+Nutritional differences between a gluten-free diet and a diet containing equivalent products with gluten[J].
+Plant Foods Hum Nutr,
+2014,
+69(
+2):
+182-
+187.
+DOI: 10.1007/s11130-014-0410-4.
+[17]
+MazurekMO, SohlK.
+Sleep and Behavioral Problems in Children with Autism Spectrum Disorder[J].
+J Autism Dev Disord,
+2016,
+46(
+6):
+1906-
+1915.
+DOI: 10.1007/s10803-016-2723-7.
+[18]
+YangZ, MatsumotoA, NakayamaK, et al.
+Circadian-relevant genes are highly polymorphic in autism spectrum disorder patients[J].
+Brain Dev,
+2016,
+38(
+1):
+91-
+99.
+DOI: 10.1016/j.braindev.2015.04.006.
+[19]
+AccardoJA, MalowBA.
+Sleep, epilepsy, and autism[J].
+Epilepsy Behav,
+2015,
+47:
+202-
+206.
+DOI: 10.1016/j.yebeh.2014.09.081.
+[20]
+VasaRA, MazurekMO, MahajanR, et al.
+Assessment and Treatment of Anxiety in Youth With Autism Spectrum Disorders[J].
+Pediatrics,
+2016,
+137
+Suppl 2:
+S115-
+123.
+DOI: 10.1542/peds.2015-2851J.
+[21]
+CuomoBM, VazS, EALL, et al.
+Effectiveness of Sleep-Based Interventions for Children with Autism Spectrum Disorder: A Meta-Synthesis[J].
+Pharmacotherapy,
+2017,
+37(
+5):
+555-
+578.
+DOI: 10.1002/phar.1920.
+[22]
+MalowBA, AdkinsKW, ReynoldsA, et al.
+Parent-based sleep education for children with autism spectrum disorders[J].
+J Autism Dev Disord,
+2014,
+44(
+1):
+216-
+228.
+DOI: 10.1007/s10803-013-1866-z.
+[23]
+WoolfendenS, SarkozyV, RidleyG, et al.
+A systematic review of two outcomes in autism spectrum disorder- epilepsy and mortality[J].
+Dev Med Child Neurol,
+2012,
+54(
+4):
+306-
+312.
+DOI: 10.1111/j.1469-8749.2012.04223.x.
+[24]
+FisherRS, CrossJH, FrenchJA, et al.
+Operational classification of seizure types by the International League Against Epilepsy: Position Paper of the ILAE Commission for Classification and Terminology[J].
+Epilepsia,
+2017,
+58(
+4):
+522-
+530.
+DOI: 10.1111/epi.13670.
+[25]
+ValvoG, BaldiniS, ReticoA, et al.
+Temporal lobe connects regression and macrocephaly to autism spectrum disorders[J].
+Eur Child Adolesc Psychiatry,
+2016,
+25(
+4):
+421-
+429.
+DOI: 10.1007/s00787-015-0746-9.
+[26]
+ScottRC, TuchmanR.
+Epilepsy and autism spectrum disorders: Relatively related[J].
+Neurology,
+2016,
+87(
+2):
+130-
+131.
+DOI: 10.1212/WNL.0000000000002852.
+[27]
+McGuireK, FungLK, HagopianL, et al.
+Irritability and Problem Behavior in Autism Spectrum Disorder: A Practice Pathway for Pediatric Primary Care[J].
+Pediatrics,
+2016,
+137
+Suppl 2:
+S136-
+148.
+DOI: 10.1542/peds.2015-2851L.
+[28]
+卫生部办公厅关于印发《儿童孤独症诊疗康复指南》的通知[DB/OL].(
+2010-07-23)[
+2017-11-01].
+http://www.gov.cn/zwgk/2010-08/16/content_1680727.htm.
+贡献者信息
+中华医学会儿科学分会发育行为学组
+中国医师协会儿科分会儿童保健专业委员会
+儿童孤独症诊断与防治技术和标准研究项目专家组
+基金项目
+国家自然科学基金 （81771478、81771223）
+历史
+出版日期：2018-03-02
+收稿日期：2017-12-06
+本文编辑
+李伟
+Standard/Protocol/Guideline
+The identification and treatment of common comorbidity in children with autism spectrum disorder
+The Subspecialty Group Developmental and Behavioral Pediatrics, the Society of Pediatrics, Chinese Medical Association,  The Subspecialty Group of Primary Health Care, the Society of Pediatrics, Chinese Medical Doctor Association,  Project Expert Group of Diagnosis, Prevention and Therapy Techniques and Standards of Childhood Autism Spectrum Disorders
+Published
+2018-03-02
+Cite as
+Chin J Pediatr, 2018,56(3): 174-178. DOI: 10.3760/cma.j.issn.0578-1310.2018.03.004
+Contributor Information
+The Subspecialty Group Developmental and Behavioral Pediatrics, the Society of Pediatrics, Chinese Medical Association
+The Subspecialty Group of Primary Health Care, the Society of Pediatrics, Chinese Medical Doctor Association
+Project Expert Group of Diagnosis, Prevention and Therapy Techniques and Standards of Childhood Autism Spectrum Disorders
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华儿科杂志2018年56卷3期
+文    题：孤独症谱系障碍患儿常见共患问题的识别与处理原则
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华儿科杂志2018年56卷3期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+Original text
+Contribute a better translation
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

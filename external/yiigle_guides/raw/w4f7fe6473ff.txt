@@ -1,0 +1,791 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%AD%A4%E7%8B%AC%E7%97%87%E8%B0%B1%E7%B3%BB%E9%9A%9C%E7%A2%8D%E5%84%BF%E7%AB%A5%E6%97%A9%E6%9C%9F%E8%AF%86%E5%88%AB%E7%AD%9B%E6%9F%A5%E5%92%8C%E6%97%A9%E6%9C%9F%E5%B9%B2%E9%A2%84%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 孤独症谱系障碍儿童早期识别筛查和早期干预专家共识 - 中华儿科杂志
+# 发布方/日期: 儿童保健科，中华儿科杂志, 2017,55(12) : 890-897. DOI: 10.3760/cma.j；2017-12-02
+
+孤独症谱系障碍儿童早期识别筛查和早期干预专家共识
+中华医学会儿科学分会发育行为学组
+中国医师协会儿科分会儿童保健专业委员会
+儿童孤独症诊断与防治技术和标准研究项目专家组
+中华儿科杂志, 2017,55(12) : 890-897. DOI: 10.3760/cma.j.issn.0578-1310.2017.12.004
+孤独症谱系障碍(autism spectrum disorder，ASD)简称孤独症，与自闭症同义，是一组以社交沟通障碍、兴趣或活动范围狭窄以及重复刻板行为为主要特征的神经发育性障碍[1]，自1943年Leo Kanner医师首次报道儿童孤独症以来，有关孤独症及其相关障碍的名称和诊断标准不断变迁。2013年5月18日，美国精神病学会发布精神疾病诊断统计手册第五版（Diagnosis and Statistical Mannual of Mental Disorders-fifth edition, DSM-5）正式提出ASD的概念。早期报道孤独症为罕见病，近20多年来的流行病学调查数据显示，全球范围内ASD患病率均出现上升趋势，估计全球患病率在1%左右[2]。ASD核心症状尚无药物可以治疗。长期以来学者普遍认为多数ASD患儿预后不良，成年后多不具备独立生活、学习和工作能力，成为家庭和社会的沉重负担[3,4]。但近年来越来越多研究发现，早期发现、早期行为干预和教育可显著改善ASD患儿的不良预后[5]。
+ASD生物学基础尚未完全明确，缺乏生物学标志物。因此ASD是一个症状学疾患，临床上主要依赖医师对患儿ASD特征行为观察和家长对行为的描述进行诊断，这使诊断存在一定的主观性和困难。Howlin和Asgharian[6]对英国770个家庭研究发现超过1/4的ASD患儿父母以及1/3的阿斯伯格综合征（AS，孤独症的一种亚型）患儿的父母被告知孩子发育正常。许多医师不能发现幼儿期ASD的症状，导致诊断延误，并失去在关键的早期几年得到干预的机会。虽然50%的ASD患儿父母在孩子1岁左右发现问题，12%~76%的父母报告孩子在1岁存在ASD症状，但通常3~4岁才获得诊断。Daniels和Mandell[7]调查美国目前ASD患儿诊断平均年龄为4.2岁。相比发达国家，包括我国在内的发展中国家对于ASD的认识和诊断干预水平明显滞后，相关资源严重匮乏，儿科医师在ASD的诊治方面还存在很多不足，造成我国ASD患儿诊断平均年龄普遍偏大，早期干预率低[8]。
+儿科医师熟悉ASD早期行为是实现早期识别、转诊、确诊和干预的关键第一步。神经生物学研究证实，年幼的大脑具有经验期待和经验依赖[9]的突触形成，即可塑性[10]，后天恰当和丰富的环境因素可使有先天发育障碍的ASD患儿大脑重回正常发育轨道。近年来，随机对照干预研究表明低龄患儿尤其是24月龄以内的儿童，行为问题尚不突出，强化行为治疗和教育能够不同程度改善ASD患儿的社交、认知、语言以及适应能力[11,12]。研究显示ASD早期筛查的成本效益远优于无筛查的全面诊断评估[5]。
+为提高我国儿科医师识别ASD早期行为标志的能力，规范早期筛查，由中华医学会儿科学分会发育行为学组主持，并邀请中国医师协会儿科分会儿童保健学专业委员会、国家卫生和计划生育委员会行业专项"儿童孤独症诊断与防治技术和标准研究"项目专家组以及相关专业的专家参加讨论，并参考美国、英国等有关ASD管理指南，同时结合国内外ASD研究进展，达成以下专家共识。
+第一部分ASD的早期筛查与早期识别
+一、应掌握ASD交流缺陷的早期行为标志，对父母做好科普宣传
+（一）ASD早期行为标志
+ASD社交不足行为和部分刻板行为在早期即可出现，早期筛查可以发现这些异常，2岁或2岁前早期诊断可靠。具有强有力的证据可作为ASD早期识别的5种行为标记，简称"五不"行为[13]。
+1. 不（少）看：
+指目光接触异常，ASD患儿早期即开始表现出对有意义的社交刺激的视觉注视缺乏或减少，对人尤其是人眼部的注视减少，有研究表明最终诊断为ASD的患儿在24月龄时对于人眼部的注视时间仅为正常儿童的1/2[14]。有些ASD患儿即使可以对话，但是面对面注视仍然不正常。
+2. 不（少）应：
+包括叫名反应和共同注意（JA）。幼儿对父母的呼唤声充耳不闻，叫名反应不敏感通常是家长较早发现的ASD表现之一，也有证据表明叫名反应不敏感不仅可以从正常儿童中识别出ASD，也可较好地分辨ASD与其他发育问题的儿童[15]；JA是幼儿早期社会认知发展中的一种协调性注意能力，是指个体借助手指指向、眼神等与他人共同关注二者之外的某一物体或者事件。在对ASD患儿的前瞻性研究中发现，在14~15月龄即表现出较低与JA相关的沟通水平下降[16,17]，因此JA缺陷也是"不应"的表现，
+3. 不（少）指：
+即缺乏恰当的肢体动作，无法对感兴趣的东西提出请求。ASD患儿可能早在12月龄时就表现出肢体动作的使用频率下降，如不会点头表示需要、摇头表示不要、有目的的指向、手势比划等[18]。
+4. 不（少）语：
+多数ASD患儿存在语言出现延迟，家长最多关注的也往往是儿童语言问题，尽管语言发育延迟并非ASD诊断的必要条件，其他发育行为障碍也多表现有语言发育延迟，但对于语言发育延迟儿童务必考虑ASD可能。
+5. 不当：
+指不恰当的物品使用及相关的感知觉异常：ASD患儿从12月龄起可能会出现对于物品的不恰当使用，包括旋转、排列以及对物品的持续视觉探索。比如将小汽车排成一排，旋转物品并持续注视等[13]。言语的不当也应该注意，表现为正常语言出现后言语的倒退，难以听懂、重复、无意义的语言。
+（二）ASD患儿社交和沟通行为发育轨迹的异常
+行为发育轨迹是指儿童行为发育的水平、速度以及方向。除了关注儿童早期某单一时点的发育情况外，还应关注其整个发育过程的轨迹。早期发育轨迹的异常可能是ASD的危险指标。有研究表明，部分ASD患儿在12月龄前语言及非语言发育技能正常，但此后发育轨迹出现异常，学习新技能能力下降。也有报道在6月龄前，ASD儿童与正常儿童发育轨迹基本一致，但此后发现其社交技能发育的轨迹出现下降趋势，包括目光注视、社交反应性微笑、发声频率等[19,20]。此外，发育倒退的现象也需引起重视。部分ASD患儿在生后1~2年发育轨迹正常，但随后出现已获得技能的丧失，可涉及语言、社交手势、运动等多个领域，发育倒退可能是忽然出现的，也可能是逐渐发生的。在ASD患儿中发育倒退整体的发生率约为30%，发生的平均年龄为19~21月龄[21]。
+（三）ASD发生的高危因素
+ASD病因不明，大多数学者认为其发生是基因与环境的共同作用，被纳入研究的环境因素众多，但多数没有定论，但有2条是已被明确的ASD高危因素：（1）有患ASD的兄弟姐妹；（2）有精神分裂、情绪障碍或其他精神及行为问题家族史者。儿科医师应对有这2条高危因素的儿童给予特别重视，建立档案，追踪随访[22]。
+上述明确的ASD早期行为识别标志尚不能构成ASD诊断，无论家长还是儿科医师根据以上所列早期标志疑诊ASD，务必在给予初步干预指导的同时，进行全面的观察和评估或转诊有条件医院进行进一步的ASD诊断、评估。
+二、儿科医师对于ASD的筛查应该成为儿童保健门诊的常规
+鉴于ASD不断增高的患病率，各级医院儿科医师应依托我国儿童保健三级预防监测网络，对9、18、24月龄婴幼儿，在其他发育问题常规筛查同时，常规开展ASD早期筛查。以下介绍ASD早期筛查基本流程（图1）及相关筛查工具。
+点击查看大图
+图1
+0~3岁儿童孤独症谱系障碍筛查诊断干预流程
+M-CHAT-R为改良版幼儿孤独症筛查量表；CHAT-23为幼儿孤独症量表
+图1
+0~3岁儿童孤独症谱系障碍筛查诊断干预流程
+（一）ASD初级筛查工具及转诊指征
+1. 儿童心理行为发育问题预警征象：
+承担基本公共卫生服务的医疗卫生机构(社区卫生服务中心、乡镇卫生院等)及各级儿科医师应负责在对儿童进行常规健康体检的同时开展发育和ASD的初筛工作。"儿童心理行为发育问题预警征象筛查表" [23]（表1）是由国家卫生和计划生育委员会于2013年组织国内儿童心理、发育领域资深专家经验制定，拟作为我国基层儿科儿童心理行为发育问题的早期筛查工具。在0~3岁年龄范围内涉及8个时点，每个时点包含4个条目。在初筛过程中应对儿童进行观察并且检查有无相应月龄的预警症状，该年龄段任何一条预警征象阳性，提示有发育偏异的可能。预警征象可由专业人员、父母、其他代养人、老师等任何人提出。其中黑体字为与ASD有关的预警征象。
+点击查看表格
+表1
+儿童心理行为发育问题预警征象筛查表[23]
+表1
+儿童心理行为发育问题预警征象筛查表[23]
+年龄
+预警征象
+年龄
+预警征象
+3月
+1. 对很大声音没有反应
+□
+18月
+1. 不会有意识叫"爸爸"或"妈妈"
+□
+2. 逗引时不发音或不会笑
+□
+2. 不会按要求指人或物
+□
+3. 不注视人脸，不追视移动人或物品
+□
+3. 与人无目光对视
+□
+4. 俯卧时不会抬头
+□
+4. 不会独走
+□
+6月
+1. 发音少，不会笑出声
+□
+2岁
+1. 不会说3个物品的名称
+□
+2. 不会伸手及抓物
+□
+2. 不会按吩咐做简单事情
+□
+3. 紧握拳不松开
+□
+3. 不会用勺吃饭
+□
+4. 不能扶坐
+□
+4. 不会扶栏上楼梯/台阶
+□
+8月
+1. 听到声音无应答
+□
+2岁半
+1. 不会说2～3个字的短语
+□
+2. 不会区分生人和熟人
+□
+2. 兴趣单一、刻板
+□
+3. 双手间不会传递玩具
+□
+3. 不会示意大小便
+□
+4. 不会独坐
+□
+4. 不会跑
+□
+12月
+1. 呼唤名字无反应
+□
+3岁
+1. 不会说自己的名字
+□
+2. 不会模仿"再见"或"欢迎"动作
+□
+2. 不会玩"拿棍当马骑"等假想游戏
+□
+3. 不会用拇食指对捏小物品
+□
+3. 不会模仿画圆
+□
+4. 不会扶物站立
+□
+4. 不会双脚跳
+□
+注：黑体字与孤独症谱系障碍相关
+2. 修订的幼儿孤独症量表A部分（modified checklist for autism in toddlers-23，CHAT-23-A）[24]：
+适用于18~24月龄ASD患儿的筛查，该量表由23道问题组成，每道题目包含"没有" "偶尔" "有时" "经常" 4个选项。核心项为第2、5、7、9、13、15、23题。由主要照看者根据儿童的一贯表现对每道题目进行勾选。筛查阳性评定标准：总23项中≥6项阳性或7项核心项目中≥2项阳性。
+3. 改良版幼儿孤独症筛查量表（modified checklist for autism in toddlers, revised，M-CHAT-R）[25]：
+M-CHAT-R适用于筛查16~30月龄的婴幼儿，该量表由20道问题组成，每道题目包含"是" "否"两个选项。由主要照看者根据儿童的一贯表现对每道题目进行勾选。计分算法：量表总得分等于阳性答案题目数。总分0~2分记为低风险，3~7分记为中等风险，8~20分记为高风险。登录http://mchatscreen.com，该量表可免费下载使用，但请注意版权保护事项。
+4. 转诊指征：
+符合下列任一情况的儿童应转诊至区（县）级妇幼保健机构进行ASD复筛：（1）相应筛查年龄段出现任何一条预警征象的儿童。（2）CHAT-23-A量表筛查为阳性。（3）M-CHAT-R量表筛查结果为中等风险。符合下列任一情况的儿童应立即转诊至有ASD评估资质的机构进行相关评估及诊断：（1）任何年龄阶段出现语言功能倒退或社交技能倒退的儿童[26]。（2）M-CHAT-R量表筛查结果为高风险的儿童。（3）医师、家长或老师等怀疑ASD的儿童。
+（二）ASD复筛应用工具及转诊指征
+各级儿童保健和儿科医师应负责开展针对ASD初筛阳性儿童的复筛工作，开展与初筛使用量表对应的复筛工作。应该注意，有相当一部分复筛结果为阳性的儿童不一定会被诊断为ASD；但这些儿童仍有较高的患其他发育障碍或发育迟缓疾病的风险。因此，任何复筛结果为阳性的儿童都应该转诊至相关机构接受评估。
+1. 修订的幼儿孤独症量表B部分（CHAT-23-B）：
+该部分为观察部分，由4道题组成，包括目光注视，按要求指物，假装游戏等，由医师现场观察完成，4道题目中2道失败为阳性。
+2. 改良版幼儿孤独症筛查量表的随访版（M-CHAT-R/F）：
+根据儿童在M-CHAT-R中没有通过的问题来选择后续问题并根据流程图询问。可现场询问也可通过电话询问，如儿童没有通过后续问题的任意两项，则访谈筛查结果为阳性。请登录http://mchatscreen.com获取完整量表。
+3. 转诊指征：
+符合下列任一情况的儿童应转诊至有ASD评估资质的机构进行诊断评估和适合性评估，从而采取早期干预。（1）CHAT-23-B量表筛查阳性的儿童。（2）M-CHAT-R/F访谈筛查结果阳性的儿童。（3）医师、家长或老师等怀疑ASD的儿童。
+（三）ASD高危儿随访
+随着我国"全面二孩"政策的实施，会有越来越多有ASD患儿的家庭选择生育二孩，已有报道ASD二胎再患率约为20%[27]，明显高于ASD在普通儿童人群中的发生率，因此，对于ASD患儿的胞弟胞妹应给予特别重视，出生后就应建立高危儿档案，积极随访观察。
+第二部分早期干预
+ASD的早期干预以教育训练为主，教育训练的目的在于改善核心症状，即促进社会交往能力、言语和非言语交流能力的发展，减少刻板重复行为。同时，促进智力发展，培养生活自理和独立生活能力，减少不适应行为，减轻残疾程度，改善生活质量，缓解家庭和社会的精神、经济和照顾方面的压力。力争使部分患儿在成年后具有独立学习、工作和生活的能力。ASD患儿存在着多方面的发展障碍，因此在治疗中应该根据患儿的个体情况，将行为矫正、教育训练、结构化教学等相应课程训练与药物治疗等手段结合起来形成综合干预治疗。
+一、早期干预基本流程[28,29,30,31]
+作为一个连续的过程，早期干预一般由以下三个步骤组成：第一步：对患儿进行全面的评估；第二步：根据评估结果，制定个体化的干预计划；第三步：干预过程中记录数据，监测患儿的进展情况以及时调整干预策略。
+当一个阶段的干预目标完成后，应重新开始评估-干预-监测的过程。
+1．评估：
+评估的主要目的是综合评价患儿可能受到ASD及其共患病影响的各方面信息，作为制定干预计划的依据。主要评估包括：（1）临床基本信息评估：病史询问、行为观察（包括语言能力、社交沟通行为、刻板行为、感知觉异常、自伤、共患病及其他问题行为等）和全面体格检查和相关基因以及听觉、视力、脑电图、脑影像、脑功能等检查；（2）ASD的诊断性评估：DSM-5诊断标准；有条件者可使用孤独症诊断访谈量表（修订版）（ADI-R）和孤独症诊断观察量表（ADOS）评估；（3）发育评估：可使用贝利量表、盖泽尔量表、韦氏幼儿智力量表、孤独症评定量表第三版（PEP-3）等；（4）适应性行为能力评估：推荐使用文莱量表或婴儿初中生量表；（5）其他：家庭功能评估、父母能力评估、相关干预资源评估。
+2. 制定干预计划：
+根据上述评估的结果，指导ASD幼儿家庭，制定适合患儿发展水平的个体化干预计划，主要包括干预目标和干预方法的选择。对于早期干预的目标人群——3岁以下的婴幼儿来说，干预重点在于促进患儿社交沟通技能发展，干预目标涵盖以下几个方面：（1）改善ASD核心症状：如社交沟通能力、模仿能力、游戏能力等；（2）减少或消除问题行为，如自伤、影响患儿健康安全的重复刻板行为等；（3）促进患儿全面发展：包括运动能力、生活自理能力等；（4）处理相关共患问题：如睡眠问题、胃肠道问题等。干预方法选择方面，应以有循证医学证据支持为基础，根据患儿的年龄、发育水平以及在家庭推行的适用性来选择适合的早期干预方法。
+3．干预及进展监测：
+在早期干预进行过程中，需要及时、完整地记录相应数据，观察接受干预后，患儿的症状改善和能力提升状况，以判断干预是否有效。如有效，则继续实施干预，直至阶段性的干预目标达成，重新进行评估，开始下一阶段干预；如无效甚至恶化，则根据相应策略进行修正，如选择其他早期干预方法、适当增加干预强度以及寻找其他可能影响干预效果的因素，如共患病情况、家庭情况等。
+二、早期干预的七条基本原则
+1. 早开始：
+干预越早越好，确诊患儿立即干预，对可疑的患儿也应及时进行干预。
+2. 科学性：
+使用有循证医学证据的方法进行干预。多项研究表明[12,32]，将发育理念和行为干预策略整合在对ASD患儿的早期干预中，可以有效改善他们的发育水平、适应功能和语言能力。
+3. 系统性：
+干预应该是全方位的。早期干预的目标为促进发育总体水平的进展，既包括对ASD核心的社会交往和情感交流缺陷的干预训练，也要同时促进患儿身心发育、智能、生活自理能力提高、滋扰行为减少和行为适应性方面的改善。
+4. 个体化：
+针对ASD患儿在社交、情感、智力、行为、运动、躯体健康、共患病等诸多方面的不同，在充分评估疾病和各项功能的基础上开展有计划的个体化训练，小组训练应该由具有类似能力的患儿组成。
+5. 家庭化：
+强调和鼓励家庭和抚养人积极参与干预。应该对家长进行全方位支持和教育，提高家庭在干预中的参与程度。应积极推广使用世界卫生组织近年推出家长技能培训（parent skill training，PST）。
+6. 社区化：
+妇幼保健机构应该逐步建立社区训练中心，使ASD患儿可以就近干预，实现以社区为基地、家庭积极参与的干预模式。在我国，社会资源开办的日间训练和教育机构众多，妇幼保健机构负有管理和规范的责任。
+7. 长程高强度：
+保证每天有干预，每周的干预时间在20 h以上，干预的整个时间以年计算,早期干预疗程持续2年及以上。
+三、早期干预具体实施策略
+（一）以社会交往作为训练的核心内容
+ASD患儿的核心障碍是社交障碍，因此社会交往的动机和技能是早期干预治疗的核心。
+1. 熟悉患儿社会交往的主要形式：
+包括眼神注视、表情互动、动作指示、语言四种主要形式。家长务必在前述的各类活动中，保证总是和患儿处在快乐、面对面、密集、你来我往互动中。
+2. 强调社交动机：
+ASD幼儿社交动机缺乏或不足，因此在日常互动中需要特别注意提高患儿的社交主动性。在两人或两人以上在一起时，为了保证互动的进行所必需的行为，包括"看、指、应、说"这些基本行为，也包括诸如点头同意、摇头不同意、征求意见、提问、参照、告诉、显示、炫耀，发起对话、维持对话、询问、求助等社交主动性能力。
+3. 根据障碍的轻重，组织不同级别的社交活动和社交游戏：
+在初级阶段采用需求的延迟满足、突然出现的声响、意外的停顿等生理性或功能性的社交游戏活动；在中级阶段则要求通过合作性游戏、轮流性游戏、分享性游戏、竞争和对抗性游戏等功利性社交游戏活动；在高级阶段则要在中级阶段的游戏和活动的基础上，要求体验社交互动中的快乐和痛苦，胜利和失败，得意和沮丧，羡慕和妒忌等非功利性社交游戏活动。
+务必注意，尽管社交为训练核心，但是也同时根据不同患儿的特点，在行为管理、认知、生活自理、运动和语言等方面同时展开训练。
+（二）以行为疗法为基本手段
+行为疗法即以行为主义理论为指导，对患儿不同的行为分别采用正性强化、负性强化、消退、渐隐、惩罚等技术，从而达到促进良好行为、适应性行为，减少和消除不良行为和非适应行为。在ASD患儿的训练过程中，对于患儿的每一个行为（包括良好行为、不良行为、不足行为、过度行为等），都可以通过细致的行为分析（行为的原因、动机和诱因等），对不同行为分别给予对应的奖励（强化）、辅助、提示或温和处罚策略（行为的后果），从而促进正常能力发展，增加良好行为，减少不良行为。
+须注意的是，在针对不良行为采取惩罚方法时，必须杜绝打骂体罚的方法。在此，还需要强调，家人要特别珍视患儿偶尔出现的恰当交流行为，例如当幼儿看到母亲从外面回到家里时的莞尔一笑，听到父亲呼唤时的一个回头，不经意间对着奶瓶的食指指向，走到小卖部时的"糖糖"这样一个声音，并对此做出积极、自然和略带夸张的回应和强化，这也属于行为疗法，其实也是儿童的本能性行为，应该高度重视。
+（三）结构化教育与随机化训练为基本框架，安排有序生活，建立每日生活常规，寓教于乐
+对ASD患儿干预中，患儿所要参与的活动内容与正常儿童无异，依然是在家庭和自然生活环境中的自然养育、生活起居、户外运动、室内游戏等。根据患儿的年龄、发育水平设计开展有组织、有书面计划的活动，制定一定的活动程序和规范。家庭成员分工负责，在室内、户外、儿童游乐场和公园、动物园等环境中和患儿一起；设计各类亲子活动，包括物品游戏(搭积木、汽车等)，社交游戏（躲猫猫、挠痒痒、举高高、讲故事等），外出游玩（逛公园等），体育运动（拍球、游泳等）等丰富多彩的亲子活动。
+须注意的是，要根据每例ASD患儿的症状、缺陷以及兴趣、能力和个性特点设计玩具种类、物件摆放、游戏类型、学习训练内容和活动顺序；在日常生活活动中随时随地开展干预训练。把患儿从早上起床到晚上睡觉的每一个阶段都纳入到干预过程中。最终达到"生活就是干预，干预就是生活"的境界，这就可以最大程度减少ASD患儿的"自闭"和"孤独"状态，在这个过程中，家人的心情平静和患儿的快乐务必得到保证。
+四、推荐使用的国外主流早期干预方法
+自从1987年美国加州大学洛杉矶分校的洛瓦斯教授发表文章，介绍其采用应用行为分析疗法（ABA）成功治疗ASD以来，各国纷纷开展ASD的教育干预和治疗研究，发展和建立起了系列的ASD科学干预方法，除了ABA方法，还包括结构化教育方法，代表性的方法是美国北卡罗莱纳大学的孤独症以及相关障碍儿童治疗教育法（TEACCH），以及以人际关系发展干预和地板时光为代表的社交干预疗法。
+近年来，鉴于3岁以下婴幼儿的学习特点，其学习过程大多在游戏和日常生活活动等自然环境中发生的，这一点与大龄儿童以教学环境和集体环境为主的学习方式有着显著的差别。因此，更适合ASD婴幼儿的学习特点，在自然环境和活动中开展对ASD患儿的早期综合性干预方法相继出现，主要有早期介入丹佛模式（early start Denver model, ESDM）和社交情绪调控交互支持法等。不难发现，国内外ASD干预方法众多，很多干预方法尽管理论基础有很大的差别，但在具体操作方面有互相重叠之处，一些干预方法有互相学习和融合的趋势。
+我们总结了2000年以来有随机对照研究结果支持、循证医学证据等级较高、评分推荐等级为"强烈推荐"的、适用于3岁以下ASD患儿且有条件在国内开展的早期干预方法。需要强调的是，除了早期综合干预之外，ASD患儿的治疗和管理往往还涉及相关医学问题的管理，如睡眠障碍、胃肠道问题、焦虑、多动、适应不良行为等。本共识暂未纳入上述情况下需要给予的针对性干预。
+（一）ESDM[12]
+ESDM是近年来在国际范围内被迅速推广应用的一种早期综合干预模式，由加州大学Davis分校MIND研究所的Sally J. Rogers教授和时任Autism Speaks首席科学家的Geraldine Dawson教授（现任杜克大学教授）共同创立，适用于发展年龄为12~60月龄的ASD患儿。ESDM的重点是在自然场景下开展以人际关系为基础、以发育为框架的干预活动，并将行为干预技术整合其中。ESDM干预过程中使用发育课程评估表，制定各发育年龄阶段需教授的技能作为日常教学活动的导航标，同时配有一套基本教学流程，还提供教学准确度评估和资料收集系统，旨在保证不同干预者之间实施干预的一致性和可靠性。
+ESDM整合了人际关系为主的发育模式及应用行为分析策略，其核心特点包括：（1）自然地运用行为分析策略；（2）熟知正常发育顺序；（3）父母密集参与；（4）重点强调人和人之间的互动及积极情感；（5）在共同活动中平等参与；（6）在积极的、情感为基础的关系中展开沟通交流和语言的学习。
+ESDM干预不需要固定的某一特定场所，可以在诊室中，也可以在幼儿家里；可以由治疗团队训练，也可以由家人进行（并有针对家长的指导书籍）。已有的随机对照研究结果显示，由专业人员实施为期2年的高强度ESDM干预可有效提高ASD患儿的智力水平、语言和适应性行为能力[12]，长期随访结果[33]显示上述效果在6岁时仍得到维持。
+目前，ESDM的两本本专业和实践指导手册——《孤独症婴幼儿早期介入丹佛模式——Early Start Denver Model for Young Children with Autism》《孤独症儿童早期干预丹佛模式——An Early Start Denver Model for Your Child with Autism》均已翻译成中文并出版。
+（二）关键反应训练（pivotal response training, PRT）
+PRT[34]由Koegel教授创立，强调在自然环境中执行行为分析的原则和技术，并指出ASD患儿的关键技能主要包括学习动力、注意力、自我控制能力和语言行为的主动性，在上述技能领域中获得的进步可能泛化或影响其他领域的技能和行为。PRT的操作技巧主要包括七个方面，即：（1）简短清晰的指令或问题；（2）穿插训练新旧技能；（3）培养对外界事物与人的多方面注意力；（4）分享控制权；（5）有条件的奖励；（6）充分运用自然的奖励物；（7）奖励儿童的合理努力。
+此外，PRT还强调家长培训和家长参与的必要性，在评估与测试方面，既有对ASD患儿的测试，也有对家长的评估。2014年的一项随机对照研究[35]结果表明，经过12周的小组训练，家长可以较好地掌握PRT的教学技术，PRT组幼儿在适应性社会沟通和视觉认知能力方面的改善较对照组更加显著，并且在干预结束12周后仍得以维持[36]。
+（三）学龄前孤独症沟通干预（preschool autism communication trial, PACT）
+PACT[37]是一项由父母进行的、以沟通为基础的干预，针对ASD的社交互动和沟通能力缺陷，其依据是，当父母与ASD患儿的沟通方式适应了他们的缺陷后，他们的沟通和社交发展会得到改善。PACT的主要目标是帮助家长使他们的沟通方式适应于孩子的缺陷，并且提高回应孩子的敏感度和反应性。PACT的重点是通过眼神注视、分享、展示和给予来改善共享式注意的能力，并鼓励家长使用适合孩子理解水平的语言，引导家长使用促进孩子沟通和参与的策略，如活动常规、反复的语言描述、变化、停顿和逗引等。2010年发表的随机对照研究结果表明[37]，为期1年的PACT对改善父母与ASD患儿间的双向社会互动有益，干预结束6年后的纵向随访[38]结果表明，PACT对改善ASD患儿的核心症状严重程度有远期效果，且由患儿发起的双向互动也优于对照组ASD患儿。
+（四）交互模仿训练（reciprocal imitation training, RIT）
+RIT是一项在自然环境中针对模仿能力进行的干预，随机对照研究[39]结果表明，与对照组相比，接受治疗师实施的RIT干预组患儿在诱发后的模仿和自发模仿能力方面均得到了更显著改善，并且在物品操作和姿势动作模仿方面的改善均优于对照组。
+（五）JA训练
+JA训练整合了行为和发展干预的策略，针对共同注意的主动发起和回应进行干预，在共同参与的游戏常规中促进上述技能的发展、维持和泛化。随机对照研究[40]结果表明，由抚养者对患儿进行为期8周的JA训练干预后，与对照组（进入等待名单，延后进行干预）相比，JA训练干预组在共同参与程度、患儿对共同注意的反应和功能性游戏的多样性方面均得到更显著的改善，且随访1年后干预效果得以维持或持续改善。
+在早期干预治疗过程中，务必告知家长，尽管从生物学角度来看，ASD不可治愈，但通过早期干预，患儿预后可以显著改善。鉴于目前各类补充治疗方法盛行，包括神经营养药物、生物治疗、特殊仪器干预、中医针灸、干细胞疗法等，由于缺乏足够循证医学证据证明疗效，选择宜慎重。
+五、家长教育
+当妇幼保健机构的专业人员发现该儿童在一定程度上符合ASD的表现时，应坦诚告诉家长孩子出现的发育问题，并耐心解释后续评估和及早开始针对性行为干预的重要性。派发给家长一些科普阅读材料是非常有帮助的。让家长对于ASD的临床症状有所了解有助于其做出准确描述，从而使后续的综合评估更为有效地进行[41]。随着大众媒体对于ASD的介绍增多，越来越多的家长都有一些ASD方面的基本知识，并且在有所怀疑时上网搜集信息，作为专业人员应向家长提供科学有效的信息资源，具体见本共识"信息、服务及相关资源支持"部分。
+总之，ASD干预是长期的过程，临床医师在制订干预计划以及对家庭、个人的支持方面务必发挥积极作用。
+编委会成员
+（徐秀 邹小兵 李廷玉 执笔）
+参与本共识制定单位及人员（按单位、人员首字拼音排序）：重庆医科大学附属儿童医院儿童青少年生长发育与心理健康中心（程茜、陈立、李廷玉），康复科（肖农）；复旦大学附属儿科医院儿童保健科（徐秀），神经内科（王艺）；哈尔滨医科大学儿童发育行为研究中心（武丽杰）；海南医学院附属儿童医院发育行为中心（李玲）；吉林大学第一医院发育行为儿科（贾飞勇）；南京市妇幼保健院儿童保健科（郭锡熔）；南京医科大学附属脑科医院儿童心理研究中心（柯晓燕）；首都儿科研究所儿童保健科（金春华）；上海交通大学医学院附属上海儿童医学中心发育行为儿科（金星明、章依文）；上海交通大学医学院附属新华医院发育行为儿童临床心理科（张劲松），发育行为儿童青少年保健科（李斐）；中山大学公共卫生学院妇幼卫生系（静进）；中山大学附属第三医院儿童发育行为中心（邹小兵）；广州市妇女儿童医疗中心消化内科（龚四堂）
+参考文献
+[1]
+American Psychiatric Association.
+Diagnostic and Statistical Manual of Mental Disorders[M].
+5th ed.
+Virginia:
+American Psychiatric Publishing,
+2013:
+55-
+59.
+[2]
+LaiMC,LombardoMV,Baron-CohenS.
+Autism[J].
+Lancet,
+2014,
+383(
+9920):
+896-
+910.
+DOI: 10.1016/S0140-6736(13)61539-1.
+[3]
+LavelleTA,WeinsteinMC,NewhouseJP, et al.
+Economic burden of childhood autism spectrum disorders[J].
+Pediatrics,
+2014,
+133(
+3):
+e520-
+529.
+DOI: 10.1542/peds.2013-0763.
+[4]
+ShimabukuroTT,GrosseSD,RiceC.
+Medical expenditures for children with an autism spectrum disorder in a privately insured population[J].
+J Autism Dev Disord,
+2008,
+38(
+3):
+546-
+552.
+DOI: 10.1007/s10803-007-0424-y.
+[5]
+DawsonG,BernierR.
+A quarter century of progress on the early detection and treatment of autism spectrum disorder[J].
+Dev Psychopathol,
+2013,
+25(
+4
+Pt 2):
+1455-
+1472.
+DOI: 10.1017/S0954579413000710.
+[6]
+HowlinP,AsgharianA.
+The diagnosis of autism and Asperger syndrome: findings from a survey of 770 families[J].
+Dev Med Child Neurol,
+1999,
+41(
+12):
+834-
+839.
+[7]
+DanielsAM,MandellDS.
+Explaining differences in age at autism spectrum disorder diagnosis: a critical review[J].
+Autism,
+2014,
+18(
+5):
+583-
+597.
+DOI: 10.1177/1362361313480277.
+[8]
+徐秀.
+儿童孤独症谱系障碍早期筛查与诊断[J].
+中国实用儿科杂志,
+2013,
+28(
+8):
+576-
+579.
+[9]
+NithianantharajahJ,HannanAJ.
+Enriched environments, experience-dependent plasticity and disorders of the nervous system[J].
+Nat Rev Neurosci,
+2006,
+7(
+9):
+697-
+709.
+DOI: 10.1038/nrn1970.
+[10]
+KolbB,GibbR.
+Searching for the principles of brain plasticity and behavior[J].
+Cortex,
+2014,
+58:
+251-
+260.
+DOI: 10.1016/j.cortex.2013.11.012.
+[11]
+SchreibmanL,DawsonG,StahmerAC, et al.
+Naturalistic Developmental Behavioral Interventions: Empirically Validated Treatments for Autism Spectrum Disorder[J].
+J Autism Dev Disord,
+2015,
+45(
+8):
+2411-
+2428.
+DOI: 10.1007/s10803-015-2407-8.
+[12]
+DawsonG,RogersS,MunsonJ, et al.
+Randomized, controlled trial of an intervention for toddlers with autism: the Early Start Denver Model[J].
+Pediatrics,
+2010,
+125(
+1):
+e17-
+23.
+DOI:10.1542/peds.2009-0958.
+[13]
+ZwaigenbaumL,BaumanML,StoneWL, et al.
+Early Identification of Autism Spectrum Disorder: Recommendations for Practice and Research[J].
+Pediatrics,
+2015,
+136
+Suppl 1:
+S10-
+40.
+DOI: 10.1542/peds.2014-3667C.
+[14]
+JonesW,KlinA.
+Attention to eyes is present but in decline in 2-6-month-old infants later diagnosed with autism[J].
+Nature,
+2013,
+504(
+7480):
+427-
+431.
+DOI: 10.1038/nature12715.
+[15]
+WetherbyAM,WoodsJ,AllenL, et al.
+Early indicators of autism spectrum disorders in the second year of life[J].
+J Autism Dev Disord,
+2004,
+34(
+5):
+473-
+493.
+[16]
+YoderP,StoneWL,WaldenT, et al.
+Predicting social impairment and ASD diagnosis in younger siblings of children with autism spectrum disorder[J].
+J Autism Dev Disord,
+2009,
+39(
+10):
+1381-
+1391.
+DOI: 10.1007/s10803-009-0753-0.
+[17]
+SullivanM,FinelliJ,MarvinA, et al.
+Response to joint attention in toddlers at risk for autism spectrum disorder: a prospective study[J].
+J Autism Dev Disord,
+2007,
+37(
+1):
+37-
+48.
+DOI: 10.1007/s10803-006-0335-3.
+[18]
+ZwaigenbaumL,BrysonS,GaronN.
+Early identification of autism spectrum disorders[J].
+Behav Brain Res,
+2013,
+251:
+133-
+146.
+DOI: 10.1016/j.bbr.2013.04.004.
+[19]
+LandaRJ,GrossAL,StuartEA, et al.
+Developmental trajectories in children with and without autism spectrum disorders: the first 3 years[J].
+Child Dev,
+2013,
+84(
+2):
+429-
+442.
+DOI: 10.1111/j.1467-8624.2012.01870.x.
+[20]
+LandaRJ,GrossAL,StuartEA, et al.
+Latent class analysis of early developmental trajectory in baby siblings of children with autism[J].
+J Child Psychol Psychiatry,
+2012,
+53(
+9):
+986-
+996.
+DOI: 10.1111/j.1469-7610.2012.02558.x.
+[21]
+BargerBD,CampbellJM,McDonoughJD.
+Prevalence and onset of regression within autism spectrum disorders: a meta-analytic review[J].
+J Autism Dev Disord,
+2013,
+43(
+4):
+817-
+828.
+DOI: 10.1007/s10803-012-1621-x.
+[22]
+National Collaborating Centre for Women's and Children's Health (UK).
+Autism: Recognition, Referral and Diagnosis of Children and Young People on the Autism Spectrum[M].
+London:
+RCOG Press,
+2011.
+[23]
+黄小娜,张悦,冯围围,等.
+儿童心理行为发育问题预警征象筛查表的信度效度评估[J].
+中华儿科杂志,
+2017,
+55(
+6):
+445-
+450.
+DOI: 10.3760/cma.j.issn.0578-1310.2017.06.010.
+[24]
+WongV,HuiLH,LeeWC, et al.
+A modified screening tool for autism (Checklist for Autism in Toddlers [CHAT-23]) for Chinese children[J].
+Pediatrics,
+2004,
+114(
+2):
+e166-
+176.
+[25]
+RobinsDL,CasagrandeK,BartonM, et al.
+Validation of the modified checklist for Autism in toddlers, revised with follow-up (M-CHAT-R/F)[J].
+Pediatrics,
+2014,
+133(
+1):
+37-
+45.
+DOI: 10.1542/peds.2013-1813.
+[26]
+JohnsonCP,MyersSM.
+Identification and evaluation of children with autism spectrum disorders[J].
+Pediatrics,
+2007,
+120(
+5):
+1183-
+1215.
+DOI: 10.1542/peds.2007-2361.
+[27]
+OzonoffS,YoungGS,CarterA, et al.
+Recurrence risk for autism spectrum disorders: a Baby Siblings Research Consortium study[J].
+Pediatrics,
+2011,
+128(
+3):
+e488-
+495.
+DOI: 10.1542/peds.2010-2825.
+[28]
+Interagency Autism Coordinating Committee (IACC).
+Summary of Advances in Autism Spectrum Disorder Research: Calendar Year 2016[DB/OL]. [
+2017-10-01].
+https://iacc.hhs.gov/publications/summary-of-advances/2016/.
+[29]
+中华人民共和国卫生部.
+儿童孤独症诊疗康复指南(卫办医政发[2010]123号)[J].
+中国儿童保健杂志,
+2011,
+19(
+3):
+289-
+294.
+[30]
+ElsenGE,ChoiLY,PrinceVE, et al.
+The autism susceptibility gene met regulates zebrafish cerebellar development and facial motor neuron migration[J].
+Dev Biol,
+2009,
+335(
+1):
+78-
+92.
+DOI: 10.1016/j.ydbio.2009.08.024.
+[31]
+CroweS,GoodmanR,HawesB, et al.
+First 100 Days Kit[M/OL].[
+2017-10-01].
+https://www.autismspeaks.org/docs/family_services_docs/100_day_kit.pdf.
+[32]
+RemingtonB,HastingsRP,KovshoffH, et al.
+Early intensive behavioral intervention: outcomes for children with autism and their parents after two years[J].
+Am J Ment Retard,
+2007,
+112(
+6):
+418-
+438.
+DOI: 10.1352/0895-8017(2007)112[418:EIBIOF]2.0.CO;2.
+[33]
+EstesA,MunsonJ,RogersSJ, et al.
+Long-Term Outcomes of Early Intervention in 6-Year-Old Children With Autism Spectrum Disorder[J].
+J Am Acad Child Adolesc Psychiatry,
+2015,
+54(
+7):
+580-
+587.
+DOI: 10.1016/j.jaac.2015.04.005.
+[34]
+KoegelRL,KoegelLK.
+The PRT pocket guide: Pivotal Response Treatment for autism spectrum disorders[M].
+Baltimore:
+Paul H. Brookes，
+2012:
+940.
+[35]
+HardanAY,GengouxGW,BerquistKL, et al.
+A randomized controlled trial of Pivotal Response Treatment Group for parents of children with autism[J].
+J Child Psychol Psychiatry,
+2015,
+56(
+8):
+884-
+892.
+DOI: 10.1111/jcpp.12354.
+[36]
+GengouxGW,BerquistKL,SalzmanE, et al.
+Pivotal Response Treatment Parent Training for Autism: Findings from a 3-Month Follow-Up Evaluation[J].
+J Autism Dev Disord,
+2015,
+45(
+9):
+2889-
+2898.
+DOI: 10.1007/s10803-015-2452-3.
+[37]
+GreenJ,CharmanT,McConachieH, et al.
+Parent-mediated communication-focused treatment in children with autism (PACT): a randomised controlled trial[J].
+Lancet,
+2010,
+375(
+9732):
+2152-
+2160.
+DOI: 10.1016/S0140-6736(10)60587-9.
+[38]
+PicklesA,LeCA,LeadbitterK, et al.
+Parent-mediated social communication therapy for young children with autism (PACT): long-term follow-up of a randomised controlled trial[J].
+Lancet,
+2016,
+388(
+10059):
+2501-
+2509.
+DOI: 10.1016/S0140-6736(16)31229-6.
+[39]
+IngersollB.
+Pilot randomized controlled trial of Reciprocal Imitation Training for teaching elicited and spontaneous imitation to children with autism[J].
+J Autism Dev Disord,
+2010,
+40(
+9):
+1154-
+1160.
+DOI: 10.1007/s10803-010-0966-2.
+[40]
+KasariC,GulsrudAC,WongC, et al.
+Randomized controlled caregiver mediated joint engagement intervention for toddlers with autism[J].
+J Autism Dev Disord,
+2010,
+40(
+9):
+1045-
+1056.
+DOI: 10.1007/s10803-010-0955-5.
+[41]
+JohnsonCP,MyersSM.
+Identification and evaluation of children with autism spectrum disorders[J].
+Pediatrics,
+2007,
+120(
+5):
+1183-
+1215.
+DOI: 10.1542/peds.2007-2361.
+贡献者信息
+中华医学会儿科学分会发育行为学组
+中国医师协会儿科分会儿童保健专业委员会
+儿童孤独症诊断与防治技术和标准研究项目专家组
+历史
+出版日期：2017-12-02
+收稿日期：2017-10-02
+本文编辑
+李伟
+Standard/Protocal/Guideline
+Consensus on early identification screening and early intervention for autism spectrum disorder
+The Subspecialty Group of Developmental and Behavioral Pediatrics, the Society of Pediatrics, Chinese Medical Association,  The Subspecialty Group of Primary Health Care, the Society of Pediatrics, Chinese Medical Doctor Association,  Project Expert Group of Diagnosis, Prevention and Therapy Techniques and Standards of Childhood Autism Spectrum Disorders
+Published
+2017-12-02
+Cite as
+Chin J Pediatr, 2017,55(12): 890-897. DOI: 10.3760/cma.j.issn.0578-1310.2017.12.004
+Contributor Information
+The Subspecialty Group of Developmental and Behavioral Pediatrics, the Society of Pediatrics, Chinese Medical Association
+The Subspecialty Group of Primary Health Care, the Society of Pediatrics, Chinese Medical Doctor Association
+Project Expert Group of Diagnosis, Prevention and Therapy Techniques and Standards of Childhood Autism Spectrum Disorders
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+M-CHAT-R为改良版幼儿孤独症筛查量表；CHAT-23为幼儿孤独症量表
+图1
+0~3岁儿童孤独症谱系障碍筛查诊断干预流程
+表1
+儿童心理行为发育问题预警征象筛查表[23]
+年龄
+预警征象
+年龄
+预警征象
+3月
+1. 对很大声音没有反应
+□
+18月
+1. 不会有意识叫"爸爸"或"妈妈"
+□
+2. 逗引时不发音或不会笑
+□
+2. 不会按要求指人或物
+□
+3. 不注视人脸，不追视移动人或物品
+□
+3. 与人无目光对视
+□
+4. 俯卧时不会抬头
+□
+4. 不会独走
+□
+6月
+1. 发音少，不会笑出声
+□
+2岁
+1. 不会说3个物品的名称
+□
+2. 不会伸手及抓物
+□
+2. 不会按吩咐做简单事情
+□
+3. 紧握拳不松开
+□
+3. 不会用勺吃饭
+□
+4. 不能扶坐
+□
+4. 不会扶栏上楼梯/台阶
+□
+8月
+1. 听到声音无应答
+□
+2岁半
+1. 不会说2～3个字的短语
+□
+2. 不会区分生人和熟人
+□
+2. 兴趣单一、刻板
+□
+3. 双手间不会传递玩具
+□
+3. 不会示意大小便
+□
+4. 不会独坐
+□
+4. 不会跑
+□
+12月
+1. 呼唤名字无反应
+□
+3岁
+1. 不会说自己的名字
+□
+2. 不会模仿"再见"或"欢迎"动作
+□
+2. 不会玩"拿棍当马骑"等假想游戏
+□
+3. 不会用拇食指对捏小物品
+□
+3. 不会模仿画圆
+□
+4. 不会扶物站立
+□
+4. 不会双脚跳
+□
+注：黑体字与孤独症谱系障碍相关
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华儿科杂志2017年55卷12期
+文    题：孤独症谱系障碍儿童早期识别筛查和早期干预专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华儿科杂志2017年55卷12期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+微信
+腾讯微博
+一键通
+新浪微博
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+豆瓣网
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+QQ好友
+更多平台...
+(133)
+bShare

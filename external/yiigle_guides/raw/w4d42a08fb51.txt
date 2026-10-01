@@ -1,0 +1,624 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%88%90%E4%BA%BA%E4%BD%93%E5%A4%96%E8%86%9C%E8%82%BA%E6%B0%A7%E5%90%88%E8%BE%85%E5%8A%A9%E5%BF%83%E8%82%BA%E5%A4%8D%E8%8B%8F%EF%BC%88ECPR%EF%BC%89%E5%AE%9E%E8%B7%B5%E8%B7%AF%E5%BE%84.html
+# 标题: 成人体外膜肺氧合辅助心肺复苏（ECPR）实践路径 - 中华急诊医学杂志
+# 发布方/日期: 急诊医学科，中华急诊医学杂志, 2019,28(10) : 1197-1203. DOI: 10.3760/cma；2019-10-10
+
+成人体外膜肺氧合辅助心肺复苏（ECPR）实践路径
+中国老年医学学会急诊医学分会
+中国老年医学学会急诊医学分会ECMO工作委员会
+中华急诊医学杂志, 2019,28(10) : 1197-1203. DOI: 10.3760/cma.j.issn.1671-0282.2019.10.005
+尽管常规心肺复苏（conventional cardiopulmonary resuscitation CCPR）的指南不断更新，CCPR成功率仍不理想，院外心脏骤停（out-of-hospital cardiac arrest OHCA）患者的生存率仅为2%～11%[1,2]，院内心脏骤停（in-of-hospital cardiac arrest IHCA）的平均生存率也仅为23.7%[3]。导致患者死亡的主要原因是难以恢复自主循环（ROSC）和多脏器功能衰竭[4,5]，神经功能受损是影响患者预后的关键因素，CCPR时间越长，患者神经功能损伤越严重。因此，需要在常规心肺复苏基础上有所突破，提高患者生存率。
+20世纪70年代体外膜肺氧合（extracorporeal membrane oxygenation ECMO）开始应用于心肺复苏，该技术称之为"体外膜肺氧合辅助心肺复苏"（extracorporeal cardiopulmonary resuscitation, ECPR），该技术使部分未实现ROSC病例获得了成功。随着ECPR的不断完善和进步，使ECMO的快速实施成为可能，为临床应用提供了方便。近年来，应用ECPR的患者逐年增多，资料显示成人ECPR总存活率达29%，且有良好的神经预后[6,7]。
+结合国内外相关文献，制定了成人ECPR实践路径。目的为了ECPR技术的推广和实施，提高心脏骤停患者抢救成功率，有必要建立规范、简洁、容易掌握的实践路径。
+1 体外心肺复苏及其对急危重症患者的临床意义
+ECPR是指在潜在的可逆病因能够祛除的前提下，对反复心脏骤停而不能维持自主心律或使用CCPR恢复ROSC后难以维持自主循环的患者快速实施静动脉体外膜肺氧合(venoarterial extracorporeal membrane oxygenation, VA-ECMO)，提供暂时的循环及氧合支持的技术[8]。虽然ECPR尚处于探索阶段，但目前研究表明：对于年轻的、被目击心脏骤停的、初始为电机械分离的患者ECPR治疗效果较好，患者出院率及神经功能恢复明显好于CCPR患者[4]。2015年美国心脏协会（AHA）推荐对于病因可逆的心脏骤停患者，推荐医疗机构对其实施快速ECPR支持（Class Ⅱb）[9,10]，ECPR增加心脏骤停患者冠脉氧合的血流，从而增加ROSC的机会，同时对脑、肝、肾等重要器官提供充分的灌注，防止不可逆终末器官损伤和缺氧性脑损伤从而增加长期生存率[11]。
+实践路径1 ：ECPR是运用体外膜肺氧合对顽固的常规心肺复苏不能恢复自主循环、病因可逆的患者提供暂时的循环及氧合支持的技术，如果患者或家属同意及医院条件许可，可考虑及时使用ECPR对患者进行救治。
+2 实施ECPR的软硬件配置
+2.1 实施ECPR的人员配置
+2.1.1 组建ECPR团队
+因ECPR涉及面广，技术要求高，操作相对复杂，需多个学科、多个医疗团队紧密配合，建议熟练掌握VA-ECMO辅助技术后再开展。
+2.1.2 ECPR团队人员组成及分工
+(1)急诊医师或重症医师：2名，负责明确患者ECPR适应证、禁忌证、完成高质量CCPR，ECMO运转中管理，家属沟通，知情同意书签署；(2)置管医师：2名，分别负责ECPR动静脉置管，尽可能缩短置管时间；(3)体外循环师：1～2名，负责ECMO管路预充，要求置管完成前管路预充完毕；(4)超声医师：1名，负责快速超声评估，超声引导辅助穿刺置管，穿刺导管进入深度的定位及畸形血管的确认；(5)护士：1～2名，配合医师工作，负责准备ECPR相关器械及物品、患者的常规护理、监护、床旁凝血功能监测，建议有checklist表格，用于护士核对。
+ECPR团队每位成员应具备上述一项或多项技能，置管医师、超声医师可由经过专项培训有此项技能的急诊科医师承担，体外循环师也可由专业培训的急诊科护士承当。采取24 h值班制度。对于年龄小于75周岁、导致心脏骤停的病因可逆、家属同意的患者，CCPR开始或ROSC难以维持即通知ECPR团队，争取团队人员20 min内到达急诊抢救室，为成功抢救赢得宝贵时间。因ECMO仅为短期支持手段，ECMO循环建立后需积极治疗原发病。ECPR开展尚需心血管内科、心脏外科、超声科、医学影像科、输血科等多学科协作。如在急诊科实施ECPR，应以急诊科为主体，多科室紧密协作才能顺利完成救治。
+实践路径2：ECPR需要以急诊科或重症科为主导，多学科共同协作完成对急危重症患者的救治。
+2.1.3 ECPR团队人员的培训
+不断提高所有团队成员的专业技能是团队建设的最重要的目标[12]，INOVA Cardiogenic Shock Team对团队建设提出的建议为[13]：团队对患者的救治必须制定详细的标准化路径，路径中的每一步都是建立在科学证据基础之上的。建议团队培训内容：
+(1)医师培训：熟悉ECMO原理及管理，熟知ECPR适应证及禁忌证，熟练掌握CPR技术；熟悉股动静脉解剖，能熟练完成超声引导下穿刺置管及切开置管；熟悉心脏、血管超声检查，熟悉重症超声及超声引导下操作；
+(2)护士培训：重症监护、物品准备、管路连接及预充、上机与撤机流程及与医生配合、ECMO运行期间机器维护和病情观察，床旁凝血功能监测等；
+(3)病例讨论制度：治疗过程中和治疗后，需要多学科的病例讨论；
+(4)模拟演练制度：每个月进行一次模拟演练训练。
+实践路径3：每个ECPR团队在开展工作之前，必须制定周密的培训计划，经过严格的培训并经常演练，不断提高团队成员的专业技能及沟通技巧等，从而提高对患者的救治水平。
+2.2 实施ECPR的设备配置
+建议ECPR在急诊抢救室或EICU内实施，主要设备配置包括:离心泵（用于离心泵头驱动）、手摇泵（离心泵不能正常工作时应急使用）、变温水箱（用于患者温度控制）、氧饱和度监测仪（用于监测ECMO管路动静脉端血氧饱和度及红细胞压积）、空氧混合器（用于调节ECMO供气端的流量与氧体积分数）、氧气瓶（转运患者时应急气源）、床旁超声（心脏探头、血管探头、腹部探头）、手术包（准备切开置管及撤管的常规器械）、血凝仪（出凝血功能监测）、头灯（特殊情况下操作辅助照明设备）等。
+3 ECPR的实践
+3.1 ECMO快速建立的时机
+关于ECMO快速建立的时机，目前仍存在争议。Joshua等[14]发现20 min内恢复自主循环的患者改良Rankin评分（modified Rankin scale mRS） 0～3分者可达到90%。2017年8月一项法国的研究[15]结果显示：院前ECPR团队给经过20 min复苏仍不能恢复ROSC的患者行ECPR治疗较30 min高级生命支持仍未恢复ROSC行ECPR组，患者平均低流量时间明显缩短、肾上腺素使用剂量明显减少，患者生存率明显升高（ 29% vs 8%）。2017年8月一项北美的大规模多中心临床队列研究[16]发现：经CCPR 9～21 min后行ECPR的患者出院后神经功能恢复最好。结合以上研究及我国国情，推荐经过20 min高质量心肺复苏仍不能恢复ROSC的患者行ECPR。
+3.2 患者的选择（适应证，禁忌证）
+关于ECPR患者的选择，IHCA和OHCA的患者应制定不同的入选标准，对心脏骤停患者行ECPR应考虑以下因素：年龄、意识状态、有无目击者、是否在进行CPR、既往病史、动脉血pH值、血乳酸浓度、一过性的ROSC[17,18] 、CCPR过程中外周血压及外周血氧饱和度、瞳孔（大小、形态、对光反应情况）、超声评估（心脏、升主动脉、肺动脉、预置插管血管）等。
+3.2.1 适应证
+（1）IHCA发生于诊疗过程中，患者诊断已明确，猝死为病程发展自然结果，如急性心肌梗死、大面积肺栓塞、顽固性室性心律失常、心脏外伤、致死性哮喘、暴发性心肌炎、充血性心力衰竭、药物中毒等，此类患者病因可逆，无ECMO禁忌证，应考虑尽早开始ECPR；（2）IHCA发生于诊疗过程中，但所获得临床资料尚不能明确诊断，针对此类患者，如患者小于75岁，无严重基础疾病，无ECMO禁忌证，ECPR可作为CCPR无效的备选手段；（3）OHCA患者应充分评估神经系统功能是否存在可逆性，ECPR应慎重考虑，如患者为目击状态下发生心脏骤停，且有持续规范的心肺复苏，实施ECPR可能获得良好的神经功能预后；如OHCA患者心脏骤停时间无法精确判定，或无持续规范的心肺复苏，因无法预测患者神经功能恢复情况，应慎重实施ECPR [19]。建立时间越短，患者存活率越高，神经功能恢复越好。
+实践路径4：经过20 min持续高质量心肺复苏仍不能恢复自主循环的患者或恢复自主循环后难以维持的患者，医疗机构可考虑实施ECPR。
+3.2.2 禁忌证
+可参考VA-ECMO禁忌证，大部分禁忌均为相对禁忌。常见禁忌证包括：（1）年龄大于75岁；（2）不可逆性脑损伤（脑供血完全中断超过5 min后产生不可逆神经损伤，神经功能预后差[20]。生前预嘱捐献自身器官者除外）；（3）不可控制的严重出血（目前尚存在争议，应根据本单位综合救治能力进行决策）；（4）严重主动脉瓣关闭不全;（5）左心室血栓;（6）主动脉夹层（目前仅有3例Stanford A型主动脉夹层患者行ECPR抢救的报道，其中1例存活，2例死亡，目前主动脉夹层患者是否可行ECPR仍存在争议，可能出现假腔灌注是主要原因[21,22]）;（7）家属明确拒绝心肺复苏意愿;（8）慢性/恶性疾病终末期；（9）严重酸中毒（pH<6.8）。
+3.3 实施ECPR的技术要点
+3.3.1 管路预充
+管路预充可以远离床边进行，预充好后移动到床边。预充液的选择：（1）常规使用生理盐水进行预充（建议选用1 000 mL，缩短预充时间）；（2）条件允许的情况下推荐使用不含外源性乳酸的晶体液进行预充；（3）如果预充液中需要加入白蛋白或者血制品，需要晶体预充后再加入。
+3.3.2 物品准备
+耗材：ECMO套包（建议选择连接好的管路）、插管、穿刺套包、专用器械包（包含穿刺不成功时切开血管时所使用的器械）、单腔深静脉包（不确定是否需应用ECPR时预先动静脉置管，或用于小体质量患者动脉插管远端分流的建立）、灭菌手套、手术衣、管道钳4把、血氧饱和度监测探头2个、双公头管（用于连接动脉管侧路与远端灌注管）、6 F鞘管（远端灌注管）、剪刀、无菌超声探头保护套、耦合剂等。
+药品：肝素、利多卡因、预充液（大多数情况下晶体液都可以使用）、常用抢救药品。
+3.4 置管
+成人最常用的插管方式是股静脉为引血端，股动脉为回血端。CCPR开始后即进行双侧股动静脉穿刺，留置中心静脉导管及动脉测压管路，如需进行ECPR只需更换导丝即可快速完成置管操作，由两名医生分别进行两侧的插管操作可减少插管时间。由于CPR过程中动脉搏动难以触及，盲穿容易损伤血管，抗凝后易导致穿刺部位出血，止血困难，形成血肿，甚至影响血流动力学的稳定，因此，超声引导下动静脉穿刺尤为重要，建议ECPR抢救场所常规备有超声，置管医生掌握超声操作技能，利于快速完成置管操作。使用Seldinger技术在股静脉和股动脉置入管路,超声也有助于判断血管的直径，对插管的选择有指导意义。
+在持续进行的CPR下置管是一项挑战性的工作，穿刺血管可能并不容易，导丝置入需快速、准确，ELSO组织发布的第五版The Elso Red Book[23]建议：在难以区分动、静脉时，如在导管室进行穿刺可在透视下观察导丝的方向以区分动、静脉，也可以在置入穿刺鞘后短暂造影，这样既可以区分动、静脉，也可以选择导管口径并排除外周动脉病变。静脉导管位置可在透视下或超声确认，应避免在没有导丝的情况下调整导管位置。穿刺置管失败的患者，及时行血管切开置管，需要急诊外科或者血管外科支援。
+ECPR的实现既可以是通过经皮穿刺，即通过使用标准Seldinger技术进行连续扩张；也可以通过直接切开血管置管；还有一种混合方法也被推荐，即快速切开暴露股部血管，再通过经皮Seldinger技术进入血管，再迅速将切开部位缝合。
+导管型号的选择非常重要，必须关注外周血管疾病，第五版《The Elso Red Book》建议：较小直径的导管容易置入，可缩短置管时间，并可防止损伤和撕裂股动脉或髂动脉这种致命的并发症，并且可减少远端肢体的缺血，如果目标流量是2.2～2.5 L/(min·m2)，15～17 Fr的动脉导管可完全满足上述流量，血流可到达升主动脉，如果需要更大的流量，需考虑更大型号的插管。
+由于ECPR期间，会使用较多的收缩血管的药物，股动脉已经被药物刺激收缩，基本与插管的直径相同，所以插管远端的血供会被插管阻挡，下肢缺血的发生率较高。ECMO置管6 h内，建立股浅动脉远端顺行插管。从ECMO动脉插管引出侧支与在股浅动脉放置的6 F动脉鞘管相连接，以供远端股动脉氧合血流，减少下肢血管并发症发生率。ECPR穿刺置管不推荐使用preclose技术，以尽量缩短CA至ECMO血流恢复时间。
+3.5 ECMO运行开始
+置管完毕后快速连接静动脉管路，核对确认管路连接无误后启动循环并计时开始，再打开气源，保持血相压力一直大于气相压力。如果气相压力大于血相压力，通过膜肺，气泡可以进入血液循环而造成气体栓塞。必须保持膜肺高度低于泵头，低于患者。
+实践路径5：ECMO运行开始后启动气源，始终保持血相压力大于气相压力，防止气体栓塞。保持膜肺高度低于泵头，低于患者。
+3.6 ECMO期间的实践路径
+3.6.1 抗凝管理
+动静脉导丝均置入后，静脉给予负荷量肝素100 U/kg（如明确心脏骤停前存在凝血功能障碍，减少肝素用量）。最好在给予肝素3 min后检测ACT和APTT,记录基础数值。ACT的监测应该使用ACT-LR法，ACT-LR在目标范围180～220 s内即可以插管和转机。需强调：心肺复苏期间，无有效循环，有肝素未进入体内的可能，也可以在放置插管前经过股静脉鞘管给药。当ACT低于180 s时，启动肝素持续泵入，避免弹丸式给药。ELSO推荐肝素输注剂量为20 U/(kg·h)，但是鉴于东西方人种差异，国内通常8～10 U/(kg·h)输注。补充促凝药物（血小板、血浆、冷沉淀、凝血酶原复合物，纤维蛋白原）时适当调高肝素泵入剂量，建议从外周静脉输入。
+ECMO运行期间，除了监测ACT-LR外，同时监测APTT维持在60～80 s。当ACT-LR与APTT结果不一致时，应以APTT为准。建议每日查血栓弹力图。
+预防血栓栓塞并发症在ECMO支持的患者管理中至关重要。可能的栓子来源包括血管内瘀滞（若LV未排空或未射血，LV和主动脉根部也可能成为栓子来源）以及ECMO回路本身。应经常检查氧合器以查找血栓形成的证据，可用强光手电筒检查膜肺，也可间接评估溶血（乳酸脱氢酶，血浆游离血红蛋白）和气体交换效率。应监测回路管路压力。膜肺跨膜压力显著变化可能表明有阻塞，阻塞多可能来自血栓。
+实践路径6 ：ECMO支持期间，通过持续静脉泵入肝素来维持低范围激活凝血时间（ACT-LR）在180～220 s之间，或者APTT在60～80 s之间，建议每日查血栓弹力图，全面评估凝血状况。如果输入凝血类（血小板、血浆、冷沉淀等），建议从外周静脉输入。
+3.6.2 流量调整
+VA-ECMO的初始目标流量应为2.2～2.5 L/(min·m2)[24]，平均动脉压>60 mmHg，既往高血压患者，可以适当维持较高血压。膜肺初始吸氧体积分数设定50%～60%，逐步滴定将外周血氧饱和度调整至90%～95%，混合静脉血氧饱和度维持在70%左右，从而减轻缺血-再灌注损伤，每3 h测量一次血气分析，分析电解质和内环境的情况及时调整ECMO流量以维持或恢复正常的肾、肝和肺功能。有条件的单位可使用近红外光谱（NIRS）监测脑组织局部氧饱和度（目标值60%～70%）调整流量。
+需每日复查心脏彩超及胸部X光片，因V-A ECMO运行可产生"分水岭"现象,增加左心室后负荷，导致主动脉瓣不能正常打开，并有形成左室血栓的风险。因此，行心脏彩超可以观察左室舒张末径、左房大小及容量、右室舒张末径、室间隔运动情况、心脏EF值及主动脉瓣开放情况等[25]，行胸部X光片也可间接提示左室后负荷是否增加。所以适宜的流量应该保证器官灌注的同时左心室后负荷尽量减小。同时需每日复查血游离血红蛋白及胶体渗透压。游离血红蛋白监测以观察ECMO期间血细胞的破坏，胶体渗透压监测以了解患者体内渗透压防止组织水肿。
+实践路径7:在ECMO运行期间，必须进行左心功能监测，每日行床旁心脏彩超和胸部X光片，保持适宜的流量，防止左心负荷过重及主动脉瓣开放受限，同时监测游离血红蛋白和胶体渗透压。
+3.6.3 左心减压策略
+VA-ECMO可增加心脏后负荷，升高的左室后负荷可引起左室扩张、心肌缺血、左房压力升高、肺水肿，并可因左室及肺循环血液瘀滞并发左室血栓和肺栓塞[26,27]。有文献报道：与单独使用VA-ECMO相比，VA-ECMO运行期间联合应用Impella行左室减压可明显降低顽固性心衰患者住院病死率，并减少血管活性药物的使用，成功过渡到康复及进一步治疗的比例更高[28,29]。也有研究证实主动脉内球囊反搏（IABP）在VA-ECMO运行期间可明显改善血流动力学，减轻左心室后负荷[30,31]。
+左心减压常用方法：IABP、介入下房间隔打孔、经胸的右上肺静脉引流、联合Impella、插管方式为腋动脉插管等，各个中心根据患者的实际情况和所拥有的条件采取不同的左心减压方式。
+实践路径8：ECPR支持期间，如发现左室扩张、左房压力升高、肺水肿、主动脉瓣开放受限等情况时，应积极行左心减压。左心减压可使用IABP、联合Impella等方式。
+3.6.4 温度管理
+2015年CHEER试验[32]回顾分析了对OHCA顽固性心脏骤停的患者综合应用机械CPR、低温治疗、V-AECMO后早期转至导管室行冠状动脉造影的结果，26例患者经上述综合治疗后，14例(54%)患者神经功能完全恢复。通常，实施ECPR后的24 h要严格的进行体温控制，目标温度34 ℃并且联合头部冰帽降温。然后进行第一次神经学评估。目标温度管理（TTM）是目前被临床证实能够改善CA患者远期预后和神经功能恢复的方法[33]。TTM的使用是根据ECPR后的精神状态，出血风险和家庭是否同意等方面决定，所有在ECPR后昏迷的患者均表明需要目标温度管理。活动性出血是TTM的禁忌证。
+实践路径9：对顽固性心脏骤停的患者行ECPR后，应尽早转至导管室行冠状动脉造影，可提高患者神经功能恢复率。低温治疗也可提高神经功能恢复，目标温度为32-36 ℃。
+3.6.5 肺通气策略
+根据不同的心肺基础情况采用不同的通气策略及合适的呼吸参数，建议呼吸机设置应在肺保护（避免气压伤、容积伤等）的基础上与ECMO协同设置[34]，维持PO2约20 kPa（150 mmHg）左右，PCO2在正常的高限水平[35]。如果调整呼吸机及ECMO参数无法保证氧合也可以采用VAV模式。
+3.6.6 血流动力学监测
+VA-ECMO支持的患者应留置有创动脉压及中心静脉压等监测，理想有创动脉压监测部位在右上肢，由于无名动脉更接近心脏，受ECMO血流影响小，经右上肢抽取的动脉血气标本更能反映冠状动脉和脑血流的氧含量以及心脏供血的真实情况。此外，动脉压监测可以监测平均动脉压及脉压差，脉压差是ECMO支持期间和撤机时心脏收缩力的反映。无动脉搏动或低动脉搏动表明LV不射血或射血量很少，这可导致血液淤滞和血栓形成风险增加。较高的脉压差提示心功能恢复。由于呼吸机正压通气及ECMO引血端抽吸作用的影响中心静脉压动态变化仅能参考，有条件的单位可应用Swan-Ganz导管监测肺毛细血管楔压等参数，指导容量管理及血管活性药物的使用[36]。
+实践路径10:外周插管的VA-ECMO监测有创动脉压力应留置在右上肢。有条件的单位可应用Swan-Ganz导管监测肺毛细血管楔压等参数，指导容量管理及血管活性药物的使用。
+3.6.7 液体管理
+容量的优化在ECMO运行期间至关重要，推荐应用超声辅助进行容量评估，一旦启动VA-ECMO，就应当立即启动容量优化策略。通过使用利尿剂或肾脏替代治疗（RRT）可以获得最佳的液体状态。ECMO支持的患者，若需要RRT，可直接将透析过滤器连至ECMO回路中。但应注意，同时这也会增加感染、血栓形成和出血等并发症的风险[37]。
+实践路径11：一旦启动VA-ECMO，就应当立即启动容量优化策略。通过使用利尿剂或肾脏替代治疗（RRT）可以获得最佳的液体状态。
+3.6.8 感染控制
+ECPR患者病情重，组织缺血缺氧、类固醇激素的应用、各种导管的植入等原因，易于出现感染甚至多重感染，应严格按照院感制度执行，建议有条件的医院实施单间隔离。如患者有明确感染部位及致病菌，选择敏感性抗生素，同时覆盖穿刺可能带来的污染细菌，如无明确感染病灶，预防性应用抗生素参考心脏手术预防性应用二代头孢类抗生素，根据ICU抗菌谱积极升级抗生素，根据基础疾病和感染指标决定应用疗程。每日复查血常规，必要时查C-反应蛋白、降钙素原、血培养、痰培养等进行感染监控，根据微生物学证据随时调整。注意ECMO环路对药物的螯合作用，推荐对能监测血药浓度的药物进行监测。
+3.6.9 插管侧下肢肢体的观察
+由于管路对血管的阻塞，下肢缺血及血栓形成发生率增加，应密切观察患者下肢的皮温、颜色、硬度、腿围、关节活动度变化。可以应用近红外光谱（NIRS)，判断外周组织灌注变化，及时发现下肢缺血。
+4 ECPR的撤离
+4.1 放弃治疗
+神经系统功能不恢复，严重并发症，家属放弃。
+4.2 长期辅助装置或心脏移植
+神经系统功能恢复良好，经足够时间辅助（心脏5～7 d）脏器功能无恢复趋势，或预期短时间内不能具备脱机条件应尽早考虑移植及长期辅助装置。
+4.3 患者恢复具备撤机条件撤除
+导致心脏骤停的因素得到纠正，心肺功能恢复，机械通气达到FiO2小于50%，吸气峰压（peak inspiratory pressure, PIP）小于30 cmH2O，呼气末正压（positive end-expiratory pressure , PEEP）小于8 cmH2O，平均动脉压>60 mmHg，心指数（cardiac index, CI）>2.4 L/(min·m2),肺毛细血管楔压（PCWP）<18 mmHg，乳酸<2 mmol/L，混合静脉血氧饱和度>65%，ECMO氧体积分数调整为21%，流量调整为1 L/min或正常心输出量1/10水平仍能在小剂量血管活性药物支持下维持循环稳定和正常代谢可考虑撤机[38,39]；ECMO联合IABP同时使用时，建议先撤ECMO，再撤IABP，增加撤机成功率。常规撤机时正性肌力药物要提前进行泵入，增加肝素泵入剂量，使ACT-LR达到300 s，推荐超声指引下撤机。撤机完毕后监测ACT-LR，必要时可以使用鱼精蛋白进行中和。急诊体外心肺复苏流程，见图1。
+点击查看大图
+图1
+急诊体外心肺复苏流程
+图1
+急诊体外心肺复苏流程
+5 ECPR预后影响因素
+目前普遍认为：患者年龄、意识状态、有无目击者、心脏骤停至VA-ECMO开始时间、有效的CCPR、动脉血pH值、血乳酸浓度、有无一过性的ROSC等因素为影响ECPR的预后的因素。
+（1）无血流时间：被目击的IHCA患者尽可能减少CPR前无血流时间可增加心脏复苏的机会并减少脑缺血损伤的风险，对于OHCA患者，旁观者实施CPR的质量难以衡量，理想的无血流时间应小于1 min，超过5 min不建议应用ECPR；对于无目击者的OHCA患者不宜实施ECPR治疗[11,17]。
+（2） CCPR质量：1～2人行有效的胸外心脏按压和气道管理，对于IHCA患者还应当行心电监护，行呼气末CO2监测评估肺血流，行脑和肢体近红外光谱(NIRS)评估按压期间氧输送等；高质量的CCPR是良好ECPR结局的前提。
+（3）心搏骤停至ECMO循环建立时间：越短ECPR成功率越高，神经系统并发症越轻[40]。
+（4） ECPR开始前pH值及乳酸水平:如考虑应用ECPR时pH值< 6.8，乳酸>20 mmol/L，不建议应用ECPR[41]。
+6 ECPR的伦理探讨
+在所有器官中大脑对缺血缺氧耐受能力最差，ECPR应用增加CCPR患者复苏成功率，同时减少了复苏成功患者神经系统损伤的比例，神经系统功能恢复与否在ECPR前有时很难判断，如大脑功能不能恢复将对家庭及社会造成巨大负担，如何确定ECPR患者神经系统功能可恢复性是目前ECPR面临最大的伦理难题。
+7 结语
+ECPR较CCPR确实提高了心脏骤停患者心肺复苏成功率，并有良好的神经功能预后，开创了一种全新的心肺复苏模式。为推广该技术，首先，全面提高医护人员和百姓对ECPR的认可度；其次，建设专业ECPR团队，并积极开展相关培训，使越来越多的医生掌握该技术；最后，需制定简单实用完善的操作流程，便于指导临床实践。ECPR仪器设备昂贵，花费高，技术要求高，需专业团队及多学科协作，某种程度上阻碍了ECPR开展。随着ECPR的推广，可以预测，心肺复苏成功率一定会有质的提升。
+委员会成员
+执笔：张国华：航天中心医院zhangguohua0328@126.com;高扬：航天中心医院478423945@qq.com ;吴鹏：天津第三中心医院,Email:18736549@qq.com
+专家组成员（按姓氏笔画排列排名无先后）：
+马青变 马岳峰 王旭东 石松菁 田英平 兰 超
+邢吉红 朱长举 朱华栋 朱继红 刘丽娜 刘明华
+许 铁 孙同文 李 旭 李 军 李景文 吴彩军
+何小军 余 涛 宋振举 宋海晶 张劲松 张 茂
+张国强 陆远强 陈旭峰 陈晓辉 林兆奋 罗 哲
+周 平 周光居 郑亚安 单志刚 单 毅 封启明
+赵晓东 赵 敏 洪玉才 洪 江 聂时南 夏 剑
+柴湘平 徐 军 郭 伟 郭树彬 黄明君 黄 曼
+曹 钰 曾红科 谢苗荣 詹庆元 裴红红 黎檀实
+潘龙飞 魏 捷
+参考文献
+[1]
+HaukoosJS, WittG, GravitzC, et al.
+Out-of-hospital cardiac arrest in denver, colorado: epidemiology and outcomes[J].
+Acad Emerg Med,
+2010,
+17(
+4):
+391-
+398.
+DOI：10.1111/j.1553-2712.2010.00707.x.
+[2]
+BerdowskiJ, BergRA, TijssenJG, et al.
+Global incidences of out-of-hospital cardiac arrest and survival rates: Systematic review of 67 prospective studies[J].
+Resuscitation,
+2010,
+81(
+11):
+1479-
+1487.
+DOI：10.1016/j.resuscitation.2010.08.006.
+[3]
+ChanPS, KreinSL, TangF, et al.
+Resuscitation Practices Associated with Survival After In-Hospital Cardiac Arrest: A Nationwide Surve[J].
+JAMA Cardiol,
+2016,
+1(
+2):
+189–
+197.
+DOI：10.1001/jamacardio.2016.0073.
+[4]
+YukawaT, KashiuraM, SugiyamaK, et al.
+Neurological outcomes and duration from cardiac arrest to the initiation of extracorporeal membrane oxygenation in patients with out-of-hospital cardiac arrest: a retrospective study[J].
+Scand J Trauma Resusc Emerg Med,
+2017,
+25:
+95.
+DOI：10.1186/s13049-017-0440-7.
+[5]
+KimSJ, JungJS, ParkJH, et al.
+An optimal transition time to extracorporeal cardiopulmonary resuscitation for predicting good neurological outcome in patients with out-of-hospital cardiac arrest: a propensity-matched study[J].
+Crit Care,
+2014,
+18(
+5):
+535.
+DOI：10.1186/s13054-014-0535-8.
+[6]
+KimSJ, KimHJ, LeeHY, et al.
+Comparing extracorporeal cardiopulmonary resuscitation with conventional cardiopulmonary resuscitation: A meta-analysis[J].
+Resuscitation,
+2016,
+103:
+106-
+116.
+DOI：10.1016/j.resuscitation.2016.01.019.
+[7]
+ChenYS, LinJW, YuHY, et al.
+Cardiopulmonary resuscitation with assisted extracorporeal life-support versus conventional cardiopulmonary resuscitation in adults with in-hospital cardiac arrest: an observational study and propensity analysis[J].
+Lancet,
+2008,
+372(
+9638):
+554-
+561.
+DOI：10.1016/s0140-6736(08)60958-7.
+[8]
+YamN, McMullanDM.
+Extracorporeal cardiopulmonary resuscitation[J].
+Ann Transl Med,
+2017,
+5(
+4):
+72.
+DOI：10.21037/atm.2017.01.11.
+[9]
+BrooksSC,AndersonML,BruderE, et al.
+Part 6: Alternative Techniques and Ancillary Devices for Cardiopulmonary Resuscitation: 2015 American Heart Association Guidelines Update for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care[J].
+Circulation.
+2015,
+132(
+18
+Suppl 2):
+S436-
+43.,
+DOI：10.1161/CIR.0000000000000260.
+[10]
+LinkMS,BerkowLC,KudenchukPJ, et al.
+Part 7: Adult Advanced Cardiovascular Life Support:2015 American Heart Association Guidelines Update for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care[J].
+Circulation.
+2015,
+132(
+18
+Suppl 2):
+S444-
+64.
+DOI：10.1161/CIR.0000000000000261.
+[11]
+MaekawaK, TannoK, HaseM, et al.
+Extracorporeal cardiopulmonary resuscitation for patients with out-of-hospital cardiac arrest of cardiac origin: a propensity-matched study and predictor analysis.
+Crit Care Med.
+2013;
+41:
+1186–
+1196.,
+DOI：10.1097/CCM.0b013e31827ca4c8.
+[12]
+MorrowDA, FangJC, FintelDJ, et al.
+Evolution of critical care cardiology: transformation of the cardiovascular intensive care unit and the emerging need for new medical staffing and training models[J].
+Circulation,
+2012,
+126(
+11):
+1408-
+1428.
+DOI：10.1161/cir.0b013e31826890b0.
+[13]
+TruesdellAG, TehraniB, SinghR, et al.
+‚combat‛ approach to cardiogenic shock[J].
+Interv Cardiol Rev,
+2018:
+1.
+DOI：10.15420/icr.2017:35:3.
+[14]
+ReynoldsJC, GrunauBE, RittenbergerJC, et al.
+Association between duration of resuscitation and favorable outcome after out-of-hospital cardiac arrest[J].
+Circulation,
+2016,
+134(
+25):
+2084-
+2094.
+DOI：10.1161/circulationaha.116.023309.
+[15]
+LamhautL, HutinA, PuymiratE, et al.
+A Pre-Hospital Extracorporeal Cardio Pulmonary Resuscitation (ECPR) strategy for treatment of refractory out hospital cardiac arrest: An observational study and propensity analysis[J].
+Resuscitation,
+2017,
+117:
+109-
+117.
+DOI：10.1016/j.resuscitation.2017.04.014.
+[16]
+ReynoldsJC, GrunauBE, ElmerJ, et al.
+Prevalence, natural history, and time-dependent outcomes of a multi-Center North American cohort of out-of-hospital cardiac arrest extracorporeal CPR candidates[J].
+Resuscitation,
+2017,
+117:
+24-
+31.
+DOI：10.1016/j.resuscitation.2017.05.024.
+[17]
+DebatyG, BabazV, DurandM, et al.
+Prognostic factors for extracorporeal cardiopulmonary resuscitation recipients following out-of-hospital refractory cardiac arrest. A systematic review and meta-analysis[J].
+Resuscitation,
+2017,
+112:
+1-
+10.
+DOI：10.1016/j.resuscitation.2016.12.011.
+[18]
+MosierJM, KelseyM, RazY, et al.
+Extracorporeal membrane oxygenation (ECMO) for critically ill adults in the emergency department: history, current applications, and future directions[J].
+Crit Care,
+2015,
+19:
+431.
+DOI：10.1186/s13054-015-1155-7.
+[19]
+LaussenPC, GuerguerianAM.
+Establishing and sustaining an ECPR program[J].
+Front Pediatr,
+2018,
+6:
+152.
+DOI：10.3389/fped.2018.00152.
+[20]
+ChoiDH, KimYJ, RyooSM, et al.
+Extracorporeal cardiopulmonary resuscitation among patients with out-of-hospital cardiac arrest[J].
+Clin Exp Emerg Med,
+2016,
+3(
+3):
+132-
+138.
+DOI：10.15441/ceem.16.145.
+[21]
+YukawaT, SugiyamaK, MiyazakiK, et al.
+Treatment of a patient with acute aortic dissection using extracorporeal cardiopulmonary resuscitation after an out-of-hospital cardiac arrest: a case report[J].
+Acute Med Surg,
+2018,
+5(
+2):
+189-
+193.
+DOI：10.1002/ams2.324.
+[22]
+NappLC, MartensA.
+ECPR in acute aortic dissection – Really a no-go?[J].
+Am J Emerg Med,
+2019 ,
+37(
+8):
+1590-
+1591.
+DOI：10.1016/j.ajem.2019.04.038.
+[23]
+NappLC,KühnC,HoeperMM, et al.
+Cannulation strategies for percutaneous extracorporeal membrane oxygenation in adults[J].
+Clin Res Cardiol.
+2016,
+105(
+4):
+283-
+96.
+DOI：10.1007/s00392-015-0941-1.
+[24]
+SwolJ, BelohlávekJ, HaftJW, et al.
+Conditions and procedures for in-hospital extracorporeal life support (ECLS) in cardiopulmonary resuscitation(CPR) of adult patients[J].
+Perfusion,
+2015,
+31(
+3):
+182-
+188.
+DOI：10.1177/0267659115591622.
+[25]
+DoufléG, RoscoeA, BilliaF, et al.
+Echocardiography for adult patients supported with extracorporeal membrane oxygenation[J].
+Crit Care,
+2015,
+19:
+326.
+DOI：10.1186/s13054-015-1042-2.
+[26]
+GuirgisM, KumarK, MenkisAH, et al.
+Minimally invasive left-heart decompression during venoarterial extracorporeal membrane oxygenation: an alternative to a percutaneous approach[J].
+Interact Cardiovasc Thorac Surg,
+2010,
+10(
+5):
+672-
+674.
+DOI：10.1510/icvts.2009.228346.
+[27]
+HackingDF, BestD, D’UdekemY, et al.
+Elective decompression of the left ventricle in pediatric patients may reduce the duration of venoarterial extracorporeal membrane oxygenation[J].
+Artif Organs,
+2015,
+39(
+4):
+319-
+326.
+DOI：10.1111/aor.12390.
+[28]
+SchrageB, BurkhoffD, RübsamenN, et al.
+Unloading of the left ventricle during venoarterial extracorporeal membrane oxygenation therapy in cardiogenic shock[J].
+Jacc Heart Fail,
+2018,
+6(
+12):
+1035-
+1043.
+DOI：10.1016/j.jchf.2018.09.009.
+[29]
+PatelSM, LipinskiJ, Al-KindiSG, et al.
+Simultaneous venoarterial extracorporeal membrane oxygenation and percutaneous left ventricular decompression therapy with impella is associated with improved outcomes in refractory cardiogenic shock[J].
+Asaio J,
+2019,
+65(
+1):
+21-
+28.
+DOI：10.1097/mat.0000000000000767.
+[30]
+GassA, PalaniswamyC, AronowWS, et al.
+Peripheral venoarterial extracorporeal membrane oxygenation in combination with intra-aortic balloon counterpulsation in patients with cardiovascular compromise[J].
+Cardiology,
+2014,
+129(
+3):
+137-
+143.
+DOI：10.1159/000365138.
+[31]
+YangF, JiaZS, XingJL, et al.
+Effects of intra-aortic balloon pump on cerebral blood flow during peripheral venoarterial extracorporeal membrane oxygenation support[J].
+J Transl Med,
+2014,
+12(
+1):
+106.
+DOI：10.1186/1479-5876-12-106.
+[32]
+StubD, BernardS, PellegrinoV, et al.
+Refractory cardiac arrest treated with mechanical CPR, hypothermia, ECMO and early reperfusion (the CHEER trial)[J].
+Resuscitation,
+2015,
+86:
+88-
+94.
+DOI：10.1016/j.resuscitation.2014.09.010.
+[33]
+心脏骤停后目标温度管理共识专家组.
+心脏骤停后目标温度管理专家共识(J).
+中华急诊医学杂志,
+2016,
+25(
+8):
+1000-
+1006.
+DOI：10.3760/cma.j.issn.1671-0282.2016.08.006.
+[34]
+龙村，侯晓彤，赵举，等.
+体外膜肺氧合[M].
+第二版，
+北京:
+人民卫生出版社，
+2016，
+26-
+27.
+[35]
+JakkulaP, ReinikainenM, HästbackaJ, et al.
+Targeting two different levels of both arterial carbon dioxide and arterial oxygen after cardiac arrest and resuscitation: a randomised pilot trial[J].
+Intensive Care Med,
+2018,
+44(
+12):
+2112-
+2121.
+DOI：10.1007/s00134-018-5453-9.
+[36]
+SiriwardenaM, DozoisM, FanE, et al.
+Hemodynamic aspects of veno-arterial extracorporeal membrane oxygenation for cardiac support[J].
+Asaio J,
+2019:
+1.
+DOI：10.1097/mat.0000000000001024.
+[37]
+HanKS, KimSJ, LeeEJ, et al.
+Experience of extracorporeal cardiopulmonary resuscitation in a refractory cardiac arrest patient at the emergency department[J].
+Clin Cardiol,
+2019,
+42(
+4):
+459-
+466.
+DOI：10.1002/clc.23169.
+[38]
+AkinS, dos Reis MirandaD, CaliskanK, et al.
+Functional evaluation of sublingual microcirculation indicates successful weaning from VA-ECMO in cardiogenic shock[J].
+Crit Care,
+2017,
+21:
+265.
+DOI：10.1186/s13054-017-1855-2.
+[39]
+OrtunoS, DelmasC, DiehlJL, et al.
+Weaning from veno-arterial extra-corporeal membrane oxygenation: which strategy to use?[J].
+Ann Cardiothorac Surg,
+2019,
+8(
+1):
+E1-
+E8.
+DOI：10.21037/acs.2018.08.05.
+[40]
+RyuJA, ChungCR, ChoYH, et al.
+Neurologic outcomes in patients who undergo extracorporeal cardiopulmonary resuscitation[J].
+Ann Thorac Surg,
+2019,
+108(
+3):
+749-
+755.
+DOI：10.1016/j.athoracsur.2019.03.033.
+[41]
+RyuJA, ChoYH, SungK, et al.
+Predictors of neurological outcomes after successful extracorporeal cardiopulmonary resuscitation[J].
+BMC Anesthesiol,
+2015,
+15:
+26.
+DOI：10.1186/s12871-015-0002-3.
+贡献者信息
+中国老年医学学会急诊医学分会
+中国老年医学学会急诊医学分会ECMO工作委员会
+历史
+出版日期：2019-10-10
+收稿日期：2019-09-10
+本文编辑
+何小军
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+图1
+急诊体外心肺复苏流程
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华急诊医学杂志2019年28卷10期
+文    题：成人体外膜肺氧合辅助心肺复苏（ECPR）实践路径
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华急诊医学杂志2019年28卷10期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+下载视频
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

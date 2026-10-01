@@ -226,3 +226,626 @@ hepatic-failure2017.txt | 肝衰竭诊治指南(2018年版) | https://cmab.yiigl
 #   腰椎间盘突出症诊疗指南
 #   儿童孤独症诊疗康复指南
 #   肝硬化腹水及相关并发症的诊疗指南
+# ===== 第四轮 (wave4, cmab 精选指南库「最热」目录作标题索引；cmab+seleguide 双基址、全角/半角括号变体) =====
+w4ded982fd90.txt | 急性ST段抬高型心肌梗死诊断和治疗指南（2019） | https://cmab.yiigle.com/uploads/guide_html/%E6%80%A5%E6%80%A7ST%E6%AE%B5%E6%8A%AC%E9%AB%98%E5%9E%8B%E5%BF%83%E8%82%8C%E6%A2%97%E6%AD%BB%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882019%EF%BC%89.html | 内科 | 2019
+w414d4b5e162.txt | 脑卒中病情监测中国多学科专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E8%84%91%E5%8D%92%E4%B8%AD%E7%97%85%E6%83%85%E7%9B%91%E6%B5%8B%E4%B8%AD%E5%9B%BD%E5%A4%9A%E5%AD%A6%E7%A7%91%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 内科 | 
+w48f4633bc7d.txt | 高血压基层合理用药指南 | https://cmab.yiigle.com/uploads/guide_html/%E9%AB%98%E8%A1%80%E5%8E%8B%E5%9F%BA%E5%B1%82%E5%90%88%E7%90%86%E7%94%A8%E8%8D%AF%E6%8C%87%E5%8D%97.html | 内科 | 
+w4acd6b1c8ca.txt | 中国老年糖尿病诊疗指南（2021年版） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E8%80%81%E5%B9%B4%E7%B3%96%E5%B0%BF%E7%97%85%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882021%E5%B9%B4%E7%89%88%EF%BC%89.html | 内科 | 2021
+w4aa16989b0a.txt | 2019年急性缺血性卒中患者早期管理指南：针对2018年急性缺血性卒中早期管理指南的更新 | https://cmab.yiigle.com/uploads/guide_html/2019%E5%B9%B4%E6%80%A5%E6%80%A7%E7%BC%BA%E8%A1%80%E6%80%A7%E5%8D%92%E4%B8%AD%E6%82%A3%E8%80%85%E6%97%A9%E6%9C%9F%E7%AE%A1%E7%90%86%E6%8C%87%E5%8D%97%EF%BC%9A%E9%92%88%E5%AF%B92018%E5%B9%B4%E6%80%A5%E6%80%A7%E7%BC%BA%E8%A1%80%E6%80%A7%E5%8D%92%E4%B8%AD%E6%97%A9%E6%9C%9F%E7%AE%A1%E7%90%86%E6%8C%87%E5%8D%97%E7%9A%84%E6%9B%B4%E6%96%B0.html | 内科 | 2019
+w45bd5af0238.txt | 2020中国系统性红斑狼疮诊疗指南 | https://cmab.yiigle.com/uploads/guide_html/2020%E4%B8%AD%E5%9B%BD%E7%B3%BB%E7%BB%9F%E6%80%A7%E7%BA%A2%E6%96%91%E7%8B%BC%E7%96%AE%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97.html | 内科 | 2020
+w42ba6e94341.txt | 中国肺动脉高压诊断与治疗指南（2021版） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E8%82%BA%E5%8A%A8%E8%84%89%E9%AB%98%E5%8E%8B%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882021%E7%89%88%EF%BC%89.html | 内科 | 2021
+w457e05dd43e.txt | 深静脉血栓形成的诊断和治疗指南(第三版) | https://cmab.yiigle.com/uploads/guide_html/%E6%B7%B1%E9%9D%99%E8%84%89%E8%A1%80%E6%A0%93%E5%BD%A2%E6%88%90%E7%9A%84%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%28%E7%AC%AC%E4%B8%89%E7%89%88%29.html | 外科 | 
+w4c4e11d6091.txt | 神经外科中枢神经系统感染诊治中国专家共识(2021版) | https://cmab.yiigle.com/uploads/guide_html/%E7%A5%9E%E7%BB%8F%E5%A4%96%E7%A7%91%E4%B8%AD%E6%9E%A2%E7%A5%9E%E7%BB%8F%E7%B3%BB%E7%BB%9F%E6%84%9F%E6%9F%93%E8%AF%8A%E6%B2%BB%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282021%E7%89%88%29.html | 外科 | 2021
+w4e6eb1f79e7.txt | 静脉血栓栓塞症机械预防中国专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E9%9D%99%E8%84%89%E8%A1%80%E6%A0%93%E6%A0%93%E5%A1%9E%E7%97%87%E6%9C%BA%E6%A2%B0%E9%A2%84%E9%98%B2%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 外科 | 
+w48ac3f4b12b.txt | 膝骨关节炎运动治疗临床实践指南 | https://cmab.yiigle.com/uploads/guide_html/%E8%86%9D%E9%AA%A8%E5%85%B3%E8%8A%82%E7%82%8E%E8%BF%90%E5%8A%A8%E6%B2%BB%E7%96%97%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97.html | 外科 | 
+w46a361caf67.txt | 经皮肾镜取石术中国专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E7%BB%8F%E7%9A%AE%E8%82%BE%E9%95%9C%E5%8F%96%E7%9F%B3%E6%9C%AF%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 外科 | 
+w418e1cecc37.txt | 颈椎病的分型、诊断及非手术治疗专家共识(2018) | https://cmab.yiigle.com/uploads/guide_html/%E9%A2%88%E6%A4%8E%E7%97%85%E7%9A%84%E5%88%86%E5%9E%8B%E3%80%81%E8%AF%8A%E6%96%AD%E5%8F%8A%E9%9D%9E%E6%89%8B%E6%9C%AF%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282018%29.html | 外科 | 2018
+w4d82925cb0c.txt | 术中获得性压力性损伤预防与护理专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E6%9C%AF%E4%B8%AD%E8%8E%B7%E5%BE%97%E6%80%A7%E5%8E%8B%E5%8A%9B%E6%80%A7%E6%8D%9F%E4%BC%A4%E9%A2%84%E9%98%B2%E4%B8%8E%E6%8A%A4%E7%90%86%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 外科 | 
+w4f0abf60e2a.txt | 中国成人股骨头坏死临床诊疗指南（2020） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%88%90%E4%BA%BA%E8%82%A1%E9%AA%A8%E5%A4%B4%E5%9D%8F%E6%AD%BB%E4%B8%B4%E5%BA%8A%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882020%EF%BC%89.html | 外科 | 2020
+w424828b3b6e.txt | 成人腹股沟疝诊断和治疗指南(2018年版) | https://cmab.yiigle.com/uploads/guide_html/%E6%88%90%E4%BA%BA%E8%85%B9%E8%82%A1%E6%B2%9F%E7%96%9D%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%282018%E5%B9%B4%E7%89%88%29.html | 外科 | 2018
+w4dadfd76a09.txt | 胆囊癌诊断和治疗指南（2019版） | https://cmab.yiigle.com/uploads/guide_html/%E8%83%86%E5%9B%8A%E7%99%8C%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882019%E7%89%88%EF%BC%89.html | 外科 | 2019
+w46b71438ae7.txt | 中国骨盆骨折微创手术治疗指南(2021) | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%AA%A8%E7%9B%86%E9%AA%A8%E6%8A%98%E5%BE%AE%E5%88%9B%E6%89%8B%E6%9C%AF%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%282021%29.html | 外科 | 2021
+w43bd7919329.txt | 尿路感染诊断与治疗中国专家共识(2015版)——尿路感染抗菌药物选择策略及特殊类型尿路感染的治疗建议 | https://cmab.yiigle.com/uploads/guide_html/%E5%B0%BF%E8%B7%AF%E6%84%9F%E6%9F%93%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282015%E7%89%88%29%E2%80%94%E2%80%94%E5%B0%BF%E8%B7%AF%E6%84%9F%E6%9F%93%E6%8A%97%E8%8F%8C%E8%8D%AF%E7%89%A9%E9%80%89%E6%8B%A9%E7%AD%96%E7%95%A5%E5%8F%8A%E7%89%B9%E6%AE%8A%E7%B1%BB%E5%9E%8B%E5%B0%BF%E8%B7%AF%E6%84%9F%E6%9F%93%E7%9A%84%E6%B2%BB%E7%96%97%E5%BB%BA%E8%AE%AE.html | 外科 | 2015
+w49557898b8e.txt | 混合性阴道炎诊治专家共识（2021版） | https://cmab.yiigle.com/uploads/guide_html/%E6%B7%B7%E5%90%88%E6%80%A7%E9%98%B4%E9%81%93%E7%82%8E%E8%AF%8A%E6%B2%BB%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882021%E7%89%88%EF%BC%89.html | 妇产科 | 2021
+w4c08f417de1.txt | 正常分娩临床实践指南 | https://cmab.yiigle.com/uploads/guide_html/%E6%AD%A3%E5%B8%B8%E5%88%86%E5%A8%A9%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97.html | 妇产科 | 
+w4979cad69de.txt | 前置胎盘的诊断与处理指南（2020） | https://cmab.yiigle.com/uploads/guide_html/%E5%89%8D%E7%BD%AE%E8%83%8E%E7%9B%98%E7%9A%84%E8%AF%8A%E6%96%AD%E4%B8%8E%E5%A4%84%E7%90%86%E6%8C%87%E5%8D%97%EF%BC%882020%EF%BC%89.html | 妇产科 | 2020
+w413a2680f5d.txt | 盆腔炎症性疾病诊治规范（2019修订版） | https://cmab.yiigle.com/uploads/guide_html/%E7%9B%86%E8%85%94%E7%82%8E%E7%97%87%E6%80%A7%E7%96%BE%E7%97%85%E8%AF%8A%E6%B2%BB%E8%A7%84%E8%8C%83%EF%BC%882019%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89.html | 妇产科 | 2019
+w4ddbac7e8c4.txt | 胎儿生长受限专家共识（2019版） | https://cmab.yiigle.com/uploads/guide_html/%E8%83%8E%E5%84%BF%E7%94%9F%E9%95%BF%E5%8F%97%E9%99%90%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882019%E7%89%88%EF%BC%89.html | 妇产科 | 2019
+w41075af33e2.txt | 正常分娩指南 | https://cmab.yiigle.com/uploads/guide_html/%E6%AD%A3%E5%B8%B8%E5%88%86%E5%A8%A9%E6%8C%87%E5%8D%97.html | 妇产科 | 
+w4449362627f.txt | 细菌性阴道病诊治指南（2021修订版） | https://cmab.yiigle.com/uploads/guide_html/%E7%BB%86%E8%8F%8C%E6%80%A7%E9%98%B4%E9%81%93%E7%97%85%E8%AF%8A%E6%B2%BB%E6%8C%87%E5%8D%97%EF%BC%882021%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89.html | 妇产科 | 2021
+w4c91783e428.txt | 盆腔器官脱垂的中国诊治指南（2020年版） | https://cmab.yiigle.com/uploads/guide_html/%E7%9B%86%E8%85%94%E5%99%A8%E5%AE%98%E8%84%B1%E5%9E%82%E7%9A%84%E4%B8%AD%E5%9B%BD%E8%AF%8A%E6%B2%BB%E6%8C%87%E5%8D%97%EF%BC%882020%E5%B9%B4%E7%89%88%EF%BC%89.html | 妇产科 | 2020
+w447b1b99bc2.txt | 宫腔操作前宫颈预处理专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%AE%AB%E8%85%94%E6%93%8D%E4%BD%9C%E5%89%8D%E5%AE%AB%E9%A2%88%E9%A2%84%E5%A4%84%E7%90%86%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 妇产科 | 
+w4cd19b55755.txt | 胎膜早破的诊断与处理指南（2015） | https://cmab.yiigle.com/uploads/guide_html/%E8%83%8E%E8%86%9C%E6%97%A9%E7%A0%B4%E7%9A%84%E8%AF%8A%E6%96%AD%E4%B8%8E%E5%A4%84%E7%90%86%E6%8C%87%E5%8D%97%EF%BC%882015%EF%BC%89.html | 妇产科 | 2015
+w488026c204e.txt | 多囊卵巢综合征诊治内分泌专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%A4%9A%E5%9B%8A%E5%8D%B5%E5%B7%A2%E7%BB%BC%E5%90%88%E5%BE%81%E8%AF%8A%E6%B2%BB%E5%86%85%E5%88%86%E6%B3%8C%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 妇产科 | 
+w4466fb06910.txt | 剖宫产手术的专家共识（2014） | https://cmab.yiigle.com/uploads/guide_html/%E5%89%96%E5%AE%AB%E4%BA%A7%E6%89%8B%E6%9C%AF%E7%9A%84%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882014%EF%BC%89.html | 妇产科 | 2014
+w44522c57eaf.txt | 绝经管理与绝经激素治疗中国指南（2018） | https://cmab.yiigle.com/uploads/guide_html/%E7%BB%9D%E7%BB%8F%E7%AE%A1%E7%90%86%E4%B8%8E%E7%BB%9D%E7%BB%8F%E6%BF%80%E7%B4%A0%E6%B2%BB%E7%96%97%E4%B8%AD%E5%9B%BD%E6%8C%87%E5%8D%97%EF%BC%882018%EF%BC%89.html | 妇产科 | 2018
+w477380ef902.txt | 妊娠合并糖尿病诊治指南（2014） | https://cmab.yiigle.com/uploads/guide_html/%E5%A6%8A%E5%A8%A0%E5%90%88%E5%B9%B6%E7%B3%96%E5%B0%BF%E7%97%85%E8%AF%8A%E6%B2%BB%E6%8C%87%E5%8D%97%EF%BC%882014%EF%BC%89.html | 妇产科 | 2014
+w42d5efae998.txt | 子宫内膜异位症的诊治指南 | https://cmab.yiigle.com/uploads/guide_html/%E5%AD%90%E5%AE%AB%E5%86%85%E8%86%9C%E5%BC%82%E4%BD%8D%E7%97%87%E7%9A%84%E8%AF%8A%E6%B2%BB%E6%8C%87%E5%8D%97.html | 妇产科 | 
+w49eded72ed1.txt | 剖宫产术后瘢痕子宫孕妇中期妊娠引产的专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%89%96%E5%AE%AB%E4%BA%A7%E6%9C%AF%E5%90%8E%E7%98%A2%E7%97%95%E5%AD%90%E5%AE%AB%E5%AD%95%E5%A6%87%E4%B8%AD%E6%9C%9F%E5%A6%8A%E5%A8%A0%E5%BC%95%E4%BA%A7%E7%9A%84%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 妇产科 | 
+w4816eb7f1df.txt | 子宫内膜异位症长期管理中国专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%AD%90%E5%AE%AB%E5%86%85%E8%86%9C%E5%BC%82%E4%BD%8D%E7%97%87%E9%95%BF%E6%9C%9F%E7%AE%A1%E7%90%86%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 妇产科 | 
+w48a724302f4.txt | 羊水栓塞临床诊断与处理专家共识（2018） | https://cmab.yiigle.com/uploads/guide_html/%E7%BE%8A%E6%B0%B4%E6%A0%93%E5%A1%9E%E4%B8%B4%E5%BA%8A%E8%AF%8A%E6%96%AD%E4%B8%8E%E5%A4%84%E7%90%86%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882018%EF%BC%89.html | 妇产科 | 2018
+w4842124daee.txt | 地中海贫血妊娠期管理专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%9C%B0%E4%B8%AD%E6%B5%B7%E8%B4%AB%E8%A1%80%E5%A6%8A%E5%A8%A0%E6%9C%9F%E7%AE%A1%E7%90%86%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 妇产科 | 
+w45cf0fc24c7.txt | EB病毒感染实验室诊断及临床应用专家共识 | https://cmab.yiigle.com/uploads/guide_html/EB%E7%97%85%E6%AF%92%E6%84%9F%E6%9F%93%E5%AE%9E%E9%AA%8C%E5%AE%A4%E8%AF%8A%E6%96%AD%E5%8F%8A%E4%B8%B4%E5%BA%8A%E5%BA%94%E7%94%A8%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 儿科 | 
+w4b4691f77e9.txt | 早产儿支气管肺发育不良临床管理专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E6%97%A9%E4%BA%A7%E5%84%BF%E6%94%AF%E6%B0%94%E7%AE%A1%E8%82%BA%E5%8F%91%E8%82%B2%E4%B8%8D%E8%89%AF%E4%B8%B4%E5%BA%8A%E7%AE%A1%E7%90%86%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 儿科 | 
+w4078d3ea0d6.txt | 中国儿童肺炎支原体感染实验室诊断规范和临床实践专家共识（2019年） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%84%BF%E7%AB%A5%E8%82%BA%E7%82%8E%E6%94%AF%E5%8E%9F%E4%BD%93%E6%84%9F%E6%9F%93%E5%AE%9E%E9%AA%8C%E5%AE%A4%E8%AF%8A%E6%96%AD%E8%A7%84%E8%8C%83%E5%92%8C%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882019%E5%B9%B4%EF%BC%89.html | 儿科 | 2019
+w4ba52b2f4a8.txt | 儿童社区获得性肺炎诊疗规范(2019年版) | https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E7%A4%BE%E5%8C%BA%E8%8E%B7%E5%BE%97%E6%80%A7%E8%82%BA%E7%82%8E%E8%AF%8A%E7%96%97%E8%A7%84%E8%8C%83%282019%E5%B9%B4%E7%89%88%29.html | 儿科 | 2019
+w48132b921e4.txt | 中国儿童1型糖尿病标准化诊断与治疗专家共识（2020版） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%84%BF%E7%AB%A51%E5%9E%8B%E7%B3%96%E5%B0%BF%E7%97%85%E6%A0%87%E5%87%86%E5%8C%96%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882020%E7%89%88%EF%BC%89.html | 儿科 | 2020
+w48efac65779.txt | 早产儿母乳强化剂使用专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E6%97%A9%E4%BA%A7%E5%84%BF%E6%AF%8D%E4%B9%B3%E5%BC%BA%E5%8C%96%E5%89%82%E4%BD%BF%E7%94%A8%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 儿科 | 
+w4c3ac53df53.txt | 母乳喂养促进策略指南（2018版） | https://cmab.yiigle.com/uploads/guide_html/%E6%AF%8D%E4%B9%B3%E5%96%82%E5%85%BB%E4%BF%83%E8%BF%9B%E7%AD%96%E7%95%A5%E6%8C%87%E5%8D%97%EF%BC%882018%E7%89%88%EF%BC%89.html | 儿科 | 2018
+w42787968a2d.txt | 中国新生儿复苏指南（2016年北京修订） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%94%9F%E5%84%BF%E5%A4%8D%E8%8B%8F%E6%8C%87%E5%8D%97%EF%BC%882016%E5%B9%B4%E5%8C%97%E4%BA%AC%E4%BF%AE%E8%AE%A2%EF%BC%89.html | 儿科 | 2016
+w4181041b22d.txt | 儿童过敏性紫癜循证诊治建议 | https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E8%BF%87%E6%95%8F%E6%80%A7%E7%B4%AB%E7%99%9C%E5%BE%AA%E8%AF%81%E8%AF%8A%E6%B2%BB%E5%BB%BA%E8%AE%AE.html | 儿科 | 
+w42774fbe19a.txt | 儿童社区获得性细菌性脑膜炎诊断与治疗专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E7%A4%BE%E5%8C%BA%E8%8E%B7%E5%BE%97%E6%80%A7%E7%BB%86%E8%8F%8C%E6%80%A7%E8%84%91%E8%86%9C%E7%82%8E%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 儿科 | 
+w48fcc43ff3b.txt | 新生儿窒息诊断的专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E6%96%B0%E7%94%9F%E5%84%BF%E7%AA%92%E6%81%AF%E8%AF%8A%E6%96%AD%E7%9A%84%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 儿科 | 
+w47f78d6843a.txt | 儿童感染性腹泻的诊断与管理 | https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E6%84%9F%E6%9F%93%E6%80%A7%E8%85%B9%E6%B3%BB%E7%9A%84%E8%AF%8A%E6%96%AD%E4%B8%8E%E7%AE%A1%E7%90%86.html | 儿科 | 
+w45ab8a89c7a.txt | 解热镇痛药在儿童发热对症治疗中的合理用药专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E8%A7%A3%E7%83%AD%E9%95%87%E7%97%9B%E8%8D%AF%E5%9C%A8%E5%84%BF%E7%AB%A5%E5%8F%91%E7%83%AD%E5%AF%B9%E7%97%87%E6%B2%BB%E7%96%97%E4%B8%AD%E7%9A%84%E5%90%88%E7%90%86%E7%94%A8%E8%8D%AF%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 儿科 | 
+w4a373994d25.txt | 早产儿经鼻间歇正压通气临床应用指南（2019年版） | https://cmab.yiigle.com/uploads/guide_html/%E6%97%A9%E4%BA%A7%E5%84%BF%E7%BB%8F%E9%BC%BB%E9%97%B4%E6%AD%87%E6%AD%A3%E5%8E%8B%E9%80%9A%E6%B0%94%E4%B8%B4%E5%BA%8A%E5%BA%94%E7%94%A8%E6%8C%87%E5%8D%97%EF%BC%882019%E5%B9%B4%E7%89%88%EF%BC%89.html | 儿科 | 2019
+w4a8957f3335.txt | 儿童炎症性肠病诊断和治疗专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E7%82%8E%E7%97%87%E6%80%A7%E8%82%A0%E7%97%85%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 儿科 | 
+w466fff5686d.txt | 隐睾诊疗专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E9%9A%90%E7%9D%BE%E8%AF%8A%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 小儿外科 | 
+w47b17714d91.txt | 胆道闭锁诊断及治疗指南(2018版) | https://cmab.yiigle.com/uploads/guide_html/%E8%83%86%E9%81%93%E9%97%AD%E9%94%81%E8%AF%8A%E6%96%AD%E5%8F%8A%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%282018%E7%89%88%29.html | 小儿外科 | 2018
+w4ff660ce596.txt | 先天性脊柱裂的常见类型及手术对策专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%85%88%E5%A4%A9%E6%80%A7%E8%84%8A%E6%9F%B1%E8%A3%82%E7%9A%84%E5%B8%B8%E8%A7%81%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%89%8B%E6%9C%AF%E5%AF%B9%E7%AD%96%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 小儿外科 | 
+w4da3e528790.txt | 发育性髋关节发育不良临床诊疗指南(O～2岁) | https://cmab.yiigle.com/uploads/guide_html/%E5%8F%91%E8%82%B2%E6%80%A7%E9%AB%8B%E5%85%B3%E8%8A%82%E5%8F%91%E8%82%B2%E4%B8%8D%E8%89%AF%E4%B8%B4%E5%BA%8A%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%28O%EF%BD%9E2%E5%B2%81%29.html | 小儿外科 | 
+w471a820efa6.txt | 腹腔镜小儿阑尾切除术操作指南(2017版) | https://cmab.yiigle.com/uploads/guide_html/%E8%85%B9%E8%85%94%E9%95%9C%E5%B0%8F%E5%84%BF%E9%98%91%E5%B0%BE%E5%88%87%E9%99%A4%E6%9C%AF%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97%282017%E7%89%88%29.html | 小儿外科 | 2017
+w4cd46682cfb.txt | 基于快速康复的小儿外科围手术期气道管理专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%9F%BA%E4%BA%8E%E5%BF%AB%E9%80%9F%E5%BA%B7%E5%A4%8D%E7%9A%84%E5%B0%8F%E5%84%BF%E5%A4%96%E7%A7%91%E5%9B%B4%E6%89%8B%E6%9C%AF%E6%9C%9F%E6%B0%94%E9%81%93%E7%AE%A1%E7%90%86%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 小儿外科 | 
+w444dc2e9e96.txt | 青少年精索静脉曲张诊治中国小儿泌尿外科专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E9%9D%92%E5%B0%91%E5%B9%B4%E7%B2%BE%E7%B4%A2%E9%9D%99%E8%84%89%E6%9B%B2%E5%BC%A0%E8%AF%8A%E6%B2%BB%E4%B8%AD%E5%9B%BD%E5%B0%8F%E5%84%BF%E6%B3%8C%E5%B0%BF%E5%A4%96%E7%A7%91%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 小儿外科 | 
+w4a52decf351.txt | 小儿肝血管瘤诊断和治疗专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%B0%8F%E5%84%BF%E8%82%9D%E8%A1%80%E7%AE%A1%E7%98%A4%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 小儿外科 | 
+w4bdda5f369b.txt | 儿童遗尿症诊断和治疗中国专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E9%81%97%E5%B0%BF%E7%97%87%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 小儿外科 | 
+w45666ba7d29.txt | 先天性巨结肠症围手术期管理专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%85%88%E5%A4%A9%E6%80%A7%E5%B7%A8%E7%BB%93%E8%82%A0%E7%97%87%E5%9B%B4%E6%89%8B%E6%9C%AF%E6%9C%9F%E7%AE%A1%E7%90%86%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 小儿外科 | 
+w447cc7d2992.txt | 儿童胰胆管合流异常临床实践专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E8%83%B0%E8%83%86%E7%AE%A1%E5%90%88%E6%B5%81%E5%BC%82%E5%B8%B8%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 小儿外科 | 
+w4ec5bb808a1.txt | 儿童常见先天性心脏病介入治疗专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E5%B8%B8%E8%A7%81%E5%85%88%E5%A4%A9%E6%80%A7%E5%BF%83%E8%84%8F%E7%97%85%E4%BB%8B%E5%85%A5%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 小儿外科 | 
+w4212af30274.txt | 腹腔镜胆总管囊肿手术操作指南(2017版) | https://cmab.yiigle.com/uploads/guide_html/%E8%85%B9%E8%85%94%E9%95%9C%E8%83%86%E6%80%BB%E7%AE%A1%E5%9B%8A%E8%82%BF%E6%89%8B%E6%9C%AF%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97%282017%E7%89%88%29.html | 小儿外科 | 2017
+w452f518c66a.txt | 中国心脏出生缺陷围产期诊断和临床评估处置专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%BF%83%E8%84%8F%E5%87%BA%E7%94%9F%E7%BC%BA%E9%99%B7%E5%9B%B4%E4%BA%A7%E6%9C%9F%E8%AF%8A%E6%96%AD%E5%92%8C%E4%B8%B4%E5%BA%8A%E8%AF%84%E4%BC%B0%E5%A4%84%E7%BD%AE%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 小儿外科 | 
+w4418ee3a4b6.txt | 新生儿危重先天性心脏病术前评估中国专家共识(草案) | https://cmab.yiigle.com/uploads/guide_html/%E6%96%B0%E7%94%9F%E5%84%BF%E5%8D%B1%E9%87%8D%E5%85%88%E5%A4%A9%E6%80%A7%E5%BF%83%E8%84%8F%E7%97%85%E6%9C%AF%E5%89%8D%E8%AF%84%E4%BC%B0%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%28%E8%8D%89%E6%A1%88%29.html | 小儿外科 | 
+w4cabebb9f72.txt | 漏斗胸外科治疗中国专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E6%BC%8F%E6%96%97%E8%83%B8%E5%A4%96%E7%A7%91%E6%B2%BB%E7%96%97%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 小儿外科 | 
+w4e9d5426a4d.txt | 儿童夜间遗尿症诊治指南 | https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E5%A4%9C%E9%97%B4%E9%81%97%E5%B0%BF%E7%97%87%E8%AF%8A%E6%B2%BB%E6%8C%87%E5%8D%97.html | 小儿外科 | 
+w4fed36958f9.txt | 胎儿先天性心脏病诊断及围产期管理专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E8%83%8E%E5%84%BF%E5%85%88%E5%A4%A9%E6%80%A7%E5%BF%83%E8%84%8F%E7%97%85%E8%AF%8A%E6%96%AD%E5%8F%8A%E5%9B%B4%E4%BA%A7%E6%9C%9F%E7%AE%A1%E7%90%86%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 小儿外科 | 
+w452cba009a3.txt | 尿道下裂专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%B0%BF%E9%81%93%E4%B8%8B%E8%A3%82%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 小儿外科 | 
+w44031b3cf24.txt | 先天性膈疝修补术专家共识及腔镜手术操作指南(2017版) | https://cmab.yiigle.com/uploads/guide_html/%E5%85%88%E5%A4%A9%E6%80%A7%E8%86%88%E7%96%9D%E4%BF%AE%E8%A1%A5%E6%9C%AF%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%E5%8F%8A%E8%85%94%E9%95%9C%E6%89%8B%E6%9C%AF%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97%282017%E7%89%88%29.html | 小儿外科 | 2017
+w4907b7a95ba.txt | 中国儿童体格生长评价建议 | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%84%BF%E7%AB%A5%E4%BD%93%E6%A0%BC%E7%94%9F%E9%95%BF%E8%AF%84%E4%BB%B7%E5%BB%BA%E8%AE%AE.html | 儿童保健科 | 
+w4f7fe6473ff.txt | 孤独症谱系障碍儿童早期识别筛查和早期干预专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%AD%A4%E7%8B%AC%E7%97%87%E8%B0%B1%E7%B3%BB%E9%9A%9C%E7%A2%8D%E5%84%BF%E7%AB%A5%E6%97%A9%E6%9C%9F%E8%AF%86%E5%88%AB%E7%AD%9B%E6%9F%A5%E5%92%8C%E6%97%A9%E6%9C%9F%E5%B9%B2%E9%A2%84%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 儿童保健科 | 
+w4259376c333.txt | 新生儿早期基本保健技术的临床实施建议（2017年，北京） | https://cmab.yiigle.com/uploads/guide_html/%E6%96%B0%E7%94%9F%E5%84%BF%E6%97%A9%E6%9C%9F%E5%9F%BA%E6%9C%AC%E4%BF%9D%E5%81%A5%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%B4%E5%BA%8A%E5%AE%9E%E6%96%BD%E5%BB%BA%E8%AE%AE%EF%BC%882017%E5%B9%B4%EF%BC%8C%E5%8C%97%E4%BA%AC%EF%BC%89.html | 儿童保健科 | 2017
+w403cb92f278.txt | 孤独症谱系障碍患儿常见共患问题的识别与处理原则 | https://cmab.yiigle.com/uploads/guide_html/%E5%AD%A4%E7%8B%AC%E7%97%87%E8%B0%B1%E7%B3%BB%E9%9A%9C%E7%A2%8D%E6%82%A3%E5%84%BF%E5%B8%B8%E8%A7%81%E5%85%B1%E6%82%A3%E9%97%AE%E9%A2%98%E7%9A%84%E8%AF%86%E5%88%AB%E4%B8%8E%E5%A4%84%E7%90%86%E5%8E%9F%E5%88%99.html | 儿童保健科 | 
+w496d0ad876d.txt | 婴幼儿精神发育迟滞的诊断及早期干预 | https://cmab.yiigle.com/uploads/guide_html/%E5%A9%B4%E5%B9%BC%E5%84%BF%E7%B2%BE%E7%A5%9E%E5%8F%91%E8%82%B2%E8%BF%9F%E6%BB%9E%E7%9A%84%E8%AF%8A%E6%96%AD%E5%8F%8A%E6%97%A9%E6%9C%9F%E5%B9%B2%E9%A2%84.html | 儿童保健科 | 
+w4d2c60926e2.txt | 中国白内障围手术期干眼防治专家共识（2021年） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E7%99%BD%E5%86%85%E9%9A%9C%E5%9B%B4%E6%89%8B%E6%9C%AF%E6%9C%9F%E5%B9%B2%E7%9C%BC%E9%98%B2%E6%B2%BB%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882021%E5%B9%B4%EF%BC%89.html | 眼科 | 2021
+w4c9d894588d.txt | 中国高眼压症诊断治疗和随访专家共识（2020年） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%AB%98%E7%9C%BC%E5%8E%8B%E7%97%87%E8%AF%8A%E6%96%AD%E6%B2%BB%E7%96%97%E5%92%8C%E9%9A%8F%E8%AE%BF%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882020%E5%B9%B4%EF%BC%89.html | 眼科 | 2020
+w4d843f05d22.txt | 视网膜色素变性的临床实践指南 | https://cmab.yiigle.com/uploads/guide_html/%E8%A7%86%E7%BD%91%E8%86%9C%E8%89%B2%E7%B4%A0%E5%8F%98%E6%80%A7%E7%9A%84%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97.html | 眼科 | 
+w42e059980ad.txt | 我国急性前葡萄膜炎临床诊疗专家共识（2016年） | https://cmab.yiigle.com/uploads/guide_html/%E6%88%91%E5%9B%BD%E6%80%A5%E6%80%A7%E5%89%8D%E8%91%A1%E8%90%84%E8%86%9C%E7%82%8E%E4%B8%B4%E5%BA%8A%E8%AF%8A%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882016%E5%B9%B4%EF%BC%89.html | 眼科 | 2016
+w46d8a3f8aec.txt | 中国葡萄膜炎诊疗中眼内液检测专家共识（2020年） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E8%91%A1%E8%90%84%E8%86%9C%E7%82%8E%E8%AF%8A%E7%96%97%E4%B8%AD%E7%9C%BC%E5%86%85%E6%B6%B2%E6%A3%80%E6%B5%8B%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882020%E5%B9%B4%EF%BC%89.html | 眼科 | 2020
+w4db6c62279e.txt | 近视管理白皮书（2019） | https://cmab.yiigle.com/uploads/guide_html/%E8%BF%91%E8%A7%86%E7%AE%A1%E7%90%86%E7%99%BD%E7%9A%AE%E4%B9%A6%EF%BC%882019%EF%BC%89.html | 眼科 | 2019
+w4b4dd34f526.txt | 儿童屈光矫正专家共识（2017） | https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E5%B1%88%E5%85%89%E7%9F%AB%E6%AD%A3%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882017%EF%BC%89.html | 眼科 | 2017
+w418ae560542.txt | 中国多焦点人工晶状体临床应用专家共识（2019年） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%A4%9A%E7%84%A6%E7%82%B9%E4%BA%BA%E5%B7%A5%E6%99%B6%E7%8A%B6%E4%BD%93%E4%B8%B4%E5%BA%8A%E5%BA%94%E7%94%A8%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882019%E5%B9%B4%EF%BC%89.html | 眼科 | 2019
+w489bd7e59da.txt | 中国干眼专家共识：定义和分类（2020年） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%B9%B2%E7%9C%BC%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%9A%E5%AE%9A%E4%B9%89%E5%92%8C%E5%88%86%E7%B1%BB%EF%BC%882020%E5%B9%B4%EF%BC%89.html | 眼科 | 2020
+w4428434b960.txt | 我国过敏性结膜炎诊断和治疗专家共识(2018年) | https://cmab.yiigle.com/uploads/guide_html/%E6%88%91%E5%9B%BD%E8%BF%87%E6%95%8F%E6%80%A7%E7%BB%93%E8%86%9C%E7%82%8E%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282018%E5%B9%B4%29.html | 眼科 | 2018
+w49f771c86b2.txt | 中国眼外伤急诊救治规范专家共识（2019年） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E7%9C%BC%E5%A4%96%E4%BC%A4%E6%80%A5%E8%AF%8A%E6%95%91%E6%B2%BB%E8%A7%84%E8%8C%83%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882019%E5%B9%B4%EF%BC%89.html | 眼科 | 2019
+w4af21ebc872.txt | 中国圆锥角膜诊断和治疗专家共识（2019年） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%9C%86%E9%94%A5%E8%A7%92%E8%86%9C%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882019%E5%B9%B4%EF%BC%89.html | 眼科 | 2019
+w43e93b27ae3.txt | 中国干眼专家共识：治疗（2020年） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%B9%B2%E7%9C%BC%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%9A%E6%B2%BB%E7%96%97%EF%BC%882020%E5%B9%B4%EF%BC%89.html | 眼科 | 2020
+w4e5e2f34722.txt | 中国干眼专家共识：检查和诊断（2020年） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%B9%B2%E7%9C%BC%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%9A%E6%A3%80%E6%9F%A5%E5%92%8C%E8%AF%8A%E6%96%AD%EF%BC%882020%E5%B9%B4%EF%BC%89.html | 眼科 | 2020
+w4484ffe848d.txt | 中国有晶状体眼后房型人工晶状体植入术专家共识（2019年） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%9C%89%E6%99%B6%E7%8A%B6%E4%BD%93%E7%9C%BC%E5%90%8E%E6%88%BF%E5%9E%8B%E4%BA%BA%E5%B7%A5%E6%99%B6%E7%8A%B6%E4%BD%93%E6%A4%8D%E5%85%A5%E6%9C%AF%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882019%E5%B9%B4%EF%BC%89.html | 眼科 | 2019
+w43a9028e9a0.txt | 我国角膜地形图引导个性化激光角膜屈光手术专家共识(2018年) | https://cmab.yiigle.com/uploads/guide_html/%E6%88%91%E5%9B%BD%E8%A7%92%E8%86%9C%E5%9C%B0%E5%BD%A2%E5%9B%BE%E5%BC%95%E5%AF%BC%E4%B8%AA%E6%80%A7%E5%8C%96%E6%BF%80%E5%85%89%E8%A7%92%E8%86%9C%E5%B1%88%E5%85%89%E6%89%8B%E6%9C%AF%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282018%E5%B9%B4%29.html | 眼科 | 2018
+w4ec021e68e6.txt | 我国散光矫正型人工晶状体临床应用专家共识（2017年） | https://cmab.yiigle.com/uploads/guide_html/%E6%88%91%E5%9B%BD%E6%95%A3%E5%85%89%E7%9F%AB%E6%AD%A3%E5%9E%8B%E4%BA%BA%E5%B7%A5%E6%99%B6%E7%8A%B6%E4%BD%93%E4%B8%B4%E5%BA%8A%E5%BA%94%E7%94%A8%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882017%E5%B9%B4%EF%BC%89.html | 眼科 | 2017
+w45cd92039b5.txt | 中国基于眼底照相的人工智能青光眼辅助筛查系统规范化设计及应用指南（2020年） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%9F%BA%E4%BA%8E%E7%9C%BC%E5%BA%95%E7%85%A7%E7%9B%B8%E7%9A%84%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%9D%92%E5%85%89%E7%9C%BC%E8%BE%85%E5%8A%A9%E7%AD%9B%E6%9F%A5%E7%B3%BB%E7%BB%9F%E8%A7%84%E8%8C%83%E5%8C%96%E8%AE%BE%E8%AE%A1%E5%8F%8A%E5%BA%94%E7%94%A8%E6%8C%87%E5%8D%97%EF%BC%882020%E5%B9%B4%EF%BC%89.html | 眼科 | 2020
+w4e1a9bb0e98.txt | 我国斜视分类专家共识（2015年） | https://cmab.yiigle.com/uploads/guide_html/%E6%88%91%E5%9B%BD%E6%96%9C%E8%A7%86%E5%88%86%E7%B1%BB%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882015%E5%B9%B4%EF%BC%89.html | 眼科 | 2015
+w4ef98ca384b.txt | 眼遗传病基因诊断方法专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E7%9C%BC%E9%81%97%E4%BC%A0%E7%97%85%E5%9F%BA%E5%9B%A0%E8%AF%8A%E6%96%AD%E6%96%B9%E6%B3%95%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 眼科 | 
+w4de03a7e61c.txt | 视觉电生理诊断流程指南 | https://cmab.yiigle.com/uploads/guide_html/%E8%A7%86%E8%A7%89%E7%94%B5%E7%94%9F%E7%90%86%E8%AF%8A%E6%96%AD%E6%B5%81%E7%A8%8B%E6%8C%87%E5%8D%97.html | 眼科 | 
+w49745755b7d.txt | 良性阵发性位置性眩晕诊断和治疗指南(2017) | https://cmab.yiigle.com/uploads/guide_html/%E8%89%AF%E6%80%A7%E9%98%B5%E5%8F%91%E6%80%A7%E4%BD%8D%E7%BD%AE%E6%80%A7%E7%9C%A9%E6%99%95%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%282017%29.html | 耳鼻咽喉科 | 2017
+w4133dd87feb.txt | 遗传性耳聋基因筛查规范 | https://cmab.yiigle.com/uploads/guide_html/%E9%81%97%E4%BC%A0%E6%80%A7%E8%80%B3%E8%81%8B%E5%9F%BA%E5%9B%A0%E7%AD%9B%E6%9F%A5%E8%A7%84%E8%8C%83.html | 耳鼻咽喉科 | 
+w481f430a553.txt | 嗅觉障碍诊断和治疗专家共识(2017年) | https://cmab.yiigle.com/uploads/guide_html/%E5%97%85%E8%A7%89%E9%9A%9C%E7%A2%8D%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282017%E5%B9%B4%29.html | 耳鼻咽喉科 | 2017
+w49344443b29.txt | 咽喉反流性疾病诊断与治疗专家共识(2015年) | https://cmab.yiigle.com/uploads/guide_html/%E5%92%BD%E5%96%89%E5%8F%8D%E6%B5%81%E6%80%A7%E7%96%BE%E7%97%85%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282015%E5%B9%B4%29.html | 耳鼻咽喉科 | 2015
+w4c7f837a73c.txt | 中国儿童气管支气管异物诊断与治疗专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%84%BF%E7%AB%A5%E6%B0%94%E7%AE%A1%E6%94%AF%E6%B0%94%E7%AE%A1%E5%BC%82%E7%89%A9%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 耳鼻咽喉科 | 
+w4c4ab1f994c.txt | 突发性聋的高压氧治疗(2018年) | https://cmab.yiigle.com/uploads/guide_html/%E7%AA%81%E5%8F%91%E6%80%A7%E8%81%8B%E7%9A%84%E9%AB%98%E5%8E%8B%E6%B0%A7%E6%B2%BB%E7%96%97%282018%E5%B9%B4%29.html | 耳鼻咽喉科 | 2018
+w4c296d6760c.txt | 下咽癌外科手术及综合治疗专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%8B%E5%92%BD%E7%99%8C%E5%A4%96%E7%A7%91%E6%89%8B%E6%9C%AF%E5%8F%8A%E7%BB%BC%E5%90%88%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 耳鼻咽喉科 | 
+w4189243e5c5.txt | 变应性鼻炎诊断和治疗指南(2015年，天津) | https://cmab.yiigle.com/uploads/guide_html/%E5%8F%98%E5%BA%94%E6%80%A7%E9%BC%BB%E7%82%8E%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%282015%E5%B9%B4%EF%BC%8C%E5%A4%A9%E6%B4%A5%29.html | 耳鼻咽喉科 | 2015
+w479ddebe048.txt | 婴幼儿听力损失诊断与干预指南 | https://cmab.yiigle.com/uploads/guide_html/%E5%A9%B4%E5%B9%BC%E5%84%BF%E5%90%AC%E5%8A%9B%E6%8D%9F%E5%A4%B1%E8%AF%8A%E6%96%AD%E4%B8%8E%E5%B9%B2%E9%A2%84%E6%8C%87%E5%8D%97.html | 耳鼻咽喉科 | 
+w446f36aec8b.txt | 中国听性脑干反应临床操作规范专家共识（2020） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%90%AC%E6%80%A7%E8%84%91%E5%B9%B2%E5%8F%8D%E5%BA%94%E4%B8%B4%E5%BA%8A%E6%93%8D%E4%BD%9C%E8%A7%84%E8%8C%83%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882020%EF%BC%89.html | 耳鼻咽喉科 | 2020
+w4a888a635ee.txt | 中国鼻咽癌分期2017版(2008鼻咽癌分期修订专家共识) | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%BC%BB%E5%92%BD%E7%99%8C%E5%88%86%E6%9C%9F2017%E7%89%88%282008%E9%BC%BB%E5%92%BD%E7%99%8C%E5%88%86%E6%9C%9F%E4%BF%AE%E8%AE%A2%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%29.html | 耳鼻咽喉科 | 2017
+w48d4e2e1521.txt | 咽鼓管功能障碍专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%92%BD%E9%BC%93%E7%AE%A1%E5%8A%9F%E8%83%BD%E9%9A%9C%E7%A2%8D%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 耳鼻咽喉科 | 
+w41d995425d3.txt | 复发鼻咽癌治疗专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%A4%8D%E5%8F%91%E9%BC%BB%E5%92%BD%E7%99%8C%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 耳鼻咽喉科 | 
+w42743d51850.txt | 鼻出血诊断及治疗指南(草案) | https://cmab.yiigle.com/uploads/guide_html/%E9%BC%BB%E5%87%BA%E8%A1%80%E8%AF%8A%E6%96%AD%E5%8F%8A%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%28%E8%8D%89%E6%A1%88%29.html | 耳鼻咽喉科 | 
+w47d2ac2568c.txt | 喉白斑诊断与治疗专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%96%89%E7%99%BD%E6%96%91%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 耳鼻咽喉科 | 
+w48756792c8f.txt | 转移性鼻咽癌治疗专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E8%BD%AC%E7%A7%BB%E6%80%A7%E9%BC%BB%E5%92%BD%E7%99%8C%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 耳鼻咽喉科 | 
+w49406496196.txt | 喉气管狭窄诊断与治疗专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%96%89%E6%B0%94%E7%AE%A1%E7%8B%AD%E7%AA%84%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 耳鼻咽喉科 | 
+w45ccd212c52.txt | 老年听力损失诊断与干预专家共识（2019） | https://cmab.yiigle.com/uploads/guide_html/%E8%80%81%E5%B9%B4%E5%90%AC%E5%8A%9B%E6%8D%9F%E5%A4%B1%E8%AF%8A%E6%96%AD%E4%B8%8E%E5%B9%B2%E9%A2%84%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882019%EF%BC%89.html | 耳鼻咽喉科 | 2019
+w4087d96d1f9.txt | 搏动性耳鸣影像学检查方法与路径指南 | https://cmab.yiigle.com/uploads/guide_html/%E6%90%8F%E5%8A%A8%E6%80%A7%E8%80%B3%E9%B8%A3%E5%BD%B1%E5%83%8F%E5%AD%A6%E6%A3%80%E6%9F%A5%E6%96%B9%E6%B3%95%E4%B8%8E%E8%B7%AF%E5%BE%84%E6%8C%87%E5%8D%97.html | 耳鼻咽喉科 | 
+w4e1edd0eb4c.txt | Ⅳ期原发性肺癌中国治疗指南(2021年版) | https://cmab.yiigle.com/uploads/guide_html/%E2%85%A3%E6%9C%9F%E5%8E%9F%E5%8F%91%E6%80%A7%E8%82%BA%E7%99%8C%E4%B8%AD%E5%9B%BD%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%282021%E5%B9%B4%E7%89%88%29.html | 肿瘤科 | 2021
+w458f15f6881.txt | 中国腹腔热灌注化疗技术临床应用专家共识（2019版） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E8%85%B9%E8%85%94%E7%83%AD%E7%81%8C%E6%B3%A8%E5%8C%96%E7%96%97%E6%8A%80%E6%9C%AF%E4%B8%B4%E5%BA%8A%E5%BA%94%E7%94%A8%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882019%E7%89%88%EF%BC%89.html | 肿瘤科 | 2019
+w486131c5fa3.txt | 晚期非小细胞肺癌抗血管生成药物治疗中国专家共识（2020版） | https://cmab.yiigle.com/uploads/guide_html/%E6%99%9A%E6%9C%9F%E9%9D%9E%E5%B0%8F%E7%BB%86%E8%83%9E%E8%82%BA%E7%99%8C%E6%8A%97%E8%A1%80%E7%AE%A1%E7%94%9F%E6%88%90%E8%8D%AF%E7%89%A9%E6%B2%BB%E7%96%97%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882020%E7%89%88%EF%BC%89.html | 肿瘤科 | 2020
+w482b1555d8b.txt | 同步放化疗期间应用聚乙二醇化重组人粒细胞刺激因子中国专家共识(2020版) | https://cmab.yiigle.com/uploads/guide_html/%E5%90%8C%E6%AD%A5%E6%94%BE%E5%8C%96%E7%96%97%E6%9C%9F%E9%97%B4%E5%BA%94%E7%94%A8%E8%81%9A%E4%B9%99%E4%BA%8C%E9%86%87%E5%8C%96%E9%87%8D%E7%BB%84%E4%BA%BA%E7%B2%92%E7%BB%86%E8%83%9E%E5%88%BA%E6%BF%80%E5%9B%A0%E5%AD%90%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282020%E7%89%88%29.html | 肿瘤科 | 2020
+w4a072294beb.txt | 淋巴瘤相关噬血细胞综合征诊治中国专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E6%B7%8B%E5%B7%B4%E7%98%A4%E7%9B%B8%E5%85%B3%E5%99%AC%E8%A1%80%E7%BB%86%E8%83%9E%E7%BB%BC%E5%90%88%E5%BE%81%E8%AF%8A%E6%B2%BB%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 肿瘤科 | 
+w4351eddf7c6.txt | 中国晚期乳腺癌维持治疗专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%99%9A%E6%9C%9F%E4%B9%B3%E8%85%BA%E7%99%8C%E7%BB%B4%E6%8C%81%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 肿瘤科 | 
+w4b6846a26c5.txt | 抗体药物偶联物治疗恶性肿瘤临床应用专家共识(2020版) | https://cmab.yiigle.com/uploads/guide_html/%E6%8A%97%E4%BD%93%E8%8D%AF%E7%89%A9%E5%81%B6%E8%81%94%E7%89%A9%E6%B2%BB%E7%96%97%E6%81%B6%E6%80%A7%E8%82%BF%E7%98%A4%E4%B8%B4%E5%BA%8A%E5%BA%94%E7%94%A8%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282020%E7%89%88%29.html | 肿瘤科 | 2020
+w45d329960ff.txt | 肿瘤化疗所致血小板减少症诊疗中国专家共识(2018版) | https://cmab.yiigle.com/uploads/guide_html/%E8%82%BF%E7%98%A4%E5%8C%96%E7%96%97%E6%89%80%E8%87%B4%E8%A1%80%E5%B0%8F%E6%9D%BF%E5%87%8F%E5%B0%91%E7%97%87%E8%AF%8A%E7%96%97%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282018%E7%89%88%29.html | 肿瘤科 | 2018
+w45c4d017e8f.txt | 紫杉类药物相关周围神经病变规范化管理专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E7%B4%AB%E6%9D%89%E7%B1%BB%E8%8D%AF%E7%89%A9%E7%9B%B8%E5%85%B3%E5%91%A8%E5%9B%B4%E7%A5%9E%E7%BB%8F%E7%97%85%E5%8F%98%E8%A7%84%E8%8C%83%E5%8C%96%E7%AE%A1%E7%90%86%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 肿瘤科 | 
+w452cbe149bf.txt | 遗传性结直肠癌临床诊治和家系管理中国专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E9%81%97%E4%BC%A0%E6%80%A7%E7%BB%93%E7%9B%B4%E8%82%A0%E7%99%8C%E4%B8%B4%E5%BA%8A%E8%AF%8A%E6%B2%BB%E5%92%8C%E5%AE%B6%E7%B3%BB%E7%AE%A1%E7%90%86%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 肿瘤科 | 
+w49933ffb56d.txt | 中国成人ICU镇痛和镇静治疗指南 | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%88%90%E4%BA%BAICU%E9%95%87%E7%97%9B%E5%92%8C%E9%95%87%E9%9D%99%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97.html | 重症医学科 | 
+w44a5988f8a5.txt | 2016年脓毒症与脓毒性休克处理国际指南 | https://cmab.yiigle.com/uploads/guide_html/2016%E5%B9%B4%E8%84%93%E6%AF%92%E7%97%87%E4%B8%8E%E8%84%93%E6%AF%92%E6%80%A7%E4%BC%91%E5%85%8B%E5%A4%84%E7%90%86%E5%9B%BD%E9%99%85%E6%8C%87%E5%8D%97.html | 重症医学科 | 2016
+w4083b8a6934.txt | 重症患者早期肠内营养临床实践专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E9%87%8D%E7%97%87%E6%82%A3%E8%80%85%E6%97%A9%E6%9C%9F%E8%82%A0%E5%86%85%E8%90%A5%E5%85%BB%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 重症医学科 | 
+w4900ca8d763.txt | 脓毒症液体治疗急诊专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E8%84%93%E6%AF%92%E7%97%87%E6%B6%B2%E4%BD%93%E6%B2%BB%E7%96%97%E6%80%A5%E8%AF%8A%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 重症医学科 | 
+w41d948bb388.txt | 急诊危重症患者院内转运共识——标准化分级转运方案 | https://cmab.yiigle.com/uploads/guide_html/%E6%80%A5%E8%AF%8A%E5%8D%B1%E9%87%8D%E7%97%87%E6%82%A3%E8%80%85%E9%99%A2%E5%86%85%E8%BD%AC%E8%BF%90%E5%85%B1%E8%AF%86%E2%80%94%E2%80%94%E6%A0%87%E5%87%86%E5%8C%96%E5%88%86%E7%BA%A7%E8%BD%AC%E8%BF%90%E6%96%B9%E6%A1%88.html | 重症医学科 | 
+w409ec682a3e.txt | 急性呼吸窘迫综合征患者机械通气指南(试行) | https://cmab.yiigle.com/uploads/guide_html/%E6%80%A5%E6%80%A7%E5%91%BC%E5%90%B8%E7%AA%98%E8%BF%AB%E7%BB%BC%E5%90%88%E5%BE%81%E6%82%A3%E8%80%85%E6%9C%BA%E6%A2%B0%E9%80%9A%E6%B0%94%E6%8C%87%E5%8D%97%28%E8%AF%95%E8%A1%8C%29.html | 重症医学科 | 
+w48aee7d01d4.txt | 亚低温脑保护中国专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E4%BA%9A%E4%BD%8E%E6%B8%A9%E8%84%91%E4%BF%9D%E6%8A%A4%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 重症医学科 | 
+w4316c1375e2.txt | 重症血流动力学治疗——北京共识 | https://cmab.yiigle.com/uploads/guide_html/%E9%87%8D%E7%97%87%E8%A1%80%E6%B5%81%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%B2%BB%E7%96%97%E2%80%94%E2%80%94%E5%8C%97%E4%BA%AC%E5%85%B1%E8%AF%86.html | 重症医学科 | 
+w4d3c9308734.txt | 脓毒症并发弥散性血管内凝血诊治急诊专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E8%84%93%E6%AF%92%E7%97%87%E5%B9%B6%E5%8F%91%E5%BC%A5%E6%95%A3%E6%80%A7%E8%A1%80%E7%AE%A1%E5%86%85%E5%87%9D%E8%A1%80%E8%AF%8A%E6%B2%BB%E6%80%A5%E8%AF%8A%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 重症医学科 | 
+w453e54bfe37.txt | 成人体外膜氧合循环辅助专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E6%88%90%E4%BA%BA%E4%BD%93%E5%A4%96%E8%86%9C%E6%B0%A7%E5%90%88%E5%BE%AA%E7%8E%AF%E8%BE%85%E5%8A%A9%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 重症医学科 | 
+w4b97f7f5d46.txt | 中国神经外科重症患者感染诊治专家共识(2017) | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E7%A5%9E%E7%BB%8F%E5%A4%96%E7%A7%91%E9%87%8D%E7%97%87%E6%82%A3%E8%80%85%E6%84%9F%E6%9F%93%E8%AF%8A%E6%B2%BB%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282017%29.html | 重症医学科 | 2017
+w42d894add5e.txt | 2018中国心肺复苏培训专家共识 | https://cmab.yiigle.com/uploads/guide_html/2018%E4%B8%AD%E5%9B%BD%E5%BF%83%E8%82%BA%E5%A4%8D%E8%8B%8F%E5%9F%B9%E8%AE%AD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 急诊医学科 | 2018
+w4634b1d315a.txt | 急诊开放性伤口清创缝合术专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E6%80%A5%E8%AF%8A%E5%BC%80%E6%94%BE%E6%80%A7%E4%BC%A4%E5%8F%A3%E6%B8%85%E5%88%9B%E7%BC%9D%E5%90%88%E6%9C%AF%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 急诊医学科 | 
+w4ce1e649e61.txt | 急性胸痛急诊诊疗专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E6%80%A5%E6%80%A7%E8%83%B8%E7%97%9B%E6%80%A5%E8%AF%8A%E8%AF%8A%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 急诊医学科 | 
+w4edb793ae5a.txt | 中国急诊感染性休克临床实践指南 | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%80%A5%E8%AF%8A%E6%84%9F%E6%9F%93%E6%80%A7%E4%BC%91%E5%85%8B%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97.html | 急诊医学科 | 
+w4f8c474a705.txt | 创伤失血性休克诊治中国急诊专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%88%9B%E4%BC%A4%E5%A4%B1%E8%A1%80%E6%80%A7%E4%BC%91%E5%85%8B%E8%AF%8A%E6%B2%BB%E4%B8%AD%E5%9B%BD%E6%80%A5%E8%AF%8A%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 急诊医学科 | 
+w40ef3a5d6b7.txt | 中国急诊急性心力衰竭单元建设与管理专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%80%A5%E8%AF%8A%E6%80%A5%E6%80%A7%E5%BF%83%E5%8A%9B%E8%A1%B0%E7%AB%AD%E5%8D%95%E5%85%83%E5%BB%BA%E8%AE%BE%E4%B8%8E%E7%AE%A1%E7%90%86%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 急诊医学科 | 
+w463c4586fc4.txt | 成人体外心肺复苏专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E6%88%90%E4%BA%BA%E4%BD%93%E5%A4%96%E5%BF%83%E8%82%BA%E5%A4%8D%E8%8B%8F%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 急诊医学科 | 
+w4000cb16769.txt | 血凝酶在急性出血性疾病中应用的专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E8%A1%80%E5%87%9D%E9%85%B6%E5%9C%A8%E6%80%A5%E6%80%A7%E5%87%BA%E8%A1%80%E6%80%A7%E7%96%BE%E7%97%85%E4%B8%AD%E5%BA%94%E7%94%A8%E7%9A%84%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 急诊医学科 | 
+w4e36d05111c.txt | 急性中毒诊断与治疗中国专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E6%80%A5%E6%80%A7%E4%B8%AD%E6%AF%92%E8%AF%8A%E6%96%AD%E4%B8%8E%E6%B2%BB%E7%96%97%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 急诊医学科 | 
+w4adc7a12955.txt | 急诊氧气治疗专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E6%80%A5%E8%AF%8A%E6%B0%A7%E6%B0%94%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 急诊医学科 | 
+w493b124805a.txt | 2016中国心肺复苏专家共识 | https://cmab.yiigle.com/uploads/guide_html/2016%E4%B8%AD%E5%9B%BD%E5%BF%83%E8%82%BA%E5%A4%8D%E8%8B%8F%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 急诊医学科 | 2016
+w4d42a08fb51.txt | 成人体外膜肺氧合辅助心肺复苏（ECPR）实践路径 | https://cmab.yiigle.com/uploads/guide_html/%E6%88%90%E4%BA%BA%E4%BD%93%E5%A4%96%E8%86%9C%E8%82%BA%E6%B0%A7%E5%90%88%E8%BE%85%E5%8A%A9%E5%BF%83%E8%82%BA%E5%A4%8D%E8%8B%8F%EF%BC%88ECPR%EF%BC%89%E5%AE%9E%E8%B7%B5%E8%B7%AF%E5%BE%84.html | 急诊医学科 | 
+w4440dd9a689.txt | 中国急诊营养治疗推荐 | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%80%A5%E8%AF%8A%E8%90%A5%E5%85%BB%E6%B2%BB%E7%96%97%E6%8E%A8%E8%8D%90.html | 急诊医学科 | 
+w41714eb5f4b.txt | 急性循环衰竭中国急诊临床实践专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E6%80%A5%E6%80%A7%E5%BE%AA%E7%8E%AF%E8%A1%B0%E7%AB%AD%E4%B8%AD%E5%9B%BD%E6%80%A5%E8%AF%8A%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 急诊医学科 | 
+w440ebd0de80.txt | 不明原因休克急诊超声临床实践专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%8D%E6%98%8E%E5%8E%9F%E5%9B%A0%E4%BC%91%E5%85%8B%E6%80%A5%E8%AF%8A%E8%B6%85%E5%A3%B0%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 急诊医学科 | 
+w45620bf96b8.txt | 无创正压通气急诊临床实践专家共识（2018） | https://cmab.yiigle.com/uploads/guide_html/%E6%97%A0%E5%88%9B%E6%AD%A3%E5%8E%8B%E9%80%9A%E6%B0%94%E6%80%A5%E8%AF%8A%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882018%EF%BC%89.html | 急诊医学科 | 2018
+w4cead8b58e9.txt | 2019创伤性休克急救复苏创新技术临床应用中国专家共识 | https://cmab.yiigle.com/uploads/guide_html/2019%E5%88%9B%E4%BC%A4%E6%80%A7%E4%BC%91%E5%85%8B%E6%80%A5%E6%95%91%E5%A4%8D%E8%8B%8F%E5%88%9B%E6%96%B0%E6%8A%80%E6%9C%AF%E4%B8%B4%E5%BA%8A%E5%BA%94%E7%94%A8%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 急诊医学科 | 2019
+w498d61b5a3c.txt | 梅毒、淋病和生殖道沙眼衣原体感染诊疗指南（2020年） | https://cmab.yiigle.com/uploads/guide_html/%E6%A2%85%E6%AF%92%E3%80%81%E6%B7%8B%E7%97%85%E5%92%8C%E7%94%9F%E6%AE%96%E9%81%93%E6%B2%99%E7%9C%BC%E8%A1%A3%E5%8E%9F%E4%BD%93%E6%84%9F%E6%9F%93%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882020%E5%B9%B4%EF%BC%89.html | 皮肤科 | 2020
+w46c4dae5833.txt | 中国手部湿疹诊疗专家共识（2021版） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%89%8B%E9%83%A8%E6%B9%BF%E7%96%B9%E8%AF%8A%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882021%E7%89%88%EF%BC%89.html | 皮肤科 | 2021
+w486ccc094e6.txt | 带状疱疹中国专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E5%B8%A6%E7%8A%B6%E7%96%B1%E7%96%B9%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 皮肤科 | 
+w46a598b380a.txt | 中国荨麻疹诊疗指南（2018版） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E8%8D%A8%E9%BA%BB%E7%96%B9%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882018%E7%89%88%EF%BC%89.html | 皮肤科 | 2018
+w4fc551401be.txt | 粉刺(痤疮)中医诊治专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E7%B2%89%E5%88%BA%28%E7%97%A4%E7%96%AE%29%E4%B8%AD%E5%8C%BB%E8%AF%8A%E6%B2%BB%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 皮肤科 | 
+w4d21da923e6.txt | 寻常型天疱疮诊断和治疗专家建议（2020） | https://cmab.yiigle.com/uploads/guide_html/%E5%AF%BB%E5%B8%B8%E5%9E%8B%E5%A4%A9%E7%96%B1%E7%96%AE%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%BB%BA%E8%AE%AE%EF%BC%882020%EF%BC%89.html | 皮肤科 | 2020
+w4f18071425a.txt | 中国特应性皮炎诊疗指南（2020版） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E7%89%B9%E5%BA%94%E6%80%A7%E7%9A%AE%E7%82%8E%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882020%E7%89%88%EF%BC%89.html | 皮肤科 | 2020
+w4391eb42a9f.txt | 强脉冲光临床应用专家共识（2017） | https://cmab.yiigle.com/uploads/guide_html/%E5%BC%BA%E8%84%89%E5%86%B2%E5%85%89%E4%B8%B4%E5%BA%8A%E5%BA%94%E7%94%A8%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882017%EF%BC%89.html | 皮肤科 | 2017
+w4a136320032.txt | 慢性瘙痒管理指南（2018版） | https://cmab.yiigle.com/uploads/guide_html/%E6%85%A2%E6%80%A7%E7%98%99%E7%97%92%E7%AE%A1%E7%90%86%E6%8C%87%E5%8D%97%EF%BC%882018%E7%89%88%EF%BC%89.html | 皮肤科 | 2018
+w4f861746c1f.txt | 中国银屑病诊疗指南（2018简版） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%93%B6%E5%B1%91%E7%97%85%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882018%E7%AE%80%E7%89%88%EF%BC%89.html | 皮肤科 | 2018
+w4d477788ea4.txt | 光电技术治疗皮肤创伤性瘢痕专家共识(2018版) | https://cmab.yiigle.com/uploads/guide_html/%E5%85%89%E7%94%B5%E6%8A%80%E6%9C%AF%E6%B2%BB%E7%96%97%E7%9A%AE%E8%82%A4%E5%88%9B%E4%BC%A4%E6%80%A7%E7%98%A2%E7%97%95%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282018%E7%89%88%29.html | 皮肤科 | 2018
+w449e3f6f7af.txt | 激光治疗雄激素性脱发和斑秃的技术指南 | https://cmab.yiigle.com/uploads/guide_html/%E6%BF%80%E5%85%89%E6%B2%BB%E7%96%97%E9%9B%84%E6%BF%80%E7%B4%A0%E6%80%A7%E8%84%B1%E5%8F%91%E5%92%8C%E6%96%91%E7%A7%83%E7%9A%84%E6%8A%80%E6%9C%AF%E6%8C%87%E5%8D%97.html | 皮肤科 | 
+w428f8bf6138.txt | 白癜风诊疗共识（2018版） | https://cmab.yiigle.com/uploads/guide_html/%E7%99%BD%E7%99%9C%E9%A3%8E%E8%AF%8A%E7%96%97%E5%85%B1%E8%AF%86%EF%BC%882018%E7%89%88%EF%BC%89.html | 皮肤科 | 2018
+w470d1f12dd5.txt | 皮肤病流行病学研究专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E7%9A%AE%E8%82%A4%E7%97%85%E6%B5%81%E8%A1%8C%E7%97%85%E5%AD%A6%E7%A0%94%E7%A9%B6%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 皮肤科 | 
+w461620de76a.txt | 皮肤型红斑狼疮诊疗指南（2019版） | https://cmab.yiigle.com/uploads/guide_html/%E7%9A%AE%E8%82%A4%E5%9E%8B%E7%BA%A2%E6%96%91%E7%8B%BC%E7%96%AE%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882019%E7%89%88%EF%BC%89.html | 皮肤科 | 2019
+w4341195ace8.txt | 中国皮肤清洁指南 | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E7%9A%AE%E8%82%A4%E6%B8%85%E6%B4%81%E6%8C%87%E5%8D%97.html | 皮肤科 | 
+w47853fd5902.txt | 中国黄褐斑治疗专家共识(2015) | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%BB%84%E8%A4%90%E6%96%91%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282015%29.html | 皮肤科 | 2015
+w4c9b495f4fc.txt | 中国银屑病生物治疗专家共识（2019） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%93%B6%E5%B1%91%E7%97%85%E7%94%9F%E7%89%A9%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882019%EF%BC%89.html | 皮肤科 | 2019
+w46f383449a2.txt | 中国银屑病诊疗指南（2018完整版） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%93%B6%E5%B1%91%E7%97%85%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882018%E5%AE%8C%E6%95%B4%E7%89%88%EF%BC%89.html | 皮肤科 | 2018
+w430a2501309.txt | 中国儿童特应性皮炎诊疗共识（2017版） | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%84%BF%E7%AB%A5%E7%89%B9%E5%BA%94%E6%80%A7%E7%9A%AE%E7%82%8E%E8%AF%8A%E7%96%97%E5%85%B1%E8%AF%86%EF%BC%882017%E7%89%88%EF%BC%89.html | 皮肤科 | 2017
+w43844ad9055.txt | 中国人群中面部年轻化治疗专家共识 | https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%BE%A4%E4%B8%AD%E9%9D%A2%E9%83%A8%E5%B9%B4%E8%BD%BB%E5%8C%96%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html | 医疗美容科 | 
+# 第四轮未命中（cmab/seleguide 均无同名 guide_html 全文，含括号变体）:
+#   中国成人支气管扩张症诊断与治疗专家共识
+#   中国县域慢性阻塞性肺疾病筛查专家共识（2020年）
+#   中国不宁腿综合征的诊断与治疗指南（2021版）
+#   中国慢性肾脏病营养治疗临床实践指南（2021版）
+#   非ST段抬高型急性冠状动脉综合征基层合理用药指南
+#   雾化祛痰临床应用的中国专家共识
+#   糖尿病患者合并心血管疾病诊治专家共识
+#   ST段抬高型心肌梗死基层合理用药指南
+#   糖尿病肾脏疾病临床诊疗中国指南
+#   室上性心动过速基层合理用药指南
+#   艾司洛尔注射液抗心律失常中国专家建议
+#   中国创伤骨科患者围手术期静脉血栓栓塞症预防指南（2021）
+#   外科常见腹腔感染多学科诊治专家共识
+#   131I治疗分化型甲状腺癌指南(2021版)
+#   中国脆性骨折术后规范化抗骨质疏松治疗指南（2021）
+#   2020甲状腺结节超声恶性危险分层中国指南：C-TIRADS
+#   中国急性骨筋膜室综合征早期诊断与治疗指南（2020版）
+#   前列腺癌睾酮管理中国专家共识(2021版)
+#   创伤性脊柱脊髓损伤康复治疗专家共识(2020版)
+#   骨质疏松的影像学与骨密度诊断专家共识
+#   结直肠癌分子标志物临床检测中国专家共识
+#   创伤性脑损伤患者气道雾化吸入治疗中国专家共识
+#   直肠癌手术盆腔器官功能保护中国专家共识
+#   腺性膀胱炎临床诊断和治疗中国专家共识
+#   中国县域肺癌筛查共识（2020年）
+#   老年髋部骨折综合管理与二次骨折预防的专家共识
+#   妊娠期及产褥期静脉血栓栓塞症预防和诊治专家共识
+#   阴道镜应用的中国专家共识
+#   硫酸镁在产科应用的共识更新（非指南）
+#   中国儿童哮喘行动计划临床应用专家共识
+#   中国新生儿早期基本保健技术专家共识（2020）
+#   儿童支气管哮喘规范化诊治建议（2020年版）
+#   川崎病冠状动脉病变的临床处理建议（2020年修订版）
+#   儿童呼出气一氧化氮检测及临床应用专家共识(2021版)
+#   中国儿童严重过敏反应诊断与治疗建议
+#   儿童哮喘常用吸入装置使用方法及质控专家共识
+#   儿童泌尿系结石诊疗中国专家共识
+#   小儿外科日间手术专家共识
+#   儿童机器人辅助腹腔镜肾盂输尿管连接处梗阻手术操作指南(2020版)
+#   加速康复外科指导下的儿童围手术期处理专家共识
+#   儿童功能性便秘诊断标准与治疗流程
+#   小儿先天性心脏病相关性肺高压诊断和治疗(专家共识)
+#   儿童肝移植术后感染诊治专家共识
+#   维生素矿物质补充剂改善儿童健康成长的应用:专家共识
+#   中国儿科肠内肠外营养支持临床应用指南
+#   中小学生视力健康管理技术服务规范（T/CHAA 008-2019）
+#   中国脑性瘫痪康复指南(2022)第六章：康复护理
+#   母乳喂养促进策略指南（2026）
+#   母乳喂养促进策略指南（2026）解读
+#   基于体卫融合的儿童青少年运动指南(2024)
+#   中国视网膜母细胞瘤诊断和治疗指南（2019年）
+#   中国机械性眼外伤无光感眼救治专家共识（2020年）
+#   复方樟柳碱注射液在常见缺血性眼病中应用专家共识(2020版)
+#   视神经炎诊断和治疗专家共识（2014年）
+#   维生素矿物质补充剂在年龄相关性黄斑变性防治中的临床应用:专家共识
+#   中国变应性鼻炎诊断和治疗指南（2022年，修订版）
+#   中耳炎临床分类和手术分型指南(2012)
+#   喉癌外科手术及综合治疗专家共识
+#   2012耳鸣专家共识及解读
+#   慢性鼻-鼻窦炎诊断和治疗指南(2012年,昆明)
+#   中国原发性肺癌规范诊疗质量控制指标(2022版)
+#   中国肝癌规范诊疗质量控制指标(2022版)
+#   中国前列腺癌筛查与早诊早治指南(2022，北京)
+#   中华医学会肺癌临床诊疗指南（2022版）
+#   中华医学会胃癌临床诊疗指南（2021版）
+#   中国乳腺癌规范诊疗质量控制指标(2022版)
+#   胃癌诊疗指南（2022年版）
+#   中国肿瘤药物治疗相关恶心呕吐防治专家共识（2022年版）
+#   中国原发性结直肠癌规范诊疗质量控制指标(2022版)
+#   中国多黏菌素类抗菌药物临床合理应用多学科专家共识
+#   中国多发性骨髓瘤诊治指南（2022年修订）
+#   中国宫颈癌规范诊疗质量控制指标(2022版)
+#   中国卵巢癌规范诊疗质量控制指标(2022版)
+#   中国甲状腺癌规范诊疗质量控制指标(2022版)
+#   胃肠胰神经内分泌肿瘤诊治专家共识(2020·广州)
+#   中国von Hippel-Lindau病诊治专家共识
+#   中国淋巴瘤规范诊疗质量控制指标(2022版)
+#   ICU患者支气管肺泡灌洗液采集、送检、检测及结果解读规范
+#   围术期与 ICU 内急性肾损伤管理指南
+#   脓毒症免疫抑制诊治专家共识
+#   重症患者腹内高压监测与管理专家共识(2020版)
+#   中国脓毒症早期预防与阻断急诊专家共识
+#   重症病人胃肠功能障碍肠内营养专家共识（2021版）
+#   中国严重脓毒症/脓毒性休克治疗指南(2014)
+#   中国危重症患者肠内营养治疗常见并发症预防管理专家共识（2021版）
+#   中国老年重症患者肠内营养支持专家共识（2022）
+#   中国严重脓毒症/脓毒性休克治疗指南（2014）
+#   ICU患者深静脉血栓形成预防指南(2009)
+#   《中国重症患者转运指南(2010)》(草案)
+#   低血容量休克复苏指南(2007)
+#   成人危重患者血糖监测和血糖控制评价的专家共识
+#   重症监护病房患者深静脉血栓形成预防指南
+#   呼吸机相关性肺炎诊断、预防和治疗指南(2013)
+#   急性上消化道出血急诊诊治流程专家共识（2020版）
+#   中国淹溺性心脏停搏心肺复苏专家共识
+#   急性酒精中毒诊治共识
+#   严重创伤输血专家共识
+#   非创伤性出血的急诊处理专家共识/意见
+#   中国急诊危重症患者肠内营养治疗专家共识
+#   眩晕急诊诊断与治疗指南（2021年）
+#   高甘油三酯血症性急性胰腺炎诊治急诊专家共识
+#   糖皮质激素急诊应用专家共识
+#   带状疱疹相关性疼痛全程管理专家共识
+#   中国痤疮瘢痕治疗专家共识（2021）
+#   湿疹诊疗指南(2011年)
+#   皮炎湿疹类疾病规范化诊断术语专家共识
+#   中国关节病型银屑病诊疗共识（2020）
+#   中国带状疱疹诊疗专家共识（2022版）
+#   毛发移植技术临床应用专家共识
+#   上睑下垂诊治专家共识
+#   埋线美容外科专家共识
+#   果酸化学剥脱术临床应用专家共识
+#   中国人群下面部与颈部年轻化治疗专家共识
+#   牙体牙髓病诊疗中口腔放射学的应用指南
+#   牙本质敏感的诊断和防治指南（2019修订版）
+#   口腔颌面部间隙感染诊疗专家共识
+#   乳牙金属预成冠修复的临床操作规范
+#   重度牙周炎的手术治疗专家共识
+#   瓷贴面粘接技术操作规范
+#   口腔治疗中笑气-氧气吸入镇静技术应用操作指南(试行)
+#   全瓷美学修复材料临床应用专家共识
+#   复合树脂直接粘接修复中光固化灯使用及操作规范的专家共识
+#   根管治疗技术指南
+#   复发性阿弗他溃疡诊疗指南(试行)
+#   唾液腺肿瘤病理诊断规范
+#   显微牙体预备手术操作规范
+#   口腔诊疗中的牙周基本检查评估规范
+#   重度牙周炎诊断标准及特殊人群牙周病治疗原则的中国专家共识
+#   放射性口腔黏膜炎防治策略专家共识(2019)
+#   中国居民口腔健康指南
+#   纤维根管桩临床粘接技术操作规范
+#   显微根管治疗技术指南
+#   涎腺肿瘤的诊断和治疗指南
+#   复合树脂直接粘接修复操作规范的专家共识
+#   口腔白斑病的定义与分级标准(试行)
+#   口腔扁平苔藓诊疗指南(试行)
+#   颞下颌关节常规MRI检查规范及关节盘移位诊断标准的专家共识
+#   口腔美学临床摄影专家共识
+#   老年患者口腔修复指南
+#   儿童口腔门诊全身麻醉操作指南
+#   慢性乙型肝炎基层诊疗指南（实践版·2020）
+#   β-内酰胺类抗生素/β-内酰胺酶抑制剂复方制剂临床应用专家共识（2020年版）
+#   发热待查诊治专家共识
+#   新型冠状病毒肺炎患者俯卧位治疗上海专家建议
+#   流行性感冒诊疗方案(2020年版)
+#   中国成人念珠菌病诊断与治疗专家共识
+#   "后疫情时代"医院感染管理上海专家共识(第一版，2021年)
+#   新型冠状病毒肺炎诊疗方案(试行第九版)
+#   感染相关生物标志物临床意义解读专家共识
+#   慢性乙型肝炎基层诊疗指南（2020年）
+#   布鲁菌病诊疗专家共识
+#   慢性乙型肝炎临床治愈(功能性治愈)专家共识
+#   阻断乙型肝炎病毒母婴传播临床管理流程(2021年)
+#   中国产超广谱β-内酰胺酶肠杆菌科细菌感染应对策略专家共识
+#   第六次全国幽门螺杆菌感染处理共识报告(非根除治疗部分)
+#   中国登革热临床诊断和治疗指南
+#   降钙素原指导抗菌药物临床合理应用专家共识
+#   发热伴血小板减少综合征防治指南(2010版)
+#   中国艾滋病诊疗指南(2018年版)
+#   中国碳青霉烯耐药肠杆菌科细菌感染诊治与防控专家共识
+#   人类免疫缺陷病毒/艾滋病抗病毒治疗换药策略专家共识
+#   人类免疫缺陷病毒/艾滋病患者合并非结核分枝杆菌感染诊治专家共识
+#   抗菌药物超说明书用法专家共识
+#   手足口病诊断(节选)
+#   结核病免疫治疗专家共识（2022年版）
+#   中国耐多药和利福平耐药结核病治疗专家共识（2019年版）
+#   结核病重症加强治疗病房建设与管理专家共识(2018)
+#   肿瘤坏死因子拮抗剂应用中结核病预防与管理专家共识
+#   耐多药结核病短程治疗中国专家共识
+#   抗结核新药贝达喹啉临床应用专家共识（2020年更新版）
+#   学校结核病疫情流行病学调查和现场处置专家共识
+#   复方阿片类镇痛药临床应用中国专家共识
+#   围术期出凝血管理麻醉专家共识
+#   中国老年患者围手术期管理指导意见（2020版）（一）
+#   老年患者围手术期多模式镇痛低阿片方案中国专家共识（2021版）
+#   格隆溴铵围手术期临床应用指导意见
+#   穴位刺激辅助治疗术后疼痛临床实践指南(2021)
+#   麻醉中肌肉松弛药与逆转剂应用指南—法国麻醉与重症监测治疗学会(SFAR 2020)
+#   中国老年患者围手术期麻醉管理指导意见（2020版）（二）
+#   肿瘤细胞减灭术联合腹腔热灌注化疗麻醉暨围术期管理专家共识(2022版)
+#   （支）气管镜诊疗镇静/麻醉专家共识（2020版）
+#   围术期肺保护性通气策略临床应用专家共识
+#   地佐辛临床镇痛专家共识
+#   中国防治恶性高热专家共识
+#   右美托咪定临床应用指导意见(2013)
+#   麻醉后加强监护治疗病房建设与管理专家共识
+#   区域麻醉镇静管理专家共识
+#   麻醉机内呼吸回路消毒及灭菌的指导建议
+#   全凭静脉麻醉专家共识
+#   麻醉科门诊建设专家指导意见
+#   穴位刺激围术期应用专家共识
+#   中国老年患者围术期脑健康多学科专家共识（一）
+#   围术期经食管超声心动图监测专家共识(2020版)
+#   醋酸钠林格液临床应用专家共识
+#   依托咪酯临床应用指导意见
+#   中国老年患者围术期麻醉管理指导意见
+#   肌肉松弛药合理应用的专家共识(2013)
+#   中国人群身体活动指南（2021）
+#   健康体检重要异常结果管理专家共识（试行版）
+#   健康体检主检报告撰写专家共识
+#   慢性病健康管理规范（T/CHAA 007-2019）
+#   带状疱疹疫苗预防接种专家共识
+#   健康体检基本项目专家共识
+#   农村居民健康体检指南（T/CHAA 005-2019）
+#   健康体检质量控制指南
+#   中国微生态调节剂临床应用专家共识(2020版)
+#   特殊状态儿童预防接种(广东)专家共识
+#   健康管理概念与学科体系的中国专家初步共识
+#   中国破伤风免疫预防专家共识
+#   中国临床戒烟指南(2015年版)
+#   中国公众防中暑卫生健康指南
+#   北京市水痘疫苗使用技术指南
+#   药物过敏诊断和预防方案中国专家共识
+#   原发性肝癌的分层筛查与监测指南（2020版）
+#   肺炎球菌性疾病免疫预防专家共识（2020版）
+#   百日咳免疫预防专家共识
+#   青少年接种人类乳头状病毒疫苗(上海)指南
+#   过敏原特异性IgE检测结果临床解读中国专家共识
+#   全谷物与健康的科学共识（2021）
+#   中国流感疫苗预防接种技术指南（2021-2022）
+#   艰难梭菌感染诊断（T/CPMA 008-2020）
+#   静脉用丙氨酰-谷氨酰胺双肽临床应用专家共识（2021）
+#   有关人乳头瘤病毒预防性疫苗临床试验有效性评估的专家共识
+#   老年人流感和肺炎链球菌疫苗接种中国专家建议
+#   甲状腺功能亢进症基层合理用药指南
+#   超重或肥胖人群体重管理流程的专家共识（2021年）
+#   骨质疏松症基层合理用药指南
+#   甲状腺功能减退症基层合理用药指南
+#   原发性骨质疏松症基层诊疗指南（2019年）
+#   青霉素皮肤试验专家共识
+#   体检人群13C尿素呼气试验技术规范专家共识
+#   原发性骨质疏松症基层诊疗指南（实践版·2019）
+#   病毒性肝炎健康管理专家共识（2021年）
+#   肥胖症基层合理用药指南
+#   失眠症数字疗法的中国专家共识（2024版）
+#   《中国数字化记忆门诊临床应用指南》要点解读
+#   基层“三高”共管多学科团队建立与工作流程专家共识（2025年）
+#   中国成人呼吸系统疾病家庭氧疗指南（2024年）
+#   肌少症及合并慢性疾病患者的医学营养管理及运动干预专家共识（2024版）
+#   体检人群甲状腺结节风险评估与健康管理专家共识
+#   体检人群骨质疏松筛查及健康管理指南（2026）
+#   老年心肺功能减退全流程健康管理方案专家共识
+#   口服补液专家共识（2025，科普版）
+#   综合医院全科医学科规范化建设专家共识（2025年）
+#   持续葡萄糖监测基层临床应用专家共识（2025年）
+#   体检机构儿童青少年心理健康筛查基础项目专家共识
+#   慢性气道疾病康复基层指南（2025年）
+#   咖啡与健康的相关科学共识（2024）
+#   肺癌筛查及肺结节健康管理专家共识（2025版）
+#   中成药治疗成人社区获得性肺炎临床应用指南（2025版）
+#   常见慢性病营养治疗专家共识（2025版）
+#   精神分裂症患者代谢综合征管理的中国专家共识
+#   抑郁症认知症状评估与干预专家共识
+#   综合医院焦虑、抑郁与躯体化症状诊断治疗的专家共识
+#   中国失眠症诊断和治疗指南
+#   伴非典型特征抑郁症的临床评估与诊治指导建议
+#   双相障碍伴混合特征临床诊治指导建议
+#   抗精神病药长效针剂治疗精神分裂症的专家共识
+#   老年期抑郁障碍诊疗专家共识
+#   激越患者精神科处置专家共识
+#   广泛性焦虑障碍基层诊疗指南（2021年）
+#   中国强迫症防治指南2016（精编版）
+#   常用神经心理认知评估量表临床应用专家共识
+#   神经系统疾病伴发抑郁焦虑障碍的诊断治疗专家共识(更新版)
+#   “医学难以解释的症状”临床实践中国专家共识
+#   乌灵胶囊在心身相关障碍中的临床应用专家共识
+#   中国强迫症诊治中心建设标准
+#   综合医院焦虑抑郁诊断和治疗的专家共识
+#   药物成瘾外科治疗专家共识
+#   神经认知障碍精神行为症状群临床诊疗专家共识
+#   精神专科互联网诊疗专家共识
+#   抑郁症基层诊疗指南（实践版·2021）
+#   在心血管科就诊患者的心理处方中国专家共识
+#   广泛性焦虑障碍基层诊疗指南（实践版·2021）
+#   无刑事责任能力精神障碍者强制医疗暴力危险性评估的专家共识
+#   老年期抑郁障碍诊疗专家共识（2025版）
+#   乳腺癌靶向药物静脉输注规范专家共识
+#   中国女性乳腺癌筛查与早诊早治指南(2021，北京)
+#   中国晚期乳腺癌规范诊疗指南(2020版)
+#   浆膜腔积液细胞病理学检查专家共识
+#   免疫组织化学检测技术共识
+#   肝癌肝切除围手术期管理中国专家共识(2021年版)
+#   中国非小细胞肺癌ALK检测临床实践专家共识
+#   肾细胞癌规范化取材和病理诊断共识
+#   中国炎症性肠病影像检查及报告规范专家指导意见
+#   膀胱浸润性尿路上皮癌PD-L1（SP263）免疫组织化学检测病理专家共识
+#   CDK4/6抑制剂治疗激素受体阳性人表皮生长因子受体2阴性晚期乳腺癌的临床应用共识
+#   原发性肝癌二级预防共识（2021年版）
+#   先天性巨结肠病理诊断规范
+#   中国胃肠胰神经内分泌肿瘤病理诊断共识（2020版）
+#   乳腺癌靶向人表皮生长因子受体2酪氨酸激酶抑制剂不良反应管理共识
+#   临床分子病理实验室二代基因测序检测专家共识
+#   宫颈液基细胞学人工智能辅助诊断数据集标注规范与质量控制专家共识（2022版）
+#   基于下一代测序技术的BRCA基因检测流程中国专家共识
+#   胃肠间质瘤病理诊断临床实践指南（2022版）
+#   炎症性肠病外科治疗专家共识
+#   常见非黑素细胞性皮肤肿瘤皮肤镜特征与组织病理表现的对应关系专家共识
+#   儿童肾母细胞瘤诊疗专家共识
+#   非小细胞肺癌MET临床检测中国专家共识
+#   宫颈液基细胞学的数字病理图像采集与图像质量控制中国专家共识
+#   喉癌前病变及浸润癌病理诊断专家共识（2022版）
+#   软组织和骨肿瘤免疫组织化学检测专家共识（2022版）
+#   基于下一代测序技术的BRCA1/2基因检测指南（2019版）
+#   颅内MR血管壁成像技术与应用中国专家共识
+#   超声心动图评估心脏收缩和舒张功能临床应用指南
+#   下肢深静脉血栓形成介入治疗规范的专家共识(第2版)
+#   下腔静脉滤器置入术和取出术规范的专家共识（第2版）
+#   数字X线摄影检查技术专家共识
+#   SPECT心肌灌注显像技术与图像处理要点专家共识(2019版)
+#   超声引导下甲状腺结节细针穿刺细胞学检查实践指南(2019版)
+#   急性胸痛三联征多层螺旋CT检查技术专家共识
+#   钆对比剂临床安全性应用中国专家建议
+#   CT检查技术专家共识
+#   心脏冠状动脉CT血管成像技术规范化应用中国指南
+#   耳部3 T MRI规范及常见病变诊断专家共识
+#   超声医学专业质量管理控制指标专家共识(2018年版)
+#   肝胆特异性对比剂钆塞酸二钠增强MRI扫描方案专家共识
+#   血管超声检查指南
+#   CT辐射剂量诊断参考水平专家共识
+#   碘美普尔（碘浓度400 mg/ml）肝脏CT应用专家共识
+#   磁共振成像安全管理中国专家共识
+#   中国胎儿超声心动图检查规范
+#   颈动脉狭窄介入治疗操作规范(专家共识)
+#   头颈部CT检查和辐射剂量管理专家共识
+#   MRI检查技术专家共识
+#   动脉自旋标记脑灌注MRI技术规范化应用专家共识
+#   皮肤疾病超声检查指南(2022版)
+#   超声引导子宫肌瘤化学消融治疗中国专家共识(2022版)
+#   抗肿瘤治疗心血管损害超声心动图检查专家共识
+#   碘对比剂使用指南(第2版)
+#   B型利钠肽及N末端B型利钠肽前体实验室检测与临床应用中国专家共识
+#   成人呼吸系统感染性疾病病原学诊断专家意见
+#   肿瘤标志物的临床应用建议
+#   血细胞分析报告规范化指南
+#   生化分析仪携带污染的分析评估及处理方法专家共识
+#   儿童血培养规范化标本采集的中国专家共识
+#   自身免疫病诊断中抗体检测方法的推荐意见
+#   流式细胞术临床应用的建议
+#   血清淀粉样蛋白A在感染性疾病中临床应用的专家共识
+#   TORCH实验室规范化检测与临床应用专家共识
+#   临床实验室应对突发公共卫生事件体系与能力建设专家共识
+#   临床微生物实验室真菌检测能力建设基本要求专家共识
+#   化学发光法微阵列蛋白芯片临床应用专家共识
+#   中国宏基因组学第二代测序技术检测感染病原体的临床应用专家共识
+#   高通量测序技术临床规范化应用北京专家共识（第一版肿瘤部分）
+#   即时检测（POCT）信息化质量管理中国专家共识
+#   即时检测（POCT）临床结果报告与发布中国专家共识
+#   新生儿疾病筛查滤纸血片采集和递送及保存专家共识
+#   北京医疗机构发热门诊临床实验室能力建设专家共识
+#   高通量测序技术临床规范化应用北京专家共识（第一版遗传病部分）
+#   心肌肌钙蛋白实验室检测与临床应用中国专家共识
+#   经皮肺穿刺标本临床微生物检测流程及质量控制专家共识
+#   液相色谱－质谱临床应用建议
+#   自建MALDI-TOF MS微生物鉴定数据库专家共识
+#   不合格静脉血标本管理中国专家共识
+#   POCT临床应用建议
+#   高通量宏基因组测序技术检测病原微生物的临床应用规范化专家共识
+#   中国加速康复外科临床实践指南(2021)(一)
+#   加速康复外科围术期营养支持中国专家共识(2019版)
+#   经颅直流电刺激技术应用于脑卒中患者康复治疗的专家共识
+#   中国加速康复外科临床实践指南(2021)(二)
+#   中国加速康复外科临床实践指南(2021)(三)
+#   中国加速康复外科临床实践指南(2021)(五)
+#   中国肌内效贴技术临床应用专家共识(2020版)
+#   医院主导的家庭心脏康复中国专家共识
+#   中国加速康复外科临床实践指南(2021)(四)
+#   中国吞咽障碍康复评估与治疗专家共识(2013年版)
+#   肌肉骨骼疾病体外冲击波治疗专家共识
+#   汉语失语症康复治疗专家共识
+#   儿童加速康复外科麻醉中国专家共识
+#   肺癌相关性咳嗽诊疗中国专家共识
+#   助行功能性电刺激技术临床操作指南
+#   成人气管切开患者说话瓣膜临床应用规范专家共识
+#   全膝关节置换围手术期康复干预中国专家共识
+#   中轴脊柱关节炎/强直性脊柱炎运动指南患者版(2025)
+#   儿童闭塞性细支气管炎呼吸康复训练专家共识
+#   广东省炎症性肠病围手术期加速康复外科管理专家指导意见
+#   康复大数据应用专家共识（2024版）
+#   青少年特发性脊柱侧凸康复诊疗指南（2024版）
+#   中国吞咽障碍康复管理指南(2023版)
+#   2024版《加速康复外科协会新生儿围手术期管理指南》解读
+#   骨科、麻醉科加速康复围手术期患者血液管理专家共识（2025年版）
+#   中国冠心病康复循证实践指南(2024版)第一部分
+#   中国冠心病康复循证实践指南(2024版)第二部分
+#   航空医学救援医疗装备的专家共识
+#   飞行人员无症状脑梗死的诊断和飞行风险评估中国专家共识
+#   航空医学救援安全管理专家共识
+#   航空医学救援医务人员培训的专家共识
+#   舱室爆炸伤救治规范
+#   航空医学救援医务人员配置的专家共识
+#   疼痛评估量表应用的中国专家共识（2020版）
+#   围术期目标导向全程镇痛管理中国专家共识（2021版）
+#   鞘内药物输注技术用于癌痛管理的中国专家共识（2022版）
+#   肩关节疼痛神经阻滞疗法中国专家共识（2020版）（第二部分）
+#   骨代谢异常相关疼痛病诊疗中国专家共识
+#   硬膜外阻滞疗法中国专家共识（2020版）
+#   肩关节疼痛神经阻滞疗法中国专家共识（2020版）（第一部分）
+#   颈丛神经阻滞疗法中国专家共识（2020版）
+#   面神经阻滞技术在面神经功能障碍性疾病中的应用中国疼痛专家共识（2022版）
+#   腰交感神经节阻滞疗法中国疼痛学专家共识（2022版）
+#   富血小板血浆在慢性肌肉骨骼疼痛疾病中的应用专家共识
+#   坐骨神经阻滞疗法中国专家共识（2022版）
+#   尺神经阻滞疗法专家共识（2019版）
+#   CT引导下茎乳孔面神经射频治疗面肌痉挛技术规范中国专家共识
+#   面神经阻滞（注射）疗法中国专家共识（2022版）
+#   中国慢性创伤后疼痛诊疗指南（2023版）
+#   老年人慢性肌肉骨骼疼痛管理中国专家共识(2023)
+#   关于《中国成人癌痛诊疗指南（2025版）》一文的更正
+#   密集型银质针疗法治疗慢性肌肉骨骼疼痛中国专家共识（2023版）
+#   冻结肩诊疗的多学科合作中国专家共识（2023版）
+#   上胸段交感神经阻滞疗法中国专家共识（2023版）
+#   腰脊神经根阻滞疗法中国专家共识（2023版）
+#   中国慢性癌症相关性疼痛诊疗指南（2024版）
+#   经皮穿刺脊髓电刺激治疗痛性糖尿病神经病变中国专家共识（2024）计划书
+#   中国慢性腰背痛诊疗指南（2024版）
+#   幻肢痛诊断与治疗中国疼痛科专家共识（2024版）
+#   腰方肌阻滞疗法中国专家共识（2024版）
+#   静脉导管常见并发症临床护理实践指南
+#   中国重症血液净化护理专家共识（2021年）
+#   医疗机构护理员工作内容的专家建议
+#   中医古籍分类标准
+#   手术室静脉血栓栓塞症预防与护理专家共识
+#   综合医院日间手术室运行和管理中国专家共识（2022版）
+#   重症护理超声专家共识
+#   手术室医疗废物分类与收集方法专家共识
+#   中医适宜技术在初产妇阴道分娩产后早期康复应用专家共识
+#   大规模多场景移动实验室新型冠状病毒核酸应急检测专家共识
+#   新生儿经外周置入中心静脉导管实践指南（第三版）解读（一）
+#   下腔静脉滤器置入术及取出术护理规范专家共识
+#   臭氧大自血疗法护理实践中国专家共识（2021版）
+#   2020版《NICE成人围手术期护理》指南解读
+#   《2021 NICE医患共同决策指南》要点解读
+#   亚洲近视管理共识
+#   《最佳实践建议：卒中后过渡和社会参与》指南解读
+#   中国制订/修订临床诊疗指南的指导原则（2022版）
+#   人体健康态监测与评估规范
+#   医疗机构手术室用药错误防范指导原则
+#   医疗机构药物警戒体系建设专家共识
+#   创新医防协同机制专家建议
+#   鼻咽癌靶区勾画和计划设计指南
+#   山东省成人体外膜肺氧合技术护理建议
+#   科学研究中规范使用病原微生物菌（毒）种专家共识
+#   经皮机械性血栓清除术联合导管接触性溶栓患者围手术期护理专家共识
+#   人类免疫缺陷病毒感染者认知障碍的诊断和管理专家共识（2025版）

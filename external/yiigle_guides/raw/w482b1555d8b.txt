@@ -1,0 +1,757 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%90%8C%E6%AD%A5%E6%94%BE%E5%8C%96%E7%96%97%E6%9C%9F%E9%97%B4%E5%BA%94%E7%94%A8%E8%81%9A%E4%B9%99%E4%BA%8C%E9%86%87%E5%8C%96%E9%87%8D%E7%BB%84%E4%BA%BA%E7%B2%92%E7%BB%86%E8%83%9E%E5%88%BA%E6%BF%80%E5%9B%A0%E5%AD%90%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282020%E7%89%88%29.html
+# 标题: 同步放化疗期间应用聚乙二醇化重组人粒细胞刺激因子中国专家共识(2020版) - 国际肿瘤学杂志
+# 发布方/日期: 肿瘤科，2021-01-08
+
+同步放化疗期间应用聚乙二醇化重组人粒细胞刺激因子中国专家共识(2020版)
+中国医师协会放射肿瘤治疗医师分会
+中华医学会放射肿瘤治疗学分会
+中国抗癌协会肿瘤放射治疗专业委员会
+国际肿瘤学杂志, 2021,48(1) : 11-17. DOI: 10.3760/cma.j.cn371439-20201126-00002
+同步放化疗是恶性肿瘤综合治疗的重要模式[1,2]，而中性粒细胞减少是同步放化疗期间最常见的血液学毒性，易诱发中性粒细胞减少性发热(febrile neutropenia，FN)、感染中毒性休克，甚至死亡，严重影响肿瘤患者的临床治疗和生存，并增加医疗费用[3,4,5]。国内外多个权威机构发布化疗相关中性粒细胞减少症的规范化管理指南，推荐在化疗药物治疗结束24～72 h，预防性应用聚乙二醇化重组人粒细胞刺激因子(PEG-rhG-CSF，培非格司亭)可以有效降低化疗药物引起的中性粒细胞减少的发生率及严重程度，缩短持续时间[6,7]，但很少涉及同步放化疗期间应用PEG-rhG-CSF内容，并未解决放疗医师临床实践困惑。PEG-rhG-CSF是一种长效的重组人粒细胞刺激因子(rhG-CSF)，由rhG-CSF蛋白末端定点交联相对分子质量为20 000的聚乙二醇分子链，再经纯化得到。中国首个PEG-rhG-CSF于2011年批准上市，正式开启国内长效粒细胞刺激因子应用时代。
+为促进临床正确合理用药，中国医师协会放射肿瘤治疗医师分会参照PEG-rhG-CSF(培非格司亭)相关指南和最新临床研究结果，重新评估其在同步放化疗期间应用的安全性和有效性，形成同步放化疗期间应用PEG-rhG-CSF(培非格司亭)中国专家共识，为国内放疗医师提供建议和参考。
+1 同步放化疗相关中性粒细胞减少症概述
+中性粒细胞减少症是化疗和放疗等骨髓抑制性治疗方式引起的主要不良事件。化疗严重的血液学毒性主要为中性粒细胞减少，且为剂量限制性毒性。同时，骨髓是对放射线高度敏感的正常组织，其损伤程度取决于放射剂量大小、照射范围和部位、照射时间等，主要影响粒细胞系，多见于肿瘤放疗中及放疗后。
+1.1 中性粒细胞减少症的定义与分级
+中性粒细胞减少症指外周血中性粒细胞绝对值(absolute neutrophil count，ANC)<2.0×109/L。常见不良反应事件评价标准(CTCAE)5.0版将中性粒细胞减少分为4级：1级为1.5×109/L≤ANC<2.0×109/L；2级为1.0×109/L≤ANC<1.5×109/L；3级为0.5×109/L≤ANC<1.0×109/L；4级为ANC<0.5×109/L。
+FN是指严重的中性粒细胞减少合并发热。严重的中性粒细胞减少是指ANC<0.5×109/L或预计48 h内下降至ANC<0.5×109/L；发热是指单次口腔温度测定≥38.3 ℃或≥38.0 ℃持续超过1 h[7]。
+1.2 流行病学
+一项涵盖19项随机研究共2 728例Ⅰ～Ⅲ期非小细胞肺癌患者的Meta分析显示，同步放化疗增加中性粒细胞减少症的发生率，发生风险是单纯放疗的3.53倍，是序贯放化疗的1.38倍[8]。Mac Manus等[9]对放疗所导致的骨髓抑制进行了分层分析，发现导致中、重度FN的危险因素主要是骨髓受照体积和同步放化疗的治疗模式，其中同步放化疗的影响最大，OR值达到42.1。如不可手术切除的Ⅲ期非小细胞肺癌患者接受长春瑞滨联合顺铂同期放化疗，≥3级中性粒细胞减少症的发生率高达77%，FN发生率为16%[10]。CONVERT研究结果显示，接受同期放化疗的小细胞肺癌患者中，3～4级中性粒细胞减少症在>70岁的老年人中更常见(84% vs. 70%；P＝0.02)[11]。对于接受长春瑞滨＋顺铂联合同步放疗新辅助治疗的食管癌患者，≥3级中性粒细胞减少症发生率为45.7%；而对于不能手术的食管癌患者，根治性同步放化疗期间(紫杉醇＋顺铂联合放疗)3级和4级中性粒细胞减少症发生率分别为30.3%和31.6%[12,13]。
+早期研究报道，血液学毒性事件是同步放化疗患者治疗中断的主要原因(88%)，并且治疗中断患者局部控制率和生存率将受到一定影响[14]。同步放化疗期间由于骨髓抑制中断治疗的患者与无中断患者相比，总生存率显著降低[15,16]。因此，恶性肿瘤患者同步放化疗期间对于中性粒细胞减少症的预防和管理变得至关重要。尤其是对于存在高危因素，如年龄>65岁、之前发生过中性粒细胞减少事件等，并接受标准剂量同步放化疗治疗的患者，应考虑预防应用粒细胞刺激因子(G-CSF)。
+2 同步放化疗期间应用PEG-rhG-CSF的安全性
+1995年，一项入组215例小细胞肺癌患者的研究显示，同步放化疗与粒细胞-巨噬细胞刺激因子(GM-CSF)联合应用后，显著增加不良反应事件的发生率[17]。随后的美国临床肿瘤学会(ASCO)、美国国立综合癌症网络(NCCN)指南基于该项研究，相继不推荐同步放化疗期间常规应用集落刺激因子(CSF)。但G-CSF与GM-CSF有所不同，G-CSF药物特异性作用于粒系祖细胞，而早期研究主要应用的GM-CSF作用于粒系上游，因此指南的建议在临床应用中存在较大争议。另一方面，随着放疗新技术的发展，精确给予肿瘤高剂量的同时可尽量减少对靶区周围正常组织的照射，显著减少了放疗诱发的不良反应，因此同步放化疗期间与G-CSF的联合应用其安全性需要重新评估。
+在三维适形放疗背景下，38例接受同步放化疗的局限期小细胞肺癌患者按照一级预防、二级预防、治疗性应用等方式接受G-CSF药物治疗，未增加急性或晚期肺毒性的风险，也未发现急性3～4级食管炎毒性风险增加，无治疗相关死亡[18]。CONVERT研究为Ⅲ期随机临床试验，纳入547例接受同步放化疗的小细胞肺癌患者，33%的患者接受至少1个周期的预防性G-CSF，41%的患者应用G-CSF药物，与Ⅱ期研究结果相同，同步放化疗期间应用G-CSF并未增加急性食管炎或肺炎毒性风险，有助于患者按计划接受全疗程的同步放化疗[19]。后续NCCN造血生长因子指南(2020 v1)取消"同步放化疗期间不推荐预防性应用G-CSF"[6]。说明现代放疗技术背景下，同步放化疗期间，治疗或预防性应用G-CSF是安全的。
+2015年美国卫生与公众服务部(HHS)辐射事件医疗管理系统(REMM)发布指南Myeloid Cytokines for Treatment of Acute Exposure to Myelosuppressive Doses of Radiation: Hematopoietic Subsyndrome of Acute Radiation Syndrome (H-ARS)，对于ANC可能≤0.5×109/L或可能出现长时间严重中性粒细胞减少症的患者(体重≥45 kg)，建议治疗应用PEG-rhG-CSF以6 mg(注射1次)的剂量皮下给药[20]。2016年《聚乙二醇化重组人粒细胞刺激因子(PEG-rhG-CSF)临床应用中国专家共识》指出：肿瘤放化疗后发生粒细胞减少症时应使用PEG-rhG-CSF进行治疗[21]。2017年《肿瘤放化疗相关中性粒细胞减少症规范化管理指南》中，建议在密切监测患者血液学指标的情况下，使用G-CSF治疗同步放化疗所致的中性粒细胞减少症及FN[22]。
+3 同步放化疗相关中性粒细胞减少症预防
+3.1 一级预防
+预防性应用PEG-rhG-CSF能够有效降低同步放化疗期间中性粒细胞减少症的发生率和严重程度，缩短持续时间，避免剂量降低以及治疗延迟，使患者治疗得到保证。
+①对于同步放化疗中化疗方案为FN高风险(FN>20%)的患者，无论治疗目的是治愈、延长生存时间或是改善疾病相关症状，建议预防性应用PEG-rhG-CSF；见表1[22]。
+点击查看表格
+表1
+FN发生风险>20%的化疗方案及建议
+表1
+FN发生风险>20%的化疗方案及建议
+肿瘤类型
+化疗方案
+建议
+小细胞肺癌
+①CDE方案(环磷酰胺＋多柔比星＋依托泊苷)
+②拓扑替康
+③ICE方案(异环磷酰胺＋卡铂＋依托泊苷)
+非小细胞肺癌
+DC方案(多西他赛＋卡铂)
+结直肠癌
+FOLFOXIRI方案(氟尿嘧啶＋亚叶酸钙＋奥沙利铂＋伊立替康)
+食管癌和胃癌
+DCF方案(多西他赛＋顺铂＋氟尿嘧啶)
+胰腺癌
+FOLFIRINOX方案(奥沙利铂＋亚叶酸＋伊立替康＋氟尿嘧啶)
+卵巢癌
+①托泊替康
+②紫杉醇
+③多西他赛
+头颈部肿瘤
+TPF方案(多西他赛＋顺铂＋氟尿嘧啶)
+乳腺癌
+①TCH方案(多西他赛＋卡铂＋曲妥珠单抗)
+②ddAC-2wP方案(剂量密集多柔比星＋环磷酰胺＋序贯紫杉醇双周)
+③ddAC-2wP方案(剂量密集多柔比星＋环磷酰胺＋序贯紫杉醇单周)
+④TAC方案(多西他赛＋多柔比星＋环磷酰胺)
+⑤TE方案(多西他赛＋表柔比星)
+⑥TC方案(多西他赛＋环磷酰胺)
+⑦FEC方案(氟尿嘧啶＋表柔比星＋环磷酰胺)
+⑧高剂量多西他赛＋噻替哌＋卡铂联合
+⑨高剂量多西他赛＋噻替哌联合
+肾癌
+多柔比星＋吉西他滨
+睾丸癌
+①VeIP方案(长春碱＋异环磷酰胺＋顺铂)
+②VIP方案(依托泊苷＋异环磷酰胺＋顺铂)
+③TIP方案(紫杉醇＋异环磷酰胺＋顺铂)
+建议预防性应用
+膀胱癌
+剂量密集的MVAC(甲氨蝶呤＋长春碱＋多柔比星＋顺铂)
+PEG-rhG-CSF
+霍奇金淋巴瘤
+①BEACOPP方案(博来霉素＋依托泊苷＋多柔比星＋环磷酰胺＋长春新碱＋丙卡巴肼＋泼尼松)
+②Brentuximabvedotin(维汀-布仑妥昔单抗)＋AVD方案(多柔比星＋长春碱＋达卡巴嗪)
+非霍奇金淋巴瘤
+①ICE方案(异环磷酰胺＋卡铂＋依托泊苷)
+②剂量调整的EPOCH方案(依托泊苷＋泼尼松＋长春新碱＋环磷酰胺＋多柔比星)
+③剂量密集的CHOP方案(环磷酰胺＋多柔比星＋长春新碱＋泼尼松)±利妥昔单抗
+④MINE方案(美司钠＋异环磷酰胺、米托蒽醌＋足叶乙甙)
+⑤DHAP方案(地塞米松＋顺铂＋阿糖胞苷)
+⑥ESHAP方案(依托泊苷＋甲泼尼龙＋顺铂＋阿糖胞苷)
+⑦高剂量HyperCVAD方案(环磷酰胺＋长春新碱＋多柔比星＋地塞米松)±利妥昔单抗
+黑色素瘤
+①以达卡巴嗪为主的联合方案(达卡巴嗪＋顺铂＋长春碱)
+②以达卡巴嗪为主联合IL-2、干扰素α的方案(达卡巴嗪＋顺铂＋长春碱＋IL-2＋干扰素α)
+骨肉瘤
+①高剂量异环磷酰胺联合高剂量甲氨蝶呤
+②多柔比星和顺铂(新辅助)
+③甲氨蝶呤、多柔比星和顺铂(初诊为高级别)
+④甲氨蝶呤、多柔比星和顺铂联合异环磷酰胺、依托泊苷(初诊为高级别)
+⑤顺铂动脉介入联合多柔比星静脉滴注
+⑥顺铂动脉介入联合多柔比星、异环磷酰胺静脉滴注
+软组织肉瘤
+①MAID方案(美司钠＋多柔比星＋异环磷酰胺＋达卡巴嗪)
+②标准剂量多柔比星或高剂量表柔比星
+③异环磷酰胺和多柔比星
+多发性骨髓瘤
+①DT-PACE方案(地塞米松＋沙利度胺＋顺铂＋多柔比星＋环磷酰胺＋依托泊苷)
+②VTD-PACE方案(DT-PACE方案＋硼替佐米)
+注：FN为中性粒细胞减少性发热；PEG-rhG-CSF为聚乙二醇化重组人粒细胞刺激因子；IL-2为白细胞介素-2
+②对于同步放化疗中化疗方案为FN中风险(FN 10%～20%)的患者，建议临床医师评估患者风险因素，若患者出现≥1项风险因素时，需要考虑给予预防性应用PEG-rhG-CSF；见表2[22]。
+点击查看表格
+表2
+FN发生风险10%～20%的化疗方案、风险因素评估及建议
+表2
+FN发生风险10%～20%的化疗方案、风险因素评估及建议
+肿瘤类型
+化疗方案
+风险因素评估
+建议
+小细胞肺癌
+①CAV方案(环磷酰胺＋多柔比星＋长春新碱)
+①年龄>65岁并接受足剂量强度化疗 ②既往接受过化疗或放疗 ③治疗前已经存在中性粒细胞减少 ④肿瘤疾病累及骨髓 ⑤近期外科手术和/或开放性创伤 ⑥肝功能障碍(胆红素> 20 mg/L) ⑦肾功能障碍(肌酐清除率< 50 mg/min) ⑧既往发生过FN ⑨恶性血液淋巴系统疾病 ⑩女性患者(小细胞肺癌) ⑪心血管疾病(非霍奇金淋巴瘤)
+若患者出现≥1项风险因素时，需要考虑给予预防性应用PEG-rhG-CSF
+②依托泊苷＋顺铂/卡铂
+非小细胞肺癌
+①TP方案(紫杉醇＋顺铂)
+②NP方案(顺铂＋长春瑞滨)
+③DP方案(顺铂＋多西他赛)
+④顺铂
+⑤依托泊苷
+⑥CP方案(卡铂＋紫杉醇)
+⑦多西他赛
+结直肠癌
+FOLFOX方案(氟尿嘧啶＋亚叶酸钙＋奥沙利铂)
+食管癌和胃癌
+①伊立替康、顺铂
+②表柔比星、顺铂、氟尿嘧啶
+③表柔比星、顺铂、卡培他滨
+胰腺癌
+FOLFIRINOX方案(奥沙利铂＋亚叶酸＋伊立替康＋氟尿嘧啶)
+卵巢癌
+卡铂和多西他赛
+宫颈癌
+①顺铂和托泊替康
+②紫杉醇和顺铂
+③托泊替康
+④伊立替康
+子宫肉瘤
+多西他赛
+乳腺癌
+①含多西他赛的方案±曲妥珠单抗
+②CMF方案(环磷酰胺＋甲氨蝶呤＋氟尿嘧啶)
+③AC-T方案(多柔比星＋环磷酰胺序贯多西他赛，仅多西他赛治疗周期)
+④AC-TH方案(多西他赛序贯给药＋曲妥珠单抗)
+⑤FEC-T方案(氟尿嘧啶＋表柔比星＋环磷酰胺序贯多西他赛)
+⑥紫杉醇21 d方案
+⑦ddEC-T方案(剂量密集表柔比星＋环磷酰胺序贯紫杉醇)
+⑧E-CMF方案(表柔比星序贯环磷酰胺＋甲氨蝶呤＋氟尿嘧啶)
+⑨XT方案(卡培他滨＋多西他赛标准方案)
+睾丸癌
+①依托泊苷和顺铂
+②BEP方案(博来霉素＋依托泊苷＋顺铂)
+前列腺癌
+卡巴他赛
+非霍奇金淋巴瘤
+①GDP方案(吉西他滨＋地塞米松＋顺铂)±利妥昔单抗
+②CHOP方案(环磷酰胺＋多柔比星＋长春新碱＋泼尼松)±利妥昔单抗，包括含聚乙二醇脂质体多柔比星替代多柔比星的治疗方案
+③CHP方案(环磷酰胺＋多柔比星＋泼尼松)＋本妥昔单抗
+④苯达莫司汀
+注：FN为中性粒细胞减少性发热；PEG-rhG-CSF为聚乙二醇化重组人粒细胞刺激因子
+③对于同步放化疗中化疗方案为FN低风险(FN<10%)的患者，不予常规预防性应用PEG-rhG-CSF。
+④若患者同时接受大剂量放疗或者其他增加FN发生风险的治疗，可能存在发生FN相关的不良预后因素如多发骨转移癌或骨髓受侵时，也应考虑预防性应用PEG-rhG-CSF。
+3.2 二级预防
+接受同步放化疗的患者，对上一周期进行评估，如果上一周期发生FN或者出现剂量限制性中性粒细胞减少事件，则下一周期可以考虑预防性应用PEG-rhG-CSF。
+3.3 预防性应用PEG-rhG-CSF的用法用量
+①同步放化疗期间，化疗结束后24～72 h内，皮下注射PEG-rhG-CSF(不建议在使用细胞毒性化疗药物前14 d到化疗后24 h内给药)；②推荐剂量6 mg(≥45 kg成年人)或者按照100 μg/kg体重计算剂量(<45 kg成年人、儿童等)，每个化疗周期注射1次；③若化疗方案为周化疗方案时，无足够证据支持使用PEG-rhG-CSF，因此本共识不推荐预防性使用。
+3.4 预防性应用理论依据
+一项纳入163例接受同步放化疗的食管癌与肺癌患者的临床研究，比较预防性应用PEG-rhG-CSF与延迟性应用rhG-CSF，结果显示中性粒细胞减少相关住院的发生率分别为4.44%和14.62%(P＝0.002)，化疗延迟发生率分别为5%和17.69%(P＝0.001)，并且预防性应用降低了78.1%的注射抗生素使用，显著降低中性粒细胞减少症及FN发生率、住院率和抗生素使用率(均P<0.05)[23]。有研究比较了头颈部肿瘤同步放化疗期间预防使用PEG-rhG-CSF与延迟性应用rhG-CSF的疗效，两组患者3～4级中性粒细胞减少症的发生率分别为3.85%和19.5%(P＝0.001)，FN的发生率分别为0.96%和8.53%(P＝0.023)，预防性使用PEG-rhG-CSF组减少了头颈部同步放化疗粒细胞减少及相关性FN的发生率，有利于按时按预定剂量实施同步放化疗，两组安全性良好[24]。
+PEG-rhG-CSF平均半衰期为47 h，每周期仅需注射1次，1次注射可以维持药效12 d。中性粒细胞代谢清除机制可避免中性粒细胞数量过度升高，使ANC维持在稳定范围，PEG-rhG-CSF药学特性更适合预防性应用，提高患者的依从性，减少医护人员临床工作量[25]。目前我国临床应用rhG-CSF基本存在延迟用药和提前用药的情况，患者依从性差[26]，因此在非特殊情况下，可考虑恶性肿瘤同步放化疗期间预防性应用较为便捷的PEG-rhG-CSF，有效保证患者的安全和足剂量治疗实施。
+4 同步放化疗相关中性粒细胞减少症治疗
+4.1 PEG-rhG-CSF治疗性使用
+治疗性使用PEG-rhG-CSF，是指对同步放化疗期间已经出现中性粒细胞减少症患者使用PEG-rhG-CSF治疗。中性粒细胞减少症的患者出现≥1个以下指征，需要考虑治疗性应用PEG-rhG-CSF：①脓毒血症；②患者年龄>65岁；③ANC<0.5×109/L；④可能出现长时间严重中性粒细胞减少症的患者；⑤合并有肺炎或其他感染疾病；⑥侵袭性的真菌感染；⑦住院期间伴发热；⑧既往曾发生过FN等[20,27]。
+同时，需要根据患者是否预防性使用过G-CSF，建议分以下情况处理：
+①患者已预防性使用过rhG-CSF，继续使用rhG-CSF治疗，连续注射直至ANC恢复正常水平或接近正常实验室标准，或者使用PEG-rhG-CSF治疗，1次注射。
+②患者已预防性使用过PEG-rhG-CSF，一般情况不建议额外补充rhG-CSF治疗。如果ANC<0.5×109/L持续时间≥3 d，可考虑使用rhG-CSF进行补救治疗。
+③患者之前未预防性使用G-CSF，可考虑及时应用PEG-rhG-CSF治疗。
+4.2 治疗性使用PEG-rhG-CSF用法用量
+①皮下注射PEG-rhG-CSF(不建议在使用细胞毒性化疗药物前14 d到化疗后24 h内给药)；②PEG-rhG-CSF 6 mg(≥45 kg成年人)或者按照100 μg/kg体重计算剂量(<45 kg成年人、儿童等)，仅需注射1次。
+4.3 治疗性应用理论依据
+对于同步放化疗期间出现4级中性粒细胞减少的食管癌与肺癌患者，PEG-rhG-CSF治疗组在不同时间点的中性粒细胞增殖率和ANC均明显高于rhG-CSF治疗组，PEG-rhG-CSF治疗组在用药12～24 h即可观察到药物发挥临床效应，于36 h达到改善中性粒细胞减少的治疗目的[28]。一项临床研究比较了应用PEG-rhG-CSF联合或者不联合rhG-CSF治疗恶性肿瘤同步放化疗后3～4级中性粒细胞减少症，结果显示无论3级还是4级中性粒细胞减少患者，在挽救性治疗后不同时间段ANC、中性粒细胞增殖率及恢复时间的差异均无统计学意义(均P>0.05)，单药PEG-rhG-CSF治疗能够有效缓解同步放化疗所致的3～4级中性粒细胞减少[29]。在复杂的临床背景中，PEG-rhG-CSF是否需要联合rhG-CSF治疗同步放化疗导致的3～4级中性粒细胞减少症，应根据指南推荐和患者具体情况进行深入分析和临床应用，以最大限度地保障患者安全。
+PEG-rhG-CSF能够促使中性粒细胞增殖分化，1次注射有效浓度可维持12 d，若采用周化疗方案，化疗药物可造成严重血液学毒性，大量新生成的幼稚中性粒细胞会被化疗药物杀伤，导致骨髓功能损伤。因此，同步放化疗期间，若化疗为周剂量实施，不推荐治疗性应用PEG-rhG-CSF。
+5 不良反应处理
+与PEG-rhG-CSF相关的不良事件类型、发生率和严重程度与rhG-CSF相关的不良事件相似，两者安全性差异无统计学意义[25,30]。
+①骨痛：骨痛是G-CSF最常见的不良反应，PEG-rhG-CSF与rhG-CSF骨痛发生率相似(19.7% vs. 19.0%)，一般为轻中度，不需要处理。个别患者不能耐受疼痛时，可以使用非甾体抗炎药给予处理，如布洛芬、萘普生等对症处理。有文献报道在使用PEG-rhG-CSF后使用萘普生(500 mg，每天2次)至5～8 d，可以有效降低PEG-rhG-CSF导致的骨痛发生率及疼痛程度[31]。
+②过敏反应：包括皮肤、呼吸系统或心血管系统的过敏反应，较为少见，无需常规抗过敏治疗。
+③脾肿大和(或)脾脏破裂：G-CSF诱导发生脾肿大和(或)脾破裂的确切机制仍不明确，NCCN指南认为部分有基础造血功能障碍的血液系统疾病患者，在使用G-CSF后可能存在发生脾肿大的风险，多为一过性；脾破裂发生率极低，为罕见不良事件。对出现腹痛(尤其左上腹)、恶心、呕吐以及逐渐恶化的贫血等症状的患者，应注意监测脾脏体积变化，并及时处理。
+6 结语
+中性粒细胞减少是同步放化疗期间常见的不良反应，其发生率与肿瘤类型、化疗药物和强度、放疗剂量、照射体积、照射部位等因素有关，可能导致同步放化疗期间剂量降低、治疗延迟，甚至放化疗中断，进而影响患者预后。同步放化疗期间密切监测患者血液学指标，应用PEG-rhG-CSF(培非格司亭)预防或者治疗同步放化疗期间所致的中性粒细胞减少症，有助于降低中性粒细胞减少症发生率和缩短持续时间，支持患者顺利完成治疗，最大限度地保证治疗的安全性和有效性。
+同步放化疗期间应用聚乙二醇化重组人粒细胞刺激因子中国专家共识(2020版)专家组成员名单
+顾问专家组成员 于金明(山东省肿瘤医院)
+执笔专家组组长 李宝生(山东省肿瘤医院)
+执笔专家组成员(按姓氏拼音排序) 傅小龙(上海交通大学附属胸科医院)、韩春(河北医科大学第四医院)、惠周光(中国医学科学院肿瘤医院)、郎锦义(电子科技大学医学院附属肿瘤医院/四川省肿瘤医院)、李宝生(山东省肿瘤医院)、李光(中国医科大学附属第一医院)、卢冰(贵州医科大学附属医院/贵州省肿瘤医院)、王军(河北医科大学第四医院)、王俊杰(北京大学第三医院)、王绿化(中国医学科学院肿瘤医院深圳医院)、王平(天津医科大学肿瘤医院)、王小虎(兰州重离子医院/中国科学院近代物理研究所)、吴永忠(重庆大学附属肿瘤医院)、张福泉(北京协和医院)、章真(复旦大学附属肿瘤医院)、朱广迎(中日友好医院)
+执笔人 王军(河北医科大学第四医院)
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+CooperJS, GuoMD, HerskovicA, et al.
+Chemoradiotherapy of locally advanced esophageal cancer: long-term follow-up of a prospective randomized trial (RTOG 85-01). Radiation Therapy Oncology Group[J].
+JAMA,
+1999,
+281(
+17):
+1623-
+1627.
+DOI: 10.1001/jama.281.17.1623.
+[2]
+TakadaM, FukuokaM, KawaharaM, et al.
+Phase Ⅲ study of concurrent versus sequential thoracic radiotherapy in combination with cisplatin and etoposide for limited-stage small-cell lung cancer: results of the Japan Clinical Oncology Group Study 9104[J].
+J Clin Oncol,
+2002,
+20(
+14):
+3054-
+3060.
+DOI: 10.1200/JCO.2002.12.071.
+[3]
+DonadieuJ, FenneteauO, BeaupainB, et al.
+Congenital neutropenia: diagnosis, molecular bases and patient management[J].
+Orphanet J Rare Dis,
+2011,
+6:
+26.
+DOI: 10.1186/1750-1172-6-26.
+[4]
+KlasterskyJ, de NauroisJ, RolstonK, et al.
+Management of febrile neutropaenia: ESMO Clinical Practice Guidelines[J].
+Ann Oncol,
+2016,
+27:
+111-
+118.
+DOI: 10.1093/annonc/mdw325.
+[5]
+KudererNM, DaleDC, CrawfordJ, et al.
+Mortality, morbidity, and cost associated with febrile neutropenia in adult cancer patients[J].
+Cancer,
+2006,
+106(
+10):
+2258-
+2266.
+DOI: 10.1002/cncr.21847.
+[6]
+BeckerPS, GriffithsEA, AlwanLM, et al.
+NCCN Guidelines Insights: Hematopoietic Growth Factors, Version 1.2020[J].
+JNCCN,
+2020,
+18(
+1):
+12-
+22.
+DOI: 10.6004/jnccn.2020.0002.
+[7]
+中国抗癌协会肿瘤临床化疗专业委员会，中国抗癌协会肿瘤支持治疗专业委员会.
+肿瘤化疗导致的中性粒细胞减少诊治专家共识[J].
+中国肿瘤临床，
+2019,
+46(
+17):
+876-
+882.
+DOI: 10.3969/j.issn.1000-8179.2019.17.913.
+[8]
+O′RourkeN, RoquéI, FigulsM, et al.
+Concurrent chemoradiotherapy in non-small cell lung cancer[J].
+Cochrane Database Syst Rev,
+2010(
+6):
+CD002140.
+DOI: 10.1002/14651858.CD002140.pub3.
+[9]
+Mac ManusM, LambornK, KhanW, et al.
+Radiotherapy-associated neutropenia and thrombocytopenia: analysis of risk factors and deve-lopment of a predictive model[J].
+Blood,
+1997,
+89(
+7):
+2303-
+2310.
+DOI: 10.1007/s002770050284.
+[10]
+SekineI, SumiM, ItoY, et al.
+Phase Ⅰ study of concurrent high-dose three-dimensional conformal radiotherapy with chemotherapy using cisplatin and vinorelbine for unresectable stage Ⅲ non-small-cell lung cancer[J].
+Int J Radiat Oncol Biol Phys,
+2012,
+82(
+2):
+953-
+959.
+DOI: 10.1016/j.ijrobp.2011.01.008.
+[11]
+ChristodoulouM, BlackhallF, MistryH, et al.
+Compliance and outcome of elderly patients treated in the concurrent once-daily versus twice-daily radiotherapy (CONVERT) trial[J].
+J Thorac Oncol,
+2019,
+14(
+1):
+63-
+71.
+DOI: 10.1016/j.jtho.2018.09.027.
+[12]
+YangH, LiuH, ChenY, et al.
+Neoadjuvant chemoradiotherapy followed by surgery versus surgery alone for locally advanced squamous cell carcinoma of the eso-phagus (NEOCRTEC5010): a phase Ⅲ multicenter, randomized, open-label clinical trial[J].
+J Clin Oncol,
+2018,
+36(
+27):
+2796-
+2803.
+DOI: 10.1200/JCO.2018.79.1483.
+[13]
+TangHR, MaHF, AnSM, et al.
+A phase Ⅱ study of concurrent chemoradiotherapy with paclitaxel and cisplatin for inoperable eso-phageal squamous cell carcinoma[J].
+Am J Clin Oncol,
+2016,
+39(
+4):
+350-
+354.
+DOI: 10.1097/COC.0000000000000069.
+[14]
+VideticGM, FungK, TomiakAT, et al.
+Using treatment interruptions to palliate the toxicity from concurrent chemoradiation for limi-ted small cell lung cancer decreases survival and disease control[J].
+Lung Cancer,
+2001,
+33(
+2-3):
+249-
+258.
+DOI: 10.1016/s0169-5002(00)00240-3.
+[15]
+OhiraM, KuboN, YamashitaY, et al.
+Impact of chemoradiation-induced myelosuppression on prognosis of patients with locally advanced esophageal cancer after chemoradiotherapy followed by eso-phagectomy[J].
+Anticancer Res,
+2015,
+35(
+9):
+4889-
+4895.
+DOI: 10.1097/COC.0b013e31805c1410.
+[16]
+XuC, YangSP, ZhangY, et al.
+Neutropenia during the first cycle of induction chemotherapy is prognostic for poor survival in locoregionally advanced nasopharyngeal carcinoma: a real-world study in an endemic area[J].
+Cancer Res Treat,
+2018,
+50(
+3):
+777-
+790.
+DOI: 10.4143/crt.2017.255.
+[17]
+BunnPA, CrowleyJ, KellyK, et al.
+Chemoradiotherapy with or without granulocyte-macrophage colony-stimulating factor in the treatment of limited-stage small-cell lung cancer: a prospective phase Ⅲ randomized study of the Southwest Oncology Group[J].
+J Clin Oncol,
+1995,
+13(
+7):
+1632-
+1641.
+DOI: 10.1200/JCO.1995.13.7.1632.
+[18]
+SheikhH, ColacoR, LoriganP, et al.
+Use of G-CSF during concurrent chemotherapy and thoracic radiotherapy in patients with limited-stage small-cell lung cancer safety data from a phase Ⅱ trial[J].
+Lung Cancer,
+2011,
+74(
+1):
+75-
+79.
+DOI: 10.1016/j.lungcan.2011.01.020.
+[19]
+GomesF, FinnCF, GutierrezFF, et al.
+Use of G-CSF and prophylactic antibiotics with concurrent chemoradiotherapy in limited-stage small cell lung cancer: results from the phase Ⅲ CONVERT trial[J].
+Ann Oncol,
+2017,
+28(
+2):
+61-
+62.
+DOI: 10.1093/annonc/mdx195.
+[20]
+Radiation Emergency Medical Management.
+Myeloid cytokines for treatment of acute exposure to myelosuppressive doses of radiation: hematopoietic subsyndrome of acute radiation syndrome (H-ARS)[R/OL].
+2015[
+2020-11-25].
+https://www.remm.nlm.gov/cytokines.htm.
+[21]
+中国临床肿瘤学会，中国抗淋巴瘤联盟，中国抗癌协会乳腺癌专业委员，等.
+聚乙二醇化重组人粒细胞刺激因子(PEG-rhG-CSF)临床应用中国专家共识[J].
+中国肿瘤临床，
+2016,
+43(
+7):
+271-
+274.
+DOI: 10.3969/j.issn.1000-8179.2016.07.239.
+[22]
+中国临床肿瘤学会指南工作委员会.
+肿瘤放化疗相关中性粒细胞减少症规范化管理指南[J].
+中华肿瘤杂志，
+2017,
+39(
+11):
+868-
+878.
+DOI: 10.3760/cma.j.issn.0253-3766.2017.11.011.
+[23]
+LiuF, DuY, CaiB, et al.
+A clinical study of polyethylene glycol recombinant human granulocyte colony-stimulating factor prevention neutropenia syndrome in patients with esophageal carcinoma and lung cancer after concurrent chemoradiotherapy[J].
+J Cancer Res Ther,
+2017,
+13(
+5):
+790-
+795.
+DOI: 10.4103/jcrt.JCRT_320_17.
+[24]
+刘芳，俞伟，梁岚清，等.
+聚乙二醇重组人粒细胞集落刺激因子预防头颈部肿瘤同步放化疗后中性粒细胞减少症的研究[J].
+中国临床保健杂志，
+2015,
+18(
+4):
+386-
+389.
+DOI: 10.3969/J.issn.1672-6790.2015.04.018.
+[25]
+ShiYK, ChenQ, ZhuYZ, et al.
+Pegylated filgrastim is comparable with filgrastim as support for commonly used chemotherapy regimens: a multicenter, randomized, crossover phase 3 study[J].
+Anticancer Drugs,
+2013,
+24(
+6):
+641-
+647.
+DOI: 10.1097/CAD.0b013e3283610b5d.
+[26]
+杨晟，何小慧，刘鹏，等.
+聚乙二醇化重组人粒细胞集落刺激因子预防化疗后中性细粒细胞减少的有效性分析[J].
+中国肿瘤临床，
+2015,
+42(
+12):
+626-
+631.
+DOI: 10.3969/j.issn.1000-8179.20150577.
+[27]
+SmithTJ, KhatcheressianJ, LymanGH, et al.
+2006 update of re-commendations for the use of white blood cell growth factors: an evidence-based clinical practice guideline[J].
+J Clin Oncol,
+2006,
+24(
+19):
+3187-
+3205.
+DOI: 10.1200/JCO.2006.06.4451.
+[28]
+WuFP, WangJ, WangH, et al.
+Clinical observation of the therapeutic effects of pegylated recombinant human granulocyte colony-stimulating factor in patients with concurrent chemoradiotherapy-induced grade Ⅳ neutropenia[J].
+Exp Ther Med,
+2015,
+9(
+3):
+761-
+765.
+DOI: 10.3892/etm.2014.2160.
+[29]
+刘青，关嵩，曹峰，等.
+PEG-rhG-CSF对同步放化疗中性粒细胞缺乏挽救性治疗临床分析[J].
+中华肿瘤防治杂志，
+2017,
+24(
+7):
+481-
+485.
+[30]
+PfeilAM, AllcottK, PettengellR, et al.
+Efficacy, effectiveness and safety of long-acting granulocyte colony-stimulating factors for pro-phylaxis of chemotherapy-induced neutropenia in patients with can-cer: a systematic review[J].
+Support Care Cancer,
+2015,
+23(
+2):
+525-
+545.
+DOI: 10.1007/s00520-014-2457-z.
+[31]
+KirshnerJJ, HecklerCE, JanelsinsMC, et al.
+Prevention of pegfilgrastim-induced bone pain: a phase Ⅲ double-blind placebo-controlled randomized clinical trial of the university of rochester cancer center clinical community oncology program research base[J].
+J Clin Oncol,
+2012,
+30(
+16):
+1974-
+1979.
+DOI: 10.1200/JCO.2011.37.8364.
+贡献者信息
+中国医师协会放射肿瘤治疗医师分会
+中华医学会放射肿瘤治疗学分会
+中国抗癌协会肿瘤放射治疗专业委员会
+通信作者
+李宝生
+Email：
+baoshengli1963@163.com
+关键词
+同步放化疗;
+中性粒细胞减少;
+聚乙二醇化重组人粒细胞刺激因子;
+临床共识;
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2021-01-08
+收稿日期：2020-11-26
+修回日期：2020-12-08
+本文编辑
+孙娜
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+FN发生风险>20%的化疗方案及建议
+肿瘤类型
+化疗方案
+建议
+小细胞肺癌
+①CDE方案(环磷酰胺＋多柔比星＋依托泊苷)
+②拓扑替康
+③ICE方案(异环磷酰胺＋卡铂＋依托泊苷)
+非小细胞肺癌
+DC方案(多西他赛＋卡铂)
+结直肠癌
+FOLFOXIRI方案(氟尿嘧啶＋亚叶酸钙＋奥沙利铂＋伊立替康)
+食管癌和胃癌
+DCF方案(多西他赛＋顺铂＋氟尿嘧啶)
+胰腺癌
+FOLFIRINOX方案(奥沙利铂＋亚叶酸＋伊立替康＋氟尿嘧啶)
+卵巢癌
+①托泊替康
+②紫杉醇
+③多西他赛
+头颈部肿瘤
+TPF方案(多西他赛＋顺铂＋氟尿嘧啶)
+乳腺癌
+①TCH方案(多西他赛＋卡铂＋曲妥珠单抗)
+②ddAC-2wP方案(剂量密集多柔比星＋环磷酰胺＋序贯紫杉醇双周)
+③ddAC-2wP方案(剂量密集多柔比星＋环磷酰胺＋序贯紫杉醇单周)
+④TAC方案(多西他赛＋多柔比星＋环磷酰胺)
+⑤TE方案(多西他赛＋表柔比星)
+⑥TC方案(多西他赛＋环磷酰胺)
+⑦FEC方案(氟尿嘧啶＋表柔比星＋环磷酰胺)
+⑧高剂量多西他赛＋噻替哌＋卡铂联合
+⑨高剂量多西他赛＋噻替哌联合
+肾癌
+多柔比星＋吉西他滨
+睾丸癌
+①VeIP方案(长春碱＋异环磷酰胺＋顺铂)
+②VIP方案(依托泊苷＋异环磷酰胺＋顺铂)
+③TIP方案(紫杉醇＋异环磷酰胺＋顺铂)
+建议预防性应用
+膀胱癌
+剂量密集的MVAC(甲氨蝶呤＋长春碱＋多柔比星＋顺铂)
+PEG-rhG-CSF
+霍奇金淋巴瘤
+①BEACOPP方案(博来霉素＋依托泊苷＋多柔比星＋环磷酰胺＋长春新碱＋丙卡巴肼＋泼尼松)
+②Brentuximabvedotin(维汀-布仑妥昔单抗)＋AVD方案(多柔比星＋长春碱＋达卡巴嗪)
+非霍奇金淋巴瘤
+①ICE方案(异环磷酰胺＋卡铂＋依托泊苷)
+②剂量调整的EPOCH方案(依托泊苷＋泼尼松＋长春新碱＋环磷酰胺＋多柔比星)
+③剂量密集的CHOP方案(环磷酰胺＋多柔比星＋长春新碱＋泼尼松)±利妥昔单抗
+④MINE方案(美司钠＋异环磷酰胺、米托蒽醌＋足叶乙甙)
+⑤DHAP方案(地塞米松＋顺铂＋阿糖胞苷)
+⑥ESHAP方案(依托泊苷＋甲泼尼龙＋顺铂＋阿糖胞苷)
+⑦高剂量HyperCVAD方案(环磷酰胺＋长春新碱＋多柔比星＋地塞米松)±利妥昔单抗
+黑色素瘤
+①以达卡巴嗪为主的联合方案(达卡巴嗪＋顺铂＋长春碱)
+②以达卡巴嗪为主联合IL-2、干扰素α的方案(达卡巴嗪＋顺铂＋长春碱＋IL-2＋干扰素α)
+骨肉瘤
+①高剂量异环磷酰胺联合高剂量甲氨蝶呤
+②多柔比星和顺铂(新辅助)
+③甲氨蝶呤、多柔比星和顺铂(初诊为高级别)
+④甲氨蝶呤、多柔比星和顺铂联合异环磷酰胺、依托泊苷(初诊为高级别)
+⑤顺铂动脉介入联合多柔比星静脉滴注
+⑥顺铂动脉介入联合多柔比星、异环磷酰胺静脉滴注
+软组织肉瘤
+①MAID方案(美司钠＋多柔比星＋异环磷酰胺＋达卡巴嗪)
+②标准剂量多柔比星或高剂量表柔比星
+③异环磷酰胺和多柔比星
+多发性骨髓瘤
+①DT-PACE方案(地塞米松＋沙利度胺＋顺铂＋多柔比星＋环磷酰胺＋依托泊苷)
+②VTD-PACE方案(DT-PACE方案＋硼替佐米)
+注：FN为中性粒细胞减少性发热；PEG-rhG-CSF为聚乙二醇化重组人粒细胞刺激因子；IL-2为白细胞介素-2
+表2
+FN发生风险10%～20%的化疗方案、风险因素评估及建议
+肿瘤类型
+化疗方案
+风险因素评估
+建议
+小细胞肺癌
+①CAV方案(环磷酰胺＋多柔比星＋长春新碱)
+①年龄>65岁并接受足剂量强度化疗 ②既往接受过化疗或放疗 ③治疗前已经存在中性粒细胞减少 ④肿瘤疾病累及骨髓 ⑤近期外科手术和/或开放性创伤 ⑥肝功能障碍(胆红素> 20 mg/L) ⑦肾功能障碍(肌酐清除率< 50 mg/min) ⑧既往发生过FN ⑨恶性血液淋巴系统疾病 ⑩女性患者(小细胞肺癌) ⑪心血管疾病(非霍奇金淋巴瘤)
+若患者出现≥1项风险因素时，需要考虑给予预防性应用PEG-rhG-CSF
+②依托泊苷＋顺铂/卡铂
+非小细胞肺癌
+①TP方案(紫杉醇＋顺铂)
+②NP方案(顺铂＋长春瑞滨)
+③DP方案(顺铂＋多西他赛)
+④顺铂
+⑤依托泊苷
+⑥CP方案(卡铂＋紫杉醇)
+⑦多西他赛
+结直肠癌
+FOLFOX方案(氟尿嘧啶＋亚叶酸钙＋奥沙利铂)
+食管癌和胃癌
+①伊立替康、顺铂
+②表柔比星、顺铂、氟尿嘧啶
+③表柔比星、顺铂、卡培他滨
+胰腺癌
+FOLFIRINOX方案(奥沙利铂＋亚叶酸＋伊立替康＋氟尿嘧啶)
+卵巢癌
+卡铂和多西他赛
+宫颈癌
+①顺铂和托泊替康
+②紫杉醇和顺铂
+③托泊替康
+④伊立替康
+子宫肉瘤
+多西他赛
+乳腺癌
+①含多西他赛的方案±曲妥珠单抗
+②CMF方案(环磷酰胺＋甲氨蝶呤＋氟尿嘧啶)
+③AC-T方案(多柔比星＋环磷酰胺序贯多西他赛，仅多西他赛治疗周期)
+④AC-TH方案(多西他赛序贯给药＋曲妥珠单抗)
+⑤FEC-T方案(氟尿嘧啶＋表柔比星＋环磷酰胺序贯多西他赛)
+⑥紫杉醇21 d方案
+⑦ddEC-T方案(剂量密集表柔比星＋环磷酰胺序贯紫杉醇)
+⑧E-CMF方案(表柔比星序贯环磷酰胺＋甲氨蝶呤＋氟尿嘧啶)
+⑨XT方案(卡培他滨＋多西他赛标准方案)
+睾丸癌
+①依托泊苷和顺铂
+②BEP方案(博来霉素＋依托泊苷＋顺铂)
+前列腺癌
+卡巴他赛
+非霍奇金淋巴瘤
+①GDP方案(吉西他滨＋地塞米松＋顺铂)±利妥昔单抗
+②CHOP方案(环磷酰胺＋多柔比星＋长春新碱＋泼尼松)±利妥昔单抗，包括含聚乙二醇脂质体多柔比星替代多柔比星的治疗方案
+③CHP方案(环磷酰胺＋多柔比星＋泼尼松)＋本妥昔单抗
+④苯达莫司汀
+注：FN为中性粒细胞减少性发热；PEG-rhG-CSF为聚乙二醇化重组人粒细胞刺激因子
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：国际肿瘤学杂志2021年48卷01期
+文    题：同步放化疗期间应用聚乙二醇化重组人粒细胞刺激因子中国专家共识(2020版)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：国际肿瘤学杂志2021年48卷01期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

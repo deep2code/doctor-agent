@@ -1,0 +1,1450 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%AA%A8%E7%9B%86%E9%AA%A8%E6%8A%98%E5%BE%AE%E5%88%9B%E6%89%8B%E6%9C%AF%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%282021%29.html
+# 标题: 中国骨盆骨折微创手术治疗指南(2021) - 中华创伤骨科杂志
+# 发布方/日期: 外科，中华创伤骨科杂志, 2021,23(1) : 4-14. DOI: 10.3760/cma.j.cn；2021-01-15
+
+中国骨盆骨折微创手术治疗指南(2021)
+中华医学会骨科学分会创伤骨科学组
+中华医学会骨科学分会外固定与肢体重建学组
+中华医学会创伤学分会
+国家骨科与运动康复临床医学研究中心
+陈华
+白雪东
+易成腊
+侯志勇
+张里程
+中华创伤骨科杂志, 2021,23(1) : 4-14. DOI: 10.3760/cma.j.cn115530-20200918-00610
+骨盆骨折约占全身骨折的3%，其中10%为不稳定骨折，死亡率高达8%~37%[1,2,3,4,5,6,7]，骨折类型多种多样，常伴随大量失血以及其他脏器损伤，手术治疗难度大、风险高，一直是创伤骨科领域的难点[8,9]。骨盆骨折微创手术以其创伤小、出血少、皮肤条件要求低、利于急诊状态下施行等优点越来越受学者们推崇，其成功实施取决于能否实现术中闭合复位和良好的术中影像监测，这需要制定详细的术前计划[10,11,12]。
+近年来，随着骨盆骨折微创手术治疗理念及手术辅助设备的不断发展，骨盆骨折微创手术治疗的适应证不断扩大，手术技术也更加成熟。为了国内骨盆骨折微创手术治疗的规范开展，中华医学会骨科学分会创伤骨科学组、中华医学会骨科学分会外固定与肢体重建学组、中华医学会创伤学分会、国家骨科与运动康复临床研究中心组织专家共同商议制定了本指南。
+本文证据等级基于Wright骨科手术研究改良证据等级推荐系统[13,14]：A级表示高质量证据（结果一致的Ⅰ级研究）；B级表示中等质量证据（结果一致的Ⅱ级或Ⅲ级研究）；C级表示低质量证据（结果一致的Ⅳ级或Ⅴ级研究）；Ⅰ级（insufficient or conflicting evidence）表示没有充分的证据或证据间存在冲突，无法推荐。
+一、手术方式和治疗原则
+（一）手术方式
+临床上不稳定骨盆骨折常累及骨盆环多个部位，完整的手术包括骨盆环的解剖或功能复位和有效的固定。手术方式总体讲分为针对骨盆前环损伤和后环损伤的相应术式。
+骨盆前环损伤微创术式包括：外固定支架固定术、经皮钉棒系统内固定（INFIX）、闭合复位经皮前柱螺钉/耻骨支螺钉/耻骨联合螺钉内固定术，前环有限切开钢板/耻骨联合钢板内固定术[15,16,17]。
+骨盆后环损伤微创术式包括：骶髂关节脱位/骶骨纵行骨折闭合复位，经皮骶髂关节螺钉/骶骨棒内固定术；髂骨骨折闭合复位，经皮通道螺钉（LC-2螺钉）内固定术；经皮椎弓根钉棒系统后环内固定术；经皮后方髂骨间钢板/微创可调式接骨板（minimally invasive adjustable plate, MIAP）内固定术[3,18,19,20,21]。
+（二）治疗原则
+基本原则：在血流动力学基本稳定的前提下尽早手术；力争借助各种复位工具实现闭合复位；在良好的技术支持及设备辅助下尽可能经皮内固定，或有限切开内固定；术后早期功能康复[9,18,22,23]。
+骨盆骨折微创手术具有很多优点，因其可以在对血流动力学干扰小的情况下，有效稳定骨盆、控制出血，甚至可以作为患者复苏急救的一部分。早期手术对于骨盆骨折的闭合复位至关重要，如等到血肿机化，闭合复位将非常困难，有时难以实现。经皮螺钉固定在闭合复位的基础上可实现对复杂骨盆骨折的有效固定，尽管需要较高的手术技术和设备，但可以避免对新鲜骨盆血肿的减压，最大限度地减少出血量、缩短手术时间、降低伤口并发症的发生率，从而使患者术后快速康复成为可能[15,18]。
+推荐意见：
+1．微创手术治疗不稳定性骨盆骨折，可以重建骨盆力学稳定，功能疗效优于非手术治疗，并可显著降低伤后病残率和骨折畸形愈合率[24]。推荐等级：C。
+2．经皮通道螺钉在骨盆骨折治疗中应用广泛，与开放手术相比对局部软组织条件要求低、手术时间短、软组织损伤小、出血量少、术后疼痛轻、功能康复快[3,15,18,25]。推荐等级：B。
+3．骨盆前、后环的复位固定顺序中，除单纯耻骨联合分离需先处理前环外，其他情况一般都先处理后环[17,26]。推荐等级：C。
+二、手术适应证和禁忌证
+既往骨盆骨折经皮微创手术适应证较为局限，近年来随着骨折复位、固定技术的提高，特别是各种辅助复位器械的研发，使骨盆骨折的微创手术适应证明显增加，很多严重移位的骨盆骨折均可实现良好的闭合复位和骨盆环的微创固定。
+骨盆前环损伤经皮内固定适应证包括：①前环移位不明显的Tile B、C型骨折；②髋臼骨折无需复位者；③移位明显，但可以实现良好的闭合复位的上述各类骨折及耻骨联合分离[16,27,28]。骨盆后环损伤经皮内固定的适应证主要为：①Tile B、C型骨折；②骶髂韧带损伤、骶髂关节脱位、骶骨纵行骨折；③"新月形"髂骨骨折[29,30,31,32]。此外，选择骨盆骨折微创手术治疗的相对适应证包括：①开放性骨盆骨折、软组织条件欠佳或合并腹部损伤患者；②生命体征欠平稳、急诊或合并多发伤者；③肥胖患者；④育龄期女性患者。
+骨盆骨折微创手术的禁忌证：①稳定型骨折；②骨盆前、后环未达到复位标准；③螺钉进钉点粉碎；④S1椎体粉碎性骨折及部分骶骨Dennis Ⅲ区骨折；⑤髂骨翼粉碎性骨折无法闭合复位；⑥穿针处皮肤病变或皮肤感染；⑦重度骨质疏松症患者；⑧严重发育畸形者[3,29]。
+三、术前评估
+（一）全身评估及手术时机
+骨盆骨折往往伴有颅脑损伤、胸腹联合伤等多发伤和复合伤，病情凶险，伤后应在第一时间进行快速全面的伤情评估[32,33]。主要包括以下伤情：①出血性休克及凝血功能障碍；②开放伤及感染；③合并脏器损伤[22,34,35]。
+推荐意见：
+进行骨盆骨折微创手术的最佳时间窗[22]：①血流动力学不稳定以及凝血功能障碍的患者复苏成功后。推荐等级：B。②血流动力学基本稳定的患者可以安全地在伤后24 h内进行早期闭合复位，微创内固定手术。推荐等级：A。③对于生理功能严重紊乱的多发伤患者，至少应推迟至受伤4 d以后手术。推荐等级：A。
+（二）影像学评估
+1．骨盆正位X线片是骨盆骨折最基本的检查，多数患者能做出初步诊断。进一步检查包括骨盆入口位和出口位检查，以判断骨盆前后、头尾和旋转方向上的移位。
+2．不稳定性骨盆骨折的放射征象：耻骨联合分离大于2.5 cm，提示骨盆旋转不稳；半侧骨盆向头向移位大于1.0 cm，提示骨盆垂直不稳；任何投照角度获得的影像资料，只要骶髂关节脱位超过0.5 cm，视为不稳定骨折；骨盆后环骨折并分离，能看见裂口而非凹陷，视为不稳定骨折；伴有L5横突骨折、坐骨棘撕脱骨折、骶骨外侧撕脱骨折，均提示骨盆不稳定[31,36,37]。3.当怀疑尿道损伤时，行逆行膀胱造影。
+4．CT检查可以发现骨折的细微变化，准确评价骶髂关节复合体的稳定性，所有患者条件允许均应行CT检查；CT三维重建可以更好地显示骨折类型和合并损伤，对术前评估和手术决策起重要指导作用；CT血管造影可获得清晰的血管影像，明确血管损伤情况[34]。
+推荐意见：当骨盆环的稳定性存在疑问时，麻醉下动态应力作用下透视检查，有助于发现隐匿性骨盆环不稳定骨折[38]。推荐等级：B。
+（三）术前准备
+①抢救生命、液体复苏；②控制出血；③处理合并脏器损伤；④骨折的急救处理；⑤根据CT和X线片确定骨盆的解剖和变异情况，确定通道螺钉安全区范围；⑥对损伤进行准确的分型[23,34,35]。
+推荐意见：对于血流动力学不稳定、骨盆环稳定性严重破坏的患者，骨盆外固定起着临时稳定骨盆环的作用，是早期辅助控制出血的重要手段[22,23]。推荐等级：A。
+（四）手术规划
+复杂骨盆骨折的闭合复位往往较为困难，术中置钉失误可导致医源性神经、血管损伤，据报道术中置钉失误率及神经损伤率曾分别高达25%和18%，因此，全面细致的术前规划至关重要[3]。手术计划的关键是针对骨折设计有效的复位、固定方法，需要由有经验的专家制定。通过CT三维重建以及3D打印技术术前可对骨折的类型及移位情况做出直观准确的判断，有利于术中闭合复位的精准实施；此外还要关注骨盆各结构的解剖变异性，从而选择切实可行的微创固定方式[39]。
+四、手术设备、器械
+（一）主要设备
+常规设备包括C型臂、全透视手术床、术中牵引装置等。如条件受限可自行设计制作木质全透视手术床（一般高约1.1 m，宽50~55 cm），再与常规手术床及牵引装置拼接匹配。
+骨盆复位架最早报道于Matta设计的髋部骨盆固定装置[40]，此后Lefaivre等[41,42]报道了在此基础上设计的商品化的Starr骨盆复位架，均取得了良好的临床应用效果。解放军总医院创伤团队针对国人体型骨盆，设计了301骨盆解锁复位系统[34,43]，该系统由骨盆稳定装置、解锁复位装置以及牵引装置组成，设计更为精巧，并引入旋转伸缩解锁复位装置，降低了对其他手术设备如透视机、手术床的要求，同时可以配合术中CT使用。骨盆复位架的应用有效拓宽了骨盆骨折微创手术治疗的适应证[40,41,42,43]。
+近年来，随着2D及3D影像导航设备以及骨科手术机器人的迅速发展，骨盆骨折微创置钉效率和准确率得到了显著提高。骨科手术机器人（TiRobot）可在骨盆骨折良好复位的基础上，在置钉过程中替代医生在辐射等环境下完成必要的工作，延伸医生的观察与操作能力，在提高手术效率的同时，可明显降低骨盆、髋臼微创手术的风险和门槛[44,45,46,47,48]。
+推荐意见：
+1．301骨盆解锁复位系统联合经皮通道螺钉固定技术可对复杂骨盆骨折完成有效的复位固定；对于延期复位的不稳定骨盆骨折的微创手术亦有很大的应用价值[43]。推荐等级：C。
+2．TiRobot用于骨盆骨折通道螺钉固定可有效提高置钉准确率，减少手术时间及射线暴露时间，减少手术创伤及术中出血量，具有很大的临床应用价值[44,45,46,47,48]。推荐等级：B。
+（二）手术器械
+骨盆骨折微创手术器械：①骨盆通道螺钉固定系统，包括不同长度的全螺纹和半螺纹螺钉，可用作骶髂螺钉、前柱螺钉或耻骨支螺钉、后柱螺钉、LC-2螺钉、耻骨联合螺钉等，以及相关配套器械如螺纹导针、空心钻、空心改锥、海蛇头引导器、直角导向器等。②椎弓根钉棒系统用于骨盆环骨折的经皮内固定；③重建钢板螺钉系统用于耻骨联合分离及后方经皮髂骨间钢板内固定；④MIAP用于骨盆后环损伤的复位及经皮内固定[3,9,21,31,34]。
+五、手术方法
+（一）体位及透视位置
+患者一般取仰卧位，上肢伸直、外展于臂板，下肢可连接于牵引装置。选择全透视手术床，避免铺单时使用巾钳等金属物[9]。术中透视的位置主要包括骨盆正位、入口位、出口位、闭孔斜位、髂骨斜位、LC-2长轴像、闭孔出口位、髂骨入口位、骶髂关节正位像入口位、骶髂关节正位像出口位、髂骨翼正位像、泪滴像以及骶骨侧位像等。放射技师需要理解骨盆每个透视角度的方向和意义[3,34]。
+（二）复位方法及判断
+良好的复位是微创固定的前提和基础。对于垂直方向移位，可通过术前大重量股骨髁上牵引或术中牵引床复位；对于耻骨联合分离损伤，可以经皮钳夹耻骨结节复位；对于髂骨外翻、内翻，可以通过双手向中间推挤或向两侧下压髂骨翼复位；对于旋转移位和内外翻移位，可以通过打入Schanz钉应用摇杆原理复位。此外，还可以通过顶棒、夹持钳、骨钩等经皮复位工具帮助完成复杂骨折的精准复位[3,9,11]。
+骨盆复位架可有效的维持复位，同时利于复位动作的分解，使得复杂骨盆骨折的精准复位变为可能。其复位的原理是（以301骨盆解锁复位系统为例）：以相对躯干没有移位骨折部位作为复位基准，通过连接在解锁复位器上的Schanz钉固定移位骨盆，在精准调控下解除骨折移位断端的绞索或关节嵌顿，再借助患侧肢体牵引、LC-2螺钉、髋臼上横行螺钉、髂嵴顶棒等各种复位力量实现骨折在各个维度上的精准复位[43]。
+复位的评估：通过骨盆正位像对骨盆环复位进行总体评估；骨盆入口位可准确评估骨盆环前后方向移位；骨盆出口位可准确评估骨盆环垂直移位；闭孔斜位可清楚显示髋臼后壁和前柱骨折的复位情况；髂骨斜位可清楚显示骨盆后柱和髋臼前壁的复位情况；骶髂关节正位像入口位可清楚显示骶髂关节开合和前后方向复位情况；骶髂关节正位像出口位可清楚显示骶髂关节垂直方向复位情况[34,49]。
+推荐意见：
+1．对于不稳定性骨盆环损伤，闭合复位技术可以获得和切开复位同样的效果[11]。推荐等级：B。
+2．骨盆复位架可实现复杂骨盆骨折准确的闭合复位，在微创手术治疗中发挥重要作用[40,41,42]。推荐等级：B。
+3．后环移位超过1 cm将对功能产生明显影响[3,9,50]。推荐等级：B。
+4．如果骨折移位大于10 mm，螺钉置入的安全通道横截面积将大大降低[51]。推荐等级：B。
+（三）固定方法
+1993年Routt Jr等[52]率先报道了仰卧位下经皮骶髂螺钉的置入技术，开创了骨盆后环损伤经皮微创手术的先河。继而经皮LC-2通道螺钉、耻骨支螺钉等技术应运而生[53,54]。这些经皮置钉技术的可行性及有效性随后被大量研究证实，为不稳定骨盆环损伤的微创手术奠定了坚实的基础。当前骨盆骨折微创手术固定方法主要包括：经皮通道螺钉固定系统、外固定支架、INFIX内固定架、耻骨联合钢板、经皮前环桥接钢板，以及经皮后方髂骨间钢板等。
+1．通道螺钉固定系统：
+①单侧骶髂关节螺钉：穿过骶髂关节、骶骨翼、进入S1或S2椎体，需要避开骶神经孔、骶管并且不穿透骶骨翼斜坡的皮质。固定脱位骶髂关节时，螺钉应垂直关节；固定骶骨骨折时，螺钉应垂直骨折线、横行进入，并尽可能使螺钉进入对侧骶骨翼[3]。②穿骶骨骶髂关节固定螺钉（transiliac-transsacral screw）：穿过伤侧髂骨翼、S1或S2椎体，直至对侧髂骨。螺钉走行在出口位尽量在椎体内低位、入口位尽量在椎体后方，尤其对于发育畸形的骶骨非常重要[31]。③前柱螺钉：入点位于臀肌柱上，出点位于耻骨结节内下方，顺行置钉方式可以避免肥胖体型的不利影响。适用于累及前柱的髋臼、耻骨上支骨盆环骨折。④后柱螺钉：入点位于骨盆弓状线边缘的髂骨内板，出点位于坐骨结节。顺行进针寻找入针点较困难，而逆行进针体位摆放和透视较困难。用于固定累及后柱的髋臼骨折。通道内侧为四边区，前方为髋关节，后方为坐骨大孔，需非常小心避免置钉失误。⑤LC-2螺钉：入点位于髂前下棘，出点位于髂后上棘，钉道位于髂骨内、外板之间。该通道用途广泛，除用于固定新月形髂骨翼骨折外，尚可连接骨盆复位架用于骨盆环闭合复位。⑥髋臼上横行螺钉：入钉点位于髋关节水平上1 cm，恰位于髂前下棘水平，出点位于四边区上部分。用于经皮固定髋臼骨折，支撑臼顶或抓持向内侧移位的四边区骨板；半针通过该通道连接骨盆复位架用于骨盆环闭合复位。⑦短通道螺钉：前柱以髋臼横韧带为中心分为内侧半和外侧半。内侧半通道螺钉即耻骨支螺钉，入钉点位于耻骨结节上方，指向髋臼切迹；外侧半通道入钉点位于骨盆正位泪滴区，指向陈氏分区的Ⅰ、Ⅱ区[55]。短通道螺钉避免了内侧通道和外侧通道夹角过小或通道狭窄对前柱螺钉置钉的影响。⑧耻骨联合螺钉：目前有平行固定和交叉固定两种技术。平行固定：上方螺钉入钉点位于耻骨结节外侧缘，出钉点位于对侧耻骨结节外侧缘，下方螺钉入钉点位于耻骨联合外侧20 mm、下方23 mm处，出钉点位于对侧对称位置。交叉固定：进钉点位于耻骨联合侧方20 mm，与水平呈25°角穿过耻骨联合，在对侧耻骨联合侧方20 mm、下方23 mm处穿出[56]。通道螺钉的术中影像评估：骨盆正位像对于前柱、后柱以及骶髂螺钉置入的评估都非常重要；骨盆入口位可准确评估骶髂螺钉的前后走向；骨盆出口位可准确评估骶髂螺钉的纵向走向；S1椎弓根轴位像可显示骶髂螺钉置入的理想和安全区域；泪滴位用于确定LC-2螺钉的进钉点；髂骨斜位像和LC-2长轴像用于判断LC-2螺钉在通道内垂直方向的走形和长度；髂骨翼正位像用于判断LC-2螺钉在髂骨内外板间的走形方向；闭孔出口位联合髂骨入口位可以清楚显示前柱螺钉、耻骨支螺钉的置入通道；骶骨侧位像用于帮助确定骶髂螺钉入点以及判断骶髂螺钉有无切出骶骨前侧皮质[34,57]。
+2．外固定支架：
+可用做复苏急救过程中的临时固定，也可作为终极固定以及在内固定手术中用作对前环的加强[58]。外固定支架有通过在髂嵴固定和髋臼上缘固定两种方式。髂骨翼外固定支架：置钉点位于髂前上棘后方2~3 cm髂嵴上，方向向下，钉道位于臀肌柱内，每侧2~3枚Schanz钉，置钉可不需要透视，相对容易。髋臼上缘外固定支架：进钉点位于髂前下棘，沿LC-2通道走形于髂骨翼内外板，指向髂后上棘、紧靠坐骨大切际。每侧只需1枚Schanz钉，力学强度优于髂骨翼外固定支架，但需要透视监视置钉[17,31,59,60]。外固定支架的缺点主要有钉道感染、患者不适、无法控制后环不稳定以及复位丢失，在一定程度上限制了其在当前骨盆固定手术中的应用[60,61]。
+3．INFIX内固定架：
+沿双侧LC-2螺钉通道，经套筒置入8~10 mm空心椎弓根螺钉至皮下，将连接棒经皮下连接两侧椎弓根螺钉锁紧即可。对于合并耻骨支骨折的前环不稳定具有非常强的适应证，尤其适用于肥胖患者，对前环的稳定性接近于双钢板螺钉，远优于外固定支架，且患者术后满意度较高[62,63]。术中需注意避免损伤股外侧皮神经，钉棒应置于深筋膜以上，避免对血管神经束造成压迫[31]。
+4．耻骨联合钢板：
+目前主要用于固定耻骨联合分离。一般采用Pfannenstiel切口或正中纵行直切口，显露耻骨结节后钳夹复位，应用重建钢板于耻骨联合上方固定。对于垂直不稳定者，可在耻骨联合前方再加1块钢板固定[31]。
+5．前环有限切开经皮钢板：
+切口包括两侧髂骨翼前方及中间的Pfannenstiel样切口，不必显露耻骨联合。钢板塑形后经皮下通道插入，可固定于两侧髂骨翼及中间的耻骨体。适用于固定骨盆前环多处骨折[31,64,65]。
+6．后方髂骨间钢板（transiliac posterior plate）：
+常规方法为沿两侧髂后上棘外侧显露外板及骨折或脱位处；复位骨折、脱位；将重建钢板塑形，通过皮下隧道放置于双侧髂骨背侧，螺钉坚强固定。具有操作简单、创伤小、固定牢靠、对骶孔和骶管不产生压迫作用等优点[20,66,67]。对B型骨折有优势，对垂直不稳定的C型骨折只是辅助作用，不能作为主力固定钢板；复位时可能造成较大损伤；如钢板塑形欠佳，术后出现褥疮、皮肤坏死或感染风险较高[68]。骨盆后环MIAP以其独特的解剖设计解决了上述后方髂骨间重建钢板的缺点。方法为将MIAP两侧的"Z"形板侧板与后方髂嵴内侧面贴合，上方板置于髂后上棘固定，下方板置于骶骨背侧上方固定；将带套筒的连接杆置入皮下隧道，与两侧"Z"形板连接，透视下通过伸长或缩短连接杆可进行骨盆后环复位[21,69,70]。
+推荐意见：
+1．对于高能量骨盆环损伤导致的后环完全不稳定骨盆骨折，前环准确的复位和坚强固定可增强骨盆环的整体稳定性，并可促进后环的复位[9,71,72]。推荐等级：B。
+2．对于APC-2型骨盆骨折，前方钢板联合后方螺钉辅助固定较单纯前方钢板固定显著减少前方钢板失败率和畸形愈合率[73]。推荐等级：B。
+3．对于有条件行闭合复位的不稳定骨盆环损伤，闭合复位技术较切开复位技术具有明显优越性[11,74]。推荐等级：B。
+4．经皮骶髂螺钉固定对于骨盆后环损伤是安全、有效的方法[75,76]。推荐等级：B。
+5．对于完全性骨盆后环损伤，采用多钉和穿骶骨骶髂关节固定螺钉的方法可增加固定强度[77,78,79]；穿骶骨骶髂关节螺钉固定较2枚单侧骶髂关节螺钉固定具有更好的临床效果[80]。推荐等级：B。
+6．穿骶骨骶髂关节螺钉较单侧骶髂关节螺钉不会造成额外的疼痛及功能损害[81,82]。推荐等级：B。
+7．对于耻骨联合钢板固定，锁定钢板与非锁定钢板在固定强度方面无明显差异[83,84]。推荐等级：B。
+8．耻骨联合分离目前大都应用钢板螺钉内固定，近年来对耻骨联合经皮螺钉固定的研究表明，经皮螺钉无论在生物力学和临床效果方面均与钢板相当[56,85,86,87]。推荐等级：C。
+9．脊柱骨盆固定可在很大程度上增强骶髂螺钉的固定强度，尤其适用于粉碎性骶骨Ⅱ区骨折伴垂直不稳定[88,89]。推荐等级：B。
+10．导航辅助下螺钉置入较常规置钉的精确性显著升高[75,90,91]。推荐等级：B。
+11．应用MIAP治疗骨盆后环损伤相较重建钢板具有手术时间短、切口小、出血量少、固定可靠等优点；其生物力学稳定性亦显著优于张力带接骨板，而与2枚骶髂螺钉固定效果相当[21,69]。推荐等级：B。
+六、骨盆脆性骨折
+骨盆脆性骨折是指老年骨质疏松患者受低暴力外伤导致的骨盆骨折。据文献报道骨盆脆性骨折占全部骨盆骨折的64%，在65岁以上人群中，其占比高达94%，且发病率仍逐年增加，近年来越来越被重视[92,93,94]。其主要症状是腰部、臀部、腹股沟区或会阴部的疼痛伴活动受限，骨折部位以耻骨支骨折多见，约占2/3[94,95]。骨盆脆性骨折的治疗目的是缓解疼痛、稳定骨盆、尽早恢复活动能力，因此对于骨盆环不稳定的老年患者，手术应尽可能微创[96,97,98]。
+对于骨盆脆性骨折，常规微创手术方法大多可以适用。采用通道螺钉固定导致螺钉松动的风险较高，为了加强螺钉的牢固性，通道螺钉可用骨水泥增强固定[99,100]。对于部分患者，尚有报道采用骶骨成形术，在骨折裂缝区域注入少量水泥，通过骨水泥和骨小梁的交叉，恢复骨折端稳定性，从而缓解疼痛[101]。
+推荐意见：
+1．骨盆脆性骨折FFP分类系统基于细致的影像学分析，纳入了骨折的形态，可用于参考制定治疗方案[97,102]。推荐等级：C。
+2．对于老年骨盆脆性骨折患者，因其螺钉松动及钉道感染风险较高，不建议使用外固定支架固定[98]。推荐等级：C。
+3．骨水泥增强后髂骶螺钉固定骨盆脆性骨折的初始稳定性明显增强[103,104]。推荐等级：B。
+4．骶骨成形术具有较高的骨水泥渗漏率，注入的骨水泥可能会阻碍骨折愈合并对可能需要的骨折固定造成障碍，其适应证目前尚存在争议[98]。推荐等级：Ⅰ。
+七、常见并发症
+尽管骨盆骨折微创手术具有损伤小、感染率低、术后恢复快等优势，但也存在许多潜在风险。尤其对于经皮通道螺钉内固定，螺钉误置是其主要风险，可能导致神经、血管以及其他重要脏器损伤、疼痛、畸形愈合等并发症[7,75]。螺钉误置主要源于对骨盆解剖的理解不到位、术中影像质量差、解剖变异以及复位欠佳等。内固定失效则主要源于骨质疏松、患者术后不配合、感染以及固定强度不足。骨盆畸形愈合或不愈合可导致慢性疼痛、畸形以及进行性功能障碍[105]。此外，需要重视的是骨盆骨折本身对患者的性生活有一定的影响，据报道女性有56%遗留性交困难，男性61%遗留性功能障碍[106,107]。
+推荐意见：
+1．导致骨盆畸形愈合/不愈合的主要因素包括骨盆环复位不良、伴有重要韧带损伤的不稳定骨折、早期固定不充分、因肌肉牵拉导致骨折明显移位、骨折断端软组织嵌入等，多数（78.9%）来自保守治疗或单纯外固定支架治疗者[105]。推荐等级：C。
+2．骨盆骨折术后残留的移位程度与术后疼痛及步态异常密切相关[24,108]。推荐等级：C。
+八、术后处理及康复
+视损伤程度术后24 h内使用抗生素预防感染；术后第1天开始应用抗凝药物，结合下肢气压泵和弹力袜等预防血栓，持续1个月或至患者能活动自如[31]。患者术后康复很大程度上取决于损伤程度。一般来讲，骨盆单侧损伤，鼓励患者术后早期健侧完全负重、患侧不负重，时间3个月；双侧损伤则完全不负重3个月；对于LC-1型骨折，鼓励患侧早期部分负重，定期复查评估骨折愈合和移位情况[34,43]。
+推荐意见：尽管对于骨盆、髋臼骨折有多种预防深静脉血栓的方法，目前尚无可靠证据能够指导骨盆骨折术后血栓预防措施[109]。推荐等级：Ⅰ级。
+九、疗效评价及随访
+术后影像学评价常用Matta影像评分[110]；功能评分常用Majeed评分、Iowa骨盆评分（IPS）和SF-36功能评分系统[111,112,113]。Matta影像评分是根据骨盆正位、入口位、出口位影像评价中移位最大的测量结果评估骨折复位情况，其标准为4 mm以内为优，5~10 mm为良，10~20 mm为可，大于20 mm为差[110]。Majeed评分是专门为骨盆损伤制定的功能评分系统，包括疼痛、工作、坐、立、行走距离、独立步态、性生活等7个方面的功能评估[111]。IPS也是骨盆损伤特异性评分系统，包括日常生活、工作经历、疼痛、跛行、视觉痛线和美观等6个方面[112]。SF-36作为整体健康评估包括生理机能、生理职能、躯体疼痛、一般健康状况、精力、社会职能、情感职能和精神健康等8个方面[113]。
+术后6周、12周行骨盆正位、入口位、出口位X线复查，必要时可通过CT精确评估复位情况及内固定位置。多数成人患者可在术后4~6个月返回工作岗位，但重体力劳动者及高空作业者应待患者力量及全身情况许可后方可工作[3]。
+推荐意见：
+1．Majeed评分与SF-36评分中的生理部分与神经系统损伤密切相关；Iowa骨盆评分与精神障碍、后环移位以及神经损伤密切相关[114]。推荐等级：C。
+2．骨盆骨折患者术后功能康复的特点是初期功能评分下降，随后在6~12个月内出现显著提升，然后在1~5年内稳步提升[115]。推荐等级：B。
+3．对于不稳定骨盆环损伤，合并下肢骨折、保守治疗以及神经损伤与其早期功能不佳密切相关；而神经损伤和超过20 mm的骨盆环移位与其长期功能结果呈显著负相关[116]。推荐等级：C。
+本指南作为学术性指导意见，涉及内容随时间需不断完善。临床决策时需根据患者个体情况综合判断，为患者提供个体化治疗建议。
+参与指南制定专家：（姓氏拼音顺序）
+安维军（宁夏医科大学总医院骨科）、毕郑刚（哈尔滨医科大学附属第一医院骨科）、蔡贤华（中国人民解放军中部战区总医院骨科）、曹学成（中国人民解放军九六〇中心医院骨科）、柴益民（上海交通大学附属第六人民骨科）、陈爱民（海军军医大学长征医院骨科）、陈仲（云南省第二人民医院骨科）、陈伟高（南昌大学第二附属医院骨科）、陈雁西（复旦大学附属中山医院骨科）、党晓谦（西安交通大学医学院第二附属医院骨科）、丁真奇（中国人民解放军联勤保障部队第九〇九医院骨科）、东靖明（天津医院创伤骨科）、方诗元（中国科学技术大学附属第一医院骨科）、付中国（北京大学人民医院骨科）、高鹏（北京协和医院骨科）、顾立强（中山大学附属第一医院骨科）、郭晓山（温州医科大学附属第二医院骨科）、黄富国（四川大学华西医院骨科）、黄雷（北京积水潭医院创伤骨科）、纪方（同济大学附属第九人民医院骨科）、贾燕飞（内蒙古医科大学第二附属医院骨科）、姜保国（北京大学人民医院骨科）、蒋协远（北京积水潭医院骨科）、康庆林（上海交通大学附属第六人民骨科）、孔荣（安徽省立医院骨科）、李军（北京大学第一医院骨科）、李开南（成都大学附属医院骨科）、李伟栩（浙江大学医学院附属第二医院骨科）、梁家利（香港大学深圳医院骨科）、廖琦（南昌大学第二附属医院骨科）、林朋（卫生部中日友好医院骨科）、林凤飞（厦门大学附属福州第二医院骨科）、林涨源（中南大学湘雅医院骨科）、刘璠（南通大学附属医院骨科）、刘光耀（吉林大学中日联谊医院骨科）、刘国辉（华中科技大学同济医学院附属协和医院骨科）、刘利民（首都医科大学宣武医院骨科）、罗从风（上海交通大学附属第六人民骨科）、吕刚（新疆自治区中医院骨科）、吕智（山西医科大学第二医院骨科）、吕德成（大连医科大学附属第一医院骨科）、吕厚辰（中国人民解放军总医院骨科）、马宝通（天津医院创伤骨科）、马献忠（河南省骨科医院骨科）、马信龙（天津医院骨科）、倪江东（中南大学湘雅二医院骨科）、倪卫东（重庆医科大学附属第一医院骨科）、潘志军（浙江大学医学院附属第二医院骨科）、裴国献（南方科技大学医院骨科）、彭阿钦（河北医科大学第三医院骨科）、戚剑（中山大学附属第一医院骨科）、钱红波（中国人民解放军东部战区总医院骨科）、芮永军（无锡市第九人民医院骨科）、桑锡光（山东大学齐鲁医院骨科）、尚剑（哈尔滨医科大学附属第一医院骨科）、邵林（哈尔滨医科大学附属第二医院骨科）、邵明（哈尔滨医科大学附属第一医院骨科）、舒衡生（天津医院创伤骨科）、孙大辉（吉林大学白求恩第一医院骨科）、孙玉强（上海交通大学附属第六人民骨科）、孙月华（上海交通大学医学院附属第九人民医院骨科）、汤欣（大连医科大学附属第一医院骨科）、唐坚（上海交通大学医学院附属第九人民医院骨科）、田耘（北京大学第三医院骨科）、王东（山西医科大学第二附属医院骨科）、王钢（南方医科大学南方医院骨科-创伤骨科）、王蕾（上海交通大学医学院附属瑞金医院骨科）、王跃（四川省人民医院骨科）、王爱国（郑州市骨科医院骨科）、王宝军（首都医科大学附属北京友谊医院骨科）、王光林（四川大学华西医院骨科）、王满宜（北京积水潭医院创伤骨科）、王鹏程（河北医科大学第三医院骨科）、王秋根（上海市第一人民医院骨科）、文良元（北京医院骨科）、吴丹凯（吉林大学白求恩第二医院骨科）、吴克俭（中国人民解放军总医院骨科）、吴新宝（北京积水潭医院创伤骨科）、谢肇（陆军军医大学附属西南医院骨科）、谢增如（新疆医科大学第一附属医院骨科）、徐明（苏州大学附属第一医院骨科）、徐卫国（天津医院骨科）、徐永清（解放军联勤保障部队第九二〇医院全军创伤骨科研究所）、杨军（中国医科大学附属第一医院骨科）、杨华清（首都医科大学附属北京康复医院骨科）、杨明辉（北京积水潭医院创伤骨科）、杨胜松（北京积水潭医院创伤骨科）、姚琦（首都医科大学附属北京世纪坛医院骨科）、叶发刚（青岛大学附属医院骨科）、叶君健（福建医科大学附属第一医院创伤骨科）、禹宝庆（上海市浦东医院骨科）、袁志（空军军医大学西京医院骨科）、曾炳芳（上海交通大学附属第六人民骨科）、张堃（西安交通大学医学院附属红会医院创伤骨科）、张群（中国人民解放军总医院骨科）、张寿（海南省海口市人民医院骨科）、张巍（中国人民解放军总医院骨科）、张保中（北京协和医院骨科）、张长青（上海交通大学附属第六人民骨科）、张殿英（北京大学人民医院骨科）、张建政（中国人民解放军总医院骨科）、张金利（天津医院创伤骨科）、张立海（中国人民解放军总医院骨科）、张树明（火箭军总医院骨科）、张亚奎（首都医科大学附属北京潞河医院骨科）、赵劲民（广西医科大学第一附属医院骨科）、赵文（北京航天总医院骨科）、赵（北京清华长庚医院骨科）、郑龙坡（上海市第十人民医院骨科）、周方（北京大学第三医院骨科）、周东生（山东省立医院骨科）、周君琳（首都医科大学附属北京朝阳医院骨科）、朱勇（中南大学湘雅医院骨科）、朱仕文（北京积水潭医院创伤骨科）、庄岩（西安交通大学医学院附属红会医院创伤骨科）、庄云强（宁波市第六医院骨科）
+利益冲突
+所有作者均申明不存在利益冲突。
+参考文献
+[1]
+ChuCH, TennakoonL, MaggioPM, et al.
+Trends in the management of pelvic fractures, 2008-2010[J].
+J Surg Res,
+2016,
+202(
+2):
+335-
+340.
+DOI: 10.1016/j.jss.2015.12.052.
+[2]
+YoshiharaH, YoneokaD.
+Demographic epidemiology of unstable pelvic fracture in the United States from 2000 to 2009: trends and in-hospital mortality[J].
+J Trauma Acute Care Surg,
+2014,
+76(
+2):
+380-
+385.
+DOI: 10.1097/TA.0b013e3182ab0cde.
+[3]
+IorioJA, JakoiAM, RehmanS.
+Percutaneous sacroiliac screw fixation of the posterior pelvic ring[J].
+Orthop Clin North Am,
+2015,
+46(
+4):
+511-
+521.
+DOI: 10.1016/j.ocl.2015.06.005.
+[4]
+AdamsJE, DavisGG, AlexanderCB, et al.
+Pelvic trauma in rapidly fatal motor vehicle accidents[J].
+J Orthop Trauma,
+2003,
+17(
+6):
+406-
+410.
+DOI: 10.1097/00005131-200307000-00003.
+[5]
+GabbeBJ, de SteigerR, EsserM, et al.
+Predictors of mortality following severe pelvic ring fracture: results of a population-based study[J].
+Injury,
+2011,
+42(
+10):
+985-
+991.
+DOI: 10.1016/j.injury.2011.06.003.
+[6]
+HeetveldMJ, HarrisI, SchlaphoffG, et al.
+Hemodynamically unstable pelvic fractures: recent care and new guidelines[J].
+World J Surg,
+2004,
+28(
+9):
+904-
+909.
+DOI: 10.1007/s00268-004-7357-9.
+[7]
+WongJM, BucknillA.
+Fractures of the pelvic ring[J].
+Injury,
+2017,
+48(
+4):
+795-
+802.
+DOI: 10.1016/j.injury.2013.11.021.
+[8]
+GuthrieHC, OwensRW, BircherMD.
+Fractures of the pelvis[J].
+J Bone Joint Surg Br,
+2010,
+92(
+11):
+1481-
+1488.
+DOI: 10.1302/0301-620X.92B11.25911.
+[9]
+VerbeekDO, RouttML.
+High-energy pelvic ring disruptions with complete posterior instability: contemporary reduction and fixation strategies[J].
+J Bone Joint Surg Am,
+2018,
+100(
+19):
+1704-
+1712.
+DOI: 10.2106/JBJS.17.01289.
+[10]
+郭晓山.
+骨盆骨折的微创治疗[J].
+中华创伤杂志,
+2013,
+29(
+8):
+715-
+716.
+DOI: 10.3760/cma.j.issn.1001-8050.2013.08.013.
+GuoXS. Minimally invasive treatment of pelvis fractures[J]. Chin J Trauma, 2013, 29(8): 715-716. DOI: 10.3760/cma.j.issn.1001-8050.2013.08.013.
+[11]
+LindsayA, TornettaP 3rd, DiwanA, et al.
+Is closed reduction and percutaneous fixation of unstable posterior ring injuries as accurate as open reduction and internal fixation?[J].
+J Orthop Trauma,
+2016,
+30(
+1):
+29-
+33.
+DOI: 10.1097/BOT.0000000000000418.
+[12]
+GiannoudisPV, TzioupisCC, PapeHC, et al.
+Percutaneous fixation of the pelvic ring: an update[J].
+J Bone Joint Surg Br,
+2007,
+89(
+2):
+145-
+154.
+DOI: 10.1302/0301-620X.89B2.18551.
+[13]
+WrightJG.
+Revised grades of recommendation for summaries or reviews of orthopaedic surgical studies[J].
+J Bone Joint Surg Am,
+2006,
+88(
+5):
+1161-
+1162.
+DOI: 10.2106/00004623-200605000-00036.
+[14]
+WrightJG, EinhornTA, HeckmanJD.
+Grades of recommendation[J].
+J Bone Joint Surg Am,
+2005,
+87(
+9):
+1909-
+1910.
+DOI: 10.2106/JBJS.8709.edit.
+[15]
+RouttML, NorkSE, MillsWJ.
+Percutaneous fixation of pelvic ring disruptions[J].
+Clin Orthop Relat Res,
+2000 (
+375):
+15-
+29.
+DOI: 10.1097/00003086-200006000-00004.
+[16]
+ColePA, DyskinEA, GilbertsonJA.
+Minimally-invasive fixation for anterior pelvic ring disruptions[J].
+Injury,
+2015,
+46
+Suppl 3:
+S27-
+S34.
+DOI: 10.1016/S0020-1383(15)30008-5.
+[17]
+WojahnRD, GardnerMJ.
+Fixation of anterior pelvic ring injuries[J].
+J Am Acad Orthop Surg,
+2019,
+27(
+18):
+667-
+676.
+DOI: 10.5435/JAAOS-D-17-00839.
+[18]
+BareiDP, BellabarbaC, MillsWJ, et al.
+Percutaneous management of unstable pelvic ring disruptions[J].
+Injury,
+2001,
+32
+Suppl 1:
+SA33-
+44.
+DOI: 10.1016/s0020-1383(01)00059-6.
+[19]
+WangH, FuYH, KeC, et al.
+Minimally invasive stabilisation of posterior pelvic ring instabilities with pedicle screws connected to a transverse rod[J].
+Int Orthop,
+2018,
+42(
+3):
+681-
+686.
+DOI: 10.1007/s00264-017-3714-9.
+[20]
+KobbeP, HockertzI, SelleiRM, et al.
+Minimally invasive stabilisation of posterior pelvic-ring instabilities with a transiliac locked compression plate[J].
+Int Orthop,
+2012,
+36(
+1):
+159-
+164.
+DOI: 10.1007/s00264-011-1279-6.
+[21]
+孙家元，陈伟，刘磊,等.
+两种内固定方法治疗骨盆后环损伤的疗效比较[J].
+中华创伤杂志,
+2013,
+29(
+3):
+249-
+253.
+DOI: 10.3760/cma.j.issn.1001-8050.2013.3.016.
+SunJY, ChenW, LiuL, et al. Comparison on efficacy of two internal fixations for posterior pelvic ring injuries[J]. Chin J Trauma, 2013, 29(3): 249-253. DOI: 10.3760/cma.j.issn.1001-8050.2013.3.016.
+[22]
+CoccoliniF, StahelPF, MontoriG, et al.
+Pelvic trauma: WSES classification and guidelines[J].
+World J Emerg Surg,
+2017,
+12:
+5.
+DOI: 10.1186/s13017-017-0117-6.
+[23]
+LangfordJR, BurgessAR, LiporaceFA, et al.
+Pelvic fractures: part 1. Evaluation, classification, and resuscitation[J].
+J Am Acad Orthop Surg,
+2013,
+21(
+8):
+448-
+457.
+DOI: 10.5435/JAAOS-21-08-448.
+[24]
+PapakostidisC, KanakarisNK, KontakisG, et al.
+Pelvic ring disruptions: treatment modalities and analysis of outcomes[J].
+Int Orthop,
+2009,
+33(
+2):
+329-
+338.
+DOI: 10.1007/s00264-008-0555-6.
+[25]
+LiCL.
+Clinical comparative analysis on unstable pelvic fractures in the treatment with percutaneous sacroiliac screws and sacroiliac joint anterior plate fixation[J].
+Eur Rev Med Pharmacol Sci,
+2014,
+18(
+18):
+2704-
+2708.
+[26]
+MattaJM.
+Indications for anterior fixation of pelvic fractures[J].
+Clin Orthop Relat Res,
+1996 (
+329):
+88-
+96.
+DOI: 10.1097/00003086-199608000-00011.
+[27]
+VaidyaR, MartinAJ, RothM, et al.
+Midterm radiographic and functional outcomes of the anterior subcutaneous internal pelvic fixator (INFIX) for pelvic ring injuries[J].
+J Orthop Trauma,
+2017,
+31(
+5):
+252-
+259.
+DOI: 10.1097/BOT.0000000000000781.
+[28]
+StarrAJ, NakataniT, ReinertCM, et al.
+Superior pubic ramus fractures fixed with percutaneous screws: what predicts fixation failure[J].
+J Orthop Tranma,
+2008,
+22(
+2):
+81-
+87.
+DOI: 10.1097/BOT.0b013e318162ab6e.
+[29]
+宋虎，陈龙，施建国,等.
+3D导航辅助下经皮骶髂螺钉联合前环外固定架治疗Tile B、C型骨盆骨折[J].
+中华创伤杂志,
+2018,
+34(
+6):
+497-
+504.
+DOI: 10.3760/cma.j.issn.1001-8050.2013.3.016.
+SongH, ChenL, ShiJG, et al. Three-dimensional navigation assisted percutaneous sacroiliac screw combined with external fixator for Tile B and C pelvic fractures[J]. Chin J Trauma, 2018, 34(6): 497-504. DOI: 10.3760/cma.j.issn.1001-8050.2013.3.016.
+[30]
+AviluceaFR, WhitingPS, MirH.
+Posterior fixation of APC-2 pelvic ring injuries decreases rates of anterior plate failure and malunion[J].
+J Bone Joint Surg Am,
+2016,
+98(
+11):
+944-
+951.
+DOI: 10.2106/JB-JS.15.00723.
+[31]
+LangfordJR, BurgessAR, LiporaceFA, et al.
+Pelvic fractures: part 2. Contemporary indications and techniques for definitive surgical management[J].
+J Am Acad Orthop Surg,
+2013,
+21(
+8):
+458-
+468.
+DOI: 10.5435/JAAOS-21-08-458.
+[32]
+van VugtAB, van KampenA.
+An unstable pelvic ring. The killing fracture.[J].
+J Bone Joint Surg Br,
+2006,
+88(
+4):
+427-
+433.
+DOI: 10.1302/0301-620X.88B4.16693.
+[33]
+VerbeekDO, SugrueM, BaloghZ, et al.
+Acute management of hemodynamically unstable pelvic trauma patients: time for a change? Multicenter review of recent practice[J].
+World J Surg,
+2008,
+32(
+8):
+1874-
+1882.
+DOI: 10.1007/s00268-008-9591-z.
+[34]
+陈华，唐佩福.
+骨盆、髋臼骨折微创治疗[M].
+郑州：
+河南科学技术出版社,
+2016.
+ChenH, TangPF. Minimally invasive treatment of pelvic and acetabular fractures[M]. Zhengzhou:Henan Science and Technology Press, 2016.
+[35]
+AbrassartS, SternR, PeterR.
+Unstable pelvic ring injury with hemodynamic instability: what seems the best procedure choice and sequence in the initial management?[J].
+Orthop Traumatol Surg Res,
+2013,
+99(
+2):
+175-
+182.
+DOI: 10.1016/j.otsr.2012.12.014.
+[36]
+VerbeekDO, BurgessAR.
+Importance of pelvic radiography for initial trauma assessment: an orthopedic perspective[J].
+J Emerg Med,
+2016,
+50(
+6):
+852-
+858.
+DOI: 10.1016/j.jemermed.2015.03.048.
+[37]
+MostafaviHR, TornettaP 3rd.
+Radiologic evaluation of the pelvis[J].
+Clin Orthop Relat Res,
+1996(
+329):
+6-
+14.
+DOI: 10.1097/00003086-199608000-00003.
+[38]
+SagiHC, ConiglioneFM, StanfordJH.
+Examination under anesthetic for occult pelvic ring instability[J].
+J Orthop Trauma,
+2011,
+25(
+9):
+529-
+536.
+DOI: 10.1097/BOT.0b013e31822b02ae.
+[39]
+TonettiJ, JouffroyP, DujardinF.
+Reconstruction of pelvic ring and acetabular fractures: what lies ahead?[J].
+Orthop Traumatol Surg Res,
+2019,
+105 (
+5):
+799-
+800.
+DOI: 10.1016/j.otsr.2019.06.002.
+[40]
+MattaJM, YerasimidesJG.
+Table-skeletal fixation as an adjunct to pelvic ring reduction[J].
+J Orthop Trauma,
+2007,
+21(
+9):
+647-
+656.
+DOI: 10.1097/BOT.0b013e31809810e5.
+[41]
+LefaivreKA, StarrAJ, ReinertCM.
+Reduction of displaced pelvic ring disruptions using a pelvic reduction frame[J].
+J Orthop Trauma,
+2009,
+23(
+4):
+299-
+308.
+DOI: 10.1097/BOT.0b013e3181a1407d.
+[42]
+LefaivreKA, StarrAJ, BarkerBP, et al.
+Early experience with reduction of displaced disruption of the pelvic ring using a pelvic reduction frame[J].
+J Bone Joint Surg Br,
+2009,
+91(
+9):
+1201-
+1207.
+DOI: 10.1302/0301-620X.91B9.22093.
+[43]
+陈华，齐红哲，朱正国,等.
+骨盆外架辅助复位联合通道螺钉固定治疗Tile C1型骨盆骨折[J].
+中华创伤杂志,
+2018,
+34(
+10):
+919-
+924.
+DOI: 10.3760/cma.j.issn.1001-8050.2018.10.011.
+ChenH, QiHZ, ZhuZG, et al. External pelvic reduction frame system combined with tunnel screw fixation for Tile C1 pelvic fracture[J]. Chin J Trauma, 2018, 34(10): 919-924. DOI: 10.3760/cma.j.issn.1001-8050.2018.10.011.
+[44]
+LongT, LiKN, GaoJH, et al.
+Comparative study of percutaneous sacroiliac screw with or without TiRobot assistance for treating pelvic posterior ring fractures[J].
+Orthop Surg,
+2019,
+11(
+3):
+386-
+396.
+DOI: 10.1111/os.12461.
+[45]
+DuW, SunT, DingY, et al.
+Robot-assisted treatment of unstable pelvic fractures with a percutaneous iliac lumbar double rod fixation combined with a percutaneous pelvic anterior ring INFIX fixation[J].
+Int Orthop,
+2020,
+44(
+6):
+1223-
+1232.
+DOI: 10.1007/s00264-020-04522-z.
+[46]
+WangJQ, WangY, FengY, et al.
+Percutaneous sacroiliac screw placement: a prospective randomized comparison of robot-assisted navigation procedures with a conventional technique[J].
+Chin Med J(Engl),
+2017,
+130(
+21):
+2527-
+2534.
+DOI: 10.4103/0366-6999.217080.
+[47]
+WuXB, WangJQ, SunX, et al.
+Guidance for treatment of pelvic acetabular injuries with precise minimally invasive internal fixation based on the orthopaedic surgery robot positioning system[J].
+Orthop Surg,
+2019,
+11(
+3):
+341-
+347.
+DOI: 10.1111/os.12452.
+[48]
+LiuHS, DuanSJ, LiuSD, et al.
+Robot-assisted percutaneous screw placement combined with pelvic internal fixator for minimally invasive treatment of unstable pelvic ring fractures[J].
+Int J Med Robot,
+2018,
+14(
+5):
+e1927.
+DOI: 10.1002/rcs.1927.
+[49]
+NystromLM, McKinleyTO, MarshJL.
+Accuracy in radiographic assessment of pelvic ring fracture deformity: analysis of current methods[J].
+J Orthop Trauma,
+2013,
+27(
+12):
+708-
+715.
+DOI: 10.1097/BOT.0b013e318298e6cf.
+[50]
+MullisBH, SagiHC.
+Minimum 1-year follow-up for patients with vertical shear sacroiliac joint dislocations treated with iliosacral screws: does joint ankylosis or anatomic reduction contribute to functional outcome?[J].
+J Orthop Trauma,
+2008,
+22(
+5):
+293-
+298.
+DOI: 10.1097/BOT.0b013e31816b6b4e.
+[51]
+ReillyMC, BonoCM, LitkouhiB, et al.
+The effect of sacral fracture malreduction on the safe placement of iliosacral screws[J].
+J Orthop Trauma,
+2006,
+20(
+1
+Suppl):
+S37-
+S43.
+[52]
+RouttJr ML, MeierM, KregorP, et al.
+Percutaneous iliosacral screws with the patient supine technique[J].
+Operative Tech Orthop,
+1993,
+3:
+35-
+45.
+[53]
+RouttML, SimonianPT, GrujicL.
+The retrograde medullary superior pubic ramus screw for the treatment of anterior pelvic ring disruptions: a new technique[J].
+J Orthop Trauma,
+1995,
+9(
+1):
+35-
+44.
+DOI: 10.1097/00005131-199502000-00006.
+[54]
+SimonianE'T, RouttJr ML, HarringtonRM, et al.
+The unstable iliac fracture: a hiomechanical evaluation of internal fixation[J].
+Injury,
+1997,
+28(
+7):
+469-
+475.
+DOI: 10.1016/s0020-1383(97)00112-5.
+[55]
+ChenH, TangP, YaoY, et al.
+Anatomical study of anterior column screw tunnels through virtual three-dimensional models of the pelvis[J].
+Eur J Orthop Surg Traumatol,
+2015,
+25(
+1):
+105-
+110.
+DOI: 10.1007/s00590-013-1410-z.
+[56]
+GrewalIS, StarrAJ.
+What's new in percutaneous pelvis fracture surgery?[J].
+Orthop Clin North Am,
+2020,
+51(
+3):
+317-
+324.
+DOI: 10.1016/j.ocl.2020.02.010.
+[57]
+彭阿钦，潘进社，王庆贤,等.
+骶1椎弓根截面投影在骶髂螺钉置入中的作用[J].
+中华创伤杂志,
+2004,
+10(
+20):
+589-
+591.
+DOI: 10.3760/j.issn.1001-8050.2004.10.004.
+PengAQ, PanJS, WangQX, et al. Cross-section projection of S1 pedicle helps determine the transiliosacral screw implantation[J]. Chin J Trauma, 2004,10 (20): 589-591. DOI: 10.3760/j.issn.1001-8050.2004.10.004.
+[58]
+TuckerMC, NorkSE, SimonianPT, et al.
+Simple anterior pelvic external fixation[J].
+J Trauma,
+2000,
+49(
+6):
+989-
+994.
+DOI: 10.1097/00005373-200012000-00002.
+[59]
+StahelPF, MauffreyC, SmithWR, et al.
+External fixation for acute pelvic ring injuries: decision making and technical options[J].
+J Trauma Acute Care Surg,
+2013,
+75:
+882-
+887.
+DOI: 10.1097/TA.0b013e3182a9005f.
+[60]
+LeeC, SciadiniM.
+The use of external fixation for the management of the unstable anterior pelvic ring[J].
+J Orthop Trauma,
+2018,
+32
+Suppl 6:
+S14-
+S17.
+DOI: 10.1097/BOT.0000000000001251.
+[61]
+MasonWT, KhanSN, JamesCL, et al.
+Complications of temporary and definitive external fixation of pelvic ring injuries[J].
+Injury,
+2005,
+36(
+5):
+599-
+604.
+DOI: 10.1016/j.injury.2004.11.016.
+[62]
+MerrimanDJ, RicciWM, McAndrewCM, et al.
+Is application of an internal anterior pelvic fixator anatomically feasible?[J].
+Clin Orthop Relat Res,
+2012,
+470(
+8):
+2111-
+2115.
+DOI: 10.1007/s11999-012-2287-6.
+[63]
+VaidyaR, KubiakEN, BerginPF, et al.
+Complications of anterior subcutaneous internal fixation for unstable pelvis fractures: a multicenter study[J].
+Clin Orthop Relat Res,
+2012,
+470(
+8):
+2124-
+2131.
+DOI: 10.1007/s11999-011-2233-z.
+[64]
+HiestermanTG, HillBW, ColePA.
+Surgical technique: a percutaneous method of subcutaneous fixation for the anterior pelvic ring: the pelvic bridge[J].
+Clin Orthop Relat Res,
+2012,
+470(
+8):
+2116-
+2123.
+DOI: 10.1007/s11999-012-2341-4.
+[65]
+ColePA, GaugerEM, AnavianJ, et al.
+Anterior pelvic external fixator versus subcutaneous internal fixator in the treatment of anterior ring pelvic fractures[J].
+J Orthop Trauma,
+2012,
+26(
+5):
+269-
+277.
+DOI: 10.1097/BOT.0b013e3182410577.
+[66]
+李笛，曹烈虎，吴大江,等.
+微创入路结合锁定加压钢板在治疗骨盆后环损伤中的运用[J].
+中国骨与关节杂志,
+2018,
+7(
+7):
+503-
+505.
+DOI: 10.3969/j.issn.2095-252X.2018.07.006.
+LiD, CaoLH, WuDJ, et al. Minimally invasive treatment of the posterior pelvic ring fracture with locking plate fixation[J]. Chinese Journal of Bone and Joint, 2018, 7(7): 503-505. DOI: 10.3969/j.issn.2095-252X.2018.07.006.
+[67]
+LiuzzaF, SilluzioN, FlorioM, et al.
+Comparison between posterior sacral plate stabilization versus minimally invasive transiliac-transsacral lag-screw fixation in fractures of sacrum: a single-centre experience[J].
+Int Orthop,
+2019,
+43(
+1):
+177-
+185.
+DOI: 10.1007/s00264-018-4144-z.
+[68]
+BerberO, AmisAA, DayAC.
+Biomechanical testing of a concept of posterior pelvic reconstruction in rotationally and vertically unstable fractures[J].
+J Bone Joint Surg Br,
+2011,
+93(
+2):
+237-
+244.
+DOI: 10.1302/0301-620X.93B2.24567.
+[69]
+陈伟，王满宜，张奇,等.
+三种内固定物固定骨盆后环损伤稳定性的生物力学比较[J].
+中华骨科杂志,
+2011,
+31(
+11):
+1232-
+1238.
+DOI: 10.3760/cma.j.issn.0253-2352.2011.11.012.
+ChenW, WangMY, ZhangQ, et al. Biomechanical comparison of the stability of posterior pelvic ring disruptions fixed with three kinds of internal fixator[J]. Chin J Orthop, 2011, 31(11): 1232-1238. DOI: 10.3760/cma.j.issn.0253-2352.2011.11.012.
+[70]
+陈伟，张奇，鲁谊,等.
+微创可调式接骨板治疗骶骨DenisⅡ型骨折[J].
+中华创伤骨科杂志,
+2012,
+14 (
+5):
+385-
+390.
+DOI: 10.3760/cma.j.issn.1671-7600.2012.05.005.
+ChenW, ZhangQ, LuY, et al. Denis type Ⅱ sacral fractures treated with minimally invasive adjustable plate[J]. Chin J Orthop Trauma, 2012, 14 (5): 385-390. DOI: 10.3760/cma.j.issn.1671-7600.2012.05.005.
+[71]
+MattaJM, SaucedoT.
+Internal fixation of pelvic ring fractures[J].
+Clin Orthop Relat Res,
+1989 (
+242):
+83-
+97.
+[72]
+SagiHC, OrdwayNR, DiPasqualeT.
+Biomechanical analysis of fixation for vertically unstable sacroiliac dislocations with iliosacral screws and symphyseal plating[J].
+J Orthop Trauma,
+2004,
+18(
+3):
+138-
+143.
+DOI: 10.1097/00005131-200403000-00002.
+[73]
+AviluceaFR, WhitingPS, MirH.
+Posterior fixation of APC-2 pelvic ring injuries decreases rates of anterior plate failure and malunion[J].
+J Bone Joint Surg Am,
+2016,
+98(
+11):
+944-
+951.
+DOI: 10.2106/JB-JS.15.00723.
+[74]
+ElzohairyMM, SalamaAM.
+Open reduction internal fixation versus percutaneous iliosacral screw fixation for unstable posterior pelvic ring disruptions[J].
+Orthop Traumatol Surg Res,
+2017,
+103(
+2):
+223-
+227.
+DOI: 10.1016/j.otsr.2016.12.002.
+[75]
+ZwingmannJ, HauschildO, BodeG, et al.
+Malposition and revision rates of different imaging modalities for percutaneous iliosacral screw fixation following pelvic fractures: a systematic review and meta-analysis[J].
+Arch Orthop Trauma Surg,
+2013,
+133(
+9):
+1257-
+1265.
+DOI: 10.1007/s00402-013-1788-4.
+[76]
+OsterhoffG, OssendorfC, WannerGA, et al.
+Posterior screw fixation in rotationally unstable pelvic ring injuries[J].
+Injury,
+2011,
+42(
+10):
+992-
+996.
+DOI: 10.1016/j.injury.2011.04.005.
+[77]
+GardnerMJ, RouttML.
+Transiliac-transsacral screws for posterior pelvic stabilization[J].
+J Orthop Trauma,
+2011,
+25(
+6):
+378-
+384.
+DOI: 10.1097/BOT.0b013e3181e47fad.
+[78]
+BeauléPE, AntoniadesJ, MattaJM.
+Trans-sacral fixation for failed posterior fixation of the pelvic ring[J].
+Arch Orthop Trauma Surg,
+2006,
+126(
+1):
+49-
+52.
+DOI: 10.1007/s00402-005-0069-2.
+[79]
+VanderschotP, MeulemanC, LefèvreA, et al.
+Trans iliac-sacraliliac bar stabilisation to treat bilateral lesions of the sacro-iliac joint or sacrum: anatomical considerations and clinical experience[J].
+Injury,
+2001,
+32(
+7):
+587-
+592.
+DOI: 10.1016/s0020-1383(01)00039-0.
+[80]
+SalášekM, PavelkaT, KrenJ, et al.
+Miniinvazivní stabilizace poranění zadního pánevního segmentu transiliakálním vnitrním fiátorem a dvěma iliosakrálními šrouby: srovnání funkcních vsledku[J].
+Acta Chir Orthop Traumatol Cech,
+2015,
+82(
+1):
+41-
+47.
+SalášekM, PavelkaT, KrenJ, et al. Minimally invasive stabilization of posterior pelvic ring injuries with a transiliac internal fixator and two iliosacral screws: comparison of outcome[J]. Acta Chir Orthop Traumatol Cech, 2015, 82(1): 41-47.
+[81]
+HeydemannJ, HartlineB, GibsonME, et al.
+Do transsacral-transiliac screws across uninjured sacroiliac joints affect pain and functional outcomes in trauma patients?[J].
+Clin Orthop Relat Res,
+2016,
+474(
+6):
+1417-
+1421.
+DOI: 10.1007/s11999-015-4596-z.
+[82]
+Mardam-BeySW, BeebeMJ, BlackJC, et al.
+The effect of transiliac-transsacral screw fixation for pelvic ring injuries on the uninjured sacroiliac joint[J].
+J Orthop Trauma,
+2016,
+30(
+9):
+463-
+468.
+DOI: 10.1097/BOT.0000000000000622.
+[83]
+MoedBR, O'BoynickCP, BledsoeJG.
+Locked versus standard unlocked plating of the symphysis pubis in a Type-C pelvic injury: a cadaver biomechanical study[J].
+Injury,
+2014,
+45(
+4):
+748-
+751.
+DOI: 10.1016/j.injury.2013.11.017.
+[84]
+GrimshawCS, BledsoeJG, MoedBR.
+Locked versus standard unlocked plating of the pubic symphysis: a cadaver biomechanical study[J].
+J Orthop Trauma,
+2012,
+26(
+7):
+402-
+406.
+DOI: 10.1097/BOT.0b013e31822c83bd.
+[85]
+Cano-LuisP, Giráldez-SanchezMA, Martínez-ReinaJ, et al.
+Biomechanical analysis of a new minimally invasive system for osteosynthesis of pubis symphysis disruption[J].
+Injury,
+2012,
+43
+Suppl 2:
+S20-
+27.
+DOI: 10.1016/S0020-1383(13)70175-X.
+[86]
+YaoF, HeY, QianH, et al.
+Comparison of biomechanical character-istics an pelvic ring stability using different fixation methods to treat pubic symphysis diastasis: a finite element study[J].
+Medicine (Baltimore),
+2015,
+94(
+49):
+e2207.
+DOI: 10.1097/MD.0000000000002207.
+[87]
+YuKH, HongJJ, GuoXS, et al.
+Comparison of reconstruction plate screw fixation and percutaneous cannulated screw fixation in treatment of Tile B1 type pubic symphysis diastasis: a finite element analysis and 10-year clinical experience[J].
+J Orthop Surg Res,
+2015,
+10:
+151.
+DOI: 10.1186/s13018-015-0272-y.
+[88]
+SagiHC.
+Technical aspects and recommended treatment algorithms in triangular osteosynthesis and spinopelvic fixation for vertical shear transforaminal sacral fractures[J].
+J Orthop Trauma,
+2009,
+23(
+5):
+354-
+360.
+DOI: 10.1097/BOT.0b013e3181a1143a.
+[89]
+SagiHC, MilitanoU, CaronT, et al.
+A comprehensive analysis with minimum 1-year follow-up of vertically unstable transforaminal sacral fractures treated with triangular osteosynthesis[J].
+J Orthop Trauma,
+2009,
+23(
+5):
+313-
+321.
+DOI: 10.1097/BOT.0b013e3181a32b91.
+[90]
+YuT, ChengXL, QuY, et al.
+Computer navigation-assisted minimally invasive percutaneous screw placement for pelvic fractures[J].
+World J Clin Cases,
+2020,
+8(
+12):
+2464-
+2472.
+DOI: 10.12998/wjcc.v8.i12.2464.
+[91]
+Berger-GrochJ, LueersM, RuegerJM, et al.
+Accuracy of navigated and conventional iliosacral screw placement in B- and C-type pelvic ring fractures[J].
+Eur J Trauma Emerg Surg,
+2020,
+46:
+107-
+113.
+DOI: 10.1007/s00068-018-0990-z.
+[92]
+KannusP, PalvanenM, NiemiS, et al.
+Epidemiology of osteoporotic pelvic fractures in elderly people in Finland: sharp increase in 1970-1997 and alarming projections for the new millennium[J].
+Osteoporos Int,
+2000,
+11(
+5):
+443-
+448.
+DOI: 10.1007/s001980070112.
+[93]
+SolesGL, FergusonTA.
+Fragility fractures of the pelvis[J].
+Curr Rev Musculoskelet Med,
+2012,
+5(
+3):
+222-
+228.
+DOI: 10.1007/s12178-012-9128-9.
+[94]
+KrappingerD, KammerlanderC, HakDJ, et al.
+Low-energy osteoporotic pelvic fractures[J].
+Arch Orthop Trauma Surg,
+2010,
+130 (
+9):
+1167-
+1175.
+DOI: 10.1007/s00402-010-1108-1.
+[95]
+BoufousS, FinchC, LordS, et al.
+The increasing burden of pelvic fractures in older people, New South Wales, Australia[J].
+Injury,
+2005,
+36(
+11):
+1323-
+1329.
+DOI: 10.1016/j.injury.2005.02.008.
+[96]
+YaacobiE, SanchezD, ManiarH, et al.
+Surgical treatment of osteoporotic fractures: an update on the principles of management[J].
+Injury,
+2017,
+48(
+Suppl 7):
+S34-
+S40.
+DOI: 10.1016/j.injury.2017.08.036.
+[97]
+RommensPM, HofmannA.
+Comprehensive classification of fragility fractures of the pelvic ring: recommendations for surgical treatment[J].
+Injury,
+2013,
+44(
+12):
+1733-
+1744.
+DOI: 10.1016/j.injury.2013.06.023.
+[98]
+RommensPM, WagnerD, HofmannA.
+Minimal invasive surgical treatment of fragility fractures of the pelvis[J].
+Chirurgia (Bucur),
+2017,
+112(
+5):
+524-
+537.
+DOI: 10.21614/chirurgia.112.5.524.
+[99]
+KönigMA, HedigerS, SchmittJW, et al.
+In-screw cement augmentation for iliosacral screw fixation in posterior ring pathologies with insufficient bone stock[J].
+Eur J Trauma Emerg Surg,
+2018,
+44(
+2):
+203-
+210.
+DOI: 10.1007/s00068-016-0681-6.
+[100]
+WähnertD, RaschkeMJ, FuchsT.
+Cement augmentation of the navigated iliosacral screw in the treatment of insufficiency fractures of the sacrum: a new method using modified implants[J].
+Int Orthop,
+2013,
+37(
+6):
+1147-
+1150.
+DOI: 10.1007/s00264-013-1875-8.
+[101]
+KortmanK, OrtizO, MillerT, et al.
+Multicenter study to assess the efficacy and safety of sacroplasty in patients with osteoporotic sacral insufficiency fractures or pathologic sacral lesions[J].
+J Neurointerven Surg,
+2013，
+5(
+5):
+461-
+466.
+DOI: 10.1136/neurintsurg-2012-010347.
+[102]
+OberkircherL, RuchholtzS, RommensPM, et al.
+Osteoporotic pelvic fractures[J].
+Dtsch Arztebl Int,
+2018,
+115(
+5):
+70-
+80.
+DOI: 10.3238/arztebl.2018.0070.
+[103]
+OberkircherL, MasaeliA, BliemelC, et al.
+Primary stability of three different iliosacral screw fixation techniques in osteoporotic cadaver specimens-a biomechanical investigation[J].
+Spine J,
+2016,
+16(
+2):
+226-
+232.
+DOI: 10.1016/j.spinee.2015.08.016.
+[104]
+GrünewellerN, RaschkeMJ, ZdericI, et al.
+Biomechanical comparison of augmented versus non-augmented sacroiliac screws in a new hemi-pelvis test model[J].
+J Orthop Res,
+2017,
+35(
+7):
+1485-
+1493.
+DOI: 10.1002/jor.23401.
+[105]
+KanakarisNK, AngoulesAG, NikolaouVS, et al.
+Treatment and outcomes of pelvic malunions and nonunions: a systematic review[J].
+Clin Orthop Relat Res,
+2009,
+467(
+8):
+2112-
+2124.
+DOI: 10.1007/s11999-009-0712-2.
+[106]
+VallierHA, CuretonBA, SchubeckD.
+Pelvic ring injury is associated with sexual dysfunction in women[J].
+J Orthop Trauma,
+2012,
+26(
+5):
+308-
+313.
+DOI: 10.1097/BOT.0b013e31821d700e.
+[107]
+MetzeM, TiemannAH, JostenC.
+Male sexual dysfunction after pelvic fracture[J].
+J Trauma,
+2007,
+63(
+2):
+394-
+401.
+DOI: 10.1097/01.ta.0000241145.02748.df.
+[108]
+LindahlJ, HirvensaloE.
+Outcome of operatively treated type-C injuries of the pelvic ring[J].
+Acta Orthop,
+2005,
+76(
+5):
+667-
+678.
+DOI: 10.1080/17453670510041754.
+[109]
+SlobegeanGP, LefaivreKA, NicolaouS, et al.
+A systematic review of thromboprophylaxis for pelvic and acetabular fractures[J].
+J Orthop Trauma,
+2009,
+23(
+5):
+379-
+384.
+DOI: 10.1097/BOT.0b013e3181a5369c.
+[110]
+MattaJM, TornettaP 3rd.
+Internal fixation of unstable pelvic ring injuries[J].
+Clin Orthop Relat Res,
+1996 (
+329):
+129-
+140.
+DOI: 10.1097/00003086-199608000-00016.
+[111]
+MajeedSA.
+Grading the outcome of pelvic fracture[J].
+J Bone Joint Surg Br,
+1989,
+71(
+2):
+304-
+306.
+[112]
+TemplemanD, GouletJ, DuweliusPJ, et al.
+Internal fixation of displaced fractures of the sacrum[J].
+Clin Orthop Relat Res,
+1996 (
+329):
+180-
+185.
+DOI: 10.1097/00003086-199608000-00021.
+[113]
+WareJE, SherbourneCD.
+The MOS 36 Item Short Form Health Survey (SF-36). I. Conceptual framework and item selection[J].
+Med Care,
+1992,
+30(
+6):
+473-
+483.
+[114]
+SuzukiT, ShindoM, SomaK, et al.
+Long-term functional outcome after unstable pelvic ring fracture[J].
+J Trauma,
+2007,
+63(
+4):
+884-
+888.
+DOI: 10.1097/01.ta.0000235888.90489.fc.
+[115]
+NeufeldME, BroekhuyseHM, O'BrienPJ, et al.
+The longitudinal short-, medium-, and long-term functional recovery after unstable pelvic ring injuries[J].
+J Orthop Trauma,
+2019,
+33(
+12):
+608-
+613.
+DOI: 10.1097/BOT.0000000000001588.
+[116]
+KokuboY, OkiH, SugitaD, et al.
+Functional outcome of patients with unstable pelvic ring fracture[J].
+J Orthop Surg (Hong Kong),
+2017,
+25(
+1):
+2309499016684322.
+DOI: 10.1177/2309499016684322.
+贡献者信息
+中华医学会骨科学分会创伤骨科学组
+中华医学会骨科学分会外固定与肢体重建学组
+中华医学会创伤学分会
+国家骨科与运动康复临床医学研究中心
+陈华
+中国人民解放军总医院骨科，北京 100853
+白雪东
+中国人民解放军总医院骨科，北京 100853
+易成腊
+华中科技大学附属同济医院骨科，武汉430030
+侯志勇
+河北医科大学附属第三医院，石家庄 050051
+张里程
+中国人民解放军总医院骨科，北京 100853
+通信作者
+张英泽
+河北医科大学附属第三医院
+Email：
+dryzzhang@126.com
+余斌
+南方医科大学南方医院骨科-创伤骨科
+Email：
+yubinol@163.com
+唐佩福
+中国人民解放军总医院骨科
+Email：
+pftang301@126.com
+基金项目
+战创伤骨盆骨折救治技术和器材研发 （AWS17J004）
+微创骨科手术机器人应用示范及其支撑技术研究 （2017YFC0114002）
+中日微创骨盆矫正复位装置系统联合研发 （2016YFE0126200）
+国家自然科学基金面上项目 （31271000）
+作者声明
+陈华、白雪东、易成腊、侯志勇、张里程对本文有同等贡献
+利益冲突
+所有作者均申明不存在利益冲突。
+历史
+出版日期：2021-01-15
+收稿日期：2020-09-18
+本文编辑
+张宁
+Guideline and Consensus
+Guidelines for minimally invasive surgical treatment of pelvic fracture in China(2021)
+Traumatic Orthopedic Group, Society of OrthopedicsChinese Medical Association;,  Group of External Fixation and Limb Reconstruction, Society of OrthopedicsChinese Medical Association;,  Society of Traumatology Chinese, Medical Association;,  National Clinical Research Center for Orthopedics & Sports Rehabilitation in China ,  Chen Hua,  Bai Xuedong,  Yi Chengla,  Hou Zhiyong,  Zhang Licheng
+Published
+2021-01-15
+Cite as
+Chin J Orthop Trauma, 2021, 23(1): 4-14. DOI: 10.3760/cma.j.cn115530-20200918-00610
+Contributor Information
+Traumatic Orthopedic Group, Society of OrthopedicsChinese Medical Association;
+Group of External Fixation and Limb Reconstruction, Society of OrthopedicsChinese Medical Association;
+Society of Traumatology Chinese, Medical Association;
+National Clinical Research Center for Orthopedics & Sports Rehabilitation in China
+Chen Hua
+Department of Orthopaedics, General Hospital of Chinese PLA, Beijing 100853, China
+Bai Xuedong
+Department of Orthopaedics, General Hospital of Chinese PLA, Beijing 100853, China
+Yi Chengla
+Tongji Hospital, Tongji Medical College Huazhong University of Science & Technology, Wuhan 430033, China
+Hou Zhiyong
+The Third Hospital of Hebei Medical University, Shijiazhuang 050051, China
+Zhang Licheng
+Department of Orthopaedics, General Hospital of Chinese PLA, Beijing 100853, China
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+孙家元，陈伟，刘磊,等.
+两种内固定方法治疗骨盆后环损伤的疗效比较[J].
+中华创伤杂志,
+2013,
+29(
+3):
+249-
+253.
+DOI: 10.3760/cma.j.issn.1001-8050.2013.3.016.
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华创伤骨科杂志2021年23卷01期
+文    题：中国骨盆骨折微创手术治疗指南(2021)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华创伤骨科杂志2021年23卷01期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

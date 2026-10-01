@@ -1,0 +1,1123 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%85%88%E5%A4%A9%E6%80%A7%E5%B7%A8%E7%BB%93%E8%82%A0%E7%97%87%E5%9B%B4%E6%89%8B%E6%9C%AF%E6%9C%9F%E7%AE%A1%E7%90%86%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 先天性巨结肠症围手术期管理专家共识 - 中华小儿外科杂志
+# 发布方/日期: 小儿外科，中华小儿外科杂志, 2018,39(6) : 404-410. DOI: 10.3760/cma.j；2018-06-15
+
+先天性巨结肠症围手术期管理专家共识
+中华医学会小儿外科学分会肛肠学组
+中华小儿外科杂志, 2018,39(6) : 404-410. DOI: 10.3760/cma.j.issn.0253-3006.2018.06.002
+先天性巨结肠症(Hirschsprung’s disease，HSCR)的发病率约为1/5 000，目前手术是治疗HSCR的唯一方法，围手术期作为临床治疗的重要阶段，对于手术治疗和术后恢复同样具有重要意义。为促进HSCR的规范化、系统性治疗，现综合目前国内治疗HSCR的现状及特点，将所有的证据基于GRADE系统(表1)进行分级，包括证据推荐强度及质量分级(风险评估)，形成了HSCR患儿围手术期管理的专家共识。
+点击查看表格
+表1
+GRADE系统证据质量等级和推荐强度
+表1
+GRADE系统证据质量等级和推荐强度
+项目
+定义
+证据质量等级
+高(A)
+未来研究几乎不可能改变现有疗效评价结果的可信度
+中(B)
+未来研究可能对现有疗效评估有重要影响，可能改变评价结果的可信度
+低(C)
+未来研究很有可能对现有疗效评估有重要影响，改变评价结果可信度的可能性较大
+极低(D)
+任何疗效评估都很不确定
+推荐强度
+强推荐(1)
+明确显示干预措施利大于弊或弊大于利
+弱推荐(2)
+利弊不确定或无论质量高低的证据均显示利弊相当
+一、术前宣教
+术前宣教以包括口头沟通、宣传手册及多媒体信息等形式，向患儿及/或家长解释HSCR的发病起因、治疗方案和预后，同时交流围手术期各阶段可能出现的病情变化、可能采取的治疗方案以及术后促进康复的方法，缓解患儿及家长的心理压力，安抚紧张情绪，减轻术前应激[1,2,3]。
+推荐意见1：HSCR患儿及家属需接受术前宣教(1A)。
+二、术前肠道准备
+结肠灌洗是HSCR根治术前非常关键的肠道准备工作，是将温生理盐水通过肛管直接注入结肠内进行灌洗，从而解除积存的粪便、减轻腹胀、改善肠内微生态环境[4]。灌洗时间根据患儿年龄及肠道清洁程度而定，必要时加用硫酸镁或甘油，直至完全清除结肠内陈旧积粪或粪石；如合并巨结肠相关性小肠结肠炎(Hirschsprung’s disease associated enterocolitis, HAEC)可用甲硝唑溶液、益生菌、云南白药等保留灌肠[5]。根治术前肠道准备完善彻底，更有利于手术顺利进行并减少吻合口感染、漏及HAEC等并发症的风险[6]。
+推荐意见2：HSCR根治术前需结肠灌洗，直至完全清除结肠内陈旧积粪(1A)。
+三、术前禁食
+婴幼儿过早禁食水易导致饥饿性哭闹、口渴，有诱发脱水、低血糖风险，甚至加重应激。目前许多国家的麻醉学会推荐禁饮时间延后至麻醉前2 h，之前仍可口服清饮料[7,8]。HSCR患儿可术前3 d开始无渣或母乳饮食，麻醉前2 h推荐口服含碳水化合物的饮品，如口服适量10%葡萄糖水，减少患儿饥饿感，加速机体代谢，增加肝糖原的储备，减轻传统禁食方案给患儿带来的应激，并不增加麻醉风险。
+推荐意见3：HSCR术前3 d开始无渣(或者母乳)饮食，麻醉前2 h禁饮(1B)。
+四、围手术期抗生素应用
+HSCR手术属于清洁-污染手术或污染手术[9]。术前应用广谱抗生素可减少结直肠手术感染相关并发症，且静脉联合口服用药较单用静脉或单用口服更为有效[10]。因此，应在HSCR术前1 d口服抗生素；术前0.5～1.0 h内静脉使用单剂量广谱抗生素，广谱抗生素应同时针对需氧菌及厌氧菌；如手术时间>3 h，可在术中重复使用一次抗生素[11]。术后根据患儿病情决定抗生素使用天数，在一般情况稳定，血液生化检查中各炎症指标无异常，并排除HAEC、吻合口漏等感染相关并发症的情况下可停用抗生素。
+推荐意见4：HSCR术前静脉联合口服使用单剂量广谱抗生素，术中根据药物半衰期以及药代动力学可重复单次剂量使用，术后在排除感染等并发症情况下可停用抗生素(1A)。
+五、麻醉管理的优化
+HSCR患儿术中在全身麻醉基础上，可考虑联合选用椎管内(连续硬膜外、蛛网膜下隙、骶管等)阻滞麻醉技术，均能满足HSCR患儿镇静、镇痛，提供良好的手术条件等基本要求[12]。然而无论采用何种麻醉方式，均需要执行严格的麻醉管理，包括麻醉深度管理、呼吸管理及肌松检测等[13]。
+推荐意见5：全身麻醉或全身麻醉联合椎管内阻滞麻醉均可选择作为HSCR术时麻醉方式(1B)。
+六、微创手术方式
+微创外科(minimally invasive surgery，MIS)以更小的手术创伤、更轻的应激反应，在小儿外科快速康复治疗中占据着重要地位[14]。MIS主要特点包括：①最稳定的内环境状态；②最小的炎症反应；③最小的手术切口；④最小的瘢痕愈合等[15]。目前HSCR手术路径已从经典的开腹手术方式，逐渐更倾向于采用单纯经肛门拖出术(transanal endorectal pull-through，TERPT)和腹腔镜辅助手术(laparoscopic-assisted pull-through，LAPT)等微创术式，其核心内容包括小切口、精准术中操作、减少手术创伤及控制术中失血等，从而达到减少术后并发症，加快术后恢复的目的[16,17,18]。具体术式选择可参阅2017年版《先天性巨结肠的诊断及治疗专家共识》[19]。
+推荐意见6：MIS有助于HSCR患儿术后恢复，安全且并发症较少(1A)。
+七、术中保温
+患儿在术中由于长时间的手术野暴露以及腹腔内流动气体交换很容易造成低体温(特别是婴幼儿)，有充分的证据证明围手术期低体温可以引起应激反应，也可以导致心律失常，严重者甚至可出现致死性凝血功能障碍、低体温、代谢性酸中毒等三联征[20]。预防低体温最有效的办法是积极进行术中保温：①保持手术房间温暖环境；②静脉输入液体加温；③体腔冲洗液加温等[13]。同时术中密切监控体温，维持患儿核心体温>36 ℃。
+推荐意见7：HSCR患儿应通过术中保温避免由于低体温造成的围手术期并发症(1A)。
+八、引流管管理
+1．鼻胃管
+大量研究证明，术后长期留置鼻胃管发生胃食管反流、肺炎、发热的概率更高，且拔除鼻胃管后患儿可早期进食，胃肠道蠕动恢复更快[21,22,23]。因此，除了短时间内需通过鼻胃管补充肠内营养外，HSCR患儿术后在肠道功能恢复后即可拔除鼻胃管，术后不必常规长期留置鼻胃管[24]。
+推荐意见8：HSCR术后肠道功能恢复后即可拔除鼻胃管，不必长期留置鼻胃管(1B)。
+2．腹腔引流管
+近年来Meta分析结果显示行结直肠吻合术后不论留置引流管与否，对术后吻合口漏等并发症的发生率并无明显影响[25]。相反腹腔引流管可能影响患儿术后早期下床活动，增加术后并发症并延长住院时间(length of stay in hospital, LOSH)[26]。因此，HSCR术后可不必留置腹腔引流管。但如果术中判断存在可能导致吻合口愈合不良的因素时，可留置盆腹腔引流管[13]。
+推荐意见9：HSCR术后可不留置腹腔引流管(1B)。
+3．肛门引流管
+术后3～7 d内留置适当直径的肛门引流管，既可起到扩肛作用，保证气便排泄通畅，又可避免吻合口感染，促进吻合口早期愈合，同时可避免术后短期内反复污粪造成的肛周皮肤糜烂、溃疡[27,28]。
+推荐意见10：HSCR术后可短时间留置肛门引流管(1A)。
+4．导尿管
+HSCR根治术时存在损伤泌尿系统器官的风险，留置导尿管有助于膀胱排空，扩大手术野，更好地显露盆腔结直肠及周围组织结构，更有利于手术操作[29]。因此，术中应常规留置导尿管；同时留置导尿管可减少术后尿潴留发生。但长期留置导尿管有泌尿系统感染风险[30]。大规模前瞻性研究证明，盆腔手术后1 d拔除导尿管是安全的，即使硬膜外区域阻滞麻醉造成术后尿潴留，在24 h后也能得到缓解[31,32]。
+推荐意见11：HSCR术中应常规留置导尿管；在排除泌尿系统器官损伤的情况下，术后可早期拔除导尿管(1B)。
+九、围手术期液体管理
+小儿围手术期液体治疗的目的在于提供小儿基础代谢需要(生理需要量)，补充术前禁食和围手术期的损失量，维持电解质、血容量、器官灌注和组织氧合正常[33]。液体种类包括晶体液和胶体液(表2)，应根据患儿需要，并考虑液体的电解质、含糖量和渗透浓度进行选择。
+点击查看表格
+表2
+儿童常用静脉输液液体成分
+表2
+儿童常用静脉输液液体成分
+液体种类
+Na＋(mmol/L)
+K＋(mmol/L)
+Cl－(mmol/L)
+Ca2＋(mmol/L)
+乳酸盐(mmol/L)
+葡萄糖(mmol/L)
+pH值
+渗透浓度(mmol/L)
+5%葡萄糖
+－
+－
+－
+－
+－
+278
+4.0
+252
+生理盐水
+154
+－
+154
+－
+－
+－
+5.0
+308
+小儿电解质补给注射液
+38
+－
+38
+－
+－
+208
+5.0
+280
+乳酸林格液
+140
+4.5
+109
+3
+28
+－
+6.5
+274
+钠钾葡萄糖注射液
+30
+8
+28
+－
+10
+208
+5.5
+285
+5%清蛋白
+145±15
+<2.5
+100
+－
+－
+－
+7.0
+330
+6%羟乙基淀粉
+154
+－
+154
+－
+－
+－
+4.5～5.5
+310
+围手术期补液需动态监控容量灌注、水电解质及酸碱平衡指标，避免灌注不足或灌注过量[34]。HSCR患儿术前禁食及进行肠道准备时，会造成部分体液丢失，可通过缩短禁食时间及静脉滴注低糖低张小儿维持液补充损失的水分[33]。术中维持适当的肠管血流灌注是避免HSCR术后吻合口漏的重要环节[11]。手术时间较长，且患儿已接受较长时间的肠外营养时，推荐使用含低糖低张小儿维持液，但需注意输液速度，避免由于补液过多、过快造成肠道水肿、肺间质体液量增加及心力衰竭发生[35]。术后补充性输液则补充额外失水，包括消化液丢失(腹泻、呕吐、胃肠引流等)、手术创伤导致的局部液体丢失或失血。由于生理盐水的含氯量高于小儿生理需要量，因此应用低氯的乳酸林格氏液有利于减少高氯血症风险，减轻肾负担，且防止术后酸中毒发生[36]。
+推荐意见12：小儿围手术期液体管理应根据患儿液体丢失情况，选择合适的液体成分，避免灌注不足或灌注过量(1A)。
+十、围手术期营养支持
+所有HSCR患儿均建议接受术前营养状况评估，营养评估应包括既往病史、饮食调查、体格检查、人体测量，以及相关实验室检查，一般情况下可采用测量小儿身高、体重并对照世界卫生组织(WHO)生长曲线来评价(http：//www.who.int/childgrowth/standards/en/)，如低于20%百分位即应考虑积极营养支持[37]。
+美国肠外肠内营养学会(ASPEN)[38]及欧洲肠外肠内营养学会(ESPEN)[39]均推荐对有"高营养风险"的患儿，在术前至少一周介入营养支持；同时推荐对术前无法进食，或经口喂养不能满足其营养需求的患儿，给予肠内营养(enteral nutrition，EN)或肠外营养(parenteral nutrition，PN)支持，优先选择EN治疗。如给予营养支持7～10 d后，患儿仍存在营养问题，建议推迟手术。HSCR患儿由于长期便秘，并消化、吸收障碍，往往存在摄入不足，同时术前营养状态与术后近期感染和吻合口漏等并发症及远期生长发育密切相关[40]。因此，HSCR患儿术前营养支持是必需的，也是促进术后快速康复的关键[41]。
+HSCR患儿术前可在每日结肠灌洗的前提下给予高蛋白质、易消化、少渣饮食，如喂养困难可使用鼻胃管鼻饲，经肠道营养无法获得所需足够营养时，可考虑行PN补充营养直至患儿一般情况稳定[42]。术后短期内不能进食时，应给予全肠外营养(total parenteral nutrition，TPN)，逐步开始术后EN支持，先试行口服或鼻胃管鼻饲，至能够完全自行进食。优先食用母乳，否则给予不同水解程度蛋白配方支持，由于HSCR患儿往往合并肠道功能不全，推荐深度水解蛋白配方[43]。
+病情稳定的患儿总PN能量需求可粗略估计，但由于个体差异，如有条件可利用非直接热量测定(indirect calorimetry，IC)行个体化静息能量测量(resting energy expenditure，REE)用以估算能量需要量[44]。营养不良患儿应给予REE的130%～150%[37]。对于危重患儿，蛋白质作为提供能量的主要来源，持续的负氮平衡将导致预后不佳，因此推荐蛋白质最低摄取量不应低于1.5 g·kg－1·d－1；对于小婴儿及存在严重并发症的患儿，蛋白质摄取量应达到2～3 g·kg－1·d－1才能维持正氮平衡[44]。
+大量文献支持胃肠道术后早期进食能促进肠道蠕动恢复，维持肠道屏障功能，避免肠道菌群易位[45]。研究表明，小肠蠕动在肠道术后6～8 h即可恢复，而肠道吸收功能即使在无蠕动时也是存在的[46]。在婴幼儿及新生儿期过长时间中断EN可能延迟肠道发育成熟，减少消化酶激活，使肠黏膜变薄，肠绒毛萎缩，肠道菌群易位，产生"禁食相关免疫缺陷"导致的严重感染[47]。因此，在肠道蠕动功能恢复时，鼓励早期小剂量EN，其目的并不是为了供给全部能量，而主要是为了促进肠上皮细胞成熟，避免肠道黏膜萎缩[48]。
+推荐意见13：所有HSCR患儿均应接受术前营养状况评估(1A)；在围手术期通过PN及EN进行适当的营养支持(1A)；术后应鼓励早期EN(1B)。
+十一、围手术期输血管理
+小儿围手术期输血可通过补充血容量，改善循环，增加血液携氧能力，提高血浆蛋白质，并增进免疫和凝血功能[49,50]。建议以下情况输入红细胞：①急性失血和/或Hb<7 g/L，慢性贫血有症状或存在明显心功能不全；②术前有症状的难治性贫血；③铁剂、叶酸和维生素B12治疗无效等。以下情况输入血浆或凝血酶原复合物：①凝血因子缺乏导致的严重出血时，如PT或APTT>正常1.5倍或INR>2.0；②创面弥漫性渗血时。但不建议在无凝血病时预防性使用血浆；不能用血浆扩容，除非严重出血大量输血时作为成分补充等[51,52]。
+推荐意见14：HSCR围手术期应根据患儿病情适当补充血液制品(1A)。
+十二、术后监测
+HSCR术后需严密监测患儿生命体征，包括心率、呼吸、血压、血氧饱和度变化，必要时检测血糖和血气分析，由于LAPT时大量吸收CO2易造成高碳酸血症，持续低流量吸氧可促使积聚的CO2排出[53]。其次，由于HSCR患儿术后短期内禁食，给予TPN治疗需控制输液速度，避免灌注不当；同时注意各引流管内引流液体量及性状的变化，观察发热、腹胀、伤口渗血等症状，出现术后并发症时积极对症处理。
+推荐意见15：HSCR术后应严密监测生命体征及病情变化(1A)。
+十三、术后镇痛
+术后镇痛提倡多模式镇痛方案，包括：MIS减少手术应激；联合椎管内阻滞麻醉技术应用；减少阿片类药物使用，应用非甾体类消炎药(non-steroidal antiinflammatory drugs，NSAIDs)为术后镇痛基础用药等[54]。同时，术后给患儿提供一个安静的休养环境，利用听音乐、讲故事等分散患儿注意力，也可有效减轻术后疼痛[55]。
+推荐意见16：HSCR术后可采用多模式镇痛方案减轻术后疼痛(1A)。
+十四、术后早期并发症的处理
+1．吻合口漏
+HSCR术后吻合口漏发生的原因较复杂，多与下拖肠管张力过大、盆腔感染、吻合口血循环不佳以及吻合技术有关[56]。一旦发现吻合口漏，可考虑尽早行吻合口近端肠管造瘘，部分患儿在造瘘后经过抗感染、营养支持治疗，吻合口漏有可能自行愈合。
+推荐意见17：HSCR术后发生吻合口漏，可考虑尽早行吻合口近端肠管造瘘(1B)。
+2．吻合口狭窄
+吻合口狭窄是HSCR术中近远端肠管环形吻合时最常见的并发症之一，如Soave术后由于"Soave肌鞘"导致吻合口狭窄的概率较高[57]。此外，由于吻合口感染、漏形成瘢痕挛缩也会导致吻合口狭窄[58]。采用斜行吻合方式可以减少吻合口狭窄的发生，同时推荐HSCR术后2～3周左右开始扩肛治疗并坚持1～6个月[59]。
+推荐意见18：HSCR术后吻合口狭窄与吻合术式相关，术后扩肛可减少吻合口狭窄发生(1A)。
+3．出血
+术后患儿如出现心率加快、血红蛋白持续降低，通过应用止血药物和输血等治疗仍然无法维持生命体征稳定，腹腔穿刺不凝血或动态影像学检查提示腹腔、盆腔积液加剧时，应考虑腹腔内出血，需积极再次手术探查[28]。
+推荐意见19：HSCR术后腹腔内出血经保守治疗失败时，应积极再次手术探查(1A)。
+4．肠梗阻
+近年开展TERPT和LAPT后，HSCR术后粘连性肠梗阻的发生率明显降低。但需注意术中下拖结肠避免肠管扭曲，同时应防止系膜裂孔内疝的发生[28]。如术后短期内出现腹胀、便秘、呕吐或鼻胃管引流大量胆汁液或肠液时，经保守治疗无效，仍需及时手术探查。
+推荐意见20：HSCR术后出现保守治疗无效的肠梗阻或不能排除内疝的情况下，应及时手术探查(1A)。
+5．HAEC
+围手术期发生HAEC的症状包括腹胀、发热和腹泻，此外可能合并呕吐、血便、嗜睡、稀便或便秘等非特异性的临床表现[60]。2017年美国小儿外科学会先天性巨结肠学组推出了HAEC的诊断及治疗标准[6]。HSCR术后早期发生HAEC时，在抗感染治疗基础上，排除吻合口漏等风险，可给予结肠灌洗等肠道减压治疗。
+推荐意见21：HSCR术后早期发生HAEC，在抗感染基础上，可谨慎行结肠灌洗治疗(1B)。
+十五、术后住院时间
+患儿的术前营养状态、是否选择MIS，及是否合并其他并发症等均可能影响术后住院时间长短。优化围手术期管理后，患儿可以获得早期进食、早期活动，也可达到适当缩短LOSH，术后早期出院的目的[61]。HSCR患儿的术后出院标准是：①一般情况良好；②便秘症状消失；③伤口愈合良好，无出血、感染、吻合口漏等；④无其他需要住院处理的并发症。
+推荐意见22：通过优化围手术期管理，可以有效缩短HSCR患儿的住院时间(1B)。
+参与本共识制定的专家
+(执笔人：朱天琦)
+参与本共识制定的专家(按照姓氏汉语拼音排序)：白玉作(中国医科大学附属盛京医院)；卞红强(武汉儿童医院)；陈亚军(首都医科大学附属北京儿童医院)；钭金法(浙江大学医学院附属儿童医院)；傅廷亮(滨州医学院附属医院)；耿辉(长春市儿童医院)；胡显良(成都市妇女儿童中心医院)；黄金狮(江西省儿童医院)；黄柳明(北京军区总医院附属八一儿童医院)；黄顺根(苏州大学附属儿童医院)；李爱武(山东大学齐鲁医院)；李功俊(大连市儿童医院)；李鹏(西安交通大学第二附属医院)；李万富(新疆医科大学第一附属医院)；李英超(河北医科大学第二医院)；李仲荣(温州医科大学附属第二医院)；刘伟(重庆医科大学附属儿童医院)；刘翔(安徽省儿童医院)；刘远梅(遵义医学院附属医院)；吕志宝(上海市儿童医院)；马丽霜(首都儿科研究所)；任红霞(山西省儿童医院)；沈淳(复旦大学附属儿科医院)；沈阳(兰州大学第二医院)；孙晓毅(华中科技大学同济医学院附属同济医院)；唐维兵(南京医科大学附属儿童医院)；王斌(深圳市儿童医院)；王刚(山东省立医院)；王果(华中科技大学同济医学院附属同济医院)；王俊(上海交通大学医学院附属新华医院)；魏明发(华中科技大学同济医学院附属同济医院)；吴典明(福建省妇幼保健院)；许芝林(哈尔滨医科大学附属第一医院)；杨合英(郑州大学第一附属医院)；杨星海(湖北省妇幼保健院)；易斌(华中科技大学同济医学院附属同济医院)；尹强(湖南省儿童医院)；余雷(武汉市儿童医院)；詹江华(天津市儿童医院)
+参考文献
+[1]
+EdwardGM, v d NaaldN, OortFJ, et al.
+Information gain in patients using a multimedia website with tailored information on anaesthesia[J].
+Br J Anaesth,
+2011,
+106(
+3):
+319-
+324.
+DOI: 10.1093/bja/aeq360.
+[2]
+HainesTP, HillAM, HillKD, et al.
+Patient education to prevent falls among older hospital inpatients: a randomized controlled trial[J].
+Arch Intern Med,
+2011,
+171(
+6):
+516-
+524.
+DOI: 10.1001/archinternmed.2010.444.
+[3]
+HarrisTB, SibleyA, RodriguezC, et al.
+Teaching the psychosocial aspects of pediatric surgery[J].
+Semin Pediatr Surg,
+2013,
+22(
+3):
+161-
+166.
+DOI: 10.1053/j.sempedsurg.2013.05.005.
+[4]
+MenezesM, PuriP.
+Long-term outcome of patients with enterocolitis complicating Hirschsprung’s disease[J].
+Pediatr Surg Int,
+2006,
+22(
+4):
+316-
+318.
+DOI: 10.1007/s00383-006-1639-2.
+[5]
+WangH, GuoXN, ZhuD, et al.
+Nursing intervention for outpatient rehabilitation in pediatric patients with Hirschsprung disease after colectomy[J].
+Eur J Pediatr Surg,
+2015,
+25(
+5):
+435-
+440.
+DOI: 10.1055/s-0034-1384650.
+[6]
+GosainA, FrykmanPK, CowlesRA, et al.
+Guidelines for the diagnosis and management of Hirschsprung-associated enterocolitis[J].
+Pediatr Surg Int,
+2017,
+33(
+5):
+517-
+521.
+DOI: 10.1007/s00383-017-4065-8.
+[7]
+SoreideE, LjungqvistO.
+Modern preoperative fasting guidelines: A summary of the present recommendations and remaining questions[J].
+Best Pract Res Clin Anaesthesiol,
+2006,
+20(
+3):
+483-
+491.
+[8]
+中国医师协会麻醉学医师分会．
+促进术后康复的麻醉管理专家共识[J].
+中华麻醉学杂志，
+2015，
+35(
+2)：
+141-
+148.
+DOI: 10.3760/cma.j.issn.0254-1416.2015.02.001.
+Chinese Association of Anesthesiologists.
+Consensus of anesthesiologists for promoting recovery postoperatively[J].
+Chin J Anesthesiol,
+2015,
+35(
+2):
+141-
+148.
+DOI: 10.3760/cma.j.issn.0254-1416.2015.02.001.
+[9]
+任艳丽，付强．
+先天性巨结肠患儿围术期抗菌药物应用分析[J].
+中国医院用药评价与分析，
+2012，
+12(
+6)：
+523-
+526.
+RenYL, FuQ.
+Analysis of the perioperative use of antibacterials in patients with Hirschsprung’s Disease[J].
+Evaluation and Analysis of Drug-Use in Hospitals of China,
+2012,
+12(
+6):
+523-
+526.
+[10]
+NelsonRL, GladmanE, BarbateskovicM.
+Antimicrobial prophylaxis for colorectal surgery[J].
+Cochrane Database Syst Rev,
+2014(
+5):
+D1181.
+DOI: 10.1002/14651858.CD001181.pub4.
+[11]
+中华医学会肠外肠内营养学分会加速康复外科协作组．
+结直肠手术应用加速康复外科中国专家共识(2015版)[J].
+中华消化外科杂志，
+2015，
+14(
+8)：
+606-
+608.
+DOI：10.3760/cma.j.issn.1673-9752.2015.08.002.
+China ERAS Group of Chinese medical association.
+Chinese consensus of enhanced recovery after surgery for colorectal surgery (2015 edition)[J].
+Chin J Dig Surg,
+2015,
+14(
+8):
+606-
+608.
+DOI: 10.3760/cma.j.issn.1673-9752.2015.08.002.
+[12]
+LevyBF, ScottMJ, FawcettW, et al.
+Randomized clinical trial of epidural, spinal or patient-controlled analgesia for patients undergoing laparoscopic colorectal surgery[J].
+Br J Surg,
+2011,
+98(
+8):
+1068-
+1078.
+DOI: 10.1002/bjs.7545.
+[13]
+中国加速康复外科专家组．
+中国加速康复外科围手术期管理专家共识(2016)[J].
+中华外科杂志，
+2016，
+54(
+6)：
+413-
+418.
+DOI：10.3760/cma.j.issn.0529-5815.2016.06.004.
+China ERAS Group.
+Consensus of perioperative management for ERAS in China(2016)[J].
+Chin J Surg,
+2016,
+54(
+6):
+413-
+418.
+DOI: 10.3760/cma.j.issn.0529-5815.2016.06.004.
+[14]
+MattioliG, PalombaL, AvanziniS, et al.
+Fast-track surgery of the colon in children[J].
+J Laparoendosc Adv Surg Tech A,
+2009,
+19
+Suppl 1(
+S1):
+S7-
+S9.
+DOI: 10.1089/lap.2008.0121.supp.
+[15]
+杨晓锋．
+微创外科技术在先天性巨结肠症治疗中的应用[J]．
+中华小儿外科杂志，
+2014，
+35(
+7)：
+543-
+546.
+DOI: 10.3760/cma.j.issn.0253-3006.2014.07.015.
+YangXF.
+The minimally invasive surgery in Hirschsprung disease[J].
+Chin J Pediatr Surg,
+2014,
+35(
+7):
+543-
+546.
+DOI: 10.3760/cma.j.issn.0253-3006.2014.07.015.
+[16]
+高亚．
+肛门直肠畸形和先天性巨结肠临床研究简况与规范化诊疗展望[J].
+中华小儿外科杂志，
+2015，
+36(
+6)：
+401-
+404.
+DOI: 10.3760/cma.j.issn.0253-3006.2015.06.001.
+GaoY.
+The clinical research situation and expectation of standardized diagnosis and treatment of anorectal malformation and Hirschsprung’s disease[J].
+Chin J Pediatr Surg,
+2015,
+36(
+6):
+401-
+404.
+DOI: 10.3760/cma.j.issn.0253-3006.2015.06.001.
+[17]
+LiAW, ZhangWT, WangR, et al.
+The relationship between expressions of the laminin gene and RET gene in Hirschsprung’s disease[J].
+World J Pediatr,
+2008,
+4(
+2):
+135-
+139.
+DOI: 10.1007/s12519-008-0027-5.
+[18]
+LiAW, ZhangWT.
+Transanal, single stage, endorectal pull through for Hirschsprung’s disease in China: a collective review[J].
+Chin Med J (Engl),
+2006,
+119(
+5):
+403-
+407.
+[19]
+中华医学会小儿外科学分会肛肠学组/新生儿学组．
+先天性巨结肠的诊断及治疗专家共识[J].
+中华小儿外科杂志，
+2017，
+38(
+11)：
+5-
+15.
+DOI：10.3760/cma.j.issn.0253-3006.2017.11.002.
+The group of Anorectum/Neonatology, Chinese Association of Pediatric Surgery.
+The guidelines of diagnosis and treatment of Hirschspung’s disease[J].
+Chin J Pediatr Surg,
+2017,
+38(
+11):
+5-
+15.
+DOI: 10.3760/cma.j.issn.0253-3006.2017.11.002.
+[20]
+黎介寿．
+对Fast-track Surgery(快通道外科)内涵的认识[J].
+中华医学杂志，
+2007，
+87(
+8)：
+515-
+517.
+DOI：10.3760/j.issn.0376-2491.2007.08.004.
+LiJS.
+The definition of fast-track surgery[J].
+Natl Med J China,
+2007,
+87(
+8):
+515-
+517.
+DOI: 10.3760/j.issn.0376-2491.2007.08.004.
+[21]
+RaoW, ZhangX, ZhangJ, et al.
+The role of nasogastric tube in decompression after elective colon and rectum surgery: a meta-analysis[J].
+Int J Colorectal Dis,
+2011,
+26(
+4):
+423-
+429.
+DOI: 10.1007/s00384-010-1093-4.
+[22]
+NelsonR, EdwardsS, TseB.
+Prophylactic nasogastric decompression after abdominal surgery[J].
+Cochrane Database Syst Rev,
+2007(
+3):
+D4929.
+DOI: 10.1002/14651858.CD004929.pub3.
+[23]
+NygrenJ, ThackerJ, CarliF, et al.
+Guidelines for perioperative care in elective rectal/pelvic surgery: enhanced recovery after surgery (ERAS(©)) society recommendations[J].
+World J Surg,
+2013,
+37(
+2):
+285-
+305.
+DOI: 10.1007/s00268-012-1787-6.
+[24]
+沈丽媛，赵醴，洪莉，等．
+危重患儿营养支持不足及相关因素分析[J].
+中华临床营养杂志，
+2013，
+21(
+5)：
+281-
+286.
+DOI: 10.3760/cma.j.issn.1674-635X.2013.05.004.
+ShenLY, ZhaoL, HongL, et al.
+Correlation factors of nutritional deficiencies in critically ill children[J].
+Chin J Clin Nutrition,
+2013,
+21(
+5):
+281-
+286.
+DOI: 10.3760/cma.j.issn.1674-635X.2013.05.004.
+[25]
+JesusEC, KarliczekA, MatosD, et al.
+Prophylactic anastomotic drainage for colorectal surgery[J].
+Cochrane Database Syst Rev,
+2004,
+4(
+4):
+D2100.
+DOI: 10.1002/14651858.CD002100.pub2.
+[26]
+LiuHP, ZhangYC, ZhangYL, et al.
+Drain versus no-drain after gastrectomy for patients with advanced gastric cancer: systematic review and meta-analysis[J].
+Dig Surg,
+2011,
+28(
+3):
+178-
+189.
+DOI: 10.1159/000323954.
+[27]
+LuoGD, CaoYK, WangYH, et al.
+Transvaginal early fistula debridement and repair plus continuous vacuum aspiration via anal tube for rectovaginal fistula following rectal cancer surgery: Report of four cases[J].
+Int J Clin Exp Med,
+2014,
+7(
+8):
+2248-
+2252.
+[28]
+王果，冯杰雄．
+先天性巨结肠及其同源病[M]．
+北京：
+人民卫生出版社，
+2011：
+166-
+167.
+WangG, FengJX.
+Hirschsprung disease and allied disorder[M].
+Beijing:
+People’s Medical Publishing House,
+2011:
+166-
+167.
+[29]
+NeuvonenM, KyrklundK, TaskinenS, et al.
+Lower urinary tract symptoms and sexual functions after endorectal pull-through for Hirschsprung disease: controlled long-term outcomes[J].
+J Pediatr Surg,
+2017,
+52(
+8):
+1296-
+1301.
+DOI: 10.1016/j.jpedsurg.2017.02.013.
+[30]
+ZaouterC, KanevaP, CarliF.
+Less urinary tract infection by earlier removal of bladder catheter in surgical patients receiving thoracic epidural analgesia[J].
+Reg Anesth Pain Med,
+2009,
+34(
+6):
+542-
+548.
+DOI: 10.1097/AAP.0b013e3181ae9fac.
+[31]
+ZmoraO, MadboulyK, TulchinskyH, et al.
+Urinary bladder catheter drainage following pelvic surgery--is it necessary for that long？[J].
+Dis Colon Rectum,
+2010,
+53(
+3):
+321-
+326.
+DOI: 10.1007/DCR.06013e3181c7525c.
+[32]
+HowardML, IsaacsAN, NislySA.
+Continuous infusion nonsteroidal anti-inflammatory drugs for perioperative pain management[J].
+J Pharm Pract,
+2016,
+31(
+1):
+66-
+81.
+DOI: 10.1177/0897190016665539.
+[33]
+VoldbyAW, BrandstrupB.
+Fluid therapy in the perioperative setting-a clinical review[J].
+J Intensive Care,
+2016,
+4:
+27.
+DOI: 10.1186/s40560-016-0154-3.
+[34]
+Ripolles-MelchorJ, EspinosaA, Martinez-HurtadoE, et al.
+Perioperative goal-directed hemodynamic therapy in noncardiac surgery: a systematic review and meta-analysis[J].
+J Clin Anesth,
+2016,
+28:
+105-
+115.
+DOI: 10.1016/j.jclinane.2015.08.004.
+[35]
+中华医学会麻醉学分会．
+小儿围手术期液体和输血管理指南(2014)[J].
+实用器官移植电子杂志，
+2015，
+3(
+6)：
+328-
+332.
+DOI: 10.3969/j.issn.2095-5332.2015.06.002.
+Chinese Association of Anesthesiology.
+Guideline of perioperative fluid and transfusion management for Children(2014)[J].
+Prac J Organ Transplant,
+2015,
+3(
+6):
+328-
+332.
+DOI: 10.3969/j.issn.2095-5332.2015.06.002.
+[36]
+OrbegozoCD, RayoBA, VincentJL.
+Isotonic crystalloid solutions: a structured review of the literature[J].
+Br J Anaesth,
+2014,
+112(
+6):
+968-
+981.
+DOI: 10.1093/bja/aeu047.
+[37]
+中华医学会肠外肠内营养学分会儿科协作组．
+中国儿科肠内肠外营养支持临床应用指南[J].
+中华儿科杂志，
+2010，
+48(
+6)：
+436-
+441.
+DOI: 10.3760/cma.j.issn.0578-1310.2010.06.008.
+Pediatric Collaborative Group, Society of Parenteral and Enteral Nutrition.
+Guidelines for pediatric clinical application of enteral and parenteral nutritional support in China[J].
+Chin J Pediatr,
+2010,
+48(
+6):
+436-
+441.
+DOI: 10.3760/cma.j.issn.0578-1310.2010.06.008.
+[38]
+MuellerC, CompherC, EllenDM.
+A. S.P.E.N. Clinical guidelines: nutrition screening, assessment, and intervention in adults[J].
+JPEN J Parenter Enteral Nutr,
+2011,
+35(
+1):
+16-
+24.
+DOI: 10.1177/0148607110389335.
+[39]
+KondrupJ, AllisonSP, EliaM, et al.
+ESPEN guidelines for nutrition screening 2002[J].
+Clin Nutr,
+2003,
+22(
+4):
+415-
+421.
+DOI: 10.1016/S0261-5614(03)00098-0.
+[40]
+WessnerS, BurjonrappaS.
+Review of nutritional assessment and clinical outcomes in pediatric surgical patients: does preoperative nutritional assessment impact clinical outcomes？[J].
+J Pediatr Surg,
+2014,
+49(
+5):
+823-
+830.
+DOI: 10.1016/j.jpedsurg.2014.01.006.
+[41]
+JieB, JiangZM, NolanMT, et al.
+Impact of preoperative nutritional support on clinical outcome in abdominal surgical patients at nutritional risk[J].
+Nutrition,
+2012,
+28(
+10):
+1022-
+1027.
+DOI: 10.1016/j.nut.2012.01.017.
+[42]
+Working Group of Pediatrics Chinese Society of Parenteral And Enteral Nutrition, Working Group of Neonatology Chinese Society of Pediatrics, Working Group of Neonatal Surgery Chinese Society of Pediatric Surgery.
+CSPEN guidelines for nutrition support in neonates[J].
+Asia Pac J Clin Nutr,
+2013,
+22(
+4):
+655-
+663.
+DOI: 10.6133/apjcn.2013.22.4.21.
+[43]
+JiangW, ZhangJ, GengQ, et al.
+Early enteral nutrition in neonates with partial gastrectomy: a multi-center study[J].
+Asia Pac J Clin Nutr,
+2016,
+25(
+1):
+46-
+52.
+DOI: 10.6133/apjcn.2016.25.1.16.
+[44]
+MehtaNM, SkillmanHE, IrvingSY, et al.
+Guidelines for the provision and assessment of nutrition support therapy in the pediatric critically ill patient: society of critical care medicine and American society for parenteral and enteral nutrition[J].
+JPEN J Parenter Enteral Nutr,
+2017,
+41(
+5):
+706-
+742.
+DOI: 10.1177/0148607117711387.
+[45]
+SENPE’s standardization group, Pedrón GinerC, Martínez-CostaC, et al.
+Consensus on paediatric enteral nutrition access: a document approved by SENPE/SEGHNP/ANECIPN/SECP[J].
+Nutr Hosp,
+2011,
+26(
+1):
+1-
+15.
+DOI: 10.3305/nh.2011.26.1.4647.
+[46]
+EkingenG, CeranC, GuvencBH, et al.
+Early enteral feeding in newborn surgical patients[J].
+Nutrition,
+2005,
+21(
+2):
+142-
+146.
+DOI: 10.1016/j.nut.2004.10.003.
+[47]
+BragaM, GianottiL, GentiliniO, et al.
+Feeding the gut early after digestive surgery: results of a nine-year experience[J].
+Clin Nutr,
+2002,
+21(
+1):
+59-
+65.
+DOI: 10.1054/clnu.2001.0504.
+[48]
+中华医学会肠外肠内营养学分会儿科学组，中华医学会儿科学分会新生儿学组，中华医学会小儿外科学分会新生儿外科学组，等．
+中国新生儿营养支持临床应用指南[J].
+中华小儿外科杂志，
+2013，
+34(
+10)：
+782-
+787.
+DOI: 10.3760/cma.j.issn.0253-3006.2013.10.016.
+The Pediatrics group of Chinese Society of Parenteral and Enteral Nutrition, The Neonatology group of Chinese Society of Pediatrics, The Neonatology group of Chinese Society of Pediatric Surgery.
+Guidelines for newborn clinical nutritional support in China[J].
+Chin J Pediatr Surg,
+2013,
+34(
+10):
+782-
+787.
+DOI: 10.3760/cma.j.issn.0253-3006.2013.10.016.
+[49]
+林茹，刘晋萍，周荣华，等．
+小儿外科重大疾病术前贫血与干预多中心调查[J]．
+中华小儿外科杂志，
+2014，
+35(
+11)：
+806-
+810.
+DOI: 10.3760/cma.j.issn.0253-3006.2014.11.003.
+LinR, LiuJP, ZhouRH, et al.
+Multi-center epidemiological survey of preoperative anemia and intervention status of some major pediatric surgical diseases[J].
+Chin J Pediatr Surg,
+2014,
+35(
+11):
+806-
+810.
+DOI: 10.3760/cma.j.issn.0253-3006.2014.11.003.
+[50]
+GoelR, CushingMM, TobianAA.
+Pediatric patient blood management programs: not just transfusing little adults[J].
+Transfus Med Rev,
+2016,
+30(
+4):
+235-
+241.
+DOI: 10.1016/j.tmrv.2016.07.004.
+[51]
+舒强．
+应重视小儿外科围术期合理用血这一科学问题[J].
+中华小儿外科杂志，
+2014，
+35(
+11)：
+803-
+805.
+DOI: 10.3760/cma.j.issn.0253-3006.2014.11.002.
+ShuQ.
+Focus on perioperative reasonable transfusion in pediatric surgery[J].
+Chin J Pediatr Surg,
+2014,
+35(
+11):
+803-
+805.
+DOI: 10.3760/cma.j.issn.0253-3006.2014.11.002.
+[52]
+FerrarisVA, BrownJR, DespotisGJ, et al.
+2011 Update to the society of thoracic surgeons and the society of cardiovascular anesthesiologists blood conservation clinical practice guidelines[J].
+Ann Thorac Surg,
+2011,
+91(
+3):
+944-
+982.
+DOI: 10.1016/j.athoracsur.2010.11.078.
+[53]
+李索林．
+快速康复外科理念在小儿腔镜外科中的应用[J]．
+临床小儿外科杂志，
+2015(
+5)：
+353-
+356.
+DOI：10.3969/j.issn.1671-6353.2015.05.001.
+LiSL.
+The application of fast-track surgery in pediatric laparoscopic surgery[J].
+J Clini Pediatr Surg,
+2015(
+5):
+353-
+356.
+DOI: 10.3969/j.issn.1671-6353.2015.05.001.
+[54]
+Practice guidelines for acute pain management in the perioperative setting: an updated report by the American society of anesthesiologists task force on acute pain management[J].
+Anesthesiology,
+2012,
+116(
+2):
+248-
+273.
+DOI: 10.1097/ALN.0b013e31823c1030.
+[55]
+van der HeijdenMJ, OliaiAS, van DijkM, et al.
+The effects of perioperative music interventions in pediatric surgery: a systematic review and Meta-Analysis of randomized controlled trials[J].
+PLoS One,
+2015,
+10(
+8):
+e133608.
+DOI: 10.1371/journal.pone.0133608.
+[56]
+韩福友，李昭铸，崔清波，等．
+先天性巨结肠术后吻合口瘘的防治[J].
+中华小儿外科杂志，
+2008，
+29(
+9)：
+533.
+DOI: 10.3760/cma.j.issn.0253-3006.2008.09.007.
+HanFY, LiZZ, CuiQB, et al.
+The prevention and therapy of Hirschsprung’s disease postoperative anastomotic fistula[J].
+Chin J Pediatr Surg,
+2008,
+29(
+9):
+533.
+DOI: 10.3760/cma.j.issn.0253-3006.2008.09.007.
+[57]
+DickieBH, WebbKM, EradiB, et al.
+The problematic Soave cuff in Hirschsprung disease: manifestations and treatment[J].
+J Pediatr Surg,
+2014,
+49(
+1):
+77-80, 80-81.
+DOI: 10.1016/j.jpedsurg.2013.09.034.
+[58]
+TempleSJ, ShawyerA, LangerJC.
+Is daily dilatation by parents necessary after surgery for Hirschsprung disease and anorectal malformations？[J].
+J Pediatr Surg,
+2012,
+47(
+1):
+209-
+212.
+DOI: 10.1016/j.jpedsurg.2011.10.048.
+[59]
+WangG, SunXY, WeiMF, et al.
+Heart-shaped anastomosis for Hirschsprung’s disease: operative technique and long-term follow-up[J].
+World J Gastroenterol,
+2005,
+11(
+2):
+296-
+298.
+DOI: 10.3748/wjg.v11.i2.296.
+[60]
+DemehriFR, HalaweishIF, CoranAG, et al.
+Hirschsprung-associated enterocolitis: pathogenesis, treatment and prevention[J].
+Pediatr Surg Int,
+2013,
+29(
+9):
+873-
+881.
+DOI: 10.1007/s00383-013-3353-1.
+[61]
+ShinnickJK, ShortHL, HeissKF, et al.
+Enhancing recovery in pediatric surgery: a review of the literature[J].
+J Surg Res,
+2016,
+202(
+1):
+165-
+176.
+DOI: 10.1016/j.jss.2015.12.051.
+贡献者信息
+中华医学会小儿外科学分会肛肠学组
+历史
+出版日期：2018-06-15
+收稿日期：2018-01-17
+Guildline and Consensus
+The guidelines of perioperative management of Hirschspung’s disease
+The Group of Anorectum, the Society of Pediatric Surgery, Chinese Medical Association
+Published
+2018-06-15
+Cite as
+Chin J Pediatr Surg, 2018,39(6): 404-410. DOI: 10.3760/cma.j.issn.0253-3006.2018.06.002
+Contributor Information
+The Group of Anorectum, the Society of Pediatric Surgery, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+GRADE系统证据质量等级和推荐强度
+项目
+定义
+证据质量等级
+高(A)
+未来研究几乎不可能改变现有疗效评价结果的可信度
+中(B)
+未来研究可能对现有疗效评估有重要影响，可能改变评价结果的可信度
+低(C)
+未来研究很有可能对现有疗效评估有重要影响，改变评价结果可信度的可能性较大
+极低(D)
+任何疗效评估都很不确定
+推荐强度
+强推荐(1)
+明确显示干预措施利大于弊或弊大于利
+弱推荐(2)
+利弊不确定或无论质量高低的证据均显示利弊相当
+表2
+儿童常用静脉输液液体成分
+液体种类
+Na＋(mmol/L)
+K＋(mmol/L)
+Cl－(mmol/L)
+Ca2＋(mmol/L)
+乳酸盐(mmol/L)
+葡萄糖(mmol/L)
+pH值
+渗透浓度(mmol/L)
+5%葡萄糖
+－
+－
+－
+－
+－
+278
+4.0
+252
+生理盐水
+154
+－
+154
+－
+－
+－
+5.0
+308
+小儿电解质补给注射液
+38
+－
+38
+－
+－
+208
+5.0
+280
+乳酸林格液
+140
+4.5
+109
+3
+28
+－
+6.5
+274
+钠钾葡萄糖注射液
+30
+8
+28
+－
+10
+208
+5.5
+285
+5%清蛋白
+145±15
+<2.5
+100
+－
+－
+－
+7.0
+330
+6%羟乙基淀粉
+154
+－
+154
+－
+－
+－
+4.5～5.5
+310
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华小儿外科杂志2018年39卷6期
+文    题：先天性巨结肠症围手术期管理专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华小儿外科杂志2018年39卷6期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+微信
+腾讯微博
+一键通
+新浪微博
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+豆瓣网
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+QQ好友
+更多平台...
+(133)
+bShare

@@ -1,0 +1,716 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E8%89%AF%E6%80%A7%E9%98%B5%E5%8F%91%E6%80%A7%E4%BD%8D%E7%BD%AE%E6%80%A7%E7%9C%A9%E6%99%95%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%282017%29.html
+# 标题: 良性阵发性位置性眩晕诊断和治疗指南(2017) - 中华耳鼻咽喉头颈外科杂志
+# 发布方/日期: 耳鼻咽喉科，中华耳鼻咽喉头颈外科杂志, 2017,52(03) : 173-177. DOI: 10.3760/cma.j；2017-03-07
+
+良性阵发性位置性眩晕诊断和治疗指南(2017)
+中华耳鼻咽喉头颈外科杂志编辑委员会
+中华医学会耳鼻咽喉头颈外科学分会
+中华耳鼻咽喉头颈外科杂志, 2017,52(03) : 173-177. DOI: 10.3760/cma.j.issn.1673-0860.2017.03.003
+前言
+良性阵发性位置性眩晕(BPPV)，俗称"耳石症" ，是最常见的外周性前庭疾病[1]。中华医学会耳鼻咽喉头颈外科学分会(2007)、美国耳鼻咽喉头颈外科学学会(2008)、美国神经病学学会(2008)和Barany学会(2015)分别发表了BPPV相关的诊疗指南或标准[2,3,4,5]。随着眩晕诊疗实践的不断深入，新的临床证据、检查技术和治疗手段不断涌现，因此有必要对我国现有BPPV诊疗标准进行修订和补充。中华耳鼻咽喉头颈外科杂志编辑委员会和中华医学会耳鼻咽喉头颈外科学分会组织国内专家多次研讨，在参考借鉴国外最新指南的同时，结合自身的临床经验和中国国情，制定出台了《良性阵发性位置性眩晕的诊断和治疗指南(2017)》，以期规范、完善国内BPPV的诊疗工作。
+定义
+BPPV是一种相对于重力方向的头位变化所诱发的、以反复发作的短暂性眩晕和特征性眼球震颤为表现的外周性前庭疾病，常具有自限性，易复发。
+流行病学
+BPPV检查技术的快速发展和诊断标准的不断完善导致不同时期的流行病学数据差异较大，目前为止报道的年发病率为(10.7～600)/10万，年患病率约1.6%，终生患病率约2.4%[1,6,7,8]。BPPV占前庭性眩晕患者的20%～30%，男女比例为1∶1.5～1∶2.0，通常40岁以后高发，且发病率随年龄增长呈逐渐上升趋势[1]。
+临床分类
+目前尚无统一的分类标准，可按照病因和受累半规管进行分类。
+一、按病因分类
+1．特发性BPPV：
+病因不明，约占50%～97%[8,9]。
+2．继发性BPPV：
+继发于其他耳科或全身系统性疾病[10,11]，如梅尼埃病、前庭神经炎、特发性突聋、中耳炎、头部外伤、偏头痛、手术后(中耳内耳手术、口腔颌面手术、骨科手术等)以及应用耳毒性药物等。
+二、按受累半规管分类
+1．后半规管BPPV：
+最为常见，约占70%～90%，其中嵴帽结石症约占6.3%[12,13]。
+2．外半规管BPPV(水平半规管BPPV)：
+约占10%～30%[8,13,14]。根据滚转试验(roll test)时出现的眼震类型可进一步分为向地性眼震型和离地性眼震型，其中向地性眼震型占绝大部分。
+3．前半规管BPPV：
+少见类型，约占1%～2%[14,15]。
+4．多半规管BPPV：
+为同侧多个半规管或双侧半规管同时受累，约占9.3%～12%[16,17,18]。
+发病机制
+BPPV确切的发病机制尚不清楚，目前公认的学说包括以下两种。
+一、管结石症(canalithiasis)
+椭圆囊囊斑上的耳石颗粒脱落后进入半规管管腔，当头位相对于重力方向改变时，耳石颗粒受重力作用相对半规管管壁发生位移，引起内淋巴流动，导致壶腹嵴嵴帽偏移，从而出现相应的体征和症状。当耳石颗粒移动至半规管管腔中新的重力最低点时，内淋巴流动停止，嵴帽回复至原位，症状及体征消失[19]。
+二、嵴帽结石症(cupulolithiasis)
+椭圆囊囊斑上的耳石颗粒脱落后黏附于壶腹嵴嵴帽，导致嵴帽相对于内淋巴的密度改变，使其对重力敏感，从而出现相应的症状及体征[20]。
+临床表现
+典型的BPPV发作是由患者相对于重力方向改变头位(如起床、躺下、床上翻身、低头或抬头)所诱发的、突然出现的短暂性眩晕(通常持续不超过1 min)。其他症状可包括恶心、呕吐等自主神经症状，头晕、头重脚轻、漂浮感、平衡不稳感以及振动幻视等[1]。
+诊断
+一、诊断标准
+1．相对于重力方向改变头位后出现反复发作的、短暂的眩晕或头晕(通常持续不超过1 min)。
+2．位置试验中出现眩晕及特征性位置性眼震。
+3．排除其他疾病，如前庭性偏头痛、前庭阵发症、中枢性位置性眩晕、梅尼埃病、前庭神经炎、迷路炎、上半规管裂综合征、后循环缺血、体位性低血压、心理精神源性眩晕等。
+二、眼震特征
+(一)概述
+1．潜伏期：
+管结石症中，眼震常发生于激发头位后数秒至数十秒，而嵴帽结石症常无潜伏期。
+2．时程：
+管结石症眼震短于1 min，而嵴帽结石症长于1 min。
+3．强度：
+管结石症呈渐强－渐弱改变，而嵴帽结石症可持续不衰减。
+4．疲劳性：
+多见于后半规管BPPV。
+(二)各类BPPV位置试验的眼震特点
+1．后半规管BPPV：
+在Dix－Hallpike试验或侧卧试验(side－lying test)中患耳向地时出现带扭转成分的垂直上跳性眼震(垂直成分向上，扭转成分向下位耳)，由激发头位回复至坐位时眼震方向逆转。
+2．外半规管BPPV：
+(1)眼震分型[21]：①水平向地性：若双侧滚转试验均可诱发水平向地性眼震(可略带扭转成分)，持续时间<1 min，则可判定为漂浮于外半规管后臂内的管石症。②水平离地性：双侧滚转试验均可诱发水平离地性眼震(可略带扭转成分)，若经转换手法或能自发转变为水平向地性眼震，持续时间<1 min，则可判定为漂浮于外半规管前臂内的管石症；若诱发的水平离地性眼震不可转换，持续时间≥1 min，且与体位维持时间一致，则可判定为外半规管嵴帽结石症。(2)患侧判定：滚转试验中水平向地性眼震诱发眼震强度大、持续时间长的一侧为患侧；水平离地性眼震中诱发眼震强度小、持续时间短的一侧为患侧。当判断患侧困难时，可选择假性自发性眼震(pseudo－spontaneous nystagmus)、眼震消失平面(null plane)、低头－仰头试验(bow and lean test)、坐位－仰卧位试验(lying－down test)等加以辅助判断[22]。
+3．前半规管BPPV：
+在Dix－Hallpike试验或正中深悬头位试验(straight head－hanging test)中出现带扭转成分的垂直下跳性眼震(垂直成分向下，扭转成分向患耳)，若扭转成分较弱，可仅表现为垂直下跳性眼震。
+4．多半规管BPPV：
+多种位置试验可诱发相对应半规管的特征性眼震[18]。
+注：描述眼震垂直方向时，向上为指向眶上缘，向下为指向眶下缘。眼震扭转方向是以眼球上极为标志、其快相所指的方向。
+三、诊断分级
+(一)确定诊断
+1．相对于重力方向改变头位后出现反复发作的、短暂的眩晕或头晕。
+2．位置试验可诱发眩晕及眼震，眼震特点符合相应半规管兴奋或抑制的表现：(1)后半规管BPPV：患耳向地时出现带扭转成分的垂直上跳性眼震(垂直成分向上，扭转成分向下位耳)，回到坐位时眼震方向逆转，眩晕及眼震持续时间通常不超过1 min；(2)外半规管BPPV：双侧位置试验均可诱发水平向地性或水平离地性眼震。
+3．排除其他疾病。
+(二)可能诊断
+1．相对于重力方向改变头位后出现反复发作的、短暂的眩晕或头晕，持续时间通常不超过1 min。
+2．位置试验未诱发出眩晕及眼震。
+3．排除其他疾病。
+注：病史符合BPPV诊断，但位置试验未诱发出眩晕及眼震，可能是BPPV已自愈或反复处于激发头位导致的疲劳现象，择期复查位置试验可能会有助于提高诊断的准确性。
+(三)存在争议的综合征
+1．相对于重力方向改变头位后出现反复发作的、短暂的眩晕或头晕。
+2．位置试验诱发出的眼震不符合相应半规管兴奋或抑制的表现、难以和中枢性位置性眼震相鉴别，或多个位置试验中出现位置性眼震、但无法确定责任半规管，或同时出现外周和中枢性位置性眼震，或位置试验中出现眩晕、但未观察到眼震。
+注：存在争议的综合征是指具有位置性眩晕的症状、但可能不是BPPV的一类疾病，包括前半规管管结石症、后半规管嵴帽结石症、多半规管管结石症等，对此类患者需要重点和中枢性位置性眩晕相鉴别。
+轻嵴帽是近年来新提出的一种外周性位置性眩晕学说，可部分解释持续向地性位置性眼震(direction－changing positional nystagmus，DCPN)的产生，但尚需进一步验证。此类眩晕多源于外半规管，其临床特征包括：双侧滚转试验中出现持续DCPN，且无潜伏期、无疲劳性；低头位及俯卧位时水平眼震向患侧，仰卧位时水平眼震向健侧，可以找到眼震消失平面。考虑轻嵴帽时，需排除中枢病变。
+检查
+一、基本检查
+BPPV的基本检查为位置试验。
+二、可选检查
+1．前庭功能检查：
+包括自发性眼震、凝视眼震、视动、平稳跟踪、扫视、冷热试验、旋转试验、摇头试验、头脉冲试验、前庭自旋转试验、前庭诱发肌源性电位、主观垂直视觉/主观水平视觉等。
+2．听力学检查：
+纯音测听、声导抗、听性脑干反应、耳声反射、耳蜗电图等。
+3．影像学检查：
+颞骨高分辨率CT、含内听道－桥小脑角的颅脑MRI。
+4．平衡功能检查：
+静态或动态姿势描记、平衡感觉整合能力测试以及步态评价等。
+5．病因学检查：
+包括钙离子、血糖、血脂、尿酸、性激素等相关检查。
+治疗
+一、耳石复位
+耳石复位是目前治疗BPPV的主要方法，操作简便，可徒手或借助仪器完成，效果良好。复位时应根据不同半规管类型选择相应的方法(附录1)。
+(一)手法复位
+1．后半规管BPPV：
+建议首选Epley法，其他还可选用改良的Epley法或Semont法等[23,24,25]，必要时几种方法可重复或交替使用。复位后头位限制、辅助使用乳突振荡器等方法并不能明显改善疗效，不推荐常规使用[26]。
+2．外半规管BPPV：
+(1)水平向地性眼震(包括可转换为向地性的水平离地性眼震)：可采用Lempert或Barbecue法以及Gufoni法(向健侧)[3,4,27,28,29]，上述方法可单独或联合使用。(2)不可转换的水平离地性眼震：可采用Gufoni法(向患侧)或改良的Semont法[21,27,30]。
+3．前半规管BPPV：
+可采用Yacovino法[31,32]，尤其适用于患侧判断困难的患者。
+4．多半规管BPPV：
+采用相应的复位手法依次治疗各半规管BPPV，优先处理诱发眩晕和眼震更强烈的责任半规管[16]，一个半规管复位成功后，其余受累半规管的复位治疗可间隔1～7 d进行。
+注：水平离地性眼震BPPV患者眼震强度弱、持续时间短的一侧为患侧，故此时应优先处理眼震强度弱的一侧外半规管BPPV。
+(二)耳石复位仪辅助复位
+可作为一种复位治疗选择，适用于手法复位操作困难的患者[33,34]。
+二、药物治疗
+原则上药物并不能使耳石复位，但鉴于BPPV可能和内耳退行性病变有关或合并其他眩晕疾病，下列情况可以考虑药物辅助治疗。
+1．当合并其他疾病时，应同时治疗该类疾病。
+2．复位后有头晕、平衡障碍等症状时，可给予改善内耳微循环的药物，如倍他司汀、银杏叶提取物等[35]。
+3．因前庭抑制剂可抑制或减缓前庭代偿，故不推荐常规使用。
+三、手术治疗
+对于诊断清楚、责任半规管明确，经过1年以上规范的耳石复位等综合治疗仍然无效且活动严重受限的难治性患者，可考虑行半规管阻塞等手术治疗[36]。
+四、前庭康复训练
+前庭康复训练是一种物理训练方法，通过中枢适应和代偿机制提高患者前庭功能，减轻前庭损伤导致的后遗症。前庭康复训练可作为BPPV患者耳石复位的辅助治疗，用于复位无效以及复位后仍有头晕或平衡障碍的病例，或在复位治疗前使用以增加患者对复位的耐受性[37,38,39]。如果患者拒绝或不耐受复位治疗，那么前庭康复训练可以作为替代治疗[40,41]。
+疗效评估
+一、评估指标
+1．主要评估指标：
+位置性眩晕(主观评估)。
+2．次要评估指标：
+位置性眼震(客观评估)。
+3．辅助评估指标：
+生活质量，最常用评估工具是头晕残障问卷(dizziness handicap inventory，DHI)[42,43]。
+注：疗效评估以患者的主观感受为主，如位置性眩晕消失则可认为临床治愈；如仍有位置性眩晕或头晕，则再行位置试验，根据位置性眼震的结果综合判断疗效。
+二、评估时机
+可根据不同临床需求选择相应的时间点进行疗效评估。
+1．即时评估：
+初始治疗完成后1 d[44]。
+2．短期评估：
+初始治疗完成后1周。
+3．长期评估：
+初始治疗完成后1个月[3]。
+注：即时评估的目的是评价耳石复位的疗效；短期评估的目的是评价耳石复位以及前庭康复训练和药物治疗的综合疗效；长期评估不但评价综合治疗的疗效，同时验证初步诊断的正确性并进行必要的补充诊断或修订诊断。
+三、疗效分级
+治愈：位置性眩晕消失。
+改善：位置性眩晕和(或)位置性眼震减轻，但未消失。
+无效：位置性眩晕和(或)位置性眼震未减轻，甚至加剧。
+注：位置性眩晕及眼震需符合确定BPPV的诊断标准。
+执笔起草专家(按姓氏拼音排序)
+金 昕 孔维佳 冷杨名 刘 博 刘 波 余力生
+张甦琳 张 祎
+参与讨论专家(按姓氏拼音排序)
+陈太生 陈晓巍 迟放鲁 樊兆民 冯 永 高志强
+韩东一 黄魏宁 蒋子栋 金 昕 孔维佳 冷杨名
+李华伟 梁 勇 林 鹏 林 颖 刘 博 刘 波
+刘秀丽 刘玉和 倪道凤 区永康 邱建华 任基浩
+宋海涛 孙建军 王海波 王 璟 王利一 王武庆
+魏均民 吴海燕 吴 皓 吴子明 余力生 徐先荣
+杨 军 殷善开 曾祥丽 张道宫 张 华(女)
+张 青 张甦琳 张 祎 郑 虹 郑亿庆 周慧芳
+庄建华
+附录1
+点击查看表格
+良性阵发性位置性眩晕(BPPV)诊疗一览表
+良性阵发性位置性眩晕(BPPV)诊疗一览表
+受累半规管
+诊断试验
+复位手法
+后半规管
+Dix－Hallpike试验、侧卧试验
+Epley法、改良Epley法、Semont法
+外半规管
+滚转试验
+管结石症：Barbecue法、Gufoni法(向健侧)
+嵴帽结石症：Gufoni法(向患侧)、改良Semont法
+前半规管
+Dix－Hallpike试验、正中深悬头位试验
+Yacovino法
+参考文献
+[1]
+von BrevernM, RadtkeA, LeziusF, et al.
+Epidemiology of benign paroxysmal positional vertigo: a population based study[J].
+J Neurol Neurosurg Psychiatry,
+2007,
+78(
+7)：
+710－
+715.
+DOI: 10.1136/jnnp.2006.100420.
+[2]
+中华耳鼻咽喉头颈外科杂志编辑委员会，中华医学会耳鼻咽喉科学分会.
+良性阵发性位置性眩晕的诊断依据和疗效评估(2006年，贵阳)[J]．
+中华耳鼻咽喉头颈外科杂志，
+2007,
+42(
+3)：
+163－
+164.
+DOI: 10.3760/j.issn:1673-0860.2007.03.003.
+Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery, Chinese Otorhinolaryngology Head and Neck Surgery Society of Chinese Medical Association. Diagnosis basis and curative effect appraisal of benign paroxysmal positional vertigo[J]. Chin J Otorhinolaryngol Head Neck Surg, 2007, 42(3)：163－164. DOI: 10.3760/j.issn:1673-0860.2007.03.003.
+[3]
+BhattacharyyaN, BaughRF, OrvidasL, et al.
+Clinical practice guideline: benign paroxysmal positional vertigo[J].
+Otolaryngol Head Neck Surg,
+2008,
+139(
+5
+Suppl 4)：
+S47－
+81.
+DOI: 10.1016/j.otohns.2008.08.022.
+[4]
+FifeTD, IversonDJ, LempertT, et al.
+Practice parameter: therapies for benign paroxysmal positional vertigo (an evidence－based review): report of the Quality Standards Subcommittee of the American Academy of Neurology[J].
+Neurology,
+2008,
+70(
+22)：
+2067－
+2074.
+DOI: 10.1212/01.wnl.0000313378.77444.ac.
+[5]
+von BrevernM, BertholonP, BrandtT, et al.
+Benign paroxysmal positional vertigo: diagnostic criteria[J].
+J Vestib Res,
+2015,
+25(
+3－4)：
+105－
+117.
+DOI: 10.3233/VES-150553.
+[6]
+MizukoshiK, WatanabeY, ShojakuH, et al.
+Epidemiological studies on benign paroxysmal positional vertigo in Japan[J].
+Acta Otolaryngol Suppl,
+1988,
+447：
+67－
+72.
+[7]
+FroehlingDA, SilversteinMD, MohrDN, et al.
+Benign positional vertigo: incidence and prognosis in a population－based study in Olmsted County, Minnesota[J].
+Mayo Clin Proc,
+1991,
+66(
+6)：
+596－
+601.
+[8]
+CarusoG, NutiD.
+Epidemiological data from 2270 PPV patients[J].
+Audiological Medicine,
+2005,
+3(
+1):
+7－
+11.
+[9]
+KarlbergM, HallK, QuickertN, et al.
+What inner ear diseases cause benign paroxysmal positional vertigo？[J].
+Acta Otolaryngol,
+2000,
+120(
+3)：
+380－
+385.
+[10]
+RigaM, BibasA, XenellisJ, et al.
+Inner ear disease and benign paroxysmal positional vertigo: a critical review of incidence, clinical characteristics, and management[J].
+Int J Otolaryngol,
+2011,
+2011：
+709469.
+DOI: 10.1155/2011/709469.
+[11]
+LeeNH, BanJH, LeeKC, et al.
+Benign paroxysmal positional vertigo secondary to inner ear disease[J].
+Otolaryngol Head Neck Surg,
+2010,
+143(
+3)：
+413－
+417.
+DOI: 10.1016/j.otohns.2010.06.905.
+[12]
+ProkopakisEP, ChimonaT, TsagournisakisM, et al.
+Benign paroxysmal positional vertigo: 10－year experience in treating 592 patients with canalith repositioning procedure[J].
+Laryngoscope,
+2005,
+115(
+9)：
+1667－
+1671.
+DOI: 10.1097/01.mlg.0000175062.36144.b9.
+[13]
+CakirBO, ErcanI, CakirZA, et al.
+What is the true incidence of horizontal semicircular canal benign paroxysmal positional vertigo？[J].
+Otolaryngol Head Neck Surg,
+2006,
+134(
+3)：
+451－
+454.
+DOI: 10.1016/j.otohns.2005.07.045.
+[14]
+ImaiT, ItoM, TakedaN, et al.
+Natural course of the remission of vertigo in patients with benign paroxysmal positional vertigo[J].
+Neurology,
+2005,
+64(
+5)：
+920－
+921.
+DOI: 10.1212/01.WNL.0000152890.00170.DA.
+[15]
+KorresS, BalatsourasDG, KaberosA, et al.
+Occurrence of semicircular canal involvement in benign paroxysmal positional vertigo[J].
+Otol Neurotol,
+2002,
+23(
+6)：
+926－
+932.
+[16]
+BalatsourasDG.
+Benign paroxysmal positional vertigo with multiple canal involvement[J].
+Am J Otolaryngol,
+2012,
+33(
+2)：
+250－
+258.
+DOI: 10.1016/j.amjoto.2011.07.007.
+[17]
+BalatsourasDG, KoukoutsisG, GanelisP, et al.
+Diagnosis of Single－ or Multiple－Canal Benign Paroxysmal Positional Vertigo according to the Type of Nystagmus[J].
+Int J Otolaryngol,
+2011,
+2011：
+483965.
+DOI: 10.1155/2011/483965.
+[18]
+Lopez－EscamezJA, MolinaMI, GamizM, et al.
+Multiple positional nystagmus suggests multiple canal involvement in benign paroxysmal vertigo[J].
+Acta Otolaryngol,
+2005,
+125(
+9)：
+954－
+961.
+[19]
+HallSF, RubyRR, McClureJA.
+The mechanics of benign paroxysmal vertigo[J].
+J Otolaryngol.
+1979,
+8(
+2)：
+151－
+158.
+[20]
+SchuknechtHF.
+Cupulolithiasis[J].
+Arch Otolaryngol,
+1969,
+90(
+6)：
+765－
+778.
+[21]
+CasaniAP, VannucciG, FattoriB, et al.
+The treatment of horizontal canal positional vertigo: our experience in 66 cases[J].
+Laryngoscope,
+2002,
+112(
+1)：
+172－
+178.
+DOI: 10.1097/00005537-200201000-00030.
+[22]
+CalifanoL, MelilloMG, MazzoneS, et al.
+" Secondary signs of lateralization" in apogeotropic lateral canalolithiasis[J].
+Acta Otorhinolaryngol Ital,
+2010,
+30(
+2)：
+78－
+86.
+[23]
+HiltonM, PinderD.
+The Epley (canalith repositioning) manoeuvre for benign paroxysmal positional vertigo[J].
+Cochrane Database Syst Rev,
+2002, (
+1)：
+CD003162.
+DOI: 10.1002/14651858.CD003162.
+[24]
+HiltonM, PinderD.
+The Epley (canalith repositioning) manoeuvre for benign paroxysmal positional vertigo[J].
+Cochrane Database Syst Rev,
+2004, (
+2)：
+CD003162.
+DOI: 10.1002/14651858.CD003162.pub2.
+[25]
+HiltonMP, PinderDK.
+The Epley (canalith repositioning) manoeuvre for benign paroxysmal positional vertigo[J].
+Cochrane Database Syst Rev,
+2014, (
+12)：
+CD003162.
+DOI: 10.1002/14651858.CD003162.pub3.
+[26]
+HuntWT, ZimmermannEF, HiltonMP.
+Modifications of the Epley (canalith repositioning) manoeuvre for posterior canal benign paroxysmal positional vertigo (BPPV)[J].
+Cochrane Database Syst Rev,
+2012, (
+4)：
+CD008675.
+DOI: 10.1002/14651858.CD008675.pub2.
+[27]
+MandalàM, PepponiE, SantoroGP, et al.
+Double－blind randomized trial on the efficacy of the Gufoni maneuver for treatment of lateral canal BPPV[J].
+Laryngoscope,
+2013,
+123(
+7)：
+1782－
+1786.
+DOI: 10.1002/lary.23918.
+[28]
+KimJS, OhSY, LeeSH, et al.
+Randomized clinical trial for geotropic horizontal canal benign paroxysmal positional vertigo[J].
+Neurology,
+2012,
+79(
+7)：
+700－
+707.
+DOI: 10.1212/WNL.0b013e3182648b8b.
+[29]
+van den BroekEM, van der Zaag－LoonenHJ, BruintjesTD.
+Systematic Review: Efficacy of Gufoni Maneuver for Treatment of Lateral Canal Benign Paroxysmal Positional Vertigo with Geotropic Nystagmus[J].
+Otolaryngol Head Neck Surg,
+2014,
+150(
+6)：
+933－
+938.
+DOI: 10.1177/0194599814525919.
+[30]
+KimJS, OhSY, LeeSH, et al.
+Randomized clinical trial for apogeotropic horizontal canal benign paroxysmal positional vertigo[J].
+Neurology,
+2012,
+78(
+3)：
+159－
+166.
+DOI: 10.1212/WNL.0b013e31823fcd26.
+[31]
+CasaniAP, CerchiaiN, DallanI, et al.
+Anterior canal lithiasis: diagnosis and treatment[J].
+Otolaryngol Head Neck Surg,
+2011,
+144(
+3)：
+412－
+418.
+DOI: 10.1177/0194599810393879.
+[32]
+AnagnostouE, KouziI, SpengosK.
+Diagnosis and Treatment of Anterior－Canal Benign Paroxysmal Positional Vertigo: A Systematic Review[J].
+J Clin Neurol,
+2015,
+11(
+3)：
+262－
+267.
+DOI: 10.3988/jcn.2015.11.3.262.
+[33]
+LiJC, EpleyJ.
+The 360－degree maneuver for treatment of benign positional vertigo[J].
+Otol Neurotol,
+2006,
+27(
+1)：
+71－
+77.
+[34]
+ShanX, PengX, WangE.
+Efficacy of computer－controlled repositioning procedure for benign paroxysmal positional vertigo[J].
+Laryngoscope,
+2015,
+125(
+3)：
+715－
+719.
+DOI: 10.1002/lary.24961.
+[35]
+GuneriEA, KustutanO.
+The effects of betahistine in addition to epley maneuver in posterior canal benign paroxysmal positional vertigo[J].
+Otolaryngol Head Neck Surg,
+2012,
+146(
+1)：
+104－
+108.
+DOI: 10.1177/0194599811419093.
+[36]
+LevequeM, LabrousseM, SeidermannL, et al.
+Surgical therapy in intractable benign paroxysmal positional vertigo[J].
+Otolaryngol Head Neck Surg,
+2007,
+136(
+5)：
+693－
+698.
+DOI: 10.1016/j.otohns.2006.04.020.
+[37]
+AngeliSI, HawleyR, GomezO.
+Systematic approach to benign paroxysmal positional vertigo in the elderly[J].
+Otolaryngol Head Neck Surg,
+2003,
+128(
+5)：
+719－
+725.
+DOI: 10.1016/S0194-59980300256-0.
+[38]
+HillierSL, McDonnellM.
+Vestibular rehabilitation for unilateral peripheral vestibular dysfunction[J].
+Clin Otolaryngol,
+2011,
+36(
+3)：
+248－
+249.
+DOI: 10.1111/j.1749-4486.2011.02309.x.
+[39]
+SteenersonRL, CroninGW, MarbachPM.
+Effectiveness of treatment techniques in 923 cases of benign paroxysmal positional vertigo[J].
+Laryngoscope,
+2005,
+115(
+2)：
+226－
+231.
+DOI: 10.1097/01.mlg.0000154723.55044.b5.
+[40]
+SatoS, OhashiT, KoizukaI.
+Physical therapy for benign paroxysmal positional vertigo patients with movement disability[J].
+Auris Nasus Larynx,
+2003,
+30
+Suppl：
+S53－
+S56.
+[41]
+CohenHS, KimballKT.
+Effectiveness of treatments for benign paroxysmal positional vertigo of the posterior canal[J].
+Otol Neurotol,
+2005,
+26(
+5)：
+1034－
+1040.
+[42]
+JacobsonGP, NewmanCW.
+The development of the Dizziness Handicap Inventory[J].
+Arch Otolaryngol Head Neck Surg,
+1990,
+116(
+4)：
+424－
+427.
+[43]
+张祎，刘博，王拥军，等.
+头晕评价量表中文版信度和效度分析[J].
+中华耳鼻咽喉头颈外科杂志，
+2015,
+50(
+9)：
+738－
+743.
+DOI: 10.3760/cma.j.issn.1673-0860.2015.09.008.
+ZhangY, LiuB, WangYJ, et al. Analysis of reliability and validity of the Chinese Version of Dizziness Handicap Inventory (DHI)[J]. Chin J Otorhinolaryngol Head Neck Surg, 2015, 50(9)：738－743. DOI: 10.3760/cma.j.issn.1673-0860.2015.09.008.
+[44]
+HelminskiJO, ZeeDS, JanssenI, et al.
+Effectiveness of particle repositioning maneuvers in the treatment of benign paroxysmal positional vertigo: a systematic review[J].
+Phys Ther,
+2010,
+90(
+5)：
+663－
+678.
+DOI: 10.2522/ptj.20090071.
+贡献者信息
+中华耳鼻咽喉头颈外科杂志编辑委员会
+中华医学会耳鼻咽喉头颈外科学分会
+基金项目
+"十二五"国家科技支撑计划 （2012BAI12B02）
+北京市科技计划项目 （Z151100003915100）
+历史
+出版日期：2017-03-07
+收稿日期：2017-02-27
+本文编辑
+金昕
+Pratical Guidelines
+Guideline of diagnosis and treatment of benign paroxysmal positional vertigo (2017)
+Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery,  Society of Otorhinolaryngology Head and Neck Surgery Chinese Medical Association
+Published
+2017-03-07
+Cite as
+Chin J Otorhinolaryngol Head Neck Surg, 2017,52(03): 173-177. DOI: 10.3760/cma.j.issn.1673-0860.2017.03.003
+Contributor Information
+Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery
+Society of Otorhinolaryngology Head and Neck Surgery Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+良性阵发性位置性眩晕(BPPV)诊疗一览表
+受累半规管
+诊断试验
+复位手法
+后半规管
+Dix－Hallpike试验、侧卧试验
+Epley法、改良Epley法、Semont法
+外半规管
+滚转试验
+管结石症：Barbecue法、Gufoni法(向健侧)
+嵴帽结石症：Gufoni法(向患侧)、改良Semont法
+前半规管
+Dix－Hallpike试验、正中深悬头位试验
+Yacovino法
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华耳鼻咽喉头颈外科杂志2017年52卷03期
+文    题：良性阵发性位置性眩晕诊断和治疗指南(2017)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华耳鼻咽喉头颈外科杂志2017年52卷03期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

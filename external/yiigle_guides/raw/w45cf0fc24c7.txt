@@ -1,0 +1,860 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/EB%E7%97%85%E6%AF%92%E6%84%9F%E6%9F%93%E5%AE%9E%E9%AA%8C%E5%AE%A4%E8%AF%8A%E6%96%AD%E5%8F%8A%E4%B8%B4%E5%BA%8A%E5%BA%94%E7%94%A8%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: EB病毒感染实验室诊断及临床应用专家共识 - 中华实验和临床病毒学杂志
+# 发布方/日期: 儿科，中华实验和临床病毒学杂志, 2018,32(1) : 2-8. DOI: 10.3760/cma.j.iss；2018-02-28
+
+EB病毒感染实验室诊断及临床应用专家共识
+全国儿童EB病毒感染协作组
+中华实验和临床病毒学杂志编辑委员会
+中华实验和临床病毒学杂志, 2018,32(1) : 2-8. DOI: 10.3760/cma.j.issn.1003-9279.2018.01.001
+1 前言
+EB病毒(Epstein－Barr virus, EBV)为疱疹病毒科，疱疹病毒IV型，是一种嗜人类淋巴细胞的疱疹病毒。EBV是双链DNA病毒，基因组长约172 kb，在病毒颗粒中呈线性分子，进入受感染细胞后，其DNA发生环化并能自我复制。淋巴细胞中潜伏感染的EBV可表达2种不翻译成蛋白质的RNA(即EBV-encoded RNAs, EBERs)，包括EBER1和EBER2，6种核抗原(EBNA1、EBNA2、EBNA3A、EBNA3B、EBNA3C和LP)，2种潜伏期膜蛋白(潜伏膜蛋白，latent membrane protein, LMP)，包括LMP1、LMP2A/B。
+EBV在人群中感染非常普遍，约90%以上的成人血清EBV抗体阳性。除原发性EBV感染可致传染性单核细胞增多症(infectious monon－ucleosis, IM)外，EBV还引起慢性活动性EBV感染(chronic active EBV infection，CAEBV)和EBV相关噬血细胞性淋巴组织细胞增生症(EBV-associated haemophagocytic lymphohistiocytosis，EBV-HLH)等非肿瘤性重症EBV相关疾病。EBV还是一种致肿瘤病毒，与许多肿瘤的发生相关，如霍奇金淋巴瘤(Hodgkin lymphoma，HL)、非霍奇金淋巴瘤(non-Hodgkin lymphoma，NHL)，鼻咽癌(nasoph－aryngeal carcinoma，NPC)，胃癌和移植后淋巴细胞增殖症(post-transplant lymphoproliferative disorder，PTLD)等。
+EBV原发感染后建立终身潜伏感染。EBV潜伏感染可分为四种类型。在健康的EBV既往感染个体，EBV在记忆性B细胞潜伏，只表达EBERs，称为EBV潜伏感染0型，这些个体称为健康携带者。在EBV感染相关疾病中，EBV有三种潜伏感染类型。潜伏感染Ⅰ型，除EBERs外，EBV只表达EBNA1和BamHI A右侧片段(BARTs)，如Burkitt’s淋巴瘤；潜伏感染Ⅱ型，EBV表达EBNA1、LMP1、LMP2、BARTS和EBERs，如鼻咽癌、霍奇金淋巴瘤；潜伏感染Ⅲ型，EBV表达所有的潜伏感染基因，如免疫抑制病人的淋巴组织增生性疾病(表1)。
+点击查看表格
+表1
+EBV感染类型与EBV相关疾病[1]
+Tab.1
+Patterns of Epstein-Barr virus (EBV) infection and EBV-associated diseases
+表1
+EBV感染类型与EBV相关疾病[1]
+Tab.1
+Patterns of Epstein-Barr virus (EBV) infection and EBV-associated diseases
+潜伏感染类型
+EBV基因
+疾病
+EBNA1
+EBNA2
+EBNA3 s
+LMP1
+LMP2
+BARTs
+EBERs
+0型
+－
+－
+－
+－
+－
+±
+＋
+健康携带者
+Ⅰ型
+＋
+－
+－
+－
+－
+＋
+＋
+Burkitt’s淋巴瘤
+Ⅱ型
+＋
+－
+－
+＋
+＋
+＋
+＋
+霍奇金淋巴瘤
+鼻NK细胞淋巴瘤
+慢性活动性EBV感染
+鼻咽癌
+Ⅲ型
+＋
+＋
+＋
+＋
+＋
+＋
+＋
+传染性单核细胞增多症
+移植后或机会性淋巴细胞增殖性疾病
+针对不同的EBV感染相关疾病，选择适当的临床标本和实验室检测方法，对于EBV感染相关疾病的诊断和治疗十分重要。为提高国内EBV感染相关疾病的诊治水平，特组织病毒学、临床和实验室诊断等方面的专家，参考国内外最新研究成果，制定此专家共识，以规范EBV实验室诊断方法的临床应用。
+2 EBV感染实验室诊断方法
+2.1 EBV特异性抗体检测
+2.1.1 特异性抗体谱：
+EBV编码多种结构抗原，包括病毒衣壳抗原(viral capsid antigen，VCA)、早期抗原(early antigen，EA)、膜抗原(membrane antigen，MA)、核抗原(nuclear antigen，NA)等。机体感染EBV后针对不同的抗原产生相应的抗体(图1)[2]。原发性EBV感染过程中首先产生针对VCA的IgM和IgG(抗VCA-IgM/IgG)；在急性感染的后期，抗EA-IgG出现；在恢复期晚期，抗EBV核抗原(EBNA)IgG产生。目前主要用于实验室检测的EBV特异性抗体包括抗VCA-IgG、抗VCA-IgM和抗EBNA-IgG。另外，抗VCA-IgA和抗EA-IgA阳性提示持续性EBV抗原刺激，常用于CAEBV或EBV相关肿瘤的诊断和监测。
+点击查看大图
+图1
+EBV原发感染和既往感染后抗体滴度变化[2]
+Fig.1
+Serological titers distinguish primary infection from remote infection
+VCA：病毒衣壳抗原；EBNA：EBV核抗原；EA：早期抗原
+图1
+EBV原发感染和既往感染后抗体滴度变化[2]
+Fig.1
+Serological titers distinguish primary infection from remote infection
+2.1.2 抗体亲和力：
+机体在初次接触病原体时产生的特异性IgG抗体对相应抗原的亲和力随着免疫反应的进行会逐渐升高，抗VCA-IgG抗体亲和力的检测可帮助鉴别EBV原发感染和既往感染，其检测方法包括免疫荧光或酶联免疫方法。
+有研究报道[3]，所有原发性急性EBV感染患者在刚刚出现临床症状时，抗VCA-IgG抗体均为低亲和力；在出现临床症状10 d内，90%以上的患者可检测到抗VCA-IgG低亲和力抗体；在病程20～30 d后，50%患者的抗VCA-IgG抗体仍为低亲和力抗体；既往感染病例血清中抗VCA-IgG抗体则均为高亲和力抗体。因此，低亲和力抗VCA-IgG抗体提示原发性急性感染。联合抗EBNA-IgG阴性和低亲和力抗VCA-IgG抗体，其诊断原发性EBV感染的敏感性和特异性可达到100%[4]。抗体亲和力检测也存在局限性：对于不同个体，抗体成熟率不同；新生儿及小婴儿由于母传抗体的存在也不适用抗体亲和力检测。
+2.1.3 检测方法及标本类型：
+EBV特异性抗体检测的适宜标本为血清或血浆，检测方法主要包括免疫荧光法、免疫酶法、酶联免疫法、化学发光法、免疫印迹法等，其中酶联免疫法和化学发光法由于可以实现自动化检测，在临床应用较为广泛。
+2.1.4 临床意义：
+对于免疫功能正常的患者，一般情况下结合抗VCA-IgM、抗VCA-IgG和抗EBNA-IgG 3个抗体的检测结果可以区分EBV原发感染和既往感染：抗VCA-IgG、抗VCA-IgM抗体阳性而抗EBNA-IgG阴性提示EBV原发感染，抗VCA-IgM阴性而抗VCA-IgG和抗EBNA-IgG阳性则是典型的EBV既往感染抗体类型(详见表2)[5]。但有的病例抗VCA-IgM产生延迟，有的则缺失或长时间存在，并且EBV再激活时也可能出现抗VCA-IgM，抗VCA-IgM有时也会出现假阳性(如人巨细胞病毒感染时)，4岁以下儿童抗VCA-IgM水平低且持续时间短；抗EA-IgG在原发感染后期出现，少数病例可能在原发感染后长时间检出，并且EBV再激活时也可能出现抗EA-IgG；约5%的健康携带者缺失抗EBNA-IgG抗体，另外免疫抑制患者抗EBNA-IgG抗体也可能会丢失或水平很低；有的既往感染过EBV的患者抗VCA-IgG可能为阴性[6,7]；鼻咽癌患者VCA-IgA和EA-IgA抗体滴度明显高于健康携带者。因此EBV感染后血清学反应复杂多样，有时给抗体结果解释尤其是单份血清的抗体结果解释带来困难。
+点击查看表格
+表2
+免疫功能正常患者EBV血清学特点[5]
+Tab.2
+Interpretation of Epstein-Barr virus serological profiles in immunocompetent patients
+表2
+免疫功能正常患者EBV血清学特点[5]
+Tab.2
+Interpretation of Epstein-Barr virus serological profiles in immunocompetent patients
+抗EBV抗体
+解释
+VCA-IgM
+VCA-IgG
+EBNA-IgG
+阴性
+阴性
+阴性
+无免疫反应
+阳性
+阴性
+阴性
+急性感染或非特异反应1
+阳性
+阳性
+阴性
+急性感染
+阴性
+阳性
+阳性
+既往感染
+阴性
+阳性
+阴性
+急性感染或既往感染1
+阳性
+阳性
+阳性
+原发感染晚期或再激活1
+阴性
+阴性
+阳性
+既往感染或非特异反应
+注：VCA：病毒衣壳抗原；1有待进一步确定
+Note：VCA：virus capsid antigen；1further testing required
+根据EBV感染过程中抗体产生的不同动力学特点，同时检测患者血清中几种EBV抗体(抗VCA-IgM/IgG、抗EA-IgG及抗EBNA-IgG)和抗VCA-IgG亲和力可以提高诊断原发性EBV感染的敏感性和特异性[8]，帮助判断原发性EBV感染、既往EBV感染或既往EBV感染再激活。
+2.2 嗜异凝集抗体检测
+嗜异凝集抗体为IgM抗体，在病程第1～2周出现，在病程5周内达到高峰，随后迅速下降，但是少数患者可以持续约6～12个月。在成人和青少年，85%～90%原发性EBV感染者会出现嗜异凝集抗体；但是大约只有50%的2～5岁儿童原发性EBV感染后此抗体为阳性，而小于2岁的儿童原发性EBV感染后此抗体的阳性率仅10%～30% [5]。
+2.2.1 检测方法及标本类型：
+采用试管法或血凝反应板法，标本类型为血清或血浆。
+2.2.2 临床意义：
+此抗体检测缺乏特异性，其他急性感染如原发性巨细胞病毒感染、自身免疫性疾病或肿瘤等也可能呈阳性反应[9,10]。国内儿童IM的发病高峰年龄为4～6岁，因此该抗体检测在国内儿童IM的诊断中价值不大[11]。因此，不推荐用于国内儿童EBV原发性感染所致IM的诊断。
+2.3 EBV核酸载量检测
+EBV-DNA载量测定(最常用的标本是外周血)已经被广泛应用于EBV相关疾病的诊断、病情监测、治疗效果评估和预后判断等。无菌体液(如肺泡灌洗液、脑脊液等)样本也可检测EBV-DNA，用于EBV相关疾病的辅助诊断。
+2.3.1 检测方法及标本类型：
+检测方法采用实时荧光定量PCR法，不同EBV相关疾病的适宜EBV-DNA检测的样本不同，详见表3。
+点击查看表格
+表3
+不同EBV相关疾病中适用于EBV载量检测的标本[12]
+Tab.3
+Best specimen for EBV-load measurement in different Epstein-Barr virus-associated diseases
+表3
+不同EBV相关疾病中适用于EBV载量检测的标本[12]
+Tab.3
+Best specimen for EBV-load measurement in different Epstein-Barr virus-associated diseases
+EBV相关疾病
+全血
+血浆/血清
+PBMC
+CSF
+应用
+原发感染
+IM
+—
+＋＋
+—
+原发感染，对诊断并非必要
+与疾病严重程度相关
+EBV-HLH
+＋＋
+诊断和判断治疗反应
+CAEBV
+＋＋
+＋＋
+诊断(PBMC)
+疾病严重程度和预后
+免疫正常患者
+鼻咽癌
+＋＋
+治疗反应
+预后因素/总体生存率
+肿瘤复发
+鼻T/NK淋巴瘤
+＋＋
+—
+分期和判断预后
+监测治疗反应和复发
+霍奇金淋巴瘤
+＋＋
+治疗反应和预后
+B-非霍奇金淋巴瘤
+＋
+＋
+＋
+诊断，预后和随访
+免疫缺陷患者
+移植患者和PTLD
+＋＋
+＋/-
+＋
+免疫抑制治疗的指导
+预测/提示PTLD
+PTLD对治疗的反应
+监测EBV再激活
+预防移植物抗宿主病
+预防移植排斥
+AIDS相关淋巴瘤
+＋/-
+＋/-
+可能对监测治疗反应和预后有用
+监测全身性B细胞淋巴瘤进展
+AIDS相关原发性中枢神经系统淋巴瘤
+—
+—
+＋＋
+诊断
+X-连锁淋巴增殖症
+＋＋
+＋＋
+至少每6个月一次监测EBV原发感染，HLH
+或PTLD
+注：IM：传染性单核细胞增多症；PBMC：外周血单个核细胞；HLH：噬血细胞性淋巴组织细胞增生症；CAEBV：慢性活动性EB病毒感染；PTLD：移植后淋巴细胞增殖症；—：无数据支持；＋＋：推荐；＋：有数据支持应用；＋/-：有争议
+Note：IM：infectious mononucleosis；PBMC：peripheral blood mononuclear cell；HLH：haemophagocytic lymphohistiocytosis；CAEBV：chronic active EBV infection；PTLD：post-transplant lymphoproliferative disease；—：no data; ＋＋：recommended；＋：with data; ＋/-：controversial
+2.3.2 临床意义：
+不同临床样本中EBV-DNA检测结果的意义不同(见表3)。血清或血浆中EBV-DNA阳性提示患者体内存在活动性EBV感染或疾病与EBV密切相关(如原发EBV感染早期、EBV-HLH、大多数CAEBV、EBV相关肿瘤等)，需结合临床表现及其他检查结果综合分析判断；血清或血浆EBV-DNA阴性提示为血清阳性转化的EBV健康携带者、未感染过EBV的患者、非EBV相关疾病患者、以及部分EBV相关疾病患者，如部分IM患者及IM后期，极少数CAEBV患者(结合血清学判定)。外周血PBMC中EBV-DNA载量高于102.5拷贝/μg DNA是CAEBV的诊断标准之一。全血样本EBV-DNA载量主要用于免疫缺陷患者EBV感染的诊断，以提高诊断EBV感染的敏感性，不推荐用于有免疫力的患者。因血清EBV阳性转化的健康携带者每106个PBMC中大约有1～50个EBV感染的细胞，约7个拷贝(1～30个拷贝)EBV-DNA/106PBMC[5]。因此，血清阳性转化的EBV健康携带者的全血或PBMC标本中可能检出低水平的EBV-DNA载量。
+2.4 EBERs原位杂交试验
+EBERs(EBER1/EBER2)是EBV编码的不翻译成蛋白质的RNA。EBERs大量存在于EBV潜伏感染的细胞中，每个细胞可达106～107拷贝，是EBV潜伏感染的最好标志物，其主要功能是抑制干扰素介导的抗病毒效应和凋亡。
+2.4.1 检测方法及标本类型：
+采用原位杂交法，标本类型为病理组织或细胞涂片。
+2.4.2 临床意义：
+原位杂交检测EBERs能够定位EBV感染的细胞类型，是明确肿瘤与EBV相关的金标准。
+各种实验室诊断方法采用的标本类型、检测方法以及特点详见表4。
+点击查看表格
+表4
+EBV感染实验室诊断方法
+Tab.4
+Laboratory assays for Epstein-Barr virus infection
+表4
+EBV感染实验室诊断方法
+Tab.4
+Laboratory assays for Epstein-Barr virus infection
+项目名称
+标本类型
+检测方法
+特点
+EBV特异性抗体检测
+血清或血浆
+免疫荧光法
+特异性较好，敏感性较低，结果判读受主观因素影响，难以实现自动化分析
+免疫酶法
+特异性和敏感性均较好，但目前尚无商品化试剂
+酶联免疫法
+敏感性较高，结果判读客观，可以实现自动化
+化学发光法
+敏感性更高，能够实现自动化
+免疫印迹法
+可以检测针对不同抗原的抗体，但目前国内尚无商品化试剂
+嗜异凝集抗体检测
+血清或血浆
+试管法或血凝反应板法
+非特异
+EBV核酸载量检测
+血浆或血清、全血、PBMC、脑脊液
+实时荧光定量PCR法
+快速、操作简便、实验室污染风险小
+EBERs原位杂交
+病理组织或细胞涂片
+原位杂交法
+能够定位EBV感染细胞
+注：PBMC：外周血单个核细胞；PBMC：peripheral blood mononuclear cell
+3 EBV实验室诊断方法的临床应用
+EBV感染与多种临床疾病相关，熟悉不同EBV感染实验室诊断方法的优缺点，针对不同的EBV感染相关疾病，选择适当的临床样本和实验室检测方法，对于EBV相关疾病的诊断和治疗十分重要。
+3.1 原发性EBV感染相关疾病
+3.1.1 IM：
+IM是原发性EBV感染引起的良性自限性疾病，其典型临床表现为发热、咽峡炎和颈淋巴结肿大的"三联征"，外周血淋巴细胞显著增多并出现异型淋巴细胞，可合并肝脾肿大和肝功能异常。多数预后良好，少数可出现严重并发症，如噬血细胞性淋巴组织细胞增生症(HLH)。
+3.1.1.1 EBV特异性抗体检测
+对于免疫功能正常的患者，EBV特异性抗体检测仍然是诊断IM的金标准。但是，如前所述，EBV感染后的血清学反应复杂多样，根据EBV感染过程中不同抗体产生的动力学特点，同时检测患者血清中3种EBV特异性抗体(抗VCA-IgM/IgG、抗EBNA-IgG)，并结合抗VCA-IgG亲和力检测，可提高原发性EBV感染诊断的敏感性。IM的EBV特异性抗体检测指标包括(1)抗VCA-IgM和抗VCA-IgG阳性，且抗EBNA-IgG阴性；或(2)抗VCA-IgM阴性，但抗VCA-IgG阳性，且为低亲和力抗体。
+3.1.1.2 EBV核酸载量检测
+对诊断IM的阴性预测值较低，不必常规进行检测，仅对EBV抗体检测结果难以解释的病例可能有所帮助[12]。使用血清或血浆标本进行EBV-DNA检测。因IM患者PBMC中EBV-DNA阳性可持续6个月以上，需要1年或更长时间达到EBV健康携带者的全血EBV-DNA水平(1-30拷贝EBV-DNA/106 PBMC)，因此，在IM的诊治中需使用血清或血浆标本进行EBV-DNA载量检测，不宜使用全血和PBMC样本。
+3.1.2 免疫缺陷患者EBV原发性感染(X连锁淋巴增生症，移植患者等)
+3.1.2.1 EBV特异性抗体检测
+免疫缺陷患者(如移植患者接受免疫抑制剂治疗)，体液免疫反应不足，并且由于接受输血或者输注免疫球蛋白的治疗也会干扰血清抗体的检测结果，因此免疫缺陷患者发生原发EBV感染时，血清特异性抗体检测的价值有限[5]。
+3.1.2.2 EBV核酸载量检测
+由于免疫缺陷患者抗体反应往往不足，核酸载量检测有助于原发EBV感染的诊断，推荐使用全血或PBMC标本进行EBV-DNA动态检测。对于X连锁淋巴增古症患者，至少每6个月监测1次EBV-DNA；对于移植患者，移植后每周监测EBV-DNA至少3个月(可长至6个月)，以后每月监测EBV-DNA到移植后1年。
+3.1.3 其他EBV原发性感染相关疾病(EBV脑膜炎或脑炎、心肌炎、间质性肺炎等)：
+EBV感染几乎可以累及各个脏器，有些患者EBV原发感染临床表现不符合典型IM的临床特征，而以某一脏器受累为主，如间质性肺炎、心肌炎及脑炎等。
+3.1.3.1 EBV特异性抗体检测
+血清或血浆中的EBV特异性抗体检测结果符合原发性EBV感染。
+3.1.3.2 EBV核酸载量检测
+脑脊液标本EBV-DNA检测阳性有助于EBV感染脑膜炎或脑炎的诊断；肺泡灌洗液标本EBV-DNA检测阳性有助于EBV感染间质性肺炎的诊断。
+3.1.3.3 EBERs原位杂交
+病理组织样本(如心肌活检组织等)中EBERs原位杂交阳性结果，是明确本次疾病与EBV相关的最直接的证据。
+3.2 持续性或再激活EBV感染相关疾病
+3.2.1 CAEBV：
+CAEBV是一种严重的EBV感染疾病，其临床表现是IM样症状持续或反复发作，并逐渐出现多种器官的慢性损害，如持续性肝功能损害、多发性淋巴结病、肝脾大、噬血细胞综合征、视网膜炎、间质性肺炎、牛痘样水疱病及蚊虫叮咬过敏等。
+3.2.1.1 EBV特异性抗体检测
+异常的EBV抗体水平是CAEBV的诊断标准之一。2005年Okano等[13]提出的CAEBV诊断指南：EBV特异性抗体指标需要满足抗VCA-IgG≥1∶640和抗EA-IgG≥1∶160，VCA-IgA和(或)EA-IgA也常阳性。但上述EBV抗体滴度的检测方法均为免疫荧光方法，对于常规临床实验室检测有一定困难。目前尚无免疫酶学方法对应的界定阈值。
+3.2.1.2 EBV核酸载量检测
+CAEBV患者外周血中EBV载量较健康携带者明显升高。CAEBV患者血清或血浆中EBV-DNA阳性，或外周血PBMC中EBV-DNA高于102.5拷贝/μg DNA。Kimura等[14]对30名CAEBV患者的研究发现，所有CAEBV患者PBMC中EBV-DNA均为阳性，且高于102.5拷贝/μg DNA，尽管多数CAEBV患者PBMC中的EBV-DNA与血浆中EBV-DNA有较好的相关性，但是有6名患者血浆中EBV-DNA检测为阴性。因此对于临床怀疑CAEBV的患者，若血清或血浆标本EBV-DNA检测为阴性，可以进一步采用外周血PBMC检测EBV核酸载量，且CAEBV通常为高载量。
+3.2.1.3 EBERs原位杂交
+CAEBV患者受累器官的活检组织标本和外周血中EBV感染的B/T/NK等细胞中EBERs阳性。
+3.2.2 EBV-HLH：
+EBV-HLH是淋巴细胞、巨噬细胞异常增生和活化，以发热、肝脾肿大、血细胞减低、高甘油三脂血症和(或)低纤维蛋白原血症为特点的临床综合征，是一种严重威胁患者生命的过度炎症反应综合征。EBV原发感染和再激活均可引起EBV-HLH。
+3.2.2.1 EBV特异性抗体检测
+EBV-HLH患者血清或血浆标本中特异性EBV抗体反应呈多种反应类型，可以呈EBV原发感染或EBV既往感染及再激活。
+3.2.2.2 EBV核酸载量检测
+EBV-HLH患者血清/血浆中有高水平的EBV核酸载量，而且EBV核酸载量与治疗反应具有很好的相关性，因此监测血清/血浆中EBV-DNA载量有助于评估治疗效果[1]。
+3.2.2.3 EBERs原位杂交
+EBV-HLH患者受累组织和外周血中EBV感染的B/T/NK等细胞中EBERs阳性。
+3.3 肿瘤相关性疾病
+3.3.1 NPC：
+NPC是目前最为明确的与EBV感染相关的人类上皮性肿瘤，位列中国肿瘤发病率前10位，尤其在两广等南方地区发病率最高，故又被称为"广东癌"。在流行地区，WHO III型非角质化未分化(主要亚型)NPC肿瘤组织中几乎全部可以检测到EBV基因组[15]。
+3.3.1.1 EBV特异性抗体检测
+EBV相关NPC患者抗体检测结果为EBV既往感染或再激活。抗VCA-IgA已经被证实是有助于NPC筛查诊断的一个生物标志物。Chen等[16]最近的一项荟萃分析结果表明，血清抗VCA-IgA用于NPC诊断的敏感性和特异性可达到83%和88%。研究结果也同时提示，如果同时检测其他抗体如抗Rta-IgG、抗EBNA1-IgA等则效果更好。并且，与免疫荧光法和酶联免疫吸附法相比，免疫酶法检测抗VCA-IgA用于NPC诊断的准确性更好。
+3.3.1.2 EBV核酸载量检测
+最新的研究结果显示，血清/血浆EBV-DNA可以用于NPC的筛查，尤其是对于无症状早期NPC病例，可能比VCA-IgA指标的敏感性更高；并且血浆EBV-DNA还可用于NPC患者治疗后的监测以及预后判断[15,17,18]。
+3.3.1.3 EBERs原位杂交
+肿瘤细胞中EBERs阳性，可以明确NPC与EBV相关。
+3.3.2 淋巴瘤：
+EBV相关淋巴瘤主要包括HL和NHL，其中经典HL中的混合细胞型，NHL中的Burkitt淋巴瘤(非洲)以及结外NK/T细胞淋巴瘤(鼻型)与EBV密切相关。
+3.3.2.1 EBV特异性抗体检测
+EBV相关淋巴瘤患者抗体检测结果为EBV既往感染或再激活。
+3.3.2.2 EBV核酸载量检测
+血清/血浆EBV-DNA可作为EBV相关淋巴瘤患者肿瘤负荷的一个标志物，并且可能用于治疗效果评估和预后判断[2]。
+3.3.2.3 EBERs原位杂交
+肿瘤细胞中EBERs阳性，可以明确淋巴瘤与EBV相关。
+3.4 PTLD
+PTLD是实体器官移植或骨髓移植、造血干细胞移植后发生的一种严重并发症，是移植后持续免疫缺陷下发生的一种由增生性到肿瘤性的淋巴系统增殖。大约80%～90%的PTLD与EBV感染有关，因此，移植患者监测EBV感染至关重要。
+3.4.1 EBV特异性抗体检测：
+移植患者由于接受免疫抑制治疗，体液免疫反应不足，并且由于接受输血或者输注免疫球蛋白的治疗也会干扰血清抗体的检测结果，因此血清特异性抗体检测的价值有限[5]。
+3.4.2 EBV核酸载量检测：
+尽管EBV核酸载量阳性并不是PTLD确诊的标准，但是动态监测EBV核酸载量、及时采取措施对于预防EBV相关PTLD的发生较为重要。全血标本是移植后患者EBV感染监测的最佳标本，具有较高的敏感性，但是其阳性预测值较低，特异性较差。结合全血和血清/血浆标本的EBV载量检测结果，可以提高预测PTLD的敏感性和特异性；若全血EBV-DNA≥20 000拷贝/ml和血浆EBV-DNA≥ 1 000拷贝/ml,其预测PTLD发生的敏感性为100%、特异性为94% [19]。血浆中EBV核酸载量监测有助于评估PTLD治疗效果[20]。
+3.4.3 EBERs原位杂交：
+组织活检病理是PTLD诊断的金标准，EBERs原位杂交是唯一能够定位肿瘤细胞中存在EBV的实验室方法，从而明确PTLD是EBV相关。
+4 小结
+了解EBV的病毒学特性及感染后的体液免疫学特点，熟悉不同EBV感染实验室诊断方法的优缺点，根据不同疾病和病程合理选择和应用不同的标本和实验室诊断方法，对EBV感染相关疾病的诊治极为重要。
+委员会成员
+(谢正德、刘春艳、艾军红执笔)
+参加本专家共识制定的专家：100045北京，国家儿童医学中心首都医科大学附属北京儿童医院(申昆玲、谢正德、刘钢、周春菊、胡惠丽、刘春艳、艾军红)；100020北京，首都儿科研究所(钱渊、赵林清)；102206北京，中国疾病预防控制中心病毒病预防控制所(马学军、杜海军、张晓光、詹少兵)；100052北京，中华实验和临床病毒学杂志编辑部(唐浏英)；710003西安市儿童医院(邓慧玲、李亚绒)；201102上海，国家儿童医学中心复旦大学附属儿科医院(俞蕙)；430030武汉，华中科技大学同济医学院附属同济医院(方峰)；518026深圳市儿童医院(邓继岿)；410007长沙，湖南省儿童医院(李双杰)
+利益冲突
+利益冲突：无
+参考文献
+[1]
+KimuraH, ItoY, SuzukiR, et al.
+Measuring Epstein-Barr virus (EBV) load: the significance and application for each EBV-associated disease[J].
+Rev Med Virol，
+2008，
+18(
+5):
+305-
+319.
+DOI: 10.1002/rmv.582.
+[2]
+GulleyM L, TangW.
+Laboratory assays for Epstein-Barr virus-related disease[J].
+J Mol Diagn，
+2008，
+10(
+4):
+279-
+292.
+DOI: 10.2353/jmoldx.2008.080023.
+[3]
+AnderssonA, VetterV, KreutzerL, et al.
+Avidities of IgG directed against viral capsid antigen or early antigen: useful markers for significant Epstein-Barr virus serology[J].
+J Med Virol，
+1994，
+43(
+3):
+238-
+244.
+PMID:7931184.
+[4]
+RobertsonP, BeynonS, WhybinR, et al.
+Measurement of EBV-IgG anti-VCA avidity aids the early and reliable diagnosis of primary EBV infection[J].
+J Med Virol，
+2003，
+70(
+4):
+617-
+623.
+DOI: 10.1002/jmv.10439.
+[5]
+De PaschaleM, ClericiP.
+Serological diagnosis of Epstein-Barr virus infection: Problems and solutions[J].
+World J Virol，
+2012，
+1(
+1):
+31-
+43.
+DOI: 10.5501/wjv.v1.i1.31.
+[6]
+Guerrero-RamosA, PatelM, KadakiaK, et al.
+Performance of the architect EBV antibody panel for determination of Epstein-Barr virus infection stage in immunocompetent adolescents and young adults with clinical suspicion of infectious mononucleosis[J].
+Clin Vaccine Immunol，
+2014，
+21(
+6):
+817-
+823.
+DOI: 10.1128/CVI.00754-13.
+[7]
+BauerG.
+Simplicity through complexity: immunoblot with recombinant antigens as the new gold standard in Epstein-Barr virus serology[J].
+Clin Lab，
+2001，
+47(
+5-6):
+223-
+230.
+PMID:11405600.
+[8]
+刘春艳，闫静，刘亚谊，等.
+EB病毒相关性传染性单核细胞增多症的血清学诊断[J].
+中华流行病学杂志，
+2007，
+28(
+9):
+898-
+900.
+DOI: 10.3760/j.issn:0254-6450.2007.09.017.
+[9]
+DunmireSK, HogquistKA, BalfourHH.
+Infectious Mononucleosis[J].
+Curr Top Microbiol Immunol，
+2015，
+390(
+Pt 1):
+211-
+240.
+DOI: 10.1007/978-3-319-22822-8_9.
+[10]
+LuzuriagaK, SullivanJL.
+Infectious mononucleosis[J].
+N Engl J Med，
+2010，
+362(
+21):
+1993-
+2000.
+DOI: 10.1056/NEJMcp1001116.
+[11]
+中华医学会儿科学分会感染学组，全国儿童EB病毒感染协作组.
+儿童主要非肿瘤性EB病毒感染相关疾病的诊断和治疗原则建议[J].
+中华儿科杂志，
+2016，
+54(
+8):
+563-
+568.
+DOI: 10.3760/cma.j.issn.0578-1310.2016.08.002.
+[12]
+RufS, WagnerHJ.
+Determining EBV load: current best practice and future requirements[J].
+Expert Rev Clin Immunol，
+2013，
+9(
+2):
+139-
+151.
+DOI: 10.1586/eci.12.111.
+[13]
+OkanoM, KawaK, KimuraH, et al.
+Proposed guidelines for diagnosing chronic active Epstein-Barr virus infection[J].
+Am J Hematol，
+2005，
+80(
+1):
+64-
+69.
+DOI: 10.1002/ajh.20398.
+[14]
+KimuraH, HoshinoY, KaneganeH, et al.
+Clinical and virologic characteristics of chronic active Epstein-Barr virus infection[J].
+Blood，
+2001，
+98(
+2):
+280-
+286.
+PMID: 11435294.
+[15]
+FungSY, LamJW, ChanKC.
+Clinical utility of circulating Epstein-Barr virus DNA analysis for the management of nasopharyngeal carcinoma[J].
+Chin Clin Oncol，
+2016，
+5(
+2):
+18.
+DOI: 10.21037/cco.2016.03.07.
+[16]
+ChenY, XinX, CuiZ, et al.
+Diagnostic Value of Serum Epstein-Barr Virus Capsid Antigen-IgA for Nasopharyngeal Carcinoma: a Meta-Analysis Based on 21 Studies[J].
+Clin Lab，
+2016，
+62(
+6):
+1155-
+1166.
+PMID:27468579.
+[17]
+KimKY, LeQT, YomSS, et al.
+Clinical Utility of Epstein-Barr Virus DNA Testing in the Treatment of Nasopharyngeal Carcinoma Patients[J].
+Int J Radiat Oncol Biol Phys，
+2017，
+98(
+5):
+996-
+1001.
+DOI: 10.1016/j.ijrobp.2017.03.018.
+[18]
+ChanK, WooJ, KingA, et al.
+Analysis of Plasma Epstein-Barr Virus DNA to Screen for Nasopharyngeal Cancer[J].
+N Engl J Med，
+2017，
+377(
+6):
+513-
+522.
+DOI: 10.1056/NEJMoa1701717.
+[19]
+RufS, Behnke-HallK, GruhnB, et al.
+Comparison of six different specimen types for Epstein-Barr viral load quantification in peripheral blood of pediatric patients after heart transplantation or after allogeneic hematopoietic stem cell transplantation[J].
+J Clin Virol，
+2012，
+53(
+3):
+186-
+194.
+DOI: 10.1016/j.jcv.2011.11.010.
+[20]
+GulleyML, TangW.
+Using Epstein-Barr viral load assays to diagnose, monitor, and prevent posttransplant lymphoproliferative disorder[J].
+Clin Microbiol Rev，
+2010，
+23(
+2):
+350-
+366.
+DOI: 10.1128/CMR.00006-09.
+贡献者信息
+全国儿童EB病毒感染协作组
+中华实验和临床病毒学杂志编辑委员会
+利益冲突
+利益冲突：无
+历史
+出版日期：2018-02-28
+收稿日期：2017-09-03
+本文编辑
+唐浏英
+Standard-Protocal-Guideline
+Expert consensus on laboratory diagnosis and clinical application of Epstein Barr virus infection
+National Working Group for Children's EB Virus Infection,  Editorial Board of Chinese Journal of Experimental and Clinical Virology
+Published
+2018-01-30
+Cite as
+Chinese J Exp Clin Virol, 2018,32(1): 2-8. DOI: 10.3760/cma.j.issn.1003-9279.2018.01.001
+Contributor Information
+National Working Group for Children's EB Virus Infection
+Editorial Board of Chinese Journal of Experimental and Clinical Virology
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+EBV感染类型与EBV相关疾病[1]
+Tab.1
+Patterns of Epstein-Barr virus (EBV) infection and EBV-associated diseases
+潜伏感染类型
+EBV基因
+疾病
+EBNA1
+EBNA2
+EBNA3 s
+LMP1
+LMP2
+BARTs
+EBERs
+0型
+－
+－
+－
+－
+－
+±
+＋
+健康携带者
+Ⅰ型
+＋
+－
+－
+－
+－
+＋
+＋
+Burkitt’s淋巴瘤
+Ⅱ型
+＋
+－
+－
+＋
+＋
+＋
+＋
+霍奇金淋巴瘤
+鼻NK细胞淋巴瘤
+慢性活动性EBV感染
+鼻咽癌
+Ⅲ型
+＋
+＋
+＋
+＋
+＋
+＋
+＋
+传染性单核细胞增多症
+移植后或机会性淋巴细胞增殖性疾病
+VCA：病毒衣壳抗原；EBNA：EBV核抗原；EA：早期抗原
+图1
+EBV原发感染和既往感染后抗体滴度变化[2]
+Fig.1
+Serological titers distinguish primary infection from remote infection
+表2
+免疫功能正常患者EBV血清学特点[5]
+Tab.2
+Interpretation of Epstein-Barr virus serological profiles in immunocompetent patients
+抗EBV抗体
+解释
+VCA-IgM
+VCA-IgG
+EBNA-IgG
+阴性
+阴性
+阴性
+无免疫反应
+阳性
+阴性
+阴性
+急性感染或非特异反应1
+阳性
+阳性
+阴性
+急性感染
+阴性
+阳性
+阳性
+既往感染
+阴性
+阳性
+阴性
+急性感染或既往感染1
+阳性
+阳性
+阳性
+原发感染晚期或再激活1
+阴性
+阴性
+阳性
+既往感染或非特异反应
+注：VCA：病毒衣壳抗原；1有待进一步确定
+Note：VCA：virus capsid antigen；1further testing required
+表3
+不同EBV相关疾病中适用于EBV载量检测的标本[12]
+Tab.3
+Best specimen for EBV-load measurement in different Epstein-Barr virus-associated diseases
+EBV相关疾病
+全血
+血浆/血清
+PBMC
+CSF
+应用
+原发感染
+IM
+—
+＋＋
+—
+原发感染，对诊断并非必要
+与疾病严重程度相关
+EBV-HLH
+＋＋
+诊断和判断治疗反应
+CAEBV
+＋＋
+＋＋
+诊断(PBMC)
+疾病严重程度和预后
+免疫正常患者
+鼻咽癌
+＋＋
+治疗反应
+预后因素/总体生存率
+肿瘤复发
+鼻T/NK淋巴瘤
+＋＋
+—
+分期和判断预后
+监测治疗反应和复发
+霍奇金淋巴瘤
+＋＋
+治疗反应和预后
+B-非霍奇金淋巴瘤
+＋
+＋
+＋
+诊断，预后和随访
+免疫缺陷患者
+移植患者和PTLD
+＋＋
+＋/-
+＋
+免疫抑制治疗的指导
+预测/提示PTLD
+PTLD对治疗的反应
+监测EBV再激活
+预防移植物抗宿主病
+预防移植排斥
+AIDS相关淋巴瘤
+＋/-
+＋/-
+可能对监测治疗反应和预后有用
+监测全身性B细胞淋巴瘤进展
+AIDS相关原发性中枢神经系统淋巴瘤
+—
+—
+＋＋
+诊断
+X-连锁淋巴增殖症
+＋＋
+＋＋
+至少每6个月一次监测EBV原发感染，HLH
+或PTLD
+注：IM：传染性单核细胞增多症；PBMC：外周血单个核细胞；HLH：噬血细胞性淋巴组织细胞增生症；CAEBV：慢性活动性EB病毒感染；PTLD：移植后淋巴细胞增殖症；—：无数据支持；＋＋：推荐；＋：有数据支持应用；＋/-：有争议
+Note：IM：infectious mononucleosis；PBMC：peripheral blood mononuclear cell；HLH：haemophagocytic lymphohistiocytosis；CAEBV：chronic active EBV infection；PTLD：post-transplant lymphoproliferative disease；—：no data; ＋＋：recommended；＋：with data; ＋/-：controversial
+表4
+EBV感染实验室诊断方法
+Tab.4
+Laboratory assays for Epstein-Barr virus infection
+项目名称
+标本类型
+检测方法
+特点
+EBV特异性抗体检测
+血清或血浆
+免疫荧光法
+特异性较好，敏感性较低，结果判读受主观因素影响，难以实现自动化分析
+免疫酶法
+特异性和敏感性均较好，但目前尚无商品化试剂
+酶联免疫法
+敏感性较高，结果判读客观，可以实现自动化
+化学发光法
+敏感性更高，能够实现自动化
+免疫印迹法
+可以检测针对不同抗原的抗体，但目前国内尚无商品化试剂
+嗜异凝集抗体检测
+血清或血浆
+试管法或血凝反应板法
+非特异
+EBV核酸载量检测
+血浆或血清、全血、PBMC、脑脊液
+实时荧光定量PCR法
+快速、操作简便、实验室污染风险小
+EBERs原位杂交
+病理组织或细胞涂片
+原位杂交法
+能够定位EBV感染细胞
+注：PBMC：外周血单个核细胞；PBMC：peripheral blood mononuclear cell
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华实验和临床病毒学杂志2018年32卷1期
+文    题：EB病毒感染实验室诊断及临床应用专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华实验和临床病毒学杂志2018年32卷1期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

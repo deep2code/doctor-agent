@@ -1,0 +1,1969 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/2020%E4%B8%AD%E5%9B%BD%E7%B3%BB%E7%BB%9F%E6%80%A7%E7%BA%A2%E6%96%91%E7%8B%BC%E7%96%AE%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97.html
+# 标题: 2020中国系统性红斑狼疮诊疗指南 - 中华内科杂志
+# 发布方/日期: 内科，中华内科杂志, 2020,59(03) : 172-185. DOI: 10.3760/cma.j；2020-03-01
+
+2020中国系统性红斑狼疮诊疗指南
+中华医学会风湿病学分会
+国家皮肤与免疫疾病临床医学研究中心
+中国系统性红斑狼疮研究协作组
+中华内科杂志, 2020,59(03) : 172-185. DOI: 10.3760/cma.j.issn.0578-1426.2020.03.002
+系统性红斑狼疮（systemic lupus erythematosus，SLE）是一种系统性自身免疫病，以全身多系统多脏器受累、反复的复发与缓解、体内存在大量自身抗体为主要临床特点，如不及时治疗，会造成受累脏器的不可逆损害，最终导致患者死亡。SLE的病因复杂，与遗传、性激素、环境（如病毒与细菌感染）等多种因素有关[1,2,3]。SLE患病率地域差异较大，目前全球SLE患病率为0~241/10万，中国大陆地区SLE患病率约为30~70/10万[4,5]，男女患病比为1∶10~12[6,7,8]。随着SLE诊治水平的不断提高，SLE患者的生存率大幅度提高。研究显示，SLE患者5年生存率从20世纪50年代的50%~60%升高至90年代的超过90%，并在2008—2016年逐渐趋于稳定（高收入国家5年生存率为95%，中低收入国家5年生存率为92%）[9,10,11]。SLE已由既往的急性、高致死性疾病转为慢性、可控性疾病。临床医师和患者对SLE的认知与重视度提高、科学诊疗方案的不断出现与优化发挥了重要作用。
+欧洲抗风湿病联盟（EULAR）、英国风湿病学会（BSR）及泛美抗风湿联盟（PANLAR）等多个在世界上有影响力的学术组织和机构分别制订了各自的SLE诊疗指南[12,13,14]，中华医学会风湿病学分会亦曾于2010年发布过我国《系统性红斑狼疮诊断及治疗指南》[15]。指南的颁布对提高临床决策的科学性和规范性起到了重要的推动作用。然而，现有的指南对指导我国当前SLE的诊疗实践尚存在下述问题：（1）中国系统性红斑狼疮研究协作组（Chinese Lupus Treatment and Research Group，CSTAR）注册队列研究显示[6, 16,17]，我国SLE患者的发病、临床表现和主要临床转归等与欧美国家不完全相同；（2）国际SLE诊疗指南未纳入中国的研究，完全照搬其推荐意见未必符合我国的诊疗实践；（3）2010年我国《系统性红斑狼疮诊断及治疗指南》自颁布起至今已有近十年的时间，一直未更新；在此期间，新的诊治研究结果与新型治疗药物不断出现，指南制订的理念、方法和技术亦在不断发展和更新，使得我国原有的指南不能更好地指导目前的SLE诊疗实践。鉴于此，中华医学会风湿病学分会、国家皮肤与免疫疾病临床医学研究中心、CSTAR按照循证临床实践指南制订的方法和步骤，基于最新的研究证据，结合我国临床实际，制订了《2020中国系统性红斑狼疮诊疗指南》（以下简称本指南）。
+指南形成方法
+1．指南发起机构与专家组成员：
+本指南由中华医学会风湿病学分会、国家皮肤与免疫疾病临床医学研究中心、CSTAR联合发起。启动时间为2019年3月21日，定稿时间为2020年1月21日。
+2．指南工作组：
+本指南成立了多学科工作组，主要涵盖风湿免疫科、肾脏内科、皮肤科、产科、影像科及循证医学等学科专家。证据的检索和评价由兰州大学循证医学中心/GRADE中国中心完成。所有工作组成员均填写了利益声明表，不存在与本指南直接的经济利益冲突。
+3．指南注册与计划书撰写：
+本指南已在国际实践指南注册平台（International Practice Guidelines Registry Platform，http://www.guidelines-registry.org）注册（注册号为IPGRP-2019CN022）。本指南的设计与制订遵循世界卫生组织2014年发布的《世界卫生组织指南制定手册》[18]，及2016年中华医学会发布的《制订/修订<临床诊疗指南>的基本方法及程序》[19]，并参考指南研究与评价（Appraisal of Guidelines for Research and Evaluation Ⅱ，AGREE Ⅱ）工具[20]和国际实践指南报告标准（Reporting Items for Practice Guidelines in Healthcare，RIGHT）[21,22]。
+4．指南使用者与应用的目标人群：
+本指南供风湿免疫科医师、皮肤科医师、肾内科医师、产科医师、临床药师、影像诊断医师及与SLE诊疗和管理相关的专业人员使用。指南推荐意见的应用目标人群为SLE患者。
+5．临床问题的遴选和确定：
+通过系统查阅SLE领域已发表的指南和系统评价，以及对部分风湿科专家的访谈，工作组初步拟定了30个临床问题，以在线问卷的形式对临床问题的重要性进行调研和评分。经过两轮83人次的调研反馈，最终遴选出本指南拟解决的12个临床问题。
+6．证据的检索：
+证据评价小组针对最终纳入的临床问题和结局指标，按照人群、干预、对照和结局（Population, Intervention, Comparison and Outcome，PICO）的原则对其进行解构，并根据解构的问题检索：（1）MEDLINE、Cochrane Library、Epistemonikos、中国生物医学文献、万方数据库和中国知网数据库，主要纳入系统评价、Meta分析和网状Meta分析，检索时间为建库至2019年9月；（2）UpToDate、DynaMed、MEDLINE、中国生物医学文献数据库、万方数据库和中国知网数据库，主要纳入包括随机对照试验、队列研究、病例对照研究、病例系列、流行病学调查等原始研究，检索时间为建库至2019年9月；（3）英国国家卫生与临床优化研究所（NICE）、苏格兰校际指南网络（SIGN）、美国风湿病学会（ACR）、EULAR和亚太抗风湿病联盟（APLAR）等官方网站，以及MEDLINE和中国知网数据库，主要检索SLE领域相关指南；（4）补充检索Google学术等一些其他网站。
+7．证据的评价与分级：
+证据评价小组运用系统评价偏倚风险评价工具（A Measurement Tool to Assess systematic Reviews，AMSTAR）[23]对纳入的系统评价、Meta分析和网状Meta分析进行偏倚风险评价。使用Cochrane偏倚风险评价工具[24]（Risk of Bias，ROB，针对随机对照试验研究）、诊断准确性研究的质量评价工具[25]（Quality Assessment of Diagnostic Accuracy Studies，QUADAS-2，针对诊断准确性试验研究）、纽卡斯尔-渥太华量表[26]（Newcastle-Ottawa Scale，NOS，针对观察性研究）等对相应类型的原始研究进行方法学质量评价；评价过程由两人独立完成，若存在分歧，则共同讨论或咨询第三方解决。使用推荐意见分级的评估、制订及评价（Grading of Recommendations Assessment, Development and Evaluation，GRADE）方法对证据体和推荐意见进行分级[27,28,29,30,31]，见表1。
+点击查看表格
+表1
+证据质量与推荐强度分级
+表1
+证据质量与推荐强度分级
+项目
+内容
+证据质量分级
+高(A)
+非常有把握：观察值接近真实值
+中(B)
+对观察值有中等把握：观察值有可能接近真实值，但亦有可能差别很大
+低(C)
+对观察值的把握有限：观察值可能与真实值有很大差别
+极低(D)
+对观察值几乎无把握：观察值与真实值可能有极大差别
+推荐强度分级
+强(1)
+明确显示干预措施利大于弊或弊大于利
+弱(2)
+利弊不确定或无论质量高低的证据均显示利弊相当
+8．推荐意见的形成：
+专家组基于证据评价小组提供的国内外证据汇总表，同时考虑我国患者的偏好与价值观、干预措施的成本和利弊后，提出了符合我国临床诊疗实践的推荐意见，分别于2019年10月5日和2019年11月8日进行两轮德尔菲推荐意见调查，共收集到98条反馈建议，于2019年11月至2020年1月进行面对面共识和进一步修改。
+9．指南的更新：
+计划在3~5年内对本指南的推荐意见进行更新，按照国际指南更新要求的方法进行[32]。
+临床问题1：如何诊断SLE
+推荐意见1：推荐使用2012年国际狼疮研究临床协作组（SLICC）或2019年EULAR/ACR制定的SLE分类标准对疑似SLE者进行诊断（1B）；在尚未设置风湿免疫科的医疗机构，对临床表现不典型或诊断有困难者，建议邀请或咨询风湿免疫科医师协助诊断，或进行转诊/远程会诊（2C）
+为进一步提高SLE分类标准的敏感性和特异性，2019年EULAR和ACR基于1997年ACR制定的SLE分类标准，共同推出了2019年EULAR/ACR SLE分类标准，该标准包括1条入围标准、10个方面、18条标准，每条标准均需排除感染、恶性肿瘤、药物等原因所致，既往符合某条标准者亦可计分，在每个方面取最高权重得分计入总分，总分≥10可分类为SLE[33]。针对新标准的验证队列研究显示，2019年EULAR/ACR、2012年SLICC、1997年ACR的SLE分类标准的敏感性分别为96%、97%、83%，特异性分别为93%、84%、93%，2019年EULAR/ACR的SLE分类标准的敏感性与特异性均最优；针对新标准的诊断准确性研究显示，在成人SLE患者中，2019年EULAR/ACR（初始草拟版）、2012年SLICC、1997年ACR的SLE分类标准的敏感性分别为93%、100%、83.0%，特异性分别为73%、75%、82%，显示成人SLE中2012年SLICC分类标准相对最优[33,34]。基于上述研究结果，本指南推荐使用这两个分类标准对我国SLE患者进行分类。在临床诊治工作中，建议参照这两个分类标准对SLE患者进行诊断。但是，由于仅有1997年ACR的SLE分类标准曾在我国SLE人群中进行过验证，结果显示该标准对我国SLE患者具有良好的适用性[35,36]，因此，未来需要在我国SLE患者中验证2012年SLICC、2019年EULAR/ACR的SLE分类标准的适用性。
+横断面研究显示，由初级卫生保健医生确诊的71例SLE患者中，仅有23%的患者满足1997年ACR的SLE分类标准（符合4条及4条以上的标准），而由风湿免疫病专科医生确诊的249例SLE患者中，79%的患者满足1997年ACR的SLE分类标准（符合4条及4条以上的标准）[37]。由此可见，风湿免疫专科医生参与SLE患者的诊断，有助于提高诊断的准确性。
+临床问题2：SLE患者的治疗原则和目标是什么
+推荐意见2：SLE的治疗原则为早期、个体化治疗，最大程度地延缓疾病进展，降低器官损害，改善预后（1C）。SLE治疗的短期目标为控制疾病活动、改善临床症状（1C），达到临床缓解或可能达到的最低疾病活动度；长期目标为预防和减少复发，减少药物不良反应，预防和控制疾病所致的器官损害，实现病情长期持续缓解，降低病死率，提高患者的生活质量（1C）
+系统评价显示，早期较高的疾病活动度会增加患者发生器官损害和死亡的风险，早诊早治有利于控制疾病活动，改善患者预后[38]。目前SLE的治疗包括糖皮质激素（以下简称激素）、抗疟药、免疫抑制剂和生物制剂等多种药物，各类药物的疗效及不良反应差异很大，应尽可能根据患者的具体情况，制定个体化的治疗方案[12,13, 15]。
+对SLE疾病缓解的定义仍存争议。目前的共识为应将病情控制在临床缓解的理想状态，如无法实现临床缓解，则应将病情活动度控制在可能达到的最低疾病活动水平[39]。病程≤4年的SLE患者中，约25%的患者经过治疗可达临床缓解，45%的患者出现器官损害。复发是SLE患者常见的临床特点，研究显示，SLE患者4年内总复发风险为60%[40]。复发是疾病活动度明显增加的标志，亦是导致器官损害和不良预后的主要原因。复发的高危因素包括发病年龄低、持续的临床疾病活动及血清学活动。达到疾病缓解或最低疾病活动度后，通常需要调整治疗策略来预防和减少复发。队列研究显示，与疾病活动度控制不佳的SLE患者相比，达到疾病缓解（HR=0.60，95%CI 0.43~ 0.85）和低疾病活动度（HR=0.66，95%CI 0.48~0.93）均可降低SLE患者的新发损伤，与预后密切相关[41]。预防、减少复发和控制疾病所致的器官损害、降低患者病死率、提高生存率和生活质量是SLE治疗的长期目标。
+临床问题3：如何选择评估SLE疾病活动和脏器损害程度的工具
+推荐意见3：对初诊和随访的SLE患者，建议选择SLE疾病活动指数（SLEDAI-2000）评分标准，并结合临床医师的综合判断进行疾病活动度评估（2C）；基于SLEDAI-2000评分标准，可将疾病活动分为轻度活动（SLEDAI-2000≤6）、中度活动（SLEDAI-2000 7~12）和重度活动（SLEDAI-2000>12）（2D）；对处于疾病活动期的SLE患者，建议至少每1个月评估1次疾病活动度（2C），对处于疾病稳定期的SLE患者，建议每3~6个月评估1次疾病活动度。如果出现复发，则应按照疾病活动来处理（2D）
+现有SLE疾病活动度评估工具7个[42,43,44,45,46,47,48,49]，每个工具均需要医生对病史、体检和实验室检查进行综合评估。医师的个人偏好和专业知识、评估成本（是否需要使用计算机，检查成本）和用时等均会影响对评估工具的选择[50]。目前国内临床实践中常采用SLEDAI-2000和英岛狼疮评定组指数（BILAG-2004）来进行疾病活动度评估，SLEDAI-2000的结果为0~105，BILAG-2004的结果分为A、B、C、D、E 5个类别。相比BILAG-2004，使用SLEDAI-2000进行评估，医生所用时间更短，并且其墨西哥简化版因去除了免疫学检测，评估更简便，可以优先选择此工具[51]。
+在SLEDAI-2000的基础上，目前还有将疾病活动度进行分级的标准，本指南针对主要的4种疾病活动度分级标准进行了讨论[12,13, 15, 52]，建议优先选择EULAR提出的标准，即轻度活动为SLEDAI-2000≤6，中度活动为SLEDAI-2000 7~12，重度活动为SLEDAI-2000>12[12]。由于较高的SLEDAI-2000预示着患者器官损害风险（HR=1.18, 95%CI 1.02~1.37）和死亡风险增加（HR=1.14, 95%CI 1.02~1.22）[38]，因此需要定期对SLE患者的疾病活动度和器官损害进行监测。由于仅基于SLEDAI-2000和BILAG-2004进行疾病活动度的评估均存在一定的局限性，因此还需结合临床医师的整体判断（physician global assessment，PGA），参照SLE患者的临床表现和其他表现，来提高评估的准确性。
+对SLE患者的监测频率，目前尚缺乏相关证据。英国SLE指南建议，对处于疾病活动期的SLE患者，至少每1~3个月评估1次疾病活动度，而西班牙SLE指南建议，至少在第1年内，每3~4个月评估1次疾病活动度；对处于疾病稳定期或低疾病活动的SLE患者，英国和西班牙SLE指南均建议，可每6~12个月评估1次[13, 53]。本指南建议，对疾病处于活动期的SLE患者至少1个月评估1次疾病活动度（共识度83.33%），对疾病处于稳定期的患者，每3~6个月评估1次疾病活动度（共识度94.44%）。SLE国际合作组损伤指数（SDI）是唯一一个国际公认的且已得到验证的SLE器官损害评估标准，该标准对12个器官系统独立进行评分，是临床中有效评价器官损害的工具，为更好地判断SLE患者的预后提供了依据[54]。除此之外，临床监测频率需根据疾病的演变和治疗强度进行调整，如病情出现反复，应按活动性疾病处理，应至少每1个月进行一次疾病活动度评估，直至疾病稳定。
+建议使用国家风湿病数据中心（CRDC）作为统一的慢病管理平台，对SLE患者进行随访[55]。
+临床问题4：如何使用糖皮质激素（以下简称激素）对SLE患者进行治疗
+推荐意见4：激素是治疗SLE的基础用药（1A）；应根据疾病活动及受累器官的类型和严重程度制定个体化的激素治疗方案，应采用控制疾病所需的最低剂量（1B）；对轻度活动的SLE患者，羟氯喹或非甾体抗炎药疗效不佳时，可考虑使用小剂量激素（≤10 mg/d泼尼松或等效剂量的其他激素）；对中度活动的SLE患者，可使用激素（0.5~1 mg·kg-1·d-1泼尼松或等效剂量的其他激素）联合免疫抑制剂进行治疗（2C）；对重度活动的SLE患者，可使用激素（≥1 mg·kg-1·d-1泼尼松或等效剂量的其他激素）联合免疫抑制剂进行治疗，待病情稳定后，适当调整激素用量（2C）；对狼疮危象的SLE患者，可使用激素冲击联合免疫抑制剂进行治疗（1B）；临床医师需密切关注SLE患者的疾病活动，并根据疾病活动度来调整激素用量，对病情长期稳定的患者，可考虑逐渐减停激素（1C）
+激素在治疗SLE中发挥着至关重要的作用，是SLE诱导缓解治疗最常用且国内外指南一致推荐的控制SLE病情的基础药物[12,13, 15, 53, 56,57]。
+对SLE患者，应根据疾病活动度及受累器官的类型和严重程度制定个体化的激素治疗方案，并应根据病情活动度、用药时间长短，以及激素的不良反应等情况来调整用药剂量与用法。
+轻度活动的SLE患者，一般不需要采用激素治疗，当羟氯喹或非甾体抗炎药不能控制病情时，可考虑使用小剂量激素（泼尼松≤10 mg/d或等效剂量的其他激素）来控制疾病[12,13, 15, 53, 56,57]。
+中度活动的SLE患者，推荐使用中等剂量的激素（0.5~1 mg·kg-1·d-1）泼尼松或等效剂量的其他激素进行治疗。中等剂量激素难以快速控制病情的中度SLE患者，在适当增加激素剂量的基础上，可联合使用免疫抑制剂，以减少激素的累积使用剂量，降低发生长期不良反应的风险[13, 15, 56]。
+重度活动的SLE患者，推荐使用标准剂量的激素（1mg·kg-1·d-1泼尼松或等效剂量的其他激素）联合免疫抑制剂进行治疗，待病情稳定后调整激素用量[15, 56]。同时，对病情严重的SLE患者，必要时可使用激素冲击治疗[12, 53, 57]。
+对发生狼疮危象的SLE患者，推荐使用激素冲击联合免疫抑制剂进行治疗。激素冲击治疗为静脉滴注甲泼尼龙500~1 000 mg/d，通常连续使用3 d为一个疗程，疗程间隔5~30 d。冲击治疗后改口服泼尼松0.5~1 mg·kg-1·d-1或等效剂量的其他激素，通常治疗时间为4~8周，但具体疗程应视病情而定[15, 56]。与常规剂量的激素治疗相比，冲击治疗可使疾病快速得到控制，而不良反应发生率并未显著增加[58]。
+使用激素时应根据疾病活动度、激素不良反应发生情况对剂量进行调整和确定减、停药的时机，减量过程必须逐步而缓慢，避免突然停药；对病情稳定的患者，亦应尽早开始激素减量，减量过程必须逐步而缓慢，以避免疾病复发[59]。
+激素相关不良反应的发生率>30%，最常出现的近期不良反应是胃部不适、兴奋、心悸、失眠等，长期不良反应有继发感染、脆性骨折等[60]。由于激素的不良反应随剂量的增加而增多，因此临床医师应尽可能采用控制病情所需的最低剂量，同时也应避免激素用药不足或误用引起的风险。有研究显示，接受>7.5 mg/d泼尼松的SLE患者更易发生激素相关心血管（包括心肌梗死、心力衰竭和脑血管疾病）、肾脏、肌肉骨骼等损害，而接受≤7.5 mg/d泼尼松治疗与SLE患者的累积损伤无关[61,62]。对病情长期稳定的患者可考虑减停激素。常用激素等效剂量见表2[63]。
+点击查看表格
+表2
+常用糖皮质激素的等效剂量
+表2
+常用糖皮质激素的等效剂量
+药物类别
+药物名称
+等效剂量(mg)
+短效
+氢化可的松
+20
+可的松
+25
+中效
+泼尼松
+5
+泼尼松龙
+5
+甲泼尼龙
+4
+长效
+曲安奈德
+4
+倍他米松
+0.60
+地塞米松
+0.75
+临床问题5：如何使用羟氯喹治疗SLE
+推荐意见5：对无禁忌的SLE患者，推荐长期使用羟氯喹作为基础治疗（1A）；服用羟氯喹的患者，建议对其进行眼部相关风险评估：高风险的患者建议每年进行1次眼科检查，低风险的患者建议服药第5年起每年进行1次眼科检查（2C）
+SLE患者长期服用羟氯喹可降低疾病活动度、降低发生器官损伤和血栓的风险，改善血脂情况，提高生存率[64,65,66,67]。长期服用羟氯喹者，5年后可观察到羟氯喹导致的视网膜病变，而一些高风险人群（长期服用和/或使用高剂量的羟氯喹、伴有肝肾疾病、同时使用他莫昔芬、有视网膜或黄斑疾病史、高龄等）更易诱发视网膜病变[68,69,70]。应对服用羟氯喹无高风险因素者进行基线和5年后的年度眼科检查，监测药物带来的眼部不良反应[71,72]。而对于发生视网膜病变高风险的患者，服药前与服药后每年需进行1次眼科检查。
+临床问题6：如何使用免疫抑制剂对SLE患者进行治疗
+推荐意见6：对激素联合羟氯喹治疗效果不佳的SLE患者，或无法将激素的剂量调整至相对安全剂量以下的患者，建议使用免疫抑制剂（2B）；伴有脏器受累者，建议初始治疗时即加用免疫抑制剂（2C）
+免疫抑制剂的使用可降低激素的累积使用量及预防疾病复发[73]。对难治性（经常规疗法治疗效果不佳）或复发性SLE患者，使用免疫抑制剂可减少激素的使用量，控制疾病活动，提高临床缓解率[74,75]。
+狼疮肾炎患者初始治疗时（诱导缓解期），相对单用激素而言，联合使用免疫抑制剂可显著提高临床缓解率，因此，初始治疗时即可考虑加用免疫抑制剂[76,77]。伴有脏器受累的SLE患者，应依据患者的临床表现、生育要求、药物安全性和成本等因素进行综合考虑，选择恰当的免疫抑制剂（表3[78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97]）。
+点击查看表格
+表3
+不同免疫抑制剂的适应证、优势及常见与重要不良反应
+表3
+不同免疫抑制剂的适应证、优势及常见与重要不良反应
+免疫抑制剂
+主要适用人群
+优势
+常见与重要不良反应
+霉酚酸酯
+中重度SLE患者[75]
+中重度狼疮肾炎患者，霉酚酸酯为诱导期和维持期的有效治疗，能降低复发率[78]
+最常见的不良反应为胃肠道不适，一些患者会发生感染、骨髓抑制与肝脏损害[79]，由于具有一定的致畸性，因此至少在停用6周后方可尝试妊娠[80]
+环磷酰胺
+中重度狼疮肾炎、神经精神狼疮和SLE伴免疫性血小板减少症等[73, 76, 81]
+中重度狼疮肾炎患者诱导期和维持期治疗均有效，是治疗SLE神经系统和血液系统受累的有效免疫抑制剂[76, 81]
+常见不良反应为胃肠道不适，如恶心、呕吐等，肝脏损害、骨髓抑制是主要的不良反应，长期大剂量使用会增加发生肿瘤的危险，具有明确的生殖毒性和致畸性，建议妊娠前1~3个月停用[73, 82,83]
+来氟米特
+增殖性狼疮肾炎[84,85]
+对一些增殖性狼疮肾炎有效，耐受性较好[85]
+来氟米特会引起肝脏损害、高血压、白细胞减少症、感染及一些并发症，由于有致畸作用，故建议孕前药物完全洗脱后方可尝试妊娠[86,87]
+甲氨蝶呤
+轻中度非肾脏受累的SLE患者[73]
+在改善SLE患者皮肤、关节炎症和整体情况方面具有较好的疗效[73, 88]
+最主要不良反应为胃肠道不适，如恶心、呕吐等，血液系统异常如贫血、白细胞减少与肝脏损害较常见，由于有致畸作用，故建议妊娠前1~3个月停用[87,88,89]
+他克莫司
+增殖性狼疮肾炎、难治性狼疮肾炎和SLE伴免疫性血小板减少症等[78, 90,91,92]
+狼疮肾炎的诱导期和维持期治疗均有效，能降低复发率[78]；可用于治疗难治性狼疮肾炎，尤其是以蛋白尿为突出表现者[90,91]；与其他免疫抑制剂或糖皮质激素比，引起严重感染的风险较低[93]
+常见不良反应为胃肠道不适，一些患者会出现肾脏、肝脏损害；肝功能受损者需减少他克莫司用量，用药期间应监测肾毒性、血糖和血压[94]
+环孢素
+狼疮肾炎和SLE伴免疫性血小板减少症[95,96,97]
+环孢素与其他免疫抑制剂联合可用于治疗标准治疗无效的狼疮肾炎，可缓解血液系统损害[95,96]
+主要不良反应为肾功能损害、血压升高与感染[96]
+硫唑嘌呤
+中度SLE患者[80]
+SLE的维持期治疗。孕期安全性较高，且严重感染发生率较低[80]
+主要不良反应为骨髓抑制与肝脏损害[80]，需检测硫嘌呤甲基转移酶活性
+注：SLE为系统性红斑狼疮
+临床问题7：如何使用生物制剂对SLE患者进行治疗
+推荐意见7：经激素和/或免疫抑制剂治疗效果不佳、不耐受或复发的SLE患者，可考虑使用生物制剂进行治疗（2B）
+对难治性（经常规治疗效果不佳）或复发性SLE患者，使用生物制剂能较为显著地增加患者的完全和部分缓解率，降低疾病活动度、疾病复发率及减少激素用量[98,99,100,101]。虽然有多种生物制剂已经尝试用于SLE的治疗且取得一定的临床疗效，但目前仅有贝利尤单抗获得美国食品药品监督管理局（FDA）和国家食品药品监督管理总局（CFDA）的批准用于治疗SLE。然而，贝利尤单抗在中国SLE患者中的有效性和安全性还有待进一步验证。不同类型的生物制剂的优势及重要不良反应见表4。
+点击查看表格
+表4
+治疗系统性红斑狼疮的生物制剂的优势及其重要不良反应
+表4
+治疗系统性红斑狼疮的生物制剂的优势及其重要不良反应
+生物制剂
+经FDA和CFDA批准
+优势
+重要不良反应
+贝利尤单抗
+是
+能改善患者的血清学指标，降低严重复发风险及减少激素用量。对目前常规治疗控制不佳的患者，可考虑使用
+常见不良反应为感染、头痛和恶心
+利妥昔单抗
+否
+对顽固性狼疮肾炎和血液系统受累的患者，可控制病情，减少激素用量[98, 101]
+常见不良反应包括感染、输液反应等[98]
+注：FDA为美国食品药品监督管理局；CFDA为国家食品药品监督管理总局
+临床问题8：SLE患者出现器官和系统受累时，应如何处理
+推荐意见8.1：Ⅰ型狼疮肾炎患者，建议根据肾外表现来选择治疗（2C）。Ⅱ型狼疮肾炎患者，建议使用激素和/或免疫抑制剂治疗（2C）
+推荐意见8.2：Ⅲ型、Ⅳ型和非单纯Ⅴ型（Ⅴ+Ⅲ或Ⅴ+Ⅳ型）狼疮肾炎患者，诱导缓解期建议使用激素联合环磷酰胺（1B）或霉酚酸酯（1B）治疗，维持期建议使用霉酚酸酯（1B）或硫唑嘌呤治疗（1B）
+推荐意见8.3：单纯Ⅴ型狼疮肾炎，有肾性蛋白尿者建议使用中等剂量激素联合霉酚酸酯（1B）或钙调蛋白酶抑制剂（2B）或硫唑嘌呤（2B）治疗，并建议使用血管紧张素转换酶抑制剂（ACEI）/血管紧张素Ⅱ受体阻滞剂（ARB）严格控制血压（2C）
+推荐意见8.4：建议通过临床表现、血液学与脑脊液检查以及神经影像学表现对神经精神狼疮进行诊断，并与抗磷脂综合征引起的神经症状进行鉴别（2C）
+推荐意见8.5：对重度神经精神狼疮患者，建议首先进行激素冲击（2B）治疗，效果不佳时可加用环磷酰胺（2B）
+推荐意见8.6：对出现血小板减少症或自身免疫性溶血性贫血的患者，建议使用激素（2D）或静脉注射免疫球蛋白（2D）治疗，效果不佳者可加用免疫抑制剂（2D）治疗；上述治疗均无效者，或出现危及生命的血液系统受累者，可考虑使用利妥昔单抗（2C）治疗肾活检指征和狼疮肾炎的病理学分类应按最新指南和标准执行，为后续相应治疗提供指导[102,103,104]。Ⅱ型狼疮肾炎患者有发生组织学类型转化的风险，可进展为Ⅲ型或Ⅳ型[105,106]，尤其是对起始治疗效果不佳者，建议使用激素和/或免疫抑制剂治疗。
+网状Meta分析显示，Ⅲ型/Ⅳ型/Ⅴ+Ⅲ型/Ⅴ+Ⅳ型狼疮肾炎患者进行诱导治疗时，口服霉酚酸酯相对于静脉注射环磷酰胺而言，其疾病完全缓解率类似（OR=1.44，95%CI 1.00~2.06），钙调蛋白酶抑制剂相对于静脉注射环磷酰胺而言，其疾病完全缓解率类似（OR=1.74，95%CI 1.09~2.79）；Ⅲ型/Ⅳ型/Ⅴ+Ⅲ型/Ⅴ+Ⅳ型狼疮肾炎患者进行维持治疗时，相对于硫唑嘌呤而言，霉酚酸酯的复发风险较小（OR=0.53，95%CI 0.31~0.90），而钙调蛋白酶抑制剂（OR=0.64，95%CI 0.22~1.88）与环磷酰胺（OR=1.68，95%CI 0.51~5.51）治疗的复发风险差异无统计学意义[76]。但另一项系统评价显示，维持治疗期间，口服霉酚酸酯相比硫唑嘌呤而言，其病死率、终末期肾病发生率、疾病复发率差异均无统计学意义[107]。
+网状Meta分析显示，Ⅴ型狼疮肾炎患者（大多数患者合并肾性蛋白尿）诱导缓解治疗时，相比于单用激素而言，激素联合霉酚酸酯和钙调蛋白酶抑制剂更有效，而硫唑嘌呤联合激素的效果与单用激素差异无统计学意义[77]。非肾性蛋白尿的单纯性Ⅴ型狼疮肾炎患者，预后良好，仅需采用ACEI/ARB进行血压控制即可，无需采用免疫抑制剂治疗[108]。
+目前尚无统一的神经精神狼疮的诊断标准，亦无特异的辅助确诊的实验室指标，主要以排他性临床诊断为主。弥漫性神经精神狼疮患者，脑脊液抗体和抗核糖体P抗体检测有助于诊断；局灶性神经精神狼疮患者，抗磷脂抗体或异常的头颅磁共振成像（MRI）影像学表现有助于诊断[109]。神经精神狼疮患者MRI异常（包括脑萎缩、T1和T2加权病变等）更为常见，并且与特定的神经精神狼疮表现相关，因此，MRI是诊断神经精神狼疮有效的影像学检查[110]。
+重度神经精神狼疮患者，大剂量甲泼尼龙冲击治疗联合静脉注射环磷酰胺可改善其精神症状，疗效优于单用甲泼尼龙冲击治疗，其总改善率分别为94.7%和46.2%。
+激素治疗SLE合并严重自身免疫性溶血性贫血的初始缓解率可达96%，治疗SLE相关免疫性血小板减少症的有效率可达80%，而静脉注射免疫球蛋白和激素联合免疫抑制剂治疗可改善SLE合并自身免疫性溶血性贫血患者的血液系统症状[111,112,113]。SLE合并重度难治性血小板减少症的患者，低剂量利妥昔单抗（每周静脉输注100 mg，共4次）治疗的缓解率达80%，可有效改善患者的结局，在出现危及生命的急性溶血性贫血时，利妥昔单抗是有效的治疗措施[114,115,116]。
+临床问题9：还有其他哪些措施可用于治疗SLE
+推荐意见9：对重度或难治性SLE患者，可考虑使用血浆置换或免疫吸附辅助治疗（2C）；难治性或合并感染的SLE患者，可考虑在原治疗基础上加用静脉注射免疫球蛋白（2D）
+2018年中国医师协会儿科医师分会血液净化专家委员会在22家医院开展的血液净化治疗儿童重症SLE的流行病学调查结果显示，血浆置换和DNA免疫吸附可改善重度SLE患儿的临床症状，好转率分别为87.3%和87.8%[117]。血浆置换和免疫吸附在重度或难治性SLE患者中可短期改善临床症状，但不能改善其最终结局，可作为辅助治疗措施[118,119]。
+难治性或合并感染的SLE患者静脉注射免疫球蛋白可能改善患者的临床结局，但证据质量极低[120,121]。
+雷公藤用于治疗SLE有一定疗效。然而，使用雷公藤治疗时，应警惕其生殖毒性[发生率17.9%（95%CI 14.1%~22.5%）][122,123]。
+临床问题10：如何预防和控制SLE患者的感染
+推荐意见10：感染是SLE患者死亡的首位病因，在SLE整个治疗期间，应及时评估可能的感染风险，通过多种途径识别、预防和控制感染（1B）
+我国SLE患者因感染导致死亡的比例呈逐年上升趋势，目前感染已成为我国SLE患者死亡的首位病因，超过50%[124]。不恰当使用激素（OR=3.05, 95%CI 1.15~8.07）和免疫抑制剂（OR=2.01, 95%CI 1.21~3.32）、SLEDAI高（OR=0.44, 95%CI 0.32~0.59）、受累器官数量多（OR=2.53, 95%CI 1.87~3.42）以及患者发病年龄轻（OR=2.09, 95%CI 1.50~2.91）等，是SLE患者合并感染的主要危险因素[93, 125]。血清超敏C反应蛋白在50 mg/L以上、降钙素原在0.5 μg/L以上、淋巴细胞计数≤1.0×109/L，均提示感染的风险增加（HR=4.7, 95%CI 1.6~13.7）[126,127,128]，应及时评估患者的临床表现，加强对感染的识别与预防。
+临床问题11：SLE围妊娠期患者如何进行管理
+推荐意见11：对SLE育龄期女性，若病情稳定至少6个月，无重要脏器损害，停用可能致畸的药物至足够安全的时间，可考虑妊娠（2B）；如果计划妊娠，备孕前应向风湿免疫科、妇产科医生进行生育咨询并进行相关评估（1B）；对妊娠的SLE患者，应密切监测SLE疾病活动度及胎儿生长发育情况（1C）；若无禁忌，推荐妊娠期全程服用羟氯喹（1B），如出现疾病活动，可考虑使用激素及硫唑嘌呤等控制病情（2C）
+为减少育龄期女性SLE患者的妊娠并发症，获得良好的妊娠结局，需在受孕前做好充分的准备，并在妊娠期间对疾病进行严密监控。器官功能严重受损和/或存在严重器官损害的SLE女性患者，应告知其妊娠相关风险[129,130]。活动性狼疮肾炎患者与非活动性狼疮肾炎患者比，妊娠期间病情恶化（OR=2.04，95%CI 1.21~3.45）、子痫前期或子痫（OR=2.62，95%CI 1.36~5.05）、胎儿丢失（OR=4.90，95%CI 1.54~15.59）、早产（OR=4.26，95%CI 2.19~8.31）等不良妊娠的发生率均明显升高[131]。妊娠前SLE缓解6个月以上，蛋白尿<0.5 g/d，无肾衰竭，免疫抑制剂停药>1年的患者，比妊娠前6个月处于疾病活动的患者，足月分娩率（76.47%比23.08%）和婴儿活产率（80.39%比30.77%）均明显升高，发生妊娠高血压（17.65%比23.08%）和子痫前期或子痫（9.80%比15.38%）的风险显著降低[132]。
+SLE患者孕前咨询对成功妊娠至关重要，有计划的妊娠相对于意外妊娠可显著降低妊娠期间疾病复发与发生不良妊娠结局的风险[133,134]。SLE本身会显著增加发生不良妊娠结局的风险[135]，因此妊娠前应严格控制病情，由多学科团队（至少包括风湿免疫科专家和妇产科医生）对患者进行孕前评估，严格把握妊娠适应证，在整个妊娠期间对患者的病情进行严格监控以实现改善孕产妇和胎儿预后的目标[136,137]。风湿免疫科专家和妇产科医师对SLE妊娠患者进行多学科管理的具体措施，可参见《中国系统性红斑狼疮患者围产期管理建议》[138]。
+密切监测妊娠期SLE患者的疾病活动度与胎儿生长发育情况对母体和胎儿的转归至关重要，妊娠前应对与发生妊娠期间并发症相关的危险因素进行筛查与检测，如抗磷脂抗体等，妊娠期间应对患者的病情活动性、胎盘功能与胎儿的生长发育情况进行严密监测[137,138,139,140,141]。
+羟氯喹可降低SLE孕妇的早产率、减少狼疮复发、减轻病情，同时降低发生胎儿不良结局的风险，持续的羟氯喹治疗可降低妊娠期间和产后SLE的复发，如无禁忌，建议在整个妊娠期间持续使用。对妊娠期疾病活动的患者，可考虑激素、羟氯喹与在妊娠期间可用的免疫抑制剂联合使用来控制病情[142,143,144]。SLE患者妊娠期间使用硫唑嘌呤不会造成胎儿致畸，同时可降低疾病复发的风险并改善胎儿结局[145]。羟氯喹、激素、硫唑嘌呤、环孢素A和他克莫司可用于预防或控制妊娠期间的SLE复发，但不应使用霉酚酸酯、环磷酰胺、来氟米特和甲氨蝶呤等[87]。
+临床问题12：如何选用非药物干预措施对SLE患者进行治疗
+推荐意见12：调整生活方式有助于SLE治疗。SLE患者应遵循下述原则：（1）避免接触常见的危险物质；（2）防晒；（3）适度运动；（4）注重心理支持；（5）戒烟；（6）补充维生素D（1C）
+皮肤是SLE最常受累的器官，亦是感受外界环境变化的主要器官之一，某些化妆品中含有可能诱发红斑狼疮、加重病情的物质[146,147]；此外，SLE患者应避免接触染发剂和纹眉剂等[148,149]。紫外线照射可诱发SLE，防晒（如防晒霜）可避免紫外线对SLE患者皮肤的刺激，减轻患者的皮肤炎症[150,151,152]，减少疾病复发。接受运动干预的患者，可降低抑郁（SMD=-0.40，95%CI -0.71~-0.09），减轻疲劳（MD=-0.52，95%CI -0.91~-0.13）[153,154]。心理干预可降低焦虑（SMD=-0.95，95%CI -1.57~-0.34）、精神压力（SMD=-0.63，95%CI-1.02~-0.23）和抑郁（SMD=-1.14，95%CI -1.84~-0.44）的发生，有助于控制疾病活动（SMD=-0.34，95%CI -0.57~-0.11）[155]。SLE吸烟者相对不吸烟者，其发病风险增加（OR=1.49，95%CI 1.06~2.08）、SLEDAI更高（15.6±7.8比9.0±5.8）[156,157]。骨质疏松是SLE患者主要的共存疾病。SLE患者的血清维生素D水平明显低于健康人群，补充维生素D可减轻SLE患者的炎症和疾病活动度[158,159]。
+SLE诊疗路径图见图1。
+点击查看大图
+图1
+系统性红斑狼疮（SLE）诊疗路径图
+图1
+系统性红斑狼疮（SLE）诊疗路径图
+首席专家：曾小峰
+首席方法学家：陈耀龙
+2020中国系统性红斑狼疮诊疗指南工作组名单（按姓氏汉语拼音排序）：陈进伟（中南大学湘雅二医院风湿免疫科）；陈耀龙（兰州大学循证医学中心/GRADE中国中心）；段新旺（南昌大学第二附属医院风湿免疫科）；何岚（西安交通大学第一附属医院风湿免疫科）；黄慈波（北京医院风湿免疫科）；晋红中（中国医学科学院北京协和医学院北京协和医院皮肤科）；雷军强（兰州大学第一医院放射科）；李彩凤（首都医科大学附属北京儿童医院风湿免疫科）；李梦涛（中国医学科学院北京协和医学院北京协和医院风湿免疫科）；李小峰（山西医科大学第二医院风湿免疫科）；厉小梅（安徽省立医院风湿免疫科）；李小霞（首都医科大学宣武医院风湿免疫科）；林进（浙江大学医学院附属第一医院风湿免疫科）；刘冬舟（深圳市人民医院风湿免疫科）；刘升云（郑州大学第一附属医院风湿免疫科）；刘毅（四川大学华西医院风湿免疫科）；吕良敬（上海交通大学医学院附属仁济医院风湿免疫科）；宋亦军（中国医学科学院北京协和医学院北京协和医院妇产科）；苏茵（北京大学人民医院风湿免疫科）；孙凌云（南京大学医学院附属鼓楼医院风湿免疫科）；田新平（中国医学科学院北京协和医学院北京协和医院风湿免疫科）；王迁（中国医学科学院北京协和医学院北京协和医院风湿免疫科）；吴振彪（空军军医大学西京医院风湿免疫科）；武丽君（新疆维吾尔自治区人民医院风湿免疫科）；肖卫国（中国医科大学附属第一医院风湿免疫科）；徐健（昆明医科大学第一附属医院风湿免疫科）；杨程德（上海交通大学医学院附属瑞金医院风湿免疫科）；杨敏（南方医科大学南方医院风湿免疫科）；曾小峰（中国医学科学院北京协和医学院北京协和医院风湿免疫科）；詹锋（海南省人民医院风湿免疫科）；张缪佳（江苏省人民医院风湿免疫科）；张文（中国医学科学院北京协和医学院北京协和医院风湿免疫科）；张志毅（哈尔滨医科大学附属第一医院风湿免疫科）；张卓莉（北京大学第一医院风湿免疫科）；赵铖（广西医科大学第一附属医院风湿免疫科）；赵东宝（海军军医大学第一附属医院风湿免疫科）；赵久良（中国医学科学院北京协和医学院北京协和医院风湿免疫科）；赵岩（中国医学科学院北京协和医学院北京协和医院风湿免疫科）郑毅（首都医科大学附属北京朝阳医院风湿免疫科）；左晓霞（中南大学湘雅医院风湿免疫科）
+证据评价小组名单：周奇（兰州大学第一临床医学院兰州大学循证医学中心）；王子君（兰州大学基础医学院兰州大学循证医学中心）；史乾灵（兰州大学第一临床医学院兰州大学循证医学中心）；王健健（兰州大学公共卫生学院兰州大学循证医学中心）；马艳芳（兰州大学循证医学中心）；罗旭飞（兰州大学公共卫生学院兰州大学循证医学中心）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+DurcanL, O′DwyerT, PetriM.
+Management strategies and future directions for systemic lupus erythematosus in adults[J].
+Lancet,
+2019,
+393(
+10188):
+2332-
+2343.
+DOI: 10.1016/S0140-6736(19)30237-5.
+[2]
+FavaA, PetriM.
+Systemic lupus erythematosus: diagnosis and clinical management[J].
+J Autoimmun,
+2019,
+96:
+1-
+13.
+DOI: 10.1016/j.jaut.2018.11.001.
+[3]
+LisnevskaiaL, MurphyG, IsenbergD.
+Systemic lupus erythematosus[J].
+Lancet,
+2014,
+384(
+9957):
+1878-
+1888.
+DOI: 10.1016/S0140-6736(14)60128-8.
+[4]
+ReesF, DohertyM, GraingeMJ, et al.
+The worldwide incidence and prevalence of systemic lupus erythematosus: a systematic review of epidemiological studies[J].
+Rheumatology,
+2017,
+56(
+11):
+1945-
+1961.
+DOI: 10.1093/rheumatology/kex260.
+[5]
+ZengQY, ChenR, DarmawanJ, et al.
+Rheumatic diseases in China[J].
+Arthritis Res Ther,
+2008,
+10:
+R17-
+R27.
+DOI: 10.1186/ar2368.
+[6]
+LiM, ZhangW, LengX, et al.
+Chinese SLE Treatment and Research Croup (CSTAR) registry: Ⅰ. major clinical characteristics of Chinese patients with systemic lupus erythematosus[J].
+Lupus,
+2013,
+22(
+11):
+1192-
+1199.
+DOI: 10.1177/0961203313499086.
+[7]
+ZhangS, SuJ, LiX, et al.
+Chinese SLE Treatment and Research Group (CSTAR) registry: Ⅴ. gender impact on Chinese patients with systemic lupus erythematosus[J].
+Lupus,
+2015,
+24(
+12):
+1-
+9.
+DOI: 10.1177/0961203315585813.
+[8]
+WangZ, LiM, ZhaoJ, et al.
+220 Clinical characteristics and remission of patients with systemic lupus erythematosus in china: results from SLE Treatment and Research Group (CSTAR) registry with a real-time collecting system[J].
+Lupus Sci Med,
+2019,
+6(
+Suppl 1):
+A164.
+DOI: 10.1136/lupus-2019-lsm.220.
+[9]
+MerrellM, ShulmanLE.
+Determination of prognosis in chronic disease, illustrated by systemic lupus erythematosus[J].
+J Chronic Dis,
+1955,
+1(
+1):
+1-
+32.
+DOI: 10.1016/0021-9681(55)90018-7.
+[10]
+BorchersAT, KeenCL, ShoenfeldY, et al.
+Surviving the butterfly and the wolf: mortality trends in systemic lupus erythematosus[J].
+Autoimmun Rev,
+2004,
+3(
+6):
+423-
+453.
+DOI: 10.1016/j.autrev.2004.04.002.
+[11]
+TektonidouMG, LewandowskiLB, HuJ, et al.
+Survival in adults and children with systemic lupus erythematosus: a systematic review and Bayesian meta-analysis of studies from 1950 to 2016[J].
+Ann Rheum Dis,
+2017,
+76(
+12):
+2009-
+2016.
+DOI: 10.1136/annrheumdis-2017-211663.
+[12]
+FanouriakisA, KostopoulouM, AlunnoA, et al.
+2019 update of the EULAR recommendations for the management of systemic lupus erythematosus[J].
+Ann Rheum Dis,
+2019,
+78(
+6):
+736-
+745.
+DOI: 10.1136/annrheumdis-2019-215089.
+[13]
+GordonC, Amissah-ArthurMB, GayedM, et al.
+The British Society for Rheumatology guideline for the management of systemic lupus erythematosus in adults[J].
+Rheumatology (Oxford),
+2017,
+57(
+1):
+e1-
+e45.
+DOI: 10.1093/rheumatology/kex286.
+[14]
+Pons-EstelBA, BonfaE, SorianoER.
+First Latin American clinical practice guidelines for the treatment of systemic lupus erythematosus: Latin American Group for the Study of Lupus (GLADEL)-Pan-American League of Associations of Rheumatology (PANLAR)[J].
+Ann Rheum Dis,
+2018,
+77:
+1549-
+1557.
+DOI: 10.1136/rmdopen-2018-000793.
+[15]
+中华医学会风湿病学分会.
+系统性红斑狼疮诊断及治疗指南[J].
+中华风湿病学杂志,
+2010,
+14(
+5):
+342-
+346.
+DOI: 10.3760/cma.j.issn.1007-7480.2010.05.016.
+[16]
+WuC, LiC, WuQ, et al.
+Chinese Systemic Lupus Erythematosus Treatment and Research Group registry Ⅸ: Clinical Features and Survival of Childhood-Onset Systemic Lupus Erythematosus in China[J].
+Chin Med J,
+2017,
+130(
+11):
+1276-
+1282.
+DOI: 10.4103/0366-6999.206346.
+[17]
+王紫倩.
+中国系统性红斑狼疮患者的长期预后——基于CSTAR队列的研究[D].
+北京：
+北京协和医学院,
+2016.
+[18]
+World Health Organization.
+WHO handbook for guideline development[M].
+2nd ed.
+Vienna:
+World Health Organization,
+2014.
+[19]
+蒋朱明，詹思延，贾晓巍,等.
+制订/修订《临床诊疗指南》的基本方法及程序[J].
+中华医学杂志,
+2016,
+96(
+4):
+250-
+253.
+DOI: 10.3760/cma.j.issn.0376-2491.2016.04.004.
+[20]
+BrouwersMC, KhoME, BrowmanGP, et al.
+AGREE Ⅱ: advancing guideline development, reporting and evaluation in health care[J].
+CMAJ,
+2010,
+182(
+18):
+E839-
+E842.
+DOI: 10.1503/cmaj.090449.
+[21]
+ChenY, YangK, MarušicA, et al.
+A reporting tool for practice guidelines in health care: the RIGHT statement[J].
+Ann Intern Med,
+2017,
+166(
+2):
+128-
+132.
+DOI: 10.1016/j.zefq.2017.10.008.
+[22]
+陈耀龙，王小琴，王琪,等.
+遵循指南报告规范提升指南报告质量[J].
+中华内科杂志,
+2018,
+57(
+3):
+168-
+170.
+DOI: 10.3760/cma.j.issn.0578-1426.2018.03.003.
+[23]
+SheaBJ, GrimshawJM, WellsGA, et al.
+Development of AMSTAR: a measurement tool to assess the methodological quality of systematic reviews[J].
+BMC Med Res Methodol,
+2007,
+7(
+2):
+1-
+7.
+DOI: 10.1186/1471-2288-7-10.
+[24]
+HigginsJP, AltmanDG, GøtzschePC, et al.
+The cochrane collaboration′s tool for assessing risk of bias in randomised trials[J].
+BMJ,
+2011,
+343:
+d5928.
+DOI: 10.1136/bmj.d5928.
+[25]
+WhitingPF, RutjesAW, WestwoodME, et al.
+QUADAS-2: a revised tool for the quality assessment of diagnostic accuracy studies[J].
+Ann Intern Med,
+2011,
+155(
+8):
+529-
+536.
+DOI: 10.7326/0003-4819-155-8-201110180-00009.
+[26]
+WellsGA, SheaBJ, O′ConnellD, et al.
+The newcastle-Ottawa scale (NOS) for assessing the quality of nonrandomized studies in meta-analyses[S/OL].[
+2020-01-19]
+http://www.ohri.ca/programs/clinical_epidemiology/nosgen.pdf.
+[27]
+GuyattG, OxmanAD, AklEA, et al.
+GRADE guidelines:1. introduction-GRADE evidence profiles and summary of findings tables[J].
+J Clin Epidemiol,
+2011,
+64(
+4):
+383-
+394.
+DOI: 10.1016/j.jclinepi.2010.04.026.
+[28]
+陈耀龙，姚亮，Norris S,等.
+GRADE在系统评价中应用的必要性及注意事项[J].
+中国循证医学杂志,
+2013,
+13(
+12):
+1401-
+1404.
+DOI: 10.7507/1672-2531.20130240.
+[29]
+姚亮，陈耀龙，杜亮,等.
+GRADE在诊断准确性试验系统评价中应用的实例解析[J].
+中国循证医学杂志,
+2014,
+14(
+11):
+1407-
+1412.
+DOI: 10.7507/1672-2531.20140226.
+[30]
+陈耀龙，姚亮，杜亮,等.
+GRADE在诊断准确性试验系统评价中应用的原理、方法、挑战及发展趋势[J].
+中国循证医学杂志,
+2014,
+14(
+11):
+1402-
+1406.
+DOI: 10.7507/1672-2531.20140225.
+[31]
+杨楠，肖淑君，周奇,等.
+GRADE在网状Meta分析中应用的基本原理和方法介绍[J].
+中国循证医学杂志,
+2016,
+16(
+5):
+598-
+603.
+DOI: 10.7507/1672-2531.20160092.
+[32]
+VernooijRW, Alonso-CoelloP, BrouwersM, et al.
+Reporting items for updated clinical guidelines: checklist for the reporting of updated guidelines (CheckUp)[J].
+PLoS Med,
+2017,
+14(
+1):
+e1002207.
+DOI: 10.1371/journal.pmed.1002207.
+[33]
+AringerM, CostenbaderK, DaikhD, et al.
+2019 European League Against Rheumatism/American College of Rheumatology classification criteria for systemic lupus erythematosus[J].
+Ann Rheum Dis,
+2019,
+78(
+9):
+1151-
+1159.
+DOI: 10.1136/annrheumdis-2018-214819.
+[34]
+DahlströmÖ, SjöwallC.
+The diagnostic accuracies of the 2012 SLICC criteria and the proposed EULAR/ACR criteria for systemic lupus erythematosus classification are comparable[J].
+Lupus,
+2019,
+28(
+6):
+778-
+782.
+DOI: 10.1177/0961203319846388.
+[35]
+郑艺青.
+系统性红斑狼疮ACR分类标准对照研究[D].
+福州：
+福建医科大学,
+2013.
+[36]
+郭雨凡，陈志伟.
+对2009年ACR-SLE分类诊断标准的初步验证[J].
+苏州大学学报(医学版),
+2012,(
+2):
+123-
+124.
+DOI:CNKI:SUN:SYXU.0.2012-02-031.
+[37]
+McDougallJA, HelmickCG, LimSS, et al.
+Differences in the diagnosis and management of systemic lupus erythematosus by primary care and specialist providers in the American Indian/Alaska Native population[J].
+Lupus,
+2018,
+27(
+7):
+1169-
+1176.
+DOI: 10.1177/0961203318763529.
+[38]
+KeelingSO, VandermeerB, MedinaJ, et al.
+Measuring disease activity and damage with validated metrics: a systematic review on mortality and damage in systemic lupus erythematosus[J].
+J Rheumatol,
+2018,
+45(
+10):
+1448-
+1461.
+DOI: 10.3899/jrheum.171310.
+[39]
+Van VollenhovenRF, MoscaM, BertsiasG, et al.
+Treat-to-target in systemic lupus erythematosus: recommendations from an international task force[J].
+Ann Rheum Dis,
+2014,
+73(
+6):
+958-
+967.
+DOI: 10.1136/annrheumdis-2013-205139.
+[40]
+NossentJ, KissE, RozmanB, et al.
+Disease activity and damage accrual during the early disease course in a multinational inception cohort of patients with systemic lupus erythematosus[J].
+Lupus,
+2010,
+19(
+8):
+949-
+956.
+DOI: 10.1177/0961203310366572.
+[41]
+Ugarte-GilMF, WojdylaD, Pons-EstelGJ, et al.
+Remission and Low Disease Activity Status (LDAS) protect lupus patients from damage occurrence: data from a multiethnic, multinational Latin American Lupus Cohort (GLADEL)[J].
+Ann Rheum Dis,
+2017,
+76(
+12):
+2071-
+2074.
+DOI: 10.1136/annrheumdis-2017-211814.
+[42]
+MikdashiJ, NivedO.
+Measuring disease activity in adults with systemic lupus erythematosus: the challenges of administrative burden and responsiveness to patient concerns in clinical research[J].
+Arthritis Res Ther,
+2015,
+17(
+1):
+183.
+DOI: 10.1186/s13075-015-0702-6.
+[43]
+BombardierC, GladmanDD, UrowitzMB, et al.
+Derivation of the SLEDAI. A disease activity index for lupus patients. The Committee on Prognosis Studies in SLE[J].
+Arthritis Rheum,
+1992,
+35(
+6):
+630-
+640.
+DOI: 10.1002/art.1780350606.
+[44]
+PetriM, BuyonJ, SkovronM, et al.
+Reliability of SELENA SLEDAI and flare as clinical trial outcome measures[J].
+Arthritis Rheum,
+1998,
+41(
+9):
+S218.
+[45]
+GladmanDD, IbanezD, UrowitzMB.
+Systemic lupus erythematosus disease activity index 2000[J].
+J Rheumatol,
+2002,
+29(
+2):
+288-
+291.
+DOI: 10.1097/00124743-200202000-00018.
+[46]
+SymmonsDP, CoppockJS, BaconPA, et al.
+Development and assessment of a computerized index of clinical disease activity in systemic lupus erythematosus. Members of the British Isles Lupus Assessment Group (BILAG)[J].
+Q J Med,
+1988,
+69(
+259):
+927-
+937.
+[47]
+IsenbergDA, RahmanA, AllenE, et al.
+BILAG 2004. Development and initial validation of an updated version of the British Isles Lupus Assessment Group′s disease activity index for patients with systemic lupus erythematosus[J].
+Rheumatology (Oxford),
+2005,
+44(
+7):
+902-
+906.
+DOI: 10.1093/rheumatology/keh624.
+[48]
+LiangMH, SocherSA, LarsonMG, et al.
+Reliability and validity of six systems for the clinical assessment of disease activity in systemic lupus erythematosus[J].
+Arthritis Rheum,
+1989,
+32(
+9):
+1107-
+1118.
+DOI: 10.1002/anr.1780320909.
+[49]
+BaeSC, KohHK, ChangDK, et al.
+Reliability and validity of systemic lupus activity measure-revised (SLAM-R) for measuring clinical disease activity in systemic lupus erythematosus[J].
+Lupus,
+2001,
+10(
+6):
+405-
+409.
+DOI: 10.1191/096120301678646146.
+[50]
+KeelingSO, AlabdurubalnabiZ, Avina-ZubietaA, et al.
+Canadian Rheumatology Association Recommendations for the assessment and monitoring of systemic lupus erythematosus[J].
+J Rheumatol,
+2018,
+45(
+10):
+1426-
+1439.
+DOI: 10.3899/jrheum.171459.
+[51]
+AméricaGU, LuisMV, GeraldMG, et al.
+The systemic lupus activity measure-revised, the mexican systemic lupus erythematosus disease activity index (SLEDAI), and a modified SLEDAI-2K are adequate instruments to measure disease activity in systemic lupus erythematosus[J].
+J Rheumatol,
+2004,
+31(
+10):
+1934-
+1940.
+DOI:10.1097/01.rhu.0000141832.32720.a4.
+[52]
+CookRJ, GladmanDD, PericakD, et al.
+Prediction of short term mortality in systemic lupus erythematosus with time dependent measures of disease activity[J].
+J Rheumatol,
+2000,
+27(
+8):
+1892-
+1895.
+DOI: 10.1097/00124743-200008000-00013.
+[53]
+Guideline development group of the clinical practice guideline on systemic lupus erythematosus.
+Clinical practice guideline on systemic lupus erythematosus[M].
+Madrid(Spain):
+Ministry of Health, Social Services and Equality,
+2015:
+1-
+434.
+[54]
+DafnaG, EllenG, CharlesG, et al.
+The development and initial validation of the Systemic Lupus International Collaborating Clinics/American College of Rheumatology damage index for systemic lupus erythematosus[J].
+Arthritis Rheum,
+1996,
+39(
+3):
+363-
+369.
+DOI: 10.1002/art.1780390303.
+[55]
+中华医学会风湿病学分会.
+2016中国痛风诊疗指南[J].
+中华内科杂志,
+2016,
+55(
+11):
+892-
+899.
+DOI:10.3760/cma.j.issn.0578-1426.2016.11.019.
+[56]
+中国系统性红斑狼疮研究协作组专家组.
+糖皮质激素在系统性红斑狼疮患者合理应用的专家共识[J].
+中华内科杂志,
+2014,
+53(
+6):
+502-
+504.
+DOI: 10.3760/cma.j.issn.0578-1426.2014.06.023.
+[57]
+Trujillo-MartínMM, de LarrinoaIRFF, Ruíz-IrastorzaG, et al.
+Clinical practice guidelines for systemic lupus erythematosus: recommendations for general clinical management[J].
+Med Clin (Barc),
+2016,
+146(
+9):
+413. e1-14.
+DOI: 10.1016/j.medcli.2016.01.013.
+[58]
+铁宁.
+糖皮质激素冲击治疗对女性系统性红斑狼疮患者代谢及免疫功能的影响分析[J].
+中国医学前沿杂志(电子版),
+2017,
+9(
+10):
+149-
+152.
+DOI: 10.12037/YXQY.2017.10-32.
+[59]
+宁光.
+糖皮质激素临床应用基本原则[J].
+中国实用内科杂志,
+2013,
+33(
+10):
+756-
+759.
+[60]
+SarnesE, CroffordL, WatsonM, et al.
+Incidence and US costs of corticosteroid-associated adverse events: a systematic literature review[J].
+Clin Ther,
+2011,
+33(
+10):
+1413-
+32.
+DOI: 10.1016/j.clinthera.2011.09.009.
+[61]
+Ruiz-ArruzaI, UgarteA, Cabezas-RodriguezI, et al.
+Glucocorticoids and irreversible damage in patients with systemic lupus erythematosus[J].
+Rheumatology (Oxford),
+2014,
+53(
+8):
+1470-
+1476.
+DOI: 10.1093/rheumatology/keu148.
+[62]
+WeiL, MacDonaldTM, WalkerBR.
+Taking glucocorticoids by prescription is associated with subsequent cardiovascular disease[J].
+Ann Intern Med,
+2004,
+141(
+10):
+764-
+770.
+DOI: 10.7326/0003-4819-141-10-200411160-00007.
+[63]
+中华医学会麻醉学分会.
+肾上腺糖皮质激素围手术期应用专家共识(2017版)[J].
+临床麻醉学杂志,
+2017,
+33(
+7):
+712-
+716.
+[64]
+Ruiz-IrastorzaG, Ramos-CasalsM, Brito-ZeronP, et al.
+Clinical efficacy and side effects of antimalarials in systemic lupus erythematosus: a systematic review[J].
+Ann Rheum Dis,
+2010,
+69(
+1):
+20-
+28.
+DOI: 10.1136/ard.2008.101766.
+[65]
+FanW, WeiZ, ShiyingW, et al.
+Protective effects of antimalarials in Chinese patients with systemic lupus erythematosus[J].
+Ann Rheum Dis,
+2018,
+78:
+e80.
+DOI: 10.1136/annrheumdis-2018-213819.
+[66]
+SankhyanP, BoonphengB, CookC.
+Hydroxychloroquine and the risk of thrombotic events in systemic lupus erythematosus patients: a systematic review and meta-analysis [J].
+Arthritis Rheumatol,
+2018,
+70 (
+Suppl 10):
+2668.
+[67]
+BabaryH, LiuX, AyatollahiY, et al.
+Favorable effects of hydroxychloroquine on serum low density lipid in patients with systemic lupus erythematosus: a systematic review and meta-analysis[J].
+Int J Rheum Dis,
+2017,
+21(
+1):
+84-
+92.
+DOI: 10.1111/1756-185X.13159.
+[68]
+MellesRB, MarmorMF.
+The risk of toxic retinopathy in patients on long-term hydroxychloroquine therapy[J].
+JAMA Ophthalmol,
+2014,
+132(
+12):
+1453.
+DOI: 10.1001/jamaophthalmol.2014.3459.
+[69]
+MukwikwiER, PineauCA, VinetE, et al.
+Retinal complications in systemic lupus erythematosus patients treated with antimalarial drugs[J].
+J Rheumatol,
+2019.
+DOI: 10.3899/jrheum.181102.
+[70]
+黄鑫涛，林惠娥，郑茹萍,等.
+羟氯喹致眼毒性的文献分析[J].
+药物流行病学杂志,
+2019,
+28(
+1):
+61-
+65.
+DOI: CNKI:SUN:YWLX.0.2019-01-015.
+[71]
+MarmorMF, KellnerU, LaiTY, et al.
+Recommendations on screening for chloroquine and hydroxychloroquine retinopathy (2016 revision)[J].
+Ophthalmology,
+2016,
+123(
+6):
+1386-
+1394.
+DOI: 10.1016/j.ophtha.2016.01.058.
+[72]
+The Royal College of Ophthalmologists(RCOphth).
+Hydroxychloroquine and chloroquine retinopathy: recommendations on screening[M].
+London:
+The Royal College of Ophthalmologists,
+2018.
+[73]
+Pego-ReigosaJM, Cobo-IbáñezT, Calvo-AlénJ, et al.
+Efficacy and safety of nonbiologic immunosuppressants in the treatment of nonrenal systemic lupus erythematosus: a systematic review[J].
+Arthritis Care Res,
+2013,
+65(
+11):
+1775-
+1785.
+DOI: 10.1002/acr.22035.
+[74]
+ChoiCB, WonS, BaeSC.
+Outcomes of multitarget therapy using mycophenolate mofetil and tacrolimus for refractory or relapsing lupus nephritis[J].
+Lupus,
+2018,
+27(
+6):
+1007-
+1011.
+DOI: 10.1177/0961203318758505.
+[75]
+TseliosK, GladmanDD, SuJ, et al.
+Mycophenolate mofetil in nonrenal manifestations of systemic lupus erythematosus: an observational cohort study[J].
+J Rheumatol,
+2016,
+43(
+3):
+552.
+DOI: 10.3899/jrheum.150779.
+[76]
+PalmerSC, TunnicliffeDJ, Singh-GrewalD, et al.
+Induction and maintenance immunosuppression treatment of proliferative lupus nephritis: a network meta-analysis of randomized trials[J].
+Am J Kidney Dis,
+2017,
+70(
+3):
+324-
+336.
+DOI: 10.1053/j.ajkd.2016.12.008.
+[77]
+TangKT, TsengCH, HsiehTY, et al.
+Induction therapy for membranous lupus nephritis a systematic review and network meta-analysis.[J].
+Int J Rheum Dis,
+2018,
+21(
+6):
+1163-
+1172.
+DOI: 10.1111/1756-185X.13321.
+[78]
+LeeYH, SongGG.
+Comparative efficacy and safety of tacrolimus, mycophenolate mofetil, azathioprine, and cyclophosphamide as maintenance therapy for lupus nephritis: a Bayesian network meta-analysis of randomized controlled trials[J].
+Z Rheumatol,
+2016,
+76(
+10):
+904-
+912.
+DOI: 10.1007/s00393-016-0186-z.
+[79]
+MokCC.
+Mycophenolate mofetil for non-renal manifestations of systemic lupus erythematosus: a systematic review[J].
+Scand J Rheumatol,
+2007,
+36(
+5):
+329-
+337.
+DOI: 10.1080/03009740701607042.
+[80]
+Ordi-RosJ, Sáez-CometL, Pérez-ConesaM, et al.
+Enteric-coated mycophenolate sodium versus azathioprine in patients with active systemic lupus erythematosus: a randomised clinical trial[J].
+Ann Rheum Dis,
+2017,
+76(
+9):
+1575-
+1582.
+DOI: 10.1136/annrheumdis-2016-210882.
+[81]
+Fernandes Moça TrevisaniV, CastroAA, Ferreira Neves NetoJ, et al.
+Cyclophosphamide versus methylprednisolone for treating neuropsychiatric involvement in systemic lupus erythematosus[J].
+Cochrane Database Syst Rev,
+2013, (
+2):
+CD002265.
+DOI: 10.1002/14651858.CD002265.pub3.
+[82]
+BlumenfeldZ, MischariO, SchultzN, et al.
+Gonadotropin releasing hormone agonists may minimize cyclophosphamide associated gonadotoxicity in SLE and autoimmune diseases[J].
+Semin Arthritis Rheum,
+2011,
+41:
+346-
+352.
+DOI: 10.1016/j.semarthrit.2011.05.008.
+[83]
+MarderW, McCuneWJ, WangL, et al.
+Adjunctive GnRH-a treatment attenuates depletion of ovarian reserve associated with cyclophosphamide therapy in premenopausal SLE patients[J].
+Gynecol Endocrinol,
+2012,
+28:
+624-
+627.
+DOI: 10.3109/09513590.2011.650752.
+[84]
+HengC, YuefengR, LinL, et al.
+The efficacy and safety of leflunomide for the treatment of lupus nephritis in chinese patients: systematic review and meta-analysis[J].
+PLos One,
+2015,
+10(
+12):
+e0144548.
+DOI: 10.1371/journal.pone.0144548.
+[85]
+ZhangM, QiC, ZhaY, et al.
+Leflunomide versus cyclophosphamide in the induction treatment of proliferative lupus nephritis in Chinese patients: a randomized trial[J].
+Clin Rheumatol,
+2019,
+38(
+3):
+859-
+867.
+DOI: 10.1007/s10067-018-4348-z.
+[86]
+WuGC, XuXD, HuangQ, et al.
+Leflunomide: friend or foe for systemic lupus erythematosus? [J].
+Rheumatol Int,
+2013,
+33(
+2):
+273-
+276.
+DOI: 10.1007/s00296-012-2508-z.
+[87]
+AndreoliL, BertsiasGK, Agmon-LevinN, et al.
+EULAR recommendations for women′s health and the management of family planning, assisted reproduction, pregnancy and menopause in patients with systemic lupus erythematosus and/or antiphospholipid syndrome[J].
+Ann Rheum Dis,
+2016,
+76(
+3):
+476-
+485.
+DOI: 10.1136/annrheumdis-2016-209770.
+[88]
+SakthiswaryR, SureshE.
+Methotrexate in systemic lupus erythematosus: a systematic review of its efficacy[J].
+Lupus,
+2014,
+23(
+3):
+225-
+235.
+DOI: 10.1177/0961203313519159.
+[89]
+FaughtLN, GreffMJ, RiederMJ, et al.
+Drug-induced acute kidney injury in children[J].
+Br J Clin Pharmacol,
+2015,
+80(
+4):
+901-
+909.
+DOI: 10.1111/bcp.12554.
+[90]
+YapDY, MaMK, MokMM, et al.
+Long-term data on tacrolimus treatment in lupus nephritis [J].
+Rheumatology (Oxford),
+2014,
+53(
+12):
+2232-
+2237.
+DOI: 10.1093/rheumatology/keu265.
+[91]
+MokCC, ToCH, YuKL, et al.
+Combined low-dose mycophenolate mofetil and tacrolimus for lupus nephritis with suboptimal response to standard therapy: a 12-month prospective study[J].
+Lupus,
+2013,
+22(
+11):
+1135-
+1141.
+DOI: 10.1177/0961203313502864.
+[92]
+LiY, FengX.
+Efficacy and safety of tacrolimus in systemic lupus erythematosus patients with refractory thrombocytopenia: a retrospective study[J].
+Lupus,
+2018,
+27(
+1):
+60-
+65.
+DOI: 10.1177/0961203317711011.
+[93]
+SinghJA, HossainA, KotbA, et al.
+Risk of serious infections with immunosuppressive drugs and glucocorticoids for lupus nephritis: a systematic review and network meta-analysis[J].
+BMC Med,
+2016,
+14(
+1):
+137.
+DOI: 10.1186/s12916-016-0673-8.
+[94]
+ChenW, TangX, LiuQ, et al.
+Short-term outcomes of induction therapy with tacrolimus versus cyclophosphamide for active lupus nephritis: a multicenter randomized clinical trial[J].
+Am J Kidney Dis,
+2011,
+57(
+2):
+235-
+244.
+DOI: 10.1053/j.ajkd.2010.08.036.
+[95]
+JesusD, RodriguesM, Da SilvaJAP, et al.
+Multitarget therapy of mycophenolate mofetil and cyclosporine A for induction treatment of refractory lupus nephritis[J].
+Lupus,
+2018,
+27(
+8):
+1358-
+1362.
+DOI: 10.1177/0961203318758508.
+[96]
+YangTH, WuTH, ChangYL, et al.
+Cyclosporine for the treatment of lupus nephritis in patients with systemic lupus erythematosus[J].
+Clin Nephrol,
+2018,
+89(
+4):
+277-
+285.
+DOI: 10.5414/CN109325.
+[97]
+Moroni,G.
+A randomized pilot trial comparing cyclosporine and azathioprine for maintenance therapy in diffuse lupus nephritis over four years[J].
+Clin J Am Soc Nephrol,
+2006,
+1(
+5):
+925-
+932.
+DOI: 10.2215/CJN.02271205.
+[98]
+PeterknechtE, KeaseyMP, BeresfordMW.
+The effectiveness and safety of biological therapeutics in juvenile-onset systemic lupus erythematosus (JSLE): a systematic review[J].
+Lupus,
+2018,
+27(
+13):
+2135-
+2145.
+DOI: 10.1177/0961203318804879.
+[99]
+WeiL, LiangY, ZhaoY, et al.
+Efficacy and safety of belimumab plus standard therapy in patients with systemic lupus erythematosus: a meta-analysis[J].
+Clin Ther,
+2016,
+38(
+5):
+1134-
+1140.
+DOI: 10.1016/j.clinthera.2016.02.022.
+[100]
+LeeYH, SongGG.
+Comparative efficacy and safety of intravenous or subcutaneous belimumab in combination with standard therapy in patients with active systemic lupus erythematosus: a Bayesian network meta-analysis of randomized controlled trials[J].
+Lupus,
+2018,
+27(
+1):
+112-
+119.
+DOI: 10.1177/0961203317713143.
+[101]
+AlshaikiF, ObaidE, AlmuallimA, et al.
+Outcomes of rituximab therapy in refractory lupus: A meta-analysis[J].
+Eur J Rheumatol,
+2018,
+5(
+2):
+118-
+126.
+DOI: 10.5152/eurjrheum.2018.17096.
+[102]
+中国狼疮肾炎诊断和治疗指南编写组.
+中国狼疮肾炎诊断和治疗指南[J].
+中华医学杂志,
+2019,
+99(
+11):
+3441-
+3455.
+DOI: 10.3760/cma.j.issn.0376-2491.2019.44.001.
+[103]
+WeeningJJ, D'AgatiVD, SchwartzMM, et al.
+The classification of glomerulonephritis in systemic lupus erythematosus revisited[J].
+Kidney Int,
+2004,
+65(
+2):
+521-
+530.
+DOI: 10.1111/j.1523-1755.2004.00443.x.
+[104]
+BajemaIM, WilhelmusS, AlpersCE, et al.
+Revision of the International Society of Nephrology/Renal Pathology Society classification for lupus nephritis: clarification of definitions, and modified National Institutes of Health activity and chronicity indices[J].
+Kidney Int,
+2018,
+93(
+4):
+789-
+796.
+DOI: 10.1016/j.kint.2017.11.023.
+[105]
+ColladoMV, DoradoE, RauschS, et al.
+Long-term outcome of lupus nephritis class ii in argentine patients. an open retrospective analysis[J].
+J Clin Rheumatol,
+2016,
+22(
+6):
+299-
+306.
+DOI: 10.1097/RHU.0000000000000395.
+[106]
+LeeSG, ChoYM, SoMW, et al.
+ISN/RPS 2003 class Ⅱ mesangial proliferative lupus nephritis: a comparison between cases that progressed to class Ⅲ or IV and cases that did not[J].
+Rheumatol Int,
+2012,
+32(
+8):
+2459-
+2464.
+DOI: 10.1007/s00296-011-1986-8.
+[107]
+DengJ, XieH, ZhuL, et al.
+Maintenance therapy for lupus nephritis with mycophenolate mofetil or azathioprine.A meta-analysis[J].
+Clin Nephrol,
+2019,
+91(
+3):
+172-
+179.
+DOI: 10.5414/CN109450.
+[108]
+HladunewichMA, TroyanovS, CalafatiJ, et al.
+The natural history of the non-nephrotic membranous nephropathy patient[J].
+Clin J Am Soc Nephrol,
+2009,
+4(
+9):
+1417-
+1422.
+DOI: 10.2215/CJN.01330209.
+[109]
+WestSG, EmlenW, WenerMH, et al.
+Neuropsychiatric lupus erythematosus: a 10-year prospective study on the value of diagnostic tests[J].
+Am J Med,
+1995,
+99(
+2):
+153-
+163.
+DOI: 10.1016/s0002-9343(99)80135-1.
+[110]
+AinialaH, DastidarP, LoukkolaJ, et al.
+Cerebral MRI abnormalities and their association with neuropsychiatric manifestations in SLE: a population-based study[J].
+Scand J Rheumatol,
+2005,
+34(
+5):
+376-
+382.
+DOI: 10.1080/03009740510026643.
+[111]
+Gomard-MennessonE, RuivardM, KoenigM, et al.
+Treatment of isolated severe immune hemolytic anaemia associated with systemic lupus erythematosus: 26 cases[J].
+Lupus,
+2006,
+15(
+4):
+223-
+231.
+DOI: 10.1191/0961203306lu2292oa.
+[112]
+ArnalC, PietteJC, LéoneJ, et al.
+Treatment of severe immune thrombocytopenia associated with systemic lupus erythematosus: 59 cases[J].
+J Rheumatol,
+2002,
+29(
+1):
+75-
+83.
+DOI: 10.0000/PMID11824975.
+[113]
+AlbaP, KarimM, HuntB.
+Mycophenolate mofetil as a treatment for autoimmune haemolytic anaemia in patients with systemic lupus erythematosus and antiphospholipid syndrome[J].
+Lupus,
+2003,
+12(
+8):
+633-
+635.
+DOI: 10.1191/0961203303lu419cr.
+[114]
+ChenH, ZhengW, SuJ, et al.
+Low-dose rituximab therapy for refractory thrombocytopenia in patients with systemic lupus erythematosus--a prospective pilot study[J].
+Rheumatology,
+2011,
+50(
+9):
+1640-
+1644.
+DOI: 10.1093/rheumatology/ker176.
+[115]
+AbdwaniR, ManiR.
+Anti-CD20 monoclonal antibody in acute life threatening haemolytic anaemia complicating childhood onset SLE[J].
+Lupus,
+2009,
+18(
+5):
+460-
+464.
+DOI: 10.1177/0961203308098360.
+[116]
+Al-OmaryHL, AlawadZM, BerniehB.
+Anti CD20 monoclonal antibody (rituximab) as a rescue treatment in severe and refractory SLE[J].
+Biomed Pharmacol J,
+2018,
+11(
+1):
+453.
+DOI: 10.13005/bpj/1394.
+[117]
+中国医师协会儿科医师分会血液净化专家委员会.
+血液净化治疗儿童重症系统性红斑狼疮多中心流行病学调查[J].
+中国实用儿科杂志,
+2018,
+33(
+7):
+521-
+527.
+DOI: 10.19538/j.ek2018070610.
+[118]
+沈琪，黄贤贵，吴晓秋,等.
+血浆置换治疗增殖性狼疮性肾炎的系统评价[J].
+实用医学杂志,
+2013,
+29(
+1):
+122-
+125.
+DOI: 10.3969/j.issn.1006-5725.2013.01.054.
+[119]
+KronbichlerA, BrezinaB, QuintanaLF, et al.
+Efficacy of plasma exchange and immunoadsorption in systemic lupus erythematosus and antiphospholipid syndrome: a systematic review[J].
+Autoimmun Rev,
+2015,
+15(
+1):
+38-
+49.
+DOI: 10.1016/j.autrev.2015.08.010.
+[120]
+FrancioniC, GaleazziM, FioravantiA, et al.
+Long-term i.v. Ig treatment in systemic lupus erythematosus[J].
+Clin Exp Rheumatol,
+1994,
+12(
+2):
+163-
+168.
+[121]
+Nieto-AristizábalI, MartínezT, UrbanoMA, et al.
+Treatment with intravenous immunoglobulins in systemic lupus erythematosus: a single-center experience with 63 patients[J].
+Lupus,
+2019,
+28(
+13):
+1566-
+1570.
+DOI: 10.1177/0961203319883680.
+[122]
+YeY, ChenB, KalishRA, et al.
+Tripterygium wilfordii for the treatment of systemic lupus systematosus: meta-analysis of randomized controlled trials[J].
+Arthritis Rheumatol,
+2015,
+67 (
+Suppl 10):
+1824.
+[123]
+孙凤，杨兴华，马冬梅,等.
+雷公藤用药者生殖毒性发生率的Meta分析[J].
+中国药物警戒,
+2014,
+11(
+2):
+94-
+103.
+[124]
+FeiY, ShiX, GanF, et al.
+Death causes and pathogens analysis of systemic lupus erythematosus during the past 26 years[J].
+Clin Rheumatol,
+2013,
+33(
+1):
+57-
+63.
+DOI: 10.1007/s10067-013-2383-3.
+[125]
+孙欣，徐莉莉，邓艳红,等.
+系统性红斑狼疮并发感染危险因素的Meta分析[J].
+中华护理杂志,
+2015,
+50(
+7):
+828-
+835.
+DOI: 10.3761/j.issn.0254-1769.2015.07.013.
+[126]
+FiroozN, AlbertD, WallaceD, et al.
+High-sensitivity C-reactive protein and erythrocyte sedimentation rate in systemic lupus erythematosus[J].
+Lupus,
+2011,
+20(
+6):
+588-
+597.
+DOI: 10.1177/0961203310393378.
+[127]
+SerioI, ArnaudL, MathianA, et al.
+Can procalcitonin be used to distinguish between disease flare and infection in patients with systemic lupus erythematosus: a systematic literature review[J].
+Clin Rheumatol,
+2014,
+33(
+9):
+1209-
+1215.
+DOI: 10.1007/s10067-014-2738-4.
+[128]
+NgWL, ChuCM, WuAK, et al.
+Lymphopenia at presentation is associated with increased risk of infections in patients with systemic lupus erythematosus[J].
+QJM,
+2005,
+99(
+1):
+37-
+47.
+DOI: 10.1093/qjmed/hci155.
+[129]
+YangMJ, ChenCY, ChangWH, et al.
+Pregnancy outcome of systemic lupus erythematosus in relation to lupus activity before and during pregnancy[J].
+J Chin Med Assoc,
+2015,
+78(
+4):
+235-
+240.
+DOI: 10.1016/j.jcma.2014.11.008.
+[130]
+KnightCL, Nelson-PiercyC.
+Management of systemic lupus erythematosus during pregnancy: challenges and solutions[J].
+Open Access Rheuma,
+2017,
+9:
+37.
+DOI: 10.2147/OARRR.S87828.
+[131]
+任书霞，刘恩令，杨艳.
+系统性红斑狼疮肾炎对妊娠结局影响的Meta分析[J].
+华北理工大学学报(医学版),
+2018,
+20(
+2):
+133-
+139.
+DOI: 10.19539/j.cnki.2095-2694.2018.02.011.
+[132]
+ChenS, SunX, WuB, et al.
+Pregnancy in women with systemic lupus erythematosus: a retrospective study of 83 pregnancies at a single centre[J].
+Int J Environ Res Public Health,
+2015,
+12(
+8):
+9876-
+9888.
+DOI: 10.3390/ijerph120809876.
+[133]
+WeiQ, OuyangY, ZengW, et al.
+Pregnancy complicating systemic lupus erythematosus: a series of 86 cases[J].
+Arch Gynecol Obstet,
+2011,
+284(
+5):
+1067-
+1071.
+DOI: 10.1007/s00404-010-1786-5.
+[134]
+LazzaroniMG, Dall'AraF, FrediM, et al.
+A comprehensive review of the clinical approach to pregnancy and systemic lupus erythematosus[J].
+J Autoimmun,
+2016,
+74:
+106-
+117.
+DOI: 10.1016/j.jaut.2016.06.016.
+[135]
+WuJ, MaJ, BaoC, et al.
+Pregnancy outcomes among Chinese women with and without systemic lupus erythematosus: a retrospective cohort study[J].
+BMJ Open,
+2018,
+8(
+4):
+e020909.
+DOI: 10.1136/bmjopen-2017-020909.
+[136]
+BorellaE, LojaconoA, GattoM, et al.
+Predictors of maternal and fetal complications in SLE patients: a prospective study[J].
+Immunol Res,
+2014,
+60(
+2-3):
+170-
+176.
+DOI: 10.1007/s12026-014-8572-6.
+[137]
+AlyEAH, RiyadRM, MokbelA N.
+Pregnancy outcome in patients with systemic lupus erythematosus: a single center study in the high risk pregnancy unit[J].
+Middle East Fertility Society J,
+2016,
+21(
+3):
+168-
+174.
+DOI: 10.1016/j.mefs.2015.12.003.
+[138]
+中国系统性红斑狼疮研究协作组专家组,国家风湿病数据中心.
+中国系统性红斑狼疮患者围产期管理建议[J].
+中华医学杂志,
+2015,
+95(
+14):
+1056-
+1060.
+DOI: 10.3760/cma.j.issn.0376-2491.2015.14.005.
+[139]
+McDonaldEG, BissonetteL, EnsworthS, et al.
+Monitoring of systemic lupus erythematosus pregnancies: a systematic literature review[J].
+J Rheumatol,
+2018,
+45(
+10):
+1477-
+1490.
+DOI: 10.3899/jrheum.171023.
+[140]
+BundhunPK, SoogundMZS, HuangF.
+Impact of systemic lupus erythematosus on maternal and fetal outcomes following pregnancy: a meta-analysis of studies published between years 2001-2016[J].
+J Autoimmun,
+2017,
+79:
+17-
+27.
+DOI: 10.1016/j.jaut.2017.02.009.
+[141]
+YengejFAY, van Royen-KerkhofA, DerksenRHWM, et al.
+The development of offspring from mothers with systemic lupus erythematosus. A systematic review[J].
+Autoimmun Rev,
+2017,
+16(
+7):
+701-
+711.
+DOI: 10.1016/j.autrev.2017.05.005.
+[142]
+GuillotinV, BouhetA, BarnetcheT, et al.
+Hydroxychloroquine for the prevention of fetal growth restriction and prematurity in lupus pregnancy: a systematic review and meta-analysis[J].
+Joint Bone Spine,
+2018,
+85(
+6):
+663-
+668.
+DOI: 10.1016/j.jbspin.2018.03.006.
+[143]
+刘雅姝，曹迪，方圣,等.
+羟氯喹治疗妊娠合并红斑狼疮疗效及安全性的系统评价[J].
+重庆医学,
+2016,
+45(
+13):
+1803-
+1806.
+DOI: 10.3969/j.issn.1671-8348.2016.13.026.
+[144]
+EudyAM, Siega-RizAM, EngelSM, et al.
+Effect of pregnancy on disease flares in patients with systemic lupus erythematosus[J].
+Ann Rheum Dis,
+2018,
+77(
+6):
+855-
+860.
+DOI: 10.1136/annrheumdis-2017-212535.
+[145]
+SaavedraMÁ, SánchezA, MoralesS, et al.
+Azathioprine during pregnancy in systemic lupus erythematosus patients is not associated with poor fetal outcome[J].
+Clin Rheumatol,
+2015,
+34(
+7):
+1211-
+1216.
+DOI: 10.1007/s10067-015-2987-x.
+[146]
+WallaceDJ, WeismanMH.
+The role of environmental factors in rheumatic diseases[J].
+B Rheum Dis,
+2002,
+51(
+10):
+1-
+4.
+[147]
+Zandman-GoddardG, SolomonM, RosmanZ, et al.
+Environment and lupus-related diseases[J].
+Lupus,
+2012,
+21(
+3):
+241-
+250.
+DOI:10.1177/0961203311426568.
+[148]
+SunY, TianL.
+Eyebrow threading-induced tumid lupus erythematosus[M].
+J Am Acad Dermatol,
+2019,
+81(
+4):
+AB210.
+[149]
+SmykD, RigopoulouEI, BizzaroN, et al.
+Hair dyes as a risk for autoimmunity: from systemic lupus erythematosus to primary biliary cirrhosis[J].
+Auto Immun Highlights,
+2013,
+4(
+1):
+1-
+9.
+DOI:10.1007/s13317-011-0027-7.
+[150]
+ZahnS, GraefM, PatsinakidisN, et al.
+Ultraviolet light protection by a sunscreen prevents interferon-driven skin inflammation in cutaneous lupus erythematosus[J].
+Exp Dermatol,
+2014,
+23(
+7):
+516-
+518.
+DOI: 10.1111/exd.12428.
+[151]
+KuhnA, GenschK, HaustM, et al.
+Photoprotective effects of a broad-spectrum sunscreen in ultraviolet-induced cutaneous lupus erythematosus: a randomized, vehicle-controlled, double-blind study[J].
+J Am Acad Dermatol,
+2011,
+64(
+1):
+37-
+48.
+DOI: 10.1016/j.jaad.2009.12.053.
+[152]
+Abdul KadirWD, JamilA, ShaharirSS, et al.
+Photoprotection awareness and practices among patients with systemic lupus erythematosus and its association with disease activity and severity[J].
+Lupus,
+2018,
+27(
+8):
+1287-
+1295.
+DOI: 10.1177/0961203318770016.
+[153]
+O'DwyerT, DurcanL, WilsonF.
+Exercise and physical activity in systemic lupus erythematosus: A systematic review with meta-analyses[J].
+Semin Arthritis Rheum,
+2017,
+47(
+2):
+204-
+215.
+DOI: 10.1016/j.semarthrit.2017.04.003.
+[154]
+WuML, YuKH, TsaiJC.
+The effectiveness of exercise in adults with systemic lupus erythematosus: a systematic review and meta-analysis to guide evidence-based practice[J].
+Worldviews Evid Based Nurs,
+2017,
+14(
+4):
+306-
+315.
+DOI: 10.1111/wvn.12221.
+[155]
+ZhangJ, WeiW, WangC.
+Effects of psychological interventions for patients with systemic lupus erythematosus: a systematic review and meta-analysis[J].
+Lupus,
+2012,
+21(
+10):
+1077-
+1087.
+DOI: 10.1177/0961203312447667.
+[156]
+ParisisD, BernierC, ChassetF, et al.
+Impact of tobacco smoking upon disease risk, activity and therapeutic response in systemic lupus erythematosus: a systematic review and meta-analysis[J].
+Autoimmun Rev,
+2019,
+18(
+11):
+102393.
+DOI: 10.1016/j.autrev.2019.102393.
+[157]
+GhaussyNO, SibbittW, BankhurstAD, et al.
+Cigarette smoking and disease activity in systemic lupus erythematosus[J].
+J Rheumatol,
+2003,
+30(
+6):
+1215-
+1221.
+DOI: 10.1016/S1297-319X(03)00040-X.
+[158]
+SousaJR, RosaÉPC, NunesIFOC,et al.
+Effect of vitamin D supplementation on patients with systemic lupus erythematosus: a systematic review[J].
+Rev Bras Reumatol Engl Ed,
+2017,
+57(
+5):
+466-
+471.
+DOI: 10.1016/j.rbre.2017.08.001.
+[159]
+McsDM, JcaM, de MedeirosHJ, et al.
+Dietary intervention and health in patients with systemic lupus erythematosus: a systematic review of the evidence[J].
+Crit Rev Food Sci Nutr,
+2019,
+59(
+16):
+2666-
+2673.
+DOI: 10.1080/10408398.2018.1463966.
+贡献者信息
+中华医学会风湿病学分会
+国家皮肤与免疫疾病临床医学研究中心
+中国系统性红斑狼疮研究协作组
+通信作者
+曾小峰
+中国医学科学院 北京协和医学院 北京协和医院风湿免疫科，国家皮肤与免疫疾病临床医学研究中心，100730
+Email：
+zengxfpumc@163.com
+关键词
+红斑狼疮，系统性;
+指南;
+证据质量与推荐强度分级;
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-03-01
+收稿日期：2020-01-10
+本文编辑
+胡朝晖
+Standard and Interpretation
+2020 Chinese guidelines for the diagnosis and treatment of systemic lupus erythematosus
+Chinese Rheumatology Association,  National Clinical Research Center for Dermatologic and Immunologic Diseases,  Chinese Systemic Lupus Erythematosus Treatment and Research Group
+Published
+2020-03-01
+Cite as
+Chin J Intern Med, 2020,59(03): 172-185. DOI: 10.3760/cma.j.issn.0578-1426.2020.03.002
+Abstract
+Systemic lupus erythematosus (SLE), a complex and heterogeneous autoimmune disease, represents a significant challenge for both diagnosis and treatment. In 2019, under the leadership of the Chinese Rheumatology Association, a multidisciplinary guideline development group was established. The objective was to develop an evidence-based diagnosis and treatment guideline for SLE in China based on emerging new evidence. The guideline was registered at International Practice Guidelines Registry Platform (IPGRP-2019CN022). The grading of recommendations assessment, development and evaluation (GRADE) approach was used to rate the quality of evidence and the strength of recommendations, and the RIGHT (Reporting Items for Practice Guidelines in Healthcare) checklist was followed to report the guideline. The guideline provides recommendations for the SLE classification criteria, disease activity monitoring and assessing, medication principles and considerations organ and system involvement and management of patients during pregnancy. This guideline is intended to serve as a tool for Chinese clinicians for the best decisions-making on diagnosis and treatment of SLE.
+Key words:
+Lupus erythematosus, systemic; Guideline; GRADE
+Contributor Information
+Chinese Rheumatology Association
+National Clinical Research Center for Dermatologic and Immunologic Diseases
+Chinese Systemic Lupus Erythematosus Treatment and Research Group
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+证据质量与推荐强度分级
+项目
+内容
+证据质量分级
+高(A)
+非常有把握：观察值接近真实值
+中(B)
+对观察值有中等把握：观察值有可能接近真实值，但亦有可能差别很大
+低(C)
+对观察值的把握有限：观察值可能与真实值有很大差别
+极低(D)
+对观察值几乎无把握：观察值与真实值可能有极大差别
+推荐强度分级
+强(1)
+明确显示干预措施利大于弊或弊大于利
+弱(2)
+利弊不确定或无论质量高低的证据均显示利弊相当
+表2
+常用糖皮质激素的等效剂量
+药物类别
+药物名称
+等效剂量(mg)
+短效
+氢化可的松
+20
+可的松
+25
+中效
+泼尼松
+5
+泼尼松龙
+5
+甲泼尼龙
+4
+长效
+曲安奈德
+4
+倍他米松
+0.60
+地塞米松
+0.75
+表3
+不同免疫抑制剂的适应证、优势及常见与重要不良反应
+免疫抑制剂
+主要适用人群
+优势
+常见与重要不良反应
+霉酚酸酯
+中重度SLE患者[75]
+中重度狼疮肾炎患者，霉酚酸酯为诱导期和维持期的有效治疗，能降低复发率[78]
+最常见的不良反应为胃肠道不适，一些患者会发生感染、骨髓抑制与肝脏损害[79]，由于具有一定的致畸性，因此至少在停用6周后方可尝试妊娠[80]
+环磷酰胺
+中重度狼疮肾炎、神经精神狼疮和SLE伴免疫性血小板减少症等[73, 76, 81]
+中重度狼疮肾炎患者诱导期和维持期治疗均有效，是治疗SLE神经系统和血液系统受累的有效免疫抑制剂[76, 81]
+常见不良反应为胃肠道不适，如恶心、呕吐等，肝脏损害、骨髓抑制是主要的不良反应，长期大剂量使用会增加发生肿瘤的危险，具有明确的生殖毒性和致畸性，建议妊娠前1~3个月停用[73, 82,83]
+来氟米特
+增殖性狼疮肾炎[84,85]
+对一些增殖性狼疮肾炎有效，耐受性较好[85]
+来氟米特会引起肝脏损害、高血压、白细胞减少症、感染及一些并发症，由于有致畸作用，故建议孕前药物完全洗脱后方可尝试妊娠[86,87]
+甲氨蝶呤
+轻中度非肾脏受累的SLE患者[73]
+在改善SLE患者皮肤、关节炎症和整体情况方面具有较好的疗效[73, 88]
+最主要不良反应为胃肠道不适，如恶心、呕吐等，血液系统异常如贫血、白细胞减少与肝脏损害较常见，由于有致畸作用，故建议妊娠前1~3个月停用[87,88,89]
+他克莫司
+增殖性狼疮肾炎、难治性狼疮肾炎和SLE伴免疫性血小板减少症等[78, 90,91,92]
+狼疮肾炎的诱导期和维持期治疗均有效，能降低复发率[78]；可用于治疗难治性狼疮肾炎，尤其是以蛋白尿为突出表现者[90,91]；与其他免疫抑制剂或糖皮质激素比，引起严重感染的风险较低[93]
+常见不良反应为胃肠道不适，一些患者会出现肾脏、肝脏损害；肝功能受损者需减少他克莫司用量，用药期间应监测肾毒性、血糖和血压[94]
+环孢素
+狼疮肾炎和SLE伴免疫性血小板减少症[95,96,97]
+环孢素与其他免疫抑制剂联合可用于治疗标准治疗无效的狼疮肾炎，可缓解血液系统损害[95,96]
+主要不良反应为肾功能损害、血压升高与感染[96]
+硫唑嘌呤
+中度SLE患者[80]
+SLE的维持期治疗。孕期安全性较高，且严重感染发生率较低[80]
+主要不良反应为骨髓抑制与肝脏损害[80]，需检测硫嘌呤甲基转移酶活性
+注：SLE为系统性红斑狼疮
+表4
+治疗系统性红斑狼疮的生物制剂的优势及其重要不良反应
+生物制剂
+经FDA和CFDA批准
+优势
+重要不良反应
+贝利尤单抗
+是
+能改善患者的血清学指标，降低严重复发风险及减少激素用量。对目前常规治疗控制不佳的患者，可考虑使用
+常见不良反应为感染、头痛和恶心
+利妥昔单抗
+否
+对顽固性狼疮肾炎和血液系统受累的患者，可控制病情，减少激素用量[98, 101]
+常见不良反应包括感染、输液反应等[98]
+注：FDA为美国食品药品监督管理局；CFDA为国家食品药品监督管理总局
+图1
+系统性红斑狼疮（SLE）诊疗路径图
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华内科杂志2020年59卷03期
+文    题：2020中国系统性红斑狼疮诊疗指南
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华内科杂志2020年59卷03期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

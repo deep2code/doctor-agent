@@ -1,0 +1,1430 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%97%A0%E5%88%9B%E6%AD%A3%E5%8E%8B%E9%80%9A%E6%B0%94%E6%80%A5%E8%AF%8A%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882018%EF%BC%89.html
+# 标题: 无创正压通气急诊临床实践专家共识（2018） - 中华急诊医学杂志
+# 发布方/日期: 急诊医学科，中华急诊医学杂志, 2019,28(1) : 14-24. DOI: 10.3760/cma.j.i；2019-01-10
+
+无创正压通气急诊临床实践专家共识（2018）
+中国医师协会急诊医师分会
+中国医疗保健国际交流促进会急诊急救分会
+国家卫生健康委能力建设与继续教育中心急诊学专家委员会
+中华急诊医学杂志, 2019,28(1) : 14-24. DOI: 10.3760/cma.j.issn.1671-0282.2019.01.004
+无创正压通气（non-invasive positive pressure ventilation, NIPPV）是指不需要侵入性或有创性的气管插管或气管切开，只是通过鼻罩、口鼻罩、全面罩或头罩等方式将患者与呼吸机相连接进行正压辅助通气的技术。
+近30年来，随着对NIPPV的临床研究与实践不断深入，不仅证实了NIPPV疗效确切，可提高患者存活率、避免有创机械通气所带来的一系列并发症、降低治疗成本，而且易于实施并被患者所接受，已成为呼吸衰竭等病理生理状态早期及紧急情况下的通气支持手段[1,2,3,4,5,6,7,8,9]。基于无创通气技术应用的日趋广泛，尤其与其他专科相比，NIPPV在急诊医学领域具有更广泛的临床适应证，中国医师协会急诊医师分会、中国医疗保健国际交流促进会急诊急救分会、国家卫生健康委能力建设与继续教育中心急诊学专家委员会共同组织专家讨论，制定《无创正压通气急诊临床实践专家共识（2018）》，以期为急诊医护人员提供理论与实践指导，进一步提高NIPPV临床应用的水平。
+本共识评价证据级别和推荐强度借鉴GRADE共识意见[10]。证据等级：Ⅰ（高等级）指高质量的随机对照临床研究（RCT）、权威指南以及高质量系统综述和meta分析；Ⅱ（中等级）指有一定研究局限性的RCT研究（如无隐蔽分组、未设盲、未报告失访）、队列研究、病例系列研究及病例对照研究；Ⅲ（低等级）指病例报告和专家意见。推荐等级：强推荐指该方案绝大多数患者、医生和政策制定者都会采纳；中度推荐指该方案多数人会采纳，但仍有部分人不采纳，要结合患者具体情况作出体现其价值观和意愿的决定；弱推荐指证据不足，需要患者、医生和政策制定者共同讨论决定。
+1 NIPPV模式
+NIPPV是一种正压通气方式，可在一定程度上开放塌陷的上气道，提高肺通气容积，改善通气与通气/血流比值，改善氧合及二氧化碳潴留等。临床常用的NIPPV模式有持续气道正压（continuous positive airway pressure, CPAP）、双水平气道正压（bi-phasic positive airway pressure, BIPAP）、以及保证平均容量的压力支持（average volume assured pressure support, AVAPS）等。
+1.1 持续气道正压（CPAP）
+CPAP是指在患者自主呼吸条件下，在整个呼吸周期中，呼吸机持续给予同一水平的正压支持，辅助患者完成全部的呼吸运动。吸气时，正压有利于克服气道阻力，减少呼吸肌做功；呼气时，气道内正压可防止小气道陷闭，增加功能残气量，改善氧合。
+此外，CPAP产生的胸腔正压，可减少回心血量(前负荷)，对于急性心源性肺水肿患者的综合效应是有益的，但对于已存在明显心排量降低的患者，过高的CPAP则可能有害。
+1.2 双水平气道正压（BIPAP）
+BIPAP是时间切换-压力控制的机械通气模式，可分别调节吸气相气道正压（inspiratory positive airway pressure, IPAP）和呼气相气道正压（expiratory positive airway pressure, EPAP），是CPAP模式的扩展。
+根据吸-呼相转换机制，BIPAP可分为自主呼吸（spontaneous, S）通气辅助模式、时间控制（timed, T）模式和自主呼吸通气辅助结合时间控制（S/T）模式等。S模式由患者通过超过一定阈值的吸气流速或吸气负压信号触发呼吸机按预置的IPAP辅助通气，当气体流速或压力降到预置的阈值时，转换为呼气相，按预置的EPAP通气；T模式相当于控制呼吸模式，呼吸机按预置的时间常数（或频率）进行吸-呼相转换；S/T模式由患者自主呼吸频率和机控呼吸频率共同控制吸-呼相转换，机控频率设置通常低于患者自主呼吸频率但高于最低安全频率，呼吸机按患者自主频率触发呼吸机辅助呼吸，当自主呼吸频率过慢或呼吸停止、吸气流速或负压不够，不能触发呼吸机时，呼吸机按照机控频率工作。
+BIPAP（S/T）模式可保留患者自主呼吸并使其与呼吸机有较好配合。采用小吸气流量触发预置的IPAP可避免吸气相内压力下降过快，减少患者吸气做功，增加肺泡通气量；但过低的吸气流量触发易被非呼吸因素误触发，导致人机不协调。EPAP可防止呼气相小气道过早闭合，促进人工气道内CO2排出。自主呼吸时，IPAP和EPAP两个压力水平各自的时间由设定的呼吸时间决定。
+1.3 保证平均容量的压力支持（AVAPS）
+AVAPS是一种混合通气模式，其基本原理仍然是压力支持。为达到预定的通气潮气量，吸气压设置在一个范围区间而不是一个固定值。呼吸机根据测量到的通气容积，自动调节IPAP，以达到预定的通气潮气量。
+通常情况下，提高CPAP和EPAP水平，有助于改善缺氧和维持上呼吸道开放；增加IPAP与EPAP的差值或增加通气容积，有助于改善肺泡通气，增加CO2排出，减少患者吸气做功。
+2 NIPPV的急诊临床应用
+NIPPV的急诊临床应用目前仍缺乏统一标准，这与患者病情轻重、病程进展、意识状况、医护人员经验及设备条件等多种因素有关。NIPPV临床应用需考量的主要因素包括：①适应证与禁忌证；②患者选择；③呼吸机选择与人机连接方式；④通气模式选择及参数设置。
+2.1 适应证与禁忌证
+2.1.1 适应证
+NIPPV主要适用于轻-中度呼吸衰竭的早期救治；也可用于有创-无创通气序贯治疗和辅助撤机。其参考指征为[2,4,6,11,12]：
+(1)患者状况，①神志清醒；②能自主清除气道分泌物；③呼吸急促（频率>25次/min），辅助呼吸肌参与呼吸运动。
+(2)血气指标，海平面呼吸室内空气时，动脉血氧分压（PaO2）<60 mmHg(1 mmHg=0.133 kPa)伴或不伴二氧化碳分压（PaCO2）>45 mmHg。
+2.2.2 禁忌证
+(1)绝对禁忌证：心脏骤停或呼吸骤停（微弱），此时需要立即心肺复苏、气管插管等生命支持。
+(2)相对禁忌证：①意识障碍；②无法自主清除气道分泌物，有误吸的风险；③严重上消化道出血；④血流动力学不稳定；⑤上呼吸道梗阻；⑥未经引流的气胸或纵隔气肿；⑦无法佩戴面罩的情况如面部创伤或畸形；⑧患者不配合。
+相对禁忌证者应用NIPPV，需综合考虑患者情况，权衡利弊后再做决策，否则增加NIPPV治疗失败或可能导致患者损伤的风险[3,8,12,13,14]。
+2.2.3 动态评价与决策
+NIPPV治疗的时机受众多因素的影响，尚无一致意见。临床上，一般多采用个体化试验治疗结合动态评估反应的临床决策，即适合NIPPV治疗且没有禁忌证的患者，可先行NIPPV治疗并观察1~2 h，以评估治疗效果，从而决定是否继续使用NIPPV或改用其他通气支持手段[3,15]（具体评估见附录NIPPV的基本操作）。
+推荐意见1：
+(1) NIPPV主要适用于轻-中度的呼吸衰竭。（I级证据，强推荐）
+(2) NIPPV的临床应用指征主要取决于患者状况和血气分析。（I级证据，强推荐）
+(3) NIPPV的临床应用存在一定禁忌证，使用不当会增加NIPPV治疗失败或可能增加患者损伤的风险。（I级证据，强推荐）
+(4) NIPPV的应用时机多采用个体化试验治疗结合动态评估反应的临床决策。（I级证据，强推荐）
+2.2 患者选择
+2.2.1 慢性阻塞性肺疾病急性加重
+NIPPV自20世纪80年代末起就被用于慢性阻塞性肺疾病急性加重（acute exacerbations of chronic obstructive pulmonary disease，AECOPD）伴有CO2潴留患者的治疗，效果肯定。国内一项多中心、前瞻性研究纳入AECOPD患者342例（pH 7.25，且PaCO2>45 mmHg），随机分配到常规治疗组（171例）和常规治疗组+NIPPV治疗组（171例），结果显示，与常规治疗组比较，在2 h和24 h两个观察时点，NIPPV治疗组的动脉血气分析参数、呼吸频率和呼吸肌做功等均有更大程度改善，差异有统计学意义（均P<0.01）；NIPPV治疗组后期插管率（4.7%）显著低于常规治疗组（15.2%），P=0.002；NIPPV组病死率（2.8%）也较常规治疗组（7.0%）为低[16]。也有研究认为，AECOPD患者入院早期应用NIPPV能改善其病理生理状况，减少气管插管率[16,17,18]。多项随机对照研究（RCT）及meta分析均表明[4,19,20,21,22,23,24,25]，NIPPV作为初始模式用于AECOPD导致的急性呼吸衰竭（acute respiratory failure, ARF），可改善氧合，缓解CO2潴留，纠正急性呼吸性酸中毒，降低呼吸频率及呼吸做功，减少呼吸机相关性肺炎（ventilator-associated pneumonia, VAP）等并发症的发生，总有效率达80%~85%，患者气管插管率及病死率明显下降。应用NIPPV还可缩短患者住院时间。
+对于伴有意识障碍的AECOPD患者，由于缺乏有效的气道自我保护机制，不宜常规应用NIPPV。但如果临床确认意识障碍是由CO2潴留引起，而NIPPV能够有效清除CO2，也可在严密监护下谨慎地使用NIPPV[26]。
+推荐意见2：
+(1) NIPPV可作为AECOPD通气治疗的首选方式。（I级证据，强推荐）
+(2)对于符合NIPPV指征且没有禁忌证的AECOPD患者，应尽早应用NIPPV以降低患者气管插管率和病死率。（I级证据，强推荐）
+(3)对于意识障碍的患者，不推荐常规使用NIPPV。（Ⅱ级证据，弱推荐）
+(4) AECOPD出现早期呼吸衰竭症状（呼吸频率增加，辅助呼吸肌参与呼吸运动，PaCO2高于基础值等）可尝试使用NIPPV治疗。（Ⅱ级证据，弱推荐）
+2.2.2 急性心源性肺水肿
+急性心源性肺水肿(acute cardiogenic pulmonary edema, ACPE)是指继发于各种原因的急性左心功能不全、左室前向血流受阻、左心房和肺毛细血管静水压增高、肺泡水肿和肺间质水肿的临床急危重症。自20世纪90年代尝试将NIPPV用于ACPE治疗以来，诸多研究都肯定了其效果优于常规氧疗，如在缓解呼吸困难、改善氧合、降低气管插管率以及减少医院病死率等方面[27,28,29,30,31,32,33]。L'Her等[34]在一项前瞻性随机对照研究中，比较评估了89例由ACPE引起的急性Ⅰ型呼吸衰竭（PaO2/FiO2≤300 mmHg）老年患者接受标准面罩氧疗与7.5 mmHg面罩CPAP治疗的结果，中期评估时即显示，两组患者疾病的严重程度具有可比性，但CPAP组对气管插管率（7%）与接受标准氧疗组（24%）相比，减少了17%，48 h早期病死率CPAP组（9%）比标准氧疗组（30%）降低了21%。ACPE患者获益于NIPPV的机制可能与改善肺通气/血流比值、减轻心脏前、后负荷（尤其是前负荷）进而改善患者心脏功能的综合效应有关。
+CPAP和BIPAP (S/T)均是NIPPV在ACPE通气支持中的常用模式，对于两者在ACPE治疗中如何选择，诸多对比研究和meta分析进行了探讨，发现两者没有明显差别，且患者的耐受性均良好。Bellone等[35]在2004年的一项头对头的研究发现，46例急性心力衰竭患者随机接受10 mmHg CPAP或15/5 mmHg BIPAP，结果在两个治疗组间心肌梗死率、气管插管率或住院病死率差异无统计学意义。但相较于CPAP的使用，BIPAP (S/T)模式对Ⅱ型呼吸衰竭纠正更快[3,7,11,27,29,30,36]。需注意的是，过快纠正CO2潴留，容易矫枉过正地导致碱中毒，不利于组织氧供。
+推荐意见2：
+(5) NIPPV应用于ACPE患者，能够缓解呼吸困难，提高氧合，降低气管插管率及病死率。（I级证据，强推荐）
+(6) CPAP和BIPAP（S/T）都可作为首选通气方式治疗ACPE。（I级证据，强推荐）
+(7)对于已有呼吸性碱中毒的ACPE患者，可首选CPAP。（I级证据，强推荐）
+(8) BIPAP（S/T）模式对于ACPE合并Ⅱ型呼吸衰竭的治疗有一定优势。（Ⅱ级证据，中度推荐）
+2.2.3 免疫功能受损合并呼吸衰竭
+免疫功能受损患者如恶性肿瘤、器官移植后、艾滋病等呈逐年增加趋势。免疫系统受损易导致严重感染，当发展为ARF时，病死率可达到40%~90%[37,38]。NIPPV的应用可以降低气管插管率，从而避免相关感染并发症的发生[39,40]。Gristina等[41]对1 302例恶性血液疾病并发ARF的患者给予NIPPV治疗，并进行多中心随机对照分析，结果表明，及早实施NIPPV能够降低病死率，应作为通气支持首选。Frat等[42]的研究同样显示，NIPPV能够降低免疫功能受损患者的气管插管率及病死率。
+推荐意见2：
+(9)免疫功能受损合并呼吸衰竭的患者，早期使用NIPPV可减少气管插管率，防止相关并发症，同时能降低病死率。（I级证据，强推荐）
+2.2.4 NIPPV辅助撤机
+长时间的有创通气可能引起一系列并发症，包括呼吸肌无力及废用性萎缩、VAP等，尽量缩短插管时间能够减少相关并发症的发生[43,44,45]。目前辅助撤机的含义有两种：①拔除气管插管后使用NIPPV通气，即有创-无创序贯通气；②拔管后常规氧疗[46]。有研究表明，对于接受有创通气的Ⅱ型呼吸衰竭患者，NIPPV在脱机阶段能够改善呼吸状况，减少呼吸肌做功，维持稳定的气体交换，可用于加快该类患者脱机流程，并减少再插管带来的并发症[47]。
+Burns等[43]对16项RCT共994例患者进行回顾性系统评价，其中9项研究仅针对于COPD患者，6项研究包括各种疾病，1项研究仅针对低氧血症患者，与压力支持及自主呼吸试验（spontaneous breathing trial，SBT）等常规脱机手段相比，NIPPV能够显著降低病死率以及脱机失败率、VAP发生率，缩短住ICU时间及住院时间、总上机时间均有明显下降。其中一项大的RCT将208例患者分为三组[48]，分别接受经由气管插管的常规脱机、拔管后应用NIPPV、拔管后应用常规氧疗，NIPPV组的累积脱机成功率最高。Hess[49]建议对于能够应用NIPPV的患者，应在拔管后立即使用NIPPV通气。也有研究表明，对于AECOPD有创通气拔管后患者，应用NIPPV防止再插管的时机最好是在自主呼吸试验2 h后[50]。另有两项多中心RCT证实NIPPV应用于可能发生拔管后呼吸衰竭的高危患者，可以防止再插管及拔管后的呼吸衰竭[51,52]。
+推荐意见2：
+(10) NIPPV可用于辅助早期撤机拔管，尤其是Ⅱ型呼吸衰竭患者。（I级证据，强推荐）
+(11) NIPPV可应用于预防拔管后呼吸衰竭，尤其是可能发生拔管后呼吸衰竭的高危患者。（Ⅱ级证据，中度推荐）
+2.2.5 急性呼吸窘迫综合征
+急性呼吸窘迫综合征（acute respiratory distress syndromes, ARDS）为一种急性弥漫性肺部病变[53]，可导致肺血管通透性升高，肺质量增加，肺通气减少；ARDS的病理生理学特征主要包括弥漫性肺泡损伤（即水肿、炎症、透明膜形成或出血），肺内分流和生理死腔增加，肺顺应性降低；其临床特征为低氧血症。在呼气末正压（PEEP） 5 cmH2O(1 cmH2O=0.098 kPa)时，根据氧合指数分为：①轻度，200 mmHg < PaO2/FiO2 ≤ 300 mmHg；②中度，100 mmHg < PaO2/FiO2 ≤ 200 mmHg；③重度，PaO2/FiO2≤ 100 mmHg。
+目前NIPPV应用于ARDS的研究结果存在较大争议[54]。Agarwal等[55]评估了NIPPV在Ⅰ型呼吸衰竭中的作用，ARDS组与其他组相比气管插管率更高，分析可能与NIPPV使用时，患者氧合指数较低有关。Antonelli等[56]对于NIPPV失败原因进行多中心回顾分析，发现随着患者低氧血症加重，NIPPV失败率会升高。Nava等[57]对NIPPV治疗ARDS效果的meta分析发现，NIPPV的应用时机非常关键，应在低氧血症较轻时使用。国内的一项前瞻性队列研究，纳入31例ARDS患者，其急性生理学与慢性健康状况评分Ⅱ（APACHEⅡ）为（14±8）分，PaO2/FiO2（123±32）mmHg，NIPPV治疗的成功率（避免气管插管）为74.2% (23/31)，而且NIPPV治疗后2 h及24 h的心率、呼吸频率及PaO2/FiO2均有显著改善(均P<0. 01)，且无NIPPV相关的严重并发症[58]。
+推荐意见2：
+(12) NIPPV用于治疗ARDS存在争议，对于轻度ARDS可早期尝试NIPPV，使用时应密切监测病情变化。（I级证据，中度推荐）
+2.2.6 支气管哮喘急性发作
+支气管哮喘表现为支气管高反应性以及由平滑肌痉挛和分泌物增加引起的可逆性气流受限。当急性发作时，由于呼气气流受限，可导致严重的肺过度充气及呼吸肌做功增加，最终导致呼吸衰竭。理论上NIPPV通过正压通气有助于改善急性哮喘患者的呼吸肌做功，减轻呼吸肌疲劳，改善通气，缓解呼吸困难[59]，但迄今对于NIPPV应用于哮喘急性发作的研究较少。几项RCT及非对照研究比较了NIPPV与常规治疗对哮喘急性发作患者的影响，非对照研究发现NIPPV能够改善某些患者的病理生理状况，而RCT及meta分析则没有发现差异[60,61]。一项回顾性研究调查了美国97家医院共4年间在哮喘急性发作患者（共13 930例）中使用NIPPV的情况，结果发现，在初始治疗中仅556例患者（4%）接受NIPPV治疗，668例患者（5%）接受有创通气治疗。初始接受NIPPV治疗的患者中，530例患者（95.3%）获得治疗成功（无需接受有创通气治疗），仅26例（4.7%）出现治疗失败（最终转为有创通气治疗），NIPPV治疗成功、NIPPV治疗失败和初始接受有创通气治疗组的病死率分别为2.3%、15.4%和14.5%[62]。初始NIPPV治疗组成功率高，预后较好，一方面可能与其耐受性良好，具有一定的治疗价值有关；另一方面也与该组患者病情相对较轻有关，因此，NIPPV治疗或许能使一些轻症急性哮喘患者获益。此外，NIPPV治疗失败组病死率显著升高，提示在对急性哮喘患者进行NIPPV治疗时，必须严密监测，避免病情加重时延误有创通气治疗的时机。
+推荐意见2：
+(13)哮喘急性发作中NIPPV的应用存在争议，在没有禁忌证的情况时可以尝试使用。（Ⅱ级证据，弱推荐）
+2.2.7 急性中毒
+急性中毒是指毒物短时间内经呼吸道、消化道、皮肤、黏膜等途径进入人体，使机体组织器官受损并发生功能障碍。急性中毒往往并发呼吸衰竭，其机制包括呼吸中枢抑制、呼吸肌麻痹、气道损伤（含刺激性气体的窒息性损伤）、上气道塌陷、肺泡水肿与肺间质水肿等。研究表明，NIPPV能够有效改善患者的通气和换气功能，缓解呼吸肌疲劳，提高PaO2，降低PaCO2，改善患者的呼吸功能，改善预后，还能够有效降低继发肺部感染的发病率[63,64,65,66,67]。
+国内一项研究纳入45例急性中毒（有机磷农药中毒、杀灭菊酯农药中毒、草甘磷农药中毒、毒鼠药中毒、镇静催眠类药物中毒、河豚鱼中毒等）合并呼吸衰竭患者，随机分为常规综合治疗组和常规综合治疗加上BIPAP治疗组，结果显示，NIPPV组治疗6 h后动脉血气分析的各项指标及呼吸频率、心率、辅助呼吸肌动用评分均显著优于常规治疗组，NIPPV组有创机械通气率和病死率分别为13.0%和4.3%，皆低于常规对照组(分别为22. 7%和9.1%)[63]。另一项随机研究比较了无创性鼻（面）罩BIPAP通气治疗46例化学气体中毒（氨气、光气、双光气、硫酸二甲酯、四氯化碳、氯气、硫化氢、有机氟等）并发肺水肿的疗效，结果显示，治疗前后呼吸频率、心率、PaO2、PaCO2、胸部CT变化及临床症状的改善情况均优于常规氧疗[64]。
+推荐意见2：
+(14)对于急性中毒并发呼吸衰竭患者，在无禁忌证的情况下，尝试NIPPV治疗可能有益。（Ⅱ级证据，中度推荐）
+2.2.8 不伴COPD的肺炎
+应用NIPPV治疗不伴COPD的肺炎引起的低氧血症，目前意见不一[68,69,70,71]，但越来越多的研究报道显示，NIPPV能够降低肺炎患者的气管插管率，并且如果能预测NIPPV失败并及时行气管插管，可降低病死率。Razlaf等[72]对120例肺炎患者进行回顾分析，50%以上患者通过NIPPV治疗后避免了气管插管，与之前类似研究相比，NIPPV应用成功率及患者存活率均有提升，这可能与NIPPV应用经验的增加有关。Tomii等[73]对于间质性肺炎患者应用NIPPV和有创通气进行对比分析，结果显示NIPPV可以提高患者60 d存活率，患者耐受度更好，治疗费用更少。另有研究显示，在肺炎患者病情发展早期应用NIPPV，能够提高应用成功率[74,75]。目前没有大型RCT证明NIPPV在肺炎患者中应用的有效性，但在临床密切监测的情况下，可以尝试使用NIPPV。
+推荐意见2：
+(15)对于不伴COPD的肺炎患者，在临床密切监测下，可以尝试NIPPV治疗。（Ⅱ级证据，中度推荐）
+2.2.9 胸部限制性疾病
+胸部限制性疾病（restrictive thoracic disease, RTD）主要分为神经肌肉疾病（如肌萎缩性侧索硬化症、肌营养不良症、脊髓灰质炎、脊髓损伤等）和胸部畸形（如脊柱侧弯、胸壁凹陷等）等，可导致呼吸驱动压不足，肺泡通气量降低及二氧化碳潴留。NIPPV应用于RTD治疗多为观察及回顾性分析，能够改善RTD患者的呼吸衰竭状况，减缓肺功能恶化趋势并延长患者生命[76,77,78]。Ward等[79]对48例RTD患者进行呼吸支持的RCT研究发现，NIPPV有良好作用。目前，当临床上RTD出现症状（如疲劳、呼吸困难等）后，并出现PaCO2>45 mmHg和（或）SaO2<88%持续5 min以上可应用BIPAP[80,81]。
+推荐意见2：
+(16) NIPPV可应用于合适的RTD病例，改善患者呼吸衰竭状况。（Ⅱ级证据，中度推荐）
+2.2.10 胸部创伤
+胸部创伤在所有创伤中约占20%，常见的胸部创伤包括肋骨骨折、血胸、连枷胸和肺挫伤。胸部创伤初期，由于血流动力学改变以及全身炎症反应激活，可导致肺毛细血管功能失调以及血管外肺水增加，肺功能受损，尤其老年患者及呼吸功能较差的患者易发展为ARF[82,83]。临床上约40%~60%胸部创伤患者需要通气支持，其中创伤后并发ACPE及低氧性ARF的患者使用NIPPV可减少气管插管率及改善预后[84,85,86]。Chiumello等[82]的meta分析显示，NIPPV应用于胸部创伤患者，与常规氧疗相比，并不减少病死率，但可以明显增加动脉血氧并降低气管插管率。两项RCT研究表明，NIPPV应用于胸部创伤患者，相较于有创通气及高流量氧疗，能够降低气管插管率及肺炎发生率，缩短住院时间[87,88]。
+推荐意见2：
+(17)胸部创伤患者出现低氧血症且进行性发展，没有禁忌证时可选用NIPPV。（Ⅱ级证据，中度推荐）
+2.2.11 不作气管插管的呼吸衰竭
+部分患者或家属拒绝气管插管（do-not intubation, DNI），在这些患者中，当窒息或ARF的病因是可逆的情况下，NIPPV可能是一种理想的生命支持手段[89]，能够改善患者舒适度并延缓患者死亡。多项研究报道NIPPV应用于DNI患者可能成功[89,90]，但应告知患者NIPPV的益处与不良风险。
+推荐意见2：
+(18)对于不作气管插管(DNI)的呼吸衰竭患者，在充分告知NIPPV的益处与不良风险的情况下，可尝试使用NIPPV。（Ⅲ级证据，中度推荐）
+2.2.12 辅助纤维支气管镜检查
+研究证明，对于呼吸系统重症患者, NIPPV可以在防止低氧血症和呼吸衰竭以及避免气管插管的情况下辅助完成纤维支气管镜的检查，但患者必须有自主呼吸并在纤维支气管镜检查前至少使用NIPPV 15~20 min，起始设置可以给予压力支持5~10 cmH2O，氧浓度需要能够保证患者氧饱和度维持在90%以上。可以选择全面罩进行NIPPV支持，适当使用镇静剂，并需要专业人员进行操作[91,92,93,94,95]。Baumann等[96]的研究肯定了NIPPV应用于辅助纤维支气管镜检查的可行性及安全性。
+推荐意见2：
+(19) NIPPV能够辅助纤维支气管镜的操作，避免气管插管，同时防止可能发生的低氧血症和呼吸衰竭。（Ⅲ级证据，中度推荐）
+2.3 呼吸机选择与人机连接方式
+2.3.1 呼吸机选择
+（1）临床上虽可应用有创及无创呼吸机实施NIPPV，但是两者存在明显区别[78,97,98,99,100,101,102]。Vignaux等[99]报道，由于漏气补偿不足，应用有创呼吸机实施NIPPV时无法保证人机同步，常需要频繁手动调整。临床采取NIPPV方式治疗呼吸衰竭最好选择符合主要性能要求的专用无创呼吸机，符合国家三类医疗器械注册的专用无创呼吸机则更佳。
+（2）目前适用于急诊NIPPV设备的主要性能及要求见表1。
+点击查看表格
+表1
+急诊用NIPPV的呼吸机性能要求
+表1
+急诊用NIPPV的呼吸机性能要求
+基本性能要求
+更好的性能要求
+CPAP、BIPAP模式
+压力支持≥40 cmH2O
+备用呼吸频率≥40次/min
+可调节压力上升时间
+保证中等漏气时的人机同步
+在辅助/控制模式中，可调节吸
+通气管道断开（脱管）报警
+/呼比
+压力支持大于30 cmH2O
+触发灵敏度可自动调节
+可暂停取消报警的装置
+内置电池可持续使用至少1 h
+控制面板易于操作并可锁定
+氧体积分数可调，21%~100%
+加温湿化调节
+波形显示
+吸气触发及吸呼切换：触发及切换是呼吸机的重要功能设置之一，是实现人机同步的保障。由于无创通气始终处于动态漏气变化的状态下，因此能够根据漏气变化进行动态自动调节的方式更佳。
+吸气压力和流量：①最高吸气压力，NIPPV医用呼吸机至少能提供30 cmH2O，能够达到40 cmH2O更为理想，以满足更多治疗的要求；②持续最大吸气流量是决定呼吸机对漏气补偿能力的重要性能指标之一，以提供160 L/min以上为宜；③吸气压力上升时间是指吸气触发至达到设定的吸气压所需要的时间。
+（3）氧气供给：NIPPV的给氧方式分为三种：①内置空氧混合器，氧体积分数在21%~100%精确可调，输入氧体积分数不受压力、漏气等因素影响，可完全满足所有具有无创通气适应证患者的需求；②高流量给氧，此类设备一般会通过位于机器后端氧气输入端口连接墙壁高压氧，通过减压阀调节氧气流速，一般可给予15~25 L/min的高流量氧，相对提高输入氧体积分数。但由于无创通气的漏气特性，临床实际应用中可达到的最高氧体积分数一般在45%~50%，压力支持增加及漏气增加均会引起氧体积分数的下降。③近患者端给氧，其氧气的输入可以通过面罩的氧气接入口、连接于管路面罩间、管路设备间的富氧接头连接低压氧源完成。一般最高氧体积分数可达40%左右，市场上大部分的无创呼吸机均为此类。需要注意的是，由于受到漏气因素影响，患者端氧供易被气流冲淡而低于预期，建议根据患者实际情况，适当调节供氧流量。
+（4）漏气补偿：NIPPV通过与鼻（面）罩相连的单管道与呼吸机相连，需要设置刻意漏气机制排除CO2。这种接触方式，容易发生"非刻意漏气"，一定范围内，这种漏气可以通过机器设置的压力传感器探测到，并通过上调通气压以补偿漏气。一般而言，非刻意漏气量不宜超过30 L/min。
+（5）监测及报警：应具备较全面的报警功能，一旦出现压力、流量或容量的急剧变化，无创呼吸机可以根据分析结果进行报警，比如脱管、大量泄漏等，提醒医护人员及时处理。目前新型呼吸机都能进行波形显示，为临床提供更多信息。
+（6）气道加温湿化：吸入气体的湿度及温度能够保证气道分泌物的清除及肺泡内气体分压的稳定，有利于气体交换。应用NIPPV时应根据患者情况及环境温度调节通气环路中气体的温度和湿度，同时也应注意环路里外温差导致管道内出现的冷凝水，其不仅可导致患者误吸，改变通气环路的顺应性及阻力，也干扰吸气和呼气触发功能。
+推荐意见3：
+(1)临床采取NIPPV方式治疗ARF最好选择符合主要性能要求的专用无创呼吸机。（Ⅱ级证据，强推荐）
+2.3.2 人机连接方式
+无创通气的人机连接方式有鼻罩、口鼻罩、全面罩、头罩等，目前以鼻罩和口鼻罩最常用。选择合适的人机连接方式是NIPPV成功的重要因素之一，应根据患者脸型及病情需求而定。使用鼻罩时，可减少幽闭恐惧症及误吸的发生，但患者张口呼吸可引起大量泄漏，导致口咽干涩及通气效果下降，也会干扰人机同步[103]。口鼻罩通气效果更好，但不利于排痰和医患交流。使用口鼻罩及鼻罩最常见的并发症是面部皮肤压力性损伤，尤其是鼻部，发生率约为5%~20%。目前临床也可选择使用全面罩，在提高患者耐受度及舒适度、减少泄漏的同时，可减少面部皮肤损伤的发生[104,105,106,107]。头罩是另外一种人机连接方式，目前使用效果存在争议。根据美国及欧洲的研究，口鼻罩依旧是临床医生首选的NIPPV的人机连接方式[2,108]。
+推荐意见3：
+(2)选择合适的人机连接方式是NIPPV成功的重要因素之一，应根据患者脸型及病情需求而定。（Ⅰ级证据，强推荐）
+(3)口鼻罩依旧是临床医生首选的NIPPV的人机连接方式。（Ⅱ级证据，中度推荐）
+2.4 通气模式选择及参数设置
+NIPPV的通气模式以辅助通气模式为主。对于Ⅱ型呼吸衰竭，目前常用BIPAP（S/T）或AVAPS模式；而对于Ⅰ型呼吸衰竭，CPAP和BIPAP均有较多应用。
+关于通气参数的设定，需要按照患者实际情况决定。NIPPV的吸气压力从低压开始，在20~30 min内逐渐增加压力，根据患者的感觉调至能够耐受的最高压力。采用此法调节后，常用的通气参数见表2。
+点击查看表格
+表2
+NIPPV常用通气参数的参考值
+表2
+NIPPV常用通气参数的参考值
+参数
+常用值
+潮气量
+7~15 mL/kg（标准体质量）a
+备用呼吸频率
+10~20次/min
+吸气时间
+0.8~1.2 s
+吸气压力
+10~30 cmH2O
+呼气末正压（PEEP）
+依患者情况而定（常用4~8 cmH2O，Ⅰ型呼吸衰竭时需要增加6~12 cmH2O）
+持续气道内正压（CPAP）
+6~15 cmH2O
+注：a男性标准体质量=50+0.91 (身高cm﹣152.4),女性标准体质量=45.5+0.91(身高cm﹣152.4)
+推荐意见4：
+(1) NIPPV的通气模式以辅助通气为主，最常用的为CPAP和BIPAP（S/T）模式。（Ⅰ级证据，强推荐）
+(2) NIPPV通气参数的设定，可根据患者的具体情况采用"可耐受的最高吸气压"。（Ⅱ级证据，中度推荐）
+专家组成员:
+曹钰（四川大学华西医院）、陈凤英（内蒙古医科大学附属医院）、陈晓辉（广州医科大学附属第二医院）、邓颖（哈尔滨医科大学附属第二医院）、董士民（河北医科大学第三医院）、封启明（上海市第六医院）、何庆（西南交通大学附属成都市第三医院）、黄亮（南昌大学第一附属医院）、冀兵（山西省人民医院）、康健（大连医科大学附属第一医院）、梁显泉（贵阳市金阳医院）、梁子敬（广州医科大学附属第一医院）、李超乾（广西卫生职业技术学院）、李培武（兰州大学第二医院）、李小刚（中南大学湘雅医院）、李湘民（中南大学湘雅医院）、林绍彬（福州市第二医院）、林珮仪（广州医科大学附属第二医院）、蔺佩鸿（福建医科大学附属第一医院）、刘明华（陆军军医大学西南医院）、卢中秋（温州医科大学附属第一医院）、吕传柱（海南医学院）、聂时南（东部战区总医院）、钱传云（昆明医科大学第一附属医院）、秦历杰（河南省人民医院）、司君利（青岛市市立医院）、田英平（河北医科大学第二医院）、王伯良（空军军医大学唐都医院）、王京岚（北京协和医院）、王旭涛（北京医院）、魏捷（武汉大学人民医院）、温伟（北京医院）、熊辉（北京大学第一医院）、杨立山（宁夏医科大学总医院）、尹文（空军军医大学西京医院）、于学忠（北京协和医院）、詹红（中山大学第一附属医院）、张国秀（河南科技大学第一附属医院）、张泓（安徽医科大学第一附属医院）、张茂（浙江大学医学院附属第二医院）、张新超（北京医院）、张劲农（华中科技大学附属协和医院）、赵斌（北京积水潭医院）、赵敏（中国医科大学附属盛京医院）、赵晓东（解放军总医院第四医学中心）、周荣斌（解放军总医院第七医学中心）、朱华栋（北京协和医院）
+附录：
+NIPPV的基本操作
+NIPPV是一项与操作者认识和应用水平以及患者配合程度密切相关的技术，其成败很大程度上取决于一系列技术环节。目前NIPPV的操作流程多数是经验的总结或专家意见，研究的证据不多。基本的操作流程见表3。
+点击查看表格
+表3
+NIPPV的基本操作
+表3
+NIPPV的基本操作
+NIPPV的基本操作
+患者的评估：适应证和禁忌证
+选择治疗场所和监护的强度
+患者的教育
+患者的体位：常用半卧位（30~45°）
+选择和试佩戴合适的连接器
+选择呼吸机
+开启呼吸机、参数的初始化和连接患者
+逐渐增加辅助通气的压力和潮气量（适应过程）
+密切监护（漏气、咳痰等）
+治疗1~2 h后评估疗效
+决定治疗的时间和疗程
+监控和防治并发症和不良反应
+视病情辅助湿化、雾化等
+1 患者的教育
+与有创通气不同，NIPPV需要患者的合作，因此，对患者的教育可以消除恐惧，争取配合，提高患者的依从性与舒适感，也有利于提高患者的应急能力，如在咳嗽、咳痰或呕吐等紧急情况下能够迅速拆除连接，提高安全性。教育的内容包括：治疗的作用和目的（缓解症状、帮助康复）；连接和拆除的方法；治疗过程中可能会出现的各种感觉，帮助患者正确区分和客观评价所出现的症状；可能出现的问题及相应措施，如鼻/面罩可能使面部有不适感，使用鼻罩时要闭口呼吸，注意咳痰和减少漏气等；指导患者有规律地放松呼吸，以便与呼吸机协调；鼓励主动排痰并指导吐痰的方法；嘱咐患者（或家人）出现不适及时通知医务人员等。
+2 连接方法的选择
+由于不同患者的脸型和对连接方法的偏好不一样，应提供不同大小和形状的连接器供患者试用。通常轻症患者可先试用鼻罩，ARF患者多需用口鼻罩，老年或无牙齿的患者口腔支撑能力较差，可尝试使用全面罩。佩戴的过程本身对患者的舒适性和耐受性有影响，建议在吸氧状态下将罩或接口器连接（此时不连接呼吸机或给予CPAP 4~5 cmH2O），摆好位置并调节好头带松紧度后，再连接呼吸机管道，避免在较高的吸气压力状态下佩戴面（鼻）罩。
+3 通气参数的初始化和适应性调节
+通气参数的初始化是指开始治疗时设置的参数。由于患者从完全的自主呼吸过渡到正压通气，需要有一个适应过程，因此，通常给予比较低的吸气压力。调节过程是指当患者逐渐适应正压通气后，逐渐增加吸气压，利于提高舒适性和依从性、以及保证辅助通气的效果。具体方法：从CPAP（4~5 cmH2O）或BIPAP（吸气压8~10 cmH2O、呼气压4~5 cmH2O）开始，经过2~20 min逐渐增加到合适的治疗水平，建议压力支持10 cmH2O以上。整个NIPPV治疗过程都需要根据患者病情的变化随时调整通气参数，最终达到改善临床状况包括动脉血气的目标。
+4 密切监测
+应用NIPPV期间，密切监测是判断疗效、发现不良反应和问题继而调节合理参数的重要措施，是提高患者耐受性和疗效的重要条件，也是避免因NIPPV治疗无效而延误气管插管的重要环节。监测内容可根据实施NIPPV的场所、导致呼吸衰竭的疾病、是否合并其他并发症等有所不同。常规监测包括临床表现、通气参数和生理学指标。
+5 疗效判断
+NIPPV属于呼吸支持治疗，而不是病因的治疗，其疗效受到基础疾病是否得到控制等众多因素的影响，因此，一般从两个层面进行评估。
+5.1 起始治疗时的评估
+起始治疗后1~2 h基于临床表现和动脉血气的变化来评价NIPPV是否有效，进而对其后的治疗决策起重要作用。评价NIPPV有效的最佳指标为：①临床表现，气促改善、辅助呼吸肌运动减轻和反常呼吸消失、呼吸频率减慢、心率改善等；②血气分析，PaO2和氧合指数改善，PaCO2下降，pH值改善。
+5.2 最终治疗效果的评估
+通常釆用气管插管率和病死率。
+6 NIPPV的治疗时间和撤除
+NIPPV的治疗时间目前尚没有明确的标准，也与基础疾病的性质和严重程度有关。与有创通气不同，即使是在治疗的急性阶段，NIPPV也不是强制性或持续性的，患者可以暂时停止NIPPV治疗而接受其他治疗如雾化吸入、常规给氧或进食。现有的临床研究报道中，NIPPV在初始24 h内实施的时间以及整个NIPPV治疗疗程变化很大，应视患者的具体情况而定。
+NIPPV的撤除目前主要依据患者临床症状及病情是否稳定。撤除的方法有：①逐渐降低压力支持水平；②逐渐减少通气时间（先减少白天通气时间，再减少夜间通气时间）；③使用AVAPS模式；④以上方式联合使用。
+7 NIPPV的缺点与常见不良反应
+NIPPV的缺点包括：①缺乏对气道的控制；②通气压力有限；③气道通路难以密闭（漏气、胃胀气）；④呼吸道湿化和引流不够充分，口咽干燥，排痰障碍；⑤缺乏完整的监测装置；⑥有误吸的风险；⑦呼吸面罩还可导致面部压伤、恐惧（幽闭症）等。
+NIPPV的不良反应发生率不高，不良反应通常比较轻微，但应注意观察和及时防治。
+参考文献
+[1]
+HessDR.
+The growing role of noninvasive ventilation in patients requiring prolonged mechanical ventilation[J].
+Respir Care,
+2012,
+57(
+6):
+900-
+920.
+DOI:10.4187/respcare.01692.
+[2]
+CrimiC, NotoA, PrinciP, et al.
+A European survey of noninvasive ventilation practices[J].
+Eur Respir J,
+2010,
+36(
+2):
+362-
+369.
+DOI:10.1183/09031936.00123509.
+[3]
+GarpestadE, BrennanJ, HillNS.
+Noninvasive ventilation for critical care[J].
+Chest,
+2007,
+132(
+2):
+711-
+720.
+DOI:10.1378/chest.06-2643.
+[4]
+KeenanSP, SinuffT, BurnsKEA, et al.
+Clinical practice guidelines for the use of noninvasive positive-pressure ventilation and noninvasive continuous positive airway pressure in the acute care setting[J].
+CMAJ,
+2011,
+183(
+3):
+E195-
+214.
+DOI:10.1503/cmaj.100071.
+[5]
+ContalO, VignauxL, CombescureC, et al.
+Monitoring of noninvasive ventilation by built-in software of home bilevel ventilators[J].
+Chest,
+2012,
+141(
+2):
+469-
+476.
+DOI:10.1378/chest.11-0485.
+[6]
+KhalidI, SherbiniN, QushmaqI, et al.
+Outcomes of patients treated with noninvasive ventilation by a medical emergency team on the wards[J].
+Respir Care,
+2014,
+59(
+2):
+186-
+192.
+DOI:10.4187/respcare.02515.
+[7]
+AkashibaT, IshikawaY, IshiharaH, et al.
+The Japanese respiratory society noninvasive positive pressure ventilation (NPPV) guidelines (second revised edition)[J].
+Respir Invest,
+2017,
+55(
+1):
+83-
+92.
+DOI:10.1016/j.resinv.2015.11.007.
+[8]
+British Thoracic Society Standards of Care Committee.
+Non-invasive ventilation in acute respiratory failure[J].
+Thorax,
+2002,
+57(
+3):
+192-
+211.
+DOI:10.1136/thorax.57.3.192.
+[9]
+Ozsancak UgurluA, SidhomSS, KhodabandehA, et al.
+Use and outcomes of noninvasive positive pressure ventilation in acute care hospitals in Massachusetts[J].
+Chest,
+2014,
+145(
+5):
+964-
+971.
+DOI:10.1378/chest.13-1707.
+[10]
+GuyattGH, OxmanAD, VistGE, et al.
+GRADE: an emerging consensus on rating quality of evidence and strength of recommendations[J].
+BMJ,
+2008,
+336(
+7650):
+924-
+926.
+DOI:10.1136/bmj.39489.470347.ad.
+[11]
+HessDR.
+Noninvasive ventilation for acute respiratory failure[J].
+Respir Care,
+2013,
+58(
+6):
+950-
+972.
+DOI:10.4187/respcare.02319.
+[12]
+PeñuelasO, Frutos-VivarF, EstebanA.
+Noninvasive positive-pressure ventilation in acute respiratory failure[J].
+CMAJ,
+2007,
+177(
+10):
+1211-
+1218.
+DOI:10.1503/cmaj.060147.
+[13]
+OzyilmazE, UgurluAO, NavaS.
+Timing of noninvasive ventilation failure: causes, risk factors, and potential remedies[J].
+BMC Pulm Med,
+2014,
+14:
+19.
+DOI:10.1186/1471-2466-14-19.
+[14]
+SorokskyA, KlinowskiE, IlgyevE, et al.
+Noninvasive positive pressure ventilation in acute asthmatic attack[J].
+Eur Respir Rev,
+2010,
+19(
+115):
+39-
+45.
+DOI:10.1183/09059180.00006109.
+[15]
+HooGWS.
+Noninvasive ventilation in adults with acute respiratory distress: a primer for the clinician[J].
+Hospital Practice,
+2010,
+38(
+1):
+16-
+25.
+DOI:10.3810/hp.2010.02.275.
+[16]
+慢性阻塞性肺疾病无创机械通气治疗研究协作组.
+早期应用无创正压通气治疗慢性阻塞性肺疾病急性加重期患者的多中心随机对照研究[J].
+中华结核和呼吸杂志,
+2005,
+28(
+10):
+680-
+684.
+DOI:10.3760/j.issn.1001-0939.2005.10.008.
+[17]
+陈荣昌，曾运祥，黎毅敏，等.
+用面(鼻)罩压力支持辅助通气治疗慢性呼吸衰竭急性加重患者[J].
+中华结核和呼吸杂志,
+1992,
+15(
+5):
+285-
+287.
+[18]
+刘玲，邱海波，郑瑞强, 等.
+早期无创正压通气治疗慢性阻塞性肺疾病急性加重期的前瞻性随机对照研究[J].
+中国危重病急救医学,
+2005,
+17(
+8):
+477-
+480.
+[19]
+PazarliAC, KoseogluHI, DorukS, et al.
+Procalcitonin: Is it a predictor of noninvasive positive pressure ventilation necessity in acute chronic obstructive pulmonary disease exacerbation? [J].
+J Res Med Sci,
+2012,
+17(
+11):
+1047-
+1051.
+[20]
+DeckerR.
+Global initiative for chronic obstructive pulmonary disease: Global straegy for the diagnosis,managment, and prevention of chronic obstructive pulmonary disease (2018 report) [EB/OL].
+https://goldcopd.org.2018/2018-12.
+[21]
+Martinez-GarciaMA, de la Rosa CarrilloD, Soler-CatalunaJJ, et al.
+Prognostic value of bronchiectasis in patients with moderate-to-severe chronic obstructive pulmonary disease[J].
+Am J Respir Crit Care Med,
+2013,
+187(
+8):
+823-
+831.
+[22]
+Consensus development conference committee.
+Clinical indications for noninvasive positive pressure ventilation in chronic respiratory failure due to restrictive lung disease, COPD, and nocturnal hypoventilation--a consensus conference report[J].
+Chest,
+1999,
+116(
+2):
+521-
+534.
+DOI:10.1378/chest.116.2.521.
+[23]
+ChandraD, StammJA, TaylorB, et al.
+Outcomes of noninvasive ventilation for acute exacerbations of chronic obstructive pulmonary disease in the United States, 1998–2008[J].
+Am J Respir Crit Care Med,
+2012,
+185(
+2):
+152-
+159.
+DOI:10.1164/rccm.201106-1094oc.
+[24]
+OrnicoSR, LoboSM, SanchesHS, et al.
+Noninvasive ventilation immediately after extubation improves weaning outcome after acute respiratory failure: a randomized controlled trial[J].
+Crit Care,
+2013,
+17(
+2):
+R39.
+DOI:10.1186/cc12549.
+[25]
+CarratuP, BonfittoP, DragonieriS, et al.
+Early and late failure of noninvasive ventilation in chronic obstructive pulmonary disease with acute exacerbation[J].
+Eur J Clin Invest,
+2005,
+35(
+6):
+404-
+409.
+DOI:10.1111/j.1365-2362.2005.01509.x.
+[26]
+ElliottMW, ConfalonieriM, NavaS.
+Where to perform noninvasive ventilation?[J].
+Eur Respir J,
+2002,
+19(
+6):
+1159-
+1166.
+DOI:10.1183/09031936.02.00297202.
+[27]
+WengCL.
+Meta-analysis: noninvasive ventilation in acute cardiogenic pulmonary edema[J].
+Ann Intern Med,
+2010,
+152(
+9):
+590-
+600.
+DOI:10.7326/0003-4819-152-9-201005040-00009.
+[28]
+RochwergB, BrochardL, ElliottMW, et al.
+Official ERS/ATS clinical practice guidelines: noninvasive ventilation for acute respiratory failure[J].
+Eur Respir J,
+2017,
+50(
+2):
+1602426.
+DOI:10.1183/13993003.02426-2016.
+[29]
+NouiraS, BoukefR, BouidaW, et al.
+Non-invasive pressure support ventilation and CPAP in cardiogenic pulmonary edema: a multicenter randomized study in the emergency department[J].
+Intensive Care Med,
+2011,
+37(
+2):
+249-
+256.
+DOI:10.1007/s00134-010-2082-3.
+[30]
+SalmanA, MilbrandtEB, PinskyMR.
+The role of noninvasive ventilation in acute cardiogenic pulmonary edema[J].
+Crit Care,
+2010,
+14(
+2):
+303.
+DOI:10.1186/cc8889.
+[31]
+MasipJ, RoqueM, SánchezB, et al.
+Noninvasive ventilation in acute cardiogenic pulmonary edema: systematic review and meta-analysis[J].
+JAMA,
+2005,
+294(
+24):
+3124-
+3130.
+DOI:10.1001/jama.294.24.3124.
+[32]
+WinckJC, AzevedoLF, Costa-PereiraA, et al.
+Efficacy and safety of non-invasive ventilation in the treatment of acute cardiogenic pulmonary edema—a systematic review and meta-analysis[J].
+Crit Care,
+2006,
+10:
+R69.
+[33]
+PottsJM.
+Noninvasive positive pressure ventilation: effect on mortality in acute cardiogenic pulmonary edema: a pragmatic meta-analysis[J].
+Pol Arch Med Wewn，
+2009,
+119(
+6):
+349-
+353.
+DOI:10.20452/pamw.705.
+[34]
+L'HerE, DuquesneF, GirouE, et al.
+Noninvasive continuous positive airway pressure in elderly cardiogenic pulmonary edema patients[J].
+Intensive Care Med,
+2004,
+30(
+5):
+882-
+888.
+DOI:10.1007/s00134-004-2183-y.
+[35]
+BelloneA, MonariA, CortellaroF, et al.
+Myocardial infarction rate in acute pulmonary edema: Noninvasive pressure support ventilation versus continuous positive airway pressure[J].
+Crit Care Med,
+2004,
+32(
+9):
+1860-
+1865.
+DOI:10.1097/01.ccm.0000139694.47326.b6.
+[36]
+Rialp CerveraG, del Castillo BlancoA, Pérez AizcorretaO, et al.
+Noninvasive mechanical ventilation in chronic obstructive pulmonary disease and in acute cardiogenic pulmonary edema[J].
+Medicina Intensiva (English Edition),
+2014,
+38(
+2):
+111-
+121.
+DOI:10.1016/j.medine.2012.09.009.
+[37]
+SalvadoriM, BertoniE.
+What's new in clinical solid organ transplantation by 2013[J].
+World J Transplant,
+2014,
+4(
+4):
+243-
+266.
+DOI:10.5500/wjt.v4.i4.243.
+[38]
+LemialeV, MokartD, Resche-RigonM, et al.
+Effect of noninvasive ventilation vs oxygen therapy on mortality among immunocompromised patients with acute respiratory failure: A randomized clinical trial[J].
+JAMA,
+2015,
+314(
+16):
+1711-
+1719.
+DOI:10.1001/jama.2015.12402.
+[38]
+AntonelliM, ContiG, BufiM, et al.
+Noninvasive ventilation for treatment of acute respiratory failure in patients undergoing solid organ transplantation: a randomized trial[J].
+JAMA,
+2000,
+283(
+2):
+235-
+241.
+DOI:10.1001/jama.283.2.235.
+[40]
+HilbertG, GrusonD, VargasF, et al.
+Noninvasive ventilation in immunosuppressed patients with pulmonary infiltrates, fever, and acute respiratory failure[J].
+N Engl J Med,
+2001,
+344(
+7):
+481-
+487.
+DOI:10.1056/nejm200102153440703.
+[41]
+GristinaGR, AntonelliM, ContiG, et al.
+Noninvasive versus invasive ventilation for acute respiratory failure in patients with hematologic malignancies: a 5-year multicenter observational survey[J].
+Crit Care Med,
+2011,
+39(
+10):
+2232-
+2239.
+DOI:10.1097/ccm.0b013e3182227a27.
+[42]
+FratJP, RagotS, GiraultC, et al.
+Effect of non-invasive oxygenation strategies in immunocompromised patients with severe acute respiratory failure: post-hoc analysis of a randomized trial[J].
+Lancet Respir Med,
+2016,
+4(
+8):
+646-
+652.
+DOI:10.1016/s2213-2600(16)30093-5.
+[43]
+BurnsKEA, MeadeMO, PremjiA, et al.
+Noninvasive ventilation as a weaning strategy for mechanical ventilation in adults with respiratory failure: a cochrane systematic review[J].
+CMAJ.
+2014,
+186(
+3):
+E112-
+122.
+DOI:10.1503/cmaj.130974.
+[44]
+MacIntyreNR, CookDJ, ElyEW, et al.
+Evidence-based guidelines for weaning and discontinuing ventilatory support. A collective task force facilitated by the American College of Chest Physicians, the American Association for Respiratory Care, and the American College of Critical Care Medicine[J].
+Chest,
+2001,
+120(
+6):
+375S-
+95S.
+[45]
+VaschettoR, TuruczE, DellapiazzaF, et al.
+Noninvasive ventilation after early extubation in patients recovering from hypoxemic acute respiratory failure: a single-centre feasibility study[J].
+Intensive Care Med,
+2012,
+38(
+10):
+1599-
+1606.
+DOI:10.1007/s00134-012-2652-7.
+[46]
+FerrariG, OlliveriF, De FilippiC, et al.
+Noninvasive positive airway pressure and risk of myocardial infarction in acute cardiogenic pulmonary edema: continuous positive airway pressure vs noninvasive positive pressure ventilation[J].
+Chest,
+2007,
+132(
+6):
+1804-
+1809.
+DOI:10.1378/chest.07-1058.
+[47]
+VitaccaM, AmbrosinoN, CliniE, et al.
+Physiological response to pressure support ventilation delivered before and after extubation in patients not capable of totally spontaneous autonomous breathing[J].
+Am J Respir Crit Care Med,
+2001,
+164(
+4):
+638-
+641.
+DOI:10.1164/ajrccm.164.4.2010046.
+[48]
+GiraultC, BubenheimM, AbrougF, et al.
+Noninvasive ventilation and weaning in patients with chronic hypercapnic respiratory failure: a randomized multicenter trial[J].
+Am J Respir Crit Care Med,
+2011,
+184(
+6):
+672-
+679.
+DOI:10.1164/rccm.201101-0035oc.
+[49]
+HessDR.
+The role of noninvasive ventilation in the ventilator discontinuation process[J].
+Respir Care,
+2012,
+57(
+10):
+1619-
+1625.
+DOI:10.4187/respcare.01943.
+[50]
+YanHY, YangY, WuYL.
+Clinical analysis of optimal timing for application of noninvasive positive pressure ventilation in treatment of AECOPD patients[J].
+Eur Rev Med Pharmacol Sci,
+2014,
+16:
+2176-
+2181.
+[51]
+NavaS, GregorettiC, FanfullaF, et al.
+Noninvasive ventilation to prevent respiratory failure after extubation in high-risk patients[J].
+Crit Care Med,
+2005,
+33(
+11):
+2465-
+2470.
+DOI:10.1097/01.ccm.0000186416.44752.72.
+[52]
+FerrerM, ValenciaM, NicolasJM, et al.
+Early noninvasive ventilation averts extubation failure in patients at risk: a randomized trial[J].
+Am J Respir Crit Care Med,
+2006,
+173(
+2):
+164-
+170.
+DOI:10.1164/rccm.200505-718oc.
+[53]
+The ARDS Definition Task Force.
+Acute respiratory distress syndrome: the Berlin definition[J].
+JAMA,
+2012,
+307(
+23):
+2526-
+2533.
+[54]
+AgarwalR, AggarwalAN, GuptaD.
+Role of noninvasive ventilation in acute lung injury/acute respiratory distress syndrome: A proportion meta-analysis[J].
+Respir Care,
+2010,
+55(
+12):
+1653-
+1660.
+[55]
+AgarwalR, HandaA, AggarwalAN, et al.
+Outcomes of noninvasive ventilation in acute hypoxemic respiratory failure in a respiratory intensive care unit in north India[J].
+Respir Care,
+2009,
+54(
+12):
+1679-
+1687.
+[56]
+AntonelliM, ContiG, MoroML, et al.
+Predictors of failure of noninvasive positive pressure ventilation in patients with acute hypoxemic respiratory failure: a multi-center study[J].
+Intensive Care Med,
+2001,
+27(
+11):
+1718-
+1728.
+DOI:10.1007/s00134-001-1114-4.
+[57]
+NavaS, SchreiberA, DomenighettiG.
+Noninvasive ventilation for patients with acute lung injury or acute respiratory distress syndrome[J].
+Respir Care,
+2011,
+56(
+10):
+1583-
+1588.
+DOI:10.4187/respcare.01209.
+[58]
+丁琳，詹庆元，罗祖金, 等.
+无创正压通气治疗急性呼吸窘迫综合征的前瞻性队列研究[J].
+中国危重病急救医学,
+2009,
+21(
+10):
+613-
+616.
+DOI:10.3760/cma.j.issn.1003-0603.2009.10.013.
+[59]
+LeathermanJ.
+Mechanical ventilation for severe asthma[J].
+Chest,
+2015,
+147(
+6):
+1671-
+1680.
+DOI:10.1378/chest.14-1733.
+[60]
+MuraseK, TomiiK, ChinK, et al.
+The use of non-invasive ventilation for life-threatening asthma attacks: Changes in the need for intubation[J].
+Respirology,
+2010,
+15(
+4):
+714-
+720.
+DOI:10.1111/j.1440-1843.2010.01766.x.
+[61]
+GaneshA, ShenoyS, DoshiV, et al.
+Use of noninvasive ventilation in adult patients with acute asthma exacerbation[J].
+Am J Ther,
+2015,
+22(
+6):
+431-
+434.
+DOI:10.1097/mjt.0000000000000184.
+[62]
+StefanMS, NathansonBH, LaguT, et al.
+Outcomes of noninvasive and invasive ventilation in patients hospitalized with asthma exacerbation[J].
+Ann Am Thorac Soc,
+2016,
+13(
+7):
+1096-
+1104.
+DOI:10.1513/annalsats.201510-701oc.
+[63]
+胡晓峰，李滨，陈庆青, 等.
+无创正压机械通气治疗急性中毒合并呼吸衰竭的效果[J].
+上海医学,
+2012,
+35(
+2):
+141-
+144.
+[64]
+占凌峰.
+无创通气治疗化学气体中毒性肺水肿的疗效观察[J].
+浙江中医药大学学报,
+2011,
+35(
+1):
+26-27,19.
+DOI:10.3969/j.issn.1005-5509.2011.01.013.
+[65]
+林佩仪，陈晓辉，陈荣昌.
+经鼻(面)罩双水平气道正压通气治疗急性肺水肿的临床研究[J].
+中国急救医学,
+2000,
+20(
+12):
+713-
+714.
+DOI:10.3969/j.issn.1002-1949.2000.12.010.
+[66]
+李小强，陈运超，刘移民.
+无创正压通气治疗急性中毒性肺水肿的临床研究[J].
+热带医学杂志,
+2009,
+9(
+4):
+420-
+4215.
+[67]
+张拥军，郭静霞，侯云生, 等.
+无创机械通气救治氯气中毒并发肺水肿36例临床观察[J].
+中国急救医学,
+2008,
+28(
+1):
+90-
+91.
+DOI:10.3969/j.issn.1002-1949.2008.01.030.
+[68]
+FerrerM, EsquinasA, LeonM, et al.
+Noninvasive ventilation in severe hypoxemic respiratory failure[J].
+Am J Respir Crit Care Med,
+2003,
+168(
+12):
+1438-
+1444.
+DOI:10.1164/rccm.200301-072oc.
+[69]
+ConfalonieriM, PotenaA, CarboneG, et al.
+Acute respiratory failure in patients with severe community-acquired pneumonia. A prospective randomized evaluation of noninvasive ventilation[J].
+Am J Respir Crit Care Med,
+1999,
+160(
+5):
+1585-
+1591.
+DOI:10.1164/ajrccm.160.5.9903015.
+[70]
+JollietP, AbajoB, PasquinaP, et al.
+Non-invasive pressure support ventilation in severe community-acquired pneumonia[J].
+Intensive Care Med,
+2001,
+27(
+5):
+812-
+821.
+DOI:10.1007/s001340100869.
+[71]
+AntonelloN, GianlucaF, RenataS.
+Severe Legionella pneumophila pneumonia and non-invasive ventilation: presentation of two cases and brief review of the literature[J].
+Pneumonol Alergol Pol,
+2013,
+81(
+4):
+399-
+403.
+[72]
+RazlafP, PabstD, MohrM, et al.
+Non-invasive ventilation in immunosuppressed patients with pneumonia and extrapulmonary sepsis[J].
+Respir Med,
+2012,
+106(
+11):
+1509-
+1516.
+DOI:10.1016/j.rmed.2012.08.007.
+[73]
+TomiiK, TachikawaR, ChinK, et al.
+Role of non-invasive ventilation in managing life-threatening acute exacerbation of interstitial pneumonia[J].
+Intern Med,
+2010,
+49(
+14):
+1341-
+1347.
+DOI:10.2169/internalmedicine.49.3491.
+[74]
+MasclansJR, PérezM, AlmirallJ, et al.
+Early non-invasive ventilation treatment for severe inﬂuenza pneumonia[J].
+Clin Microbiol Infect,
+2013,
+19(
+3):
+249-
+256.
+DOI:10.1111/j.1469-0691.2012.03797.x.
+[75]
+AntonelloN, MarioS, Ferrari-BravoM.
+Effectiveness of early non-invasive ventilation treatment for severe respiratory failure due to community acquired-pneumonia[J].
+Clin Resp J,
+2014,
+10 (
+1) :
+98-
+103.
+[76]
+SeneviratneJ, MandrekarJ, WijdicksEFM, et al.
+Noninvasive ventilation in myasthenic crisis[J].
+Arch Neurol,
+2008,
+65(
+1):
+54-
+58.
+DOI:10.1001/archneurol.2007.1.
+[77]
+BachJR, MartinezD.
+Duchenne muscular dystrophy: continuous noninvasive ventilatory support prolongs survival[J].
+Respir Care,
+2011,
+56(
+6):
+744-
+750.
+DOI:10.4187/respcare.00831.
+[78]
+HessDR.
+Noninvasive ventilation in neuromuscular disease: equipment and application[J].
+Respir Care,
+2006,
+51(
+8):
+896-
+912.
+[79]
+WardS, ChatwinM, HeatherS, et al.
+Randomised controlled trial of non-invasive ventilation (NIV) for nocturnal hypoventilation in neuromuscular and chest wall disease patients with daytime normocapnia[J].
+Thorax,
+2005,
+60(
+12):
+1019-
+1024.
+DOI:10.1136/thx.2004.037424.
+[80]
+ShneersonJM, SimondsAK.
+Noninvasive ventilation for chest wall and neuromuscular disorders[J].
+Eur Respir J,
+2002,
+20(
+2):
+480-
+487.
+DOI:10.1183/09031936.02.00404002.
+[81]
+ConsensusConference.
+Clinical indications for noninvasive positive pressure ventilation in chronic respiratory failure due to restrictive lung disease, COPD, and nocturnal hypoventilation - a consensus conference report[J].
+Chest,
+1999,
+116(
+2):
+521-
+534.
+DOI:10.1378/chest.116.2.521.
+[82]
+ChiumelloD, CoppolaS, FroioS, et al.
+Noninvasive ventilation in chest trauma: systematic review and meta-analysis[J].
+Intensive Care Med,
+2013,
+39(
+7):
+1171-
+1180.
+DOI:10.1007/s00134-013-2901-4.
+[83]
+WanekS, MayberryJC.
+Blunt thoracic trauma: flail chest, pulmonary contusion, and blast injury[J].
+Crit Care Clin,
+2004,
+20(
+1):
+71-
+81.
+DOI:10.1016/s0749-0704(03)00098-8.
+[84]
+PeterJV, MoranJL, Phillips-HughesJ, et al.
+Effect of non-invasive positive pressure ventilation (NIPPV) on mortality in patients with acute cardiogenic pulmonary edema: a meta-analysis[J].
+Lancet,
+2006,
+367(
+9517):
+1155-
+1163.
+DOI:10.1016/s0140-6736(06)68506-1.
+[85]
+LightowlerJV, WedzichaJA, ElliottMW, et al.
+Non-invasive positive pressure ventilation to treat respiratory failure resulting from exacerbations of chronic obstructive pulmonary disease: cochrane systematic review and meta-analysis[J].
+BMJ,
+2003,
+326(
+7382):
+185.
+DOI:10.1136/bmj.326.7382.185.
+[86]
+KeenanSP, SinuffT, CookDJet al.
+Does noninvasive positive pressure ventilation improve outcome in acute hypoxemic respiratory failure? A systematic review[J].
+Crit Care Med,
+2004,
+32(
+12):
+2516-
+2523.
+DOI:10.1097/01.ccm.0000148011.51681.e2.
+[87]
+BolligerCT, Van EedenSF.
+Treatment of multiple rib fractures. Randomized controlled trial comparing ventilatory with nonventilatory management[J].
+Chest,
+1990,
+97:
+943-
+948.
+[88]
+HernandezG, FernandezR, Lopez-ReinaP, et al.
+Noninvasive ventilation reduces intubation in chest trauma-related hypoxemia: a randomized clinical trial[J].
+Chest,
+2010,
+137(
+1):
+74-
+80.
+DOI:10.1378/chest.09-1114.
+[89]
+Azoulayé, KouatchetA, JaberS, et al.
+Noninvasive mechanical ventilation in patients having declined tracheal intubation[J].
+Intensive Care Med,
+2013,
+39(
+2):
+292-
+301.
+DOI:10.1007/s00134-012-2746-2.
+[90]
+KacmarekRM.
+Should noninvasive ventilation be used with the do-not-intubate patient? [J].
+Respir Care,
+2009,
+54(
+2):
+223-
+229.
+[91]
+ScalaR, NaldiM, MaccariU.
+Early fiberoptic bronchoscopy during noninvasive ventilation in patients with decompensated chronic obstructive pulmonary disease due to community-acquired-pneumonia[J].
+Crit Care,
+2010,
+14(
+2):
+R80.
+DOI:10.1186/cc8993.
+[92]
+AntonelliM, ContiG, RoccoM, et al.
+Noninvasive positive-pressure ventilation vs conventional oxygen supplementation in hypoxemic patients undergoing diagnostic bronchoscopy[J].
+Chest,
+2002,
+121(
+4):
+1149-
+1154.
+DOI:10.1378/chest.121.4.1149.
+[93]
+AntonelliM, ContiC, BufiM, et al.
+Noninvasive ventilation for treatment of acute respiratory failure in patients undergoing solid organ transplantation[J].
+JAMA,
+2000,
+283(
+2):
+235-
+241.
+DOI:10.1001/jama.283.2.235.
+[94]
+AntonelliM.
+The feasibility and safety of fiberoptic bronchoscopy during noninvasive ventilation in patients with established acute lung injury: another small brick in the wall[J].
+Crit Care,
+2011,
+15(
+5):
+191.
+DOI:10.1186/cc10342.
+[95]
+JaberS, ChanquesG.
+Another step for noninvasive ventilation in chronic obstructive pulmonary disease patients![J].
+Crit Care,
+2010,
+14(
+3):
+163.
+DOI:10.1186/cc9023.
+[96]
+BaumannH, KloseH, SimonM, et al.
+Fiber optic bronchoscopy in patients with acute hypoxemic respiratory failure requiring noninvasive ventilation - a feasibility study[J].
+Crit Care,
+2011,
+15(
+4):
+R179.
+DOI:10.1186/cc10328.
+[97]
+HessDR.
+How to initiate a noninvasive ventilation program: bringing the evidence to the bedside[J].
+Respir Care,
+2009,
+54(
+2):
+232-
+243.
+[98]
+ScalaR, NaldiM.
+Ventilators for noninvasive ventilation to treat acute respiratory failure[J].
+Respir Care,
+2008,
+53(
+8):
+1054-
+1080.
+[99]
+VignauxL, TassauxD, CarteauxG, et al.
+Performance of noninvasive ventilation algorithms on ICU ventilators during pressure support: a clinical study[J].
+Intensive Care Med,
+2010,
+36(
+12):
+2053-
+2059.
+DOI:10.1007/s00134-010-1994-2.
+[100]
+FerreiraJC, ChipmanDW, HillNS, et al.
+Bilevel vs ICU ventilators providing noninvasive ventilation: effect of system leaks: a COPD lung model comparison[J].
+Chest,
+2009,
+136(
+2):
+448-
+456.
+DOI:10.1378/chest.08-3018.
+[101]
+CarteauxG, LyazidiA, Cordoba-IzquierdoA, et al.
+Patient-ventilator asynchrony during noninvasive ventilation: a bench and clinical study[J].
+Chest,
+2012,
+142(
+2):
+367-
+376.
+DOI:10.1378/chest.11-2279.
+[102]
+HessDR, BransonRD.
+Know your ventilator to beat the leak[J].
+Chest,
+2012,
+142(
+2):
+274-
+275.
+DOI:10.1378/chest.12-0489.
+[103]
+GonzalezJ, SharsharT, HartN, et al.
+Air leaks during mechanical ventilation as a cause of persistent hypercapnia in neuromuscular disorders[J].
+Intensive Care Med,
+2003,
+29(
+4):
+596-
+602.
+DOI:10.1007/s00134-003-1659-5.
+[104]
+NavaS, NavalesiP, GregorettiC.
+Interfaces and humidification for noninvasive mechanical ventilation[J].
+Respir Care,
+2009,
+54(
+1):
+71-
+84.
+[105]
+MuncktonK, HoKM, DobbGJ, et al.
+The pressure effects of facemasks during noninvasive ventilation: a volunteer study[J].
+Anaesthesia,
+2007,
+62(
+11):
+1126-
+1131.
+DOI:10.1111/j.1365-2044.2007.05190.x.
+[106]
+ChacurFH, Vilella FelipeLM, FernandesCG, et al.
+The total face mask is more comfortable than the oronasal mask in noninvasive ventilation but is not associated with improved outcome[J].
+Respiration,
+2011,
+82(
+5):
+426-
+430.
+DOI:10.1159/000324441.
+[107]
+BelchiorI, GoncalvesMR, WinckJC.
+Continuous noninvasive ventilation delivered by a novel total face mask: a case series report[J].
+Respir Care,
+2012,
+57(
+3):
+449-
+453.
+DOI:10.4187/respcare.01275.
+[108]
+HessDR, PangJM, CamargoCA.
+A survey of the use of noninvasive ventilation in academic emergency departments in the United States[J].
+Respir Care,
+2009,
+54(
+10):
+1306-
+1312.
+贡献者信息
+中国医师协会急诊医师分会
+中国医疗保健国际交流促进会急诊急救分会
+国家卫生健康委能力建设与继续教育中心急诊学专家委员会
+历史
+出版日期：2019-01-10
+收稿日期：2018-12-06
+本文编辑
+郑辛甜
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+GuyattGH, OxmanAD, VistGE, et al.
+GRADE: an emerging consensus on rating quality of evidence and strength of recommendations[J].
+BMJ,
+2008,
+336(
+7650):
+924-
+926.
+DOI:10.1136/bmj.39489.470347.ad.
+表1
+急诊用NIPPV的呼吸机性能要求
+基本性能要求
+更好的性能要求
+CPAP、BIPAP模式
+压力支持≥40 cmH2O
+备用呼吸频率≥40次/min
+可调节压力上升时间
+保证中等漏气时的人机同步
+在辅助/控制模式中，可调节吸
+通气管道断开（脱管）报警
+/呼比
+压力支持大于30 cmH2O
+触发灵敏度可自动调节
+可暂停取消报警的装置
+内置电池可持续使用至少1 h
+控制面板易于操作并可锁定
+氧体积分数可调，21%~100%
+加温湿化调节
+波形显示
+表2
+NIPPV常用通气参数的参考值
+参数
+常用值
+潮气量
+7~15 mL/kg（标准体质量）a
+备用呼吸频率
+10~20次/min
+吸气时间
+0.8~1.2 s
+吸气压力
+10~30 cmH2O
+呼气末正压（PEEP）
+依患者情况而定（常用4~8 cmH2O，Ⅰ型呼吸衰竭时需要增加6~12 cmH2O）
+持续气道内正压（CPAP）
+6~15 cmH2O
+注：a男性标准体质量=50+0.91 (身高cm﹣152.4),女性标准体质量=45.5+0.91(身高cm﹣152.4)
+表3
+NIPPV的基本操作
+NIPPV的基本操作
+患者的评估：适应证和禁忌证
+选择治疗场所和监护的强度
+患者的教育
+患者的体位：常用半卧位（30~45°）
+选择和试佩戴合适的连接器
+选择呼吸机
+开启呼吸机、参数的初始化和连接患者
+逐渐增加辅助通气的压力和潮气量（适应过程）
+密切监护（漏气、咳痰等）
+治疗1~2 h后评估疗效
+决定治疗的时间和疗程
+监控和防治并发症和不良反应
+视病情辅助湿化、雾化等
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华急诊医学杂志2019年28卷1期
+文    题：无创正压通气急诊临床实践专家共识（2018）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华急诊医学杂志2019年28卷1期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

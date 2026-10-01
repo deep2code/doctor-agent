@@ -1,0 +1,785 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%BA%9A%E4%BD%8E%E6%B8%A9%E8%84%91%E4%BF%9D%E6%8A%A4%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 亚低温脑保护中国专家共识 - 中华危重病急救医学
+# 发布方/日期: 重症医学科，2020-04-28
+
+亚低温脑保护中国专家共识
+中国研究型医院学会神经再生与修复专业委员会心脏重症脑保护学组
+中国研究型医院学会神经再生与修复专业委员会神经重症护理与康复学组
+中华危重病急救医学, 2020,32(04) : 385-391. DOI: 10.3760/cma.j.cn121430-20200117-00137
+自20世纪80年代，Busto首次提出"亚低温（32～35 ℃）治疗脑损伤"的概念以来，亚低温对机体的保护作用，尤其是对脑组织的保护作用越来越被学者们关注与认可[1]。亚低温作为一种有效的脑保护方法已应用于重症颅脑损伤、心脏手术及心肺复苏（CPR）后患者的治疗中。虽然国外已有亚低温脑保护的相关指南、草案或者建议[1]，但国内相关内容尚不完善。为此，中国研究型医院学会神经再生与修复专业委员会心脏重症脑保护学组联合神经重症护理与康复学组，组织国内心脏内外科、神经内外科、重症监护科、体外循环科、麻醉科、急诊科等医学专家，参考国内外相关指南，结合我国的实际情况，从亚低温技术的特点、应用领域、操作方法、常见问题等方面制定了《亚低温脑保护中国专家共识》，旨在促进患者脑神经功能的康复。该共识的撰写历时8个月，其间经过共识指导工作委员会、专家评审团、调查评价质控小组以及撰写团队多次讨论，最终成稿，以期指导相关领域的临床实践。
+1 概 述
+1.1 低温脑保护的定义与分类：
+低温脑保护为通过人工物理的方法降低患者全身体温或者局部脑温，进而降低脑氧耗、促进脑功能恢复的一种治疗方法[2]。目前国际上将低温划分为：轻度低温（33～35 ℃）、中度低温（28～32 ℃）、深低温（17～27 ℃）、超深低温（4～16 ℃）。其中轻度低温和中度低温归属亚低温，临床应用最为普遍。多数研究表明，33 ℃是亚低温治疗最合适的温度，对缺血损伤保护效果最佳[3,4]。深低温只应用于特殊患者（如主动脉狭窄或者主动脉夹层），与亚低温相比，深低温的相关并发症也更多、更加严重[5]。因此，本共识主要探讨亚低温脑保护的范畴。
+1.2 亚低温脑保护发展简史及作用机制：
+1959年美国学者FAY[6]首次应用冬眠低温疗法治疗颅脑损伤，开创了"低温脑保护"的时代。20世纪50年代，深低温用于开胸心脏手术的器官保护[7]。到了20世纪60年代，深低温用于颅内动脉瘤的直视手术[8]。从20世纪90年代开始，低温脑保护研究逐渐成为各国学者研究的热点。1993年我国神经外科学者江基尧和朱诚[9]提出了"亚低温脑保护"的概念。
+多年来，经过众多临床研究证实，亚低温可以有效改善脑功能预后，具有显著的脑保护作用[10,11]。亚低温治疗的原理是利用具有中枢神经系统抑制作用的药物，使患者进入睡眠状态，再配合物理降温减少脑耗氧量和能量代谢，从而降低颅脑损伤患者的颅内压[12]。其作用机制为[13,14]：①降低脑能量代谢，减少脑组织乳酸堆积。②保护血脑屏障，减轻脑水肿，降低颅内压。③抑制兴奋性氨基酸的释放，降低神经毒性作用。④抑制一氧化氮合酶的活性，减少一氧化氮终产物的产生，减少神经元死亡。⑤减少Ca2+内流，阻断钙对神经元的毒性作用。⑥抑制氧自由基的产生，促进氧自由基的清除。⑦抑制参与即刻早期基因c-fos的表达。⑧减少炎性因子的释放，抑制神经元凋亡。
+1.3 亚低温脑保护适用人群：
+亚低温具有显著的神经保护作用，而且无明显不良反应[13]，适用于心脏外科体外循环术中的脑保护、脑灌注压下降相关的颅脑损伤、CPR后脑病、新生儿缺氧缺血性脑病、颅脑损伤（创伤性颅脑损伤、广泛脑挫裂伤出血后脑水肿、颅脑损伤、急性癫痫持续状态等）、缺血性脑卒中、脑出血、蛛网膜下腔出血、各种高热状态（中枢性高热病、高热惊厥、脑炎）等[15,16]。亚低温脑保护无绝对禁忌证，但年老体弱、生命体征不平稳者酌情采用[17]。
+1.4 亚低温脑保护方法：
+目前，亚低温脑保护方法主要包括全身体表降温、血管内降温以及局部降温等[18]。
+1.4.1 体表降温：
+常规使用冰袋、冰帽。可用毛巾包裹冰袋，置于头部和大血管体表部位，该方法简单、易行，但不推荐使用冰水浸浴或冰屑（特殊紧急条件下除外，例如野战创伤不具备医疗条件下）。推荐使用降温毯以及亚低温治疗仪等可控电子化降温设备实施靶向目标降温。
+1.4.2 血管内降温：
+①静脉输液法：30 min内静脉输注4 ℃晶体液（等渗林格液，30 mL/kg）；对于心功能较差或容量负荷过重的患者需谨慎使用。②体外循环法：建立体表血管通路（股动静脉建立循环），经体外循环机变温器或者体外膜肺氧合（ECMO）进行降温，该方法效果最显著，但创伤较大，需全身肝素化；对于脑出血患者不建议使用，其可增加出血面积以及出血量。③血管内热交换法（将闭合的冷盐水循环管路置入静脉系统内进行降温）：与体表降温、复温相比，血管内降温、复温更加迅速、均匀，温差小，对血流动力学影响小。
+1.4.3 局部降温：
+选择性头部降温应用于临床已很长时间，但由于设备的限制以及临床疗效较差曾一度被否定。近年来，选择性头部降温设备重新得到认可，对其疗效尚需进一步评价。
+1.5 亚低温治疗时机：
+亚低温治疗开始于缺氧缺血原发损伤阶段，持续到整个继发性损伤阶段。亚低温治疗越早、降温速度越快，其治疗效果越好。脑缺氧耐受时限只有5 min，故应尽早实施亚低温治疗策略，建议颅脑损伤后6 h内开始亚低温治疗；由于各种原因超过6 h未能启动亚低温治疗者，也应在条件满足后尽早开始实施。研究证实，颅脑损伤后24 h内接受亚低温治疗仍然可以取得更多的临床获益[19]。美国创伤基金会（BTF）等[20]组织联合制定的《严重创伤性颅脑损伤治疗指南》中指出，亚低温治疗对创伤性颅脑损伤患者的神经系统结局有好处；亚低温治疗持续时间超过48 h能降低创伤性颅脑损伤患者的病死率。尽管有部分研究表明，亚低温对脑保护没有作用[21]，但分析认为样本量小、实验设计、实验方法或者低温策略、维持时间不够等因素导致了相反的统计学结果，而不是其技术本身的问题[22]。
+1.6 亚低温治疗持续时间：
+对于颅脑损伤患者，短期（24～48 h）的亚低温治疗难以获得较好的临床效果，建议此类患者亚低温治疗时间应至少维持3～5 d；亚低温开始的24～48 h更易引起颅内压反跳，应积极观察病情变化并采取对症处理措施[20,23,24]。
+1.7 复温时机：
+由于疾病的不同以及患者间的差异，很难确定复温时机的定量参考指标，应充分考虑原发病的控制情况、患者状态以及生命体征等。一般来说，患者清醒、病情稳定后即可考虑开始复温。
+1.8 复温方法
+1.8.1 低温后被动复温：
+逐渐自然复温。
+1.8.2 低温后主动复温：
+外源性复温可采用温暖毛毯、热水袋、水毯等。内源性复温方法为输注温热液体（成人）或使用体外循环等血液变温设备。
+1.8.3 复温注意事项：
+避免过快复温，应缓慢持续复温，防止出现反弹性高温，以免加重颅脑损伤。推荐每4～6 h复温1 ℃，12～24 h内将温度（肛温）恢复至36～37 ℃。复温过程中适当给予镇静、肌松药物，预防肌颤导致的颅内压增高。
+1.9 亚低温的并发症：
+亚低温治疗中可能产生一些并发症，主要包括：肌颤、免疫功能低下、呼吸道感染、褥疮、心律失常〔心动过缓、室性期前收缩（早搏）、心室纤颤等〕、循环不稳定（低血压）、反跳性颅内压增高、凝血功能障碍（低凝和出血倾向）、电解质紊乱（高钠、低钾、低镁、低氯、低钙等）。理论上讲，温度越低，脑保护效果越明显，副作用也越明显。由于达到目标亚低温所需要的时间相对较长，且对大脑局部温度的监测存在困难，因此，设置的温度应综合考虑脑保护作用和低温的不良反应，推荐采用靶向目标温度管理策略[25]。
+1.10 亚低温的监测及护理
+1.10.1 体温监测：
+保持肛温在33～35 ℃。监测呼吸、有创动脉压、心率、血氧等生命体征的变化[17]。
+1.10.2 脑电图监测：
+推荐间断或持续应用（特别使用肌松剂时），监测癫痫的发生[26]。躯体感觉诱发电位（SSEP）对评估缺氧缺血性脑病预后具有重要的参考价值[27]。
+1.10.3 脑氧饱和度监测：
+评估脑氧供和脑氧耗[28,29]。
+1.10.4 其他：
+血红蛋白是携氧载体，保证血细胞比容（HCT）>0.24以维持充足的氧供和氧输送。定期进行血气分析（温度校正），保持电解质平衡和内环境稳定。亚低温诱导和维持阶段，血清K+建议保持在3.0～3.5 mmol/L，以防止复温时离子反跳造成的高钾血症和心律失常[25]。
+1.10.5 基础护理：
+注意有无寒战，物理降温时避免低温冻伤。盐酸异丙嗪（非那根）易造成气道分泌物变黏稠，因此，更要加强气管插管患者的气道管理。此外，卧床患者容易出现各种合并症，切实做好皮肤护理，防止压疮的发生；观察患者有无腹胀、便秘等胃肠道症状[30]，及时对症处理。
+2 颅脑损伤患者亚低温治疗（图1）
+点击查看大图
+图1
+颅脑损伤患者的亚低温治疗流程
+注：NT-proBNP为N末端脑钠肽前体；1 mmHg＝0.133 kPa
+图1
+颅脑损伤患者的亚低温治疗流程
+2.1 使用可控电子调温式水毯（水毯温度控制肛温在33～35 ℃），头戴冰帽，颈部、腋下、股动脉等大血管处放置冰袋（用毛巾包裹）。室温保持在18～25 ℃。
+2.2 通过上述方法，患者逐渐进入冬眠状态，表现为双侧瞳孔缩小、对光反射迟钝、呼吸平稳、呼吸频率相对较慢，对外界刺激反应明显减弱或消失，深反射减弱或消失，同时四肢肌张力无增高，皮肤毛孔无收缩，无寒战，生命体征在正常范围且稳定。降温速度不宜过快，每1 h降低1 ℃为宜，避免降温过快引起反射性冠状动脉收缩，导致房室传导阻滞和心室纤颤。密切监测体温变化，每30 min测1次肛温（推荐使用连续肛温监测模块，以减少重复工作量），保持肛温在33～35 ℃。同时应根据患者脑水肿、脑挫裂伤、下丘脑等脑损伤程度以及颅内压决定亚低温治疗时间，一般至少维持3～5 d，如病情严重可延长至7～14 d。
+2.3 复温方法：停用冰帽、降温毯等措施，加盖毛毯等保暖物品，或使用变温水毯、提升室温等，让患者缓慢复温。在复温过程中仍需使用镇静、肌松药物，以防肌颤导致的颅内压升高。复温速度控制在每4 h升高1 ℃，12 h后使温度（肛温）恢复至36～37 ℃。
+2.4 体表降温具有局限性，接触范围有限、护理工作量大、降温速度可控性差、降温目标达不到或过低、或因温度不当而造成新的损伤。体表降温还会引起寒战、反跳性颅内压增高、耗氧量增加、代谢和产热增加。寒战发生率与降温速度和深度、年龄、性别有关。不适合体表降温时，应根据患者具体情况，转为血管内降温，方法为：20～30 min内输注4 ℃的晶体液（等渗林格液，30 mL/kg）；对于心功能较差或容量负荷过重的患者应谨慎使用，可应用Cool Line® Catheter导管（连续使用7 d）和CoolGard 3000温度控制系统。
+3 CPR后患者亚低温治疗
+CPR后的亚低温治疗能显著降低心搏骤停患者的病死率，减轻神经功能损伤。国际复苏联络委员会（ILCOR）与美国心脏协会（AHA）分别于2003、2005、2010和2015年制定了CPR及心血管急救国际指南，指南中推荐：因心室纤颤导致的院外心搏骤停成人患者，恢复自主循环而无意识者应给予32～34 ℃的亚低温治疗，持续12～24 h[31,32,33,34]。亚低温实施方案可参考美国纽约西奈山医院流程方案，见图2。
+点击查看大图
+图2
+心肺复苏（CPR）后患者的亚低温治疗流程
+注：INR为国际标准化比值，PT为凝血酶原时间，PLT为血小板计数，MAP为平均动脉压，SpO2为脉搏血氧饱和度；1 mmHg＝0.133 kPa
+图2
+心肺复苏（CPR）后患者的亚低温治疗流程
+4 亚低温治疗新生儿缺氧缺血性脑病
+亚低温治疗新生儿缺氧缺血性脑病目前国内外已有多个成熟的共识和方案，具体请参照文献[32，35,36]。
+5 心脏体外循环手术及围手术期亚低温方案
+心脏手术常规使用血液降温，以降低机体温度进行脑保护，降温方案可根据手术时间、种类等因素决定，见图3。常规手术，例如普通先天性心脏病（先心病）、瓣膜病、冠心病等采用轻度低温（33～35 ℃）；复杂先心病、双瓣置换或重度冠状动脉旁路移植术等复杂、长时间体外循环，采取中度低温（28～32 ℃）；主动脉夹层或其他复杂先心病可采用深低温（18～28 ℃）[37]。普通低温手术可不使用变温毯辅助降温，但深低温手术、小儿手术或特殊类型手术通常配合使用变温毯辅助降温或复温，并常规使用冰帽进行局部脑降温。深低温或危重患者术中、术后脑氧监测可评估脑氧供与氧耗之间的变化，有利于临床治疗策略的调整[38]。体外循环手术会造成红细胞形态和功能损伤及血液丢失，因此，足够的血红蛋白含量（HCT>0.24）对于保证机体氧供（脑氧供）是十分重要的[39,40]。体外循环术中的温度管理策略可参照国内外文献[39,40,41,42]。
+点击查看大图
+图3
+心脏体外循环手术及围手术期亚低温治疗流程
+图3
+心脏体外循环手术及围手术期亚低温治疗流程
+6 心脏体外循环术后高热、清醒延迟或意识障碍患者的低温管理
+高热会增加机体氧耗，影响神经系统结局，故应妥善处理术后因感染等各种因素导致的高热[43,44]。值得注意的是，心脏术后患者常合并血流动力学障碍、器官功能损伤以及凝血功能障碍，不恰当的低温治疗可能会加重病情，故应谨慎评估并确定最佳的靶向目标温度管理策略[45]。脑局部使用冰帽、全身使用亚低温治疗仪或变温水毯，控制核心温度（肛温）在35 ℃左右，避免引起寒战[46]。适当应用镇静或冬眠疗法，推荐使用右美托咪定、咪达唑仑以及丙泊酚等短效镇静药物[47]。α2受体激动剂右美托咪定是目前唯一兼镇静与镇痛的药物，具有镇静、镇痛、抑制交感神经活性、无呼吸抑制等药理性质，可减少其他镇静药物以及阿片类的用量，产生可唤醒的、合作的镇静状态，可减少受损脑组织坏死，减轻缺血/再灌注损伤，改善神经功能等[47,48]。对老年心脏瓣膜手术患者静脉泵入右美托咪定1.0 μg·kg-1·h-1，于15 min内泵注完毕，随后以0.5 μg·kg-1·h-1的速度进行维持直至手术结束，结果显示，右美托咪定对心脏手术患者具有脑保护作用[49,50,51,52]。对于体外循环下行先心病快通道麻醉患儿，在麻醉诱导前给予负荷剂量右美托咪定1 μg/kg缓慢静脉滴注（>10 min），随后以0.5 μg·kg-1·h-1的速度泵注直至手术结束前30 min，结果显示，右美托咪定可通过改善脑组织代谢、减轻神经细胞损伤，从而发挥脑保护作用[53,54,55]。
+鉴于亚低温脑保护的侧重点因不同疾病的病因学差异而有所不同，全面覆盖各种疾病尚有难度。因此，本共识主要侧重与脑损伤以及心脏手术有关的亚低温脑保护技术。另外，由于该方面的研究数量相对较少，随机对照试验（RCT）研究更少有涉及，目前可查询的文献多以小样本、观察性研究居多，因此，方法学偏倚较大，对于本共识中的某些建议，未来可能需要进一步的验证或更正。
+顾问：张海涛（中国医学科学院阜外医院），宁波（解放军空军总医院），周飞虎（解放军总医院），张静（阜外华中心血管病医院），李晓东（中国医科大学附属盛京医院）
+负责人：韩宏光（解放军北部战区总医院），李白翎（解放军海军军医大学附属长海医院）
+共同执笔人：邓丽（哈尔滨医科大学附属第一医院），曲虹（解放军北部战区总医院），李建朝（阜外华中心血管病医院），韩劲松（解放军北部战区总医院）
+秘书：宋默微（哈尔滨医科大学附属第一医院），王仕祺（大连医科大学北部战区总医院研究生培养基地），周世成（中国医科大学北部战区总医院研究生培养基地）
+编写组成员（排名不分先后）：白杨（吉林大学第一医院），曹芳芳（中国医学科学院阜外医院），陈怿（暨南大学附属东莞医院），陈祖君（中国医学科学院阜外医院），丛云峰（黑龙江省医院南岗院区），陈鑫（哈尔滨医科大学附属第一医院），啜俊波（哈尔滨医科大学附属第二医院），杜雨（中国医学科学院阜外医院），邓超（西安交通大学附属第一医院），董啸（南昌大学第二附属医院），戴青青（哈尔滨医科大学附属第二医院），冯斯婷（首都医科大学附属北京安贞医院），范西真（中国科学技术大学附属第一医院），宫玉蕾（哈尔滨医科大学附属第一医院），巩阳（解放军北部战区总医院），贺元辰（解放军北部战区总医院），郝嘉（陆军军医大学重庆新桥医院），胡晓旻（天津市第三中心医院），黄国栋（广州妇女儿童医院），黄磊（北京大学深圳医院），黄日红（大连医科大学附属第一医院），沈佳（上海交通大学医学院附属上海儿童医学中心），李丹（吉林大学第二医院），李培军（天津市胸科医院），李鉴峰（解放军联勤保障部队大连康复中心），李雪玉（解放军北部战区总医院），林玲（浙江大学医学院附属邵逸夫医院），刘楠（首都医科大学附属北京安贞医院），刘文源（解放军北部战区总医院），刘琰（中国医科大学附属第一医院），刘奕婷（中国医科大学附属第一医院），刘祥玉（深圳市龙华区中心医院），梁延霄（中国医科大学附属盛京医院），梁德刚（天津医科大学总医院），梁振洋（解放军北部战区总医院），罗哲（复旦大学附属中山医院），牟青春（广东省高州市人民医院）,孟维鑫（哈尔滨医科大学附属第一医院），朴瑛（解放军北部战区总医院），石恒（浙江大学医学院附属第二医院），孙孟尧（吉林大学第一医院），杨毅（首都医科大学附属北京安贞医院），王四清（哈尔滨医科大学附属第四医院），王冀（中国医学科学院阜外医院），武婷（天津市胸科医院），吴海卫（解放军东部战区总医院），温隽珉（中国医学科学院阜外深圳医院），马彦敏（宁夏医科大学总医院），马丽园（哈尔滨医科大学附属第一医院），曲晶东（哈尔滨医科大学附属第二医院），吴健锋（中山大学附属第一医院），谢波（上海交通大学医学院附属仁济医院），夏清平（牡丹江医学院），熊卫萍（广东省人民医院心血管研究所），熊瑶瑶（中南大学湘雅二医院），尹昌林（解放军陆军军医大学第一附属医院），于湘友（新疆医科大学第一附属医院），赵荣（解放军空军军医大学西京医院），周宏艳（中国医学科学院阜外医院），张竟为（首都医科大学附属北京安贞医院），张永辉（中国医学科学院阜外医院），张伟（哈尔滨医科大学附属第一医院）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+BadjatiaN.
+Therapeutic hypothermia protocols [J].
+Handb Clin Neurol,
+2017,
+141:
+619-
+632.
+DOI: 10.1016/B978-0-444-63599-0.00033-8.
+[2]
+江基尧.
+颅脑创伤：规范与创新[J/CD].
+中华神经创伤外科电子杂志,
+2019,
+5 (
+2):
+65-
+67.
+DOI: 10.3877/cma.j.issn.2095-9141.2019.02.001.
+JiangJY. Craniocerebral trauma: norms and innovations [J/CD]. Chin J Neurotra Surg (Electronic Edition), 2019, 5 (2): 65-67. DOI: 10.3877/cma.j.issn.2095-9141.2019.02.001.
+[3]
+MoriK, MaedaM, MiyazakiM, et al.
+Effects of mild (33 degrees C) and moderate (29 degrees C) hypothermia on cerebral blood flow and metabolism, lactate, and extracellular glutamate in experimental head injury [J].
+Neurol Res,
+1998,
+20 (
+8):
+719-
+726.
+DOI: 10.1080/01616412.1998.11740590.
+[4]
+HsiehYC, LinSF, HuangJL, et al.
+Moderate hypothermia (33 ℃) decreases the susceptibility to pacing-induced ventricular fibrillation compared with severe hypothermia (30 ℃) by attenuating spatially discordant alternans in isolated rabbit hearts [J].
+Acta Cardiol Sin,
+2014,
+30 (
+5):
+455-
+465.
+[5]
+LinY, ChenMF, ZhangH, et al.
+The risk factors for postoperative cerebral complications in patients with Stanford type a aortic dissection [J].
+J Cardiothorac Surg,
+2019,
+14 (
+1):
+178.
+DOI: 10.1186/s13019-019-1009-5.
+[6]
+FAYT.
+Early experiences with local and generalized refrigeration of the human brain [J].
+J Neurosurg,
+1959,
+16 (
+3):
+239-
+259;
+discussion 259-260.
+DOI: 10.3171/jns.1959.16.3.0239.
+[7]
+DowningDF, CooksonBA, KeownKK, et al.
+Hypothermia in cardiac surgery [J].
+J Pediatr,
+1954,
+44 (
+2):
+134-
+144.
+DOI: 10.1016/s0022-3476(54)80232-0.
+[8]
+UihleinA, TheyeRA, DawsonB, et al.
+The use of profound hypothermia, extracorporeal circulation and total circulatory arrest for an intracranial aneurysm. Preliminary report with reports of cases [J].
+Proc Staff Meet Mayo Clin,
+1960,
+35:
+567-
+576.
+[9]
+江基尧，朱诚.
+国外亚低温与脑损伤的研究进展[J].
+国外医学神经病学神经外科学分册,
+1993,
+20 (
+1):
+4-
+7.
+JiangJY, ZhuC. Research progress of mild hypothermia and brain injury in other countries [J]. J Int Neurol Neurosurg, 1993, 20 (1): 4-7.
+[10]
+MaH, SinhaB, PandyaRS, et al.
+Therapeutic hypothermia as a neuroprotective strategy in neonatal hypoxic-ischemic brain injury and traumatic brain injury [J].
+Curr Mol Med,
+2012,
+12 (
+10):
+1282-
+1296.
+DOI: 10.2174/156652412803833517.
+[11]
+SinhaS, RahejaA, SamsonN, et al.
+A randomized placebo-controlled trial of progesterone with or without hypothermia in patients with acute severe traumatic brain injury [J].
+Neurol India,
+2017,
+65 (
+6):
+1304-
+1311.
+DOI: 10.4103/0028-3886.217973.
+[12]
+张玉梅，李俊，郭昌星.
+心肺复苏后亚低温脑保护治疗的研究进展[J].
+疑难病杂志,
+2009,
+8 (
+10):
+637-
+639.
+DOI: 10.3969/j.issn.1671-6450.2009.10.032.
+ZhangYM, LiJ, GuoCX. The research progress of mild hypothermia brain protective treatment after cardiopulmonary resuscitation [J]. Chin J Diffic and Compli Cas, 2009, 8 (10): 637-639. DOI: 10.3969/j.issn.1671-6450.2009.10.032.
+[13]
+ZhaoX, GuT, XiuZ, et al.
+Mild hypothermia may offer some improvement to patients with MODS after CPB surgery [J].
+Braz J Cardiovasc Surg,
+2016,
+31 (
+3):
+246-
+251.
+DOI: 10.5935/1678-9741.20160048.
+[14]
+DruryPP, GunnER, BennetL, et al.
+Mechanisms of hypothermic neuroprotection [J].
+Clin Perinatol,
+2014,
+41 (
+1):
+161-
+175.
+DOI: 10.1016/j.clp.2013.10.005.
+[15]
+GunnAJ, LaptookAR, RobertsonNJ, et al.
+Therapeutic hypothermia translates from ancient history in to practice [J].
+Pediatr Res,
+2017,
+81 (
+1-2):
+202-
+209.
+DOI: 10.1038/pr.2016.198.
+[16]
+SilvermanMG, SciricaBM.
+Cardiac arrest and therapeutic hypothermia [J].
+Trends Cardiovasc Med,
+2016,
+26 (
+4):
+337-
+344.
+DOI: 10.1016/j.tcm.2015.10.002.
+[17]
+KarciogluO, TopacogluH, DikmeO, et al.
+A systematic review of safety and adverse effects in the practice of therapeutic hypothermia [J].
+Am J Emerg Med,
+2018,
+36 (
+10):
+1886-
+1894.
+DOI: 10.1016/j.ajem.2018.07.024.
+[18]
+卢洪流，徐如祥.
+亚低温脑保护技术的进展[J].
+中华神经医学杂志,
+2005,
+4 (
+10):
+1079-
+1080.
+DOI: 10.3760/cma.j.issn.1671-8925.2005.10.037.
+LuHL, XuRX. Technological progresses in mild hypothermia brain protection [J]. Chin J Neuromed, 2005, 4 (10): 1079-1080. DOI: 10.3760/cma.j.issn.1671-8925.2005.10.037.
+[19]
+FellerAC, SchneiderH, SchmidtD, et al.
+Myofibroblast as a major cellular constituent of villous stroma in human placenta [J].
+Placenta,
+1985,
+6 (
+5):
+405-
+415.
+DOI: 10.1016/s0143-4004(85)80017-5.
+[20]
+Brain Trauma Foundation, American Association of Neurological Surgeons, Congress of Neurological Surgeons, et al.
+Guidelines for the management of severe traumatic brain injury.Ⅲ. Prophylactic hypothermia [J].
+J Neurotrauma,
+2007,
+24
+Suppl 1:
+S21-
+25.
+DOI: 10.1089/neu.2007.9993.
+[21]
+CooperDJ, NicholA, PresneillJ.
+Hypothermia for intracranial hypertension after traumatic brain injury [J].
+N Engl J Med,
+2016,
+374 (
+14):
+1384.
+DOI: 10.1056/NEJMc1600339.
+[22]
+PresneillJ, GantnerD, NicholA, et al.
+Statistical analysis plan for the POLAR-RCT: the Prophylactic hypOthermia trial to Lessen trAumaticbRain injury-Randomised Controlled Trial [J].
+Trials,
+2018,
+19 (
+1):
+259.
+DOI: 10.1186/s13063-018-2610-y.
+[23]
+AbaziL, AwadA, NordbergP, et al.
+Long-term survival in out-of-hospital cardiac arrest patients treated with targeted temperature control at 33 ℃ or 36 ℃: a national registry study [J].
+Resuscitation,
+2019,
+143:
+142-
+147.
+DOI: 10.1016/j.resuscitation.2019.08.029.
+[24]
+ChanPS, BergRA, TangY, et al.
+Association between therapeutic hypothermia and survival after in-hospital cardiac arrest [J].
+JAMA,
+2016,
+316 (
+13):
+1375-
+1382.
+DOI: 10.1001/jama.2016.14380.
+[25]
+MaddenLK, HillM, MayTL, et al.
+The implementation of targeted temperature management: an evidence-based guideline from the neurocritical care society [J].
+Neurocrit Care,
+2017,
+27 (
+3):
+468-
+487.
+DOI: 10.1007/s12028-017-0469-5.
+[26]
+JanS, NorthingtonFJ, ParkinsonCM, et al.
+EEG monitoring technique influences the management of hypoxic-ischemic seizures in neonates undergoing therapeutic hypothermia [J].
+Dev Neurosci,
+2017,
+39 (
+1-4):
+82-
+88.
+DOI: 10.1159/000454855.
+[27]
+RothsteinTL.
+SSEP retains its value as predictor of poor outcome following cardiac arrest in the era of therapeutic hypothermia [J].
+Crit Care,
+2019,
+23 (
+1):
+327.
+DOI: 10.1186/s13054-019-2576-5.
+[28]
+JacobM, KaleMN, HasnainS.
+Correlation between cerebral co-oximetry (rSO2) and outcomes in traumatic brain injury cases: a prospective, observational study [J].
+Med J Armed Forces India,
+2019,
+75 (
+2):
+190-
+196.
+DOI: 10.1016/j.mjafi.2018.08.007.
+[29]
+MoritaT, KishikawaH, SakamotoA.
+Cerebral regional oxygen saturation: a useful monitor during a surgical procedure involving the right-sided aortic arch in an infant [J].
+J Anesth,
+2019,
+33 (
+6):
+701-
+703.
+DOI: 10.1007/s00540-019-02700-x.
+[30]
+曲虹，李鉴峰，张娜.
+战创伤合并颅内后组颅神经损伤患者的护理[J].
+中国临床实用医学,
+2017,
+8 (
+3):
+94-
+95.
+DOI: 10.3760/cma.j.issn.1673-8799.2017.03.025.
+QuH, LiJF, ZhangN. Nursing care of patients with intracranial nerve injury after war trauma [J]. China Clin Prac Med, 2017, 8 (3): 94-95. DOI: 10.3760/cma.j.issn.1673-8799.2017.03.025.
+[31]
+GibbonsRJ, AbramsJ, ChatterjeeK, et al.
+ACC/AHA 2002 guideline update for the management of patients with chronic stable angina: summary article: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines (Committee on the Management of Patients With Chronic Stable Angina) [J].
+Circulation,
+2003,
+107 (
+1):
+149-
+158.
+DOI: 10.1161/01.cir.0000047041.66447.29.
+[32]
+American Heart Association.
+2005 American Heart Association (AHA) guidelines for cardiopulmonary resuscitation (CPR) and emergency cardiovascular care (ECC) of pediatric and neonatal patients: pediatric basic life support [J].
+Pediatrics,
+2006,
+117 (
+5):
+e989-
+1004.
+DOI: 10.1542/peds.2006-0219.
+[33]
+NolanJP, NeumarRW, AdrieC, et al.
+Post-cardiac arrest syndrome: epidemiology, pathophysiology, treatment, and prognostication: a scientific statement from the International Liaison Committee on Resuscitation; the American Heart Association Emergency Cardiovascular Care Committee; the Council on Cardiovascular Surgery and Anesthesia; the Council on Cardiopulmonary, Perioperative, and Critical Care; the Council on Clinical Cardiology; the Council on Stroke (Part Ⅱ) [J].
+Int Emerg Nurs,
+2010,
+18 (
+1):
+8-
+28.
+DOI: 10.1016/j.ienj.2009.07.001.
+[34]
+PerkinsGD, JacobsIG, NadkarniVM, et al.
+Cardiac arrest and cardiopulmonary resuscitation outcome reports: update of the Utstein Resuscitation Registry Templates for Out-of-Hospital Cardiac Arrest: a statement for healthcare professionals from a task force of the International Liaison Committee on Resuscitation (American Heart Association, European Resuscitation Council, Australian and New Zealand Council on Resuscitation, Heart and Stroke Foundation of Canada, InterAmerican Heart Foundation, Resuscitation Council of Southern Africa, Resuscitation Council of Asia); and the American Heart Association Emergency Cardiovascular Care Committee and the Council on Cardiopulmonary, Critical Care, Perioperative and Resuscitation [J].
+Circulation,
+2015,
+132 (
+13):
+1286-
+1300.
+DOI: 10.1161/CIR.0000000000000144.
+[35]
+卫生部新生儿疾病重点实验室，复旦大学附属儿科医院.
+亚低温治疗新生儿缺氧缺血性脑病方案（2011）[J].
+中国循证儿科杂志,
+2011,
+6 (
+5):
+337-
+339.
+DOI: 10.3969/j.issn.1673-5501.2011.05.005.
+Key Laboratory of Neonatal Diseases, Ministry of Health, Pediatric Hospital of Fudan University. Programme of mild hypothermia treatment for hypoxic-ischemic encephalopathy in neonates (2011) [J]. Chin J Evid Based Pediatr, 2011, 6 (5): 337-339. DOI: 10.3969/j.issn.1673-5501.2011.05.005.
+[36]
+卫生部新生儿疾病重点实验室，复旦大学附属儿科医院，《中国循证儿科杂志》编辑部,等.
+足月儿缺氧缺血性脑病循证治疗指南（2011-标准版） [J].
+中国循证儿科杂志,
+2011,
+6 (
+5):
+327-
+335.
+DOI: 10.3969/j.issn.1673-5501.2011.05.003.
+Key Laboratory of Neonatal Diseases, Ministry of Health, Pediatric Hospital of Fudan University, editorial department of Chinese Journal of Evidence-based Pediatrics, et al. Guideline of evidence-based treatment for hypoxic-ischemic encephalopathy in full-term infants (standard version, 2011) [J]. Chin J Evid Based Pediatr, 2011, 6 (5): 327-335. DOI: 10.3969/j.issn.1673-5501.2011.05.003.
+[37]
+SunX, YangH, LiX, et al.
+Randomized controlled trial of moderate hypothermia versus deep hypothermia anesthesia on brain injury during Stanford A aortic dissection surgery [J].
+Heart Vessels,
+2018,
+33 (
+1):
+66-
+71.
+DOI: 10.1007/s00380-017-1037-9.
+[38]
+YuY, LyuY, JinL, et al.
+Prognostic factors for permanent neurological dysfunction after total aortic arch replacement with regional cerebral oxygen saturation monitoring [J].
+Brain Behav,
+2019,
+9 (
+7):
+e01309.
+DOI: 10.1002/brb3.1309.
+[39]
+邓丽.
+体外循环与红细胞损伤[J].
+中国体外循环杂志,
+2019,
+17 (
+2):
+117-
+120.
+DOI: 10.13498/j.cnki.chin.j.ecc.2019.02.15.
+DengL. Ultrastructural and morphological changes of red blood cells during extracorporeal circulation [J]. Chin J ECC, 2019, 17 (2): 117-120. DOI: 10.13498/j.cnki.chin.j.ecc.2019.02.15.
+[40]
+Authors/Task Force Members.
+2019 EACTS/EACTA/EBCP guidelines on cardiopulmonary bypass in adult cardiac surgery [J].
+Br J Anaesth,
+2019,
+123 (
+6):
+713-
+757.
+DOI: 10.1016/j.bja.2019.09.012.
+[41]
+GuoZ, LiX.
+2016 survey about temperature management during extracorporeal circulation in China [J].
+Perfusion,
+2018,
+33 (
+3):
+219-
+227.
+DOI: 10.1177/0267659117736119.
+[42]
+EngelmanR, BakerRA, LikoskyDS, et al.
+The Society of Thoracic Surgeons, the Society of Cardiovascular Anesthesiologists, and the American Society of ExtraCorporeal Technology: clinical practice guidelines for cardiopulmonary bypass: temperature management during cardiopulmonary bypass [J].
+J Extra Corpor Technol,
+2015,
+47 (
+3):
+145-
+154.
+[43]
+SterkelS, AkinyemiA, Sanchez-GonzalezMA, et al.
+Preserving brain function in a comatose patient with septic hyperpyrexia (41.6 ℃): a case report [J].
+J Med Case Rep,
+2017,
+11 (
+1):
+40.
+DOI: 10.1186/s13256-017-1204-8.
+[44]
+ElmerJ, CallawayCW.
+The brain after cardiac arrest [J].
+Semin Neurol,
+2017,
+37 (
+1):
+19-
+24.
+DOI: 10.1055/s-0036-1597833.
+[45]
+RavnHB.
+Hemostasis in pediatric cardiac surgery [J].
+Semin Thromb Hemost,
+2017,
+43 (
+7):
+682-
+690.
+DOI: 10.1055/s-0037-1603365.
+[46]
+韩宏光.
+心脏外科围手术期脑保护中国专家共识（2019）[J].
+中华危重病急救医学,
+2019,
+31 (
+2):
+129-
+134.
+DOI: 10.3760/cma.j.issn.2095-4352.2019.02.001.
+HanHG. Chinese consensus guideline for cerebral protection in the perioperative period of cardiac surgery (2019) [J]. Chin Crit Care Med, 2019, 31 (2): 129-134. DOI: 10.3760/cma.j.issn.2095-4352.2019.02.001.
+[47]
+HasegawaT, OshimaY, MaruoA, et al.
+Dexmedetomidine in combination with midazolam after pediatric cardiac surgery [J].
+Asian Cardiovasc Thorac Ann,
+2015,
+23 (
+7):
+802-
+808.
+DOI: 10.1177/0218492315585644.
+[48]
+中国心脏重症镇静镇痛专家委员会.
+中国心脏重症镇静镇痛专家共识[J].
+中华医学杂志,
+2017,
+97 (
+10):
+726-
+734.
+DOI: 10.3760/cma.j.issn.0376-2491.2017.10.003.
+China Cardiac Severe Sedation and Analgesia Expert Committee. Consensus of Chinese cardiac severe sedation and analgesia experts [J]. Natl Med J China, 2017, 97 (10): 726-734. DOI: 10.3760/cma.j.issn.0376-2491.2017.10.003.
+[49]
+贾龙飞，陈群清.
+心脏手术脑保护药物及其机制研究进展[J].
+广东医学,
+2016,
+37 (
+2):
+300-
+302.
+JiaLF, ChenQQ. Advances in research on brain protective drugs in cardiac surgery and their mechanisms [J]. Guangdong Med J, 2016, 37 (2): 300-302.
+[50]
+陈倩，顾健腾，鲁开智.
+右美托咪定的器官保护作用研究进展[J].
+中国药房,
+2014,
+25 (
+25):
+2385-
+2388.
+DOI: 10.6039/j.issn.1001-0408.2014.25.31.
+ChenQ, GuJT, LuKZ. Progress in organ protection of dexmedetomidine [J]. China Pharm, 2014, 25 (25): 2385-2388. DOI: 10.6039/j.issn.1001-0408.2014.25.31.
+[51]
+XiongJ, QuanJ, QinC, et al.
+Dexmedetomidine exerts brain-protective effects under cardiopulmonary bypass through inhibiting the Janus kinase 2/signal transducers and activators of transcription 3 pathway [J].
+J Interferon Cytokine Res,
+2020,
+40 (
+2):
+116-
+124.
+DOI: 10.1089/jir.2019.0110.
+[52]
+张玉辉，高亚坤，肖连波,等.
+右美托咪定对老年心脏瓣膜置换术患者心肌保护和脑保护的影响[J].
+中国老年学杂志,
+2015,
+35 (
+16):
+4606-
+4608.
+DOI: 10.3969/j.issn.1005-9202.2015.16.087.
+ZhangYH, GaoYK, XiaoLB, et al. Effects of dexmedetomidine on myocardial and cerebral protection in elderly patients undergoing heart valve replacement [J]. Chin J Gerontol, 2015, 35 (16): 4606-4608. DOI: 10.3969/j.issn.1005-9202.2015.16.087.
+[53]
+林赛娟，田国刚，姚欢琦,等.
+右美托咪定对颅内动脉瘤手术患者脑血流代谢和脑保护作用[J].
+中国老年学杂志,
+2015,
+35 (
+15):
+4304-
+4306.
+DOI: 10.3969/j.issn.1005-9202.2015.15.090.
+LinSJ, TianGG, YaoHQ, et al. The protective effect of dexmedetomidine on cerebral blood flow metabolism and brain in patients undergoing intracranial aneurysm surgery [J]. Chin J Gerontol, 2015, 35 (15): 4304-4306. DOI: 10.3969/j.issn.1005-9202.2015.15.090.
+[54]
+WenjieW, HouqingL, GengyunS.
+Effects of dexmedetomidine on outcomes following craniocerebral operation: a meta-analysis [J].
+Clin Neurol Neurosurg,
+2014,
+125:
+194-
+197.
+DOI: 10.1016/j.clineuro.2014.08.009.
+[55]
+JiangL, HuM, LuY, et al.
+The protective effects of dexmedetomidine on ischemic brain injury: a meta-analysis [J].
+J Clin Anesth,
+2017,
+40:
+25-
+32.
+DOI: 10.1016/j.jclinane.2017.04.003.
+贡献者信息
+中国研究型医院学会神经再生与修复专业委员会心脏重症脑保护学组
+中国研究型医院学会神经再生与修复专业委员会神经重症护理与康复学组
+通信作者
+韩宏光
+Email：
+13309883275@163.com
+关键词
+亚低温;
+脑保护;
+颅脑损伤;
+心脏手术;
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-04-28
+收稿日期：2020-01-17
+Expert Consensus
+Chinese consensus for mild hypothermia brain protection
+Cerebral Protection in Cardiac Intensive Care Group, Neural Regeneration and Repair Committee, Chinese Research Hospital Association,  Neural Intensive Nursing and Rehabilitation Group, Neural Regeneration and Repair Committee, Chinese Research Hospital Association
+Published
+2020-04-28
+Cite as
+Chin Crit Care Med, 2020,32(04): 385-391. DOI: 10.3760/cma.j.cn121430-20200117-00137
+Abstract
+Mild hypothermia, as an effective method of brain protection, has been applied in the treatment of severe craniocerebral injury, cardiac surgery and the patients after cardiopulmonary resuscitation. Although relevant guidelines, and draftsor suggestions are available in different countries, the clinical practice in this field is still obscure in China. For this reason, experts from cardiology and cardio-surgery, neurology and neurosurgery, intensive care unit, cardiopulmonary bypass, anesthesia, emergency have been organized to write Chinese consensus for mild hypothermia brain protection according to the characteristics of the mild hypothermia technology, application field, operation method and common problems etc. in conjunction with Cerebral Protection in Cardiac Intensive Care Group and Neural Intensive Nursing and Rehabilitation Group, which belong to Neural Regeneration and Repair Committee of Chinese Research Hospital Association. The consensus aims to promote the postoperative cranial nerve function in patients with rehabilitation, and it will be helpful to guide the clinical practice.
+Key words:
+Mild hypothermia; Brain protection; Craniocerebral injury; Cardiac surgery
+Contributor Information
+Cerebral Protection in Cardiac Intensive Care Group, Neural Regeneration and Repair Committee, Chinese Research Hospital Association
+Neural Intensive Nursing and Rehabilitation Group, Neural Regeneration and Repair Committee, Chinese Research Hospital Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+注：NT-proBNP为N末端脑钠肽前体；1 mmHg＝0.133 kPa
+图1
+颅脑损伤患者的亚低温治疗流程
+注：INR为国际标准化比值，PT为凝血酶原时间，PLT为血小板计数，MAP为平均动脉压，SpO2为脉搏血氧饱和度；1 mmHg＝0.133 kPa
+图2
+心肺复苏（CPR）后患者的亚低温治疗流程
+图3
+心脏体外循环手术及围手术期亚低温治疗流程
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华危重病急救医学2020年32卷04期
+文    题：亚低温脑保护中国专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华危重病急救医学2020年32卷04期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

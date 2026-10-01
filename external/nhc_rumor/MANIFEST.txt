@@ -1,0 +1,234 @@
+# 国家卫健委 健康科普辟谣平台 抓取清单
+# 运行时间: 2026-10-01 15:15:05
+# 接口去重后条目: 219 | 入库: 128 | 丢弃: 87 | 坏链: 2 | 站内待抓: 2
+
+## 入库
+# 标题|URL|领域|发布日期|正文字数
+嘴唇、指甲发紫，耳垂有折痕，提示患有心脑血管疾病……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s?__biz=MjM5NjI2ODA4Mw==&mid=2653183481&idx=1&sn=157a95b9b43d018a00b27db617807d92&chksm=bcaba4e293c439bacf483bf748672694248a4006869c3bbd8e4a5c6433f8ad2c4ab14d85f671&mpshare=1&scene=1&srcid=0715UHT5o5T4FtiHfSbeJKwJ&sharer_shareinfo=f4ebb4de40e00fc8a4769c871f1e46f3&sharer_shareinfo_first=f4ebb4de40e00fc8a4769c871f1e46f3#rd|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2026-06-11|522
+安装心脏支架后，不能运动……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s?__biz=MjM5NjI2ODA4Mw==&mid=2653183227&idx=1&sn=209ea660227a16808dbc427bcf5a676a&chksm=bc44aaa0d9542c88cac4e4bd69dfffec20415ee0ecb928cca447f18fdb69ad95c7a5537855d8&mpshare=1&scene=1&srcid=071381I5oZYqHUDoOSxzvVpW&sharer_shareinfo=f7497d0269e62f3e6af47b4f2c8d5340&sharer_shareinfo_first=f7497d0269e62f3e6af47b4f2c8d5340#rd|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2026-06-04|641
+出汗养颜，吃苦进补……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/y3ITeDvdIDXRrPKSCbCK2A|膳食营养和食品安全|2026-06-01|527
+外包装标有“全麦”或“谷物”，就是全谷物食品……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/ZOVl95av-0HsoKhBsO51mg|膳食营养和食品安全|2026-05-27|362
+这些护眼“偏方”千万别信！| 谣言终结站|https://mp.weixin.qq.com/s/mvNDwYI-BbHl6elzGb3lTA|其他|2026-05-25|641
+国家卫生健康委提醒：警惕打着“生命科学”名义宣传伪科学的骗局 | 谣言终结站|https://mp.weixin.qq.com/s/1_0feJ8pZOVhnGNf9vi2qQ|其他|2026-05-21|378
+冻干水果更健康、营养更丰富……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/YKVrTfETk6y11sv_T9rOHQ|膳食营养和食品安全|2026-05-21|485
+心情不好，可以多补充维生素D……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/p-jc7x_PAWmBxTOp1Bv8QQ|膳食营养和食品安全|2026-05-19|426
+水果有个小霉点，挖掉还能吃……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/JjccMPHolwtSLlXSIWKqRw|膳食营养和食品安全|2026-05-13|629
+半夜准点醒，表示睡眠“亮红灯”……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/7UvDeb5MJZxVTREcv_7rbA|其他|2026-05-12|665
+肥胖会影响生育力……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/MMRy3CDMHN-lbZZbgmWYcQ|体重管理|2026-05-07|355
+高血压患者没有明显症状，说明血压不高，不用治疗……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/7vGn7ReqAjz3IQHkKpXd2g|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2026-04-28|442
+春季皮肤干，多补水、勤敷面膜就够了……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/yd0Jn_2Ix7X_zjiIq3rwTQ|医疗美容|2026-04-24|482
+痛风是吃出来的？发作时忌口、痛了吃止痛药就够了……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/uGl3TDmrYRKGhDI63jADXg|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2026-04-21|494
+花洒很干净，不用清洁……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/d5Tjs-8dusQL2zmDRDIy8Q|传染病|2026-04-14|744
+漏尿、子宫脱垂是年纪大了的正常现象……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/a3MEIKRyAhrKE05LexpRAg|妇幼健康|2026-04-10|538
+警惕私域社群的“假专家真带货”！这份来自国家卫生健康委的叮嘱，请转给爸妈~ | 谣言终结站|https://mp.weixin.qq.com/s/7ItNP3mpoiPcIWCmYagVFg|其他|2026-04-10|495
+不吃早餐可加速减重……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/Y7jKHVAhnihQHtzG00Oqvw|体重管理|2026-04-07|603
+关节“咔咔”响是因为缺钙……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/35XRW00Vxy2TwlJXTopuAw|其他|2026-04-02|453
+查出子宫肌瘤就是得了癌症……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/xxMVwIXIVJ9W0RUdhpVnjg|妇幼健康|2026-03-31|562
+过敏性鼻炎是小病，“打喷嚏”“流鼻涕”而已……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/xoSmyZ5IyJ_DuZd5Y32l6w|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2026-03-26|590
+深睡眠时间越长越好……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/kbpVvVfWojvt9xaeQXFhNA|其他|2026-03-24|432
+仅凭养生仪器或调理“神术”就能治愈慢性病？不可信！| 谣言终结站|https://mp.weixin.qq.com/s/jL2LZ4gn5EUmNA4oiVmg3g|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2026-03-19|435
+吃不完的饭菜放进冰箱，“保质期”会大大延长……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/MvXQy5Ki564v4UwYKqihPQ?scene=1&click_id=8|膳食营养和食品安全|2026-03-17|326
+过敏儿童不能户外运动……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/g1dgZ_z_vfW_XiGx8IvTPg|儿童青少年健康|2026-03-13|793
+只有胖人容易得脂肪肝？| 谣言终结站|https://mp.weixin.qq.com/s/5wzhz8VFO2SPoiLnQinEyQ|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2026-02-27|556
+不要轻信“轻医美速成班”！你以为的变美捷径，可能是毁容陷阱 | 谣言终结站|https://mp.weixin.qq.com/s/f3c4utVCZCI-_UXyxzGaAw|医疗美容|2026-02-12|475
+冬天出汗少，不用多喝水……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/Ys_4iHkdyuAOTFy_ZzE_cw|膳食营养和食品安全|2026-01-29|303
+孩子发高烧，要赶紧用退烧药……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/XEKLvt5jtUUyFCLWtfeayw|儿童青少年健康|2026-01-23|561
+人血白蛋白是“营养神药”……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/hwHdipe1iXKH_5sfpeXWnw|合理用药|2026-01-17|407
+心血管疾病不会缠上年轻人……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/VM3yQOiy9mg8SRUt2Snr5w|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2026-01-13|523
+喝酒、吃辣可以祛寒御冷……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/IVvuyJZc5AIXEr4FE23JKw|膳食营养和食品安全|2025-12-30|660
+数九寒冬，宜静不宜动……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/EzjGCCgtuLfbifJex9Lpkw|运动|2025-12-26|462
+学会看食品营养标签，掌握健康密码！现在知道还不晚 | 谣言终结站|https://mp.weixin.qq.com/s/WguB-SHF0yXctkaPplZBRw|膳食营养和食品安全|2025-12-23|475
+高血压患者只要测血压不高，就不用吃降压药……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/Q8SXykW9JQAyvYT5OKQxkw|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2025-12-20|578
+打呼噜表示睡得香……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/W43e6p0fWU4PK-cWpizGNA|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2025-12-16|322
+消毒剂浓度越高，效果越好……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/kvD4bGmPaOl7-gsNkX1oeg|合理用药|2025-12-12|548
+打一针干细胞包治百病？国家卫生健康委提醒：细胞与基因治疗须规范，警惕“万能”骗局 | 谣言终结站|https://mp.weixin.qq.com/s/8gHHZtHiZkt8Ffe4J7yd_A|合理用药|2025-12-09|517
+糖尿病患者吃主食越少越好……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/mQTOpIH4Xja8pO5Yh6CCUA|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2025-11-28|362
+当心AI“换脸”假冒医生！国家卫生健康委提醒：警惕健康科普新骗局 | 谣言终结站|https://mp.weixin.qq.com/s/XehQNR4wfKhnKlR1XwzmGw|其他|2025-11-26|444
+国家卫生健康委提醒：警惕打着“心理健康科普”旗号的违规导医导诊及带货卖课 | 谣言终结站|https://mp.weixin.qq.com/s/UCbsGhaUzS1A8g8r25P1Pw|心理健康和精神卫生|2025-11-19|429
+高血压只要没有症状就不用吃药……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/CsiIGrxcyc36XNPu3C6mtw|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2025-11-18|369
+慢性病患者用药，“凭感觉”更踏实……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s?__biz=MjM5NjI2ODA4Mw==&mid=2653172689&idx=1&sn=469355537f0bebecf810f7a67a86a960&chksm=bc14626b07249f3f991ad1b881d2e5e3d9469191d939543c982d3063dd5a3f889a76f7c425b0&mpshare=1&scene=1&srcid=11134tKdyPu4pMlrgRwY593G&sharer_shareinfo=f649515c21634ce5910175f94e3efa86&sharer_shareinfo_first=f649515c21634ce5910175f94e3efa86#rd|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2025-11-13|545
+接种过流感疫苗就不会得流感……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s?__biz=MjM5NjI2ODA4Mw==&mid=2653172496&idx=1&sn=a2fc064b20df797aa25d9d6c349fd5ba&chksm=bc3afd5022304ff5a7afc6f9a604427a526ea2517818441591cb67f33327bc8e83f7598f7290&mpshare=1&scene=1&srcid=1113VbHuxswkGWZR0IFoFYVF&sharer_shareinfo=b3f5941d5aa3bae5649859638aea066b&sharer_shareinfo_first=b3f5941d5aa3bae5649859638aea066b#rd|传染病|2025-11-11|338
+泡脚，泡到出汗才算到位……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/bq8epILJTjw25ZUX1NyFPA|其他|2025-11-06|528
+网上卖的“神药”能吃吗？国家卫生健康委给出答案 | 谣言终结站|https://mp.weixin.qq.com/s/YHJ1cztJh7IYe30w9AnTWA|合理用药|2025-11-03|404
+乳牙迟早要换，坏了不用补……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/55t9qpIsV_q_5DZ1aX8p4Q|口腔健康|2025-10-31|397
+体检发现血脂偏高，就是得了高脂血症……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/sX-fiUdoRdd9y5OSN3lBQA|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2025-10-27|306
+甲状腺癌都很“温和”……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/gaCKVt_bGWMKJkMgESaxzA|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2025-10-24|504
+运动强度越大、时间越长，健身效果越好……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/jkf5E-BQ5SQ1SrPWWFPksg|运动|2025-10-21|377
+过期药物没变质，还可继续服用……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/sw-bEAfsEQ5F4ZiWIT_mwQ|合理用药|2025-10-17|383
+助眠产品能根治失眠……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/Zn0ArrAPknHfC1dzcUOtYg|心理健康和精神卫生|2025-10-14|385
+多喝水就能防秋燥……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/xXSPXvI1TkdiU0k_6bi2Bw|膳食营养和食品安全|2025-10-09|770
+睡硬板床可以缓解腰痛……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/PlT5YHp_YkUZTEBtg_fuCg|其他|2025-09-26|357
+不吃晚饭能减重……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/ppy5WuoU8xbD8KzqX501Fw|膳食营养和食品安全|2025-09-16|319
+“生酮饮食”可快速减体重，谁都可以尝试……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/YxMSEr3W-SxpsLX2HJ5HLg|膳食营养和食品安全|2025-09-05|581
+跑步伤膝盖……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/0c7vRKELysQo-Q4DXzlHFA|运动|2025-09-03|384
+健康体重管理警惕陷阱！国家卫生健康委提醒：认准官方信息，勿信减肥“神药” | 谣言终结站|https://mp.weixin.qq.com/s/KeTa7ZM8HImlzJveJuUwVg|体重管理|2025-08-26|440
+拉肚子就要服用抗生素……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/-KGB6YOcpLn1ASBwbAf6xw|合理用药|2025-08-15|339
+包治百病不可信！国家卫生健康委提醒：警惕“万能养生秘笈” | 谣言终结站|https://mp.weixin.qq.com/s/MOAKzgb-Tx9N73F4mOLClA|其他|2025-08-12|309
+腹泻有清肠作用，暂时不要进食……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/RRUnATP5USwJmlSIOvF99g|膳食营养和食品安全|2025-08-07|457
+痛风“不痛就不需要吃药”……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/v-N4LkoIasUS5Ae8kHIQeQ|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2025-08-05|413
+女性在生理期不能运动……是真是假？ | 谣言终结站|https://mp.weixin.qq.com/s/zE_J9zt6lUyyLODy9fZdMQ|妇幼健康|2025-08-04|619
+孩子夏季拉肚子，忍一忍就好了……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/i1aglIlRiCMSsxkj_BSxVg|儿童青少年健康|2025-07-30|582
+孩子们一起手拉手，就能救起溺水者……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/Qg3UHXGvbanszJ0jIQff2g|儿童青少年健康|2025-07-27|753
+不怕晒黑就可以不防晒……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/UHAmNSe7Dc0ow0yaNvU8xw|医疗美容|2025-07-25|473
+尿酸升高，不一定要用药……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/YYLnAQx8IPiEBV2dWLZdFA|合理用药|2025-07-22|502
+正畸让牙齿松动易脱落……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/lfdgqDgysst_cp41soM1gA|口腔健康|2025-07-18|335
+心理问题就是“想太多”，自己调节就能好……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/zT5pF_wnrBJIUC_lE5CgqQ|心理健康和精神卫生|2025-07-16|498
+“微整形”没有风险……是真是假？ | 谣言终结站|https://mp.weixin.qq.com/s/p7vNHUG4AJWlCc4CkM7erw|医疗美容|2025-07-15|537
+抗过敏药容易依赖，能不用就不用……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/pYzQ0G-tQHlkudxhFDadfA|合理用药|2025-07-01|442
+只有胖人才会得脂肪肝……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/ny6nplu9xwPet7P9KvaPRg|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2025-06-27|308
+水果越甜，含糖量越高……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/ogBsYalo5Ef8pcSHxsSGWg|膳食营养和食品安全|2025-06-24|358
+伤口必须用酒精才能彻底消毒……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/bt2H4cfu974DtOAqJXc9PA|合理用药|2025-06-13|331
+反弹的体重，大部分是脂肪……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/ToOY4SHKQizok0zcaDluvg|体重管理|2025-06-11|390
+阴天没阳光，就不用防晒了……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/ZSjGsxwFK-W0YHV1cRcZzg|其他|2025-06-03|373
+水果早上吃是金，中午吃是银，晚上吃是铜……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/0xGVzBBQtvxO83dxWAirFA|膳食营养和食品安全|2025-05-29|312
+水果代餐，多多益善……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/9F86CvUKSpxoygxtFgFL0w|膳食营养和食品安全|2025-05-26|382
+孩子太早戴近视镜，会加重近视……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/4NWkP2rNKNPN2SuzzSuPKg|其他|2025-05-19|334
+稀粥和米饭的营养价值相同……是真是假？ | 谣言终结站|https://mp.weixin.qq.com/s/9eiVCwWNM-USLS01qUHkXw|膳食营养和食品安全|2025-05-14|712
+食品保质期越长，防腐剂越多……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/P7PHQgxevqubY4NjI5g7EQ|膳食营养和食品安全|2025-05-13|304
+月经期间节食，能快速减重……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/aEARUVwUeY9pPL55HYD3OQ|体重管理|2025-05-10|343
+过敏原检测阳性，一定是过敏……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/43L_VvbIJ5tCxcKg1kJmrg|合理用药|2025-05-07|371
+发热一定要吃退热药……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/wOlbkq5WDGlP3bsR4pK7LA|合理用药|2025-05-02|328
+小时候胖不用管，长大后自然能瘦……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/cbApF7W0uR9Zbctq-LPGpQ|体重管理|2025-04-29|401
+“0脂”食品吃不胖……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/2J2s2ivDD9olyO-LDTLXIg|膳食营养和食品安全|2025-04-22|367
+一起粉碎肿瘤“饮食”谣言 | 全国肿瘤防治宣传周|https://mp.weixin.qq.com/s/JSbduQqlJ1TLQqJoPXSWhA|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2025-04-16|395
+运动达到一定心率才开始燃脂……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/QGAyjnpUjjcIOx9QambRtQ|运动|2025-04-15|308
+空腹运动有损健康……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/cRUVKgdHGRB7F8jE2Ss6Hg|运动|2025-04-08|301
+清宿便可以排肠毒……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/JEAR_XWxX7iH57P5Hh5wdA|膳食营养和食品安全|2025-04-07|408
+喝水太多会中毒……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/dNO_WQBl4oXUScs2pk5j2A|膳食营养和食品安全|2025-04-01|398
+吃抗过敏药会产生依赖……是真是假？|https://mp.weixin.qq.com/s/dFKi-uxqR2AG0yqKu0yUrA|合理用药|2025-03-23|439
+过敏会随着年龄增长自然消失……是真是假？|https://mp.weixin.qq.com/s/Fr32oAVHAeDNiG-O9vyvCw|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2025-03-22|379
+刷牙出血是因为牙刷太硬……是真是假？|https://mp.weixin.qq.com/s/mf2sZJLZuLVGmlsLH8f8KA|膳食营养和食品安全|2025-03-21|394
+喝粥养胃适合所有人……是真是假？|https://mp.weixin.qq.com/s/SDPQDaCyr5uhFV_KaTgjEA|膳食营养和食品安全|2025-03-14|317
+吃肉就会长肉……是真是假？|https://mp.weixin.qq.com/s/-YTrfK00hPEgHM3PRFYh7A|其他|2025-03-05|327
+有些人属于“易胖体质”……是真是假？|https://mp.weixin.qq.com/s/ZXClh_MS84RsQZkNKpCOCA|体重管理|2025-02-28|583
+肿瘤对症支持治疗只用于终末期……是真是假？|https://mp.weixin.qq.com/s/4sUW_XPhnZyJVGQEW5TnMA|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2025-02-28|464
+拉伸运动可有可无……是真是假？|https://mp.weixin.qq.com/s/rKstheZf2QizrDNL_BU8Tw|运动|2025-02-28|334
+喝苏打水能降尿酸……是真是假？|https://mp.weixin.qq.com/s/F33NNQWVsYXab7HUsyfEWA|膳食营养和食品安全|2025-02-28|328
+高盐饮食会增加骨质疏松风险……是真是假？|https://mp.weixin.qq.com/s/XztG015pzUh80VgWtvNHCA|膳食营养和食品安全|2025-02-28|401
+胖一些，骨骼更强健……是真是假？|https://mp.weixin.qq.com/s/rjnucrIGaXfx5Qks-Ej1QA|体重管理|2025-02-27|455
+流感患者要尽早用上抗菌药……是真是假？|https://mp.weixin.qq.com/s/97oYx2HQrCECcDdqrjpJ-A|合理用药|2025-02-27|325
+吃酱油会让脸上长斑……是真是假？|https://mp.weixin.qq.com/s/60m5t6-P-DQ_QgQZ6eokag|膳食营养和食品安全|2025-02-27|525
+运动一定对睡眠有帮助……是真是假？|https://mp.weixin.qq.com/s/vY8K8QLRbcT3G2J7EHZ7zQ|运动|2025-02-27|350
+得了哮喘不能运动……是真是假？|https://mp.weixin.qq.com/s/EbhaSMRXt5m--Zihh3iS8g|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2025-02-27|305
+运动累倒，一夜好眠……是真是假？|https://mp.weixin.qq.com/s/DVge-NB_C-EpvQbbxlZBMA|运动|2025-02-26|321
+卤水豆腐比其他豆腐更补钙……是真是假？|https://mp.weixin.qq.com/s/jD5dPW0zxQ-EvgpqJc-yxg|膳食营养和食品安全|2025-02-26|327
+肾结石患者不能补钙……是真是假？|https://mp.weixin.qq.com/s/ON2dDRrbcmukb8Yf8qiruw|其他|2025-02-24|370
+吃南瓜能降血糖……是真是假？|https://mp.weixin.qq.com/s/nA9CC_369YDkzdH4D1Mrbw|膳食营养和食品安全|2025-02-24|312
+一天只吃一种食物能减重……是真是假？|https://mp.weixin.qq.com/s/DZPg9GhWBVC5X0TAgzrf9g|膳食营养和食品安全|2025-02-21|350
+夏天洗冷水澡更降温……是真是假？|https://mp.weixin.qq.com/s/qAEcxwQG9uJdKpAB3WkZ0Q|其他|2025-02-21|341
+溺水发生时，溺水者往往难以大声呼救……是真是假？|https://mp.weixin.qq.com/s/M4rbRI7Mq3QKwCcrQSQ8Tg|其他|2025-02-21|444
+助听器会让人越戴越聋……是真是假？|https://mp.weixin.qq.com/s/zEfVsDab7XPC04tIBgqcjw|其他|2025-02-20|390
+夏季血压“正常”了，可以暂停降压药……是真是假？|https://mp.weixin.qq.com/s/47opPLCAHxS3fkdm_1up6g|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2025-02-20|316
+吃瓜“齁”得嗓子疼，其实是过敏……是真是假？|https://mp.weixin.qq.com/s/eoxCztha-ClELK8irkbyPg|膳食营养和食品安全|2025-02-20|304
+父母近视，孩子就会近视……是真是假？|https://mp.weixin.qq.com/s/e2nzIEPYzapF9KRLUW5hug|近视防控|2025-02-20|328
+常吃豆腐易患肾结石……是真是假？|https://mp.weixin.qq.com/s/Yw4lUi75y3tQJOqjPigWfQ|膳食营养和食品安全|2025-02-19|361
+边吃饭边喝水会消化不良……是真是假？|https://mp.weixin.qq.com/s/_8mP3FJdnn_LI0HbBkeZ7A|膳食营养和食品安全|2025-02-19|320
+泡脚时间越长越好……是真是假？|https://mp.weixin.qq.com/s/ZlckV42iYcLjaPT2Wad-dA|其他|2025-02-11|446
+得了脂肪肝，就要吃保肝药……是真是假？|https://mp.weixin.qq.com/s/ohUtOgIEsyBUEiqTSwg6mQ|合理用药|2025-02-11|319
+维生素C能防治感冒……是真是假？|https://mp.weixin.qq.com/s/N-U90VuDXLvXPYU-PPmyGg|合理用药|2025-02-11|390
+人偏肺病毒和呼吸道合胞病毒感染后容易引起重症……是真是假？|https://mp.weixin.qq.com/s/8Z62NpZDLmHQlUchfVR6lg|传染病|2025-01-22|448
+冷天容易血压高，多吃降压药？|https://mp.weixin.qq.com/s/ljHr0yYaA57VvkXZDW5GpA|慢性病（肿瘤、高血压、糖尿病、慢性呼吸系统疾病等）|2024-12-09|557
+雪天摔倒后，立马起来活动活动？|https://mp.weixin.qq.com/s/72Cn1jQ6oPd3VMd8HCXjZA|运动|2024-12-09|431
+天冷要进补？补错了小心适得其反|https://mp.weixin.qq.com/s/KVzD1JoKvo_ZCF7OFftsOQ||2024-12-09|580
+冬天骨头会变脆？|https://mp.weixin.qq.com/s/hVXALgRvII_NLgZGU3x5MA||2024-12-09|522
+体检前一定不能服药……是真是假？|https://mp.weixin.qq.com/s/-B5J-aeTMSNTXt8PmVuWog||2024-12-09|363
+
+## 丢弃
+# 标题|URL|原因
+蔬菜和水果营养差不多？果汁能替代水果？这些饮食误区，发布会上专家一次说清！| 谣言终结站|https://mp.weixin.qq.com/s/2PfYELUc8nfXMQv0EmB3PA|正文仅126汉字(<300)
+“网红减肥针”真的靠谱吗？专家的回应来了！ | 谣言终结站|https://mp.weixin.qq.com/s/Cvg6h_vFtsj9H3HFMo91aA|正文仅197汉字(<300)
+治疗哮喘会药物“成瘾”……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/rCxYUkbZNJcCSKcO603k6w|正文仅264汉字(<300)
+只要穿得厚，关节就一定不会受寒……是真是假？ | 谣言终结站|https://mp.weixin.qq.com/s/c100r-F3QlwqPL7ZAhoEeg|正文仅252汉字(<300)
+多吃高热量食物能御寒……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/ljmQ5Jvl7yGvI3lOC5SAfw|正文仅233汉字(<300)
+鼻出血时要仰头止血……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/vroZz0pj9KX7-HJ63WafDw|正文仅253汉字(<300)
+用热水袋或电热毯整夜热敷关节，保暖效果好……是真是假？ | 谣言终结站|https://mp.weixin.qq.com/s/F0HklFFAQHZaW8Pvk_ISnA|正文仅220汉字(<300)
+水果寒凉，冬季不能吃……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/ZiXit5Q6sgYnNuRpug9G8w|正文仅269汉字(<300)
+网传“多食醋、黑木耳、洋葱能软化血管、清除血管垃圾”……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/SPXDpAR1_qstBndu94YINg|正文仅297汉字(<300)
+感染呼吸道合胞病毒痊愈后，不会再感染了……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/dQTnb_p-ASuwAOHWRL5Djg|正文仅209汉字(<300)
+血压正常就不会得心梗……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/pO2sHn1n52qwIQzBxKhwTw|正文仅185汉字(<300)
+每天步数过万，才有益健康……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/lpw6z7qTrJXh2Q0fOqAyLQmQTOpIH4Xja8pO5Yh6CCUA|微信拦截: 参数错误
+喝咖啡会引起骨质疏松……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/9KW8YM352AQ9PdyvUHRkkA|正文仅238汉字(<300)
+食用动物大脑，有益脑健康……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/0vaHbB66jBvKQ8NOYSbVSA|正文仅206汉字(<300)
+定期输液“通血管”，能预防中风……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/Jplr9yyFC7zXM4vAYM8CYA|正文仅261汉字(<300)
+咳嗽久了会咳成肺炎……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/28Kl9htEhgPDGOF04jGqUA|正文仅177汉字(<300)
+换季时输液，能预防脑梗死……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/2QdjvwSsNPKuVk3VvyZV9g|正文仅270汉字(<300)
+出现发热才是得了流感，不发热就不是流感……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/zXIllZGT-N3QBds_23pDOw|正文仅194汉字(<300)
+一旦正畸，就要终身佩戴保持器……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/xQ4-CCj5_uSk9sVShBsgJg|正文仅181汉字(<300)
+过敏性鼻炎发作，扛一扛就过去了……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/Vn2g8jU2Ge4HOqe9p5L36A|正文仅231汉字(<300)
+胰岛素注射会成瘾……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/f4dQMCpr41IhKOjXUfHXkg|正文仅295汉字(<300)
+抗过敏药物会上瘾，不能长期使用……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/PfVlunwA5qz-LDEjJ5gaqQ|正文仅288汉字(<300)
+睡得越多越健康……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/VJIfP8xhOvCHfzWKBwz5eQ|正文仅294汉字(<300)
+饭后百步走，能活九十九……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/0Cqu2nyxMD4H4BHnpRufiQ|正文仅141汉字(<300)
+与乙肝/丙肝患者日常接触会被传染……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/WFuUWuOjfHp8h57gbpoH6g|正文仅230汉字(<300)
+把绿豆汤当水喝更解暑……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/p2uWTEhyYZl3pWnBIwbiPg|正文仅276汉字(<300)
+别被“祖传秘方”忽悠！识别健康谣言须警惕“传统文化绑架” | 谣言终结站|https://mp.weixin.qq.com/s/hz5PHPf2moqQTqlRc1fGAQ|正文仅287汉字(<300)
+老了对任何事都提不起兴趣是正常现象……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/karQPISvtvp2J2ILjwAG0A|正文仅227汉字(<300)
+三伏天汗蒸，可以减肥……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/rY4NB0xJbLOjNY4pRtScsQ|正文仅292汉字(<300)
+老年人退休后，主动社交是“瞎折腾”……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/3RedZNQ1qfseaeJwJM4X8g|正文仅257汉字(<300)
+“医生不会告诉你的抗癌秘方”？这类信息不要轻信~ | 谣言终结站|https://mp.weixin.qq.com/s/ghMjHkdorw2hrBHbUe4WYg|正文仅262汉字(<300)
+锻炼时补水，运动饮料比白开水更好……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/Yl3AhGIvruz9mSuQtsm_2w|正文仅269汉字(<300)
+喝有水垢的水容易得肾结石……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/Pm1WUDp32UTQV60BxDmFVw|正文仅267汉字(<300)
+断骨增高能帮助快速长高……是真是假？ | 谣言终结站|https://mp.weixin.qq.com/s/qsLsCTsAl2Rp2M_xL-Fimg|抓取失败: curl exit 6
+频繁洗头会导致脱发……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/TAY-Ml5ynNDSpSzGwgs42A|抓取失败: curl exit 6
+注意！国家卫生健康委提醒：警惕带有“紧急”“救命”“震惊”等字眼的不实信息 | 谣言终结站|https://mp.weixin.qq.com/s/j4fI7l-uwP7s_F42hpJsPg|正文仅268汉字(<300)
+动物油比植物油更容易让人发胖……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/VwFtCM4438e9EO2v_u9I-w|正文仅293汉字(<300)
+无糖食品不含糖，多吃不会胖……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/wmGddzCxdVf4J6UIFqSbPw|正文仅270汉字(<300)
+别轻信“彻底治愈”等夸大表述！国家卫生健康委提醒：拒绝极端化表述和伪科学术语 | 谣言终结站|https://mp.weixin.qq.com/s/HwqA2TXexO-lxfgqFOb4XA|正文仅216汉字(<300)
+生吃蔬菜更有营养……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/AYfM36wHNfNonC-VJdQVWA|正文仅274汉字(<300)
+识别谣言有技巧！国家卫生健康委提醒：信源不清的信息要谨慎对待 | 谣言终结站|https://mp.weixin.qq.com/s/VVkFMUuSzCtaF9prskyxMw|正文仅261汉字(<300)
+健康讲座带货？国家卫生健康委提醒：要注意分辨“伪科普、真带货” | 谣言终结站|https://mp.weixin.qq.com/s/K95d5IIql2ENEh0xSHJvcA|正文仅177汉字(<300)
+轻松减肥的背后，掩盖了多少谣言陷阱？国家卫生健康委提醒：识别减重信息很重要 | 谣言终结站|https://mp.weixin.qq.com/s/acPAoxY7P5zxKsIAN6Dmnw|正文仅233汉字(<300)
+声称某些食物能抗癌？国家卫生健康委提醒：癌症患者要分辨“饮食”谣言 | 谣言终结站|https://mp.weixin.qq.com/s/166Qn64KyHf5PuQq4ID4Og|正文仅223汉字(<300)
+加强营养会让肿瘤长得更快……是真是假？｜谣言终结站|https://mp.weixin.qq.com/s/M_gVvnF3MdeIjM_FU5chTA|正文仅218汉字(<300)
+每次运动半小时以上才有效果……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/qpJTf5SBMOsBI8ytK_SdWw|正文仅265汉字(<300)
+运动时多出汗，减重效果更好……是真是假？| 谣言终结站|https://mp.weixin.qq.com/s/xjOSakk-9dCduqnVRoRSBg|正文仅291汉字(<300)
+做梦代表没休息好……是真是假？|https://mp.weixin.qq.com/s/3TqGB8amfm3jsQvb08qCnQ|正文仅292汉字(<300)
+喝醋能软化血管……是真是假？|https://mp.weixin.qq.com/s/cBCjzyeudAdMNd9bgMkM0w|正文仅236汉字(<300)
+洗肠可以排毒……是真是假？|https://mp.weixin.qq.com/s/QKBmVdQU31_KNGzc5xLKqQ|正文仅255汉字(<300)
+情绪对胃肠道健康有影响……是真是假？|https://mp.weixin.qq.com/s/nFGVN3BQfVu5CfSs3YQFcw|正文仅142汉字(<300)
+补充益生菌多多益善……是真是假？|https://mp.weixin.qq.com/s/ZVSp_qtATT15i8b_eJA-MA|正文仅261汉字(<300)
+感冒时多喝水，可以加快康复……是真是假？|https://mp.weixin.qq.com/s/Yu4Fuwx7oXynomql4xyBiA|正文仅291汉字(<300)
+面条比米饭热量更高……是真是假？|https://mp.weixin.qq.com/s/g93WIv_Nsb3XqvmdgjyNsQ|正文仅268汉字(<300)
+血压正常后，高血压患者可以停药……是真是假？|https://mp.weixin.qq.com/s/4D-BlL1aCxy6ob5gK4xwIA|正文仅167汉字(<300)
+水果不宜加热吃……是真是假？|https://mp.weixin.qq.com/s/L8Km1ut7R3mFiVMv4jwoAg|正文仅295汉字(<300)
+晚上频繁起夜是因为肾不好……是真是假？|https://mp.weixin.qq.com/s/CgzOOj_n-gu8ELBR8by4MA|正文仅279汉字(<300)
+清淡饮食是“只吃素不吃肉”……是真是假？|https://mp.weixin.qq.com/s/TixBXAIDGJuot3UnqTrsfQ|正文仅246汉字(<300)
+蛋白质吃多了伤肝伤肾……是真是假？|https://mp.weixin.qq.com/s/ParTjyGCEm_0hDZiSgJuEw|正文仅258汉字(<300)
+血脂升高就要少吃肉……是真是假？|https://mp.weixin.qq.com/s/UQC5yKtKG0kx8rWQjmH5nA|正文仅273汉字(<300)
+脱脂牛奶比全脂牛奶更有利于健康……是真是假？|https://mp.weixin.qq.com/s/TjEPHm-DKIcsYhPjcUSShQ|正文仅249汉字(<300)
+改一下晚餐时间，就能降血糖……是真是假？|https://mp.weixin.qq.com/s/JVvZlj5LPP_A_snrR43L6Q|正文仅238汉字(<300)
+中老年人才需要补钙……是真是假？|https://mp.weixin.qq.com/s/rPIJUfaF-ybAJdQssjCCgw|正文仅292汉字(<300)
+保质期短的牛奶更有营养……是真是假？|https://mp.weixin.qq.com/s/yTGkNoPlhTyp2KOjCLfJlA|正文仅253汉字(<300)
+牛奶不能搭配橙汁？奶牛产奶靠打激素？……权威专家为您辟谣|https://mp.weixin.qq.com/s/Q8W1fQP3JLhGd5XX-1yOpw|正文仅212汉字(<300)
+刷牙时间越长越好……是真是假？|https://mp.weixin.qq.com/s/sYXtcIN7lWJZRX6gZ8SMkQ|正文仅225汉字(<300)
+洗牙能让牙齿变白……是真是假？|https://mp.weixin.qq.com/s/pZK-W9mv-u23JuIsw8cWXghttps://mp.weixin.qq.com/s/pZK-W9mv-u23JuIsw8cWXg|微信拦截: 参数错误
+孕期不能做放射性检查……是真是假？|https://mp.weixin.qq.com/s/He1epVSg56VINSdiWngFSw|正文仅268汉字(<300)
+一勺猪油等于五服药……是真是假？|https://mp.weixin.qq.com/s/sSdu3wOqwtvaM3EQvqapMw|正文仅271汉字(<300)
+西瓜和小龙虾一起吃会中毒……是真是假？|https://mp.weixin.qq.com/s/ky_l3a6ZZRHsfTJo7FdMMg|正文仅276汉字(<300)
+水果不甜，就不容易让人长胖……是真是假？|https://mp.weixin.qq.com/s/Xfs-CKqhrfrl7ckyN2f-5w|正文仅234汉字(<300)
+这种血型的人更容易招蚊……是真是假？|https://mp.weixin.qq.com/s/3BZqav0wdpsAmhTlS6Gzmg|正文仅257汉字(<300)
+跳跃运动能瘦肚子……是真是假？|https://mp.weixin.qq.com/s/ZybdpZFPNjxlXXgWuHV7Wg|正文仅290汉字(<300)
+运动30分钟后才开始消耗脂肪……是真是假？|https://mp.weixin.qq.com/s/ESKWtrWp-scCGoyNT63WFQ|正文仅295汉字(<300)
+防晒做不好，更容易变老……是真是假？|https://mp.weixin.qq.com/s/gy6i8MzWsW8dDht5paXwww|正文仅198汉字(<300)
+不吃早餐更容易瘦……是真是假？|https://mp.weixin.qq.com/s/VrjqbSRblhUeWsKXBfiZmA|正文仅232汉字(<300)
+洗牙，会让牙齿越洗越松动……是真是假？|https://mp.weixin.qq.com/s/0B1YsTUjgoKlgbf8dGvyyg|正文仅223汉字(<300)
+停止运动后，体重就会反弹？……是真是假？|https://mp.weixin.qq.com/s/NQD69BOfqrZhGFBqop7UrA|正文仅205汉字(<300)
+越跑步，膝盖越废……是真是假？|https://mp.weixin.qq.com/s/qYUY5cFCsjo5-Hk2zTFUjA|无 js_content
+过敏是因为免疫力太强了……是真是假？|https://mp.weixin.qq.com/s/yriJDnBE2iADCmKISqp-lw|正文仅247汉字(<300)
+叉开腿坐是最健康的坐姿……是真是假？|https://mp.weixin.qq.com/s/mesS6xgSak0X3xgJ2He5_Q|正文仅297汉字(<300)
+得了脂肪肝要清淡饮食……是真是假？|https://mp.weixin.qq.com/s/FVkRP31TWIceGF274ZE-Uw|正文仅227汉字(<300)
+定期输液可以预防心血管疾病……是真是假？|https://mp.weixin.qq.com/s/0AxX3oqe6o5jFOVBvMCpkA|正文仅266汉字(<300)
+幽门螺杆菌不治，会发展为胃癌……是真是假？|https://mp.weixin.qq.com/s/9bgjGG7KO_Vx6tg9QhnTog|正文仅242汉字(<300)
+生完孩子，继发性痛经就好了……是真是假？|https://mp.weixin.qq.com/s/cnSH3uUo6UdGjXZSlSbEbw|正文仅299汉字(<300)
+菠菜和豆腐一起吃，会得结石……是真是假？|https://mp.weixin.qq.com/s/HOdlWrxvDbfvwf3IN0jRYg|正文仅248汉字(<300)
+熬夜后能够全天补觉……是真是假？|https://mp.weixin.qq.com/s/MvQWzDwXQz8R4_LDVsY93A|正文仅228汉字(<300)
+
+## 坏链
+# 标题|URL
+用滴眼液就能缓解眼睛干涩……是真是假？| 谣言终结站|https://www.nhc.gov.cn用滴眼液就能缓解眼睛干涩……是真是假？| 谣言终结站
+近视人群不会得老花眼……是真是假？｜谣言终结站|https://filehelper.weixin.qq.com/?from=windows&type=recommend
+
+## 站内待抓
+# 标题|URL
+孩子发热、咳嗽就意味着有炎症，需要用消炎药……是真是假？| 谣言终结站|https://www.nhc.gov.cn/kppypt/etqsn/202602/fef6a5b0179a48bf82814bc790f7fa18.shtml
+高血压肯定有症状，只要没感觉就说明血压不高……是真是假？| 谣言终结站|https://www.nhc.gov.cn/kppypt/mxbb/202602/d1578b18a1b14372b037182b06085fbf.shtml

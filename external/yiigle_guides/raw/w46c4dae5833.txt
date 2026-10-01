@@ -1,0 +1,751 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%89%8B%E9%83%A8%E6%B9%BF%E7%96%B9%E8%AF%8A%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882021%E7%89%88%EF%BC%89.html
+# 标题: 中国手部湿疹诊疗专家共识（2021版） - 中华皮肤科杂志
+# 发布方/日期: 皮肤科，中华皮肤科杂志, 2021,54(1) : 19-26. DOI: 10.35541/cjd.20；2021-01-15
+
+中国手部湿疹诊疗专家共识（2021版）
+中国医师协会皮肤科医师分会科学委员会
+中国医师协会皮肤科医师分会变态反应性疾病专业委员会
+中国"手部湿疹科研协作组"
+中华皮肤科杂志, 2021,54(1) : 19-26. DOI: 10.35541/cjd.20200281
+手部湿疹是临床常见病、多发病，国外研究报道一般人群发病率5‰ ~ 8‰[1]，女性发病率高于男性[2,3]。手部湿疹原因较复杂，分类诊断是提升诊疗水平的重要条件。国外已制定多部相关指南或共识[4,5,6]。为更好地指导我国手部湿疹的诊断和规范化治疗，中国医师协会皮肤科医师分会变态反应性疾病亚专业委员会"手部湿疹科研协作组"在开展大规模多中心临床流行病学调查基础上，结合国内外相关的指南或共识，制定中国手部湿疹诊疗专家共识，供临床医师参考。
+一、定义
+手部湿疹（hand eczema）是一类发生于手部的炎症性皮肤病，囊括了手部表现为红斑、丘疹、水疱等原发皮损及糜烂、渗出、鳞屑、结痂、苔藓样变、角化过度、皲裂等继发皮损，伴有或无瘙痒等症状的手部湿疹皮炎样改变，国际上有称其为手部皮炎（hand dermatitis）。皮损组织病理可表现为表皮角化过度、角化不全、海绵水肿、棘层肥厚，真皮浅层血管周淋巴细胞浸润。因临床表现多样、病因复杂、病程迁延、治疗困难等特点，且手部与外界环境接触频繁，对患者的生活、工作、心理状态造成严重影响。
+二、病因及发病机制
+手部湿疹病因复杂，可分为外源性和内源性。外源性因素多为接触因素和机械损伤，包括：①接触性变应原，如金属制品（镍、铬、钴）、天然橡胶、芳香剂、食物蛋白（生肉、动物内脏、谷物）等；②接触性刺激物，如酸、碱、有机溶剂或其他化学制品等强刺激物，或水、肥皂、洗涤剂、机油、印刷品等弱刺激物；③机械损伤，如外伤、搔抓、长期摩擦等。内源性因素主要包括遗传因素、特应性体质、精神状态、激素水平、机体免疫状态、微量元素变化等[7,8]。超过半数的患者由职业接触导致，见于长期接触机械润滑油、有机溶剂的工人，频繁洗手、接触消毒剂的医务人员，长期接触洗涤剂、长期湿水的家庭主妇，接触洗发水和染发剂的理发师以及接触水泥等材料的建筑工人等[6,9]。特应性体质在内源病因中占主导地位，有特应性皮炎（atopic dermatitis，AD）病史者患手部湿疹的风险显著高于无AD病史的人群[10]。
+手部湿疹的发病机制尚不清楚，且不同亚型的发病机制存在差异。一般认为变应性接触性皮炎由Ⅳ型超敏反应引起，而刺激性接触性皮炎则由外源刺激物诱发的细胞毒作用导致[11]。聚丝蛋白基因突变、角质层脂质及神经酰胺含量下降、经表皮失水率增多以及皮肤菌群定植率升高可能与特应性手部湿疹的发病相关[12,13,14,15,16]。皮肤暴露于刺激物和变应原后激活体内炎症反应，启动固有免疫细胞并活化T细胞，释放多种炎症因子和趋化因子，导致组织细胞损伤并加剧皮肤屏障破坏；而屏障功能下降后又使得外界物质及病原微生物更易进入皮肤，加重组织损伤及炎症反应，形成恶性循环。皮肤屏障功能受损是手部湿疹反复发作的中心环节，这使得病情迁延不愈[1]。
+三、临床表现及分类
+手部湿疹临床表现复杂多样，可呈红斑、丘疹、水疱、鳞屑、角化过度、皲裂等多种皮损，主观症状可有不同程度的瘙痒、疼痛。既往根据形态学可将手部湿疹分为复发性水疱型湿疹（汗疱疹）、角化型手部湿疹、慢性指尖/指腹皮炎、钱币状手部湿疹、皲裂型手部湿疹等[17]。但不同时期手部湿疹临床表现差异较大，且不同病因导致的手部湿疹缺乏显著的特征，因此不建议仅按形态学特征分类[4,5,18]。推荐按病程长短或病因分类。
+（一）根据病程分类
+1．急性手部湿疹：
+病程≤ 3个月或1年内发作≤ 1次[5]，多数为短期内接触因素导致发病，皮损主要表现为红斑、肿胀、丘疹、水疱、糜烂、渗出等改变，可伴有明显瘙痒或疼痛。
+2．慢性手部湿疹：
+病程> 3个月或每年复发≥ 2次[5]，多为内外因素共同引起，皮损多表现为皮肤增厚、苔藓样变、角化过度、鳞屑、皲裂等，急性发作时也可呈红斑、丘疹、水疱、糜烂、渗出等改变。
+（二）根据病因分类
+临床工作中，明确病因对手部湿疹的治疗至关重要，因此在诊断时应优先采用病因学分类。主要分为外源性与内源性手部湿疹，外源性手部湿疹包括刺激性接触性皮炎（irritant contact dermatitis，ICD）、变应性接触性皮炎（allergic contact dermatitis，ACD）、接触性荨麻疹（contact urticaria，CU）/蛋白接触性皮炎（protein contact dermatitis, PCD）；内源性手部湿疹包括特应性手部湿疹（atopic hand eczema，AHE）、内源性水疱型手部湿疹（endogenous vesicular hand eczema）、内源性角化型手部湿疹（endogenous hyperkeratotic hand eczema）[1]。
+1．ICD：
+因长期反复暴露于刺激物导致皮肤屏障功能受损而引发的手部湿疹。多数患者长期进行湿手作业（wet work，指湿手或佩戴密封手套工作时间> 2 h/d或用肥皂、洗涤剂等洗手> 20次/d），病情严重程度与接触物性质、剂量、时间、次数呈正相关[17]。临床上暂无有效方法评估患者对刺激物的反应，诊断主要依靠刺激物接触史，需行斑贴试验以排除变应性接触性皮炎。
+2．ACD：
+由接触变应原后发生的Ⅳ型超敏反应引起，目前或曾经有变应原接触史，与发病存在明确相关或可疑相关。常见变应原有硫酸镍（金属饰品）、卡巴混合物（橡胶制品、胶水）、重铬酸钾（水泥）、硫柳汞（杀虫剂、抗菌剂）、防腐剂（化妆品）等。斑贴试验结果显示阳性接触变应原者可确诊或疑诊为ACD。
+3．CU/PCD：
+临床表现为手部接触蛋白质（食物蛋白、乳胶或生物材料）后在接触部位迅速发生荨麻疹继而因搔抓出现湿疹样皮损，多见于食品加工行业从业者，其发病机制为特异性IgE介导的Ⅰ型超敏反应，相当一部分患者合并特应性体质[9]。点刺试验和血清特异性IgE检测有助于明确诊断。
+4．AHE：
+患者有AD病史，或伴有哮喘、花粉症等特应性疾病，无刺激物或变应原接触史。手部湿疹可以为AD重要的临床表现，甚至为其唯一临床表现。尽管点刺试验及血清特异性IgE检测常有助于诊断AD和哮喘，但这些检查对AHE的诊断意义不大[19]。
+5．内源性水疱型手部湿疹：
+既往称汗疱疹，临床以手掌尤其手指屈侧缘复发性群集性水疱为特征性表现，常伴有中重度瘙痒，通常于发生水疱2~3周后出现脱屑并逐渐消退[1]。病因不明，可能与精神因素相关，多见于职业白领等脑力劳动人群[20]。诊断时需排除接触过敏、接触刺激史及特应性体质。ACD与AHE也可能表现为以水疱为主皮损，应注意鉴别。
+6．内源性角化型手部湿疹：
+主要表现为手掌及指腹部境界清楚的角化过度及疼痛性裂隙，也常累及跖部，多呈慢性经过，发病过程不出现脓疱或水疱，病因不明，无刺激物接触史。
+7．混合性手部湿疹（mixed hand eczema）：
+同时具有ICD、ACD或AHE的特点，临床上以ACD并发ICD最为常见[21]。
+8．未分类手部湿疹（unclassified hand eczema）：
+不符合上述任一种类型的手部湿疹，应继续寻找可能的病因以进行针对治疗。
+四、诊断及鉴别诊断
+（一）病史采集及体检
+应详细询问病史，包括职业、发病时间、可疑变应原接触史、加重或缓解因素、神经精神状态、特应性体质及其他皮肤病如银屑病史等。尽量明确发病与可疑暴露史之间的关系（包括家庭环境及工作场所中的接触史），注意湿手作业的情况。明确病程为急性或慢性，对于间歇性发作的患者记录其发作周期[22]。必要时可使用严重度评分表评估病情严重程度。
+对于初诊的手部湿疹患者应进行详细的全身皮肤检查，对皮损的部位（如手掌、手背、指间、腕部或身体其他部位）、形态（干燥、红斑、水疱、鳞屑、角化等）、严重程度（轻、中、重）进行描述。应注意皮损可随时间发生变化。体检时应注意检查双足。手部湿疹的临床表现、皮损形态与病因之间不存在明确对应关系，因此不应仅凭体检所见形态特征对患者进行诊断。
+（二）辅助检查
+1．斑贴试验：
+为明确潜在的致敏因素，建议对所有手部湿疹患者做斑贴试验，尤其建议对职业相关性皮炎以及顽固性、难治性、慢性患者进行检查[1]。除常用的基础斑贴筛查项目，必要时还需对患者日常接触的护肤品、外用药和工作环境中的化学物质以及手套等进行针对性斑贴试验检查。斑贴试验结果应在第2 ~ 3天及第5 ~ 7天进行评估[4]，如果只评估1次，会丢失将近20%的阳性结果[23,24]。对斑贴试验结果应根据患者实际暴露接触史做相关性分析，相关或可疑相关的斑贴试验阳性结果可作为ACD的诊断依据。斑贴试验阴性不能作为排除特定变应原的标准。
+2．点刺试验：
+主要用于诊断CU/PCD，即在疑有Ⅰ型超敏反应时使用点刺试验明确病因。为明确特应性体质是否为发病因素，可对吸入变应原也进行点刺试验。对于经常使用乳胶手套的患者，可单独针对乳胶变应原进行点刺试验或放射过敏原吸附试验。进行点刺试验前应准备肾上腺素注射液以防个别患者发生过敏性休克[4,5]。
+3．特异性IgE测定：
+血清特异性IgE测定主要用于明确特应性体质，同时对CU/PCD有一定诊断意义。
+4．感染相关检查：
+疑诊为手部湿疹的患者均建议进行真菌涂片或真菌培养检查以排除原发或继发真菌感染可能。细菌革兰染色涂片检查可排除细菌感染相关性疾病，皮肤刮片镜检用于排除疥疮，免疫荧光染色、病毒培养或PCR可用于排除单纯疱疹病毒感染[4,5]。
+5．皮肤组织病理检查：
+可为鉴别银屑病、毛发红糠疹、扁平苔藓等疾病提供参考，但不能用于确诊病因，也不能区别ACD和ICD[5,17,19,21,22]。
+6．皮肤镜检查：
+可用于鉴别其他手部有特殊表现的皮肤病，如银屑病、扁平苔藓、多形红斑、环状肉芽肿等。对于部分因特殊原因不能接受皮肤组织病理检查的患者，皮肤镜检查对诊断有一定提示意义。
+（三）鉴别诊断
+伴有水疱、脓疱的手部湿疹常需与手癣、掌跖脓疱病、连续性肢端皮炎、疥疮等疾病鉴别。手癣常单侧起病，逐渐累及双手，若伴发足癣、体癣或甲癣，通常可临床诊断，通过真菌涂片镜检或培养可确诊。掌跖脓疱病是在红斑基底上出现小而深的无菌性脓疱，数天后干涸脱屑，对称分布，可自行消退，反复发作，对称发生于手掌、足底部，指间受累罕见，好发于50~60岁女性，脓疱细菌镜检阴性。连续性肢端皮炎又名Hallopeau连续性肢端皮炎，是一种慢性、复发性、无菌性脓疱性皮肤病，以指、趾末端反复出现无菌性脓疱伴甲改变为特点，病因不明，目前被认为是脓疱型银屑病的一种罕见类型。疥疮是表现为指缝或躯体薄嫩部位丘疹、水疱、脓疱伴夜间剧烈瘙痒症状的感染性皮肤病，流行病学史及疥虫镜检有助于确诊。
+伴有角化的手部湿疹常需与银屑病、掌跖角化病、剥脱性角质松解症等疾病鉴别。银屑病皮损多呈境界清楚的红色斑块，上覆银白色厚鳞屑，Auspitz征阳性，可伴其他部位皮损、关节及指甲损害，组织病理活检有助于鉴别诊断。掌跖角化病是一组异质性显著的以掌跖皮肤增厚、角化过度伴疣状突起或皲裂为特征的慢性皮肤病，大部分患者有家族史，遗传学咨询有助于明确该诊断。剥脱性角质松解症好发于手掌部，对称分布，皮损只有鳞屑而无水疱形成及炎症变化，患者通常无自觉症状。
+此外，手部湿疹还需注意与多形红斑、手部单纯疱疹、固定性药疹、毛发红糠疹、扁平苔藓等疾病鉴别。
+（四）诊断流程
+推荐根据以下流程（图1）建立手部湿疹病因学分型诊断。
+点击查看大图
+图1
+手部湿疹诊断流程图
+图1
+手部湿疹诊断流程图
+五、严重度评分
+对手部湿疹进行严重程度评分有助于诊断和治疗，目前国际上常用的对皮损严重程度的评价标准有手部湿疹严重指数（hand eczema severity index，HECSI）评分[18,25]、Manuscore评分以及Osnabrück（OHSI）评分[26]等，其中HECSI评分标准较为客观，建议采用HECSI评分，其具体评分标准如下：将每只手分为5个区域，即指尖、手指（指尖以外）、手掌、手背及腕部，每个区域按照各种皮损的严重程度（intensity）评分，无皮损改变、轻度、中度、重度分别记0、1、2、3分。皮损包括6种，即红斑（E）、丘疹（I）、水疱（V）、皲裂（F）、鳞屑（S）、水肿（O），每个部位总分为各皮损评分之和。双手整体病变范围按以下标准评分：未受累记0分，受累1% ~ 25%记1分，26% ~ 50%记2分，51% ~ 75%记3分，76% ~ 100%记4分。总HECSI评分为每个部位总分与病变范围的乘积之和。HECSI评分范围是0 ~ 360分，根据该评分可将手部湿疹分为轻度（0 ~ 11分）、中度（12 ~ 27分）和重度（≥ 28分）[27]。
+皮肤病生活质量指数评分[28]能较直接地反映疾病对患者生活造成的影响，但受患者主观感受影响较大。
+六、预防与治疗
+手部湿疹的防治应结合病因、病程、严重程度、皮损特点等多方面因素，综合制定个体化方案，积极寻找病因、明确诊断、控制并发症、尽快改善症状并延缓和减轻复发。
+治疗流程主要根据病程分类治疗，见图2。
+点击查看大图
+图2
+手部湿疹治疗流程图NB-UVB：窄谱中波紫外线；PUVA：补骨脂素联合长波紫外线
+图2
+手部湿疹治疗流程图NB-UVB：窄谱中波紫外线；PUVA：补骨脂素联合长波紫外线
+（一）预防及基础治疗
+手部湿疹常常反复发作并难以治愈，对患者的身心影响较大，因此健康教育及完善的预防措施尤为重要。预防的重点是手部皮肤保护，避免接触刺激物/变应原，加强润肤保湿。皮肤屏障受损是手部湿疹反复发作的中心环节，加强润肤可有效促进屏障功能恢复，是手部湿疹的基础治疗[1]。
+1．合理使用手套：
+对于工作中频繁接触变应原、刺激物以及长期湿手作业的人群，应在工作时佩戴防护性手套，手套应完好无损，保持内部清洁干燥。手套的材料和使用方式十分重要，长时间使用密闭性橡胶手套引起皮肤发热和出汗可导致ICD发生，而橡胶添加剂与乳胶也是引发ACD和CU的常见变应原[29]。因此应尽量缩短戴密闭性手套工作的时间，若> 10 min，应在内层加戴棉布质手套以减轻出汗对皮肤的损伤。除职业性防护外，日常做家务时也需注意使用防护手套，并在冬季使用保温手套。在使用手套的基础上加用润肤剂可达到最佳防护效果[5,30]。
+2．润肤保湿、适度清洁：
+合理使用润肤剂可改善角质层水合状态，维持皮肤脂质平衡，对于健康人群可降低手部湿疹发病风险，对于患者则有助于减轻瘙痒、红肿等皮肤症状，同时促进屏障功能恢复。建议每天工作结束后以及睡前多次使用润肤剂[5]。但潮湿环境下或湿手工作时使用润肤剂可能会增加变应原和刺激物的渗透，从而引发疾病或加重症状[31,32]。应选择不含芳香剂或防腐剂等的润肤剂，富含脂类的皮肤屏障修复乳可能更有利于皮肤屏障的修复。建议在白天使用含亲水性基质的润肤剂，在睡前选择富含脂质的无芳香型润肤剂。使用时均匀涂满整个双手，包括指尖、指缝和手背[5]。洗手最好避免使用肥皂等清洁剂，可用温水冲洗双手后彻底擦干，并及时润肤。含甘油的乙醇类消毒剂比肥皂和水对皮肤的刺激性小，因此在没有明显污渍时，可选择此类消毒剂代替肥皂洗手[4]。湿手工作时不要戴戒指等饰物，以避免水渍在局部残留，损伤皮肤。
+3．健康教育：
+应教育患者积极寻找任何可能的病因和加重因素并尽量去除。高风险人群（美发师、建筑工人、厨师、家庭主妇、医务人员等）需在工作中合理使用手套及润肤剂、改善工作环境或替换致病性材料以尽量避免接触刺激物/变应原，必要时可更换工作。出现皮肤症状后应及时治疗，以避免发展为慢性。需向患者强调坚持长期润肤的重要性，以减少疾病复发。
+（二）局部药物治疗
+1．外用糖皮质激素（topical corticosteroids，TCS）：
+TCS是手部湿疹的一线治疗用药。TCS强度一般可分为弱效、中效、强效、超强效4级[33]。常用的弱效TCS包括1%氢化可的松乳膏、0.05%地奈德乳膏等，中效TCS包括0.1%曲安奈德乳膏、0.05%丙酸氟替卡松乳膏、0.1%糠酸莫米松乳膏等，强效TCS包括0.05%卤米松乳膏、0.05%二丙酸倍他米松乳膏等，超强效TCS包括0.1%氟轻松乳膏、0.05%氯倍他索乳膏等。应根据皮损的性质和部位选择合适强度的糖皮质激素，使用时间应尽可能短。对于轻中度手部湿疹选择局部外用中/强效糖皮质激素2~4周，重度患者可选择强效糖皮质激素4~8周或超强效糖皮质激素2周治疗。症状好转后可改为长期"主动维持治疗（proactive therapy）"，即在易复发的原有皮损区每周2次外用糖皮质激素或钙调磷酸酶抑制剂，同时配合润肤剂，可有效降低复发频率，减少糖皮质激素用量[34]。对于急性发作的手部湿疹以及TCS疗效不佳的中重度手部湿疹患者，可选择湿包疗法（wet wrap therapy），治疗时间通常为2~14 d[35]。对于顽固性肥厚性皮损、角化型皮损还可选用含有水杨酸、维A酸、维生素D3衍生物等成分的复方糖皮质激素制剂外用或封包[1,36]。
+2．外用钙调磷酸酶抑制剂（topical calcineurin inhibitors）：
+钙调磷酸酶抑制剂对轻中度手部湿疹尤其是AHE有良好的治疗作用，可作为TCS的替代/补充方案，并适用于长期主动维持治疗以减少复发[6,36]。钙调磷酸酶抑制剂不引起皮肤萎缩以及屏障功能损害等不良反应[6]。建议每天2次，病情控制后可逐步减量至每周2次长期主动维持治疗。
+3．其他外用药物：
+急性期皮损有大量渗出、水疱时可用3%硼酸溶液、0.1%盐酸小檗碱溶液、0.1%依沙吖啶溶液或高锰酸钾溶液冷湿敷，对有糜烂而渗出不多的亚急性皮损可用氧化锌油。合并感染者可选用含抗菌药的外用制剂，感染渗出较多时选择有抗菌作用的水剂外敷，如氯己定、聚维酮碘等。角化型皮损可外用维A酸类药物如0.1%维A酸乳膏、他扎罗汀等。其他外用药如焦油制剂、止痒剂等可视具体情况使用。
+（三）物理治疗
+紫外线治疗适用于TCS治疗无效的中重度顽固性复发性慢性手部湿疹。优先选择安全有效的窄谱中波紫外线（NB-UVB）和中高剂量长波紫外线1治疗，也可外用补骨脂素联合UVA治疗中重度顽固性角化型皮损。不良反应主要是局部皮肤红斑及刺激症状[37,38]。
+皮肤浅层X线放射治疗可以作为慢性顽固性手部湿疹的二线治疗方法[39]，尤其适用于手掌慢性角化型皮损。但关于长期应用局部放射治疗的安全性特别是致癌性还有待进一步研究。
+（四）系统治疗
+1．维A酸类药物：
+可用于TCS疗效不佳的重度慢性手部湿疹，尤其是角化型皮损。阿利维A酸（alitretinoin）是第一个在欧洲获准用于治疗手部湿疹的口服药物[36]，其临床有效性已得到证实[6,34,35,36]；通常根据症状严重程度及患者体重选择10~30 mg每日1次口服。阿维A等也可尝试用于重度慢性手部湿疹治疗，但尚缺乏高质量循证医学证据。维A酸类药物常见的不良反应有头痛、皮肤干燥、唇炎等，也可引起一过性血脂异常及转氨酶升高，用药期间应注意监测相关指标。育龄期女性在用药期间及停药后需严格避孕，阿利维A酸用药前1个月、用药时及停药后1个月需严格避孕；建议阿维A治疗期间和停止治疗后避孕至少2年。
+2．糖皮质激素：
+手部湿疹一般不主张系统应用糖皮质激素，仅用于较重的急性手部湿疹或慢性手部湿疹急性发作时的短期治疗。可选择泼尼松0.5 mg·kg-1·d-1口服，控制后逐步减量至停药，总疗程控制在1 ~ 2周内，或曲安奈德40 mg或复方倍他米松7 mg单次肌内注射。
+3．抗组胺药：
+对瘙痒及红肿症状明显的患者可给予抗组胺药对症处理，但对手部湿疹整体的病情和病程没有改善作用[40]。
+4．免疫抑制剂：
+中重度或其他方案治疗无效的手部湿疹可选用，均为超说明书用药。常用药物有环孢素、甲氨蝶呤、硫唑嘌呤等。此类药物可在短期内减轻症状，但不宜长期使用。环孢素治疗手部湿疹应从最低剂量（通常为3 mg/kg[5]）开始，逐渐增加至最小有效剂量，维持时间≤ 6个月，后逐渐减量3个月[36]。甲氨蝶呤起始剂量为每周5 ~ 10 mg，最大剂量不超过每周20 mg[41]。用药期间应注意监测血尿常规、肝肾功能等相关指标，育龄期女性应严格避孕。硫唑嘌呤常规用量为每日50 ~ 100 mg，用药前需进行血硫嘌呤甲基转移酶水平或硫嘌呤甲基转移酶基因型检测，用药期间密切监测血常规，若出现血细胞减少应立即停药。此外，雷公藤及其衍生物作为免疫抑制剂也有一定疗效，但应注意其生殖毒性。
+5．其他药物：
+钙剂、维生素C注射液、硫代硫酸钠等药物系统应用治疗手部湿疹有一定疗效。新型小分子药物如磷酸二酯酶4抑制剂[42]、JAK抑制剂等也有成功用于治疗顽固性手部湿疹的个案报道，但均缺乏高等级循证医学证据。近年来也有文献报道用生物制剂如IL-4受体单抗治疗Th2型重度ACD并取得一定疗效[43,44]。
+（五）中医中药治疗
+应根据临床症状和体征进行辨证施治，但尚缺乏循证医学证据，用药时也应注意其不良反应。外用中药泡浴、熏洗可作为TCS的补充治疗。
+（六）特殊人群治疗
+1．妊娠期及哺乳期：
+以外用润肤剂等基础治疗为主，避免接触任何可疑刺激物及变应原，工作或做家务时应佩戴手套。病情严重者可酌情应用TCS和钙调磷酸酶抑制剂治疗，通常认为在孕期外用这些药物是安全的[45,46]。哺乳期妇女应在哺乳结束后使用药膏以避免接触乳儿。NB-UVB可作为较为安全的二线治疗。禁用维A酸类药物。
+2．儿童：
+中重度患儿优先选择中弱效糖皮质激素在短期内控制症状，可使用钙调磷酸酶抑制剂进行序贯治疗及维持治疗，其儿童用药安全性已得到一定证实[47,48]。6岁以上症状较重者可联合NB-UVB治疗。所有治疗均需配合日常润肤，轻者可单用润肤剂长期维持。因儿童患者依从性较差，需对家长做好健康宣教，强调防护措施和长期润肤的重要性。
+七、本共识的局限性
+本共识的内容仅代表参与制定的专家对手部湿疹诊疗的指导意见，供临床医生参考。尽管专家们进行了广泛的意见征询和讨论，但仍有可能存在不全面之处。本共识所提供的建议、观点和方法并非强制性意见，与本共识不一致的做法并不意味着错误或不当。手部湿疹的诊断和治疗知识更新非常迅速，随着临床经验的不断积累，本共识未来需要定期予以修订、更新。
+参与本共识制定专家（排名不分先后）：陆前进（中国医学科学院皮肤病医院）、李恒进（解放军总医院海南分院）、郑捷（上海交通大学医学院附属瑞金医院）、王刚（第四军医大学西京皮肤医院）、郝飞（重庆医科大学附属第三医院）、张福仁（山东第一医科大学附属皮肤病医院）、赖维（中山大学附属第三医院）、杨斌（南方医科大学皮肤病医院）、晋红中（中国医学科学院北京协和医院）、刘晓明（香港大学深圳医院）、孙青（山东大学齐鲁医院）、郭庆（中山大学孙逸仙纪念医院）、陈柳青（武汉市第一医院）、丁艳（海南省皮肤病医院）、康晓静（新疆维吾尔自治区人民医院）、李捷（中南大学湘雅医院）、李玉叶（昆明医科大学第一附属医院）、梁云生（南方医科大学皮肤病医院）、刘玉梅（广州市皮肤病防治所）、吕成志（大连市皮肤病医院）、梅淑清（珠海市慢性病防治中心）、宋志强（陆军军医大学西南医院）、王建琴（广州市皮肤病防治所）、肖汀（中国医科大学附属第一医院）、杨文林（广州医科大学附属第二医院）、姚煦（中国医学科学院皮肤病医院）、邹颖（上海市皮肤病医院）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+AgnerT, ElsnerP.
+Hand eczema: epidemiology, prognosis and prevention[J].
+J Eur Acad Dermatol Venereol,
+2020,
+34
+Suppl 1:
+4-
+12.
+doi: 10.1111/jdv.16061.
+[2]
+ThyssenJP, JohansenJD, LinnebergA, et al.
+The epidemiology of hand eczema in the general population--prevalence and main findings[J].
+Contact Dermatitis,
+2010,
+62(
+2):
+75-
+87.
+doi: 10.1111/j.1600-0536.2009.01669.x.
+[3]
+FurueM, YamazakiS, JimbowK, et al.
+Prevalence of dermatological disorders in Japan: a nationwide, cross-sectional, seasonal, multicenter, hospital-based study[J].
+J Dermatol,
+2011,
+38(
+4):
+310-
+320.
+doi: 10.1111/j.1346-8138.2011.01209.x.
+[4]
+MennéT, JohansenJD, SommerlundM, et al.
+Hand eczema guidelines based on the Danish guidelines for the diagnosis and treatment of hand eczema[J].
+Contact Dermatitis,
+2011,
+65(
+1):
+3-
+12.
+doi: 10.1111/j.1600-0536.2011.01915.x.
+[5]
+DiepgenTL, AndersenKE, ChosidowO, et al.
+Guidelines for diagnosis, prevention and treatment of hand eczema[J].
+J Dtsch Dermatol Ges,
+2015,
+13(
+1):
+e1-
+e22.
+doi:10.1111/ddg.12510_1.
+[6]
+DiepgenTL, ElsnerP, SchliemannS, et al.
+Guideline on the management of hand eczema ICD-10 Code: L20. L23. L24. L25. L30[J].
+J Dtsch Dermatol Ges,
+2009,
+7
+Suppl 3:
+S1-
+S16.
+doi: 10.1111/j.1610-0387.2009.07061.x.
+[7]
+刘岳花，卢凤艳.
+手部湿疹的病因与治疗研究现状[J].
+皮肤病与性病,
+2017,
+39(
+4):
+261-
+263.
+doi: 10.3969/j.issn.1002-1310.2017.04.014.
+[8]
+余艺昕，杨斌.
+手湿疹中外诊疗指南概述[J].
+中华皮肤科杂志,
+2019,
+52(
+1):
+53-
+56.
+doi: 10.3760/cma.j.issn.0412-4030.2019.01.018.
+[9]
+ParkJB, LeeSH, KimKJ, et al.
+Clinical features and awareness of hand eczema in Korea[J].
+Ann Dermatol,
+2016,
+28(
+3):
+335-
+343.
+doi: 10.5021/ad.2016.28.3.335.
+[10]
+Angelova-FischerI, HoekAK, DapicI, et al.
+Barrier function and natural moisturizing factor levels after cumulative exposure to a fruit-derived organic acid and a detergent: different outcomes in atopic and healthy skin and relevance for occupational contact dermatitis in the food industry[J].
+Contact Dermatitis,
+2015,
+73(
+6):
+358-
+363.
+doi: 10.1111/cod.12464.
+[11]
+BainsSN, NashP, FonacierL.
+Irritant contact dermatitis[J].
+Clin Rev Allergy Immunol,
+2019,
+56(
+1):
+99-
+109.
+doi: 10.1007/s12016-018-8713-0.
+[12]
+VisserMJ, VerberkMM, CampbellLE, et al.
+Filaggrin loss-of-function mutations and atopic dermatitis as risk factors for hand eczema in apprentice nurses: part II of a prospective cohort study[J].
+Contact Dermatitis,
+2014,
+70(
+3):
+139-
+150.
+doi: 10.1111/cod.12139.
+[13]
+VisserMJ, LandeckL, CampbellLE, et al.
+Impact of atopic dermatitis and loss-of-function mutations in the filaggrin gene on the development of occupational irritant contact dermatitis[J].
+Br J Dermatol,
+2013,
+168(
+2):
+326-
+332.
+doi: 10.1111/bjd.12083.
+[14]
+VisserMJ, VerberkMM, van DijkFJ, et al.
+Wet work and hand eczema in apprentice nurses; part I of a prospective cohort study[J].
+Contact Dermatitis,
+2014,
+70(
+1):
+44-
+55.
+doi: 10.1111/cod.12131.
+[15]
+MerneliusS, CarlssonE, HenricsonJ, et al.
+Staphylococcus aureus colonization related to severity of hand eczema[J].
+Eur J Clin Microbiol Infect Dis,
+2016,
+35(
+8):
+1355-
+1361.
+doi: 10.1007/s10096-016-2672-2.
+[16]
+JungerstedJM, HøghJK, HellgrenLI, et al.
+Hand eczema and stratum corneum ceramides[J].
+Clin Exp Dermatol,
+2015,
+40(
+3):
+243-
+246.
+doi: 10.1111/ced.12502.
+[17]
+CoenraadsPJ.
+Hand eczema[J].
+N Engl J Med,
+2012,
+367(
+19):
+1829-
+1837.
+doi: 10.1056/NEJMcp1104084.
+[18]
+DiepgenTL, AndersenKE, BrandaoFM, et al.
+Hand eczema classification: a cross-sectional, multicentre study of the aetiology and morphology of hand eczema[J].
+Br J Dermatol,
+2009,
+160(
+2):
+353-
+358.
+doi: 10.1111/j.1365-2133.2008.08907.x.
+[19]
+ScaloneL, CortesiPA, MantovaniLG, et al.
+Clinical epidemiology of hand eczema in patients accessing dermatological reference centres: results from Italy[J].
+Br J Dermatol,
+2015,
+172(
+1):
+187-
+195.
+doi: 10.1111/bjd.13220.
+[20]
+Lehucher-MichelMP, KoeppelMC, LanteaumeA, et al.
+Dyshidrotic eczema and occupation: a descriptive study[J].
+Contact Dermatitis,
+2000,
+43(
+4):
+200-
+205.
+doi: 10.1034/j.1600-0536.2000.043004200.x.
+[21]
+AgnerT, Aalto-KorteK, AndersenKE, et al.
+Classification of hand eczema[J].
+J Eur Acad Dermatol Venereol,
+2015,
+29(
+12):
+2417-
+2422.
+doi:10.1111/jdv.13308
+[22]
+LyndeC, GuentherL, DiepgenTL, et al.
+Canadian hand dermatitis management guidelines[J].
+J Cutan Med Surg,
+2010,
+14(
+6):
+267-
+284.
+doi: 10.2310/7750.2010.09094.
+[23]
+De GrootAC, FroschPJ.
+Patch test concentrations and vehicles for testing contact allergens[M]//
+JohanssenJD, FroschPJ, LepoittevinJP.
+Contact dermatitis.
+5th ed.
+Heidelberg:
+Springer-Verlag,
+2011:
+1071-
+1105.
+[24]
+RietschelRL, FowlerJF.
+Fisher′s contact dermatitis[M].
+6th ed.
+Hamilton:
+BC Decker,
+2008:
+743-
+808.
+[25]
+HeldE, SkoetR, JohansenJD, et al.
+The hand eczema severity index（HECSI）: a scoring system for clinical assessment of hand eczema. A study of inter- and intraobserver reliability[J].
+Br J Dermatol,
+2005,
+152(
+2):
+302-
+307.
+doi: 10.1111/j.1365-2133.2004.06305.x.
+[26]
+SkudlikC, DulonM, PohrtU, et al.
+Osnabrueck hand eczema severity index--a study of the interobserver reliability of a scoring system assessing skin diseases of the hands[J].
+Contact Dermatitis,
+2006,
+55(
+1):
+42-
+47.
+doi: 10.1111/j.0105-1873.2006.00871.x.
+[27]
+HaldM, AgnerT, BlandsJ, et al.
+Clinical severity and prognosis of hand eczema[J].
+Br J Dermatol,
+2009,
+160(
+6):
+1229-
+1236.
+doi: 10.1111/j.1365-2133.2009.09139.x.
+[28]
+FinlayAY, KhanGK.
+Dermatology Life Quality Index（DLQI）--a simple practical measure for routine clinical use[J].
+Clin Exp Dermatol,
+1994,
+19(
+3):
+210-
+216.
+doi: 10.1111/j.1365-2230.1994.tb01167.x.
+[29]
+StraussRM, GawkrodgerDJ.
+Occupational contact dermatitis in nurses with hand eczema[J].
+Contact Dermatitis,
+2001,
+44(
+5):
+293-
+296.
+doi: 10.1034/j.1600-0536.2001.440508.x.
+[30]
+WrangsjöK, WallenhammarLM, OrtengrenU, et al.
+Protective gloves in Swedish dentistry: use and side-effects[J].
+Br J Dermatol,
+2001,
+145(
+1):
+32-
+37.
+doi: 10.1046/j.1365-2133.2001.04278.x.
+[31]
+HeldE, LundH, AgnerT.
+Effect of different moisturizers on SLS-irritated human skin[J].
+Contact Dermatitis,
+2001,
+44(
+4):
+229-
+234.
+doi: 10.1034/j.1600-0536.2001.044004229.x.
+[32]
+ZachariaeC, HeldE, JohansenJD, et al.
+Effect of a moisturizer on skin susceptibility to NiCl2[J].
+Acta Derm Venereol,
+2003,
+83(
+2):
+93-
+97.
+doi: 10.1080/00015550310007418.
+[33]
+张建中.
+糖皮质激素皮肤科规范应用手册[M].
+上海:
+上海科学技术出版社,
+2011.
+[34]
+ChongM, FonacierL.
+Treatment of eczema: corticosteroids and beyond[J].
+Clin Rev Allergy Immunol,
+2016,
+51(
+3):
+249-
+262.
+doi: 10.1007/s12016-015-8486-7.
+[35]
+González-LópezG, Ceballos-RodríguezRM, González-LópezJJ, et al.
+Efficacy and safety of wet wrap therapy for patients with atopic dermatitis: a systematic review and meta-analysis[J].
+Br J Dermatol,
+2017,
+177(
+3):
+688-
+695.
+doi: 10.1111/bjd.15165.
+[36]
+ElsnerP, AgnerT.
+Hand eczema: treatment[J].
+J Eur Acad Dermatol Venereol,
+2020,
+34
+Suppl 1:
+13-
+21.
+doi: 10.1111/jdv.16062.
+[37]
+BrassD, FouweatherT, StockenDD, et al.
+An observer-blinded randomized controlled pilot trial comparing localized immersion psoralen-ultraviolet A with localized narrowband ultraviolet B for the treatment of palmar hand eczema[J].
+Br J Dermatol,
+2018,
+179(
+1):
+63-
+71.
+doi: 10.1111/bjd.16238.
+[38]
+LingTC, ClaytonTH, CrawleyJ, et al.
+British Association of Dermatologists and British Photodermatology Group guidelines for the safe and effective use of psoralen-ultraviolet A therapy 2015[J].
+Br J Dermatol,
+2016,
+174(
+1):
+24-
+55.
+doi: 10.1111/bjd.14317.
+[39]
+Sheehan-DareRA, GoodfieldMJ, RowellNR.
+Topical psoralen photochemotherapy（PUVA）and superficial radiotherapy in the treatment of chronic hand eczema[J].
+Br J Dermatol,
+1989,
+121(
+1):
+65-
+69.
+doi: 10.1111/j.1365-2133.1989.tb01401.x.
+[40]
+Jankowska-KonsurA, ReichA, SzepietowskiJC.
+Systemic antihistamines--a common outside the guidelines therapeutic strategy in hand eczema management[J].
+J Eur Acad Dermatol Venereol,
+2016,
+30(
+1):
+67-
+71.
+doi: 10.1111/jdv.13060.
+[41]
+PolitiekK, van der SchaftJ, ChristoffersWA, et al.
+Drug survival of methotrexate treatment in hand eczema patients: results from a retrospective daily practice study[J].
+J Eur Acad Dermatol Venereol,
+2016,
+30(
+8):
+1405-
+1407.
+doi: 10.1111/jdv.13253.
+[42]
+Navarro-TriviñoFJ, Cuenca-BarralesC, Vega-CastilloJJ, et al.
+Chronic hand eczema and hepatogenic pruritus with good response to apremilast[J].
+Dermatol Ther,
+2019,
+32(
+3):
+e12879.
+doi: 10.1111/dth.12879.
+[43]
+ChipalkattiN, LeeN, ZancanaroP, et al.
+Dupilumab as a treatment for allergic contact dermatitis[J].
+Dermatitis,
+2018,
+29(
+6):
+347-
+348.
+doi: 10.1097/DER.0000000000000414.
+[44]
+ZirwasMJ.
+Dupilumab for hand eczema[J].
+J Am Acad Dermatol,
+2018,
+79(
+1):
+167-
+169.
+doi: 10.1016/j.jaad.2018.02.073.
+[45]
+TauscherAE, FleischerAB, PhelpsKC, et al.
+Psoriasis and pregnancy[J].
+J Cutan Med Surg,
+2002,
+6(
+6):
+561-
+570.
+doi: 10.1007/s10227-001-0147-1.
+[46]
+HoffmanMB, FarhangianM, FeldmanSR.
+Psoriasis during pregnancy: characteristics and important management recommendations[J].
+Expert Rev Clin Immunol,
+2015,
+11(
+6):
+709-
+720.
+doi: 10.1586/1744666X.2015.1037742.
+[47]
+SigurgeirssonB, BoznanskiA, ToddG, et al.
+Safety and efficacy of pimecrolimus in atopic dermatitis: a 5-year randomized trial[J].
+Pediatrics,
+2015,
+135(
+4):
+597-
+606.
+doi: 10.1542/peds.2014-1990.
+[48]
+MargolisDJ, AbuabaraK, HoffstadOJ, et al.
+Association between malignancy and topical use of pimecrolimus[J].
+JAMA Dermatol,
+2015,
+151(
+6):
+594-
+599.
+doi: 10.1001/jamadermatol.2014.4305.
+贡献者信息
+中国医师协会皮肤科医师分会科学委员会
+中国医师协会皮肤科医师分会变态反应性疾病专业委员会
+中国"手部湿疹科研协作组"
+通信作者
+杨斌
+Email：
+yangbin101@hotmail.com
+郝飞
+Email：
+haofei62@126.com
+王刚
+Email：
+xjwgang@fmmu.edu.cn
+关键词
+湿疹;
+诊断;
+治疗;
+手部湿疹;
+共识;
+基金项目
+南方医科大学皮肤病医院学科建设项目
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2021-01-15
+收稿日期：2020-03-20
+本文编辑
+尚淑贤
+Guideline and Consensus
+Diagnosis and treatment of hand eczema: a Chinese expert consensus statement (2021)
+Scientific Committee of Chinese Dermatologist Association,  Committee on Allergic Disease, Chinese Dermatologist Association,  China "Hand Eczema Scientific Research Collaboration Group"
+Published
+2021-01-15
+Cite as
+Chin J Dermatol, 2021, 54(1): 19-26. DOI: 10.35541/cjd.20200281
+Abstract
+Hand eczema is a group of inflammatory skin disease affecting the hands, with complex etiology, diverse symptoms and long disease duration, and severely impacts the life, work, and psychological state of patients. Based on the international diagnosis and treatment guidelines for hand eczema, and combined with research advances in diagnosis and treatment of hand eczema in China and other countries in recent years, Scientific Committee of Chinese Dermatologist Association, Committee on Allergic Disease of Chinese Dermatologist Association, and China "Hand Eczema Scientific Research Collaboration Group" established this consensus, which summarized current knowledge on the definition, pathogenesis, classification, diagnosis and treatment of hand eczema, in order to provide a more scientific and authoritative reference for the diagnosis and treatment of hand eczema in clinic.
+Key words:
+Eczema; Diagnosis; Therapy; Hand eczema; Consensus
+Contributor Information
+Scientific Committee of Chinese Dermatologist Association
+Committee on Allergic Disease, Chinese Dermatologist Association
+China "Hand Eczema Scientific Research Collaboration Group"
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+图1
+手部湿疹诊断流程图
+图2
+手部湿疹治疗流程图NB-UVB：窄谱中波紫外线；PUVA：补骨脂素联合长波紫外线
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华皮肤科杂志2021年54卷01期
+文    题：中国手部湿疹诊疗专家共识（2021版）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华皮肤科杂志2021年54卷01期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

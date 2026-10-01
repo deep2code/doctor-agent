@@ -1,0 +1,552 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E7%82%8E%E7%97%87%E6%80%A7%E8%82%A0%E7%97%85%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 儿童炎症性肠病诊断和治疗专家共识 - 中华儿科杂志
+# 发布方/日期: 儿科，中华儿科杂志, 2019,57(7) : 501-507. DOI: 10.3760/cma.j；2019-07-02
+
+儿童炎症性肠病诊断和治疗专家共识
+中华医学会儿科学分会消化学组
+中华医学会儿科学分会临床营养学组
+中华儿科杂志, 2019,57(7) : 501-507. DOI: 10.3760/cma.j.issn.0578-1310.2019.07.002
+炎症性肠病（inflammatory bowel disease，IBD）是指原因不明的一组非特异性慢性胃肠道炎症性疾病，包括克罗恩病（Crohn′s disease，CD）、溃疡性结肠炎（ulcerative colitis，UC）和未定型IBD（IBD unclassified，IBDU）。IBDU是指一种结肠型IBD，根据其表现既不能确定为CD，又不能确定为UC。近年随着对儿童IBD研究的深入，发现年龄小于6岁的IBD儿童有其独特的表型，这类IBD被定义为极早发型IBD（very early onset IBD，VEO-IBD）[1]。VEO-IBD中还包含新生儿IBD（小于28日龄）和婴幼儿IBD（小于2岁）。VEO-IBD中被报道最多的是白细胞介素（interleukin，IL）10及其受体基因突变。VEO-IBD因缺乏临床特异性表现、病例数相对少、缺乏诊断金标准而导致诊断困难。当遇到发病年龄早、病情重、影响生长发育、伴严重肛周疾病、常规治疗难控制、一级亲属有类似疾病史时，应高度怀疑VEO-IBD。
+在北美及欧洲国家，儿童UC的发病率为（0.10~5.98）/100 000，儿童CD的发病率为（0.15~12.00）/100 000[2,3,4]。在我国，儿童IBD发病率在近年显著升高，从2001年的0.5/1 000 000上升至2010年的6.0/1 000 000[5]。中华医学会儿科学分会消化学组儿童IBD协作组曾于2010年发表了"儿童炎症性肠病诊断规范共识意见"[6]。近年来，国内及国际对儿童IBD诊治的研究进展很快，IBD的诊治水平有了很大提高。欧美国家、日本及我国成人消化学组均出台IBD的诊治指南或指导意见。中华医学会儿科学分会消化学组和临床营养学组专家借鉴国外最新共识以及国内儿童IBD的临床研究和实践，在更新完善原有诊断规范共识意见上增加治疗内容，经过3次会议开放式讨论和多次函审修改，形成"儿童炎症性肠病诊断和治疗专家共识"，为IBD患儿的临床管理提供指导意见。
+第一部分 IBD的诊断
+一、IBD疑似病例诊断
+腹痛、腹泻、便血和体重减轻等症状持续4周以上或6个月内类似症状反复发作2次以上，临床上应高度怀疑IBD。IBD常合并（1）发热；（2）生长迟缓、营养不良、青春发育延迟、继发性闭经、贫血等全身表现；（3）关节炎、虹膜睫状体炎、原发性硬化性胆管炎、结节性红斑、坏疽性脓皮病等胃肠道外表现；（4）肛周疾病，如皮赘、肛裂、肛瘘、肛周脓肿等。
+二、IBD诊断标准
+（一）CD
+1．诊断标准：
+CD缺乏诊断的金标准，需要结合临床表现、内镜检查、组织病理学检查以及影像学检查进行综合分析，采取排除诊断法，主要排除肠结核、其他慢性肠道感染性疾病、肠道恶性肿瘤以及自身免疫性疾病的肠道病变，并随访观察。
+（1）临床表现：儿童CD最常发生于学龄期和青春期，发病高峰年龄为9~17岁[7]。CD临床表现多样，包括慢性起病、反复发作的右下腹或脐周腹痛伴明显体重下降、生长发育迟缓，可有腹泻、腹部肿块、肠瘘、肛周病变以及发热、贫血等全身性表现。要注意的是，经典的"三联征"（腹痛、腹泻和体重下降）只在25%的CD患儿中出现[8]，少部分CD患儿以肛周脓肿和肛周瘘管起病。
+（2）内镜检查：内镜下胃肠道典型表现为病变呈节段性、非对称性、跳跃性分布，可见阿弗他溃疡、裂隙样溃疡、纵行溃疡、铺路石样肠黏膜、肠腔狭窄、肠壁僵硬等。结肠镜检查是CD诊断的首选检查，镜检应达回肠末端。对于疑似IBD患儿需常规进行胃镜检查和小肠镜检查，小肠镜检查优先考虑胶囊小肠镜（small bowel capsule endoscopy，SBCE），气囊辅助式小肠镜（balloon-assisted enteroscopy，BAE）只在特殊情况下考虑，如经胃镜、结肠镜检查联合组织活检以及SBCE检查后，仍不能确定IBD者，需考虑BAE进行组织活检进一步明确。
+（3）组织病理学检查：内镜检查需进行黏膜组织活检行组织病理学检查，要求多段（包括病变部位和非病变部位）、多点取材。除了常规的组织病理学检查外，对于有条件的单位，尚需进一步行抗酸染色、活检组织结核杆菌的核酸检测、EB病毒的免疫组织化学及原位杂交、巨细胞病毒免疫组织化学等检查明确是否存在结核杆菌、EB病毒及巨细胞病毒感染。CD组织病理学特点为全层肠壁淋巴细胞增生、非干酪样肉芽肿、局灶性隐窝结构异常、局灶性固有膜深部的淋巴细胞浆细胞增多、裂隙样溃疡、阿弗他溃疡、黏膜下神经纤维增生和神经节炎、杯状细胞通常正常[9,10]。如为手术标本，手术切除标本大体病理特点为肠管跳跃性病变、融合的线性溃疡、铺路石样外观、瘘管形成、肠系膜脂肪包绕、肠腔狭窄、肠壁僵硬[9,10]。
+（4）影像学检查：初诊患儿用磁共振小肠成像（magnetic resonance enterography，MRE）或CT小肠成像评估小肠病变，可发现IBD的特征性改变、评估肠道的炎症范围以及破坏的程度（狭窄或穿孔性病变）。对于年龄小于6岁患儿首选MRE进行小肠影像学检查。盆腔磁共振成像用于检测疑似或合并肛周病变的CD患儿，评估肛瘘及肛周脓肿的位置及范围，评估手术及对药物治疗疗效。腹部超声检查对回肠末端病变的敏感性较高，超声检查结果的精确性与检查者的经验及专业程度有关。
+2．诊断要点：
+世界卫生组织曾提出CD诊断标准的6个诊断要点[11]，已在2010年儿童IBD诊断规范的专家共识意见中详细说明，可供参考[5]。CD完整的诊断包括临床类型、疾病活动度、有无并发症（狭窄、肛瘘）等。
+3．疾病评估：
+CD诊断成立后，需进行全面评估病情，制定治疗方案。
+（1）临床类型：可按巴黎分类进行分型[12]。
+（2）疾病活动度的评估：临床上用儿童克罗恩病活动指数（pediatric Crohn′s disease activity index，PCDAI）来评估儿童CD的疾病活动严重程度以及进行疗效评价[13]。将PCDAI<10.0定义为缓解期，10.0~27.5定义为轻度活动期，30.0~37.5定义为中度活动期，40.0~100.0为重度活动期[14]。
+（二）UC
+1．诊断标准：
+UC的诊断主要综合临床表现、内镜以及组织活检病理的特点进行分析，依靠典型的内镜下连续性结肠慢性炎症及组织学表现，在排除感染性和其他非感染性结肠炎的基础上作出诊断。
+（1）临床表现：持续性血便伴腹泻是UC的最常见临床症状，伴不同程度的全身症状，包括关节、皮肤、眼、口及肝胆等肠外表现。肠外表现在6岁以上患儿多见。
+（2）结肠镜检查：典型UC病变多从直肠开始，逐渐向近端发展，呈连续弥漫的黏膜炎症。结肠镜下表现为黏膜呈颗粒状，充血、质脆易出血、血管纹理模糊或消失，弥漫性点状糜烂，浅溃疡或小溃疡，伴脓性分泌物附着，反复发作的UC可表现为假息肉及黏膜桥形成[7,8]。如果全结肠炎伴回盲瓣累及，末端回肠可表现为非糜烂性红斑或水肿，称为"倒灌性回肠炎"。若非全结肠累及的UC，回肠末端黏膜应为正常[8]。
+（3）组织病理学检查：无论黏膜组织活检标本还是手术标本，特征性的组织学表现为隐窝结构改变和炎性浸润[8]。①隐窝结构改变包括隐窝的分支、扭曲、萎缩和黏膜表面的不规则。②炎性浸润即局灶性或弥散的基底部浆细胞增多。
+（4）不典型UC：对于儿童UC，典型的表现不多见，需认识5种不典型病变[8]。①直肠赦免，即内镜下直肠黏膜无典型UC表现，但组织学检查符合典型UC表现。②短病程，即患儿在起病不久就接受结肠镜检查并活检，活检组织提示片状炎性病变或缺少典型的隐窝结构异常，多见于10岁以内诊断UC的儿童。初次评估UC诊断后不迟于6周内重复活检可提高诊断准确性。③盲肠斑片，即表现为左侧结肠炎合并盲肠炎症（常为阑尾周围炎症）。盲肠炎症部位活检可表现为非特异性炎症病变。④上消化道累及，即UC患儿可存在上消化道病变，可表现为胃内糜烂或小溃疡，但非匍匐形或纵形。组织学表现为散在的或局灶性炎症，无肉芽肿（隐窝周围肉芽肿除外）。⑤急性重度UC，即病理上可表现为黏膜全层炎或深溃疡，其他特征不典型。无淋巴细胞浸润，V形的裂隙样溃疡。
+2．疾病评估：
+UC诊断成立后，需进行病情的全面评估，包括临床类型、病变范围、疾病活动度。
+（1）临床类型：分为初发型和慢性复发型[9]。初发型指无既往病史而首次发作；慢性复发型指在临床缓解期再次出现症状。
+（2）病变范围：推荐采用巴黎分类[12]。
+（3）疾病活动性的严重程度：UC病情分为活动期和缓解期，活动期的疾病按严重程度分为轻、中、重度。儿童UC疾病活动指数（pediatric ulcerative colitis activity index，PUCAI）可以用来评估疾病活动性[15]。将PUCAI<10定义为缓解期，10~34定义为轻度活动期，35~64定义为中度活动期，≥65定义为重度活动期。
+（三）IBD的鉴别诊断
+1.肠结核：回结肠型CD与肠结核的鉴别困难，需根据临床表现、结肠镜下所见及活检进行综合分析。我国2012年成人IBD的诊断规范共识意见指出[9]，下列表现倾向肠结核诊断，伴活动性肺结核；血清结核菌纯化蛋白衍生物（purified protein derivatives，PPD）试验强阳性；结肠镜下见典型的环形溃疡、回盲瓣口固定开放；活检见肉芽肿分布在黏膜固有层且数目多、直径大、特别是有融合；抗酸染色阳性。活检组织结核杆菌DNA检测阳性有助肠结核诊断。T细胞酶联免疫斑点试验（T-SPOT）阴性有助排除肠结核。对于儿童，有结核接触史者需高度警惕肠结核。对于鉴别诊断困难者，可先行诊断性抗结核治疗。抗结核治疗可选择的药物包括异烟肼、利福平、吡嗪酰胺和乙胺丁醇，根据不同的地区异烟肼的耐药情况，先予上述药物四联或三联（异烟肼、利福平、吡嗪酰胺）强化治疗2个月，后继续异烟肼和利福平巩固治疗4~10个月[16,17]，建议患儿到结核病专科医院治疗。
+2.过敏性结肠炎：过敏性结肠炎的表现可类似于UC，尤其是婴儿过敏性结肠炎。患儿常伴湿疹，有牛奶蛋白过敏史，部分有过敏性疾病家族史。牛奶蛋白回避及激发试验可帮助诊断。
+3.其他以及感染性肠炎（如空肠弯曲菌、耶尔森菌、艰难梭菌、真菌、巨细胞病毒、EB病毒、血吸虫、阿米巴、人类免疫缺陷病毒等），嗜酸细胞性胃肠炎，系统性红斑狼疮，原发性系统性血管炎，肠道淋巴瘤，组织细胞增生症等。
+三、诊断流程
+IBD诊断流程见图1。
+点击查看大图
+图1
+儿童炎症性肠病的诊断流程
+IBD为炎症性肠病；PPD为结核菌素试验；T-SPOT为T细胞酶联免疫斑点试验；G/GM试验为1，3-β-D葡聚糖检测/半乳糖甘露醇聚糖抗原检测；CMV为巨细胞病毒；EBV为EB病毒；HIV为人类免疫缺陷病毒；CRP为C反应蛋白；ESR为红细胞沉降率；UC为溃疡性结肠炎；CTE为CT小肠成像；MRE为磁共振小肠成像；SBCE为胶囊小肠镜；BAE为气囊辅助式小肠镜；CD为克罗恩病；IBDU为未定型炎症性肠病；a有条件的单位可选择进行检测；b对于高度怀疑存在单基因缺陷的患儿可选择进行基因检测（如IL-10R、IL-10、CYBB、FOXP3、XIAP、TTC7A、LRBA等基因）；c结合临床表现、实验室检查、内镜检查及组织病理学检查后确诊；d小于6岁儿童首选MRE进行小肠影像学检查
+图1
+儿童炎症性肠病的诊断流程
+第二部分 IBD的治疗与随访
+一、治疗目标
+儿童IBD的治疗目标为诱导并维持临床缓解及黏膜愈合，促进生长发育，改善患儿生存质量，将药物不良反应维持在最低水平。虽然近年提出以黏膜愈合作为CD治疗的新目标，但目前尚无公认的评估标准[18]。儿童IBD治疗方案基于疾病活动度的评估及病变的累及范围，包括诱导缓解和维持缓解两方面。对于初诊或复发的患儿，首先应进行诱导缓解，成功诱导缓解后，再进行维持缓解治疗。根据病情变化及时调整治疗方案，包括药物剂量及药物种类。
+二、治疗方法
+治疗方法主要为营养治疗、药物治疗和手术治疗。
+（一）营养治疗
+营养治疗在IBD多学科管理中起着重要的作用，可防治营养不良，促进儿童生长发育和预防骨质疏松症，成为各个阶段IBD患儿不可缺少的临床治疗措施之一。
+1．肠内营养治疗和膳食引入：
+全肠内营养（exclusive enteral nutrition，EEN）是指回避常规饮食，将肠内营养制剂作为唯一的饮食来源。EEN可作为轻中度儿童CD诱导缓解的一线治疗方案[19]。EEN相比糖皮质激素、免疫抑制剂和生物制剂等药物治疗，风险更小，可诱导急性活动期IBD缓解，但不能单纯用来维持缓解。营养制剂选择方面，因整蛋白配方与要素配方在诱导临床缓解效果相似，且整蛋白配方口味的依从性优于要素配方，故推荐以整蛋白配方作为EEN的首选配方。若整蛋白配方不耐受，需根据患儿的具体病情进行调整。例如，若患儿同时存在牛奶蛋白过敏，则考虑要素配方。EEN给予途径首选口服，若口服热量不能满足推荐需要量的70%时，应考虑鼻胃管喂养[19]。当选择EEN作为治疗方案后，通常不需用其他治疗IBD的药物。启动EEN后2周需评估疗效及依从性，若患儿无受益则需考虑及时调整治疗方案。
+EEN疗程建议6~12周，随后在2~4周内逐步引入低脂少渣食物。根据患儿耐受情况，可每隔3~4 d引入一种简单有营养易消化的安全食物，逐渐再转为正常饮食，但需避免高脂、精糖类和粗纤维等不易消化食物。在食物引入过程中，如获得有效的体重增加可考虑逐渐减量最后停用肠内营养。对于存在孤立口腔溃疡或肛周病变患儿，不推荐EEN用作诱导缓解的治疗。
+2．肠外营养：
+不推荐肠外营养作为IBD的首选营养支持方式，肠外营养仅用于肠内营养禁忌或肠内营养不耐受情况下短暂使用或补充性使用，具体适应证如下[20]，（1）CD继发短肠综合征早期或伴有严重腹泻；（2）高流量小肠瘘；（3）肠梗阻，不能越过梗阻部位利用远端肠管进行肠内营养治疗或营养管放置失败者；（4）严重腹腔感染未得到控制；（5）重症UC出现肠衰竭时；（6）肠内营养不能给予充足能量时（<正常生理需要量的60%）；（7）消化道大出血。具体供给量参照2010年"中国儿科肠内肠外营养支持临床应用指南"[21]。
+3．维生素、微量元素：
+定期监测与营养相关的实验室指标，尤其是维生素D、锌、钙、叶酸等，根据检测结果给予针对性补充治疗。
+（二）药物治疗
+主要的药物包括氨基水杨酸制剂（5-aminosalicylic acid，5-ASA）、糖皮质激素、免疫抑制剂及生物制剂，对难治性CD可选用沙利度胺。
+1．5-ASA：
+口服制剂包括柳氮磺胺吡啶和美沙拉嗪，直肠用药制剂为5-ASA灌肠剂和栓剂。柳氮磺胺吡啶疗效与美沙拉嗪相当，但不良反应多。推荐用于轻中度活动儿童UC的诱导及维持缓解治疗。对于轻中度UC，推荐口服5-ASA作为诱导缓解的一线治疗方案[22]。对于轻中度直肠炎，可考虑局部5-ASA单药治疗。对于轻度活动期结肠型CD诱导缓解和维持缓解治疗可能有效。直肠5-ASA用药量为25 mg/（kg·d），最大总剂量为1 g/d[22]。口服5-ASA用药量为30~50 mg/（kg·d）。
+2．糖皮质激素[22]：
+适应证为（1）儿童UC的诱导缓解，包括中重度活动期UC及轻度活动期UC对5-ASA无效者。（2）适用于中、重度活动性CD的诱导缓解治疗。按泼尼松1 mg/（kg·d）（其他类型全身作用激素的剂量按相当于上述泼尼松剂量折算）起始给药，最大总剂量40 mg/d。对于重度UC患儿，最大总剂量可达60 mg/d。对于病变局限在回盲部的CD患儿，可考虑布地奈德治疗，剂量0.45 mg/（kg·d），最大剂量9 mg/d。布地奈德不推荐用于重度活动性CD。静脉滴注甲泼尼龙1.0~1.5 mg/（kg·d），最大剂量60 mg，用于重度活动性UC。
+3．免疫抑制剂：
+（1）嘌呤类制剂，应用于儿童IBD的免疫抑制剂主要为嘌呤类制剂，适用于应用激素诱导缓解的重度UC的维持缓解；5-ASA不耐受的UC患儿；UC频繁复发（1年内复发2~3次）；激素依赖的UC患儿且5-ASA已用到最大剂量；儿童CD维持缓解的首选治疗方案。嘌呤类制剂包括硫唑嘌呤（azathioprine，AZA）或巯嘌呤（6-mercaptopurine，6-MP）。AZA和6-MP疗效类似，推荐AZA目标剂量为1.5~2.5 mg/（kg·d），6-MP目标剂量为1.0~1.5 mg/（kg·d）。有条件的医疗机构在用嘌呤类制剂时检测巯基嘌呤甲基转移酶以及嘌呤代谢产物6-甲巯基嘌呤和6-巯鸟嘌呤，以优化治疗方案，减少药物不良反应。
+（2）甲氨蝶呤（methotrexate，MTX）：若硫嘌呤类药物无效或不能耐受者，可考虑应用MTX维持缓解，剂量为10~25 mg/m2，给药方式为肌肉注射、皮下注射或口服，每周1次。最大剂量每次25 mg。
+（3）其他：沙利度胺可用于CD合并结核分枝杆菌感染及儿童难治性CD[23,24,25]。推荐用药量1.5~2.5 mg/（kg·d）[19]。由于其潜在的致畸、外周神经病变等不良反应，用药前需充分与家长沟通并取得知情同意后方可考虑应用；并密切监测其不良反应，如有外周神经炎、嗜睡、精神异常等，应及时减量或停用。可应用环孢霉素4~6 mg/（kg·d），他克莫司0.2 mg/（kg·d）治疗重度活动期UC[26]。治疗期间需监测药物血药浓度，根据血药浓度调整剂量，并严密监测药物相关不良反应。
+（4）生物制剂：国外有多种生物制剂用于儿童CD，如英夫利西单克隆抗体（单抗）（infliximab，IFX）、阿达木单抗等，目前在国内获批在临床应用的仅有IFX。适应证为中重度活动期CD的诱导和维持缓解治疗；激素耐药的活动性CD的诱导缓解治疗；瘘管性CD；有严重肠外表现（如关节炎、坏疽性脓皮病等）的CD[19]；存在高危因素的患儿，即内镜下深溃疡、充分诱导缓解治疗后仍持续为重度活动、病变广泛、生长迟缓（年龄别身高Z值在-2.5以下）、严重骨质疏松、起病时即存在炎性狭窄或穿孔、严重肛周病变[19]；作为重度UC的"拯救"治疗[26,27]。
+IFX按每次5 mg/kg，在第0、2、6周静脉注射作为诱导缓解方案；然后同样剂量每隔8周用药一次作为维持缓解方案。在IFX治疗前需严格除外结核、乙肝及其他感染因素。若存在脓肿、感染、结核，需充分抗感染、脓肿引流后再考虑IFX治疗。
+部分患儿对IFX治疗反应差，即对IFX治疗失应答。失应答包括原发性失应答和继发性失应答。原发性失应答是指在生物制剂最初6周诱导缓解治疗无效。继发性失应答是指在生物制剂治疗初期有应答的患儿出现病情恶化、复发。对于原发性失应答，及时更改治疗方案。对于继发性失应答，有条件的医疗机构可在药物浓度稳定的基础上进行血清IFX谷浓度及抗IFX抗体的检测，分析失应答的原因，进一步优化治疗方案[28]。
+（三）手术治疗
+CD外科手术指征为（1）出现肠梗阻、腹腔脓肿、瘘管形成、急性穿孔、大出血等并发症时；（2）癌变；（3）内科治疗无效、疗效不佳和（或）药物不良反应已严重影响生存质量者[9]。UC的手术治疗大多作为"拯救"治疗，但对中毒性巨结肠患儿一般宜早期实施手术。全结直肠切除、回肠储袋肛管吻合术是UC患儿首选的手术，尤其是J-pouch[22]。在转换治疗前应与外科医师和患儿密切沟通，权衡手术治疗的利弊，视具体情况决定。
+三、治疗方案
+（一）CD的治疗方案
+CD初始治疗方案的制定可参考PCDAI、内镜下病变的严重程度以及疾病累及部位进行个体化选择。
+1．诱导缓解：
+可采用"升阶梯"或"降阶梯"的治疗方案诱导缓解。（1）升阶梯治疗方案，采用EEN或糖皮质激素作为一线诱导缓解治疗，EEN治疗6~12周，激素治疗1~3个月，若一线诱导缓解治疗方案无效或出现不良反应再选择免疫抑制剂作为二线治疗方案诱导缓解和维持缓解。（2）降阶梯治疗方案，如果存在内镜下深溃疡、充分诱导缓解治疗后仍持续为重度活动、病变广泛、生长迟缓（年龄别身高Z值在-2.5以下）、严重骨质疏松、起病时即存在狭窄或穿孔、严重肛周病变等危险因素[19]，提示患儿预后差，需要早期生物制剂治疗进行诱导缓解，即降阶梯治疗。
+2．维持缓解和停药策略：
+诱导缓解后以免疫抑制剂进行维持治疗，首选嘌呤类药物。生物制剂诱导缓解者先以生物制剂维持缓解，6~10次后可选用免疫抑制剂继续维持缓解治疗。
+维持缓解治疗需数年。若患儿已完全发育，胃镜、结肠镜、MRE或SBCE提示黏膜愈合，血常规、C反应蛋白、红细胞沉降率、血清白蛋白水平完全正常，可考虑停药[15]。若有合并用药者，需逐渐撤药。
+3．抗菌药物应用：
+对于合并肛瘘或肛周脓肿的患儿，推荐应用甲硝唑或三代头孢类抗菌药物。对于有细菌感染依据的患儿，可考虑抗菌药物作为辅助治疗。
+（二）UC的治疗方案
+1．轻中度UC的治疗：
+口服5-ASA是轻中度活动儿童UC的一线诱导及维持缓解药物。对于轻中UC，推荐口服5-ASA作为诱导缓解的一线治疗方案[22]。对于轻中度直肠炎，可考虑局部5-ASA单药治疗。口服与局部5-ASA联合用药较单药口服疗效佳。
+口服5-ASA 2周无效可考虑转换治疗方案，如加用局部用药或口服糖皮质激素。以糖皮质激素治疗2~3周后，进行评估，根据PUCAI调整激素剂量。（1）PUCAI 15~30：考虑维持稳定剂量，持续1周后激素减量；（2）PUCAI>35：增加激素至前1~2周的量，再逐渐减慢速度减量；（3）PUCAI>60或任何时候PUCAI增加20，考虑升级治疗。
+对于激素诱导缓解的重度UC患儿推荐用嘌呤类制剂来维持缓解。若重度UC患儿从未接受过5-ASA治疗，且在激素诱导缓解时应答迅速，可考虑用5-ASA来维持缓解。
+2．重度UC的治疗[26]：
+对于重度UC，需首先评估临床病情、PUCAI；进行血液（血常规、电解质、肝肾功能、白蛋白、C反应蛋白、红细胞沉降率、血培养）及粪便（粪培养、相关病毒及艰难梭菌毒素）等检测；腹部立位X线片明确是否存在中毒性巨结肠。
+激素治疗，在静脉用足量甲泼尼龙治疗3 d后，需再次评估病情，根据病情调整治疗方案如下，（1）PUCAI<35者继续激素治疗；（2）PUCAI 35~65者可继续激素治疗2~5 d后再评估病情；（3）PUCAI>65者转换为IFX、环孢霉素、他克莫司或手术治疗。
+环孢霉素有效者，待症状缓解后改为继续口服（不超过6个月），逐渐过渡到硫嘌呤类药物维持治疗；4~7 d治疗无效者，应及时转手术治疗。
+他克莫司作用机制与环孢霉素类似。治疗开始1个月内每1~2周监测血药浓度[26]，欧美国家推荐初始血清药物谷浓度为10~15 μg/L，稳定后逐渐减量至5~10 μg/L，部分患儿可维持在2 μg/L。
+有研究提示IFX作为"拯救"治疗有效。
+四、随访
+建议所有患儿定期随访，以便评估病情发展和及时调整治疗方案。对于活动期IBD患儿，通常应每1~2周随访一次，内容包括临床症状缓解情况以及生长发育和营养状况评估。对于已处于缓解期进行维持治疗的IBD患儿，可每间隔1~3个月随诊，内容同前。
+五、IBD患儿的疫苗接种
+对于接受5-ASA或EEN治疗且营养状况良好的IBD患儿，其疫苗接种程序与健康儿童相同。对于接受免疫抑制治疗的患儿，需注意预防接种的时机、效果及安全性。对于接受免疫抑制治疗或存在重度营养不良的患儿来说，一般情况下禁忌接种活疫苗；灭活疫苗安全性高，可以正常接种，但其免疫反应强度和持久性可能会降低。减毒活疫苗接种时机为（1）免疫抑制治疗前至少4~6周（水痘至少4周，麻疹至少6周）；（2）免疫抑制治疗停药3个月以上（若糖皮质激素单药治疗停药1个月以上）[29,30,31]。对正在接受免疫抑制治疗而未行水痘疫苗接种的IBD患儿，若与其亲密接触的家庭成员中接种水痘疫苗后出现皮疹，应将其与IBD患儿隔离。
+委员会成员
+（罗优优 执笔）
+参与本专家共识制定、审阅的专家（以单位名称笔画为序）：广州市妇女儿童医疗中心（龚四堂、耿岚岚）；上海交通大学医学院附属瑞金医院（许春娣）；上海交通大学医学院附属新华医院（汤庆娅）；中国医科大学盛京医院（孙梅）；北京大学第三医院（李在玲）；空军军医大学唐都医院（王宝西）；河南省郑州市儿童医院（李小芹）；首都医科大学附属北京儿童医院（徐樨巍）；复旦大学附属儿科医院（黄瑛）；浙江大学医学院附属儿童医院（陈洁、罗优优）；湖南省儿童医院（游洁玉）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+UhligHH, SchwerdT, KoletzkoS, et al.
+The diagnostic approach to monogenic very early onset inflammatory bowel disease[J].
+Gastroenterology,
+2014,
+147(
+5):
+990-
+1007.
+DOI: 10.1053/j.gastro.2014.07.023.
+[2]
+BenchimolEI, FortinskyKJ, GozdyraP, et al.
+Epidemiology of pediatric inflammatory bowel disease: a systematic review of international trends[J].
+Inflamm Bowel Dis,
+2011,
+17(
+1):
+423-
+439.
+DOI: 10.1002/ibd.21349.
+[3]
+GhioneS, SarterH, FumeryM, et al.
+Dramatic increase in incidence of ulcerative colitis and Crohn′s disease (1988-2011): a population-based study of French adolescents [J].
+Am J Gastroenterol,
+2018,
+113(
+2):
+265-
+272.
+DOI: 10.1038/ajg.2017.228.
+[4]
+BenchimolEI, BernsteinCN, BittonA, et al.
+Trends in epidemiology of pediatric inflammatory bowel disease in canada: distributed network analysis of multiple population-based provincial health administrative databases [J].
+Am J Gastroenterol,
+2017,
+112(
+7):
+1120-
+1134.
+DOI: 10.1038/ajg.2017.97.
+[5]
+WangXQ, ZhangY, XuCD, et al.
+Inflammatory bowel disease in Chinese children: a multicenter analysis over a decade from Shanghai[J].
+Inflamm Bowel Dis,
+2013,
+19(
+2):
+423-
+428.
+DOI: 10.1097/MIB.0b013e318286f9f2.
+[6]
+中华医学会儿科学会消化学组儿童炎症性肠病协作组.
+儿童炎症性肠病诊断规范共识意见[J].
+中国实用儿科杂志,
+2010,
+25(
+4):
+263-
+265.
+[7]
+de BieCI, BuderusS, SandhuBK, et al.
+Diagnostic workup of paediatric patients with inflammatory bowel disease in Europe: results of a 5-year audit of the EUROKIDS registry[J].
+J Pediatr Gastroenterol Nutr,
+2012,
+54(
+3):
+374-
+380.
+DOI: 10.1097/MPG.0b013e318231d984.
+[8]
+LevineA, KoletzkoS, TurnerD, et al.
+ESPGHAN revised porto criteria for the diagnosis of inflammatory bowel disease in children and adolescents[J].
+J Pediatr Gastroenterol Nutr,
+2014,
+58(
+6):
+795-
+806.
+DOI: 10.1097/MPG.0000000000000239.
+[9]
+中华医学会消化病学分会炎症性肠病学组.
+炎症性肠病诊断与治疗的共识意见（2012年,广州）[J].
+中华消化杂志,
+2012,
+32(
+12):
+796-
+813.
+DOI: 10.3760/cma.j.issn.0254-1432.2012.12.002.
+[10]
+中华医学会病理学分会消化病理学组筹备组，中华医学会消化病学分会炎症性肠病学组.
+中国炎症性肠病组织病理诊断共识意见[J].
+中华病理学杂志,
+2014,
+43(
+4):
+268-
+274.
+DOI: 10.3760/cma.j.issn.0529-5807.2014.04.013.
+[11]
+BernsteinCN, FriedM, KrabshuisJH, et al.
+World gastroenterology organization practice guidelines for the diagnosis and management of IBD in 2010[J].
+Inflamm Bowel Dis,
+2010,
+16(
+1):
+112-
+124.
+DOI: 10.1002/ibd.21048.
+[12]
+LevineA, GriffithsA, MarkowitzJ, et al.
+Pediatric modification of the montreal classification for inflammatory bowel disease: the Paris classification[J].
+Inflamm Bowel Dis,
+2011,
+17(
+6):
+1314-
+1321.
+DOI: 10.1002/ibd.21493.
+[13]
+HyamsJS, FerryGD, MandelFS, et al.
+Development and validation of a pediatric Crohn′s disease activity index[J].
+J Pediatr Gastroenterol Nutr,
+1991,
+12(
+4):
+439-
+447.
+[14]
+TurnerD, GriffithsAM, WaltersTD, et al.
+Appraisal of the pediatric Crohn′s disease activity index on four prospectively collected datasets: recommended cutoff values and clinimetric properties[J].
+Am J Gastroenterol,
+2010,
+105(
+9):
+2085-
+2092.
+DOI: 10.1038/ajg.2010.143.
+[15]
+TurnerD, OtleyAR, MackD, et al.
+Development, validation, and evaluation of a pediatric ulcerative colitis activity index: a prospective multicenter study[J].
+Gastroenterology,
+2007,
+133 (
+2):
+423-
+432.
+DOI: 10.1053/j.gastro.2007.05.029.
+[16]
+焦伟伟，孙琳，肖婧,等.
+国家结核病规划指南——儿童结核病管理（第2版）[J].
+中国循证儿科杂志,
+2016,
+11(
+1):
+65-
+74.
+DOI: 10.3969/j.issn.1673-5501.2016.01.016.
+[17]
+WHO.
+Guidance for national tuberculosis programmes on the management of tuberculosis in children[M].
+Geneva:
+World Health Organization,
+2014.
+[18]
+NeurathMF, TravisSP.
+Mucosal healing in inflammatory bowel disease: a systematic review[J].
+Gut,
+2012,
+61(
+11):
+1619-
+1635.
+DOI:10.1136/gutjnl-2012-302830.
+[19]
+RuemmeleFM, VeresG, KolhoKL, et al.
+Consensus guidelines of ECCO/ESPGHAN on the medical management of pediatric Crohn′s disease[J].
+J Crohns Colitis,
+2014,
+8(
+10):
+1179-
+1207.
+DOI:10.1016/j.crohns.2014.04.005.
+[20]
+ForbesA, EscherJ, HébuterneX, et al.
+ESPEN guideline: clinical nutrition in inflammatory bowel disease[J].
+Clin Nutr,
+2017,
+36(
+2):
+321-
+347.
+DOI:10.1016/j.clnu.2016.12.027.
+[21]
+中华医学会肠外肠内营养学分会儿科协作组.
+中国儿科肠内肠外营养支持临床应用指南[J].
+中华儿科杂志,
+2010,
+48(
+6):
+436-
+441.
+DOI: 10.3760/cma.j.issn.0578-1310.2010.06.008.
+[22]
+TurnerD, RuemmeleFM, Orlanski-MeyerE, et al.
+Management of paediatric ulcerative colitis, part 1: ambulatory care-an evidence-based guideline from European Crohn′s and Colitis Organization and European Society of Paediatric Gastroenterology, Hepatology and Nutrition[J].
+J Pediatr Gastroenterol Nutr,
+2018,
+67(
+2):
+257-
+291.
+DOI: 10.1097/MPG.0000000000002035.
+[23]
+WangL, HongY, WuJ, et al.
+Efficacy of thalidomide therapy in pediatric Crohn′s disease with evidence of tuberculosis[J].
+World J Gastroenterol,
+2017,
+23(
+43):
+7727-
+7734.
+DOI: 10.3748/wjg.v23.i43.7727.
+[24]
+LazzeriniM, MartelossiS, MagazzùG, et al.
+Effect of thalidomide on clinical remission in children and adolescents with refractory Crohn disease: a randomized clinical trial[J].
+JAMA,
+2013,
+310(
+20):
+2164-
+2173.
+DOI: 10.1001/jama.2013.280777.
+[25]
+LazzeriniM, VillanacciV, PellegrinMC, et al.
+Endoscopic and histologic healing in children with inflammatory bowel diseases treated with thalidomide[J].
+Clin Gastroenterol Hepatol,
+2017,
+15(
+9):
+1382-
+1389. e1.
+DOI: 10.1016/j.cgh.2017.02.029.
+[26]
+TurnerD, RuemmeleFM, Orlanski-MeyerE, et al.
+Management of paediatric ulcerative colitis, part 2: acute severe colitis; an evidence-based consensus guideline from ECCO and ESPGHAN[J].
+J Pediatr Gastroenterol Nutr,
+2018,
+67(
+2):
+292-
+310.
+DOI: 10.1097/MPG.0000000000002036.
+[27]
+IwańczakBM, KierkuśJ, RyżkoJ, et al.
+Induction and maintenance infliximab therapy in children with moderate to severe ulcerative colitis: retrospective, multicenter study[J].
+Adv Clin Exp Med,
+2017,
+26(
+1):
+57-
+61.
+DOI: 10.17219/acem/42197.
+[28]
+JossenJ, DubinskyM.
+Therapeutic drug monitoring in inflammatory bowel disease[J].
+Curr Opin Pediatr,
+2016,
+28(
+5):
+620-
+625.
+DOI:10.1097/MOP.0000000000000393.
+[29]
+RubinLG, LevinMJ, LjungmanP, et al.
+2013 IDSA clinical practice guideline for vaccination of the immunocompromised host[J].
+Clin Infect Dis,
+2014,
+58(
+3):
+e44-
+100.
+DOI: 10.1093/cid/cit684.
+[30]
+DipasqualeV, RomanoC.
+Vaccination strategies in pediatric inflammatory bowel disease[J].
+Vaccine,
+2017,
+35(
+45):
+6070-
+6075.
+DOI: 10.1016/j.vaccine.2017.09.031.
+[31]
+中华医学会儿科学分会免疫学组，《中华儿科杂志》编辑委员会.
+免疫功能异常患儿的预防接种专家共识（试行稿）:原发性免疫缺陷病[J].
+中华儿科杂志,
+2015,
+53(
+12):
+898-
+902.
+DOI: 10.3760/cma.j.issn.0578-1310.2015.12.006.
+贡献者信息
+中华医学会儿科学分会消化学组
+中华医学会儿科学分会临床营养学组
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2019-07-02
+收稿日期：2018-11-22
+本文编辑
+孙艺倩
+Standard/Protocol/Guideline
+Expert consensus on the diagnosis and management of pediatric inflammatory bowel disease
+The Subspecialty Group of Gastroenterology, the Society of Pediatrics, Chinese Medical Association,  the Subspecialty Group of Clinical Nutrition, the Society of Pediatrics, Chinese Medical Association
+Published
+2019-07-02
+Cite as
+Chin J Pediatr, 2019,57(7): 501-507. DOI: 10.3760/cma.j.issn.0578-1310.2019.07.002
+Contributor Information
+The Subspecialty Group of Gastroenterology, the Society of Pediatrics, Chinese Medical Association
+the Subspecialty Group of Clinical Nutrition, the Society of Pediatrics, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+中华医学会儿科学会消化学组儿童炎症性肠病协作组.
+儿童炎症性肠病诊断规范共识意见[J].
+中国实用儿科杂志,
+2010,
+25(
+4):
+263-
+265.
+IBD为炎症性肠病；PPD为结核菌素试验；T-SPOT为T细胞酶联免疫斑点试验；G/GM试验为1，3-β-D葡聚糖检测/半乳糖甘露醇聚糖抗原检测；CMV为巨细胞病毒；EBV为EB病毒；HIV为人类免疫缺陷病毒；CRP为C反应蛋白；ESR为红细胞沉降率；UC为溃疡性结肠炎；CTE为CT小肠成像；MRE为磁共振小肠成像；SBCE为胶囊小肠镜；BAE为气囊辅助式小肠镜；CD为克罗恩病；IBDU为未定型炎症性肠病；a有条件的单位可选择进行检测；b对于高度怀疑存在单基因缺陷的患儿可选择进行基因检测（如IL-10R、IL-10、CYBB、FOXP3、XIAP、TTC7A、LRBA等基因）；c结合临床表现、实验室检查、内镜检查及组织病理学检查后确诊；d小于6岁儿童首选MRE进行小肠影像学检查
+图1
+儿童炎症性肠病的诊断流程
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华儿科杂志2019年57卷7期
+文    题：儿童炎症性肠病诊断和治疗专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华儿科杂志2019年57卷7期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

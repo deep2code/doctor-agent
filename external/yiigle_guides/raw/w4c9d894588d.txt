@@ -1,0 +1,362 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%AB%98%E7%9C%BC%E5%8E%8B%E7%97%87%E8%AF%8A%E6%96%AD%E6%B2%BB%E7%96%97%E5%92%8C%E9%9A%8F%E8%AE%BF%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882020%E5%B9%B4%EF%BC%89.html
+# 标题: 中国高眼压症诊断治疗和随访专家共识（2020年） - 中华眼科杂志
+# 发布方/日期: 眼科，中华眼科杂志, 2020,56(1) : 21-24. DOI: 10.3760/cma.j.i；2020-01-11
+
+中国高眼压症诊断治疗和随访专家共识（2020年）
+中华医学会眼科学分会青光眼学组
+中华眼科杂志, 2020,56(1) : 21-24. DOI: 10.3760/cma.j.issn.0412-4081.2020.01.008
+眼内压（简称眼压）是眼内容物作用于眼球壁的压力，正常范围为10~21 mmHg（1 mmHg=0.133 kPa）。眼压升高是青光眼进展的主要危险因素，但高眼压并不等同于青光眼，眼压高而不合并青光眼称为高眼压症。为指导临床规范化诊断和随访高眼压症，中华医学会眼科学分会青光眼学组，参考国内外文献，经过充分讨论，提出以下共识性意见和建议。
+一、高眼压症的诊断
+高眼压症的特征：（1）前房角镜检查示房角开放；（2）在未治疗情况下眼压高于21 mmHg；（3）未出现青光眼视盘改变，如青光眼视杯扩大、视盘沿变窄等；（4）未出现可检测到的神经纤维层缺损；（5）未出现视野缺损；（6）可合并色素播散或假性剥脱；（7）须除外继发性高眼压，如眼外伤、葡萄膜炎等[1]。《我国原发性青光眼诊断和治疗专家共识（2014年）》指出，仅眼压高于21 mmHg，而无青光眼性损伤表现，排除眼压测量误差、对眼压值产生影响的眼部或全身疾病，视神经结构及功能正常、视野检查正常、房角开放者，称为高眼压症[2]。测量眼压应以Goldmann压平眼压计测得值作为参考标准[1]。中央角膜厚度与眼压测量值呈正相关，当中央角膜厚度为520 μm时，Goldmann压平眼压计测得值最接近真实眼压，中央角膜厚度每波动100 μm，眼压测得值将出现7 mmHg误差。
+二、高眼压症的风险评估
+高眼压症发展为青光眼存在一系列危险因素。根据高眼压治疗研究（ocular hypertension treatment study，OHTS）证据显示[3]：（1）角膜偏厚、眼压中等升高者，用角膜厚度值对眼压值进行校正后，其实际眼压值可能在正常范围内，进展为青光眼的概率很低。（2）部分已存在潜在青光眼视神经损伤，但视野及眼底检查未见异常者，可能在5年内出现明确的青光眼性视功能损伤。（3）角膜薄而眼压值较高者发展为青光眼的概率较大。
+无症状的高眼压症多于健康体检或验光配镜时偶然发现。不同人群高眼压症的患病率存在差异，除种族、年龄、性别、家族史等因素外，与患者的其他系统疾病也可能存在关联。
+高眼压是青光眼发生的高危因素。研究结果证实眼压每升高1 mmHg，青光眼发生的风险将增加12%[4]，未经治疗的高眼压症进展为原发性开角型青光眼的比例为每年0.5%~2.0%[5]。OHTS和欧洲青光眼预防研究（European glaucoma prevention study，EGPS）[6]为随机对照研究，结果均显示年龄（每增长10岁青光眼发生风险增加26%）、眼压（每升高1 mmHg青光眼发生风险增加9%）、垂直和水平杯盘比（每增加0.1青光眼发生风险增加19%）、视野模式标准差（每增加0.2 dB青光眼发生风险增加13%）、中央角膜厚度（每减少40 μm青光眼发生风险增加2.04倍）为基础性相关危险因素，可用于高眼压症进展为开角型青光眼的风险评估[3,7,8]。
+三、高眼压症的随访和治疗时机
+尽管降眼压治疗能够降低高眼压症进展为青光眼的风险，但长期降眼压治疗会对患者生活造成诸多不便，过度治疗也会造成巨大的社会经济负担[9]。高眼压症患者的治疗阈值在临床尚无统一定论。英国National Institute for Health and Care Excellence发布的指南[1,10]规范了高眼压症的随访时间间隔、监测项目、治疗时机及对应处理，并进一步总结出高眼压症的诊断及治疗流程。依据对视功能损伤可能性的评估，眼压超过24 mmHg一般采取密切观察或药物治疗，监测项目包括与眼压、视盘、黄斑、视神经纤维层及视野有关的检查（图1）。
+点击查看大图
+图1
+高眼压症诊断、评估和治疗流程（POAG示原发性开角型青光眼，1 mmHg=0.133 kPa）[1]
+图1
+高眼压症诊断、评估和治疗流程（POAG示原发性开角型青光眼，1 mmHg=0.133 kPa）[1]
+四、高眼压症的治疗
+尽管高眼压症进展为青光眼的危险因素众多，降眼压治疗仍是唯一确定有效的干预措施。OHTS中随机分组选择是否使用降眼压药物治疗，治疗组将眼压降至24 mmHg以下，并比基线降低20%以上。观察5年，治疗组4.4%患者出现青光眼损伤症状，而未治疗组为9.0%，青光眼发生风险降低50%[5]。观察13年，22%未治疗组患者进展为青光眼，而治疗组患者进展为青光眼的比例为16%。青光眼患病基础风险最高的群体早期预防性治疗获益最大[11,12]。
+前列腺素类药物是高眼压症治疗的一线用药[13]。选择前列腺素类药物作为一线用药，除考虑安全性（safety）、可耐受性（tolerability）、有效性（efficacy）和经济性（price）的"STEP"原则外，还应符合局部用药的特殊要求，即与全身用药不抵触、依从性和持续性。
+选择性激光小梁成形术（selective laser trabeculoplasty，SLT）也可作为高眼压症患者的初始治疗方法[14]。青光眼及高眼压症激光治疗研究（laser in glaucoma and ocular hypertension，LiGHT）随机采用SLT和药物作为初始治疗，以眼压较基线水平下降至少20%作为治疗目标。治疗2个月后，SLT组和药物组眼压平均下降程度相似，分别为29.7%和27.9%。随访36个月，SLT组疾病控制率达到74.6%，其中仅行1次SLT治疗的患者占58.2%[15,16]。
+五、儿童及青少年高眼压症的诊断及治疗
+青少年高眼压症的诊断及治疗应当谨慎[17]。部分儿童及青少年的眼压常出现波动，尤其10岁以上年龄段者，表现为在一段时期内眼压测量值反复偏高，常超过30 mmHg，甚至非接触法眼压测量值达到40 mmHg以上，但并不影响视力且无自觉不适，也不合并其他眼部异常体征。因此，临床诊断、治疗儿童及青少年高眼压症应十分慎重，需在认真排除影响眼压测量值的诸多因素后诊断。影响眼压测量值的因素包括长睫毛（影响非接触测量）、眼压测量时屏气和眨眼等。儿童及青少年高眼压症的诊断不能仅凭借单一眼压指标，要经过长期随访、多次重复检查，结合视网膜神经纤维层厚度、视盘形态和视功能的检查结果，进行综合归纳和分析。采取药物治疗和手术干预治疗须谨慎，以避免药物不良反应和眼部创伤风险。若眼压较高（≥25 mmHg）但呈波动性，且无视神经损伤迹象，可每3~6个月检测1次视盘形态（最好进行定量分析）、视网膜神经纤维层和视网膜神经节细胞复合体厚度、阈值视野；若眼压进行性持续升高，则应每1~2周测量1次眼压，至少连续测量3次，眼压呈逐次上升趋势，一般超过30 mmHg时，应给予降眼压药物治疗。前列腺素类药物、碳酸酐酶抑制剂和β受体阻滞剂均可选择使用，其他降眼压药物在有效性和安全性方面目前尚缺乏足够的循证医学证据[18,19]。
+随着研究的进展、检测技术的日益提高，高眼压症的诊断、治疗、随访监测流程也在不断完善。本共识针对高眼压症，在甄别诊断、识别高风险者、个体化预防性治疗和监测等方面提供指导，旨在降低疾病进展的风险，以期为我国高眼压症的诊断及治疗规范化、科学化提供参考。
+专家组成员
+参与共识意见的专家组成员：
+王宁利 首都医科大学附属北京同仁医院北京同仁眼科中心（青光眼学组组长）
+余敏斌 中山大学中山眼科中心（青光眼学组副组长）
+刘旭阳 暨南大学附属深圳眼科医院（现在厦门大学附属厦门眼科中心，青光眼学组副组长）
+陈君毅 复旦大学附属眼耳鼻喉科医院眼科（青光眼学组副组长）
+（以下青光眼学组委员按姓氏拼音排序）
+才 瑜 北京大学第一医院眼科
+蔡鸿英 天津市眼科医院
+戴 超 陆军军医大学西南医院西南眼科医院
+范素洁 邯郸市眼科医院
+方 严 安徽眼科研究所 淮南市第一人民医院眼科
+郭文毅 上海交通大学医学院附属第九人民医院眼科
+黄丽娜 中南大学爱尔眼科学院 深圳爱尔眼科医院
+梁 亮 三峡大学第一临床医学院眼科
+梁远波 温州医科大学附属眼视光医院杭州院区
+林 丁 长沙爱尔眼科医院
+潘晓晶 山东第一医科大学（山东省医学科学院）山东省眼科研究所 青岛眼科医院
+申家泉 山东省立医院眼科
+石晶明 中南大学湘雅二医院眼科
+孙 红 南京医科大学第一附属医院眼科
+唐广贤 石家庄市第一医院石家庄市第一眼科医院
+汪建涛 天津医科大学眼科医院（现在暨南大学附属深圳眼科医院）
+王 峰 哈尔滨医科大学附属第一医院眼科
+王 涛 首都医科大学附属北京同仁医院北京同仁眼科中心
+王军明 华中科技大学同济医学院附属同济医院眼科
+王凯军 浙江大学医学院附属第二医院眼科中心
+王玉宏 厦门大学附属厦门眼科中心
+吴慧娟 北京大学人民医院眼科
+夏晓波 中南大学湘雅医院眼科
+谢 琳 陆军军医大学大坪医院眼科（现在重庆医科大学附属第三医院眼科）
+杨新光 西安市第四医院眼科（现在西安交通大学医学院附属广仁医院眼科）
+原慧萍 哈尔滨医科大学附属第二医院眼科
+张 纯 北京大学第三医院眼科（执笔）
+张 旭 南昌大学附属眼科医院
+张忠志 中国医科大学附属第一医院眼科
+郑雅娟 吉林大学第二医院眼科
+钟 华 昆明医科大学第一附属医院眼科
+周和政 解放军中部战区总医院眼科
+周 崎 中国医学科学院 北京协和医学院 北京协和医院眼科
+朱益华 福建医科大学附属第一医院眼科
+卓业鸿 中山大学中山眼科中心
+李树宁 首都医科大学附属北京同仁医院北京同仁眼科中心（非学组委员，秘书）
+张秀兰 中山大学中山眼科中心（非学组委员，秘书）
+王亚星 首都医科大学附属北京同仁医院北京同仁眼科中心 北京市眼科研究所（非学组委员，整理）
+利益冲突
+声明 本文为专家意见，为临床医疗服务提供指导，不是在各种情况下都必须遵循的医疗标准，也不是为个别特殊个人提供的保健措施；本文内容与相关产品的生产和销售厂商无经济利益关系
+参考文献
+[1]
+National Collaborating Centre for Acute Care (UK).
+Glaucoma: diagnosis and management of chronic open angle glaucoma and ocular hypertension[M].
+London:
+National Collaborating Centre for Acute Care (UK),
+2009:
+72-
+91.
+[2]
+中华医学会眼科学分会青光眼学组.
+我国原发性青光眼诊断和治疗专家共识（2014年）[J].
+中华眼科杂志,
+2014, (
+5):
+382-
+383.
+DOI: 10.3760/cma.j.issn.0412-4081.2014.05.022.
+[3]
+GordonMO, BeiserJA, BrandtJD, et al.
+The ocular hypertension treatment study: baseline factors that predict the onset of primary open-angle glaucoma[J].
+Arch Ophthalmol,
+2002,
+120(
+6):
+714-720, discussion 829-830.
+DOI: 10.1001/archopht.120.6.714.
+[4]
+NemesureB, HonkanenR, HennisA, et al.
+Incident open-angle glaucoma and intraocular pressure[J].
+Ophthalmology,
+2007,
+114(
+10):
+1810-
+1815.
+DOI: 10.1016/j.ophtha.2007.04.003.
+[5]
+KassMA, HeuerDK, HigginbothamEJ, et al.
+The ocular hypertension treatment study: a randomized trial determines that topical ocular hypotensive medication delays or prevents the onset of primary open-angle glaucoma[J].
+Arch Ophthalmol,
+2002,
+120(
+6):
+701-713, discussion 829-830.
+DOI: 10.1001/archopht.120.6.701.
+[6]
+MigliorS, ZeyenT, PfeifferN, et al.
+Results of the European glaucoma prevention study[J].
+Ophthalmology,
+2005,
+112(
+3):
+366-
+375.
+DOI: 10.1016/j.ophtha.2004.11.030.
+[7]
+Ocular Hypertension Treatment Study Group, European Glaucoma Prevention Study Group, GordonMO, et al.
+Validated prediction model for the development of primary open-angle glaucoma in individuals with ocular hypertension[J].
+Ophthalmology,
+2007,
+114(
+1):
+10-
+19.
+DOI: 10.1016/j.ophtha.2006.08.031.
+[8]
+MansbergerSL, MedeirosFA, GordonM.
+Diagnostic tools for calculation of glaucoma risk[J].
+Surv Ophthalmol,
+2008,
+53(
+Suppl 1):
+S11-
+16.
+DOI: 10.1016/j.survophthal.2008.08.005.
+[9]
+孙芸芸，陈伟伟，王宁利.
+高眼压症的诊断与治疗[J].
+中华眼科杂志,
+2016,
+52(
+7):
+542-
+546.
+DOI: 10.3760/cma.j.issn.0412-4081.2016.07.016.
+[10]
+National Institute for Health and Care Excellence(UK).
+Glaucoma: diagnosis and management[M].
+London:
+National Institute for Health and Care Excellence (UK),
+2017:
+12-
+13.
+[11]
+KassMA, GordonMO, GaoF, et al.
+Delaying treatment of ocular hypertension: the ocular hypertension treatment study[J].
+Arch Ophthalmol,
+2010,
+128(
+3):
+276-
+287.
+DOI: 10.1001/archophthalmol.2010.20.
+[12]
+De MoraesCG, DemirelS, GardinerSK, et al.
+Effect of treatment on the rate of visual field change in the ocular hypertension treatment study observation group[J].
+Invest Ophthalmol Vis Sci,
+2012,
+53(
+4):
+1704-
+1709.
+DOI: 10.1167/iovs.11-8186.
+[13]
+任泽钦.
+青光眼局部降眼压药专家共识和一线药物的发展[J].
+眼科,
+2012,
+21(
+1):
+11-
+13.
+[14]
+中华医学会眼科学分会青光眼学组.
+我国选择性激光小梁成形术治疗青光眼的专家共识（2016年)[J].
+中华眼科杂志,
+2016,
+52(
+7):
+486-
+489.
+DOI: 10.3760/cma.j.issn.0412-4081.2016.07.003.
+[15]
+GargA, VickerstaffV, NathwaniN, et al.
+Primary selective laser trabeculoplasty for open-angle glaucoma and ocular hypertension: clinical outcomes, predictors of success, and safety from the laser in glaucoma and ocular hypertension trial[J].
+Ophthalmology,
+2019,
+126(
+9):
+1238-
+1248.
+DOI: 10.1016/j.ophtha.2019.04.012.
+[16]
+GazzardG, KonstantakopoulouE, Garway-HeathD, et al.
+Selective laser trabeculoplasty versus eye drops for first-line treatment of ocular hypertension and glaucoma (LiGHT): a multicentre randomised controlled trial[J].
+Lancet,
+2019,
+393(
+10180):
+1505-
+1516.
+DOI: 10.1016/S0140-6736(18)32213-X.
+[17]
+孙兴怀.
+谨慎诊治少年儿童高眼压症[J].
+中华眼科杂志,
+2012,
+48(
+6):
+481-
+484.
+DOI: 10.3760/cma.j.issn.0412-4081.2012.06.001.
+[18]
+Maeda-ChubachiT, Chi-BurrisK, SimonsBD, et al.
+Comparison of latanoprost and timolol in pediatric glaucoma: a phase 3, 12-week, randomized, double-masked multicenter study[J].
+Ophthalmology,
+2011,
+118(
+10):
+2014-
+2021.
+DOI: 10.1016/j.ophtha.2011.03.010.
+[19]
+WhitsonJT, RoartyJD, VijayaL, et al.
+Efficacy of brinzolamide and levobetaxolol in pediatric glaucomas: a randomized clinical trial[J].
+J AAPOS,
+2008,
+12(
+3):
+239-
+246.
+DOI: 10.1016/j.jaapos.2007.11.004.
+贡献者信息
+中华医学会眼科学分会青光眼学组
+利益冲突
+声明 本文为专家意见，为临床医疗服务提供指导，不是在各种情况下都必须遵循的医疗标准，也不是为个别特殊个人提供的保健措施；本文内容与相关产品的生产和销售厂商无经济利益关系
+历史
+出版日期：2020-01-11
+收稿日期：2019-10-10
+本文编辑
+黄翊彬
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+图1
+高眼压症诊断、评估和治疗流程（POAG示原发性开角型青光眼，1 mmHg=0.133 kPa）[1]
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华眼科杂志2020年56卷1期
+文    题：中国高眼压症诊断治疗和随访专家共识（2020年）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华眼科杂志2020年56卷1期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解

@@ -1,0 +1,1117 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%88%90%E4%BA%BA%E4%BD%93%E5%A4%96%E8%86%9C%E6%B0%A7%E5%90%88%E5%BE%AA%E7%8E%AF%E8%BE%85%E5%8A%A9%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 成人体外膜氧合循环辅助专家共识 - 中华医学杂志
+# 发布方/日期: 重症医学科，中华医学杂志, 2018,98(12) : 886-894. DOI: 10.3760/cma.j；2018-03-27
+
+成人体外膜氧合循环辅助专家共识
+中国医师协会体外生命支持专业委员会
+中华医学杂志, 2018,98(12) : 886-894. DOI: 10.3760/cma.j.issn.0376-2491.2018.12.003
+体外膜氧合(extracorporeal membrane oxygenation，ECMO)，又称体外生命支持，作为一种可经皮置入的机械循环辅助技术，具有置入方便、不受地点限制、可同时提供双心室联合呼吸辅助和价格相对低廉等优点，近年来开始应用于常规生命支持无效的各种急性循环和(或)呼吸衰竭。随着ECMO用于循环和(或)呼吸辅助临床经验的积累以及生物医学工程技术的进步，更加便携、性能更加稳定的ECMO设备进入临床，越来越多的危重症患者从中获益[1,2]。据国际体外生命支持组织(Extracorporeal Life Support Organization, ELSO)统计，截至2017年7月，世界范围内共计16 561例成人循环衰竭患者接受了ECMO辅助治疗[3]。近年来我国ECMO治疗例数增加迅猛，根据中国生物医学工程学会体外循环分会统计数据，2016年全国ECMO例数达到1 234例[4]。
+尽管ECMO技术已相对成熟，但对于ECMO辅助时机选择、适应证以及辅助期间患者管理等相关问题，不同ECMO中心存在一定差异，影响了ECMO辅助效果的判定[5]。已有的ECMO循环辅助研究主要以病例报道和回顾性队列研究为主[6,7,8,9]，尚缺乏高级别循证医学证据，其临床有效性和安全性有待进一步验证。在我国，虽然越来越多的急性循环衰竭患者，如心源性休克(cardiogenic shock，CS)或心跳骤停(cardiac arrest，CA)患者，接受了ECMO辅助，但相关共识缺乏[10]。鉴于此，在国际ECMO循环辅助应用指南以及循证医学研究进展的基础上，结合我国应用现状，由中国医师协会体外生命支持专业委员会牵头制定此版成人循环衰竭ECMO辅助的专家共识。本共识涉及基础理论、ECMO建立、辅助期间管理和团队建设等内容，供国内ECMO从业人员参考。
+本共识的制定遵循专家规定程序调查法(Delphi Method)，由中国医师协会体外生命支持专业委员会共识指导委员会、专家评审小组、调查评价小组和撰写小组共同完成。
+一、ECMO工作原理及对血流动力学的影响
+ECMO技术引流患者静脉血至体外，经过氧合和二氧化碳排除后回输患者体内，承担气体交换和(或)部分血液循环功能。根据血液回输的途径不同，ECMO技术主要有静脉到静脉(venovenous ECMO，VV-ECMO)和静脉到动脉(venous-arterial ECMO，VA-ECMO)两种形式，前者仅具有呼吸辅助作用，而后者同时具有循环和呼吸辅助作用。本共识中的ECMO即指VA-ECMO。
+VA-ECMO根据插管部位不同，分为中心插管和外周插管两种形式。成人循环辅助最常选用股静脉-股动脉插管方式。股静脉-股动脉ECMO辅助时，ECMO辅助能够引流大部分回心血量，降低右心室前负荷，进而减低左心室前负荷，但存在增加左心室后负荷和心肌氧耗的风险[11,12]。少部分患者需要行左心减压措施，促进左心功能恢复，预防左心室内血栓形成和肺水肿加重[13,14]。
+二、ECMO在循环衰竭领域的临床应用
+近年来各种经皮穿刺置入机械循环辅助装置(mechanical circulatory support，MCS)广泛用于CS的辅助治疗[15,16]。目前我国可使用的经皮MCS除主动脉内球囊反搏(intra-aortic balloon pump，IABP)和ECMO，仅有Impella，后者刚刚进入我国，应用较少。ECMO是各种急性双心室功能衰竭合并呼吸功能衰竭患者治疗的首选，尤其适合CA患者的抢救性辅助治疗[17]。
+(一) CS
+CS是排除有效血容量不足和外周阻力减低，由于原发心脏损害导致心排量低下，全身组织和器官低灌注而造成的以全身脏器缺血、缺氧性损伤为特征的临床综合征。CS多见于急性心肌梗死(acute myocardial infarction，AMI)、急性暴发性心肌炎、心脏术后难治性低心排(postcardiotomy cardiogenic shock，PCS)、急性大面积肺栓塞、慢性心力衰竭急性失代偿、心脏移植术后移植心脏急性功能障碍、严重心律失常、围产期心肌病、应激性心肌病、左心衰接受左心室辅助装置辅助期间出现右心衰等。其中，AMI是最常见原因，占80%以上[18]。目前我国循环衰竭接受ECMO辅助患者中，PCS占多数。
+CS患者在充分补充容量的基础上，仍需大剂量血管活性/正性肌力药物和(或) IABP辅助，并且血流动力学不平稳和外周组织低灌注状态无明显改善时，排除禁忌证后，可积极考虑使用ECMO[19]。
+(二) CA
+CA可分为院内心跳骤停(in-hospital cardiac arrest，IHCA)和院外心跳骤停(out-of-hospital cardiac arrest，OHCA)两种，常规心肺复苏(CPR)患者出院存活和神经系统功能良好率仅分别为12%～22%和2%～11%[20]。研究结果显示ECMO能够提高IHCA患者出院存活率，因此体外辅助心肺复苏(extracorporeal cardiopulmonary resuscitation，ECPR)成为ECMO循环辅助的另一重要临床适应证[21,22,23]。但是，目前仍然没有相关前瞻随机对照研究来证实ECPR的安全性和有效性，不同中心患者出院存活率差异较大(14.5%～34.9%)，其原因主要与以下因素有关：患者的选择、有效的常规CPR、高效而安全的ECPR以及CA出现到开始有效ECMO辅助的间隔时间等[24,25]。
+欧洲每年有约50万OHCA患者，其中高达三分之二是由心脏疾病引起，但仅10%～15%的患者存活抵达医院，神经系统功能良好患者约占其中的50%～80%[26]。随着便携式ECMO装置用于临床，欧洲许多国家积极开展OHCA患者的ECPR抢救工作[27,28]。由欧洲复苏委员会(European Resuscitation Council，ERC)和美国心脏病协会(American Heart Association，AHA)专家组成的国际复苏联合委员会(International Liaison Committee on Resuscitation，ILCOR)的最新CPR指南提出：针对CPR时间尚不长、极可能恢复循环的患者，可积极进行ECPR[29,30]。
+(三)急性右心功能衰竭
+急性大面积肺栓塞、心脏移植术后并发右心功能不全、接受左心室辅助装置而出现急性右心衰时，行ECMO辅助能帮助部分患者渡过难关[31]。因严重的急性呼吸窘迫综合征引发急性肺心病时需要考虑以VA-ECMO替代VV-ECMO。
+接受ECMO辅助的目的也有不同，主要有等待心脏功能恢复(bridge to recovery)、等待心脏移植或长期心室辅助装置、等待下一步治疗(bridge to further therapy)和等待决定(bridge to decision)。急性暴发性心肌炎、AMI或PCS患者，主要目的是等待自身心脏功能恢复；终末期心肺疾病患者，主要是等待心脏或肺移植或接受长期心室辅助装置；急性大面积肺栓塞、ECPR、AMI合并机械并发症[室间隔缺损和(或)二尖瓣重度反流]和其他CS患者，等待下一步治疗[32]。部分ECPR患者，接受ECMO辅助后血流动力学稳定，可为下一步决定提供时间，找出原发疾病，并给予相应治疗。对于脑死亡患者，ECMO辅助可以维护其他器官功能，使其成为移植供体，缓解供体缺乏的矛盾[33,34]。
+三、ECMO循环辅助时机和指征
+共识1.患者处于难以纠正的CS状态，且无ECMO辅助禁忌证时，建议尽早行ECMO辅助。
+已有较多研究显示使用大剂量血管活性药物和正性肌力药物的CS患者预后较差[35]，目前相关研究报道的ECMO循环辅助出院存活率为15%～45%[36]。因此，难治性CS患者尽早开始ECMO辅助，可能有助于改善患者预后。目前仍然没有相关前瞻随机对照试验明确CS患者ECMO辅助的合适时机，有研究显示血乳酸水平能够反映组织低灌注与CS的严重程度，可用于指导ECMO的辅助时机[37]。循环衰竭患者接受ECMO辅助的临床适应证和禁忌证也处于变化之中，其中临床适应证不断扩展，而禁忌证有缩小趋势。目前认为ECMO循环辅助相对禁忌证主要有高龄(年龄>75岁)、严重肝脏功能障碍、恶性肿瘤晚期和合并存在抗凝禁忌证等。而合并主动脉瓣中-重度关闭不全与急性主动脉夹层动脉瘤为绝对禁忌证。对于高危复杂冠心病患者介入治疗的预防性应用，目前证据有限[38,39]。
+共识2. IHCA患者，常规CPR抢救持续10 min仍未能恢复有效自主循环，且无ECMO辅助禁忌证时，可立刻启动ECPR抢救流程。
+IHCA患者接受ECPR，能够提高出院存活率，神经系统预后较好。传统CPR抢救无自主循环到开始ECMO辅助之间的时间间隔与IHCA患者临床预后密切相关。因此，对于符合ECPR适应证，无禁忌证者，应尽早开始实施ECPR[23,40]。ECPR患者的适应证包括：有医务人员见证的CA；积极有效的CPR；患者年龄<75岁；标准CPR超过10 min没有恢复有效自主循环或间断短时间恢复自主循环而期间又反复出现CA者。如有以下情况，可以考虑放弃ECPR：合并严重不可逆性、晚期疾病，如癌症、肝硬化晚期等；合并严重认知功能受损或脑损伤；严重内环境紊乱，pH值<6.8或血乳酸水平>15 mmol/L者[23]。另外，ECPR的成功实施，需要ECMO团队的密切配合，如ECMO专业人员、麻醉医师、心脏内/外科医师、ICU医师、体外循环人员、急诊科医师和相关护理人员等。
+四、ECMO的建立
+成人循环衰竭接受ECMO辅助时，需结合患者病情和ECMO中心临床经验等，采取合适的ECMO辅助形式和置管方式[32]。置管有外科切开和经皮穿刺两种方式[41,42]。可选择一侧股部置管，也可两侧同时置管。紧急(如ECPR)状态下经皮置管时，尽量在超声引导下进行，确保穿刺针和导丝在内径较大的血管腔内，并鉴别动静脉，才能继续下一步操作，如果短时间内无法成功应采取外科切开[43]。无论采取哪种置管方式，送入导丝时无阻力方可继续，切忌暴力。经皮穿刺置管时，应有心血管外科医师处于待命状态。
+共识3.如果病情允许，动静脉插管前，建议应用超声评估血管条件。超声可以显示目标血管直径并帮助判断置管位置，利于减少插管并发症。
+股动脉插管时，应选择条件较好的一侧。如双侧股动脉均存在严重狭窄或明显钙化病变时，可选择腋动脉或锁骨下动脉插管。另外，腋动脉或锁骨下动脉插管发生插管部位感染较少，患者也容易进行康复训练，多用于等待移植的患者。
+共识4.建议根据患者需要的辅助流量，选取与之适应的插管形式和型号。
+循环衰竭患者ECMO辅助流量主要由股静脉插管型号决定。股动静脉插管完成，连接ECMO环路，获得稳定的辅助流量后，可放置远端灌注管，增加动脉插管侧下肢血液供应，预防下肢严重缺血发生[44,45,46]。已有研究证实下肢严重缺血是患者死亡的独立风险因素[47,48]，建议ECMO辅助过程中定期观察患者ECMO插管侧下肢血供情况，及早发现下肢缺血。如果发生下肢缺血，建议请血管科及骨科会诊。
+对于心脏手术难以脱离体外循环机患者，可以采用中心插管ECMO辅助(选用心脏手术体外循环插管继续作为ECMO插管)，也可以采取股动静脉插管建立ECMO辅助。中心插管感染和出血风险相对较高，且护理难度大，撤机时需再次入手术室开胸。
+对于循环功能衰竭合并呼吸功能衰竭患者，出现上半身缺氧，即Harlequin syndrome时，可通过适当调整股静脉插管位置，也可采用静脉-动脉-静脉(VAV-ECMO)方式或腋动脉插管缓解脑和心脏缺氧[49]。
+五、ECMO循环辅助患者的监测与管理
+接受ECMO循环辅助患者通常病情极为危重，再加上ECMO是一种高消耗、高创伤性高级生命支持方式，期间可能出现多种并发症。因此，应加强监测和管理，积极预防可能出现的各种并发症，早期发现，及时处理[48]。各个ECMO中心都应有接受过ECMO相关培训的专业人员和团队，负责患者的管理工作。
+共识5.建议ECMO的辅助流量满足循环衰竭患者需要即可。
+ECMO辅助为机体组织与器官提供稳定的血供，满足机体氧需的同时，也能够让病变的心脏得以"休息"。但是，研究显示ECMO辅助流量越大，左心室后负荷增加越明显[11,50,51]。因此，ECMO循环辅助的流量以既能保证氧供，又不明显增加左心室后负荷为标准[52,53]。测定ECMO环路混合静脉血氧饱和度(mixed venous blood oxygen saturation，SvO2)可指导ECMO辅助流量，维持SvO2>65%。血乳酸浓度一定程度上反映灌注状况，与SvO2有协同作用[37,54]。ECMO辅助开始后，有效循环血量充足方能保证ECMO辅助流量稳定。血流动力学稳定后考虑维持一定剂量的正性肌力药物，尽快降低血管收缩药物剂量，以减少心肌耗氧，缓解外周组织和器官缺血[54]。
+共识6.循环衰竭患者ECMO辅助期间，目标血压应结合脏器灌注指标，满足患者重要脏器需求即可。
+循环衰竭患者ECMO辅助期间可能由于多种原因导致患者血压较低，如使用镇静类药物、有效血容量不足、严重酸碱平衡紊乱、严重感染或血管麻痹综合征等。应积极寻找原因，及时给予纠正，避免重要脏器缺血性损伤。通常可以通过增加ECMO辅助流量或使用缩血管药物来实现增加血压的目的。然而，这样可能会增加左心室的后负荷和(或)加重远端脏器缺血。目标血压设定应结合患者组织、器官灌注和氧代谢情况，有相关研究提出平均动脉压>60～65 mmHg(1 mmHg＝0.133 kPa)即可[55]；对于既往有高血压病史者，可适当维持较高血压。
+共识7.建议加强ECMO辅助期间左心功能的监测。
+ECMO辅助增加左心室后负荷[11]。辅助期间，尽可能每日由固定的经验丰富的超声医师，对患者进行超声心动检查，以观察和评估左心功能状态。其观察指标主要有左心室大小、主动脉瓣瓣上流速、左心室室壁运动情况、是否合并二尖瓣中-重度关闭不全和心包积液等。放置肺动脉导管有助于评价左心功能。
+共识8.联合IABP可以减轻左心室后负荷。
+IABP可以减轻左心室后负荷，降低左心室舒张末压，进而降低左房压，减轻肺水肿。尽管IABP具有以上作用并且增加冠状动脉血供和血液搏动性灌注，但联合使用IABP作用有限，临床有效性和安全性仍然存在一定争议[56,57,58,59]。
+共识9. ECMO辅助期间，左心室室壁运动幅度低，左心室胀满，主动脉瓣处于不能开放状态，胸片提示肺水肿进行性加重时，建议进行左心减压。
+在充分减轻液体负荷和运用正性肌力药物支持等治疗无效后进行左心减压。ECMO辅助期间左心减压措施主要有肺动脉引流、经右上肺静脉或心尖放置左心减压引流管、经皮穿刺房间隔造瘘和联合使用Impella辅助装置等[13,14,60]。临床工作中，应结合患者接受ECMO辅助的具体情况，采取相应的左心减压措施。
+共识10.建议积极寻找并纠正CS发病原因，促进自身心脏功能恢复。
+对于AMI合并CS患者而言，应积极接受再血管化(冠状动脉介入治疗或冠状动脉旁路移植术)治疗。对于PCS患者而言，心脏解剖畸形得到充分矫正是心脏功能得以恢复的基础，也是取得较好辅助效果的前提。ECMO建立平稳后，需进行超声心动检查，明确有无心脏瓣膜重度狭窄或关闭不全、先天性心脏病心脏畸形矫正是否满意等，必要时再次手术。冠状动脉旁路移植术后PCS患者怀疑桥血管问题时，应积极开胸探查或冠状动脉造影，必要时接受再次冠状动脉旁路移植术或介入治疗。
+共识11.肝素是ECMO辅助期间最常用的抗凝剂，应持续泵入，维持适当的激活凝血时间(activated clotting time，ACT)水平，并结合活化部分凝血酶原时间(activated partial thromboplastin time，APTT)、抗凝血因子Ⅹa水平、凝血功能测定结果以及患者病情等综合判断所需的抗凝强度，在血栓栓塞风险与出血并发症之间找到合适的平衡点。
+ECMO辅助期间血液处于一种持续高凝状态，血栓栓塞发生率高达20%[1]。尽管目前使用肝素涂层环路，ECMO辅助期间仍需抗凝[61]。肝素是ECMO辅助期间最常用的抗凝剂，但也增加出血风险。有研究报道出血发生率为12%～52%，以PCS患者为著[1,62]。出血以手术切口或ECMO插管部位常见，但颅内出血较为严重，甚至危及患者生命。因此，ECMO辅助期间需加强凝血功能监测。尽管APTT和抗凝血因子Ⅹa更能反映低剂量肝素的抗凝强度，但ACT监测快捷简便。临床中应遵循个体化原则，根据ACT、APTT、抗凝血因子Ⅹa水平，血小板和纤维蛋白原水平，甚至参考血栓弹力图(thromboelastogram，TEG)检查，结合患者病情综合判断抗凝强度，将患者血栓栓塞风险和出血并发症发生可能性降至最低。ECMO撤机试验期间，辅助流量较低(1.5 L/min)时，应适当增加肝素剂量，预防血栓形成。
+心脏手术后难以脱离体外循环机患者开始ECMO辅助时，可使用全量鱼精蛋白中和肝素。术后待患者胸腔、纵隔引流量较少时，开始静脉泵入肝素抗凝。ECMO辅助期间，应尽可能减少对患者进行有创操作，以减少出血风险。如需进行有创操作，可降低肝素剂量甚至暂停使用，并在手术部位放置引流，手术结束后酌情开始肝素抗凝治疗。
+共识12. ECMO循环辅助期间，建议维持血小板>50×109个/L，必要时输入血小板。
+共识13.建议ECMO辅助流量稳定，患者血流动力学趋于平稳时，及时评估神经系统功能；如发现异常，应行头颅CT检查，明确神经系统损伤类型及程度，尽早给予相应处理。
+循环衰竭或CA患者，接受ECMO辅助之前已存在脑缺血、缺氧性损伤，ECMO辅助又带来再灌注打击。ECMO辅助期间，肝素抗凝、低凝血因子水平、血压波动幅度较大等因素，均可能增加神经系统并发症。有研究报道ECMO辅助期间神经系统并发症主要有脑死亡、脑梗死、颅内出血和癫痫四大类，其发生率超过15%，ECPR患者更高[63,64,65]。
+共识14. ECPR患者，可联合使用亚低温治疗。
+理论上，亚低温能够降低脑氧代谢率，具有一定的脑保护效果，但其临床有效性和安全性有待进一步研究[66,67,68]。国际复苏指南指出，在CA后将体温降低至32～34 ℃并保持24 h，能降低脑损伤的概率[69]，可以为ECPR所借鉴。ECMO通过膜肺的变温装置，可以快速控制患者体温，但应注意低温对患者心率/律和凝血功能的影响。
+共识15.循环衰竭患者ECMO辅助期间，建议避免出现容量超负荷现象。
+应结合患者心脏功能状态、循环状态和组织灌注情况等因素综合考虑，进行液体管理。中心静脉压并不能真实反映患者的容量状态，但其数值可作参考。已有较多研究表明ECMO辅助期间容量超负荷是患者住院死亡的独立风险因素[70,71,72]。因此，严格限制液体入量，并积极处理容量超负荷已成为ECMO管理趋势。同时需注意避免出现有效循环血量严重不足，影响ECMO流量和患者血流动力学平稳。
+ECMO辅助期间出现急性肾损伤时，应在充分考虑患者情况的前提下，尽早开始持续肾脏替代治疗(continuous renal replacement therapy，CRRT)，CRRT装置可连接在ECMO环路上，以实现快速精准控制患者容量状态的目的[73]。
+共识16. ECMO辅助期间感染是常见并发症之一，建议做好院内感染防控工作。
+ECMO辅助患者院内感染发生率为9%～65%。感染发生的主要原因有疾病严重、肠道菌群移位、导管存在微生物定植和ECMO引起的免疫系统损伤等[73]，长时间ECMO辅助是感染发生的最主要风险因素。ECMO相关的感染可见于血液、肺、插管部位、外科手术切口和尿路，凝固酶阴性葡萄球菌、念珠菌、肠杆菌和铜绿假单胞菌可能是常见致病菌[73,74]。感染影响ECMO患者的临床转归[74,75,76]，因此，应积极预防和控制。对于术后患者，根据手术级别和规定预防性使用抗菌药物，但抗菌药物的种类和使用时间尚存在争议。ECMO辅助期间，抗菌药物的药代动力学可能发生变化，可根据药物浓度测定结果调整其剂量[77,78]。
+共识17.循环衰竭患者接受ECMO辅助后，可转运至临床经验丰富的ECMO救治中心，接受后续治疗。
+ECMO辅助效果可能与ECMO中心的临床经验(年辅助例数和累积ECMO辅助例数)有关，年辅助例数较少(<6例)的医疗单位可以根据实际情况将ECMO患者转运至经验较为丰富的ECMO救治中心(>30例/年)[79,80,81]。
+ECMO中心每年辅助20例以上危重患者才能基本保持经验较为丰富的ECMO救治中心的水平[81,82]。因此，有学者提出建立区域性ECMO治疗协作网，由经验较为丰富的ECMO中心提供诊疗指导和接受本区域患者转运。
+转运需要专业人员，并有相应的转运流程和转运所需物品清单。转运ECMO患者之前，需仔细核查相关物品，还应结合患者的病情、转运距离、设备条件等因素，选择合适的转运交通工具，如救护车、轮船、直升机或固定翼飞机等。建议提前设计出合理的转运方案，做好转运途中发生意外的准备，确保患者转运安全[83]。
+六、ECMO循环辅助患者的撤机
+共识18.当患者自身心脏功能基本恢复时，建议尽早撤离ECMO辅助。
+目前循环辅助患者并没有统一的ECMO撤机时机和指征[84]。患者心脏功能恢复表现有：低剂量血管活性药物即可维持循环稳定，自身脉压≥20 mmHg。心脏功能有所恢复时，可尝试逐渐减低ECMO流量至1.5 L/min，观察患者全身情况和评估心脏功能。在可接受剂量的正性肌力药物帮助下，床旁超声心动检查提示左心室射血分数>20%～25%[85]，左、右心室心肌活动协调一致，右心室功能良好，患者血流动力学平稳，中心静脉压和静脉血氧饱和度无明显变化，外周组织和器官无灌注不良表现，自身心脏能够满足全身血液循环和氧代谢，即可撤机。撤机前可在ECMO的动-静脉插管之间安装桥管路，进行撤机试验[85]。
+联合IABP辅助和机械通气的ECMO患者心脏功能有所恢复时，可以根据经验，在充分考虑患者情况的前提下先撤离ECMO辅助，再依情况撤离IABP辅助和呼吸机。少部分患者，可在ECMO辅助期间，拔除气管插管，进行清醒状态下ECMO辅助。对于ECMO辅助时间较长，心功能仍处于边缘状态、难以脱离ECMO辅助时，可以使用IABP来提高脱离ECMO辅助的可能性[86,87]。
+七、ECMO团队与培训
+共识19.建议有条件的医疗单位建立专业的ECMO团队。
+ECMO辅助患者通常极为危重，病死率高。ECMO辅助患者的诊疗技术涉及到多个专科，因此，很有必要建立ECMO团队，以提高患者的辅助效果。ECMO诊疗团队人员构成应包括：ICU、心脏外科、血管外科、心脏内科、麻醉科、体外循环科、呼吸科和影像科等医师。ECMO团队成员应具备快速对循环衰竭患者病情做出充分评估、准确启动ECMO辅助相关流程的能力。ECMO团队成员间的协作很重要，须确保ECMO建立有序、安全、高效进行，而且能够为患者的后期治疗提供保障(介入或手术等)[88]。
+共识20.建议建立ECMO从业人员规范化培训。
+为了能够快速建立ECMO辅助，积极预防并处理ECMO辅助期间可能出现的各种并发症，改善患者预后，有必要对ECMO从业人员进行定期培训，尤其是ECMO年辅助例数较少的医疗单位[89,90,91]。
+八、ECMO循环辅助预后评估
+共识21. CS或CA患者，接受ECMO辅助时，可参考现有评分系统，对患者接受ECMO辅助的临床预后做出初步评估。
+尽管ECMO可以快速为循环衰竭或CA患者提供稳定的血流供应，但患者住院病死率仍然高达60%[92,93,94]。患者临床转归主要与原发病、ECMO辅助介入时机和ECMO辅助期间严重并发症等有关。相关评分系统(SAVE评分、ENCOURAGE评分、ECPR评分等)可帮助判断预后，但作用有限[36,95,96,97]。
+委员会成员
+共识指导委员会：侯晓彤(首都医科大学附属北京安贞医院)；邱海波(东南大学附属中大医院)；龙村(中国医学科学院阜外医院)；赵冬(首都医科大学附属北京安贞医院)；陈益祥(亚太体外生命支持组织)；李昂(首都医科大学附属北京地坛医院)
+专家评审小组：黑飞龙(中国医学科学院阜外医院)；董念国(华中科技大学同济医学院附属协和医院)；贾明(首都医科大学附属北京安贞医院)；杨毅(东南大学中大医院)；李欣(上海复旦大学附属中山医院)；章晓华(广东省人民医院)；王洪亮(哈尔滨医科大学附属第二医院)；李斌飞(广东中山市人民医院)；梁贵友(遵义医学院附属医院)；陈德昌(上海交通大学医学院附属瑞金医院)；孙仁华(浙江省人民医院)；孙荣青、李军(郑州大学附属第一医院)；李白翎(上海长海医院)；武婷(天津市胸科医院)；隆云(北京协和医院)；李田昌(海军总医院)；刘斌(四川大学华西医院)；方强(浙江大学附属第一医院)；康焰(四川大学华西医院)；张劲松(南京医科大学附属第一医院)；张喆(北京大学第三医院)；吴蔚(重庆西南医院)；黄晓波(四川省人民医院)；张民伟(厦门大学附属第一医院)；李培杰(山东省千佛山医院)；金振晓(空军军医大学第一附属医院)；童朝晖(首都医科大学附属北京朝阳医院)；黎毅敏(广州医学院附属第一医院)；詹庆元(中日友好医院)；刘启明(中南大学湘雅二医院)；曾辉(首都医科大学附属北京地坛医院)
+调查评价小组：王红、王淼(首都医科大学附属北京安贞医院)
+撰写小组：杨峰、王粮山(首都医科大学附属北京安贞医院)
+参考文献
+[1]
+MandawatA,RaoSV.
+Percutaneous Mechanical Circulatory Support Devices in Cardiogenic Shock[J].
+Circ Cardiovasc Interv,
+2017,
+10(
+5).
+pii:
+e004337.
+DOI: 10.1161/CIRCINTERVENTIONS.116.004337.
+[2]
+KaragiannidisC,BrodieD,StrassmannS, et al.
+Extracorporeal membrane oxygenation: evolving epidemiology and mortality[J].
+Intensive Care Med,
+2016,
+42(
+5)：
+889-
+896.
+DOI: 10.1007/s00134-016-4273-z.
+[3]
+Extracorporeal Life Support Organization.
+ELSO Registry report[R/OL]. (
+2017)[
+2017-10-10].
+https://www.elso.org/Registry/Statistics/InternationalSummary.aspx.
+[4]
+黑飞龙，朱德明，侯晓彤，等.
+2016年中国心脏外科手术和体外循环数据白皮书[J].
+中国体外循环杂志，
+2017,
+15(
+2):
+65-
+67.
+DOI: 10.13498/j.cnki.chin.j.ecc.2017.02.01.
+[5]
+LimHS,HowellN,RanasingheA.
+Extracorporeal life support: physiological concepts and clinical outcomes[J].
+J Card Fail,
+2017,
+23(
+2)：
+181-
+196.
+DOI: 10.1016/j.cardfail.2016.10.012.
+[6]
+OuweneelDM,SchotborghJV,LimpensJ, et al.
+Extracorporeal life support during cardiac arrest and cardiogenic shock: a systematic review and meta-analysis[J].
+Intensive Care Med,
+2016,
+42(
+12)：
+1922-
+1934.
+DOI: 10.1007/s00134-016-4536-8.
+[7]
+KhorsandiM,DoughertyS,BouamraO, et al.
+Extra-corporeal membrane oxygenation for refractory cardiogenic shock after adult cardiac surgery: a systematic review and meta-analysis[J].
+J Cardiothorac Surg,
+2017,
+12(
+1)：
+55.
+DOI: 10.1186/s13019-017-0618-0.
+[8]
+CombesA,BrodieD,ChenYS, et al.
+The ICM research agenda on extracorporeal life support[J].
+Intensive Care Med,
+2017,
+43(
+9)：
+1306-
+1318.
+DOI: 10.1007/s00134-017-4803-3.
+[9]
+TrammR,IlicD,DaviesAR, et al.
+Extracorporeal membrane oxygenation for critically ill adults[J].
+Cochrane Database Syst Rev,
+2015,
+1：
+CD010381.
+DOI: 10.1002/14651858.CD010381.pub2.
+[10]
+侯晓彤，杨峰，童朝晖，等.
+中国开展成人体外膜肺氧合项目建议书[J]．
+中华危重病急救医学，
+2014,
+26(
+11)：
+769-
+772.
+DOI: 10.3760/cma.j.issn.2095-4352.2014.11.001.
+[11]
+BurkhoffD,SayerG,DoshiD, et al.
+Hemodynamics of mechanical circulatory support[J].
+J Am Coll Cardiol,
+2015,
+66(
+23)：
+2663-
+2674.
+DOI: 10.1016/j.jacc.2015.10.017.
+[12]
+OstadalP,MlcekM,KrugerA, et al.
+Increasing venoarterial extracorporeal membrane oxygenation flow negatively affects left ventricular performance in a porcine model of cardiogenic shock[J].
+J Transl Med,
+2015,
+13：
+266.
+DOI: 10.1186/s12967-015-0634-6.
+[13]
+BaruteauAE,BarnetcheT,MorinL, et al.
+Percutaneous balloon atrial septostomy on top of venoarterial extracorporeal membrane oxygenation results in safe and effective left heart decompression[J].
+Eur Heart J Acute Cardiovasc Care,
+2016,
+In press.
+DOI: 10.1177/2048872616675485.
+[14]
+MeaniP,GelsominoS,NatourE, et al.
+Modalities and effects of left ventricle unloading on extracorporeal life support: a review of the current literature[J].
+Eur J Heart Fail,
+2017,
+19
+Suppl 2：
+84-
+91.
+DOI: 10.1002/ejhf.850.
+[15]
+KarB,BasraSS,ShahNR, et al.
+Percutaneous circulatory support in cardiogenic shock: interventional bridge to recovery[J].
+Circulation,
+2012,
+125(
+14)：
+1809-
+1817.
+DOI: 10.1161/CIRCULATIONAHA.111.040220.
+[16]
+LawlerPR,SilverDA,SciricaBM, et al.
+Extracorporeal membrane oxygenation in adults with cardiogenic shock[J].
+Circulation,
+2015,
+131(
+7)：
+676-
+680.
+DOI: 10.1161/CIRCULATIONAHA.114.006647.
+[17]
+PonikowskiP,VoorsAA,AnkerSD, et al.
+2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure: The Task Force for the diagnosis and treatment of acute and chronic heart failure of the European Society of Cardiology (ESC). Developed with the special contribution of the Heart Failure Association (HFA) of the ESC[J].
+Eur J Heart Fail,
+2016,
+18(
+8)：
+891-
+975.
+DOI: 10.1002/ejhf.592.
+[18]
+ReyentovichA,BarghashMH,HochmanJS.
+Management of refractory cardiogenic shock[J].
+Nat Rev Cardiol,
+2016,
+13(
+8)：
+481-
+492.
+DOI: 10.1038/nrcardio.2016.96.
+[19]
+van DiepenS,KatzJN,AlbertNM, et al.
+Contemporary management of cardiogenic shock: a scientific statement from the American Heart Association[J].
+Circulation,
+2017,
+136(
+16)：
+e232-
+e268.
+DOI: 10.1161/CIR.0000000000000525.
+[20]
+NagaoK,NonogiH,YonemotoN, et al.
+Duration of prehospital resuscitation efforts after out-of-hospital cardiac arrest[J].
+Circulation,
+2016,
+133(
+14)：
+1386-
+1396.
+DOI: 10.1161/CIRCULATIONAHA.115.018788.
+[21]
+ChenYS,LinJW,YuHY, et al.
+Cardiopulmonary resuscitation with assisted extracorporeal life-support versus conventional cardiopulmonary resuscitation in adults with in-hospital cardiac arrest: an observational study and propensity analysis[J].
+Lancet,
+2008,
+372(
+9638)：
+554-
+561.
+DOI: 10.1016/S0140-6736(08)60958-7.
+[22]
+DennisM,McCannyP,D′SouzaM, et al.
+Extracorporeal cardiopulmonary resuscitation for refractory cardiac arrest: A multicentre experience[J].
+Int J Cardiol,
+2017,
+231：
+131-
+136.
+DOI: 10.1016/j.ijcard.2016.12.003.
+[23]
+KimSJ,KimHJ,LeeHY, et al.
+Comparing extracorporeal cardiopulmonary resuscitation with conventional cardiopulmonary resuscitation: a meta-analysis[J].
+Resuscitation,
+2016,
+103：
+106-
+116.
+DOI: 10.1016/j.resuscitation.2016.01.019.
+[24]
+NolanJP,BergRA,BernardS, et al.
+Intensive care medicine research agenda on cardiac arrest[J].
+Intensive Care Med,
+2017,
+43(
+9)：
+1282-
+1293.
+DOI: 10.1007/s00134-017-4739-7.
+[25]
+WangGN,ChenXF,QiaoL, et al.
+Comparison of extracorporeal and conventional cardiopulmonary resuscitation: A meta-analysis of 2 260 patients with cardiac arrest[J].
+World J Emerg Med,
+2017,
+8(
+1)：
+5-
+11.
+DOI: 10.5847/wjem.j.1920-8642.2017.01.001.
+[26]
+DebatyG,BabazV,DurandM, et al.
+Prognostic factors for extracorporeal cardiopulmonary resuscitation recipients following out-of-hospital refractory cardiac arrest. A systematic review and meta-analysis[J].
+Resuscitation,
+2017,
+112：
+1-
+10.
+DOI: 10.1016/j.resuscitation.2016.12.011.
+[27]
+WongMK,MorrisonLJ,QiuF, et al.
+Trends in short- and long-term survival among out-of-hospital cardiac arrest patients alive at hospital arrival[J].
+Circulation,
+2014,
+130(
+21)：
+1883-
+1890.
+DOI: 10.1161/CIRCULATIONAHA.114.010633.
+[28]
+HaasNL,CouteRA,HsuCH, et al.
+Descriptive analysis of extracorporeal cardiopulmonary resuscitation following out-of-hospital cardiac arrest-an ELSO registry study？[J]．
+Resuscitation,
+2017,
+119：
+56-
+62.
+DOI: 10.1016/j.resuscitation.2017.08.003.
+[29]
+BrooksSC,AndersonML,BruderE, et al.
+Part 6: Alternative techniques and ancillary devices for cardiopulmonary resuscitation: 2015 American Heart Association Guidelines Update for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care[J].
+Circulation,
+2015,
+132(
+18
+Suppl 2)：
+S436-
+S443.
+DOI: 10.1161/CIR.0000000000000260.
+[30]
+MonsieursKG,NolanJP,BossaertLL, et al.
+European Resuscitation Council Guidelines for Resuscitation 2015: Section 1. Executive summary[J].
+Resuscitation,
+2015,
+95：
+1-
+80.
+DOI: 10.1016/j.resuscitation.2015.07.038.
+[31]
+KapurNK,EspositoML,BaderY, et al.
+Mechanical circulatory support devices for acute right ventricular failure[J].
+Circulation,
+2017,
+136(
+3)：
+314-
+326.
+DOI: 10.1161/CIRCULATIONAHA.116.025290.
+[32]
+AbramsD,CombesA,BrodieD.
+Extracorporeal membrane oxygenation in cardiopulmonary disease in adults[J].
+J Am Coll Cardiol,
+2014,
+63(
+25 Pt A)：
+2769-
+2778.
+DOI: 10.1016/j.jacc.2014.03.046.
+[33]
+BronchardR,DurandL,LegeaiC, et al.
+Brain-dead donors on extracorporeal membrane oxygenation[J].
+Crit Care Med,
+2017,
+45(
+10)：
+1734-
+1741.
+DOI: 10.1097/CCM.0000000000002564.
+[34]
+ChristopherDA,WoodsideKJ.
+Expanding the donor pool: organ donation after brain death for extracorporeal membrane oxygenation patients[J].
+Crit Care Med,
+2017,
+45(
+10)：
+1790-
+1791.
+DOI: 10.1097/CCM.0000000000002633.
+[35]
+TarvasmäkiT,LassusJ,VarpulaM, et al.
+Current real-life use of vasopressors and inotropes in cardiogenic shock - adrenaline use is associated with excess organ injury and mortality[J].
+Crit Care,
+2016,
+20(
+1)：
+208.
+DOI: 10.1186/s13054-016-1387-1.
+[36]
+SchmidtM,BurrellA,RobertsL, et al.
+Predicting survival after ECMO for refractory cardiogenic shock: the survival after veno-arterial-ECMO (SAVE)-score[J].
+Eur Heart J,
+2015,
+36(
+33)：
+2246-
+2256.
+DOI: 10.1093/eurheartj/ehv194.
+[37]
+ParkSJ,KimSP,KimJB, et al.
+Blood lactate level during extracorporeal life support as a surrogate marker for survival[J].
+J Thorac Cardiovasc Surg,
+2014,
+148(
+2)：
+714-
+720.
+DOI: 10.1016/j.jtcvs.2014.02.078.
+[38]
+MyatA,PatelN,TehraniS, et al.
+Percutaneous circulatory assist devices for high-risk coronary intervention[J].
+JACC Cardiovasc Interv,
+2015,
+8(
+2)：
+229-
+244.
+DOI: 10.1016/j.jcin.2014.07.030.
+[39]
+AtkinsonTM,OhmanEM,O′NeillWW, et al.
+A practical approach to mechanical circulatory support in patients undergoing percutaneous coronary intervention: an interventional perspective[J].
+JACC Cardiovasc Interv,
+2016,
+9(
+9)：
+871-
+883.
+DOI: 10.1016/j.jcin.2016.02.046.
+[40]
+NolanJP,BergRA,BernardS, et al.
+Intensive care medicine research agenda on cardiac arrest[J].
+Intensive Care Med,
+2017,
+43(
+9)：
+1282-
+1293.
+DOI: 10.1007/s00134-017-4739-7.
+[41]
+SorokinV,MacLarenG,VidanapathiranaPC, et al.
+Choosing the appropriate configuration and cannulation strategies for extracorporeal membrane oxygenation: the potential dynamic process of organ support and importance of hybrid modes[J].
+Eur J Heart Fail,
+2017,
+19
+Suppl 2：
+75-
+83.
+DOI: 10.1002/ejhf.849.
+[42]
+NappLC,KühnC,HoeperMM, et al.
+Cannulation strategies for percutaneous extracorporeal membrane oxygenation in adults[J].
+Clin Res Cardiol,
+2016,
+105(
+4)：
+283-
+296.
+DOI: 10.1007/s00392-015-0941-1.
+[43]
+JayaramanAL,CormicanD,ShahP, et al.
+Cannulation strategies in adult veno-arterial and veno-venous extracorporeal membrane oxygenation: Techniques, limitations, and special considerations[J].
+Ann Card Anaesth,
+2017,
+20(
+Supplement)：
+S11-
+S18.
+DOI: 10.4103/0971-9784.197791.
+[44]
+DoufléG,RoscoeA,BilliaF, et al.
+Echocardiography for adult patients supported with extracorporeal membrane oxygenation[J].
+Crit Care,
+2015,
+19：
+326.
+DOI: 10.1186/s13054-015-1042-2.
+[45]
+ReebJ,OllandA,RenaudS, et al.
+Vascular access for extracorporeal life support: tips and tricks[J].
+J Thorac Dis,
+2016,
+8(
+Suppl 4)：
+S353-
+S363.
+DOI: 10.21037/jtd.2016.04.42.
+[46]
+RupprechtL,LunzD,PhilippA, et al.
+Pitfalls in percutaneous ECMO cannulation[J].
+Heart Lung Vessel,
+2015,
+7(
+4)：
+320-
+326.
+[47]
+TakayamaH,LandesE,TrubyL, et al.
+Feasibility of smaller arterial cannulas in venoarterial extracorporeal membrane oxygenation[J].
+J Thorac Cardiovasc Surg,
+2015,
+149(
+5)：
+1428-
+1433.
+DOI: 10.1016/j.jtcvs.2015.01.042.
+[48]
+AubronC,ChengAC,PilcherD, et al.
+Factors associated with outcomes of patients on extracorporeal membrane oxygenation support: a 5-year cohort study[J].
+Crit Care,
+2013,
+17(
+2)：
+R73.
+DOI: 10.1186/cc12681.
+[49]
+LevyB,BastienO,KarimB, et al.
+Experts′ recommendations for the management of adult patients with cardiogenic shock[J].
+Ann Intensive Care,
+2015,
+5(
+1)：
+52.
+DOI: 10.1186/s13613-015-0052-1.
+[50]
+ChengR,HachamovitchR,KittlesonM, et al.
+Complications of extracorporeal membrane oxygenation for treatment of cardiogenic shock and cardiac arrest: a meta-analysis of 1 866 adult patients[J].
+Ann Thorac Surg,
+2014,
+97(
+2)：
+610-
+616.
+DOI: 10.1016/j.athoracsur.2013.09.008.
+[51]
+BrooméM,DonkerDW.
+Individualized real-time clinical decision support to monitor cardiac loading during venoarterial ECMO[J].
+J Transl Med,
+2016,
+14：
+4.
+DOI: 10.1186/s12967-015-0760-1.
+[52]
+LorussoR.
+Are two crutches better than one? The ongoing dilemma on the effects and need for left ventricular unloading during veno-arterial extracorporeal membrane oxygenation[J].
+Eur J Heart Fail,
+2017,
+19(
+3)：
+413-
+415.
+DOI: 10.1002/ejhf.695.
+[53]
+PappalardoF,MontisciA.
+Veno-arterial extracorporeal membrane oxygenation (VA ECMO) in postcardiotomy cardiogenic shock: how much pump flow is enough？[J].
+J Thorac Dis,
+2016,
+8(
+10)：
+E1444-
+E1448.
+DOI: 10.21037/jtd.2016.10.01.
+[54]
+LiCL,WangH,JiaM, et al.
+The early dynamic behavior of lactate is linked to mortality in postcardiotomy patients with extracorporeal membrane oxygenation support: a retrospective observational study[J].
+J Thorac Cardiovasc Surg,
+2015,
+149(
+5)：
+1445-
+1450.
+DOI: 10.1016/j.jtcvs.2014.11.052.
+[55]
+LeoneM,AsfarP,RadermacherP, et al.
+Optimizing mean arterial pressure in septic shock: a critical reappraisal of the literature[J].
+Crit Care,
+2015,
+19：
+101.
+DOI: 10.1186/s13054-015-0794-z.
+[56]
+PappalardoF,SchulteC,PieriM, et al.
+Concomitant implantation of Impella® on top of veno-arterial extracorporeal membrane oxygenation may improve survival of patients with cardiogenic shock[J].
+Eur J Heart Fail,
+2017,
+19(
+3)：
+404-
+412.
+DOI: 10.1002/ejhf.668.
+[57]
+AsoS,MatsuiH,FushimiK, et al.
+The effect of intraaortic balloon pumping under venoarterial extracorporeal membrane oxygenation on mortality of cardiogenic patients: an analysis using a nationwide inpatient database[J].
+Crit Care Med,
+2016,
+44(
+11)：
+1974-
+1979.
+DOI: 10.1097/CCM.0000000000001828.
+[58]
+ScandroglioAM,PieriM,PappalardoF, et al.
+Intra-aortic balloon pump during venoarterial extracorporeal membrane oxygenation: still a matter of debate? Contemporary multi-device approach to cardiogenic shock[J].
+J Thorac Dis,
+2017,
+9(
+5)：
+E522-
+E524.
+DOI: 10.21037/jtd.2017.03.188.
+[59]
+PetroniT,HarroisA,AmourJ, et al.
+Intra-aortic balloon pump effects on macrocirculation and microcirculation in cardiogenic shock patients supported by venoarterial extracorporeal membrane oxygenation[J].
+Crit Care Med,
+2014,
+42(
+9)：
+2075-
+2082.
+DOI: 10.1097/CCM.0000000000000410.
+[60]
+HouX,YangX,DuZ, et al.
+Superior vena cava drainage improves upper body oxygenation during veno-arterial extracorporeal membrane oxygenation in sheep[J].
+Crit Care,
+2015,
+19：
+68.
+DOI: 10.1186/s13054-015-0791-2.
+[61]
+BréchotN,DemondionP,SantiF, et al.
+Intra-aortic balloon pump protects against hydrostatic pulmonary oedema during peripheral venoarterial-extracorporeal membrane oxygenation[J].
+Eur Heart J Acute Cardiovasc Care,
+2017,
+In press.
+DOI: 10.1177/2048872617711169.
+[62]
+RastanAJ,DegeA,MohrM, et al.
+Early and late outcomes of 517 consecutive adult patients treated with extracorporeal membrane oxygenation for refractory postcardiotomy cardiogenic shock[J].
+J Thorac Cardiovasc Surg,
+2010,
+139(
+2)：
+302-311, 311.e1.
+DOI: 10.1016/j.jtcvs.2009.10.043.
+[63]
+AndrewsJ,WinklerAM.
+Challenges with navigating the precarious hemostatic balance during extracorporeal life support: implications for coagulation and transfusion management[J].
+Transfus Med Rev,
+2016,
+30(
+4)：
+223-
+229.
+DOI: 10.1016/j.tmrv.2016.07.005.
+[64]
+LorussoR,BariliF,MauroMD, et al.
+In-hospital neurologic complications in adult patients undergoing venoarterial extracorporeal membrane oxygenation: results from the extracorporeal life support organization registry[J].
+Crit Care Med,
+2016,
+44(
+10)：
+e964-
+e972.
+DOI: 10.1097/CCM.0000000000001865.
+[65]
+de ChambrunMP,BréchotN,LebretonG, et al.
+Venoarterial extracorporeal membrane oxygenation for refractory cardiogenic shock post-cardiac arrest[J].
+Intensive Care Med,
+2016,
+42(
+12)：
+1999-
+2007.
+DOI: 10.1007/s00134-016-4541-y.
+[66]
+RyuJA,ChungCR,ChoYH, et al.
+The association of findings on brain computed tomography with neurologic outcomes following extracorporeal cardiopulmonary resuscitation[J].
+Crit Care,
+2017,
+21(
+1)：
+15.
+DOI: 10.1186/s13054-017-1604-6.
+[67]
+NielsenN,WetterslevJ,CronbergT, et al.
+Targeted temperature management at 33℃ versus 36℃ after cardiac arrest[J].
+N Engl J Med,
+2013,
+369(
+23)：
+2197-
+2206.
+DOI: 10.1056/NEJMoa1310519.
+[68]
+KirkegaardH,SøreideE,de HaasI, et al.
+Targeted temperature management for 48 vs 24 hours and neurologic outcome after out-of-hospital cardiac arrest: a randomized clinical trial[J].
+JAMA,
+2017,
+318(
+4)：
+341-
+350.
+DOI: 10.1001/jama.2017.8978.
+[69]
+GeocadinRG,WijdicksE,ArmstrongMJ, et al.
+Practice guideline summary: reducing brain injury following cardiopulmonary resuscitation: Report of the Guideline Development, Dissemination, and Implementation Subcommittee of the American Academy of Neurology[J].
+Neurology,
+2017,
+88(
+22)：
+2141-
+2149.
+DOI: 10.1212/WNL.0000000000003966.
+[70]
+SelewskiDT,CornellTT,BlattNB, et al.
+Fluid overload and fluid removal in pediatric patients on extracorporeal membrane oxygenation requiring continuous renal replacement therapy[J].
+Crit Care Med,
+2012,
+40(
+9)：
+2694-
+2699.
+DOI: 10.1097/CCM.0b013e318258ff01.
+[71]
+SchmidtM,BaileyM,KellyJ, et al.
+Impact of fluid balance on outcome of adult patients treated with extracorporeal membrane oxygenation[J].
+Intensive Care Med,
+2014,
+40(
+9)：
+1256-
+1266.
+DOI: 10.1007/s00134-014-3360-2.
+[72]
+SelewskiDT,AskenaziDJ,BridgesBC, et al.
+The impact of fluid overload on outcomes in children treated with extracorporeal membrane oxygenation: a multicenter retrospective cohort study[J].
+Pediatr Crit Care Med,
+2017,
+18(
+12)：
+1126-
+1135.
+DOI: 10.1097/PCC.0000000000001349.
+[73]
+ChenH,YuRG,YinNN, et al.
+Combination of extracorporeal membrane oxygenation and continuous renal replacement therapy in critically ill patients: a systematic review[J].
+Crit Care,
+2014,
+18(
+6)：
+675.
+DOI: 10.1186/s13054-014-0675-x.
+[74]
+BiffiS,DiBS,ScaravilliV, et al.
+Infections during extracorporeal membrane oxygenation: epidemiology, risk factors, pathogenesis and prevention[J].
+Int J Antimicrob Agents,
+2017,
+50(
+1)：
+9-
+16.
+DOI: 10.1016/j.ijantimicag.2017.02.025.
+[75]
+GrasselliG,ScaravilliV,DiBS, et al.
+Nosocomial infections during extracorporeal membrane oxygenation: incidence, etiology, and impact on patients′ outcome[J].
+Crit Care Med,
+2017,
+45(
+10)：
+1726-
+1733.
+DOI: 10.1097/CCM.0000000000002652.
+[76]
+AustinDE,KerrSJ,Al-SoufiS, et al.
+Nosocomial infections acquired by patients treated with extracorporeal membrane oxygenation[J].
+Crit Care Resusc,
+2017,
+19(
+Suppl 1)：
+68-
+75.
+[77]
+SherwinJ,HeathT,WattK.
+Pharmacokinetics and dosing of anti-infective drugs in patients on extracorporeal membrane oxygenation: a review of the current literature[J].
+Clin Ther,
+2016,
+38(
+9)：
+1976-
+1994.
+DOI: 10.1016/j.clinthera.2016.07.169.
+[78]
+DzierbaAL,AbramsD,BrodieD.
+Medicating patients during extracorporeal membrane oxygenation: the evidence is building[J].
+Crit Care,
+2017,
+21(
+1)：
+66.
+DOI: 10.1186/s13054-017-1644-y.
+[79]
+ArrichJ,HolzerM,HavelC, et al.
+Hypothermia for neuroprotection in adults after cardiopulmonary resuscitation[J].
+Cochrane Database Syst Rev,
+2016,
+2：
+CD004128.
+DOI: 10.1002/14651858.CD004128.pub4.
+[80]
+KaramlouT,VafaeezadehM,ParrishAM, et al.
+Increased extracorporeal membrane oxygenation center case volume is associated with improved extracorporeal membrane oxygenation survival among pediatric patients[J].
+J Thorac Cardiovasc Surg,
+2013,
+145(
+2)：
+470-
+475.
+DOI: 10.1016/j.jtcvs.2012.11.037.
+[81]
+FreemanCL,BennettTD,CasperTC, et al.
+Pediatric and neonatal extracorporeal membrane oxygenation: does center volume impact mortality？[J].
+Crit Care Med,
+2014,
+42(
+3)：
+512-
+519.
+DOI: 10.1097/01.ccm.0000435674.83682.96.
+[82]
+BarbaroRP,OdetolaFO,KidwellKM, et al.
+Association of hospital-level volume of extracorporeal membrane oxygenation cases and mortality. Analysis of the extracorporeal life support organization registry[J].
+Am J Respir Crit Care Med,
+2015,
+191(
+8)：
+894-
+901.
+DOI: 10.1164/rccm.201409-1634OC.
+[83]
+MendesPV,de Albuquerque GalloC,BesenBAMP, et al.
+Transportation of patients on extracorporeal membrane oxygenation: a tertiary medical center experience and systematic review of the literature[J].
+Ann Intensive Care,
+2017,
+7(
+1)：
+14.
+DOI: 10.1186/s13613-016-0232-7.
+[84]
+SmithM,VukomanovicA,BrodieD, et al.
+Duration of veno-arterial extracorporeal life support (VA ECMO) and outcome: an analysis of the extracorporeal life support organization (ELSO) registry[J].
+Crit Care,
+2017,
+21(
+1)：
+45.
+DOI: 10.1186/s13054-017-1633-1.
+[85]
+AissaouiN,El-BanayosyA,CombesA.
+How to wean a patient from veno-arterial extracorporeal membrane oxygenation[J].
+Intensive Care Med,
+2015,
+41(
+5)：
+902-
+905.
+DOI: 10.1007/s00134-015-3663-y.
+[86]
+ChangWW,TsaiFC,TsaiTY, et al.
+Predictors of mortality in patients successfully weaned from extracorporeal membrane oxygenation[J].
+PLoS One,
+2012,
+7(
+8)：
+e42687.
+DOI: 10.1371/journal.pone.0042687.
+[87]
+AsoS,MatsuiH,FushimiK, et al.
+In-hospital mortality and successful weaning from venoarterial extracorporeal membrane oxygenation: analysis of 5 263 patients using a national inpatient database in Japan[J].
+Crit Care,
+2016,
+20：
+80.
+DOI: 10.1186/s13054-016-1261-1.
+[88]
+AissaouiN,LuytCE,LeprinceP, et al.
+Predictors of successful extracorporeal membrane oxygenation (ECMO) weaning after assistance for refractory cardiogenic shock[J].
+Intensive Care Med,
+2011,
+37(
+11)：
+1738-
+1745.
+DOI: 10.1007/s00134-011-2358-2.
+[89]
+CoylewrightM,MackMJ,HolmesDR, et al.
+A call for an evidence-based approach to the heart team for patients with severe aortic stenosis[J].
+J Am Coll Cardiol,
+2015,
+65(
+14)：
+1472-
+1480.
+DOI: 10.1016/j.jacc.2015.02.033.
+[90]
+ZakharyBM,KamLM,KaufmanBS, et al.
+The utility of high-fidelity simulation for training critical care fellows in the management of extracorporeal membrane oxygenation emergencies: a randomized controlled trial[J].
+Crit Care Med,
+2017,
+45(
+8)：
+1367-
+1373.
+DOI: 10.1097/CCM.0000000000002437.
+[91]
+CotzaM,CarboniG,BallottaA, et al.
+Modern ECMO: why an ECMO programme in a tertiary care hospital[J].
+Eur Heart J Suppl,
+2016,
+18(
+Suppl E)：
+E79-
+E85.
+DOI: 10.1093/eurheartj/suw016.
+[92]
+LawlerPR,SilverDA,SciricaBM, et al.
+Extracorporeal membrane oxygenation in adults with cardiogenic shock[J].
+Circulation,
+2015,
+131(
+7)：
+676-
+680.
+DOI: 10.1161/CIRCULATIONAHA.114.006647.
+[93]
+ChangCH,ChenHC,CaffreyJL, et al.
+Survival analysis after extracorporeal membrane oxygenation in critically ill adults: a nationwide cohort study[J].
+Circulation,
+2016,
+133(
+24)：
+2423-
+2433.
+DOI: 10.1161/CIRCULATIONAHA.115.019143.
+[94]
+DangersL,BréchotN,SchmidtM, et al.
+Extracorporeal membrane oxygenation for acute decompensated heart failure[J].
+Crit Care Med,
+2017,
+45(
+8)：
+1359-
+1366.
+DOI: 10.1097/CCM.0000000000002485.
+[95]
+MullerG,FlecherE,LebretonG, et al.
+The ENCOURAGE mortality risk score and analysis of long-term outcomes after VA-ECMO for acute myocardial infarction with cardiogenic shock[J].
+Intensive Care Med,
+2016,
+42(
+3)：
+370-
+378.
+DOI: 10.1007/s00134-016-4223-9.
+[96]
+Sern LimH.
+Baseline MELD-XI score and outcome from veno-arterial extracorporeal membrane oxygenation support for acute decompensated heart failure[J].
+Eur Heart J Acute Cardiovasc Care,
+2016,
+5(
+7)：
+82-
+88.
+DOI: 10.1177/2048872615610865.
+[97]
+ParkSB,YangJH,ParkTK, et al.
+Developing a risk prediction model for survival to discharge in cardiac arrest patients who undergo extracorporeal membrane oxygenation[J].
+Int J Cardiol,
+2014,
+177(
+3)：
+1031-
+1035.
+DOI: 10.1016/j.ijcard.2014.09.124.
+贡献者信息
+中国医师协会体外生命支持专业委员会
+基金项目
+国家重点研发计划 （2016YFC1301001）
+历史
+出版日期：2018-03-27
+收稿日期：2018-01-16
+本文编辑
+郭瑞
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华医学杂志2018年98卷12期
+文    题：成人体外膜氧合循环辅助专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华医学杂志2018年98卷12期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+微信
+腾讯微博
+一键通
+新浪微博
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+豆瓣网
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+QQ好友
+更多平台...
+(133)
+bShare

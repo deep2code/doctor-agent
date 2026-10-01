@@ -1,0 +1,628 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E5%90%AC%E6%80%A7%E8%84%91%E5%B9%B2%E5%8F%8D%E5%BA%94%E4%B8%B4%E5%BA%8A%E6%93%8D%E4%BD%9C%E8%A7%84%E8%8C%83%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882020%EF%BC%89.html
+# 标题: 中国听性脑干反应临床操作规范专家共识（2020） - 中华耳鼻咽喉头颈外科杂志
+# 发布方/日期: 耳鼻咽喉科，中华耳鼻咽喉头颈外科杂志, 2020,55(04) : 326-331. DOI: 10.3760/cma.j；2020-04-07
+
+中国听性脑干反应临床操作规范专家共识（2020）
+中华医学会耳鼻咽喉头颈外科学分会听力学组
+中华耳鼻咽喉头颈外科杂志, 2020,55(04) : 326-331. DOI: 10.3760/cma.j.cn115330-20190609-00378
+听性脑干反应（ABR），又称脑干听觉诱发电位（BAEP），是一种由气导或骨导声刺激诱发，起源于内耳、听神经和听觉脑干，在头颅表面记录到的神经电活动，属于短潜伏期听觉诱发电位[1]。ABR是听觉诱发电位中最常用的测试方法，可以评估从内耳至听觉脑干的听觉通路的完整性，由于不受受试者睡眠状态（睡眠或清醒）的影响[2,3]，可用于不能配合行为测听及需要进行听觉通路病变评估者，是临床不可或缺的听力学检测手段[4,5,6]。ABR的波形、幅值、潜伏期和反应阈值等受测试环境和测试参数影响较大，规范的ABR测试操作对于保证其测试结果的可靠性、可比性以及提高临床诊疗的准确性至关重要。我国目前尚无ABR测试临床操作规范。基于我国听力学专家的临床实践经验和研究结果，我们在广泛征求耳科医师和听力技师等相关人员意见和建议的基础上形成本共识，以期规范ABR测试临床操作流程，便于我国ABR测试工作的进一步普及和推广。另外需要指出的是ABR虽可归于"客观测听"，但对其波形的识别和判读是由测试者主观分析的，评估时要注意到"判读误差"的可能性。本共识不包括自动ABR（AABR）、电刺激ABR（EABR）和术中ABR测试技术。
+适应证
+ABR测试适用于不能对行为测试做出正确反应或行为听阈测试结果不可靠、不完整的受试者，或怀疑听觉通路病变，或神经系统病变影响听觉通路，需要进行评估者[7]。此外，还用于听力损失的司法鉴定和伤残评估。
+测试环境
+ABR测试常规应在隔声电磁屏蔽室内进行，背景噪声低于30 dB(A计权声压级)，备有测试用床或半卧位躺椅，环境温度和湿度保证受试者处于舒适状态。
+测试前准备
+一、病史询问
+在进行ABR测试之前，应先了解受试者的病史、测试目的及其他测试结果，便于准备测试工具和设备，有助于测试的顺利进行。
+二、受试者准备
+1．受试者状态：
+L测试前需要向受试者或其看护人告知测试大致流程和所需时间，以便受试者更好地配合测试。首先应该尽量尝试在放松或自然睡眠状态下进行，避免肌电和脑电干扰；无法放松或自然睡眠时，可应用镇静剂，但事先需知情同意，并配备具有急诊抢救资质的医护人员和设备以备发生镇静意外。无论是自然睡眠还是应用镇静剂，测试前均需禁止饱腹。
+2．外耳道检查：
+L测试人员应仔细检查受试者外耳道，排除耵聍或外耳道异物对测试结果的影响；根据受试者外耳道大小，选择适合的耳机和耳塞。
+3．皮肤准备：
+L清洁放置电极处皮肤的油脂，必要时使用磨砂膏去角质（针对成人），降低皮肤阻抗对测试结果的影响。
+三、设备准备
+听觉诱发电位仪器，各种换能器（插入式耳机、压耳式耳机或耳罩式耳机以及骨导耳机），额镜或电耳镜。耗材包括一次性或者可消毒的电极、75%乙醇棉球、磨砂膏、导电膏、胶带、纱布块、多种规格一次性或可消毒的耳塞等。检查测试设备（包括耳机）和连接导线处于正常工作状态。
+换能器的选择和放置
+气导测试推荐用插入式耳机，对于外耳畸形、耳道闭锁或不耐受插入式耳机者，可采用压耳式耳机。插入式耳机相对于压耳式耳机有以下优势：减少刺激伪迹，衰减背景噪声，耳间衰减更大，减少耳道塌陷的概率，增加舒适性。
+骨导测试采用标准的骨导耳机。骨导耳机最好放置于测试耳耳廓后乳突偏上的位置，注意应垂直地压于乳突部表面，与乳突部接触面积尽量最大，保持其位置固定，不滑动，且避免碰及耳廓。
+电极放置
+电极布局对ABR幅值和潜伏期均有影响[8]。建议放大器上连接的记录电极（+，正极）置于前额发际线正中，参考电极（-，负极）置于给声侧乳突或耳垂，接地电极可以置于身体的任何部位，通常置于鼻根（图1）。任意一对电极间距离应尽可能大一些；任意一对电极间阻抗应低于5 kΩ。电极线须尽量远离换能器。
+点击查看大图
+图1
+听性脑干反应测试电极布置示意
+图1
+听性脑干反应测试电极布置示意
+刺激声与校准
+一、短声（click）
+为上升和下降时间<25 μs、持续时间100 μs的矩形电脉冲（单相方波）冲击换能器发出的声音，是一种宽频带噪声，无频率特异性。换能器声输出的频谱可能因所用换能器类型的不同而有显著差异。
+二、短纯音（tone burst）
+短纯音是时程小于200 ms的正弦信号，具有一定的频率特异性。建议采用上升时间和下降时间为2个周期、平台期为1个周期，即2-1-2型短纯音，Blackman门控包络[9,10,11,12]。
+三、刺激速率
+刺激速率可以影响ABR的波形、幅值和潜伏期[13,14]。刺激速率越低，ABR波形越清晰，但测试时间相应延长；刺激速率增加，ABR波形分化差，幅值变小，潜伏期延长，测试时间相应缩短。一般推荐20次/s左右的刺激速率，这样既避免了过高刺激速率对波形的影响，又保证了临床对测试时间的要求；此外，为防止50 Hz交流电的干扰，避免采用整数的刺激速率，推荐采用19.1或21.1次/s。由于波Ⅴ受高刺激速率影响较小，如果仅仅为了确定阈值或绘制强度与幅值或潜伏期的输入输出曲线，可采用30~40次/s的刺激速率[15,16]。
+四、刺激信号极性
+刺激极性对ABR波形、幅值及潜伏期均有影响[17,18,19]。为了消除刺激伪迹，建议采用交替极性刺激[20]。
+五、校准
+建议参考国家标准《GBT 4854.6-2014声学/校准测听设备的基准零级第6部分：短时程测试信号的基准听阈值》和《中华人民共和国国家计量技术规范（JJF1579-2016）——测听设备听觉诱发电位仪校准规范》，由专业机构进行年检。
+记录参数
+一、滤波带宽
+条件允许时，高通滤波截止频率最好设置为30~50 Hz，如果有噪声干扰，可以设置为100 Hz，但不建议高于100 Hz。低通滤波截止频率应设置为1 000~3 000 Hz[21]。滤波器斜率不应大于12 dB/倍频程，并开启50 Hz陷波。在进行神经耳科学诊断时，建议采用100~3 000 Hz的滤波带通[22]；测定婴幼儿反应阈值时，建议采用30~1 500 Hz滤波带通[23,24]。
+二、记录时窗
+记录时窗最少应该是给声刺激起始后15 ms，婴幼儿短纯音诱发ABR反应记录时窗应该在给声刺激起始后25 ms。
+三、放大器设置与伪迹拒绝
+放大器放大倍数通常设为100 000倍。伪迹拒绝在记录过程中是可变的，安静受试者的伪迹拒绝水平一般在5%~10%。对于不能保持安静的受试者，可以适当提高拒绝标准，但如果拒绝标准超过20%以上，基本上就无法分辨波形了，建议暂时中断记录，检查电极阻抗或等受试者安静或睡着后再继续记录。
+四、叠加次数
+为了确保反应稳定，至少需要叠加1 000次。镇静状态下一般需要的叠加次数要少一些。叠加次数过多，虽然可增加测试结果的可靠性，但会延长测试时间，导致听觉疲劳，降低受试者的配合程度。叠加次数可以根据测试目的适当调整，如果只是为了获得反应阈值，当反应波形非常明确时，可以手动随时停止叠加，但接近阈值时，必须至少叠加1 000次；如果需要比较双耳反应波的潜伏期和波间期，则对应强度的反应必须至少叠加1 000次，且与建立正常值时的叠加次数一致，以便于对比。测试过程中，需实时连续监测脑电波（EEG），EEG明显处于不稳定状态时，可中断叠加，待EEG平稳后再继续测试。
+测试过程
+临床上推荐先做短声ABR（click-ABR）测试，后做短纯音ABR（tb-ABR）测试。无论是click-ABR还是tb-ABR测试，推荐先做气导测试，当临床上需要确定是否存在传导性听力损失时，应进行骨导ABR测试。骨导ABR测试的意义重在"定性"，即确定是否存在气骨导差，而对"定量"推算听敏度则须非常慎重。
+一、反应阈值测试
+测试一般从听力较好耳开始，初始强度一般为80 dB nHL。反应清晰可见时，以10~20 dB的步距降低强度，接近阈值时，以5 dB的步距降低强度，或以10 dB的步距降低强度直至引不出反应波形，再以5 dB的步距升高强度，直到再次引出反应波形，引出可重复波Ⅴ的最小刺激声强度即为反应阈值。
+二、对侧掩蔽
+click-ABR气导测试时，压耳式耳机建议对侧（非刺激耳）给予低于刺激耳给声强度40 dB的白噪声，插入式耳机建议对侧（非刺激耳）给予低于刺激耳给声强度60 dB的白噪声，以消除交叉反应。骨导测试时，对侧耳常规加掩蔽。tb-ABR测试时建议用窄带噪声掩蔽非测试耳。
+三、tb-ABR测试频率的顺序
+click-ABR反应阈值对于确定tb-ABR测试频率的顺序非常重要。如果click-ABR反应阈值≥60 dB nHL，短纯音500 Hz的阈值就非常重要，因此需要先测500 Hz，然后再测2 000或4 000 Hz；如果click-ABR反应阈值为30~50 dB nHL，短纯音低频阈值低于30~50 dB nHL的可能性很大，此时高频的阈值更加重要，需先测2 000 Hz，然后再测4 000 Hz，最后再测500和1 000 Hz[21]。
+观察指标
+观察指标包括各波的波形分化情况、各波的潜伏期、波间期及幅值、反应阈值。这些观察指标受受试者状态、测试设备、耳机型号、测试参数和记录参数等因素影响，每家临床测试中心必须建立各自的正常参考值。
+一、各波的波形分化情况
+主要观察反应波Ⅰ、Ⅲ和Ⅴ波的形态，判断其是否分化良好。
+二、反应阈值
+当ABR阈值以dB nHL表示时，tb-ABR的反应阈值一般高于其行为测听阈值。为了更准确地估计听力阈值，临床上通常用tb-ABR反应阈值减去矫正值得到预估听力阈值，并以预估听力级（eHL）表示，用以代表通过客观听力测试推算出来的纯音听力阈值，即ABR反应阈值（dB nHL）-矫正值=预估听力阈值（dB eHL）。矫正值因设备及ABR测试参数的不同而不同，表1列出了各国不同频率tb-ABR的推荐矫正值，供参考[25]。
+点击查看表格
+表1
+不同国家各频率短纯音诱发听性脑干反应（ABR）的推荐矫正值（dB）
+表1
+不同国家各频率短纯音诱发听性脑干反应（ABR）的推荐矫正值（dB）
+频率（Hz）
+加拿大
+英国
+中国
+500
+20
+20
+25
+1 000
+15
+15
+20
+2 000
+10
+10
+15
+4 000
+5
+10
+15
+三、反应波峰潜伏期的测量方法
+从电脉冲施加给换能器的时间至反应波波峰的时间即为波峰潜伏期。观察反应波Ⅰ、Ⅲ和Ⅴ波的波峰潜伏期，Ⅰ-Ⅲ波间期，Ⅲ-Ⅴ波间期，Ⅰ-Ⅴ波间期，双耳波间期差。婴幼儿ABR各波的波峰潜伏期及波间期随着年龄增长逐渐缩短[26,27]，其他影响潜伏期的因素还包括受试者性别、听力损失类型、测试声参数、测试环境温度等[28,29,30,31]。我国部分学者提供了不同年龄婴幼儿ABR各波的潜伏期参考值可供参考[32,33,34,35,36]。以下为成人ABR反应波潜伏期的正常参考值：（1）Ⅰ-Ⅴ波间期正常值上限为4.5 ms，左右两侧不对称的标准是>0.4 ms；（2）Ⅰ-Ⅲ波间期正常值上限为2.5 ms，左右两侧不对称的标准是>0.4 ms；（3）Ⅲ-Ⅴ波间期正常值上限为2.4 ms，左右两侧不对称的标准是>0.4 ms。
+四、反应波幅值的测量方法
+幅值的测量有两种方法：（1）从波峰到前一个或随后的一个波谷；（2）从波峰到基线。ABR各波幅值的临床意义尚待深入研究。无论采用哪种测量方法，都需和建立正常值的测量方法一致。
+测试报告
+测试报告应包括以下信息（推荐的报告模板见附录二）。
+1．受试者的基本信息，包括姓名、性别、年龄、出生日期、测试日期、病案号等；
+2．测试的基本信息，包括刺激参数及记录参数；
+3．原始的ABR波形；
+4．click-ABR反应阈值及tb-ABR的预估听力阈值；
+5．建议给出双耳80 dB nHL诱发ABR反应波的测量数据；如需比较双耳ABR反应波潜伏期，则必须用双耳同一感觉级（SL）强度诱发的ABR反应波进行比较；
+6．检查结果汇总，包括波形分化良好/差，反应阈值正常/升高，潜伏期正常/延长，波间期正常/延长。
+顾问 高志强 吴皓
+执笔专家 冯艳梅 倪道凤 李兴启 殷善开 金昕
+参与起草与讨论的专家（按姓氏拼音排序）
+卜行宽 曹永茂 陈雪清 陈平 陈智斌 程华茂 刁明芳 郭维维 冯宁宇 韩朝 黄丽辉 黄治物 冀飞 蒋骅 李朝军 李晓璐 李蕴 梁勇 林颖 刘敏 刘世琳 刘晓雯 刘秀丽 刘玉和 龙墨 马秀岚 梅玲 潘滔 戚以胜 孙喜斌 商莹莹 邵永良 王璟 王林娥 王明明 王树峰 王幼勤 吴展元 郗昕 徐磊 杨宁 于红 曾祥丽 张寒冰 张华 张青 张志坚 郑芸 周义德
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+附录一
+共识中与听力学相关的中英文缩写及注释
+ABR：auditory brainstem response,听性脑干反应
+BAEP：brainstem auditory evoked potential，脑干听觉诱发电位
+AABR：auto auditory brainstem response，自动听性脑干反应
+EABR：electrical auditory brainstem response，电刺激诱发听性脑干反应
+EEG：electroencephalogram，脑电图
+click-ABR：click auditory brainstem response，短声诱发听性脑干反应
+tb-ABR：tone burst auditory brainstem response，短纯音诱发听性脑干反应
+SPL：sound pressure level，声压级，是指声压P与基准声压P0的比值，取常用对数后再乘以20所得到的数值，以分贝(dB)来表示。基准声压P0：20 µPa（空气中）；1 µPa（水中）
+peSPL：peak-equivalent SPL，峰值等效声压级，与瞬态信号峰值等效的1 000 Hz纯音幅值所对应的SPL。是对ABR测试使用的短时程信号的一种变通的计量方法
+HL：hearing level，听力级，以特定信号（如纯音、窄带噪声或短时程信号等）的听力零级为基准的声级分贝数，以dB HL表示
+nHL：normalized hearing level，正常听力级，以dB为单位。将以dB SPL或dB peSPL表示的正常听力的年轻人能听到的短时程刺激声信号的最小声级，定义为正常听力零级（0 dB nHL）
+eHL：estimated hearing level，预估听力级，特指由客观听力测试方法如tb-ABR反应阈值估算出的、以dB HL表示的受试者在各纯音频率的听阈
+SL：sensation level，感觉级，是指听阈上dB值
+附录二
+ABR测试报告推荐模板
+点击查看大图
+参考文献
+[1]
+SiningerYS, AbdalaC, Cone-WessonB.
+Auditory threshold sensitivity of the human neonate as measured by the auditory brainstem response[J].
+Hear Res,
+1997,
+104(
+1-2):
+27-
+38.
+DOI: 10.1016/s0378-5955(96)00178-5.
+[2]
+PictonTW, HillyardSA.
+Human auditory evoked potentials. II. Effects of attention[J].
+Electroencephalogr Clin Neurophysiol,
+1974,
+36(
+2):
+191-
+199.
+DOI: 10.1016/0013-4694(74)90156-4.
+[3]
+StockardJJ, RossiterVS, JonesTA.
+Effects of centrally acting drugs on brain stem auditory responses[J].
+Electroencephalogr Clin Neurophysiol,
+1977,
+43(
+4):
+550-
+551.
+[4]
+HecoxKE, ConeB.
+Prognostic importance of brainstem auditory evoked responses after asphyxia[J].
+Neurology,
+1981,
+31(
+11):
+1429-
+1434.
+DOI: 10.1212/wnl.31.11.1429.
+[5]
+SasamaR.
+Hearing threshold investigations in infants and children[J].
+Audiology,
+1990,
+29(
+2):
+76-
+84.
+DOI: 10.3109/00206099009081648.
+[6]
+SchwartzDM, PrattRE, SchwartzJA.
+Auditory brain stem responses in preterm infants: evidence of peripheral maturity[J].
+Ear Hear,
+1989,
+10(
+1):
+14-
+22.
+DOI: 10.1097/00003446-198902000-00003.
+[7]
+SteinLK, KrausN, OzdamarO, et al.
+Hearing loss in an institutionalized mentally retarded population. Identification by auditory brainstem response[J].
+Arch Otolaryngol Head Neck Surg,
+1987,
+113(
+1):
+32-
+35.
+DOI: 10.1001/archotol.1987.01860010036010.
+[8]
+KingAJ, SiningerYS.
+Electrode configuration for auditory brainstem response audiometry[J].
+Am J Audiol,
+1992,
+1(
+2):
+63-
+67.
+DOI: 10.1044/1059-0889.0102.63.
+[9]
+PurdySC, AbbasPJ.
+ABR thresholds to tonebursts gated with Blackman and linear windows in adults with high-frequency sensorineural hearing loss[J].
+Ear Hear,
+2002,
+23(
+4):
+358-
+368.
+DOI: 10.1097/00003446-200208000-00011.
+[10]
+British Columbia Early Hearing Program (BCEHP).
+BCEHP Audiology Assessment Protocol[S/OL].
+2012. [
+2019-06-09].
+http://www.phsa.ca/AgenciesAndServices/Services/BCEarlyHearing/ForProfessionals/Resources/Protocols-Standards.htm.
+[11]
+Ontario Ministry of Children and Youth Services.
+Ontario Infant Hearing Program Audiologic Assessment Protocol[S/OL].
+2008. [
+2019-06-09].
+http://www.mountsinai.on.ca/care/infant-hearing-program/documents/IHPAudiologicAssessmentProtocol3.1FinalJan2008.pdf.
+[12]
+DavisH, HirshSK, PopelkaGR, et al.
+Frequency selectivity and thresholds of brief stimuli suitable for electric response audiometry[J].
+Audiology,
+1984,
+23(
+1):
+59-
+74.
+DOI: 10.3109/00206098409072822.
+[13]
+DonM, AllenAR, StarrA.
+Effect of click rate on the latency of auditory brain stem responses in humans[J].
+Ann Otol Rhinol Laryngol,
+1977,
+86(
+2
+pt. 1):
+186-
+195.
+DOI: 10.1177/000348947708600209.
+[14]
+JewettDL, WillistonJS.
+Auditory-evoked far fields averaged from the scalp of humans[J].
+Brain,
+1971,
+94(
+4):
+681-
+696.
+DOI: 10.1093/brain/94.4.681.
+[15]
+JiangZD, WuYY, ZhengWS, et al.
+The effect of click rate on latency and interpeak interval of the brain-stem auditory evoked potentials in children from birth to 6 years[J].
+Electroencephalogr Clin Neurophysiol,
+1991,
+80(
+1):
+60-
+64.
+DOI: 10.1016/0168-5597(91)90044-x.
+[16]
+LaskyRE.
+The effects of rate and forward masking on human adult and newborn auditory evoked brainstem response thresholds[J].
+Dev Psychobiol,
+1991,
+24(
+1):
+51-
+64.
+DOI: 10.1002/dev.420240105.
+[17]
+StockardJE, StockardJJ, WestmorelandBF, et al.
+Brainstem auditory-evoked responses. Normal variation as a function of stimulus and subject characteristics[J].
+Arch Neurol,
+1979,
+36(
+13):
+823-
+831.
+DOI: 10.1001/archneur.1979.00500490037006.
+[18]
+StockardJE, WestmorelandBF.
+Technical considerations in the recording and interpretation of the brainstem auditory evoked potential for neonatal neurological diagnosis[J].
+Am J EEG Technol,
+1981,
+21:
+31-
+54.
+DOI:10.1080/00029238.1981.11080032.
+[19]
+EmersonRG, BrooksEB, ParkerSW, et al.
+Effects of click polarity on brainstem auditory evoked potentials in normal subjects and patients: unexpected sensitivity of wave V[J].
+Ann N Y Acad Sci,
+1982,
+388:
+710-
+721.
+DOI: 10.1111/j.1749-6632.1982.tb50840.x.
+[20]
+SiningerYS, MasudaA.
+Effect of click polarity on ABR threshold[J].
+Ear Hear,
+1990,
+11(
+3):
+206-
+209.
+DOI: 10.1097/00003446-199006000-00007.
+[21]
+StapellsDR.
+Auditory brainstem response assessment of infants and children[J].
+Seminars in Hearing,
+1989,
+10(
+3):
+229-
+251.
+[22]
+钟乃川.
+听性脑干反应测试参数及其应用[J].
+中华耳鼻咽喉科杂志,
+1993,
+28(
+4):
+244-
+247.
+[23]
+刁文雯，倪道凤，李奉荣, 等.
+听力筛查转诊婴幼儿不同滤波条件短纯音诱发听性脑干反应的比较[J].
+中华耳鼻咽喉头颈外科杂志,
+2011,
+46(
+3):
+201-
+204.
+DOI: 10.3760/cma.j.issn.1673-0860.2011.03.007.
+[24]
+刁文雯，倪道凤，商莹莹, 等.
+电极位置和滤波对婴幼儿短纯音诱发听性脑干反应阈值的影响[J].
+中华耳科学杂志,
+2011,
+9(
+4):
+408-
+412.
+DOI:10.3969/j.issn.1672-2922.2011.04.013.
+[25]
+李兴启，王秋菊.
+听觉诱发反应及应用[M].
+2版.
+北京:
+人民军医出版社,
+2015.
+[26]
+EggermontJJ, PontonCW, CouplandSG, et al.
+Frequency dependent maturation of the cochlea and brainstem evoked potentials[J].
+Acta Otolaryngol,
+1991,
+111(
+2):
+220-
+224.
+DOI: 10.3109/00016489109137378.
+[27]
+KrumholzA, FelixJK, GoldsteinPJ, et al.
+Maturation of the brain-stem auditory evoked potential in premature infants[J].
+Electroencephalogr Clin Neurophysiol,
+1985,
+62(
+2):
+124-
+134.
+DOI: 10.1016/0168-5597(85)90024-3.
+[28]
+ThiviergeJ, CôtéR.
+Brain-stem auditory evoked response (BAER): normative study in children and adults[J].
+Electroencephalogr Clin Neurophysiol,
+1987,
+68(
+6):
+479-
+484.
+DOI: 10.1016/0168-5597(87)90060-8.
+[29]
+ChiappaKH, GladstoneKJ, YoungRR.
+Brain stem auditory evoked responses: studies of waveform variations in 50 normal human subjects[J].
+Arch Neurol,
+1979,
+36(
+2):
+81-
+87.
+DOI: 10.1001/archneur.1979.00500380051005.
+[30]
+StockardJJ, StockardJE, SharbroughFW.
+Nonpathologic factors influencing brainstem auditory evoked potentials[J].
+Am J EEG Technol,
+1978,
+18:
+177-
+209.
+DOI:10.1080/00029238.1978.11106793.
+[31]
+MarkandON, LeeBI, WarrenC, et al.
+Effects of hypothermia on brainstem auditory evoked potentials in humans[J].
+Ann Neurol,
+1987,
+22(
+4):
+507-
+513.
+DOI: 10.1002/ana.410220410.
+[32]
+李雪蕾，白燕，周媛, 等.
+0~6岁听力正常儿童短纯音听性脑干反应的研究[J].
+听力学及言语疾病杂志,
+2012,
+20(
+2):
+166-
+168.
+DOI:10.3969/j.issn.1006-7299.2012.02.020.
+[33]
+李隽，王智楠，黄芳, 等.
+0~6岁正常儿童骨导听性脑干反应的特征分析[J].
+听力学及言语疾病杂志,
+2011,
+19(
+2):
+123-
+125.
+DOI:10.3969/j.issn.1006-7299.2011.02.011.
+[34]
+郑周数，陈淑飞，邵小飞, 等.
+1~6月龄正常婴儿听性脑干反应检测结果分析[J].
+听力学及言语疾病杂志,
+2013,
+21(
+6):
+593-
+595.
+DOI:10.3969/j.issn.1006-7299.2013.06.010.
+[35]
+茅学英，陶峥，顾宇, 等.
+不同年龄正常听力新生儿和婴幼儿听性脑干反应波潜伏期分析[J].
+听力学及言语疾病杂志,
+2014,
+22(
+3):
+239-
+241.
+DOI:10.3969/j.issn.1006-7299.2014.03.003.
+[36]
+史伟，兰兰，丁海娜, 等.
+不同月龄婴儿的ABR正常值分析[J].
+听力学及言语疾病杂志,
+2009,
+17(
+5):
+420-
+423.
+DOI:10.3969/j.issn.1006-7299.2009.05.003.
+贡献者信息
+中华医学会耳鼻咽喉头颈外科学分会听力学组
+通信作者
+殷善开
+上海交通大学附属第六人民医院耳鼻咽喉头颈外科 200233
+Email：
+yinshankai@china.com
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-04-07
+收稿日期：2019-06-09
+本文编辑
+金昕
+Practical Guideline
+China expert consensus on the clinical practice of auditory brainstem response (2020)
+Subspecialty Group of Audiology, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association
+Published
+2020-04-07
+Cite as
+Chin J Otorhinolaryngol Head Neck Surg, 2020,55(04): 326-331. DOI: 10.3760/cma.j.cn115330-20190609-00378
+Contributor Information
+Subspecialty Group of Audiology, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+图1
+听性脑干反应测试电极布置示意
+表1
+不同国家各频率短纯音诱发听性脑干反应（ABR）的推荐矫正值（dB）
+频率（Hz）
+加拿大
+英国
+中国
+500
+20
+20
+25
+1 000
+15
+15
+20
+2 000
+10
+10
+15
+4 000
+5
+10
+15
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华耳鼻咽喉头颈外科杂志2020年55卷04期
+文    题：中国听性脑干反应临床操作规范专家共识（2020）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华耳鼻咽喉头颈外科杂志2020年55卷04期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

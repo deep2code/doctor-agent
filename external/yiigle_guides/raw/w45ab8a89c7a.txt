@@ -1,0 +1,1175 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E8%A7%A3%E7%83%AD%E9%95%87%E7%97%9B%E8%8D%AF%E5%9C%A8%E5%84%BF%E7%AB%A5%E5%8F%91%E7%83%AD%E5%AF%B9%E7%97%87%E6%B2%BB%E7%96%97%E4%B8%AD%E7%9A%84%E5%90%88%E7%90%86%E7%94%A8%E8%8D%AF%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 解热镇痛药在儿童发热对症治疗中的合理用药专家共识 - 中华实用儿科临床杂志
+# 发布方/日期: 儿科，中华实用儿科临床杂志, 2020,35(03) : 161-169. DOI: 10.3760/cma.j；2020-03-19
+
+解热镇痛药在儿童发热对症治疗中的合理用药专家共识
+国家呼吸系统疾病临床医学研究中心
+中华医学会儿科学分会呼吸学组
+中国医师协会呼吸医师分会儿科呼吸工作委员会
+中国医药教育协会儿科专业委员会
+中国研究型医院学会儿科学专业委员会
+中国非公立医疗机构协会儿科专业委员会
+中国中药协会儿童健康与药物研究专业委员会
+中国医药新闻信息协会儿童安全用药分会
+"六一健康快车"项目专家委员会
+全球儿科呼吸联盟
+中华实用儿科临床杂志, 2020,35(03) : 161-169. DOI: 10.3760/cma.j.cn101070-20200225-00249
+发热是儿童最常见症状，也是儿科门诊特别是急诊最常见的主诉，但在临床实践中，发热时如何使用解热镇痛药还存在一些问题，如发热儿童何时使用解热镇痛药，如何正确使用，在一些疾病或状态下如何使用，解热镇痛药的不良反应及处理等。为了规范解热镇痛药在发热患儿中的合理使用，国家呼吸系统疾病临床医学研究中心和中华医学会儿科学分会呼吸学组等学术机构组织相关专家撰写了本专家共识(解热镇痛药无效的发热，不在本文的范围内)。
+1 发热的定义与分类[1,2]
+1.1 发热的定义
+发热是指机体在致热原作用下或各种原因引起体温调节中枢的功能障碍时，体温升高超出正常范围，即体温升高超出一天中正常体温波动的上限。临床工作中通常采用肛温≥38 ℃或腋温≥37.5 ℃定义为发热。体温的异常应视为疾病的一种表现。
+1.2 发热的分类
+1.2.1 按照体温的高低分类
+临床上按照体温高低将发热分为4类。以腋温为准，37.5～38.0 ℃为低热，38.1～ 38.9 ℃为中度发热，39.0～40.9 ℃为高热，≥41.0 ℃为超高热。
+1.2.2 按发热时间长短分类
+按发热时间的长短又可将发热分为4类。短期发热：指发热<2周，多伴局部症状和体征；长期发热：发热时间≥2周，有的可无明显伴随症状、体征，需实验室检查帮助诊断；原因不明的发热(fever of unknown origin，FUO)：发热持续2周以上，体温37.5 ℃以上，经查体、常规实验室检查不能确诊者；慢性低热：指低热持续1个月以上。
+1.2.3 按照发热的热型分类
+发热的常见热型通常分为6种。稽留热：指体温恒定地维持在39.0～40.0 ℃以上，达数天或数周，24 h内体温波动范围不超过1.0 ℃；弛张热：体温常在39.0 ℃以上，波动幅度大，24 h内体温波动范围超过2.0 ℃，但均在正常水平以上；间歇热：体温骤升达高峰后持续数小时，又迅速降至正常水平，无热期(间歇期)可持续1 d至数天，如此高热期与无热期反复交替出现；波状热：体温逐渐上升达39.0 ℃或以上，持续数天后又逐渐下降至正常水平，持续数天后又逐渐升高，如此反复多次；回归热：体温急剧上升至39.0 ℃或以上，持续数天后又骤然下降至正常水平，高热期与无热期各持续若干天后规律性交替一次；不规则热：发热的体温曲线无一定规律。
+需要注意的是热型与个体反应的强弱有关，儿童热型没有成人典型。由于抗菌药物的广泛应用，及时控制了感染，或因解热药等使用，可使某些疾病的特征性热型变得不典型或呈不规则热型。
+2 发热的病因与机制
+2.1 发热的病因
+发热的病因可分为感染性发热和非感染性发热。
+2.1.1 感染性发热
+根据感染的病原不同，感染性发热可见于病毒感染、细菌感染、寄生虫感染、真菌感染、非典型微生物感染等，其中以病毒和细菌感染最为常见。近年来肺炎支原体等非典型微生物的感染及各种真菌感染也很常见。某些特殊细菌的感染，如结核及非结核分枝杆菌病、布氏杆菌病等也时有发生。
+根据感染部位不同，感染性发热可见于呼吸系统感染、泌尿系统感染、消化系统感染(如肠道感染和肝胆系感染)、中枢神经系统感染、心血管系统感染、皮肤黏膜软组织感染及血流感染等，其中呼吸系统是儿童感染性发热的最常见部位，对于无呼吸系统症状的2岁以下儿童的急性发热，需高度警惕泌尿系统感染。
+2.1.2 非感染性发热[1,3]
+2.1.2.1 风湿免疫性疾病
+以全身型幼年特发性关节炎及系统性红斑狼疮最为常见，其他包括川崎病(Kawasaki disease，KD)、自身炎症性疾病、巨噬细胞活化综合征、皮肌炎、结节性多动脉炎、肉芽肿性血管炎等。
+2.1.2.2 肿瘤及肿瘤性疾病
+血液系统肿瘤以白血病最常见，其他包括淋巴瘤、中枢神经系统肿瘤、成纤维母细胞瘤、神经母细胞瘤、肾母细胞瘤、嗜铬细胞瘤、尤文氏瘤、朗格汉斯细胞组织细胞增生症等。
+2.1.2.3 下丘脑体温中枢受累的疾病
+常见中毒性脑病、脑炎后遗症、颅脑损伤、脑发育不全等，这类发热有时可达超高热，退热药常无效。
+2.1.2.4 产热、散热障碍
+常见有甲状腺功能亢进、鱼鳞病及无汗性外胚层发育不良等。
+2.1.2.5 其他
+如创伤、手术、药物热、疫苗接种不良反应、脱水热、暑热症、尿崩症等。
+FUO的病因，对于3岁以下婴幼儿，以感染性疾病、先天性疾病及恶性肿瘤为主；对于学龄前及学龄儿童以感染性疾病、结缔组织病及恶性肿瘤为主[4]。
+2.2 发热机制及对机体的影响
+2.2.1 发热机制[5]
+发热通常是由发热激活物作用于机体，激活机体的内生致热原细胞(包括单核细胞、巨噬细胞、内皮细胞、淋巴细胞、星状细胞及肿瘤细胞等)，使之产生和释放内生致热原(endogenous pyrogen，EP)，包括白细胞介素-1、肿瘤坏死因子、干扰素、白细胞介素-6、巨噬细胞炎症蛋白-1等。EP可通过血脑屏障转运入脑或经终板血管器作用于体温调节中枢，引起体温升高。其中发热激活物根据来源不同，分为2类，外致热原(如细菌、病毒、真菌等各种外来病原的致热物质)和某些体内产物(如抗原抗体复合物、类固醇和体内组织的大量破坏等)。
+体温调节中枢位于视前区下丘脑前部，人体正常的体温调定点在37.0 ℃左右，体温调节中枢通过感知体温调定点和实际体温的差异，调整机体的产热和散热，使体温维持在调定点相应水平。EP可作用于颅内产生前列腺素E、环磷酸腺苷等发热中枢介质，使体温调定点上移，机体产热增加(如寒战、立毛肌收缩、物质代谢增加等)，散热减少(毛细血管收缩和血流减少等)，从而使体温上升。
+2.2.2 发热对机体的影响[5]
+发热可影响机体的物质代谢、生理功能及防御功能。
+体温每升高1.0 ℃，基础代谢率提高13%。在发热状态下，糖、脂肪、蛋白质和各种维生素的消耗均增加，如果长期发热同时没有补充相应的营养，患儿就会消耗自身的物质，出现体质量下降和消瘦。此外，高热期皮肤和呼吸道水分蒸发的增加及退热期大量出汗导致水分的大量丢失，严重者可引起脱水及电解质平衡紊乱，甚至危及生命。
+发热可使中枢神经系统兴奋性增高，特别是高热时，患儿可出现烦躁、谵妄、幻觉等。由于儿童神经系统尚未发育成熟，婴幼儿期发热较其他时期容易出现热性惊厥。有些高热患儿也可出现淡漠、嗜睡等神经系统受抑制的表现。发热时心率加快，体温每上升1.0 ℃，心率约增加18次/min。在一定限度内，心率增加可增加心输出量，但如果超过限度，心排出量反而下降。发热还会使呼吸加快加深，经呼吸道的不显性失水增多。发热时消化液的分泌减少，各种消化酶活性下降，因而产生食欲减退、口腔黏膜干燥、腹胀、便秘等表现。
+发热对机体防御功能的影响利弊并存。中等程度的发热可增强某些免疫细胞的功能，提高宿主对病原体或肿瘤的防御能力，但持续高热可引发细胞变性坏死，甚至发热相关的细胞因子风暴，危及生命[6]。
+3 发热管理的目标及舒适度的评估
+3.1 发热管理的目标
+包括(1)退热治疗的主要目标是减轻发热所致的不适，即改善舒适度，而非单纯恢复正常体温；(2)特殊情况下，为保护脏器功能，应积极降温；(3)查找并治疗引起发热的原因[7,8,9,10,11]。
+目前研究显示不应将恢复正常体温作为退热治疗的主要目标。发热是一种生理机制，对抗感染和病情恢复有益。目前证据显示，发热本身不会导致病情恶化或神经系统损害，降温治疗不能降低发热性疾病的病死率，使用退热药的主要益处是改善患儿的舒适度，从而改善整体临床状况。因此，退热治疗的主要目标是改善儿童的舒适度，而不是仅关注体温是否降至正常。基于上述原因，目前多个关于儿童发热诊治的指南均强调使用退热药改善发热患儿舒适度的重要性，认为应该依据发热是否造成了患儿不适，而不是以单纯的体温决定是否使用退热药。我国2016版《中国0至5岁儿童病因不明急性发热诊断和处理若干问题循证指南》[12]推荐：对≥2月龄、腋温≥38.2 ℃，或因发热导致不舒适和情绪低落的发热儿童，应给予退热药物。
+对患有慢性疾病或病重、有重要脏器功能障碍者，如心力衰竭、呼吸衰竭等儿童，因为发热可导致代谢率增高，加重脏器负担或损害，导致病情恶化，所以应积极降温。
+3.2 体温与舒适度的相关性
+体温与舒适度具有相关性。发热时，体温升高及导致发热的原发疾病均可给患儿带来一系列不适。儿童在发热期间，除了经口摄入量减少之外，其活动、睡眠和行为等方面也发生了不同程度的改变。目前的文献资料推荐发热患儿使用解热镇痛药也正是基于舒适度提高后随之而来的活动和喂养方面的改善，减轻烦躁和改善患儿的整体状况[7,11,12,13]。
+因此，认真评估发热患儿病情和不适程度，有利于早期识别危重征象，及时干预，缓解不适症状，使患儿安全、相对舒适地渡过急性发热期[14]。
+3.3 舒适度的衡量方法
+舒适度的评估可以从患儿的精神、情绪、进食、活动及睡眠等多个维度来进行。基于目前的循证证据和临床实践，主要推荐中文版《新生儿疼痛与不适量表》(EDIN)(表1)和Wong-Baker面部表情疼痛量表(图1)对0～5岁儿童发热舒适度进行评估[12]。
+点击查看大图
+图1
+Wong-Baker面部表情疼痛量表
+Figure 1
+Wong-Baker faces rating scale
+图1
+Wong-Baker面部表情疼痛量表
+Figure 1
+Wong-Baker faces rating scale
+点击查看表格
+表1
+中文版新生儿疼痛与不适量表
+Table 1
+Neonatal pain and discomfort scale (EDIN) in Chinese version
+表1
+中文版新生儿疼痛与不适量表
+Table 1
+Neonatal pain and discomfort scale (EDIN) in Chinese version
+条目
+赋分(分)
+行为描述
+面部活动
+0
+完全放松
+1
+短暂痛苦表情，如皱眉、口唇发绀或颤抖、咬紧牙关
+2
+频繁或持续的痛苦表情
+3
+持久痛苦样哭泣或毫无表情
+身体活动
+0
+完全放松
+1
+短暂烦躁，多数时候安静
+2
+频繁烦躁，但可以平静下来
+3
+持久烦躁伴手指、脚趾和四肢肌张力增强，或少见的缓慢的运动伴虚脱
+睡眠质量
+0
+容易入睡
+1
+入睡困难
+2
+频繁、自发觉醒，与护理无关的频繁自发觉醒，不能熟睡
+3
+失眠
+与父母或抚育者的接触
+0
+微笑，注意声音
+1
+短暂忧虑，可与护士有短暂交流
+2
+交流困难，轻微刺激易哭
+3
+拒绝沟通，无法交流，无任何刺激也在呻吟
+安抚
+0
+安静，完全放松
+1
+静下来迅速响应抚摸、声音或吸奶
+2
+镇静困难，难以平静下来
+3
+郁郁寡欢，闷闷不乐，拼命吸吮
+中文版EDIN从5个维度来评价舒适度，每个维度有4个行为描述，分别赋0～3分。0分为无疼痛与不适，15分为疼痛与不适最严重[15]。
+在中文版EDIN在0～5岁儿童急性发热舒适度的评价研究中，发现中文版EDIN与Wong-Baker面部表情疼痛量表的评分相关系数为0.885，标准关联效度非常好，从统计学角度来考虑，可只纳入面部活动，说明儿童急性发热的舒适状态在面部表情方面反应灵敏且容易观察，也说明Wong-Baker面部表情疼痛量表可以用于急性发热儿童的舒适度评价。0分：无痛；2分：有点痛；4分：轻微疼痛；6分：疼痛明显；8分：疼痛严重；10分：疼痛剧烈。这个量表的优点在于操作简便、快速，适用于各种年龄且不受患儿及监护人文化背景的影响[16]。
+4 发热处理的一般原则
+4.1 发热的评估[17,18]
+4.1.1 评估儿童发热的步骤
+医务人员评估儿童发热的步骤：(1)识别有无可能危及生命的临床表现；(2)舒适度评估(见3.3)；(3)评估发热儿童患有严重疾病或自限性疾病的可能性，不是必须立即做出确切诊断；(4)查找病因，以根据评估结果指导制定治疗策略。
+4.1.1.1 识别发热儿童有无可能危及生命的临床表现
+发热儿童的初始评估很重要。首先，对发热儿童进行常规的评估——测量并记录发热儿童的体温、呼吸频率、心率及毛细血管再充盈时间。应确认任何可能危及生命的临床特征，包括气道、呼吸、循环的异常及意识水平下降等；并需要关注是否有脓毒症的可能性。
+4.1.1.2 评估发热儿童患有严重疾病的危险性
+在确定发热儿童有无立即危及生命的临床表现后，应进一步根据发热儿童的症状及体征评估其是否存在特定的疾病或局部感染灶，是否存在提示病情严重的非特异性症状或体征。
+发热儿童的评估可采用交通信号灯标志，根据是否存在相应的症状及体征来识别并确定患有严重疾病的危险程度(表2)。"红区"为高危，发热儿童只要存在该区任何一个症状或体征，即属于高危；"黄区"为中危，存在该区任一症状或体征，而无"红区"任一表现；"绿区"为低危，具有该区的症状或体征，而无"黄区"及"红区"任一表现者。
+点击查看表格
+表2
+发热儿童严重疾病警示分级评估
+Table 2
+Traffic light system for identifying risk of serious illness
+表2
+发热儿童严重疾病警示分级评估
+Table 2
+Traffic light system for identifying risk of serious illness
+症状和体征
+绿区-低危
+黄区-中危
+红区-高危
+皮肤黏膜颜色
+皮肤、口唇和舌颜色正常
+苍白(家长描述)
+苍白、花纹、苍灰或发绀
+活动力
+对外界反应正常、愉悦或微笑，清醒或可迅速唤醒，哭声正常有力/无哭闹
+对外界反应不正常、无笑容，长时间刺激方能清醒，活动减少
+对外界无反应、病态面容、各种刺激不能清醒、嗜睡、虚弱、哭声尖或持续哭吵
+呼吸
+－
+鼻翼扇动，呼吸急促：6～12月龄，呼吸频率>50次/min；>12月龄，呼吸频率>40次/min；氧饱和度≤95%(吸入空气)，肺部闻及湿啰音
+呻吟，呼吸急促：呼吸频率>60次/min，中至重度吸气性胸凹陷
+循环和脱水状况
+皮肤和眼睛正常，黏膜湿润
+心动过速：<12月龄，心率>160次/min；12～24月龄，心率>150次/min；2～5岁，心率>140次/min；毛细血管再充盈时间≥3 s，黏膜干燥，喂养困难，尿量减少
+皮肤弹性差
+其他
+无"黄区"或"红区"的症状或体征
+3～6月龄，体温≥39.0 ℃，发热≥5 d，寒战，肢体或关节肿胀，肢体不能负重/不愿活动
+<3月龄，体温≥38.0 ℃a，皮疹压之不退色，前囟饱满，颈项强直，惊厥持续状态，有神经系统定位体征，局灶性抽搐
+注：a有些免疫接种可引起3个月以下儿童发热 aSome vaccinations have been found to induce fever in children aged under 3 months
+处于"绿区"的发热儿童可在家中护理，但需了解何时需要进一步就诊。如果发热儿童存在"黄区"的临床表现，应尽快就诊；如果发热儿童存在"红区"的临床特征，应立即就诊。
+应当重视对于3月龄以下发热婴儿，需要测量生命体征(体温、呼吸频率、心率)并记录，必要时进行全血细胞分析、血培养、C反应蛋白(C reactive protein，CRP)检测、尿液检查(怀疑泌尿系感染时)、胸部X线片(如果存在呼吸系统体征)、便常规、便培养(如果存在腹泻)等。有如下情况时需行腰椎穿刺检查：(1)<1月龄的婴儿，病因未明的发热；(2)1～3月龄婴儿一般状况差、白细胞低于5×109/L或超过15×109/L。
+3月龄以上的发热儿童存在1项或1项以上"红区"症状或体征时，需要行全血细胞分析、血培养、CRP及尿液检查，必要时行腰椎穿刺、胸部X线片、血电解质及血气检查等。
+此外，发热儿童服用退热药后，需评估其疗效，因为严重疾病时的发热对退热药的反应相对较差。
+4.1.1.3 提示发热儿童患有特定严重疾病的症状及体征
+发热患儿伴某些典型症状和体征时，往往提示一些特异性疾病。识别这些症状和体征有助于对发热儿童做出可能的诊断。例如，发热伴颈强直、前囟膨隆、意识水平下降、抽搐，甚至惊厥持续状态，往往提示中枢神经系统感染；发热伴呼吸急促、鼻翼扇动、胸凹陷、肺部湿啰音、发绀或血氧饱和度降低，往往提示肺部感染；发热伴肢体或关节肿胀、患肢不愿活动、不能负重，需考虑化脓性关节炎或骨髓炎；发热超过5 d，且合并下列表现：双侧非渗出性结膜充血、口唇皲裂、杨梅舌、口腔咽部黏膜充血、指(趾)端红肿、多形性皮疹、颈淋巴结大，提示存在KD。
+4.2 发热的处理策略
+根据发热评估的结果，结合原发病，如需退热治疗，可选择以下策略。
+4.2.1 药物退热[19,20]
+2月龄以上儿童体温≥38.2 ℃伴明显不适时，可采用退热剂；高热时推荐应用对乙酰氨基酚或布洛芬，不推荐安乃近、乙酰水杨酸、保泰松、羟基保泰松、吲哚美辛、阿司匹林、赖氨匹林、尼美舒利、氨基比林等其他药物作为退热药应用于儿童，反对使用糖皮质激素作为退热剂应用于儿童退热。
+4.2.2 改善舒适度的护理措施[21,22]
+各国指南均不推荐物理降温用于退热，如乙醇擦身、冰水灌肠等方法，往往会明显增加患儿不适感(寒战、起鸡皮疙瘩、哭闹)。同时过度或大面积使用物理方法冷却身体，反而会导致机体通过加强产热(寒战)和进一步减少散热(皮肤毛细血管收缩，立毛肌收缩出现皮肤鸡皮疙瘩)来克服物理降温的作用。
+对发热儿童进行恰当的护理可改善患儿的舒适度，如温水外敷儿童额头、温水浴、减少穿着的衣物、退热贴、退热毯、风扇和降低室内温度等，这些方法均可通过传导、对流及蒸发作用带走身体的热量，使发热儿童感到舒适。
+5 发热儿童解热镇痛药的临床合理应用
+5.1 临床应用基本原则(5R原则)
+即合适的病人(right patient)、合适的药物(right drug)、合适的剂量(right dose)、合适的给药时间(right time)和合适的给药途径(right route)[23]。
+5.2 常用解热镇痛药的特点及推荐用法
+见表3[10,24]。
+点击查看表格
+表3
+对乙酰氨基酚与布洛芬的特点及推荐用法
+Table 3
+Characteristics and recommended usage of paracetamol and ibuprofen
+表3
+对乙酰氨基酚与布洛芬的特点及推荐用法
+Table 3
+Characteristics and recommended usage of paracetamol and ibuprofen
+变量
+对乙酰氨基酚
+布洛芬
+体温下降时间
+1～2 h
+1～2 h
+起效时间
+<1 ha
+<1 h
+达峰时间
+3～4 h
+3～4 h
+作用持续时间
+4～6 h
+6～8 h
+适用年龄
+2月龄及以上
+6月龄及以上
+给药途径
+口服、栓剂
+口服、栓剂、静脉
+每次最大剂量
+600 mg或15 mg/(kg·次)(以两者中较低剂量为准)
+400 mg或10 mg/(kg·次)(以两者中较低剂量为准)
+每日最大剂量
+2.0 g或2岁以下60 mg/(kg·d)，2～12岁75 mg/(kg·d)(以两者中较低剂量为准)
+2.4 g或40 mg/(kg·d)(以两者中较低剂量为准)
+注：a退热药起效一般在30～60 min内 aThe onset of an antipyretic effect within 30－60 minutes
+5.3 临床合理使用
+解热镇痛药的临床合理应用除了坚持合理用药的5R原则，还需要综合考虑患儿的年龄、肝肾功能状态、药物间相互作用、特殊情况下应用问题等。
+5.3.1 解热镇痛药临床应用中常见的问题
+5.3.1.1 不推荐对乙酰氨基酚与布洛芬联合或交替使用
+对乙酰氨基酚和布洛芬均属于抑制下丘脑体温调节中枢而起到退热的效果[20]，虽然对乙酰氨基酚与布洛芬联合使用较单用对乙酰氨基酚或布洛芬可以降低体温的度数略多一点，但没有显著的临床意义，不能提高患儿的舒适程度；两药联合使用增加了药物不良反应的风险[25,26]。因此，各国儿童退热药使用指南均不推荐两药联合或交替用于退热治疗[11,12] 。
+5.3.1.2 不推荐解热镇痛药与含有解热镇痛药的复方感冒药合用
+单一成分的解热镇痛药与含有相同药物成分的复方感冒药联合使用，有重复用药，甚至药物过量中毒的风险，因此这两类药物应避免联用。
+5.3.1.3 长期发热儿童的退热治疗不是主要目的
+长期发热儿童的关注点在于确认发热的病因，而不是单纯的退热治疗。包括国外指南、荟萃分析等均指出，退热治疗主要是在发热引起不适等情况下才考虑[12,27] 。
+5.3.1.4 2月龄以下的婴儿、新生儿禁用解热镇痛药
+非甾体类抗炎药(NSAIDs)需通过肝脏转化代谢为有生理活性的成分，参与抑制前列腺素合成酶，减少前列腺素E合成与释放，调控体温调节中枢发挥体温调节作用。新生儿及婴幼儿肝肾功能发育不健全且不成熟，对NSAIDs的转化代谢排泄较年长儿及成人相对慢，药物蓄积易致肝肾损伤，甚至不可逆的组织结构变性坏死。世界卫生组织建议2月龄以内婴儿禁用任何解热镇痛药物[28] 。
+5.3.2 特殊情况下解热镇痛药的应用
+5.3.2.1 热性惊厥及癫痫
+现有证据表明，退热药不能阻止热性惊厥发作，对其无预防作用。对于热性惊厥或癫痫患儿出现发热时建议按前述原则处理。
+5.3.2.2 哮喘[29,30,31]
+对乙酰氨基酚有引起哮喘的风险，在生命早期应用该药与年长儿哮喘的发生有关，且存在剂量依赖性。但有哮喘病史的患儿单次使用对乙酰氨基酚并不会诱发哮喘急性发作；频繁使用则可增加年幼儿童哮喘发作风险。对乙酰氨基酚诱发哮喘的风险与布洛芬相似。最近也有研究显示，在近1年中有严重哮喘发作的1～5岁儿童，应用布洛芬后哮喘急性发作的风险高于对乙酰氨基酚。儿科医师应在对哮喘患儿进行全面评估后使用退热药。
+5.3.2.3 肝功能异常伴发热
+对乙酰氨基酚的代谢依赖肝细胞药物代谢酶P450的作用。肝功能异常时使用这类药物将加重耗竭肝细胞中谷胱甘肽，影响肝细胞线粒体的功能，甚至导致肝细胞急性坏死[32]。儿童肝功能损害达到以下标准：丙氨酸转氨酶(ALT)或天冬氨酸氨基转移酶(AST)大于8倍参考值上限(ULN)；或ALT或AST大于5倍ULN，持续2周；或ALT或AST大于3倍ULN，伴总胆红素大于2倍ULN或国际标准化比值(INR)>1.5；或ALT或AST大于3倍ULN，逐渐加重，伴乏力、恶心、呕吐、右上腹痛或压痛、发热、皮疹和/或嗜酸性粒细胞大于5%，以及肝功能不全伴高热者，除病因治疗外，禁用对乙酰氨基酚[33,34,35,36]，必要时可选用布洛芬退热。
+5.3.2.4 肾功能异常伴发热
+布洛芬有加重肾脏损伤可能性，严重者有导致肾小管、肾乳头坏死的风险，肾功能损伤中度及以上异常，即肾小球滤过率(GFR)中度下降[60～89 mL/(min·1.73 m2)]及以上异常或肾功能不全患儿伴发热时，禁用布洛芬[34,37,38]。必要时可选用对乙酰氨基酚退热。
+5.3.2.5 心力衰竭与心功能不全患儿伴发热[39,40,41,42,43]
+发热时心率增快，心肌耗氧增加，交感-肾上腺系统功能活跃，心脏负荷增加，可导致原有急慢性心功能不全患儿的心功能进一步恶化，也可诱发心律失常。因此，心功能不全患儿发热时应注意评估，监测心功能状态，积极控制体温。
+(1)布洛芬不用于心功能不全、心力衰竭患儿的解热镇痛治疗。基于成人数据，心功能不全的患者使用包括布洛芬在内的非选择NSAIDs会增加心力衰竭风险，死亡风险增加，呈剂量依赖性。
+(2)心功能不全及心力衰竭患儿发热时可选用对乙酰氨基酚作为解热镇痛药物。但应当注意的是大剂量对乙酰氨基酚有肝脏毒性。慢性心力衰竭患儿，长期肝脏淤血，肝功能可能异常，对乙酰氨基酚的清除时间可能延长，应注意药物的不良反应及肝脏毒性，及时评估及监测。
+5.3.2.6 出血性疾病伴发热
+NSAIDs可减少血小板的聚集，因此应避免用于血小板计数<5×109/L的血小板减少症患儿；不推荐布洛芬用于伴活动性消化性溃疡、血友病及其他出血性疾病患儿，因为易发生胃肠黏膜应激综合征，加重溃疡引起胃出血、紫癜等；禁用抑制或减少血小板及其功能的药物。必要时权衡利弊可选用对乙酰氨基酚等对凝血功能影响较小的药物退热[32,37,38]。
+5.3.2.7 KD
+儿童KD急性期应用大剂量阿司匹林抗炎治疗，通过体温调节中枢反馈可有效治疗KD的发热，无需使用其他解热镇痛药[44]。
+5.3.2.8 葡萄糖-6-磷酸脱氢酶(G6PD)缺乏症[32,33,34]
+G6PD主要分布于红细胞中，能保护红细胞免受氧化作用的损伤，对乙酰氨基酚等解热镇痛药在G6PD缺乏症的患儿属禁忌。
+布洛芬不直接引起G6PD缺乏症患儿红细胞溶血。但溶血继发肾损伤者，加用这类解热镇痛药有加重肾脏损害，甚至有发生急性肾衰竭的风险，需权衡风险与获益谨慎使用。
+5.3.2.9 接种疫苗后退热药的使用
+尽管某些疫苗如麻疹-风疹-腮腺炎疫苗等存在接种后发热的风险，但不推荐在疫苗接种后预防性使用退热药物[18]。退热药预防性使用可能降低疫苗接种的免疫反应与效果[18,45]，如有发热，建议按前述原则处理。
+5.3.2.10 全身麻醉术后恶性高热
+不推荐使用退热药物治疗全身麻醉术后恶性高热。全身麻醉术后恶性高热是一种骨骼肌的遗传性疾病，典型表现为骨骼肌铅管样强直、高热、呼吸和心率增快、CO2潴留、低氧血症、呼吸及代谢性酸中毒、心律失常等。主要治疗包括立即停用可疑药物、给予丹曲林缓解骨骼肌痉挛和对症支持治疗。因为其发热是由于骨骼肌强直性痉挛产热过多所致，解热镇痛药物不能缓解骨骼肌强直，所以对恶性高热无治疗作用[46]。
+5.3.2.11 中枢性发热[47,48]
+中枢性发热也称神经源性发热，是由于下丘脑直接受损所导致的发热，其特征是发热对退热药抵抗及出汗减少。这种发热可能对已经受损的脑组织有多种不良影响，包括增加血容量及颅内压、增加神经元丢失、增加代谢率(每增加1.0 ℃大约增加13%)以及导致血管痉挛等。所有这些可能会导致重症监护室(ICU)住院时间延长及长期预后恶化。
+对于这种发热是否需要积极处理仍然存在争议，多数专家认为维持正常体温应该是重症神经系统疾病患儿治疗中的主要优先事项之一。目前的退热药治疗和外部降温方法(降温毯等)对中枢性发热的治疗往往无效。近期国际上已有新的更有效的治疗方法(美国已有类似商用器械/系统)，包括外部降温方法(如降温黏胶贴、体外用控温循环水浴)、内部降温方法(血管内导管循环控温盐水)。因为神经源性发热的直接退热治疗疗效欠佳，所以更重要的是积极处理潜在的神经系统疾病。
+5.3.2.12 外胚层发育不良[1]
+解热镇痛药对外胚层发育不良无效。先天性外胚层发育不良综合征是一组外胚层发育缺损的先天性疾患。无汗为典型临床表现，尤其是对闭汗型婴幼儿患者夏季体温升高容易中暑，以敷冷毛巾或凉水冲洗等物理散热降温为主。
+5.3.2.13 恶性肿瘤[1,49]
+恶性肿瘤发热的机制较为复杂，通常与肿瘤细胞本身产生内源性致热因子或肿瘤伴发感染所致。解热镇痛药的使用需权衡利弊，同时要注意恶性肿瘤中晚期患儿使用NSAIDs解热镇痛药物、糖皮质激素类药物可加重消化道损伤等胃肠黏膜应激综合佂等不良反应。
+5.3.2.14 退热药无效时的处理原则
+退热药物使用后多在30～60 min体温开始下降，部分患儿如仍高热不退，亦不宜短期内重复使用退热药物，一般应间隔4 h以上；期间应重点关注病因的查找与治疗，辅以恰当的物理降温措施。不宜盲目加用糖皮质激素作为退热治疗。
+5.3.3 解热镇痛药物的不良反应及处理
+见表4[50,51,52,53,54]。
+点击查看表格
+表4
+解热镇痛药物的不良反应及处理
+Table 4
+Adverse reactions and management of antipyretic and analgesic drugs
+表4
+解热镇痛药物的不良反应及处理
+Table 4
+Adverse reactions and management of antipyretic and analgesic drugs
+药品
+不良反应
+处理措施
+对乙酰氨基酚
+常规剂量下较少引起不良反应，偶见皮疹、荨麻疹、药物热及粒细胞减少；但长期大量用药会导致肝肾功能异常，甚至急性肝衰竭。此外，对乙酰氨基酚可能导致罕见严重的皮肤反应，包括致命的Stevens-Johnson综合征、中毒性表皮坏死松解症等
+发生严重不良反应时应停药，并给予对症处理；发生急性中毒应给予乙酰半胱氨酸解救，根据病情给予相应处理
+布洛芬
+一般为轻度的肠胃不适，偶有皮疹、耳鸣、头痛等，严重可引起消化道出血，亦有布洛芬引起急性肾损伤的报道
+发生严重不良反应时应停药，如出现胃肠出血或溃疡给予质子泵抑制剂；发生急性肾损伤时，应根据肾损伤严重程度采取不同的治疗
+5.3.4 解热镇痛药物与其他药物的相互作用
+见表5[55]。
+点击查看表格
+表5
+解热镇痛药物与其他药物的相互作用
+Table 5
+Drug interactions between antipyretic and analgesics and other drugs
+表5
+解热镇痛药物与其他药物的相互作用
+Table 5
+Drug interactions between antipyretic and analgesics and other drugs
+药品
+相互作用
+对乙酰氨基酚
+与卡马西平、苯巴比妥、苯妥英、异烟肼合用增加肝毒性
+与利福平合用可能减弱退热效果
+长期大量与阿司匹林或其他非甾体类抗炎药合用可显著增加肾毒性的发生风险
+与华法林合用可以增加出血的风险
+布洛芬
+与其他非甾体类抗炎药合用可增加胃肠不良反应
+与抗凝药(如华法林)、抗血小板药(如阿司匹林)合用可增加出血风险
+与地高辛、甲氨蝶呤合用可升高此两种药物的血药浓度
+与环孢素合用可增加肾毒性
+与锂剂合用可升高锂的血药浓度
+与呋塞米合用可减弱呋塞米的排钠及降压作用，同时增加肾毒性
+与二甲双胍合用可增强降糖作用，可能出现低血糖风险
+5.3.5 解热镇痛药物过量的处理[55,56]
+遇到可疑或确定的解热镇痛药物过量或中毒，应尽快确定过量或中毒药物的名称、剂量、服用时间，评估中毒的严重程度，判断本单位是否具有救治能力，若无救治能力，应在进行稳定生命体征等抢救性治疗后，在尽量保证安全的前提下，尽快将患儿转至有救治能力的医院。
+解热镇痛药物过量或中毒常由误服或重复用药导致，严重者可危及生命，临床医师必须高度注意过量或中毒的可能性。中毒的救治需要严密监护，使用解毒剂、血液净化等复杂的治疗方法和技术，基层医院往往不具备救治条件，因此应将患儿转运至有救治能力的医院。若患儿生命体征稳定，应在初步处理后尽快转运；若生命体征不稳定，则应在进行稳定生命体征的抢救措施及初步处理后，尽快转运至有救治能力的医院。转运途中应采取必要措施，尽量保证患儿安全。若有特效解毒剂，应在转运前尽早使用。
+对乙酰氨基酚中毒应予N-乙酰半胱氨酸解毒，8～10 h给药可显著减低肝毒性，超过24 h则疗效较差。开始口服140 mg/kg，随后按照70 mg/kg，每4 h用药1次，共给予17次(总剂量为1 330 mg/kg)。布洛芬中毒尚无特效解毒剂[57]。
+6 总结
+6.1 发热管理的推荐总结
+6.1.1 儿童发热管理的目标
+(1)退热治疗的主要目标是减轻发热所致的不适，即改善舒适度，而非单纯恢复正常体温；(2)特殊情况下，为保护脏器功能应积极降温；(3)查找并治疗引起发热的原因。
+6.1.2 发热儿童解热镇痛药的临床合理应用
+(1)遵循5R原则；(2)2月龄以上儿童体温≥38.2 ℃伴明显不适时，可采用退热剂，高热时推荐应用对乙酰氨基酚或布洛芬；(3)2月龄以内婴儿禁用任何解热镇痛药；(4)不推荐对乙酰氨基酚与布洛芬联合或交替使用；(5)不推荐解热镇痛药与含有解热镇痛药的复方感冒药合用；(6)哮喘患儿应在对其病情进行全面评估后使用退热药；(7)肝功能异常伴发热时可选用布洛芬；(8)肾功能损伤中度及以上异常或肾功能不全患儿伴发热时禁用布洛芬，必要时可选用对乙酰氨基酚；(9)布洛芬不用于心功能不全、心力衰竭患儿的解热镇痛治疗，必要时可选用对乙酰氨基酚；(10)出血性疾病患儿伴发热时，需权衡利弊，必要时可选用对乙酰氨基酚等对凝血功能影响较小的药物；(11)KD急性期应用大剂量阿司匹林抗炎治疗，无需使用其他解热镇痛药；(12)对乙酰氨基酚等解热镇痛药在G6PD缺乏症的患儿属禁忌；(13)不推荐在疫苗接种后预防性使用退热药；(14)不推荐使用解热镇痛药治疗全身麻醉术后恶性高热、中枢性发热、外胚层发育不良；(15)恶性肿瘤患儿解热镇痛药的使用需权衡利弊。
+综上所述，发热是儿科最常见的症状之一，是机体对致热原的反应，对机体防御功能的影响利弊并存。退热治疗的主要目标是改善患儿舒适度。对于发热儿童应重点评估患有严重疾病的危险性及查找病因。2月龄以上高热伴明显不适时推荐应用对乙酰氨基酚或布洛芬，应注意特殊情况下解热镇痛药的应用。
+(万朝敏 徐保平 殷菊 陈志敏 杜立中 符州 高恒妙 江帆 姜玉武 刘恩梅 刘钢 刘瀚旻 刘小会 毛萌 秦炯 任晓旭 舒敏 舒赛男 王晓玲 吴小川 俞蕙 朱宗涵 申昆玲 执笔)
+参与本共识讨论、制定的专家(按姓氏拼音排序)：陈志敏(国家儿童健康与疾病临床医学研究中心，浙江大学医学院附属儿童医院)；杜立中(国家儿童健康与疾病临床医学研究中心，浙江大学医学院附属儿童医院)；符州(国家儿童健康与疾病临床研究中心，重庆医科大学附属儿童医院)；高恒妙(国家儿童医学中心，首都医科大学附属北京儿童医院)；江帆(上海交通大学医学院附属上海儿童医学中心)；姜玉武(北京大学第一医院)；刘恩梅(国家儿童健康与疾病临床研究中心，重庆医科大学附属儿童医院)；刘钢(国家儿童医学中心，首都医科大学附属北京儿童医院)；刘翰旻(四川大学华西第二医院)；刘小会(国家儿童医学中心，首都医科大学附属北京儿童医院，国家呼吸系统疾病临床医学研究中心)；毛萌(四川大学华西第二医院)；秦炯(北京大学人民医院)；任晓旭(首都儿科研究所附属儿童医院)；申昆玲(国家儿童医学中心，首都医科大学附属北京儿童医院，国家呼吸系统疾病临床医学研究中心)；舒敏(四川大学华西第二医院)；舒赛男(华中科技大学同济医学院附属同济医院)；万朝敏(四川大学华西第二医院)；王晓玲(国家儿童医学中心，首都医科大学附属北京儿童医院，国家呼吸系统疾病临床医学研究中心)；吴小川(中南大学湘雅二医院儿童医学中心)；徐保平(国家儿童医学中心，首都医科大学附属北京儿童医院，国家呼吸系统疾病临床医学研究中心)；殷菊(国家儿童医学中心，首都医科大学附属北京儿童医院，国家呼吸系统疾病临床医学研究中心)；俞蕙(国家儿童医学中心，复旦大学附属儿科医院)；朱宗涵(北京市卫生健康委员会)
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+江载芳，申昆玲，沈颖，等．
+诸福棠实用儿科学[M].
+8版．
+北京：
+人民卫生出版社，
+2015.
+JiangZF, ShenKL, ShenY，et al.Zhu Futang Practical Pediatrics [M].8th ed.Beijing：People′s Medical Publishing House，2015.
+[2]
+万学红，卢雪峰．
+诊断学[M].
+8版．
+北京：
+人民卫生出版社，
+2013.
+WanXH, LuXF.Diagnostics [M].8th ed.Beijing：People′s Medical Publishing House，2013.
+[3]
+DayalR, AgarwalD．
+Fever in children and fever of unknown origin[J]．
+Indian J Pediatr，
+2016，
+83(
+1):
+38-
+43.
+DOI：10.1007/s12098-015-1724-4.
+[4]
+徐保平，申昆玲，江载芳，等.
+744例儿童发热待查的临床分析 [J] .
+中华儿科杂志，
+2000，
+38(
+9):
+549-
+552.
+DOI：10.3760/cma.j.issn.0578-1310.2000.09.109.
+XuBP, ShenKL, JiangZF，et al.Retrospective study of 744 children with fever of unknown origin[J]．Chin J Pediatr，2000，38(9):549-552.DOI：10.3760/cma.j.issn.0578-1310.2000.09.109.
+[5]
+王建枝，钱睿哲．
+病理生理学[M].
+9版．
+北京：
+人民卫生出版社，
+2018：
+107-
+115.
+WangJZ, QianRZ.Pathophysiology[M].9th ed.Beijing：People′s Medical Publishing House，2018：107-115.
+[6]
+宋洋洋，任弋，季晖，等．
+发热的分子机制研究进展[J]．
+药学研究，
+2017，
+36(
+2):
+99-
+103.
+SongYY, RenY, JiH，et al.Research progress on molecular mechanism of fever [J]．J Pharm Res，2017，36(2):99-103.
+[7]
+KramerMS, NaimarkLE, Roberts-BräuerR，et al.
+Risks and benefits of paracetamol antipyresis in young children with fever of presumed viral origin[J]．
+Lancet，
+1991，
+337(
+8741):
+591-
+594.
+DOI：10.1016/0140-6736(91)91648-e.
+[8]
+de MartinoM, ChiarugiA．
+Recent advances in pediatric use of oral paracetamol in fever and pain management[J]．
+Pain Ther，
+2015，
+4(
+2):
+149-
+168.
+DOI：10.1007/s40122-015-0040-z.
+[9]
+AutretE, Reboul-MartyJ, Henry-LaunoisB，et al.
+Evaluation of ibuprofen versus aspirin and paracetamol on efficacy and comfort in children with fever[J]．
+Eur J Clin Pharmacol，
+1997，
+51(
+5):
+367-
+371.
+DOI：10.1007/s002280050215.
+[10]
+Section on Clinical Pharmacology and Therapeutics, Committee on Drugs, SullivanJE，et al.
+Fever and antipyretic use in children[J]．
+Pediatrics，
+2011，
+127(
+3):
+580-
+587.
+DOI：10.1542/peds.2010-3852.
+[11]
+ChiappiniE, BortoneB, GalliL，et al.
+Guidelines for the symptomatic management of fever in children：systematic review of the literature and quality appraisal with AGREE II[J]．
+BMJ Open，
+2017，
+7(
+7):
+e015404.
+DOI：10.1136/bmjopen-2016-015404.
+[12]
+罗双红，舒敏，温杨，等．
+中国0至5岁儿童病因不明急性发热诊断和处理若干问题循证指南(标准版)[J]．
+中国循证儿科杂志，
+2016，
+11(
+2):
+81-
+96.
+DOI：10.3969/j.issn.1673-5501.2016.02.001.
+LuoSH, ShuM, WenY，et al.Guidelines of evidence-based diagnosis and management for acute fever without source in children aged 0 to 5 years (standard version)[J]．Chin J Evid Based Pediatr，2016，11(2):81-96.DOI: 10.3969/j.issn.1673-5501.2016.02.001.
+[13]
+NICE Guideline Updates Team (UK)．
+Fever in under 5s：assessment and initial management[EB/OL]．(
+2013-05-22)[
+2019-12-02]．
+https://www.nice.org.uk/guidance/cg160.
+[14]
+HartmanME, CheifetzIM.
+Nelson Textbook of Pediatrics[M].
+21st ed.
+Tarrytown Ny：
+Elsevier Inc，
+2020：
+530-
+547.
+[15]
+龚宗容，舒敏，万朝敏，等．
+中文版《新生儿疼痛和不适量表》在0至5岁儿童急性发热舒适度的信度和效度研究[J]．
+中国循证儿科杂志，
+2015，
+10(
+5):
+328-
+331.
+DOI：10.3969/j.issn.1673-5501.2015.05.002.
+GongZR, ShuM, WanCM，et al.Study on reliability and validity of Chinese version of EDIN scale in 0 to 5 year-old children with acute fever about comfort[J]．Chin J Evid Based Pediatr，2015，10(5):328-331.DOI：10.3969/j.issn.1673-5501.2015.05.002.
+[16]
+龚宗容，舒敏，万朝敏，等．
+Wong-Baker面部表情疼痛量表对0至5岁急性发热儿童舒适度评估的效果[J]．
+中国循证儿科杂志，
+2015，
+10(
+6):
+401-
+404.
+DOI：10.3969/j.issn.1673-5501.2015.06.001.
+GongZR, ShuM, WanCM，et al.Validation of Wong-Baker FACES rating scale in comfort assessment among children with acute fever and aged 0-5 years[J]．Chin J Evid Based Pediatr，2015，10(6):401-404.DOI：10.3969/j.issn.1673-5501.2015.06.001.
+[17]
+NICE Guideline Updates Team (UK)．
+Fever in under 5s：assessment and initial management[EB/OL]．(
+2019-11-15)[
+2019-12-02]．
+https://www.ncbi.nlm.nih.gov/books/NBK552086/.
+[18]
+ChiappiniE, VenturiniE, RemaschiG，et al.
+2016 update of the Italian pediatric society guidelines for management of fever in children[J]．
+J Pediatr，
+2017，
+180:
+177-183.e1.
+DOI：10.1016/j.jpeds.2016.09.043.
+[19]
+NSW Department of Health.
+Infants and children：acute management of fever[EB/OL]．(
+2010-10-10)[
+2019-12-02]．
+https://www1.health.nsw.gov.au/PDS/pages/doc.aspx?dn=PD2010_063.
+[20]
+GreenR, JeenaP, KotzeS，et al.
+Management of acute fever in children：guideline for community healthcare providers and pharmacists[J]．
+S Afr Med J，
+2013，
+103(
+12):
+948-
+954.
+DOI：10.7196/samj.7207.
+[21]
+MeremikwuMM, Oyo-ItaA．
+Physical methods for treating fever in children[J]．
+Cochrane Database Syst Rev，
+2003，
+2:
+CD004264.
+DOI：10.1002/14651858.CD004264.
+[22]
+罗双红，温杨，朱渝，等．
+中国0至5岁儿童病因不明急性发热诊断和处理若干问题循证指南：病因、实验室检查和治疗部分解读[J]．
+中国循证儿科杂志，
+2016，
+11(
+4):
+295-
+302.
+DOI：10.3969/j.issn.1673-5501.2016.04.011.
+LuoSH, WenY, ZhuY，et al.Interpretation of etiology，laboratory examination and treatment in guidelines of evidence-based diagnosis and management for acute fever without source in children aged 0 to 5 years[J]．Chin J Evid Based Pediatr，2016，11(4):295-302.DOI：10.3969/j.issn.1673-5501.2016.04.011.
+[23]
+王雪云，贾丹．
+从临床药师思维谈抗菌药物的合理使用[J]．
+中国药业，
+2014，
+23(
+17):
+65-
+67.
+WangXY, JiaD．On the rational use of antibiotics from the perspective of clinical pharmacists [J]．Chin Pharmaceuticals，2014，23(17):65-67.
+[24]
+万朝敏．
+中国0至5岁儿童病因不明的急性发热诊断处理指南(解读版)：发热的处理[J]．
+中国循证儿科杂志，
+2009，
+4(
+3):
+306-
+309.
+DOI：10.3969/j.issn.1673-5501.2009.03.012.
+WanCM.Guidelines of diagnosis and management for acute fever without source in children aged 0 to 5 years (interpretation version)：treatment of fever [J]．Chin J Evid Based Pediatr，2009，4(3):306-309.DOI：10.3969/j.issn.1673-5501.2009.03.012.
+[25]
+LuoS, RanM, LuoQ，et al.
+Alternating acetaminophen and ibuprofen versus monotherapies in improvements of distress and reducing refractory fever in febrile children：a randomized controlled trial[J]．
+Paediatr Drugs，
+2017，
+19(
+5):
+479-
+486.
+DOI：10.1007/s40272-017-0237-1.
+[26]
+WongT, StangAS, GanshornH，et al.
+Combined and alternating para－cetamol and ibuprofen therapy for febrile children[J]．
+Evid Based Child Health，
+2014，
+9(
+3):
+675-
+729.
+DOI：10.1002/ebch.1978.
+[27]
+WilliamsJ, BellamyR．
+Fever of unknown origin[J]．
+Clin Med (Lond)，
+2008，
+8(
+5):
+526-
+530.
+DOI：10.7861/clinmedicine.8-5-526.
+[28]
+World Health Organization.
+Pocket book of hospital care for children：second edition.Guidelines for the management of common childhood illnesses[EB/OL]．(
+2013-05-26)[
+2019-12-02]．
+https://www.who.int/maternal_child_adolescent/documents/child_hospital_care/en/.
+[29]
+SheehanWJ, MaugerDT, PaulIM，et al.
+Acetaminophen versus ibuprofen in young children with mild persistent asthma[J]．
+N Engl J Med，
+2016，
+375(
+7):
+619-
+630.
+DOI：10.1056/NEJMoa1515990.
+[30]
+FuLS, LinCC, WeiCY，et al.
+Risk of acute exacerbation between ace-taminophen and ibuprofen in children with asthma[J]．
+Peer J，
+2019，
+7:
+e6760.
+DOI：10.7717/peerj.6760.
+[31]
+SakulchitT, GoldmanRD.
+Acetaminophen use and asthma in children[J]．
+Can Fam Physician，
+2017，
+63(
+3):
+211-
+213.
+[32]
+国家药典委员会．
+中华人民共和国药典临床用药须知[M]．
+北京：
+人民卫生出版社，
+2005：
+697.
+Chinese Pharmacopoeia Commission.Clinical medication instructions of Pharmacopoeia of the People′s Republic of China[M]．Beijing：People′s Medical Publishing House，2005：697.
+[33]
+FordR, SchwartzL, DanceyJ，et al.
+Lessons learned from independent central review [J]．
+Eur J Cancer，
+2009，
+45(
+2):
+268-
+274.
+DOI：10.1016/j.ejca.2008.10.031.
+[34]
+中华医学会肝病学分会药物性肝病学组．
+药物性肝损伤诊治指南[J]．
+实用肝脏病杂志，
+2017，
+20 (
+2):
+257-
+274.
+DOI：10.3969/j.issn.1672-5069.2017.02.039.
+Pharmacohepatology Group, Chinese Society of Hepatology.Guidelines for the diagnosis and treatment of drug-induced liver injury [J]．J Pract Hepatol，2017，20 (2):257-274.DOI：10.3969/j.issn.1672-5069.2017.02.039.
+[35]
+于洋，范捷．
+对乙酰氨基酚超剂量使用致肝毒性及防治概述[J]．
+药物流行病学杂志，
+2015，
+24(
+5):
+305-
+308.
+YuY, FanJ．Overdose acetaminophen induced liver toxicity and treatment overview[J]．Chin J Pharmacoepidemiol，2015，24(5):305-308.
+[36]
+European Association for the Study of the Liver.
+EASL clinical practice guidelines：drug-induced liver injury[J]．
+J Hepatol，
+2019，
+70(
+6):
+1222-
+1261.
+DOI：10.1016/j.jhep.2019.02.014.
+[37]
+许辉，徐倩倩，童旭辉，等．
+对乙酰氨基酚过量致精神异常、肾损害及低血糖昏迷[J]．
+药物不良反应杂志，
+2009，
+11(
+4):
+262-
+263.
+DOI：10.3969/j.issn.1008-5734.2009.04.009.
+XuH, XuQQ, TongXH，et al.Mental disorders，renal damage，and hypoglycemic coma due to paracetamol overdoses[J]．Adv Drug React J，2009，11(4):262-263.DOI：10.3969/j.issn.1008-5734.2009.04.009.
+[38]
+郭鸿，王桂玲，娄红霞．
+小儿解热镇痛药的不良反应与合理使用[J]．
+临床合理用药杂志，
+2012，
+5(
+21):
+32.
+DOI：10.3969/j.issn.1674-3296.2012.21.021.
+GuoH, WangGL, LouHX.Adverse reactions and rational use of anti-inflammatory drugs in children [J]．Chin J Clin Rational Drug Use，2012，5(21):32.DOI：10.3969/j.issn.1674-3296.2012.21.021.
+[39]
+AnwarA, AnwarIJ, DelafontaineP．
+Elevation of cardiovascular risk by non-steroidal anti-inflammatory drugs[J]．
+Trends Cardiovasc Med，
+2015，
+25(
+8):
+726-
+735.
+DOI：10.1016/j.tcm.2015.03.006.
+[40]
+KanabarDJ.
+A clinical and safety review of paracetamol and ibuprofen in children[J]．
+Inflammopharmacology，
+2017，
+25(
+1):
+1-
+9.
+DOI：10.1007/s10787-016-0302-3.
+[41]
+ArfèA, ScottiL, Varas-LorenzoC，et al.
+Non-steroidal anti-inflammatory drugs and risk of heart failure in four European countries：nested case-control study[J]．
+BMJ，
+2016，
+354:
+i4857.
+DOI：10.1136/bmj.i4857.
+[42]
+GrosserT．
+Cardiovascular safety of celecoxib，naproxen，or ibuprofen for arthritis[J]．
+N Engl J Med，
+2017，
+376(
+14):
+1389.
+DOI：10.1056/NEJMc1702534.
+[43]
+de MartinoM, ChiarugiA, BonerA，et al.
+Working towards an approp-riate use of ibuprofen in children：an evidence-based appraisal[J]．
+Drugs，
+2017，
+77(
+12):
+1295-
+1311.
+DOI：10.1007/s40265-017-0751-z.
+[44]
+乔玉．
+不同剂量阿司匹林在川崎病急性期治疗疗效的Meta分析[D]．
+济南：
+山东大学，
+2014.
+QiaoY．A Meta-analysis on effect of optimal dose of aspirin treatment in acute Kawasaki disease[D]．Jinan：Shandong University，2014.
+[45]
+WysockiJ, CenterKJ, BrzostekJ，et al.
+A randomized study of fever prophylaxis and the immunogenicity of routine pediatric vaccinations[J]．
+Vaccine，
+2017，
+35(
+15):
+1926-
+1935.
+DOI：10.1016/j.vaccine.2017.02.035.
+[46]
+Kollmann-CamaioraA, AlsinaE, DomínguezA，et al.
+Clinical protocol for the management of malignant hyperthermia[J]．
+Rev Esp Anestesiol Reanim，
+2017，
+64(
+1):
+32-
+40.
+DOI：10.1016/j.redar.2016.06.004.
+[47]
+MeierK, LeeK．
+Neurogenic fever[J]．
+J Intensive Care Med，
+2017，
+32(
+2):
+124-
+129.
+DOI：10.1177/0885066615625194.
+[48]
+NakamuraK．
+Central circuitries for body temperature regulation and fever[J]．
+Am J Physiol Regul Integr Comp Physiol，
+2011，
+301(
+5):
+R1207-
+R1228.
+DOI：10.1152/ajpregu.00109.2011.
+[49]
+《中华传染病杂志》编辑委员会．
+发热待查诊治专家共识[J]．
+中华传染病杂志，
+2017，
+35(
+11):
+641-
+655.
+DOI：10.3760/cma.j.issn.1000-6680.2017.11.001.
+Editorial Board of Chinese Journal of Infectious Diseases.Expert consensus of fever of unkown origin[J]．Chin J Infect Dis，2017，35(11):641-655.DOI：10.3760/cma.j.issn.1000-6680.2017.11.001.
+[50]
+JaeschkeH．
+Acetaminophen：dose-dependent drug hepatotoxicity and acute liver failure in patients[J]．
+Dig Dis，
+2015，
+33(
+4):
+464-
+471.
+DOI：10.1159/000374090.
+[51]
+FDA Drug Safety Communication.
+FDA warns of rare but serious skin reactions with the pain reliever/fever reducer acetaminophen[EB/OL]．(
+2016-02-26)[
+2019-11-08]．
+https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-fda-warns-rare-serious-skin-reactions-pain-relieverfever-reducer.
+[52]
+BerezinSH, BostwickHE, HalataMS，et al.
+Gast-rointestinal bleeding in children following ingestion of low-dose ibuprofen[J]．
+J Pediatr Gastroenterol Nutr，
+2007，
+44(
+4):
+506-
+508.
+DOI：10.1097/MPG.0b013e31802d4add.
+[53]
+MisuracJM, KnodererCA, LeiserJD，et al.
+Nonsteroidal anti-inflammatory drugs are an important cause of acute kidney injury in children[J]．
+J Pediatr，
+2013，
+162(
+6):
+1153-
+1159.
+DOI：10.1016/j.jpeds.2012.11.069.
+[54]
+国家风湿病数据中心，中国系统性红斑狼疮研究协作组．
+非甾体消炎药相关消化道溃疡与溃疡并发症的预防与治疗规范建议[J]．
+中华内科杂志，
+2017，
+56(
+1):
+81-
+85.
+DOI：10.3760/cma.j.issn.0578-1426.2017.01.021.
+Chinese Rheumatism Data Center, Chinese Systemic Lupus Erythematosus Treatment and Research Group.Recommendation for the prevention and treatment of non-steroidal anti-inflammatory drug-induced gastrointestinal ulcers and its complications[J]．Chin J Intern Med，2017，56(1):81-85.DOI：10.3760/cma.j.issn.0578-1426.2017.01.021.
+[55]
+卫生部合理用药专家委员会．
+中国医师药师临床用药指南[M]．
+重庆：
+重庆出版社，
+2009：
+1336,1345.
+Rational Administration of Drug Committee of Ministry of Health.China Pharmaceutical Refference[M]．Chongqing：Chongqing Publishing House，2009：1336,1345.
+[56]
+ChiewAL, FountainJS, GraudinsA，et al.
+Summary statement：new guidelines for the management of paracetamol poisoning in Australia and New Zealand[J]．
+Med J Aust，
+2015，
+203(
+5):
+215-
+218.
+DOI：10.5694/mja15.00614.
+[57]
+SmilksteinMJ, KnappGL, KuligKW，et al.
+Efficacy of oral N-acetylcysteine in the treatment of acetaminophen overdose.Analysis of the national multicenter study (1976 to 1985) [J]．
+N Engl J Med，
+1988，
+319(
+24):
+1557-
+1562.
+DOI：10.1056/NEJM198812153192401.
+贡献者信息
+国家呼吸系统疾病临床医学研究中心
+中华医学会儿科学分会呼吸学组
+中国医师协会呼吸医师分会儿科呼吸工作委员会
+中国医药教育协会儿科专业委员会
+中国研究型医院学会儿科学专业委员会
+中国非公立医疗机构协会儿科专业委员会
+中国中药协会儿童健康与药物研究专业委员会
+中国医药新闻信息协会儿童安全用药分会
+"六一健康快车"项目专家委员会
+全球儿科呼吸联盟
+通信作者
+申昆玲
+Email：
+kunlingshen1717@163.com
+朱宗涵
+Email：
+zonghanzhu@263.net
+作者声明
+万朝敏和徐保平对本文有同等贡献
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-03-19
+收稿日期：2020-02-25
+本文编辑
+李建华
+Standard/Protocol/Guideline
+Expert consensus on rational use of antipyretics and analgesics in the treatment of fever in children
+China National Clinical Research Center for Respiratory Diseases,  Group of Respirology, Chinese Pediatric Society, Chinese Medical Association,  Chinese Medical Doctor Association Committee on Respirology Pediatrics,  China Medicine Education Association Committee on Pediatrics,  Chinese Research Hospital Association Committee on Pediatrics,  Chinese Non-Government Medical Institutions Association Committee on Pediatrics,  China Association of Traditional Chinese Medicine,Committee on Children′s Health and Medicine Research,  China News of Drug Information Association, Committee on Children′s Safety Medication,  Expert Committee of "61 Health Express" Project,  Global Pediatric Pulmonology Alliance
+Published
+2020-03-19
+Cite as
+Chin J Appl Clin Pediatr, 2020,35(03): 161-169. DOI: 10.3760/cma.j.cn101070-20200225-00249
+Contributor Information
+China National Clinical Research Center for Respiratory Diseases
+Group of Respirology, Chinese Pediatric Society, Chinese Medical Association
+Chinese Medical Doctor Association Committee on Respirology Pediatrics
+China Medicine Education Association Committee on Pediatrics
+Chinese Research Hospital Association Committee on Pediatrics
+Chinese Non-Government Medical Institutions Association Committee on Pediatrics
+China Association of Traditional Chinese Medicine,Committee on Children′s Health and Medicine Research
+China News of Drug Information Association, Committee on Children′s Safety Medication
+Expert Committee of "61 Health Express" Project
+Global Pediatric Pulmonology Alliance
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+图1
+Wong-Baker面部表情疼痛量表
+Figure 1
+Wong-Baker faces rating scale
+表1
+中文版新生儿疼痛与不适量表
+Table 1
+Neonatal pain and discomfort scale (EDIN) in Chinese version
+条目
+赋分(分)
+行为描述
+面部活动
+0
+完全放松
+1
+短暂痛苦表情，如皱眉、口唇发绀或颤抖、咬紧牙关
+2
+频繁或持续的痛苦表情
+3
+持久痛苦样哭泣或毫无表情
+身体活动
+0
+完全放松
+1
+短暂烦躁，多数时候安静
+2
+频繁烦躁，但可以平静下来
+3
+持久烦躁伴手指、脚趾和四肢肌张力增强，或少见的缓慢的运动伴虚脱
+睡眠质量
+0
+容易入睡
+1
+入睡困难
+2
+频繁、自发觉醒，与护理无关的频繁自发觉醒，不能熟睡
+3
+失眠
+与父母或抚育者的接触
+0
+微笑，注意声音
+1
+短暂忧虑，可与护士有短暂交流
+2
+交流困难，轻微刺激易哭
+3
+拒绝沟通，无法交流，无任何刺激也在呻吟
+安抚
+0
+安静，完全放松
+1
+静下来迅速响应抚摸、声音或吸奶
+2
+镇静困难，难以平静下来
+3
+郁郁寡欢，闷闷不乐，拼命吸吮
+表2
+发热儿童严重疾病警示分级评估
+Table 2
+Traffic light system for identifying risk of serious illness
+症状和体征
+绿区-低危
+黄区-中危
+红区-高危
+皮肤黏膜颜色
+皮肤、口唇和舌颜色正常
+苍白(家长描述)
+苍白、花纹、苍灰或发绀
+活动力
+对外界反应正常、愉悦或微笑，清醒或可迅速唤醒，哭声正常有力/无哭闹
+对外界反应不正常、无笑容，长时间刺激方能清醒，活动减少
+对外界无反应、病态面容、各种刺激不能清醒、嗜睡、虚弱、哭声尖或持续哭吵
+呼吸
+－
+鼻翼扇动，呼吸急促：6～12月龄，呼吸频率>50次/min；>12月龄，呼吸频率>40次/min；氧饱和度≤95%(吸入空气)，肺部闻及湿啰音
+呻吟，呼吸急促：呼吸频率>60次/min，中至重度吸气性胸凹陷
+循环和脱水状况
+皮肤和眼睛正常，黏膜湿润
+心动过速：<12月龄，心率>160次/min；12～24月龄，心率>150次/min；2～5岁，心率>140次/min；毛细血管再充盈时间≥3 s，黏膜干燥，喂养困难，尿量减少
+皮肤弹性差
+其他
+无"黄区"或"红区"的症状或体征
+3～6月龄，体温≥39.0 ℃，发热≥5 d，寒战，肢体或关节肿胀，肢体不能负重/不愿活动
+<3月龄，体温≥38.0 ℃a，皮疹压之不退色，前囟饱满，颈项强直，惊厥持续状态，有神经系统定位体征，局灶性抽搐
+注：a有些免疫接种可引起3个月以下儿童发热 aSome vaccinations have been found to induce fever in children aged under 3 months
+表3
+对乙酰氨基酚与布洛芬的特点及推荐用法
+Table 3
+Characteristics and recommended usage of paracetamol and ibuprofen
+变量
+对乙酰氨基酚
+布洛芬
+体温下降时间
+1～2 h
+1～2 h
+起效时间
+<1 ha
+<1 h
+达峰时间
+3～4 h
+3～4 h
+作用持续时间
+4～6 h
+6～8 h
+适用年龄
+2月龄及以上
+6月龄及以上
+给药途径
+口服、栓剂
+口服、栓剂、静脉
+每次最大剂量
+600 mg或15 mg/(kg·次)(以两者中较低剂量为准)
+400 mg或10 mg/(kg·次)(以两者中较低剂量为准)
+每日最大剂量
+2.0 g或2岁以下60 mg/(kg·d)，2～12岁75 mg/(kg·d)(以两者中较低剂量为准)
+2.4 g或40 mg/(kg·d)(以两者中较低剂量为准)
+注：a退热药起效一般在30～60 min内 aThe onset of an antipyretic effect within 30－60 minutes
+表4
+解热镇痛药物的不良反应及处理
+Table 4
+Adverse reactions and management of antipyretic and analgesic drugs
+药品
+不良反应
+处理措施
+对乙酰氨基酚
+常规剂量下较少引起不良反应，偶见皮疹、荨麻疹、药物热及粒细胞减少；但长期大量用药会导致肝肾功能异常，甚至急性肝衰竭。此外，对乙酰氨基酚可能导致罕见严重的皮肤反应，包括致命的Stevens-Johnson综合征、中毒性表皮坏死松解症等
+发生严重不良反应时应停药，并给予对症处理；发生急性中毒应给予乙酰半胱氨酸解救，根据病情给予相应处理
+布洛芬
+一般为轻度的肠胃不适，偶有皮疹、耳鸣、头痛等，严重可引起消化道出血，亦有布洛芬引起急性肾损伤的报道
+发生严重不良反应时应停药，如出现胃肠出血或溃疡给予质子泵抑制剂；发生急性肾损伤时，应根据肾损伤严重程度采取不同的治疗
+表5
+解热镇痛药物与其他药物的相互作用
+Table 5
+Drug interactions between antipyretic and analgesics and other drugs
+药品
+相互作用
+对乙酰氨基酚
+与卡马西平、苯巴比妥、苯妥英、异烟肼合用增加肝毒性
+与利福平合用可能减弱退热效果
+长期大量与阿司匹林或其他非甾体类抗炎药合用可显著增加肾毒性的发生风险
+与华法林合用可以增加出血的风险
+布洛芬
+与其他非甾体类抗炎药合用可增加胃肠不良反应
+与抗凝药(如华法林)、抗血小板药(如阿司匹林)合用可增加出血风险
+与地高辛、甲氨蝶呤合用可升高此两种药物的血药浓度
+与环孢素合用可增加肾毒性
+与锂剂合用可升高锂的血药浓度
+与呋塞米合用可减弱呋塞米的排钠及降压作用，同时增加肾毒性
+与二甲双胍合用可增强降糖作用，可能出现低血糖风险
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华实用儿科临床杂志2020年35卷03期
+文    题：解热镇痛药在儿童发热对症治疗中的合理用药专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华实用儿科临床杂志2020年35卷03期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

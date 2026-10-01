@@ -1,0 +1,1121 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%97%85%E8%A7%89%E9%9A%9C%E7%A2%8D%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282017%E5%B9%B4%29.html
+# 标题: 嗅觉障碍诊断和治疗专家共识(2017年) - 中华耳鼻咽喉头颈外科杂志
+# 发布方/日期: 耳鼻咽喉科，中华耳鼻咽喉头颈外科杂志, 2018,53(7) : 484-494. DOI: 10.3760/cma.j；2018-07-07
+
+嗅觉障碍诊断和治疗专家共识(2017年)
+中华耳鼻咽喉头颈外科杂志编辑委员会鼻科组
+中华医学会耳鼻咽喉头颈外科学分会鼻科学组
+中华耳鼻咽喉头颈外科杂志, 2018,53(7) : 484-494. DOI: 10.3760/cma.j.issn.1673-0860.2018.07.002
+前言
+嗅觉是对气味的感知，在人的社会交往及日常生活中起着重要作用。嗅觉障碍会影响人们的生活质量、社会交往、营养物质摄入，甚至威胁生命安全。此外，嗅觉障碍还与神经退行性疾病、情感障碍和精神性疾病等相关；老年性嗅觉障碍和高死亡率相关[1,2]。然而，由于嗅觉障碍检查方法繁多且不统一，临床上只有少部分患者的嗅觉障碍得到了准确诊断和有效治疗。
+在本共识中，我们总结既往的文献，综合阐述各种嗅觉障碍的病因和发病机制，以及如何进行规范化的诊断和治疗。其目的是向临床医师提供相应的指导性建议及规范化术语，按照患者的临床特点制定个体化的诊疗措施，提高疗效并减少医疗成本。
+嗅觉系统及其特点
+一、嗅觉系统的组成
+(一)主嗅系统(main olfactory system)
+1．嗅上皮(olfactory epithelium)：
+是嗅觉感受器，也是嗅脑屏障最重要的组成部分。
+嗅上皮分布于上鼻甲内侧面、筛板下表面、鼻中隔上部及部分中鼻甲内侧面，每侧面积约为1 cm2。嗅上皮在胎儿期是连续分布的，成年后缩小并呈岛状分布。嗅上皮包括黏膜层及固有层，基底膜将黏膜层和固有层分开。黏膜层由4种细胞组成：嗅觉感受神经元(嗅神经元)、支持细胞、基底细胞以及微绒毛细胞。固有层内有Bowman′s腺、嗅神经束、嗅鞘细胞以及血管[3]。嗅神经元为双极细胞，树突侧有嗅泡，嗅泡表面有不动纤毛，气味受体分布于纤毛上，其轴突进入固有层后由嗅鞘细胞包绕，汇成嗅丝穿过筛孔进入嗅球。鼻腔每侧约有15～20根嗅丝[3]。支持细胞将神经元细胞分隔开来，并伸出微绒毛进入黏液层。Bowman′s腺是嗅区黏液的主要来源。基底细胞分为球形基底细胞和水平基底细胞，基底细胞以及固有层的嗅鞘细胞被认为是前体细胞或干细胞，它们能实现嗅神经元和其他嗅上皮细胞的再生，目前已经成为神经科学研究热点[4]。
+2．嗅球(olfactory bulb)：
+是嗅觉系统的第一级处理站，位于筛板上方的前颅底。其后的条索状部分称为嗅束，主要由僧帽细胞、簇状细胞的轴突纤维及嗅皮层投射到嗅球的纤维构成。嗅球由6层同心结构组成，由外向内分别为嗅神经层、嗅小球层、外丛层、僧帽细胞层、内丛层和颗粒细胞层。嗅球内有两种主要细胞(僧帽细胞和丛状细胞)和3种神经元间细胞(球周细胞、颗粒细胞和短树突细胞)。嗅神经元轴突通过嗅神经层进入嗅小球层，在此与僧帽细胞和丛状细胞树突形成突触联系。动物研究显示，来自外侧脑室的室管膜下层的干细胞可以通过喙侧迁移流到达嗅球，参与嗅球内神经细胞再生。嗅觉通路被认为是"脑的窗口"[5]，可以成为病毒等有害物质入侵脑和经鼻给药的重要通道[6]。
+3．嗅觉皮层(olfactory cortex)：
+僧帽细胞和丛状细胞的轴突通过外侧嗅束直接进入同侧的初级嗅觉皮层。目前认为初级嗅觉皮层由前嗅核、梨状皮质、嗅结节、内嗅区、杏仁核周围皮质和皮质内侧杏仁核构成。初级嗅觉皮层进一步投射到次级嗅觉皮层，如眶额皮质、下丘脑、背内侧丘脑、海马和杏仁核复合体。气味的整合识别在梨状皮质完成并进行记忆存储。眶额皮质对于整合食物的嗅觉、味觉、口感、视觉以及听觉信息，进而产生最终的风味(flavor)起关键作用[7]。
+(二)副嗅系统(accessary olfactory system)
+副嗅系统即犁鼻系统(vomeronasal system)，或犁鼻器(vomeronasal organ)，包括犁鼻上皮、神经和副嗅球。犁鼻系统是特化的信息素感受器，与主嗅系统汇集并整合。犁鼻器在多数动物中有功能；在人类有些个体(25%～76%)能观察到位于鼻中隔前下部的犁鼻器凹陷、囊袋或管，但是其功能存在争议，多数研究认为人的犁鼻器是无功能的[7]。
+二、嗅觉信号转导和编码
+(一)嗅觉信号转导
+气味分子经前或后鼻气流到达嗅上皮区，直接或在嗅素结合蛋白的帮助下与嗅神经元上特定的嗅觉受体结合。嗅觉受体属于G蛋白偶联受体(Golf)超家族中的一员。气味分子与嗅觉受体结合后激活Golf，活化的Golf进一步激活腺苷酸环化酶Ⅲ，提高胞内第二信使环磷酸腺苷(cAMP)浓度，从而打开细胞膜上的环核苷酸门控阳离子通道，引起钙离子内流、氯离子外流，导致细胞去极化，形成动作电位，动作电位再通过嗅丝传导至嗅球[8]。信息在嗅球内的嗅小球内换元后再传递给僧帽细胞。僧帽细胞通过嗅束将信息传递至更高的嗅觉皮层(图1)。
+点击查看大图
+图1
+嗅觉信号转导示意图 气味分子与嗅神经元纤毛上相应的嗅觉受体结合后，激活嗅神经元的离子通道产生神经冲动，经嗅神经传导至嗅球，再通过嗅球向嗅觉高级中枢传递(绘图：孙海英)
+图1
+嗅觉信号转导示意图 气味分子与嗅神经元纤毛上相应的嗅觉受体结合后，激活嗅神经元的离子通道产生神经冲动，经嗅神经传导至嗅球，再通过嗅球向嗅觉高级中枢传递(绘图：孙海英)
+(二)嗅觉编码
+嗅上皮从腹侧到背侧分为4个区域，嗅球与之对应也分为4个区域，嗅上皮每个区域的嗅神经元接受的嗅觉信号传至嗅球的相应区域，这种区对区的投射原则形成了嗅觉神经系统的空间编码嗅位图。每一个嗅神经元只含一种嗅觉受体，而携带相同受体的神经元会将信息传递到嗅球内的同一个嗅小球(图1)。在不同的物种中，每个嗅小球都接受5 000～40 000个嗅神经元轴突末端的汇聚，因此每个嗅小球可以看作是多个同种嗅觉受体类型嗅神经元轴突的汇集中心。嗅小球随后又激活僧帽细胞，每个僧帽细胞只被一个嗅小球激活，使得嗅觉信息的专一性仍得以保持，形成第二级嗅位图[9]。
+三、嗅觉特点
+1．原始性：
+嗅觉是哺乳动物最古老的感觉之一，是动物感知、适应环境的重要途径。脊椎动物与无脊椎动物嗅觉受体基因差别很大，经过长时间的进化，人类对嗅觉的依赖程度有所下降，但理论上人类仍能辨别出1万亿种不同的气味。日常生活中人类闻及的气味并没有这么多，一般认为人类能辨识4 000～10 000种不同的气味[10]。
+2．再生及可塑性：
+在整个生命周期中，嗅上皮中的基底细胞都能够分化为成熟的嗅神经元，并伸出轴突与其他嗅神经元的轴突汇聚，由嗅鞘细胞包绕成嗅丝后穿越筛板与嗅球建立突触连接[11]。而侧脑室周围管室膜下层的神经前体细胞可以持续产生并移行进嗅球分化为颗粒细胞，实现嗅球的重塑性。嗅觉高级中枢也可随着嗅上皮、嗅球、嗅束改变而发生变化。
+3．适应性：
+嗅觉适应是指重复或延长某种气味刺激的暴露可以使机体对该气味的嗅觉敏感性下降。嗅觉适应有助于机体减少对稳定、重复或无意义刺激的反应。故有"入芝兰之室，久而不闻其香；入鲍鱼之肆，久而不闻其臭"的描述。嗅觉适应的程度受气味刺激的持续时间、浓度及受试者注意力等因素的影响[12]。
+4．嗅觉与味觉的关系：
+嗅觉和味觉同属化学感觉，二者中枢汇聚于脑皮层同一区域。舌前三分之二味觉通过鼓索神经感受，舌后三分之一由舌咽神经负责。嗅觉刺激与味觉相互作用能影响味觉的感知；反之味觉刺激亦能影响嗅觉的加工。
+5．嗅觉与三叉神经的关系：
+嗅神经与三叉神经共同分布于鼻腔，两者各司其职、相互影响。三叉神经的鼻睫神经和上颌神经参与化学感觉，有助于气味强度、气味偏侧性等的感知[13]。部分气味可在刺激嗅觉神经的同时刺激三叉神经产生触觉、温度觉和痛觉。嗅觉障碍可伴有三叉神经功能的改变[14]。
+定义及分类
+一、嗅觉障碍的定义
+嗅觉障碍是指在气味感受、传导及信息分析整合过程中，嗅觉通路各环节发生器质性和(或)功能性病变，导致的气味感知异常。嗅觉障碍包括嗅觉定量障碍及定性障碍，前者包括嗅觉减退、嗅觉丧失(失嗅)和嗅觉过敏，后者包括嗅觉倒错和幻嗅。
+嗅觉减退是指对气味感受、识别、辨别能力下降。
+嗅觉丧失是指不能感知任何性质的气味。
+嗅觉过敏是指对一种或多种气味异常敏感。
+嗅觉倒错是指对气味性质感知的扭曲。
+幻嗅是指在没有气味刺激时产生的虚幻的气味感知。
+二、嗅觉障碍的分类
+嗅觉障碍按解剖部位或性质通常分为以下4类。
+1．传导性嗅觉障碍：
+指气味分子到达嗅觉受体受阻，导致的嗅觉减退或失嗅。如鼻腔鼻窦炎症、鼻中隔偏曲、鼻腔鼻窦肿物、鼻腔异物等均可影响气味分子与嗅觉受体的结合。
+2．感觉神经性嗅觉障碍：
+指嗅上皮和(或)嗅神经受损导致的嗅觉障碍。如病毒感染、化学毒物等引起的嗅上皮损伤；头部外伤引起的嗅神经的挫伤或离断等。
+3．中枢性嗅觉障碍：
+指嗅觉高级中枢受损导致的嗅觉障碍。如先天性嗅觉障碍、神经退行性病变、脑或神经肿瘤、颅内手术等导致的嗅觉高级中枢损伤。
+4．混合性嗅觉障碍：
+以上两种或三种部位损伤所致的嗅觉障碍。
+临床上按照病因主要将嗅觉障碍分为以下9种类型：鼻-鼻窦炎相关嗅觉障碍、上呼吸道感染(上感)后嗅觉障碍、外伤性嗅觉障碍、先天性嗅觉障碍、老年性嗅觉障碍、神经系统疾病相关嗅觉障碍、毒物/药物性嗅觉障碍、其他病因导致的嗅觉障碍(如鼻颅底手术、肿瘤等所致嗅觉障碍)、特发性嗅觉障碍(无明确已知的病因所致的嗅觉障碍)。
+流行病学
+嗅觉障碍的自报患病率为1.4%～40.0%[15,16,17,18,19,20]，而用嗅觉心理物理测试获得的嗅觉障碍患病率为4.7%～27.0%[19,21]；国内嗅觉障碍人群的自报患病率为2.4%[22]，尚缺乏心理物理测试的嗅觉障碍患病率数据。年龄是影响嗅觉功能最主要的因素，国外65岁以上老年人群嗅觉障碍自报患病率可高达40%[20]；国内60岁及以上居民自报嗅觉障碍患病率为8.49%[23]，且随年龄增加而升高。
+国内外研究均报道上感后、炎症性和外伤性是临床上引起嗅觉障碍的常见病因。其所占比例分别为(国内/国外)29.3%/36.0%、26.4%/30.0%、14.3%/18.0%[20,24]。
+诊断
+一、病史采集
+嗅觉障碍患者的病史对于其病因鉴别很有价值，因此应仔细询问患者的发病诱因、病程、嗅觉和味觉损伤情况、对生活质量的影响、治疗情况、疾病转归、伴发疾病、外伤史、手术史、刺激性物质接触史、过敏史、家族史、特殊用药史等。
+二、专科检查
+应完善耳鼻咽喉头颈外科的专科检查。通过鼻内镜可以直观地观察鼻腔的解剖结构(有无畸形、解剖异常等)，需着重检查中鼻道及嗅裂区的通畅程度及黏膜状态(有无充血、水肿、异常分泌物、干痂、新生物等)。
+三、主观评估及心理物理测试
+嗅觉障碍的主观评估是指受试者自报嗅觉功能障碍的程度。可采用视觉模拟量表(visual analogue scale，VAS)进行评估，或作为相关疾病临床评估中的一部分进行采集。对于单纯嗅觉障碍的患者，嗅觉障碍调查问卷(questionnaire of olfactory disorders，QOD)与其他问卷或主观参数相比，能更好地区分嗅觉丧失和嗅觉减退的类型[25]。
+嗅觉心理物理测试通过受试者对气味刺激的回答来判定其嗅觉功能，主要包括气味阈值测试(odor threshold test，OTT)、气味辨别能力测试(odor discrimination test，ODT)和气味识别能力测试(odor identification test，OIT)。临床应用最多的是气味察觉阈(odor threshold test)和识别能力测试，气味察觉阈是指受试者刚能察觉到某气味的最低浓度；气味识别能力是指能确切指出所闻到的某种气味名称的能力[26]。
+目前应用较多的嗅觉心理物理测试方法包括T&T嗅觉计测试(T&T olfactometer test)、嗅棒测试(Sniffin′ Sticks test)和宾夕法尼亚大学嗅觉识别测试(University of Pennsylvania smell identification test，UPSIT)。
+1．T&T嗅觉计测试：
+是以嗅素稀释倍数作为定量分析依据的嗅觉功能检查方法[27]，可同时检测嗅觉察觉阈和嗅觉识别能力。应用的试剂包含5种不同嗅素，分别为苯乙醇(花香-玫瑰花香味)、甲基环戊烯酮(焦糊-甜焦糊味)、异戊酸(汗臭-臭袜子味)、十一烷酸内酯(果香-熟桃子味)和三甲基吲哚(臭-粪臭味)。每种嗅素分为8种不同的浓度级别，从低浓度到高浓度分别记为－2、－1、0、1、2、3、4、5的分值。先测试察觉阈，后测试识别阈，依次由低浓度向高浓度进行顺序检测。以刚能察觉气味刺激作为嗅觉察觉阈，以刚能分辨气味的最低浓度作为嗅觉识别阈，最高浓度仍无法察觉或识别者记为6分。以结果做嗅觉测试图(图2)，取受试者对5种嗅素识别阈的平均值作为判定标准，根据其识别阈值将嗅觉功能分为6级：<－1.0分为嗅觉亢进；－1.0～1.0分为嗅觉正常；1.1～2.5分为轻度嗅觉减退；2.6～4.0分为中度嗅觉减退；4.1～5.5分为重度嗅觉减退；>5.5分为失嗅。
+点击查看大图
+图2
+T&T嗅觉计测试示意图 #代表每种嗅剂的察觉阈值，×代表每种嗅剂的识别阈值，最终5种嗅剂识别阈值的平均值代表受试者嗅觉功能
+图2
+T&T嗅觉计测试示意图 #代表每种嗅剂的察觉阈值，×代表每种嗅剂的识别阈值，最终5种嗅剂识别阈值的平均值代表受试者嗅觉功能
+2．Sniffin′ Sticks嗅棒测试：
+是国际上广泛使用的一种主观嗅觉功能检测方法，由气味察觉阈(odor threshold，T)、气味辨别能力(odor discrimination，D)和气味识别能力(odor identification，I)测试3部分组成。(1)气味察觉阈测试用正丁醇或苯乙醇作为嗅剂，使用共16组不同浓度的嗅棒对受试者依次由低浓度到高浓度进行顺序检测，每组包含2支空白对照和1支不同浓度的嗅棒，最低浓度能察觉者为16分，最高浓度不能察觉者为1分，以此类推。(2)气味辨别能力测试共包含16组、每组3支嗅棒，受试者须从3支嗅棒中分辨出与其他2支气味不同的嗅棒，所有组均能辨别为16分，均不能辨别为0分，以此类推。(3)气味识别能力测试包含16种不同气味的嗅棒，受试者闻完每支嗅棒后，从给出的4个选项中选择1个认为最接近所闻到气味的选项，选对1种得1分。气味察觉阈值(T)、气味辨别能力(D)和气味识别能力(I)3项测试的得分相加即为TDI总分(图3)。TDI用来评估嗅觉功能，总分为48分，由于嗅觉功能随着年龄的增加而降低，青年人>30.12分为正常，≤30.12分为嗅觉障碍，其中16～30分为嗅觉下降，<16分为失嗅[26]。
+点击查看大图
+图3
+嗅棒测试示意图 √代表正确分辨目标嗅棒，－代表错误分辨目标嗅棒，T值为后4次检测值的平均数，D值、I值为正确分辨目标嗅棒的总数，详见使用说明书
+图3
+嗅棒测试示意图 √代表正确分辨目标嗅棒，－代表错误分辨目标嗅棒，T值为后4次检测值的平均数，D值、I值为正确分辨目标嗅棒的总数，详见使用说明书
+3．宾夕法尼亚大学嗅觉识别测试(UPSIT)：
+是目前美国临床最常用的嗅功能主观检测方法。将40种嗅素分别置于10～50 μm的胶囊内，再分装在按不同气味编排的4本小册子中，每册包括10页，每页有1个气味胶囊，印有4项供选答案。受试者用铅笔划破胶囊，嗅闻后从4个选项中进行选择，答对1种气味记1分。根据受试者得分对嗅觉功能进行评价，35～40分为嗅觉正常、15～34分为嗅觉减退，<15分为嗅觉丧失[28]。
+其他的嗅觉心理物理测试还有康乃狄克化学感觉临床研究中心(Connecticut Chemosensory Clinical Research Center，CCCRC)嗅功能检查法、斯堪的纳维亚嗅觉鉴别测试(Scandinavian odor-identification test，SOIT)等。
+四、客观评估方法
+嗅觉障碍的客观检查主要有事件相关电位(event-related potentials，ERPs)、嗅通路MRI、功能磁共振成像(functional magnetic resonance imaging，fMRI)，正电子发射型计算机断层显像(PET-CT)等技术。
+(一)事件相关电位(ERPs)
+包括嗅觉事件相关电位(olfactory event-related potentials，oERPs)及三叉神经事件相关电位(trigeminal event-related potentials，tERPs)，分别是由气味刺激及三叉神经刺激诱发的生物电反应。气味刺激鼻腔嗅神经元或三叉神经元后，按照国际标准10/20法在头皮特定部位收集放大的特异脑电信号，应用计算机叠加技术，获得oERPs或tERPs。ERPs包括P1、N1、P2、N2、P3以及迟发正电位复合波。研究普遍认为P1、N1、P2、N2的潜伏期与波幅可反映气味信息的初级处理过程，P3及以后的迟发复合波可反映对气味的认知过程。其中N1、P2波的引出率最高，因此多采用N1、P2波的潜伏期及波幅作为ERPs的指标。魏永祥等[29]总结了国人正常成年人oERPs N1、P2波的潜伏期及波幅，潜伏期延长、波幅变小均可提示嗅觉功能受损。
+(二)影像学检查
+影像学检查包括鼻腔鼻窦薄层CT和MRI，在阅读CT时，应注意观察嗅裂开放的状态及嗅裂区是否有异常软组织密度影[30]。而嗅通路MRI对于嗅裂区黏膜状态、嗅球、嗅束、嗅沟的显示有着重要作用(图4)[31]。
+点击查看大图
+图4
+嗅球、嗅束T2WI MRI 其中红色箭头示嗅球，蓝色箭头示嗅束，白色箭头示嗅沟，黄色箭头示嗅丝，红色*示直回 A～B：冠状位；C：轴位；D～E：矢状位
+图4
+嗅球、嗅束T2WI MRI 其中红色箭头示嗅球，蓝色箭头示嗅束，白色箭头示嗅沟，黄色箭头示嗅丝，红色*示直回 A～B：冠状位；C：轴位；D～E：矢状位
+嗅通路MRI检查的推荐方案[32,33]：
+1．成像范围：原则上包括嗅球及嗅束全长以及额叶前部。
+(1)横断面：切面平行于前颅底，自胼胝体下缘至上鼻甲下缘。
+(2)冠状面：切面垂直于前颅底，自额窦前缘至垂体后缘。
+(3)矢状面：切面平行于左右嗅束，扫描宽度约为4 cm，包含嗅球和嗅束。
+2．成像线圈：相控阵头线圈或头颈联合线圈。
+3．层厚和间距：层厚1.00～3.00 mm，层间距0.00～1.00 mm。
+4．成像序列。
+(1)平扫：轴位T1WI及T2WI、冠状位T2WI(层厚1.0 mm)、矢状位T2WI(层厚1.0 mm)。
+(2)如怀疑脑实质损伤，建议加扫全脑重T2加权序列(T2*序列)或T2加权液体衰减反转恢复序列(FLAIR序列)轴位(5 mm)；怀疑嗅通路肿瘤性病变需进一步明确病变性质时，行弥散加权成像(DWI)和动态增强扫描。
+功能性成像研究包括PET-CT和fMRI，这两种技术都可以绘制大脑对于刺激的活动变化[34]。由于PET-CT检查需注射放射性同位素且价格较高，目前相关研究较少；fMRI的应用研究相对普及，但仍未作为临床常规检查。
+治疗
+一、病因治疗
+对于病因明确的嗅觉障碍患者，应针对原发疾病采取相应的治疗措施。
+二、药物治疗
+目前文献已报道的治疗嗅觉障碍的药物有多种，其中被证实有一定疗效的药物包括糖皮质激素[35]、维生素A[36]、银杏叶提取物[37]、柠檬酸钠缓冲液等[38]。糖皮质激素是治疗嗅觉障碍最常用的药物。其用于治疗炎症性、外伤性和上感后嗅觉障碍的报道较多，其中以炎症性嗅觉障碍的治疗效果最佳[39]。以泼尼松为例，通常推荐口服小到中等剂量(0.5～1.0 mg·kg－1·d－1)，短程治疗(<1个月)。同时可联合银杏叶提取物、维生素A等，效果优于单独用药[37]。鼻喷糖皮质激素可作为辅助治疗。需要指出的是，在鼻腔局部用药时，传统的滴鼻或鼻喷治疗方式使药物主要沉积于中鼻道及下鼻道，很难直接作用于嗅区黏膜[40]。在使用治疗嗅觉障碍的滴鼻剂时，推荐患者处于侧躺位[41]。在使用鼻喷剂时，喷射雾化比普通喷雾治疗更有效[42,43]。上述两种方法可以明显增加嗅裂区黏膜药物的沉积。
+鼻腔局部应用维生素A 10 000 U/d，连续使用8周对上感后嗅觉障碍有一定效果[36]，但口服使用没有改善上感后及外伤性嗅觉障碍患者嗅觉功能的作用[44]。
+三、手术治疗
+手术治疗可以纠正异常的解剖结构和(或)清除病变(如鼻中隔偏曲、嗅裂区息肉等鼻腔阻塞性病变)，伴或不伴鼻息肉的慢性鼻-鼻窦炎(CRS)经手术治疗后，部分患者的嗅觉功能可得到改善[45]，但也有部分患者术后嗅觉功能无改善甚至降低[46]。
+四、嗅觉训练
+嗅觉训练是指患者主动反复嗅吸各种类型的嗅剂，以提升嗅觉功能的治疗方法。嗅觉训练是目前有1A级证据支持的治疗手段[47]。自2009年德国Hummel等[48]发现嗅觉训练可改善嗅觉障碍患者嗅觉功能后，多项研究证实上感后、外伤性、特发性及神经退行性疾病相关嗅觉障碍均可通过嗅觉训练得以改善[49,50,51]。目前认为嗅觉训练可诱导脑部神经重塑、增加嗅球体积，但其改善嗅觉功能的具体机制有待深入研究。嗅觉训练主要使用苯乙醇(玫瑰)、桉叶醇(桉树)、香茅醛(柠檬)、丁香酚(丁香)4种气味，每种气味嗅10 s左右，两种嗅剂间隔10 s。每次训练时长5 min，每天早餐前及晚睡前各训练1次。嗅觉训练可明显改善嗅觉识别、辨别能力，对嗅觉察觉阈有轻度改善作用[52]。早期进行嗅觉训练可更好地提升嗅觉功能。多项研究发现延长嗅觉训练时间、增加嗅剂种类、提高嗅剂浓度甚至使用随机浓度的精油均可提高嗅觉功能的改善率[53,54,55]。推荐嗅觉障碍患者早期应用多种类、高浓度愉快嗅剂进行不低于16周的嗅觉训练。
+五、其他治疗
+目前针对中医药、针灸治疗嗅觉障碍的报道不多，确切的治疗效果仍需规范的临床试验探索，需要综合辩证施治。
+推荐诊疗流程如图5所示。
+点击查看大图
+图5
+嗅觉障碍患者诊疗流程图各种病因嗅觉障碍的诊治及预后
+图5
+嗅觉障碍患者诊疗流程图各种病因嗅觉障碍的诊治及预后
+一、鼻-鼻窦炎相关嗅觉障碍
+(一)概述
+鼻-鼻窦炎相关嗅觉障碍主要指鼻部炎症导致的嗅觉障碍，是临床中嗅觉障碍的主要病因之一[56]。CRS伴或不伴鼻息肉是导致鼻-鼻窦炎相关嗅觉障碍最常见的类型，有报道显示61%～83%的CRS患者伴有嗅觉障碍[57]。CRS引起的嗅觉障碍多是由鼻腔黏膜充血水肿、嗅裂阻塞导致的传导性嗅觉障碍，但某些患者即使去除阻塞因素后，嗅觉仍不能部分或完全恢复，这可能与炎性反应、变态反应以及嗅觉受体神经元的凋亡等多种因素有关[57]。随着变应性鼻炎(AR)发病率的上升，AR所致的嗅觉障碍也成为鼻-鼻窦炎相关嗅觉障碍的主要组成部分，有报道显示10%～88%的AR患者伴有嗅觉障碍[58]。
+(二)诊断
+鼻-鼻窦炎相关嗅觉障碍的诊断主要依据病史、临床表现、鼻内镜检查、嗅觉功能检查、鼻窦CT扫描等。该类患者的症状以嗅觉减退为主，常呈渐进性、波动性改变，同时伴有鼻塞、脓涕、头痛、阵发性喷嚏等症状[59]。鼻内镜检查可见鼻腔及嗅区黏膜充血、肿胀、息肉样变或有异常分泌物。嗅觉心理物理检查可显示不同程度的嗅觉障碍。鼻窦CT显示窦口鼻道复合体或鼻腔鼻窦黏膜炎性病变，嗅区黏膜增厚或有软组织密度影。需要注意的是，对于经药物和(或)手术治疗后嗅觉功能仍未恢复的患者，可行ERPs、嗅通路MRI及fMRI检查，以排除嗅通路结构及嗅中枢功能异常。
+(三)治疗及预后
+对于病因明确的鼻-鼻窦炎相关嗅觉障碍患者，应采取针对原发疾病的治疗措施，多可获得较为理想的预后。
+二、上感后嗅觉障碍
+(一)概述
+上呼吸道病毒感染是引起嗅觉障碍的常见病因之一，其患病人数占嗅觉障碍总人数的18%～45%[60]。上感引起的嗅觉障碍多为嗅觉减退，以50岁以上女性多见[21]。常见病毒有鼻病毒、流感病毒、副流感病毒及呼吸道合胞病毒，春季为高发季节[61]。可能的发病机制为：(1)急性期鼻腔黏膜肿胀阻碍气味分子与嗅觉受体结合；(2)病毒感染导致嗅觉受体和嗅束数量减少，嗅觉受体纤毛缺失[62]；(3)嗅上皮被呼吸上皮取代，或大量瘢痕化[63]；(4)病毒的嗜神经特性导致其沿嗅通路侵犯至嗅中枢[64]。
+(二)诊断
+上感后嗅觉障碍患者常有明确的上感病史，上感治愈后嗅觉障碍未好转，可伴有味觉障碍，一般不伴有其他鼻部症状。询问病史时需着重了解患者上感与嗅觉、味觉障碍发病的先后关系，并排除其他可能病因。
+嗅觉心理物理检查可显示不同程度的嗅觉功能下降，其中嗅棒检查结果多显示嗅觉识别能力的减退更为明显。ERPs检查中，oERPs无法引出或N1-P2波潜伏期延长、波幅下降；tERPs的N1-P2波潜伏期延长、波幅下降。行鼻内镜检查和(或)鼻腔鼻窦CT检查排除阻塞因素或炎症因素导致的嗅觉障碍后，可行嗅通路MRI排除颅内占位所致的嗅觉障碍。
+(三)治疗及预后
+1．药物治疗：
+目前临床常使用糖皮质激素治疗，有效率为25%～50%[65]，其中口服及雾化效果明显[66]，鼻喷给药效果欠佳。糖皮质激素联合其他药物(如银杏叶提取物、维生素B等)治疗效果优于单用糖皮质激素。鼻用维生素A滴剂、口服卡罗维林和α硫辛酸对治疗上感后嗅觉障碍患者也有一定疗效。
+2．嗅觉训练：
+目前嗅觉训练是治疗上感后嗅觉障碍的有效手段。嗅觉训练根据患者性别、年龄、病程、治疗时间等因素的不同，有效率为28%～63%[48,49,67]。增加嗅觉训练疗程、增加气味种类有助于上感后嗅觉障碍患者的嗅觉功能恢复。
+3．预后：
+上感后嗅觉障碍有较高的自愈率，可达30%～80%[68,69]。
+三、外伤性嗅觉障碍
+(一)概述
+头部外伤后嗅觉障碍的发生率可高达12.8%～30.0%[70]。其主要表现为嗅觉丧失，也可为嗅觉减退等。造成嗅觉障碍的机制主要为：(1)头部对冲伤导致嗅丝断裂，或额叶底部、嗅球、嗅束、颞叶等部位损伤造成神经性嗅觉障碍；(2)鼻骨骨折导致鼻腔黏膜肿胀，气味分子到达嗅觉受体受阻，造成传导性嗅觉障碍。部分患者可伴有鼻塞、鼻出血、味觉障碍等症状，或颅内出血、颅底骨折、脑脊液鼻漏等合并症，还可伴有其他颅神经损伤甚至精神异常等。
+(二)诊断
+诊断主要根据明确的头部外伤史，同时排除其他病因所致的嗅觉障碍。鼻内镜检查急性期可见鼻腔黏膜充血水肿、鼻出血、鼻中隔偏曲、嗅裂肿胀等。嗅觉心理物理检查中T&T嗅觉计测试法检测的嗅觉察觉阈和识别阈分数增高；嗅棒测试TDI总分<30分。oERPs表现为N1和(或)P2波潜伏期延长、波幅降低或消失。头及鼻窦CT可表现为颅骨骨折，尤其是前颅底骨折，可伴有颅内出血等；MRI可见嗅球、嗅束、嗅沟及额叶、眶回、直回等区域不同程度的损伤。
+(三)治疗及预后
+目前尚无统一的治疗方案。
+1．药物治疗：
+有报道称锌剂如葡萄糖酸锌联合泼尼松治疗的有效率为25.7%～28.2%[35,71]。
+2．手术治疗：
+外伤可以导致鼻腔结构改变，对于气流无法到达嗅区的传导性嗅觉障碍者，可通过保守治疗减轻嗅区黏膜水肿。如保守治疗无效，可通过手术解除鼻腔结构异常。
+3．嗅觉训练：
+嗅觉训练改善外伤性嗅觉障碍患者的有效率为16.0%～33.2%[35]。
+嗅觉完全丧失、头部损伤严重者预后较差；头部轻度损伤、嗅觉减退或嗅觉倒错者预后较好。
+四、先天性嗅觉障碍
+(一)概述
+先天性失嗅是一类较为罕见的嗅觉障碍性疾病，人群患病率约为1∶10 000，该病通常在12～16岁的儿童中确诊。一部分先天性失嗅患者具有家族遗传史，男女均可发病，表现为常染色体显性遗传模式，伴有不完全外显性。目前认为先天性失嗅的发病与遗传变异密切相关，但其机制不清。先天性失嗅的发病机制可能与以下3个环节的发育异常有关：(1)鼻腔结构的先天性畸形导致气味分子到达嗅上皮的传导过程受阻；(2)嗅觉信号的产生和传导异常；(3)嗅中枢结构发育异常。
+先天性失嗅包括两种类型：一类是综合征型，如Kallmann综合征、疼痛不敏感综合征等；另一类是孤立型先天性失嗅(isolated congenital anosmia，ICA)。Kallmann综合征是一类较为常见的先天性失嗅，该病常表现为嗅觉丧失，同时伴有性器官发育不良等缺陷[72]。最近发现的疼痛不敏感综合征由基因缺陷导致，患者表现为先天性失嗅及对疼痛不敏感[73]。目前关于孤立型先天性失嗅致病基因的报道较少，且缺乏定论。
+(二)诊断
+临床诊断主要依靠自幼无嗅觉的病史、家族遗传史以及主、客观嗅觉功能检测结果。患者表现为完全失嗅。oERPs表现为N1-P2波形引不出，波形无规律。MRI可显示双侧对称或非对称性嗅球结构消失或发育不全，嗅沟变浅(嗅沟深度<8 mm)，其中嗅沟深度变浅的层面出现在眼球平面之后，是诊断先天性失嗅的重要特征；MRI还可显示嗅觉皮层灰质容积减小。此外，综合征型先天性失嗅患者还可伴有其他系统的发育异常，如生殖器官、触觉等感觉器官的发育异常等。
+(三)治疗及预后
+由于发病机制不明，目前临床缺乏有效的治疗手段。综合征型和部分具有家族遗传史的先天性失嗅患者可检测到典型的基因突变位点或异常基因片段，因此致病基因筛查以及基因靶向治疗有可能成为未来的治疗方向。建议患有该病的儿童到内分泌科、泌尿外科、妇科等相关科室进行会诊，排除综合征型患儿其他系统的先天性发育异常。
+五、老年性嗅觉障碍
+(一)概述
+随着年龄的增长，嗅觉功能有趋于减退的正常生理变化规律，老年性嗅觉障碍有以下几种发病机制：(1)鼻黏膜的生理周期随年龄的增长而变化，30岁(尤其是60岁)以后，嗅上皮呈进行性萎缩变化，嗅上皮面积减小，最终嗅觉传入神经纤维数目减少；(2)随着年龄的增长，嗅球体积逐渐缩小，梨状皮质及杏仁核周围皮质等嗅觉中枢部位可出现淀粉样斑块沉积和神经纤维缠结[74]；(3)各类损伤因素的累积效应造成嗅上皮损伤，嗅上皮被呼吸道柱状上皮取代或有瘢痕形成，使嗅觉传入神经纤维数目明显减少[75]。
+(二)诊断
+主要根据典型病史以及主客观嗅觉功能检测来明确诊断。病史主要为渐进性的嗅觉减退，较正常老年人嗅觉减退明显。鼻内镜检查可发现嗅区黏膜或鼻腔黏膜萎缩。嗅觉心理物理检查显示嗅觉功能减退或丧失。可进行oERPs、嗅通路MRI等检查排除其他因素导致的嗅觉障碍。
+神经退行性疾病是神经组织慢性退行性变性而产生的病变总称，如轻度认知障碍、阿尔茨海默病、帕金森病等，主要累及中枢神经系统[76]。嗅觉障碍可作为中枢神经系统退行性疾病的早期症状，故老年性嗅觉障碍的患者需到相应科室(如神经内科)进行相关检查，与神经退行性疾病造成的嗅觉障碍进行鉴别。
+(三)治疗及预后
+对于老年性嗅觉障碍，尚无特效的治疗方法。嗅觉训练有一定效果[77]。老年性嗅觉障碍预后较差。
+六、特发性嗅觉障碍
+(一)概述
+特发性嗅觉障碍(idiopathic olfactory dysfunction)是指病因不明确的嗅觉障碍，是在排除其他已知病因导致的嗅觉障碍后的诊断，是常见的嗅觉障碍类型之一。特发性嗅觉障碍在嗅觉障碍中的比例早期报道为0～7.5%，最近报道上升到18.0%～28.4%[78]。发病多见于成人，平均年龄58岁，女性稍高(女性∶男性＝1.4∶1)，慢性病程多见，表现为中等程度嗅觉减退，可伴有定性嗅觉障碍[79]。
+(二)诊断
+自述嗅觉减退伴或不伴味觉减退，可伴幻嗅和嗅觉倒错。主观嗅觉测试显示不同程度的嗅觉减退。需要根据病史、专科检查、鼻内镜检查、影像学检查(CT、嗅通路MRI)排除已知的其他原因导致的嗅觉障碍。专科检查、鼻内镜检查、鼻窦CT检查均无明显异常，嗅通路MRI可显示嗅球体积减小，甚至嗅皮层(梨状皮质、眶额回和岛回)容积减小[80]。PET-CT可显示脑部某些区域糖代谢降低[81]。
+(三)治疗及预后
+糖皮质激素对部分特发性嗅觉障碍有效[82]。卡罗维林可能有效[83]。嗅觉训练可以增加特发性嗅觉障碍患者的嗅觉灵敏度[48]。目前尚缺乏特发性嗅觉障碍的预后资料。
+委员会成员
+执笔起草专家：
+魏永祥、刘钢、刘剑锋、王荣光
+参与讨论专家(按姓氏拼音排序)：
+程雷、杭伟、刘钢、刘剑锋、倪道凤、王荣光、魏均民、魏永祥、杨大章、张秋航、周兵
+秘书：
+孙智甫
+参考文献
+[1]
+ChenH,ShresthaS,HuangX, et al.
+Olfaction and incident Parkinson disease in US white and black older adults[J].
+Neurology,
+2017,
+89(
+14):
+1441-
+1447.
+DOI: 10.1212/WNL.0000000000004382.
+[2]
+PintoJM,WroblewskiKE,KernDW, et al.
+Olfactory dysfunction predicts 5-year mortality in older adults[J].
+PLoS One,
+2014,
+9(
+10):
+e107541.
+DOI: 10.1371/journal.pone.0107541.
+[3]
+HadleyK,OrlandiRR,FongKJ.
+Basic anatomy and physiology of olfaction and taste[J].
+Otolaryngol Clin North Am,
+2004,
+37(
+6):
+1115-
+1126.
+DOI: 10.1016/j.otc.2004.06.009.
+[4]
+MurrellW,FéronF,WetzigA, et al.
+Multipotent stem cells from adult olfactory mucosa[J].
+Dev Dyn,
+2005,
+233(
+2):
+496-
+515.
+DOI: 10.1002/dvdy.20360.
+[5]
+PerryC,Mackay-SimA,FeronF, et al.
+Olfactory neural cells: an untapped diagnostic and therapeutic resource. The 2000 Ogura Lecture[J].
+Laryngoscope,
+2002,
+112(
+4):
+603-
+607.
+DOI: 10.1097/00005537-200204000-00002.
+[6]
+KalinkeU,BechmannI,DetjeCN.
+Host strategies against virus entry via the olfactory system[J].
+Virulence,
+2011,
+2(
+4):
+367-
+370.
+[7]
+WittM,MeredithM.
+The human vomeronasal system. In:
+Welge－LüssenA,HummelT,
+ed.
+Management of smell and taste disorders: A practical guide for clinicians[M].
+Stuttagart, Germany:
+Thieme,
+2014:
+39-
+48.
+[8]
+FiresteinS.
+How the olfactory system makes sense of scents[J].
+Nature,
+2001,
+413(
+6852):
+211-
+218.
+DOI: 10.1038/35093026.
+[9]
+LledoPM,GheusiG,VincentJD.
+Information processing in the mammalian olfactory system[J].
+Physiol Rev,
+2005,
+85(
+1):
+281-
+317.
+DOI: 10.1152/physrev.00008.2004.
+[10]
+MondonK,NaudinM,BeaufilsÉ, et al.
+[Perception of taste and smell in normal and pathological aging: an update][J].
+Geriatr Psychol NeuropsychiatrVieil,
+2014,
+12(
+3):
+313-
+320.
+DOI: 10.1684/pnv.2014.0484.
+[11]
+KonkimallaA,TataPR.
+Plasticity in Olfactory Epithelium: Is It a Sniffer or Shape Shifter？[J].
+Cell Stem Cell,
+2017,
+21(
+6):
+707-
+708.
+DOI: 10.1016/j.stem.2017.11.014.
+[12]
+RombauxP,WeitzH,MourauxA, et al.
+Olfactory function assessed with orthonasal and retronasal testing, olfactory bulb volume, and chemosensory event-related potentials[J].
+Arch Otolaryngol Head Neck Surg,
+2006,
+132(
+12):
+1346-
+1351.
+DOI: 10.1001/archotol.132.12.1346.
+[13]
+CroyI,SchulzM,BlumrichA, et al.
+Human olfactory lateralization requires trigeminal activation[J].
+Neuroimage,
+2014,
+98:
+289-
+295.
+DOI: 10.1016/j.neuroimage.2014.05.004.
+[14]
+杨凌,魏永祥,张伟, 等.
+嗅觉功能障碍患者鼻内三叉神经功能的评估[J].
+中国耳鼻咽喉头颈外科,
+2012, (
+9):
+497-
+501.
+YangL,WeiYX,ZhangW, et al.Evaluations of intranasal trigeminal function in patients with olfactory dysfunction[J]. Chinese Archives of Otolaryngology-Head and Neck Surgery, 2012, (9): 497-501.
+[15]
+RawalS,HoffmanHJ,BainbridgeKE, et al.
+Prevalence and Risk Factors of Self-Reported Smell and Taste Alterations: Results from the 2011-2012 US National Health and Nutrition Examination Survey (NHANES)[J].
+Chem Senses,
+2016,
+41(
+1):
+69-
+76.
+DOI: 10.1093/chemse/bjv057.
+[16]
+MurphyC,SchubertCR,CruickshanksKJ, et al.
+Prevalence of olfactory impairment in older adults[J].
+JAMA,
+2002,
+288(
+18):
+2307-
+2312.
+[17]
+SeubertJ,LaukkaEJ,RizzutoD, et al.
+Prevalence and Correlates of Olfactory Dysfunction in Old Age: A Population-Based Study[J].
+J Gerontol A Biol Sci Med Sci,
+2017,
+72(
+8):
+1072-
+1079.
+DOI: 10.1093/gerona/glx054.
+[18]
+NordinS,BrämersonA,BendeM.
+Prevalence of self-reported poor odor detection sensitivity: the Skövde population-based study[J].
+Acta Otolaryngol,
+2004,
+124(
+10):
+1171-
+1173.
+[19]
+LandisBN,KonnerthCG,HummelT.
+A study on the frequency of olfactory dysfunction[J].
+Laryngoscope,
+2004,
+114(
+10):
+1764-
+1769.
+DOI: 10.1097/00005537-200410000-00017.
+[20]
+HoffmanHJ,IshiiEK,MacTurkRH.
+Age-related changes in the prevalence of smell/taste problems among the United States adult population. Results of the 1994 disability supplement to the National Health Interview Survey (NHIS)[J].
+Ann N Y Acad Sci,
+1998,
+855:
+716-
+722.
+[21]
+DeemsDA,DotyRL,SettleRG, et al.
+Smell and taste disorders, a study of 750 patients from the University of Pennsylvania Smell and Taste Center[J].
+Arch Otolaryngol Head Neck Surg,
+1991,
+117(
+5):
+519-
+528.
+[22]
+HuangZ,HuangS,CongH, et al.
+Smell and Taste Dysfunction Is Associated with Higher Serum Total Cholesterol Concentrations in Chinese Adults[J].
+J Nutr,
+2017,
+147(
+8):
+1546-
+1551.
+DOI: 10.3945/jn.117.250480.
+[23]
+王志会,王临虹,齐士格, 等.
+中国老年人慢性便秘睡眠障碍和嗅觉异常状况调查[J].
+中华老年医学杂志,
+2013, (
+7):
+786-
+789.
+DOI: 10.3760/cma.j.issn.0254-9026.2013.07.031.
+WangZH,WangLH,QiSG, et al.Current status of chronic constipation, sleep disturbances and olfactory disorders in the elderly of Chinese residents[J]. Chin J Geriat, 2013, (7): 786-789. DOI: 10.3760/cma.j.issn.0254-9026.2013.07.031.
+[24]
+ChenG,WeiY,MiaoX, et al.
+Clinical features of olfactory disorders in patients seeking medical consultation[J].
+Med Sci Monit,
+2013,
+19:
+444-
+450.
+DOI: 10.12659/MSM.883938.
+[25]
+SolerZM,SmithTL,AltJA, et al.
+Olfactory-specific quality of life outcomes after endoscopic sinus surgery[J].
+Int Forum Allergy Rhinol,
+2016,
+6(
+4):
+407-
+413.
+DOI: 10.1002/alr.21679.
+[26]
+HummelT,SekingerB,WolfSR, et al.
+'Sniffin′ sticks’：olfactory performance assessed by the combined testing of odor identification, odor discrimination and olfactory threshold[J].
+Chem Senses,
+1997,
+22(
+1):
+39-
+52.
+[27]
+IshimaruT,ShimadaT,MiwaT, et al.
+Electrically stimulated olfactory evoked potential in olfactory disturbance[J].
+Ann OtolRhinolLaryngol,
+2002,
+111(
+6):
+518-
+522.
+DOI: 10.1177/000348940211100607.
+[28]
+DotyRL,ShamanP,KimmelmanCP, et al.
+University of Pennsylvania Smell Identification Test: a rapid quantitative olfactory function test for the clinic[J].
+Laryngoscope,
+1984,
+94(
+2
+Pt 1):
+176-
+178.
+[29]
+YangL,WeiY,YuD, et al.
+Olfactory and gustatory function in healthy adult Chinese subjects[J].
+Otolaryngol Head Neck Surg,
+2010,
+143(
+4):
+554-
+560.
+DOI: 10.1016/j.otohns.2010.05.010.
+[30]
+Vandenhende-SzymanskiC,HochetB,ChevalierD, et al.
+Olfactory cleft opacity and CT score are predictive factors of smell recovery after surgery in nasal polyposis[J].
+Rhinology,
+2015,
+53(
+1):
+29-
+34.
+DOI: 10.4193/Rhin14.160.
+[31]
+BuschhüterD,SmitkaM,PuschmannS, et al.
+Correlation between olfactory bulb volume and olfactory function[J].
+Neuroimage,
+2008,
+42(
+2):
+498-
+502.
+DOI: 10.1016/j.neuroimage.2008.05.004.
+[32]
+GudziolV,BuschhüterD,AbolmaaliN, et al.
+Increasing olfactory bulb volume due to treatment of chronic rhinosinusitis--a longitudinal study[J].
+Brain,
+2009,
+132(
+Pt 11):
+3096-
+3101.
+DOI: 10.1093/brain/awp243.
+[33]
+YaoL,YiX,PintoJM, et al.
+Olfactory cortex and Olfactory bulb volume alterations in patients with post-infectious Olfactory loss[J].
+Brain Imaging Behav,
+2017.
+DOI: 10.1007/s11682-017-9807-7.
+[34]
+LundströmJN,BoesveldtS,AlbrechtJ.
+Central Processing of the Chemical Senses: an Overview[J].
+ACS Chem Neurosci,
+2011,
+2(
+1):
+5-
+16.
+DOI: 10.1021/cn1000843.
+[35]
+JiangRS,TwuCW,LiangKL.
+Medical treatment of traumatic anosmia[J].
+Otolaryngol Head Neck Surg,
+2015,
+152(
+5):
+954-
+958.
+DOI: 10.1177/0194599815571272.
+[36]
+HummelT,WhitcroftKL,RueterG, et al.
+Intranasal vitamin A is beneficial in post-infectious olfactory loss[J].
+Eur Arch Otorhinolaryngol,
+2017,
+274(
+7):
+2819-
+2825.
+DOI: 10.1007/s00405-017-4576-x.
+[37]
+SeoBS,LeeHJ,MoJH, et al.
+Treatment of postviral olfactory loss with glucocorticoids, Ginkgo biloba, and mometasone nasal spray[J].
+Arch Otolaryngol Head Neck Surg,
+2009,
+135(
+10):
+1000-
+1004.
+DOI: 10.1001/archoto.2009.141.
+[38]
+WhitcroftKL,EzzatM,CuevasM, et al.
+The effect of intranasal sodium citrate on olfaction in post-infectious loss: results from a prospective, placebo-controlled trial in 49 patients[J].
+Clin Otolaryngol,
+2017,
+42(
+3):
+557-
+563.
+DOI: 10.1111/coa.12789.
+[39]
+SchrieverVA,MerkonidisC,GuptaN, et al.
+Treatment of smell loss with systemic methylprednisolone[J].
+Rhinology,
+2012,
+50(
+3):
+284-
+289.
+DOI: 10.4193/Rhino11.207.
+[40]
+BenningerMS,HadleyJA,OsguthorpeJD, et al.
+Techniques of intranasal steroid use[J].
+Otolaryngol Head Neck Surg,
+2004,
+130(
+1):
+5-
+24.
+DOI: 10.1016/j.otohns.2003.10.007.
+[41]
+MoriE,MerkonidisC,CuevasM, et al.
+The administration of nasal drops in the "Kaiteki" position allows for delivery of the drug to the olfactory cleft: a pilot study in healthy subjects[J].
+Eur Arch Otorhinolaryngol,
+2016,
+273(
+4):
+939-
+943.
+DOI: 10.1007/s00405-015-3701-y.
+[42]
+ShuCH,LeePL,ShiaoAS, et al.
+Topical corticosteroids applied with a squirt system are more effective than a nasal spray for steroid-dependent olfactory impairment[J].
+Laryngoscope,
+2012,
+122(
+4):
+747-
+750.
+DOI: 10.1002/lary.23212.
+[43]
+刘剑锋,韩红蕾,王蓓, 等.
+布地奈德雾化混悬剂联合鼠神经生长因子治疗感冒后嗅觉障碍[J].
+临床耳鼻咽喉头颈外科杂志,
+2015, (
+20):
+1787-
+1789.
+DOI: 10.13201/j.issn.1001-1781.2015.20.007
+LiuJF,HanHL,WangB, et al. Budesonide nebulizing suspension combined with nerve growth factor for the treatment of olfactory dysfunction following viral infection of the upper respiratory tract[J]. J Clin Otorhinolaryngol Head Neck Surg, 2015, 29(20): 1787-1789. DOI: 10.13201/j.issn.1001-1781.2015.20.007.
+[44]
+RedenJ,LillK,ZahnertT, et al.
+Olfactory function in patients with postinfectious and posttraumatic smell disorders before and after treatment with vitamin A: a double-blind, placebo-controlled, randomized clinical trial[J].
+Laryngoscope,
+2012,
+122(
+9):
+1906-
+1909.
+DOI: 10.1002/lary.23405.
+[45]
+HaxelBR,BoessertP,Weyer-ElberichV, et al.
+Course of olfaction after sinus surgery for chronic rhinosinusitis[J].
+Laryngoscope InvestigOtolaryngol,
+2017,
+2(
+5):
+269-
+275.
+DOI: 10.1002/lio2.109.
+[46]
+Walliczek-DworschakU,PellegrinoR,TaubeF, et al.
+Chemosensory function before and after multimodal treatment in chronic rhinosinusitis patients[J].
+Laryngoscope,
+2018,
+128(
+3):
+E86-
+E90.
+DOI: 10.1002/lary.26873.
+[47]
+PatelZM.
+The evidence for olfactory training in treating patients with olfactory loss[J].
+CurrOpinOtolaryngol Head Neck Surg,
+2017,
+25(
+1):
+43-
+46.
+DOI: 10.1097/MOO.0000000000000328.
+[48]
+HummelT,RissomK,RedenJ, et al.
+Effects of olfactory training in patients with olfactory loss[J].
+Laryngoscope,
+2009,
+119(
+3):
+496-
+499.
+DOI: 10.1002/lary.20101.
+[49]
+KonstantinidisI,TsakiropoulouE,BekiaridouP, et al.
+Use of olfactory training in post-traumatic and postinfectious olfactory dysfunction[J].
+Laryngoscope,
+2013,
+123(
+12):
+E85-
+E90.
+DOI: 10.1002/lary.24390.
+[50]
+OleszkiewiczA,HanfS,WhitcroftKL, et al.
+Examination of olfactory training effectiveness in relation to its complexity and the cause of olfactory loss[J].
+Laryngoscope,
+2017.
+DOI: 10.1002/lary.26985.
+[51]
+HaehnerA,ToschC,WolzM, et al.
+Olfactory training in patients with Parkinson′s disease[J].
+PLoS One,
+2013,
+8(
+4):
+e61680.
+DOI: 10.1371/journal.pone.0061680.
+[52]
+SorokowskaA,DrechslerE,KarwowskiM, et al.
+Effects of olfactory training: a meta-analysis[J].
+Rhinology,
+2017,
+55(
+1):
+17-
+26.
+DOI: 10.4193/Rhin16.195.
+[53]
+AltundagA,CayonuM,KayabasogluG, et al.
+Modified olfactory training in patients with postinfectious olfactory loss[J].
+Laryngoscope,
+2015,
+125(
+8):
+1763-
+1766.
+DOI: 10.1002/lary.25245.
+[54]
+PatelZM,WiseSK,DelGaudioJM.
+Randomized Controlled Trial Demonstrating Cost-Effective Method of Olfactory Training in Clinical Practice: Essential Oils at Uncontrolled Concentration[J].
+Laryngoscope InvestigOtolaryngol,
+2017,
+2(
+2):
+53-
+56.
+DOI: 10.1002/lio2.62.
+[55]
+GeiβlerK,ReimannH,GudziolH, et al.
+Olfactory training for patients with olfactory loss after upper respiratory tract infections[J].
+Eur Arch Otorhinolaryngol,
+2014,
+271(
+6):
+1557-
+1562.
+DOI: 10.1007/s00405-013-2747-y.
+[56]
+LitvackJR,MaceJC,SmithTL.
+Olfactory function and disease severity in chronic rhinosinusitis[J].
+Am J Rhinol Allergy,
+2009,
+23(
+2):
+139-
+144.
+DOI: 10.2500/ajra.2009.23.3286.
+[57]
+LitvackJR,FongK,MaceJ, et al.
+Predictors of olfactory dysfunction in patients with chronic rhinosinusitis[J].
+Laryngoscope,
+2008,
+118(
+12):
+2225-
+2230.
+DOI: 10.1097/MLG.0b013e318184e216.
+[58]
+Peters-GoldenM,SampsonAP.
+Cysteinyl leukotriene interactions with other mediators and with glucocorticosteroids during airway inflammation[J].
+J Allergy Clin Immunol,
+2003,
+111(
+1
+Suppl):
+S37-42; discussion S43-48.
+[59]
+SeidenAM,DuncanHJ.
+The diagnosis of a conductive olfactory loss[J].
+Laryngoscope,
+2001,
+111(
+1):
+9-
+14.
+DOI: 10.1097/00005537-200101000-00002.
+[60]
+NordinS,BrämersonA.
+Complaints of olfactory disorders: epidemiology, assessment and clinical implications[J].
+CurrOpin Allergy Clin Immunol,
+2008,
+8(
+1):
+10-
+15.
+DOI: 10.1097/ACI.0b013e3282f3f473.
+[61]
+KonstantinidisI,HaehnerA,FrasnelliJ, et al.
+Post-infectious olfactory dysfunction exhibits a seasonal pattern[J].
+Rhinology,
+2006,
+44(
+2):
+135-
+139.
+[62]
+YamagishiM,FujiwaraM,NakamuraH.
+Olfactory mucosal findings and clinical course in patients with olfactory disorders following upper respiratory viral infection[J].
+Rhinology,
+1994,
+32(
+3):
+113-
+118.
+[63]
+DouekE,BannisterLH,DodsonHC.
+Recent advances in the pathology of olfaction[J].
+Proc R Soc Med,
+1975,
+68(
+8):
+467-
+470.
+[64]
+MoriI.
+Transolfactoryneuroinvasion by viruses threatens the human brain[J].
+Acta Virol,
+2015,
+59(
+4):
+338-
+349.
+[65]
+SeoBS,LeeHJ,MoJH, et al.
+Treatment of postviral olfactory loss with glucocorticoids, Ginkgo biloba, and mometasone nasal spray[J].
+Arch Otolaryngol Head Neck Surg,
+2009,
+135(
+10):
+1000-
+1004.
+DOI: 10.1001/archoto.2009.141.
+[66]
+HeilmannS,JustT,GöktasO, et al.
+[Effects of systemic or topical administration of corticosteroids and vitamin B in patients with olfactory loss][J].
+Laryngorhinootologie,
+2004,
+83(
+11):
+729-
+734.
+DOI: 10.1055/s-2004-825676.
+[67]
+PolettiSC,MichelE,HummelT.
+Olfactory Training Using Heavy and Light Weight Molecule Odors[J].
+Perception,
+2017,
+46(
+3-4):
+343-
+351.
+DOI: 10.1177/0301006616672881.
+[68]
+RedenJ,MuellerA,MuellerC, et al.
+Recovery of olfactory function following closed head injury or infections of the upper respiratory tract[J].
+Arch Otolaryngol Head Neck Surg,
+2006,
+132(
+3):
+265-
+269.
+DOI: 10.1001/archotol.132.3.265.
+[69]
+LeeDY,LeeWH,WeeJH, et al.
+Prognosis of postviral olfactory loss: follow-up study for longer than one year[J].
+Am J Rhinol Allergy,
+2014,
+28(
+5):
+419-
+422.
+DOI: 10.2500/ajra.2014.28.4102.
+[70]
+GudziolV,HoenckI,LandisB, et al.
+The impact and prospect of traumatic brain injury on olfactory function: a cross-sectional and prospective study[J].
+Eur Arch Otorhinolaryngol,
+2014,
+271(
+6):
+1533-
+1540.
+DOI: 10.1007/s00405-013-2687-6.
+[71]
+AibaT,SugiuraM,MoriJ, et al.
+Effect of zinc sulfate on sensorineural olfactory disorder[J].
+Acta Otolaryngol Suppl,
+1998,
+538:
+202-
+204.
+[72]
+KarstensenHG,TommerupN.
+Isolated and syndromic forms of congenital anosmia[J].
+Clin Genet,
+2012,
+81(
+3):
+210-
+215.
+DOI: 10.1111/j.1399-0004.2011.01776.x.
+[73]
+WeissJ,PyrskiM,JacobiE, et al.
+Loss-of-function mutations in sodium channel Nav1.7 cause anosmia[J].
+Nature,
+2011,
+472(
+7342):
+186-
+190.
+DOI: 10.1038/nature09975.
+[74]
+AttemsJ,WalkerL,JellingerKA.
+Olfaction and Aging: A Mini-Review[J].
+Gerontology,
+2015,
+61(
+6):
+485-
+490.
+DOI: 10.1159/000381619.
+[75]
+BurmeisterHP,BitterT,HeilerPM, et al.
+Imaging of lamination patterns of the adult human olfactory bulb and tract: in vitro comparison of standard- and high-resolution 3T MRI, and MR microscopy at 9.4 T[J].
+Neuroimage,
+2012,
+60(
+3):
+1662-
+1670.
+DOI: 10.1016/j.neuroimage.2012.01.101.
+[76]
+GodoyMD,VoegelsRL,PinnaFR, et al.
+Olfaction in neurologic and neurodegenerative diseases: a literature review[J].
+Int Arch Otorhinolaryngol,
+2015,
+19(
+2):
+176-
+179.
+DOI: 10.1055/s-0034-1390136.
+[77]
+KnudsenK,FlensborgDM,MouridsenK, et al.
+Olfactory function in Parkinson′s Disease - effects of training[J].
+Acta Neurol Scand,
+2015,
+132(
+6):
+395-
+400.
+DOI: 10.1111/ane.12406.
+[78]
+HolbrookEH,LeopoldDA.
+Anosmia: diagnosis and management[J].
+CurrOpinOtolaryngol Head Neck Surg,
+2003,
+11(
+1):
+54-
+60.
+[79]
+HoekmanPK,HoultonJJ,SeidenAM.
+The utility of magnetic resonance imaging in the diagnostic evaluation of idiopathic olfactory loss[J].
+Laryngoscope,
+2014,
+124(
+2):
+365-
+368.
+DOI: 10.1002/lary.24248.
+[80]
+YaoL,PintoJM,YiX, et al.
+Gray matter volume reduction of olfactory cortices in patients with idiopathic olfactory loss[J].
+Chem Senses,
+2014,
+39(
+9):
+755-
+760.
+DOI: 10.1093/chemse/bju047.
+[81]
+MicarelliA,ChiaravallotiA,DanieliR, et al.
+Cerebral metabolic changes related to clinical parameters in idiopathic anosmic patients during olfactory stimulation: a pilot investigation[J].
+Eur Arch Otorhinolaryngol,
+2017,
+274(
+6):
+2649-
+2655.
+DOI: 10.1007/s00405-017-4524-9.
+[82]
+SchrieverVA,MerkonidisC,GuptaN, et al.
+Treatment of smell loss with systemic methylprednisolone[J].
+Rhinology,
+2012,
+50(
+3):
+284-
+289.
+DOI: 10.4193/Rhino11.207.
+[83]
+QuintC,TemmelAF,HummelT, et al.
+The quinoxaline derivative caroverine in the treatment of sensorineural smell disorders: a proof-of-concept study[J].
+Acta Otolaryngol,
+2002,
+122(
+8):
+877-
+881.
+贡献者信息
+中华耳鼻咽喉头颈外科杂志编辑委员会鼻科组
+中华医学会耳鼻咽喉头颈外科学分会鼻科学组
+历史
+出版日期：2018-07-07
+收稿日期：2018-03-20
+本文编辑
+方祎
+Practical Guideline
+Expert consensus on diagnosis and treatment of olfactory dysfunction (2017)
+Subspecialty Group of Rhinology, Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery,  Subspecialty Group of Rhinology, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association
+Published
+2018-07-07
+Cite as
+Chin J Otorhinolaryngol Head Neck Surg, 2018,53(7): 484-494. DOI: 10.3760/cma.j.issn.1673-0860.2018.07.002
+Contributor Information
+Subspecialty Group of Rhinology, Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery
+Subspecialty Group of Rhinology, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+图1
+嗅觉信号转导示意图 气味分子与嗅神经元纤毛上相应的嗅觉受体结合后，激活嗅神经元的离子通道产生神经冲动，经嗅神经传导至嗅球，再通过嗅球向嗅觉高级中枢传递(绘图：孙海英)
+图2
+T&T嗅觉计测试示意图 #代表每种嗅剂的察觉阈值，×代表每种嗅剂的识别阈值，最终5种嗅剂识别阈值的平均值代表受试者嗅觉功能
+图3
+嗅棒测试示意图 √代表正确分辨目标嗅棒，－代表错误分辨目标嗅棒，T值为后4次检测值的平均数，D值、I值为正确分辨目标嗅棒的总数，详见使用说明书
+图4
+嗅球、嗅束T2WI MRI 其中红色箭头示嗅球，蓝色箭头示嗅束，白色箭头示嗅沟，黄色箭头示嗅丝，红色*示直回 A～B：冠状位；C：轴位；D～E：矢状位
+图5
+嗅觉障碍患者诊疗流程图各种病因嗅觉障碍的诊治及预后
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华耳鼻咽喉头颈外科杂志2018年53卷7期
+文    题：嗅觉障碍诊断和治疗专家共识(2017年)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华耳鼻咽喉头颈外科杂志2018年53卷7期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

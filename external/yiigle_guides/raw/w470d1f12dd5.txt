@@ -1,0 +1,1224 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E7%9A%AE%E8%82%A4%E7%97%85%E6%B5%81%E8%A1%8C%E7%97%85%E5%AD%A6%E7%A0%94%E7%A9%B6%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 皮肤病流行病学研究专家共识 - 中华皮肤科杂志
+# 发布方/日期: 皮肤科，中华皮肤科杂志, 2020,53(12) : 951-961. DOI: 10.35541/cjd.；2020-12-15
+
+皮肤病流行病学研究专家共识
+医疗大数据应用技术国家工程实验室（中南大学）皮肤疾病大数据工作委员会
+中华医学会皮肤性病学分会皮肤肿瘤研究中心
+中国医师协会皮肤科医师分会皮肤肿瘤亚专业委员会
+中华皮肤科杂志, 2020,53(12) : 951-961. DOI: 10.35541/cjd.20200913
+皮肤是人体的第一道生理防线和最大的器官，参与机体的多种生理功能，而皮肤疾病复杂多样。据估计，中国人皮肤疾病患病率高达40% ~ 70%，所致健康寿命损失在所有疾病中位列第四[1]。从婴幼儿到老龄人口，湿疹、痤疮、荨麻疹、银屑病、皮肤肿瘤等皮肤疾病对全生命周期造成不同程度的疾病负担[2]。随着健康中国战略的提出，我国的卫生政策将从以治病为中心向以防病为中心转变。因此，皮肤健康促进和疾病防治具有重要公共卫生意义。
+皮肤病流行病学（dermato-epidemiology）是将流行病学研究方法应用于皮肤病学，描述各种皮肤病在人群和时空中的分布规律并阐明其影响因素，为皮肤病的预防和控制提供依据和策略。皮肤病流行病学的研究和实践范畴包括[3]：①测量人群皮肤疾病的患病率、发病率与疾病负担；②识别皮肤疾病的病因或危险因素；③描述皮肤病的自然史（复发或疾病活动变化）、预后及共病；④评估皮肤科治疗或卫生服务的效果；⑤为循证皮肤病学实践提供基本的方法学框架；⑥为皮肤病临床研究的设计和结果解读提供方法学支持。本共识将依次从研究方法、疾病诊断、影响因素、疾病负担等方面系统阐述皮肤病流行病学调查的方法和内容，旨在为设计和实施科学严谨的调查研究提供参考。
+一、研究方法
+（一）研究目的、设计、对象
+开展调查前，须明确研究目的，并选择合适的研究设计和调查对象。常用的研究设计包括观察性研究、干预研究和诊断试验，其中，观察性研究又可分为生态学研究、横断面研究、病例对照研究、队列研究和Meta分析[4]。若研究目的是估算某皮肤病的患病率等人群健康测量指标，则研究对象须选择自然人群（来自社区或学校、工厂等功能性社区）。欲了解人群某皮肤病的患病率及其影响因素时，可采用横断面研究设计；欲了解发病率及其影响因素时，则须开展前瞻性队列研究；欲探究某疾病的病因或危险因素，但该疾病的患病率或发病率较低（如皮肤肿瘤），可采用病例对照研究；欲了解某治疗方法的有效性和安全性时，可采用随机对照研究或队列研究设计；欲了解某卫生政策或卫生服务对人群健康水平的影响时，可采用社区干预试验、类试验等设计（表1）。
+点击查看表格
+表1
+常见研究设计与应用举例
+表1
+常见研究设计与应用举例
+研究问题属性
+研究设计
+研究对象
+应用举例
+患病率的估计及其影响因素
+横断面研究
+自然人群
+青少年痤疮的患病率及其与甜饮料摄入的关系[5]
+发病率的估计及其影响因素
+前瞻性队列研究
+自然人群
+银屑病发病率及其与肥胖的关系[6]
+病因（尤其是较罕见疾病）
+病例对照研究
+患者与健康对照
+紫外线暴露与恶性黑素瘤的关系[7]
+诊断/治疗效果差异的影响因素
+病例对照研究、队列研究
+患者
+地氯雷他定治疗慢性自发性荨麻疹效果（有效或无效）的影响因素[8]
+诊断/治疗效果比较
+随机对照试验、队列研究
+患者
+比较司库奇尤单抗(secukinumab)与阿达木单抗治疗银屑病关节炎的有效性[9]
+卫生政策或群体干预效果评价
+整群随机对照试验、类试验
+自然人群
+基于手机应用的健康教育对中学生皮肤肿瘤预防行为的干预效果[10]
+（二）抽样方法
+对于基于医院患者的研究，常采用连续抽样，即在一段时间内连续招募符合纳入标准的患者。对于基于社区人群的研究，常用概率抽样，包括单纯随机抽样、系统抽样、分层抽样、整群抽样等；这4种方法都是通过一次抽样产生的一个完整样本，称为单阶段抽样。但在现场调查中，往往面临总体庞大、情况复杂、分布面广的状况，难以通过一次抽样产生所有样本，应根据实际情况组合上述抽样方法，将抽样过程分为若干阶段来进行，即多阶段抽样。例如，中国居民营养与健康调查采用了多阶段分层整群抽样方法[11]：第一阶段采用分层随机抽样方法，将我国分成6个不同经济类型地区，分别从每类地区随访抽取22个县/市区；第二阶段采用系统抽样方法，从每个调查点随机抽取3个乡镇/街道；第三阶段采用随机整群抽样方法，从每个乡镇/街道抽取2个村/居委会；第四阶段采用随机整群抽样方法，从每个村/居委会随机抽取90户家庭的全体成员为调查样本。又如，中国居民健康素养监测也采用了类似的抽样方法，但在家庭水平上未使用整群抽样，而是采用Kish表法从每户中随机选择一名家庭成员作为调查对象[12]。此外，对于患病率较低的疾病，还可采用疾病监测的方法，例如1984年的全国银屑病流行病学调查，首先通过医疗机构确认患病人群，再通过患者扩大线索、由调查员核实诊断，最后根据当地人口数及人口构成计算患病率和标化患病率[13]。
+（三）样本量计算
+样本量计算是研究设计的重要部分，但往往被忽视，导致统计分析的效能不足或分析结果的置信区间过宽。现以率的估计和比较说明样本量估计方法。
+估计总体率时，可根据研究设计在单纯随机抽样样本量估计方法的基础上进行拓展。公式1给出了对无限总体进行单纯随机抽样样本量的估计方法；式中，π为总体率，可根据文献报道估计；α为检验水准，通常取0.05；u为α对应的标准正态分布界值，进行双侧检验时u0.05/2 = 1.96；δ为容许误差，取值一般不超过总体率的10%（即δ ≤ 0.1 × π）；r为应答率。此外，还应考虑无效应答、失访、中途退出等事件所造成的样本量损失，具体增加多少样本应视实际情况而定。例如，研究特应性皮炎的患病率，假定患病率π = 5%，容许误差为率的10%（即δ = 0.05 × 0.1 = 0.005），检验水准为双侧α = 0.05（对应uα/2 = 1.96），应答率r = 90%，则样本量n = 1.962 × 0.05 ×（1 - 0.05）/（0.0052 × 0.9）≈ 8 110人。
+点击查看大图
+进行整群抽样时，还需考虑设计效应。具有层次或整群结构资料的基本特征是数据因隶属关系而存在聚集性，即在同一个整群中的个体具有生理、心理等特征上的相似性，或因调查人员的询问或评估方式造成的群组内个体应答的相似性，这在多中心研究中十分常见。忽略数据的层次结构将导致结果不同程度的偏差甚至错误结论。因此在估计样本量和分析数据时应充分考虑该效应。公式2给出了整群抽样的样本量估计公式：
+点击查看大图
+式中，n为单纯随机抽样所需样本量，deff为设计效应，nj是平均群组规模，ρ是组内相关系数，反映同一整群内个体的相似程度[14]（实际工作中，因事先估计ρ有一定困难，可经验性地将其取为0.01 ~ 0.05）。最后，所需整群的数量为样本总数除以群组规模，即n′/nj。例如，研究青少年痤疮的患病率，假定患病率π = 10%，容许误差为率的10%（即δ = 0.1 × 0.1 = 0.01），检验水准为双侧α = 0.05（对应uα/2 = 1.96），应答率r = 90%，则样本量n = 1.962 × 0.1 × （1 - 0.1）/（0.012 × 0.9）≈ 3 842人；以学校为单位进行整群随机抽样，假设从每所学校抽取100人（nj），组内相关系数ρ = 0.01，则设计效应deff = 1 + （100 - 1）× 0.01 = 1.99，最终样本量n′= 3 842 × 1.99 ≈ 7 646人。
+进行率的比较时，可采用Machin等[15]提出的建立在大样本正态逼近基础上的样本量计算方法（公式3）。
+点击查看大图
+式中，α为检验水准；1 - β为检验效能，通常不低于0.8；u为α或1 - β对应的标准正态分布界值；π1和π2为两组总体率，其取值应查阅文献或根据预调查结果得到；π为π1和π2的均值。需注意的是：①在队列研究中，π1和π2分别指暴露组和非暴露组的发病率；在病例对照研究中，π1和π2分别指病例组和对照组的暴露率；②当抽样存在层次结构时，也应对样本量进行扩大，即在本公式的基础上乘以设计效应（公式2）；③该公式计算得到的是单组样本量。例如，采用病例对照研究分析中心性肥胖与银屑病的关系，假定银屑病组肥胖率π1 = 20%，对照组肥胖率π2 = 10%（平均肥胖率π = 15%），检验水准为双侧α = 0.05（对应uα/2 = 1.96），检验效能β = 0.8（对应u1 - β = 0.84），则n = {1.96 × [2 × 0.15 × 0.85]0.5 + 0.84 × [0.2 × 0.8 + 0.1 × 0.9]0.5}2/（0.2 - 0.1）2 ≈ 199人，即病例组和对照组各需要199人，共398人。
+此外，还可根据总体均数、相关系数、决定系数（回归模型）、受试者工作曲线下面积等参数估计样本量，具体可参考相关文献[15,16,17]。因多数皮肤病流行病学研究均涉及率的比较，表2中列举了一些常见情形下的最小样本量，供研究者参考使用。
+点击查看表格
+表2
+给定情形下比较两组率所需最小样本量
+表2
+给定情形下比较两组率所需最小样本量
+A组率
+B组率
+每组样本量
+A组率
+B组率
+每组样本量
+0.05
+0.06
+8 158
+0.2
+0.24
+1 682
+0.05
+0.075
+1 470
+0.2
+0.3
+293
+0.05
+0.1
+434
+0.2
+0.4
+81
+0.05
+0.125
+222
+0.2
+0.5
+38
+0.05
+0.15
+140
+0.2
+0.6
+22
+0.1
+0.12
+3 841
+0.3
+0.36
+963
+0.1
+0.15
+686
+0.3
+0.45
+162
+0.1
+0.2
+199
+0.3
+0.6
+42
+0.1
+0.25
+100
+0.3
+0.75
+18
+0.1
+0.3
+62
+0.3
+0.9
+9
+（四）调查内容
+根据研究目的设计调查内容及其测量方法，通常包括知情同意、调查表、一般测量、体检（含皮肤检查）、生物样本采集和实验室检查。
+调查表是采集人口学信息、健康相关行为、情绪、睡眠等特征的重要手段。调查表的制定原则包括：①按研究目的设计；②充分考虑统计分析方法，避免出现无法分析或重编码过于复杂的情况；③用词得当，容易被理解，避免专业术语。调查表的应答选项可根据需求设计，包括但不限于：单选题、多选题、填空题、序列式（如Likert等级格式）、关联式（跳转题）、尺度式（如视觉模拟评分）。在正式调查前，应对调查表进行考评，包括重测信度、评价者间一致性；对于量表（注意其与调查问卷的区别），还要考评其效度、内部一致性、测量等同性等参数。调查方式包括自填和他填：自填问卷省时省力、私密性好，但完整性、回收率有时难以保证，填答质量受文化程度影响较大；他填问卷应答率高、质量好、适用面广，但耗时耗力、匿名性差、对调查员要求高。
+一般测量包括但不限于身高、体重、腰围、臀围、血压等测量。是否采集生物样本以及测定哪些生物标志物主要取决于研究目的，并遵循医学伦理规范。
+（五）组织实施与质量控制
+调查前应取得有关部门的行政支持，培训调查员，明确现场调查流程和任务分工，准备调查材料和宣传资料，做好预案和备选方案，并充分动员群众。调查过程中，应充分说明研究目的，签署知情同意书，及时检查和修正原始记录，确保资料的完整性和有效性，管理好调查现场的秩序。在进行皮肤体检时，要充分保护调查对象的隐私，遵循自愿原则。
+调查误差包括随机误差和系统误差。随机误差不可避免，无方向性，但易于控制和估计。系统误差又称偏倚，指研究结果系统地偏离了真实情况，具有方向性，从而得出有偏甚至错误的结论。按性质和产生阶段，偏倚可分为选择偏倚、信息偏倚和混杂偏倚。应遵循以下原则以控制偏倚[4]：①科学选择研究人群，避免单一医院样本的研究；②明确、统一并严格执行入选和排除标准，使研究对象能代表总体；③随机化原则（随机抽样、随机分配）；④提高应答率和依从性，减少失访；⑤采用一致的方法采集资料，例如标准化询问方式、统一的诊断标准、使用同一批次检测试剂等；⑥尽量使用客观测量指标；⑦采用匹配、工具变量（如孟德尔随机）、标准化、分层分析、倾向性评分、多因素分析等方法控制混杂因素，但应注意避免过度匹配、不当调整产生的碰撞偏倚。
+（六）研究伦理
+流行病学研究的对象是人，因此须遵守医学伦理规范，在通过机构伦理委员会审查后方可开展。对于观察性研究，应事先告知研究目的，并签署知情同意书。若研究对象是未成年人，应征得其监护人的知情同意。若为干预研究，则应满足患者利益第一、尊重和公正的三大原则。若涉及人体生物样本的采集、运送或利用，须遵守我国人类遗传资源相关法律法规，并提前报备有关部门。
+二、皮肤疾病的诊断与评估
+确定皮肤疾病诊断是调查的关键环节之一。在流行病学研究中，疾病定义/诊断标准应满足以下原则[18]：①准确性（敏感性和特异性高、错误分类偏倚低）；②可重复性（重复测量和评估者间的一致性）；③可接受性（被调查对象接受）；④一致性（与广泛使用的临床指南概念一致）；⑤可操作性（在现场调查中易于实施）；⑥全面性（反映疾病严重程度或生命质量受损情况）；⑦适用性（适用于不同年龄、种族和疾病严重程度）；⑧可比性（与既往研究可比）。
+流程上，至少应设置诊断和评估两个环节：第一个环节由皮肤科医师或经过住院医师规范化培训的研究生对所有调查对象进行问诊和全身皮肤检查，确定疾病初步诊断，并记录症状、皮损部位和类型；第二个环节由有经验的皮肤科医师对初筛阳性的患者核实诊断，并完成严重程度和生命质量的评估。现场调查时，可配置便携式皮肤镜等工具，用于辅助诊断。条件允许时，还可采集皮损影像资料用于复核诊断；或利用人工智能技术辅助诊断。以下就常见皮肤病的流行病学现场诊断和评估方法予以说明。
+（一）皮肤肿瘤
+皮肤肿瘤需根据临床表现识别可疑病灶，并行组织病理检查确诊。因恶性黑素瘤等皮肤肿瘤的发病率较低，不适合采用基于人群的横断面调查、队列研究等方法开展调查，但可通过基于医疗机构的注册登记研究、监测、病例对照研究等方法对其发病率、死亡率、危险因素等进行研究。
+（二）痤疮
+根据临床表现即可确诊。皮损好发于面颊、额部、颊部和鼻颊沟，其次是胸部、背部、肩部，临床特点是粉刺、丘疹、脓疱、囊肿和瘢痕形成。根据中国痤疮治疗指南（2019修订版）[19]将痤疮分为3度4级。轻度（Ⅰ级）：仅有粉刺；中度（Ⅱ级）：有炎性丘疹；中度（Ⅲ级）：出现脓疱；重度（Ⅳ级）：有结节、囊肿。在调查前，要充分考虑诊断的临床和公共卫生意义，明确诊断标准。
+（三）特应性皮炎
+考虑到现场调查的可操作性及诊断标准的敏感性和特异性，可参照张建中等[20]提出的成人/青少年特应性皮炎诊断标准，即病程超过6个月的对称性湿疹，外加特应性个人史/家族史，或血清总IgE/外周血嗜酸性粒细胞升高/特异性IgE阳性。在调查时，应特别注意询问并记录湿疹、哮喘、过敏性鼻炎、过敏性结膜炎等疾病的个人史和家族史，数据清理时再结合血细胞计数、IgE等结果补充诊断。儿童特应性皮炎的诊断建议参照姚志荣等[21]提出的标准，即同时满足：①瘙痒；②典型部位和形态的皮损，或不典型部位和形态皮损伴干燥；③慢性或复发性病程。如要评估病情严重程度，可使用特应性皮炎积分指数（scoring atopic dermatitis，SCORAD）[22,23]，亦可采用观察者整体评估（investigator′s global assessment，IGA）与体表受累面积（body surface area，BSA）的乘积（IGA × BSA）[24,25]。
+（四）荨麻疹
+根据风团、瘙痒等典型临床表现即可诊断。因现场调查中较少出现处于发作期的荨麻疹病例，故强调询问病史。慢性荨麻疹定义为时间超过6周的风团每天发作或间歇性发作[26]。人群中常见的类型包括慢性自发性荨麻疹和慢性诱导性荨麻疹，应注意询问风团发作的诱因。可采用荨麻疹活动度评分（urticaria activity score-7，UAS7）回顾性调查过去1周内荨麻疹的活动情况[27]。
+（五）银屑病
+根据皮损特点，结合疾病自然史和家族史予以诊断。我国居民银屑病的患病率较白人低，不同地区和人群的流行病学调查结果显示介于0.10% ~ 0.59%之间[28,29]，因此在进行调查设计时要充分考虑其样本含量，否则可能导致Ⅱ类错误概率过高。此外，银屑病被认为是一种系统性炎症性疾病，与心血管疾病、代谢综合征、关节炎、情绪障碍、自身免疫性疾病等存在关联，在调查时应设计相关条目，并询问相关病史。临床上常采用银屑病皮损面积与严重程度指数（psoriasis area and severity index，PASI）、BSA、医师整体评估（physician′s global assessment，PGA）等方法对病情进行测定，但PASI的评估过程繁琐耗时，BSA仅反映受累面积，而PGA仅体现皮损严重程度（红斑、浸润、鳞屑），后两者均较片面。现场调查时，建议使用一种简易的评估方法，即BSA × PGA[30]。
+（六）白癜风
+根据皮损特点予以诊断，亦可借助伍德灯、皮肤镜、智能成像等技术辅助诊断。可采用白癜风面积指数（vitiligo area scoring index，VASI）对严重程度进行评估，采用白癜风疾病活动度评分（vitiligo disease activity，VIDA）评估疾病进展[31]。
+（七）玫瑰痤疮
+根据谢红付等[32]提出的中国玫瑰痤疮诊断标准，必要条件为：特发性面中部隆突部位阵发性潮红基础上的持久性红斑，或口周/鼻部持久性红斑；次要条件包括：①灼热、刺痛、干燥或瘙痒等皮肤敏感症状；②毛细血管扩张；③丘疹或丘脓疱疹；④肥大增生改变；⑤眼部症状。必要条件（排除明显诱因引起的潮红或红斑）加1条及以上次要条件即可诊断为玫瑰痤疮。临床分型包括红斑毛细血管扩张型、丘疹脓疱型、肥大增生型、眼型。评估病情时，可对每个主要症状和次要症状分别进行评分（无/轻/中/重），亦可对每种亚型进行整体评分[33]。
+（八）感染性皮肤病
+包括由病毒、细菌、真菌、寄生虫引起的各类皮肤感染。人群中较为常见的是浅部真菌病，尤其是甲癣和足癣。调查现场条件受限时，主要根据临床表现诊断，具体见相关临床指南，此处不再详述。
+三、影响因素调查
+应采集所有研究对象，包括病例和非病例的影响因素相关资料，以便在分析时识别某因素在组间分布的差异，并进行统计推断。以下列举了一些常见的影响因素及其测量方法，供研究者参考。本节未从流行病学概念上区分影响因素（暴露、混杂、修饰等），但研究者应根据具体的研究目的，明确和区分影响因素的属性。
+（一）人口学特征
+包括年龄、性别、婚姻状况、民族、社会经济地位[34]（收入、教育、职业、职级）等。报告和比较人群疾病负担时，可按年龄和性别对患病率、发病率等指标进行标准化，以克服因人口构成差异而造成的人群疾病指标的不可比性。社会经济地位是影响疾病发生和转归的重要社会决定因素。国内外研究一致显示，过敏性、特应性皮肤病往往与较高的社会经济地位有关[35]，但其机制尚不清楚，目前有学者提出卫生学说[36]、异种蛋白假说[37]、应激假说[38]等理论。
+（二）肥胖
+肥胖被认为是一种慢性低度炎症状态，是众多疾病发病和死亡的共同危险因素[39]。现场调查时可采用标准化方法测量研究对象的身高、体重、腰围及臀围，并计算体质指数和腰臀比（腰围/臀围），还可根据亚洲人的参考值进行分类。研究显示，相对于体质指数和腰围，腰臀比能够更好地体现胰岛素抵抗的水平[40]。
+（三）卫生、护肤与防晒
+良好的护肤习惯被证明可以改善湿疹等多种皮肤病的皮损症状[41]，正确的防晒方式也对与日晒有关的皮肤疾病及皮肤肿瘤的发病有保护作用[42]，而过度清洁或不良清洁习惯则与玫瑰痤疮等皮肤病有关[43]。设计条目时，可考虑卫生习惯、护肤习惯及日晒防护等方面。卫生习惯包括洁面、洗手、沐浴等皮肤清洁相关行为的频率、时长、水温及使用清洁产品的种类等。护肤习惯包括面部及身体部位保湿产品、化妆品等的使用情况。日晒强度主要询问工作性质（是否户外），暴露于阳光下的时长、频率及时间点，常居地所在纬度等；防晒习惯主要包括是否及使用何种防晒方式、使用频率，还可询问是否存在皮肤灼伤史，记录每次皮肤灼伤后的皮肤病变或者反应。
+（四）饮食结构与习惯
+饮食结构及习惯与免疫、炎症性皮肤病的发病和进展有着密切关联。因此，进行标准化的膳食信息采集有助于揭示多种皮肤病的危险因素。目前常用的标准化膳食调查方法包括食物频率法、24 h饮食回顾，7 d饮食日记等。
+1．食物频率问卷（food frequency question-naire）：
+由调查员对调查对象进行访谈并填写问卷，或由调查对象自行填写在过去一段时间内（通常为过去1年）摄入各种类食物的频率及平均每次摄入量。食物频率问卷的设计可参考中国居民营养与健康状况调查[44]，也可根据研究目的及调查人群的特征进行适当调整[45]。
+2．24 h饮食回顾：
+由调查员对研究对象进行面对面访谈，引导其回顾过去24 h进食的食物种类及量。访谈时使用《回顾性膳食调查辅助参照食物图谱》对食物和饮品进行量化以确保准确完成记录[46]。
+3．7 d饮食日记：
+由调查对象按照要求自行记录即日起7 d内的饮食情况，记录完成后交还给调查员。调查员在必要时对调查对象提问进行补充，常与24 h饮食日记配合使用[46]。
+一般而言，上述方法需由专业调查人员协助研究对象进行饮食习惯的回顾性调查，或指导研究对象前瞻性地记录食物日记。完成膳食调查后，可根据食物摄入情况估计营养素的摄入量，与目标疾病进行"剂量-效应"分析；或者根据研究假设，将食物/营养素的摄入量转化为一个或一组经过验证的综合膳食指数后再进行关联分析，例如膳食炎症指数（dietary inflammatory index）、硫微生物饮食评分等[47,48]。
+（五）体力活动
+保持适量的体力活动有助于提高免疫力，对于皮肤疾病在内的多种疾病有保护作用，因此也是流行病学调查的常见内容。条目通常包括进行体力活动的类型、频率、每次活动的时长、持续锻炼的年数等。设计时，可参考国际体力活动量表（international physical activity questionnaire，IPAQ）等工具[49]；分析时，可将各类体力活动转化为一个无量纲的能量代谢水平指标，即代谢当量（metabolic equivalent）。
+（六）危害健康的行为
+健康相关行为是指与健康和疾病有关联的行为，包括促进健康的行为和危害健康的行为两大类。此处列举了一些常见的危害健康的行为，供研究者参考。
+1．吸烟：
+吸烟被证明与特应性皮炎等皮肤疾病的风险存在关联[50]，是流行病学调查中经常涉及的条目。吸烟类型通常分为主动吸烟与二手烟暴露。问卷设计阶段应明确吸烟的定义，使得"是否吸烟"这样的二分类变量的确定具有可操作性。对于报告主动吸烟者，需询问其开始吸烟的年龄、吸烟频率、每日吸烟量（支）、是否戒烟等。根据吸烟的时间、频率和量，可换算为吸烟指数（包·年）等累积暴露指标。对于报告二手烟暴露者，应询问其暴露的主要环境、频率、时长、累计时间等。此外，还可调查电子烟等新型模仿卷烟产品的使用情况。测定血或尿中尼古丁含量亦可作为烟草使用的内暴露标志物，但无法体现长期暴露的情况。
+2．饮酒：
+调查前应明确饮酒的可操作性定义。对于报告饮酒者，需询问其饮酒的种类、频率、每次饮酒量、累计时间、是否戒酒等。分析时，除分析饮酒种类等外，可将不同类型酒的摄入情况转化为乙醇摄入量估计值。
+3．不良膳食习惯：
+以含糖饮料摄入为代表的高糖饮食等被证明与痤疮等皮肤疾病有关[5]；过度盐摄入可能增加辅助性Th2和Th17细胞而参与特应性皮炎表皮及肠道微环境的形成[51,52]。游离糖的摄入可通过询问摄入食物/饮料种类、频率和每次摄入量，并根据食物成分表予以估计。钠摄入量估计则可通过采集24 h尿液测定钠排出量，或采集随机尿并通过Tanaka公式估算24 h尿钠。
+（七）情绪与睡眠
+情绪和睡眠可能通过下丘脑-垂体-肾上腺轴等途径影响皮肤免疫或屏障功能，而皮肤疾病又可能因损容或瘙痒引起情绪和睡眠问题。应使用经过验证的情绪或睡眠量表对调查对象进行评估。以下列举了一些常见工具。
+1．抑郁：
+采用9条目患者健康问卷（patient health questionnaire-9，PHQ-9）评估调查对象的抑郁症状[53]。若现场调查的负荷较重，也可使用简化的2条目患者健康问卷（PHQ-2）。简化版量表条目少，敏感性与特异性与PHQ-9接近。PHQ-9分数范围是0~27，临床界值通常为8~10；PHQ-2分数范围是0~6，界值为3。
+2．焦虑：
+采用7条目广泛性焦虑问卷（generalized anxiety disorder-7，GAD-7）评估调查对象的焦虑症状，亦可使用简化版的2条目量表（GAD-2），性能接近[54]。GAD-7分数范围是0 ~ 21，临床界值通常为8~10；GAD-2分数范围是0~6，界值为3。
+3．睡眠质量：
+采用欧洲匹兹堡睡眠质量指数（pittsburgh sleep quality index，PSQI）评估调查对象的睡眠质量和睡眠障碍[55]。PSQI的分数范围是0~21，临床界值通常为5~7，超过该界值提示不同程度的睡眠障碍。
+（八）健康素养
+健康素养指个人获取、理解、处理基本的健康信息和服务，并运用这些信息和服务作出适当的卫生健康决策，以维护和促进自身健康的一种综合能力，也是健康的决定因素之一。提高居民健康素养是"健康中国2030"战略目标之一。随着信息时代的到来，良莠不齐的健康信息在民众中被快速传播和实践，对人们健康的影响深远而复杂。评估居民的皮肤健康素养有助于掌握人们的信息来源以及对相关信息的甄别、判断和利用能力，为针对性的皮肤健康教育提供依据[56]。编制新的测量工具时，应遵循问卷条目设计的一般原则，建议组织核心小组讨论形成题库，采用德尔菲法对题库进行反复评价和修改。确定条目后，在人群中进行测试，考评其测量学性能后方可用于实证研究和实践。
+（九）环境暴露
+环境污染物可能直接或间接作用于表皮，通过氧化应激等机制改变局部微环境和皮肤屏障功能。研究显示，PM2.5等可吸入细颗粒物、挥发性有机污染物、砷、镍等环境暴露与湿疹、荨麻疹、皮肤肿瘤等疾病密切相关[57,58,59]。环境暴露的测量分为内暴露和外暴露测量，其中内暴露是测定人体组织样本中污染物及其代谢产物的浓度，能较准确地反映真实暴露情况，但测定费用高昂，而且某些污染物如PM2.5缺乏可靠的内暴露标志物；外暴露则是直接测定或通过数据库获取环境中污染物的水平，优点是环境样本或数据相对容易获取，缺点是难以精确反映个体暴露水平。基于个人行动轨迹的环境暴露的精准测量是未来研究和应用的方向之一。
+（十）卫生服务
+卫生服务的可及性和利用影响着疾病的发生、发展和转归。随着通信技术的飞速发展，"互联网+医疗"也在不断被应用和创新。皮肤病学作为一门依赖视诊的临床学科，可以较好地利用远程医学及人工智能的技术优势，但其服务质量、有效性、安全性尚不清楚[60]。评估社区和个体水平的卫生服务相关指标，将有助于理解卫生系统如何影响人群皮肤疾病的发生和预后。
+四、疾病负担的测量
+随着现代医学的逐渐发展，人们对疾病的认识已从以疾病为中心的传统医学模式逐渐过渡为"生物-心理-社会"医学模式。这种转变提示人们对疾病结局的评价已从单一的临床疗效评价逐渐转变成由临床医学、社会学、经济学和人文科学构成的综合评估，显示出人们对疾病负担这一理念的逐渐重视。疾病负担的测量除发病率、患病率和死亡率等客观测量指标外，还应充分考量健康相关生命质量（health-related quality of life，HRQoL）等主观指标。例如，伤残调整生命年（disability-adjusted life year，DALY）、质量调整生命年（quality-adjusted life year，QALY）等指标均是对寿命和生命质量的综合评价指标。HRQoL的评价有两类方法：①基于间距的测量方法，如视觉模拟评分（visual analogue scale，VAS）、健康调查简表（SF-36）等；②基于偏好的测量方法（存在选择、权衡），如欧洲五维健康量表（EQ-5D）、时间权衡（time trade-off，TTO）、支付意愿（willingness to pay，WTP）等[61]。皮肤科领域也有许多用于皮肤疾病的普适性测量工具，如瘙痒数字评分（numeric rating scale，NRS）、皮肤病生命质量量表（dermatology life quality index，DLQI）、Skindex等[62,63,64]，以及用于特定皮肤病的生命质量测量工具，如银屑病失能指数（psoriasis disability index，PDI）等[65]。
+上述测量方法各有侧重，功能各不相同，在进行流行病学调查时，需要组合使用。通用量表可用于横向对比不同皮肤病之间的生命质量；而专用量表则更有针对性，往往能对特定皮肤病患者的生命质量及其动态变化提供更为详细的信息。表3给出了几种测量方法的评价对象和适用范围。
+点击查看表格
+表3
+几种常见的通用或专用疾病负担测量工具
+表3
+几种常见的通用或专用疾病负担测量工具
+层次与评价对象
+测量指标/工具
+说明
+群体
+一般人群
+DALY
+评估早死与伤残造成的人群健康寿命的损失
+QALY
+评估疾病状态下或干预后剩余的健康寿命年数
+个体
+一般人群
+EQ-5D
+评价行动能力、自我照料、日常活动、痛苦/不适、焦虑/沮丧5个方面；简单易行，但评价轻微皮肤病时易出现天花板效应
+SF-36健康效用
+从生理机能、生理职能、躯体痛苦、一般健康状况、精力、社会功能、情感职能、精神健康8个维度共36个条目综合测量生命质量患者对个人健康满足程度的主观评价，可将所有健康和疾病状态在同一标尺上表示和互相比较；常采用视觉模拟评分、标准博弈法、时间权衡法测量，多用于卫生经济学评价
+支付意愿[61]
+患者对某种假设性医疗服务愿意支付的最高价格，间接反映该疾病的严重程度及该疾病对患者生活的影响程度，常采用条件价值评估法测量
+皮肤病患者
+瘙痒数字评分[64]
+评价瘙痒强度
+DLQI[62]
+评价各类皮肤病患者的生命质量，共10个条目
+Skindex[63]
+评价各类皮肤病患者的生命质量，共61个条目，亦有简化版
+特定皮肤病患者
+FACT-M[66]
+评价恶性黑素瘤患者生命质量
+CADIS[67]
+评价儿童特应性皮炎患者生命质量
+QOLHEQ[68]
+评价手部湿疹患者生命质量
+PDI[65]
+评价银屑病患者生命质量
+PsAQoL[69]
+评价银屑病关节炎患者生命质量
+VIPs[70]
+评价白癜风患者疾病负担
+RosaQoL[71]
+评价玫瑰痤疮患者生命质量
+注：DALY：伤残调整生命年；QALY：质量调整生命年；EQ-5D：欧洲五维健康量表；SF-36：健康调查简表；DLQI：皮肤病生命质量量表；FACT-M；癌症患者功能评定量表-黑素瘤子量表；CADIS：儿童特应性皮炎影响量表；QOLHEQ：手部湿疹生活质量问卷；PDI：银屑病失能指数；PsAQoL：银屑病关节炎生活质量量表；VIPs：白癜风患者影响量表；RosaQoL：玫瑰痤疮生活质量量表
+五、结语
+皮肤病流行病学研究的设计和实施流程见图1。与系统疾病不同的是，皮肤因其外在性，病变多肉眼可见，且疾病种类繁杂，诊断难度大；又因部分患者认为皮肤病会造成污名化而拒绝告知病情，因此在现场调查时漏诊和误诊在所难免。为尽可能地减少错误分类偏倚，调查人员应使用通俗易懂的语言问诊，并注意保护其隐私。与门诊患者不同的是，自然人群中的患者未必有强烈的就诊意愿和医疗需求，甚至有些患者不认为自己有皮肤病，故在调查过程中，应适当进行科学普及，积极引导其重视皮肤疾病和皮肤健康，以提高调查研究的质量，延伸其内涵和意义。
+点击查看大图
+图1
+皮肤病流行病学研究设计与实施流程
+图1
+皮肤病流行病学研究设计与实施流程
+参与编写人员（按姓氏拼音排序）：陈爱军（重庆医科大学附属第一医院皮肤科）、陈浩（中国医学科学院皮肤病医院病理科）、陈明亮（中南大学湘雅医院皮肤科）、陈翔（中南大学湘雅医院皮肤科）、方方（中国医学科学院皮肤病医院皮肤外科）、高兴华（中国医科大学附属第一医院皮肤科）、耿松梅（西安交通大学第二附属医院皮肤科）、顾恒（中国医学科学院皮肤病医院）、郭书萍（山西医科大学第一医院皮肤科）、郭砚（青海大学附属医院皮肤科）、何黎（昆明医科大学第一附属医院皮肤科）、何焱玲（首都医科大学附属北京朝阳医院皮肤科）、纪超（福建医科大学附属第一医院皮肤科）、贾雪松（石河子大学医学院第一附属医院皮肤科）、赖维（中山大学附属第一医院皮肤科）、雷霞（陆军军医大学大坪医院皮肤科）、李春英（空军军医大学西京医院皮肤科）、李航（北京大学第一医院皮肤科）、李恒进（解放军总医院第一医学中心皮肤科）、李珊山（吉林大学白求恩第一医院皮肤科）、栗玉珍（哈尔滨医科大学附属第二医院皮肤科）、林有坤（广西医科大学第一附属医院皮肤科）、陆前进（中南大学湘雅二医院皮肤科）、鲁严（南京医科大学第一附属医院皮肤科）、吕成志（大连市皮肤病医院银屑病专科）、满孝勇（浙江大学医学院附属第二医院皮肤科）、潘萌（上海交通大学医学院附属瑞金医院皮肤科）、钱华（苏州大学附属儿童医院皮肤科）、冉玉平（四川大学华西医院皮肤科）、沈敏学（中南大学湘雅公共卫生学院社会医学与卫生事业管理学系）、宋智琦（大连医科大学附属第一医院皮肤科）、粟娟（中南大学湘雅医院皮肤科）、孙良丹（安徽医科大学第一附属医院皮肤科）、陶娟（华中科技大学同济医学院附属协和医院皮肤科）、万苗坚（中山大学附属第三医院皮肤科）、王惠平（天津医科大学总医院皮肤科）、王秀丽（同济大学医学院附属皮肤病医院皮肤科）、汪旸（北京大学第一医院皮肤科）、汪宇（贵州医科大学附属医院皮肤科）、徐金华（复旦大学附属华山医院皮肤科）、曾抗（南方医科大学南方医院皮肤科）、张春雷（北京大学第三医院皮肤科）、张静（中南大学湘雅二医院皮肤科）、张守民（河南省人民医院皮肤科）、赵华[解放军总医院（301医院）皮肤科]、郑跃（中山大学附属第一医院皮肤科）
+执笔者 沈敏学
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+KarimkhaniC, DellavalleRP, CoffengLE, et al.
+Global skin disease morbidity and mortality: an update from the Global Burden of Disease Study 2013[J].
+JAMA Dermatol,
+2017,
+153(
+5) :
+406-
+412.
+doi: 10.1001/jamadermatol.2016.5538.
+[2]
+HayRJ, JohnsNE, WilliamsHC, et al.
+The global burden of skin disease in 2010: an analysis of the prevalence and impact of skin conditions[J].
+J Invest Dermatol,
+2014,
+134(
+6) :
+1527-
+1534.
+doi: 10.1038/jid.2013.446.
+[3]
+BurnsT, BreathnachS, CoxN, et al.
+Rook′s textbook of dermatology[M].
+7th ed.
+Oxford, UK:
+Blackwell Publishing Ltd;
+2004.
+[4]
+RothmanKJ, GreenlandS, LashTL.
+Modern epidemiology[M].
+3rd ed.
+Philadelphia, US:
+Lippincott Williams & Wilkins;
+2008.
+[5]
+HuangX, ZhangJ, LiJ, et al.
+Daily intake of soft drinks and moderate-to-severe acne vulgaris in Chinese adolescents[J].
+J Pediatr,
+2019,
+204:
+256-262.e3.
+doi: 10.1016/j.jpeds.2018.08.034.
+[6]
+SnekvikI, SmithCH, NilsenT, et al.
+Obesity, waist circumference, weight change, and risk of incident psoriasis: prospective data from the HUNT study[J].
+J Invest Dermatol,
+2017,
+137(
+12) :
+2484-
+2490.
+doi: 10.1016/j.jid.2017.07.822.
+[7]
+OsterlindA, TuckerMA, StoneBJ, et al.
+The Danish case-control study of cutaneous malignant melanoma. II. Importance of UV-light exposure[J].
+Int J Cancer,
+1988,
+42(
+3) :
+319-
+324.
+doi: 10.1002/ijc.2910420303.
+[8]
+LiJ, GuoA, ChenW, et al.
+Association of ORAI1 gene polymorphisms with chronic spontaneous urticaria and the efficacy of the nonsedating H1 antihistamine desloratadine[J].
+J Allergy Clin Immunol,
+2017,
+139(
+4) :
+1386-1388.e9.
+doi: 10.1016/j.jaci.2016.10.017.
+[9]
+McInnesIB, BehrensF, MeasePJ, et al.
+Secukinumab versus adalimumab for treatment of active psoriatic arthritis (EXCEED) : a double-blind, parallel-group, randomised, active-controlled, phase 3b trial[J].
+Lancet,
+2020,
+395(
+10235) :
+1496-
+1505.
+doi: 10.1016/S0140-6736(20)30564-X.
+[10]
+BrinkerTJ, FariaBL, de FariaOM, et al.
+Effect of a face-aging mobile App-based intervention on skin cancer protection behavior in secondary schools in Brazil: a cluster-randomized clinical trial[J].
+JAMA Dermatol,
+2020,
+156(
+7) :
+737-
+745.
+doi: 10.1001/jamadermatol.2020.0511.
+[11]
+杨晓光，孔灵芝，翟凤英,等.
+中国居民营养与健康状况调查的总体方案[J].
+中华流行病学杂志,
+2005,
+26(
+7) :
+471-
+474.
+doi: 10.3760/j.issn:0254-6450.2005.07.002.
+[12]
+李英华.
+2012年中国居民健康素养监测方案简介[J].
+中国健康教育,
+2014,
+30(
+6) :
+563-
+565.
+[13]
+全国银屑病流行调查组.
+全国1984年银屑病流行调查报告[J].
+中华皮肤科杂志,
+1986,
+19(
+5) :
+253-
+261.
+[14]
+SnijdersTAB, BoskerRJ.
+Multilevel analysis: an introduction to basic and advanced multilevel modeling[M].
+Thousand Oaks, US:
+Sage Publications Ltd;
+1999.
+[15]
+MachinD, CampbellMJ.
+Statistical tables for design of clinical trials[M].
+Oxford, UK:
+Blackwell Scientific Publications;
+1987.
+[16]
+HsiehFY.
+Sample size tables for logistic regression[J].
+Stat Med,
+1989,
+8(
+7) :
+795-
+802.
+doi: 10.1002/sim.4780080704.
+[17]
+ObuchowskiNA, McClishDK.
+Sample size determination for diagnostic accuracy studies involving binormal ROC curve indices[J].
+Stat Med,
+1997,
+16(
+13) :
+1529-
+1542.
+doi: 3.0.co;2-h" xlink:type="simple">10.1002/(sici)1097-0258(19970715)16:13<1529::aid-sim565>3.0.co;2-h.
+[18]
+WilliamsHC, StrachanDP.
+The challenge of dermato-epidemiology[M].
+Boca Raton, US:
+CRC Press;
+1997.
+[19]
+中国痤疮治疗指南专家组.
+中国痤疮治疗指南(2019修订版) [J].
+临床皮肤科杂志,
+2019,
+48(
+9) :
+583-
+588.
+doi: 10.16761/j.cnki.1000-4963.2019.09.020.
+[20]
+LiuP, ZhaoY, MuZL, et al.
+Clinical features of adult/adolescent atopic dermatitis and Chinese criteria for atopic dermatitis[J].
+Chin Med J (Engl),
+2016,
+129(
+7) :
+757-
+762.
+doi: 10.4103/0366-6999.178960.
+[21]
+中华医学会皮肤性病学分会免疫学组，特应性皮炎协作研究中心.
+中国特应性皮炎诊疗指南(2020版) [J].
+中华皮肤科杂志,
+2020,
+53(
+2) :
+81-
+88.
+doi: 10.35541/cjd.20191000.
+[22]
+Severity scoring of atopic dermatitis: the SCORAD index.
+Consensus Report of the European Task Force on Atopic Dermatitis[J].
+Dermatology,
+1993,
+186(
+1) :
+23-
+31.
+doi: 10.1159/000247298.
+[23]
+GoldLS, HansenJB, PatelD, et al.
+PGAxBSA composite versus PASI: comparison across disease severities and as therapeutic response measure for Cal/BD foam in plaque psoriasis[J].
+J Am Acad Dermatol,
+2020,
+83(
+1) :
+131-
+138.
+doi: 10.1016/j.jaad.2020.02.077.
+[24]
+SuhTP, RamachandranD, PatelV, et al.
+Product of Investigator Global Assessment and Body Surface Area (IGAxBSA) : a practice-friendly alternative to the Eczema Area and Severity Index to assess atopic dermatitis severity in children[J].
+J Am Acad Dermatol,
+2020,
+82(
+5) :
+1187-
+1194.
+doi: 10.1016/j.jaad.2020.01.023.
+[25]
+SilverbergJI, LeiD, YousafM, et al.
+Measurement properties of the product of investigator′s global assessment and body surface area in children and adults with atopic dermatitis[J].
+J Eur Acad Dermatol Venereol,
+2020.
+doi: 10.1111/jdv.16846.
+[26]
+中华医学会皮肤性病学分会荨麻疹研究中心.
+中国荨麻疹诊疗指南(2018版) [J].
+中华皮肤科杂志,
+2019,
+52(
+1) :
+1-
+5.
+doi: 10.3760/cma.j.issn.0412-4030.2019.01.001.
+[27]
+ZuberbierT, AbererW, AseroR, et al.
+The EAACI/GA2LEN/EDF/WAO guideline for the definition, classification, diagnosis and management of urticaria[J].
+Allergy,
+2018,
+73(
+7) :
+1393-
+1414.
+doi: 10.1111/all.13397.
+[28]
+陈丽萍，黄晓燕，肖易,等.
+我国特应性皮炎、银屑病、痤疮和荨麻疹的患病率及危险因素[J].
+中南大学学报(医学版),
+2020,
+45(
+4) :
+449-
+455.
+doi: 10.11817/j.issn.1672-7347.2020.190115.
+[29]
+ShenM, XiaoY, SuJ, et al.
+Prevalence and patient-reported outcomes of noncommunicable skin diseases among college students in China[J].
+JAAD Int,
+2020,
+1(
+1) :
+23-
+30.
+doi: 10.1016/j.jdin.2020.03.003.
+[30]
+WalshJA, McFaddenM, WoodcockJ, et al.
+Product of the Physician Global Assessment and body surface area: a simple static measure of psoriasis severity in a longitudinal cohort[J].
+J Am Acad Dermatol,
+2013,
+69(
+6) :
+931-
+937.
+doi: 10.1016/j.jaad.2013.07.040.
+[31]
+中国中西医结合学会皮肤性病专业委员会色素病学组.
+白癜风诊疗共识(2018版) [J].
+中华皮肤科杂志,
+2018,
+51(
+4) :
+247-
+250.
+doi: 10.3760/cma.j.issn.0412-4030.2018.04.001.
+[32]
+中国医师协会皮肤科医师分会皮肤美容亚专业委员会.
+中国玫瑰痤疮诊疗专家共识(2016) [J].
+中华皮肤科杂志,
+2017,
+50(
+3) :
+156-
+161.
+doi: 10.3760/cma.j.issn.0412-4030.2017.03.002.
+[33]
+WilkinJ, DahlM, DetmarM, et al.
+Standard grading system for rosacea: report of the National Rosacea Society Expert Committee on the classification and staging of rosacea[J].
+J Am Acad Dermatol,
+2004,
+50(
+6) :
+907-
+912.
+doi: 10.1016/j.jaad.2004.01.048.
+[34]
+GalobardesB, ShawM, LawlorDA, et al.
+Indicators of socioeconomic position (part 1) [J].
+J Epidemiol Community Health,
+2006,
+60(
+1) :
+7-
+12.
+doi: 10.1136/jech.2004.023531.
+[35]
+MaurerM, WellerK, Bindslev-JensenC, et al.
+Unmet clinical needs in chronic spontaneous urticaria. A GA2LEN task force report[J].
+Allergy,
+2011,
+66(
+3) :
+317-
+330.
+doi: 10.1111/j.1398-9995.2010.02496.x.
+[36]
+HaspeslaghE, HeyndrickxI, HammadH, et al.
+The hygiene hypothesis: immunological mechanisms of airway tolerance[J].
+Curr Opin Immunol,
+2018,
+54:
+102-
+108.
+doi: 10.1016/j.coi.2018.06.007.
+[37]
+BridgmanAC, QureshiAA, LiT,et al.
+Inflammatory dietary pattern and incident psoriasis, psoriatic arthritis, and atopic dermatitis in women: a cohort study[J].
+J Am Acad Dermatol,
+2019,
+80(
+6) :
+1682-
+1690.
+doi: 10.1016/j.jaad.2019.02.038.
+[38]
+KonstantinouGN, KonstantinouGN.
+Psychological stress and chronic urticaria: a neuro-immuno-cutaneous crosstalk. A systematic review of the existing evidence[J].
+Clin Ther,
+2020,
+42(
+5) :
+771-
+782.
+doi: 10.1016/j.clinthera.2020.03.010.
+[39]
+CollaborationGBM, Di AngelantonioE, ShNB, et al.
+Body-mass index and all-cause mortality: individual-participant-data meta-analysis of 239 prospective studies in four continents[J].
+Lancet,
+2016,
+388(
+10046) :
+776-
+786.
+doi: 10.1016/S0140-6736(16)30175-1.
+[40]
+LiuMM, LiuQJ, WenJ, et al.
+Waist-to-hip ratio is the most relevant obesity index at each phase of insulin secretion among obese patients[J].
+J Diabetes Complications,
+2018,
+32(
+7) :
+670-
+676.
+doi: 10.1016/j.jdiacomp.2018.04.006.
+[41]
+van ZuurenEJ, FedorowiczZ, ArentsB.
+Emollients and moisturizers for eczema: abridged Cochrane systematic review including GRADE assessments[J].
+Br J Dermatol,
+2017,
+177(
+5) :
+1256-
+1271.
+doi: 10.1111/bjd.15602.
+[42]
+WaldmanRA, Grant-KelsJM.
+The role of sunscreen in the prevention of cutaneous melanoma and nonmelanoma skin cancer[J].
+J Am Acad Dermatol,
+2019,
+80(
+2) :
+574-576.e1.
+doi: 10.1016/j.jaad.2018.06.069.
+[43]
+ZuoZ, WangB, ShenM, et al.
+Skincare habits and rosacea in 3,439 Chinese adolescents: a university-based cross-sectional study[J].
+Acta Derm Venereol,
+2020,
+100(
+6) :
+adv00081.
+doi: 10.2340/00015555-3442.
+[44]
+郭齐雅，赵丽云，何宇纳,等.
+2010—2012年中国居民营养素摄入状况[J].
+中华预防医学杂志,
+2017,
+51(
+6) :
+519-
+522.
+doi: 10.3760/cma.j.issn.0253-9624.2017.06.012.
+[45]
+BarreaL, MacchiaPE, TarantinoG, et al.
+Nutrition: a key environmental dietary factor in clinical severity and cardio-metabolic risk in psoriatic male patients evaluated by 7-day food-frequency questionnaire[J].
+J Transl Med,
+2015,
+13:
+303.
+doi: 10.1186/s12967-015-0658-y.
+[46]
+DongR, ZhouT, ZhaoS, et al.
+Food consumption survey of Shanghai adults in 2012 and its associations with phthalate metabolites in urine[J].
+Environ Int,
+2017,
+101:
+80-
+88.
+doi: 10.1016/j.envint.2017.01.008.
+[47]
+NguyenLH, MaW, WangDD, et al.
+Association between sulfur-metabolizing bacterial communities in stool and risk of distal colorectal cancer in men[J].
+Gastroenterology,
+2020,
+158(
+5) :
+1313-
+1325.
+doi: 10.1053/j.gastro.2019.12.029.
+[48]
+CavicchiaPP, SteckSE, HurleyTG, et al.
+A new dietary inflammatory index predicts interval changes in serum high-sensitivity C-reactive protein[J].
+J Nutr,
+2009,
+139(
+12) :
+2365-
+2372.
+doi: 10.3945/jn.109.114025.
+[49]
+BoothM.
+Assessment of physical activity: an international perspective[J].
+Res Q Exerc Sport,
+2000,
+71
+Suppl 2:
+114-
+120.
+doi: 10.1080/02701367.2000.11082794.
+[50]
+KantorR, KimA, ThyssenJP, et al.
+Association of atopic dermatitis with smoking: a systematic review and meta-analysis[J].
+J Am Acad Dermatol,
+2016,
+75(
+6) :
+1119-1125.e1.
+doi: 10.1016/j.jaad.2016.07.017.
+[51]
+MatthiasJ, MaulJ, NosterR, et al.
+Sodium chloride is an ionic checkpoint for human TH2 cells and shapes the atopic skin microenvironment[J].
+Sci Transl Med,
+2019,
+11(
+480) .
+doi: 10.1126/scitranslmed.aau0683.
+[52]
+WilckN, MatusMG, KearneySM, et al.
+Salt-responsive gut commensal modulates TH17 axis and disease[J].
+Nature,
+2017,
+551(
+7682) :
+585-
+589.
+doi: 10.1038/nature24628.
+[53]
+KroenkeK, SpitzerRL, WilliamsJB, et al.
+The patient health questionnaire somatic, anxiety, and depressive symptom scales: a systematic review[J].
+Gen Hosp Psychiatry,
+2010,
+32(
+4) :
+345-
+359.
+doi: 10.1016/j.genhosppsych.2010.03.006.
+[54]
+PlummerF, ManeaL, TrepelD, et al.
+Screening for anxiety disorders with the GAD-7 and GAD-2: a systematic review and diagnostic metaanalysis[J].
+Gen Hosp Psychiatry,
+2016,
+39:
+24-
+31.
+doi: 10.1016/j.genhosppsych.2015.11.005.
+[55]
+BuysseDJ, ReynoldsCF 3rd, MonkTH, et al.
+The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research[J].
+Psychiatry Res,
+1989,
+28(
+2) :
+193-
+213.
+doi: 10.1016/0165-1781(89)90047-4.
+[56]
+WuT, SuJ, ZhaoS, et al.
+Development and assessment of a brief tool to measure melanoma-related health literacy and attitude among adolescents[J].
+J Cancer Educ,
+2020,
+35(
+5) :
+905-
+911.
+doi: 10.1007/s13187-019-01541-2.
+[57]
+LuoY, DejiZ, HuangZ.
+Exposure to perfluoroalkyl substances and allergic outcomes in children: a systematic review and meta-analysis[J].
+Environ Res,
+2020,
+191:
+110145.
+doi: 10.1016/j.envres.2020.110145.
+[58]
+BowatteG, LodgeC, LoweAJ, et al.
+The influence of childhood traffic-related air pollution exposure on asthma, allergy and sensitization: a systematic review and a meta-analysis of birth cohort studies[J].
+Allergy,
+2015,
+70(
+3) :
+245-
+256.
+doi: 10.1111/all.12561.
+[59]
+BhattacharjeeP, DasA, GiriAK, et al.
+Epigenetic regulations in alternative telomere lengthening: understanding the mechanistic insight in arsenic-induced skin cancer patients[J].
+Sci Total Environ,
+2020,
+704:
+135388.
+doi: 10.1016/j.scitotenv.2019.135388.
+[60]
+MounessaJS, ChapmanS, BraunbergerT, et al.
+A systematic review of satisfaction with teledermatology[J].
+J Telemed Telecare,
+2018,
+24(
+4) :
+263-
+270.
+doi: 10.1177/1357633X17696587.
+[61]
+肖易，陈丽萍，敬丹榕,等.
+支付意愿在测量皮肤疾病负担中的意义与应用[J].
+中华皮肤科杂志,
+2019,
+52(
+4) :
+286-
+289.
+doi: 10.3760/cma.j.issn.0412-4030.2019.04.015.
+[62]
+FinlayAY, KhanGK.
+Dermatology Life Quality Index (DLQI) --a simple practical measure for routine clinical use[J].
+Clin Exp Dermatol,
+1994,
+19(
+3) :
+210-
+216.
+doi: 10.1111/j.1365-2230.1994.tb01167.x.
+[63]
+ChrenMM, LasekRJ, QuinnLM, et al.
+Skindex, a quality-of-life measure for patients with skin disease: reliability, validity, and responsiveness[J].
+J Invest Dermatol,
+1996,
+107(
+5) :
+707-
+713.
+doi: 10.1111/1523-1747.ep12365600.
+[64]
+PhanNQ, BlomeC, FritzF, et al.
+Assessment of pruritus intensity: prospective study on validity and reliability of the visual analogue scale, numerical rating scale and verbal rating scale in 471 patients with chronic pruritus[J].
+Acta Derm Venereol,
+2012,
+92(
+5) :
+502-
+507.
+doi: 10.2340/00015555-1246.
+[65]
+FinlayAY, KellySE.
+Psoriasis--an index of disability[J].
+Clin Exp Dermatol,
+1987,
+12(
+1) :
+8-
+11.
+doi: 10.1111/j.1365-2230.1987.tb01844.x.
+[66]
+CormierJN, RossMI, GershenwaldJE, et al.
+Prospective assessment of the reliability, validity, and sensitivity to change of the Functional Assessment of Cancer Therapy-Melanoma questionnaire[J].
+Cancer,
+2008,
+112(
+10) :
+2249-
+2257.
+doi: 10.1002/cncr.23424.
+[67]
+ChamlinSL, CellaD, FriedenIJ, et al.
+Development of the Childhood Atopic Dermatitis Impact Scale: initial validation of a quality-of-life measure for young children with atopic dermatitis and their families[J].
+J Invest Dermatol,
+2005,
+125(
+6) :
+1106-
+1111.
+doi: 10.1111/j.0022-202X.2005.23911.x.
+[68]
+OfenlochRF, WeisshaarE, DumkeAK, et al.
+The Quality of Life in Hand Eczema Questionnaire (QOLHEQ) : validation of the German version of a new disease-specific measure of quality of life for patients with hand eczema[J].
+Br J Dermatol,
+2014,
+171(
+2) :
+304-
+312.
+doi: 10.1111/bjd.12819.
+[69]
+McKennaSP, DowardLC, WhalleyD, et al.
+Development of the PsAQoL: a quality of life instrument specific to psoriatic arthritis[J].
+Ann Rheum Dis,
+2004,
+63(
+2) :
+162-
+169.
+doi: 10.1136/ard.2003.006296.
+[70]
+SalzesC, AbadieS, SeneschalJ, et al.
+The Vitiligo Impact Patient Scale (VIPs) : development and validation of a vitiligo burden assessment tool[J].
+J Invest Dermatol,
+2016,
+136(
+1) :
+52-
+58.
+doi: 10.1038/JID.2015.398.
+[71]
+NicholsonK, AbramovaL, ChrenMM, et al.
+A pilot quality-of-life instrument for acne rosacea[J].
+J Am Acad Dermatol,
+2007,
+57(
+2) :
+213-
+221.
+doi: 10.1016/j.jaad.2007.01.048.
+贡献者信息
+医疗大数据应用技术国家工程实验室（中南大学）皮肤疾病大数据工作委员会
+中华医学会皮肤性病学分会皮肤肿瘤研究中心
+中国医师协会皮肤科医师分会皮肤肿瘤亚专业委员会
+通信作者
+陈翔
+Email：
+chenxiangck@126.com
+陶娟
+Email：
+tjhappy@126.com
+粟娟
+Email：
+sujuanderm@csu.edu.cn
+关键词
+皮肤疾病;
+流行病学方法;
+流行病学研究设计;
+数据收集;
+专家共识;
+基金项目
+国家重点研发计划"精准医学项目" （2016YFC0900802）
+国家科技基础性工作专项项目 （2015FY111100）
+国家自然科学基金 （62041208）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-12-15
+收稿日期：2020-09-14
+本文编辑
+颜艳
+Guideline and Consensus
+Expert consensus on the methodology of dermato-epidemiological investigations
+Committee on Skin Disease Big Data, National Engineering Laboratory of Medical Big Data Application Technology (Central South University),  Center for Cancer Research, Chinese Society of Dermatology,  Subcommittee on Skin Cancer, China Dermatologist Association
+Published
+2020-12-15
+Cite as
+Chin J Dermatol, 2020,53(12): 951-961. DOI: 10.35541/cjd.20200913
+Abstract
+Dermato-epidemiological investigation is the primary method to study the distribution, factors, prognosis, and natural course of skin diseases. Scientific and rigorous study design and standardized measurement will improve the quality of study and external validity of data. This consensus illustrates and exemplifies the study design, diagnosis and evaluation of skin diseases in the field survey, investigation of risk factors, and measurement of burden of disease, aiming to provide a reference for high-quality dermato-epidemiological studies.
+Key words:
+Skin diseases; Epidemiologic methods; Epidemiologic research design; Data collection; Expert consensus
+Contributor Information
+Committee on Skin Disease Big Data, National Engineering Laboratory of Medical Big Data Application Technology (Central South University)
+Center for Cancer Research, Chinese Society of Dermatology
+Subcommittee on Skin Cancer, China Dermatologist Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+常见研究设计与应用举例
+研究问题属性
+研究设计
+研究对象
+应用举例
+患病率的估计及其影响因素
+横断面研究
+自然人群
+青少年痤疮的患病率及其与甜饮料摄入的关系[5]
+发病率的估计及其影响因素
+前瞻性队列研究
+自然人群
+银屑病发病率及其与肥胖的关系[6]
+病因（尤其是较罕见疾病）
+病例对照研究
+患者与健康对照
+紫外线暴露与恶性黑素瘤的关系[7]
+诊断/治疗效果差异的影响因素
+病例对照研究、队列研究
+患者
+地氯雷他定治疗慢性自发性荨麻疹效果（有效或无效）的影响因素[8]
+诊断/治疗效果比较
+随机对照试验、队列研究
+患者
+比较司库奇尤单抗(secukinumab)与阿达木单抗治疗银屑病关节炎的有效性[9]
+卫生政策或群体干预效果评价
+整群随机对照试验、类试验
+自然人群
+基于手机应用的健康教育对中学生皮肤肿瘤预防行为的干预效果[10]
+表2
+给定情形下比较两组率所需最小样本量
+A组率
+B组率
+每组样本量
+A组率
+B组率
+每组样本量
+0.05
+0.06
+8 158
+0.2
+0.24
+1 682
+0.05
+0.075
+1 470
+0.2
+0.3
+293
+0.05
+0.1
+434
+0.2
+0.4
+81
+0.05
+0.125
+222
+0.2
+0.5
+38
+0.05
+0.15
+140
+0.2
+0.6
+22
+0.1
+0.12
+3 841
+0.3
+0.36
+963
+0.1
+0.15
+686
+0.3
+0.45
+162
+0.1
+0.2
+199
+0.3
+0.6
+42
+0.1
+0.25
+100
+0.3
+0.75
+18
+0.1
+0.3
+62
+0.3
+0.9
+9
+表3
+几种常见的通用或专用疾病负担测量工具
+层次与评价对象
+测量指标/工具
+说明
+群体
+一般人群
+DALY
+评估早死与伤残造成的人群健康寿命的损失
+QALY
+评估疾病状态下或干预后剩余的健康寿命年数
+个体
+一般人群
+EQ-5D
+评价行动能力、自我照料、日常活动、痛苦/不适、焦虑/沮丧5个方面；简单易行，但评价轻微皮肤病时易出现天花板效应
+SF-36健康效用
+从生理机能、生理职能、躯体痛苦、一般健康状况、精力、社会功能、情感职能、精神健康8个维度共36个条目综合测量生命质量患者对个人健康满足程度的主观评价，可将所有健康和疾病状态在同一标尺上表示和互相比较；常采用视觉模拟评分、标准博弈法、时间权衡法测量，多用于卫生经济学评价
+支付意愿[61]
+患者对某种假设性医疗服务愿意支付的最高价格，间接反映该疾病的严重程度及该疾病对患者生活的影响程度，常采用条件价值评估法测量
+皮肤病患者
+瘙痒数字评分[64]
+评价瘙痒强度
+DLQI[62]
+评价各类皮肤病患者的生命质量，共10个条目
+Skindex[63]
+评价各类皮肤病患者的生命质量，共61个条目，亦有简化版
+特定皮肤病患者
+FACT-M[66]
+评价恶性黑素瘤患者生命质量
+CADIS[67]
+评价儿童特应性皮炎患者生命质量
+QOLHEQ[68]
+评价手部湿疹患者生命质量
+PDI[65]
+评价银屑病患者生命质量
+PsAQoL[69]
+评价银屑病关节炎患者生命质量
+VIPs[70]
+评价白癜风患者疾病负担
+RosaQoL[71]
+评价玫瑰痤疮患者生命质量
+注：DALY：伤残调整生命年；QALY：质量调整生命年；EQ-5D：欧洲五维健康量表；SF-36：健康调查简表；DLQI：皮肤病生命质量量表；FACT-M；癌症患者功能评定量表-黑素瘤子量表；CADIS：儿童特应性皮炎影响量表；QOLHEQ：手部湿疹生活质量问卷；PDI：银屑病失能指数；PsAQoL：银屑病关节炎生活质量量表；VIPs：白癜风患者影响量表；RosaQoL：玫瑰痤疮生活质量量表
+图1
+皮肤病流行病学研究设计与实施流程
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华皮肤科杂志2020年53卷12期
+文    题：皮肤病流行病学研究专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华皮肤科杂志2020年53卷12期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

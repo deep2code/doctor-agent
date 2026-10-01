@@ -1,0 +1,1094 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%8F%91%E8%82%B2%E6%80%A7%E9%AB%8B%E5%85%B3%E8%8A%82%E5%8F%91%E8%82%B2%E4%B8%8D%E8%89%AF%E4%B8%B4%E5%BA%8A%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%28O%EF%BD%9E2%E5%B2%81%29.html
+# 标题: 发育性髋关节发育不良临床诊疗指南（0~2岁） - 中华骨科杂志
+# 发布方/日期: 小儿外科，中华骨科杂志, 2017,37(11) : 641-650. DOI: 10.3760/cma.j；2017-06-01
+
+发育性髋关节发育不良临床诊疗指南（0~2岁）
+中华医学会小儿外科分会骨科学组
+中华医学会骨科学分会小儿创伤矫形学组
+中华骨科杂志, 2017,37(11) : 641-650. DOI: 10.3760/cma.j.issn.0253-2352.2017.11.001
+指南的设计和制定步骤依据2014年《世界卫生组织指南制定手册》及2016年中华医学会发布的《制订/修订《临床诊疗指南》的基本方法及程序》。
+指南的使用者和应用的目标人群：本指南供临床医生特别是小儿骨科医生、新生儿医生及护理工作者、妇幼保健医生、超声科医生使用及参考。本指南仅作为治疗参考，具体治疗需个性化分析。
+利益冲突声明：本指南工作组成员均不存在与指南相关的利益冲突。
+基金资助：北京市医院管理局临床技术创新项目（XMLX201405）
+临床问题的遴选和推荐意见的形成：本指南通过系统检索及专家调查，确定了0~2岁发育性髋关节发育不良诊治的争议问题共22项，制定专家问卷。于第二届DDH高峰论坛暨指南启动会期间进行了问卷调查，并分别于第三届DDH高峰论坛和2016年COA小儿创伤矫形学组会议中进行了问卷反馈和再收集，通过德尔菲法，获得了专家共识，最终形成了本指南。
+一、概述
+发育性髋关节发育不良（developmental dyspla-sia of the hip，DDH）是儿童常见疾病之一，包括髋臼发育不良、髋关节半脱位及髋关节脱位[1]。髋关节超声检查的广泛应用，使DDH的定义涵盖了更大的范围：未成熟的髋关节、轻度髋臼发育不良的髋关节、不稳定（可脱位或可半脱位）的髋关节、半脱位的髋关节和完全脱位的髋关节[2]。DDH诊断敏感性提高的同时，也给诊疗带来了困惑。本指南集中讨论2岁以下DDH患儿的诊断和治疗。
+1992年北美骨科年会将先天性髋脱位（congen-ital dislocation of the hip，CDH）更名为DDH，更准确地表明了该病的特点[3]。一方面，出生时发现的髋关节发育轻微"异常"可能在出生后几周内逐渐趋于正常；另一方面，出生时"正常"的髋关节也可能逐渐发展为DDH[4]。这种生长发育过程中出现的不确定性使DDH的诊断更加复杂。出生后髋关节不稳定的发生率为1%，髋关节脱位为1‰~2‰[5,6,7]，地域之间略有差异。
+DDH的确切病因不明，但发病有其内在诱因和外在诱因。内在诱因包括：关节韧带松弛[8]、女性（女性发病率是男性的5~9倍[9]）、基因缺陷（家族倾向性）[10,11]、原发髋关节发育不良等。外在诱因包括臀位产、第一胎、羊水过少等[12]。其中最重要的危险因素是DDH家族史和臀位产[5,13]。新生儿及婴幼儿绑腿或强迫伸髋并腿的襁褓方式也与DDH有关。另外，如果存在先天性肌性斜颈或足部畸形，则DDH的风险增加[14,15]。
+目前公认的DDH的治疗原则是早期发现、早期治疗。治疗越早，治疗的方法越简单，也更容易获得正常或接近正常的髋关节。筛查是早期诊断的重要手段。应对新生儿进行基本的体格检查，并对体格检查异常或存在高危因素者行超声检查，以期达到早期发现及治疗的目的，减少DDH晚发现病例[1,16,17]。
+二、体格检查
+规范的体格检查是早期发现DDH的重要手段。随着患儿年龄增长，其临床病理改变不断变化，因而各年龄段的体格检查方法不同[12,18]。
+（一）小于3个月的新生儿及婴儿：
+最简单和基本的手法是屈髋外展活动。通过屈髋外展可以初步筛查出脱位并可复位（Ortolani阳性）和怀疑脱位不可复位（外展受限、Ortolani阴性）的患儿，并提示进一步超声检查。
+1．Ortolani试验（复位试验）：
+婴儿平卧，检查者的示指和中指置于婴儿大转子外侧，拇指置于大腿内侧。屈髋90°，旋转中立位。轻柔地外展髋关节，同时示中指推动大转子向上方抬起，如果感受到复位弹响即为阳性。用于证实已经脱位并可复位的髋关节[19]。
+2．Barlow试验（应力-脱位试验）：
+婴儿平卧，检查者双手置于婴儿双膝。屈髋90°位，逐渐内收大腿，与此同时拇指在大腿内侧施加向后和向外的应力。如果感受到股骨头从髋臼后缘弹出的弹响并在放松应力下迅速复位，即为阳性，说明髋关节不稳定。用于证实可以脱位的病例[20]。超过10周的婴儿很少能再引出。
+Ortolani和Barlow试验应在患儿安静放松时轻柔操作。由于DDH的病理改变程度不同，这两项体格检查不能发现双侧脱位无法复位的病例和髋关节尚稳定的髋臼发育不良病例[21]。
+（二）大于3个月的婴儿：
+随脱位程度增加和继发病理改变，阳性体征包括髋关节外展受限[22]、双下肢不等长[23]及臀纹不对称[12]。
+（三）已学步行走的婴幼儿：
+出现跛行（单侧脱位）或摇摆步态（双侧脱位），可有腰前凸增加（双侧脱位）、Trendelenburg征（单腿直立试验）阳性等。
+三、DDH筛查
+DDH筛查首先是通过正确、规范的临床体格检查实现对DDH的早期诊断。随着20世纪80年代髋关节超声检查技术的逐渐成熟，超声检查成为DDH筛查的重要手段和组成部分。DDH筛查是新生儿医生、妇幼保健医生和小儿骨科医生一项重要的工作。英国医疗咨询委员会（The Standing Medical Ad-visory Committee，SMAC）建议所有的新生儿都应纳入DDH的临床筛查，并强调多次检查，包括出生当天、出院时、6周、6~9个月和开始行走之后[24]。超声筛查分为普查和高危因素选择性筛查两种模式。美国矫形外科协会（The American Academy of Ortho-paedic Surgeons，AAOS）建议对存在DDH高危因素者早期进行影像学检查，但并不推荐对所有新生儿进行DDH超声普查[5]。
+本指南推荐对所有婴幼儿进行DDH临床筛查，出生后4~6周为筛查的重要时间点，不要晚于4~6周。对临床体格检查阳性或存在DDH高危因素者（臀位产、阳性家族史和怀疑髋关节不稳定）选择性行超声检查[5,25]。
+临床筛查包括出生时新生儿医生或护理工作者对新生儿的临床体格检查（Ortolani和Barlow试验），以及出生后（出生后42天内、4~6个月）妇幼保健医生对婴幼儿的健康筛查（外展受限、臀纹不对称和双下肢不等长[26]）。超声检查是诊断DDH的重要手段，对有医疗条件的地区可采用超声普查[27]（表1）。
+点击查看表格
+表1
+新生儿髋关节筛查表（存档或转诊）
+表1
+新生儿髋关节筛查表（存档或转诊）
+四、髋关节超声检查方法
+对小于6个月的婴幼儿，髋关节超声检查是DDH的重要辅助检查方法。髋关节超声检查包括静态超声、动态超声和静态动态联合超声，为筛查和诊断DDH的有效方法。超声检查重点评估髋关节形态、股骨头位置和髋关节稳定性[28]。
+Graf检查法[29]是最早采用髋关节冠状切面进行测量的超声检查方法（表2）。测量前需确定一个标准的冠状切面（图1），包括三个标志点：髋臼底的髂骨支下缘（强回声突起-③）、盂唇（三角形高回声-⑦）、平直髂骨（线状强回声-⑤）。标准平面需见软骨-骨交界、股骨头、髂骨支下缘、骨缘转折点（骨性髋臼顶由凹变凸的点）、平直髂骨外缘、软骨性髋臼顶、盂唇、关节囊、滑膜皱襞及股骨大转子。
+点击查看表格
+表2
+髋关节超声检查Graf分型
+表2
+髋关节超声检查Graf分型
+分型
+骨性臼顶（α角）
+软骨臼顶（β角）
+骨性边缘
+年龄
+临床描述
+Ⅰ
+发育良好，α角≥60°
+Ia≤55°，Ib>55°
+锐利或稍圆钝
+任意
+成熟髋关节
+Ⅱa+
+发育充分，α角50°~59°
+覆盖股骨头
+圆钝
+0~12周
+生理性不成熟
+Ⅱa-
+有缺陷，α角50°~59°
+覆盖股骨头
+圆钝
+6~12周
+有发展为髋臼发育不良的风险（10%）
+Ⅱb
+有缺陷，α角50°~59°
+覆盖股骨头
+圆钝
+>12周
+骨化延迟
+Ⅱc
+严重缺陷，α角43°~49°
+仍可覆盖股骨头，β角<77°
+圆钝或平
+任意
+盂唇未外翻
+D
+严重缺陷，α角43°~49°
+移位，β角> 77°
+圆钝或平
+任意
+开始出现半脱位
+Ⅲa
+发育差，α角<43°
+软骨臼顶推向上
+平
+任意
+臼缘软骨外翻，软骨未发生退变
+Ⅲb
+发育差，α角<43°
+软骨臼顶推向上，伴回声增强
+平
+任意
+臼缘软骨外翻，软骨发生退变
+Ⅳ
+发育差，α角<43°
+软骨臼顶挤向下
+平
+任意
+完全脱位
+点击查看大图
+图1
+标准冠状切面应见如下解剖结构：①软骨-骨交界，②股骨头，③髂骨支下缘，④骨缘转折点（臼顶由凹变凸的点），⑤平直髂骨外缘，⑥软骨性髋臼顶，⑦盂唇，⑧关节囊，⑨滑膜皱襞，⑩股骨大转子
+图1
+标准冠状切面应见如下解剖结构：①软骨-骨交界，②股骨头，③髂骨支下缘，④骨缘转折点（臼顶由凹变凸的点），⑤平直髂骨外缘，⑥软骨性髋臼顶，⑦盂唇，⑧关节囊，⑨滑膜皱襞，⑩股骨大转子
+首先确定基线（平直的髂骨外缘）和骨顶线（髋臼底的髂骨支下缘与骨性髋臼顶的切线）；再确定软骨顶线，由骨缘转折点（骨性髋臼顶由凹变凸的点）和关节盂唇中心点相连形成（图2）。基线与骨顶线相交成α角，代表骨性髋臼发育的程度；基线与软骨顶线相交成β角，代表软骨性髋臼的形态。基线、骨顶线及软骨顶线三者很少相交于同一点，仅出现在骨性髋臼缘锐利的GrafⅠ型髋关节。
+点击查看大图
+图2
+α角和β角的测量：基线与骨顶线相交成α角，代表骨性髋臼发育程度，基线与软骨顶线相交成β角，代表软骨性髋臼形态
+图2
+α角和β角的测量：基线与骨顶线相交成α角，代表骨性髋臼发育程度，基线与软骨顶线相交成β角，代表软骨性髋臼形态
+Graf法依据髋关节标准冠状切面声像图，观察髋臼形态及股骨头与髋臼的位置关系，并测量α与β角，将髋关节分为四大类型及九个亚型（表2）。Ⅲ型和Ⅳ型髋关节为半脱位或脱位的髋关节，分型的确定主要依据形态评估而非测量。
+Harcke检查法[30]（髋关节屈曲横切面加压扫查）：婴儿平卧位或侧卧位，髋关节屈曲90°，探头平行于股骨长轴，做髋关节横切面（声束与骨盆水平面平行），切面需清晰显示股骨干长轴、股骨头、髋臼及盂唇。正常图像显示股骨头与髋臼窝无间隙紧密接触。检查时应用Barlow和Ortolani试验手法活动髋关节，超声动态显示股骨头与髋关节相对位置，判断髋关节稳定性。可将髋关节分为五种：稳定髋关节、松弛髋关节、可脱位髋关节、可复位髋关节、不可复位髋关节。该方法较依赖操作者的经验。
+五、0~6个月DDH的治疗方法
+（一）治疗基本原则
+对诊断为DDH的病例应早期治疗，其治疗原则包括：①获得中心复位；②维持稳定的复位；③促进髋关节正常生长和发育；④减少并发症。
+对0~6个月的DDH患儿，应用髋关节屈曲外展挽具或支具是治疗的主要方式[1,17,31,32,33,34]。最常用的是可活动的Pavlik挽具（连衣挽具）[35]，其他还有各种固定或半固定的外展支具，如Von Roson外展支具、Ottobock外展支具、Ilfeld外展支具等（图3）。
+点击查看大图
+图3
+Ilfeld外展支具
+图3
+Ilfeld外展支具
+Pavlik挽具的作用及佩戴：通过屈曲外展髋关节、限制内收，使髋关节复位并维持复位；同时允许髋关节有适当的活动，保证关节软骨的营养和头臼间的力学刺激。
+Pavlik挽具的适应证是可复位的DDH。Pavlik挽具用于小于3个月的DDH患儿有很高的成功率，但用于年龄超过4个月或Graf Ⅳ型患儿成功率明显降低[33]。
+Pavlik挽具的禁忌证：①畸胎型（先天性）髋脱位；②伴明显肌力不平衡，如脑脊膜膨出；③伴病理性韧带松弛或关节僵硬，如艾当综合征、多发关节挛缩症；④年龄>6个月[17]。
+Pavlik挽具治疗的并发症：①Pavlik病，如果佩戴后长期无法复位，持续后脱位的股骨头可挤压髋臼，导致髋臼后壁损伤[36]；②股骨头坏死，文献报道发生率为2.4%（0~15%）[32,37,38]；③过度屈曲导致的向下脱位[39]或股神经麻痹[40]；④其他并发症，如皮肤损伤、臂丛神经损伤、膝关节脱位。
+（二）髋关节发育不良伴或不伴髋关节不稳定（GrafⅡa-、Ⅱb、Ⅱc型）的治疗
+从第6周开始治疗[41,42]。治疗指征：GrafⅡa-、Ⅱb、Ⅱc型。治疗方法：采用Pavlik挽具或其他固定式支具治疗，佩戴时间为23 h/d，允许洗澡。6周复查，若超声恢复正常则终止治疗；若仍存在髋臼表浅，则继续佩戴6周。对3个月以内患儿，一般在12周内完成治疗。3个月以上患儿，佩戴时间会延长，全部治疗时间约为月龄的2倍[17]，至体格检查、超声和X线片完全正常。如患儿在5~6个月开始治疗，Pavlik挽具可佩戴至8~9个月；对超过9个月仍残留发育不良的患儿，改用固定外展支具治疗。
+（三）髋关节半脱位及完全脱位（Graf D、Ⅲ、Ⅳ型）的治疗
+最早生后2周即开始治疗，全天24 h佩戴Pavlik挽具。每周进行临床及超声检查，临床体格检查需要关注皮肤和神经方面的并发症，如有需要调整角度[43]。
+佩戴Pavlik后第3周评估复位情况并确定后续治疗。①髋关节复位且稳定：继续每天24 h佩戴Pavlik挽具3周；使用6周后改为23 h佩戴（允许洗澡），每3周复查。小于3个月的患儿，一般佩戴12周可恢复正常；大于3个月患儿，佩戴时间会延长，全部治疗时间约为月龄的2倍[17]，至体格检查、超声和X线片完全正常。如患儿在5~6个月开始治疗，Pavlik挽具可佩戴至8~9个月；对超过9个月仍残留发育不良的患儿，改用固定外展支具。②髋关节复位但不稳定：脱掉挽具后仍然脱位，更换为固定外展支具[44]，每3周复查。复查时若稳定，则更换为Pavlik挽具，治疗同①；若仍不稳定，则继续使用外展支具。治疗至体格检查、超声和X线片完全正常。③仍然脱位（复位失败）：弃用Pavlik挽具治疗，闭合或切开复位+关节造影+人类位石膏固定（图4）。
+点击查看大图
+图4
+0~6个月DDH诊疗流程
+图4
+0~6个月DDH诊疗流程
+六、6~18个月DDH的治疗方法
+6~18个月DDH患儿的治疗目的：中心复位并维持复位，防止股骨头坏死。治疗方式可选择闭合复位和切开复位，闭合复位为首选。
+（一）复位前牵引
+仍有争议。以往认为术前牵引能够减少股骨头坏死的风险和切开复位的概率[45,46]，家庭牵引可降低医疗费用[47]。但在更多的文献中牵引并未降低股骨头坏死的发生率[48,49]；且在实际操作中，牵引多为垂直悬吊牵引，理论上并不能放松髂腰肌和内收肌[50]，因而无法增加闭合复位的成功率。不推荐在闭合复位前常规行牵引治疗。
+（二）闭合复位
+闭合复位在全麻下进行，术中可行髋关节造影证实复位效果（推荐但不是必须）。闭合复位前根据内收肌是否紧张行内收长肌切断，必要时同时切断髂腰肌肌腱。以轻柔的Ortolani手法复位，并记录最大外展度数及内收脱位时的外展度数，两者差值为复位安全区[38]。内收肌和髂腰肌的松解有助于增加安全区。同时记录是否需要内旋来维持复位。如果安全区<20°或需要超过10°~15°的内旋来复位，则认为是复位不稳定[51]，此时可结合造影结果考虑切开复位。
+（三）髋关节造影
+髋关节造影时患儿平卧位，可选择正前方或内侧（内收肌下方）入路，术中辅助透视。正前方穿刺入路：穿刺点位于腹股沟中点股动脉外下方1 cm处，垂直入针；内侧穿刺入路：穿刺点位于内收长肌下方，针尖指向同侧肩锁关节。术中透视：造影池<2 mm，为满意的中心复位；造影池2~7 mm且无明显间置物，提示部分病例通过石膏固定后的"靠港"效应可以达到复位[51,52,53]；造影池过宽（>7 mm或同股骨头直径比>16%）[54,55]，或臼缘软骨（Limbus）内翻、股骨头位于臼缘软骨以外（LeveufⅢ型或Tonnis造影结果Ⅲ度）[56,57,58]，均提示头臼间有软组织嵌顿并阻挡复位[59]，此时应结合复位安全角考虑切开复位。
+（四）切开复位
+如果没有达到稳定的中心复位，则应考虑髋关节切开复位。切开复位可采用内侧入路或前方S-P入路（年龄>1岁的患儿）。内侧入路的优点为分离范围较小，出血少。缺点为视野小，可能会损伤旋股内侧动脉，从而增加股骨头坏死的风险（尚有争议）；其次是通过内侧入路无法进行关节囊的修整与缝合[60]。
+内侧入路包括：①前内侧入路（Weinstein-Pon-seti）：耻骨肌和股鞘间隙进入[61]；②内侧入路（Ludl-off）：耻骨肌（前）和内收长、短肌（后）间隙进入[62]；③后内侧入路（Ferguson）：内收长、短肌（前）和股薄肌、大收肌（后）间隙进入[63]。
+切开复位可能需要处理的、阻碍复位的结构包括：①髂腰肌肌腱；②葫芦型缩窄的关节囊；③内翻变性的髋臼缘软骨（Limbus）；④增粗变长的圆韧带；⑤臼底脂肪组织；⑥挛缩的髋臼横韧带。
+（五）人类位石膏固定
+人类位指髋关节屈曲95°~100°、外展40°~50°、旋转中立位[64]。人类位石膏应防止外展大于55°~60°，否则会增加股骨头坏死的风险[50]。注意股骨大转子处的石膏塑形，保证髋关节稳定。建议石膏固定时间为3个月，6周时可更换石膏，评估复位。该阶段固定的目的为稳定复位。3个月后更换为外展石膏或支具继续固定3~6个月，之后可改为间断外展支具。该阶段固定的目的为促进髋臼发育。
+（六）单纯髋臼发育不良和半脱位的诊断和治疗
+鉴别诊断：①髋关节完全脱位，股骨头与髋臼完全无接触。②髋关节半脱位，股骨头与髋臼仅有部分接触，Shenton线中断，包括TonnisⅠ度和部分TonnisⅡ度脱位病例。通过MRI或髋关节造影，根据臼缘软骨和股骨头的关系能够准确鉴别半脱位和脱位；此外，外展45°、内旋位X线片可辅助鉴别半脱位[65]（可复位，Shenton线连续）和完全脱位（不可复位）。③单纯髋臼发育不良，表现为股骨头覆盖不良，不伴股骨向上移位，Shenton线连续。髋关节MRI能辅助髋臼发育不良和半脱位的鉴别。
+治疗：①单纯髋臼发育不良：定期随访观察，严重者可夜间佩戴外展支具；②髋关节半脱位：佩戴外展支具，每3个月复查。应选择合适的外展支具，最好能同时控制髋关节，以达到足够的外展，但外展不能超过55°~60°，以防股骨头坏死的发生，如Ilfeld外展支具。
+（七）治疗后转归及处理
+1．头臼中心复位：
+停止治疗后观察，每3~6个月摄片一次。
+2．术后再脱位：
+一是安全角小、闭合复位不稳定，人类位石膏难以维持复位。应放弃闭合复位，择期切开复位，行骨盆和股骨截骨。二是切开复位后再脱位，应择期行骨盆、股骨截骨。
+3．头臼复位，但残余髋臼发育不良：
+早期的中心复位能最大程度发挥髋臼的塑形潜力[66]，减少髋臼发育不良的发生。髋臼发育不良表现为髋臼陡直、髋臼指数>24°、Shenton线连续。应佩戴外展支具，尤其是夜间；密切随访至骨成熟，观察髋臼包容[髋臼指数、中心边缘角（CE角）]改善情况及是否出现半脱位[67]。
+闭合复位后残余发育不良的手术指征仍无定论。评估指标包括：患儿年龄[68,69,70]、髋臼指数[71,72]、髋关节偏离中心的程度（CE角、髋关节间隙差值≥6%）[72,73]等。一般认为可以观察到4~5岁，若髋臼指数和CE角无改善则考虑手术干预。
+4．残余半脱位：
+表现为Shenton线不连续，通常伴有髋臼发育不良。可佩戴外展支具，密切随访，观察6~12个月。摄X线片尤其是站立位骨盆正位X线片，如显示有持续存在的半脱位（Shenton线中断）应手术矫正。髋关节MRI有利于明确半脱位程度和髋臼软骨外缘覆盖情况。若X线片表现为持续改进，处理同（3.）。
+5．残余股骨头坏死：
+应使受累的股骨头置于髋臼的包容下，使其修复和塑形。具体的处理方法同（3.）、（4.）[67]（图5）。
+点击查看大图
+图5
+6~18个月DDH治疗流程
+图5
+6~18个月DDH治疗流程
+七、18~24个月DDH的治疗方法
+随着患儿年龄增长及开始学步行走，18~24个月年龄段的患儿髋关节脱位的程度更大，肌肉软组织挛缩更重，治疗也更加复杂。治疗上仍可试行闭合复位，但闭合复位即使成功其残余发育不良的概率也会大大增加[74]。因此一期切开复位同时行股骨截骨、髂骨截骨也时是该年龄段DDH的可选择治疗方式。
+治疗方式的选择应根据每例患儿的具体情况，相关因素包括：①试行闭合复位的稳定程度；②关节松弛度；③身高体重（身高>80 cm、体重>10 kg时，截骨更易操作且稳定）；④单侧或双侧；⑤术前髋臼指数大小[75,76,77]。
+对关节松弛、身高矮、体重轻的患儿可试行闭合复位；对超过1岁半、身高大于80 cm、体重大于10 kg、髋臼指数大于40°的患儿，或闭合复位失败的患儿，切开复位截骨手术可能为更佳的选择[75,76]。股骨短缩旋转截骨一般应用于2岁之后的DDH患儿，目的为减轻头臼压力，矫正过大的前倾角；髂骨截骨包括Salter截骨术、Pemberton截骨术、Dega截骨术。Salter截骨为完全髂骨截骨，以耻骨联合为合页旋转[78]，不推荐双侧同时行Salter截骨术。Pem-berton截骨、Dega截骨为不完全髂骨截骨，分别以"Y"型软骨和骨盆后柱为合页旋转。原则上三种截骨术式均可用于1岁半以后的患儿，但Pemberton截骨对小龄患儿应慎重，最好用于3~8岁的患儿[79]。
+（边臻、陈涛整理）
+参考文献
+[1]
+WeinsteinSL, MubarakSJ, WengerDR.
+Developmental hip dys-plasia and dislocation: Part I[J].
+Instr Course Lect,
+2004,
+53:
+523-
+530.
+[2]
+WaltonMJ, IsaacsonZ, McMillanD.
+The success of management with the Pavlik harness for developmental dysplasia of the hip us-ing a United Kingdom screening programme and ltrasound-guided supervision[J].
+J Bone Joint Surg Br,
+2010,
+92(
+7):
+1013-
+1016.
+DOI: 10.1302/0301-620X.92B7.23513.
+[3]
+Surgery Advisory Statement.
+American Academy of Orthopaedic Surgeons. CDH should be DDH[J].
+Park Ridge: AAOS,
+1991.
+[4]
+DaviesSJ, WalkerG.
+Problems in the early recognition of hip dys-plasia[J].
+J Bone Joint Surg Br,
+1984,
+66(
+4):
+479-
+484.
+[5]
+MulpuriK, SongKM, GrossRH.
+The American Academy of Or-thopaedic Surgeons Evidence-Based Guideline on Detection and Nonoperative Management of Pediatric Developmental Dysplasia of the Hip in Infants up to SixMonths of Age[J].
+J Bone Joint Surg Am,
+2015,
+97(
+20):
+1717-
+1718.
+DOI: 10.2106/JBJS.O.00500.
+[6]
+SeverinE.
+The frequency of congenital hip dislocation and con-genital equinovarus in Sweden[J].
+Nord Med,
+1956,
+55(
+7):
+221-
+223.
+[7]
+ChurgayC, CaruthersB.
+Diagnosis and treatment of congenital dislocation of the hip[J].
+Am Fam Physician,
+1992,
+45(
+3):
+1217-
+1228.
+[8]
+Wynne-DaviesR.
+Acetabular dysplasia and familial joint laxity: Two etiological factors in congenital dislocation of the hip. A re-view of 589 patients and their families[J].
+J Bone Joint Surg Br,
+1970,
+52(
+4):
+704-
+716.
+[9]
+DunnPM.
+Perinatal observations on the etiology of congenital dis-location of the hip[J].
+Clin Orthop Relat Res,
+1976(
+119):
+11-
+22.
+[10]
+ColemanSS.
+Congenital dysplasia of the hip in the Navajo infant[J].
+Clin Orthop Relat Res,
+1968(
+56):
+179-
+193.
+[11]
+JonesD.
+Neonatal detection of developmental dysplasia of the hip (DDH)[J].
+J Bone Joint Surg Br,
+1998,
+80(
+6):
+943-
+945.
+[12]
+OmeroğluH, KoparalS.
+The role of clinical examination and risk factors in the diagnosis of developmental dysplasia of the hip: a prospective study in 188 referred young infants[J].
+Arch Orthop Trauma Surg,
+2001,
+121(
+1-2):
+7-
+11.
+[13]
+ChanA, McCaulKA, CundyPJet al.
+Perinatal risk factors for de-velopmental dysplasia of the hip[J].
+Arch Dis Child Fetal Neona-tal Ed,
+1997,
+76(
+2):
+94-
+100.
+[14]
+HummerCD, MacEwenGD.
+The coexistence of torticollis and congenital dysplasia of the hip[J].
+J Bone Joint Surg Am,
+1972,
+54(
+6):
+1255-
+1256.
+[15]
+IlfeldF, WestinG, MakinM.
+Developmental dislocation of the hip[J].
+Clin Orthop Relat Res,
+1986(
+203):
+276-
+281.
+[16]
+GuilleJT, PizzutilloPD, MacEwenGD.
+Development dysplasia of the hip from birth to six months[J].
+J Am Acad Orthop Surg,
+2000,
+8(
+4):
+232-
+242.
+[17]
+WeinsteinSL, MubarakSJ, WengerDR.
+Developmental hip dys-plasia and dislocation: Part II[J].
+Instr Course Lect,
+2004,
+53:
+531-
+542.
+[18]
+McRaeR.
+Clinical orthopaedic examination[M].
+4th ed.
+London:
+Churchill Livingstone,
+1997:
+155, 157, 166.
+[19]
+OrtolaniM.
+Congenital hip dysplasia in the light of early and very early diagnosis[J].
+Clin Orthop Relat Res,
+1976(
+119):
+6-
+10.
+[20]
+BarlowTG.
+Early diagnosis and treatment of congenital disloca-tion of the hip[J].
+Proc R Soc Med,
+1963(
+56):
+804-
+806.
+[21]
+AronssonDD, GoldbergMJ, KlingTF, et al.
+Developmental dys-plasia of the hip[J].
+Pediatrics,
+1994,
+94(
+2
+Pt 1):
+201-
+208.
+[22]
+Clinical practice guideline: early detection of developmental dys-plasia of the hip.
+Committee on Quality Improvement, Subcommit-tee on Developmental Dysplasia of the Hip. American Academy of Pediatrics[J].
+Pediatrics,
+2000,
+105(
+4
+Pt 1):
+896-
+905.
+[23]
+StorerSK, SkaggsDL.
+Developmental dysplasia of the hip[J].
+Am Fam Physician,
+2006,
+74(
+8):
+1310-
+1316.
+[24]
+Screening for the detection of congenital dislocation of the hip[J].
+Arch Dis Child,
+1986,
+61(
+9):
+921-
+926.
+[25]
+MahanST, KatzJN, KimYJ.
+To Screen or Not to Screen? A deci-sion analysis of the utility of screening for developmental dyspla-sia of the hip[J].
+J Bone Joint Surg Am,
+2009,
+91(
+7):
+1705-
+1719.
+DOI: 10.2106/JBJS.H.00122.
+[26]
+张建立.
+DDH早期筛查应先迈出第一步[J].
+山东医药,
+2011,
+51(
+24):
+5-
+6.
+DOI: 10.3969/j.issn.1002-266X.2011.24.005.
+ZhangJL. The first step should be taken in screening of DDH[J]. Shandong Medical Journal, 2011, 51(24): 5-6. DOI: 10.3969/j.issn.1002-266X.2011.24.005.
+[27]
+陈博昌，李玉婵，杨杰,等.
+婴幼儿发育性髋关节异常的早期诊断[J].
+中华小儿外科杂志,
+2003,
+24(
+4):
+344-
+347.
+DOI: 10.3760/cma.j.issn.0253-3006.2003.04.017.
+ChenBC, LiYC, YangJ, et al. Early diagnosis of developmental dysplasia of hip in infants: Preliminary report of ultrasonographic examination of 391 cases[J]. Chin J Pediatr Surg, 2003, 24(4): 344-347. DOI: 10.3760/cma.j.issn.0253-3006.2003.04.017.
+[28]
+于静淼，郭稳，陈涛.
+《美国超声医学协会发育性髋关节发育不良超声检查实践指南(2013版)》解读[J/CD].
+中华医学超声杂志(电子版),
+2015,
+12(
+1):
+17-
+18.
+DOI: 10.3877/cma.j.issn.1672-6448.2015.01.005.
+YuJM, GuoW, ChenT. AIUM Practice Parameter for the Perfor-mance of an Ultrasound Examination for Detection and Assess-ment of Developmental Dysplasia of the Hip (2013) Interpretation[J/CD]. Chinese Journal of Medical Ultrasound, 2015, 12(1): 17-18. DOI: 10.3877/cma.j.issn.1672-6448.2015.01.005.
+[29]
+GrafR.
+The diagnosis of congenital hip-joint dislocation by the ul-trasonic Combound treatment[J].
+Arch Orthop Trauma Surg,
+1980,
+97(
+2):
+117-
+133.
+[30]
+HarckeHT, ClarkeNM, LeeMS.
+Examination of the infant hip with real-time ultrasonography[J].
+J Ultrasound Med,
+1984,
+3(
+3):
+131-
+137.
+[31]
+EidelmanM, KatzmanA, FreimanS.
+Treatment of true develop-mental dysplasia of the hip using Pavlik's method[J].
+J Pediatr Or-thop B,
+2003,
+12(
+4):
+253-
+258.
+DOI: 10.1097/01.bpb.0000049564.52224.21.
+[32]
+WaltonMJ, IsaacsonZ, McMillanD, et al.
+The success of manage-ment with the Pavlik harness for developmental dysplasia of the hip using a United Kingdom screening programme and ultrasound-guided supervision[J].
+J Bone Joint Surg Br,
+2010,
+92(
+7):
+1013-
+1016.
+DOI: 10.1302/0301-620X.92B7.23513.
+[33]
+ÖmeroğluH, KöseN, Akceylan.
+Success of Pavlik Harness Treat-ment Decreases in Patients ≥ 4 Months and inUltrasonographical-ly Dislocated Hips in Developmental Dysplasia of the Hip[J].
+Clin Orthop Relat Res,
+2016,
+474(
+5):
+1146-
+1152.
+DOI: 10.1007/s11999-015-4388-5.
+[34]
+AtalarH, SayliU, YavuzOY, et al.
+Indicators of successful use of the Pavlik harness in infants with developmental dysplasia of the hip[J].
+Int Orthop,
+2007,
+31(
+2):
+145-150. Epub 2006.
+DOI:10.1007/s00264-006-0097-8.
+[35]
+PavlikA.
+The functional method of treatment using a harness with stirrups as the primary method of conservative therapy for infants with congenital dislocation of the hip[J].
+Clin Orthop Relat Res,
+1992(
+281):
+4-
+10.
+[36]
+JonesGT, SchoeneckerPL, DiasLS.
+Developmental hip dysplasia potentiated by inappropriate use of the Pavlik harness[J].
+J Pedi-atr Orthop,
+1992,
+12(
+6):
+722-
+726.
+[37]
+IwasakiK.
+Treatment of congenital dislocation of the hip by the Pavlik harness. Mechanism of reduction and usage[J].
+J Bone Joint Surg Am,
+1983,
+65(
+6):
+760-
+767.
+[38]
+RamseyPL, LasserS, MacEwenGD.
+Congenital dislocation of the hip. Use of the Pavlik harness in the child during the first six months of life[J].
+J Bone Joint Surg Am,
+1976,
+58(
+7):
+1000-
+1004.
+[39]
+RomboutsJJ, KaelinA.
+Inferior (obturator) dislocation of the hip in neonates: a complication of treatment by the Pavlik harness[J].
+J Bone Joint Surg Br,
+1992,
+74(
+5):
+708-
+710.
+[40]
+MubarakS, GarfinS, VanceR, et al.
+Pitfalls in the use of the Pav-lik harness for treatment of congenital dysplasia, subluxation, and dislocation of the hip[J].
+J Bone Joint Surg Am,
+1981,
+63(
+8):
+1239-
+1248.
+[41]
+WoodMK, ConboyV, BensonMK.
+Does early treatment by abduc-tion splintage improve the development of dysplastic but stable neonatal hips?[J].
+J Pediatr Orthop,
+2000,
+20(
+3):
+302-
+305.
+[42]
+RosendahlK, DezateuxC, FosseKR, et al.
+Immediate treatment versus sonographic surveillance for mild hip dysplasia in new-borns[J].
+Pediatrics,
+2010,
+125(
+1):
+e9-
+16.
+DOI: 10.1542/peds.2009-0357.
+[43]
+吕学敏，郭源，边臻,等.
+婴儿发育性髋关节发育不良自然发育过程研究[J].
+中华小儿外科杂志,
+2014,
+35(
+11):
+848-
+852.
+DOI: 10.3760/cma.j.issn.0253-3006.2014.11.012.
+LyuXM, GuoY, BianZ, et al. Natural progress of infantile devel-opmental dysplasia of hip[J]. Chin J Pediatr Surg, 2014, 35(11): 848-852. DOI: 10.3760/cma.j.issn.0253-3006.2014.11.012.
+[44]
+HedequistD, KasserJ, EmansJ.
+Use of an abduction brace for de-velopmental dysplasia of the hip after failure of Pavlik harness use[J].
+J Pediatr Orthop,
+2003,
+23(
+2):
+175-
+177.
+[45]
+SibińskiM, MurnaghanC, SynderM.
+The value of preliminary overhead traction in the closed management of DDH[J].
+Int Or-thop,
+2006,
+30(
+4):
+268-271. Epub 2006.
+DOI: 10.1007/s00264-006-0080-4.
+[46]
+DaoudA, Saighi-BououinaA.
+Congenital dislocation of the hip in the older child. The effectiveness of overhead traction[J].
+J Bone Joint Surg Am,
+1996,
+8(
+1):
+30-
+40.
+[47]
+JosephK, MacEwenGD, BoosML.
+Home traction in the manage-ment of congenital dislocation of the hip[J].
+Clin Orthop Relat Res,
+1982(
+165):
+83-
+90.
+[48]
+BroughamDI, BroughtonNS, ColeWG, et al.
+Avascular necrosis following closed reduction of congenital dislocation of the hip[J].
+Review of influencing factors and long-term follow-up[J].J Bone Joint Surg Br,
+1990,
+72(
+4):
+557-
+562.
+[49]
+KahleWK, AndersonMB, AlpertJ, et al.
+The value of prelimi-nary traction in the treatment of congenital dislocation of the hip[J].
+J Bone Joint Surg Am,
+1990,
+72(
+7):
+1043-
+1047.
+[50]
+VitaleMG, SkaggsDL.
+Developmental dysplasia of the hip from six months to four years of age[J].
+J Am Acad Orthop Surg,
+2001,
+9(
+6):
+401-
+411.
+[51]
+SeverinE.
+Arthrography in congenital dislocation of the hip[J].
+J Bone Joint Surg,
+1939,
+21(
+2):
+304-
+313.
+[52]
+SeverinE.
+Contribution to the knowledge of congenital dislocation of the hip: late results of closed reductions and arthrographic stud-ies of recent cases[J].
+Acta Chir Scand,
+1941,
+84(
+Suppl):
+S63.
+[53]
+TanakaT, YoshihashiY, MiuraT.
+Changes in soft tissue interposi-tion after reduction of developmental dislocation of the hip[J].
+J Pediatr Orthop,
+1994,
+14(
+1):
+16-
+23.
+[54]
+RaceC, HerringJA.
+Congenital dislocation of the hip: an evalua-tion of closed reduction[J].
+J Pediatr Orthop,
+1983,
+3(
+2):
+166-
+172.
+[55]
+GansI, SankaN.
+The medial dye pool revisited: correlation be-tween arthrography and MRI in closed reductions for DDH[J].
+J Pediatr Orthop,
+2014,
+34(
+8):
+787-
+790.
+DOI: 10.1097/BPO.0000000000000187.
+[56]
+LeveufJ.
+Primary congenital subluxation of the hip[J].
+J Bone Joint Surg Am,
+1947,
+29(
+1):
+149-
+162.
+[57]
+LeveufJ.
+Results of open reduction of'true' congenital luxation of the hip[J].
+J Bone Joint Surg Am,
+1948,
+30(
+4):
+875-
+882.
+[58]
+TönnisD.
+Congenital dysplasia and dislocation of the hip in chil-dren and adults[M].
+Berlin, Heidelberg, New York:
+Springer-Ver-lag,
+1987:
+143-
+155.
+[59]
+RenshawT.
+Inadequate reduction of congenital dislocation of the hip[J].
+J Bone Joint Surg Am,
+1981,
+63(
+7):
+1114-
+1121.
+[60]
+SenerM, BakiC, AydinH, et al.
+The results of open reduction through a medial approach for developmental dysplasia of the hip in children above 18 months of age[J].
+Acta Orthop Traumatol Turc,
+2004,
+38(
+4):
+247-
+251.
+[61]
+WeinsteinSL, PonsetiIV.
+Congenital dislocation of the hip[J].
+J Bone Joint Surg Am,
+1979,
+61(
+1):
+119-
+124.
+[62]
+MankeyMG, ArntzGT, StaheliLT.
+Open reduction through a me-dial approach for congenital dislocation of the hip. A critical re-view of the Ludloff approach in sixty-six hips[J].
+J Bone Joint Surg Am,
+1993,
+75(
+9):
+1334-
+1345.
+[63]
+KielyN, YounisU, DayJB, et al.
+The ferguson medial approach for open reduction of developmental dysplasia of the hip. A clini-cal and radiological review of 49 hips[J].
+J Bone Joint Surg Br,
+2004,
+86(
+3):
+430-
+433.
+[64]
+SalterRB, KostuikJ, DallasS.
+Avascular necrosis of the femoral head as a complication of treatment for congenital dislocation of the hip in young children: a clinical and experimental investiga-tion[J],
+Can J Surg,
+1969,
+12(
+1):
+44-
+61.
+[65]
+TavaresJO.
+Differentiating subluxation from developmental dislo-cation of the hip[J].
+Orthop Rev (Pavia),
+2012,
+4(
+1):
+e7.
+DOI:10.4081/or.2012.e7.
+[66]
+LindstromJR, PonsetiIV, WengerDR.
+Acetabular development after reduction in congenital dislocation of the hip[J].
+J Bone Joint Surg Am,
+1979,
+61(
+1):
+112-
+118.
+[67]
+张建立.
+儿童发育性髋关节发育不良诊疗参考[J].
+中国骨肿瘤骨病杂志,
+2011,
+10(
+5):
+454-
+455.
+DOI: 10.3969/j.issn.1671-1971.2011.05.006.
+ZhangJL. Diagnosis and treatment of developmental dysplasia of the hip[J]. Chin J Bone Tumor Bone Disease, 2011, 10(5): 454-455. DOI: 10.3969/j.issn.1671-1971.2011.05.006.
+[68]
+AlbinanaJ, DolanLA, SprattKF, et al.
+Acetabular dysplasia after treatment for developmental dysplasia of the hip: implications for secondary procedures[J].
+J Bone Joint Surg Br,
+2004,
+86(
+6):
+876-
+886.
+[69]
+HarrisNH, Lloyd-RobertsGC, GallienR.
+Acetabular develop-ment in congenital dislocation of the hip. With special reference to the indications for acetabuloplasty and pelvic or femoral re-alignment osteotomy[J].
+J Bone Joint Surg Br,
+1975,
+57(
+1):
+46-
+52.
+[70]
+HarrisNH.
+Acetabular growth potential in congenital dislocation of the hip and some factors upon which it may depend[J].
+Clin Or-thop Relat Res,
+1976(
+119):
+99-
+106.
+[71]
+NakamuraJ, KamegayaM, SaisuT, et al.
+Treatment for develop-mental dysplasia of the hip using the Pavlik harness: long-term re-sults[J].
+J Bone Joint Surg Br,
+2007,
+89(
+2):
+230-
+235.
+DOI: 10.1302/0301-620X.89B2.18057.
+[72]
+ShinCH, YooWJ, ParkMS, et al.
+Acetabular Remodeling and Role of Osteotomy After Closed Reduction of Developmental Dys-plasia of the Hip[J].
+J Bone Joint Surg Am,
+2016,
+98(
+11):
+952-
+957.
+DOI: 10.2106/JBJS.15.00992.
+[73]
+KimHT, KimJI, YooCI.
+Acetabular development after closed re-duction of developmental dislocation of the hip[J].
+J Pediatr Or-thop,
+2000,
+20(
+6):
+701-
+708.
+[74]
+边臻，郭源，田伟.
+闭合复位治疗婴幼儿发育性髋脱位的疗效观察[J].
+中华外科杂志,
+2009,
+47(
+13):
+1017-
+1019.
+DOI：10.3760/cma.j.issn.0529-5815.2009.13.017.
+BianZ, GuoY, TianW. Dysplasia of the hip in children: results of dosed reduction and immobilization in hip spica cast[J]. Chin J Surg, 2009, 47(13): 1017-1019. DOI: 10.3760/cma.j.issn.0529-5815.2009.13.017.
+[75]
+杨征，郭源.
+发育性髋脱位髋臼指数与闭合复位后结果的相关性研究[J].
+中华小儿外科杂志,
+2010,
+31(
+3):
+200-
+203.
+DOI: 10.3760/cma.j.issn.0253-3006.2010.03.012.
+YangZ, GuoY. Acetabular index and the result of closed reduc-tion in developmental dysplasia of the hip[J]. Chin J Pediatr Surg, 2010, 31(3): 200-203. DOI: 10.3760/cma.j.issn.0253-3006.2010.03.012.
+[76]
+马瑞雪，吉士俊，周永德,等.
+发育性髋脱位手法复位后髋臼发育不良的演变规律[J].
+中华小儿外科杂志,
+1997,
+18(
+5):
+264-
+266.
+DOI:10.3760/cma.j.issn.0253-3006.1997.05.004.
+MaRX, JiSJ, ZhouYD, et al. Evolution of acetabular dysplasia af-ter manual reduction in DDH[J]. Chin J Pediatr Surg, 1997, 18(5): 264-266. DOI: 10.3760/cma.j.issn.0253-3006.1997.05.004.
+[77]
+CherneyDL, WestinGW.
+Acetabular development in the infant's dislocated hips[J].
+Clin Orthop Relat Res,
+1989(
+242):
+98-
+103.
+[78]
+杨建平.
+切开复位、Salter骨盆截骨、股骨近端短缩旋转截骨术治疗发育性髋关节脱位[J].
+中华骨科杂志,
+2010,
+30(
+12):
+1252-
+1258.
+DOI: 10.3760/cma.j.issn.0253-2352.2010.12.017.
+YangJP. Treatment of developmental dysplasia of the hip using open reduction, Salter osteotomy, proximal femoral osteotomy[J]. Chin J Orthop, 2010, 30(12): 1252-1258. DOI: 10.3760/cma.j.issn.0253-2352.2010.12.017.
+[79]
+郭源.
+Pemberton截骨术治疗发育性髋脱位的适应证和技术[J].
+中华小儿外科杂志,
+2005,
+26(
+11):
+605-
+606.
+DOI: 10.3760/cma.j.issn.0253-3006.2005.11.016.
+GuoY. The indication and operation technique of Pemberton oste-otomy, as a treatment method for developmental dysplasia of the hip. Chin J Pediatr Surg, 2005, 26(11): 605-606. DOI: 10.3760/cma.j.issn.0253-3006.2005.11.016.
+贡献者信息
+中华医学会小儿外科分会骨科学组
+中华医学会骨科学分会小儿创伤矫形学组
+历史
+出版日期：2017-06-01
+收稿日期：2017-02-06
+本文编辑
+马英
+Guideline
+Detection and treatment of pediatric developmental dysplasia of the hip in children up to two year of age:clinical practice guideline
+Chinese Medical Association Pediatric Surgery Branch Orthopaedic Group,  Chinese Medical Association Orthopaedic Branch Pediatric Trauma and Orthopaedic Group
+Published
+2017-06-01
+Cite as
+Chin J Orthop, 2017,37(11): 641-650. DOI: 10.3760/cma.j.issn.0253-2352.2017.11.001
+Contributor Information
+Chinese Medical Association Pediatric Surgery Branch Orthopaedic Group
+Chinese Medical Association Orthopaedic Branch Pediatric Trauma and Orthopaedic Group
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+新生儿髋关节筛查表（存档或转诊）
+表2
+髋关节超声检查Graf分型
+分型
+骨性臼顶（α角）
+软骨臼顶（β角）
+骨性边缘
+年龄
+临床描述
+Ⅰ
+发育良好，α角≥60°
+Ia≤55°，Ib>55°
+锐利或稍圆钝
+任意
+成熟髋关节
+Ⅱa+
+发育充分，α角50°~59°
+覆盖股骨头
+圆钝
+0~12周
+生理性不成熟
+Ⅱa-
+有缺陷，α角50°~59°
+覆盖股骨头
+圆钝
+6~12周
+有发展为髋臼发育不良的风险（10%）
+Ⅱb
+有缺陷，α角50°~59°
+覆盖股骨头
+圆钝
+>12周
+骨化延迟
+Ⅱc
+严重缺陷，α角43°~49°
+仍可覆盖股骨头，β角<77°
+圆钝或平
+任意
+盂唇未外翻
+D
+严重缺陷，α角43°~49°
+移位，β角> 77°
+圆钝或平
+任意
+开始出现半脱位
+Ⅲa
+发育差，α角<43°
+软骨臼顶推向上
+平
+任意
+臼缘软骨外翻，软骨未发生退变
+Ⅲb
+发育差，α角<43°
+软骨臼顶推向上，伴回声增强
+平
+任意
+臼缘软骨外翻，软骨发生退变
+Ⅳ
+发育差，α角<43°
+软骨臼顶挤向下
+平
+任意
+完全脱位
+图1
+标准冠状切面应见如下解剖结构：①软骨-骨交界，②股骨头，③髂骨支下缘，④骨缘转折点（臼顶由凹变凸的点），⑤平直髂骨外缘，⑥软骨性髋臼顶，⑦盂唇，⑧关节囊，⑨滑膜皱襞，⑩股骨大转子
+图2
+α角和β角的测量：基线与骨顶线相交成α角，代表骨性髋臼发育程度，基线与软骨顶线相交成β角，代表软骨性髋臼形态
+图3
+Ilfeld外展支具
+图4
+0~6个月DDH诊疗流程
+图5
+6~18个月DDH治疗流程
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华骨科杂志2017年37卷11期
+文    题：发育性髋关节发育不良临床诊疗指南（0~2岁）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华骨科杂志2017年37卷11期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+微信
+腾讯微博
+一键通
+新浪微博
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+豆瓣网
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+QQ好友
+更多平台...
+(133)
+bShare

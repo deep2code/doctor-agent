@@ -1,0 +1,572 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%84%BF%E7%AB%A5%E8%83%B0%E8%83%86%E7%AE%A1%E5%90%88%E6%B5%81%E5%BC%82%E5%B8%B8%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 儿童胰胆管合流异常临床实践专家共识 - 中华小儿外科杂志
+# 发布方/日期: 小儿外科，中华小儿外科杂志, 2019,40(6) : 481-487. DOI: 10.3760/cma.j；2019-06-15
+
+儿童胰胆管合流异常临床实践专家共识
+中华医学会小儿外科学分会新生儿学组
+中华医学会小儿外科学分会肝胆学组
+中华小儿外科杂志, 2019,40(6) : 481-487. DOI: 10.3760/cma.j.issn.0253-3006.2019.06.001
+胰胆管合流异常(pancreaticobiliary maljunction, PBM)是一种先天性胰胆管发育异常，可发生于任何年龄段，10岁以下女孩多见，其发病率东方人高于西方，约为1/1 000[1,2]。该病可分为胆管扩张和胆管未扩张两型。研究发现，胆管扩张型PBM较多见，其临床表现通常为右上腹痛、间歇性黄疸、腹部肿块等；而胆管未扩张型PBM患者，临床表现相对隐匿，可表现出轻症胆管炎或胰腺炎症状，一般于成人期才发现[3]。PBM患者胆囊癌的发生率是非PBM一般人群的167.2～419.6倍，且发病年龄也较一般人群提前10～20年[4]。胆管未扩张型PBM患者，因临床表现隐匿，容易延误诊治，其胆道肿瘤发病率较胆管扩张型患者明显要高[5]。所以，目前普遍认为儿童期早期诊治PBM是防止胆道肿瘤发病的关键。
+PBM在亚洲发病率较高，我国人口众多，但国内尚未针对PBM建立起标准的诊疗规范，本专家共识旨在为PBM的合理诊治提供指导。
+一、PBM的定义
+PBM是由于胰管、胆管在十二指肠壁外汇合，形成了较长的共同管，以致Oddi括约肌不能控制胰胆管汇合部，使得胰液和胆汁互相反流。胰液反流进入胆道易导致胆道炎症、结石甚至胆道癌变，而胆汁反流入胰管则会引起胰腺炎[6,7]。
+二、PBM解剖学发生机制
+PBM发生机制尚未完全阐明。有假设认为，PBM于妊娠4周时，从双叶腹侧胰原基发生而来的腹侧胰腺的发育不良有关[8]。另有假设认为，胆管扩张的形成与原肠腔的形成机制有关[9]。Matsumoto等[10]认为，正常胚胎发育过程中，胰、胆管汇合部在胚胎发育8周之前位于十二指肠壁外侧，随着胚胎的发育，开始不断向十二指肠壁内迁移；而PBM患者在胚胎第8周时这种向十二指肠壁内的迁移却是停滞的，由此推测迁移的停滞是PBM的起因。
+三、先天性胆管扩张症
+先天性胆管扩张症又称先天性胆总管囊肿、先天性胆管畸形，是指胆管的一种先天性畸形伴随着不同位置和程度的扩张，扩张通常为囊性或梭形，是临床较少见的一种原发性胆管病变，Todani等[11]将胆管扩张分为五型：①Ⅰ型为胆总管扩张(最常见)，分为3个亚型：Ⅰa型：胆总管囊状扩张；Ⅰb型：节段性的胆总管囊性扩张，无胰胆合流异常，极少见；Ⅰc型：胆总管梭形扩张。②Ⅱ型为胆总管憩室样扩张。③Ⅲ型为胆总管十二指肠壁内段扩张，又称胆总管末端囊肿。④Ⅳ型为肝内或肝外胆管多发性扩张，分为2个亚型：Ⅳa型：肝内外胆管多发性囊状扩张；Ⅳb型：仅肝外胆管多发性囊状扩张。⑤Ⅴ型为肝内胆管单发或多发性囊状扩张，又称Caroli病。目前认为，Todani分型中Ⅰa、Ⅰc和Ⅳa型在临床上最为常见，且常合并PBM[7]。
+四、PBM的分类
+根据形态学分类，即是否合并有胆总管扩张，PBM可分为胆管扩张型和胆管未扩张型。对成年PBM患者，通常以胆总管直径10 mm作为分界以区分这两型。对于儿童，日本PBM协会建议采用胆总管直径5 mm作为分界[7]。但胆总管直径也与年龄有关。
+根据解剖学，即胰管和胆管连接的角度，PBM亦可分为三种类型[12]：Ⅰ型为胆总管进入胰管后汇合为胰管型(B-P型)；Ⅱ型为主胰管进入胆管后汇合为胆管型(P-B型)；Ⅲ型为胰胆管汇合部既不属于Ⅰ型，也不属于Ⅱ型，即复杂型。
+新的Komi分类在原分类基础上添加了是否存在共同管扩张和胰腺分裂的概念，即根据共同管是否扩张，Ⅰ型又分为ⅠA型(不合并扩张)和ⅠB型(合并扩张)；根据共同管是否扩张，Ⅱ型又分为ⅡA型(不合并扩张)和ⅡB型(合并扩张)；根据共同管有无扩张、主副胰管是否相通等，Ⅲ型又分为：ⅢA型、ⅢB型和ⅢC型，ⅢC型又分为ⅢC1型、ⅢC2型和ⅢC3型[13]。
+推荐意见1：推荐使用新的Komi分类方法，有助于规范患儿的诊断、治疗、疗效评价和学术交流。
+五、PBM的临床表现
+PBM的主要症状包括腹痛、呕吐、黄疸和发热。腹痛、腹部包块和黄疸被称为胆总管扩张典型的三联征。但临床上同时具备这三种典型表现的患者较少[7]。
+在儿童，PBM症状与年龄有关：①大多数胆管扩张型PBM患儿，通常表现为右上腹痛、间歇性黄疸、腹部肿块等。其中扩张胆管的形状和程度不同，患儿表现出的症状也有差别，如新生儿或婴儿胆管扩张呈囊肿型，其主要症状是黄疸和腹部包块，而儿童早期胆管扩张呈梭形或柱形者，主要表现为腹痛。②无胆管扩张型PBM患儿，临床表现通常为胰胆管反流所造成的胆管炎或轻症胰腺炎症状(腹痛，尤其是上腹或右上腹疼痛)或无症状，一般于成人后才发现，由于延误诊治，其胆道肿瘤发病率较胆管扩张型PBM明显增高。
+推荐意见2：PBM临床症状无特异性，对于有黄疸、陶土样大便、腹部包块的新生儿或婴儿；大于24月龄，有腹痛、呕吐等症状的患儿，鉴别诊断中应考虑PBM。需要时，可进一步行影像学和实验室检查明确诊断。
+六、PBM诊断及诊断方法
+PBM诊断标准：磁共振胰胆管造影(magnetic resonance cholangiopancreatography，MRCP)或术中胆道造影(intraoperative cholangiography，IOC)检查发现胰胆管汇合于Oddi括约肌之外、且共同管长度过长，胆汁淀粉酶明显升高(>10 000 U/L)。
+(一)影像学检查
+1.超声
+对于胆管扩张型PBM，超声多普勒检查可以发现胆总管、肝内胆管局限性或节段性扩张的无回声区多呈椭圆形或梭形，胆囊受压、推移，还能显示胆管壁的厚度，囊内有无结石，肝有无纤维化，胰管有无扩张等；对于胆管未扩张型PBM患者，则可能发现胆囊壁的内层增厚。但超声检查对胆总管病变特别是胆总管下段的病变常漏诊较多，也不能显示PBM患者的胰胆管共同管，不能提供冠状位成像来精确测量共同管的长度。
+推荐意见3：超声检查可发现胆管扩张型PBM，对于胆管未扩张型PBM可发现胆囊壁增厚，结合临床表现是诊断PBM的线索之一，出现上述情况，均需进一步检查。
+2.CT
+多层螺旋CT(multislicespiral CT，MSCT)的多平面重建图像和静脉滴注法CT胆系造影术(drip infusion cholangiograhy ，DIC-CT)的胆管三维重建图像相结合，不仅可以从功能上确定PBM的胆胰管反流，还可以清晰描绘出PBM患者肝内外胆管形态，其在诊断PBM中具有较高的应用前景。但因其辐射剂量较大以及造影剂来源因素，该方法在儿科患者中尚未普遍应用。
+推荐意见4：MSCT多平面三维重建(multiple planar reconstruction，MPR)有利于显示胰胆管连接部解剖结构，而DIC-CT有利于观察双向反流和肝内外胆管形态。该法可作为PBM的二线检查方式。
+3.超声内镜(endoscopic ultrasonography，EUS)
+EUS最早于20世纪80年代应用于临床，EUS具有高分辨率和优良的局部观测能力，是继US、CT、MRCP之后的二线检查方式，侵袭性优于内镜逆行胰胆管造影(endoscopic retrograde cholangiopancreatography，ERCP)，在世界范围内很受欢迎，尤其适用于门诊患者。经内镜导入超声探头，不仅可以观察胰腺和胆管，还可以观察十二指肠固有肌层和胰腺实质，可以清楚观察胰胆管汇合部的位置。无论胆管是否扩张，EUS均可准确显示胰胆管汇合部是否位于十二指肠固有肌层之外。对于胰胆管汇合部呈复杂型者，EUS也可以清晰显示是否为PBM，但EUS诊断PBM的准确性仍有赖于操作者的经验。
+推荐意见5：EUS可以清晰显示胰胆管汇合于十二指肠壁外，同时可以观察胆囊和胆管结构，有经验的EUS专家可以对PBM及胆管、胆囊病变作出诊断，有利于PBM及其并发症的及时治疗。
+4.ERCP
+ERCP可以清楚地观测整个胰、胆管形态，并且可以发现管腔是否存在扩张、狭窄、受压、充盈缺损等改变。但ERCP是有创检查，难以用来普查。而且它对操作者技术要求较高，对年幼者操作更为困难，且有诱发胰腺炎、出血等合并症的风险。这使得ERCP在儿童患者中的应用受到一定限制。
+推荐意见6：对于有条件的医院和年龄较大的PBM患者，可采用ERCP检查，有利于及时确定PBM。
+5.MRCP
+MRCP是一种无创非侵入性检查，能够较客观的反映自然状态下的胰胆管系统，清晰完整地显示主胰管、胆总管的位置关系以及共同管的汇合情况。当注射促胰液素刺激胰腺外分泌功能，行动态MRCP检查时，可以观察到PBM患者胆管和胆囊优先充盈，从而可以判断有无胰液向胆管内反流。但对于共同管较短的婴儿或幼儿，受到呼吸运动和肠道液体的影响，MRCP对于PBM的检出率仍需提高。有报道显示，MRCP对成人PBM的检出率在82%～100%，对于儿童PBM的检出率在40%～80%；当共同管长度在15 mm以上时，其检出率较高，约为80%[14,15]。
+推荐意见7：对于儿童PBM，MRCP检查是无创、有效的确诊手段，应作为儿童PBM的首选检查方式。
+6.术中胆道造影(intraoperative cholangiography，IOC)
+IOC可以帮助了解胆道的解剖关系，明确肝内外胆管有无狭窄、PBM是否存在及其类型、胆总管远端有无结石及蛋白栓形成，并可确定胆道重建时胆管切除的位置。对于胆总管内残余结石发生率高的患儿，IOC尤其适用，它对于手术治疗具有一定的指导意义。囊肿较大时，会遮挡PBM及近端的狭窄，此时应结合MRCP进行综合评估。
+推荐意见8：IOC有利于显示PBM，同时对于术中蛋白栓的显示、确定胆管切除部位有重要作用，应在术中常规采用IOC。但对于巨大囊肿者，建议将IOC与MRCP检查结果相结合来判断，会较为客观。
+7.三维重建虚拟胆道、胰管和肝血管显像技术
+三维虚拟显像技术是在二维影像学资料如CT增强、MR增强等图像的基础上，通过三维重组软件和工具，重组形成立体、有空间结构、虚拟的肝血管、胆管、胰管三维图像。通过对这种虚拟图像的观察，明确肝内胆管的形态、走行、是否合并扩张、狭窄及结石，胰胆管合流的形态及共同通道内是否有狭窄、扩张和结石等病变情况；预先规划处理可能合并存在的肝内胆管扩张、狭窄或其他复杂胆管畸形；清晰地显示肝内脉管系统，包括门静脉、肝动脉及肝静脉的走行、分支并可多角度全方位观察有无肝血管变异。这一技术有效地提高了外科医师在术前对肝、胆管及胰腺内部各管道解剖及其变异判断的精确性和可靠性，精准地对病变进行判断和评估，制订出合理、个体化的手术方案，有效地降低术中和术后并发症发生率，并于术中导航实时指导手术，提高手术的精准性和成功率，但对于不伴有胰管扩张的患儿，诊断PBM的准确率较低。
+推荐意见9：三维重建虚拟胆道、胰管和肝血管显像技术，有助于精准定位，判断病变胆管与邻近血管的关系，制订合理、个体化的手术方案，指导临床手术操作。
+(二)实验室检查
+大多数PBM患儿，在症状明显期，血液检查可以出现一过性异常(淀粉酶、弹性蛋白酶1、胰蛋白酶、磷脂酶A2、总胆红素、直接胆红素、碱性磷酸酶和γ-谷氨酰转肽酶)。目前尚无PBM特异性生化诊断指标。在临床尚可见到胆汁淀粉酶增高，特别是胆汁淀粉酶显著增高>1 000 U。偶尔也能观察到PBM患者的胆汁淀粉酶水平接近或低于血清淀粉酶[16]。此外，胰淀粉酶同工酶的增多，也被认为是诊断PBM的潜在指标[17]。婴幼儿血生化检查发现肝功能异常者，应进一步检查排除PBM。
+推荐意见10：胆汁淀粉酶含量升高对于PBM的诊断具有一定价值，血清淀粉酶、胰淀粉酶同工酶也对PBM的诊断具有一定作用，婴幼儿胆红素、转氨酶的增高有助于PBM肝损伤的评估。
+七、PBM产前诊断
+约不到5%的PBM于产前筛查发现[7]。在中晚孕期(>6个月)，产前超声或MR检查可以发现胆管囊状扩张型PBM，囊性肿块位于肝门部、朝向肝下方，一般不伴有肝内胆管扩张。早期诊断能为PBM患儿生后获取最佳治疗方案赢得时间。产前检查发现的PBM合并胆管扩张的患儿如能得到及时治疗，远期生长发育多能与正常儿童无异。胎儿PBM诊断较难，一般在孕中、晚期产前检查发现右侧腹部囊性肿块时，需要与肠闭锁、胆道闭锁Ⅰ型、肠重复畸形、肝囊肿、卵巢囊肿等鉴别。
+推荐意见11：产前超声检查发现右侧腹部囊性肿块时，需要考虑扩张型PBM的可能，进一步行产前MR检查明确诊断。一旦确定PBM后，尽早择期手术，以防出现肝功能损伤加重及其他并发症发生。
+八、PBM并发症
+1.胆管穿孔
+胰胆管合流异常是导致自发性胆道穿孔的首要原因，因胰液反流到胆管内，胰酶被激活，破坏胆管黏膜，可进一步导致胆管弹性纤维断裂，胆管逐渐扩张，如远端存在梗阻，胆管内压急剧上升，则发生胆管穿孔。
+2.胰腺炎
+PBM常伴有胰腺炎的发生，其特点是病程短暂或轻微，但易复发。有研究显示，约9%的成人患者会发生急性胰腺炎，而在儿童该比例更高(28.0%～43.6%)[7]。PBM发生胰腺炎的原因，与共同管扩张、胰管扩张、胰头部胰管复杂畸形及蛋白栓的形成有关[18]。
+3.胆道结石
+PBM与胆囊炎、胆石症关系密切，PBM比非PBM更易患胆道结石。结石形成的原因主要是胰液反流，使胰脂肪酶被激活，三磷酸甘油被降解为甘油和硬脂酸。其中，甘油进一步氧化成柠檬酸，与钙结合会形成柠檬酸结石，硬脂酸与钙结合成则形成硬脂酸钙结石。此外，胆汁淤积、感染、胆总管末端狭窄、胆管壁薄弱等因素也是形成胆石的诱因。
+4.胆道癌变
+一般认为，PBM发生胆道癌变经过了"增生-非典型增生-癌"一系列过程。长时间的胰液和胆汁混合，使得胆汁中非结合胆汁酸浓度升高，可以诱发胆道慢性炎症、肠上皮化生甚至胆道恶性肿瘤的发生。此外，胆道内淀粉酶和致细胞突变小分子物质，主要为结构稳定的肽链和氨基酸也是导致胆道恶变的因素。日本的一项大样本全国性调查表明，成人PBM患者中，有胆管扩张的胆道癌变发生率为21.6%、无胆管扩张的胆道癌变发生率为42.4%；胆道癌变主要指胆囊癌和胆管癌，在有胆管扩张患者中分别占62.3%和32.1%，在无胆管扩张患者中分别占88.1%和7.3%；而年龄小于15岁的PBM患儿有9例发生了胆道癌变，其中7例是胆管癌，2例是胆囊癌[19,20]。由此可见，PBM患者无论有无胆管扩张，胆囊癌发生率均明显更高。
+推荐意见12：PBM可合并胆道结石、胰腺炎、胆道穿孔，远期可合并胆道癌变，因此提倡明确诊断后及时治疗。
+九、PBM的治疗
+(一)手术适应证及手术时机的选择
+为防止PBM患者胆道肿瘤发生，一旦确诊应尽快手术治疗；但对于无症状的新生儿和婴幼儿，在仔细监测重要器官功能(肝、肾)的情况下，如果情况合适，建议尽早手术治疗[7]。
+产前诊断为PBM的患儿，即使新生儿期无临床症状，随着时间的延长，患儿肝纤维化程度一直在进展，发生黄疸和肝功能异常的风险提高。有前瞻性研究表明，早期手术组患儿肝纤维化分级、胆管周围的炎症反应程度及肝内胆管的扩张程度均比晚期手术组明显要轻[21]。因此，目前一般建议，对无明显症状、体征的患儿在出生后，如果情况合适，应尽早手术根治，尽早去除病因，避免肝功能损害的发生。
+推荐意见13：无论是产前检查发现或有症状来就诊的PBM患者，应尽早手术以防并发症发生，对于有胆道感染者，应控制感染后尽早手术。
+(二)手术方法
+1.PBM患者发生胆管穿孔的处理
+穿孔首先应进行胆汁外引流术，待病情稳定后再行二次根治性手术[22]。治疗穿孔，最安全的措施是首先进行紧急胆汁外引流，如腹腔引流或经穿孔部位的胆汁引流；一旦病人情况稳定，经胆道造影进行形态学诊断后，行二期根治性手术。对于PBM诊断明确，在穿孔时间短，腹腔内炎症反应不严重的情况下，有条件者可行一期根治手术。
+推荐意见14：对于胆道穿孔患者，一般应先行胆汁外引流术，待病情稳定，经胆道造影进行形态学诊断后，行二期根治性手术。但对于PBM诊断明确，在穿孔时间短，腹腔内炎症反应不严重的情况下，有条件者可行一期根治手术。
+2.PBM推荐的手术方式
+①对于胆管扩张型PBM，目前胆囊切除术、囊肿切除和肝管-空肠Roux-en-Y式重建术或肝管-十二指肠重建术是常用的手术方式，肝管-十二指肠重建术术后易发生胆汁反流性胃炎、肠液反流入肝内胆管致胆管炎，进而导致黏膜损伤及恶性转化概率增加，因此，目前肝管-空肠Roux-en-Y式重建术为广泛接受的术式[1,23]。PBM患儿手术主张胰腺侧切端应尽可能靠近胰管，肝外胆管应全部切除。②对于胆管未扩张型PBM，应进行预防性胆囊切除[24]。但预防性肝外胆管切除仍然存在争议。因此主要采取动态随访方式，一旦发生并发症则应手术治疗。
+推荐意见15：PBM患儿治疗应该根据患儿病情个体化治疗，对于胆管扩张型PBM，推荐扩张胆总管、胆囊切除，肝管-空肠Roux-en-Y吻合术。对于胆管未扩张型PBM，应进行预防性胆囊切除。
+3.腹腔镜治疗
+国内外很多小儿外科中心采用腹腔镜治疗有胆管扩张的PBM，该术式在技术成熟的情况下较开放手术有如下优点：①手术视野有放大作用，可实施精准操作。②创伤小，胃肠功能恢复快。③不留明显瘢痕。但腹腔镜下囊肿切除和胆道重建手术存在操作复杂、技术要求高、学习曲线较长等难点。最近，国内外已有使用达芬奇机器人辅助下囊肿切除和Roux-en-Y吻合术的，也取得了很好的效果。
+推荐意见16：随着微创技术的发展，腹腔镜囊肿切除和胆道重建是安全有效的，它具有手术创伤小、术后恢复快以及疗效与开腹手术相似等特点。但无论何种术式，医疗安全始终是第一位的，应充分考虑术者的经验、技术水平和患者的实际情况，合理选择手术方式。
+(三)术中并发症的预防和处理
+1.术中蛋白栓的处理
+通常，蛋白栓很脆弱，约50%的患者在经过根治性手术后会自发消失[7]。当蛋白栓持续嵌顿于狭窄的远端节段或共同管内时，PBM患者会出现临床症状加剧、病程延长甚至胆道穿孔，此时急需胆汁引流或急诊手术[25]。患者中的多数蛋白栓在接受胆汁引流后会趋于自发消失、或因胆管引流管的冲洗而消失；而持续存在至手术时的蛋白栓，也可通过在狭窄的远侧段中插入胆管引流管灌洗来消除[26]。
+推荐意见17：蛋白栓持续嵌顿于狭窄的远端胆管或共同管内时，其临床症状加剧、病程延长甚至出现胆道穿孔，此时急需胆汁引流或急诊手术。
+2.肝内胆管狭窄的处理
+肝内胆管狭窄有两种主要类型：膜性和间隔性，发生于70%～80%的伴有先天性胆管扩张的患者。当扩张与肝内胆管狭窄同时存在时，术后肝内胆管结石形成的风险会增加。大部分的狭窄位于肝门附近，可以在肝总管腔内进行狭窄部位的切除或狭窄处做前壁的纵行切开成形重建[27]。
+3.术中出血
+对有胆管炎或胰腺炎病史的患者，由于炎症的存在，可能会造成囊壁血管过度增生，或伴有囊壁粘连的发生，这些情况会导致囊肿切除部位出血增加[28]。肝动脉或门静脉的损伤可能会引起大出血，推荐术前行MSCT增强检查和MRCP检查，准确显示大血管和囊肿的位置关系及其变异。
+4.胰管损伤的预防与处理
+行囊肿切除术时，在胆管的胰腺侧，为了尽量避免残余胆管的存在，应沿着并将靠近汇合处的胰内胆管切除。但在梭形扩张的病例中，狭窄部分可能显示不清，增加了胰管损伤的风险，可能会导致术后胰瘘、胰腺炎、胰管狭窄的发生。为了防止并发症的发生，切除部位应使用金属夹或胆道内镜行术中胆道造影来确认[29]。术中检测到胰管损伤时，如损伤的是外周分支胰管可不行处理；如主胰管损伤，则必须将胰管导管作为支架，通过损伤的胰管插入到十二指肠腔内。如果在手术后检测到胰管损伤，需在内镜下通过十二指肠乳头置入支架。
+5.术后肝内胆管结石的处理
+对于术后出现肝内胆管结石的患者，去除结石可以缓解狭窄和梗阻。据报道，经皮球囊扩张狭窄部的成功率在70%～90%[30]。尽管该法取得了良好的短期效果，但仍有复发的风险，且对于间隔性狭窄效果不佳。确保切除膜性狭窄后保证胆汁引流通畅对于预防结石形成非常重要。肝切除是切除狭窄部位的一种有效方法，但对于儿科患者，只有在狭窄无法从肝门部处理、或当狭窄局限于肝左叶或肝右叶时方考虑使用。
+6.胰腺残余囊肿内结石的处理
+因为结石形成于囊肿内，对于该结石的治疗措施是完全切除残余囊肿[31]。如果确认残余囊肿位于胰腺外，那么囊肿的取出过程应与初次手术相似。如残留囊肿被深埋在胰腺内，此时很难从胰腺外辨认其位置，可以使用内镜。通过术中从Vater壶腹置入球囊导管，让球囊漂浮在残余囊肿内。随后，当触到作为标志的漂浮球囊、明确了残余囊肿位置时，再将胰腺切开并切除囊肿。
+7.残余胆管癌
+即癌变发生在囊肿切除后的肝侧残余肝管、肝内胆管或胰内胆管中，是一个日益严重的问题。有报道表明，约0.7%经历过囊肿切除的患者会发生胆管癌，这比平均人口的发病率还要高120～200倍[32]。
+推荐意见18：应重视Roux-en-Y术吻合口瘘、胰瘘、出血等术后早期并发症，及胆肠吻合口狭窄、肝内胆管狭窄及结石、残余囊肿内结石、残余胆管癌等远期并发症的防治。
+十、预后和随访
+胆管扩张型PBM患者多在疾病早期就有症状，因此一般得到早期就诊，其预后较好。相反，胆管未扩张型PBM确诊年龄较晚，其胆道接受长期慢性炎症刺激时间更长，伴发胆道癌的发生率更高[6]。所以，虽然没有明确证据，但一般认为胆管未扩张型PBM患者的预后更差。因此，为早期发现胆管未扩张型PBM，在超声筛查发现胆囊壁增厚怀疑有PBM时，就应进行MRCP检查。
+胆总管囊肿术后，患者仍有发生肝内胆管、残余胆总管癌变的风险。因此，对于合并胆总管囊肿的PBM患者，需连续性随访，尤其是合并胆道结石、肝内胆管狭窄者[33]。对于PBM术后患者的门诊随访，从实用和方便的角度来看，建议选择CT和腹部超声检查相结合的方法，频率为：术后早期3个月复查一次，半年后每6个月复查一次，一年后每年复查一次。
+推荐意见19：PBM术后早期3个月复查一次，半年后每6个月复查一次，一年后每年复查一次。复查项目包括：①超声检查观察胆道结石、吻合口有无狭窄、胆道是否有恶变。②对于怀疑胆道恶变者，加行CT平扫和增强检查。③复查血常规、肝功能、血清淀粉酶和肿瘤标志物(CA19-9、CEA等)。
+委员会成员
+(郭万亮 执笔)
+参与本共识制定的专家(按姓名首字拼音排序)：复旦大学附属儿科医院(董岿然)；华中科技大学同济医学院附属同济医院小儿外科(冯杰雄)；苏州大学附属儿童医院(郭万亮，汪健)；广州市妇女儿童医疗中心(余家康)；天津市儿童医院(詹江华)
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+Le RoyB, GagnièreJ, FilaireL，et al.
+Pancreaticobiliary maljunction and choledochal cysts: from embryogenesis to therapeutics aspects[J].
+Surg Radiol Anat，
+2016，
+38(
+9)：
+1053-
+1060.
+DOI：10.1007/s00276-016-1669-y.
+[2]
+KamisawaT, KanekoK, ItoiT，et al.
+Pancreaticobiliary maljunction and congenital biliary dilatation[J].
+Lancet Gastroenterol Hepatol,
+2017，
+2(
+8)：
+610-
+618.
+DOI：10.1016/S2468-1253(17)30002-X.
+[3]
+汪健，郭万亮．
+儿童胰胆管合流异常诊断及治疗[J]．
+肝胆外科杂志，
+2012，
+20(
+6)：
+470-471，478.
+DOI：10.3969/j.issn.1006-4761.2012.06.028.
+WangJ, GuoWL.Diagnosis and treatment of abnormality of pancreaticobiliary duct in children[J]．J Hepatobil Surg，2012，20(6)：470-471，478. DOI：10.3969/j.issn.1006-4761.2012.06.028.
+[4]
+KamisawaT, TuY, KuwataG，et al.
+Biliary carcinoma risk in patients with pancreaticobiliary maljunction and the degree of extrahepatic bile duct dilatation[J].
+Hepatogastroenterology，
+2005，
+53(
+72)：
+816-
+818.
+DOI: 10.1016/j.gie.2006.03.738.
+[5]
+TakumaK, KamisawaT, TabataT，et al.
+Importance of early diagnosis of pancreaticobiliary maljunction without biliary dilatation[J].
+World J Gastroenterol,
+2012,
+18(
+26):
+3409.
+DOI：10.3748/wjg.v18.i26.3409.
+[6]
+KamisawaT, AndoH, ShimadaM, et al.
+Recent advances and problems in the management of pancreaticobiliary maljunction: feedback from the guidelines committee[J].
+J Hepatobiliary Pancreat Sci，
+2014，
+21(
+2)：
+87-
+92.
+DOI：10.1002/jhbp.8.
+[7]
+KamisawaT, AndoH, SuyamaM，et al.
+Japanese clinical practice guidelines for pancreaticobiliary maljunction[J].
+J Gastroenterol，
+2012，
+47(
+7)：
+731-
+759.
+DOI：10.1007/S00535-012-06112-2.
+[8]
+QII.
+Embryological study of pancreaticobiliary maljunction[J].
+Tan to Sui，
+1982，
+3:
+463-
+476.
+[9]
+OiI, TokiF, NishinoT，et al.
+A developmental study of cystic biliary dilatation of pancreaticobiliary maljunction based on three cases with cystic dilatation of choledochus and cystic duct but hepatic duct[J].
+Tando，
+2007,
+21(
+1)：
+39-
+44.
+[10]
+MatsumotoY, FujiiH, ItakuraJ, et al.
+Recent advances in pancreaticobiliary maljunction[J].
+J Hepatobiliary Pancreat Surg，
+2002，
+9(
+1)：
+45-
+54.
+DOI：10.1007/s005340200004.
+[11]
+TodaniT, NarusueM, WatanabeY，et al.
+Management of congenital choledochal cyst with intrahepatic involvement[J].
+Ann Surg，
+1978,
+187(
+3):
+272-
+280.
+DOI：10.1097/00000658-197803000-00011.
+[12]
+KomiN, TamuraT, MiyoshiY, et al.
+Nationwide survey of cases of choledochal cyst. Analysis of coexistent anomalies, complications and surgical treatment in 645 cases[J].
+Surg Gastroenterol，
+1984，
+3(
+2)：
+69-
+73.
+[13]
+KomiN, TakeharaH, KunitomoK, et al.
+Does the type of anomalous arrangement of pancreaticobiliary ducts influence the surgery and prognosis of choledochal cyst？[J].
+J Pediatr Surg，
+1992，
+27(
+6):
+728-
+731.
+[14]
+KimMJ, HanSJ, YoonCS, et al.
+Using MR cholangiopancreatography to reveal anomalous pancreaticobiliary ductal union in infants and children with choledochal cysts[J].
+AJR Am J Roentgenol，
+2002，
+179(
+1)：
+209-
+214.
+DOI：10.2214/ajr.179.1.1790209.
+[15]
+HuangSG, GuoWL, WangJ, et al.
+Factors interfering with delineation on MRCP of pancreaticobiliary maljunction in paediatric patients[J/OL].
+PLoS One，
+2016，
+11(
+4):
+e0154178.
+DOI：10.1371/journal.pone.0154178
+[16]
+邹树，石美祥，田伏洲，等．
+经ERCP取胆汁检测淀粉酶在胰胆管合流异常诊治中的意义[J].
+西南国防医药，
+2008，
+18(
+5):
+641-
+643.
+DOI：10.3969/j.issn.1004-0188.2008.05.006.
+ZouS, ShiMY, TianFZ，et al.Measurement of amylase in bile obtained by endoscopic retrograde cholangiopancreatography: diagnosis and treatment of pancreaticobiliarymaljunction[J]．Med J National Defending Forces in Southwest China，2008，18(5)：641-643. DOI：10.3969/j.issn.1004-0188.2008.05.006.
+[17]
+龚振华，肖现民，徐绍英，等.
+胰胆合流异常胆汁和血清淀粉酶的二维电泳[J]．
+复旦学报(医学版)，
+2005，
+32(
+1)：
+79-
+82.
+DOI：10.3969/j.issn.1672-8467.2005.01.021.
+GongZH, XiaoXM, XuSY, et al.Amylase isoforms in the bile of patients with pancreaticobiliary malunion analysed by two-dimensional electrophoresis[J]．Fudan Univ J Med Sci，2005，32(1)：79-82.DOI：10.3969/j.issn.1672-8467.2005.01.021.
+[18]
+KamisawaT, TuY, NakajimaH，et al.
+Acute pancreatitis and a long common channel[J].
+Abdom Imaging，
+2007，
+32(
+3)：
+365-
+369.
+DOI：10.1007/s00261-006-9057-4.
+[19]
+MorineY, ShimadaM, TakamatsuH, et al.
+Clinical features of pancreaticobiliary maljunction: update analysis of 2nd Japan‐nationwide survey[J].
+J Hepatobiliary Pancreat Sci，
+2013，
+20(
+5)：
+472-
+480.
+DOI：10.1007/s00534-013-0606-2.
+[20]
+MorineY, MoriH, UtsunomiyaT，et al.
+Epidemiology and clinical features of pancreaticobiliary maljunction[J].
+J Japan Biliary Assoc，
+2011，
+25(
+1)：
+133-
+140.
+DOI：10.11210/tando.25.133.
+[21]
+刁美，孙旭，叶茂，等．
+产前诊断的无症状性胆总管囊肿手术时机的探讨[J].
+中华小儿外科杂志，
+2013，
+34(
+4)：
+266-
+270.
+DOI：10.3760/cma.j.issn.0253-3006.2013.04.008.
+DiaoM, SunX, YeM，et al.The rational operating time for prenatally diagnosed asymptomatic choledochal cysts[J]．Chin J Pediatr Surg, 2013，34(4)：266-270. DOI: 10.3760/cma.j.issn.0253-3006.2013.04.008.
+[22]
+张君颀，吴晔明，周莹，等.
+伴有并发症的儿童胆总管囊肿的临床处理[J].
+中华小儿外科杂志，
+2017，
+38(
+6)：
+459-
+462.
+DOI：10.3760/cma.j.issn.0253-3006.2017.06.014.
+ZhangJQ, WuYM, ZhouY，et al.Clinical management of complicated choledochal cysts in children[J]．Chin J Pediatr Surg，2017，38(6)：459-462. DOI：10.3760/cma.j.issn.0253-3006.2017.06.014.
+[23]
+SoaresKC, KimY, SpolveratoG，et al.
+Presentation and clinical outcomes of choledochal cysts in children and adults: a multi-institutional analysis[J].
+JAMA Surg，
+2015，
+150(
+6)：
+577-
+584.
+DOI：10.1001/jamasurg.2015.0226
+[24]
+OhuchidaJ, ChijiiwaK, HiyoshiM, et al.
+Long-term results of treatment for pancreaticobiliary maljunction without bile duct dilatation[J].
+Arch Surg,
+2006,
+141(
+11):
+1066-
+1070.
+DOI：10.1001/archsurg.141.11.1066
+[25]
+李龙，张金山，孙海林，等.
+先天性胆管扩张症合并共同管内蛋白栓的诊断和处理[J].
+中华小儿外科杂志，
+2009，
+30(
+10)：
+664-
+667.
+DOI：10.3760/cma.j.issn.0253-3006.2009.10.002.
+LiL, ZhangJS, SunHL，et al.Diagnosis and treatment of protein plugs of the common channel in children with congenital biliary dilatation[J]. Chin J Pediatr Surg，2009，30(10): 664-667. DOI：10.3760/cma.j.issn.0253-3006.2009.10.002.
+[26]
+DiaoM, LiL, ZhangJS, et al.
+Laparoscopic-assisted clearance of protein plugs in the common channel in children with choledochal cysts[J].
+J Pediatr Surg，
+2010，
+45(
+10)：
+2099-
+2102.
+DOI：10.1016/j.jpedsurg.2010.06.011.
+[27]
+DiaoM, LiL, ChengW.
+Laparoscopic versus Open Roux-en-Y hepatojejunostomy for children with choledochal cysts: intermediate-term follow-up results[J].
+Surg Endosc,
+2011,
+25(
+5):
+1567-
+1573.
+DOI：10.1007/s00464-010-1435-x.
+[28]
+DiaoM, LiL, LiQ，et al.
+Challenges and strategies for single-incision laparoscopic Roux-en-Y hepaticojejunostomy in managing giant choledochal cysts[J].
+Int J Surg，
+2014，
+12(
+5)：
+412-
+417.
+DOI：10.1016/j.ijsu.2014.03.007.
+[29]
+李索林，张道荣，李英超，等．
+胆总管囊肿切除术中胰管损伤的防治[J]．
+中华小儿外科杂志，
+2000，
+21(
+4)：
+211-
+213.
+DOI：10.3760/cma.j.issn.0253-3006.2000.04.007.
+LiSL, ZhangDR, LiYC，et al.Prevention and treatment for pancreatic duct injury during the excision of choledochal cyst[J]．Chin J Pediatr Surg，2000，21(4)：211-213.DOI：10.3760/cma.j.issn.0253-3006.2000.04.007.
+[30]
+VosPM, van BeekEJ, SmitsNJ，et al.
+Percutaneous balloon dilatation for benign hepaticojejunostomy strictures[J].
+Abdom Imaging，
+2000，
+25(
+2)：
+134-
+138.
+DOI: 10.1007/s002619910032.
+[31]
+KoshinagaT, HoshinoM, InoueM, et al.
+Pancreatitis complicated with dilated choledochal remnant after congenital choledochal cyst excision[J].
+Pediatr Surg Int,
+2005，
+21(
+11):
+936-
+938.
+DOI：10.1007/s00383-005-1521-7.
+[32]
+KobayashiS, AsanoT, YamasakiM, et al.
+Risk of bile duct carcinogenesis after excision of extrahepatic bile ducts in pancreaticobiliary maljunction[J].
+Surgery,
+1999,
+126(
+5):
+939-
+944.
+DOI: 10.1016/S0039-6060(99)70036-X.
+[33]
+LeeSE, JangJY, LeeYJ, et al.
+Choledochal cyst and associated malignant tumors in adults: a multicenter survey in South Korea[J].
+Archi Surg，
+2011，
+146(
+10):
+1178-
+1184.
+DOI：10.1001/archsurg.2011.243.
+贡献者信息
+中华医学会小儿外科学分会新生儿学组
+中华医学会小儿外科学分会肝胆学组
+基金项目
+江苏省社会发展-重点病种规范化诊疗项目 （BE2015643）
+苏州市科技发展-民生科技 （SS201868）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2019-06-15
+收稿日期：2018-07-04
+Guideline and Consensus
+Guidelines for diagnosing and treating pediatric pancreaticobiliary maljunction
+Subspecialty Group of Neonatal Surgery, Branch of Pediatric Surgery, Chinese Medical Association,  Subspecialty Group of Pediatric Biliary Surgery, Branch of Pediatric Surgery, Chinese Medical Association
+Published
+2019-06-15
+Cite as
+Chin J Pediatr Surg, 2019,40(6): 481-487. DOI: 10.3760/cma.j.issn.0253-3006.2019.06.001
+Contributor Information
+Subspecialty Group of Neonatal Surgery, Branch of Pediatric Surgery, Chinese Medical Association
+Subspecialty Group of Pediatric Biliary Surgery, Branch of Pediatric Surgery, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+KamisawaT, KanekoK, ItoiT，et al.
+Pancreaticobiliary maljunction and congenital biliary dilatation[J].
+Lancet Gastroenterol Hepatol,
+2017，
+2(
+8)：
+610-
+618.
+DOI：10.1016/S2468-1253(17)30002-X.
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华小儿外科杂志2019年40卷6期
+文    题：儿童胰胆管合流异常临床实践专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华小儿外科杂志2019年40卷6期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

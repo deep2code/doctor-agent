@@ -1,0 +1,569 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E7%9A%AE%E8%82%A4%E5%9E%8B%E7%BA%A2%E6%96%91%E7%8B%BC%E7%96%AE%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882019%E7%89%88%EF%BC%89.html
+# 标题: 皮肤型红斑狼疮诊疗指南（2019版） - 中华皮肤科杂志
+# 发布方/日期: 皮肤科，中华皮肤科杂志, 2019,52(3) : 149-155. DOI: 10.3760/cma.j；2019-03-15
+
+AUTO TRANSLATION​▼
+皮肤型红斑狼疮诊疗指南（2019版）
+中华医学会皮肤性病学分会红斑狼疮研究中心
+中华皮肤科杂志, 2019,52(3) : 149-155. DOI: 10.3760/cma.j.issn.0412-4030.2019.03.001
+红斑狼疮（lupus erythematosus，LE）是一种慢性、反复迁延的自身免疫性疾病。该病为一病谱性疾病，病谱的一端为皮肤型红斑狼疮（cutaneous lupus erythematosus，CLE），病变主要限于皮肤；另一端为系统性红斑狼疮（systemic lupus erythematosus，SLE），病变可累及多脏器和多系统，皮肤损害包括特异性皮损及非特异性皮损[1,2]。正确认识这些皮肤损害，有助于红斑狼疮的早期诊断、正确治疗及改善预后[3,4]。为了更好地指导、规范CLE的诊断和治疗，中华医学会皮肤性病学分会红斑狼疮研究中心先后在PubMed、中国知网等数据库以"红斑狼疮（lupus erythematosus）"、"皮肤型红斑狼疮（cutaneous lupus erythematosus）"、"诊断（diagnosis）"、"治疗（treatment）"、"临床试验（clinical trial）"等作为关键词搜集整理近7年来的高质量文献，结合国内外红斑狼疮研究进展，在2012版指南[5]的基础上进一步更新、完善，参考欧洲2017年版CLE诊疗指南[6]，经过数十位专家现场及远程会议多次讨论而制定。本指南适用于成人及儿童CLE，可供广大医疗机构及临床医务工作者参考应用。
+一、分类
+CLE按照临床表现和组织病理学特点可分为以下类型：①急性CLE（acute cutaneous lupus erythematosus，ACLE），包括局限性和泛发性；②亚急性CLE（subacute cutaneous lupus erythematosus，SCLE），包括环形红斑型和丘疹鳞屑型；③慢性CLE（chronic cutaneous lupus erythematosus，CCLE），包括局限性和播散性盘状红斑狼疮（discoid lupus erythematosus，DLE）、疣状红斑狼疮（verrucous lupus erythematosus，VLE）、肿胀性红斑狼疮（tumid lupus erythematosus，TLE）、深在性红斑狼疮（lupus erythematosus profundus，LEP）、冻疮样红斑狼疮（chilblain lupus erythematosus，CHLE）、Blaschko线状红斑狼疮（Blaschko linear lupus erythematosus，BLLE）。少数情况下，CLE可与其他免疫相关性疾病同时存在，称为重叠综合征，例如红斑狼疮与扁平苔藓重叠综合征（LE-LP重叠综合征），以及CLE与干燥综合征、皮肌炎或抗磷脂抗体综合征等自身免疫性疾病的重叠。此外，少数患者的LE样表现和自身抗体可能由某些药物诱导发生，如普鲁卡因酰胺、肼苯哒嗪、质子泵抑制剂[7]、抗肿瘤坏死因子α生物制剂[8]等，停用这些药物后红斑狼疮症状可逐渐自行缓解，再次使用又可诱发红斑狼疮出现，这类红斑狼疮称为药物诱导性红斑狼疮（drug-induced lupus erythematosus，DILE）。
+二、临床及实验室检查
+（一）ACLE：
+1．临床特点：
+ACLE主要见于SLE患者，多发于中青年女性。局限性ACLE表现为面颊和鼻背融合性水肿性红斑（蝶形），可累及额部、颈部、眼眶和胸前V形区（曝光部位）。泛发性ACLE表现为全身对称分布的融合性斑疹、丘疹，夹杂紫癜或瘀斑，颜色深红或鲜红，可发生于身体任何部位，可伴有瘙痒。口腔和鼻腔黏膜可见浅溃疡[9]。ACLE有时可出现大疱性皮损，称为大疱性红斑狼疮；也可发生Rowell综合征（红斑狼疮患者伴有多形红斑皮损，同时抗Ro/SSA、抗La/SSB抗体阳性）。ACLE患者常伴有发热、乏力、纳差、口腔溃疡、关节痛、肺间质病变、浆膜炎、血液及肾脏受累等系统症状，如出现这些症状则提示为SLE，少数情况下可出现呼吸、循环功能障碍或神经精神症状。
+2．组织病理与免疫病理特点：
+表皮萎缩，基底细胞液化变性。真皮浅层水肿，皮肤附属器周围散在或灶状分布淋巴细胞浸润。真皮上部水肿，可见黏蛋白沉积，真皮毛细血管壁可有纤维蛋白样物质沉积。直接免疫荧光（DIF）检查通常可见皮损表皮与真皮交界处IgG、IgM、IgA和（或）补体C3呈颗粒状沉积，即DIF检查阳性；对ACLE患者的非皮损部位"正常"皮肤进行DIF检查，曝光部位阳性率为70%，非曝光部位阳性率为50%[4]。
+3．实验室检查：
+80%以上的患者抗核抗体（ANA）阳性，抗Sm抗体、抗双链（ds）DNA、抗Ro/SSA和抗La/SSB抗体也可以阳性。还可有白细胞减少、贫血、血小板减少、红细胞沉降率升高、蛋白尿和血尿等表现。
+（二）SCLE：
+1．临床特点：
+好发于暴露部位如上背、肩、手臂伸侧、胸前V形区，常伴高度光敏感。根据皮损特点可分为丘疹鳞屑型（图1A）和环形红斑型（图1B）：前者皮损与银屑病皮损近似，为大小不一的红斑、斑块或丘疹，上覆薄层非黏着性鳞屑；后者表现为环形、多环形或弧形外观，为轻度隆起的水肿性红斑。SCLE皮损愈后不留瘢痕，但可继发色素改变和毛细血管扩张[10]。部分患者有其他系统受累表现，约50%的SCLE病例符合SLE分类标准。约20%的SCLE患者并发干燥综合征。环形红斑型比丘疹鳞屑型预后更好，丘疹鳞屑型更容易出现肾脏受累[10]。
+点击查看大图
+图1
+亚急性皮肤型红斑狼疮皮损表现 1A：丘疹鳞屑型；1B：环形红斑型
+图1
+亚急性皮肤型红斑狼疮皮损表现 1A：丘疹鳞屑型；1B：环形红斑型
+2．组织病理与免疫病理特点：
+SCLE与DLE相似，可表现为基底细胞液化变性，真皮血管及皮肤附属器周围淋巴细胞和单核细胞浸润，但炎性浸润较DLE部位浅而轻，无明显角化过度、毛囊角栓[11]。约60%的患者皮损处DIF检查阳性，即表皮与真皮交界处可见IgG和（或）C3呈颗粒状沉积；SCLE患者非皮损部位皮肤DIF阳性率约30%[4]。
+3．实验室检查：
+70% ~ 90%的SCLE患者抗Ro/SSA、抗La/SSB抗体阳性，90%以上ANA阳性。少数可出现白细胞减少、红细胞沉降率升高和蛋白尿。
+（三）CCLE：
+根据其临床特点分为6类。
+1．DLE：
+（1）临床特点：CLE中50% ~ 85%是DLE，男女比例为1∶3，好发于40 ~ 50岁中年人；部分SLE患者也可有DLE皮损，1.3% ~ 5%的DLE患者可发展为SLE。局限性DLE最常发生于头皮、面部、耳部及口唇。典型表现为境界清楚的盘状红斑、斑块，表面覆有黏着性鳞屑，剥离鳞屑可见扩张的毛囊口形成毛囊角栓，外周色素沉着，中央色素减退、轻度萎缩,并可产生萎缩性瘢痕（图2A、图2B）。发生于头皮、眉毛处的DLE可导致不可逆瘢痕性脱发（图2C）。DLE常见的皮肤镜下表现包括毛囊口减少或消失、毛囊角栓、色素脱失及色素沉着、毛细血管扩张、瘢痕性白斑、鳞屑，头皮DLE可出现灰褐色征、毛囊红点征[12,13]。患者多无自觉症状，少数可有轻度瘙痒。少数发生于口唇黏膜的DLE皮损经久不愈，历经数年后可发展为鳞癌，且较一般鳞癌更易发生转移或复发[14]。
+点击查看大图
+图2
+盘状红斑狼疮 2A：颜面部多个大小不等的盘状红斑、斑块，境界清楚，表面覆黏着性鳞屑，额部多个红斑中央轻度萎缩伴色素减退；2B：左颊部两个境界清楚的盘状红斑，中央萎缩，周边色素沉着；2C：左耳后头皮盘状红斑，继发瘢痕性脱发
+图2
+盘状红斑狼疮 2A：颜面部多个大小不等的盘状红斑、斑块，境界清楚，表面覆黏着性鳞屑，额部多个红斑中央轻度萎缩伴色素减退；2B：左颊部两个境界清楚的盘状红斑，中央萎缩，周边色素沉着；2C：左耳后头皮盘状红斑，继发瘢痕性脱发
+除头面部外，DLE皮损还可累及躯干和四肢，此时称为播散性DLE（DDLE）。部分患者可有光敏和轻度关节痛等症状，发生于掌跖的皮损可以有疼痛。与局限性DLE相比，DDLE患者发展为SLE的风险更高。
+（2）组织病理与免疫病理特点：表皮角化过度，毛囊口扩张，可见角质栓，颗粒层增厚，棘层萎缩，表皮突变平，基底细胞液化变性，有时可见基底膜增厚，表皮下层或真皮浅层可见胶样小体[15]，真皮血管和皮肤附属器周围见较致密的灶状淋巴细胞浸润。DLE患者皮损处DIF检查阳性率为80%~90%，非皮损部位皮肤DIF一般为阴性[4]。
+2．VLE：
+（1）临床特点：较少见，常发生于上肢伸侧、手和面部，皮损肥厚呈疣状，类似肥厚性扁平苔藓。皮损表面覆盖有黏着紧密的厚层痂屑（图3）。在其他部位常有典型的DLE皮损。
+点击查看大图
+图3
+疣状红斑狼疮 双手背及指背分布大小不等的肥厚性斑块，表面覆以厚痂
+图4
+肿胀性红斑狼疮 面部多个水肿隆起的鲜红色斑块，表面光滑，无鳞屑
+图3
+疣状红斑狼疮 双手背及指背分布大小不等的肥厚性斑块，表面覆以厚痂
+图4
+肿胀性红斑狼疮 面部多个水肿隆起的鲜红色斑块，表面光滑，无鳞屑
+（2）组织病理特点：基本同DLE，表皮角化过度伴疣状增生，颗粒层楔形增厚，棘层显著肥厚。
+3．TLE：
+（1）临床特点：多发生于青年男性，皮损为隆起的水肿性红斑或环形、半环形风团样斑块，表面光滑，无鳞屑和毛囊角栓，皮温高（图4）。好发于面部或肢体，光敏明显[16,17,18]。间歇发作，缓解和复发常交替发生。
+（2）组织病理特点：表皮变化轻微，可有轻度毛囊角化过度伴基底层空泡变性，主要变化是真皮可见明显的淋巴细胞浸润和黏蛋白沉积。
+4．LEP：
+（1）临床特点：又称狼疮性脂膜炎（lupus erythematosus panniculitis），多见于女性，好发于面部、上肢（尤其三角肌部位）和臀部。皮损为境界清楚的皮下结节或斑块，表面皮肤正常或暗紫红色（图5），极少破溃，可单发或多发，病程长，消退后可形成凹陷性瘢痕[19]。
+点击查看大图
+图5
+狼疮性脂膜炎 左上臂散在暗紫红色斑及浅溃疡，萎缩部位可见明显凹陷
+图6
+冻疮样红斑狼疮 耳廓、面颊部多发紫红色斑，局部皮温偏低
+图7
+Blaschko线状红斑狼疮 左侧面部沿Blaschko线分布多个线状、点片状红斑、斑块，中央萎缩、覆黏着性痂屑
+图5
+狼疮性脂膜炎 左上臂散在暗紫红色斑及浅溃疡，萎缩部位可见明显凹陷
+图6
+冻疮样红斑狼疮 耳廓、面颊部多发紫红色斑，局部皮温偏低
+图7
+Blaschko线状红斑狼疮 左侧面部沿Blaschko线分布多个线状、点片状红斑、斑块，中央萎缩、覆黏着性痂屑
+（2）组织病理特点：表现为皮下脂肪组织小叶性脂膜炎[20]，可见脂肪小叶较为致密的淋巴细胞浸润，亦可见浆细胞和组织细胞；小叶脂肪坏死及钙化，后期发生透明变性；小血管壁及周围可见纤维蛋白样变性或坏死。
+5．CHLE：
+（1）临床特点：多发生于寒冷而潮湿的环境，表现为面颊部、鼻背、耳廓、手足和膝肘部紫红色斑块（图6），皮损一般无明显瘙痒，且随气温回升无明显消退。该型患者部分有光敏和雷诺现象。绝大部分患者缺乏冷球蛋白血症、冷凝集素血症以及冷纤维蛋白原血症的证据[1,21]。
+（2）组织病理特点：表皮萎缩，基底细胞液化变性，真皮血管和毛囊附属器周围大量淋巴细胞浸润。
+6．BLLE：
+（1）临床特点：是一种少见的特殊类型CLE，常发生于青少年，男女发病率类似。皮损多为沿Blaschko线分布的红斑、皮下结节或局限性非瘢痕性脱发（图7），好发于头面部，常无明显自觉症状或偶有瘙痒，较少有光敏现象[22,23]。
+（2）组织病理特点：组织病理改变因皮损性质的不同而不同，分别与DLE、LEP、SCLE等相应类型CLE的组织病理学特点类似，可表现为表皮角化过度、表皮萎缩、毛囊角栓形成、基底细胞液化变性、真皮血管和附属器周围淋巴细胞浸润等[22,23]。
+实验室检查：上述不同类型CCLE患者的实验室检查大多正常，其中4% ~ 20%的患者ANA可以低滴度阳性，1% ~ 3%抗Ro/SSA抗体阳性；< 5%出现抗dsDNA抗体。血液检查显示少数患者有贫血、白细胞减少、血小板减少、红细胞沉降率升高等。尿液检查结果很少异常。
+三、诊断及鉴别诊断
+诊断CLE主要根据各型的临床表现、组织病理及免疫病理特征[1,4]。
+ACLE应与玫瑰痤疮、光敏性皮炎、脂溢性皮炎、药疹、皮肌炎和其他皮肤血管炎等鉴别。SCLE应与Sweet病、多形性日光疹、银屑病、二期梅毒、体癣、多形红斑、离心性环状红斑、环状肉芽肿等鉴别。不典型的CCLE应与环状肉芽肿、扁平苔藓、寻常狼疮、三期梅毒、光线性角化病、结节病、硬皮病、硬化性萎缩性苔藓、寻常疣、淋巴瘤和皮肤淋巴细胞浸润症等鉴别。DIF检查有助于鉴别诊断[24,25]。一般情况下，皮损处DIF阳性支持CLE的诊断,但DIF阴性并不能排除诊断。皮肤镜检查对DLE的诊断及鉴别诊断也有一定参考价值[12,13]。
+四、治疗
+（一）基本治疗：
+应重视对患者的教育，包括正确认识疾病、做好长期治疗的准备、积极配合医生、定期随访等。应避免不良刺激，包括防晒、防寒、戒烟、避免外伤等；注意补充维生素D，尽量避免高盐饮食[26]及光敏性食物，慎用光敏性药物。治疗一般采用"阶梯式治疗"（图8），即根据病情，选择适当的治疗方法[27]。
+点击查看大图
+图8
+皮肤型红斑狼疮阶梯式治疗模式图 a外用维A酸类制剂及系统使用维A酸类药物适用于疣状红斑狼疮；b氨苯砜适用于大疱性红斑狼疮以及常规治疗效果不理想的盘状红斑狼疮和亚急性皮肤型红斑狼疮
+图8
+皮肤型红斑狼疮阶梯式治疗模式图 a外用维A酸类制剂及系统使用维A酸类药物适用于疣状红斑狼疮；b氨苯砜适用于大疱性红斑狼疮以及常规治疗效果不理想的盘状红斑狼疮和亚急性皮肤型红斑狼疮
+（二）局部治疗：
+1．糖皮质激素：
+外用糖皮质激素是广泛采用的治疗手段之一。根据皮损部位及类型选用糖皮质激素。皮肤薄嫩处选择弱或中效制剂，肥厚及疣状皮损选用强效或超强效制剂，亦可采用皮损内注射糖皮质激素。为减少不良反应，外用糖皮质激素的疗程不宜过长，特别是强效及超强效糖皮质激素连续外用一般不应超过2周，如需更长疗程可考虑间断重复使用[6]。
+2．钙调磷酸酶抑制剂[28,29]：
+如他克莫司软膏和吡美莫司乳膏，对SCLE、ACLE有一定疗效，对DLE疗效略差。
+3．维A酸类制剂：
+如他扎罗汀凝胶和维A酸乳膏等，可用于角化明显的DLE。
+（三）系统治疗：
+1．抗疟药：
+抗疟药是系统治疗的一线用药[30]，对DLE、TLE和SCLE的有效率可达80%以上。主要药物有羟氯喹，成人初始剂量为400 mg/d，分2次口服；儿童应采用最小有效剂量，且最大剂量不应超过400 mg/d。年龄低于6岁的儿童禁用。建议妊娠期患者持续使用羟氯喹治疗[6]。
+2．糖皮质激素：
+DDLE、顽固的DLE、ACLE以及部分SCLE需要系统使用糖皮质激素治疗，对于成人患者推荐与羟氯喹联合使用。一般选用中小剂量，如泼尼松0.5 mg/（kg·d），病情控制后缓慢递减并尽早停用。对于无系统受累的CLE患者不推荐用糖皮质激素长期维持治疗[6]。诊断为SLE者，参照SLE诊疗指南治疗。
+3．免疫抑制剂：
+此类药较少用于CLE患者，主要在常规药物疗效不佳时应用。可选用甲氨蝶呤7.5 ~ 20 mg/周或吗替麦考酚酯35 mg/（kg·d），一般与羟氯喹联合使用，使用过程中应注意观察疗效及不良反应并及时调整用药。对于不伴有系统受累的CLE患者，不推荐使用硫唑嘌呤、环孢素及环磷酰胺[6]。
+4．其他系统治疗
+（1）沙利度胺：可用于治疗复发或难治性CLE，推荐与羟氯喹联合使用。成人初始剂量一般推荐为100 mg/d，分2次口服；2周后减为25 ~ 50 mg/d维持治疗，疗程一般为数周至数月。少数患者服用沙利度胺可出现周围神经病变的症状，一旦出现应立即停用，以避免损害加重甚至不可逆。因沙利度胺具有明确的致畸性，计划妊娠或妊娠期女性禁用，服药期间以及停用该药6个月以内应严格避孕。
+（2）氨苯砜：主要用于大疱性红斑狼疮的治疗，也用于常规治疗效果不理想的DLE和SCLE。推荐与羟氯喹联合使用。建议从低剂量开始（50 mg/d），最大剂量不超过1.5 mg/（kg·d），治疗前建议进行葡萄糖-6-磷酸脱氢酶活性以及HLA-B*13:01基因检测。葡萄糖-6-磷酸脱氢酶缺乏者应慎用氨苯砜，以避免发生急性溶血反应；对携带HLA-B*13:01等位基因的个体不建议给予氨苯砜治疗，以避免氨苯砜综合征的发生[31]。
+（3）植物提取物：如雷公藤多苷、白芍总苷等，此类药物具有一定的免疫抑制和（或）免疫调节作用。用法：雷公藤多苷20 mg每日3次；昆明山海棠0.56 g每日3次；白芍总苷0.6 g每日3次。雷公藤多苷、昆明山海棠同属于卫矛科雷公藤属植物的提取物，对性腺有明显的抑制作用，计划妊娠或妊娠期、哺乳期女性禁用；儿童及生育年龄有孕育要求者禁用雷公藤多苷，亦应尽量避免服用昆明山海棠。
+（4）维A酸类：主要用于CCLE的治疗，尤其对VLE的疗效肯定。如阿维A 0.5 ~ 1 mg/（kg·d），或异维A酸10 mg每日2次。维A酸类药物为脂溶性，进餐时服药可促进吸收，治疗2~4周后可根据临床效果及不良反应酌情调整剂量，疗程一般为数周至数月，用药期间应注意监测肝功能及血脂水平。维A酸类药物具有明确的致畸作用，计划妊娠或妊娠期女性禁用。异维A酸停药3个月以后可妊娠，阿维A停药至少两年以上方可妊娠。
+（5）生物制剂：如静脉注射用人免疫球蛋白、利妥昔单抗、贝利单抗等，可用于SLE患者[24,25]。对于不伴有系统受累的CLE患者，不推荐使用上述生物制剂治疗。
+（6）干细胞移植：对部分难治性SLE有较好疗效。对于不伴有系统受累的CLE患者，不推荐使用干细胞移植治疗。
+五、随访
+CLE患者应该常规定期随访。随访时应进行常规的实验室检查（如血尿常规），每6 ~ 12个月复查疾病活动性相关指标（包括红细胞沉降率、补体、ANA、抗dsDNA抗体等），评估病情是否稳定、是否有可能发展为SLE。
+注意药物的不良反应。服用糖皮质激素者应定期检查血压、血糖、血电解质、骨密度等，必要时行髋关节MRI检查。服用羟氯喹第1年内应做1次眼科检查，异常者或年龄在60岁以上者，每年行1次眼科检查；如有视力下降或视物模糊，建议及时到眼科就诊[3]。出现视网膜病变者应停用羟氯喹。
+六、预后
+CLE皮损经治疗多能消退，部分CCLE可遗留萎缩性瘢痕和色素沉着或脱失，个别DLE患者皮损可长期存在。新皮损出现或皮损加重往往提示病情活动。CCLE与SCLE患者因无重要脏器受累，预后大多良好，ACLE患者的预后取决于重要脏器受累程度。
+委员会成员
+参加指南制定的专家名单（以姓氏笔画为序）：丁艳（海南省皮肤病医院）、刁庆春（重庆市第一人民医院）、于建斌（郑州大学第一附属医院）、王刚（第四军医大学西京皮肤医院）、方红（浙江大学医学院附属第一医院）、邓丹琪（昆明医科大学第二附属医院）、龙海（中南大学湘雅二医院）、孙青（山东大学齐鲁医院）、纪超（福建医科大学附属第一医院）、李明（复旦大学附属中山医院）、李承新（解放军总医院）、李珊山（吉林大学第一医院）、李惠（重庆医科大学附属第一医院）、杨斌（南方医科大学皮肤病医院 广东省皮肤病医院）、杨骥（复旦大学附属中山医院）、吴文中（深圳市第二人民医院 深圳大学第一附属医院）、何焱玲（首都医科大学附属北京朝阳医院）、宋智琦（大连医科大学附属第一医院）、张安平（安徽医科大学第一附属医院）、张建中（北京大学人民医院）、陆前进（中南大学湘雅二医院）、陈柳青（武汉市第一医院）、林有坤（广西医科大学第一附属医院）、郑捷（上海交通大学医学院附属瑞金医院）、柳曦光（黑龙江省医院）、姚煦（中国医学科学院皮肤病医院）、耿龙（中国医科大学附属第一医院）、栗玉珍（哈尔滨医科大学附属第二医院）、徐金华（复旦大学附属华山医院）、郭庆（中山大学孙逸仙纪念医院）、陶娟（华中科技大学同济医学院附属协和医院）、曹华（上海交通大学医学院附属瑞金医院）、崔勇（中日友好医院）、康晓静（新疆维吾尔自治区人民医院）、程波（福建医科大学附属第一医院）、鲁严（南京医科大学第一附属医院）、曾抗（南方医科大学南方医院）、赖维（中山大学附属第三医院）、路永红（成都市第二人民医院）
+执笔者 陆前进 龙海
+利益冲突
+利益冲突 本文不涉及任何利益冲突
+参考文献
+[1]
+WallingHW, SontheimerRD.
+Cutaneous lupus erythematosus[J].
+Am J Clin Dermatol,
+2009,
+10(
+6):
+365-
+381.
+doi: 10.2165/11310780-000000000-00000.
+[2]
+靳慧,赵明,陆前进.
+红斑狼疮患者1 006例临床特征研究：来自中国人群红斑狼疮多中心病例对照研究[J].
+中华皮肤科杂志,
+2016,
+49(
+1):
+6-
+11.
+doi: 10.3760/cma.j.issn.0412-4030.2016.01.002.
+[3]
+SticherlingM, BonsmannG, KuhnA.
+Diagnostic approach and treatment of cutaneous lupus erythematosus[J].
+J Dtsch Dermatol Ges,
+2008,
+6(
+1):
+48-
+59.
+doi: 10.1111/j.1610-0387.2007.06557.x.
+[4]
+赵辨.
+中国临床皮肤病学[M].
+南京:
+江苏科学技术出版社,
+2009:
+789-
+806.
+[5]
+中华医学会皮肤性病学分会免疫学组.
+皮肤型红斑狼疮诊疗指南[J].
+临床皮肤科杂志,
+2012,
+41(
+6):
+390-
+392.
+doi: 10.3969/j.issn.1000-4963.2012.06.032.
+[6]
+KuhnA, AbererE, Bata-CsörgőZ, et al.
+S2k guideline for treatment of cutaneous lupus erythematosus-guided by the European Dermatology Forum（EDF）in cooperation with the European Academy of Dermatology and Venereology（EADV）[J].
+J Eur Acad Dermatol Venereol,
+2017,
+31(
+3):
+389-
+404.
+doi: 10.1111/jdv.2017.31.issue-3.
+[7]
+SandholdtLH, LaurinavicieneR, BygumA.
+Proton pump inhibitor-induced subacute cutaneous lupus erythematosus[J].
+Br J Dermatol,
+2014,
+170(
+2):
+342-
+351.
+doi: 10.1111/bjd.2014.170.issue-2.
+[8]
+HeY, SawalhaAH.
+Drug-induced lupus erythematosus: an update on drugs and mechanisms[J].
+Curr Opin Rheumatol,
+2018,
+30(
+5):
+490-
+497.
+doi: 10.1097/BOR.0000000000000522.
+[9]
+KuhnA, KuehnE, MeuthAM, et al.
+Development of a Core Set Questionnaire by the European Society of Cutaneous Lupus Erythematosus（EUSCLE）[J].
+Autoimmun Rev,
+2009,
+8(
+8):
+702-
+712.
+doi: 10.1016/j.autrev.2009.02.022.
+[10]
+张建中,金江,郭利劭,等.
+两型亚急性皮肤型红斑狼疮病情演变的分离现象[J].
+中华皮肤科杂志,
+2001,
+34(
+1):
+9-
+11.
+doi:10.3760/j.issn:0412-4030.2001.01.001.
+[11]
+BaltaciM, FritschP.
+Histologic features of cutaneous lupus erythematosus[J].
+Autoimmun Rev,
+2009,
+8(
+6):
+467-
+473.
+doi: 10.1016/j.autrev.2008.12.014.
+[12]
+中西医结合学会皮肤性病学专业委员会皮肤影像学亚专业委员会.
+毛发疾病皮肤镜诊断专家共识[J].
+中国麻风皮肤病杂志,
+2016,
+32(
+3):
+129-
+132.
+[13]
+孙秋宁,刘洁.
+协和皮肤镜图谱[M].
+北京:
+人民卫生出版社,
+2015:
+161-
+162.
+[14]
+TaoJ, ZhangX, GuoN, et al.
+Squamous cell carcinoma complicating discoid lupus erythematosus in Chinese patients: review of the literature,1964-2010[J].
+J Am Acad Dermatol,
+2012,
+66(
+4):
+695-
+696.
+doi: 10.1016/j.jaad.2011.09.033.
+[15]
+李明,孙建方.
+结缔组织病皮肤表现图鉴与诊疗精要[M].
+北京:
+北京大学医学出版社,
+2009:
+1-
+29.
+[16]
+史冬梅,严红霞,贾虹.
+肿胀性红斑狼疮19例病例分析及文献回顾[J].
+实用皮肤病学杂志,
+2015,
+39(
+5):
+332-
+335.
+doi: 10.11786/sypfbxzz.1674-1293.20150505.
+[17]
+VieiraV, DelPJ, Yebra-PimentelMT, et al.
+Lupus erythematosus tumidus: a series of 26 cases[J].
+Int J Dermatol,
+2006,
+45(
+5):
+512-
+517.
+doi: 10.1111/ijd.2006.45.issue-5
+[18]
+廖文俊,樊平申,胡雪慧,等.
+红斑狼疮的皮肤组织病理学表现[J].
+临床皮肤科杂志,
+2007,
+36(
+6):
+404-
+406.
+doi:10.3969/j.issn.1000-4963.2007.06.039.
+[19]
+郑捷.
+皮肤红斑狼疮的分型与诊断[J].
+诊断学理论与实践,
+2004,
+3(
+4):
+228-
+230.
+doi: 10.3969/j.issn.1671-2870.2004.04.002.
+[20]
+朱学骏,涂平,陈喜雪,等.
+皮肤病的组织病理学诊断[M].
+3版.
+北京:
+北京大学医学出版社,
+2016:
+265-
+267.
+[21]
+HedrichCM, FiebigB, HauckFH, et al.
+Chilblain lupus erythematosus-a review of literature[J].
+Clin Rheumatol,
+2008,
+27(
+8):
+949-
+954.
+doi: 10.1007/s10067-008-0942-9.
+[22]
+JinH, ZhangG, ZhouY, et al.
+Old lines tell new tales: Blaschko linear lupus erythematosis[J].
+Autoimmun Rev,
+2016,
+15(
+4):
+291-
+306.
+doi: 10.1016/j.autrev.2015.11.014.
+[23]
+陈媛,张芙蓉,宋智琦,等.
+线状皮肤型红斑狼疮4例[J].
+中国皮肤性病学杂志,
+2018,
+32(
+1):
+68-
+71.
+doi: 10.13735/j.cjdv.1001-7089.201703120.
+[24]
+李明,孙建方.
+皮肤科结缔组织病诊治[M].
+北京:
+北京大学医学出版社,
+2017:
+29-
+36.
+[25]
+陆前进,张建中,邓丹琪.
+红斑狼疮：从基础到临床[M].
+北京:
+北京大学医学出版社,
+2013:
+141-
+158.
+[26]
+WuH, HuangX, QiuH, et al.
+High salt promotes autoimmunity by TET2-induced DNA demethylation and driving the differentiation of Tfh cells[J].
+Sci Rep,
+2016,
+6:
+28065 .
+doi: 10.1038/srep28065.
+[27]
+ChangJ, WerthVP.
+Therapeutic options for cutaneous lupus erythematosus: recent advances and future prospects[J].
+Expert Rev Clin Immunol,
+2016,
+12(
+10):
+1109-
+1121.
+doi: 10.1080/1744666X.2016.1188006.
+[28]
+BologniaJL, JorizzoJL, RapiniRP.
+Dermatology[M].
+2nd ed.
+St. Louis（MO）:
+Mosby Elsevier,
+2008:
+561-
+574.
+[29]
+KuhnA, RulandV, BonsmannG.
+Cutaneous lupus erythematosus: update of therapeutic options part I[J].
+J Am Acad Dermatol,
+2011,
+65(
+6):
+e179-
+e193.
+doi: 10.1016/j.jaad.2010.06.018.
+[30]
+YokogawaN, EtoH, TanikawaA, et al.
+Effects of hydroxychloroquine in patients with cutaneous lupus erythematosus: a multicenter, double-blind, randomized, parallel-group trial[J].
+Arthritis Rheumatol,
+2017,
+69(
+4):
+791-
+799.
+doi: 10.1002/art.v69.4.
+[31]
+ZhangFR, LiuH, IrwantoA, et al.
+HLA-B*13:01 and the dapsone hypersensitivity syndrome[J].
+N Engl J Med,
+2013,
+369(
+17):
+1620-
+1628.
+doi: 10.1056/NEJMoa1213096.
+贡献者信息
+中华医学会皮肤性病学分会红斑狼疮研究中心
+关键词
+红斑狼疮，皮肤;
+指南;
+诊断;
+治疗;
+利益冲突
+利益冲突 本文不涉及任何利益冲突
+历史
+出版日期：2019-03-15
+收稿日期：2018-12-28
+本文编辑
+尚淑贤
+Guideline and Consensus
+Guideline for diagnosis and treatment of cutaneous lupus erythematosus (2019)
+Centre for Lupus Erythematosus Research, Chinese Society of Dermatology
+Published
+2019-03-15
+Cite as
+Chin J Dermatol, 2019,52(3): 149-155. DOI: 10.3760/cma.j.issn.0412-4030.2019.03.001
+Abstract
+Lupus erythematosus (LE) is a chronic, recurrent autoimmune disease, and referred to as a spectrum of disorders. One end of the spectrum is cutaneous lupus erythematosus (CLE) , which mainly involves the skin, while the other end of the spectrum is systemic lupus erythematosus, which can involve multiple organs and systems besides the skin. Correctly identifying the skin lesions of lupus erythematosus of distinct subtypes will help early diagnosis and treatment of LE, and promote a better prognosis. This guideline focuses on patients with CLE and aims at providing a more scientific and authoritative reference for diagnosis and management of CLE. With a comprehensive investigation of both domestic and international research advances as well as experts′ proposals, the Centre for Lupus Erythematosus Research, Chinese Society of Dermatology has made an update and further supplementation in this guideline on the basis of the previous version, namely, the guideline for diagnosis and treatment of cutaneous lupus erythematosus (2012) . The major updates include the following aspects: a change to the classification system of CLE, addition of Blaschko linear lupus erythematosus (a special subtype) ; complements to the clinical and histopathological features of CLE of different types; updates on the treatment recommendations with more detailed descriptions. This guideline is suitable for adult and childhood CLE.
+Key words:
+Lupus erythematosus, cutaneous; Guidelines; Diagnosis; Therapy
+Contributor Information
+Centre for Lupus Erythematosus Research, Chinese Society of Dermatology
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+图1
+亚急性皮肤型红斑狼疮皮损表现 1A：丘疹鳞屑型；1B：环形红斑型
+图2
+盘状红斑狼疮 2A：颜面部多个大小不等的盘状红斑、斑块，境界清楚，表面覆黏着性鳞屑，额部多个红斑中央轻度萎缩伴色素减退；2B：左颊部两个境界清楚的盘状红斑，中央萎缩，周边色素沉着；2C：左耳后头皮盘状红斑，继发瘢痕性脱发
+图3
+疣状红斑狼疮 双手背及指背分布大小不等的肥厚性斑块，表面覆以厚痂
+图4
+肿胀性红斑狼疮 面部多个水肿隆起的鲜红色斑块，表面光滑，无鳞屑
+图5
+狼疮性脂膜炎 左上臂散在暗紫红色斑及浅溃疡，萎缩部位可见明显凹陷
+图6
+冻疮样红斑狼疮 耳廓、面颊部多发紫红色斑，局部皮温偏低
+图7
+Blaschko线状红斑狼疮 左侧面部沿Blaschko线分布多个线状、点片状红斑、斑块，中央萎缩、覆黏着性痂屑
+图8
+皮肤型红斑狼疮阶梯式治疗模式图 a外用维A酸类制剂及系统使用维A酸类药物适用于疣状红斑狼疮；b氨苯砜适用于大疱性红斑狼疮以及常规治疗效果不理想的盘状红斑狼疮和亚急性皮肤型红斑狼疮
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华皮肤科杂志2019年52卷3期
+文    题：皮肤型红斑狼疮诊疗指南（2019版）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华皮肤科杂志2019年52卷3期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+Original text
+Contribute a better translation
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

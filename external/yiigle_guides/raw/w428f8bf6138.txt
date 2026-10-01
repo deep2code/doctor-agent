@@ -1,0 +1,353 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E7%99%BD%E7%99%9C%E9%A3%8E%E8%AF%8A%E7%96%97%E5%85%B1%E8%AF%86%EF%BC%882018%E7%89%88%EF%BC%89.html
+# 标题: 白癜风诊疗共识（2018版） - 中华皮肤科杂志
+# 发布方/日期: 皮肤科，中华皮肤科杂志, 2018,51(4) : 247-250. DOI: 10.3760/cma.j；2018-04-15
+
+白癜风诊疗共识（2018版）
+中国中西医结合学会皮肤性病专业委员会色素病学组
+中华皮肤科杂志, 2018,51(4) : 247-250. DOI: 10.3760/cma.j.issn.0412-4030.2018.04.001
+本共识以中国中西医结合学会皮肤性病专业委员会色素病学组制订的白癜风诊疗共识（2014版）为基础，通过检索近5年中英文核心数据库关于白癜风诊疗的期刊及专著，结合专家临床实践，经中国中西医结合学会皮肤性病专业委员会色素病学组、中华医学会皮肤科分会白癜风研究中心、中国医师协会色素病工作组部分专家及国内相关专家讨论制定。白癜风治疗的目标：控制皮损发展，促进白斑复色。
+一、选择治疗措施时主要考虑因素
+（一）病期：
+分为进展期和稳定期。进展期判定参考白癜风疾病活动度评分（VIDA）[1]、临床特征、同形反应、Wood灯检查结果。①VIDA积分：根据新皮损或原皮损扩大出现时间，近6周出现+ 4分，近3个月出现+ 3分，近6个月出现+ 2分，近1年出现+ 1分，至少稳定1年为0分，至少稳定1年且有自发色素再生- 1分；总分> 1分即为进展期，≥ 4分为快速进展期；②临床特征：出现皮损边缘模糊、炎性白癜风（包括瘙痒、红斑等）、三色白癜风、纸屑样白斑或色素减退斑等临床表现，可判定为进展期白癜风[2]；③同形反应：皮肤损伤部位1年内出现白斑，损伤方式可以是物理性（创伤、切割伤、抓伤、机械摩擦、持久压迫、热灼伤、冷冻伤）、化学性、过敏性（变应性接触性皮炎）或其他炎症性皮肤病、刺激性反应（接种疫苗、文身等）、治疗性（放射治疗、光疗）等；④Wood灯检查结果：皮损颜色呈灰白色，边界欠清，Wood灯下皮损面积>目测面积，提示为进展期。以上4条符合任何1条即可考虑病情进展。稳定期判定：①VIDA积分为0分；②临床特征：白斑呈瓷白色，边缘清晰或色素沉着；③无同形反应（≥ 1年）；④Wood灯：皮损颜色呈白色，边界清晰，Wood灯下皮损面积≤目测面积。以上4条符合至少两条即可提示稳定期。可同时参考激光共聚焦扫描显微镜（简称皮肤CT）[3]和皮肤镜图像改变，辅助诊断。
+（二）白癜风严重程度评级：
+1级为轻度，白斑面积< 1%；2级为中度，白斑面积1%~5%；3级为中重度，白斑面积6%~50%；4级为重度，白斑面积> 50%。手掌面积约为体表面积的1%。对于< 1%体表面积的白斑，可参考手掌指节单位评定，一个手掌面积为32个指节单位，掌心面积为18个指节单位，1个指节单位占0.03%[4]。白斑面积可按白癜风面积评分指数（vitiligo area scoring index，VASI）判定，VASI = ∑（身体各部占手掌单元数）×该区域色素脱失所占百分比，VASI值0 ~ 100[5]。白斑面积还可借助白癜风严重程度评分系统（vitiligo extent score）（http：//www.vitiligo-calculator.com/）在线评分或者进行图表对比判定[6]。
+（三）型别：
+根据2012年白癜风全球问题共识大会（VGICC）及专家讨论，分为节段型、寻常型、混合型及未定类型白癜风[7]。①节段型（segmental vitiligo）：指沿某一皮神经节段分布（完全或部分匹配皮肤节段）的单侧不对称白癜风，少数可双侧多节段分布；②非节段（寻常）型（non-segmental vitiligo，vitiligo vulgaris）：包括散发型、泛发型、面颈型、肢端型和黏膜型；散发型指白斑≥ 2片，面积为1 ~ 3级；泛发型为白斑面积4级（> 50%）；面颈型、肢端型、黏膜型均可发展为泛发型；③混合型：1 ~ 2年内出现节段型与非节段型并存；④未定类型（原局限型）：指单片皮损，面积为1级，就诊时尚不能确定为节段型或非节段型。
+（四）疗效：
+面颈节段型疗效好，肢端型、黏膜型疗效差。病程越短，疗效越好。儿童疗效优于成人。
+二、治疗原则
+（一）进展期白癜风：
+1．未定类型：
+可外用糖皮质激素（简称激素）或钙调神经磷酸酶抑制剂（他克莫司软膏、吡美莫司乳膏）等，也可外用低浓度光敏药如< 0.1%的甲氧沙林（8-MOP），维生素D3衍生物；可选308 nm准分子激光、准分子光或局部窄谱中波紫外线（NB-UVB）。快速进展期可考虑系统用激素。
+2．非节段型与混合型：
+VIDA积分> 3分考虑系统用激素、中医中药、NB-UVB、308 nm准分子光及准分子激光。快速进展期采用光疗时宜用正常起始量的1/2~ 1/3，可联合系统用激素或抗氧化剂，避免光疗引起的氧化应激导致皮损扩大。局部外用药治疗参考进展期未定类型。
+3．节段型：
+参考进展期未定类型治疗。
+（二）稳定期白癜风：
+1．未定类型：
+外用光敏剂（如8-MOP等）、激素、氮芥、钙调神经磷酸酶抑制剂、维生素D3衍生物等，自体表皮移植及黑素细胞移植，局部光疗参考进展期未定类型。
+2．非节段型与混合型：
+光疗如NB-UVB、308 nm准分子光及准分子激光等，中医中药，自体表皮移植或黑素细胞移植（暴露部位或患者要求的部位）。局部外用药治疗参考稳定期未定类型。
+3．节段型：
+自体表皮移植或黑素细胞移植（至少稳定6个月以上）[8]，包括自体表皮片移植、微小皮片移植、刃厚皮片移植、自体非培养表皮细胞悬液移植、自体培养黑素细胞移植等。其他参考稳定期未定类型治疗。
+三、治疗细则
+（一）激素治疗：
+1．局部外用激素：
+适用于白斑累及面积< 3%体表面积的进展期皮损。超强效或强效激素应在专科医师指导下使用，面部、皱褶及柔嫩部位皮肤用1个月后应更换为钙调神经磷酸酶抑制剂，肢端可持续使用。激素避免用于眼周。如果连续外用激素治疗3~4个月无复色，则表明激素治疗效果差，需更换药物或者联合其他局部治疗方法。
+2．系统用激素：
+主要适用于VIDA > 3分的白癜风患者。口服或肌内注射激素可以使进展期白癜风尽快趋于稳定。成人进展期白癜风，可小剂量口服泼尼松0.3 mg·kg-1·d-1，连服1~3个月，无效中止；见效后每2~ 4周递减5 mg，至隔日5 mg，维持3~ 6个月。或复方倍他米松注射液1 ml肌内注射，每20~ 30天1次，可用1~ 4次或根据病情酌情使用。
+（二）光疗：
+1．局部光疗：
+NB-UVB每周治疗2~ 3次，根据不同部位选取不同的初始治疗剂量，或者在治疗前测定最小红斑量（MED），起始剂量为70%MED，根据红斑反应情况确定下一次照射剂量。同一剂量持续4次后如未出现红斑或红斑持续时间< 24 h，治疗剂量增加10%~20%，直至单次照射剂量达到3.0 J/cm2（Ⅲ型、Ⅳ型皮肤）；如果红斑持续超过72 h或出现水疱，治疗时间应推后至症状消失，下次治疗剂量减少20%~50%；如果红斑持续24~72 h，应维持原剂量继续治疗。308 nm单频准分子光、308 nm准分子激光应每周治疗2~ 3次，治疗起始剂量及下一次治疗剂量调整参考NB-UVB使用指南。
+2．全身NB-UVB治疗：
+适用于皮损散发或泛发全身的非节段型或混合型白癜风。每周治疗2~ 3次，初始剂量及下一次治疗剂量调整与局部NB-UVB类同。NB-UVB比补骨脂素光化学疗法（PUVA）治疗方便，治疗后眼睛不需要遮光保护，光毒性反应少。治疗次数、频率、红斑量和累积剂量并非越多越大疗效越好，累积剂量越大，皮肤干燥、瘙痒、光老化等不良反应越多。治疗次数、频率、红斑量和累积剂量与光耐受（平台期）出现有关[9,10,11]。平台期，一般指光疗持续照射超过20~ 30次后，连续照射无色素恢复；如出现平台期应停止治疗，休息3~ 6个月，起始剂量以MED开始（区别于初次治疗的70% MED）。如果治疗3个月无效或治疗6个月复色< 25%，应考虑停止治疗。只要有持续复色，光疗通常可继续；不建议进行维持性光疗。快速进展期光疗剂量宜从100 mJ起始，联合系统用激素治疗，可避免光疗诱发的同形反应。病程短、非节段型疗效优于病程长、节段型；面颈、躯干疗效优于肢端。
+3．光疗联合治疗：
+光疗联合疗法效果优于单一疗法。光疗联合治疗方案主要有：口服或外用激素、外用钙调神经磷酸酶抑制剂、口服中药制剂、外用维生素D3衍生物、移植治疗、口服抗氧化剂、点阵激光治疗、皮肤磨削术、点阵激光导入激素治疗等。
+4．光化学疗法：
+由于其疗效不优于NB-UVB，且不良反应多，已被NB-UVB取代。
+（三）移植治疗：
+适用于稳定期白癜风患者（稳定6个月以上），尤其适用于节段型白癜风患者，其他型别白癜风暴露部位皮损也可采用。治疗需考虑白斑的部位和大小，进展期白癜风及瘢痕体质患者为移植禁忌证。常用移植方法有自体表皮片移植、微小皮片移植、刃厚皮片移植、自体非培养表皮细胞悬液移植、自体培养黑素细胞移植、单株毛囊移植等。自体表皮片移植操作简单，疗效较好。移植与光疗联合治疗可提高疗效。
+（四）钙调神经磷酸酶抑制剂：
+外用钙调神经磷酸酶抑制剂包括他克莫司软膏及吡美莫司乳膏。治疗应持续3~ 6个月，间歇应用可更长。面部和颈部复色效果最好。特殊部位如眶周可首选，黏膜部位和生殖器部位也可使用[12]。此类药物无激素特别是强效激素引起的不良反应，但要注意可能会增加局部感染如毛囊炎、痤疮的发生率。钙调神经磷酸酶抑制剂可作为维持治疗用药，在白癜风皮损成功复色后每周2次外用3~ 6个月，可有效预防复发或脱色现象[13]。
+（五）维生素D3衍生物：
+可外用卡泊三醇软膏及他卡西醇软膏每日2次[14]。维生素D3衍生物可与NB-UVB、308 nm准分子激光等联合治疗[15]，也可以与外用激素和钙调神经磷酸酶抑制剂联合治疗。局部外用卡泊三醇软膏或他卡西醇软膏可增强NB-UVB治疗的疗效。
+（六）中医中药：
+辨病结合辨证，可分为进展期和稳定期2个阶段，形成与之相对应的4个主要证型：风湿郁热证、肝郁气滞证、肝肾不足证、瘀血阻络证。进展期表现为风湿郁热证、肝郁气滞证，稳定期表现为肝肾不足证、瘀血阻络证。儿童常表现为脾胃虚弱。治疗上进展期以驱邪为主，疏风清热利湿，疏肝解郁；稳定期以滋补肝肾、活血化瘀为主，根据部位选择相应引经药。
+（七）脱色治疗：
+主要适用于白斑累及体表面积> 95%的患者。已经证实对复色治疗的各种方法抵抗，在患者要求下可接受皮肤脱色。脱色后需严格防晒，以避免光损伤及复色。
+1．脱色剂治疗：
+20%氢醌单苯醚，每日2次外用，连用3~ 6周；也可用20%氢醌乳膏，开始用10%浓度，以后每1~ 2个月逐渐增加浓度。每天外用2次，先脱色曝光部位，再脱色非曝光部位，1~ 3个月可见效。注意减少皮肤对脱色剂的吸收，搽药后2~3 h禁止接触他人皮肤。
+2．激光治疗：
+可选Q755 nm、Q694 nm、Q532 nm激光。
+（八）遮盖疗法：
+用于暴露部位皮损，采用含染料的物理或者化学遮盖剂搽白斑处，使颜色接近周围正常皮肤色泽。
+（九）儿童白癜风：
+< 2岁儿童，可外用中效激素治疗，采用间歇外用疗法较为安全。> 2岁儿童，可外用中强效或强效激素。他克莫司软膏及吡美莫司乳膏可用于儿童白癜风治疗[16]。基于此类药治疗儿童特应性皮炎的文献和经验，婴儿白癜风也可应用[17]。维生素D3衍生物也可治疗儿童白癜风[16,18]。快速进展期儿童白癜风可口服小剂量激素治疗，推荐口服泼尼松5~ 10 mg/d连用2~ 3周。如有必要，可在4~ 6周后再重复治疗1次。儿童白癜风可根据治疗需要接受光疗。
+（十）辅助治疗：
+应避免诱发因素，如外伤、暴晒和精神压力，特别是在进展期。补充维生素B、维生素E、叶酸、钙、硒及抗氧化剂等可能有帮助。治疗伴发疾病，做好心理咨询与疏导。
+四、结语
+遵循本共识并不能保证所有患者都能获得满意疗效，也未包括所有白癜风的治疗方法。白癜风治疗应争取确诊后尽早治疗，治疗尽可能采取个性化综合疗法（中西医结合、外用加口服药物相结合、药物和理疗相结合、药物和理疗及外科手术疗法相结合）。治疗应长期坚持，1个疗程至少3个月以上。某些药物（如他克莫司软膏、吡美莫司乳膏、卡泊三醇软膏、他卡西醇软膏等）的说明书中并未包括对白癜风的治疗，但国内外已有文献证明这些药物对白癜风有效（注意超说明书范围使用的知情同意）。关于快速进展期儿童白癜风患者使用小剂量激素口服治疗方法，参考2005年第63届美国皮肤科学会（American Academy of Dermatology，AAD）年会上Pear E. Grimes发表的白癜风治疗共识，结合专家经验形成。
+参与共识制订人员名单（以姓氏汉语拼音为序）
+参与共识制订人员名单（以姓氏汉语拼音为序）傅雯雯（复旦大学附属华山医院）、高天文（空军军医大学西京医院）、高兴华（中国医科大学附属第一医院）、何黎（昆明医科大学第一附属医院）、贾虹（中国医学科学院皮肤病医院）、雷铁池（武汉大学人民医院）、李明（复旦大学附属中山医院）、李铁男（沈阳市第七人民医院）、李珊山（吉林大学第一医院）、卢忠（复旦大学附属华山医院）、鲁严（南京医科大学第一附属医院）、李春英（空军军医大学西京医院）、李强（空军总医院）、刘清（北京中医医院）、柳曦光（黑龙江省医院）、乔树芳（天津市中医药研究院附属医院）、秦万章（复旦大学附属中山医院）、宋智琦（大连医科大学附属第一医院）、宋秀祖（杭州市第三人民医院）、涂彩霞（大连医科大学附属第二医院）、温海（海军军医大学附属长征医院）、吴纪园（武汉市第一医院）、许爱娥（杭州市第三人民医院）、项蕾红（复旦大学附属华山医院）、杨宇光（解放军总医院第一附属医院）、张峻岭（天津市中医药研究院附属医院）、郑志忠（复旦大学附属华山医院）、赵广（空军总医院）、朱光斗（上海交通大学附属第一人民医院）
+执笔者 许爱娥 高天文
+利益冲突
+声明 本共识制订过程中无相关利益冲突
+参考文献
+[1]
+NjooMD, DasPK, BosJD, et al.
+Association of the Köbner phenomenon with disease activity and therapeutic responsiveness in vitiligo vulgaris[J].
+Arch Dermatol,
+1999,
+135（
+4）:
+407-
+413.
+[2]
+SpeeckaertR, SpeeckaertM, De SchepperS, et al.
+Biomarkers of disease activity invitiligo: a systematic review[J].
+Autoimmun Rev,
+2017,
+16（
+9）:
+937-
+945.
+doi: 10.1016/j.autrev.2017.07.005.
+[3]
+XiangW, XuA, XuJ, et al.
+In vivo confocal laser scanning microscopy of hypopigmented macules: a preliminary comparison of confocal images in vitiligo, nevus depigmentosus and postin-flammatory hypopigmentation[J].
+Lasers Med Sci,
+2010,
+25（
+4）:
+551-
+558.
+doi: 10.1007/s10103-010-0764-2.
+[4]
+BaeJM, LeeSC, KatayamaI, et al.
+Development and validation of the vitiligo extent score for target areas（VESTA）: an international collaborative study[J/OL].
+Pigment Cell Melanoma Res,
+2017,
+30:
+e58.
+doi: 10.1111/pcmr.12622.
+[5]
+HamzaviI, JainH, McLeanD, et al.
+Parametric modeling of narrowband UV-B phototherapy for vitiligo using a novel quanti-tative tool: the Vitiligo Area Scoring Index[J].
+Arch Dermatol,
+2004,
+140（
+6）:
+677-
+683.
+doi: 10.1001/archderm.140.6.677.
+[6]
+van GeelN, LommertsJ, BekkenkM, et al.
+Development and validation of the Vitiligo Extent Score（VES）: an international collaborative initiative[J].
+J Invest Dermatol,
+2016,
+136（
+5）:
+978-
+984.
+doi: 10.1016/j.jid.2015.12.040.
+[7]
+EzzedineK, LimHW, SuzukiT, et al.
+Revised classification/nomenclature of vitiligo and related issues: the Vitiligo Global Issues Consensus Conference[J].
+Pigment Cell Melanoma Res,
+2012,
+25（
+3）:
+E1-
+13.
+doi: 10.1111/j.1755-148X.2012.00997.x.
+[8]
+RodriguesM, EzzedineK, HamzaviI, et al.
+Current and emerging treatments for vitiligo[J].
+J Am Acad Dermatol,
+2017,
+77（
+1）:
+17-
+29.
+doi: 10.1016/j.jaad.2016.11.010.
+[9]
+邱实，樊奇敏，胡慧丽,等.
+窄谱中波紫外线治疗白癜风疗效与相关因素的探讨[J].
+中华皮肤科杂志,
+2014,
+47（
+4）:
+287-
+288.
+[10]
+林洁，樊奇敏，许爱娥.
+窄谱中波紫外线治疗白癜风平台期相关研究[J].
+临床皮肤科杂志,
+2016,
+45（
+6）:
+465-
+468.
+[11]
+FelstenLM, AlikhanA, Petronic-RosicV.
+Vitiligo: a comprehensive overview Part II: treatment options and approach to treatment[J].
+J Am Acad Dermatol,
+2011,
+65（
+3）:
+493-
+514.
+[12]
+SiegfriedEC, JaworskiJC, HebertAA.
+Topical calcineurin inhibitors and lymphoma risk: evidence update with implications for daily practice[J].
+Am J Clin Dermatol,
+2013,
+14（
+3）:
+163-
+178.
+doi: 10.1007/s40257-013-0020-1.
+[13]
+CavaliéM, EzzedineK, FontasE, et al.
+Maintenance therapy of adult vitiligo with 0.1% tacrolimus ointment: a randomized, double blind, placebo-controlled study[J].
+J Invest Dermatol,
+2015,
+135（
+4）:
+970-
+974.
+doi: 10.1038/jid.2014.527.
+[14]
+AmeenM, ExarchouV, ChuAC.
+Topical calcipotriol as mono-therapy and in combination with psoralen plus ultraviolet A in the treatment of vitiligo[J].
+Br J Dermatol,
+2001,
+145（
+3）:
+476-
+479.
+[15]
+KhullarG, KanwarAJ, SinghS, et al.
+Comparison of efficacy and safety profile of topical calcipotriol ointment in combination with NB-UVB vs. NB-UVB alone in the treatment of vitiligo: a 24-week prospective right-left comparative clinical trial[J].
+J Eur Acad Dermatol Venereol,
+2015,
+29（
+5）:
+925-
+932.
+doi: 10.1111/jdv.12726.
+[16]
+de MenezesAF, Oliveira de CarvalhoF, BarretoRS, et al.
+Pharmacologic treatment of vitiligo in children and adolescents: a systematic review[J].
+Pediatr Dermatol,
+2017,
+34（
+1）:
+13-
+24.
+doi: 10.1111/pde.13024.
+[17]
+MargolisDJ, AbuabaraK, HoffstadOJ, et al.
+Association between malignancy and topical use of pimecrolimus[J].
+JAMA Dermatol,
+2015,
+151（
+6）:
+594-
+599.
+doi: 10.1001/jamadermatol.2014.4305.
+[18]
+OisoN, KawadaA.
+Freckling promoted by topical tacalcitol in a Japanese boy with left eyelid vitiligo.
+Pediatr Dermatol,
+2012,
+29（
+5）:
+671-
+672.
+doi: 10.1111/j.1525-1470.2011.01559.x.
+贡献者信息
+中国中西医结合学会皮肤性病专业委员会色素病学组
+利益冲突
+声明 本共识制订过程中无相关利益冲突
+历史
+出版日期：2018-04-15
+收稿日期：2017-12-15
+本文编辑
+吴晓初
+Guideline and Consensus
+Diagnosis and treatment of vitiligo: an expert consensus statement(2018)
+Pigmentary Disorder Group, Committee on Dermatology and Venereology, China Society of Integrated Traditional Chinese and Western Medicine
+Published
+2018-04-15
+Cite as
+Chin J Dermatol, 2018,51(4): 247-250. DOI: 10.3760/cma.j.issn.0412-4030.2018.04.001
+Contributor Information
+Pigmentary Disorder Group, Committee on Dermatology and Venereology, China Society of Integrated Traditional Chinese and Western Medicine
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华皮肤科杂志2018年51卷4期
+文    题：白癜风诊疗共识（2018版）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华皮肤科杂志2018年51卷4期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

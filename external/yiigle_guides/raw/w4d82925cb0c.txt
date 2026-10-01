@@ -1,0 +1,1084 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%9C%AF%E4%B8%AD%E8%8E%B7%E5%BE%97%E6%80%A7%E5%8E%8B%E5%8A%9B%E6%80%A7%E6%8D%9F%E4%BC%A4%E9%A2%84%E9%98%B2%E4%B8%8E%E6%8A%A4%E7%90%86%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 术中获得性压力性损伤预防与护理专家共识 - 中华现代护理杂志
+# 发布方/日期: 外科，中华现代护理杂志, 2020,26(28) : 3853-3861. DOI: 10.3760/cma；2020-10-06
+
+术中获得性压力性损伤预防与护理专家共识
+北京护理学会手术室专业委员会
+中华现代护理杂志, 2020,26(28) : 3853-3861. DOI: 10.3760/cma.j.cn115682-20200204-00415
+术中获得性压力性损伤（pressure injury，PI）是医院内获得性PI的重要组成部分，有效降低术中获得性PI的发生率和发生程度是各级医务人员努力追求的目标。目前，国内外多部指南已将手术患者列为PI的高危人群[1,2]，中国医院协会在2019年发布的《患者十大安全目标》中也再次明确提出应强化围术期安全管理[3]，但无论国外还是国内均没有专门针对术中获得性PI的指导性文件。为提高我国围术期护理人员对术中获得性PI的认知和管理水平，北京护理学会手术室专业委员会组织全国相关领域专家，结合现有国内外最新指南及循证证据，共同编写本共识，以期为广大临床护理工作者提供指导依据。
+一、共识的形成方法
+为建立科学规范的《术中获得性压力性损伤共识》（以下简称"《共识》"），北京护理学会手术专业委员会通过组建专家小组，查阅与术中获得性PI的文献证据和对具有临床经验的医护人员进行访谈，确定与术中获得性PI防治可能存在的临床问题；并通过德尔菲调查法进行专家调研，多次召开专家共识小组会议，明确、修正和补充专家推荐意见，形成《共识》初稿。初稿再次经过专家评审，形成《共识》公示稿，公示后定稿，最终形成《共识》。结合前期文献检索、临床工作及研究经验，专家组就推荐意见达成共识。
+1．成立《共识》小组：
+小组由北京护理学会手术室专业委员会6名成员组成，包括主任护师1名，副主任护师4名，主管护师1名。小组成员主要负责拟订研究主题，查阅国内外文献，设计专家函审表，遴选函审专家，以及对函询结果进行整理汇总和分析。
+2．专家函审表的制作：
+计算机检索的英文数据库包括：PubMed、Embase和Cochrane Library，中文数据库包括：中国知网、万方和维普数据库，检索时限均为建库至2019年7月1日。中文文献检索词包括：术中获得性压力性损伤、疾病负担、分级评估、预防、管理、交接；英文文献检索词包括：pressure injuries in the operating room、disease burden、classification and evaluation、prevention、management、handover process。通过文献检索，结合手术室相关的关键或热点问题，构建并起草相关"陈述"。
+3．函询专家遴选：
+一直从事临床一线工作的手术室护理或临床护理专家，工作时间≥10年；从事外科医疗或伤口医疗领域的专家，工作时间≥5年；本科及以上学历；中级及以上职称。共遴选北京、上海、四川等12个省、直辖市的72名专家参与函询调查。
+4．函询调查方法：
+采用德尔菲调查法就相关"条目"进行2轮专家函询，均以匿名、网络投票形式进行。构建的条目在前期调研中，通过面对面访谈的方法征询6名专家意见。征询后，根据专家反馈意见对"条目"进行修改或增补后进入第1轮专家意见函询环节。第1轮专家意见函询完成后将函询结果进行汇总和分析；再次修改"条目"并构建第2轮函询问卷。进行第2轮专家意见的函询，包含第1轮函询结果的反馈。72名专家均参加了"条目"的第1轮和第2轮表决。表决意见分成三级：赞成、中立和反对。
+5．统计学方法：
+应用SPSS 22.0软件统计分析数据。通过专家权威程度、参与调查的积极程度、"条目"的赞同水平3项指标对本次专家调研结果进行评价。（1）专家权威程度以权威系数（Cr）表示，Cr由专家的判断依据系数（Ca）和专家对问题的熟悉程度系数（Cs）决定；（2）专家赞同水平：若表决意见赞同率>75%则表示参与投票表决的大部分专家支持"陈述"内容；（3）专家参与调查的积极程度：以问卷回收率表示。
+二、结果
+全国范围内共遴选来自12个省、直辖市、自治区的72名护理专家，所在地区涵盖北京、上海、四川、湖北、浙江、辽宁等地。2轮函询专家参与积极程度两轮分别为100%（72/72），100%（72/72），2轮函询专家的权威系数分别为0.89和0.90表明专家的积极性和权威性较好。
+（一）相关术语：
+（1）术中获得性PI。指术后48～72 h之内出现并与手术部位有关的任何与压力相关的组织损伤（表现为指压不变白的红斑、皮肤变紫色或水泡等）[4]。（2）术中获得性PI评估量表。用于评估术中获得性PI风险因素的量表[5,6,7]。（3）压力。垂直压在物体上的力称之为压力。压力是PI发生的最主要原因，其会压迫组织并且能够使皮肤和软组织（例如皮下脂肪和肌肉）扭曲和变形[8]。（4）摩擦力。摩擦力是指在接触面上产生的阻碍物体相对运动或相对运动趋势的力，通常发生在两个相互接触的物体相对移动时[8]。（5）剪切力。外力作用发生在组织中引起软组织在横切方向上变形，变形面上的力称为剪切力[8]，是垂直压力导致损害的显著促进因素。（6）手术时间。指整体手术时间，即从入手术室到出手术室的时间，包括准备时间、麻醉时间和手术操作时间等[5]。（7）皮肤组织耐受性。指皮肤及其支持结构的状况或完整性，皮肤组织耐受性可能会受到微环境、营养、灌注、合并症的影响[1]。（8）预防性敷料。是一类有PI预防作用的敷料总称。目前，主要包括透明薄膜敷料、泡沫敷料及水胶体敷料等[9]。
+（二）术中获得性PI的危害和特点：
+手术患者因手术制动时间长、麻醉、术中较低体温等因素更易发生PI。研究表明，约45%的医院内获得性PI均与手术相关[10]。PI一旦发生不仅延长患者住院时间和原发疾病康复时间、增加护理难度，还极大降低患者生活质量，增加感染风险、加重原发疾病，若感染扩散至全身，甚至会引起败血症、脓毒血症、感染性休克，严重威胁患者生命[11,12]。有研究指出，尽管实施了预防性策略，部分患者仍会发生难免性PI[11,12,13]。正确区分可预防的术中获得性PI和难免性PI对于减少相关医疗纠纷有重要意义。院内获得性PI和术中获得性PI的区别见表1。
+点击查看表格
+表1
+术中获得性PI的特点
+表1
+术中获得性PI的特点
+指标
+一般性院内获得性PI
+术中获得性PI
+总发生率a
+9.3%[14]
+较难测得，约占院内获得性PI的45%[10]
+发生时间
+住院期间
+术后7 d内[15]
+发生地点
+病房
+手术室及病房
+参与护理科室
+相关病房
+手术室及相关协同科室
+成因及危险因素
+压力、剪切力和摩擦力；潮湿；营养不良；体位受限；高龄；吸烟；合并心脑血管基础疾病等
+除一般院内获得性PI的成因外，还包括手术相关因素，具体见表2
+损伤程度
+一般为1～2期皮肤损伤
+国内多评估为1~2期皮肤损伤[15]，但国外研究认为一旦发生将造成>2期的严重深层皮肤及皮下组织损伤[16]
+预防措施实施的难易程度
+干预方案多
+术中较难实施
+交接的隐蔽性
+较易察觉
+起病隐匿，不易发觉
+医疗纠纷
+较易
+更易引起医疗纠纷
+评估工具
+Norton量表、Waterlow量表、Braden量表
+国际：Munro评分量表、斯卡特触发点；国内：3S术中风险评估量表
+注：a我国暂缺院内获得性PI的大型横断面调研数据，故此处均引用全球数据；PI为压力性损伤
+（三）术中获得性PI的预防与护理：
+PI的发生原因复杂，以患者皮肤和皮下组织受到压力为主要原因，另外还涉及其他外在因素，如剪切力、摩擦力、皮肤温度、潮湿程度[17]等。但并非所有患者皮肤组织受上述外在因素影响均会出现PI。年龄、体重、体温、疾病[18,19,20,21,22]等内在因素可能通过提高患者对外在因素造成的组织破坏效应的易感程度、降低患者皮肤耐受性，增加PI的发生风险。围术期患者手术时长，术中麻醉剂、冲洗液和医疗器械的应用及医护人员对患者皮肤情况评估不足等均可增加PI的发生风险[1,23,24]。术中获得性PI的发生率及危险因素，见表2。
+点击查看表格
+表2
+术中获得性PI的发生率及危险因素
+表2
+术中获得性PI的发生率及危险因素
+科室
+发生率
+危险因素
+心胸外科[17,25]
+16.4%～30%
+内在因素（1）年龄：>65岁患者术中获得性PI的发生风险高[32] ，儿童患者（低龄）术中获得性PI的发生风险高[22]（2）体重/BMI：偏高或偏低（3）疾病因素：合并心脑血管疾病、肾病、营养不良、糖尿病、既往PI史、术前皮肤状况不佳、截瘫、贫血等（4）情绪因素[33] ：应激、紧张状态导致糖皮质激素和肾上腺皮质激素分泌增加外在因素（1）压力及持续时间（2）手术体位（3）手术时长：手术时间越长，PI的发生风险越高。一般认为手术时间>2.5 h为术中获得性PI发生的危险因素[15,34,35] ；若手术时长>3 h，术中获得性PI发生风险则为2.176倍；若>10 h则术中获得性PI发生风险高达13.344倍[24] 。（4）术前/术后制动时间过长（5）麻醉类型：低氧血症的发生及痛阈下降导致对疼痛的应答和保护机制减弱（6）术中低血压的发生（7）术中体温降低和升高（8）术中其他外力施加（9）血管活性药物的应用（10）潮湿：消毒液、汗液、血液及冲洗液的刺激（11）器械相关因素：①各种固定支架的材质及应用（头托、头圈、约束带等）；②机械性通气设备的材质及使用（鼻氧管、气管插管、呼吸面罩及固定装置）；③其他装置（导尿管、中心静脉管道及固定装置、术中体位垫等其他装置）
+肝胆外科[26]
+19.8%a
+骨科[27]
+9.56%
+口腔颌面-头颈外科[28]
+14%
+颅脑外科[29]
+1.8%
+妇产科[30]
+1.05%b
+胃肠外科[31]
+0.88%
+注：①除表中所示的危险因素外，心胸外科中体外循环（CPB）的应用时长是该科室相对特殊的危险因素[18,25]。②a指术后总PI发生率，术后第1天和第2天分别为4.9%和4.1%；b为PI总发生率，其中与机械通气装置压迫相关的占39.1%，与举宫器使用不当相关的占17.3%。③PI为压力性损伤，BMI为体重指数
+（四）术中获得性PI的预防与护理方法：
+术中获得性PI的预防重点在于通过降低外在因素的水平预防其发生，主要预防措施包括应用正确的皮肤评估量表进行术前风险评估、识别高危人群、对患者进行术中获得性PI预防教育等；手术前在PI高危部位预防性使用敷料及正确实施减压措施；合理安置手术体位；规范手术相关人员操作；做好术中体温保护；规范记录护理文件；规范进行交接；术后定期进行体位转换和早期活动。
+1．评估量表的应用现状：
+目前，国际上用于评估PI风险的量表较多，如Norton量表、Waterlow量表、Braden量表等[36,37]。但部分研究表明，上述评分工具并不完全适用于术中获得性PI风险的评估，其预测价值较低[13,38,39]。2016年美国围术期注册护士协会（Association of Perioprative Registered Nurses，AORN）推荐了专用于手术患者的Munro风险评估表（Munro Pressure Ulcer Risk Assessment Scale）。研究表明，Munro评估表对评估术中获得性PI更具有针对性[5]。但Munro评估表存在评估内容与我国实际工作流程、监测内容不匹配等问题，这使得此量表在国内的推广受到一定限制。斯卡特触发点（scott triggers）由SM Scott开发，操作简便，容易实施，国内外均有临床研究应用斯卡特触发点对术中获得性PI患者进行风险评定。由于斯卡特触发点的相关界值（如BMI以19 kg/m2和40 kg/m2作为上下界值）比较贴近欧美人群，该量表在中国的推广应用仍需进行基于中国人群特征的相关界值[包括年龄、血清蛋白、BMI、美国麻醉医师协会（American Society of Anesthesiologists，ASA）评分、手术时间]的大型随机对照试验验证[6]。我国手术室护理专家基于国内手术患者的特点，通过建立风险模型或自拟专科量表评估不同科室术中获得性PI的发生风险[40,41,42]。这些量表贴合中国人群特征，但都缺乏循证依据和大样本的验证，因此在临床推广受到限制。基于上述循证证据，国内专家对常用3种术中获得性PI风险评估量表的推荐程度约各占1/3，没有某个量表形成明显优势。3个评估量表各有特点，请依据自身实际需求进行选择。3种风险评估量表特点总结见表3。
+点击查看表格
+表3
+常用术中获得性PI风险评估量表
+表3
+常用术中获得性PI风险评估量表
+指标
+Munro评估表
+斯卡特触发点
+3S术中风险评估量表
+评估维度
+术前：基础健康状况、营养状态、BMI、活动度等；术中：手术室床垫、麻醉类型、术中血压变化、术中失血量、手术体位、潮湿等；术后：手术时间、失血量等
+年龄≥62岁、血清蛋白<35 g/L、BMI<19 kg/m2或BMI>40 kg/m2、ASA评分≥3分、手术时间>3 h
+基本信息：年龄、科室、性别；术前评估：手术名称、麻醉方式、全身皮肤状况、术前肢体运动、BMI；术中风险：压力下的皮肤状态、术中出血量、手术时间、术中应激、术中体温、手术体位[8]
+特点
+术前、中、后均进行系统评估，对术中获得性PI发生风险敏感，但评估工作繁琐复杂
+评估过程较简单，便于实施
+根据中国人群特点制定的量表，更符合中国人群特点，但评估方法较为复杂，样本量过小
+注：PI为压力性损伤，BMI为体重指数，ASA为美国麻醉医师协会
+2．预防措施：
+（1）正确评估皮肤情况。术前访视时，应对患者进行皮肤评估，了解患者皮肤特点（年老体弱者尤应注意），询问基础疾病，如糖尿病、高血压病等；查看病历中各种检查情况（如凝血功能、蛋白指数等）；了解手术时长、手术方式、术前卧位情况，对相应受压部位进行细致观察；术中和术后做好相关记录。（2）正确进行体位摆放。体位摆放不正确会影响手术操作，同时也会增加术中不良反应的发生，特别是神经损伤及PI[43]。因此在摆放患者手术体位时操作应规范，符合人体力学原理，降低因应力集中而带来的皮肤和软组织（例如皮下脂肪和肌肉）的扭曲和变形，选择适合的支撑面及合理使用预防性敷料最大限度地降低因体位安置不当导致的神经损伤及PI的发生风险。（3）维持适宜的皮肤温度并保持干燥。皮肤温度升高会引起诸多代谢改变和物理效应，使外部因素破坏皮肤的风险增高；过度潮湿会降低皮肤组织对压力、摩擦力等的耐受性，增加皮肤和支撑表面的摩擦力和剪切力，进而增加PI发生风险[44]。术中环境温度、伤口、瘘管引流，术中冲洗液、消毒液的使用等因素均可破坏皮肤的温度及干湿度平衡。术中手术室内环境温度应维持在21～25 ℃为宜，湿度应控制在40%～60%[45]；术中输注的各类液体及血制品、冲洗液均应进行加温；应用各类主动加温设施，尽量将体温维持在36 ℃以上；术前消毒时应避免使用过量消毒液；操作中应注意观察管路的密闭性，注意维持手术敷料干燥，避免引流液、冲洗液浸湿床单位。（4）减压垫和预防性敷料在围术期的应用。①预防机制：研究表明，泡沫类敷料可通过分散压力、降低摩擦力与剪切力、降低皮肤湿度而降低PI的发生[46,47]。也有敷料通过改善局部血液供应状态来改善皮肤组织耐受性而降低PI的发生。特定敷料的不同材料和构造方式产生的物理效应不同[48]，具体见表4。②应用策略：预防性敷料应在皮肤评估和PI风险评估确认患者有发生风险后使用，不同解剖部位可能需要不同的敷料结构来优化PI的预防作用，应当谨慎选择，正确使用与医疗器械接触时所用的敷料。敷料不应妨碍器械发挥作用，且应当避免在器械下添加过厚的敷料而增加皮肤下的压力。
+点击查看表格
+表4
+影响预防术中获得性PI的敷料产生物理效应的特性
+表4
+影响预防术中获得性PI的敷料产生物理效应的特性
+影响因素
+敷料特性
+举例
+压力
+有效面积的大小；聚氨酯泡沫层厚度；聚氨酯泡沫层的致密度；内在结构带来回弹能力存在差异；
+较厚、面积大的敷料：例如，大规格的聚氨酯泡沫敷料，面积足以延伸超出高危部位
+剪切力
+外表面的摩擦系数；敷料的厚度；敷料与皮肤接触层是否有黏合；敷料的结构
+含有发泡式结构和高致密度材料的聚氨酯泡沫敷料以更大程度地降低应力集中
+摩擦力
+外表面的摩擦系数低
+薄膜、水胶体敷料、泡沫敷料、外表面摩擦小的敷料
+湿度
+吸收性高：能够将汗液从皮肤上吸走；湿气扩散率高：可使水分从敷料外层释放出去；防水的背衬：如冲洗液、尿液等
+防水的泡沫敷料、水胶体
+局部血液供应
+提供湿润平衡的密闭环境
+妥帖的水胶体敷料
+注：PI为压力性损伤
+（五）预防措施：
+术中获得性PI的预防首先应明确的是减压垫和预防性敷料的应用并不能替代常规的预防措施。多项关于不同类型设备和敷料对手术PI预防效果的Meta分析[49,50,51]显示，不同PI预防敷料及设备的预防效果不同，建议护理人员采用泡沫敷料预防高危风险患者PI的发生，提示多单元脉动动态垫优于标准垫，凝胶垫优于海绵垫、标准垫和棉垫纱布，泡沫敷料优于凝胶垫。
+围术期采取适当的护理方法对术中获得性PI的防护有着重要的意义[52,53]。常规的预防措施应至少包括以下措施。（1）术前进行风险评估并对高风险患者实施适当的减压措施；（2）正确安置手术体位；（3）对于PI高发部位，预防性应用敷料、减压垫进行保护性干预；（4）关注单独风险因素，受压点局部骨骼的构型、组织丰满程度、皮肤韧性等因素应考虑在内；（5）术中加强巡视，若手术操作允许，每2小时对皮肤受压部位进行适当调整；（6）注意控制环境和患者皮肤的温湿度并保持干燥；（7）手术前后均应注意对受压部位进行减压，若病情允许应采取不同于术中的体位；（8）整个过程中不应忽视教育所带来的积极意义。
+点击查看表格
+表5
+预防术中获得性PI的敷料应用方案
+表5
+预防术中获得性PI的敷料应用方案
+高危部位
+相关的手术体位
+敷料类型
+使用技巧
+枕后
+仰卧位、截石位
+泡沫敷料
+超出受压范围
+耳
+侧卧位
+水胶体敷料
+顺应耳部敷贴
+额面、下颌a
+俯卧位
+泡沫敷料
+裁剪，分别覆盖骨窿突
+肩
+仰卧位、俯卧位、侧卧位、截石位
+泡沫敷料
+可垫于肩托表面
+肩胛
+仰卧位、截石位
+泡沫敷料
+超出受压范围
+肋
+侧卧位
+泡沫敷料
+垫于受力集中的部位
+前胸部
+俯卧位
+泡沫敷料
+超出受压范围
+臀部（骶尾）a
+仰卧位、截石位
+泡沫敷料
+超出受压范围
+髂嵴a
+俯卧位
+泡沫敷料
+可考虑联合或叠加
+膝
+俯卧位、侧卧位
+泡沫敷料
+联合腿部衬垫，考虑叠加，可应用专用形状
+踝a
+侧卧位
+泡沫敷料
+当无法悬空时应用，可考虑叠加保护
+大转子a
+侧卧位
+泡沫敷料
+应联合腿部衬垫，考虑叠加，可应用专用 形状
+足跟a
+仰卧位、截石位
+泡沫敷料
+可应用足跟专用型号
+被医疗器械压迫的部位a
+水胶体敷料或薄的可裁剪的 泡沫敷料
+根据器械决定或进行相应裁剪
+注：a表示赞成率>75%；PI为压力性损伤
+（六）预防与护理流程：
+针对术中获得性PI的预防及护理需要一套系统而严谨的体系与流程，见图1。
+点击查看大图
+图1
+术中获得性PI预防与护理流程
+注：PI为压力性损伤
+图1
+术中获得性PI预防与护理流程
+（七）术中获得性PI风险点预警提示：
+本《共识》建议参考下列风险评估内容，满足≥3条时，即触发PI发生高危预警。（1）高发专科：骨科、神经外科、心胸外科；（2）手术体位：俯卧位；（3）手术时长：≥4 h；（4）患者年龄：>60岁；（5）BMI：≥28 kg/m2；（6）体温：<36.1 ℃或>37.8 ℃；（7）术中出血量：>400 ml。
+术中获得性PI是医院内获得性PI的重要组成部分，预防或减少术中PI的发生，应做好PI风险评估[54]，并鉴别量表中的单独风险因素；采取必要的预防措施并做好相关记录，使PI的发生和转归具有可追溯性[55]；开展术后随访以了解PI转归情况，并在此基础上及时改进护理方案[56]；开展有效培训，不断提升围术期护理人员对术中获得性PI的认知和管理水平，有效降低术中PI的发生，保护手术患者安全。
+共识委员会成员名单
+执笔专家：孙育红（中日友好医院手术麻醉科）、王菲（首都医科大学附属北京友谊医院手术室）、刘鹏（北京医院手术麻醉科）、闫秋菊（首都医科大学附属北京妇产医院麻醉科）、王薇（首都医科大学附属北京同仁医院麻醉科）、穆莉（北京大学第一医院麻醉科）
+讨论与审阅专家：（按姓氏汉语拼音排列）
+白雪梅（首都医科大学附属北京儿童医院）、董娜（北京潞河医院）、董薪（中国人民解放军总医院）、李颖（首都医科大学宣武医院）、李学宁（首都医科大学附属北京佑安医院）、刘莉（北京大学肿瘤医院）、刘萍（中国医学科学院西苑医院）、刘艳华（北京积水潭医院）、孟小娟（首都医科大学附属北京天坛医院）、石卫青（解放军总医院第五医学中心）、王雯（中国医学科学院阜外医院）、王筱君（解放军总医院第七医学中心）、吴晓舟（北京大学人民医院）、吴秀红（中国医学科学院肿瘤医院）、周茁（北京世纪坛医院）
+函询专家: （按姓氏汉语拼音排列）
+陈锐（武汉市中心医院）、代娓（大连医科大学附属第一医院）、丁瑞芳（海军军医大学附属长海医院）、付馨（湖北省人民医院）、高春燕（海军军医大学附属长征医院）、龚仁蓉（四川大学华西医院）、郭彤（中日友好医院）、哈姆（四川省阿坝州人民医院）、洪发兰（福建医科大学附属第一医院）、胡文娟（上海交通大学医学院附属仁济医院）、胡玉琴（浙江湖州市中心医院）、黄昌斌（四川安岳县人民医院）、黄二顺（北京大学第三医院）、黄萍（上海交通大学医学院附属新华医院）、金梅（北京大学第三医院）、旷婉（武汉华中科技大学同济医学院附属同济医院）、赖兰（上海复旦大学附属华山医院）、郎颖（四川宜宾市第一人民医院）、李根娣（上海复旦大学附属华山医院）、李静（武汉市中心医院）、刘秋秋（中南大学湘雅医院）、刘小林（广安市人民医院）、刘永宁（大连医科大学附属第一医院）、陆建平（复旦大学附属华东医院）、陆琴（上海市静安区中心医院）、罗莎（武汉市中心医院）、罗玉华（四川甘孜藏族自治州人民医院）、潘晓婷（大连医科大学附属第一医院）、普鹰（上海市第一人民医院）、钱蒨健（上海交通大学附属瑞金医院）、钱维明（浙江大学医学院附属第二医院）、沈洁芳（上海交通大学附属上海瑞金医院）、田丽（首都医科大学附属北京友谊医院）、王春灵（复旦大学附属中山医院）、王维（上海交通大学附属上海瑞金医院）、王晓宁（上海交通大学附属上海瑞金医院）、王莺（浙江大学医学院附属第一医院）、王正巧（四川汶川县人民医院）、徐丽萍（上海中医药大学附属龙华医院）、徐培英（上海复旦大学附属闵行医院）、羊海琴（海军军医大学附属长征医院）、杨广鑫（北京大学第三医院）、杨欣（北京大学第三医院）、余红（成都市第一人民医院）、詹文莉（武汉大学人民医院）、张莉敏（浙江省桐乡市第一人民医院）、张琳（武汉大学人民医院）、张龙（北京大学第三医院）、赵景会（北京大学第三医院）、赵培玉（中日友好医院）、赵体玉（武汉华中科技大学同济医学院附属同济医院）、庄敏（上海市第六人民医院）
+利益冲突
+利益冲突 《共识》编写小组成员无相关利益冲突
+参考文献
+[1]
+HaeslerE.
+（2014） National pressure ulcer advisory panel，uropean pressure ulcer advisory panel and pan pacific pressure injury alliance. Prevention and treatment of pressure ulcers：quick reference guide[M].
+Cambridge Media：
+Osborne Park，Western Australia，
+2014.
+[2]
+中华护理学会造口、伤口、失禁护理专业委员会.
+中国压疮护理指导意见[M].
+北京：
+《中国压疮护理指导意见》编委会，
+2013.
+[3]
+中国医院协会.
+《患者安全目标》（2019版）[EB/OL]. （
+2019-06-06） .
+http://www.cha.org.cn/plus/view.php?aid=15808.
+[4]
+BurlingameBL.
+Guideline implementation：positioning the patient[J].
+AORN J，
+2017，
+106(
+3):
+227-
+237.
+DOI：10.1016/j.aorn.2017.07.010.
+[5]
+贾静，罗彩凤，孙婧，等.
+Munro与Braden压疮评估表用于手术患者压疮评估预测效度比较[J].
+护理学杂志，
+2017，
+32(
+18):
+57-
+61.
+DOI：10.3870/j.issn.1001-4152.2017.18.057.
+JiaJ，LuoCF，SunJ，et al. Comparison of predictive validity of the Munro and Braden scale for pressure ulcer risk assessment during surgery[J]. J Nurs Sci，2017，32(18):57-61.
+[6]
+ScottSM.
+Progress and challenges in perioperative pressure ulcer prevention[J].
+J Wound Ostomy Continence Nurs，
+2015，
+42(
+5):
+480-
+485.
+DOI：10.1097/WON.0000000000000161.
+[7]
+GaoX，HuJ，MaQ，et al.
+Design and research on reliability-validity for 3S intraoperative risk assessment scale of pressure sore[J].
+J Huazhong Univ Sci Technol Med Sci，
+2015，
+35(
+2):
+291-
+294.
+DOI：10.1007/s11596-015-1426-1.
+[8]
+EdsbergLE，BlackJM，GoldbergM，et al.
+Revised national pressure ulcer advisory panel pressure injury staging system：revised pressure injury staging system[J].
+J Wound Ostomy Continence Nurs，
+2016，
+43(
+6):
+585-
+597.
+DOI：10.1097/WON.0000000000000281.
+[9]
+CornishL.
+The use of prophylactic dressings in the prevention of pressure ulcers：a literature review[J].
+Br J Community Nurs ，
+2017，
+22
+Suppl 6:
+S26-
+S32.
+DOI：10.12968/bjcn.2017.22.Sup6.S26.
+[10]
+BlackJ，FawcettD，ScottS.
+Ten top tips：preventing pressure ulcers in the surgical patient[J].
+Wounds Int J，
+2014，
+5(
+4):
+14-
+18.
+[11]
+EdsbergLE，LangemoD，BaharestaniMM，et al.
+Unavoidable pressure injury：state of the science and consensus outcomes[J].
+J Wound Ostomy Continence Nurs，
+2014，
+41(
+4):
+313-
+334.
+DOI：10.1097/WON.0000000000000050.
+[12]
+DelmoreB，CoxJ，RolnitzkyL，et al.
+Differentiating a pressure ulcer from acute skin failure in the adult critical care patient[J].
+Adv Skin Wound Care，
+2015，
+28(
+11):
+514-
+524.
+DOI：10.1097/01.ASW.0000471876.11836.dc.
+[13]
+ChouR，DanaT，BougatsosC，et al.
+Pressure ulcer risk assessment and prevention：a systematic comparative effectiveness review[J].
+Ann Intern Med，
+2013，
+159(
+1):
+28-
+38.
+DOI：10.7326/0003-4819-159-1-201307020-00006.
+[14]
+VanGilderC，LachenbruchC，Algrim-BoyleC，et al.
+The international pressure ulcer prevalenceTM survey：2006-2015[J].
+J Wound Ostomy Continence Nurs，
+2017，
+44(
+1):
+20-
+28.
+DOI：10.1097/WON.0000000000000292.
+[15]
+蒋琪霞，瞿小龙，郭秀君，等.
+手术患者压疮发生率及发生时间和影响因素研究[J].
+中国护理管理，
+2013，
+13(
+9):
+25-
+28.
+DOI：10.3969/j.issn.1672-1756.2013.09.009.
+JiangQX，QuXL，GuoXJ，et al. Pressure ulcer incidence and inlfuencing factors among surgical inpatients in general hospitals[J]. Chin Nurs Manag，2013，13(9):25-28.
+[16]
+O'BrienDD，ShanksAM，TalsmaAN，et al.
+Intraoperative risk factors associated with postoperative pressure ulcers in critically ill patients：a retrospective observational study[J].
+Crit Care Med，
+2014，
+42(
+1):
+40-
+47.
+DOI：10.1097/CCM.0b013e318298a849.
+[17]
+ChenHL，ShenWQ，XuYH，et al.
+Perioperative corticosteroids administration as a risk factor for pressure ulcers in cardiovascular surgical patients：a retrospective study[J].
+Int Wound J，
+2015，
+12(
+5):
+581-
+585.
+DOI：10.1111/iwj.12168.
+[18]
+MillerMW，EmenyRT，SnideJA，et al.
+Patient-specific factors associated with pressure injuries revealed by electronic health record analyses[J].
+Health Informatics J，
+2020，
+26(
+1):
+474-
+485.
+DOI：10.1177/1460458219832053.
+[19]
+汪蓉蓉，何重香，贺学宇，等.
+肝移植手术患者压疮预防效果的Meta分析[J].
+中华现代护理杂志，
+2016，
+22(
+27):
+3878-
+3883.
+DOI：10.3760/cma.j.issn.1674-2907.2016.27.008.
+WangRR，HeCX，HeXY，et al. Preventive effect of pressure scores in liver transplant patients：a Meta-analysis[J]. Chin J Mod Nurs，2016，22(27):3878-3883.
+[20]
+ShuklaVK，ShuklaD，SinghA，et al.
+Risk assessment for pressure ulcer：a hospital-based study[J].
+J Wound Ostomy Continence Nurs，
+2008，
+35(
+4):
+407-
+411.
+DOI：10.1097/01.WON.0000326661.24766.93.
+[21]
+FredC，FordS，WagnerD，et al.
+Intraoperatively acquired pressure ulcers and perioperative normothermia：a look at relationships[J].
+AORN J，
+2012，
+96(
+3):
+251-
+260.
+DOI：10.1016/j.aorn.2012.06.014.
+[22]
+郝雪梅，胡小灵，马丽，等.
+小儿发生手术压疮的危险因素分析[J].
+解放军护理杂志，
+2013，
+30(
+15):
+34-
+36.
+DOI：10.3969/j.issn.1008-9993.2013.15.011.
+HaoXM，HuXL，MaL，et al. Risk factors of pressure ulcers in operation for children [J]. Nurs J Chin PLA，2013，30(15):34-36.
+[23]
+TschannenD，BatesO，TalsmaAN，et al.
+Patient-specific and surgical characteristics in the development of pressure ulcers[J].
+Am J Crit Care，
+2012，
+21(
+2):
+116-
+125.
+DOI：10.4037/ajcc2012716.
+[24]
+ChenHL，ShenWQ，LiuP，et al.
+Length of surgery and pressure ulcers risk in cardiovascular surgical patients：a dose-response meta-analysis[J].
+Int Wound J，
+2017，
+14(
+5):
+864-
+869.
+DOI：10.1111/iwj.12722.
+[25]
+ChelloC，LusiniM，SchiliròD，et al.
+Pressure ulcers in cardiac surgery：few clinical studies，difficult risk assessment，and profound clinical implications [J].
+Int Wound J，
+2019，
+16(
+1):
+9-
+12.
+DOI：10.1111/iwj.12994.
+[26]
+ChenY，HeL，QuW，et al.
+Predictors of intraoperative pressure injury in patients undergoing major hepatobiliary surgery[J].
+J Wound Ostomy Continence Nurs，
+2017，
+44(
+5):
+445-
+449.
+DOI：10.1097/WON.0000000000000356.
+[27]
+赵丹，王志稳.
+骨科患者术中压力性损伤发生情况及危险因素研究[J].
+护理学杂志，
+2018，
+33(
+22):
+33-37,56.
+DOI：10.3870/j.issn.1001-4152.2018.22.033.
+ZhaoD，WangZW. Situation of and risk factors of intraoperatively acquired pressure injury in adult patients undergoing orthopedic surgery[J]. J Nurs Sci，2018，33(22):33-37,56.
+[28]
+WrightKM，Van NettenY，DorringtonCA，et al.
+Pressure injury can occur in patients undergoing prolonged head and neck surgery[J].
+J Oral Maxillofac Surg，
+2014，
+72(
+10):
+2060-
+2065.
+DOI：10.1016/j.joms.2014.04.018.
+[29]
+万美萍，蒋紫娟，于文君.
+影响神经外科患者围手术期压疮发生的原因分析及预防措施[J].
+护理实践与研究，
+2018，
+15(
+20):
+17-
+18.
+DOI：10.3969/j.issn.1672-9676.2018.20.006.
+WanMP，JiangZJ，YuWJ. Analysis of the causes of perioperative pressure sores in neurosurgical patients and preventive measures [J]. Nurs Pract Res，2018，15(20):17-18.
+[30]
+彭顺平，谢艳丽，张莉，等.
+妇科腔镜手术中医疗器械相关性压疮的原因分析及护理对策[J].
+全科护理，
+2016，
+14(
+19):
+2015-
+2017.
+DOI：10.3969/j.issn.1674-4748.2016.19.033.
+[31]
+XiongC，GaoX，MaQ，et al.
+Risk factors for intraoperative pressure injuries in patients undergoing digestive surgery：a retrospective study[J].
+J Clin Nurs，
+2019，
+28(
+7-8):
+1148-
+1155.
+DOI：10.1111/jocn.14712.
+[32]
+梁爱琼，颜涛，童光，等.
+心内直视手术发生压疮的危险因素分析[J].
+华南国防医学杂志，
+2016，
+30(
+6):
+405-
+407.
+DOI：10.13730/j.issn.1009-2595.2016.06.016.
+[33]
+CharalambousC，VassilopoulosA，KoulouriA，et al.
+The impact of stress on pressure ulcer wound healing process and on the psychophysiological environment of the individual suffering from them[J].
+Med Arch，
+2018，
+72(
+5):
+362-
+366.
+DOI：10.5455/medarh.2018.72.362-366.
+[34]
+郭月，余云红，赵体玉.
+手术室患者压疮临床特点的回顾性分析[J].
+护理学杂志，
+2014，
+29(
+24):
+36-
+39.
+DOI：10.3870/hlxzz.2014.24.036.
+GuoY，YuYH，ZhaoTY，et al. Retrospective analysis on clinical characteristics of pressure ulcers in operating room[J]. J Nurs Sci，2014，29(24):36-39..
+[35]
+卢秀英，江小芳，朱琳，等.
+肿瘤手术患者术中压疮的危险因素分析[J].
+中华现代护理杂志，
+2017，
+23(
+15):
+1978-
+1982.
+DOI：10.3760/cma.j.issn.1674-2907.2017.15.006.
+LuXY，JiangXF，ZhuL，et al. Retrospective analysis of intraoperative pressure sores among patients receiving tumor surgery[J]. Chin J Mod Nurs，2017，23(15):1978-1982.
+[36]
+TescherAN，BrandaME，ByrneTJO，et al.
+All at-risk patients are not created equal：analysis of Braden pressure ulcer risk scores to identify specific risks[J].
+J Wound Ostomy Continence Nurs，
+2012，
+39(
+3):
+282-
+291.
+DOI：10.1097/WON.0b013e3182435715.
+[37]
+GaddMM.
+Preventing hospital-acquired pressure ulcers：improving quality of outcomes by placing emphasis on the Braden subscale scores[J].
+J Wound Ostomy Continence Nurs，
+2012，
+39(
+3):
+292-
+294.
+DOI：10.1097/WON.0b013e3182514c3d.
+[38]
+罗彩凤，贾静，柏素萍，等.
+围手术期患者压疮评估及评估工具使用现状的调查研究[J].
+中华护理杂志，
+2017，
+52(
+4):
+409-
+413.
+DOI：10.3761/j.issn.0254-1769.2017.04.005.
+LuoCF，JiaJ，BoSP，et al. Investigation and analysis of pressure ulcer assessment and tool utilization for perioperative patients[J]. Chin J Nurs，2017，52(4):409-413.
+[39]
+Van GilderC，Mac FarlaneGD，MeyerS.
+Results of nine international pressure ulcer prevalence surveys：1989 to 2005[J].
+Ostomy Wound Manage，
+2008，
+54(
+2):
+40-
+54.
+[40]
+GaoL，YangL，LiX，et al.
+The use of a logistic regression model to develop a risk assessment of intra-operatively acquired pressure ulcer[J].
+J Clin Nurs，
+2018，
+27(
+15-16):
+2984-
+2992.
+DOI：10.1111/jocn.14491.
+[41]
+钱维明，黄立峰，项海燕，等.
+手术患者压疮危险因素评估量表的研制[J].
+中国护理管理，
+2013，
+13(
+8):
+24-
+27.
+DOI：10.3969/j.issn.1672-1756.2013.08.008.
+QianWM，HuangLF，XiangHY，et al. Developing a pressure sore risk assessment scale for surgical patients by Delphi method[J]. Chin Nurs Manag，2013，13(8):24-27.
+[42]
+王英丽，张圣洁，蒲霞，等.
+手术患者压疮危险因素评估量表在骨科后路手术患者中的信效度检验[J].
+中国护理管理，
+2016，
+16(
+7):
+906-
+909.
+DOI：10.3969/j.issn.1672-1756.2016.07.010.
+WangYL，ZhangSJ，PuX，et al. The reliability and validity of Surgery-related Pressure Sore Risk Assessment Scale for posterior orthopaedics surgery patients[J]. Chin Nurs Manag，2016，16(7):906-909.
+[43]
+李学思，赵婷婷，陈晓阳，等.
+妇科腹腔镜截石位手术发生压疮的相关因素及护理[J].
+中国实用护理杂志，
+2012，
+28(
+16):
+57-
+58.
+DOI：10.3760/cma.j.issn.1672-7088.2012.16.028.
+[44]
+GerhardtLC，SträssleV，LenzA，et al.
+Influence of epidermal hydration on the friction of human skin against textiles[J].
+J R Soc Interface，
+2008，
+5(
+28):
+1317-
+1328.
+DOI：10.1098/rsif.2008.0034.
+[45]
+沈晋明，刘燕敏.
+GB50333-2013《医院洁净手术部建筑技术规范》编制思路[J].
+暖通空调，
+2014，
+44(
+4):
+41-
+47.
+ShenJM，LiuYM. Thoughts of 2013 edition of Architectural technical code for hospital clean operating room[J]. Heating Ventilating Air Conditioning，2014，44(4):41-47.
+[46]
+LevyA，FrankMBO，GefenA.
+The biomechanical efficacy of dressings in preventing heel ulcers[J].
+J Tissue Viability，
+2015，
+24(
+1):
+1-
+11.
+DOI：10.1016/j.jtv.2015.01.001.
+[47]
+MillerSK，SharmaN，AbereggLC，et al.
+Analysis of the pressure distribution qualities of a silicone border foam dressing[J].
+J Wound Ostomy Continence Nurs，
+2015，
+42(
+4):
+346-
+351.
+DOI：10.1097/WON.0000000000000130.
+[48]
+CallE，PedersenJ，BillB，et al.
+Enhancing pressure ulcer prevention using wound dressings：what are the modes of action?[J].
+Int Wound J，
+2015，
+12(
+4):
+408-
+413.
+DOI：10.1111/iwj.12123.
+[49]
+王欣怡，宋俐，王萍，等.
+不同类型敷料对手术压疮预防效果的贝叶斯网状Meta分析[J].
+护士进修杂志，
+2018，
+33(
+11):
+963-
+968.
+DOI：10.16821/j.cnki.hsjx.2018.11.002.
+WangXY，SongL，WangP，et al. Effects of dressings on the prevention of pressure ulcers in operation patients：a Bayesian network Meta-analysis[J]. J Nurs Train，2018，33(11):963-968.
+[50]
+黄锐娜，黄锐佳，邱文波，等.
+5种常用敷料预防高危风险患者压疮的网状Meta分析[J].
+医疗卫生装备，
+2019，
+40(
+3):
+68-
+72.
+DOI：10.19745/j.1003-8868.2019070.
+HuangRN，HuangRJ，QiuWB，et al. Network meta-analysis of five common dressings for preventing pressure ulcer in high-risk patient[J]. Chin Med Equipment J，2019，40(3):68-72.
+[51]
+姚丽，丁楠楠，杨丽平，等.
+不同减压装置预防手术压力性损伤的网状Meta分析[J].
+中国循证医学杂志，
+2018，
+18(
+10):
+1086-
+1092.
+DOI：10.7507/1672-2531.201806070.
+YaoL，DingNN，YangLP，et al. Effects of different decompression device in the prevention of pressure sore：a network meta-analysis[J]. Chin J Evid-Based Med，2018，18(10):1086-1092.
+[52]
+黄维健，曲华，于娟，等.
+品管圈对降低手术压疮发生率的效果[J].
+中华现代护理杂志，
+2015，
+21(
+7):
+748-751,752.
+DOI：10.3760/cma.j.issn.1674-2907.2015.07.002.
+HuangWJ，QuH，YuJ，et al. Effect of quality control circle on reducing the incidence of pressure ulcer during operation[J]. Chin J Mod Nurs，2015，21(7):748-751,752.
+[53]
+JosephJ，McLaughlinD，DarianV，et al.
+Alternating pressure overlay for prevention of intraoperative pressure injury[J].
+J Wound Ostomy Continence Nurs，
+2019，
+46(
+1):
+13-
+17.
+DOI：10.1097/WON.0000000000000497.
+[54]
+赵体玉，郭月，旷婉，等.
+目标管理在预防手术患者术中压疮的应用效果[J].
+中华现代护理杂志，
+2017，
+23(
+6):
+809-
+812.
+DOI：10.3760/cma.j.issn.1674-2907.2017.06.018.
+ZhaoTY，GuoY，KuangW，et al. Application of target management on pressure ulcer prevention in surgical patients[J]. Chin J Mod Nurs，2017，23(6):809-812.
+[55]
+刘亚平，董军，马力，等.
+应用失效模式预防可避免性压疮研究[J].
+中国护理管理，
+2010，
+10(
+9):
+9-
+12.
+DOI：10.3969/j.issn.1672-1756.2010.09.002.
+LiuYP，DongJ，MaL，et al. Using Failure Mode Effective Analysis （FMEA） to prevent avoidable pressure ulcers[J]. Chin Nurs Manag，2010，10(9):9-12.
+[56]
+SpruceL.
+Back to basics：preventing perioperative pressure injuries[J].
+AORN J，
+2017，
+105(
+1):
+92-
+99.
+DOI：10.1016/j.aorn.2016.10.018.
+贡献者信息
+北京护理学会手术室专业委员会
+通信作者
+孙育红
+Email：
+syh1648@163.com
+关键词
+术中获得性压力性损伤;
+护理;
+专家共识;
+作者声明
+引用本文：北京护理学会手术室专业委员会.术中获得性压力性损伤预防与护理专家共识[J].中华现代护理杂志，2020，26（28）：3853-3861. DOI：10.3760/cma.j.cn115682-20200204-00415.
+利益冲突
+利益冲突 《共识》编写小组成员无相关利益冲突
+历史
+出版日期：2020-10-06
+收稿日期：2020-02-04
+本文编辑
+何月
+Expert Consensus
+Expert consensus on prevention and nursing of intraoperative acquired pressure injury
+Operating Committee of Beijing Nursing Association
+Published
+2020-10-06
+Cite as
+Chin J Mod Nurs, 2020,26(28): 3853-3861. DOI: 10.3760/cma.j.cn115682-20200204-00415
+Abstract
+By systematically reviewing the literature and combining with the clinical experience and opinions of the experts, some terms, evaluation, prevention and perioperative nursing strategies of the intraoperative acquired pressure injury were revised and improved by experts, and the consensus on the theoretical and practical guidance of prevention and nursing methods, procedures, early warning tips for risk points and other contents was reached, which can provide clinical reference for clinical nurses.
+Key words:
+Intraoperative acquired pressure injury; Nursing; Expert consensus
+Contributor Information
+Operating Committee of Beijing Nursing Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+术中获得性PI的特点
+指标
+一般性院内获得性PI
+术中获得性PI
+总发生率a
+9.3%[14]
+较难测得，约占院内获得性PI的45%[10]
+发生时间
+住院期间
+术后7 d内[15]
+发生地点
+病房
+手术室及病房
+参与护理科室
+相关病房
+手术室及相关协同科室
+成因及危险因素
+压力、剪切力和摩擦力；潮湿；营养不良；体位受限；高龄；吸烟；合并心脑血管基础疾病等
+除一般院内获得性PI的成因外，还包括手术相关因素，具体见表2
+损伤程度
+一般为1～2期皮肤损伤
+国内多评估为1~2期皮肤损伤[15]，但国外研究认为一旦发生将造成>2期的严重深层皮肤及皮下组织损伤[16]
+预防措施实施的难易程度
+干预方案多
+术中较难实施
+交接的隐蔽性
+较易察觉
+起病隐匿，不易发觉
+医疗纠纷
+较易
+更易引起医疗纠纷
+评估工具
+Norton量表、Waterlow量表、Braden量表
+国际：Munro评分量表、斯卡特触发点；国内：3S术中风险评估量表
+注：a我国暂缺院内获得性PI的大型横断面调研数据，故此处均引用全球数据；PI为压力性损伤
+表2
+术中获得性PI的发生率及危险因素
+科室
+发生率
+危险因素
+心胸外科[17,25]
+16.4%～30%
+内在因素（1）年龄：>65岁患者术中获得性PI的发生风险高[32] ，儿童患者（低龄）术中获得性PI的发生风险高[22]（2）体重/BMI：偏高或偏低（3）疾病因素：合并心脑血管疾病、肾病、营养不良、糖尿病、既往PI史、术前皮肤状况不佳、截瘫、贫血等（4）情绪因素[33] ：应激、紧张状态导致糖皮质激素和肾上腺皮质激素分泌增加外在因素（1）压力及持续时间（2）手术体位（3）手术时长：手术时间越长，PI的发生风险越高。一般认为手术时间>2.5 h为术中获得性PI发生的危险因素[15,34,35] ；若手术时长>3 h，术中获得性PI发生风险则为2.176倍；若>10 h则术中获得性PI发生风险高达13.344倍[24] 。（4）术前/术后制动时间过长（5）麻醉类型：低氧血症的发生及痛阈下降导致对疼痛的应答和保护机制减弱（6）术中低血压的发生（7）术中体温降低和升高（8）术中其他外力施加（9）血管活性药物的应用（10）潮湿：消毒液、汗液、血液及冲洗液的刺激（11）器械相关因素：①各种固定支架的材质及应用（头托、头圈、约束带等）；②机械性通气设备的材质及使用（鼻氧管、气管插管、呼吸面罩及固定装置）；③其他装置（导尿管、中心静脉管道及固定装置、术中体位垫等其他装置）
+肝胆外科[26]
+19.8%a
+骨科[27]
+9.56%
+口腔颌面-头颈外科[28]
+14%
+颅脑外科[29]
+1.8%
+妇产科[30]
+1.05%b
+胃肠外科[31]
+0.88%
+注：①除表中所示的危险因素外，心胸外科中体外循环（CPB）的应用时长是该科室相对特殊的危险因素[18,25]。②a指术后总PI发生率，术后第1天和第2天分别为4.9%和4.1%；b为PI总发生率，其中与机械通气装置压迫相关的占39.1%，与举宫器使用不当相关的占17.3%。③PI为压力性损伤，BMI为体重指数
+表3
+常用术中获得性PI风险评估量表
+指标
+Munro评估表
+斯卡特触发点
+3S术中风险评估量表
+评估维度
+术前：基础健康状况、营养状态、BMI、活动度等；术中：手术室床垫、麻醉类型、术中血压变化、术中失血量、手术体位、潮湿等；术后：手术时间、失血量等
+年龄≥62岁、血清蛋白<35 g/L、BMI<19 kg/m2或BMI>40 kg/m2、ASA评分≥3分、手术时间>3 h
+基本信息：年龄、科室、性别；术前评估：手术名称、麻醉方式、全身皮肤状况、术前肢体运动、BMI；术中风险：压力下的皮肤状态、术中出血量、手术时间、术中应激、术中体温、手术体位[8]
+特点
+术前、中、后均进行系统评估，对术中获得性PI发生风险敏感，但评估工作繁琐复杂
+评估过程较简单，便于实施
+根据中国人群特点制定的量表，更符合中国人群特点，但评估方法较为复杂，样本量过小
+注：PI为压力性损伤，BMI为体重指数，ASA为美国麻醉医师协会
+表4
+影响预防术中获得性PI的敷料产生物理效应的特性
+影响因素
+敷料特性
+举例
+压力
+有效面积的大小；聚氨酯泡沫层厚度；聚氨酯泡沫层的致密度；内在结构带来回弹能力存在差异；
+较厚、面积大的敷料：例如，大规格的聚氨酯泡沫敷料，面积足以延伸超出高危部位
+剪切力
+外表面的摩擦系数；敷料的厚度；敷料与皮肤接触层是否有黏合；敷料的结构
+含有发泡式结构和高致密度材料的聚氨酯泡沫敷料以更大程度地降低应力集中
+摩擦力
+外表面的摩擦系数低
+薄膜、水胶体敷料、泡沫敷料、外表面摩擦小的敷料
+湿度
+吸收性高：能够将汗液从皮肤上吸走；湿气扩散率高：可使水分从敷料外层释放出去；防水的背衬：如冲洗液、尿液等
+防水的泡沫敷料、水胶体
+局部血液供应
+提供湿润平衡的密闭环境
+妥帖的水胶体敷料
+注：PI为压力性损伤
+表5
+预防术中获得性PI的敷料应用方案
+高危部位
+相关的手术体位
+敷料类型
+使用技巧
+枕后
+仰卧位、截石位
+泡沫敷料
+超出受压范围
+耳
+侧卧位
+水胶体敷料
+顺应耳部敷贴
+额面、下颌a
+俯卧位
+泡沫敷料
+裁剪，分别覆盖骨窿突
+肩
+仰卧位、俯卧位、侧卧位、截石位
+泡沫敷料
+可垫于肩托表面
+肩胛
+仰卧位、截石位
+泡沫敷料
+超出受压范围
+肋
+侧卧位
+泡沫敷料
+垫于受力集中的部位
+前胸部
+俯卧位
+泡沫敷料
+超出受压范围
+臀部（骶尾）a
+仰卧位、截石位
+泡沫敷料
+超出受压范围
+髂嵴a
+俯卧位
+泡沫敷料
+可考虑联合或叠加
+膝
+俯卧位、侧卧位
+泡沫敷料
+联合腿部衬垫，考虑叠加，可应用专用形状
+踝a
+侧卧位
+泡沫敷料
+当无法悬空时应用，可考虑叠加保护
+大转子a
+侧卧位
+泡沫敷料
+应联合腿部衬垫，考虑叠加，可应用专用 形状
+足跟a
+仰卧位、截石位
+泡沫敷料
+可应用足跟专用型号
+被医疗器械压迫的部位a
+水胶体敷料或薄的可裁剪的 泡沫敷料
+根据器械决定或进行相应裁剪
+注：a表示赞成率>75%；PI为压力性损伤
+注：PI为压力性损伤
+图1
+术中获得性PI预防与护理流程
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华现代护理杂志2020年26卷28期
+文    题：术中获得性压力性损伤预防与护理专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华现代护理杂志2020年26卷28期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

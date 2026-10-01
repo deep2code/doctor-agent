@@ -1,0 +1,1254 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%8A%97%E4%BD%93%E8%8D%AF%E7%89%A9%E5%81%B6%E8%81%94%E7%89%A9%E6%B2%BB%E7%96%97%E6%81%B6%E6%80%A7%E8%82%BF%E7%98%A4%E4%B8%B4%E5%BA%8A%E5%BA%94%E7%94%A8%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%282020%E7%89%88%29.html
+# 标题: 抗体药物偶联物治疗恶性肿瘤临床应用专家共识(2020版) - 中华肿瘤杂志
+# 发布方/日期: 肿瘤科，中华肿瘤杂志, 2021,43(1) : 78-91. DOI: 10.3760/cma.j.c；2021-01-23
+
+抗体药物偶联物治疗恶性肿瘤临床应用专家共识(2020版)
+中国抗癌协会肿瘤药物临床研究专业委员会
+国家抗肿瘤药物临床应用监测专家委员会
+国家肿瘤质控中心乳腺癌专家委员会
+北京市肿瘤治疗质量控制和改进中心肿瘤化疗质控专家委员会
+中华肿瘤杂志, 2021,43(1) : 78-91. DOI: 10.3760/cma.j.cn112152-20201112-00981
+抗体药物偶联物(antibody-drug conjugate, ADC)是一类通过特定的连接头将靶标特异性的单克隆抗体与高杀伤性的细胞毒性药物偶联起来的靶向生物药剂，以单抗为载体将小分子细胞毒性药物以靶向方式高效地运输至目标肿瘤细胞中[1]。ADC药物的概念最初源自100年前Paul Ehrlich提出的魔术子弹概念，但直至20世纪80年代，才随着非免疫原性(尤其是人源化)单克隆抗体的研发而出现飞速进展[2]。ADC药物结合了靶向性、选择性强的抗体和高抗肿瘤活性细胞毒性药物的优势，在保留小分子细胞毒性药物肿瘤杀伤特性的同时，选择性降低小分子细胞毒性药物的脱靶毒副作用，有效提高了抗肿瘤治疗的获益风险比[3]。因此，近年来ADC药物一直是肿瘤精准治疗领域的热门研究方向之一。目前，全球已有8种ADC药物获得批准用于临床(包括血液系统肿瘤和实体瘤领域，表1)。此外，还有百余种ADC药物的临床研究正在开展中[2]。
+点击查看表格
+表1
+目前美国欧盟和中国已获批上市的抗体药物偶联物药物列表
+表1
+目前美国欧盟和中国已获批上市的抗体药物偶联物药物列表
+药物名称
+靶点
+细胞毒性药物
+适应证
+获得批准情况
+吉妥珠单抗
+CD33
+刺孢霉素
+CD33阳性急性髓性白血病
+2000年获得批准，2010年撤销上市2017年于美国重新获得批准2018年于欧盟获得批准
+维布妥昔单抗
+CD30
+甲基澳瑞他汀E
+经典型霍奇金淋巴瘤；系统性间变性大细胞淋巴瘤或CD30阳性外周T细胞淋巴瘤；原发CD30阳性皮肤间变性大细胞淋巴瘤或CD30阳性的蕈样肉芽肿
+2011年于美国获得批准2012年于欧盟获得批准2020年于中国获得批准
+恩美曲妥珠单抗
+HER-2
+美坦辛衍生物
+HER-2阳性晚期乳腺癌二线治疗抗HER-2新辅助治疗后仍有残存病灶的乳腺癌辅助治疗
+2013年美国获得批准2020年中国获得批准
+奥英妥珠单抗
+CD22
+刺孢霉素
+成人复发或难治性CD22阳性前体B细胞急性淋巴细胞白血病
+2017年于美国获得批准
+Polatuzumab Vedotin
+CD79b
+甲基澳瑞他汀E
+联合苯达莫司汀和利妥昔单抗治疗复发或难治性弥漫大B细胞淋巴瘤
+2019年于美国获得批准
+Enfortumab Vedotin
+Nectin-4
+甲基澳瑞他汀E
+既往接受过含铂化疗和1种PD-1或PD-L1抑制剂的局部晚期或转移性尿路上皮癌
+2019年于美国获得批准
+Trastuzumab Deruxtecan
+HER-2
+Exatecan衍生物
+无法切除或转移性HER-2阳性乳腺癌，针对转移病灶接受过2种以上抗HER-2治疗
+2019年于美国获得批准
+Sacituzumab Govitecan
+TROP-2
+SN-38，伊立替康的活性代谢产物
+转移性三阴性乳腺癌，既往接受过至少2线治疗
+2020年于美国获得批准
+注：HER-2:人表皮生长因子受体2; PD-1:程序性死亡受体1; PD-L1:程序性死亡受体配体1; TROP-2:抗滋养层细胞表面抗原2;数据截至2020年10月28日
+深入理解ADC药物的研发历程和机制特点固然重要，但在ADC药物的临床应用过程中，患者筛选、剂量与疗程选择和不良反应管理亦同等重要，甚至可能影响患者的生存转归[4]。因此，本共识旨在对市面可及的ADC药物进行系统概述，从而为临床医师更好地应用和管理ADC药物提供切实有效的建议和参考。本共识将重点介绍在我国已上市和即将上市的ADC药物。
+由于ADC药物的靶点和作用机制不同，当前批准用于多个恶性肿瘤的ADC药物难以一概而论，中国抗癌协会肿瘤药物临床研究专业委员会、国家抗肿瘤药物临床应用监测专家委员会和国家肿瘤质控中心乳腺癌专家委员会联合北京市肿瘤治疗质量控制和改进中心肿瘤化疗质控专家委员会，共同组织邀请来自肿瘤各学科诊疗专家和相关领域跨学科专家共同撰写本共识，以推进ADC药物的临床研究进展，规范其临床应用，同时强化ADC药物安全性管理。
+中国抗癌协会肿瘤药物临床研究专业委员会、国家抗肿瘤药物临床应用监测专家委员会、国家肿瘤质控中心乳腺癌专家委员会、北京市肿瘤治疗质量控制和改进中心肿瘤化疗质控专家委员会为联合主体，邀请国内具有丰富治疗经验的临床肿瘤专家和相关跨学科专家，会前将相关临床研究的数据发送至与会专家，并对初稿内容及投票问题提出建议，随后在共识会议中邀请与会专家对相关问题讨论并汇总成文。在获得所有公示委员成员确认后发表。
+1．ADC药物定义：
+ADC药物是一类由抗体、连接头和细胞毒性药物组成的靶向生物药剂，旨在通过特定的连接头将靶标特异性的单抗与高杀伤性的细胞毒性药物偶联起来。ADC药物通常应包含以下3个组分：高特异性和亲和力的抗体、高稳定性的连接头和高效的小分子细胞毒药物[4,5]。
+2．临床应用：
+ADC药物是一类具有独特作用机制的抗肿瘤创新药，既往临床数据显示，ADC药物在肿瘤治疗中具有很好的疗效和安全性，本共识旨在推进ADC药物的临床使用规范和安全应用，让更多的肿瘤患者获益。
+3．多学科管理：
+ADC药物的不良反应取决于非肿瘤组织靶标的生理功能和阳性率、连接头的性质、细胞毒性药物的数量和类型以及旁观效应等多种因素，因此，针对每种ADC药物应密切关注特异性的不良反应，并给予对症处理，必要时应邀请相关学科专家会诊，降低不良反应对患者预后和生活质量的影响。
+一、ADC药物临床数据和相关共识
+截至目前，已有8种ADC药物在全球范围内获批用于临床，其中，我国已有2种ADC药物获得批准使用(表1)。
+(一)国内已上市的ADC药物
+1．恩美曲妥珠单抗(Trastuzumab Emtansine, T-DM1)
+T-DM1是首个在实体瘤中获批的强效ADC药物，由重组人源化抗人表皮生长因子受体2(human epidermal growth factor receptor 2, HER-2)免疫球蛋白G1(Immunoglobulin G1, IgG1)单克隆抗体曲妥珠单抗、非还原性硫醚接头和微管蛋白抑制剂美坦辛衍生物(maytansinoid, DM1)组成[6]。每个抗体平均偶联3.5个DM1，通过共价键偶联到曲妥珠单抗的赖氨酸残基上。DM1和长春碱药物作用机制相似，通过与微管蛋白结合来抑制微管蛋白聚合，进而诱导细胞周期阻滞和细胞凋亡。体外研究显示，DM1的细胞毒性比紫杉醇类高24～270倍[7]。T-DM1与HER-2受体结合使复合物可通过受体介导的内吞作用进入靶细胞，T-DM1中的抗体组分在溶酶体中被降解，将DM1释放至细胞质中，最终导致细胞周期停滞并诱导细胞凋亡。另外，体外研究显示，T-DM1与曲妥珠单抗的作用机制相似，可以抑制HER-2受体信号转导，同时诱导抗体依赖细胞介导的细胞毒性作用，抑制HER-2过表达的人乳腺癌细胞中HER-2胞外域的脱落[8]。
+(1)HER-2阳性早期乳腺癌：KATHERINE研究是一项国际、多中心Ⅲ期临床研究，共纳入1 486例含曲妥珠单抗方案新辅助治疗后，未达病理学完全缓解(pathologic complete response, pCR)的HER-2阳性乳腺癌患者，患者随机接受14个周期T-DM1治疗或14个周期曲妥珠单抗治疗，中位随访41个月时，T-DM1组患者3年无浸润性疾病生存率(invasive disease free survival, iDFS)为88.3%，曲妥珠单抗组为77.0%(HR＝0.50，P<0.001)[9]。曲妥珠单抗联合帕妥珠单抗双靶向新辅助治疗后未达到pCR的患者，仍能从T-DM1的强化辅助治疗中获益，其中T-DM1组和曲妥珠单抗组患者的3年iDFS分别为91.4%和80.9%(HR＝0.498)[9]，获益趋势与主要研究终点一致。与曲妥珠单抗组相比，T-DM1组不良反应的发生率较曲妥珠单抗组高(≥3级不良反应发生率分别约为25.7%和15.4%)[9]。
+KATHERINE研究改变了HER-2阳性早期乳腺癌的诊疗路径[9]。2020年1月，T-DM1在中国上市，获得批准用于治疗接受新辅助治疗后仍有残存病灶的HER-2阳性早期乳腺癌。该药推荐用法用量为3.6 mg/kg，静脉输注(首次输注90 min，如耐受良好，后续可缩短至30 min)，每3周1次，直至疾病进展或出现不能耐受的不良反应。T-DM1用量禁止超过3.6 mg/kg，禁止与曲妥珠单抗相互代替使用(表2)。
+点击查看表格
+表2
+抗体药物偶联物药物常见给药方案和剂量
+表2
+抗体药物偶联物药物常见给药方案和剂量
+药物名称
+适应证
+常见给药方案和剂量
+吉妥珠单抗
+初诊的CD33阳性AML成人和≥1个月的儿童患者
+诱导期：3 mg/m2，静脉输注(第1、4、7天)，与柔红霉素和阿糖胞苷联合；巩固期：3 mg/m2，静脉输注(第1天)，与柔红霉素和阿糖胞苷联合
+初诊的CD33阳性AML成人和≥1个月的儿童患者
+诱导期：6 mg/m2，静脉输注(第1天)，3 mg/m2，静脉输注(第8天)；巩固期：2 mg/m2(第1天)，每4周1次。对于诱导期后无疾病进展证据的患者，持续治疗直至8个疗程
+复发或难治性CD33阳性AML成人和≥2岁的儿童患者
+3 mg/m2，静脉输注(第1、4、7天)
+维布妥昔单抗
+作为复发或进展风险较高的CHL ASCT后巩固治疗；不适合ASCT、ASCT失败后或既往至少2种多药化疗方案失败后的CHL；既往至少1种多药化疗方案失败后的sALCL；既往接受过全身治疗的原发性皮肤间变性大细胞淋巴瘤或CD30阳性的蕈样肉芽肿
+1.8 mg/kg，静脉输注(最大剂量为180 mg)，每3周1次
+未经治疗的Ⅲ～Ⅳ期CHL
+1.2 mg/kg，静脉输注(最大剂量为120 mg)，每2周1次(最多12个周期)，与化疗联合
+未经治疗的sALCL或其他表达CD30的外周T细胞淋巴瘤
+1.8 mg/kg，静脉输注(最大剂量为180 mg)，每3周1次(6～8个周期)，与化疗联合
+恩美曲妥珠单抗
+既往接受过曲妥珠单抗和紫杉类药物单独或联合治疗的HER-2阳性晚期乳腺癌患者。患者应满足以下条件之一：既往接受过针对转移性疾病治疗；在辅助治疗期间复发；完成辅助治疗后6个月内出现复发；在基于紫杉烷和曲妥珠单抗的新辅助治疗后残留浸润性疾病的HER-2阳性早期乳腺癌患者的辅助治疗
+3.6 mg/kg，静脉输注，每3周1次，直至疾病进展或出现不可耐受的毒性反应，或早期乳腺癌患者辅助治疗至14个周期
+奥英妥珠单抗
+复发或难治性前体B细胞急性淋巴细胞白血病成人患者
+第1个周期(共21 d)：0.8 mg/m2 (第1天)、0.5 mg/m2(第8天)、0.5 mg/m2(第15天) ，静脉输注；后续周期剂量视患者治疗反应而定；达到CR或CRi的患者：0.5 mg/m2(第1天)、0.5 mg/m2(第8天)、0.5 mg/m2(第15天) ，静脉输注，28 d为1个周期；未达到CR或CRi的患者：0.8 mg/m2 (第1天)、0.5 mg/m2(第8天)、0.5 mg/m2 (第15天) ，静脉输注，28 d为1个周期
+Polatuzumab Vedotin
+既往接受过治疗的不适合造血干细胞移植的弥漫性大B细胞淋巴瘤成人患者
+1.8 mg/kg(第1天) ，静脉输注，每3周1次(共6个周期，21 d为1个周期)，与苯达莫司汀和利妥昔单抗联合
+Enfortumab Vedotin
+曾接受PD-1或PD-L1抑制剂治疗，或曾接受含铂方案新辅助/辅助化疗的局部晚期或转移性尿路上皮癌成人患者
+1.25 mg/kg，静脉输注(最大剂量为125 mg，输注时间>30 min)，第1、8、15天(28 d为1个周期)，直至疾病进展或出现不可耐受的不良反应
+Trastuzumab Deruxtecan
+既往接受过≥2种抗HER-2治疗的不可切除或转移性HER-2阳性乳腺癌成人患者
+5.4 mg/kg，静脉输注，每3周1次，直至疾病进展或出现不可耐受的不良反应
+Sacituzumab Govitecan
+既往接受过≥2种转移性疾病疗法的转移性三阴性乳腺癌成人患者
+10 mg/kg，静脉输注，第1、8天(每21 d为1个周期)，直至疾病进展或出现不可耐受的不良反应
+注：AML:急性髓性白血病；CHL:经典霍奇金淋巴瘤；ASCT:自体造血干细胞移植；sALCL:系统性间变性大细胞淋巴瘤；HER-2:人表皮生长因子受体2; CR:完全缓解；CRi:血细胞计数不完全恢复的完全缓解；PD-1:程序性死亡受体1; PD-L1:程序性死亡受体配体1
+(2)HER-2阳性晚期乳腺癌：两项Ⅲ期临床研究EMILIA研究[10]和TH3RESA研究[11]支持T-DM1在HER-2阳性晚期乳腺癌中获得批准并使用。EMILIA研究(991例)结果显示，对于既往接受过紫杉类药物和曲妥珠单抗为基础的HER-2阳性晚期乳腺癌患者，T-DM1较拉帕替尼＋卡培他滨可显著延长患者的中位无进展生存时间(progression-free survival, PFS；分别为9.6和6.4个月；HR＝0.65，P<0.001)和中位总生存时间(overall survival, OS；分别为30.9和25.1个月，HR＝0.68；P<0.001)，并且T-DM1组患者的≥3级不良反应发生率更低(分别为41%和57%)[10]。TH3RESA研究(602例)也显示，与医师选择的治疗方案相比(中位OS和中位PFS分别为15.8和3.3个月)，T-DM1可改善患者的中位OS[12]和中位PFS(分别为22.7和6.2个月，均P<0.005)[11]。
+2013年起，美国食品药品监督管理局(Food and Drug Administration, FDA)陆续批准T-DM1用于HER-2阳性晚期乳腺癌或新辅助治疗后有残留病灶的早期乳腺癌，用量用法同表2。2019年一项Ⅱ期临床研究结果显示，T-DM1治疗HER-2突变肺癌的客观缓解率(objective response rate，ORR)高达44%[13]。因此，NCCN指南推荐，HER-2突变的非小细胞肺癌可考虑T-DM1治疗，但T-DM1在肺癌中的适应证尚未获批。
+共识建议：T-DM1用于HER-2阳性乳腺癌新辅助治疗后仍有残留病灶患者的辅助治疗，与曲妥珠单抗比较，T-DM1可使患者显著获益，可大幅提高无浸润性疾病生存率。因此，共识推荐，接受抗HER-2新辅助治疗后仍有残留病灶的HER-2阳性乳腺癌患者，选择接受14个周期的T-DM1治疗。
+共识推荐，对于以曲妥珠单抗为基础治疗方案进展的HER-2阳性晚期乳腺癌患者，或曲妥珠单抗辅助治疗结束后6个月内复发的HER-2阳性患者，建议选择T-DM1进行治疗；对于接受过多线抗HER-2治疗进展后的晚期乳腺癌患者，也可选择T-DM1进行治疗。
+血小板减少是T-DM1的特殊不良反应，血小板计数降低通常是一过性的，但亚洲人群中血小板减少的发生率更高，建议临床应用T-DM1时，应常规监测血小板动态变化，及时进行干预和治疗，详见安全性管理章节。
+2．维布妥昔单抗(Brentuximab Vedotin, BV)
+BV(SGN-35)是一类在临床实践中证实的强效ADC药物，由靶向CD30的单克隆抗体(通过中国仓鼠卵巢细胞重组DNA技术生产的重组嵌合IgG1)共价连接抗微管药物甲基澳瑞他汀E(MMAE)组成，每个抗体平均偶联4个MMAE，MMAE可干扰微管蛋白聚合并破坏有丝分裂，进而诱导细胞周期阻滞和细胞凋亡[14]。除直接与CD30阳性淋巴细胞结合外，BV还通过抗体依赖性细胞吞噬作用、免疫原性细胞死亡和肿瘤旁细胞杀伤作用来增强对肿瘤的杀伤作用[1]。
+最初两项Ⅱ期研究[15,16]证实了BV在经典霍奇金淋巴瘤(classic Hodgkin lymphoma, CHL)和系统性间变性大细胞淋巴瘤(systemic anaplastic large cell lymphoma, sALCL)中的有效性。BV治疗复发或难治性CHL患者(102例)的ORR高达75%，而5年生存率达41%[15]；治疗复发或难治性sALCL患者(58例)的ORR和5年生存率分别高达86%和60%[16]。后续在复发或难治性霍奇金淋巴瘤患者中进行的Ⅲ期研究AETHERA(329例)进一步证实，患者自体造血干细胞移植(autologous stem cell transplant, ASCT)后，给予BV 16疗程巩固治疗，与安慰剂相比，显著改善患者的中位PFS(分别为42.9和24.1个月，P＝0.001 3)[17]。在其他CD30阳性淋巴瘤中，BV同样显示有效。ALCANZA Ⅲ期研究(131例)结果显示，与经医师选择的治疗方案甲氨蝶呤或贝沙罗汀相比，BV治疗CD30阳性的皮肤T细胞淋巴瘤可显著提高患者持续≥4个月的ORR(分别为13%和56%，P<0.000 1)，并延长患者的中位PFS(分别为3.5和16.7个月，P<0.000 1)[1]。BV治疗最常见的不良反应包括感染、恶心、疲劳、腹泻、周围感觉神经和运动神经病变、中性粒细胞减少、高血糖和皮疹等。≥3级的高血糖发生率约为3%，周围运动神经病变是接受BV治疗患者最常见的不良反应(28%)，但主要以2级不良反应为主，约13%的患者可能发生输液相关反应(infusion-related reactions, IRR)[1]。
+长期随访结果显示，国际预后评分(international prognostic score, IPS)≥4分的Ⅲ～Ⅳ期CHL患者中，BV＋AVD方案(阿霉素＋长春新碱＋达卡巴嗪)与标准ABVD方案(阿霉素＋博来霉素＋长春新碱＋达卡巴嗪)相比，改善了患者的2年无进展生存率(分别为81.0%和74.4%)，减少了肺毒性(分别为2%和7%)，但该方案增加了粒细胞减少性发热及外周神经毒性的风险[18]。
+BV于2020年5月正式获得中国国家药品监督管理局批准上市，在中国获批的适应证为复发或难治性sALCL以及复发或难治性CHL。推荐剂量为1.8 mg/kg，30 min以上静脉输注给药，每3周1次，直至疾病进展或出现不能耐受的不良反应(表2)。
+共识建议：对于复发难治性CD30阳性外周T细胞淋巴瘤患者，推荐接受BV治疗。sALCL优选BV＋CHP方案(环磷酰胺＋多柔比星＋泼尼松)，其他任何CD30阳性的组织学亚型可考虑选择BV＋CHP方案。ECHELON2研究中入选的为≥10% CD30阳性肿瘤细胞的外周T细胞淋巴瘤的患者，但是对于CD30阳性的临界值目前还存在较大争议。
+老年和肺功能不全的患者可考虑选择BV＋AVD方案治疗，推荐化疗期间预防性应用粒细胞集落刺激因子(granulocyte-colony stimulating factor, G-CSF)支持治疗。
+对于复发或难治性CHL患者的治疗，首选二线解救方案化疗后进行大剂量化疗＋ASCT，肿瘤原发耐药或一线治疗后12个月内复发或复发时伴有结外病灶等不良因素的患者，行ASCT治疗后可进行BV单药维持治疗1年，ASCT失败后亦可选择BV治疗。此外，还可考虑BV＋苯达莫司汀或纳武利尤单抗用于复发或难治性CHL的二线治疗。
+BV＋AVD或达卡巴嗪可作为>60岁Ⅰ～Ⅱ期预后不良或Ⅲ～Ⅳ期CHL患者初治治疗的可选方案；BV单药治疗可作为>60岁复发难治性CHL患者的可选方案。
+(二)FDA已批准上市的其他ADC药物
+1．Polatuzumab Vedotin(PV)
+PV由重组人源化CD79b(在绝大多数恶性淋巴瘤患者体内高表达的B细胞受体组分)单克隆抗体、可裂解接头和MMAE细胞毒性药物组成。一旦PV完成内吞、接头裂解，释放出的MMAE即可抑制细胞有丝分裂并诱导凋亡[19]。
+ROMULUS Ⅰb～Ⅱ期研究(39例)显示，PV与利妥昔单抗联合治疗在复发或难治性弥漫大B细胞性淋巴瘤(diffuse large B-cell lymphoma, DLBCL)患者的ORR和CR率分别为54%和21%，在滤泡性淋巴瘤(follicular lymphoma, FL)患者(20例)中则分别为70%和45%[20]。此外，PV治疗在DLBCL人群中的中位PFS和中位OS分别为5.6和20.1个月，在FL患者中分别为15.3个月和未到达[20]。ROMULUS研究者评估了PV＋奥妥珠单抗在复发或难治性DLBCL(21例)和FL(23例)患者中的疗效，ORR分别可达52%和78%[19]。在不适合进行造血干细胞移植(hematopoietic stem cell transplant, HSCT)的复发或难治性DLBCL患者中，P-BR方案(PV＋苯达莫司汀＋利妥昔单抗)经正电子发射计算机断层扫描评估的CR率(40%)显著高于BR方案(苯达莫司汀＋利妥昔单抗；18%，P＝0.026)，疾病控制时间亦显著延长(分别为10.3和4.1个月，P＝0.032)，P-BR方案组患者的OS是BR组的近3倍(分别为12.4和4.7个月，P＝0.002 3)[21]。基于此研究结果，FDA和欧洲药品管理局已经分别授予PV治疗复发或难治性DLBCL突破性疗法认定和优先药物资格。
+PV与其他免疫治疗的联合方案亦在探索之中。GO29044是一项在初治DLBCL患者中使用PV-R-CHP方案(利妥昔单抗＋环磷酰胺＋多柔比星＋泼尼松)进行一线治疗的Ⅱ期单臂研究，对于国际预后指数(international prognostic index, IPI)2～5分的中高危DLBCL患者，PV-R-CHP方案可以达到89%的ORR率和77%的CR率[22]。因此，为了证明PV-R-CHP方案能否优于标准R-CHOP方案(环磷酰胺＋多柔比星＋长春新碱＋泼尼松)，全球多中心的Polarix研究在IPI≥2分的初治DLBCL患者中，将PV-R-CHP和R-CHOP方案进行了双盲随机对照研究，常见的PV相关不良反应包括白细胞减少症(40%)、贫血(11%)和周围感觉神经病变(9%)[19]。
+2019年，FDA批准PV＋苯达莫司汀＋利妥昔单抗治疗难治或复发DLBCL。
+2．Trastuzumab Deruxtecan(TD)
+TD(DS-8201)由重组人源化抗HER-2 IgG1单克隆抗体曲妥珠单抗、可裂解肽基连接头和喜树碱类似物(CPT或称拓扑异构酶Ⅰ抑制剂)组成。同样剂量的TD在HER-2过表达和低表达的肿瘤中均具有良好疗效[23]。
+(1)乳腺癌：DESTINY-Breast01 Ⅱ期研究(184例，其中52.7%为激素受体阳性)显示，在曾接受曲妥珠单抗和T-DM1治疗的HER-2阳性转移性乳腺癌患者中，TD治疗患者的ORR为60.9%(112例，95%CI为53.4～68.0)，其中6.0%的患者为CR(11例)，54.9%的患者为部分缓解(101例)[23]。截至2019年8月1日，患者的中位缓解持续时间(duration of response, DOR)为14.8个月(95%CI为13.8～16.9)，此外，在11.1个月的中位随访时间中，患者的中位PFS为16.4个月(95% CI为12.7～不可估计)[24]。
+TD常见的≥3级不良反应包括中性粒细胞减少(20.7%)、贫血(8.7%)和恶心(7.6%)；间质性肺病(interstitial lung disease, ILD)的发生率为13.6%，1～2级ILD发生率为10.9%，3～4级为0.5%，4例患者(2.2%)因ILD死亡，ILD需要引起特殊关注[24]。
+(2)胃癌：DESTINY-Gastric01 Ⅱ期试验(187例)评估了TD对HER-2阳性晚期胃癌患者的疗效，研究纳入接受过至少2次治疗的HER-2阳性胃或胃食管交界处腺癌患者，所有患者随机分组，分别接受TD(6.4 mg/kg，每3周1个周期)或化疗治疗，结果显示，TD对比化疗可以显著改善患者的ORR(分别为51%和14%，P<0.001)和OS(分别为12.5和8.4个月；HR＝0.59，P＝0.01)，最常见的≥3级不良反应包括中性粒细胞减少、贫血、白细胞减少和食欲降低，TD组共12例(10%)患者出现ILD或肺炎[25]。
+2020年欧洲肿瘤医学协会公布DESTINY-Gastric01研究Ⅱ期结果显示，TD在HER-2低表达(免疫组化染色2＋/原位杂交检测-)的胃癌和胃食管交界腺癌二线以上治疗也取得很好的疗效[26]。TD尚未在中国获得批准相应的适应证。
+2019年，FDA批准TD用于治疗接受过≥2种抗HER-2疗法、HER-2阳性、无法切除或转移性乳腺癌成人患者。2020年，日本厚生劳动省批准TD用于治疗HER-2阳性不可切除性晚期或复发性胃癌患者。
+3．Sacituzumab Govitecan(SG)
+SG(IMMU-132)是将SN-38(伊立替康的活性代谢产物)通过其特异性位点以较高的药物抗体比与hRS7结合而成的ADC药物，其中hRS7是一种抗滋养层细胞表面抗原2(trophoblast cell surface antigen 2, TROP-2)的抗体。TROP-2是由TACSTD2基因编码表达的细胞表面糖蛋白，在多种肿瘤中过表达，包括乳腺癌、结肠癌和肺癌等，但在正常组织中表达较低。hRS7与TROP-2结合后可将高浓度的SN-38递送到癌细胞中，发挥抗肿瘤作用[27]。
+IMMU-132-01研究(108例)显示，既往至少接受过2线治疗的转移性三阴性乳腺癌(metastatic triple-negative breast cancer, mTNBC)患者接受SG治疗的ORR为33.3%(95%CI为24.6～43.1)，中位DOR为7.7个月(95%CI为4.9～10.8)，最常见的不良反应包括(≥25%的患者)恶心、中性粒细胞减少、腹泻、疲劳、贫血、呕吐、脱发、便秘、皮疹、食欲下降和腹痛，SG还可引起严重的中性粒细胞减少和腹泻[28]。
+Ⅲ期ASCENT研究(529例)对比了SG与医师选择的化疗方案(艾日布林、卡培他滨、吉西他滨或长春瑞滨)用于三线治疗mTNBC的疗效和安全性，其研究结果显示，在无脑转移的患者中，SG能够显著延长患者的PFS(分别为5.6和1.7个月；HR＝0.41, P<0.000 1)，同时OS也获得显著延长(分别为12.1和6.7个月；HR＝0.48，P<0.000 1)，而安全性与既往研究一致[29]。
+2020年4月22日，FDA加速批准SG用于既往至少接受过2线治疗的转移性mTNBC。
+4．吉妥珠单抗(Gemtuzumab Ozogamicin, GO)
+GO由重组人源化IgG4靶向CD33的单克隆抗体、含有对酸不稳定的腙类、对氧化还原敏感的二硫键的连接头和刺孢霉素衍生物(N-乙酰基-γ-刺孢霉素-二甲基)的细胞毒性药物组成。刺孢霉素是具有极强细胞毒性的烯二炔类抗生素，可通过与DNA小沟的结合使双链断裂并最终导致细胞死亡[30]。
+2000年，基于3项Ⅱ期单臂研究(201、202、203研究)在CD33阳性复发性急性髓性白血病(acute myeloid leukemia, AML)患者中的阳性结果[31]，FDA批准GO(9 mg/m2，静脉输注，第1、15天两次给药)用于≥60岁且不适宜接受细胞毒性化疗的复发性CD33阳性AML患者。然而，上市后的Ⅲ期研究(SWOGS0106，637例)显示，与传统诱导化疗相比，患者并未从GO治疗中获得显著的治疗获益，并且出现严重的安全性问题(如高发的肝毒性和长时间的血细胞减少症)[32]。出于有效性与安全性考虑，GO于2010年退出市场。然而，撤市后由独立研究者开展的后续临床研究(如ALFA-0701，n＝280)显示，低剂量的分次给药策略(如GO 3 mg/m2，静脉输注，第1、4、7天给药)可以克服这一障碍[33]。GO联合治疗组患者的3年无事件生存率较单用标准化疗组显著升高(分别为40.8%和17.1%；P＝0.000 3)，中位无事件生存时间亦显著延长(分别为15.6和9.7个月，P＝0.002 6)，同时，患者因不良反应所致的死亡风险并未增加[33]。后续的AML-19研究(237例)中，低剂量分次给药策略在提升治疗有效性的同时，未增加不良事件发生率和相关死亡率[34]。因此，2017年GO获得了FDA的重新批准。最常见的GO相关严重不良反应包括中性粒细胞减少症、血小板减少症和IRR[1,33]。
+目前，FDA批准GO用于初诊CD33阳性成人AML和复发或难治性的CD33阳性、成人或≥2岁儿童AML。NCCN指南推荐，GO用于高危急性早幼粒细胞白血病(acute promyelocytic leukemia, APL)的后线治疗，或与全反式维甲酸±三氧化二砷联合用于复发的APL，或与标准化疗方案(阿糖胞苷＋柔红霉素)联合用于CD33阳性的AML。
+5．奥英妥珠单抗(Inotuzumab Ozogamicin, IO)
+IO由重组人源化IgG4靶向CD-22的单克隆抗体、酸依赖性4-(40-乙酰基苯氧基)丁酸接头和刺孢霉素衍生物(N-乙酰基-γ-刺孢霉素-二甲基)组成。刺孢霉素是一类从土壤微生物环境中分离的强效DNA烷化剂。IO中的抗体组分具有高亲和力，与细胞表面CD22受体结合后，迅速胞吞内化并转运到溶酶体中，然后释放刺孢霉素与DNA小沟结合，导致双链断裂、细胞凋亡[35]。
+Ⅲ期随机研究INO-VATE ALL是IO获批的关键研究(326例，首次或再次复发的ALL患者)[36]。该研究证实，IO较标准化疗显著改善患者的CR率(分别为80.7%和29.4%，P<0.001)，延长患者的持续缓解时间(分别为4.6和3.1个月，P＝0.03)、中位PFS(分别为5.0和1.8个月，P<0.001)和中位OS(分别为7.7和6.7个月，P＝0.04)[36]。此外，与标准治疗组相比，IO治疗患者接受HSCT治疗的比例更高(分别为41%和11%；P<0.001)。IO组和标准治疗组中发生严重不良事件的百分比相似(分别为48%和46%)，最常见的不良反应包括发热、血小板减少症、中性粒细胞减少症、转氨酶水平升高、恶心、头痛和疲劳等；与标准治疗组相比，IO组发生肝脏相关毒性反应(转氨酶水平升高、高胆红素血症和肝窦阻塞综合征)更常见，尤其是接受HSCT的患者发生肝窦阻塞综合征的风险更高[36]。
+2017年，FDA和欧洲药品管理局批准IO用于治疗成人复发或难治性前体B细胞急性淋巴细胞白血病。截至2020年10月30日，ClinicalTrials.gov仍登记了20多项探索IO其他治疗潜能的临床试验。
+6．Enfortumab Vedotin(EV)
+EV由重组人源化Nectin-4(一种黏附分子，通过招募钙黏蛋白和调节细胞骨架重排，在细胞黏附中发挥重要作用)单克隆抗体、酶裂解接头和MMAE细胞毒性药物组成。超过50%的尿路上皮样本中的Nectin-4蛋白表达呈阳性，且膀胱癌样本中的Nectin-4蛋白免疫组化检测水平最高。因此，Nectin-4对于尿路上皮癌是一个理想的ADC药物靶点[37]。
+2019年美国临床肿瘤学会年会上公布的EV-201(Cohort 1)研究为EV的获批提供了关键临床试验数据，该研究入组的患者为既往接受含铂化疗与程序性死亡受体1(programmed cell death-1, PD-1)/程序性死亡受体配体1(programmed cell death-ligand 1, PD-L1)抑制剂联合治疗病情进展的局部晚期或转移性尿路上皮癌患者，评估了EV的疗效和安全性[37]。有研究显示，无论患者是否出现PD-1、PD-L1抗体耐药或肝脏转移，EV治疗均能给患者带来良好的应答和生存获益，ORR可达44%，其中CR率达12%；中位DOR达7.6个月，中位PFS达5.8个月，中位OS长达11.7个月[38]。EV常见的≥3级严重不良反应包括贫血(8%)、低钠血症(7%)、尿路感染(7%)和高血糖(6%)[37]。
+2019年，FDA批准EV用于治疗曾经接受过含铂化疗和PD-1治疗的局部晚期或转移性尿路上皮癌患者。
+二、ADC药物安全性管理共识
+由于抗体和细胞毒性药物不同，不同ADC药物的不良反应也不同。需要特别关注的不良反应按照影响器官组织分类为血液学不良反应、输注相关反应、神经毒性、肝毒性、肺毒性、消化系统疾病、心脏毒性、感染、皮肤和皮下组织疾病、肿瘤溶解综合征、代谢性毒性、眼部疾病和中枢毒性等(表3)。在用药期间应密切监测相应的不良反应，对可能产生严重后果的不良反应进行积极预防或给予支持治疗；在疑似发生不良症状时密切关注并及时诊断，确定发生不良反应后给予对应处置方案，同时调整药物治疗方案，进行延期治疗或减量处理，严重不良反应要及时停药；对于难以处理的不良反应，应及时开展多学科会诊，探讨解决方案。本共识对部分发生率较高或具有特定意义不良反应的安全性管理进行简要介绍。
+点击查看表格
+表3
+常见抗体药物偶联物药物相关不良反应
+表3
+常见抗体药物偶联物药物相关不良反应
+不良反应分类
+药物
+不良反应
+血液学不良反应
+Sacituzumab Govitecan
+尿苷二磷酸葡萄糖醛酸转移酶1A1活性降低
+Polatuzumab Vedotin
+骨髓抑制
+奥英妥珠单抗
+骨髓抑制
+Sacituzumab Govitecan
+严重的中性粒细胞减少
+恩美曲妥珠单抗
+血小板减少症
+维布妥昔单抗
+血液学毒性
+Trastuzumab Deruxtecan
+中性粒细胞减少症
+输注相关反应
+维布妥昔单抗
+过敏反应和输液反应
+Sacituzumab Govitecan
+过敏
+Enfortumab Vedotin
+输液部位外渗
+奥英妥珠单抗
+输液相关反应
+Polatuzumab Vedotin
+输注相关反应
+恩美曲妥珠单抗
+输注相关反应，超敏反应
+神经毒性
+恩美曲妥珠单抗
+神经毒性
+维布妥昔单抗
+周围神经病变
+Polatuzumab Vedotin
+周围神经病变
+Enfortumab Vedotin
+周围神经病变
+肝毒性
+恩美曲妥珠单抗
+肝毒性
+维布妥昔单抗
+肝毒性
+Polatuzumab Vedotin
+肝毒性
+奥英妥珠单抗
+肝毒性，包括肝静脉阻塞性疾病
+肺毒性
+恩美曲妥珠单抗
+肺毒性
+维布妥昔单抗
+肺毒性
+Trastuzumab Deruxtecan
+间质性肺疾病和肺炎
+消化系统疾病
+Sacituzumab Govitecan
+恶心，呕吐
+Sacituzumab Govitecan
+严重腹泻
+维布妥昔单抗
+胃肠道并发症
+心脏毒性
+奥英妥珠单抗
+QT间期延长
+恩美曲妥珠单抗
+左心室功能不全
+Trastuzumab Deruxtecan
+左心室功能不全
+感染
+Polatuzumab Vedotin
+严重的机会感染
+维布妥昔单抗
+严重感染和机会感染
+皮肤和皮下组织疾病
+Enfortumab Vedotin
+皮肤反应
+维布妥昔单抗
+严重的皮肤病反应
+肿瘤溶解综合征
+维布妥昔单抗
+肿瘤溶解综合征
+Polatuzumab Vedotin
+肿瘤溶解综合征
+代谢性毒性
+Enfortumab Vedotin
+高血糖症
+眼部疾病
+Enfortumab Vedotin
+眼部疾病
+中枢毒性
+Polatuzumab Vedotin
+进行性多灶性白质脑病
+血管疾病
+恩美曲妥珠单抗
+出血
+(一)血液学不良反应
+血液学不良反应是ADC药物常见的不良反应，包括全血细胞减少、中性粒细胞减少症、血小板减少症等，严重的血液学不良反应可进一步导致出血和感染的风险增加。因此，建议应用ADC药物前进行全血细胞计数检查，对于不符合治疗要求的患者应慎重用药，待血液指标恢复正常或给予支持治疗恢复正常后方可用药。在治疗期间定期监测血细胞计数，同时考虑预防性用药进行二级预防。
+1．血小板减少症：
+在全球人群中，T-DM1治疗患者中所有级别的血小板减少发生率约为20%～38%，≥3级的发生率约为2%～13%[39]；亚洲人群中这一不良事件的发生风险更高，所有级别的血小板减少发生率达52.5%～69.8%，≥3级的发生率约为29.8%～45%[10,11,12,38,39,40,41]。对于应用T-DM1的患者，首次治疗前、每一个治疗周期第1天(即每3周T-DM1用药前)及末次用药30 d后，应定期检测血常规；在T-DM1给药期间，应规范监测血小板，出现血小板减少应及时调整用药剂量，同时评估出血风险和进行干预。药物剂量调整建议：2级(早期患者)、3级血小板减少的患者需暂停T-DM1用药，直至恢复至≤1级血小板减少。恢复后重新开始用药，剂量不变。如果早期患者因2～3级血小板减少症2次推迟用药，则考虑药物减量。4级血小板减少症的患者处理与3级类似，但重新开始T-DM1用药时，剂量需降低一个水平(3.6 mg/kg调整至3.0 mg/kg；3.0 mg/kg调整至2.4 mg/kg)。如果早期患者在用药为2.4 mg/kg时仍发生类似事件，则考虑终止治疗。若晚期患者发生3或4级血小板减少，未在末次给药后42 d内缓解至≤1级血小板减少，则终止T-DM1用药。对于≥3级血小板减少的患者，建议给予重组人白介素11或重组人血小板生成素治疗，建议参考《中国肿瘤化疗相关性血小板减少症专家诊疗共识(2019版)》。如患者经常规升血小板治疗后效果不佳，应尽早请血液专科医师会诊，给予相应检测和处理方案。艾曲泊帕等血小板生成素受体激动剂在该领域的应用未来值得进一步探索。
+2．中性粒细胞减少症：
+中性粒细胞减少是ADC药物最常见的不良反应之一，可能与原发疾病、靶标细胞的性质或细胞毒性药物的骨髓抑制效应有关[40]。对于发热性中性粒细胞减少风险高危(>20%)或中危(10%～20%)合并其他风险因素的患者，可给予G-CSF预防。中性粒细胞绝对计数预期将持续1周以上<100个/mm3时，可给予预防性的抗感染治疗。体温>38℃时，及时给予经验性抗生素治疗并完善检查，明确病原体后及时调整治疗用药[41]。
+(二)输液反应
+IRR是ADC药物治疗患者常见的不良反应，发生率约为2.5%～13%[1]。主要症状包括发热、寒战，偶尔会有恶心、呕吐、疼痛、头痛、晕眩、呼吸困难、低血压、皮疹和乏力。严重IRR症状则包括呼吸困难、低血压、哮鸣、支气管痉挛、心动过速、呼吸窘迫、室上性快速性心律失常和荨麻疹[42]。
+对有相关风险的患者，应预先使用皮质类固醇激素、对乙酰氨基酚和(或)苯海拉明，以最大程度地减少IRR风险。在输注过程中和输注结束至少1 h内监测是否有IRR发生。对于出现IRR的患者，可及时中断输注，并给予类固醇激素或抗组胺药对症治疗；对于发生严重IRR的患者，建议永久停药。
+(三)周围神经病变
+PV、EV、BV和T-DM1均有导致周围神经病变的风险，不同严重程度周围神经病变的发生率不同报道有所差异(13%～62%)，但以1～2级周围神经病变为主[10,21,38,43,44]。接受上述药物治疗过程中，应积极监测是否有周围神经病变发生。周围神经病变的症状主要表现为感觉神经损伤，如各种感觉减退、感觉过敏、感觉倒错和烧灼性疼痛等各种神经痛的症状，严重者可出现四肢无力，蹲起困难，无法行走，甚至卧床。当患者出现周围神经病变时，可给予各种B族维生素营养神经治疗；对于神经痛的症状，可选择加巴喷丁、普瑞巴林、阿米替林、文拉法辛或度洛西汀等对症治疗。必要时可由神经内科协助周围神经病变的诊断、鉴别诊断和治疗。
+当ADC治疗过程中出现较为严重的周围神经病变(3级)时，如患者因肢体无力行走不稳，需要辅助工具方可行走时，或因肢体麻木疼痛，经针对神经痛的药物治疗后，仍严重影响生活质量，导致生活困难时，应暂缓ADC治疗；如症状改善，患者能够生活自理时，可考虑重新开始治疗，并调整ADC剂量至较低水平；若发生更为严重的神经性病变(4级)，危及患者生命时，应立即终止ADC治疗。
+(四)肝脏毒性
+FDA此前曾发布GO相关肝脏毒性的黑框警告，包括严重或致死性静脉阻塞性肝病(veno-occlusive disease, VOD)。ALFA-0701研究显示，5%的患者接受GO治疗期间或之后曾发生VOD[45]。自用药至VOD发生的时间为2～298 d，中位时间约9 d，83.3%的VOD发生于GO用药28 d内，接受更高剂量GO单药治疗的患者、用药前有中或重度肝损伤的患者(风险增加8.7倍)、HSCT后接受GO治疗或接受GO治疗后行HSCT(风险增加2.6～2.9倍)的患者发生VOD的风险更高[1]。在治疗期间应密切关注VOD的发生，一旦患者发生VOD，应及时终止GO治疗。如患者总胆红素水平升至≥2倍正常上限(upper limits of normal, ULN)或天门冬氨酸氨基转移酶(aspartate transaminase, AST)和(或)谷氨酸氨基转移酶(alanine transaminase, ALT)≥2.5×ULN，应延缓GO治疗直至总胆红素恢复至<2×ULN、AST和ALT恢复至<2.5×ULN水平。
+其他具有肝脏毒性的ADC药物还有BV、PV和T-DM1，应常规进行肝脏功能检测，并在发生肝功能异常时及时进行干预[46]。
+(五)肺毒性
+TD的临床研究显示，ILD发生率为9%～13.6%，致死性的ILD或非感染性肺炎的发生率为2.6%，因此，存在呼吸道症状的患者应禁用TD治疗[23]。在接受TD治疗期间，建议患者在出现咳嗽、呼吸困难、发烧和(或)任何新的恶化的呼吸道症状时，应立即报告，同时密切关注患者是否具有ILD的症状、体征和影像学改变，及时发现ILD的证据，可疑ILD患者请呼吸科会诊。对于无症状(1级)ILD，应考虑使用皮质激素治疗(如≥0.5 mg/kg泼尼松龙或同等剂量效价的其他激素)，可继续TD治疗。如果出现症状性(2级或更高)ILD，需立即开始皮质激素治疗(如≥1 mg/kg泼尼松龙或同等剂量效价的其他激素)。症状控制稳定和影像学提示肺部阴影吸收好转后，应逐渐减少皮质激素剂量，维持相对较长的疗程(如4周)。被确诊为有症状(2级或更高)ILD的患者，应永久停药。如症状持续恶化，建议采用多学科会诊，并积极干预，以免发展成致死性结局。
+此外，T-DM1和BV也报告过致死性的肺部事件，T-DM1和BV药物说明书中对ILD进行了警示，T-DM1非感染性肺炎和放射性肺炎的发生率分别为0.8%～1.1%和1.8%[9,12]，BV＋ABVD的肺毒性事件发生率为5%，安慰剂＋ABVD为3%[42]。
+(六)消化道不良反应
+消化道反应是ADC药物常见的不良反应，包括恶心、呕吐和腹泻等，通常为轻度，若发生严重消化道反应需要密切关注并予积极处理。
+SG具有催吐性，恶心发生率为69%，呕吐发生率为49%，腹泻发生率为63%。发生不可控的3～4级消化道反应时，应及时暂停ADC治疗，并在恢复后进行ADC用药减量，同时给予止吐和抗腹泻药物等支持治疗。如反复多次发生≥3级消化道反应，则应考虑停止治疗。
+BV可导致严重的胃肠道并发症，包括致命性的急性胰腺炎。其他致命和严重的胃肠道并发症包括穿孔、出血、糜烂、溃疡、小肠结肠炎、中性粒细胞减少性结肠炎和肠梗阻。胃肠道受累的淋巴瘤可能会增加胃肠穿孔的风险。如果出现新的或恶化的胃肠道症状，包括严重的腹痛，请立即进行诊断评估并给予适当治疗，必要时可请专科医师进行会诊。
+(七)心脏毒性
+心脏毒性是抗HER-2药物常见的毒性，通常表现为左心室射血分数(left ventricular ejection fraction, LVEF)下降。在应用TD和T-DM1之前，应对患者全面评估，包括个人史和家族史，充分纠正心血管病等危险因素，规范治疗合并的基础心血管疾病，记录基线时心电图和超声心动图，既往接受过蒽环类药物治疗的患者，需要测定基线肌钙蛋白和利钠肽。治疗期间应动态定期复查心电图和心脏超声，必要时完善心肌标志物如脑尿钠肽或氨基末端脑钠尿肽、心肌肌钙蛋白Ⅰ或超敏肌钙蛋白的检测。客观评价心脏功能及相关心脏毒性事件的发生风险，早期发现，及时诊治。基线合并高血压的患者，降压药物首选血管紧张素转换酶抑制剂或血管紧张素Ⅱ受体拮抗剂和β受体阻滞剂。对于无症状性心功能不全的患者，请心血管专科医师会诊，在服用血管紧张素转换酶抑制剂或血管紧张素Ⅱ受体拮抗剂和β受体阻滞剂的基础上，可继续ADC药物治疗并加强LVEF监测频率(如每4周1次)，如LVEF绝对值<50%(下降≥16%)，或在正常范围但治疗过程中LVEF下降幅度≥10%，应暂停ADC药物治疗，并给予血管紧张素转换酶抑制剂或血管紧张素Ⅱ受体拮抗剂和β受体阻滞剂，并于3～4周内复查LVEF，LVEF恢复正常后再进行治疗。如LVEF降低不可恢复或严重降低，或发生有症状的充血性心力衰竭应永久停药，必要时请心血管专科会诊，并参照中国临床肿瘤学会《蒽环类药物心脏毒性防治指南(2020)》等指南推荐的标准流程及时诊治心力衰竭。
+与LVEF的变化相比，整体纵向应变(global longitudinal strain，GLS)对心脏毒性的预测价值更高，GLS异常较LVEF下降可提前约3个月[47,48,49]。这可能提供启动心脏保护治疗的时间窗口，或许有助于减轻心脏毒性和避免抗癌治疗的中断。
+三、ADC药物安全护理共识
+1．用药前：
+获得医嘱，按医嘱备药，评估患者的用药史(包括ADC药物)；药物现用现配，建议配置好的药物在2 h内输注，建议由静脉药物调配中心集中配置。静脉评估：如外周静脉不适宜穿刺者，建议使用中心静脉进行输注，并根据药物说明书的要求选择输液器。
+2．用药中：
+核对患者信息，建立静脉通路，按照药物说明书要求进行输注。输注期间和输注后注意事项可参照表4。
+点击查看表格
+表4
+中国已上市抗体药物偶联物的使用方法和注意事项
+表4
+中国已上市抗体药物偶联物的使用方法和注意事项
+药物名称
+剂型
+溶剂
+溶解流程/振摇方式a
+放置时间a
+输注期间和输注后
+用药过程中急性反应的观察与处理
+恩美曲妥珠单抗(T-DM1)
+冻干粉针剂
+无菌注射用水
+配制：使用无菌针筒，慢慢地将5 ml的无菌注射用水注入100 mg的恩美曲妥珠单抗小瓶内或将8 ml的无菌注射用水注入160 mg的恩美曲妥珠单抗小瓶内，制成20 mg/ml的溶液。慢慢地摇动小瓶，直到完全溶解为止。不可摇晃。稀释：从小瓶取出所需的量，将之加进含有250 ml的0.9%氯化钠注射液或0.45%氯化钠注射液的输注袋内。不可使用葡萄糖(5%)溶液。为了避免泡沫产生，输注袋应轻轻反转以混合溶液
+配制后的冻干小瓶在与无菌注射液配制后，应立即使用。如果未立即使用，配制后的恩美曲妥珠单抗小瓶可放在冰箱内，以2℃～8℃(36°F～46°F)的温度储存最多至24 h；兼顾药物的稳定性和无菌性，建议配制后2 h内输注，超过24 h应丢弃未使用的恩美曲妥珠单抗。不可冷冻。配制后的制品不含防腐剂，仅做单次使用
+起始剂量时采用90 min静脉输注。在输注期间应观察患者，并于初始剂量给药后至少90 min内观察发热、寒战或其他输液相关反应。给药期间应密切监测输注部位，防止可能出现皮下外渗的情况。如果既往输注时的耐受性良好，则给予本品的后续剂量时可采用30 min输注，并且应在输注期间和输注后至少30 min内对患者进行观察。如果患者出现输注相关症状，应减慢本品的输注速率或中断给药。出现危及生命的输液反应时，应终止治疗。在输注期间及输注后，应监测患者情况
+患者出现输注反应或过敏反应，首先关闭输液器、同时呼叫器通知医师和办公室护师，必要时办公室护师协助通知医师；然后更换输液器，回抽留置针或中心静脉导管内的药液；其次按医嘱用药并记录，办公室护师协助将余药送回药疗室2℃～8℃冰箱内保存；做好再次输注的准备，患者症状缓解后，将药物从冰箱内拿出自然附温，药液温度接近室温后进行输注。患者因严重的过敏反应或输注反应，不能再次输入，需要丢弃药物，按余药处理。余药处理流程：首先确认药物丢弃，将药物置入双层黄色垃圾袋中，置入感染性医疗垃圾桶内；其次通知卫生员封闭垃圾桶内的垃圾袋，注明含有少量药物垃圾的标识；最后专人转运离开病房
+维布妥昔单抗(BV)
+白色至类白色块状或粉末
+无菌注射用水
+配制：每瓶单次必须使用10.5 ml注射用水复溶，终浓度为5 mg/ml。每瓶过量灌装10%，每瓶维布妥昔单抗含量为55 mg，总复溶体积为11 ml。沿瓶壁加入液体，不得直接加注于药品块状物或粉末上；轻轻旋转药瓶直至复溶，不得振摇；药瓶中的复溶液体应为澄清至微乳光的无色溶液，pH终值为6.6
+复溶后，应立即稀释至输液袋中。如未立即稀释，则将溶液储存于2℃～8℃，并于复溶后24 h内使用，兼顾药物的稳定性和无菌性，建议配制后2 h内输注。不可冷冻
+30 min以上静脉输注给药，在输注期间及输注后，应监测患者情况。如果发生速发过敏反应，则应立即并永久性终止使用维布妥昔单抗，并进行适当的治疗。如果发生输液相关反应，应立即中断输液，并采取适当的治疗，症状缓解后，可采用较慢速率严密监测下重启输液。对于既往发生过输液相关反应的患者，应在后续输液前采取预防用药。预防用药包括对乙酰氨基酚、抗组胺药物和糖皮质激素
+a以上内容参考药品说明书
+3．用药后：
+初始剂量用药后至少90 min内观察患者是否发热，有无寒战或其他IRR，后续剂量用药后至少观察30 min。
+4．安全健康教育：
+告知患者，如出现IRR症状(潮红、寒战性发抖、发热、呼吸困难、低血压或心跳加快)，要及时就诊。
+四、未来展望
+1．ADC药物设计：
+随着小分子筛选和蛋白重组等分子生物学技术的突破，ADC药物的研发和设计均取得了重大进展。抗体的多功能性、新抗原的探索、新兴细胞毒性药物的筛选和日益复杂的整合手段，成为未来ADC药物的探索方向。目前，仍有80多个ADC药物正在临床研发中，国产ADC药物RC48、BAT8001、ARX788和A166等在乳腺癌、胃癌和尿路上皮癌等领域进行研发，并在早期临床研究中取得了不错的效果[50,51,52,53,54,55]，其中RC48、BAT8001等已进入Ⅲ期临床试验。新一代ADC药物产生的临床数据将为未来ADC药物设计的机制基础提供更宽广的视野。
+2．联合治疗：
+ADC药物与其他药物联合使用时可能获得更高的疗效，如AXL-107-MMAE与MAPK通路抑制剂联合可协同抑制肿瘤的生长[56]。ADC药物联合疗法可能增强彼此的活性，有助于降低耐药风险和进一步提高疗效。类似地，Indatuximab ravtansine与来那度胺和地塞米松联合应用时抗肿瘤效应明显增加[57]。ADC药物与免疫检查点抑制剂的联合应用也是未来的研究热点。
+3．剂量和方案优化：
+GO的再上市经验提示，剂量和方案优化在临床应用中与ADC药物设计可能同等重要，高频次、小剂量分次给药的方案可能提高药物的获益风险比。
+4．安全性管理：
+不良反应的预防和管理对于ADC药物治疗连续性及患者预后转归极为重要。因此，应尽可能全面认识不同ADC药物可能发生的不良事件，早期检测并预防，监测治疗期间患者各项症状和指标的变化，及时采取合理有效的治疗措施，尽可能维持ADC药物的连续应用，最大程度保障其抗肿瘤效应。安全性管理需要跨学科专家共同参与，对于常规治疗无法缓解的不良事件，应及时联合专科医师进行会诊，实施多学科综合管理，从而保障患者的生命安全。
+五、总结
+ADC药物结合了抗体的高特异性与小分子细胞毒性药物的高抗肿瘤活性，同时，因其定向释放的特性从而具有更加可控的安全性。因此，ADC药物值得在各阶段的血液系统恶性肿瘤和实体瘤中进行积极的研发探索。ADC药物的设计不仅需要评估每一组分的应用可行性，还需综合评估各组分组合之后的稳定性和效能。ADC药物未来的主要攻关方向为肿瘤特异性高且均一表达抗原的精确识别、连接头定向释放影响因素的深入理解、创新接头的系统开发、具有更高效细胞内和旁细胞毒性药物的探索。除ADC药物的设计与开发之外，临床治疗方案的优化，如患者筛选、剂量和周期选择、联合用药方案和不良反应的长期管理，也会在很大程度上影响ADC药物的疗效与患者的治疗转归。因此，应在机制理解、药物研发与临床管理上齐头并进。
+执笔人 王佳玉(国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院内科)、孙永琨(国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院内科)、朱铁楠(北京协和医院血液内科)、宋玉琴(北京大学肿瘤医院肿瘤内科)
+专家组成员(按姓氏汉语拼音字母排序) 巴一(天津医科大学肿瘤医院消化肿瘤内科)、陈锦飞(南京大学医学院附属泰康仙林鼓楼医院肿瘤科)、陈霞(首都医科大学附属北京天坛医院临床医学研究中心)、代华平(中日友好医院呼吸与危重症医学科三部)、冯继锋(江苏省肿瘤医院肿瘤内科)、高晨燕(国家食品药品监督管理总局药品审评中心)、韩英(空军军医大学西京医院消化九科)、胡夕春(复旦大学附属肿瘤医院肿瘤内科)、黄建(浙江大学医学院附属第二医院肿瘤外科)、金洁(浙江大学医学院附属第一医院血液病科)、李国辉(国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院药剂科)、李曼(大连医科大学附属第二医院肿瘤内科)、李薇(吉林大学第一医院肿瘤中心)、厉红元(重庆医科大学附属第一医院乳腺外科)、刘明生(中国医学科学院北京协和医院神经内科)、罗扬(国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院肿瘤内科)、马飞(国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院内科)、梅志红(国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院护理部)、欧阳取长(湖南省肿瘤医院乳腺内科)、潘宏铭(浙江大学医学院附属邵逸夫医院肿瘤内科)、潘跃银(中国科学技术大学附属第一医院肿瘤内科)、裘佳佳(复旦大学附属肿瘤医院护理部)、邵池(中国医学科学院北京协和医院呼吸内科)、沈琳(北京大学肿瘤医院消化肿瘤内科)、宋尔卫(中山大学孙逸仙纪念医院乳腺肿瘤医学部)、宋玉琴(北京大学肿瘤医院淋巴肿瘤内科)、孙永琨(国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院内科)、佟仲生(天津医科大学肿瘤医院乳腺肿瘤内科)、王佳玉(国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院内科)、王树森(中山大学肿瘤防治中心肿瘤内科)、王延风(国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院综合科)、王哲海(山东省肿瘤医院肿瘤内科)、吴炅(复旦大学附属肿瘤医院乳腺外科)、夏琳(国家食品药品监督管理总局药品审评中心)、徐兵河(国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院药物临床试验研究中心)、阎昭(天津医科大学肿瘤医院药理研究室)、杨顺娥(新疆医科大学附属肿瘤医院淋巴瘤与乳腺癌内科)、杨志敏(国家食品药品监督管理总局药品审评中心)、姚煜(西安交通大学医学院第一附属医院肿瘤内科)、叶定伟(复旦大学附属肿瘤医院泌尿外科)、殷咏梅(江苏省人民医院肿瘤科)、袁响林(华中科技大学同济医学院附属同济医院肿瘤科)、张会来(天津医科大学肿瘤医院肿瘤内科)、张力(中山大学肿瘤防治中心肿瘤内科)、张奇夫(吉林省肿瘤医院泌尿外科)、张清媛(哈尔滨医科大学附属肿瘤医院肿瘤内科)、张艳桥(哈尔滨医科大学附属肿瘤医院消化肿瘤内科)、张志仁(哈尔滨医科大学附属肿瘤医院心内科)、赵彬(中国医学科学院北京协和医院药剂科)、周爱萍(国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院内科)、周彩存(同济大学附属上海市肺科医院肿瘤科)、周剑锋(华中科技大学同济医学院附属同济医院血液内科)、朱军(北京大学肿瘤医院淋巴肿瘤内科)、朱铁楠(中国医学科学院北京协和医院血液科)
+编写秘书 黎立喜(国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院内科)
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+KhongorzulP, LingCJ, KhanFU, et al.
+Antibody-drug conjugates: a comprehensive review[J].
+Mol Cancer Res,
+2020,
+18(
+1):
+3-
+19.
+DOI: 10.1158/1541-7786.MCR-19-0582.
+[2]
+Gauzy-LazoL, SassoonI, BrunMP.
+Advances in antibody-drug conjugate design: current clinical landscape and future innovations[J].
+SLAS Discov,
+2020,
+25(
+8):
+843-
+868.
+DOI: 10.1177/2472555220912955.
+[3]
+RicciutiB, LambertiG, AndriniE, et al.
+Antibody-drug conjugates for lung cancer in the era of personalized oncology[J].
+Semin Cancer Biol,
+2019,
+30:
+S1044-579X(19)30424-30429.
+DOI: 10.1016/j.semcancer.2019.12.024.
+[4]
+MakawitaS, Meric-BernstamF.
+Antibody-drug conjugates: patient and treatment selection[J].
+Am Soc Clin Oncol Educ Book,
+2020,
+40:
+1-
+10.
+DOI: 10.1200/EDBK_280775.
+[5]
+LeungD, WurstJM, LiuT, et al.
+Antibody conjugates-recent advances and future innovations[J].
+Antibodies (Basel),
+2020,
+9(
+1):
+2.
+DOI: 10.3390/antib9010002.
+[6]
+García-AlonsoS, OcañaA, PandiellaA.
+Trastuzumab emtansine: mechanisms of action and resistance, clinical progress, and beyond[J].
+Trends Cancer,
+2020,
+6(
+2):
+130-
+146.
+DOI: 10.1016/j.trecan.2019.12.010.
+[7]
+YuX, WuH, HuH, et al.
+Zein nanoparticles as nontoxic delivery system for maytansine in the treatment of non-small cell lung cancer[J].
+Drug Deliv,
+2020,
+27(
+1):
+100-
+109.
+DOI: 10.1080/10717544.2019.1704942.
+[8]
+BarokM, JoensuuH, IsolaJ.
+Trastuzumab emtansine: mechanisms of action and drug resistance[J].
+Breast Cancer Res,
+2014,
+16(
+2):
+209.
+DOI: 10.1186/bcr3621.
+[9]
+von MinckwitzG, HuangCS, ManoMS, et al.
+Trastuzumab emtansine for residual invasive HER2-positive breast cancer[J].
+N Engl J Med,
+2019,
+380(
+7):
+617-
+628.
+DOI: 10.1056/NEJMoa1814017.
+[10]
+VermaS, MilesD, GianniL, et al.
+Trastuzumab emtansine for HER2-positive advanced breast cancer[J].
+N Engl J Med,
+2012,
+367(
+19):
+1783-
+1791.
+DOI: 10.1056/NEJMoa1209124.
+[11]
+KropIE, KimSB, González-MartínA, et al.
+Trastuzumab emtansine versus treatment of physician′s choice for pretreated HER2-positive advanced breast cancer (TH3RESA): a randomised, open-label, phase 3 trial[J].
+Lancet Oncol,
+2014,
+15(
+7):
+689-
+699.
+DOI: 10.1016/s1470-2045(14)70178-0.
+[12]
+KropIE, KimSB, MartinAG, et al.
+Trastuzumab emtansine versus treatment of physician′s choice in patients with previously treated HER2-positive metastatic breast cancer (TH3RESA): final overall survival results from a randomised open-label phase 3 trial[J].
+Lancet Oncol,
+2017,
+18(
+6):
+743-
+754.
+DOI: 10.1016/s1470-2045(17)30313-3.
+[13]
+LiBT, ShenR, BuonocoreD, et al.
+Ado-trastuzumab emtansine for patients with HER2-mutant lung cancers: results from a phase Ⅱ basket trial[J].
+J Clin Oncol,
+2018,
+36(
+24):
+2532-
+2537.
+DOI: 10.1200/jco.2018.77.9777.
+[14]
+van de DonkNW, DhimoleaE.
+Brentuximab vedotin[J].
+MAbs.
+2012,
+4(
+4):
+458-
+465.
+DOI: 10.4161/mabs.20230.
+[15]
+YounesA, GopalAK, SmithSE, et al.
+Results of a pivotal phase Ⅱ study of brentuximab vedotin for patients with relapsed or refractory Hodgkin′s lymphoma[J].
+J Clin Oncol,
+2012,
+30(
+18):
+2183-
+2189.
+DOI: 10.1200/jco.2011.38.0410.
+[16]
+ProB, AdvaniR, BriceP, et al.
+Brentuximab vedotin (SGN-35) in patients with relapsed or refractory systemic anaplastic large-cell lymphoma: results of a phase Ⅱ study[J].
+J Clin Oncol,
+2012,
+30(
+18):
+2190-
+2196.
+DOI: 10.1200/jco.2011.38.0402.
+[17]
+MoskowitzCH, NademaneeA, MassziT, et al.
+Brentuximab vedotin as consolidation therapy after autologous stem-cell transplantation in patients with Hodgkin′s lymphoma at risk of relapse or progression (AETHERA): a randomised, double-blind, placebo-controlled, phase 3 trial[J].
+Lancet,
+2015,
+385(
+9980):
+1853-
+1862.
+DOI: 10.1016/S0140-6736(15)60165-9.
+[18]
+DeeksED.
+Polatuzumab vedotin: first global approval[J].
+Drugs,
+2019,
+79(
+13):
+1467-
+1475.
+DOI: 10.1007/s40265-019-01175-0.
+[19]
+ConnorsJM, JurczakW, StrausDJ, et al.
+Brentuximab vedotin with chemotherapy for stage Ⅲ or Ⅳ Hodgkin′s lymphoma[J].
+N Engl J Med,
+2018,
+378(
+4):
+331-
+344.
+DOI: 10.1056/NEJMoa1708984.
+[20]
+MorschhauserF, FlinnIW, AdvaniR, et al.
+Polatuzumab vedotin or pinatuzumab vedotin plus rituximab in patients with relapsed or refractory non-Hodgkin lymphoma: final results from a phase 2 randomised study (ROMULUS)[J].
+Lancet Haematol,
+2019,
+6(
+5):
+e254-
+e265.
+DOI: 10.1016/S2352-3026(19)30026-2.
+[21]
+SehnLH, HerreraAF, FlowersCR, et al.
+Polatuzumab vedotin in relapsed or refractory diffuse large B-cell lymphoma[J].
+J Clin Oncol,
+2020,
+38(
+2):
+155-
+165.
+DOI: 10.1200/jco.19.00172.
+[22]
+TillyH, MorschhauserF, BartlettNL, et al.
+Polatuzumab vedotin in combination with immunochemotherapy in patients with previously untreated diffuse large B-cell lymphoma: an open-label, non-randomised, phase 1b-2 study[J].
+Lancet Oncol,
+2019,
+20(
+7):
+998-
+1010.
+DOI: 10.1016/s1470-2045(19)30091-9.
+[23]
+TsurutaniJ, IwataH, KropI, et al.
+Targeting HER2 with trastuzumab deruxtecan: a dose-expansion, phase Ⅰ study in multiple advanced solid tumors[J].
+Cancer Discov,
+2020,
+10(
+5):
+688-
+701.
+DOI: 10.1158/2159-8290.CD-19-1014.
+[24]
+ModiS, SauraC, YamashitaT, et al.
+Trastuzumab deruxtecan in previously treated HER2-positive breast cancer[J].
+N Engl J Med,
+2020,
+382(
+7):
+610-
+621.
+DOI: 10.1056/NEJMoa1914510.
+[25]
+ShitaraK, BangYJ, IwasaS, et al.
+Trastuzumab deruxtecan in previously treated HER2-positive gastric cancer[J].
+N Engl J Med,
+2020,
+382(
+25):
+2419-
+2430.
+DOI: 10.1056/NEJMoa2004413.
+[26]
+YamaguchiK, BangY, IwasaS, et al.
+Trastuzumab deruxtecan (T-DXd; DS-8201) in patients with HER2-low, advanced gastric or gastroesophageal junction (GEJ) adenocarcinoma: Results of the exploratory cohorts in the phase Ⅱ，multicenter, open-label DESTINY-Gastric01 study[J].
+Ann Oncol,
+2020,
+31(
+suppl 4):
+S841-
+S873.
+DOI: 101016/annonc/annonc284.
+[27]
+WeissJ, GlodeA, MessersmithWA, et al.
+Sacituzumab govitecan: breakthrough targeted therapy for triple-negative breast cancer[J].
+Expert Rev Anticancer Ther,
+2019,
+19(
+8):
+673-
+679.
+DOI: 10.1080/14737140.2019.1654378.
+[28]
+BardiaA, MayerIA, VahdatLT, et al.
+Sacituzumab govitecan-hziy in refractory metastatic triple-negative breast cancer[J].
+N Engl J Med,
+2019,
+380(
+8):
+741-
+751.
+DOI: 10.1056/NEJMoa1814213.
+[29]
+BardiaA, TolaneySM, LoiratD, et al.
+ASCENT: A randomized phase Ⅲ study of sacituzumab govitecan (SG) vs treatment of physician′s choice (TPC) in patients (pts) with previously treated metastatic triple-negative breast cancer (mTNBC)[J].
+Ann Oncol,
+2020,
+31(
+suppl 4):
+S1142-
+S1215.
+DOI: 101016/annonc/annonc325,2020.
+[30]
+YuB, LiuD.
+Gemtuzumab ozogamicin and novel antibody-drug conjugates in clinical trials for acute myeloid leukemia[J].
+Biomark Res,
+2019,
+7:
+24.
+DOI: 10.1186/s40364-019-0175-x.
+[31]
+BrossPF, BeitzJ, ChenG, et al.
+Approval summary: gemtuzumab ozogamicin in relapsed acute myeloid leukemia[J].
+Clin Cancer Res,
+2001,
+7(
+6):
+1490-
+1496.
+[32]
+PetersdorfSH, KopeckyKJ, SlovakM, et al.
+A phase 3 study of gemtuzumab ozogamicin during induction and postconsolidation therapy in younger patients with acute myeloid leukemia[J].
+Blood,
+2013,
+121(
+24):
+4854-
+4860.
+DOI: 10.1182/blood-2013-01-466706.
+[33]
+CastaigneS, PautasC, TerréC, et al.
+Effect of gemtuzumab ozogamicin on survival of adult patients with de-novo acute myeloid leukaemia (ALFA-0701): a randomised, open-label, phase 3 study[J].
+Lancet,
+2012,
+379(
+9825):
+1508-
+1516.
+DOI: 10.1016/S0140-6736(12)60485-1.
+[34]
+AmadoriS, SuciuS, SelleslagD, et al.
+Gemtuzumab ozogamicin versus best supportive care in older patients with newly diagnosed acute myeloid leukemia unsuitable for intensive chemotherapy: results of the randomized phase Ⅲ EORTC-GIMEMA AML-19 trial[J].
+J Clin Oncol,
+2016,
+34(
+9):
+972-
+979.
+DOI: 10.1200/jco.2015.64.0060.
+[35]
+LambYN.
+Inotuzumab ozogamicin: first global approval[J].
+Drugs,
+2017,
+77(
+14):
+1603-
+1610.
+DOI: 10.1007/s40265-017-0802-5.
+[36]
+KantarjianHM, DeAngeloDJ, StelljesM, et al.
+Inotuzumab ozogamicin versus standard therapy for acute lymphoblastic leukemia[J].
+N Engl J Med,
+2016,
+375(
+8):
+740-
+753.
+DOI: 10.1056/NEJMoa1509277.
+[37]
+McGregorBA, SonpavdeG.
+Enfortumab vedotin, a fully human monoclonal antibody against Nectin 4 conjugated to monomethyl auristatin E for metastatic urothelial Carcinoma[J].
+Expert Opin Investig Drugs,
+2019,
+28(
+10):
+821-
+826.
+DOI: 10.1080/13543784.2019.1667332.
+[38]
+RosenbergJE, O′DonnellPH, BalarAV, et al.
+Pivotal trial of enfortumab vedotin in urothelial carcinoma after platinum and anti-programmed death 1/programmed death ligand 1 therapy[J].
+J Clin Oncol,
+2019,
+37(
+29):
+2592-
+2600.
+DOI: 10.1200/jco.19.01140.
+[39]
+LiuF, KeJ, SongY.
+T-DM1-induced thrombocytopenia in breast cancer patients: new perspectives[J].
+Biomed Pharmacother,
+2020,
+129:
+110407.
+DOI: 10.1016/j.biopha.2020.110407.
+[40]
+MastersJC, NickensDJ, XuanD, et al.
+Clinical toxicity of antibody drug conjugates: a meta-analysis of payloads[J].
+Invest New Drugs,
+2018,
+36(
+1):
+121-
+135.
+DOI: 10.1007/s10637-017-0520-6.
+[41]
+FontanellaC, BolzonelloS, LedererB, et al.
+Management of breast cancer patients with chemotherapy-induced neutropenia or febrile neutropenia[J].
+Breast Care (Basel),
+2014,
+9(
+4):
+239-
+245.
+DOI: 10.1159/000366466.
+[42]
+CliffordK, CopelandA, KnutzenG, et al.
+Brentuximab vedotin: a nursing perspective on best practices and management of associated adverse events[J].
+Clin J Oncol Nurs,
+2018,
+22(
+4):
+E103-
+E114.
+DOI: 10.1188/18.CJON.E103-E114.
+[43]
+HorwitzS, O′ConnorOA, ProB, et al.
+Brentuximab vedotin with chemotherapy for CD30-positive peripheral T-cell lymphoma (ECHELON-2): a global, double-blind, randomised, phase 3 trial[J].
+Lancet,
+2019,
+393(
+10168):
+229-
+240.
+DOI: 10.1016/S0140-6736(18)32984-2.
+[44]
+StrausDJ, Dugosz-DaneckaM, AlekseevS, et al.
+Brentuximab vedotin with chemotherapy for stage Ⅲ/Ⅳ classical Hodgkin lymphoma: 3-year update of the ECHELON-1 study[J].
+Blood,
+2020,
+135(
+10):
+735-
+742.
+DOI: 10.1182/blood.2019003127.
+[45]
+LambertJ, PautasC, TerréC, et al.
+Gemtuzumab ozogamicin for de novo acute myeloid leukemia: final efficacy and safety updates from the open-label, phase Ⅲ ALFA-0701 trial[J].
+Haematologica,
+2019,
+104(
+1):
+113-
+119.
+DOI: 10.3324/haematol.2018.188888.
+[46]
+Barroso-SousaR, SantanaIA, TestaL, et al.
+Biological therapies in breast cancer: common toxicities and management strategies[J].
+Breast,
+2013,
+22(
+6):
+1009-
+1018.
+DOI: 10.1016/j.breast.2013.09.009.
+[47]
+Fallah-RadN, WalkerJR, WassefA, et al.
+The utility of cardiac biomarkers, tissue velocity and strain imaging, and cardiac magnetic resonance imaging in predicting early left ventricular dysfunction in patients with human epidermal growth factor receptor Ⅱ-positive breast cancer treated with adjuvant trastuzumab therapy[J].
+J Am Coll Cardiol,
+2011,
+57(
+22):
+2263-
+2270.
+DOI: 10.1016/j.jacc.2010.11.063.
+[48]
+NegishiK, NegishiT, HaluskaBA, et al.
+Use of speckle strain to assess left ventricular responses to cardiotoxic chemotherapy and cardioprotection[J].
+Eur Heart J Cardiovasc Imaging,
+2014,
+15(
+3):
+324-
+331.
+DOI: 10.1093/ehjci/jet159.
+[49]
+SawayaH, SebagIA, PlanaJC, et al.
+Assessment of echocardiography and biomarkers for the extended prediction of cardiotoxicity in patients treated with anthracyclines, taxanes, and trastuzumab[J].
+Circ Cardiovasc Imaging,
+2012,
+5(
+5):
+596-
+603.
+DOI: 10.1161/CIRCIMAGING.112.973321.
+[50]
+XuH, ShengX, YanX, et al.
+A phase Ⅱ study of RC48-ADC in HER2-negative patients with locally advanced or metastatic urothelial carcinoma[J].
+J Clin Oncol,
+2020,
+38(
+suppl 15):
+e17113.
+DOI: 10.1200/JCO.2020.38.15_suppl.e17113.
+[51]
+XuB, WangJ, FangJ, et al.
+Abstract PD4-06: Early clinical development of RC48-ADC in patients with HER2 positive metastatic breast cancer[J].
+Cancer Res,
+2020,
+80(
+Suppl 4):
+PD4-
+06.
+DOI: 10.1158/1538-7445.sabcs19-pd4-06.
+[52]
+ShengX, ZhouAP, YaoX, et al.
+A phase Ⅱ study of RC48-ADC in HER2-positive patients with locally advanced or metastatic urothelial carcinoma[J].
+J Clin Oncol,
+2019,
+37(
+suppl 15):
+4509.
+DOI: 10.1200/JCO.2019.37.15_suppl.4509.
+[53]
+LiuY, LianW, ZhaoX, et al.
+A first in-human study of A166 in patients with locally advanced/metastatic solid tumors which are HER2-positive or HER2-amplified who did not respond or stopped responding to approved therapies[J].
+J Clin Oncol,
+2020,
+38(
+suppl 15):
+1049.
+DOI: 10.1200/JCO.2020.38.15_suppl.1049.
+[54]
+WangS, XuF, HongR, et al.
+Abstract CT053: BAT8001, a potent anti-HER2 antibody drug conjugate with a novel uncleavable linker to reduce toxicity for patients with HER2-positive tumor[J].
+Cancer Res,
+2019,
+79(
+Suppl 13):
+CT053.
+DOI: 10.1158/1538-7445.am2019-ct053.
+[55]
+HuX, ZhangJ, JiD, et al.
+Abstract P1-18-16: A phase 1 study of ARX788, a HER2-targeting antibody-drug conjugate, in patients with metastatic HER2-positive breast cancer[J].
+Cancer Res,
+2020,
+80(
+Suppl 4):
+P1-
+P18.
+DOI: 10.1158/1538-7445.sabcs19-p1-18-16.
+[56]
+BoshuizenJ, KoopmanLA, KrijgsmanO, et al.
+Cooperative targeting of melanoma heterogeneity with an AXL antibody-drug conjugate and BRAF/MEK inhibitors[J].
+Nat Med,
+2018,
+24(
+2):
+203-
+212.
+DOI: 10.1038/nm.4472.
+[57]
+BruinsWSC, ZweegmanS, MutisT, et al.
+Targeted therapy with immunoconjugates for multiple myeloma[J].
+Front Immunol,
+2020,
+11:
+1155.
+DOI: 10.3389/fimmu.2020.01155.
+贡献者信息
+中国抗癌协会肿瘤药物临床研究专业委员会
+国家抗肿瘤药物临床应用监测专家委员会
+国家肿瘤质控中心乳腺癌专家委员会
+北京市肿瘤治疗质量控制和改进中心肿瘤化疗质控专家委员会
+通信作者
+徐兵河
+国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院药物临床试验研究中心 100021
+Email：
+xubinghe@CSCO.org.cn
+马飞
+国家癌症中心 国家肿瘤临床医学研究中心 中国医学科学院北京协和医学院肿瘤医院内科 100021
+Email：
+drmafei@126.com
+关键词
+恶性肿瘤;
+抗体药物偶联物;
+单克隆抗体;
+细胞毒性药物;
+安全性管理;
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2021-01-23
+收稿日期：2020-11-12
+Guidelines and Standards
+Expert consensus on the clinical application of antibody drug conjugates in the treatment of malignant tumors (2020 Edition)
+Professional Committee on Clinical Research of Oncology Drugs, Chinese Anti-Cancer Association,  Expert Committee for Monitoring the Clinical Application of Antitumor Drugs,  Breast Cancer Expert Committee of National Cancer Quality Control Center,  Cancer Chemotherapy Quality Control Expert Committee of Beijing Cancer Treatment Quality Control and Improvement Center
+Published
+2021-01-23
+Cite as
+Chin J Oncol, 2021, 43(1): 78-91. DOI: 10.3760/cma.j.cn112152-20201112-00981
+Abstract
+Antibody-drug conjugate (ADC) is a type of targeted biological agent which connect cytotoxic drug to monoclonal antibody by a connector head, which enables monoclonal antibody acted as a carrier to efficiently transport small molecular cytotoxic drugs to target tumor cells. It is very important for clinicians to have an in-depth understanding of the molecular characteristics and mechanism of ADC drugs, rationally choose the appropriate dose, course of treatment and manage adverse reactions according to the indications during the clinical application of ADC drugs, which may even affect the survival of patients. Therefore, the consensus aims to conduct a systematic overview of commercially available ADC drugs, provide effective recommendations and references for clinicians to better apply and manage ADC drugs.
+Key words:
+Malignant tumors; Antibody-drug conjugate; Monoclonal antibody; Cytotoxic drug; Safety management
+Contributor Information
+Professional Committee on Clinical Research of Oncology Drugs, Chinese Anti-Cancer Association
+Expert Committee for Monitoring the Clinical Application of Antitumor Drugs
+Breast Cancer Expert Committee of National Cancer Quality Control Center
+Cancer Chemotherapy Quality Control Expert Committee of Beijing Cancer Treatment Quality Control and Improvement Center
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+目前美国欧盟和中国已获批上市的抗体药物偶联物药物列表
+药物名称
+靶点
+细胞毒性药物
+适应证
+获得批准情况
+吉妥珠单抗
+CD33
+刺孢霉素
+CD33阳性急性髓性白血病
+2000年获得批准，2010年撤销上市2017年于美国重新获得批准2018年于欧盟获得批准
+维布妥昔单抗
+CD30
+甲基澳瑞他汀E
+经典型霍奇金淋巴瘤；系统性间变性大细胞淋巴瘤或CD30阳性外周T细胞淋巴瘤；原发CD30阳性皮肤间变性大细胞淋巴瘤或CD30阳性的蕈样肉芽肿
+2011年于美国获得批准2012年于欧盟获得批准2020年于中国获得批准
+恩美曲妥珠单抗
+HER-2
+美坦辛衍生物
+HER-2阳性晚期乳腺癌二线治疗抗HER-2新辅助治疗后仍有残存病灶的乳腺癌辅助治疗
+2013年美国获得批准2020年中国获得批准
+奥英妥珠单抗
+CD22
+刺孢霉素
+成人复发或难治性CD22阳性前体B细胞急性淋巴细胞白血病
+2017年于美国获得批准
+Polatuzumab Vedotin
+CD79b
+甲基澳瑞他汀E
+联合苯达莫司汀和利妥昔单抗治疗复发或难治性弥漫大B细胞淋巴瘤
+2019年于美国获得批准
+Enfortumab Vedotin
+Nectin-4
+甲基澳瑞他汀E
+既往接受过含铂化疗和1种PD-1或PD-L1抑制剂的局部晚期或转移性尿路上皮癌
+2019年于美国获得批准
+Trastuzumab Deruxtecan
+HER-2
+Exatecan衍生物
+无法切除或转移性HER-2阳性乳腺癌，针对转移病灶接受过2种以上抗HER-2治疗
+2019年于美国获得批准
+Sacituzumab Govitecan
+TROP-2
+SN-38，伊立替康的活性代谢产物
+转移性三阴性乳腺癌，既往接受过至少2线治疗
+2020年于美国获得批准
+注：HER-2:人表皮生长因子受体2; PD-1:程序性死亡受体1; PD-L1:程序性死亡受体配体1; TROP-2:抗滋养层细胞表面抗原2;数据截至2020年10月28日
+表2
+抗体药物偶联物药物常见给药方案和剂量
+药物名称
+适应证
+常见给药方案和剂量
+吉妥珠单抗
+初诊的CD33阳性AML成人和≥1个月的儿童患者
+诱导期：3 mg/m2，静脉输注(第1、4、7天)，与柔红霉素和阿糖胞苷联合；巩固期：3 mg/m2，静脉输注(第1天)，与柔红霉素和阿糖胞苷联合
+初诊的CD33阳性AML成人和≥1个月的儿童患者
+诱导期：6 mg/m2，静脉输注(第1天)，3 mg/m2，静脉输注(第8天)；巩固期：2 mg/m2(第1天)，每4周1次。对于诱导期后无疾病进展证据的患者，持续治疗直至8个疗程
+复发或难治性CD33阳性AML成人和≥2岁的儿童患者
+3 mg/m2，静脉输注(第1、4、7天)
+维布妥昔单抗
+作为复发或进展风险较高的CHL ASCT后巩固治疗；不适合ASCT、ASCT失败后或既往至少2种多药化疗方案失败后的CHL；既往至少1种多药化疗方案失败后的sALCL；既往接受过全身治疗的原发性皮肤间变性大细胞淋巴瘤或CD30阳性的蕈样肉芽肿
+1.8 mg/kg，静脉输注(最大剂量为180 mg)，每3周1次
+未经治疗的Ⅲ～Ⅳ期CHL
+1.2 mg/kg，静脉输注(最大剂量为120 mg)，每2周1次(最多12个周期)，与化疗联合
+未经治疗的sALCL或其他表达CD30的外周T细胞淋巴瘤
+1.8 mg/kg，静脉输注(最大剂量为180 mg)，每3周1次(6～8个周期)，与化疗联合
+恩美曲妥珠单抗
+既往接受过曲妥珠单抗和紫杉类药物单独或联合治疗的HER-2阳性晚期乳腺癌患者。患者应满足以下条件之一：既往接受过针对转移性疾病治疗；在辅助治疗期间复发；完成辅助治疗后6个月内出现复发；在基于紫杉烷和曲妥珠单抗的新辅助治疗后残留浸润性疾病的HER-2阳性早期乳腺癌患者的辅助治疗
+3.6 mg/kg，静脉输注，每3周1次，直至疾病进展或出现不可耐受的毒性反应，或早期乳腺癌患者辅助治疗至14个周期
+奥英妥珠单抗
+复发或难治性前体B细胞急性淋巴细胞白血病成人患者
+第1个周期(共21 d)：0.8 mg/m2 (第1天)、0.5 mg/m2(第8天)、0.5 mg/m2(第15天) ，静脉输注；后续周期剂量视患者治疗反应而定；达到CR或CRi的患者：0.5 mg/m2(第1天)、0.5 mg/m2(第8天)、0.5 mg/m2(第15天) ，静脉输注，28 d为1个周期；未达到CR或CRi的患者：0.8 mg/m2 (第1天)、0.5 mg/m2(第8天)、0.5 mg/m2 (第15天) ，静脉输注，28 d为1个周期
+Polatuzumab Vedotin
+既往接受过治疗的不适合造血干细胞移植的弥漫性大B细胞淋巴瘤成人患者
+1.8 mg/kg(第1天) ，静脉输注，每3周1次(共6个周期，21 d为1个周期)，与苯达莫司汀和利妥昔单抗联合
+Enfortumab Vedotin
+曾接受PD-1或PD-L1抑制剂治疗，或曾接受含铂方案新辅助/辅助化疗的局部晚期或转移性尿路上皮癌成人患者
+1.25 mg/kg，静脉输注(最大剂量为125 mg，输注时间>30 min)，第1、8、15天(28 d为1个周期)，直至疾病进展或出现不可耐受的不良反应
+Trastuzumab Deruxtecan
+既往接受过≥2种抗HER-2治疗的不可切除或转移性HER-2阳性乳腺癌成人患者
+5.4 mg/kg，静脉输注，每3周1次，直至疾病进展或出现不可耐受的不良反应
+Sacituzumab Govitecan
+既往接受过≥2种转移性疾病疗法的转移性三阴性乳腺癌成人患者
+10 mg/kg，静脉输注，第1、8天(每21 d为1个周期)，直至疾病进展或出现不可耐受的不良反应
+注：AML:急性髓性白血病；CHL:经典霍奇金淋巴瘤；ASCT:自体造血干细胞移植；sALCL:系统性间变性大细胞淋巴瘤；HER-2:人表皮生长因子受体2; CR:完全缓解；CRi:血细胞计数不完全恢复的完全缓解；PD-1:程序性死亡受体1; PD-L1:程序性死亡受体配体1
+表3
+常见抗体药物偶联物药物相关不良反应
+不良反应分类
+药物
+不良反应
+血液学不良反应
+Sacituzumab Govitecan
+尿苷二磷酸葡萄糖醛酸转移酶1A1活性降低
+Polatuzumab Vedotin
+骨髓抑制
+奥英妥珠单抗
+骨髓抑制
+Sacituzumab Govitecan
+严重的中性粒细胞减少
+恩美曲妥珠单抗
+血小板减少症
+维布妥昔单抗
+血液学毒性
+Trastuzumab Deruxtecan
+中性粒细胞减少症
+输注相关反应
+维布妥昔单抗
+过敏反应和输液反应
+Sacituzumab Govitecan
+过敏
+Enfortumab Vedotin
+输液部位外渗
+奥英妥珠单抗
+输液相关反应
+Polatuzumab Vedotin
+输注相关反应
+恩美曲妥珠单抗
+输注相关反应，超敏反应
+神经毒性
+恩美曲妥珠单抗
+神经毒性
+维布妥昔单抗
+周围神经病变
+Polatuzumab Vedotin
+周围神经病变
+Enfortumab Vedotin
+周围神经病变
+肝毒性
+恩美曲妥珠单抗
+肝毒性
+维布妥昔单抗
+肝毒性
+Polatuzumab Vedotin
+肝毒性
+奥英妥珠单抗
+肝毒性，包括肝静脉阻塞性疾病
+肺毒性
+恩美曲妥珠单抗
+肺毒性
+维布妥昔单抗
+肺毒性
+Trastuzumab Deruxtecan
+间质性肺疾病和肺炎
+消化系统疾病
+Sacituzumab Govitecan
+恶心，呕吐
+Sacituzumab Govitecan
+严重腹泻
+维布妥昔单抗
+胃肠道并发症
+心脏毒性
+奥英妥珠单抗
+QT间期延长
+恩美曲妥珠单抗
+左心室功能不全
+Trastuzumab Deruxtecan
+左心室功能不全
+感染
+Polatuzumab Vedotin
+严重的机会感染
+维布妥昔单抗
+严重感染和机会感染
+皮肤和皮下组织疾病
+Enfortumab Vedotin
+皮肤反应
+维布妥昔单抗
+严重的皮肤病反应
+肿瘤溶解综合征
+维布妥昔单抗
+肿瘤溶解综合征
+Polatuzumab Vedotin
+肿瘤溶解综合征
+代谢性毒性
+Enfortumab Vedotin
+高血糖症
+眼部疾病
+Enfortumab Vedotin
+眼部疾病
+中枢毒性
+Polatuzumab Vedotin
+进行性多灶性白质脑病
+血管疾病
+恩美曲妥珠单抗
+出血
+表4
+中国已上市抗体药物偶联物的使用方法和注意事项
+药物名称
+剂型
+溶剂
+溶解流程/振摇方式a
+放置时间a
+输注期间和输注后
+用药过程中急性反应的观察与处理
+恩美曲妥珠单抗(T-DM1)
+冻干粉针剂
+无菌注射用水
+配制：使用无菌针筒，慢慢地将5 ml的无菌注射用水注入100 mg的恩美曲妥珠单抗小瓶内或将8 ml的无菌注射用水注入160 mg的恩美曲妥珠单抗小瓶内，制成20 mg/ml的溶液。慢慢地摇动小瓶，直到完全溶解为止。不可摇晃。稀释：从小瓶取出所需的量，将之加进含有250 ml的0.9%氯化钠注射液或0.45%氯化钠注射液的输注袋内。不可使用葡萄糖(5%)溶液。为了避免泡沫产生，输注袋应轻轻反转以混合溶液
+配制后的冻干小瓶在与无菌注射液配制后，应立即使用。如果未立即使用，配制后的恩美曲妥珠单抗小瓶可放在冰箱内，以2℃～8℃(36°F～46°F)的温度储存最多至24 h；兼顾药物的稳定性和无菌性，建议配制后2 h内输注，超过24 h应丢弃未使用的恩美曲妥珠单抗。不可冷冻。配制后的制品不含防腐剂，仅做单次使用
+起始剂量时采用90 min静脉输注。在输注期间应观察患者，并于初始剂量给药后至少90 min内观察发热、寒战或其他输液相关反应。给药期间应密切监测输注部位，防止可能出现皮下外渗的情况。如果既往输注时的耐受性良好，则给予本品的后续剂量时可采用30 min输注，并且应在输注期间和输注后至少30 min内对患者进行观察。如果患者出现输注相关症状，应减慢本品的输注速率或中断给药。出现危及生命的输液反应时，应终止治疗。在输注期间及输注后，应监测患者情况
+患者出现输注反应或过敏反应，首先关闭输液器、同时呼叫器通知医师和办公室护师，必要时办公室护师协助通知医师；然后更换输液器，回抽留置针或中心静脉导管内的药液；其次按医嘱用药并记录，办公室护师协助将余药送回药疗室2℃～8℃冰箱内保存；做好再次输注的准备，患者症状缓解后，将药物从冰箱内拿出自然附温，药液温度接近室温后进行输注。患者因严重的过敏反应或输注反应，不能再次输入，需要丢弃药物，按余药处理。余药处理流程：首先确认药物丢弃，将药物置入双层黄色垃圾袋中，置入感染性医疗垃圾桶内；其次通知卫生员封闭垃圾桶内的垃圾袋，注明含有少量药物垃圾的标识；最后专人转运离开病房
+维布妥昔单抗(BV)
+白色至类白色块状或粉末
+无菌注射用水
+配制：每瓶单次必须使用10.5 ml注射用水复溶，终浓度为5 mg/ml。每瓶过量灌装10%，每瓶维布妥昔单抗含量为55 mg，总复溶体积为11 ml。沿瓶壁加入液体，不得直接加注于药品块状物或粉末上；轻轻旋转药瓶直至复溶，不得振摇；药瓶中的复溶液体应为澄清至微乳光的无色溶液，pH终值为6.6
+复溶后，应立即稀释至输液袋中。如未立即稀释，则将溶液储存于2℃～8℃，并于复溶后24 h内使用，兼顾药物的稳定性和无菌性，建议配制后2 h内输注。不可冷冻
+30 min以上静脉输注给药，在输注期间及输注后，应监测患者情况。如果发生速发过敏反应，则应立即并永久性终止使用维布妥昔单抗，并进行适当的治疗。如果发生输液相关反应，应立即中断输液，并采取适当的治疗，症状缓解后，可采用较慢速率严密监测下重启输液。对于既往发生过输液相关反应的患者，应在后续输液前采取预防用药。预防用药包括对乙酰氨基酚、抗组胺药物和糖皮质激素
+a以上内容参考药品说明书
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华肿瘤杂志2021年43卷01期
+文    题：抗体药物偶联物治疗恶性肿瘤临床应用专家共识(2020版)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华肿瘤杂志2021年43卷01期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

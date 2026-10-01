@@ -1,0 +1,828 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%97%A9%E4%BA%A7%E5%84%BF%E6%94%AF%E6%B0%94%E7%AE%A1%E8%82%BA%E5%8F%91%E8%82%B2%E4%B8%8D%E8%89%AF%E4%B8%B4%E5%BA%8A%E7%AE%A1%E7%90%86%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 早产儿支气管肺发育不良临床管理专家共识 - 中华儿科杂志
+# 发布方/日期: 儿科，中华儿科杂志, 2020,58(05) : 358-365. DOI: 10.3760/cma.j；2020-05-02
+
+早产儿支气管肺发育不良临床管理专家共识
+中华医学会儿科学分会新生儿学组
+中华儿科杂志编辑委员会
+中华儿科杂志, 2020,58(05) : 358-365. DOI: 10.3760/cma.j.cn112140-20200317-00254
+过去30多年，我国早产儿尤其极低和超低出生体重儿的存活率显著提高，支气管肺发育不良（bronchopulmonary dysplasia, BPD）的发生率也随之上升。目前BPD的诊断和分度主要还是根据2001年美国国立儿童健康和人类发展研究所（National Institute of Child Health and Human Development, NICHD）发表的标准，即对于出生胎龄<32周的早产儿，生后累计用氧28 d，然后根据校正胎龄36周时不吸氧、吸入氧浓度<0.30、吸入氧浓度≥0.30或需要正压通气及机械通气，定义为轻度、中度和重度BPD（severe BPD，sBPD）[1]。2018年NICHD专家提出新的建议，细化了用氧方式与BPD的分度，强调了机械通气与sBPD的关系，并将日龄14 d至校正胎龄36周之间因呼吸衰竭死亡者归属sBPD的诊断中[2]。我国几项多中心调查报道的超低出生体重儿或超未成熟儿BPD发生率差异较大，2006—2008年仅19.3%[3]，2011年为48.1%[4]，2019年则高达72.2%[5]。合并BPD的早产儿病死率和并发症发生率显著高于一般早产儿，住院时间延长且远期神经发育不良预后的发生率高，BPD的预防和管理已成为围生和新生儿医学领域的一大挑战。由于我国各地区医疗水平欠均衡，对呼吸支持技术的认识亦不统一，导致不同医疗中心对BPD的管理缺乏同质化，BPD患儿结局也存在较大差异。因此中华医学会儿科学分会新生儿学组联合中华儿科杂志编辑委员会制定本专家共识，以进一步规范BPD的预防和临床管理，改善其存活率及预后。本共识的适用人群为出生胎龄<32周的早产儿，重点为出生胎龄<28周的超未成熟儿。
+一、BPD的预防
+（一）出生后尽早建立并维持功能残气量
+有自主呼吸的早产儿，产房内应尽早开始呼气末正压（positive end expiratory pressure,PEEP）或持续气道正压（continuous positive airway pressure, CPAP）支持，帮助早产儿尽快建立稳定的功能残气量（functional residual capacity,FRC），是避免气管插管、降低BPD发生率的有效措施。这一目标可通过T组合、CPAP或呼吸机等设备来实现，初始压力可设置为5~6 cmH2O （1 cmH2O=0.098 kPa）[6,7]。
+（二）合理用氧
+生后早期高氧浓度是发生BPD的独立危险因素，因此推荐出生胎龄<32周的早产儿由0.30的氧浓度开始复苏。然而低氧血症也可导致多脏器受损，增加病死率，目前国际上普遍认为在校正胎龄32周前的目标氧饱和度以0.90~0.94为宜[7,8]。
+（三）呼吸窘迫综合征（respiratory distress syndrome, RDS）阶段的呼吸管理
+早产儿生后早期的肺部病理改变以表面活性物质缺乏所致的肺萎陷为主，即RDS。此阶段肺顺应性显著降低，气道阻力基本正常，时间常数缩短，肺部病变均一。因此呼吸管理的主要目的为治疗RDS，尽可能避免气管插管或缩短机械通气时间，避免各种原因所致的肺损伤。
+1．补充表面活性物质：
+若早产儿在CPAP支持下仍呼吸窘迫、吸入氧浓度>0.30，应给予外源性表面活性物质[9]。传统上表面活性物质通过气管插管给药，给药前后一段时间的气囊正压通气或机械通气难以避免，易造成肺损伤。微创表面活性物质注入（less invasive surfactant administration, LISA）或微创表面活性物质治疗（minimally invasive surfactant therapy, MIST）近年逐渐在临床开展，以细小的导管代替气管插管注入表面活性物质，过程中无需中断CPAP（LISA）或仅短暂脱离CPAP（MIST）[10]。目前已有证据说明LISA或MIST能够降低早产儿病死率或BPD发生率[11,12]。对于熟练掌握该技术的中心，可将LISA或MIST作为早产儿肺保护性策略的一部分而应用于临床。
+2．无创呼吸支持：
+可供选择的无创呼吸支持除了研究最多的CPAP，还包括经鼻间歇正压通气（nasal intermittent positive pressure ventilation，NIPPV）、双水平正压通气（bi-level positive airway pressure，BiPAP）、加温湿化高流量鼻导管通气（high flow nasal cannula, HFNC）和经鼻无创高频通气（nasal high frequency ventilation，NHFV）。与早期接受CPAP相比，早期开始NIPPV的早产儿最终需要气管插管的比例较低，但BPD发生率并没有下降[13]。比较NIPPV与CPAP用于撤离呼吸机后的呼吸支持的效果，发现NIPPV显著降低再次气管插管率，但未能降低BPD发生率[14]。HFNC近年逐渐普及，虽然HFNC操作简单，鼻黏膜损伤也较CPAP更少，但BPD发生率没有明显差别[15]。由于超低出生体重儿呼吸驱动较弱，HFNC不能提供足够的PEEP，当HFNC作为RDS初始治疗或拔管后的呼吸支持，失败率明显高于CPAP[16,17]。因此出生胎龄<28周的超低出生体重儿不建议在初始治疗时选择HFNC。近几年陆续有NHFV用于早产儿的报道，研究对象的出生胎龄基本在30周以上，最佳呼吸机参数、对BPD的影响以及安全性等资料目前均不充足[18]。总之，并无证据显示哪种无创呼吸支持模式在减少BPD发生率上更具优势。
+3．机械通气：
+对于无创呼吸支持失败的患儿，需要气管插管机械通气，支持模式及参数应依据患儿肺部病理生理及呼吸力学情况进行选择，在保证足够呼吸支持的同时尽量避免或减少机械通气相关肺损伤。近年研究较多的目标潮气量通气（volume targeted ventilation，VTV）与压力限制性通气相比，可显著缩短机械通气时间，减少重度脑室内出血、气胸和BPD的发生率[19]。因生后早期肺部病理生理改变以RDS为主，故参数设置建议小潮气量（4~6 ml/kg）、短吸气时间（0.3~0.4 s）、快通气频率（30~60次/min），并提供足够的PEEP（5~8 cmH2O），同时注意避免肺过度膨胀。机械通气模式也可直接选择高频通气，可能比常频通气更利于肺泡募集，使BPD的风险略有下降，并改善患儿学龄期肺功能，但由于不同临床试验中高频通气起始时间、参数设置及试验结果的差异性较大，其安全性及有效性尚未确定[20]。
+（四）BPD发展阶段的呼吸管理
+BPD的发展是一个进行性的过程。生后1~2周，随着RDS的恢复，呼吸机参数逐渐降低，应尽早改无创呼吸支持。若生后1周仍需气管插管机械通气，BPD的风险显著增加[21]。若时间上RDS病程理应进入恢复期，但患儿呼吸机条件及吸入氧浓度持续不降或降而复升，需重点考虑是否有造成肺损伤的因素持续存在，如宫外发育迟缓、合并动脉导管未闭（patent ductus arteriosus,PDA）或肺部感染。
+随着BPD的进展，肺部病理改变逐渐变为不均一，气道阻力增加，时间常数延长，因此应对肺部病理及呼吸力学进行动态评估。该阶段呼吸支持的目的主要为维持正常气体交换，减少呼吸做功，促进肺的生长和愈合，同时避免进一步肺损伤[22]。
+（五）早期感染的防治
+宫内感染和生后感染均与BPD密切相关。母亲绒毛膜炎使早产儿早发败血症、BPD的发生率和病死率增加[23]，及时诊断与治疗早发败血症意义重大。但应注意合理应用抗菌药物，避免不必要的广谱抗菌药物长时间暴露。有临床研究提示解脲脲原体宫内感染使早产儿BPD风险增加，但尚不能证实阿奇霉素等药物治疗的有效性[24]。
+二、已确诊BPD的管理
+（一） BPD患儿的评估
+1．病史回顾：
+包括围生史，生后呼吸支持情况，是否有间歇性低氧发作，喂养情况及胃食管反流病史，感染史和用药史（特别是针对肺部疾病的药物及疗效）等。
+2．BPD严重程度及病理改变：
+根据2001年NICHD制定的BPD标准，校正胎龄36周或出院时吸入氧浓度≥0.30或需要正压通气及机械通气的患儿均定义为sBPD[1]，其中需要机械通气的这部分患儿病情特别危重复杂，其管理非常困难。BPD的病理改变主要包括肺实质病变、肺血管病变及气道疾病，sBPD患儿上述病理改变常混合存在[25,26]。
+3．营养及生长发育：
+通过营养评估可明确患儿的营养需求并间接反映提供的呼吸支持是否足够。BPD患儿的生长评估不应只关注体重，还需关注身长、头围及其与体重是否成比例。
+（二）呼吸管理
+不同程度的BPD肺部病理生理和呼吸力学差异显著，sBPD常伴有生长迟缓、肺动脉高压（pulmonary hypertension，PH）、气管-支气管软化、胃食管反流和反复微吸入、气道高反应性等，使呼吸支持和氧需求难以降低，因此需要个体化管理方案。
+sBPD患儿肺部过度膨胀和肺不张区域常交错存在，气道阻力明显升高，通气死腔显著增加，这样的患儿若单纯追求"撤离呼吸机"，即使勉强撤机，仍需很高条件的无创呼吸支持，且出现呼吸做功增加、间断低氧、体重增长缓慢等，反而对肺部发育和修复极其不利，并促进PH的发展[27]。若患儿呼吸机支持下仍存在明显的呼吸窘迫、氧饱和度反复下降、不能耐受吸痰、给予充足营养后仍生长缓慢，提示患儿应继续机械通气并尽可能用最低参数维持。
+对于肺部病变不均一的sBPD患儿，呼吸机参数设置宜采用"大潮气量（10~12 ml/kg）、长吸气时间（0.5~0.8 s）和低呼吸频率（10~25次/min）"的设置[22]，以便克服气道阻力、减少肺不张，同时需保证足够的呼气时间，避免二氧化碳潴留。PEEP一般设置6~8 cmH2O，但肺泡募集困难和（或）存在气管、支气管软化、二氧化碳潴留明显的患儿可能需要10~15 cmH2O，甚至更高[26,27]。
+常用的通气模式为同步间歇指令通气(synchronized intermittent mandatory ventilation,SIMV)叠加压力支持（pressure support ventilation,PSV）或SIMV叠加PSV和容量保证（volume guaranteed,VG），根据上述要求设置SIMV的参数，同时对指令通气以外的自主呼吸通过PSV给予足够的压力支持。至于辅助和（或）控制（assist/control, A/C）模式，由于每一次触发窗内的自主呼吸都触发指令通气，且吸气时间完全固定，若患儿自主呼吸较快，则无法实现"低呼吸频率"，因此对于肺部改变不均一的sBPD并不适用。
+由于sBPD常合并肺血管病变，氧饱和度过低可促使肺血管阻力上升，加速PH形成和进展，因此建议将氧饱和度维持在0.92~0.95[28]。sBPD患儿在疾病慢性期经过长时间代偿，动脉血二氧化碳分压（partial pressure of carbon dioxide in artery,PaCO2）水平较高也可维持正常血液pH值，因此pH≥7.3的前提下，PaCO2在55~65 mmHg(1 mmHg=0.133 kPa)可以接受[27]。
+sBPD患儿由于长期气管插管可并发声带麻痹、声门下狭窄、气管软化等，进一步导致拔管困难[29]。气管插管下不利于进行吸吮、吞咽、语言等功能训练，反复或长期的镇静、约束也不利于神经发育，因此长期气管插管的患儿应考虑气管切开。气管切开有助于建立稳定的气道，减少呼吸做功，减少镇静剂应用，更利于神经发育[30]。但由于气管切开本身并不治疗肺部疾病且为有创性操作，手术应激可能造成病情恶化，特别是PH加重，因此气管切开应在患儿病情稳定、PH得到控制以后进行。且气管切开后对护理的要求很高，建议成立专业的管理团队，对相关医护人员和家长进行相应培训。
+（三）间歇性低氧发作
+sBPD患儿治疗过程中经常出现发作性的氧饱和度下降，需要提高吸入氧浓度或增加通气压力方可逐渐缓解，严重者甚至需要心肺复苏。其原因包括气管软化塌陷、支气管痉挛、PH加剧、气道内分泌物阻塞、胃食管反流等[27]。对于频繁氧饱和度下降的患儿应仔细观察发作诱因、发作频次和临床表现，以便针对不同原因作出相应处理，如清理呼吸道、调整呼吸支持参数、给予支气管扩张剂等。
+胃食管反流和BPD的相关性一直有争议。严重反流所致的慢性吸入可能引起进一步肺损伤[31]。胃食管反流常见的表现包括反复吐奶、喜欢头部后仰、吃奶后0.5 ~1.0 h出现氧饱和度下降等。治疗上不主张使用抗酸药，严重反流可尝试经幽门置管至远端十二指肠或空肠进行喂养[32]，若1~2周没有明显效果，考虑行胃造瘘术联合胃底折叠术[33]。
+（四）药物治疗
+1．咖啡因：
+Schmidt等[34,35]证实咖啡因有助于早产儿缩短机械通气和用氧时间，降低BPD、PDA的发生率，改善神经发育预后。加拿大新生儿协作网资料也显示，早期（出生48 h内）开始应用可以更早撤离呼吸机，降低BPD、PDA及神经系统不良预后的发生率[36]。但近年也有研究显示，早产儿生后5 d内应用咖啡因组出现病死率上升趋势[37]，因此还需更多研究以明确生后开始应用咖啡因的时间及持续疗程。常用剂量为首剂枸橼酸咖啡因20 mg/kg，24 h后开始维持量5 mg/(kg·d)，静脉输注或口服，每天1次，一般持续至校正胎龄33~34周。
+2．糖皮质激素：
+因具有抗炎、减轻肺水肿和支气管痉挛等作用，而被用于BPD的治疗；由于早产儿激素应用的短期不良反应及对神经发育的潜在不良影响，应用时应权衡激素对呼吸系统的益处及全身不良反应，包括脑性瘫痪的风险。大剂量长疗程激素预防或早期治疗BPD的方法已被摒弃。地塞米松是最常用的糖皮质激素，生后1周内地塞米松静脉推注虽能尽早撤离呼吸机，降低BPD发生率，但高血压、高血糖、消化道出血、胃肠穿孔等不良反应的发生率高，远期神经系统后遗症，尤其脑性瘫痪的发生率显著增加，因此不推荐地塞米松早期全身性应用[38]。而出生1周后短期小剂量地塞米松也可以促使早产儿尽早拔除气管插管，降低BPD发生率，且消化道穿孔、坏死性小肠结肠炎（necrotizing enterocolitis, NEC）和远期神经发育的不良结局并未增加[39]。因此，机械通气1~2周仍不能撤机的BPD高风险患儿，可考虑地塞米松治疗。目前应用较多的是短疗程低剂量的地塞米松随机试验（dexamethasone:a randomized trial,DART）方案，起始剂量0.15 mg/(kg·d）静脉推注，持续3 d，减量至0.10 mg/(kg·d）持续3 d，再减量至0.05 mg/(kg·d）持续2 d，最后减量至0.02 mg/(kg·d）持续2 d，整个疗程持续10 d，累积剂量0.89 mg/kg[40]。至于氢化可的松的静脉推注和糖皮质激素的吸入治疗，目前均无法证明可以减少死亡或BPD发生。
+3．利尿剂：
+BPD患儿容易出现肺间质水肿，常用利尿剂包括呋塞米、氢氯噻嗪和螺内酯。一些小样本研究显示呋塞米、氢氯噻嗪具有改善肺顺应性、降低氧需求等短期效应[41,42]，但对于总用氧时间、BPD发生率、病死率并无影响。呋塞米和氢氯噻嗪都可以引起明显的电解质紊乱，此外呋塞米还有高钙尿症、肾钙化及耳毒性等不良反应。螺内酯利尿作用弱，一般与氢氯噻嗪联用以减少低钾血症的发生。因此，在短时间内输注大量液体（如输血）或明确由于肺水肿导致呼吸功能恶化时可予利尿剂治疗，但不建议长期应用，应用过程中注意监测电解质。呋塞米常用剂量为每次0.5~1.0 mg/kg，静脉推注；氢氯噻嗪和螺内酯的剂量均为1~2 mg/(kg·d)，分2次口服。
+4．支气管扩张剂：
+BPD患儿的气道高反应性主要由于小气道狭窄及平滑肌痉挛所致，阵发性喘憋发作时支气管扩张剂吸入有助于使喘憋缓解，临床常用沙丁胺醇气雾剂。但支气管扩张剂并不能预防BPD或缩短BPD机械通气时间、降低病死率或再入院率[43]，因此不建议长期使用。
+（五）循环管理
+1．PDA的处理：
+有血流动力学影响的动脉导管未闭（hemodynamic significant PDA，hsPDA）因大量左向右分流引起肺水肿、通气血流比失调，导致氧需求和呼吸机参数上调，延长机械通气时间，从而促进BPD的发展[44]。因此早产儿若存在hsPDA,尤其持续超过1周者，BPD风险显著增加[45]，建议适时干预。hsPDA的诊断主要通过临床症状、体征和心脏超声。常见的hsPDA临床表现包括呼吸暂停、对氧或呼吸机参数的要求增加、代谢性酸中毒、心动过速、心前区搏动增强、低血压（尤其低舒张压）、脉压差增大（>25 mmHg）、胸骨左缘第二肋间闻及收缩期或连续性杂音等。常用hsPDA的心脏超声指标有动脉导管直径>1.5 mm、存在左向右分流、左房与主动脉根部比值>1.4[46]。hsPDA的干预包括药物治疗和手术结扎。非甾体类抗炎药吲哚美辛和布洛芬是目前常用的，均属于环氧化酶抑制剂，能减少前列腺素合成。吲哚美辛的经典用法为每剂0.2 mg/kg，间隔12 h，连用3剂，年龄>7日龄的早产儿，第2、3剂的剂量增加至0.25 mg/kg。布洛芬的常用剂量为首剂10 mg/kg，以后每剂5 mg/kg,连用2剂，每剂间隔24 h；也有用首剂20 mg/kg，以后2剂都用10 mg/kg，关闭率更高[47]，但应注意剂量增加后的不良反应。药物主要不良反应有肾脏低灌注、出血倾向、NEC和自发性肠穿孔。布洛芬和吲哚美辛相比，在关闭PDA的效果上没有差别，但肾功能受损、少尿、NEC等不良反应发生率更低[48]。另外，两种药物都会干扰白蛋白和胆红素的结合，具有潜在增加胆红素脑损伤的风险[49]。环氧化酶抑制剂治疗的禁忌证包括活动性出血或凝血功能障碍、NEC或可疑NEC、血肌酐水平≥15 mg/L、尿量<1 ml/（kg·h）、血小板计数≤60×109/L、达到换血水平的高胆红素血症[50]。若hsPDA经2个疗程药物治疗后仍无法关闭，或存在药物治疗禁忌证者考虑手术结扎。
+2．BPD相关PH：
+PH是BPD患儿慢性阶段常见且严重的并发症，甚至进展为肺源性心脏病，显著影响远期预后。BPD患儿14%~25%合并PH, sBPD患儿PH发生率甚至高达30%~50%[51],BPD相关PH患儿2岁内的病死率高达40%[52]。BPD相关PH的病理改变包括肺小动脉数量减少、肺血管重塑、肺小动脉壁异常肌化[53]。PH的高危因素主要有宫内生长迟缓、羊水过少、合并hsPDA、反复感染、sBPD等。近年还发现获得性肺静脉狭窄也是PH的重要原因[54]。（1）BPD相关PH的临床表现有长期呼吸机或氧依赖、呼吸支持的需求进行性增高、对氧浓度的需求与肺部疾病本身的严重程度不成比例、反复发绀、能量供应充分的情况下仍体重增长缓慢、明显高碳酸血症、持续肺水肿等。（2）BPD相关PH的评估，心脏超声是PH筛查的首选工具。儿童肺高压协作网推荐早产儿下列情况需要心脏超声的筛查,①生后早期出现严重低氧性呼吸衰竭和持续PH；②生后7 d内持续机械通气且生后第7天心脏超声提示有PH；③长期呼吸机或氧依赖，特别是反复低氧发作；④校正胎龄36周时正式诊断为BPD[55]。心脏超声一般通过测量三尖瓣反流的流速来评估肺动脉压力，将肺动脉收缩压（systolic pulmonary artery pressure，sPAP）超过体循环收缩压（systolic blood pressure，sBP）的1/2（sPAP/sBP>0.5）定义为BPD相关PH。若sPAP/sBP为1/2~2/3，即轻中度PH, sPAP/sBP>2/3为重度PH。但部分早产儿心脏超声不能测到三尖瓣反流，此时可通过右心房增大、右心室肥厚或扩张、肺动脉扩张、室间隔变平坦或凸向左心室等间接指标来诊断BPD相关PH[56]。首次心脏超声筛查通常在校正胎龄36周进行，若在此之前患儿已经出现PH相关症状，可以更早筛查。通过心导管检查评估肺动脉压力是诊断BPD相关PH的金标准，不仅可以直接测量肺动脉压力，还可以明确是否存在心血管的解剖畸形、体肺循环侧支、获得性肺静脉梗阻以及左心功能不全等。鉴于心导管检查属创伤性检查，对操作技术要求较高，尚不能普遍开展。但下列情况时应将患儿转运至有条件的中心接受心导管检查，①持续严重的心肺疾病或病情恶化无法用其他诊断性检查做出解释；②肺部疾病和并发症的处理对PH无改善；③需要长期药物治疗的PH及不能解释的反复肺水肿[57]。（3）BPD相关PH的治疗，①供氧，避免反复发作性或持续性的低氧血症，维持目标氧饱和度0.92~0.95；②急性PH危象时可给予一氧化氮（nitric oxide，NO）吸入，初始浓度（10~20）×10-6，待稳定后逐步降低NO浓度直至撤离。患儿稳定后联用西地那非有助于NO的成功撤离；③西地那非为磷酸二酯酶-5抑制剂，是BPD相关PH治疗中应用经验最多的药物，常用初始口服剂量为0.3~0.5 mg/kg，8 h 1次,逐渐增加至2 mg/kg，6 h 1次或8 h 1次（婴儿最大剂量每天不超过30 mg）[55,56]。主要不良反应为低血压、增加胃食管反流、阴茎勃起，长期使用（>2年）可能使病死率增加；④波生坦是内皮素受体拮抗剂，初始口服剂量为0.5~1 mg/kg，12 h1次,可在2~4周后增加至2 mg/kg，12 h 1次，主要不良反应为肝功能损害[55]；⑤曲前列尼尔开始剂量2 ng/（kg·min），静脉或皮下注射，每4~6小时逐渐增加至20 ng/（kg·min），若患儿耐受良好，剂量还可以逐渐增加[55]。需注意的是上述PH靶向治疗药物在新生儿尤其早产儿大多属于超说明书应用，仅限于明确诊断和积极治疗原发病的基础上应用。
+（六）营养支持
+BPD患儿由于长期呼吸做功增加、慢性应激、限制液体摄入、利尿剂和糖皮质激素治疗等原因，宫外生长迟缓的发生率很高。而营养不良又会阻碍肺的生长发育和修复，因此充足的能量和营养素摄入尤为重要。BPD患儿对能量的需求高于一般早产儿,在病情不稳定阶段一般需要504~546 kJ/(kg·d）[120~130 kcal/(kg·d)]的能量摄入才能获得理想的体重增长[58,59]。
+虽然BPD患儿容易出现肺间质水肿，但尚无研究证实限制液量对BPD治疗有效，过度限制液量反而影响营养供给，影响肺发育和肺损伤修复。因此一般将液体量控制在130~150 ml/（kg·d）[58]。肠内营养首选强化母乳，其次早产儿配方乳。当限制液体量和保证营养摄入之间矛盾突出时，可根据患儿耐受情况选择高密度强化母乳或特殊配方。足够的呼吸支持可以避免频繁低氧发作和呼吸做功增加所致的额外能量消耗，对于改善sBPD的营养状况十分重要。
+BPD患儿中代谢性骨病很常见，其原因包括矿物质和维生素D摄入不足、长期缺乏活动以及糖皮质激素、利尿剂等药物暴露。由于长骨X线片上出现改变时骨质已缺失20%~30%，因此应尽早开始补充足量的钙、磷和维生素D，并注意监测血钙、血磷、碱性磷酸酶、甲状旁腺激素水平等生化指标。欧洲儿科胃肠病学、肝病学和营养协会的肠外营养指南推荐的早产儿生长期钙需要量为100~140 mg/（kg·d）[1.6~3.5 mmol/（kg·d）]，磷需要量为77~108 mg/（kg·d）[1.6~3.5 mmol/（kg·d）]，维生素D需要量为80~400 U/（kg·d）[60,61]。我国"早产、低出生体重儿出院后喂养建议"推荐早产儿生后即应补充维生素D 800~1 000 U/d，3月龄后改为400 U/d[62]。
+大部分BPD患儿能顺利从管饲过渡至经口喂养。但部分sBPD患儿由于前期反复气管插管、吸痰、插入鼻饲管等负性口腔刺激导致显著的"口腔厌恶"。另外，长时间气管插管引起上腭沟形成、呼吸吞咽不协调、胃食管反流或气管、支气管软化等也是不能顺利建立经口喂养的常见原因。对于这部分患儿，尽早开始康复性训练。
+三、出院计划和出院后随访
+BPD患儿出院后面临再次入院的高风险，合并PH、气管软化的患儿死亡风险显著增加[63]，远期神经发育不良结局也显著高于非BPD早产儿。
+BPD患儿出院后的随访是一个挑战，建议成立专门的随访团队，由小儿呼吸、心血管、神经、眼科、耳鼻喉科、临床营养师、康复训练师和新生儿科医生等共同完成这项工作。
+随访中应重点关注：（1）监测体重、头围、身高等生长指标，监测血液生化代谢指标；（2）接受家庭氧疗的患儿，通常需要SpO2监测，氧饱和度应维持在0.92以上[58]；（3）每2~4个月行心脏超声检查，若出院前已经诊断PH，可适当增加检查频次；（4）定期进行神经发育评估；（5）各种营养补充剂和药物剂量的调整。
+总之，随着我国早产儿BPD，尤其sBPD的发生率增加，通过同质化规范管理来预防和积极治疗BPD对于改善早产儿的预后具有重要意义。
+（马晓路 周文浩 母得志 冯星 富建华 史源 张华岩 杜立中 执笔）
+参与本专家共识制定与审阅的专家委员会成员（排名不分先后）:浙江大学医学院附属儿童医院（杜立中、马晓路、施丽萍）；复旦大学附属儿科医院（周文浩）；四川大学华西第二医院（母得志）；苏州大学附属儿童医院（冯星）；中国医科大学附属盛京医院（富建华、薛辛东）；重庆医科大学附属儿童医院（史源）；河北省儿童医院（马莉）；中国医学科学院北京协和医院（王丹华）；中南大学湘雅医院（王铭杰）；解放军总医院第七医学中心八一儿童医院（尹晓娟、李秋平）；青海省妇女儿童医院（刘充德）；上海交通大学医学院附属上海儿童医学中心（孙建华）；吉林大学第一医院（严超英）；华中科技大学同济医学院附属同济医院（李文斌）；新疆维吾尔自治区人民医院（李龙）；西北妇女儿童医院（李占魁）；宁夏医科大学总医院（李怀玉）；首都儿科研究所附属儿童医院（李莉）；山东大学齐鲁儿童医院（李晓莺）；福建医科大学附属福建省妇幼保健院（杨长仪）；广东省妇幼保健院（杨杰）；上海交通大学医学院附属新华医院（张拥军）；广西医科大学第二附属医院（陈玉君）；江西省儿童医院（陈丽萍）；温州医科大学附属第二医院（陈尚勤）；广州市妇女儿童医疗中心（周伟、张华岩）；南京医科大学附属儿童医院（周晓光）；中国科学技术大学附属第一医院 安徽省立医院（周晓丽）；天津市中心妇产科医院（郑军）；青岛大学附属医院（姜红）；华中科技大同济医学院附属湖北妇幼保健院（祝华平、夏世文）；山西省儿童医院（秦桂秀）；郑州大学第三附属医院（徐发林）；内蒙古医科大学附属医院（梅花）；遵义医科大学附属医院（曹云涛）；郑州大学附属儿童医院（康文清）；福建医科大学附属福州儿童医院（章丽燕）；昆明医科大学第一附属医院（梁琨）；哈尔滨市儿童医院（董力杰）；西南医科大学附属医院（董文斌）；首都医科大学附属北京儿童医院（黑明燕）；北京大学第三医院（童笑梅）；南方医科大学附属深圳市妇幼保健院（杨传忠）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+JobeAH, BancalariE.
+Bronchopulmonary dysplasia[J].
+Am J Respir Crit Care Med,
+2001,
+163(
+7):
+1723-
+1729.
+DOI:10.1164/ajrccm.163.7.2011060.
+[2]
+HigginsRD, JobeAH, Koso-ThomasM, et al.
+Bronchopulmonary dsplasia: executive summary of a workshop[J].
+J Pediatr,
+2018,
+197:
+300-
+308.
+DOI: 10.1016/j.jpeds.2018.01.043.
+[3]
+早产儿支气管肺发育不良调查协作组.
+早产儿支气管肺发育不良发生率及高危因素的多中心回顾调查分析[J].
+中华儿科杂志,
+2011,
+49(
+9):
+655-
+662.
+DOI: 10.3760/cma.j.issn.0578-1310.2011.09.004.
+[4]
+LinHJ, DuLZ, MaXL, et al.
+Mortality and morbidity of extremely low birth weight infants in the mainland of China: a multi-center study[J].
+Chin Med J (Engl),
+2015,
+128(
+20):
+2743-
+2750.
+DOI: 10.4103/0366-6999.167312.
+[5]
+超未成熟儿与超低出生体重儿研究协作组.
+广东省超未成熟儿与超低出生体重儿临床救治分析[J].
+中华儿科杂志,
+2019,
+57(
+12):
+934-
+942.
+DOI: 10.3760/cma.j.issn.0578-1310.2019.12.008.
+[6]
+WeinerGM.
+Textbook of neonatal resuscitation[M].
+7th ed.
+Illinois：
+American Academy of Pediatrics and American Heart Association，
+2016:
+232.
+[7]
+SweetDG, CarnielliV, GreisenG, et al.
+European consensus guidelines on the management of respiratory distress syndrome -2019 update[J].
+Neonatology,
+2019,
+115(
+4):
+432-
+450.
+DOI: 10.1159/000499361.
+[8]
+AskieLM, DarlowBA, FinerN, et al.
+Association between oxygen saturation targeting and death or disability in extremely preterm infants in the neonatal oxygenation prospective meta-analysis collaboration[J].
+J Am Med Assoc，
+2018，
+319(
+21):
+2190-
+2201.
+DOI: 10.1001/jama.2018.5725.
+[9]
+DargavillePA, AiyappanA, De PaoliAG, et al.
+Continuous positive airway pressure failure in preterm infants: incidence, predictors and consequences[J].
+Neonatology,
+2013,
+104(
+1):
+8-
+14.
+DOI: 10.1159/000346460.
+[10]
+Klebermass-SchrehofK, WaldM, SchwindtJ, et al.
+Less invasive surfactant administration in extremely preterm infants: impact on mortality and morbidity[J].
+Neonatology,
+2013,
+103(
+4):
+252-
+8.
+DOI: 10.1159/000346521.
+[11]
+DargavillePA, AliSKM, JacksonHD, et al.
+Impact of minimally invasive surfactant therapy in preterm infants at 29-32 weeks gestation[J].
+Neonatology,
+2018,
+113(
+1):
+7-
+14.
+DOI: 10.1159/000480066.
+[12]
+Aldana-AguirreJC, PintoM, FeatherstoneRM, et al.
+Less invasive surfactant administration versus intubation for surfactant delivery in preterm infants with respiratory distress syndrome: a systematic review and meta-analysis[J].
+Arch Dis Child Fetal Neonatal Ed,
+2017,
+102(
+1):
+F17-
+F23.
+DOI: 10.1136/archdischild-2015-310299.
+[13]
+LemyreB, LaughonM, BoseC, et al.
+Early nasal intermittent positive pressure ventilation (NIPPV) versus early nasal continuous positive airway pressure (NCPAP) for preterm infants[J].
+Cochrane Database Syst Rev,
+2016,
+12(
+2):
+CD005384.
+DOI: 10.1002/14651858.CD005384.pub2.
+[14]
+LemyreB, DavisPG, De PaoliAG, et al.
+Nasal intermittent positive pressure ventilation (NIPPV) versus nasal continuous positive airway pressure (NCPAP) for preterm neonates after extubation[J].
+Cochrane Database Syst Rev,
+2017,
+2(
+2):
+CD003212.
+DOI: 10.1002/14651858.CD003212.pub3.
+[15]
+FleemanN, DundarY, ShahPS, et al.
+Heated humidified high-flow nasal cannula for preterm infants: an updated systematic review and meta-analysis[J].
+Int J Technol Assess Health Care,
+2019,
+35(
+4):
+298-
+306.
+DOI:10.1017/S0266462319000424.
+[16]
+RobertsCT, OwenLS, ManleyBJ, et al.
+Nasal high-flow therapy for primary respiratory support in preterm infants[J].
+N Engl J Med,
+2016,
+375(
+12):
+1142-
+1151.
+DOI: 10.1056/NEJMoa1603694.
+[17]
+ManleyBJ, ArnoldaGRB, WrightIMR, et al.
+Nasal high-flow therapy for newborn infants in special care nurseries[J].
+N Engl J Med,
+2019,
+380(
+21):
+2031-
+2040.
+DOI: 10.1056/NEJMoa1812077.
+[18]
+ChenL, WangL, MaJ, et al.
+Nasal high-frequency oscillatory ventilation in preterm infants with respiratory distress syndrome and ARDS after extubation: a randomized controlled trial[J].
+Chest,
+2019,
+155(
+4):
+740-
+748.
+DOI: 10.1016/j.chest.2019.01.014.
+[19]
+KlingenbergC, WheelerKI, McCallionN, et al.
+Volume-targeted versus pressure-limited ventilation in neonates[J].
+Cochrane Database Syst Rev,
+2017,
+10:
+CD003666.
+DOI: 10.1002/14651858.CD003666.pub4.
+[20]
+CoolsF, OffringaM, AskieLM.
+Elective high frequency oscillatory ventilation versus conventional ventilation for acute pulmonary dysfunction in preterm infants[J].
+Cochrane Database Syst Rev，
+2015,
+19(
+3):
+CD000104.
+DOI: 10.1002/14651858.CD000104.pub4.
+[21]
+LaughonMM, LangerJC, BoseCL, et al.
+Prediction of bronchopulmonary dysplasia by postnatal age in extremely premature infants[J].
+Am J Respir Crit Care Med,
+2011,
+183(
+12):
+1715-
+1722.
+DOI: 10.1164/rccm.201101-0055OC.
+[22]
+SunY, ZhangHY.
+Ventilation strategies in transition from neonatal respiratory distress to chronic lung disease[J].
+Semin Fetal Neonatal Med,
+2019,
+24(
+5):
+101035-
+101041.
+DOI: 10.1016/j.siny.2019.101035.
+[23]
+MetcalfeA, LisonkovaS, SabrY, et al.
+Neonatal respiratory morbidity following exposure to chorioamnionitis[J].
+BMC Pediatrics,
+2017,
+17(
+1):
+128.
+DOI: 10.1186/s12887-017-0878-9.
+[24]
+NairV, LoganathanP, SoraishamAS.
+Azithromycin and other macrolides for prevention of bronchopulmonary dysplasia: a systemic review and meta-analysis[J].
+Neonatology,
+2014,
+106(
+4):
+337-
+347.
+DOI: 10.1159/000363493.
+[25]
+LoganJW, LynchSK, CurtissJ, et al.
+Clinical phenotypes and management concepts for severe, established bronchopulmonary dysplasia[J].
+Paediatr Respir Rev,
+2019,
+31:
+58-
+63
+DOI: 10.1016/j.prrv.2018.10.004.
+[26]
+ZhangH, FoxWW.
+Management of the infant with bronchopulmonary dysplasia[M]//
+GoldsmithJP, KarotkinE, SureshG, et al.
+Assisted ventilation of the neonate: an evidence-based approach to nwborn respiratory care.
+6th ed.
+Philadelphia (PA):
+Elsevier,
+2017:
+380-
+390.
+[27]
+NelinLD, AbmanSH, PanitchHB.
+A physiology-based approach to the respiratory care of children with severe bronchopulmonary dysplasia[M]//
+BancalariE,
+ed.
+The newborn lung: neonatology questions and controversies.
+Philadelphia (PA):
+Elsevier Saunders,
+2019:
+363-
+385.
+[28]
+MouraniPM, IvyDD, GaoD, et al.
+Pulmonary vascular effects of inhaled nitric oxide and oxygen tension in bronchopulmonary dysplasia[J].
+Am J Respir Crit Care Med,
+2004,
+170(
+9):
+1006-
+1013.
+DOI:10.1164/rccm.200310-1483OC.
+[29]
+AminRS, RutterMJ.
+Airway disease and management in bronchopulmonary dysplasia[J].
+Clin Perinatol,
+2015,
+42 (
+4),
+857-
+870.
+DOI: 10.1016/j.clp.2015.08.011.
+[30]
+LuoJ, ShepardS, NilanK, et al.
+Improved growth and developmental activity post tracheostomy in preterm infants with severe BPD[J].
+Pediatr Pulmonol,
+2018,
+53 (
+9),
+1237-
+1244.
+DOI: 10.1002/ppul.24087.
+[31]
+RadfordPJ, StillwellPC, BlueB, et al.
+Aspiration complicating bronchopulmonary dysplasia[J].
+Chest,
+1995,
+107(
+1):
+185-
+8.
+DOI:10.1378/chest.107.1.185.
+[32]
+JensenEA, ZhangH, FengR, et al.
+Individualising care in severe bronchopulmonary dysplasia: a series of N-of-1 trials comparing transpyloric and gastric feeding[J/OL].
+Arch Dis Child Fetal Neonatal Ed,
+2019, [
+2020-03-15].
+https://fn.bmj.com/content/early/2019/11/03/archdischild-2019-317148.long.
+DOI: 10.1136/archdischild-2019-317148.[
+published online ahead of print November 11, 2019].
+[33]
+JensenEA, MunsonDA, ZhangH, et al.
+Anti-gastroesophageal reflux surgery in infants with severe bronchopulmonary dysplasia[J].
+Pediatr Pulmonol,
+2015,
+50(
+6):
+584-
+587.
+DOI: 10.1002/ppul.23052.
+[34]
+SchmidtB, RobertsRS, DavisP, et al.
+Caffeine therapy for apnea of prematurity[J].
+N Engl J Med,
+2006,
+354(
+20):
+2112-
+2121.
+DOI: 10.1056/NEJMoa054065.
+[35]
+SchmidtB, RobertsRS, DavisP, et al.
+Long-term effects of caffeine therapy for apnea of prematurity[J].
+N Engl J Med,
+2007,
+357(
+19):
+1893-
+1902.
+DOI:10.1056/NEJMoa073679.
+[36]
+LodhaA, SeshiaM, McMillanDD, et al.
+Association of early caffeine administration and neonatal outcomes in very preterm neonates[J].
+JAMA Pediatr,
+2015,
+169(
+1):
+33-
+38.
+DOI: 10.1001/jamapediatrics.2014.2223.
+[37]
+AmaroCM, BelloJA, JainD, et al.
+Early caffeine and weaning from mechanical ventilation in preterm infants: a randomized, placebo-controlled trial[J].
+J Pediatr,
+2018,
+196:
+52-
+57.
+DOI: 10.1016/j.jpeds.2018.01.010.
+[38]
+DoyleLW, CheongJL, EhrenkranzRA, et al.
+Early (<8 days) systemic postnatal corticosteroids for prevention of bronchopulmonary dysplasia in preterm infants[J].
+Cochrane Database Syst Rev，
+2017,
+10(
+10):
+CD001146.
+DOI: 10.1002/14651858.CD001146.pub5.
+[39]
+DoyleLW, CheongJL, EhrenkranzRA, et al.
+Late (>7 days) systemic postnatal corticosteroids for prevention of bronchopulmonary dysplasia in preterm infants[J].
+Cochrane Database Syst Rev,
+2017,
+10(
+10):
+CD001145.
+DOI: 10.1002/14651858.CD001145.pub4.
+[40]
+DoyleLW, DavisPG, MorleyCJ, et al.
+Low-dose dexamethasone facilitates extubation among chronically ventilator-dependent infants: a multicenter, international, randomized, controlled trial[J].
+Pediatrics,
+2006,
+117(
+1):
+75-
+83.
+DOI:10.1542/peds.2004-2843.
+[41]
+StewartA, BrionLC.
+Intravenous or enteral loop diuretics for preterm infants with (or developing) chronic lung disease[J/OL].
+Cochrane Database Syst Rev，
+2011 (
+9),
+CD001453[
+2020-03-15].
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7055198.
+DOI: 10.1002/14651858.CD001453.pub2.[
+published online ahead of print September 7, 2011].
+[42]
+StewartA, BrionLC, Ambrosio-PerezI.
+Diuretics acting on the distal renal tubule for preterm infants with (or developing) chronic lung disease[J/OL].
+Cochrane Database Syst Rev，
+2011 (
+9),
+CD001817[
+2020-03-15].
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7055198.
+DOI: 10.1002/14651858.CD001817.pub2. [
+published online ahead of print September 7, 2011].
+[43]
+NgG, DaSilvaO, OhlssonA.
+Bronchodilators for the prevention and treatment of chronic lung disease in preterm infants[J].
+Cochrane Database Syst Rev,
+2016,
+12(
+12):
+CD003214.
+DOI: 10.1002/14651858.CD003214.pub3.
+[44]
+El-KhuffashA, JamesAT, CorcoranJD, et al.
+A patent ductus arteriosus severity score predicts chronic lung disease or death before discharge[J].
+J Pediatr,
+2015,
+167(
+6):
+1354-
+1361.
+DOI: 10.1016/j.jpeds.2015.09.028.
+[45]
+ClymanRI, HillsNK, LiebowitzM, et al.
+Relationship between duration of infant exposure to a moderate-to-large patent ductus arteriosus shunt and the risk of developing bronchopulmonary dysplasia or death before 36 weeks[J].
+Am J Perinatol,
+2020,
+37 (
+2):
+216-
+223.
+DOI: 10.1055/s-0039-1697672.
+[46]
+JainA, ShahPS.
+Diagnosis, evaluation, and management of patent ductus arteriosus in preterm neonates[J].
+JAMA. Pediatr,
+2015,
+169(
+9):
+863-
+872.
+DOI:10.1001/jamapediatrics.2015.0987.
+[47]
+MitraS, FlorezID, TamayoME, et al.
+Association of placebo, indomethacin, ibuprofen, and acetaminophen with closure of hemodynamically significant patent ductus arteriosus in preterm infants: a systematic review and meta-analysis[J].
+JAMA,
+2018,
+319 (
+12):
+1221-
+1238.
+DOI: 10.1001/jama.2018.1896.
+[48]
+OhlssonA, WaliaR, ShahSS.
+Ibuprofen for the treatment of patent ductus arteriosus in preterm or low birth weight (or both) infants[J].
+Cochrane Database Syst Rev,
+2018,
+9:
+CD003481.
+DOI: 10.1002/14651858.CD003481.pub7.
+[49]
+CorffKE, SekarKC.
+Clinical considerations for the pharmacologic management of patent ductus arteriosus with cyclooxygenase inhibitors in premature infants[J].
+J Pediatr Pharmacol Ther,
+2007,
+12(
+3):
+147-
+157.
+DOI: 10.5863/1551-6776-12.3.147.
+[50]
+杜立中.
+早产儿动脉导管未闭[M]//
+邵肖梅，叶鸿瑁，丘小汕.
+实用新生儿学.
+5版.
+北京：
+人民卫生出版社，
+2018:
+745.
+[51]
+MouraniPM, AbmanAH.
+Pulmonary hypertension and vascular abnormalities in bronchopulmonary dysplasia[J].
+Clinc Perinatol,
+2015,
+42 (
+4):
+839-
+855.
+[52]
+ArjaansS, ZwartEAH, PloegstraMJ, et al.
+Identiﬁcation of gaps in the current knowledge on pulmonary hypertension in extremely preterm infants: a systematic review and meta-analysis[J].
+Paediatr Perinat Epidemiol,
+2018,
+32(
+3):
+258-
+267.
+DOI: 10.1111/ppe.12444.
+[53]
+De PaepeME, MaoQ, PowellJ, et al.
+Growth of pulmonary microvasculature in ventilated preterm infants[J].
+Am J Respir Crit Care Med,
+2006,
+173(
+2):
+204-
+211.
+DOI:10.1164/rccm.200506-927OC.
+[54]
+MahgoubL, KaddouraT, KamenyAR, et al.
+Pulmonary vein stenosis of ex-premature infants with pulmonary hypertension and bronchopulmonary dysplasia, epidemiology, and survival from a multicenter cohort[J].
+Pediatr Pulmonol,
+2017,
+52(
+8):
+1063-
+1070.
+DOI: 10.1002/ppul.23679.
+[55]
+KrishnanU, FeinsteinJA, AdatiaI, et al.
+Evaluation and management of pulmonary hypertension in children with bronchopulmonary dysplasia[J/OL].
+J Pediatr,
+2017,
+188:
+24-
+34[
+2020-03-15].
+https://linkinghub.elsevier.com/retrieve/pii/S0022-3476(17)30650-9.
+DOI: 10.1016/j.jpeds.2017.05.029.[
+published online ahead of print September, 2017].
+[56]
+MouraniPM, SontagMK, YounoszaiA, et al.
+Clinical utility of echocardiography for the diagnosis and management of pulmonary vascular disease in young children with chronic lung disease[J].
+Pediatrics,
+2008,
+121(
+2):
+317-
+325.
+DOI: 10.1542/peds.2007-1583.
+[57]
+中华医学会儿科学分会新生儿学组，《中华儿科杂志》编辑委员会.
+新生儿肺动脉高压诊治专家共识[J].
+中华儿科杂志,
+2017,
+55(
+3):
+163-
+168.
+DOI: 10.3760/cma.j.issn.0578-1310.2017.03.002.
+[58]
+AbmanSH, CollacoJM, ShepherdEG, et al.
+Interdisciplinary care of children with severe bronchopulmonary dysplasia[J/OL].
+J Pediatr,
+2017,
+181:
+12-
+28[
+2020-03-15].
+https://linkinghub.elsevier.com/retrieve/pii/S0022-3476(16)31216-1.
+DOI: 10.1016/j.jpeds.2016.10.082.[
+published ahead of print Feburary, 2017].
+[59]
+PoindexterBB, MartinCR.
+Impact of nutrition on bronchopulmonary dysplasia[J].
+Clin Perinatol,
+2015,
+42(
+4):
+797-
+806.
+DOI: 10.1016/j.clp.2015.08.007.
+[60]
+MihatschW, FewtrellM, GouletO, et al.
+ESPGHAN/ESPEN/ESPR/CSPEN guidelines on pediatric parenteral nutrition: Calcium, phosphorus and magnesium[J].
+Clin Nutr,
+2018,
+37(
+6
+Pt B):
+2360-
+2365.
+DOI: 10.1016/j.clnu.2018.06.950.
+[61]
+BronskyJ, CampoyC, BraeggerC, et al.
+ESPGHAN/ESPEN/ESPR/CSPEN guidelines on pediatric parenteral nutrition: vitamins[J].
+Clin Nutr,
+2018,
+37(
+6
+Pt B):
+2366-
+2378.
+DOI: 10.1016/j.clnu.2018.06.951.
+[62]
+《中华儿科杂志》编辑委员会，中华医学会儿科学分会儿童保健学组，中华医学会儿科学分会新生儿学组.
+早产、低出生体重儿出院后喂养建议[J].
+中华儿科杂志,
+2016,
+54(
+1):
+6-
+12.
+DOI: 10.3760/cma.j.issn.0578-1310.2016.01.003.
+[63]
+SmithVC, ZupancicJA, McCormickMC, et al.
+Rehospitalization in the first year of life among infants with bronchopulmonary dysplasia[J].
+J Pediatr,
+2004,
+144(
+6):
+799-
+803.
+DOI:10.1016/j.jpeds.2004.03.026.
+贡献者信息
+中华医学会儿科学分会新生儿学组
+中华儿科杂志编辑委员会
+通信作者
+杜立中
+浙江大学医学院附属儿童医院新生儿重症监护中心 国家儿童健康与疾病临床医学研究中心，杭州 310052
+Email：
+dulizhong@zju.edu.cn
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-05-02
+收稿日期：2020-03-17
+本文编辑
+李伟
+Standard/Protocol/Guideline
+Expert consensus on clinical management of premature infants with brochopulmonary dysplasia
+The Subspecialty Group of Neonatology, the Society of Pediatrics, Chinese Medical Association,  the Editorial Board, Chinese Journal of Pediatrics
+Published
+2020-05-02
+Cite as
+Chin J Pediatr, 2020,58(05): 358-365. DOI: 10.3760/cma.j.cn112140-20200317-00254
+Contributor Information
+The Subspecialty Group of Neonatology, the Society of Pediatrics, Chinese Medical Association
+the Editorial Board, Chinese Journal of Pediatrics
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华儿科杂志2020年58卷05期
+文    题：早产儿支气管肺发育不良临床管理专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华儿科杂志2020年58卷05期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

@@ -1,0 +1,847 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%80%A5%E6%80%A7%E5%BE%AA%E7%8E%AF%E8%A1%B0%E7%AB%AD%E4%B8%AD%E5%9B%BD%E6%80%A5%E8%AF%8A%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 急性循环衰竭中国急诊临床实践专家共识 - 中华急诊医学杂志
+# 发布方/日期: 急诊医学科，中华急诊医学杂志, 2016,25(2) : 146-152. DOI: 10.3760/cma.j；2016-02-10
+
+急性循环衰竭中国急诊临床实践专家共识
+中国医师协会急诊医师分会
+中华急诊医学杂志, 2016,25(2) : 146-152. DOI: 10.3760/cma.j.issn.1671-0282.2016.02.004
+1 概述
+急性循环衰竭(acute circulatory failure，ACF)，是指由于失血、细菌感染等多种原因引起的急性循环系统功能障碍，以致氧输送不能保证机体代谢需要，从而引起细胞缺氧的病理生理状况[1,2]。休克是急性循环衰竭的临床表现，常常导致多器官功能衰竭，并具有较高的病死率[2]。换言之，休克的最佳定义即是急性循环衰竭[3]。
+研究显示急性循环衰竭(休克)中，分布性休克占66%(其中脓毒性休克占62%)，低血容量性休克占16%，心源性休克占17%，梗阻性休克占2% [1,4]。急诊严重脓毒症的发病率为6.4%，其中约31%的患者发生休克[5]；伴有颅脑伤的多发伤患者，其休克发生率高达26%～68%[6]；心肌梗塞患者发生心源性休克的比例约为7.5% [7]。
+急性循环衰竭(休克)严重威胁患者生命，如严重脓毒症病死率30%，而合并急性循环衰竭(休克)患者病死率可达50% [8]。但目前我国尚无关于急性循环衰竭的共识或指南，而且临床诊断标准不够清晰。近年国际上陆续发表了数篇急性循环衰竭(休克)相关的文献、共识和指南以便于规范其诊断和治疗，其中最具有影响力的是在2014年发表的欧洲休克血流动力学监测共识[2]，该共识提出了急性循环衰竭(休克)诊断的新观点。为促进我国急诊急性循环衰竭(休克)诊疗的标准化和规范化，降低患者病死率，中国医师协会急诊医学医师分会组织国内急危重症领域专家制定此共识。
+2 共识制定的方法学
+中国医师协会急诊医师分会于2015年初发起并组织来自全国各地在各自领域内有着扎实理论知识和丰富临床经验的25位急诊医学及5位重症医学专家共同组成了中国急性循环衰竭临床实践共识研究专家组。专家组检索了Pubmed，Medline，Embase，Springer，Wiley及万方数据库、维普数据库中自2000年来发表的相关文献，主要审阅了有关急性循环衰竭(休克)的指南或共识以及在高影响因子期刊发表的临床研究与综述，并追溯重要参考文献。专家组成员在审阅文献的基础上，结合自身临床经验，制定出共识框架，经过2次讨论和反复修改，最终完成该共识，并得出推荐意见。之后每位专家按照10分制(0分为完全不同意，10分为完全同意)对每条推荐意见进行评分，计算出推荐力度值[专家评分的均数±标准差(±s)]并标注于每条推荐意见之后。
+3 病理生理
+急性循环衰竭(休克)最根本的病理生理改变是微循环的功能障碍。
+导致微循环功能障碍的机制包括：①各种疾病(如严重感染、失血、急性心梗等)产生病原体相关分子模式(pathogen associated molecular patterns，PAMPs)，如脂多糖，或损伤相关分子模式(damage associated molecular patterns，DAMPs)，如热休克蛋白和高迁移率族蛋白1[9,10,11]，触发免疫应答及失控的炎症反应[12]，引起血管内皮损伤、毛细血管渗漏、循环容量减少，最终导致组织灌注不足、细胞缺氧[13]；②内皮损伤引起凝血激活、微血栓形成阻塞毛细血管及血管舒缩功能障碍，加重组织缺血缺氧[14];③持续或强烈的刺激影响神经内分泌功能，导致反射性血管舒缩功能紊乱，加剧微循环障碍。
+各类型急性循环衰竭(休克)均有以上病理生理过程，但在发病机制中的重要程度不同。分布性休克，如脓毒性休克，内皮损伤及炎症反应作用更明显[15]。低血容量性如创伤失血性休克患者常常伴有持续或强烈的神经刺激，且凝血功能异常较分布性休克更明显[16]。心源性休克是由于心肌收缩机能衰竭、心排量减少、组织血流灌注不足所引起，可伴有内皮损伤，血管舒缩功能异常[17]。梗阻性休克多为肺动脉栓塞、心脏压塞和张力性气胸所致，引起回心血量或心排血量下降、循环灌注不足，组织缺血缺氧等病理生理过程[18]。
+急性循环衰竭(休克)患者有血流动力学异常及氧代动力学异常。血流动力学异常包括心功能异常、有效循环容量减少及外周血管阻力的改变。氧代动力学异常即氧供应(DO2)与氧消耗(VO2)的不平衡，混和静脉血氧饱和度(SvO2)的降低反映了体循环低氧，而血乳酸升高间接反映了微循环低氧及细胞缺氧[19]。
+4 早期识别及诊断
+不同原因引起急性循环衰竭(休克)的病理生理过程不同，早期临床表现也有所不同，所以识别应个体化。诊断主要基于病因、血压、血乳酸水平和组织低灌注临床表现[2]，诊断中还应包括预后评估等，详细流程见图1。
+点击查看大图
+图1
+急性循环衰竭(休克)诊断流程
+a组织低灌注临床表现：意识改变、尿量减少、皮肤温度色泽改变或毛细血管充盈时间>2 s；b其他引起低血压的原因：药物(如利尿剂、β受体阻滞剂等降压药)、体位改变等；c非组织缺氧引起乳酸增高的原因：淋巴瘤、癌症、重度急性肝功能衰竭、激素治疗等
+图1
+急性循环衰竭(休克)诊断流程
+推荐意见1：需综合病因、组织灌注不足临床表现、血压、血乳酸情况早期识别急性循环衰竭(休克)。(9.71±0.52)
+4.1 病因
+导致急性循环衰竭(休克)的原因众多，各类型休克病因不一，见表1。
+点击查看表格
+表1
+急性循环衰竭(休克)的病因诊断
+表1
+急性循环衰竭(休克)的病因诊断
+分类
+病因
+临床表现
+辅助检查
+分布性
+严重感染
+感染病史，发热，寒颤
+白细胞、CRP、PCT增高
+过敏原接触
+过敏原接触病史，皮疹，低血压
+/
+神经源性
+有强烈的神经刺激(如创伤、剧烈疼痛)，头晕，面色苍白，胸闷，心悸，呼吸困难，肌力下降
+/
+中毒
+毒素接触史，瞳孔改变，呼吸有特殊气味
+毒理检测结果显示毒素水平增加
+酮症酸中毒
+糖尿病症状加重和胃肠道症状，酸中毒，深大呼吸和酮臭味
+血糖大幅升高，血尿酮体阳性，pH<7.35，HCO3-<22 mmol/L
+甲减危象
+甲减病史，黏液性水肿，昏迷，低体温
+血清T3、T4降低及/或TSH明显增高
+低血容量性
+创伤或出血
+创伤病史，腹痛，面色苍白，活动性失血
+超声/CT见肝脾破裂或腹腔积液，腹穿抽出血性液体
+热射病
+头晕，乏力，恶心，呕吐，严重者会出现高热，昏迷，抽搐
+/
+急性胃肠炎、肿瘤化疗、消化道梗阻
+严重呕吐、腹泻
+血电解质异常
+心源性
+急性心梗
+心前区压榨性疼痛，濒死感，心律失常
+ECG：新出现Q波及ST段抬高和ST-T动态演变；心肌坏死标志物升高
+恶性心律失常
+心悸，气促，胸闷
+ECG相应改变
+心肌病变
+胸闷、气短、心慌
+ECG、心脏超声相应改变
+瓣膜病
+活动之后出现心悸、心搏加快，心脏杂音
+ECG、心脏超声相应改变
+梗阻性
+张力性气胸
+极度呼吸困难，端坐呼吸，发绀，可有皮下气肿，气胸体征
+胸部X线：胸腔大量积气，肺可完全萎陷，气管和心影偏移至健侧
+肺栓塞
+呼吸困难，胸痛，咯血，惊恐，咳嗽
+D二聚体升高，ECG：V1～V2导联的T波倒置和ST段压低，CTA，肺通气血流比
+心包填塞
+胸痛，呼吸困难，晕厥，奇脉
+ECG：低电压；心脏超声：心包积液
+4.2 临床表现
+急性循环衰竭(休克)典型的组织灌注不足的临床表现包括：①意识改变：包括烦躁、淡漠、谵妄、昏迷，是反映脑灌注的敏感指标。②尿量减少：充分补液尿量仍然<0.5 mL/(kg·h)，提示肾脏血流减少、循环容量不足。③皮肤湿冷、发绀、苍白、花斑等临床表现；毛细血管充盈时间>2 s，这些均反映了外周组织的低灌注[1,2]。
+尽管急性循环衰竭(休克)常常合并低血压(定义为收缩压<90 mmHg(1 mmHg＝0.133 kPa)，脉压<20 mmHg ，或原有高血压者收缩压自基线下降≥40 mmHg)，但低血压并非急性循环衰竭(休克)诊断的必要条件[2]。文献中将急性循环衰竭(休克)患者血压正常而血乳酸高或暗视野显微镜观察到微循环障碍的情况称为隐匿性休克或微循环性休克[20,21]。
+不同类型的急性循环衰竭(休克)患者还具有各自特异的临床表现。分布性休克患者可出现发热、寒颤等；低血容量性休克患者可出现活动性出血、低体温等；心源性休克患者可出现心悸、气促或胸闷等；梗阻性休克患者可能会出现呼吸困难或胸痛等。不同原因所致急性循环衰竭(休克)的临床表现见表1。
+推荐意见2：急性循环衰竭(休克)典型的组织灌注不足表现包括意识改变(烦躁、淡漠、谵妄、昏迷)，充分补液后尿量仍然<0.5 mL/(kg·h)，皮肤湿冷、发绀、花斑、毛细血管充盈时间>2 s。(9.54±0.73)
+推荐意见3：血压不是诊断急性循环衰竭(休克)的必要条件，血压正常不能排除急性循环衰竭(休克)。(9.39±1.42)
+4.3 辅助检查
+4.3.1 诊断急性循环衰竭(休克)的辅助检查
+血乳酸是反映组织灌注不足的敏感指标，动脉血乳酸反映全身细胞缺氧状况，静脉血乳酸反映回流区域缺氧状况。动脉乳酸正常值上限为1.5 mmol/L，危重患者允许达到2 mmol/L，各实验室正常值范围可能存在差异。动脉血乳酸增高需排除非缺氧原因，如淋巴瘤、癌症、重度急性肝功能衰竭、激素治疗等[22]。不能明确原因时，应先按照组织缺氧状况考虑。
+推荐意见4：乳酸水平反映组织灌注情况，是诊断急性循环衰竭(休克)的重要依据。(9.22±1.07)
+动脉血气：动脉血气分析能够反映机体通气、氧合及酸碱平衡状态，有助评价患者的呼吸和循环功能。指标包括pH值、PaCO2、PaO2、碱剩余(BE)、标准碳酸氢根(SB)、实际碳酸氢根(AB)、动脉血氧饱和度(SaO2)和阴离子隙(AG)等。急性循环衰竭(休克)患者常见代谢性酸中毒及低氧血症。创伤性休克中碱剩余(BE)水平是评估组织灌注不足引起的酸中毒严重程度及持续时间的间接敏感指标[23]。
+4.3.2 明确病因的辅助检查
+明确病因对进一步治疗急性循环衰竭(休克)患者具有极其重要的意义(表1)。急性循环衰竭(休克)按病因可分为脓毒性休克、创伤性休克、失血性休克、心源性休克、中毒性休克、烧伤性休克等；按血流动力学可分为分布性休克、心源性休克、梗阻性休克、低血容量性休克。
+4.4 预后评估
+APACHEⅡ评分、SOFA评分和血乳酸水平是急性循环衰竭(休克)患者预后评估的可靠指标。
+APACHE Ⅱ评分：APACHE Ⅱ评分对患者总体病情进行初步评估。根据公式计算预期病死率，计算结果以0.5为界，0.5以下为预测死亡，0.5以上为预测存活。一项包括5 815例ICU患者的早期研究表明，APACHE Ⅱ评分与患者病死率之间具有相关性[24]。
+SOFA评分：明确诊断为脓毒性休克时，应进行SOFA评分并动态监测。SOFA评分对脓毒性休克患者预后评估准确性高于APACHE Ⅱ评分。研究表明，急诊入院72 h内SOFA的变化值与脓毒性休克患者的院内病死率呈线性关系，SOFA增加2分的患者病死率可达42% [25] 。SOFA评分联合血乳酸可进一步提高预后评估准确性。前瞻性队列研究提示，乳酸、SOFA评分预估脓毒性休克患者28 d病死率的曲线下面积为0.79和0.75，两者联合的曲线下面积可达0.82，显著高于单一指标[26]。
+血乳酸：血乳酸是反映组织缺氧和细胞氧利用障碍的敏感指标。血乳酸>1.5 mmol/L，脓毒性休克患者28 d病死率已显著增高[27]。基线乳酸2～4 mmol/L、>4 mmol/L的患者28 d死亡风险分别是<2 mmol/L患者的3.27倍和4.87倍[28]。而乳酸>2 mmol/L的创伤性休克患者病死率显著升高、住院时间显著延长[29]。
+推荐意见5：APACHE Ⅱ评分、SOFA评分、乳酸有助于评估患者预后。(9.41±1.42)
+5 治疗
+5.1 治疗原则
+5.1.1 治疗目标
+急性循环衰竭(休克)治疗总目标是采取个体化措施改善氧利用障碍及微循环，恢复内环境稳定。而不同阶段治疗目标应有所不同，并监测相应指标。
+2013年新英格兰杂志上发表的综述[1]阐明急性循环衰竭(休克)治疗可分为4期：第一期急救阶段(salvage)：治疗目标为最大限度地维持生命体征的稳定，保证血压、心率以及心输出量在正常或安全范围，以抢救患者生命。第二期优化调整阶段(optimization)：治疗目标为增加细胞氧供。第三期稳定阶段(stabilization)：治疗目标为防治器官功能障碍，即使在血流动力学稳定后仍应保持高度注意。最后，在第四期降阶治疗阶段(de-escalation)：治疗目标为撤离血管活性药物，应用利尿剂或肾脏替代疗法(continuous renal replacement therapy，CRRT)调整容量，达到液体负平衡，恢复内环境稳定。这个分期方法对临床治疗患者有指导意义。
+推荐意见6：急性循环衰竭(休克)治疗最终是为了改善氧利用障碍及微循环，恢复内环境稳定。(9.30±0.86)
+5.1.2 指标监测
+一般临床监测包括生命体征、皮肤温度与色泽、尿量和精神状态等指标。
+血流动力学监测：包括无创、微创和有创血流动力学监测(表2)。有条件的医院，应在第一时间将急性循环衰竭(休克)患者收入重症/加强监护病房，并进行血流动力学监测。床旁超声检查可动态评估心脏功能、血管外肺水、下腔静脉变异度等指标，可用于病情判断、病因分析以及液体复苏疗效判断。脉搏指数连续心输出量监测(pulse-induced contour cardiac output，PiCCO)、肺动脉导管(pulmonary artery catheter，PAC)作为有创血流动力学监测方法，可在有条件的重症监护室使用，或用于复杂、难治性急性循环衰竭(休克)或右室功能障碍患者[2]。
+点击查看表格
+表2
+常用的血流动力学监测方法
+表2
+常用的血流动力学监测方法
+血流动力学监测措施
+可评价指标
+无创
+生命体征监测
+血压、心率、脉搏、指氧饱和度
+心脏超声监测
+心搏量(stroke volume, SV)、心输出量(cardiac output, CO)、心脏指数(cardiac index，CI)、左室舒张末期容积(left ventricular end-diastolic volume，LVEDV)、左室收缩末期容积(left ventricular end-systolic volume，LVESV)、射血分数(ejection fraction, EF)及E/A峰比值等
+阻抗法无创血流动力学监测
+SV、CO、CI、LVEDV、LVESV、EF及E/A峰比值等
+微创
+脉搏指数连续心排血量监测(pulse-induced contour cardiac output, PiCCO)
+(1) CO、心脏前负荷、全心舒张末期容积(global end-diastolic volume，GEDV)、每搏量变异(stroke volume variation，SVV)、心肌收缩力、全心射血分数(GEF)(2)全身血管阻力/全身血管阻力指数(systemic vascular resistance index，SVRI)(3)容量性指标：GEDV、胸内血容量(intrathoracic blood volume，ITBV)和血管外肺水(extravascular lung water, EVLW)
+有创
+肺动脉漂浮导管(pulmonary artery catheter，PAC)
+右房压(right atrial pressure, RAP)或中心静脉压(central venous pressure，CVP)、右室压(right ventricular pressure，RVP)、肺动脉收缩压(pulmonary artery systolic pressure，PASP)、肺动脉楔压(pulmonary artery wedge pressure，PAWP)和CO等
+乳酸及乳酸清除率监测：持续动态的动脉血乳酸以及乳酸清除率监测对急性循环衰竭(休克)的早期诊断、指导治疗及预后评估具有重要意义[30]。每隔2～4 h动态监测血乳酸水平不仅可以排除一过性的血乳酸增高，还可判定液体复苏疗效及组织缺氧改善情况。
+推荐意见7：对急性循环衰竭(休克)患者应立即进行血流动力学监测，有条件的医院应尽早将急性循环衰竭(休克)患者收入重症/加强监护病房。(9.34±0.96)
+推荐意见8：急性循环衰竭(休克)治疗过程中应动态观察组织器官低灌注的临床表现并监测血乳酸水平。(9.44±0.74)
+5.2 治疗措施
+治疗措施包括病因治疗、摆放休克体位及保暖、重症监护、镇静镇痛、补充血容量、纠正酸碱失衡等内环境紊乱、抗凝治疗、血管活性药物使用、抗炎治疗及器官功能保护等(见图2)。
+点击查看大图
+图2
+急性循环衰竭(休克)的治疗
+图2
+急性循环衰竭(休克)的治疗
+5.2.1 病因治疗
+病因治疗是急性循环衰竭(休克)治疗的基础，各病因的具体治疗措施各异，见表3。
+点击查看表格
+表3
+病因治疗措施
+表3
+病因治疗措施
+分类
+病因
+治疗要点
+分布性
+严重感染
+清除感染灶、抗生素、外科手术
+过敏原接触
+祛除过敏原、肾上腺素
+神经源性
+祛除致病因素、立即平卧、激素、肾上腺素
+中毒
+清除未吸收毒素，解毒剂，CRRT
+甲减危象
+甲状腺激素替代治疗，糖皮质激素
+酮症酸中毒
+祛除诱发因素，小剂量静脉滴注胰岛素
+低容量性
+创伤出血
+清创，充分止血，输血
+热射病
+物理降温，药物降温
+急性胃肠炎、肿瘤化疗、消化道梗阻
+纠正内环境紊乱
+心源性
+急性心梗
+介入溶栓治疗，抗心律失常治疗，硝酸甘油扩冠脉
+恶性心律失常
+复律
+心肌病变
+适当限制其活动，相应抗心律失常、抗凝治疗
+瓣膜病
+限制体力活动，介入性治疗，外科手术
+梗阻性
+张力性气胸
+积气最高部位，放置胸膜腔引流管
+肺栓塞
+溶栓治疗
+心包填塞
+心包穿刺引流
+5.2.2 对症治疗
+对症治疗可简单记为VIP治疗，按临床治疗顺序包括改善通气，液体复苏及改善心泵功能。
+(1)改善通气
+部分急性循环衰竭(休克)患者需要接受机械通气以改善通气状况。应酌情根据患者的氧合状态来决定是否需要辅助通气，以及何种通气方式(有创或无创通气)。开始有创机械通气时可能出现动脉血压下降，提示低血容量状态，静脉回心血量减少。
+(2)液体复苏 建立静脉通路：
+迅速建立可靠有效的静脉通路，可首选中心静脉。建立中心静脉不仅有利于快速液体复苏，且可监测中心静脉压力来指导临床抢救。无条件或患者病情不允许时，可选择表浅静脉如颈外静脉、肘正中静脉、头静脉等比较粗大的静脉。万分紧急时，也可考虑骨髓腔输液。
+液体类型选择：晶体液可作为首选，必要时加用胶体液，如白蛋白。补液顺序先晶体后胶体[31,32]。
+液体输注速度：液体应快速输注以观察机体对输注液体的反应，但要避免过快而导致肺水肿，一般采用300～500 mL液体在20～30 min内输入，先快后慢，心源性休克患者除外。
+容量负荷实验：实验方法包括快速补液、被动直腿抬高实验及呼吸末屏气实验。参考指标包括容量反应性指标(下腔静脉内径变异度、左心舒张末期容积、胸腔内血容量等)及压力指标(中心静脉压、每搏变异度、肺动脉闭塞压力等)。
+液体复苏的终点：结合心率、血压水平、尿量、血乳酸水平、碱剩余、床边超声等综合判断。
+推荐意见9：急性循环衰竭(休克)患者应第一时间给予氧疗，改善通气，建立有效的静脉通道，进行液体复苏，复苏液体首选晶体液。(9.34±0.96)
+(3)改善心泵功能 血管活性药物：
+血管活性药物的应用一般应建立在充分液体复苏的基础上，但对于威胁生命的极度低血压，或经短时间大量液体复苏不能纠正的低血压，可在液体复苏的同时使用血管活性药物，以尽快提升平均动脉压并恢复全身血流[33,34]。首选去甲肾上腺素，尽可能通过中心静脉通路输注，其主要激动α受体，同时具有适度β受体激动作用，因而有助于维持心输出量、增加血管阻力，有利于提高血压。临床应用去甲肾上腺素时，多表现为平均动脉压显著增高，心率或心输出量基本不变。去甲肾上腺素常用剂量为(0.1～2.0) μg/(kg·min)。在高血流动力学状态的分布性休克患者中，可能存在血管加压素缺乏，在这部分患者中应用小剂量血管加压素可能会使血压显著增高[1]。
+正性肌力药物：前负荷良好而心输出量仍不足时可考虑给予正性肌力药物。此时需给予正性肌力药物，首选多巴酚丁胺，起始剂量(2～3) μg/(kg·min)，静脉滴注速度根据症状、尿量等调整。磷酸二酯酶抑制剂包括米力农、依诺苷酮等，具有强心和舒张血管的综合效应，可增强多巴酚丁胺的作用。当β肾上腺素能受体作用下调，或患者近期应用β受体阻滞剂时，磷酸二酯酶抑制剂治疗可能有效[1]。
+推荐意见10：血管活性药物的应用一般应建立在充分液体复苏治疗的基础上，首选去甲肾上腺素。(9.18±1.04)
+推荐意见11：前负荷良好而心输出量仍不足时给予正性肌力药物。(9.38±0.87)
+5.2.3 调控全身性炎症反应
+虽然急性循环衰竭(休克)的发病机制有所不同，但过度炎症反应导致的毛细血管渗漏，微循环障碍普遍存在，这在器官功能障碍的发展过程中起着关键作用[13,15]。
+液体复苏治疗旨在恢复循环量和组织灌注，但不能有效阻止炎症反应的发生。因此，应尽早开始抗炎治疗，阻断炎症级联反应，保护内皮细胞，降低血管通透性，改善微循环。故抗炎治疗可作为急性循环衰竭的治疗选择之一，可选用乌司他丁、糖皮质激素等。研究显示乌司他丁可降低严重脓毒症/脓毒性休克患者治疗6 h及24 h后血乳酸水平，提高乳酸清除率[35]，降低28 d病死率及新发器官功能衰竭发生率[36]。糖皮质激素在考虑患者可能存在肾上腺皮质功能不全时使用。
+推荐意见12：调控全身性炎症反应可以作为急性循环衰竭患者的治疗措施之一。(9.45±0.82)
+5.2.4 器官功能保护
+器官功能障碍均发生在器官组织微循环障碍的基础之上。即使急性循环衰竭(休克)患者血流动力学参数稳定，也不代表器官组织的微循环已经改善，仍应动态评估其器官功能并及时治疗[1,2]。
+推荐意见13：即使急性循环衰竭(休克)患者血流动力学参数稳定时，仍应关注组织灌注，保护器官功能。(9.71±0.59)
+5.3 常见类型急性循环衰竭要点
+5.3.1 分布性休克
+脓毒性休克需在进行初始复苏的最初6 h内达到：(1)中心静脉压8～12 cmH2O(1 cmH2O＝0.098 kPa)；(2)平均动脉压(MAP)≥65 mmHg；(3)尿量≥0.5 mL/(kg·h)；(4)上腔静脉血氧饱和度≥0.70或混合静脉血氧饱和度≥0.65。治疗起始1 h内开始广谱抗生素治疗，抗生素使用前留取生物标本(血、痰、分泌物等)，及时引流感染灶并清除坏死组织[37]。
+中毒性休克：祛除残余毒物(通过洗胃、导泻、清洗皮肤等措施)，并使用解毒剂治疗。吸毒患者有疑似生命危险、或与阿片类药物相关的紧急情况，应给与纳洛酮[38]。
+过敏性休克：祛除过敏原，使用肾上腺素静脉注射治疗。
+神经源性休克：祛除致病因素，维持呼吸循环功能，使用肾上腺素、糖皮质激素静脉注射治疗。
+5.3.2 低血容量性休克
+创伤性休克采取允许性低血压策略，即无颅脑损伤的严重创伤患者目标收缩压设定为80～90 mmHg，直至大出血停止；有颅脑损伤且合并出血性休克的严重创伤患者平均动脉压维持在≥80 mmHg [33]。乳酸升高和碱剩余负值增大是评估出血情况的敏感指标，红细胞压积在4 h时内下降10%也提示有活动性出血。未明确出血部位的患者应尽早超声、CT检查明确出血部位；出血部位明确的患者及时手术、介入治疗充分止血。有活动性出血患者采用限制性液体复苏治疗，晶体液与胶体液按2∶1比例输注。急性失血患者当中心静脉压、平均动脉压达标，而中心静脉血氧饱和度(ScvO2)仍低于70%或混合静脉血氧饱和度(SvO2)仍低于65%，可考虑输入红细胞。输全血或红细胞应以红细胞压积≥30%为目标。此外还应保持患者体温、监测并预防凝血功能障碍[23,39]。
+5.3.3 心源性休克
+心源性休克按基础疾病进行相应治疗。心肌梗死、冠心病患者应紧急进行血运重建治疗，如溶栓、经皮冠脉介入(percutaneous coronary intervention，PCI)、冠状动脉旁路移植术(coronary artery bypass grafting，CABG)或主动脉内球囊反搏(intraaortic balloon counter pulsation，IABP)；Ⅱ～Ⅲ度房室传导阻滞安装起搏器；室速、室颤使用电复律或抗心律失常药物治疗；慢性心脏疾病(如心肌病)则使用内科保守治疗；左心系统衰竭、全心衰竭需控制补液量，右心系统衰竭可能需加大补液量。
+心源性休克期间应使用正性肌力药或血管加压药使MAP达到≥65 mmHg，并强烈推荐使用去甲肾上腺素恢复灌注压。肾上腺素可以作为多巴胺和去甲肾上腺素的替代选择，但是可能会增加心律失常、心动过速和高乳酸血症的风险。多巴胺主要用于处理低心输出量的情况。磷酸二酯酶抑制剂或钙增敏剂不能作为一线治疗方案[40]。
+5.3.4 梗阻性休克
+肺栓塞可使用抗凝治疗、肺动脉血栓摘除术、腔静脉滤器植入术、溶栓治疗；急性心包填塞需要进行心包穿刺引流。
+专家组成员
+专家组成员(按姓名首字母排序)：急诊医学科 柴艳芬、陈玉国、曹钰、董士民、韩继媛、李小刚、林兆奋、陆一鸣、蒋龙元、倪海滨、聂时南、钱传云、田英平、杨立山、尹文、王仲、于学忠、曾红科、赵敏、赵晓东、詹红、张均、张泓、郑亚安、周荣斌； 重症医学科 李新宇、石广志、孙运波、王瑞兰、王雪
+参考文献
+[1]
+VincentJL, De BackerD.
+Circulatory shock[J].
+N Engl J Med,
+2013,
+369(
+18):
+1726-
+1734.
+DOI:10.1056/NEJMra1208943.
+[2]
+CecconiM, De BackerD, AntonelliM, et al.
+Consensus on circulatory shock and hemodynamic monitoring. Task force of the European Society of Intensive Care Medicine[J].
+Intensive Care Med,
+2014,
+40(
+12):
+1795-
+1815.
+DOI:10.1007/s00134-014-3525-z.
+[3]
+VincentJL, InceC, BakkerJ.
+Clinical review: Circulatory shock--an update: a tribute to Professor Max Harry Weil[J].
+Crit Care,
+2012,
+16(
+6):
+239.
+DOI:10.1186/cc11510.
+[4]
+De BackerD, BistonP, DevriendtJ, et al.
+Comparison of dopamine and norepinephrine in the treatment of shock[J].
+N Engl J Med,
+2010,
+362(
+9):
+779-
+789.
+DOI:10.1056/NEJMoa0907118.
+[5]
+RezendeE, SilvaJM, IsolaAM, et al.
+Epidemiology of severe sepsis in the emergency department and difficulties in the initial assistance[J].
+Clinics (Sao Paulo),
+2008,
+63(
+4):
+457-
+464.
+DOI:10.1590/S1807-59322008000400008.
+[6]
+王正国．
+多发伤的救治[J]．
+中华创伤杂志，
+2004，
+20(
+1)：
+1-
+3.
+WangZG. Treatment of multiple trauma[J].Chin J Traum, 2004, 20(1):1-3.
+[7]
+GoldbergRJ, GoreJM, AlpertJS, et al.
+Cardiogenic shock after acute myocardial infarction: incidence and mortality from acommunity-wide perspective, 1975, to 1988[J].
+N Engl J Med,
+1991,
+325:
+1117-
+1122.
+[8]
+AlbertiC, Brun-BuissonC, BurchardiH, et al.
+Epidemiology of sepsis and infection in ICU patients from an international multicentre cohort study[J].
+Intensive Care Med,
+2002,
+28(
+2):
+108-
+121.
+[9]
+GentileLF, CuencaAG, EfronPA, et al.
+Persistent inflammation and immunosuppression: a common syndrome and new horizon for surgical intensive care[J].
+J Trauma Acute Care Surg,
+2012,
+72(
+6):
+1491-
+1501.
+DOI:10.1097/TA.0b013e318256e000.
+[10]
+EpelmanS, LiuPP, MannDL.
+Role of innate and adaptive immune mechanisms in cardiac injury and repair[J].
+Nat Rev Immunol,
+2015,
+15(
+2):
+117-
+129.
+DOI:10.1038/nri3800.
+[11]
+WardPA.
+New approaches to the study of sepsis[J].
+EMBO Mol Med,
+2012,
+4(
+12):
+1234-
+1243.
+DOI:10.1002/emmm.201201375.
+[12]
+LinkermannA, StockwellBR, KrautwaldS, et al.
+Regulated cell death and inflammation: an auto-amplification loop causes organ failure[J].
+Nat Rev Immunol,
+2014,
+14(
+11):
+759-
+767.
+DOI:10.1038/nri3743.
+[13]
+WynnJL, WongHR.
+Pathophysiology and treatment of septic shock in neonates[J].
+Clin Perinatol,
+2010,
+37(
+2):
+439-
+479.
+DOI:10.1016/j.clp.2010.04.002.
+[14]
+SchoutenM, WiersingaWJ, LeviM, et al.
+Inflammation, endothelium, and coagulation in sepsis[J].
+J Leukoc Biol,
+2008,
+83(
+3):
+536-
+545.
+DOI:10.1189/jlb.0607373
+[15]
+De BackerD, Orbegozo CortesD, DonadelloK, et al.
+Pathophysiology of microcirculatory dysfunction and the pathogenesis of septic shock[J].
+Virulence,
+2014,
+5(
+1):
+73-
+79.
+DOI:10.4161/viru.26482.
+[16]
+KeelM, TrentzO.
+Pathophysiology of polytrauma[J].
+Injury,
+2005,
+36(
+6):
+691-
+709.
+[17]
+AshrufJF, BruiningHA, InceC.
+New insights into the pathophysiology of cardiogenic shock: the role of the microcirculation[J].
+Curr Opin Crit Care,
+2013,
+19(
+5):
+381-
+386.
+DOI:10.1097/MCC.0b013e328364d7c8.
+[18]
+CarrieM, DerekSW.
+Obstructive Shock[J].
+Open Pediat Med J,
+2013,
+7(
+1):
+35-
+37.
+[19]
+KruseO, GrunnetN, BarfodC.
+Blood lactate as a predictor for in-hospital mortality in patients admitted acutely to hospital: a systematic review[J].
+Scand J Trauma Resusc Emerg Med,
+2011,
+19:
+74.
+DOI:10.1186/1757-7241-19-74.
+[20]
+RanzaniOT, MonteiroMB, FerreiraEM, et al.
+Reclassifying the spectrum of septic patients using lactate: severe sepsis, cryptic shock, vasoplegic shock and dysoxic shock[J].
+Rev Bras Ter Intensiva,
+2013,
+25(
+4):
+270-
+278.
+DOI:10.5935/0103-507X.20130047.
+[21]
+Kanoore EdulVS, InceC, DubinA.
+What is microcirculatory shock？[J].
+Curr Opin Crit Care,
+2015,
+21(
+3):
+245-
+252.
+DOI:10.1097/MCC.0000000000000196.
+[22]
+De BackerD.
+Lactic acidosis[J].
+Intensive Care Med,
+2003,
+29(
+5):
+699-
+702.
+[23]
+RossaintR, BouillonB, CernyV, et al.
+Management of bleeding following major trauma: an updated European guideline[J].
+Crit Care,
+2010,
+14(
+2):
+R52.
+DOI:10.1186/cc8943.
+[24]
+KnausWA, DraperEA, WagnerDPet al.
+APACHE II: a severity of disease classification system[J].
+Crit Care Med,
+1985,
+13(
+10):
+818-
+829.
+[25]
+JonesAE, TrzeciakS, KlineJA.
+The Sequential Organ Failure Assessment score for predicting outcome in patients with severe sepsis and evidence of hypoperfusion at the time of emergency department presentation[J].
+Crit Care Med,
+2009,
+37(
+5):
+1649-
+1654.
+DOI:10.1097/CCM.0b013e31819def97.
+[26]
+ChenYX, LiCS.
+Arterial lactate improves the prognostic performance of severity score systems in septic patients in the ED[J].
+Am J Emerg Med,
+2014,
+32(
+9):
+982-
+986.
+DOI:10.1016/j.ajem.2014.05.025.
+[27]
+WacharasintP, NakadaTA, BoydJH, et al.
+Normal-range blood lactate concentration in septic shock is prognostic and predictive[J].
+Shock,
+2012,
+38(
+1):
+4-
+10.
+DOI:10.1097/SHK.0b013e318254d41a.
+[28]
+MikkelsenME, MiltiadesAN, GaieskiDF, et al.
+Serum lactate is associated with mortality in severe sepsis independent of organ failure and shock[J].
+Crit Care Med,
+2009,
+37(
+5):
+1670-
+1677.
+DOI:10.1097/CCM.0b013e31819fcf68.
+[29]
+OuelletJF, RobertsDJ, TirutaC, et al.
+Admission base deficit and lactate levels in Canadian patients with blunt trauma: are they useful markers of mortality?[J].
+J Trauma Acute Care Surg,
+2012,
+72(
+6):
+1532-
+1535.
+DOI:10.1097/TA.0b013e318256dd5a.
+[30]
+JansenTC, van BommelJ, SchoonderbeekFJ, et al.
+Early lactate-guided therapy in intensive care unit patients: a multicenter, open-label, randomized controlled trial[J].
+Am J Respir Crit Care Med,
+2010,
+182(
+6):
+752-
+761.
+DOI:10.1164/rccm.200912-1918OC.
+[31]
+PernerA, JunttilaE, HaneyM, et al, Scandinavian Society of A and Intensive Care M.
+Scandinavian clinical practice guideline on choice of fluid in resuscitation of critically ill patients with acute circulatory failure[J].
+Acta Anaesthesiol Scand,
+2015,
+59(
+3):
+274-
+285.
+DOI:10.1111/aas.12429.
+[32]
+刘大为，王小亭，张宏民，等．
+重症血流动力学治疗——北京共识[J]．
+中华内科杂志，
+2015，
+54(
+4)：
+248-
+271.
+DOI:10.3760/cma.j.issn.0578-1426.2015.03.003
+LiuDW, WangXT, ZhangHM, et al.Severe hemodynamic treatment:Beijing consensus[J].Chin Med J, 2015, 54(4):248-271.
+[33]
+SpahnDR, BouillonB, CernyV, et al.
+Management of bleeding and coagulopathy following major trauma: an updated European guideline[J].
+Crit Care,
+2013,
+17(
+2):
+R76.
+DOI:10.1186/cc12685.
+[34]
+GelmanS, MushlinPS.
+Catecholamine-induced changes in the splanchnic circulation affecting systemic hemodynamics[J].
+Anesthesiology,
+2004,
+100(
+2):
+434-
+439.
+[35]
+李仕军，闻飞英．
+乌司他丁对严重脓毒症患者血乳酸及乳酸清除率的早期影响[J/CD]．
+中华危重症医学杂志(电子版)，
+2013，
+6：
+31-
+34.
+LiSJ, WenFY. Early effects of ulinastatin on blood lactate and lactate clearance in patients with severe sepsis[J/CD]. Chin J Crit Care Med, 2013, 6(2):98-101.
+[36]
+KarnadDR, BhadadeR, VermaPK, et al.
+Intravenous administration of ulinastatin (human urinary trypsin inhibitor) in severe sepsis: a multicenter randomized controlled study[J].
+Intensive Care Med,
+2014,
+40(
+6):
+830-
+838.
+DOI:10.1007/s00134-014-3278-8.
+[37]
+中华医学会重症医学分会．
+中国严重脓毒症/脓毒性休克治疗指南(2014)[J]．
+中华内科杂志，
+2015，
+54：
+557-
+581.
+DOI:10.3760/cma.j.issn.0578-1426.2015.06.021
+Intensive Medical Branch of Chinese Medical Association.Chinese severe sepsis/septic shock treatment guidelines(2014)[J].Chin Med J, 2015, 54:557-581.
+[38]
+Association. AH.
+2015 American Heart Association Guidelines Update for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care[J].
+Circulation,
+2015,
+132:
+S315-
+S589.
+[39]
+中华医学会重症医学分会．
+低血容量休克复苏指南(2007)[J]．
+中国实用外科杂志，
+2007，
+27：
+581-
+587.
+Intensive Medical Branch of Chinese medical association.Low blood volume resuscitation guidelines(2007)[J].Chin J Pract Surg, 2007, 27(6):581-587.
+[40]
+LevyB, BastienO, BenjelidK, et al.
+Experts' recommendations for the management of adult patients with cardiogenic shock[J].
+Ann Intensive Care,
+2015,
+5(
+1):
+52.
+DOI:10.1186/s13613-015-0052-1.
+贡献者信息
+中国医师协会急诊医师分会
+历史
+出版日期：2016-02-10
+收稿日期：2016-01-20
+本文编辑
+何小军
+Standards and Guidelines
+Expert consensus on acute circulatory failure: clinical practice of Chinese emergency physicians
+Emergency Medical Branch of Chinese Medical Doctor Association
+Published
+2016-02-01
+Cite as
+Chin J Emerg Med, 2016,25(2): 146-152. DOI: 10.3760/cma.j.issn.1671-0282.2016.02.004
+Contributor Information
+Emergency Medical Branch of Chinese Medical Doctor Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+a组织低灌注临床表现：意识改变、尿量减少、皮肤温度色泽改变或毛细血管充盈时间>2 s；b其他引起低血压的原因：药物(如利尿剂、β受体阻滞剂等降压药)、体位改变等；c非组织缺氧引起乳酸增高的原因：淋巴瘤、癌症、重度急性肝功能衰竭、激素治疗等
+图1
+急性循环衰竭(休克)诊断流程
+表1
+急性循环衰竭(休克)的病因诊断
+分类
+病因
+临床表现
+辅助检查
+分布性
+严重感染
+感染病史，发热，寒颤
+白细胞、CRP、PCT增高
+过敏原接触
+过敏原接触病史，皮疹，低血压
+/
+神经源性
+有强烈的神经刺激(如创伤、剧烈疼痛)，头晕，面色苍白，胸闷，心悸，呼吸困难，肌力下降
+/
+中毒
+毒素接触史，瞳孔改变，呼吸有特殊气味
+毒理检测结果显示毒素水平增加
+酮症酸中毒
+糖尿病症状加重和胃肠道症状，酸中毒，深大呼吸和酮臭味
+血糖大幅升高，血尿酮体阳性，pH<7.35，HCO3-<22 mmol/L
+甲减危象
+甲减病史，黏液性水肿，昏迷，低体温
+血清T3、T4降低及/或TSH明显增高
+低血容量性
+创伤或出血
+创伤病史，腹痛，面色苍白，活动性失血
+超声/CT见肝脾破裂或腹腔积液，腹穿抽出血性液体
+热射病
+头晕，乏力，恶心，呕吐，严重者会出现高热，昏迷，抽搐
+/
+急性胃肠炎、肿瘤化疗、消化道梗阻
+严重呕吐、腹泻
+血电解质异常
+心源性
+急性心梗
+心前区压榨性疼痛，濒死感，心律失常
+ECG：新出现Q波及ST段抬高和ST-T动态演变；心肌坏死标志物升高
+恶性心律失常
+心悸，气促，胸闷
+ECG相应改变
+心肌病变
+胸闷、气短、心慌
+ECG、心脏超声相应改变
+瓣膜病
+活动之后出现心悸、心搏加快，心脏杂音
+ECG、心脏超声相应改变
+梗阻性
+张力性气胸
+极度呼吸困难，端坐呼吸，发绀，可有皮下气肿，气胸体征
+胸部X线：胸腔大量积气，肺可完全萎陷，气管和心影偏移至健侧
+肺栓塞
+呼吸困难，胸痛，咯血，惊恐，咳嗽
+D二聚体升高，ECG：V1～V2导联的T波倒置和ST段压低，CTA，肺通气血流比
+心包填塞
+胸痛，呼吸困难，晕厥，奇脉
+ECG：低电压；心脏超声：心包积液
+表2
+常用的血流动力学监测方法
+血流动力学监测措施
+可评价指标
+无创
+生命体征监测
+血压、心率、脉搏、指氧饱和度
+心脏超声监测
+心搏量(stroke volume, SV)、心输出量(cardiac output, CO)、心脏指数(cardiac index，CI)、左室舒张末期容积(left ventricular end-diastolic volume，LVEDV)、左室收缩末期容积(left ventricular end-systolic volume，LVESV)、射血分数(ejection fraction, EF)及E/A峰比值等
+阻抗法无创血流动力学监测
+SV、CO、CI、LVEDV、LVESV、EF及E/A峰比值等
+微创
+脉搏指数连续心排血量监测(pulse-induced contour cardiac output, PiCCO)
+(1) CO、心脏前负荷、全心舒张末期容积(global end-diastolic volume，GEDV)、每搏量变异(stroke volume variation，SVV)、心肌收缩力、全心射血分数(GEF)(2)全身血管阻力/全身血管阻力指数(systemic vascular resistance index，SVRI)(3)容量性指标：GEDV、胸内血容量(intrathoracic blood volume，ITBV)和血管外肺水(extravascular lung water, EVLW)
+有创
+肺动脉漂浮导管(pulmonary artery catheter，PAC)
+右房压(right atrial pressure, RAP)或中心静脉压(central venous pressure，CVP)、右室压(right ventricular pressure，RVP)、肺动脉收缩压(pulmonary artery systolic pressure，PASP)、肺动脉楔压(pulmonary artery wedge pressure，PAWP)和CO等
+图2
+急性循环衰竭(休克)的治疗
+表3
+病因治疗措施
+分类
+病因
+治疗要点
+分布性
+严重感染
+清除感染灶、抗生素、外科手术
+过敏原接触
+祛除过敏原、肾上腺素
+神经源性
+祛除致病因素、立即平卧、激素、肾上腺素
+中毒
+清除未吸收毒素，解毒剂，CRRT
+甲减危象
+甲状腺激素替代治疗，糖皮质激素
+酮症酸中毒
+祛除诱发因素，小剂量静脉滴注胰岛素
+低容量性
+创伤出血
+清创，充分止血，输血
+热射病
+物理降温，药物降温
+急性胃肠炎、肿瘤化疗、消化道梗阻
+纠正内环境紊乱
+心源性
+急性心梗
+介入溶栓治疗，抗心律失常治疗，硝酸甘油扩冠脉
+恶性心律失常
+复律
+心肌病变
+适当限制其活动，相应抗心律失常、抗凝治疗
+瓣膜病
+限制体力活动，介入性治疗，外科手术
+梗阻性
+张力性气胸
+积气最高部位，放置胸膜腔引流管
+肺栓塞
+溶栓治疗
+心包填塞
+心包穿刺引流
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华急诊医学杂志2016年25卷2期
+文    题：急性循环衰竭中国急诊临床实践专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华急诊医学杂志2016年25卷2期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

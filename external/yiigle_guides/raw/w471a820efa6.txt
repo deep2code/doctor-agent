@@ -1,0 +1,1155 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E8%85%B9%E8%85%94%E9%95%9C%E5%B0%8F%E5%84%BF%E9%98%91%E5%B0%BE%E5%88%87%E9%99%A4%E6%9C%AF%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97%282017%E7%89%88%29.html
+# 标题: 腹腔镜小儿阑尾切除术操作指南(2017版) - 中华小儿外科杂志
+# 发布方/日期: 小儿外科，中华小儿外科杂志, 2017,38(10) : 725-732. DOI: 10.3760/cma.j；2017-10-15
+
+腹腔镜小儿阑尾切除术操作指南(2017版)
+中华医学会小儿外科分会内镜外科学组
+中华小儿外科杂志, 2017,38(10) : 725-732. DOI: 10.3760/cma.j.issn.0253-3006.2017.10.002
+一、前言
+阑尾炎(appendicitis)是常见急腹症，占小儿急腹症的15%～20%[1]，发病率随种族、性别、肥胖程度、季节变化[2,3,4,5]而异。小儿阑尾呈漏斗状，基底较宽，长约4～8 cm，好似盲肠的延续，随年龄增长阑尾向左后方移动。90%的阑尾起自盲肠后内侧壁，3条结肠带的交界处。发病率随年龄增长逐渐增多，10岁左右达到高峰[6]。5岁以内的阑尾炎很少见，但误诊率高，穿孔率可达40%[7]。如果阑尾位于回盲部组织内为壁内型阑尾，较少见，又可分为盲肠壁内阑尾、回肠壁内阑尾、系膜壁内阑尾。临床病理分型包括：①单纯性阑尾炎；②化脓性阑尾炎；③坏疽性阑尾炎；④严重的化脓性或坏疽性阑尾炎形成包裹性脓肿的，称作阑尾周围脓肿[8]。临床上将坏疽性或穿孔性阑尾炎统称为复杂性阑尾炎[9]。阑尾炎的发病原因不明，大量研究表明，阑尾腔梗阻，腔内液体引流不畅造成管腔内压力增高可能是诱发阑尾炎的首要病因[10,11,12]，除此以外，原发性细菌感染也是造成小儿阑尾炎的重要原因之一[13,14,15]。急性阑尾炎的诊断主要靠临床症状、体检及实验室检查。患儿有典型的转移性右下腹痛，伴有发热、呕吐等症状，体格检查发现右下腹固定压痛，有或没有肌紧张，血清学检查显示白细胞、C反应蛋白(CRP)升高，腹部B型超声发现阑尾直径>6 mm，阑尾壁增厚，淋巴滤泡增生，周围脂肪回声减低提示急性阑尾炎可能[16]。B型超声检查阴性的必要时可以考虑做腹部CT检查[2,6,17,18]。慢性阑尾炎多由急性阑尾炎转变而来，少数开始即呈慢性过程。主要病变为阑尾壁不同程度的纤维化及慢性炎性细胞浸润。阑尾因纤维组织增生，管壁增厚，不规则，甚至闭塞。这些病变妨碍了阑尾的排空，压迫阑尾壁内神经而产生疼痛症状。既往有急性阑尾炎发作病史，经常有右下腹疼痛，有的患儿仅有隐痛或不适，剧烈运动或饮食不洁可诱发急性发作。
+小儿阑尾炎的相关描述最早出现于1735年，第1例阑尾切除手术报道于1894年[19]。1973年Gans和Berci [20]将腔镜技术引入小儿外科，1983年Semm完成第1例腹腔镜阑尾切除术[21]，经过近半个世纪的努力，腹腔镜阑尾切除术因安全、有效、创伤小、术后恢复快成为小儿阑尾炎治疗的重要手段[22,23,24,25,26,27,28]。由传统的多孔腹腔镜阑尾切除术，发展到经脐单孔腹腔镜阑尾切除术[29]、经脐单部位腹腔镜阑尾切除术[30]。术前评估患儿疾病严重程度，根据病理阶段选择合适的手术方法，是减少并发症的基础。为了进一步提高我国小儿阑尾炎的治疗水平，规范腹腔镜手术操作，中华医学会小儿外科分会内镜外科学组和卫计委行业专项"小儿腔镜诊断治疗先天畸形技术规范、标准及新技术评价研究"课题组、天津市科委课题"小儿急腹症腔镜治疗规范化研究"课题组，组织相关专家制定《腹腔镜小儿阑尾切除术操作指南(2017版)》。
+二、手术适应证和禁忌证
+(一)适应证
+腹腔镜手术因视野广，可伸达盆腹腔任何部位观察，在一定程度上较传统开腹手术探查范围更广、更方便[31]。
+1．绝对适应证
+(1)急性单纯性阑尾炎[32,33,34]及慢性阑尾炎。
+(2)急性化脓性、坏疽性阑尾炎[35,36]。
+(3)阑尾穿孔、弥漫性腹膜炎[37]。
+2．相对适应证
+病史超过1周，保守治疗效果不满意，腹腔内感染没有局限的患儿[38]。相对适应证要根据手术医师腔镜手术水平客观评估，以免造成副损伤，增加并发症。
+(二)禁忌证
+1．绝对禁忌证
+(1)患儿高度腹胀无法建立气腹，或立位腹部X线片显示机械性肠梗阻[39]。
+(2)心肺功能异常，不能耐受气腹者。
+2．相对禁忌证
+(1)有开腹手术病史，腹腔广泛粘连，影响操作[40]。
+(2)病史超过5～7 d，形成局部脓肿或炎症包裹[41,42]。
+(3)出现严重的感染性休克，气腹对人体呼吸、循环的干扰可能引起心肺功能下降。
+三、手术设备和手术器械
+腹腔镜手术设备包括高清晰度摄像与显示系统、全自动恒温气腹机、冲洗吸引装置、录像和图像储存设备。腹腔镜常规手术器械主要包括3 mm、5 mm穿刺套管(Trocar)、多通道单孔穿刺套管、电钩、超声刀、分离钳、无损伤肠钳、剪刀、持针器、可吸收夹或Hem-o-Lock、施夹钳、圈套器、钩针、取物袋等。
+四、手术方式
+腹腔镜阑尾切除术根据操作入路不同其手术方式包括：
+1．常规腹腔镜阑尾切除术也称为传统(conventional)腹腔镜手术，腹部分散放置3～4个Trocar进行手术，是目前应用最为广泛的手术方式。
+2．经脐部单切口(single incision)或经脐辅助(transumbilical laparoscopic-assisted)腹腔镜阑尾切除术，经脐部放置单孔三通道(triport)或多通道(multiport)，应用角型操作器械进行手术，也称之为经脐单孔(single-port)腹腔镜阑尾切除术[29]。经脐单切口放入伞状穿刺通道，利用小儿回盲部游离的特点将阑尾提出腹腔外切除，称为经脐单孔腹腔镜辅助阑尾切除术[43,44]。
+3．单部位(single site)腹腔镜阑尾切除术，切开脐部2 cm，分离皮下，于切口正中置入5 mm Trocar放入镜头，切口两边缘置入3mm或5 mm Trocar作为操作孔，或沿脐缘切开多个3～5 mm小切口，分别置入Trocar作为操作孔[30,45]。
+4．Hybrid经脐单部位杂交腹腔镜手术，脐部放入1～2个Trocar，右下腹部穿入钩针或微型器械完成手术。右下腹部的钩针或微型器械可以协助暴露阑尾，便于结扎阑尾系膜并分离粘连。可减少腹部戳孔、减少手术难度[35]。
+5．经自然腔道内镜阑尾切除术，经自然腔道内镜手术(natural orifice transluminal endoscopic surgery，NOTES)是通过自然腔道(胃、结直肠或阴道)的切口、将软性内镜置入腹腔进行手术，从而达到腹壁无瘢痕、术后疼痛更轻和更加微创、美观的效果。2008年Palanivelu等[46]首次报道经阴道后穹窿进入腹腔成功行阑尾切除术，证实经阴道实施阑尾切除术同样安全可行。然而，由于NOTES技术在小儿因伦理问题不宜经阴道进行手术，经胃NOTES存在腹腔感染和胃漏的风险，在小儿外科尚未开展NOTES阑尾切除术。
+除常规腹腔镜阑尾切除术外，其他几种手术方法因受到器械、操作空间的限制需选择适当病例，以免增加手术并发症[46]。
+五、手术的基本原则
+部分急腹症患儿，特别是3岁以下患儿症状不典型。肥胖、腹胀等因素会影响手术前查体及影像学检查结果。腹腔镜手术可以全面探查腹腔，更适用于有手术指证、诊断不明确的患儿。
+(一)手术切除范围
+以回盲部3条结肠带交界处为阑尾根部的解剖标志，用圈套器或丝线结扎阑尾根部，残端保留不超过3～5 mm，以避免发生阑尾残株炎[47,48]。在结扎点上方0.5～1 cm处将其切断，经穿刺孔取出。根部感染重、条件差的建议荷包缝合并包埋阑尾残端，防止阑尾残端瘘[49,50,51]。同时应切除变性坏死的大网膜。
+(二)清洗、引流原则
+对于局限性腹膜炎，不建议扩大感染范围的冲洗，清理局部渗出及脓苔即可。弥漫性腹膜炎用生理盐水冲洗腹腔、肠管及网膜组织，边冲洗边吸尽渗出，直至冲洗液清亮无杂质。复杂性阑尾炎有包裹性脓肿、阑尾残端条件差的应留置胶管引流于脓肿处或阑尾床[6,52]。
+(三)中转开放原则
+在腹腔镜手术过程中出现下列情况应及时中转开腹手术：
+1．腹腔粘连严重，腹腔镜下不能解决的肠梗阻。
+2．损伤血管，出血多，腔镜下止血困难[53]。
+3．阑尾残端条件差，镜下难以妥善处理。术者应评估自身腔镜下缝合技术，选择是否需开腹缝合。
+(四)手术方式选择
+复杂性阑尾炎特别是弥漫性腹膜炎患儿推荐使用传统的多孔法[37]。手术前体检及影像学检查未提示腹腔内弥漫性感染的复杂性阑尾炎可先置入观察孔[54]，根据情况选择单部位腹腔镜阑尾切除术或经脐单部位杂交腹腔镜手术。经脐部单孔手术因腹腔镜与手术器械在空间上平行走形，限制了操作空间，适合于切除单纯性阑尾炎[55,56]。操作熟练的医师可以尝试用于感染局限、粘连轻的化脓性阑尾炎甚至是复杂性阑尾炎[56]。经脐辅助单孔腹腔镜阑尾切除术适用于回盲部游离度好、无粘连的单纯性、慢性或化脓性阑尾炎。
+六、手术前准备、麻醉方式和手术体位
+1．术前6～8 h禁食水。
+2．血清学相关检查，血常规、CRP、肝肾功能、凝血功能、传染病学检查等。
+3．腹部B型超声和/或CT检查，确认阑尾炎症波及范围并鉴别诊断。
+4．心肺功能测定，了解全身炎症反应的范围。
+5．静脉抗感染治疗，单纯性或慢性阑尾炎建议于手术前30 min给予预防性用药(青霉素或头孢类抗生素)[57,58]，以降低切口感染等并发症[59,60]。复杂性阑尾炎患儿入院后即应给予抗生素静脉抗感染治疗，建议先使用青霉素类配合甲硝唑类抗生素，手术后根据腹腔内感染情况，结合脓液培养结果选择敏感抗生素[58,61]。
+6．全身炎症反应重、合并电解质紊乱、感染性休克患儿积极补液，纠正内环境紊乱，呕吐频繁或腹胀的患儿留置胃肠减压[62]。
+7．麻醉和体位：麻醉采用全身麻醉配合气管内插管或喉罩，仰卧位，必要时右侧抬高或头低位利于暴露阑尾。复杂性阑尾炎有感染性休克表现的患儿需留置尿管监测尿量，膀胱充盈影响盆腔探查的需排空膀胱。3岁以下患儿CO2气腹压力建议维持在建议在8～9 mmHg，3～6岁10～11 mmHg，7岁以上10～12 mmHg(1 mmHg≈0.133 kPa)[63,64]，应避免较大幅度的气腹压变化。术者站位可根据自身经验、习惯决定。
+七、术后并发症处理对策
+随着腹腔镜阑尾切除术的经验积累和技术成熟，术后并发症已明显减少[9,65,66,67,68]。
+(一)腹腔镜手术特有的并发症
+1．放置套管的并发症：
+包括血管损伤与肠管损伤，极少出现脾脏或肝脏损伤。Trocar损伤肠管和腹腔内血管常发生在腹腔粘连重，穿刺时用力过猛穿透血管与肠管。一旦发现肠管损伤，应及时腹腔镜下或中转开腹修补。肠壁或肠系膜出现自限性血肿可以在术中观察出血情况，或可不做止血处理。活动性出血用器械暂时钳夹或压迫，立即中转开腹修补。初学者最好经脐部直视下放入第一个Trocar，建立气腹，然后在腹腔镜监视下放置其他Trocar，以避免这种并发症[69]。
+2．术后睾丸鞘膜感染：
+为腹腔镜手术特有的并发症，手术后2～3 d，男患儿出现一侧睾丸红肿，疼痛，B超检查显示鞘膜腔积液、肿胀。轻症可通过静脉抗感染治疗好转，重症需行睾丸鞘膜引流手术。发病原因与患儿单侧(左右均有可能)鞘状突未闭合，在气腹压力作用下，腹腔内脓液经开放的内环口进入鞘膜有关。手术过程中应注意观察双侧内环口，特别是术前有鞘状突未闭的患儿，避免脓液流入鞘突造成感染[70]。
+(二)阑尾切除术共有的并发症
+1．术后腹盆腔脓肿：
+术后腹盆腔脓肿是腹腔镜阑尾切除术后最常见的并发症，多发生于复杂性阑尾炎患儿。手术后3～5 d体温升高，血清学检查显示白细胞升高，腹胀，进食差，不能进行正常运动的患儿应考虑有腹盆腔积脓。查体腹胀，有右下腹或下腹部压疼，严重的有局限性腹膜炎或弥漫性腹膜炎表现，肠鸣音减弱，甚至造成动力性肠梗阻。通过腹部B型超声或CT检查确认诊断[55,72]。经过静脉抗感染治疗不能局限的脓肿可在B型超声导引下经腹壁或直肠前壁穿刺引流。感染扩散者应再手术清理脓肿，冲洗腹腔，留置腹腔引流管。
+2．术后肠梗阻：
+占阑尾切除术后并发症的第二位[6]，术后早期的肠梗阻与腹腔内感染及纤维性粘连造成的胃肠道麻痹有关[73]，后期(手术1个月后开始出现)为腹腔内粘连索带造成小肠机械性梗阻[74]。一旦发生肠梗阻应立即禁食、静脉输入抗生素，并给予静脉高营养[73]补液治疗。保守治疗无效者应手术干预，可选择再次腹腔镜手术，有腹腔镜下无法解决的粘连应开腹手术。
+3．阑尾残株炎：
+是腹腔镜阑尾切除术的迟发并发症，为阑尾残株于手术后再次感染所致，可以发生在术后几个月至几年。好发于复杂性阑尾炎，与感染后回盲部解剖层次不清有关[48]。表现与急性阑尾炎相似，右下腹压痛，伴有体温升高，血清学检查显示白细胞、CRP升高，腹部B型超声可见右下腹低回声肿块。应选择再次手术治疗[75]。
+4．阑尾残端瘘：
+穿孔性阑尾炎，回盲部条件差的患儿有出现阑尾残端瘘的可能，多于手术后3～4 d出现剧烈的腹痛、发热，有气体或黄绿色液体经引流管流出。腹部B型超声或CT提示腹、盆腔大量积气、积液。如果引流通畅，没有弥漫性腹膜炎表现，可以禁食、补液、静脉高营养治疗。为保证引流通畅并清除腹腔内积存漏出液，可以考虑用黎氏管代替腹腔引流管。利用其边引流边冲洗不易堵塞的原理，减轻腹腔内炎症反应，促进瘘口愈合[76]。如果没有留置腹腔引流，又没有B型超声导引下穿刺的条件，患儿出现弥漫性腹膜炎应及时手术治疗[77]。手术时清理回盲部渗出及粘连确认阑尾残端瘘口位置，用4-0可吸收线缝合瘘口，建立通畅的引流。感染严重无法修补的可考虑行近端小肠造瘘，3个月后再行关瘘手术。
+5．伤口感染：
+术后发现伤口红肿的应及时拆除缝线，挤压伤口引流脓液，必要时放置凡士林纱条引流。口服或静脉抗感染治疗可以促进伤口愈合[78]。
+八、总结
+腹腔镜阑尾切除术经过半个世纪的变迁，手术方式日趋成熟，随着技术不断成熟及操作器械的改良，从只能治疗单纯性阑尾炎到包括阑尾周围脓肿在内的复杂性阑尾炎。外科医生已经不满足于缩短手术时间、早期进食、缩短住院日、减少并发症，而向减少术后疼痛、体表美观等方向努力，单孔腹腔镜阑尾切除手术、单部位腹腔镜阑尾切除手术以及各种杂交手术如雨后春笋般出现，这些手术方法是传统腹腔镜手术向自然腔道手术过渡的桥梁[79]。选择恰当的手术方式是达到最佳手术效果的唯一途径，经脐单孔或经脐辅助腹腔镜阑尾切除手术比传统腹腔镜手术并发症多(特别是术后腹腔残余感染)[80]，适用于单纯性阑尾炎，操作熟练的医师可以尝试用于感染局限、粘连轻的复杂性阑尾炎。此外该手术方式需要特殊的穿刺器及手术器械，费用较高。经脐单部位手术可以采用普通器械，操作器械经过不同Trocar进入腹腔，扩大操作空间，适用于手术前查体及化验检查未提示腹腔内弥漫性感染的化脓性甚至复杂性阑尾炎[54]。Hybrid手术减少脐部戳孔数量，经右下腹穿入钩针或简易器械牵吊阑尾，可以在一定程度上减少单部位手术的难度[40]。
+《腹腔镜小儿阑尾切除术操作指南(2017版)》编审委员会成员名单
+组 长：崔华雷
+副组长：李龙、李索林、汤绍涛、毕允力、周辉霞、王晓晔、李水学
+成 员(按姓氏汉语拼音排序)：
+白玉作、卞红强、冯杰雄、高亚、黄柳明、李爱武、李贵斌、李鹏、李昭铸、刘树立、戚士芹、王斌、席红卫、徐伟立、周小渔、张大、张文
+执 笔：王晓晔、胡博、李璇
+附件：
+手术步骤与方法
+一、常规腹腔镜阑尾切除手术
+(一)Trocar位置
+脐孔放置5mm Trocar置入镜头，左侧麦氏点置入第二操作孔，第三操作孔可根据术者习惯选择麦氏点或耻骨上放置5 mm或3 mm Trocar置入操作钳，建立三角形穿刺通道[81,82]。手术医师的站位依术者习惯决定。目前，对于腹腔镜手术是否适合治疗复杂性阑尾炎仍有争议，多中心的回顾性研究显示，技术熟练的医师进行腹腔镜复杂性阑尾炎切除术是安全的，并发症发生率与开腹手术相似或更低[49,50,51]。
+(二)手术步骤
+探查腹、盆腔，特别要重视手术前诊断不明确的患儿，排除其他疾病后，明确阑尾病变位置、大网膜包裹及腹腔感染情况。分离粘连，切除变性坏死的网膜组织。以结肠带为标志明确阑尾根部后，将阑尾完全游离，用丝线或圈套器结扎阑尾根部，保留阑尾残端不超过3～5 mm，以避免阑尾残株炎。在结扎线上方0.5～1.0 cm处再次结扎阑尾后将其切断，经穿刺孔取出，粗大的阑尾及脱落入腹腔的粪石置入取物袋取出。电凝烧灼阑尾残端黏膜组织。根部感染重，条件差的建议荷包缝合并包埋阑尾残端，防止阑尾残端瘘。清理腹腔内、肠间隙脓性渗出，钝性分离肠管间粘连。局限性腹膜炎不建议用盐水广泛冲洗腹腔，避免因冲洗造成感染扩散。冲洗时应少量多次，清理每次冲洗的盐水。弥漫性腹膜炎用生理盐水冲洗腹腔，特别注意结肠旁沟、膈下、陶氏腔的清理。穿孔性阑尾炎有包裹性脓肿、阑尾残端条件差的，于脓肿处或阑尾床附近留置引流管。3岁以下患儿缝合5 mm以上的切口，防治切口感染及切口疝[82]。3岁以上缝合10 mm以上的切口[83]。
+二、经脐辅助腹腔镜阑尾切除术
+Pelosi[84]1992年报道经脐辅助腹腔镜阑尾切除术，将多个穿刺孔集中于脐部，利用脐部先天性皱褶遮盖伤口，达到美观的效果。
+(一)Trocar位置
+切开脐部皮肤1～2 cm，置入伞状多通道腹腔穿刺器。
+(二)手术步骤
+利用儿童回盲部较游离，腹壁柔软度好的特点，将包括系膜在内的阑尾经脐部单切口提出腹腔，去掉孔道，保留切口支撑保护套，在体外结扎系膜、切除阑尾[85,86]。再将回盲部还纳腹腔。
+三、经脐单孔腹腔镜阑尾切除手术
+Cho等[87]于2011年报道经脐单孔腹腔镜阑尾切除术，置入单孔多通道(triport)套管进行手术。
+(一)Triport位置
+切开脐部皮肤1.5～2.0 cm，分开皮下组织，进入腹腔，直视下放入单孔多通道腹腔套管(triport)。术者站于患儿左侧，助手站于患儿头端或右侧[88]。
+(二)手术步骤
+经Triport置入5 mm 30°镜头及阑尾抓钳，用抓钳固定阑尾尖端，确定阑尾根部。用Hem-o-Lock或可吸收夹闭合阑尾系膜血管，超声刀切断阑尾系膜。圈套器结扎阑尾根部，切断后取出[89,90]。阑尾残端的处理与常规手术相同。
+四、单部位腹腔镜阑尾切除手术
+(一)Trocar位置
+切开脐部2 cm，分离皮下，于切口正中置入5 mm Trocar放入镜头，切口两边缘置入3 mm或5 mm Trocar作为操作孔，或沿脐缘分别切开皮肤0.3～0.5 cm，置入Trocar作为操作孔。手术穿刺点选择包括：
+1．脐缘8点、脐缘2点、脐窝中心。
+2．脐缘8点、脐缘2点、脐缘4点。
+3．脐缘7点、脐缘9点、脐缘11点。
+穿刺点的选择基于患儿自身条件，尽量拉大穿刺孔间的距离，建立与传统手术相似的三角形空间。
+(二)手术步骤
+单部位手术操作方法与单孔类似，拉开手术器械间距离后操作难度减小，配合加长或前端改良的专用器械可以切除不需要广泛分离粘连和冲洗的复杂性阑尾炎。
+五、杂交手术
+在脐部建立单个或两个穿刺孔的同时，在右下腹阑尾体表标点刺入锐性钩针或微型抓钳，用钩针或牵引线将阑尾牵拉悬吊于腹壁[80,91,92,93,94]。操作钳分离阑尾与周围组织的粘连，利用钩针或微型抓钳带线结扎阑尾系膜及阑尾根部。脐部置入操作器械切断并取出阑尾，清理腹腔内渗出。无需分离粘连者经右下腹穿过4号带针丝线牵吊阑尾，暴露阑尾系膜。用超声刀切断阑尾系膜，圈套器结扎阑尾根部，完成阑尾切除。
+参考文献
+[1]
+FallM, GueyeD, WelléIB，et al.
+Laparoscopic appendectomy in children：primary study in Pediatric Hospital Albert Royor，Dakar[J]．
+Gastroenterol Res Pract，
+2015，
+2015：
+878372.
+DOI：10.1155/2015/878372.
+[2]
+GorterRR, EkerHH, Gorter-StamMA，et al.
+Diagnosis and management of acute appendicitis.EAES consensus development conference 2015[J]．
+Surg Endosc，
+2016，
+30：
+4668-
+4690.
+DOI：10.1007/s00464-016-5245-7.
+[3]
+WeiPL, ChenCS, KellerJJ，et al.
+Monthly variation in acute appendicitis incidence：a 10-year nationwide population-based study [J]．
+Surg Res，
+2012，
+178(
+2)：
+670-
+676.
+DOI：10.1016/j.jss.2012.06.034.
+[4]
+OguntolaAS, AdeotiML, OyemoladeTA.
+Appendicitis：trends in incidence，age，sex，and seasonal variations in South-Western Nigeria[J]．
+Ann Afr Med，
+2010，
+9(
+4)：
+213-
+217.
+DOI：10.4103/1596-3519.70956.
+[5]
+BlancoFC, SandlerAD, NadlerEP.
+Increased incidence of perforated appendicitis in children with obesity[J]．
+Clin Pediatr，
+2012，
+51(
+10)：
+928-
+932.
+DOI：10.1177/0009922812441659.
+[6]
+GuanàR, LonatiL, GarofaloS，et al.
+Laparoscopic versus open surgery in complicated appendicitis in children less than 5 years old：a six-year single-center experience[J]．
+Surg Res Pract，
+2016，
+2016，
+4120214.
+DOI：10.1155/2016/4120214.
+[7]
+BansalS, BaneverGT, KarrerFM，et al.
+Appendicitis in children less then 5 years old：influence of age on presentation and outcome[J]．
+Am J Surg，
+2012，
+204(
+6)：
+1031-
+1035.
+DOI：10.1016/j.amjsurg.2012.10.003.
+[8]
+蔡威，孙宁，魏光辉，
+主编．
+小儿外科学(供临床医学儿科专业方向版)[M]．第
+5版．
+北京：
+人民卫生出版社，
+2014.
+317-
+323.
+CaiW, SunN, WeiGH，eds.Pediatric surgery(Clinical medicine，pediatrics，professional direction)[M].5th ed.Beijing：People's Health Publishing House，2014.317-323.
+[9]
+AdwanH, WeerasuriyaCK, EndlemanP，et al.
+Laparoscopic versus open appendectomy in children：a UK District General Hospital experience[J]．
+J Pediatr Surg，
+2014，
+49(
+2)：
+277-
+279.
+DOI：10.1016/j.jpedsurg.2013.11.039.
+[10]
+BundyDG, ByerleyJS, LilesEA，et al.
+Does this child have appendicitis？[J]．
+JAMA，
+2007，
+298(
+4)：
+438-
+451.
+DOI：10.1001/jama.298.4.438.
+[11]
+HumesDJ, SimpsonJ．
+Acute appendicitis[J]．
+BMJ，
+2006，
+333(
+7567)：
+530-
+534.
+DOI：10.1136/bmj.38940.664363.AE.
+[12]
+SinghJP, MariadasonJG.
+Role of the faecolith in modern-day appendicitis[J]．
+An R Coll Surg Engl，
+2013，
+95(
+1)：
+48-
+51.
+DOI：10.1308/003588413X13511609954851.
+[13]
+JacksonHT, MongodinEF, DavenportKP，et al.
+Culture-independent evaluation of the appendix and rectum microbiomes in children with and without appendicitis[J]．
+PLOS One，
+2014，
+9(
+4)：
+1-
+9.
+DOI：10.1371/journal.pone.0095414.
+[14]
+SalöM, MarungruangN, RothB，et al.
+Evaluation of the microbiome in children's appendicitis[J]．
+Int J Colorectal Dis，
+2017，
+32(
+1)：
+19-
+28.
+DOI：10.1007/s00384-016-2639-x.
+[15]
+ZhongD, Brower-SinningR, FirekB，et al.
+Acute appendicitis in children is association with an abundance of bacteria from the phylum fusobacteria[J]．
+J Pediatr Surg，
+2014，
+49(
+3)：
+441-
+446.
+DOI：10.1016/j.jpedsurg.2013.06.026.
+[16]
+ReddanT, CornessJ, MengersenK，et al.
+Ultrasound of paediatric appendicitis and its secondary sonographic signs：providing a more meaningful finding[J]．
+J Med Radiat Sci，
+2016，
+63(
+1)：
+59-
+66.
+DOI：10.1002/jmrs.154.
+[17]
+ParkerL, NazarianLN, GingoldEL.
+Cost and radiation savings of partial substitution of ultrasound for CT in appendicitis evaluation：a national projection[J]．
+AJR Am J Roentgenol，
+2014，
+202(
+1)：
+124-
+135.
+DOI：10.2214/AJR.12.9642.
+[18]
+SantillanesG, SimmsS, Gausche-HillM，et al.
+Prospective evaluation of a clinical practice guideline for diagnosis of appendicitis in children[J]．
+Acad Emerg Med，
+2012，
+19(
+8)：
+886-
+893.
+DOI：10.1111/j.1553-2712.2012.01402.x.
+[19]
+ThomasCG.
+Experience with early operative interference in cases of disease of the vermiform appendixby Charles McBurney，M.D.，Visiting Surgeon to the Roosevelt Hospital，New York City[J]．
+Rev Surg，
+1969，
+26(
+3)：
+153-
+166.
+PMID：4893208.
+[20]
+GansSL, BerciC．
+Peritoneoscopy in infants and children[J]．
+Pediatr Surg，
+1973，
+8(
+3)：
+399-
+405.
+DOI：10.1016/0022-3468(73)90110-3.
+[21]
+SemmK．
+Endoscopicappendectomy[J]．
+Endoscopy，
+1983，
+15：
+59-
+63.
+DOI：10.1055/s-2007-1021466.
+[22]
+HuangMT, WeiPL, WuCC，et al.
+Needlescopic，laporoscopic，and open appendectomy：a comparative study[J]．
+Surg Laparosc Endosc Percutan Tech，
+2001，
+11(
+5)：
+306-
+312.
+[23]
+IgnacioRC, BurkerR, SpencerD，et al.
+Laparoscopic versus open appendectomy：what is real difference? Result of a prospective randomized double-blinded trial[J]．
+Surg Endosc，
+2004，
+18(
+2)：
+334-
+337.
+DOI：10.1007/s00464-003-8927-x.
+[24]
+LintulaH, KokkiH, ValtonenH，et al.
+The cost and effects of laparoscopic appendectomy in children[J]．
+Arch Pediatr Adolesc Med，
+2004，
+158(
+1)：
+34-
+37.
+DOI：10.1001/archpedi.158.1.34.
+[25]
+崔华雷，谷继卿，包国强，等．
+腹腔镜阑尾切除术1 087例临床报告[J]．
+临床小儿外科杂志，
+2002，
+1(
+2)：
+152-
+153.
+DOI：10.3969/j.issn.1671-6353.2002.02.027.
+CuiHL, GuJQ, BaoGQ，et al.Laparoscopic appendectomy in 1087 cases reported clinical reports[J]．J Clin Pediatr Surg，2002，1(2)：152-153.DOI：10.3969/j.issn.1671-6353.2002.02.027.
+[26]
+LongKH, BannonMP, ZietlowSP，et al.
+A prospective randomized comparison of laparoscopic appendectomy with open appendectomy：clinical and economic analyses [J]．
+Surgery，
+2001，
+129(
+4)：
+390-
+400.
+DOI：10.1067/msy.2001.114216.
+[27]
+TaguchiY, KomatsuS, SakamotoE，et al.
+Laparoscopic versus open surgery for complicated appendicitis in adults：a randomized controlled trial[J]．
+Surg Endosc，
+2016，
+30(
+5)：
+1705-
+1712.
+DOI：10.1007/s00464-015-4453-x.
+[28]
+LeeJ, BaekJ, KimW．
+Laparoscopic transumbilical single-port appendectomy：initial experience and comparison with three-port appendectomy[J]．
+Surg Laparosc Endosc Percutan Tech，
+2010，
+20(
+2)：
+100-
+103.
+DOI：10.1097/SLE.0b013e3181d84922.
+[29]
+AlyOE, BlackDH, RehmanH，et al.
+Single incision laparoscopic appendectomy versus conventional three-port laparoscopic appendectomy：a systematic review and meta-analysis[J]．
+Int J Surg，
+2016，
+35：
+120-
+128.
+DOI：10.1016/j.ijsu.2016.09.087.
+[30]
+WuK, YangL, WuA，et al.
+Single-site laparoscopic appendectomy in children using conventional instruments：a prospective，randomized，control trial [J]．
+Pediatr Surg Int，
+2015，
+31(
+2)：
+167-
+171.
+DOI：10.1007/s00383-014-3636-1.
+[31]
+吕成超，黄河，戚士芹．
+腹腔镜治疗小儿复杂性阑尾炎的临床分析[J]．
+中华小儿外科杂志，
+2012，
+33(
+12)：
+901-
+904.
+DOI：10.3760/cma.j.issn.0253-3006.2012.12.007.
+LyuCC, HuangH, QiSQ.Clinical analysis of laparoscopic treatment of pediatric complicated appendicitis[J]．Chin J Pediatr Surg，2012，33(12)：901-904.DOI：10.3760/cma.j.issn.0253-3006.2012.12.007.
+[32]
+BaeSU, JeongWK, BaekSK.
+Single-port laparoscopic interval appendectomy for perforated appendicitis with a periappendiceal abscess[J]．
+Ann Coloproctol，
+2016，
+32(
+3)：
+105-
+110.
+DOI：10.3393/ac.2016.32.3.105.
+[33]
+KumarA, SinhaAN, DeepakD，et al.
+Single incision laparoscopic assisted appendectomy：experience of 82 cases[J]．
+J Clin Diagn Res，
+2016，
+10(
+5)：
+1-
+3.
+DOI：10.7860/JCDR/2016/8146.7775.
+[34]
+EspositoC, EscolinoM, TillH，et al.
+One-trocar versus multiport hybrid laparoscopic appendectomy：what’s the best option for children with acute appendicitis? Results of an international multicentric study[J]．
+Surg Endosc，
+2016，
+30(
+11)：
+4917-
+4923.
+DOI：10.1007/s00464-016-4832-y.
+[35]
+任培土，沈志宏．
+腹腔镜阑尾切除术的适应证探讨[J]．
+腹腔镜外科杂志，
+2010，
+15(
+2)：
+146-
+148.
+RenPT, ShenZH.Investigation of the indication of laparoscopic appendectomy[J]．J Laparsc Surg，2010，15(2)：146-148.
+[36]
+OyetunjiTA, NwomehBC, Ong'utiSK，et al.
+Laparoscopic appendectomy in children with complicated appendicitis：ethnic disparity amid changing trend[J]．
+J Surg Res，
+2011，
+170(
+1)：
+99-
+103.
+DOI：10.1016/j.jss.2011.05.001.
+[37]
+MandrioliM, InabaK, PiccininiA，et al.
+Advances in laparoscopy for acute surgery and trauma[J]．
+World J Gastroenterol，
+2016，
+22(
+2)：
+668-
+680.
+DOI：10.3748/wjg.v22.i2.668.
+[38]
+St PeterSD, AguayoP, FraserJD，et al.
+Initial laparoscopic appendectomy versus initial nonoperative management and interval appendectomy for perforated appendicitis with abscess：a prospective，randomized trial[J]．
+J Pediatr Surg，
+2010，
+45(
+1)：
+236-
+240.
+DOI：10.1016/j.jpedsurg.2009.10.039.
+[39]
+SchwartzKL, GiladE, SigaletD，et al.
+Neonatal acute appendicitis：a proposed algorithm for timely diagnosis[J]．
+J Pediatr Surg，
+2011，
+46(
+11)：
+2060-
+2064.
+DOI：10.1016/j.jpedsurg.2011.07.018.
+[40]
+MinakerS, MacPhersonC, HayashiA．
+Can general surgeons evaluate visceral slide with transabdominal ultrasound to predict safe sites for primary laparoscopic port placement? A prospective study of sonographically na ve operators at a tertiary center[J]．
+Am J Surg，
+2015，
+209(
+5)：
+804-
+809.
+DOI：10.1016/j.amjsurg.2014.12.020.
+[41]
+NadlerEP, ReblockKK, VaughanKG，et al.
+Predictors of outcome for children with perforated appendicitis initially treated with non-operative management[J]．
+Surg Infect (Larchmt)，
+2004，
+5(
+4)：
+349-
+356.
+DOI：10.1089/sur.2004.5.349.
+[42]
+WeberTR, KellerMA, BowerRJ，et al.
+Is delayed operative treatment worth the trouble with perforated appendicitis in children？[J]．
+Am J Surg，
+2003，
+186(
+6)：
+685-
+689.
+DOI：10.1016/j.amjsurg.2003.08.027.
+[43]
+GoDY, BooYJ, LeeJS.
+Transumbilical laparoscopic-assisted appendectomy is a useful surgical option for pediatric uncomplicated appendicitis：a comparison with conventional 3-port laparoscopic appendectomy[J]．
+Ann Surg Treat Res，
+2016，
+91(
+2)：
+80-
+84.
+DOI：10.4174/astr.2016.91.2.80.
+[44]
+MohanA, GuerronAD, KaramPA，et al.
+Laporoscopic extracoporeal appendectomy in overweight and obese children[J]．
+JSLS，
+2016，
+20(
+2)：
+1-
+8.
+DOI：10.4293/JSLS.2016.00020.
+[45]
+LinXK, WuDZ, CaiJL，et al.
+Transumbilical single-incisionl laparoscopic surgery in children with conventional instruments：our early experience[J]．
+J Laparoendosc Adv Surg Tech A，
+2016，
+26(
+11)：
+938-
+941.
+DOI：10.1089/lap.2016.0138.
+[46]
+PalaniveluC, RajanPS, RangarajanM，et al.
+Transvaginal endoscopic appendectomy in humans：a unique approach to NOTES - world's first report[J]．
+Surg Endosc，
+2008，
+22(
+5)：
+1343-
+1347.
+DOI：10.1007/s00464-008-9811-5.
+[47]
+DurgunAV, BacaB, ErsoyY，et al.
+Stump appendicitis and generalized peritonitis due to incomplete appendectomy[J]．
+Tech Coloproctol，
+2003，
+7(
+2)：
+102-
+104.
+DOI：10.1007/s10151-003-0018-4.
+[48]
+IsmailI, IuscoD, JannaciM，et al.
+Prompt recognition of stump appendicitis is important to avoid serious complications：a case report[J]．
+Cases J，
+2009，
+2：
+7415.
+DOI：10.4076/1757-1626-2-7415.
+[49]
+MoraitisD, KiniSU, AnnamaneniRK，et al.
+Laparoscopy in complicated pediatric appendicitis[J]．
+JSLS，
+2004，
+8(
+4)：
+310-
+313.
+[50]
+KokoskaER, SilenML, TracyTF，et al.
+Perforated appendicitis in children：risk factors for the development of complications[J]．
+Surgery，
+1998，
+124(
+4)：
+619-
+625.
+[51]
+LintulaH, KokkiH, VanamoK，et al.
+Laparoscopy in children with complicated appendicitis[J]．
+J Pediatr Surg，
+2002，
+37(
+9)：
+1317-
+1320.
+[52]
+St PeterSD.
+Appendicitis[M]．In：
+Holcomb IIIGW，MurphyJP，
+eds.
+Ashcraft's pediatric surgery.
+5th ed.
+Philadelphia：
+Saunders Elsevier，
+2010.
+549.
+[53]
+SchäferM, LauperM, KrähenbühlL．
+Trocar and veress needle injuries during laparoscopy[J]．
+Surg Endosc，
+2001，
+15(
+3)：
+275-
+280.
+DOI：10.1007/s004640000337.
+[54]
+OstlieDJ.
+Single-site umbilical laparoscopic appendectomy[J]．
+Semin Pediatr Surg，
+2011，
+20(
+4)：
+196-
+200.
+DOI：10.1053/j.sempedsurg.2011.05.003.
+[55]
+AlkhouryF, MalvezziL, KnightCG，et al.
+Routine same-day discharge after acute or interval appendectomy in children：a prospective study[J]．
+Arch Surg，
+2012，
+147(
+5)：
+443-
+446.
+DOI：10.1001/archsurg.2012.132.
+[56]
+St PeterSD, AdibeOO, JuangD，et al.
+Single incision versus standard 3-port laparoscopic appendectomy：a prospective randomized trial[J]．
+Ann Surg，
+2011，
+254(
+4)：
+586-
+590.
+DOI：10.1097/SLA.0b013e31823003b5.
+[57]
+BratzlerDW, DellingerEP, OlsenKM，et al.
+Clinical practice guidelines for antimicrobial prophylaxis in surgery[J]．
+Surg Infect，
+2013，
+14(
+1)：
+73-
+156.
+DOI：10.1089/sur.2013.9999.
+[58]
+LeeSL, IslamS, CassidyLD，et al.
+Antibiotics and appendicitis in the pediatric population：an American Pediatric Surgical Association outcomes and Clinical Trials Committee systematic review[J]．
+J Pediatr Surg，
+2010，
+45(
+11)：
+2181-
+2185.
+DOI：10.1016/j.jpedsurg.2010.06.038.
+[59]
+McLanahanS．
+Further reductions in the mortality in acute appendicitis in children[J]．
+Ann Surg，
+1950，
+131(
+6)：
+853-
+864.
+[60]
+AndersenBR, KallehaveFL, AndersenHK.
+Antibiotics versus placebo for prevention of postoperative infection after appendectomy[J]．
+Cochrane Database Syst Rev，
+2005，
+20(
+3)：
+CD001439.
+DOI：10.1002/14651858.CD001439.pub2.
+[61]
+KronmanMP, OronAP, RossRK，et al.
+Extended- versus narrower-spectrum antibiotics for appendicitis[J]．
+Pediatrics，
+2016，
+138(
+1)：
+e20154547.
+DOI：10.1542/peds.2015-4547.
+[62]
+St PeterSD, ValusekPA, LittleDC，et al.
+Does routine nasogastric tube placement after an operation for perforated appendicitis make a difference？[J]．
+J Surg Res，
+2007，
+143(
+1)：
+66-
+69.
+DOI：10.1016/j.jss.2007.04.009.
+[63]
+张道珍，陈芳，邢大军，等．
+不同气腹压力对小儿呼吸和循环的影响[J]．
+临床麻醉学杂志，
+2006，
+22(
+10)：
+784-
+785.
+DOI：10.3969/j.issn.1004-5805.2006.10.024.
+ZhangDZ, ChenF, XingDJ，et al.Effects of different pneumoperitoneum pressure on children- 's breathing and circulation[J]．J Clin Anesthesiol，2006，22(10)：784-785.DOI：10.3969/j.issn.1004-5805.2006.10.024.
+[64]
+张道珍，陈芳，邢大军，等．
+小儿腹腔镜手术各年龄段适宜气腹压力的研究[J]．
+中国小儿急救医学，
+2008，
+15(
+6)：
+561-
+564.
+DOI：10.3760/cma.j.issn.1673-4912.2008.06.021.
+ZhangDZ, ChenF, XingDJ，et al.Appropriate pneumoperitoneum pressure during laparoscopic surgery in infants and children at different ages[J]．Chin Pediatr Emerg Med，2008，15(6)：561-564.DOI：10.3760/cma.j.issn.1673-4912.2008.06.021.
+[65]
+SvenssonJF, PatkovaB, AlmströmM，et al.
+Outcome after introduction of laparoscopic appendectomy in children：a cohort study[J]．
+J Pediatr Surg，
+2016，
+51(
+3)：
+449-
+453.
+DOI：10.1016/j.jpedsurg.2015.10.002.
+[66]
+XiaoY, ShiG, ZhangJ，et al.
+Surgical site infection after laparoscopic and open appendectomy：a multicenter larger consecutive cohort study[J]．
+Surg Endosc，
+2015，
+29(
+6)：
+1384-
+1393.
+DOI：10.1007/s00464-014-3809-y.
+[67]
+LiX, ZhangJ, SangL，et al.
+Laparoscopic versus conventional appendectomy-a meta-analysis of randomized controlled trials[J]．
+BMC Gastroenterology，
+2010，
+10(
+1)：
+129-
+135.
+DOI：10.1186/1471-230X-10-129.
+[68]
+曹琳，吴全杰．
+腹腔镜下小儿阑尾切除术[J]．
+中华小儿外科外科杂志，
+1996，
+17(
+4)：
+146-
+148.
+DOI：10.3760/cma.j.issn.0253-3006.1996.04.025.
+CaoL, WuQJ.Laparoscopic pediatric appendectomy[J]．Chinese Journal of Pediatric Surgery，1996，17(4)：146-148.DOI：10.3760/cma.j.issn.0253-3006.1996.04.025.
+[69]
+FullerJ, AsharBS, Carey-CorradoJ．
+Trocar-associated injuries and fatalities：an analysis of 1399 reports to the FDA[J]．
+J Minim Invasive Gynecol，
+2015，
+12(
+4)：
+302-
+307.
+DOI：10.1016/j.jmig.2005.05.008.
+[70]
+DeFoorR, TurnerWR, HerrellSD.
+Urologic complication of laparoscopic appendectomy[J]．
+JSLS，
+2001，
+5(
+1)：
+77-
+79.
+[71]
+FraserJD, AguayoP, SharpSW，et al.
+Physiologic predictors of postoperative abscess in children with perforated appendicitis：subset analysis from a prospective randomized trial[J]．
+Surgery，
+2010，
+147(
+5)：
+729-
+732.
+DOI：10.1016/j.surg.2009.10.057.
+[72]
+HenryMC, WalkerA, SilvermanBL，et al.
+Risk factors for the development of abdominal abscess following operation for perforated appendicitis in children：a multicenter case-control study[J]．
+Arch Surg，
+2007，
+142(
+3)：
+236-
+241.
+DOI：10.1001/archsurg.142.3.236.
+[73]
+DunnJCY, CoranAG, AdzickNS，et al.
+Appendicitis[M]．In：
+CoranAG，AdzickNS，KrummelTM，et al，
+eds.
+Pediatric Surgery.
+7th ed.
+Philadelphia：
+Elsevier，
+2012.
+1255.
+[74]
+TsaoKJ, St PeterSD, ValusekPA，et al.
+Adhesive small bowel obstruction after appendectomy in children：comparison between the laparoscopic and open approach[J]．
+J Pediatr Surg，
+2007，
+42(
+6)：
+939-
+942.
+DOI：10.1016/j.jpedsurg.2007.01.025.
+[75]
+GasmiM, FitouriF, SahliS，et al.
+A stump appendicitis in a child：a case report[J]．
+Ital J Pediatr，
+2009，
+35(
+1)：
+35.
+DOI：10.1186/1824-7288-35-35.
+[76]
+马有伟，刘宏斌，韩晓鹏，等．
+黎氏引流管在腹腔镜胃癌根治术后吻合口瘘中的应用[J]．
+中华普通外科杂志，
+2016，
+31(
+6)：
+505-
+506.
+DOI：10.3760/cma.j.issn.1007-631X.2016.06.021.
+MaYW, LiuHB, HanXP，et al.Application of Li 's drainage tube in anastomotic fistula after laparoscopic radical gastrectomy[J]．Chin J General Surg，2016，31(6)：505-506.DOI：10.3760/cma.j.issn.1007-631X.2016.06.021.
+[77]
+KwiatkowskiA, PaśnikK, TrojanowskiP．
+Late caecal fistula after laparoscopic appendectomy managed mini-invasively-case report [J]．
+Wideochir Inne Tech Maloinwazyjne，
+2011，
+6(
+4)：
+246-
+248.
+DOI：10.5114/wiitm.2011.26260.
+[78]
+LeeSL, YaghoubianA, KajiA．
+Laparoscopic vs open appendectomy in children：outcomes comparison based on age，sex，and perforation status[J]．
+Arch Surg，
+2011，
+146(
+10)：
+1118-
+1121.
+DOI：10.1001/archsurg.2011.144.
+[79]
+RehmanH, AhmedI．
+Technical approaches to single port/incision laparoscopic appendectomy：a literature review[J]．
+Ann R Coll Surg Engl，
+2011，
+93(
+7)：
+508-
+513.
+DOI：10.1308/147870811X13137608455091.
+[80]
+ClerveusM, Morandeira-RivasA, Moreno-SanzC，et al.
+Systematic review and meta-analysis of randomized controlled trials comparing single incision versus conventional laparoscopic appendectomy[J]．
+World J Surg，
+2014，
+38(
+8)：
+1937-
+1946.
+DOI：10.1007/s00268-014-2535-x.
+[81]
+FallM, GueyeD, WellIB，et al.
+Laparoscopic appendectomy in children：preliminary study in pediatric hospital Albert Royer，Dakar[J]．
+Gastroenterol Res Pract，
+2015，
+2015：
+878372.
+DOI：10.1155/2015/878372.
+[82]
+International Pediatric Endosurgery Group Standards and Safety Committee.
+IPEG guidelines for appendectomy[J]．
+J Laparoendosc Adv Surg Tech A，
+2008，
+18(
+6)：
+vii-
+ix.
+DOI：10.1089/lap.2008.9989.
+[83]
+JohnsonWH, FecherAM, McMahonRL，et al.
+VersaStep trocar hernia rate in unclosed fascial defects in bariatric patients[J]．
+Surg Endosc，
+2006，
+20(
+10)：
+1584-
+1586.
+DOI：10.1007/s00464-005-0747-8.
+[84]
+PelosiMA, PelosiMA 3rd.
+Laparoscopic appendectomy using a single umbilical puncture (minilaparoscopy)[J]．
+J Repord Med，
+1992，
+37(
+7)：
+588-
+594.
+[85]
+OhnoY, MorimuraT, HayashiS．
+Transumbilical laparoscopically assisted appendectomy in children：the results of a single-port，single-channel procedure[J]．
+Surg Endosc，
+2012，
+26(
+2)：
+523-
+527.
+DOI：10.1007/s00464-011-1912-x.
+[86]
+DeieK, UchidaH, KawashimaH，et al.
+Single-incision laparoscopic-assisted appendectomy in children：exteriorization of the appendix is a key component of a simple and cost-effective surgical technique[J]．
+Pediatr Surg Int，
+2013，
+29(
+11)：
+1187-
+1191.
+DOI：10.1007/s00383-013-3373-x.
+[87]
+ChoMS, MinBS, HongYK，et al.
+Single-site versus conventional laparoscopic appendectomy：comparison of short-term operative outcomes[J]．
+Surg Endosc，
+2011，
+25(
+1)：
+36-
+40.
+DOI：10.1007/s00464-010-1124-9.
+[88]
+RaakowJ, LiesausHG, NeuhausP，et al.
+Single-incision versus multiport laparoscopic appendectomy：a case-matched comparative analysis[J]．
+Surg Endosc，
+2015，
+29(
+6)：
+1530-
+1536.
+DOI：10.1007/s00464-014-3837-7.
+[89]
+KimJH, KimHY, ParkSK，et al.
+Single-incision laparoscopic appendectomy versus conventional laparoscopic appendectomy[J]．
+Ann Surg，
+2015，
+262(
+6)：
+1054-
+1058.
+DOI：10.1097/SLA.0000000000001064.
+[90]
+刘雪来，杨晓锋，李索林．
+双钩套扎针辅助小儿单孔腹腔镜阑尾切除术[J]．
+中华小儿外科杂志，
+2016，
+37(
+10)：
+762-
+766.
+DOI：10.3760/cma.j.issn.0253-3006.2016.10.011.
+LiuXL, YangXF, LiSL.Single-port laparoscopic appendectomy via an inner two-hooked cannula in children[J]．Chin J Pediatr Surg，2016，37(10)：762-766.DOI：10.3760/cma.j.issn.0253-3006.2016.10.011.
+[91]
+DingJ, XiaY, ZhangZM，et al.
+Single-incision versus conventional three-incision laparoscopic appendectomy for appendicitis：a systematic review and meta-analysis[J]．
+J Pediatic Surg，
+2013，
+48(
+5)：
+1088-
+1098.
+DOI：10.1016/j.jpedsurg.2013.01.026.
+[92]
+MarkarSR, KarthikesalingamA, DiFrancoF，et al.
+Systematic review and meta-analysis of single-incision versus conventional multiport appendectomy[J]．
+Br J Surg，
+2013，
+100(
+13)：
+1709-
+1718.
+DOI：10.1002/bjs.9296.
+[93]
+CarterJT, KaplanJA, NguyenJN，et al.
+A prospective，randomized controlled trial of single incision laparoscopic vs conventional 3-port laparoscopic appendectomy for treatment of acute appendicitis[J]．
+J Am Coll Surg，
+2014，
+218(
+5)：
+950-
+959.
+DOI：10.1016/j.jamcollsurg.2013.12.052.
+[94]
+KimHO, YooCH, LeeSR，et al.
+Pain after laparoscopic appendectomy：a comparison of transumbilical single-port and conventional laparoscopic surgery[J]．
+J Korean Surg Soc，
+2012，
+82(
+3)：
+172-
+178.
+DOI：10.4174/jkss.2012.82.3.172.
+贡献者信息
+中华医学会小儿外科分会内镜外科学组
+基金项目
+卫计委公益性行业科研专项基金 （201402007）
+天津市科委小儿急腹症腔镜治疗规范化研究 （14RCGFY00150）
+历史
+出版日期：2017-10-15
+收稿日期：2017-04-20
+Clinical Guideline
+Operation guideline for pediatric laparoscopic appendectomy(2017 edition)
+Section of Laparoscopic and Endoscopic Surgery, Branch of Pediatric Surgery, Chinese Medical Association
+Published
+2017-10-15
+Cite as
+Chin J Pediatr Surg, 2017,38(10): 725-732. DOI: 10.3760/cma.j.issn.0253-3006.2017.10.002
+Contributor Information
+Section of Laparoscopic and Endoscopic Surgery, Branch of Pediatric Surgery, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华小儿外科杂志2017年38卷10期
+文    题：腹腔镜小儿阑尾切除术操作指南(2017版)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华小儿外科杂志2017年38卷10期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+微信
+腾讯微博
+一键通
+新浪微博
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+豆瓣网
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+QQ好友
+更多平台...
+(133)
+bShare

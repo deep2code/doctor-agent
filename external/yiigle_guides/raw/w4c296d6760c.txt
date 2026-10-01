@@ -1,0 +1,799 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%8B%E5%92%BD%E7%99%8C%E5%A4%96%E7%A7%91%E6%89%8B%E6%9C%AF%E5%8F%8A%E7%BB%BC%E5%90%88%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 下咽癌外科手术及综合治疗专家共识 - 中华耳鼻咽喉头颈外科杂志
+# 发布方/日期: 耳鼻咽喉科，中华耳鼻咽喉头颈外科杂志, 2017,52(1) : 16-24. DOI: 10.3760/cma.j.i；2017-01-07
+
+下咽癌外科手术及综合治疗专家共识
+中华耳鼻咽喉头颈外科杂志编辑委员会头颈外科组
+中华医学会耳鼻咽喉头颈外科学分会头颈外科学组
+中华耳鼻咽喉头颈外科杂志, 2017,52(1) : 16-24. DOI: 10.3760/cma.j.issn.1673-0860.2017.01.004
+概述
+下咽又称喉咽，位于喉的后面及两侧，起于舌骨延线以下，止于环状软骨下缘平面，向下连接食管。下咽部恶性肿瘤占全身恶性肿瘤的0.15%～0.24%，占头颈部恶性肿瘤的2%[1]。绝大多数(95%)为鳞状细胞癌，下咽癌多发生于梨状窝区，下咽后壁区次之，环后区最少[2]。
+1873年Billroth和Gussenbauer[3]报道喉全切除术后，人们曾将该术式用于下咽肿瘤的切除，但由于手术的高风险性，相当长的时间内，下咽癌仍以放射治疗为主。Ogura等[4]在1960年率先使用咽部分切除术，开启了保留喉功能的下咽癌切除术的先河。
+下咽癌的发病位置特殊，发病位置隐匿，早期症状无特异性；其病理呈现出易黏膜下播散、易发生局部淋巴结转移的特点，且容易侵犯颈部其他重要结构；术后可能出现咽瘘、吞咽困难等对生活质量影响较大的并发症。
+下咽癌的治疗方法包括手术、放射治疗、同步放化疗、诱导化疗后视其效果情况再选择放疗或手术、生物治疗等。因发病部位隐蔽，早期病例少，80%的患者就诊时已属Ⅲ、Ⅳ期病变。对于Ⅰ、Ⅱ期病变，手术或放射治疗的5年生存率都能达到60%左右，而部分Ⅲ、Ⅳ期的病变，5年生存率只有30%左右[5,6,7]。中晚期病变治疗困难，局部肿瘤较大时(T3、T4病变)，超过60%的有肿瘤黏膜下扩展[8]，由于手术难以确保其安全切缘，故易致肿瘤残留。虽然外科手术治疗可以彻底切除肿瘤，但由于切除范围广，特别是环周性的缺损，往往会造成修复困难或者因创伤太大致患者不能耐受，易造成一些严重并发症。而非手术的放射治疗对绝大多数有甲状软骨侵犯、双侧声带固定、喉外侵犯的下咽癌患者疗效欠佳[9]；术后放疗或同步放化疗可以提高高危组患者的生存率；术前诱导化疗，根据诱导化疗的结果选择手术或放疗，诱导化疗敏感者放疗，不敏感者手术治疗，远期生存率结果相似[10,11]。诱导化疗可使患者的治疗选择更具个体化[12]。因下咽癌的治疗涉及发音、吞咽、呼吸等重要功能，治疗原则应在最大可能提高肿瘤的局部区域控制率前提下，尽量降低治疗手段对器官功能损害的程度。在治疗选择时应考虑肿瘤的部位、分期、病理类型、患者的年龄、职业、文化教育水平、营养状况、家庭医疗保健条件等，治疗前应充分和患者沟通治疗方案，将各种治疗方案的利弊与患者进行不带倾向性的讨论，帮助患者选择个体化的治疗方案。下咽癌治疗选择流程见图1。有近期消瘦明显、营养状况不良、整体Karnofsky(KPS，百分法)评分低的下咽癌患者预后差。
+点击查看大图
+图1
+下咽癌治疗选择流程图
+图1
+下咽癌治疗选择流程图
+诊断与治疗前评估
+下咽癌患者早期缺乏特异性症状，易被误诊为慢性咽炎或咽异感症，确诊时多属晚期。凡出现咽部异物感，尤其是伴有颈淋巴结肿大者，应仔细检查并明确诊断。
+诊断方法包括颈部检查、间接喉镜检查、内镜检查、X线检查、CT检查和MRI检查，病理检查是确诊依据。
+制订准确和有效的治疗方案，有赖于治疗前对患者状况和肿瘤情况进行全面细致的综合评估。多学科综合治疗团队(multiple disciplinary team，MDT)进行全面评估是未来的趋势。
+一、患者评估
+1．一般状况评估：
+对患者的一般状况，特别是体力和营养状况进行评估，可以很好地了解患者耐受治疗的程度。体力状况通常采用Karnofsky(KPS，百分法)[13]或Zubrod-ECOG-WHO(ZPS，5分法)[14]评分进行评估。若考虑实施化疗，KPS评分一般要求≥70分，ZPS评分一般要求≤2分。如患者出现短期体重明显下降(>10%)或进食困难，必要的营养支持治疗可以帮助其顺利接受后续治疗。
+2．重要脏器功能状况评估：
+重要脏器功能状况的评估有助于了解患者治疗后发生风险和并发症的可能性。主要包括心血管系统、脑血管及中枢神经系统和内分泌系统以及肺功能、肝肾功能的评估等。
+3．其他情况评估：
+治疗方式的选择可能会受到患者职业、生活习惯、文化程度、宗教、家庭状况、经济条件及治疗期望值等情况的影响，应认真对待、充分评估和反复沟通。特别是喉功能保留的意愿程度对治疗方案的选择影响较大，应详细说明不同治疗方案的利弊，以保证患者在接受后续治疗时的依从和理解。
+二、肿瘤评估
+(一)临床总体评估
+详细的病史和体征采集是诊断疾病的首要环节。间接喉镜检查可以初步了解喉咽部情况，但环后区及梨状窝尖病变往往不易窥见，需进一步内镜辅助检查。对锁骨上所有区域进行触诊，可依据喉体移位、颈淋巴结肿大等情况，初步判断肿瘤部位和颈淋巴结转移的可能。活检是判定肿瘤性质的最可靠依据，通常需要在内镜检查过程中进行。
+(二)内镜检查及评估
+由于下咽部位隐蔽，内镜检查是观察病变部位、肿瘤范围和生长方式的最直接方法。包括直达喉镜、纤维(电子)喉镜、纤维(电子)胃镜或食管镜检查。内镜检查重点评估的内容包括：肿瘤部位、肿瘤生长方式以及肿瘤对周围组织结构的侵犯情况(包括下咽、喉、口咽及颈段食管)。有条件时可以采用高清内镜结合窄带成像(narrow band imaging，NBI)及自体荧光内镜技术(autofluorescence endoscopy，AFE)，不仅能够提高肿瘤的早期发现率，还能够更加清楚地判定肿瘤邻近部位下咽周围受累的边界。
+(三)影像学评估
+影像学检查是判断肿瘤范围和分期的主要手段，可以提供重要的三维解剖学信息，主要包括CT、MRI、PET或PET-CT及超声检查。
+1．CT检查：
+增强CT扫描不仅能够清晰地显示肿瘤周围正常组织结构、肿瘤浸润程度及两者之间的关系，还可以同时发现颈部、咽旁间隙、咽后或上纵隔是否有潜在淋巴结。特别对梨状窝侵犯及喉体受累程度的判断帮助较大。
+2．MRI检查：
+MRI扫描对明确下咽癌在咽喉部软组织内的扩展和侵犯程度具有明显的优势。磁共振弥散加权成像(DWI)可用于下咽部肿瘤性质和范围的判定、肿瘤对放化疗治疗的反应和效果评价以及肿瘤复发、颈淋巴结转移的评估等。
+3．PET或PET-CT检查：
+由于PET-CT结合了PET显示新陈代谢微变化和CT显示解剖结构的优点，可发现局部及全身可能存在的病灶，有利于尽早发现转移或复发，指导制订治疗方案。
+(四)超声检查
+具有精确、非侵袭性及经济等优点，能够较准确地反映颈淋巴结大小、形态和范围，在临床评估肿瘤颈淋巴结转移的效果明显优于颈部触诊。
+三、下咽癌TNM分期
+为评估下咽癌患者肿瘤的综合情况，需对肿瘤的进展状况进行准确地判定和分期，根据美国癌症联合会(AJCC)和国际抗癌联盟(UICC)2009年的标准[15,16]，对下咽癌原发灶、颈淋巴转移和远处转移情况进行TNM分期(表1)。
+点击查看表格
+表1
+下咽癌的TNM分期
+表1
+下咽癌的TNM分期
+T分级
+Tx
+原发肿瘤无法评估
+T0
+无原发肿瘤证据
+Tis
+原位癌
+T1
+肿瘤局限于下咽的一个解剖亚区并且最大径≤2 cm
+T2
+肿瘤侵犯超过下咽的一个解剖亚区或邻近解剖区域，或2 cm<最大径≤4 cm，且无半喉固定
+T3
+肿瘤最大径>4 cm或半喉固定
+T4a
+肿瘤侵犯甲状软骨/环状软骨、舌骨、甲状腺、食管或中央区软组织
+T4b
+肿瘤侵犯椎前筋膜，包绕颈动脉或累及纵隔结构
+N分级
+Nx
+区域淋巴结无法评估
+N0
+无区域淋巴结转移
+N1
+同侧单个淋巴结转移，最大径≤3 cm
+N2
+同侧单个淋巴结转移，3 cm<最大径≤6 cm；或同侧多个淋巴结转移，最大径均≤6 cm；或双侧或对侧淋巴结转移，最大径均≤6 cm
+N2a
+同侧单个淋巴结转移，3 cm<最大径≤6 cm
+N2b
+同侧多个淋巴结转移，最大径均≤6 cm
+N2c
+双侧或对侧淋巴结转移，最大径均≤6 cm
+N3
+转移淋巴结最大径>6 cm
+M分级
+Mx
+远处转移无法评估
+M0
+无远处转移
+M1
+有远处转移
+手术治疗原则
+下咽癌手术治疗的原则：(1)在保证无瘤生存率的前提下进行外科根治；(2)尽可能保留咽、喉等功能，提高患者术后生活质量；(3)依据患者的病情制订个体化的治疗方案[17]。
+下咽癌手术的难点：(1)在一个高度皱襞化的腔隙性器官中，如何准确地判断肿瘤的黏膜边界和深部边界，精准地完成肿瘤的外科切除；(2)在肿瘤根治的同时如何保全颈部其他重要结构，如喉、气管、食管以及颈部大血管；(3)术中如何有效地利用残余黏膜和其他组织瓣完成对上消化道、呼吸道的重建，有效避免术后的咽瘘、吞咽困难及误吸等并发症。
+下咽癌的生物学特性及局部侵犯特点为保留喉功能的下咽癌切除术提供了理论基础[8]，在手术过程中应依据肿瘤原发部位、侵犯范围及生物学特性制订个体化的诊疗方案[18]。术前准确判断肿瘤的位置、黏膜和深部切缘，选择合适的手术入路，保护正常的黏膜，遵循无瘤原则，采取先深部切缘后黏膜切缘的顺序，彻底切除肿瘤，并灵活运用各种修复方式完成功能重建。
+经口CO2激光手术治疗原则
+自Steiner等[19]在20世纪80年代报道应用经口激光微创手术(transorallaser microsurgery，TLM)治疗下咽癌至今，多项研究表明与传统开放性手术相比，对部分早期下咽癌患者行CO2激光治疗能起到良好的符合肿瘤切除原则的下咽病变切除、局部控制和功能保全作用，其5年生存率及无瘤生存率亦无明显差别。CO2激光治疗下咽癌是一项可行的治疗方案，其微创性给患者带来较大的益处，结合同期颈淋巴清扫术和术后放射治疗等综合治疗可获得满意的疗效。
+经口CO2激光手术主要用于治疗梨状窝及下咽后壁癌T1-T2病变及局限的高位环后癌。尤其是基底部较窄、未发现明显深层浸润，经术前充分评估在支撑喉镜下可完全暴露的病变。
+CO2激光手术治疗下咽癌要同时考虑术者和患者两方面因素的影响，对术者的技术经验有较高的要求。下咽癌激光手术是以肿瘤手术原则为基础的微创手术，强调肿瘤的完整切除和肿瘤控制率，不能因追求微创而忽略了疗效。对于基底广泛、周围组织结构受侵而难以完全暴露的病变，建议仍选择颈外径路以保证瘤体的完整切除。
+肿瘤切除应该遵循肿瘤外科手术原则，在肿瘤外围进行切除。结合激光手术切除时可产生2 mm气化带的特点，应保留至少5 mm以上的安全界，并在手术中进行多点切缘病理检查，保证切缘安全。
+根据肿瘤部位和范围，位于梨状窝的病变，探查找到肿瘤的基底部，充分暴露后，保留至少5 mm以上安全边界完整切除，向内可切除杓状会厌襞甚至半侧喉部结构，向外可切至甲状软骨板内侧面。高位环后癌可切除至杓状软骨，再将周围保留的正常黏膜缝合以免软骨裸露。位于下咽后壁的病变，激光于肿瘤周边向深面切除直至椎前筋膜，将肿瘤完整地连同咽壁整层(黏膜和下咽缩肌)切除，残缘与椎前筋膜缝合固定。
+按照病变范围和颈部检查的情况，在激光手术切除局部病变的同期进行颈部淋巴组织的处理，同期行择区性颈清扫术；对于不愿意接受开放手术的患者，可行术后颈部放疗以控制颈淋巴转移。如局部病变非常局限，且颈部检查未发现淋巴结肿大，也可选择密切观察随诊[20]。
+开放性手术适应证与术式选择
+根据是否保留喉功能，一般将下咽癌的开放性手术分为保留喉功能的下咽癌切除术和不保留喉功能的下咽癌切除术。根据喉、下咽的切除范围，将下咽癌开放性手术分为：单纯咽部分切除术、喉部分咽部分切除术、喉全切除咽部分切除术、咽喉全切除术和咽喉全切除术-食管全切除术等[21]。前两者即传统意义上的保留喉功能的下咽癌切除术。
+一、单纯咽部分切除术
+在不损伤喉内结构的情况下完成肿瘤的切除，术后患者喉功能保留完好，其适应证包括：
+1．T1-T2病变：为最佳适应证，病变以黏膜播散型为宜，梨状窝癌对侧喉、会厌正常，肿瘤局限累及声门旁而未累及声门下组织的情况下，即使患侧声带固定也可考虑行该手术[7]，环后癌行该手术的前提为无黏膜下侵犯。
+2.部分精心选择的T3病变：(1)局限的梨状窝尖受累，食管入口黏膜正常且充裕，若术者能熟练应用胸大肌皮瓣等也可考虑行保喉手术；(2)单纯向甲状软骨板外侧突破侵犯的梨状窝外侧壁癌；(3)下咽后壁癌向上或向一侧侵犯，未累及喉，利用胸大肌皮瓣或人工组织瓣等也可行该手术。
+3．患者可以耐受术后误吸等并发症等。
+二、咽部分喉部分切除术
+在对侧喉结构活动良好的前提下，当肿瘤侵犯一侧声门旁间隙穿过声带肌达黏膜下时，不论是否有黏膜侵犯，均应根据侵犯的范围行咽部分喉部分切除术；部分较高平面的梨状窝内侧壁癌可穿过杓会厌皱襞侵犯声门上区结构，此情况下也需行一侧的喉水平部分切除术。
+三、声门旁间隙入路梨状窝癌切除术
+T1-T2病变为最佳适应证，病变以黏膜播散型为宜，梨状窝癌对侧喉、会厌正常，声门旁间隙未受累或肿瘤局限累及声门旁而未累及声门下组织的情况下，即使患侧声带固定等也可考虑行该手术[22]。
+四、喉全切除咽部分切除术
+肿瘤累及双侧喉腔结构；广泛侵犯黏膜下结构，如声门旁间隙、会厌前间隙；累及喉软骨支架结构；患者心肺功能无法耐受术后带来的误吸等，需考虑行喉全切除咽部分切除术，包括T4病变和大部分T3病变。喉功能是否可以保留，与手术医师的经验、技巧和所掌握的修复方法有很大关系，当肿瘤切除后，存在较为完整的软骨支架和一侧活动完好的环杓关节均可考虑行喉功能保留的术式，除此之外不应强行保留喉功能。
+五、咽喉全切除术伴或不伴食管全切除术
+当肿瘤侵犯下咽环周2/3以上或累及食管入口以下≥2 cm时，需考虑行该类手术，切除下咽环周或近似环截。由于食管肿瘤有跳跃播散的特点，因此在处理累及食管的下咽癌时，食管的切缘应足够，切除的范围同颈段食管[23]。
+术后缺损修复与重建
+下咽癌手术缺损修复和重建的目的有：(1)关闭下咽缺损，促进伤口及时愈合；(2)恢复进食及发音功能；(3)减少手术并发症，如咽瘘及狭窄等；(4)及时进行术后的辅助治疗。
+一、喉全切除及下咽缺损修复
+(一)下咽全周缺损的修复方法
+1．胸大肌肌皮瓣：
+可采用咽后壁植皮如裂层皮片或人工皮片，或旷置，胸大肌卷成半管状修复咽侧壁和前壁[24,25]。
+2．胃上提咽胃吻合术：
+不开胸施行食管内翻拔脱切除，将胃游离后从后纵隔引至颈部，实行咽胃吻合。近年来多将胃体裁剪为"管状胃"与口咽吻合，减少了胃酸分泌和胸胃潴留问题[26,27]。
+3．游离空肠移植术：
+与胃上提咽胃吻合术相比，由于手术不涉及纵隔及其大血管，放疗失败后挽救手术死亡率很低，术后消化功能更接近生理状态，唯一的限制在于如果颈段食管缺损较长，下切缘到达胸骨柄以下在颈部不易吻合[28,29]。
+4．游离股前外侧皮瓣移植术：
+优点是术后放疗可以达到根治量，同时术后食管发音较腹腔脏器(胃和空肠等)替代质量好，但是吻合口瘘发生率较高(13%)[30]。
+5．锁骨上岛状皮瓣：
+锁骨上岛状皮瓣可以卷成管状修复全周缺损，在一定程度上可以替代游离空肠。修复后的皮瓣较空肠耐受放疗剂量高，其次由于放疗后复发的患者肩部供区一般不在照射野内，同样可以采用该皮瓣进行放疗失败后的挽救手术修复[31,32]。
+(二)下咽部分缺损
+如果下咽最窄处<2 cm，建议采用皮瓣加宽至6～8 cm后卷成正常食管管径，可以避免狭窄和咽瘘等并发症。修复方法以邻近带蒂皮瓣为主，包括：(1)胸大肌肌皮瓣[24]；(2)锁骨上岛状皮瓣[32]；(3)颏下皮瓣[33]；(4)游离皮瓣，如游离前臂皮瓣或游离股前外侧皮瓣等[34]。
+二、保留喉功能的下咽缺损修复
+(一)下咽后壁缺损
+根据术前检查判断肿瘤侵袭的范围、肿瘤切除后的相邻器官与组织的条件，以决定采用相应修复手段。适应证：下咽后壁T2、T3或T4a病变；病变长度：上界侵犯口咽，下界可达食管入口；喉结构完整，双侧声带活动。
+1．下咽后壁旷置或植皮：
+局限于下咽后壁缺损的T1和T2病变，创缘黏膜不能直接拉拢缝合时，由于下咽后壁癌很少侵犯椎前筋膜，可将创缘黏膜缝合固定于椎前筋膜上，待其自行上皮化。也可以采用游离皮片或人工皮片覆盖咽后壁创面，皮片和椎前筋膜缝合固定，并在皮片中剪数量不等的小孔以防止悬浮[35]。
+2．皮瓣修复：
+缺损如果累及食管或者双侧梨状窝外侧壁，或患者曾经放疗过，建议采用皮瓣修复[31,34]，包括游离皮瓣和(或)锁骨上岛状皮瓣。
+(二)梨状窝缺损
+早期梨状窝癌(T1-T2)可以通过梨状窝切除，或者部分喉切除，带状肌复位缝合，一般不需要皮瓣修复[36]。但是部分T2和T3-T4病变，若保留喉功能，则多数需皮瓣修复。
+1．梨状窝伴口咽侧壁缺损：
+可以采用局部瓣修复，如带血管蒂颌下腺和颏下瓣[33]，一般修复梨状窝外侧壁和口咽侧壁即可，咽后壁如果伴有缺损可以旷置，待后期上皮化。
+2．半喉半下咽缺损：
+应用游离前臂皮瓣修复一侧喉及梨状窝缺损。适应证为原发灶为梨状窝癌T3或部分T4病变，可伴有同侧声带固定，或咽后壁/口咽部分受侵，或食管入口受侵，或一侧甲状软骨受侵，或一侧环状软骨/环甲关节受侵。禁忌证为环后受侵超过中线，或对侧喉受侵，或双侧声带麻痹[37,38]。
+三、下咽颈段食管缺损
+下咽颈段食管鳞状细胞癌是一类局部晚期且预后很差的肿瘤，由于手术同时涉及发音、呼吸和吞咽三大"要害"部位的重要功能，以及修复技术复杂等因素，长期以来被认为是头颈外科医生最具有挑战的手术之一，可以采用游离空肠部分剖开的方法来同时修复下咽和颈段食管缺损，达到保留喉功能目的。手术适应证：肿瘤同时累及颈段食管和下咽两个解剖区；至少一侧声带活动，气管膜部无明显侵犯。禁忌证：双侧声带固定，环状软骨受侵，环后区肿瘤上界距杓会厌皱襞≤2 cm；肿瘤下界低于胸骨切迹[39]。
+目前可供下咽缺损修复的组织瓣种类较多，术者可采用适合当地医院和医师的修复方法。
+颈淋巴清扫原则
+由于下咽部的淋巴系统丰富，下咽癌具有淋巴结转移率高、转移早的临床特点。原发于不同亚区的下咽癌淋巴结转移率约为：梨状窝癌70%、下咽后壁癌50%、环后癌40%。梨状窝的淋巴管伴行喉上神经经甲状舌骨膜至颈深上、中组淋巴结，咽后壁的淋巴管引流至咽后淋巴结及颈深上、中组淋巴结，而下咽下部及颈段食管的淋巴可引流至气管食管旁淋巴结，进而引流至颈内静脉链及锁骨上淋巴结，向下可至上纵隔淋巴结，故下咽癌的淋巴结转移主要位于Ⅱ、Ⅲ、Ⅳ区，而Ⅰ与Ⅴ区转移率低[40,41]。
+需要注意的是，对接近中线的或已累及对侧的下咽癌应同时行对侧颈部的择区颈清扫，在下咽后壁癌和环后区后壁型癌中应注意对咽后淋巴结(Ⅷ区)的清扫，当下咽癌向下发展至食管入口附近时，应注意对气管食管旁淋巴结(Ⅵ区)及上纵隔淋巴结(Ⅶ区)的探查与清扫。术后常规予以放疗或同步放化疗[41]。
+术后并发症的预防与处理
+咽瘘是术后最常见和棘手的并发症。术中关闭下咽时，注意将黏膜固定缝合于黏膜下组织或甲状软骨板后缘，使黏膜有依托，黏膜外无死腔，并能防止咽腔运动时黏膜撕脱，形成咽瘘。下咽关闭后，吻合口外侧的组织缺损可用甲状腺等组织填补，以尽量减小死腔，同时放置有效的负压引流。颈清扫术后，颈动脉容易内移，可用胸锁乳突肌将颈动脉包裹缝合，使之与下咽吻合口隔离。
+吞咽困难也是经常出现的并发症，咽食管吻合口狭窄是造成吞咽困难较常见的原因。为此，咽食管黏膜吻合时应尽量扩大吻合面呈斜形，以减少因瘢痕增生导致的狭窄。术中应尽量扩大吻合口，以期使食物顺利通过咽腔。若出现吻合口狭窄，轻者可通过食管镜扩张得到改善，重者需再行手术整复。
+吞咽呛咳发生于患者术后试行经口进食时，吞咽呛咳发生的原因有：(1)喉入口附近没有足够宽敞的咽腔使食物快速通过；(2)声门闭合不佳，喉口遮盖不严，吞咽肌群的不协调造成的误吸。严重的呛咳可导致吸入性肺炎等，影响患者进一步治疗。避免吞咽呛咳的关键在于术中咽腔重建的技巧：在喉入口水平，横行缝合黏膜纵切缘以扩大咽腔，使食物能快速通过，避免堆积在喉入口处导致误吸；残余会厌下拉，遮盖声门区，使喉入口向侧方开口，避免声门正对口咽部；修补披裂处黏膜缺损，使术后声门能有效闭合；积极鼓励患者吞咽训练[36]。
+放疗、化疗与同步放化疗
+一、放射治疗
+1．根治性放疗：
+单纯放疗一般用于下咽癌早期的病变，即T1、T2病变，或病理为低分化、未分化癌患者，或因内科疾病不适合手术以及拒绝手术治疗的患者。对于临床Ⅰ、Ⅱ期下咽癌，单纯放疗的5年生存率81%，5年局部控制率83%，喉功能保留率92%[42]。推荐采用同期整合补量调强适形放疗(SIB-IMRT)技术，在满足靶区照射剂量同时能最大限度保护周围正常组织，靶区定义：肿瘤靶区(GTV)包括影像检查所见的原发肿瘤和颈部肿大淋巴结；CTV1 (高危临床靶区)包括病变邻近亚临床区，一般在GTV外约1.5～2.0 cm范围(根据解剖结构适当调整)、并包括全部喉咽、咽旁间隙结构及颈部阳性淋巴结区；CTV2(低危临床靶区)包括颈部阴性淋巴结区；计划靶区(PTV)在各靶区外放约3.0 mm(根据各单位设备条件决定)。
+2．辅助放疗：
+对于中晚期病变，即T3、T4病变，或N＋，任何单一治疗手段效果均不好，需采用综合治疗方式。放疗作为综合治疗方式的一部分，可术前或术后放疗，术后病理如存在高危因素(T3以上病变、切缘阳性、淋巴结转移或包膜外侵犯)建议术后同期放化疗。术前放疗靶区确定同根治量放疗，但将CTV1和CTV2合并，如果已行诱导化疗，靶区勾画应根据化疗前病变范围确定。术后放疗靶区确定，不勾画GTV，CTV1包括瘤床区及阳性淋巴结区，CTV2包括颈部阴性淋巴结区。
+二、诱导化疗
+诱导化疗一般不作为下咽癌的独立的治疗手段，常用于晚期肿瘤、手术或放射治疗前的病例筛选。诱导化疗可以减少晚期患者远处转移的概率。有研究表明梨状窝癌诱导化疗加放疗和同期放化疗相比，10年生存率相近( 13.8%比13.1%)[10]，但诱导化疗组保喉率高。诱导化疗可以作为筛选放疗敏感病例的方法，诱导化疗后达到部分缓解的患者给予放疗，3年保喉率明显高于未达到部分缓解的患者(70.3%比57.5%)。诱导化疗的方案可以是传统的顺铂＋5-Fu(PF)方案，但新近的研究表明加入紫杉醇的TPF方案优于PF方案。对于中晚期的下咽癌，一般应用2～3个周期的诱导化疗。诱导化疗后评价达到完全缓解，行根治量放疗；如达到大部分消退，下一步治疗可手术，或同期放化疗；如果病灶没有缩小，行根治性手术，术后根据病理结果行辅助性放疗或放化疗。
+三、同步放化疗
+同步放化疗的疗效优于单纯放疗，目前还没有完全随机的同步放化疗与手术加放疗的对比研究。欧美国家自20世纪90年代开始，为了保留喉功能，对于不能保留喉功能的中晚期患者多采用同步放化疗。同步放化疗对于T2、T3病变的疗效优于T4病变，但同步放化疗的治疗期间的Ⅲ、Ⅳ期的局部放疗反应也比较多，放疗以后也有局部喉功能不良的患者，如呼吸功能不良需气管切开，吞咽功能不良需依赖鼻饲。下咽癌同步放化疗的整体5年生存率、肿瘤无进展生存率、局部控制率和喉功能保留率分别可以达到68.7%、57.5%、79.1%和70.3%[21]。但同步放化疗后肿瘤未控或肿瘤复发挽救性手术的并发症也比较严重，特别是咽瘘导致的大血管破裂的风险增高。
+四、放疗联合靶向治疗
+尽管同期放化疗改善了局部晚期下咽癌的预后，但其急性反应较重，部分患者不能耐受，而90%以上头颈部鳞状细胞癌表皮生长因子受体(EGFR)过度表达，随机对照研究显示放疗联合抗EGFR单抗较单纯放疗明显改善生存率，回顾性研究显示可以达到与同步放化疗相似的疗效，但不良反应较同步放化疗少，可作为一种可选择的治疗方式。
+治疗后复发的处理
+下咽癌治疗后复发或残留是一个棘手的问题，由于每一个患者及其肿瘤情况都有所不同，具体处理应当采取因地制宜和个性化的处理原则。对于采取放化疗、化疗或同步放化疗治疗的患者，如果肿瘤对治疗无反应甚至进展、肿瘤残留或再发，应当采取积极的挽救手术治疗。下咽癌保留喉功能手术后局部复发者，可以采取喉、下咽全切除术，向下侵犯位置过低或出现食管内第二原发癌时，需要同时采取食管全切除术。单纯颈部复发的患者需要采取颈全清扫术或颈扩大性清扫术进行挽救手术。下咽癌治疗后局部和区域广泛复发同时存在的患者预后极差，一般不建议采取挽救手术治疗。需要指出的是，下咽癌挽救手术难度和风险高，加之患者预后差，实施挽救手术前需要对患者和肿瘤的状况进行准确评估，结合术者的手术能力和经验选择性的实施。对于发生远处转移以及治疗后复发，但因肿瘤和/或患者状况不适合挽救手术治疗时，应当采取姑息性的治疗，包括姑息性放疗、化疗或同步放化疗(有条件可以加用分子靶向治疗)，并给予相关的支持治疗(包括营养支持、气道维持、止痛和心理支持等)，以延缓病情和提高生存质量[44]。
+执笔起草专家(按姓氏拼音排序)：
+董 频 房居高 高军茂 黄志刚 雷大鹏 李晓明
+潘新良 张 彬
+参与讨论专家(按姓氏拼音排序)：
+边 学 陈 飞 陈 杰 陈贤明 陈晓红 陈兴明
+崔晓波 邓志红 邸 斌 董 频 房居高 高军茂
+高 明 郭传瑸 郭朱明 胡国华 华清泉 黄德亮
+黄晓明 黄志刚 嵇庆海 季文樾 景尚华 郎军添
+雷大鹏 李晓明 李振东 李正江 林 鹏 刘大昱
+刘明波 刘 鸣 刘业海 倪 鑫 潘新良 秦 永
+邱元正 宋西成 孙 彦 唐平章 王斌全 王恩彤
+王家东 王力红 王晓雷 魏伯俊 魏运军 温树信
+温 武 文卫平 吴海涛 吴跃煌 谢 明 辛 丁
+徐 伟 徐震纲 杨安奎 杨新明 于振坤 余济春
+张 彬 张乃嵩 张 诠 张欣欣 张宗敏 赵素萍
+周 梁 周水洪
+参考文献
+[1]
+王天铎.
+下咽及颈食管恶性肿瘤手术//
+王天铎.
+喉科手术学[M].
+3版.
+北京：
+人民卫生出版社，
+2007：
+401.
+WangTD. Surgery of hypopharyngeal and cervical esophageal malignancy //WangTD. Surgery of larynx[M]. 3rd ed. Beijing：People's medical publishing house, 2007：401.
+[2]
+潘新良，雷大鹏，许风雷，等.
+下咽癌的外科治疗[J].
+山东大学耳鼻喉眼学报，
+2007,
+21(
+1):
+1-
+7.
+DOI：10.3969/j.issn.1673-3770.2007.01.001.
+PanXL, LeiDP, XuFL, et al. Surgical treatment of hypopharyngeal carcinoma[J]. J Otolaryngol Ophthal Shandong Univ, 2007, 21(1):1-7. DOI：10.3969/j.issn.1673-3770.2007.01.001.
+[3]
+BillrothT, GussenbauerC.
+Ueber die erste durch Theodor Billroth am Menschen ausgefuhrte Kehlkopf-Exstirpation und die Anwendung eines kunstlichen Kehlkopfes[J].
+Arch f Klin Chir,
+1874,
+17:
+343.
+[4]
+OguraJH, JuremaAA, WatsonRK.
+Partial laryngopharyngectomy and neckdissection for pyriform sinus cancer. Conservation surgery with immediatereconstruction[J].
+Laryngoscope,
+1960,
+70:
+1399-
+1417.
+DOI：10.1288/00005537-196010000-00002.
+[5]
+CooperJS, PorterK, MallinK, et al.
+National Cancer Database report on cancer of the head and neck: 10-year update[J].
+Head Neck,
+2009，
+31(
+6):
+748-
+758.
+DOI: 10.1002/hed.21022.
+[6]
+GuptaT, ChopraS, AgarwalJP, et al.
+Squamous cell carcinoma of the hypopharynx: single-institution outcome analysis of a large cohort of patients treated with primary non-surgical approaches[J].
+Acta Oncol,
+2009，
+48(
+4):
+541-
+548.
+DOI: 10.1080/02841860802488839.
+[7]
+潘新良，雷大鹏，刘大昱，等.
+352例下咽癌综合治疗分析[J].
+中华耳鼻咽喉头颈外科杂志，
+2009,
+44(
+9):
+710-
+715.
+DOI：10.3760/cma.j.issn.1673-0860.2009.09.003.
+PanXL, LeiDP, LiuDY, et al. Comprehensive treatment of 352 cases with hypopharyngeal cancer[J]. Chin J Otorhinolaryngol Head Neck Surg, 2009, 44(9):710-715.DOI：10.3760/cma.j.issn.1673-0860.2009.09.003.
+[8]
+房居高，魏秀春，蔡淑平，等.
+梨状窝癌局部扩展的病理学研究[J].
+中华耳鼻咽喉科杂志，
+2000,
+35(
+5):
+387.
+DOI：10.3760/j.issn:1673-0860.2000.05.020.
+FangJG, WeiXC, CaiSP, et al. Histological study of the local-regional invasion of pyriform sinus carcinoma[J]. Chin J Otorhinolaryngol, 2000, 35(5):387. DOI：10.3760/j.issn:1673-0860.2000.05.020.
+[9]
+ChenSW, TsaiMH, YangSN, et al.
+Hypopharyngeal cancer treatment based on definitive radiotherapy: who is suitable for laryngeal preservation？[J].
+J Laryngol Otol,
+2008,
+122(
+5):
+506-
+512.
+DOI: 10.1017/S0022215107000692.
+[10]
+ChangMF, WangHM, KangCJ, et al.
+Treatment results for hypopharyngeal cancer by different treatment strategies and its secondary primary--an experience in Taiwan[J].
+Radiat Oncol,
+2010,
+5:
+91.
+DOI: 10.1186/1748-717X-5-91.
+[11]
+LefebvreJL, AndryG, ChevalierD, et al.
+Laryngeal preservation with induction chemotherapy for hypopharyngeal squamous cell carcinoma: 10-year results of EORTC trial 24891[J].
+Ann Oncol,
+2012,
+23(
+10):
+2708-
+2714.
+DOI: 10.1093/annonc/mds065.
+[12]
+HanMW, RyuIS, LeeSW, et al.
+Can response to induction chemotherapy be a predictive marker for ultimate outcome in hypopharyngeal cancer？[J].
+Otolaryngol Head Neck Surg,
+2012，
+146(
+1):
+74-
+80.
+DOI: 10.1177/0194599811420357.
+[13]
+SchagCC, HeinrichRL, GanzPA.
+Karnofsky performance status revisited: reliability, validity, and guidelines[J].
+J Clin Oncol,
+1984，
+2(
+3):
+187-
+193.
+DOI: 10.1200/jco.1984.2.3.187.
+[14]
+OkenMM, CreechRH, TormeyDC, et al.
+Toxicity and response criteria of the Eastern Cooperative Oncology Group[J].
+Am J Clin Oncol,
+1982，
+5(
+6):
+649-
+655.
+[15]
+SobinL, GospodarowiczM, WittekindC.
+TNM classification of malignant tumors[M].
+7th ed.
+Hoboken:
+John Wiley & Sons，
+2009：
+73-
+77.
+[16]
+RuschVW, RiceTW, CrowleyJ, et al.
+The seventh edition of the American Joint Committee on Cancer/International Union Against Cancer Staging Manuals: the new era of data-driven revisions[J].
+J Thorac Cardiovasc Surg,
+2010，
+139(
+4):
+819-
+821.
+DOI: 10.1016/j.jtcvs.2010.02.013.
+[17]
+ZhouJ, LiY, WeiD, et al.
+Overall survival outcomes with and without laryngeal function preservation in 580 patients with hypopharyngeal squamous cell carcinoma[J].
+Oncol Rep,
+2015,
+34(
+6):
+3196-
+3202.
+DOI：10.3892/or.2015.4313.
+[18]
+JinT, LiX, LeiD, et al.
+Preservation of laryngeal function improves outcomes of patients with hypopharyngeal carcinoma[J]．
+Eur Arch Otorhinolaryngol,
+2015,
+272(
+7):
+1785-
+1791.
+DOI：10.1007/s00405-014-3115-2.
+[19]
+SteinerW, AmbroschP, HessCF, et al.
+Organ preservation by transoral laser microsurgery in piriform sinus carcinoma[J].
+Otolaryngol Head Neck Surg,
+2001,
+124(
+1):
+58-
+67.
+[20]
+黄志刚，倪鑫，房居高，等.
+经口CO2激光手术治疗下咽癌[J].
+中华耳鼻咽喉头颈外科杂志，
+2009,
+44(
+9):
+722-
+725.
+DOI: 10.3760/cma.j.issn.1673-0860.2009.09.005.
+HuangZG, NiX, FangJG, et al. Traasorul carbon dioxide laser surgery for treatment of hypopharyngeal carcinoma[J]. Chin J Otorhinolaryngol Head Neck Surg, 2009, 44(9):722-725. DOI: 10.3760/cma.j.issn.1673-0860.2009.09.005.
+[21]
+TakesRP, StrojanP, SilverCE, et al.
+Current trends in initial management of hypopharyngeal cancer：the declining use of open surgery[J].
+Head Neck,
+2012,
+34(
+2):
+270-
+281.
+DOI：10.1002/hed.21613.
+[22]
+潘新良．
+声门旁间隙入路梨状窝癌切除术[J]．
+山东大学耳鼻喉眼学报，
+2016,
+30(
+3):
+1-
+3.
+DOI：10.6040/j.issn.1673-3770.0.2016.232.
+PanXL. Surgical management of pyriform sinus carcinoma via the glottis adjacent space approach[J]. J Otolaryngol Ophthal Shandong Univ, 2016, 30(3):1-3. DOI：10.6040/j.issn.1673-3770.0.2016.232.
+[23]
+雷大鹏，潘新良，栾信庸，等.
+颈段食管癌的手术治疗[J].
+中华耳鼻咽喉科杂志，
+2002,
+37(
+2):
+86-
+89.
+DOI：10.3760/j.issn:1673-0860.2002.02.003.
+LeiDP, PanXL, LuanXY, et al. Surgical management of cervical esophageal carcinoma[J]. Chin J Otorhinolaryngol, 2002, 37(2):86-89. DOI：10.3760/j.issn:1673-0860.2002.02.003.
+[24]
+李晓明，郭晓峰.
+胸大肌肌皮瓣下咽颈段食管一期重建术[J].
+临床耳鼻咽喉科杂志，
+1993,
+7(
+4):
+215-
+217.
+LiXM, GuoXF. Primary reconstruction of hypopharyngoesophageal defects with pectoralis major myocutaneous flap[J]. J Clin Otorhinolaryngol Surg(China), 1993, 7(4):215-217.
+[25]
+徐伟，吕正华，张俊，等.
+胸大肌肌皮瓣卷筒在下咽颈段食管环周缺损修复中的应用[J]．
+中华耳鼻咽喉头颈外科杂志，
+2010，
+45(
+5):
+401-
+405.
+DOI: 10.3760/cma.j.issn.1673-0860.2010.05.012.
+XuW, LyuZH, ZhangJ, et al. Tubed pectoralis major myocutaneous flap for reconstruction of circumference pharyngoesophageal defects[J]. Chin J Otorhinolaryngol Head Neck Surg, 2010, 45(5):401-405. DOI: 10.3760/cma.j.issn.1673-0860.2010.05.012.
+[26]
+唐平章，屠规益，李庆宏，等．
+咽胃咽结肠吻合术治疗晚期下咽癌和颈段食管癌118例.
+中华耳鼻咽喉科杂志，
+1993，
+28(
+增刊):
+28-
+30.
+TangPZ, TuGY, LiQH, et al. Stomach transposition/colon interposition in the treatment of advanced hypopharyngeal carcinoma and cervical esophageal carcinoma[J]. Chin J Otorhinolaryngol, 1993, 28(Suppl):28-30.
+[27]
+WeiWI, LamKH, ChoiS, et al.
+Late problems after pharyngolaryngoesophagectomy and pharyngogastric anastomosis for cancer of the larynx and hypopharynx[J].
+Am J Surg,
+1984，
+148(
+4):
+509-
+513.
+[28]
+张彬，唐平章，徐震纲，等.
+下咽环周缺损重建方法的选择[J]．
+中华耳鼻咽喉科杂志，
+2004，
+39(
+7):
+419-
+424.
+DOI: 10.3760/j.issn:1673-0860.2004.07.009.
+ZhangB, TangPZ, XuZG, et al. Reconstruction of hypopharyngeal circumferential defects：pharyngogastric anastomosis or free jejunal interposition[J]. Chin J Otorhinolaryngol, 2004，39(7):419-424. DOI: 10.3760/j.issn:1673-0860.2004.07.009.
+[29]
+鄢丹桂，张彬，李德志，等.
+游离空肠移植重建下咽及颈段食管112例临床分析[J].
+中华耳鼻咽喉头颈外科杂志，
+2011,
+46(
+5):
+373-
+377.
+DOI: 10.3760/cma.j.issn.1673-0860.2011.05.006.
+YanDG, ZhangB, LiDZ, et al.Reconstruction of hypopharyngeal circumferential and cervical esophageal defects with free jejunal interposition in 112 cases[J]. Chin J Otorhinolaryngol Head Neck Surg, 2011, 46(5):373-377. DOI: 10.3760/cma.j.issn.1673-0860.2011.05.006.
+[30]
+YuP, RobbGL.
+Pharyngoesophageal reconstruction with the anterolateral thigh flap: a clinical and functional outcomes study[J].
+Plast Reconstr Surg,
+2005，
+116(
+7):
+1845-
+1855.
+[31]
+LambertyBG.
+The supra-clavicular axial patterned flap[J].
+Br J Plast Surg,
+1979，
+32(
+3):
+207-
+212.
+[32]
+张彬，鄢丹桂，张亚冰，等.
+锁骨上岛状皮瓣修复头颈肿瘤手术缺损临床初步研究[J]．
+中华耳鼻咽喉头颈外科杂志，
+2015，
+50(
+6):
+468-
+472.
+DOI: 10.3760/cma.j.issn.1673-0860.2015.06.007.
+ZhangB, YanDG, ZhangYB, et al.Clinical experience with the supraclavicular flap to reconstruct head and neck defects[J]. Chin J Otorhinolaryngol Head Neck Surg, 2015, 50(6):468-472. DOI: 10.3760/cma.j.issn.1673-0860.2015.06.007.
+[33]
+黄文孝，喻建军，李赞，等.
+应用颏下皮瓣修复下咽癌术后缺损的临床探讨[J]．
+中国耳鼻咽喉颅底外科杂志，
+2006,
+12(
+4):
+261-
+264.
+DOI: 10.3969/j.issn.1007-1520.2006.04.005.
+HuangWX, YuJJ, LiZ, et al. Submental flap for repair of postoperative defects in hypopharyngeal carcinoma patients[J]. Chinese Journal of Otorhinolaryngology-Skull Base Surgery, 2006, 12(4):261-264. DOI: 10.3969/j.issn.1007-1520.2006.04.005.
+[34]
+陈文和，彭汉伟.
+下咽及颈段食管缺损修复的供区选择和临床评价[J].
+临床耳鼻咽喉头颈外科杂志，
+2013,
+27(
+21):
+1163-
+1170.
+ChenWH, PengHW. Reconstruction for the defects of hypopharynx and cervical esophagus: donor site selection and clinical evaluation[J]. J Clin Otorhinolaryngol Head Neck Surg(China), 2013, 27(21):1163-1170.
+[35]
+鄢丹桂，张彬，李德志，等.
+下咽后壁鳞状细胞癌患者喉功能保留及修复[J]．
+中华耳鼻咽喉头颈外科杂志，
+2014，
+49(
+7):
+548-
+552.
+DOI: 10.3760/cma.j.issn.1673-0860.2014.07.005.
+YanDG, ZhangB, LiDZ, et al.Larynx preservation and hypopharyngeal reconstruction in posterior hypopharyngeal wall sqamous cell carcinoma[J]．Chin J Otorhinolaryngol Head Neck Surg，2014，49(7):548-552. DOI: 10.3760/cma.j.issn.1673-0860.2014.07.005.
+[36]
+李学忠，张立强，潘新良，等.
+保留喉功能的梨状窝癌的手术治疗[J]．
+中华耳鼻咽喉头颈外科杂志，
+2005，
+40(
+3):
+212-
+216.
+DOI: 10.3760/j.issn:1673-0860.2005.03.015.
+LiXZ, ZhangLQ, PanXL, et al.Preservation of laryngeal function in surgical treatment of pyriform sinus carcinoma[J]．Chin J Otorhinolaryngol Head Neck Surg，2005，40(3):212-216. DOI: 10.3760/j.issn:1673-0860.2005.03.015.
+[37]
+UrkenML, BlackwellK, BillerHF.
+Reconstruction of the laryngopharynx after hemicricoid/hemithyroid cartilage resection. Preliminary functional results[J].
+Arch Otolaryngol Head Neck Surg,
+1997，
+123(
+11):
+1213-
+1222.
+[38]
+张彬，邬振华，余济春，等.
+T3和T4期梨状窝癌喉功能保留及游离皮瓣修复术[J]．
+中华耳鼻咽喉头颈外科杂志，
+2013，
+48(
+11):
+919-
+923.
+DOI: 10.3760/cma.j.issn.1673-0860.2013.11.009.
+ZhangB, WuZH, YuJC, et al.Hemi-pharyngolaryngectomy and laryngeal reconstruction with free flaps in T3 and T4 hypopharyngeal cancer[J]．Chin J Otorhinolaryngol Head Neck Surg，2013，48(11):919-923. DOI: 10.3760/cma.j.issn.1673-0860.2013.11.009.
+[39]
+张彬，苏纪平，余济春，等.
+下咽颈段食管交界癌的喉功能保留及游离空肠修复术[J]．
+中华耳鼻咽喉头颈外科杂志，
+2014，
+49(
+7):
+543-
+547.
+DOI: 10.3760/cma.j.issn.1673-0860.2014.07.004.
+ZhangB, SuJP, YuJC, et al. Free jejunum reconstruction and laryngeal preservation for squamous cell carcinoma in the pharyngoesophageal junction[J]．Chin J Otorhinolaryngol Head Neck Surg，2014，49(7):543-547. DOI: 10.3760/cma.j.issn.1673-0860.2014.07.004.
+[40]
+中华耳鼻咽喉头颈外科杂志编辑委员会头颈外科组，中华医学会耳鼻咽喉头颈外科学分会头颈外科学组，中国医师协会耳鼻喉分会头颈外科学组.
+头颈部鳞状细胞癌颈淋巴结转移处理的专家共识 [J].
+中华耳鼻咽喉头颈外科杂志，
+2016，
+51(
+1):
+25-
+33.
+DOI: 10.3760/cma.j.issn.1673-0860.2016.01.005.
+Subspecialty Group of Head and Neck Surgery, Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery; Subspecialty Group of Head and Neck Surgery, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association; Subspecialty Group of Head and Neck Surgery, Society of Otorhinolaryngology, Chinese Medical Doctor Association. Expert consensus on management of cervical lymph node metastasis of head and neck squamous cell carcinoma[J]. Chin J Otorhinolaryngol Head Neck Surg, 2016，51(1):25-33. DOI: 10.3760/cma.j.issn.1673-0860.2016.01.005.
+[41]
+邓雪英，苏勇，郑列，等.
+下咽癌颈部及咽后淋巴结转移的CT/MRI分析[J].
+癌症，
+2010,
+29(
+2):
+202-
+206.
+DengXY, SuY, ZhangL, et al. Analysis of cervical and retropharyngeal lymph node metastases in the patients with hypopharyngeal carcinoma with computed tomography and magnetic resonance imaging[J]. Chinese Journal of Cancer, 2010, 29(2):202-206.
+[42]
+董频.
+重视头颈部肿瘤气管旁及上纵隔淋巴结的处理[J].
+中国眼耳鼻喉科杂志，
+2006,
+6(
+2):
+74-
+75.
+DOI: 10.3969/j.issn.1671-2420.2006.02.003.
+DongP. Emphasis on treating paratreacheal and supra mediastinum lymph nodes of head neck tumor[J]. Chinese Journal of Ophthalmology and Otorhinolaryngology, 2006, 6(2):74-75. DOI: 10.3969/j.issn.1671-2420.2006.02.003.
+[43]
+YoshimuraR, KagamiY, ItoY, et al.
+Outcomes in patients with early-stage hypopharyngeal cancer treated with radiotherapy[J].
+Int J Radiat Oncol Biol Phys,
+2010，
+77(
+4):
+1017-
+1023.
+DOI: 10.1016/j.ijrobp.2009.06.066.
+[44]
+李晓明.
+下咽癌治疗后复发的处理原则和策略[J]．
+中华耳鼻咽喉头颈外科杂志，
+2016，
+51(
+7):
+554-
+557.
+DOI: 10.3760/cma.j.issn.1673-0860.2016.07.017.
+LiXM. Principles and stragegies in the management of post-therapeutic recurrence of hypopharyngeal cancer[J]. Chin J Otorhinolaryngol Head Neck Surg, 2016，51(7):554-557. DOI: 10.3760/cma.j.issn.1673-0860.2016.07.017.
+贡献者信息
+中华耳鼻咽喉头颈外科杂志编辑委员会头颈外科组
+中华医学会耳鼻咽喉头颈外科学分会头颈外科学组
+历史
+出版日期：2017-01-07
+收稿日期：2016-09-19
+本文编辑
+高洁
+Practical Guideline
+Expert consensus on surgery and comprehensive treatment of hypopharyngeal carcinoma
+Subspecialty Group of Head and Neck Surgery, Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery,  Subspecialty Group of Head and Neck Surgery, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association
+Published
+2017-01-07
+Cite as
+Chin J Otorhinolaryngol Head Neck Surg, 2017,52(1): 16-24. DOI: 10.3760/cma.j.issn.1673-0860.2017.01.004
+Contributor Information
+Subspecialty Group of Head and Neck Surgery, Editorial Board of Chinese Journal of Otorhinolaryngology Head and Neck Surgery
+Subspecialty Group of Head and Neck Surgery, Society of Otorhinolaryngology Head and Neck Surgery, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+CooperJS, PorterK, MallinK, et al.
+National Cancer Database report on cancer of the head and neck: 10-year update[J].
+Head Neck,
+2009，
+31(
+6):
+748-
+758.
+DOI: 10.1002/hed.21022.
+图1
+下咽癌治疗选择流程图
+表1
+下咽癌的TNM分期
+T分级
+Tx
+原发肿瘤无法评估
+T0
+无原发肿瘤证据
+Tis
+原位癌
+T1
+肿瘤局限于下咽的一个解剖亚区并且最大径≤2 cm
+T2
+肿瘤侵犯超过下咽的一个解剖亚区或邻近解剖区域，或2 cm<最大径≤4 cm，且无半喉固定
+T3
+肿瘤最大径>4 cm或半喉固定
+T4a
+肿瘤侵犯甲状软骨/环状软骨、舌骨、甲状腺、食管或中央区软组织
+T4b
+肿瘤侵犯椎前筋膜，包绕颈动脉或累及纵隔结构
+N分级
+Nx
+区域淋巴结无法评估
+N0
+无区域淋巴结转移
+N1
+同侧单个淋巴结转移，最大径≤3 cm
+N2
+同侧单个淋巴结转移，3 cm<最大径≤6 cm；或同侧多个淋巴结转移，最大径均≤6 cm；或双侧或对侧淋巴结转移，最大径均≤6 cm
+N2a
+同侧单个淋巴结转移，3 cm<最大径≤6 cm
+N2b
+同侧多个淋巴结转移，最大径均≤6 cm
+N2c
+双侧或对侧淋巴结转移，最大径均≤6 cm
+N3
+转移淋巴结最大径>6 cm
+M分级
+Mx
+远处转移无法评估
+M0
+无远处转移
+M1
+有远处转移
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华耳鼻咽喉头颈外科杂志2017年52卷1期
+文    题：下咽癌外科手术及综合治疗专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华耳鼻咽喉头颈外科杂志2017年52卷1期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

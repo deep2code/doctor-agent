@@ -1,0 +1,700 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%B0%8F%E5%84%BF%E8%82%9D%E8%A1%80%E7%AE%A1%E7%98%A4%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 小儿肝血管瘤诊断和治疗专家共识 - 中华小儿外科杂志
+# 发布方/日期: 小儿外科，中华小儿外科杂志, 2020,41(11) : 963-970. DOI: 10.3760/cma.j；2020-11-15
+
+小儿肝血管瘤诊断和治疗专家共识
+中华医学会小儿外科学分会肝胆外科学组
+中华医学会小儿外科学分会肿瘤学组
+中华小儿外科杂志, 2020,41(11) : 963-970. DOI: 10.3760/cma.j.cn421158-20200228-00124
+肝血管瘤是儿童时期最常见的肝原发良性肿瘤，生后6个月内高发。尽管其本质上是良性的，但也可能出现危及生命的并发症[1,2]。因此，早期发现与及时治疗对疾病的转归及预后意义重大。目前国内外学者对小儿肝血管瘤的概念与诊断、治疗指征界定、治疗方法选择等问题尚缺乏统一认识，多参照成人肝血管瘤概念和标准，导致诊疗存在一定偏差。因此，我们联合多学科专家共同参与制订本共识，以规范小儿肝血管瘤的临床诊断与治疗。
+一、定义
+小儿肝血管瘤是一种以肝血管内皮过度增生为主的良性血管源性肿瘤，包括婴幼儿肝血管瘤(infantile hepatic hemangioma，IHH)和先天性肝血管瘤(congenital hepatic hemangioma，CHH)，不包括交界性、恶性血管肿瘤和各种血管畸形[3,4]。以往常使用"肝血管内皮瘤"一词描述本病，这种描述虽然突出了病理特征，但容易与恶性血管病变混淆。因此在儿童中，应使用"肝血管瘤"来描述发生在肝的良性血管肿瘤。
+二、流行病学
+因为部分小病灶无症状而未就诊，且临床中难以发现，目前儿童肝血管瘤的实际发病率仍然无法确定。男女发病比例约为1∶1.3～2.1，以女孩更为多见，没有种族偏好[5]。在偏身肥大症和贝克威思-威德曼综合征(Beckwith-Wiedemann syndrome，BWS)患儿中的发病率相对较高。有1/3的患儿在出生后1个月以内被发现，只有不到5%的患儿1岁后才被发现[6]。
+三、分型
+小儿肝血管瘤包括IHH和CHH。其中IHH具有独特的自然病程、临床特征及组织特异性标志物葡萄糖转运蛋白(glucose transporter-1，Glut-1)，使其区别于其他血管肿瘤或血管畸形[7]。CHH为不典型血管瘤，多为局灶性病变，出生时即有且已完全成熟，不会经历快速增长期这一阶段，根据消退情况可分为快速消退型(rapidly involuting congenital hemangioma，RICH)、部分消退型(partially involuting congenital hemangioma，PICH)和不消退型(non-involuting congenital hemangioma，NICH)[3]。
+根据小儿肝血管瘤不同的临床、影像学表现和肝实质受影响程度，临床上又将其分为局灶性病变、多发性病变和弥漫性病变[8]。详见表1。约半数小儿肝血管瘤为局灶性病变，其余大部分为多发性病变[9]。与多发性和弥漫性病变不同，目前普遍认为局灶性病变不是真正的IHH，而是CHH，且大多数为RICH[3]。局灶性病变常无症状，但较大病灶可见血流动力学改变，多表现为动静脉分流，易引发心力衰竭甚至危及生命，需要及时干预。多发性病变表现为肝多发病灶，其中可见正常肝实质片段；弥漫性病变表现为肝布满病灶，肝实质几乎被完全替代。弥漫性病变可能由以前未发现的多发性病变演变而来，与多发性病变比较不仅是病变范围的延伸，临床特征也不同，且并发症发生率和死亡风险更高，应及时治疗干预[10]。临床分型对肝血管瘤的治疗及预后具有指导作用[11]。
+点击查看表格
+表1
+小儿肝血管瘤临床分型
+表1
+小儿肝血管瘤临床分型
+临床分型
+临床表现
+病理表现
+Glut-1染色
+病程
+治疗
+局灶型
+多发生于围产期，常有症状表现，少数伴有皮肤血管瘤，可能合并CHF
+病灶较大，常伴中央坏死、出血或纤维化
+阴性
+出生后逐渐消退
+保守观察；药物治疗；必要时介入治疗；手术治疗
+多发型
+发生于生后数月内，通常无症状，常伴有皮肤血管瘤，有些可合并CHF
+病灶较小，无中央坏死
+阳性
+生后1年左右为快速增长期，随后逐渐消退
+保守观察；药物治疗
+弥漫型
+较少见，发生于生后数月内，有明显症状，可继发腹腔间隔室综合征、甲状腺功能减退、低输出型心力衰竭等严重并发症
+肝明显增大，满布病灶
+阳性
+病程复杂，无明显规律
+药物治疗(注意甲状腺激素替代治疗)；介入治疗；肝移植
+推荐意见1：临床上推荐使用局灶型、多发型和弥漫型三种不同亚型指导临床治疗和判断患儿预后。
+四、临床表现
+小儿肝血管瘤临床表现多样，多在产前检查和常规体检时发现，无症状的腹部肿块或肝肿大是迄今为止观察到的最常见的就诊原因，约50%～60%的IHH患儿同时伴有皮肤血管瘤[5]。由于皮肤血管瘤常见于多发型和弥漫型肝血管瘤患儿，多项研究建议，当出现5个或5个以上皮肤血管瘤时，应接受腹部超声筛查[12,13]。典型的肝肿大、充血性心力衰竭(congestive heart failure，CHF)和贫血三联征表现并非在所有患儿中都可见到，临床上可能只出现1～2个症状[11]。
+CHH在胎儿期增殖，在出生前或出生时达到高峰，RICH在出生后不久开始快速消退，在生后12～13个月时80%的RICH血管瘤缩小(只留下小块钙化残余)，但NICH在发病初期可能不会有明显改变[3]。IHH具有自然病程，即生后不久出现血管瘤，随后进入快速增生期，多发生在3个月内；增生期通常持续1年左右，患儿在生后1年内出现症状或综合征。约1岁左右时进入缓慢消退期，消退时间可能为数月至数年不等，一般为3～5年；最后为退化完成期，在3～9岁时症状可以完全消退[14]。
+可能存在血流动力学及成分异常，包括动静脉分流、贫血和血小板减少甚至凝血功能障碍等症状。动静脉分流可致回心血量增加，心脏后负荷增加，从而导致充血性心功能不全。由于瘤体内碘甲腺原氨酸脱碘酶Ⅲ活性增加，引起甲状腺素分解代谢增加，从而导致消耗性甲状腺功能减退，临床上建议增加甲状腺功能方面检查，尤其是对于存在肝多发性或弥漫性血管瘤病变的患儿(未经治疗的肝弥漫性血管瘤患儿，后期均会出现甲状腺功能减退)[15,16]。
+其他症状包括：肿瘤过大引起的腹胀和疼痛、呼吸困难、腹腔间隔室综合征、发热、新生儿肺炎、梗阻性黄疸、生长发育缓慢、继发于肿瘤破裂的腹腔积血、肠梗阻以及涉及其他器官的血管瘤等。对于直径小于10 cm的血管瘤，自发破裂的概率很小，但一经发生，可能出现失血性休克危及生命，需要注意避免外伤[17]。
+推荐意见2：对在皮肤不同部位出现5个或5个以上血管瘤的患儿，建议行腹部超声筛查，以评估是否存在肝血管瘤。
+推荐意见3：肝血管瘤患儿在必要时应做心脏和甲状腺功能评估，尤其是瘤体较大或肝内多发病灶的患儿。
+五、诊断
+小儿肝血管瘤的诊断基于患儿病史、体格检查和影像学检查等，大部分患儿可在出生后6个月内确诊。由于患儿年龄小、体征多不明显，因此以影像学检查为主。
+(一)超声检查
+腹部超声检查无创、简便、经济，无放射性且具有可重复性，对肝血管瘤的检测、定位及随访有重要作用。典型超声表现为均匀的低回声或高回声肿块，局灶或多发性病变。局灶性病变在出生后表现为圆形低回声或高回声肿块，可在产前检出。有时由于病灶钙化，后方伴声影而导致回声不均匀(约36%的病例可见)，也可能因出血、坏死或纤维化等病变导致[6]。若为多发小病灶，则病变回声均匀，且大部分为低回声。肝动脉和静脉常扩张，肿瘤内和周围可见粗大供养动脉和引流静脉[18]。彩色多普勒检查可显示多种血流模式，提示动静脉分流。有研究显示约60%的患儿存在异常彩色血流模式，40%的患儿存在分流[6]。超声心动图检查可显示肺动脉流速、压差，右心扩张程度及射血分数等，反映心功能受损程度。国外已在临床中使用观察组织灌注状态的微气泡造影剂进行超声造影(contrast-enhanced ultrasound，CEUS)，可在大多数病变中清楚显示肿瘤特异性血管形成模式，IHH表现为周围向中心强化[6]。CEUS有很多优于CT和MRI的特点，操作方便，且无电离辐射，目前已经在国内部分医院开展。
+推荐意见4：腹部超声检查应作为小儿肝血管瘤首选的筛查方法，提供诊断或鉴别诊断。
+推荐意见5：超声检查无法确诊时，建议进一步行MRI或CT检查。
+(二)MRI检查
+常规采用平扫＋增强扫描方式(常用对比剂为二乙烯三胺五乙酸钆)。由于病变血管性质，MRI平扫T1WI成像呈低或等信号，病灶边缘信号较周围肝实质信号稍高，有时伴有高信号可能反映病灶出血；T2WI成像表现为明显高信号，STIR及FLAIR上均呈高信号。较大病变可能由于出血、坏死、中央血栓形成或纤维化而不均匀，而较小病变通常信号强度均匀。随着回波时间(echo time，ET)的延长，血管瘤信号也逐渐增高。MRI典型影像特征为在T2WI上瘤体呈明显高信号，呈"灯泡征"，即使较小的病灶也可以显示异常高信号[19]。强化形式与CT一致，即增强后肿瘤显示向心性强化特点，可见肿瘤内部血管流空信号。腹腔干水平以下腹主动脉变细为肝血流增加提示征象[18]。增强MRI检查可以完善磁共振血管成像(magnetic resonance angiography，MRA)和磁共振静脉造影(magnetic resonance venography，MRV)，后台重塑血管瘤形态和血管情况，对于血管瘤病变特点及周围血供情况显示最佳，相对CT而言既可避免辐射，又可以提高阳性率，可作为首选检查方法。虽然MRI对小儿肝血管瘤有较好的诊断价值，但MRI成像时间长，常需要与麻醉医生配合，对患儿进行镇静或全身麻醉，且机器噪声大对新生儿内耳生长发育可能有不利影响，相关风险必须与MRI成像指导治疗的必要性进行权衡。国外有研究使用MRI超快脉冲序列来采集结果，其空间分辨率高、扫描速度快，可以避免镇静或全身麻醉所带来的风险[20]。
+推荐意见6：MRI检查对小儿肝血管瘤有特征性影像学表现和较好的诊断价值，是常用的有效检查手段。
+(三)CT检查
+常规采用平扫＋增强扫描方式(常用对比剂为碘)。肝血管瘤典型的CT平扫表现为多个或单个圆形、均匀的低密度囊状或结节状影，可散在分布，大小不一，直径从数毫米到十几厘米，边缘清晰，约50%的病例可见钙化[6,21]。局灶性病变瘤体较大，呈等、低密度，中央可见更低密度区，其内可见稍高密度出血或点状钙化灶。增强CT扫描显示：①局灶性病灶动脉期多自边缘开始强化，中心区可见斑点状或结节状强化区，较小病灶(直径小于1 cm)则出现全瘤大致均匀强化，多发病灶强化呈葡萄状；②门静脉期可见病灶强化由边缘逐渐向心性扩展；③延迟期呈完全充填，密度稍高于或等于肝实质，出血、坏死、纤维化或血栓区域不能强化，可出现强化不均的现象[18]。外周强化模式是鉴别血管瘤与肝母细胞瘤的依据。肝血管畸形和小儿肝血管瘤表现相似，但前者多为单发病灶，且好发于成人和年长儿童，罕见于婴儿期。CT检查对病灶范围以及病灶增强的表现更有利于病灶定性及与其他肝肿瘤鉴别，增强CT可以迅速判断瘤体血供来源及有无动静脉分流且成像速度快，但存在一定量辐射。在综合医院，婴儿特别是新生儿做MRI成功率低，CT成像时间短、噪音小，降低了对镇静剂的要求，对于年龄小且无法完成MRI检查或对肿瘤血管成像要求高者可以将CT作为首选检查方法。
+推荐意见7：CT检查对小儿肝血管瘤的诊断和鉴别诊断有重要作用，是常用的有效检查手段。
+(四)其他方面
+动脉造影目前仅用于考虑栓塞治疗的血流动力学不稳定的患儿[9]。用锝(99 mTc)标记的硫胶体和红细胞进行闪烁成像，现在已经不适用。剪切波弹性成像(shear wave elastography，SWE)作为辅助工具，在儿童中有助于诊断血管瘤和区分肝血管瘤与恶性肝肿瘤[22]。
+推荐意见8：动脉造影、99 mTc标记成像和剪切波弹性成像不建议作为小儿肝血管瘤确诊的常规检查项目。
+(五)实验室检查
+实验室检查对于诊断肝血管瘤缺乏特异性，但可为临床诊断提供帮助。肝血管瘤患儿肝功能大都正常，血AFP测定对于肝血管瘤诊断意义不大。新生儿期AFP显著高于正常参考值范围，在生后数周逐渐下降，绝大多数足月婴儿1岁时可达成人水平(0～6 μg/L)。但血清AFP水平超过所在年龄段正常参考值范围，可作为判断婴儿肝肿瘤良、恶性的重要指标。此外，近来的研究表明，AFP异质体特别是AFP-L3，可为儿童肿瘤提供有效的辅助诊断证据，国内已有多家单位可以检测[23]。免疫组织化学检测证实，肿瘤细胞不能表达AFP，肿瘤附近的肝细胞以及被瘤体包裹的肝细胞可以合成AFP，从而使得部分肝血管瘤患儿的血清AFP显著升高[24]。研究发现，对于肝血管瘤、特别是存在弥漫性病变的患儿，须密切监测甲状腺激素和促甲状腺激素(thyroid stimulating hormone，TSH)水平，一旦发现患儿甲状腺功能减退，应及时补充左旋甲状腺素，否则可导致永久性神经损伤、凝血功能受损和心脏功能下降[15]。出现这种状况的原因是肿瘤内碘甲腺原氨酸脱碘酶Ⅲ活性增强，大量释放，可快速降低四碘甲腺原氨酸(T4)，使其转化为无生物活性的反三碘甲腺原氨酸(rT3)，并使三碘甲腺原氨酸(T3)转化为二碘甲腺原氨酸(T2)，从而引起严重的消耗性甲状腺功能减退[25]。随着病变的切除或消退，所有异常指标均可恢复正常。
+推荐意见9：血AFP测定可用于鉴别肝良恶性肿瘤，AFP的动态变化对肝肿瘤治疗方案的选择有指导意义。
+(六)组织活检
+肝血管瘤血供丰富，做瘤体组织活检时应慎重，经皮肝穿刺活检术后出血风险很高。大部分患儿可通过影像学检查确诊，无须通过组织学检查来进一步明确诊断[26]。但当肝血管瘤发生在婴儿期以后，病灶包含钙化、纤维化和坏死影像学特征不典型；或者病史不支持血管瘤诊断，血AFP测定高于各年龄段正常参考值，高度怀疑恶性时，应考虑通过活检进行确诊[3]。如果最终进行活检，需对GLUT-1进行免疫组织化学染色，它是IHH最独特的组织学特征，可将其与CHH及其他类型的血管内皮瘤及血管畸形区分开来。
+推荐意见10：肝组织活检发生并发症风险高，仅用于对病史和影像学检查不典型、怀疑恶变的患儿进行辅助及鉴别诊断。
+六、鉴别诊断
+需注意小儿肝血管瘤与其他血管畸形和肿瘤的鉴别，与可能在婴儿期出现的肝母细胞瘤、肝血管畸形、间叶性错构瘤、肉瘤(横纹肌肉瘤、胚胎性肉瘤、血管肉瘤)、转移性神经母细胞瘤和肝癌等区分开来。
+推荐意见11：肝母细胞瘤MRI和CT的增强扫描表现形式与小儿肝血管瘤不同，AFP常持续异常增高。
+推荐意见12：小儿肝血管瘤和肝血管畸形的鉴别较为困难，主要以发病年龄、肿瘤数量、大小以及影像学检查区分。
+七、治疗方式的选择
+小儿肝血管瘤的治疗目前尚无定论。在实施具体治疗措施前，应对患儿的临床表现、影像学特征、病理特征以及实验室检测结果进行综合评估，并根据肿瘤亚型(局灶型、多发型、弥漫型)、大小、供血血管解剖、有无并发症(充血性心力衰竭、动静脉分流、凝血功能障碍、腹腔间隔室综合征等)及并发症的严重程度制定最佳方法，做到持续护理、控制严重并发症和密切随访(包括家长教育)。小儿肝血管瘤患儿治疗流程见图1。
+点击查看大图
+图1
+小儿肝血管瘤治疗流程图
+图1
+小儿肝血管瘤治疗流程图
+(一)保守观察
+CHH在患儿出生后不久即可开始自行消退。而对于IHH，患儿生后1年是其生长期，1岁之后即便不予干预，也可能自行消退。故通常对于无症状的局灶性肝血管瘤患儿建议采用保守观察，推荐使用连续随访观察来记录肿瘤大小变化[27]。根据肿瘤大小变化调整随诊间隔时间。对大部分肝血管瘤患儿而言，保守观察策略是可行的，但如果伴有明显的动静脉分流、心力衰竭、贫血或严重的甲状腺功能减退等并发症，则需要治疗干预。
+推荐意见13：无症状的局灶型或多发型肝血管瘤患儿可先采用保守观察，每2周至3个月做超声检查随诊，病变稳定后增加间隔时间，每3～6个月行超声检查直至消退。
+(二)药物治疗
+考虑到小儿肝血管瘤消退需要一定时间，且肿瘤增大具有一定危险性，对于初次诊断即有症状表现且不适合保守观察的患儿，药物治疗常作为首选，包括：普萘洛尔、糖皮质激素、雷帕霉素、长春新碱和干扰素等。
+1．普萘洛尔
+适用于所有类型血管瘤，是目前治疗小儿肝血管瘤的一线用药，取代了以前的首选治疗药物皮质类固醇。普萘洛尔的剂量通常为1～2 mg·kg-1·d-1，每天分2次给药，持续6～12个月(但当出现并发症如肾病综合征或副作用如精神障碍时则停用)[20,28]。目前认为其可能通过收缩血管、减少血管内皮生长因子和成纤维细胞生长因子的生成和抑制细胞增殖来缩小病灶[29]。普萘洛尔存在腹泻、低血压、低血糖、心动过缓、支气管痉挛加重等副作用，但程度较轻。开始用药时，建议以最低剂量用药，在生命体征平稳的前提下，逐渐调整用药剂量。
+2．糖皮质激素
+作用机制尚未明确，可能通过抑制血管内皮细胞增生而使肿瘤稳定。在改善充血性心力衰竭、减少肝血管分流等方面效果良好，但不可忽视的是其可能发生的副作用较多，如胃刺激、骨质疏松、心理影响及背部、面部和腹部的脂肪沉积异常等。此外，研究发现有相当比例的患儿(23.1%)对类固醇具有耐药性[30,31]。因此，目前单独应用少见。对于弥漫型肝血管瘤患儿，普萘洛尔和糖皮质激素组合应用疗效更好[32,33]。激素通常使用泼尼松龙治疗，其方案为1～1.5 mg·kg-1·d-1，使用2～3周后，根据瘤体消退状况在2～3个月内逐渐减停[34]。
+3．二线药物
+包括雷帕霉素、长春新碱及干扰素等。这些药物虽有文献报道，但治疗效果仍无法确定，存在一定争议。近年来，雷帕霉素因其具有抗血管生成作用而被广泛应用于多种血管肿瘤和畸形，可通过下调血管生成素和胎盘生长因子-1发挥作用。对一线药物治疗无效的血管瘤，使用雷帕霉素可以取得较好疗效，联合普萘洛尔及糖皮质激素治疗可能具有协同效应，使治疗效果最大化[35]。长春新碱和干扰素临床应用较少，目前仅应作为患儿发生危及生命的并发症且其他药物治疗均无效时的选择[36,37]。对于有严重心力衰竭的肝血管瘤患儿，应同时使用洋地黄、利尿剂和类固醇进行治疗。
+推荐意见14：药物治疗首选普萘洛尔，可以从1 mg·kg-1·d-1开始，逐渐增量，到3 d时增量至2 mg·kg-1·d-1。也可根据并发症或副作用的不同，适当减少剂量或停用。
+推荐意见15：对于普萘洛尔治疗效果不佳的弥漫型肝血管瘤患儿，推荐采用普萘洛尔联合应用糖皮质激素治疗。
+(三)介入治疗
+介入治疗主要为经皮肝动脉栓塞术(transhepatic arterial embolization，TAE)，适用于药物控制不佳，外科切除手术风险大，特别是血流动力学不稳定，合并有动静脉或门静脉分流甚至心力衰竭的患儿，可显著减少分流、改善心力衰竭，为患儿争取缓冲时间。此外，肝动脉栓塞可以在手术前进行，以减少药物治疗无效患儿的肿瘤血管供应[5,12]。对于巨大血管瘤，将TAE与手术结合是一种提高手术安全性的方法。TAE安全性、有效性、敏感性高，熟练的儿科介入放射科医生常可以成功栓塞症状性分流以改善心力衰竭，同时保护主要肝血管。由于患儿年龄小，对介入手术耐受有限，因此应充分做好术前评估准备，术中操作轻柔，术后注意防范肝功能异常、肝内胆管损伤、肝叶萎缩及异位栓塞等并发症。有研究发现，介入栓塞后患儿临床症状均得到明显改善，疗效肯定，值得推广[38]。但介入治疗有创、昂贵、作用有限且容易反复，并不建议首选，仅作为有效的辅助治疗手段。射频消融或微波固化，多在成人开展，小儿中少有报道，无法确定其安全性和疗效。
+推荐意见16：TAE可显著减少或解除动静脉分流、改善心力衰竭，是小儿肝血管瘤有效的辅助治疗手段。
+(四)手术治疗
+手术切除疗效确切、治疗彻底，应严格把握切除指征，对于药物治疗失败、有明显症状和局灶性或多发性病变(肿瘤直径>5 cm)的肝血管瘤患儿，原则上可以行手术治疗[19]。手术方式应根据血管瘤的解剖位置、大小、数量而定，包括肝血管瘤切除术、肝部分切除术(肝段切除术、肝叶切除术、半肝切除术等)和肝动脉结扎等。界限清楚的局灶性病变，可行肝血管瘤切除术，但操作不当可能会导致创面大出血。在尽可能保留更多正常肝组织的情况下，行肝部分切除术更为安全彻底[17]。因手术可能导致出血和肝坏死等并发症。对于解剖位置深、手术风险大及肝内多发或弥漫性血管瘤患儿，是否进行手术治疗，应慎重处理。肝动脉结扎与肝动脉栓塞指征相同，适用于有高流量动静脉分流、心力衰竭且药物治疗失败、手术切除亦有困难的患儿，目前多被TAE取代[14]。
+推荐意见17：严格把握手术指征，以患儿安全为首要原则，评估手术风险，制订合理的个体化手术方案。
+(五)肝移植
+肝移植是不适用上述治疗方法或治疗无效的危重症患儿的最终选择。对于肝广泛、弥漫性病灶，症状明显、伴有严重并发症且药物治疗无效、无法进行手术切除或介入治疗失败及血管瘤破裂后可能危及生命的肝血管瘤患儿，建议行肝移植手术。但尽管肝移植术后效果良好，也应考虑到移植术后出现快速失代偿的可能[39]。
+推荐意见18：肝移植适用于有肝内弥漫性血管瘤病变、无法手术切除且其他治疗方法无效的危重症患儿。
+八、预后
+肝血管瘤患儿预后大多良好，除非合并凝血功能障碍、甲状腺功能减退、CHF和腹腔间隔室综合征等严重并发症。且患儿合并的并发症越多，预后越差，死亡率越高。在未经治疗的肝血管瘤患儿中，有70%的死亡原因是心力衰竭和腹腔间隔室综合征[5]。不同研究报道的肝血管瘤患儿死亡率不同，范围从0到53.8%，多发性和弥漫性病变患儿的死亡率约为16%，多数合并腹腔间隔室综合征和心力衰竭，其中弥漫性病变患儿死亡率更高[5,40]。
+推荐意见19：早期监测多发性和弥漫性肝血管瘤病变，尽早干预，可有效降低死亡率。
+九、家长教育
+肝血管瘤患儿的父母应共同参与治疗方案的决策[13]。临床医生应该对患儿父母进行相关知识教育，包括疾病的自然病程、预期的治疗效果，以及其可能导致的并发症和严重后果。确保父母了解孩子的病情变化，避免家长对疾病的不重视或过于焦虑。如果建议进行药物治疗，应将向父母介绍药物及使用剂量、可能的副作用和预期的治疗时间，避免家长由于担心潜在的药物副作用而拒绝治疗。家长的支持和理解，可使患儿得到及时的观察和治疗，可能有助于改善疾病预后。
+十、随访
+随访可为临床治疗提供指导性建议及帮助。小儿肝血管瘤通常为良性病变，但也常出现各种并发症，甚至危及患儿生命。特别当血管瘤发生在1岁以后或血管瘤(特别是多发型和弥漫型)退而复现时，应格外警惕其恶性可能[41,42]。这提示肝血管瘤患儿应定期行超声检查，评估肿瘤生长状况，直至其完全消退或钙化形成。每次评估稳定后，超声检查间隔时间可逐渐延长。一旦发现患儿出现新的症状，如肝超声分流增加或甲状腺功能减退等，应复查超声心动图，警惕心力衰竭的发生。严重时，应重新评估患儿病情程度和治疗方案。
+推荐意见20：小儿肝血管瘤多预后良好，但也有继续进展的可能，建议定期随诊直至肿瘤完全消退。
+(徐晓丹 詹江华 执笔)
+本共识编审委员会成员名单(按姓氏拼音排序)：董岿然(复旦大学附属儿科医院)；冯杰雄(华中科技大学同济医学院附属同济医院)；高伟(天津市第一中心医院)；黄格元(香港大学玛丽医院)；胡显良(成都市妇女儿童中心医院)；吉毅(四川大学华西医院)；李凯(复旦大学附属儿科医院)；李仲荣(温州医科大学附属第二医院)；刘潜(赣南医学院第一附属医院)；刘杨(天津市儿童医院)；刘远梅(遵义医学院第一附属医院)；罗意革(广西医科大学第一附属医院)；彭凌(中华小儿外科杂志编辑部)；唐维兵(南京儿童医院)；王斌(深圳儿童医院)；王焕民(首都医科大学附属北京儿童医院)；王金湖(浙江大学医院院附属儿童医院)；王奕(重庆医科大学附属儿童医院)；温哲(广州市妇女儿童医疗中心)；吴晓娟(华中科技大学同济医学院附属同济医院)；向波(四川大学华西医院)；闫学强(武汉儿童医院)；尹强(湖南省儿童医院)；余家康(广州市妇女儿童医疗中心)；詹江华(天津市儿童医院)；张明满(重庆医科大学附属儿童医院)；赵强(天津医科大学附属肿瘤医院)
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+LerutJ，IesariS．
+Vascular tumours of the liver：a particular story[J]．
+Transl Gastroenterol Hepatol，
+2018，
+3：
+62.
+DOI：10.21037/tgh.2018.09.02.
+[2]
+ZhangXT，RenWD，SongG，et al.
+Infantile hepatic hemangiomas associated with high-output cardiac failure and pulmonary hypertension[J]．
+BMC Cardiovasc Disord，
+2019，
+19(
+1)：
+216.
+DOI：10.1186/s12872-019-1200-6.
+[3]
+IacobasI，PhungTL，AdamsDM，et al.
+Guidance document for hepatic hemangioma (infantile and congenital) evaluation and monitoring[J]．
+J Pediatr，
+2018，
+203：
+294-
+300.e2.
+DOI：10.1016/j.jpeds.2018.08.012.
+[4]
+WassefM，BleiF，AdamsD，et al.
+Vascular anomalies classification：recommendations from the international society for the study of vascular anomalies[J].
+Pediatrics，
+2015，
+136(
+1)：
+e203-
+e214.
+DOI：10.1542/peds.2014-3673.
+[5]
+ZavrasN，DimopoulouA，MachairasN，et al.
+Infantile hepatic hemangioma：current state of the art，controversies，and perspectives[J]．
+Eur J Pediatr，
+2020，
+179(
+1)：
+1-
+8.
+DOI：10.1007/s00431-019-03504-7.
+[6]
+ChioreanL，CuiXW，TannapfelA，et al.
+Benign liver tumors in pediatric patients -Review with emphasis on imaging features[J]．
+World J Gastroenterol，
+2015，
+21(
+28)：
+8541-
+8561.
+DOI：10.3748/wjg.v21.i28.8541.
+[7]
+Leon-VillapalosJ，WolfeK，KangesuL．
+GLUT-1：an extra diagnostic tool to differentiate between haemangiomas and vascular malformations[J]．
+Br J Plast Surg，
+2005，
+58(
+3)：
+348-
+352.
+DOI：10.1016/j.bjps.2004.05.029.
+[8]
+Christison-LagayER，BurrowsPE，AlomariA，et al.
+Hepatic hemangiomas：subtype classification and development of a clinical practice algorithm and registry[J]．
+J Pediatr Surg，
+2007，
+42(
+1)：
+62-
+68.
+DOI：10.1016/j.jpedsurg.2006.09.041.
+[9]
+ChungEM，CubeR，LewisRB，et al.
+From the archives of the AFIP：Pediatric liver masses：radiologic-pathologic correlation part 1.Benign tumors[J].
+Radiographics，
+2010，
+30(
+3)：
+801-
+826.
+DOI：10.1148/rg.303095173.
+[10]
+姚伟，李凯，董岿然，等．
+婴幼儿肝血管瘤82例分类特点及疗效分析[J]．
+中华小儿外科杂志，
+2018，
+39(
+10)：
+739-
+743.
+DOI：10.3760/cma.j.issn.0253-3006.2018.10.005.
+YaoW，LiK，DongKR，et al.Classification characteristics and therapeutic efficacies of hepatic hemangioma：a report of 82 cases[J]．Chin J Pediatr Surg，2018，39(10)：739-743.DOI：10.3760/cma.j.issn.0253-3006.2018.10.005.
+[11]
+ZhangZ，ChenHJ，YangWJ，et al.
+Infantile hepatic hemangioendothelioma：a clinicopathologic study in a Chinese population[J]．
+World J Gastroenterol，
+2010，
+16(
+36)：
+4549-
+4557.
+DOI：10.3748/wjg.v16.i36.4549.
+[12]
+GnarraM，BehrG，KitajewskiA，et al.
+History of the infantile hepatic hemangioma：from imaging to generating a differential diagnosis[J]．
+World J Clin Pediatr，
+2016，
+5(
+3)：
+273-
+280.
+DOI：10.5409/wjcp.v5.i3.273.
+[13]
+KrowchukDP，FriedenIJ，ManciniAJ，et al.
+Clinical practice guideline for the management of infantile hemangiomas[J].
+Pediatrics，
+2019，
+143(
+1)：
+e20183475.
+DOI：10.1542/peds.2018-3475.
+[14]
+刘莹华．
+小儿肝血管瘤的分类及诊治进展[J]．
+中华小儿外科杂志，
+2014，
+35(
+12)：
+949-
+952.
+DOI：10.3760/cma.j.issn.0253-3006.2014.12.016.
+LiuYH.Classification, diagnosis and treatment progress of hepatic hemangioma in children[J]．Chin J Pediatr Surg，2014，35(12)：949-952. DOI：10.3760/cma.j.issn.0253-3006.2014.12.016.
+[15]
+KalpatthiR，GermakJ，MizelleK，et al.
+Thyroid abnormalities in infantile hepatic hemangioendothelioma[J]．
+Pediatr Blood Cancer，
+2007，
+49(
+7)：
+1021-
+1024.
+DOI：10.1002/pbc.20801.
+[16]
+EmadA，FadelS，El wakeelM，et al.
+Outcome of children treated for infantile hepatic hemangioendothelioma[J]．
+J Pediatr Hematol，
+2020，
+42(
+2)：
+126-
+130.
+DOI：10.1097/mph.0000000000001536.
+[17]
+刘志苏．
+肝血管瘤诊治应注意的几个问题[J]．
+腹部外科，
+2012，
+25(
+3)：
+129-
+130.
+DOI：10.3969/j.issn.1003-5591.2012.03.001.
+LiuZS.Several problems in diagnosis and treatment of hepatic hemangioma[J]．J Abdom Surg，2012，25(3)：129-130. DOI：10.3969/j.issn.1003-5591.2012.03.001.
+[18]
+袁新宇．
+重视儿童肝脏原发肿瘤的影像诊断[J]．
+中国医学影像技术，
+2017，
+33(
+9)：
+1285-
+1287.
+DOI：10.13929/j.1003-3289.201708147.
+YuanXY.Pay attention to imaging diagnosis of primary tumors in liver of children[J]．Chin J Med Imaging Technol，2017，33(9)：1285-1287. DOI：10.13929/j.1003-3289.201708147.
+[19]
+杨合英，李月云，张大，等．
+新生儿肝脏血管瘤的临床诊治分析[J]．
+肿瘤基础与临床，
+2014，
+27(
+4)：
+343-
+345.
+DOI：10.3969/j.issn.1673-5412.2014.04.031.
+YangHY，LiYY，ZhangD，et al.Clinical diagnosis and treatment of neonatal hepatic hemangioma[J]．J Basic Clin Oncol，2014，27(4)：343-345. DOI：10.3969/j.issn.1673-5412.2014.04.031.
+[20]
+BosemaniT，PuttgenKB，HuismanTAGM，et al.
+Multifocal infantile hepatic hemangiomas：imaging strategy and response to treatment after propranolol and steroids including review of the literature[J]．
+Eur J Pediatr，
+2012，
+171(
+7)：
+1023-
+1028.
+DOI：10.1007/s00431-011-1671-7.
+[21]
+余杨红，陶强，黄伟，等．
+儿童肝脏血管源性瘤的CT诊断和鉴别诊断[J]．
+中国临床医学影像杂志，
+2015，
+26(
+1)：
+50-
+52.
+YuYH，TaoQ，HuangW，et al.CT diagnosis and differential diagnosis of liver hemangioma in pediatric[J]．J China Clin Med Imaging，2015，26(1)：50-52.
+[22]
+ÖzmenE，AdaletliI·，KayadibiY，et al.
+The impact of share wave elastography in differentiation of hepatic hemangioma from malignant liver tumors in pediatric population[J]．
+Eur J Radiol，
+2014，
+83(
+9)：
+1691-
+1697.
+DOI：10.1016/j.ejrad.2014.06.002.
+[23]
+黄一晋，王焕民．
+甲胎蛋白异质体在儿童肿瘤中的研究进展[J].
+中华小儿外科杂志，
+2017，
+38(
+5)：
+395-
+398.
+DOI：10.3760/cma.j.issn.0253-3006.2017.05.017.
+HuangYJ，WangHM.Research advances of alpha-fetoprotein variants in pediatric tumors[J]. Chin J Pediatr Surg，2017，38(5)：395-398. DOI：10.3760/cma.j.issn.0253-3006.2017.05.017.
+[24]
+KimTJ，LeeYS，SongYS，et al.
+Infantile hemangioendothelioma with elevated serum alpha fetoprotein：report of 2 cases with immunohistochemical analysis[J]．
+Hum Pathol，
+2010，
+41(
+5)：
+763-
+767.
+DOI：10.1016/j.humpath.2009.05.019.
+[25]
+AcharyaS，GiriPP，DasD，et al.
+Hepatic hemangioendothelioma：a rare cause of congenital hypothyroidism[J]．
+Indian J Pediatr，
+2019，
+86(
+3)：
+306-
+307.
+DOI：10.1007/s12098-018-2806-x.
+[26]
+SigamaniE，IyerVK，AgarwalaS．
+Fine needle aspiration cytology of infantile haemangioendothelioma of the liver：a report of two cases[J]．
+Cytopathology，
+2010，
+21(
+6)：
+398-
+402.
+DOI：10.1111/j.1365-2303.2010.00739.x.
+[27]
+Hsi DickieB，FishmanSJ，AzizkhanRG.
+Hepatic vascular tumors[J].
+Semin Pediatr Surg，
+2014，
+23(
+4)：
+168-
+172.
+DOI：10.1053/j.sempedsurg.2014.06.018.
+[28]
+普萘洛尔治疗婴幼儿血管瘤共识专家小组．
+口服普萘洛尔治疗婴幼儿血管瘤专家共识[J]．
+中华小儿外科杂志，
+2019，
+40(
+10)：
+865-
+869.
+DOI：10.3760/cma.j.issn.0253-3006.2019.10.001.
+Expert Group of Consensus on Treating Infantile Hemangiomas with Oral Propranolol. Consensus on oral propranolol treatment for infantile hemangiomas[J]. Chin J Pediatr Surg，2019，40(10)：865-869. DOI：10.3760/cma.j.issn.0253-3006.2019.10.001.
+[29]
+Léauté-LabrèzeC，HarperJI，HoegerPH.
+Infantile haemangioma[J]．
+Lancet，
+2017，
+390(
+10089)：
+85-
+94.
+DOI：10.1016/s0140-6736(16)00645-0.
+[30]
+JiY，ChenSY，XiangB，et al.
+Clinical features and management of multifocal hepatic hemangiomas in children：a retrospective study[J]．
+Sci Rep，
+2016，
+6(
+1)：
+31744.
+DOI：10.1038/srep31744.
+[31]
+KurodaT，KumagaiM，NosakaS，et al.
+Critical infantile hepatic hemangioma：results of a nationwide survey by the Japanese Infantile Hepatic Hemangioma Study Group[J]．
+J Pediatr Surg，
+2011，
+46(
+12)：
+2239-
+2243.
+DOI：10.1016/j.jpedsurg.2011.09.007.
+[32]
+SaralioğluF，YazcN，ErbayA，et al.
+A new perspective for infantile hepatic hemangioma in the age of propranolol：experience at baskent university[J].
+Exp Clin Transplant，
+2017，
+15(
+Suppl 2)：
+74-
+78.
+DOI：10.6002/ect.TOND16.L19.
+[33]
+VarrassoG，SchiavettiA，LanciottiS，et al.
+Propranolol as first-line treatment for life-threatening diffuse infantile hepatic hemangioma：a case report[J]．
+Hepatology，
+2017，
+66(
+1)：
+283-
+285.
+DOI：10.1002/hep.29028.
+[34]
+ÖzdemirZC，Düzenli KarY，瘙塁öhretNC，et al.
+Beta blocker and steroid therapy in the treatment of infantile hepatic hemangioendothelioma[J].
+Drug Discov Ther，
+2017，
+11(
+3)：
+161-
+164.
+DOI：10.5582/ddt.2017.01025.
+[35]
+LekwuttikarnR，JosephsS，TengJM.
+Successful medical management of life-threatening hepatic hemangioma in neonates[J].
+Pediatrics，
+2019，
+144(
+4)：
+e20191339.
+DOI：10.1542/peds.2019-1339.
+[36]
+WassermanJD，MahantS，CarcaoM，et al.
+Vincristine for successful treatment of steroid-dependent infantile hemangiomas[J].
+Pediatrics，
+2015，
+135(
+6)：
+e1501-
+e1505.
+DOI：10.1542/peds.2014-2542.
+[37]
+YehI，BrucknerAL，SanchezR，et al.
+Diffuse infantile hepatic hemangiomas：a report of four cases successfully managed with medical therapy[J]．
+Pediatr Dermatol，
+2011，
+28(
+3)：
+267-
+275.
+DOI：10.1111/j.1525-1470.2011.01421.x.
+[38]
+阴捷，王驰，刘玥．
+肝血管内皮细胞瘤伴动静脉分流的影像学表现与介入治疗疗效评估[J]．
+中华普通外科杂志，
+2019，
+34(
+8)：
+689-
+692.
+DOI：10.3760/j.issn:1007-631X.2001.08.012.
+YinJ，WangC，LiuY．Imaging findings of hepatic hemangioendothelioma with arteriovenous shunt and evaluation of interventional therapy[J]. Chin J Gen Surg，2019，34(8)：689-692. DOI：10.3760/j.issn:1007-631X.2001.08.012.
+[39]
+GrabhornE，RichterA，FischerL，et al.
+Neonates with severe infantile hepatic hemangioendothelioma：limitations of liver transplantation[J]．
+Pediatr Transplant，
+2009，
+13(
+5)：
+560-
+564.
+DOI：10.1111/j.1399-3046.2008.01039.x.
+[40]
+RialonKL，MurilloR，FevurlyRD，et al.
+Risk factors for mortality in patients with multifocal and diffuse hepatic hemangiomas[J]．
+J Pediatr Surg，
+2015，
+50(
+5)：
+837-
+841.
+DOI：10.1016/j.jpedsurg.2014.09.056.
+[41]
+JengMR，FuhB，BlattJ，et al.
+Malignant transformation of infantile hemangioma to angiosarcoma：response to chemotherapy with bevacizumab[J]．
+Pediatr Blood Cancer，
+2014，
+61(
+11)：
+2115-
+2117.
+DOI：10.1002/pbc.25067.
+[42]
+GrassiaKL，PetermanCM，IacobasI，et al.
+Clinical case series of pediatric hepatic angiosarcoma[J]．
+Pediatr Blood Cancer，
+2017，
+64(
+11)：
+e26627.
+DOI：10.1002/pbc.26627.
+贡献者信息
+中华医学会小儿外科学分会肝胆外科学组
+中华医学会小儿外科学分会肿瘤学组
+通信作者
+詹江华
+Email：
+zhanjianghuatj@163.com
+王焕民
+Email：
+wanghuanmin@bch.com.cn
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-11-15
+收稿日期：2020-02-28
+Guideline and Consensus
+Expert Consensus on Diagnosing and Treating Hepatic Hemangioma in Children
+Section of Hepatobiliary Surgery, Branch of Pediatric Surgery, Chinese Medical Association;,  Section of Oncology, Branch of Pediatric Surgery, Chinese Medical Association
+Published
+2020-11-15
+Cite as
+Chin J Pediatr Surg, 2020,41(11): 963-970. DOI: 10.3760/cma.j.cn421158-20200228-00124
+Contributor Information
+Section of Hepatobiliary Surgery, Branch of Pediatric Surgery, Chinese Medical Association;
+Section of Oncology, Branch of Pediatric Surgery, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+小儿肝血管瘤临床分型
+临床分型
+临床表现
+病理表现
+Glut-1染色
+病程
+治疗
+局灶型
+多发生于围产期，常有症状表现，少数伴有皮肤血管瘤，可能合并CHF
+病灶较大，常伴中央坏死、出血或纤维化
+阴性
+出生后逐渐消退
+保守观察；药物治疗；必要时介入治疗；手术治疗
+多发型
+发生于生后数月内，通常无症状，常伴有皮肤血管瘤，有些可合并CHF
+病灶较小，无中央坏死
+阳性
+生后1年左右为快速增长期，随后逐渐消退
+保守观察；药物治疗
+弥漫型
+较少见，发生于生后数月内，有明显症状，可继发腹腔间隔室综合征、甲状腺功能减退、低输出型心力衰竭等严重并发症
+肝明显增大，满布病灶
+阳性
+病程复杂，无明显规律
+药物治疗(注意甲状腺激素替代治疗)；介入治疗；肝移植
+图1
+小儿肝血管瘤治疗流程图
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华小儿外科杂志2020年41卷11期
+文    题：小儿肝血管瘤诊断和治疗专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华小儿外科杂志2020年41卷11期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

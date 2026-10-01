@@ -1,0 +1,902 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%A4%9A%E5%9B%8A%E5%8D%B5%E5%B7%A2%E7%BB%BC%E5%90%88%E5%BE%81%E8%AF%8A%E6%B2%BB%E5%86%85%E5%88%86%E6%B3%8C%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 多囊卵巢综合征诊治内分泌专家共识 - 中华内分泌代谢杂志
+# 发布方/日期: 妇产科，中华内分泌代谢杂志, 2018,34(1) : 1-7. DOI: 10.3760/cma.j.iss；2018-01-25
+
+多囊卵巢综合征诊治内分泌专家共识
+中国医师协会内分泌代谢科医师分会
+中华内分泌代谢杂志, 2018,34(1) : 1-7. DOI: 10.3760/cma.j.issn.1000-6699.2018.01.001
+一、概述
+多囊卵巢综合征(polycystic ovary syndrome，PCOS)又称Stein-Leventhal综合征，由Stein和Leventhal于1935年首次报道[1]，是由遗传和环境因素共同导致的常见内分泌代谢疾病。在育龄妇女中，其患病率约为5%~10%[2]，常见的临床表现为月经异常、不孕、高雄激素血征、卵巢多囊样表现等，可伴有肥胖、胰岛素抵抗、血脂紊乱等代谢异常，是2型糖尿病、心脑血管疾病和子宫内膜癌发病的高危因素[3,4]。
+二、流行病学
+PCOS的患病率因其诊断标准、种族、地区、调查对象等的不同而不同，高发年龄段为20~35岁。根据2003年鹿特丹诊断标准，我国育龄期妇女的患病率为5.6%[5]。
+三、病因学
+PCOS的发病机制目前尚不明确，与遗传及环境因素密切相关，涉及神经内分泌及免疫系统的复杂调控网络。
+(一)遗传因素
+PCOS与遗传有关，有家族聚集性，患者一级亲属患PCOS的风险明显高于正常人群。家系分析显示，PCOS呈常染色体显性遗传或X染色体连锁显性遗传，但不完全遵循孟德尔遗传定律[6,7]。PCOS是一种多基因病，目前的候选基因研究涉及胰岛素作用相关基因、高雄激素相关基因和慢性炎症因子相关基因等[8]。
+(二)环境因素
+环境因素参与了PCOS的发生、发展。宫内高雄激素环境、环境内分泌干扰物如双酚A、持续性有机污染物如多氯联苯(PCBs)、抗癫痫药物、营养过剩和不良生活方式等均可能增加PCOS发生的风险[9,10,11]。
+四、临床表现
+(一)月经异常及排卵异常
+月经异常可表现为周期不规律(即初潮2年后仍不能建立规律月经)、月经稀发(即周期≥35d)、量少或闭经(停经时间超过3个以往月经周期或≥6个月)，还有一些不可预测的出血。排卵异常表现为稀发排卵(每年≥3个月不排卵者)或无排卵。
+(二)高雄激素的临床表现
+1．多毛：
+上唇、下颌、胸背部(包括乳晕)、下腹部(包括脐周及脐中线)、大腿内侧可见较粗的体毛，阴毛呈男性型分布，mFG评分中国人群大于4分，即提示多毛[12]。
+2．痤疮：
+大约25%~35% PCOS患者伴有痤疮，而83%女性严重痤疮患者是PCOS。伴有高雄激素表现的痤疮多见于青春期后痤疮，皮损表现为粉刺、丘疹、脓疱和结节，好发于面部中下1/3处，常伴有明显皮脂溢出和月经前期加重，对常规治疗抵抗。临床常用Pillsburg四级改良分级法将痤疮严重程度分为Ⅰ-Ⅳ级[13]。
+3．脱发：
+常表现雄激素源性脱发，头发从前额两侧开始变纤细而稀疏，逐渐向头顶延伸，但前额发际线不后移。
+4．男性化体征：
+声音低沉，喉结突出，女性第二性征逐渐减退与消失，如乳房变小、阴蒂增大。
+(三)胰岛素抵抗相关的代谢异常
+1．肥胖：
+PCOS患者肥胖的患病率为30%~60%[14,15]，以腹型肥胖为主。我国有34.1%~43.3%的PCOS患者合并肥胖[5]。
+2．黑棘皮病：
+它是高胰岛素血症在皮肤的表现，是高代谢风险的临床标志之一。多发生于颈部、腋窝、腹股沟以及乳房下方，皮肤表现为绒毛状角化过度及灰棕色色素沉着。
+3．糖调节受损(IGR)/2型糖尿病：
+IGR包括空腹血糖受损(IFG)及糖耐量受损(IGT)，PCOS患者以餐后血糖升高为主，IGT的风险显著高于年龄和BMI匹配的女性。流行病学调查显示，PCOS患者中IGT发生率约为35%[15]，2型糖尿病发生率约为10%[15]。
+4．脂代谢异常：
+约70%的PCOS患者存在脂代谢异常，主要表现为三酰甘油(TG)、低密度脂蛋白(LDL)以及非高密度脂蛋白(nHDL)升高；与年龄、体重指数(BMI)匹配的对照者相比，非肥胖型PCOS患者也存在低HDL、高极低密度脂蛋白(VLDL)和高LDL的特征[15]。
+5．非酒精性脂肪肝(NAFLD)：
+PCOS患者较年龄和体重匹配的正常妇女更易患NAFLD，且病理评分更高[16]。高雄激素血症的PCOS患者较非高雄激素血症的PCOS患者更易发生NAFLD[17]。
+6．高血压：
+PCOS患者常以收缩压升高为主，30岁以后其发病率开始增加，30~45岁达到正常同龄人的3~5倍，绝经后期亦是正常人群的3倍[18,19]。
+7．心血管疾病风险：
+随着年龄的增长，PCOS患者心血管疾病风险显著升高[20]。PCOS患者血管功能不良与肥胖相关。此外，与年龄和BMI匹配的非PCOS患者相比，PCOS患者中颈动脉内膜中层增厚、冠状动脉钙化以及轻度主动脉钙化更为显著[21,22]。
+(四)代谢紊乱对女性生殖功能及围产期的影响
+肥胖和胰岛素抵抗被认为可以破坏窦卵泡的发育，干扰下丘脑-垂体-卵巢轴，导致慢性不排卵[23]。研究显示，肥胖PCOS患者不孕率更高，而且对诱导排卵的药物反应性差，胚胎质量也差，体外受精(IVF)移植成功率、怀孕率、活产率均低，流产率高，妊娠并发症多[24]。另外，孕前期和孕早期的胰岛素抵抗会增加患者孕期糖尿病、高血压和先兆子痫的发生率，导致胎盘功能不全、流产、先天畸形、早产、死产，首次剖宫产率升高，新生儿并发症增多，同时胎儿成年后出现肥胖、胰岛素抵抗和糖尿病的风险增加[24]。有研究显示，血浆和卵泡液中硬脂酸、油酸的浓度与卵母细胞的发育能力和不良的妊娠结局有关[25]。
+五、诊断及鉴别诊断
+(一)诊断依据
+1．病史询问：
+患者月经情况(初潮时间、月经周期、月经量等)，有无高雄激素血症临床表现(多毛、痤疮等)，代谢异常情况(肥胖、糖尿病、高血压等)，目前是否有生育要求，既往有无不孕病史及不良妊娠史，饮食和生活习惯，家族中是否有肥胖、糖尿病、高血压、冠心病患者以及女性亲属是否存在月经异常、不良生育史和妇科肿瘤病史，都需仔细询问。
+2．体格检查：
+测定身高、体重、腰围、臀围、血压，评估多毛和痤疮，检查有无甲状腺肿大，评估乳房发育情况(Tanner分级)[26]，并了解有无挤压溢乳，是否有萎缩纹、黑棘皮病及阴蒂肥大。
+3．实验室检查：
+(1)生殖轴的评估：①高雄激素血症的评估：目前没有适用于临床广泛开展的精准评估方法，最常用的是测定血清总睾酮水平。由于不同单位测定的方法和参考范围不同，如果测定值高于当地女性参考范围的正常上限即可考虑高雄激素血症。PCOS患者血清总睾酮正常或轻度升高，通常不超过正常上限的2倍，可伴有雄烯二酮升高，硫酸脱氢表雄酮(DHEA-S)正常或轻度升高。若有条件，建议同时测定性激素结合球蛋白(SHBG)，计算游离雄激素指数(FAI)＝[总睾酮(nmol/L)×100/SHBG(nmol/L)]，能更好地反映体内活性睾酮的水平，FAI正常值为0.7~6.4[27,28]。②黄体生成素(LH)、卵泡刺激素(FSH)、雌二醇：月经第2~5天或B超未见优势卵泡时进行测定。部分PCOS患者可伴有LH/FSH比值≥2。③抗苗勒激素(AMH)：若有条件，建议检测AMH以协助诊断，PCOS患者的血清AMH水平较正常增高。(2)其他内分泌激素测定排除相关疾病(详见鉴别诊断)：甲状腺功能、肾上腺皮质功能、血清催乳素、血清17-羟孕酮(17-OHP)等。(3)代谢风险和心血管疾病风险评估：①葡萄糖耐量试验(OGTT)+胰岛素释放试验(IRT)测定：推荐5点法(0、30、60、120、180 min)。②其他指标：血脂、肝功能、肾功能、C反应蛋白、同型半胱氨酸、心电图、颈动脉超声，若有条件可行体脂率分析。
+4．子宫及附件超声检查：
+超声检查前应停用性激素类药物至少1个月。月经周期的第3~5天(月经规律者)或无优势卵泡状态下行超声检查，稀发排卵患者若有卵泡直径>10 mm或有黄体出现，应在以后周期进行复查。推荐腔内超声检查，无性生活者需经直肠超声检查、有性生活者经阴道超声检查。需注意的是卵巢多囊(PCO)并非PCOS所特有。正常育龄妇女中20%~30%可有PCO，PCO也可见于口服避孕药后、闭经等情况。
+5．诊断标准：
+(1)育龄期PCOS的诊断：根据2011年中国PCOS的诊断标准[29]，符合以下条件：疑似PCOS：月经稀发或闭经或不规则子宫出血是诊断的必须条件。另外再符合下列2项中的1项：(a)高雄激素表现或高雄激素血症；(b)超声表现为PCO。标准的评估方法：(a)月经稀发，月经周期35 d~6个月；闭经：继发性闭经(停经时间≥6个月)常见；原发性闭经(16岁尚无月经初潮)少见；不规则子宫出血，月经周期或经量无规律性。(b)高雄激素表现包括痤疮(复发性痤疮，常位于额、双颊、鼻及下颌等部位)、多毛(上唇、下颌、乳晕周围、下腹正中线等部位出现粗硬毛发；高雄激素血症依据总睾酮的测定，睾酮水平与临床高雄激素症状的程度无相关关系。(c)PCO诊断标准：一侧或双侧卵巢内直径2~9 mm的卵泡数≥12个/卵巢，和(或)卵巢体积≥10 ml[卵巢体积按0.5×长径×横径×前后径(cm)计算]。排除诊断：排除其他类似的疾病是确诊PCOS的条件。部分PCOS患者可伴有催乳素轻度升高，但如果催乳素水平升高明显，应排除垂体催乳素瘤；对稀发排卵或无排卵患者，应测定FSH和雌二醇水平以排除卵巢早衰和中枢性闭经、测定甲状腺功能以排除甲减/甲亢引发的月经紊乱；如高雄激素血症或明显的高雄激素临床表现，应排除非典型性肾上腺皮质增生(NCAH)、皮质醇增多症、分泌雄激素的卵巢肿瘤等。确诊PCOS：具备上述疑似PCOS诊断条件后还必须逐一排除其他可能引起高雄激素的疾病和引起排卵异常的疾病才能确诊。(2)青春期PCOS的诊断：对于青春期PCOS的诊断必须同时符合以下3个指标，包括：①初潮后月经稀发持续至少2年或闭经；②高雄激素血症或高雄激素的临床表现；③超声下卵巢PCO表现或体积增大(>10 ml)；同时应排除其他疾病。
+6．胰岛素抵抗的评估方法：
+胰岛素抵抗是指胰岛素效应器官或部位对其转运和利用葡萄糖的作用不敏感的一种病理生理状态。一些临床特征可以提示胰岛素抵抗，如腹型肥胖、血脂异常、黑棘皮病、高血压、糖调节异常[30]。(1)金标准：高胰岛素正糖钳夹试验，用平均血糖利用率/平均胰岛素浓度(M/I)进行判断，实验复杂，不作为常规检查，仅用于科研。(2)空腹胰岛素测定：由于检测方法和人群的差异，建议高于当地正常参考值2~5倍者判定为胰岛素抵抗和高胰岛素血症[31,32]。空腹胰岛素正常或轻度升高不能排除胰岛素抵抗。(3)稳态模型评估的胰岛素抵抗指数(HOMA-IR)：空腹胰岛素(μU/ml)×空腹血糖(mmol/L)/22.5[33,34]，或量化胰岛素敏感指数(QUICKI)1/[Log空腹胰岛素(μU/ml)×空腹血糖(mg/dl)][35]。参考范围依据当地人群的测定值。(4)口服葡萄糖耐量试验(OGTT)及胰岛素释放试验：建议采用5点法。糖负荷后胰岛素分泌曲线明显升高(高峰值超过基础值的10倍以上)，胰岛素曲线下面积增大，或胰岛素分泌延迟、高峰后移至120 min，或胰岛素水平180 min时仍不能回落至空腹水平[30]。
+7．PCOS患者代谢综合征诊断标准：
+见表1。
+点击查看表格
+表1
+PCOS代谢综合征诊断标准(5项中符合3项即可)
+表1
+PCOS代谢综合征诊断标准(5项中符合3项即可)
+危险因素
+切点
+1.腹型肥胖(腰围)
+>85 cm
+2.三酰甘油
+≥1.69 mmol/L
+3. HDL-C
+<1.0 mmol/L
+4.血压
+≥130/85 mmHg
+5. OGTT空腹血糖和2 h血糖
+空腹6.1~7.0 mmol/L和(或)2 h血糖7.8~11.1 mmol/L
+注：HDL-C：高密度脂蛋白胆固醇；1 mmHg＝0.133 kPa；腹型肥胖的标准参照中华医学会关于代谢综合征的建议[36,37]，HDL-C标准参照2016年中国血脂成人异常防治指南[38]，其他参照2004年鹿特丹标准中对于代谢综合征的定义[39]
+(二)鉴别诊断
+1．先天性肾上腺皮质增生(CAH)：
+非经典型CAH，因21-羟化酶缺陷导致。此病以肾上腺源性的雄激素轻度升高为主。鉴别主要依赖基础状态下及ACTH兴奋后的17-羟孕酮(17-OHP)的测定。基础17-OHP<2 ng/ml，可排除CAH；若基础17-OHP>10 ng/ml，则诊断为CAH；若17-OHP在2~10 ng/ml之间，需要进行ACTH兴奋试验[40]。
+2．皮质醇增多症：
+皮质醇增多症由肾上腺皮质分泌过量的糖皮质激素所致。对怀疑有皮质醇增多症者，可通过测定皮质醇节律、24 h尿游离皮质醇及1 mg地塞米松抑制试验进行筛查，若午夜1 mg地塞米松抑制试验发现次日晨血皮质醇<1.8 μg/dl(50 nmol/L)可以除外皮质醇增多症，异常者再使用经典法地塞米松抑制试验确诊。
+3．雄激素相关肿瘤：
+总睾酮高于正常上限值的2.5倍时应注意排除产生雄激素的卵巢肿瘤。盆腔B超、MRI或CT可协助诊断。若DHEA-S>800 μg/dl应注意排除肾上腺肿瘤，肾上腺CT和MRI检查可协助诊断。
+4．高催乳素血症：
+部分PCOS患者可有血清催乳素轻度升高[41]。若血清催乳素反复持续增高，应进行相应的病因鉴别(如催乳素瘤等)。
+5．甲状腺疾病：
+根据临床表现和甲状腺功能测定(FT3、FT4、TSH及抗甲状腺自身抗体)并结合甲状腺超声可进行诊断。
+6．早发性卵巢功能不全(POI)：
+年龄<40岁，可伴有慢性不排卵、不孕、多毛、肥胖等，患者会出现类似围绝经期的症状，血FSH及LH水平升高，雌激素水平低下，则考虑此诊断。超声检查往往提示卵巢体积减小，窦卵泡数量减少，无多囊样的改变。
+7．功能性下丘脑性闭经：
+通常血清FSH、LH低下或正常、FSH水平高于LH水平，雌二醇相当于或低于早卵泡期水平，无高雄激素血症，在闭经前常有快速减重或精神心理障碍压力大等诱因。
+六、治疗
+(一)生活方式干预
+无论肥胖或非肥胖PCOS患者，生活方式干预都是基础治疗方案[2,42,43]，包括饮食、运动和行为干预等。
+1．饮食干预：
+总能量的控制及膳食结构的合理化是关键，推荐碳水化合物占45%~60%，并选择低生糖指数(GI)食物，脂肪占20%~30%，其中以单不饱和脂肪酸为主，饱和及多不饱和脂肪酸均应小于10%，蛋白质占15%~20%，以植物蛋白、乳清蛋白为主，同时要摄入丰富的维生素、矿物质及膳食纤维[44]。
+2．运动干预：
+对于肥胖或超重的患者，运动的主要目标是改善身体脂肪分布及减重[45]，体重下降5%~10%可使患者的生殖和代谢异常得到明显改善[46]。建议每周累计进行至少150 min中等强度(达到最大心率50%~70%)的运动效果，以有氧运动为主，每次20~60 min，视运动强度而定[47]。对于体重正常但存在胰岛素抵抗和高胰岛素血症的患者，运动同样可以增加胰岛素敏感性，有利于其临床转归。
+3．行为干预：
+戒烟限酒和心理调整(去除焦虑、抑郁等不良情绪)能纠正不良的生活习惯，对于巩固饮食及运动疗法的效果、防止体重反弹有着重要作用[48]。
+(二)代谢异常干预
+适应人群：以代谢异常表型为主的PCOS患者。
+1．青春期：
+合并IGR或糖尿病的非肥胖或肥胖PCOS患者，如果单纯生活方式干预效果欠佳，推荐加用二甲双胍，最大剂量推荐1 500 mg/d，疗程至少3个月[49]。对于合并超重或肥胖的PCOS患者，经过生活方式干预治疗，体重下降幅度小于基础体重的5%，建议在二甲双胍基础上联用或改用脂肪酶抑制剂(奥利司他)[50]：该药物通过竞争抑制胰腺、胃肠道中脂肪酶的作用，抑制肠道食物中脂肪的分解吸收，减轻体重，小样本的研究提示其还能降低雄激素水平[51]。需注意的是青春期PCOS患者减轻体重不宜过快，应循序渐进，以不影响青春期正常发育为原则。
+2．育龄期：
+(1)合并IGR：非孕期：不论肥胖或非肥胖的PCOS患者推荐诊断成立后即可开始二甲双胍治疗[49]，该药主要通过改善肝脏及外周组织的胰岛素抵抗，抑制肝脏糖异生和糖原分解，增加外周组织对葡萄糖的利用，改善高胰岛素血症。建议小剂量开始，逐渐加量，非肥胖患者推荐1 000~1 500 mg/d，肥胖患者推荐2 000~2 500 mg/d，餐时或餐后立即服用，疗程至少3到6个月。若胰岛素抵抗或糖调节异常明显改善，备孕患者建议使用至确诊妊娠，无妊娠计划患者可使用至糖调节异常恢复；若治疗3~6个月没有效果，建议调整治疗方案，可考虑在二甲双胍基础上联用或改用：①噻唑烷二酮类药物(吡格列酮)[52]，该药可提高靶组织对胰岛素作用的敏感性，减少外周组织和肝脏的胰岛素抵抗，减少肝脏糖原输出，改善糖脂代谢，并有减轻炎症状态等作用，小样本研究提示其能改善高雄激素血症和排卵[53]，联合二甲双胍具有协同治疗效果，用药期间需避孕；②α-葡萄糖苷酶抑制剂，该药可竞争性抑制α-糖苷酶进而减少糖类在小肠中的吸收，同时还能调节肠道菌群，增加患者餐后GLP-1水平[54,55]，改善血脂，小样本的证据提示阿卡波糖降低LH水平和改善高雄激素血症[56]；用药期间需避孕。孕期：对于已经妊娠患者，首选生活方式干预，若血糖无法达到孕期血糖控制标准，及时使用胰岛素；无二甲双胍禁忌的情况下，取得患者知情同意后亦可慎重使用二甲双胍[57]。(2)肥胖和脂肪肝：在生活方式干预不能有效地控制体重和改善脂肪肝时，应尽早辅助药物治疗。非孕期：推荐二甲双胍治疗，疗程至少3到6个月，体重下降幅度达到原体重的至少5%，备孕患者建议使用至确诊妊娠。若体重下降幅度小于原体重的5%，建议联用或改用奥利司他[50,58]，若生活方式干预和药物均不能有效地控制体重和改善脂肪肝可考虑代谢手术，适用人群包括：BMI>35 kg/m2或BMI>30 kg/m2至少有一项或以上合并症，具体参见2017 AACE指南[59]。若患者合并脂肪肝伴肝酶升高未超过正常上限的3倍，建议仅用改善胰岛素敏感性的药物治疗，若肝酶超过正常上限的3倍，建议保护肝脏，改善肝功能，具体参见2017亚太工作组非酒精性脂肪性肝病诊疗指南[60]。孕期：若怀孕时体重仍超过标准范围，不建议在孕期中继续减重，但应该控制体重的增加速度[61]。(3)脂质代谢异常：合并血脂异常的患者，如果生活方式干预无效，可首选他汀类药物，该药物通过选择性抑制3-羟基-3-甲基戊二酸单酰辅酶A还原酶，可以改善血脂紊乱，小样本的研究提示其还能降低雄激素水平[62]，具体药物和疗程参见2016年中国成人血脂异常防治指南[38]，改善血脂异常的治疗对PCOS患者的长期影响不明确。若PCOS患者无血脂紊乱及心血管疾病高危因素，他汀类药物不作为治疗的常规推荐药物。(4)心血管疾病风险：降低PCOS患者心血管疾病风险是PCOS治疗的远期目标。综合管理，减少心血管疾病危险因子，如戒烟、减重或改善腹型肥胖、纠正糖脂代谢紊乱、降低血压、治疗阻塞型睡眠呼吸暂停综合征(OSAS)等极为重要[4]。
+(三)生殖异常干预
+1．抗高雄激素血症治疗：
+适用人群以高雄激素血症表型为主的PCOS患者。(1)短效口服避孕药(OCP)：对于青春期和育龄期PCOS患者，高雄激素血症及临床表现(多毛症、痤疮等)建议OCP作为首选治疗。对于月经尚未来潮的患者，只要已进入青春发育晚期(如乳房发育≥Tanner Ⅳ级)，有需求者亦可选用OCP治疗。OCP治疗痤疮一般约需3~6个月可见效；多毛至少治疗6个月后才显效。对于使用OCP治疗无效的痤疮及脱发患者，需到皮肤科就诊，配合相关的局部治疗或进行物理治疗。需要注意：在无其他代谢危险因素的情况下，可单独使用OCP；有其他代谢危险因素的情况下，建议使用OCP时联用改善代谢风险的药物[63,64]。(2)螺内酯：适用于OCP治疗效果不佳、有OCP禁忌或不能耐受OCP的高雄激素血症患者。每日剂量60~100 mg[49,65,66]，建议在有效避孕的情况下，小剂量开始逐渐加量使用，至少使用6个月见效。在大剂量使用时，会发生乳房胀痛、月经紊乱、头痛或多尿，需注意低血压及高血钾，建议定期复查血钾和肾功能。
+2．调整月经周期：
+适用于青春期、育龄期无生育要求、因排卵障碍引起月经紊乱的PCOS患者。(1)周期性使用孕激素：对于无高雄激素血症及临床高雄激素表现，及无胰岛素抵抗的患者可周期性使用孕激素。药物包括地屈孕酮10~20 mg/d或黄体酮100~200 mg/d或醋酸甲羟孕酮10 mg/d，每周期10~14 d。此方法不影响代谢，不抑制下丘脑-垂体-性腺轴。(2)短效口服避孕药(OCP)：对于月经量过多或经期延长且有高雄激素血症和(或)高雄激素表现的PCOS患者可给予OCP。OCP首选达英35，从月经第3~5天开始服用，连续服用21 d(连续使用不超过6个月)。合并重度肥胖、糖脂代谢紊乱的患者，建议联合二甲双胍或胰岛素增敏剂治疗。(3)雌孕激素序贯疗法：对于有生育要求或雌激素偏低、有围绝经期症状的PCOS患者，可给予雌孕激素序贯方法调节月经异常，具体方案参照绝经过渡期和绝经后激素治疗临床应用指南[67]。
+3．促排卵：
+适用于以生育障碍为主要表型的PCOS患者。有生育要求的无排卵女性均可用，建议孕前咨询，要考虑到肥胖、高雄激素血症、年龄、卵巢体积和月经异常等因素对妊娠结局的影响。具体方案参照多囊卵巢综合征不孕治疗共识[68]。合并代谢异常的PCOS患者建议促排卵前首先纠正代谢异常。
+(四)远期并发症的预防与管理
+定期的管理对PCOS本身及其远期并发症的预防极为重要。若PCOS患者具有早发心血管疾病家族史、吸烟史、IGR/2型糖尿病、高血压、血脂异常、睡眠呼吸暂停综合征(OSAS)、肥胖(尤其是中心性肥胖)等危险因素，应定期进行监测[4,49]。PCOS合并IGR，建议每年进行OGTT检查，已经诊断2型糖尿病，要给予适当的降糖治疗；若合并血脂异常建议每3~6个月复查[38]，如存在中心性肥胖或其他糖尿病高危风险因素，检查频率应该增加[49]。而对于肥胖、高胰岛素血症、糖尿病及年轻长期不排卵的PCOS患者，子宫内膜增生或内膜癌的发生明显增加，应定期妇科超声监测子宫内膜[2]。
+(五)中医中药与中西医结合治疗
+中医认为PCOS与肝、脾、肾三脏功能失调密切相关，兼杂气郁、痰湿、血瘀、内热等多种病理因素，治疗上主要是在调补肝、脾、肾的基础上根据辩证分别施以理气、化痰、利湿、化瘀、清热等多种手段，如能结合月经周期进行分期用药将更加有助于恢复PCOS患者的排卵乃至成功受孕。中药、针刺、艾灸、穴位埋线等也有一定的效果。
+共识专家组名单
+共识专家组名单：宁光(上海交通大学医学院附属瑞金医院内分泌代谢病科)、陈子江(山东大学附属生殖医院)、刘伟(上海交通大学医学院附属仁济医院内分泌科)、王卫庆(上海交通大学医学院附属瑞金医院内分泌代谢病科)、陶弢(上海交通大学医学院附属仁济医院内分泌科)、祝之明(第三军医大学附属大坪医院内分泌科)、秦贵军(郑州大学第一附属医院内分泌科)、曲伸(上海同济大学医学院附属第十人民医院内分泌科)、李玲(中国医科大学附属盛京医院内分泌科)、林金芳(上海复旦大学附属妇产科医院)、孙赟(上海交通大学医学院附属仁济医院生殖医学科)、石玉华(山东大学附属生殖医院)、鞠强(上海交通大学医学院附属仁济医院皮肤科)、孙建琴(上海复旦大学医附属华东医院老年科)、桑珍(上海中医药大学附属曙光医院内分泌科)、王丽华(上海交通大学医学院附属仁济医院内分泌科)。
+参考文献
+[1]
+SteinIF, LM.
+Amenorrhea associated with bilateral polycystic ovaries[J].
+Am J Obstet Gynecol,
+1935，
+29:
+181-
+191.
+[2]
+FauserBC, TarlatzisBC, RebarRW, et al.
+Consensus on women′s health aspects of polycystic ovary syndrome(PCOS): the Amsterdam ESHRE/ASRM-Sponsored 3rd PCOS Consensus Workshop Group[J].
+Fertil Steril,
+2012，
+97(
+1):
+28-
+38.e25.
+DOI: 10.1016/j.fertnstert.2011.09.024.
+[3]
+CibulaD, CífkováR, FantaM, et al.
+Increased risk of non-insulin dependent diabetes mellitus, arterial hypertension and coronary artery disease in perimenopausal women with a history of the polycystic ovary syndrome[J].
+Hum Reprod,
+2000，
+15(
+4):
+785-
+789.
+[4]
+WildRA, CarminaE, Diamanti-KandarakisE, et al.
+Assessment of cardiovascular risk and prevention of cardiovascular disease in women with the polycystic ovary syndrome: a consensus statement by the Androgen Excess and Polycystic Ovary Syndrome(AE-PCOS)Society[J].
+J Clin Endocrinol Metab,
+2010，
+95(
+5):
+2038-
+2049.
+DOI: 10.1210/jc.2009-2724.
+[5]
+LiR, ZhangQ, YangD, et al.,
+Prevalence of polycystic ovary syndrome in women in China: a large community-based study[J].
+Hum Reprod,
+2013，
+28(
+9):
+2562-
+2569.
+DOI: 10.1093/humrep/det262.
+[6]
+StewartDR, DombroskiBA, UrbanekM, et al.
+Fine mapping of genetic susceptibility to polycystic ovary syndrome on chromosome 19p13.2 and tests for regulatory activity[J].
+J Clin Endocrinol Metab,
+2006，
+91(
+10):
+4112-
+4117.
+DOI: 10.1210/jc.2006-0951.
+[7]
+HickeyTE, LegroRS, NormanRJ.
+Epigenetic modification of the X chromosome influences susceptibility to polycystic ovary syndrome[J].
+J Clin Endocrinol Metab,
+2006，
+91(
+7):
+2789-
+2791.
+DOI: 10.1210/jc.2006-0069.
+[8]
+ShiY, ZhaoH, ShiY, et al.
+Genome-wide association study identifies eight new risk loci for polycystic ovary syndrome[J].
+Nat Genet,
+2012，
+44(
+9):
+1020-
+1025.
+DOI: 10.1038/ng.2384.
+[9]
+RutkowskaAZ, Diamanti-KandarakisE.
+Polycystic ovary syndrome and environmental toxins[J].
+Fertil Steril,
+2016，
+106(
+4):
+948-
+958.
+DOI: 10.1016/j.fertnstert.2016.08.031.
+[10]
+SedighiS, Amir Ais AkbariS, AfrakhtehM, et al.
+Comparison of lifestyle in women with polycystic ovary syndrome and healthy women[J].
+Glob J Health Sci,
+2014，
+7(
+1):
+228-
+234.
+DOI: 10.5539/gjhs.v7n1p228.
+[11]
+XitaN, TsatsoulisA.
+Review: fetal programming of polycystic ovary syndrome by androgen excess: evidence from experimental, clinical, and genetic association studies[J].
+J Clin Endocrinol Metab,
+2006，
+91(
+5):
+1660-
+1666.
+DOI: 10.1210/jc.2005-2757.
+[12]
+LiR, QiaoJ, YangD, et al.
+Epidemiology of hirsutism among women of reproductive age in the community: a simplified scoring system[J].
+Eur J Obstet Gynecol Reprod Biol,
+2012，
+163(
+2):
+165-
+169.
+DOI: 10.1016/j.ejogrb.2012.03.023.
+[13]
+CookCH, CentnerRL, MichaelsSE.
+An acne grading method using photographic standards[J].
+Arch Dermatol,
+1979，
+115(
+5):
+571-
+575.
+[14]
+HahnS, TanS, ElsenbruchS, et al.
+Clinical and biochemical characterization of women with polycystic ovary syndrome in North Rhine-Westphalia[J].
+Horm Metab Res,
+2005，
+37(
+7):
+438-
+444.
+DOI: 10.1055/s-2005-870236.
+[15]
+乔杰，李蓉，李莉，等.
+多囊卵巢综合征流行病学研究[J].
+中国实用妇科与产科杂志，
+2013，
+29(
+11):
+849-
+852.
+[16]
+BrzozowskaMM, OstapowiczG, WeltmanMD.
+An association between non-alcoholic fatty liver disease and polycystic ovarian syndrome[J].
+J Gastroenterol Hepatol,
+2009，
+24(
+2):
+243-
+247.
+DOI: 10.1111/j.1440-1746.2008.05740.x.
+[17]
+CaiJ, WuCH, ZhangY, et al.
+High-free androgen index is associated with increased risk of non-alcoholic fatty liver disease in women with polycystic ovary syndrome, independent of obesity and insulin resistance[J].
+Int J Obes(Lond),
+2017，
+41(
+9):
+1341-
+1347.
+DOI: 10.1038/ijo.2017.116.
+[18]
+SchmidtJ, Landin-WilhelmsenK, BrännströmM, et al.
+Cardiovascular disease and risk factors in PCOS women of postmenopausal age: a 21-year controlled follow-up study[J].
+J Clin Endocrinol Metab,
+2011，
+96(
+12):
+3794-
+3803.
+DOI: 10.1210/jc.2011-1677.
+[19]
+ShiY, CuiY, SunX, et al.
+Hypertension in women with polycystic ovary syndrome: prevalence and associated cardiovascular risk factors[J].
+Eur J Obstet Gynecol Reprod Biol,
+2014，
+173:
+66-
+70.
+DOI: 10.1016/j.ejogrb.2013.11.011.
+[20]
+ArmeniE, StamatelopoulosK, RizosD, et al.
+Arterial stiffness is increased in asymptomatic nondiabetic postmenopausal women with a polycystic ovary syndrome phenotype[J].
+J Hypertens,
+2013，
+31(
+10):
+1998-
+2004.
+DOI: 10.1097/HJH.0b013e3283630362.
+[21]
+TalbottEO, ZborowskiJV, RagerJR, et al.
+Evidence for an association between metabolic cardiovascular syndrome and coronary and aortic calcification among women with polycystic ovary syndrome[J].
+J Clin Endocrinol Metab,
+2004，
+89(
+11):
+5454-
+5461.
+DOI: 10.1210/jc.2003-032237.
+[22]
+VryonidouA, PapatheodorouA, TavridouA, et al.
+Association of hyperandrogenemic and metabolic phenotype with carotid intima-media thickness in young women with polycystic ovary syndrome[J].
+J Clin Endocrinol Metab,
+2005，
+90(
+5):
+2740-
+2746.
+DOI: 10.1210/jc.2004-2363.
+[23]
+JarrettBY, LujanME.
+Impact of hypocaloric dietary intervention on ovulation in obese women with PCOS[J].
+Reproduction,
+2016,
+DOI: 10.1530/REP-16-0385.
+[24]
+HirschbergAL.
+Polycystic ovary syndrome, obesity and reproductive implications[J].
+Womens Health(Lond),
+2009，
+5(
+5):
+529-
+540;
+quiz 541-542. DOI: 10.2217/whe.09.39.
+[25]
+NiuZ, LinN, GuR, et al.
+Associations between insulin resistance, free fatty acids, and oocyte quality in polycystic ovary syndrome during in vitro fertilization[J].
+J Clin Endocrinol Metab,
+2014，
+99(
+11):
+E2269-
+E2276.
+DOI: 10.1210/jc.2013-3942.
+[26]
+MarshallWA, TannerJM.
+Variations in pattern of pubertal changes in girls[J].
+Arch Dis Child,
+1969，
+44(
+235):
+291-
+303.
+[27]
+ZhouZ, NiR, HongY, et al.
+Defining hyperandrogenaemia according to the free androgen index in Chinese women: a cross-sectional study[J].
+Clin Endocrinol(Oxf),
+2012，
+77(
+3):
+446-
+452.
+DOI: 10.1111/j.1365-2265.2012.04395.x.
+[28]
+Sutton-TyrrellK, WildmanRP, MatthewsKA, et al.
+Sex-hormone-binding globulin and the free androgen index are related to cardiovascular risk factors in multiethnic premenopausal and perimenopausal women enrolled in the Study of Women Across the Nation(SWAN)[J].
+Circulation,
+2005，
+111(
+10):
+1242-
+1249.
+DOI: 10.1161/01.CIR.0000157697.54255.CE.
+[29]
+卫生部医疗服务标准专业委员会.
+多囊卵巢综合征诊断中华人民共和国卫生行业标准[J].
+中华妇产科杂志，
+2012，
+47(
+1):
+74-
+75.
+DOI: 10.3760/cma.j.issn.0529-567x.2012.01.022.
+[30]
+林金芳，李昕，苏椿淋.
+多囊卵巢综合征患者胰岛素抵抗的诊断方法及治疗策略[J].
+中国实用妇科与产科杂志，
+2007，
+23(
+9):
+663-
+667.
+DOI: 10.3969/j.issn.1005-2216.2007.09.003.
+[31]
+TohidiM, GhasemiA, HadaeghF, et al.
+Age- and sex-specific reference values for fasting serum insulin levels and insulin resistance/sensitivity indices in healthy Iranian adults: Tehran Lipid and Glucose Study[J].
+Clin Biochem,
+2014，
+47(
+6):
+432-
+438.
+DOI: 10.1016/j.clinbiochem.2014.02.007.
+[32]
+李光伟.
+胰岛素抵抗及胰岛β细胞功能评估.
+胡仁明，
+主编.
+内分泌代谢病临床新技术[M].
+北京：
+人民军医出版社，
+2002，
+423-
+427.
+[33]
+LegroRS, FinegoodD, DunaifA.
+A fasting glucose to insulin ratio is a useful measure of insulin sensitivity in women with polycystic ovary syndrome[J].
+J Clin Endocrinol Metab,
+1998，
+83(
+8):
+2694-
+2698.
+DOI: 10.1210/jcem.83.8.5054.
+[34]
+DeUgarteCM, BartolucciAA, AzzizR.
+Prevalence of insulin resistance in the polycystic ovary syndrome using the homeostasis model assessment[J].
+Fertil Steril,
+2005，
+83(
+5):
+1454-
+1460.
+DOI: 10.1016/j.fertnstert.2004.11.070.
+[35]
+KatzA, NambiSS, MatherK, et al.
+Quantitative insulin sensitivity check index: a simple, accurate method for assessing insulin sensitivity in humans[J].
+J Clin Endocrinol Metab,
+2000，
+85(
+7):
+2402-
+2410.
+DOI: 10.1210/jcem.85.7.6661.
+[36]
+中华医学会糖尿病学分会.
+中国2型糖尿病防治指南(2013年版)[J].
+中华糖尿病杂志，
+2014，
+6(
+7):
+447-
+498.
+DOI: 10.3760/cma.j.issn.1674-5809.2014.07.004.
+[37]
+张雨薇，周广举，童南伟.
+从ASCVD到ASCCVD，更符合国情--《中国成人糖尿病患者动脉粥样硬化脑心血管疾病分级预防指南》解读[J].
+糖尿病临床，
+2016，
+10(
+12):
+526-
+530.
+DOI: 10.3969/j.issn.1672-7851.2016.12.001.
+[38]
+诸骏仁，高润霖，赵水平，等.
+中国成人血脂异常防治指南(2016年修订版)[J].
+中国循环杂志，
+2016，
+31(
+10):
+937-
+953.
+[39]
+Revised 2003 consensus on diagnostic criteria and long-term health risks related to polycystic ovary syndrome[J].
+Fertil Steril,
+2004，
+81(
+1):
+19-
+25.
+[40]
+MelmedS, PolonskyKS, LarsenPR, KronenbergHM,
+eds.
+Williams Textbook of Endocrinology[M].
+12th Edition.
+Philadelphia:
+Elsevier Saunders,
+2011.
+[41]
+AzzizR, CarminaE, DewaillyD, et al.
+The Androgen Excess and PCOS Society criteria for the polycystic ovary syndrome: the complete task force report[J].
+Fertil Steril,
+2009，
+91(
+2):
+456-
+488.
+DOI: 10.1016/j.fertnstert.2008.06.035.
+[42]
+GoodmanNF, CobinRH, FutterweitW, et al.
+American association of clinical endocrinologists, american college of endocrinology, and androgen excess and pcos society disease state clinical review: guide to the best practices in the evaluation and treatment of polycystic ovary syndrome-part 1[J].
+Endocr Pract,
+2015，
+21(
+11):
+1291-
+1300.
+DOI: 10.4158/ep15748.dsc.
+[43]
+郁琦.
+多囊卵巢综合征诊治标准专家共识[J].
+中国实用妇科与产科杂志，
+2007，
+23(
+6):
+474.
+[44]
+中国营养学会.
+中国糖尿病膳食指南(2017)[R].
+第13届全国营养科学大会暨全球华人营养科学家大会，
+2017.
+[45]
+MoranLJ, HutchisonSK, NormanRJ, et al.
+Lifestyle changes in women with polycystic ovary syndrome[J].
+Cochrane Database Syst Rev,
+2011，(
+2):
+Cd007506.
+DOI: 10.1002/14651858.CD007506.pub2.
+[46]
+HoegerKM.
+Role of lifestyle modification in the management of polycystic ovary syndrome[J].
+Best Pract Res Clin Endocrinol Metab,
+2006，
+20(
+2):
+293-
+310.
+DOI: 10.1016/j.beem.2006.03.008.
+[47]
+American Diabetes Association.
+Standards of medical care in diabetes--2014[J].
+Diabetes Care,
+2014，
+37(
+Suppl 1):
+S14-
+S80.
+DOI: 10.2337/dc14-S014.
+[48]
+KozicaSL, DeeksAA, Gibson-HelmME, et al.
+Health-related behaviors in women with lifestyle-related diseases[J].
+Behav Med,
+2012，
+38(
+3):
+65-
+73.
+DOI: 10.1080/08964289.2012.685498.
+[49]
+LegroRS, ArslanianSA, EhrmannDA, et al.
+Diagnosis and treatment of polycystic ovary syndrome: an Endocrine Society clinical practice guideline[J].
+J Clin Endocrinol Metab,
+2013，
+98(
+12):
+4565-
+4592.
+DOI: 10.1210/jc.2013-2350.
+[50]
+GraffSK, MarioFM, ZiegelmannP, et al.
+Effects of orlistat vs. metformin on weight loss-related clinical variables in women with PCOS: systematic review and meta-analysis[J].
+Int J Clin Pract,
+2016，
+70(
+6):
+450-
+461.
+DOI: 10.1111/ijcp.12787.
+[51]
+MoiniA, KananiM, KashaniL, et al.
+Effect of orlistat on weight loss, hormonal and metabolic profiles in women with polycystic ovarian syndrome: a randomized double-blind placebo-controlled trial[J].
+Endocrine,
+2015，
+49(
+1):
+286-
+289.
+DOI: 10.1007/s12020-014-0426-4.
+[52]
+LiXJ, YuYX, LiuCQ, et al.
+Metformin vs thiazolidinediones for treatment of clinical, hormonal and metabolic characteristics of polycystic ovary syndrome: a meta-analysis[J].
+Clin Endocrinol(Oxf),
+2011，
+74(
+3):
+332-
+339.
+DOI: 10.1111/j.1365-2265.2010.03917.x.
+[53]
+BrettenthalerN, De GeyterC, HuberPR, et al.
+Effect of the insulin sensitizer pioglitazone on insulin resistance, hyperandrogenism, and ovulatory dysfunction in women with polycystic ovary syndrome[J].
+J Clin Endocrinol Metab,
+2004，
+89(
+8):
+3835-
+3840.
+DOI: 10.1210/jc.2003-031737.
+[54]
+ZhengMY, YangJH, ShanCY, et al.
+Effects of 24-week treatment with acarbose on glucagon-like peptide 1 in newly diagnosed type 2 diabetic patients: a preliminary report[J].
+Cardiovasc Diabetol,
+2013，
+12:
+73.
+DOI: 10.1186/1475-2840-12-73.
+[55]
+ZhangX, FangZ, ZhangC, et al.
+Effects of acarbose on the gut microbiota of prediabetic patients: A randomized, double-blind, controlled crossover trial[J].
+Diabetes Ther,
+2017，
+8(
+2):
+293-
+307.
+DOI: 10.1007/s13300-017-0226-y.
+[56]
+SonmezAS, YasarL, SavanK, et al.
+Comparison of the effects of acarbose and metformin use on ovulation rates in clomiphene citrate-resistant polycystic ovary syndrome[J].
+Hum Reprod,
+2005，
+20(
+1):
+175-
+179.
+DOI: 10.1093/humrep/deh580.
+[57]
+TanX, LiS, ChangY, et al.
+Effect of metformin treatment during pregnancy on women with PCOS: a systematic review and meta-analysis[J].
+Clin Invest Med,
+2016，
+39(
+4):
+E120-
+E131.
+[58]
+Ali KhanR, KapurP, JainA, et al.
+Effect of orlistat on periostin, adiponectin, inflammatory markers and ultrasound grades of fatty liver in obese NAFLD patients[J].
+Ther Clin Risk Manag,
+2017，
+13:
+139-
+149.
+DOI: 10.2147/tcrm.s124621.
+[59]
+CobinRH, GoodmanNF.
+American association of clinical endocrinologists and american college of endocrinology position statement on menopause-2017 update[J].
+Endocr Pract,
+2017，
+23(
+7):
+869-
+880.
+DOI: 10.4158/ep171828.ps.
+[60]
+WongVW, ChanWK, ChitturiS, et al.
+Asia-Pacific Working Party on Nonalcoholic Fatty Liver Disease Guidelines 2017 Part 1: Definition, risk factors and assessment[J].
+J Gastroenterol Hepatol,
+2018，
+33(
+1):
+70-
+85.
+DOI: 10.1111/jgh.13857.
+[61]
+American biabetes Association.
+Management of diabetes in pregnancy[J].
+Diabetes Care,
+2015,
+38(
+Suppl):
+S77-
+S79.
+DOI: 10.2337/dc15-S015.
+[62]
+SathyapalanT, KilpatrickES, CoadyAM, et al.
+The effect of atorvastatin in patients with polycystic ovary syndrome: a randomized double-blind placebo-controlled study[J].
+J Clin Endocrinol Metab,
+2009，
+94(
+1):
+103-
+108.
+DOI: 10.1210/jc.2008-1750.
+[63]
+DokrasA.
+Noncontraceptive use of oral combined hormonal contraceptives in polycystic ovary syndrome-risks versus benefits[J].
+Fertil Steril,
+2016，
+106(
+7):
+1572-
+1579.
+DOI: 10.1016/j.fertnstert.2016.10.027.
+[64]
+WangQY, SongY, HuangW, et al.
+Comparison of drospirenone-with cyproterone acetate-containing oral contraceptives, combined with metformin and lifestyle modifications in women with polycystic ovary syndrome and metabolic disorders: A prospective randomized control trial[J].
+Chin Med J(Engl),
+2016,
+129(
+8):
+883-
+890.
+DOI: 10.4103/0366-6999.179783.
+[65]
+GanieMA, Khurana,ML, NisarS, et al.
+Improved efficacy of low-dose spironolactone and metformin combination than either drug alone in the management of women with polycystic ovary syndrome(PCOS): a six-month, open-label randomized study[J].
+J Clin Endocrinol Metab,
+2013，
+98(
+9):
+3599-
+3607.
+DOI: 10.1210/jc.2013-1040.
+[66]
+ZulianE, SartoratoP, BenediniS, et al.
+Spironolactone in the treatment of polycystic ovary syndrome: effects on clinical features, insulin sensitivity and lipid profile[J].
+J Endocrinol Invest,
+2005，
+28(
+1):
+49-
+53.
+[67]
+中华医学会妇产科学分会绝经学组.
+绝经期管理与激素补充治疗临床应用指南(2012版)[J].
+中华妇产科杂志，
+2013，
+48(
+10):
+795-
+799.
+DOI: 10.3760/cma.j.issn.0529-567x.2013.10.018.
+[68]
+Thessaloniki ESHRE/ASRM-Sponsored PCOS Consensus Workshop Group.
+Consensus on infertility treatment related to polycystic ovary syndrome[J].
+Fertil Steril,
+2008，
+89(
+3):
+505-
+522.
+DOI: 10.1016/j.fertnstert.2007.09.041.
+贡献者信息
+中国医师协会内分泌代谢科医师分会
+作者声明
+撰写人：陶弢、王丽华
+历史
+出版日期：2018-01-25
+收稿日期：2017-09-10
+本文编辑
+周丽斌
+Guideline and Consensus
+Endocrinologist consensus on the management of polycystic ovary syndrome
+Chinese Endocrinologist Association, Chinese Medical Doctor Association
+Published
+2018-01-25
+Cite as
+Chin J Endocrinol Metab, 2018,34(1): 1-7. DOI: 10.3760/cma.j.issn.1000-6699.2018.01.001
+Contributor Information
+Chinese Endocrinologist Association, Chinese Medical Doctor Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+PCOS代谢综合征诊断标准(5项中符合3项即可)
+危险因素
+切点
+1.腹型肥胖(腰围)
+>85 cm
+2.三酰甘油
+≥1.69 mmol/L
+3. HDL-C
+<1.0 mmol/L
+4.血压
+≥130/85 mmHg
+5. OGTT空腹血糖和2 h血糖
+空腹6.1~7.0 mmol/L和(或)2 h血糖7.8~11.1 mmol/L
+注：HDL-C：高密度脂蛋白胆固醇；1 mmHg＝0.133 kPa；腹型肥胖的标准参照中华医学会关于代谢综合征的建议[36,37]，HDL-C标准参照2016年中国血脂成人异常防治指南[38]，其他参照2004年鹿特丹标准中对于代谢综合征的定义[39]
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华内分泌代谢杂志2018年34卷1期
+文    题：多囊卵巢综合征诊治内分泌专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华内分泌代谢杂志2018年34卷1期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

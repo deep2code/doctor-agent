@@ -1,0 +1,740 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%85%88%E5%A4%A9%E6%80%A7%E8%86%88%E7%96%9D%E4%BF%AE%E8%A1%A5%E6%9C%AF%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%E5%8F%8A%E8%85%94%E9%95%9C%E6%89%8B%E6%9C%AF%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97%282017%E7%89%88%29.html
+# 标题: 先天性膈疝修补术专家共识及腔镜手术操作指南(2017版) - 中华小儿外科杂志
+# 发布方/日期: 小儿外科，中华小儿外科杂志, 2018,39(1) : 1-8. DOI: 10.3760/cma.j.iss；2018-01-15
+
+先天性膈疝修补术专家共识及腔镜手术操作指南(2017版)
+中华医学会小儿外科学分会内镜外科学组、心胸外科学组
+中华小儿外科杂志, 2018,39(1) : 1-8. DOI: 10.3760/cma.j.issn.0253-3006.2018.01.001
+先天性膈疝(congenital diaphragmatic hernia，CDH)是胚胎时期因膈肌发育停顿所致膈肌缺损，在胸腹腔压力差的作用下，腹腔内游动度较大脏器疝入胸腔引起的一种先天性疾病。CDH出现缺氧、紫绀和呼吸困难症状越早，病情越重，预后也越差。90%的CDH发生在膈肌后外侧(胸腹裂孔疝，Bochdaleck hernia)，发病率在1/2 500～1/3 500之间[1]，出生后6 h内出现缺氧、紫绀和呼吸困难症状者称为重症CDH，其肺发育不良较重，病死率达60%以上[2]，因此，CDH需要接受外科手术治疗。早期，有学者认为，在生后即出现症状的CDH是不能治愈的。然而，随着产前诊断技术的开展，新生儿重症监护的建立，总体生存率已有所提高[3,4]。除围手术期的诊断、护理、重症监护和康复策略外，近年来随着腔镜器械和技术的发展，腔镜技术已引入到CDH治疗中，被证实具有良好的手术疗效，微创操作使CDH治疗不仅展现出疼痛轻、创口外观美观的特点，而且还具有术后快速康复的优点[5,6,7,8]。为提高和普及先天性膈疝腔镜手术治疗效果，2014年国家卫计委公益性行业科研专项"小儿腔镜诊断治疗先天畸形技术规范、标准及新技术评价"课题组(201402007)将CDH纳入腔镜新技术诊治评价及操作规范制定，2017年7月15日在大连召开"先天性膈疝修补术著名专家学术沙龙"普胸俱乐部会议，与会专家针对CDH手术时机选择、腔镜手术适应证及操作原则达成共识。鉴于目前国内CDH腔镜手术开展仍面临着诸多问题，如手术时机的选择、初学者的培训、不同中心的手术技术操作参差不齐等；此外，CDH修补术缺乏统一的技术标准和操作规范，经腹和经胸腔镜手术操作也无统一的标准。因此，为使腔镜技术更好地应用于临床实践并发展，也为使新开展的中心顺利地渡过学习曲线，中华医学会小儿外科学分会内镜外科学组与心胸外科学组组织相关专家，制定本专家共识及手术操作指南，供小儿外科同道规范化地开展CDH腔镜手术的临床实践，亦为指导新开展CDH腔镜手术医师的规范化培训，以及为规范化地开展国内CDH手术的多中心临床研究，提供理论依据和技术参考。
+声明 专家共识及腔镜手术操作指南旨在通过系统回顾所获得的研究证据和征求专家意见，指导采取最佳的手术路径来处理先天性膈疝常见问题，但共识与指南所建议的路径，针对复杂特殊的膈疝并不必作为唯一方法去执行。共识与指南的主旨是可变化的，手术者应该针对病儿情况个性化选择最适合的手术方法且可根据当时膈疝病变情况随时改变决策。共识与指南虽在发表前已通过相关多学科专家审阅评议，但由于相关基础研究和临床实践的不断发展会进一步改进诊疗措略，因此，会在中华医学会小儿外科学分会内镜外科学组和心胸外科学组专家的支持下定期修订、完善。
+第一部分 专家共识
+一、手术时机选择
+手术时机的选择已成为目前外科治疗CDH的主要问题。早期对于CDH治疗普遍认为需急症手术以尽快缓解和改善患儿的心肺功能和减少死亡率，原因是疝入到胸腔内的腹腔脏器挤压心肺，造成类似张力性气胸状态，同时影响肺脏血流和气体交换，如不立即手术解除对心肺的压迫，会导致患儿出现心肺功能失代偿、衰竭和死亡[9,10]。然而，临床观察到急症手术并不能降低病死率[11,12]，进一步研究发现CDH主要病理机制是肺发育不良和肺动脉高压，而不是缺损本身。肺发育不良及肺动脉高压程度越重，症状出现越早，病死率亦越高。因此，随着对CDH病理生理机制研究深入，由急症手术逐渐转变到择期手术。适当延迟手术时机，积极改善其呼吸、循环功能后再择期手术，既可增加手术耐受力，也可提高其存活率[13,14,15,16,17,18]。因此，根据CHD病情应个性化选择手术时机的种类：①延期手术：CHD多伴有较严重肺发育不良及持续性肺动脉高压，紧急手术不能改善其心肺功能，反而可能导致病情恶化，术前采取改善通气、纠正酸中毒、心功能支持、降低肺动脉压力等措施，待基本情况有所好转，肺功能获得改善时手术，可提高生存率；②限期手术：出生6 h后出现危重症状，多为疝内容物突然增加而致心肺受压加重，若压迫不解除，病情往往难以控制，因此，经初步治疗后尽早手术解除压迫可获得较好的效果；③急症手术：疝内物嵌顿绞窄的CDH，应尽早手术，以防绞窄肠管坏死。
+二、术前准备
+CDH大多合并心肺功能障碍，控制好肺动脉高压并阻止进一步肺损伤是术前管理的关键。术前准备需要充分复苏，包括氧化亚氮(NO)、体外膜肺(ECMO)等，待病情稳定后手术，对术后呼吸和心脏功能的恢复起关键作用。特别是新生儿CDH由于其手术操作难度大、复发率及病死率更高，术前准备尤为重要。经过NICU积极处理，待血流动力学稳定、pH值可维持正常范围以及常规机械通气时能维持一定的氧合状态，对新生儿手术更安全[19]，甚至产前或产时确定的CDH微创手术业已逐渐开展[20,21]。
+1．新生儿在产房内的初步处理
+(1)心率和氧饱和度监测
+对于重症CDH采取有创或无创血压监测，插管避免高气道压和保持适当动脉氧饱和度是产房成功复苏和保持CDH患儿稳定的主要方法。较高动脉氧饱和度可能导致氧中毒和通气性肺损伤。一般将动脉氧饱和度维持在80%～95%之间即可。
+(2)插管和通气
+推荐CDH在生后出现呼吸困难或缺氧症状应立即气管插管，以减少由于延迟插管引起的酸中毒和贫血，进而导致肺动脉高压风险。由于面罩通气可能导致胃扩张，应避免面罩通气。通气压力应尽量保持低峰压(低于25 cmH2O)，以避免损伤发育不良的肺及对侧肺。
+(3)鼻胃管
+经鼻或经口放置胃管以持续或间断减压，可减轻消化道胀气对肺脏的压迫。术前持续的胃肠减压也有利于减轻腹胀，同时还可以尽早进行肠内营养。
+(4)建立血管通道
+对于重症CDH应建立中心或外周静脉通道进行静脉输液，必要时可应用影响肌张力药物。动脉通道可用于抽血和监测动脉压。
+(5)血压支持
+CDH生后肺血管压力持续增高，导致血液通过动脉导管或卵圆孔右向左分流，引起低氧血症和酸中毒。如果插管前氧饱和度已经维持在80%～95%之间，提高血压至较高水平没有必要。只在插管前氧饱和度低于目标值时才应升高血压。应监测中心静脉压，观察是否存在容量不足，如容量不足，应及时给予血浆等快速补充；如非容量不足，应及时给予血管活性药和影响肌力的药物。
+(6)镇静和麻醉
+清醒插管会使动脉压和颅内压显著增高，同时心率和经皮血氧饱和度检测显著下降。因此，清醒患儿应当在插管前给予镇静或麻醉。
+2．通气管理
+通气治疗的目标是维持插管前氧饱和度在80%～95%之间，插管后氧饱和度也应维持在70%以上，动脉CO2分压(PaCO2)可维持在45～60 mmHg之间(允许性高碳酸血症)。
+(1)常规通气
+对于CDH传统通气模式多为压力控制通气。回顾性研究和临床经验建议将峰压值稳定在25 cmH2O或更小，呼气末正压(PEEP)定在2～5 cmH2O之间，并随时调节呼吸频率以使PaCO2维持在45～60 mmHg之间。
+(2)高频震荡通气(HFVO)
+HFVO应用目的是能在避免肺过度膨胀造成肺损伤的同时，维持呼气末肺容积。HFVO多应用于传统通气支持下仍存在持续性低氧血症和高碳酸血症患儿的救护[22]。在使肺充分膨胀的前提下，平均气道压需随时调整。
+(3)胸部X线片
+CDH患儿都应尽快行胸部X线片检查以评估其初始病情，并且依据CDH病情和通气模式复查胸片以确定肺扩张程度。
+3．进一步治疗措施
+(1)监测
+心率、插管前后氧饱和度、血气分析需要常规检测。对于重症CDH有条件者尽可能建立有创性动脉血压检测。
+(2)血液动力学管理
+血液动力学管理的目标是保证终末器官的血液供应良好，具体体现在心率、毛细血管灌注、尿量和乳酸水平上。如果心率在正常水平，毛细血管充盈时间小于3 s，尿量大于2.0 ml·kg－1·h－1，乳酸浓度低于3 mmol/L，并且患儿没有灌注不足的表现，则不需要应用血管活性药物。如果出现灌注不足表现或血压低于相应孕龄血压，并且插管前氧饱和度低于80%，需观察中心静脉压是否较低，有条件可行床边心脏彩超检查以明确是血容量不足还是心源性休克。如果血容量不足，则应快速补液治疗；如非容量不足，应及时给予血管活性药物。
+4．肺动脉高压处理
+CDH肺动脉高压病理基础是肺动脉血管数量减少，同时各级肺动脉由于平滑肌细胞的增加导致血管壁外层和中层明显增厚，肺腺泡内动脉异常。因此，逐渐增加的肺动脉阻力可能引起患儿生后心脏右向左分流，导致低氧血症和插管前、后氧饱和度差异。然而，即使没有插管前、后氧浓度的差异，也不能排除新生儿肺动脉高压，因为心脏右向左分流主要通过卵圆孔而非动脉导管。因此，生后24 h心脏彩超是实时评估肺动脉压力和右心功能的最好选择之一。尤其对于严重CDH，心脏超声有助于评估右心室功能不良、以及右心室超负荷导致的左心室功能不良。
+如果出现持续肺动脉高压，需要给予肺血管扩张药物，吸入NO为首选。NO可通过舒张血管平滑肌细胞，有效并且有选择性地舒张肺血管，可以提高持续性肺动脉高压新生儿的氧合，减少ECMO的应用。在一些患儿中，通过吸入NO，快速氧合、短期提高氧饱和度可能是有益的，但也可能是过渡到ECMO的中间阶段。在氧合指数为20或更高时，插管前后氧饱和度差异为10%或更高的情况下，应该至少给予吸入NO达1 h。如果对于吸入性NO没有反应或反应不足，可以应用前列环素或前列腺素E1。严重肺动脉高压可导致右心室超负荷，表现为右心室扩大，并可通过卵圆孔向左侧分流，进而导致左心室灌注不足和全身器官灌注不足。为避免右心室由于后负荷增加引起的过度负荷损伤，可以根据需要重新开放动脉导管。如果插管前氧饱和度低于85%，并且有器官灌注不足表现，则需要提高血压来治疗肺动脉高压。可以适当使用血管活性药物，如多巴胺、多巴酚丁胺和/或肾上腺素，以维持血压至符合相应孕龄的血压。
+5．体外循环膜式氧合器(ECMO)
+一项系统回顾分析研究提示，应用ECMO能提高CDH患儿生存率，在应用ECMO早期可以降低病死率，但对长期效果尚不明确[23]。当前对于应用ECMO的条件包括：①无法维持插管前氧饱和度>85%，或插管后氧饱和度>70%；②在良好通气管理下，依然出现PaCO2增加和pH<7.2的呼吸性酸中毒；③需要使PIP>28 cmH2O或者平均气道压>17 cmH2O才能维持氧饱和度>85%；④伴有氧供不足的代谢性酸中毒，表现为乳酸浓度≥5 mmol/L且pH<7.15；⑤对于补液治疗和影响肌力药物治疗无效的全身性低血压，导致至少12～24 h尿量<0.5 ml·kg－1·h－1；⑥氧合指数持续降低。
+三、手术适应证和禁忌证
+1．手术适应证
+诊断明确的婴幼儿和年长儿CDH，右侧建议经胸腔镜修补，左侧膈疝选择经胸腔镜或腹腔镜两种入路均可。新生儿膈疝平稳过渡后可作为临床探索性手术适应证，宜选择胸腔镜手术修补。
+2．手术禁忌证
+①合并严重畸形如先天性心脏病循环不稳定，难以耐受麻醉；②严重肺部发育不良或合并其他肺部疾患，呼吸机难以支持；③合并先天性乳糜胸；④胸腹腔因各种原因存在严重粘连，难以分离暴露膈肌者；⑤患儿生命体征尚未平稳，一般情况较差，难以耐受麻醉及手术。
+四、膈肌缺损修补
+还纳疝内容物后先确定膈肌缺损范围，存在疝囊者可以沿疝环用剪刀或电钩切开疝囊；若缺损范围不大，膈肌对合无张力，可单纯用不可吸收缝线连续全层或间断缝合疝环膈肌裂孔。若膈肌缺损较大、难以直接修补的CDH，常选用补片进行修补，然而，由于机体生长可能引起人工补片破裂、膈疝复发，也可采用自体组织移植进行修补[1]。
+五、补片应用
+对于膈肌缺损较大，原位缝合会造成修补张力过大，易裂开而导致复发，而且膈肌的穹窿形状对于维持肺顺应性和呼吸功能很重要，因而在修补较大膈肌缺损时，应用补片是保持生理形状、预防复发的重要措施[24]。然而，由于小儿处于生长发育期，人工补片无法随着儿童生长而增大，可导致远期较高复发率[25]。因此，逐渐探讨人工补片的替代品，如游离腹横肌和腹内斜肌[26]、生物合成材料、组织工程材料等[27]。然而，Tsai等[28]认为与人工补片相关的高复发率及病死率是技术本身问题而不是补片问题，而且随着缺损大小的增加其并发畸形也在增加，其本身就对生存率有很大影响。
+六、手术相关并发症及处理
+1．术中内脏损伤
+术中可能损伤肝脏、脾脏、小肠、结肠等疝内容物。术前应根据影像检查疝入脏器异常解剖位置及结构，选择正确手术入路，无损伤钳轻柔操作，避免误伤。
+2．肝静脉损伤
+右肝静脉的肝外部分短，于肝后方直接进入下腔静脉。注意右后外侧疝分离缺损内缘易误伤导致大出血、甚至气体栓塞。
+3．肾上腺损伤
+新生儿膈肌缺损大，肾上腺小，若不注意容易误伤，也是术后死亡的重要原因，在缺损后缘缝合达肾脏附近时进针不宜过深或缝合组织过多。
+4．术后气胸
+腹腔镜膈肌修补最后一针结扎前应鼓肺尽量排除胸腔积气，胸腔镜术毕关闭戳孔时也应先排气。此外，新生儿肺组织稚嫩，避免潮气量过大导致致肺气压伤，呼吸机辅助呼吸时，谨防气道压过高。腔镜手术一般不必放置胸腔引流管，若发生气胸可再穿置胸腔闭式引流。
+5．疝囊囊肿
+因胸、腹膜形成的菲薄疝囊遗漏未切除处理，因此，术中应仔细检查，将疝囊沿缺损边缘逐一提起切开或切除后修补缝合。
+6．术后乳糜胸或乳糜腹
+乳糜管经腹膜后主动脉裂孔，在食管与主动脉间沿脊柱前进入胸部，游离或缝合时容易误伤。若术后发生胸腹腔积液，可以穿刺抽出或置管引流乳糜液。经静脉高营养、禁食等保守治疗多可自愈。无效者需再手术修补。
+7．胃食管反流
+术中应常规检查食管胃连接部位置，必要时用4-0不吸收线将大弯侧胃底与横隔间断缝合固定几针，重建His角。轻度反流经体位和饮食治疗可缓解。
+8．肠梗阻
+肠管复位时不慎扭转，肠旋转不良或十二指肠前粘连带遗漏未处理可能招致术后肠梗阻。术中应动作轻柔，依序复位肠管。胃管注入少量气体，排除幽门或十二指肠梗阻。对并存肠旋转不良应观察空肠上段的通过情况，必要时予以松解处理。
+9．膈疝术后复发
+无论是开放手术还是腔镜手术，膈疝术后均存在复发的可能，特别是膈肌先天性发育不良或缺损较大者，术中可采用肌瓣翻转或补片加强修补。
+第二部分 腔镜手术操作指南
+随着微创技术的兴起，以其切口小、恢复快、术后疼痛轻及美容效果好等优势，使得腔镜手术治疗CDH越来越普及。1995年Silen等[29]成功完成第1例胸腔镜先天性膈疝修补，同年van der Zee和Bax[30]报道第1例腹腔镜先天性膈疝修补术，此后，人们探索分别采用胸腔镜和腹腔镜对CDH实施微创手术[31]，Arca等[32]总结提出对于胸骨后疝来说腹腔镜的效果更好，而胸腔镜治疗Bochdalek疝效果更佳。对于新生儿CDH通过系统回顾和Meta分析认同右侧膈疝应采用胸腔镜完成，而左侧膈疝可以采用胸腔镜或腹腔镜进行修补[33]。
+一、腔镜手术设备与器械
+1．常规设备与器械
+(1)常规设备
+高清晰度摄像显示系统、全自动可加温气腹机、冲洗吸引装置、录像和图像采集与储存设备。
+(2)常规器械
+30°镜头、气腹针、3～5 mm套管穿刺针(Trocar)、分离钳、无损伤抓钳、剪刀、持针器，不可吸收缝合线等。
+2．可能需要的特殊设备与器械
+(1)特殊设备
+超声刀、LigaSure、电外科工作站等。
+(2)特殊器械与材料
+疝缝合钩针、鱼骨缝合线、补片等。
+二、腔镜手术方式
+先天性膈疝手术方式可经腹腔或经胸腔还纳疝内容物，恢复其正常解剖位置。经腹入路的手术优点是肠管易于还纳，可发现及处理并存的畸形。经胸手术膈肌暴露清楚，但不能同时处理腹部并发畸形。因此，腔镜手术方式的选择需要依据患儿的病变类型、侧别及是否合并其他畸形来确定。
+1．腹腔镜手术
+腹腔镜具有良好视觉与放大效果，可以观察到整个腹腔内脏器情况[34]。由于近1/4的膈疝伴肠旋转不良及各种腹部畸形，在探查腹腔同时还可多病联合治疗，同时处理上、下腹部并存病变，避免漏诊和漏治。此外，经腹腔镜手术操作时不存在疝囊的遮挡，缝针也不会误伤腹腔肠管[35]。然而，腹腔镜手术也有其不足之处，首先是复发问题，其次是血液动力学问题。因手术过程中需维持较高气腹压力，会影响患儿血液动力学和肺通气功能；再者，对手术技术要求较高，脏器回纳比较困难，尤其是脾脏由于光滑、质软、易脆、易损伤出血，在不损伤脾脏被膜或系膜的情况下还纳需要较高的技术，而在胸腔镜下还纳就相对容易[36]。
+(1)体位和Trocar位置
+患儿取仰卧头高足低位，患侧稍抬高。一般选择经脐、左中腹和右上腹分别放置3 mm或5 mm Trocar，必要时左上腹放置第4个Trocar协助操作；在脐窝处纵行切开皮肤、皮下组织，组织钳分离，开放式放置5 mm Trocar，建立人工气腹，二氧化碳压力设置在6～9 mmHg(手术中尽量降低气腹压力，婴幼儿不超过9 mmHg，新生儿不超过6 mmHg，同时由麻醉医生随时监测患儿呼气末二氧化碳分压，必要时暂停操作，放出腹腔内气体，待患儿平稳后继续手术。若患儿不能耐受，应及时中转开腹手术)。
+(2)还纳疝内容物
+探查腹腔是否合并肠旋转不良等畸形以及膈肌缺损程度及部位。无损伤钳将疝入胸腔的器官还纳腹腔。复位过程中，为获取满意的操作空间，术前和术中需持续胃管减压，术中需要良好的麻醉和肌松，此外，保持适当的气腹压力，保持患儿头高足低卧位，患侧抬高，使肝、脾及肠管下垂等方法，均有利于疝内容物复位。
+(3)修补膈肌
+采用2-0带圆针不可吸收缝合线穿腹壁导入缝针修补膈肌，缝合时线尾留于腹壁外可协助牵拉和打结。由后外侧向前内侧连续全层或间断缝合膈肌裂孔，针距3 mm，缘距3 mm。关闭缺损前使肺充分膨胀。无需放置胸腔或腹腔引流。如有疝囊可用超声刀或电钩分离疝囊切除或切开疝囊折叠缝合。为术中便于操作，右侧膈疝可切断肝圆韧带使肝脏下降扩大显露空间；左侧膈疝患儿可经腹壁穿入带线缝针，将其穿过膈肌脚后再经腹壁穿出形成一"V"字形将肝脏左叶抬起协助显露。
+2．胸腔镜手术
+对于新生儿CDH一般建议采用经胸腔镜手术[37]。首先，较小胸腔充气即能使疝及其内容物还纳腹腔，且还纳后不易再疝入胸腔[38]；其次，由于膈疝大多合并同侧肺发育不良且处于萎陷状态，疝内容物还纳后，可获得较大操作空间，能较好显露膈肌缺损利于缝合修补；再者，膈肌修补后，撤除气胸，在胸廓自然张力下也可显露术野，可直观检查修补后膈面是否光整、缝合是否有遗漏，避免手术不彻底而造成复发。近年来，随着单肺通气麻醉技术的兴起[39,40]，越来越多的小儿外科医生更倾向于采用胸腔镜实施CDH手术，因胸腔镜途径较腹腔途径手术在操作空间及观察视野上更为便利[41]。对外侧缘缺损难以缝合结扎时，可采用空针或钩针带线体外协助关闭膈肌后外侧缺损且使手术操作难度降低[42]。
+(1)体位和Trocar位置
+以左侧膈疝为例，右侧卧位，左上臂上抬使肩胛下角抬高至第五肋间平面。监视器置于手术床尾左侧，术者站于手术床头侧，取肩胛下角第5或6肋间小切口长约5 mm，依次分离皮下各层至胸膜，直视下将5 mm Trocar置入胸腔，注入CO2气体，压力维持在3～5 mmHg，置入30°观察镜，再于肩胛下角线第5～7肋间和左腋前线第4～6肋间分别取3 mm小切口，腔镜监视下置入3 mm Trocar，建立操作通道。
+(2)还纳疝内容物
+在气胸压力及操作钳辅助下，将疝内容物逐步复位至腹腔，显露膈肌缺损，观察膈肌缺损情况。
+(3)修补膈肌
+如缺损不大、可直接缝合修补，如有疝囊应切除或切开折叠缝合。用2-0带针不可吸收缝线间断缝合缺损膈肌，一般从张力小的缺损内侧开始向外侧缝合，如行膈肌折叠，则将疝囊或菲薄的膈肌切开后拉向胸腔侧并展开，行褥式缝合缺损关闭后，再将疝囊覆盖缺损区重叠缝合。也有学者认为疝囊的存在常提示较好的胎肺发育及预后，胸腔镜下可不切除疝囊，还纳后折叠缝合即可。
+3．中转开放手术
+对于膈肌缺损严重，腔镜下修补困难，及时中转开放手术甚至植入补片修补仍然必要。特别是新生儿膈疝早期出现症状者，对心肺功能存在不同程度的影响，对麻醉和手术的耐受差，在膈疝手术过程中，CO2气体还会进一步加重心肺负担。故术中既要保持足够的操作空间，又要减少CO2的吸收，注意与麻醉医生配合，由麻醉医生随时监测其呼气末二氧化碳分压。必要时暂停操作，放出CO2气体，待患儿平稳后继续手术[43]。若患儿不能耐受，应及时中转开放手术。此外，若缺损范围大，膈肌缝合后张力高，易出现术后复发，此种情况需要自体转移带血管蒂肌瓣或人工补片进行修补，也需要中转开放手术。
+4．术后处理
+术后继续给予呼吸机辅助呼吸，适当镇静，定时复查胸片，注意有无气胸及胸腔积液，根据患侧肺膨胀情况调整呼吸机参数，保证患儿生命体征及血氧饱和度平稳。静脉使用抗生素、补液支持治疗，维持适当温度调节、葡萄糖稳态，静脉营养支持；根据血气分析结果调整酸碱及电解质平衡；同时注意预防戳孔感染、肺部感染、硬肿症等并发症。腔镜膈疝修补术后已不放置胸腔引流管[44,45]。因为引流管的刺激可能会使渗出液增加，甚至引流管还会导致胸腔感染，不利于促进术后患侧肺膨胀。然而，对于个别术中渗出液较多的病例，考虑到术后可能会影响肺通气功能，也可放置胸腔引流管[46]。
+5．腔镜手术并发症
+腔镜CHD修补术并发症既有腔镜手术的特有并发症[47]，也有与传统膈疝手术相同的并发症(见共识部分)。
+(1)与穿刺相关的并发症[48]
+可能发生体壁、内脏或大血管损伤出血，术后戳孔疝。预防措施：Trocar穿刺时注意避开血管、结束腔镜手术前仔细检查戳孔的内外两侧有无活动性出血并做好戳孔的缝合，特别是新生儿脐动静脉尚未完全闭锁易受损伤，故不宜选择脐窝上、下缘切口放置套管。暴力穿刺和显露术野不当盲目穿刺是发生内脏或血管损伤的主要原因。因此，穿刺第1个Trocar最好开放式放置，其余Trocar必须在腔镜监视下穿置，术中一旦发生镜下难以控制的血管损伤或脏器破裂时，应即刻行直接压迫止血或中转开放手术处理。因小儿腹壁薄弱，肠管细小，大于5 mm的戳孔容易发生戳孔疝。尽量选用小直径Trocar穿刺，避免过分延伸戳孔以减少体壁缺损，术毕用可吸收缝线在直视下全层间断缝合戳孔，在排空气腹后应摆动腹壁，避免肠管或大网膜嵌入切口内。腹壁切口疝逐渐增大，症状进行性加重甚至出现肠梗阻应及时再手术探查，将疝内容物回纳腹腔或切除，逐层缝合腹壁缺损[49]。
+(2)与CO2气体有关的并发症
+可出现高碳酸血症、皮下气肿、甚至气体栓塞。预防措施：小儿体腔相对弥散面积较大，CO2充气后大量吸收和影响膈肌运动容易导致高碳酸血症和减少潮气量，特别是在新生儿增加充气压到10 mmHg将影响潮气量30%，交感神经反射刺激可引起心率不齐如窦性心动过缓、房室分离和结性心律等并发症[50]。充气压力应控制在3～5 mmHg以下，术中应严密监测呼吸、循环参数，采用浅全身麻醉、气管内插管和硬膜外麻醉可获得较好腹肌松弛的效果，高流量给氧以减轻气腹对通气的抑制。若难度高或手术时间较长，一旦发生高碳酸血症和呼吸循环不稳定，可暂停手术，放掉CO2气体，待患儿平稳后再继续充气手术。如出现较重度的CO2滞留时，无法纠正的高碳酸血症和呼吸性酸中毒，必须中转开放手术。对于轻度皮下气肿对机体的影响不大，不需做特殊处理；严重而广泛的皮下气肿，因其对心肺的负面影响，需在手术中做密切的监测，适当降低腹内压，麻醉师采用过度换气，向戳孔处挤压气肿，有助于减轻气肿的不良作用并延缓气肿的蔓延。若发生气栓时需立即解除气腹，中止气体栓塞来源；左侧卧位使气体不易进人右心室；快速中心静脉置管吸出右心房、右心室及肺动脉内的气泡；紧急时可行右心房直接穿刺抽出气泡；吸入纯氧；呼吸心搏停止者行心肺脑复苏；后续高压氧治疗。
+(3)心律失常、心脏骤停
+心律失常与气腹建立初始时CO2流量过大有关，低温CO2气腹也是导致心律失常的可能原因。预防措施包括建立气腹时以低流量开始，再逐渐增加到较高流量维持。
+(4)体温下降
+婴儿新生儿使用未加温的CO2充气，或腹腔内过量CO2置换可造成患儿体温下降。因此，对小儿腔镜手术应在手术中严密观察体温变化，为防止小儿术中低体温，使用加温床垫或注意保暖，最好选用可加温气腹机。
+(5)与专用手术设备和器械相关并发症
+实施腔镜手术需要专用的摄像采集传输设备和特殊的操作器械。随着科学技术的进步，虽然相应设备和器械的性能得以改进，使得腔镜手术的操作更加方便，但所有设备和器械都有固有的不足之处，因此，为减少术中意外并发症，这就要求手术者只有在感觉到各种设备和器械功能良好时，才宜进行手术。避免光源灼伤和内脏损伤，减少医源性损害。
+《先天性膈疝修补术专家共识及腔镜手术操作指南(2017版)》编审委员会成员名单
+组长：李索林、莫绪明
+副组长：李龙、曾骐、黄柳明、汤绍涛
+成员(按照姓氏汉语拼音顺序)：
+白玉作、毕允力、卞红强、高亚、黄金狮、贾慧敏、李爱武、李炳、李贵斌、李水学、李昭铸、马丽霜、苏毅、孙庆林、王斌、魏晓明、王晓晔、温哲、吴晔明、席红卫、熊启星、徐畅、张大、周崇高、周辉霞
+执笔：刘雪来、张永婷
+参考文献
+[1]
+张金哲，
+主编.
+张金哲小儿外科学[M].
+北京：
+人民卫生出版社，
+2013.
+763-
+773 .
+ZhangJZ, eds. Zhang Jinzhe's pediatric surgery[M]. Beijing: People's Medical Publishing House，2013.763-773 .
+[2]
+张永婷，李索林.
+先天性膈疝产前诊断及腔镜矫治研究进展[J]．
+临床小儿外科杂志，
+2016，
+15(
+1)：
+91-
+93.
+DOI：10.3969/j.issn.1671-6353.2016.01.027.
+ZhangYT, LiSL. Prenatal diagnosis and endoscopic therapeutic advance of congenital diaphragmatic hernia[J]. J Clin Ped Sur，2016，15(1)：91-93. DOI：10.3969/j.issn.1671-6353.2016.01.027.
+[3]
+McHoneyM.
+Congenital diaphragmatic hernia[J].
+Early Hum Dev,
+2014,
+90(
+12)：
+941-
+946.
+DOI: 10.1016/j.earlhumdev.2014.09.013.
+[4]
+GrivellRM, AndersenC, DoddJM.
+Prenatal interventions for congenital diaphragmatic hernia for improving outcomes[J].
+Cochrane Database Syst Rev,
+2015,
+27(
+11)：
+CD008925.
+DOI: 10.1002/14651858.CD008925.
+[5]
+Al-SalemAH, ZamakhsharyM, Al MohaidlyM, et al.
+Congenital Morgagni's hernia: a national multicenter study[J].
+J Pediatr Surg，
+2014,
+49(
+4)：
+503-
+507.
+DOI: 10.1016/j.jpedsurg.2013.08.029.
+[6]
+HeQM, ZhongW, ZhangH, et al.
+Standardized indications to assist in the safe thoracoscopic repair of congenital diaphragmatic hernia in neonates[J].
+J Laparoendosc Adv Surg Tech A,
+2016,
+26(
+5)：
+399-
+403.
+DOI: 10.1089/lap.2015.0327.
+[7]
+FujishiroJ, IshimaruT, SugiyamaM, et al.
+Minimally invasive surgery for diaphragmatic diseases in neonates and infants[J].
+Surg Today,
+2016,
+46(
+7)：
+757-
+763.
+DOI: 10.1007/s00595-015-1222-3.
+[8]
+ChanE, WayneC, NasrA.
+Minimally invasive versus open repair of Bochdalek hernia: a meta-analysis[J].
+J Pediatr Surg,
+2014,
+49(
+5)：
+694-
+699.
+DOI: 10.1016/j.jpedsurg.2014.02.049.
+[9]
+MullasseryD, Ba'athME, JesudasonEC, et al.
+Value of liver herniation in prediction of outcome in fetal congenital diaphragmatic hernia: a systematic review and meta-analysis[J].
+Ultrasound Obstet Gynecol,
+2010,
+35(
+5)：
+609-
+614.
+DOI: 10.1002/uog.7586.
+[10]
+RussoFM, EastwoodMP, KeijzerR, et al.
+Lung size and liver herniation predict the need for extra corporeal membrane oxygenation but not pulmonary hypertension in isolated congenital diaphragmatic hernia: a systematic review and meta-analysis[J].
+Ultrasound Obstet Gynecol,
+2017，
+49(
+6)：
+704-
+713.
+DOI: 10.1002/uog.16000.
+[11]
+LallyKP, ParankaMS, RodenJ, et al.
+Congenital diaphragmatic hernia. Stabilization and repair on ECMO[J].
+Ann Surg,
+1992,
+216(
+5)：
+569-
+573.
+[12]
+WilsonJM, BowerLK, LundDP.
+Evolution of the technique of congenital diaphragmatic hernia repair on ECMO[J].
+J Pediatr Surg,
+1994,
+29(
+8)：
+1109-
+1112.
+[13]
+GuptaRK, ParelkarSV, OakSN, et al.
+Early experience with thoracoscopic repair of congenital diaphragmatic hernias in pediatric age group: results and lessons learned[J].
+Pediatr Surg Int,
+2011,
+27(
+6)：
+563-
+566.
+DOI: 10.1007/s00383-010-2827-7.
+[14]
+UeharaS, UsuiN, KamiyamaM, et al.
+Repair of congenital diaphragmatic hernias through umbilical skin incisions[J].
+Pediatr Surg Int,
+2013,
+29(
+5)：
+529-
+532.
+DOI: 10.1007/s00383-013-3265-0.
+[15]
+ZaniA, Zani-RuttenstockE, PierroA.
+Advances in the surgical approach to congenital diaphragmatic hernia[J].
+Semin Fetal Neonatal Med,
+2014,
+19(
+6)：
+364-
+369.
+DOI: 10.1016/j.siny.2014.09.002.
+[16]
+TeruiK, NagataK, ItoM, et al.
+Surgical approaches for neonatal congenital diaphragmatic hernia: a systematic review and meta-analysis[J].
+Pediatr Surg Int,
+2015,
+31(
+10)：
+891-
+897.
+DOI: 10.1007/s00383-015-3765-1.
+[17]
+ZhuY, WuY, PuQ, et al.
+Minimally invasive surgery for congenital diaphragmatic hernia: a meta-analysis[J].
+Hernia,
+2016,
+20(
+2)：
+297-
+302.
+DOI: 10.1007/s10029-015-1423-0.
+[18]
+LoganJW, RiceHE, GoldbergRN, et al.
+Congenital diaphragmatic hernia: a systematic review and summary of best-evidence practice strategies[J].
+J Perinatol,
+2007,
+27(
+9)：
+535-
+549.
+DOI: 10.1038/sj.jp.7211794.
+[19]
+马丽霜，李龙.
+腔镜手术与开放手术治疗新生儿膈疝的对比研究[J].
+中华小儿外科杂志，
+2014,
+35(
+8):
+599-
+602.
+DOI：10.3760/cma.j.issn.0253-3006.2014.08.010.
+MaLS, LiL. A comparison of clinical outcome of neonatal diaphragmatic hernia between minimally invasive surgery and open repair[J]. Chin J Pediatr Surg, 2014, 35(8): 599-602. DOI：10.3760/cma.j.issn.0253-3006.2014.08.010.
+[20]
+JancelewiczT, LangerJC, ChiangM, et al.
+Thoracoscopic repair of neonatal congenital diaphragmatic hernia(CDH): outcomes after a systematic quality improvement process[J].
+J Pediatr Surg,
+2013,
+48(
+2):
+321-
+325.
+DOI: 10.1016/j.jpedsurg.2012.11.012.
+[21]
+SnoekKG, ReissIK, GreenoughA, et al.
+Standardized postnatal management of infants with congenital diaphragmatic hernia in Europe: The CDH EURO Consortium Consensus[J].
+Neonatology,
+2016,
+110(
+1)：
+66-
+74.
+DOI: 10.1159/000444210.
+[22]
+SnoekKG, CapolupoI, van RosmalenJ, et al.
+Conventional mechanical ventilation versus high-frequency oscillatory ventilation for congenital diaphragmatic hernia: a randomized clinical trial(The VICI-trial)[J].
+Ann Surg,
+2016,
+263(
+5)：
+867-
+874.
+DOI: 10.1097/SLA.0000000000001533.
+[23]
+MoriniF, GoldmanA, PierroA.
+Extracorporeal membrane oxygenation in infants with congenital diaphragmatic hernia: a systematic review of the evidence[J].
+Eur J Pediatr Surg,
+2006，
+16(
+6)：
+385-
+391.
+[24]
+RomaoRL, NasrA, ChiuPP, et al.
+What is the best prosthetic material for patch repair of congenital diaphragmatic hernia? Comparison and meta-analysis of porcine small intestinal submucosa and polytetrafluoroethylene[J].
+J Pediatr Surg,
+2012,
+47(
+8)：
+1496-
+1500.
+DOI: 10.1016/j.jpedsurg.2012.01.009.
+[25]
+CrespinOM, YatesRB, MartinAV, et al.
+The use of crural relaxing incisions with biologic mesh reinforcement during laparoscopic repair of complex hiatal hernias[J].
+Surg Endosc,
+2016,
+30(
+6)：
+2179-
+2185.
+DOI: 10.1007/s00464-015-4522-1.
+[26]
+BarnhartDC, JacquesE, ScaifeER，et al.
+Split abdominal wall muscle flap repair VS patch repair of large congenital diaphragmatic hemias[J]．
+J Pediatr Surg,
+2012,
+47(
+1):
+81-
+86.
+DOI: 10.1016/j.jpedsurg.2011.10.023.
+[27]
+MitchellIC, GarciaNM, BarberR, et al.
+Permacol: a potential biologic patch alternative in congenital diaphragmatic hernia repair[J].
+J Pediatr Surg,
+2008,
+3(
+12)：
+2161-
+2164.
+DOI: 10.1016/j.jpedsurg.2008.08.040.
+[28]
+TsaiJ, SulkowskiJ, AdzickNS, et al.
+Patch repair for congenital diaphragmatic hernia: is it really a problem?[J].
+J Pediatr Surg，
+2012,
+47(
+4):
+637-
+641.
+DOI: 10.1016/j.jpedsurg.2011.11.054.
+[29]
+SilenML, CanvasserDA, KurkchubascheAG，et al.
+Video-assisted thoracic surgical repair of a foreman of Bochdalek hernia[J].
+Ann Thorac Surg，
+1995，
+60(
+2)：
+448-
+450.
+[30]
+van der ZeeDC, BaxNM.
+Laparoscopic repair of congenital diaphragmatic hernia in a 6-month-old child[J].
+Surg Endosc，
+1995，
+9(
+9)：
+1001-
+1003.
+[31]
+张永婷，李索林．
+微创技术治疗先天性膈疝研究进展[J].
+中华实用儿科临床杂志，
+2016,
+31(
+11):
+78-
+80.
+DOI: 10.3760/ema.j.issn.2095-428X.2016.11.022.
+ZhangYT, LiSL. Research progress of minimally invasive surgery for congenital diaphragmatic hernia[J]. Chin J Appl Clin Pediatr，2016, 31(11): 78-80. DOI: 10.3760/ema.j.issn.2095-428X.2016.11.022.
+[32]
+ArcaMJ, BarnhartDC, LelliJL, et al.
+Early experience with minimally invasive repair of congenital diaphragmatic hernias: results and lessons learned[J].
+J Pediatr Surg,
+2003,
+38(
+11)：
+1563-
+1568.
+DOI：10.1016/S0022-3468(03)00564-5.
+[33]
+LansdaleN, AlamS, LostyPD, et al.
+Neonatal endosurgical congenital diaphragmatic hernia repair: a systematic review and meta-analysis[J].
+Ann Surg，
+2010,
+252(
+1)：
+20-
+26.
+DOI: 10.1097/SLA.0b013e3181dca0e8.
+[34]
+刘钢，李龙，黄柳明.
+腹腔镜治疗小儿先天性膈疝6例报告[J].
+解放军医学杂志.
+2006,
+31(
+3):
+258-
+259.
+DOI：10.3321/j.issn:0577-7402.2006.03.027.
+LiuG, LiL, HuangLM. Laparoscopic repair of congenital diaphragmatic hernia in children: a report of 6 cases[J]. Med J Chin PLA，2006, 31(3): 258-259. DOI：10.3321/j.issn:0577-7402.2006.03.027.
+[35]
+赵英敏，李龙，叶辉，等．
+腹腔镜小儿先天性膈疝修补术[J]．
+中国微创外科杂志，
+2006,
+6(
+8):
+597-
+598.
+DOI：10.3969/j.issn.1009-6604.2006.08.016.
+ZhaoYM, LiL, YeH, et al. Laparoscopic repair of congenital diaphragmatic hernia in children[J]. Chin J Min Inv Surg，2006, 6(8): 597-598. DOI：10.3969/j.issn.1009-6604.2006.08.016.
+[36]
+SzavayPO, ObermayrF, MaasC, et al.
+Perioperative outcome of patients with congenital diaphragmatic hernia undergoing open versus minimally invasive surgery[J].
+J Laparoendosc Adv Surg Tech A,
+2012,
+22(
+3):
+285-
+289.
+DOI: 10.1089/lap.2011.0356.
+[37]
+SohailR, ShahJW, KatherineB，et al.
+Minimally invasive congenital diaphragmatic hernia repair：a 7-year review of one institutiorrs experience[J].
+Surg Endose，
+2009,
+23(
+6):
+1265-
+1271.
+DOI: 10.1007/s00464-008-0143-2.
+[38]
+何秋明，钟微，李乐，等.
+标准化指征下胸腔镜手术治疗新生儿先天性膈疝[J].
+中国微创外科杂志，
+2015,
+15(
+8):
+707-
+710.
+DOI: 10.3969/j.issn.1009-6604.2015.08.011.
+HeQM, ZhongW, LiL, et al. Outcomes of Thoracoscopic Repair of Congenital Diaphragmatic Hernia in Neonates Under Standardized Indications[J]．Chin J Min Inv Surg，2015, 15(8): 707-710. DOI: 10.3969/j.issn.1009-6604.2015.08.011.
+[39]
+章征兵，万彩云，许凯，等.
+单腔气管导管支气管插管单肺通气在新生儿胸腔镜先天性膈疝术中的应用[J].
+实用医学杂志，
+2016,
+32(
+4):
+610-
+613.
+DOI：10.3969/j.issn.1006-5725.2016.04.031.
+ZhangZB, WanCY, XuK, et al. Application of single lumen endotracheal tube bronchial intubation for single lung ventilation in thoracoscopic surgery for newborn congenital diaphragmatic hernia[J]. J Practical Medicine, 2016, 32(4): 610-613. DOI：10.3969/j.issn.1006-5725.2016.04.031.
+[40]
+孙震，吕晶，卜亚男，等.
+胸腔镜下新生儿先天性膈疝修补术的麻醉处理[J]．
+中华麻醉学杂志，
+2014，
+34(
+4):
+508-
+509.
+DOI：10.3760/cma.j.issn.0254-1416.2014.04.038.
+SunZ, LyuJ, PuYN, et al. Anesthesiological management of thoracoscopic surgery for newborn congenital diaphragmatic hernia[J]. Chin J Anesthesiol，2014，34(4): 508-509. DOI：10.3760/cma.j.issn.0254-1416.2014.04.038.
+[41]
+黄金狮，陈快，戴康临，等.
+经胸腔镜手术治疗先天性膈疝的体会[J].
+中华小儿外科杂志，
+2012,
+33(
+5)：
+340-
+343.
+DOI: 10.3760/ema.j.issn.0253-3006.2012.05.006.
+HuangJS, ChenK, DaiKL, et al. Thoracoscopic repair of congenital diaphragmatic hernia in neonates and infants[J]. Chin J Pediatr Surg, 2012, 33(5)：340-343. DOI: 10.3760/ema.j.issn.0253-3006.2012.05.006.
+[42]
+Al-JazaeriA.
+Simplified technique for minimally invasive repair of congenital diaphragmatic hernia using hollow-needle snare and transthoracic traction stitches[J].
+J Pediatr Surg,
+2012,
+47(
+1)：
+258-
+263.
+DOI: 10.1016/j.jpedsurg.2011.10.050.
+[43]
+RothenbergSS, ChangJH.
+Bealer JF.Experience with minimally invasive surgery in infants[J]．
+Am J Surg,
+1998,
+176(
+6):
+654-
+658.
+[44]
+MychaliskaG, BrynerB, DechertR, et al.
+Safety and efficacy of perflubron-induced lung growth in neonates with congenital diaphragmatic hernia: results of a prospective randomized trial[J].
+J Pediatr Surg,
+2015,
+50(
+7)：
+1083-
+1087.
+DOI: 10.1016/j.jpedsurg.2015.03.004.
+[45]
+JúniorEA, TonniG, MartinsWP, et al.
+Procedure-related complications and survival following fetoscopic endotracheal occlusion(FETO) for severe congenital diaphragmatic Hernia: systematic review and Meta-analysis in the FETO Era[J].
+Eur J Pediatr Surg,
+2017，
+27(
+4)：
+297-
+305.
+DOI: 10.1055/s-0036-1587331.
+[46]
+PonskyTA, RothenbergSS, TsaoK, et al.
+Thoracoscopy in children: is a chest tube necessary?[J]．
+J Laparoendosc Adv Surg Tech A,
+2009,
+19(
+Suppl 1):
+S23-
+25.
+DOI: 10.1089/lap.2008.0090.supp.
+[47]
+李索林，张永婷.
+把握腔镜手术适应证是减少并发症的关键[J]．
+临床小儿外科杂志，
+2016，
+15(
+4)：
+313-
+316.
+DOI：10.3969/j.issn.1671-6353.2016.04.001.
+LiSL, ZhangYT. Mastery of endoscopic surgery indication is key to reduce complications[J]. J Clin Ped Sur, 2016，15(4)：313-316. DOI：10.3969/j.issn.1671-6353.2016.04.001.
+[48]
+CornetteB, BerrevoetF.
+Trocar injuries in laparoscopy: techniques, tools，and means for prevention. a systematic review of the literature[J].
+World J Surg，
+2016，
+40(
+10)：
+2331-
+241.
+DOI: 10.1007/s00268-016-3527-9.
+[49]
+TalutisSD, MuenstererOJ, PandyaS, et al.
+Laparoscopic-assisted management of traumatic abdominal wall hernias in children：case series and a review of the literature[J].
+J Pediatr Surg，
+2015，
+50(
+3)：
+456-
+461.
+DOI: 10.1016/j.jpedsurg.2014.10.020.
+[50]
+KalfaN, AllalH, RauxO, et al.
+Tolerance of laparoscopy and thoracoscopy in neonates[J].
+Pediatrics,
+2005，
+116(
+6)：
+e785-
+e791.
+DOI：10.1542/peds.2005-0650.
+贡献者信息
+中华医学会小儿外科学分会内镜外科学组、心胸外科学组
+基金项目
+国家卫计委公益性行业科研专项 （201402007）
+历史
+出版日期：2018-01-15
+收稿日期：2017-10-01
+Guideline and Consensus
+Consensus and endoscopic surgery guideline for congenital diaphragmatic hernia repair(2017 edition)
+Section of Endoscopic Surgery, Section of Cardio-Thoracic Surgery, Branch of Pediatric Surgery, Chinese Medical Association
+Published
+2018-01-15
+Cite as
+Chin J Pediatr Surg, 2018,39(1): 1-8. DOI: 10.3760/cma.j.issn.0253-3006.2018.01.001
+Contributor Information
+Section of Endoscopic Surgery, Section of Cardio-Thoracic Surgery, Branch of Pediatric Surgery, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华小儿外科杂志2018年39卷1期
+文    题：先天性膈疝修补术专家共识及腔镜手术操作指南(2017版)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华小儿外科杂志2018年39卷1期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+微信
+腾讯微博
+一键通
+新浪微博
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+豆瓣网
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+QQ好友
+更多平台...
+(133)
+bShare

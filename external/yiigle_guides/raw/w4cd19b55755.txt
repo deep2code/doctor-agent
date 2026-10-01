@@ -1,0 +1,576 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E8%83%8E%E8%86%9C%E6%97%A9%E7%A0%B4%E7%9A%84%E8%AF%8A%E6%96%AD%E4%B8%8E%E5%A4%84%E7%90%86%E6%8C%87%E5%8D%97%EF%BC%882015%EF%BC%89.html
+# 标题: 胎膜早破的诊断与处理指南（2015） - 中华妇产科杂志
+# 发布方/日期: 妇产科，中华妇产科杂志, 2015,50(01) : 3-8. DOI: 10.3760/cma.j.iss；2015-01-25
+
+胎膜早破的诊断与处理指南（2015）
+中华医学会妇产科学分会产科学组
+中华妇产科杂志, 2015,50(01) : 3-8. DOI: 10.3760/cma.j.issn.0529-567x.2015.01.002
+胎膜早破（premature rupture of membrane，PROM）是指胎膜在临产前发生自发性破裂，依据发生的孕周分为足月PROM和未足月PROM（preterm premature rupture of membrane，PPROM）。足月单胎PROM发生率为8%；单胎妊娠PPROM发生率为2%~4%，双胎妊娠PPROM发生率为7%~20%，PPROM是早产的主要原因之一[1,2,3,4]。PROM的诊治，尤其是PPROM的处理策略，一直是产科临床工作中的棘手问题。目前，国内对于不同孕周PPROM的处理原则缺乏共识；对于足月PROM短时间内未临产者是否引产及引产方法等问题尚存在争议；对于PPROM期待治疗的处理、保胎期限、如何预防感染、终止妊娠方式等问题尚无统一的指南或规范。
+因此，有必要制定足月PROM和PPROM的诊断与处理指南。本指南的制定参考了美国妇产科医师协会（ACOG，2013年）、英国皇家妇产科医师学会（RCOG，2010年）等关于PROM的相关指南以及最新的循证医学证据，并结合了国内的围产现状，旨在规范和指导PROM的诊治。
+一、总论
+（一）PROM的病因和高危因素
+足月PROM与妊娠晚期生理性宫缩所致的胎膜薄弱有一定的关系，而早产PROM更多是由于亚临床绒毛膜羊膜炎所致。具有下述高危因素者更容易发生PROM（Ⅱ/B级）。
+1．母体因素：
+反复阴道流血、阴道炎、长期应用糖皮质激素、腹部创伤、腹腔内压力突然增加（剧烈咳嗽、排便困难）、吸烟、药物滥用、营养不良、前次妊娠发生早产PROM史、妊娠晚期性生活频繁等。
+2．子宫及胎盘因素：
+子宫畸形、胎盘早剥、子宫颈机能不全、子宫颈环扎术后、子宫颈锥切术后、子宫颈缩短、先兆早产、子宫过度膨胀（羊水过多、多胎妊娠）、头盆不称、胎位异常（臀位、横位）、绒毛膜羊膜炎、亚临床宫内感染等。
+（二）PROM的诊断
+1．临床症状和体征：
+孕妇主诉突然出现阴道流液或无控制的"漏尿"，少数孕妇仅感觉到外阴较平时湿润，窥阴器检查见混有胎脂的羊水自子宫颈口流出，即可做出诊断。值得注意的是要应用消毒的窥器进行检查，并且避免指检以防止上行性感染。
+2．辅助检查：
+（1）阴道酸碱度测定：
+正常阴道液pH值为4.5~6.0，羊水pH值为7.0~7.5。胎膜破裂后，阴道液pH值升高（pH≥6.5）。pH值通常采用硝嗪或石蕊试纸测定，如果后穹隆有液池，且试纸变蓝可以明确诊断。但子宫颈炎、阴道炎、血液、肥皂、尿液、精液或防腐剂可能会造成pH试纸测定的假阳性[1,2,3,4]。pH值诊断PROM的敏感度为90%，假阳性率为17%[2]（Ⅱ/B级）。
+（2）阴道液涂片：
+取阴道液涂于玻片上，干燥后显微镜下观察，出现羊齿状结晶提示为羊水。精液和宫颈黏液可造成假阳性[3]。其诊断PROM的敏感度为51%~98%，假阳性率为6%[2]。通常，在上述检查不能确定PROM时使用（Ⅱ/B级）。
+（3）生化指标检测：
+对于上述检查方法仍难确定的可疑PROM孕妇，可采用生化指标检测。临床应用最多是针对胰岛素样生长因子结合蛋白1（insulin like growth factor binding protein-1，IGFBP-1），胎盘α微球蛋白1（placental alpha microglobulin-1，PAMG-1）[1,2,3,4,5,6]。但是在有规律宫缩且胎膜完整者中有高达19%~30%的假阳性率[7]，所以主要应用于难确诊且无规律宫缩的可疑PROM孕妇（Ⅱ/B级）。
+（4）超声检查：
+对于可疑PROM孕妇，超声检测羊水量可能有一定帮助，如果超声提示羊水量明显减少，同时孕妇还有过阴道排液的病史，在排除其他原因导致的羊水过少的前提下，应高度怀疑PROM，可以结合上述生化指标检测手段诊断PROM[1,2,3,4]。
+（三）胎膜早破的并发症
+1．足月PROM的常见并发症：
+足月PROM常常是即将临产的先兆，50%的孕妇在胎膜破裂后12 h内自行临产，20%的孕妇在12~24 h内临产，25%的孕妇在24~72 h内临产，5%的孕妇72 h内仍不能临产[4]。足月PROM的主要并发症是宫内感染[1]。破膜时间越长，临床绒毛膜羊膜炎的风险越大，进而导致母体的产褥感染、新生儿感染、败血症等。
+2. PPROM的常见并发症：
+PPROM有15%~25%者合并有临床症状的绒毛膜羊膜炎[1,2]。孕周越早绒毛膜羊膜炎的风险越大。PPROM最主要的并发症是早产，由于早产儿不成熟及宫内感染导致的各种并发症，包括新生儿呼吸窘迫综合征（respiratory distress syndrome，RDS）、脑室内出血（intraventricular hemorrhage，IVH）和坏死性小肠结肠炎（necrotising entercolitis，NEC）、败血症等。尽管积极保胎等处理仍有约50%的早产胎膜早破在破膜后1周内分娩，是早产的主要原因[1,2,3]。其他常见的并发症有胎儿窘迫、胎盘早剥。胎膜早破导致羊水过少、脐带受压甚至脐带脱垂，从而发生胎儿窘迫甚至胎死宫内。PROM发生后宫腔压力的改变约2%~5%的PPROM者发生胎盘早剥[1]。
+（四）预防和监测绒毛膜羊膜炎
+1．绒毛膜羊膜炎的诊断和鉴别诊断：
+绒毛膜羊膜炎是PROM的常见并发症，互为因果。绒毛膜羊膜炎可以导致母儿不良结局，应注意识别和预防。破膜时间越长，绒毛羊膜炎的风险越大。急性临床绒毛膜羊膜炎的主要表现为孕妇体温升高（体温≥37.8 ℃）、脉搏增快（≥100次/min）、胎心率增快（≥160次/min）、宫底有压痛、阴道分泌物异味、外周血白细胞计数升高（≥15×109/L或核左移）。孕妇体温升高的同时伴有上述2个或以上的症状或体征可以诊断为临床绒毛膜羊膜炎[8,9]，但上述任何单项的临床表现或指标异常都不能诊断。单纯一项指标异常应进行相应的鉴别诊断，并密切观察和监测。如糖皮质激素的应用会导致白细胞计数的增高；某些药物或其他情况可以引起孕妇脉搏增快或胎心率增快，如β受体兴奋剂可以导致孕妇脉搏及胎心率增快。产程中硬膜外阻滞的无痛分娩可以引起发热等[8]。
+2．绒毛膜羊膜炎的监测：
+建议每4~8小时监测孕妇的体温、脉搏，按常规和个体情况行血常规的检测和胎心率监测及行胎儿电子监护，同时严密观察羊水性状、子宫有无压痛等绒毛膜羊膜炎征象，及早发现和处理绒毛膜羊膜炎。阴道检查可造成阴道内细菌的上行性感染，可增加绒毛膜羊膜炎及产后子宫内膜炎、胎儿感染及新生儿感染的风险[1,2]，在期待保胎、引产过程中或产程中应尽量减少不必要的阴道检查（Ⅱ/B级）。
+3．绒毛膜羊膜炎的处理：
+临床诊断绒毛膜羊膜炎或可疑绒毛膜羊膜炎时，应及时应用抗生素[8,9,10,11]，诊断绒毛膜羊膜炎尽快终止妊娠，不能短时间内阴道分娩者应选择剖宫产术终止妊娠。有条件者胎儿娩出后进行新生儿耳拭子和宫腔分泌物培养及胎盘胎膜送病理检查，但是有典型的临床感染的症状如果无病理支持并不能否认宫内感染的诊断[9]。新生儿按高危儿处理。（Ⅱ/B级）。
+（五）预防B族溶血性链球菌上行性感染
+PROM是B族溶血性链球菌（group B streptococcus，GBS）上行性感染的高危因素[1,2,3,12]，是导致孕妇产时及产褥期感染、胎儿感染及新生儿感染的重要病原菌，应重视GBS感染的防治。这一相关问题也越来越受到国内围产医学界的重视[13,14,15]。若之前有过筛查并且GBS阳性则在发生胎膜破裂后立即使用抗生素治疗，若未行GBS培养，足月PROM破膜时间≥18 h或孕妇体温≥38 ℃也应考虑启动抗生素的治疗[12]。对PPROM孕妇有条件者建议行阴道下1/3及肛周分泌物的GBS培养。GBS培养阳性者，即使之前已经应用了广谱抗生素，一旦临产，应重新给予抗生素治疗[12,16]。青霉素为首选药物，如果青霉素过敏则用头孢菌素类抗生素或红霉素[1,2,12,16]。预防GBS感染的抗生素用法：（1）青霉素G首次剂量480万单位静脉滴注，然后240万单位/4 h直至分娩；或氨苄青霉素，负荷量2 g静脉滴注，然后每4小时1 g的剂量静脉滴注直至分娩。（2）对青霉素过敏者则选用头孢唑啉，以2 g作为起始剂量静脉滴注，然后每8小时1 g直至分娩。（3）对头孢菌素类过敏者则用红霉素500 mg，每6小时1次静脉滴注；或克林霉素900 mg静脉滴注，每8小时1次[12]。
+二、足月PROM的处理
+（一）足月PROM孕妇宜适时引产
+足月PROM明确诊断后，应评估母胎状况，排除胎儿窘迫、绒毛羊膜炎、胎盘早剥、胎位异常、母体合并症等。随着破膜时间延长，宫内感染的风险显著增加[1,2,3]。无剖宫产指征者破膜后2~12 h内积极引产可以显著缩短破膜至分娩的时间，并且显著降低绒毛膜羊膜炎及母体产褥感染的风险，而不增加剖宫产率和阴道助产率及其他不良妊娠结局的发生率[17,18,19]；孕妇接受度也高于给予期待治疗的对照孕妇，但积极引产者与期待者的新生儿感染率并无显著差异，其研究对象41%为经产妇，59%为初产妇[18]。国内主要基于初产妇的回顾性研究结果显示延迟至破膜后24 h如果不临产再引产则显著增加新生儿感染率和剖宫产率[20]。足月PROM孕妇在短时间内不临产者在经积极引产后更有利于获得良好的母儿结局[17,18,19,20,21]。如无明确剖宫产指征，则宜在破膜后2~12 h内积极引产。良好的规律宫缩引产至少12~18 h如仍在潜伏期阶段才可考虑诊断引产失败行剖宫产分娩[22]。对于拒绝引产者应充分告知期待治疗可能会增加母儿感染风险（Ⅱ/B级）。
+（二）引产方法
+对于子宫颈条件成熟的足月PROM孕妇，行缩宫素静脉滴注是首选的引产方法[1]。引产过程中应遵循引产规范[23,24]；对子宫颈条件不成熟同时无促宫颈成熟及阴道分娩禁忌证者，可应用前列腺素制剂以促进子宫颈成熟[1,17,24,25,26,27]，但要注意预防感染[1]。使用前列腺素类药物改善子宫颈条件时应注意产科的相关规范，密切监测宫缩情况和胎儿情况，若发生宫缩过频或胎儿窘迫征象应及时取出药物，必要时应用宫缩抑制剂[23,24,25,26,27]（Ⅱ/B级）。
+三、PPROM的评估和处理
+根据孕周大小可将PPROM分为无生机的PPROM（<24孕周），远离足月的PPROM（孕24~31周+6），近足月的PPROM（孕32~36周+6）[1]。远离足月的PPROM（孕24~31周+6），按照我国情况可以分为孕24~27周+6和28~31周+6，近足月的PPROM又分为孕32~33周+6和孕34~36周+6。
+（一）PPROM处理总则
+1．对孕妇和胎儿状况进行全面评估：
+（1）准确核对孕周：依据月经周期、受孕时间、早中孕期超声测量数据等；
+（2）评估有无感染；
+（3）评估胎儿状况：胎儿大小、胎方位、羊水指数、有无胎儿窘迫；有无胎儿畸形；
+（4）评估母体有无其他合并症或并发症，如胎盘早剥等。
+2．确定处理方案：
+依据孕周、母胎状况、当地的医疗水平及孕妇和家属意愿4个方面进行决策：放弃胎儿，终止妊娠；期待保胎治疗；如果终止妊娠的益处大于期待延长孕周，则积极引产或有指征时剖宫产术分娩[1,2,3,4]。
+（1）立即终止妊娠放弃胎儿：
+①孕周<24周：为无生机儿阶段，由于需期待数周才能获得生存可能，早产儿不良结局发生率较高，且母儿感染风险大，多不主张继续妊娠，以引产为宜[1]。②孕24~27周+6者要求引产放弃胎儿者，我国仍然采用≥28孕周才算进入围产期，孕24~27周+6尚未进入围产期者，可以依据孕妇本人及家属的意愿终止妊娠。
+（2）期待保胎：
+①孕24~27周+6符合保胎条件同时孕妇及家人要求保胎者；但保胎过程长，风险大，要充分告知期待保胎过程中的风险。但如果已经羊水过少，羊水最大深度<20 mm宜考虑终止妊娠。②孕28~33周+6无继续妊娠禁忌，应保胎、延长孕周至34周，保胎过程中给予糖皮质激素和抗生素治疗，密切监测母胎状况。
+（3）不宜继续保胎采用引产或剖宫产终止妊娠：
+①孕34~36周+6，已接近足月者，90%以上的胎儿肺已经成熟，新生儿发生RDS的概率显著下降，早产儿的存活率接近足月儿，则不宜保胎[1,2,3,4]；虽然从新生儿感染的结局方面当前尚无充分证据证明积极引产可显著减少新生儿严重感染的发生率[28]，但是积极引产可以减少绒毛膜羊膜炎、羊水过少、胎儿窘迫等导致的新生儿不良结局[1,2,3]（Ⅱ/B级）。
+对于孕34~34周+6由于有约5%以上的新生儿会发生RDS[1,2]，目前，国内外学术界对于是否延长孕周至35周尚无统一的意见[1,28]，建议依据孕妇本人状况和意愿及当地医疗水平决定是否期待保胎，但要告之延长孕周有增加绒毛膜羊膜炎等发生的风险[1,29,30]。
+②无论任何孕周，明确诊断的宫内感染、明确诊断的胎儿窘迫、胎儿早剥等不宜继续妊娠者。
+PPROM的处理流程见图1。
+点击查看大图
+图1
+PPROM处理流程
+注：PPROM：未足月胎膜早破；GBS：B族溶血性链球菌
+图1
+PPROM处理流程
+（二）期待保胎过程中的处理
+1．促胎肺成熟：
+产前应用糖皮质激素促胎肺成熟能减少新生儿RDS、IVH、NEC的发生，且不会增加母儿感染的风险[31]（Ⅰ/A级）。
+（1）应用指征：
+<34孕周无期待保胎治疗禁忌证者，均应给予糖皮质激素治疗[1,2,3,4,31,32]。但孕26周前给予糖皮质激素的效果不肯定，建议达孕26周后再给予糖皮质激素[33]。≥34孕周分娩的新生儿中，仍有5%以上的NRDS发生率，鉴于我国当前围产医学状况和最近中华医学会妇产科学分会产科学组制定的早产指南[34]，建议对孕34~34周+6的PPROM孕妇，依据其个体情况和当地的医疗水平来决定是否给予促胎肺成熟的处理，但如果孕妇合并妊娠期糖尿病，建议进行促胎肺成熟处理。
+（2）具体用法：
+地塞米松6 mg孕妇肌内注射（国内常用剂量为5 mg），每12小时1次，共4次，或倍他米松12 mg孕妇肌内注射，每天1次，共2次。给予首剂后，24~48 h内起效并能持续发挥作用至少7 d。即使估计不能完成1个疗程的孕妇也建议使用，能有一定的作用，但不宜缩短使用间隔时间[31,32,33,34]。孕32周前使用了单疗程糖皮质激素治疗，孕妇尚未分娩，在应用1个疗程2周后，孕周仍不足32周+6，估计短期内终止妊娠者可再次应用1个疗程，但总疗程不能超过2次[32,34]。对于糖尿病合并妊娠或妊娠期糖尿病孕妇处理上无特殊，但要注意监测血糖水平，防治血糖过高而引起酮症。
+2．抗生素的应用：
+导致PPROM的主要原因是感染，多数为亚临床感染，30%~50%的PPROM羊膜腔内可以找到感染的证据[35,36]。即使当时没有感染，在期待保胎过程中也因破膜容易发生上行性感染。对于PPROM预防性应用抗生素的价值是肯定的，可有效延长PPROM的潜伏期，减少绒毛膜羊膜炎的发生率，降低破膜后48 h内和7 d内的分娩率，降低新生儿感染率以及新生儿头颅超声检查的异常率[37,38,39]（Ⅰ/A级）。
+具体应用方法：ACOG推荐的有循证医学证据的有效抗生素，主要为氨苄青霉素联合红霉素静脉滴注48 h，其后改为口服阿莫西林联合肠溶红霉素连续5 d[1,37,38,39]。具体用量为，氨苄青霉素2 g+红霉素250 mg每6小时1次静脉点滴48 h，阿莫西林250 mg联合肠溶红霉素333 mg每8小时1次口服连续5 d。青霉素过敏的孕妇，可单独口服红霉素10 d[2]。应避免使用氨苄青霉素＋克拉维酸钾类抗生素，因其有增加新生儿发生坏死性小肠结肠炎的风险[1,37]。但由于我国抗生素耐药非常严重，在参考ACOG推荐的抗生素方案的前提下要依据个体情况选择用药和方案。
+3．宫缩抑制剂的使用：
+ROM发生后会出现不同程度的宫缩，PPROM引起的宫缩多由于亚临床感染诱发前列腺素大量合成及分泌有关，如果有规律宫缩，建议应用宫缩抑制剂48 h，完成糖皮质激素促胎肺成熟的处理，减少新生儿RDS的发生，或及时转诊至有新生儿ICU的医院，完成上述处理后，如果仍有规律宫缩应重新评估绒毛膜羊膜炎和胎盘早剥的风险，如有明确感染或已经进入产程不宜再继续保胎，临产者应用宫缩抑制剂不能延长孕周[1,2,3,40,41]，此外，长时间使用宫缩抑制剂对于PPROM者不利于母儿结局[41]（Ⅱ/B级）。
+随机对照研究提示孕32周前有分娩风险孕妇应用硫酸镁可以降低存活儿的脑瘫率[1]。所以对于孕周小于32周的PPROM孕妇，有随时分娩风险者可考虑应用硫酸镁保护胎儿神经系统，但无统一方案[1]。
+常用的宫缩抑制剂有β受体兴奋剂、前列腺素合成酶抑制剂、钙离子拮抗剂、缩宫素受体拮抗剂等。个体化选择宫缩抑制剂，同时应注意对孕妇及胎儿带来的不良反应[34]。
+4．期待过程中的监测：
+保守期待治疗时高臀位卧床休息，避免不必要的肛查和阴道检查，动态监测羊水量、胎儿情况、有无胎盘早剥及定期监测绒毛膜羊膜炎和临产的征象。当前没有对于监测的最佳频率达成共识，目前的监测手段包括定期超声监测胎儿生长和羊水量、胎心监护、及感染指标的检测，保胎时间长者可以考虑行宫颈分泌物培养和中段尿培养及时发现绒毛膜羊膜炎。卧床期间应注意预防孕妇卧床过久可能导致的一些并发症，如血栓形成、肌肉萎缩等。若保守治疗中出现感染、胎儿窘迫、胎盘早剥、羊水持续过少时，应考虑终止妊娠，而病情稳定者可期待至孕≥34周后终止妊娠[1,2,3]。
+（三）分娩方式
+PPROM选择何种分娩方式，需综合考虑孕周、早产儿存活率、是否存在羊水过少或绒毛膜羊膜炎、胎儿能否耐受宫缩、胎方位等因素。PPROM不是剖宫产指征，分娩方式应遵循标准的产科常规，在无明确的剖宫产指征时应选择阴道试产，产程中密切注意胎心变化，有异常情况时放宽剖宫产指征。阴道分娩时不必常规会阴切开，亦不主张预防性产钳助产。有剖宫产指征时，应选择剖宫产术分娩为宜；胎儿臀位时应首选剖宫产术分娩，但也要注意根据孕周、当地医疗条件权衡[29,30]。PPROM胎儿娩出后建议有条件者行胎盘胎膜病理检查，明确有无组织病理性绒毛膜羊绒炎。对于可疑宫内感染或明确的宫内感染者行羊膜腔和新生儿耳拭子培养。
+（四）其他问题
+1．羊水过少的处理：
+羊水指数<5 cm或羊水最大平面垂直深度<2 cm为羊水过少，是PPROM的常见并发症。建议采用羊水平面的最大垂直深度来监测PPROM的羊水量。适宜的羊水量是胎儿肺发育的重要条件，如果在孕26周前羊水过少可以导致胎儿肺发育不良；胎儿变形如POTTER面容、肢体挛缩、骨骼变形等。此外，羊水过少也是绒毛膜羊膜炎和胎儿窘迫的高危因素[1,2]。但羊膜腔灌注并不能改善妊娠结局[1,2]。在期待保胎过程中羊膜腔内灌注不能明显改善肺发育不良的发生率[1,2]，产程中羊膜腔灌注不能显著减少胎儿窘迫的发生率和降低剖宫产率[1,2]。因此，不推荐在羊水过少时行羊膜腔灌注[2]。如果羊水过少，密切监测有无绒毛膜羊绒炎和胎儿窘迫，依据情况适时终止妊娠。
+2．能否在家期待保胎：
+明确的PROM由于难以预测随时发生的病情变化，不宜在家保胎；如果高位破膜，住院观察一段时间后羊水不再流出、超声提示羊水量正常，无相关并发症，可以考虑回家，但要监测体温，定期产前检查。
+3．子宫颈环扎术后PPROM的处理：
+子宫颈环扎术是PPROM的高危因素，约38%发生PPROM[42]，如何处理？是否立即拆线？也是临床经常面对的问题。目前，尚缺乏前瞻性的随机对照研究；回顾性研究发现，如果保留环扎线可以显著延长孕周48 h以上，但可显著增加孕妇绒毛膜羊膜炎、新生儿感染和新生儿败血症的发生率[42,43]，因此，建议个体化处理，对于孕周<24周的PPROM孕妇可拆线放弃胎儿；孕24~27周+6的PPROM，依据患者的知情同意和个体情况决定是否期待治疗并给予促胎肺成熟；孕28~31周+6的PPROM，在无禁忌证的前提下促胎肺成熟完成后，依据个体情况可以考虑拆线或保留；≥32孕周，一旦诊断PROM后应考虑拆线[1,43]（Ⅱ/B级）。
+参与本指南制定及讨论的专家
+参与本指南制定及讨论的专家：漆洪波（重庆医科大学附属第一医院），杨慧霞（北京大学第一医院），胡娅莉（南京大学医学院附属鼓楼医院），刘兴会（四川大学华西第二医院），贺晶（浙江大学医学院附属妇产科医院），边旭明（北京协和医院），范玲（首都医科大学附属北京妇产医院），时春艳（北京大学第一医院）
+参与本指南撰写的执笔专家
+参与本指南撰写的执笔专家：时春艳（北京大学第一医院），漆洪波（重庆医科大学附属第一医院），杨慧霞（北京大学第一医院）
+参考文献
+[1]
+American College of Obstetricians and Gynecologists.
+Practice Bulletin No. 139: premature rupture of membranes. Clinical management guidelines for obstetrician-gynecologists[J].
+Obstet Gynecol,
+2013,
+122(
+4):
+918–
+930.
+[2]
+Royal College of Obstetricians and Gynaecologists (RCOG).
+Preterm prelabour rupture of membranes (Green-top guideline No. 44) [EB/OL].
+2010 [
+2014-09-28].
+https://www.rcog.org.uk/globalassets/documents/guidelines/gtg44pprom28022011.pdf.
+[3]
+Di RenzoGC, RouraLC, FacchinettiF, et al.
+Guidelines for the management of spontaneous preterm labor: identification of spontaneous preterm labor, diagnosis of preterm premature rupture of membranes, and preventive tools for preterm birth[J].
+J Matern Fetal Neonatal Med,
+2011,
+24(
+5):
+659–
+667.
+[4]
+CaugheyAB, RobinsonJN, NorwitzER.
+Contemporary diagnosis and management of preterm premature rupture of membranes[J].
+Rev Obstet Gynecol,
+2008,
+1(
+1):
+11–
+22.
+[5]
+ErdemogluE, MunganT.
+Significance of detecting insulin-like growth factor binding protein-1 in cervicovaginal secretions: comparison with nitrazine test and amniotic fluid volume assessment[J].
+Acta Obstet Gynecol Scand,
+2004,
+83(
+7):
+622–
+626.
+[6]
+LeeSE, ParkJS, NorwitzER, et al.
+Measurement of placental alpha-microglobulin-1 in cervicovaginal discharge to diagnose rupture of membranes[J].
+Obstet Gynecol,
+2007,
+109(
+3):
+634–
+640.
+[7]
+LeeSM, RomeroR, ParkJW, et al.
+The clinical significance of a positive Amnisure test in women with preterm labor and intact membranes[J].
+J Matern Fetal Neonatal Med,
+2012,
+25(
+9):
+1690–
+1698.
+[8]
+TitaAT, AndrewsWW.
+Diagnosis and management of clinical chorioamnionitis[J].
+Clin perinatol
+2010,
+37(
+2):
+339–
+354.
+[9]
+时春艳.
+羊膜腔感染的诊断和处理[J].
+中华产科急救电子杂志,
+2013,
+2(
+1):
+33–
+36.
+[10]
+FlenadyV, KingJ.
+Antibiotics for prelabour rupture of membranes at or near term[J].
+Cochrane Database Syst Rev,
+2002,(
+3):
+CD001807.
+[11]
+American College of Obstetricians and Gynecologists.
+Practice Bulletin No. 120: Use of Prophylactic Antibiotics in Labor and Delivery. Clinical management guidelines for obstetrician-gynecologists[J].
+Obstet Gynecol,
+2011,
+122(
+4):
+918–
+930.
+[12]
+VeraniJR, McGeeL, SchragSJ, et al.
+Prevention of perinatal group B streptococcal disease--revised guidelines from CDC, 2010[J].
+MMWR Recomm Rep,
+2010,
+59(
+10):
+1–
+36.
+[13]
+时春艳, 杨慧霞.
+B族溶血性链球菌围产期感染的预防和处理策略[J].
+中华围产医学杂志,
+2008,
+11(
+4):
+315–
+318.
+[14]
+时春艳, 杨磊, 杨慧霞, 等.
+妊娠晚期孕妇B族链球菌感染的检测及其对妊娠结局的影响[J].
+中华妇产科杂志,
+2010,
+45(
+1):
+12–
+16.
+[15]
+时春艳, 赵扬玉, 范玲, 等.
+实时聚合酶链反应方法检测妊娠晚期孕妇B族溶血性链球菌的多中心研究[J].
+中华围产医学杂志,
+2014,
+17(
+7):
+489–
+492.
+[16]
+American College of Obstetricians and Gynecologists Committee on Obstetric Practice.
+ACOG Committee Opinion No. 485: Prevention of early-onset group B streptococcal disease in newborns[J].
+Obstet Gynecol,
+2011,
+117(
+4):
+1019–
+1027.
+[17]
+MozurkewichE, ChilimigrasJ, KoepkeE, et al.
+Indications for induction of labour: a best-evidence review[J].
+BJOG,
+2009,
+116(
+5):
+626–
+636.
+[18]
+HannahME, OhlssonA, FarineD, et al.
+Induction of labor compared with expectant management for prelabor rupture of the membranes at term[J].
+N Engl J Med,
+1996,
+334(
+16):
+1005–
+1010.
+[19]
+DareMR, MiddletonP, CrowtherCA, et al.
+Planned early birth versus expectant management (waiting) for prelabour rupture of membranes at term (37 weeks or more)[J].
+Cochrane Database Syst Rev,
+2006,
+25(
+1):
+CD005302.
+[20]
+郑淑敏, 王允锋, 孙万卉, 等.
+足月及近足月胎膜早破临床最佳干预时机的探讨[J].
+中华围产医学杂志,
+2010,
+13(
+6):
+398–
+402.
+[21]
+LiK, WangY, LiH, et al.
+A study of 579 pregnant women with premature rupture of membranes at term[J].
+Int J Gynecol Obstet,
+2011,
+112(
+1):
+45–
+47.
+[22]
+RouseDJ, WeinerSJ, BloomSL, et al.
+Failed labor induction: toward an objectivediagnosis. Eunice Kennedy Shriver National Instituteof Child Health and Human Development (NICHD) Maternal-Fetal Medicine Units Network (MFMU).
+Obstet Gynecol,
+2011,
+117:
+267–
+272.
+[23]
+中华医学会妇产科学分会产科学组.
+妊娠晚期促宫颈成熟与引产指南（草案）[J].
+中华妇产科杂志,
+2008,
+43(
+1):
+75–
+78.
+[24]
+ACOG Committee on Practice Bulletins-Obstetrics.
+ACOG Practice Bulletin No. 107: Induction of labor[J].
+Obstet Gynecol,
+2009,
+114(
+2
+Pt 1):
+386–
+397.
+[25]
+BrickerL, PedenH, TomlinsonAJ, et al.
+Titrated low-dose vaginal and/or misoprostol to induce labour for prelabor membrane rupture: a randomized trial[J].
+BJOG,
+2008,
+115(
+2):
+1503–
+1511.
+[26]
+TanPC, DaudSA, OmarSZ.
+Concurrent dinoproston and oxytocin for labor induction in term premature rupture of membranes: a randomized controlled trial[J].
+Obstet Gynecol,
+2009,
+113(
+5):
+1059–
+1065.
+[27]
+邹丽颖, 范玲, 段涛, 等.
+0.8mm控释地诺前列酮栓用于足月胎膜早破促宫颈成熟的多中心研究[J].
+中华妇产科杂志,
+2010,
+45:
+492–
+496.
+[28]
+BuchananSL, CrowtherCA, LevettKM, et al.
+Planned early birth versus expectant management for women with preterm prelabour rupture of membranes prior to 37 weeks′ gestation for improving pregnancy outcome[J].
+Cochrane Database Syst Rev,
+2010,(
+3):
+CD004735.
+[29]
+漆洪波, 吴味辛.
+重视未足月胎膜早破的研究[J].
+中华妇产科杂志,
+2006,
+41(
+1):
+3–
+6.
+[30]
+漆洪波.
+未足月胎膜早破的诊断和治疗策略[J].
+中华妇幼临床医学杂志,
+2010,
+6(
+4):
+305–
+307.
+[31]
+RobertsD, DalzielSR.
+Antenatal corticosteroids for accelerating fetal lung maturation for women at risk of preterm birth[J].
+Cochrane Database Syst Rev,
+2006,(
+3):
+CD004454.
+[32]
+ACOG Committee on Obstetric Practice.
+ACOG Committee Opinion No. 475: antenatal corticosteroid therapy for fetal maturation[J].
+Obstet Gynecol,
+2011,
+117(
+2
+Pt 1):
+422–
+424.
+[33]
+OnlandW, de LaatMW, MolBW, et al.
+Effects of antenatal corticosteroids givenprior to 26 weeks′ gestation: a systematic review of randomized controlled trials[J].
+Am J Perinatol,
+2011,
+28(
+1):
+33–
+44.
+[34]
+中华医学会妇产科学会产科学组.
+早产临床诊断与治疗指南[J].
+中华妇产科杂志,
+2014,
+49(
+7):
+481–
+485.
+[35]
+GomezR, RomeroR, NienJK, et al.
+Antibiotic administration to patients with preterm premature rupture of membranes dose not eradicate intra-amniotic infection[J].
+J Matern Fetal Neonatal Med,
+2007,
+20(
+2):
+167–
+173.
+[36]
+DiGiulioDB, RomeroR, KusanovicJP, et al.
+Prevalence and diversity of microbes in the amniotic fluid, the fetal inflammatory response, and pregnancy outcome in women with preterm pre-labor rupture of membranes[J].
+Am J Reprod Immunol,
+2010,
+64(
+1):
+38–
+57.
+[37]
+MercerBM, MiodovnikM, ThurnauGR, et al.
+Antibiotic therapy for reduction of infant morbidity after preterm premature rupture of the membranes. A randomized controlled trial. National Institute of Child Health and Human Development Maternal-Fetal Medicine Units Network[J].
+JAMA,
+1997,
+278(
+12):
+989–
+995.
+[38]
+KenyonSL, TaylorDJ, Tarnow-MordiW.
+Broad-spectrum antibiotics for preterm, prelabour rupture of fetal membranes: the ORACLE I randomised trial. ORACLE Collaborative Group[J].
+Lancet,
+2001,
+357(
+9261):
+979–
+988.
+[39]
+KenyonS, BoulvainM, NeilsonJ.
+Antibiotics for preterm rupture of membranes: a systematic review[J].
+Obstet Gynecol,
+2004,
+104(
+5
+Pt 1):
+1051–
+1057.
+[40]
+CombsCA, Mc CuneM, ClarkR, et al.
+Aggressivetocolysis does not prolong pregnancy or reduce neonatal morbidity after preterm premature rupture of the membranes[J].
+Am J Obstet Gynecol,
+2004,
+190(
+6):
+1723–
+1728.
+[41]
+MackeenAD, Seibel-SeamonJ, Grimes-DennisJ, et al.
+Tocolytics for preterm premature rupture of membranes[J].
+Cochrane Database Syst Rev,
+2011,(
+10):
+CD007062.
+[42]
+Giraldo-IsazaMA, BerghellaV.
+Cervical cerclage and preterm PROM[J].
+Clin Obstet Gynecol,
+2011,
+54(
+2):
+313–
+320.
+[43]
+LaskinMD, YinonY, WhittleWL.
+Preterm premature rupture of membranes in the presence of cerclage: isthe risk for intra-uterine infection and adverse neonatal outcome increased?[J].
+J Matern Fetal Neonatal Med,
+2012,
+25(
+4):
+424–
+428.
+贡献者信息
+中华医学会妇产科学分会产科学组
+历史
+出版日期：2015-01-25
+收稿日期：2014-09-28
+本文编辑
+侯存明
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+注：PPROM：未足月胎膜早破；GBS：B族溶血性链球菌
+图1
+PPROM处理流程
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华妇产科杂志2015年50卷01期
+文    题：胎膜早破的诊断与处理指南（2015）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华妇产科杂志2015年50卷01期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

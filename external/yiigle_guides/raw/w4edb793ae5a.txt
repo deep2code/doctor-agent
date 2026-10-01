@@ -1,0 +1,1667 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E6%80%A5%E8%AF%8A%E6%84%9F%E6%9F%93%E6%80%A7%E4%BC%91%E5%85%8B%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97.html
+# 标题: 中国急诊感染性休克临床实践指南 - 中华急诊医学杂志
+# 发布方/日期: 急诊医学科，中华急诊医学杂志, 2016,25(3) : 274-287. DOI: 10.3760/cma.j；2016-03-10
+
+中国急诊感染性休克临床实践指南
+中国医师协会急诊医师分会
+中华急诊医学杂志, 2016,25(3) : 274-287. DOI: 10.3760/cma.j.issn.1671-0282.2016.03.005
+点击查看大图
+(含附录的完整版请扫描此二维码获取)
+(含附录的完整版请扫描此二维码获取)
+感染性休克(septic shock)是急诊科常见的急危重症，是指严重感染导致的低血压持续存在，经充分的液体复苏难以纠正的急性循环衰竭[1]，可迅速导致严重组织器官功能损伤，主要死亡原因为多器官功能衰竭(multiple organ dysfunction syndrome，MODS)，病死率高，早期正确诊断和处理与临床结果密切相关[2,3,4]。
+为了进一步提高我国急诊医师对感染性休克的诊断和治疗水平，中国医师协会急诊医师分会特组织专家编写本指南。专家组参考了国内外感染性休克相关指南的建议，并依托最新循证医学证据，以病理生理学发生发展为基础，制定规范化诊治方案的指导意见，为急诊科临床医生提供有价值的临床指导。在指南内容编写过程中，当专家们意见不一致时，指南内容将优先参考目前可获得的病理生理学相关证据。此外，由于不同地域和层级医院医疗技术和设备的差异，需根据实际情况参考指南用于指导临床实践。
+1 概述
+国外的流行病学研究显示，急诊患者中，7.3%在入住4 h内发生严重感染(severe sepsis)，12%的严重感染患者在入住48 h内发展为感染性休克[5]。感染性休克患者的病死率平均高达42.9%，早期识别并启动治疗可降低严重感染和感染性休克的病死率[6,7]。
+感染性休克是微生物与机体之间相互作用的复杂、变化的过程，从病原微生物感染、到早期的全身炎症反应综合征(systemic inflammatory response syndrome，SIRS)、代偿性抗炎反应综合征(compensatory anti-inflammatory response syndrome，CARS)，具有高度的异质性，需要在不同阶段个体化、同一个体阶段化调整和干预，因此，感染性休克的临床干预应该是一个"边诊断边治疗"的过程[8,9,10,11]。
+大部分感染性休克患者首先在急诊科进行诊治，急诊医师对感染性休克的规范诊疗是提高感染性休克生存率的关键。然而，我国三乙医院和二甲医院中分别有31.7%和69.8%的医生不了解急性全身感染(sepsis)和感染性休克的诊断标准[12]。因此，提高对感染性休克的认知程度、规范临床诊疗实践、促进急诊医疗质量的均衡化，是提高感染性休克整体治疗水平的重要措施。
+2 感染性休克的危险因素
+临床上，通过一些危险因素分析，识别可能发生感染性休克的高危患者，从而及早地给予关注、评估和干预，改变疾病的转归。感染性休克的危险因素包括年龄、身体状态等一般因素，还包括基础疾病状态、解剖结构的破坏、相关实验室指标和药物因素等。感染性休克的危险因素见表1[13,14,15,16,17]。
+点击查看表格
+表1
+感染性休克的危险因素
+表1
+感染性休克的危险因素
+一般因素
+解剖结构异常或介入治疗
+药物因素
+基础疾病
+年龄>65岁
+中心静脉导管
+长期使用抗生素
+免疫功能缺陷(如AIDS、酗酒)
+营养不良
+近期侵入性手术
+近期使用类固醇激素
+体温过低或>38.2 ℃
+血液透析
+化疗药物
+恶性肿瘤或白血病
+ECOG身体评分低(<2)
+胆道系统异常
+非甾体类抗炎药
+急性胰腺炎、肠道系统疾病
+住院时间长
+气管内插管或机械通气
+其他
+糖尿病
+长期卧床
+放疗
+肾功能衰竭
+心率>120次/min
+肝功能衰竭
+SBP<110 mmHg或低于基础值的60%～70%
+存在易出血的感染灶
+病毒感染
+器官移植
+中性粒细胞缺乏
+注：ECOG美国东部肿瘤协作组；SBP收缩压；AIDS获得性免疫缺陷综合征
+3 感染性休克的病理生理学
+3.1 感染、炎症反应与免疫
+感染性休克致病原因为病原微生物感染，临床上表现为以早期SIRS、CARS为特征的一系列病理生理学变化，最终导致微循环改变和器官功能障碍。因此，感染性休克的诊治实践需要正确理解其病理生理学变化做出早期诊断，并针对性地实施标准化及个体化的治疗，从而有效防治器官功能损伤，降低病死率[2]。
+当病原微生物入侵时，机体免疫系统被激活，固有免疫发挥效应，同时启动获得性免疫反应，最大限度地清除病原微生物，当感染在可控制的范围内时，免疫系统能够有效发挥防御作用，保护机体的内环境稳定，但是如果免疫反应过度，也会对机体造成损伤[18,19]。
+通常认为发生感染性休克时，致病微生物作用于机体，激活免疫细胞并释放、分泌细胞因子或炎性介质，启动凝血级联反应，导致SIRS反应；炎症反应加重的同时，抗炎反应也随之加强，机体启动CARS反应，部分患者呈现免疫麻痹或免疫无应答，甚至出现混合拮抗反应综合征(mixed antagonist response syndrome，MARS)(图1)[20]。
+点击查看大图
+图1
+严重感染患者的宿主免疫反应
+图1
+严重感染患者的宿主免疫反应
+SIRS/CARS造成的组织器官功能障碍反过来影响炎症反应的过程[21,22,23]。感染性休克可以不依赖细菌和毒素的持续存在而发生和发展，细菌和毒素仅起到触发急性全身感染的作用，其发展与否及轻重程度则完全取决于机体的反应性[24]。
+SIRS/CARS的发生发展过程存在个体差异，不完全遵循免疫激活到免疫抑制的先后顺序，且机体的促炎反应和抗炎反应在疾病早期即可同时存在[25]。部分个体在疾病早期表现为过度SIRS反应，炎症介质过量产生，在清除异物抗原及组织碎片的同时造成正常脏器组织的损伤，从而导致器官功能障碍，甚至衰竭；部分个体在疾病初期即可表现为明显的免疫抑制状态，出现免疫细胞大量凋亡和免疫器官功能障碍，形成免疫麻痹状态，导致继发感染，最终造成组织器官损伤[20,26,27,28,29,30]。2013年，Nature系列杂志上发表的文章新观点认为，急性全身感染时过度炎症反应和免疫抑制同时发生，而固有免疫表达上调，同时获得性免疫功能下降。因此在治疗感染性休克时，应正确评价个体的免疫状态，为进一步治疗提供依据[31]。患者的免疫反应状态受多种因素影响，包括病原菌的毒力、病原菌的数量、合并的其他疾病、营养状态、年龄，以及细胞因子的基因多态性或其他免疫调节因子及其受体[32,33]。
+3.2 感染性休克时的微循环变化
+感染性休克时外周血管阻力下降，同时容量血管扩张，导致有效循环血量不足，组织器官低灌注，并最终发展为微循环障碍。感染性休克时的微循环变化分为3个时期：缺血性缺氧期(休克早期、休克代偿期)、淤血性缺氧期(休克进展期、可逆性失代偿期)、微循环衰竭期[休克难治期、弥散性血管内凝血(disseminated intravascular coagulation，DIC)期、不可逆期]。由于感染病原体、感染部位、机体免疫状态和炎症反应存在个体差异，休克各期的出现并不完全遵循渐进的发展规律，也可能无明显的界限，发生感染性休克时，更易诱发DIC或多器官功能障碍[34,35,36,37]。
+3.2.1 微循环缺血期
+此期微循环的特点是：少灌少流，灌少于流，组织呈缺血缺氧状态。交感神经兴奋，缩血管体液因子如血管紧张素Ⅱ、血管升压素、内皮素、白三烯、血栓素A2等释放，全身小血管包括小动脉、微动脉、后微动脉、毛细血管前括约肌和微静脉、小静脉都持续收缩痉挛，尤其是毛细血管前阻力血管收缩更明显，前阻力增加，大量真毛细血管网关闭，微循环内血液流速缓慢，轴流消失，血细胞出现齿轮状运动。血流主要通过直捷通路或动-静脉短路回流，组织灌注明显减少[34,35,36,37]。
+3.2.2 微循环淤血期
+此期微循环的特点是：灌而少流，灌大于流，组织呈淤血性缺氧状态，导致二氧化碳和乳酸堆积，血液pH值升高，代谢性酸中毒使血管平滑肌对儿茶酚胺的反应性降低；同时，多种扩血管物质如组胺、腺苷、缓解肽、肠源性内毒素、诱导型一氧化氮合酶增多，导致微血管扩张，血压进行性下降，全身各脏器缺血缺氧的程度加重[34,35,36,37]。
+3.2.3 微循环衰竭期
+严重酸中毒、大量一氧化氮和局部代谢产物释放以及血管内皮细胞和血管平滑肌的损伤等，均可使微血管发生麻痹性扩张，毛细血管大量开放，微循环中有微血栓形成，血流停止，出现不灌不流状态，组织几乎完全不能进行物质交换，得不到氧气和营养物质供应，甚至可出现毛细血管无复流现象，即指在补液治疗后，血压虽可一度回升，但微循环灌流量仍无明显改善，毛细血管中淤滞停止的血流也不能恢复流动的现象[34,35,36,37]。
+除上述典型的病理生理学表现之外，感染性休克微循环功能障碍的特征性表现为功能性毛细血管密度降低、血流分布的不均一性以及微循环通透性升高。局部毛细血管表现为低灌注，而另些部位毛细血管血流灌注正常或异常增高；氧向组织细胞的弥散距离增加以及微循环血流的非均质分布，从而导致氧摄取异常及组织细胞缺氧[35]。
+点击查看表格
+关键信息1
+感染性休克的病理生理学
+关键信息1
+感染性休克的病理生理学
+●感染性休克的病理生理学发展过程包括SIRS、CARS、MARS等一系列反应。
+●SIRS/CARS的发生发展过程存在个体差异，不完全遵循免疫激活到免疫抑制的先后顺序。
+●在治疗感染性休克时，应正确评价个体的免疫状态，为进一步治疗提供依据。
+●感染性休克时的微循环变化分为3个时期：缺血性缺氧期、淤血性缺氧期、微循环衰竭期，各期存在不同的微循环和组织器官功能障碍。
+●由于感染病原体、感染部位、机体免疫状态和炎症反应存在个体差异，休克各期的出现并不完全遵循渐进的发展规律，也可能无明显的界限。
+●感染性休克微循环功能障碍的特征性表现为功能性毛细血管密度降低、血流分布的不均一性以及微循环通透性升高。
+3.3 感染性休克时器官系统功能变化
+感染往往起源于局部累及全身，炎症介质打击多个靶器官，往往以某个器官系统功能障碍表现为主，并同时出现多个器官系统功能变化，甚至多器官功能衰竭。
+3.3.1 心血管功能障碍
+在诊断感染性休克后6 h内约有20%的患者会出现左心室功能障碍，到发病后1～3 d该发生率可增加至60%[38]。由急性全身感染引发的心肌功能抑制可造成心脏泵功能减低，心排血量减少，以致不能满足组织代谢的需求，甚至引起心源性休克而危及各重要器官的血流灌注[39,40,41]。心肌功能障碍和心血管炎症反应导致脑利钠肽和肌酸激酶升高。
+3.3.2 呼吸系统功能障碍
+感染性休克时由于SIRS反应可导致急性呼吸窘迫综合征(acute respiratory distress syndrome，ARDS)。临床上表现为容积减少、肺顺应性降低、严重的通气/血流比例失调、进行性低氧血症和呼吸窘迫，肺部影像学上表现为非均一性的渗出性等病变，大部分患者需要呼吸支持[42,43]。
+3.3.3 肾功能障碍
+过去认为感染性休克时因肾血流量减少和肾血管收缩导致肾小球滤过率降低，导致急性肾损伤。近年来的研究发现，感染性休克时肾血流量正常甚至增加，然而肾皮质和髓质血流出现再分布，肾血流增加的同时肾小球滤过率反而降低，肾血管阻力增加/毛细血管渗漏以及炎症导致微循环功能障碍[44,45,46,47]。
+3.3.4 胃肠道功能障碍
+感染性休克状况下，内脏血管选择性收缩以保证重要生命器官的血液供应，造成胃肠道缺血缺氧，上皮坏死、脱落，肠道屏障功能受损，通透性增高，细菌、内毒素和其他炎症介质扩散，加重全身炎症反应和导致其他器官功能障碍[48]。
+3.3.5 肝功能障碍
+肝功能障碍可在感染早期发生，与肝脾低灌注有关，导致肝损伤标志物如转氨酶、乳酸脱氢酶、胆红素升高，通常经充分的支持治疗后恢复；晚期的肝功能障碍比较隐蔽，表现为结构和功能的异常，与细菌、内毒素和炎症因子有关[49,50]。
+3.3.6 脑功能障碍
+脑功能障碍是感染性休克患者常见的严重并发症，与病死率增加和长期认知功能损害有关。临床上表现为急性意识改变，包括昏迷和神志失常，以及少见的癫痫和局部神经体征；影像学可表现为缺血性脑卒中和脑白质病变[51,52]。
+3.3.7 血液系统功能障碍
+感染性休克患者的血液系统功能障碍可表现为凝血酶原时间(prothrombin time，PT)、国际标准化比值或活化部分凝血活酶时间延长(activated partial thromboplastin time，APTT)，血小板计数降低，血浆纤溶蛋白水平降低[8,53]。
+3.3.8 内分泌系统
+感染性休克早期内分泌系统激活，炎症介质和细菌产物导致部分激素分泌量绝对或相对减少，如血管加压素水平降低，甲状腺功能症候群，肾上腺对促肾上腺皮质激素的反应降低，胰岛素抵抗和高血糖等[54]。
+4 感染性休克的临床表现
+机体不同部位的感染有相应的临床表现，如呼吸道感染出现咳嗽、咳痰；泌尿系统感染出现尿频、尿急、尿痛等；胆道感染出现Charcot三联征甚至五联征等，可参照附录进行判断[55,56]。
+4.1 休克代偿期
+休克代偿期血压往往正常或略低于正常，在代偿作用下有时甚至轻度升高，但脉压降低。此期，患者由于血流再分布，外周组织和器官灌注减少，引起肢端和面色苍白、发绀、尿量减少。同时由于神经内分泌系统激活，引起心率和脉搏增快、烦躁不安。部分暖休克患者早期可表现为肢端温暖、皮肤干燥、面色潮红，但组织灌注不良存在，容易漏诊[36,37]。
+4.2 休克失代偿期
+休克失代偿期由于代偿作用消失，心脑血供下降，表现为神志烦躁加剧或萎靡、嗜睡，甚至出现神志不清。同时血压进行性下降，组织缺血缺氧加剧，尿量进一步减少或无尿，皮肤可出现花斑，实验室检查提示酸中毒表现[36,37]。
+4.3 休克难治期
+休克难治期的突出表现为循环衰竭、DIC及MODS：①循环衰竭表现为血压持续下降或难以测出，对血管活性药物反应性差；②凝血功能异常，出现DIC表现，如出血、皮下瘀斑、贫血等。③各器官功能障碍和衰竭可出现各自的临床表现，如肾功能不全出现少尿或无尿，ARDS患者出现呼吸频率和节律的异常等[36,37]。
+5 感染性休克的诊断
+感染性休克的诊断是一个综合评估的过程，包括基础生命体征的监测、感染病原学诊断、以及对心血管、呼吸、消化、肝脏、肾脏等各器官系统功能的评估。此外，还需要对微循环功能状态进行评估。
+急诊科就诊的感染性休克患者早期一般难以获得病原学检查结果，一部分患者难以确定明确的感染灶(如已经出现呼吸和/或循环衰竭的患者，应评估检查风险后，决定是否即刻进行相关影像学检查)。因此，在感染性休克诊断时，可首先通过病史和一般症状、体征判断，主要正确评估及维护生命体征，治疗和诊断措施同步进行，譬如在开通静脉通路的同时留取血样本和进行一般实验室检查；再次，观察治疗反应、继续抢救，一般实验室和影像学检查结果报告后，即刻再进行下一步处理。
+5.1 感染性休克的临床诊断标准
+5.1.1 感染的诊断
+存在感染的临床表现、实验室证据或影像学证据。
+5.1.2 SIRS的诊断标准[1,57,58,59,60]
+①体温>38 ℃或<36 ℃；②心率>90次/min；③过度通气：呼吸>20次/min或二氧化碳分压(PCO2)<32 mmHg(1 mmHg＝0.133 kPa)；④白细胞增多(>12×109 L－1)；或白细胞减少(<4×109 L－1)；或有超过10%的幼稚白细胞。
+5.1.3 低血压诊断标准
+成人收缩压(systolic blood pressure，SBP)<90 mmHg，平均动脉压(mean artery pressure，MAP)<70 mmHg，或SBP下降>40 mmHg，或低于正常年龄相关值的2个标准差。
+5.1.4 组织低灌注标准
+①高乳酸血症：血清乳酸水平> 2 mmol/L；②毛细血管再充盈时间延长、皮肤花斑或瘀斑。
+5.1.5 器官功能障碍的诊断标准
+感染性休克患者的预后极差，病死率高，因此在临床上，要尽快评估各器官功能，有助于判断预后，并给予针对性的措施。拯救脓毒症运动指南中列举的感染性休克的器官功能障碍标准见表2[1]。鉴于目前学术界对器官功能障碍无统一的评价标准，本指南同时列举各器官功能障碍的多种评价方法供临床参考(见附录)[61,62,63,64,65,66]。临床上需要注意的是，一些患者存在基础疾病导致的器官功能障碍和年龄因素导致的器官功能减退，在诊断上要识别新出现的器官功能障碍和原有器官功能障碍基础上的损伤加重。
+点击查看表格
+表2
+拯救脓毒症运动指南器官功能障碍标准
+表2
+拯救脓毒症运动指南器官功能障碍标准
+感染性休克器官功能障碍标准
+(1)
+低氧血症[氧分压(PaO2)/吸氧浓度(FiO2)<300 mmHg]
+(2)
+急性少尿(即使给予足够的液体复苏，尿量仍<0.5 mL/(kg·h)，且至少持续2 h以上)
+(3)
+血肌酐升高>0.5 mg/dL(44.2 μmol/L)
+(4)
+凝血功能异常(国际标准化比值>1.5或APTT>60 s)
+(5)
+肠梗阻(肠鸣音消失)
+(6)
+血小板减少(<100 000/μL)
+(7)
+高胆红素血症[血浆TBiL >70 μmol/L(4 mg/dL)]
+5.2 感染性休克的诊断方法和流程
+感染性休克的的诊断强调标准化流程，即使医院缺少相关的设备，也要创造条件进行标准化统一操作。应结合现病史和既往疾病状况，识别休克相关的症状和体征，检测实验室指标进行诊断。首选明确感染的证据，再进行感染性休克的诊断，并评估器官功能状态，分析其个体化的病理生理学过程。主要的诊断方法和流程见图2。
+点击查看大图
+图2
+感染性休克的诊断流程
+图2
+感染性休克的诊断流程
+点击查看表格
+关键信息2
+感染性休克诊断标准
+关键信息2
+感染性休克诊断标准
+●感染的诊断标准：
+存在感染的临床表现、实验室或影像学证据。
+●SIRS的诊断标准：
+(1)体温>38 ℃或<36 ℃；
+(2)心率>90次/min；
+(3)过度通气(呼吸>20次/min或PCO2<32 mmHg)；
+(4)白细胞增多(>12×109 L－1)；或白细胞减少(<4×109 L－1)；或有超过10%的幼稚白细胞。
+●低血压诊断标准：
+成人SBP<90 mmHg，MAP<70 mmHg，或SBP下降>40 mmHg，或低于正常年龄相关值的2个标准差。
+●组织低灌注诊断标准：
+(1)高乳酸血症：血清乳酸>2 mmol/L；
+(2)毛细血管再充盈时间延长、皮肤花斑或瘀斑。
+●器官功能障碍的诊断标准：
+心血管、呼吸、肝脏、肾脏、神经、血液等器官功能障碍参考附录。
+5.2.1 基础监测
+包括体温、心率、呼吸、血压、神志、皮肤(甲皱微循环，毛细血管再充盈时间)、尿量、休克指数等。
+5.2.2 感染诊断
+临床表现及辅助检查：发热、寒颤症状，降钙素原(procalcitonin，PCT)、C反应蛋白(C-reactive protein，CRP)、抗链球菌透明质酸酶检测，近期出现中性粒细胞升高等。
+病原菌和感染部位：在不明显延误抗菌治疗的前提下进行病原菌培养。常规检测包括血培养和药敏试验，其他培养如痰、粪、尿、伤口、导管、置入假体、脑脊液或胸腔积液等。在有真菌感染的高危因素需要鉴别侵袭性念珠菌感染时，建议使用1，3-β-D-葡聚糖、甘露聚糖和抗甘露聚糖抗体检测[1]；感染部位的判断通常与突出的临床症状和体征有关，感染性休克的常见感染部位包括：肺(35%)，腹部(21%)，尿道(13%)，皮肤和软组织(7%)，其他部位(8%)，未知部位(16%)[67]。感染性休克常见的感染部位及病原菌分布和临床症状和体征见附录[55,56]。
+5.2.3 器官功能相关的各项检查
+本指南较为全面地列出了器官功能检查的项目，临床实践中，应根据医院的实际情况选择应用。
+(1)基础和内环境评估：
+包括全血细胞分析、红细胞压积、血乳酸和乳酸清除率、出血凝血系列、酸碱平衡、电解质等。
+(2)心血管系统评估：
+a)常规检测包括血压、心率、心律、MAP，必要时做有创血压监测；b)酶和节律检测 心肌酶谱，心电图，脑钠肽(brain natriuretic peptide，BNP)和脑钠肽前体(pro brain natriuretic peptide，pro-BNP)，心房尿钠肽前体(pro atrial natriuretic peptide，pro-ANP)；c)循环动力学检测 中心静脉压(central venous pressure，CVP)，心脏指数(cardiac index，CI)，胸内血容量指数(intrathoracic blood volume index，ITBVI)，血管外肺水指数(extravascular lung water index，EVLWI)，系统血管阻力指数(systemic vascular resistance index，SVRI)，每搏输出量指数(stroke volume index，SVI)，每搏输出量变异(stroke volume variation, SVV)等。有条件时可以做有/无创血流动力学监测技术，如床旁超声、肺动脉导管、脉搏指示连续心排血量监测(pulse contour cardiac output，PiCCO)，Swan-Ganz、Vigileo(唯捷流)等，动态评估血流动力学状态。
+(3)呼吸系统评估：
+a)呼吸频率、幅度、节律；b)血气分析：PaO2、PaCO2、动脉血pH。
+(4)肝脏评估：
+血清总胆红素、血谷丙转氨酶(alanine transaminase，ALT)、谷草转氨酶(aspartate aminotransferase，AST)、血白蛋白。
+(5)肾脏评估：
+a)常规检测 尿量、肾小球滤过率(glomerular filtration rate，GFR)、血肌酐、尿素氮；b)尿液分析 尿比重、渗透压等，有条件时可以分析尿钠浓度及钠排泄分数。
+(6)内分泌系统评估：
+包括血糖、血脂、PCT、前肾上腺髓质素。
+(7)神经系统评估：
+a)脑电图和诱发电位 有助于早期诊断和评估脑功能障碍的严重性及预后；b)计算机断层扫描(computed tomography，CT)扫描和磁共振成像(magnetic resonance imaging，MRI) 有助于确诊和疾病严重程度分级；c)腰椎穿刺 有助于排除其他中枢神经系统感染性疾病。
+(8)免疫系统评估：
+a)细胞免疫 T淋巴细胞亚群(CD3＋、CD4＋、CD8＋、CD19＋)，自然杀伤细胞；b)体液免疫IgG、IgA、IgM等。
+5.2.4 影像学评估
+包括胸腹X线片、超声、胸腹CT、MRI等。有助于确定感染病灶，做组织器官的功能评估。
+6 感染性休克的治疗
+感染性休克的治疗首先应快速评估并稳定患者的生命体征，尽早经验性使用抗菌药物，同时积极确定病原菌，并基于对患者病理生理学状态的分析以及器官功能障碍的评估，改善机体的炎症状态和器官功能，防止感染性休克向MODS发展。治疗过程中应注重个体化因素，而不能固守于程序化的标准治疗[68]。
+点击查看表格
+关键信息3
+感染性休克的治疗原则
+关键信息3
+感染性休克的治疗原则
+●首先应快速评估并稳定患者的生命体征，尽早经验性使用抗菌药物，并基于对患者病理生理学状态的分析以及器官功能障碍的评估。
+●感染性休克的治疗包括初始治疗、抗微生物治疗、组织器官功能支持等。
+●治疗过程中应注重个体化因素，而不能固守于程序化的标准治疗。
+6.1 感染性休克的初始治疗[1,69,70,71,72](表3)
+点击查看表格
+表3
+感染性休克的初始治疗目标
+表3
+感染性休克的初始治疗目标
+时机
+治疗措施
+目标
+即刻处理
+OMI(吸氧、监测、静脉通路)：
+将患者安置于抢救室或监护室，休克体位吸氧，建立生命支持通道，监护重要生命体征识别意识状态
+1 h内目标
+开始液体复苏，纠正酸碱平衡失调和电解质紊乱
+MAP≥60 mmHg
+获取病原学标本送检
+开始抗菌药物治疗
+3 h目标
+检测CVP和MAP
+MAP≥65 mmHg血乳酸降低
+监测乳酸水平
+维持血压稳定
+使用血管活性药物(用于对早期液体复苏无反应的低血压)
+有条件时可开展超声或其他无创设备检测
+6 h目标
+应用血管活性药维持MVP
+初始液体复苏后持续低血压或初始乳酸水平超过4 mmol/L时，需要重复评估容量
+MAP≥65 mmHg
+状态和组织灌注，以下两者之一予以评估：
+尿量≥0.5 mL/(kg·h)
+评估生命体征＋心肺功能＋毛细血管再充盈＋脉搏＋皮肤改变
+CVP达到8～12 mmHg
+测量CVP＋中心静脉血氧饱和度(SCVO2)＋床旁超声(心肺)＋被动抬腿试
+ScvO2达到≥0.70
+验或液体负荷试验以评估液体反应性(任意两项)
+乳酸水平正常
+如果初始乳酸水平增加，则重复予以测量
+6.2 抗感染治疗
+控制感染是感染性休克的基础治疗措施。
+6.2.1 感染源控制
+需要紧急控制感染灶时(如坏死性筋膜炎、腹膜炎、胆管炎、肠梗死)，推荐及时做出解剖学诊断或排除诊断；如果可行的话，对于可控制的感染灶，考虑尽早采取措施控制感染源(12 h内)。严重感染需控制感染源时，应采取对生理损伤最小的有效干预措施(如经皮穿刺引流脓肿而非手术引流)，必要时可手术。如果留置导管是感染性休克可能的感染灶，应在建立其他血管通路后立即拔除。
+6.2.2 早期抗微生物治疗
+1)治疗时机：
+在控制感染源的基础上，推荐在感染性休克确诊后尽早开始(1 h内)静脉使用有效的抗菌药物治疗。推荐初始经验性抗感染治疗应包括可以覆盖所有可能的致病微生物(细菌和/或真菌或病毒)的一种或多种药物，并保证充分的组织渗透浓度[1,73,74]。
+2)药物选择
+经验性治疗应根据患者现有疾病和当地病原菌分布特点，尽可能针对最有可能的病原菌使用抗菌药物。建议应用经验性联合用药治疗中性粒细胞减少的严重感染和难治性多重耐药菌如不动杆菌和假单胞菌感染患者。对有呼吸衰竭和感染性休克的严重感染患者，建议应用广谱β-内酰胺类联合氨基糖苷类或氟喹诺酮类药物治疗铜绿假单胞菌。同样建议应用β-内酰胺类联合大环内酯类药物治疗肺炎链球菌感染的感染性休克患者。选择抗菌药物时，应以杀菌药物为主，目的是快速控制SIRS反应，遏制感染性休克的病理生理学进展[1]。
+3)治疗疗程
+对感染性休克患者，建议经验性联合治疗不超过3～5 d。一旦病原菌的药敏确定，结合患者临床情况降级到最恰当的单药治疗。但是，对铜绿假单胞菌感染以及部分心内膜炎，以及存在无法清除的感染病灶，这些情况应延长抗菌药物联合使用的时间。感染性休克常见感染部位的治疗方案建议见附录[75,76]。
+点击查看表格
+关键信息4
+感染性休克的抗菌药物治疗
+关键信息4
+感染性休克的抗菌药物治疗
+●明确感染部位，并考虑尽早采取措施控制感染源(12 h内)。
+●在控制感染源的基础上，推荐在感染性休克确诊后尽早开始(1 h内)静脉使用有效的抗菌药物治疗。
+●推荐初始经验性抗感染治疗应包括可以覆盖所有可能的致病微生物。
+●对感染性休克患者，建议经验性联合治疗不超过3～5 d。一旦病原菌的药敏确定，结合患者临床情况降级到最恰当的单药治疗。
+6.3 器官和系统功能支持
+6.3.1 循环功能支持
+1)容量复苏
+给予充分的血容量支持，可从静脉及胃肠道补给，保证组织灌注，快速扩容以增加心排血量和运输氧的能力，保证脑组织及各器官组织氧的供给，迅速恢复循环血容量，减少器官血流灌注不足的时间，防止发生多器官功能衰竭。
+容量复苏的目标：一旦确定存在组织低灌注时应当立即进行，不应延迟到患者入住重症监护病房以后。对急性全身感染导致的低灌注的复苏目标包括以下所有内容，并作为治疗方案的一部分：①CVP 8～12 mmHg；②MAP≥65 mmHg；③尿量>30 mL/h；④ScvO2≥0.70或混合静脉血氧饱和度(SvO2)≥0.65。对以乳酸水平升高作为组织低灌注指标的患者，以乳酸水平降至正常作为复苏目标[1,77]。
+容量复苏的原则：感染性休克早期，患者均有血容量不足，根据血细胞比容、中心静脉压和血流动力学监测选用补液的种类，掌握输液的速度。推荐晶体为主，有利于防止胶体从血管渗漏导致肺水肿和心力衰竭的发生。低蛋白血症患者推荐白蛋白。
+需要强调的是，容量复苏应考虑疾病需要，以及患者心血管的顺应性，心血管顺应性差时(如心力衰竭或肾功能衰竭时)，早期目标导向治疗(early goal directed therapy，EGDT)可能导致基础疾病加重，输液速度不宜太快。不建议早期进行有创检测，因为相当一部分患者可以从早期液体复苏中恢复。
+根据患者循环恢复情况，适当从胃肠道补充液体，特别是心功能不全的患者，静脉内不能大量补液，可从胃肠道补充液体，清醒的患者可给予口服补液，昏迷的患者给予插胃管补液。
+准确记录出入量。出量包括大小便量、呕吐物量、引流量、出血量、创伤的渗血渗液量、皮肤出汗量、肺呼出量等。入量包括饮水量、饮食量、输入液体量等，用量杯准确测量出入量并记录，作为补液的参考值。监测CVP，每小时1次，维持8～12 mmHg[1,77]。
+容量反应性评估：根据条件，推荐从无创到微创再到有创的原则选择监测方法。机械通气、自主呼吸或心律失常时，可选用被动抬腿试验预测患者的液体反应性。对无自主呼吸和心律失常、非小潮气量通气的患者，可选用脉压变异度(pulse pressure variation，PPV)、SVV等作为患者液体反应性的判断指标[78,79,80]。
+常用的容量反应评估方法有：
+①CVP指导的容量负荷试验 在10～15min内快速静脉输注100～250 mL，如CVP升高<2 cmH2O(1 cmH2O＝0.098 kPa)，提示容量不足，可再次补液试验或大量输液；如CVP升高>5 cmH2O，提示容量过多，心脏负荷过重，须限制补液；如CVP升高2～5 cmH2O，提示容量可能在允许范围内，也可等待15 min，再次测定CVP，重新开始容量负荷试验，直至得到容量过多或不足的信息。但对于心功能不全及老年患者，慎用补液试验。
+②功能性血流动力学参数 包括SVV、PPV、收缩压变异(systolic pressure variation，SPV)、腔静脉直径变异度等。
+③被动抬腿试验 将患者摇升至45°的半卧位，保持患者处于这一体位2 min以上测基础值，然后将患者置于平卧位，医护人员将患者双腿抬高45°，保持这一体位2 min以上测值。比较测量前后容量指标的变化，用超声心排血量监测仪无创监测每搏量(stroke volume，SV)、心排血量(cardiac output，CO)、外周血管阻力(peripheral vascular resistance，SVR)等血流动力学指标，评估患者的容量状态。
+④超声评估 多普勒心脏超声尤其是经食管超声心动图，静态指标包括对心脏内径～面积～容积和流量测定；监测SV、CO、SVR等。
+⑤肺动脉楔压(pulmonary artery wedge pressure，PAWP)导向的容量负荷试验 PAWP升高<3 mmHg提示容量不足，可再次补液试验或大量输液；PAWP升高>7 mmHg，提示容量过多，须限制补液；PAWP升高3～7 mmHg之间，提示容量可能在允许范围内，也可等待15 min，再次测定PAWP，重新开始容量负荷试验，增加幅度<3 mmHg，可重复补液试验，增加幅度在3～7 mmHg，可输液，但应减慢输液速度。
+2)血管活性药治疗
+感染性休克不同阶段的病理生理过程十分复杂，治疗关键是纠正血流动力学紊乱；治疗的主要目标是改善组织器官的血流灌流，恢复细胞的功能与代谢。迄今为止，合理应用血管活性药仍是休克基础治疗之一，其中以多巴胺和去甲肾上腺素为常用。
+多巴胺属于儿茶酚胺类药物，是去甲肾上腺素前体，既可激动α受体和β受体，还可激动多巴胺受体。药理作用是肾上腺素能受体激动效应和外周多巴胺受体激动效应，并呈剂量依赖性。多巴胺静脉内应用，常用剂量2～20 μg/(kg·min)，小剂量1～4 μg/(kg·min)时主要是多巴胺样激动剂作用，有轻度正性肌力和肾血管扩张作用，5～10 μg/(kg·min)时主要兴奋β受体，可增加心肌收缩力和心输出量，10～20 μg/(kg·min)时α受体激动效应占主导地位，使外周血管阻力增加，更大剂量则减少内脏器官血流灌注。
+去甲肾上腺素主要作用于α受体，而刺激心脏β1受体的作用轻微，对β2受体几无作用，与肾上腺素相比，其血管收缩效应突出，正性肌力效应较弱，并反射性地引起心率减慢。临床应用主要是其升压作用，对心排血量的影响取决于血管阻力的大小、左心室功能状态以及各种反射的强弱。静脉输注时在0.1～1 μg/(kg·min)剂量范围内，能有效提升平均动脉压，而在剂量>1 μg/(kg·min)时，其导致炎症、心律不齐、心脏毒副作用变得突出和明显。
+近年来，相继发表的去甲肾上腺素对感染性休克血流动力学影响的研究证明，去甲肾上腺素较之多巴胺在治疗感染性休克方面有更大的优势，尤其是前者在提高平均动脉压、增加外周血管阻力和改善肾功能方面表现了较强的作用，能够改善内脏的灌注和氧合，可使局部氧代谢改善，氧摄取率增加，满足了微循环对氧的需求，而后者可能有更多的不良反应，特别是心房颤动等心律失常，且死亡风险增加[81,82,83]。
+经过充分液体复苏，血压仍不达标，为了使MAP≥65 mmHg需要加用血管升压药物，首选去甲肾上腺素；只有当患者心律失常发生风险较低、且低心输出量时，才考虑使用多巴胺[1]。为将MAP提升至目标值或减少去甲肾上腺素的使用剂量，可在去甲肾上腺素基础上加用血管加压素(最大剂量0.03 U/min) [1]。应用血管加压素不能改善病死率，但可以减少去甲肾上腺素的用量并且是安全的。在休克早期，由于交感神经兴奋，儿茶酚胺释放过多，可以造成血压"假性"升高，此时不应使用降压药物。
+临床上，宜严密细致的监测血压变化，10～30 min一次，同时观察患者的皮肤颜色、温度、指压恢复时间等相关症征，在有条件的情况下可放置动脉导管进行有创血压监测。目标血压值能否作为评估患者病死率的指标尚存争议，有研究结果显示，血压治疗指标差异对于感染性休克病死率并无影响，高平均动脉压目标组(80～85 mmHg)与低平均动脉压目标组(65～70 mmHg)相比第28天并没有生存优势。值得注意的是，对原有高血压病史的患者进行亚组分析，发现高平均动脉压目标组急性肾损伤的发生率和肾脏替代治疗率均较低[84]。
+3)正性肌力药物治疗
+推荐出现以下情况时，试验性应用多巴酚丁胺，以2 μg/(kg·min)开始，最大剂量20 μg/(kg·min)，或在升压药基础上加用多巴酚丁胺：心脏充盈压增高和低心排血量提示心功能不全；尽管循环容量充足和MAP达标，仍然持续存在低灌注征象。不推荐提高CI超过预计的正常水平[1,85,86]。左西孟旦作为一种钙增敏剂，可使SV、CO和CI增加，而心率和心肌耗氧量无明显变化。如果经充足的液体复苏和获得足够的MAP后，CO仍低，可考虑使用左西孟旦[87]。
+6.3.2 呼吸功能支持
+感染性休克患者可首先给予鼻导管给氧或面罩给氧、无创呼吸机辅助呼吸，血气分析每小时1次。如氧饱和度不稳定时，或存在难以纠正的酸碱平衡紊乱，立即给予气管插管呼吸机辅助呼吸，维持生命体征，保证全身各组织器官氧的供给。由于不同器官的功能衰竭的情况不同，因此对于呼吸机的应用不推荐明确的指标[1]。
+急性全身感染引发的ARDS患者目标潮气量为6 mL/kg。推荐ARDS患者测量平台压，使肺被动充气的初始平台压目标上限为≤30 cmH2O。推荐使用呼气末正压(positive end-expiratory pressure，PEEP)以避免呼气末的肺泡塌陷(萎陷伤)。对急性全身感染引发的中度或重度ARDS患者，建议使用高水平PEEP而非低水平PEEP的通气策略。对有严重难治性低氧血症的急性全身感染患者建议使用肺复张疗法[1]。
+建议对由急性全身感染引发的ARDS，PaO2/FiO2≤100 mm Hg时，需要变换体位治疗，必要时采用俯卧位通气。推荐急性全身感染患者机械通气时保持床头抬高30°～45°。以降低误吸风险和预防呼吸机相关性肺炎。对小部分急性全身感染引发的ARDS患者，经仔细评估无创面罩通气的益处并认为超过其风险时，建议使用[1]。
+推荐对机械通气的严重感染患者制定撤机方案，常规进行自主呼吸试验评估，当满足下列标准时终止机械通气：可唤醒；血流动力学稳定(未使用血管加压药物)；没有新的潜在的严重情况；对通气和呼气末压力的需求较低；FiO2的需求较低，能够通过鼻导管安全输送等，应考虑拔管[1]。
+对急性全身感染引发的ARDS患者有条件时可使用肺动脉导管监测血流动力学变化。没有组织低灌注证据的情况下，推荐采用保守的而不是激进的输液策略。无特殊指征时，如支气管痉挛，不推荐使用β2-受体激动剂治疗急性全身感染引发的ARDS[1]。
+6.3.3 肾功能支持
+充分容量复苏的前提下，患者尿量仍没有增加、内环境不稳定时，应及早给予肾功能支持。
+连续性肾脏替代治疗(continuous renal replacement therapy，CRRT)和间断血液透析对严重感染导致的急性肾衰竭患者的效果相当。但鉴于CRRT能连续、缓慢、等渗地清除水分及溶质，容量波动小，更适合感染性休克血流动力学不稳定的患者，故建议使用CRRT辅助管理血流动力学不稳定的患者的液体平衡[1]。
+碳酸氢盐治疗：对低灌注导致的pH≥7.15的乳酸血症患者，不建议使用碳酸氢钠改善血流动力学或减少血管加压药物的需求[88]。
+6.3.4 消化系统功能支持
+预防应激性溃疡。有出血危险因素的感染性休克患者，推荐使用H2受体阻滞剂或质子泵抑制剂预防SU，可减少上消化道出血发生率。没有危险因素的患者不建议进行预防治疗[1,89,90,91,92]。
+6.3.5 内分泌功能调节
+目标血糖上限≤10.0 mol/L(180 mg/dL)。推荐应该在有营养支持情况下控制血糖，以防止低血糖发生。当连续2次血糖水平>10.0 mmol/L(180 mg/dL)时，开始使用胰岛素定量治疗。推荐每1～2 h监测血糖值，直到血糖值和胰岛素输注速度稳定后改为每4 h监测1次[1]。
+6.3.6 血液系统功能支持
+1)血液制品
+一旦组织低灌注得到改善且无下列情况，如心肌缺血、严重低氧血症、急性出血或缺血性心脏疾病，推荐在血红蛋白<70 g/L时输注红细胞使得成人血红蛋白浓度达到目标值70～90 g/L。为避免高钾血症，尽量减少库存血输入量。不推荐使用促红细胞生成素作为严重感染相关性贫血的特殊治疗[1]。
+严重感染患者无明显出血时，建议血小板计数<10×109 L－1时预防性输注血小板。如患者有明显出血风险，建议血小板计数<20×109 L－1时预防性输注血小板。当有活动性出血、手术、侵入性操作时建议维持血小板计数>50×109 L－1[1]。
+严重感染或感染性休克的成人患者，不建议常规静脉使用免疫球蛋白。如果无出血或无侵入性操作计划，不建议使用新鲜冰冻血浆纠正实验室凝血异常。不推荐使用抗凝血酶治疗感染性休克[1]。
+2)深静脉血栓的预防
+推荐严重感染患者用药物预防静脉血栓栓塞(venous thromboembolism，VTE)。推荐每日皮下注射低分子肝素。当肌酐清除率<30 mL/min时，使用达肝素钠或另一种肾脏代谢率低的低分子肝素或普通肝素。建议尽量联合使用药物和间歇充气加压装置对严重感染患者进行预防[1]。
+6.3.7 神经肌肉系统功能支持
+机械通气的急性全身感染患者需要注意一些抗生素如氨基糖苷类也可导致神经肌肉功能抑制。
+由于神经肌肉阻滞剂(neuromuscular blocking agents，NMBAs)有停药后延迟作用的风险，推荐对无ARDS的急性全身感染患者尽量避免使用NMBAs；对急性全身感染引发的早期ARDS，当PaO2/FiO2<150 mmHg时，建议短期使用NMBAs(≤48 h) [1]。
+点击查看表格
+关键信息5
+感染性休克的组织器官功能支持
+关键信息5
+感染性休克的组织器官功能支持
+●容量复苏：感染性休克早期，根据血细胞比容、中心静脉压和血流动力学监测选用补液的种类，掌握输液的速度。推荐晶体为主，有利于防止胶体从血管渗漏导致肺水肿和心力衰竭的发生。低蛋白血症患者推荐白蛋白；心血管顺应性差时，输液速度不宜太快；监测容量反应并调节容量复苏的速度。
+●血管活性药物：经过充分液体复苏，血压仍不达标，为了使MAP≥65 mmHg需要加用血管升压药物，首选去甲肾上腺素；只有当患者心律失常发生风险较低、且低心输出量时，才考虑使用多巴胺。
+●呼吸功能支持：感染性休克患者可首先给予鼻导管给氧或面罩给氧、无创呼吸机辅助呼吸，血气分析每小时1次。如氧饱和度不稳定时，立即给予气管插管呼吸机辅助呼吸。
+●肾脏功能支持：充分容量复苏的前提下，患者尿量仍没有增加、内环境不稳定时，应及早给予肾功能支持。
+●消化系统功能支持：有出血危险因素的感染性休克患者，推荐使用H2受体阻滞剂或质子泵抑制剂预防应激性溃疡(stress ulcer，SU)。
+●内分泌功能调节：目标血糖上限≤10.0 mol/L(180 mg/dL)。推荐在有营养支持情况下控制血糖，以防止低血糖发生。
+●血液系统功能支持：推荐在血红蛋白<70 g/L(7.0 g/L)时输注红细胞；建议血小板计数<10×109 L－1时预防性输注血小板；如患者有明显出血风险，建议PLT<20×109 L－1时预防性输注血小板；推荐每日皮下注射低分子肝素预防静脉血栓栓塞。
+●神经肌肉系统功能支持：推荐对无ARDS的急性感染患者尽量避免使用NMBAs；机械通气的急性感染患者需要注意一些抗生素如氨基糖苷类也可导致神经肌肉功能抑制。
+6.4 免疫调节及炎性控制治疗
+发生严重感染时，由于低皮质醇水平的出现，下丘脑-垂体-肾上腺轴激活，同时，受体对激素的敏感程度升高，这都有助于改善机体代谢和微循环状况，从而对器官起到保护作用。但是，若过量给予外源性糖皮质激素，作用于垂体的糖皮质激素受体，会引起下丘脑-垂体-肾上腺轴负反馈抑制[93]。
+对成人感染性休克患者，如充分的液体复苏和血管活性药能恢复血流动力学稳定(详见初始复苏目标)，不建议使用静脉注射糖皮质激素。如未达目标，在排除存在持续免疫抑制的情况下建议静脉应用糖皮质激素。应用氢化可的松时，采用持续滴注而非间断静脉推注。需要强调的是，肾上腺皮质功能低下的患者，可小剂量使用激素；在SIRS反应初期，激素应用对患者具有积极的作用；但对于免疫抑制的患者应谨慎使用[1]。应用氢化可的松时应该注意与头孢哌酮类抗菌药物的配伍禁忌，以免发生双硫仑样反应。
+其他免疫调节药物在感染性休克的治疗中可发挥重要作用。早期的SIRS反应是指各种感染或非感染性的因素作用于机体引起各种炎症介质过量释放和炎症细胞过度激活而产生的一种病理生理状态。调控机体的免疫反应，及时有效地阻断SIRS向CARS和MODS发展是危重病患者治疗成功的关键环节，推荐使用乌司他丁。乌司他丁是体内天然的抗炎物质，通过抑制炎症介质的产生和释放，保护血管内皮，改善毛细血管通透性、组织低灌注和微循环，保护脏器功能，有效降低急性感染患者的28 d病死率。可根据病情适当调整乌司他丁的剂量和使用时间[94,95,96]。胸腺肽α1作为免疫调节剂可刺激T淋巴细胞分化、增殖、成熟，还可抑制淋巴细胞凋亡，调节细胞因子分泌，对于部分T细胞免疫功能缺陷的患者纠正感染性休克导致的免疫功能紊乱有一定临床意义。
+6.5 营养支持
+经胃肠道途径容量复苏以及早期肠道营养支持需要在维持血流动力学稳定、肠道功能较好或恢复的状态下，适量给予，循序渐进。
+在确诊严重感染/感染性休克最初的48 h内，可以耐受的情况下给予经口饮食或肠内营养(如果需要)。在第1周内避免强制给予全热量营养，建议低剂量喂养[如每日最高2 092 kJ(500 kcal)]，仅在可以耐受的情况下加量[1,97,98]。
+建议在确诊严重感染/感染性休克的最初7 d内，使用静脉输注葡萄糖和肠内营养，而非单独使用全胃肠外营养或肠外营养联合肠内营养。对严重感染患者，不建议使用含特殊免疫调节添加剂的营养制剂[1,97,98]。
+对有营养风险的急性感染患者，接受肠内营养3～5 d仍不能达到50%目标量，建议添加补充性肠外营养[99]。
+7 预后评价
+通过对影响患者预后的相关因素分析，可帮助急诊临床医师进行感染性休克的诊治、预后判断，以及与患者家属的有效沟通。
+7.1 感染性休克院内死亡的危险因素
+危险因素主要包括是否有合并症、致病原因为医院获得性感染、严重程度高、组织器官功能不全评分、出现ARDS、放置肺动脉导管等。有这些危险因素的患者应密切监测并给予积极的治疗。
+7.2 感染性休克的预后评价方法
+6 h乳酸清除率< 50%，以及PCT>10 ng/mL，被认为是预后不佳的实验室指标。
+急性生理与慢性健康评分(acute physiology and chronic health evaluation，APACHE Ⅱ)：用于预测病死率，变量包括体温、平均动脉压、心率、呼吸、氧合程度、电解质、器官功能等[100]。
+MODS评分：多器官系统功能障碍评分。评估器官功能障碍的严重程度，变量包括心血管、神经、肾、肝、呼吸、凝血功能[62]。
+简化急性生理评分Ⅱ(simplified acute physiology score，SAPS Ⅱ)：变量与APACHE Ⅱ类似[101]。
+序贯脏器衰竭评价评分(sequential organ failure assessment，SOFA)：评估器官功能障碍的严重程度，变量包括心血管、神经、肾、肝、呼吸、凝血功能[102]。
+急诊感染病死率评分(mortality in emergency department sepsis score，MEDS)：评估急性全身感染的高危患者，检测急诊急性全身感染的过程[103]。
+快速急性生理评分(rapid acute physiology score，RAPS)：简化的APACHE Ⅱ评分，用于急诊重症监护前、中、后的死亡预测[104]。
+快速急诊内科评分(rapid emergency medicine score，REMS)：RAPS加上年龄和外周血氧饱和度数据，预测价值优于RAPS，与APACHE Ⅱ相似[105]。
+点击查看表格
+关键信息6
+感染性休克的预后评价
+关键信息6
+感染性休克的预后评价
+感染性休克院内死亡的相关危险因素：
+>有合并症
+>致病原因为医院获得性感染
+>严重程度高
+>组织器官功能不全评分
+>出现ARDS
+>放置肺动脉导管
+感染性休克的预后评价方法：
+>APACHE Ⅱ评分
+>MODS评分
+>SAPS Ⅱ评分
+>SOFA评分
+>MEDS评分
+>RAPS评分
+>REMS评分
+8 结语
+本指南的制定仅基于目前对感染性休克的病理生理学、诊断、治疗的理解，以及参考现有的循证医学证据，而急诊感染性休克的临床诊疗是不断发展的，其临床治疗也是个体化的，不断丰富的临床经验和循证医学证据将推动指南不断更新，以帮助急诊科临床医师提高诊疗水平，更好地服务于患者。需要注意的是，本指南不能完全覆盖患者所有的临床情况，在具体临床实践中，应根据医生经验进行诊断和治疗。
+指南专家组名单(根据姓氏拼音首字母排序)
+柴艳芬(天津医科大学总医院)；陈玉国(山东大学齐鲁医院)；曹钰(四川大学华西医院)；郭树彬(首都医科大学附属朝阳医院)；姜利(首都医科大学附属复兴医院)；吕传柱(海南医学院)；陆一鸣(上海交通大学医学院附属瑞金医院)；李小刚(中南大学湘雅医院)；李毅(北京协和医院)；李新宇(新疆军区总医院)；林洪远(中国人民解放军总医院第一附属医院);卢中秋(温州医科大学附属第一医院)；马青变(北京大学第三医院)；聂时南(南京军区总医院)；彭鹏(新疆医科大学第一附属医院)；钱传云(昆明医科大学第一附属医院)；宋晓华(复旦大学附属华东医院)；孙运波(青岛大学医学院附属医院)；王国恩(西安交通大学附属第二医院)；王仲(北京清华长庚医院)；薛克栋(新疆人民医院)；徐作军(北京协和医院)；于学忠(北京协和医院)；易慧敏(中山大学附属第三医院)；杨立山(宁夏医学院附属医院)；张泓(安徽医科大学第一附属医院)；张新超(北京医院)；张劲松(江苏省人民医院)；郑亚安(北京大学第三医院)；周荣斌(中国人民解放军北京军区总医院)；赵晓东(中国人民解放军总医院第一附属医院)；张茂(浙江大学医学院附属第二医院)。
+点击查看大图
+(含附录的完整版请扫描此二维码获取)
+(含附录的完整版请扫描此二维码获取)
+参考文献
+[1]
+DellingerRP, LevyMM, RhodesA, et al.
+Surviving Sepsis Campaign: international guidelines for management of severe sepsis and septic shock, 2012[J].
+Intensive Care Med,
+2013,
+39(
+2):
+165-
+228.
+DOI:10.1007/s00134-012-2769-8.
+[2]
+PermanSM, GoyalM, GaieskiDF.
+Initial emergency department diagnosis and management of adult patients with severe sepsis and septic shock[J].
+Scand J Trauma Resusc Emerg Med,
+2012,
+20:
+41.
+DOI:10.1186/1757-7241-20-41.
+[3]
+AnnaneD, AegerterP, Jars-GuincestreMC, et al.
+Current epidemiology of septic shock: the CUB-Réa Network[J].
+Am J Respir Crit Care Med,
+2003,
+168(
+2):
+165-
+172.
+DOI:10.1164/rccm.2201087.
+[4]
+QureshiK, RajahA.
+Septic shock:a review article[J].
+BJMP,
+2008:
+1(
+2):
+7-
+12.
+[5]
+CappR, HortonCL, TakharSS, et al.
+Predictors of patients who present to the emergency department with sepsis and progress to septic shock between 4 and 48 hours of emergency department arrival[J].
+Crit Care Med,
+2015,
+43(
+5):
+983-
+988.
+DOI:10.1097/CCM.0000000000000861.
+[6]
+ZhouJ, QianC, ZhaoM, et al.
+Epidemiology and outcome of severe sepsis and septic shock in intensive care units in mainland China[J].
+PLoS ONE,
+2014,
+9(
+9):
+e107181.
+DOI:10.1371/journal.pone.0107181.
+[7]
+GaakeerMI, van LieshoutJM, HugelmeyerCD, et al.
+Management of severe sepsis and septic shock in the emergency department:current practice in the Netherlands[J].
+Neth Crit Care,
+2009,
+13(
+3):
+128-
+131.
+[8]
+AngusD, van der PollT.
+Severe sepsis and septic shock[J].
+N Engl J Med,
+2013,
+369(
+21):
+840-
+851.
+[9]
+BoneRC, GrodzinCJ, BalkRA.
+Sepsis: a new hypothesis for pathogenesis of the disease process[J].
+Chest,
+1997,
+112(
+1):
+235-
+243.
+DOI:10.1378/chest.112.1.235.
+[10]
+van der PollT, OpalSM.
+Host-pathogen interactions in sepsis[J].
+Lancet Infect Dis,
+2008,
+8(
+1):
+32-
+43.
+DOI:10.1016/S1473-3099(07)70265-7.
+[11]
+TakeuchiO, AkiraS.
+Pattern recognition receptors and inflammation[J].
+Cell,
+2010,
+140(
+6):
+805-
+820.
+DOI:10.1016/j.cell.2010.01.022.
+[12]
+孟新科，郑晓英，熊丽红，等．
+严重脓毒血症和脓毒性休克早期目标化治疗在中国大陆部分医院急诊科实施现状调查[J]．
+中国急救医学，
+2011，
+31(
+2)：
+139-
+145.
+DOI:10.3969/j.issn.1002-1949.2011.02.012.
+MengXK, ZhengXY, XiongLH, et al.Status survey of early goal-directed therapy implemented for severe sepsis and septic shock patients in emergency department of partial hospital in China Mainland[J]. Chin J Crit Care Med, 2011, 31(2):139-145.
+[13]
+NasaP, JunejaD, SinghO.
+Severe sepsis and septic shock in the elderly: An overview[J].
+World J Crit Care Med,
+2012,
+1(
+1):
+23-
+30.
+DOI:10.5492/wjccm.v1.i1.23.
+[14]
+ArteroA, ZaragozaR, NogueiraJM.
+Epidemiology of severe sepsis and septic shock[M].
+InTech,
+2012.
+[15]
+YamamotoY, FujitaK, NakazawaS, et al.
+Clinical characteristics and risk factors for septic shock in patients receiving emergency drainage for acute pyelonephritis with upper urinary tract calculi[J].
+BMC Urol,
+2012,
+12:
+4.
+DOI:10.1186/1471-2490-12-4.
+[16]
+TamboM, OkegawaT, ShishidoT, et al.
+Predictors of septic shock in obstructive acute pyelonephritis[J].
+World J Urol,
+2014,
+32(
+3):
+803-
+811.
+DOI:10.1007/s00345-013-1166-4.
+[17]
+RiversEP, AhrensT.
+Improving outcomes for severe sepsis and septic shock: tools for early identification of at-risk patients and treatment protocol implementation[J].
+Crit Care Clin,
+2008,
+24(
+3
+Suppl):
+S1-
+47.
+DOI:10.1016/j.ccc.2008.04.002.
+[18]
+BosmannM, WardPA.
+The inflammatory response in sepsis[J].
+Trends Immunol,
+2013,
+34(
+3):
+129-
+136.
+DOI:10.1016/j.it.2012.09.004.
+[19]
+Reifel SaltzbergJM.
+Fever and signs of shock: the essential dangerous fever[J].
+Emerg Med Clin North Am,
+2013,
+31(
+4):
+907-
+926.
+DOI:10.1016/j.emc.2013.07.009.
+[20]
+WardNS, CasserlyB, AyalaA.
+The compensatory anti-inflammatory response syndrome (CARS) in critically ill patients[J].
+Clin Chest Med,
+2008,
+29(
+4):
+617-
+625.
+DOI:10.1016/j.ccm.2008.06.010.
+[21]
+OberholzerA, OberholzerC, MoldawerLL.
+Sepsis syndromes: understanding the role of innate and acquired immunity[J].
+Shock,
+2001,
+16(
+2):
+83-
+96.
+[22]
+ShelleyO, MurphyT, PatersonH, et al.
+Interaction between the innate and adaptive immune systems is required to survive sepsis and control inflammation after injury[J].
+Shock,
+2003,
+20(
+2):
+123-
+129.
+DOI:10.1097/01.shk.0000079426.52617.00.
+[23]
+CavaillonJM, Adib-ConquyM, Cloёz-TayaraniI, et al.
+Immunodepression in sepsis and SIRS assessed by ex vivo cytokine production is not a generalized phenomenon: a review[J].
+J Endotoxin Res,
+2001,
+7(
+2):
+85-
+93.
+DOI:10.1179/096805101101532576.
+[24]
+KumarA.
+An alternate pathophysiologic paradigm of sepsis and septic shock: implications for optimizing antimicrobial therapy[J].
+Virulence,
+2014,
+5(
+1):
+80-
+97.
+DOI:10.4161/viru.26913.
+[25]
+CharchafliehJ, WeiJ, LabazeG, et al.
+The role of complement system in septic shock[J].
+Clin Dev Immunol,
+2012,
+2012:
+407324.
+DOI:10.1155/2012/407324.
+[26]
+HotchkissRS, TinsleyKW, SwansonPE, et al.
+Sepsis-induced apoptosis causes progressive profound depletion of B and CD4＋ T lymphocytes in humans[J].
+J Immunol,
+2001,
+166(
+11):
+6952-
+6963.
+DOI:10.4049/jimmunol.166.11.6952.
+[27]
+HotchkissRS, TinsleyKW, SwansonPE, et al.
+Depletion of dendritic cells, but not macrophages, in patients with sepsis[J].
+J Immunol,
+2002,
+168(
+5):
+2493-
+2500.
+DOI:10.4049/jimmunol.168.5.2493.
+[28]
+WescheDE, Lomas-NeiraJL, PerlM, et al.
+Leukocyte apoptosis and its significance in sepsis and shock[J].
+J Leukoc Biol,
+2005,
+78(
+2):
+325-
+337.
+DOI:10.1189/jlb.0105017.
+[29]
+Adib-ConquyM, CavaillonJM.
+Compensatory anti-inflammatory response syndrome[J].
+Thromb Haemost,
+2009,
+101(
+1):
+36-
+47.
+[30]
+HotchkissRS, KarlIE.
+The pathophysiology and treatment of sepsis[J].
+N Engl J Med,
+2003,
+348(
+2):
+138-
+150.
+DOI:10.1056/NEJMra021333.
+[31]
+HotchkissRS, MonneretG, PayenD.
+Sepsis-induced immunosuppression: from cellular dysfunctions to immunotherapy[J].
+Nat Rev Immunol,
+2013,
+13(
+12):
+862-
+874.
+DOI:10.1038/nri3552.
+[32]
+HotchkissRS, OpalS.
+Immunotherapy for sepsis--a new approach against an ancient foe[J].
+N Engl J Med,
+2010,
+363(
+1):
+87-
+89.
+DOI:10.1056/NEJMcibr1004371.
+[33]
+HotchkissRS, MonneretG, PayenD.
+Immunosuppression in sepsis: a novel understanding of the disorder and a new therapeutic approach[J].
+Lancet Infect Dis,
+2013,
+13(
+3):
+260-
+268.
+DOI:10.1016/S1473-3099(13)70001-X.
+[34]
+EllisCG, JaggerJ, SharpeM.
+The microcirculation as a functional system[J].
+Crit Care,
+2005,
+9(
+Suppl 4):
+S3-
+8.
+DOI:10.1186/cc3751.
+[35]
+De BackerD, Orbegozo CortesD, DonadelloK, et al.
+Pathophysiology of microcirculatory dysfunction and the pathogenesis of septic shock[J].
+Virulence,
+2014,
+5(
+1):
+73-
+79.
+DOI:10.4161/viru.26482.
+[36]
+王建枝，殷莲华．
+病理生理学[M]
+8版．
+北京：
+人民卫生出版社．
+2013：
+76-
+79.
+WangJZ, YinLH.Pathophysiology[M]8th Ed.Beijing:People's Medical Publishing House.2013:76-79.
+[37]
+KingEG, BauzáGJ, MellaJR, et al.
+Pathophysiologic mechanisms in septic shock[J].
+Lab Invest,
+2014,
+94(
+1):
+4-
+12.
+DOI:10.1038/labinvest.2013.110.
+[38]
+Vieillard-BaronA, CailleV, CharronC, et al.
+Actual incidence of global left ventricular hypokinesia in adult septic shock[J].
+Crit Care Med,
+2008,
+36(
+6):
+1701-
+1706.
+DOI:10.1097/CCM.0b013e318174db05.
+[39]
+汪宗昱，李宏亮，么改琦，等．
+脓毒症心肌抑制对脓毒性休克患者血流动力学和器官功能及预后的影响[J]．
+中华危重病急救医学，
+2015，
+27(
+3)：
+180-
+184.
+DOI:10.3760/cma.j.issn.2095-4352.2015.03.005.
+WangZ, LiH, YaoG, et al. Impacts of sepsis-induced myocardial dysfunction on hemodynamics, organ function and prognosis in patients with septic shock[J]. Chin Crit Care Med, 2015, 27(3):180-184.
+[40]
+ZakyA, DeemS, BendjelidK, et al.
+Characterization of cardiac dysfunction in sepsis: an ongoing challenge.[J]
+Shock,
+2014,
+41(
+1):
+12-
+24.
+DOI:10.1097/SHK.0000000000000065.
+[41]
+AntonucciE, FiaccadoriE, DonadelloK, et al.
+Myocardial depression in sepsis: from pathogenesis to clinical manifestations and treatment[J].
+J Crit Care,
+2014,
+29(
+4):
+500-
+511.
+DOI:10.1016/j.jcrc.2014.03.028.
+[42]
+FeinAM, Calalang-ColucciMG.
+Acute lung injury and acute respiratory distress syndrome in sepsis and septic shock[J].
+Crit Care Clin,
+2000,
+16(
+2):
+289-
+317.
+DOI:10.1016/S0749-0704(05)70111-1.
+[43]
+SevranskyJE, LevyMM, MariniJJ.
+Mechanical ventilation in sepsis-induced acute lung injury/acute respiratory distress syndrome: an evidence-based review[J].
+Crit Care Med,
+2004,
+32(
+11
+Suppl):
+S548-
+553.
+[44]
+LangenbergC, BellomoR, MayC, et al.
+Renal blood flow in sepsis[J].
+Crit Care,
+2005,
+9(
+4):
+R363-
+374.
+DOI:10.1186/cc3540.
+[45]
+ChvojkaJ, SykoraR, KrouzeckyA, et al.
+Renal haemodynamic, microcirculatory, metabolic and histopathological responses to peritonitis-induced septic shock in pigs[J].
+Crit Care,
+2008,
+12(
+6):
+R164.
+DOI:10.1186/cc7164.
+[46]
+BougléA, DuranteauJ.
+Pathophysiology of sepsis-induced acute kidney injury: the role of global renal blood flow and renal vascular resistance[J].
+Contrib Nephrol,
+2011,
+174:
+89-
+97.
+DOI:10.1159/000329243.
+[47]
+RicciZ, RoncoC.
+Pathogenesis of acute kidney injury during sepsis[J].
+Curr Drug Targets,
+2009,
+10(
+12):
+1179-
+1183.
+DOI:10.2174/138945009789753192.
+[48]
+van HarenFM, SleighJW, PickkersP, et al.
+Gastrointestinal perfusion in septic shock[J].
+Anaesth Intensive Care,
+2007,
+35(
+5):
+679-
+694.
+[49]
+SpapenH.
+Liver perfusion in sepsis, septic shock, and multiorgan failure[J].
+Anat Rec (Hoboken),
+2008,
+291(
+6):
+714-
+720.
+DOI:10.1002/ar.20646.
+[50]
+MinemuraM, TajiriK, ShimizuY.
+Liver involvement in systemic infection[J].
+World J Hepatol,
+2014,
+6(
+9):
+632-
+642.
+DOI:10.4254/wjh.v6.i9.632.
+[51]
+PolitoA, EischwaldF, MahoAL, et al.
+Pattern of brain injury in the acute setting of human septic shock[J].
+Crit Care,
+2013,
+17(
+5):
+R204.
+DOI:10.1186/cc12899.
+[52]
+IacoboneE, Bailly-SalinJ, PolitoA, et al.
+Sepsis-associated encephalopathy and its differential diagnosis[J].
+Crit Care Med,
+2009,
+37(
+10
+Suppl):
+S331-
+336.
+DOI:10.1097/CCM.0b013e3181b6ed58.
+[53]
+苏磊，彭娜，唐丽群．
+脓毒症时弥漫性血管内凝血的发病机制与临床进展[J]．
+中华急诊医学杂志，
+2012，
+21(
+4)：
+345-
+351.
+DOI:10.3760/cma.j.issn.1671-0282.2012.04.003.
+SuL, PengN, TangLQ. Pathogenesis and clinical progression of DIC with sepsis[J].Chin J Emerg Med, 2012, 21(4):345-351.
+[54]
+GheorghiV, BarbuAE, GheorghiuML, et al.
+Endocrine dysfunction in sepsis: a beneficial or deleterious host response[J]
+Germs,
+2015,
+5(
+1):
+17-
+25.
+DOI:10.11599/germs.2015.1067.
+[55]
+KhwannimitB, BhurayanontachaiR.
+The epidemiology of, and risk factors for, mortality from severe sepsis and septic shock in a tertiary-care university hospital setting[J].
+Epidemiol Infect,
+2009,
+137(
+9):
+1333-
+1341.
+DOI:10.1017/S0950268809002027.
+[56]
+SmithJS.
+Current recommendations for diagnosis and management of sepsis and septic shock[J].
+JAAPA,
+2013,
+26(
+10):
+42-
+45.
+DOI:10.1097/01.JAA.0000435007.55340.07.
+[57]
+KhilnaniP, DeopujariS, CarcilloJ.
+Recent advances in sepsis and septic shock[J].
+Indian J Pediatr,
+2008,
+75(
+8):
+821-
+830.
+DOI:10.1007/s12098-008-0154-y.
+[58]
+LevyMM, FinkMP, MarshallJC, et al.
+2001 SCCM/ESICM/ACCP/ATS/SIS International Sepsis Definitions Conference[J].
+Crit Care Med,
+2003,
+31(
+4):
+1250-
+1256.
+DOI:10.1097/01.CCM.0000050454.01978.3B.
+[59]
+LamSW, BauerSR, GuzmanJA.
+Septic shock: the initial moments and beyond[J].
+Cleve Clin J Med,
+2013,
+80(
+3):
+175-
+184.
+DOI:10.3949/ccjm.80a.12002.
+[60]
+KontraJM.
+Evidence-based management of severe sepsis and septic shock[J].
+J Lanc Gene Hosp,
+2006,
+1(
+2):
+39-
+46.
+[61]
+TeasdaleG, MaasA, LeckyF, et al.
+The Glasgow Coma Scale at 40 years: standing the test of time[J].
+Lancet Neurol,
+2014,
+13(
+8):
+844-
+854.
+DOI:10.1016/S1474-4422(14)70120-6.
+[62]
+MarshallJC, CookDJ, ChristouNV, et al.
+Multiple organ dysfunction score:a reliable descriptor of a complex clinical outcome[J].
+Crit Care Med,
+1995,
+23(
+10):
+1638-
+1652.
+DOI:10.1097/00003246-199510000-00007.
+[63]
+BagshawSM, GeorgeC, BellomoR, et al.
+A comparison of the RIFLE and AKIN criteria for acute kidney injury in critically ill patients[J].
+Nephrol Dial Transplant,
+2008,
+23(
+5):
+1569-
+1574.
+DOI:10.1093/ndt/gfn009.
+[64]
+Reintam BlaserA, MalbrainML, StarkopfJ, et al.
+Gastrointestinal function in intensive care patients: terminology, definitions and management. Recommendations of the ESICM Working Group on Abdominal Problems[J].
+Intensive Care Med,
+2012,
+38(
+3):
+384-
+394.
+DOI:10.1007/s00134-011-2459-y.
+[65]
+The ARDS Definition Task Force.
+Acute respiratory distress syndrome:the Berlin definition[J].
+JAMA,
+2012,
+307(
+23):
+2526-
+2533.
+DOI:10.1001/jama.2012.5669.
+[66]
+DurandF, VallaD.
+Assessment of the prognosis of cirrhosis:child-pugh versus MELD[J].
+J Hepatol,
+2005,
+42
+Suppl(
+1):
+S100-
+107.
+DOI:10.1016/j.jhep.2004.11.015.
+[67]
+Nguyen HBryant, Rivers EmanuelP, Abrahamian FredrickM, et al.
+Severe sepsis and septic shock: review of the literature and emergency department management guidelines[J].
+Ann Emerg Med,
+2006,
+48(
+1):
+28-
+54.
+DOI:10.1016/j.annemergmed.2006.02.015.
+[68]
+The ProCESS Investigators, YealyDM, KellumJA, et al.
+A Randomized Trial of Protocol-Based Care for Early Septic Shock[J].
+N Engl J Med,
+2014,
+370(
+18):
+1683-
+1693.
+DOI:10.1056/NEJMoa1401602.
+[69]
+BrierleyJ, CarcilloJA, ChoongK, et al.
+Clinical practice parameters for hemodynamic support of pediatric and neonatal septic shock:2007 update from the American College of Critical Care Medicine[J].
+Crit Care Med,
+2009,
+37(
+2):
+666-
+688.
+DOI:10.1097/CCM.0b013e31819323c6.
+[70]
+RiversEP, KatranjiM, JaehneKA, et al.
+Early interventions in severe sepsis and septic shock: a review of the evidence one decade later[J].
+Minerva Anestesiol,
+2012,
+78(
+6):
+712-
+724.
+[71]
+DünserMW, TakalaJ, UlmerH, et al.
+Arterial blood pressure during early sepsis and outcome[J].
+Intensive Care Med,
+2009,
+35(
+7):
+1225-
+1233.
+DOI:10.1007/s00134-009-1427-2.
+[72]
+MarikPE.
+Early management of severe sepsis: concepts and controversies[J].
+Chest,
+2014,
+145(
+6):
+1407-
+1418.
+DOI:10.1378/chest.13-2104.
+[73]
+DuszyńskaW.
+Strategies of empiric antibiotic therapy in severe sepsis[J].
+Anaesthesiol Intensive Ther,
+2012,
+44(
+2):
+96-
+103.
+[74]
+Pop-VicasAurora, Opal StevenM.
+The clinical impact of multidrug-resistant gram-negative bacilli in the management of septic shock[J].
+Virulence,
+2013,
+5(
+1):
+206-
+212.
+DOI:10.4161/viru.26210.
+[75]
+BartlettJG, AuwaerterPG, PhamPA.
+The ABX guide:diagnosis & treatment of infectious diseases[M].
+Thomson PDR,
+2005.
+[76]
+SanfordJP.
+桑福德抗微生物治疗指南[M]
+43版,
+北京:
+中国协和医科大学出版社,
+2013.
+The Sanford guide to antimicrobial therapy[M]43rd ed, Beijing:Pecking Union Medical College Press, 2013.
+[77]
+PuskarichMA.
+Emergency management of severe sepsis and septic shock[J].
+Curr Opin Crit Care,
+2012,
+18(
+4):
+295-
+300.
+DOI:10.1097/MCC.0b013e328354dc16.
+[78]
+刘辉，姚咏明．
+危重患者的容量管理[J]．
+创伤与急危重病医学，
+2014，
+2(
+5)：
+262-
+311.
+LiuH, YaoYM.Capacity management of critically ill patients[J].Trauma Crit Care Med, 2014, 2(5):262-311.
+[79]
+CavallaroF, SandroniC, MaranoC, et al.
+Diagnostic accuracy of passive leg raising for prediction of fluid responsiveness in adults: systematic review and meta-analysis of clinical studies[J].
+Eur J Intensive Care Med,
+2010,
+36(
+9):
+1475-
+1483.
+DOI:10.1007/s00134-010-1929-y.
+[80]
+MarikPE, CavallazziR, VasuT, et al.
+Dynamic changes in arterial waveform derived variables and fluid responsiveness in mechanically ventilated patients: a systematic review of the literature[J].
+Crit Care Med,
+2009,
+37(
+9):
+2642-
+2647.
+DOI:10.1097/CCM.0b013e3181a590da.
+[81]
+De BackerD, BistonP, DevriendtJ, et al.
+Comparison of dopamine and norepinephrine in the treatment of shock[J].
+New Engl J Med,
+2010,
+362(
+9):
+779-
+789.
+DOI:10.1056/NEJMoa0907118.
+[82]
+De BackerD, AldecoaC, NjimiH, et al.
+Dopamine versus norepinephrine in the treatment of septic shock:A meta-analysis[J].
+Crit Care Med,
+2012,
+40(
+3):
+725-
+730.
+DOI:10.1097/CCM.0b013e31823778ee.
+[83]
+SandiferJP, JonesAE.
+Dopamine versus norepinephrine for the treatment of septic shock EBEM commentators[J].
+Ann Emerg Med,
+2012,
+60(
+3):
+372-
+373.
+DOI:10.1016/j.annemergmed.2012.04.012.
+[84]
+AsfarP, MezianiF, HamelJF, et al.
+High versus low blood-pressure target in patients with septic shock[J].
+N Engl J Med,
+2014,
+370(
+17):
+1583-
+1593.
+DOI:10.1056/NEJMoa1312173.
+[85]
+HayesMA, TimminsAC, YauEH, et al.
+Elevation of systemic oxygen delivery in the treatment of critically ill patients[J].
+N Engl J Med,
+1994,
+330(
+24):
+1717-
+1722.
+DOI:10.1056/NEJM199406163302404.
+[86]
+GattinoniL, BrazziL, PelosiP, et al.
+A trial of goal-oriented hemodynamic therapy in critically ill patients. SvO2 Collaborative Group[J].
+N Engl J Med,
+1995,
+333(
+16):
+1025-
+1032.
+DOI:10.1056/NEJM199510193331601.
+[87]
+MorelliA, DonatiA, ErtmerC, et al.
+Levosimendan for resuscitating the microcirculation in patients with septic shock:a randomized controlled study[J].
+Crit Care,
+2010,
+14(
+6):
+R232.
+DOI:10.1186/cc9387.
+[88]
+CooperDJ, WalleyKR, WiggsBR, et al.
+Bicarbonate does not improve hemodynamics in critically ill patients who have lactic acidosis. A prospective, controlled clinical study[J].
+Ann Intern Med,
+1990,
+34(
+6):
+492-
+498.
+DOI:10.7326/0003-4819-112-7-492.
+[89]
+BassoN, BagaraniM, MateriaA, et al.
+Cimetidine and antacid prophylaxis of acute upper gastrointestinal bleeding in high risk patients. Controlled randomized trial[J].
+Am J Surg,
+1981,
+141(
+3):
+339-
+341.
+DOI:10.1016/0002-9610(81)90191-4.
+[90]
+BresalierRS, GrendellJH, CelloJP, et al.
+Sucralfate suspension versus titrated antacid for the prevention of acute stress-related gastrointestinal hemorrhage in critically ill patients[J].
+Am J Med,
+1987,
+83(
+3B):
+110-
+116.
+DOI:10.1016/0002-9343(87)90839-4.
+[91]
+PoleskiMH, SpanierAH.
+Cimetidine versus antacids in the prevention of stress erosions in critically ill patients[J].
+Am J Gastroenterol,
+1986,
+81(
+2):
+107-
+111.
+[92]
+StothertJC, SimonowitzDA, DellingerEP, et al.
+Randomized prospective evaluation of cimetidine and antacid control of gastric pH in the critically ill[J].
+Ann Surg,
+1980,
+192(
+2):
+169-
+174.
+[93]
+BendelS, KarlssonS, PettilV, et al.
+Free cortisol in sepsis and septic shock[J].
+Anesth Analg,
+2008,
+106(
+6):
+1813-
+1819.
+DOI:10.1213/ane.0b013e318172fdba.
+[94]
+KarnadDR, BhadadeR, VermaPK, et al.
+Intravenous administration of ulinastatin (human urinary trypsin inhibitor) in severe sepsis:a multicenter randomized controlled study[J].
+Intensive Care Med,
+2014,
+40(
+6):
+830-
+838.
+DOI:10.1007/s00134-014-3278-8.
+[95]
+脓毒症免疫调理治疗临床研究协作组．
+乌司他丁，α1胸腺肽联合治疗严重脓毒症——一种新的免疫调理治疗方法的临床研究[J]．
+中华医学杂志，
+2007，
+87(
+7)：
+451-
+457.
+The Cooperative Group of Immunomodulatory Therapy of Sepsis.Clinical trial with a new immunomodulatory strategy:treatment of severe sepsis with Ulinastatin and Maipuxin[J].Natl Med J China, 2007, 87(7):451-457.
+[96]
+李子龙，方强，陈俭．
+蛋白酶抑制剂对重症脓毒症患者的疗效及作用机制[J]．
+中华急诊医学杂志，
+2005，
+14(
+8)：
+679-
+680.
+DOI:10.3760/j.issn.1671-0282.2005.08.018.
+LiZL, FangQ, ChenJ.Efficacy and mechanism of protease inhibitors for patients with severe sepsis[J].Chin J Emerg Med, 2005, 14(8):679-680.
+[97]
+中华医学会重症医学分会．
+中国重症加强治疗病房危重患者营养支持指导意见[J]．
+中华外科杂志，
+2006，
+44(
+17)：
+1167-
+1177.
+DOI:10.3760/j.issn.0529-5815.2006.17.004.
+Chinese Medical Association of Critical Care Medicine Branch.Recommendations for nutritional support in critically ill patients, China(2006)[J].Chin J Surg, 2006, 44(17):1167-1177.
+[98]
+中华医学会重症医学分会．
+危重患者营养支持指导意见[J]．
+中国实用外科杂志，
+2006，
+26(
+10)：
+721-
+732.
+DOI:10.3321/j.issn.1005-2208.2006.10.001.
+Chinese Medical Association of Critical Care Medicine Branch.Guidelines of nutritional support in critically ill patients[J].Chin J Pract Surg, 2006, 26(10):721-732.
+[99]
+HeideggerCP, BergerMM, GrafS, et al.
+Optimisation of energy provision with supplemental parenteral nutrition in critically ill patients:a randomized controlled clinical trial[J].
+Lancet,
+2013,
+381(
+9864):
+385-
+393.
+DOI:10.1016/S0140-6736(12)61351-8.
+[100]
+KnausWA, DraperEA, WagnerDP, et al.
+APACHE II:a severity of disease classification system[J].
+Crit Care Med,
+1985,
+13(
+10):
+818-
+829.
+[101]
+Le GallJR, LemeshowS, SaulnierF.
+A new Simplified Acute Physiology Score (SAPS II) based on a European/North American multicenter study[J].
+JAMA,
+1993,
+270(
+24):
+2957-
+2963.
+DOI:10.1001/jama.270.24.2957.
+[102]
+VincentJL, MorenoR, TakalaJ, et al.
+The SOFA (Sepsis-related Organ Failure Assessment) score to describe organ dysfunction/failure. On behalf of the Working Group on Sepsis-Related Problems of the European Society of Intensive Care Medicine[J].
+Intensive Care Med,
+1996,
+22(
+7):
+707-
+710.
+DOI:10.1007/BF01709751.
+[103]
+ShapiroNI, HowellMD, TalmorD, et al.
+Mortality in Emergency Department Sepsis (MEDS) score predicts 1-year mortality[J].
+Crit Care Med,
+2007,
+35(
+1):
+192-
+198.
+DOI:10.1097/01.CCM.0000251508.12555.3E.
+[104]
+RheeKJ, FisherCJ, WillitisNH.
+The rapid acute physiology score[J].
+Am J Emerg Med,
+1987,
+5(
+4):
+278-
+282.
+DOI:10.1016/0735-6757(87)90350-0.
+[105]
+OlssonT, TerentA, LindL.
+Rapid Emergency Medicine score: a new prognostic tool for in-hospital mortality in nonsurgical emergency department patients[J].
+J Intern Med,
+2004,
+255(
+5):
+579-
+587.
+DOI:10.1111/j.1365-2796.2004.01321.x.
+贡献者信息
+中国医师协会急诊医师分会
+历史
+出版日期：2016-03-10
+收稿日期：2016-02-15
+本文编辑
+郑辛甜
+Standards and Guidelines
+Chinese emergency septic shock clinical practice guidelines
+Chinese Medical Doctor Association Emergency Physicians Branch
+Published
+2016-03-01
+Cite as
+Chin J Emerg Med, 2016,25(3): 274-287. DOI: 10.3760/cma.j.issn.1671-0282.2016.03.005
+Contributor Information
+Chinese Medical Doctor Association Emergency Physicians Branch
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+(含附录的完整版请扫描此二维码获取)
+表1
+感染性休克的危险因素
+一般因素
+解剖结构异常或介入治疗
+药物因素
+基础疾病
+年龄>65岁
+中心静脉导管
+长期使用抗生素
+免疫功能缺陷(如AIDS、酗酒)
+营养不良
+近期侵入性手术
+近期使用类固醇激素
+体温过低或>38.2 ℃
+血液透析
+化疗药物
+恶性肿瘤或白血病
+ECOG身体评分低(<2)
+胆道系统异常
+非甾体类抗炎药
+急性胰腺炎、肠道系统疾病
+住院时间长
+气管内插管或机械通气
+其他
+糖尿病
+长期卧床
+放疗
+肾功能衰竭
+心率>120次/min
+肝功能衰竭
+SBP<110 mmHg或低于基础值的60%～70%
+存在易出血的感染灶
+病毒感染
+器官移植
+中性粒细胞缺乏
+注：ECOG美国东部肿瘤协作组；SBP收缩压；AIDS获得性免疫缺陷综合征
+图1
+严重感染患者的宿主免疫反应
+关键信息1
+感染性休克的病理生理学
+●感染性休克的病理生理学发展过程包括SIRS、CARS、MARS等一系列反应。
+●SIRS/CARS的发生发展过程存在个体差异，不完全遵循免疫激活到免疫抑制的先后顺序。
+●在治疗感染性休克时，应正确评价个体的免疫状态，为进一步治疗提供依据。
+●感染性休克时的微循环变化分为3个时期：缺血性缺氧期、淤血性缺氧期、微循环衰竭期，各期存在不同的微循环和组织器官功能障碍。
+●由于感染病原体、感染部位、机体免疫状态和炎症反应存在个体差异，休克各期的出现并不完全遵循渐进的发展规律，也可能无明显的界限。
+●感染性休克微循环功能障碍的特征性表现为功能性毛细血管密度降低、血流分布的不均一性以及微循环通透性升高。
+表2
+拯救脓毒症运动指南器官功能障碍标准
+感染性休克器官功能障碍标准
+(1)
+低氧血症[氧分压(PaO2)/吸氧浓度(FiO2)<300 mmHg]
+(2)
+急性少尿(即使给予足够的液体复苏，尿量仍<0.5 mL/(kg·h)，且至少持续2 h以上)
+(3)
+血肌酐升高>0.5 mg/dL(44.2 μmol/L)
+(4)
+凝血功能异常(国际标准化比值>1.5或APTT>60 s)
+(5)
+肠梗阻(肠鸣音消失)
+(6)
+血小板减少(<100 000/μL)
+(7)
+高胆红素血症[血浆TBiL >70 μmol/L(4 mg/dL)]
+图2
+感染性休克的诊断流程
+关键信息2
+感染性休克诊断标准
+●感染的诊断标准：
+存在感染的临床表现、实验室或影像学证据。
+●SIRS的诊断标准：
+(1)体温>38 ℃或<36 ℃；
+(2)心率>90次/min；
+(3)过度通气(呼吸>20次/min或PCO2<32 mmHg)；
+(4)白细胞增多(>12×109 L－1)；或白细胞减少(<4×109 L－1)；或有超过10%的幼稚白细胞。
+●低血压诊断标准：
+成人SBP<90 mmHg，MAP<70 mmHg，或SBP下降>40 mmHg，或低于正常年龄相关值的2个标准差。
+●组织低灌注诊断标准：
+(1)高乳酸血症：血清乳酸>2 mmol/L；
+(2)毛细血管再充盈时间延长、皮肤花斑或瘀斑。
+●器官功能障碍的诊断标准：
+心血管、呼吸、肝脏、肾脏、神经、血液等器官功能障碍参考附录。
+关键信息3
+感染性休克的治疗原则
+●首先应快速评估并稳定患者的生命体征，尽早经验性使用抗菌药物，并基于对患者病理生理学状态的分析以及器官功能障碍的评估。
+●感染性休克的治疗包括初始治疗、抗微生物治疗、组织器官功能支持等。
+●治疗过程中应注重个体化因素，而不能固守于程序化的标准治疗。
+表3
+感染性休克的初始治疗目标
+时机
+治疗措施
+目标
+即刻处理
+OMI(吸氧、监测、静脉通路)：
+将患者安置于抢救室或监护室，休克体位吸氧，建立生命支持通道，监护重要生命体征识别意识状态
+1 h内目标
+开始液体复苏，纠正酸碱平衡失调和电解质紊乱
+MAP≥60 mmHg
+获取病原学标本送检
+开始抗菌药物治疗
+3 h目标
+检测CVP和MAP
+MAP≥65 mmHg血乳酸降低
+监测乳酸水平
+维持血压稳定
+使用血管活性药物(用于对早期液体复苏无反应的低血压)
+有条件时可开展超声或其他无创设备检测
+6 h目标
+应用血管活性药维持MVP
+初始液体复苏后持续低血压或初始乳酸水平超过4 mmol/L时，需要重复评估容量
+MAP≥65 mmHg
+状态和组织灌注，以下两者之一予以评估：
+尿量≥0.5 mL/(kg·h)
+评估生命体征＋心肺功能＋毛细血管再充盈＋脉搏＋皮肤改变
+CVP达到8～12 mmHg
+测量CVP＋中心静脉血氧饱和度(SCVO2)＋床旁超声(心肺)＋被动抬腿试
+ScvO2达到≥0.70
+验或液体负荷试验以评估液体反应性(任意两项)
+乳酸水平正常
+如果初始乳酸水平增加，则重复予以测量
+关键信息4
+感染性休克的抗菌药物治疗
+●明确感染部位，并考虑尽早采取措施控制感染源(12 h内)。
+●在控制感染源的基础上，推荐在感染性休克确诊后尽早开始(1 h内)静脉使用有效的抗菌药物治疗。
+●推荐初始经验性抗感染治疗应包括可以覆盖所有可能的致病微生物。
+●对感染性休克患者，建议经验性联合治疗不超过3～5 d。一旦病原菌的药敏确定，结合患者临床情况降级到最恰当的单药治疗。
+关键信息5
+感染性休克的组织器官功能支持
+●容量复苏：感染性休克早期，根据血细胞比容、中心静脉压和血流动力学监测选用补液的种类，掌握输液的速度。推荐晶体为主，有利于防止胶体从血管渗漏导致肺水肿和心力衰竭的发生。低蛋白血症患者推荐白蛋白；心血管顺应性差时，输液速度不宜太快；监测容量反应并调节容量复苏的速度。
+●血管活性药物：经过充分液体复苏，血压仍不达标，为了使MAP≥65 mmHg需要加用血管升压药物，首选去甲肾上腺素；只有当患者心律失常发生风险较低、且低心输出量时，才考虑使用多巴胺。
+●呼吸功能支持：感染性休克患者可首先给予鼻导管给氧或面罩给氧、无创呼吸机辅助呼吸，血气分析每小时1次。如氧饱和度不稳定时，立即给予气管插管呼吸机辅助呼吸。
+●肾脏功能支持：充分容量复苏的前提下，患者尿量仍没有增加、内环境不稳定时，应及早给予肾功能支持。
+●消化系统功能支持：有出血危险因素的感染性休克患者，推荐使用H2受体阻滞剂或质子泵抑制剂预防应激性溃疡(stress ulcer，SU)。
+●内分泌功能调节：目标血糖上限≤10.0 mol/L(180 mg/dL)。推荐在有营养支持情况下控制血糖，以防止低血糖发生。
+●血液系统功能支持：推荐在血红蛋白<70 g/L(7.0 g/L)时输注红细胞；建议血小板计数<10×109 L－1时预防性输注血小板；如患者有明显出血风险，建议PLT<20×109 L－1时预防性输注血小板；推荐每日皮下注射低分子肝素预防静脉血栓栓塞。
+●神经肌肉系统功能支持：推荐对无ARDS的急性感染患者尽量避免使用NMBAs；机械通气的急性感染患者需要注意一些抗生素如氨基糖苷类也可导致神经肌肉功能抑制。
+关键信息6
+感染性休克的预后评价
+感染性休克院内死亡的相关危险因素：
+>有合并症
+>致病原因为医院获得性感染
+>严重程度高
+>组织器官功能不全评分
+>出现ARDS
+>放置肺动脉导管
+感染性休克的预后评价方法：
+>APACHE Ⅱ评分
+>MODS评分
+>SAPS Ⅱ评分
+>SOFA评分
+>MEDS评分
+>RAPS评分
+>REMS评分
+(含附录的完整版请扫描此二维码获取)
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华急诊医学杂志2016年25卷3期
+文    题：中国急诊感染性休克临床实践指南
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华急诊医学杂志2016年25卷3期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

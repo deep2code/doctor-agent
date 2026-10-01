@@ -1,0 +1,500 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E5%AF%BB%E5%B8%B8%E5%9E%8B%E5%A4%A9%E7%96%B1%E7%96%AE%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%BB%BA%E8%AE%AE%EF%BC%882020%EF%BC%89.html
+# 标题: 寻常型天疱疮诊断和治疗专家建议（2020） - 中华皮肤科杂志
+# 发布方/日期: 皮肤科，中华皮肤科杂志, 2020,53(01) : 1-7. DOI: 10.35541/cjd.2019；2020-01-15
+
+寻常型天疱疮诊断和治疗专家建议（2020）
+中国医疗保健国际交流促进会皮肤科分会
+中华皮肤科杂志, 2020,53(01) : 1-7. DOI: 10.35541/cjd.20190703
+天疱疮是一类罕见的严重威胁人类健康的自身免疫性皮肤黏膜大疱性疾病，寻常型天疱疮（pemphigus vulgaris，PV）是天疱疮中最常见、最严重类型，部分患者可危及生命。PV治疗的主要目的是控制病情，减少复发，尽可能减少糖皮质激素用量和不良反应。为了规范诊疗行为，2016年制定了《寻常型天疱疮诊断和治疗的专家建议》[1]，但随着对PV认识的不断深入和治疗手段的不断发展，有必要对原有的专家建议进行修订。本文在原专家建议的基础上，综合不同国家和地区新发表的指南共识或诊疗建议，结合中国国情，经国内多名专家反复讨论，形成了2020版诊断和治疗专家建议。
+本文选用的文献证据水平，采用目前国际上公认的定量系统评价证据分级工具（GRADE）。推荐级别来自于本次讨论的专家意见。
+一、流行病学及发病机制
+PV是欧洲、日本和美国最常见的天疱疮亚型，地中海地区天疱疮发病率是其他国家的2 ~ 3倍。犹太人和吉普赛人发病率较高。以色列、芬兰每年的发病率分别为16/106和0.76/106[2]。我国的研究数据表明，PV亦是天疱疮中最常见类型[3]。
+目前认为，天疱疮的发病机制为抗桥粒芯糖蛋白（desmoglein，Dsg）抗体导致表皮细胞间的连接结构破坏，导致临床出现水疱、大疱。水疱在表皮中位置的多样性可用Dsg补偿理论解释[1]。
+二、临床表现
+多数PV患者先有口腔损害，然后出现皮损。颊黏膜和咽部最常见，表现为持续性、痛性糜烂或溃疡，明显影响进食；生殖器黏膜、眼结膜受累次之。皮损表现为松弛性水疱和大疱，多出现在正常皮肤表面，水疱易破，形成不断扩大的糜烂面，尼氏征阳性，多数患者没有瘙痒。皮损好发于胸背部、面部、头部、腋窝、腹股沟、臀部等。根据临床表现的不同可分为黏膜主导型、皮肤黏膜型和皮肤型。皮肤黏膜型不仅有广泛的皮损，而且出现黏膜损害，病情较重，预后较差[4]。黏膜主导型多数为黏膜损害，皮损轻微较局限或没有损害。皮肤型主要表现为皮肤损害，无黏膜损害（部分患者后期出现黏膜损害）。
+三、辅助检查
+1．组织病理：
+建议选择新发（24 h内）小水疱作为标本来源。组织病理特征为基底层上方棘层松解，形成裂隙或水疱，可见棘层松解细胞。
+2．直接免疫荧光（DIF）：
+建议选择皮损周围约1 cm处的正常皮肤或黏膜取材。特征为表皮基底层上棘层或表皮全层细胞间、或黏膜上皮全层复层鳞状上皮细胞间网格状IgG和/或补体C3沉积。
+3．间接免疫荧光（IIF）：
+以猴食管上皮或人的正常皮肤为底物，患者血清中抗表皮细胞间抗体可结合于猴食管上皮或正常人表皮，出现网格状沉积。
+4．酶联免疫吸附试验（ELISA）：
+检测抗桥粒芯糖蛋白抗体水平。
+5．免疫印迹：
+黏膜主导型PV患者血清可识别Dsg3（相对分子质量130 000）蛋白，皮肤黏膜型可识别Dsg1（相对分子质量160 000）蛋白和Dsg3蛋白；皮肤型可识别Dsg1蛋白。
+四、诊断标准
+1．临床表现：
+①皮肤出现松弛性水疱和大疱，易破溃；②水疱和大疱破溃后形成顽固性糜烂；③黏膜出现水疱或糜烂；④尼氏征阳性。
+2．组织病理：
+表皮或上皮细胞间棘层松解，形成水疱和大疱。
+3．免疫诊断指标：
+①皮损区域或皮损周围正常皮肤DIF示IgG和/或补体沉积于表皮（或上皮）细胞间；②IIF检测到血清中出现抗表皮细胞间抗体；③ELISA检测到血清中出现抗Dsg抗体。
+满足临床表现中的至少1条加上组织病理和免疫诊断指标中的至少1条即可确诊。满足临床表现中至少2条加上免疫诊断指标中2条亦可确诊[5]。
+五、病情评估指标
+（一）病情严重程度临床评估指标：目前有多种评估体系，但以天疱疮疾病面积指数（pemphigus disease area index，PDAI）应用最多，是目前国际上公认的天疱疮病情评估方法[6]。PDAI 0 ~ 8分为轻度，9 ~ 24分为中度，≥ 25分为重度。PDAI是一个可靠的评估患者病情严重程度的评价体系，但其操作较复杂。
+我国学者也提出了自己的分级标准，如按照皮损受累面积占体表面积（BSA）百分比的方法[7]，轻度：< 10% BSA；中度：30% BSA左右；重度：> 50% BSA。但这些标准还缺乏信度和效度评估。
+日本学者[8]提出的天疱疮病情严重程度评分（JPDSS）操作较简单，实用，利于进行快速评估。
+（二）病情活动度实验室评估指标：血清中抗Dsg抗体水平亦可部分反映病情严重程度和病情活动度。临床症状缓解后，抗Dsg抗体水平下降，但仍有50%以上的患者抗Dsg3和抗Dsg1抗体并未转阴。即使两个PDAI分值相同的患者，其抗Dsg抗体水平也可能不同，故抗Dsg水平不用于治疗后不同患者病情严重程度的比较。然而，对同一患者在治疗的不同阶段，抗Dsg抗体水平可作为病情评估指标。
+如果在治疗期间抗体水平上升，提示病情可能复发或加重，需密切随访。此外，抗Dsg1抗体持续高水平，提示皮损复发可能性较大；而抗Dsg3持续高水平，并不预示黏膜损害复发[4,9]。若抗体持续高水平，糖皮质激素减量速度须放缓。建议有条件的单位，治疗开始时、病情稳定后每3个月、病情复发时均检测抗体水平。如果病情稳定达1年以上，且糖皮质激素维持在泼尼松10 mg/d以下，可适当延长检测时间。如果无法进行ELISA检测，可进行IIF检测[9,10]。
+（三）病情评估的时间点及治疗反应定义：国际天疱疮委员会在2008年制定的关于治疗各阶段的定义[6]目前仍被广泛接受和应用。
+1．早期观察终点：
+①基线：临床医生开始治疗的时间；②病情控制：无新发水疱出现，原有水疱干涸，此时也是巩固治疗的开始；③巩固治疗的终点：在至少2周内无新发水疱且80%的皮损愈合，此时糖皮质激素开始减量。
+2．后期观察终点：
+①停止治疗后完全缓解：患者停止系统治疗后至少2个月没有新发皮损和/或已有皮损消退；②治疗中完全缓解：患者接受最小量治疗时没有新发皮损和/或已有皮损消退；③停止治疗后部分缓解：患者停止系统治疗后至少2个月时存在无需治疗且1周内即可愈合的短暂新病灶；④最小量治疗的部分缓解：患者接受最小量治疗（包括局部外用糖皮质激素）时存在1周内即可愈合的短暂新病灶；⑤最小量治疗：泼尼松≤ 10 mg/d和/或最低量的免疫抑制剂治疗，至少持续2个月。
+3．复发或波动：
+①复发：每月新发皮损超过3个，且在1周内不能自愈，或已经控制病情的患者原有皮损增大；②波动：每月新发皮损小于3个，且在1周内不能自愈。
+4．治疗失败：
+足量糖皮质激素治疗3周，联合或不联合环磷酰胺、硫唑嘌呤、吗替麦考酚酯、甲氨蝶呤、环孢素等免疫抑制剂，均足量应用12周，治疗后仍有新发皮损，或陈旧性皮损继续扩大或不再愈合，定义为治疗失败。
+六、治疗
+PV治疗分为初始和维持治疗阶段，治疗前和治疗期间应进行详细检查（表1），尽早明确诊断，并认识到初始治疗的重要性。治疗流程图详见图1。
+点击查看大图
+图1
+寻常型天疱疮治疗流程图 PDAI：天疱疮疾病面积指数
+维持治疗（病情控制2周，开始减量）：90 ~ 60 mg/d，每2周减原剂量的10%；60 ~ 40 mg/d，每2周减5 mg；40 ~ 20 mg/d，每月减5 mg；20 mg/d，每3个月减2.5 mg。减至0.2 mg·kg-1·d-1或10 mg/d，长期维持，部分患者经全面评估，可酌情减至更低剂量糖皮质激素和免疫抑制剂合用时，首先降低糖皮质激素的剂量，后期根据免疫抑制剂的类型、不良反应轻重以及患者的血清抗体指标等酌情减量或停用免疫抑制剂
+图1
+寻常型天疱疮治疗流程图 PDAI：天疱疮疾病面积指数
+点击查看表格
+表1
+寻常型天疱疮治疗前和治疗后推荐检查项目
+表1
+寻常型天疱疮治疗前和治疗后推荐检查项目
+治疗前建议
+治疗期间建议
+•PDAI等评估病情严重程度
+•PDAI等评估病情严重程度
+•体重、血压等
+•定期监测体重、血压等
+•血尿粪常规、粪潜血、肝肾功能、电解质、血脂、血细胞沉降率、C反应蛋白、血糖、免疫球蛋白以及HBV、HCV、HIV、梅毒、结核等
+•定期检查糖皮质激素相关精神和神经系统症状
+•淋巴细胞亚群（CD4、CD8、CD4/CD8等）
+•定期检测血尿粪常规、粪潜血、肝肾功能、电解质、血脂、血细胞沉降率、C反应蛋白、血糖、糖化血红蛋白等
+•评估潜在肿瘤和/或感染：腹部超声、胸部X片，必要时CT/MRI检查
+•必要时，每半年检测1次骨密度
+•评估骨质疏松及股骨头坏死：骨密度、髋关节X片
+•必要时完善胸部、髋关节X线摄片
+•评估食管、咽喉部有无糜烂溃疡，有无胃及十二指肠溃疡，必要时内镜/钡餐监测
+•开始治疗后每月检测抗Dsg抗体，病情稳定后每3个月至半年检测1次，或行间接免疫荧光检测
+•评估青光眼或白内障：眼科检查
+•开始治疗到早期维持治疗（泼尼松0.4 mg·kg-1·d-1，或20 mg/d）建议定期检测β-D葡聚糖和巨细胞病毒抗体及载量
+•若考虑使用硫唑嘌呤，建议检测硫嘌呤甲基转移酶(TPMT)的活性
+•皮肤溃疡、糜烂部位行微生物培养
+•若考虑使用IVIG，建议治疗前排除IgA缺乏症
+•应用利妥昔单抗且初筛HBsAg阳性和/或抗-HBc阳性的患者，需定期检测肝炎标志物和/或HBV-DNA
+•对于有生育能力的妇女，建议完善β人绒毛膜促性腺激素等检查评估是否怀孕
+•根据发生的具体不适反应，进行相关的检查
+注：PDAI，天疱疮疾病面积指数；HBV，乙型肝炎病毒；HCV，丙型肝炎病毒；IVIG，静脉滴注免疫球蛋白；Dsg，桥粒芯糖蛋白
+（一）糖皮质激素：证据水平，高；推荐级别，A。1950年代早期引入糖皮质激素治疗后，天疱疮的1年死亡率从75%下降至30%以下[11]。系统应用糖皮质激素是PV的一线治疗药物。
+1．初始治疗（初始糖皮质激素剂量）：轻度患者（PDAI 0 ~ 8）0.5 mg·kg-1·d-1，中度患者（PDAI 9 ~ 24）1.0 mg·kg-1·d-1。如果1周内没有控制病情，糖皮质激素剂量均升至1.5 mg·kg-1·d-1；重度患者（PDAI ≥ 25）1.5 mg·kg-1·d-1。除冲击治疗外不再增加糖皮质激素剂量，并同时应用免疫抑制剂。对于糖皮质激素联合利妥昔单抗治疗的患者，建议中度患者泼尼松0.5 mg·kg-1·d-1，重度患者1.0 mg·kg-1·d-1。
+2．巩固和维持治疗（糖皮质激素减量）：病情控制开始减量，糖皮质激素减量方法国内外差别较大。建议泼尼松60 ~ 90 mg/d时，每2周减10%；40 ~ 60 mg/d时，每2周减5 mg；20 ~ 40 mg/d时，每月减5 mg；达20 mg/d时，每3个月减2.5 mg，减至0.2 mg·kg-1·d-1或10 mg/d可长期维持，部分患者可用更低剂量维持。另外，糖皮质激素减量过程中，需根据患者的个体情况酌情延长或缩短糖皮质激素减量时间。定期查抗Dsg抗体水平，如果抗体升高或保持不变，减量速度减慢。多数患者需接受3年或者更长时间的治疗[12,13]。
+也可以采用每年递减上一年度50%糖皮质激素剂量的方法[14]。该研究显示，采用40 mg/d、45 ~ 60 mg/d、65 ~ 80 mg/d和超过80 mg/d控制病情后，初始糖皮质激素减量平均时间分别为78、49、32和29 d。3年、5年和6年内病情完全缓解率分别为79.51%、98.36%和100%，基本符合每年递减50%的糖皮质激素剂量。
+3．在应用上述推荐剂量糖皮质激素联合免疫抑制剂治疗失败的患者，可考虑甲泼尼龙冲击治疗。甲泼尼龙500或1 000 mg静脉滴注，连用3 d，然后恢复到冲击前的糖皮质激素治疗剂量[4]。如果效果不佳，2 ~ 3周后可重复冲击1次，一般2个周期后皮损基本消退。冲击治疗期间，免疫抑制剂不需停药。部分患者冲击治疗好转后会复发，再次冲击仍然有效。
+（二）免疫抑制剂：建议对中重度患者早期应用免疫抑制剂（因为免疫抑制剂起效大约需要1 ~ 2个月），特别是存在糖尿病、高血压、骨质疏松等的患者，更需与糖皮质激素早期联合。联合应用免疫抑制剂可缩短糖皮质激素开始减量的时间，减少糖皮质激素用量，且可以在糖皮质激素减量过程中防止疾病复发。应用免疫抑制剂的不良反应包括增加肿瘤、感染、造血功能障碍、肝肾损害、泌尿生殖道并发症等风险。
+1．吗替麦考酚酯：
+证据水平，高；推荐级别，B。体重为75 kg以下的患者，推荐剂量为2 g/d，体重较大者可用3 g/d。为了减轻消化道不良反应，可采用初始剂量500 mg/d，每周增加500 mg/d的方法直至2 g/d为止[10]，多与糖皮质激素联合使用[15]。吗替麦考酚酯比硫唑嘌呤副作用少，耐受性更好[5]。但有活动性胃肠道溃疡患者禁用，特别注意治疗过程中继发肺部感染。
+2．甲氨蝶呤：
+证据水平，中；推荐级别，B。目前尚缺乏甲氨蝶呤治疗PV的对照研究。使用方法：10 ~ 20 mg/周口服，或静脉滴注，次日口服叶酸5 ~ 15 mg。常见不良反应为消化道反应、全血细胞减少、肝功能损伤、肝纤维化等，补充叶酸可以减轻或者预防这些不良反应[16]。无论有无肝病危险因素，甲氨蝶呤累积剂量达1.5 g时，应注意监测Ⅲ型前胶原蛋白氨基末端肽，及时发现早期的肝纤维化。
+3．硫唑嘌呤：
+证据水平，高；推荐级别，C1。应用前应检查巯基嘌呤甲基转移酶（TPMT）活性，在酶活性较低的患者应使用低剂量（0.5 ~ 1.5 mg·kg-1·d-1），在无酶活性的患者禁用，在酶活性正常的患者，也应从最小剂量50 mg/d开始，以免引起严重的骨髓抑制。建议每周检测血常规，正常者可每周增加50 mg，最大使用剂量3 mg·kg-1·d-1。起效时间6周。骨髓抑制最常在使用4 ~ 10周后突然出现。若发生了不良反应，则应立即停药。考虑到目前国内多数医院不能开展TPMT检测，不推荐将硫唑嘌呤作为首选免疫抑制剂。对于开展TPMT监测的患者，需要关注NUDT15变异[17]。
+4．环磷酰胺：
+证据水平，中；推荐级别，C1。可每日口服给药，也可冲击式给药。2 mg·kg-1·d-1口服可作为吗替麦考酚酯或硫唑嘌呤的替代治疗方案。冲击式治疗500 mg静脉滴注1次，1周后根据临床状况确定剂量和频率。由于环磷酰胺与出血性膀胱炎、癌症和不育的风险相关，环磷酰胺治疗3 ~ 6个月后，或累积剂量达到12 g时应停药，并转换为其他维持治疗。鉴于环磷酰胺的毒性问题，建议早晨顿服并大量饮水减少膀胱毒性，最好仅限用于难治性或重度PV患者。
+5．环孢素：
+证据水平，中；推荐级别，C1。常用剂量3 ~ 5 mg·kg-1·d-1，最常见的不良反应为肾毒性和高血压，尤其见于长期和大剂量使用者。由于环孢素受食物和药物影响较大，且有效浓度和中毒浓度非常接近，若剂量大时，建议有条件的单位在治疗期间监测血药浓度。
+（三）生物制剂利妥昔单抗：证据水平，高；推荐级别，B。利妥昔单抗是人-鼠嵌合型单克隆抗体，靶向作用于B淋巴细胞特异性抗原CD20。利妥昔单抗通常作为系统糖皮质激素联合药物，也可和静脉滴注免疫球蛋白（IVIG）或免疫吸附联合用药。英国皮肤科医师协会[4]和国际专家组提出的天疱疮诊疗建议[9]均将利妥昔单抗作为初始中重度天疱疮患者的一线治疗选择。一项研究[18]短期泼尼松（3~6个月）联合利妥昔单抗治疗和泼尼松单药治疗中重度PV的方案中，联合治疗组90%的患者在治疗2年时达到停止治疗的完全缓解；泼尼松单药组对应数据为28%，此方案由于糖皮质激素减停时间较短，仅供临床参考。
+利妥昔单抗联合糖皮质激素治疗的方案分为两种：①静脉滴注2次，每次1 000 mg，间隔2周；②静脉滴注4次，每次375 mg/m2，间隔1周。两种方案疗效相似，但第1种方案是首选方案[4]。维持治疗阶段可在第12个月静脉滴注利妥昔单抗500 mg，后续每6个月给药1次或根据临床评估决定用药时间。如疾病复发，予以静脉滴注利妥昔单抗1 000 mg，并根据临床评估调整糖皮质激素和/或免疫抑制剂剂量。后续利妥昔单抗输注时间一般不早于前次治疗后16周。
+利妥昔单抗常见的急性不良反应为输注反应和过敏反应，长期不良反应主要为感染。应用中需监测外周血中B淋巴细胞水平。利妥昔单抗有乙型肝炎病毒（HBV）再激活风险，若患者携带HBV，需要在治疗前和治疗期间与感染科医师共同制定肝炎标志物监测及HBV治疗方案。
+（四）IVIG：证据水平，高；推荐级别，B。IVIG多用于常规治疗无效的顽固性疾病或出现糖皮质激素或免疫抑制剂禁忌证的中重度PV患者，特别是当患者存在感染风险时，应考虑使用IVIG[5]。常规剂量400 mg·kg-1·d-1，连用3 ~ 5 d。病情如未缓解，可每月使用1次，直至病情控制。多与糖皮质激素及免疫抑制剂联合应用，与利妥昔单抗合用效果更佳[19]。在合并偏头痛的PV患者中，应用要谨慎，此类患者可发生无菌性脑膜炎。此外，IgA缺乏的患者禁用，易出现严重的过敏反应。
+（五）血浆置换：证据水平，中；推荐级别，C2。血浆置换是通过将患者外周血血浆和血细胞分离，选择性地去除血浆中的致病抗体，回输新鲜冰冻血浆或人白蛋白等胶体物质进行补充，从而达到治疗目的。通常7 ~ 10 d内进行2 ~ 3次，每次置换1 ~ 1.5倍血浆容积，可去除体内90%的致病抗体。
+（六）免疫吸附：证据水平，中；推荐级别，C2。对常规疗法无法改善的顽固性PV病例，可以考虑采用免疫吸附法。免疫吸附法采用免疫吸附柱去除血液中的致病性抗体，临床应用最广的免疫吸附柱为葡萄球菌蛋白A（简称蛋白A）。葡萄球菌细胞壁上的单链多肽结构蛋白A氨基末端的Fc结合区与自身抗体（主要是IgG型）及循环免疫复合物的Fc段特异性结合，从而将致病的自身抗体清除。免疫吸附可与利妥昔单抗以及免疫抑制剂联合使用，降低循环致病性抗体水平[20]。禁忌证包括严重的全身感染、严重的心血管疾病、对免疫吸附柱成分有超敏反应、需要血管紧张素转换酶抑制剂治疗和广泛性出血性倾向者[10]。
+不论血浆置换还是免疫吸附，只是清除血浆中致病抗体，需与糖皮质激素和/或免疫抑制剂和/或生物制剂联合应用，以抑制抗体的产生，预防疾病反弹。
+（七）干细胞移植：证据水平，中；推荐级别，C2。对于上述方法疗效不佳，或出现难以耐受的不良反应，或1年内多次反复加重而预后不佳的患者，干细胞移植可能使部分患者获得良好疗效，甚至长期临床缓解[21,22,23]。
+七、复发的处理
+联合糖皮质激素和免疫抑制剂控制病情后，首先减少糖皮质激素的剂量，后期根据免疫抑制剂的类型、不良反应轻重以及患者的血清抗体指标等酌情减量或停用。在正常减量过程中出现新发水疱，数量< 3个/月，首先外用强效糖皮质激素；如果1周后没有控制，仍有新发水疱1 ~ 3个/月，病情波动，将口服糖皮质激素剂量升至目前剂量的前1个治疗剂量；如果每月新发水疱大于3个，将剂量升至减量前2个剂量梯度。复发时建议加用一种免疫抑制剂，如果患者已经使用免疫抑制剂，建议换用另外一种。在大剂量使用糖皮质激素时突然停药，导致大面积复发，建议重新全面评估病情后确定治疗方案。
+八、不良反应的监测和处理
+糖皮质激素治疗相关不良反应主要包括糖尿病、高血压、心功能不全、肌病、骨质疏松症、消化道炎症或溃疡（重者出血、穿孔）、感染、电解质紊乱、缺血性骨坏死、压缩性骨折、青光眼、白内障、凝血功能紊乱等。建议进行骨质疏松症基线筛查和预防以及眼科评估[9]；糖皮质激素治疗开始时需要补充钾、钙和维生素D；有骨质疏松症发生风险的患者需参考相关指南。
+长期应用糖皮质激素和免疫抑制剂易引起感染，以呼吸系统感染最常见。因此，在进行治疗前、治疗中应评估血液、内分泌、心血管、呼吸系统和肿瘤、感染病史等（表1）。PV因皮肤黏膜的破损可引起继发性细菌、真菌和病毒感染，因此需要同时外用药物来预防感染，并对皮肤溃疡部位分泌物或脓液进行微生物培养，选择敏感抗生素进行局部抗菌治疗，必要时须系统应用抗生素。
+从初始治疗到早期维持治疗阶段，应根据病情需要定期检测β-D葡聚糖和巨细胞病毒抗体及载量[5]，应特别注意肺孢子菌肺炎或其他真菌感染（如曲霉菌），必要时可预防性使用抗生素以预防感染。接受利妥昔单抗治疗有HBV再激活风险，因此治疗开始前应对患者进行HBV筛查。如果有结核病史或近期接触过结核患者、HBV感染者以及其他重症感染病史者，建议和感染科医师共同制定方案。在使用免疫抑制剂和利妥昔单抗时禁用活疫苗[9,10]。
+总之，PV的治疗选择具有多样性，需要根据患者的病情严重程度、伴随疾病和身体状态等因素选择合适的治疗方案，尽量实现早诊断、早治疗、长期缓解。同时，治疗期间要注意观察不良反应。
+本共识的内容仅代表参与制定的专家对寻常型天疱疮治疗的指导意见，供临床医生参考。所提供的建议、观点和方法并非强制性意见，与本共识不一致的做法并不意味着错误或不当。随着对疾病的认识和治疗经验的丰富，本共识未来需要定期予以修订。
+参加讨论专家名单：陈金波（武汉市第一医院）、陈柳青（武汉市第一医院）、冯素英（中国医学科学院皮肤病医院）、晋红中（中国医学科学院北京协和医院）、李丽（中国医学科学院北京协和医院）、李薇（四川大学华西医院）、骆肖群（复旦大学附属华山医院）、潘萌（上海交通大学医学院附属瑞金医院）、王刚（第四军医大学西京皮肤医院）、肖汀（中国医科大学附属第一医院）、杨宝琦（山东省皮肤病医院）、曾抗（南方医科大学南方医院）、张桂英（中南大学湘雅二医院）、左亚刚（中国医学科学院北京协和医院）
+执笔者 左亚刚
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+中国医师协会皮肤科医师分会自身免疫性疾病亚专业委员会.
+寻常型天疱疮诊断和治疗的专家建议[J].
+中华皮肤科杂志,
+2016,
+49(
+11):
+761-
+765.
+doi: 10.3760/cma.j.issn.0412-4030.2016.11.01
+[2]
+HuangYH, KuoCF, ChenYH, et al.
+Incidence, mortality, and causes of death of patients with pemphigus in Taiwan: a nationwide population-based study[J].
+J Invest Dermatol,
+2012,
+132(
+1):
+92-
+97.
+doi: 10.1038/jid.2011.249.
+[3]
+WangYL, TieD, YanTM, et al.
+Survey of the epidemiology of autoimmune bullous disorders in Peking Union Medical College Hospital: a 30-year review[J].
+Eur J Dermatol,
+2017,
+27(
+3):
+331-
+332.
+doi: 10.1684/ejd.2017.3010.
+[4]
+HarmanKE, BrownD, ExtonLS, et al.
+British Association of Dermatologists′ guidelines for the management of pemphigus vulgaris 2017[J].
+Br J Dermatol,
+2017,
+177(
+5):
+1170-
+1201.
+doi: 10.1111/bjd.15930.
+[5]
+AmagaiM, TanikawaA, ShimizuT, et al.
+Japanese guidelines for the management of pemphigus[J].
+J Dermatol,
+2014,
+41(
+6):
+471-
+486.
+doi: 10.1111/1346-8138.12486.
+[6]
+MurrellDF, DickS, AhmedAR, et al.
+Consensus statement on definitions of disease, end points, and therapeutic response for pemphigus[J].
+J Am Acad Dermatol,
+2008,
+58(
+6):
+1043-
+1046.
+doi: 10.1016/j.jaad.2008.01.012.
+[7]
+陈喜雪，朱学骏.
+天疱疮及大疱性类天疱疮的治疗[J].
+继续医学教育,
+2006,
+20(
+23):
+54-
+56.
+doi: 10.3969/j.issn.1004-6763.2006.23.015.
+[8]
+ShimizuT, TakebayashiT, SatoY, et al.
+Grading criteria for disease severity by pemphigus disease area index[J].
+J Dermatol,
+2014,
+41(
+11):
+969-
+973.
+doi: 10.1111/1346-8138.12649.
+[9]
+MurrellDF, PeñaS, JolyP, et al.
+Diagnosis and management of pemphigus: recommendations by an international panel of experts[J].
+J Am Acad Dermatol,
+2018.
+pii: S0190-9622(18)30207-X.
+doi: 10.1016/j.jaad.2018.02.021.
+[10]
+HertlM, JedlickovaH, KarpatiS, et al.
+Pemphigus. S2 Guideline for diagnosis and treatment--guided by the European Dermatology Forum（EDF）in cooperation with the European Academy of Dermatology and Venereology（EADV）[J].
+J Eur Acad Dermatol Venereol,
+2015,
+29(
+3):
+405-
+414.
+doi: 10.1111/jdv.12772.
+[11]
+StanleyJR.
+Therapy of pemphigus vulgaris[J].
+Arch Dermatol.
+1999,
+135(
+1):
+76-
+8.
+[12]
+MimouniD, BarH, GdalevichM, et al.
+Pemphigus--analysis of epidemiological factors in 155 patients[J].
+J Eur Acad Dermatol Venereol,
+2008,
+22(
+10):
+1232-
+1235.
+doi: 10.1111/j.1468-3083.2008.02786.x.
+[13]
+AlmugairenN, HospitalV, BedaneC, et al.
+Assessment of the rate of long-term complete remission off therapy in patients with pemphigus treated with different regimens including medium- and high-dose corticosteroids[J].
+J Am Acad Dermatol,
+2013,
+69(
+4):
+583-
+588.
+doi: 10.1016/j.jaad.2013.05.016.
+[14]
+WangM, GaoY, PengY, et al.
+Yearly reduction of glucocorticoid dose by 50% as tapering schedule achieves complete remission for 124 pemphigus vulgaris patients[J].
+J Dermatol,
+2016,
+43(
+3):
+325-
+328.
+doi: 10.1111/1346-8138.13071.
+[15]
+IoannidesD, ApallaZ, LazaridouE, et al.
+Evaluation of mycophenolate mofetil as a steroid-sparing agent in pemphigus: a randomized, prospective study[J].
+J Eur Acad Dermatol Venereol,
+2012,
+26(
+7):
+855-
+860.
+doi: 10.1111/j.1468-3083.2011.04170.x.
+[16]
+EmingR, SticherlingM, HofmannSC, et al.
+S2k guidelines for the treatment of pemphigus vulgaris/foliaceus and bullous pemphigoid[J].
+J Dtsch Dermatol Ges,
+2015,
+13(
+8):
+833-
+844.
+doi: 10.1111/ddg.12606.
+[17]
+YanW, ZhouYH, WangL, et al.
+NUDT15 polymorphism and severe azathioprine-induced myelosuppression in a Chinese man with pemphigus vulgaris[J].
+Br J Dermatol,
+2018,
+178(
+1):
+e40-
+e41.
+doi: 10.1111/bjd.15840.
+[18]
+JolyP, Maho-VaillantM, Prost-SquarcioniC, et al.
+First-line rituximab combined with short-term prednisone versus prednisone alone for the treatment of pemphigus（Ritux 3）: a prospective, multicentre, parallel-group, open-label randomised trial[J].
+Lancet,
+2017,
+389(
+10083):
+2031-
+2040.
+doi: 10.1016/S0140-6736(17)30070-3.
+[19]
+TavakolpourS.
+Current and future treatment options for pemphigus: Is it time to move towards more effective treatments?[J].
+Int Immunopharmacol,
+2017,
+53:
+133-
+142.
+doi: 10.1016/j.intimp.2017.10.027.
+[20]
+KolesnikM, BeckerE, ReinholdD, et al.
+Treatment of severe autoimmune blistering skin diseases with combination of protein A immunoadsorption and rituximab: a protocol without initial high dose or pulse steroid medication[J].
+J Eur Acad Dermatol Venereol,
+2014,
+28(
+6):
+771-
+780.
+doi: 10.1111/jdv.12175.
+[21]
+WangM, CaoC, SunJ, et al.
+Application of autologous hematopoietic stem cell transplantation for pemphigus[J].
+Int J Dermatol,
+2017,
+56(
+3):
+296-
+301.
+doi: 10.1111/ijd.13461.
+[22]
+SuslovaIM, TheodoropoulosDS, CullenNA, et al.
+Pemphigus vulgaris treated with allogeneic hematopoietic stem cell transplantation following non-myeloablative conditioning[J].
+Eur Rev Med Pharmacol Sci,
+2010,
+14(
+9):
+785-
+788.
+[23]
+VanikarAV, ModiPR, PatelRD, et al.
+Hematopoietic stem cell transplantation in autoimmune diseases: the Ahmedabad experience[J].
+Transplant Proc,
+2007,
+39(
+3):
+703-
+708.
+doi: 10.1016/j.transproceed.2007.01.070.
+贡献者信息
+中国医疗保健国际交流促进会皮肤科分会
+通信作者
+晋红中
+Email：
+jinhongzhong@263.net
+关键词
+天疱疮;
+诊断;
+治疗;
+专家建议;
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-01-15
+收稿日期：2019-06-26
+本文编辑
+颜艳
+Guideline and Consensus
+Diagnosis and treatment of pemphigus vulgaris: an expert proposal (2020)
+Dermatology Branch of China International Exchange and Promotion Association for Medical and Healthcare
+Published
+2020-01-15
+Cite as
+Chin J Dermatol, 2020,53(01): 1-7. DOI: 10.35541/cjd.20190703
+Abstract
+Pemphigus vulgaris is a kind of autoimmune bullous disease which seriously threatens human health. In order to standardize the diagnosis and treatment of this disease, domestic famous experts in this field were invited to make the recommendations after rigorous discussion. According to clinical manifestations, pemphigus vulgaris can be divided into cutaneous-mucosal type, cutaneous type and mucosal-dominant type. Its pathological manifestations are characterized by acantholysis above the basal layer. According to clinical manifestations, histopathological features, immunofluorescence findings and serum anti-desmoglein antibody levels, the diagnosis of pemphigus vulgaris can be made. Systemic glucocorticoids are the first-line treatment, and the doses of glucocorticoids should vary with disease severity. Early combination with immunosuppressive agents or rituximab is recommended for the treatment of patients with moderate or severe pemphigus vulgaris, and intravenous immunoglobulin is recommended to be combined with biological agents. If necessary, plasma exchange and stem cell transplantation can be performed. In the course of treatment, changes of patients′ condition should be closely observed to reduce the occurrence of adverse reactions.
+Key words:
+Pemphigus; Diagnosis; Therapy; Expert proposal
+Contributor Information
+Dermatology Branch of China International Exchange and Promotion Association for Medical and Healthcare
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+维持治疗（病情控制2周，开始减量）：90 ~ 60 mg/d，每2周减原剂量的10%；60 ~ 40 mg/d，每2周减5 mg；40 ~ 20 mg/d，每月减5 mg；20 mg/d，每3个月减2.5 mg。减至0.2 mg·kg-1·d-1或10 mg/d，长期维持，部分患者经全面评估，可酌情减至更低剂量糖皮质激素和免疫抑制剂合用时，首先降低糖皮质激素的剂量，后期根据免疫抑制剂的类型、不良反应轻重以及患者的血清抗体指标等酌情减量或停用免疫抑制剂
+图1
+寻常型天疱疮治疗流程图 PDAI：天疱疮疾病面积指数
+表1
+寻常型天疱疮治疗前和治疗后推荐检查项目
+治疗前建议
+治疗期间建议
+•PDAI等评估病情严重程度
+•PDAI等评估病情严重程度
+•体重、血压等
+•定期监测体重、血压等
+•血尿粪常规、粪潜血、肝肾功能、电解质、血脂、血细胞沉降率、C反应蛋白、血糖、免疫球蛋白以及HBV、HCV、HIV、梅毒、结核等
+•定期检查糖皮质激素相关精神和神经系统症状
+•淋巴细胞亚群（CD4、CD8、CD4/CD8等）
+•定期检测血尿粪常规、粪潜血、肝肾功能、电解质、血脂、血细胞沉降率、C反应蛋白、血糖、糖化血红蛋白等
+•评估潜在肿瘤和/或感染：腹部超声、胸部X片，必要时CT/MRI检查
+•必要时，每半年检测1次骨密度
+•评估骨质疏松及股骨头坏死：骨密度、髋关节X片
+•必要时完善胸部、髋关节X线摄片
+•评估食管、咽喉部有无糜烂溃疡，有无胃及十二指肠溃疡，必要时内镜/钡餐监测
+•开始治疗后每月检测抗Dsg抗体，病情稳定后每3个月至半年检测1次，或行间接免疫荧光检测
+•评估青光眼或白内障：眼科检查
+•开始治疗到早期维持治疗（泼尼松0.4 mg·kg-1·d-1，或20 mg/d）建议定期检测β-D葡聚糖和巨细胞病毒抗体及载量
+•若考虑使用硫唑嘌呤，建议检测硫嘌呤甲基转移酶(TPMT)的活性
+•皮肤溃疡、糜烂部位行微生物培养
+•若考虑使用IVIG，建议治疗前排除IgA缺乏症
+•应用利妥昔单抗且初筛HBsAg阳性和/或抗-HBc阳性的患者，需定期检测肝炎标志物和/或HBV-DNA
+•对于有生育能力的妇女，建议完善β人绒毛膜促性腺激素等检查评估是否怀孕
+•根据发生的具体不适反应，进行相关的检查
+注：PDAI，天疱疮疾病面积指数；HBV，乙型肝炎病毒；HCV，丙型肝炎病毒；IVIG，静脉滴注免疫球蛋白；Dsg，桥粒芯糖蛋白
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华皮肤科杂志2020年53卷01期
+文    题：寻常型天疱疮诊断和治疗专家建议（2020）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华皮肤科杂志2020年53卷01期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解

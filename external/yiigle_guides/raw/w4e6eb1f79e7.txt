@@ -1,0 +1,1042 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E9%9D%99%E8%84%89%E8%A1%80%E6%A0%93%E6%A0%93%E5%A1%9E%E7%97%87%E6%9C%BA%E6%A2%B0%E9%A2%84%E9%98%B2%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 静脉血栓栓塞症机械预防中国专家共识 - 中华医学杂志
+# 发布方/日期: 外科，中华医学杂志, 2020,100(07) : 484-492. DOI: 10.3760/cma.j；2020-02-25
+
+静脉血栓栓塞症机械预防中国专家共识
+中国健康促进基金会血栓与血管专项基金专家委员会
+中华医学杂志, 2020,100(07) : 484-492. DOI: 10.3760/cma.j.issn.0376-2491.2020.07.002
+一、概述
+静脉血栓栓塞症（venous thromboembolism，VTE）包括深静脉血栓形成（deep vein thrombosis，DVT）和肺血栓栓塞症（pulmonary thromboembolism，PTE），两者是同一疾病在不同发病阶段和不同组织器官的表现方式[1]。DVT是指深部静脉的血液发生凝固，形成血栓，引起相应血管血液回流障碍的临床综合征。当血栓脱落后，栓子可顺着血流进入肺动脉，引起PTE。据统计[2]，PTE的栓子中，约90%来源于下肢深静脉系统，而来自其他部位的血栓很少。因此，有效地预防下肢DVT，就能够有效地预防PTE。
+在美国，VTE发病率约为1.17/1000人年，每年新发VTE约35万例[3]。我国的VTE发病率也在逐渐上升。对2007至2016年我国90家医院的数据进行分析发现[4]，十年来我国VTE的住院率从3.2/10万人上升到17.5/10万人；其中DVT住院率从2.0/10万人增加到10.5/10万人，PTE的住院率从1.2/10万人增加到7.1/10万人。虽然DVT和PTE的死亡率在下降，但在世界范围内，VTE仍然是导致死亡的第三位血管疾病[5]。在所有住院患者中，无论是否手术，大部分患者至少存在一项及以上VTE的危险因素，但目前采取了预防手段的比例仍很低。对非手术原因住院患者的国际注册研究表明[6]，只有2.6%~38.9%的患者接受了VTE的预防。在我国，外科住院患者VTE的风险分别为低危13.9%，中危32.7%和高危53.4%；内科患者分别为低危63.4%和高危36.6%；而采取了合理预防措施的比例在外科仅为9.3%，内科为6.0%[7]。因此，提高对VTE风险的认识，并采取相应的预防措施，具有重要的临床实践意义。
+VTE的治疗费用，包括住院费、抗栓药物、下腔静脉滤器植入以及血栓后综合征治疗等，都远远超过了VTE预防的费用[8]。所以，进行VTE的预防能有效降低住院医疗费用，减轻医疗经济负担。
+VTE的预防措施包括基本预防、机械预防和药物预防，其中基本预防是其他预防措施的基础[9]，机械预防是VTE预防的必不可少的措施之一，是药物预防的必要补充和特定情况下的替代手段，三者相辅相成，合理应用，可以有效预防VTE的发生[10]。长期以来，临床比较强调药物在预防VTE中的作用，对机械预防重视不足。研究显示[11]，虽然我国的医务人员对临床应用机械预防的态度是积极的，但相关的知识和行为规范性有待加强。我国目前没有专门针对机械预防的指南和共识，而现有的相关指南和共识对于机械预防的内容不够详细，实际可操作性不够。
+本共识的目标是为参与临床诊疗的医生、护士和管理的相关专业人员提供VTE机械预防的决策依据，规范医疗和护理行为。
+二、VTE的风险评估和出血风险评估
+所有住院患者都应进行VTE的风险评估，特别是一些高危科室（如骨科、ICU、神经科、妇产科、肿瘤科）以及其他手术科室等。对于特殊人群，如肿瘤患者、儿童患者等，有相应专科的量表，具体可以参考相关指南。手术患者和非手术患者的评分量表见表1和表2。
+点击查看表格
+表1
+手术患者静脉血栓栓塞症风险评分表（Caprini评分）[12]
+表1
+手术患者静脉血栓栓塞症风险评分表（Caprini评分）[12]
+1分
+2分
+3分
+5分
+年龄41~60岁
+年龄61~74岁
+年龄≥75岁
+脑卒中（<1个月）
+小手术
+关节镜手术
+VTE病史
+择期关节置换术
+体质指数>25 kg/m2
+大型开放手术（>45 min）
+VTE家族史
+髋、骨盆或下肢骨折
+下肢肿胀
+腹腔镜手术（>45 min）
+凝血因子Ⅴ Leiden突变
+急性脊髓损伤
+静脉曲张
+恶性肿瘤
+凝血酶原G20210A突变
+妊娠或产后
+卧床（>72 h）
+狼疮抗凝物阳性
+不明原因或习惯性流产史
+石膏固定
+抗心磷脂抗体阳性
+口服避孕药或激素替代疗法
+中心静脉通路
+同型半胱氨酸升高
+脓毒症（<1个月）
+肝素诱导的血小板减少症
+严重肺病，包括肺炎（<1个月）
+肺功能异常
+急性心肌梗死
+充血性心力衰竭（<1个月）
+炎症性肠病病史
+卧床
+注：低危=0~2分，中危=3~4分，高危≥5分；VTE：静脉血栓栓塞症
+点击查看表格
+表2
+非手术患者的静脉血栓栓塞症风险评分表（Padua评分）[13]
+表2
+非手术患者的静脉血栓栓塞症风险评分表（Padua评分）[13]
+危险因素
+评分
+活动性恶性肿瘤，先前有局部或远处转移和（或）6个月内接受过化疗和放疗
+3
+既往静脉血栓栓塞症
+3
+制动，患者身体原因或医嘱需要卧床至少3 d
+3
+已有血栓形成倾向，抗凝血酶缺乏症、蛋白C或S缺乏、凝血因子Ⅴ Leiden突变、凝血酶原G20210A突变、抗磷脂抗体综合征
+3
+近期（≤1个月）创伤或者外科手术
+2
+年龄≥70岁
+1
+心力衰竭和（或）呼吸衰竭
+1
+急性心肌梗死和（或）缺血性脑卒中
+1
+急性感染和（或）风湿性疾病
+1
+肥胖（体质指数≥35 kg/m2）
+1
+正在进行激素治疗
+1
+注：低危=0~3分，高危≥4分
+出血风险包括患者的个体因素：一般状态、年龄、体重、肝肾功能、凝血功能等；原发疾病情况；合并疾病情况（未控制的高血压、活动性出血等）；合并用药情况（抗血小板药物、抗凝药物、止血药物、激素等）以及是否有侵入性操作或者手术等。出血风险的评估见表3和表4[10]。
+点击查看表格
+表3
+非手术患者的出血危险因素
+表3
+非手术患者的出血危险因素
+具有以下1项即为出血高危
+具有以下3项及以上为出血高危
+活动性消化性溃疡
+年龄≥85岁
+入院前3个月内有出血事件
+肝功能不全（INR>1.5）
+血小板计数<50×109/L
+严重的肾功能不全（GFR<30 ml·min-1·m-2）
+入住ICU、RCU或者CCU等
+中心静脉置管
+风湿性疾病
+现患恶性肿瘤
+男性
+注：INR：国际标准化比值；GFR：肾小球滤过率；ICU：重症监护室；RCU：呼吸重症监护室；CCU：心脏重症监护室
+点击查看表格
+表4
+手术患者的出血危险因素
+表4
+手术患者的出血危险因素
+基础疾病相关
+手术操作相关
+活动性出血
+腹部手术：贫血/复杂手术（联合手术、分离难度高或超过一个吻合术）
+3个月内有急性事件
+胰十二指肠切除术：败血症、胰漏、手术部位出血
+严重肝肾功能衰竭
+肝切除术：原发性肝癌，术前贫血和血小板低
+血小板计数<50×109/L
+心脏手术：体外循环时间较长
+未控制的高血压
+胸部手术：全肺切除或扩大切除术
+腰穿、硬膜外或椎管内麻醉术前4 h~术后12 h
+开颅手术、脊柱手术、脊柱外伤、游离皮瓣重建
+同时使用抗凝药、抗血小板治疗或溶栓药物
+凝血功能障碍
+活动性消化道溃疡
+已知、未治疗的出血性疾病
+注：对于手术患者，存在以上1项或以上因素即为出血高危
+[推荐意见1] 建议住院患者进行VTE的风险评估以及出血风险评估。对于手术患者建议采用Caprini评分量表，非手术患者建议采用Padua评分量表。进行了VTE风险评估的患者，需要进一步完善出血风险的评估；建议按照手术患者和非手术患者分别进行评估。
+三、机械预防的适应证和禁忌证
+机械预防是采用各种辅助装置和器械，促进下肢的静脉回流，以减少静脉血栓发生的方法。常用的方法包括逐级加压袜（graduated compression stockings，GCS）、间歇充气加压装置（intermittent pneumatic compression，IPC）和足底加压泵（venous foot pumps，VFPs）。相对于抗凝药物，机械预防出血风险较小，操作简便，容易被患者接受。对于VTE中、高危的患者，如果存在药物预防的禁忌证，则机械预防是其重要选择；对于低危的患者，机械预防也能有效降低VTE的发生。
+需要强调的是，对于中、高危VTE风险情况下，如果没有禁忌证，药物预防是VTE预防的首选[14]。针对外科手术的中高危患者以及缺血性脑卒中患者的多项临床研究表明，无论选用GCS还是IPC，机械预防联合药物预防较单纯药物预防都有着更低的VTE发病率[15,16,17]。但由于缺乏大规模临床试验尤其是随机对照试验的结果，因此针对不同的患者和不同的临床情况，医生应当仔细权衡可能的获益和不良反应后做出决定。
+[推荐意见2] 建议以下患者进行机械预防：（1）VTE风险为低危的患者，其预防措施以健康教育、鼓励活动为主，也可以选择机械预防；（2）VTE风险为中危或高危的人群，如有抗凝禁忌证，建议单用机械预防；（3）VTE风险为高危的人群，如无抗凝药物应用禁忌，建议机械预防与药物预防联合应用。以下患者不推荐机械预防：（1）充血性心力衰竭、肺水肿；（2）IPC和GCS不适用于下肢局部情况异常，如皮炎、感染、坏疽、近期接受皮肤移植手术等；（3）新发的DVT、血栓性静脉炎；（4）下肢血管严重动脉硬化或其他缺血性血管病、下肢严重畸形等；（5）严重的下肢水肿慎用，应该查明病因后权衡利弊应用。
+四、机械预防的知情同意
+知情同意书应该包含以下内容：VTE的危害及风险，该患者VTE风险分层情况以及进行预防的必要性；患者机械预防过程中的注意事项、不良反应的观察等；最后，需要向患者及家属说明，尽管采取了预防措施，VTE的风险会显著降低，但也不能完全避免。
+[推荐意见3] 建议在应用机械预防前对患者及家属进行书面告知，取得知情同意。
+五、机械预防常用措施的工作原理和使用方法
+（一）GCS
+GCS的工作原理是通过从足踝向腿部施加梯度压力，促进血液从浅静脉通过穿支静脉流向深静脉，增加深静脉血流速度和血流量；适当的逐级加压可改善静脉瓣功能，增加骨骼肌静脉泵作用[18]。下肢运动障碍的患者由于缺乏肌肉收缩，因此在穿着GCS时应配合被动运动。
+依据在脚踝处施加的压力程度将GCS进行分级。我国行业标准参照欧洲（试行）标准实施[19]，VTE的预防应采用Ⅰ级压力，即压力范围为15~21 mmHg（1 mmHg=0.133 kPa）的GCS[20]。
+GCS包括膝长型、腿长型及连腰型3种，前两种更常用。对于VTE的预防，腿长型GCS优于膝长型，但是膝长型GCS更舒适，穿着正确率及依从性更高[18,21]。如果腿长型GCS因某些原因不适用，可用膝长型替代。
+GCS的尺寸应根据患者足踝部最小周径、小腿最大周径、腹股沟中央部位向下5 cm部位周长选择合适的型号[18]，肥胖患者由于腹股沟位置界定偏差大，建议在髌骨上25 cm处测量大腿最大周径。测量宜在患者直立时进行，对于不能站立者，也可在坐位或平卧位进行测量，测量后参照说明书尺寸范围进行选择。若无合适尺寸，可在医护人员指导下进行定制。
+GCS使用期间建议白天与夜间均穿着，定期进行患者肢体的评估和GCS的评估。随着患者身体恢复，下肢水肿每日会发生变化，建议每日应脱下GCS进行肢体评估，包括下肢皮肤的卫生、皮温、血运、足背动脉搏动、肢体感觉等；对行动能力下降或者皮肤完整性受损的患者，更应该重点评估，以确定GCS是否合适。除每日测量腿围，对患者进行评估之外，还需要定时检查GCS表面的平整性及完整性，以保证压力的有效性[22]。
+[推荐意见4]建议VTE的预防选用Ⅰ级压力GCS，腿长型优于膝长型；GCS需要依据下肢直径选择不同型号，尽可能全天穿着，并在住院期间每日评估患者及GCS情况。
+（二）IPC
+IPC的工作原理是通过加压泵装置从远心端到近心端的有序充盈产生的生理性机械引流效应加快血液流动，促进静脉血液和淋巴液的回流；逐级压力治疗可以改善血流淤滞，通过压力诱导的纤维蛋白溶解系统激活改善高凝状态，同时压力本身也可以改善内皮细胞功能紊乱[23]。
+IPC套筒按长度可分为膝长型和腿长型。使用时应同时结合患者的意愿以及医院的条件。IPC有两种充气方式，一种是两支充气套筒交替充气加压泵，一种是两支同时充气加压泵，二者作用效果无明显差异。由于种类、规格、厂家的不同，IPC在使用的标准、强度、频率上有一定的差别，应参照产品使用说明书进行使用[24]。IPC使用期间建议每天使用时间≥18 h，对于完全不能活动的患者，应尽量延长每天使用时间，但在长时间使用时需要考虑到患者的耐受情况[25]。
+使用方法建议根据操作说明书进行操作。使用期间患者需卧床，包裹时应从肢体远端开始，逐渐向上缠绕。在IPC的使用期间同样要进行肢体评估和IPC评估，肢体评估的方法同GCS。IPC评估要求定时检查IPC功能状态，保证套筒放置在正确的位置、压力处于正确的范围。
+[推荐意见5] IPC套筒长度应结合患者的意愿和医院的条件选用，不同充气方式的效果没有明显的差别；推荐在患者能耐受的前提下，尽量延长使用时间，使用期间应每天对患者病情及器械进行评估。
+（三）VFPs
+VFPs与IPC的原理和功效近似，通过脉冲气体在短时间内快速冲击足底的方式，使制动或偏瘫肢体的静脉血获得正常人行走状态下的一种脉冲性加速，进而提高血流速度，改善肢体末端的供血不足，加快肢体水肿的消除。不同之处在于VFPs主要使足部受压，不包括其他肢体部分，可在更短时间为足部提供高频率的冲击力。
+使用的时机与频次可参考IPC。使用方法建议根据操作说明书进行操作。
+[推荐意见6] VFPs的应用建议参考IPC。
+六、一些临床情况下的机械预防
+（一）骨科手术
+机械预防措施中GCS、IPC以及VFPs均可以降低骨科大手术后下肢DVT发生的风险，不增加PTE的发生率[26,27,28]。
+[推荐意见7] 对于VTE中、高危的骨科大手术患者建议机械预防联合药物预防，除了低危的患者外，不建议单独选用机械预防；对脊柱手术患者，建议首先开始机械预防，直到出血风险降低后再加用药物预防；对于其他出血风险高的患者，可以单独选择机械预防；对于患侧肢体不能应用机械预防的，可以在健侧实施机械预防措施；机械预防的时间建议持续到患者达到其正常时的活动能力或直至出院。
+（二）非骨科手术
+1．神经外科手术：
+神经外科的患者常见以下血栓危险因素：高龄、恶性肿瘤、手术时间长、存在截瘫或者偏瘫等。由于该类患者出血并发症的风险较高，需要仔细评估风险和获益[15,29]。针对脑出血的研究发现[30]，IPC+GCS联合应用的效果优于单用一种方法。
+[推荐意见8] 对于脑出血或严重脑外伤患者，建议尽早启动机械预防；对脊髓损伤患者，建议72 h内开始预防措施，首选机械预防联合药物预防；如果出血风险高，建议先开始机械预防，直到出血风险降低后再加用药物预防。
+2．心脏及血管手术：
+大多数接受心脏和血管手术患者有很高的出血风险，如急诊手术、多个桥血管、高龄、肾功能不全、手术持续时间长、体外循环、抗血小板药物的使用、手术中的抗凝治疗等。机械预防能够在不增加出血率的情况下降低VTE风险[31]。
+[推荐意见9] 建议在心血管手术患者同时具有VTE和出血风险时，使用机械预防措施，可选GCS或IPC，应持续使用直到患者可以正常活动或出院；建议在出血风险降低后加用药物预防。
+3．其他手术：
+手术前后应重视VTE预防，机械预防是重要的手段之一[31]。术中是否会发生血栓形成，与患者术前的状况、手术体位、手术时间长短、术中是否输血、使用止血药物等密切相关。抗凝药物在手术中应用会增加出血风险，因此术中应选择机械预防。在不影响手术区域的情况下，首选IPC[32]。机械预防应当在麻醉开始前就开始应用，直至手术后患者可以正常活动[22]。
+[推荐意见10] 建议在术前和术后评估为VTE低危的患者主要采用机械预防；对于VTE中危患者，建议药物预防或者机械预防，首选药物预防；在高危患者中，建议机械预防联合药物预防；严重出血风险的高危患者应接受机械预防，直至出血风险降低到可以应用抗凝药物；无出血并发症风险、但具有抗凝禁忌证的患者，建议采用机械预防；关于机械预防的时间，建议持续应用直到患者可以正常活动或出院。术中VTE危险在中危以上的患者，首选机械预防，IPC优于弹力袜，建议在麻醉前就开始使用，直到患者可以正常活动。
+4．创伤及烧伤：
+严重创伤患者，尤其是脊髓损伤，具有极高的VTE风险。其危险因素包括四肢骨折、脊椎骨折、神经损伤、头部损伤、静脉损伤、截瘫、输血、手术、持续3 d以上的机械通气等。机械预防在创伤患者的VTE预防中起着重要作用，尤其是在VTE和出血都是高风险的患者[33]。在所有的机械预防方法中，IPC的临床证据相对较多[15]。对于烧伤患者，需要注意下肢皮肤情况的评估，以判断是否适合机械预防措施。
+[推荐意见11] 对于创伤患者，建议尽早采取预防措施，首选机械预防联合药物预防。对于药物预防有禁忌的，可以考虑单用机械预防；在严重创伤或严重烧伤且出血风险高的患者中，建议在出血风险降低之前使用GCS和（或）IPC，之后可以联合药物预防；机械预防应当持续应用，直到患者可以正常活动或出院。
+（三）内科及ICU患者
+关于GCS和IPC在急性脑卒中后机械预防的多中心随机对照研究证实了GCS在脑卒中后预防VTE的作用[34]；同时证实腿长型GCS在预防VTE的效果方面优于膝长型GCS[35,36]；此外，该系列研究发现IPC使用成本更低，可预防VTE并提高生存率[37]。基于以上研究的结果，对于脑卒中或活动减少的非手术患者，应首选IPC。
+ICU的危重患者，很多合并凝血机制异常，出血风险较高，对这类患者应采用机械预防；当出血风险降低，则应换用药物预防[38,39]。最近的一项随机对照研究发现，对于无抗凝禁忌证的ICU患者，在药物预防的基础上加用IPC并没有显著降低VTE的发生率[40]。
+[推荐意见12] 对于脑卒中或活动减少的急性内科疾病患者，建议尽早采取预防措施，可以选择机械预防或药物预防；对于不能药物预防的患者，可以考虑单用机械预防，首选IPC，选用GCS时推荐腿长型；对于急性缺血性卒中患者，机械预防应当尽早应用（3 d之内），持续至少30 d或者直到患者恢复正常活动。
+[推荐意见13] 对于ICU患者，若无抗凝禁忌证，可单用药物预防；不能应用药物预防的，可以采用机械预防；建议从患者入院后开始应用预防措施，直到可以正常活动。
+（四）其他特殊临床情况
+1．肿瘤：
+肿瘤患者的VTE风险是非肿瘤患者的6倍，除了肿瘤本身导致的凝血异常外，其他的危险因素包括手术、静脉置管、化疗、VTE家族史、易栓症、心肺功能障碍、败血症等，使用抑制血管生成的药物和刺激红细胞生成的制剂是两个额外的危险因素[41]。在出血风险低危的肿瘤患者中单独应用机械预防效果不佳[42]。
+[推荐意见14] 在肿瘤患者中，不推荐单独应用机械预防，可选择药物联合机械预防，或者单用药物预防；对于出血高危患者可单用机械预防，GCS或IPC均可选，在出血风险降低后应当换用或者加用药物预防措施。
+2．围产期：
+妊娠妇女具有更高的VTE风险，其危险因素包括活动减少、既往VTE、先兆子痫、易栓症、接受辅助生殖技术、输血、产后感染，以及合并系统性红斑狼疮、肾病综合征等[43]。存在VTE风险的孕产妇，机械预防为首选预防措施[31,44]
+[推荐意见15] 建议对于存在VTE风险的孕妇进行机械预防，可选GCS或者IPC；对于产后（尤其是接受剖宫产）、流产或终止妊娠、且预计活动减少时间>3 d者，建议同时应用物理和药物预防（低分子量肝素），其中药物预防应该持续至产后6周，机械预防建议首选IPC。
+3．儿童：
+儿童VTE风险较成人低。其包括易栓症、中心静脉置管、肿瘤、肥胖、严重创伤或烧伤等；出血风险包括肝功能不全、应用抗凝药物、血小板减少、神经脊柱手术等[45]。据美国国家创伤数据库的数据显示，12岁以下儿童的VTE发病率为0.1%，13~15岁儿童发病率为0.3%，16岁以上发病率为0.8%[46]。有关儿童VTE发生率与年龄相关的两项研究提示[47]，发生VTE的患者年龄都在13岁以上。因此，对于儿童VTE防治，英国儿童麻醉师协会（Association of Paediatric Anaesthetists of Great Britain and Ireland，APAGBI）建议仅评估13岁以上的患者。
+目前没有儿童尺寸的GCS或IPC，因此，物理预防在儿童患者中的应用是受到限制的，一般体重>40 kg可用GCS[45]。儿童在使用前需要精确测量肢体数据，同时正确安装。当装配不良或GCS磨损后会产生止血带效应，反而增加VTE的风险。GCS的顶端不能卷曲，每天都要取下GCS或IPC进行局部卫生以及皮肤检查。
+[推荐意见16] 建议对13岁以上的儿童进行VTE风险及出血风险评估，有机械预防适应证的，可以考虑GCS。建议密切关注儿童使用机械预防的安全性。
+七、机械预防常见问题及对策
+机械预防对预防DVT的有效性已得到认可，但在临床实践中的依从性不高，可能与以下因素有关：首先，医务人员相关知识不足，国内临床护理人员VTE的相关培训缺乏[48]，直接影响机械措施预防的效果；其次，患者或家属（长期照顾者）不清楚使用目的，患者使用过程中不耐受，尤其是在护士未明确解释使用目的、未及时安置设备，临床医生未及时开具医嘱时更为突出；除了以上因素之外，GCS穿着困难、医院IPC设备配备不足、患者出院后无法继续使用等也影响了机械预防的广泛使用。
+机械预防过程中使用部位可出现下肢循环障碍、皮肤过敏及压力性损伤等不良反应[18]。因此，建议对医护人员进行专业培训，保证对患者提供专业的治疗。同时在使用中加强评估，包括每日测量腿围，加强对穿着的有效性及使用部位皮肤的重点评估，要注意GCS使用中避免形成"止血带"效应，IPC使用过程中避免压力过大等。
+从硬件配备的角度，国内各大医院的硬件设备，GCS相较于IPC和VFPs装置更易获得，应根据床位数增加重点科室IPC和VFPs装置，合理配备资源。需要做好相关仪器的维护，定期检查仪器及套件的完整及设定的压力值是否正确，保证器械处于正常功能状态。
+对使用机械预防的患者或家属（长期照顾者）进行健康教育也很重要。在穿着前予以正确指导，穿着期间进行有效督查，出院前确保患者或家属（长期照顾者）掌握宣教内容。教育内容包括复查时间、机械预防使用的必要性、适应证和禁忌证、正确穿着方法、使用期间的皮肤护理、并发症的观察及处理、清洗和保养方法等内容。教育方式在住院期间以口头教育为主，可辅助以各种宣传手册或科室内板报等，出院后可利用手机等多媒体形式进行宣教。
+尽管机械预防安全性较高，但不能忽视治疗期间及治疗后对患者和设备的动态观察和评估，一旦怀疑有新发DVT的可能，应立即停止治疗，进入VTE早期筛查流程。
+[推荐意见17] 机械预防的常见问题包括依从性低、少数患者在使用部位有不良反应等；其影响因素包括医务人员的相关知识不足，患者及家属不够理解以及医院本身的设备配备不足等；建议对医务人员进行充分培训，对患者和家属进行充分宣教，同时加强规范使用并及时评估以减少和预防不良反应。
+八、预防过程中DVT和PTE的早期识别
+1．DVT的诊断：
+明确DVT的诊断需要结合症状、体征以及相关检查的结果。患者近期有手术、严重外伤、骨折或肢体制动、长期卧床、肿瘤等病史，出现下肢肿胀、疼痛、小腿后方和（或）大腿内侧有压痛时提示下肢DVT的可能性大。但当患者无明显血栓发生的诱因，仅表现为下肢肿胀或症状不典型时易出现漏诊或误诊。一旦怀疑下肢DVT，无论临床表现典型与否均需进一步的实验室检查和影像学检查来明确诊断[49]。
+实验室检查建议检测D-二聚体，其阴性结果可以作为排除急性VTE的依据，但D-二聚体升高需要结合临床情况分析[50]。影像学检查建议采用下肢静脉彩色多普勒超声作为筛查的手段，其敏感性和准确性均较高。
+在静脉超声检查前，可采用Wells DVT评分进行初步评估，根据结果分为低度、中度、高度DVT可能性[51]（表5）。如超声检查为阴性，对于低、中度可能的患者可以排除诊断，而对于高度可能的患者建议做血管造影等影像学检查。
+点击查看表格
+表5
+预测深静脉血栓的临床模型（Wells评分）
+表5
+预测深静脉血栓的临床模型（Wells评分）
+病史及临床表现
+评分
+肿瘤
+1
+瘫痪或近期下肢石膏固定
+1
+近期卧床>3 d或近12周内大手术
+1
+沿深静脉走行的局部压痛
+1
+全下肢水肿
+1
+与健侧相比，小腿肿胀周径>3 cm
+1
+既往有下肢深静脉血栓形成病史
+1
+凹陷性水肿（症状侧下肢）
+1
+有浅静脉的侧支循环（非静脉曲张）
+1
+类似或与下肢深静脉血栓形成相近的诊断
+-2
+注：临床可能性：低度：≤0分；中度：1~2分；高度：≥3分；若双侧下肢均有症状，以症状严重的一侧为准
+2．PTE的诊断：
+对于临床上PTE的早期识别，需要结合病史、临床表现、辅助检查等初步诊断，确诊需要肺动脉影像学结果如CT肺动脉成像（CTPA）、磁共振血管成像（MRA）或数字减影血管造影（DSA）等。建议首先根据临床经验或者Wells DVT评分（表6）进行评估，做出初步诊断，再根据D-二聚体做出排除诊断，对于可能性高的患者，可以直接进行确诊检查。
+点击查看表格
+表6
+预测肺栓塞的临床模型（Wells评分）
+表6
+预测肺栓塞的临床模型（Wells评分）
+病史及临床表现
+评分
+PTE或DVT病史
+1
+4周内制动或手术
+1
+活动性肿瘤
+1
+心率≥100次/min
+1
+咯血
+1
+DVT症状或体征
+1
+其他鉴别诊断的可能性低于PTE
+1
+注：临床可能性：低度：0~1分；高度：≥2分；PTE：肺血栓栓塞症；DVT：深静脉血栓形成
+[推荐意见18] 新发的DVT是机械预防的禁忌证，而且目前的预防手段也不能完全防止DVT的发生。建议在对患者进行预防之前需筛查是否已经患有DVT，可采用Wells DVT评分评估，对于DVT高危患者，可行下肢静脉超声评估；在实施预防过程中如出现可疑的VTE征象，应及时评估患者是否患有DVT以及PTE。
+九、总结
+由于大规模多中心随机对照研究较少，尤其是缺乏国内的相关研究，因此，经专家组讨论，第一版先以共识的形式写作。工作小组将在新的临床证据出现后3~5年内对内容做出更新，有可能的情况下，将进一步制订成为指南。专家组鼓励共识使用者在应用本共识时根据自身的临床经验，并考虑到患者具体情况及费用、风险和收益比，对患者做出个体的VTE机械预防决策。
+需要声明的是，本共识是基于目前检索可得到的文献资料以及参与讨论的专家所掌握的循证医学证据制订，仅供临床医护人员参考应用，不作为任何医疗纠纷及诉讼的法律依据。
+顾问：高润霖（中国医学科学院阜外医院）；王辰（中国医学科学院北京协和医学院）；李小鹰（解放军总医院老年心血管内科）
+组长：唐佩福（解放军总医院骨科）；陈忠（北京安贞医院血管外科）；田红燕（西安交通大学第一附属医院周围血管科）
+执笔人：田红燕（西安交通大学第一附属医院周围血管科）；高远（解放军总医院骨科）；张军波（西安交通大学第一附属医院周围血管科）
+共识制定专家组成员（按姓氏汉语拼音排序）：白希壮（辽宁省人民医院骨科）；陈虹（重庆医科大学附属第一医院呼吸科）；陈忠（北京安贞医院血管外科）；陈新石（中华医学杂志）；陈耀龙（兰州大学基础医学院循证医学研究所/GRADE中国中心）；程兆忠（青岛大学附属医院呼吸科）；丁晓榕（中国健康促进基金会）；高远（解放军总医院骨科）；高润霖（中国医学科学院阜外医院）；姜桂春（辽宁省肿瘤医院护理部）；姜文彬（青岛医学院附属第一医院护理部）；李辉（北京朝阳医院胸外科）；李强（江苏省人民医院普外科ICU）；李妍（中国医科大学附属盛京医院妇科）；李小鹰（解放军总医院老年心血管内科）；刘蕾（沈阳军区总医院呼吸内科）；罗旭飞（兰州大学公共卫生学院/GRADE中国中心）；马壮（沈阳军区总医院呼吸内科）；马玉芬（北京协和医院护理部外科）；孙天胜（北京军区总医院骨科）；谭晓菊（中南大学湘雅二医院血栓预防小组）；唐佩福（解放军总医院骨科）；田华（北京大学第三医院骨科）；田红燕（西安交通大学第一附属医院周围血管科）；万钧（中日友好医院呼吸与危重症医学科）；王辰（中国医学科学院北京协和医学院）；王洁（苏州大学附属第一医院护理部外科）；王爱平（中国医科大学附属第一医院护理部）；辛霞（西安交通大学第一附属医院护理部）；薛凌（广东省人民医院心血管内科ICU）；杨清（中国医科大学附属盛京医院妇科）；杨惠林（苏州大学附属第一医院骨科）；易群（四川大学华西医院呼吸内科）；应可净（浙江大学医学院附属邵逸夫医院呼吸内科）；袁会军（西安市红会医院介入周围血管科）；翟振国（中日友好医院呼吸与危重症医学科）；张军波（西安交通大学第一附属医院周围血管科）；赵艳梅（中国健康促进基金会）；钟梅（南方医科大学附属南方医院产科）；朱红（中国健康促进基金会）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+中华医学会呼吸病学分会肺栓塞与肺血管病学组，中国医师协会呼吸医师分会肺栓塞与肺血管病工作委员会，全国肺栓塞与肺血管病防治协作组.
+肺血栓栓塞症诊治与预防指南[J].
+中华医学杂志,
+2018,
+98(
+14):
+1060-
+1087.
+DOI: 10.3760/cma.j.issn.0376-2491.2018.14.007.
+[2]
+LevyMM, BachC, Fisher-SnowdenR, et al.
+Upper extremity deep venous thrombosis: reassessing the risk for subsequent pulmonary embolism[J].
+Ann Vasc Surg,
+2011,
+25(
+4):
+442-
+447.
+DOI: 10.1016/j.avsg.2011.01.005.
+[3]
+RathbunS.
+Cardiology patient pages. The surgeon general′s call to action to prevent deep vein thrombosis and pulmonary embolism[J].
+Circulation,
+2009,
+119(
+15):
+e480-
+e482.
+DOI: 10.1161/CIRCULATIONAHA.108.841403.
+[4]
+ZhangZ, LeiJ, ShaoX, et al.
+Trends in hospitalization and in-hospital mortality from VTE, 2007 to 2016, in China[J].
+Chest,
+2019,
+155(
+2):
+342-
+353.
+DOI: 10.1016/j.chest.2018.10.040.
+[5]
+GoldhaberSZ.
+Venous thromboembolism: epidemiology and magnitude of the problem[J].
+Best Pract Res Clin Haematol,
+2012,
+25(
+3):
+235-
+242.
+DOI: 10.1016/j.beha.2012.06.007.
+[6]
+CohenAT, TapsonVF, BergmannJF, et al.
+Venous thromboembolism risk and prophylaxis in the acute hospital care setting (endorse study): a multinational cross-sectional study[J].
+Lancet,
+2008,
+371(
+9610):
+387-
+394.
+DOI: 10.1016/S0140-6736(08)60202-0.
+[7]
+ZhaiZ, KanQ, LiW, et al.
+VTE risk profiles and prophylaxis in medical and surgical inpatients: the identification of Chinese hospitalized patients′ risk profile for venous thromboembolism (DissolVE-2)—a cross-sectional study[J].
+Chest,
+2019,
+155(
+1):
+114-
+122.
+DOI: 10.1016/j.chest.2018.09.020.
+[8]
+TamowiczB, MikstackiA, UrbanekT, et al.
+Mechanical methods of venous thromboembolism prevention: from guidelines to clinical practice[J].
+Polish Arch Intern Med,
+2019,
+129(
+5):
+335-
+341.
+DOI: 10.20452/pamw.4482.
+[9]
+SnowV, QaseemA, BarryP, et al.
+Management of venous thromboembolism: a clinical practice guideline from the American college of physicians and the American academy of family physicians[J].
+Ann Intern Med,
+2007,
+146(
+3):
+204-
+210.
+DOI: 10.7326/0003-4819-146-3-200702060-00149.
+[10]
+中国健康促进基金会血栓与血管专项基金专家委员会，中国医师协会呼吸医师分会肺栓塞与肺血管病工作委员会.
+医院内静脉血栓栓塞症防治与管理建议[J].
+中华医学杂志,
+2018,
+98(
+18):
+1383-
+1388.
+DOI: 10.3760/cma.j.issn.0376-2491.2018.18.003.
+[11]
+XuY, WangW, ZhaoJ, et al.
+Knowledge, attitude, and practice of healthcare professionals toward clinically applying graduated compression stockings: results of a Chinese web-based survey[J].
+J Thromb Thrombolysis,
+2019,
+47(
+1):
+102-
+108.
+DOI: 10.1007/s11239-018-1749-4.
+[12]
+CapriniJA, ArcelusJI, HastyJH, et al.
+Clinical assessment of venous thromboembolic risk in surgical patients[J].
+Semin Thromb Hemost,
+1991,
+17
+Suppl 3:
+304-
+312.
+DOI: 10.1055/s-2007-1002590.
+[13]
+SchulmanS, BeythRJ, KearonC, et al.
+Hemorrhagic complications of anticoagulant and thrombolytic treatment: American college of chest physicians evidence-based clinical practice guidelines (8th edition)[J].
+Chest,
+2008,
+133(
+6
+Suppl):
+257S-
+298S.
+DOI: 10.1378/chest.08-0674.
+[14]
+KearonC, AklEA, ComerotaAJ, et al.
+Antithrombotic therapy for VTE disease: antithrombotic therapy and prevention of thrombosis: American college of chest physicians evidence-based clinical practice guidelines[J].
+Chest,
+2012,
+141(
+2
+Suppl):
+e419S-
+e496S.
+DOI: 10.1378/chest.11-2301.
+[15]
+GouldMK, GarciaDA, WrenSM, et al.
+Prevention of VTE in nonorthopedic surgical patients antithrombotic therapy and prevention of thrombosis, 9th ed: American college of chest physicians evidence-based clinical practice guidelines[J].
+Chest,
+2012,
+141(
+2
+Suppl):
+E227S-
+E277S.
+DOI: 10.1378/chest.11-2297.
+[16]
+LansbergMG, O′DonnellMJ, KhatriP, et al.
+Antithrombotic and thrombolytic therapy for ischemic stroke antithrombotic therapy and prevention of thrombosis, 9th ed: American college of chest physicians evidence-based clinical practice guidelines[J].
+Chest,
+2012,
+141(
+2
+Suppl):
+E601S-
+E636S.
+DOI: 10.1378/chest.11-2302.
+[17]
+GuyattGH, NorrisSL, SchulmanS, et al.
+Methodology for the development of antithrombotic therapy and prevention of thrombosis guidelines: antithrombotic therapy and prevention of thrombosis: American college of chest physicians evidence-based clinical practice guidelines[J].
+Chest,
+2012,
+141(
+2
+Suppl):
+53S-
+70S.
+DOI: 10.1378/chest.11-2288.
+[18]
+国际血管联盟中国分部护理专业委员会，中国医师协会腔内血管学专业委员会.
+梯度压力袜用于静脉血栓栓塞症防治专家共识[J].
+介入放射学杂志,
+2019,
+28(
+9):
+811-
+818.
+DOI: 10.3969/j.issn.1008-794X.2019.09.001.
+[19]
+国家食品药品监督管理局.
+YY/T 0851-2011医用防血栓袜[S].
+北京,
+2011.
+[20]
+《中国血栓性疾病防治指南》专家委员会.
+中国血栓性疾病防治指南[J].
+中华医学杂志,
+2018,
+18(
+36):
+2861-
+2888.
+DOI: 10.3760/cma.j.issn.0376-2491.2018.36.002.
+[21]
+中华医学会外科学分会.
+中国普通外科围手术期血栓预防与管理指南[J].
+消化肿瘤杂志（电子版）,
+2018,
+8(
+2):
+57-
+62.
+DOI: 10.3969/j.issn.1674-7402.2016.02.004.
+[22]
+Guideline summary: prevention of venous thromboembolism[J].
+AORN J,
+2018,
+107(
+6):
+750-
+754.
+DOI: 10.1002/aorn.12147.
+[23]
+LippiG, FavaloroEJ, CervellinG.
+Prevention of venous thromboembolism: focus on mechanical prophylaxis[J].
+Semin Thromb Hemost,
+2011,
+37(
+3):
+237-
+251.
+DOI: 10.1055/s-0031-1273088.
+[24]
+AfshariA, AgenoW, AhmedA, et al.
+European guidelines on perioperative venous thromboembolism prophylaxis: executive summary[J].
+Eur J Anaesthesiol,
+2018,
+35(
+2):
+77-
+83.
+DOI: 10.1097/EJA.0000000000000729.
+[25]
+KearonC, AklEA, OrnelasJ, et al.
+Antithrombotic therapy for VTE disease: CHEST guideline and expert panel report[J].
+Chest,
+2016,
+149(
+2):
+315-
+352.
+DOI: 10.1016/j.chest.2015.11.026.
+[26]
+PedersenAB, MehnertF, JohnsenSP, et al.
+Venous thromboembolism in patients having knee replacement and receiving thromboprophylaxis: a Danish population-based follow-up study[J].
+J Bone Joint Surg Am,
+2011,
+93(
+14):
+1281-
+1287.
+DOI: 10.2106/JBJS.J.00676.
+[27]
+KakkosSK, WarwickD, NicolaidesAN, et al.
+Combined (mechanical and pharmacological) modalities for the prevention of venous thromboembolism in joint replacement surgery[J].
+J Bone Joint Surg Br,
+2012,
+94(
+6):
+729-
+734.
+DOI: 10.1302/0301-620X.94B6.28128.
+[28]
+中华医学会骨科学分会.
+中国骨科大手术静脉血栓栓塞症预防指南[J].
+中华骨科杂志,
+2016,
+36(
+2):
+65-
+71.
+DOI: 10.3760/cma.j.issn.0253-2352.2016.02.001.
+[29]
+NyquistP, BautistaC, JichiciD, et al.
+Prophylaxis of venous thrombosis in neurocritical care patients: an evidence-based guideline: a statement for healthcare professionals from the Neurocritical Care Society[J].
+Neurocrit Care,
+2016,
+24(
+1):
+47-
+60.
+DOI: 10.1007/s12028-015-0221-y.
+[30]
+LacutK, BressolletteL, Le GalG, et al.
+Prevention of venous thrombosis in patients with acute intracerebral hemorrhage[J].
+Neurology,
+2005,
+65(
+6):
+865-
+869.
+DOI:10.1212/01.wnl.0000176073.80532.a2.
+[31]
+National Institute for Health and Care Excellence.
+Venous thromboembolism in over 16s: reducing the risk of hospital-acquired deep vein thrombosis or pulmonary embolism [M].
+London, UK:
+2018.
+[32]
+中华医学会麻醉学分会.
+中国麻醉学指南与专家共识（2017版）[M].
+北京:
+人民卫生出版社,
+2017:
+1012-
+1028.
+[33]
+WeinbergerJ, CipolleM.
+Mechanical prophylaxis for post-Traumatic VTE: stockings and pumps[J].
+Curr Trauma Rep,
+2016,
+2(
+1):
+35-
+41.
+DOI: 10.1007/s40719-016-0039-x.
+[34]
+DennisM, SandercockPAG, ReidJ, et al.
+Effectiveness of thigh-length graduated compression stockings to reduce the risk of deep vein thrombosis after stroke (clots trial 1): a multicentre, randomised controlled trial[J].
+Lancet,
+2009,
+373(
+9679):
+1958-
+1965.
+DOI: 10.1016/S0140-6736(09)60941-7.
+[35]
+DennisM, CranswickG, DearyA, et al.
+Thigh-length versus below-knee stockings for deep venous thrombosis prophylaxis after stroke a randomized trial[J].
+Ann Intern Med,
+2010,
+153(
+9):
+553-
+562.
+DOI: 10.7326/0003-4819-153-9-201011020-00280.
+[36]
+KahnSR, LimW, DunnAS, et al.
+Prevention of VTE in nonsurgical patients antithrombotic therapy and prevention of thrombosis, 9th ed: American college of chest physicians evidence-based clinical practice guidelines[J].
+Chest,
+2012,
+141(
+2
+Suppl):
+E195S-
+E226S.
+DOI: 10.1378/chest.11-2296.
+[37]
+DennisM, GrahamC, SmithJ, et al.
+Effect of intermittent pneumatic compression on disability, living circumstances, quality of life, and hospital costs after stroke: secondary analyses from CLOTS 3, a randomised trial[J].
+Lancet Neurol,
+2014,
+13(
+12):
+1186-
+1192.
+DOI: 10.1016/s1474-4422(14)70258-3.
+[38]
+SchunemannHJ, CushmanM, BurnettAE, et al.
+American society of hematology 2018 guidelines for management of venous thromboembolism: prophylaxis for hospitalized and nonhospitalized medical patients[J].
+Blood Adv,
+2018,
+2(
+22):
+3198-
+3225.
+DOI: 10.1182/bloodadvances.2018022954.
+[39]
+BoddiM, BarbaniF, AbbateR, et al.
+Reduction in deep vein thrombosis incidence in intensive care after a clinician education program[J].
+J Thromb Thrombolysis,
+2010,
+8(
+1):
+121-
+128.
+DOI: 10.1111/j.1538-7836.2009.03664.x.
+[40]
+ArabiYM, Al-HameedF, BurnsKEA, et al.
+Adjunctive intermittent pneumatic compression for venous thromboprophylaxis[J].
+New Engl J Med,
+2019,
+380(
+14):
+1305-
+1315.
+DOI: 10.1056/NEJMoa1816150.
+[41]
+中国临床肿瘤学会肿瘤与血栓专家共识委员会.
+中国肿瘤相关静脉血栓栓塞症预防与治疗专家指南（2019版)[J].
+中国肿瘤临床,
+2019,
+46(
+13):
+653-
+660.
+DOI: 10.3969/j.issn.1000-8179.2019.13.765.
+[42]
+StreiffM, HolmstromB, AngeliniD, et al.
+NCCN guidelines insights: cancer-associated venous thromboembolic disease, version 2.2018[J].
+J Natl Compr Canc Netw,
+2018,
+16(
+11):
+1289-
+1303.
+DOI: 10.6004/jnccn.2018.0084.
+[43]
+GerhardtA, ScharfRE, GreerIA, et al.
+Hereditary risk factors for thrombophilia and probability of venous thromboembolism during pregnancy and the puerperium[J].
+Blood,
+2016,
+128(
+19):
+2343-
+2349.
+DOI: 10.1182/blood-2016-03-703728.
+[44]
+BatesSM, RajasekharA, MiddeldorpS, et al.
+American society of hematology 2018 guidelines for management of venous thromboembolism: venous thromboembolism in the context of pregnancy[J].
+Blood Adv,
+2018,
+2(
+22):
+3317-
+3359.
+DOI: 10.1182/bloodadvances.2018024802.
+[45]
+MorganJ, CheckettsM, AranaA, et al.
+Prevention of perioperative venous thromboembolism in pediatric patients: guidelines from the Association of Paediatric Anaesthetists of Great Britain and Ireland (APAGBI)[J].
+Pediatr Anesth,
+2018,
+28(
+5):
+382-
+391.
+DOI: 10.1111/pan.13355.
+[46]
+Van ArendonkKJ, SchneiderEB, HaiderAH, et al.
+Venous thromboembolism after trauma: when do children become adults?[J].
+JAMA Surg,
+2013,
+148(
+12):
+1123-
+1130.
+DOI: 10.1001/jamasurg.2013.3558.
+[47]
+AzuMC, McCormackJE, ScrivenRJ, et al.
+Venous thromboembolic events in pediatric trauma patients: is prophylaxis necessary? [J].
+J Trauma,
+2005,
+59(
+6):
+1345-
+1349.
+DOI: 10.1097/01.ta.0000196008.48461.47.
+[48]
+徐园，杨旭，王晓杰，等.
+国内深静脉血栓预防护理现状的调查研究[J].
+中华护理杂志,
+2015,
+50(
+10):
+1222-
+1225.
+DOI: 10.3761/j.issn.0254-1769.2015.10.014.
+[49]
+中华医学会外科学分会血管外科学组.
+深静脉血栓形成的诊断和治疗指南（第三版)[J].
+中华血管外科杂志,
+2017,
+2(
+4):
+201-
+208.
+DOI: 10.3760.cma.j.issn.2096-1863.2017.04.002.
+[50]
+CarrierM, Le GalG, BatesSM, et al.
+D-dimer testing is useful to exclude deep vein thrombosis in elderly outpatients[J].
+J Thromb Haemost,
+2008,
+6(
+7):
+1072-
+1076.
+DOI: 10.1111/j.1538-7836.2008.03007.x.
+[51]
+GeersingGJ, ZuithoffNP, KearonC, et al.
+Exclusion of deep vein thrombosis using the wells rule in clinically important subgroups: individual patient data meta-analysis[J].
+BMJ,
+2014,
+348:
+g1340.
+DOI: 10.1136/bmj.g1340.
+贡献者信息
+中国健康促进基金会血栓与血管专项基金专家委员会
+通信作者
+田红燕
+西安交通大学第一附属医院周围血管科，西安 710061
+Email：
+tianhhyyxg@163.com
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2020-02-25
+收稿日期：2019-12-17
+本文编辑
+张媛
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+手术患者静脉血栓栓塞症风险评分表（Caprini评分）[12]
+1分
+2分
+3分
+5分
+年龄41~60岁
+年龄61~74岁
+年龄≥75岁
+脑卒中（<1个月）
+小手术
+关节镜手术
+VTE病史
+择期关节置换术
+体质指数>25 kg/m2
+大型开放手术（>45 min）
+VTE家族史
+髋、骨盆或下肢骨折
+下肢肿胀
+腹腔镜手术（>45 min）
+凝血因子Ⅴ Leiden突变
+急性脊髓损伤
+静脉曲张
+恶性肿瘤
+凝血酶原G20210A突变
+妊娠或产后
+卧床（>72 h）
+狼疮抗凝物阳性
+不明原因或习惯性流产史
+石膏固定
+抗心磷脂抗体阳性
+口服避孕药或激素替代疗法
+中心静脉通路
+同型半胱氨酸升高
+脓毒症（<1个月）
+肝素诱导的血小板减少症
+严重肺病，包括肺炎（<1个月）
+肺功能异常
+急性心肌梗死
+充血性心力衰竭（<1个月）
+炎症性肠病病史
+卧床
+注：低危=0~2分，中危=3~4分，高危≥5分；VTE：静脉血栓栓塞症
+表2
+非手术患者的静脉血栓栓塞症风险评分表（Padua评分）[13]
+危险因素
+评分
+活动性恶性肿瘤，先前有局部或远处转移和（或）6个月内接受过化疗和放疗
+3
+既往静脉血栓栓塞症
+3
+制动，患者身体原因或医嘱需要卧床至少3 d
+3
+已有血栓形成倾向，抗凝血酶缺乏症、蛋白C或S缺乏、凝血因子Ⅴ Leiden突变、凝血酶原G20210A突变、抗磷脂抗体综合征
+3
+近期（≤1个月）创伤或者外科手术
+2
+年龄≥70岁
+1
+心力衰竭和（或）呼吸衰竭
+1
+急性心肌梗死和（或）缺血性脑卒中
+1
+急性感染和（或）风湿性疾病
+1
+肥胖（体质指数≥35 kg/m2）
+1
+正在进行激素治疗
+1
+注：低危=0~3分，高危≥4分
+表3
+非手术患者的出血危险因素
+具有以下1项即为出血高危
+具有以下3项及以上为出血高危
+活动性消化性溃疡
+年龄≥85岁
+入院前3个月内有出血事件
+肝功能不全（INR>1.5）
+血小板计数<50×109/L
+严重的肾功能不全（GFR<30 ml·min-1·m-2）
+入住ICU、RCU或者CCU等
+中心静脉置管
+风湿性疾病
+现患恶性肿瘤
+男性
+注：INR：国际标准化比值；GFR：肾小球滤过率；ICU：重症监护室；RCU：呼吸重症监护室；CCU：心脏重症监护室
+表4
+手术患者的出血危险因素
+基础疾病相关
+手术操作相关
+活动性出血
+腹部手术：贫血/复杂手术（联合手术、分离难度高或超过一个吻合术）
+3个月内有急性事件
+胰十二指肠切除术：败血症、胰漏、手术部位出血
+严重肝肾功能衰竭
+肝切除术：原发性肝癌，术前贫血和血小板低
+血小板计数<50×109/L
+心脏手术：体外循环时间较长
+未控制的高血压
+胸部手术：全肺切除或扩大切除术
+腰穿、硬膜外或椎管内麻醉术前4 h~术后12 h
+开颅手术、脊柱手术、脊柱外伤、游离皮瓣重建
+同时使用抗凝药、抗血小板治疗或溶栓药物
+凝血功能障碍
+活动性消化道溃疡
+已知、未治疗的出血性疾病
+注：对于手术患者，存在以上1项或以上因素即为出血高危
+表5
+预测深静脉血栓的临床模型（Wells评分）
+病史及临床表现
+评分
+肿瘤
+1
+瘫痪或近期下肢石膏固定
+1
+近期卧床>3 d或近12周内大手术
+1
+沿深静脉走行的局部压痛
+1
+全下肢水肿
+1
+与健侧相比，小腿肿胀周径>3 cm
+1
+既往有下肢深静脉血栓形成病史
+1
+凹陷性水肿（症状侧下肢）
+1
+有浅静脉的侧支循环（非静脉曲张）
+1
+类似或与下肢深静脉血栓形成相近的诊断
+-2
+注：临床可能性：低度：≤0分；中度：1~2分；高度：≥3分；若双侧下肢均有症状，以症状严重的一侧为准
+表6
+预测肺栓塞的临床模型（Wells评分）
+病史及临床表现
+评分
+PTE或DVT病史
+1
+4周内制动或手术
+1
+活动性肿瘤
+1
+心率≥100次/min
+1
+咯血
+1
+DVT症状或体征
+1
+其他鉴别诊断的可能性低于PTE
+1
+注：临床可能性：低度：0~1分；高度：≥2分；PTE：肺血栓栓塞症；DVT：深静脉血栓形成
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华医学杂志2020年100卷07期
+文    题：静脉血栓栓塞症机械预防中国专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华医学杂志2020年100卷07期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

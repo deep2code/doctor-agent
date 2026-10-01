@@ -1,0 +1,681 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E7%99%BD%E5%86%85%E9%9A%9C%E5%9B%B4%E6%89%8B%E6%9C%AF%E6%9C%9F%E5%B9%B2%E7%9C%BC%E9%98%B2%E6%B2%BB%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882021%E5%B9%B4%EF%BC%89.html
+# 标题: 中国白内障围手术期干眼防治专家共识（2021年） - 中华眼科杂志
+# 发布方/日期: 眼科，中华眼科杂志, 2021,57(1) : 17-22. DOI: 10.3760/cma.j.c；2021-01-11
+
+中国白内障围手术期干眼防治专家共识（2021年）
+中华医学会眼科学分会白内障及人工晶状体学组
+中华眼科杂志, 2021,57(1) : 17-22. DOI: 10.3760/cma.j.cn112142-20201013-00680
+干眼是一类常见的眼表疾病，随着大众生活方式和环境的改变，全球发病率逐年增高［1］。白内障摘除手术作为眼科常见手术之一，部分患者术前即合并干眼［2, 3］。干眼易导致角膜曲率测量不准确，从而使白内障摘除手术前人工晶状体屈光力计算出现偏差［4］。同时，合并干眼患者术后多因干眼病情加重而出现一系列不适症状，甚至可因泪膜不稳定而影响视觉效果［5, 6］。近年随着白内障摘除手术技术不断成熟，患者对术后视觉和生活质量的期望相应提高。因此，规范化评估和防治围手术期干眼，对于提升白内障摘除手术效果及患者满意度具有重要意义。为了对白内障围手术期干眼防治提供必要的临床指导，中华医学会眼科学分会白内障及人工晶状体学组在国内外研究结果的基础上，结合我国实际情况，经过认真、全面、充分讨论，达成以下共识意见，以供广大眼科医师在临床工作中参考和借鉴。
+一、术前评估眼表状况
+1. 病史询问：包括患者年龄、职业，是否具有增加干眼风险的病史，如眼部手术史、全身及眼部长期用药史、角膜接触镜配戴史等。
+2. 症状询问：是否存在干眼常见相关症状，如眼部干涩、视疲劳、异物感、烧灼感、流泪、眼痒、眼红、眼分泌物增多、视力波动等。其中应注意区分干眼引起的视力波动和白内障导致的视物模糊。必要时可采用干眼问卷量表辅助评估患者干眼症状及危险因素，推荐使用适用于国人的中国干眼问卷量表［7］，眼表疾病指数量表、干眼问卷量表5、McMonnies量表、患者干涩感标准评估问卷等，可参照《中国干眼专家共识：检查和诊断（2020）》［8］建议的适用范围选择使用。需注意的是，部分合并干眼的患者可无明显症状［2］，若术前未及时诊断并干预，可能导致术后因干眼加重而出现症状，影响手术满意度。因此，白内障摘除术前对眼表的评估流程不应因无症状而省略，应常规行干眼相关体征检查。
+3. 眼部常规检查：使用裂隙灯显微镜观察患者眼表情况，注意睑缘是否有充血、肥厚、毛细血管扩张、新生血管，睑板腺开口是否阻塞、狭窄或有脂栓，泪河高度是否正常，是否存在角膜上皮点状混浊等。可疑睑板腺功能不良（meibomian gland dysfunction，MGD）者可挤压眼睑，观察睑板腺排出能力及分泌物性状以便确诊。
+4. 干眼相关检查：泪膜破裂时间（breakup time，BUT）可反映泪膜的稳定性，对白内障摘除手术前干眼的筛查和确诊有重要意义。通常BUT<10 s认为是泪膜稳定性下降。目前临床最常用的BUT检查方法为在裂隙灯显微镜下观察荧光素染色变化情况。然而，作为术前常规筛查，若有条件更推荐使用非接触式检查方法测量BUT，如眼表综合分析仪或多功能角膜地形图仪。泪液分泌试验（Schirmer testing）可用来检查水液缺乏型干眼，但由于其对于轻度干眼及蒸发过强型干眼多表现为结果正常，因此在术前常规筛查中不推荐使用。常规检查结果显示为可疑MGD的患者，可进行睑板腺成像检查。此外，脂质层厚度、泪液渗透压、泪液基质金属蛋白酶9含量的测定也对干眼的评估有一定意义，可根据具体医疗条件酌情选择合适的筛查方法。
+5. 眼表细胞染色检查：对于已确诊干眼或MGD的患者，建议行眼表细胞染色以评估上皮细胞的完整性，其中最为常用的方法为荧光素钠染色。根据泪膜稳定性及眼表细胞染色结果，参照《中国干眼专家共识：定义和分类（2020年）》［9］对干眼的严重程度进行分级，对后续治疗方法和手术时机的选择均具有指导意义。
+二、术前改善眼表条件
+1. 对于合并轻度干眼的患者，可于术前局部使用人工泪液并持续到术后，以改善眼表微环境，增强对围手术期各种损伤的抵抗力；合并轻度MGD的患者须术前3~5 d持续维持眼睑清洁，辅以睑板腺热敷、按摩等物理治疗。
+2. 对于合并中、重度干眼或MGD的患者，建议先参照《干眼临床诊疗专家共识（2013年）》［10］及《我国睑板腺功能障碍诊断与治疗专家共识（2017年）》［11］进行系统性治疗，待患者角膜上皮缺损基本修复后再行白内障摘除手术。
+此外，对于术前合并感染性睑缘炎的患者，应先进行长期清洁、热敷、按摩（炎性反应活动期慎用）、局部或全身抗菌药物综合治疗后再考虑行白内障摘除手术，并在手术准备阶段注意消毒睑缘，降低术后眼内炎发生的风险［12］。术前具有球结膜松弛、翼状胬肉、睑缘畸形和倒睫等干眼危险因素的患者，可酌情先行相关手术治疗。
+三、围手术期对眼表的保护
+1. 合理选择手术切口：角膜切口是白内障摘除手术后干眼发生的重要原因。透明角膜切口可使角膜神经丛受损，导致角膜感觉下降、瞬目减少、泪液蒸发过强，同时切口所致的角膜不规则也可导致泪膜分布不均匀、破裂时间变短［13, 14］。由于角膜神经纤维主干多沿9：00和3：00方向延伸至角膜中央［15］，故为保护合并干眼患者的角膜神经，应选择较小切口，并在综合考虑术源性散光的前提下，尽量避免采用颞侧和鼻侧透明角膜切口。
+2. 尽可能缩短手术时间：研究结果表明，白内障摘除手术时间越长，越易造成眼表细胞微绒毛结构损伤和术后杯状细胞密度减少［13］，这可能与术中眼表暴露于干燥空气和手术显微镜灯光照射有关。因此，应在术前充分做好手术准备，减少术中不必要的等待，适当降低手术显微镜的灯光强度，并在保证手术安全性的前提下尽量缩短手术时间。此外，术中应注意轻柔操作，减轻对眼表组织的机械性损伤。若有条件，使用显微镜滤光片可对眼表起到一定程度的保护作用。
+3. 术中维持眼表湿润：装置开睑器后，眼表可因长时间处于开放暴露状态而变得干燥，故在术中须使用灌注液频繁点眼，以保持眼表处于湿润状态。但是，此操作应注意动作轻柔，避免造成角结膜上皮细胞损伤和杯状细胞丢失。眼表涂用2%羟丙基甲基纤维素或其他专用的角膜保护剂，可减少灌注液的冲洗频次，更有效维持术野光学清晰度［16］；并且对于合并干眼且手术时长较长的患者，可减轻因术中干燥导致的角膜上皮细胞损伤［17］。此外，具有引流效果的开睑器可能导致术后干眼加重［18］，应避免在合并干眼患者的手术中使用。
+4. 避免围手术期过度使用药物：白内障患者围手术期须使用一系列药物，如聚维酮碘消毒溶液、表面麻醉滴眼液、散大瞳孔滴眼液、抗菌素滴眼液等，这些药物及其中的防腐剂可破坏泪膜脂质层，并对眼表上皮细胞具有毒性，可增加术后发生和加重干眼的风险［19］。因此，在围手术期对眼表情况不佳的患者，在保证药物效果的前提下，应尽量减少各种滴眼液的使用频率和时长，或者选择滴用次数较少的长效剂型。表面麻醉滴眼液应依据麻醉起效时间在手术开始前10 min内适时使用，过早使用可加重其对泪膜及角膜的损伤。
+四、术后干眼的诊断和治疗
+（一）诊断
+1. 症状：白内障摘除手术后干眼症状在术后1 d即可出现，并约在术后1周达到高峰，随后逐渐缓解［20］。由于术后因滴眼液毒性引起的干眼症状出现时间较晚，患者可因眼部干涩、异物感、烧灼感、流泪、眼红、视力波动等多种不适再次就医。若按照术后炎性反应或结膜炎治疗，加量使用抗菌素和抗炎类滴眼液，可能无效或导致症状加重，因此对于术后出现上述症状的患者，务必考虑到发生干眼的可能性，并应继续行干眼相关检查以明确诊断。
+2. 体征：常规裂隙灯显微镜下检查患者的角膜、前房、人工晶状体多无明显异常，部分患者可出现结膜充血。合并MGD的患者可出现睑板腺开口阻塞或脂栓、睑缘充血、眦部泡沫样分泌物堆积等。
+3. 干眼相关辅助检查：以BUT缩短和角膜荧光素染色阳性为重要确诊依据。此外，术后干眼患者还可能出现角膜知觉减退、泪膜脂质层变薄、泪液分泌量减少等检查结果异常［5, 6， 21］。
+（二）治疗
+1. 人工泪液：人工泪液可帮助患者减轻症状，提高视觉效果，延迟BUT［22］，是目前治疗白内障摘除手术后干眼最常用的药物。建议选用不含防腐剂的人工泪液。对于泪膜脂质层异常的患者，可考虑使用含有脂质成分的人工泪液［23］。
+2. 促泪液分泌药物：地夸磷索钠滴眼液可通过激活结膜上皮细胞和杯状细胞P2Y2受体，促进干眼患者自身分泌泪液及黏蛋白，同时对泪膜起到稳定作用，对术后干眼具有较好的治疗效果［24, 25］。
+3. 抗炎药物及免疫抑制剂：低浓度糖皮质激素滴眼液有助于减轻手术引起的炎性反应，可能对白内障摘除手术后干眼起到治疗作用［26, 27］。对于炎性反应严重的患者，使用0.05%环孢素A也有助于改善术后干眼症状［28］。需要注意的是，非甾体类抗炎药（nonsteroidal anti-inflammatory drug，NSAID）作为术后常用抗炎类滴眼液，可导致角膜上皮损伤愈合减慢，甚至引起角膜融解［29, 30］，因此对于合并干眼的患者应结合个体病情谨慎使用，尤其应避免单独使用。
+4. 其他药物：干眼治疗中可加入促进上皮修复的药物，如小牛血去蛋白提取物凝胶、重组人表皮生长因子滴眼液、维生素A棕榈酸酯凝胶等。此外，对于严重干眼或人工泪液治疗无效的患者，可考虑眼部使用自体血清，其对角膜上皮具有良好的修复作用［31］。
+5. 非药物治疗：对于使用药物治疗后干眼症状难以缓解的患者，可考虑行泪点栓塞；对于合并角膜损伤者，可依据病情选择使用湿房镜或保护性角膜接触镜；对于术后合并MGD的患者，可行睑缘清洁、热敷、按摩及光动力治疗等。
+对于术前合并干眼的患者，待手术原因引起的干眼得到良好控制后，可按照常规方法长期维持干眼治疗。
+五、医患沟通与健康教育
+对白内障摘除手术前合并干眼相关眼表疾病的患者应充分告知病情，并使其了解术后干眼的常见性，缓解患者的焦虑情绪。同时告知患者干眼是一种需要长期综合治疗的慢性疾病，进而加强患者随访的依从性，增加整体治疗方案的成功率。此外，干眼被认为是一种与精神心理因素相关的疾病［32］，充分的医患沟通和心理疏导有助于促进干眼症状改善。
+术后应嘱患者规范用药，避免超时超量使用眼部药物。同时，多种生活方式及环境均可能是发生干眼的危险因素，如过多使用视频终端、空气干燥及污染、配戴角膜接触镜、吸烟等［33］。因此，对患者进行充分的健康教育，帮助其维持有利于改善眼表状况的生活习惯，对干眼的治疗具有重要意义。除临床治疗外，可嘱患者清淡饮食，注意全身补充水分［34］及营养，适当增加Ω-3不饱和脂肪酸的摄入（对具有患心脑血管疾病风险的患者慎用）［35］，避免吸烟和长期使用电子产品等。
+六、特殊手术人群的注意事项
+1. 合并自身免疫相关性干眼的患者：由干燥综合征、Stevens-Johnson综合征、慢性移植物抗宿主病等全身免疫性疾病引起的干眼往往比较严重，发生手术并发症的风险也较单纯白内障患者高，且可能出现无菌性角膜融解等严重的术后并发症［36, 37］。对于此类患者，建议先请免疫风湿科协助控制患者全身病情，同时加强眼表的改善和保护，待全身和眼部情况稳定后再考虑行白内障摘除手术。术后在满足控制炎性反应需求的前提下，尽量减少或避免使用NSAID滴眼液。
+2. 糖尿病患者：糖尿病患者常出现神经营养性角膜病变，继而因角膜知觉减退、瞬目减少导致干眼［38, 39, 40］。此外，由于上皮损伤愈合慢、炎性反应严重，合并糖尿病的白内障患者术后泪液和睑板腺功能异常较单纯白内障患者更明显且更持久［41］。然而，合并糖尿病的干眼患者常因周围神经感觉减退而出现症状-体征分离现象，即眼表损伤无明显症状，故更应对其围手术期眼表状况给予密切关注和保护，并行角膜知觉检查评估角膜感觉神经功能。对于因眼底病需要使用NSAID滴眼液预防黄斑水肿的患者，若无角膜上皮损伤可继续使用，若在用药过程中发生角膜上皮损伤，则应酌情调整NSAID滴眼液的用药方案。
+3. 飞秒激光辅助白内障摘除手术患者：研究结果表明，由于术中使用角膜负压吸引环，患者术后1个月以内的干眼症状较常规超声乳化白内障吸除术后患者更明显，且角膜荧光素染色评分更高［42］。因此，建议在围手术期加强监测飞秒激光辅助白内障摘除手术患者的眼表状况，积极预防和治疗术后干眼。
+4. 老视矫正型人工晶状体植入患者：植入老视矫正型人工晶状体的患者往往对术后屈光状态和视觉质量的要求更高，而泪膜异常可对角膜曲率、散光、高阶像差等多种眼部测量结果造成影响［4， 43, 44］，所以在围手术期应特别注意对患者眼表状况进行监测。此外，这类患者更易被术后干眼所引起的视觉障碍所困扰［45］。研究结果显示，老视矫正型人工晶状体植入术后稳定泪膜可提升视觉质量［46］。因此，这类患者若对术后视觉效果不满意，应首先确认是否存在眼表问题，经过充分的干眼治疗后，再考虑是否与人工晶状体相关，并做相应处理。
+形成共识意见的专家组成员：
+姚 克 浙江大学医学院附属第二医院眼科中心（白内障及人工晶状体学组组长）
+毕宏生 山东中医药大学附属眼科医院（白内障及人工晶状体学组副组长）
+陈伟蓉 中山大学中山眼科中心（白内障及人工晶状体学组副组长）
+卢 奕 复旦大学附属眼耳鼻喉科医院眼科（白内障及人工晶状体学组副组长）
+何守志 解放军总医院第一医学中心眼科（白内障及人工晶状体学组顾问）
+（以下白内障及人工晶状体学组委员按姓氏拼音排序）
+陈 松 天津医科大学总医院眼科
+崔 巍 内蒙古自治区人民医院眼科
+范 玮 四川大学华西医院眼科
+管怀进 南通大学附属医院眼科
+金海鹰 上海交通大学医学院附属新华医院眼科
+兰长骏 川北医学院附属医院眼科
+李 灿 重庆医科大学附属第一医院眼科
+李朝辉 解放军总医院第一医学中心眼科
+李志坚 哈尔滨医科大学附属第一医院眼科
+罗 敏 上海交通大学医学院附属第九人民医院眼科
+曲 超 四川省医学科学院 四川省人民医院眼科
+申屠形超 浙江大学医学院附属第二医院眼科中心
+谭少健 广西医科大学第一附属医院眼科
+王 耿 汕头大学·香港中文大学联合汕头国际眼科中心
+王 军 首都医科大学附属北京同仁医院北京同仁眼科中心 北京市眼科研究所
+王 薇 北京大学第三医院眼科
+王于蓝 上海交通大学附属第一人民医院眼科
+吴 敏 陆军军医大学大坪医院眼科
+吴 强 上海交通大学附属第六人民医院眼科
+吴明星 中山大学中山眼科中心海南眼科医院
+吴晓明 山东省眼科研究所青岛眼科医院
+俞阿勇 温州医科大学附属眼视光医院
+张 晗 山东大学第二医院眼科
+张 红 天津医科大学眼科医院
+张广斌 厦门大学附属厦门眼科中心
+张素华 山西省眼科医院眼科
+赵江月 中国医科大学附属第四医院眼科
+赵梅生 吉林大学第二医院眼科
+赵晓辉 武汉大学人民医院眼科
+郑广瑛 郑州大学第一附属医院眼科
+周 健 空军军医大学西京医院眼科
+朱思泉 首都医科大学附属北京同仁医院北京同仁眼科中心
+徐 雯 浙江大学医学院附属第二医院眼科中心（非学组委员，秘书）
+闫晨曦 浙江大学医学院附属第二医院眼科中心（非学组委员，记录）
+参考文献
+1
+StapletonF, AlvesM, BunyaVY, et al.
+TFOS DEWSⅡepidemiology report[J].
+Ocul Surf,
+2017,
+15(
+3):
+334-
+365.
+DOI: 10.1016/j.jtos.2017.05.003.
+2
+GuptaPK, DrinkwaterOJ, VanDusenKW, et al.
+Prevalence of ocular surface dysfunction in patients presenting for cataract surgery evaluation[J].
+J Cataract Refract Surg,
+2018,
+44(
+9):
+1090-
+1096.
+DOI: 10.1016/j.jcrs.2018.06.026.
+3
+CochenerB, CassanA, OmielL.
+Prevalence of meibomian gland dysfunction at the time of cataract surgery[J].
+J Cataract Refract Surg,
+2018,
+44(
+2):
+144-
+148.
+DOI: 10.1016/j.jcrs.2017.10.050.
+4
+EpitropoulosAT, MatossianC, BerdyGJ, et al.
+Effect of tear osmolarity on repeatability of keratometry for cataract surgery planning[J].
+J Cataract Refract Surg,
+2015,
+41(
+8):
+1672-
+1677.
+DOI: 10.1016/j.jcrs.2015.01.016.
+5
+HanKE, YoonSC, AhnJM, et al.
+Evaluation of dry eye and meibomian gland dysfunction after cataract surgery[J].
+Am J Ophthalmol,
+2014,
+157(
+6):
+1144-
+1150.
+DOI: 10.1016/j.ajo.2014.02.036.
+6
+LiXM, HuL, HuJ, et al.
+Investigation of dry eye disease and analysis of the pathogenic factors in patients after cataract surgery[J].
+Cornea,
+2007,
+26(
+9
+Suppl 1):
+S16-
+20.
+DOI: 10.1097/ICO.0b013e31812f67ca.
+7
+赵慧, 刘祖国, 杨文照, 等.
+我国干眼问卷的研制及评估[J].
+中华眼科杂志,
+2015,
+51(
+9):
+647-
+654.
+DOI: 10.3760/cma.j.issn.0412-4081.2015.09.003.
+8
+亚洲干眼协会中国分会, 海峡两岸医药卫生交流协会眼科学专业委员会眼表与泪液病学组, 中国医师协会眼科医师分会眼表与干眼学组.
+中国干眼专家共识: 检查和诊断(2020年) [J].
+中华眼科杂志,
+2020,
+56(
+10):
+741-
+747.
+DOI: 10.3760/cma.j.cn112142-20200714-00477.
+9
+亚洲干眼协会中国分会, 海峡两岸医药卫生交流协会眼科学专业委员会眼表与泪液病学组, 中国医师协会眼科医师分会眼表与干眼学组.
+中国干眼专家共识: 定义和分类(2020年) [J].
+中华眼科杂志,
+2020,
+56(
+6):
+418-
+422.
+DOI: 10.3760/cma.j.cn112142-20200316-00190.
+10
+中华医学会眼科学分会角膜病学组.
+干眼临床诊疗专家共识 (2013年)[J].
+中华眼科杂志,
+2013,
+49(
+1):
+73-
+75.
+DOI: 10.3760/cma.j.issn.0412-4081.2013.020.
+11
+亚洲干眼协会中国分会, 海峡两岸医药交流协会眼科专业委员会眼表与泪液病学组.
+我国睑板腺功能障碍诊断与治疗专家共识(2017年) [J].
+中华眼科杂志,
+2017,
+53(
+9):
+657-
+661.
+DOI: 10.3760/cma.j.issn.0412-4081.2017.09.005.
+12
+SpeakerMG, MilchFA, ShahMK, et al.
+Role of external bacterial flora in the pathogenesis of acute postoperative endophthalmitis[J].
+Ophthalmology,
+1991,
+98(
+5):
+639-
+649.
+DOI: 10.1016/s0161-6420(91)32239-5.
+13
+OhT, JungY, ChangD, et al.
+Changes in the tear film and ocular surface after cataract surgery[J].
+Jpn J Ophthalmol,
+2012,
+56(
+2):
+113-
+118.
+DOI: 10.1007/s10384-012-0117-8.
+14
+KhanalS, TomlinsonA, EsakowitzL, et al.
+Changes in corneal sensitivity and tear physiology after phacoemulsification[J].
+Ophthalmic Physiol Opt,
+2008,
+28(
+2):
+127-
+134.
+DOI: 10.1111/j.1475-1313.2008.00539.x.
+15
+Al-AqabaMA, FaresU, SulemanH, et al.
+Architecture and distribution of human corneal nerves[J].
+Br J Ophthalmol,
+2010,
+94(
+6):
+784-
+789.
+DOI: 10.1136/bjo.2009.173799.
+16
+ChenYA, HirnschallN, FindlO.
+Comparison of corneal wetting properties of viscous eye lubricant and balanced salt solution to maintain optical clarity during cataract surgery[J].
+J Cataract Refract Surg,
+2011,
+37(
+10):
+1806-
+1808.
+DOI: 10.1016/j.jcrs.2011.07.001.
+17
+HeY, LiJ, ZhuJ, et al.
+The improvement of dry eye after cataract surgery by intraoperative using ophthalmic viscosurgical devices on the surface of cornea: the results of a consort-compliant randomized controlled trial[J].
+Medicine (Baltimore),
+2017,
+96(
+50):
+e8940.
+DOI: 10.1097/MD.0000000000008940.
+18
+MoonH, YoonJH, HyunSH, et al.
+Short-term influence of aspirating speculum use on dry eye after cataract surgery: a prospective study[J].
+Cornea,
+2014,
+33(
+4):
+373-
+375.
+DOI: 10.1097/ICO.0000000000000072.
+19
+GomesJ, AzarDT, BaudouinC, et al.
+TFOS DEWS Ⅱ iatrogenic report[J].
+Ocul Surf,
+2017,
+15(
+3):
+511-
+538.
+DOI: 10.1016/j.jtos.2017.05.004.
+20
+KasetsuwanN, SatitpitakulV, ChangulT, et al.
+Incidence and pattern of dry eye after cataract surgery[J].
+PLoS One,
+2013,
+8(
+11):
+e78657.
+DOI: 10.1371/journal.pone.0078657.
+21
+KimJS, LeeH, ChoiS, et al.
+Assessment of the tear film lipid layer thickness after cataract surgery[J].
+Semin Ophthalmol,
+2018,
+33(
+2):
+231-
+236.
+DOI: 10.1080/08820538.2016.1208764.
+22
+SánchezMA, Arriola-VillalobosP, Torralbo-JiménezP, et al.
+The effect of preservative-free HP-Guar on dry eye after phacoemulsification: a flow cytometric study[J].
+Eye (Lond),
+2010,
+24(
+8):
+1331-
+1337.
+DOI: 10.1038/eye.2010.24.
+23
+LiZ, ChoiJH, OhHJ, et al.
+Effects of eye drops containing a mixture of omega-3 essential fatty acids and hyaluronic acid on the ocular surface in desiccating stress-induced murine dry eye[J].
+Curr Eye Res,
+2014,
+39(
+9):
+871-
+878.
+DOI: 10.3109/02713683.2014.884595.
+24
+ZhaoX, XiaS, ChenY.
+Comparison of the efficacy between topical diquafosol and artificial tears in the treatment of dry eye following cataract surgery: a meta-analysis of randomized controlled trials[J].
+Medicine (Baltimore),
+2017,
+96(
+39):
+e8174.
+DOI: 10.1097/MD.0000000000008174.
+25
+ParkDH, ChungJK, SeoDR, et al.
+Clinical effects and safety of 3% diquafosol ophthalmic solution for patients with dry eye after cataract surgery: a randomized controlled trial[J].
+Am J Ophthalmol,
+2016,
+163(
+3):
+122-
+131.
+DOI: 10.1016/j.ajo.2015.12.002.
+26
+AvundukAM, AvundukMC, VarnellED, et al.
+The comparison of efficacies of topical corticosteroids and nonsteroidal anti-inflammatory drops on dry eye patients: a clinical and immunocytochemical study[J].
+Am J Ophthalmol,
+2003,
+136(
+4):
+593-
+602.
+DOI: 10.1016/s0002-9394(03)00326-x.
+27
+Pinto-FragaJ, López-MiguelA, González-GarcíaMJ, et al.
+Topical fluorometholone protects the ocular surface of dry eye patients from desiccating stress: a randomized controlled clinical trial[J].
+Ophthalmology,
+2016,
+123(
+1):
+141-
+153.
+DOI: 10.1016/j.ophtha.2015.09.029.
+28
+HamadaS, MooreTC, MooreJE, et al.
+Assessment of the effect of cyclosporine-A 0.05% emulsion on the ocular surface and corneal sensation following cataract surgery[J].
+Cont Lens Anterior Eye,
+2016,
+39(
+1):
+15-
+19.
+DOI: 10.1016/j.clae.2015.07.003.
+29
+WolfEJ, KleimanLZ, SchrierA.
+Nepafenac-associated corneal melt[J].
+J Cataract Refract Surg,
+2007,
+33(
+11):
+1974-
+1975.
+DOI: 10.1016/j.jcrs.2007.06.043.
+30
+KhalifaYM, MifflinMD.
+Keratitis and corneal melt with ketorolac tromethamine after conductive keratoplasty[J].
+Cornea,
+2011,
+30(
+4):
+477-
+478.
+DOI: 10.1097/ICO.0b013e3181ef6ec7.
+31
+AkcamHT, UnluM, KaracaEE, et al.
+Autologous serum eye-drops and enhanced epithelial healing time after photorefractive keratectomy[J].
+Clin Exp Optom,
+2018,
+101(
+1):
+34-
+37.
+DOI: 10.1111/cxo.12574.
+32
+NaKS, HanK, ParkYG, et al.
+Depression, stress, quality of life, and dry eye disease in Korean women: a population-based study[J].
+Cornea,
+2015,
+34(
+7):
+733-
+738.
+DOI: 10.1097/ICO.0000000000000464.
+33
+NelsonJD, CraigJP, AkpekEK, et al.
+TFOS DEWS Ⅱ introduction[J].
+Ocul Surf,
+2017,
+15(
+3):
+269-
+275.
+DOI: 10.1016/j.jtos.2017.05.005.
+34
+WalshNP, FortesMB, Raymond-BarkerP, et al.
+Is whole-body hydration an important consideration in dry eye?[J].
+Invest Ophthalmol Vis Sci,
+2012,
+53(
+10):
+6622-
+6627.
+DOI: 10.1167/iovs.12-10175.
+35
+KangariH, EftekhariMH, SardariS, et al.
+Short-term consumption of oral omega-3 and dry eye syndrome[J].
+Ophthalmology,
+2013,
+120(
+11):
+2191-
+2196.
+DOI: 10.1016/j.ophtha.2013.04.006.
+36
+CohenKL.
+Sterile corneal perforation after cataract surgery in Sjögren′s syndrome[J].
+Br J Ophthalmol,
+1982,
+66(
+3):
+179-
+182.
+DOI: 10.1136/bjo.66.3.179.
+37
+ShahA, SanthiagoMR, EspanaEM.
+Cataract surgery in patients with chronic severe graft-versus-host disease[J].
+J Cataract Refract Surg,
+2016,
+42(
+6):
+833-
+839.
+DOI: 10.1016/j.jcrs.2016.02.046.
+38
+LockwoodA, Hope-RossM, ChellP.
+Neurotrophic keratopathy and diabetes mellitus[J].
+Eye (Lond),
+2006,
+20(
+7):
+837-
+839.
+DOI: 10.1038/sj.eye.6702053.
+39
+DogruM, KatakamiC, InoueM.
+Tear function and ocular surface changes in noninsulin-dependent diabetes mellitus[J].
+Ophthalmology,
+2001,
+108(
+3):
+586-
+592.
+DOI: 10.1016/s0161-6420(00)00599-6.
+40
+MarkoulliM, FlanaganJ, TummanapalliSS, et al.
+The impact of diabetes on corneal nerve morphology and ocular surface integrity[J].
+Ocul Surf,
+2018,
+16(
+1):
+45-
+57.
+DOI: 10.1016/j.jtos.2017.10.006.
+41
+JiangD, XiaoX, FuT, et al.
+Transient tear film dysfunction after cataract surgery in diabetic patients[J].
+PLoS One,
+2016,
+11(
+1):
+e0146752.
+DOI: 10.1371/journal.pone.0146752.
+42
+YuY, HuaH, WuM, et al.
+Evaluation of dry eye after femtosecond laser-assisted cataract surgery[J].
+J Cataract Refract Surg,
+2015,
+41(
+12):
+2614-
+2623.
+DOI: 10.1016/j.jcrs.2015.06.036.
+43
+KohS, MaedaN, KurodaT, et al.
+Effect of tear film break-up on higher-order aberrations measured with wavefront sensor[J].
+Am J Ophthalmol,
+2002,
+134(
+1):
+115-
+117.
+DOI: 10.1016/s0002-9394(02)01430-7.
+44
+KohS.
+Irregular astigmatism and higher-order aberrations in eyes with dry eye disease[J].
+Invest Ophthalmol Vis Sci,
+2018,
+59(
+14):
+DES36-
+40.
+DOI: 10.1167/iovs.17-23500.
+45
+WoodwardMA, RandlemanJB, StultingRD.
+Dissatisfaction after multifocal intraocular lens implantation[J].
+J Cataract Refract Surg,
+2009,
+35(
+6):
+992-
+997.
+DOI: 10.1016/j.jcrs.2009.01.031.
+46
+DonnenfeldED, SolomonR, RobertsCW, et al.
+Cyclosporine 0.05% to improve visual outcomes after multifocal intraocular lens implantation[J].
+J Cataract Refract Surg,
+2010,
+36(
+7):
+1095-
+1100.
+DOI: 10.1016/j.jcrs.2009.12.049.
+贡献者信息
+中华医学会眼科学分会白内障及人工晶状体学组
+通信作者
+姚克
+浙江大学医学院附属第二医院眼科中心，杭州 310009
+Email：
+xlren@zju.edu.cn
+关键词
+白内障;
+围手术期护理;
+干眼综合征;
+多数赞同;
+作者声明
+声明 本文为专家意见，为临床医疗服务提供指导，不是在各种情况下都必须遵循的医疗标准，也不是为个别特殊个人提供的保健措施；本文内容与相关产品的生产和销售厂商无经济利益关系
+历史
+出版日期：2021-01-11
+收稿日期：2020-10-13
+本文编辑
+黄翊彬
+Discussion of Standards
+Chinese expert consensus on prevention and treatment of dry eye during perioperative period of cataract surgery (2021)
+Cataract Group of Ophthalmology Branch of Chinese Medical Association
+Published
+2021-01-11
+Cite as
+Chin J Ophthalmol, 2021, 57(1): 17-22. DOI: 10.3760/cma.j.cn112142-20201013-00680
+Abstract
+Dry eye is a common ocular surface disease that can occur in part of patients before cataract surgery. A variety of incentives during the perioperative period can decrease the stability of the tear film, cause or aggravate dry eye symptoms, and therefore reduce the visual outcome and life quality of the patients. In order to standardize the management of dry eye during the perioperative period of cataract surgery, the Cataract Group of the Ophthalmology Branch of the Chinese Medical Association conducted a comprehensive discussion on the evaluation and improvement of the preoperative ocular surface conditions, the intraoperative ocular surface protection, as well as the diagnosis and treatment of postoperative dry eye. The consensus of opinions has been reached for reference of Chinese ophthalmologists. (Chin J Ophthalmol, 2021, 57:17-22)
+Key words:
+Cataract; Perioperative nursing; Dry eye syndromes; Consensus
+Contributor Information
+Cataract Group of Ophthalmology Branch of Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华眼科杂志2021年57卷01期
+文    题：中国白内障围手术期干眼防治专家共识（2021年）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华眼科杂志2021年57卷01期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

@@ -1,0 +1,553 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E9%9A%90%E7%9D%BE%E8%AF%8A%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 隐睾诊疗专家共识 - 中华小儿外科杂志
+# 发布方/日期: 小儿外科，中华小儿外科杂志, 2018,39(7) : 484-487. DOI: 10.3760/cma.j；2018-07-15
+
+隐睾诊疗专家共识
+中华医学会小儿外科学分会泌尿外科学组
+中华小儿外科杂志, 2018,39(7) : 484-487. DOI: 10.3760/cma.j.issn.0253-3006.2018.07.002
+隐睾(Cryptorchidism)是常见的先天性泌尿生殖畸形之一，其发病率呈上升趋势，并已成为男性不育的重要原因之一[1,2]。然而，临床医师对隐睾的认识存在不足、诊疗欠规范，治疗方案差异较大，并且在治疗时机、手术策略、激素干预与否等诸多问题上存在争议。因此，为提高对隐睾诊治的全面认识、规范我国隐睾诊疗方案，故结合近年来国内外最新临床研究进展形成专家共识，并在此基础上逐步完善进而制定适合中国国情的隐睾诊疗指南。
+一、流行病学及分类
+隐睾在足月男婴1岁时发病率约1%～4.6%，早产儿隐睾发生率明显增加，出生体重<1 500 g的极低出生体重儿，其隐睾的发生率高达60%～70%[3]。早产儿出生后睾丸会继续下降，至12周龄其隐睾的发生率明显下降，接近足月儿水平。临床上将隐睾分为可扪及睾丸和未扪及睾丸两类，约80%的隐睾睾丸可扪及[4]。睾丸是否可扪及和其具体位置是选择治疗方案的重要依据。
+二、诊断
+体格检查是确诊隐睾、鉴别回缩性睾丸的唯一方法，也是区分可扪及睾丸和未扪及睾丸的可靠方法。超声对睾丸体积测定有一定参考价值，但不能仅靠超声检查诊断隐睾和选择手术方式。计算机X线断层扫描(CT)、核磁共振(MRI)检查对于隐睾的诊断价值不大[5]。
+为提高体检阳性率，强调多人、多次、多体位重复体检。检查时将患儿置于平仰卧位或双腿交叉卧位，在腹股沟区采用"挤牛奶样"手法从内环口向阴囊方向推挤睾丸。若能将睾丸推入阴囊，但松手后睾丸又退缩回腹股沟区，称为滑动性睾丸，属于隐睾范畴；若松手后睾丸能在阴囊内停留，称为回缩性睾丸，非真性隐睾。检查者应避免手温过低，因冷刺激致过度提睾反射而影响检查结果。
+若发现患侧睾丸未扪及，但健侧睾丸较正常同龄儿睾丸增大的情况，常提示患侧睾丸缺如或萎缩[6]。由于该体征缺乏诊断特异性，不能因此而否定外科探查必要性。腹股沟区未扪及睾丸，需仔细检查耻骨区、股部、会阴部以除外异位睾丸。最常见的异位睾丸位于Denis-Browne小窝(即腹外斜筋膜与Scarpa筋膜间的浅表小窝)。诊断性腹腔镜检查是确定腹腔内隐睾、睾丸缺如或萎缩的可靠手段。麻醉状态下再次进行体检，部分最初未触及的睾丸此时可扪及。探查精索血管盲端未见睾丸组织是睾丸缺如的诊断依据；若精索血管末端见囊皮样组织而无睾丸实质，则为睾丸萎缩。双侧未扪及睾丸或任何提示性分化异常的情况(如合并尿道下裂)，均需尽早进行内分泌检查和遗传评估[7,8,9]。
+三、治疗
+治疗年龄建议自6月龄(校正胎龄)开始，最好在12月龄前，至少在18月龄前完成[10,11,12,13,14]。治疗时机会影响到成年后精子生成、激素分泌以及肿瘤发生[15,16]。回缩睾丸需定期监测(每年)并持续至青春期，直到睾丸不再回缩且停留在阴囊内，无需药物或手术治疗。
+1．药物治疗
+激素治疗的理论基础建立在HPG性腺轴激素的不足导致隐睾产生，故生后补充相应的激素诱导睾丸引带的继续迁移，进而将睾丸牵引至阴囊。人绒毛膜促性腺激素(hCG)与促性腺激素释放激素(GnRH)是常用药物，每个方案推荐使用剂量及使用频率差别较大。激素治疗的成功率不确切，而且用药后成功降至阴囊的患儿中约20%再次出现睾丸回缩至腹股沟区[17,18]。隐睾位置越高，激素治疗成功率越低。
+更有报道指出，hCG等激素治疗可能会通过促进生精细胞凋亡而阻碍精子发生，加重生殖功能障碍[19]。此外，激素可引起皮肤色素沉着，毛发生长和性早熟等内分泌紊乱等并发症。总之，因激素治疗成功率低，并发症多，且缺乏远期疗效证据，不推荐该治疗作为常规方案[20]。
+2．外科手术
+(1)可扪及隐睾
+睾丸固定术成功率为90%以上，可采用开放手术或腹腔镜手术[20,21,22,23,24]。术中应注意充分游离睾丸和精索，分离提睾肌以避免睾丸再次回缩，无张力将睾丸降至阴囊内，固定睾丸时切忌将缝线穿过睾丸实质，同时避免精索扭转的发生。低位隐睾可行经阴囊单切口睾丸固定术[25,26]。
+(2)未扪及隐睾
+腹腔镜手术探查是诊断未扪及隐睾的金标准，较腹股沟手术探查更利于明确睾丸位置，缩短手术探查时间[27,28]。但需要向家属说明：由于异位睾丸、患侧腹膜血管分布变异等因素，腹腔镜探查仍难以完全避免假阴性。如在腹腔内见精索血管盲端，提示该侧睾丸缺如，可避免盲目的腹股沟探查[29]。若麻醉状态下，在阴囊内扪及小结及与之相连的精索样结构，可选择经阴囊探查是否为萎缩睾丸，如果睾丸与附睾分离，需要确定精索血管末端是否有睾丸结构，如果未找到精索血管盲端，仍有遗漏腹腔内隐睾的可能[30]。
+高位腹腔型隐睾可选择Ⅰ期或分期Fowler-Stephens手术。分期手术时，首次手术采用腹腔镜下在距睾丸1～2 cm处离断或结扎精索血管，以促进侧枝循环建立，6个月后再行第二期手术。分期Fowler-Stephens手术睾丸存活率在90%以上，而对于Ⅰ期手术睾丸存活率尚存争议，从50%到90%不等[31,32]。微血管自体移植的睾丸存活率可达到约90%，需要技术娴熟且有丰富显微外科经验的医师才能完成[33]。
+年龄超过青春期而未治疗的隐睾患者，有研究表明近50%的患侧睾丸组织中仍可见处于不同发育阶段的生殖细胞；而2%的患者睾丸管腔内有生殖细胞瘤形成[34]。因此，对于超过青春期的隐睾患者，建议常规行睾丸组织活检，根据病理结果行下一步治疗。
+隐睾术后应定期复诊，及早发现有无萎缩、回缩、恶变等，复诊的方法包括体检、B型超声等。
+四、预后
+单侧隐睾患儿生育率与正常男性基本相同，双侧隐睾患者生育率则显著下降[35]。流行病学研究显示隐睾患者发生睾丸生殖细胞肿瘤的风险增加5～10倍，尤其是腹腔内隐睾或者双侧隐睾患儿[36]。有证据表明早期行隐睾下降固定术能降低睾丸恶变概率，但术后发生睾丸恶性肿瘤的风险仍较正常人增高[37,38,39]。因此，隐睾患儿在青春期以后仍需定期体检。
+五、推荐隐睾诊疗的流程图
+隐睾诊断与治疗的流程见图1。
+点击查看大图
+图1
+隐睾诊断与治疗的流程图
+图1
+隐睾诊断与治疗的流程图
+六、仍然存在的争议及未来需要关注的问题
+国内外学者对隐睾的诊疗仍存在不少争议：①未经治疗的年龄大于30岁的隐睾患者，由于患侧睾丸几乎无生精功能，且恶变率明显升高，此种情况下是否可考虑切除患侧睾丸；②双侧隐睾术后是否需要使用激素促进睾丸发育或补充体内激素；③萎缩睾丸是否常规切除；④回缩性睾丸是否会影响睾丸发育，长期随访还是及早手术；⑤睾丸固定术时行睾丸活检的临床意义和伦理学争论。
+未来几年，需建立我国的隐睾临床数据库，开展我国隐睾发病率等流行病学调查研究，针对目前尚存争议的问题，进行多中心临床研究，完善循证学证据，从而进一步规范隐睾的诊疗、提高对该病的诊治水平。
+委员会成员
+参与会议讨论专家(按姓氏拼音排序)：毕允力(复旦大学附属儿科医院)；陈方(上海市儿童医院)；耿红全(上海交通大学医学院附属新华医院)；何大维(重庆医科大学附属儿童医院)；黄鲁刚(四川大学华西临床医学院/华西医院)；黄逸晨(上海市儿童医院)；李守林(深圳市儿童医院)；林涛(重庆医科大学附属儿童医院)；宋宏程(首都医科大学附属北京儿童医院)；孙宁(首都医科大学附属北京儿童医院)；唐达星(浙江大学医学院附属儿童医院)；魏光辉(重庆医科大学附属儿童医院)；吴荣德(山东省立医院)；谢华(上海市儿童医院)；杨屹(中国医科大学附属盛京医院)；张敬悌(西安市儿童医院)；张潍平(首都医科大学附属北京儿童医院)；张文(华中科技大学同济医学院附属同济医院)
+参与问卷调查专家(按姓氏拼音排序)：关勇(天津市儿童医院)；马洪(遵义医学院附属医院)；马学(四川大学华西临床医学院/华西医院)；史丽萍(河北省儿童医院)；孙杰(上海交通大学医学院附属仁济医院)；唐耘熳(四川省医学科学院/四川省人民医院)；童强松(华中科技大学同济医学院附属协和医院)；徐珊(浙江大学医学院附属儿童医院)；薛文勇(河北医科大学第二医院泌尿外科)；张旭辉(山西省儿童医院/山西省妇幼保健院)；周李(中山大学附属第一医院)
+资料收集与整理：刘星、吴盛德(重庆医科大学附属儿童医院)
+参考文献
+[1]
+LeePA.
+Fertility after cryptorchidism：epidemiology and other outcome studies[J]．
+Urology，
+2005，
+66(
+2):
+427-
+431.
+DOI：10.1016/j.urology.2005.01.017.
+[2]
+TrussellJC, LeePA.
+The relationship of cryptorchidism to fertility[J]．
+Curr Urol Rep，
+2004，
+5(
+2):
+142-
+148.
+DOI：10.1007/s11934-004-0028-4.
+[3]
+SijstermansK, HackWW, MeijerRW，et al.
+The frequency of undescended testis from birth to adulthood：a review[J]．
+Int J Androl，
+2008，
+31(
+1):
+1-
+11.
+DOI：10.1111/j.1365-2605.2007.00770.x.
+[4]
+KollinC, RitzenEM.
+Cryptorchidism：a clinical perspective[J]．
+Pediatr Endocrinol Rev，
+2014，
+11(
+Suppl 2):
+240-
+250.
+[5]
+TasianGE, CoppHL, BaskinLS.
+Diagnostic imaging in cryptorchidism：utility，indications，and effectiveness[J]．
+J Pediatr Surg，
+2011，
+46(
+12):
+2406-
+2413.
+DOI：10.1016/j.jpedsurg.2011.08.008.
+[6]
+魏光辉，李旭良，龚以榜，等．
+睾丸代偿性变化及对生育力影响的实验研究[J]．
+中华小儿外科杂志，
+1997，
+18(
+3):
+178-
+180.
+DOI：10.3760/cma.j.issn.0253-3006.1997.03.019.
+WeiGH, LiXL, GongYB，et al.Research on the compensatory testicular adaptation and its effect on fertility in wistar rats [J]．Chin J Pediatr Surg，1997，18(3):178-180.DOI：10.3760/cma.j.issn.0253-3006.1997.03.019.
+[7]
+CoxMJ, CoplenDE, AustinPF.
+The incidence of disorders of sexual differentiation and chromosomal abnormalities of cryptorchidism and hypospadias stratified by meatal location[J]．
+J Urol，
+2008，
+180(
+6):
+2649-
+2652.
+DOI：10.1016/j.juro.2008.08.058.
+[8]
+TeoAQ, KhanAR, WilliamsMP，et al.
+Is surgical exploration necessary in bilateral anorchia？[J]．
+J Pediatr Urol，
+2013，
+9(
+1):
+e78-
+81.
+DOI：10.1016/j.jpurol.2012.09.006.
+[9]
+LeeMM, DonahoePK, SilvermanBL，et al.
+Measurements of serum mullerian inhibiting substance in the evaluation of children with nonpalpable gonads[J]．
+N Engl J Med，
+1997，
+336(
+21):
+1480-
+1486.
+DOI：10.1056/NEJM199705223362102.
+[10]
+BragaLH, LorenzoAJ, RomaoRLP.
+Canadian urological association-pediatric urologists of canada(cua-puc) guideline for the diagnosis，management，and followup of cryptorchidism[J]．
+Can Urol Assoc J，
+2017，
+11(
+7):
+E251-
+E260.
+DOI：10.5489/cuaj.4585.
+[11]
+KolonTF, HerndonCD, BakerLA，et al.
+Evaluation and treatment of cryptorchidism：AUA guideline[J]．
+J Urol，
+2014，
+192(
+2):
+337-
+345.
+DOI：10.1016/j.juro.2014.05.005.
+[12]
+PensonDF, KrishnaswamiS, JulesA，et al.
+Evaluation and treatment of cryptorchidism[J]．
+J Urol，
+2012，
+192(
+2):
+337-
+345.
+DOI：10.1016/j.juro.2014.05.005.
+[13]
+RadmayrC, DoganHS, HoebekeP，et al.
+Management of undescended testes：European association of urology/european society for paediatric urology guidelines[J]．
+J Pediatr Urol，
+2016，
+12(
+6):
+335-
+343.
+DOI：10.1016/j.jpurol.2016.07.014.
+[14]
+WeiY, WuSD, WangYC，et al.
+A 22-year retrospective study：educational update and new referral pattern of age at orchidopexy[J]．
+BJU Int，
+2016，
+118(
+6):
+987-
+993.
+DOI：10.1111/bju.13588.
+[15]
+ParkKH, LeeJH, HanJJ，et al.
+Histological evidences suggest recommending orchiopexy within the first year of life for children with unilateral inguinal cryptorchid testis[J]．
+Int J Urol，
+2007，
+14(
+7):
+616-
+621.
+DOI：10.1111/j.1442-2042.2007.01788.x.
+[16]
+TasianGE, HittelmanAB, KimGE，et al.
+Age at orchiopexy and testis palpability predict germ and Leydig cell loss：clinical predictors of adverse histological features of cryptorchidism[J]．
+J Urol，
+2009，
+182(
+2):
+704-
+709.
+DOI：10.1016/j.juro.2009.04.032.
+[17]
+PyoralaS, HuttunenNP, UhariM．
+A review and meta-analysis of hormonal treatment of cryptorchidism[J]．
+J Clin Endocrinol Metab，
+1995，
+80(
+9):
+2795-
+2799.
+DOI：10.1210/jcem.80.9.7673426.
+[18]
+AycanZ, Ustunsalih-InanY, CetinkayaE，et al.
+Evaluation of low-dose hCG treatment for cryptorchidism[J]．
+Turk J Pediatr，
+2006，
+48(
+3):
+228-
+231.
+[19]
+CortesD, ThorupJ, VisfeldtJ．
+Hormonal treatment may harm the germ cells in 1 to 3-year-old boys with cryptorchidism[J]．
+J Urol，
+2000，
+163(
+4):
+1290-
+1292.
+DOI：10.1016/s0022-5347(05)67763-4.
+[20]
+PensonD, KrishnaswamiS, JulesA，et al.
+Effectiveness of hormonal and surgical therapies for cryptorchidism：a systematic review[J]．
+Pediatrics，
+2013，
+131(
+6):
+e1897-
+1907.
+DOI：10.1542/peds.2013-0072.
+[21]
+HeD, LinT, WeiG，et al.
+Laparoscopic orchiopexy for treating inguinal canalicular palpable undescended testis[J]．
+J Endourol，
+2008，
+22(
+8):
+1745-
+1749.
+DOI：10.1089/end.2007.0315.
+[22]
+Escarcega-FujigakiP, RezkGH, Huerta-MurrietaE，et al.
+Orchiopexy-laparoscopy or traditional surgical technique in patients with an undescended palpable testicle[J]．
+J Laparoendosc Adv Surg Tech A，
+2011，
+21(
+2):
+185-
+187.
+DOI：10.1089/lap.2010.0145.
+[23]
+何大维，林涛，魏光辉，等．
+腹腔镜下手术治疗腹股沟型隐睾[J]．
+中华泌尿外科杂志，
+2009，
+30(
+2):
+133-
+135.
+DOI：10.3760/cma.j.issn.1000-6702.2009.02.023.
+HeDW, LinT, WeiGH，et al.Laparoscopic orchiopexy for inguinal cryptorchidism[J]．Chin J Urol，2009，30(2):133-135.DOI：10.3760/cma.j.issn.1000-6702.2009.02.023.
+[24]
+易钦君，何大维，魏光辉，等．
+隐睾手术方式选择及疗效分析[J]．
+中华小儿外科杂志，
+2012，
+33(
+12):
+923-
+927.
+DOI：10.3760/cma.j.issn.0253-3006.2012.12.013.
+YiQJ, HeDW, WeiGH，et al.The optimal selection and curative efficacy of surgical procedures for children with cryptorchidism[J]．Chine J Pediatr Surg，2012，33(12):923-927.DOI：10.3760/cma.j.issn.0253-3006.2012.12.013.
+[25]
+NovaesHF, Carneiro NetoJA, MacedoA，et al.
+Single scrotal incision orchiopexy - a systematic review[J]．
+Int Braz J Urol，
+2013，
+39(
+3):
+305-
+311.
+DOI：10.1590/S1677-5538.IBJU.2013.03.02.
+[26]
+王金晶，唐达星，吴德华，等．
+Bianchi睾丸下降固定术在治疗中低位隐睾中的应用[J]．
+中华小儿外科杂志，
+2011，
+32(
+5):
+354-
+357.
+DOI：10.3760/cma.j.issn.0253-3006.2011.05.009.
+WangJJ, TangDX, WuDH，et al.Single scrotal incision orchiopexy(Bianchi technique) for medium and low undescended testicle[J]．Chin J Pediatr Surg，2011，32(5):354-357.DOI：10.3760/cma.j.issn.0253-3006.2011.05.009.
+[27]
+CortesiN, FerrariP, ZambardaE，et al.
+Diagnosis of bilateral abdominal cryptorchidism by laparoscopy[J]．
+Endoscopy，
+1976，
+8(
+1):
+33-
+34.
+DOI：10.1055/s-0028-1098372.
+[28]
+PatilKK, GreenJS, DuffyPG.
+Laparoscopy for impalpable testes[J]．
+BJU Int，
+2005，
+95(
+5):
+704-
+708.
+DOI：10.1111/j.1464-410X.2005.05434.x.
+[29]
+CisekLJ, PetersCA, AtalaA，et al.
+Current findings in diagnostic laparoscopic evaluation of the nonpalpable testis[J]．
+J Urol，
+1998，
+160(
+3
+Pt 2):
+1145-
+1150.
+DOI：https://doi.org/10.1016/S0022-5347(01)62721-6.
+[30]
+SnodgrassWT, YucelS, ZiadaA．
+Scrotal exploration for unilateral nonpalpable testis[J]．
+J Urol，
+2007，
+178(
+4
+Pt 2):
+1718-
+1721.
+DOI：10.1016/j.juro.2007.05.089.
+[31]
+ElyasR, GuerraLA, PikeJ，et al.
+Is staging beneficial for Fowler-Stephens orchiopexy? A systematic review[J]．
+J Urol，
+2010，
+183(
+5):
+2012-
+2018.
+DOI：10.1016/j.juro.2010.01.035.
+[32]
+ElderJS.
+Surgical management of the undescended testis：recent advances and controversies[J]．
+Eur J Pediatr Surg，
+2016，
+26(
+5):
+418-
+426.
+DOI：10.1055/s-0036-1592197.
+[33]
+WacksmanJ, BillmireDA, LewisAG，et al.
+Laparoscopically assisted testicular autotransplantation for management of the intraabdominal undescended testis[J]．
+J Urol，
+1996，
+156(
+2
+Pt 2):
+772-
+774.
+DOI：10.1016/S0022-5347(01)65811-7.
+[34]
+KoniA, OzsekerHS, ArpaliE，et al.
+Histopathological evaluation of orchiectomy specimens in 51 late postpubertal men with unilateral cryptorchidism[J]．
+J Urol，
+2014，
+192(
+4):
+1183-
+1188.
+DOI：10.1016/j.juro.2014.05.048.
+[35]
+吕小梅，吴荣德，刘伟，等．
+隐睾术后远期生育力随访研究[J]．
+中华小儿外科杂志，
+2013，
+33(
+3):
+176-
+178.
+DOI：10.3760/cma.j.issn.0253-3006.2012.03.005.
+LyuXM, WuRD, LiuW，et al.Long term follow-up study of fertility after orchidopexy in children with cryptorchidism[J]．Chin J Pediatr Surg，2013，33(3):176-178.DOI：10.3760/cma.j.issn.0253-3006.2012.03.005.
+[36]
+NiedzielskiJK, OszukowskaE, Slowikowska-HilczerJ．
+Undescended testis - current trends and guidelines：a review of the literature[J]．
+Arch Med Sci，
+2016，
+12(
+3):
+667-
+677.
+DOI：10.5114/aoms.2016.59940.
+[37]
+WoodHM, ElderJS.
+Cryptorchidism and testicular cancer：separating fact from fiction[J]．
+J Urol，
+2009，
+181(
+2):
+452-
+461.
+DOI：10.1016/j.juro.2008.10.074.
+[38]
+CookMB, AkreO, FormanD，et al.
+A systematic review and meta-analysis of perinatal variables in relation to the risk of testicular cancer--experiences of the son[J]．
+Int J Epidemiol，
+2010，
+39(
+6):
+1605-
+1618.
+DOI：10.1093/ije/dyq120.
+[39]
+TrabertB, ZugnaD, RichiardiL，et al.
+Congenital malformations and testicular germ cell tumors[J]．
+Int J Cancer，
+2013，
+133(
+8):
+1900-
+1904.
+DOI：10.1002/ijc.28207.
+贡献者信息
+中华医学会小儿外科学分会泌尿外科学组
+基金项目
+国家自然科学基金 （81170556）
+国家临床重点专科建设项目 （国卫办医函[2013]544）
+历史
+出版日期：2018-07-15
+收稿日期：2018-03-05
+Guideline and Consensus
+Guideline of diagnosis and treatment of cryptorchidism
+The Group of Urology, the Society of Pediatric Surgery, Chinese Medical Association
+Published
+2018-07-15
+Cite as
+Chin J Pediatr Surg, 2018,39(7): 484-487. DOI: 10.3760/cma.j.issn.0253-3006.2018.07.002
+Contributor Information
+The Group of Urology, the Society of Pediatric Surgery, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+图1
+隐睾诊断与治疗的流程图
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华小儿外科杂志2018年39卷7期
+文    题：隐睾诊疗专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华小儿外科杂志2018年39卷7期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+微信
+腾讯微博
+一键通
+新浪微博
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+豆瓣网
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+QQ好友
+更多平台...
+(133)
+bShare

@@ -1,0 +1,831 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E6%B7%B1%E9%9D%99%E8%84%89%E8%A1%80%E6%A0%93%E5%BD%A2%E6%88%90%E7%9A%84%E8%AF%8A%E6%96%AD%E5%92%8C%E6%B2%BB%E7%96%97%E6%8C%87%E5%8D%97%28%E7%AC%AC%E4%B8%89%E7%89%88%29.html
+# 标题: 深静脉血栓形成的诊断和治疗指南(第三版) - 中华普通外科杂志
+# 发布方/日期: 外科，中华普通外科杂志, 2017,32(9) : 807-812. DOI: 10.3760/cma.j；2017-09-25
+
+深静脉血栓形成的诊断和治疗指南(第三版)
+中华医学会外科学分会血管外科学组
+中华普通外科杂志, 2017,32(9) : 807-812. DOI: 10.3760/cma.j.issn.1007-631X.2017.09.032
+深静脉血栓形成(deep venous thrombosis，DVT)是血液在深静脉内不正常凝结引起的静脉回流障碍性疾病，常发生于下肢。血栓脱落可引起肺动脉栓塞(pulmonary embolism，PE)，DVT与PE统称为静脉血栓栓塞症(venous thromboembolism，VTE)，是同种疾病在不同阶段的表现形式。DVT的主要不良后果是PE和血栓后综合征(post thrombotic syndrome，PTS)，它可以显著影响患者的生活质量，甚至导致死亡。因此，为了提高我国DVT的诊治水平，指导和规范各级医院对DVT的诊治工作，特制订本指南。
+一、病因和危险因素
+DVT的主要原因是静脉壁损伤、血流缓慢和血液高凝状态。危险因素包括原发性因素(表1)和继发性因素(表2)。DVT多见于大手术或严重创伤后、长期卧床、肢体制动、肿瘤患者等[1]。
+点击查看表格
+表1
+深静脉血栓形成的原发性危险因素
+表1
+深静脉血栓形成的原发性危险因素
+抗凝血酶缺乏
+蛋白C缺乏
+先天性异常纤维蛋白原血症
+Ⅴ因子Leiden突变(活化蛋白C抵抗)
+高同型半胱氨酸血症
+纤溶酶原缺乏
+抗心磷脂抗体阳性
+异常纤溶酶原血症
+纤溶酶原激活物抑制剂过多
+蛋白S缺乏
+凝血酶原20210A基因变异
+Ⅻ因子缺乏
+Ⅷ、Ⅸ、Ⅺ因子增高
+点击查看表格
+表2
+深静脉血栓形成的继发性危险因素
+表2
+深静脉血栓形成的继发性危险因素
+髂静脉压迫综合征
+血小板异常
+损伤/骨折
+手术与制动
+脑卒中、瘫痪或长期卧床
+长期使用雌激素
+高龄
+恶性肿瘤、化疗患者
+中心静脉留置导管
+肥胖
+下肢静脉功能不全
+心、肺功能衰竭
+吸烟
+长时间乘坐交通工具
+妊娠/产后
+口服避孕药
+Crohn病
+狼疮抗凝物
+肾病综合征
+人工血管或血管腔内移植物
+血液高凝状态(红细胞增多症，Waldenstrom巨球蛋白血症，骨髓增生异常综合征)
+VTE病史
+重症感染
+二、临床表现
+根据发病时间，DVT分为急性期、亚急性期和慢性期。急性期是指发病14 d以内；亚急性期是指发病15～30 d；发病30 d以后进入慢性期；早期DVT包括急性期和亚急性期[2]。
+急性下肢DVT主要表现为患肢的突然肿胀、疼痛等，体检患肢呈凹陷性水肿、软组织张力增高、皮肤温度增高，在小腿后侧和/或大腿内侧、股三角区及患侧髂窝有压痛。发病1～2周后，患肢可出现浅静脉显露或扩张。血栓位于小腿肌肉静脉丛时，Homans征和Neuhof征呈阳性。
+Homans征：患肢伸直，足被动背屈时，引起小腿后侧肌群疼痛，为阳性。
+Neuhof征：压迫小腿后侧肌群，引起局部疼痛，为阳性。
+严重的下肢DVT，患者可出现股青肿，是下肢DVT中最严重的情况，由于髂股静脉及其属支血栓阻塞，静脉回流严重受阻，组织张力极高，导致下肢动脉受压和痉挛，肢体缺血。临床表现为下肢极度肿胀、剧痛、皮肤发亮呈青紫色、皮温低伴有水疱，足背动脉搏动消失，全身反应强烈，体温升高。如不及时处理，可发生休克和静脉性坏疽。
+静脉血栓一旦脱落，可随血流漂移、堵塞肺动脉主干或分支，根据肺循环障碍的不同程度引起相应PE的临床表现。
+慢性期可发展为PTS，一般是指急性下肢DVT 6个月后，出现慢性下肢静脉功能不全的临床表现，包括患肢的沉重、胀痛、静脉曲张、皮肤瘙痒、色素沉着、湿疹等，严重者出现下肢的高度肿胀、脂性硬皮病、经久不愈的溃疡。在诊断为下肢DVT的最初2年内，即使经过规范的抗凝治疗，仍有约20%～55%的患者发展为PTS，其中5%～10%的患者发展为严重的PTS，从而严重影响患者的生活质量[3,4]。
+三、诊断
+患者近期有手术、严重外伤、骨折或肢体制动、长期卧床、肿瘤等病史，出现下肢肿胀、疼痛、小腿后方和/或大腿内侧有压痛时，提示下肢DVT的可能性大；但当患者无明显血栓发生的诱因、仅表现为下肢肿胀或症状不典型时，易出现漏诊、误诊。
+对于下肢DVT的诊断，无论临床表现典型与否，均需进一步的实验室检查和影像学检查，明确诊断，以免漏诊和误诊。
+(一)辅助检查
+1．血浆D-二聚体测定：
+D-二聚体是纤维蛋白复合物溶解时产生的降解产物。下肢DVT时，血液中D-二聚体的浓度升高，但临床的其他一些情况如手术后、孕妇、危重及恶性肿瘤时，D-二聚体也会升高，因此，D-二聚体检查的敏感性较高、特异性差。可用于急性VTE的筛查、特殊情况下DVT的诊断、疗效评估和VTE复发的危险程度评估[5]。
+2．彩色多普勒超声检查：
+敏感性、准确性均较高，临床应用广泛，是DVT诊断的首选方法，适用于筛查和监测。该检查对股腘静脉血栓诊断的准确率高(>90%)，对周围型小腿静脉丛血栓和中央型髂静脉血栓诊断的准确率较低。在超声检查前，按照DVT诊断的临床特征评分，可将患有DVT的临床可能性分为高、中、低度[6,7](表3)。如连续两次超声检查均为阴性，对于低度可能的患者可以排除诊断，而对于高、中度可能的患者，建议作血管造影等影像学检查。
+点击查看表格
+表3
+预测下肢深静脉血栓形成的临床模型(Wells评分)[6]
+表3
+预测下肢深静脉血栓形成的临床模型(Wells评分)[6]
+病史及临床表现
+评分
+肿瘤
+1
+瘫痪或近期下肢石膏固定
+1
+近期卧床>3 d或近12周内大手术
+1
+沿深静脉走行的局部压痛
+1
+全下肢水肿
+1
+与健侧相比，小腿肿胀周径长>3 cm
+1
+既往有下肢深静脉血栓形成病史
+1
+凹陷性水肿(症状侧下肢)
+1
+有浅静脉的侧支循环(非静脉曲张)
+1
+类似或与下肢深静脉血栓形成相近的诊断
+－2
+3．CT静脉成像：
+主要用于下肢主干静脉或下腔静脉血栓的诊断，准确性高，联合应用CTV及CT肺动脉造影检查，可增加VTE的确诊率。
+4．核磁静脉成像：
+能准确显示髂、股、腘静脉血栓，但不能很好地显示小腿静脉血栓。尤其适用于孕妇，而且无需使用造影剂，但有固定金属植入物及心脏起搏器植入者，不可实施此项检查。
+5．静脉造影：
+准确率高，不仅可以有效判断有无血栓、血栓部位、范围、形成时间和侧支循环情况，而且常被用来评估其他方法的诊断价值，目前仍是诊断下肢DVT的金标准。缺点是有创、造影剂过敏、肾毒性以及造影剂本身对血管壁的损伤等。目前，临床上已逐步用超声检查来部分代替静脉造影。
+(二)临床可能性评估和诊断流程
+1．DVT的临床可能性评估：
+见下肢DVT诊断的临床特征评分(表3)。
+临床可能性：低度≤0；中度1～2分；高度≥3。若双侧下肢均有症状，以症状严重的一侧为准。
+2．DVT诊断流程：
+见图1。
+点击查看大图
+图1
+深静脉血栓形成(DVT)诊断流程
+图1
+深静脉血栓形成(DVT)诊断流程
+推荐：对于血栓发病因素明显、症状体征典型的患者，首选超声检查。当患者无明显血栓发生的诱因、症状体征不典型、Wells评分为低度可能时，行血D-二聚体检测，阴性排除血栓，阳性者，进一步超声检查。
+四、治疗
+(一)DVT的早期治疗
+1．抗凝：
+抗凝是DVT的基本治疗，可抑制血栓蔓延、利于血栓自溶和管腔再通，降低PE发生率和病死率。但是，单纯抗凝不能有效消除血栓、降低PTS发生率。抗凝药物有普通肝素、低分子肝素、维生素K拮抗剂和新型口服抗凝剂，后者包括直接凝血酶抑制剂、Ⅹa因子抑制剂，它们具有抗凝效果稳定、药效不受食物影响、药物之间相互作用很小、半衰期较短、用药剂量固定、服药期间无需定期监测凝血功能等特点[8,9,10]。(1)普通肝素：剂量个体差异较大，使用时必须监测凝血功能，一般静脉持续给药。起始剂量为80～100 U/kg静脉注射，之后以10～20 U·kg－1·h－1静脉泵入，以后每4～6小时根据激活的部分凝血酶原时间(activated partial thromboplastin time，APTT)再做调整，使其延长至正常对照值的1.5～2.5倍。肝素可引起血小板减少症(hepatic induced thrombocytopenia，HIT)[11]，常于应用肝素5 d后出现，在使用的第3～10天复查血小板计数，如血小板计数较应用前下降>30%～50%，或应用肝素5 d后血小板计数进行性下降至(8～10)×109/L以下，应高度怀疑，此时可行相关抗体的实验室检测进行确诊，HIT诊断一旦成立，应立即停用，改为非肝素抗凝剂(如阿加曲班、利伐沙班等)治疗[12]。(2)低分子肝素(如那屈肝素等)：出血不良反应少，HIT发生率低于普通肝素，使用时大多数患者无需监测。临床按体重给药，每次100 U/kg，每12小时1次，皮下注射，肾功能不全者慎用。(3)维生素K拮抗剂(如华法林)：是长期抗凝治疗的主要口服药物，效果评估需监测凝血功能的国际标准化比值(international normalized ratio，INR)。治疗剂量范围窄，个体差异大，药效易受多种食物和药物影响。治疗初始常与低分子肝素联合使用，建议剂量为2.5～6.0 mg/d，2～3 d后开始测定INR，当INR稳定在2.0～3.0、并持续24 h后停低分子肝素，继续华法林治疗。华法林对胎儿有害、孕妇禁用。(4)直接Ⅹa因子抑制剂：在国内，利伐沙班已经被批准用于DVT的预防和治疗，该药的33%通过肾脏代谢，轻、中度肾功能不全的患者可以正常使用。单药治疗急性DVT与其标准治疗(低分子肝素与华法林合用)疗效相当[13]。推荐用法：前三周15 mg Bid，维持剂量为20 mg QD。(5)直接Ⅱa因子抑制剂：阿加曲班：静脉用药，分子量小，能进入血栓内部，对血栓中凝血酶抑制能力强于肝素，主要适用于急性期、HIT及存在HIT风险的患者[14]。
+推荐一：早期DVT非肿瘤患者，建议直接使用新型口服抗凝药物(如利伐沙班)，或使用低分子肝素联合维生素K拮抗剂，在INR达标且稳定24 h后，停低分子肝素。
+推荐二：早期DVT肿瘤患者，建议首选低分子肝素抗凝，也可以使用维生素K拮抗剂或新型口服抗凝药物。
+高度怀疑DVT者，如无禁忌，在等待检查结果期间，可先抗凝治疗，然后根据确诊结果决定是否继续抗凝。有肾功能不全的患者建议使用普通肝素、直接Ⅹa因子抑制剂。
+2．溶栓治疗：
+(1)溶栓药物：尿激酶最常用，对急性期的治疗具有起效快，效果好，过敏反应少的特点。常见的不良反应是出血；溶栓剂量至今无统一标准，一般首剂4 000 U/kg，30 min内静脉注射，继以60～120万U/d，维持72～96 h，必要时延长至5～7 d[15]。重组链激酶[16]，溶栓效果较好，但过敏反应多，出血发生率高。重组组织型纤溶酶原激活剂[17,18]，溶栓效果好，出血发生率低，可重复使用。新型溶栓药物包括瑞替普酶(reteplase，rPA)、替奈普酶(tenecteplase，TNK-tPA)等，溶栓效果好、单次给药有效，使用方便，不需调整剂量，且半衰期长。(2)降纤药物：常用巴曲酶，是单一组份降纤制剂，通过降低血中纤维蛋白原的水平、抑制血栓的形成，治疗DVT的安全性高。(3)溶栓治疗的适应证：急性近端DVT(髂、股、腘静脉)；全身状况好；预期生命>1年和低出血并发症的危险[19,20]。(4)溶栓治疗的禁忌证[15,19]：①溶栓药物过敏；②近期(2～4周内)有活动性出血，包括严重的颅内、胃肠、泌尿道出血；③近期接受过大手术、活检、心肺复苏、不能实施压迫的穿刺；④近期有严重的外伤；⑤严重难以控制的高血压(血压>160/110 mmHg)；⑥严重的肝肾功能不全；⑦细菌性心内膜炎；⑧出血性或缺血性脑卒中病史者；⑨动脉瘤、主动脉夹层、动静脉畸形患者；⑩年龄>75岁和妊娠者慎用。
+溶栓方法：包括导管接触性溶栓和系统溶栓，导管接触性溶栓[21](catheter directed thrombolysis，CDT)是将溶栓导管置入静脉血栓内，溶栓药物直接作用于血栓；而系统溶栓是经外周静脉全身应用溶栓药物。其中CDT优势明显，能显著提高血栓的溶解率，降低PTS的发生率，治疗时间短，并发症少，为临床首选的溶栓方法。CDT的入路主要包括以下几种[22,23]: (1)顺行入路：顺静脉血流的方向置管、对深静脉瓣膜的损伤小。包括：经患侧腘静脉穿刺置管，适用于髂、股静脉血栓形成；经患侧股静脉穿刺置管，只适用于髂静脉血栓形成；经患侧胫后、胫前、小隐、大隐静脉置管：适用于中央型及混合型血栓形成。(2)逆行入路：逆静脉血流的方向置管，易造成深静脉瓣膜的损伤，包括：经对侧股静脉穿刺置管；经颈内静脉穿刺置管。推荐顺行入路置管为首选的方式，具体根据血栓部位、操作者的经验及患者的条件进行选择。如顺行入路失败或无条件时，可考虑逆行入路。CDT时尿激酶的给药方法：先快速给予首剂，然后每日的剂量有快速泵入和持续泵入2种。前者是每天的尿激酶总量，分2～4次快速泵入(1 h内)；后者是每天的尿激酶总量、24 h持续均匀泵入。两种给药方式在溶栓效率、并发症的发生率等方面差异无统计学意义[24,25]。
+溶栓治疗的并发症及处理：(1)出血：无论是系统溶栓还是CDT，治疗中最常见的并发症是出血，与用药剂量、方式和时间有关，剂量越大、治疗时间越长，出血风险越大，全身用药比局部用药出血的危险性更大。按照严重程度分为轻微出血和严重(大)出血。轻微出血，通常表现为穿刺点的渗血或皮下淤血斑，一般不需特殊治疗；严重出血，系发生于颅内、腹膜后、胃肠或泌尿系统的出血，应停用溶栓药物，必要时需输血或外科干预治疗。溶栓治疗中主要的监测指标包括：①血浆纤维蛋白原(fibrinogen，Fg)含量，低于1.5 g/L时应减少药物剂量，低于1.0 g/L时，停止溶栓治疗；②血小板计数：低于80×109/L或较基础值降低超过20%，应注意出血风险的增加；低于50×109/L时，应停用溶栓及抗凝药，并根据有无出血决定进一步治疗措施；③D-二聚体：常常能够灵敏地反映溶栓治疗是否有效，如果D-二聚体值由治疗中的高点降低并逐渐趋于正常、或维持较低水平而不再升高，提示溶栓药物不再对残存血栓起效，此时可考虑停用溶栓药物，避免因延长的无效治疗而增加出血的风险。(2)肺动脉栓塞：应用CDT治疗过程中是否会增加PE发生的风险，目前还存在争议。CDT治疗中发生PE的原因主要是在溶栓过程中，大块血栓裂解成多块血栓，或是较新鲜、不稳定血栓从血管壁脱落[26]。为预防或减少CDT治疗过程中PE的发生，在插入溶栓导管前预先置入腔静脉滤器是安全、有效的办法，尤其对下腔静脉远端和(或)髂-股静脉等近心段血栓形成的患者；随着临时性滤器和可回收滤器的性能不断改进，滤器置入术已经成为CDT治疗的重要辅助手段。(3)过敏反应(溶栓药物相关)：目前国内常用的静脉溶栓药物中，重组链激酶是异种蛋白，具有抗原性，过敏发生率1%～18%[27,28]，体温升高是其常见表现，可同时出现低血压、腹痛等症状，同时应用糖皮质激素药物也不能完全预防；近年来重组链激酶的应用逐渐减少。尿激酶的发热等过敏反应少见，但仍有严重的过敏致休克的病例发生，应引起注意。治疗前应详细询问患者过敏史，治疗中对患者仔细观察，如皮肤荨麻疹、结膜及口腔黏膜水肿、呼吸、心率及血压变化等，及早发现过敏反应，积极应用皮质类激素治疗，避免休克等严重情况的发生。
+3．手术取栓：
+是清除血栓的有效治疗方法，可迅速解除静脉梗阻。常用Fogarty导管经股静脉取出髂静脉血栓，用挤压驱栓或顺行取栓清除股腘静脉血栓[29]。
+4．机械血栓清除术：
+经皮机械性血栓清除术(percutaneous mechanical thrombectomy，PMT)主要是采用旋转涡轮或流体动力的原理打碎或抽吸血栓，从而达到迅速清除或减少血栓负荷、解除静脉阻塞的作用。临床资料证实PMT安全、有效，与CDT联合使用能够减少溶栓药物剂量、缩短住院时间[30,31,32]。
+推荐：对于急性期中央型或混合型DVT，对全身情况好、预期生存期≥1年、出血风险较小的患者，可首选CDT。如条件允许，可行PMT与CDT联合清除血栓。
+出现股青肿时，应立即行手术取栓或PMT、CDT等治疗。
+对于病史7 d以内的中央型或混合型DVT患者，全身情况良好，无重要脏器功能障碍，也可用手术取栓。
+5．合并髂静脉狭窄或闭塞的处理：
+髂静脉狭窄或闭塞在DVT的发病中起重要作用，在CDT或手术取栓后，对髂静脉狭窄可以采用球囊扩张、支架置入等方法予以解除，以利减少血栓复发、提高中远期通畅率、减少PTS的发生[33,34]。对于非髂-下腔静脉交界处的狭窄或闭塞，支架的置入建议以病变部位为中心，近端不进入下腔静脉。对于髂-下腔静脉交界处的病变，控制支架进入下腔静脉的长度(1 cm以内)[33,35]。
+推荐：成功行CDT或切开取栓后，造影发现髂静脉狭窄>50%,建议首选球囊扩张、支架置入术，必要时采用外科手术解除髂静脉阻塞。
+6．下腔静脉滤器：
+下腔静脉滤器可以预防和减少PE的发生，由于滤器长期置入可导致下腔静脉阻塞和较高的深静脉血栓复发率等并发症，为减少这些远期并发症，建议首选可回收或临时滤器，待发生PE的风险解除后取出滤器。
+推荐：对单纯抗凝治疗的DVT患者，不推荐常规应用下腔静脉滤器，对于抗凝治疗有禁忌或有并发症，或在充分抗凝治疗的情况下仍发生PE者，建议置入下腔静脉滤器。
+对于下列情况可以考虑置入下腔静脉滤器：(1)髂、股静脉或下腔静脉内有漂浮血栓；(2)急性DVT，拟行CDT、PMT或手术取栓等血栓清除术者；(3)具有急性DVT、PE高危因素的行腹部、盆腔或下肢手术的患者。
+7．压力治疗：
+血栓清除后，患肢可使用间歇加压充气治疗或弹力袜，以预防血栓复发。
+(二)DVT的慢性期治疗
+DVT患者需长期抗凝等治疗以防止血栓蔓延和/或血栓复发。
+1．抗凝治疗：
+(1)抗凝治疗的时间：根据DVT发生的原因、部位、有无肿瘤等情况，DVT的长期抗凝时间不同。对于由于手术或一过性非手术因素所引起的腿部近端或腿部孤立性远端的DVT或PE患者，推荐抗凝治疗3个月。无诱因的腿部近端或腿部孤立性远端的DVT或PE患者，推荐抗凝治疗至少3个月；3个月后，应评估延长治疗的风险收益比，决定是否延长抗凝，D-二聚体值可作为重要参考；无诱因的首次近端DVT或PE患者，伴有低或中度出血风险，建议延长抗凝治疗。有高度出血风险者，推荐抗凝治疗3个月；复发的VTE患者，如伴有低、中度出血风险，推荐延长抗凝治疗；伴有高度出血风险，建议抗凝治疗3个月；患有肿瘤的VTE患者，无高出血风险者，推荐延长抗凝治疗；有高出血风险者，建议延长抗凝治疗[36]。(2)抗凝治疗的强度及药物选择：维生素K拮抗剂(如华法林)、Ⅹa因子抑制剂、直接凝血酶抑制剂等对预防DVT复发有效。华法林低强度(INR 1.5～1.9)的治疗效果有限，而且未能减少出血的发生率。高强度(INR 3.1～4.0)的治疗并不能提供更好的抗血栓治疗效果，相反出血的风险增加。中等强度(INR 2.0～3.0)的抗凝治疗是目前临床采用的标准。不伴有肿瘤的下肢DVT或PE患者，前3个月的抗凝治疗，推荐新型口服抗凝药物(如利伐沙班等)或维生素K拮抗剂。伴有肿瘤的下肢DVT或PE，前3个月的抗凝治疗，推荐低分子肝素。3个月以后，需要延长抗凝治疗的下肢DVT或PE，无需更换抗凝药物。如患者情况发生改变或不能继续服用此类药物，可换用其他抗凝药物，如维生素K拮抗剂等。不推荐用阿司匹林替代抗凝药物。无诱因的近端DVT或PE患者，决定停用或已停用抗凝治疗、且没有阿司匹林禁忌时，建议使用阿司匹林预防VTE复发[37,38]。
+推荐一：对于不伴有肿瘤的下肢DVT或PE，使用新型口服抗凝药物或维生素K拮抗剂。其中继发于手术或一过性危险因素的初发DVT患者，抗凝治疗3个月；无诱因的首次近端DVT或PE、复发的VTE患者抗凝3个月后，建议延长抗凝治疗。
+推荐二：伴有肿瘤的下肢DVT或PE，推荐低分子肝素抗凝治疗，抗凝3个月后，建议延长抗凝治疗。
+维生素K拮抗剂在整个治疗过程中应使INR维持在2.0～3.0，需定期监测。
+2．其他治疗：
+(1)静脉活性药：包括黄酮类、七叶皂苷类等。黄酮类(如地奥司明)具有抗炎、促进静脉血液回流，减轻患肢肿胀和疼痛作用，从而改善症状[39,40]。七叶皂苷类(如马栗种子提取物)具有抗炎、减少渗出、增加静脉血管张力、改善血液循环、保护血管壁等作用[41,42]。(2)类肝素抗栓药物：如舒洛地特，有硫酸艾杜粘多糖和硫酸皮肤素两个主要成分，有较强的抗血栓作用，同时具有保护内皮、抗血小板和抗炎作用[43]。
+3．物理治疗：
+间歇气压治疗(又称循环驱动治疗)，可促进静脉回流，减轻淤血和水肿，是预防深血栓形成和复发的重要措施[44,45,46,47]。弹力袜治疗在预防PTS发生率、静脉血栓复发率等方面的作用有待进一步验证[48,49]。
+推荐：对于慢性期患者，建议服用静脉活性药物，有条件者可使用肢体循环驱动治疗。
+五、血栓后综合征的诊断、治疗
+目前，临床诊断主要依据患者的症状和体征。由于PTS是一种慢性进展性疾病，诊断一般在DVT发病6个月后做出[50]。许多临床评分方法可用来诊断PTS，如：Villalta评分[51]、Ginsberg评分[52]和Brandjes评分[53]等，每种临床评分法各有其特点。
+血栓后综合征的治疗：(1)压力治疗：是PTS的基础治疗，有助于减轻或改善PTS症状。包括分级加压弹力袜(ECSs)和间歇气压治疗[54]。(2)运动训练：能够减轻PTS的症状，提高患者生活质量。(3)药物治疗：静脉活性药如黄酮或七叶皂苷类，可以在短期内改善PTS的症状，其长期有效性和安全性尚需进一步评估[41]。(4)血管腔内治疗：现有的方法只能改善症状，无法恢复深静脉已被破坏的结构，而且缺乏大样本10年以上远期疗效结果，所以对于年龄较小预期寿命较长、Villalta评分为轻度和中度的患者，以保守治疗为主。Villalta评分为重度或发生静脉性溃疡，造影或CT见下腔静脉通畅，患侧股腘静脉主干形态正常或再通良好、血流通畅，髂静脉、股总静脉狭窄或闭塞的患者可以腔内介入治疗[19,55,56]。球囊扩张、支架植入术，技术成功率较高，近、中期疗效满意，术后溃疡自行愈合率较高、症状明显改善、生活质量明显提高[57]。
+委员会成员
+参与本指南修订的专家：王深明(中山大学附属第一医院)，景在平(上海长海医院)，陈忠(北京安贞医院)，刘昌伟(北京协和医院)，符伟国(上海中山医院)，吴丹明(辽宁省人民医院)，郭伟(解放军总医院)，李震(郑州大学附属第一医院)，张鸿坤(浙江大学附属第一医院)，张福先(北京世纪坛医院)，刘鹏(北京中日友好医院)，金辉(昆明医科大学附属第一医院)，李毅清(华中科技大学附属协和医院)，张岚(上海仁济医院)，周为民(南昌大学附属第二医院)，姜维良(哈尔滨医科大学附属第二医院)，舒畅(北京阜外医院)，赵纪春(四川大学华西医院)，刘冰(哈尔滨医科大学附属第一医院)，王劲松(中山大学附属第一医院)，翟水亭(河南省人民医院)，郝斌(山西大医院)，郭曙光(昆明军区总医院)，赵珺(上海第六人民医院)，李晓强(苏州大学附属第二医院)，郭平凡(福建医科大学附属第一医院)，章希炜(江苏省人民医院)，辛世杰(中国医科大学附属第一医院)，袁时芳(西安西京医院)，戈小虎(新疆维吾尔自治区人民医院)，胡何节(安徽省立医院)，谷涌泉(北京宣武医院)，毕伟(河北医科大学附属第二医院)，金星(山东省立医院)，何菊(天津市第一人民医院)，曲乐丰(上海长征医院)，覃晓(广西医科大学附属第一医院)，陆信武(上海第九人民医院)，王豪夫(青岛大学医学院附属医院)，常光其(中山大学附属第一医院)，王玉琦(上海中山医院)，吴庆华(北京安贞医院)，张柏根(上海仁济医院)，唐小斌(北京安贞医院)，杨耀国(北京安贞医院)，郭大乔(上海中山医院)，赵志青(上海长海医院)，钱爱民(苏州大学附属第二医院)，李文东(苏州大学附属第二医院)，李承龙(苏州大学附属第二医院)。
+执笔：李晓强 张福先 王深明
+参考文献
+[1]
+RighiniM, LeGG, BounameauxH.
+Venous thromboembolism diagnosis: unresolved issues[J].
+Thromb Haemost,
+2015,
+113(
+6):
+1184-
+1192.
+[2]
+GoldhaberSZ, BounameauxH.
+Pulmonary embolism and deep vein thrombosis[J].
+Lancet,
+2012,
+379(
+9828):
+1835-
+1846.
+[3]
+KahnSR, ShrierI, JulianJA, et al.
+Determinants and time course of the postthrombotic syndrome after acute deep venous thrombosis[J].
+Ann Intern Med,
+2008,
+149(
+10):
+698-
+707.
+[4]
+TickLW, KramerMH, RosendaalFR, et al.
+Risk factors for post-thrombotic syndrome in patients with a first deep venous thrombosis[J].
+J Thromb Haemost,
+2008,
+6(
+12):
+2075-
+2081.
+[5]
+CarrierM, LeGG, BatesSM, et al.
+D-dimer testing is useful to exclude deep vein thrombosis in elderly outpatients[J].
+J Thromb Haemost,
+2008,
+6(
+7):
+1072-
+1076.
+[6]
+WellsPS, AndersonDR, RodgerM, et al.
+Evaluation of D-dimer in the diagnosis of suspected deep-vein thrombosis[J].
+N Engl J Med,
+2003,
+349(
+13):
+1227-
+1235.
+[7]
+GeersingGJ, ZuithoffNP, KearonC, et al.
+Exclusion of deep vein thrombosis using the Wells rule in clinically important subgroups: individual patient data meta-analysis[J].
+BMJ,
+2014,
+348:
+g1340.
+[8]
+SchulmanS, KakkarAK, GoldhaberSZ, et al.
+Treatment of acute venous thromboembolism with dabigatran or warfarin and pooled analysis[J].
+Circulation,
+2014,
+129(
+7):
+764-
+772.
+[9]
+HarderS.
+Pharmacokinetic and pharmacodynamic evaluation of rivaroxaban: considerations for the treatment of venous thromboembolism[J].
+Thromb J,
+2014,
+12:
+22.
+[10]
+吴丹明，周玉斌，汤海涛.
+下肢深静脉血栓形成的抗凝治疗及其疗程的探讨[J]．
+中国血管外科杂志(电子版)，
+2014,(
+1):
+4-6,22.
+[11]
+ArepallyGM.
+Heparin-induced thrombocytopenia[J].
+Blood,
+2017,
+129(
+21):
+2864-
+2872.
+[12]
+KrauelK, HackbarthC, FürllB, et al.
+Heparin-induced thrombocytopenia: in vitro studies on the interaction of dabigatran, rivaroxaban, and low-sulfated heparin, with platelet factor 4 and anti-PF4/heparin antibodies[J].
+Blood,
+2012,
+119(
+5):
+1248-
+1255.
+[13]
+InvestigatorsE, BauersachsR, BerkowitzSD, et al.
+Oral rivaroxaban for symptomatic venous thromboembolism[J].
+N Engl J Med,
+2010,
+363(
+26):
+2499-
+2510.
+[14]
+LewisBE, WallisDE, BerkowitzSD, et al.
+Argatroban anticoagulant therapy in patients with heparin-induced thrombocytopenia[J].
+Circulation,
+2001,
+103(
+14):
+1838-
+1843.
+[15]
+中华医学会外科学分会血管外科学组：
+深静脉血栓形成的诊断和治疗指南(第2版) [J].
+中华普通外科杂志 ，
+2012,
+27(
+7):
+605-
+607.
+[16]
+LlerenaLD, Cáceres-LórigaFM, BetancourtBY.
+Recombinant streptokinase: evidences from clinical use[J].
+Eur Heart J,
+2005,
+26(
+14):
+1448-
+1450.
+[17]
+FedulloPF, KonopkaRG, HartmanMT, et al.
+Thrombolysis with recombinant human tissue type plasminogen activator in a canine model of venous thrombosis[J].
+Circulation,
+1984,
+70(
+6):
+366.
+[18]
+GrunwaldMR, HofmannLV.
+Comparison of urokinase, alteplase, and reteplase for catheter-directed thrombolysis of deep venous thrombosis[J].
+J Vasc Interv Radiol,
+2004,
+15(
+4):
+347-
+352.
+[19]
+KearonC, AklEA, OrnelasJ, et al.
+Antithrombotic therapy for VTE disease: CHEST guideline and expert panel report[J].
+Chest ,
+2016,
+149(
+2):
+315-
+352.
+[20]
+王深明，武日东．
+规范下肢深静脉血栓形成的治疗[J].
+中国血管外科杂志(电子版),
+2014,
+6(
+1):
+1-
+3.
+[21]
+MewissenMW, SeabrookGR, MeissnerMH, et al.
+Catheter-directed thrombolysis for lower extremity deep venous thrombosis: report of a national multicenter registry[J].
+Radiology,
+1999,
+211(
+1):
+39-
+49.
+[22]
+陈弘，胡楠，孔令尚，等.
+不同入路置管溶栓治疗急性下肢深静脉血栓形成[J]．
+中华普通外科杂志，
+2015,
+30(
+7):
+569-
+570.
+[23]
+褚永新，秦锋，张雷，等.
+不同入路置管溶栓治疗急性下肢深静脉血栓形成[J]．
+中华普通外科杂志，
+2017,
+32(
+3):
+228-
+231.
+[24]
+RapoldHJ, WuZM, StassenT, et al.
+Comparison of intravenous bolus injection or continuous infusion of recombinant single chain urokinase-type plasminogen activator (saruplase) for thrombolysis. A canine model of combined coronary arterial and femoral venous thrombosis[J].
+Blood,
+1990,
+76(
+8):
+1558-
+1563.
+[25]
+姜坤，李晓强，钱爱民，等.
+导管溶栓治疗急性下肢深静脉血栓形成中尿激酶不同给药方式效果比较的临床研究[J]．
+中国血管外科杂志(电子版)，
+2016,
+8(
+1):
+61-
+63.
+[26]
+LiFH, ZhaoY, WangXH, et al.
+Risk factors associated with symptomatic pulmonary embolism of catheter directed thrombolysis for lower extremity deep venous thrombosis[J].
+Eur J Vasc Endovasc Surg,
+2015,
+50(
+5):
+658-
+663.
+[27]
+SherryS, GustafsonE.
+The current and future use of thrombolytic therapy[J].
+Annu Rev Pharmacol Toxicol,
+1985,
+25:
+413-
+431.
+[28]
+McGrathKG, PattersonR.
+Anaphylactic reactivity to streptokinase[J].
+JAMA,
+1984,
+252(
+10):
+1314-
+1317.
+[29]
+JuhanC, AlimiY, DiMP, et al.
+Surgical venous thrombectomy[J].
+Cardiovasc Surg,
+1999,
+7(
+6):
+586-
+590.
+[30]
+KarthikesalingamA, YoungEL, HinchliffeRJ, et al.
+A systematic review of percutaneous mechanical thrombectomy in the treatment of deep venous thrombosis[J].
+Eur J Vasc Endovasc Surg,
+2011,
+41(
+4):
+554-
+565.
+[31]
+BushRL, LinPH, BatesJT, et al.
+Pharmacomechanical thrombectomy for treatment of symptomatic lower extremity deep venous thrombosis: safety and feasibility study[J].
+J Vasc Surg,
+2004,
+40(
+5):
+965-
+970.
+[32]
+GarciaMJ, LooksteinR, MalhotraR, et al.
+Endovascular management of deep vein thrombosis with rheolytic thrombectomy: final report of the prospective multicenter PEARL (Peripheral Use of AngioJet Rheolytic Thrombectomy with a Variety of Catheter Lengths) registry[J].
+J Vasc Interv Radiol,
+2015,
+26(
+6):
+777-
+786.
+[33]
+MahnkenAH, ThomsonK, de HaanM, et al.
+CIRSE standards of practice guidelines on iliocaval stenting[J].
+Cardiovasc Intervent Radiol,
+2014,
+37(
+4):
+889-
+897.
+[34]
+MickleyV, SchwagierekR, RilingerN, et al.
+Left iliac venous thrombosis caused by venous spur: treatment with thrombectomy and stent implantation[J].
+J Vasc Surg,
+1998,
+28(
+3):
+492-
+497.
+[35]
+KurklinskyAK, BjarnasonH, FrieseJL, et al.
+Outcomes of venoplasty with stent placement for chronic thrombosis of the iliac and femoral veins: single-center experience[J].
+J Vasc Interv Radiol,
+2012,
+23(
+8):
+1009-
+1015.
+[36]
+KearonC.
+A conceptual framework for two phases of anticoagulant treatment of venous thromboembolism[J].
+J Thromb Haemost,
+2012,
+10(
+4):
+507-
+511.
+[37]
+Falck-YtterY, FrancisCW, JohansonNA, et al.
+Prevention of VTE in orthopedic surgery patients[J].
+Chest,
+2012,
+141(
+Part Ⅱ):
+e278S-
+325S.
+[38]
+DunnA.
+ACP Journal Club: after initial anticoagulation for a first unprovoked venous thromboembolism, aspirin reduced recurrence[J].
+Ann Intern Med,
+2015,
+162(
+4):
+JC5.
+[39]
+BushR, ComerotaA, MeissnerM, et al.
+Recommendations for the medical management of chronic venous disease: The role of Micronized Purified Flavanoid Fraction (MPFF)[J].
+Phlebology,
+2017,
+32(
+suppl 1):
+3-
+19.
+[40]
+Coleridge-SmithP, LokC, RameletAA.
+Venous leg ulcer: a meta-analysis of adjunctive therapy with micronized purified flavonoid fraction[J].
+Eur J Vasc Endovasc Surg,
+2005,
+30(
+2):
+198-
+208.
+[41]
+PittlerMH, ErnstE.
+Horse chestnut seed extract for chronic venous insufficiency[J].
+Cochrane Database Syst Rev,
+2012,
+11:
+CD003230.
+[42]
+SirtoriCR.
+Aescin: pharmacology, pharmacokinetics and therapeutic profile[J].
+Pharmacol Res,
+2001,
+44(
+3):
+183-
+193.
+[43]
+AndreozziGM, BignaminiAA, DavìG, et al.
+Sulodexide for the prevention of recurrent venous thromboembolism: the Sulodexide in Secondary Prevention of Recurrent Deep Vein Thrombosis (SURVET) Study: a multicenter, randomized, double-blind, placebo-controlled trial[J].
+Circulation,
+2015,
+132(
+20):
+1891-
+1897.
+[44]
+DennisM, SandercockP, ReidJ, et al.
+Effectiveness of intermittent pneumatic compression in reduction of risk of deep vein thrombosis in patients who have had a stroke (CLOTS 3): a multicentre randomised controlled trial[J].
+Lancet,
+2013,
+382(
+9891):
+516-
+524.
+[45]
+NakanishiK, TakahiraN, SakamotoM, et al.
+Effects of intermittent pneumatic compression of the thigh on blood flow velocity in the femoral and popliteal veins: developing a new physical prophylaxis for deep vein thrombosis in patients with plaster-cast immobilization of the leg[J].
+J Thromb Thrombolysis,
+2016,
+42(
+4):
+579-
+584.
+[46]
+UrbankovaJ, QuirozR, KucherN, et al.
+Intermittent pneumatic compression and deep vein thrombosis prevention. A meta-analysis in postoperative patients[J].
+Thromb Haemost,
+2005,
+94(
+6):
+1181-
+1185.
+[47]
+HullRD, RaskobGE, GentM, et al.
+Effectiveness of intermittent pneumatic leg compression for preventing deep vein thrombosis after total hip replacement[J].
+JAMA,
+1990,
+263(
+17):
+2313-
+2317.
+[48]
+MusaniMH, MattaF, YaekoubAY, et al.
+Venous compression for prevention of postthrombotic syndrome: a meta-analysis[J].
+Am J Med,
+2010,
+123(
+8):
+735-
+740.
+[49]
+KahnSR, ShapiroS, WellsPS, et al.
+Compression stockings to prevent post-thrombotic syndrome: a randomised placebo-controlled trial[J].
+Lancet,
+2014,
+383(
+9920):
+880-
+888.
+[50]
+KahnSR, GinsbergJS.
+The post-thrombotic syndrome: current knowledge, controversies, and directions for future research[J].
+Blood Rev,
+2002,
+16(
+3):
+155-
+165.
+[51]
+VillaltaS, BagatellaP, PiccioliA.
+Assessment of validity and reproducibility of a clinical scale for the post-thrombotic syndrome[J].
+Haemostasis,
+1994,
+24:
+158a.
+[52]
+GinsbergJS, TurkstraF, BullerHR, et al.
+Postthrombotic syndrome after hip or knee arthroplasty: a cross-sectional study[J].
+Arch Intern Med,
+2000,
+160(
+5):
+669-
+672.
+[53]
+BrandjesDP, BüllerHR, HeijboerH, et al.
+Randomised trial of effect of compression stockings in patients with symptomatic proximal-vein thrombosis[J].
+Lancet,
+1997,
+349(
+9054):
+759-
+762.
+[54]
+CohenJM, AklEA, KahnSR.
+Pharmacologic and compression therapies for postthrombotic syndrome: a systematic review of randomized controlled trials[J].
+Chest,
+2012,
+141(
+2):
+308-
+320.
+[55]
+KahnSR, ComerotaAJ, CushmanM, et al.
+The postthrombotic syndrome: evidence-based prevention, diagnosis, and treatment strategies: a scientific statement from the American Heart Association[J].
+Circulation,
+2014,
+130(
+18):
+1636-
+1661.
+[56]
+中华医学会外科分会血管外科学组．
+慢性下肢静脉疾病诊断与治疗中国专家共识[J].
+中华普通外科杂志，
+2014,
+29(
+4):
+246-
+252.
+[57]
+RosalesA, SandbaekG, JørgensenJJ.
+Stenting for chronic post-thrombotic vena cava and iliofemoral venous occlusions: mid-term patency and clinical outcome[J].
+Eur J Vasc Endovasc Surg,
+2010,
+40(
+2):
+234-
+240.
+贡献者信息
+中华医学会外科学分会血管外科学组
+历史
+出版日期：2017-09-25
+收稿日期：2017-07-08
+本文编辑
+尚永刚
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+深静脉血栓形成的原发性危险因素
+抗凝血酶缺乏
+蛋白C缺乏
+先天性异常纤维蛋白原血症
+Ⅴ因子Leiden突变(活化蛋白C抵抗)
+高同型半胱氨酸血症
+纤溶酶原缺乏
+抗心磷脂抗体阳性
+异常纤溶酶原血症
+纤溶酶原激活物抑制剂过多
+蛋白S缺乏
+凝血酶原20210A基因变异
+Ⅻ因子缺乏
+Ⅷ、Ⅸ、Ⅺ因子增高
+表2
+深静脉血栓形成的继发性危险因素
+髂静脉压迫综合征
+血小板异常
+损伤/骨折
+手术与制动
+脑卒中、瘫痪或长期卧床
+长期使用雌激素
+高龄
+恶性肿瘤、化疗患者
+中心静脉留置导管
+肥胖
+下肢静脉功能不全
+心、肺功能衰竭
+吸烟
+长时间乘坐交通工具
+妊娠/产后
+口服避孕药
+Crohn病
+狼疮抗凝物
+肾病综合征
+人工血管或血管腔内移植物
+血液高凝状态(红细胞增多症，Waldenstrom巨球蛋白血症，骨髓增生异常综合征)
+VTE病史
+重症感染
+表3
+预测下肢深静脉血栓形成的临床模型(Wells评分)[6]
+病史及临床表现
+评分
+肿瘤
+1
+瘫痪或近期下肢石膏固定
+1
+近期卧床>3 d或近12周内大手术
+1
+沿深静脉走行的局部压痛
+1
+全下肢水肿
+1
+与健侧相比，小腿肿胀周径长>3 cm
+1
+既往有下肢深静脉血栓形成病史
+1
+凹陷性水肿(症状侧下肢)
+1
+有浅静脉的侧支循环(非静脉曲张)
+1
+类似或与下肢深静脉血栓形成相近的诊断
+－2
+图1
+深静脉血栓形成(DVT)诊断流程
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华普通外科杂志2017年32卷9期
+文    题：深静脉血栓形成的诊断和治疗指南(第三版)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华普通外科杂志2017年32卷9期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

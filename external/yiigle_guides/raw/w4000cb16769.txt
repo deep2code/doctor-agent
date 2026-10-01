@@ -1,0 +1,558 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E8%A1%80%E5%87%9D%E9%85%B6%E5%9C%A8%E6%80%A5%E6%80%A7%E5%87%BA%E8%A1%80%E6%80%A7%E7%96%BE%E7%97%85%E4%B8%AD%E5%BA%94%E7%94%A8%E7%9A%84%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 血凝酶在急性出血性疾病中应用的专家共识 - 中华急诊医学杂志
+# 发布方/日期: 急诊医学科，中华急诊医学杂志, 2018,27(2) : 137-140. DOI: 10.3760/cma.j；2018-02-10
+
+血凝酶在急性出血性疾病中应用的专家共识
+血凝酶在急性出血临床应用专家组
+中华急诊医学杂志, 2018,27(2) : 137-140. DOI: 10.3760/cma.j.issn.1671-0282.2018.02.006
+出血性疾病是急诊常见病，每年约有15%~20%的患者因各种原因导致的出血而就诊于急诊科[1]，包括急性创伤性出血、非创伤性出血和手术及侵入性操作导致的出血。临床处理主要包括手术、介入治疗、直接压迫以及药物止血[2]。常用的止血药物主要包括：①作用于血管及血管壁类药物，如垂体后叶素、卡络磺钠等；②作用于血小板类药物，如酚磺乙胺(ethamsylate)；③促进凝血系统功能类药物，如新鲜冰冻血浆（FFP）、人凝血酶原复合物（Prothrombin complex concentrate, PCC)、重组活化因子Ⅶ（rFⅦa）、纤维蛋白原(fibrinogen)、血凝酶等；④抗纤维蛋白溶解类药物，如氨甲环酸。
+目前,一些止血药物临床应用疗效评价缺乏足够的证据[3]，且有潜在增加血栓风险的可能，受到越来越多的质疑[4]。而血凝酶由于其特有的机制，不仅可以有效止血，而且具有在正常血管系统中不引起血栓形成的特点，逐渐为临床医生所重视。本共识关注血凝酶在急性出血性疾病中的临床应用。
+1 血凝酶止血作用机制
+血凝酶活性成分中含有巴曲酶和磷脂依赖性凝血因子Ⅹ激活剂（FⅩA），是生理性止血过程的有效促进及补充[5,6]。其止血作用机制主要包括：
+（1）选择性促凝血作用。FⅩA在促进血管破损处凝血酶的形成过程中起到了一种引导和催化作用。在血管破损处，血小板黏附、聚集、释放、暴露其磷脂表面，FⅩA能将浓聚于磷脂反应表面的凝血因子Ⅹ激活成为Ⅹa，后者再与Ca2+、凝血因子Ⅴa及血小板磷脂（PF3）形成凝血酶原激活物，促进血管破损处的凝血酶形成，从而促进止血效应。
+（2）选择性促维蛋白生成作用。巴曲酶使纤维蛋白原（Fg）在Aα链上的精16-甘17键处降解，释放出蛋白肽A（FPA）而生成可溶性的纤维蛋白I单体（FIm），在此酶的持续作用下，FIm在血管破损口处聚合成纤维蛋白I多聚体（FIp），FIp能促进血管破损处的血小板聚集、加速血小板止血栓的形成，从而促进血管破损处的初期止血效应。其促进生成的FIm与Fg结合形成的复合物，易在体内被降解而不致引起血管内弥漫性凝血(disseminated intravascular coagulation, DIC)。
+血凝酶需要血小板黏附聚集、释放暴露血小板磷脂后，才会激活有效成分，仅在血管破损处加速生理性凝血过程而止血。
+2 血凝酶止血作用特点及药理特性
+血凝酶为酶性止血药，通过选择性促凝血和促纤维蛋白生成作用，可使血管破损处凝血速度加快，而不干扰正常凝血系统中的凝血因子数目[7]，在完整、平滑的血管内皮中无促进血小板聚集的作用，不激活血管内纤维蛋白稳定因子（ⅩⅢ）；对正常生理性凝血系统无明显影响，正常血管无血栓形成风险[8]；对各项凝血指标（活化部分凝血酶原时间、凝血酶原时间、纤维蛋白等）无明显影响[9]；也不引起或增加术中术后血栓形成的机率，已广泛用于各种出血性疾病的治疗和手术患者术中术后出血的预防。但目前尚无对已有血栓性疾病患者凝血功能影响的研究。
+血凝酶可以局部应用、腹腔、皮下、肌内和静脉注射，经静脉注射后5~10 min起效，20~30 min达峰值，出血时间可降至正常平均值的1/5~1/6，止血作用时间达24 h。皮下及肌肉注射后20~30 min起效，45 min达峰值，持续48~72 h。采用肌内和静脉注射联合应用时，可起到迅速和持久的止血效果。其降解产物由肾脏经尿液排出。全身给药，总量1~4 KU/d，最大剂量8 KU/d（KU是克氏单位，1 KU=1单位的血凝酶）；也可以局部给药（局部喷洒、局部浸润注射和雾化吸入）[10,11]。
+【推荐建议1】血凝酶为选择性止血作用药物，只针对局部血管破损部位加速生理性凝血过程，不影响正常血管内的凝血功能。
+【推荐建议2】血凝酶可全身和局部使用，对于有血栓形成风险的出血患者，可考虑局部使用血凝酶止血治疗；对于已有血栓性疾病患者，不推荐应用。
+3 血凝酶临床应用
+3.1 血凝酶在非创伤性出血性疾病中的应用
+非创伤性出血性疾病病因复杂，涉及面广，由于血凝酶具有不影响正常凝血功能、正常血管中不致血栓形成以及用法多样的特点，可作为非创伤性出血性疾病止血的治疗用药。
+在呼吸系统出血性疾病中，全身应用垂体后叶素联合血凝酶（血凝酶1 KU静脉推注+1 KU肌肉注射，1~2次/d）能够提高止血成功率；而局部应用（生理盐水5 mL+血凝酶2 KU雾化吸入，12 h一次；或气管内注射血凝酶0.5 KU/次，4~6 h一次）也能够缩短肺部出血性疾病出血时间、呼吸机使用时间，降低病死率[12,13,14]。
+对于消化道出血，尤其是上消化道出血，相比较于肾上腺素，内镜下喷洒血凝酶能够提高止血率，并减少再出血率及不良反应[15]。
+脑出血患者继续出血或再出血致血肿再扩大是导致脑出血患者病情加重的原因之一，早期给予止血剂可减少血肿再扩大的机率,在脑出血发生后的6 h内给予血凝酶，可以降低出血程度，起到脑保护的作用，同时并不增加血栓形成的风险[16]。
+【推荐建议3】血凝酶可作为非创伤性出血性疾病早期止血的治疗用药，全身给药，1~4 KU/d，最大剂量8 KU/d；对于消化道、呼吸系统和泌尿系统的出血，可考虑局部应用血凝酶。
+3.2 血凝酶在术中和术后出血中的应用
+外科手术相关的出血非常常见，而一些手术如腔镜下手术，对手术视野要求较高，少量出血即对手术清晰度影响较大。研究显示，外科手术术前、术中和（或）术后经静脉（1~2 KU/次，最大剂量4 KU/d）和（或）局部应用血凝酶能够加速伤口的止血进程，减少单位面积的出血量[17,18]，从而减少围手术期渗血、出血，减少术中及术后出血及输血量[19,20,21]，此外，局部应用血凝酶可通过加速动脉外膜恢复和减少动脉内膜增生[22]，促进伤口愈合[23,24,25]。血凝酶活性具有不受肝素抑制的特点，临床上可用于长期接受肝素或低分子肝素治疗的患者，以缓解出血倾向[26]。较长时间(>7 d)全身应用血凝酶可能引起血浆纤维蛋白原水平下降，导致低纤维蛋白原血症，但停药并输注纤维蛋白原后可恢复[27]。由于其可能导致纤维蛋白原下降和继发性纤维蛋白溶解，目前不建议用于DIC患者[28,29]。
+【推荐建议4】对于高出血风险的外科手术患者，特别正进行肝素或低分子肝素治疗的需行急诊手术的患者，可于术前、术中和（或）术后经全身和（或）局部应用小剂量血凝酶。
+【推荐建议5】不推荐较长时间（<7 d）使用血凝酶，连续使用（>5 d）需监测纤维蛋白原水平；对于DIC患者，不推荐应用。
+3.3 血凝酶在创伤性出血中的应用
+创伤不仅损伤大中血管，还可导致微小血管受到损害，临床上需要采取综合性的止血措施，药物性止血是其中非常重要的一环。经静脉（血凝酶1~4 KU/d）和（或）局部外敷血凝酶可以减少伤口毛细血管出、渗血，对微小血管（直径<1 mm）的止血效果显著[30]；此外，多项动物研究提示对比增强超声（CEUS）引导下局部注射血凝酶（1~2 KU/次）或局部应用加入血凝酶的敷料、医用胶能够减少创伤导致的实质脏器（肝脏、脾脏、肾脏）出血的失血量[31,32,33,34,35,36,37,38]，但目前涉及此方面的临床研究较少[39]，尚需更多的临床研究证实其有效性及安全性。
+【推荐建议6】对于创伤性微小血管出血，推荐静脉/局部应用小剂量血凝酶。
+4 常用血凝酶制剂特征
+常用的血凝酶包括速乐涓、立止血、邦亭、苏灵、巴曲亭等，其理化特征见表1。
+点击查看表格
+表1
+常用血凝酶理化特征比较
+表1
+常用血凝酶理化特征比较
+药品
+活性成分
+来源
+效价测定
+剂型
+速乐涓
+磷脂依赖性凝血因子Ⅹ激活物（FⅩA）和巴曲酶
+国产蝰蛇
+53 s
+水针
+立止血
+FⅩA和巴曲酶
+巴西矛头蝮蛇
+粉针剂：>80 s
+粉针
+注射液：70 s
+邦亭
+类凝血酶、类凝血激酶
+国产白眉蝮蛇
+60 s
+粉针
+苏灵
+尖吻蝮蛇血凝酶，单一组分的双肽链
+国产尖吻蝮蛇
+88 s
+粉针
+巴曲亭
+FⅩA和巴曲酶
+巴西矛头蝮蛇
+55 s
+粉针
+新一代水针剂型的蛇毒血凝酶，利用蛋白层析纯化技术，有效去除有毒成分的蛋白水解酶（磷脂酶A2、碱性磷酸酶、L-氨基酸氧化酶），减少杂质含量和过敏源，提高药物的安全性。
+5 展望
+血凝酶具有选择性的止血机制，只针对血管破损处发挥止血功能，而不增加系统性血栓风险，在急性出血性疾病中的临床应用中具有广阔的前景；也有待于进一步的RCT研究，提供更多的循证医学证据，合理、有效和安全地使用止血药物。
+委员会成员
+执笔者：闫圣涛、张国强
+专家组成员(按姓名拼音排序)：
+艾芬、蔡文伟、柴艳芬、曹钰、陈锋、陈凤英、陈立波、陈晓辉、陈玉国、邓颖、方邦江、郭东风、韩小彤、何小军、何新华、黄亮、黄曼、蒋龙元、李春盛、李培武、李小刚、梁显泉、林兆奋、刘志、刘晓亮、吕传柱、马渝、马岳峰、米玉红、欧阳军、潘曙明、彭鹏、秦历杰、商德亚、孙树印、田英平、童朝阳、王振杰、魏蔚、谢苗荣、徐杰、许铁、闫圣涛、杨立山、杨兴易、杨正平、尹文、余猛进、曾红科、张静、张茂、张国强、张剑锋、张劲松、张连东、赵斌、赵敏、赵晓东、郑亚安、朱华栋、朱继红
+参考文献
+[1]
+MajeedA,HwangHG,EikelboomJW, et al.
+Effectiveness and outcome of management strategies for dabigatran- or warfarin-related major bleeding events[J].
+Thromb Res,
+2016,
+140:
+81-
+88.
+DOI:10.1016/j.thromres.2016.02.005.
+[2]
+非创伤性出血急诊处理专家组.
+非创伤性出血的急诊处理专家共识/意见[J].
+中华急诊医学杂志,
+2017,
+26(
+8):
+850-
+856.
+DOI:10.3760/cma.j.issn.1671-0282.2017.08.002.
+[3]
+HuntBJ.
+The current place of tranexamic acid in the management of bleeding[J].
+Anaesthesia,
+2015,
+70(
+Suppl 1):
+50-53, e18.
+DOI:10.1111/anae.12910.
+[4]
+Kozek-LangeneckerSA,AfshariA,AlbaladejoP, et al.
+Management of severe perioperative bleeding: guidelines from the European Society of Anaesthesiology[J].
+Eur J Anaesthesiol,
+2013,
+30(
+6):
+270-
+382.
+DOI:10.1097/EJA.0b013e32835f4d5b.
+[5]
+MatsuiT,FujimuraY,TitaniK.
+Snake venom proteases affecting hemostasis and thrombosis[J].
+Biochim Biophys Acta,
+2000,
+1477(
+1-2):
+146-
+56.
+DOI:10.1016/s0167-4838(99)00268-x.
+[6]
+CastroHC,RodriguesCR.
+Current status of snake venom thrombin-like enzymes[J].
+Toxin Reviews,
+2006,
+25(
+3):
+291-
+318.
+DOI:10.1080/15569540600567321.
+[7]
+YouWK,ChoiWS,KohYS, et al.
+Functional characterization of recombinant batroxobin, a snake venom thrombin-like enzyme, expressed from Pichia pastoris[J].
+FEBS Lett,
+2004,
+571(
+13):
+67-
+73.
+DOI:10.1016/j.febslet.2004.06.060.
+[8]
+CastroHC,ZingaliRB,AlbuquerqueMG, et al.
+Snake venom thrombin-like enzymes: from reptilase to now[J].
+Cell Mol Life Sci,
+2004,
+61(
+78):
+843-
+856.
+DOI:10.1007/s00018-003-3325-z.
+[9]
+XuC,WuA,YueY.
+Which is more effective in adolescent idiopathic scoliosis surgery: batroxobin, tranexamic acid or a combination[J].
+Arch Orthop Trauma Surg,
+2012,
+132(
+1):
+25-
+31.
+DOI:10.1007/s00402-011-1390-6.
+[10]
+WangT,WangDN,LiuWT, et al.
+Hemostatic effect of topical hemocoagulase spray in digestive endoscopy[J].
+World J Gastroenterol,
+2016,
+22(
+25):
+5831-
+5836.
+DOI:10.3748/wjg.v22.i25.5831.
+[11]
+TangJ,LvF,LiW,et al.
+Percutaneous injection of hemostatic agents for severe blunt hepatic trauma: an experimental study [J].
+Eur Radiol,
+2008,
+18(
+12):
+2842853.
+DOI：10.1007/s00330-008-1096-5.
+[12]
+LodhaA,KamaluddeenM,AkiermanA, et al.
+Role of hemocoagulase in pulmonary hemorrhage in preterm infants: a systematic review [J].
+Indian J Pediatr,
+2011,
+78(
+7):
+838-
+844.
+DOI:10.1007/s12098-010-0326-4.
+[13]
+ShiY,ZhaoJ,TangS, et al.
+Effect of hemocoagulase for prevention of pulmonary hemorrhage in critical newborns on mechanical ventilation: a randomized controlled trial[J].
+Indian Pediatr,
+2008,
+45(
+3):
+199-
+202.
+[14]
+ShiY,TangS,LiH, et al.
+New treatment of neonatal pulmonary hemorrhage with hemocoagulase in addition to mechanical ventilation[J].
+Biol Neonate,
+2005,
+88(
+2):
+118-
+121.
+DOI:10.1159/000085826.
+[15]
+MayerSA,BrunNC,BegtrupK, et al.
+Recombinant activated factor VII for acute intracerebral hemorrhage[J].
+N Engl J Med,
+2005,
+352(
+8):
+777-
+85.
+DOI:10.1056/NEJMoa042991.
+[16]
+WeiJM,ZhuMW,ZhangZT, et al.
+A multicenter, phase III trial of hemocoagulase Agkistrodon: hemostasis, coagulation, and safety in patients undergoing abdominal surgery[J].
+Chin Med J,
+2010,
+123(
+5):
+589593.
+[17]
+WanSY,HuYC,ZhanYQ, et al.
+Hemocoagulase atrox reduces vascular modeling in rabbit carotid artery adventitia[J].
+Int J Clin Exp Pathol,
+2013,
+6(
+11):
+2386-
+2395.
+[18]
+QiuM,ZhangX,CaiH, et al.
+The impact of hemocoagulase for improvement of coagulation and reduction of bleeding in fracture-related hip hemiarthroplasty geriatric patients: A prospective, single-blinded, randomized, controlled study[J].
+Injury,
+2017,
+48(
+4):
+914-
+919.
+DOI:10.1016/j.injury.2016.11.028.
+[19]
+HuHM,ChenL,FraryCE, et al.
+The beneficial effect of Batroxobin on blood loss reduction in spinal fusion surgery: a prospective, randomized, double-blind, placebo-controlled study[J].
+Arch Orthop Trauma Surg,
+2015,
+135(
+4):
+491-
+49.
+DOI:10.1007/s00402-015-2183-0.
+[20]
+XuC,WuA,YueY.
+Which is more effective in adolescent idiopathic scoliosis surgery: batroxobin, tranexamic acid or a combination[J].
+Arch Orthop Trauma Surg,
+2012,
+132(
+1):
+25-
+31.
+DOI:10.1007/s00402-011-1390-6.
+[21]
+VandanaSK,MohanB,SumithaM, et al.
+The Effects of Topical Hemocoagulase Solution on the Healing Process of Post-extraction Wounds: A Split Mouth Design.[J].
+Journal of maxillofacial and oral surgery,
+2015(
+3):
+5865-
+93.
+DOI:10.1007/s12663-014-0700-2.
+[22]
+AslamS,FrancisPG,RaoBH, et al.
+A double blind study on the efficacy of local application of hemocoagulase solution in wound healing[J].
+J Contemp Dent Pract,
+2013,
+14(
+3):
+394-
+400.
+DOI:10.5005/jp-journals-10024-1334.
+[22]
+ShiY,ZhaoJ,TangS, et al.
+Effect of hemocoagulase for prevention of pulmonary hemorrhage in critical newborns on mechanical ventilation: a randomized controlled trial[J].
+Indian Pediatr,
+2008,
+45(
+3):
+199-
+202.
+[23]
+StockctKF.
+Medical use of snake venum protein[M].
+Boston：
+CRC Press，
+1990：
+137-
+139.
+[24]
+ZhouHB.
+Hypofibrinogenemia Caused by Hemocoagulase After Colon Polyps Excision[J].
+Am J Case Rep,
+2017,
+18:
+291-
+293.
+DOI:10.12659/ajcr.902059.
+[25]
+YoshikawaT,MurakamiM,FurukawaY, et al.
+The effects of defibrinogenation with batroxobin on endotoxin-induced disseminated intravascular coagulation in rats[J].
+Thromb Res,
+1983,
+31(
+5):
+729-
+35.
+DOI:10.1016/0049-3848(83)90103-2.
+[26]
+MarkwardtF,PaintzM,RichterM, et al.
+Defibrinogenation with benzoyl-batroxobin[J].
+Thromb Res,
+1985,
+40(
+1):
+41-
+7.
+DOI:10.1016/0049-3848(85)90348-2.
+[27]
+LuoY,LiuQ,JiaoZ, et al.
+A comparison study of local injection and radiofrequency ablation therapy for traumatic portal vein injure guided by contrast-enhanced ultrasonography[J].
+Ann Hepatol,
+2012,
+11(
+2):
+249-
+56.
+[28]
+TangJ,LvF,LiW, et al.
+Contrast-enhanced sonographic guidance for local injection of a hemostatic agent for management of blunt hepatic hemorrhage: a canine study[J].
+AJR Am J Roentgenol,
+2008,
+191(
+3):
+W107-
+11.
+DOI:10.2214/AJR.07.3382.
+[29]
+TangY,QianNS,LuoW, et al.
+Percutaneous injection of hemostatic agents for active liver hemorrhage[J].
+HBPD INT,
+2010,
+9(
+4):
+402-
+408.
+[30]
+LiW,TangJ,LvF, et al.
+Effectiveness and safety of CEUS-guided haemostatic injection for blunt splenic trauma: an animal experiment[J].
+Radiol Med,
+2010,
+115(
+7):
+1080-
+1086.
+DOI:10.1007/s11547-010-0573-5.
+[31]
+LvF,TangJ,LiW,ZhangH,WangW,YangL.
+Hemostatic agents injected directly into hepatic injury sites for liver trauma hemorrhage under the guidance of contrast-enhanced ultrasound: an animal experiment[J].
+Ultrasound Med Biol,
+2008,
+34(
+10):
+1604-
+1609.
+DOI:10.1016/j.ultrasmedbio.2008.03.004.
+[32]
+WangC,YangY,JinL, et al.
+Evaluating renal biopsy-associated hemorrhage complications by the equation and providing an early intervention: a single-center experience[J].
+J Nephrol,
+2015,
+28(
+6):
+691-
+700.
+DOI:10.1007/s40620-015-0197-x.
+[33]
+SeonGM,LeeMH,KwonBJ,KimMS,KooMA,KimD,SeomunY,KimJT,ParkJC.
+Functional improvement of hemostatic dressing by addition of recombinant batroxobin[J].
+Acta Biomater,
+2017,
+48:
+175-
+185.
+DOI:10.1016/j.actbio.2016.10.024.
+[34]
+YouKE,KooMA,LeeDH, et al.
+The effective control of a bleeding injury using a medical adhesive containing batroxobin[J].
+Biomed Mater,
+2014,
+9(
+2):
+025002.
+DOI:10.1088/1748-6041/9/2/025002.etal.
+[35]
+LvF,TangJ,LuoY,
+Percutaneous treatment of blunt hepatic and splenic trauma under contrast-enhanced ultrasound guidance[J].
+Clin Imaging,
+2012,
+36(
+3):
+191-
+198.
+DOI:10.1016/j.clinimag.2011.09.013.
+贡献者信息
+血凝酶在急性出血临床应用专家组
+历史
+出版日期：2018-02-10
+收稿日期：2018-01-03
+本文编辑
+何小军
+No English Abstract Available
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+常用血凝酶理化特征比较
+药品
+活性成分
+来源
+效价测定
+剂型
+速乐涓
+磷脂依赖性凝血因子Ⅹ激活物（FⅩA）和巴曲酶
+国产蝰蛇
+53 s
+水针
+立止血
+FⅩA和巴曲酶
+巴西矛头蝮蛇
+粉针剂：>80 s
+粉针
+注射液：70 s
+邦亭
+类凝血酶、类凝血激酶
+国产白眉蝮蛇
+60 s
+粉针
+苏灵
+尖吻蝮蛇血凝酶，单一组分的双肽链
+国产尖吻蝮蛇
+88 s
+粉针
+巴曲亭
+FⅩA和巴曲酶
+巴西矛头蝮蛇
+55 s
+粉针
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华急诊医学杂志2018年27卷2期
+文    题：血凝酶在急性出血性疾病中应用的专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华急诊医学杂志2018年27卷2期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

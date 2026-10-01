@@ -1,0 +1,761 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E8%BD%AC%E7%A7%BB%E6%80%A7%E9%BC%BB%E5%92%BD%E7%99%8C%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 转移性鼻咽癌治疗专家共识 - 中华放射肿瘤学杂志
+# 发布方/日期: 耳鼻咽喉科，中华放射肿瘤学杂志, 2018,27(1) : 23-28. DOI: 10.3760/cma.j.i；2018-01-15
+
+转移性鼻咽癌治疗专家共识
+中国抗癌协会鼻咽癌专业委员会
+陈晓钟
+李金高
+林少俊
+胡超苏
+中华放射肿瘤学杂志, 2018,27(1) : 23-28. DOI: 10.3760/cma.j.issn.1004-4221.2018.01.005
+一、前言
+IMRT广泛应用以来，鼻咽癌(nasopharyngeal carcinoma，NPC)的局部控制率达80%以上[1,2,3]，远处转移已成为目前治疗失败的主要原因。由于转移性鼻咽癌获取病理诊断较难，诊断准确性难以保证；且疾病异质性大，治疗方案不规范，因此预后差异性很大。2017版NCCN指南对转移性NPC推荐同步放化疗，或铂类为基础的诱导化疗后再考虑鼻咽及颈部放疗。《头颈部鳞癌综合治疗：中国专家共识2013版》[4]推荐初诊转移NPC患者接受以铂类为基础的化疗±西妥昔单抗(证据级别Ⅱb)，达到CR/PR/SD的患者进一步接受鼻咽/颈部根治性放疗；而治疗后远处转移合并复发的推荐以铂类为基础的化疗±西妥昔单抗(Ⅱb类)。这些指南仅给出了一个大的方向，并未对转移性鼻咽癌进行详细的分层指导，可操作性偏低。因此专家们对转移性鼻咽癌目前现有临床研究及数据进行分层分析和总结，就转移性鼻咽癌的治疗策略规范进行了探讨并达成初步共识。初诊转移性鼻咽癌初诊时约有4%～10%[5,6]的NPC患者伴有远处转移(Ⅳb期，中国鼻咽癌分期2017版)，其治疗不仅涉及到全身治疗，还要考虑鼻咽及颈部等原发病灶的治疗以及转移灶的处理与否。
+二、化疗方案
+鼻咽癌是对化疗最敏感的头颈部肿瘤，但由于缺乏大型的Ⅲ期随机临床试验的验证，标准的一线化疗方案并不确定。目前，临床上常用的一线方案组合是以铂类联合氟尿嘧啶、紫杉类和吉西他滨为主[7]。PF (顺铂＋氟尿嘧啶)是最常见的一线方案[8,9]。随着多西紫杉醇的广泛应用，越来越多的临床试验[10,11]证实含多西紫杉醇的两药或三药联合方案在转移性鼻咽癌中的安全性及有效性，部分临床研究开始采用TP (多西紫杉醇＋铂类)或TPF (多西紫杉醇＋铂类＋氟尿嘧啶)方案替代PF作为一线化疗方案。对初诊移性鼻咽癌目前仍推荐以铂类为基础的两药或三药联合方案。
+三、化疗周期
+对于转移性鼻咽癌，足量的全身性系统化疗是一线治疗的基础。多项回顾性临床研究[12,13,14,15,16]均提示，与1-3周期化疗相比，接受≥4周期化疗的转移性鼻咽癌患者的OS及PFS均明显延长(P值均<0.05)。单、多因素分析也证实<4个周期的化疗是初诊转移鼻咽癌的不良预后因素[12]。但足量化疗并不意味着化疗疗程越长越好，化疗周期延长不仅可能导致肿瘤细胞抵抗，也使患者耐受性明显降低、延迟了初诊转移患者的局部治疗。中山大学对408例初诊转移鼻咽癌的研究显示>6周期化疗与≤6个周期相比并无明显生存获益(MST：27.6个月∶23.2个月，P＝0.099)[17]。此外，一项295例初诊寡转移鼻咽癌的研究同样发现，接受4～5个周期化疗患者，OS均优于>6周期或1～3个周期患者(P<0.01)[18]。因此，对初诊转移NPC患者，首先推荐4～6个周期的足疗程化疗。
+四、原发灶局部放疗
+尽管全身化疗是治疗基础，但并非所有转移性鼻咽癌都是广泛、不可治愈的。近年来原发灶放疗在转移性鼻咽癌中的作用越来越被重视。2017年对NCDB数据库718例转移性鼻咽癌的研究[19]发现，系统化疗联合原发灶放疗对比单纯化疗，无论在全组(中位OS期：21.4个月∶15.5个月，P<0.001)还是倾向值匹配评分后组(中位OS期：22.7个月∶16.0个月，P<0.001)中均有明显的生存优势。来自上海的679例初治转移NPC研究也证实原发灶放疗能够降低50%死亡风险(P<0.001)[20]。虽然没有大型Ⅲ期随机对照研究提供的Ⅰ类证据，但是近期大量的回顾性分析均认为联合原发灶放疗能够明显改善初治转移性鼻咽癌的预后[13,14,15,16,18,21,22,23,24]，尤其是在转移量相对少的寡转移鼻咽癌中或能获得根治性效果[13,14,18]。对转移性鼻咽癌原发灶处理的获益一方面来自原发灶放疗提高局控率的同时减少了再次转移的可能；另一方面可能原发灶治疗对转移灶的消退存在远隔效应[25]。NCDB研究对原发灶剂量的分析提示，放疗剂量>50 Gy组的患者中生存获益更明显，而剂量>70 Gy组预后最佳；其中10年以上长期生存的患者仅出现在原发灶放疗组[19]。另外几项关于放疗剂量的研究也得出相同结论[14,17,26]，原发区域根治性剂量(>66 Gy)对比低剂量(≤66 Gy)而言能够明显提高初治转移患者的OS。基于此，初诊转移鼻咽癌的原发灶处理，推荐联合高剂量放疗。
+五、转移灶处理
+初诊转移鼻咽癌包含多种情况，如单发转移，寡转移，多发转移等，处理方法及预后均不同，因此需要对不同类型转移灶分别处理。
+1．寡转移灶处理：
+肿瘤寡转移概念1995年被提出，2011作了更新修正[27,28]。寡转移是介于局部侵犯和广泛转移之间的过渡状态，转移能力较弱，转移部位和数目有限，通常定义为5个以内转移灶。这一理念在结直肠癌[29]、肺癌[30]等多种实体瘤诊疗中被证实。中山大学总结的263例初诊转移NPC中，≤5个转移灶患者5年OS明显优于多发转移患者(34%∶7%，P<0.01)[18]。此外，不论是单发转移或单器官转移其预后均明显优于多发转移(P＝0.016)[14]或多器官转移(P＝0.003)[26]，同样印证寡转移状态在鼻咽癌中的存在。鼻咽癌肝脏寡转移患者接受R0切除术后，1、3、5年OS和PFS分别为85.7%、64.2%、40.2%和70%、53%、18%，明显优于行肝动脉化疗栓塞患者(P＝0.039和0.007)[31]。另一项研究也认为肝脏转移灶的射频消融联合化疗能够提高初治肝转移鼻咽癌患者的生存，尤其是寡转移患者PFS及OS获益较>3个的患者更明显(P＝0.001)[12]。此外，回顾性研究发现，对不同转移部位和数目采取不同的局部处理方法，如骨转移灶局部放疗[32]、肺转移灶的手术或射频消融术[33]等，均能够带来不同程度的生存获益。与其他实体瘤相似，寡转移鼻咽癌在原发灶根治性治疗的基础上如能积极处理转移病灶，部分患者或能达到治愈。但转移灶处理的介入时间，尚无回顾性或前瞻性临床研究进行对比，暂无统一结论。但就目前临床经验而言，推荐在诱导化疗间歇期进行处理。
+2．多发转移灶处理：
+多发转移灶由于数目多、分布广，局部处理难度较大。且多发转移患者生存期短，目前并没有高级别证据证实积极处理能够带来生存获益；可根据临床实际情况酌情处理。对于出现症状的部分患者推荐以姑息减症处理为主[21]。
+六、鼻咽癌治疗后转移
+1．姑息化疗：
+根治性治疗后转移的NPC目前仍以系统的姑息化疗为主。临床常用的化疗方案是以铂类为基础的单药、两药或多药联合方案，不同的药物组合方案缓解率在20%～76%，但PF仍是主流方案。多药联合方案疗效稍有提高但因不良反应明显增加暂不做推荐[7]。2016年发表在Lancet的多中心随机临床试验采用吉西他滨取代氟尿嘧啶联合铂类治疗362例复发/转移鼻咽癌，19.4个月的中位随访期内GP组中位PFS较PF组提高了1.4个月(7.0个月∶5.6个月，P＝0.000)[34]；该研究奠定了GP方案在治疗后复发/转移NPC中一线治疗方案的地位。回顾性研究发现，不足4个周期的化疗仍是复治转移的不良预后因素；推荐4～6个周期GP方案化疗，根据患者情况进行进一步治疗[35]。
+2．寡转移：
+对于根治性治疗后出现的转移，寡转移灶的积极治疗仍有明显生存获益。马骏教授团队分析了105例治疗后肺寡转移患者，化疗±肺部转移灶的手术或放疗对比单纯化疗，能够提高LC，延长OS及PFS (P<0.001)，其中手术较放疗生存率更佳(96.4%∶88.0%，P<0.01)[36]。一项治疗后肝转移接受RFA的研究提示，局部转移灶联合RFA生存获益更明显[37]。骨转移联合放疗的临床研究也得到了相同结论[38]。福建省肿瘤医院197例治疗后转移鼻咽癌不同模式治疗方法分析，化疗联合转移灶局部放疗2年OS优于单纯化疗及最佳支持治疗(57.7%∶37.7%∶1.6%，P<0.001)[35]；这一生存优势在寡转移患者中更加明显。由于足量姑息化疗后可能出现转移灶CR，无法行局部处理，因此转移灶的处理宜化疗前或化疗同期进行，以争取最大程度消除病灶。由于寡转移概念的普及并不广泛，现有的部分研究并未明确对寡转移病灶处理的获益进行区分，仍需后续研究进一步证实。
+3．多发转移：
+治疗后出现的多发转移，以姑息减症处理为主，根据临床情况酌情考虑局部治疗。
+七、维持治疗
+化疗后联合维持治疗在转移性鼻咽癌中的应用多为回顾性或Ⅱ期小样本研究，证据级别不高。转移NPC在化疗后CR或PR采用FL (氟尿嘧啶＋亚叶酸钙)维持治疗，ORR可达80%～90%，OS为18～22个月[39,40]。由于氟尿嘧啶持续滴注的不便，在胃癌[41]、头颈部肿瘤[42]表现出较好的疗效和更低的不良反应的氟尿嘧啶类衍生物如卡培他滨、S-1等作为氟尿嘧啶口服替代制剂在复发转移头颈部临床中维持治疗效果优于无维持治疗者(P<0.001)[43]。近年来，靶向药物如厄罗替尼[44]、索拉非尼[45]等作为维持治疗也有疗效较好的小样本报道。但转移性NPC初始治疗有效后采用维持治疗的临床获益并不十分明确。目前临床试验有部分注册研究正在进行中以明确其价值，推荐优先进入临床试验。
+八、靶向治疗
+EGFR在鼻咽癌中表达率非常高，其中约50%过表达，高表达与肿瘤侵袭性、转移和放疗/化疗抵抗增加有关[46]。Ⅲ期EXTREME研究证实，西妥昔单抗联合铂类/氟尿嘧啶可显著提高复发和/或转移性头颈部癌患者的OS率，是标准的一线方案[47]。复旦附属肿瘤医院的回顾性研究也证实了西妥昔单抗联合化疗在复治转移性鼻咽癌中的安全性和有效性[48]。中国专家共识2013版建议在有条件的复发/转移鼻咽癌患者的一线化疗中，推荐加用西妥昔单抗(Ⅱb类证据)[4]。然而需要进一步前瞻性临床研究明确。2017年ASCO报道的前瞻性多中心的Ⅱ期临床研究，初步结果显示PF联合尼妥珠单抗治疗复治转移NPC近期疗效及治疗耐受性均较好。此外，小分子抑制剂如厄洛替尼、吉非替尼、索拉非尼等在复发转移鼻咽癌的应用也显示良好的近期疗效[49]，但病例数较少、证据级别不足。近年来，抗血管生成药物也给转移性鼻咽癌治疗带来了新的选择，浙江省肿瘤医院的前瞻性研究证实恩度联合化疗能够改善转移性鼻咽癌的预后，不良反应可耐受[50]。因此，无论是初诊或治疗后转移的鼻咽癌化疗过程中，均可酌情考虑联合靶向药物提高疗效。
+九、失败后的再治疗
+部分难治性转移NPC在接受放化疗后仍出现治疗失败或再次转移，治疗疗效较差。这部分患者需综合考虑既往治疗方案、治疗耐受性、患者意愿及经济情况进行优化选择。主要从以下几个方面继续治疗。
+1．更换治疗方案：
+对于一线治疗失败后的二三线治疗方案，不同文献中报道了不同化疗组合。两项临床研究中铂类治疗失败后的复发/转移NPC分别采用采用卡培他滨或S1单药口服挽救治疗近期疗效及安全性均较好[51,52]。口服制剂联合铂类或吉西他滨的两药方案在前瞻性Ⅱ期试验中也显示良好的有效性及耐受性，如顺铂治疗后进展的复发转移NPC采用S-1联合吉西他滨或奈达铂，ORR均>40%，1年OS>60%，且不良反应可耐受[10,53]。此外，紫杉醇联合卡铂联合吉西他滨三药方案等在多次化疗失败后患者中均有报道，获得较好的疗效[54]。
+2．联合靶向治疗：
+2005年发表于JCO的多中心Ⅱ期随机临床研究证实，西妥昔单抗联合卡铂治疗不仅能使60%铂类治疗失败的复发转移鼻咽癌病情得到控制，近期疗效良好且不增加卡铂的不良反应[55]。此外，在局部晚期鼻咽癌中取得很好疗效的尼妥珠单抗以及阿帕替尼等靶向药物也开展了多项在转移性鼻咽癌中的临床研究，但目前尚无明确结论。
+3．免疫治疗：
+免疫治疗是近年的研究热点和突破之一，PD-1/PDL-1更是给晚期患者带来了希望。KEYNOTE-028研究(非随机多队列Ⅰb期研究)入组27例复发转移NPC患者，接受帕姆单抗治疗2年或至PD，ORR为22.2%，6、12个月的PFS为50.0%、33.4%[56]。2017年CSCO报道的JS001在PDL-1阳性(19例)的难治/转移性NPC中ORR达42.1%，DCR达73.7%；不良事件均可控且可逆转。此外，包括EBV相关疫苗、重组腺病毒载体等在内的免疫治疗在转移性鼻咽癌中均有小样本探索性研究，但目前成熟可借鉴临床应用的研究较少，反复治疗失败的患者可优先考虑进入相关临床试验。
+4．最佳支持治疗：
+在肿瘤治疗过程中，其他相关支持治疗如营养支持、心理支持等也能够改善患者疗效。近期多项关于营养支持的临床研究均提示，不论在局部或转移性鼻咽癌患者的营养状况能够影响治疗结局[57,58]。因此在抗肿瘤治疗的同时不可忽视相应的支持治疗。图1为转移性鼻咽癌治疗专家共识流程图。
+点击查看大图
+图1
+转移性鼻咽癌治疗专家共识流程图
+图1
+转移性鼻咽癌治疗专家共识流程图
+委员会成员
+顾问：徐国镇(中国医学科学院肿瘤医院)、潘建基(福建省肿瘤医院)、卢泰祥(中山大学肿瘤防治中心)
+专家组成员
+专家组成员：胡超苏(复旦大学附属肿瘤医院)、郎锦义(四川省肿瘤医院)、林少俊(福建省肿瘤医院)、陈晓钟(浙江省肿瘤医院)、马骏(中山大学肿瘤防治中心)、朱小东(广西医科大学附属肿瘤医院)、高黎(中国医学科学院肿瘤医院)、李金高(江西省肿瘤医院)、夏云飞(中山大学肿瘤防治中心)、金风(贵州省肿瘤医院)、何侠(江苏省肿瘤医院)、胡国清(华中科技大学同济医学院同济医院)、席许平(湖南省肿瘤医院)、胡德胜(湖北省肿瘤医院)、石梅(第四军医大学西京医院)、陈韵彬(福建省肿瘤医院)、易俊林(中国医学科学院肿瘤医院)、王佩国(天津医科大学附属肿瘤医院)
+参考文献
+[1]
+JiangF, JinT, Feng XL，et al.
+Long-term outcomes and failure patterns of patients with nasopharyngeal carcinoma staged by magnetic resonance imaging in intensity-modulated radiotherapy era：the Zhejiang Cancer Hospital′s experience[J]．
+J Cancer Res Ther，
+2015，
+11(
+6)：
+179-
+184.
+DOI：10.4103/0973-1482.168181.
+[2]
+OuXM, ZhouX, ShiQ，et al.
+Treatment outcomes and late toxicities of 869 patients with nasopharyngeal carcinoma treated with definitive intensity modulated radiation therapy：new insight into the value of total dose of cisplatin and radiation boost[J]．
+Oncotarget，
+2015，
+6(
+35)：
+38381-
+38397.
+DOI：10.18632/oncotarget.5420.
+[3]
+LeeAWM, NgWT, ChanLLK，et al.
+Evolution of treatment for nasopharyngeal cancer–success and setback in the intensity-modulated radiotherapy era[J]．
+Radiother Oncol，
+2014，
+110(
+3)：
+377-
+384.
+DOI：10.1016/j.radonc.2014.02.003.
+[4]
+LangJY, GaoL, GuoY，et al.
+Comprehensive treatment of squamous cell cancer of head and neck：Chinese expert consensus 2013[J]．
+Future Oncol，
+2014，
+10(
+9)：
+1635-
+1648.
+[5]
+ChuaMLK, WeeJTS, HuiEP，et al.
+Nasopharyngeal carcinoma[J]．
+Lancet，
+2016，
+387(
+10022)：
+1012-
+1024.
+DOI：10.1016/S0140-6736(15)00055-0.
+[6]
+LeeAWM, NgWT, ChanLK，et al.
+The strength/weakness of the AJCC/UICC staging system (7th edition) for nasopharyngeal cancer and suggestions for future improvement[J]．
+Oral Oncol，
+2012，
+48(
+10)：
+1007-
+1013.
+DOI：10.1016/j.oraloncology.2012.03.022.
+[7]
+LeeV, KwongD, LeungTW，et al.
+Palliative systemic therapy for recurrent or metastatic nasopharyngeal carcinoma–How far have we achieved？[J]．
+Crit Rev OncolHematol，
+2017，
+114：
+13-
+23.
+DOI：10.1016/j.critrevonc.2017.03.030.
+[8]
+AuE, AngPT.
+A phase Ⅱ trial of 5-fluorouracil and cisplatinum in recurrent or metastatic nasopharyngeal carcinoma[J]．
+Ann Oncol，
+1994，
+5(
+1)：
+87-
+89.
+DOI：10.1093/oxfordjournals.annonc.a058703.
+[9]
+ChiKH, ChanWK, CooperDL，et al.
+A phase Ⅱ study of outpatient chemotherapy with cisplatin，5-fluorouracil，and leucovorin in nasopharyngeal carcinoma[J]．
+Cancer，
+1994，
+73(
+2)：
+247-
+252.
+DOI：3.0.CO;2-7" xlink:type="simple">10.1002/1097-0142(19940115)73:2<247::AID-CNCR2820730203>3.0.CO;2-7.
+[10]
+PengPJ, OuXQ, LiaoH，et al.
+Phase Ⅱ study of gemcitabine plus S-1 chemotherapy in recurrent and metastatic nasopharyngeal carcinoma patients after failure of platinum-based chemotherapy[J]．
+Ther Adv Med Oncol，
+2016，
+8(
+3)：
+153-
+159.
+DOI：10.1177/1758834016637592.
+[11]
+ChuaDTT, ShamJST, AuGKH.
+A phase Ⅱ study of docetaxel and cisplatin as first-line chemotherapy in patients with metastatic nasopharyngeal carcinoma[J]．
+Oral Oncol，
+2005，
+41(
+6)：
+589-
+595.
+DOI：10.1016/j.oraloncology.2005.01.008.
+[12]
+LiW, BaiYT, WuM，et al.
+Combined CT-guided radiofrequency ablation with systemic chemotherapy improves the survival for nasopharyngeal carcinoma with oligometastasis in liver：propensity score matching analysis[J]．
+Oncotarget，
+2017，
+8(
+32)：
+52132-
+52141.
+DOI：10.18632/oncotarget.10383.
+[13]
+田允铭，韩非，曾雷，等．
+寡转移状态下初治鼻咽癌的预后及治疗模式探讨[J]．
+中华放射肿瘤学杂志，
+2016，
+25(
+11)：
+1156-
+1160.
+DOI：10.3760/cma.j.issn.1004-4221.2016.11.003.
+TianYM, HanF, ZengL，et al. Prognosis and treatment of newly diagnosed nasopharyngeal carcinoma with oligometastases[J]．Chin J Radiat Oncol，2016，25(11)：1156-1160.DOI：10.3760/cma.j.issn.1004-4221.2016.11.003.
+[14]
+HuSX, HeXH, DongM，et al.
+Systemic chemotherapy followed by locoregional definitive intensity-modulated radiation therapy yields prolonged survival in nasopharyngeal carcinoma patients with distant metastasis at initial diagnosis[J]．
+Med Oncol，
+2015，
+32(
+9)：
+224.
+DOI：10.1007/s12032-015-0663-2.
+[15]
+ZengL, TianYM, HuangY，et al.
+Retrospective analysis of 234 nasopharyngeal carcinoma patients with distant metastasis at initial diagnosis：therapeutic approaches and prognostic factors[J]．
+PLoS One，
+2014，
+9(
+9)：
+e108070.
+DOI：10.1371/journal.pone.0108070.
+[16]
+汪琛，李金高，邹嵩，等．
+初治转移性鼻咽癌预后因素及治疗模式探讨[J]．
+中山大学学报(医学科学版)，
+2014，
+35(
+6)：
+880-
+888.
+DOI：10.13471/j.cnki.j.sun.yat-sen.univ(med.sci).2014.0146.
+WangS, LiJG, ZouS，et al. The early cure metastatic prognostic factors and treatment of nasopharyngeal carcinoma (NPC) model discussed[J]．J Sun Yat-sen Univ (Med Sci)，2014，35(6)：880-888.DOI：10.13471/j.cnki.j.sun.yat-sen.univ(med.sci).2014.0146.
+[17]
+ChenMY, JiangR, GuoL，et al.
+Locoregional radiotherapy in patients with distant metastases of nasopharyngeal carcinoma at diagnosis[J]．
+Chin J Cancer，
+2013，
+32(
+11)：
+604-
+613.
+DOI：10.5732/cjc.013.10148.
+[18]
+TianYH, ZouWH, XiaoWW，et al.
+Oligometastases in AJCC stage ⅠVc nasopharyngeal carcinoma：a subset with betteroverall survival[J]．
+Head Neck，
+2016，
+38(
+8)：
+1152-
+1157.
+DOI：10.1002/hed.24345.
+[19]
+RusthovenCG, LanningRM, JonesBL，et al.
+Metastatic nasopharyngeal carcinoma：patterns of care and survival for patients receiving chemotherapy with and without local radiotherapy[J]．
+RadiotherOncol，
+2017，
+124(
+1)：
+139-
+146.
+DOI：10.1016/j.radonc.2017.03.019.
+[20]
+HuJY, KongL, GaoJ，et al.
+Use of radiation therapy in metastatic nasopharyngeal cancer improves survival：a SEER analysis[J]．
+Sci Rep，
+2017，
+7(
+1)：
+721.
+DOI：10.1038/s41598-017-00655-1.
+[21]
+ZouX, YouR, LiuH，et al.
+Establishment and validation of M1 stage subdivisions forde novometastatic nasopharyngeal carcinoma to better predict prognosis and guide treatment[J]．
+Eur J Cancer，
+2017，
+77：
+117-
+126.
+DOI：10.1016/j.ejca.2017.02.029.
+[22]
+JiangR, YouR, PeiXQ，et al.
+Development of a ten-signature classifier using a support vector machine integrated approach to subdivide the M1 stage into M1a and M1b stages of nasopharyngeal carcinoma with synchronous metastases to better predict patients′ survival[J]．
+Oncotarget，
+2016，
+7(
+3)：
+3645-
+3657.
+DOI：10.18632/oncotarget.6436.
+[23]
+蓝玉宏，田允铭，白力，等．
+初治转移鼻咽癌疗后预后评分模型建立及分层治疗研究[J]．
+中华放射肿瘤学杂志，
+2015，
+24(
+4)：
+421-
+426.
+DOI：10.3760/cma.j.issn.1004-4221.2015.04.017.
+LanYH, TianYM, BaiL，et al. Post-treatment prognostic score model establishment and stratified therapy for newly diagnosed metastatic nasopharyngeal carcinoma[J]．Chin J Radiat Oncol，2015，24(4)：421-426.DOI：10.3760/cma.j.issn.1004-4221.2015.04.017.
+[24]
+LiangY, BuJG, ChengJL，et al.
+Selective radiotherapy after distant metastasis of nasopharyngeal carcinoma treated with dose-dense Cisplatin plus Fluorouracil[J]．
+Asian Pac J Cancer Prev，
+2015，
+16(
+14)：
+6011-
+6017.
+DOI：10.7314/APJCP.2015.16.14.6011.
+[25]
+GoldenEB, ChhabraA, ChachouaA，et al.
+Local radiotherapy and granulocyte-macrophage colony-stimulating factor to generate abscopal responses in patients with metastatic solid tumours：a proof-of-principle trial[J]．
+Lancet Oncol，
+2015，
+16(
+7)：
+795-
+803.
+DOI：10.1016/S1470-2045(15)00054-6.
+[26]
+LinSJ, ThamIWK, PanJJ，et al.
+Combined high-dose radiation therapy and systemic chemotherapy improves survivalin patients with newly diagnosed metastatic nasopharyngeal cancer[J]．
+Am J Clin Oncol，
+2012，
+35(
+5)：
+474-
+479.
+DOI：10.1097/COC.0b013e31821a9452.
+[27]
+WeichselbaumRR, HellmanS．
+Oligometastases revisited[J]．
+Nat Rev Clin Oncol，
+2011，
+8(
+6)：
+378-
+382.
+DOI：10.1038/nrclinonc.2011.44.
+[28]
+HellmanS, WeichselbaumRR.
+Oligometastases[J]．
+J Clin Oncol，
+1995，
+13(
+1)：
+8-
+10.
+DOI：10.1200/JCO.1995.13.1.8.
+[29]
+FongYM, FortnerJ, SunRL，et al.
+Clinical score for predicting recurrence after hepatic resection for metastatic colorectal cancer：analysis of 1001 consecutive cases[J]．
+Ann Surg，
+1999，
+230(
+3)：
+309-
+321.
+DOI：10.1097/00000658-199909000-00004.
+[30]
+PastorinoU, BuyseM, FriedelG，et al.
+Long-term results of lung metastasectomy：prognostic analyses based on 5206 cases[J]．
+J Thorac Cardiovasc Surg，
+1997，
+113(
+1)：
+37-
+49.
+DOI：10.1016/S0022-5223(97)70397-0.
+[31]
+HuangJ, LiQJ, ZhengY，et al.
+Partial hepatectomy for liver metastases from nasopharyngeal carcinoma：a comparative study and review of the literature[J]．
+BMC Cancer，
+2014，
+14：
+818.
+DOI：10.1186/1471-2407-14-818.
+[32]
+ShenLJ, DongJ, LiS，et al.
+M1 stage subdivision and treatment outcome of patients with bone-only metastasisof nasopharyngeal carcinoma[J]．
+Oncologist，
+2015，
+20(
+3)：
+291-
+298.
+DOI：10.1634/theoncologist.2014-0206.
+[33]
+PanCC, WuPH, YuJR，et al.
+Comparative survival analysis in patients with pulmonary metastases from nasopharyngeal carcinoma treated with radiofrequency ablation[J]．
+Eur J Radiol，
+2012，
+81(
+4)：
+e473-
+e477.
+DOI：10.1016/j.ejrad.2011.05.037.
+[34]
+ZhangL, HuangY, HongSD，et al.
+Gemcitabine plus cisplatin versus fluorouracil plus cisplatin in recurrent or metastatic nasopharyngeal carcinoma：a multicentre，randomised，open-label，phase 3 trial[J]．
+Lancet，
+2016，
+388(
+10054)：
+1883-
+1892.
+DOI：10.1016/S0140-6736(16)31388-5.
+[35]
+ZhengW, ZongJF, HuangCB，et al.
+Multimodality treatment may improve the survival rate of patients with metastatic nasopharyngeal carcinoma with good performance status[J]．
+PLoS One，
+2016，
+11(
+1)：
+e0146771.
+DOI：10.1371/journal.pone.0146771.
+[36]
+MaJ, WenZS, LinP，et al.
+The results and prognosis of different treatment modalities for solitary metastatic lung tumor from nasopharyngeal carcinoma：a retrospective study of 105 cases[J]．
+Chin J Cancer，
+2010，
+29(
+9)：
+787-
+795.
+DOI：10.5732/cjc.010.10098.
+[37]
+JinY, CaiYC, CaoY，et al.
+Radiofrequency ablation combined with systemic chemotherapy in nasopharyngeal carcinoma liver metastases improves response to treatment and survival outcomes[J]．
+J Surg Oncol，
+2012，
+106(
+3)：
+322-
+326.
+DOI：10.1002/jso.23034.
+[38]
+LuTZ, GuoQJ, CuiXF，et al.
+Prognostic evaluation of nasopharyngeal carcinoma with bone-only metastasis after therapy[J]．
+Yonsei Med J，
+2016，
+57(
+4)：
+840-
+845.
+DOI：10.3349/ymj.2016.57.4.840.
+[39]
+LeongSS, WeeJ, RajanS，et al.
+Triplet combination of gemcitabine，paclitaxel，and carboplatin followed by maintenance 5-fluorouracil and folinic acid in patients with metastatic nasopharyngeal carcinoma[J]．
+Cancer，
+2008，
+113(
+6)：
+1332-
+1337.
+DOI：10.1002/cncr.23687.
+[40]
+HongRL, SheenTS, KoJY，et al.
+Induction with mitomycin C，doxorubicin，cisplatin and maintenance with weekly 5-fluorouracil，leucovorin for treatment of metastatic nasopharyngeal carcinoma：a phase Ⅱ study[J]．
+Br J Cancer，
+1999，
+80(
+12)：
+1962-
+1967.
+DOI：10.1038/sj.bjc.6690627.
+[41]
+KoizumiW, NaraharaH, HaraT，et al.
+S-1 plus cisplatin versus S-1 alone for first-line treatment of advanced gastriccancer (SPIRITS trial)：a phase Ⅲ trial[J]．
+Lancet Oncol，
+2008，
+9(
+3)：
+215-
+221.
+DOI：10.1016/S1470-2045(08)70035-4.
+[42]
+YokotaT, OnozawaY, BokuN，et al.
+S-1 monotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck after progression on platinum-based chemotherapy[J]．
+Jpn J Clin Oncol，
+2011，
+41(
+12)：
+1351-
+1357.
+DOI：10.1093/jjco/hyr147.
+[43]
+KimHS, KimHR, KimGM，et al.
+The efficacy and toxicity of S-1 and cisplatin as first-line chemotherapy in recurrent or metastatic head and neck squamous cell carcinoma[J]．
+Cancer Chemother Pharmacol，
+2012，
+70(
+4)：
+539-
+546.
+DOI：10.1007/s00280-012-1933-8.
+[44]
+YouB, Le TourneauC, ChenEX，et al.
+A phase Ⅱ trial of Erlotinib as maintenance treatment after gemcitabine plus platinum-based chemotherapy in patients with recurrent and/or metastatic nasopharyngeal carcinoma[J]．
+Am J Clin Oncol，
+2012，
+35(
+3)：
+255-
+260.
+DOI：10.1097/COC.0b013e31820dbdcc.
+[45]
+XueC, HuangY, HuangPY，et al.
+Phase Ⅱ study of sorafenib in combination with cisplatin and 5-fluorouracil to treat recurrent or metastatic nasopharyngeal carcinoma[J]．
+Ann Oncol，
+2013，
+24(
+4)：
+1055-
+1061.
+DOI：10.1093/annonc/mds581.
+[46]
+MaBBY, PoonTCW, ToKF，et al.
+Prognostic significance of tumor angiogenesis，Ki 67，p53 oncoprotein，epidermalgrowth factor receptor and HER2 receptor protein expression in undifferentiated nasopharyngeal carcinoma—a prospective study[J]．
+Head Neck，
+2003，
+25(
+10)：
+864-
+872.
+DOI：10.1002/hed.10307.
+[47]
+VermorkenJB, MesiaR, RiveraF，et al.
+Platinum-based chemotherapy plus cetuximab in head and neck cancer[J]．
+N Engl J Med，
+2008，
+359(
+11)：
+1116-
+1127.
+DOI：10.1056/NEJMoa0802656.
+[48]
+XuTT, OuXM, ShenCY，et al.
+Cetuximab in combination with chemoradiotherapy in the treatment of recurrent and/or metastatic nasopharyngeal carcinoma[J]．
+Anti-Cancer Drugs，
+2016，
+27(
+1)：
+66-
+70.
+DOI：10.1097/CAD.0000000000000294.
+[49]
+ElserC, SiuLL, WinquistE，et al.
+Phase Ⅱ trial of Sorafenib in patients with recurrent or metastatic squamous cell carcinoma of the head and neck or nasopharyngeal carcinoma[J]．
+J Clin Oncol，
+2007，
+25(
+24)：
+3766-
+3773.
+DOI：10.1200/JCO.2006.10.2871.
+[50]
+JinT, LiB, ChenXZ.
+A phase Ⅱ trial of Endostar combined with gemcitabine and cisplatin chemotherapy in patients with metastatic nasopharyngeal carcinoma (NCT01612286)[J]．
+Oncol Res，
+2013，
+21(
+6)：
+317-
+323.
+DOI：10.3727/096504014X13983417587401.
+[51]
+PengPJ, ChengH, OuXQ，et al.
+Safety and efficacy of S-1 chemotherapy in recurrent and metastatic nasopharyngeal carcinoma patients after failure of platinum-based chemotherapy：multi-institutional retrospective analysis[J]．
+Drug Des，Devel Ther，
+2014，
+8：
+1083-
+1087.
+DOI：10.2147/DDDT.S67592.
+[52]
+ChuaDTT, ShamJST, AuGKH.
+A phase Ⅱ study of capecitabine in patients with recurrent and metastatic nasopharyngeal carcinoma pretreated with platinum-based chemotherapy[J]．
+Oral Oncol，
+2003，
+39(
+4)：
+361-
+366.
+DOI：10.1016/S1368-8375(02)00120-3.
+[53]
+PengPJ, LvBJ, WangZH，et al.
+Multi-institutional prospective study of nedaplatin plus S-1 chemotherapy in recurrent and metastatic nasopharyngeal carcinoma patients after failure of platinum-containing regimens[J]．
+Ther Adv Med Oncol，
+2017，
+9(
+2)：
+68-
+74.
+DOI：10.1177/1758834016675099.
+[54]
+LeongSS, WeeJ, TayMH，et al.
+Paclitaxel，carboplatin，and gemcitabine in metastatic nasopharyngeal carcinoma：a Phase Ⅱ trial using a triplet combination[J]．
+Cancer，
+2005，
+103(
+3)：
+569-
+575.
+DOI：10.1002/cncr.20804.
+[55]
+ChanATC, HsuMM, GohBC，et al.
+Multicenter，phase Ⅱ study of Cetuximab in combination with carboplatin in patients with recurrent or metastatic nasopharyngeal carcinoma[J]．
+J Clin Oncol，
+2005，
+23(
+15)：
+3568-
+3576.
+DOI：10.1200/JCO.2005.02.147.
+[56]
+HsuC, LeeSH, EjadiS，et al.
+Safety and antitumor activity of pembrolizumab in patients with programmed death-ligand 1-positive nasopharyngeal carcinoma：results of the KEYNOTE-028 study[J]．
+J Clin Oncol，
+2017.
+DOI：10.1200/JCO.2017.73.3675.
+[57]
+ShenLJ, ChenC, LiBF，et al.
+High weight loss during radiation treatment changes the prognosis in under-/normal weight nasopharyngeal carcinoma patients for the worse：a retrospective analysis of 2433 cases[J]．
+PLoS One，
+2013，
+8(
+7)：
+e68660.
+DOI：10.1371/journal.pone.0068660.
+[58]
+HuangPY, WangCT, CaoKJ，et al.
+Pretreatment body mass index as an independent prognostic factor in patients with locoregionally advanced nasopharyngeal carcinoma treated with chemoradiotherapy：findings from a randomised trial[J]．
+Eur J Cancer，
+2013，
+49(
+8)：
+1923-
+1931.
+DOI：10.1016/j.ejca.2013.01.027.
+贡献者信息
+中国抗癌协会鼻咽癌专业委员会
+陈晓钟
+310022 杭州，浙江省肿瘤医院头颈放疗科
+李金高
+330029 南昌，江西省肿瘤医院放疗科
+林少俊
+350005 福州，福建省肿瘤医院放疗科
+胡超苏
+200032 上海，复旦大学附属肿瘤医院放疗科
+通信作者
+陈晓钟
+Email：
+cxzfyun@sina.com
+关键词
+肿瘤转移，鼻咽/治疗;
+共识;
+历史
+出版日期：2018-01-15
+收稿日期：2017-11-28
+Consensus
+Expert consensus on the treatment of metastasis nasopharyngeal carcinoma
+Committee of Nasopharyngeal Cancer of Chinese Anti-Cancer Association,  Chen Xiaozhong,  Li Jingao,  Lin Shaojun,  Hu Chaosu
+Published
+2018-01-15
+Cite as
+Chin J Radiat Oncol, 2018,27(1): 23-28. DOI: 10.3760/cma.j.issn.1004-4221.2018.01.005
+Abstract
+As the application of intensity modulated-radiotherapy and improvement of local control about nasopharyngeal carcinoma, metastases have been an urgent problem needed to be solved. Due to the great heterogeneities of metastasis NPC, the treatment strategies and prognoses are very different. At present, no treatment guideline has been achieved in this field. This consensus tries to give some directions on the treatment of metastasis NPC.We discuss and summarize treatment models for the metastases at first diagnosis, after radical treatment and after failure of platinum-based chemotherapy respectively by reviewing relevant literatures and clinical trials. For some clinically significant problems without enough supports of clinical data, we draft out it according clinical experiences of experts, in order to reach a consensus about the best treatment strategies for metastasis nasopharyngeal carcinoma.
+Key words:
+Neoplasms metastasis, nasopharyngeal/therapy; Consensus
+Contributor Information
+Committee of Nasopharyngeal Cancer of Chinese Anti-Cancer Association
+Chen Xiaozhong
+Department of Radiation Oncology, Zhejian Cancer Hospital, Hangzhou 310022, China
+Li Jingao
+Department of Radiation Oncology, Jiangxi Cancer Hospital, Nanchang 330029, China
+Lin Shaojun
+Department of Radiation Oncology, Fujian Cancer Hospital, Fuzhou 350005, China
+Hu Chaosu
+Department of Radiation Oncology, Cancer Hospital, Fuda University, Shanghai 200032, China
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+图1
+转移性鼻咽癌治疗专家共识流程图
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华放射肿瘤学杂志2018年27卷1期
+文    题：转移性鼻咽癌治疗专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华放射肿瘤学杂志2018年27卷1期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

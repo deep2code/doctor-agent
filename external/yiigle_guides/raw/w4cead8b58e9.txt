@@ -1,0 +1,696 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/2019%E5%88%9B%E4%BC%A4%E6%80%A7%E4%BC%91%E5%85%8B%E6%80%A5%E6%95%91%E5%A4%8D%E8%8B%8F%E5%88%9B%E6%96%B0%E6%8A%80%E6%9C%AF%E4%B8%B4%E5%BA%8A%E5%BA%94%E7%94%A8%E4%B8%AD%E5%9B%BD%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 2019创伤性休克急救复苏创新技术临床应用中国专家共识 - 中华危重病急救医学
+# 发布方/日期: 急诊医学科，2019-03-10
+
+2019创伤性休克急救复苏创新技术临床应用中国专家共识
+中国研究型医院学会卫生应急学专业委员会，心肺复苏学专业委员会
+河南省医院协会心肺复苏专业委员会
+中华危重病急救医学, 2019,31(3) : 257-263. DOI: 10.3760/cma.j.issn.2095-4352.2019.03.001
+创伤性休克是严重威胁人类生命健康的一种急症，是创伤因素造成的有效循环血容量减少，引起细胞缺氧，进而导致多器官功能障碍或衰竭的一种综合征。高渗晶胶复合液可通过渗透压梯度将肿胀细胞的细胞内液和组织间液转移至血管内，以自体输液的形式快速主动扩充血容量，霍姆复合液作为其典型代表，具有用量少、起效快，且不增加机体负荷等特点而被应用于创伤性休克的临床治疗。创伤导致的呼吸、心搏骤停不同于非创伤原因导致的心搏骤停，低血容量是导致创伤患者心搏骤停的主要原因，应积极采取有效的复苏措施如及时输注晶胶溶液或血制品恢复有效循环血容量，同时进行心肺复苏（CPR），目前最常用的是胸外按压CPR。胸外按压CPR有一定的局限性，临床研究显示，至少有1/3被救者发生胸肋骨骨折，且传统CPR中口对口人工呼吸存在疾病传播的危险，不易被施救者接受，这些都阻碍了传统CPR的有效实施。针对传统CPR的诸多缺点，腹部按压法倍受关注，然而腹部按压在弥补了传统CPR不足的同时，亦有不理想之处,比如每次腹部按压放松时，膈肌自然下降回至原位，不能最大限度地增加膈肌移动幅度，故影响了有效的循环和呼吸。腹部提压CPR仪通过吸盘吸附于腹部，利用手柄有节律地提拉和按压，在规避胸肋骨骨折等并发症发生的同时，对腹部实施的主动提拉使膈肌下移，充分发挥了"胸泵"和"肺泵"作用，真正达到了心、肺复苏并举之目的。对于存在传统胸外按压CPR禁忌证（如胸部创伤）患者可进行腹部提压CPR，为患者赢得存活的机会，进而提高患者的生存率。笔者根据国内本领域专家的建议及临床救治经验，结合国内外文献报道，特制定本专家共识。
+1 创伤性休克及CPR现状
+创伤一直伴随着人类社会发展的全过程。随着道路交通事故、工矿灾难、火灾等人为事故的增多，地震、海啸、泥石流等自然灾难的频频出现，创伤已经成为危害国民健康的主要问题之一。据世界卫生组织（WHO）统计，全球约10％的死亡和16％的致残病例因创伤所致，同时创伤也是全球40岁以下人群的首要死因[1]。美国每年有超过6万例患者死于创伤失血性休克，而在全球范围内则超过了150万例[2]。随着现代化生产、生活不断向复杂化、高速化发展，严重创伤的发生率日益增加，创伤性休克的发生率也随之增高。创伤性休克是由于机体遭受剧烈的暴力打击，引起重要器官损伤、大出血，使机体有效循环血容量锐减，组织微循环灌注不足，以及创伤后剧烈疼痛、恐惧等多种因素形成的机体代偿失调综合征。创伤性休克已威胁到人类的生命健康，降低了人类的生活和工作质量，显著降低了社会劳动力，影响了社会的发展与稳定。降低创伤性休克早期病死率，提高救治成功率和减少后期伤残率的关键，在于提高专业技术人员对创伤性休克的认识及新技术的掌握。目前国内外在复苏液体的选择上一直存在争议，晶体液和胶体液是单独还是联合使用，如何正确选择晶胶液配比，目前尚无统一认识，究竟采用何种晶胶液配比仍有待进一步研究。此外，当前临床在休克容量复苏扩容液的浓度和速度问题上仍存在严重争议。
+选择合适的扩容液，明确滴速，建立多发伤的急诊院前救治体系，是降低院前病死率的重要手段。选择合理的复苏液体是容量复苏成功的关键。一个理想的复苏溶液应满足以下几个要素：①能快速恢复血浆容量，改善微循环灌流和氧供；②有携氧功能；③无明显的副作用，如免疫反应等；④易储存、运输，且价格便宜。高渗晶胶复合液的代表霍姆复合液，即高渗氯化钠羟乙基淀粉40注射液，其组成为4.2%氯化钠和7.6%羟乙基淀粉注射液，渗透压相当于等渗晶体液的4.5倍；胶体为平均相对分子质量40 000的羟乙基淀粉，属于小分子质量范围，作用是提高胶体渗透压。高渗氯化钠可通过渗透压梯度将肿胀细胞的细胞内液和组织间液转移至血管内，以自体输液的形式快速主动扩充血容量；羟乙基淀粉利用胶体渗透压的作用，维持血管内水分，增强扩容的效果，长时间稳定有效循环血容量。霍姆复合液的渗透浓度是1 400 mmol/L，生理盐水的渗透浓度是308 mmol/L；等渗液的扩容效果不佳（最多1 mL扩容1 mL），高渗液扩容效果较好（1 mL霍姆复合液大概可以扩容3～4 mL），有较高的扩容比。利用霍姆复合液的临床特点对急诊急救中常见的急性创伤性休克患者进行院前紧急液体复苏，可为急性创伤性休克液体复苏治疗提供新方法。
+CPR是恢复心脏规律舒缩和泵血功能的主要抢救方法，胸外按压CPR一直沿用至今。但是经过50余年的探索，CPR的自主循环恢复率仍不理想。胸外按压CPR是临床最常用的心搏骤停救治措施，传统CPR口对口人工呼吸存在疾病传播的危险，操作时需要一人负责人工呼吸，另一人负责胸外按压，这些都成为了院前CPR实施的阻碍。对于心搏骤停患者，无条件及时建立人工气道，尤其是在经气管插管连接简易呼吸气囊通气尚未实施前，尽早维持有效的肺通气极为重要。另外，在急诊中常遇到存在多发胸肋骨骨折或"连枷胸"的心搏骤停患者，实施胸外按压可致二次损伤，属于胸外按压禁忌证。而且此时胸廓复张受限，使"心泵"和"胸泵"机制不能得到理想发挥，严重影响了复苏效果。针对上述问题，王立祥教授发明、李静博士转化生产、张思森博士课题组等进行临床试验，证实腹部提压CPR根据"心泵""胸泵""腹泵"理论机制来建立人工循环,并可同步提供有效的人工通气，为临床实现心肺一体化复苏提供了理论依据。
+2 创伤性休克及腹部提压CPR的病理生理机制
+创伤性休克的主要特点为机体失血量过多，机体有效循环血容量不足[3]。人们用了不止1个世纪的时间才理解严重出血的免疫反应[4]，同时对创伤出血引起的灌注不足和损伤在细胞、组织及器官水平发生的复杂变化有了较清晰的认识。创伤引起有效循环血容量下降、红细胞和促凝血因子减少，同时还激活了止血和纤维蛋白溶解系统，代偿机制与医源性因素共同导致了凝血功能障碍、低体温、进行性酸中毒，造成了进一步的病理性内环境紊乱，最终导致死亡。创伤性休克患者组织损伤加重了凝血功能障碍[5]。在细胞水平，创伤发生后，当氧输送不能满足有氧代谢的氧需求时就会发生休克。细胞由有氧代谢转变为无氧代谢，随着氧债的不断增加，乳酸、氧自由基等开始积聚[6]。在组织水平，血容量下降和血管收缩导致肾脏、肝脏、骨骼肌等器官灌注不足造成损伤，进一步导致多器官功能衰竭，在极度失血时引起心搏骤停，导致脑和心肌灌注不足，很快出现脑缺氧和恶性心律失常[7]。随着出血和休克接连发生，在出血部位，凝血系统和血小板被激活，形成血栓[8]，出血部位远端为了预防微血管血栓形成则纤溶系统活动增加[9]。然而，将近50%的创伤患者存在高凝纤溶停止[10]。血小板耗竭、因贫血引起血小板凝集减少、血小板活性降低等均可导致凝血功能障碍，并增加病死率[11,12,13,14]。医源性因素可进一步加剧创伤患者的凝血功能障碍[15]。过多的晶体液输注可稀释携氧能力，使红细胞和凝血因子浓度降低。输注冰盐水对脑功能有一定保护作用，但是会加剧出血、能量储存衰竭及环境暴露引起的热量丢失，还可导致凝血系统相关酶的活性下降[16]。另外，输注偏酸性晶体液会加重由低灌注引起的酸中毒，并进一步减弱凝血因子的作用，导致凝血障碍、低体温及酸中毒的"死亡三联征"[17]。
+腹部提压CPR是根据"心泵""胸泵""肺泵""腹泵"理论机制来建立人工循环与通气。腹部按压时，腹内压增大，膈肌上移，胸腔内容积减小，胸内压增大，心脏受压容积减小，发挥"心泵"作用，产生前向血流，恢复心排血量，同时促使腹部器官中的血液（占人体血液供应的25%）流入心脏。提拉腹部时，腹腔压力骤降，膈肌下移，胸腔容积增加，胸腔负压减小，亦充分发挥了"胸泵"机制，心脏舒张，血液回流，为心脏泵血作准备。腹部按压和提拉过程中亦可增加腹主动脉的阻力，增加冠状动脉灌注压（CPP）。此外，腹部按压时，肺部受压导致气体排出，提拉腹部时，空气进入肺部，发挥了"肺泵"作用[18]。
+3 创伤性休克与腹部提压CPR的适应证及禁忌证
+创伤性休克液体复苏适应证：休克指数>0.5或收缩压<90 mmHg（1 mmHg＝0.133 kPa）或舒张压<60 mmHg患者。禁忌证：①过敏体质及对复苏液过敏者；②妊娠妇女；③肝肾功能障碍及凝血功能障碍者；④各种慢性疾病终末期或原有器官功能障碍者；⑤合并颅脑损伤者。
+早期应用腹部提压CPR救治胸部创伤性心搏骤停、呼吸肌无力及呼吸抑制的全麻患者，实现了不间断人工循环状态下给予同步通气，适应证：①胸廓畸形、胸部外伤、血气胸、胸肋骨骨折、主动脉瘤造成的心搏骤停患者；②胸外按压过程中出现肋骨骨折和（或）心包穿刺、肺部穿刺形成气胸、血气胸等严重并发症的呼吸、心搏骤停患者；③继发于溺水或气道堵塞所导致的窒息性呼吸、心搏骤停患者；④开胸术中、术后及心脏、肺脏等胸腔器官手术中、术后出现的呼吸、心搏骤停，比如支架植入手术、冠状动脉旁路移植术、瓣膜置换术、肺叶切除术等患者；⑤主动脉夹层动脉瘤造成的急性呼吸、心搏骤停患者；⑥严重呼吸功能障碍尤其是气道阻塞（血液、痰液、异物）引发的呼吸、心搏骤停患者；⑦出现心搏骤停后需立即进行通气而因各种原因又无法进行口对口人工呼吸或气管插管的患者；⑧各种神经肌肉疾病造成的呼吸肌麻痹，需要立即进行呼吸支持的患者，可争取有创呼吸机气管插管、呼吸机参数设置时间；⑨严重颅脑损伤、神经功能障碍造成的呼吸中枢功能瘫痪，需要即刻床旁给予呼吸支持的患者（伴有或不伴有胸外按压禁忌证）；⑩胸外按压容易发生胸肋骨骨折的中老年呼吸、心搏骤停患者；各种消化疾病引起食管和胃内容物反流导致窒息患者；喉部外伤、喉头水肿或窒息误吸导致呼吸、心搏骤停者；胸部烧伤腹部完好的呼吸、心搏骤停患者；气管插管困难的烧伤患者早期体外腹式呼吸支持；不适于进行胸外按压的突发呼吸、心搏骤停患者。
+如果患者存在如下情况，不建议选择腹部提压CPR治疗，即禁忌证：①无应用腹部提压CPR的适应证，如腹部外伤、膈肌破裂；②腹腔器官出血、腹主动脉瘤、中晚期妊娠、肠梗阻、大量腹水、腹部巨大肿物（如腹腔器官癌肿、巨大卵巢囊肿）等状况；③其他不适合使用腹部提压CPR仪的情况，如儿童和体重<40 kg或>150 kg者。
+4 创伤性休克液体复苏与腹部提压CPR操作
+4.1 液体复苏：
+创伤性休克的治疗首选晶胶复合液，霍姆复合液是其代表，其主要成分是4.2%氯化钠和7.6%羟乙基淀粉，渗透浓度为1 440 mmol/L，主要是通过合理的晶体与胶体配比，同时提高机体晶体与胶体的渗透压，迅速增加机体的有效循环血容量，减少组织细胞水肿，使传统的液体复苏不能解决的细胞外液减少和细胞内液增加的问题得以解决。同时，高渗氯化钠可以促进机体Na+-K+-ATP酶活性的恢复，增加心肌细胞的收缩力，而且高渗晶胶复合液中的胶体成分产生的胶体渗透压，不仅可以延长重新分布的液体在血管内的滞留时间，还能减少炎性因子和细胞因子的释放，延缓凝血功能恶化，阻止休克后多器官功能障碍的发生，提高休克患者的生存率。
+4.2 腹部提压CPR仪的结构与操作方法（图1）：
+点击查看大图
+图1
+腹部提压心肺复苏仪器显示盘（A）、负压盘（B）及操作示意图（C）
+图1
+腹部提压心肺复苏仪器显示盘（A）、负压盘（B）及操作示意图（C）
+腹部提压CPR仪由提压板、负压装置和提压手柄三部分组成，通过对腹部进行按压和提拉实施CPR。
+患者取标准平卧位，具体操作步骤分三步，即"一开、二吸、三提压"。应用腹部提压CPR仪进行腹部提压CPR时，施救者跪于患者一侧（施救者身体中线垂直于患者肚脐与剑突中点连线），双手抓紧手柄，按两下仪器开关，将仪器平置于患者的中上腹部，顶角位于双肋缘与剑突下方，吸附腹部皮肤。仪器声音停止代表负压吸引固定完毕，然后根据指示以100次/min的速度进行腹部提压，下压力度40～50 kg，上提力度10～30 kg。按压过程中施救者肘关节不可弯曲；提压时面板要与患者平行；使用过程中避免前后左右晃动，垂直提压。操作完毕后，双手指按压吸附处皮肤，移除仪器，操作完毕。
+如在狭窄空间中无法实施标准平卧位腹部提压CPR，可采用以下方式：①肢腹位、头腹位腹部提压CPR（图2A, 图2B）：施救者骑跨于患者上方但不与患者接触，余操作步骤同标准平卧位；②多元化腹部提压CPR胸腹联合操作（图2C）：两位施救者分别跪于患者两侧，一人实施胸外按压CPR，另一人实施腹部提压CPR，两种CPR操作比例1∶1，交替进行，余操作步骤同标准平卧位；③个体化腹部提压CPR侧卧位操作（图2D）：患者取侧卧位，施救者呈丁字步站立，吸附腹部皮肤与腹部提压CPR仪底板连接，根据指示进行腹部提压CPR；若在直升机上患者身体被固定不可活动时，可使用坐姿侧卧位曲臂腹部提压CPR。
+点击查看大图
+图2
+特殊情况下4种腹部提压心肺复苏（CPR）操作示意图
+注：A为肢腹位腹部提压CPR，B为头腹位腹部提压CPR，C为胸腹联合腹部提压CPR，D为侧卧位腹部提压CPR
+图2
+特殊情况下4种腹部提压心肺复苏（CPR）操作示意图
+5 晶胶复合液与腹部提压CPR对创伤性休克患者复苏效果的基础或临床证据
+急性创伤性休克的主要病因是有效循环血容量及心排血量减少，导致组织血流有效灌注不足，从而出现组织细胞代谢紊乱及功能受损。传统救治措施是尽早尽快补液，恢复有效循环血容量和组织灌注，早期快速补充有效循环血容量是抢救患者生命、降低病死率的关键，但可能引起失血加速、不易形成凝血块或使已形成的凝血块脱落、血液过度稀释和加重酸中毒等不良后果。研究表明，早期快速大量输注液体可导致损伤脾出血速度进一步加快[19]，生存时间缩短；早期快速液体复苏可增加动物的出血量和死亡率[20,21,22,23]。国外学者研究发现，早期大量静脉补液可以导致外伤性凝血病、器官衰竭、脓毒症等[24]。国内外相关研究报道表明，早期限制性液体复苏治疗能减少未控制失血性休克患者死亡和并发症的发生[25,26]。创伤性休克早期救治是降低病死率的关键所在，主要措施是液体复苏，对于达到相同血浆容量情况下的创伤性休克患者，霍姆等晶胶复合液具有用量小的优势，对急性创伤性休克患者早期复苏效果明显，能迅速改善患者的休克状态[27]，而且无明显的副作用，易储存、运输，且价格便宜，能显著降低创伤性休克患者的病死率，并且能在短时间内最大限度地恢复患者的生理功能。长期以来，临床医生更倾向于应用大剂量的晶体液扩充血容量，但Dyson等[28]研究发现，晶体液在血管内的消除半衰期比胶体液短得多，所以单纯输入晶体液难以维持血压，还会加重组织水肿，甚至导致胸腹腔积液及心包积液。胶体液能增加血管内的胶体渗透压，使组织间液的水分重新吸收到血管内，能较好地扩充有效循环血容量和维持血压。Friedman等[29]的基础研究结果显示，6%羟乙基淀粉明显比单纯应用乳酸林格液有更好的氧运输参数和动物存活率。近年来，随着对急性创伤失血性休克病理生理过程的深入研究，人们发现早期限制性液体复苏可使机体代偿机制和液体复苏作用都得到较充分的发挥。霍姆等晶胶复合液能抑制核转录因子-κB（NF-κB）活性，减少炎性因子的释放，下调细胞间黏附分子-1（ICAM-1）的表达，减少中性粒细胞浸润，从而抑制失血性休克复苏后全身炎症反应，降低全身炎症反应综合征（SIRS）发生率[30]。
+对于创伤导致的心搏骤停，及时选择有效的复苏方式是抢救患者生命和改善患者预后的关键。对于伴有胸肋骨骨折而无腹部损伤的心搏骤停患者，腹部提压CPR是救命的不二选择，此方法解决了胸外按压CPR不能对胸部创伤心搏骤停患者进行复苏的难题，为临床提供了可选择的复苏途径和方法。有关腹部提压CPR与胸外按压CPR的临床对比研究表明，腹部提压CPR在脑功能预后方面优于胸外按压CPR[31]。多中心数据汇总分析结果显示，及时给予气管插管者的复苏成功率明显高于未插管者，表明早期给予有效的氧气供应可提高复苏成功率，单纯依靠面罩或口对口人工呼吸很难纠正缺氧状态[32]。研究表明，腹部提压CPR可升高窒息性心搏骤停家猪的平均动脉压（MAP）和CPP，抢救效果与胸外按压CPR相当[33]；与胸外按压或胸外提压CPR相比，腹部提压CPR的潮气量和每分钟通气量均显著升高[34,35]；临床研究表明，腹部提压CPR不但可产生有效的循环血容量，而且可提供有效的人工通气[36]。对于心搏骤停患者，在建立人工循环的同时给予人工通气，早期不仅可改善脑组织缺血状态，而且可改善缺氧状态，腹部提压CPR可明显增加回心血量，提高舒张压。腹部提压CPR可产生比胸外按压CPR更快和更多的搏出量及有效循环血容量。研究表明，腹部提压CPR可以更好地改善脑组织缺血，为后期脑复苏赢得宝贵时间[36,37]。前期动物及临床研究显示，腹部提压CPR在产生循环的同时还能改善氧代谢，后期脑功能预后好[37,38]。多中心临床研究证实，腹部提压CPR在改善心搏骤停患者血流动力学方面的作用与胸外按压CPR相当，但在组织器官血氧供应方面具有明显优势，在改善脑功能预后方面明显优于胸外按压CPR，而且腹部提压CPR具有较高的稳定性、便捷性和安全性[32]。腹部提压CPR在呼吸、心搏骤停患者抢救中的作用也比较突出，弥补了传统CPR方法的不足，值得临床推广使用。
+6 创伤性休克的综合治疗
+针对创伤性休克患者，应在第一时间对其伤情及生命体征进行评估，快速及时止血并防止进一步出血，保持呼吸道通畅，恢复循环血容量及氧输送，纠正凝血功能障碍及酸中毒，尽快恢复内环境稳态。应遵循"抢救生命第一，保护功能第二，先重后轻，先急后缓"的原则。对于创伤失血性休克患者，应尽快控制致命性大出血。研究表明，高达25%的出血死亡是可以通过积极有效的止血来挽救的[39]。其他的救治原则包括保持呼吸道通畅、液体复苏、镇痛以及其他对症治疗，同时应重视救治过程中的损伤控制复苏策略。最终的治疗目标是有效控制出血，改善微循环及氧代谢障碍，恢复内环境稳定[1]。对于存在严重创伤失血的患者，应及早启动大出血抢救预案。
+7 结语
+快速建立有效的输液途径进行复苏是抢救创伤失血性休克患者的关键。基础实验和临床研究证据均证实应用以霍姆复合液为代表的晶胶复合液进行早期限制性容量复苏是最有效的急救措施，能够减少复苏液体输注量，稳定血流动力学，减少急性呼吸窘迫综合征（ARDS）的发生，为患者住院后接受输血和手术急救奠定基础和赢得机会，尤其在院前急救及转运阶段具有极大的临床推广价值。胸部外伤伴心搏骤停为胸外按压CPR的禁忌证，实施腹部CPR能解决急救难题，"胸路不通走腹路"，启腹心动，起死回生。但需要注意的是，由于创伤伤情的复杂性、个体的反应性及休克程度的差异性，本专家共识不能完全覆盖所有临床患者情况，在具体临床实践中需因病施治和因地（环境条件）施治，根据医生经验进行诊断和治疗。
+专家委员会
+执笔人：张思森（河南中医药大学人民医院，南方医科大学第二临床医学院），岳茂兴（战略支援部队特色医学中心，江苏大学附属武进医院急诊医学科），王立祥（解放军总医院第三医学中心）
+专家共识编写委员会（按姓氏笔画排序）：马立芝，马桂林，王仲，王超，王立祥，王红宇，王伯良，王国涛，王明强，王宝玉，王振杰，王增民，牛玉坚，田晶，史继学，付晓丽，兰超，吕军，吕传柱，刘卫国，刘亚华，刘青，刘婷，刘变化，刘保池，刘晓华，刘海波，刘玮玮，刘斌，米玉红，许青峰，孙文会，孙延庆，孙鲲，杜俊凯，李小刚，李小俊，李长武，李永强，李永勤，李军，李奇林，李建国，李莉，李雪梅，李静，李磊，杨正飞，杨立山，杨鼎军，杨蓉佳，杨静，吴太虎，吴世政，吴国平，吴俊华，吴霄迪，岑颖欣，邱泽武，邱海波，何忠杰，何春来，邹圣强，邹贵全，汪茜，汪宏伟，沙鑫，沈开金，宋凤卿，宋祖军，宋科，宋维，张文武，张玉想，张在其，张庆普，张红，张志成，张利远，张劲松，张思森，张剑锋，张存庆，张福林，陈立忠，陈安宝，陈寿权，陈波，陈建荣，陈威，陈彦，陈锋，陈蒙华，武钢，范西真，范晨芳，林兆奋，林绍彬，尚云波，罗凌青，季之欣，岳茂兴，周卫红，周飞虎，周进科，周荣斌，单志刚，宗建平，房志栋，屈纪富，孟庆义，赵中辛，赵龙现，赵丽岩，赵艳杰，郝义彬，胡爱民，段强，侯明晓，姜素文，祝振忠，祝益民，姚尚龙，姚咏明，都定元，耿正祥，聂时南，贾学军，贾群林，夏建海，柴艳芬，钱传云，徐自强，徐彦立，高志仁，郭树彬，唐子人，菅向东，崔连珉，梁天颢，梁诗颂，屠淑敏，彭丹洋，董谢平，蒋龙元，蒋建新，韩小彤，喻安永，程宗平，焦宪法，舒延章，鲁利宾，温其智，谢永富，路晓光，颜文飞，潘东峰，燕重远，魏小洁，魏捷
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+World Health Organization.
+Global health estimates 2014 summary tables: deaths by cause, age and sex, 2000-2012, Geneva, Switzerland, 2014 [C].
+Geneva:
+World Health Organization,
+2014.
+[2]
+中国医师协会急诊分会，中国人民解放军急救医学专业委员会，中国人民解放军重症医学专业委员会,等.
+创伤失血性休克诊治中国急诊专家共识[J].
+中华急诊医学杂志,
+2017,
+26 (
+12):
+1358-
+1365.
+DOI: 10.3760/cma.j.issn.1671-0282.2017.12.004.
+Emergency Medicine Branch of Chinese Medical Doctor Association, People's Liberation Army Professional Committee of Emergency Medicine, People's Liberation Army Professional Committee of Critical Care Medicine, et al.
+Chinese emergency medicine expert consensus on diagnosis and treatment of traumatic hemorrhagic shock [J].
+Chin J Emerg Med,
+2017,
+26 (
+12):
+1358-
+1365.
+DOI: 10.3760/cma.j.issn.1671-0282.2017.12.004.
+[3]
+田刚.
+创伤性休克早期液体复苏的临床观察[J].
+当代医学,
+2012,
+18 (
+22):
+46-
+47.
+DOI: 10.3969/j.issn.1009-4393.2012.22.030.
+TianG.
+Clinical observation of early fluid resuscitation in traumatic shock [J].
+Contemp Med,
+2012,
+18 (
+22):
+46-
+47.
+DOI: 10.3969/j.issn.1009-4393.2012.22.030.
+[4]
+MaierRV.
+Scudder oration on trauma. A century of evolution in trauma resuscitation [J].
+J Am Coll Surg,
+2014,
+219 (
+3):
+335-
+345.
+DOI: 10.1016/j.jamcollsurg.2014.04.011.
+[5]
+BarbeeRW, ReynoldsPS, WardKR.
+Assessing shock resuscitation strategies by oxygen debt repayment [J].
+Shock,
+2010,
+33 (
+2):
+113-
+122.
+DOI: 10.1097/SHK.0b013e3181b8569d.
+[6]
+ChaudryIH.
+Cellular mechanisms in shock and ischemia and their correction [J].
+Am J Physiol,
+1983,
+245 (
+2):
+R117-
+134.
+DOI: 10.1152/ajpregu.1983.245.2.R117.
+[7]
+TishermanSA, AlamHB, RheePM, et al.
+Development of the emergency preservation and resuscitation for cardiac arrest from trauma clinical trial [J].
+J Trauma Acute Care Surg,
+2017,
+83 (
+5):
+803-
+809.
+DOI: 10.1097/TA.0000000000001585.
+[8]
+HoffmanM, CichonLJ.
+Practical coagulation for the blood banker [J].
+Transfusion,
+2013,
+53 (
+7):
+1594-
+1602.
+DOI: 10.1111/trf.12201.
+[9]
+ChangR, CardenasJC, WadeCE, et al.
+Advances in the understanding of trauma-induced coagulopathy [J].
+Blood,
+2016,
+128 (
+8):
+1043-
+1049.
+DOI: 10.1182/blood-2016-01-636423.
+[10]
+MooreHB, MooreEE, LirasIN, et al.
+Acute fibrinolysis shutdown after injury occurs frequently and increases mortality: a multicenter evaluation of 2 540 severely injured patients [J].
+J Am Coll Surg,
+2016,
+222 (
+4):
+347-
+355.
+DOI: 10.1016/j.jamcollsurg.2016.01.006.
+[11]
+BrownLM, CallMS, Margaret KnudsonM, et al.
+A normal platelet count may not be enough: the impact of admission platelet count on mortality and transfusion in severely injured trauma patients [J].
+J Trauma,
+2011,
+71 (
+2
+Suppl 3):
+S337-
+342.
+DOI: 10.1097/TA.0b013e318227f67c.
+[12]
+KutcherME, RedickBJ, McCreeryRC, et al.
+Characterization of platelet dysfunction after trauma [J].
+J Trauma Acute Care Surg,
+2012,
+73 (
+1):
+13-
+19.
+DOI: 10.1097/TA.0b013e318256deab.
+[13]
+WohlauerMV, MooreEE, ThomasS, et al.
+Early platelet dysfunction: an unrecognized role in the acute coagulopathy of trauma [J].
+J Am Coll Surg,
+2012,
+214 (
+5):
+739-
+746.
+DOI: 10.1016/j.jamcollsurg.2012.01.050.
+[14]
+SpannAP, CampbellJE, FitzgibbonSR, et al.
+The effect of hematocrit on platelet adhesion: experiments and simulations [J].
+Biophys J,
+2016,
+111 (
+3):
+577-
+588.
+DOI: 10.1016/j.bpj.2016.06.024.
+[15]
+MaegeleM, SchöchlH, CohenMJ.
+An update on the coagulopathy of trauma [J].
+Shock,
+2014,
+41
+Suppl 1:
+21-
+25.
+DOI: 10.1097/SHK.0000000000000088.
+[16]
+SihlerKC, NapolitanoLM.
+Complications of massive transfusion [J].
+Chest,
+2010,
+137 (
+1):
+209-
+220.
+DOI: 10.1378/chest.09-0252.
+[17]
+CosgriffN, MooreEE, SauaiaA, et al.
+Predicting life-threatening coagulopathy in the massively transfused trauma patient: hypothermia and acidoses revisited [J].
+J Trauma,
+1997,
+42 (
+5):
+857-861; discussion 861-862.
+DOI: 10.1097/00005373-199705000-00016.
+[18]
+ZhangS, LiuQ, HanS, et al.
+Standard versus abdominal lifting and compression CPR [J].
+Evid Based Complement Alternat Med,
+2016,
+2016:
+9416908.
+DOI: 10.1155/2016/9416908.
+[19]
+SolomonovE, HirshM, YahiyaA, et al.
+The effect of vigorous fluid resuscitation in uncontrolled hemorrhagic shock after massive splenic injury [J].
+Crit Care Med,
+2000,
+28 (
+3):
+749-
+754.
+DOI: 10.1097/00003246-200003000-00024.
+[20]
+CamusG, Deby-DupontG, DuchateauJ, et al.
+Are similar inflammatory factors involved in strenuous exercise and sepsis? [J].
+Intensive Care Med,
+1994,
+20 (
+8):
+602-
+610.
+DOI: 10.1007/BF01705731.
+[21]
+HammamiMM, BouchamaA, Al-SedairyS, et al.
+Concentrations of soluble tumor necrosis factor and interleukin-6 receptors in heatstroke and heatstress [J].
+Crit Care Med,
+1997,
+25 (
+8):
+1314-
+1319.
+DOI: 10.1097/00003246-199708000-00017.
+[22]
+BouchamaA, HammamiMM, Al ShailE, et al.
+Differential effects of in vitro and in vivo hyperthermia on the production of interleukin-10 [J].
+Intensive Care Med,
+2000,
+26 (
+11):
+1646-
+1651.
+DOI: 10.1007/s001340000665.
+[23]
+PedersenBK, Hoffman-GoetzL.
+Exercise and the immune system: regulation, integration, and adaptation [J].
+Physiol Rev,
+2000,
+80 (
+3):
+1055-
+1081.
+DOI: 10.1152/physrev.2000.80.3.1055.
+[24]
+MoldoveanuAI, ShephardRJ, ShekPN.
+Exercise elevates plasma levels but not gene expression of IL-1beta, IL-6, and TNF-alpha in blood mononuclear cells [J].
+J Appl Physiol (1985),
+2000,
+89 (
+4):
+1499-
+1504.
+DOI: 10.1152/jappl.2000.89.4.1499.
+[25]
+HuβmannB, LeferingR, TaegerG, et al.
+Influence of prehospital fluid resuscitation on patients with multiple injuries in hemorrhagic shock in patients from the DGU trauma registry [J].
+J Emerg Trauma Shock,
+2011,
+4 (
+4):
+465-
+471.
+DOI: 10.4103/0974-2700.86630.
+[26]
+张吉新，李士华，毕宝林,等.
+创伤失血性休克的液体复苏[J].
+创伤外科杂志,
+2008,
+10 (
+3):
+200-
+202.
+DOI: 10.3969/j.issn.1009-4237.2008.03.003.
+ZhangJX, LiSH, BiBL, et al.
+Limited fluid resuscitation after uncontrolled hemorrhagic traumatic shock [J].
+J Trauma Surg,
+2008,
+10 (
+3):
+200-
+202.
+DOI: 10.3969/j.issn.1009-4237.2008.03.003.
+[27]
+黄善灶.
+限制性液体复苏治疗严重多发伤失血性休克临床分析[J].
+中国急救复苏与灾害医学杂志,
+2008,
+3 (
+6):
+379-
+380.
+DOI: 10.3969/j.issn.1673-6966.2008.06.022.
+HuangSZ.
+Clinical analysis of restrictive fluid resuscitation in the treatment of hemorrhagic shock of multiple severe injuries [J].
+Chin J Emerg Res Dis Med,
+2008,
+3 (
+6):
+379-
+380.
+DOI: 10.3969/j.issn.1673-6966.2008.06.022.
+[28]
+DysonA, StidwillR, TaylorV, et al.
+Tissue oxygen monitoring in rodent models of shock [J].
+Am J Physiol Heart Circ Physiol,
+2007,
+293 (
+1):
+H526-
+533.
+DOI: 10.1152/ajpheart.00052.2007.
+[29]
+FriedmanZ, BerkenstadtH, PreismanS, et al.
+A comparison of lactated ringer's solution to hydroxyethyl starch 6% in a model of severe hemorrhagic shock and continuous bleeding in dogs [J].
+Anesth Analg,
+2003,
+96 (
+1):
+39-
+45.
+DOI: 10.1097/00000539-200301000-00009.
+[30]
+吕安庆，陈忠华.
+高渗氯化钠羟乙基淀粉40注射液对感染性休克患者血浆中细胞因子水平的影响[J].
+中国临床药理学与治疗学,
+2012,
+17 (
+3):
+331-
+334.
+LyuAQ, ChenZH.
+Effects of hypertonic sodium chloride hydroxyethyl starch 40 injection on cytokines of patients with septic shock [J].
+Chin J Clin Pharmacol Therap,
+2012,
+17 (
+3):
+331-
+334.
+[31]
+岑颖欣，张思森，焦宪法,等.
+对比腹部提压CPR与胸外按压CPR对窒息性心脏停搏患者术后脑功能预后的影响[J].
+中华危重病急救医学,
+2018,
+30 (
+6):
+549-
+553.
+DOI: 10.3760/cma.j.issn.2095-4352.2018.06.009.
+CenYX, ZhangSS, JiaoXF, et al.
+Comparison of neurologic outcome between active abdominal compression-decompression cardiopulmonary resuscitation and standard cardiopulmonary resuscitation in asphyxia cardiac arrest [J].
+Chin Crit Care Med,
+2018,
+30 (
+6):
+549-
+553.
+DOI: 10.3760/cma.j.issn.2095-4352.2018.06.009.
+[32]
+王立祥，宋维，张思森,等.
+腹部提压心肺复苏多中心临床实验报告[J].
+中华急诊医学杂志,
+2017,
+26 (
+3):
+333-
+336.
+DOI: 10.3760/cma.j.issn.1671-0282.2017.03.019.
+WangLX, SongW, ZhangSS, et al.
+Multi-center clinical report of cardiopulmonary resuscitation with abdominal lifting and compression [J].
+Chin J Emerg Med,
+2017,
+26 (
+3):
+333-
+336.
+DOI: 10.3760/cma.j.issn.1671-0282.2017.03.019.
+[33]
+李秀满，王立祥，刘亚华,等.
+腹部提压法对窒息性心搏骤停猪复苏效果的实验研究[J].
+中华危重病急救医学,
+2012,
+24 (
+4):
+237-
+240.
+DOI: 10.3760/cma.j.issn.1003-0603.2012.04.014.
+LiXM, WangLX, LiuYH, et al.
+An experimental study on the effects of rhythmic abdominal lifting and compression during cardiopulmonary resuscitation in a swine model of asphyxia [J].
+Chin Crit Care Med,
+2012,
+24 (
+4):
+237-
+240.
+DOI: 10.3760/cma.j.issn.1003-0603.2012.04.014.
+[34]
+王立祥，宋维，张思森.
+胸部按压CPR与腹部提压CPR [J].
+中华危重病急救医学,
+2017,
+29 (
+12):
+1057-
+1061.
+DOI: 10.3760/cma.j.issn.2095-4352.2017.12.001.
+WangLX, SongW, ZhangSS.
+Chest compression on CPR and active abdominal on CPR [J].
+Chin Crit Care Med,
+2017,
+29 (
+12):
+1057-
+1061.
+DOI: 10.3760/cma.j.issn.2095-4352.2017.12.001.
+[35]
+孙鲲，王立祥，李秀满,等.
+膈肌下抬挤法对窒息性心搏骤停猪复苏效果的观察[J].
+中国急救复苏与灾害医学杂志,
+2011,
+6 (
+12):
+1050-1051, 1077.
+DOI: 10.3969/j.issn.1673-6966.2011.12.011.
+SunK, WangLX, LiXM, et al.
+Effects of cardiopulmonary resuscitation by cardiac massage under the diaphragmatic muscle on pigs with cardiac arrest [J].
+Chin J Emerg Res Dis Med,
+2011,
+6 (
+12):
+1050-1051, 1077.
+DOI: 10.3969/j.issn.1673-6966.2011.12.011.
+[36]
+汪宏伟，沙鑫，张思森,等.
+PETCO2对腹部提压CPR救治效果及血清S100B蛋白对脑功能预测价值的研究[J].
+中华危重病急救医学,
+2018,
+30 (
+2):
+117-
+122.
+DOI: 10.3760/cma.j.issn.2095-4352.2018.02.005.
+WangHW, ShaX, ZhangSS, et al.
+Predictive value of partial pressure of end-tidal carbon dioxide on the effect of active abdominal compression-decompression cardiopulmonary resuscitation and serum S100B protein on cerebral function [J].
+Chin Crit Care Med,
+2018,
+30 (
+2):
+117-
+122.
+DOI: 10.3760/cma.j.issn.2095-4352.2018.02.005.
+[37]
+沙鑫，张思森，汪宏伟,等.
+腹部提压CPR对心搏骤停患者氧代谢及预后的影响[J].
+中华危重病急救医学,
+2017,
+29 (
+12):
+1117-
+1121.
+DOI: 10.3760/cma.j.issn.2095-4352.2017.12.013.
+ShaX, ZhangSS, WangHW, et al.
+Effects of active abdominal compression-decompression CPR on oxygen metabolism and prognosis in patients with cardiac arrest [J].
+Chin Crit Care Med,
+2017,
+29 (
+12):
+1117-
+1121.
+DOI: 10.3760/cma.j.issn.2095-4352.2017.12.013.
+[38]
+王立祥，刘亚华，李秀满,等.
+腹部提压心肺复苏法对呼吸骤停猪肺通气的实验研究[J].
+中华危重病急救医学,
+2011,
+23 (
+6):
+368-
+369.
+DOI: 10.3760/cma.j.issn.1003-0603.2011.06.015.
+WangLX, LiuYH, LiXM, et al.
+Effect of abdominal lifting and compression maneuver for cardiopulmonary resuscitation on ventilation in pigs with respiratory arrest [J].
+Chin Crit Care Med,
+2011,
+23 (
+6):
+368-
+369.
+DOI: 10.3760/cma.j.issn.1003-0603.2011.06.015.
+[39]
+MaegeleM, GuZT, HuangQB, et al.
+Updated concepts on the pathophysiology and the clinical management of trauma hemorrhage and coagulopathy [J].
+Chin J Traumatol,
+2017,
+20 (
+3):
+125-
+132.
+DOI: 10.1016/j.cjtee.2017.03.004.
+贡献者信息
+中国研究型医院学会卫生应急学专业委员会，心肺复苏学专业委员会
+河南省医院协会心肺复苏专业委员会
+关键词
+休克，创伤性;
+心搏骤停;
+复苏;
+专家共识;
+基金项目
+国家重点基础研究发展计划（973计划）项目 （2005CB522602）
+国家科技支撑计划项目 （2014BAL05B06）
+国家重点实验室开放基金项目 （SKLKF201312）
+河南省科技惠民计划项目 （152207310007）
+河南省医学科技攻关计划项目 （201303221，2018010045，2018020828）
+江苏省卫生厅重大项目 （Z201013）
+河南省郑州市科技计划项目 （131PLJRC682）
+河南省郑州市科技发展计划项目 （20130595，20140452，20150060）
+江苏省常州市科技计划项目 （CJ20140001）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2019-03-10
+收稿日期：2019-01-25
+Standard and Guideline
+Chinese expert consensus on the clinical application of innovative first-aid resuscitation technology for traumatic shock in 2019
+Health Emergency Committee of Chinese Research Hospital Association, Cardiopulmonary Resuscitation Specialized Committee of Chinese Research Hospital Association,  Cardiopulmonary Resuscitation Specialized Committee of Henan Hospital Association
+Published
+2019-03-10
+Cite as
+Chin Crit Care Med, 2019,31(3): 257-263. DOI: 10.3760/cma.j.issn.2095-4352.2019.03.001
+Abstract
+To promote the clinical treatment technical training and popularization of traumatic shock and cardiac arrest, Health Emergency Committee of Chinese Research Hospital Association, Cardiopulmonary Resuscitation Specialized Committee of Chinese Research Hospital Association, Cardiopulmonary Resuscitation Specialized Committee of Henan Hospital Association jointly established "Chinese expert consensus on the clinical application of innovative first-aid resuscitation technology for traumatic shock in 2019". This consensus has solved the problem of volume resuscitated gel mix and ratio in the emergency situation of pre-hospital transfusion and blood products unable to be used in traumatic shock. Hypertonic gel compound liquid can treat traumatic shock with small dosage and good effect of stabilizing blood pressure, which can replace whole blood and other blood products, improve the safety of transport to hospital, and provide an opportunity for life-saving surgery. At the same time, abdominal lifting and compression cardiopulmonary resuscitation (CPR) has solved the difficulty of treating patients with post-traumatic cardiac arrest who cannot perform traditional chest compressive CPR, and greatly improved the success rate of pre-hospital treatment for patients with traumatic shock. In view of the actual demand of emergency medical treatment in China and the contraband of chest CPR for chest trauma, the combination of "administration, production, study, research and application" was adopted, and the abdominal lifting and compression CPR was successfully developed and popularized. This expert consensus summarized the scientific evidence on traumatic shock and traumatic cardiac arrest published at home and abroad so far, and put forward the expert consensus on the clinical application of innovative first-aid resuscitation technology for traumatic shock based on Chinese national conditions. This consensus incorporated the wisdom and philosophy of Chinese and foreign scholars in the training of traumatic shock and CPR, and would certainly make the training of traumatic shock and cardiac arrest in China entering a new stage with strong pertinence, quick onset, few side effects and high treatment rate.
+Key words:
+Traumatic shock; Cardiac arrest; Resuscitation; Expert consensus
+Contributor Information
+Health Emergency Committee of Chinese Research Hospital Association, Cardiopulmonary Resuscitation Specialized Committee of Chinese Research Hospital Association
+Cardiopulmonary Resuscitation Specialized Committee of Henan Hospital Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+图1
+腹部提压心肺复苏仪器显示盘（A）、负压盘（B）及操作示意图（C）
+注：A为肢腹位腹部提压CPR，B为头腹位腹部提压CPR，C为胸腹联合腹部提压CPR，D为侧卧位腹部提压CPR
+图2
+特殊情况下4种腹部提压心肺复苏（CPR）操作示意图
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华危重病急救医学2019年31卷3期
+文    题：2019创伤性休克急救复苏创新技术临床应用中国专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华危重病急救医学2019年31卷3期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

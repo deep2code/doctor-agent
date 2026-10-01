@@ -1,0 +1,901 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E9%87%8D%E7%97%87%E6%82%A3%E8%80%85%E6%97%A9%E6%9C%9F%E8%82%A0%E5%86%85%E8%90%A5%E5%85%BB%E4%B8%B4%E5%BA%8A%E5%AE%9E%E8%B7%B5%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86.html
+# 标题: 重症患者早期肠内营养临床实践专家共识 - 中华危重病急救医学
+# 发布方/日期: 重症医学科，中华医学会肠外肠内营养学分会老年营养支持学组.；2018-08-10
+
+AUTO TRANSLATION​▼
+重症患者早期肠内营养临床实践专家共识
+孙仁华
+江荣林
+黄曼
+蔡国龙
+中华危重病急救医学, 2018,30(8) : 715-721. DOI: 10.3760/cma.j.issn.2095-4352.2018.08.001
+重症患者在严重创伤、感染等应激状态下，存在较高营养风险，需要及时进行干预。肠内营养（EN），尤其是在24~48 h内实施的早期肠内营养（EEN），不仅能够提供营养底物，还能改善肠黏膜屏障及免疫功能，维护肠道的微生态，已越来越被临床接受和应用。然而，在具体的实施过程中，EEN的应用时机、启动方式、途径选择及耐受性监测仍存在很多误区，亟须统一与规范。本共识由来自浙江省的4名执笔专家起草，6名编写工作小组成员查阅文献及整理，并由来自全国的17名重症医学专家组成评审专家组，根据循证医学依据，采用GRADE分级原则为每项共识意见的推荐强度进行计分评价。综合推荐强度分10个等级，0~9分，0分为不推荐，9分为强力推荐，分数由低到高表示推荐强度逐渐增强。每条共识意见的推荐强度以均数±标准差（±s）表示。经过多轮讨论最终形成24条共识意见。
+1 建议对所有重症患者使用营养风险筛查（NRS 2002）、危重症患者营养风险评分（NUTRIC评分）进行营养风险评估。〔推荐强度：（8.3±1.0）分〕
+重症患者常合并代谢紊乱和营养不良，应进行全面的营养评估。研究表明，患者的营养风险越高，从营养支持治疗中获益越大。在诸多临床筛查评估工具中，NRS 2002和NUTRIC评分已被广泛用于临床[1,2,3]，并受到指南的推荐[4,5,6,7]。将NRS 2002>3分定义为有营养风险，高营养风险为NRS 2002≥5分或NUTRIC评分（不含白细胞介素-6）>5分[1,2,3,8]。两项非随机前瞻性研究表明，高营养风险的患者更能从EEN中获益，临床预后比低营养风险者改善，如院内感染率降低、总并发症减少、病死率下降[1,8]。不断完善上述评分系统，将有利于其在临床的推广及应用。
+2 建议排除EN禁忌证后，对重症患者于入住重症加强治疗病房（ICU）24~48 h内启动EN支持治疗，外科术后患者可提早至24 h内。〔推荐强度：（8.1±1.0）分〕
+荟萃分析提示，ICU患者24 h内进行EN治疗可有效降低肺炎的发生率和病死率，但对减轻多器官功能衰竭（MOF）无明显收益[9]；36 h内开始EN支持的重症患者，感染所致的病死率下降、住院时间缩短[10]；而一项48 h内进行EN的Meta分析提示，EEN可降低患者病死率，但差异无统计学意义[11]。关于外科术后重症患者的荟萃分析提示，胃肠道术后早期启动EN可降低并发症发生率、缩短住院时间[12]。大外科术后24 h内启动EN可减少肠梗阻发生率，而且不增加吻合口瘘的发生[13,14]；而烧伤患者伤后4~6 h内开放EN支持，可有效减少总体并发症，降低肺炎和感染发生率[15]。
+3 对于血流动力学基本稳定、无EN禁忌证的重症患者，应尽早启动EN。〔推荐强度：（8.9±0.5）分〕
+EEN支持治疗的理念已经得到国内外学者的广泛认可，EEN在维持肠道屏障功能、调节肠道菌群及增强肠道免疫等方面发挥了重要作用[16]，从而减轻疾病严重程度，改善临床预后。基于比较EEN与延迟EN（DEN）的随机对照临床试验（RCT）的荟萃分析显示，早期启用EN可使重症患者的感染发生率降低[16]、住院时间缩短[10]、病死率下降[9]。近期，针对21项RCT研究进行的系统性分析显示，与DEN相比，EEN可显著降低重症患者的感染发生率及病死率[4]。因此，我们建议对大多数重症患者，应低速尽早开展EN，包括颅脑创伤、脊髓损伤、缺血性或出血性卒中、体外膜肺氧合（ECMO）应用、俯卧位通气、重症急性胰腺炎、消化道手术后、腹部主动脉术后、腹部创伤、腹腔开放、烧伤、使用神经肌肉阻滞剂的患者。
+存在以下情况的患者需DEN治疗：难治性休克或组织灌注不足，难治性低氧血症、高碳酸血症或酸中毒，明显的肠缺血或梗阻、未放置满意肠内营养管的高位消化道瘘、腹腔间隔室综合征、活动性上消化道出血等。需要注意的是，对于存在腹泻、无肠鸣音甚至存在胃潴留的患者，仍建议实施EEN；对于肠缺血显著的重症患者，建议腹内高压但无腹腔间隔室综合征的患者实施EEN，而对腹腔间隔室综合征重症患者实行DEN[5]。
+4 对于血流动力学不稳定的患者，应在液体复苏完成、血流动力学基本稳定后尽早启动EN。〔推荐强度：（8.4±0.9）分〕
+研究表明，应用小剂量血管活性药物的重症患者，接受EEN者比DEN者的病死率及住院总病死率均降低[17,18]。针对脓毒性休克患者，在复苏完成、血流动力学基本稳定，综合评估病情，包括：灌注压达标、血管活性药物剂量稳定（小剂量、剂量不增加或正在撤除）、乳酸水平及代谢性酸中毒水平稳定或下降、平均动脉压（MAP）≥65 mmHg（1 mmHg=0.133 kPa）后，尽早开始低剂量EN，患者预后更佳[17]。需要注意的是，若出现下述情况则应采用DEN：如低血压（MAP<50 mmHg）、开始需应用儿茶酚胺类药物、需逐步增加血管活性药物剂量才能维持血流动力学稳定的患者[18]。
+5 对于大部分重症患者，不建议早期单独使用肠外营养（PN）或补充型PN联合EN；对于基础营养不良或胃肠道大手术术前已进行PN的重症患者，建议EEN。
+〔推荐强度：（7.6±1.3）分〕
+在绝大多数重症患者中，早期应用EN比PN更为安全有效。大量RCT研究已对不同类型重症患者接受EN与PN治疗的获益进行比较，表明PN与感染性并发症的增加有关，而接受EN患者感染的风险要比接受PN者低，EEN使感染性并发症的发生率降低、住院时间缩短[19]。包含8项大型临床试验的Meta分析显示，与早期PN相比，EEN没能降低患者病死率，但却降低了感染风险[5]。包含618例重症患者的12项RCT研究表明，与PN相比，应用EN的重症患者感染发生率降低，ICU住院时间缩短，但总住院时间及病死率差异无统计学意义[4]。
+EPaNiC研究表明，营养基础良好的患者入ICU 1周内应用PN并无益处；针对单用EN热量未达标的成人重症患者，延迟使用额外的PN比早期给予PN更易吸收、并发症更少；针对有EN禁忌证的患者，延迟应用完全PN者的感染发生率及病死率更低[20]。另一项大型RCT研究表明，有EN禁忌证的重症患者入院24 h内开始PN喂养，感染及其他并发症、器官衰竭、死亡等事件的发生率与禁食者相比并无差异[21]。因此，当EN不适用时，对于高营养风险或严重营养不良的患者，建议早期PN；对于低营养风险者，建议入ICU 7 d后启动PN。
+针对手术患者的研究表明，胃肠道大手术术前已进行PN治疗至少7~10 d的重症患者，术后继续PN能改善临床预后[22]，可使感染发生率下降10%[23]。
+6 对于重症患者，目标喂养量104.6~125.5 kJ·kg-1·d-1（25~30 kcal·kg-1·d-1），目标蛋白需要量1.2~2.0 g·kg-1·d-1。〔推荐强度：（8.3±1.0）分〕
+以伴高营养风险的外科患者为对象的多中心RCT研究显示，与不足量喂养相比，术前7 d给予营养支持治疗可显著减少院内感染并发症和术后并发症[8]。Heyland等[24]发现，营养支持达标程度与患者病死率呈负相关，其中达80%目标喂养量者病死率最低。因此，2016年美国肠外和肠内营养学会（ASPEN）指南推荐，重症患者的常规目标喂养量为104.6~125.5 kJ·kg-1·d-1，且在开始喂养后24~48 h内达目标喂养量50%；而对于高营养风险或严重营养不良的患者，在监测再喂养综合征的前提下，建议至少达80%目标喂养量[4]。在不同病理状态下，机体能量代谢率亦不同：择期手术约增加10%；严重创伤、多发性骨折、感染可增加20%~30%；大面积烧伤时能量消耗增加最明显，最大可增加100%；创伤性脑损伤患者热量需要量增高达100%~200%；而肥胖患者[25]，目标喂养量不超过需求量的65%~70%，体重指数（BMI）30~50 kg/m2者约为46.0~58.6 kJ·kg-1·d-1（11~14 kcal·kg-1·d-1，实际体重），BMI>50 kg/m2者约为92.0~104.6 kJ·kg-1·d-1（22~25 kcal·kg-1·d-1，理想体重）。
+相对于能量需求而言，重症患者的蛋白质需求更为重要，我们建议应提供足够剂量蛋白质。一项纳入113个ICU的前瞻性、多中心观察性研究显示，相对于单纯的足量热量喂养，足量热量高蛋白喂养的重症患者28 d病死率约下降50%[26]。美国和欧洲重症协会指南建议，重症患者目标蛋白需要量一般为1.2~2.0 g·kg-1·d-1[4,13]。原发疾病不同可能导致患者对蛋白的需求量也有所增加，其中烧伤、多发伤、慢性重症及肥胖患者的蛋白需求量更高。创伤性脑损伤患者可增加至1.5~2.5 g·kg-1·d-1；开放性腹部手术患者，每天需多提供约15~30 g蛋白，补充腹腔渗出消耗；烧伤患者目标蛋白量约为1.5~2.0 g·kg-1·d-1[27]；长期血液透析的重症患者应适当增加蛋白摄入，最多可增加至2.5 g·kg-1·d-1；肥胖人群，按照BMI设定目标量，BMI 30~40 kg/m2者蛋白目标量约为2.0 g·kg-1·d-1，BMI>40 kg/m2者约为2.5 g·kg-1·d-1。
+7 建议对有EEN适应证的重症患者，尽早建立EN通路。〔推荐强度：（9.0±0.0）分〕
+尽早建立EN通路是开展EEN支持的基础。EN途径包括：口服、管饲（鼻胃管、鼻肠管）和胃肠造瘘术等。喂养通路的选择原则为：① 满足EN需要；② 置管方式尽量简单、方便；③ 尽量减少对患者损害；④ 舒适和有利于长期带管。
+8 建议对重症患者以低剂量起始喂养；而对于可耐受EN的重症患者，建议尽快达到目标喂养量。
+〔推荐强度：（8.9±0.5）分〕
+目前认为，当患者处于重症状态时可考虑以EN低剂量起始喂养〔41.8~83.7 kJ/h（10~20 kcal/h）或2 092 kJ/d（500 kcal/d）〕[5,6]。不同疾病或特殊病理状态，可根据喂养耐受性调整喂养速度。神经重症患者，24 h后可上调至80~100 mL/h[28]；而EN耐受性偏差者，如老年患者，后续喂养上调速度可根据EN耐受情况谨慎调整，5~7 d逐渐达到目标喂养量[29]。对于因喂养不耐受导致入住ICU 7~10 d仍未达60%目标喂养量者，建议补充PN[4]。
+9 对于喂养不耐受的患者，可考虑滋养型喂养。〔推荐强度：（8.4±1.1）分〕
+滋养型喂养多数定义为以41.8~83.7 kJ/h的速度喂养[4,30]。营养风险较低或营养状况良好的患者，尤其是伴急性胃肠功能损伤（AGI）、血流动力学不稳定、中重度胰腺炎、BMI>30 kg/m2者建议给予滋养型喂养，急性肺损伤/急性呼吸窘迫综合征（ALI/ARDS）为滋养型喂养强适应证[4,6]。早期研究显示，对机械通气ALI患者，滋养型喂养组较足量喂养组60 d病死率及感染并发症差异无统计学意义，而呕吐和便秘发生率及胃残余量（GRV）增加均有所下降[30]；且后期随访提示1年后功能恢复差异亦无明显统计学意义[31]。在需血管活性药物支持的脓毒性休克患者中，早期给予滋养型喂养可缩短ICU住院时间[32]。对于AGI 2~3级的患者，2012年欧洲重症医学会建议早期行滋养型喂养，以减少喂养不耐受[33]。
+10 喂养过程中需注意能量监测，以避免能量摄入不足和能量相对过剩（如再喂养综合征）。〔推荐强度：（8.4±1.1）分〕
+除了能量供给不足外，能量供给过量同样存在危害。因此建议喂养过程中常规监测每日能量摄入量。对于长期营养不良的患者，重新摄入营养后可诱发以电解质紊乱、维生素缺乏和水钠潴留为特征表现的再喂养综合征[34]。目前关于再喂养综合征的诊断尚无统一标准，相关研究和指南均指出应该早期识别和预防高危患者。有研究表明，对于再喂养综合征高危患者，给予EN应当遵循循序渐进的原则，如起始41.8 kJ·kg-1·d-1（10 kcal·kg-1·d-1），3 d内逐渐增加至62.8 kJ·kg-1·d-1（15 kcal·kg-1·d-1），1周内逐渐增加至83.7 kJ·kg-1·d-1（20 kcal·kg-1·d-1），10 d内逐渐增加至125.5 kJ·kg-1·d-1（30 kcal·kg-1·d-1）[35]。
+11 建议对重症患者，尤其是喂养相关性腹泻者，实施EN时将营养液温度调节至接近体温。〔推荐强度：（7.7±1.4）分〕
+目前关于EN喂养温度尚无明确规定，但低于机体温度的肠内营养液可能引起肠道不适，诱发腹泻。根据2015年中华医学会老年医学分会推荐，对于老年腹泻患者，营养液的温度应维持于38~42 ℃为宜[29]。一项荟萃分析显示，对于EN相关性腹泻患者，应避免进食过烫或过冷的营养液，建议将其温度调节至室温[36]。目前相关研究仍较少，我们建议EN的喂养温度以接近机体生理喂养温度为宜。
+12 建议对大多数重症患者，选择标准配方EN制剂。
+〔推荐强度：（7.7±1.7）分〕
+EN制剂按氮源不同可分为整蛋白型、氨基酸和短肽型。重症患者应常规选择标准整蛋白配方或高蛋白配方[4]。
+EEN的实施主要受限于喂养不耐受，而腹泻是最常见原因[37]。我们建议，重症腹泻患者不应直接停止EN，而是继续喂养的同时寻找急性腹泻病因。对于喂养相关性腹泻，除了降低喂养量或暂停喂养可能是腹泻管理的基础，调整营养制剂也是较为有效的方法[38]。既往荟萃分析提示，富含膳食纤维的EN制剂可有效降低腹泻发生率，其中水溶性膳食纤维可酵解产生短链脂肪酸（SCFAs），是改善腹泻的主要成分[39]。虽然膳食纤维在不同患者中的作用存在一定差异，重症患者增加不明显[40]，但目前研究多支持重症患者启动EN时，尤其喂养不耐受者，可考虑应用富含膳食纤维配方[37]。常规EN制剂加入可溶性膳食纤维，较商用混合性膳食纤维EN在减少腹泻发生方面更佳，且导致肠梗阻的风险更低。
+预消化的短肽型EN制剂有助于改善喂养不耐受现象，有利于启动EEN。我们建议对下述患者给予预消化的EN配方[41]：存在肠梗阻风险、肠道缺血或严重肠蠕动障碍者，伴持续性腹泻不能耐受其他EN制剂者，伴吸收不良及对膳食纤维反应较差者，重症胰腺炎或短肠综合征等重症患者。
+13 建议对重症患者留置鼻胃管经胃喂养；喂饲时将床头抬高30°~45°。〔推荐强度：（8.4±0.9）分〕
+鼻胃管是提供短期EN最简便、最常用的方法，是2~3周EN治疗的首选管饲途径[42]。鼻胃管符合生理，置管技术简单，方便早期开始EN支持，适用于大多数患者。目前鼻胃管管道多采用聚氨树脂或硅胶管，质地柔软、管径较小，患者感觉舒适，但由于使用期限限制，需定期更换。
+重症患者多处于高度应激状态，易并发AGI，引起胃潴留[33]。胃潴留及胃内容物反流可导致窒息、误吸等严重并发症[43]。中华医学会肠外肠内营养学分会（CSPEN）指南推荐，在使用鼻胃管进行管饲时，建议患者头部抬高30°~45°，可以减少误吸和吸入性肺炎的发生[44]。
+14 建议对经胃喂养不能耐受、胃排出梗阻、胃瘫或者有高误吸风险的患者，采用幽门后喂养途径，如鼻肠管等。〔推荐强度：（8.6±0.8）分〕
+胃瘫、严重胃食管反流、高误吸风险、十二指肠梗阻、胃瘘、十二指肠瘘、重症胰腺炎等患者，都不适合通过鼻胃管行EN治疗[45]。对于不适合鼻胃管营养的患者，需要放置鼻肠管经空肠EN支持。一项针对13个RCT的荟萃分析显示，经小肠喂养组肺炎发生率〔相对危险度（RR）=0.75，95%可信区间（95%CI）=0.60~0.93，P=0.01〕及呼吸机相关性肺炎（VAP）发生率（RR=0.72，95%CI=0.55~0.93，P=0.01）显著低于经胃喂养组，且有更好的耐受性[46,47,48]。国内有研究显示，鼻肠管在减少并发症（特别是避免胃潴留和误吸发生）方面优于鼻胃管[49]，但两者在病死率、ICU住院时间、总住院时间、机械通气时间、达到的目标喂养量等方面差异均无统计学意义[48]。所以，目前尚无确切的证据证明两者在危重患者EN中孰优孰劣。但对于经胃喂养不能耐受、胃排出梗阻、胃瘫或者有吸入高风险的患者，建议使用幽门后喂养途径[4]。
+15 对于重症患者，建议盲法留置鼻胃/鼻肠管；对于置管失败或置管困难的患者，建议在内镜引导下放置；对于无法耐受内镜引导置管的患者，可选择超声或X线引导下放置鼻胃/鼻肠管。〔推荐强度：（8.4±0.9）分〕
+临床常用的鼻肠管放置方法包括：盲插法、经X线透视引导法、内镜下引导法、异物钳置管法、导丝置管法、经胃镜活检孔置管法以及电磁导航定位法。对于重症患者，盲法留置鼻胃/鼻肠管应用相对广泛。盲法鼻肠管的成功放置需要临床实践以及对标准技术的熟练掌握。盲法鼻肠管的成功率各中心不尽相同。目前留置鼻肠管通用的技术为使用导丝填充的鼻肠管并且操作过程中保持螺旋式前进[50]。临床上常用的能不同程度提高盲插成功率的方法包括：① 鼻肠管注水法；② 鼻肠管注气+右侧卧位法；③ 被动等待法联合应用胃肠动力药法；④ 鼻肠管双导丝法等。
+不是所有的患者都适合盲法放置营养管。盲法置管不成功者，内镜或荧光镜引导下放置更安全、更准确[51]。内镜引导下放置鼻肠管可以在不需要麻醉的情况下床旁进行。然而，部分重症患者存在血流动力学不稳定、心功能不全、腹胀等情况，不能耐受内镜下置管，此时建议选择X线透视引导置管。此法放置鼻肠管定位准确、安全性好、成功率高，但操作需在影像科进行。此外，重症超声具有床旁、实时、快速等特点，可实时监测放置全过程，为无创放置鼻肠管提供选择。随着重症超声技术的发展，超声引导下放置鼻肠管将越来越普及[52,53]。
+16 启动鼻胃/鼻肠管喂养时，需要首先确定鼻胃/鼻肠管远端是否在胃内/空肠。〔推荐强度：（8.6±0.8）分〕
+在开始鼻胃/鼻肠管管饲之前，需先确定胃管远端在胃内或空肠。目前临床上，确定鼻胃管远端最常用的方法为胃部听诊法，但这种方法可能会误导判断，比如胃管尾端进入肺部、出现穿孔、胃管位于胸腔或者盘绕在食道[45,54]。最可靠的判断方法是影像学，在拔除胃管导丝之前行胸腹部X线检查以判断胃管尾端是否位于胃内[55]。鼻肠管定位时同样可以依靠影像学（如腹部X线、超声定位）以及内镜，确定鼻肠管远端位置。
+17 对于接受腹部外科手术需进行EN治疗的患者，建议在术中建立EN通路。〔推荐强度：（8.1±1.2）分〕
+2006年欧洲肠外与肠内营养学会（ESPEN）外科手术EN指南指出，如果预计患者围手术期有7 d以上不能摄食时，即使没有明显营养不足的情况下，也应该使用EN；实际摄入量不足推荐摄入量60%超过10 d，应该使用EN[56]。对接受近端胃肠道吻合的患者，特别推荐手术中常规实施穿刺导管空肠造瘘，一方面能减少对胃肠吻合口的影响，另一方面对于实施手术后EEN、防治手术并发症（包括胃肠瘘）、节省医疗费用、缩短住院时间至关重要。
+18 对于存在胃肠营养不耐受或高误吸风险的重症患者，建议进行GRV监测。有条件的单位可采用B超测定GRV。〔推荐强度：（8.4±0.9）分〕
+2016年国际脓毒症指南建议，针对喂养不耐受或存在高误吸风险的患者需常规测量GRV[57]。最新2017年欧洲危重病学会（ESICM）临床实践指南亦建议，对监测GRV> 500 mL/6 h的重症患者实行延迟的胃肠营养[5]。但国内缺乏相关的临床研究。我们建议针对可能有EN不耐受的患者，应进行GRV监测。
+在一项针对72项研究的荟萃分析中，高达38%的患者出现EN喂养不耐受现象，主要表现为大量的GRV和其他胃肠道症状[16]。而另一项随机试验中，GRV监测虽没有减少VAP的发生，但在没有常规GRV测量的情况下，呕吐发生率明显增高，故大大增加了VAP发生的危险[58]。GRV的监测与胃肠不耐受性及吸入性肺炎的预防密切相关，我们建议对此类高风险患者实施GRV监测。目前较常用的GRV监测方法有回抽法和超声法等。回抽法的缺点是抽取胃内容物可造成营养液、消化液的丢失。虽然这可以通过增加营养液的输注、重新输入抽取的胃内容物等方法来解决，但近年来随着重症超声的普及使B超测定GRV成为可行的办法[59,60,61]，同时也解决了胃内营养液等丢失的问题。
+19 对实施经胃喂养的重症患者，建议每4 h监测GRV；对于GRV>250 mL的患者，建议给予幽门后喂养、促进胃肠运动及抬高床头。〔推荐强度：（8.1±1.0）分〕
+研究显示，对实施EN的患者每4 h进行1次GRV监测是合适的[62]。如果监测GRV<250 mL宜继续实施EN；如果GRV>250 mL则宜暂停EN 2~8 h，以后继续按原方案进行喂养，如果下一次监测GRV仍>250 mL则应停止喂养，按EN不耐受处理，包括导管位置改变、输注速度下调、采取幽门后喂养（尤其是病情较严重者）、应用胃肠道促动力药物、床头抬高30°~45°等。而是否有肠鸣音或排便不应作为添加肠内营养液的常规依据[4]，应用B超观察是否有肠蠕动可作为EN依据。
+20 若发生喂养相关性腹泻，建议改变营养液输注方式或配方成分。〔推荐强度：（8.3±1.2）分〕
+肠内营养液的成分（乳糖、脂肪、纤维素含量等）、渗透压、温度不恰当或输注速度过快等，均可导致腹泻的发生。对于EN导致的腹泻可能需要减慢输注速度、重新定位营养管、稀释营养配方、营养液加温处理，并应注意不能过长时间应用质子泵抑制剂，必要时可加服消化酶以改善消化功能。增加配方中可溶性膳食纤维的含量可延长食物在胃肠道的通过时间，减少腹泻的发生[4]。但是成人危重病患者不应常规应用混合纤维配方的EN制剂来提高肠动力或预防腹泻。若有持续性腹泻表现，则可考虑应用含有混合纤维配方的EN制剂。对于肠道缺血或严重胃肠道动力障碍的高危患者，应避免选择含有可溶性和不可溶性纤维的配方。对于持续性腹泻、可疑吸收不良、肠缺血或纤维耐受不佳的患者，建议使用短肽型EN制剂[63]。
+21 建议对实施EN的患者采取相应措施防止发生呕吐反流。〔推荐强度：（8.6±1.4）分〕
+为防止呕吐反流的发生，建议采取床头抬高30°~45°体位、尽可能少用镇静剂、持续缓慢EN输入、每4 h监测1次GRV、持续人工气道囊上吸引、必要时应用促进胃肠动力药等措施。平卧体位或过度镇静均可能导致胃内容物反流，故除了必须平卧的患者如休克、腰椎穿刺手术后及全麻手术后等，其他患者均应采取床头抬高30°~45°体位以减少反流误吸的风险，且镇静须适度。同时，持续低负压囊上吸引可使在气囊处积聚的液体及时被吸除，以免进入下呼吸道而导致VAP[64]。
+22 对于存在腹内压（IAP）增高的患者，建议采用间接测量法监测膀胱内压力和根据IAP调整EN。
+〔推荐强度：（8.2±1.4）分〕
+由于IAP增高可能导致横膈上抬而影响肺的功能，也可能压迫肾血管而影响肾功能、减少尿量，甚至可能压迫下腔静脉，使其血液回流障碍而影响血流动力学的稳定，故应经常、反复测量IAP。采用膀胱测压法间接反映IAP较方便和准确，是目前临床较常用的方法[65]。
+当IAP增高时，不当的EN将增加腹腔内容物而进一步增高IAP，故应谨慎实施EN并根据IAP的动态变化及时调整EN方案。我们建议至少每4 h监测1次IAP。在IAP 12~15 mmHg时可以继续进行常规EN；IAP 16~20 mmHg时应采用滋养型喂养；当IAP>20 mmHg时则应暂停EN [66]。
+23 为了提高EEN的耐受性，建议根据患者个体情况采用中医药的方法进行辨证论治，包括中药内服、灌肠、外敷及针灸穴位等治疗。〔推荐强度：（7.2±1.7）分〕
+根据中医"卫气出中焦"理论，重症患者遭受外邪打击，必然重创卫气，从而中焦被遏，导致中焦气机不畅或中焦脾胃虚弱，运化无权，主要表现为腹胀、腹泻及恶心呕吐等而不能耐受EN，中医诊断为"鼓胀""痞满""泄泻"等范畴。这些患者可采用中医药的方法预防和治疗胃肠功能障碍，使其能顺利实施EN[67,68]。
+对腹胀及恶心呕吐者可采用理气通腑的方法，如应用生大黄（10~15 g）、大承气汤（大黄9 g、芒硝12 g、枳实9 g、厚朴24 g）或厚朴排便合剂等内服，通便灌肠液（主要成分猪牙皂）、桃核承气汤等灌肠，芒硝150 g敷脐，也可采用针灸穴位（腹部的神阙、天枢、中脘、下脘、气海、关元、三角灸穴等，背部的大肠俞、小肠俞、关元俞等，手足的合谷、内关、手三里、曲池、足三里、上巨虚、下巨虚、丰隆等）。此外，还可采用新斯的明1 mg足三里穴位注射。
+对腹泻者可采用涩肠止泻的方法，如四神丸（肉豆蔻9 g、补骨脂15 g、五味子6 g、吴茱萸3 g、大枣15 g、生姜9 g）、真人养脏汤（人参15 g、当归15 g、炒白术15 g、肉豆蔻9 g、肉桂5 g、炙甘草6 g、炒白芍15 g、木香6 g、诃子9 g、罂粟壳9 g）等内服，五倍子粉15 g敷脐等。
+24 EN流程〔推荐强度：（8.4±0.9）分〕
+我们建议采用EN流程化管理的方式以改善重症患者EN的耐受性，减少不良反应的发生（图1）。
+点击查看大图
+图1
+EN流程化管理方式
+注：EN为肠内营养，PN为肠外营养，GRV为胃残余量
+图1
+EN流程化管理方式
+委员会成员
+执笔专家（按姓氏笔画排序）：孙仁华（浙江省人民医院，Email：jqin168@hotmail.com），江荣林（浙江中医药大学附属第一医院，Email：jiangronglin@126.com），黄曼（浙江大学医学院附属第二医院，Email：huangman@zju.edu.cn），蔡国龙（浙江医院，Email：caiguolong@126.com）
+评审专家（按姓氏笔画排序）：于湘友（新疆医科大学一附院），马晓春（中国医科大学附属第一医院），王雪（西安交通大学第一附属医院），刘健（兰州大学第一医院），朱建华（宁波市第一医院），许媛（首都医科大学附属北京同仁医院），严静（浙江医院），何先弟（蚌埠医学院第一附属医院），应利君（绍兴市人民医院），张伟文（衢州市人民医院），李建国（武汉大学中南医院），李维勤（南京军区南京总医院），施云超（嘉兴市第一医院），徐秋萍（浙江大学医学院附属邵逸夫医院），徐颖鹤（台州医院），康焰（四川大学华西医院），潘景业（温州医科大学附属第一医院）
+编写工作小组（按姓氏笔画排序）：卢孔渺（浙江大学医学院附属第二医院），刘景全（浙江省人民医院），李声娜（浙江医院），郑祥鑫（浙江大学医学院附属第二医院），黄立权（浙江中医药大学附属第一医院），颜默磊（浙江医院）
+志      谢
+志谢 感谢王灵聪、王秋雁、平玉坤、叶宁镭、叶高峰、刘晓、何永礼、吴晓平、张宁、张明、张泽华、张育苗、张美齐、忻刚、李彤、李娟、李建纲、李爱民、杨莹、杨春华、沈东峰、沈晓圆、陆兴焕、陈玮、周大勇、林森、林永清、罗金明、郑永科、金细众、洪玉才、胡东军、骆建军、唐卫东、徐军、徐少毅、诸葛建成、高建波、曹加明、盛孝燕、章渭方、黄亮、傅水桥、温汉春、谢海波、楼滟、蔡毅峰、潘爱军、戴金权等专家参与共识的会议讨论；本共识受浙江省创新学科——脓毒症学及浙江省卫生高层次人才项目支持
+参考文献
+[1]
+HeylandDK,DhaliwalR,JiangX, et al.
+Identifying critically ill patients who benefit the most from nutrition therapy: the development and initial validation of a novel risk assessment tool [J].
+Crit Care,
+2011,
+15(
+6):
+R268.
+DOI: 10.1186/cc10546.
+[2]
+HübnerM,CerantolaY,GrassF, et al.
+Preoperative immuno-nutrition in patients at nutritional risk: results of a double-blinded randomized clinical trial [J].
+Eur J Clin Nutr,
+2012,
+66(
+7):
+850-
+855.
+DOI: 10.1038/ejcn.2012.53.
+[3]
+KondrupJ,RasmussenHH,HambergO, et al.
+Nutritional risk screening (NRS 2002): a new method based on an analysis of controlled clinical trials [J].
+Clin Nutr,
+2003,
+22(
+3):
+321-
+336.
+DOI: 10.1016/S0261-5614(02)00214-5.
+[4]
+TaylorBE,McClaveSA,MartindaleRG, et al.
+Guidelines for the provision and assessment of nutrition support therapy in the adult critically ill patient: Society of Critical Care Medicine (SCCM) and American Society for Parenteral and Enteral Nutrition (A.S.P.E.N.) [J].
+Crit Care Med,
+2016,
+44(
+2):
+390-
+438.
+DOI: 10.1097/CCM.0000000000001525.
+[5]
+Reintam BlaserA,StarkopfJ,AlhazzaniW, et al.
+Early enteral nutrition in critically ill patients: ESICM clinical practice guidelines [J].
+Intensive Care Med,
+2017,
+43(
+3):
+380-
+398.
+DOI: 10.1007/s00134-016-4665-0.
+[6]
+McClaveSA,DiBaiseJK,MullinGE, et al.
+ACG clinical guideline: nutrition therapy in the adult hospitalized patient [J].
+Am J Gastroenterol,
+2016,
+111(
+3):
+315-334; quiz 335.
+DOI: 10.1038/ajg.2016.28.
+[7]
+DhaliwalR,CahillN,LemieuxM, et al.
+The Canadian critical care nutrition guidelines in 2013: an update on current recommendations and implementation strategies [J].
+Nutr Clin Pract,
+2014,
+29(
+1):
+29-
+43.
+DOI: 10.1177/0884533613510948.
+[8]
+JieB,JiangZM,NolanMT, et al.
+Impact of preoperative nutritional support on clinical outcome in abdominal surgical patients at nutritional risk [J].
+Nutrition,
+2012,
+28(
+10):
+1022-
+1027.
+DOI: 10.1016/j.nut.2012.01.017.
+[9]
+DoigGS,HeighesPT,SimpsonF, et al.
+Early enteral nutrition, provided within 24  h of injury or intensive care unit admission, significantly reduces mortality in critically ill patients: a meta-analysis of randomised controlled trials [J].
+Intensive Care Med,
+2009,
+35(
+12):
+2018-
+2027.
+DOI: 10.1007/s00134-009-1664-4.
+[10]
+MarikPE,ZalogaGP.
+Early enteral nutrition in acutely ill patients: a systematic review [J].
+Crit Care Med,
+2001,
+29(
+12):
+2264-
+2070.
+DOI: 10.1097/00003246-200112000-00005.
+[11]
+HeylandDK,DhaliwalR,DroverJW, et al.
+Canadian clinical practice guidelines for nutrition support in mechanically ventilated, critically ill adult patients [J].
+JPEN J Parenter Enteral Nutr,
+2003,
+27(
+5):
+355-
+373.
+DOI: 10.1177/0148607103027005355.
+[12]
+LewisSJ,EggerM,SylvesterPA, et al.
+Early enteral feeding versus "nil by mouth" after gastrointestinal surgery: systematic review and meta-analysis of controlled trials [J].
+BMJ,
+2001,
+323(
+7316):
+773-
+776.
+DOI: 10.1136/bmj.323.7316.773.
+[13]
+WeimannA,BragaM,CarliF, et al.
+ESPEN guideline: clinical nutrition in surgery [J].
+Clin Nutr,
+2017,
+36(
+3):
+623-
+650.
+DOI: 10.1016/j.clnu.2017.02.013.
+[14]
+TalwarB,DonnellyR,SkellyR, et al.
+Nutritional management in head and neck cancer: United Kingdom National Multidisciplinary Guidelines [J].
+J Laryngol Otol,
+2016,
+130(
+S2):
+S32-
+40.
+DOI: 10.1017/S0022215116000402.
+[15]
+VicicVK,RadmanM,KovacicV.
+Early initiation of enteral nutrition improves outcomes in burn disease [J].
+Asia Pac J Clin Nutr,
+2013,
+22(
+4):
+543-
+547.
+DOI: 10.6133/apjcn.2013.22.4.13.
+[16]
+BlaserAR,StarkopfJ,Kirsimägiü, et al.
+Definition, prevalence, and outcome of feeding intolerance in intensive care: a systematic review and meta-analysis [J].
+Acta Anaesthesiol Scand,
+2014,
+58(
+8):
+914-
+922.
+DOI: 10.1111/aas.12302.
+[17]
+Grau CarmonaT,López MartínezJ,Vila GarcíaB, et al.
+Guidelines for specialized nutritional and metabolic support in the critically-ill patient. Update. Consensus of the Spanish Society of Intensive Care Medicine and Coronary Units-Spanish Society of Parenteral and Enteral Nutrition (SEMICYUC-SENPE): respiratory failure [J].
+Med Intensiva,
+2011,
+35
+Suppl 1:
+38-
+41.
+DOI: 10.1016/S0210-5691(11)70008-0.
+[18]
+KearnsPJ,ChinD,MuellerL, et al.
+The incidence of ventilator-associated pneumonia and success in nutrient delivery with gastric versus small intestinal feeding: a randomized clinical trial [J].
+Crit Care Med,
+2000,
+28(
+6):
+1742-
+1746.
+DOI: 10.1097/00003246-200006000-00007.
+[19]
+ChourdakisM,KrausMM,TzellosT, et al.
+Effect of early compared with delayed enteral nutrition on endocrine function in patients with traumatic brain injury: an open-labeled randomized trial [J].
+JPEN J Parenter Enteral Nutr,
+2012,
+36(
+1):
+108-
+116.
+DOI: 10.1177/0148607110397878.
+[20]
+CasaerMP,MesottenD,HermansG, et al.
+Early versus late parenteral nutrition in critically ill adults [J].
+N Engl J Med,
+2011,
+365(
+6):
+506-
+517.
+DOI: 10.1056/NEJMoa1102662.
+[21]
+DoigGS,SimpsonF,SweetmanEA, et al.
+Early parenteral nutrition in critically ill patients with short-term relative contraindications to early enteral nutrition: a randomized controlled trial [J].
+JAMA,
+2013,
+309(
+20):
+2130-
+2138.
+DOI: 10.1001/jama.2013.5124.
+[22]
+DetskyAS,BakerJP,O'RourkeK, et al.
+Predicting nutrition-associated complications for patients undergoing gastrointestinal surgery [J].
+JPEN J Parenter Enteral Nutr,
+1987,
+11(
+5):
+440-
+446.
+DOI: 10.1177/0148607187011005440.
+[23]
+KleinS,KinneyJ,JeejeebhoyK, et al.
+Nutrition support in clinical practice: review of published data and recommendations for future research directions. National Institutes of Health, American Society for Parenteral and Enteral Nutrition, and American Society for Clinical Nutrition [J].
+JPEN J Parenter Enteral Nutr,
+1997,
+21(
+3):
+133-
+156.
+DOI: 10.1177/0148607197021003133.
+[24]
+HeylandDK,StephensKE,DayAG, et al.
+The success of enteral nutrition and ICU-acquired infections: a multicenter observational study [J].
+Clin Nutr,
+2011,
+30(
+2):
+148-
+155.
+DOI: 10.1016/j.clnu.2010.09.011.
+[25]
+RobinsonMK,MogensenKM,CaseyJD, et al.
+The relationship among obesity, nutritional status, and mortality in the critically ill [J].
+Crit Care Med,
+2015,
+43(
+1):
+87-
+100.
+DOI: 10.1097/CCM.0000000000000602.
+[26]
+AllingstrupMJ,EsmailzadehN,Wilkens KnudsenA, et al.
+Provision of protein and energy in relation to measured requirements in intensive care patients [J].
+Clin Nutr,
+2012,
+31(
+4):
+462-
+468.
+DOI: 10.1016/j.clnu.2011.12.006.
+[27]
+RousseauAF,LosserMR,IchaiC, et al.
+ESPEN endorsed recommendations: nutritional therapy in major burns [J].
+Clin Nutr,
+2013,
+32(
+4):
+497-
+502.
+DOI: 10.1016/j.clnu.2013.02.012.
+[28]
+中华医学会神经外科学分会,中国神经外科重症管理协作组.
+中国神经外科重症患者消化与营养管理专家共识(2016) [J].
+中华医学杂志,
+2016,
+96(
+21):
+1643-
+1647.
+DOI: 10.3760/cma.j.issn.0376-2491.2016.021.005.
+Chinese Medical Association Neurosurgery Branch, China Neurosurgical Intensive Care Cooperation Group. Expert consultation on digestive and nutrition management in critical patients with neurosurgery in China (2016) [J]. Natl Med J China, 2016, 96(21): 1643-1647. DOI: 10.3760/cma.j.issn.0376-2491.2016.021.005.
+[29]
+中华医学会老年医学分会.
+老年医学(病)科临床营养管理指导意见[J].
+中华老年医学杂志,
+2015,
+34(
+12):
+1388-
+1395.
+DOI: 10.3760/cma.j.issn.0254-9026.2015.12.028.
+Chinese Medical Association of Geriatrics. Advice on clinical nutrition management of geriatrics (department of geriatrics) [J]. Chin J Geriatr, 2015, 34(12): 1388-1395. DOI: 10.3760/cma.j.issn.0254-9026.2015.12.028.
+[30]
+RiceTW,WheelerAP,ThompsonBT, et al.
+Initial trophic vs full enteral feeding in patients with acute lung injury: the EDEN randomized trial [J].
+JAMA,
+2012,
+307(
+8):
+795-
+803.
+DOI: 10.1001/jama.2012.137.
+[31]
+NeedhamDM,DinglasVD,MorrisPE, et al.
+Physical and cognitive performance of patients with acute lung injury 1 year after initial trophic versus full enteral feeding. EDEN trial follow-up [J].
+Am J Respir Crit Care Med,
+2013,
+188(
+5):
+567-
+576.
+DOI: 10.1164/rccm.201304-0651OC.
+[32]
+PatelJJ,KozenieckiM,BiesboerA, et al.
+Early trophic enteral nutrition is associated with improved outcomes in mechanically ventilated patients with septic shock: a retrospective review [J].
+J Intensive Care Med,
+2016,
+31(
+7):
+471-
+477.
+DOI: 10.1177/0885066614554887.
+[33]
+Reintam BlaserA,MalbrainML,StarkopfJ, et al.
+Gastrointestinal function in intensive care patients: terminology, definitions and management. Recommendations of the ESICM Working Group on Abdominal Problems [J].
+Intensive Care Med,
+2012,
+38(
+3):
+384-
+394.
+DOI: 10.1007/s00134-011-2459-y.
+[34]
+陈伟.
+2016《维生素制剂临床应用专家共识》解读及再喂养综合征的防治[J].
+中华老年医学杂志,
+2017,
+36(
+3):
+242-
+244.
+DOI: 10.3760/cma.j.issn.0254-9026.2017.03.004.
+ChenW. Interpretation of expert consensus on clinical application of vitamin preparations 2016 and prevention of refeeding syndrome [J]. Chin J Geriatr, 2017, 36(3): 242-244. DOI: 10.3760/cma.j.issn.0254-9026.2017.03.004.
+[35]
+StangaZ,BrunnerA,LeuenbergerM, et al.
+Nutrition in clinical practice: the refeeding syndrome: illustrative cases and guidelines for prevention and treatment [J].
+Eur J Clin Nutr,
+2008,
+62(
+6):
+687-
+694.
+DOI: 10.1038/sj.ejcn.1602854.
+[36]
+BlumensteinI,ShastriYM,SteinJ.
+Gastroenteric tube feeding: techniques, problems and solutions [J].
+World J Gastroenterol,
+2014,
+20(
+26):
+8505-
+8524.
+DOI: 10.3748/wjg.v20.i26.8505.
+[37]
+YagmurdurH,LeblebiciF.
+Enteral nutrition preference in critical care: fibre-enriched or fibre-free? [J].
+Asia Pac J Clin Nutr,
+2016,
+25(
+4):
+740-
+746.
+DOI: 10.6133/apjcn.122015.12.
+[38]
+JackL,CoyerF,CourtneyM, et al.
+Diarrhoea risk factors in enterally tube fed critically ill patients: a retrospective audit [J].
+Intensive Crit Care Nurs,
+2010,
+26(
+6):
+327-
+334.
+DOI: 10.1016/j.iccn.2010.08.001.
+[39]
+ChittawatanaratK,PokawinpudisnunP,PolbhakdeeY.
+Mixed fibers diet in surgical ICU septic patients [J].
+Asia Pac J Clin Nutr,
+2010,
+19(
+4):
+458-
+464.
+[40]
+MajidHA,ColeJ,EmeryPW, et al.
+Additional oligofructose/inulin does not increase faecal bifidobacteria in critically ill patients receiving enteral nutrition: a randomised controlled trial [J].
+Clin Nutr,
+2014,
+33(
+6):
+966-
+972.
+DOI: 10.1016/j.clnu.2013.11.008.
+[41]
+Araújo-JunqueiraL,De-SouzaDA.
+Enteral nutrition therapy for critically ill adult patients; critical review and algorithm creation [J].
+Nutr Hosp,
+2012,
+27(
+4):
+999-
+1008.
+DOI: 10.3305/nh.2012.27.4.5840.
+[42]
+ArribasL,FríasL,CreusG, et al.
+Document of standardization of enteral nutrition access in adults [J].
+Nutr Hosp,
+2014,
+30(
+1):
+1-
+14.
+DOI: 10.3305/nh.2014.30.1.7446.
+[43]
+HuB,SunR,WuA, et al.
+Severity of acute gastrointestinal injury grade is a predictor of all-cause mortality in critically ill patients: a multicenter, prospective, observational study [J].
+Crit Care,
+2017,
+21(
+1):
+188.
+DOI: 10.1186/s13054-017-1780-4.
+[44]
+中华医学会肠外肠内营养学分会老年营养支持学组.
+老年患者肠外肠内营养支持中国专家共识[J].
+中华老年医学杂志,
+2013,
+32(
+9):
+913-
+929.
+DOI: 10.3760/cma.j.issn.0254-9026.2013.09.001.
+Chinese Medical Association Parenteral And Enteral Nutritional Nutrition Subordinate Nutritional Support Group. Elderly patients with parenteral and enteral nutrition support of chinese experts consensus [J]. Chin J Geriatr, 2013, 32(9): 913-929. DOI: 10.3760/cma.j.issn.0254-9026.2013.09.001.
+[45]
+ItkinM,DeLeggeMH,FangJC, et al.
+Multidisciplinary practical guidelines for gastrointestinal access for enteral nutrition and decompression from the Society of Interventional Radiology and American Gastroenterological Association (AGA) Institute, with endorsement by Canadian Interventional Radiological Association (CIRA) and Cardiovascular and Interventional Radiological Society of Europe (CIRSE) [J].
+Gastroenterology,
+2011,
+141(
+2):
+742-
+765.
+DOI: 10.1053/j.gastro.2011.06.001.
+[46]
+DaviesAR,MorrisonSS,BaileyMJ, et al.
+A multicenter, randomized controlled trial comparing early nasojejunal with nasogastric nutrition in critical illness [J].
+Crit Care Med,
+2012,
+40(
+8):
+2342-
+2348.
+DOI: 10.1097/CCM.0b013e318255d87e.
+[47]
+Acosta-EscribanoJ,Fernández-VivasM,Grau CarmonaT, et al.
+Gastric versus transpyloric feeding in severe traumatic brain injury: a prospective, randomized trial [J].
+Intensive Care Med,
+2010,
+36(
+9):
+1532-
+1539.
+DOI: 10.1007/s00134-010-1908-3.
+[48]
+AlhazzaniW,AlmasoudA,JaeschkeR, et al.
+Small bowel feeding and risk of pneumonia in adult critically ill patients: a systematic review and meta-analysis of randomized trials [J].
+Crit Care,
+2013,
+17(
+4):
+R127.
+DOI: 10.1186/cc12806.
+[49]
+程旭萍,章云涛,方强.
+两种不同肠内营养途径在重型颅脑损伤患者中的应用比较[J].
+中国急救医学,
+2007,
+27(
+7):
+643-
+644.
+DOI: 10.3969/j.issn.1002-1949.2007.07.023.
+ChengXP,ZhangYT,FangQ. Comparison of the different ways of enteral nutrition in the patients with severe head injury [J]. Chin J Crit Care Med, 2007, 27(7): 643-644. DOI: 10.3969/j.issn.1002-1949.2007.07.023.
+[50]
+ZalogaGP.
+Bedside method for placing small bowel feeding tubes in critically ill patients. A prospective study [J].
+Chest,
+1991,
+100(
+6):
+1643-
+1646.
+DOI: 10.1378/chest.100.6.1643.
+[51]
+SorokinR,GottliebJE.
+Enhancing patient safety during feeding-tube insertion: a review of more than 2 000 insertions [J].
+JPEN J Parenter Enteral Nutr,
+2006,
+30(
+5):
+440-
+445.
+[52]
+叶瑞忠,范小明,王立刚,等.
+改良超声方法在重症患者留置鼻肠管头端定位中的初步应用[J].
+中华临床营养杂志,
+2016,
+24(
+4):
+199-
+202.
+DOI: 10.3760/cma.j.issn.1674-635X.2016.04.002.
+YeRZ,FanXM,WangLG, et al. Preliminary application of modified ultrasound method in locating indwelling nasointestinal tube end in critically ill patients [J]. Chin J Clin Nutr, 2016, 24(4): 199-202. DOI: 10.3760/cma.j.issn.1674-635X.2016.04.002.
+[53]
+叶瑞忠,刘景全,孙仁华,等.
+胃肠超声造影技术联合气体灌注定位鼻肠管的方法学研究[J].
+肠外与肠内营养,
+2017,
+24(
+2):
+112-117, 121.
+DOI: 10.16151/j.1007-810x.2017.02.014.
+YeRZ,LiuJQ,SunRH, et al. Methodological research of nasointestinal tube positioning confirmed by gastrointestinal contrastenhanced ultrasound combined gas injection [J]. Parenter Enteral Nutr, 2017, 24(2): 112-117, 121. DOI: 10.16151/j.1007-810x.2017.02.014.
+[54]
+BoeykensK,SteemanE,DuysburghI.
+Reliability of pH measurement and the auscultatory method to confirm the position of a nasogastric tube [J].
+Int J Nurs Stud,
+2014,
+51(
+11):
+1427-
+1433.
+DOI: 10.1016/j.ijnurstu.2014.03.004.
+[55]
+BankheadR,BoullataJ,BrantleyS, et al.
+Enteral nutrition practice recommendations [J].
+JPEN J Parenter Enteral Nutr,
+2009,
+33(
+2):
+122-
+167.
+DOI: 10.1177/0148607108330314.
+[56]
+KreymannKG,BergerMM,DeutzNE, et al.
+ESPEN guidelines on enteral nutrition: intensive care [J].
+Clin Nutr,
+2006,
+25(
+2):
+210-
+223.
+DOI: 10.1016/j.clnu.2006.01.021.
+[57]
+RhodesA,EvansLE,AlhazzaniW, et al.
+Surviving Sepsis Campaign: international guidelines for management of sepsis and septic shock: 2016 [J].
+Crit Care Med,
+2017,
+45(
+3):
+486-
+552.
+DOI: 10.1097/CCM.0000000000002255.
+[58]
+ReignierJ,MercierE,Le GougeA, et al.
+Effect of not monitoring residual gastric volume on risk of ventilator-associated pneumonia in adults receiving mechanical ventilation and early enteral feeding: a randomized controlled trial [J].
+JAMA,
+2013,
+309(
+3):
+249-
+256.
+DOI: 10.1001/jama.2012.196377.
+[59]
+BatemanDN,WhittinghamTA.
+Measurement of gastric emptying by real-time ultrasound [J].
+Gut,
+1982,
+23(
+6):
+524-
+527.
+DOI: 10.1136/gut.23.6.524.
+[60]
+BolondiL,BortolottiM,SantiV, et al.
+Measurement of gastric emptying time by real-time ultrasonography [J].
+Gastroenterology,
+1985,
+89(
+4):
+752-
+759.
+DOI: 10.1016/0016-5085(85)90569-4.
+[61]
+MarzioL,GiacobbeA,ConoscitoreP, et al.
+Evaluation of the use of ultrasonography in the study of liquid gastric emptying [J].
+Am J Gastroenterol,
+1989,
+84(
+5):
+496-
+500.
+[62]
+CheathamML,MalbrainML,KirkpatrickA, et al.
+Results from the international conference of experts on intra-abdominal hypertension and abdominal compartment syndrome. Ⅱ. Recommendations [J].
+Intensive Care Med,
+2007,
+33(
+6):
+951-
+962.
+DOI: 10.1007/s00134-007-0592-4.
+[63]
+HeimburgerDC,GeelsVJ,BilbreyJ, et al.
+Effects of small-peptide and whole-protein enteral feedings on serum proteins and diarrhea in critically ill patients: a randomized trial [J].
+JPEN J Parenter Enteral Nutr,
+1997,
+21(
+3):
+162-
+167.
+DOI: 10.1177/0148607197021003162.
+[64]
+MethenyNA.
+Prevention of aspiration in adults [J].
+Crit Care Nurse,
+2016,
+36(
+1):
+e20-
+24.
+DOI: 10.4037/ccn2016831.
+[65]
+MalbrainML,CheathamML,KirkpatrickA, et al.
+Results from the international conference of experts on intra-abdominal hypertension and abdominal compartment syndrome. Ⅰ. Definitions [J].
+Intensive Care Med,
+2006,
+32(
+11):
+1722-
+1732.
+DOI: 10.1007/s00134-006-0349-5.
+[66]
+KirkpatrickAW,RobertsDJ,De WaeleJ, et al.
+Intra-abdominal hypertension and the abdominal compartment syndrome: updated consensus definitions and clinical practice guidelines from the World Society of the Abdominal Compartment Syndrome [J].
+Intensive Care Med,
+2013,
+39(
+7):
+1190-
+206.
+DOI: 10.1007/s00134-013-2906-z.
+[67]
+江荣林,吕宾.
+危重症急性胃肠损伤学[M].
+杭州:
+浙江大学出版社,
+2017.
+JiangRL,LyuB. Critical acute gastrointestinal injury [M]. Hangzhou: Zhejiang University Press, 2017.
+[68]
+WangY,ZhangY,JiangR.
+Early traditional Chinese medicine bundle therapy for the prevention of sepsis acute gastrointestinal injury in elderly patients with severe sepsis [J].
+Sci Rep,
+2017,
+7:
+46015.
+DOI: 10.1038/srep46015.
+贡献者信息
+孙仁华
+江荣林
+黄曼
+蔡国龙
+关键词
+肠内营养;
+重症疾病;
+历史
+出版日期：2018-08-10
+收稿日期：2018-07-23
+Standard and Guildline
+Consensus of early enteral nutrition clinical practice in critically ill patients
+Sun Renhua,  Jiang Ronglin,  Huang Man,  Cai Guolong
+Published
+2018-08-10
+Cite as
+Chin Crit Care Med, 2018,30(8): 715-721. DOI: 10.3760/cma.j.issn.2095-4352.2018.08.001
+Abstract
+The benefits of early enteral nutrition (EEN) during critical illness have been widely accepted by global experts. To popularize this new concept and provide standardized, reasonable and effective EEN therapy for critically ill patients in China, more than 20 experts from throughout the country discussed and developed this consensus. We used the GRADE approach for consensus development, focusing on important clinical issues such as nutrition assessment, initiating mode, route selection and tolerance monitoring of EEN support therapy for current critically ill patients. This consensus would be certainly help for intensive care physicians in the clinical application of EEN support therapy for critically ill patients.
+Key words:
+Enteral nutrition; Critical illness
+Contributor Information
+Sun Renhua
+Jiang Ronglin
+Huang Man
+Cai Guolong
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+注：EN为肠内营养，PN为肠外营养，GRV为胃残余量
+图1
+EN流程化管理方式
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华危重病急救医学2018年30卷8期
+文    题：重症患者早期肠内营养临床实践专家共识
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华危重病急救医学2018年30卷8期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+Original text
+Contribute a better translation
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

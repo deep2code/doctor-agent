@@ -1,0 +1,1042 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E7%BB%9D%E7%BB%8F%E7%AE%A1%E7%90%86%E4%B8%8E%E7%BB%9D%E7%BB%8F%E6%BF%80%E7%B4%A0%E6%B2%BB%E7%96%97%E4%B8%AD%E5%9B%BD%E6%8C%87%E5%8D%97%EF%BC%882018%EF%BC%89.html
+# 标题: 绝经管理与绝经激素治疗中国指南（2018） - 中华妇产科杂志
+# 发布方/日期: 妇产科，中华妇产科杂志, 2018,53(11) : 729-739. DOI: 10.3760/cma.j；2018-11-25
+
+AUTO TRANSLATION​▼
+绝经管理与绝经激素治疗中国指南（2018）
+中华医学会妇产科学分会绝经学组
+中华妇产科杂志, 2018,53(11) : 729-739. DOI: 10.3760/cma.j.issn.0529-567x.2018.11.001
+绝经的本质是卵巢功能衰竭。伴随卵巢功能的衰退，女性会出现多种绝经相关症状、组织萎缩退化和代谢功能紊乱，导致一系列身心健康问题。随着人类寿命的延长，绝经过渡期和绝经后期已成为女性生命周期中最长的阶段，需要对此阶段的女性进行全面的生活方式指导和健康管理，包括饮食、运动、控烟、限酒等，并指导适宜人群开展绝经激素治疗（menopause hormone therapy, MHT），或对非适宜人群采用非激素治疗，以缓解绝经相关症状，提高和改善其生命质量。
+MHT是为弥补卵巢功能衰竭而采取的治疗措施。经过多年的实践证实，科学应用MHT可有效缓解绝经相关症状，绝经早期使用还能在一定程度上预防老年慢性疾病的发生[1,2]。
+为使国内各级医师更好地开展绝经管理工作并指导临床治疗，中华医学会妇产科学分会绝经学组基于国内外最新的循证医学结果和最佳证据，参考国际最新的相关指南，结合我国具体情况，在2012年修订的《绝经期管理与激素补充治疗临床应用指南（2012版）》[3]基础上，经多次讨论修改，制定了本指南。本指南中应用的证据级别和建议等级源自英国皇家妇产科医师协会（RCOG）的推荐[4]。
+一、绝经的诊断及分期
+1．诊断：
+绝经是指月经永久性停止，属回顾性临床诊断。40岁以上的女性末次月经之后12个月仍未出现月经，排除妊娠后则可临床诊断为绝经。绝经的真正含义并非指月经的有无，而是指卵巢功能的衰竭。单纯子宫切除的女性，虽然不再有月经来潮，如卵巢功能正常，则不属于绝经的范畴。
+2．分期：
+随着临床和科研的进步，需对生殖衰老过程进一步细分。2011年发表的"生殖衰老研讨会分期+10（stages of reproductive aging workshop+10，STRAW+10）"分期系统是目前公认的生殖衰老分期的"金标准"[5][B]。STRAW+10分期系统将女性生殖衰老过程分为3个阶段：生育期、绝经过渡期和绝经后期，每个阶段又进一步划分为早期和晚期，用阿拉伯数字-5~+2表示；其中，生育期还增加了峰期，生育期晚期和绝经后期早期进一步细分为2~3个亚阶段，采用阿拉伯数字后加英文字母（a、b、c）表示。故整个生殖衰老分期由10个特定阶段构成，见图1。
+点击查看大图
+图1
+生殖衰老研讨会分期+10（STRAW+10）分期系统[5]
+注：a在周期第2~5天取血检测；b依据目前采用的国际垂体激素标准的大致预期水平；↑表示升高；AMH表示抗苗勒管激素
+图1
+生殖衰老研讨会分期+10（STRAW+10）分期系统[5]
+STRAW+10分期系统的主要标准是月经周期的长度改变。进入绝经过渡期早期（-2）的标志是月经周期长短不一（即月经紊乱），10个月经周期中有2次或以上发生邻近月经周期长度改变≥7 d；进入绝经过渡期晚期（-1）的标志是月经周期≥60 d，且FSH≥25 U/L。绝经后期早期的+1a阶段为最终月经（final menstrual period，FMP）后的1年，+1a结束才能明确绝经；+1b为+1a后1年；在+1a和+1b阶段，激素水平仍然波动较大；进入+1c阶段，FSH稳定升高，雌二醇持续维持在低水平。+2期为绝经后期晚期，此阶段女性的健康问题更多体现在各种组织器官退行性改变导致的各种疾病，包括骨质疏松症、心脑血管疾病、认知功能障碍等。
+需注意的是，STRAW+10分期系统适用于大多数的女性，但不适用于多囊卵巢综合征、早发性卵巢功能不全（premature ovarian insufficiency, POI）、子宫内膜切除或子宫切除术后、慢性疾病、化疗等影响了卵巢功能的女性，这些情况下应采用内分泌指标和窦卵泡数等支持标准确定其生殖衰老分期。
+二、绝经健康管理策略和MHT的指导原则
+1．绝经健康管理策略：
+卵巢功能衰退是女性衰老的突出表现，女性将经历月经改变直至绝经，并伴随多种绝经相关症状。绝经对心血管、骨骼、认知会产生持续的不良影响，需对绝经女性开展全面的健康管理，包括每年健康体检、推荐合理饮食、增加社交及脑力活动、健康锻炼。中国幅员辽阔、地域差别大，结合各地的饮食习惯，建议全谷物纤维、足量蔬菜和水果、每周2次鱼类食品、控糖（≤50 g/d）、少油（25~30 g/d）、限盐（≤6 g/d）、限酒（乙醇量≤15 g/d）、戒烟、足量饮水（1 500~1 700 ml/d）[6]。每天规律有氧运动，每周累计150 min，另加2~3次抗阻运动，以增加肌肉量和肌力[B]。
+2．MHT的指导原则[1,2,3,7,8,9]：
+（1）MHT属医疗措施，启动MHT应在有适应证、无禁忌证、绝经女性本人有通过MHT改善生命质量的主观意愿的前提下尽早开始[A]。
+（2）绝经过渡期女性与老年女性使用MHT的风险和获益不同。对于年龄<60岁或绝经10年内、无禁忌证的女性，MHT用于缓解血管舒缩症状（vasomotor symptoms，VMS）、减缓骨质丢失和预防骨折的获益/风险比最高[A]。
+（3）不推荐仅为预防心血管疾病和阿尔茨海默病的目的而采用MHT。雌激素缺乏后尽早开始MHT可使女性获得雌激素对心血管和认知的保护作用[A]。
+（4）有子宫的女性在补充雌激素时，应加用足量足疗程孕激素以保护子宫内膜；已切除子宫的女性，通常不必加用孕激素[A]。
+（5）MHT必须个体化。根据治疗症状的需求、获益风险的评估、相关检查结果、个人偏好和治疗期望等因素，选择性激素的种类、剂量、配伍、用药途径、使用时间[A]。
+（6）使用MHT的女性每年应至少接受1次全面的获益风险评估，包括绝经症状评分、新发疾病筛查、全面查体、必要的实验室检查，讨论生活方式和防控慢性疾病的策略，根据评估结果个体化调整MHT方案。目前，尚无证据支持限制MHT应用的时间，只要获益风险评估的结果提示获益大于风险即可继续使用MHT[A]。
+（7）不推荐乳腺癌术后患者使用MHT[B]。
+（8）仅为改善围绝经期泌尿生殖综合征（genitourinary syndrome of menopause，GSM）时建议首选阴道局部雌激素治疗；当口服或经皮MHT不能完全改善生殖泌尿道局部症状时，可同时加用局部雌激素治疗[A]。
+（9）绝经后腹部脂肪增加与雌激素水平降低有关[B]。雌激素治疗可减少绝经后腹部脂肪堆积，减少总体脂肪量，改善胰岛素敏感度，降低2型糖尿病的发生率[A]。
+三、MHT的适应证和禁忌证
+1．适应证：
+不同年龄女性启动MHT的获益不同，推荐在卵巢功能衰退后尽早启动MHT。对于POI患者，只要无禁忌证，建议行MHT。MHT的适应证包括：
+（1）绝经相关症状：月经紊乱、潮热、多汗、睡眠障碍、疲倦、情绪障碍（如易激动、烦躁、焦虑、紧张、低落）等[A]。
+（2）生殖泌尿道萎缩的相关问题（包括GSM）：阴道干涩，外阴阴道疼痛、瘙痒，性交痛，反复发作的萎缩性阴道炎，反复下尿路感染，夜尿、尿频、尿急等[A]。
+（3）低骨量及骨质疏松症：存在骨质疏松症的危险因素及绝经后骨质疏松症。MHT可作为预防年龄<60岁及绝经10年内女性骨质疏松性骨折的一线方案选择[A]。
+2．禁忌证：
+（1）已知或可疑妊娠；（2）原因不明的阴道流血；（3）已知或可疑患有乳腺癌；（4）已知或可疑患有性激素依赖性恶性肿瘤；（5）最近6个月内患有活动性静脉或动脉血栓栓塞性疾病；（6）严重肝肾功能不全；（7）血卟啉症、耳硬化症；（8）现患脑膜瘤（禁用孕激素）。
+四、MHT的慎用情况
+慎用并非禁用，在应用前和应用过程中应咨询相应专业的医师，共同确定使用MHT的时机和方式；同时，采取比常规随访更为严密的措施，监测病情的变化。
+1．子宫肌瘤：
+子宫切除术后或子宫肌瘤剔除术后的女性可行MHT。保留子宫行MHT者，肌瘤直径<3 cm安全性较高，>5 cm风险可能会增大，3~5 cm者应根据患者情况综合判断。对子宫肌瘤而言，雌激素口服比经皮途径更安全，替勃龙比雌孕激素连续联合方案更安全[3,7,10]。
+2．子宫内膜异位症：
+子宫内膜异位症患者自然绝经后需行MHT者，建议使用雌孕激素连续联合方案或替勃龙治疗，不建议使用序贯方案；雌激素应使用最低有效剂量。严重子宫内膜异位症行子宫+双侧附件切除术的患者，如需MHT，建议使用雌孕激素连续联合方案或替勃龙治疗至少2年后再改为单用雌激素[11]。
+3．子宫内膜增生症：
+子宫内膜不典型增生的治疗原则是切除子宫。无不典型子宫内膜增生症须在治疗子宫内膜完全逆转后，才可考虑MHT。雌孕激素连续联合方案对保留子宫的女性具有更高的安全性；子宫全切除术后是否需联合使用孕激素尚无明确证据。所有患者均应密切随访，有子宫者定期行子宫内膜活检术[12]。
+4．血栓形成倾向：
+所有绝经后女性开始MHT前均需对血栓形成的危险因素、血栓栓塞病史及家族史进行详细了解和评价，有阳性病史者建议专科就诊咨询，必要时行易栓症的相关筛查。经皮雌激素的血栓风险显著低于口服雌激素[13,14]。
+5．胆囊疾病：
+MHT可能促进胆囊结石的形成，增加胆囊手术的风险。经皮雌激素可能具有较高的安全性[15]。
+6．系统性红斑狼疮：
+雌激素在系统性红斑狼疮（SLE）的病理过程中可能起重要作用。SLE患者更容易出现卵巢早衰和骨质疏松症。已有证据提示SLE活动期的患者不适合MHT，病情稳定或处于静止期者可在严密观察下行MHT。此外，SLE患者有更高的血栓形成风险，应用经皮雌激素可减少血栓形成[16]。
+7．乳腺良性疾病及乳腺癌家族史：
+影像学检查提示的乳腺增生并非病理性改变，不是MHT的禁忌证。组织学诊断的乳腺增生，尤其是不典型增生，需咨询专科医师是否可以行MHT。其他乳腺良性疾病包括脂肪坏死、乳腺纤维瘤、导管内乳头状瘤的乳腺癌风险尚不确定[17]。
+大多数乳腺癌是散发的，并无家族聚集性。MHT不会进一步增加有乳腺癌家族史女性的乳腺癌风险，也不会增加卵巢切除术后BRCA1或BRCA2基因突变女性的乳腺癌风险[18]。
+8．癫痫、偏头痛、哮喘：
+MHT中雌激素剂量的增加与癫痫发作频率的增加相关[4]。先兆偏头痛是卒中的高危因素，雌激素对偏头痛的作用与其血清水平波动密切相关。血清雌二醇水平波动可能影响女性哮喘患者发作的严重程度，使用经皮雌激素或雌孕激素连续联合治疗可能具有更高的安全性。
+五、MHT的常用药物和方案
+1．常用的口服药物：
+（1）雌激素：推荐天然雌激素：17β雌二醇、戊酸雌二醇、结合雌激素。
+（2）孕激素：①天然孕激素：微粒化黄体酮。②合成孕激素：地屈孕酮、17α羟孕酮衍生物（如醋酸甲羟孕酮，medroxyprogesterone acetate，MPA）、19-去甲睾酮衍生物（如炔诺酮、醋酸炔诺酮、左炔诺孕酮、地诺孕素）、19-去甲孕酮衍生物（如诺美孕酮）、螺内酯衍生物（如屈螺酮）等。
+地屈孕酮是最接近天然的孕激素，对乳腺刺激较小。屈螺酮具有较强的抗盐皮质激素的作用和一定的抗雄激素作用。
+推荐应用天然雌激素、天然或最接近天然的孕激素[A]。
+（3）雌、孕激素复方制剂：①雌、孕激素序贯制剂：雌二醇/雌二醇地屈孕酮片：每盒28片，前14片仅含雌二醇，后14片每片含雌二醇及10 mg地屈孕酮。因雌二醇含量不同分为两种剂型1/10和2/10，1/10剂型中每片含1 mg雌二醇，2/10剂型中每片含2 mg雌二醇。戊酸雌二醇/戊酸雌二醇醋酸环丙孕酮片：每盒21片，前11片每片含2 mg戊酸雌二醇，后10片每片含2 mg戊酸雌二醇及1 mg醋酸环丙孕酮。②雌、孕激素连续联合制剂：雌二醇/屈螺酮片：每盒28片，每片含雌二醇1 mg和屈螺酮2 mg。
+（4）替勃龙：替勃龙的有效成分为7-甲基-异炔诺酮，属于组织选择性雌激素活性调节剂，2.5 mg/片。口服后在体内代谢后产生较弱的雌激素、孕激素和雄激素活性，对情绪低落和性欲低下有较好的效果，不增加乳腺密度[19][A]。
+2．常用的非口服药物：
+（1）经皮雌激素：雌二醇凝胶，每2.5 g凝胶含雌二醇1.5 mg，每天皮肤涂抹；半水合雌二醇皮贴，每贴每天释放17β雌二醇50 μg，每周更换1次。
+雌激素经皮给药避免了口服的肝脏首过效应，减少了对肝脏合成蛋白质及凝血因子生成的影响。相对于口服雌激素，经皮雌激素的静脉血栓、心血管事件、胆囊疾病的风险显著降低，改善性欲的作用更优[14][A]。
+（2）经阴道雌激素：雌三醇乳膏，每克乳膏含雌三醇1 mg；普罗雌烯阴道胶丸，每粒含普罗雌烯10 mg；氯喹那多-普罗雌烯阴道片，每片含普罗雌烯10 mg和氯喹那多200 mg；结合雌激素软膏，每克软膏含结合雌激素0.625 mg。
+雌三醇对子宫内膜刺激小，对血雌二醇水平几乎无影响；普罗雌烯属于严格局部作用的雌激素，不吸收入血，不刺激子宫内膜增生；结合雌激素可轻度升高血雌二醇水平，对子宫内膜的作用也为轻度。
+（3）左炔诺孕酮宫内缓释系统（LNG-IUS）：含LNG 52 mg，每天向宫腔释放LNG 20 μg，维持5年。LNG使子宫内膜腺体萎缩、间质蜕膜化、内膜变薄，可预防和治疗子宫内膜增生[12][A]，也可用于MHT的子宫内膜保护[20][C]。
+3．MHT的具体方案：
+（1）单孕激素补充方案：适用于绝经过渡期早期，调整卵巢功能衰退过程中的月经问题。①口服：地屈孕酮10~20 mg/d或微粒化黄体酮200~300 mg/d或MPA 4~6 mg/d，于月经或撤退性出血的第14天起，使用10~14 d。②宫腔内放置：LNG-IUS，尤其适合于有子宫内膜增生的患者。
+（2）单雌激素补充方案：适用于子宫已切除的妇女，通常连续应用。①口服：戊酸雌二醇0.5~2 mg/d或17β雌二醇1~2 mg/d或结合雌激素0.3~0.625 mg/d。②经皮：半水合雌二醇贴每7天0.5~1帖；或雌二醇凝胶每天0.5~1计量尺，涂抹于手臂、大腿、臀部等处的皮肤（避开乳房和会阴）。
+（3）雌孕激素序贯方案：适用于有完整子宫、围绝经期或绝经后仍希望有月经样出血的妇女。①连续序贯方案：在治疗过程中每天均用药。可采用连续序贯复方制剂，如雌二醇/雌二醇地屈孕酮片（1/10或2/10剂型）1片/d，共28 d；也可连续用口服或经皮雌激素28 d，后10~14 d加用孕激素。②周期序贯方案：在治疗过程每周期有3~7 d不用任何药物。可采用周期序贯复方制剂，如戊酸雌二醇片/戊酸雌二醇醋酸环丙孕酮片，1片/d，共21 d；也可采用连续用口服或经皮雌激素21~25 d，后10~14 d加用孕激素，然后停药3~7 d，再开始下一周期。
+（4）雌孕激素连续联合方案：适用于有完整子宫、绝经后不希望有月经样出血的妇女。可采用每天雌激素（口服或经皮途径）+孕激素，连续给药；也可采用复方制剂如雌二醇/屈螺酮片1片/d，连续给药。
+（5）替勃龙：1.25~2.5 mg/d，连续应用。
+（6）阴道局部雌激素的应用：可使用雌三醇乳膏、普罗雌烯阴道胶丸或霜、结合雌激素软膏，1次/d，连续使用2周，症状缓解后改为2次/周。短期（3~6个月）局部应用雌激素阴道制剂，无需加用孕激素[1+]，但缺乏超过1年使用的安全性数据，长期使用者应监测子宫内膜。
+六、规范的MHT诊疗流程
+1．总体诊疗流程[21]：
+首先评估拟采用MHT患者的适应证、禁忌证和慎用情况。有适应证、无禁忌证、慎用情况控制良好者可予以MHT；存在禁忌证或慎用情况尚未控制但急需治疗绝经相关症状者，给予非激素治疗。所有接受MHT的女性应同时进行健康指导。原则上不推荐年龄≥60岁或绝经≥10年才开始启动MHT。MHT应用中应定期随访，并评估风险和利弊，个体化调整MHT方案。见图2。
+点击查看大图
+图2
+MHT的规范诊疗流程
+注：MHT表示绝经激素治疗
+图2
+MHT的规范诊疗流程
+2．绝经门诊初次接诊流程：
+初次接诊流程包括采集病史、查体和必要的辅助检查以判断就诊对象的绝经状态，并进行医学处理前的基本临床检查，见图3。初次接诊的重要目的是判断是否有MHT的适应证、是否存在禁忌证或慎用情况。
+点击查看大图
+图3
+绝经门诊初次接诊流程
+注：TSH表示促甲状腺素；MHT表示绝经激素治疗
+图3
+绝经门诊初次接诊流程
+3．方案的选择：
+对所有患者进行围绝经期健康指导。拟接受MHT的患者，根据患者本人的意愿和病情特点，如有无子宫、全身或局部症状的个体化差异、风险和利弊的评估结果，选择恰当的个体化MHT方案；不可或不愿接受MHT的患者，推荐非MHT治疗。见图4。
+点击查看大图
+图4
+MHT方案的选择策略
+注：MHT表示绝经激素治疗
+图4
+MHT方案的选择策略
+4．复诊和随访：
+MHT的定期随访非常重要。复诊的主要目的是了解治疗效果，解释可能发生的乳房胀痛或非预期出血等不良反应，关注MHT的获益和风险，个体化调整方案，鼓励适宜对象坚持MHT治疗。MHT的使用期无特殊限定，可根据个体情况和本人意愿调整MHT方案或改变治疗策略，年龄大的女性应更谨慎地评估MHT风险并关注不良事件。只要获益大于风险，鼓励坚持规范用药，定期随访。见图5。
+点击查看大图
+图5
+MHT的复诊及随访
+注：MHT表示绝经激素治疗
+图5
+MHT的复诊及随访
+七、MHT的长期获益与风险
+1．绝经后骨质疏松症：
+绝经后由于雌激素缺乏，骨转换增加，骨吸收大于骨形成致骨质丢失加速，导致骨质疏松症的发生风险明显增加。MHT通过抑制破骨细胞活动和降低骨转化以减缓绝经后女性的骨质丢失，对于绝经前、后启动MHT的女性，可获得骨质疏松性骨折一级预防的好处[2,22][A]。
+2．心脑血管疾病：
+对于年龄<60岁或绝经10年内且无心血管系统疾病的绝经女性启动MHT不增加冠状动脉粥样硬化性心脏病（冠心病）和卒中的风险，且能够降低冠心病死亡率和全因死亡率[A]；对于年龄≥60岁或绝经≥10年的女性，MHT可增加冠心病和卒中的风险，缺血性卒中的发生风险可能轻度增加，但与出血性卒中无相关性[23][A]。低剂量经皮雌激素（<50 μg/d）不增加卒中的风险[24][B]。不建议单纯为预防冠心病启动MHT[A]。近年的随机临床试验（包括DOPS[25]、KEEPS[26]、ELITE[27]）证实了绝经早期启动MHT是降低心血管损害并可能获益的"机会窗"[1+]。
+MHT相关的静脉血栓栓塞症（venous thromboembolism，VTE）的风险随年龄增长而增加，且与肥胖程度呈正相关。口服MHT增加VTE的风险，有VTE个人史的女性禁用口服雌激素治疗[A]。经皮雌激素不增加VTE的风险[2++]，有VTE高风险（包括体质指数>30 kg/m2、吸烟、易栓症家族史）的女性，经皮雌激素可能更安全[24][B]。某些孕激素，如MPA，会导致VTE风险增大[C]。
+3．中枢神经系统：
+MHT可改善与绝经相关的轻中度抑郁症状[1++]。尽早开始MHT对降低阿尔茨海默病和痴呆的风险有益，特别是手术绝经的女性[28][B]。年龄≥60岁或绝经≥10年才启动MHT会对认知功能产生不利影响，增加痴呆的风险[1+]。MHT可能会增加癫痫患者的发作频率[1-~2-]，与帕金森病的风险无关[B]，对偏头痛、多发性硬化症的影响尚不确定[B]。
+4．2型糖尿病：
+雌激素可增加胰岛素敏感度[29]，提高碳水化合物的代谢，有助于控制血糖，可减少或延缓2型糖尿病的发生发展。雌激素口服与经皮给药相比，能更大程度减少糖尿病的发展，尤其是在绝经10年内获益更明显，但不提倡MHT用于预防2型糖尿病[30][A]。糖尿病患者冠心病的风险高，应用MHT时需加强监护，血糖控制不佳者，应慎重权衡MHT的利弊[B]。
+5．绝经后肌肉骨关节症状：
+绝经后肌肉骨关节症状是常见的躯体症状，表现为肩、颈、腰背部肌肉和肌腱疼痛；关节症状主要表现为肩、膝、腰骶关节和手指关节等部位的疼痛，常伴有骨关节炎。雌激素缺乏与骨关节炎的发生有一定的关系。MHT能够减少软骨的降解和关节替代手术[1+]。
+6．肌肉减少症：
+肌肉减少症（肌少症）是1种以进行性骨骼肌质量减少、力量降低、功能下降为特征，进而引起相关衰弱、跌倒、残疾等不良事件的综合征。体内性激素水平降低可能是肌少症发生的关键机制之一[31]。睾酮和雌激素水平下降可加速肌肉减少及骨骼肌质量下降。对绝经后女性应用MHT可预防肌少症的发生[32][B]。
+7．乳腺癌：
+MHT导致的乳腺癌风险很小，治疗结束后风险逐渐降低[33][B]。乳腺癌风险增加主要与雌激素治疗中添加的合成孕激素有关，并与孕激素应用的持续时间有关[34]。天然孕激素和选择性雌激素受体调节剂优化了对代谢和乳腺的影响。与合成孕激素相比，微粒化黄体酮或地屈孕酮导致乳腺癌的风险可能更低[35]。现有的数据显示，口服和经皮雌激素给药途径之间的乳腺癌风险并无差异[36][2+]。
+8．子宫内膜癌：
+有子宫的女性，MHT方案中应加用足量及足疗程的孕激素以保护子宫内膜[A]。雌孕激素连续联合方案对防止子宫内膜增生和子宫内膜癌最有效，MHT雌孕激素序贯方案中孕激素的使用时间不应短于10~14 d[37][A]。
+9．子宫颈癌：
+随机对照研究（WHI、HERS）显示，使用MHT不增加子宫颈癌的风险[A]。长期队列研究的结果类似[38][B]。
+10.卵巢恶性肿瘤：根据现有数据，MHT与卵巢恶性肿瘤的风险关系仍不明确[39,40][B]。
+11.肺癌：随机对照研究（如WHI）和观察性研究显示，单用雌激素或雌孕激素治疗（estrogen progestogen therapy）均不增加肺癌的发病率[A]；雌孕激素治疗≤5年，对所有类型的肺癌均有保护作用；任何方案的MHT治疗5~10年，对非小细胞肺癌有保护作用；雌孕激素治疗≥10年的吸烟者肺癌的风险增加[B]；雌孕激素治疗者肺癌的死亡风险较高，但不增加50~59岁女性的肺癌死亡率[41,42]。
+12.结直肠癌：MHT可降低结直肠癌的发生风险[43,44][2++]。荟萃分析结果显示，MHT停止4年后仍对结直肠癌的发生风险降低具有有益的保护作用[41,45][A]。
+13.消化系统肿瘤：MHT与肝细胞癌之间无明确相关性[46]。MHT可能降低胃癌的发生风险[47]。MHT是否增加胆囊癌、食管癌的发生风险目前仍有争议[48][C]。
+八、绝经相关症状的治疗策略
+1．VMS：
+（1）MHT：对于无禁忌证的女性，雌激素是治疗VMS最有效的措施，同时可改善睡眠障碍、情绪不稳定等绝经相关症状，提高绝经女性健康相关的生命质量[49,50][A]。
+（2）非MHT：主要用于有MHT禁忌证和对MHT有顾虑不愿意使用者。①选择性5-羟色胺再摄取抑制剂、选择性5-羟色胺和去甲肾上腺素双重再摄取抑制剂、可乐定对缓解VMS均有一定的效果，但不能作为MHT的替代方案，可用于有MHT禁忌证的女性[51][A]。加巴喷丁对VMS有效，但不良反应较前述药物多[52][B]。②随机对照试验证实，某些中成药（如香芍颗粒[53]、坤泰胶囊[54]）对缓解VMS及其他绝经相关症状有效。某些植物药（如黑升麻[55]）对缓解VMS及其他绝经相关症状可能有效。这些药物的长期安全性仍需更多的循证医学研究[C]。③生物同质激素：指具有与内源性激素相同分子结构的合成的外源性激素。尚无有力的证据支持该类激素制剂的安全性及有效性，不推荐使用[7,56][B]。④植物雌激素：常见有大豆异黄酮。该类激素的疗效尚存在争议，且缺乏长期的安全性研究数据，不推荐使用[57]。⑤其他：正念减压疗法、星状神经节阻滞、针灸、催眠等可能起到辅助治疗作用[58,59][B]。
+2．泌尿生殖系统症状：
+GSM包括与绝经雌激素缺乏相关的外阴、阴道、尿道和膀胱的症状及体征。生殖系统症状包括生殖道干燥、烧灼、刺激以及阴道润滑缺乏导致的性问题和疼痛。泌尿系统症状包括尿急、尿痛和反复泌尿系统感染。雌激素对GSM的治疗最有效。
+（1）对于以GSM为主的绝经后女性：若无MHT禁忌证，首选阴道局部雌激素治疗[60]。若有MHT禁忌证或有生殖泌尿道萎缩症状，首选润滑剂和湿润剂治疗，若无效，可在严密观察下短期选择阴道局部雌激素治疗[61][A]。
+（2）全身症状明显同时合并GSM者，系统应用MHT可使GSM得到缓解；若缓解不明显，可在系统应用MHT的同时阴道局部应用低剂量雌激素[62]。
+（3）阴道局部雌激素治疗可减少复发性尿路感染的次数[63][1+]。
+（4）不推荐使用MHT治疗压力性尿失禁[64][A]。
+（5）膀胱过度活动症（OAB）是1种以尿急症状为特征的症候群，常伴有尿频和夜尿症状，伴或不伴急迫性尿失禁。阴道局部应用雌激素对改善尿急、尿频症状有优势[2+]；推荐抗胆碱能药物与阴道局部雌激素联合使用作为治疗绝经后女性OAB的一线药物[65]，同时应结合生活方式的改变及膀胱训练[A]。
+补充雌激素常与盆底锻炼、子宫托、盆底手术联合使用，以改善胶原合成和阴道上皮萎缩症状，但在子宫脱垂治疗的有效性方面缺乏证据。
+3．绝经女性的性健康和避孕：
+（1）绝经女性的性健康：绝经相关症状与绝经女性的生命质量密切相关。年龄增大和性激素水平下降导致了绝经妇女性功能障碍（female sexual dysfunction, FSD）的发生率增高，心理和社会因素也有影响[66][B]。绝经期FSD最常见的表现是性欲减退，其次是与生殖道萎缩相关的性交困难和疼痛[67][C]。①MHT可改善轻度至中度FSD（尤其是在改善疼痛方面）[68][A]，替勃龙也对FSD有治疗价值[69][A]。睾酮治疗可能对性欲和(或)性兴奋缺乏的妇女有用[70][A]。②阴道保湿和润滑剂能有效治疗轻度至中度阴道干燥、缓解性交时的不适和疼痛[2][B]。
+（2）围绝经期避孕：没有具体针对年龄的避孕方法的禁忌证。复方口服避孕药（COC）可同时缓解绝经相关症状，缓解阴道干涩；但高龄女性使用COC的潜在血栓风险高于年轻女性[C]，选择屏障法避孕更安全。LNG-IUS长效、可逆，可提供围绝经期的高效避孕（失败率<1%），还可为MHT提供子宫内膜保护的作用[71][A]。不推荐绝经后女性使用COC代替MHT，COC更高的雌激素活性可能导致心血管不良事件的风险增加[D]，且对骨骼的保护作用不及MHT[71]。
+九、POI
+POI是女性在40岁前卵巢功能衰退的临床综合征，以停经或月经稀发4个月、间隔>4周连续2次FSH>25 U/L为主要特征[72,73]。40岁以下和30岁以下女性POI的发生率分别为1.0%和0.1%[74]。由于雌激素水平下降更早出现，POI患者的低雌激素相关问题如骨质疏松症、心血管、泌尿生殖系统健康问题及认知功能减退问题等风险更大。POI患者使用MHT获益更多，风险更小。只要POI患者无禁忌证，应给予激素补充治疗（hormone replacement therapy, HRT）至普通女性自然绝经的平均年龄，之后按照MHT原则进行[B]。POI患者年轻时需要相对较大剂量的雌激素[75]，推荐剂量为17β雌二醇2 mg/d、结合雌激素1.25 mg/d或经皮雌二醇75~100 μg/d。由于患者诊断POI后仍有5%的妊娠概率[76]，在POI早期有避孕需求者可考虑短期应用COC，但不宜长期应用。HRT与COC相比，对骨骼及代谢更有利[77][1-]。
+卵巢功能衰退将给女性带来长期的健康危害，严重影响其生命质量。因此，绝经管理应成为妇产科专业工作者的必然使命。针对不同的需求和不同的基础健康状态，采用最适宜于患者的措施以改善相关症状，减轻由于雌激素缺乏带来的长期不良影响，以让绝经过渡期和绝经后期女性更佳地生活。
+参与制定本指南的专家组名单：曹媛（郑州大学第一附属医院）、陈蓉（中国医学科学院北京协和医院）、陈子江（山东省立医院）、丁岩（新疆医科大学第一附属医院）、符书馨（中南大学湘雅二医院）、郭雪桃（山西医科大学第一医院）、惠英（北京医院）、金敏娟（浙江省湖州市妇幼保健院）、马颖（中国医科大学附属盛京医院）、雷小敏（三峡大学附属仁和医院）、李佩玲（哈尔滨医科大学附属第二医院）、林元（福建省妇幼保健院）、吕淑兰（西安交通大学医学院第一附属医院）、罗敏（中国医学科学院北京协和医院）、穆玉兰（山东省立医院）、任慕兰（东南大学附属中大医院）、阮祥燕（首都医科大学附属北京妇产医院）、史惠蓉（郑州大学第一附属医院）、舒宽勇（江西省妇幼保健院）、唐良萏（重庆医科大学附属第一医院）、王世宣（华中科技大学同济医学院附属同济医院）、吴洁（南京医科大学第一附属医院）、谢梅青（中山大学孙逸仙纪念医院）、徐春琳（河北医科大学第二医院）、徐克惠（四川大学华西第二医院）、徐苓（中国医学科学院北京协和医院）、杨欣（北京大学人民医院）、阴春霞（长春市妇产医院）、郁琦（中国医学科学院北京协和医院）、张绍芬（复旦大学附属妇产科医院）、张淑兰（中国医科大学附属盛京医院）、张学红（兰州大学第一医院）、张雪玉（宁夏医科大学总医院）、张治芬（杭州市妇产科医院）、周红林（昆明医科大学第二附属医院）、朱瑾（复旦大学附属妇产科医院）
+主要执笔专家：谢梅青（中山大学孙逸仙纪念医院）、陈蓉（中国医学科学院北京协和医院）、任慕兰（东南大学附属中大医院）
+参考文献
+[1]
+de VilliersTJ,HallJE,PinkertonJV, et al.
+Revised global consensus statement on menopausal hormone therapy[J].
+Climacteric,
+2016,
+19(
+4):
+313-
+315.
+DOI: 10.1080/13697137.2016.1196047.
+[2]
+BaberRJ,PanayN,FentonA.
+2016 IMS Recommendations on women′s midlife health and menopause hormone therapy[J].
+Climacteric,
+2016,
+19(
+2):
+109-
+150.
+DOI: 10.3109/13697137.2015.1129166.
+[3]
+中华医学会妇产科学分会绝经学组.
+绝经期管理与激素补充治疗临床应用指南(2012版)[J].
+中华妇产科杂志,
+2013,
+48(
+10):
+795-
+799.
+DOI: 10.3760/cma.j.issn.0529-567x.2013.10.018.
+[4]
+Royal College of Obstetricians and Gynaecologists.
+Development of RCOG Green-top Guidelines（Clinical Governance Advice No. 1)[EB/OL]. [
+2018-08-01].
+http://www.rcog.org.uk/green-top-development.
+[5]
+HarlowSD,GassM,HallJE, et al.
+Executive summary of the Stages of Reproductive Aging Workshop+10: addressing the unfinished agenda of staging reproductive aging[J].
+Climacteric,
+2012,
+15(
+2):
+105-
+114.
+DOI: 10.3109/13697137.2011.650656.
+[6]
+中国营养学会.
+中国居民膳食指南(2016)[M].
+北京:
+人民卫生出版社,
+2016:
+10-
+11.
+[7]
+The NAMS 2017 Hormone Therapy Position Statement Advisory Panel.
+The 2017 hormone therapy position statement of The North American Menopause Society[J].
+Menopause,
+2017,
+24(
+7):
+728-
+753.
+DOI: 10.1097/GME.0000000000000921.
+[8]
+Committee on Gynecologic Practice.
+Committee Opinion No. 698: Hormone Therapy in Primary Ovarian Insufficiency[J].
+Obstet Gynecol,
+2017,
+129(
+5):
+e134-
+e141.
+DOI: 10.1097/AOG.0000000000002044.
+[9]
+SarriG,DaviesM,LumsdenMA, et al.
+Diagnosis and management of menopause: summary of NICE guidance[J].
+BMJ,
+2015,
+351:
+h5746.
+DOI:10.1136/bmj.h5746.
+[10]
+RossouwJE,AndersonGL,PrenticeRL, et al.
+Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results From the Women′s Health Initiative randomized controlled trial[J].
+JAMA,
+2002,
+288(
+3):
+321-
+333.
+[11]
+MoenMH,ReesM,BrincatM, et al.
+EMAS position statement: Managing the menopause in women with a past history of endometriosis[J].
+Maturitas,
+2010,
+67(
+1):
+94-
+97.
+DOI: 10.1016/j.maturitas.2010.04.018.
+[12]
+GallosID,ShehmarM,ThangaratinamS, et al.
+Oral progestogens vs levonorgestrel-releasing intrauterine system for endometrial hyperplasia: a systematic review and metaanalysis[J].
+Am J Obstet Gynecol,
+2010,
+203(
+6):
+547.e1-
+10.
+DOI: 10.1016/j.ajog.2010.07.037.
+[13]
+American College of Obstetricians and Gynecologists.
+ACOG committee opinion no. 556: Postmenopausal estrogen therapy: route of administration and risk of venous thromboembolism[J].
+Obstet Gynecol,
+2013,
+121(
+4):
+887-
+890.
+DOI: 10.1097/01.AOG.0000428645.90795.d9.
+[14]
+BergendalA,KielerH,SundströmA, et al.
+Risk of venous thromboembolism associated with local and systemic use of hormone therapy in peri-and postmenopausal women and in relation to type and route of administration[J].
+Menopause,
+2016,
+23(
+6):
+593-
+599.
+DOI: 10.1097/GME.0000000000000611.
+[15]
+LiuB,BeralV,BalkwillA, et al.
+Gallbladder disease and use of transdermal versus oral hormone replacement therapy in postmenopausal women: prospective cohort study[J].
+BMJ,
+2008,
+337:
+a386.
+DOI: 10.1136/bmj.a386.
+[16]
+CanonicoM.
+Hormone therapy and hemostasis among postmenopausal women: a review[J].
+Menopause,
+2014,
+21(
+7):
+753-
+762.
+DOI: 10.1097/GME.0000000000000296.
+[17]
+马薇,金泉秀,吴云飞,等.
+乳腺增生症诊治专家共识[J].
+中国实用外科杂志,
+2016,
+36(
+7):
+759-
+762.
+[18]
+RebbeckTR,FriebelT,WagnerT, et al.
+Effect of short-term hormone replacement therapy on breast cancer risk reduction after bilateral prophylactic oophorectomy in BRCA1 and BRCA2 mutation carriers: the PROSE Study Group[J].
+J Clin Oncol,
+2005,
+23(
+31):
+7804-
+7810.
+DOI: 10.1200/JCO.2004.00.8151.
+[19]
+CummingsSR,EttingerB,DelmasPD, et al.
+The effects of tibolone in older postmenopausal women[J].
+N Engl J Med,
+2008,
+359(
+7):
+697-
+708.
+DOI: 10.1056/NEJMoa0800743.
+[20]
+SomboonpornW,PannaS,TemtanakitpaisanT, et al.
+Effects of the levonorgestrel-releasing intrauterine system plus estrogen therapy in perimenopausal and postmenopausal women:systematic review and meta-analysis[J].
+Menopause,
+2011,
+18(
+10):
+1060-
+1066.
+DOI: 10.1097/gme.0b013e31821606c5.
+[21]
+中华医学会妇产科学分会绝经学组.
+绝经相关激素补充治疗的规范诊疗流程[J].
+中华妇产科杂志,
+2013,
+48(
+2):
+155-
+158.
+DOI: 10.3760/cma.j.issn.0529-567x.2013.02.018.
+[22]
+de VilliersTJ,StevensonJC.
+The WHI: the effect of hormone replacement therapy on fracture prevention[J].
+Climacteric,
+2012,
+15(
+3):
+263-
+266.
+DOI: 10.3109/13697137.2012.659975.
+[23]
+HawkesN.
+HRT increases risk of blood clots and stroke, finds new analysis[J].
+BMJ,
+2015,
+350:
+h1336.
+DOI: 10.1136/bmj.h1336.
+[24]
+L′HermiteM.
+HRT optimization, using transdermal estradiol plus micronized progesterone, a safer HRT[J].
+Climacteric,
+2013,
+16
+Suppl 1:
+44-
+53.
+DOI: 10.3109/13697137.2013.808563.
+[25]
+SchierbeckLL,RejnmarkL,ToftengCL, et al.
+Effect of hormone replacement therapy on cardiovascular events in recently postmenopausal women: randomised trial[J].
+BMJ,
+2012,
+345:
+e6409.
+DOI: 10.1136/bmj.e6409.
+[26]
+HarmanSM,BlackDM,NaftolinF, et al.
+Arterial imaging outcomes and cardiovascular risk factors in recently menopausal women: a randomized trial[J].
+Ann Intern Med,
+2014,
+161(
+4):
+249-
+260.
+DOI: 10.7326/M14-0353.
+[27]
+HodisHN,MackWJ,HendersonVW, et al.
+Vascular effects of early versus late postmenopausal treatment with estradiol[J].
+N Engl J Med,
+2016,
+374(
+13):
+1221-
+1231.
+DOI: 10.1056/NEJMoa1505241.
+[28]
+GleasonCE,DowlingNM,WhartonW, et al.
+Effects of Hormone Therapy on Cognition and Mood in Recently Postmenopausal Women: Findings from the Randomized, Controlled KEEPS-Cognitive and Affective Study[J].
+PLoS Med,
+2015,
+12(
+6):
+e1001833;discussion e1001833.
+DOI: 10.1371/journal.pmed.1001833.
+[29]
+BitoskaI,KrstevskaB,MilenkovicT, et al.
+Effects of Hormone Replacement Therapy on Insulin Resistance in Postmenopausal Diabetic Women[J].
+Open Access Maced J Med Sci,
+2016,
+4(
+1):
+83-
+88.
+DOI: 10.3889/oamjms.2016.024.
+[30]
+StuenkelCA.
+Menopause, hormone therapy and diabetes[J].
+Climacteric,
+2017,
+20(
+1):
+11-
+21.
+DOI: 10.1080/13697137.2016.1267723.
+[31]
+MaggioliniM,PicardD.
+The unfolding stories of GPR30, a new membrane-bound estrogen receptor[J].
+J Endocrinol,
+2010,
+204(
+2):
+105-
+114.
+DOI: 10.1677/JOE-09-0242.
+[32]
+GreisingSM,BaltgalvisKA,LoweDA, et al.
+Hormone therapy and skeletal muscle strength: a meta-analysis[J].
+J Gerontol A Biol Sci Med Sci,
+2009,
+64(
+10):
+1071-
+1081.
+DOI: 10.1093/gerona/glp082.
+[33]
+DaveyDA.
+Menopausal hormone therapy: a better and safer future[J].
+Climacteric,
+2018,
+21(
+5):
+454-
+461.
+DOI: 10.1080/13697137.2018.1439915.
+[34]
+KotsopoulosJ,GronwaldJ,KarlanBY, et al.
+Hormone Replacement Therapy After Oophorectomy and Breast Cancer Risk Among BRCA1 Mutation Carriers[J].
+JAMA Oncol,
+2018,
+4(
+8):
+1059-
+1065.
+DOI: 10.1001/jamaoncol.2018.0211.
+[35]
+StuteP,WildtL,NeulenJ.
+The impact of micronized progesterone on breast cancer risk: a systematic review[J].
+Climacteric,
+2018,
+21(
+2):
+111-
+122.
+DOI: 10.1080/13697137.2017.1421925.
+[36]
+CrandallCJ,HoveyKM,AndrewsC, et al.
+Comparison of clinical outcomes among users of oral and transdermal estrogen therapy in the Women′s Health Initiative Observational Study[J].
+Menopause,
+2017,
+24(
+10):
+1145-
+1153.
+DOI: 10.1097/GME.0000000000000899.
+[37]
+SjögrenLL,MørchLS,LøkkegaardE.
+Hormone replacement therapy and the risk of endometrial cancer: a systematic review[J].
+Maturitas,
+2016,
+91:
+25-
+35.
+DOI: 10.1016/j.maturitas.2016.05.013.
+[38]
+JaakkolaS,PukkalaE,K LyytinenH, et al.
+Postmenopausal estradiol-progestagen therapy and risk for uterine cervical cancer[J].
+Int J Cancer,
+2012,
+131(
+4):
+E537-
+E543.
+DOI: 10.1002/ijc.27321.
+[39]
+BassukSS,MansonJE.
+Oral contraceptives and menopausal hormone therapy: relative and attributable risks of cardiovascular disease, cancer, and other health outcomes[J].
+Ann Epidemiol,
+2015,
+25(
+3):
+193-
+200.
+DOI: 10.1016/j.annepidem.2014.11.004.
+[40]
+BeralV,GaitskellK,HermonC, et al.
+Menopausal hormone use and ovarian cancer risk:individual participant meta-analysis of 52 epidemiological studies[J].
+Lancet,
+2015,
+385(
+9980):
+1835-
+1842.
+DOI: 10.1016/S0140-6736(14)61687-1.
+[41]
+MansonJE,ChlebowskiRT,StefanickML, et al.
+Menopausal hormone therapy and health outcomes during the intervention and extended poststopping phases of the Women′s Health Initiative randomized trials[J].
+JAMA,
+2013,
+310(
+13):
+1353-
+1368.
+DOI: 10.1001/jama.2013.278040.
+[42]
+SchwartzAG,RayRM,CoteML, et al.
+Hormone Use, Reproductive History, and Risk of Lung Cancer: The Women′s Health Initiative Studies[J].
+J Thorac Oncol,
+2015,
+10(
+7):
+1004-
+1013.
+DOI: 10.1097/JTO.0000000000000558.
+[43]
+GrodsteinF,MartinezME,PlatzEA, et al.
+Postmenopausal hormone use and risk for colorectal cancer and adenoma[J].
+Ann Intern Med,
+1998,
+128(
+9):
+705-
+712.
+[44]
+GrodsteinF,NewcombPA,StampferMJ.
+Postmenopausal hormone therapy and the risk of colorectal cancer: a review and meta-analysis[J].
+Am J Med,
+1999,
+106(
+5):
+574-
+582.
+[45]
+PrenticeRL,PettingerM,BeresfordSA, et al.
+Colorectal cancer in relation to postmenopausal estrogen and estrogen plus progestin in the Women′s Health Initiative clinical trial and observational study[J].
+Cancer Epidemiol Biomarkers Prev,
+2009,
+18(
+5):
+1531-
+1537.
+DOI: 10.1158/1055-9965.EPI-08-1209.
+[46]
+McGlynnKA,SahasrabuddheVV,CampbellPT, et al.
+Reproductive factors, exogenous hormone use and risk of hepatocellular carcinoma among US women: results from the Liver Cancer Pooling Project[J].
+Br J Cancer,
+2015,
+112(
+7):
+1266-
+1272.
+DOI: 10.1038/bjc.2015.58.
+[47]
+CamargoMC,GotoY,ZabaletaJ, et al.
+Sex hormones, hormonal interventions, and gastric cancer risk: a meta-analysis[J].
+Cancer Epidemiol Biomarkers Prev,
+2012,
+21(
+1):
+20-
+38.
+DOI: 10.1158/1055-9965.EPI-11-0834.
+[48]
+BrusselaersN,Maret-OudaJ,KoningsP, et al.
+Menopausal hormone therapy and the risk of esophageal and gastric cancer[J].
+Int J Cancer,
+2017,
+140(
+7):
+1693-
+1699.
+DOI: 10.1002/ijc.30588.
+[49]
+MaclennanAH,BroadbentJL,LesterS, et al.
+Oral oestrogen and combined oestrogen/progestogen therapy versus placebo for hot flushes[J].
+Cochrane Database Syst Rev,
+2004(
+4):
+CD002978.
+DOI: 10.1002/14651858.CD002978.pub2.
+[50]
+CintronD,LahrBD,BaileyKR, et al.
+Effects of oral versus transdermal menopausal hormone treatments on self-reported sleep domains and their association with vasomotor symptoms in recently menopausal women enrolled in the Kronos Early Estrogen Prevention Study (KEEPS)[J].
+Menopause,
+2018,
+25(
+2):
+145-
+153.
+DOI: 10.1097/GME.0000000000000971.
+[51]
+LoprinziCL,SloanJ,StearnsV, et al.
+Newer antidepressants and gabapentin for hot flashes: an individual patient pooled analysis[J].
+J Clin Oncol,
+2009,
+27(
+17):
+2831-
+2837.
+DOI: 10.1200/JCO.2008.19.6253.
+[52]
+ToulisKA,TzellosT,KouvelasD, et al.
+Gabapentin for the treatment of hot flashes in women with natural or tamoxifen-induced menopause: a systematic review and meta-analysis[J].
+Clin Ther,
+2009,
+31(
+2):
+221-
+235.
+DOI: 10.1016/j.clinthera.2009.02.006.
+[53]
+中华医学会妇产科学分会绝经学组.
+香芍颗粒临床应用指导建议[J].
+中国实用妇科与产科杂志,
+2015,
+31(
+5):
+419-
+420.
+[54]
+李存存,王晶晶,陈潮,等.
+坤泰胶囊与激素替代疗法治疗更年期综合征有效性和安全性比较的Meta分析[J].
+中国中西医结合杂志,
+2013,
+33(
+9):
+1183-
+1190.
+DOI: 10.7661/CJIM.2013.09.1183.
+[55]
+中华医学会妇产科学分会绝经学组.
+莉芙敏临床应用指导建议[J].
+中国实用妇科与产科杂志,
+2012,
+28(
+7):
+556-
+557.
+[56]
+GaudardAM,de SouzaSS,PugaME, et al.
+Bioidentical hormones for women with vasomotor symptoms[J].
+Cochrane Database Syst Rev,
+2016(
+8):
+CD010407.
+DOI: 10.1002/14651858.CD010407.pub2.
+[57]
+LethabyA,MarjoribanksJ,KronenbergF, et al.
+Phytoestrogens for menopausal vasomotor symptoms[J].
+Cochrane Database Syst Rev,
+2013(
+12):
+CD001395.
+DOI: 10.1002/14651858.CD001395.pub4.
+[58]
+CarmodyJ,CrawfordS,ChurchillL.
+A pilot study of mindfulness-based stress reduction for hot flashes[J].
+Menopause,
+2006,
+13(
+5):
+760-
+769.
+DOI: 10.1097/01.gme.0000227402.98933.d0.
+[59]
+CarmodyJF,CrawfordS,Salmoirago-BlotcherE, et al.
+Mindfulness training for coping with hot flashes: results of a randomized trial[J].
+Menopause,
+2011,
+18(
+6):
+611-
+620.
+DOI: 10.1097/gme.0b013e318204a05c.
+[60]
+StuenkelCA,DavisSR,GompelA, et al.
+Treatment of Symptoms of the Menopause: An Endocrine Society Clinical Practice Guideline[J].
+J Clin Endocrinol Metab,
+2015,
+100(
+11):
+3975-
+4011.
+DOI: 10.1210/jc.2015-2236.
+[61]
+FaubionSS,LarkinLC,StuenkelCA, et al.
+Management of genitourinary syndrome of menopause in women with or at high risk for breast cancer: consensus recommendations from The North American Menopause Society and The International Society for the Study of Women′s Sexual Health[J].
+Menopause,
+2018,
+25(
+6):
+596-
+608.
+DOI: 10.1097/GME.0000000000001121.
+[62]
+GandhiJ,ChenA,DagurG, et al.
+Genitourinary syndrome of menopause: anoverview of clinical manifestations, pathophysiology, etiology, evaluation, andmanagement[J].
+Am J Obstet Gynecol,
+2016,
+215(
+6):
+704-
+711.
+DOI: 10.1016/j.ajog.2016.07.045.
+[63]
+CarettoM,GianniniA,RussoE, et al.
+Preventing urinary tract infections after menopause without antibiotics[J].
+Maturitas,
+2017,
+99:
+43-
+46.
+DOI: 10.1016/j.maturitas.2017.02.004.
+[64]
+CastroRA,ArrudaRM,BortoliniMA.
+Female urinary incontinence: effective treatment strategies[J].
+Climacteric,
+2015,
+18(
+2):
+135-
+141.
+DOI: 10.3109/13697137.2014.947257.
+[65]
+ChughtaiB,FordeJC,BuckJ, et al.
+The concomitant use of fesoterodine and topical vaginal estrogen in the management of overactive bladder and sexual dysfunction in postmenopausal women[J].
+Post Reprod Health,
+2016,
+22(
+1):
+34-
+40.
+DOI: 10.1177/2053369116633017.
+[66]
+AppaAA,CreasmanJ,BrownJS, et al.
+The impact of multimorbidity on sexual function in middle-aged and older women: beyond the single disease perspective[J].
+J Sex Med,
+2014,
+11(
+11):
+2744-
+2755.
+DOI: 10.1111/jsm.12665.
+[67]
+IglesiaCB.
+What′s new in the world of postmenopausal sex?[J].
+Curr Opin Obstet Gynecol,
+2016,
+28(
+5):
+449-
+454.
+DOI: 10.1097/GCO.0000000000000311.
+[68]
+PinesA,SturdeeDW,MacLennanAH.
+Quality of life and the role of menopausal hormone therapy[J].
+Climacteric,
+2012,
+15(
+3):
+213-
+216.
+DOI: 10.3109/13697137.2012.655923.
+[69]
+BigliaN,MaffeiS,LelloS, et al.
+Tibolone in postmenopausal women: a review based on recent randomised controlled clinical trials[J].
+Gynecol Endocrinol,
+2010,
+26(
+11):
+804-
+814.
+DOI: 10.3109/09513590.2010.495437.
+[70]
+WiermanME,ArltW,BassonR, et al.
+Androgen therapy in women: a reappraisal: an Endocrine Society clinical practice guideline[J].
+J Clin Endocrinol Metab,
+2014,
+99(
+10):
+3489-
+3510.
+DOI: 10.1210/jc.2014-2260.
+[71]
+LintonA,GolobofA,ShulmanLP.
+Contraception for the perimenopausal woman[J].
+Climacteric,
+2016,
+19(
+6):
+526-
+534.
+DOI: 10.1080/13697137.2016.1225033.
+[72]
+WebberL,DaviesM,AndersonR, et al.
+ESHRE Guideline: management of women with premature ovarian insufficiency[J].
+Hum Reprod,
+2016,
+31(
+5):
+926-
+937.
+DOI: 10.1093/humrep/dew027.
+[73]
+中华医学会妇产科学分会绝经学组.
+早发性卵巢功能不全的激素补充治疗专家共识[J].
+中华妇产科杂志,
+2016,
+51(
+12):
+881-
+886.
+DOI: 10.3760/cma.j.issn.0529-567x.2016.12.001.
+[74]
+SternfeldB,WangH,QuesenberryCP, et al.
+Physical activity and changes in weight and waist circumference in midlife women: findings from the Study of Women′s Health Across the Nation[J].
+Am J Epidemiol,
+2004,
+160(
+9):
+912-
+922.
+DOI: 10.1093/aje/kwh299.
+[75]
+SullivanSD,SarrelPM,NelsonLM.
+Hormone replacement therapy in young women with primary ovarian insufficiency and early menopause[J].
+Fertil Steril,
+2016,
+106(
+7):
+1588-
+1599.
+DOI: 10.1016/j.fertnstert.2016.09.046.
+[76]
+BidetM,BachelotA,BissaugeE, et al.
+Resumption of ovarian function and pregnancies in 358 patients with premature ovarian failure[J].
+J Clin Endocrinol Metab,
+2011,
+96(
+12):
+3864-
+3872.
+DOI: 10.1210/jc.2011-1038.
+[77]
+CartwrightB,RobinsonJ,SeedPT, et al.
+Hormone replacement therapy versus the combined oral contraceptive pill in premature ovarian failure: a randomized controlled trial of the effects on bone mineral density[J].
+J Clin Endocrinol Metab,
+2016,
+101(
+9):
+3497-
+3505.
+DOI: 10.1210/jc.2015-4063.
+贡献者信息
+中华医学会妇产科学分会绝经学组
+历史
+出版日期：2018-11-25
+收稿日期：2018-08-08
+本文编辑
+沈平虎
+Clinical Guideline
+Chinese guideline on menopause management and menopause hormone therapy (2018)
+Menopause Subgroup, Chinese Society of Obstetrics and Gynecology, Chinese Medical Association
+Published
+2018-11-25
+Cite as
+Chin J Obstet Gynecol, 2018,53(11): 729-739. DOI: 10.3760/cma.j.issn.0529-567x.2018.11.001
+Contributor Information
+Menopause Subgroup, Chinese Society of Obstetrics and Gynecology, Chinese Medical Association
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+注：a在周期第2~5天取血检测；b依据目前采用的国际垂体激素标准的大致预期水平；↑表示升高；AMH表示抗苗勒管激素
+图1
+生殖衰老研讨会分期+10（STRAW+10）分期系统[5]
+注：MHT表示绝经激素治疗
+图2
+MHT的规范诊疗流程
+注：TSH表示促甲状腺素；MHT表示绝经激素治疗
+图3
+绝经门诊初次接诊流程
+注：MHT表示绝经激素治疗
+图4
+MHT方案的选择策略
+注：MHT表示绝经激素治疗
+图5
+MHT的复诊及随访
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华妇产科杂志2018年53卷11期
+文    题：绝经管理与绝经激素治疗中国指南（2018）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华妇产科杂志2018年53卷11期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+Original text
+Contribute a better translation
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

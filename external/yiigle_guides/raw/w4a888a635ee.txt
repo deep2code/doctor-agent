@@ -1,0 +1,587 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%BC%BB%E5%92%BD%E7%99%8C%E5%88%86%E6%9C%9F2017%E7%89%88%282008%E9%BC%BB%E5%92%BD%E7%99%8C%E5%88%86%E6%9C%9F%E4%BF%AE%E8%AE%A2%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%29.html
+# 标题: 中国鼻咽癌分期2017版(2008鼻咽癌分期修订专家共识) - 中华放射肿瘤学杂志
+# 发布方/日期: 耳鼻咽喉科，中华放射肿瘤学杂志, 2017,26(10) : 1119-1125. DOI: 10.3760/cma；2017-10-15
+
+中国鼻咽癌分期2017版(2008鼻咽癌分期修订专家共识)
+中国鼻咽癌临床分期工作委员会
+中华放射肿瘤学杂志, 2017,26(10) : 1119-1125. DOI: 10.3760/cma.j.issn.1004-4221.2017.10.002
+我国鼻咽癌的放疗工作始于20世纪40年代，经过数十年的发展，放疗设备、放疗技术的更新，临床经验的累积，鼻咽癌放疗后5年生存率由15%～25%提高到80%左右[1,2,3,4,5,6,7,8,9,10]。准确的肿瘤临床分期是指导治疗、判断预后以及学术交流的基础[11]。随着影像学、放射治疗技术以及人们对鼻咽癌生物学特性认识的发展，鼻咽癌分期的演变经历了从经验到依赖循证医学的过程。
+在中华医学会放射肿瘤治疗学分会、中国抗癌协会放射肿瘤专业委员会和中国抗癌协会鼻咽癌专业委员会的共同组织下，为构建中国鼻咽癌临床分期平台，保证鼻咽癌分期工作的连续性，大力促进我国鼻咽癌放疗事业的发展，中国鼻咽癌临床分期工作委员会于2007年10月20日在武夷山成立并启动鼻咽癌临床分期修订工作。后于2008年12月26日在广州会议上，委员们对基于循证医学的鼻咽癌’92分期[1]修订内容进行了充分讨论并达成共识，形成了"中国鼻咽癌2008分期"方案[12]。自从国内推广使用"鼻咽癌2008分期"以来，各肿瘤中心加强了合作和交流，促进了多中心研究和分期研究的发展。
+一、分期手段
+在全面的临床病史询问、体检和鼻咽镜检查的基础上，MRI检查已被确立为鼻咽癌T、N分期的首要影像检查手段和诊断依据，MRI扫描检查规范参照中国鼻咽癌2008分期[12]。CT检查可作为诊断肿瘤侵犯颅底骨质结构的重要补充手段。推荐肺部CT、肝脏超声或MRI (腹部超声或CT)、骨ECT作为中晚期患者评估远处转移的常规检查方法。PET-CT不仅在发现远处器官转移和第二原发肿瘤的敏感性方面优势明显，同时能弥补MRI在判断颈部淋巴结转移方面的不足[13]，且原发灶和颈部淋巴结SUVmax均为鼻咽癌患者的独立预后因素[14,15]。因此建议在常规检查的基础上，对颈淋巴结阳性或T3、T4期或可疑远处转移的鼻咽癌患者，推荐行PET-CT检查以明确有无远处转移。
+二、分期修订相关的主要因素
+1．鼻腔或口咽侵犯：
+Lee等[16]基于UICC/AJCC分期第6版回顾性分析2687例初治鼻咽癌患者资料，发现T2a (鼻腔或口咽侵犯而无咽旁间隙侵犯)和T1(局限于鼻咽)的预后无明显差异，将T2a与T1合并为T1后，而T2b (咽旁间隙侵犯)与T1患者的局部失败、远处转移和疾病相关死亡风险均差异显著，建议将T2a下调至T1，T2b单独归为T2。随后，Low等[17]、Liu等[18]研究结果均支持上述修订建议。基于此研究证据，UICC/AJCC分期第7版[19]将鼻腔或口咽侵犯归为T1，咽旁间隙侵犯归为T2。随着IMRT技术广泛应用，鼻咽癌的局部控制率显著提高，Zong等[7]研究结果显示T1与T2之间的5年LRFS率差异不显著(P＝0.055)，且其5年疾病相关死亡风险和总死亡风险相似。然而，在推荐的UICC/AJCC分期第8版中[20]，增加了鼻咽邻近的肌肉(椎前肌，单纯翼内/外肌)侵犯归属于T2后，T2与T1之间的5年LRFS率差异有统计学意义(P＝0.048)。因此，UICC/AJCC分期中将鼻咽或口咽侵犯归为T1较为合理。
+2．鼻旁窦侵犯：
+方燕红等[21]基于UICC/AJCC分期第7版通过对采用MRI和IMRT的1197例初治鼻咽癌患者进行回顾性分析，结果显示伴鼻窦侵犯T3期不伴鼻窦侵犯T3期患者之间的5年LRFS、OS曲线相似(P>0.05)，但均能与伴鼻窦侵犯T4期及不伴鼻窦侵犯T4期患者的5年LRFS、OS曲线分开(P<0.05)；而且，伴鼻窦侵犯T3期局部复发风险比与不伴鼻窦侵犯T3期相接近。因此，作者认为将鼻窦侵犯归为T3期较为合理。Ouyang等[22]采用Harrell一致性指数比较不同预后模型的预测效果，结果也表明将鼻窦侵犯归为T3期后模型的预测准确性最高。因此，UICC/AJCC分期将鼻窦侵犯归为T3较为合理。
+3．咽后淋巴结转移：
+MRI较CT更能准确地判断RPLN转移，并能清晰地区分出RPLN与鼻咽原发病灶。RPLN被认为是鼻咽癌淋巴结转移的第1站，故RPLN转移理应归为N分期。Tang等[23]基于MRI对924例首诊无转移鼻咽癌患者回顾性分析研究显示，RPLN≥5 mm是独立影响患者DMFS的不良预后因素，N0患者中伴或不伴RPLN转移的生存率差异显著，但N0伴RPLN转移患者与N1患者的远处转移风险和疾病失败风险接近，而且N0患者中伴有单侧与双侧RPLN转移的DMFS曲线也相似；将RPLN归为N1后，N分期的DMFS和DFS曲线均能较好分开。随后，Pan等[24]也发现中国2008分期中的N1a与N1b的DMFS曲线相交叉，但两者均与N2—N3期曲线能较好分开，将N1a与N1b合并后，N分期各期的DMFS曲线能较好分开，建议N1a应与N1b合并为N1，精简了N分期。Ouyang等[22]的研究结果也支持将RPLN≥5 mm (不论侧数)归为N1。即使在IMRT时代，RPLN≥5 mm (不论侧数)仍然是影响鼻咽癌患者DMFS和DFS的独立预后因素，将其归为N1仍较为合理[25]。Chen等[26]和Zong等[7]基于IMRT对UICC/AJCC分期第7版进行验证研究，均发现N1分别与N0和N2的DMFS曲线能较好分开。因此，建议中国2008分期取消N1a亚组的形式，将N1a与N1b合并为N1。
+4．颈淋巴结最大径：
+中国2008分期将MRI横断面淋巴结最大径>3 cm归为N2，而UICC/AJCC分期第8版将淋巴结最大径(影像学上任意断面上淋巴结最大径)>6 cm归为N3。MRI上横断面上测量的颈淋巴结最大径比触诊测量的淋巴结最大径更为准确，因为触诊容易受到皮下软组织和成簇淋巴结的影响[27]。毛燕萍等[28]通过对924例初治鼻咽癌患者的MRI资料回顾性分析，结果显示中国2008分期中的横断面淋巴结最大径不是影响患者的独立预后因素；认为颈淋巴结大小仅是一个伴随因素，不应将横断面淋巴结最大径纳入N分期标准。随后，Li等[27]和Guo等[29]基于IMRT分别回顾性分析749例和1197例鼻咽癌患者资料，多因素分析结果均表明横断面颈淋巴结最大径>3 cm不是独立影响患者生存的不良预后因素。此外，Pan与Lee等回顾性分析福建省肿瘤医院和香港东区尤德夫人那打素医院共同收集的1609例首诊无转移并接受基于MRI检查的IMRT鼻咽癌患者资料，推荐的第8版分期N分期各期之间的DMFS和OS曲线均可以较好地分开[20]。而且，基于上述研究的数据对N分期的淋巴结最大径改用3 cm为界(中国2008分期标准)后，分析结果显示N3与N2之间的DMFS和OS曲线相似(图1)，这提示第8版中N分期对颈淋巴结大小界定是合理的。因此，建议中国2008分期删除颈淋巴结最大径>3 cm这个N分期因素。
+点击查看大图
+图1
+基于推荐的鼻咽癌UICC/AJCC分期第8版的数据，将其N分期的淋巴结最大径改用3 cm为界(2008分期标准)后，不同N分期之间的5年无远处转移生存曲线(1A)和OS曲线(1B)比较
+图1
+基于推荐的鼻咽癌UICC/AJCC分期第8版的数据，将其N分期的淋巴结最大径改用3 cm为界(2008分期标准)后，不同N分期之间的5年无远处转移生存曲线(1A)和OS曲线(1B)比较
+5．淋巴结包膜外侵犯：
+中国2008分期中将ECS定义为淋巴结边缘不规则强化、周围脂肪间隙部分或全部消失、或淋巴结相互融合。基于病理诊断的淋巴结ECS一直是影响其他头颈部癌症包括下咽癌、口腔癌患者的不良预后因素[30,31]。对于鼻咽癌患者，Mao等[32]研究结果显示基于MRI诊断的淋巴结ECS也是独立的预后因素。然而，鼻咽癌以放疗主要治疗手段，诊断淋巴结ECS主要依赖于MRI诊断而不是手术病理诊断，容易产生主观判断偏差，导致不同的医院淋巴结ECS诊断率差异较大。根据影像病理对照的研究[33,34]，结果显示MRI诊断淋巴结ECS的敏感性、特异性及准确性仅为74%～80%、72%～78%、76%～86%。Li等[27]、Guo等[29]和康敏等[35]多项研究多因素分析结果显示：采用IMRT技术后MRI诊断的淋巴结ECS并不是影响患者的独立预后因素。故为了保证分期因素的客观性和可预测性，建议删除淋巴结ECS这一N分期因素。
+三、UICC/AJCC分期第8版主要修订内容
+UICC/AJCC分期筹备委员会在收集鼻咽癌UICC/AJCC分期第8版修订意见时，主要考虑以下几点：①UICC/AJCC分期第7版是基于常规放疗数据的临床分期，需要修订适应IMRT时代的分期标准；②解决分期在临床应用中的咀嚼肌间隙、椎前肌的归属、何氏锁骨上窝的判断问题；③分期能否简化。同时，还希望能促进形成世界范围内统一的鼻咽癌分期系统，因此需要充分考虑中国2008分期系统的优点，并将其纳入新的分期。
+随后，潘建基与Ann Lee等回顾分析福建省肿瘤医院和香港东区尤德夫人那打素医院共同收集的1609例首诊无转移并接受基于MRI检查的IMRT鼻咽癌患者资料，针对分期筹备委员会考虑的上述分期存在问题进行逐一分析和研究；结果发现无其他T3、T4期解剖结构受侵的患者中单纯伴有咀嚼肌间隙(翼内肌和/或翼外肌)侵犯、椎前肌侵犯及咽旁间隙侵犯患者之间OS相近，伴广泛软组织(上述侵犯结构以外的软组织)受侵患者OS与伴有颅内侵犯或颅神经侵犯相似；全组仅2.3%患者出现直径>6 cm的颈淋巴结转移而无锁骨上区转移，其OS率与下颈淋巴结转移者类似。用下颈(环状软骨下缘以下)代替锁骨上区并不影响N分期之间的风险差异性，这与既往研究证实用中国2008分期标准的RTOG分区的IV及Vb区代替锁骨上区并不影响N分期之间的风险差异性的结果一致[27,32,36]。此外，T4N0-2、T1-4N3期OS率相近。因此建议UICC/AJCC分期第8版将单纯翼内肌和/或翼外肌受侵从T4降到T2期，增加椎前肌为T2期，下颈区(包括以往的锁骨上区，即Ⅳ区或Vb区)以及颈部最大淋巴结直径>6 cm合并归为N3期，将T4、N3期统一归为ⅣA期。这些改变不仅使得相邻分期间风险差异性更好，而且使得临床实践性与全球适用性之间达到最佳平衡[20]。该研究结果获得了UICC/AJCC分期筹备委员会一致认可，相关建议最终被完全纳入了UICC/AJCC分期第8版[37]。
+四、中国鼻咽癌分期2017版修订专家共识
+鼻咽癌中国2008分期标准的制定主要是基于既往常规放疗的回顾性数据，自2009年颁布实施以来，随着IMRT的广泛应用，其不足愈发明显。因此，中国2008分期的修订势在必行。而2017年颁布的UICC/AJCC分期第8版在国际多学科专家共识的基础上，整合了第7版和中国2008分期各自优势。2017年7月1日中国鼻咽癌临床分期工作委员会在福建南平召开了中国鼻咽癌分期修订工作会议，国内各位专家基于循证医学进行充分地讨论和沟通，并达成共识，一致认为目前UICC/AJCC分期第8版较为合理，中国2008分期修订应参照UICC/AJCC分期第8版标准，以制定国际统一分期标准。因此，推荐中国鼻咽癌分期2017版与UICC/AJCC分期第8版保持一致，具体分期见表1。
+点击查看表格
+表1
+鼻咽癌UICC/AJCC分期第8版/中国分期2017版
+表1
+鼻咽癌UICC/AJCC分期第8版/中国分期2017版
+分期及内容
+T分期
+TX：原发肿瘤无法评估
+T0：未发现肿瘤，但有EBV阳性且有颈转移淋巴结
+T1：肿瘤局限于鼻咽、或侵犯口咽和/或鼻腔，无咽旁间隙受累
+T2：肿瘤侵犯咽旁间隙，和/或邻近软组织受累(翼内肌、翼外肌、椎前肌)
+T3：肿瘤侵犯颅底骨质结构、颈椎、翼状结构，和/或鼻旁窦
+T4：肿瘤侵犯至颅内，有颅神经、下咽、眼眶、腮腺受累，和/或有超过翼外肌的外侧缘的广泛软组织侵犯
+N分期
+NX：无法评估区域淋巴结
+N0：无区域淋巴结转移
+N1：单侧颈部和/或咽后淋巴结转移(不论侧数)：最大径≤6 cm，且位于环状软骨下缘以上区域
+N2：双侧颈淋巴结转移：最大径≤6 cm，位于且环状软骨下缘以上区域
+N3：颈淋巴结转移(不论侧数)：最大径>6 cm和(或)位于环状软骨下缘以下区域
+临床分期
+0期：TisN0M0
+Ⅰ期：T1N0M0
+Ⅱ期：T0-1N1M0，T2N0-1M0
+Ⅲ期：T0-2N2M0，T3N0-2M0
+ⅣA期：T0-3N3M0或T4N0-3M0
+ⅣB期：任何T、N和M1
+此外，专家们认为应对UICC/AJCC分期第8版中一些容易引起歧义的表述和解剖结构定义予以备注说明，颅神经受累定义为影像学(MRI)和临床检查同时有颅神经受侵和麻痹[38]；N分期中颈部淋巴结最大径定义为影像学(MRI或CT)上轴位、矢状位或冠状位任一断面上所测量最大径；融合淋巴结测量：融合后的整个淋巴结中心所在层面上的最大径[29]；对于下颈淋巴结分区可参照RTOG颈淋巴结分区标准[39](即采纳了中国鼻咽癌2008分期颈淋巴结分区标准)，如出现颈淋巴结跨区转移，则以淋巴结下缘跨入的分区作为界定N分期的标准。同时，专家共识还依据UICC/AJCC分期第8版的各T、N分期标准制作了相应的图示(详见图2)，以供同行参考。
+点击查看大图
+图2
+中国鼻咽癌分期2017版分期示意图[2A 为鼻咽层面轴位图像；2B为口咽层面轴位图像；2C为颅底层面轴位图像；2D为海绵窦层面轴位图像；2E为正中矢状位图像；2F为冠状位图像(绿线T1期：肿瘤局限于鼻咽腔、或累及鼻腔和/或口咽；蓝线T2期：肿瘤突破咽颅底筋膜侵犯咽旁间隙、椎前肌、翼内外肌未超过翼外肌外侧缘、颈动脉间隙等结构；黄线T3期：肿瘤累及颅底骨质、翼状结构、颈椎、鼻旁窦等结构；红线T4期：肿瘤广泛软组织侵犯即超过翼外肌外侧缘累及翼外肌前间隙、颞肌、咬肌或腮腺等结构，或侵犯下咽、眼眶、颅神经、颅内等结构；2E和2F中的白色虚线代表环状软骨下缘平面相当于C6下缘水平，为上、下颈区域淋巴结的分界线)；2G期颈淋巴结分区示意图，红线代表上、下颈区域的分界线，即位于环状软骨下缘平面)]
+图2
+中国鼻咽癌分期2017版分期示意图[2A 为鼻咽层面轴位图像；2B为口咽层面轴位图像；2C为颅底层面轴位图像；2D为海绵窦层面轴位图像；2E为正中矢状位图像；2F为冠状位图像(绿线T1期：肿瘤局限于鼻咽腔、或累及鼻腔和/或口咽；蓝线T2期：肿瘤突破咽颅底筋膜侵犯咽旁间隙、椎前肌、翼内外肌未超过翼外肌外侧缘、颈动脉间隙等结构；黄线T3期：肿瘤累及颅底骨质、翼状结构、颈椎、鼻旁窦等结构；红线T4期：肿瘤广泛软组织侵犯即超过翼外肌外侧缘累及翼外肌前间隙、颞肌、咬肌或腮腺等结构，或侵犯下咽、眼眶、颅神经、颅内等结构；2E和2F中的白色虚线代表环状软骨下缘平面相当于C6下缘水平，为上、下颈区域淋巴结的分界线)；2G期颈淋巴结分区示意图，红线代表上、下颈区域的分界线，即位于环状软骨下缘平面)]
+最后，各位专家一致建议鼻咽癌分期工作委员会继续组织和深入开展鼻咽癌分期修订工作，不断完善鼻咽癌分期，针对中国和UICC/AJCC鼻咽癌新分期中仍存在有争议的问题和不足之处开展多中心前瞻性研究，为下一版的分期更新提供循证医学证据；同时，专家倡导以自愿参与为前提，以共享互利为目的，建立多中心的规范化鼻咽癌分期研究数据库，进一步提高我国鼻咽癌分期研究的水平。
+委员会成员
+顾问：徐国镇(1)
+主任：卢泰祥(2)、潘建基(3)
+副主任：郎锦义(4)、胡超苏(5)、高黎(1)
+委员：王仁生(6)、朱小东(7)、李金高(8)、何侠(9)、陈晓钟(10)、陈韵彬(3)、林少民(11)、金风(12)、胡德胜(13)、席许平(14)；
+秘书：林少俊(3)、易俊林(1)、赵充(2)
+专家：王佩国(15)、马骏(2)、石梅(16)，李咏梅(17)，夏云飞(2)，胡国清(18)
+单位：1.中国医学科学院肿瘤医院；2.中山大学肿瘤防治中心；3.福建省肿瘤医院；4.四川省肿瘤医院；5.复旦大学附属肿瘤医院；6.广西医科大学附属第一医院；7.广西医科大学附属肿瘤医院；8.江西省肿瘤医院；9.江苏省肿瘤医院；10.浙江省肿瘤医院；11.海南省肿瘤医院；12.贵州省肿瘤医院；13.湖北省肿瘤医院；14.湖南省肿瘤医院；15.天津医科大学肿瘤医院；16.西京医院；17.香港大学深圳医院；18.华中科技大学同济医学院附属同济医院
+参考文献
+[1]
+MinH, HongM, MaJ, et al.
+A new staging system for nasopharyngeal carcinoma in China[J]．
+Int J Radiat Oncol Biol Phys，
+1994，
+30(
+5):
+1037-
+1042.
+[2]
+YiJ, HuangX, LiG, et al.
+Intensity-modulated radiotherapy with simultaneous integrated boost for locoregionally advanced nasopharyngeal carcinoma[J]．
+Radiat Oncol，
+2014，
+9(
+1):
+56.
+DOI：10.1186/1748-717X-9-56.
+[3]
+SunX, SuS, ChenC, et al.
+Long-term outcomes of intensity-modulated radiotherapy for 868 patients with nasopharyngeal carcinoma：An analysis of survival and treatment toxicities[J]．
+Radiother Oncol，
+2014，
+110(
+3):
+398-
+403.
+DOI：10.1016/j.radonc.2013.10.020.
+[4]
+NgWT, LeeMCH, ChangATY, et al.
+The impact of dosimetric inadequacy on treatment outcome of nasopharyngeal carcinoma with IMRT[J]．
+Oral Oncol，
+2014，
+50(
+5):
+506-
+512.
+DOI：10.1016/j.oraloncology.2014.01.017.
+[5]
+WangW, FengM, FanZ, et al.
+Clinical outcomes and prognostic factors of 695 nasopharyngeal carcinoma patients treated with intensity-modulated radiotherapy[J]．
+Biomed ResInt，
+2014，
+2014(
+1):
+814948.
+DOI：10.1155/2014/814948.
+[6]
+HungTM, ChenCC, LinCY, et al.
+Prognostic value of prepontine cistern invasion in nasopharyngeal carcinoma treated by intensity-modulated radiotherapy[J]．
+Oral Oncol，
+2014，
+50(
+3):
+228-
+233.
+DOI：10.1016/j.oraloncology.2013.12.005.
+[7]
+ZongJ, LinS, LinJ, et al.
+Impact of intensity-modulated radiotherapy on nasopharyngeal carcinoma：Validation of the 7th edition AJCC staging system[J]．
+Oral Oncol，
+2015，
+51(
+3):
+254.
+DOI：10.1016/j.oraloncology.2014.10.012.
+[8]
+姜锋，胡福军，胡巧英，等．
+第7版UICC或AJCC鼻咽癌分期的IMRT验证研究[J]．
+中华放射肿瘤学杂志，
+2015，
+24(
+3):
+281-
+284.
+DOI：10.3760/cma.j.issn.1004-4221.2015.03.013.
+JiangF, HuFJ, HuQY, et al. Evaluation of significance of the 7th edition of the International Union against Cancer/American Joint Committee on Cancer staging system for nasopharyngeal carcinoma with intensity-modulated radiotherapy[J]．Chin J Radiat Oncol，2015，24(3):281-284.DOI：10.3760/cma.j.issn.1004-4221.2015.03.013.
+[9]
+OuX, ZhouX, ShiQ, et al.
+Treatment outcomes and late toxicities of 869 patients with nasopharyngeal carcinoma treated with definitive intensity modulated radiation therapy：new insight into the value of total dose of cisplatin and radiation boost[J]．
+Oncotarget，
+2015，
+6(
+35):
+38381-
+38397.
+DOI：10.18632/oncotarget.5420.
+[10]
+MinK, LongJ, LiG, et al.
+A new staging system for nasopharyngeal carcinoma based on intensity-modulated radiation therapy：results of a prospective multicentric clinical study[J]．
+Oncotarget，
+2016，
+7(
+12):
+15252-
+15261.
+DOI：10.18632/oncotarget.7553.
+[11]
+WebberC, GospodarowiczM, SobinLH, et al.
+Improving the TNM classification：Findings from a 10-year continuous literature review[J]．
+Int J Cancer，
+2014，
+135(
+2):
+371-
+378.
+DOI：10.1002/ijc.28683.
+[12]
+中国鼻咽癌临床分期工作委员会．
+鼻咽癌’92分期修订工作报告[J]．
+中华放射肿瘤学杂志，
+2009，
+18(
+1):
+2-
+6.
+DOI：10.3760/cma.j.issn.1004-4221.2009.01.002.
+Chinese Committee for Staging of Nasopharyngeal Carcinoma. Report on revision of Chinese′92 Staging of nasopharyngeal carcinoma[J]．Chin J Radiat Oncol，2009，18(1):2-6.DOI：DOI：10.3760/cma.j.issn.1004-4221.2009.01.002.
+[13]
+ChanNSC, YenTC.
+Staging of untreated nasopharyngeal carcinoma with PET-CT：comparison with conventional imaging work-up[J]．
+Eur J Nucl Med Mol Imaging，
+2009，
+36(
+1):
+12-
+22.
+DOI：10.1007/s00259-008-0918-7.
+[14]
+LiuWS, WuMF, TsengHC, et al.
+The Role of Pretreatment FDG-PET in Nasopharyngeal Carcinoma Treated With Intensity-Modulated Radiotherapy[J]．
+Int J Radiat Oncol Biol Phys，
+2012，
+82(
+2):
+561-
+566.
+DOI：10.1016/j.ijrobp.2010.11.055.
+[15]
+LeeSW, NamSY, ImKC, et al.
+Prediction of prognosis using standardized uptake value of 2-[(18) F] fluoro-2-deoxy-d-glucose positron emission tomography for nasopharyngeal carcinomas[J]．
+Radiother Oncol，
+2008，
+87(
+2):
+211-
+216.
+DOI：10.1016/j.radonc.2008.01.009.
+[16]
+LeeAWM, AuJSK, TeoPML, et al.
+Staging of nasopharyngeal carcinoma：suggestions for improving the current UICC/AJCC staging system[J]．
+Clin Oncol (R Coll Radiol)，
+2004，
+16(
+4):
+269-
+276.
+[17]
+LowJS, HengDM, WeeJT.
+The question of T2a and N3a in the UICC/AJCC (1997) staging system for nasopharyngeal carcinoma[J]．
+Clin Oncol (R Coll Radiol)，
+2004，
+16(
+8):
+581-
+583.
+[18]
+LiuMZ, TangLL, ZongJF, et al.
+Evaluation of sixth edition of AJCC staging system for nasopharyngeal carcinoma and proposed improvement[J]．
+Int J Radiat Oncol Biol Phys，
+2008，
+70(
+4):
+1115-
+1123.
+DOI：10.1016/j.ijrobp.2007.07.2353.
+[19]
+EdgeSB, ByrdDR, ComptonCC，et al.
+AJCC cancer staging manual[M].
+7th ed.
+Philadelphia：
+Lippincott-Raven，
+2009.
+[20]
+PanJJ, NgWT, ZongJF, et al.
+Proposal for the 8th edition of the AJCC/UICC staging system for nasopharyngeal cancer in the era of intensity-modulated radiotherapy[J]．
+Cancer，
+2016，
+122(
+4):
+546.
+DOI：10.1002/cncr.29795.
+[21]
+方燕红，陈韵彬，林少俊，等．
+基于MRI和IMRT的鼻咽癌鼻窦侵犯的预后研究[J]．
+中华放射肿瘤学杂志，
+2016，
+25(
+1):
+9-
+13.
+DOI：10.3760/cma.j.issn.1004-4221.2016.01.003.
+FangYH, ChenYB, LinSJ, et al. The prognostic value of paranasal sinus involvement based on MRI in nasopharyngeal carcinoma treated with intensity-modulated radiotherapy[J]．Chin J Radiat Oncol，2016，25(1):9-13.DOI：10.3760/cma.j.issn.1004-4221.2016.01.003.
+[22]
+OuyangPY, SuZ, MaXH, et al.
+Comparison of TNM staging systems for nasopharyngeal carcinoma，and proposal of a new staging system[J]．
+Br J Cancer，
+2013，
+109(
+12):
+2987-
+2997.
+DOI：10.1038/bjc.2013.659.
+[23]
+TangL, LiL, MaoY, et al.
+Retropharyngeal lymph node metastasis in nasopharyngeal carcinoma detected by magnetic resonance imaging：prognostic value and staging categories[J]．
+Cancer，
+2008，
+113(
+2):
+347.
+DOI：10.1002/cncr.23555.
+[24]
+PanJ, XuY, QiuS, et al.
+A comparison between the Chinese 2008 and the 7th edition AJCC staging systems for nasopharyngeal carcinoma[J]．
+Am J Clin Oncol，
+2015，
+38(
+2):
+189.
+DOI：10.1097/COC.0b013e31828f5c96.
+[25]
+TangLL, GuoR, ZhouG, et al.
+Prognostic value and staging classification of retropharyngeal lymph node metastasis in nasopharyngeal carcinoma patients treated with intensity-modulated radiotherapy[J/OL]．
+Plos One，
+2014，
+9(
+10):
+e108375.
+DOI：10.1371/journal.pone.0108375.
+[26]
+ChenL, MaoYP, XieFY, et al.
+The seventh edition of the UICC/AJCC staging system for nasopharyngeal carcinoma is prognostically useful for patients treated with intensity-modulated radiotherapy from an endemic area in China[J]．
+Radiother Oncol，
+2012，
+104(
+3):
+331-
+337.
+DOI：10.1016/j.radonc.2011.10.00.
+[27]
+LiWF, SunY, MaoYP, et al.
+Proposed lymph node staging system using the International Consensus Guidelines for lymph node levels is predictive for nasopharyngeal carcinoma patients from endemic areas treated with intensity modulated radiation therapy[J]．
+Int J Radiat Oncol Biol Phys，
+2013，
+86(
+2):
+249-
+256.
+DOI：10.1016/j.ijrobp.2012.09.003.
+[28]
+毛燕萍，李文斐，陈磊，等．
+鼻咽癌2008分期的临床验证[J]．
+癌症，
+2009，
+28(
+10):
+1022-
+1028.
+DOI：1000-467X(2009)10-1022-07.
+MaoYP, LiWF, ChenL, et al. A Clinical verification of the Chinese 2008 staging system for nasopharyngeal carcinoma[J]．Chin J Cancer，2009，28(10):1022-1028.DOI：1000-467X(2009)10-1022-0.
+[29]
+GuoQ, PanJ, ZongJ, et al.
+Suggestions for lymph node classification of uicc/ajcc staging system：a retrospective study based on 1197 nasopharyngeal carcinoma patients treated with intensity-modulated radiation therapy[J]．
+Medicine，
+2015，
+94(
+20):
+e808.
+DOI：10.1097/MD.0000000000000808.
+[30]
+GreenbergJS, FowlerR, GomezJ, et al.
+Extent of extracapsular spread：a critical prognosticator in oral tongue cancer[J]．
+Cancer，
+2003，
+97(
+6):
+1464-
+1470.
+[31]
+HirabayashiH, KoshiiK, UnoK, et al.
+Extracapsular spread of squamous cell carcinoma in neck lymph nodes：prognostic factor of laryngeal cancer[J]．
+Laryngoscope，
+1991，
+101(
+5):
+502-
+506.
+[32]
+MaoYP, LiangSB, LiuLZ, et al.
+The N staging system in nasopharyngeal carcinoma with radiation therapy oncology group guidelines for lymph node levels based on magnetic resonance imaging[J]．
+Clin Cancer Res，
+2008，
+14(
+22):
+7497-
+7503.
+DOI：10.1158/1078-0432.CCR-08-0271.
+[33]
+KingaAD, YuenEHY, ToEWH, et al.
+Comparison of CT and MR imaging for the detection of extranodal neoplastic spread in metastatic neck nodes[J]．
+Eur J Radiol，
+2004，
+52(
+3):
+264-
+270.
+[34]
+SteinkampHJ, BeckA, WerkM, et al.
+Extracapsular spread of cervical lymph node metastases：Diagnostic value of magnetic resonance imaging[J]．
+Rofo，
+2002，
+174(
+1):
+50.
+[35]
+康敏，赵婷婷，周平婷，等．
+基于IMRT和RTOG颈部淋巴结分区标准的鼻咽癌N分期研究[J]．
+中华放射肿瘤学杂志，
+2017，
+26(
+5):
+501-
+507.
+DOI：10.3760/cma.j.issn.1004-4221.2017.05.004.
+KangM, ZhaoTT, ZhouPT, et al. Study on N staging system for nasopharyngeal carcinoma based on intensity-modulated radiotherapy and RTOG guidelines for cervical lymph node levels[J]．Chin J Radiat Oncol，2017，26(5):501-507.DOI：10.3760/cma.j.issn.1004-4221.2017.05.004.
+[36]
+YueD, XuYF, ZhangF, et al.
+Is replacement of the supraclavicular fossa with the lower level classification based on magnetic resonance imaging beneficial in nasopharyngeal carcinoma？[J]．
+Radiother Oncol，
+2014，
+113(
+1):
+108.
+DOI：10.1016/j.radonc.2014.08.036.
+[37]
+MBA, SBE, FLG．
+AJCC Cancer Staging Manual[M].
+8th ed.
+New York：
+Springer，
+2017.
+[38]
+ZongJ, LinS, ChenY, et al.
+Does MRI-detected cranial nerve involvement affect the prognosis of locally advanced nasopharyngeal carcinoma treated with intensity modulated radiotherapy？[J/OL]．
+Plos One，
+2014，
+9(
+6):
+e100571.
+DOI：10.1371/journal.pone.0100571.
+[39]
+GrégoireV, AngK, BudachW, et al.
+Delineation of the neck node levels for head and neck tumors：a 2013 update. DAHANCA，EORTC，HKNPCSG，NCIC CTG，NCRI，RTOG，TROG consensus guidelines[J]．
+Radiother Oncol，
+2014，
+110(
+1):
+172.
+DOI：10.1016/j.radonc.2013.10.010.
+贡献者信息
+中国鼻咽癌临床分期工作委员会
+关键词
+鼻咽肿瘤;
+鼻咽癌分期;
+共识;
+历史
+出版日期：2017-10-15
+收稿日期：2017-07-21
+Consensus
+The 2017 edition for staging of nasopharyngeal carcinoma in China (The Chinese 2008 expert consensus on staging revision of nasopharyngeal carcinoma)
+Chinese Committee for Staging of Nasopharyngeal Carcinoma
+Published
+2017-10-15
+Cite as
+Chin J Radiat Oncol, 2017,26(10): 1119-1125. DOI: 10.3760/cma.j.issn.1004-4221.2017.10.002
+Abstract
+The staging of malignant tumors is a fundamental component of treatment selection, prognosis prediction and academic exchange. As "Chinese 2008 staging for nasopharyngeal carcinoma (NPC)" was widely adopted in China from 2009, more and more coordination and exchange of information has been carried out between treatment centers, which has promoted the development of multicenter clinical trials and staging studies. On July 1, 2017, an expert consensus conference was held by the Chinese Committee for Staging of NPC to discuss the revision of Chinese 2008 staging for NPC in Nanping City, Fujian Province. After a full discussion and communication according to evidence-based medicine, a consensus was made. The 8th edition UICC/AJCC staging system for NPC was more rational because it had incorporated the strengths of the Chinese 2008 and the 7th edition UICC/AJCC staging systems. Chinese 2008 staging should be revised based on the 8th edition UICC/AJCC staging system to make an internationally unified staging system. Therefore, the experts strongly recommended Chinese 2017 staging for NPC should be consistent with the 8th edition UICC/AJCC staging system.
+Key words:
+Nasopharyngeal neoplasms; Nasopharyngeal neoplasms stage; Expert consensus
+Contributor Information
+Chinese Committee for Staging of Nasopharyngeal Carcinoma
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+学位论文：
+0次
+数据支持(点击图标了解更多)
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+图1
+基于推荐的鼻咽癌UICC/AJCC分期第8版的数据，将其N分期的淋巴结最大径改用3 cm为界(2008分期标准)后，不同N分期之间的5年无远处转移生存曲线(1A)和OS曲线(1B)比较
+表1
+鼻咽癌UICC/AJCC分期第8版/中国分期2017版
+分期及内容
+T分期
+TX：原发肿瘤无法评估
+T0：未发现肿瘤，但有EBV阳性且有颈转移淋巴结
+T1：肿瘤局限于鼻咽、或侵犯口咽和/或鼻腔，无咽旁间隙受累
+T2：肿瘤侵犯咽旁间隙，和/或邻近软组织受累(翼内肌、翼外肌、椎前肌)
+T3：肿瘤侵犯颅底骨质结构、颈椎、翼状结构，和/或鼻旁窦
+T4：肿瘤侵犯至颅内，有颅神经、下咽、眼眶、腮腺受累，和/或有超过翼外肌的外侧缘的广泛软组织侵犯
+N分期
+NX：无法评估区域淋巴结
+N0：无区域淋巴结转移
+N1：单侧颈部和/或咽后淋巴结转移(不论侧数)：最大径≤6 cm，且位于环状软骨下缘以上区域
+N2：双侧颈淋巴结转移：最大径≤6 cm，位于且环状软骨下缘以上区域
+N3：颈淋巴结转移(不论侧数)：最大径>6 cm和(或)位于环状软骨下缘以下区域
+临床分期
+0期：TisN0M0
+Ⅰ期：T1N0M0
+Ⅱ期：T0-1N1M0，T2N0-1M0
+Ⅲ期：T0-2N2M0，T3N0-2M0
+ⅣA期：T0-3N3M0或T4N0-3M0
+ⅣB期：任何T、N和M1
+图2
+中国鼻咽癌分期2017版分期示意图[2A 为鼻咽层面轴位图像；2B为口咽层面轴位图像；2C为颅底层面轴位图像；2D为海绵窦层面轴位图像；2E为正中矢状位图像；2F为冠状位图像(绿线T1期：肿瘤局限于鼻咽腔、或累及鼻腔和/或口咽；蓝线T2期：肿瘤突破咽颅底筋膜侵犯咽旁间隙、椎前肌、翼内外肌未超过翼外肌外侧缘、颈动脉间隙等结构；黄线T3期：肿瘤累及颅底骨质、翼状结构、颈椎、鼻旁窦等结构；红线T4期：肿瘤广泛软组织侵犯即超过翼外肌外侧缘累及翼外肌前间隙、颞肌、咬肌或腮腺等结构，或侵犯下咽、眼眶、颅神经、颅内等结构；2E和2F中的白色虚线代表环状软骨下缘平面相当于C6下缘水平，为上、下颈区域淋巴结的分界线)；2G期颈淋巴结分区示意图，红线代表上、下颈区域的分界线，即位于环状软骨下缘平面)]
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华放射肿瘤学杂志2017年26卷10期
+文    题：中国鼻咽癌分期2017版(2008鼻咽癌分期修订专家共识)
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华放射肿瘤学杂志2017年26卷10期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+X
+选择其他平台 >>
+分享到
+分享到
+X
+腾讯微博
+一键通
+新浪微博
+QQ空间
+搜狐微博
+新华微博
+手机
+网易微博
+开心网
+豆瓣网
+手机快传
+人人网
+天涯
+凤凰微博
+朋友网
+微信
+QQ好友
+更多平台...
+(133)
+bShare

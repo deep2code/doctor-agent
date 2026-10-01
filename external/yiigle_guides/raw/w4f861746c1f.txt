@@ -1,0 +1,641 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%93%B6%E5%B1%91%E7%97%85%E8%AF%8A%E7%96%97%E6%8C%87%E5%8D%97%EF%BC%882018%E7%AE%80%E7%89%88%EF%BC%89.html
+# 标题: 中国银屑病诊疗指南（2018简版） - 中华皮肤科杂志
+# 发布方/日期: 皮肤科，中华皮肤科杂志, 2019,52(4) : 223-230. DOI: 10.3760/cma.j；2019-04-15
+
+中国银屑病诊疗指南（2018简版）
+中华医学会皮肤性病学分会银屑病专业委员会
+中华皮肤科杂志, 2019,52(4) : 223-230. DOI: 10.3760/cma.j.issn.0412-4030.2019.04.001
+银屑病是一种遗传与环境共同作用诱发、免疫介导的慢性、复发性、炎症性、系统性疾病，典型临床表现为鳞屑性红斑或斑块，局限或广泛分布，无传染性，治疗困难，常罹患终身。
+一、流行病学
+银屑病患病率在世界各地有显著差异。欧美患病率为1%~3%[1,2]；我国1984年报告银屑病患病率为0.123%[3]，2008年调查6个城市患病率为0.47%，依此推算，中国银屑病患者约在600万以上[4]。银屑病可发生于各年龄段，无性别差异。30%的患者有家族史，多数患者冬季复发或加重，夏季缓解。
+二、诊疗现状
+典型皮损易于诊断。若医生对疾病理解不全面或对临床体征缺乏综合分析能力，易造成误诊。银屑病的治疗以控制症状、改善生活质量为主。
+三、本次指南的编写背景
+中华医学会皮肤性病学分会银屑病专业委员会按照循证医学原则，在《中国银屑病治疗指南（2008版）》和《中国银屑病治疗专家共识（2014版）》的基础上[5,6]，参考国内外最新指南，并结合我国国情，邀请西医和中医领域权威专家组成指南编写委员会，制定出包括中医药治疗在内的具有中国特色的《中国银屑病诊疗指南》，指导我国银屑病诊疗行为。
+四、本指南的适用范围及有关声明
+本指南供皮肤科医生及其他涉及银屑病诊疗的医生使用。在编写过程中，尽可能纳入当前有循证医学证据的银屑病诊疗信息，但因取舍标准难以完全统一，指南仍有不尽人意之处。我们鼓励读者学习该指南发布后出现的新知识。
+五、病因及发病机制
+尚未完全清楚。西医认为病因涉及遗传、免疫、环境等多种因素，通过以T淋巴细胞介导为主、多种免疫细胞共同参与的免疫反应，引起角质形成细胞过度增殖、关节滑膜细胞与软骨细胞炎症发生。中医认为本病多属血分热毒炽盛，营血亏耗，瘀血阻滞，化燥生风，肌肤失养。
+六、银屑病的诊断、分型与分期
+西医诊断主要依据皮疹特点（包括皮疹形态、境界和分布等）和病史（包括发病情况、演变及消长规律、伴随症状和治疗反应等），结合既往史和家族史，必要时可借助组织病理和影像学技术（如皮肤镜等）明确诊断。
+1．寻常型银屑病：
+（1）点滴状银屑病：诊断依据：①起病急，皮疹为0.3~0.5 cm大小丘疹、斑丘疹，色泽潮红，覆以鳞屑，广泛分布；②发疹前常有咽喉部链球菌感染病史；③白细胞计数及中性粒细胞比例升高，抗链球菌溶血素O升高；④经适当治疗，皮疹在数周内消退，少数转为慢性病程。
+（2）斑块状银屑病：最常见的类型，约占90%。诊断依据：①皮疹基本特点为境界清楚的暗红色斑块或浸润性红斑，上附白色、银白色鳞屑；②查体见"蜡滴现象"、"薄膜现象"、"点状出血现象"（Auspitz征）和"束状发"等；③皮疹好发于头皮、背部和四肢伸侧；④伴或不伴瘙痒；⑤进行期可有同形反应；⑥皮损反复发作，多数冬重夏轻。
+（3）分期：①进行期，旧皮损无消退，新皮损不断出现，皮损炎症明显，周围可有红晕，鳞屑较厚，有"同形反应"；②静止期，皮损稳定，无新发皮损，炎症较轻，鳞屑较多；③退行期，皮损缩小或变平，炎症基本消退，遗留色素减退或色素沉着斑。
+（4）疾病严重度分类：①轻度，皮损面积< 3%体表面积（BSA），甚少影响患者生活质量，基本无需治疗，皮肤病生活质量指数（DLQI）2~5分；②中度，皮损累及3%~10% BSA，影响生活，患者期望治疗能改善生活质量，DLQI 6~10分；③重度，皮损面积> 10% BSA，极大地影响患者生活质量，DLQI > 10分。
+2．脓疱型银屑病：
+（1）局限性脓疱型银屑病：①掌跖脓疱病：掌跖部位红斑基础上发生脓疱，伴或不伴其他部位银屑病皮损，病理示表皮内中性粒细胞聚集形成脓疱；②连续性肢端皮炎：指（趾）末端发生的红斑、脓疱，常有外伤等诱因，可从1个指（趾）逐渐累及多个指（趾），甲脱落、萎缩，病理同掌跖脓疱病。
+（2）泛发性脓疱型银屑病：①迅速出现针尖至粟粒大小、淡黄色或黄白色浅在性无菌性小脓疱，密集分布；②片状脓湖，全身分布，肿胀疼痛；③红皮病改变、关节和指（趾）甲损害；④寒战和高热（呈弛张热型）。
+3．红皮病型银屑病：
+诊断依据：①一般有其他类型银屑病病史；②疾病本身加重或由于用药不当或其他刺激诱发病情急剧加重，发生弥漫性红斑、肿胀和脱屑，皮损大于90% BSA；③有时仍可见寻常型银屑病皮损；④可伴发热等系统症状和低蛋白血症。
+4．关节病型银屑病：
+诊断依据：①一般有其他类型银屑病病史；②指（趾）关节、四肢大关节或脊柱及骶髂关节肿痛，可有明显"晨僵"现象；③X线、核磁共振成像和B超等影像学检查示附着点炎，受累关节腔积液、滑膜增厚，严重者出现关节变形、关节腔狭窄或骨质破坏；④C反应蛋白升高，红细胞沉降率加快，类风湿因子常阴性，脊柱或骶髂关节受累者HLA-B27常阳性。
+5．中医辨证诊断：
+基本证型包括血热证（见于进行期，炎症为主）、血瘀证（见于静止期，增生为主）、血燥证（见于退行期，皮肤屏障功能障碍为主）、热毒炽盛证（见于红皮病型或泛发性脓疱型）、湿热蕴结证（见于局限性脓疱型）和风湿痹阻证（见于关节病型）。各证型间可互相转化、演变、兼夹。
+七、银屑病共病
+银屑病不仅是一种皮肤病，更是一种系统性疾病。特别是中、重度患者，可罹患高脂血症、糖尿病、代谢综合征、克罗恩病和动脉粥样硬化性心血管疾病等系统性疾病。
+八、银屑病的治疗目的和原则
+治疗目的：控制和稳定病情，减缓向全身发展的进程；消除或减轻红斑、鳞屑、斑块等皮损；避免复发或诱发加重的因素；减少不良反应；提高生活质量。
+银屑病有局部治疗、物理治疗和系统治疗等多种疗法。临床医师应权衡利弊，根据个体病因、疾病亚型、严重程度和治疗要求合理制定治疗方案。对中、重度银屑病患者，若单一疗法效果不佳，应予联合、交替或序贯治疗。
+治疗原则：①正规，强调使用指南推荐的治疗药物或方法；②安全，以确保安全为首要，尽量避免不良反应；③个体化，应综合考量患者的病情、需求、耐受性、经济承受能力、既往治疗史和药物不良反应等制定合理的治疗方案。
+九、银屑病的局部治疗
+1．外用药物治疗：
+常用于轻度银屑病患者。优点是药物直接作用于皮损，起效快，使用方便，全身不良反应少。缺点是长期使用可出现局部不良反应，皮损泛发者使用不便，患者依从性差异较大。
+应根据皮损特点和患者需求，选择不同种类及剂型的外用药物。常用外用药物包括润肤剂、保湿剂、维生素D3衍生物、维A酸类、糖皮质激素、钙调磷酸酶抑制剂、抗人白细胞介素8（IL-8）单克隆抗体和焦油制剂等。复方制剂可提高疗效、减轻不良反应，便于患者使用，如复方卡泊三醇（卡泊三醇+倍他米松）、复方丙酸氯倍他索（维A酸+丙酸氯倍他索）及复方他扎罗汀（他扎罗汀+倍他米松）等。
+皮肤屏障功能不全与银屑病的复发密切相关，因此保护皮肤屏障在预防银屑病复发中至关重要。坚持外用含神经酰胺/类神经酰胺的保湿剂能降低银屑病复发率和减轻复发时的严重程度。目前，非药物局部保湿剂是国际公认的治疗银屑病的一种标准化辅助治疗方法。
+2．光疗：
+紫外线包括长波紫外线（UVA，波长320~400 nm）、中波紫外线（UVB，波长290~320 nm）和短波紫外线（UVC，波长180~290 nm）。临床应用最广泛的是窄谱UVB（NB-UVB），适用于中重度寻常型银屑病、关节病型银屑病。红皮病型和脓疱型银屑病患者慎用。
+NB-UVB治疗方法：首先测定患者的最小红斑量（MED）；初始剂量以0.5~0.7 MED照射；每周治疗3次。根据患者照射后的反应，递增前次剂量的10%~20%或固定剂量（0.05 J/cm2或0.1 J/cm2）；治疗后如无明显红斑，可递增照射剂量；出现轻度红斑，维持原剂量照射；出现中、重度红斑，待红斑消退可继续治疗，但照射剂量需减前次剂量的10%~20%；出现痛性红斑或水疱，应暂停治疗并作对症处理。减量：皮疹消退超过80%时，可减少至每周2次，维持1个月，然后每周1次，维持1个月，最后每2周1次，维持2个月以上，剂量视患者接受照射后的反应和耐受情况减少15%~25%。总治疗时间需要4个月或更长。
+UVA联合光敏剂补骨脂素（psoralen）治疗（简称PUVA）及308 nm准分子激光和308 nm滤过紫外线可用于局限性顽固皮损[7,8,9,10,11]。
+3．中医外治法：
+分为中药外治法和非药物疗法。中药外治法包括涂擦、封包、药浴、熏蒸、溻（渍）和穴位注射疗法等。非药物疗法包括火罐、针刺、穴位埋线、火针、三棱针和耳针疗法等。应辨证施治，掌握适应证、禁忌证和操作规范。
+十、银屑病的系统治疗药物
+1．甲氨蝶呤（methotrexate，MTX）：
+MTX对中重度斑块状、关节病型、红皮病型、泛发性脓疱型银屑病均显示较好的疗效，对甲银屑病和掌跖部位银屑病也有疗效。在光疗、光化学疗法和其他系统治疗无效时尤为适用。常用推荐剂量为5~25 mg/周，起始剂量2.5~7.5 mg/周，可单次口服或分3次口服（每12小时服药1次，每周连续服药3次），每2~4周增加2.5 mg，逐渐增加剂量到15~25 mg/周[12]。病情控制后至少维持1~2个月后逐渐减量，每4周减2.5 mg，直到最小维持量。MTX疗效在12周或16周较好，如无明显疗效，则停止治疗改用其他药物治疗。MTX治疗期间须定期检测血常规、肝肾功能。若连续累积剂量大于1 500 mg，须定期检测Ⅲ型前胶原氨基末端肽（PⅢNP），预防及监测肝纤维化。使用MTX治疗的患者是否补充叶酸目前观点不一[13,14]，建议补充叶酸者认为可以减少MTX的不良反应，不会降低疗效[15]。补充叶酸有两种建议，一是1 mg/d连用5 d，二是5 mg/12 h每周3次，在最后1次服用MTX后12 h开始服用[16,17]。
+2．环孢素（cyclosporine A）：
+环孢素对各型银屑病均有效，推荐用于严重病例和其他疗法失败的中重度银屑病患者。
+环孢素常用推荐剂量为3~5 mg·kg-1·d-1，可用每日2次的给药方法[18]。治疗银屑病的推荐起始剂量一般为2.5 mg·kg-1·d-1，治疗4周，接着按每2周增加0.5 mg·kg-1·d-1至最大剂量5 mg·kg-1·d-1。如果患者服用可以耐受的最大剂量超过6周后还没有满意的疗效则必须停药[19]。症状控制后逐渐减量，每2周减0.5~1 mg·kg-1·d-1，直至最低有效剂量维持治疗。环孢素逐渐减量比突然停用复发率低、缓解期长[20,21]。环孢素停药后病情易反复，常在2周至2个月内恢复到治疗前的程度，故应小剂量长期维持治疗。
+环孢素使用方法：①间歇式短程疗法（intermittent short-term therapy），短期口服环孢素（12~16周）至银屑病症状明显改善后停止用药[18,20,22]；②持续性长程疗法，CyA初始剂量为4 mg·kg-1·d-1，当临床症状明显好转或基本治愈后，继续以最低剂量治疗，以维持疗效[23]，维持剂量一般为3~3.5 mg·kg-1·d-1[24]；③救援疗法（rescue therapy），指对于一些重度银屑病患者短期使用环孢素治疗，使环孢素快速发挥其治疗作用，接着用其他药物替代治疗，作为"救援"或"桥接"治疗[25]，主要用于红皮病型银屑病、亚红皮病型银屑病及泛发性脓疱型银屑病的治疗；④交替治疗（rotational therapy），为了减少环孢素持续用药治疗的时间和可能的不良反应，可交替使用其他系统药物治疗（如阿维A、延胡索酸酯、MTX、霉酚酸酯）[22,25]。
+对儿童和青少年患者，建议在严重病例用其他药物治疗无效的情况下慎重使用。肾毒性和高血压是被高度关注的不良反应。短期治疗时间2~4个月，长期治疗时间不超过2年[18,25,26]。
+3．维A酸类：
+主要适用于斑块状、脓疱型和红皮病型银屑病，对关节病型银屑病疗效欠佳。阿维A口服常用推荐剂量为0.5~1.0 mg·kg-1·d-1，最好与食物同服，可加强药物吸收。治疗常用的剂量为30~50 mg/d[27,28]。阿维A治疗斑块状银屑病的推荐起始剂量为10~20 mg/d，持续2~4周，逐渐增加至达到皮损明显改善，最大剂量不超过1.0 mg·kg-1·d-1[29]。维持剂量个体间差异较大，视患者情况而定。联合治疗时，建议剂量低于30 mg/d。育龄期妇女、老年人、儿童及青少年患者慎用，孕妇禁用。
+4．生物制剂：
+近年来，针对细胞炎症因子的单抗类生物制剂相继被用于对传统系统药物反应不佳、严重影响生活质量、伴有明显关节症状的中重度银屑病患者的治疗，呈现良好的疗效和安全性。目前用于银屑病临床治疗的生物制剂包括肿瘤坏死因子α拮抗剂（依那西普、英夫利西单抗、阿达木单抗）、IL-12/23拮抗剂（乌司奴单抗）和IL-17A拮抗剂（司库奇尤单抗）。
+（1）依那西普（etanercept）：推荐25 mg每周2次或50 mg每周1次皮下注射[30]。儿童（4~17岁）用药剂量为每周0.8 mg/kg[31]。一般于给药后1~2个月起效，治疗停止后病情仍有继续改善的可能。
+（2）英夫利西单抗（infliximab）：推荐静脉给药5 mg/kg，分别在第0、2、6周给药，此后每8周给药1次。一般于给药2周后即可出现疗效，通常于第10周时达到最佳疗效[32,33]。
+（3）阿达木单抗（adalimumab）：推荐起始剂量80 mg皮下注射，第2周40 mg，以后每2周40 mg。治疗后2周即显效，一般于12~16周达到最佳疗效[34,35]。
+（4）乌司奴单抗（ustekinumab）：推荐第0和4周，45 mg（体重≤ 100 kg）或90 mg（体重> 100 kg）皮下注射，此后每12周重复用药1次，若疗效欠佳，可增加用药剂量或者每8周用药1次[36,37]。
+（5）司库奇尤单抗（secukinumab）：目前国内正在进行Ⅲ期临床试验。推荐用法：第0、1、2、3、4周300 mg皮下注射，之后300 mg每月1次维持[38]。
+5．中医内治法：
+选择中医治疗的轻中度银屑病患者以中医内治法为主，重度、脓疱型、红皮病型、关节病型银屑病推荐中西医结合治疗。点滴状和斑块状银屑病在进行期以清热凉血为主，静止期、退行期以养血润燥、活血化瘀为主；红皮病型或泛发性脓疱型银屑病治以泻火解毒；局限性脓疱型银屑病治以清热利湿解毒；关节病型银屑病治以祛风除湿通络。
+复方青黛胶囊（丸）、郁金银屑片、银屑灵、银屑冲剂、克银丸、消银颗粒、消银片等复方中成药常用于银屑病的治疗，但尚需积累循证医学证据。雷公藤制剂、昆明山海棠、白芍总苷、复方甘草酸苷、甘草甜素及甘草酸等单方或单体中成药或植物提取药辅助治疗银屑病有效。复方甘草酸苷可用于预防或减轻某些系统药物治疗引起的肝脏损害。
+十一、银屑病的治疗方案
+治疗方案的选择旨在有效控制疾病、降低药物不良反应和提高患者依从性。在此原则下，针对个体制定基于各种治疗药物或手段的序贯、联合或替换疗法。
+十二、各型银屑病的治疗
+1．点滴状银屑病：
+主要以外用药或光疗为主。
+维生素D3衍生物：他卡西醇适用于急性点滴状银屑病，可与弱效或中效糖皮质激素联用或单用，也可与UVB联合。
+糖皮质激素：可选用弱效或中效糖皮质激素（如氢化可的松/糠酸莫米松/丙酸氟替卡松软膏等），也可与他卡西醇或UVB联合。
+光疗：优先选择NB-UVB；联合保湿剂、糖皮质激素或维生素D3衍生物疗效更好。
+部分点滴状银屑病患者与链球菌感染相关，扁桃体切除可能会改善病情、延长缓解期、提高疗效。
+系统治疗包括抗生素和中医中药等。维A酸类和免疫抑制剂治疗有效，但需慎重。
+2．斑块状银屑病：
+轻度患者以局部治疗为主，大多能有效控制病情。外用制剂包括维生素D3衍生物、维A酸类、中效或强效糖皮质激素及钙调磷酸酶抑制剂等。局部光疗也可选用。单一用药不良反应明显或疗效不好时，可选择两种或多种药物交替或联合。常用联合方案包括：维生素D3衍生物+钙调磷酸酶抑制剂、糖皮质激素+维生素D3衍生物、糖皮质激素+维A酸类等。
+中重度患者需系统治疗或光疗。药物包括维A酸类、免疫抑制剂（如MTX、环孢素、雷公藤制剂）和生物制剂等。系统治疗可联合局部用药以提高疗效。皮损广泛者可采用光疗（如NB-UVB或PUVA）。
+3．红皮病型银屑病：
+需要系统治疗和评估患者的整体情况。药物包括维A酸类、MTX、环孢素和生物制剂等。阿维A及MTX对红皮病型银屑病长期疗效好，但起效较慢，逐渐减量可有效预防复发。病情重、不稳定的患者推荐使用环孢素或生物制剂。
+一般不推荐局部或系统应用糖皮质激素，除非患者出现严重中毒症状并危及生命。病情严重紧急时应系统用糖皮质激素控制急性炎症，病情控制后逐渐减量至停用。如患者合并发热、低蛋白血症、水电解质紊乱、继发感染和肝功能异常等，应注意监测全身状况，予营养支持、维持水电解质平衡、防治感染及保肝等。同时注意保护心、肾和中枢神经系统等重要脏器或系统的功能。
+4．脓疱型银屑病：
+泛发性患者可选维A酸类、MTX、环孢素和生物制剂等。阿维A是泛发性脓疱型银屑病的标准治疗药物，在急性病情控制后逐渐减至小剂量维持。对于重症患者，可选用生物制剂或环孢素作为初始治疗，待病情控制后可改用维A酸类或MTX维持。
+糖皮质激素能够快速控制脓疱蔓延、缓解全身症状，但使用须谨慎，建议只在病情特别严重、危及生命，且其他措施疗效不佳或有禁忌的情况下慎重选用。推荐与阿维A或免疫抑制剂联合，取得满意疗效后逐渐减量至停用。
+局部用药以保护为主，脓疱未破时可用炉甘石洗剂减轻肿胀，脓疱破后以清洁皮肤为主。局限性脓疱型银屑病除局部治疗外，也可参考使用系统治疗。
+5．关节病型银屑病：
+目的是控制炎症、预防关节损伤和失能。应充分评估患者的关节损害类型及严重程度。治疗包括适当休息，避免过度劳累加重关节损伤，鼓励适度关节功能锻炼。系统药物包括非甾体类抗炎药、MTX和生物制剂等。雷公藤制剂和白芍总苷可减轻关节炎症状。
+十三、特殊部位银屑病的治疗
+1．头皮银屑病：
+累及45%~80%的患者，多为首发，也可单独患病。皮损鳞屑较厚，常超出发际，可见"束状发"。煤焦油类、水杨酸类洗发产品有辅助治疗作用。外用糖皮质激素对轻、中、重度患者均有效，推荐中效至强效糖皮质激素，开始每日2次，逐渐改为每日1次。维A酸类和卡泊三醇的疗效次于强效糖皮质激素，但长期使用耐受性好、风险小，是外用糖皮质激素的首选配伍。
+中重度患者亦可予系统治疗，可选用阿维A、MTX、环孢素或生物制剂。
+2．甲银屑病：
+可发生于各型银屑病。90%的关节病型银屑病患者有甲改变（如点状凹陷、油滴征、甲剥离、甲溶解、甲下角化过度等）。常用强效或超强效糖皮质激素治疗，对甲母质受累所致的甲损害效果较好，每日外用1~2次。卡泊三醇对甲床受累所致的甲损害效果较好。他扎罗汀对甲剥离和甲凹点疗效较好，需封包以加强疗效，常见不良反应为红斑、局部刺激、脱屑和甲沟炎。甲周注射小剂量曲安奈德对改善甲母质受累所致的甲损害疗效明显。环孢素是治疗甲银屑病效果最好的经典用药。
+3．反向银屑病：
+皮损累及腋窝、乳房下褶、腹股沟、生殖器和会阴部等皱褶区域。以局部治疗为主，必要时应用物理治疗，一般不采用系统治疗。首选低中效糖皮质激素，维持阶段选更低效的糖皮质激素，并逐渐以维生素D3衍生物或钙调磷酸酶抑制剂替代，不主张用强效或超强效糖皮质激素。生殖器部位皮损应选用弱效糖皮质激素（如氢化可的松）及中效或软性糖皮质激素（如糠酸莫米松和丁酸氢化可的松）。钙调磷酸酶抑制剂对黏膜部位损害有效。
+系统治疗只用于重症或合并其他类型银屑病或病情严重影响患者生活质量时，可选用MTX、环孢素和维A酸类等。
+十四、特殊人群银屑病的治疗
+1．儿童银屑病：
+轻度银屑病患儿通常只需局部治疗，推荐常规使用润肤剂。糖皮质激素应用最广泛。维生素D3衍生物也常用于儿童轻、中度银屑病。钙调磷酸酶抑制剂多用于面部、生殖器和皱褶部位，可单用或与糖皮质激素联用。
+泛发性斑块状或点滴状银屑病和掌跖脓疱病可选用光疗。NB-UVB对点滴状和小斑块状银屑病比大斑块状银屑病效果好，应注意长期光疗的潜在致癌风险。常用的系统药物包括维A酸类、MTX、环孢素和生物制剂。关节病型患儿首选MTX或生物制剂。注意必须让监护人了解所选方案可能出现的不良反应及进行长期监测的必要性。
+2．孕妇及哺乳期妇女银屑病：
+润肤剂和保湿剂是妊娠及哺乳期最安全的基础用药。外用糖皮质激素可酌情选择。孕前至孕期全程小面积使用弱效或中效糖皮质激素相对安全，禁止大面积使用。不建议孕期外用维生素D3衍生物。避免在孕早期系统应用糖皮质激素。
+3．老年银屑病：
+谨慎选择外用糖皮质激素，对于屈侧皮肤，应避免使用刺激性外用药。复方制剂可减少不良反应，提高疗效，用药方便，依从性高。外用药物疗效不佳，且因合并症和相关风险因素不宜应用系统药物者，建议光疗。
+维A酸类可用于无严重肝肾功能不全的老年患者，需注意甘油三酯升高的风险。而环孢素在老年人中经肾脏排泄减少，应谨慎使用。
+十五、以患者为中心的心理治疗、疾病管理与预防
+1．心理治疗：
+心理治疗是指用心理学方法，通过语言或非语言因素，对患者进行训练、教育和治疗，以减轻或消除身体症状，改善心理精神状态，适应家庭、社会和工作环境。银屑病也是一种心身疾病，心理因素在银屑病的诱发、发展及治疗中具有重要作用，对银屑病患者健康相关生存质量（health-related QoL，HRQoL）的影响与对癌症、心力衰竭、糖尿病和抑郁症HRQoL的影响相当[39]。多数银屑病患者常表现为焦虑、紧张、抑郁、自卑等心理，银屑病反复、迁延的特点致部分患者对治疗失去信心，进而中断治疗，引起焦虑烦躁等心理反应，进一步加重病情。银屑病本身是一种损容性疾病，易使患者产生自卑心理，严重影响社会生活，明显增加自杀率及死亡率。因此，心理治疗是银屑病治疗中不可或缺的一部分。
+心理治疗主要分为以下四部分，①健康宣教干预：加强患者对疾病本身的认识，指导患者规范、合理用药；②护理服务干预：优化医患关系，融入人文关怀，操作规范，协助患者服药擦药；③特定心理干预：根据患者的具体情况进行针对性的心理疏导及行为干预，包括放松训练（心情放松、腹式呼吸、音乐及肌肉放松法）、集体心理干预及生物反馈疗法；④系统性心理干预：通过医护人员的语言、表情、姿势、行为及关怀等来影响和改善患者的情绪，解除其顾虑和烦恼，增强战胜疾病的意志和信心，达早日康复的目的。
+2．为患者提供有针对性的医学教育：
+①要让患者认识到银屑病是一种慢性疾病，虽然严重影响生活质量，但无传染性，若能及早合理治疗，可提高生活质量，一般不危及生命；②要让患者相信科学，充分认识到银屑病是由不良生活习惯、心理压力、感染或环境因素诱发或加重的疾病，不要听信偏方，盲目寻求根治；③对患者进行有针对性的健康管理，倡导健康的生活方式，鼓励患者到当地医院的银屑病门诊就诊，进入随访队列，接受个体化的治疗和健康教育。
+3．向全社会普及医学知识：
+加强对全社会的科普宣传，让大众知晓银屑病是一种无传染性的慢性疾病，给予患者理解和尊重，消除患者的心理顾虑。虽然银屑病有遗传因素存在，但现有的研究并未指出其遗传的必然性。
+4．预防：
+银屑病的发生与复发受多种自身及环境因素的影响，如呼吸道感染、精神过度紧张或抑郁、不良生活习惯（如吸烟、酗酒）或过度肥胖等均可诱发或加重疾病。患者应不断总结，摸索发病规律，培养良好的生活习惯，配合积极有效的治疗，预防银屑病的发生和复发。
+《中国银屑病诊疗指南（2018版）》编写委员会：
+主任委员：张学军
+副主任委员：郑捷、杨志波、郑敏、顾军
+秘书长：张锡宝
+顾问：郑志忠、方栩、孙青、刘晓明
+委员（按姓名字母顺序排列）：陈翔、崔勇、范卫新、顾恒、晋红中、李斌、栗玉珍、刘红霞、刘巧、卢传坚、吕成志、马慧群、史玉玲、王刚、徐金华、张安平、张春雷、张福仁、张建中、张锡宝、周冬梅
+秘书：张三泉、李欣、张耀华、杨青
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+参考文献
+[1]
+GibbsS.
+Skin disease and socioeconomic conditions in rural Africa: Tanzania[J].
+Int J Dermatol,
+1996,
+35(
+9):
+633-
+639.
+[2]
+DanielsenK, OlsenAO, WilsgaardT, et al.
+Is the prevalence of psoriasis increasing? A 30-year follow-up of a population-based cohort[J].
+Br J Dermatol,
+2013,
+168(
+6):
+1303-
+1310.
+doi: 10.1111/bjd.12230.
+[3]
+ShaoCG, ZhangGW, WangGC.
+Distribution of psoriasis in China: a nationwide screening[J].
+Proc Chin Acad Med Sci Peking Union Med Coll,
+1987,
+2(
+2):
+59-
+65.
+[4]
+丁晓岚，王婷琳，沈佚葳,等.
+中国六省市银屑病流行病学调查[J].
+中国皮肤性病学杂志,
+2010,
+24(
+7):
+598-
+601.
+[5]
+中华医学会皮肤性病学分会银屑病学组.
+中国银屑病治疗指南（2008版）[J].
+中华皮肤科杂志,
+2009,
+42(
+3):
+213-
+214.
+doi: 10.3760/cma.j.issn.0412-4030.2009.03.030.
+[6]
+中华医学会皮肤性病学分会银屑病学组.
+中国银屑病治疗专家共识（2014版）[J].
+中华皮肤科杂志，
+2014,
+47(
+3):
+213-
+215.
+doi: 10.3760/cma.j.issn.0412-4030.2014.03.017.
+[7]
+WongT, HsuL, LiaoW.
+Phototherapy in psoriasis: a review of mechanisms of action[J].
+J Cutan Med Surg,
+2013,
+17(
+1):
+6-
+12.
+doi: 10.2310/7750.2012.11124.
+[8]
+KooJ, BandowG, FeldmanSR, et al.
+The art and practice of UVB phototherapy for the treatment of psorasis//
+WeinsteinGD, GottliebAB.
+Therapy of moderate-to-severe psorasis[M].
+New York:
+Marcel Dekker,
+2003:
+53-
+90.
+[9]
+BianchiB, CampolmiP, MaviliaL, et al.
+Monochromatic excimer light（308 nm）: an immunohistochemical study of cutaneous T cells and apoptosis-related molecules in psoriasis[J].
+J Eur Acad Dermatol Venereol,
+2003,
+17(
+4):
+408-
+413.
+[10]
+FeldmanSR, MellenBG, HousmanTS, et al.
+Efficacy of the 308-nm excimer laser for treatment of psoriasis: results of a multicenter study[J].
+J Am Acad Dermatol,
+2002,
+46(
+6):
+900-
+906.
+[11]
+BagelJ.
+Adalimumab plus narrowband ultraviolet B light photo-therapy for the treatment of moderate to severe psoriasis[J].
+J Drugs Dermatol,
+2011,
+10(
+4):
+366-
+371.
+[12]
+VidalD, SallerasM, RomaníJ, et al.
+Adherence of self-administered subcutaneous methotrexate in patients with chronic plaque-type psoriasis[J].
+J Eur Acad Dermatol Venereol,
+2016,
+30(
+11):
+e131-
+e132.
+doi: 10.1111/jdv.13409.
+[13]
+SheaB, SwindenMV, GhogomuET, et al.
+Folic acid and folinic acid for reducing side effects in patients receiving methotrexate for rheumatoid arthritis[J].
+J Rheumatol,
+2014,
+41(
+6):
+1049-
+1060.
+doi: 10.3899/jrheum.130738.
+[14]
+ClineA, JorizzoJL.
+Does daily folic acid supplementation reduce methotrexate efficacy?[J/OL].
+Dermatol Online J,
+2017,
+23(
+11):
+6.
+pii: 13030/qt4hf5v2vk.
+[15]
+PreyS, PaulC.
+Effect of folic or folinic acid supplementation on methotrexate-associated safety and efficacy in inflammatory disease: a systematic review[J].
+Br J Dermatol,
+2009,
+160(
+3):
+622-
+628.
+doi: 10.1111/j.1365-2133.2008.08876.x.
+[16]
+OrtizZ, SheaB, Suarez-AlmazorME, et al.
+The efficacy of folic acid and folinic acid in reducing methotrexate gastrointestinal toxicity in rheumatoid arthritis. A metaanalysis of randomized controlled trials[J].
+J Rheumatol,
+1998,
+25(
+1):
+36-
+43.
+[17]
+DuhraP.
+Treatment of gastrointestinal symptoms associated with methotrexate therapy for psoriasis[J].
+J Am Acad Dermatol,
+1993,
+28(
+3):
+466-
+469.
+[18]
+MenterA, KormanNJ, ElmetsCA, et al.
+Guidelines of care for the management of psoriasis and psoriatic arthritis: section 4. Guidelines of care for the management and treatment of psoriasis with traditional systemic agents[J].
+J Am Acad Dermatol,
+2009,
+61(
+3):
+451-
+485.
+doi: 10.1016/j.jaad.2009.03.027.
+[19]
+FaerberL, BraeutigamM, WeidingerG, et al.
+Cyclosporine in severe psoriasis. Results of a meta-analysis in 579 patients[J].
+Am J Clin Dermatol,
+2001,
+2(
+1):
+41-
+47.
+doi: 10.2165/00128071-200102010-00007.
+[20]
+HoVC, GriffithsCE, AlbrechtG, et al.
+Intermittent short courses of cyclosporin（Neoral（R））for psoriasis unresponsive to topical therapy: a 1-year multicentre, randomized study. The PISCES Study Group[J].
+Br J Dermatol,
+1999,
+141(
+2):
+283-
+291.
+[21]
+HoVC, GriffithsCE, Berth-JonesJ, et al.
+Intermittent short courses of cyclosporine microemulsion for the long-term management of psoriasis: a 2-year cohort study[J].
+J Am Acad Dermatol,
+2001,
+44(
+4):
+643-
+651.
+doi: 10.1067/mjd.2001.112400.
+[22]
+LebwohlM, EllisC, GottliebA, et al.
+Cyclosporine consensus conference: with emphasis on the treatment of psoriasis[J].
+J Am Acad Dermatol,
+1998,
+39(
+3):
+464-
+475.
+[23]
+GriffithsCE, ClarkCM, ChalmersRJ, et al.
+A systematic review of treatments for severe psoriasis[J].
+Health Technol Assess,
+2000,
+4(
+40):
+1-
+125.
+[24]
+ColomboD, CassanoN, AltomareG, et al.
+Psoriasis relapse evaluation with week-end cyclosporine A treatment: results of a randomized, double-blind, multicenter study[J].
+Int J Immunopathol Pharmacol,
+2010,
+23(
+4):
+1143-
+1152.
+doi: 10.1177/039463201002300418.
+[25]
+AmorKT, RyanC, MenterA.
+The use of cyclosporine in dermatology: part I[J].
+J Am Acad Dermatol,
+2010,
+63(
+6):
+925-
+946;
+quiz 947-948.
+doi: 10.1016/j.jaad.2010.02.063.
+[26]
+PathiranaD, OrmerodAD, SaiagP, et al.
+European S3-guidelines on the systemic treatment of psoriasis vulgaris[J].
+J Eur Acad Dermatol Venereol,
+2009,
+23
+Suppl 2:
+1-
+70.
+doi: 10.1111/j.1468-3083.2009.03389.x.
+[27]
+GollnickHP.
+Oral retinoids--efficacy and toxicity in psoriasis[J].
+Br J Dermatol,
+1996,
+135
+Suppl 49:
+6-
+17.
+[28]
+LingMR.
+Acitretin: optimal dosing strategies[J].
+J Am Acad Dermatol,
+1999,
+41(
+3
+Pt 2):
+S13-
+S17.
+[29]
+CarreteroG, RiberaM, BelinchónI, et al.
+Guidelines for the use of acitretin in psoriasis. Psoriasis Group of the Spanish Academy of Dermatology and Venereology[J].
+Actas Dermosifiliogr,
+2013,
+104(
+7):
+598-
+616.
+doi: 10.1016/j.adengl.2013.01.001.
+[30]
+NastA, GisondiP, OrmerodAD, et al.
+European S3-Guidelines on the systemic treatment of psoriasis vulgaris--Update 2015-- Short version--EDF in cooperation with EADV and IPC[J].
+J Eur Acad Dermatol Venereol,
+2015,
+29(
+12):
+2277-
+2294.
+doi: 10.1111/jdv.13354.
+[31]
+PallerAS, SiegfriedEC, PariserDM, et al.
+Long-term safety and efficacy of etanercept in children and adolescents with plaque psoriasis[J].
+J Am Acad Dermatol,
+2016,
+74(
+2):
+280-287. e1-e3.
+doi: 10.1016/j.jaad.2015.09.056.
+[32]
+ReichK, NestleFO, PappK, et al.
+Infliximab induction and maintenance therapy for moderate-to-severe psoriasis: a phase III, multicentre, double-blind trial[J].
+Lancet,
+2005,
+366(
+9494):
+1367-
+1374.
+doi: 10.1016/S0140-6736(05)67566-6.
+[33]
+MenterA, FeldmanSR, WeinsteinGD, et al.
+A randomized comparison of continuous vs. intermittent infliximab maintenance regimens over 1 year in the treatment of moderate-to-severe plaque psoriasis[J].
+J Am Acad Dermatol,
+2007,
+56(
+1):
+31. e1-
+e15.
+doi: 10.1016/j.jaad.2006.07.017.
+[34]
+MenterA, TyringSK, GordonK, et al.
+Adalimumab therapy for moderate to severe psoriasis: a randomized, controlled phase III trial[J].
+J Am Acad Dermatol,
+2008,
+58(
+1):
+106-
+115.
+doi: 10.1016/j.jaad.2007.09.010.
+[35]
+GordonK, PappK, PoulinY, et al.
+Long-term efficacy and safety of adalimumab in patients with moderate to severe psoriasis treated continuously over 3 years: results from an open-label extension study for patients from REVEAL[J].
+J Am Acad Dermatol,
+2012,
+66(
+2):
+241-
+251.
+doi: 10.1016/j.jaad.2010.12.005.
+[36]
+LeonardiCL, KimballAB, PappKA, et al.
+Efficacy and safety of ustekinumab, a human interleukin-12/23 monoclonal antibody, in patients with psoriasis: 76-week results from a randomised, double-blind, placebo-controlled trial（PHOENIX 1）[J].
+Lancet,
+2008,
+371(
+9625):
+1665-
+1674.
+doi: 10.1016/S0140-6736(08)60725-4.
+[37]
+PappKA, GriffithsCE, GordonK, et al.
+Long-term safety of ustekinumab in patients with moderate-to-severe psoriasis: final results from 5 years of follow-up[J].
+Br J Dermatol,
+2013,
+168(
+4):
+844-
+854.
+doi: 10.1111/bjd.12214.
+[38]
+ThaçiD, BlauveltA, ReichK, et al.
+Secukinumab is superior to ustekinumab in clearing skin of subjects with moderate to severe plaque psoriasis: CLEAR, a randomized controlled trial[J].
+J Am Acad Dermatol,
+2015,
+73(
+3):
+400-
+409.
+doi: 10.1016/j.jaad.2015.05.013.
+[39]
+LesnerK, ReichA, SzepietowskiJC, et al.
+Determinants of psychosocial health in psoriatic patients: a multi-national study[J].
+Acta Derm Venereol,
+2017,
+97(
+10):
+1182-
+1188.
+doi: 10.2340/00015555-2760.
+贡献者信息
+中华医学会皮肤性病学分会银屑病专业委员会
+关键词
+银屑病;
+指南;
+诊断;
+治疗;
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突
+历史
+出版日期：2019-04-15
+收稿日期：2018-12-10
+本文编辑
+颜艳
+Guideline and Consensus
+Guideline for the diagnosis and treatment of psoriasis in China (2018 simplified edition)
+Committee on Psoriasis, Chinese Society of Dermatology
+Published
+2019-04-15
+Cite as
+Chin J Dermatol, 2019,52(4): 223-230. DOI: 10.3760/cma.j.issn.0412-4030.2019.04.001
+Abstract
+Psoriasis is an immune-mediated chronic, recurrent, inflammatory, systemic disease induced by the combination of heredity and environment. Psoriasis is a non-communicable disease, its typical clinical manifestations are limited or widely distributed scaly erythema or plaques. Its treatment is very difficult, and patients need lifelong treatment. The etiology of psoriasis involves heredity, immunity, environment and other factors, and may be considered as excessive proliferation of keratinocytes or inflammation of joint synovial cells and chondrocytes caused by the immune response mainly mediated by T lymphocytes and various immune cells. In the theory of traditional Chinese medicine (TCM), it is believed that psoriasis is mostly caused by hot toxic blood, loss of nutritional ingredient in blood, blood perfusion stasis, dry wicked wind in the body and skin system imbalance. Treatment protocols of psoriasis should be based on patient′s symptoms. Patients with mild psoriasis can be mainly treated with externally applied agents, those with moderate to severe psoriasis can be treated with systemic medications, and targeted biological agents can be appropriately chosen in those resistant to traditional systemic treatment. The main aim of psoriasis treatment is to control symptoms and improve the quality of life. Compared with the previous two editions of guidelines for diagnosis and treatment of psoriasis in China, some contents are supplemented and revised in this edition, which will further facilitate standardization of diagnosis and treatment of psoriasis in China, increase the efficiency of diagnosis and treatment, and improve the quality of life of patients.
+Key words:
+Psoriasis; Guidelines; Diagnosis; Therapy
+Contributor Information
+Committee on Psoriasis, Chinese Society of Dermatology
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD：
+0次
+万方数据：
+0次
+数据支持
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华皮肤科杂志2019年52卷4期
+文    题：中国银屑病诊疗指南（2018简版）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华皮肤科杂志2019年52卷4期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

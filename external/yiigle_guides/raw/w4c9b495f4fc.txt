@@ -1,0 +1,712 @@
+# URL: https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E9%93%B6%E5%B1%91%E7%97%85%E7%94%9F%E7%89%A9%E6%B2%BB%E7%96%97%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86%EF%BC%882019%EF%BC%89.html
+# 标题: 中国银屑病生物治疗专家共识（2019） - 中华皮肤科杂志
+# 发布方/日期: 皮肤科，中华皮肤科杂志, 2019,52(12) : 863-871. DOI: 10.35541/cjd.；2019-12-15
+
+中国银屑病生物治疗专家共识（2019）
+中华医学会皮肤性病学分会
+中国医师协会皮肤科医师分会
+中国中西医结合学会皮肤性病专业委员会
+中华皮肤科杂志, 2019,52(12) : 863-871. DOI: 10.35541/cjd.20190892
+生物治疗已经成为银屑病的主要治疗方法之一，在治疗重症、难治以及特殊类型银屑病方面发挥了积极而有效的作用。随着我国批准用于银屑病治疗的生物制剂逐渐增多，特别是基于我国人群结核病和乙型肝炎患病率较高的现实，如何合理、有效、安全地使用生物制剂已经成为临床医生极为关注的问题。为此，中华医学会皮肤性病学分会、中国医师协会皮肤科医师分会、中国中西医结合学会皮肤性病专业委员会共同组织我国银屑病诊疗领域部分专家，在广泛讨论的基础上制定中国银屑病生物治疗专家共识（以下简称"共识"），供临床参考。
+一、共识的形成及声明
+本共识所形成的意见均经过参与专家的充分讨论，对第四到第九部分的具体意见，由全体专家逐条投票表决，结果为全体专家一致赞成。
+二、制定本共识的主要依据
+①各种生物制剂在中国大陆进行注册临床研究的数据；②各种生物制剂上市前（国外）注册临床研究数据；③近年国际文献中发表的生物治疗指南或专家共识；④国内外银屑病生物治疗真实世界研究数据；⑤专家个人临床经验。
+三、本共识涵盖的生物制剂范围
+我国批准上市并已经在临床用于银屑病治疗的生物制剂，包括①肿瘤坏死因子α（TNF-α）抑制剂：依那西普（etanercept）、英夫利西单抗（inflaximab）、阿达木单抗（adalimumab）；②白细胞介素12/23（IL-12/23）抑制剂：乌司奴单抗（ustekinumab）；③白细胞介素17A抑制剂：司库奇尤单抗（secukinumab）。研发中的生物制剂或生物类似物，在国外已上市但在中国大陆尚未上市或尚未获准用于治疗银屑病的生物制剂，以及尚缺乏中国大陆研究数据和实际应用经验的生物制剂暂不纳入本共识。
+四、各种生物制剂的临床应用
+本部分简要介绍各种生物制剂的临床应用情况和主要注意事项，受篇幅所限，不详细介绍，因此在使用生物制剂前仍应认真阅读其产品说明书，以全面了解其适应证、用法、不良反应、禁忌证等详细信息。
+（一）依那西普（重组人Ⅱ型肿瘤坏死因子受体-抗体融合蛋白）
+1．适应证：
+我国批准依那西普的生物类似物用于成年人中重度斑块状银屑病的治疗。美国食品药品管理局和欧洲药品管理局均批准依那西普用于治疗中重度斑块状银屑病和关节病型银屑病。文献中报道的超适应证应用包括脓疱型和红皮病型银屑病。
+2．使用方法：
+推荐25 mg每周2次或50 mg每周1次皮下注射。儿童（4~17岁）用药剂量为每周0.8 mg/kg。
+3．疗效概况：
+国内多项随机对照试验显示，依那西普生物类似物治疗斑块状银屑病12周，PASI75在41%~76%之间。国外研究显示，每周1次和每周2次给予50 mg依那西普改善关节炎效果类似，但较高剂量对改善皮损更有效。依那西普连续使用的疗效优于间歇治疗。
+4．不良反应：
+注射部位红肿、瘙痒等反应是依那西普最常见的不良反应，大多为轻至中度，无需特殊处理，极个别患者可能需要停药并对症处理。较少见的不良反应还有头痛、眩晕、皮疹、失眠、上呼吸道感染等，大多无需处理。与其他TNF-α抑制剂相比，依那西普引起结核和乙型肝炎病毒（HBV）再激活的风险较低。
+（二）英夫利西单抗
+1．适应证：
+我国批准的适应证包括需要系统治疗且对环孢素、甲氨蝶呤或光疗、光化学疗法（PUVA）等系统治疗无效、禁忌或不能耐受的成人中重度斑块状银屑病以及关节病型银屑病。美欧等多数国家批准的适应证也是中重度斑块状银屑病和关节病型银屑病。文献中报告的超适应证应用包括脓疱型和红皮病型银屑病。
+2．使用方法：
+首次给予5 mg/kg，然后在首次给药后的第2周和第6周及以后每隔8周各给予1次相同剂量静脉滴注，每次静脉输注时间不得低于2 h，输注结束后应继续观察1~2 h。若患者在第14周后（即给药4次后、第5次给药前评估）没有满意疗效，不应继续给药。
+3．疗效概况：
+我国一项多中心双盲安慰剂对照Ⅲ期临床研究显示，129例中重度银屑病患者治疗10周后57.1%的受试者达到PASI90，81%的受试者达到PASI75。美国和欧洲的临床研究疗效与我国研究数据基本一致。
+4．不良反应：
+输液反应是最常见的不良反应之一，一旦发生，应及时判断其严重程度，并采取降低输液速度、应用抗组胺药等措施，严重者应立即停止英夫利西单抗输注，并给予糖皮质激素等应对措施。对既往发生过输液反应的患者，再次输注前可给予异丙嗪25 mg肌内注射。上呼吸道感染也是常见不良反应。少见的严重不良反应包括HBV再激活、充血性心衰、严重感染（含败血症、机会性感染和结核病）、血清病样反应、系统性红斑狼疮/狼疮样综合征、脱髓鞘性疾病等。
+（三）阿达木单抗
+1．适应证：
+我国批准的适应证是需要系统治疗的成人中重度斑块状银屑病，国外批准的适应证还包括关节病型银屑病。文献中报告的超适应证应用包括脓疱型和红皮病型银屑病。
+2．使用方法：
+首次剂量80 mg，第2周40 mg，此后每2周40 mg，皮下注射。治疗16周未出现满意疗效时应慎重考虑是否继续治疗。治疗超过16周而疗效不充分的患者，可通过增加给药频率至每周40 mg来获益。
+3．疗效概况：
+国内一项针对中重度斑块状银屑病的随机双盲安慰剂对照Ⅲ期临床研究显示，12周时77.8%的患者达到PASI75的疗效。国外一项为期52周的Ⅲ期临床研究显示，治疗16周时71%的中重度斑块状银屑病患者达到PASI75。随后的开放性研究表明，对于初始达到PASI75的患者，维持治疗3年疗效稳定。国外一项针对儿童（4~< 18岁）中重度斑块状银屑病的随机双盲Ⅲ期临床研究显示，治疗16周后75%以上患儿达到PASI75。另一项临床试验显示，治疗16周时58%患儿达到PASI75。治疗关节病型银屑病亦疗效显著。
+4．不良反应：
+最常报告的不良反应是感染（如鼻咽炎、上呼吸道感染和鼻窦炎）、注射部位反应（红斑、瘙痒、出血、疼痛或肿胀）、头痛和骨骼肌肉疼痛；其他不良反应还有全身性感染、皮肤肿瘤、过敏反应、血液异常、高血压、代谢异常等；少见的严重不良反应包括致死性感染、心衰、恶性肿瘤、乙肝复发等。
+（四）乌司奴单抗
+1．适应证：
+我国批准的适应证为对环孢素、甲氨蝶呤或PUVA等其他系统治疗疗效不满意、有禁忌或无法耐受的成人中重度斑块状银屑病。欧美国家批准的适应证包括中重度斑块状银屑病和关节病型银屑病。
+2．使用方法：
+首次给予45 mg，然后在第4周及以后每隔12周给予1次相同剂量皮下注射。对体重>100 kg的患者，建议每次剂量为90 mg。若患者在第28周（即给药3次后、第4次用药前评估）没有好转，应考虑停止给药。
+3．疗效概况：
+对于中重度斑块状银屑病，我国多中心双盲安慰剂对照Ⅲ期临床研究显示，治疗第12周时82.5%的受试者达到PASI75，66.9%达到PASI90；治疗第28周时，91.5%达到PASI75。美国和欧洲的临床研究显示，治疗第12周时67.1%的受试者达到PASI75，41.6%达到PASI90；在治疗第28周时71.2%达到PASI75，49.2%达到PASI90；治疗5年后维持PASI75和PASI90的比例分别为63.4%和57.6%。一项关于12~17岁中重度斑块状银屑病患者的临床研究结果显示，在治疗第12周时，80.6%的受试者达到PASI75，61.1%达到PASI90。
+4．不良反应：
+常见的不良反应有上呼吸道感染、鼻咽炎、头晕、头痛、口咽疼痛、腹泻、恶心、呕吐、皮肤瘙痒、背痛、肌痛、关节痛、疲乏、注射部位红斑疼痛。少见不良反应有蜂窝织炎、带状疱疹、过敏反应等。罕见不良反应有严重超敏反应、嗜酸性粒细胞性肺炎、剥脱性皮炎、红皮病型银屑病等。
+（五）司库奇尤单抗
+1．适应证：
+我国批准司库奇尤单抗用于治疗符合系统治疗或光疗指征的成人中重度斑块状银屑病。美国和欧洲等国家批准的适应证还包括关节病型银屑病。国外文献中有用于脓疱型银屑病的报道，但应慎用，并且只有当其他药物无效或不耐受时才考虑使用。
+2．使用方法：
+每次300 mg，分别在第0、1、2、3、4周皮下注射，随后维持该剂量每4周给药1次。既往研究显示，部分患者每次150 mg即可获得满意疗效，因此对于体重低于50 kg的患者也可尝试使用150 mg剂量。
+3．疗效概况：
+一项为期52周、以中国患者为主的Ⅲ期临床研究入组中重度斑块状银屑病患者543例，结果显示，接受司库奇尤单抗300 mg治疗的患者在治疗12周时PASI75和PASI90分别为97.7%和80.9%，16周时PASI90达到87%（Zhang J, et al.美国AAD年会壁报展示第10499号，2019年3月）。国外开展了多项中重度斑块状银屑病随机双盲对照Ⅲ期临床试验，其中一项研究显示，司库奇尤单抗300 mg组在治疗16周时，PASI75达93.1%，PASI90达79.1%，82.9%的患者达到研究者总体评分"清除"或"几乎清除"。
+4．不良反应：
+常见不良反应有上呼吸道感染、鼻咽炎、口腔疱疹、头痛、腹泻、荨麻疹等。较少见的不良反应为皮肤或口腔黏膜念珠菌感染、足癣、中性粒细胞减少、结膜炎等。在临床研究中司库奇尤单抗组和安慰剂组均观察到克罗恩病加重的病例。
+五、生物治疗的应用原则
+生物制剂主要用于重症、难治以及特殊类型银屑病患者，建议：①中重度斑块状银屑病在传统治疗无效、失效或无法耐受时，或者疾病对患者生活质量有重大影响或带来重大健康风险时可以考虑生物治疗；②关节症状明确的关节病型银屑病，经抗风湿药物治疗不能有效缓解，或累及脊柱、骶髂关节者，可积极考虑生物治疗；③泛发性脓疱型银屑病和红皮病型银屑病尚未被批准为生物治疗的适应证，但国内外均有临床应用的报告，如需使用生物制剂，要根据患者的具体情况进行综合评估。
+治疗开始前应慎重权衡治疗的利弊，严格筛选适应证，充分考虑患者的可能不良反应风险和经济因素，同患者或其监护人进行充分沟通且取得其知情同意。对于超适应证应用者还应对其可能的获益与风险给予具体说明。医生和患者还需要在药物使用方式、监测和随访等方面达成一致意见。
+（一）治疗选择流程：
+选择生物制剂需考虑银屑病病情和关节受累情况，并对治疗目标、疾病对患者的影响和患者年龄、体重、合并症、生育计划以及患者对用药途径和频率的偏好和依从性等因素进行综合考虑。对于斑块状银屑病，司库奇尤单抗、乌司奴单抗或TNF-α抑制剂均可选择，而对于关节病型银屑病则优先推荐TNF-α抑制剂，也可选用乌司奴单抗或司库奇尤单抗。在几种TNF-α抑制剂中，英夫利西单抗和阿达木单抗可能具有起效更快、疗效更高的优点。
+从应用的安全性考虑，对于有罹患结核病、乙型肝炎、心衰的高风险因素或有既往病史者，司库奇尤单抗和乌司奴单抗的安全性可能优于TNF-α抑制剂。对于易发生过敏的患者和有发生结缔组织病高风险的患者，尽量选择人源性制剂，包括乌司奴单抗、司库奇尤单抗和阿达木单抗，以及依那西普或其生物类似物。对于有系统性真菌感染、炎症性肠病病史或家族史者，建议尽量不选用司库奇尤单抗。
+（二）疗效评估：
+生物制剂治疗过程中需对患者的疗效和安全性等情况进行持续评估。医生评价治疗反应时应考虑病情改善程度，治疗目标，患者的生理、心理影响和社会功能，继续治疗的益处和风险，患者的愿望和依从性等。鉴于生物制剂的疗效优于以往的传统治疗方法，因此建议以皮损完全清除或PASI90、研究者总体评分0/1作为达到满意疗效的指标（简称达标），而最低疗效标准则应达到PASI50或生活质量改善（如皮肤病生活质量指数改善≥ 4分或情绪低落缓解）。
+（三）维持治疗与停药时机：
+银屑病是反复发作性疾病，多数生物制剂的治疗方案有诱导治疗和维持治疗两个阶段，且认为长期维持治疗对患者生活质量的改善优于间断治疗。根据我国国情，综合考虑治疗需求、安全性和经济承受能力，建议：①治疗效果达标并保持6个月以上时可以停药，也可开始减量维持治疗，即通过减少单次剂量（减少20%~50%）或增加用药间隔来实现；②对于重症、顽固和发作频繁的病例，特别是伴有关节损害、对患者生活质量影响严重者，尽可能进行长期维持治疗。
+停药后应注意观察病情变化，疾病复发时可酌情给予外用药物、紫外线光疗或传统系统药物治疗，病情需要时可重启生物治疗。重启生物治疗的用药方法可参考以下建议：①病情较重的患者通常需要与初次治疗同样的负荷剂量重新诱导（依那西普除外）；②英夫利西单抗进行重新诱导可能会有更高的过敏发生率，故不推荐再次进行诱导治疗，可按照维持治疗方案再次给药；③复发病情较轻的患者如希望继续应用生物制剂，也可采用维持治疗方案。
+出现药物相关严重不良反应如包括活动性结核病在内的严重感染、心衰、肿瘤、脱髓鞘疾病、狼疮样综合征等时应立即停药，并进行相应处理。
+六、生物治疗用药前的筛查与治疗过程中的监测
+进行生物治疗之前要对患者的健康状况进行充分的评估，重点关注有无感染、恶性肿瘤、自身免疫性疾病等系统疾病，拟应用TNF-α抑制剂者还应注意有无心功能不全，拟应用白细胞介素17A抑制剂者还应注意有无炎症性肠病等情况。治疗过程中要进行动态随访观察，以确保患者安全。出现异常检查结果时要进行综合分析，必要时请相关学科进行全面评估，以决定是否可以应用（或继续应用）生物制剂或需采取何种应对措施。不同生物制剂用药前和治疗过程中需要进行的辅助检查项目见表1。
+点击查看表格
+表1
+银屑病患者生物制剂用药前和治疗过程中建议的检查项目
+表1
+银屑病患者生物制剂用药前和治疗过程中建议的检查项目
+检查项目
+用药前
+用药过程中
+血常规和肝功能
+√
+依那西普、阿达木单抗、司库奇尤单抗第4、12周及以后每3个月检查1次；英夫利西单抗、乌司奴单抗每次注射前检查
+肾功能（肌酐）
+√
+无特殊要求
+HBV、HCV血清学检测
+√
+筛查阳性者根据情况每3~6个月检查1次
+HIV血清学检测
+a
+无特殊要求
+尿妊娠试验
+b
+无特殊要求
+抗核抗体
+c
+TNF-α抑制剂每半年检查1次
+PPD或T-Spot或Quantiferon Gold
+√
+TNF-α抑制剂每半年检查1次，其他生物制剂每年检查1次
+胸部X线或CT检查
+√
+TNF-α抑制剂每半年检查1次，其他生物制剂每年检查1次
+注：HBV，乙型肝炎病毒；HCV，丙型肝炎病毒；PPD，结核菌素纯蛋白衍生物试验；T-Spot，T细胞斑点检测；TNF-α，肿瘤坏死因子α。a：根据患者危险因素决定是否进行此项检测；b：育龄期女性检查；c：拟用TNF-α抑制剂者检查，必要时加查dsDNA以评估自身免疫病风险
+七、生物制剂与其他治疗方法的联合应用
+生物制剂对大部分银屑病患者疗效显著，但仍有少数患者通过单一生物制剂治疗方案或在某一阶段无法获得满意的治疗效果，需要联合其他治疗方法。
+（一）联合外用药物：
+治疗初期联合外用药可以更快速地改善病情，治疗过程中部分皮损顽固或反复时也可联合外用药物治疗。多项临床研究表明，生物制剂联合外用糖皮质激素或维生素D3衍生物可提高疗效。
+（二）联合紫外线光疗：
+研究证明，依那西普、阿达木单抗、英夫利西单抗以及乌司奴单抗等与窄谱中波紫外线的联合应用可以进一步提高疗效，但鉴于对于多数患者这种联合的必要性不大，而且不能完全除外同时应用TNF-α抑制剂等生物制剂和紫外线疗法有增加皮肤恶性肿瘤的风险，因此不推荐将生物治疗联合紫外线光疗作为常规的治疗方案。
+（三）联合传统系统药物：
+依那西普等生物制剂联合甲氨蝶呤可提高疗效，英夫利西单抗等生物制剂联合甲氨蝶呤可减少抗药物抗体（ADA）的产生，单用生物制剂疗效不满意或长期维持疗效不稳定者，可联合应用阿维A，不推荐生物制剂与环孢素等其他免疫抑制剂联合应用。
+（四）不同生物制剂的联合应用：
+虽然部分病例报告或病例系列分析中将不同生物制剂联合应用于难治性银屑病，但这种联合使用的安全性和有效性仍未可知，理论上不同生物制剂联用更容易带来严重感染或恶性肿瘤的风险，因此不推荐作为常规选择。
+八、生物治疗的疗效衰减现象与对策
+生物制剂治疗过程中的疗效衰减实质是一种继发性治疗失败。生物制剂的治疗失败通常分为原发性治疗失败和继发性治疗失败，前者是指按推荐剂量、疗程首次应用该生物制剂未达到临床反应标准；后者是指用于银屑病的生物制剂在治疗初期显示良好疗效，随后治疗过程中出现疗效衰减。
+目前临床应用的生物制剂在治疗过程中均存在不同程度的疗效衰减现象，其发生原因和机制包括产生ADA、给药剂量不足、患者对生物制剂的敏感性降低等。针对生物制剂的疗效衰减，可采取以下应对措施：①联合免疫抑制剂以降低ADA的产生，首选联用甲氨蝶呤；②增加生物制剂的药物剂量或缩短用药间隔；③换用其他生物制剂，包括靶向分子相同或不同的生物制剂；④转换为传统治疗方法。
+一种生物制剂发生疗效衰减并不排除对其他相同靶分子抑制剂仍有满意效果，而对于原发性治疗失败则应换用针对不同靶分子的生物制剂。
+停止一种生物制剂到开始应用另一种生物制剂的间隔时间（洗脱期）目前尚无一致的意见，取决于疾病严重程度、先前所用的制剂种类和治疗反应、患者合并症等，应根据具体情况进行评估。一般认为，原生物制剂按方案需要再次注射的时间就可以作为转换新的生物制剂开始启用的时间。如果患者的病情允许，在原生物制剂停用后3~4个半衰期启用新的生物制剂更加稳妥。停用生物制剂后转换为传统治疗方法时，无需洗脱期。常用生物制剂如依那西普的半衰期为3.5 d，英夫利西单抗10 d，阿达木单抗14 d，乌司奴单抗21 d，司库奇尤单抗27 d。
+九、特殊人群生物制剂的应用
+（一）妊娠期与哺乳期患者：
+生物制剂作为妊娠期斑块状银屑病的三线治疗，对于严重或不稳定病例以维持母体健康具有非常重要的意义，在患者充分知情同意下可考虑使用。目前已经上市的生物制剂，美国FDA的妊娠期安全性评级均为B。到目前为止，在动物实验或接受生物治疗患者的后代中很少有生殖毒性或致畸的报告。
+在妊娠期以及计划妊娠的人群中使用TNF-α抑制剂一般认为是安全的。乌司奴单抗在妊娠期研究数据极少，故其安全性尚不确定，有个别小的病例系列报道未发现流产或先天性畸形发生率升高。迄今尚无针对孕期使用司库奇尤单抗的足够数据。动物研究未显示司库奇尤单抗对怀孕、胚胎/胎儿发育、分娩或产后发育的直接或间接有害影响。对于计划妊娠的备孕期女性，推荐怀孕前各种生物制剂的停药时间分别为：依那西普3周、阿达木单抗20周、英夫利西单抗24周、司库奇尤单抗20周、乌司奴单抗15周。
+对于妊娠期泛发性脓疱型银屑病，当使用环孢素和/或系统糖皮质激素治疗无效或存在禁忌证，且患者和胎儿的生命处于危险时，可考虑使用TNF-α抑制剂。
+英夫利西单抗和乌司奴单抗已被证明可通过动物乳汁分泌，而且这些药物在胎儿和婴儿中的安全性尚没有明确，因此，在治疗过程中应避免母乳喂养。尚不清楚司库奇尤单抗是否分泌到乳汁中，鉴于其对母乳喂养婴儿潜在不良反应的风险尚不明确，医师应当权衡利弊，决定是否在治疗期间和治疗后20周内停止母乳喂养或停止治疗。
+（二）儿童：
+由于生物制剂在我国应用的时间较短，国内使用生物制剂治疗银屑病患儿的临床数据很少，目前我国银屑病患儿使用生物制剂主要参考国外FDA或EMA的推荐意见。
+依那西普：EMA于2009年批准依那西普治疗6岁以上对传统系统治疗反应不佳的儿童重症斑块状银屑病。2016年，FDA批准用于治疗4~17岁儿童中重度银屑病。文献报道使用依那西普治疗银屑病患者的最小年龄为22个月。
+2．英夫利西单抗：目前国内外均未批准用于儿童银屑病的治疗，文献中有成功使用英夫利西单抗治疗8岁及9岁泛发性脓疱型银屑病的个例报道。
+3．阿达木单抗：EMA于2015年批准阿达木单抗为4岁以上重症斑块状银屑病患儿的一线治疗，我国尚未批准儿童银屑病作为其适应证。
+4．乌司奴单抗：EMA于2015年被批准用于12岁以上对其他全身治疗或光疗法反应不佳的青少年重症斑块状银屑病，我国尚未批准将其用于18岁以下儿童银屑病。
+5．司库奇尤单抗：国内外均未批准用于治疗18岁以下儿童银屑病，仅有少数儿童银屑病用药的报道。
+（三）结核病患者：
+我国是全球第二大结核病高负担国家，已有许多文献报道使用TNF-α抑制剂的患者发生肺结核、肺外结核或血行播散性结核病。尽管非抗TNF-α生物制剂导致的结核分枝杆菌再激活风险很低或不存在，但仍建议所有准备接受生物制剂治疗的银屑病患者必须认真进行结核病筛查和评估。主要筛查内容包括：①详细询问患者的结核相关病史，包括危险因素的评估、接触史、结核病史、治疗史以及既往接种卡介苗等情况；②进行必要的辅助检查以排除活动性结核病，包括胸部X线及结核菌素纯蛋白衍生物检测（PPD），必要时需进行胸部CT及T细胞斑点试验（T-spot）等检查，见表1。
+活动性结核病患者禁用生物制剂。对于潜伏结核和非活动性结核病患者，应慎用生物制剂。如必需使用，则应在治疗前先给予预防性抗结核治疗。各个国家制订的预防性抗结核治疗方案不尽一致，最新的WHO结核病治疗指南中提出了以下方案供参考：①异烟肼联合利福平，异烟肼成人剂量5 mg·kg-1·d-1，儿童10 mg·kg-1·d-1，最大剂量≤ 300 mg/d；利福平成人剂量10 mg·kg-1·d-1，1儿童5 mg·kg-1·d-1，最大剂量≤ 600 mg/d，连续治疗3~4个月；②异烟肼单药治疗，剂量同上，连续治疗6~9个月；③利福平单药治疗，剂量同上，连续治疗3~4个月。由于我国结核病患者众多，且耐药结核病的比例较高，因此推荐联合治疗方案。接受预防性抗结核治疗至少4周后可开始使用生物制剂。
+由于抗结核药物有一定的不良反应（包括恶心、呕吐、药物性肝损害、药物过敏等）发生率，且部分较严重，因此建议患者在使用抗结核药物前进行血尿常规、肝肾功能检查，并在用药后第2周和第4周复查，此后每4周复查1次，以保证用药安全。
+尽管用药前筛查及预防性抗结核治疗能够降低潜伏性结核活化的风险，但在使用生物制剂过程中，发生结核病的可能性仍然存在，因此应严密监测患者是否出现活动性结核的症状和体征，以及相关辅助检查指标。对于潜伏性结核病和非活动性结核病患者，经预防性抗结核治疗后启动生物治疗者，建议在使用生物制剂后第3、6个月复查胸部X线/CT、PPD/T-spot，之后每6个月复查1次，直到停药后3个月。对于使用TNF-α抑制剂的患者以及具有高危因素的人群，建议适当增加随访频率，并且告知患者在使用生物制剂治疗期间或治疗以后，若出现结核病症状（如持续性咳嗽、体重减轻和低热），应寻求医学指导。
+拟用生物制剂患者的结核病筛查路线图见图1。
+点击查看大图
+图1
+结核病筛查路线图
+图1
+结核病筛查路线图
+（四）HBV感染者：
+我国属于HBV感染高发地区，应重视生物制剂治疗导致潜伏的HBV再激活，并由此引发肝损害甚至发生肝功能衰竭而致死的风险。无论选择何种生物制剂，均应常规筛查血清HBV抗原抗体（俗称乙肝两对半），必要时还需检测HBV DNA，以区分无感染、疫苗注射后获得免疫、感染后获得免疫、慢性非活动性感染和慢性活动性感染等。通常有以下几种情况：①当HBV抗原抗体检测全为阴性时，一般提示未发生感染，可以接受生物治疗；②仅单项HBsAb阳性，多为疫苗注射后获得的保护性免疫，可以接受生物治疗；③如仅HBcAb阳性，或伴HBsAb阳性，通常提示感染后获得免疫，但也见于低水平潜伏HBV感染，应进一步检测HBV DNA；如果HBV DNA检测阴性，可以接受生物治疗；如HBV DNA阳性则属于潜伏HBV感染状态，应按慢性HBV感染处理，慎用生物治疗；无论HBV DNA阳性或阴性，接受生物治疗后均应每3~6个月复查1次HBV抗原抗体及HBV DNA，以及时发现HBV再激活；如治疗后由HBsAb阳性转为HBsAg阳性，提示潜伏HBV再激活，应按慢性HBV感染处理；④如HBsAg阳性，不论其他指标是否阳性，均提示存在慢性HBV感染，要结合HBeAg或HBeAb，以及HBV DNA检测结果分析：同时伴有HBeAg阳性和/或HBV DNA拷贝数> 105/ml，提示为慢性活动性HBV感染；而同时伴有HBeAb阳性和/或HBV DNA定量< 104拷贝/ml，提示慢性非活动性感染，这种情况下对于肝功能异常者不推荐使用生物制剂，对于肝功能正常者可否应用生物制剂应咨询肝病科医生，根据患者病毒复制水平、风险及获益综合考虑，必要时联合应用抗HBV治疗。同时，治疗过程中每1~3个月监测肝功能、血清HBV抗原抗体及HBV DNA水平，以了解HBV感染及肝功能状态变化并及时针对性处理。
+（五）恶性肿瘤患者：
+目前尚没有明确的证据表明银屑病患者单用生物制剂可增加恶性肿瘤发生的风险，但考虑到生物制剂有导致肿瘤进展的潜在可能，因此应当在权衡病情利弊的基础上谨慎使用。对恶性肿瘤已行根治手术5年以上、目前明确无复发和转移的患者，在全面评估病情后可谨慎使用生物制剂。对生物制剂联合长期光疗或既往使用UVA或PUVA治疗超过200次的患者，需严密监测皮肤癌的发生；当生物制剂联合其他免疫抑制剂治疗时，需密切监测、评估患者肿瘤发生及复发的情况。合并有淋巴系统恶性肿瘤的患者不建议使用生物制剂治疗。
+（六）生物治疗与疫苗接种：
+银屑病患者在生物制剂治疗过程中，同时接种灭活疫苗或重组疫苗不增加安全性方面的风险，但可能影响免疫效果。接种活疫苗理论上有造成病毒播散的风险，应十分慎重。对于接种活疫苗前后需要停药的时间目前意见尚不一致，一些专家建议在接种活疫苗前后均应停止使用生物制剂至少2~3个半衰期。也有专家提出接种活疫苗前需要停用生物制剂的时间为4周或更长时间，需视生物制剂的半衰期而定，如依那西普在最后1次用药后2~3周、英夫利西单抗在最后1次输注后6个月、乌司奴单抗在停药后15周方可接种活疫苗。接种带状疱疹活疫苗需要停药12个月。
+由于生物制剂有可能经胎盘传递给胎儿，因此，在妊娠16周之后使用生物制剂者，其分娩的婴儿出生后6个月内应被视为免疫抑制状态，避免接种活疫苗。
+（七）生物治疗与外科手术：
+生物制剂对围手术期的影响尚缺少大样本、确凿的研究数据。尽管有研究显示，手术前停用或者继续使用TNF-α抑制剂并不影响包括感染在内的手术并发症的发生，但生物制剂理论上确有可能影响伤口愈合及增加感染的风险，故通常建议中等风险手术（如泌尿道、胸部、腹部、头颈部手术等）及高风险手术（如复杂的胸腹及泌尿生殖手术、感染部位手术等）患者先停用生物制剂后3~5个半衰期再进行择期手术。也有专家建议，末次用药后阿达木单抗至少停用2周、英夫利西单抗至少停用4周、乌司奴单抗至少停用8周才可进行手术。手术后无感染征兆且伤口愈合良好的情况下可以重新启用生物制剂治疗。而对于低风险手术（如消化道、泌尿道、呼吸道的内镜手术，牙科治疗，皮肤手术，乳腺活检或切除，眼部手术，整形手术或关节置换等）患者生物制剂的使用不受影响。
+十、本共识的局限性
+本共识的内容仅代表参与制定的专家对银屑病生物治疗的指导意见，供临床医生参考。尽管专家们进行了广泛的意见征询和讨论，但仍有可能存在不全面之处。本共识所提供的建议、观点和方法并非强制性意见，与本共识不一致的做法并不意味着错误或不当。银屑病生物治疗的发展非常迅速，随着临床经验的不断积累和新生物制剂的不断涌现，本共识未来需要定期予以修订、更新。
+参与本共识制定的专家
+参与本共识制定的专家（按姓名拼音顺序）：陈爱军（重庆医科大学附属第一医院）、高兴华（中国医科大学附属第一医院）、顾恒（中国医学科学院皮肤病医院）、顾军（海军军医大学长海医院）、郝飞（重庆医科大学附属第三医院）、蒋献（四川大学华西医院）、晋红中（中国医学科学院北京协和医院）、康晓静（新疆维吾尔自治区人民医院）、李承新（解放军总医院第一医学中心）、栗玉珍（哈尔滨医科大学附属第二医院）、刘晓明（香港大学深圳医院）、史玉玲（同济大学附属第十人民医院）、孙青（山东大学齐鲁医院）、王刚（空军军医大学第一附属医院）、杨斌（南方医科大学皮肤病医院）、张峻岭（天津市中医药研究院附属医院）、张锡宝（广州医科大学皮肤病研究所）、张学军（复旦大学附属华山医院）、赵邑（清华大学附属北京清华长庚医院）、郑敏（浙江大学医学院附属第二医院）
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突。所有专家均声明参与本共识的制定坚持客观的立场，以专业知识、研究数据和临床经验为依据，所持观点未受到任何企业的影响。本共识的制定未接受任何企业、任何形式的赞助
+主要参考文献
+[1]
+MenterA, StroberBE, KaplanDH, et al.
+Joint AAD-NPF guidelines of care for the management and treatment of psoriasis with biologics[J].
+J Am Acad Dermatol,
+2019,
+80（
+4）:
+1029-
+1072.
+doi: 10.1016/j.jaad.2018.11.057.
+[2]
+中华医学会皮肤性病学分会银屑病专业委员会.
+中国银屑病诊疗指南（2018简版）[J].
+中华皮肤科杂志,
+2019,
+52（
+4）:
+223-
+230.
+doi: 10.3760/cma.j.issn.0412-4030.2019.04.001.
+[3]
+Canadian Psoriasis Guidelines Addendum Committee.
+2016 Addendum to the Canadian guidelines for the management of plaque psoriasis 2009[J].
+J Cutan Med Surg,
+2016,
+20（
+5）:
+375-
+431.
+doi: 10.1177/1203475416655705.
+[4]
+PoelmanSM, KeelingCP, MetelitsaAI.
+Practical guidelines for managing patients with psoriasis on biologics: an update[J].
+J Cutan Med Surg,
+2019,
+23（
+1_
+suppl）:
+3S-
+12S.
+doi: 10.1177/1203475418811347.
+[5]
+FujitaH, TeruiT, HayamaK, et al.
+Japanese guidelines for the management and treatment of generalized pustular psoriasis: the new pathogenesis and treatment of GPP[J].
+J Dermatol,
+2018,
+45（
+11）:
+1235-
+1270.
+doi: 10.1111/1346-8138.14523.
+[6]
+YangHZ, WangK, JinHZ, et al.
+Infliximab monotherapy for Chinese patients with moderate to severe plaque psoriasis: a randomized, double-blind, placebo-controlled multicenter trial[J].
+Chin Med J（Engl）,
+2012,
+125（
+11）:
+1845-
+1851.
+doi: 10.3760/cma.j.issn.0366-6999.2012.11.001.
+[7]
+GottliebAB, EvansR, LiS, et al.
+Infliximab induction therapy for patients with severe plaque-type psoriasis: a randomized, double-blind, placebo-controlled trial[J].
+J Am Acad Dermatol,
+2004,
+51（
+4）:
+534-
+542.
+doi: 10.1016/j.jaad.2004.02.021.
+[8]
+ReichK, NestleFO, PappK, et al.
+Infliximab induction and maintenance therapy for moderate-to-severe psoriasis: a phase III, multicentre, double-blind trial[J].
+Lancet,
+2005,
+366（
+9494）:
+1367-
+1374.
+doi: 10.1016/S0140-6736(05)67566-6.
+[9]
+PappK, ThaçiD, MarcouxD, et al.
+Efficacy and safety of adalimumab every other week versus methotrexate once weekly in children and adolescents with severe chronic plaque psoriasis: a randomised, double-blind, phase 3 trial[J].
+Lancet,
+2017,
+390（
+10089）:
+40-
+49.
+doi: 10.1016/S0140-6736(17)31189-3.
+[10]
+CaiL, GuJ, ZhengJ, et al.
+Efficacy and safety of adalimumab in Chinese patients with moderate-to-severe plaque psoriasis: results from a phase 3, randomized, placebo-controlled, double-blind study[J].
+J Eur Acad Dermatol Venereol,
+2017,
+31（
+1）:
+89-
+95.
+doi: 10.1111/jdv.13746.
+[11]
+MenterA, TyringSK, GordonK, et al.
+Adalimumab therapy for moderate to severe psoriasis: a randomized, controlled phase III trial[J].
+J Am Acad Dermatol,
+2008,
+58（
+1）:
+106-
+115.
+doi: 10.1016/j.jaad.2007.09.010.
+[12]
+GordonK, PappK, PoulinY, et al.
+Long-term efficacy and safety of adalimumab in patients with moderate to severe psoriasis treated continuously over 3 years: results from an open-label extension study for patients from REVEAL[J].
+J Am Acad Dermatol,
+2012,
+66（
+2）:
+241-
+251.
+doi: 10.1016/j.jaad.2010.12.005.
+[13]
+MeasePJ, OryP, SharpJT, et al.
+Adalimumab for long-term treatment of psoriatic arthritis: 2-year data from the adalimumab effectiveness in psoriatic arthritis trial（ADEPT）[J].
+Ann Rheum Dis,
+2009,
+68（
+5）:
+702-
+709.
+doi: 10.1136/ard.2008.092767.
+[14]
+KimballAB, GordonKB, FakharzadehS, et al.
+Long-term efficacy of ustekinumab in patients with moderate-to-severe psoriasis: results from the PHOENIX 1 trial through up to 3 years[J].
+Br J Dermatol,
+2012,
+166（
+4）:
+861-
+872.
+doi: 10.1111/j.1365-2133.2012.10901.x.
+[15]
+ZhuX, ZhengM, SongM, et al.
+Efficacy and safety of ustekinumab in Chinese patients with moderate to severe plaque-type psoriasis: results from a phase 3 clinical trial（LOTUS）[J].
+J Drugs Dermatol,
+2013,
+12（
+2）:
+166-
+174.
+[16]
+LeonardiCL, KimballAB, PappKA, et al.
+Efficacy and safety of ustekinumab, a human interleukin-12/23 monoclonal antibody, in patients with psoriasis: 76-week results from a randomised, double-blind, placebo-controlled trial（PHOENIX 1）[J].
+Lancet,
+2008,
+371（
+9625）:
+1665-
+1674.
+doi: 10.1016/S0140-6736(08)60725-4.
+[17]
+KimballAB, PappKA, WasfiY, et al.
+Long-term efficacy of ustekinumab in patients with moderate-to-severe psoriasis treated for up to 5 years in the PHOENIX 1 study[J].
+J Eur Acad Dermatol Venereol,
+2013,
+27（
+12）:
+1535-
+1545.
+doi: 10.1111/jdv.12046.
+[18]
+LandellsI, MaranoC, HsuMC, et al.
+Ustekinumab in adolescent patients age 12 to 17 years with moderate-to-severe plaque psoriasis: results of the randomized phase 3 CADMUS study[J].
+J Am Acad Dermatol,
+2015,
+73（
+4）:
+594-
+603.
+doi: 10.1016/j.jaad.2015.07.002.
+[19]
+ThaçiD, BlauveltA, ReichK, et al.
+Secukinumab is superior to ustekinumab in clearing skin of subjects with moderate to severe plaque psoriasis: CLEAR, a randomized controlled trial[J].
+J Am Acad Dermatol,
+2015,
+73（
+3）:
+400-
+409.
+doi: 10.1016/j.jaad.2015.05.013.
+[20]
+OhtsukiM, TeruiT, OzawaA, et al.
+Japanese guidance for use of biologics for psoriasis（the 2013 version）[J].
+J Dermatol,
+2013,
+40（
+9）:
+683-
+695.
+doi: 10.1111/1346-8138.12239.
+[21]
+SmithCH, Jabbar-LopezZK, YiuZZ, et al.
+British Association of Dermatologists guidelines for biologic therapy for psoriasis 2017[J].
+Br J Dermatol,
+2017,
+177（
+3）:
+628-
+636.
+doi: 10.1111/bjd.15665.
+[22]
+González-ÁlvaroI, Martínez-FernándezC, Dorantes-CalderónB, et al.
+Spanish rheumatology society and hospital pharmacy society consensus on recommendations for biologics optimization in patients with rheumatoid arthritis, ankylosing spondylitis and psoriatic arthritis[J].
+Rheumatology（Oxford）,
+2015,
+54（
+7）:
+1200-
+1209.
+doi: 10.1093/rheumatology/keu461.
+[23]
+AmatoreF, VillaniAP, TauberM, et al.
+French guidelines on the use of systemic treatments for moderate-to-severe psoriasis in adults[J].
+J Eur Acad Dermatol Venereol,
+2019,
+33（
+3）:
+464-
+483.
+doi: 10.1111/jdv.15340.
+[24]
+NastA, AmelunxenL, AugustinM, et al.
+S3 Guideline for the treatment of psoriasis vulgaris, update - short version part 1 - systemic treatment[J].
+J Dtsch Dermatol Ges,
+2018,
+16（
+5）:
+645-
+669.
+doi: 10.1111/ddg.13516.
+[25]
+ArmstrongAW, BagelJ, Van VoorheesAS, et al.
+Combining biologic therapies with other systemic treatments in psoriasis: evidence-based, best-practice recommendations from the Medical Board of the National Psoriasis Foundation[J].
+JAMA Dermatol,
+2015,
+151（
+4）:
+432-
+438.
+doi: 10.1001/jamadermatol.2014.3456.
+[26]
+Owczarczyk-SaczonekA, OwczarekW, Osmola-MańkowskaA, et al.
+Secondary failure of TNF-α inhibitors in clinical practice[J].
+Dermatol Ther,
+2019,
+32（
+1）:
+e12760.
+doi: 10.1111/dth.12760.
+[27]
+BoehnckeWH, BrembillaNC.
+Immunogenicity of biologic therapies: causes and consequences[J].
+Expert Rev Clin Immunol,
+2018,
+14（
+6）:
+513-
+523.
+doi: 10.1080/1744666X.2018.1468753.
+[28]
+AminM, NoDJ, EgebergA, et al.
+Choosing first-line biologic treatment for moderate-to-severe psoriasis: what does the evidence say?[J].
+Am J Clin Dermatol,
+2018,
+19（
+1）:
+1-
+13.
+doi: 10.1007/s40257-017-0328-3.
+[29]
+BronckersIM, PallerAS, van GeelMJ, et al.
+Psoriasis in children and adolescents: diagnosis, management and comorbidities[J].
+Paediatr Drugs,
+2015,
+17（
+5）:
+373-
+384.
+doi: 10.1007/s40272-015-0137-1.
+[30]
+GattiJ, LindstromJA, BeitzJ.
+Reconsideration of 2008 decision: food and drug administration approval of etanercept for systemic treatment of moderate to severe pediatric psoriasis[J].
+Pediatr Dermatol,
+2018,
+35（
+5）:
+688-
+689.
+doi: 10.1111/pde.13557.
+[31]
+de JagerME, de JongEM, van de KerkhofPC, et al.
+Efficacy and safety of treatments for childhood psoriasis: a systematic literature review[J].
+J Am Acad Dermatol,
+2010,
+62（
+6）:
+1013-
+1030.
+doi: 10.1016/j.jaad.2009.06.048.
+[32]
+MotaparthiK, StanisicV, Van VoorheesAS, et al.
+From the Medical Board of the National Psoriasis Foundation: Recommendations for screening for hepatitis B infection prior to initiating anti-tumor necrosis factor-alfa inhibitors or other immunosuppressive agents in patients with psoriasis[J].
+J Am Acad Dermatol,
+2014,
+70（
+1）:
+178-
+186.
+doi: 10.1016/j.jaad.2013.08.049.
+[33]
+ZhangZ, FanW, YangG, et al.
+Risk of tuberculosis in patients treated with TNF-α antagonists: a systematic review and meta-analysis of randomised controlled trials[J].
+BMJ Open,
+2017,
+7（
+3）:
+e012567.
+doi: 10.1136/bmjopen-2016-012567.
+[34]
+肿瘤坏死因子拮抗剂应用中结核病预防与管理专家建议组.
+肿瘤坏死因子拮抗剂应用中结核病预防与管理专家共识[J].
+中华风湿病学杂志,
+2013,
+17（
+8）:
+508-
+512.
+doi: 10.3760/cma.j.issn.1007-7480.2013.08.002.
+[35]
+王刚.
+皮肤科生物制剂的不良反应及对策[J].
+中华皮肤科杂志,
+2019,
+52（
+2）:
+77-
+80.
+doi: 10.3760/cma.j.issn.0412-4030.2019.02.001.
+[36]
+DresslerC, RosumeckS, WernerRN, et al.
+Methods report: European S3-Guideline on the systemic treatment of psoriasis vulgaris - update apremilast and secukinumab - EDF in cooperation with EADV and IPC[J].
+J Eur Acad Dermatol Venereol,
+2017,
+31（
+12）:
+1964-
+1977.
+doi: 10.1111/jdv.14470.
+[37]
+NastA, SpulsPI, van der KraaijG, et al.
+European S3-Guideline on the systemic treatment of psoriasis vulgaris - update apremilast and secukinumab - EDF in cooperation with EADV and IPC[J].
+J Eur Acad Dermatol Venereol,
+2017,
+31（
+12）:
+1951-
+1963.
+doi: 10.1111/jdv.14454.
+[38]
+MahadevanU, WolfDC, DubinskyM, et al.
+Placental transfer of anti-tumor necrosis factor agents in pregnant patients with inflammatory bowel disease[J].
+Clin Gastroenterol Hepatol,
+2013,
+11（
+3）:
+286-292, e24.
+doi: 10.1016/j.cgh.2012.11.011.
+贡献者信息
+中华医学会皮肤性病学分会
+中国医师协会皮肤科医师分会
+中国中西医结合学会皮肤性病专业委员会
+关键词
+银屑病;
+治疗;
+生物制剂;
+专家共识;
+利益冲突
+利益冲突 所有作者均声明不存在利益冲突。所有专家均声明参与本共识的制定坚持客观的立场，以专业知识、研究数据和临床经验为依据，所持观点未受到任何企业的影响。本共识的制定未接受任何企业、任何形式的赞助
+历史
+出版日期：2019-12-15
+收稿日期：2019-09-09
+本文编辑
+颜艳
+Guideline and Consensus
+Treatment of psoriasis with biological agents: a Chinese expert consensus statement (2019)
+Chinese Society of Dermatology,  China Dermatologist Association,  Combination of Traditional And Western Medicine Dermatology
+Published
+2019-12-15
+Cite as
+Chin J Dermatol, 2019,52(12): 863-871. DOI: 10.35541/cjd.20190892
+Abstract
+Biological agents have been increasingly applied to the treatment of psoriasis, and have shown favorable efficacy for severe, refractory and special-type cases. Attention has been paid to the appropriate, effective and safe use of biological agents in clinical practice. Therefore, a group of Chinese experts majoring in psoriasis develop the present consensus after thorough discussions based on domestic and international research data, current clinical experience, and features of Chinese psoriatic patients. The consensus provides detailed guidance for clinicians in terms of principles and methods of application, efficacy and safety of biological agents, screening and monitoring of patients, common problems and their solutions, and special issues for special patient populations.
+Key words:
+Psoriasis; Treatment; Biological agents; Expert consensus
+Contributor Information
+Chinese Society of Dermatology
+China Dermatologist Association
+Combination of Traditional And Western Medicine Dermatology
+共有
+条评论
+验证码
+发布
+本文被引情况
+CSCD:
+0次
+万方数据：
+0次
+Scopus:
+0次
+施引文献
+(最多仅列5条文献，进入CSCD官网发现更多)
+未获取施引文献信息...
+暂无相关资源
+相关视频
+查看更多
+无相关视频
+无相关视频
+无相关视频
+表1
+银屑病患者生物制剂用药前和治疗过程中建议的检查项目
+检查项目
+用药前
+用药过程中
+血常规和肝功能
+√
+依那西普、阿达木单抗、司库奇尤单抗第4、12周及以后每3个月检查1次；英夫利西单抗、乌司奴单抗每次注射前检查
+肾功能（肌酐）
+√
+无特殊要求
+HBV、HCV血清学检测
+√
+筛查阳性者根据情况每3~6个月检查1次
+HIV血清学检测
+a
+无特殊要求
+尿妊娠试验
+b
+无特殊要求
+抗核抗体
+c
+TNF-α抑制剂每半年检查1次
+PPD或T-Spot或Quantiferon Gold
+√
+TNF-α抑制剂每半年检查1次，其他生物制剂每年检查1次
+胸部X线或CT检查
+√
+TNF-α抑制剂每半年检查1次，其他生物制剂每年检查1次
+注：HBV，乙型肝炎病毒；HCV，丙型肝炎病毒；PPD，结核菌素纯蛋白衍生物试验；T-Spot，T细胞斑点检测；TNF-α，肿瘤坏死因子α。a：根据患者危险因素决定是否进行此项检测；b：育龄期女性检查；c：拟用TNF-α抑制剂者检查，必要时加查dsDNA以评估自身免疫病风险
+图1
+结核病筛查路线图
+向我们报错
+PDF与文章不符错误
+PDF失效
+文档错误
+出处错误
+作者姓名或顺序错误
+作者单位错误
+或请将文献题目、链接及错误信息发邮件club.ph@cma.org.cn
+请选择PDF下载会员类型
+取消
+下载
+出    处：中华皮肤科杂志2019年52卷12期
+文    题：中国银屑病生物治疗专家共识（2019）
+优惠价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+刊    期：中华皮肤科杂志2019年52卷12期
+优惠价：0 元    原价：0 元
+账户余额支付
+账户余额：0 元
+余额足够时不再提示
+取消
+直接购买
+支付成功！
+关闭
+购买失败,请稍后再试!
+取消
+去充值
+点赞成功！
+关闭
+收藏成功！
+关闭
+没有权限下载,请稍后再试!
+关闭
+收藏
+选择收藏夹：
+第二个 第二个
+新建收藏夹
+分享到我的朋友圈
+网络异常，请联系客服
+取消
+Share
+微信
+新浪微博
+有道笔记
+Twitter
+Facebook
+Google+
+Evernote
+Reddit
+Diigo
+LinkedIn
+Instapaper
+i贴吧
+FriendFeed
+豆瓣网
+复制网址
+收藏夹
+Gmail
+Poco网
+ReadItLater
+中华医学会杂志社读者俱乐部会员权益说明
+读者俱乐部会员是中华医学会杂志社面向医务工作者提供的新型服务方式。申请加入俱乐部会员可以享受到如下主要权益：
+在会员服务期内 阅读包括《中华医学杂志》、《英国医学杂志中文版》和其他专科类期刊的电子文献；
+享受中华医学会杂志社主办会议和培训费用的优惠政策；
+观看会议直播和录播视频；
+享受会员价购买商品；
+参加中华医学会杂志社举办的学术沙龙。
+我已了解
+分享到
+X
+微信
+新浪微博
+有道笔记
+Twitter
+Google+
+Reddit
+LinkedIn
+Facebook
+Evernote
+Diigo
+更多平台...
+(133)
+bShare

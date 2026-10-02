@@ -156,7 +156,8 @@ func seedFile(base string, raw []byte) (string, []KBRow, error) {
 		"provincial_cdc_health.json", "piyao_more.json",
 		"cma_society_popular.json", "rehab_society.json",
 		"cdstm_rumor_board.json", "yiigle_guides_more.json",
-		"mdweekly_popular.json", "nhc_rumor_debunk.json", "redcross_first_aid.json":
+		"mdweekly_popular.json", "nhc_rumor_debunk.json", "redcross_first_aid.json",
+		"yiigle_guides_wave4.json":
 		rows, err := seedList(raw)
 		return DSMedical, rows, err
 

@@ -69,6 +69,53 @@ func (cf *CitationFormatter) BuildCitationMapOffset(entries []RetrievalResult, o
 	return sb.String()
 }
 
+// knowledgeExcerptEntries and the two excerpt budgets bound the prose block
+// appended to the system prompt: at most four retrieved entries contribute,
+// each cut to a query-relevant window of ~450 runes, so the block costs a
+// couple of KB per request no matter how long the harvested article is.
+const (
+	knowledgeExcerptEntries = 4
+	knowledgeExcerptRadius  = 700 // ExcerptAround radius, in bytes
+	knowledgeExcerptRunes   = 450 // hard cap per entry, in runes
+)
+
+// BuildKnowledgeExcerpts renders the article text behind the retrieved entries
+// so the model answers from the harvested source instead of its own prior
+// knowledge. Entries without prose (structured lookups) contribute nothing; the
+// numbered citations these excerpts belong to are already listed by
+// BuildCitationMap. Returns "" when there is nothing to show.
+func (cf *CitationFormatter) BuildKnowledgeExcerpts(entries []RetrievalResult, query string) string {
+	var blocks []string
+	seen := make(map[string]bool, knowledgeExcerptEntries)
+	for _, r := range entries {
+		if len(blocks) >= knowledgeExcerptEntries {
+			break
+		}
+		e := r.Entry
+		if e.ID != "" && seen[e.ID] {
+			continue
+		}
+		name := e.ConditionZH
+		if name == "" {
+			name = e.ID
+		}
+		if e.Body == "" || e.Body == name {
+			continue
+		}
+		seen[e.ID] = true
+		// clipRunes is the hard cap: ExcerptAround snaps to line boundaries, so
+		// a body with few newlines could otherwise return a much wider slice.
+		blocks = append(blocks, fmt.Sprintf("【%s】\n%s", name, clipRunes(ExcerptAround(e.Body, query, knowledgeExcerptRadius), knowledgeExcerptRunes)))
+	}
+	if len(blocks) == 0 {
+		return ""
+	}
+	return "## 检索到的知识原文摘录\n\n" +
+		"以下是检索到的资料原文节选，每段以它的主题名开头。回答只依据与用户问题最贴合的那一段，" +
+		"不要把不同条目的原文混在一起说；原文没有提到的内容不要凭记忆补充。\n\n" +
+		strings.Join(blocks, "\n\n")
+}
+
 // SourceTierLabel 把引用来源映射为普通人能理解的来源分级一句话。
 // 供系统提示词与展示层共用：优先按机构/出版物关键词精确归类，
 // 再按证据类型 level 兜底。

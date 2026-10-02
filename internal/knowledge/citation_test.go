@@ -2,6 +2,7 @@ package knowledge
 
 import (
 	"regexp"
+	"strings"
 	"testing"
 )
 
@@ -102,5 +103,33 @@ func TestAddToolSource(t *testing.T) {
 	AddToolSource(s2, "t", "", "10.9999/x", 0, "review", "t")
 	if len(s2) != 1 {
 		t.Fatalf("expected 1 key without PMID, got %d", len(s2))
+	}
+}
+
+// TestBuildKnowledgeExcerpts guards the 科普 fix: the article text behind a
+// retrieved entry must reach the prompt, once per entry, within the excerpt
+// budget, and entries that are pure structured lookups must add nothing.
+func TestBuildKnowledgeExcerpts(t *testing.T) {
+	unit := "正畸通过持续轻力引导牙齿在牙槽骨中移动。"
+	long := strings.Repeat(unit, 200)
+	cf := NewCitationFormatter()
+	debunk := KnowledgeEntry{ID: "dsc-1", ConditionZH: "正畸让牙齿松动易脱落", Body: long}
+	out := cf.BuildKnowledgeExcerpts([]RetrievalResult{
+		{Entry: debunk},
+		{Entry: debunk},
+		{Entry: KnowledgeEntry{ID: "npc-1", ConditionZH: "鼻咽癌"}},
+	}, "牙齿矫正会让牙齿松动脱落吗")
+
+	if !strings.Contains(out, "【正畸让牙齿松动易脱落】") {
+		t.Fatalf("摘录应带条目标题:\n%.200s", out)
+	}
+	if strings.Contains(out, "【鼻咽癌】") {
+		t.Error("没有正文的结构化条目不应产生摘录区块")
+	}
+	if n := strings.Count(out, "【"); n != 1 {
+		t.Errorf("同一条目被重复检索到应只输出一次，实际 %d 个区块", n)
+	}
+	if n := len([]rune(out)); n > knowledgeExcerptEntries*knowledgeExcerptRunes+200 {
+		t.Errorf("摘录未受预算约束: %d runes", n)
 	}
 }

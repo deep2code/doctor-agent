@@ -175,6 +175,7 @@ func (r *VectorRetriever) Retrieve(ctx context.Context, query string, topK int) 
 		if raw, ok := result.Payload["data"]; ok && raw != "" {
 			var e KnowledgeEntry
 			if err := json.Unmarshal([]byte(raw), &e); err == nil && e.ID != "" {
+				foldProseIntoBody(&e)
 				retrievalResults = append(retrievalResults, RetrievalResult{Entry: e, Score: result.Score})
 				if len(retrievalResults) >= topK {
 					break

@@ -268,6 +268,12 @@ func (t *KnowledgeSearch) searchMedical(ctx context.Context, query string, topK 
 		if len(entry.DifferentialDiagnosis) > 0 {
 			item["differential_diagnosis"] = entry.DifferentialDiagnosis
 		}
+		// Article prose for the 科普/指南 entries: a query-relevant window, kept
+		// short because the serialized result shares one 4 KB budget with the
+		// other fields (see agent.compactToolResult).
+		if entry.Body != "" {
+			item["content"] = truncateRunes(knowledge.ExcerptAround(entry.Body, query, 600), 400)
+		}
 
 		// Citations
 		citeList := make([]map[string]any, 0)

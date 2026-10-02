@@ -23,8 +23,10 @@ func NewComposer() *Composer {
 // clinical reasoning, China genetic epidemiology, environmental & dietary risks,
 // and safety rules,
 // then injecting retrieved knowledge and tool definitions.
-func (c *Composer) ComposeSystemPrompt(retrieved []knowledge.RetrievalResult, patientCtx string) string {
-	return c.ComposeStaticPrefix() + c.ComposeDynamicSections(retrieved, patientCtx)
+// query is the text retrieval was run with; it selects which part of a long
+// knowledge article gets excerpted into the dynamic section.
+func (c *Composer) ComposeSystemPrompt(retrieved []knowledge.RetrievalResult, patientCtx, query string) string {
+	return c.ComposeStaticPrefix() + c.ComposeDynamicSections(retrieved, patientCtx, query)
 }
 
 // ComposeStaticPrefix returns the byte-stable leading section of the system
@@ -70,9 +72,10 @@ func (c *Composer) ComposeStaticPrefix() string {
 
 // ComposeDynamicSections returns the per-request remainder of the system
 // prompt: patient context, retrieved knowledge (or the empty-recall
-// guidance), and the safety layer. Order matches ComposeSystemPrompt so
-// static + dynamic concatenates to the exact same text.
-func (c *Composer) ComposeDynamicSections(retrieved []knowledge.RetrievalResult, patientCtx string) string {
+// guidance), the article text behind those entries, and the safety layer.
+// Order matches ComposeSystemPrompt so static + dynamic concatenates to the
+// exact same text.
+func (c *Composer) ComposeDynamicSections(retrieved []knowledge.RetrievalResult, patientCtx, query string) string {
 	var sb strings.Builder
 
 	// Patient context injection (if available)
@@ -86,6 +89,10 @@ func (c *Composer) ComposeDynamicSections(retrieved []knowledge.RetrievalResult,
 	if len(retrieved) > 0 {
 		sb.WriteString(c.formatter.BuildCitationMap(retrieved))
 		sb.WriteString("\n\n")
+		if excerpts := c.formatter.BuildKnowledgeExcerpts(retrieved, query); excerpts != "" {
+			sb.WriteString(excerpts)
+			sb.WriteString("\n\n")
+		}
 	} else {
 		sb.WriteString("## 可引用的循证医学文献\n\n")
 		sb.WriteString("当前查询未检索到特异性知识条目。如果你认为用户的问题涉及事实性医学信息，请明确说明：")

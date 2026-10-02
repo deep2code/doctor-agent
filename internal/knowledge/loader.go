@@ -308,6 +308,17 @@ func (s *Store) loadDataset(name string) error {
 	return nil
 }
 
+// foldProseIntoBody moves the article text of the 科普 batches (they ship it in
+// title_zh/summary_zh/details_zh, of which details_zh is the fullest) into
+// Body — the field bigram recall (scoreEntry strategy 6) and the prompt excerpt
+// builder read. Entries that already carry a Body (prose projections) are left
+// alone.
+func foldProseIntoBody(e *KnowledgeEntry) {
+	if e.Body == "" {
+		e.Body = strings.TrimSpace(e.DetailsZH)
+	}
+}
+
 // ingest appends a single database row to the appropriate Store field.
 func (s *Store) ingest(name string, raw []byte) error {
 	switch name {
@@ -316,6 +327,10 @@ func (s *Store) ingest(name string, raw []byte) error {
 		if err := json.Unmarshal(raw, &e); err != nil {
 			return err
 		}
+		// The 科普 batches keep their article text in title_zh/summary_zh/
+		// details_zh; folding it into Body is what makes that prose reachable
+		// by bigram recall and by the prompt excerpt builder.
+		foldProseIntoBody(&e)
 		s.MedicalEntries = append(s.MedicalEntries, e)
 		s.MedicalByID[e.ID] = &s.MedicalEntries[len(s.MedicalEntries)-1]
 		for j, c := range e.Citations {

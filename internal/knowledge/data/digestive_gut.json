@@ -311,7 +311,6 @@
   "category": "digestive_gut",
   "keywords": [
    "慢性咳嗽是胃酸反流吗",
-   "哮喘合并反流",
    "久咳不愈查反流",
    "咽喉异物感反流",
    "抑酸试验治疗咳嗽",
@@ -383,7 +382,7 @@
  },
  {
   "id": "dg-constipation-alert",
-  "condition_zh": "便血查肠镜",
+  "condition_zh": "便秘伴便血",
   "condition_en": "Alarm features in constipation and the age 40 colonoscopy threshold",
   "category": "digestive_gut",
   "keywords": [
@@ -889,7 +888,9 @@
    "根除效果评估",
    "Hp复查假阴性",
    "四联结束后复查吹气",
-   "复查等几周"
+   "复查等几周",
+   "没根除怎么办",
+   "四联没根除"
   ],
   "prevention": [
    "陈述3：Hp 根除治疗后应常规评估根除效果，复查的时间应在治疗结束后4~6周进行，以避免根除治疗药物（如 PPI、铋剂和抗生素等）对检测结果的影响；评估的最佳方法是尿素呼气试验。",
@@ -1381,7 +1382,7 @@
  },
  {
   "id": "dg-cirrhosis-nutrition",
-  "condition_zh": "肝硬化蛋白质",
+  "condition_zh": "肝硬化能吃蛋白质",
   "condition_en": "Nutrition in cirrhosis: 30-35 kcal/kg, protein 1.2-1.5 g/kg, 4-6 small meals",
   "category": "digestive_gut",
   "keywords": [
@@ -1556,7 +1557,8 @@
    "广泛结肠型E3肠镜",
    "起病八年肠镜",
    "炎症性肠病结肠镜监测",
-   "溃疡性结肠炎多久查一次"
+   "溃疡性结肠炎多久查一次",
+   "溃疡性结肠炎多久复查一次肠镜"
   ],
   "prevention": [
    "起病8~10年的所有 UC 患者均应行1次结肠镜检查，确定当前病变范围；后续间隔按范围分层。",

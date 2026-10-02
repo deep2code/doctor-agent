@@ -15,7 +15,7 @@ Usage:
 Idempotent: regenerates every .json.zst from internal/knowledge/data/*.json.
 Incremental by default: a local state file (`.cache/make_gz_state.json`,
 gitignored) remembers (source sha256, artifact sha256) per dataset, so an
-unchanged source is never re-compressed at level 19 — the ~8 min cold run
+unchanged source is never re-compressed at level 19 — the ~7 min cold run
 becomes seconds when only one data file changed. A checkout without the state
 file is still handled cheaply: an artifact that decompresses to its source is
 adopted into the state instead of being rebuilt. `--force` rebuilds everything;

@@ -4,17 +4,31 @@
 # mariadb 官方 entrypoint 在【首次初始化(空 datadir)】时自动导入 ——
 # 容器首启即有完整知识库, 运行时零 seed (SEED_MARIADB_KB 无需开启).
 #
-# root 密码遵循标准镜像约定: 部署时用 MARIADB_ROOT_PASSWORD 注入
-# (compose 默认 changeme). 挂载空卷 mariadb_data 即触发一次性导入;
-# 已有数据的卷不会被覆盖(官方 entrypoint 行为).
+# 部署形态 (2026-10-02): 本镜像跑在【独立容器、不挂持久卷】上, 与业务库容器
+# (mariadb:11.4 + mariadb_data 卷) 完全分开 —— 知识是基础数据, 镜像里是什么
+# 线上就是什么, 容器重建即重新导入 (实测约 40-50 秒, 业务数据不受影响).
+# 官方 entrypoint 只在数据目录为空时导入, 而 compose 重建容器会【复用】上个容器
+# 留下的匿名卷(本机实测), 所以光"不挂卷"并不能保证重新导入. 保证放在镜像自己里:
+# 入口脚本 docker/kb/kb-entrypoint.sh 每次启动先清掉上一次导入(只清自己打过标记的
+# 目录; 挂了外来数据目录时绝不删, 改为告警), 于是无论用什么方式起容器、有没有挂卷,
+# 数据都必然等于镜像内容. 代价: 每次启动多花 40-50 秒重新导入.
 #
-# 数据版本以 internal/knowledge/data/version.json 为准 (build.sh kb 用它打 tag).
+# root 密码遵循标准镜像约定: 部署时用 MARIADB_ROOT_PASSWORD 注入
+# (compose 默认 changeme). 应用侧用 KNOWLEDGE_DB_DSN 连本容器.
+#
+# 数据版本以 internal/knowledge/data/version.json 为准 (build.sh kb 只发布 :latest,
+# 版本号用于溯源, 不作为 tag).
 # 重建流程: 起本地 MariaDB → MARIA_DB_PORT=xxxx go run ./cmd/kbseed →
 #   docker exec <容器> mariadb-dump ... | gzip > docker/kb/init-doctor_knowledge.sql.gz
 #   → ./build.sh kb
 FROM mariadb:11.4
 
 COPY docker/kb/init-doctor_knowledge.sql.gz /docker-entrypoint-initdb.d/01-doctor_knowledge.sql.gz
+# 导入阶段最后一步打标记(99-* 排在 01-* 之后), 供入口脚本识别"本镜像解包出来的目录"
+COPY --chmod=755 docker/kb/99-kb-marker.sh /docker-entrypoint-initdb.d/99-kb-marker.sh
+COPY --chmod=755 docker/kb/kb-entrypoint.sh /usr/local/bin/doctor-agent-kb-entrypoint.sh
+
+ENTRYPOINT ["/usr/local/bin/doctor-agent-kb-entrypoint.sh"]
 
 # 与 docker-compose.yml 的 mariadb 调优参数一致
 CMD ["--innodb-flush-log-at-trx-commit=2", "--sync-binlog=0"]

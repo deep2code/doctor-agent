@@ -1,15 +1,18 @@
-# doctor-agent — 四镜像版 compose（2026-09-20 校准；原"双镜像"注释已过时）
+# doctor-agent — 四镜像版 compose（2026-10-02 校准：知识库与业务库拆成两个容器）
 #
 # 架构：
-#   mariadb → 同一实例承载两个库：业务库 doctor_agent（用户/会话/消息/反馈）
-#             + 知识库 doctor_knowledge（关键词/精确查找层）。默认镜像 doctor-agent-kb
-#             已在构建期灌好全量知识，空卷首启自动导入，运行时零 seed。
+#   kb      → 知识库【基础数据】：doctor-agent-kb 镜像自带全量 doctor_knowledge，
+#             不挂持久卷——每次重建都从镜像重新导入（实测 45-60 秒，导入完成前健康检查
+#             一直不通过，所以 app 不会读到半空的库；镜像入口脚本自带"重新导入"保证，
+#             见下面 kb 服务的注释）。镜像是什么版本，线上就是什么版本。
+#   mariadb → 业务库【可变数据】：只有 doctor_agent（用户/会话/消息/反馈/家庭成员），
+#             挂 mariadb_data 持久卷，是唯一需要备份的东西。
 #   qdrant  → 专业 RAG 向量腿：doctor-agent-qdrant 镜像自带【构建期烘好的向量】，
 #             启动即用、零灌入等待（gz 知识源不在镜像内，仅作构建期输入）。
-#             与 mariadb 关键词层是混合检索的两条腿，不是替代关系。
+#             与 kb 关键词层是混合检索的两条腿，不是替代关系。
 #   embed   → 查询端 embedding：doctor-agent-embed（bge-m3 INT8, :18080），
 #             必须与烘焙向量同模型，否则语义召回静默失效。
-#   app     → Go 源码 + 前端，:7071。
+#   app     → Go 源码 + 前端，:7071。业务库读 MARIA_DB_*，知识库读 KNOWLEDGE_DB_DSN。
 #
 # 四镜像（触发条件解耦，见 build.sh）：
 #   doctor-agent         Go 源码 + 前端            → 代码变化才更新
@@ -19,7 +22,7 @@
 #
 # 前提：服务器上已存在镜像（以下任一方式获得）：
 #   A) 从仓库拉取：默认已指向公共仓库；自定义用 .env 覆盖
-#      IMAGE_NAME / QDRANT_IMAGE / EMBED_IMAGE / KB_IMAGE
+#      IMAGE_NAME / QDRANT_IMAGE / EMBED_IMAGE / KB_IMAGE / APP_DB_IMAGE
 #   B) 本机 docker save/load（各变量保持默认本地镜像名即可）
 #
 # 启动：
@@ -27,18 +30,41 @@
 #   docker compose up -d
 #
 # 说明：
-#   - qdrant 服务使用【自带烘焙向量的 RAG 镜像】（构建期 vector-bake 注入，
-#     见根目录 Dockerfile.qdrant / Dockerfile.qdrant.slim）。首次启动即可语义检索，无 seed/sync 等待。
-#   - app 启动时自动建业务库 doctor_agent；知识检索走 Qdrant + MariaDB 混合。
-#   - 可选：若想用空 MariaDB 自灌，把 mariadb 镜像改回 mariadb:11.4，
-#     把外部 gz 目录挂到容器并设 SEED_MARIADB_KB=true，默认不启用。
+#   - 知识库更新（新批次科普/指南）= 推送新的 doctor-agent-kb 镜像 → 在服务器上
+#     `docker compose pull && docker compose up -d kb`，kb 容器重建后自动导入新数据。
+#     业务库不受影响。
+#   - /admin 的知识上传/同步写进的是 kb 容器的临时存储，容器重建即回落到镜像内容；
+#     要永久生效必须做成新镜像（make_gz → kbseed → ./update-kb.sh）。
+#   - qdrant 与 kb 同属"镜像即数据"，都不挂持久卷。
+#   - 可选：若想用空 MariaDB 自灌，给 kb 换成 mariadb:11.4 并在 app 上设
+#     SEED_MARIADB_KB=true + 挂 gz 卷，默认不启用。
+#   - 2026-10-02 之前的部署：同一个 mariadb_data 卷里还留着一份旧的 doctor_knowledge
+#     （约 1.1GB，现在已无人读取）。确认新拓扑跑通后可在业务实例里 DROP 它回收磁盘。
 
 services:
-  mariadb:
-    # 预灌全部医学知识的数据镜像（版本号看 internal/knowledge/data/version.json，
-    # tag 由 build.sh kb 自动取）——空卷首启自动导入, 运行时零 seed
-    # 如需空库自灌, 改回 mariadb:11.4 并给 app 设 SEED_MARIADB_KB=true + 挂 gz 卷
+  # 知识库容器：镜像即数据。不挂持久卷，且镜像自带的入口脚本会在每次启动时把上一次
+  # 导入清掉再重新导入（实测：空目录首启 45 秒可用；挂着的卷被复用时也会重灌，60 秒）。
+  # 为什么要在镜像里做：compose 重建容器时会【复用】上个容器留下的匿名卷（本机实测），
+  # 光"不挂卷"会导致换了镜像还是旧知识——正是这次要消灭的状态。若误挂外来数据目录，
+  # 入口脚本只告警、绝不删除别人的数据。
+  # 健康检查在整份 dump 导完之前不会通过（mariadb 官方 healthcheck 读 @@skip_networking，
+  # 导入期的临时服务返回 1），所以 app 的 service_healthy 依赖天然不会读到半空的库。
+  kb:
     image: ${KB_IMAGE:-crpi-0xi5k79l9j4opzta.cn-hangzhou.personal.cr.aliyuncs.com/codeup2026/doctor-agent-kb:latest}
+    container_name: doctor-agent-kb
+    environment:
+      MARIADB_ROOT_PASSWORD: ${MARIA_DB_ROOT_PASSWORD:-changeme}
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 40
+      start_period: 30s
+    restart: unless-stopped
+
+  # 业务库容器：唯一的持久卷，存用户/会话/消息/反馈/家庭成员。
+  mariadb:
+    image: ${APP_DB_IMAGE:-mariadb:11.4}
     container_name: doctor-agent-mariadb
     command:
       - --innodb-flush-log-at-trx-commit=2
@@ -97,8 +123,10 @@ services:
       MARIA_DB_PORT: "3306"
       MARIA_DB_USER: root
       MARIA_DB_PASSWORD: ${MARIA_DB_ROOT_PASSWORD:-changeme}
-      MARIA_DB_KNOWLEDGE_DB: doctor_knowledge
       MARIA_DB_APP_DB: doctor_agent
+      # 知识库指向独立的 kb 容器（镜像即数据）。MARIA_DB_KNOWLEDGE_DB 只在该 DSN 为空时
+      # 才用于拼 DSN，这里显式给出完整 DSN，所以应用永远不会去业务实例上找知识库。
+      KNOWLEDGE_DB_DSN: "${MARIA_DB_USER:-root}:${MARIA_DB_ROOT_PASSWORD:-changeme}@tcp(kb:3306)/${MARIA_DB_KNOWLEDGE_DB:-doctor_knowledge}?parseTime=true&charset=utf8mb4&collation=utf8mb4_unicode_ci&interpolateParams=true"
       VECTOR_STORE_ENABLED: "true"
       VECTOR_STORE_HOST: qdrant
       VECTOR_STORE_PORT: "6334"
@@ -112,6 +140,8 @@ services:
     depends_on:
       mariadb:
         condition: service_healthy
+      kb:
+        condition: service_healthy
       qdrant:
         condition: service_started
       embed:
@@ -119,5 +149,6 @@ services:
     restart: unless-stopped
 
 volumes:
+  # 唯一的持久卷，且只承载业务库：知识库容器刻意不挂卷（见文件头说明）。
   mariadb_data:
   # qdrant_data 卷已移除（2026-08-30）：只读场景不挂卷，向量数据直接读镜像层

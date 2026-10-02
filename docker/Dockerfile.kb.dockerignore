@@ -2,3 +2,5 @@
 # 只要预灌知识的 dump。其余全部排除，build context ~400MB 直达镜像。
 *
 !docker/kb/init-doctor_knowledge.sql.gz
+!docker/kb/99-kb-marker.sh
+!docker/kb/kb-entrypoint.sh

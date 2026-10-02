@@ -116,7 +116,9 @@ type Config struct {
 	SessionIdleMinutes int
 	MaxActiveSessions  int
 
-	// MariaDB (shared instance; knowledge store + app store as two databases)
+	// MariaDB. By default one instance addresses both stores; a deployment that
+	// runs the knowledge base on its own server (the volume-less kb container in
+	// docker-compose.yml) overrides it with KNOWLEDGE_DB_DSN.
 	MariaDBHost        string
 	MariaDBPort        int
 	MariaDBUser        string
@@ -357,7 +359,14 @@ func (c *Config) MariaDBServerDSN() string {
 }
 
 // EnsureKnowledgeDB creates the knowledge database if it does not exist.
+// With an explicit KNOWLEDGE_DB_DSN it is a no-op: the knowledge base lives on
+// its own server (the doctor-agent-kb image ships doctor_knowledge pre-loaded),
+// and creating it on the MariaDB host would leave an empty twin right next to
+// the business database.
 func (c *Config) EnsureKnowledgeDB() error {
+	if os.Getenv("KNOWLEDGE_DB_DSN") != "" {
+		return nil
+	}
 	return ensureDatabase(c.MariaDBServerDSN(), c.MariaDBKnowledgeDB)
 }
 

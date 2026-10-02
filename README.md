@@ -342,12 +342,16 @@ AUTH_SECRET=自定义一长串随机值   # /login 令牌的签名密钥；不�
 >   运行时零 seed**；镜像只发 `:latest` 标签（`internal/knowledge/data/version.json`
 >   只记录知识库内容版本，构建时打印出来做溯源，不再当镜像 tag 用）。
 >
-> **一次部署 = 4 个镜像都拉到**（`docker compose up -d`），app 依赖 mariadb + qdrant + embed。
-> **只读部署**：compose 不给 qdrant 挂卷，向量直接读镜像层（容器重建即恢复），磁盘约 5GB
-> 可用即可；如需写入 Qdrant 请自行挂卷。
-> ⚠️ **MariaDB 不是"只做业务库"**：同一实例里既有业务库 `doctor_agent`（用户/会话/消息/反馈），
-> 又有知识库 `doctor_knowledge`（关键词/精确查找层，由 `doctor-agent-kb` 预灌）。Qdrant 只负责
-> 向量这一腿，二者是混合检索的两条腿，不是替代关系。
+> **一次部署 = 4 个镜像都拉到**（`docker compose up -d`），app 依赖 mariadb + **kb** + qdrant + embed。
+> **只读部署**：compose 不给 qdrant 和 kb 挂持久卷，数据直接来自镜像层（容器重建即恢复），
+> 磁盘约 5GB 可用即可；kb 容器重建后重新导入约 40-50 秒，健康检查在导完之前不通过，
+> app 会等它。如需写入 Qdrant 或让知识库改动持久化，请自行挂卷（但那样镜像就不再是权威了）。
+> ⚠️ **业务库与知识库是两个独立容器**（2026-10-02 拆开）：`mariadb` 跑 `mariadb:11.4` +
+> `mariadb_data` 持久卷，只有业务库 `doctor_agent`（用户/会话/消息/反馈）；`kb` 跑
+> `doctor-agent-kb`，只有知识库 `doctor_knowledge`（关键词/精确查找层），**不挂持久卷**。
+> 拆开的理由：知识是基础数据，跟着镜像走才不会出现"跑久了机器上是旧数据"；业务数据是唯一
+> 需要备份的东西。app 侧 `MARIA_DB_*` 指向业务容器，`KNOWLEDGE_DB_DSN` 指向 kb 容器。
+> Qdrant 只负责向量这一腿，与 kb 的关键词层是混合检索的两条腿，不是替代关系。
 > 本地重新构建并推送（烘焙工具已独立，不依赖 app 镜像；打包前需先在本机烘出 `qdrant-storage/`
 > —— 有产物 `./build.sh qdrant` 直接 COPY 打包，无产物才会调烘焙脚本。⚠️ `build.sh` 的 macOS
 > 分支引用的 `bake-local.sh` 目前不在仓库内，此路径已损坏，可用 GPU 烘焙管线 `bake-gpu.sh` 代替）：
@@ -410,9 +414,9 @@ docker compose up -d --build    # 重新构建并启动
 | `SESSION_DIR` | 空 | 会话 JSON 快照目录（`0600`），空=仅内存 |
 | `SESSION_IDLE_MINUTES` | `120` | 内存会话空闲多久后驱逐（已落库/落盘的会按需再读回来）；`0`=不按空闲驱逐 |
 | `MAX_ACTIVE_SESSIONS` | `500` | 内存同时保留的会话数上限，超出按 LRU 驱逐；`0`=不限制 |
-| `MARIA_DB_HOST` / `_PORT` / `_USER` / `_PASSWORD` | `localhost` / `3306` / `root` / 空 | 两个库共用的连接参数 |
+| `MARIA_DB_HOST` / `_PORT` / `_USER` / `_PASSWORD` | `localhost` / `3306` / `root` / 空 | 连接参数；`KNOWLEDGE_DB_DSN` 为空时两个库都用它，设了则它只描述**业务库**实例 |
 | `MARIA_DB_KNOWLEDGE_DB` / `MARIA_DB_APP_DB` | `doctor_knowledge` / `doctor_agent` | 知识库 / 业务库库名 |
-| `KNOWLEDGE_DB_DSN` / `APP_DB_DSN` | 空（由 `MARIA_DB_*` 组合） | 显式覆盖两个库的完整 DSN |
+| `KNOWLEDGE_DB_DSN` / `APP_DB_DSN` | 空（由 `MARIA_DB_*` 组合） | 显式覆盖完整 DSN。**知识库单独一个容器时必须设**（compose 已给）；设了之后应用不会再往业务实例上创建 `doctor_knowledge` |
 | `ADMIN_PASSWORD` | 空 | 首次启动自动创建 `admin` 账号的密码；**为空时回退 `admin123` 并打 Warn——生产必须显式设置** |
 | `MEDIA_DIR` | `data/media` | `/media/*` 静态资源目录 |
 | `LOG_LEVEL` | `info` | slog 级别：`debug` / `info` / `warn` / `error` |

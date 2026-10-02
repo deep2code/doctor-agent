@@ -77,6 +77,7 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
 ## Notes
 
 - (add quick notes here — e.g. decisions, gotchas, future work)
+- **知识库与业务库拆成两个容器 (2026-10-02，产品决策，用户原话「这个应该是基础数据，和业务数据库要分开啊」→「知识库单独一个容器，且不挂持久卷，按这个做吧」)**: 旧拓扑把两个库放在同一个 MariaDB 实例 + 同一个持久卷里，而官方 entrypoint 只在数据目录为空时导入镜像里的 dump —— 于是那台机器跑一段时间后，磁盘上躺的还是**首次启动那天**灌进去的知识，之后发布的镜像一概不生效（实测差距：远端 latest 从 2026-09-29 起停在 1.50.0，任何在那之前起过的机器少 **1481 条**科普条目 + 批次7 的关键词修复）。新拓扑：`kb` 服务用 `doctor-agent-kb`、**不挂持久卷**（容器重建 = 重新导入 = 镜像即数据），`mariadb` 服务退回 `mariadb:11.4` 只留业务库和唯一的 `mariadb_data` 卷。三点实测/机制结论: ① **导入不慢**——本机空数据目录起容器，1.1GB 数据、1,385,585 行，**45-60 秒**健康（线上是 amd64 真机，只会更快），所以"每次重建都重灌"完全可行；② **健康检查天然可靠**，不需要改镜像——mariadb 官方 `healthcheck.sh --connect` 读 `@@skip_networking`，导入期的临时服务返回 1，所以 `--connect --innodb_initialized` 在整份 dump 导完之前一直失败，app 有 `depends_on: kb: service_healthy` 就不会读到半空的知识库（这条推翻了我在同一轮里最初准备加的"数行数阈值"方案）；③ **"不挂持久卷"本身不是保证**——镜像声明了 `VOLUME /var/lib/mysql`，Docker 会给一个匿名卷，而 compose 重建容器时会**复用**上个容器的匿名卷（本机 `up -d --force-recreate kb` 实测：卷 id 不变、日志里没有 "Initializing database files"、行数还是旧的），所以只做 compose 改动会**静默地继续跑旧知识**，比旧拓扑更隐蔽。保证写在镜像里: `docker/kb/kb-entrypoint.sh` 启动时先清掉**自己打过标记**的数据目录（标记由 `/docker-entrypoint-initdb.d/99-kb-marker.sh` 在导入结束后写入），再 exec 官方入口，于是无论有没有挂卷、用什么方式起容器都会重新导入（本机实测: 空目录 45 秒可用；同一个命名卷被第二个容器复用时照样重灌，60 秒）。安全边界如实验过: 把一个**别人**初始化过的卷挂进来（先用 `mariadb:11.4` 建库建表），入口脚本只打告警、表里的数据完好无损——`rm -rf` 永远不会碰本镜像没标记过的目录。匿名卷由 `docker compose down` 连带删除，手工 `docker run` 才需要 `docker volume prune`。**这个入口改动还没发布**，落地要再跑一次 `./build.sh kb`（dump 没变，不需要 `update-kb.sh` 的重灌步骤）。代码侧只改一处: `config.EnsureKnowledgeDB()` 在 `KNOWLEDGE_DB_DSN` 非空时直接返回 nil（原来它用 `MariaDBServerDSN()`，等于绕过"知识库在别的机器上"这个事实、去业务实例上建一个空 `doctor_knowledge`；回归门 `config_test.go TestKnowledgeDSNSplit` 把业务端口指向 127.0.0.1:1，任何拨号尝试都会让它红）。**如实记录的代价**: /admin 的知识上传与 `sync-knowledge` 写的是 kb 容器的临时存储，容器重建即回落到镜像内容——永久改动必须做成新镜像（`make_gz → cmd/kbseed → ./update-kb.sh`），这与"基础数据跟着镜像走"是同一个决定的两面，不是新 bug。**存量机器迁移**（尚未执行，等用户操作）: `git pull && docker compose pull && docker compose up -d` 即可；业务卷里那份没人再读的旧 `doctor_knowledge`（约 1.1GB）确认新拓扑跑通后可在业务实例 `DROP DATABASE` 回收。
 - **科普正文此前被静默丢弃，已修 (2026-10-02)**: 批次 3~19 的转换器把文章正文写在 `details_zh`（少数写 `summary_zh`/`title_zh`），而 `KnowledgeEntry` 里**根本没有这三个字段**，Go 端解 JSON 时直接丢掉。后果是三层同时空转：`scoreEntry` 策略6 的正文兜底打不到分、`buildSearchText`（向量烘焙文本 + `KB.Search` 候选过滤）里 6000 行只剩关键词、**提示词里除了文献元数据（标题/DOI/证据等级）没有一句正文，模型等于在凭自己的记忆回答我们抓来的指南**。修法四步全在结构体侧，**MariaDB 无需重播**（`seedList` 存 `json.RawMessage` 原样，库里一直躺着完整正文）：① `schemas.go` 加 `TitleZH/SummaryZH/DetailsZH`；② `loader.go` `foldProseIntoBody()` 在 `case DSMedical` 解码后把 `details_zh` 折进 `Body`（`retriever_vector.go` 的 baked-payload 解码路径同样折，防向量层将来回归；选 `details_zh` 因为它在全部 5995 行里 ≥ `summary_zh`，且「有 summary 无 details」的行数为 **0**）；③ `seed.go` `buildSearchText` 白名单加这四个键；④ 提示词侧新增 `CitationFormatter.BuildKnowledgeExcerpts(entries, query)`，在 `ComposeDynamicSections` 里紧跟引用表输出「## 检索到的知识原文摘录」——**最多 4 条、每条 `ExcerptAround(body, query, 700字节)` 取窗口再 `clipRunes` 硬截 450 字**（`ExcerptAround` 按行边界落点，正文缺换行时会回给出远宽于预算的切片，**所以每个新调用点都必须补 clip**）。工具侧同步：`searchMedical` 返回 `content`（400 字窗口），并把 `content` 加进 `agent.go` `pruneKnowledgeSearch` 字段白名单，否则压缩层会把正文当未列白名单的键丢掉。**实测口径**: medical 7325 条里 **5995 条有正文（合计 11.9M runes ≈ 常驻内存 +35MB）**；剩下 **1330 条是结构化老条目**（内容在 `when_to_seek_care`/`treatment` 等数组字段里），提示词侧仍然只见到标题、必须模型自己调 `knowledge_search` 才拿得到——已知缺口，本轮未扩大范围。**召回侧的诚实结论**: `KeywordRetriever.Retrieve` 的正文兜底**只在字面通道零命中且 `ExpandQuery` 改变过查询时**才跑，所以 A 对召回的提升是有条件的，**本轮真正的无条件收益是 B（正文进了模型视野）**。向量层要享受 `buildSearchText` 改动需重烘 Qdrant（按指示**未烘**）。摘录区块**只能进动态段**（它随 query 变），进静态前缀会击穿提示词缓存——`composer_test.go TestComposeDynamicSectionsCarriesKnowledgeProse` 双向锁死；`citation_test.go TestBuildKnowledgeExcerpts` 锁去重与体积上限。
 - **科普补充批次 (2026-09-22，版本1.40.0)**: 四个日常健康薄弱方向新增 41 条 medical 条目，全部走 KnowledgeEntry→seedFile 零检索层改动：① `sleep_mental_health.json` 15条（《睡眠健康核心信息及释义》全国爱卫办2025 全文8条 + 《健康中国行动·心理健康促进行动》个人部分7条）；② `maternal_diet.json` 10条（《中国孕妇、乳母膳食指南(2022)》孕期6条+哺乳期5条+量化每日食物量；官方 dg.cnsoc.org 核心信息页为图片版，文字经官网百科词条引人民日报/搜狐营养科译本，来源页URL统一用 cnsoc 核心信息页）；③ `exercise_weight.json` 9条（健康中国行动·全民健身行动运动处方(150分钟/周、6000-10000步/日) + 《"体重管理年"活动实施方案》(国卫医急发〔2024〕21号) 的 一秤一尺一日历/三知一管/一减两增一调两测 + 居民体重管理核心知识2024年版8条）；④ `adult_vaccines.json` 7条（《中国流感疫苗预防接种技术指南(2025-2026)》ivdc.chinacdc.cn、中疾控2025带状疱疹科普(重组≥50岁2剂/减毒≥40岁1剂)、《预防性HPV疫苗中国临床应用指南(2025版)》(9-26女优先/9-14两剂/男性2A/孕期不推荐/接种后仍筛查)）。**nhc.gov.cn 有 WAF（WebFetch 412），browser-use 真浏览器可直连**；health委页面 JS 渲染，正文用 evaluate_script innerText 提取。回归门: `internal/knowledge/retriever_popsupplement_test.go`（22 个口语查询 top5 命中，需 MariaDB）。
 - **科普补充批次2 (2026-09-23，版本1.41.0)**: 再补四个日常方向 44 条 medical 条目，同样零检索层改动：① `adult_diet.json` 13条（《中国居民膳食指南(2022)》平衡膳食八准则逐条8条 + 《健康中国行动·合理膳食行动》盐油菜单数字/低钠盐慎用人群(高温作业/重体力/肾病/服降压药高血压患者)/超重肥胖·贫血消瘦·家庭饮食分人群建议）；② `myopia_prevention.json` 10条（《防控儿童青少年近视核心知识十条》国卫办妇幼函〔2023〕278号 逐条对应：远视储备/户外2小时/三个一与20-20-20/分龄视屏/眼保健操/睡眠/散瞳验光金标准/戴镜复查/高度近视600度并发症/多方合力）；③ `oral_health.json` 12条（卫健委《口腔健康核心信息及知识要点》拆成 刷牙法/牙刷更换/牙线/含氟牙膏/吃糖护牙/口腔检查与洗牙/备孕看牙/婴幼儿清洁/不良习惯纠正/乳牙龋必须治/窝沟封闭/缺牙修复）；④ `cancer_prevention.json` 9条（《癌症防治核心信息》2019 可防可控+11条早期危险信号+三级预防 + CACA《中国肿瘤防治核心科普知识(2025)》整体评估篇 筛查分层/联合方法(低剂量CT/胃镜+Hp/超声+AFP)/BRCA1-2女25岁男35岁年度乳腺MRI/压力管理/先简后繁病理金标准）。**坑: 医院科普站的AI改写稿数字不可信(把482万新发写成"482万宗每60秒9人"式乱改)，一律不用；cnsoc 八准则整页为文字版可直接 innerText 提取(孕期核心信息页才是图片版)**。回归门: `retriever_popsupplement2_test.go`（26 个口语查询，需 MariaDB）。另: `go run ... | tail` 会把失败也吞成 exit 0（zsh 无 pipefail），后台长任务一律不加管道尾巴。
@@ -151,17 +152,46 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
   `docker-compose.yml` + `build.sh:24`): `doctor-agent` (app), `doctor-agent-qdrant`
   (vectors), `doctor-agent-embed` (query-side bge-m3), `doctor-agent-kb`
   (MariaDB with the knowledge DB pre-loaded). `build.sh [app|qdrant|embed|kb|full]`.
-- **MariaDB is NOT business-only**: one MariaDB instance holds BOTH
-  `doctor_agent` (users/sessions/messages/feedback) and `doctor_knowledge`
-  (the keyword/exact-lookup layer). Compose's `mariadb` service runs
-  `doctor-agent-kb` — `docker/Dockerfile.kb` puts a full `doctor_knowledge`
-  dump at `/docker-entrypoint-initdb.d/`, so a first boot with an empty volume
-  imports ~all knowledge with **no runtime seed** (`SEED_MARIADB_KB` not needed).
-  The KB image is published **only as `:latest`** (2026-09-21: no version-numbered
-  tag — `build.sh` reads `data/version.json` purely to echo the knowledge version
-  for provenance); the "1.36.0" numbers in `docker-compose.yml:30` /
-  `Dockerfile.kb` comments are rotting prose, not config — read `version.json`
-  for the current version.
+- **MariaDB is TWO containers (2026-10-02)**: the knowledge base and the business
+  data no longer share an instance. `kb` runs `doctor-agent-kb` (MariaDB + the
+  `doctor_knowledge` dump at `/docker-entrypoint-initdb.d/`) with **no persistent
+  volume** — every container re-create re-imports from the image, so 镜像是什么线上
+  就是什么 (measured on this machine: 1.1GB datadir, 1,385,585 rows, healthy at
+  **45–60 s** after `docker run`, and the app waits because `depends_on:
+  {kb: {condition: service_healthy}}`). `mariadb` runs plain `mariadb:11.4` with
+  the one named volume `mariadb_data` and holds only `doctor_agent`
+  (users/sessions/messages/feedback/family_members). The app reads the kb
+  container through `KNOWLEDGE_DB_DSN` (composed in compose from
+  `MARIA_DB_USER`/`MARIA_DB_ROOT_PASSWORD`, never hardcoded) and the business DB
+  through `MARIA_DB_*`. Because the image declares `VOLUME /var/lib/mysql`,
+  "no volume" still means one anonymous volume per container — and **compose
+  reuses it on recreate** (`up -d --force-recreate kb` was measured to hand the
+  new container the same volume id, so no re-import happened: 不挂卷本身不构成保证).
+  The guarantee therefore lives in the image: `docker/kb/kb-entrypoint.sh` wipes a
+  datadir carrying its own `.doctor-agent-kb-imported` marker before exec'ing the
+  stock entrypoint, and `/docker-entrypoint-initdb.d/99-kb-marker.sh` writes that
+  marker after the dump finishes. Measured with a locally built test image
+  (`docker build -f docker/Dockerfile.kb -t kb-split-test .`, no push): empty
+  datadir → healthy + 1,385,585 rows in **45 s**; same named volume reused by a
+  second container → **re-imported** (`清空上次导入` in the log, healthy 60 s);
+  a **foreign** datadir (plain `mariadb:11.4` had initialized it, table
+  `someone_elses.t` present) → warns and leaves it alone (the table survived —
+  the wipe only ever touches directories this image marked). `docker compose down`
+  removes the anonymous volume, `docker volume prune` after a manual `docker run`.
+  ⚠️ The entrypoint change is **not yet published** — it needs one more
+  `./build.sh kb` (same 630M dump, so `update-kb.sh`'s re-seed step is not
+  required; a bare `./build.sh kb` rebuilds from the existing
+  `docker/kb/init-doctor_knowledge.sql.gz`). `docker/Dockerfile.kb.dockerignore`
+  is a whitelist — new files under `docker/kb/` must be `!`-added there or the
+  build fails with "failed to compute cache key ... not found".
+  `config.EnsureKnowledgeDB()` is a **no-op when
+  `KNOWLEDGE_DB_DSN` is set** — otherwise it would `CREATE DATABASE
+  doctor_knowledge` on the business instance (regression:
+  `internal/config/config_test.go TestKnowledgeDSNSplit`). Consequence to state
+  plainly: **/admin knowledge uploads and `sync-knowledge` writes land in the
+  kb container's throwaway storage and disappear on re-create**; permanent
+  knowledge changes must go through `make_gz → cmd/kbseed → ./update-kb.sh`
+  (the image). `Dockerfile.kb`'s own header comments were corrected likewise.
 - **Qdrant = professional RAG**: the `doctor-agent-qdrant` image bakes the
   vector-eligible gz datasets into Qdrant storage **at build time** via
   `doctor-agent vector-bake`
@@ -177,17 +207,23 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
 - `vector-bake` does NOT need MariaDB. `VectorRetriever.Retrieve` prefers the
   self-contained payload `data` (JSON → entry) and only falls back to the
   in-memory MariaDB store for legacy runtime-synced indexes.
-- `docker-compose.yml` has **four services**: `mariadb` (image `KB_IMAGE`,
-  default `doctor-agent-kb:latest`), `qdrant` (`QDRANT_IMAGE`), `embed`
+- `docker-compose.yml` has **five services** (2026-10-02 split): `kb` (image
+  `KB_IMAGE`, default `doctor-agent-kb:latest`, **no volume**), `mariadb`
+  (`APP_DB_IMAGE`, default plain `mariadb:11.4`, the only named volume
+  `mariadb_data`), `qdrant` (`QDRANT_IMAGE`), `embed`
   (`EMBED_IMAGE` — bge-m3 INT8, OpenAI-compatible `/v1/embeddings` on :18080,
-  `external/embed_server.py`), `app`. app `depends_on` mariadb (healthy) +
-  qdrant + embed, and sets `EMBEDDING_BASE_URL=http://embed:18080/v1` — i.e.
-  **the query-side embedding service is part of the default deploy**, not
-  optional. `MARIA_DB_KNOWLEDGE_DB=doctor_knowledge` + `MARIA_DB_APP_DB=doctor_agent`
-  point at the two DBs in that one instance. Fresh empty `mariadb_data` volume
-  triggers the one-time KB import; an existing volume is never overwritten.
-  Optional self-seed path stays available: `mariadb:11.4` + external gz volume +
-  `SEED_MARIADB_KB=true` (see `docker-entrypoint.sh`; the qdrant image ships no gz).
+  `external/embed_server.py`), `app`. app `depends_on` mariadb (healthy) + **kb
+  (healthy)** + qdrant + embed, and sets `EMBEDDING_BASE_URL=http://embed:18080/v1`
+  — i.e. **the query-side embedding service is part of the default deploy**, not
+  optional. `MARIA_DB_*` now addresses the **business instance only**; the
+  knowledge leg is addressed by `KNOWLEDGE_DB_DSN` (composed in the compose file
+  from `MARIA_DB_USER`/`MARIA_DB_ROOT_PASSWORD` → `tcp(kb:3306)/doctor_knowledge`).
+  `MARIA_DB_KNOWLEDGE_DB` survives as the database name inside that DSN. A
+  deployment that forgets `KNOWLEDGE_DB_DSN` gets an empty knowledge base on the
+  business instance — loud (`/health` degraded + the no-knowledge guidance), not
+  silently wrong. Optional self-seed path stays available: point `KNOWLEDGE_DB_DSN`
+  at a `mariadb:11.4` + external gz volume + `SEED_MARIADB_KB=true` on `app`
+  (see `docker-entrypoint.sh`; the qdrant image ships no gz).
   ⚠️ `Dockerfile.embed` COPYs `bge-m3-onnx/*` which is **gitignored** — the embed
   image can only be built on a machine that ran `external/export_onnx.py`.
 

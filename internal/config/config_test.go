@@ -179,3 +179,27 @@ func TestValidate(t *testing.T) {
 		t.Error("Validate should reject unknown provider")
 	}
 }
+
+// The knowledge store may live on its own server (docker-compose runs it as a
+// separate, volume-less container built from the pre-seeded kb image). In that
+// mode the app must read it through KNOWLEDGE_DB_DSN and must NOT create a
+// doctor_knowledge database on the business instance.
+func TestKnowledgeDSNSplit(t *testing.T) {
+	const override = "root:pw@tcp(kbhost:3306)/kb_db?parseTime=true"
+	t.Setenv("MARIA_DB_HOST", "127.0.0.1")
+	t.Setenv("MARIA_DB_PORT", "1") // nothing listens here — any dial means the test failed
+	t.Setenv("MARIA_DB_PASSWORD", "pw")
+	t.Setenv("MARIA_DB_KNOWLEDGE_DB", "doctor_knowledge")
+
+	cfg := Load()
+	if got := cfg.KnowledgeDBDSN(); got != "root:pw@tcp(127.0.0.1:1)/doctor_knowledge?parseTime=true&charset=utf8mb4&collation=utf8mb4_unicode_ci&interpolateParams=true" {
+		t.Errorf("composed DSN without override: %s", got)
+	}
+	t.Setenv("KNOWLEDGE_DB_DSN", override)
+	if got := Load().KnowledgeDBDSN(); got != override {
+		t.Errorf("KNOWLEDGE_DB_DSN ignored: %s", got)
+	}
+	if err := Load().EnsureKnowledgeDB(); err != nil {
+		t.Errorf("EnsureKnowledgeDB with explicit DSN must not touch the MariaDB host: %v", err)
+	}
+}

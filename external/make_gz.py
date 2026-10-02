@@ -9,19 +9,31 @@ Output extension is `.zst` (distinct from legacy `.gz`). The Go loaders
 gzip and new zstd files are readable.
 
 Usage:
-  python3 external/make_gz.py [--level 19]
+  python3 external/make_gz.py [--level 19] [--jobs N] [--force]
   python3 external/make_gz.py --check   # CI gate: gz/ in sync with data/? (read-only)
 
 Idempotent: regenerates every .json.zst from internal/knowledge/data/*.json.
+Incremental by default: a local state file (`.cache/make_gz_state.json`,
+gitignored) remembers (source sha256, artifact sha256) per dataset, so an
+unchanged source is never re-compressed at level 19 — the ~8 min cold run
+becomes seconds when only one data file changed. A checkout without the state
+file is still handled cheaply: an artifact that decompresses to its source is
+adopted into the state instead of being rebuilt. `--force` rebuilds everything;
+changing `--level` invalidates the state (that is the point of the flag).
+
 Sources that exceed git's 100 MiB per-file limit are committed as parts
 (X.json.partNNN + X.json.parts, see external/split_data.py); this script
 reassembles those in memory, so a checkout without the whole JSON still builds
 gz/. Run after editing any data JSON.
 """
 import argparse
+import hashlib
 import io
+import json
 import os
 import sys
+import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 try:
@@ -134,6 +146,74 @@ def decompress_artifact(path: Path) -> bytes:
     ).stdout
 
 
+# ---------------------------------------------------------------- incremental
+
+STATE_PATH = ROOT / ".cache" / "make_gz_state.json"
+
+
+def sha256(data: bytes) -> str:
+    return hashlib.sha256(data).hexdigest()
+
+
+def load_state() -> dict:
+    """The local (gitignored) skip-cache. Any problem reading it means 'rebuild
+    everything', never 'fail the build' — it is an accelerator, not state."""
+    try:
+        st = json.loads(STATE_PATH.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    return st if isinstance(st, dict) else {}
+
+
+def save_state(state: dict) -> None:
+    try:
+        STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
+        STATE_PATH.write_text(
+            json.dumps(state, indent=1, sort_keys=True), encoding="utf-8"
+        )
+    except OSError as exc:  # a missing cache only costs the next run some time
+        print(f"WARN state file not written: {exc}", file=sys.stderr)
+
+
+def classify(
+    name: str, data: bytes, level: int, force: bool, state: dict
+) -> tuple[str, str, str]:
+    """'cached' (identical to the last run), 'adopt' (the artifact on disk
+    already holds these bytes), or 'build' — plus the (source, artifact) hashes
+    so the caller can record what it just verified.
+
+    The adopt path is what keeps a fresh checkout cheap: `--check` proves the
+    same equivalence by decompressing, and decompression is ~2 orders of
+    magnitude faster than level-19 compression, so verifying beats rebuilding.
+    """
+    art = OUT_DIR / (name + ".zst")
+    if force or not art.is_file():
+        return "build", "", ""
+    src_fp, art_fp = sha256(data), sha256(art.read_bytes())
+    prev = (state.get("files") or {}).get(name)
+    if (
+        state.get("level") == level
+        and isinstance(prev, dict)
+        and prev.get("src") == src_fp
+        and prev.get("art") == art_fp
+    ):
+        return "cached", src_fp, art_fp
+    if decompress_artifact(art) == data:
+        return "adopt", src_fp, art_fp
+    return "build", src_fp, art_fp
+
+
+def build_one(name: str, level: int):
+    """Compress one dataset. None when the source is unusable, else
+    (name, source bytes, artifact bytes, source sha256, artifact sha256)."""
+    data = load_source(name)
+    if data is None:
+        return None
+    payload = compress_zstd(data, level)
+    (OUT_DIR / (name + ".zst")).write_bytes(payload)
+    return name, len(data), len(payload), sha256(data), sha256(payload)
+
+
 def check_all() -> int:
     """--check: does every gz/ artifact still hold its source bytes?
 
@@ -183,14 +263,29 @@ def main() -> int:
         action="store_true",
         help="verify gz/ mirrors data/ without writing anything (exit 1 on drift)",
     )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="ignore the skip-cache and rebuild every dataset",
+    )
+    parser.add_argument(
+        "--jobs",
+        type=int,
+        default=1,
+        help="parallel compressions among the datasets that really need rebuilding",
+    )
     args = parser.parse_args()
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     if args.check:
         return check_all()
+
+    started = time.monotonic()
+    state = load_state()
+    files: dict[str, dict] = {}
+    pending: list[str] = []
     src_bytes = out_bytes = 0
-    count = 0
-    skipped = 0
+    cached = adopted = no_source = 0
     for name in sorted(source_names()):
         try:
             data = load_source(name)
@@ -198,14 +293,37 @@ def main() -> int:
             print(f"ERROR: {exc}", file=sys.stderr)
             return 1
         if data is None:
-            skipped += 1
+            no_source += 1  # LFS pointer / out-of-git source: artifact stays as-is
             continue
-        dst = OUT_DIR / (name + ".zst")
-        dst.write_bytes(compress_zstd(data, args.level))
+        action, src_fp, art_fp = classify(name, data, args.level, args.force, state)
+        if action == "build":
+            pending.append(name)
+            continue
+        files[name] = {"src": src_fp, "art": art_fp}
         src_bytes += len(data)
-        out_bytes += dst.stat().st_size
-        count += 1
-        print(f"{name:35s} {len(data)/1e6:8.2f}MB -> {dst.stat().st_size/1e6:6.2f}MB")
+        out_bytes += (OUT_DIR / (name + ".zst")).stat().st_size
+        cached += action == "cached"
+        adopted += action == "adopt"
+        if action == "adopt":
+            print(f"{name:35s} {len(data)/1e6:8.2f}MB (gz already current)")
+
+    def record(res) -> None:
+        nonlocal src_bytes, out_bytes
+        if not res:
+            return
+        name, size, packed, src_fp, art_fp = res
+        files[name] = {"src": src_fp, "art": art_fp}
+        src_bytes += size
+        out_bytes += packed
+        print(f"{name:35s} {size/1e6:8.2f}MB -> {packed/1e6:6.2f}MB")
+
+    if args.jobs > 1 and len(pending) > 1:
+        with ThreadPoolExecutor(max_workers=args.jobs) as pool:
+            for res in pool.map(lambda n: build_one(n, args.level), pending):
+                record(res)
+    else:
+        for name in pending:
+            record(build_one(name, args.level))
 
     # Remove stale artifacts whose source no longer exists (both extensions).
     known = source_names()
@@ -214,11 +332,22 @@ def main() -> int:
             old.unlink()
             print(f"removed stale {old.name}")
 
-    summary = f"{count} files compressed"
-    if skipped:
-        summary += f", {skipped} skipped (no usable source)"
-    print(f"─── {summary}: {src_bytes/1e6:.1f}MB -> {out_bytes/1e6:.1f}MB "
-          f"(saved {(1 - out_bytes/src_bytes) * 100:.0f}%)")
+    save_state({"level": args.level, "files": files})
+    parts = []
+    if cached:
+        parts.append(f"{cached} unchanged")
+    if adopted:
+        parts.append(f"{adopted} verified against existing gz")
+    if len(files) - cached - adopted:
+        parts.append(f"{len(files) - cached - adopted} compressed")
+    if no_source:
+        parts.append(f"{no_source} skipped (no usable source)")
+    saved = (1 - out_bytes / src_bytes) * 100 if src_bytes else 0.0
+    print(
+        f"─── {len(files)} datasets: {src_bytes/1e6:.1f}MB -> {out_bytes/1e6:.1f}MB "
+        f"(saved {saved:.0f}%), " + ", ".join(parts)
+        + f" in {time.monotonic()-started:.0f}s"
+    )
     return 0
 
 

@@ -898,8 +898,9 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 
 	// Knowledge retrieval
 	var retrieved []knowledge.RetrievalResult
+	var retrievalQuery string
 	if a.cfg.KnowledgeEnabled {
-		retrievalQuery := a.buildContextualQuery(sess, userMessage)
+		retrievalQuery = a.buildContextualQuery(sess, userMessage)
 		retrieved = a.retrieveWithUnderstanding(ctx, retrievalQuery, step)
 		slog.Debug("Knowledge retrieved", "count", len(retrieved))
 		if len(retrieved) > 0 {
@@ -912,7 +913,7 @@ func (a *Agent) ProcessMessageStream(ctx context.Context, sess *session.Session,
 	// Build system prompt: static layer prefix (cacheable) + dynamic sections.
 	patientCtx := a.buildPatientContextString(sess)
 	staticPrompt := a.composer.ComposeStaticPrefix()
-	systemPrompt := staticPrompt + a.composer.ComposeDynamicSections(retrieved, patientCtx)
+	systemPrompt := staticPrompt + a.composer.ComposeDynamicSections(retrieved, patientCtx, retrievalQuery)
 
 	// When retrieval found nothing, constrain the model to steer instead of
 	// improvising medical content from its own memory (hallucination guard).
@@ -1241,8 +1242,9 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 
 	// Knowledge retrieval
 	var retrieved []knowledge.RetrievalResult
+	var retrievalQuery string
 	if a.cfg.KnowledgeEnabled {
-		retrievalQuery := a.buildContextualQuery(sess, userMessage)
+		retrievalQuery = a.buildContextualQuery(sess, userMessage)
 		retrieved = a.retrieveWithUnderstanding(ctx, retrievalQuery, step)
 		slog.Debug("Knowledge retrieved", "count", len(retrieved), "has_images", len(images) > 0)
 		if len(retrieved) > 0 {
@@ -1255,7 +1257,7 @@ func (a *Agent) ProcessMessageStreamWithImages(ctx context.Context, sess *sessio
 	// Build system prompt: static layer prefix (cacheable) + dynamic sections.
 	patientCtx := a.buildPatientContextString(sess)
 	staticPrompt := a.composer.ComposeStaticPrefix()
-	systemPrompt := staticPrompt + a.composer.ComposeDynamicSections(retrieved, patientCtx)
+	systemPrompt := staticPrompt + a.composer.ComposeDynamicSections(retrieved, patientCtx, retrievalQuery)
 
 	// When retrieval found nothing, constrain the model to steer instead of
 	// improvising medical content from its own memory (hallucination guard).
@@ -1657,7 +1659,7 @@ func pruneKnowledgeSearch(data map[string]any) (map[string]any, bool) {
 	for _, item := range results[:3] {
 		if m, ok := item.(map[string]any); ok {
 			thin := make(map[string]any)
-			for _, key := range []string{"condition_zh", "name_zh", "title", "treatment", "prevention", "risk_factors", "complications", "citations", "relevance"} {
+			for _, key := range []string{"condition_zh", "name_zh", "title", "content", "treatment", "prevention", "risk_factors", "complications", "citations", "relevance"} {
 				if v, ok := m[key]; ok {
 					thin[key] = v
 				}

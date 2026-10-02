@@ -525,6 +525,9 @@ func buildSearchText(raw []byte) string {
 		"part_key", "PartKey", "part_zh", "PartZH", "aliases", "Aliases",
 		"conditions", "Conditions", "red_flags", "RedFlags", "self_care", "SelfCare",
 		"departments", "Departments",
+		// 科普 batches hold their article prose in these keys (see KnowledgeEntry);
+		// without them the baked vectors for ~6000 medical rows are keywords-only.
+		"title_zh", "summary_zh", "details_zh", "body",
 	}
 	var b strings.Builder
 	for _, k := range keys {

@@ -58,10 +58,19 @@ type KnowledgeEntry struct {
 	ClinicalExamples       []ClinicalExample   `json:"clinical_examples,omitempty"`
 	Citations              []Citation          `json:"citations"`
 	Keywords               []string            `json:"keywords"`
+	// The three fields below carry the harvested article text of the 科普
+	// expansion batches (converters write 流言/真相 or guide prose here). They
+	// are folded into Body at load time — see the DSMedical branch in loader.go.
+	TitleZH   string `json:"title_zh,omitempty"`
+	SummaryZH string `json:"summary_zh,omitempty"`
+	DetailsZH string `json:"details_zh,omitempty"`
 	// Body carries full article text for prose corpora (FHS/MSD/MedlinePlus
-	// projections). It is matched by bigram overlap, not substring, and is
-	// NOT sent to the prompt as-is (the prompt builder uses structured fields
-	// plus a truncated excerpt — see buildKnowledgeBlock).
+	// projections) and for the 科普 batches folded in above. It is matched by
+	// bigram overlap (scoreEntry strategy 6, expanded-query pass only), never
+	// by substring, and reaches the model as a query-relevant excerpt:
+	// CitationFormatter.BuildKnowledgeExcerpts puts it in the dynamic system
+	// prompt, KnowledgeSearch.searchMedical puts a smaller slice in the tool
+	// result. Neither sends an untruncated body.
 	Body string `json:"body,omitempty"`
 }
 

@@ -37,7 +37,8 @@ func TestRetrieverBatch7DigestiveRecall(t *testing.T) {
 		"胸痛先查心脏还是胃":  "dg-gerd-chest-pain",
 		// 反流引起的慢性咳嗽
 		"慢性咳嗽是胃酸反流吗": "dg-gerd-cough",
-		"哮喘合并反流":     "dg-gerd-cough",
+		// 「哮喘合并反流」问的是合并症处理，归呼吸侧的哮喘合并症条目
+		"哮喘合并反流": "ra-asthma-comorbidities",
 		// 慢性便秘
 		"便秘怎么算严重": "dg-constipation-definition",
 		"老人便秘正常吗": "dg-constipation-definition",
@@ -64,7 +65,7 @@ func TestRetrieverBatch7DigestiveRecall(t *testing.T) {
 		"便血是肠易激吗":   "dg-ibs-alert",
 		// 肠易激综合征的患病与病因
 		"一紧张就拉肚子是不是肠易激": "dg-ibs-overview",
-		"IBS会癌变吗":          "dg-ibs-overview",
+		"IBS会癌变吗":       "dg-ibs-overview",
 		// 肠易激综合征分型
 		"IBS-D是什么意思": "dg-ibs-subtype",
 		"肠易激综合征腹泻型":  "dg-ibs-subtype",
@@ -113,8 +114,9 @@ func TestRetrieverBatch7DigestiveRecall(t *testing.T) {
 		// 脂肪肝随访与慎用药物
 		"脂肪肝会得肝癌吗":   "dg-fatty-followup",
 		"脂肪肝需要筛查肝癌吗": "dg-fatty-followup",
-		// 肝硬化肝癌监测
-		"肝硬化多久查一次肝癌": "dg-cirrhosis-hcc",
+		// 肝硬化肝癌监测（间隔问题的正解在按癌种给年龄与间隔的筛查层，
+		// 本条目覆盖「超声+AFP」这一组合，故分别断言）
+		"肝硬化多久查一次肝癌": "ces-liver-01",
 		"肝硬化B超AFP监测": "dg-cirrhosis-hcc",
 		// 肝硬化腹水限盐
 		"肝硬化腹水门诊还是住院": "dg-ascites-salt",

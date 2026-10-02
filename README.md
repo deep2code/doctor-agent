@@ -74,7 +74,7 @@ chmod +x doctor-agent          # macOS / Linux
 浏览器打开 `http://localhost:7071`（聊天界面在 `/app`），首次运行引导配置 API Key（推荐智谱 glm-4-flash 免费）。
 
 > 📁 MariaDB 业务库（`doctor_agent`：用户/会话/消息/反馈）在首次启动时自动创建，无需手动建库。连接参数通过 `MARIA_DB_*` 或 `APP_DB_DSN` 配置。
-> ⚠️ **知识库是独立的一个 MariaDB 库（`doctor_knowledge`）**，二进制内不含数据。裸机/开发环境部署后需执行一次 `./doctor-agent seed-knowledge` 从 `gz/*.zst` 灌入。**Docker 生产环境不需要这一步**：compose 的 `mariadb` 服务用的是预灌好知识的 `doctor-agent-kb` 镜像（首次挂空卷自动导入），向量检索读预烘焙的 `doctor-agent-qdrant` 镜像，查询端 embedding 由 `doctor-agent-embed` 提供。
+> ⚠️ **知识库是独立的 MariaDB 库（`doctor_knowledge`），且跑在独立容器里**，二进制内不含数据。裸机/开发环境部署后需执行一次 `./doctor-agent seed-knowledge` 从 `gz/*.zst` 灌入。**Docker 生产环境不需要这一步**：compose 的 `kb` 服务用的是预灌好知识的 `doctor-agent-kb` 镜像，**不挂持久卷**——镜像里的入口脚本每次启动都清掉上一次导入再重新解包（约 45-60 秒，健康检查在此之前一直不通过，所以应用不会读到半空的库），因此镜像是什么版本线上就是什么版本，知识更新只需 `docker compose pull kb && docker compose up -d kb`，业务库 `mariadb`（唯一的持久卷 `mariadb_data`，只有 `doctor_agent`）完全不受影响。向量检索读预烘焙的 `doctor-agent-qdrant` 镜像，查询端 embedding 由 `doctor-agent-embed` 提供。
 
 ---
 
@@ -282,8 +282,10 @@ BACKUP_DIR="/opt/doctor-agent/backups"
 DATE=$(date +%Y%m%d_%H%M%S)
 mkdir -p $BACKUP_DIR
 
-# 备份数据库
-cp /opt/doctor-agent/data/doctor-agent.db $BACKUP_DIR/db_$DATE.db
+# 备份业务库（唯一需要备份的数据库；知识库在镜像里，不用备份）
+set -a; . /opt/doctor-agent/.env; set +a
+docker exec doctor-agent-mariadb mariadb-dump -uroot -p"$MARIA_DB_ROOT_PASSWORD" \
+  --single-transaction doctor_agent | gzip > $BACKUP_DIR/db_$DATE.sql.gz
 
 # 备份配置
 cp /opt/doctor-agent/.env $BACKUP_DIR/env_$DATE
@@ -338,8 +340,10 @@ AUTH_SECRET=自定义一长串随机值   # /login 令牌的签名密钥；不�
 >   OpenAI 兼容 `/v1/embeddings` 监听 :18080，模型文件已打进镜像（运行机无需准备模型）。
 >   必须与烘焙向量**同模型**，否则语义召回静默失效。
 > - `doctor-agent-kb` —— 预灌全部医学知识的 MariaDB 11.4 数据镜像：`docker/Dockerfile.kb`
->   把 `doctor_knowledge` 全量 dump 放进 `/docker-entrypoint-initdb.d/`，**空卷首启自动导入、
->   运行时零 seed**；镜像只发 `:latest` 标签（`internal/knowledge/data/version.json`
+>   把 `doctor_knowledge` 全量 dump 放进 `/docker-entrypoint-initdb.d/`，**运行时零 seed**；
+>   官方入口只在数据目录为空时导入，而 compose 重建容器会复用上个容器的匿名卷，所以镜像里
+>   还带一个入口脚本 `docker/kb/kb-entrypoint.sh`：**每次启动**先清掉自己标记过的数据目录再
+>   交给官方入口重灌（外来目录只告警、绝不删）。镜像只发 `:latest` 标签（`internal/knowledge/data/version.json`
 >   只记录知识库内容版本，构建时打印出来做溯源，不再当镜像 tag 用）。
 >
 > **一次部署 = 4 个镜像都拉到**（`docker compose up -d`），app 依赖 mariadb + **kb** + qdrant + embed。

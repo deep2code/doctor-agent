@@ -5,15 +5,22 @@ bake_onnx.py - ONNX Runtime INT8 离线烘焙知识库向量
 复刻 Go 端 vector-bake (internal/knowledge/bake.go) 全部逻辑:
   - gz 解压 (zstd/gzip 自动检测, magic bytes)
   - archiveBaseName (.json.zst / .json.gz -> .json)
-  - seedFile 数据集分类 (~30 个 case, 与 Go seed.go seedFile() 完全一致)
-  - buildSearchText (56 个 key 提取, valueToString 拼接, toLowerCase)
-  - extractKey (14 字段优先级, fallback idx-N)
+  - seedFile 数据集分类 (与 Go seed.go seedFile() 一致)
+  - buildSearchText / extractKey 字段列表 (与 Go 逐项同序)
   - seedList / seedEntries / seedSingleton (dedupeKey 去重)
   - uuidFromSourceHash (sha256 -> UUIDv4, 版本/变体位)
   - bakePayload (source/type/entry_id/data)
   - 文本长度排序 (消除 ONNX padding 浪费, 3-5x 加速)
-  - vectorSkipDatasets (4 个跳过: medkg/nmpa/cpubmed/icd10)
+  - vectorSkipDatasets (与 Go bake.go 同为 10 项)
   - 文本截断 1024 字符 (rune-safe)
+
+⚠️ 上面这些"与 Go 一致"的清单是本文件手抄的副本, 抄者必漂移: 2026-10-03 检查时发现
+   它停在 1.39 期, 少 47 个科普文件 (6902 条) 和 4 个正文键, 于是 GPU 烘焙会静默跳过
+   批次 3~19 的全部内容, 一条向量都不生成。现在由
+   internal/knowledge/bake_mirror_sync_test.go 逐项比对 (文件名清单 / 数据集映射 /
+   字段列表 / 跳过名单)。新增科普批次或新字段时两边都要改, 忘了就有红门。
+   (icd11 / hpo / orphanet / icdo3 / corpus_* / public_resources 在本文件里根本不分类,
+    与 Go 的差别只是日志措辞: Go 报 "跳过名单命中", 这里报 "unsupported" —— 两边都不烘。)
 
 加速原理:
   1. ONNX Runtime INT8 量化 (2.27GB -> ~480MB, arm64 NEON SDOT 指令)
@@ -99,26 +106,47 @@ DS_GROWTH = "growth"
 DS_MILESTONES = "milestones"
 DS_NEWBORN = "newborn"
 DS_VERSION = "version"
+DS_ICD11 = "icd11"
+DS_HPO = "hpo"
+DS_ORPHANET = "orphanet"
+DS_ICDO3 = "icdo3"
+DS_CORPUS = "corpus"
+DS_PUBLIC_RESOURCES = "public_resources"
+DS_CHINA_STATS = "china_stats"
+DS_CHINA_CLINICAL_PATHWAYS = "china_clinical_pathways"
+DS_CHINA_CDC = "china_cdc"
+DS_CHINA_TCM = "china_tcm"
+DS_CHINA_CSO = "china_cso"
+DS_CHINA_DIETARY = "china_dietary"
 
-# vectorSkipDatasets: 有专用检索工具的结构化数据集, 不需要向量化
-# (与 Go bake.go vectorSkipDatasets 完全一致)
+# vectorSkipDatasets: 有专用检索工具或关键词全文层的数据集, 不向量化
+# (与 Go bake.go vectorSkipDatasets 完全一致; 名称一律写字面量, 这样
+#  TestBakeMirrorMatchesGoSeedLists 比对的是数据集名而不是常量名)
 VECTOR_SKIP_DATASETS = {
-    DS_MEDICAL_KG,   # 354,766 rows (medical_kg_triples.json)
-    DS_NMPA,         # 167,615 rows (nmpa_drugs.json)
-    DS_CPUBMED,      # 105,416 rows (cpubmed_kg.json)
-    DS_ICD10,        #  35,862 rows (icd10_diseases.json)
+    "medkg",              # 354,752 rows — medical_kg_lookup
+    "nmpa",               # 167,615 rows — nmpa_drug_lookup
+    "cpubmed",            # 105,328 rows — cpubmed_kg_lookup
+    "icd10",              #  35,862 rows — exact_lookup
+    "icd11",              #  35,339 rows — exact_lookup
+    "hpo",                #  19,836 rows — exact_lookup
+    "orphanet",           #  11,647 rows — exact_lookup
+    "icdo3",               #   1,077 rows — exact_lookup
+    "corpus",             # medkb 全文层: 关键词打分够用, 控住烘焙成本与镜像体积
+    "public_resources",   #     112 rows — 关键词检索够用
 }
 
-# extractKey 优先级字段列表 (与 Go seed.go extractKey() 完全一致)
+# extractKey 优先级字段列表 (与 Go seed.go extractKeyFields 逐字节一致)
 EXTRACT_KEY_PRIORITY = [
-    "id", "ID", "clinvar_id", "icd10_code", "code", "Code",
-    "name", "Name", "name_zh", "NameZH",
+    "id", "ID", "clinvar_id", "icd10_code", "hpo_id", "orpha_code",
+    "code", "Code", "name", "Name", "name_zh", "NameZH",
     "title", "Title", "variation", "Variation",
 ]
 
-# buildSearchText 提取字段列表 (与 Go seed.go buildSearchText() 完全一致)
+# buildSearchText 提取字段列表 (与 Go seed.go searchTextKeys 逐项同序;
+# 顺序决定 1024 字符截断窗口里谁留下、谁被切掉, 所以必须是同一份顺序)
 BUILD_SEARCH_KEYS = [
-    "id", "ID", "code", "Code", "title", "Title", "name", "Name", "name_zh", "NameZH",
+    "id", "ID", "code", "Code", "hpo_id", "orpha_code", "name_en", "icd10", "icd11", "behavior",
+    "title", "Title", "name", "Name", "name_zh", "NameZH",
     "question", "Question", "answer", "Answer", "keywords", "Keywords",
     "symptoms", "Symptoms", "content", "Content", "gene", "Gene",
     "disease", "Disease", "relation", "Relation", "category", "Category",
@@ -128,23 +156,52 @@ BUILD_SEARCH_KEYS = [
     "part_key", "PartKey", "part_zh", "PartZH", "aliases", "Aliases",
     "conditions", "Conditions", "red_flags", "RedFlags",
     "self_care", "SelfCare", "departments", "Departments",
+    # 科普批次把文章正文放在这几个键里 (见 KnowledgeEntry); 缺了它们,
+    # 6000 多条 medical 向量就只是关键词, 正文一个字都进不去。
+    "title_zh", "summary_zh", "details_zh", "body",
 ]
 
-# seedList -> DS_MEDICAL 的文件名列表 (与 Go seed.go seedFile() 完全一致)
+# seedList -> DS_MEDICAL 的文件名列表 (与 Go seed.go medicalSeedFiles 逐项一致,
+# 由 internal/knowledge/bake_mirror_sync_test.go 在 CI 里比对; 新增科普批次忘了改这里,
+# 那些条目会被 seed_file 当成"不认识的文件"静默跳过, 一条向量都不生成。)
 SEED_LIST_MEDICAL_FILES = [
-    "thalassemia.json", "g6pd_deficiency.json",
-    "nasopharyngeal_carcinoma.json", "hepatitis_b.json",
-    "lactose_intolerance.json", "aldh2_deficiency.json",
-    "dengue.json", "fungal_infections.json",
-    "who_factsheets.json", "who_vaccines.json",
-    "china_vaccines.json", "feeding_guidelines.json",
-    "cdc_entries.json", "diabetes.json", "hypertension.json",
-    "cardiovascular.json", "copd.json", "tuberculosis.json",
-    "hp_infection.json",
-    "common_diseases.json", "common_diseases_batch2.json",
-    "common_diseases_batch3.json", "common_diseases_batch4.json",
-    "elderly_care.json", "gyn_health.json", "ortho_child_health.json",
+    "thalassemia.json", "g6pd_deficiency.json", "nasopharyngeal_carcinoma.json",
+    "hepatitis_b.json", "lactose_intolerance.json", "aldh2_deficiency.json", "dengue.json",
+    "fungal_infections.json", "who_factsheets.json", "who_vaccines.json", "who_zh_health.json",
+    "china_vaccines.json", "feeding_guidelines.json", "cdc_entries.json", "diabetes.json",
+    "hypertension.json", "cardiovascular.json", "copd.json", "tuberculosis.json",
+    "hp_infection.json", "common_diseases.json", "common_diseases_batch2.json",
+    "common_diseases_batch3.json", "common_diseases_batch4.json", "sleep_mental_health.json",
+    "maternal_diet.json", "exercise_weight.json", "adult_vaccines.json", "adult_diet.json",
+    "myopia_prevention.json", "oral_health.json", "cancer_prevention.json", "chronic_diet.json",
+    "chronic_diet_obesity.json", "safe_medication.json", "infection_food_safety.json",
+    "checkup_labs.json", "elderly_meds_falls.json", "symptom_triage.json", "womens_health.json",
+    "home_monitoring.json", "skin_health.json", "eye_ent_health.json",
+    "cancer_early_screening.json", "heat_injury.json", "tobacco_alcohol_caffeine.json",
+    "home_environment.json", "exam_safety.json", "child_symptoms_injury.json",
+    "geriatric_brain_nutrition.json", "digestive_gut.json", "respiratory_asm_copd.json",
+    "sport_injury_rehab.json", "elderly_care.json", "gyn_health.json", "ortho_child_health.json",
+    "piyao_selected.json", "heart_nutrition_orgs.json", "jkb_health.json",
+    "yiigle_clinical_guides.json", "sleep_child_redcross.json", "chinacdc_science.json",
+    "jkb_more_popular.json", "provincial_cdc_health.json", "piyao_more.json",
+    "cma_society_popular.json", "rehab_society.json", "cdstm_rumor_board.json",
+    "yiigle_guides_more.json", "mdweekly_popular.json", "nhc_rumor_debunk.json",
+    "redcross_first_aid.json", "yiigle_guides_wave4.json",
 ]
+
+# 其余走 seedList 的源文件 -> 数据集 (与 Go seed.go seedListDatasets 逐项一致)
+SEED_LIST_OTHER_FILES = {
+    "drug_contraindications.json":  DS_DRUG,
+    "food_risk.json":               DS_FOOD_RISK,
+    "lab_tests.json":               DS_LAB_TEST,
+    "china_stats.json":             DS_CHINA_STATS,
+    "china_clinical_pathways.json": DS_CHINA_CLINICAL_PATHWAYS,
+    "china_cdc.json":               DS_CHINA_CDC,
+    "china_tcm.json":               DS_CHINA_TCM,
+    "china_cso.json":               DS_CHINA_CSO,
+    "china_dietary.json":           DS_CHINA_DIETARY,
+}
+
 
 # seedEntries: 文件名 -> (dataset, JSON field name) 映射
 # (与 Go seed.go seedFile() 中各 case 的 struct JSON tag 完全一致)
@@ -351,21 +408,13 @@ def seed_file(base: str, raw: bytes) -> tuple:
     seedFile: 数据集分类 (与 Go seed.go seedFile() 完全一致)
     返回 (dataset_name, rows) 或 ("", []) 如果文件名不匹配
     """
-    # ── seedList -> DSMedical ──
+    # ── seedList -> DS_MEDICAL ──
     if base in SEED_LIST_MEDICAL_FILES:
         return DS_MEDICAL, seed_list(raw)
 
-    # ── seedList -> DSDrug ──
-    if base == "drug_contraindications.json":
-        return DS_DRUG, seed_list(raw)
-
-    # ── seedList -> DSFoodRisk ──
-    if base == "food_risk.json":
-        return DS_FOOD_RISK, seed_list(raw)
-
-    # ── seedList -> DSLabTest ──
-    if base == "lab_tests.json":
-        return DS_LAB_TEST, seed_list(raw)
+    # ── seedList -> 其它数据集 (drug / foodrisk / labtest / china_*) ──
+    if base in SEED_LIST_OTHER_FILES:
+        return SEED_LIST_OTHER_FILES[base], seed_list(raw)
 
     # ── seedSingleton ──
     if base in SEED_SINGLETON_MAP:

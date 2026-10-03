@@ -111,6 +111,62 @@ func Seed(dbPath, gzDir string) error {
 	return werr
 }
 
+// medicalSeedFiles are the 科普/指南 sources that seed as a plain KnowledgeEntry
+// list into DSMedical. It is a package-level var rather than switch cases so the
+// Python bake mirror (external/bake_onnx.py), which must copy this list, can be
+// checked against it — see TestBakeMirrorMatchesGoSeedLists.
+var medicalSeedFiles = map[string]bool{
+	"thalassemia.json": true, "g6pd_deficiency.json": true,
+	"nasopharyngeal_carcinoma.json": true, "hepatitis_b.json": true,
+	"lactose_intolerance.json": true, "aldh2_deficiency.json": true,
+	"dengue.json": true, "fungal_infections.json": true,
+	"who_factsheets.json": true, "who_vaccines.json": true, "who_zh_health.json": true,
+	"china_vaccines.json": true, "feeding_guidelines.json": true,
+	"cdc_entries.json": true, "diabetes.json": true, "hypertension.json": true,
+	"cardiovascular.json": true, "copd.json": true, "tuberculosis.json": true,
+	"hp_infection.json":    true,
+	"common_diseases.json": true, "common_diseases_batch2.json": true,
+	"common_diseases_batch3.json": true, "common_diseases_batch4.json": true,
+	"sleep_mental_health.json": true, "maternal_diet.json": true,
+	"exercise_weight.json": true, "adult_vaccines.json": true,
+	"adult_diet.json": true, "myopia_prevention.json": true, "oral_health.json": true,
+	"cancer_prevention.json": true,
+	"chronic_diet.json":      true, "chronic_diet_obesity.json": true,
+	"safe_medication.json": true, "infection_food_safety.json": true,
+	"checkup_labs.json":       true,
+	"elderly_meds_falls.json": true, "symptom_triage.json": true,
+	"womens_health.json": true, "home_monitoring.json": true,
+	"skin_health.json": true, "eye_ent_health.json": true,
+	"cancer_early_screening.json": true, "heat_injury.json": true,
+	"tobacco_alcohol_caffeine.json": true, "home_environment.json": true,
+	"exam_safety.json": true, "child_symptoms_injury.json": true,
+	"geriatric_brain_nutrition.json": true, "digestive_gut.json": true,
+	"respiratory_asm_copd.json": true, "sport_injury_rehab.json": true,
+	"elderly_care.json": true, "gyn_health.json": true, "ortho_child_health.json": true,
+	"piyao_selected.json": true, "heart_nutrition_orgs.json": true, "jkb_health.json": true,
+	"yiigle_clinical_guides.json": true, "sleep_child_redcross.json": true,
+	"chinacdc_science.json": true, "jkb_more_popular.json": true,
+	"provincial_cdc_health.json": true, "piyao_more.json": true,
+	"cma_society_popular.json": true, "rehab_society.json": true,
+	"cdstm_rumor_board.json": true, "yiigle_guides_more.json": true,
+	"mdweekly_popular.json": true, "nhc_rumor_debunk.json": true,
+	"redcross_first_aid.json": true, "yiigle_guides_wave4.json": true,
+}
+
+// seedListDatasets maps the remaining seedList-classified sources to their
+// dataset, again as a var so the bake mirror can be checked against it.
+var seedListDatasets = map[string]string{
+	"drug_contraindications.json":  DSDrug,
+	"food_risk.json":               DSFoodRisk,
+	"lab_tests.json":               DSLabTest,
+	"china_stats.json":             DSChinaStats,
+	"china_clinical_pathways.json": DSChinaClinicalPathways,
+	"china_cdc.json":               DSChinaCDC,
+	"china_tcm.json":               DSChinaTCM,
+	"china_cso.json":               DSChinaCSO,
+	"china_dietary.json":           DSChinaDietary,
+}
+
 // seedFile classifies one source file by its (gz-stripped) name and returns the
 // target dataset plus its rows. The classification mirrors the previous embedded
 // loader so dataset boundaries stay identical.
@@ -124,54 +180,17 @@ func seedFile(base string, raw []byte) (string, []KBRow, error) {
 		rows, err := seedEntries(set.Entries)
 		return DSCorpus, rows, err
 	}
-	switch base {
-	case "thalassemia.json", "g6pd_deficiency.json",
-		"nasopharyngeal_carcinoma.json", "hepatitis_b.json",
-		"lactose_intolerance.json", "aldh2_deficiency.json",
-		"dengue.json", "fungal_infections.json",
-		"who_factsheets.json", "who_vaccines.json", "who_zh_health.json",
-		"china_vaccines.json", "feeding_guidelines.json",
-		"cdc_entries.json", "diabetes.json", "hypertension.json", "cardiovascular.json",
-		"copd.json", "tuberculosis.json", "hp_infection.json",
-		"common_diseases.json", "common_diseases_batch2.json",
-		"common_diseases_batch3.json", "common_diseases_batch4.json",
-		"sleep_mental_health.json", "maternal_diet.json", "exercise_weight.json",
-		"adult_vaccines.json",
-		"adult_diet.json", "myopia_prevention.json", "oral_health.json",
-		"cancer_prevention.json",
-		"chronic_diet.json", "chronic_diet_obesity.json", "safe_medication.json", "infection_food_safety.json",
-		"checkup_labs.json",
-		"elderly_meds_falls.json", "symptom_triage.json",
-		"womens_health.json", "home_monitoring.json",
-		"skin_health.json", "eye_ent_health.json",
-		"cancer_early_screening.json", "heat_injury.json",
-		"tobacco_alcohol_caffeine.json", "home_environment.json",
-		"exam_safety.json", "child_symptoms_injury.json",
-		"geriatric_brain_nutrition.json", "digestive_gut.json",
-		"respiratory_asm_copd.json", "sport_injury_rehab.json",
-		"elderly_care.json", "gyn_health.json", "ortho_child_health.json",
-		"piyao_selected.json", "heart_nutrition_orgs.json", "jkb_health.json",
-		"yiigle_clinical_guides.json", "sleep_child_redcross.json",
-		"chinacdc_science.json", "jkb_more_popular.json",
-		"provincial_cdc_health.json", "piyao_more.json",
-		"cma_society_popular.json", "rehab_society.json",
-		"cdstm_rumor_board.json", "yiigle_guides_more.json",
-		"mdweekly_popular.json", "nhc_rumor_debunk.json", "redcross_first_aid.json",
-		"yiigle_guides_wave4.json":
+	if medicalSeedFiles[base] {
 		rows, err := seedList(raw)
 		return DSMedical, rows, err
-
-	case "drug_contraindications.json":
+	}
+	if ds, ok := seedListDatasets[base]; ok {
 		rows, err := seedList(raw)
-		return DSDrug, rows, err
+		return ds, rows, err
+	}
+	switch base {
 	case "emergency_triage.json":
 		return DSEmergency, []KBRow{seedSingleton("rules", raw)}, nil
-	case "food_risk.json":
-		rows, err := seedList(raw)
-		return DSFoodRisk, rows, err
-	case "lab_tests.json":
-		rows, err := seedList(raw)
-		return DSLabTest, rows, err
 	case "version.json":
 		return DSVersion, []KBRow{seedSingleton("data", raw)}, nil
 	case "literature.json":
@@ -390,25 +409,6 @@ func seedFile(base string, raw []byte) (string, []KBRow, error) {
 		return DSTTD, []KBRow{seedSingleton("data", raw)}, nil
 	case "sider_drugs.json":
 		return DSSIDER, []KBRow{seedSingleton("data", raw)}, nil
-	// 中国医学数据集
-	case "china_stats.json":
-		rows, err := seedList(raw)
-		return DSChinaStats, rows, err
-	case "china_clinical_pathways.json":
-		rows, err := seedList(raw)
-		return DSChinaClinicalPathways, rows, err
-	case "china_cdc.json":
-		rows, err := seedList(raw)
-		return DSChinaCDC, rows, err
-	case "china_tcm.json":
-		rows, err := seedList(raw)
-		return DSChinaTCM, rows, err
-	case "china_cso.json":
-		rows, err := seedList(raw)
-		return DSChinaCSO, rows, err
-	case "china_dietary.json":
-		rows, err := seedList(raw)
-		return DSChinaDietary, rows, err
 	default:
 		// Unknown file — skip silently (mirrors the embedded loader).
 		return "", nil, nil
@@ -488,6 +488,33 @@ func seedSingleton(key string, raw []byte) KBRow {
 	return KBRow{Key: key, SearchText: buildSearchText(raw), Data: raw}
 }
 
+// extractKeyFields and searchTextKeys are the field priority lists used to turn
+// a document into a row key and into the text that gets vectorised. They are
+// package-level because the Python bake mirror (external/bake_onnx.py) keeps a
+// copy of both, and TestBakeMirrorMatchesGoSeedLists compares them.
+var extractKeyFields = []string{
+	"id", "ID", "clinvar_id", "icd10_code", "hpo_id", "orpha_code",
+	"code", "Code", "name", "Name", "name_zh", "NameZH",
+	"title", "Title", "variation", "Variation",
+}
+
+var searchTextKeys = []string{
+	"id", "ID", "code", "Code", "hpo_id", "orpha_code", "name_en", "icd10", "icd11", "behavior",
+	"title", "Title", "name", "Name", "name_zh", "NameZH",
+	"question", "Question", "answer", "Answer", "keywords", "Keywords",
+	"symptoms", "Symptoms", "content", "Content", "gene", "Gene",
+	"disease", "Disease", "relation", "Relation", "category", "Category",
+	"department", "Department", "description", "Description",
+	"definition", "Definition", "head", "Head", "entity1", "Entity1",
+	"entity2", "Entity2", "variation", "Variation", "synonyms", "Synonyms",
+	"part_key", "PartKey", "part_zh", "PartZH", "aliases", "Aliases",
+	"conditions", "Conditions", "red_flags", "RedFlags", "self_care", "SelfCare",
+	"departments", "Departments",
+	// 科普 batches hold their article prose in these keys (see KnowledgeEntry);
+	// without them the baked vectors for ~6000 medical rows are keywords-only.
+	"title_zh", "summary_zh", "details_zh", "body",
+}
+
 // extractKey derives a stable row key from a JSON document, preferring common
 // id/code/name fields, falling back to the element index.
 func extractKey(raw json.RawMessage, idx int) string {
@@ -495,7 +522,7 @@ func extractKey(raw json.RawMessage, idx int) string {
 	if err := json.Unmarshal(raw, &m); err != nil {
 		return fmt.Sprintf("idx-%d", idx)
 	}
-	for _, k := range []string{"id", "ID", "clinvar_id", "icd10_code", "hpo_id", "orpha_code", "code", "Code", "name", "Name", "name_zh", "NameZH", "title", "Title", "variation", "Variation"} {
+	for _, k := range extractKeyFields {
 		if v, ok := m[k]; ok {
 			if s, ok := v.(string); ok && s != "" {
 				return s
@@ -513,24 +540,8 @@ func buildSearchText(raw []byte) string {
 	if err := json.Unmarshal(raw, &m); err != nil {
 		return strings.ToLower(string(raw))
 	}
-	keys := []string{
-		"id", "ID", "code", "Code", "hpo_id", "orpha_code", "name_en", "icd10", "icd11", "behavior",
-		"title", "Title", "name", "Name", "name_zh", "NameZH",
-		"question", "Question", "answer", "Answer", "keywords", "Keywords",
-		"symptoms", "Symptoms", "content", "Content", "gene", "Gene",
-		"disease", "Disease", "relation", "Relation", "category", "Category",
-		"department", "Department", "description", "Description",
-		"definition", "Definition", "head", "Head", "entity1", "Entity1",
-		"entity2", "Entity2", "variation", "Variation", "synonyms", "Synonyms",
-		"part_key", "PartKey", "part_zh", "PartZH", "aliases", "Aliases",
-		"conditions", "Conditions", "red_flags", "RedFlags", "self_care", "SelfCare",
-		"departments", "Departments",
-		// 科普 batches hold their article prose in these keys (see KnowledgeEntry);
-		// without them the baked vectors for ~6000 medical rows are keywords-only.
-		"title_zh", "summary_zh", "details_zh", "body",
-	}
 	var b strings.Builder
-	for _, k := range keys {
+	for _, k := range searchTextKeys {
 		if v, ok := m[k]; ok {
 			b.WriteString(valueToString(v))
 			b.WriteString(" ")

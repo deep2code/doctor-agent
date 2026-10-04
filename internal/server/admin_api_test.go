@@ -83,13 +83,16 @@ func TestAdminKnowledgeAPI(t *testing.T) {
 		t.Fatalf("stats with auth = %d body=%s", w.Code, w.Body.String())
 	}
 
-	// 3. Upload a small medical dataset
+	// 3. Upload a small medical dataset. An upload is named after the DATASET it
+	// replaces (`medical.json`, exactly what /admin/knowledge/export downloads),
+	// never after some source file inside it — there is no filename→dataset
+	// registry left to consult.
 	medicalJSON := `[{"id":"test-hp","condition_zh":"幽门螺杆菌感染测试条目","category":"消化内科",
 	  "summary":"测试用医学条目，验证管理后台上传。",
 	  "keywords":["幽门螺杆菌","测试"],"citations":[]}]`
 	var buf bytes.Buffer
 	mw := multipart.NewWriter(&buf)
-	fw, _ := mw.CreateFormFile("file", "hp_infection.json")
+	fw, _ := mw.CreateFormFile("file", "medical.json")
 	fw.Write([]byte(medicalJSON))
 	mw.Close()
 
@@ -110,6 +113,22 @@ func TestAdminKnowledgeAPI(t *testing.T) {
 	}
 	if up.Dataset != "medical" || up.Rows != 1 {
 		t.Fatalf("upload result = %+v, want medical/1", up)
+	}
+
+	// 3b. A file named after a source *inside* a dataset is refused, not guessed
+	// at: it would otherwise silently replace whatever the old registry mapped it to.
+	var stray bytes.Buffer
+	sm := multipart.NewWriter(&stray)
+	sf, _ := sm.CreateFormFile("file", "hp_infection.json")
+	sf.Write([]byte(medicalJSON))
+	sm.Close()
+	req = httptest.NewRequest(http.MethodPost, "/admin/knowledge", &stray)
+	req.Header.Set("Content-Type", sm.FormDataContentType())
+	req.Header.Set("Authorization", basic)
+	w = httptest.NewRecorder()
+	s.handleAdminKnowledge(w, req)
+	if w.Code == http.StatusOK {
+		t.Fatalf("upload of hp_infection.json succeeded; want refusal (only dataset names are valid)")
 	}
 
 	// 4. Stats now show the medical dataset

@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Compress the embedded knowledge JSON files into internal/knowledge/gz/.
+"""Compress the knowledge seed JSON files into internal/knowledge/gz/.
+
+Layout — one directory per dataset, mirrored exactly in both trees, which is
+the only thing that decides what a file seeds into (the Go reader takes the
+dataset from the directory it sits in; there is no filename registry to update):
+    internal/knowledge/data/<dataset>/<name>.json   ->  gz/<dataset>/<name>.json.zst
 
 Uses Zstandard (zstd) level 19 — measured ~38% smaller than gzip-9 on the
 medical QA corpora (46MB -> 28.6MB) at equal decompression speed.
@@ -12,7 +17,8 @@ Usage:
   python3 external/make_gz.py [--level 19] [--jobs N] [--force]
   python3 external/make_gz.py --check   # CI gate: gz/ in sync with data/? (read-only)
 
-Idempotent: regenerates every .json.zst from internal/knowledge/data/*.json.
+Idempotent: regenerates every .json.zst from the data/ tree, and removes any
+artifact whose source directory or file is gone.
 Incremental by default: a local state file (`.cache/make_gz_state.json`,
 gitignored) remembers (source sha256, artifact sha256) per dataset, so an
 unchanged source is never re-compressed at level 19 — the ~7 min cold run
@@ -22,9 +28,9 @@ adopted into the state instead of being rebuilt. `--force` rebuilds everything;
 changing `--level` invalidates the state (that is the point of the flag).
 
 Sources that exceed git's 100 MiB per-file limit are committed as parts
-(X.json.partNNN + X.json.parts, see external/split_data.py); this script
-reassembles those in memory, so a checkout without the whole JSON still builds
-gz/. Run after editing any data JSON.
+(<name>.json.partNNN + <name>.json.parts next to them, see external/split_data.py);
+this script reassembles those in memory, so a checkout without the whole JSON
+still builds gz/. Run after editing any data JSON.
 """
 import argparse
 import hashlib
@@ -51,8 +57,9 @@ OUT_DIR = ROOT / "internal" / "knowledge" / "gz"
 # Datasets whose source JSON deliberately lives outside git (each is far over
 # the 100 MiB per-file limit and its upstream is re-downloadable). The
 # committed gz/ artifact is then the ONLY repository copy, so the stale-source
-# sweep below must never treat it as removable.
-NO_SOURCE_IN_GIT = {"corpus_statpearls.json"}
+# sweep below must never treat it as removable. Paths are relative to data/, so
+# these entries carry their dataset directory.
+NO_SOURCE_IN_GIT = {"corpus/corpus_statpearls.json"}
 
 
 def compress_zstd(data: bytes, level: int) -> bytes:
@@ -88,11 +95,43 @@ def is_lfs_pointer(data: bytes) -> bool:
 
 
 def source_names() -> set[str]:
-    """Every dataset name make_gz can see: whole sources, split sources, and
-    the out-of-git exceptions."""
-    names = {f.name for f in SRC_DIR.glob("*.json")}
-    names |= {f.name[: -len(".parts")] for f in SRC_DIR.glob("*.json.parts")}
+    """Every dataset name make_gz can see, as a `<dataset>/<name>.json` path:
+    whole sources, split sources, and the out-of-git exceptions."""
+    names = {rel(f) for f in SRC_DIR.glob("*/*.json")}
+    names |= {rel(f)[: -len(".parts")] for f in SRC_DIR.glob("*/*.json.parts")}
     return names | NO_SOURCE_IN_GIT
+
+
+def rel(path: Path) -> str:
+    """A source path relative to data/ — the dataset directory plus the file."""
+    return path.relative_to(SRC_DIR).as_posix()
+
+
+def flat_strays() -> list[str]:
+    """Sources sitting directly in data/ instead of data/<dataset>/.
+
+    The dataset is the directory name and nothing else, so a flat file has no
+    dataset at all: silently skipping it would mean a generator that still writes
+    the old path produces a gz/ that does not contain the edit. Failing the build
+    is the point (the same rule `go test ./internal/knowledge` enforces).
+    """
+    strays = [p.name for p in SRC_DIR.glob("*.json")]
+    strays += [rel(p) for p in SRC_DIR.glob("*.json.parts")]
+    return sorted(strays)
+
+
+def report_strays() -> int:
+    strays = flat_strays()
+    if not strays:
+        return 0
+    for name in strays:
+        print(f"  ❌ data/{name} is outside a <dataset>/ directory", file=sys.stderr)
+    print(
+        f"─── {len(strays)} source(s) sit directly in data/: move each one to "
+        "data/<dataset>/<name>.json (the directory name IS the dataset) and re-run",
+        file=sys.stderr,
+    )
+    return 1
 
 
 def load_source(name: str) -> bytes | None:
@@ -102,7 +141,7 @@ def load_source(name: str) -> bytes | None:
     if path.is_file():
         data = path.read_bytes()
         if is_lfs_pointer(data):
-            print(f"{name:35s} SKIP (Git-LFS pointer, run `git lfs pull`)")
+            print(f"{name:40s} SKIP (Git-LFS pointer, run `git lfs pull`)")
             return None
         if split_data.manifest_path(name).is_file():
             # A whole file and a manifest coexist: warn unless they agree, so a
@@ -113,19 +152,33 @@ def load_source(name: str) -> bytes | None:
             except ValueError:
                 agrees = False
             if not agrees:
-                print(f"{name:35s} WARN (parts disagree with {name}; re-run split_data.py split)")
+                print(f"{name:40s} WARN (parts disagree with {name}; re-run split_data.py split)")
         return data
     if split_data.manifest_path(name).is_file():
         data = split_data.read_merged(name)
-        print(f"{name:35s} {len(data)/1e6:8.2f}MB (reassembled from parts)")
+        print(f"{name:40s} {len(data)/1e6:8.2f}MB (reassembled from parts)")
         return data
-    print(f"{name:35s} SKIP (no source in repo; gz/ artifact is the only copy)")
+    print(f"{name:40s} SKIP (no source in repo; gz/ artifact is the only copy)")
     return None
 
 
+def artifact_path(name: str) -> Path:
+    """`<dataset>/<name>.json` -> `gz/<dataset>/<name>.json.zst`."""
+    return OUT_DIR / (name + ".zst")
+
+
+def artifact_source(path: Path) -> str:
+    """The source name an artifact was made from (`ds/x.json.zst` -> `ds/x.json`)."""
+    rel_path = path.relative_to(OUT_DIR).as_posix()
+    for ext in (".zst", ".gz"):  # ".gz" is the pre-zstd frame still readable by Go
+        if rel_path.endswith(ext):
+            return rel_path[: -len(ext)]
+    return rel_path
+
+
 def find_artifact(name: str) -> Path | None:
-    """The committed compressed copy of one dataset (`<name>.zst`), if any."""
-    p = OUT_DIR / (name + ".zst")
+    """The committed compressed copy of one dataset, if any."""
+    p = artifact_path(name)
     return p if p.is_file() else None
 
 
@@ -186,7 +239,7 @@ def classify(
     same equivalence by decompressing, and decompression is ~2 orders of
     magnitude faster than level-19 compression, so verifying beats rebuilding.
     """
-    art = OUT_DIR / (name + ".zst")
+    art = artifact_path(name)
     if force or not art.is_file():
         return "build", "", ""
     src_fp, art_fp = sha256(data), sha256(art.read_bytes())
@@ -210,12 +263,15 @@ def build_one(name: str, level: int):
     if data is None:
         return None
     payload = compress_zstd(data, level)
-    (OUT_DIR / (name + ".zst")).write_bytes(payload)
+    art = artifact_path(name)
+    art.parent.mkdir(parents=True, exist_ok=True)
+    art.write_bytes(payload)
     return name, len(data), len(payload), sha256(data), sha256(payload)
 
 
 def check_all() -> int:
-    """--check: does every gz/ artifact still hold its source bytes?
+    """--check: does every gz/ artifact still hold its source bytes, and does
+    the gz/ tree mirror the data/ tree's `<dataset>/<name>.json` layout?
 
     Compares decompressed payloads rather than the compressed bytes, because a
     zstd frame is only byte-stable for one library version — pinning the check
@@ -239,9 +295,9 @@ def check_all() -> int:
             continue
         if art is None or decompress_artifact(art) != data:
             drift.append(f"{name} ({'no artifact' if art is None else 'content differs'})")
-    for old in OUT_DIR.glob("*.zst"):
-        if old.stem not in known:
-            drift.append(f"{old.name} (orphan: no source)")
+    for old in OUT_DIR.rglob("*"):
+        if old.is_file() and old.suffix in (".zst", ".gz") and artifact_source(old) not in known:
+            drift.append(f"{old.relative_to(OUT_DIR).as_posix()} (orphan: no source)")
     if drift or missing:
         for d in drift + [f"{m} (never compressed)" for m in missing]:
             print(f"  ❌ {d}", file=sys.stderr)
@@ -251,7 +307,8 @@ def check_all() -> int:
             file=sys.stderr,
         )
         return 1
-    print(f"─── gz/ matches data/ ({len(known)} datasets)")
+    datasets = {name.split("/", 1)[0] for name in known}
+    print(f"─── gz/ matches data/ ({len(known)} sources across {len(datasets)} datasets)")
     return 0
 
 
@@ -277,6 +334,8 @@ def main() -> int:
     args = parser.parse_args()
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    if report_strays():
+        return 1
     if args.check:
         return check_all()
 
@@ -301,11 +360,11 @@ def main() -> int:
             continue
         files[name] = {"src": src_fp, "art": art_fp}
         src_bytes += len(data)
-        out_bytes += (OUT_DIR / (name + ".zst")).stat().st_size
+        out_bytes += artifact_path(name).stat().st_size
         cached += action == "cached"
         adopted += action == "adopt"
         if action == "adopt":
-            print(f"{name:35s} {len(data)/1e6:8.2f}MB (gz already current)")
+            print(f"{name:40s} {len(data)/1e6:8.2f}MB (gz already current)")
 
     def record(res) -> None:
         nonlocal src_bytes, out_bytes
@@ -315,7 +374,7 @@ def main() -> int:
         files[name] = {"src": src_fp, "art": art_fp}
         src_bytes += size
         out_bytes += packed
-        print(f"{name:35s} {size/1e6:8.2f}MB -> {packed/1e6:6.2f}MB")
+        print(f"{name:40s} {size/1e6:8.2f}MB -> {packed/1e6:6.2f}MB")
 
     if args.jobs > 1 and len(pending) > 1:
         with ThreadPoolExecutor(max_workers=args.jobs) as pool:
@@ -325,12 +384,18 @@ def main() -> int:
         for name in pending:
             record(build_one(name, args.level))
 
-    # Remove stale artifacts whose source no longer exists (both extensions).
+    # Remove stale artifacts whose source no longer exists (both extensions,
+    # at any depth), then the directories they leave behind.
     known = source_names()
-    for old in list(OUT_DIR.glob("*.zst")) + list(OUT_DIR.glob("*.gz")):
-        if old.stem not in known:
+    for old in sorted(OUT_DIR.rglob("*")):
+        if old.is_file() and old.suffix in (".zst", ".gz") and artifact_source(old) not in known:
             old.unlink()
-            print(f"removed stale {old.name}")
+            print(f"removed stale {old.relative_to(OUT_DIR).as_posix()}")
+    for d in sorted((p for p in OUT_DIR.rglob("*") if p.is_dir()), reverse=True):
+        try:
+            d.rmdir()  # only ever removes a directory we just emptied
+        except OSError:
+            pass
 
     save_state({"level": args.level, "files": files})
     parts = []

@@ -1,7 +1,7 @@
 """python3 -m medkb fetch|convert|validate|stats [source|all]
 
 source ∈ all_sources()（plugins/ 下模块名）。fetch 幂等；convert 产出
-internal/knowledge/data/corpus_<source>.json（icd11 → icd11_terms.json）。
+internal/knowledge/data/corpus/corpus_<source>.json（icd11 → data/icd11/icd11_terms.json）。
 """
 
 from __future__ import annotations
@@ -27,11 +27,11 @@ def do_convert(source: str, args):
 
 def do_validate(source: str, args) -> bool:
     if source == "icd11":
-        p = base.DATA_DIR / "icd11_terms.json"
+        p = base.icd11_terms_path()
         errs = schema.validate_icd11(p) if p.exists() else [f"{p}: 不存在"]
     else:
         p = base.out_path(source)
-        errs = schema.validate_docs(p) if p.exists() else [f"{p}: 不存在"]
+        errs = schema.validate_docs(p, source) if p.exists() else [f"{p}: 不存在"]
     status = "OK" if not errs else f"{len(errs)} ERRORS"
     print(f"[validate] {source}: {p.name} {status} ({p.stat().st_size >> 10}KiB)"
           if p.exists() else f"[validate] {source}: {p.name} 缺失")
@@ -41,18 +41,16 @@ def do_validate(source: str, args) -> bool:
 
 
 def do_stats(source: str, args):
-    p = base.DATA_DIR / "icd11_terms.json" if source == "icd11" else base.out_path(source)
+    p = base.icd11_terms_path() if source == "icd11" else base.out_path(source)
     if not p.exists():
         print(f"[stats] {source}: 无数据文件")
         return
     import json
-    data = json.loads(p.read_text())
+    entries = json.loads(p.read_text())
     if source == "icd11":
-        terms = data.get("terms", [])
-        zh = sum(1 for t in terms if t.get("title_zh"))
-        print(f"[stats] icd11: {len(terms)} 术语, {zh} 有中文")
+        zh = sum(1 for t in entries if t.get("title_zh"))
+        print(f"[stats] icd11: {len(entries)} 术语, {zh} 有中文")
         return
-    entries = data.get("entries", [])
     kinds: dict = {}
     zh = 0
     body_bytes = 0

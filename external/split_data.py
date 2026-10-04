@@ -3,23 +3,25 @@
 single file at 100 MiB) and reassemble them losslessly.
 
 Why this exists: a few datasets in internal/knowledge/data are far larger than
-the limit (medical_qa_pairs.json ~327 MiB, huatuo_qa.json ~141 MiB). Their
-gz/*.zst artifacts are ~30 MiB and commit fine, but the source JSONs cannot be
-committed whole — and some of them cannot be regenerated from anything else in
-the repo, so "just gitignore it" would silently make the seed unbuildable.
+the limit (medicalqa/medical_qa_pairs.json ~327 MiB, huatuo/huatuo_qa.json
+~141 MiB). Their gz/*.zst artifacts are ~30 MiB and commit fine, but the source
+JSONs cannot be committed whole — and some of them cannot be regenerated from
+anything else in the repo, so "just gitignore it" would silently make the seed
+unbuildable.
 
-Layout, for source "X.json":
-    X.json.part000 ... X.json.partNNN   byte slices, concat == original
-    X.json.parts                        manifest (per-part + whole-file sha256)
+Layout, for a source at "<dataset>/X.json" (the seed tree is one directory per
+dataset and the directory name IS the dataset — see internal/knowledge/seed.go):
+    <dataset>/X.json.part000 ... X.json.partNNN   byte slices, concat == original
+    <dataset>/X.json.parts                        manifest (per-part + whole-file sha256)
 
 Parts are split on raw byte offsets, so pretty-printed and single-line JSON
 both work. external/make_gz.py merges parts automatically when X.json itself is
 absent, so `python3 external/make_gz.py` needs no manual prep step.
 
 Usage:
-    python3 external/split_data.py split <name.json> [--max-mib 90] [--remove-source]
-    python3 external/split_data.py merge <name.json>
-    python3 external/split_data.py verify [<name.json>]
+    python3 external/split_data.py split <dataset/name.json> [--max-mib 90] [--remove-source]
+    python3 external/split_data.py merge <dataset/name.json>
+    python3 external/split_data.py verify [<dataset/name.json>]
     python3 external/split_data.py status
 """
 
@@ -44,6 +46,15 @@ def sha256_file(path: Path) -> str:
 
 def sha256_bytes(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
+
+
+def rel(p: Path) -> str:
+    """A dataset-relative source name ("<dataset>/X.json")."""
+    return p.relative_to(SRC_DIR).as_posix()
+
+
+def manifests() -> list[Path]:
+    return sorted(SRC_DIR.glob("**/*.parts"))
 
 
 def part_paths(name: str) -> list[Path]:
@@ -143,13 +154,13 @@ def merge(name: str) -> int:
 
 
 def verify(name: str | None) -> int:
-    manifests = [manifest_path(name)] if name else sorted(SRC_DIR.glob("*.parts"))
-    if not manifests:
+    found = manifests() if name is None else [manifest_path(name)]
+    if not found:
         print("no split datasets found")
         return 0
     bad = 0
-    for mf in manifests:
-        target = mf.name[: -len(".parts")]
+    for mf in found:
+        target = rel(mf)[: -len(".parts")]
         manifest = json.loads(mf.read_text(encoding="utf-8"))
         parts = part_paths(target)
         if len(parts) != len(manifest["parts"]):
@@ -180,12 +191,12 @@ def verify(name: str | None) -> int:
 
 
 def status() -> int:
-    manifests = sorted(SRC_DIR.glob("*.parts"))
-    if not manifests:
+    found = manifests()
+    if not found:
         print("no split datasets found")
         return 0
-    for mf in manifests:
-        target = mf.name[: -len(".parts")]
+    for mf in found:
+        target = rel(mf)[: -len(".parts")]
         manifest = json.loads(mf.read_text(encoding="utf-8"))
         have = len(part_paths(target))
         src = "source present" if (SRC_DIR / target).is_file() else "source absent (merge to materialise)"
@@ -196,10 +207,17 @@ def status() -> int:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("cmd", choices=["split", "merge", "verify", "status"])
-    ap.add_argument("name", nargs="?", help="file name inside internal/knowledge/data (e.g. huatuo_qa.json)")
+    ap.add_argument("name", nargs="?", help="source path under internal/knowledge/data (e.g. huatuo/huatuo_qa.json)")
     ap.add_argument("--max-mib", type=int, default=DEFAULT_MAX_MIB)
     ap.add_argument("--remove-source", action="store_true", help="delete the whole file after splitting")
     args = ap.parse_args()
+
+    if args.name is not None:
+        parts = Path(args.name).parts
+        if not parts or parts[0] in ("/", "\\") or ".." in parts or len(parts) < 2:
+            print(f"ERROR: {args.name!r} is not a <dataset>/<name>.json path inside {SRC_DIR}", file=sys.stderr)
+            return 1
+        args.name = "/".join(parts)
 
     if args.cmd == "status":
         return status()

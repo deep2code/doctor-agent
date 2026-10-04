@@ -346,11 +346,11 @@ func (s *Store) ingest(name string, raw []byte) error {
 		s.DrugByGenericName[e.GenericNameEN] = &s.DrugEntries[len(s.DrugEntries)-1]
 		s.DrugByGenericName[e.GenericNameZH] = &s.DrugEntries[len(s.DrugEntries)-1]
 	case DSEmergency:
-		var rules []EmergencyRule
-		if err := json.Unmarshal(raw, &rules); err != nil {
+		var rule EmergencyRule
+		if err := json.Unmarshal(raw, &rule); err != nil {
 			return err
 		}
-		s.EmergencyRules = rules
+		s.EmergencyRules = append(s.EmergencyRules, rule)
 	case DSFoodRisk:
 		var e FoodRiskEntry
 		if err := json.Unmarshal(raw, &e); err != nil {
@@ -366,19 +366,18 @@ func (s *Store) ingest(name string, raw []byte) error {
 		s.LabTestReferences = append(s.LabTestReferences, e)
 		s.LabTestByID[e.ID] = &s.LabTestReferences[len(s.LabTestReferences)-1]
 	case DSLiterature:
-		// Topics are stored as a single row keyed "topics"; articles as rows
-		// keyed by their ID.
-		var topics []LiteratureTopic
-		if err := json.Unmarshal(raw, &topics); err == nil && len(topics) > 0 {
-			s.LiteratureTopics = topics
-			return nil
-		}
 		var a LiteratureEntry
 		if err := json.Unmarshal(raw, &a); err != nil {
 			return err
 		}
 		s.LiteratureArticles = append(s.LiteratureArticles, a)
 		s.LiteratureByTopic[a.Topic] = append(s.LiteratureByTopic[a.Topic], &s.LiteratureArticles[len(s.LiteratureArticles)-1])
+	case DSLiteratureTopics:
+		var topic LiteratureTopic
+		if err := json.Unmarshal(raw, &topic); err != nil {
+			return err
+		}
+		s.LiteratureTopics = append(s.LiteratureTopics, topic)
 	case DSMSD:
 		var e MSDEntry
 		if err := json.Unmarshal(raw, &e); err != nil {
@@ -625,8 +624,16 @@ func (s *Store) ensureFoodRisk() error {
 func (s *Store) ensureLabTest() error {
 	return s.ensure(DSLabTest, func() error { return s.loadDataset(DSLabTest) })
 }
+
+// ensureLiterature loads the Europe PMC articles and their topic routing table,
+// which are two datasets because one source document held both.
 func (s *Store) ensureLiterature() error {
-	return s.ensure(DSLiterature, func() error { return s.loadDataset(DSLiterature) })
+	return s.ensure(DSLiterature, func() error {
+		if err := s.loadDataset(DSLiterature); err != nil {
+			return err
+		}
+		return s.loadDataset(DSLiteratureTopics)
+	})
 }
 func (s *Store) ensureMSD() error {
 	return s.ensure(DSMSD, func() error { return s.loadDataset(DSMSD) })

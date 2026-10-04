@@ -8,13 +8,6 @@ type MedlinePlusEntry struct {
 	Content string `json:"content"`
 }
 
-// MedlinePlusSet is the embedded MedlinePlus corpus.
-type MedlinePlusSet struct {
-	Source  string             `json:"source"`
-	Updated string             `json:"updated"`
-	Entries []MedlinePlusEntry `json:"entries"`
-}
-
 // MedlinePlusResult is a retrieved page with its relevance score.
 type MedlinePlusResult struct {
 	Entry MedlinePlusEntry `json:"entry"`

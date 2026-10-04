@@ -164,11 +164,11 @@ check_host() {
 
 # ── upload ──
 do_upload() {
-  echo "[upload] 代码 + gz 数据 (${GZ_DIR}, 87MB)..."
+  echo "[upload] 代码 + gz 数据 (${GZ_DIR}, $(/usr/bin/du -sh "$GZ_DIR" 2>/dev/null | cut -f1))..."
   rsh "mkdir -p $REMOTE_DIR/external $REMOTE_DIR/gz"
   tar cf - external/bake_onnx.py external/export_onnx.py | rsh_tar_in
   tar cf - -C "$GZ_DIR" . | ssh "${SSH_OPTS[@]}" "$GPU_HOST" "tar xf - -C $REMOTE_DIR/gz"
-  echo "  gz 完成: $(ls "$GZ_DIR"/*.json.*z* | wc -l | tr -d ' ') 个文件"
+  echo "  gz 完成: $(find "$GZ_DIR" -type f -name '*.json.*z*' | wc -l | tr -d ' ') 个文件"
 
   # 模型来源决策
   if [[ "$MODEL_SOURCE" == "auto" ]]; then

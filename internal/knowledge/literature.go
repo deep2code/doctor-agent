@@ -22,14 +22,6 @@ type LiteratureEntry struct {
 	PMID     string `json:"pmid,omitempty"`
 }
 
-// LiteratureSet is the embedded literature corpus: topic table + articles.
-type LiteratureSet struct {
-	Source   string            `json:"source"`
-	Updated  string            `json:"updated"`
-	Topics   []LiteratureTopic `json:"topics"`
-	Articles []LiteratureEntry `json:"articles"`
-}
-
 // LiteratureResult is a retrieved article with its relevance score.
 type LiteratureResult struct {
 	Entry LiteratureEntry `json:"entry"`

@@ -5,7 +5,6 @@ import (
 	"crypto/sha256"
 	"fmt"
 	"log/slog"
-	"path/filepath"
 	"runtime"
 	"sort"
 	"sync"
@@ -15,12 +14,16 @@ import (
 	"github.com/doctor-agent/internal/embedding"
 )
 
+// defaultMaxTextChars is the rune cap both the bake and runtime sync apply to
+// an embed text; see BakeConfig.MaxTextChars.
+const defaultMaxTextChars = 1024
+
 // BakeConfig controls the offline gz -> Qdrant bake (RAG data image build).
 // Unlike runtime sync (which reads MariaDB), Bake reads the gz source files
 // directly, so the Qdrant data image is self-contained and MariaDB is only
 // needed for business data (users/sessions/messages/feedback).
 type BakeConfig struct {
-	GzDir      string // source dir of *.json.gz (internal/knowledge/gz)
+	GzDir      string // seed archive tree (internal/knowledge/gz), one directory per dataset
 	Collection string // Qdrant collection (default medical_knowledge)
 	BatchSize  int    // embedding batch size (default 100)
 	Workers    int    // parallel embedding workers (default 4; 1 = sequential)
@@ -85,8 +88,8 @@ func bakePayload(dataset, key string, data []byte) map[string]string {
 	}
 }
 
-// Bake reads every gz knowledge file, classifies it via seedFile (the same
-// classification the MariaDB seeder uses, so dataset boundaries stay
+// Bake reads every gz knowledge file, taking the dataset from the directory it
+// lives in (the same rule the MariaDB seeder uses, so dataset boundaries stay
 // identical), embeds each row's search text with the injected provider
 // (must be the same model the query side uses, e.g. bge-m3) and upserts the
 // vector + full entry JSON into Qdrant. The Qdrant
@@ -106,81 +109,81 @@ func Bake(ctx context.Context, vecStore *VectorStore, embedder embedding.Provide
 		cfg.MaxTextChars = 1024
 	}
 
-	files, err := filepath.Glob(filepath.Join(cfg.GzDir, archiveGlob))
+	archives, err := listSeedArchives(cfg.GzDir)
 	if err != nil {
-		return nil, fmt.Errorf("globbing %s: %w", cfg.GzDir, err)
-	}
-	if len(files) == 0 {
-		return nil, fmt.Errorf("no knowledge archives found in %s", cfg.GzDir)
+		return nil, err
 	}
 
 	start := time.Now()
-	slog.Info("Starting gz -> Qdrant bake", "gz_dir", cfg.GzDir, "collection", cfg.Collection, "files", len(files), "batch_size", cfg.BatchSize, "workers", cfg.Workers)
+	slog.Info("Starting gz -> Qdrant bake",
+		"gz_dir", cfg.GzDir, "collection", cfg.Collection,
+		"files", len(archives), "batch_size", cfg.BatchSize, "workers", cfg.Workers)
 
 	if err := vecStore.EnsureCollection(ctx); err != nil {
 		return nil, fmt.Errorf("ensuring collection: %w", err)
 	}
 
-	// Sort files for deterministic processing order (point IDs are
-	// content-hashed UUIDs so upsert order does not affect the final
-	// storage, but a stable order makes build logs reproducible).
-	sort.Strings(files)
-
 	// Stream processing: handle one file at a time instead of loading all
 	// decompressed data into memory before processing. The previous
 	// "load-all-then-parallel" approach held ~743k entries (each with full
-	// JSON payload) in a single slice, which caused OOM kills (exit 137)
-	// on memory-constrained build hosts (~1.6 GB RAM). Streaming keeps
-	// only one dataset's data in memory at any time.
+	// JSON payload) in a single slice, which caused OOM kills (exit 137) on
+	// memory-constrained build hosts (~1.6 GB RAM). Streaming keeps only one
+	// dataset's data in memory at any time. listSeedArchives already returns a
+	// deterministic (dataset, file) order; point IDs are content-hashed UUIDs, so
+	// upsert order does not affect the stored vectors either.
 	var (
-		datasets int
+		counted  = map[string]bool{}
 		total    int
 		bakeErrs []string
-		skipped  []string
+		skipped  = map[string]bool{}
 	)
 
-	for _, f := range files {
-		base := archiveBaseName(f)
-		raw, err := decompressFile(f)
-		if err != nil {
-			return nil, fmt.Errorf("reading %s: %w", f, err)
-		}
-		ds, rows, err := seedFile(base, raw)
-		if err != nil {
-			return nil, fmt.Errorf("classifying %s: %w", base, err)
-		}
-		if ds == "" {
-			slog.Info("bake: skipping unsupported archive", "file", base)
-			continue
-		}
+	for _, a := range archives {
+		ds := a.Dataset
 		if !vectorBakeEligible(ds) {
-			slog.Info("bake: skipping lookup-tool-covered dataset", "dataset", ds)
-			skipped = append(skipped, ds)
+			// Checked before decompressing: a skipped dataset costs no I/O.
+			skipped[ds] = true
 			continue
+		}
+		rows, err := a.rows()
+		if err != nil {
+			return nil, fmt.Errorf("baking: %w", err)
 		}
 
-		slog.Info("bake: dataset start",
-			"dataset", ds, "rows", len(rows),
+		slog.Info("bake: file start",
+			"dataset", ds, "file", a.Base, "rows", len(rows),
 			"batches", (len(rows)+cfg.BatchSize-1)/cfg.BatchSize, "workers", cfg.Workers)
 		n, errs := bakeDataset(ctx, vecStore, embedder, ds, rows, cfg.BatchSize, cfg.Workers, cfg.MaxTextChars)
 		total += n
 		bakeErrs = append(bakeErrs, errs...)
-		datasets++
-		slog.Info("bake: dataset done", "dataset", ds, "points", n)
+		counted[ds] = true
+		slog.Info("bake: file done", "dataset", ds, "file", a.Base, "points", n)
 
 		// Promptly reclaim the decompressed data before the next file.
 		runtime.GC()
 	}
 
 	res := &BakeResult{
-		Datasets: datasets,
+		Datasets: len(counted),
 		Points:   total,
 		Duration: time.Since(start).Round(time.Millisecond).String(),
 		Errors:   bakeErrs,
-		Skipped:  skipped,
+		Skipped:  keysOfSet(skipped),
 	}
-	slog.Info("Bake finished", "datasets", res.Datasets, "points", res.Points, "duration", res.Duration, "errors", len(res.Errors), "skipped", len(res.Skipped))
+	slog.Info("bake: datasets not vectorized (keyword/exact-lookup layers)", "skipped", res.Skipped)
+	slog.Info("Bake finished", "datasets", res.Datasets, "points", res.Points, "duration", res.Duration, "errors", len(res.Errors))
 	return res, nil
+}
+
+// keysOfSet returns a sorted slice so build logs and the bake summary are
+// reproducible.
+func keysOfSet(m map[string]bool) []string {
+	out := make([]string, 0, len(m))
+	for k := range m {
+		out = append(out, k)
+	}
+	sort.Strings(out)
+	return out
 }
 
 // bakeDataset embeds and upserts one dataset's rows. When workers > 1,

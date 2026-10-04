@@ -7,8 +7,6 @@ import (
 	"fmt"
 	"log/slog"
 	"os"
-	"path/filepath"
-	"strings"
 	"sync"
 	"time"
 
@@ -54,10 +52,13 @@ func NewSyncer(store *Store, vecStore *VectorStore, embedder embedding.Provider)
 
 // SyncConfig holds sync configuration.
 type SyncConfig struct {
-	Full      bool   // Full sync (rebuild all vectors)
-	Source    string // Specific source to sync (empty = all)
-	FilePath  string // Path to JSON file to sync (for file upload)
-	BatchSize int    // Batch size for embedding (default: 100)
+	Full     bool   // Full sync (rebuild all vectors)
+	Source   string // Specific source to sync (empty = all)
+	FilePath string // Path to JSON file to sync (for file upload)
+	// Dataset names the dataset FilePath's rows belong to — the seed tree's
+	// directory name, which an upload carries in its file name.
+	Dataset   string
+	BatchSize int // Batch size for embedding (default: 100)
 }
 
 // FullSync performs a complete synchronization of all knowledge to vector database.
@@ -169,7 +170,7 @@ func (s *Syncer) FullSync(ctx context.Context, cfg SyncConfig) (*SyncStatus, err
 
 	// Sync file if provided
 	if cfg.FilePath != "" {
-		count, errs := s.syncFile(ctx, cfg.FilePath, cfg.BatchSize)
+		count, errs := s.syncFile(ctx, cfg.FilePath, cfg.Dataset, cfg.BatchSize)
 		totalPoints += count
 		totalAttempted += count + len(errs)*cfg.BatchSize
 		errors = append(errors, errs...)
@@ -235,7 +236,7 @@ func (s *Syncer) IncrementalSync(ctx context.Context, cfg SyncConfig) (*SyncStat
 
 	// Sync file if provided
 	if cfg.FilePath != "" {
-		count, errs := s.syncFile(ctx, cfg.FilePath, cfg.BatchSize)
+		count, errs := s.syncFile(ctx, cfg.FilePath, cfg.Dataset, cfg.BatchSize)
 		totalPoints += count
 		totalAttempted += count + len(errs)*cfg.BatchSize
 		errors = append(errors, errs...)
@@ -793,150 +794,45 @@ func (s *Syncer) syncMedicalQA(ctx context.Context, batchSize int) (int, []strin
 	return total, errors
 }
 
-// syncFile syncs a JSON file to vector database.
-func (s *Syncer) syncFile(ctx context.Context, filePath string, batchSize int) (int, []string) {
-	var errors []string
+// syncFile vectors one knowledge file with the same rules the offline gz bake
+// uses: the body is a top-level JSON array whose elements become rows
+// (seedList), the dataset is the name the caller gave it (the seed tree's
+// directory name / the uploaded file's name), and the points go through
+// bakeDataset. That leaves exactly one place that decides what a vector point
+// looks like, so a runtime sync can no longer produce points the bake would
+// not have produced — the former version sniffed for Go types here and stored
+// `entry_id` as the point UUID, which made the two paths diverge.
+func (s *Syncer) syncFile(ctx context.Context, filePath, dataset string, batchSize int) (int, []string) {
+	if !validDatasetName(dataset) {
+		return 0, []string{fmt.Sprintf("%s: no dataset named for this file (the CLI needs --source <dataset>; an upload must be named <dataset>.json)", filePath)}
+	}
+	if !vectorBakeEligible(dataset) {
+		return 0, []string{fmt.Sprintf("%s: dataset %q is a keyword/exact-lookup layer and is not vectorized by design", filePath, dataset)}
+	}
+	// The knowledge DB is the only authority on what a dataset is (no name list
+	// to keep in sync): vectors for a dataset nothing loads would be unreachable
+	// noise, and a mistyped name would otherwise create it silently.
+	known, err := s.store.kb.HasDataset(dataset)
+	if err != nil {
+		return 0, []string{fmt.Sprintf("checking dataset %q: %v", dataset, err)}
+	}
+	if !known {
+		return 0, []string{fmt.Sprintf("unknown dataset %q: it has no rows in the knowledge store", dataset)}
+	}
 
 	data, err := os.ReadFile(filePath)
 	if err != nil {
-		errors = append(errors, fmt.Sprintf("reading file %s: %v", filePath, err))
-		return 0, errors
+		return 0, []string{fmt.Sprintf("reading file %s: %v", filePath, err)}
 	}
-
-	// Determine source type from file name
-	source := strings.TrimSuffix(filepath.Base(filePath), ".json")
-	source = strings.TrimSuffix(source, ".json")
-
-	// Try to parse as different types
-	var count int
-	var parseErrors []string
-
-	// Try as medical entries
-	var medicalEntries []KnowledgeEntry
-	if err := json.Unmarshal(data, &medicalEntries); err == nil && len(medicalEntries) > 0 {
-		count, parseErrors = s.syncFileMedical(ctx, medicalEntries, source, batchSize)
-		errors = append(errors, parseErrors...)
-	} else {
-		// Try as drug entries
-		var drugEntries []DrugEntry
-		if err := json.Unmarshal(data, &drugEntries); err == nil && len(drugEntries) > 0 {
-			count, parseErrors = s.syncFileDrugs(ctx, drugEntries, source, batchSize)
-			errors = append(errors, parseErrors...)
-		} else {
-			// Try as literature
-			var literatureSet LiteratureSet
-			if err := json.Unmarshal(data, &literatureSet); err == nil && len(literatureSet.Articles) > 0 {
-				count, parseErrors = s.syncFileLiterature(ctx, literatureSet.Articles, source, batchSize)
-				errors = append(errors, parseErrors...)
-			} else {
-				errors = append(errors, fmt.Sprintf("unsupported file format: %s", filePath))
-			}
-		}
+	rows, err := seedList(data)
+	if err != nil {
+		return 0, []string{fmt.Sprintf("parsing %s: %v", dataset, err)}
 	}
-
-	return count, errors
-}
-
-// syncFileMedical syncs medical entries from file.
-func (s *Syncer) syncFileMedical(ctx context.Context, entries []KnowledgeEntry, source string, batchSize int) (int, []string) {
-	var errors []string
 	if batchSize <= 0 {
 		batchSize = 100
 	}
 
-	total := 0
-	for i := 0; i < len(entries); i += batchSize {
-		end := i + batchSize
-		if end > len(entries) {
-			end = len(entries)
-		}
-		batch := entries[i:end]
-
-		points, err := embedBatch(ctx, s.embedder, source, batch, func(e KnowledgeEntry) string {
-			return fmt.Sprintf("%s %s %s", e.ID, e.ConditionZH, e.ConditionEN)
-		})
-		if err != nil {
-			errors = append(errors, fmt.Sprintf("%s batch %d: %v", source, i/batchSize, err))
-			continue
-		}
-
-		if err := s.vecStore.Upsert(ctx, points); err != nil {
-			errors = append(errors, fmt.Sprintf("%s upsert batch %d: %v", source, i/batchSize, err))
-			continue
-		}
-
-		total += len(points)
-	}
-
-	return total, errors
-}
-
-// syncFileDrugs syncs drug entries from file.
-func (s *Syncer) syncFileDrugs(ctx context.Context, entries []DrugEntry, source string, batchSize int) (int, []string) {
-	var errors []string
-	if batchSize <= 0 {
-		batchSize = 100
-	}
-
-	total := 0
-	for i := 0; i < len(entries); i += batchSize {
-		end := i + batchSize
-		if end > len(entries) {
-			end = len(entries)
-		}
-		batch := entries[i:end]
-
-		points, err := embedBatch(ctx, s.embedder, source, batch, func(e DrugEntry) string {
-			return fmt.Sprintf("%s %s %s", e.ID, e.GenericNameZH, e.GenericNameEN)
-		})
-		if err != nil {
-			errors = append(errors, fmt.Sprintf("%s batch %d: %v", source, i/batchSize, err))
-			continue
-		}
-
-		if err := s.vecStore.Upsert(ctx, points); err != nil {
-			errors = append(errors, fmt.Sprintf("%s upsert batch %d: %v", source, i/batchSize, err))
-			continue
-		}
-
-		total += len(points)
-	}
-
-	return total, errors
-}
-
-// syncFileLiterature syncs literature entries from file.
-func (s *Syncer) syncFileLiterature(ctx context.Context, entries []LiteratureEntry, source string, batchSize int) (int, []string) {
-	var errors []string
-	if batchSize <= 0 {
-		batchSize = 100
-	}
-
-	total := 0
-	for i := 0; i < len(entries); i += batchSize {
-		end := i + batchSize
-		if end > len(entries) {
-			end = len(entries)
-		}
-		batch := entries[i:end]
-
-		points, err := embedBatch(ctx, s.embedder, source, batch, func(e LiteratureEntry) string {
-			return fmt.Sprintf("%s %s %s", e.ID, e.Title, e.Abstract)
-		})
-		if err != nil {
-			errors = append(errors, fmt.Sprintf("%s batch %d: %v", source, i/batchSize, err))
-			continue
-		}
-
-		if err := s.vecStore.Upsert(ctx, points); err != nil {
-			errors = append(errors, fmt.Sprintf("%s upsert batch %d: %v", source, i/batchSize, err))
-			continue
-		}
-
-		total += len(points)
-	}
-
-	return total, errors
+	return bakeDataset(ctx, s.vecStore, s.embedder, dataset, rows, batchSize, 1, defaultMaxTextChars)
 }
 
 // embedBatch embeds a batch of entries and creates vector points.

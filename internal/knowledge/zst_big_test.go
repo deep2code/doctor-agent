@@ -14,18 +14,22 @@ func TestBakeBigCorporaZST(t *testing.T) {
 	if testing.Short() {
 		t.Skip("-short: 跳过大语料解压与分类（数据批次的召回门不需要它）")
 	}
-	for _, name := range []string{"huatuo_qa.json", "medical_qa_pairs.json"} {
-		raw, err := decompressFile(filepath.Join("gz", name+".zst"))
+	for _, f := range []struct{ dataset, base string }{
+		{DSHuatuo, "huatuo_qa.json"},
+		{DSMedicalQA, "medical_qa_pairs.json"},
+	} {
+		path := filepath.Join("gz", f.dataset, f.base+".zst")
+		raw, err := decompressFile(path)
 		if err != nil {
-			t.Fatalf("%s 解压失败: %v", name, err)
+			t.Fatalf("%s 解压失败: %v", path, err)
 		}
 		if len(raw) < 100_000_000 {
-			t.Errorf("%s 解压后过小 (%d bytes)，可能仍是 LFS 指针", name, len(raw))
+			t.Errorf("%s 解压后过小 (%d bytes)，可能仍是 LFS 指针", path, len(raw))
 		}
-		ds, rows, err := seedFile(name, raw)
+		rows, err := seedList(raw)
 		if err != nil {
-			t.Fatalf("%s 分类失败: %v", name, err)
+			t.Fatalf("%s 解析失败: %v", path, err)
 		}
-		t.Logf("%s: dataset=%s rows=%d 解压后 %.1fMB", name, ds, len(rows), float64(len(raw))/1e6)
+		t.Logf("%s: dataset=%s rows=%d 解压后 %.1fMB", path, f.dataset, len(rows), float64(len(raw))/1e6)
 	}
 }

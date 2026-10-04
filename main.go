@@ -166,7 +166,7 @@ Rerank (post-retrieval cross-encoder, opt-in):
 Sync Command:
   --full, -f                       Full sync (rebuild all vectors)
   --source, -s <source>            Sync specific source (medical, drugs, literature, etc.)
-  --file <path>                    Sync specific JSON file
+  --file <path>                    Sync one JSON file (its dataset is the directory it sits in, or name it with --source)
   --batch-size, -b <size>          Batch size for embedding (default: 100)`)
 }
 
@@ -597,10 +597,16 @@ func runSyncKnowledge(cfg *config.Config) {
 	}
 
 	ctx := context.Background()
+	dataset := source
+	if dataset == "" {
+		// The seed tree's own rule: the directory holding a file is its dataset.
+		dataset = knowledge.DatasetForSeedPath(filePath)
+	}
 	cfgSync := knowledge.SyncConfig{
 		Full:      fullSync,
 		Source:    source,
 		FilePath:  filePath,
+		Dataset:   dataset,
 		BatchSize: batchSize,
 	}
 

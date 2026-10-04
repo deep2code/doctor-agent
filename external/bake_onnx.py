@@ -4,10 +4,11 @@ bake_onnx.py - ONNX Runtime INT8 离线烘焙知识库向量
 
 复刻 Go 端 vector-bake (internal/knowledge/bake.go) 全部逻辑:
   - gz 解压 (zstd/gzip 自动检测, magic bytes)
-  - archiveBaseName (.json.zst / .json.gz -> .json)
-  - seedFile 数据集分类 (与 Go seed.go seedFile() 一致)
+  - 目录扫描分类: gz/<dataset>/<name>.json.zst, 数据集 = 目录名
+    (与 Go archive.go listSeedArchives 同规则; 没有文件名登记表)
+  - 每个源文件是一个顶层 JSON 数组, 数组的每个元素是一行 (seed.go seedList)
   - buildSearchText / extractKey 字段列表 (与 Go 逐项同序)
-  - seedList / seedEntries / seedSingleton (dedupeKey 去重)
+  - dedupeKey 去重
   - uuidFromSourceHash (sha256 -> UUIDv4, 版本/变体位)
   - bakePayload (source/type/entry_id/data)
   - 文本长度排序 (消除 ONNX padding 浪费, 3-5x 加速)
@@ -16,11 +17,10 @@ bake_onnx.py - ONNX Runtime INT8 离线烘焙知识库向量
 
 ⚠️ 上面这些"与 Go 一致"的清单是本文件手抄的副本, 抄者必漂移: 2026-10-03 检查时发现
    它停在 1.39 期, 少 47 个科普文件 (6902 条) 和 4 个正文键, 于是 GPU 烘焙会静默跳过
-   批次 3~19 的全部内容, 一条向量都不生成。现在由
-   internal/knowledge/bake_mirror_sync_test.go 逐项比对 (文件名清单 / 数据集映射 /
-   字段列表 / 跳过名单)。新增科普批次或新字段时两边都要改, 忘了就有红门。
-   (icd11 / hpo / orphanet / icdo3 / corpus_* / public_resources 在本文件里根本不分类,
-    与 Go 的差别只是日志措辞: Go 报 "跳过名单命中", 这里报 "unsupported" —— 两边都不烘。)
+   批次 3~19 的全部内容, 一条向量都不生成。文件名登记表已经在统一格式时删掉
+   (目录就是分类, 扫目录即可, 不会再漂移), 现在还剩下两份必须逐字相同的清单:
+   烘焙文本的字段顺序和跳过数据集名单 —— 由
+   internal/knowledge/bake_mirror_sync_test.go 逐项比对。
 
 加速原理:
   1. ONNX Runtime INT8 量化 (2.27GB -> ~480MB, arm64 NEON SDOT 指令)
@@ -74,54 +74,14 @@ from typing import Any
 # 常量 (与 Go internal/knowledge/kb.go 完全一致)
 # ============================================================================
 
-DS_MEDICAL = "medical"
-DS_DRUG = "drug"
-DS_EMERGENCY = "emergency"
-DS_FOOD_RISK = "foodrisk"
-DS_LAB_TEST = "labtest"
-DS_LITERATURE = "literature"
-DS_MSD = "msd"
-DS_CLINVAR = "clinvar"
-DS_MEDLINEPLUS = "medlineplus"
-DS_MEDINS = "medins"
-DS_EML = "eml"
-DS_FDA = "fda"
-DS_NHC = "nhc"
-DS_FHS = "fhs"
-DS_AAP = "aap"
-DS_HEALTH_MYTHS = "healthmyths"
-DS_ESSENTIAL = "essential"
-DS_ICD10 = "icd10"
-DS_NMPA = "nmpa"
-DS_MEDICAL_KG = "medkg"
-DS_MEDICAL_DIALOGUES = "medicaldialogues"
-DS_DISEASE_ENC = "diseaseenc"
-DS_CPUBMED = "cpubmed"
-DS_HUATUO = "huatuo"
-DS_MEDICAL_QA = "medicalqa"
-DS_TTD = "ttd"
-DS_SIDER = "sider"
-DS_BODY_PART = "bodypart"
-DS_GROWTH = "growth"
-DS_MILESTONES = "milestones"
-DS_NEWBORN = "newborn"
-DS_VERSION = "version"
-DS_ICD11 = "icd11"
-DS_HPO = "hpo"
-DS_ORPHANET = "orphanet"
-DS_ICDO3 = "icdo3"
-DS_CORPUS = "corpus"
-DS_PUBLIC_RESOURCES = "public_resources"
-DS_CHINA_STATS = "china_stats"
-DS_CHINA_CLINICAL_PATHWAYS = "china_clinical_pathways"
-DS_CHINA_CDC = "china_cdc"
-DS_CHINA_TCM = "china_tcm"
-DS_CHINA_CSO = "china_cso"
-DS_CHINA_DIETARY = "china_dietary"
+# 数据集名由 gz/<dataset>/ 的目录名给出 (与 Go archive.go listSeedArchives 同规则),
+# 所以这里没有 DS_* 常量表, 也没有文件名登记表可以漂移。唯一写死的数据集名是 drug,
+# 因为 bake payload 的 type 字段按它区分 (其余一律 "knowledge")。
+DRUG_DATASET = "drug"
 
 # vectorSkipDatasets: 有专用检索工具或关键词全文层的数据集, 不向量化
 # (与 Go bake.go vectorSkipDatasets 完全一致; 名称一律写字面量, 这样
-#  TestBakeMirrorMatchesGoSeedLists 比对的是数据集名而不是常量名)
+#  TestBakeMirrorMatchesGoSeedRules 比对的是数据集名而不是常量名)
 VECTOR_SKIP_DATASETS = {
     "medkg",              # 354,752 rows — medical_kg_lookup
     "nmpa",               # 167,615 rows — nmpa_drug_lookup
@@ -160,88 +120,6 @@ BUILD_SEARCH_KEYS = [
     # 6000 多条 medical 向量就只是关键词, 正文一个字都进不去。
     "title_zh", "summary_zh", "details_zh", "body",
 ]
-
-# seedList -> DS_MEDICAL 的文件名列表 (与 Go seed.go medicalSeedFiles 逐项一致,
-# 由 internal/knowledge/bake_mirror_sync_test.go 在 CI 里比对; 新增科普批次忘了改这里,
-# 那些条目会被 seed_file 当成"不认识的文件"静默跳过, 一条向量都不生成。)
-SEED_LIST_MEDICAL_FILES = [
-    "thalassemia.json", "g6pd_deficiency.json", "nasopharyngeal_carcinoma.json",
-    "hepatitis_b.json", "lactose_intolerance.json", "aldh2_deficiency.json", "dengue.json",
-    "fungal_infections.json", "who_factsheets.json", "who_vaccines.json", "who_zh_health.json",
-    "china_vaccines.json", "feeding_guidelines.json", "cdc_entries.json", "diabetes.json",
-    "hypertension.json", "cardiovascular.json", "copd.json", "tuberculosis.json",
-    "hp_infection.json", "common_diseases.json", "common_diseases_batch2.json",
-    "common_diseases_batch3.json", "common_diseases_batch4.json", "sleep_mental_health.json",
-    "maternal_diet.json", "exercise_weight.json", "adult_vaccines.json", "adult_diet.json",
-    "myopia_prevention.json", "oral_health.json", "cancer_prevention.json", "chronic_diet.json",
-    "chronic_diet_obesity.json", "safe_medication.json", "infection_food_safety.json",
-    "checkup_labs.json", "elderly_meds_falls.json", "symptom_triage.json", "womens_health.json",
-    "home_monitoring.json", "skin_health.json", "eye_ent_health.json",
-    "cancer_early_screening.json", "heat_injury.json", "tobacco_alcohol_caffeine.json",
-    "home_environment.json", "exam_safety.json", "child_symptoms_injury.json",
-    "geriatric_brain_nutrition.json", "digestive_gut.json", "respiratory_asm_copd.json",
-    "sport_injury_rehab.json", "elderly_care.json", "gyn_health.json", "ortho_child_health.json",
-    "piyao_selected.json", "heart_nutrition_orgs.json", "jkb_health.json",
-    "yiigle_clinical_guides.json", "sleep_child_redcross.json", "chinacdc_science.json",
-    "jkb_more_popular.json", "provincial_cdc_health.json", "piyao_more.json",
-    "cma_society_popular.json", "rehab_society.json", "cdstm_rumor_board.json",
-    "yiigle_guides_more.json", "mdweekly_popular.json", "nhc_rumor_debunk.json",
-    "redcross_first_aid.json", "yiigle_guides_wave4.json",
-]
-
-# 其余走 seedList 的源文件 -> 数据集 (与 Go seed.go seedListDatasets 逐项一致)
-SEED_LIST_OTHER_FILES = {
-    "drug_contraindications.json":  DS_DRUG,
-    "food_risk.json":               DS_FOOD_RISK,
-    "lab_tests.json":               DS_LAB_TEST,
-    "china_stats.json":             DS_CHINA_STATS,
-    "china_clinical_pathways.json": DS_CHINA_CLINICAL_PATHWAYS,
-    "china_cdc.json":               DS_CHINA_CDC,
-    "china_tcm.json":               DS_CHINA_TCM,
-    "china_cso.json":               DS_CHINA_CSO,
-    "china_dietary.json":           DS_CHINA_DIETARY,
-}
-
-
-# seedEntries: 文件名 -> (dataset, JSON field name) 映射
-# (与 Go seed.go seedFile() 中各 case 的 struct JSON tag 完全一致)
-SEED_ENTRIES_MAP = {
-    "msd_manual.json":          (DS_MSD,           "entries"),
-    "clinvar.json":             (DS_CLINVAR,       "variants"),
-    "medlineplus.json":         (DS_MEDLINEPLUS,    "entries"),
-    "medins_drugs.json":        (DS_MEDINS,         "drugs"),
-    "who_eml.json":             (DS_EML,            "entries"),
-    "fda_drug_labels.json":     (DS_FDA,            "drugs"),
-    "nhc_guides.json":          (DS_NHC,            "entries"),
-    "fhs_guides.json":         (DS_FHS,            "entries"),
-    "aap_articles.json":       (DS_AAP,            "entries"),
-    "icd10_diseases.json":     (DS_ICD10,          "diseases"),
-    "nmpa_drugs.json":         (DS_NMPA,           "drugs"),
-    "medical_kg_triples.json": (DS_MEDICAL_KG,     "triples"),
-    "medical_dialogues.json":  (DS_MEDICAL_DIALOGUES, "dialogues"),
-    "disease_encyclopedias.json": (DS_DISEASE_ENC,  "diseases"),
-    "cpubmed_kg.json":         (DS_CPUBMED,        "triples"),
-    "huatuo_qa.json":          (DS_HUATUO,         "qa_pairs"),
-    "medical_qa_pairs.json":   (DS_MEDICAL_QA,     "qa_pairs"),
-}
-
-# seedEntries (top-level array): 文件名 -> dataset
-SEED_ENTRIES_TOP_LEVEL = {
-    "health_myths.json":       DS_HEALTH_MYTHS,
-    "body_part_triage.json":   DS_BODY_PART,
-    "essential_medicines.json": DS_ESSENTIAL,
-}
-
-# seedSingleton: 文件名 -> (dataset, key)
-SEED_SINGLETON_MAP = {
-    "emergency_triage.json":   (DS_EMERGENCY, "rules"),
-    "version.json":            (DS_VERSION,   "data"),
-    "growth_standards.json":   (DS_GROWTH,    "data"),
-    "newborn_care.json":       (DS_NEWBORN,   "data"),
-    "ttd_data.json":           (DS_TTD,       "data"),
-    "sider_drugs.json":        (DS_SIDER,     "data"),
-}
-
 
 # ============================================================================
 # 数据结构
@@ -364,14 +242,17 @@ def dedupe_key(seen: dict, key: str) -> str:
 
 
 # ============================================================================
-# seedFile — 数据集分类 (与 Go seed.go seedFile() 完全一致)
+# 目录扫描分类 (与 Go archive.go listSeedArchives + seed.go seedList 一致)
 # ============================================================================
 
 def seed_list(raw: bytes) -> list:
-    """seedList: 从 JSON 数组构建行 (与 Go seed.go seedList 一致)"""
+    """seedList: 顶层 JSON 数组 -> 每个元素一行 (与 Go seed.go seedList 一致)。
+    不是数组 / 空数组都是数据错误, Go 端同样直接报错而不是当成"另一种源"。"""
     items = json.loads(raw)
     if not isinstance(items, list):
         raise ValueError(f"expected JSON array, got {type(items).__name__}")
+    if not items:
+        raise ValueError("JSON array has no documents")
     rows = []
     seen = {}
     for i, item in enumerate(items):
@@ -381,116 +262,46 @@ def seed_list(raw: bytes) -> list:
     return rows
 
 
-def seed_entries(items: list) -> list:
+def is_archive(name: str) -> bool:
+    """归档扩展名: .json.zst 与遗留 .json.gz (对应 Go archiveGlob "*.json.*z*")。"""
+    return name.endswith(".json.zst") or name.endswith(".json.gz")
+
+
+def list_seed_archives(gz_dir: str) -> list:
+    """gz/<dataset>/<name>.json.zst 的全部归档, 数据集就是目录名 —— 与 Go
+    archive.go listSeedArchives 同规则: 没有登记表, 目录扫不到就算布局错了。
+
+    两种情况必须报错而不是跳过, 因为它们都会让烘焙"看起来成功"却少东西:
+      - 一棵空树 (旧布局 / gz 没生成)
+      - gz/ 根下直接放的归档 (没有目录可当数据集名)
+    返回 [(dataset, base, path)], 按 (数据集, 文件名) 排序。
     """
-    seedEntries: 从列表元素构建行 (与 Go seed.go seedEntries 一致)
-    Go 先 marshal items -> []json.RawMessage, 再逐个处理;
-    Python 直接 json.dumps 每个元素 (sort_keys=True 保证幂等)
-    """
-    rows = []
-    seen = {}
-    for i, item in enumerate(items):
-        key = dedupe_key(seen, extract_key(item, i))
-        data = json.dumps(item, ensure_ascii=False, sort_keys=True)
-        rows.append(KBRow(key=key, search_text=build_search_text(item), data=data))
-    return rows
-
-
-def seed_singleton(key: str, raw: bytes) -> KBRow:
-    """seedSingleton: 整个文档作为一行 (与 Go seed.go seedSingleton 一致)"""
-    obj = json.loads(raw)
-    data = json.dumps(obj, ensure_ascii=False, sort_keys=True)
-    return KBRow(key=key, search_text=build_search_text(obj), data=data)
-
-
-def seed_file(base: str, raw: bytes) -> tuple:
-    """
-    seedFile: 数据集分类 (与 Go seed.go seedFile() 完全一致)
-    返回 (dataset_name, rows) 或 ("", []) 如果文件名不匹配
-    """
-    # ── seedList -> DS_MEDICAL ──
-    if base in SEED_LIST_MEDICAL_FILES:
-        return DS_MEDICAL, seed_list(raw)
-
-    # ── seedList -> 其它数据集 (drug / foodrisk / labtest / china_*) ──
-    if base in SEED_LIST_OTHER_FILES:
-        return SEED_LIST_OTHER_FILES[base], seed_list(raw)
-
-    # ── seedSingleton ──
-    if base in SEED_SINGLETON_MAP:
-        ds, key = SEED_SINGLETON_MAP[base]
-        return ds, [seed_singleton(key, raw)]
-
-    # ── seedEntries (从 wrapper 对象提取列表) ──
-    if base in SEED_ENTRIES_MAP:
-        ds, field = SEED_ENTRIES_MAP[base]
-        obj = json.loads(raw)
-        items = obj.get(field, [])
-        return ds, seed_entries(items)
-
-    # ── seedEntries (top-level array) ──
-    if base in SEED_ENTRIES_TOP_LEVEL:
-        ds = SEED_ENTRIES_TOP_LEVEL[base]
-        items = json.loads(raw)
-        if not isinstance(items, list):
-            raise ValueError(f"expected JSON array for {base}, got {type(items).__name__}")
-        return ds, seed_entries(items)
-
-    # ── 特殊: literature.json (topics + articles) ──
-    if base == "literature.json":
-        obj = json.loads(raw)
-        rows = []
-        # topics 行: 整个数组作为一个 KBRow
-        topics = obj.get("topics", [])
-        topic_data = json.dumps(topics, ensure_ascii=False, sort_keys=True)
-        rows.append(KBRow(
-            key="topics",
-            search_text=build_search_text(topics),  # list -> fallback lowercased JSON
-            data=topic_data,
-        ))
-        # articles 行: 每篇文章一个 KBRow
-        for i, article in enumerate(obj.get("articles", [])):
-            key = article.get("id", "") if isinstance(article, dict) else ""
-            if not key:
-                key = f"art-{i}"
-            data = json.dumps(article, ensure_ascii=False, sort_keys=True)
-            rows.append(KBRow(
-                key=key,
-                search_text=build_search_text(article),
-                data=data,
-            ))
-        return DS_LITERATURE, rows
-
-    # ── 特殊: development_milestones.json (meta + ages) ──
-    if base == "development_milestones.json":
-        obj = json.loads(raw)
-        rows = []
-        # meta 行
-        meta = {
-            "source": obj.get("source", ""),
-            "definition": obj.get("definition", ""),
-        }
-        meta_data = json.dumps(meta, ensure_ascii=False, sort_keys=True)
-        rows.append(KBRow(
-            key="meta",
-            search_text=build_search_text(meta),
-            data=meta_data,
-        ))
-        # ages 行
-        for age in obj.get("ages", []):
-            key = age.get("age_key", "") if isinstance(age, dict) else ""
-            if not key:
-                key = f"age-{len(rows)}"
-            data = json.dumps(age, ensure_ascii=False, sort_keys=True)
-            rows.append(KBRow(
-                key=key,
-                search_text=build_search_text(age),
-                data=data,
-            ))
-        return DS_MILESTONES, rows
-
-    # ── 未知文件: 静默跳过 (与 Go 一致) ──
-    return "", []
+    try:
+        entries = os.listdir(gz_dir)
+    except OSError as exc:
+        print(f"ERROR: reading {gz_dir}: {exc}")
+        sys.exit(1)
+    out, flat = [], []
+    for name in sorted(entries):
+        path = os.path.join(gz_dir, name)
+        if not os.path.isdir(path):
+            if is_archive(name):
+                flat.append(name)
+            continue
+        for f in sorted(os.listdir(path)):
+            fp = os.path.join(path, f)
+            if os.path.isdir(fp) or not is_archive(f):
+                continue
+            out.append((name, archive_base_name(f), fp))
+    if not out:
+        print(f"ERROR: no knowledge archives found in {gz_dir}/<dataset>/")
+        sys.exit(1)
+    if flat:
+        print(f"ERROR: {gz_dir} holds {len(flat)} archive(s) outside a <dataset>/ directory "
+              f"(e.g. {flat[0]}); regenerate with python3 external/make_gz.py")
+        sys.exit(1)
+    out.sort(key=lambda t: (t[0], t[1]))
+    return out
 
 
 # ============================================================================
@@ -512,9 +323,9 @@ def uuid_from_source_hash(source: str, content_hash: bytes) -> str:
 def bake_payload(dataset: str, key: str, data: str) -> dict:
     """
     构建 Qdrant point payload (与 Go bake.go bakePayload 一致)
-    type 字段: DSDrug("drug") -> "drug", 其余 -> "knowledge"
+    type 字段: drug 数据集 -> "drug", 其余 -> "knowledge"
     """
-    typ = "drug" if dataset == DS_DRUG else "knowledge"
+    typ = "drug" if dataset == DRUG_DATASET else "knowledge"
     return {
         "source": dataset,
         "type": typ,
@@ -821,62 +632,58 @@ def bake(gz_dir: str, embedder: ONNXEmbedder, baker: QdrantBaker,
          batch_size: int, max_text_chars: int):
     """
     主烘焙循环 (与 Go bake.go Bake 一致)
-    glob *.json.*z* -> sort -> 逐文件解压 -> seedFile -> bakeDataset
+    扫 gz/<dataset>/ -> 逐文件解压 -> seed_list -> bake_dataset
+
+    逐文件流式处理 (不把所有数据集的行攒在同一个列表里): 构建机内存有限,
+    全量装载会被 OOM 杀掉 (exit 137)。point id 由内容哈希派生, 与处理顺序无关。
     """
-    # glob 匹配 (与 Go archiveGlob = "*.json.*z*" 一致)
-    import glob
-    pattern = os.path.join(gz_dir, "*.json.*z*")
-    files = sorted(glob.glob(pattern))
-    if not files:
-        print(f"ERROR: no knowledge archives found in {gz_dir}")
-        sys.exit(1)
+    archives = list_seed_archives(gz_dir)
 
     start = time.time()
     print(f"\nStarting gz -> Qdrant bake")
     print(f"  gz_dir:     {gz_dir}")
     print(f"  collection: {baker.collection}")
-    print(f"  files:      {len(files)}")
+    print(f"  files:      {len(archives)}")
     print(f"  batch_size: {batch_size}")
     print()
 
-    datasets = 0
+    counted = set()
     total_points = 0
     all_errors = []
-    skipped = []
+    skipped = set()
 
-    for f in files:
-        base = archive_base_name(f)
-        with open(f, "rb") as fh:
+    for ds, base, path in archives:
+        if ds in VECTOR_SKIP_DATASETS:
+            # 解压前判断: 被跳过的数据集一个字节 I/O 都不花
+            skipped.add(ds)
+            continue
+
+        with open(path, "rb") as fh:
             raw = decompress_archive(fh.read())
 
-        ds, rows = seed_file(base, raw)
-        if not ds:
-            print(f"  skip {base} (unsupported)")
-            continue
-        if ds in VECTOR_SKIP_DATASETS:
-            print(f"  skip {base} (lookup-tool covered)")
-            skipped.append(ds)
-            continue
+        rows = seed_list(raw)
+        raw = None
 
         n_batches = (len(rows) + batch_size - 1) // batch_size
-        print(f"  baking {ds:<16s} {len(rows):6d} rows ({n_batches} batches)...")
+        print(f"  baking {ds:<16s} {base:<28s} {len(rows):6d} rows ({n_batches} batches)...")
         n, errs = bake_dataset(embedder, baker, ds, rows, batch_size, max_text_chars)
         total_points += n
         all_errors.extend(errs)
-        datasets += 1
-        print(f"  baked  {ds:<16s} {n:6d} points")
+        counted.add(ds)
+        rows = None
 
-        # 手动 GC (与 Go runtime.GC() 一致, 释放当前数据集的内存)
+        # 手动 GC (与 Go runtime.GC() 一致, 释放当前文件的内存)
         import gc
         gc.collect()
 
     duration = time.time() - start
     print()
     print(f"Bake finished")
-    print(f"  datasets: {datasets}")
+    print(f"  datasets: {len(counted)}")
     print(f"  points:   {total_points}")
     print(f"  errors:   {len(all_errors)}")
-    print(f"  skipped:  {len(skipped)} ({', '.join(skipped) if skipped else 'none'})")
+    skipped_list = sorted(skipped)
+    print(f"  skipped:  {len(skipped_list)} ({', '.join(skipped_list) if skipped_list else 'none'})")
     print(f"  duration: {duration:.1f}s")
 
     if all_errors:

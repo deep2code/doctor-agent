@@ -8,13 +8,6 @@ type AAPEntry struct {
 	Content string `json:"content"`
 }
 
-// AAPSet is the embedded AAP corpus.
-type AAPSet struct {
-	Source  string     `json:"source"`
-	Updated string     `json:"updated"`
-	Entries []AAPEntry `json:"entries"`
-}
-
 // AAPResult is a retrieved AAP article with its relevance score.
 type AAPResult struct {
 	Entry AAPEntry `json:"entry"`

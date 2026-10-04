@@ -13,13 +13,6 @@ type MSDEntry struct {
 	Source  string `json:"source,omitempty"` // "consumer" | "professional"
 }
 
-// MSDSet is the embedded MSD Manual corpus.
-type MSDSet struct {
-	Source  string     `json:"source"`
-	Updated string     `json:"updated"`
-	Entries []MSDEntry `json:"entries"`
-}
-
 // MSDResult is a retrieved MSD page with its relevance score.
 type MSDResult struct {
 	Entry MSDEntry `json:"entry"`

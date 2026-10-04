@@ -125,13 +125,6 @@ type MilestoneAge struct {
 	MovementPhysicalZH      []string `json:"movement_physical_zh"`
 }
 
-// MilestonesDoc mirrors development_milestones.json.
-type MilestonesDoc struct {
-	Source     string         `json:"source"`
-	Definition string         `json:"definition"`
-	Ages       []MilestoneAge `json:"ages"`
-}
-
 // WHORecommendation is one row of the WHO preterm/LBW guideline Table 1.
 type WHORecommendation struct {
 	ID               string `json:"id"` // "A.1a".."C.4"

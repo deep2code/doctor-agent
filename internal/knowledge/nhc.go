@@ -11,13 +11,6 @@ type NHCGuide struct {
 	Source  string `json:"source"` // "nhc" | "nhc_ocr"
 }
 
-// NHCGuideSet is the embedded NHC guideline corpus.
-type NHCGuideSet struct {
-	Source  string      `json:"source"`
-	Updated string      `json:"updated"`
-	Entries []NHCGuide  `json:"entries"`
-}
-
 // NHCGuideResult is a retrieved guideline with its relevance score.
 type NHCGuideResult struct {
 	Guide NHCGuide `json:"guide"`

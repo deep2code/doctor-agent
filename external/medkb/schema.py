@@ -34,36 +34,34 @@ class CorpusDoc:
         return {k: v for k, v in d.items() if v or k in ("source", "id", "lang", "title", "summary")}
 
 
-def corpus_set(source: str, updated: str, entries: list[CorpusDoc]) -> dict:
-    """数据文件顶层结构：corpus_<source>.json。"""
-    return {
-        "source": source,
-        "updated": updated,
-        "entries": [e.to_json() for e in entries],
-    }
+def corpus_set(source: str, updated: str, entries: list[CorpusDoc]) -> list:
+    """数据文件内容：统一种子格式后 corpus_<source>.json 顶层就是数组、每个元素一条
+    CorpusDoc。旧 envelope 的顶层 source/updated 没有消费方（Go 解码器只认数组元素），
+    随格式统一去掉；source 在这里当条目一致性检查用，updated 只写进日志。"""
+    for e in entries:
+        if e.source != source:
+            raise ValueError(f"{source}: 条目 source={e.source!r} 与数据集不符")
+    print(f"[{source}] {len(entries)} 条 (源版本 {updated})")
+    return [e.to_json() for e in entries]
 
 
-def validate_docs(path) -> list[str]:
-    """返回错误列表；空列表 = 通过。"""
+def validate_docs(path, source: str = "") -> list[str]:
+    """返回错误列表；空列表 = 通过。source 由调用方（medkb validate <source>）给出。"""
     errors = []
     with open(path, encoding="utf-8") as f:
-        data = json.load(f)
-    source = data.get("source", "")
-    if not source:
-        errors.append(f"{path}: 顶层缺 source")
-    entries = data.get("entries")
+        entries = json.load(f)
     if not isinstance(entries, list) or not entries:
-        return errors + [f"{path}: entries 非空数组缺失"]
+        return errors + [f"{path}: 顶层非空数组缺失"]
     seen_ids = set()
     for i, e in enumerate(entries):
-        where = f"{path}#entries[{i}]"
+        where = f"{path}#{i}"
         for req in ("id", "lang", "title"):
             if not e.get(req):
                 errors.append(f"{where}: 缺必填字段 {req}")
-        if e.get("source") != source:
-            errors.append(f"{where}: source={e.get('source')!r} 与顶层 {source!r} 不一致")
-        elif source not in SOURCES:
-            errors.append(f"{where}: 未知 source {source!r}（需加入 schema.SOURCES 与 Go 侧白名单）")
+        if source and e.get("source") != source:
+            errors.append(f"{where}: source={e.get('source')!r} 与 {source!r} 不一致")
+        elif e.get("source") not in SOURCES:
+            errors.append(f"{where}: 未知 source {e.get('source')!r}（需加入 schema.SOURCES 与 Go 侧白名单）")
         if e.get("kind", "") not in KINDS:  # to_json 会丢掉空 kind，缺省视为合法
             errors.append(f"{where}: 非法 kind {e.get('kind')!r}")
         if e.get("lang") not in ("en", "zh"):
@@ -86,13 +84,13 @@ def validate_docs(path) -> list[str]:
 
 
 def validate_icd11(path) -> list[str]:
-    """icd11_terms.json 专用校验（非 CorpusDoc：exact_lookup 精确匹配表）。"""
+    """icd11_terms.json 专用校验（非 CorpusDoc：exact_lookup 精确匹配表）。
+    统一种子格式后顶层就是数组、每个元素一条术语。"""
     errors = []
     with open(path, encoding="utf-8") as f:
-        data = json.load(f)
-    terms = data.get("terms")
+        terms = json.load(f)
     if not isinstance(terms, list) or not terms:
-        return errors + [f"{path}: terms 非空数组缺失"]
+        return errors + [f"{path}: 顶层非空数组缺失"]
     seen = set()
     for i, t in enumerate(terms):
         where = f"{path}#terms[{i}]"

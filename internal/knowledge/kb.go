@@ -26,9 +26,9 @@ type KB struct {
 	mu   sync.RWMutex
 }
 
-// Dataset identifiers. These mirror the source filenames (without .gz) used by
-// the previous embedded loader, so the seeder and the runtime share a stable
-// naming scheme.
+// Dataset identifiers. Each one is a directory under
+// internal/knowledge/data/ (and gz/), so the seed tree and the runtime share one
+// naming scheme: the directory a source file lives in is its dataset.
 const (
 	DSMedical          = "medical"
 	DSDrug             = "drug"
@@ -36,6 +36,7 @@ const (
 	DSFoodRisk         = "foodrisk"
 	DSLabTest          = "labtest"
 	DSLiterature       = "literature"
+	DSLiteratureTopics = "literature_topics" // topic routing table, one row per topic
 	DSMSD              = "msd"
 	DSClinVar          = "clinvar"
 	DSMedlinePlus      = "medlineplus"
@@ -67,14 +68,6 @@ const (
 	DSOrphanet         = "orphanet" // Orphanet rare diseases (zh + ORPHA code, ICD-10/11 maps)
 	DSICDO3            = "icdo3"    // ICD-O-3 tumor morphology codes
 	DSVersion          = "version"
-
-	// 中国医学数据集
-	DSChinaStats            = "china_stats"             // 卫生统计年鉴
-	DSChinaClinicalPathways = "china_clinical_pathways" // 临床路径
-	DSChinaCDC              = "china_cdc"               // 法定传染病
-	DSChinaTCM              = "china_tcm"               // 中医药知识库
-	DSChinaCSO              = "china_cso"               // CSCO肿瘤指南
-	DSChinaDietary          = "china_dietary"           // 膳食指南
 
 	// 公共医学资源
 	DSPublicResources = "public_resources" // 公共医学资料库（教科书、视频、科普等）
@@ -324,6 +317,44 @@ type KBRow struct {
 func (kb *KB) Clear(dataset string) error {
 	_, err := kb.conn.Exec(`DELETE FROM kb_items WHERE dataset = ?`, dataset)
 	return err
+}
+
+// ListDatasets returns every dataset name currently stored. The seeder uses it
+// to drop rows for a dataset the seed tree no longer ships — otherwise deleting
+// a directory would leave its rows in the database forever, and a dump taken
+// from that database would publish them to every deployment.
+func (kb *KB) ListDatasets() ([]string, error) {
+	rows, err := kb.conn.Query("SELECT DISTINCT `dataset` FROM kb_items")
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+	var out []string
+	for rows.Next() {
+		var ds string
+		if err := rows.Scan(&ds); err != nil {
+			return nil, err
+		}
+		out = append(out, ds)
+	}
+	return out, rows.Err()
+}
+
+// HasDataset reports whether the dataset already has rows. Uploads use it to
+// reject a file name that does not name a real dataset instead of creating an
+// orphan dataset nothing reads.
+func (kb *KB) HasDataset(dataset string) (bool, error) {
+	var one int
+	err := kb.conn.QueryRow(
+		"SELECT 1 FROM kb_items WHERE `dataset` = ? LIMIT 1", dataset,
+	).Scan(&one)
+	if err == sql.ErrNoRows {
+		return false, nil
+	}
+	if err != nil {
+		return false, err
+	}
+	return true, nil
 }
 
 // Get returns a single item's raw JSON by dataset and key.

@@ -19,13 +19,6 @@ type CorpusDoc struct {
 	Body     string            `json:"body,omitempty"` // capped full text (24KB default)
 }
 
-// CorpusSet is the top-level shape of a corpus_<source>.json data file.
-type CorpusSet struct {
-	Source  string      `json:"source"`
-	Updated string      `json:"updated"`
-	Entries []CorpusDoc `json:"entries"`
-}
-
 // CorpusResult is a retrieved corpus document with relevance score and a
 // body excerpt centered on the first match.
 type CorpusResult struct {
@@ -44,14 +37,6 @@ type ICD11Term struct {
 	Chapter   string `json:"chapter,omitempty"`
 }
 
-// ICD11TermSet is the top-level shape of icd11_terms.json.
-type ICD11TermSet struct {
-	Source  string      `json:"source"`
-	Updated string      `json:"updated"`
-	Release string      `json:"release,omitempty"`
-	Terms   []ICD11Term `json:"terms"`
-}
-
 // HPOTerm is one Human Phenotype Ontology entry (phenotype abnormality) for
 // exact_lookup. Shape mirrors hpo_terms.json produced by external/convert_hpo.py.
 type HPOTerm struct {
@@ -60,13 +45,6 @@ type HPOTerm struct {
 	NameZH     string   `json:"name_zh,omitempty"`
 	Synonyms   []string `json:"synonyms,omitempty"`
 	Definition string   `json:"definition,omitempty"`
-}
-
-// HPOTermSet is the top-level shape of hpo_terms.json.
-type HPOTermSet struct {
-	Source  string    `json:"source"`
-	Updated string    `json:"updated"`
-	Terms   []HPOTerm `json:"terms"`
 }
 
 // OrphanetDisease is one Orphanet rare-disease entry (zh name + ORPHA code +
@@ -82,13 +60,6 @@ type OrphanetDisease struct {
 	Type      string   `json:"type,omitempty"`
 }
 
-// OrphanetDiseaseSet is the top-level shape of orphanet_diseases.json.
-type OrphanetDiseaseSet struct {
-	Source   string            `json:"source"`
-	Updated  string            `json:"updated"`
-	Diseases []OrphanetDisease `json:"diseases"`
-}
-
 // ICDO3Morphology is one ICD-O-3 morphology code (neoplasm histology) for
 // exact_lookup. Shape mirrors icdo3_morphology.json produced by
 // external/convert_icdo3.py.
@@ -98,11 +69,4 @@ type ICDO3Morphology struct {
 	NameEN   string   `json:"name_en"`
 	NameZH   string   `json:"name_zh,omitempty"`
 	Synonyms []string `json:"synonyms,omitempty"`
-}
-
-// ICDO3MorphologySet is the top-level shape of icdo3_morphology.json.
-type ICDO3MorphologySet struct {
-	Source  string            `json:"source"`
-	Updated string            `json:"updated"`
-	Terms   []ICDO3Morphology `json:"terms"`
 }

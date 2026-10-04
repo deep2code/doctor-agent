@@ -95,7 +95,7 @@ func TestRetrieverInfantNightCryingRecall(t *testing.T) {
 }
 
 func TestRetrieverInfantGasTeethBitingRecall(t *testing.T) {
-	raw, err := os.ReadFile(filepath.Join("data", "common_diseases_batch4.json"))
+	raw, err := os.ReadFile(filepath.Join("data", DSMedical, "common_diseases_batch4.json"))
 	if err != nil {
 		t.Fatalf("读取儿科条目: %v", err)
 	}

@@ -74,7 +74,7 @@ chmod +x doctor-agent          # macOS / Linux
 浏览器打开 `http://localhost:7071`（聊天界面在 `/app`），首次运行引导配置 API Key（推荐智谱 glm-4-flash 免费）。
 
 > 📁 MariaDB 业务库（`doctor_agent`：用户/会话/消息/反馈）在首次启动时自动创建，无需手动建库。连接参数通过 `MARIA_DB_*` 或 `APP_DB_DSN` 配置。
-> ⚠️ **知识库是独立的 MariaDB 库（`doctor_knowledge`），且跑在独立容器里**，二进制内不含数据。裸机/开发环境部署后需执行一次 `./doctor-agent seed-knowledge` 从 `gz/*.zst` 灌入。**Docker 生产环境不需要这一步**：compose 的 `kb` 服务用的是预灌好知识的 `doctor-agent-kb` 镜像，**不挂持久卷**——镜像里的入口脚本每次启动都清掉上一次导入再重新解包（约 45-60 秒，健康检查在此之前一直不通过，所以应用不会读到半空的库），因此镜像是什么版本线上就是什么版本，知识更新只需 `docker compose pull kb && docker compose up -d kb`，业务库 `mariadb`（唯一的持久卷 `mariadb_data`，只有 `doctor_agent`）完全不受影响。向量检索读预烘焙的 `doctor-agent-qdrant` 镜像，查询端 embedding 由 `doctor-agent-embed` 提供。
+> ⚠️ **知识库是独立的 MariaDB 库（`doctor_knowledge`），且跑在独立容器里**，二进制内不含数据。裸机/开发环境部署后需执行一次 `./doctor-agent seed-knowledge` 从 `gz/<dataset>/*.json.zst` 灌入（目录名就是数据集）。**Docker 生产环境不需要这一步**：compose 的 `kb` 服务用的是预灌好知识的 `doctor-agent-kb` 镜像，**不挂持久卷**——镜像里的入口脚本每次启动都清掉上一次导入再重新解包（约 45-60 秒，健康检查在此之前一直不通过，所以应用不会读到半空的库），因此镜像是什么版本线上就是什么版本，知识更新只需 `docker compose pull kb && docker compose up -d kb`，业务库 `mariadb`（唯一的持久卷 `mariadb_data`，只有 `doctor_agent`）完全不受影响。向量检索读预烘焙的 `doctor-agent-qdrant` 镜像，查询端 embedding 由 `doctor-agent-embed` 提供。
 
 ---
 
@@ -343,7 +343,7 @@ AUTH_SECRET=自定义一长串随机值   # /login 令牌的签名密钥；不�
 >   把 `doctor_knowledge` 全量 dump 放进 `/docker-entrypoint-initdb.d/`，**运行时零 seed**；
 >   官方入口只在数据目录为空时导入，而 compose 重建容器会复用上个容器的匿名卷，所以镜像里
 >   还带一个入口脚本 `docker/kb/kb-entrypoint.sh`：**每次启动**先清掉自己标记过的数据目录再
->   交给官方入口重灌（外来目录只告警、绝不删）。镜像只发 `:latest` 标签（`internal/knowledge/data/version.json`
+>   交给官方入口重灌（外来目录只告警、绝不删）。镜像只发 `:latest` 标签（`internal/knowledge/data/version/version.json`
 >   只记录知识库内容版本，构建时打印出来做溯源，不再当镜像 tag 用）。
 >
 > **一次部署 = 4 个镜像都拉到**（`docker compose up -d`），app 依赖 mariadb + **kb** + qdrant + embed。
@@ -360,7 +360,7 @@ AUTH_SECRET=自定义一长串随机值   # /login 令牌的签名密钥；不�
 > —— 有产物 `./build.sh qdrant` 直接 COPY 打包，无产物才会调烘焙脚本。⚠️ `build.sh` 的 macOS
 > 分支引用的 `bake-local.sh` 目前不在仓库内，此路径已损坏，可用 GPU 烘焙管线 `bake-gpu.sh` 代替）：
 > ```bash
-> python3 external/make_gz.py  # data/*.json 变更后先重新压缩（自动合并 .partNNN 分片）
+> python3 external/make_gz.py  # data/<dataset>/*.json 变更后先重新压缩（目录名就是数据集；自动合并 .partNNN 分片，平铺文件直接报错）
 > ./build.sh               # 改代码时：只构建+推送 app 镜像
 > ./build.sh qdrant        # 改知识库时：只构建+推送 RAG 镜像
 > ./build.sh embed         # 只在 embedding 服务/模型变更时
@@ -620,9 +620,9 @@ doctor-agent/
 │   ├── session/                      # 会话状态 + PatientContext + SESSION_DIR JSON 快照
 │   ├── prompt/                       # 分层系统提示词（Layer 0–4 共 9 段）
 │   ├── knowledge/                    # 知识库(MariaDB 懒加载 + Qdrant 向量) + 各检索器 + 引用系统 + verify.go
-│   │   ├── data/                     # 78个源JSON（编辑后运行 python3 external/make_gz.py → gz/*.zst）
-│   │   │                             #   超过 GitHub 单文件 100MiB 的两份（huatuo_qa / medical_qa_pairs）以
-│   │   │                             #   X.json.partNNN + X.json.parts 分片入库，make_gz 会自动合并
+│   │   ├── data/                     # 121个源JSON，放在 39 个 <dataset>/ 目录里（目录名就是数据集，无需登记；编辑后跑 python3 external/make_gz.py → gz/<dataset>/*.json.zst）
+│   │   │                             #   超过 GitHub 单文件 100MiB 的两份（huatuo/huatuo_qa、medicalqa/medical_qa_pairs）以
+│   │   │                             #   <dataset>/X.json.partNNN + X.json.parts 分片入库，make_gz 会自动合并
 │   │   └── gz/                       # zstd 压缩的种子文件（seed/bake 输入，二进制不内嵌）
 │   ├── tools/                        # 13个活跃工具 + Registry + router(知识图谱意图路由)
 │   ├── safety/                       # 4层安全防护（紧急检测/范围守卫/引用后验证/免责声明）

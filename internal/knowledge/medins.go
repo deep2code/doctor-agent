@@ -8,13 +8,6 @@ type MedinsDrug struct {
 	Forms    []string `json:"forms,omitempty"`
 }
 
-// MedinsSet is the embedded catalogue subset.
-type MedinsSet struct {
-	Source  string       `json:"source"`
-	Updated string       `json:"updated"`
-	Drugs   []MedinsDrug `json:"drugs"`
-}
-
 // MedinsResult is a matched drug with its score.
 type MedinsResult struct {
 	Drug  MedinsDrug `json:"drug"`

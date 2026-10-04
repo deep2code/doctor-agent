@@ -3,19 +3,12 @@ package knowledge
 // ClinVarVariant is one ClinVar entry for the China high-burden core genes
 // (HBB/HBA1/HBA2/G6PD): variation name, clinical significance, and traits.
 type ClinVarVariant struct {
-	ClinVarID           string   `json:"clinvar_id"`
-	Gene                string   `json:"gene"`
-	Variation           string   `json:"variation"`
-	Cdna                string   `json:"cdna,omitempty"`
-	ClinicalSignificance string  `json:"clinical_significance"`
-	Traits              []string `json:"traits,omitempty"`
-}
-
-// ClinVarSet is the embedded ClinVar subset.
-type ClinVarSet struct {
-	Source   string           `json:"source"`
-	Updated  string           `json:"updated"`
-	Variants []ClinVarVariant `json:"variants"`
+	ClinVarID            string   `json:"clinvar_id"`
+	Gene                 string   `json:"gene"`
+	Variation            string   `json:"variation"`
+	Cdna                 string   `json:"cdna,omitempty"`
+	ClinicalSignificance string   `json:"clinical_significance"`
+	Traits               []string `json:"traits,omitempty"`
 }
 
 // ClinVarResult is a matched variant with its relevance score.

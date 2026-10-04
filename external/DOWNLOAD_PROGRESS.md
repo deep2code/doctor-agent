@@ -83,7 +83,7 @@ external/
 
 ## 统一语料管线 medkb（2026-09-07）
 
-**一个工具** `external/medkb/`（`python3 -m medkb fetch|convert|validate|stats <source|all>`）+ **一个格式** CorpusDoc（Go 侧 `internal/knowledge/corpus.go` ↔ Python 侧 `plugins/../schema.py` 镜像同步）。`corpus_<source>.json` 经 seedFile 前缀分支 → dataset `corpus`，**新 prose 源零 Go 改动**。
+**一个工具** `external/medkb/`（`python3 -m medkb fetch|convert|validate|stats <source|all>`）+ **一个格式** CorpusDoc（Go 侧 `internal/knowledge/corpus.go` ↔ Python 侧 `plugins/../schema.py` 镜像同步）。`corpus_<source>.json` 落在 `internal/knowledge/data/corpus/`（统一布局后数据集名来自目录名，seedFile 前缀分支已随格式统一删除），**新 prose 源零 Go 改动**。
 
 | 源 | 状态 | 数据 | 说明 |
 |---|---|---|---|

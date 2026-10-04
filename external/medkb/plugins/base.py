@@ -36,7 +36,13 @@ def raw_ctx(source: str, args: dict) -> Ctx:
 
 
 def out_path(source: str) -> Path:
-    return DATA_DIR / f"corpus_{source}.json"
+    # data/<dataset>/<name>.json — the directory name IS the dataset, so medkb
+    # prose always lands in corpus/ and needs no Go registration.
+    return DATA_DIR / "corpus" / f"corpus_{source}.json"
+
+
+def icd11_terms_path() -> Path:
+    return DATA_DIR / "icd11" / "icd11_terms.json"
 
 
 def write_json(path: Path, data, *, pretty: bool = False):

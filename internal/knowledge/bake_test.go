@@ -2,108 +2,94 @@ package knowledge
 
 import (
 	"os"
-	"path/filepath"
 	"strings"
 	"testing"
 )
 
-// TestBakeClassification verifies real gz source files are recognized AND
-// parseable by seedFile — the classification bake depends on. Huge corpora
-// (huatuo_qa / medical_qa_pairs, >40MB gz) are skipped for speed; their
-// seedFile cases are exercised by seed's own coverage.
+// TestBakeClassification verifies the gz tree the bake reads is complete and
+// parseable: every archive sits in a <dataset>/ directory, decompresses, and
+// yields rows. Giant corpora (>5MB) are skipped for speed — seeding the dev DB
+// exercises them, and their sources are LFS pointers or .parts splits on disk.
 func TestBakeClassification(t *testing.T) {
-	gzs, err := filepath.Glob(filepath.Join("gz", archiveGlob))
+	archives, err := listSeedArchives("gz")
 	if err != nil {
-		t.Fatalf("glob gz: %v", err)
+		t.Fatalf("listing the gz tree: %v", err)
 	}
-	if len(gzs) < 50 {
-		t.Fatalf("expected >=50 archive files, got %d", len(gzs))
+	if len(archives) < 50 {
+		t.Fatalf("expected >=50 archive files, got %d", len(archives))
 	}
 
-	lfsFiles := make(map[string]bool)
-	recognized := 0
-	skipped := 0
-	for _, f := range gzs {
-		st, err := os.Stat(f)
+	recognized, skipped := 0, 0
+	for _, a := range archives {
+		st, err := os.Stat(a.Path)
 		if err != nil {
-			t.Fatalf("stat %s: %v", f, err)
+			t.Fatalf("stat %s: %v", a.Path, err)
 		}
 		if st.Size() > 5<<20 { // >5MB: skip the giant corpora
 			skipped++
 			continue
 		}
-		base := archiveBaseName(f)
-		raw, err := decompressFile(f)
+		raw, err := decompressFile(a.Path)
 		if err != nil {
-			t.Errorf("decompress %s: %v", base, err)
+			t.Errorf("decompress %s: %v", a.Path, err)
 			continue
 		}
-		// Git LFS pointer files (not pulled locally) cannot be parsed; they
-		// still must be CLASSIFIED by name. Verify the mapping exists via the
-		// seedFile case table indirectly: a LFS pointer for huatuo/medical_qa
-		// is a data-availability issue, not a bake classification issue.
+		// A Git-LFS pointer is a data-availability issue on this machine, not a
+		// tree-layout one: the archive still sits in the right directory.
 		if strings.HasPrefix(string(raw), "version https://git-lfs") {
-			lfsFiles[base] = true
 			skipped++
 			continue
 		}
-		ds, rows, err := seedFile(base, raw)
+		rows, err := seedList(raw)
 		if err != nil {
-			t.Errorf("seedFile(%s): %v", base, err)
-			continue
-		}
-		if ds == "" {
-			t.Errorf("seedFile(%s): empty dataset", base)
+			t.Errorf("%s/%s: %v", a.Dataset, a.Base, err)
 			continue
 		}
 		if len(rows) == 0 {
-			t.Errorf("seedFile(%s): 0 rows", base)
+			t.Errorf("%s/%s: 0 rows", a.Dataset, a.Base)
 			continue
 		}
 		recognized++
 	}
 
-	t.Logf("recognized %d files (skipped %d giant/LFS corpora)", recognized, skipped)
-	if recognized+skipped != len(gzs) {
-		t.Fatalf("coverage mismatch: %d recognized + %d skipped != %d total", recognized, skipped, len(gzs))
-	}
-	// every small file must classify successfully
+	t.Logf("parsed %d archives (skipped %d giant/LFS corpora)", recognized, skipped)
 	if recognized == 0 {
-		t.Fatal("no files classified")
+		t.Fatal("no archives parsed")
 	}
 
-	// LFS-pointer corpora must still have a seedFile case (mapping exists)
-	for name := range lfsFiles {
-		// seedFile case lookup: huatuo_qa -> DSHuatuo, medical_qa_pairs -> DSMedicalQA
-		switch name {
-		case "huatuo_qa.json", "medical_qa_pairs.json":
-			// known corpora whose case exists in seed.go
-		default:
-			t.Errorf("unexpected LFS pointer file %s", name)
-		}
-	}
-
-	// sanity: key files map to the expected datasets
+	// sanity: files land in the dataset directories the loaders read from
 	checks := map[string]string{
-		"common_diseases_batch3.json": DSMedical,
-		"drug_contraindications.json": DSDrug,
-		"body_part_triage.json":       DSBodyPart,
-		"health_myths.json":           DSHealthMyths,
-		"emergency_triage.json":       DSEmergency,
+		"medical/common_diseases_batch3.json": DSMedical,
+		"drug/drug_contraindications.json":    DSDrug,
+		"bodypart/body_part_triage.json":      DSBodyPart,
+		"healthmyths/health_myths.json":       DSHealthMyths,
+		"emergency/emergency_triage.json":     DSEmergency,
 	}
-	for name, want := range checks {
-		raw, err := decompressFile(filepath.Join("gz", name+".zst"))
-		if err != nil {
-			t.Errorf("read %s: %v", name, err)
+	byRel := make(map[string]seedArchive, len(archives))
+	for _, a := range archives {
+		byRel[a.Dataset+"/"+a.Base] = a
+	}
+	for rel, want := range checks {
+		a, ok := byRel[rel]
+		if !ok {
+			t.Errorf("%s is not in the scanned tree (renamed or misfiled?)", rel)
 			continue
 		}
-		ds, rows, err := seedFile(name, raw)
-		if err != nil || ds != want {
-			t.Errorf("seedFile(%s) = %q (err %v), want %q", name, ds, err, want)
+		if a.Dataset != want {
+			t.Errorf("%s sits in dataset %q, want %q", rel, a.Dataset, want)
+		}
+		raw, err := decompressFile(a.Path)
+		if err != nil {
+			t.Errorf("read %s: %v", rel, err)
+			continue
+		}
+		rows, err := seedList(raw)
+		if err != nil {
+			t.Errorf("seedList(%s): %v", rel, err)
 			continue
 		}
 		if len(rows) == 0 {
-			t.Errorf("seedFile(%s): 0 rows", name)
+			t.Errorf("%s: 0 rows", rel)
 		}
 	}
 }

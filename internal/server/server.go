@@ -2051,6 +2051,14 @@ func (rl *rateLimiter) pruneExpired(now time.Time) {
 	}
 }
 
+// isEmptyUpload reports a posted file that carries no documents at all. The
+// admin 全量同步 button has to include some file part, and it includes `[]` —
+// that is not a dataset anyone is asking to vectorize.
+func isEmptyUpload(body []byte) bool {
+	s := strings.TrimSpace(string(body))
+	return s == "" || s == "[]"
+}
+
 // handleAdminSync handles POST /admin/sync for file upload sync.
 func (s *Server) handleAdminSync(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodPost {
@@ -2123,7 +2131,20 @@ func (s *Server) handleAdminSync(w http.ResponseWriter, r *http.Request) {
 		// "all" (or absent) means sync every dataset; no filename fallback.
 		source = ""
 	case "auto":
-		source = strings.TrimSuffix(strings.TrimSuffix(handler.Filename, ".json"), ".json")
+		source = knowledge.DatasetFromFileName(handler.Filename)
+	}
+	// The uploaded file's dataset is its own name — the same rule
+	// /admin/knowledge uses — never the `source` filter above.
+	fileDataset := knowledge.DatasetFromFileName(handler.Filename)
+
+	// The 全量同步 button must post a file part to satisfy this multipart form, and
+	// it posts an empty one. A file with no documents names no dataset it could
+	// replace, so it does not enter the per-file sync path at all — that path now
+	// resolves the dataset from the file name and would report an error on every
+	// full sync.
+	syncPath := tempFile.Name()
+	if body, err := os.ReadFile(syncPath); err != nil || isEmptyUpload(body) {
+		syncPath = ""
 	}
 
 	// Get full sync parameter
@@ -2170,7 +2191,8 @@ func (s *Server) handleAdminSync(w http.ResponseWriter, r *http.Request) {
 	cfg := knowledge.SyncConfig{
 		Full:      fullSync,
 		Source:    source,
-		FilePath:  tempFile.Name(),
+		FilePath:  syncPath,
+		Dataset:   fileDataset,
 		BatchSize: 100,
 	}
 

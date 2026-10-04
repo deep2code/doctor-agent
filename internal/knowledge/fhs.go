@@ -9,13 +9,6 @@ type FHSGuide struct {
 	Source  string `json:"source"` // "fhs"
 }
 
-// FHSGuideSet is the embedded FHS corpus.
-type FHSGuideSet struct {
-	Source  string     `json:"source"`
-	Updated string     `json:"updated"`
-	Entries []FHSGuide `json:"entries"`
-}
-
 // FHSGuideResult is a retrieved FHS page with its relevance score.
 type FHSGuideResult struct {
 	Guide FHSGuide `json:"guide"`

@@ -54,7 +54,7 @@ APP_IMAGE_LATEST="${REGISTRY}/doctor-agent:latest"
 QDRANT_IMAGE="${REGISTRY}/doctor-agent-qdrant:latest"
 EMBED_IMAGE="${REGISTRY}/doctor-agent-embed:latest"
 # kb 镜像只发 :latest —— 数据镜像不做版本号标签, version.json 只作为构建期溯源信息打印。
-KB_DATA_VERSION="$(python3 -c "import json;print(json.load(open('internal/knowledge/data/version.json'))['version'])" 2>/dev/null || echo unknown)"
+KB_DATA_VERSION="$(python3 -c "import json;print(json.load(open('internal/knowledge/data/version/version.json'))['version'])" 2>/dev/null || echo unknown)"
 KB_IMAGE="${REGISTRY}/doctor-agent-kb:latest"
 
 build_embed() {
@@ -106,7 +106,7 @@ build_app() {
 
 build_qdrant() {
   echo "[qdrant] 构建 RAG 镜像..."
-  if [[ ! -d "internal/knowledge/gz" ]] || [[ -z "$(ls internal/knowledge/gz/*.json.*z* 2>/dev/null)" ]]; then
+  if [[ ! -d "internal/knowledge/gz" ]] || [[ -z "$(find internal/knowledge/gz -type f -name '*.json.*z*' -print -quit 2>/dev/null)" ]]; then
     echo "  错误: internal/knowledge/gz 为空，先运行 python3 external/make_gz.py 生成知识库压缩包"
     exit 1
   fi

@@ -13,14 +13,17 @@ import (
 	"sync"
 )
 
-// Seed reads every gzip-compressed knowledge file in gzDir and inserts its
+// Seed reads every knowledge archive under gzDir/<dataset>/ and inserts its
 // contents into the MariaDB knowledge database at dbPath. The compiled binary
 // embeds nothing; this command (run at build/release time) materialises the
 // data into the MariaDB doctor_knowledge database.
 //
-// Each source file maps to one dataset; its entries become individual rows keyed
-// by a stable id (or running index), with a lower-cased search_text column used
-// for candidate filtering at query time.
+// The directory name is the dataset; each file is a top-level JSON array and
+// each element becomes one row keyed by a stable id (or running index), with a
+// lower-cased search_text column used for candidate filtering at query time.
+// The directory is authoritative in both directions: after a successful pass the
+// database holds exactly the datasets the tree ships, so gzDir must be the whole
+// knowledge package, never a subset — a partial source would clear what it omits.
 func Seed(dbPath, gzDir string) error {
 	kb, err := OpenKB(dbPath)
 	if err != nil {
@@ -28,34 +31,22 @@ func Seed(dbPath, gzDir string) error {
 	}
 	defer kb.Close()
 
-	files, err := filepath.Glob(filepath.Join(gzDir, archiveGlob))
+	archives, err := listSeedArchives(gzDir)
 	if err != nil {
-		return fmt.Errorf("globbing %s: %w", gzDir, err)
-	}
-	if len(files) == 0 {
-		return fmt.Errorf("no knowledge archives found in %s", gzDir)
+		return err
 	}
 
 	// Accumulate rows per dataset: several source files share one dataset
-	// (e.g. every medical file maps to DSMedical), so we must NOT clear the
-	// dataset between files. Collect everything first, then clear each dataset
-	// once and bulk-insert.
+	// (e.g. every file under medical/ maps to the medical dataset), so we must
+	// NOT clear the dataset between files. Collect everything first, then clear
+	// each dataset once and bulk-insert.
 	byDataset := make(map[string][]KBRow)
-	for _, f := range files {
-		base := archiveBaseName(f)
-		raw, err := decompressFile(f)
+	for _, a := range archives {
+		rows, err := a.rows()
 		if err != nil {
-			return fmt.Errorf("reading %s: %w", f, err)
+			return fmt.Errorf("seeding: %w", err)
 		}
-		ds, rows, err := seedFile(base, raw)
-		if err != nil {
-			return fmt.Errorf("seeding %s: %w", base, err)
-		}
-		if ds == "" {
-			slog.Info("seed: skipped unrecognized archive", "file", base)
-			continue
-		}
-		byDataset[ds] = append(byDataset[ds], rows...)
+		byDataset[a.Dataset] = append(byDataset[a.Dataset], rows...)
 	}
 
 	// Seed datasets in parallel (bounded worker pool). Each dataset is
@@ -81,6 +72,28 @@ func Seed(dbPath, gzDir string) error {
 		if err := kb.Clear(ds); err != nil {
 			return fmt.Errorf("clearing %s: %w", ds, err)
 		}
+	}
+
+	// The tree is the whole classification, so it also decides what is *not*
+	// knowledge any more: a dataset directory that was deleted keeps its rows
+	// forever unless the seed pass drops them, and a dump taken from such a
+	// database would publish that dead data to every deployment.
+	stored, err := kb.ListDatasets()
+	if err != nil {
+		return fmt.Errorf("listing stored datasets: %w", err)
+	}
+	inTree := make(map[string]bool, len(datasets))
+	for _, ds := range datasets {
+		inTree[ds] = true
+	}
+	for _, ds := range stored {
+		if inTree[ds] {
+			continue
+		}
+		if err := kb.Clear(ds); err != nil {
+			return fmt.Errorf("clearing removed dataset %s: %w", ds, err)
+		}
+		slog.Info("dropped a dataset the seed tree no longer ships", "dataset", ds)
 	}
 
 	var (
@@ -111,316 +124,17 @@ func Seed(dbPath, gzDir string) error {
 	return werr
 }
 
-// medicalSeedFiles are the 科普/指南 sources that seed as a plain KnowledgeEntry
-// list into DSMedical. It is a package-level var rather than switch cases so the
-// Python bake mirror (external/bake_onnx.py), which must copy this list, can be
-// checked against it — see TestBakeMirrorMatchesGoSeedLists.
-var medicalSeedFiles = map[string]bool{
-	"thalassemia.json": true, "g6pd_deficiency.json": true,
-	"nasopharyngeal_carcinoma.json": true, "hepatitis_b.json": true,
-	"lactose_intolerance.json": true, "aldh2_deficiency.json": true,
-	"dengue.json": true, "fungal_infections.json": true,
-	"who_factsheets.json": true, "who_vaccines.json": true, "who_zh_health.json": true,
-	"china_vaccines.json": true, "feeding_guidelines.json": true,
-	"cdc_entries.json": true, "diabetes.json": true, "hypertension.json": true,
-	"cardiovascular.json": true, "copd.json": true, "tuberculosis.json": true,
-	"hp_infection.json":    true,
-	"common_diseases.json": true, "common_diseases_batch2.json": true,
-	"common_diseases_batch3.json": true, "common_diseases_batch4.json": true,
-	"sleep_mental_health.json": true, "maternal_diet.json": true,
-	"exercise_weight.json": true, "adult_vaccines.json": true,
-	"adult_diet.json": true, "myopia_prevention.json": true, "oral_health.json": true,
-	"cancer_prevention.json": true,
-	"chronic_diet.json":      true, "chronic_diet_obesity.json": true,
-	"safe_medication.json": true, "infection_food_safety.json": true,
-	"checkup_labs.json":       true,
-	"elderly_meds_falls.json": true, "symptom_triage.json": true,
-	"womens_health.json": true, "home_monitoring.json": true,
-	"skin_health.json": true, "eye_ent_health.json": true,
-	"cancer_early_screening.json": true, "heat_injury.json": true,
-	"tobacco_alcohol_caffeine.json": true, "home_environment.json": true,
-	"exam_safety.json": true, "child_symptoms_injury.json": true,
-	"geriatric_brain_nutrition.json": true, "digestive_gut.json": true,
-	"respiratory_asm_copd.json": true, "sport_injury_rehab.json": true,
-	"elderly_care.json": true, "gyn_health.json": true, "ortho_child_health.json": true,
-	"piyao_selected.json": true, "heart_nutrition_orgs.json": true, "jkb_health.json": true,
-	"yiigle_clinical_guides.json": true, "sleep_child_redcross.json": true,
-	"chinacdc_science.json": true, "jkb_more_popular.json": true,
-	"provincial_cdc_health.json": true, "piyao_more.json": true,
-	"cma_society_popular.json": true, "rehab_society.json": true,
-	"cdstm_rumor_board.json": true, "yiigle_guides_more.json": true,
-	"mdweekly_popular.json": true, "nhc_rumor_debunk.json": true,
-	"redcross_first_aid.json": true, "yiigle_guides_wave4.json": true,
-}
-
-// seedListDatasets maps the remaining seedList-classified sources to their
-// dataset, again as a var so the bake mirror can be checked against it.
-var seedListDatasets = map[string]string{
-	"drug_contraindications.json":  DSDrug,
-	"food_risk.json":               DSFoodRisk,
-	"lab_tests.json":               DSLabTest,
-	"china_stats.json":             DSChinaStats,
-	"china_clinical_pathways.json": DSChinaClinicalPathways,
-	"china_cdc.json":               DSChinaCDC,
-	"china_tcm.json":               DSChinaTCM,
-	"china_cso.json":               DSChinaCSO,
-	"china_dietary.json":           DSChinaDietary,
-}
-
-// seedFile classifies one source file by its (gz-stripped) name and returns the
-// target dataset plus its rows. The classification mirrors the previous embedded
-// loader so dataset boundaries stay identical.
-func seedFile(base string, raw []byte) (string, []KBRow, error) {
-	// Unified medkb corpora: corpus_<source>.json files all land in DSCorpus.
-	if strings.HasPrefix(base, "corpus_") {
-		var set CorpusSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Entries)
-		return DSCorpus, rows, err
-	}
-	if medicalSeedFiles[base] {
-		rows, err := seedList(raw)
-		return DSMedical, rows, err
-	}
-	if ds, ok := seedListDatasets[base]; ok {
-		rows, err := seedList(raw)
-		return ds, rows, err
-	}
-	switch base {
-	case "emergency_triage.json":
-		return DSEmergency, []KBRow{seedSingleton("rules", raw)}, nil
-	case "version.json":
-		return DSVersion, []KBRow{seedSingleton("data", raw)}, nil
-	case "literature.json":
-		var ls LiteratureSet
-		if err := json.Unmarshal(raw, &ls); err != nil {
-			return "", nil, err
-		}
-		topicBytes, _ := json.Marshal(ls.Topics)
-		rows := []KBRow{{Key: "topics", SearchText: buildSearchText(topicBytes), Data: topicBytes}}
-		for i := range ls.Articles {
-			a := &ls.Articles[i]
-			b, _ := json.Marshal(a)
-			key := a.ID
-			if key == "" {
-				key = fmt.Sprintf("art-%d", i)
-			}
-			rows = append(rows, KBRow{Key: key, SearchText: buildSearchText(b), Data: b})
-		}
-		return DSLiterature, rows, nil
-	case "msd_manual.json":
-		var set MSDSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Entries)
-		return DSMSD, rows, err
-	case "clinvar.json":
-		var set ClinVarSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Variants)
-		return DSClinVar, rows, err
-	case "medlineplus.json":
-		var set MedlinePlusSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Entries)
-		return DSMedlinePlus, rows, err
-	case "medins_drugs.json":
-		var set MedinsSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Drugs)
-		return DSMedins, rows, err
-	case "who_eml.json":
-		var set EMLSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Entries)
-		return DSEML, rows, err
-	case "fda_drug_labels.json":
-		var set FDALabelSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Drugs)
-		return DSFDA, rows, err
-	case "nhc_guides.json":
-		var set NHCGuideSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Entries)
-		return DSNHC, rows, err
-	case "fhs_guides.json":
-		var set FHSGuideSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Entries)
-		return DSFHS, rows, err
-	case "aap_articles.json":
-		var set AAPSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Entries)
-		return DSAAP, rows, err
-	case "health_myths.json":
-		var myths []HealthMyth
-		if err := json.Unmarshal(raw, &myths); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(myths)
-		return DSHealthMyths, rows, err
-	case "body_part_triage.json":
-		var parts []BodyPartTriage
-		if err := json.Unmarshal(raw, &parts); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(parts)
-		return DSBodyPart, rows, err
-	case "growth_standards.json":
-		return DSGrowth, []KBRow{seedSingleton("data", raw)}, nil
-	case "development_milestones.json":
-		var doc MilestonesDoc
-		if err := json.Unmarshal(raw, &doc); err != nil {
-			return "", nil, err
-		}
-		meta, _ := json.Marshal(map[string]string{
-			"source": doc.Source, "definition": doc.Definition,
-		})
-		rows := []KBRow{{Key: "meta", SearchText: buildSearchText(meta), Data: meta}}
-		for i := range doc.Ages {
-			b, _ := json.Marshal(doc.Ages[i])
-			rows = append(rows, KBRow{Key: doc.Ages[i].AgeKey, SearchText: buildSearchText(b), Data: b})
-		}
-		return DSMilestones, rows, nil
-	case "newborn_care.json":
-		return DSNewborn, []KBRow{seedSingleton("data", raw)}, nil
-	case "essential_medicines.json":
-		var drugs []EssentialMedicine
-		if err := json.Unmarshal(raw, &drugs); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(drugs)
-		return DSEssential, rows, err
-	case "public_resources.json":
-		var doc struct {
-			Resources []PublicResource `json:"resources"`
-		}
-		if err := json.Unmarshal(raw, &doc); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(doc.Resources)
-		return DSPublicResources, rows, err
-	case "icd10_diseases.json":
-		var set ICD10DiseaseSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Diseases)
-		return DSICD10, rows, err
-	case "icd11_terms.json":
-		var set ICD11TermSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Terms)
-		return DSICD11, rows, err
-	case "hpo_terms.json":
-		var set HPOTermSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Terms)
-		return DSHPO, rows, err
-	case "orphanet_diseases.json":
-		var set OrphanetDiseaseSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Diseases)
-		return DSOrphanet, rows, err
-	case "icdo3_morphology.json":
-		var set ICDO3MorphologySet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Terms)
-		return DSICDO3, rows, err
-	case "nmpa_drugs.json":
-		var set NMPADrugSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Drugs)
-		return DSNMPA, rows, err
-	case "medical_kg_triples.json":
-		var set MedicalKGSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Triples)
-		return DSMedicalKG, rows, err
-	case "medical_dialogues.json":
-		var set MedicalDialogueSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Dialogues)
-		return DSMedicalDialogues, rows, err
-	case "disease_encyclopedias.json":
-		var set DiseaseEncyclopediaSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Diseases)
-		return DSDiseaseEnc, rows, err
-	case "cpubmed_kg.json":
-		var set CPubMedKGSet
-		if err := json.Unmarshal(raw, &set); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(set.Triples)
-		return DSCPubMed, rows, err
-	case "huatuo_qa.json":
-		var hp HuatuoQAPairs
-		if err := json.Unmarshal(raw, &hp); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(hp.QAPairs)
-		return DSHuatuo, rows, err
-	case "medical_qa_pairs.json":
-		var mq MedicalQAData
-		if err := json.Unmarshal(raw, &mq); err != nil {
-			return "", nil, err
-		}
-		rows, err := seedEntries(mq.QAPairs)
-		return DSMedicalQA, rows, err
-	case "ttd_data.json":
-		return DSTTD, []KBRow{seedSingleton("data", raw)}, nil
-	case "sider_drugs.json":
-		return DSSIDER, []KBRow{seedSingleton("data", raw)}, nil
-	default:
-		// Unknown file — skip silently (mirrors the embedded loader).
-		return "", nil, nil
-	}
-}
-
-// seedList builds rows from a JSON array of arbitrary entries
-// (KnowledgeEntry/DrugEntry/…).
+// seedList builds rows from a source file: a top-level JSON array whose
+// elements are stored verbatim, one element per row. This is the only parse
+// mode the seed tree has — a file that is not a non-empty array is a data
+// error, not a different kind of source.
 func seedList(raw []byte) ([]KBRow, error) {
 	var items []json.RawMessage
 	if err := json.Unmarshal(raw, &items); err != nil {
-		return nil, err
+		return nil, fmt.Errorf("not a JSON array of documents: %w", err)
+	}
+	if len(items) == 0 {
+		return nil, fmt.Errorf("JSON array has no documents")
 	}
 	rows := make([]KBRow, 0, len(items))
 	seen := make(map[string]int, len(items))
@@ -462,30 +176,6 @@ func dedupeDatasetKeys(rows []KBRow) {
 			}
 		}
 	}
-}
-
-// seedEntries builds rows from a typed slice by re-marshalling each element.
-func seedEntries(items interface{}) ([]KBRow, error) {
-	raw, err := json.Marshal(items)
-	if err != nil {
-		return nil, err
-	}
-	var arr []json.RawMessage
-	if err := json.Unmarshal(raw, &arr); err != nil {
-		return nil, err
-	}
-	rows := make([]KBRow, 0, len(arr))
-	seen := make(map[string]int, len(arr))
-	for i, it := range arr {
-		key := dedupeKey(seen, extractKey(it, i))
-		rows = append(rows, KBRow{Key: key, SearchText: buildSearchText(it), Data: it})
-	}
-	return rows, nil
-}
-
-// seedSingleton builds a single row from one whole JSON document.
-func seedSingleton(key string, raw []byte) KBRow {
-	return KBRow{Key: key, SearchText: buildSearchText(raw), Data: raw}
 }
 
 // extractKeyFields and searchTextKeys are the field priority lists used to turn
@@ -547,7 +237,10 @@ func buildSearchText(raw []byte) string {
 			b.WriteString(" ")
 		}
 	}
-	if b.Len() == 0 {
+	// A present-but-empty key (e.g. "title_zh": "") contributes only padding, so
+	// the guard must test for content, not for bytes written — otherwise those
+	// rows lose the raw-JSON fallback and end up with no candidate text at all.
+	if len(strings.TrimSpace(b.String())) == 0 {
 		return strings.ToLower(string(raw))
 	}
 	return strings.ToLower(b.String())
@@ -572,11 +265,17 @@ func valueToString(v interface{}) string {
 	}
 }
 
-// IngestUpload classifies an uploaded knowledge file (JSON or gzip-compressed
-// JSON, named like the source datasets, e.g. diabetes.json or medical.json.gz)
-// and upserts its rows into the MariaDB knowledge store, replacing any
-// previous rows for the same dataset. It powers the admin upload API.
-// Returns the target dataset and the number of rows written.
+// IngestUpload replaces the rows of one dataset with an uploaded knowledge file
+// (JSON, or gzip-compressed JSON). Powers the admin upload API. The file name IS
+// the dataset — the same rule the seed tree uses, where the directory name is
+// the dataset — so `medical.json` replaces the medical dataset and
+// `medical.json.gz` does the same with a compressed body. The body must be a
+// top-level JSON array; each element becomes one row.
+//
+// Only a dataset that already has rows can be replaced: that is what stops a
+// mistyped file name from quietly creating an orphan dataset nothing reads.
+// Permanent additions need a new image (make_gz → seed → build.sh kb), not an
+// upload — the kb container's storage is throwaway by design.
 func IngestUpload(dsn, filename string, raw []byte) (string, int, error) {
 	data := raw
 	// Transparently decompress .gz uploads.
@@ -592,19 +291,13 @@ func IngestUpload(dsn, filename string, raw []byte) (string, int, error) {
 		filename = strings.TrimSuffix(filename, filepath.Ext(filename))
 	}
 
-	base := strings.TrimSuffix(strings.TrimSuffix(filename, ".gz"), ".json")
-	if base == "" {
-		return "", 0, fmt.Errorf("filename must be like <dataset>.json or <dataset>.json.gz")
+	ds := DatasetFromFileName(filename)
+	if !validDatasetName(ds) {
+		return "", 0, fmt.Errorf("upload must be named <dataset>.json or <dataset>.json.gz (got %q)", filename)
 	}
-
-	// seedFile's switch matches the full source name including the .json suffix
-	// (e.g. "hp_infection.json"), mirroring Seed()'s call convention.
-	ds, rows, err := seedFile(base+".json", data)
+	rows, err := seedList(data)
 	if err != nil {
-		return "", 0, fmt.Errorf("classifying %s: %w", base, err)
-	}
-	if ds == "" || len(rows) == 0 {
-		return "", 0, fmt.Errorf("unsupported or empty dataset: %s", base)
+		return "", 0, fmt.Errorf("parsing %s: %w", ds, err)
 	}
 
 	kb, err := OpenKB(dsn)
@@ -612,6 +305,13 @@ func IngestUpload(dsn, filename string, raw []byte) (string, int, error) {
 		return "", 0, err
 	}
 	defer kb.Close()
+	ok, err := kb.HasDataset(ds)
+	if err != nil {
+		return "", 0, err
+	}
+	if !ok {
+		return "", 0, fmt.Errorf("unknown dataset %q: uploads replace an existing dataset only", ds)
+	}
 	if err := kb.Clear(ds); err != nil {
 		return "", 0, fmt.Errorf("clearing %s: %w", ds, err)
 	}
@@ -619,6 +319,39 @@ func IngestUpload(dsn, filename string, raw []byte) (string, int, error) {
 		return "", 0, fmt.Errorf("inserting %s: %w", ds, err)
 	}
 	return ds, len(rows), nil
+}
+
+// DatasetForSeedPath applies the seed tree's naming rule to a path on disk: the
+// directory holding the file IS the dataset.
+func DatasetForSeedPath(path string) string {
+	return filepath.Base(filepath.Dir(path))
+}
+
+// DatasetFromFileName is the upload-side stand-in for the seed tree's directory
+// name: an uploaded file carries no path, so its name has to do the registering
+// the dataset directory does on disk. `medical.json.gz` and `medical.json` both
+// name the medical dataset; anything else fails validDatasetName downstream.
+func DatasetFromFileName(name string) string {
+	base := filepath.Base(name)
+	base = strings.TrimSuffix(base, filepath.Ext(base))
+	return strings.TrimSuffix(base, ".json")
+}
+
+// validDatasetName guards the dataset name that comes straight from an uploaded
+// file name: it is used in SQL parameters and (via the seed tree) as a directory
+// name, so it stays in the character set the dataset constants actually use.
+func validDatasetName(s string) bool {
+	if s == "" || len(s) > 64 {
+		return false
+	}
+	for _, r := range s {
+		switch {
+		case r >= 'a' && r <= 'z', r >= '0' && r <= '9', r == '_', r == '-':
+		default:
+			return false
+		}
+	}
+	return true
 }
 
 // DatasetStats returns the row count per dataset in the knowledge store,

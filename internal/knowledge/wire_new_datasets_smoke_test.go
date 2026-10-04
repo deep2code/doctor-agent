@@ -3,63 +3,69 @@ package knowledge
 import (
 	"encoding/json"
 	"os"
+	"path/filepath"
 	"testing"
 )
 
+// TestWireNewDatasetsSmoke checks the exact-lookup datasets added in one batch
+// still round-trip: the source file is a row array, every row keys uniquely, and
+// every row decodes into the struct the lookup tool reads.
 func TestWireNewDatasetsSmoke(t *testing.T) {
-	raw, err := os.ReadFile("data/orphanet_diseases.json")
-	if err != nil {
-		t.Fatal(err)
-	}
-	ds, rows, err := seedFile("orphanet_diseases.json", raw)
-	if err != nil {
-		t.Fatal(err)
-	}
-	if ds != DSOrphanet {
-		t.Fatalf("dataset = %q", ds)
-	}
-	t.Logf("orphanet rows: %d", len(rows))
-	var oset OrphanetDiseaseSet
-	if err := json.Unmarshal(raw, &oset); err != nil {
-		t.Fatal(err)
-	}
-	if len(oset.Diseases) == 0 || oset.Diseases[0].OrphaCode == "" {
-		t.Fatal("empty orphanet set")
-	}
-
-	raw2, err := os.ReadFile("data/icdo3_morphology.json")
-	if err != nil {
-		t.Fatal(err)
-	}
-	ds2, rows2, err := seedFile("icdo3_morphology.json", raw2)
-	if err != nil {
-		t.Fatal(err)
-	}
-	if ds2 != DSICDO3 {
-		t.Fatalf("dataset2 = %q", ds2)
-	}
-	t.Logf("icdo3 rows: %d", len(rows2))
-	var iset ICDO3MorphologySet
-	if err := json.Unmarshal(raw2, &iset); err != nil {
-		t.Fatal(err)
-	}
-	if len(iset.Terms) == 0 || iset.Terms[0].Code == "" {
-		t.Fatal("empty icdo3 set")
+	cases := []struct {
+		path     string
+		dataset  string
+		keyField func(row []byte) string
+	}{
+		{
+			path:    filepath.Join("data", DSOrphanet, "orphanet_diseases.json"),
+			dataset: DSOrphanet,
+			keyField: func(row []byte) string {
+				var d OrphanetDisease
+				if err := json.Unmarshal(row, &d); err != nil {
+					return "decode error: " + err.Error()
+				}
+				return d.OrphaCode
+			},
+		},
+		{
+			path:    filepath.Join("data", DSICDO3, "icdo3_morphology.json"),
+			dataset: DSICDO3,
+			keyField: func(row []byte) string {
+				var m ICDO3Morphology
+				if err := json.Unmarshal(row, &m); err != nil {
+					return "decode error: " + err.Error()
+				}
+				return m.Code
+			},
+		},
 	}
 
-	// keys must be unique per dataset (upsert would silently collapse dupes)
-	seen := map[string]bool{}
-	for _, r := range rows {
-		if seen[r.Key] {
-			t.Errorf("duplicate orphanet key: %s", r.Key)
-		}
-		seen[r.Key] = true
-	}
-	seen2 := map[string]bool{}
-	for _, r := range rows2 {
-		if seen2[r.Key] {
-			t.Errorf("duplicate icdo3 key: %s", r.Key)
-		}
-		seen2[r.Key] = true
+	for _, tc := range cases {
+		t.Run(tc.dataset, func(t *testing.T) {
+			raw, err := os.ReadFile(tc.path)
+			if err != nil {
+				t.Fatal(err)
+			}
+			rows, err := seedList(raw)
+			if err != nil {
+				t.Fatal(err)
+			}
+			if len(rows) == 0 {
+				t.Fatalf("%s: no rows", tc.path)
+			}
+			// Keys must be unique within a dataset (the upsert would silently
+			// collapse duplicates) and must come from the row's own code field.
+			seen := map[string]bool{}
+			for _, r := range rows {
+				if seen[r.Key] {
+					t.Errorf("duplicate %s key: %s", tc.dataset, r.Key)
+				}
+				seen[r.Key] = true
+				if got := tc.keyField(r.Data); got == "" {
+					t.Errorf("row %s has no %s identifier", r.Key, tc.dataset)
+				}
+			}
+			t.Logf("%s rows: %d", tc.dataset, len(rows))
+		})
 	}
 }

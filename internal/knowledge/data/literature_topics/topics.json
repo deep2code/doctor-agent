@@ -1,0 +1,194 @@
+[
+{
+   "id": "aldh2_ethanol",
+   "name_zh": "ALDH2与酒精代谢",
+   "keywords": [
+    "aldh2",
+    "乙醛脱氢酶2",
+    "酒精代谢",
+    "alcohol",
+    "acetaldehyde",
+    "脸红",
+    "喝酒"
+   ],
+   "count": 273
+  },
+{
+   "id": "childhood_fever",
+   "name_zh": "儿童发热",
+   "keywords": [
+    "儿童发热",
+    "fever",
+    "发热",
+    "childhood fever",
+    "发烧"
+   ],
+   "count": 279
+  },
+{
+   "id": "dengue_south_china",
+   "name_zh": "登革热",
+   "keywords": [
+    "登革热",
+    "dengue",
+    "登革病毒"
+   ],
+   "count": 282
+  },
+{
+   "id": "dengue_vaccine",
+   "name_zh": "登革热疫苗",
+   "keywords": [
+    "登革热疫苗",
+    "dengue vaccine",
+    "登革热"
+   ],
+   "count": 270
+  },
+{
+   "id": "dog_bite_rabies",
+   "name_zh": "狂犬病与犬伤",
+   "keywords": [
+    "狂犬病",
+    "rabies",
+    "狗咬伤",
+    "dog bite",
+    "犬伤"
+   ],
+   "count": 291
+  },
+{
+   "id": "favism",
+   "name_zh": "蚕豆病",
+   "keywords": [
+    "蚕豆病",
+    "favism",
+    "蚕豆"
+   ],
+   "count": 270
+  },
+{
+   "id": "g6pd_deficiency",
+   "name_zh": "G6PD缺乏症",
+   "keywords": [
+    "G6PD缺乏症",
+    "葡萄糖-6-磷酸脱氢酶",
+    "g6pd deficiency",
+    "glucose-6-phosphate dehydrogenase",
+    "glucose 6 phosphate dehydrogenase"
+   ],
+   "count": 237
+  },
+{
+   "id": "hbv_vaccine",
+   "name_zh": "乙肝疫苗",
+   "keywords": [
+    "乙肝疫苗",
+    "hepatitis b vaccine",
+    "hbv vaccine",
+    "乙肝"
+   ],
+   "count": 273
+  },
+{
+   "id": "heat_stroke",
+   "name_zh": "中暑",
+   "keywords": [
+    "中暑",
+    "heat stroke",
+    "heatstroke",
+    "热射病",
+    "头晕",
+    "发烧"
+   ],
+   "count": 276
+  },
+{
+   "id": "hepatitis_b_china",
+   "name_zh": "乙型肝炎",
+   "keywords": [
+    "乙肝",
+    "乙型肝炎",
+    "hepatitis b",
+    "hbv",
+    "乙型病毒性肝炎"
+   ],
+   "count": 282
+  },
+{
+   "id": "lactose_intolerance",
+   "name_zh": "乳糖不耐受",
+   "keywords": [
+    "乳糖不耐受",
+    "lactose intolerance",
+    "lactase deficiency",
+    "乳糖",
+    "牛奶",
+    "喝牛奶",
+    "拉肚子",
+    "奶制品"
+   ],
+   "count": 267
+  },
+{
+   "id": "nasopharyngeal_carcinoma",
+   "name_zh": "鼻咽癌",
+   "keywords": [
+    "鼻咽癌",
+    "nasopharyngeal carcinoma",
+    "npc",
+    "ebv",
+    "eb病毒"
+   ],
+   "count": 297
+  },
+{
+   "id": "oral_rehydration",
+   "name_zh": "口服补液",
+   "keywords": [
+    "口服补液",
+    "oral rehydration",
+    "ors",
+    "腹泻",
+    "脱水",
+    "拉肚子"
+   ],
+   "count": 273
+  },
+{
+   "id": "preconception_care",
+   "name_zh": "孕前保健",
+   "keywords": [
+    "孕前保健",
+    "preconception",
+    "备孕",
+    "孕前"
+   ],
+   "count": 273
+  },
+{
+   "id": "thalassemia_china",
+   "name_zh": "地中海贫血",
+   "keywords": [
+    "地中海贫血",
+    "地贫",
+    "thalassemia",
+    "thalassaemia",
+    "beta thalassemia",
+    "alpha thalassemia"
+   ],
+   "count": 297
+  },
+{
+   "id": "tinea_humid",
+   "name_zh": "真菌感染与体癣",
+   "keywords": [
+    "体癣",
+    "真菌感染",
+    "tinea",
+    "fungal",
+    "潮湿"
+   ],
+   "count": 285
+  }
+]

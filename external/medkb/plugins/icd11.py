@@ -3,7 +3,7 @@
 raw: 官方 2025-01 发布包（CDN 直链，HTML 页内探测）：
   - SimpleTabulation-ICD-11-MMS-zh.zip（zh/en 标题 + Code + 章节）
   - mapping.zip（11To10MapToOneCategory：ICD-11 entity → ICD-10）
-输出：internal/knowledge/data/icd11_terms.json
+输出：internal/knowledge/data/icd11/icd11_terms.json（目录名就是数据集）
   {icd11_code, title_zh, title_en, icd10_map, chapter}
 """
 
@@ -79,8 +79,8 @@ def convert(ctx):
                     "chapter": (row.get("ChapterNo") or "").strip(),
                 })
     ctx.log(f"{len(terms)} 编码条目（icd10 映射 {sum(1 for t in terms if t['icd10_map'])} 条）")
-    out = base.DATA_DIR / "icd11_terms.json"
-    base.write_json(out, {
-        "source": "icd11", "updated": base.today(), "release": RELEASE, "terms": terms,
-    })
-    ctx.log(f"写出 {out} ({out.stat().st_size >> 10}KiB)")
+    out = base.icd11_terms_path()
+    # 顶层数组、每个元素一行 —— 统一种子格式（envelope 的 source/updated/release
+    # 三键随 2026-10-03 的格式统一去掉，发布版本记在下面的日志与 RELEASE 常量里）
+    base.write_json(out, terms)
+    ctx.log(f"写出 {out} ({out.stat().st_size >> 10}KiB, release {RELEASE})")

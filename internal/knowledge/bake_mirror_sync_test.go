@@ -2,13 +2,15 @@ package knowledge
 
 // external/bake_onnx.py is a hand-copied mirror of this package's seeding rules:
 // it is what bake-gpu.sh runs on the GPU box to build the Qdrant vector layer.
-// A file it does not know is skipped *silently*, and a field missing from its key
-// list is dropped from the embedded text — so a stale copy produces a smaller,
-// keywords-only vector layer with nothing failing and no log line to notice.
-// That drift actually happened (checked 2026-10-03): the mirror was frozen at
-// knowledge 1.39 and was missing 47 of the 73 科普 sources (6,902 rows) plus the
-// four prose keys. These assertions are the reason it cannot happen again.
-
+// Since the seed tree became self-classifying (data/<dataset>/<name>.json, one
+// JSON array per file, one element per row) there are no per-file lists left to
+// drift: the mirror walks the same directories and applies the same rule. What
+// still has to match exactly is the content of each row — the key that
+// identifies it and the text that gets embedded — so those two lists are pinned
+// here. A stale copy of either produces a smaller or keywords-only vector layer
+// with no failing log line, which is exactly what happened once (checked
+// 2026-10-03: the mirror was frozen at knowledge 1.39, missing 47 of the 73
+// 科普 sources and the four prose keys).
 import (
 	"os"
 	"regexp"
@@ -18,8 +20,6 @@ import (
 )
 
 const bakeMirrorPath = "../../external/bake_onnx.py"
-
-var pyConstant = regexp.MustCompile(`(?m)^(DS_\w+) = "([^"]+)"`)
 
 // pyBlock returns the literal body of a top-level Python list or dict assigned to
 // name, so tests can read the mirror without running Python.
@@ -59,14 +59,6 @@ func pyStrings(block string) []string {
 	return out
 }
 
-func pyConstants(src string) map[string]string {
-	out := map[string]string{}
-	for _, m := range pyConstant.FindAllStringSubmatch(src, -1) {
-		out[m[1]] = m[2]
-	}
-	return out
-}
-
 func diffStrings(goNames, pyNames []string) (missing, extra []string) {
 	have := map[string]bool{}
 	for _, n := range pyNames {
@@ -95,47 +87,12 @@ func sortedCopy(in []string) []string {
 	return out
 }
 
-func TestBakeMirrorMatchesGoSeedLists(t *testing.T) {
+func TestBakeMirrorMatchesGoSeedRules(t *testing.T) {
 	raw, err := os.ReadFile(bakeMirrorPath)
 	if err != nil {
 		t.Fatalf("reading the bake mirror: %v", err)
 	}
 	src := string(raw)
-	consts := pyConstants(src)
-
-	t.Run("medical seed files", func(t *testing.T) {
-		goFiles := make([]string, 0, len(medicalSeedFiles))
-		for f := range medicalSeedFiles {
-			goFiles = append(goFiles, f)
-		}
-		py := pyStrings(pyBlock(t, src, "SEED_LIST_MEDICAL_FILES"))
-		missing, extra := diffStrings(sortedCopy(goFiles), sortedCopy(py))
-		if len(missing)+len(extra) > 0 {
-			t.Errorf("bake_onnx.py SEED_LIST_MEDICAL_FILES != medicalSeedFiles\n"+
-				"  not baked by the GPU run (would be skipped silently): %v\n  unknown to Go: %v",
-				missing, extra)
-		}
-	})
-
-	t.Run("other seedList datasets", func(t *testing.T) {
-		block := pyBlock(t, src, "SEED_LIST_OTHER_FILES")
-		pyMap := map[string]string{}
-		for _, m := range regexp.MustCompile(`"([^"]+\.json)":\s*(DS_\w+)`).FindAllStringSubmatch(block, -1) {
-			pyMap[m[1]] = consts[m[2]]
-		}
-		for f, ds := range seedListDatasets {
-			if !strings.Contains(block, `"`+f+`"`) {
-				t.Errorf("bake_onnx.py SEED_LIST_OTHER_FILES is missing %s (%s)", f, ds)
-			} else if pyMap[f] != ds {
-				t.Errorf("bake_onnx.py maps %s to %q, Go maps it to %q", f, pyMap[f], ds)
-			}
-		}
-		for f := range pyMap {
-			if _, ok := seedListDatasets[f]; !ok {
-				t.Errorf("bake_onnx.py maps %s, which Go does not seed this way", f)
-			}
-		}
-	})
 
 	// Order is part of the contract: the baked text is truncated to MaxTextChars
 	// runes, so a reordered list silently changes which content survives.

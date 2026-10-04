@@ -8,8 +8,8 @@
 - **Zero Hallucination**：三重反幻觉机制——提示词约束 + 知识库绑定 + 响应后引用验证
 - **每条回答有据可查**：事实性陈述必须标注引用编号 `[N]`，附DOI/PMID和证据等级
 - **全人群覆盖**：覆盖地贫、G6PD缺乏症、鼻咽癌、乙肝、乳糖不耐受、ALDH2酒精代谢缺陷等中国重点高发疾病
-- **4层安全防护**：紧急检测(零延迟120响应) → 范围检查 → 引用验证 → 免责声明
-- **超大知识库**：78 个数据源（知识库版本 v1.39.0）——WHO/国家临床 ICD-10+ICD-11/HPO/Orphanet/ICD-O-3 编码库、60 万+医患问答、10 个统一语料全文源（StatPearls/MedlinePlus Genetics/LactMed/精神障碍诊疗规范/急救手册/旅行医学…）、13 个活跃工具
+- **三层安全防护**：紧急检测(零延迟120响应) → 范围检查 → 引用验证（答案尾部的免责声明 2026-09-06 已按产品决策移除，见下文「架构」一节）
+- **超大知识库**：119 个源文件 / 39 个数据集目录（知识库版本 v1.56.0，共 1,385,514 行）——WHO/国家临床 ICD-10+ICD-11/HPO/Orphanet/ICD-O-3 编码库、60 万+医患问答、10 个统一语料全文源（StatPearls/MedlinePlus Genetics/LactMed/精神障碍诊疗规范/急救手册/旅行医学…）、13 个活跃工具
 
 ## 📋 中国重点疾病覆盖
 
@@ -29,8 +29,8 @@
 
 | 数据源 | 数据量 | 说明 |
 |--------|--------|------|
-| 医学知识条目 | 423 | 核心疾病 + 常见病 60 + 老年/妇产/儿保 62 + WHO 官方中文 fact sheets 232 + 疫苗立场文件 12 + 中国疾控科普 26 + 免疫规划/喂养指南 14 |
-| 卫健委诊疗指南全文 | 47 | 传染病/常见病诊疗方案中文全文（含 OCR 版） |
+| 医学知识条目（medical 数据集） | 7,325 | 核心疾病 + 常见病 + WHO 官方中文 fact sheets 232 + 疫苗立场文件 12 + 中国疾控科普 26 + 免疫规划/喂养指南，以及科普扩充批次 1~19（辟谣 3,645 / 医学微视 738 / WHO 中文健康 336 / 谣言板 247 / 健康报 374 / 中华医学会科普 157 / 临床指南 121 …） |
+| 卫健委诊疗指南全文 | 69 | 传染病/常见病诊疗方案中文全文（含 OCR 版） |
 | ICD-10 疾病编码 | 35,862 | 国家临床版2.0 |
 | ICD-11 MMS 编码 | 35,339 | WHO 2025-01 中文版，含 ICD-10 映射 |
 | HPO 人类表型本体 | 19,836 | 中英表型名+同义词 |
@@ -119,7 +119,7 @@ DEEPSEEK_API_KEY=sk-你的密钥
 API_KEY=自定义一个复杂的访问密钥        # 设了它，/app 网页版需要反代放行或改走 API；只跑网页版可留空
 AUTH_SECRET=自定义一长串随机值          # 必填否则每次重启全员掉线：openssl rand -hex 32
 # TRUSTED_PROXIES=127.0.0.1,10.0.0.0/8 # 在 nginx/负载均衡后面时必须配，否则所有访客共用一个限流桶
-ADMIN_PASSWORD=自定义管理员密码         # 不设会回退 admin123 并打 Warn
+ADMIN_PASSWORD=自定义管理员密码         # 不设会随机生成一个、只在启动时打印一次（main.go:388-402）
 
 # 数据库
 APP_DB_DSN=root:your_password@tcp(localhost:3306)/doctor_agent
@@ -421,7 +421,7 @@ docker compose up -d --build    # 重新构建并启动
 | `MARIA_DB_HOST` / `_PORT` / `_USER` / `_PASSWORD` | `localhost` / `3306` / `root` / 空 | 连接参数；`KNOWLEDGE_DB_DSN` 为空时两个库都用它，设了则它只描述**业务库**实例 |
 | `MARIA_DB_KNOWLEDGE_DB` / `MARIA_DB_APP_DB` | `doctor_knowledge` / `doctor_agent` | 知识库 / 业务库库名 |
 | `KNOWLEDGE_DB_DSN` / `APP_DB_DSN` | 空（由 `MARIA_DB_*` 组合） | 显式覆盖完整 DSN。**知识库单独一个容器时必须设**（compose 已给）；设了之后应用不会再往业务实例上创建 `doctor_knowledge` |
-| `ADMIN_PASSWORD` | 空 | 首次启动自动创建 `admin` 账号的密码；**为空时回退 `admin123` 并打 Warn——生产必须显式设置** |
+| `ADMIN_PASSWORD` | 空 | 首次启动自动创建 `admin` 账号的密码；**为空时随机生成 128-bit 口令、只在启动日志打印一次**（`main.go:388-402`）——早期版本回退固定 `admin123`，那等于把管理台交给任何能访问该端口的人，已废弃 |
 | `MEDIA_DIR` | `data/media` | `/media/*` 静态资源目录 |
 | `LOG_LEVEL` | `info` | slog 级别：`debug` / `info` / `warn` / `error` |
 
@@ -574,7 +574,7 @@ curl -N -X POST http://localhost:7071/chat/stream \   # SSE 流式
   ├─ [L1 紧急检测] 关键词匹配 → 120响应（零LLM延迟）
   ├─ [L2 范围检查] 排除兽医/法医/偏方/自残
   ├─ [知识检索] 关键词(BM25+CJK) + 向量/混合检索，命中 MariaDB 知识库 / Qdrant RAG
-  ├─ [提示词组装] 分层系统提示词（Layer 0–4 共 9 段）+ 检索知识注入
+  ├─ [提示词组装] 分层系统提示词（静态 8 层 0–3.8 可缓存前缀 + 动态段含 Layer 4）+ 检索知识注入
   ├─ [Agent循环] LLM Provider(流式) ← → 13个医疗工具
   └─ [L3 引用验证] 引用真实性核查 + 诊断断言检查（日志留痕，不静默改写）
 ```
@@ -604,6 +604,8 @@ HTTP 层另有安全中间件（顺序固定）：可信代理解析访客 IP �
 
 ## 📁 项目结构
 
+> 📖 **每个源码目录都有一份 `AGENTS.md`**（共 20 份：`internal/*` 14 个包 + `internal/server/web` + `cmd` / `evals` / `docker` / `external` / `docs`），写的是那个目录里每个文件的作用、关键函数行号、以及已核实的坑。下面这张树只给到模块级；要看模块内部细节请直接读对应目录的 `AGENTS.md`，根目录那一份是索引 + 跨模块约定。
+
 ```
 doctor-agent/
 ├── main.go                         # CLI + HTTP 入口（chat / serve / verify-knowledge / seed-knowledge / sync-knowledge / version）
@@ -618,14 +620,14 @@ doctor-agent/
 │   ├── embedding/                    # OpenAI 协议 embedding 客户端（bge-m3）
 │   ├── logging/                      # slog 初始化
 │   ├── session/                      # 会话状态 + PatientContext + SESSION_DIR JSON 快照
-│   ├── prompt/                       # 分层系统提示词（Layer 0–4 共 9 段）
+│   ├── prompt/                       # 分层系统提示词（静态 8 层可缓存前缀 + 动态段，见 internal/prompt/AGENTS.md）
 │   ├── knowledge/                    # 知识库(MariaDB 懒加载 + Qdrant 向量) + 各检索器 + 引用系统 + verify.go
-│   │   ├── data/                     # 121个源JSON，放在 39 个 <dataset>/ 目录里（目录名就是数据集，无需登记；编辑后跑 python3 external/make_gz.py → gz/<dataset>/*.json.zst）
+│   │   ├── data/                     # 119个源JSON（39 个 <dataset>/ 目录；目录名就是数据集，无需登记。编辑后跑 python3 external/make_gz.py → gz/<dataset>/*.json.zst，共 121 个归档）
 │   │   │                             #   超过 GitHub 单文件 100MiB 的两份（huatuo/huatuo_qa、medicalqa/medical_qa_pairs）以
 │   │   │                             #   <dataset>/X.json.partNNN + X.json.parts 分片入库，make_gz 会自动合并
 │   │   └── gz/                       # zstd 压缩的种子文件（seed/bake 输入，二进制不内嵌）
 │   ├── tools/                        # 13个活跃工具 + Registry + router(知识图谱意图路由)
-│   ├── safety/                       # 4层安全防护（紧急检测/范围守卫/引用后验证/免责声明）
+│   ├── safety/                       # 三层安全防护（紧急检测/范围守卫/引用后验证；无免责声明层，见 safety/AGENTS.md）
 │   └── server/                       # HTTP Server + 中间件 + web/(落地页·咨询台·地图·统计·分享·管理台，go:embed)
 ├── evals/                           # 防幻觉黄金评测集（中文77 + 英文299 + CMB/CMExam各200选择题）
 ├── external/                        # 知识抓取/转换管线（medkb 统一语料 + WHO/MSD/EML/ClinVar…）

@@ -10,7 +10,7 @@ graph TB
         B -->|chat| D[runChat]
         B -->|serve| E[runServe :7071]
         B -->|seed/sync/verify-knowledge| W[知识库命令]
-        B -->|vector-bake| X[离线向量烘焙]
+        B -.->|vector-bake 已迁出| X["go run ./cmd/vector-bake<br/>（根命令里只剩退出码 2 的提示桩）"]
     end
 
     subgraph "HTTP层 (internal/server)"
@@ -51,7 +51,7 @@ graph TB
         M --> M9["Layer 3.55: 口语↔术语映射"]
         M --> M6["Layer 3.75: 格式"]
         M --> M7["Layer 3.8: 双版本"]
-        M --> M8["Layer 4: 安全规则"]
+        M --> M8["Layer 4: 安全规则（在动态段，不进可缓存前缀）"]
     end
 
     subgraph "Agent循环"
@@ -76,11 +76,13 @@ graph TB
     end
 
     subgraph "后处理"
-        R --> T[L3: PostVerifier]
-        T --> U[L4: Disclaimer]
-        U --> V[返回Response]
+        R --> T[L3: PostVerifier<br/>仅记日志，不改写回答]
+        T --> V[返回Response]
     end
 ```
+
+> 图上原本还有一条 `L4: Disclaimer`（在答案尾部追加提示文字），2026-09-06 已按产品决策从正常回答里移除，因此现在的后处理只有 L3 一步：核查不通过只写 `slog.Warn`，`CorrectedResponse` 明确丢弃。`Response.DisclaimerSent` 只在 L1 急救与 L2 拒答两条短路上为 true。
+> 提示词侧的切分线：**静态前缀 = 0/1/2/3/3.5/3.55/3.75/3.8 共 8 层**（`composer.go:35-70`，逐字节稳定才吃得到 Anthropic 前缀缓存），Layer 4 安全规则与患者上下文/引用表/知识原文摘录一起属于**动态段**（`ComposeDynamicSections:78-105`）。旧文档写「Layer 0–4 共 9 段」是把 Layer 4 错算进了静态。
 
 ## 知识库体系
 
@@ -88,7 +90,7 @@ graph TB
 graph TB
     subgraph "Store (sync.Once单例)"
         A[Store]
-        A --> B[MedicalEntries 多JSON汇聚]
+        A --> B["MedicalEntries 7325（medical 目录 73 个归档汇聚）"]
         A --> C[DrugEntries]
         A --> D[FoodRiskEntries]
         A --> E[EmergencyRules]
@@ -100,7 +102,7 @@ graph TB
         A --> K[MedinsDrugs 3618 2025版]
         A --> L[EMLEntries 564]
         A --> M[FDALabels 344]
-        A --> N[NHCGuides 47]
+        A --> N[NHCGuides 69]
         A --> O[FHSGuides 103]
         A --> P[AAPEntries 264]
         A --> Q[HealthMyths 16]
@@ -111,8 +113,8 @@ graph TB
         A --> V[CPubMedTriples 105328]
         A --> W[HuatuoQAPairs 177703]
         A --> X[MedicalQAData 426978]
-        A --> Y[TTDData 4299靶点]
-        A --> Z[SIDERData 1507药]
+        A --> Z[TTDData 4299靶点/29782药]
+        A --> ZS["SIDERData 100药（行内 drug_count 字段写 1507，实际只带 100 条）"]
         A --> ZA[ICD11Terms 35339]
         A --> ZB[HPOTerms 19836]
         A --> ZC[OrphanetDiseases 11647]
@@ -166,11 +168,14 @@ graph LR
 
         N[分析类] --> N1[lab_report_analyze]
         N --> N2[visit_prep]
+        N --> N3[food_risk_analyzer]
 
-        O[多媒体] --> O1[food_risk_analyzer]
-        O --> O2[medical_image_analyze]
+        O[多媒体] --> O2[medical_image_analyze]
     end
 ```
+
+> 分类只是阅读方便，不是代码结构：`food_risk_analyzer` 属于食物/风险类，和 `drug_*` 一样是独立工具，注册顺序见 `internal/agent/agent.go:153-169`。
+> ⚠️ **注册 ≠ 可见**：模型每轮能调的工具名来自 `internal/tools/router.go` 的 `toolGroups` / `relationToTools`，`drug_label_lookup`、`lab_report_analyze`、`visit_prep` 两个表里都没有，因此现在模型实际上叫不到它们（已核实的缺陷，未修，见 `internal/tools/AGENTS.md`）。
 
 > 📝 注：其他工具（reference_lookup, literature_search, msd_search, medline_search, drug_lookup, eml_lookup, nhc_search, fhs_search, aap_search, lab_interpreter, icd10_lookup, nmpa_drug_lookup, disease_encyclopedia_lookup, huatuo_qa_lookup, body_part_lookup, growth_assessment, milestone_lookup, newborn_care_lookup 等）已整合到 knowledge_search（统一语料/问答/全文层检索）与 exact_lookup（12 类精确编码：icd10/icd11/hpo/nmpa/variant/eml/fda_label/ttd/sider/medins/orphanet/icdo3）中。`internal/dialogue` 规则式意图包已删除（2026-09-20，死代码）。
 
@@ -178,8 +183,10 @@ graph LR
 
 ```mermaid
 graph TB
-    subgraph "中间件链 withMiddleware"
-        A[请求] --> B[CORS 头 + OPTIONS 短路]
+    subgraph "中间件链 withMiddleware（顺序固定，不可调换）"
+        A[请求] --> Z0["可信代理解析客户端 IP<br/>（TRUSTED_PROXIES：TCP 对端命中才采信 X-Forwarded-For）"]
+        Z0 --> Z1["登录令牌注入身份 resolveCaller<br/>（auth_api.go → context callerKey）"]
+        Z1 --> B[CORS 头 + OPTIONS 短路]
         B --> P{publicPaths 命中?}
         P -->|是| E[slog Logging]
         P -->|否| C["Rate Limit（IP 固定窗口）"]
@@ -208,7 +215,7 @@ graph TB
         Q[CORS_ORIGINS] --> R[域名白名单；空=允许全部]
         S[RATE_LIMIT] --> T["IP 限流，0=不限；公开页不计"]
         PB[PUBLIC_BASE_URL] --> V["落地页 canonical/og:url + sitemap"]
-        AD[ADMIN_PASSWORD] --> AE["首启自动建 admin（空则回退 admin123 并告警）"]
+        AD[ADMIN_PASSWORD] --> AE["首启自动建 admin（空则随机生成 128-bit 口令、只打印一次；固定 admin123 已废弃）"]
     end
 ```
 
@@ -257,11 +264,11 @@ graph LR
     end
 
     subgraph "知识库"
-        D --> E[internal/knowledge/data/*.json]
+        D --> E["internal/knowledge/data/&lt;dataset&gt;/&lt;name&gt;.json<br/>（目录名=数据集，39 个目录 / 119 个源，零登记表）"]
         E --> F[make_gz.py zstd-19]
-        F --> G[internal/knowledge/gz/*.json.zst]
-        G --> H1[seed-knowledge → MariaDB doctor_knowledge]
-        G --> H2[vector-bake → Qdrant 镜像]
+        F --> G["internal/knowledge/gz/&lt;dataset&gt;/&lt;name&gt;.json.zst<br/>（121 个归档）"]
+        G --> H1["seed-knowledge → MariaDB doctor_knowledge（1,385,514 行）"]
+        G --> H2["cmd/vector-bake → Qdrant 镜像（638,970 点，跳过集除外）"]
     end
 
     subgraph "验证"
@@ -269,6 +276,10 @@ graph LR
         I --> K[URL可达性检查]
     end
 ```
+
+> 图上的 `fetch_*.py → convert_*.py → structurize_*.py` 是历史一次性转换器的形状；现在**活管线只有 6 条**（`make_gz.py`、`split_data.py`、`bake_onnx.py`、`embed_server.py`、`export_onnx.py`、`external/medkb/`），清单与哪些脚本仍写平铺路径见 `external/AGENTS.md`。
+> 图里的数字（39/119/121/1,385,514/638,970）是最容易过期的一类陈述，别引用它们做判断——自己测：
+> `ls internal/knowledge/data | wc -l`、`find internal/knowledge/data -name '*.json' | wc -l`、`find internal/knowledge/gz -name '*.zst' | wc -l`、`SELECT COUNT(*) FROM kb_items`、`go run ./cmd/vector-bake` 的预检行。
 
 ## 完整处理流程
 
@@ -285,12 +296,11 @@ sequenceDiagram
     participant LLM as LLM Provider
     participant T as Tools
     participant PV as PostVerifier
-    participant D as Disclaimer
 
     U->>S: POST /chat/stream（可带 images/member_id）
     S->>A: ProcessMessageStream()
 
-    A->>E: Detect(userMessage)（开关 EMERGENCY_DETECTION_ENABLED；带图时跳过）
+    A->>E: Detect(userMessage)（开关 EMERGENCY_DETECTION_ENABLED；带图时跳过，见 :1217）
     alt 紧急情况
         E-->>S: 急救响应（零 LLM 调用）
         S-->>U: SSE Response
@@ -322,8 +332,7 @@ sequenceDiagram
         else 无ToolCalls
             A->>PV: Verify()（引用真实性 + 诊断断言）
             PV-->>A: VerifyResult（POST_VERIFY_SEMANTIC 时 LLM-as-judge）
-            A->>D: Apply()
-            D-->>A: Response
+            Note over A,PV: 不通过只写 slog.Warn，CorrectedResponse 显式丢弃<br/>（无 L4 免责声明注入，2026-09-06 移除）
         end
     end
 

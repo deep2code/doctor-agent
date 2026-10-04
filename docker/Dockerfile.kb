@@ -16,7 +16,7 @@
 # root 密码遵循标准镜像约定: 部署时用 MARIADB_ROOT_PASSWORD 注入
 # (compose 默认 changeme). 应用侧用 KNOWLEDGE_DB_DSN 连本容器.
 #
-# 数据版本以 internal/knowledge/data/version.json 为准 (build.sh kb 只发布 :latest,
+# 数据版本以 internal/knowledge/data/version/version.json 为准 (build.sh kb 只发布 :latest,
 # 版本号用于溯源, 不作为 tag).
 # 重建流程: 起本地 MariaDB → MARIA_DB_PORT=xxxx go run ./cmd/kbseed →
 #   docker exec <容器> mariadb-dump ... | gzip > docker/kb/init-doctor_knowledge.sql.gz

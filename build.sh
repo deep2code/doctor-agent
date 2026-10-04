@@ -54,7 +54,9 @@ APP_IMAGE_LATEST="${REGISTRY}/doctor-agent:latest"
 QDRANT_IMAGE="${REGISTRY}/doctor-agent-qdrant:latest"
 EMBED_IMAGE="${REGISTRY}/doctor-agent-embed:latest"
 # kb 镜像只发 :latest —— 数据镜像不做版本号标签, version.json 只作为构建期溯源信息打印。
-KB_DATA_VERSION="$(python3 -c "import json;print(json.load(open('internal/knowledge/data/version/version.json'))['version'])" 2>/dev/null || echo unknown)"
+# The seed tree's rule is one top-level array per source, so version.json is a
+# one-element array whose element is the version row.
+KB_DATA_VERSION="$(python3 -c "import json;print(json.load(open('internal/knowledge/data/version/version.json'))[0]['version'])" 2>/dev/null || echo unknown)"
 KB_IMAGE="${REGISTRY}/doctor-agent-kb:latest"
 
 build_embed() {

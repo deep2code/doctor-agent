@@ -123,9 +123,11 @@ Usage:
   (vector-bake moved to: go run ./cmd/vector-bake)
 
 Environment:
-  LLM_PROVIDER                       LLM provider: deepseek (default) | openai-compat
+  LLM_PROVIDER                       LLM provider: deepseek (default) | openai-compat | anthropic
   DEEPSEEK_API_KEY                   DeepSeek API key (required when LLM_PROVIDER=deepseek)
-  DEEPSEEK_MODEL                     DeepSeek model (default: deepseek-v4-pro)
+  DEEPSEEK_MODEL                     DeepSeek model (default: deepseek-flash)
+  ANTHROPIC_API_KEY                  Anthropic API key (required when LLM_PROVIDER=anthropic)
+  ANTHROPIC_MODEL                    Claude model (default: claude-sonnet-4-20250514)
   SERVER_HOST                        Server host (default: 0.0.0.0)
   SERVER_PORT                      Server port (default: 7071)
   API_KEY                          Bearer token for /chat endpoints (default: empty = no auth)
@@ -146,7 +148,7 @@ Environment:
 Vector Database:
   VECTOR_STORE_ENABLED             Enable vector database (default: true)
   VECTOR_STORE_HOST                Vector store host (default: localhost)
-  VECTOR_STORE_PORT                Vector store port (default: 6333)
+  VECTOR_STORE_PORT                Vector store gRPC port (default: 6334; Qdrant HTTP is 6333)
   VECTOR_COLLECTION                Vector collection name (default: medical_knowledge)
 
 Embedding:

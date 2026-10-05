@@ -181,7 +181,7 @@ func dedupeDatasetKeys(rows []KBRow) {
 // extractKeyFields and searchTextKeys are the field priority lists used to turn
 // a document into a row key and into the text that gets vectorised. They are
 // package-level because the Python bake mirror (external/bake_onnx.py) keeps a
-// copy of both, and TestBakeMirrorMatchesGoSeedLists compares them.
+// copy of both, and TestBakeMirrorMatchesGoSeedRules compares them.
 var extractKeyFields = []string{
 	"id", "ID", "clinvar_id", "icd10_code", "hpo_id", "orpha_code",
 	"code", "Code", "name", "Name", "name_zh", "NameZH",

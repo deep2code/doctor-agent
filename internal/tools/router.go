@@ -22,48 +22,51 @@ const (
 	CatDisease   QueryCategory = "disease"
 	CatLitera    QueryCategory = "literature"
 	CatImage     QueryCategory = "image"
-	CatGeneral    QueryCategory = "general"
+	CatGeneral   QueryCategory = "general"
 )
 
 // toolGroups maps each category to relevant tool names.
-// With the unified 8-tool set, routing selects which action tools and
-// unified retrieval/lookup tools are most relevant to the query domain.
+// Routing selects which tools are most relevant to the query domain, so a
+// tool that appears in no group (and no relationToTools entry) can never be
+// returned — registration alone does not make it visible to the model.
 var toolGroups = map[QueryCategory][]string{
 	CatDrug: {
-		"drug_safety_check", "drug_interaction_check",
+		"drug_safety_check", "drug_interaction_check", "drug_label_lookup",
 		"exact_lookup", "knowledge_search", "medical_kg_lookup",
 	},
 	CatSymptom: {
-		"symptom_triage", "knowledge_search", "medical_kg_lookup",
+		"symptom_triage", "knowledge_search", "medical_kg_lookup", "visit_prep",
 	},
 	CatGenetic: {
 		"genetic_risk_calculator", "drug_safety_check",
 		"food_risk_analyzer", "exact_lookup",
 	},
 	CatLab: {
-		"knowledge_search", "exact_lookup",
+		"lab_report_analyze", "knowledge_search", "exact_lookup",
 	},
 	CatChildcare: {
 		"knowledge_search",
 	},
 	CatDisease: {
-		"knowledge_search", "exact_lookup", "symptom_triage",
+		"knowledge_search", "exact_lookup", "symptom_triage", "visit_prep",
 		"medical_kg_lookup", "cpubmed_kg_lookup",
 	},
 	CatLitera: {
 		"knowledge_search",
 	},
 	CatImage: {
-		"medical_image_analyze",
+		"medical_image_analyze", "lab_report_analyze",
 	},
 	CatGeneral: {
 		"knowledge_search", "symptom_triage", "drug_safety_check",
+		"drug_label_lookup", "visit_prep",
 	},
 }
 
 // Router classifies user queries and selects a relevant tool subset.
-// With only 8 tools, routing is lightweight: it ensures the LLM sees the
-// most relevant action tools + unified retrieval for the query domain.
+// With 13 tools it is lightweight: the goal is to keep the LLM's decision
+// space bounded while showing the most relevant action tools + unified
+// retrieval for the query domain.
 type Router struct {
 	keywords map[QueryCategory][]string
 }
@@ -183,20 +186,19 @@ func ParamsHash(toolName string, args map[string]any) string {
 //
 // Falls back to keyword-based ClassifyMulti when KG lookup yields nothing.
 
-// relationToTools maps OpenCMKG relation types to relevant tools.
-// With the unified 8-tool set, KG relations map to action tools + unified
-// retrieval rather than individual specialized tools.
+// relationToTools maps OpenCMKG relation types to relevant tools. KG relations
+// map to the action tools that consume them plus unified retrieval.
 var relationToTools = map[string][]string{
-	"disease_has_symptom":     {"symptom_triage", "knowledge_search", "medical_kg_lookup"},
-	"disease_recommand_drug":  {"drug_safety_check", "drug_interaction_check", "knowledge_search", "medical_kg_lookup"},
-	"disease_common_drug":     {"drug_safety_check", "drug_interaction_check", "exact_lookup", "knowledge_search", "medical_kg_lookup"},
-	"disease_recommand_food":  {"food_risk_analyzer"},
-	"disease_noteat_food":     {"food_risk_analyzer"},
-	"disease_eat_food":        {"food_risk_analyzer"},
-	"disease_need_check":      {"knowledge_search", "exact_lookup", "cpubmed_kg_lookup"},
-	"disease_need_treatment": {"knowledge_search", "cpubmed_kg_lookup"},
-	"disease_belong_department": {"symptom_triage", "knowledge_search"},
-	"disease_acompany_disease": {"knowledge_search", "cpubmed_kg_lookup"},
+	"disease_has_symptom":       {"symptom_triage", "knowledge_search", "medical_kg_lookup"},
+	"disease_recommand_drug":    {"drug_safety_check", "drug_interaction_check", "drug_label_lookup", "knowledge_search", "medical_kg_lookup"},
+	"disease_common_drug":       {"drug_safety_check", "drug_interaction_check", "drug_label_lookup", "exact_lookup", "knowledge_search", "medical_kg_lookup"},
+	"disease_recommand_food":    {"food_risk_analyzer"},
+	"disease_noteat_food":       {"food_risk_analyzer"},
+	"disease_eat_food":          {"food_risk_analyzer"},
+	"disease_need_check":        {"knowledge_search", "exact_lookup", "lab_report_analyze", "cpubmed_kg_lookup"},
+	"disease_need_treatment":    {"knowledge_search", "cpubmed_kg_lookup"},
+	"disease_belong_department": {"symptom_triage", "knowledge_search", "visit_prep"},
+	"disease_acompany_disease":  {"knowledge_search", "cpubmed_kg_lookup"},
 }
 
 // symptomVocabulary is a broader symptom lexicon for KG routing, extending
@@ -219,10 +221,11 @@ var symptomVocabulary = []string{
 }
 
 // ClassifyKG performs two-level KG-guided tool routing:
-//   1. Extract symptom keywords from query.
-//   2. Reverse-lookup disease candidates via store.FindDiseasesBySymptom.
-//   3. For top disease candidates, inspect KG relations → map to tools.
-//   4. Merge, deduplicate, cap at 8.
+//  1. Extract symptom keywords from query.
+//  2. Reverse-lookup disease candidates via store.FindDiseasesBySymptom.
+//  3. For top disease candidates, inspect KG relations → map to tools.
+//  4. Merge, deduplicate, cap at 8.
+//
 // Returns tool names; falls back to ClassifyMulti when KG yields nothing.
 func (r *Router) ClassifyKG(query string, store *knowledge.Store) []string {
 	if store == nil {

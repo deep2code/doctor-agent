@@ -39,15 +39,61 @@ func NewKnowledgeSearch(store *knowledge.Store, retriever knowledge.Retriever) *
 
 func (t *KnowledgeSearch) Name() string { return "knowledge_search" }
 
+// datasetSpec is one knowledge_search dataset: the name the model passes and
+// the label it reads. This table is the single source for every list of
+// supported datasets in this file (Description, Schema, the unknown-dataset
+// error) — they were three hand-written copies and drifted apart, so the model
+// was told about fewer datasets than the tool actually answers for.
+type datasetSpec struct{ name, label string }
+
+var knowledgeSearchDatasets = []datasetSpec{
+	{"medical", "通用医学知识库(疾病/药物/急救/食物风险/检验)"},
+	{"msd", "默沙东诊疗手册中文版"},
+	{"nhc", "国家卫健委诊疗方案全文"},
+	{"fhs", "香港家庭健康服务育儿百科"},
+	{"aap", "美国儿科学会育儿百科(英文)"},
+	{"medline", "MedlinePlus医学百科(英文)"},
+	{"medlinezh", "MedlinePlus中文医学百科"},
+	{"literature", "欧洲PMC文献摘要"},
+	{"disease_encyclopedia", "疾病百科(CMeKG 8807种疾病)"},
+	{"huatuo_qa", "华佗医疗问答(177K条)"},
+	{"medical_qa", "中文医疗问答(50万条)"},
+	{"body_part", "人体部位分诊"},
+	{"milestone", "儿童发育里程碑"},
+	{"newborn_care", "新生儿护理与筛查"},
+	{"statpearls", "StatPearls英文医学全书"},
+	{"medgen", "MedlinePlus遗传病百科(英文)"},
+	{"lactmed", "LactMed哺乳期用药(英文)"},
+	{"otc_safety", "非处方药安全用药科普"},
+	{"otc_labels", "非处方药说明书公告要点"},
+	{"nhc_mental", "卫健委精神障碍诊疗规范"},
+	{"firstaid", "红十字会急救手册"},
+	{"cdc_kp", "中国疾控中心健康提示"},
+	{"travel_health", "WHO国际旅行健康要求(193国)"},
+	{"public_resources", "公共医学资源(教科书/视频/科普网站)"},
+}
+
+// datasetNames returns the comma-joined dataset values Execute accepts.
+func datasetNames() string {
+	names := make([]string, 0, len(knowledgeSearchDatasets))
+	for _, d := range knowledgeSearchDatasets {
+		names = append(names, d.name)
+	}
+	return strings.Join(names, ", ")
+}
+
+// datasetLabels returns the comma-joined "name=说明" list for the model.
+func datasetLabels() string {
+	labels := make([]string, 0, len(knowledgeSearchDatasets))
+	for _, d := range knowledgeSearchDatasets {
+		labels = append(labels, d.name+"="+d.label)
+	}
+	return strings.Join(labels, ", ")
+}
+
 func (t *KnowledgeSearch) Description() string {
 	return "统一医学知识检索工具，可跨多个数据集检索。输入检索关键词，选择数据集类型（默认 medical），返回匹配的知识条目。" +
-		"支持的数据集：medical=通用医学知识库(疾病/药物/急救/食物风险/检验), " +
-		"msd=默沙东诊疗手册中文版, nhc=国家卫健委诊疗方案, fhs=香港家庭健康服务育儿百科, " +
-		"aap=美国儿科学会育儿百科, medline=MedlinePlus医学百科, literature=欧洲PMC文献, " +
-		"disease_encyclopedia=疾病百科(CMeKG 8807种疾病), huatuo_qa=华佗医疗问答(177K条), " +
-		"medical_qa=中文医疗问答(50万条), body_part=人体部位分诊, " +
-		"milestone=儿童发育里程碑, newborn_care=新生儿护理与筛查, " +
-		"public_resources=公共医学资源(教科书/视频/科普网站)。"
+		"支持的数据集：" + datasetLabels() + "。"
 }
 
 func (t *KnowledgeSearch) Schema() map[string]any {
@@ -60,7 +106,7 @@ func (t *KnowledgeSearch) Schema() map[string]any {
 			},
 			"dataset": map[string]any{
 				"type":        "string",
-				"description": "检索数据集（默认 medical）: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care, statpearls, medgen, lactmed, otc_safety, medlinezh, cdc_kp, otc_labels, nhc_mental, firstaid, travel_health, public_resources",
+				"description": "检索数据集（默认 medical）: " + datasetNames(),
 			},
 			"top_k": map[string]any{
 				"type":        "integer",
@@ -142,7 +188,7 @@ func (t *KnowledgeSearch) Execute(ctx context.Context, input map[string]any) (*T
 		return t.searchPublicResources(ctx, query, topK)
 	default:
 		return &ToolResult{Success: false, Error: fmt.Sprintf(
-			"未知数据集 '%s'，支持: medical, msd, nhc, fhs, aap, medline, literature, disease_encyclopedia, huatuo_qa, medical_qa, body_part, milestone, newborn_care, statpearls, medgen, lactmed, otc_safety, medlinezh, cdc_kp, otc_labels, nhc_mental, firstaid, travel_health, public_resources", dataset)}, nil
+			"未知数据集 '%s'，支持: %s", dataset, datasetNames())}, nil
 	}
 }
 

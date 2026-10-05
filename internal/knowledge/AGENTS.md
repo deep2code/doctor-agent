@@ -44,7 +44,7 @@
 1. **syncer 与 bake 的跳过名单不是同一道闸**：`vectorBakeEligible` 只在 `syncer.go:148`（cpubmed）和 `syncer.go:809`（按文件同步）两处生效，其余 9 条 typed 路径无守卫。眼下恰好这 10 个数据集本来就不在 typed 路径里所以等价，但"改一个 skip 项"不会自动传导。
 2. **typed 同步路径与 bake 产出不兼容**：typed 路径的 payload 仍写 `text`/`timestamp`（`syncer.go:881-882`，bake 已删），且点 ID 派生是 `uuidFromSourceHash(source, sha256(entryJSON))`（`syncer.go:868`）≠ bake 的 `dataset+"|"+key` —— 同一内容会产生两套并存的点。跨引擎也不能混用：Go 的 `json.Marshal` 转义 `<>&`、Python 不转义，而 data 的 sha256 参与派生。
 3. **`tokenize()` 不分词中文**，CJK 召回全靠 `retriever_keyword.go` 的子串 + bigram；但它**会保留纯数字 token**（只丢单字母 ASCII），rule1 全等匹配 → 关键词里含"牢记 3 件事""（2018年版）"这类独立数字，会给任何冒出该数字的查询白送 +3.0。批次17 洗掉 52 个，**仍有 102 条老条目带此缺陷**（who_zh_health / piyao_more / who_factsheets / piyao_selected / home_monitoring / checkup_labs），干净修法是 `tokenize()` 一行，属产品决策未动。检测办法：按分隔符（Unicode Z/P/S）自己切一遍，找 `^\d+$`，别用子串 grep。
-4. ~~`seed.go` 的注释写着 `TestBakeMirrorMatchesGoSeedLists`~~ —— 2026-10-04 已改成现门名 `TestBakeMirrorMatchesGoSeedRules`（`bake_mirror_sync_test.go:90`）。
+4. ~~`seed.go` 的注释写着 `TestBakeMirrorMatchesGoSeedLists`~~ —— 2026-10-05 已改成现门名 `TestBakeMirrorMatchesGoSeedRules`（`bake_mirror_sync_test.go:90`）。
 5. 同分排序天然脆弱：keyword 层三处 `sort.Slice` 与 `rrfFuse`（`retriever_hybrid.go:172`，由 map 迭代构建候选）都不稳定，卡在 top5 边界的同分断言每次进程都可能换名次；**定稿门必须在全量重播后的库上跑**（增量 upsert 一旦让条目集合变化，结果不作数）。
 
 ## 回归门（本包 40+ 个测试文件）

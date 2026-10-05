@@ -55,7 +55,7 @@
 
 ## 已核实的坑
 
-1. 工具可见性由 `internal/tools/router.go` 的 `toolGroups` / `relationToTools` 决定，`agent.go:928` 只是转达 —— 所以「在 `agent.go:153-169` 注册过」不等于模型能调到。三个曾经的受害者（`drug_label_lookup`/`lab_report_analyze`/`visit_prep`）已于 2026-10-04 入组，回归门 `internal/tools/router_visibility_test.go` 双向锁死这条不变量；详见 `internal/tools/AGENTS.md` 第 1 条。
+1. 工具可见性由 `internal/tools/router.go` 的 `toolGroups` / `relationToTools` 决定，`agent.go:928` 只是转达 —— 所以「在 `agent.go:153-169` 注册过」不等于模型能调到。三个曾经的受害者（`drug_label_lookup`/`lab_report_analyze`/`visit_prep`）已于 2026-10-05 入组，回归门 `internal/tools/router_visibility_test.go` 双向锁死这条不变量；详见 `internal/tools/AGENTS.md` 第 1 条。
 2. `RemoveReferralSentences`（safety 层）确实挂在急救分支上，会删掉含"拨打120/立即就医"的句子（:662、:1044 两处调用）。这是 2026-09-21 安全审计里按产品决策**保留**的行为，不要顺手"修好"。
 3. `agent.go:150` 注释里的"9 action"、`:163` 的"~28 retired"、`:925` 的"from 35 to <=10"都是历史残留，对不上代码。
 

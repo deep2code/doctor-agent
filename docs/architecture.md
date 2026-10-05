@@ -175,7 +175,7 @@ graph LR
 ```
 
 > 分类只是阅读方便，不是代码结构：`food_risk_analyzer` 属于食物/风险类，和 `drug_*` 一样是独立工具，注册顺序见 `internal/agent/agent.go:153-169`。
-> ✅ **注册 ≠ 可见（2026-10-04 已修）**：模型每轮能调的工具名来自 `internal/tools/router.go` 的 `toolGroups` / `relationToTools`，只注册不进这两张表等于对模型不可达。`drug_label_lookup`、`lab_report_analyze`、`visit_prep` 曾经两个表里都没有，现已各自入组（标签查询进 CatDrug/CatGeneral，化验单进 CatLab/CatImage，就诊准备进 CatSymptom/CatDisease/CatGeneral，并补进 `relationToTools` 的相关关系）。回归门 `internal/tools/router_visibility_test.go` 双向锁死：13 个在册工具必须全部可路由，路由表里也不许出现已退役的名字。
+> ✅ **注册 ≠ 可见（2026-10-05 已修）**：模型每轮能调的工具名来自 `internal/tools/router.go` 的 `toolGroups` / `relationToTools`，只注册不进这两张表等于对模型不可达。`drug_label_lookup`、`lab_report_analyze`、`visit_prep` 曾经两个表里都没有，现已各自入组（标签查询进 CatDrug/CatGeneral，化验单进 CatLab/CatImage，就诊准备进 CatSymptom/CatDisease/CatGeneral，并补进 `relationToTools` 的相关关系）。回归门 `internal/tools/router_visibility_test.go` 双向锁死：13 个在册工具必须全部可路由，路由表里也不许出现已退役的名字。
 
 > 📝 注：其他工具（reference_lookup, literature_search, msd_search, medline_search, drug_lookup, eml_lookup, nhc_search, fhs_search, aap_search, lab_interpreter, icd10_lookup, nmpa_drug_lookup, disease_encyclopedia_lookup, huatuo_qa_lookup, body_part_lookup, growth_assessment, milestone_lookup, newborn_care_lookup 等）已整合到 knowledge_search（统一语料/问答/全文层检索）与 exact_lookup（12 类精确编码：icd10/icd11/hpo/nmpa/variant/eml/fda_label/ttd/sider/medins/orphanet/icdo3）中。`internal/dialogue` 规则式意图包已删除（2026-09-20，死代码）。
 

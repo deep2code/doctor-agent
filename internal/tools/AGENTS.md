@@ -6,7 +6,7 @@
 
 - 注册点**只有一处**：`internal/agent/agent.go:153-169` 的 13 次 `Register`。除此之外全仓库没有生产代码 import 本包（只有 `*_test.go`）。
 - 可见性闸门：`agent.go:928` / `:1271` 调 `Router.ClassifyKG`，把名字列表交给 `GetToolDescriptionsByNames`（进提示词）与 `GetGenericToolDefinitionsByNames`（进 API 的 tools 字段）。**没被路由选中的工具，模型既看不到也调不到。**
-- 因此"注册了"≠"能用"：`router_visibility_test.go TestEveryActiveToolIsRoutable` 逐个核对 13 个在册工具是否出现在 `toolGroups` 或 `relationToTools` 里，新加工具忘了接线会直接红（2026-10-04 之前的三个死角已修，见文末第 1 条）。
+- 因此"注册了"≠"能用"：`router_visibility_test.go TestEveryActiveToolIsRoutable` 逐个核对 13 个在册工具是否出现在 `toolGroups` 或 `relationToTools` 里，新加工具忘了接线会直接红（2026-10-05 修掉的三个死角，见文末第 1 条）。
 
 ## 13 个在册工具
 
@@ -51,12 +51,12 @@
 
 ## 已核实的坑
 
-1. ~~三个注册工具在正常聊天里不可能被选中~~ —— **已修 (2026-10-04)**：`drug_label_lookup` / `lab_report_analyze` / `visit_prep` 此前既不在 `toolGroups` 的任何一组、也不在 `relationToTools` 的任何一值里，而 `ClassifyKG`/`ClassifyMulti` 的每条 return 路径（含 :139/:160 的 CatGeneral 兜底）返回的都是这两张表的值，所以化验单解读、标签查询、就诊准备三条能力注册了却对模型不可见。现在的归属：`drug_label_lookup` → CatDrug/CatGeneral + `disease_recommand_drug`/`disease_common_drug`；`lab_report_analyze` → CatLab/CatImage + `disease_need_check`（CatImage 带它是因为上传化验单图片要先 `medical_image_analyze` 提字、再交给本工具）；`visit_prep` → CatSymptom/CatDisease/CatGeneral + `disease_belong_department`（该工具的输出就含建议挂号科室）。**回归门 `router_visibility_test.go TestEveryActiveToolIsRoutable` 双向钉死**：13 个在册工具必须至少出现在一张路由表里，反向也查（路由指向已退休的名字会白占 8 个槽位之一）。`medical_image_analyze` 另外还在带图管线被强制附加（`agent.go:1273-1284`）。
+1. ~~三个注册工具在正常聊天里不可能被选中~~ —— **已修 (2026-10-05)**：`drug_label_lookup` / `lab_report_analyze` / `visit_prep` 此前既不在 `toolGroups` 的任何一组、也不在 `relationToTools` 的任何一值里，而 `ClassifyKG`/`ClassifyMulti` 的每条 return 路径（含 :139/:160 的 CatGeneral 兜底）返回的都是这两张表的值，所以化验单解读、标签查询、就诊准备三条能力注册了却对模型不可见。现在的归属：`drug_label_lookup` → CatDrug/CatGeneral + `disease_recommand_drug`/`disease_common_drug`；`lab_report_analyze` → CatLab/CatImage + `disease_need_check`（CatImage 带它是因为上传化验单图片要先 `medical_image_analyze` 提字、再交给本工具）；`visit_prep` → CatSymptom/CatDisease/CatGeneral + `disease_belong_department`（该工具的输出就含建议挂号科室）。**回归门 `router_visibility_test.go TestEveryActiveToolIsRoutable` 双向钉死**：13 个在册工具必须至少出现在一张路由表里，反向也查（路由指向已退休的名字会白占 8 个槽位之一）。`medical_image_analyze` 另外还在带图管线被强制附加（`agent.go:1273-1284`）。
 2. **`drug_interaction_check` 实际上测不出相互作用**：TTD 没有 drug→target 边，:95-115 的"共同靶点"判据退化成"靶点名同时包含两个药名"，源码注释自己承认了这点。
 3. `exact_lookup` 的 `type=sider` 只能按 `drug.ID` 匹配（:692），而 `Description():48` 宣称可查 1430 种药物；`SIDERDrug`（`internal/knowledge/schemas.go:356-360`）根本没有药名字段。
 4. `FoodRiskAnalyzer`（food_risk.go:14/19）与 `GeneticRiskCalculator`（genetic_risk.go:12/17）注入了 `*knowledge.Store` 却从不读它 —— 是硬编码规则表，不是图谱支撑。
 5. `lookupICD10` 收下 `top_k` 参数但丢弃，硬编码 20（`exact_lookup.go:136`、`:155`）；死文件 `icd10_lookup.go:69` 同病。
-6. 注释里的工具计数有历史残留，别拿它们对数：`agent.go:150`("9 action")、`:163`("~28 retired")、`knowledge_search.go:13`("~20")、`registry.go:116`("all 35 tools")、`agent.go:925`("from 35 to <=10")。实际就是 13 在册 / 26 死。`router.go` 里"unified 8-tool set"的措辞已在 2026-10-04 改为按 13 个工具描述（8 是**合并上限**，不是工具总数）。
+6. 注释里的工具计数有历史残留，别拿它们对数：`agent.go:150`("9 action")、`:163`("~28 retired")、`knowledge_search.go:13`("~20")、`registry.go:116`("all 35 tools")、`agent.go:925`("from 35 to <=10")。实际就是 13 在册 / 26 死。`router.go` 里"unified 8-tool set"的措辞已在 2026-10-05 改为按 13 个工具描述（8 是**合并上限**，不是工具总数）。
 
 ## 改这里之前
 

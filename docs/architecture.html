@@ -274,7 +274,7 @@ graph TB
         Q[CORS_ORIGINS] --> R[域名白名单；空=允许全部]
         S[RATE_LIMIT] --> T["IP 限流，0=不限；公开页不计"]
         PB[PUBLIC_BASE_URL] --> V["落地页 canonical/og:url + sitemap"]
-        AD[ADMIN_PASSWORD] --> AE["首启自动建 admin（空则回退 admin123 并告警）"]
+        AD[ADMIN_PASSWORD] --> AE["首启自动建 admin（空则随机生成 128-bit 口令、只打印一次；固定 admin123 已废弃）"]
     end
         </div>
     </div>

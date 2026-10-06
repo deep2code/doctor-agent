@@ -42,4 +42,4 @@ trusted-proxy client-IP 解析（`TRUSTED_PROXIES`，非白名单对端一律忽
 
 ## 测试
 
-`server_test.go`（含 `TestWebUIServed`）、`auth_api_test.go`（登录 + owner 隔离 + "API_KEY 不是人"）、`admin_api_test.go`（上传文件名即数据集名的两种断言）、`session_api_test.go`、`family_api.go` 相关、`pdf_export_test.go`。需要 MariaDB 的测试在本地要带 `MARIA_DB_PORT=3307`。
+`server_test.go`（含 `TestWebUIServed`）、`auth_api_test.go`（登录 + owner 隔离 + "API_KEY 不是人"）、`admin_api_test.go`（上传文件名即数据集名的两种断言）、`session_api_test.go`、`family_api.go` 相关、`pdf_export_test.go`、`admin_password_surface_test.go`（**离线**：AST 读 `handleAdminUser` 的方法集合必须只有 GET/DELETE，且 `internal/auth` 不得有导出名含 `Password` 的方法 —— 钉住「/admin 没有改密入口」这个事实，`main.go` 的 `ADMIN_PASSWORD` 告警 hint 与 `.env.example` 都靠它）。需要 MariaDB 的测试在本地要带 `MARIA_DB_PORT=3307`。

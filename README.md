@@ -119,7 +119,7 @@ DEEPSEEK_API_KEY=sk-你的密钥
 API_KEY=自定义一个复杂的访问密钥        # 设了它，/app 网页版需要反代放行或改走 API；只跑网页版可留空
 AUTH_SECRET=自定义一长串随机值          # 必填否则每次重启全员掉线：openssl rand -hex 32
 # TRUSTED_PROXIES=127.0.0.1,10.0.0.0/8 # 在 nginx/负载均衡后面时必须配，否则所有访客共用一个限流桶
-ADMIN_PASSWORD=自定义管理员密码         # 不设会随机生成一个、只在启动时打印一次（main.go:388-402）
+ADMIN_PASSWORD=自定义管理员密码         # 不设会随机生成一个、只在启动时打印一次（main.go:388-407）
 
 # 数据库
 APP_DB_DSN=root:your_password@tcp(localhost:3306)/doctor_agent
@@ -421,7 +421,7 @@ docker compose up -d --build    # 重新构建并启动
 | `MARIA_DB_HOST` / `_PORT` / `_USER` / `_PASSWORD` | `localhost` / `3306` / `root` / 空 | 连接参数；`KNOWLEDGE_DB_DSN` 为空时两个库都用它，设了则它只描述**业务库**实例 |
 | `MARIA_DB_KNOWLEDGE_DB` / `MARIA_DB_APP_DB` | `doctor_knowledge` / `doctor_agent` | 知识库 / 业务库库名 |
 | `KNOWLEDGE_DB_DSN` / `APP_DB_DSN` | 空（由 `MARIA_DB_*` 组合） | 显式覆盖完整 DSN。**知识库单独一个容器时必须设**（compose 已给）；设了之后应用不会再往业务实例上创建 `doctor_knowledge` |
-| `ADMIN_PASSWORD` | 空 | 首次启动自动创建 `admin` 账号的密码；**为空时随机生成 128-bit 口令、只在启动日志打印一次**（`main.go:388-402`）——早期版本回退固定 `admin123`，那等于把管理台交给任何能访问该端口的人，已废弃 |
+| `ADMIN_PASSWORD` | 空 | 首次启动自动创建 `admin` 账号的密码；**为空时随机生成 128-bit 口令、只在启动日志打印一次**（`main.go:388-407`）——早期版本回退固定 `admin123`，那等于把管理台交给任何能访问该端口的人，已废弃 |
 | `MEDIA_DIR` | `data/media` | `/media/*` 静态资源目录 |
 | `LOG_LEVEL` | `info` | slog 级别：`debug` / `info` / `warn` / `error` |
 

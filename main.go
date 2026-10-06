@@ -398,9 +398,12 @@ func createInitialAdmin(db *database.DB, authSvc *auth.Service, cfg *config.Conf
 			return
 		}
 		adminPassword = generated
+		// There is no password-change path anywhere in /admin (only GET/DELETE
+		// on /admin/users/{id}), so promising "log in and change it" would send
+		// the operator to a button that does not exist — state the real route.
 		slog.Warn("ADMIN_PASSWORD 未设置：已生成随机管理员口令，仅本次打印",
 			"username", "admin", "password", adminPassword,
-			"hint", "请立刻登录 /admin 修改；下次启动前把 ADMIN_PASSWORD 写入 .env")
+			"hint", "想固定口令就把它写进 .env 的 ADMIN_PASSWORD 再重启；/admin 没有改密入口，口令丢了只能改业务库 users 表或删掉 admin 用户后重建")
 	}
 
 	input := &auth.AdminCreateUserInput{

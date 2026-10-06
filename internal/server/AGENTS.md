@@ -30,6 +30,7 @@ trusted-proxy client-IP 解析（`TRUSTED_PROXIES`，非白名单对端一律忽
 - 凡触碰个人数据的端点，owner 只从凭证来：`s.ownerOf(r)`，**永不读请求体**。`conversation_id` 本身就是访问凭证。
 - `claimConversation`（`auth_api.go:166-175`）是 `/chat`、`/chat/stream`、`/share` 的唯一入口；**别人的会话返回 404 而不是 403**，让 id 不可被探测（回归断言 `auth_api_test.go:263-295`）。
 - `API_KEY` 授权的是**部署**，解析到 owner `""`（故意如此：共享密钥不该能解开某个病人的历史）；登录 token 才解析到具体的人。
+- **`/admin` 没有改密入口是已定的产品决策**（2026-10-06 用户口径「不要改密端点」），不是待办：`handleAdminUser` 只有 GET/DELETE，`admin.html` 只有 `#login-wrap` 那个登录表单（:87-94，处理器 :384-394），全页再无第二处口令输入。运维文案（`main.go:404-406` 的 `ADMIN_PASSWORD` hint、`.env.example:178-181`）就建立在这个事实上，由 `admin_password_surface_test.go` 钉住（见下面「测试」）。口令丢了的重建路径确实走得通：`main.go createInitialAdmin`（:375-386）每次启动都按用户名 `admin` 查一次，不存在就带着 `ADMIN_PASSWORD` 重建。
 - 个人行的 owner 列可能是 `NULL`（匿名），过滤条件必须写 `COALESCE(user_id,'') = ?` —— 直接比 `''` 匹配不到任何行，会把匿名桶交给错误的调用方（见 `internal/database`）。
 
 ## 前端

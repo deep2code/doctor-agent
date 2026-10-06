@@ -23,14 +23,16 @@ var httpMethodNames = map[string]string{
 	"MethodTrace":   "TRACE",
 }
 
-// TestAdminUsersSurfaceHasNoPasswordChange pins the fact two pieces of operator
-// advice rest on: /admin can read and delete a user but cannot rotate a
-// password, so the ADMIN_PASSWORD warning (main.go) and .env.example tell
-// operators to write the generated password into .env or edit the users table,
-// instead of promising a 修改密码 button that does not exist.
+// TestAdminUsersSurfaceHasNoPasswordChange pins a decision, not a gap: /admin
+// deliberately has no password-change path (2026-10-06, 用户口径「不要改密端点」),
+// which is why the ADMIN_PASSWORD warning (main.go) and .env.example send
+// operators to write the generated password into .env or edit the users table
+// instead of promising a 修改密码 button.
 //
-// Adding a real change-password path should turn this gate red on purpose —
-// then update the hint and the docs along with the new route.
+// So turning this red means you are reversing that decision — the route verb
+// set and internal/auth's exported surface are the two places it lives. Flip
+// the hint, .env.example and the three AGENTS.md files that quote this surface
+// together with it, or leave the surface alone.
 func TestAdminUsersSurfaceHasNoPasswordChange(t *testing.T) {
 	verbs := adminUserHandlerVerbs(t)
 	if len(verbs) == 0 {
@@ -43,7 +45,7 @@ func TestAdminUsersSurfaceHasNoPasswordChange(t *testing.T) {
 	}
 	for _, verb := range []string{"PUT", "PATCH", "POST"} {
 		if verbs[verb] {
-			t.Errorf("handleAdminUser now answers %s: if this is a password change, update the ADMIN_PASSWORD hint in main.go and .env.example, then expect this verb here", verb)
+			t.Errorf("handleAdminUser now answers %s — that reverses the 2026-10-06 decision, so rewrite the ADMIN_PASSWORD hint in main.go and .env.example too, then expect this verb here", verb)
 		}
 	}
 

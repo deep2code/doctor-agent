@@ -31,8 +31,9 @@ var httpMethodNames = map[string]string{
 //
 // So turning this red means you are reversing that decision — the route verb
 // set and internal/auth's exported surface are the two places it lives. Flip
-// the hint, .env.example and the three AGENTS.md files that quote this surface
-// together with it, or leave the surface alone.
+// the hint, .env.example and the four AGENTS.md files that quote this surface
+// (root, internal/config, internal/server, internal/auth) together with it,
+// or leave the surface alone.
 func TestAdminUsersSurfaceHasNoPasswordChange(t *testing.T) {
 	verbs := adminUserHandlerVerbs(t)
 	if len(verbs) == 0 {

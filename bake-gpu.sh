@@ -2,7 +2,7 @@
 # ============================================================================
 # bake-gpu.sh — 把向量化烘焙丢到租的 GPU 服务器上跑，烘完把 qdrant-storage 拉回本机
 #
-# 流程: upload(代码+gz+模型) -> setup(pip 依赖 + Qdrant) -> bake(CUDA 后台+轮询) -> fetch(打包拉回)
+# 流程: upload(代码+gz+模型) -> setup(pip 依赖 + Qdrant) -> bake(CUDA 后台+轮询) -> fetch(点数门+优雅停服+打包拉回)
 # 本机产物与 bake-local.sh 完全一致: ./qdrant-storage/ (可直接 ./build.sh qdrant 打包)
 #
 # 用法:
@@ -10,6 +10,7 @@
 #   GPU_HOST=root@1.2.3.4 ./bake-gpu.sh upload       # 分步: 只传文件 (断点续传, 可重跑)
 #   GPU_HOST=root@1.2.3.4 ./bake-gpu.sh setup        # 分步: 只装远程依赖 + 启 Qdrant
 #   GPU_HOST=root@1.2.3.4 ./bake-gpu.sh bake         # 分步: 启动烘焙 (远程后台, 断 ssh 不死)
+#   GPU_RECREATE=0 GPU_HOST=... ./bake-gpu.sh bake   # 中途失败后接着烘 (不清库, 已烘的不再 embed)
 #   GPU_HOST=root@1.2.3.4 ./bake-gpu.sh status       # 看远程进度
 #   GPU_HOST=root@1.2.3.4 ./bake-gpu.sh log          # tail -f 远程日志 (Ctrl-C 退出)
 #   GPU_HOST=root@1.2.3.4 ./bake-gpu.sh fetch        # 烘完后: 停 Qdrant, 打包拉回本机
@@ -30,6 +31,12 @@
 #                     upload: 上传本地 fp32 模型 (~2.3GB, rsync 断点续传)
 #                     remote: GPU 服务器自己从 HF 导出 (国内机器配 HF_ENDPOINT 镜像)
 #   GPU_BATCH_SIZE=48                CUDA 批大小 (3080 Ti 12G 跑 256 会 CUDA OOM, 48 稳)
+#   GPU_RECREATE=1                   1=每次先清空 collection 从零烘 (默认);
+#                                    0=断点续烘: 保住已有向量, 库里已有的行不再 embed
+#                                    (中途失败后接着跑用这个, 见「注意」第 ③ 条)
+#   EXPECTED_POINTS=                 期望向量条数; 留空 = 烘之前从本地 gz/ 现算
+#                                    (用远端同一套 bake_onnx 规则扫目录, 所以数据一变它就跟着变,
+#                                     不是又一份需要手动维护的登记数字)
 #   HF_ENDPOINT=https://hf-mirror.com  远程 HuggingFace 镜像
 #   PIP_INDEX_URL=                   远程 pip 镜像 (如 https://pypi.tuna.tsinghua.edu.cn/simple)
 #   GH_PROXY=                        GitHub 加速前缀 (如 https://ghfast.top/), 远程下 qdrant 二进制用
@@ -40,6 +47,19 @@
 #       bake 后台轮询每 20s ssh 一次, 密码登录无法交互, 必须 key 免密。
 #
 # 注意:
+#   - 烘完有两道自动门 (付费跑唯一的兜底, 别绕过):
+#       ① 点数门: 拉产物前趁远程 Qdrant 还在跑读一次 points_count, 和期望值对上才准打包。
+#          远端自己打印的 "points:" 只是「我成功发出去多少批」, 和库里真存了多少是两件事。
+#          期望值默认由本地 gz 现算 (和远端同一套规则), 不是又一份要手动同步的数字。
+#       ② 停服: 用 docker stop / SIGTERM 正常关闭, 且 **保留 WAL 一起打包** —— v1.19 没有
+#          flush 接口, 删 WAL 就是删掉还没进 segment 的那部分数据, 且不会有任何报错。
+#          WAL 只能在 storage 里: 它是每个 shard 的 <shard>/wal 子目录, 挪不走 ——
+#          compose 以前那句 QDRANT__STORAGE__WAL_PATH=/tmp/wal 是无效变量（2026-10-06 已删，
+#          出处见 do_fetch 的「已核实」）, 所以首启会正常回放 WAL, 留着没有代价, 删了才有。
+#       ③ 续烘 (GPU_RECREATE=0): 向量 id 由 sha256(数据集|行 key + 原始 JSON) 派生,
+#          所以"这条烘过没有"是可以查的 —— 库里已有的行直接跳过, 不再花第二次 embedding。
+#          只有一种情况别用: gz 数据变过。那会留下上一版的旧点, 清不干净。
+#          兜底仍是第 ① 道门 —— 它比的是「相等」不是「不少」, 多出来的旧点一样会被拦下。
 #   - GPU 上用 fp32 原模型烘焙 (--int8 是 CPU NEON/AVX 优化, GPU 无效)
 #   - fp32(GPU 烘) 与 INT8(CPU 本机 embed_server.py 查询) 向量 cos≈1.0, 直接混用无需重烘焙
 #   - 远程 docker 优先跑 Qdrant; 没 docker 自动退回官方静态二进制 (GH_PROXY 可加速)
@@ -56,6 +76,10 @@ REMOTE_DIR="${REMOTE_DIR:-}"   # 留空 = 自动选 (AutoDL 有数据盘 /root/a
 MODEL_DIR="${MODEL_DIR:-./bge-m3-onnx}"
 MODEL_SOURCE="${MODEL_SOURCE:-auto}"
 GPU_BATCH_SIZE="${GPU_BATCH_SIZE:-48}"
+GPU_RECREATE="${GPU_RECREATE:-1}"
+# 每次清库 vs 保住已有的接着烘 (两条互斥, 见头部「注意」第 ③ 条)
+if [[ "$GPU_RECREATE" == "0" ]]; then BAKE_MODE="--resume"; else BAKE_MODE="--recreate"; fi
+EXPECTED_POINTS="${EXPECTED_POINTS:-}"   # 留空 = 由本地 gz 现算 (见 compute_expected_points)
 HF_ENDPOINT="${HF_ENDPOINT:-https://hf-mirror.com}"
 PIP_INDEX_URL="${PIP_INDEX_URL:-}"
 GH_PROXY="${GH_PROXY:-}"
@@ -96,6 +120,48 @@ resolve_rdir() {
 PIP_ARGS=""
 [[ -n "$PIP_INDEX_URL" ]] && PIP_ARGS="-i $PIP_INDEX_URL"
 
+# ── 期望点数: 从本地 gz 现算, 不钉死数字 ──────────────────────────
+# 用的就是远端将要跑的那套规则 (external/bake_onnx.py 扫 gz/<dataset>/ + 它的跳过名单),
+# 所以这条门是「两份内容对不对得上」而不是「记得同步改常量」。整批约几秒。
+compute_expected_points() {
+  python3 - "$GZ_DIR" <<'PY'
+import json, sys
+sys.path.insert(0, "external")
+import bake_onnx as b
+total = 0
+for ds, base, path in b.list_seed_archives(sys.argv[1]):
+    if ds in b.VECTOR_SKIP_DATASETS:
+        continue
+    with open(path, "rb") as fh:
+        total += len(json.loads(b.decompress_archive(fh.read())))
+print(total)
+PY
+}
+
+# 远程 collection 的实际条数 (Qdrant REST, HTTP 端口 = gRPC-1)
+remote_point_count() {
+  rsh "curl -sf -m 15 http://localhost:$((QDRANT_PORT-1))/collections/$COLLECTION | tr -d ' ' | grep -o '\"points_count\":[0-9]*' | cut -d: -f2"
+}
+
+# ── 点数门: 存够了才准拉产物 ──────────────────────────────────────
+check_points_landed() {
+  local got
+  echo "[gate] 点数门 (期望 $EXPECTED_POINTS)..."
+  got=$(remote_point_count || true)
+  if [[ -z "$got" ]]; then
+    echo "❌ 点数门: 读不到远程 points_count (Qdrant 没在跑?)"
+    echo "   远程数据未动: 起 Qdrant 后 ./bake-gpu.sh status 确认, 再手动 ./bake-gpu.sh fetch"
+    exit 1
+  fi
+  if [[ "$got" != "$EXPECTED_POINTS" ]]; then
+    echo "❌ 点数门: 库里实际 $got 条 ≠ 期望 $EXPECTED_POINTS 条 — 不拉产物"
+    echo "   产物还不完整, 打包就等于把一个残缺的向量层推上线 (远程数据仍在, 未拉回未删除)"
+    echo "   先 ./bake-gpu.sh log 看批次错误, 处理后再烘一轮"
+    exit 1
+  fi
+  echo "  ✅ 点数门: $got 条全部在库"
+}
+
 # ── 远程烘焙命令 (setsid 后台, 断 ssh 不死; 结束写 bake.rc) ──
 remote_bake_cmd() {
 cat <<REMOTE
@@ -111,7 +177,7 @@ setsid nohup bash -c '
     --collection=$COLLECTION \\
     --model=model/model.onnx --tokenizer=model \\
     --device=cuda --workers=8 --batch-size=$GPU_BATCH_SIZE \\
-    --max-text-chars=1024 --recreate \\
+    --max-text-chars=1024 $BAKE_MODE \\
     > $BAKE_LOG 2>&1
   echo \$? > $BAKE_RC
 ' >/dev/null 2>&1 < /dev/null &
@@ -166,8 +232,10 @@ check_host() {
 do_upload() {
   echo "[upload] 代码 + gz 数据 (${GZ_DIR}, $(/usr/bin/du -sh "$GZ_DIR" 2>/dev/null | cut -f1))..."
   rsh "mkdir -p $REMOTE_DIR/external $REMOTE_DIR/gz"
-  tar cf - external/bake_onnx.py external/export_onnx.py | rsh_tar_in
-  tar cf - -C "$GZ_DIR" . | ssh "${SSH_OPTS[@]}" "$GPU_HOST" "tar xf - -C $REMOTE_DIR/gz"
+  # COPYFILE_DISABLE: macOS 的 tar 默认给每个文件附一份 ._ 开头的元数据兄弟文件,
+  # 而归档识别只看后缀 (._x.json.zst 也算 .json.zst), 远端会拿它去解压并当场失败。
+  COPYFILE_DISABLE=1 tar cf - external/bake_onnx.py external/export_onnx.py | rsh_tar_in
+  COPYFILE_DISABLE=1 tar cf - -C "$GZ_DIR" . | ssh "${SSH_OPTS[@]}" "$GPU_HOST" "tar xf - -C $REMOTE_DIR/gz"
   echo "  gz 完成: $(find "$GZ_DIR" -type f -name '*.json.*z*' | wc -l | tr -d ' ') 个文件"
 
   # 模型来源决策
@@ -232,8 +300,17 @@ assert \"CUDAExecutionProvider\" in ps, \"CUDAExecutionProvider 缺失\"
 
 # ── bake ──
 do_bake() {
+  # 先把期望点数算出来: 本地 gz 读不动就在花钱之前停下, 而不是烘完才发现没有对照值
+  [[ -n "$EXPECTED_POINTS" ]] || EXPECTED_POINTS=$(compute_expected_points)
+  echo "[bake] 期望向量条数: $EXPECTED_POINTS (由 $GZ_DIR 现算)"
   # 确保 Qdrant 在跑
   rsh "$(remote_start_qdrant)" >/dev/null
+  if [[ "$BAKE_MODE" == "--resume" ]]; then
+    echo "[bake] 模式: 续烘 ($BAKE_MODE) — 库里已有的向量保留, 已烘过的行不再花 embedding"
+    echo "       (前提: 这次没改过 gz 数据。改了数据请用默认模式, 否则上一版的旧点会留在库里)"
+  else
+    echo "[bake] 模式: 清库重烘 ($BAKE_MODE) — 中途失败后可用 GPU_RECREATE=0 接着烘"
+  fi
   echo "[bake] 启动远程烘焙 (batch=$GPU_BATCH_SIZE, 后台)..."
   rsh "$(remote_bake_cmd)"
   echo ""
@@ -250,6 +327,9 @@ do_bake() {
       else
         echo "❌ 远程烘焙失败 (exit $rc), 末尾日志:"
         rsh "tail -30 $REMOTE_DIR/$BAKE_LOG"
+        # 已经烘进去的向量还在远程库里, 没丢: 修好问题后接着跑, 不要重来一遍付费
+        echo "接着烘 (跳过库里已有的行): GPU_RECREATE=0 $0 bake"
+        echo "清库重烘 (改过 gz 数据时才需要): $0 bake"
         exit 1
       fi
       return
@@ -274,8 +354,32 @@ do_stop() {
 
 # ── fetch ──
 do_fetch() {
-  echo "[fetch] 停 Qdrant, 固化 storage..."
-  rsh "cd $REMOTE_DIR && { docker rm -f $QDRANT_NAME 2>/dev/null || pkill -x qdrant 2>/dev/null || true; sleep 2; find qdrant-storage -path '*/wal/*' -type f -delete 2>/dev/null || true; tar czf bundle.tgz qdrant-storage; du -sh bundle.tgz; }"
+  # 点数门: 趁服务还在跑核一次实际条数 —— 这是唯一还能救的时机 (数据没拉回、远程没删)。
+  # 服务已经停了就只告警不硬拦: 产物仍带着 WAL, 数据没被销毁, 缺不缺只能取回后另验。
+  if rsh "curl -sf -m 15 'http://localhost:$((QDRANT_PORT-1))/healthz' >/dev/null" >/dev/null 2>&1; then
+    [[ -n "$EXPECTED_POINTS" ]] || EXPECTED_POINTS=$(compute_expected_points 2>/dev/null || true)
+    if [[ -n "$EXPECTED_POINTS" ]]; then
+      check_points_landed
+    else
+      echo "  警告: 期望点数算不出来 (本地 $GZ_DIR 读不动?), 跳过点数门"
+    fi
+  else
+    echo "  警告: Qdrant 未在运行, 读不到 points_count — 跳过点数门"
+  fi
+  echo "[fetch] 正常关闭 Qdrant (SIGTERM)..."
+  # 用 stop 而不是 rm -f: 硬杀会切断进程自己的收尾落盘
+  rsh "cd $REMOTE_DIR && { docker stop $QDRANT_NAME >/dev/null 2>&1 || pkill -TERM -x qdrant 2>/dev/null || true; sleep 5; docker rm $QDRANT_NAME >/dev/null 2>&1 || true; }"
+  # 不再删 WAL。v1.19 的 REST 里没有 flush 接口 (openapi 53 条 path 逐条核过), 所以没有任何
+  # 办法证明「segment 里已经全了」; 而 WAL 装的正是还没进 segment 的那部分写入本身 ——
+  # 删它等于把尾巴抹掉且全程不报错。留着没有代价: 部署首启会正常回放它。
+  # 已核实 (2026-10-06, v1.19.0 源码): WAL 挪不出 storage ——
+  #   lib/collection/src/config.rs 的 WalConfig 只有 wal_capacity_mb / wal_segments_ahead /
+  #   wal_retain_closed 三个字段, 没有路径; 目录由 LocalShard::wal_path(shard_path) 派生,
+  #   即 collections/<collection>/<shard>/wal。StorageConfig 也没有 deny_unknown_fields,
+  #   所以 compose 以前那句 QDRANT__STORAGE__WAL_PATH=/tmp/wal 是被静默丢弃的无效变量
+  #   (2026-10-06 删掉), 「线上只认 segment、镜像里的 WAL 不会回放」这个旧说法是错的。
+  # 结论不变但理由换了: 条数必须在打包前、问还在跑的服务 —— 那就是上面那道点数门。
+  rsh "cd $REMOTE_DIR && { tar czf bundle.tgz qdrant-storage; du -sh bundle.tgz; }"
   echo "[fetch] 拉回本机 $STORAGE_DIR ..."
   rm -rf "$STORAGE_DIR"
   mkdir -p "$STORAGE_DIR"

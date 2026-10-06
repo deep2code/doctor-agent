@@ -4,7 +4,8 @@
 #       不在 Docker 内编译 Go 代码、不在 Docker 内跑 vector-bake、
 #       不需要 gz 源文件——只把预烘焙好的 Qdrant storage 拷入基础镜像。
 #
-# 前提: ./qdrant-storage/ 目录已由 bake-local.sh 生成（含 segments + 已清 WAL）。
+# 前提: ./qdrant-storage/ 目录已由 bake-gpu.sh fetch（或本机 bake）生成。
+#       WAL 不清了: 没有 flush 接口可证明 segment 里已经全, 删它就是删尾部。
 #
 # 构建:
 #   ./bake-local.sh           # 先本机烘焙（~5-10 分钟，bge-m3 真向量）

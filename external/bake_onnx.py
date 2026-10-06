@@ -54,6 +54,8 @@ INT8 量化模型获取:
 
 注意:
   - 首次从 Go/Ollama 切换到 ONNX 时, 务必加 --recreate 重建 collection
+  - 中途失败后用 --resume 接着烘 (不清库, 每批先查 id 是否已存在): 正是上一条的
+    "Python 内部多次烘焙幂等" 让它成立 —— 但前提是 gz 数据没变, 变了仍要 --recreate
   - UUID 由 sha256(dataset|key + sha256(data)) 派生, Python 的 JSON 序列化
     与 Go 的 json.Marshal 不完全一致 (key 顺序/HTML 转义), 因此跨引擎
     UUID 不可混用; Python 内部多次烘焙幂等 (sort_keys=True 保证一致性)
@@ -552,6 +554,17 @@ class QdrantBaker:
             wait=True,
         )
 
+    def existing_ids(self, ids: list) -> set:
+        """返回 ids 中已经在库里的子集 (--resume 用: 这些行不再重新 embed)。
+        只要 id, 不要向量和 payload, 所以一次批量 retrieve 就够。"""
+        found = self.client.retrieve(
+            collection_name=self.collection,
+            ids=ids,
+            with_payload=False,
+            with_vectors=False,
+        )
+        return {str(p.id).lower() for p in found}
+
 
 # ============================================================================
 # 烘焙逻辑 (与 Go bake.go bakeDataset / bakeBatch 一致)
@@ -559,16 +572,17 @@ class QdrantBaker:
 
 def bake_dataset(embedder: ONNXEmbedder, baker: QdrantBaker,
                  dataset: str, rows: list,
-                 batch_size: int, max_text_chars: int) -> tuple:
+                 batch_size: int, max_text_chars: int,
+                 resume: bool = False) -> tuple:
     """
     烘焙一个数据集 (与 Go bake.go bakeDataset 一致)
     1. 按文本长度排序 (消除 padding 浪费)
     2. 分批
-    3. 每批: 截断文本 -> embed -> 构建 points -> upsert
-    返回 (point_count, errors[])
+    3. 每批: 算 point id -> (可选) 剔掉库里已有的 -> 截断文本 -> embed -> upsert
+    返回 (本次写入的 point 数, 复用未写的行数, errors[])
     """
     if not rows:
-        return 0, []
+        return 0, 0, []
 
     # 按搜索文本长度排序 (ascending, 与 Go 一致)
     rows.sort(key=lambda r: len(r.search_text))
@@ -580,12 +594,28 @@ def bake_dataset(embedder: ONNXEmbedder, baker: QdrantBaker,
 
     n_batches = len(batches)
     total = 0
+    reused = 0
     errors = []
 
     for idx, batch in enumerate(batches):
+        # point id 只由 (数据集, 行 key, 原始 JSON 的 sha256) 决定, 本地算即可 ——
+        # 所以它能在 embed 之前算出来, 断点续烘 (--resume) 就是问它"这条在库里了吗"
+        entries = []
+        for r in batch:
+            entry_hash = hashlib.sha256(r.data.encode("utf-8")).digest()
+            entries.append((r, uuid_from_source_hash(dataset + "|" + r.key, entry_hash)))
+
+        if resume:
+            have = baker.existing_ids([pid for _, pid in entries])
+            todo = [(r, pid) for r, pid in entries if pid not in have]
+            reused += len(entries) - len(todo)
+            if not todo:
+                continue
+            entries = todo
+
         # 准备文本 (SearchText 为空时 fallback 到 Data, 与 Go 一致)
         texts = []
-        for r in batch:
+        for r, _ in entries:
             t = r.search_text if r.search_text else r.data
             texts.append(t)
 
@@ -600,9 +630,7 @@ def bake_dataset(embedder: ONNXEmbedder, baker: QdrantBaker,
 
         # 构建 points
         points = []
-        for j, r in enumerate(batch):
-            entry_hash = hashlib.sha256(r.data.encode("utf-8")).digest()
-            point_id = uuid_from_source_hash(dataset + "|" + r.key, entry_hash)
+        for j, (r, point_id) in enumerate(entries):
             points.append({
                 "id": point_id,
                 "vector": vectors[j],
@@ -625,11 +653,11 @@ def bake_dataset(embedder: ONNXEmbedder, baker: QdrantBaker,
             pct = (idx + 1) * 100 / n_batches
             print(f"    progress {dataset:<16s} {idx+1}/{n_batches} batches ({pct:.0f}%)")
 
-    return total, errors
+    return total, reused, errors
 
 
 def bake(gz_dir: str, embedder: ONNXEmbedder, baker: QdrantBaker,
-         batch_size: int, max_text_chars: int):
+         batch_size: int, max_text_chars: int, resume: bool = False):
     """
     主烘焙循环 (与 Go bake.go Bake 一致)
     扫 gz/<dataset>/ -> 逐文件解压 -> seed_list -> bake_dataset
@@ -649,6 +677,7 @@ def bake(gz_dir: str, embedder: ONNXEmbedder, baker: QdrantBaker,
 
     counted = set()
     total_points = 0
+    total_reused = 0
     all_errors = []
     skipped = set()
 
@@ -666,8 +695,10 @@ def bake(gz_dir: str, embedder: ONNXEmbedder, baker: QdrantBaker,
 
         n_batches = (len(rows) + batch_size - 1) // batch_size
         print(f"  baking {ds:<16s} {base:<28s} {len(rows):6d} rows ({n_batches} batches)...")
-        n, errs = bake_dataset(embedder, baker, ds, rows, batch_size, max_text_chars)
+        n, reused, errs = bake_dataset(embedder, baker, ds, rows, batch_size,
+                                       max_text_chars, resume=resume)
         total_points += n
+        total_reused += reused
         all_errors.extend(errs)
         counted.add(ds)
         rows = None
@@ -681,6 +712,8 @@ def bake(gz_dir: str, embedder: ONNXEmbedder, baker: QdrantBaker,
     print(f"Bake finished")
     print(f"  datasets: {len(counted)}")
     print(f"  points:   {total_points}")
+    if resume:
+        print(f"  reused:   {total_reused} (库里已有, 本次未 embed)")
     print(f"  errors:   {len(all_errors)}")
     skipped_list = sorted(skipped)
     print(f"  skipped:  {len(skipped_list)} ({', '.join(skipped_list) if skipped_list else 'none'})")
@@ -729,8 +762,15 @@ def main():
                         help="推理设备 (default: cpu; cuda 需 onnxruntime-gpu)")
     parser.add_argument("--recreate", action="store_true",
                         help="删除旧 collection 从零开始 (首次从 Go/Ollama 切换时必用)")
+    parser.add_argument("--resume", action="store_true",
+                        help="断点续烘: 不清库, 每批先问库里有没有这条, 有的直接跳过不再 embed。"
+                             "与 --recreate 互斥; 只在 gz 内容没变时使用, 否则旧行会留在库里")
 
     args = parser.parse_args()
+
+    if args.resume and args.recreate:
+        print("错误: --resume 和 --recreate 不能同时给 (一个要清库, 一个要留着接着烘)")
+        sys.exit(1)
 
     # 前置检查
     if not os.path.isdir(args.src):
@@ -763,6 +803,7 @@ def main():
     print(f"  qdrant:      {args.host}:{args.port}")
     print(f"  collection:  {args.collection}")
     print(f"  recreate:    {args.recreate}")
+    print(f"  resume:      {args.resume}")
     print("=" * 50)
     print()
 
@@ -789,7 +830,8 @@ def main():
 
     # 烘焙
     print()
-    rc = bake(args.src, embedder, baker, args.batch_size, args.max_text_chars)
+    rc = bake(args.src, embedder, baker, args.batch_size, args.max_text_chars,
+              resume=args.resume)
     sys.exit(rc)
 
 

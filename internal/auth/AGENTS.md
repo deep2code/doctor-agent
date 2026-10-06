@@ -14,6 +14,10 @@ pbkdf2$sha256$<iters>$<saltHex>$<dkHex>
 
 `verifyPassword` 对格式错误和 `iter<=0` 直接拒绝（不当作免费通过）。**旧格式行（16 hex salt + sha256(salt||password)）仍可登录**，首次成功登录时原地升级为 PBKDF2；升级写失败绝不能反过来拒绝这次登录。
 
+**没有改密/重置口令的 API 是已定的产品决策**（2026-10-06，用户口径「不要改密端点」），不是待办项：`Service` 的导出面里 `AdminCreateUser` 只能**建**用户，`hashPassword`/`verifyPassword` 都是包内私有，全仓库没有任何一条"把已有用户的口令换成新口令"的路径。运维出路只有两条，`main.go` 的 `ADMIN_PASSWORD` 告警 hint 与 `.env.example:178-181` 说的就是这两条：设了 `ADMIN_PASSWORD` 再重启，或者删掉 `admin` 用户再重启（`createInitialAdmin` 每次启动按用户名 `admin` 查，缺了就重建）。
+
+钉这条事实的门在**别的包**：`internal/server/admin_password_surface_test.go`（离线 AST，不需要 MariaDB）同时读 `handleAdminUser` 的方法集合与本包的导出名，所以它是**决策守卫**而不是缺口提醒 —— 谁补了改密路由或本包的改密方法它就红，红的意思是"你在推翻上面那个决定"。要推翻就先推翻决定，并连带翻 `main.go` hint、`.env.example` 与 `AGENTS.md`/`internal/{config,server}/AGENTS.md` 里引用这同一件事的口径，而不是删门。守卫故意比决定更严（任何导出名含 `Password` 都算，宽松版会放过 `RotateSecret` 这类改名实现）。
+
 ## 令牌
 
 无状态 HMAC-SHA256 bearer：

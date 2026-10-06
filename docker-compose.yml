@@ -82,14 +82,16 @@ services:
 
   # 专业 RAG：标准 Qdrant + 构建期烘好的向量（无 gz 数据层）
   # 只读部署模式（2026-08-30）：不挂持久卷——向量数据在镜像内（/qdrant/storage），
-  # 容器重建即从镜像恢复，无需卷初始化复制（省一半磁盘）。WAL 写到 /tmp（容器可写层）。
+  # 容器重建即从镜像恢复，无需卷初始化复制（省一半磁盘）。
+  # 2026-10-06 删掉了这里原本的 QDRANT__STORAGE__WAL_PATH: /tmp/wal —— 按 v1.19.0 源码核过它是
+  # 无效变量（WalConfig 只有 wal_capacity_mb / wal_segments_ahead / wal_retain_closed 三个字段，
+  # 没有路径；WAL 目录由 shard 路径派生成 collections/<name>/<shard>/wal，挪不出去）。
+  # 也就是说镜像里带的 WAL 线上照样会回放，「线上只认 segment」是旧文档的错误陈述。
   qdrant:
     image: ${QDRANT_IMAGE:-crpi-0xi5k79l9j4opzta.cn-hangzhou.personal.cr.aliyuncs.com/codeup2026/doctor-agent-qdrant:latest}
     container_name: doctor-agent-qdrant
     ports:
       - "6333:6333"
-    environment:
-      QDRANT__STORAGE__WAL_PATH: /tmp/wal
     restart: unless-stopped
 
   # 查询端 embedding: bge-m3 INT8 CPU (与烘焙向量同模型同空间)。

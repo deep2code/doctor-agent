@@ -292,9 +292,32 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
   `qdrant-storage/` was produced out-of-band (e.g. `bake-gpu.sh`). Workaround
   for (2): `docker build -f Dockerfile.qdrant --build-arg EMBEDDING_BASE_URL=…
   --build-arg EMBEDDING_MODEL=bge-m3 .`
-  Bake WAL is cleared at build end (empty dirs kept — qdrant
-  needs the dir to exist; data is already materialised in segments), so
-  startup loads segments directly with no WAL replay (~45s).
+  WAL is cleared **only on the Linux in-image path**, and only because
+  `vector-bake --wait-green=600` has run first (`Dockerfile.qdrant:124`;
+  empty dirs kept — qdrant needs the dir to exist). The GPU path
+  (`bake-gpu.sh fetch`) **retains the WAL**: `bake_onnx.py` has no
+  wait-green/point-count equivalent and Qdrant v1.19 exposes no flush
+  endpoint (all 53 paths of the published openapi checked), so deleting it
+  there would silently drop whatever had not yet been sealed — and since a
+  startup replays whatever is in `<shard>/wal`, keeping it costs nothing.
+  ⚠️ **The WAL cannot be relocated (verified 2026-10-06 against the v1.19.0
+  source)**: `WalConfig` (`lib/collection/src/config.rs:40-50`) has only
+  `wal_capacity_mb` / `wal_segments_ahead` / `wal_retain_closed` — no path
+  field — and the directory is derived as `LocalShard::wal_path(shard_path)` =
+  `collections/<collection>/<shard>/wal`. `StorageConfig` has no
+  `deny_unknown_fields`, so the `QDRANT__STORAGE__WAL_PATH: /tmp/wal` line that
+  `docker-compose.yml` carried for months was a **silently discarded no-op**
+  (deleted 2026-10-06), and older prose claiming "prod reads only segments, an
+  image-bundled WAL is never replayed" was wrong. The conclusion stands on a
+  different basis: the only moment you can still ask an authoritative "how many
+  points are stored?" is while the server is up, which is why `bake-gpu.sh`
+  gates the count before packaging — and that gate compares for **equality**,
+  which is also what catches stale points left behind by a resumed bake.
+  A failed paid run does not have to be re-paid: `GPU_RECREATE=0 ./bake-gpu.sh
+  bake` passes `--resume` instead of `--recreate`, and `bake_onnx.py` probes
+  each batch's deterministic point ids against the collection so rows already
+  stored are never re-embedded (safe only while `gz/` is unchanged — the
+  equality gate above is the backstop).
   **2026-08-31 slimming** (image was measured at 10.8GB, storage layer
   9.81GB): bake now (a) skips datasets covered by dedicated lookup tools or a
   keyword full-text layer via `vectorSkipDatasets` in `internal/knowledge/bake.go`
@@ -331,8 +354,16 @@ Pipeline (in `internal/agent/agent.go` `ProcessMessageStream` — `ProcessMessag
   unreferenced.)
 - **Read-only deploy mode (2026-08-30)**: compose mounts NO volume for
   qdrant — vectors live in the image layer, so a container re-create just
-  re-reads the image (no volume-copy, no double disk usage). WAL goes to
-  `/tmp` via `QDRANT__STORAGE__WAL_PATH` (container writable layer). After
+  re-reads the image (no volume-copy, no double disk usage). **Verified
+  2026-10-06**: qdrant's own `Dockerfile` (v1.19.0) declares **no `VOLUME`**, so
+  `/qdrant/storage` really is image content plus the container's writable layer
+  — unlike the `kb` MariaDB container, whose base image *does* declare
+  `VOLUME /var/lib/mysql` and therefore needs the entrypoint marker to force a
+  re-import. The `QDRANT__STORAGE__WAL_PATH: /tmp/wal` env var that used to be
+  cited here is a **no-op** (see the WAL note above — Qdrant has no WAL path
+  setting) and was deleted from `docker-compose.yml`; writes die with the
+  container because they land in its writable layer, not because of any WAL
+  relocation. After
   the 2026-08-31 slimming the image is ~2-2.5GB uncompressed (was 10.8GB),
   so ~5GB free disk is enough. Do NOT write to qdrant via
   this setup (data would not survive container re-create); it is for

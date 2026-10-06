@@ -331,7 +331,8 @@ AUTH_SECRET=自定义一长串随机值   # /login 令牌的签名密钥；不�
 > **架构说明（2026-09-20 校准；compose 共 4 个服务 / 4 个镜像）**：
 > - `doctor-agent` —— Go 源码 + 前端，**改代码才重建**。
 > - `doctor-agent-qdrant` —— 标准 Qdrant（pin v1.19.0）+ **构建期烘好的向量**（gz 知识源
->   仅作构建期输入，不在最终镜像内；bake WAL 已清理），启动即用、零灌入等待。瘦身手段：
+>   仅作构建期输入，不在最终镜像内；WAL 只在 Linux 镜像内烘焙那条路径清理，GPU 产物按
+>   `bake-gpu.sh` 原样打包、首启自动回放），启动即用、零灌入等待。瘦身手段：
 >   ① 烘焙按 `vectorSkipDatasets`（`internal/knowledge/bake.go`）跳过已有专用 lookup 工具
 >   或关键词全文层够用的数据集（medkg/nmpa/cpubmed/icd10/icd11/hpo/orphanet/icdo3/corpus/
 >   public_resources），② collection 用 `datatype=float16`（向量磁盘减半），③ payload 去掉

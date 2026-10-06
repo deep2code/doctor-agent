@@ -50,7 +50,7 @@ func TestAdminUsersSurfaceHasNoPasswordChange(t *testing.T) {
 	}
 
 	for _, name := range authPasswordMutators(t) {
-		t.Errorf("internal/auth exposes %s: a password-change path exists, so the startup hint and .env.example must stop telling operators to edit the users table", name)
+		t.Errorf("internal/auth exposes %s — that reverses the 2026-10-06 decision, so the startup hint and .env.example must stop telling operators to edit the users table", name)
 	}
 }
 

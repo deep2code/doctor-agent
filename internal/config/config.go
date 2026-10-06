@@ -58,16 +58,10 @@ type Config struct {
 	// Media (3D 渲染动画 webm 磁盘目录)
 	MediaDir string // 由 /media/ 提供服务，默认 data/media
 
-	// Vector Database
-	VectorDBProvider string // "qdrant" or "" (keyword-only)
-	QdrantHost       string
-	QdrantPort       int
-
-	// Embedding
-	EmbeddingProvider   string // "deepseek", "voyage", or "" (no embedding)
+	// Embedding model selection (the endpoint/API-key side lives with the
+	// vector-store group below; there is no provider-name switch any more).
 	EmbeddingModel      string
 	EmbeddingDimensions int // 0 = API default; 1024 forces 1024 for embedding-3-pro
-	VoyageAPIKey        string
 
 	// Safety
 	EmergencyEnabled  bool
@@ -194,14 +188,8 @@ func Load() *Config {
 		AliasMapPath:               getEnv("ALIAS_MAP_PATH", "data/alias_map.json"),
 		MediaDir:                   getEnv("MEDIA_DIR", "data/media"),
 
-		VectorDBProvider: getEnv("VECTOR_DB_PROVIDER", ""),
-		QdrantHost:       getEnv("QDRANT_HOST", "localhost"),
-		QdrantPort:       getEnvInt("QDRANT_PORT", 6334),
-
-		EmbeddingProvider:   getEnv("EMBEDDING_PROVIDER", ""),
 		EmbeddingModel:      getEnv("EMBEDDING_MODEL", "bge-m3"),
 		EmbeddingDimensions: getEnvInt("EMBEDDING_DIMENSIONS", 0),
-		VoyageAPIKey:        getEnv("VOYAGE_API_KEY", ""),
 
 		EmergencyEnabled:  getEnvBool("EMERGENCY_DETECTION_ENABLED", true),
 		ScopeGuardEnabled: getEnvBool("SCOPE_GUARD_ENABLED", true),
@@ -285,10 +273,6 @@ func (c *Config) Validate() error {
 		}
 	default:
 		return fmt.Errorf("unknown LLM_PROVIDER: %s (must be 'anthropic', 'deepseek' or 'openai-compat')", c.LLMProvider)
-	}
-
-	if c.VectorDBProvider == "qdrant" && c.EmbeddingProvider == "" {
-		return fmt.Errorf("EMBEDDING_PROVIDER is required when VECTOR_DB_PROVIDER=qdrant")
 	}
 
 	return nil

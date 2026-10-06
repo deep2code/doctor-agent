@@ -46,7 +46,7 @@ func envVarsReadByConfig(t *testing.T) map[string]bool {
 		}
 		return true
 	})
-	if len(names) < 60 {
+	if len(names) < 50 {
 		t.Fatalf("only %d env vars found in config.go — the extractor stopped matching", len(names))
 	}
 	return names
@@ -57,18 +57,6 @@ func envVarsReadByConfig(t *testing.T) map[string]bool {
 var composeOnlyVars = map[string]bool{
 	"MARIA_DB_ROOT_PASSWORD": true,
 	"QDRANT_IMAGE":           true,
-}
-
-// inertVars are parsed into Config but read by no other package, so they are
-// deliberately absent from the example file — documenting them would advertise
-// a knob that silently does nothing. The live equivalents are VECTOR_STORE_HOST
-// / VECTOR_STORE_PORT and EMBEDDING_BASE_URL.
-var inertVars = map[string]bool{
-	"VECTOR_DB_PROVIDER": true,
-	"QDRANT_HOST":        true,
-	"QDRANT_PORT":        true,
-	"EMBEDDING_PROVIDER": true,
-	"VOYAGE_API_KEY":     true,
 }
 
 func exampleKeys(t *testing.T) (uncommented, all map[string]bool) {
@@ -117,23 +105,21 @@ func TestEnvExampleAdvertisesOnlyRealVars(t *testing.T) {
 		if read[key] || composeOnlyVars[key] {
 			continue
 		}
-		if inertVars[key] {
-			t.Errorf(".env.example sets %s uncommented, which config.Load() reads into a field nothing consumes — comment it out or give the field a consumer", key)
-			continue
-		}
 		t.Errorf(".env.example sets %s, which config.go never reads", key)
 	}
 }
 
 // TestEnvExampleCoversEveryLiveVar is the direction the 2026-10-04 audit found
 // broken: seventeen variables Load() read that the example file never
-// mentioned, including ADMIN_PASSWORD and PUBLIC_BASE_URL.
+// mentioned, including ADMIN_PASSWORD and PUBLIC_BASE_URL. Five of them were
+// "read into a field nobody consumes"; those fields are gone (2026-10-06), so
+// this check has no exemptions left.
 func TestEnvExampleCoversEveryLiveVar(t *testing.T) {
 	_, all := exampleKeys(t)
 	read := envVarsReadByConfig(t)
 
 	for name := range read {
-		if all[name] || inertVars[name] {
+		if all[name] {
 			continue
 		}
 		t.Errorf("config.go reads %s but .env.example never mentions it", name)

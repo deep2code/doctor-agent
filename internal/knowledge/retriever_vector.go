@@ -145,6 +145,115 @@ func (r *VectorRetriever) PrewarmQueries(queries []string) {
 	}
 }
 
+// bakedProjections turns one payload row of a dataset whose JSON is NOT a
+// KnowledgeEntry into that shape, using the same projection the keyword leg
+// applies to the same row. One entry per family, and each one is the code path
+// itself: TestBakedPayloadDecodesEveryProjectedRow walks the real bake tree
+// against this table and requires every listed family to decode 100% of its rows
+// with globally unique ids. A family that is missing from this table is not an
+// error anywhere — its rows simply decode into nothing and the vector leg stops
+// recalling that dataset, so adding a prose corpus to the bake tree means adding
+// its projector here in the same change.
+var bakedProjections = map[string]func(raw string) KnowledgeEntry{
+	DSMSD: func(raw string) KnowledgeEntry {
+		var m MSDEntry
+		if json.Unmarshal([]byte(raw), &m) != nil {
+			return KnowledgeEntry{}
+		}
+		return projectMSDEntry(&m)
+	},
+	DSMedlinePlus: func(raw string) KnowledgeEntry {
+		var m MedlinePlusEntry
+		if json.Unmarshal([]byte(raw), &m) != nil {
+			return KnowledgeEntry{}
+		}
+		return projectMedlinePlus(&m)
+	},
+	DSAAP: func(raw string) KnowledgeEntry {
+		var m AAPEntry
+		if json.Unmarshal([]byte(raw), &m) != nil {
+			return KnowledgeEntry{}
+		}
+		return projectAAPEntry(&m)
+	},
+	DSFHS: func(raw string) KnowledgeEntry {
+		var m FHSGuide
+		if json.Unmarshal([]byte(raw), &m) != nil {
+			return KnowledgeEntry{}
+		}
+		return projectFHSGuide(&m)
+	},
+	DSNHC: func(raw string) KnowledgeEntry {
+		var m NHCGuide
+		if json.Unmarshal([]byte(raw), &m) != nil {
+			return KnowledgeEntry{}
+		}
+		return projectNHCGuide(&m)
+	},
+	DSDiseaseEnc: func(raw string) KnowledgeEntry {
+		var m DiseaseEncyclopedia
+		if json.Unmarshal([]byte(raw), &m) != nil {
+			return KnowledgeEntry{}
+		}
+		return projectDiseaseEnc(&m)
+	},
+	DSLiterature: func(raw string) KnowledgeEntry {
+		var m LiteratureEntry
+		if json.Unmarshal([]byte(raw), &m) != nil {
+			return KnowledgeEntry{}
+		}
+		return projectLiterature(&m)
+	},
+}
+
+// decodeBakedPayload projects one baked Qdrant payload row onto the unified
+// KnowledgeEntry shape that every consumer of a retrieval hit speaks.
+//
+// Three cases, in order:
+//   - the row IS a KnowledgeEntry (medical, and the small lookup tables that
+//     share its shape) and carries something to show: decode it directly;
+//   - the row belongs to a family listed in bakedProjections: decode it into
+//     that family's own struct and project it, so the article's text reaches the
+//     prompt and both legs agree on its identity (otherwise RRF lists one
+//     article twice under two ids);
+//   - anything else: exact-match lookup tables (医保目录, EML, FDA labels,
+//     ClinVar, growth standards, the version row…) whose rows carry no prose,
+//     and entries that decode but expose neither text nor citations. Returning
+//     those would spend a retrieval slot on an entry the model can see nothing
+//     in, so they stay dropped.
+func decodeBakedPayload(payload map[string]string) (KnowledgeEntry, bool) {
+	raw := payload["data"]
+	if raw == "" {
+		return KnowledgeEntry{}, false
+	}
+	if project, ok := bakedProjections[payload["source"]]; ok {
+		p := project(raw)
+		if p.ID != "" && (p.Body != "" || p.ConditionZH != "") {
+			return p, true
+		}
+		return KnowledgeEntry{}, false
+	}
+	var e KnowledgeEntry
+	if err := json.Unmarshal([]byte(raw), &e); err != nil || !entryHasText(&e) {
+		return KnowledgeEntry{}, false
+	}
+	foldProseIntoBody(&e)
+	return e, true
+}
+
+// entryHasText reports whether a decoded entry carries anything a consumer can
+// show: article prose, a condition name, structured clinical fields, or a
+// citable source. Entries with only an id (and maybe keywords) decode fine but
+// surface nothing, which is why they used to be returned as empty shells.
+func entryHasText(e *KnowledgeEntry) bool {
+	return e.Body != "" || e.ConditionZH != "" || e.ConditionEN != "" ||
+		e.TitleZH != "" || e.SummaryZH != "" || e.DetailsZH != "" ||
+		e.Diagnosis != nil || len(e.Treatment) > 0 || len(e.Prevention) > 0 ||
+		len(e.WhenToSeekCare) > 0 || len(e.RiskFactors) > 0 ||
+		len(e.Complications) > 0 || len(e.DifferentialDiagnosis) > 0 ||
+		len(e.ClinicalExamples) > 0 || len(e.Citations) > 0
+}
+
 // Retrieve performs semantic search and returns matching knowledge entries.
 func (r *VectorRetriever) Retrieve(ctx context.Context, query string, topK int) ([]RetrievalResult, error) {
 	if topK <= 0 {
@@ -172,16 +281,12 @@ func (r *VectorRetriever) Retrieve(ctx context.Context, query string, topK int) 
 		// Self-contained mode (baked data image): the full entry JSON lives in
 		// the payload, so retrieval works even when MariaDB only holds business
 		// data. Fall back to the in-memory store for runtime-synced indexes.
-		if raw, ok := result.Payload["data"]; ok && raw != "" {
-			var e KnowledgeEntry
-			if err := json.Unmarshal([]byte(raw), &e); err == nil && e.ID != "" {
-				foldProseIntoBody(&e)
-				retrievalResults = append(retrievalResults, RetrievalResult{Entry: e, Score: result.Score})
-				if len(retrievalResults) >= topK {
-					break
-				}
-				continue
+		if e, ok := decodeBakedPayload(result.Payload); ok {
+			retrievalResults = append(retrievalResults, RetrievalResult{Entry: e, Score: result.Score})
+			if len(retrievalResults) >= topK {
+				break
 			}
+			continue
 		}
 
 		// Get entry ID from payload

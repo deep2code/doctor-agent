@@ -2,6 +2,8 @@ package knowledge
 
 import (
 	"context"
+	"crypto/sha256"
+	"encoding/hex"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -813,6 +815,34 @@ func (s *Store) GetDataVersion() *DataVersion {
 	return s.DataVersion
 }
 
+// projectedID gives a row that has no native id field a stable identity derived
+// from the row's own content. Load-order ids ("msd-0001") cannot be re-derived
+// from a baked Qdrant payload, so the keyword leg and the vector leg would hand
+// RRF two different ids for one article and list it twice; they also shift every
+// later id whenever a corpus grows or is re-seeded.
+func projectedID(prefix string, parts ...string) string {
+	h := sha256.New()
+	for _, p := range parts {
+		h.Write([]byte(p))
+		h.Write([]byte{0})
+	}
+	return prefix + "-" + hex.EncodeToString(h.Sum(nil))[:20]
+}
+
+// projectProsePage projects one full-text page (title + body + source URL) onto
+// KnowledgeEntry. The article goes to Body, which is what bigram recall
+// (scoreEntry strategy 6) and the prompt excerpt builder read. Callers that have
+// an institution to attribute add their own Citation afterwards.
+func projectProsePage(category, prefix, url, title, content string) KnowledgeEntry {
+	return KnowledgeEntry{
+		ID:          projectedID(prefix, url, title, content),
+		ConditionZH: title,
+		Category:    category,
+		Keywords:    []string{title},
+		Body:        title + "\n" + content,
+	}
+}
+
 // FoodEntriesAsKnowledge projects food-risk entries as KnowledgeEntry so the
 // retriever and prompt builder can index them uniformly.
 func (s *Store) FoodEntriesAsKnowledge() []KnowledgeEntry {
@@ -855,7 +885,7 @@ func (s *Store) LabEntriesAsKnowledge() []KnowledgeEntry {
 	return out
 }
 
-// FHSGuidesAsKnowledge projects the FHS parenting corpus (母乳/睡眠/发育等
+// FHSGuideAsKnowledge projects the FHS parenting corpus (母乳/睡眠/发育等
 // 育儿全文) as KnowledgeEntry with the article in Body, so colloquial
 // parenting questions ("宝宝晚上突然大哭") recall it via body bigram matching.
 func (s *Store) FHSGuidesAsKnowledge() []KnowledgeEntry {
@@ -864,17 +894,15 @@ func (s *Store) FHSGuidesAsKnowledge() []KnowledgeEntry {
 	defer s.mu.RUnlock()
 	out := make([]KnowledgeEntry, 0, len(s.FHSGuides))
 	for i := range s.FHSGuides {
-		g := &s.FHSGuides[i]
-		out = append(out, KnowledgeEntry{
-			ID:          fmt.Sprintf("fhs-%03d", i+1),
-			ConditionZH: g.Title,
-			Category:    "fhs_parenting",
-			Keywords:    []string{g.Title},
-			Body:        g.Title + "\n" + g.Content,
-			Citations:   []Citation{{Title: "香港卫生署家庭健康服务：" + g.Title, URL: g.URL}},
-		})
+		out = append(out, projectFHSGuide(&s.FHSGuides[i]))
 	}
 	return out
+}
+
+func projectFHSGuide(g *FHSGuide) KnowledgeEntry {
+	e := projectProsePage("fhs_parenting", "fhs", g.URL, g.Title, g.Content)
+	e.Citations = []Citation{{Title: "香港卫生署家庭健康服务：" + g.Title, URL: g.URL}}
+	return e
 }
 
 // MSDAsKnowledge projects the MSD Manual consumer/professional articles as
@@ -885,16 +913,13 @@ func (s *Store) MSDAsKnowledge() []KnowledgeEntry {
 	defer s.mu.RUnlock()
 	out := make([]KnowledgeEntry, 0, len(s.MSDEntries))
 	for i := range s.MSDEntries {
-		m := &s.MSDEntries[i]
-		out = append(out, KnowledgeEntry{
-			ID:          fmt.Sprintf("msd-%04d", i+1),
-			ConditionZH: m.Title,
-			Category:    "msd_manual",
-			Keywords:    []string{m.Title},
-			Body:        m.Title + "\n" + m.Content,
-		})
+		out = append(out, projectMSDEntry(&s.MSDEntries[i]))
 	}
 	return out
+}
+
+func projectMSDEntry(m *MSDEntry) KnowledgeEntry {
+	return projectProsePage("msd_manual", "msd", m.URL, m.Title, m.Content)
 }
 
 // MedlinePlusAsKnowledge projects MedlinePlus medical encyclopedia pages.
@@ -904,21 +929,23 @@ func (s *Store) MedlinePlusAsKnowledge() []KnowledgeEntry {
 	defer s.mu.RUnlock()
 	out := make([]KnowledgeEntry, 0, len(s.MedlinePlusEntries))
 	for i := range s.MedlinePlusEntries {
-		m := &s.MedlinePlusEntries[i]
-		out = append(out, KnowledgeEntry{
-			ID:          fmt.Sprintf("mlp-%04d", i+1),
-			ConditionZH: m.Title,
-			Category:    "medlineplus",
-			Keywords:    []string{m.Title},
-			Body:        m.Title + "\n" + m.Content,
-		})
+		out = append(out, projectMedlinePlus(&s.MedlinePlusEntries[i]))
 	}
 	return out
 }
 
-// DiseaseEncyclopediaAsKnowledge projects the CMeKG disease encyclopedia
-// (8807 diseases) as KnowledgeEntry. Only name + symptoms + key fields are
-// mapped so keyword/bigram recall works; the full structured record stays
+func projectMedlinePlus(m *MedlinePlusEntry) KnowledgeEntry {
+	return projectProsePage("medlineplus", "mlp", m.URL, m.Title, m.Content)
+}
+
+// projectAAPEntry projects one healthychildren.org article. The keyword leg
+// serves AAP through its own retriever (RetrieveAAP), so this projection only
+// exists for the vector payload path — which is the only leg that can show an
+// AAP article's text at all, since the row is not a KnowledgeEntry.
+func projectAAPEntry(m *AAPEntry) KnowledgeEntry {
+	return projectProsePage("aap_parenting", "aap", m.URL, m.Title, m.Content)
+}
+
 // symptomKeywords maps disease categories to common symptom keywords that
 // patients use. These are injected into disease encyclopedia entries to
 // improve recall for colloquial queries like "喉咙痛" matching "咽炎".
@@ -930,6 +957,9 @@ var symptomKeywords = map[string][]string{
 	"儿科":   {"发烧", "发热", "咳嗽", "拉肚子", "腹泻", "呕吐", "皮疹", "抽搐", "哭闹", "出疹子"},
 }
 
+// DiseaseEncyclopediaAsKnowledge projects the CMeKG disease encyclopedia
+// (8807 diseases) as KnowledgeEntry. Only name + symptoms + key fields are
+// mapped so keyword/bigram recall works; the full structured record stays
 // available via exact_lookup / knowledge_search dataset=disease_encyclopedia.
 func (s *Store) DiseaseEncyclopediaAsKnowledge() []KnowledgeEntry {
 	_ = s.ensureDiseaseEnc()
@@ -937,41 +967,50 @@ func (s *Store) DiseaseEncyclopediaAsKnowledge() []KnowledgeEntry {
 	defer s.mu.RUnlock()
 	out := make([]KnowledgeEntry, 0, len(s.DiseaseEncyclopedias))
 	for i := range s.DiseaseEncyclopedias {
-		d := &s.DiseaseEncyclopedias[i]
-		kws := []string{d.NameZH}
-		// Inject symptom keywords based on disease category for better recall
-		// of colloquial patient queries (e.g., "喉咙痛" → "咽炎").
-		for _, cat := range d.Category {
-			if extra, ok := symptomKeywords[cat]; ok {
-				kws = append(kws, extra...)
-			}
-		}
-		kws = append(kws, d.Symptoms...)
-		var bodyParts []string
-		if d.Description != "" {
-			bodyParts = append(bodyParts, d.Description)
-		}
-		if len(d.Symptoms) > 0 {
-			bodyParts = append(bodyParts, "症状："+strings.Join(d.Symptoms, "、"))
-		}
-		if d.Etiology != "" {
-			bodyParts = append(bodyParts, "病因："+d.Etiology)
-		}
-		if len(d.TreatmentMethods) > 0 {
-			bodyParts = append(bodyParts, "治疗："+strings.Join(d.TreatmentMethods, "、"))
-		}
-		if d.Prevention != "" {
-			bodyParts = append(bodyParts, "预防："+d.Prevention)
-		}
-		out = append(out, KnowledgeEntry{
-			ID:          fmt.Sprintf("enc-%05d", i+1),
-			ConditionZH: d.NameZH,
-			Category:    "disease_encyclopedia",
-			Keywords:    kws,
-			Body:        strings.Join(bodyParts, "\n"),
-		})
+		out = append(out, projectDiseaseEnc(&s.DiseaseEncyclopedias[i]))
 	}
 	return out
+}
+
+// projectDiseaseEnc projects one CMeKG disease card. The row is NOT a
+// KnowledgeEntry (its `category` is a list and `prevention` a plain string,
+// which is why a strict KnowledgeEntry decode of it fails outright), so both
+// retrieval legs have to go through this projection to show it at all.
+func projectDiseaseEnc(d *DiseaseEncyclopedia) KnowledgeEntry {
+	kws := []string{d.NameZH}
+	// Inject symptom keywords based on disease category for better recall
+	// of colloquial patient queries (e.g., "喉咙痛" → "咽炎").
+	for _, cat := range d.Category {
+		if extra, ok := symptomKeywords[cat]; ok {
+			kws = append(kws, extra...)
+		}
+	}
+	kws = append(kws, d.Symptoms...)
+	var bodyParts []string
+	if d.Description != "" {
+		bodyParts = append(bodyParts, d.Description)
+	}
+	if len(d.Symptoms) > 0 {
+		bodyParts = append(bodyParts, "症状："+strings.Join(d.Symptoms, "、"))
+	}
+	if d.Etiology != "" {
+		bodyParts = append(bodyParts, "病因："+d.Etiology)
+	}
+	if len(d.TreatmentMethods) > 0 {
+		bodyParts = append(bodyParts, "治疗："+strings.Join(d.TreatmentMethods, "、"))
+	}
+	if d.Prevention != "" {
+		bodyParts = append(bodyParts, "预防："+d.Prevention)
+	}
+	return KnowledgeEntry{
+		// `id` is shared by many rows (only 76 distinct values across 8,807),
+		// so identity comes from the disease name plus its description.
+		ID:          projectedID("enc", d.NameZH, d.Description),
+		ConditionZH: d.NameZH,
+		Category:    "disease_encyclopedia",
+		Keywords:    kws,
+		Body:        strings.Join(bodyParts, "\n"),
+	}
 }
 
 // NHCGuidesAsKnowledge projects 国家卫健委诊疗方案 full-text guides as
@@ -984,29 +1023,46 @@ func (s *Store) NHCGuidesAsKnowledge() []KnowledgeEntry {
 	defer s.mu.RUnlock()
 	out := make([]KnowledgeEntry, 0, len(s.NHCGuides))
 	for i := range s.NHCGuides {
-		g := &s.NHCGuides[i]
-		cite := Citation{Title: "国家卫健委：" + g.Title, URL: g.URL}
-		if g.Year != "" {
-			cite.Year, _ = strconv.Atoi(g.Year)
-		}
-		// 从标题提取关键词：去除"关于印发...的通知"等模板，保留疾病/症状名
-		keywords := extractGuideKeywords(g.Title)
-		// 合并常见疾病/症状的同义词
-		for _, kw := range keywords {
-			if expanded := expandGuideKeyword(kw); expanded != kw {
-				keywords = append(keywords, expanded)
-			}
-		}
-		out = append(out, KnowledgeEntry{
-			ID:          fmt.Sprintf("nhc-%03d", i+1),
-			ConditionZH: g.Title,
-			Category:    "nhc_guide",
-			Keywords:    keywords,
-			Body:        g.Title + "\n" + g.Content,
-			Citations:   []Citation{cite},
-		})
+		out = append(out, projectNHCGuide(&s.NHCGuides[i]))
 	}
 	return out
+}
+
+func projectNHCGuide(g *NHCGuide) KnowledgeEntry {
+	cite := Citation{Title: "国家卫健委：" + g.Title, URL: g.URL}
+	if g.Year != "" {
+		cite.Year, _ = strconv.Atoi(g.Year)
+	}
+	// 从标题提取关键词：去除"关于印发...的通知"等模板，保留疾病/症状名
+	keywords := extractGuideKeywords(g.Title)
+	// 合并常见疾病/症状的同义词
+	for _, kw := range keywords {
+		if expanded := expandGuideKeyword(kw); expanded != kw {
+			keywords = append(keywords, expanded)
+		}
+	}
+	return KnowledgeEntry{
+		ID:          projectedID("nhc", g.URL, g.Title, g.Content),
+		ConditionZH: g.Title,
+		Category:    "nhc_guide",
+		Keywords:    keywords,
+		Body:        g.Title + "\n" + g.Content,
+		Citations:   []Citation{cite},
+	}
+}
+
+// projectLiterature projects one Europe PMC abstract. Like the prose pages it is
+// not a KnowledgeEntry row, so without this the vector leg returns the hit with
+// no readable text at all (4,425 baked rows). `id` is native and unique here, so
+// no projected identity is needed.
+func projectLiterature(l *LiteratureEntry) KnowledgeEntry {
+	return KnowledgeEntry{
+		ID:          l.ID,
+		ConditionZH: l.Title,
+		Category:    "literature",
+		Keywords:    []string{l.Title},
+		Body:        l.Title + "\n" + l.Abstract,
+	}
 }
 
 // extractGuideKeywords 从指南标题提取关键词

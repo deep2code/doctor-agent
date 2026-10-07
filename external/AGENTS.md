@@ -27,6 +27,7 @@
 
 - 大原始包一律 gitignore：`cmb/`、`orphanet/`、`statpearls/`、`.venv/`；缓存目录已挪出本目录（`.cache/gomodcache`、`.cache/pylibs`，见根 AGENTS.md 的 Build caches 一节）。
 - `medical_terminology_2024.json` 是**资源清单**（不是种子），留在 `external/` 防 `make_gz` 造孤儿 zst；它的产物经 `convert_medical_terminology.py` 分流进 `internal/knowledge/alias_map.json` 与 `data/public_resources`。
+- `ahospital_aliases.py` → `ahospital_aliases.json`（43 条候选，**这两个文件是唯一进 git 的产物**）：从 www.a-hospital.com 已抓页面的「（重定向自 …）」行收割「口语名 ↔ 正式名」对，每条都必须锚在我们已发行的名字上（ICD-10/11、NMPA、Orphanet、HPO、疾病百科、MSD、medical 的 `condition_zh` 八张官方名字表现场比对）。**它不写 `alias_map.json`**，也不该写：合入要人工逐条审（2026-10-07 那轮 35 收 / 8 拒，拒的是「病菌↔细菌」这类医学上不等价的，和「泌尿↔泌尿系统」这类键是目标最短形式的），再审完再改。原始抓取目录 `external/ahospital/`（142MB）整目录 gitignore，全部可重抓。**同一个站点的正文一律不入库**（网友可编辑、实测仅 6% 带来源标记），这条路已经走过并回退，别再加 `medkb` 插件或 `corpus` 数据集。
 - `*.log`（`cdc_struct.log`、`dailymed_*.log`、`europepmc.log`、`medlineplus_fetch.log`、`who_factsheets.log`）是抓取历史日志，非管线输入。
 - `DOWNLOAD_PROGRESS.md` 记外部数据源的抓取状态；`LLM_PROVIDERS.md` 记结构化脚本用的 provider 降级链（智谱免费优先）。
 - 官方 PDF 全文优先本地逐字核对，**商业聚合站/医院科普站的 AI 改写稿数字不可信**（曾把 482 万新发改成"482万宗每60秒9人"）；nhc.gov.cn 有 WAF（WebFetch 412），可用 browser-use 真浏览器；图片版核心信息页要另找文字版。

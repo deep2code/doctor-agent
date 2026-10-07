@@ -31,7 +31,7 @@
 | `retriever_vector.go` | 语义检索。查询→向量 256 项 LRU 记忆化（knowledge 与 drug 共用）；**载荷解码走 `bakedProjections` 单表**（7 个家族 → 各自结构体 → 与关键词腿共用的同一个 `projectXxx`），`decodeBakedPayload:224` 只有三种出口：解得出正文就返回、是查找表就丢弃、解不开也丢弃。解码前先 `foldProseIntoBody`，防向量层将来再丢正文 |
 | `retriever_corpus.go` | `scoreProse()`（唯一 prose 打分家族，标题+20/正文+8）+ `scoreCorpus`（加 summary 中间区 +10/+6）+ `scoreEnglish()`；`scoreMSD`/`scoreNHC`/`scoreFHS` 是薄包装。**新 corpus 检索器照抄调用，不要复制窗口打分循环** |
 | 每源 retriever_*.go | aap / clinvar / corpus / eml / fda / fhs / growth / literature / medins / medline / milestones / msd / nhd→nhc / newborn —— 各对应一个 `RetrieveXxx`，被 `knowledge_search`/`exact_lookup` 派发 |
-| `query_expansion.go` + `alias_map.json` | `ExpandQuery` + `LoadAliasFile`（`//go:embed`，即时生效、重跑幂等） |
+| `query_expansion.go` + `alias_map.json` | `ExpandQuery` + `LoadAliasFile`（`//go:embed`，即时生效、重跑幂等）。1,844 个键 / 3,701 条对照（2026-10-07 实测）。两个来源：`external/medical_terminology_2024.json` 经 `convert_medical_terminology.py` 整理的同义词组，和 `external/ahospital_aliases.py` 从重定向页收割、**人工逐条审过**的口语↔正式名对。生效方式是重编 app 镜像（不走 `make_gz`/`seed-knowledge`，它不在库里） |
 | `reranker.go` | `Reranker` 接口 + `RerankCandidates`（重排融合池并截到 `KNOWLEDGE_TOP_K`） |
 | `excerpt.go` | `ExcerptAround(body, query, 700)` 按行边界取窗口 —— **调用点必须自己 clipRunes 到 450 字**，缺换行的正文会回给出远宽于预算的切片 |
 | `citation.go` | `CitationFormatter`：`BuildCitationMap`/`BuildCitationMapOffset`/`FlatCitationCount`/`BuildCitedSources`/`AddToolSource`/`SourceTierLabel:98`/`BuildKnowledgeExcerpts:87`（提示词里的"检索到的知识原文摘录"，最多 4 条） |
@@ -49,6 +49,7 @@
 6. **载荷解不开不是错误，是静默死点**：`VectorRetriever` 对解不出正文的行直接丢弃，既不报错也不留痕，所以「烘焙付了钱、检索永远不返回」这个状态在代码里是完全静默的。2026-10-07 实测 34,289 点里只有 11,869 能被取回，全部由它造成（7,580 个全文页没有顶层 `id`、8,807 个疾病百科行 `category` 是数组导致整个 `Unmarshal` 报错、4,502 行解成空壳）。加新 prose 源时必须**同一次改动里**给 `bakedProjections` 加一条，否则门①不覆盖它（门只保证已登记的家族 100% 可解），这条要靠门③（getter 用到的 `projectXxx` 必须在表里）兜。
 7. **无正文的查找表已离开烘焙范围（2026-10-07）**：medins 3,618 / clinvar 1,399 / eml 564 / fda 344 / medicaldialogues 90 / essential 20 / healthmyths 16 / literature_topics 16 / milestones 13 / emergency 12 / growth 1 / newborn 1 / sider 1 / ttd 1 / version 1 = **6,097 行**实测被向量腿返回 **0 条**（能算 embedding，但载荷里没有可展示的正文，其中 6,033 行连顶层 `id` 都没有），已整批加进 `vectorSkipDatasets`。**改名单的完整动作是三步，少一步就是不一致**：① Go 与 Python 两侧同步（`bake_mirror_sync_test.go` 的 `vector_skip_datasets` 子门逐名比对，只改一侧必红）；② 按 `source`（= `gz/` 目录名，不是 syncer 那套旧名）删掉在库产物里的这些点；③ 重算期望点数——`bake-gpu.sh compute_expected_points` 用 Python 名单现算且与在库点数做**等值**判定，所以只改名单不删点会红（那不是要你重烘的信号，而是产物里有名单外内容的信号）。改完实测：期望 **28,192 点 / 12 数据集 / 84 归档**（跳过侧 25 数据集 / 35 归档，合计仍是 119 个归档），在库产物删点后冷重载同为 28,192。
    **`bodypart` 29→18 与 `labtest` 8→6 是部分返回，不是死家族**，留在烘焙范围内（`TestVectorBakeEligible` 现在双向钉住这 15 个跳过 + 这两个不跳过），跳过它们会删掉真正能用的行。
+8. **同义词扩展键不是关键词，磁铁那套判据不适用**：`alias_map.json` 的键只往查询里**加词**，不参与打分，所以「≥3 字才安全」这类关键词长度规则是错的口径（表自己的 `_comment` 写的是「key 须 ≥2 字、双向成对维护」，实测最短键就是 2 字、这类键有 559 个，是主力）。真正要拒的是**键成为自己的目标的最短形式**（泌尿→泌尿系统、风湿→风湿病）——扩展出来的词永远共现，等于给无关查询加了一条无差别信号。**改任何一个键都要重跑召回门**：它影响每一条查询的扩展结果，不限于新键所在的族。顺序是先 `TestExpandQueryAppendsSynonyms`/`TestLoadAliasFileAndExpand`/`TestColloquialQueriesFromRealPatients`（离线、秒级），再 `TestRetrieverSymptomStyleChineseRecall`+`TestRetrieverNoRecallForUnrelated`，最后十三道批量门（2026-10-07 实测单进程 447s）。**这张表是 `//go:embed` 的，不进 `gz/`、不进 MariaDB**，所以 `make_gz`/`seed-knowledge` 都不会带上它，线上生效只能重编 app 镜像。
 
 ## 回归门（本包 40+ 个测试文件）
 

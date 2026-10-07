@@ -30,7 +30,10 @@
 #   MODEL_SOURCE=auto  auto|upload|remote
 #                     upload: 上传本地 fp32 模型 (~2.3GB, rsync 断点续传)
 #                     remote: GPU 服务器自己从 HF 导出 (国内机器配 HF_ENDPOINT 镜像)
-#   GPU_BATCH_SIZE=48                CUDA 批大小 (3080 Ti 12G 跑 256 会 CUDA OOM, 48 稳)
+#   GPU_BATCH_SIZE=24                CUDA 批大小。2026-10-06 在 3080 Ti 12G 上实测:
+#                                    48 会在「最长文本那一尾批」CUDA OOM (单层 attention 缓冲要
+#                                    3.07GB, 报 Failed to allocate ... 3072000000, 整批 48 行没写进去);
+#                                    24 全量抽样 0 错误, 只比 48 慢 3.6% (126 vs 131 行/秒)
 #   GPU_RECREATE=1                   1=每次先清空 collection 从零烘 (默认);
 #                                    0=断点续烘: 保住已有向量, 库里已有的行不再 embed
 #                                    (中途失败后接着跑用这个, 见「注意」第 ③ 条)
@@ -39,7 +42,8 @@
 #                                     不是又一份需要手动维护的登记数字)
 #   HF_ENDPOINT=https://hf-mirror.com  远程 HuggingFace 镜像
 #   PIP_INDEX_URL=                   远程 pip 镜像 (如 https://pypi.tuna.tsinghua.edu.cn/simple)
-#   GH_PROXY=                        GitHub 加速前缀 (如 https://ghfast.top/), 远程下 qdrant 二进制用
+#   GH_PROXY=                        GitHub 加速前缀 (如 https://ghfast.top/), 下载 qdrant 二进制用
+#                                    (无 docker 的机器才用得到; 包缓存在本机 .cache/qdrant-<版本>/)
 #   QDRANT_VERSION=v1.19.0           与 Dockerfile.qdrant 一致
 #   STORAGE_DIR=./qdrant-storage     本机产物目录
 #
@@ -62,7 +66,9 @@
 #          兜底仍是第 ① 道门 —— 它比的是「相等」不是「不少」, 多出来的旧点一样会被拦下。
 #   - GPU 上用 fp32 原模型烘焙 (--int8 是 CPU NEON/AVX 优化, GPU 无效)
 #   - fp32(GPU 烘) 与 INT8(CPU 本机 embed_server.py 查询) 向量 cos≈1.0, 直接混用无需重烘焙
-#   - 远程 docker 优先跑 Qdrant; 没 docker 自动退回官方静态二进制 (GH_PROXY 可加速)
+#   - 远程 docker 优先跑 Qdrant; 没 docker 退回官方静态二进制, 且**先下到你本机 .cache/qdrant-<版本>/
+#     验完 (gzip 完整性 + 体积下限) 再 scp 过去** —— 断流截断下来的半截包会在远程解压成一个
+#     同名的跑不起来的 ./qdrant, 症状是「Qdrant 60s 未就绪」, 第二次起就是内网 scp 几秒。
 # ============================================================================
 set -euo pipefail
 cd "$(dirname "$0")"
@@ -75,7 +81,7 @@ GPU_SSH_OPTS="${GPU_SSH_OPTS:-}"
 REMOTE_DIR="${REMOTE_DIR:-}"   # 留空 = 自动选 (AutoDL 有数据盘 /root/autodl-tmp 就用数据盘)
 MODEL_DIR="${MODEL_DIR:-./bge-m3-onnx}"
 MODEL_SOURCE="${MODEL_SOURCE:-auto}"
-GPU_BATCH_SIZE="${GPU_BATCH_SIZE:-48}"
+GPU_BATCH_SIZE="${GPU_BATCH_SIZE:-24}"
 GPU_RECREATE="${GPU_RECREATE:-1}"
 # 每次清库 vs 保住已有的接着烘 (两条互斥, 见头部「注意」第 ③ 条)
 if [[ "$GPU_RECREATE" == "0" ]]; then BAKE_MODE="--resume"; else BAKE_MODE="--recreate"; fi
@@ -168,8 +174,10 @@ cat <<REMOTE
 set -e
 cd $REMOTE_DIR
 mkdir -p qdrant-storage
-NVIDIA_DIR=\$(python3 -c "import importlib.util,os; s=importlib.util.find_spec('nvidia'); print(os.path.dirname(s.origin) if s else '')" 2>/dev/null || true)
-export LD_LIBRARY_PATH="\${NVIDIA_DIR:+\$NVIDIA_DIR/cudnn/lib:}\${NVIDIA_DIR:+\$NVIDIA_DIR/cublas/lib:}\${LD_LIBRARY_PATH:-}"
+# nvidia 是 namespace 包, find_spec(...).origin 恒为 None (实测 TypeError), 老写法等于没设;
+# 且 cu13 wheel 把 cuBLAS 放在 nvidia/cu13/lib 而不是 nvidia/cublas/lib —— 直接收齐 */lib
+NVIDIA_LIBS=\$(python3 -c "import glob,importlib.util as u; s=u.find_spec('nvidia'); p=(s.submodule_search_locations or [''])[0] if s else ''; print(':'.join(sorted(glob.glob(p+'/*/lib'))))" 2>/dev/null || true)
+export LD_LIBRARY_PATH="\${NVIDIA_LIBS:+\$NVIDIA_LIBS:}\${LD_LIBRARY_PATH:-}"
 rm -f $BAKE_RC
 setsid nohup bash -c '
   python3 external/bake_onnx.py \\
@@ -183,6 +191,76 @@ setsid nohup bash -c '
 ' >/dev/null 2>&1 < /dev/null &
 echo "烘焙已启动 (PID \$!)"
 REMOTE
+}
+
+# ── Qdrant 二进制兜底: 先落本机缓存再 scp ──
+# 无 docker 的机器每次重烘都要在远程下 30MB 二进制; AutoDL 直连 GitHub 会断流
+# (脚本里那句 source /etc/network_turbo 就是为它加的), 而半截包 tar 出来是个跑不起来的
+# ./qdrant, 报错误判成「Qdrant 60s 未就绪」—— 原因在本机这次 curl, 症状在远程。
+# 所以下载改到本机做, 验完再推; 包留在 .cache/ (已 gitignore) 里, 第二次起就是内网 scp。
+QDRANT_TGZ="qdrant-x86_64-unknown-linux-musl.tar.gz"
+QDRANT_CACHE_DIR=".cache/qdrant-$QDRANT_VERSION"
+# 实测 (2026-10-06, 该 release 的 HEAD content-length): 整包 31,974,028 字节。
+# 断流截断是唯一会产出的坏包形态, 所以门槛就钉在体积 + gzip 完整性两条上。
+QDRANT_MIN_BYTES=20000000
+QDRANT_URL="${GH_PROXY}https://github.com/qdrant/qdrant/releases/download/$QDRANT_VERSION/$QDRANT_TGZ"
+
+remote_has_docker() { rsh 'command -v docker >/dev/null 2>&1 && docker info >/dev/null 2>&1'; }
+
+ensure_qdrant_cache() {
+  local tgz="$QDRANT_CACHE_DIR/$QDRANT_TGZ"
+  mkdir -p "$QDRANT_CACHE_DIR"
+  if [[ -f "$tgz" ]] && gzip -t "$tgz" 2>/dev/null \
+     && [[ "$(wc -c <"$tgz" | tr -d '[:space:]')" -ge "$QDRANT_MIN_BYTES" ]]; then
+    echo "  qdrant 二进制: 缓存命中 ${tgz#./}"
+    return 0
+  fi
+  echo "  qdrant 二进制: 本机下载 $QDRANT_VERSION (musl 静态, 不依赖系统 glibc)..."
+  # 先写 .part 再 mv: 直接 curl -o "$tgz" 的话一次断流就留下个半截包,
+  # 而下一轮 -f 判断会把它当缓存命中, 于是这个脚本会反复推出同一个坏二进制。
+  # 两次独立尝试是实测需要的: curl 的 --retry 只重试 HTTP 层的瞬时状态码, 而这里真正的失败
+  # 是连接层的 "Error in the HTTP2 framing layer" (2026-10-06 本机复现, 第二次就过了)。
+  curl -fsSL --retry 5 --connect-timeout 15 -o "$tgz.part" "$QDRANT_URL" \
+    || curl -fsSL --retry 5 --connect-timeout 15 -o "$tgz.part" "$QDRANT_URL" \
+    || { echo "  下载失败 (GitHub 直连断了? 试试设 GH_PROXY=)"; rm -f "$tgz.part"; return 1; }
+  if ! gzip -t "$tgz.part" 2>/dev/null \
+     || [[ "$(wc -c <"$tgz.part" | tr -d '[:space:]')" -lt "$QDRANT_MIN_BYTES" ]]; then
+    echo "  下载包不完整 (截断), 已丢弃"
+    rm -f "$tgz.part"; return 1
+  fi
+  mv "$tgz.part" "$tgz"
+  echo "  qdrant 二进制: 已缓存到 $tgz"
+}
+
+# 远程缺二进制时把缓存推上去; 推不动就返回 0, 让 remote_start_qdrant 里的远程直连下载兜底。
+push_qdrant_binary() {
+  if remote_has_docker; then return 0; fi          # 有 docker 用不到二进制
+  if rsh "[ -x $REMOTE_DIR/qdrant ]" 2>/dev/null; then
+    echo "  qdrant 二进制: 远程已有 ./qdrant, 跳过"
+    return 0
+  fi
+  if ! ensure_qdrant_cache; then
+    echo "  警告: 本机下载失败, 改由远程直连下载 (可能仍受 GitHub 断流影响)"
+    return 0
+  fi
+  echo "  qdrant 二进制: scp 到远程..."
+  if ! scp -q -P "$GPU_PORT" ${GPU_SSH_OPTS:+$GPU_SSH_OPTS} \
+     "$QDRANT_CACHE_DIR/$QDRANT_TGZ" "$GPU_HOST:$REMOTE_DIR/$QDRANT_TGZ"; then
+    echo "  警告: scp 失败, 交给远程直连下载兜底"
+    return 0
+  fi
+  # 解完再验一次: 除了 -x, 还认 ELF magic —— 一个同名空文件或截断产物都过不了这条。
+  # 校验不过必须把那个坏 ./qdrant 删掉再交回兜底: 否则 remote_start_qdrant 看到
+  # 一个存在且可执行的文件就跳过下载, 症状又变回「Qdrant 60s 未就绪」。
+  if rsh "cd $REMOTE_DIR && tar xzf $QDRANT_TGZ && rm -f $QDRANT_TGZ \
+        && [ -x ./qdrant ] \
+        && [ \"\$(head -c4 ./qdrant | od -An -tx1 | tr -d '[:space:]')\" = 7f454c46 ]"; then
+    echo "  ✅ qdrant 二进制就位 (ELF 校验通过)"
+    return 0
+  fi
+  echo "  警告: 远程解包校验失败, 删掉坏文件交给远程直连下载兜底"
+  rsh "rm -f $REMOTE_DIR/qdrant $REMOTE_DIR/$QDRANT_TGZ" 2>/dev/null || true
+  return 0
 }
 
 # ── Qdrant 启动 (docker 优先, 二进制兜底) ──
@@ -204,6 +282,8 @@ if command -v docker >/dev/null 2>&1 && docker info >/dev/null 2>&1; then
     -v $REMOTE_DIR/qdrant-storage:/qdrant/storage \\
     qdrant/qdrant:$QDRANT_VERSION
 else
+  # 兜底: 正常情况下 push_qdrant_binary 已经把 ./qdrant 放上来了 (本机缓存 scp)。
+  # 只有本机下载失败时才走这条远程直连下载。
   if [[ ! -x ./qdrant ]]; then
     echo "无 docker, 下载 qdrant 二进制 $QDRANT_VERSION (musl 静态构建, 不依赖系统 glibc)..."
     curl -fsSL --retry 3 --connect-timeout 15 "${GH_PROXY}https://github.com/qdrant/qdrant/releases/download/$QDRANT_VERSION/qdrant-x86_64-unknown-linux-musl.tar.gz" | tar xz
@@ -294,6 +374,7 @@ assert \"CUDAExecutionProvider\" in ps, \"CUDAExecutionProvider 缺失\"
     exit 1
   fi
   echo "[setup] 启动 Qdrant..."
+  push_qdrant_binary || echo "  警告: qdrant 二进制推送失败, 交给远程下载兜底"
   rsh "$(remote_start_qdrant)"
   echo "  setup 完成"
 }
@@ -304,6 +385,7 @@ do_bake() {
   [[ -n "$EXPECTED_POINTS" ]] || EXPECTED_POINTS=$(compute_expected_points)
   echo "[bake] 期望向量条数: $EXPECTED_POINTS (由 $GZ_DIR 现算)"
   # 确保 Qdrant 在跑
+  push_qdrant_binary || echo "  警告: qdrant 二进制推送失败, 交给远程下载兜底"
   rsh "$(remote_start_qdrant)" >/dev/null
   if [[ "$BAKE_MODE" == "--resume" ]]; then
     echo "[bake] 模式: 续烘 ($BAKE_MODE) — 库里已有的向量保留, 已烘过的行不再花 embedding"
@@ -388,10 +470,13 @@ do_fetch() {
   rm -f /tmp/bake-gpu-bundle.tgz
   local size segs
   size=$(du -sh "$STORAGE_DIR" | cut -f1)
-  segs=$(find "$STORAGE_DIR" -name "*.seg" -o -name "*.idx" | wc -l | tr -d ' ')
+  # 原来这里找的是 *.seg/*.idx, 而 v1.19 落盘的文件扩展名是 .dat/.bin/.mmap (实测产物里
+  # 一个 .seg 都没有), 于是每次 fetch 都打印「0 个 segment 文件」—— 一个恒为 0 的假指标。
+  # 段目录才是一对一的计数单位: collections/<集合>/<shard>/segments/<uuid>。
+  segs=$(find "$STORAGE_DIR/collections" -mindepth 4 -maxdepth 4 -type d 2>/dev/null | wc -l | tr -d ' ')
   echo ""
   echo "============================================"
-  echo "  ✅ GPU 烘焙产物已就位: $STORAGE_DIR ($size, $segs 个 segment 文件)"
+  echo "  ✅ GPU 烘焙产物已就位: $STORAGE_DIR ($size, $segs 个段目录)"
   echo "  下一步: ./build.sh qdrant   (Dockerfile.qdrant.slim 打包)"
   echo "  退租: AutoDL 控制台关机/释放即销毁远程数据 (无 clean 命令)"
   echo "============================================"

@@ -33,9 +33,11 @@ import (
 //     visible to one retrieval leg and invisible to the other.
 //
 // Rows that decode cleanly but hold no prose are the exact-lookup tables
-// (medins/clinvar/eml/fda/…) and are deliberately not asserted on here: whether
-// they belong in the vector store at all is a bake-scope decision, tracked by
-// vectorSkipDatasets in bake.go.
+// (medins/clinvar/eml/fda/…); they left the bake tree on 2026-10-07 via
+// vectorSkipDatasets in bake.go, so scanBakeTree no longer feeds them here and
+// every row this gate does walk is expected to be returnable. A dataset with a
+// declared projection that returns less than all of its rows is still the
+// failure this gate exists to catch.
 func TestBakedPayloadDecodesEveryProjectedRow(t *testing.T) {
 	stats := scanBakeTree(t)
 

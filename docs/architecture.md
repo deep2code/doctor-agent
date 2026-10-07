@@ -266,7 +266,7 @@ graph LR
         E --> F[make_gz.py zstd-19]
         F --> G["internal/knowledge/gz/&lt;dataset&gt;/&lt;name&gt;.json.zst<br/>（119 个归档）"]
         G --> H1["seed-knowledge → MariaDB doctor_knowledge（780,833 行）"]
-        G --> H2["cmd/vector-bake → Qdrant 镜像（34,289 点，跳过集除外）"]
+        G --> H2["cmd/vector-bake → Qdrant 镜像（28,192 点，跳过集除外）"]
     end
 
     subgraph "验证"
@@ -276,8 +276,9 @@ graph LR
 ```
 
 > 图上的 `fetch_*.py → convert_*.py → structurize_*.py` 是历史一次性转换器的形状；现在**活管线只有 6 条**（`make_gz.py`、`split_data.py`、`bake_onnx.py`、`embed_server.py`、`export_onnx.py`、`external/medkb/`），清单与哪些脚本仍写平铺路径见 `external/AGENTS.md`。
-> 图里的数字（37/119/119/780,833/34,289，2026-10-07 实测）是最容易过期的一类陈述，别引用它们做判断——自己测：
+> 图里的数字（37/119/119/780,833/28,192，2026-10-07 实测）是最容易过期的一类陈述，别引用它们做判断——自己测：
 > `ls internal/knowledge/data | wc -l`、`find internal/knowledge/data -name '*.json' | wc -l`、`find internal/knowledge/gz -name '*.zst' | wc -l`、`SELECT COUNT(*) FROM kb_items`、`go run ./cmd/vector-bake` 的预检行。
+> 向量点数只算**烘焙范围内**的数据集：`bake.go vectorSkipDatasets` 现 25 项 / 35 个归档被排除在外，所以 28,192 = 37 个数据集里剩下 12 个的行数。期望点数由 `bake-gpu.sh` 的 `compute_expected_points` 现算，不是常量。
 
 ## 完整处理流程
 

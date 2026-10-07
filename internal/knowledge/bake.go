@@ -51,6 +51,12 @@ type BakeResult struct {
 // retrieval value — they are the bulk of the seed row count, so skipping them
 // is what keeps the Qdrant image to a few GB. The runtime Syncer applies the
 // same set so admin syncs cannot re-add them.
+// The second block are the exact-lookup tables measured (2026-10-07) to return
+// ZERO rows from VectorRetriever.Retrieve: an embedding can be computed for
+// them, but the payload decodes to a record with no prose to show, so the
+// vector leg can never put one in an answer. They are skipped for the same
+// reason as the first block, not because their content is poor — the keyword
+// and exact_lookup layers still serve them.
 // Per-dataset row counts in the comments below track data/*.json and will drift
 // on every knowledge update — verify against the JSON, not this prose.
 var vectorSkipDatasets = map[string]bool{
@@ -64,6 +70,22 @@ var vectorSkipDatasets = map[string]bool{
 	DSICDO3:           true, // 1,077 rows — exact-match morphology codes via exact_lookup
 	DSCorpus:          true, // medkb corpora: keyword full-text layer suffices; keeps bake cost flat
 	DSPublicResources: true, // 47 rows, keyword search sufficient
+
+	DSMedins:           true, // 3,618 rows — 医保目录, exact_lookup
+	DSClinVar:          true, // 1,399 rows — variant codes, exact_lookup
+	DSEML:              true, //   564 rows — INN drug lists, exact_lookup
+	DSFDA:              true, //   344 rows — label sections, drug_label_lookup
+	DSMedicalDialogues: true, //    90 rows — dialogue seeds, no per-row answer prose
+	DSEssential:        true, //    20 rows — 基本药物清单, exact-match
+	DSHealthMyths:      true, //    16 rows — 辟谣标题, keyword layer suffices
+	DSLiteratureTopics: true, //    16 rows — literature topic routing table
+	DSMilestones:       true, //    13 rows — 发育里程碑表, structured lookup
+	DSEmergency:        true, //    12 rows — 急救分诊规则, structured lookup
+	DSGrowth:           true, //     1 row  — 生长标准表
+	DSNewborn:          true, //     1 row  — 新生儿护理表
+	DSSIDER:            true, //     1 row  — 不良反应聚合, exact_lookup
+	DSTTD:              true, //     1 row  — 治疗靶点库, exact_lookup
+	DSVersion:          true, //     1 row  — knowledge version marker
 }
 
 // vectorBakeEligible reports whether a dataset should be vectorized.

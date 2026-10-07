@@ -331,9 +331,10 @@ AUTH_SECRET=自定义一长串随机值   # /login 令牌的签名密钥；不�
 > - `doctor-agent-qdrant` —— 标准 Qdrant（pin v1.19.0）+ **构建期烘好的向量**（gz 知识源
 >   仅作构建期输入，不在最终镜像内；WAL 只在 Linux 镜像内烘焙那条路径清理，GPU 产物按
 >   `bake-gpu.sh` 原样打包、首启自动回放），启动即用、零灌入等待。瘦身手段：
->   ① 烘焙按 `vectorSkipDatasets`（`internal/knowledge/bake.go`）跳过已有专用 lookup 工具
->   或关键词全文层够用的数据集（medkg/nmpa/cpubmed/icd10/icd11/hpo/orphanet/icdo3/corpus/
->   public_resources），② collection 用 `datatype=float16`（向量磁盘减半），③ payload 去掉
+>   ① 烘焙按 `vectorSkipDatasets`（`internal/knowledge/bake.go`，唯一真源；`external/bake_onnx.py`
+>   的同名集合由 `TestBakeMirrorMatchesGoSeedRules` 逐名比对）跳过「已有专用 lookup 工具或关键词
+>   全文层够用」以及「实测向量腿返回 0 行」的数据集——这里不抄名单也不抄项数，
+>   `grep -c ':.*true,' internal/knowledge/bake.go` 一测就知道，② collection 用 `datatype=float16`（向量磁盘减半），③ payload 去掉
 >   无消费方的 text/timestamp 字段 —— 镜像从 ~10.8GB 降到 ~2-2.5GB。
 > - `doctor-agent-embed` —— 查询端 embedding：bge-m3 **INT8**（ONNX，CPU），
 >   OpenAI 兼容 `/v1/embeddings` 监听 :18080，模型文件已打进镜像（运行机无需准备模型）。

@@ -12,7 +12,9 @@ bake_onnx.py - ONNX Runtime INT8 离线烘焙知识库向量
   - uuidFromSourceHash (sha256 -> UUIDv4, 版本/变体位)
   - bakePayload (source/type/entry_id/data)
   - 文本长度排序 (消除 ONNX padding 浪费, 3-5x 加速)
-  - vectorSkipDatasets (与 Go bake.go 同为 10 项)
+  - vectorSkipDatasets (与 Go bake.go 逐项同名; 名单由
+    internal/knowledge/bake_mirror_sync_test.go 的 vector_skip_datasets 子门比对,
+    所以这里不写项数, 免得又是第二份会过期的登记)
   - 文本截断 1024 字符 (rune-safe)
 
 ⚠️ 上面这些"与 Go 一致"的清单是本文件手抄的副本, 抄者必漂移: 2026-10-03 检查时发现
@@ -92,9 +94,28 @@ VECTOR_SKIP_DATASETS = {
     "icd11",              #  35,339 rows — exact_lookup
     "hpo",                #  19,836 rows — exact_lookup
     "orphanet",           #  11,647 rows — exact_lookup
-    "icdo3",               #   1,077 rows — exact_lookup
+    "icdo3",              #   1,077 rows — exact_lookup
     "corpus",             # medkb 全文层: 关键词打分够用, 控住烘焙成本与镜像体积
-    "public_resources",   #     112 rows — 关键词检索够用
+    "public_resources",   #      47 rows — 关键词检索够用
+    # 2026-10-07: 下面 15 个查找表实测「向量腿返回 0 行」——能算出 embedding,
+    # 但载荷里没有可展示的正文, 检索永远取不回一条。跳过的理由与上面一致,
+    # 不是内容差: 关键词层与 exact_lookup 一直在服务它们。逐条行数由
+    #  internal/knowledge/vector_payload_decode_test.go 现测, 不要抄这里的注释。
+    "medins",             #   3,618 rows — 医保目录
+    "clinvar",            #   1,399 rows — 基因变异
+    "eml",                #     564 rows — WHO 基本药物清单
+    "fda",                #     344 rows — FDA 标签
+    "medicaldialogues",   #      90 rows — 医患对话种子
+    "essential",          #      20 rows — 国家基本药物
+    "healthmyths",        #      16 rows — 辟谣
+    "literature_topics",  #      16 rows — 文献主题路由表
+    "milestones",         #      13 rows — 发育里程碑
+    "emergency",          #      12 rows — 急救分诊规则
+    "growth",             #       1 row  — 生长标准
+    "newborn",            #       1 row  — 新生儿护理
+    "sider",              #       1 row  — 不良反应聚合
+    "ttd",                #       1 row  — 治疗靶点
+    "version",            #       1 row  — 知识库版本标记
 }
 
 # extractKey 优先级字段列表 (与 Go seed.go extractKeyFields 逐字节一致)

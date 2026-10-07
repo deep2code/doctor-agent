@@ -115,9 +115,25 @@ func TestVectorBakeEligible(t *testing.T) {
 			t.Errorf("vectorBakeEligible(%s) = true, want false (lookup-tool covered)", ds)
 		}
 	}
+	// The exact-lookup tables that measure ZERO returnable rows (2026-10-07):
+	// embeddable, but their payload has no prose for the vector leg to return.
+	for _, ds := range []string{DSMedins, DSClinVar, DSEML, DSFDA, DSMedicalDialogues,
+		DSEssential, DSHealthMyths, DSLiteratureTopics, DSMilestones, DSEmergency,
+		DSGrowth, DSNewborn, DSSIDER, DSTTD, DSVersion} {
+		if vectorBakeEligible(ds) {
+			t.Errorf("vectorBakeEligible(%s) = true, want false (zero returnable rows)", ds)
+		}
+	}
 	for _, ds := range []string{DSDiseaseEnc, DSMedical, DSMSD, DSMedlinePlus} {
 		if !vectorBakeEligible(ds) {
 			t.Errorf("vectorBakeEligible(%s) = false, want true", ds)
+		}
+	}
+	// Partial return is still return: these families give back most rows, so
+	// skipping them would delete working points rather than dead weight.
+	for _, ds := range []string{DSBodyPart, DSLabTest} {
+		if !vectorBakeEligible(ds) {
+			t.Errorf("vectorBakeEligible(%s) = false, want true (partially returnable)", ds)
 		}
 	}
 }

@@ -54,8 +54,6 @@ const (
 	DSMedicalDialogues = "medicaldialogues"
 	DSDiseaseEnc       = "diseaseenc"
 	DSCPubMed          = "cpubmed"
-	DSHuatuo           = "huatuo"
-	DSMedicalQA        = "medicalqa"
 	DSTTD              = "ttd"
 	DSSIDER            = "sider"
 	DSBodyPart         = "bodypart"

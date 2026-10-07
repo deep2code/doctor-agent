@@ -3,11 +3,11 @@
 single file at 100 MiB) and reassemble them losslessly.
 
 Why this exists: a few datasets in internal/knowledge/data are far larger than
-the limit (medicalqa/medical_qa_pairs.json ~327 MiB, huatuo/huatuo_qa.json
-~141 MiB). Their gz/*.zst artifacts are ~30 MiB and commit fine, but the source
-JSONs cannot be committed whole — and some of them cannot be regenerated from
-anything else in the repo, so "just gitignore it" would silently make the seed
-unbuildable.
+the limit. The two that used to need it (~327 MiB medicalqa/medical_qa_pairs.json
+and ~141 MiB huatuo/huatuo_qa.json) were deleted with their datasets on
+2026-10-07, so the seed tree currently ships no parts at all — this tool and the
+matching merge-on-the-fly path in make_gz.py stay, because any new oversized
+source will need them again.
 
 Layout, for a source at "<dataset>/X.json" (the seed tree is one directory per
 dataset and the directory name IS the dataset — see internal/knowledge/seed.go):
@@ -207,7 +207,7 @@ def status() -> int:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("cmd", choices=["split", "merge", "verify", "status"])
-    ap.add_argument("name", nargs="?", help="source path under internal/knowledge/data (e.g. huatuo/huatuo_qa.json)")
+    ap.add_argument("name", nargs="?", help="source path under internal/knowledge/data (e.g. diseaseenc/disease_encyclopedias.json)")
     ap.add_argument("--max-mib", type=int, default=DEFAULT_MAX_MIB)
     ap.add_argument("--remove-source", action="store_true", help="delete the whole file after splitting")
     args = ap.parse_args()

@@ -4,8 +4,8 @@
 
 ## 数据在哪、有多少（2026-10-04 实测）
 
-- `internal/knowledge/data/<dataset>/<name>.json` —— 39 个数据集目录，119 个 JSON（118 tracked + 1 个 gitignored 的 `corpus/corpus_statpearls.json`）。
-- `internal/knowledge/gz/<dataset>/<name>.json.zst` —— **39 个目录 / 121 个归档**，与逻辑源 1:1（`medical` 73 个文件、`corpus` 10、`milestones` 2，其余各 1）。多出的 2 个来自 `.partNNN` 分片（`huatuo/huatuo_qa.json.part000-001`、`medicalqa/medical_qa_pairs.json.part000-003` + 2 份 `.parts` 清单，均 tracked）。
+- `internal/knowledge/data/<dataset>/<name>.json` —— 37 个数据集目录，119 个 JSON（118 tracked + 1 个 gitignored 的 `corpus/corpus_statpearls.json`）。
+- `internal/knowledge/gz/<dataset>/<name>.json.zst` —— **37 个目录 / 119 个归档**，与逻辑源严格 1:1（`medical` 73 个文件、`corpus` 10、`milestones` 2，其余各 1）。**2026-10-07 起不再有任何 `.partNNN` 分片**：原先「121 = 119 + 2 份分片源」的那 2 个多出来数是 `huatuo/huatuo_qa.json`(140.6MiB→2 片) 与 `medicalqa/medical_qa_pairs.json`(327.0MiB→4 片)，两份问答语料连同分片一起删掉了，所以目录数从 39 掉到 37、归档从 121 掉到 119，而「仓库里没有超过 100MiB 的 blob」重新变成一句成立的话。
 - **布局就是分类**：数据集名 = 目录名，顶层必须是 JSON 数组、每个元素一行。没有任何文件名登记表、没有 envelope 解析模式。平铺在 `data/` 或 `gz/` 根的文件、空目录树都是硬错误。
 
 ## 播种与烘焙（两条链路，同一次目录扫描）
@@ -37,7 +37,7 @@
 | `citation.go` | `CitationFormatter`：`BuildCitationMap`/`BuildCitationMapOffset`/`FlatCitationCount`/`BuildCitedSources`/`AddToolSource`/`SourceTierLabel:98`/`BuildKnowledgeExcerpts:87`（提示词里的"检索到的知识原文摘录"，最多 4 条） |
 | `schemas.go` | `KnowledgeEntry`（含 `TitleZH/SummaryZH/DetailsZH` —— 缺了它们正文会在解码时被静默丢掉）、`Citation`、`ICD10Disease`、`NMPADrug`、`SIDERDrug` 等 |
 | `corpus.go` | `CorpusDoc` ↔ `external/medkb/schema.py` 双侧同步；`ICD11Term/HPOTerm/OrphanetDisease/ICDO3Morphology` 是 exact_lookup 的形状 |
-| 其余类型文件 | aap.go / clinvar.go / eml.go / fda_labels.go / fhs.go / huatuo_types.go / literature.go / medins.go / medline.go / msd.go / nhc.go / pediatric.go / ttd_types.go —— 解码目标结构体 |
+| 其余类型文件 | aap.go / clinvar.go / eml.go / fda_labels.go / fhs.go / literature.go / medins.go / medline.go / msd.go / nhc.go / pediatric.go / ttd_types.go —— 解码目标结构体 |
 
 ## 已核实的坑
 
@@ -51,7 +51,7 @@
 
 - `seed_layout_test.go` —— 目录形状（平铺即红）。
 - `bake_mirror_sync_test.go:90 TestBakeMirrorMatchesGoSeedRules` —— Python 镜像与 Go 的 (dataset, 文件, 是否烘焙) 三元组逐行一致。
-- `zst_big_test.go` —— >100MB 的两个 QA 种子解压+分类，`-short` 跳过（CI 故意不带 `-short`）。
+- `zst_big_test.go` —— 按体积取 `gz/` 里**前三大**归档（2026-10-07 起由目录扫描现算，不再手写文件名，所以删数据集不会把它改红）解压 + `seedList` 分类，并断言最大的一份解压后仍 >100MB（否则这个「大语料」门已退化，该删而不是留着骗自己）；`-short` 跳过（CI 故意不带 `-short`）。实测前三大解压后 216.7 / 49.1 / 43.8 MB。
 - `wire_new_datasets_smoke_test.go` —— 离线校验 seed 分类 + 结构反序列化 + 主键唯一，**不需要 MariaDB**。
 - 九道科普召回门 `retriever_popsupplement*_test.go` + 四道批次7 `retriever_batch7_*_test.go` + `retriever_batch17/18/19_*`；另有 `TestRetrieverSymptomStyleChineseRecall` / `TestRetrieverNoRecallForUnrelated`。**除 smoke 类外全部需要本地 MariaDB**（`MARIA_DB_PORT=3307`）。
 - `TestSeedTreeDatasetsAreLoaded` —— 要求每个 `gz/` 数据集目录都被 `loader.go` 的某个 `ensureXxx` 摄取（不给红门留例外）。

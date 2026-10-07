@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Convert external/kg/medical_dialogues/*.csv (源芯医患对话语料) into
+"""DEAD SINCE 2026-10-07: the dataset this produced ("medical_qa", 426,978 rows) was
+deleted from the repo together with its gz artifact, its loaders and the two
+knowledge_search branches that served it. The source CSVs (254MB, gitignored) were
+deleted too, so nothing here can be re-run even in principle. OUT below still
+writes the pre-2026-10-03 flat path, which make_gz.py rejects as a stray.
+
+Convert external/kg/medical_dialogues/*.csv (源芯医患对话语料) into
 internal/knowledge/data/medical_qa_pairs.json (dataset "medical_qa").
 
 The shipped CSVs are GBK-encoded; the previous medical_qa_pairs.json was

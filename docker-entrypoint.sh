@@ -69,7 +69,7 @@ if echo "$SEED_MARIADB_KB" | grep -qiE "^(1|true|yes|on)$"; then
       PW_ARG=""
       if [ -n "$MARIA_DB_PASSWORD" ]; then PW_ARG="-p$MARIA_DB_PASSWORD"; fi
       CNT=$(mysql -h"$MARIA_DB_HOST" -P"$MARIA_DB_PORT" -u"$MARIA_DB_USER" $PW_ARG -N -e \
-        "SELECT COUNT(*) FROM kb_items WHERE dataset='medicalqa';" "$MARIA_DB_KNOWLEDGE_DB" 2>/dev/null || true)
+        "SELECT COUNT(*) FROM kb_items;" "$MARIA_DB_KNOWLEDGE_DB" 2>/dev/null || true)
       if [ "$CNT" != "" ] && [ "$CNT" -gt 0 ] 2>/dev/null; then
         SEED_SKIP=1
       fi

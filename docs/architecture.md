@@ -111,8 +111,6 @@ graph TB
         A --> T[MedicalKGTriples 354752]
         A --> U[DiseaseEncyclopedias 8807]
         A --> V[CPubMedTriples 105328]
-        A --> W[HuatuoQAPairs 177703]
-        A --> X[MedicalQAData 426978]
         A --> Z[TTDData 4299靶点/29782药]
         A --> ZS["SIDERData 100药（行内 drug_count 字段写 1507，实际只带 100 条）"]
         A --> ZA[ICD11Terms 35339]
@@ -177,7 +175,7 @@ graph LR
 > 分类只是阅读方便，不是代码结构：`food_risk_analyzer` 属于食物/风险类，和 `drug_*` 一样是独立工具，注册顺序见 `internal/agent/agent.go:153-169`。
 > ✅ **注册 ≠ 可见（2026-10-05 已修）**：模型每轮能调的工具名来自 `internal/tools/router.go` 的 `toolGroups` / `relationToTools`，只注册不进这两张表等于对模型不可达。`drug_label_lookup`、`lab_report_analyze`、`visit_prep` 曾经两个表里都没有，现已各自入组（标签查询进 CatDrug/CatGeneral，化验单进 CatLab/CatImage，就诊准备进 CatSymptom/CatDisease/CatGeneral，并补进 `relationToTools` 的相关关系）。回归门 `internal/tools/router_visibility_test.go` 双向锁死：13 个在册工具必须全部可路由，路由表里也不许出现已退役的名字。
 
-> 📝 注：其他工具（reference_lookup, literature_search, msd_search, medline_search, drug_lookup, eml_lookup, nhc_search, fhs_search, aap_search, lab_interpreter, icd10_lookup, nmpa_drug_lookup, disease_encyclopedia_lookup, huatuo_qa_lookup, body_part_lookup, growth_assessment, milestone_lookup, newborn_care_lookup 等）已整合到 knowledge_search（统一语料/问答/全文层检索）与 exact_lookup（12 类精确编码：icd10/icd11/hpo/nmpa/variant/eml/fda_label/ttd/sider/medins/orphanet/icdo3）中。`internal/dialogue` 规则式意图包已删除（2026-09-20，死代码）。
+> 📝 注：其他工具（reference_lookup, literature_search, msd_search, medline_search, drug_lookup, eml_lookup, nhc_search, fhs_search, aap_search, lab_interpreter, icd10_lookup, nmpa_drug_lookup, disease_encyclopedia_lookup, body_part_lookup, growth_assessment, milestone_lookup, newborn_care_lookup 等）已整合到 knowledge_search（统一语料/全文层检索）与 exact_lookup（12 类精确编码：icd10/icd11/hpo/nmpa/variant/eml/fda_label/ttd/sider/medins/orphanet/icdo3）中。`internal/dialogue` 规则式意图包已删除（2026-09-20，死代码）。
 
 ## HTTP层
 
@@ -264,11 +262,11 @@ graph LR
     end
 
     subgraph "知识库"
-        D --> E["internal/knowledge/data/&lt;dataset&gt;/&lt;name&gt;.json<br/>（目录名=数据集，39 个目录 / 119 个源，零登记表）"]
+        D --> E["internal/knowledge/data/&lt;dataset&gt;/&lt;name&gt;.json<br/>（目录名=数据集，37 个目录 / 119 个源，零登记表）"]
         E --> F[make_gz.py zstd-19]
-        F --> G["internal/knowledge/gz/&lt;dataset&gt;/&lt;name&gt;.json.zst<br/>（121 个归档）"]
-        G --> H1["seed-knowledge → MariaDB doctor_knowledge（1,385,514 行）"]
-        G --> H2["cmd/vector-bake → Qdrant 镜像（638,970 点，跳过集除外）"]
+        F --> G["internal/knowledge/gz/&lt;dataset&gt;/&lt;name&gt;.json.zst<br/>（119 个归档）"]
+        G --> H1["seed-knowledge → MariaDB doctor_knowledge（780,833 行）"]
+        G --> H2["cmd/vector-bake → Qdrant 镜像（34,289 点，跳过集除外）"]
     end
 
     subgraph "验证"
@@ -278,7 +276,7 @@ graph LR
 ```
 
 > 图上的 `fetch_*.py → convert_*.py → structurize_*.py` 是历史一次性转换器的形状；现在**活管线只有 6 条**（`make_gz.py`、`split_data.py`、`bake_onnx.py`、`embed_server.py`、`export_onnx.py`、`external/medkb/`），清单与哪些脚本仍写平铺路径见 `external/AGENTS.md`。
-> 图里的数字（39/119/121/1,385,514/638,970）是最容易过期的一类陈述，别引用它们做判断——自己测：
+> 图里的数字（37/119/119/780,833/34,289，2026-10-07 实测）是最容易过期的一类陈述，别引用它们做判断——自己测：
 > `ls internal/knowledge/data | wc -l`、`find internal/knowledge/data -name '*.json' | wc -l`、`find internal/knowledge/gz -name '*.zst' | wc -l`、`SELECT COUNT(*) FROM kb_items`、`go run ./cmd/vector-bake` 的预检行。
 
 ## 完整处理流程

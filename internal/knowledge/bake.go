@@ -203,8 +203,8 @@ func bakeDataset(ctx context.Context, vecStore *VectorStore, embedder embedding.
 	// longest one. A batch mixing 10-char titles with 5000-char articles
 	// wastes ~99% of GPU compute on padding tokens. Grouping similar-length
 	// texts into the same batch eliminates this waste — typically 3-5x
-	// throughput improvement for heterogeneous datasets (e.g. huatuo 177k
-	// rows range from 20 to 8000 chars).
+	// throughput improvement for heterogeneous datasets (e.g. disease
+	// encyclopedias range from 20-char names to 8000-char articles).
 	//
 	// Point IDs are content-hashed UUIDs, so reordering does not affect the
 	// final storage state.

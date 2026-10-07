@@ -28,26 +28,27 @@
 
 ## 三个统一入口的分支
 
-- `knowledge_search.go:158-192` 的 switch 有 **24 个数据集值**：medical / msd / nhc / fhs / aap / medline / literature / disease_encyclopedia / huatuo_qa / medical_qa / body_part / milestone / newborn_care / public_resources + corpus 族（statpearls、medgen、lactmed、otc_safety、medlinezh、cdc_kp、otc_labels、nhc_mental、firstaid、travel_health）。**三份对外清单（`Description():94`、`Schema():99` 的 dataset 说明、default 错误串）现在全部由 `knowledgeSearchDatasets:49` 这一张表派生**，加/删数据集只改这张表；回归门 `knowledge_search_datasets_test.go` 用 AST 把表和本机 `switch dataset` 的 case 双向对齐，谁漏一侧就红。
-- `knowledge_search.go` 派发到的下层检索器在 `internal/knowledge/`：`retriever_msd.go:17 RetrieveMSD`、`retriever_nhc.go:16 RetrieveNHCGuide`、`retriever_fhs.go:16 RetrieveFHSGuide`、`retriever_aap.go:15 RetrieveAAP`、`retriever_corpus.go:17 RetrieveCorpus`、`retriever_medline.go:15 RetrieveMedlinePlus`、`retriever_literature.go:17 RetrieveLiterature`；另有 ICD 编码形状查询的前置自动派发（`Execute:138` 调 `tryICDCode:208`）。
-- `exact_lookup.go:99-129` 的 12 个 type：icd10 / icd11 / hpo / nmpa / variant / eml / fda_label / ttd / sider / medins / orphanet / icdo3。三处声明（`Description():45`、`Schema():65`、错误串 :127）**完全一致**，这块不用同步担心。
+- `knowledge_search.go:150-180` 的 switch 有 **22 个数据集值**：medical / msd / nhc / fhs / aap / medline / literature / disease_encyclopedia / body_part / milestone / newborn_care / public_resources + corpus 族（statpearls、medgen、lactmed、otc_safety、medlinezh、cdc_kp、otc_labels、nhc_mental、firstaid、travel_health）。**两份社区问答数据集（huatuo_qa / medical_qa）已于 2026-10-07 删除**（数据集本身不再生成，见根 AGENTS.md 同日条目）。**三份对外清单（`Description():91`、`Schema():96` 的 dataset 说明、default 错误串）现在全部由 `knowledgeSearchDatasets:48` 这一张表派生**，加/删数据集只改这张表；回归门 `knowledge_search_datasets_test.go` 用 AST 把表和本机 `switch dataset` 的 case 双向对齐，谁漏一侧就红。
+- `knowledge_search.go` 派发到的下层检索器在 `internal/knowledge/`：`retriever_msd.go:17 RetrieveMSD`、`retriever_nhc.go:16 RetrieveNHCGuide`、`retriever_fhs.go:16 RetrieveFHSGuide`、`retriever_aap.go:15 RetrieveAAP`、`retriever_corpus.go:17 RetrieveCorpus`、`retriever_medline.go:15 RetrieveMedlinePlus`、`retriever_literature.go:17 RetrieveLiterature`；另有 ICD 编码形状查询的前置自动派发（`Execute:121` 在 :131 调 `tryICDCode:196`）。
+- `exact_lookup.go:99-123` 的 12 个 type：icd10 / icd11 / hpo / nmpa / variant / eml / fda_label / ttd / sider / medins / orphanet / icdo3。三处声明（`Description():43`、`Schema():55`、错误串 :126）**完全一致**，这块不用同步担心。
 - 两个工具都**没有** JSON-schema `enum` 约束 dataset/type，写错只会在 Execute 里落到 default 错误串。
 
-## 44 个非测试文件里的 26 个死工具
+## 41 个非测试文件里的 24 个死工具
 
 以下文件定义了完整的 `Tool` 实现，但构造函数只在 `*_test.go` 里被调用过，生产路径永不注册：
-`aap_search.go` `body_part_lookup.go`* `disease_drug_lookup.go` `disease_encyclopedia_lookup.go` `disease_symptom_lookup.go` `drug_lookup.go` `eml_lookup.go` `fhs_search.go` `growth_assessment.go` `huatuo_qa_lookup.go`* `icd10_lookup.go` `lab_interpreter.go` `lab_report_interpret.go` `literature_search.go` `medical_qa_lookup.go` `medline_search.go` `milestone_lookup.go` `msd_search.go` `newborn_care_lookup.go` `nhc_search.go` `nmpa_drug_lookup.go` `reference_lookup.go`* `sider_lookup.go` `target_disease_lookup.go` `triage_department.go` `ttd_lookup.go` `variant_lookup.go`
+`aap_search.go` `body_part_lookup.go`* `disease_drug_lookup.go` `disease_encyclopedia_lookup.go` `disease_symptom_lookup.go` `drug_lookup.go` `eml_lookup.go` `fhs_search.go` `growth_assessment.go` `icd10_lookup.go` `lab_interpreter.go` `lab_report_interpret.go` `literature_search.go` `medline_search.go` `milestone_lookup.go` `msd_search.go` `newborn_care_lookup.go` `nhc_search.go` `nmpa_drug_lookup.go` `reference_lookup.go`* `sider_lookup.go` `target_disease_lookup.go` `triage_department.go` `ttd_lookup.go` `variant_lookup.go`
+（2026-10-07 随问答数据集删除，`huatuo_qa_lookup.go` 与 `medical_qa_lookup.go` 已从这份名单里移除——文件本身删了，不是改名或转正。当时唯一需要搬走的助手是 `truncate`，它只被那两个待删的搜索函数用，所以随文件一起走了。）
 
-\* 带星号的三个类型本身是死的，但同文件还导出了**活的下层助手**，删文件前必须先把助手搬走：`body_part_lookup.go:116 normalizePart` / `:134 bodyPartData` / `:145 toCitationRefs`、`huatuo_qa_lookup.go:162 truncate`、`reference_lookup.go:117 evidenceLevelLabel`（三者都被 `knowledge_search.go` 调用）。
+\* 带星号的两个类型本身是死的，但同文件还导出了**活的下层助手**，删文件前必须先把助手搬走：`body_part_lookup.go:116 normalizePart` / `:134 bodyPartData` / `:145 toCitationRefs`、`reference_lookup.go:117 evidenceLevelLabel`（两者都被 `knowledge_search.go` 调用）。
 
-同一份逻辑在死文件和统一入口里各存一份，改动要双改或先删死的那份：`icd10_lookup.go:51-69`↔`exact_lookup.go:138-155`、`eml_lookup.go:60`↔`:493`、`sider_lookup.go:58`↔`:683`、`milestone_lookup.go:57-64`↔`knowledge_search.go:762-769`、`newborn_care_lookup.go:55`↔`:793`。
+同一份逻辑在死文件和统一入口里各存一份，改动要双改或先删死的那份：`icd10_lookup.go:51-69`↔`exact_lookup.go:138-155`、`eml_lookup.go:60`↔`:493`、`sider_lookup.go:58`↔`:683`、`milestone_lookup.go:57-64`↔`knowledge_search.go:663-679`(searchMilestone:662)、`newborn_care_lookup.go:55`↔`:697`(searchNewbornCare:696)。
 
 ## 助手文件
 
 - `base.go` — `Tool` / `ToolResult{Success,Data,Error,Citations}` / `CitationRef` 接口定义。工具永远返回 `*ToolResult`，不要裸返回数据。
 - `registry.go` — mutex 保护的 `Registry`，插入序遍历（提示词里工具顺序因此稳定，这对提示词缓存是有意义的）。
 - `router.go` — `QueryCategory` 常量、`toolGroups:32-64`、`relationToTools:191-201`、`symptomVocabulary:206-225`、`ClassifyMulti:125`（关键词单级）、`ClassifyKG:230`（症状→疾病候选→KG 关系→工具，两级，合并去重上限 8）、`ParamsHash:168`。两张表是**唯一的可见性来源**，`router_visibility_test.go` 保证 13 个在册工具都在里面。
-- `qa_score.go:10 scoreQAPair` — huatuo_qa / medical_qa 共用的问答打分，被 `knowledge_search.go:569,634` 调用。
+- ~~`qa_score.go:10 scoreQAPair`~~ —— **2026-10-07 随问答数据集一并删除**。它是 huatuo_qa / medical_qa 两个分支共用的问答打分，两个分支没了它就是孤儿；全仓库现在已无任何 `qa_score`/`scoreQAPair` 引用（除历史叙述），别再按名字找这个文件。
 
 ## 已核实的坑
 

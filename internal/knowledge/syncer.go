@@ -152,22 +152,6 @@ func (s *Syncer) FullSync(ctx context.Context, cfg SyncConfig) (*SyncStatus, err
 		errors = append(errors, errs...)
 	}
 
-	// Sync Huatuo QA pairs
-	if cfg.Source == "" || cfg.Source == "huatuo_qa" {
-		count, errs := s.syncHuatuoQA(ctx, cfg.BatchSize)
-		totalPoints += count
-		totalAttempted += count + len(errs)*cfg.BatchSize
-		errors = append(errors, errs...)
-	}
-
-	// Sync Medical QA pairs
-	if cfg.Source == "" || cfg.Source == "medical_qa" {
-		count, errs := s.syncMedicalQA(ctx, cfg.BatchSize)
-		totalPoints += count
-		totalAttempted += count + len(errs)*cfg.BatchSize
-		errors = append(errors, errs...)
-	}
-
 	// Sync file if provided
 	if cfg.FilePath != "" {
 		count, errs := s.syncFile(ctx, cfg.FilePath, cfg.Dataset, cfg.BatchSize)
@@ -699,92 +683,6 @@ func (s *Syncer) syncCPubMedKG(ctx context.Context, batchSize int) (int, []strin
 
 		if err := s.vecStore.Upsert(ctx, points); err != nil {
 			errors = append(errors, fmt.Sprintf("cpubmed_kg upsert batch %d: %v", i/batchSize, err))
-			continue
-		}
-
-		total += len(points)
-	}
-
-	return total, errors
-}
-
-// syncHuatuoQA syncs Huatuo QA pairs to vector database.
-func (s *Syncer) syncHuatuoQA(ctx context.Context, batchSize int) (int, []string) {
-	var errors []string
-	if s.store.HuatuoQAPairs == nil {
-		return 0, nil
-	}
-
-	entries := s.store.HuatuoQAPairs.QAPairs
-	if len(entries) == 0 {
-		return 0, nil
-	}
-
-	if batchSize <= 0 {
-		batchSize = 100
-	}
-
-	total := 0
-	for i := 0; i < len(entries); i += batchSize {
-		end := i + batchSize
-		if end > len(entries) {
-			end = len(entries)
-		}
-		batch := entries[i:end]
-
-		points, err := embedBatch(ctx, s.embedder, "huatuo_qa", batch, func(e HuatuoQA) string {
-			return fmt.Sprintf("%s %s", e.Question, e.Answer)
-		})
-		if err != nil {
-			errors = append(errors, fmt.Sprintf("huatuo_qa batch %d: %v", i/batchSize, err))
-			continue
-		}
-
-		if err := s.vecStore.Upsert(ctx, points); err != nil {
-			errors = append(errors, fmt.Sprintf("huatuo_qa upsert batch %d: %v", i/batchSize, err))
-			continue
-		}
-
-		total += len(points)
-	}
-
-	return total, errors
-}
-
-// syncMedicalQA syncs Medical QA pairs to vector database.
-func (s *Syncer) syncMedicalQA(ctx context.Context, batchSize int) (int, []string) {
-	var errors []string
-	if s.store.MedicalQAData == nil {
-		return 0, nil
-	}
-
-	entries := s.store.MedicalQAData.QAPairs
-	if len(entries) == 0 {
-		return 0, nil
-	}
-
-	if batchSize <= 0 {
-		batchSize = 100
-	}
-
-	total := 0
-	for i := 0; i < len(entries); i += batchSize {
-		end := i + batchSize
-		if end > len(entries) {
-			end = len(entries)
-		}
-		batch := entries[i:end]
-
-		points, err := embedBatch(ctx, s.embedder, "medical_qa", batch, func(e MedicalQAPair) string {
-			return fmt.Sprintf("%s %s", e.Question, e.Answer)
-		})
-		if err != nil {
-			errors = append(errors, fmt.Sprintf("medical_qa batch %d: %v", i/batchSize, err))
-			continue
-		}
-
-		if err := s.vecStore.Upsert(ctx, points); err != nil {
-			errors = append(errors, fmt.Sprintf("medical_qa upsert batch %d: %v", i/batchSize, err))
 			continue
 		}
 

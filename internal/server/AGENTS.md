@@ -23,7 +23,7 @@ trusted-proxy client-IP 解析（`TRUSTED_PROXIES`，非白名单对端一律忽
 1. **所有 5xx 走 `internalError`（:1293-1299），绝不把 `err.Error()` 发给客户端**。
 2. **所有 JSON body 经 `decodeJSONBody`（:1318）带上限**：`jsonBodyLimit` 1MiB、`chatBodyLimit` 10MiB、`batchBodyLimit` 32MiB、`smallBodyLimit` 4KiB（feedback/share），定义在 :1306-1311；multipart 另有真实总大小上限。
 
-`/health`（真检，:2325 一带）：app 库 ping + 知识层 reachable/seeded（`knowledge.Load()` / `store.Health()`），依赖异常时 `status:"degraded"` 并带 `checks` map，但**仍返回 HTTP 200**，方便探针保持简单。
+`/health`（真检，`server.go:957-1010` 一带）：app 库 ping + 知识层 reachable/seeded（`knowledge.Load()` / `store.Health()`），依赖异常时 `status:"degraded"` 并带 `checks` map，**同时返回 HTTP 503**（`server.go:998-1003`；`knowledge.ErrNotSeeded` 记成 `empty`）。探针因此会真失败——这是 2026-08-09 那次「静态 200」改造的本意，别把它改回 200。
 
 ## 归属与安全
 
@@ -44,3 +44,5 @@ trusted-proxy client-IP 解析（`TRUSTED_PROXIES`，非白名单对端一律忽
 ## 测试
 
 `server_test.go`（含 `TestWebUIServed`）、`auth_api_test.go`（登录 + owner 隔离 + "API_KEY 不是人"）、`admin_api_test.go`（上传文件名即数据集名的两种断言）、`session_api_test.go`、`family_api.go` 相关、`pdf_export_test.go`、`admin_password_surface_test.go`（**离线**：AST 读 `handleAdminUser` 的方法集合必须只有 GET/DELETE，且 `internal/auth` 不得有导出名含 `Password` 的方法 —— 钉住「/admin 没有改密入口」这个事实，`main.go` 的 `ADMIN_PASSWORD` 告警 hint 与 `.env.example` 都靠它）。需要 MariaDB 的测试在本地要带 `MARIA_DB_PORT=3307`。
+
+⚠️ **三道门在本机 HEAD 上就是红的（2026-10-07 用 `git worktree` 在 `7be012f` 复现过，与问答数据集删除无关），按指示只记录不修**：`knowledge.Load()` 是 `sync.Once` 单例，包内第一个调用它的测试决定整包的库名，而按文件顺序 `admin_api_test.go` 第一个跑、把单例绑到 `doctor_knowledge_test_admin`（空库）。于是 ① `TestAdminKnowledgeAPI` 的上传 400 —— 2026-10-03「目录就是数据集」之后上传只允许**替换已有数据集**（`seed.go:308` `HasDataset`），空库里根本没有 `medical` 行可替换，而测试从不播种；② ③ `TestAuthRequired` / `TestRateLimit` 的 `/health` 拿到 503 而不是它们断言的 200 —— 同一个空库让 `store.Health()` 返回 `ErrNotSeeded`，即上面那条真检语义。这三道门是**库状态依赖**的：实测本机 `doctor_knowledge_test_admin` 现在是空库（`SELECT COUNT(*) FROM kb_items` = 0），而 2026-10-04 那轮收尾记录过它们绿——所以当时那个库里必然还留着行（最合理的历史来源是「上传替换」在某次还能创建数据集的旧规则下真插进去过一行 `medical`）；这一步是推断，不是当天测量，别把它当事实引用。CI 的 `seed-knowledge` 步骤灌的是 `doctor_knowledge`，救不了它。真正的修法是让每个测试自己播种自己的知识库（或在断言前显式插一行 `medical`），而不是把 503 改回 200。

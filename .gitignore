@@ -33,9 +33,6 @@ Thumbs.db
 
 *.csv
 
-# 但允许分割后的语料文件
-!external/medical_dialogue/data_split/*.csv
-
 # Build
 vendor/
 .gocache/
@@ -120,8 +117,11 @@ docker/kb/init-doctor_knowledge.sql.gz
 
 # 超过 GitHub 单文件 100MiB 上限的源文件：整文件只留本地，仓库里提交的是分片
 # (external/split_data.py split/merge/verify；make_gz.py 会自动按分片合并构建 gz/)
-internal/knowledge/data/huatuo/huatuo_qa.json
-internal/knowledge/data/medicalqa/medical_qa_pairs.json
+# 2026-10-07: 两份分片源（huatuo / medicalqa 问答语料）已随数据集一起删除，对应的两条
+# 整文件忽略也一并删掉了；仓库里现在没有任何分片文件。分片流程本身保留（split_data.py），
+# 将来再有 >100MiB 的源时要自己补一条整文件忽略，不会被自动忽略。
+# 2026-10-07: 上面那条 !external/medical_dialogue/data_split/*.csv 的反向忽略也删了——
+# 那 14 份分割后的对话 CSV（496.3 MiB）是被它强制放进 git 的，随问答语料一并移出仓库。
 # CMB 原始压缩包与解压产物（评测集由 external/convert_cmb.py 从中挑选后生成）
 external/cmb/
 # Orphanet 原始 XML 产品包（约 280MB，由 external/convert_orphanet.py 消费，可从 Orphanet 重下）

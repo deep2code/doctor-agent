@@ -108,15 +108,14 @@ func TestBakeBuildSearchTextIncludesPartKeys(t *testing.T) {
 
 // TestVectorBakeEligible pins the bake skip-set: structured datasets served
 // by dedicated lookup tools are excluded from the vector store, everything
-// else (free-text QA/corpus datasets) must stay vectorized — QA pairs are
-// only reachable through the vector path.
+// else (free-text prose datasets) must stay vectorized.
 func TestVectorBakeEligible(t *testing.T) {
 	for _, ds := range []string{DSMedicalKG, DSNMPA, DSCPubMed, DSICD10} {
 		if vectorBakeEligible(ds) {
 			t.Errorf("vectorBakeEligible(%s) = true, want false (lookup-tool covered)", ds)
 		}
 	}
-	for _, ds := range []string{DSMedicalQA, DSHuatuo, DSDiseaseEnc, DSMedical, DSMSD, DSMedlinePlus} {
+	for _, ds := range []string{DSDiseaseEnc, DSMedical, DSMSD, DSMedlinePlus} {
 		if !vectorBakeEligible(ds) {
 			t.Errorf("vectorBakeEligible(%s) = false, want true", ds)
 		}
@@ -129,7 +128,7 @@ func TestVectorBakeEligible(t *testing.T) {
 // stats consume.
 func TestBakePayload(t *testing.T) {
 	data := []byte(`{"id":"x1","q":"发烧怎么办"}`)
-	p := bakePayload(DSHuatuo, "x1", data)
+	p := bakePayload(DSMedical, "x1", data)
 	for _, k := range []string{"source", "type", "entry_id", "data"} {
 		if _, ok := p[k]; !ok {
 			t.Errorf("payload missing %q: %v", k, p)

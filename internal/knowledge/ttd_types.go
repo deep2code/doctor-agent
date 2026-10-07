@@ -1,20 +1,5 @@
 package knowledge
 
-// MedicalQAPair represents a medical QA pair from Chinese medical dialogue dataset
-type MedicalQAPair struct {
-	Department string `json:"department"`
-	Title      string `json:"title"`
-	Question   string `json:"question"`
-	Answer     string `json:"answer"`
-}
-
-// MedicalQAData is the collection of QA pairs
-type MedicalQAData struct {
-	QAPairs     []MedicalQAPair   `json:"qa_pairs"`
-	TotalCount  int               `json:"total_count"`
-	Departments map[string]int    `json:"departments"`
-}
-
 // TTDTarget represents a therapeutic target from TTD
 type TTDTarget struct {
 	ID      string `json:"id"`

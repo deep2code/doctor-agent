@@ -51,7 +51,7 @@ func Seed(dbPath, gzDir string) error {
 
 	// Seed datasets in parallel (bounded worker pool). Each dataset is
 	// independent, so parallelism is safe and cuts wall time on the large
-	// tables (medicalqa 506k, nmpa 167k, cpubmed 105k rows).
+	// tables (nmpa 167k, cpubmed 105k rows).
 	const seedWorkers = 4
 	datasets := make([]string, 0, len(byDataset))
 	for ds := range byDataset {

@@ -144,12 +144,6 @@ type Store struct {
 	CPubMedByHead     map[string][]*CPubMedTriple
 	CPubMedByRelation map[string][]*CPubMedTriple
 
-	// Huatuo26M-Lite QA pairs (华佗26M医疗问答).
-	HuatuoQAPairs *HuatuoQAPairs
-
-	// Medical QA pairs (中文医疗对话数据集).
-	MedicalQAData *MedicalQAData
-
 	// TTD data (Therapeutic Target Database).
 	TTDData *TTDData
 
@@ -560,24 +554,6 @@ func (s *Store) ingest(name string, raw []byte) error {
 		s.CPubMedTriples = append(s.CPubMedTriples, t)
 		s.CPubMedByHead[t.Head] = append(s.CPubMedByHead[t.Head], &s.CPubMedTriples[len(s.CPubMedTriples)-1])
 		s.CPubMedByRelation[t.Relation] = append(s.CPubMedByRelation[t.Relation], &s.CPubMedTriples[len(s.CPubMedTriples)-1])
-	case DSHuatuo:
-		var qa HuatuoQA
-		if err := json.Unmarshal(raw, &qa); err != nil {
-			return err
-		}
-		if s.HuatuoQAPairs == nil {
-			s.HuatuoQAPairs = &HuatuoQAPairs{}
-		}
-		s.HuatuoQAPairs.QAPairs = append(s.HuatuoQAPairs.QAPairs, qa)
-	case DSMedicalQA:
-		var qa MedicalQAPair
-		if err := json.Unmarshal(raw, &qa); err != nil {
-			return err
-		}
-		if s.MedicalQAData == nil {
-			s.MedicalQAData = &MedicalQAData{}
-		}
-		s.MedicalQAData.QAPairs = append(s.MedicalQAData.QAPairs, qa)
 	case DSTTD:
 		var ttd TTDData
 		if err := json.Unmarshal(raw, &ttd); err != nil {
@@ -714,12 +690,6 @@ func (s *Store) ensureDiseaseEnc() error {
 func (s *Store) ensureCPubMed() error {
 	return s.ensure(DSCPubMed, func() error { return s.loadDataset(DSCPubMed) })
 }
-func (s *Store) ensureHuatuo() error {
-	return s.ensure(DSHuatuo, func() error { return s.loadDataset(DSHuatuo) })
-}
-func (s *Store) ensureMedicalQA() error {
-	return s.ensure(DSMedicalQA, func() error { return s.loadDataset(DSMedicalQA) })
-}
 func (s *Store) ensureTTD() error {
 	return s.ensure(DSTTD, func() error { return s.loadDataset(DSTTD) })
 }
@@ -758,8 +728,6 @@ func (s *Store) ensureAll() {
 	_ = s.ensureMedicalDialogues()
 	_ = s.ensureDiseaseEnc()
 	_ = s.ensureCPubMed()
-	_ = s.ensureHuatuo()
-	_ = s.ensureMedicalQA()
 	_ = s.ensureTTD()
 	_ = s.ensureSIDER()
 	_ = s.ensureHealthMyths()
@@ -1650,22 +1618,6 @@ func (s *Store) SearchCPubMedTriples(query string, limit int) []*CPubMedTriple {
 		}
 	}
 	return matches
-}
-
-// GetHuatuoQA returns the Huatuo26M-Lite QA pairs.
-func (s *Store) GetHuatuoQA() *HuatuoQAPairs {
-	_ = s.ensureHuatuo()
-	s.mu.RLock()
-	defer s.mu.RUnlock()
-	return s.HuatuoQAPairs
-}
-
-// GetMedicalQA returns the Medical QA data.
-func (s *Store) GetMedicalQA() *MedicalQAData {
-	_ = s.ensureMedicalQA()
-	s.mu.RLock()
-	defer s.mu.RUnlock()
-	return s.MedicalQAData
 }
 
 // GetTTDData returns the TTD data.

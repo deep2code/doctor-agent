@@ -4,7 +4,6 @@ import (
 	"context"
 	"fmt"
 	"regexp"
-	"sort"
 	"strings"
 
 	"github.com/doctor-agent/internal/knowledge"
@@ -13,8 +12,8 @@ import (
 // KnowledgeSearch is the unified knowledge retrieval tool that replaces ~20
 // specialized retrieval tools (reference_lookup, msd_search, nhc_search,
 // fhs_search, aap_search, medline_search, literature_search,
-// disease_encyclopedia_lookup, huatuo_qa_lookup, medical_qa_lookup,
-// body_part_lookup, milestone_lookup, newborn_care_lookup).
+// disease_encyclopedia_lookup, body_part_lookup, milestone_lookup,
+// newborn_care_lookup).
 //
 // It dispatches to the appropriate retrieval backend based on the dataset
 // parameter, combining the hybrid retriever (keyword + vector) for general
@@ -56,8 +55,6 @@ var knowledgeSearchDatasets = []datasetSpec{
 	{"medlinezh", "MedlinePlus中文医学百科"},
 	{"literature", "欧洲PMC文献摘要"},
 	{"disease_encyclopedia", "疾病百科(CMeKG 8807种疾病)"},
-	{"huatuo_qa", "华佗医疗问答(177K条)"},
-	{"medical_qa", "中文医疗问答(50万条)"},
 	{"body_part", "人体部位分诊"},
 	{"milestone", "儿童发育里程碑"},
 	{"newborn_care", "新生儿护理与筛查"},
@@ -112,10 +109,6 @@ func (t *KnowledgeSearch) Schema() map[string]any {
 				"type":        "integer",
 				"description": "返回结果数量（默认 5，最大 10）",
 			},
-			"department": map[string]any{
-				"type":        "string",
-				"description": "科室筛选（仅 huatuo_qa/medical_qa 数据集使用，可选）",
-			},
 			"age_months": map[string]any{
 				"type":        "integer",
 				"description": "月龄（仅 milestone 数据集使用）：提供时返回该月龄对应的发育里程碑清单",
@@ -149,7 +142,6 @@ func (t *KnowledgeSearch) Execute(ctx context.Context, input map[string]any) (*T
 		topK = int(v)
 	}
 
-	dept, _ := input["department"].(string)
 	ageMonths := -1
 	if v, ok := input["age_months"].(float64); ok {
 		ageMonths = int(v)
@@ -174,10 +166,6 @@ func (t *KnowledgeSearch) Execute(ctx context.Context, input map[string]any) (*T
 		return t.searchLiterature(ctx, query, topK)
 	case "disease_encyclopedia":
 		return t.searchDiseaseEncyclopedia(query, topK)
-	case "huatuo_qa":
-		return t.searchHuatuoQA(query, dept, topK)
-	case "medical_qa":
-		return t.searchMedicalQA(query, dept, topK)
 	case "body_part":
 		return t.searchBodyPart(query)
 	case "milestone":
@@ -585,136 +573,6 @@ func (t *KnowledgeSearch) searchDiseaseEncyclopedia(query string, topK int) (*To
 		})
 	}
 	return successResult(query, "disease_encyclopedia", matches), nil
-}
-
-// searchHuatuoQA searches the Huatuo26M-Lite medical QA dataset (177K pairs).
-func (t *KnowledgeSearch) searchHuatuoQA(query, dept string, limit int) (*ToolResult, error) {
-	pairs := t.store.GetHuatuoQA()
-	if pairs == nil {
-		return &ToolResult{Success: false, Error: "Huatuo QA data not loaded"}, nil
-	}
-	if limit > 20 {
-		limit = 20
-	}
-
-	lq := strings.ToLower(query)
-	type qaResult struct {
-		ID       int
-		Question string
-		Answer   string
-		Dept     string
-		Score    int
-		Disease  string
-	}
-	var results []qaResult
-
-	for _, qa := range pairs.QAPairs {
-		if dept != "" && qa.Department != dept {
-			continue
-		}
-		score := scoreQAPair(qa.Question, qa.Answer, qa.RelatedDiseases, lq)
-		if score > 0 {
-			results = append(results, qaResult{
-				ID: qa.ID, Question: qa.Question, Answer: qa.Answer,
-				Dept: qa.Department, Score: score, Disease: qa.RelatedDiseases,
-			})
-		}
-	}
-
-	sort.SliceStable(results, func(i, j int) bool { return results[i].Score > results[j].Score })
-	if len(results) > limit {
-		results = results[:limit]
-	}
-	if len(results) == 0 {
-		return emptyResult(query, "huatuo_qa", "华佗医疗问答库中未找到与 '%s' 相关的问答。")
-	}
-
-	items := make([]map[string]any, 0, len(results))
-	for _, r := range results {
-		items = append(items, map[string]any{
-			"id":              r.ID,
-			"department":      r.Dept,
-			"question":        truncate(r.Question, 100),
-			"answer":          truncate(r.Answer, 300),
-			"related_disease": r.Disease,
-			"score":           r.Score,
-		})
-	}
-	return &ToolResult{
-		Success: true,
-		Data: map[string]any{
-			"query":        query,
-			"dataset":      "huatuo_qa",
-			"result_count": len(items),
-			"results":      items,
-		},
-		Citations: []CitationRef{
-			{ID: "huatuo26m-lite", Title: "Huatuo26M-Lite Medical QA Dataset", Level: "community"},
-		},
-	}, nil
-}
-
-// searchMedicalQA searches the Chinese medical QA dataset (500K pairs).
-func (t *KnowledgeSearch) searchMedicalQA(query, dept string, limit int) (*ToolResult, error) {
-	data := t.store.GetMedicalQA()
-	if data == nil {
-		return &ToolResult{Success: false, Error: "Medical QA data not loaded"}, nil
-	}
-	if limit > 20 {
-		limit = 20
-	}
-
-	lq := strings.ToLower(query)
-	type qaResult struct {
-		Question string
-		Answer   string
-		Dept     string
-		Score    int
-	}
-	var results []qaResult
-
-	for _, qa := range data.QAPairs {
-		if dept != "" && qa.Department != dept {
-			continue
-		}
-		score := scoreQAPair(qa.Question, qa.Answer, "", lq)
-		if score > 0 {
-			results = append(results, qaResult{
-				Question: qa.Question, Answer: qa.Answer,
-				Dept: qa.Department, Score: score,
-			})
-		}
-	}
-
-	sort.SliceStable(results, func(i, j int) bool { return results[i].Score > results[j].Score })
-	if len(results) > limit {
-		results = results[:limit]
-	}
-	if len(results) == 0 {
-		return emptyResult(query, "medical_qa", "中文医疗问答库中未找到与 '%s' 相关的问答。")
-	}
-
-	items := make([]map[string]any, 0, len(results))
-	for _, r := range results {
-		items = append(items, map[string]any{
-			"department": r.Dept,
-			"question":   truncate(r.Question, 100),
-			"answer":     truncate(r.Answer, 300),
-			"score":      r.Score,
-		})
-	}
-	return &ToolResult{
-		Success: true,
-		Data: map[string]any{
-			"query":        query,
-			"dataset":      "medical_qa",
-			"result_count": len(items),
-			"results":      items,
-		},
-		Citations: []CitationRef{
-			{ID: "medical-qa", Title: "Chinese Medical Dialogue Dataset", Level: "community"},
-		},
-	}, nil
 }
 
 // searchBodyPart looks up body-part triage info (conditions, red flags, departments).

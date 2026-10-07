@@ -9,7 +9,7 @@
 - **每条回答有据可查**：事实性陈述必须标注引用编号 `[N]`，附DOI/PMID和证据等级
 - **全人群覆盖**：覆盖地贫、G6PD缺乏症、鼻咽癌、乙肝、乳糖不耐受、ALDH2酒精代谢缺陷等中国重点高发疾病
 - **三层安全防护**：紧急检测(零延迟120响应) → 范围检查 → 引用验证（答案尾部的免责声明 2026-09-06 已按产品决策移除，见下文「架构」一节）
-- **超大知识库**：119 个源文件 / 39 个数据集目录（知识库版本 v1.56.0，共 1,385,514 行）——WHO/国家临床 ICD-10+ICD-11/HPO/Orphanet/ICD-O-3 编码库、60 万+医患问答、10 个统一语料全文源（StatPearls/MedlinePlus Genetics/LactMed/精神障碍诊疗规范/急救手册/旅行医学…）、13 个活跃工具
+- **超大知识库**：119 个源文件 / 37 个数据集目录（知识库版本 v1.57.0，共 780,833 行）——WHO/国家临床 ICD-10+ICD-11/HPO/Orphanet/ICD-O-3 编码库、10 个统一语料全文源（StatPearls/MedlinePlus Genetics/LactMed/精神障碍诊疗规范/急救手册/旅行医学…）、13 个活跃工具
 
 ## 📋 中国重点疾病覆盖
 
@@ -41,8 +41,6 @@
 | OpenCMKG 三元组 | 354,752 | 疾病-症状-药物-食物关系 |
 | CPubMed-KG 三元组 | 105,328 | PubMed 中文文献挖掘 |
 | CMeKG 疾病百科 | 8,807 | 症状/病因/治疗/药物/食物 |
-| **华佗26M问答** | **177,703** | **16科室，2,701种疾病** |
-| **综合医患问答** | **426,978** | 含源芯医患对话（儿科等） |
 | 默沙东诊疗手册 | 6,127 | 大众版+专业版全文 |
 | MedlinePlus | 1,017 + 201 | 英文健康百科 + 中文多语言材料 |
 | 统一语料全文 (corpus×10) | 14,976 | StatPearls 9,644 / LactMed 哺乳期用药 1,948 / MedlinePlus Genetics 2,830 / 精神障碍诊疗规范 96 节 / WHO 旅行医学 193 国 / 红十字急救 21 / 中国疾控科普 11 / OTC 用药安全 8 + 说明书 24 / 中文 MedlinePlus 201（与上行同计，不重复累加） |
@@ -601,7 +599,7 @@ HTTP 层另有安全中间件（顺序固定）：可信代理解析访客 IP �
 12. **visit_prep** — 就诊准备工具
 13. **medical_image_analyze** — 医学影像分析（解剖图）
 
-> 📝 注：其他工具（reference_lookup, literature_search, msd_search, medline_search, drug_lookup, eml_lookup, nhc_search, fhs_search, aap_search, lab_interpreter, icd10_lookup, nmpa_drug_lookup, disease_encyclopedia_lookup, huatuo_qa_lookup, body_part_lookup, growth_assessment, milestone_lookup, newborn_care_lookup, symptom_checker 等）已整合到 knowledge_search / exact_lookup 统一检索架构中（variant 查询并入 exact_lookup type=variant）。
+> 📝 注：其他工具（reference_lookup, literature_search, msd_search, medline_search, drug_lookup, eml_lookup, nhc_search, fhs_search, aap_search, lab_interpreter, icd10_lookup, nmpa_drug_lookup, disease_encyclopedia_lookup, body_part_lookup, growth_assessment, milestone_lookup, newborn_care_lookup, symptom_checker 等）已整合到 knowledge_search / exact_lookup 统一检索架构中（variant 查询并入 exact_lookup type=variant）。
 
 ## 📁 项目结构
 
@@ -623,9 +621,9 @@ doctor-agent/
 │   ├── session/                      # 会话状态 + PatientContext + SESSION_DIR JSON 快照
 │   ├── prompt/                       # 分层系统提示词（静态 8 层可缓存前缀 + 动态段，见 internal/prompt/AGENTS.md）
 │   ├── knowledge/                    # 知识库(MariaDB 懒加载 + Qdrant 向量) + 各检索器 + 引用系统 + verify.go
-│   │   ├── data/                     # 119个源JSON（39 个 <dataset>/ 目录；目录名就是数据集，无需登记。编辑后跑 python3 external/make_gz.py → gz/<dataset>/*.json.zst，共 121 个归档）
-│   │   │                             #   超过 GitHub 单文件 100MiB 的两份（huatuo/huatuo_qa、medicalqa/medical_qa_pairs）以
-│   │   │                             #   <dataset>/X.json.partNNN + X.json.parts 分片入库，make_gz 会自动合并
+│   │   ├── data/                     # 119个源JSON（37 个 <dataset>/ 目录；目录名就是数据集，无需登记。编辑后跑 python3 external/make_gz.py → gz/<dataset>/*.json.zst，共 119 个归档）
+│   │   │                             #   超过 GitHub 单文件 100MiB 的源要用 external/split_data.py 切成 <dataset>/X.json.partNNN + X.json.parts，make_gz 会自动合并；
+│   │   │                             #   2026-10-07 删掉两份问答语料后，仓库里目前没有分片文件
 │   │   └── gz/                       # zstd 压缩的种子文件（seed/bake 输入，二进制不内嵌）
 │   ├── tools/                        # 13个活跃工具 + Registry + router(知识图谱意图路由)
 │   ├── safety/                       # 三层安全防护（紧急检测/范围守卫/引用后验证；无免责声明层，见 safety/AGENTS.md）

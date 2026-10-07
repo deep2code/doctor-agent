@@ -1,0 +1,439 @@
+[
+ {
+  "alias": "女人",
+  "canonical": "女性",
+  "min_runes": 2,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "icd11"
+  ]
+ },
+ {
+  "alias": "性传播疾病",
+  "canonical": "性病",
+  "min_runes": 2,
+  "alias_in_ours": [
+   "icd10"
+  ],
+  "canonical_in_ours": [
+   "diseaseenc"
+  ]
+ },
+ {
+  "alias": "毛发",
+  "canonical": "体毛",
+  "min_runes": 2,
+  "alias_in_ours": [
+   "icd11"
+  ],
+  "canonical_in_ours": [
+   "icd11"
+  ]
+ },
+ {
+  "alias": "泌尿",
+  "canonical": "泌尿系统",
+  "min_runes": 2,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "msd"
+  ]
+ },
+ {
+  "alias": "甲亢",
+  "canonical": "甲状腺机能亢进",
+  "min_runes": 2,
+  "alias_in_ours": [
+   "diseaseenc"
+  ],
+  "canonical_in_ours": []
+ },
+ {
+  "alias": "病菌",
+  "canonical": "细菌",
+  "min_runes": 2,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "icd11"
+  ]
+ },
+ {
+  "alias": "脑瘫",
+  "canonical": "脑性瘫痪",
+  "min_runes": 2,
+  "alias_in_ours": [
+   "msd"
+  ],
+  "canonical_in_ours": [
+   "diseaseenc",
+   "hpo"
+  ]
+ },
+ {
+  "alias": "菌类",
+  "canonical": "真菌",
+  "min_runes": 2,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "icd11"
+  ]
+ },
+ {
+  "alias": "阳痿",
+  "canonical": "勃起功能障碍",
+  "min_runes": 2,
+  "alias_in_ours": [
+   "diseaseenc",
+   "hpo"
+  ],
+  "canonical_in_ours": [
+   "diseaseenc",
+   "hpo",
+   "msd"
+  ]
+ },
+ {
+  "alias": "青春痘",
+  "canonical": "痤疮",
+  "min_runes": 2,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "diseaseenc",
+   "hpo",
+   "icd10",
+   "icd11",
+   "msd"
+  ]
+ },
+ {
+  "alias": "风湿",
+  "canonical": "风湿病",
+  "min_runes": 2,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "diseaseenc",
+   "icd10"
+  ]
+ },
+ {
+  "alias": "心理疾病",
+  "canonical": "精神病",
+  "min_runes": 3,
+  "alias_in_ours": [
+   "diseaseenc"
+  ],
+  "canonical_in_ours": [
+   "diseaseenc"
+  ]
+ },
+ {
+  "alias": "心脏疾病",
+  "canonical": "心脏病",
+  "min_runes": 3,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "diseaseenc",
+   "icd10"
+  ]
+ },
+ {
+  "alias": "皮肤病科疾病",
+  "canonical": "皮肤病",
+  "min_runes": 3,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "diseaseenc"
+  ]
+ },
+ {
+  "alias": "磺胺类",
+  "canonical": "磺胺类抗菌药物",
+  "min_runes": 3,
+  "alias_in_ours": [
+   "msd"
+  ],
+  "canonical_in_ours": []
+ },
+ {
+  "alias": "类风湿",
+  "canonical": "类风湿性关节炎",
+  "min_runes": 3,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "icd10",
+   "icd11",
+   "medical"
+  ]
+ },
+ {
+  "alias": "脊髓疾病",
+  "canonical": "脊髓病",
+  "min_runes": 3,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "icd10",
+   "icd11"
+  ]
+ },
+ {
+  "alias": "脑梗塞",
+  "canonical": "脑梗死",
+  "min_runes": 3,
+  "alias_in_ours": [
+   "diseaseenc"
+  ],
+  "canonical_in_ours": [
+   "diseaseenc",
+   "hpo",
+   "icd10"
+  ]
+ },
+ {
+  "alias": "遗传性疾病",
+  "canonical": "遗传病",
+  "min_runes": 3,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "diseaseenc"
+  ]
+ },
+ {
+  "alias": "银屑病",
+  "canonical": "牛皮癣",
+  "min_runes": 3,
+  "alias_in_ours": [
+   "diseaseenc",
+   "icd10",
+   "icd11",
+   "medical",
+   "msd"
+  ],
+  "canonical_in_ours": [
+   "diseaseenc"
+  ]
+ },
+ {
+  "alias": "高血脂",
+  "canonical": "高脂血症",
+  "min_runes": 3,
+  "alias_in_ours": [
+   "diseaseenc"
+  ],
+  "canonical_in_ours": [
+   "diseaseenc",
+   "hpo",
+   "icd10",
+   "medical"
+  ]
+ },
+ {
+  "alias": "Β内酰胺类",
+  "canonical": "β-内酰胺类抗生素",
+  "min_runes": 4,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "icd11"
+  ]
+ },
+ {
+  "alias": "内分泌疾病",
+  "canonical": "内分泌病",
+  "min_runes": 4,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "diseaseenc"
+  ]
+ },
+ {
+  "alias": "四环素类",
+  "canonical": "四环素类抗生素",
+  "min_runes": 4,
+  "alias_in_ours": [
+   "msd"
+  ],
+  "canonical_in_ours": []
+ },
+ {
+  "alias": "头霉素类",
+  "canonical": "头霉素类抗生素",
+  "min_runes": 4,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "icd11"
+  ]
+ },
+ {
+  "alias": "抗代谢药",
+  "canonical": "抗代谢物",
+  "min_runes": 4,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "icd11"
+  ]
+ },
+ {
+  "alias": "抗真菌药",
+  "canonical": "抗真菌药物",
+  "min_runes": 4,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "msd"
+  ]
+ },
+ {
+  "alias": "月经不调",
+  "canonical": "月经失调",
+  "min_runes": 4,
+  "alias_in_ours": [
+   "diseaseenc",
+   "hpo"
+  ],
+  "canonical_in_ours": []
+ },
+ {
+  "alias": "甲状腺疾病",
+  "canonical": "甲状腺病",
+  "min_runes": 4,
+  "alias_in_ours": [
+   "diseaseenc",
+   "msd"
+  ],
+  "canonical_in_ours": []
+ },
+ {
+  "alias": "老年痴呆",
+  "canonical": "阿兹海默病",
+  "min_runes": 4,
+  "alias_in_ours": [
+   "diseaseenc"
+  ],
+  "canonical_in_ours": []
+ },
+ {
+  "alias": "脑血管疾病",
+  "canonical": "脑血管病",
+  "min_runes": 4,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "diseaseenc",
+   "icd10"
+  ]
+ },
+ {
+  "alias": "螺旋体病",
+  "canonical": "螺旋体感染",
+  "min_runes": 4,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "icd10"
+  ]
+ },
+ {
+  "alias": "青霉素类",
+  "canonical": "青霉素类药物",
+  "min_runes": 4,
+  "alias_in_ours": [
+   "icd11",
+   "msd"
+  ],
+  "canonical_in_ours": []
+ },
+ {
+  "alias": "前列腺增生",
+  "canonical": "良性前列腺增生症",
+  "min_runes": 5,
+  "alias_in_ours": [
+   "diseaseenc",
+   "icd10",
+   "icd11"
+  ],
+  "canonical_in_ours": []
+ },
+ {
+  "alias": "大环内酯类",
+  "canonical": "大环内酯类抗生素",
+  "min_runes": 5,
+  "alias_in_ours": [
+   "msd"
+  ],
+  "canonical_in_ours": []
+ },
+ {
+  "alias": "循环系统疾病",
+  "canonical": "心血管疾病",
+  "min_runes": 5,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "diseaseenc",
+   "icd10",
+   "medical"
+  ]
+ },
+ {
+  "alias": "抗结核病药",
+  "canonical": "治疗结核病的药品列表",
+  "min_runes": 5,
+  "alias_in_ours": [
+   "icd11"
+  ],
+  "canonical_in_ours": []
+ },
+ {
+  "alias": "氨基糖苷类",
+  "canonical": "氨基糖苷类抗生素",
+  "min_runes": 5,
+  "alias_in_ours": [
+   "msd"
+  ],
+  "canonical_in_ours": []
+ },
+ {
+  "alias": "白细胞减少症",
+  "canonical": "白细胞减少",
+  "min_runes": 5,
+  "alias_in_ours": [
+   "diseaseenc"
+  ],
+  "canonical_in_ours": [
+   "icd10"
+  ]
+ },
+ {
+  "alias": "结缔组织疾病",
+  "canonical": "结缔组织病",
+  "min_runes": 5,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "icd10"
+  ]
+ },
+ {
+  "alias": "股骨头坏死",
+  "canonical": "股骨头缺血性坏死",
+  "min_runes": 5,
+  "alias_in_ours": [
+   "diseaseenc"
+  ],
+  "canonical_in_ours": [
+   "icd10"
+  ]
+ },
+ {
+  "alias": "头孢类抗生素",
+  "canonical": "头孢菌素类药物",
+  "min_runes": 6,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "msd"
+  ]
+ },
+ {
+  "alias": "Β内酰胺酶抑制剂",
+  "canonical": "Β-内酰胺酶抑制剂",
+  "min_runes": 7,
+  "alias_in_ours": [],
+  "canonical_in_ours": [
+   "icd11"
+  ]
+ }
+]

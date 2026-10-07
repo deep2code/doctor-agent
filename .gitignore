@@ -106,6 +106,8 @@ external/gomodcache/
 external/medgen/
 external/icd11/
 external/.cache/
+# A+医学百科抓取的原始 HTML/分类页/sitemap（142MB，全部可重抓；别名产物在 external/ahospital_aliases.json）
+external/ahospital/
 internal/knowledge/data/corpus/corpus_statpearls.json
 logs/*.log
 
